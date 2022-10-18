@@ -63570,6 +63570,1860 @@
 			}
 		},
 		"Nonskill": {
+			"Ardougne underground": {
+				"UnlocksArea": true
+			},
+			"Zanaris": {
+				"UnlocksArea": true
+			},
+			"Troll Stronghold": {
+				"UnlocksArea": true
+			},
+			"Yanille Dungeon": {
+				"UnlocksArea": true
+			},
+			"Tolna's Rift": {
+				"UnlocksArea": true
+			},
+			"Fremennik Dungeon": {
+				"UnlocksArea": true
+			},
+			"Wilderness Dungeons": {
+				"UnlocksArea": true
+			},
+			"Heist Lobby": {
+				"UnlocksArea": true
+			},
+			"White Wolf Mountain underground": {
+				"UnlocksArea": true
+			},
+			"Stronghold of Safety": {
+				"UnlocksArea": true
+			},
+			"Loading...": {
+				"UnlocksArea": true
+			},
+			"Dwarven Tunnel": {
+				"UnlocksArea": true
+			},
+			"Burgh de Rott Myreque Hideout": {
+				"UnlocksArea": true
+			},
+			"Soul Wars Tutorial": {
+				"UnlocksArea": true
+			},
+			"TzHaar City": {
+				"UnlocksArea": true
+			},
+			"Karamja Underground": {
+				"UnlocksArea": true
+			},
+			"Miscellania Underground": {
+				"UnlocksArea": true
+			},
+			"God Wars Dungeon": {
+				"UnlocksArea": true
+			},
+			"Gemstone cavern": {
+				"UnlocksArea": true
+			},
+			"Shilo village mine": {
+				"UnlocksArea": true
+			},
+			"Waterbirth Island Dungeon": {
+				"UnlocksArea": true
+			},
+			"Entrana Dungeon": {
+				"UnlocksArea": true
+			},
+			"Taverley Dungeon": {
+				"UnlocksArea": true
+			},
+			"Taverley Dungeon Hellhound Resource Dungeon": {
+				"UnlocksArea": true
+			},
+			"Taverley Dungeon Blue dragon Resource Dungeon": {
+				"UnlocksArea": true
+			},
+			"Braindeath Island": {
+				"UnlocksArea": true
+			},
+			"Kalphite Hive": {
+				"UnlocksArea": true
+			},
+			"Keldagrim": {
+				"UnlocksArea": true
+			},
+			"Kalphite Nursery": {
+				"UnlocksArea": true
+			},
+			"Ancient Keldagrim Ruins": {
+				"UnlocksArea": true
+			},
+			"Pollnivneach Dungeon": {
+				"UnlocksArea": true
+			},
+			"Player-Owned Port": {
+				"UnlocksArea": true
+			},
+			"Chaos Tunnels": {
+				"UnlocksArea": true
+			},
+			"Chaos Tunnels Resource Dungeon": {
+				"UnlocksArea": true
+			},
+			"Stronghold of Player Safety": {
+				"UnlocksArea": true
+			},
+			"Asgarnian Ice Dungeon": {
+				"UnlocksArea": true
+			},
+			"Living Wyvern Cave": {
+				"UnlocksArea": true
+			},
+			"Asgarnian Ice Dungeon resource dungeon": {
+				"UnlocksArea": true
+			},
+			"Dorgesh-Kaan": {
+				"UnlocksArea": true
+			},
+			"Mos Le'Harmless cave": {
+				"UnlocksArea": true
+			},
+			"Sparse plane": {
+				"UnlocksArea": true
+			},
+			"Ourania Altar": {
+				"UnlocksArea": true
+			},
+			"Tarn Razorlor's Lair": {
+				"UnlocksArea": true
+			},
+			"Tutorial cellar": {
+				"UnlocksArea": true
+			},
+			"Living Rock Caverns": {
+				"UnlocksArea": true
+			},
+			"Ancient Cavern": {
+				"UnlocksArea": true
+			},
+			"Spirit Plane": {
+				"UnlocksArea": true
+			},
+			"Zanaris Fairy HQ": {
+				"UnlocksArea": true
+			},
+			"Lava Flow Mine": {
+				"UnlocksArea": true
+			},
+			"Jadinko lair": {
+				"UnlocksArea": true
+			},
+			"Ascension Dungeon": {
+				"UnlocksArea": true
+			},
+			"Mountain camp cave": {
+				"UnlocksArea": true
+			},
+			"Grotworm Lair": {
+				"UnlocksArea": true
+			},
+			"Exiled Kalphite Hive": {
+				"UnlocksArea": true
+			},
+			"The Runespan": {
+				"UnlocksArea": true
+			},
+			"Borehole entrance": {
+				"UnlocksArea": true
+			},
+			"The borehole": {
+				"UnlocksArea": true
+			},
+			"The final platform": {
+				"UnlocksArea": true
+			},
+			"The Graveyard": {
+				"UnlocksArea": true
+			},
+			"Pig Pit Falador": {
+				"UnlocksArea": true
+			},
+			"Falador Farm storm cellar": {
+				"UnlocksArea": true
+			},
+			"Pig pit Lumbridge": {
+				"UnlocksArea": true
+			},
+			"Pig Pit Varrock": {
+				"UnlocksArea": true
+			},
+			"Pig Pit Ardougne": {
+				"UnlocksArea": true
+			},
+			"Queen Black Dragon's stomach": {
+				"UnlocksArea": true
+			},
+			"Cave complex": {
+				"UnlocksArea": true
+			},
+			"Music maze cave": {
+				"UnlocksArea": true
+			},
+			"Dreamer's Cave": {
+				"UnlocksArea": true
+			},
+			"Chasm": {
+				"UnlocksArea": true
+			},
+			"Phoenix Gang Hideout": {
+				"UnlocksArea": true
+			},
+			"Egg cave?": {
+				"UnlocksArea": true
+			},
+			"Crossroad": {
+				"UnlocksArea": true
+			},
+			"Grotworm Lair 1": {
+				"UnlocksArea": true
+			},
+			"Grotworm Lair 2": {
+				"UnlocksArea": true
+			},
+			"Grotworm Lair 3": {
+				"UnlocksArea": true
+			},
+			"Queen Black Dragon's lair": {
+				"UnlocksArea": true
+			},
+			"Kerapac's Vault": {
+				"UnlocksArea": true
+			},
+			"Scabaras Tomb": {
+				"UnlocksArea": true
+			},
+			"Het Tomb": {
+				"UnlocksArea": true
+			},
+			"Big Chinchompa nest": {
+				"UnlocksArea": true
+			},
+			"Ice cave": {
+				"UnlocksArea": true
+			},
+			"Grassland": {
+				"UnlocksArea": true
+			},
+			"Old Tower Shrine Room": {
+				"UnlocksArea": true
+			},
+			"Old Tower Stairwell": {
+				"UnlocksArea": true
+			},
+			"Old Tower Spellcasting Chamber": {
+				"UnlocksArea": true
+			},
+			"Old Tower Library": {
+				"UnlocksArea": true
+			},
+			"Old Tower Studies": {
+				"UnlocksArea": true
+			},
+			"Poison waste slayer dungeon": {
+				"UnlocksArea": true
+			},
+			"Draynor sewers": {
+				"UnlocksArea": true
+			},
+			"Doric's cave": {
+				"UnlocksArea": true
+			},
+			"Pretty Flower's Cave": {
+				"UnlocksArea": true
+			},
+			"Tunnels Near Keldagrim": {
+				"UnlocksArea": true
+			},
+			"Keldagrim Records Chamber": {
+				"UnlocksArea": true
+			},
+			"Keldagrim records chamber": {
+				"UnlocksArea": true
+			},
+			"Fist of Guthix lobby": {
+				"UnlocksArea": true
+			},
+			"Fist of Guthix waiting area": {
+				"UnlocksArea": true
+			},
+			"Fist of Guthix arena": {
+				"UnlocksArea": true
+			},
+			"Runecrafting Guild": {
+				"UnlocksArea": true
+			},
+			"Varrock": {
+				"UnlocksArea": true
+			},
+			"Barbarian Assault": {
+				"UnlocksArea": true
+			},
+			"Barbarian Assault lobby": {
+				"UnlocksArea": true
+			},
+			"Cheese rolling": {
+				"UnlocksArea": true
+			},
+			"Racetrack": {
+				"UnlocksArea": true
+			},
+			"Resource race": {
+				"UnlocksArea": true
+			},
+			"Kuradals dungeon": {
+				"UnlocksArea": true
+			},
+			"Mole lair": {
+				"UnlocksArea": true
+			},
+			"Varrock Museum": {
+				"UnlocksArea": true
+			},
+			"Lava flow mine": {
+				"UnlocksArea": true
+			},
+			"Train Station": {
+				"UnlocksArea": true
+			},
+			"ScapeRune": {
+				"UnlocksArea": true
+			},
+			"Beehive farm": {
+				"UnlocksArea": true
+			},
+			"Abbey of St. Elspeth Citharede Cellar": {
+				"UnlocksArea": true
+			},
+			"Pinball": {
+				"UnlocksArea": true
+			},
+			"Graveyard": {
+				"UnlocksArea": true
+			},
+			"Church": {
+				"UnlocksArea": true
+			},
+			"Room": {
+				"UnlocksArea": true
+			},
+			"Certers office": {
+				"UnlocksArea": true
+			},
+			"Sandwich shop": {
+				"UnlocksArea": true
+			},
+			"Party room": {
+				"UnlocksArea": true
+			},
+			"Player-owned house": {
+				"UnlocksArea": true
+			},
+			"Maze": {
+				"UnlocksArea": true
+			},
+			"Assault course": {
+				"UnlocksArea": true
+			},
+			"Classroom": {
+				"UnlocksArea": true
+			},
+			"Home": {
+				"UnlocksArea": true
+			},
+			"Games Room": {
+				"UnlocksArea": true
+			},
+			"Floating island": {
+				"UnlocksArea": true
+			},
+			"Gublinch cave": {
+				"UnlocksArea": true
+			},
+			"Blast furnace": {
+				"UnlocksArea": true
+			},
+			"Eagle's Peak cave": {
+				"UnlocksArea": true
+			},
+			"Mine": {
+				"UnlocksArea": true
+			},
+			"Vinesweeper": {
+				"UnlocksArea": true
+			},
+			"Camdozaal": {
+				"UnlocksArea": true
+			},
+			"King Black Dragon's Lair": {
+				"UnlocksArea": true
+			},
+			"Sabbot's cave": {
+				"UnlocksArea": true
+			},
+			"Meiyerditch mine": {
+				"UnlocksArea": true
+			},
+			"Mouse hole": {
+				"UnlocksArea": true
+			},
+			"Cosmic Rune Temple": {
+				"UnlocksArea": true
+			},
+			"Death Rune Temple": {
+				"UnlocksArea": true
+			},
+			"Chaos Rune Temple": {
+				"UnlocksArea": true
+			},
+			"Nature Rune Temple": {
+				"UnlocksArea": true
+			},
+			"Law Rune Temple": {
+				"UnlocksArea": true
+			},
+			"Body Rune Temple": {
+				"UnlocksArea": true
+			},
+			"Fire Rune Temple": {
+				"UnlocksArea": true
+			},
+			"Earth Rune Temple": {
+				"UnlocksArea": true
+			},
+			"Mind Rune Temple": {
+				"UnlocksArea": true
+			},
+			"Air Rune Temple": {
+				"UnlocksArea": true
+			},
+			"Blood Rune Temple": {
+				"UnlocksArea": true
+			},
+			"Water Rune Temple": {
+				"UnlocksArea": true
+			},
+			"Circus": {
+				"UnlocksArea": true
+			},
+			"Pyramid Plunder": {
+				"UnlocksArea": true
+			},
+			"Burthorpe Mine": {
+				"UnlocksArea": true
+			},
+			"Abandoned Burthorpe mine": {
+				"UnlocksArea": true
+			},
+			"Lumbridge Catacombs": {
+				"UnlocksArea": true
+			},
+			"Crucible lobby": {
+				"UnlocksArea": true
+			},
+			"Crucible": {
+				"UnlocksArea": true
+			},
+			"Puro-Puro": {
+				"UnlocksArea": true
+			},
+			"Stronghold of security": {
+				"UnlocksArea": true
+			},
+			"Troll cave": {
+				"UnlocksArea": true
+			},
+			"Dragonkin castle": {
+				"UnlocksArea": true
+			},
+			"Enchanted valley": {
+				"UnlocksArea": true
+			},
+			"Guthixian temple": {
+				"UnlocksArea": true
+			},
+			"Tower of Life": {
+				"UnlocksArea": true
+			},
+			"Killerwatt Plane": {
+				"UnlocksArea": true
+			},
+			"Thieves' Guild Start": {
+				"UnlocksArea": true
+			},
+			"Thieves' Guild after Caper 1": {
+				"UnlocksArea": true
+			},
+			"Thieves' Guild after Caper 2": {
+				"UnlocksArea": true
+			},
+			"Thieves' Guild Complete": {
+				"UnlocksArea": true
+			},
+			"Rogues' Den": {
+				"UnlocksArea": true
+			},
+			"The Abyss": {
+				"UnlocksArea": true
+			},
+			"Abyssal area": {
+				"UnlocksArea": true
+			},
+			"Courtroom": {
+				"UnlocksArea": true
+			},
+			"Black Knights Fortress Basement": {
+				"UnlocksArea": true
+			},
+			"Jail": {
+				"UnlocksArea": true
+			},
+			"Rat pit": {
+				"UnlocksArea": true
+			},
+			"Tunnel of Chaos": {
+				"UnlocksArea": true
+			},
+			"Tolna's Rage": {
+				"UnlocksArea": true
+			},
+			"Tolna's Fear": {
+				"UnlocksArea": true
+			},
+			"Tolna's Confusion": {
+				"UnlocksArea": true
+			},
+			"Tolna's Hopelessness": {
+				"UnlocksArea": true
+			},
+			"Tolna's Hope": {
+				"UnlocksArea": true
+			},
+			"Wizards' Tower": {
+				"UnlocksArea": true
+			},
+			"Arzinian Gold Mine": {
+				"UnlocksArea": true
+			},
+			"Stronghold": {
+				"UnlocksArea": true
+			},
+			"Rock Island Prison": {
+				"UnlocksArea": true
+			},
+			"Desert Mining Camp Cave": {
+				"UnlocksArea": true
+			},
+			"Iban's Lair": {
+				"UnlocksArea": true
+			},
+			"Temple of Light": {
+				"UnlocksArea": true
+			},
+			"Easter 2011": {
+				"UnlocksArea": true
+			},
+			"Easter 2009": {
+				"UnlocksArea": true
+			},
+			"Easter 2010": {
+				"UnlocksArea": true
+			},
+			"Easter 2007": {
+				"UnlocksArea": true
+			},
+			"Xmas 2005": {
+				"UnlocksArea": true
+			},
+			"Xmas 2008": {
+				"UnlocksArea": true
+			},
+			"Xmas 2007": {
+				"UnlocksArea": true
+			},
+			"Xmas 2009": {
+				"UnlocksArea": true
+			},
+			"Xmas 2010": {
+				"UnlocksArea": true
+			},
+			"Xmas 2011": {
+				"UnlocksArea": true
+			},
+			"Xmas 2016": {
+				"UnlocksArea": true
+			},
+			"Hallowe'en 2006": {
+				"UnlocksArea": true
+			},
+			"Hallowe'en 2007": {
+				"UnlocksArea": true
+			},
+			"Hallowe'en 2009": {
+				"UnlocksArea": true
+			},
+			"hallowe'en 2010": {
+				"UnlocksArea": true
+			},
+			"hallowe'en 2011": {
+				"UnlocksArea": true
+			},
+			"Elder Kiln": {
+				"UnlocksArea": true
+			},
+			"Fight Cave": {
+				"UnlocksArea": true
+			},
+			"TzHaar Theatre": {
+				"UnlocksArea": true
+			},
+			"Celestial Dragon Dungeon": {
+				"UnlocksArea": true
+			},
+			"TokTz-Ket-Dill's Lair": {
+				"UnlocksArea": true
+			},
+			"Armadillo nest": {
+				"UnlocksArea": true
+			},
+			"TzHaar tunnels": {
+				"UnlocksArea": true
+			},
+			"Agility Pyramid": {
+				"UnlocksArea": true
+			},
+			"Yanille": {
+				"UnlocksArea": true
+			},
+			"Phoenix's Lair": {
+				"UnlocksArea": true
+			},
+			"Crypt": {
+				"UnlocksArea": true
+			},
+			"Hetty's basement": {
+				"UnlocksArea": true
+			},
+			"Betty's basement": {
+				"UnlocksArea": true
+			},
+			"Forest": {
+				"UnlocksArea": true
+			},
+			"Watermill cellar": {
+				"UnlocksArea": true
+			},
+			"Red Axe caves": {
+				"UnlocksArea": true
+			},
+			"Battlefield": {
+				"UnlocksArea": true
+			},
+			"Abandoned mine tracks": {
+				"UnlocksArea": true
+			},
+			"Red Axe base": {
+				"UnlocksArea": true
+			},
+			"Consortium meeting room": {
+				"UnlocksArea": true
+			},
+			"Sigmund's base": {
+				"UnlocksArea": true
+			},
+			"Bandos's throne room": {
+				"UnlocksArea": true
+			},
+			"Small cave": {
+				"UnlocksArea": true
+			},
+			"Goblin temple crypt": {
+				"UnlocksArea": true
+			},
+			"Goblin temple": {
+				"UnlocksArea": true
+			},
+			"The Lady Lumbridge": {
+				"UnlocksArea": true
+			},
+			"Collapsing cave": {
+				"UnlocksArea": true
+			},
+			"Ruins of Uzer": {
+				"UnlocksArea": true
+			},
+			"Thammaron's throne room": {
+				"UnlocksArea": true
+			},
+			"Firemakers' Caves": {
+				"UnlocksArea": true
+			},
+			"Waiting room": {
+				"UnlocksArea": true
+			},
+			"The Primorial Realm": {
+				"UnlocksArea": true
+			},
+			"Goblin Village": {
+				"UnlocksArea": true
+			},
+			"Mage Training Arena basement": {
+				"UnlocksArea": true
+			},
+			"Polypore Dungeon": {
+				"UnlocksArea": true
+			},
+			"Sorceress' garden": {
+				"UnlocksArea": true
+			},
+			"H.AM. tunnel": {
+				"UnlocksArea": true
+			},
+			"Keldagrim Station": {
+				"UnlocksArea": true
+			},
+			"Dorgesh-Kaan Station": {
+				"UnlocksArea": true
+			},
+			"Dorgesh-Kaan Station construction site": {
+				"UnlocksArea": true
+			},
+			"Underground railway": {
+				"UnlocksArea": true
+			},
+			"Turael's basement": {
+				"UnlocksArea": true
+			},
+			"Rune Essence mine": {
+				"UnlocksArea": true
+			},
+			"Witchaven excavations": {
+				"UnlocksArea": true
+			},
+			"Temple Knight testing room": {
+				"UnlocksArea": true
+			},
+			"Land of Snow": {
+				"UnlocksArea": true
+			},
+			"Grand Tree": {
+				"UnlocksArea": true
+			},
+			"Oo'glog": {
+				"UnlocksArea": true
+			},
+			"H%2EA%2EM%2E store rooms": {
+				"UnlocksArea": true
+			},
+			"Soul Wars": {
+				"UnlocksArea": true
+			},
+			"Ourania Cave": {
+				"UnlocksArea": true
+			},
+			"Dominion Tower": {
+				"UnlocksArea": true
+			},
+			"Isle of Sann": {
+				"UnlocksArea": true
+			},
+			"Lumbridge Mine": {
+				"UnlocksArea": true
+			},
+			"Lumbridge cellar": {
+				"UnlocksArea": true
+			},
+			"Burgh de Rott underground": {
+				"UnlocksArea": true
+			},
+			"Haunted mine": {
+				"UnlocksArea": true
+			},
+			"Movario's base": {
+				"UnlocksArea": true
+			},
+			"House": {
+				"UnlocksArea": true
+			},
+			"Mage arena cave": {
+				"UnlocksArea": true
+			},
+			"Theatre": {
+				"UnlocksArea": true
+			},
+			"Ape Atoll": {
+				"UnlocksArea": true
+			},
+			"Fairy HQ": {
+				"UnlocksArea": true
+			},
+			"Canoe": {
+				"UnlocksArea": true
+			},
+			"Burthorpe Slayer Cave": {
+				"UnlocksArea": true
+			},
+			"Infernal Source": {
+				"UnlocksArea": true
+			},
+			"Star Lodge": {
+				"UnlocksArea": true
+			},
+			"Dungeon of Disorder": {
+				"UnlocksArea": true
+			},
+			"Shredflesh's Cave": {
+				"UnlocksArea": true
+			},
+			"Zanik's Lab": {
+				"UnlocksArea": true
+			},
+			"Baba Yaga's House": {
+				"UnlocksArea": true
+			},
+			"Yu'biusk": {
+				"UnlocksArea": true
+			},
+			"Lumbridge Cellar": {
+				"UnlocksArea": true
+			},
+			"Desert": {
+				"UnlocksArea": true
+			},
+			"Draynor": {
+				"UnlocksArea": true
+			},
+			"The Skullery": {
+				"UnlocksArea": true
+			},
+			"Iceburg": {
+				"UnlocksArea": true
+			},
+			"Red Raktuber": {
+				"UnlocksArea": true
+			},
+			"Submarine": {
+				"UnlocksArea": true
+			},
+			"Lumbridge": {
+				"UnlocksArea": true
+			},
+			"Sophanem Dungeon": {
+				"UnlocksArea": true
+			},
+			"Captain Barnaby's Ship": {
+				"UnlocksArea": true
+			},
+			"Tzhaar Caves": {
+				"UnlocksArea": true
+			},
+			"Abyss": {
+				"UnlocksArea": true
+			},
+			"Witchaven Dungeon": {
+				"UnlocksArea": true
+			},
+			"Slug Citadel": {
+				"UnlocksArea": true
+			},
+			"Daemonheim": {
+				"UnlocksArea": true
+			},
+			"Keep Le Faye": {
+				"UnlocksArea": true
+			},
+			"Waterbirth Dungeon": {
+				"UnlocksArea": true
+			},
+			"Silas's Dream": {
+				"UnlocksArea": true
+			},
+			"Fremennik spiritual realm": {
+				"UnlocksArea": true
+			},
+			"Rellekka": {
+				"UnlocksArea": true
+			},
+			"Fortress of Annakarl": {
+				"UnlocksArea": true
+			},
+			"Temple Knight archives": {
+				"UnlocksArea": true
+			},
+			"Kethsi library": {
+				"UnlocksArea": true
+			},
+			"The Barrows": {
+				"UnlocksArea": true
+			},
+			"Bank": {
+				"UnlocksArea": true
+			},
+			"Player Moderator Room": {
+				"UnlocksArea": true
+			},
+			"Rat Pit": {
+				"UnlocksArea": true
+			},
+			"Gorak Plane": {
+				"UnlocksArea": true
+			},
+			"The Battle of the Archipelago": {
+				"UnlocksArea": true
+			},
+			"Uzer Mastaba": {
+				"UnlocksArea": true
+			},
+			"Jalsavrah Pyramid": {
+				"UnlocksArea": true
+			},
+			"Cosmic Entity plane": {
+				"UnlocksArea": true
+			},
+			"Shady grove": {
+				"UnlocksArea": true
+			},
+			"Golrie's cave": {
+				"UnlocksArea": true
+			},
+			"Yewnock's cave": {
+				"UnlocksArea": true
+			},
+			"Grim Reaper's office": {
+				"UnlocksArea": true
+			},
+			"Nature grotto": {
+				"UnlocksArea": true
+			},
+			"Bloodsplatter Isle": {
+				"UnlocksArea": true
+			},
+			"Bolrie's lab": {
+				"UnlocksArea": true
+			},
+			"Lighthouse Dungeon": {
+				"UnlocksArea": true
+			},
+			"Edgeville Dungeon": {
+				"UnlocksArea": true
+			},
+			"Underwater Cave": {
+				"UnlocksArea": true
+			},
+			"Senntisten": {
+				"UnlocksArea": true
+			},
+			"Zamorakian Undercity": {
+				"UnlocksArea": true
+			},
+			"Dwarven Mine": {
+				"UnlocksArea": true
+			},
+			"Karamja Volcano Dungeon": {
+				"UnlocksArea": true
+			},
+			"Karamja Volcano Resource Dungeon": {
+				"UnlocksArea": true
+			},
+			"Mining Guild": {
+				"UnlocksArea": true
+			},
+			"Evil Chicken's Lair": {
+				"UnlocksArea": true
+			},
+			"Varrock Sewers": {
+				"UnlocksArea": true
+			},
+			"Object": {
+				"UnlocksArea": true
+			},
+			"Monster": {
+				"UnlocksArea": true
+			},
+			"Al Kharid Resource Dungeon": {
+				"UnlocksArea": true
+			},
+			"Brimhaven Dungeon": {
+				"UnlocksArea": true
+			},
+			"Brimhaven Dungeon resource dungeon": {
+				"UnlocksArea": true
+			},
+			"Edgeville Hill Giant Resource Dungeon": {
+				"UnlocksArea": true
+			},
+			"Edgeville Chaos Druids Resource Dungeon": {
+				"UnlocksArea": true
+			},
+			"Varrock Sewer Moss Giant Resource Dungeon": {
+				"UnlocksArea": true
+			},
+			"Dwarven Mine Hidden Mine": {
+				"UnlocksArea": true
+			},
+			"Mining Guild Hidden Mine": {
+				"UnlocksArea": true
+			},
+			"Brimhaven agility arena": {
+				"UnlocksArea": true
+			},
+			"Wilderness": {
+				"UnlocksArea": true
+			},
+			"Nomad's temple": {
+				"UnlocksArea": true
+			},
+			"Clan Wars": {
+				"UnlocksArea": true
+			},
+			"Realm Of The Culinaromancer": {
+				"UnlocksArea": true
+			},
+			"Crash site": {
+				"UnlocksArea": true
+			},
+			"Draynor Village": {
+				"UnlocksArea": true
+			},
+			"Toxic Waste Sewer": {
+				"UnlocksArea": true
+			},
+			"Fisher Realm": {
+				"UnlocksArea": true
+			},
+			"Troll Invasion": {
+				"UnlocksArea": true
+			},
+			"Burthorpe": {
+				"UnlocksArea": true
+			},
+			"Lighthouse": {
+				"UnlocksArea": true
+			},
+			"Meiyerditch Mine": {
+				"UnlocksArea": true
+			},
+			"Karamja Shipyard": {
+				"UnlocksArea": true
+			},
+			"Caverns under Arandar": {
+				"UnlocksArea": true
+			},
+			"Duel Arena": {
+				"UnlocksArea": true
+			},
+			"Tai Bwo Wannai Village": {
+				"UnlocksArea": true
+			},
+			"Summoning obelisk": {
+				"UnlocksArea": true
+			},
+			"Shadow Dungeon": {
+				"UnlocksArea": true
+			},
+			"Erjolf's cave": {
+				"UnlocksArea": true
+			},
+			"Ritual site cave": {
+				"UnlocksArea": true
+			},
+			"Elemental Workshop First Floor": {
+				"UnlocksArea": true
+			},
+			"Elemental Workshop Second Floor": {
+				"UnlocksArea": true
+			},
+			"Elemental Workshop Third Floor": {
+				"UnlocksArea": true
+			},
+			"Mogre camp": {
+				"UnlocksArea": true
+			},
+			"Rusty Anchor cellar": {
+				"UnlocksArea": true
+			},
+			"Chemist's laboratory": {
+				"UnlocksArea": true
+			},
+			"Kinshra Workshop": {
+				"UnlocksArea": true
+			},
+			"Black Knights' Fortress security rooms": {
+				"UnlocksArea": true
+			},
+			"Valluta's domain": {
+				"UnlocksArea": true
+			},
+			"Spirit Realm": {
+				"UnlocksArea": true
+			},
+			"Gnome glider hangar": {
+				"UnlocksArea": true
+			},
+			"The past": {
+				"UnlocksArea": true
+			},
+			"Desert island": {
+				"UnlocksArea": true
+			},
+			"Valluta's den": {
+				"UnlocksArea": true
+			},
+			"Fremennik fleet": {
+				"UnlocksArea": true
+			},
+			"Arposandran underground": {
+				"UnlocksArea": true
+			},
+			"Kharazi caves": {
+				"UnlocksArea": true
+			},
+			"Mermaid Island": {
+				"UnlocksArea": true
+			},
+			"Ship": {
+				"UnlocksArea": true
+			},
+			"Senntisten dig": {
+				"UnlocksArea": true
+			},
+			"Senntisten Temple": {
+				"UnlocksArea": true
+			},
+			"Tunnel": {
+				"UnlocksArea": true
+			},
+			"Spirit Realm demonic ruins": {
+				"UnlocksArea": true
+			},
+			"Spirit Realm Chaos Altar": {
+				"UnlocksArea": true
+			},
+			"Tunnel under Ice Mountain": {
+				"UnlocksArea": true
+			},
+			"Glacor cave": {
+				"UnlocksArea": true
+			},
+			"Tch'ki nut cave": {
+				"UnlocksArea": true
+			},
+			"Snake pit": {
+				"UnlocksArea": true
+			},
+			"Temple Knight HQ": {
+				"UnlocksArea": true
+			},
+			"Fishing trawler": {
+				"UnlocksArea": true
+			},
+			"Cavern crawlspace": {
+				"UnlocksArea": true
+			},
+			"Deadliest Catch": {
+				"UnlocksArea": true
+			},
+			"Ice Cave": {
+				"UnlocksArea": true
+			},
+			"Dagannoth Mother's chamber": {
+				"UnlocksArea": true
+			},
+			"Dagannoth hatchery": {
+				"UnlocksArea": true
+			},
+			"Dagannoth caves": {
+				"UnlocksArea": true
+			},
+			"Ocean": {
+				"UnlocksArea": true
+			},
+			"Stormguard Citadel": {
+				"UnlocksArea": true
+			},
+			"Howl's Workshop": {
+				"UnlocksArea": true
+			},
+			"Warforge Crucible": {
+				"UnlocksArea": true
+			},
+			"Warforge Tunnels": {
+				"UnlocksArea": true
+			},
+			"Thalmund's Forge": {
+				"UnlocksArea": true
+			},
+			"Bandos's Sanctuary": {
+				"UnlocksArea": true
+			},
+			"ScapeRune Party Room": {
+				"UnlocksArea": true
+			},
+			"Dragon forge": {
+				"UnlocksArea": true
+			},
+			"Orks Rift": {
+				"UnlocksArea": true
+			},
+			"Orks Rift entrance": {
+				"UnlocksArea": true
+			},
+			"Open sea": {
+				"UnlocksArea": true
+			},
+			"Sea battle": {
+				"UnlocksArea": true
+			},
+			"Dream world": {
+				"UnlocksArea": true
+			},
+			"Quiz master": {
+				"UnlocksArea": true
+			},
+			"Eagles' Peak": {
+				"UnlocksArea": true
+			},
+			"Sinclair Mansion": {
+				"UnlocksArea": true
+			},
+			"Quiz": {
+				"UnlocksArea": true
+			},
+			"Jaldraocht Pyramid": {
+				"UnlocksArea": true
+			},
+			"Flash Powder Factory": {
+				"UnlocksArea": true
+			},
+			"Gnomecopter tour": {
+				"UnlocksArea": true
+			},
+			"Korasi's dream": {
+				"UnlocksArea": true
+			},
+			"Jatizso troll cave": {
+				"UnlocksArea": true
+			},
+			"Miscellania cave": {
+				"UnlocksArea": true
+			},
+			"Penguin outpost": {
+				"UnlocksArea": true
+			},
+			"Piscatoris summoning cave": {
+				"UnlocksArea": true
+			},
+			"Agility course pit": {
+				"UnlocksArea": true
+			},
+			"Brimstail's home": {
+				"UnlocksArea": true
+			},
+			"Grand Tree mine": {
+				"UnlocksArea": true
+			},
+			"Glarial's tomb": {
+				"UnlocksArea": true
+			},
+			"Golrie's hideout": {
+				"UnlocksArea": true
+			},
+			"Varrock West Bank Cellar": {
+				"UnlocksArea": true
+			},
+			"Skavid cave": {
+				"UnlocksArea": true
+			},
+			"Yanille Agility Dungeon": {
+				"UnlocksArea": true
+			},
+			"Western Ardougne sewer": {
+				"UnlocksArea": true
+			},
+			"Chaos Druid Tower Dungeon": {
+				"UnlocksArea": true
+			},
+			"Isafdar underground": {
+				"UnlocksArea": true
+			},
+			"Troll tunnels": {
+				"UnlocksArea": true
+			},
+			"Temple of Ikov": {
+				"UnlocksArea": true
+			},
+			"Keldagrim entrance tunnel": {
+				"UnlocksArea": true
+			},
+			"Fishing Guild cave": {
+				"UnlocksArea": true
+			},
+			"Rantz's house": {
+				"UnlocksArea": true
+			},
+			"Cairn Island Dungeon": {
+				"UnlocksArea": true
+			},
+			"Gem mine": {
+				"UnlocksArea": true
+			},
+			"Desert temple": {
+				"UnlocksArea": true
+			},
+			"Office": {
+				"UnlocksArea": true
+			},
+			"Cellar": {
+				"UnlocksArea": true
+			},
+			"Melzar's Maze": {
+				"UnlocksArea": true
+			},
+			"Rat pits": {
+				"UnlocksArea": true
+			},
+			"H%2EA%2EM%2E Cave": {
+				"UnlocksArea": true
+			},
+			"Champions' Arena": {
+				"UnlocksArea": true
+			},
+			"Castle Wars": {
+				"UnlocksArea": true
+			},
+			"Columbarium": {
+				"UnlocksArea": true
+			},
+			"Paterdomus": {
+				"UnlocksArea": true
+			},
+			"Fenkenstrain's Dungeon": {
+				"UnlocksArea": true
+			},
+			"Werewolf Agility Course": {
+				"UnlocksArea": true
+			},
+			"Port Phasmatys Distillery": {
+				"UnlocksArea": true
+			},
+			"Ectofuntus": {
+				"UnlocksArea": true
+			},
+			"Meiyerditch Myreque base": {
+				"UnlocksArea": true
+			},
+			"Citharede Abbey basement": {
+				"UnlocksArea": true
+			},
+			"Dwarf tunnel": {
+				"UnlocksArea": true
+			},
+			"Ramarno's forge": {
+				"UnlocksArea": true
+			},
+			"Legends' Guild Dungeon": {
+				"UnlocksArea": true
+			},
+			"Pyramid": {
+				"UnlocksArea": true
+			},
+			"Gamers' Grotto": {
+				"UnlocksArea": true
+			},
+			"Bank vault": {
+				"UnlocksArea": true
+			},
+			"Asgarnia Ice Cave": {
+				"UnlocksArea": true
+			},
+			"Observatory": {
+				"UnlocksArea": true
+			},
+			"Underwater cave": {
+				"UnlocksArea": true
+			},
+			"Ghorrock Fortress Dungeon": {
+				"UnlocksArea": true
+			},
+			"Mage Training Arena": {
+				"UnlocksArea": true
+			},
+			"Genie's Cave": {
+				"UnlocksArea": true
+			},
+			"Clocktower Dungeon": {
+				"UnlocksArea": true
+			},
+			"Interrogation room": {
+				"UnlocksArea": true
+			},
+			"Mos Le'Harmless caves": {
+				"UnlocksArea": true
+			},
+			"Elvarg's lair": {
+				"UnlocksArea": true
+			},
+			"Artisans' Workshop": {
+				"UnlocksArea": true
+			},
+			"Draynor Manor basement": {
+				"UnlocksArea": true
+			},
+			"Pollninveach Dungeon": {
+				"UnlocksArea": true
+			},
+			"Tomb of Catolax": {
+				"UnlocksArea": true
+			},
+			"Scabaras Dungeon": {
+				"UnlocksArea": true
+			},
+			"Brine rat caverns": {
+				"UnlocksArea": true
+			},
+			"Lava Maze Dungeon": {
+				"UnlocksArea": true
+			},
+			"Deep Wilderness Dungeon": {
+				"UnlocksArea": true
+			},
+			"Jiggig Dungeon": {
+				"UnlocksArea": true
+			},
+			"Conquest": {
+				"UnlocksArea": true
+			},
+			"Water Ravine Dungeon": {
+				"UnlocksArea": true
+			},
+			"Barrows": {
+				"UnlocksArea": true
+			},
+			"Ogre enclave": {
+				"UnlocksArea": true
+			},
+			"Rashiliyia's tomb": {
+				"UnlocksArea": true
+			},
+			"Pothole Dungeon": {
+				"UnlocksArea": true
+			},
+			"Heroes' Guild mine": {
+				"UnlocksArea": true
+			},
+			"Ice Queen's lair": {
+				"UnlocksArea": true
+			},
+			"Black Arm Gang hideout": {
+				"UnlocksArea": true
+			},
+			"Beneath Iban's lair": {
+				"UnlocksArea": true
+			},
+			"Underground Pass": {
+				"UnlocksArea": true
+			},
+			"Black Knights' catacombs": {
+				"UnlocksArea": true
+			},
+			"Chaos Temple Dungeon": {
+				"UnlocksArea": true
+			},
+			"Kitchen": {
+				"UnlocksArea": true
+			},
+			"Dragontooth shipwreck": {
+				"UnlocksArea": true
+			},
+			"Eastern Ardougne sewer": {
+				"UnlocksArea": true
+			},
+			"Southern Ardougne sewer": {
+				"UnlocksArea": true
+			},
+			"Claus' Kitchen": {
+				"UnlocksArea": true
+			},
+			"Agility Arena": {
+				"UnlocksArea": true
+			},
+			"Smoke Dungeon": {
+				"UnlocksArea": true
+			},
+			"Hallows Myreque Hideout": {
+				"UnlocksArea": true
+			},
+			"Shade Catacombs": {
+				"UnlocksArea": true
+			},
+			"Meiyerditch Laboratories": {
+				"UnlocksArea": true
+			},
+			"Windmill cellar": {
+				"UnlocksArea": true
+			},
+			"Beneath Harmony Island": {
+				"UnlocksArea": true
+			},
+			"Forinthry Dungeon": {
+				"UnlocksArea": true
+			},
+			"Kalphite tunnel": {
+				"UnlocksArea": true
+			},
+			"Eagles' eyrie": {
+				"UnlocksArea": true
+			},
+			"Goblin mines": {
+				"UnlocksArea": true
+			},
+			"Lumbridge Swamp caves": {
+				"UnlocksArea": true
+			},
+			"Wizards' Tower basement": {
+				"UnlocksArea": true
+			},
+			"Jhallan's resting place": {
+				"UnlocksArea": true
+			},
+			"Ritual plateau tunnels": {
+				"UnlocksArea": true
+			},
+			"Ape Atoll tunnels": {
+				"UnlocksArea": true
+			},
+			"Jungle demon lair": {
+				"UnlocksArea": true
+			},
+			"Temple of Marimbo Dungeon": {
+				"UnlocksArea": true
+			},
+			"Dig Site caves": {
+				"UnlocksArea": true
+			},
+			"Waterfall cave": {
+				"UnlocksArea": true
+			},
+			"Eadgar's cave": {
+				"UnlocksArea": true
+			},
+			"Tunnel to Trollheim": {
+				"UnlocksArea": true
+			},
+			"Varrock Dig Site caves": {
+				"UnlocksArea": true
+			},
+			"Blue Moon Inn cellar": {
+				"UnlocksArea": true
+			},
+			"Crate interior": {
+				"UnlocksArea": true
+			},
+			"Escape route": {
+				"UnlocksArea": true
+			},
+			"Desert obelisk": {
+				"UnlocksArea": true
+			},
+			"Pit": {
+				"UnlocksArea": true
+			},
+			"Tears Of Guthix cavern": {
+				"UnlocksArea": true
+			},
+			"Temple Of Ikov": {
+				"UnlocksArea": true
+			},
+			"Lunar Isle Mine": {
+				"UnlocksArea": true
+			},
+			"Clan Citadel": {
+				"UnlocksArea": true
+			},
+			"Dungeoneering": {
+				"UnlocksArea": true
+			},
+			"Guthixian ruins": {
+				"UnlocksArea": true
+			},
+			"Naragi homeworld": {
+				"UnlocksArea": true
+			},
+			"Ritual of the Mahjarrat": {
+				"UnlocksArea": true
+			},
+			"A Void Dance": {
+				"UnlocksArea": true
+			},
+			"Mr Mordaut Tribute": {
+				"UnlocksArea": true
+			},
+			"Evil Bob Tribute": {
+				"UnlocksArea": true
+			},
+			"Armadyl's Citadel": {
+				"UnlocksArea": true
+			},
+			"Barrows Graveyard": {
+				"UnlocksArea": true
+			},
+			"Myreque Hideout": {
+				"UnlocksArea": true
+			},
+			"Crypt of Vanarus": {
+				"UnlocksArea": true
+			},
+			"Observation Outpost": {
+				"UnlocksArea": true
+			},
+			"Xolo City": {
+				"UnlocksArea": true
+			},
+			"Moksha Ritual Site": {
+				"UnlocksArea": true
+			},
+			"The Approach": {
+				"UnlocksArea": true
+			},
+			"Invention Guild": {
+				"UnlocksArea": true
+			},
+			"The Sanctum": {
+				"UnlocksArea": true
+			},
+			"The Pit": {
+				"UnlocksArea": true
+			},
+			"The Cradle": {
+				"UnlocksArea": true
+			},
+			"The Elder Halls": {
+				"UnlocksArea": true
+			},
+			"Limbo": {
+				"UnlocksArea": true
+			},
+			"Ashdale Caves": {
+				"UnlocksArea": true
+			},
+			"Ashdale Sewers": {
+				"UnlocksArea": true
+			},
+			"Kal'gerion Dungeon": {
+				"UnlocksArea": true
+			},
+			"Bandos' Arena on Yu'biusk": {
+				"UnlocksArea": true
+			},
+			"Araxyte lair": {
+				"UnlocksArea": true
+			},
+			"Araxyte graveyard": {
+				"UnlocksArea": true
+			},
+			"Fight Cauldron": {
+				"UnlocksArea": true
+			},
+			"Silverlight Crypt": {
+				"UnlocksArea": true
+			},
+			"Zamorakian Crypt": {
+				"UnlocksArea": true
+			},
+			"Gorajo resource dungeon": {
+				"UnlocksArea": true
+			},
+			"Edimmu Dungeon": {
+				"UnlocksArea": true
+			},
+			"Sliske's Vault": {
+				"UnlocksArea": true
+			},
+			"New Varrock": {
+				"UnlocksArea": true
+			},
+			"Mount Firewake": {
+				"UnlocksArea": true
+			},
+			"Brimhaven Adamant Dungeon": {
+				"UnlocksArea": true
+			},
+			"V's Island (interior)": {
+				"UnlocksArea": true
+			},
+			"Mazcab": {
+				"UnlocksArea": true
+			},
+			"Nemi forest clearing": {
+				"UnlocksArea": true
+			},
+			"Capture Square": {
+				"UnlocksArea": true
+			},
+			"Hallowe'en 2015": {
+				"UnlocksArea": true
+			},
+			"Wyverns": {
+				"UnlocksArea": true
+			},
+			"Ripper Demons": {
+				"UnlocksArea": true
+			},
+			"Guthixian Cache": {
+				"UnlocksArea": true
+			},
+			"Sunken tutorial island": {
+				"UnlocksArea": true
+			},
+			"Sunken Tutorial Island cavern": {
+				"UnlocksArea": true
+			},
+			"Nomad's Fortress": {
+				"UnlocksArea": true
+			},
+			"Tarddiad": {
+				"UnlocksArea": true
+			},
+			"The Heart": {
+				"UnlocksArea": true
+			},
+			"The Arc": {
+				"UnlocksArea": true
+			},
+			"RuneFest Treasure Island": {
+				"UnlocksArea": true
+			},
+			"North Falador": {
+				"UnlocksArea": true
+			},
+			"Shattered Worlds": {
+				"UnlocksArea": true
+			},
+			"Easter": {
+				"UnlocksArea": true
+			},
+			"Shifting tombs": {
+				"UnlocksArea": true
+			},
+			"Sunken pyramid": {
+				"UnlocksArea": true
+			},
+			"Sophanem Slayer Dungeon": {
+				"UnlocksArea": true
+			},
+			"Deep Sea Fishing Hub": {
+				"UnlocksArea": true
+			},
+			"Tutorial Island": {
+				"UnlocksArea": true
+			},
+			"Underwater Area": {
+				"UnlocksArea": true
+			},
+			"Hall of Memories": {
+				"UnlocksArea": true
+			},
+			"Aminishi Dungeon": {
+				"UnlocksArea": true
+			},
+			"Empty Throne Room": {
+				"UnlocksArea": true
+			},
+			"Ice troll cave": {
+				"UnlocksArea": true
+			},
+			"Varrock Dig Site dungeon": {
+				"UnlocksArea": true
+			},
+			"Meiyerditch Daeyalt Mine": {
+				"UnlocksArea": true
+			},
+			"Dondakan's Gold Mine": {
+				"UnlocksArea": true
+			},
+			"Tarshak's Sanctum": {
+				"UnlocksArea": true
+			},
+			"Tutorial Island Underground": {
+				"UnlocksArea": true
+			},
+			"The Shadow Reef": {
+				"UnlocksArea": true
+			},
+			"Slayer Tower Resource Dungeon": {
+				"UnlocksArea": true
+			},
+			"Menaphos and Sophanem underground": {
+				"UnlocksArea": true
+			},
+			"Burthorpe underground": {
+				"UnlocksArea": true
+			},
+			"Kharid-Et Main Fortress": {
+				"UnlocksArea": true
+			},
+			"Kharid-Et Prison": {
+				"UnlocksArea": true
+			},
+			"Kharid-Et Praetorium": {
+				"UnlocksArea": true
+			},
+			"Dig Site: Everlight": {
+				"UnlocksArea": true
+			},
+			"Dig Site: Infernal Source": {
+				"UnlocksArea": true
+			},
+			"Dig Site: Stormguard - Howl's Workshop": {
+				"UnlocksArea": true
+			},
+			"Dig Site: Stormguard Citadel": {
+				"UnlocksArea": true
+			},
+			"Dig Site: Warforge": {
+				"UnlocksArea": true
+			},
+			"Dig Site: Orthen": {
+				"UnlocksArea": true
+			},
+			"Orthen Oubliette": {
+				"UnlocksArea": true
+			},
+			"Senntisten Colosseum": {
+				"UnlocksArea": true
+			},
+			"Temple of Aminishi": {
+				"UnlocksArea": true
+			},
+			"Dragonkin Laboratory": {
+				"UnlocksArea": true
+			},
+			"War's Retreat": {
+				"UnlocksArea": true
+			},
+			"Dorgesh-Kaan Agility course": {
+				"UnlocksArea": true
+			},
+			"Dragonkin Lair": {
+				"UnlocksArea": true
+			},
+			"Falador Mole Lair": {
+				"UnlocksArea": true
+			},
+			"King's Ransom Jail": {
+				"UnlocksArea": true
+			},
 			"Create a super explosive shaker*": {
 				"Items": ["Super explosive flask", "Rubium"],
 				"Output": "Super explosive shaker"
