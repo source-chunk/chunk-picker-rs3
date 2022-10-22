@@ -103293,6 +103293,7 @@
 				"Baby black dragon": 10,
 				"Giant ant worker": 10,
 				"Giant ant soldier": 11,
+				"Giant rock crab": 6,
 				"Big Wolf": 7,
 				"Dire Wolf": 7,
 				"Cave bug": 23,
@@ -105421,7 +105422,6 @@
 		},
 		"The Abyss": {
 			"Monster": {
-				"Abyssal demon": 13,
 				"Abyssal leech": 44,
 				"Abyssal guardian": 24,
 				"Abyssal walker": 41
