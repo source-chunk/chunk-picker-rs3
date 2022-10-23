@@ -87117,13 +87117,27 @@
 		"12182": {
 			"Name": "Living Wyvern Cave"
 		},
+		"12183": {
+			"Object": {
+				"Coal rock": 8,
+				"Runite rock": 6,
+				"Orichalcite rock": 5
+			},
+			"NPC": {
+				"Dwarf": 1,
+				"Dwarven Miner": 1
+			},
+			"Connect": {
+				"4166": true,
+				"4167": true,
+				"12084": true
+			},
+			"Name": "Mining guild"
+		},
 		"12184": {
 			"Object": {
 				"Iron rock": 6,
-				"Coal rock": 8,
-				"Luminite rock": 3,
-				"Runite rock": 6,
-				"Orichalcite rock": 5
+				"Luminite rock": 3
 			},
 			"Monster": {
 				"Scorpion": 10,
@@ -103510,7 +103524,7 @@
 				"Farli": 1
 			},
 			"Connect": {
-				"4167": true
+				"11929": true
 			}
 		},
 		"Ancient Cavern": {
@@ -107651,6 +107665,7 @@
 				"11422": true,
 				"12084": true,
 				"12085": true,
+				"12183": true,
 				"14415": true
 			},
 			"NPC": {
@@ -107869,7 +107884,7 @@
 				"Dwarf": 6
 			},
 			"Connect": {
-				"4167": true
+				"11929": true
 			}
 		},
 		"Mining Guild Hidden Mine": {
@@ -107878,7 +107893,7 @@
 				"Drakolith rock": 4
 			},
 			"Connect": {
-				"4166": true
+				"12183": true
 			}
 		},
 		"Brimhaven agility arena": {
