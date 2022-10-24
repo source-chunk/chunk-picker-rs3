@@ -46170,7 +46170,7 @@
 				"Source": "drop",
 				"Output": "Seeker"
 			},
-			"Slay a ~|skeletal wyvern|~": {
+			"Slay a ~|Skeletal wyvern|~": {
 				"Level": 72,
 				"Monsters": ["Skeletal wyvern"],
 				"Primary": false,
@@ -54751,7 +54751,7 @@
 				"BaseQuest": "Falador Achievements"
 			},
 			"~|Falador Achievements%2FHard|~ Why Oh Wyvern": {
-				"Description": "Kill a skeletal wyvern in the Asgarnian Ice Dungeon.",
+				"Description": "Kill a Skeletal wyvern in the Asgarnian Ice Dungeon.",
 				"Chunks": ["Asgarnian Ice Dungeon"],
 				"Skills": {
 					"Slayer": 72
@@ -87105,7 +87105,7 @@
 			},
 			"Monster": {
 				"Ice warrior": 11,
-				"Skeletal Wyvern": 8,
+				"Skeletal wyvern": 8,
 				"Ice giant": 3,
 				"Hobgoblin": 7
 			},
@@ -103356,7 +103356,7 @@
                 "Mugger": 4,
                 "Pirate": 9,
 				"Ice warrior": 11,
-                "Skeletal Wyvern": 8,
+                "Skeletal wyvern": 8,
                 "Ice giant": 3,
                 "Hobgoblin": 7
             },
@@ -109569,7 +109569,7 @@
 				"Mugger": 4,
 				"Pirate": 9,
 				"Ice warrior": 11,
-				"Skeletal Wyvern": 8,
+				"Skeletal wyvern": 8,
 				"Ice giant": 3,
 				"Hobgoblin": 7
 			},
@@ -164111,7 +164111,7 @@
 				"1": "Common"
 			}
 		},
-		"Skeletal Wyvern": {
+		"Skeletal wyvern": {
 			"Wyvern bones": {
 				"1": "Always"
 			},
