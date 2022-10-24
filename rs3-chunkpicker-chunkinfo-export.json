@@ -20,25 +20,25 @@
 				"Priority": 1
 			},
 			"Access the ~|Brimhaven agility arena|~ low level obstacles": {
-				"Chunks": ["11057"],
+				"Chunks": ["Brimhaven Agility arena"],
 				"Level": 1,
 				"Primary": true,
 				"Priority": 3
 			},
 			"Access the ~|Brimhaven agility arena|~ medium level obstacles": {
-				"Chunks": ["11057"],
+				"Chunks": ["Brimhaven Agility arena"],
 				"Level": 20,
 				"Primary": true,
 				"Priority": 1
 			},
 			"Access the ~|Brimhaven agility arena|~ high level obstacles": {
-				"Chunks": ["11057"],
+				"Chunks": ["Brimhaven Agility arena"],
 				"Level": 40,
 				"Primary": true,
 				"Priority": 1
 			},
 			"Complete a lap of ~|werewolf skullball|~": {
-				"Chunks": ["14134"],
+				"Chunks": ["Werewolf Agility Course"],
 				"Level": 25,
 				"Primary": true,
 				"Priority": 1
@@ -91,7 +91,7 @@
 				"Priority": 1
 			},
 			"Complete a lap of the ~|werewolf agility course|~": {
-				"Chunks": ["14134"],
+				"Chunks": ["Werewolf Agility Course"],
 				"Level": 60,
 				"Primary": true,
 				"Priority": 2
@@ -179,7 +179,7 @@
 				"Priority": 4
 			},
 			"Use the ~|Blast furnace|~ Conveyor belt pedals": {
-				"Chunks": ["11423"],
+				"Chunks": ["Blast furnace"],
 				"Level": 30,
 				"Primary": true,
 				"Priority": 5
@@ -247,7 +247,7 @@
 			},
 			"Cross the ~|stepping stone (Lumbridge swamp caves)|~": {
 				"Category": ["Shortcut"],
-				"Chunks": ["12949"],
+				"Chunks": ["Lumbridge Swamp caves"],
 				"Level": 1,
 				"Primary": true,
 				"Priority": 6
@@ -292,7 +292,7 @@
 			},
 			"Cross the ~|stepping stone (Brimhaven Dungeon)|~": {
 				"Category": ["Shortcut"],
-				"Chunks": ["10645"],
+				"Chunks": ["Brimhaven Dungeon"],
 				"Level": 12,
 				"Primary": true,
 				"Priority": 1
@@ -306,7 +306,7 @@
 			},
 			"Cross the ~|monkey bars (Edgeville Dungeon)|~": {
 				"Category": ["Shortcut"],
-				"Chunks": ["12443"],
+				"Chunks": ["Edgeville Dungeon"],
 				"Level": 15,
 				"Primary": true,
 				"Priority": 2
@@ -348,14 +348,14 @@
 			},
 			"Cross the ~|pipe (Brimhaven Dungeon entrance)|~": {
 				"Category": ["Shortcut"],
-				"Chunks": ["10645"],
+				"Chunks": ["Brimhaven Dungeon"],
 				"Level": 22,
 				"Primary": true,
 				"Priority": 1
 			},
 			"Cross the ~|tunnel (Exiled Kalphite Hive)|~": {
 				"Category": ["Shortcut"],
-				"Chunks": ["11801"],
+				"Chunks": ["Exiled Kalphite Hive"],
 				"Level": 23,
 				"Primary": false,
 				"Priority": 1
@@ -416,7 +416,7 @@
 			},
 			"Cross the ~|pipe (Brimhaven Dungeon)|~": {
 				"Category": ["Shortcut"],
-				"Chunks": ["10645"],
+				"Chunks": ["Brimhaven Dungeon"],
 				"Level": 34,
 				"Primary": true,
 				"Priority": 1
@@ -531,14 +531,14 @@
 			},
 			"Cross the ~|shortcut (Grotworm Lair)|~": {
 				"Category": ["Shortcut"],
-				"Chunks": ["4451"],
+				"Chunks": ["Grotworm Lair 1", "Grotworm Lair 3"],
 				"Level": 50,
 				"Primary": false,
 				"Priority": 3
 			},
 			"Cross the ~|pipe (Edgeville Dungeon/Varrock Sewers)|~": {
 				"Category": ["Shortcut"],
-				"Chunks": ["12698"],
+				"Chunks": ["Edgeville Dungeon", "Varrock Sewers"],
 				"Level": 51,
 				"Primary": true,
 				"Priority": 1
@@ -571,7 +571,7 @@
 			},
 			"Cross the easy ~|tunnel (Kalphite Hive)|~": {
 				"Category": ["Shortcut"],
-				"Chunks": ["13716"],
+				"Chunks": ["Kalphite Hive"],
 				"Level": 55,
 				"Primary": false,
 				"Priority": 1
@@ -606,7 +606,7 @@
 			},
 			"Cross the easy ~|shortcut (Monastery of Ascension)|~": {
 				"Category": ["Shortcut"],
-				"Chunks": ["3849"],
+				"Chunks": ["Ascension Dungeon"],
 				"Level": 60,
 				"Primary": true,
 				"Priority": 6
@@ -620,14 +620,14 @@
 			},
 			"Cross the ~|crevice (Fremennik Slayer Dungeon)|~": {
 				"Category": ["Shortcut"],
-				"Chunks": ["11164"],
+				"Chunks": ["Fremennik Dungeon"],
 				"Level": 62,
 				"Primary": false,
 				"Priority": 1
 			},
 			"Cross the ~|crumbling wall (The Islands That Once Were Turtles)|~": {
 				"Category": ["Shortcut"],
-				"Chunks": ["3948"],
+				"Chunks": ["The Arc"],
 				"Level": 63,
 				"Primary": true,
 				"Priority": 1
@@ -648,7 +648,7 @@
 			},
 			"Cross the hard ~|jutting wall (Zanaris)|~": {
 				"Category": ["Shortcut"],
-				"Chunks": ["9541"],
+				"Chunks": ["Zanaris"],
 				"Level": 66,
 				"Primary": true,
 				"Priority": 1
@@ -669,21 +669,21 @@
 			},
 			"Cross the ~|rocky wall (God Wars Dungeon)|~": {
 				"Category": ["Shortcut"],
-				"Chunks": ["11346"],
+				"Chunks": ["God Wars Dungeon"],
 				"Level": 70,
 				"Primary": false,
 				"Priority": 3
 			},
 			"Cross the ~|obstacle pipe (Taverley Dungeon)|~": {
 				"Category": ["Shortcut"],
-				"Chunks": ["3910"],
+				"Chunks": ["Taverley Dungeon"],
 				"Level": 70,
 				"Primary": true,
 				"Priority": 4
 			},
 			"Cross the medium ~|shortcut (Monastery of Ascension)|~": {
 				"Category": ["Shortcut"],
-				"Chunks": ["3849"],
+				"Chunks": ["Ascension Dungeon"],
 				"Level": 70,
 				"Primary": true,
 				"Priority": 5
@@ -697,14 +697,14 @@
 			},
 			"Cross the ~|crumbling wall (Asgarnian Ice Dungeon)|~": {
 				"Category": ["Shortcut"],
-				"Chunks": ["5190"],
+				"Chunks": ["Asgarnian Ice Dungeon"],
 				"Level": 72,
 				"Primary": false,
 				"Priority": 1
 			},
 			"Cross the ~|gap (Polypore Dungeon)|~": {
 				"Category": ["Shortcut"],
-				"Chunks": ["18516"],
+				"Chunks": ["Polypore Dungeon"],
 				"Level": 73,
 				"Primary": false,
 				"Priority": 1
@@ -725,28 +725,28 @@
 			},
 			"Cross the hard ~|tunnel (Kalphite Hive)|~": {
 				"Category": ["Shortcut"],
-				"Chunks": ["13716"],
+				"Chunks": ["Kalphite Hive"],
 				"Level": 79,
 				"Primary": false,
 				"Priority": 1
 			},
 			"Cross the ~|strange floor|~": {
 				"Category": ["Shortcut"],
-				"Chunks": ["3910"],
+				"Chunks": ["Taverley Dungeon"],
 				"Level": 80,
 				"Primary": true,
 				"Priority": 3
 			},
 			"Cross the advanced ~|shortcut (Monastery of Ascension)|~": {
 				"Category": ["Shortcut"],
-				"Chunks": ["3849"],
+				"Chunks": ["Ascension Dungeon"],
 				"Level": 80,
 				"Primary": true,
 				"Priority": 4
 			},
 			"Cross the ~|chasm (Fremennik Slayer Dungeon)|~": {
 				"Category": ["Shortcut"],
-				"Chunks": ["11164"],
+				"Chunks": ["Fremennik Dungeon"],
 				"Level": 81,
 				"Primary": false,
 				"Priority": 1
@@ -760,21 +760,21 @@
 			},
 			"Cross the ~|low wall (Kuradal's Dungeon)|~": {
 				"Category": ["Shortcut"],
-				"Chunks": ["6482"],
+				"Chunks": ["Kuradals Dungeon"],
 				"Level": 86,
 				"Primary": true,
 				"Priority": 1
 			},
 			"Cross the ~|gap (Kuradal's Dungeon)|~": {
 				"Category": ["Shortcut"],
-				"Chunks": ["6482"],
+				"Chunks": ["Kuradals Dungeon"],
 				"Level": 90,
 				"Primary": true,
 				"Priority": 2
 			},
 			"Cross the hard ~|shortcut (Monastery of Ascension)|~": {
 				"Category": ["Shortcut"],
-				"Chunks": ["3849"],
+				"Chunks": ["Ascension Dungeon"],
 				"Level": 90,
 				"Primary": true,
 				"Priority": 3
@@ -788,7 +788,7 @@
 			},
 			"Cross the ~|crevice (Gemstone cavern)|~": {
 				"Category": ["Shortcut"],
-				"Chunks": ["11916"],
+				"Chunks": ["Gemstone Cavern"],
 				"Level": 94,
 				"Primary": false,
 				"Priority": 1
