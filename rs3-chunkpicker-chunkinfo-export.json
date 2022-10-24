@@ -69851,7 +69851,7 @@
 			"Connect": {
 				"12181": true
 			},
-			"Name": "Asgarnian Ice Dungeon resource dungeon"
+			"Name": "Asgarnian Ice Dungeon Resource Dungeon"
 		},
 		"5191": {
 			"Object": {
@@ -103362,19 +103362,18 @@
             },
 			"Connect": {
 				"5190": true,
-				"12081": true,
 				"12182": true
 			}
 		},
 		"Living Wyvern Cave": {
 			"Monster": {
-				"Living Wyvern": 15
+				"Wyvern": 15
 			},
 			"Connect": {
 				"12181": true
 			}
 		},
-		"Asgarnian Ice Dungeon resource dungeon": {
+		"Asgarnian Ice Dungeon Resource Dungeon": {
 			"Monster": {
                 "Frost dragon": 15
             },
