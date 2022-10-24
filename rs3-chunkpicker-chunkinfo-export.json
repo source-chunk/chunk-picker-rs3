@@ -92339,7 +92339,7 @@
 				"9034": true,
 				"11320": true
 			},
-			"Name": "Tunnel"
+			"Name": "Sabbot's Tunnel"
 		},
 		"13636": {
 			"Object": {
@@ -107483,7 +107483,8 @@
 				"3911": true,
 				"4423": true,
 				"12342": true,
-				"12343": true
+				"12343": true,
+				"12954": true
 			},
 			"Spawn": {
 				"Brass necklace": 2,
@@ -108561,7 +108562,7 @@
 				"13365": true
 			}
 		},
-		"Tunnel": {
+		"Sabbot's Tunnel": {
 			"Object": {
 				"Cavern": 1,
 				"Cliffside hole": 1,
