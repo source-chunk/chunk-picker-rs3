@@ -259,7 +259,7 @@
 				"Primary": true,
 				"Priority": 1
 			},
-			"Cross the ~|strong tree (Lumbridge/Al Kharid)|~": {
+			"Cross the ~|strong tree (Lumbridge%2GAl Kharid)|~": {
 				"Category": ["Shortcut"],
 				"Chunks": ["12849"],
 				"Items": ["Mithril grapple", "Grapple+"],
@@ -536,7 +536,7 @@
 				"Primary": false,
 				"Priority": 3
 			},
-			"Cross the ~|pipe (Edgeville Dungeon/Varrock Sewers)|~": {
+			"Cross the ~|pipe (Edgeville Dungeon%2GVarrock Sewers)|~": {
 				"Category": ["Shortcut"],
 				"Chunks": ["Edgeville Dungeon", "Varrock Sewers"],
 				"Level": 51,
@@ -597,7 +597,7 @@
 				"Primary": false,
 				"Priority": 4
 			},
-			"Cross the ~|rocky handholds (God Wars Dungeon/Wilderness)|~": {
+			"Cross the ~|rocky handholds (God Wars Dungeon%2GWilderness)|~": {
 				"Category": ["Shortcut"],
 				"Chunks": ["11578", "11834"],
 				"Level": 60,
@@ -632,7 +632,7 @@
 				"Primary": true,
 				"Priority": 1
 			},
-			"Cross the ~|cliffside (Trollheim/Wilderness)|~": {
+			"Cross the ~|cliffside (Trollheim%2GWilderness)|~": {
 				"Category": ["Shortcut"],
 				"Chunks": ["11576", "11832"],
 				"Level": 64,
@@ -3676,11 +3676,11 @@
 				"Primary": true,
 				"Priority": 1
 			},
-			"Restore an ~|ourg tower/goblin cower shield|~": {
-				"Items": ["Ourg tower/goblin cower shield (damaged)", "Mark of the Kyzaj", "Third Age iron", "Leather scraps", "White oak"],
+			"Restore an ~|ourg tower%2Ggoblin cower shield|~": {
+				"Items": ["Ourg tower%2Ggoblin cower shield (damaged)", "Mark of the Kyzaj", "Third Age iron", "Leather scraps", "White oak"],
 				"Objects": ["Archaeologist's workbench"],
 				"Level": 97,
-				"Output": "Ourg tower/goblin cower shield",
+				"Output": "Ourg tower%2Ggoblin cower shield",
 				"Primary": true,
 				"Priority": 2
 			},
@@ -29524,7 +29524,7 @@
 			},
 			"Catch a ~|raw shrimp|~": {
 				"Level": 1,
-				"Objects": ["Fishing spot (net(small)/bait)"],
+				"Objects": ["Fishing spot (small fishing net, bait)"],
 				"Primary": true,
 				"Output": "Raw shrimp",
 				"Priority": 1
@@ -29561,7 +29561,7 @@
 			"Catch a ~|raw sardine|~": {
 				"Items": ["Fishing bait*"],
 				"Level": 5,
-				"Objects": ["Fishing spot (net(small)/bait)"],
+				"Objects": ["Fishing spot (small fishing net, bait)"],
 				"Primary": true,
 				"Output": "Raw sardine",
 				"Priority": 1
@@ -29569,21 +29569,21 @@
 			"Catch a ~|raw herring|~": {
 				"Items": ["Fishing bait*"],
 				"Level": 10,
-				"Objects": ["Fishing spot (net(small)/bait)"],
+				"Objects": ["Fishing spot (small fishing net, bait)"],
 				"Primary": true,
 				"Output": "Raw herring",
 				"Priority": 1
 			},
 			"Catch a ~|raw anchovies|~": {
 				"Level": 15,
-				"Objects": ["Fishing spot (net(small)/bait)"],
+				"Objects": ["Fishing spot (small fishing net, bait)"],
 				"Primary": true,
 				"Output": "Raw anchovies",
 				"Priority": 1
 			},
 			"Catch a ~|raw mackerel|~": {
 				"Level": 16,
-				"Objects": ["Fishing spot (net(big)/harpoon)"],
+				"Objects": ["Fishing spot (big fishing net, harpoon)"],
 				"Primary": true,
 				"Output": "Raw mackerel",
 				"Priority": 1
@@ -29591,7 +29591,7 @@
 			"Catch a ~|raw trout|~": {
 				"Items": ["Feathers+*"],
 				"Level": 20,
-				"Objects": ["Fishing spot (lure/bait)"],
+				"Objects": ["Fishing spot (lure, bait))"],
 				"Primary": true,
 				"Output": "Raw trout",
 				"Priority": 1
@@ -29599,14 +29599,14 @@
 			"Catch ~|golden trout eggs|~": {
 				"Items": ["Feathers+*"],
 				"Level": 20,
-				"Objects": ["Fishing spot (lure/bait)"],
+				"Objects": ["Fishing spot (lure, bait))"],
 				"Primary": true,
 				"Output": "Golden trout eggs",
 				"Priority": 2
 			},
 			"Catch a ~|raw cod|~": {
 				"Level": 23,
-				"Objects": ["Fishing spot (net(big)/harpoon)"],
+				"Objects": ["Fishing spot (big fishing net, harpoon)"],
 				"Primary": true,
 				"Output": "Raw cod",
 				"Priority": 1
@@ -29614,7 +29614,7 @@
 			"Catch a ~|raw pike|~": {
 				"Items": ["Fishing bait*"],
 				"Level": 25,
-				"Objects": ["Fishing spot (lure/bait)"],
+				"Objects": ["Fishing spot (lure, bait))"],
 				"Primary": true,
 				"Output": "Raw pike",
 				"Priority": 1
@@ -29630,7 +29630,7 @@
 			"Catch a ~|slimy eel|~": {
 				"Items": ["Fishing bait"],
 				"Level": 28,
-				"Objects": ["Fishing spot (frog spawn/eels)"],
+				"Objects": ["Fishing spot (frog spawn, eels)"],
 				"Primary": true,
 				"Output": "Slimy eel",
 				"Priority": 1
@@ -29646,7 +29646,7 @@
 			"Catch a ~|raw salmon|~": {
 				"Items": ["Feathers+*"],
 				"Level": 30,
-				"Objects": ["Fishing spot (lure/bait)"],
+				"Objects": ["Fishing spot (lure, bait))"],
 				"Primary": true,
 				"Output": "Raw salmon",
 				"Priority": 1
@@ -29654,35 +29654,35 @@
 			"Catch ~|golden salmon eggs|~": {
 				"Items": ["Feathers+*"],
 				"Level": 30,
-				"Objects": ["Fishing spot (lure/bait)"],
+				"Objects": ["Fishing spot (lure, bait))"],
 				"Primary": true,
 				"Output": "Golden salmon eggs",
 				"Priority": 2
 			},
 			"Catch a ~|frog spawn|~": {
 				"Level": 33,
-				"Objects": ["Fishing spot (frog spawn/eels)"],
+				"Objects": ["Fishing spot (frog spawn, eels)"],
 				"Primary": true,
 				"Output": "Frog spawn",
 				"Priority": 1
 			},
 			"Catch a ~|raw tuna|~": {
 				"Level": 35,
-				"Objects": ["Fishing spot (cage/harpoon)"],
+				"Objects": ["Fishing spot (cage, harpoon)"],
 				"Primary": true,
 				"Output": "Raw tuna",
 				"Priority": 1
 			},
 			"Catch ~|golden tuna eggs|~": {
 				"Level": 35,
-				"Objects": ["Fishing spot (cage/harpoon)"],
+				"Objects": ["Fishing spot (cage, harpoon)"],
 				"Primary": true,
 				"Output": "Golden tuna eggs",
 				"Priority": 2
 			},
 			"Catch a ~|raw tuna|~ in the Piscatoris fishing colony": {
 				"Level": 35,
-				"Objects": ["Fishing spot (harpoon/net(small))"],
+				"Objects": ["Fishing spot (Piscatoris Fishing Colony)"],
 				"Primary": true,
 				"Output": "Raw tuna",
 				"Priority": 3
@@ -29690,7 +29690,7 @@
 			"Catch a ~|raw rainbow fish|~": {
 				"Items": ["Stripy feathers"],
 				"Level": 38,
-				"Objects": ["Fishing spot (lure/bait)"],
+				"Objects": ["Fishing spot (lure, bait))"],
 				"Primary": true,
 				"Output": "Raw rainbow fish",
 				"Priority": 1
@@ -29698,7 +29698,7 @@
 			"Catch ~|golden rainbow fish eggs|~": {
 				"Items": ["Stripy feathers"],
 				"Level": 38,
-				"Objects": ["Fishing spot (lure/bait)"],
+				"Objects": ["Fishing spot (lure, bait))"],
 				"Primary": true,
 				"Output": "Golden rainbow fish eggs",
 				"Priority": 2
@@ -29706,7 +29706,7 @@
 			"Catch a ~|raw cave eel|~": {
 				"Items": ["Fishing bait"],
 				"Level": 38,
-				"Objects": ["Fishing spot (frog spawn/eels)"],
+				"Objects": ["Fishing spot (frog spawn, eels)"],
 				"Primary": true,
 				"Output": "Raw cave eel",
 				"Priority": 3
@@ -29721,56 +29721,56 @@
 			},
 			"Catch a ~|raw lobster|~": {
 				"Level": 40,
-				"Objects": ["Fishing spot (cage/harpoon)"],
+				"Objects": ["Fishing spot (cage, harpoon)"],
 				"Primary": true,
 				"Output": "Raw lobster",
 				"Priority": 1
 			},
 			"Catch ~|golden lobster eggs|~": {
 				"Level": 40,
-				"Objects": ["Fishing spot (cage/harpoon)"],
+				"Objects": ["Fishing spot (cage, harpoon)"],
 				"Primary": true,
 				"Output": "Golden lobster eggs",
 				"Priority": 2
 			},
 			"Catch a ~|raw bass|~": {
 				"Level": 46,
-				"Objects": ["Fishing spot (net(big)/harpoon)"],
+				"Objects": ["Fishing spot (big fishing net, harpoon)"],
 				"Primary": true,
 				"Output": "Raw bass",
 				"Priority": 1
 			},
 			"Catch a ~|big bass|~": {
 				"Level": 46,
-				"Objects": ["Fishing spot (net(big)/harpoon)"],
+				"Objects": ["Fishing spot (big fishing net, harpoon)"],
 				"Primary": true,
 				"Output": "Big bass",
 				"Priority": 2
 			},
 			"Catch a ~|raw swordfish|~": {
 				"Level": 50,
-				"Objects": ["Fishing spot (cage/harpoon)"],
+				"Objects": ["Fishing spot (cage, harpoon)"],
 				"Primary": true,
 				"Output": "Raw swordfish",
 				"Priority": 1
 			},
 			"Catch a ~|big swordfish|~": {
 				"Level": 50,
-				"Objects": ["Fishing spot (cage/harpoon)"],
+				"Objects": ["Fishing spot (cage, harpoon)"],
 				"Primary": true,
 				"Output": "Big swordfish",
 				"Priority": 2
 			},
 			"Catch ~|golden swordfish eggs|~": {
 				"Level": 50,
-				"Objects": ["Fishing spot (cage/harpoon)"],
+				"Objects": ["Fishing spot (cage, harpoon)"],
 				"Primary": true,
 				"Output": "Golden swordfish eggs",
 				"Priority": 3
 			},
 			"Catch a ~|raw swordfish|~ in the Piscatoris fishing colony": {
 				"Level": 50,
-				"Objects": ["Fishing spot (harpoon/net(small))"],
+				"Objects": ["Fishing spot (Piscatoris Fishing Colony)"],
 				"Primary": true,
 				"Output": "Raw swordfish",
 				"Priority": 4
@@ -29809,14 +29809,14 @@
 			},
 			"Catch a ~|raw monkfish|~": {
 				"Level": 62,
-				"Objects": ["Fishing spot (harpoon/net(small))"],
+				"Objects": ["Fishing spot (Piscatoris Fishing Colony)"],
 				"Primary": true,
 				"Output": "Raw monkfish",
 				"Priority": 1
 			},
 			"Catch ~|golden monkfish eggs|~": {
 				"Level": 62,
-				"Objects": ["Fishing spot (harpoon/net(small))"],
+				"Objects": ["Fishing spot (Piscatoris Fishing Colony)"],
 				"Primary": true,
 				"Output": "Golden monkfish eggs",
 				"Priority": 2
@@ -29869,21 +29869,21 @@
 			},
 			"Catch a ~|raw shark|~": {
 				"Level": 76,
-				"Objects": ["Fishing spot (net(big)/harpoon)"],
+				"Objects": ["Fishing spot (big fishing net, harpoon)"],
 				"Primary": true,
 				"Output": "Raw shark",
 				"Priority": 2
 			},
 			"Catch a ~|big shark|~": {
 				"Level": 76,
-				"Objects": ["Fishing spot (net(big)/harpoon)"],
+				"Objects": ["Fishing spot (big fishing net, harpoon)"],
 				"Primary": true,
 				"Output": "big shark",
 				"Priority": 3
 			},
 			"Catch ~|golden shark eggs|~": {
 				"Level": 76,
-				"Objects": ["Fishing spot (net(big)/harpoon)"],
+				"Objects": ["Fishing spot (big fishing net, harpoon)"],
 				"Primary": true,
 				"Output": "Golden shark eggs",
 				"Priority": 4
@@ -29905,7 +29905,7 @@
 			},
 			"Catch a ~|raw great white shark|~": {
 				"Level": 80,
-				"Objects": ["Fishing spot (net(big)/harpoon)"],
+				"Objects": ["Fishing spot (big fishing net, harpoon)"],
 				"Primary": true,
 				"Output": "Raw great white shark",
 				"Priority": 2
@@ -30034,7 +30034,7 @@
 			"Catch a ~|raw baron shark|~": {
 				"Items": ["Juju fishing potion"],
 				"Level": 76,
-				"Objects": ["Fishing spot (net(big)/harpoon)"],
+				"Objects": ["Fishing spot (big fishing net, harpoon)"],
 				"Primary": true,
 				"Output": "Raw baron shark",
 				"Priority": 5
@@ -30167,7 +30167,7 @@
 			},
 			"Catch a ~|raw tuna|~ barehanded": {
 				"Level": 55,
-				"Objects": ["Fishing spot (cage/harpoon)"],
+				"Objects": ["Fishing spot (cage, harpoon)"],
 				"Primary": true,
 				"Skills": {
 					"Strength": 35
@@ -30177,7 +30177,7 @@
 			},
 			"Catch a ~|raw swordfish|~ barehanded": {
 				"Level": 70,
-				"Objects": ["Fishing spot (cage/harpoon)"],
+				"Objects": ["Fishing spot (cage, harpoon)"],
 				"Primary": true,
 				"Skills": {
 					"Strength": 50
@@ -30187,7 +30187,7 @@
 			},
 			"Catch a ~|raw shark|~ barehanded": {
 				"Level": 96,
-				"Objects": ["Fishing spot (net(big)/harpoon)"],
+				"Objects": ["Fishing spot (big fishing net, harpoon)"],
 				"Primary": true,
 				"Skills": {
 					"Strength": 76
@@ -30198,7 +30198,7 @@
 			"Catch a ~|raw baron shark|~ barehanded": {
 				"Items": ["Juju fishing potion"],
 				"Level": 96,
-				"Objects": ["Fishing spot (net(big)/harpoon)"],
+				"Objects": ["Fishing spot (big fishing net, harpoon)"],
 				"Primary": true,
 				"Skills": {
 					"Strength": 76
@@ -39835,7 +39835,7 @@
 			"Cast ~|spellbook swap|~": {
 				"Category": ["Spells"],
 				"Items": ["Law rune*", "Cosmic rune*", "Astral rune*"],
-				"Chunks": ["Lunar/Ancients+"],
+				"Chunks": ["Lunar%2GAncients+"],
 				"Level": 96,
 				"Primary": true,
 				"Priority": 2
@@ -42132,7 +42132,7 @@
 					"Agility": 1
 				}
 			},
-			"Cross the ~|strong tree (Lumbridge/Al Kharid)|~": {
+			"Cross the ~|strong tree (Lumbridge%2GAl Kharid)|~": {
 				"Category": ["Shortcut"],
 				"Chunks": ["12849"],
 				"Items": ["Mithril grapple", "Grapple+"],
@@ -48462,7 +48462,7 @@
 				},
 				"Priority": 2
 			},
-			"Cross the ~|strong tree (Lumbridge/Al Kharid)|~": {
+			"Cross the ~|strong tree (Lumbridge%2GAl Kharid)|~": {
 				"Category": ["Shortcut"],
 				"Chunks": ["12849"],
 				"Items": ["Mithril grapple", "Grapple+"],
@@ -48721,7 +48721,7 @@
 			},
 			"Catch a ~|raw tuna|~ barehanded": {
 				"Level": 35,
-				"Objects": ["Fishing spot (cage/harpoon)"],
+				"Objects": ["Fishing spot (cage, harpoon)"],
 				"Primary": true,
 				"Skills": {
 					"Fishing": 55
@@ -48731,7 +48731,7 @@
 			},
 			"Catch a ~|raw swordfish|~ barehanded": {
 				"Level": 50,
-				"Objects": ["Fishing spot (cage/harpoon)"],
+				"Objects": ["Fishing spot (cage, harpoon)"],
 				"Primary": true,
 				"Skills": {
 					"Fishing": 70
@@ -48741,7 +48741,7 @@
 			},
 			"Catch a ~|raw shark|~ barehanded": {
 				"Level": 76,
-				"Objects": ["Fishing spot (net(big)/harpoon)"],
+				"Objects": ["Fishing spot (big fishing net, harpoon)"],
 				"Primary": true,
 				"Skills": {
 					"Fishing": 96
@@ -48752,7 +48752,7 @@
 			"Catch a ~|raw baron shark|~ barehanded": {
 				"Items": ["Juju fishing potion"],
 				"Level": 76,
-				"Objects": ["Fishing spot (net(big)/harpoon)"],
+				"Objects": ["Fishing spot (big fishing net, harpoon)"],
 				"Primary": true,
 				"Skills": {
 					"Fishing": 96
@@ -55190,7 +55190,7 @@
 			"~|Fremennik Achievements%2FHard|~ Fish Fingers": {
 				"Description": "Catch a tuna without a harpoon.",
 				"Chunks": ["10038"],
-				"Objects": ["Fishing spot (net(big)/harpoon)"],
+				"Objects": ["Fishing spot (big fishing net, harpoon)"],
 				"Skills": {
 					"Fishing": 35,
 					"Strength": 35
@@ -57593,7 +57593,7 @@
 				"ManualShow": true
 			},
 			"~|Seers' Village Achievements%2FElite|~ It's a Trap! No Wait, It's a Pie!": {
-				"Description": "Make an admiral pie from scratch within Seers' Village/Catherby.",
+				"Description": "Make an admiral pie from scratch within Seers' Village%2GCatherby.",
 				"Chunks": ["10807", "11062", "11061", "11317"],
 				"Items": ["Potato seed", "Pie dish", "Pot of flour", "Bucket of water"],
 				"Skills": {
@@ -70474,7 +70474,7 @@
 		},
 		"5955": {
 			"Object": {
-				"Fishing spot (net(small)/bait)": 6,
+				"Fishing spot (small fishing net, bait)": 6,
 				"Washbasin": 1,
 				"Crate": 1
 			},
@@ -74013,7 +74013,7 @@
 				"Dense forest": 7,
 				"Barrel": 4,
 				"Tree": 112,
-				"Fishing spot (net(big)/harpoon)": 5
+				"Fishing spot (big fishing net, harpoon)": 5
 			},
 			"NPC": {
 				"Butterfly": 30,
@@ -74707,7 +74707,7 @@
 				"Fire remains": 1,
 				"Tree": 144,
 				"Guards": 1,
-				"Fishing spot (lure/bait)": 5
+				"Fishing spot (lure, bait))": 5
 			},
 			"NPC": {
 				"Butterfly": 20,
@@ -75493,7 +75493,7 @@
 				"Barrel": 7,
 				"Herman's desk": 1,
 				"Net": 2,
-				"Fishing spot (harpoon/net(small))": 4
+				"Fishing spot (Piscatoris Fishing Colony)": 4
 			},
 			"NPC": {
 				"Herman Caranos": 1,
@@ -76128,7 +76128,7 @@
 				"Tree": 41,
 				"Magic tree": 1,
 				"Stile": 1,
-				"Fishing spot (lure/bait)": 7,
+				"Fishing spot (lure, bait))": 7,
 				"Elder tree": 1
 			},
 			"Monster": {
@@ -76236,8 +76236,8 @@
 				"Small obelisk": 1,
 				"Anvil": 2,
 				"Forge": 2,
-				"Fishing spot (cage/harpoon)": 5,
-				"Fishing spot (net(big)/harpoon)": 5
+				"Fishing spot (cage, harpoon)": 5,
+				"Fishing spot (big fishing net, harpoon)": 5
 			},
 			"NPC": {
 				"King Gjuki Sorvott IV": 1,
@@ -76826,9 +76826,9 @@
 		"9773": {
 			"Object": {
 				"Jungle Tree": 13,
-				"Fishing spot (net(small)/bait)": 3,
-				"Fishing spot (cage/harpoon)": 2,
-				"Fishing spot (net(big)/harpoon)": 2
+				"Fishing spot (small fishing net, bait)": 3,
+				"Fishing spot (cage, harpoon)": 2,
+				"Fishing spot (big fishing net, harpoon)": 2
 			},
 			"Monster": {
 				"Giant spider": 13,
@@ -76919,7 +76919,7 @@
 				"Tree": 34,
 				"Dead tree": 9,
 				"Water barrel": 1,
-				"Fishing spot (lure/bait)": 5,
+				"Fishing spot (lure, bait))": 5,
 				"Fruit tree patch": 1
 			},
 			"Monster": {
@@ -78191,7 +78191,7 @@
 				"Ardougne": 1,
 				"Tree Gnome Stronghold": 1,
 				"Stile": 1,
-				"Fishing spot (lure/bait)": 6
+				"Fishing spot (lure, bait))": 6
 			},
 			"Monster": {
 				"Moss giant": 4
@@ -78269,7 +78269,7 @@
 				"Log balance": 1,
 				"Evergreen": 26,
 				"Bank chest": 1,
-				"Fishing spot (net(small)/bait)": 3
+				"Fishing spot (small fishing net, bait)": 3
 			},
 			"Monster": {
 				"Chicken": 3,
@@ -79285,7 +79285,7 @@
 				"Oak": 8,
 				"Tree": 10,
 				"Dead tree": 19,
-				"Fishing spot (lure/bait)": 2
+				"Fishing spot (lure, bait))": 2
 			},
 			"Monster": {
 				"Farmer": 2,
@@ -79330,8 +79330,8 @@
 				"Bank booth": 2,
 				"Cooking range+": 1,
 				"Noticeboard": 1,
-				"Fishing spot (cage/harpoon)": 7,
-				"Fishing spot (net(big)/harpoon)": 7
+				"Fishing spot (cage, harpoon)": 7,
+				"Fishing spot (big fishing net, harpoon)": 7
 			},
 			"Monster": {
 				"Man": 1,
@@ -80412,7 +80412,7 @@
 				"Oak": 18,
 				"Tree": 52,
 				"Lighthouse": 1,
-				"Fishing spot (lure/bait)": 2
+				"Fishing spot (lure, bait))": 2
 			},
 			"Monster": {
 				"Wolf": 3,
@@ -80450,9 +80450,9 @@
 				"Dairy cow": 1,
 				"Dairy churn": 1,
 				"Mithril rock": 5,
-				"Fishing spot (net(small)/bait)": 4,
-				"Fishing spot (cage/harpoon)": 4,
-				"Fishing spot (net(big)/harpoon)": 3
+				"Fishing spot (small fishing net, bait)": 4,
+				"Fishing spot (cage, harpoon)": 4,
+				"Fishing spot (big fishing net, harpoon)": 3
 			},
 			"Monster": {
 				"Chicken": 4,
@@ -80624,7 +80624,7 @@
 				"Wheat": 60,
 				"Oak": 14,
 				"Tree": 43,
-				"Fishing spot (lure/bait)": 3
+				"Fishing spot (lure, bait))": 3
 			},
 			"NPC": {
 				"Sheep": 10,
@@ -81015,7 +81015,7 @@
 				"Fairy ring": 1,
 				"Mahogany": 2,
 				"Skull slope": 1,
-				"Fishing spot (net(big)/harpoon)": 1
+				"Fishing spot (big fishing net, harpoon)": 1
 			},
 			"Monster": {
 				"Bird": 5,
@@ -81309,7 +81309,7 @@
 				"Tree": 7,
 				"Maple Tree": 22,
 				"Dead tree": 38,
-				"Fishing spot (lure/bait)": 4
+				"Fishing spot (lure, bait))": 4
 			},
 			"Monster": {
 				"Chicken": 3,
@@ -81358,7 +81358,7 @@
 				"Tree": 72,
 				"Maple Tree": 9,
 				"Dead tree": 19,
-				"Fishing spot (lure/bait)": 2,
+				"Fishing spot (lure, bait))": 2,
 				"Fishing spot (crayfish)": 2
 			},
 			"Monster": {
@@ -81578,7 +81578,7 @@
 				"Blocked tunnel": 2,
 				"Pylon": 3,
 				"Rocks": 2,
-				"Fishing spot (frog spawn/eels)": 2
+				"Fishing spot (frog spawn, eels)": 2
 			},
 			"Monster": {
 				"Cave crawler": 5,
@@ -81991,7 +81991,7 @@
 				"Rope": 1,
 				"Hole": 1,
 				"Vine": 6,
-				"Fishing spot (net(big)/harpoon)": 1
+				"Fishing spot (big fishing net, harpoon)": 1
 			},
 			"NPC": {
 				"Lumdo": 1,
@@ -82309,7 +82309,7 @@
 				"Washbasin": 1,
 				"Crane": 1,
 				"Crate": 1,
-				"Fishing spot (net(small)/bait)": 3
+				"Fishing spot (small fishing net, bait)": 3
 			},
 			"NPC": {
 				"Bailey": 1,
@@ -83100,7 +83100,7 @@
 				"Tunnel": 1,
 				"Precious gem rock": 3,
 				"Furnace": 1,
-				"Fishing spot (lure/bait)": 3
+				"Fishing spot (lure, bait))": 3
 			},
 			"NPC": {
 				"Theho Rses": 1,
@@ -83270,8 +83270,8 @@
 				"Oak": 7,
 				"Tree": 27,
 				"Furnace": 1,
-				"Fishing spot (lure/bait)": 4,
-				"Fishing spot (net(small)/bait)": 4
+				"Fishing spot (lure, bait))": 4,
+				"Fishing spot (small fishing net, bait)": 4
 			},
 			"Monster": {
 				"Chicken": 6,
@@ -83319,9 +83319,9 @@
 				"Barrel": 2,
 				"Well": 1,
 				"Crate": 1,
-				"Fishing spot (net(big)/harpoon)": 3,
-				"Fishing spot (cage/harpoon)": 2,
-				"Fishing spot (net(small)/bait)": 2,
+				"Fishing spot (big fishing net, harpoon)": 3,
+				"Fishing spot (cage, harpoon)": 2,
+				"Fishing spot (small fishing net, bait)": 2,
 				"Water obelisk": 1,
 				"Fruit tree patch": 1
 			},
@@ -84265,8 +84265,8 @@
 				"Crate": 3,
 				"Banana Tree": 24,
 				"Boxes": 2,
-				"Fishing spot (net(small)/bait)": 3,
-				"Fishing spot (cage/harpoon)": 3
+				"Fishing spot (small fishing net, bait)": 3,
+				"Fishing spot (cage, harpoon)": 3
 			},
 			"Monster": {
 				"Snake": 2,
@@ -85464,7 +85464,7 @@
 				"Notices": 1,
 				"Anvil": 1,
 				"Forge": 1,
-				"Fishing spot (net(small)/bait)": 2
+				"Fishing spot (small fishing net, bait)": 2
 			},
 			"NPC": {
 				"Customs officer": 1,
@@ -86708,7 +86708,7 @@
 				"Fire": 3,
 				"Pile of Crates": 1,
 				"Cooking range+": 1,
-				"Fishing spot (net(small)/bait)": 1
+				"Fishing spot (small fishing net, bait)": 1
 			},
 			"Monster": {
 				"Giant rat": 2,
@@ -87443,7 +87443,7 @@
 				"Dead tree": 5,
 				"Energy rift": 1,
 				"Wisp Colony Map": 1,
-				"Fishing spot (net(small)/bait)": 2,
+				"Fishing spot (small fishing net, bait)": 2,
 				"Elder tree": 1,
 				"Draynor wine stall": 1
 			},
@@ -87635,7 +87635,7 @@
 				"Coal rock": 4,
 				"Barbarian anvil": 1,
 				"Barbarian forge": 1,
-				"Fishing spot (lure/bait)": 2,
+				"Fishing spot (lure, bait))": 2,
 				"Elder tree": 1,
 				"Canoe station": 1
 			},
@@ -88969,7 +88969,7 @@
 		"12693": {
 			"Object": {
 				"Climbing rope": 1,
-				"Fishing spot (frog spawn/eels)": 1
+				"Fishing spot (frog spawn, eels)": 1
 			},
 			"Monster": {
 				"Cave crawler": 3,
@@ -89331,7 +89331,7 @@
 				"Anvil": 1,
 				"Forge": 1,
 				"Furnace": 1,
-				"Fishing spot (lure/bait)": 5,
+				"Fishing spot (lure, bait))": 5,
 				"Canoe station": 1,
 				"Vegetable stall": 2,
 				"Fishing spot (crayfish)": 5,
@@ -90113,7 +90113,7 @@
 			"Object": {
 				"Stepping stone": 2,
 				"Tunnel": 1,
-				"Fishing spot (frog spawn/eels)": 1
+				"Fishing spot (frog spawn, eels)": 1
 			},
 			"Monster": {
 				"Rock slug": 5,
@@ -91687,7 +91687,7 @@
 				"Hellhound": 12
 			},
 			"Object": {
-				"Fishing spot (cage/harpoon)": 3
+				"Fishing spot (cage, harpoon)": 3
 			},
 			"Nickname": "East Wilderness Fishing"
 		},
@@ -91836,7 +91836,7 @@
 		"13461": {
 			"Object": {
 				"Fire": 1,
-				"Fishing spot (lure/bait)": 7
+				"Fishing spot (lure, bait))": 7
 			},
 			"NPC": {
 				"Nirrie": 1,
@@ -92591,7 +92591,7 @@
 		"13873": {
 			"Object": {
 				"Necrite rock": 3,
-				"Fishing spot (net(big)/harpoon)": 12
+				"Fishing spot (big fishing net, harpoon)": 12
 			},
 			"Nickname": "South Burgh de Rott"
 		},
@@ -93088,7 +93088,7 @@
 		},
 		"14129": {
 			"Object": {
-				"Fishing spot (net(big)/harpoon)": 9
+				"Fishing spot (big fishing net, harpoon)": 9
 			},
 			"Monster": {
 				"Vyrewatch": 8
@@ -94550,8 +94550,8 @@
 				"Rubble": 1,
 				"Broken doorway": 1,
 				"Plank": 1,
-				"Fishing spot (net(big)/harpoon)": 1,
-				"Fishing spot (cage/harpoon)": 2,
+				"Fishing spot (big fishing net, harpoon)": 1,
+				"Fishing spot (cage, harpoon)": 2,
 				"Oikos studio debris": 1,
 				"Oikos fishing hut remnants": 1,
 				"Acropolis debris": 1,
@@ -94575,7 +94575,7 @@
 				"Exit": 1,
 				"Everlight": 1,
 				"Bridge": 1,
-				"Fishing spot (cage/harpoon)": 1
+				"Fishing spot (cage, harpoon)": 1
 			},
 			"NPC": {
 				"Tarddiad Firefly": 25,
@@ -95099,8 +95099,8 @@
 			"Object": {
 				"Golden hoop": 2,
 				"Material cache (Everlight silvthril)": 2,
-				"Fishing spot (net(big)/harpoon)": 2,
-				"Fishing spot (cage/harpoon)": 1,
+				"Fishing spot (big fishing net, harpoon)": 2,
+				"Fishing spot (cage, harpoon)": 1,
 				"Stadio debris": 1
 			},
 			"NPC": {
@@ -101070,8 +101070,8 @@
 			"Object": {
 				"Red vine blossom": 1,
 				"Teleportation device": 1,
-				"Fishing spot (cage/harpoon)": 3,
-				"Fishing spot (net(big)/harpoon)": 2
+				"Fishing spot (cage, harpoon)": 3,
+				"Fishing spot (big fishing net, harpoon)": 2
 			},
 			"NPC": {
 				"Igneous jadinko": 5,
@@ -101460,8 +101460,8 @@
 		},
 		"22562": {
 			"Object": {
-				"Fishing spot (cage/harpoon)": 3,
-				"Fishing spot (net(big)/harpoon)": 2
+				"Fishing spot (cage, harpoon)": 3,
+				"Fishing spot (big fishing net, harpoon)": 2
 			},
 			"Monster": {
 				"Ripper dinosaur": 5
@@ -108009,7 +108009,7 @@
 				"Wheat": 60,
 				"Oak": 14,
 				"Tree": 43,
-				"Fishing spot (lure/bait)": 3,
+				"Fishing spot (lure, bait))": 3,
 				"Dead tree": 99
 			},
 			"NPC": {
@@ -109844,7 +109844,7 @@
 		"Water Ravine Dungeon": {
 			"Object": {
 				"Fire": 1,
-				"Fishing spot (lure/bait)": 7,
+				"Fishing spot (lure, bait))": 7,
 				"Cave exit": 1
 			},
 			"NPC": {
@@ -112219,7 +112219,7 @@
 				"Blocked tunnel": 2,
 				"Pylon": 3,
 				"Rocks": 2,
-				"Fishing spot (frog spawn/eels)": 2
+				"Fishing spot (frog spawn, eels)": 2
 			},
 			"Monster": {
 				"Cave crawler": 5,
@@ -116042,7 +116042,7 @@
 			"FighterHat+": "Any fighter hat variant",
 			"FighterTorso+": "Any fighter torso variant",
 			"Fire rune+": "Any fire rune equivalent",
-			"FireCape+": "Any fire/kiln cape",
+			"FireCape+": "Any fire%2Gkiln cape",
 			"FireFamiliar+": "Any familiar that can be used to start a fire",
 			"FiremakingBow+": "Any bow that can be used to light a barbarian fire",
 			"FishingExplosive+": "Any kind of fishing explosive",
@@ -116381,7 +116381,7 @@
 			"Kandarin safes+": ["10032", "10291", "10547", "10806"],
 			"Kharidian safes+": ["12329", "12330", "12585", "12843", "13105", "13358", "13613"],
 			"LumbridgeSwampChunks+": ["12849", "12593"],
-			"Lunar/Ancients+": ["8508", "Jaldraocht Pyramid"],
+			"Lunar%2GAncients+": ["8508", "Jaldraocht Pyramid"],
 			"MasterHideyHoles+": ["TzHaar City", "9524", "The Arc", "13623", "14646", "8297", "11829", "9053", "12594", "12086", "8757"],
 			"MediumHideyHoles+": ["13878", "13879", "12341", "11056", "9776", "10039", "9781", "10288", "9777", "10036", "13365", "11318", "131104"],
 			"Misthalin safes+": ["12337", "12338", "12340", "12342", "12850", "12854"],
@@ -116436,7 +116436,7 @@
 			"Kandarin safes+": "Any chunk in Kandarin with safes",
 			"Kharidian safes+": "Any chunk in the Kharidian desert with safes",
 			"LumbridgeSwampChunks+": "Any chunks that count as part of the Lumbridge swamp",
-			"Lunar/Ancients+": "Any chunk a spellbook can be swapped",
+			"Lunar%2GAncients+": "Any chunk a spellbook can be swapped",
 			"MasterHideyHoles+": "Any chunk with a master hideyhole",
 			"MediumHideyHoles+": "Any chunk with a medium hideyhole",
 			"Misthalin safes+": "Any chunk in Misthalin with safes",
@@ -116467,7 +116467,7 @@
 			"CurePatch+": ["Allotment", "Flower patch", "Herb patch", "Tree patch", "Fruit tree patch", "Hops patch", "Bush patch"],
 			"FarmingPatch+": ["Allotment", "Flower patch", "Herb patch", "Potato patch", "Hops patch", "Bush patch", "Tree patch", "Fruit tree patch", "Mushroom patch", "Cactus patch", "Spirit tree patch", "Evil turnip patch", "Belladonna patch", "Calquat patch", "Elder tree patch", "Crystal tree patch", "Vine herb patch", "Vine bush patch", "Vine flower patch", "Fertile soil (patch)", "Money tree patch", "Jade vine patch"],
 			"Fire+": ["Fire", "Fireplace", "Player fire", "Campfire"],
-			"Fish+": ["Fishing spot (minnow)", "Fishing spot (crayfish)", "Fishing spot (net(small)/bait)"],
+			"Fish+": ["Fishing spot (minnow)", "Fishing spot (crayfish)", "Fishing spot (small fishing net, bait)"],
 			"Haystack+": ["Haystack", "Hay bale"],
 			"Ore+": ["Copper rock", "Tin rock", "Common gem rock", "Feldip swamp rock", "Clay rock", "Rune essence rock"],
 			"PotatoPatch+": ["Allotment", "Potato patch"],
@@ -182124,7 +182124,6 @@
 			"Mithril platebody": true,
 			"Adamant platebody": true,
 			"Rune platebody": true,
-			"Mining_and_Smithing_beta/Scrapped_content": true,
 			"Necronium platebody": true,
 			"Bane platebody": true,
 			"Elder rune platebody": true
