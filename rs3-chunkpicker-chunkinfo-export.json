@@ -55983,7 +55983,7 @@
 			},
 			"~|Lumbridge Achievements%2FBeginner|~ Docking Out": {
 				"Description": "Enter Al Kharid via the west gate.",
-				"Chunks": ["12849", "13105"],
+				"Chunks": ["13105"],
 				"BaseQuest": "Lumbridge Achievements"
 			},
 			"~|Lumbridge Achievements%2FBeginner|~ The Rules of Engagement": {
