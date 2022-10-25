@@ -82930,7 +82930,8 @@
 			"NPC": {
 				"Winkin": 1,
 				"Cage": 4
-			}
+			},
+			"Name": "Witches' House Underground"
 		},
 		"11164": {
 			"Object": {
@@ -84430,6 +84431,9 @@
 			},
 			"Monster": {
 				"Dark wizard": 15
+			},
+			"Connect": {
+				"11160": true
 			},
 			"Spawn": {
 				"Diary (Witch's House)": 1,
@@ -90858,6 +90862,9 @@
 			},
 			"Nickname": "Rogues' Castle"
 		},
+		"13118": {
+			"Nickname": "Rogues' Castle Coast"
+		},
 		"13121": {
 			"Object": {
 				"Chaos altar": 1
@@ -91713,6 +91720,9 @@
 		"13373": {
 			"Nickname": "Wilderness Volcano"
 		},
+		"13374": {
+			"Nickname": "Wilderness Volcano North Coast"
+		},
 		"13385": {
 			"Object": {
 				"Wreckage": 27,
@@ -92321,6 +92331,15 @@
 				"Cormorant": 1
 			},
 			"Nickname": "Daemonheim North-West Coast"
+		},
+		"13628": {
+			"Nickname": "Wilderness Volcano South-East Coast"
+		},
+		"13629": {
+			"Nickname": "Wilderness Volcano East Coast"
+		},
+		"13630": {
+			"Nickname": "Wilderness Volcano North-East Coast"
 		},
 		"13634": {
 			"Object": {
@@ -103937,6 +103956,25 @@
 			"Object": {
 				"Nest of eggs": 6,
 				"Cave": 1
+			}
+		},
+		"Witches' House Underground": {
+			"Object": {
+				"Cupboard": 1,
+				"Boxes": 2,
+				"Sacks": 1,
+				"Drawers": 4,
+				"Crate": 3
+			},
+			"Monster": {
+				"Experiment No%2E2": 6
+			},
+			"NPC": {
+				"Winkin": 1,
+				"Cage": 4
+			},
+			"Connect": {
+				"11572": true
 			}
 		},
 		"Crossroad": {},
