@@ -56159,8 +56159,7 @@
 				"Description": "Get a replacement amulet of ghostspeak from Father Urhney.",
 				"Chunks": ["12849"],
 				"Tasks": {
-					"~|Lumbridge Achievements%2FBeginner|~ Complete the Beginner Achievements": "Diary",
-					"~|The Restless Ghost|~ Complete the quest": "Quest"
+					"~|Lumbridge Achievements%2FBeginner|~ Complete the Beginner Achievements": "Diary"
 				},
 				"BaseQuest": "Lumbridge Achievements"
 			},
