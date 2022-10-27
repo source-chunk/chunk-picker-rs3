@@ -56026,7 +56026,7 @@
 			"~|Lumbridge Achievements%2FBeginner|~ The Fruit of the Sea": {
 				"Description": "Sell a raw shrimp to Lumbridge's fishing shop.",
 				"Chunks": ["12594"],
-				"Items": ["Raw shrimps"],
+				"Items": ["Raw shrimp"],
 				"BaseQuest": "Lumbridge Achievements"
 			},
 			"~|Lumbridge Achievements%2FBeginner|~ Clay More": {
