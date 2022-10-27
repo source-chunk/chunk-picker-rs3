@@ -56225,7 +56225,7 @@
 			"~|Lumbridge Achievements%2FEasy|~ Artisan Crafting": {
 				"Description": "Create a clay ring using the Draynor village pottery oven.",
 				"Chunks": ["12339"],
-				"Items": ["Unfired clay ring"],
+				"Items": ["Clay ring (unfired)"],
 				"Skills": {
 					"Crafting": 4
 				},
