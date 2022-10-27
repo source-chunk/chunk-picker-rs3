@@ -55930,10 +55930,7 @@
 			},
 			"~|Lumbridge Achievements%2FBeginner|~ A Grave Consideration": {
 				"Description": "Look through Father Aereck's selection of gravestones.",
-				"Chunks": ["12850"],
-				"Tasks": {
-					"~|The Restless Ghost|~ Complete the quest": "Quest"
-				},
+				"Chunks": ["12849", "12850"],
 				"BaseQuest": "Lumbridge Achievements"
 			},
 			"~|Lumbridge Achievements%2FBeginner|~ Doom!": {
