@@ -211,7 +211,8 @@ const f2pSkills = [
     'Fishing',
     'Cooking',
     'Firemaking',
-    'Woodcutting'
+    'Woodcutting',
+	'Fletching'
 ];                                                                              // Names of all f2p skills
 const skillNamesXp = [
     'Attack',
@@ -236,7 +237,12 @@ const skillNamesXp = [
     'Woodcutting',
     'Fletching',
     'Construction',
-    'Hunter'
+    'Hunter',
+	'Summoning',
+	'Dungeoneering',
+	'Divination',
+	'Invention',
+	'Archaeology'
 ];                                                                              // Names of all lampable skills
 const clueTiers = [
     'Beginner',
