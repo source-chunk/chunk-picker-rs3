@@ -51183,6 +51183,13 @@
 				"Primary": true,
 				"Priority": 1
 			},
+			"Pickpocket a ~|Crux Eqal Druid|~": {
+				"Npcs": ["Crux Eqal Druid"],
+				"Level": 42,
+				"Output": "Crux Eqal Druid",
+				"Primary": true,
+				"Priority": 1
+			},
 			"Pickpocket a ~|bearded Pollnivnian bandit|~": {
 				"Level": 45,
 				"Items": ["Blackjack+"],
@@ -51267,6 +51274,13 @@
 				"Level": 80,
 				"Monsters": ["Hero"],
 				"Output": "Hero",
+				"Primary": true,
+				"Priority": 1
+			},
+			"Pickpocket a ~|Crux Eqal Knight|~": {
+				"Npcs": ["Crux Eqal Knight"],
+				"Level": 83,
+				"Output": "Crux Eqal Knight",
 				"Primary": true,
 				"Priority": 1
 			},
@@ -51464,7 +51478,7 @@
 				"Objects": ["Fish stall"],
 				"Output": "Fish stall",
 				"Primary": true,
-				"Priority": 1
+				"Priority": 2
 			},
 			"Steal from a ~|lamp stall|~": {
 				"Level": 46,
@@ -51715,7 +51729,7 @@
 				"Chunks": ["Thievesguild+", "Kandarin safes+"],
 				"Output": "Safes high",
 				"Primary": true,
-				"Priority": 1
+				"Priority": 2
 			},
 			"Crack the ~|safes|~ in Zemouregal's fort": {
 				"Level": 96,
@@ -63566,16 +63580,12 @@
 			}
 		},
 		"Nonskill": {
-			"Ardougne underground": {
-				"UnlocksArea": true
-			},
 			"Zanaris": {
-				"UnlocksArea": true
+				"UnlocksArea": true,
+				"Items": ["Dramen staff"],
+				"Chunks": ["12849"]
 			},
 			"Troll Stronghold": {
-				"UnlocksArea": true
-			},
-			"Yanille Dungeon": {
 				"UnlocksArea": true
 			},
 			"Tolna's Rift": {
@@ -76828,7 +76838,8 @@
 				"Wolf": 5,
 				"Ogress champion": 2,
 				"Ogress warrior": 4,
-				"Ogress": 4
+				"Ogress": 4,
+				"Jungle Strykewyrm": 11
 			},
 			"NPC": {
 				"Mound": 11
@@ -77003,8 +77014,7 @@
 				"Dark mage": 1
 			},
 			"Connect": {
-				"9622": true,
-				"10135": true
+				"9622": true
 			},
 			"Shop": {
 				"West Ardougne General Store": true
@@ -78741,7 +78751,7 @@
 			"Connect": {
 				"9779": true
 			},
-			"Name": "Ardougne underground"
+			"Name": "Claus' Kitchen"
 		},
 		"10136": {
 			"Object": {
@@ -80897,7 +80907,7 @@
 			"Spawn": {
 				"Knife": 1
 			},
-			"Name": "Ardougne underground"
+			"Name": "Temple of Ikov"
 		},
 		"10649": {
 			"Object": {
@@ -86204,7 +86214,7 @@
 			"NPC": {
 				"Dwarven Miner": 1
 			},
-			"Name": "Wilderness Dungeons"
+			"Name": "Keldagrim"
 		},
 		"11937": {
 			"Monster": {
@@ -86213,7 +86223,7 @@
 			"Connect": {
 				"11837": true
 			},
-			"Name": "Wilderness Dungeons"
+			"Name": "Wilderness Agility Course Pit"
 		},
 		"12057": {
 			"Object": {
@@ -90570,7 +90580,9 @@
 			"NPC": {
 				"Camel": 1,
 				"Avan": 1,
-				"Waseem the Leaflet Dropper": 1
+				"Waseem the Leaflet Dropper": 1,
+				"Crux Eqal Druid": 2,
+				"Crux Eqal Knight": 1
 			},
 			"Monster": {
 				"Scorpion": 9,
@@ -102229,125 +102241,6 @@
 				"Woman": 2
 			}
 		},
-		"Ardougne underground": {
-			"Object": {
-				"Cave exit": 6,
-				"Hole": 2,
-				"Crate": 59,
-				"Chest": 7,
-				"Tunnel": 1,
-				"Underground pass exit": 1,
-				"Boxes": 12,
-				"Mud pile": 2,
-				"Pipe": 5,
-				"Tree": 5,
-				"Closed chest": 10,
-				"Glarial's tomb": 1,
-				"Rock of Dalgroth": 1,
-				"Small obelisk": 2,
-				"Cave Exit": 1,
-				"Chaos altar": 1,
-				"Obstacle pipe": 2,
-				"Balancing ledge": 2,
-				"Pile of rubble": 2,
-				"Monkeybars": 4,
-				"Crates": 19,
-				"Sacks": 14,
-				"Lever": 6,
-				"Fire": 8,
-				"Raft": 6,
-				"Sink": 1,
-				"Buckets": 1,
-				"Barrel of junk": 1,
-				"Sculpture": 1,
-				"Black mushrooms": 3,
-				"Crack": 1,
-				"Vines": 5,
-				"Block balance": 2,
-				"Adamant dragon dungeon": 1,
-				"Stepping stone": 6,
-				"Web": 1,
-				"Exit": 2,
-				"'Perfect' gold rock": 4,
-				"Buried skeleton": 1
-			},
-			"Monster": {
-				"Rat": 86,
-				"Zombie": 20,
-				"Giant bat": 34,
-				"Hobgoblin": 15,
-				"Skeleton": 20,
-				"Moss giant": 23,
-				"Blue dragon": 6,
-				"Spider": 10,
-				"Greater demon": 12,
-				"Ogre chieftain": 6,
-				"Chaos druid": 11,
-				"Chaos druid warrior": 9,
-				"Salarin the Twisted": 1,
-				"Poison spider": 18,
-				"Giant spider": 17,
-				"Dungeon rat": 18,
-				"Thief": 2,
-				"Head Thief": 1,
-				"Ogre": 16,
-				"Goblin": 38,
-				"Alomone": 1,
-				"Hazeel Cultist": 6,
-				"Fire giant": 13,
-				"Wild dog": 56,
-				"Giant rat": 8,
-				"Scorpion": 5,
-				"Iron dragon": 13,
-				"Steel dragon": 4,
-				"Red dragon": 6,
-				"Black demon": 4,
-				"Baby red dragon": 8,
-				"Bronze dragon": 3,
-				"Hellhound": 2,
-				"Pit Scorpion": 20,
-				"Shadow warrior": 19,
-				"Ice spider": 9
-			},
-			"NPC": {
-				"Scared skavid": 1,
-				"Mad skavid": 1,
-				"Skavid": 4,
-				"Golrie": 1,
-				"Elena": 1,
-				"Edmond": 1,
-				"Butterfly": 1,
-				"Ogre shaman": 6,
-				"Sigbert the Adventurer": 1,
-				"Wizard Frumscone": 1,
-				"Claus the chef": 1,
-				"Clivet": 1,
-				"Spider": 1,
-				"Hazeel": 1,
-				"Rock pile": 2,
-				"Goblin guard": 2
-			},
-			"Connect": {
-				"4422": true,
-				"9779": true,
-				"10031": 2,
-				"10033": true,
-				"10035": true,
-				"10287": true,
-				"10288": 2,
-				"10290": true,
-				"10291": true,
-				"10292": 2,
-				"10388": true,
-				"10389": true,
-				"10549": true,
-				"10801": true,
-				"10900": true
-			},
-			"Spawn": {
-				"Knife": 1
-			}
-		},
 		"Zanaris": {
 			"Object": {
 				"Tree": 29,
@@ -102473,7 +102366,6 @@
 			}
 		},
 		"Troll Stronghold": {},
-		"Yanille Dungeon": {},
 		"Tolna's Rift": {
 			"Object": {
 				"Rope": 2
@@ -103314,8 +103206,8 @@
 				"Bloodworm": 4,
 				"Crypt spider": 6,
 				"Baby black dragon": 10,
-				"Giant ant worker": 10,
-				"Giant ant soldier": 11,
+				"Giant ant worker (Chaos Tunnels)": 10,
+				"Giant ant soldier (Chaos Tunnels)": 11,
 				"Giant rock crab": 6,
 				"Big Wolf": 7,
 				"Dire Wolf": 7,
@@ -123464,8 +123356,7 @@
 				"6": "4/128"
 			},
 			"Law rune": {
-				"3": "2/128",
-				"4": "2/128"
+				"3": "2/128"
 			},
 			"Death rune": {
 				"2": "2/128"
@@ -123572,9 +123463,6 @@
 			},
 			"Grimy dwarf weed": {
 				"1": "1/512"
-			},
-			"Rare drop table": {
-				"1": "Very rare"
 			},
 			"Starved ancient effigy": {
 				"1": "Very rare"
@@ -139533,6 +139421,151 @@
 				"1": "Rare"
 			}
 		},
+		"Giant ant soldier (Chaos Tunnels)": {
+			"Mithril arrow": {
+				"3": "Common",
+				"8": "Common"
+			},
+			"Pearl bolts": {
+				"10-15": "Uncommon"
+			},
+			"Mithril bolts": {
+				"1-10": "Uncommon"
+			},
+			"Medium plated mithril salvage": {
+				"1": "Rare"
+			},
+			"Fire rune": {
+				"5": "Common",
+				"6": "Common",
+				"7": "Common",
+				"9": "Common",
+				"17": "Common"
+			},
+			"Dust rune": {
+				"1-3": "Common"
+			},
+			"Nature rune": {
+				"2": "Common",
+				"9": "Common",
+				"14": "Common"
+			},
+			"Law rune": {
+				"1": "Uncommon",
+				"9": "Uncommon"
+			},
+			"Earth rune": {
+				"10": "Uncommon"
+			},
+			"Soul rune": {
+				"1": "Rare"
+			},
+			"Blood rune": {
+				"2": "Rare"
+			},
+			"Grimy guam": {
+				"1": "Common"
+			},
+			"Grimy marrentill": {
+				"1": "Common"
+			},
+			"Grimy tarromin": {
+				"1": "Common"
+			},
+			"Grimy wergali": {
+				"1": "Common"
+			},
+			"Grimy harralander": {
+				"1": "Uncommon"
+			},
+			"Grimy irit": {
+				"1": "Uncommon"
+			},
+			"Grimy avantoe": {
+				"1": "Uncommon"
+			},
+			"Grimy kwuarm": {
+				"1": "Uncommon"
+			},
+			"Grimy ranarr": {
+				"1": "Rare"
+			},
+			"Grimy cadantine": {
+				"1": "Very rare"
+			},
+			"Grimy lantadyme": {
+				"1": "Very rare"
+			},
+			"Grimy dwarf weed": {
+				"1": "Very rare"
+			},
+			"Guam seed": {
+				"1": "Common"
+			},
+			"Marrentill seed": {
+				"1": "Common"
+			},
+			"Tarromin seed": {
+				"1": "Common"
+			},
+			"Harralander seed": {
+				"1": "Common"
+			},
+			"Wergali seed": {
+				"1": "Common"
+			},
+			"Spirit weed seed": {
+				"1": "Uncommon"
+			},
+			"Toadflax seed": {
+				"1": "Uncommon"
+			},
+			"Irit seed": {
+				"1": "Uncommon"
+			},
+			"Avantoe seed": {
+				"1": "Uncommon"
+			},
+			"Kwuarm seed": {
+				"1": "Uncommon"
+			},
+			"Ranarr seed": {
+				"1": "Rare"
+			},
+			"Cadantine seed": {
+				"1": "Rare"
+			},
+			"Lantadyme seed": {
+				"1": "Very rare"
+			},
+			"Dwarf weed seed": {
+				"1": "Very rare"
+			},
+			"Papaya tree seed": {
+				"1": "Very rare"
+			},
+			"Trading sticks": {
+				"5-23": "Common"
+			},
+			"Iron stone spirit": {
+				"1": "Uncommon"
+			},
+			"Coal stone spirit": {
+				"1-7": "Uncommon"
+			},
+			"Unicorn horn dust": {
+				"1": "Rare"
+			},
+			"Sealed clue scroll (medium)": {
+				"1": "1/128"
+			},
+			"Starved ancient effigy": {
+				"1": "Very rare"
+			},
+			"Rare drop table": {
+				"1": "Rare"
+			}
+		},
 		"Giant ant worker": {
 			"Sweetcorn seed": {
 				"2": "Uncommon"
@@ -139626,6 +139659,89 @@
 			},
 			"Foot": {
 				"1": "Uncommon"
+			},
+			"Sealed clue scroll (medium)": {
+				"1": "1/128"
+			},
+			"Rare drop table": {
+				"1": "Rare"
+			}
+		},
+		"Giant ant worker (Chaos Tunnels)": {
+			"Sweetcorn seed": {
+				"2": "Uncommon"
+			},
+			"Strawberry seed": {
+				"2": "Rare"
+			},
+			"Watermelon seed": {
+				"1": "Rare"
+			},
+			"Papaya tree seed": {
+				"1": "Very rare"
+			},
+			"Air rune": {
+				"3-48": "Common"
+			},
+			"Water rune": {
+				"28": "Common"
+			},
+			"Earth rune": {
+				"1-9": "Common"
+			},
+			"Nature rune": {
+				"1-15": "Common"
+			},
+			"Death rune": {
+				"2-10": "Uncommon"
+			},
+			"Blood rune": {
+				"1-4": "Rare"
+			},
+			"Grimy guam": {
+				"1": "Common"
+			},
+			"Grimy marrentill": {
+				"1": "Common"
+			},
+			"Grimy tarromin": {
+				"1": "Common"
+			},
+			"Grimy harralander": {
+				"1": "Uncommon"
+			},
+			"Grimy ranarr": {
+				"1": "Uncommon"
+			},
+			"Grimy irit": {
+				"1": "Uncommon"
+			},
+			"Grimy avantoe": {
+				"1": "Uncommon"
+			},
+			"Grimy kwuarm": {
+				"1": "Rare"
+			},
+			"Grimy cadantine": {
+				"1": "Rare"
+			},
+			"Grimy lantadyme": {
+				"1": "Rare"
+			},
+			"Grimy dwarf weed": {
+				"1": "Rare"
+			},
+			"Coins": {
+				"380": "Rare"
+			},
+			"Strawberry": {
+				"2": "Common"
+			},
+			"Unicorn horn dust": {
+				"1": "Common"
+			},
+			"Coal stone spirit": {
+				"1-10": "Uncommon"
 			},
 			"Sealed clue scroll (medium)": {
 				"1": "1/128"
@@ -190894,6 +191010,53 @@
 				"Botanist's gloves": "Common",
 				"Botanist's boots": "Common",
 				"Botanist's mask add-on": "Common"
+			},
+			"Crux Eqal Druid": {
+				"Coins": "Common",
+				"Elemental anima stone": "Unknown",
+				"Catalytic anima stone": "Unknown",
+				"Guam seed": "Unknown",
+				"Marrentill seed": "Unknown",
+				"Tarromin seed": "Unknown",
+				"Harralander seed": "Unknown",
+				"Ranarr seed": "Unknown",
+				"Spirit weed seed": "Unknown",
+				"Kwuarm seed": "Unknown",
+				"Snapdragon seed": "Unknown",
+				"Lantadyme seed": "Unknown",
+				"Dwarf weed seed": "Unknown",
+				"Sand seed": "Unknown",
+				"Mystical sand seed": "Unknown",
+				"Crux Eqal hood": "Unknown",
+				"Supreme growth potion (universal)": "Unknown"
+			},
+			"Crux Eqal Knight": {
+				"Coins": "Common",
+				"Elemental anima stone": "Unknown",
+				"Catalytic anima stone": "Unknown",
+				"Guam seed": "Unknown",
+				"Marrentill seed": "Unknown",
+				"Tarromin seed": "Unknown",
+				"Harralander seed": "Unknown",
+				"Ranarr seed": "Unknown",
+				"Spirit weed seed": "Unknown",
+				"Toadflax seed": "Unknown",
+				"Irit seed": "Unknown",
+				"Wergali seed": "Unknown",
+				"Avantoe seed": "Unknown",
+				"Kwuarm seed": "Unknown",
+				"Bloodweed seed": "Unknown",
+				"Snapdragon seed": "Unknown",
+				"Cadantine seed": "Unknown",
+				"Lantadyme seed": "Unknown",
+				"Arbuck seed": "Unknown",
+				"Dwarf weed seed": "Unknown",
+				"Torstol seed": "Unknown",
+				"Fellstalk seed": "Unknown",
+				"Sand seed": "Unknown",
+				"Mystical sand seed": "Unknown",
+				"Crux Eqal hood": "Unknown",
+				"Supreme growth potion (universal)": "Unknown"
 			}
 		},
 		"Woodcutting": {
