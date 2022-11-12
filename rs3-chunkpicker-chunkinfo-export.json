@@ -18185,6 +18185,7 @@
 			},
 			"Create a ~|pyre ship|~ using chewed bones": {
 				"Items": ["Logs*", "Chewed bones*"],
+				"Chunks": ["10038"],
 				"Level": 11,
 				"Skills": {
 					"Firemaking": 11
@@ -18195,6 +18196,7 @@
 			},
 			"Create an achey ~|pyre ship|~ using chewed bones": {
 				"Items": ["Achey tree logs*", "Chewed bones*"],
+				"Chunks": ["10038"],
 				"Level": 11,
 				"Skills": {
 					"Firemaking": 11
@@ -18205,6 +18207,7 @@
 			},
 			"Create an oak ~|pyre ship|~ using chewed bones": {
 				"Items": ["Oak logs*", "Chewed bones*"],
+				"Chunks": ["10038"],
 				"Level": 25,
 				"Skills": {
 					"Firemaking": 25
@@ -18215,6 +18218,7 @@
 			},
 			"Create a willow ~|pyre ship|~ using chewed bones": {
 				"Items": ["Willow logs*", "Chewed bones*"],
+				"Chunks": ["10038"],
 				"Level": 40,
 				"Skills": {
 					"Firemaking": 40
@@ -18225,6 +18229,7 @@
 			},
 			"Create a teak ~|pyre ship|~ using chewed bones": {
 				"Items": ["Teak logs*", "Chewed bones*"],
+				"Chunks": ["10038"],
 				"Level": 45,
 				"Skills": {
 					"Firemaking": 45
@@ -18235,6 +18240,7 @@
 			},
 			"Create an arctic pine ~|pyre ship|~ using chewed bones": {
 				"Items": ["Arctic pine logs*", "Chewed bones*"],
+				"Chunks": ["10038"],
 				"Level": 52,
 				"Skills": {
 					"Firemaking": 52
@@ -18245,6 +18251,7 @@
 			},
 			"Create a maple ~|pyre ship|~ using chewed bones": {
 				"Items": ["Maple logs*", "Chewed bones*"],
+				"Chunks": ["10038"],
 				"Level": 55,
 				"Skills": {
 					"Firemaking": 55
@@ -18255,6 +18262,7 @@
 			},
 			"Create a mahogany ~|pyre ship|~ using chewed bones": {
 				"Items": ["Mahogany logs*", "Chewed bones*"],
+				"Chunks": ["10038"],
 				"Level": 60,
 				"Skills": {
 					"Firemaking": 60
@@ -18265,6 +18273,7 @@
 			},
 			"Create an eucalyptus ~|pyre ship|~ using chewed bones": {
 				"Items": ["Eucalyptus logs*", "Chewed bones*"],
+				"Chunks": ["10038"],
 				"Level": 68,
 				"Skills": {
 					"firemaking": 68
@@ -18275,6 +18284,7 @@
 			},
 			"Create a yew ~|pyre ship|~ using chewed bones": {
 				"Items": ["Yew logs*", "Chewed bones*"],
+				"Chunks": ["10038"],
 				"Level": 70,
 				"Skills": {
 					"Firemaking": 70
@@ -18285,6 +18295,7 @@
 			},
 			"Create a magic ~|pyre ship|~ using chewed bones": {
 				"Items": ["Magic logs*", "Chewed bones*"],
+				"Chunks": ["10038"],
 				"Level": 85,
 				"Skills": {
 					"Firemaking": 85
@@ -18295,6 +18306,7 @@
 			},
 			"Create an elder ~|pyre ship|~ using chewed bones": {
 				"Items": ["Elder logs*", "Chewed bones*"],
+				"Chunks": ["10038"],
 				"Level": 99,
 				"Skills": {
 					"Firemaking": 99
@@ -25217,8 +25229,8 @@
 			},
 			"Grow a ~|belladonna|~": {
 				"Category": ["Normal Farming"],
-				"Items": ["Belladonna seed"],
-				"Objects": ["Belladonna patch"],
+				"Items": ["Cave Nightshade seed"],
+				"Objects": ["Nightshade patch"],
 				"Level": 63,
 				"Output": "Cave nightshade",
 				"Primary": false,
@@ -51184,7 +51196,7 @@
 				"Priority": 1
 			},
 			"Pickpocket a ~|Crux Eqal Druid|~": {
-				"Npcs": ["Crux Eqal Druid"],
+				"NPCs": ["Crux Eqal Druid"],
 				"Level": 42,
 				"Output": "Crux Eqal Druid",
 				"Primary": true,
@@ -51278,7 +51290,7 @@
 				"Priority": 1
 			},
 			"Pickpocket a ~|Crux Eqal Knight|~": {
-				"Npcs": ["Crux Eqal Knight"],
+				"NPCs": ["Crux Eqal Knight"],
 				"Level": 83,
 				"Output": "Crux Eqal Knight",
 				"Primary": true,
@@ -87582,7 +87594,7 @@
 				"Candle sconce": 1,
 				"Crate": 1,
 				"Bookcase": 1,
-				"Belladonna patch": 1,
+				"Nightshade patch": 1,
 				"Evil turnip patch": 1
 			},
 			"Monster": {
@@ -90575,7 +90587,8 @@
 				"Common gem rock": 3,
 				"Silver rock": 6,
 				"Uncommon gem rock": 4,
-				"Gold rock": 4
+				"Gold rock": 4,
+				"Herb patch": 1
 			},
 			"NPC": {
 				"Camel": 1,
@@ -116385,7 +116398,7 @@
 			"Cooking object+": ["Fire", "Cooking range", "Cooking range+", "Clay oven", "Campfire", "Fireplace", "Stove", "Cooking pot", "Sulphur pit", "Player fire"],
 			"Cooking range+": ["Cooking range", "Cooking range+", "Stove", "Clay oven"],
 			"CurePatch+": ["Allotment", "Flower patch", "Herb patch", "Tree patch", "Fruit tree patch", "Hops patch", "Bush patch"],
-			"FarmingPatch+": ["Allotment", "Flower patch", "Herb patch", "Potato patch", "Hops patch", "Bush patch", "Tree patch", "Fruit tree patch", "Mushroom patch", "Cactus patch", "Spirit tree patch", "Evil turnip patch", "Belladonna patch", "Calquat patch", "Elder tree patch", "Crystal tree patch", "Vine herb patch", "Vine bush patch", "Vine flower patch", "Fertile soil (patch)", "Money tree patch", "Jade vine patch"],
+			"FarmingPatch+": ["Allotment", "Flower patch", "Herb patch", "Potato patch", "Hops patch", "Bush patch", "Tree patch", "Fruit tree patch", "Mushroom patch", "Cactus patch", "Spirit tree patch", "Evil turnip patch", "Nightshade patch", "Calquat patch", "Elder tree patch", "Crystal tree patch", "Vine herb patch", "Vine bush patch", "Vine flower patch", "Fertile soil (patch)", "Money tree patch", "Jade vine patch"],
 			"Fire+": ["Fire", "Fireplace", "Player fire", "Campfire"],
 			"Fish+": ["Fishing spot (minnow)", "Fishing spot (crayfish)", "Fishing spot (small fishing net, bait)"],
 			"Haystack+": ["Haystack", "Hay bale"],
@@ -120137,7 +120150,7 @@
 			"Cactus seed": {
 				"1": "Uncommon"
 			},
-			"Belladonna seed": {
+			"Cave Nightshade seed": {
 				"1": "Uncommon"
 			},
 			"Nasturtium seed": {
@@ -120347,7 +120360,7 @@
 			"Cactus seed": {
 				"1": "Uncommon"
 			},
-			"Belladonna seed": {
+			"Cave Nightshade seed": {
 				"1": "Uncommon"
 			},
 			"Avantoe seed": {
@@ -120960,7 +120973,7 @@
 			"Bittercap mushroom spore": {
 				"1": "Uncommon"
 			},
-			"Belladonna seed": {
+			"Cave Nightshade seed": {
 				"1": "Uncommon"
 			},
 			"Ranarr seed": {
@@ -122401,7 +122414,7 @@
 			"Cactus seed": {
 				"1": "1/512"
 			},
-			"Belladonna seed": {
+			"Cave Nightshade seed": {
 				"1": "1/256"
 			},
 			"Coins": {
@@ -126703,7 +126716,7 @@
 			"Cactus seed": {
 				"1-3": "Uncommon"
 			},
-			"Belladonna seed": {
+			"Cave Nightshade seed": {
 				"1-3": "Common"
 			},
 			"Corrupt dragon battleaxe": {
@@ -127556,7 +127569,7 @@
 			"Limpwurt seed": {
 				"1": "Common"
 			},
-			"Belladonna seed": {
+			"Cave Nightshade seed": {
 				"1": "Common"
 			},
 			"Cactus seed": {
@@ -127730,7 +127743,7 @@
 			"Cactus seed": {
 				"1": "Very rare"
 			},
-			"Belladonna seed": {
+			"Cave Nightshade seed": {
 				"1": "Very rare"
 			},
 			"Marrentill seed": {
@@ -128203,7 +128216,7 @@
 			"Cactus seed": {
 				"1": "1/2048"
 			},
-			"Belladonna seed": {
+			"Cave Nightshade seed": {
 				"1": "1/1024"
 			},
 			"Marrentill seed": {
@@ -130217,7 +130230,7 @@
 			"Cactus seed": {
 				"1": "Very rare"
 			},
-			"Belladonna seed": {
+			"Cave Nightshade seed": {
 				"1": "Very rare"
 			},
 			"Marrentill seed": {
@@ -130494,7 +130507,7 @@
 			"Cactus seed": {
 				"1": "Very rare"
 			},
-			"Belladonna seed": {
+			"Cave Nightshade seed": {
 				"1": "Very rare"
 			},
 			"Marrentill seed": {
@@ -130795,7 +130808,7 @@
 			"Cactus seed": {
 				"1": "Very rare"
 			},
-			"Belladonna seed": {
+			"Cave Nightshade seed": {
 				"1": "Very rare"
 			},
 			"Marrentill seed": {
@@ -130969,7 +130982,7 @@
 			"Cactus seed": {
 				"1": "Uncommon"
 			},
-			"Belladonna seed": {
+			"Cave Nightshade seed": {
 				"1": "Uncommon"
 			},
 			"Poison ivy seed": {
@@ -131028,7 +131041,7 @@
 			"Poison ivy seed": {
 				"1": "2/128"
 			},
-			"Belladonna seed": {
+			"Cave Nightshade seed": {
 				"1": "3/128"
 			},
 			"Irit seed": {
@@ -131201,7 +131214,7 @@
 			"Kwuarm seed": {
 				"1": "1/2048"
 			},
-			"Belladonna seed": {
+			"Cave Nightshade seed": {
 				"1": "1/1024"
 			},
 			"Cactus seed": {
@@ -131404,7 +131417,7 @@
 			"Kwuarm seed": {
 				"1": "Very rare"
 			},
-			"Belladonna seed": {
+			"Cave Nightshade seed": {
 				"1": "Very rare"
 			},
 			"Cactus seed": {
@@ -132011,7 +132024,7 @@
 			"Grimy dwarf weed": {
 				"1 (noted)": "1/16"
 			},
-			"Belladonna seed": {
+			"Cave Nightshade seed": {
 				"1": "21/1600"
 			},
 			"Cactus seed": {
@@ -132118,7 +132131,7 @@
 			"Whiteberry seed": {
 				"1": "Uncommon"
 			},
-			"Belladonna seed": {
+			"Cave Nightshade seed": {
 				"1": "Uncommon"
 			},
 			"Cactus seed": {
@@ -132766,7 +132779,7 @@
 			"Poison ivy seed": {
 				"1": "Uncommon"
 			},
-			"Belladonna seed": {
+			"Cave Nightshade seed": {
 				"1": "Uncommon"
 			},
 			"Cactus seed": {
@@ -134121,7 +134134,7 @@
 			"Irit seed": {
 				"1": "1/512"
 			},
-			"Belladonna seed": {
+			"Cave Nightshade seed": {
 				"1": "1/512"
 			},
 			"Poison ivy seed": {
@@ -134255,7 +134268,7 @@
 			"Wildblood seed": {
 				"1": "Common"
 			},
-			"Belladonna seed": {
+			"Cave Nightshade seed": {
 				"1": "Uncommon"
 			},
 			"Harralander seed": {
@@ -134789,7 +134802,7 @@
 			"Poison ivy seed": {
 				"1": "Uncommon"
 			},
-			"Belladonna seed": {
+			"Cave Nightshade seed": {
 				"1": "Uncommon"
 			},
 			"Cadantine seed": {
@@ -135274,7 +135287,7 @@
 			"Cactus seed": {
 				"1": "Rare"
 			},
-			"Belladonna seed": {
+			"Cave Nightshade seed": {
 				"1": "Rare"
 			},
 			"Marrentill seed": {
@@ -135608,7 +135621,7 @@
 			"Kwuarm seed": {
 				"1": "Uncommon"
 			},
-			"Belladonna seed": {
+			"Cave Nightshade seed": {
 				"1": "Uncommon"
 			},
 			"Avantoe seed": {
@@ -135724,7 +135737,7 @@
 			"Irit seed": {
 				"1": "Common"
 			},
-			"Belladonna seed": {
+			"Cave Nightshade seed": {
 				"1": "Uncommon"
 			},
 			"Cactus seed": {
@@ -136473,7 +136486,7 @@
 			"Blood rune": {
 				"1-2": "5/128"
 			},
-			"Belladonna seed": {
+			"Cave Nightshade seed": {
 				"1": "3/1024"
 			},
 			"Harralander seed": {
@@ -137731,7 +137744,7 @@
 			"Bittercap mushroom spore": {
 				"1": "Uncommon"
 			},
-			"Belladonna seed": {
+			"Cave Nightshade seed": {
 				"1": "Uncommon"
 			},
 			"Irit seed": {
@@ -139040,7 +139053,7 @@
 			"Cactus seed": {
 				"1": "rare"
 			},
-			"Belladonna seed": {
+			"Cave Nightshade seed": {
 				"1": "Uncommon"
 			},
 			"Guam seed": {
@@ -142901,7 +142914,7 @@
 			"Wildblood seed": {
 				"1": "Uncommon"
 			},
-			"Belladonna seed": {
+			"Cave Nightshade seed": {
 				"1": "Uncommon"
 			},
 			"Jangerberry seed": {
@@ -143041,7 +143054,7 @@
 			"Spirit weed seed": {
 				"1": "Uncommon"
 			},
-			"Belladonna seed": {
+			"Cave Nightshade seed": {
 				"1": "Uncommon"
 			},
 			"Strawberry seed": {
@@ -144676,7 +144689,7 @@
 			"Cactus seed": {
 				"1": "Rare"
 			},
-			"Belladonna seed": {
+			"Cave Nightshade seed": {
 				"1": "Rare"
 			},
 			"Tarromin seed": {
@@ -144873,7 +144886,7 @@
 			"Cactus seed": {
 				"1": "Rare"
 			},
-			"Belladonna seed": {
+			"Cave Nightshade seed": {
 				"1": "Rare"
 			},
 			"Tarromin seed": {
@@ -145062,7 +145075,7 @@
 			"Cactus seed": {
 				"1": "Rare"
 			},
-			"Belladonna seed": {
+			"Cave Nightshade seed": {
 				"1": "Rare"
 			},
 			"Tarromin seed": {
@@ -145261,7 +145274,7 @@
 			"Cactus seed": {
 				"1": "Uncommon"
 			},
-			"Belladonna seed": {
+			"Cave Nightshade seed": {
 				"1": "Uncommon"
 			},
 			"Limpwurt seed": {
@@ -145930,7 +145943,7 @@
 			"Cactus seed": {
 				"1": "Rare"
 			},
-			"Belladonna seed": {
+			"Cave Nightshade seed": {
 				"1": "Rare"
 			},
 			"Spirit weed seed": {
@@ -146151,7 +146164,7 @@
 			"Wildblood seed": {
 				"1": "Uncommon"
 			},
-			"Belladonna seed": {
+			"Cave Nightshade seed": {
 				"1": "Rare"
 			},
 			"Lantadyme seed": {
@@ -146446,7 +146459,7 @@
 			"Cactus seed": {
 				"1": "Very rare"
 			},
-			"Belladonna seed": {
+			"Cave Nightshade seed": {
 				"1": "Very rare"
 			},
 			"Poison ivy seed": {
@@ -146714,7 +146727,7 @@
 			"Cactus seed": {
 				"1": "Very rare"
 			},
-			"Belladonna seed": {
+			"Cave Nightshade seed": {
 				"1": "Very rare"
 			},
 			"Poison ivy seed": {
@@ -146800,7 +146813,7 @@
 			"Cactus seed": {
 				"1": "Common"
 			},
-			"Belladonna seed": {
+			"Cave Nightshade seed": {
 				"1": "Common"
 			},
 			"Poison ivy seed": {
@@ -148820,7 +148833,7 @@
 			"Irit seed": {
 				"1": "1/256"
 			},
-			"Belladonna seed": {
+			"Cave Nightshade seed": {
 				"1": "1/256"
 			},
 			"Poison ivy seed": {
@@ -149037,7 +149050,7 @@
 			"Whiteberry seed": {
 				"1": "Uncommon"
 			},
-			"Belladonna seed": {
+			"Cave Nightshade seed": {
 				"1": "Uncommon"
 			},
 			"Bittercap mushroom spore": {
@@ -149198,7 +149211,7 @@
 			"Whiteberry seed": {
 				"1": "Uncommon"
 			},
-			"Belladonna seed": {
+			"Cave Nightshade seed": {
 				"1": "Uncommon"
 			},
 			"Bittercap mushroom spore": {
@@ -150986,7 +150999,7 @@
 			"Poison ivy seed": {
 				"1": "Uncommon"
 			},
-			"Belladonna seed": {
+			"Cave Nightshade seed": {
 				"1": "Uncommon"
 			},
 			"Cadantine seed": {
@@ -151405,7 +151418,7 @@
 			"Cadantine seed": {
 				"1": "1/256"
 			},
-			"Belladonna seed": {
+			"Cave Nightshade seed": {
 				"1": "1/128"
 			},
 			"Lantadyme seed": {
@@ -152588,7 +152601,7 @@
 			"Poison ivy seed": {
 				"1": "Uncommon"
 			},
-			"Belladonna seed": {
+			"Cave Nightshade seed": {
 				"1": "Uncommon"
 			},
 			"Toadflax seed": {
@@ -154215,7 +154228,7 @@
 			"Fellstalk seed": {
 				"2": "3/128"
 			},
-			"Belladonna seed": {
+			"Cave Nightshade seed": {
 				"1": "1/256"
 			},
 			"Cactus seed": {
@@ -154413,7 +154426,7 @@
 			"Snapdragon seed": {
 				"1": "1/256"
 			},
-			"Belladonna seed": {
+			"Cave Nightshade seed": {
 				"1": "1/128"
 			},
 			"Cactus seed": {
@@ -154732,7 +154745,7 @@
 			"Onion seed": {
 				"1-3": "Common"
 			},
-			"Belladonna seed": {
+			"Cave Nightshade seed": {
 				"1": "Uncommon"
 			},
 			"Sweetcorn seed": {
@@ -155076,7 +155089,7 @@
 			"Marrentill seed": {
 				"1": "Common"
 			},
-			"Belladonna seed": {
+			"Cave Nightshade seed": {
 				"1": "Uncommon"
 			},
 			"Spirit weed seed": {
@@ -155329,7 +155342,7 @@
 			"Cactus seed": {
 				"1": "Rare"
 			},
-			"Belladonna seed": {
+			"Cave Nightshade seed": {
 				"1": "Rare"
 			},
 			"Marrentill seed": {
@@ -155604,7 +155617,7 @@
 			"Poison ivy seed": {
 				"1": "Uncommon"
 			},
-			"Belladonna seed": {
+			"Cave Nightshade seed": {
 				"1": "Uncommon"
 			},
 			"Cadantine seed": {
@@ -156208,7 +156221,7 @@
 			"Poison ivy seed": {
 				"1": "Rare"
 			},
-			"Belladonna seed": {
+			"Cave Nightshade seed": {
 				"1": "Rare"
 			},
 			"Common fruit": {
@@ -156444,7 +156457,7 @@
 			"Whip vine": {
 				"1": "Very rare"
 			},
-			"Belladonna seed": {
+			"Cave Nightshade seed": {
 				"1": "Unknown"
 			},
 			"Cadantine seed": {
@@ -156545,7 +156558,7 @@
 			"Watermelon seed": {
 				"1": "7/2400"
 			},
-			"Belladonna seed": {
+			"Cave Nightshade seed": {
 				"1": "7/8000"
 			},
 			"Harralander seed": {
@@ -156988,7 +157001,7 @@
 			"Avantoe seed": {
 				"1": "2/128"
 			},
-			"Belladonna seed": {
+			"Cave Nightshade seed": {
 				"1": "3/128"
 			},
 			"Kwuarm seed": {
@@ -158299,7 +158312,7 @@
 			"Cactus seed": {
 				"1": "Rare"
 			},
-			"Belladonna seed": {
+			"Cave Nightshade seed": {
 				"1": "Rare"
 			},
 			"Marrentill seed": {
@@ -158403,7 +158416,7 @@
 			"Cactus seed": {
 				"1": "Rare"
 			},
-			"Belladonna seed": {
+			"Cave Nightshade seed": {
 				"1": "Rare"
 			},
 			"Marrentill seed": {
@@ -160505,7 +160518,7 @@
 			"Poison ivy seed": {
 				"1": "Rare"
 			},
-			"Belladonna seed": {
+			"Cave Nightshade seed": {
 				"1": "Rare"
 			},
 			"Dwarf weed seed": {
@@ -161766,7 +161779,7 @@
 			"Whiteberry seed": {
 				"1": "8/4096"
 			},
-			"Belladonna seed": {
+			"Cave Nightshade seed": {
 				"1": "4/4096"
 			},
 			"Marrentill seed": {
@@ -163301,7 +163314,7 @@
 			"Jangerberry seed": {
 				"1": "Uncommon"
 			},
-			"Belladonna seed": {
+			"Cave Nightshade seed": {
 				"1": "Uncommon"
 			},
 			"Poison ivy seed": {
@@ -164533,7 +164546,7 @@
 			"Irit seed": {
 				"1": "1/2048"
 			},
-			"Belladonna seed": {
+			"Cave Nightshade seed": {
 				"1": "1/2048"
 			},
 			"Poison ivy seed": {
@@ -164625,7 +164638,7 @@
 			"Strawberry seed": {
 				"3": "Uncommon"
 			},
-			"Belladonna seed": {
+			"Cave Nightshade seed": {
 				"3": "Rare"
 			},
 			"Cosmic rune": {
@@ -169074,7 +169087,7 @@
 			"Irit seed": {
 				"1": "1/2048"
 			},
-			"Belladonna seed": {
+			"Cave Nightshade seed": {
 				"1": "1/2048"
 			},
 			"Poison ivy seed": {
@@ -169471,7 +169484,7 @@
 			"Cactus seed": {
 				"1": "Rare"
 			},
-			"Belladonna seed": {
+			"Cave Nightshade seed": {
 				"1": "Rare"
 			},
 			"Marrentill seed": {
@@ -171376,7 +171389,7 @@
 			"Cactus seed": {
 				"1": "Unknown"
 			},
-			"Belladonna seed": {
+			"Cave Nightshade seed": {
 				"1": "Unknown"
 			},
 			"Bittercap mushroom spore": {
@@ -171585,7 +171598,7 @@
 			"Turoth boots": {
 				"1": "1/512"
 			},
-			"Belladonna seed": {
+			"Cave Nightshade seed": {
 				"1": "2/128"
 			},
 			"Irit seed": {
@@ -173146,7 +173159,7 @@
 			"Blood rune": {
 				"1-2": "Uncommon"
 			},
-			"Belladonna seed": {
+			"Cave Nightshade seed": {
 				"1": "Uncommon"
 			},
 			"Harralander seed": {
@@ -173298,7 +173311,7 @@
 			"Warpriest of Zamorak cape": {
 				"1": "1/128"
 			},
-			"Belladonna seed": {
+			"Cave Nightshade seed": {
 				"1": "Uncommon"
 			},
 			"Harralander seed": {
@@ -173479,7 +173492,7 @@
 			"Torstol seed": {
 				"1": "Rare"
 			},
-			"Belladonna seed": {
+			"Cave Nightshade seed": {
 				"1": "Uncommon"
 			},
 			"Splitbark helm": {
@@ -173939,7 +173952,7 @@
 			"Kwuarm seed": {
 				"1": "Rare"
 			},
-			"Belladonna seed": {
+			"Cave Nightshade seed": {
 				"1": "Rare"
 			},
 			"Cactus seed": {
@@ -174013,7 +174026,7 @@
 			"Kwuarm seed": {
 				"1": "Rare"
 			},
-			"Belladonna seed": {
+			"Cave Nightshade seed": {
 				"1": "Rare"
 			},
 			"Cactus seed": {
@@ -174323,7 +174336,7 @@
 			"Dwarf weed seed": {
 				"1": "Rare"
 			},
-			"Belladonna seed": {
+			"Cave Nightshade seed": {
 				"1": "Rare"
 			},
 			"Torstol seed": {
@@ -178898,7 +178911,7 @@
 			"Jangerberry seed": {
 				"3": "Uncommon"
 			},
-			"Belladonna seed": {
+			"Cave Nightshade seed": {
 				"3": "Rare"
 			},
 			"Grimy ranarr": {
@@ -182025,7 +182038,7 @@
 			"Cactus seed": true,
 			"Bittercap mushroom spore": true,
 			"Morchella mushroom spore": true,
-			"Belladonna seed": true,
+			"Cave Nightshade seed": true,
 			"Asgarnian seed": true,
 			"Jute seed": true,
 			"Yanillian seed": true,
@@ -188193,7 +188206,7 @@
 				"Ranarr seed": "12/1075",
 				"Torstol seed": "8/1075",
 				"Dwarf weed seed": "7/1075",
-				"Belladonna seed": "112/1075",
+				"Cave Nightshade seed": "112/1075",
 				"Jangerberry seed": "114/1075",
 				"Limpwurt seed": "120/1075",
 				"Curry tree seed": "11/1075",
@@ -190377,7 +190390,7 @@
 				"Toadflax seed": "Rare",
 				"Irit seed": "Rare",
 				"Bittercap mushroom spore": "Rare",
-				"Belladonna seed": "Rare",
+				"Cave Nightshade seed": "Rare",
 				"Cadavaberry seed": "Very rare",
 				"Dwellberry seed": "Very rare",
 				"Avantoe seed": "Very rare",
