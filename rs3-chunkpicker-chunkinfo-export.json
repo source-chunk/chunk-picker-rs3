@@ -66264,6 +66264,10 @@
 				"Chunks": ["Elemental Workshop Second Floor"],
 				"Items": ["Elemental bar"],
 				"Output": "Primed bar"
+			},
+			"Take strawberries out of a basket": {
+				"Items": ["Strawberries (5)"],
+				"Output": "Strawberry"
 			}
 		}
 	},
@@ -103237,7 +103241,7 @@
 				"Black demon": 9
 			},
 			"Connect": {
-				"4934": true
+				"12885": true
 			}
 		},
 		"Stronghold of Player Safety": {
