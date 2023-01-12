@@ -628,8 +628,7 @@ let ruleStructure = {
         "Boss": true,
         "Rare Drop": true,
         "RDT": true,
-        "Primary Spawns": true,
-		"Swordy": true
+        "Primary Spawns": true
     },
     "Miscellaneous": {
         "Minigame": true,
@@ -644,7 +643,8 @@ let ruleStructure = {
         "Manually Complete Tasks": true,
         "Every Drop": true,
         "All Droptables": true,
-        "All Shops": true
+        "All Shops": true,
+		"Swordy": true
     }
 };                                                                              // Structure of rules
 
