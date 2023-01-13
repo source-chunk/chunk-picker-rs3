@@ -500,11 +500,8 @@ let rulePresets = {
         "Spells": true,
 		"Token": true,
 		"Golden fish egg": true,
-<<<<<<< HEAD
 		"Stuffables": true,
 		"Swordy": true,
-=======
->>>>>>> parent of abbc80f (1.0.31 head)
     },
     "Supreme Chunker": {
         "Skillcape": true,
@@ -555,12 +552,9 @@ let rulePresets = {
 		"Master skillcape": true,
 		"Golden fish egg": true,
 		"Cleaning herbs": true,
-<<<<<<< HEAD
 		"Stuffables": true,
 		"Swordy": true,
-=======
->>>>>>> parent of abbc80f (1.0.31 head)
-    },
+    }
 };                                                                              // List of rules that are part of each preset
 
 let rulePresetFlavor = {
