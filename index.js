@@ -629,7 +629,7 @@ let ruleStructure = {
         "Rare Drop": true,
         "RDT": true,
         "Primary Spawns": true,
-		"Swordy": true
+		"Swordy": true,
     },
     "Miscellaneous": {
         "Minigame": true,
