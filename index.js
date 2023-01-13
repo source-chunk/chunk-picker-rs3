@@ -419,7 +419,7 @@ let ruleNames = {
     "Primary Spawns": "Item spawns count as primary access to an item, and can be used as a primary way to train a skill if needed <span class='rule-asterisk noscroll'>*</span>",
     "Smithing by Smelting": "Smelting ores into bars counts as a primary method for training Smithing",
     "Pets": "Obtaining pets is included in the collection log tasks <span class='rule-asterisk noscroll'>*</span>",
-    "Stuffables": "Must obtain stuffable items that can be mounted in the POH (big fish, slayer heads)<span class='rule-asterisk noscroll'>*</span>",
+    "Stuffables": "Must obtain stuffable items that can be mounted in the POH (big fish, slayer heads) <span class='rule-asterisk noscroll'>*</span>",
     "Manually Complete Tasks": "<b class='noscroll'>For maps that allow manually choosing new chunks</b>, allow the ability to manually move completed active tasks",
     "Every Drop": "Must obtain every monster drop at least once",
     "HigherLander": "Accessing the intermediate and veteran landers for Pest Control are required tasks (only novice lander is required otherwise)",
@@ -500,8 +500,11 @@ let rulePresets = {
         "Spells": true,
 		"Token": true,
 		"Golden fish egg": true,
+<<<<<<< HEAD
 		"Stuffables": true,
 		"Swordy": true,
+=======
+>>>>>>> parent of abbc80f (1.0.31 head)
     },
     "Supreme Chunker": {
         "Skillcape": true,
@@ -552,8 +555,11 @@ let rulePresets = {
 		"Master skillcape": true,
 		"Golden fish egg": true,
 		"Cleaning herbs": true,
+<<<<<<< HEAD
 		"Stuffables": true,
 		"Swordy": true,
+=======
+>>>>>>> parent of abbc80f (1.0.31 head)
     },
 };                                                                              // List of rules that are part of each preset
 
