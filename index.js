@@ -372,6 +372,7 @@ let rules = {
 	"Master skillcape": false,
 	"Golden fish egg": false,
 	"Cleaning herbs": false,
+	"Swordy": false,
 };                                                                              // List of rules and their on/off state
 
 let ruleNames = {
@@ -436,6 +437,7 @@ let ruleNames = {
 	"Master skillcape": "Must obtain master skillcapes for all skills <span class='rule-asterisk noscroll'>†</span>",
 	"Golden fish egg": "Must obtain all available golden fish eggs <span class='rule-asterisk noscroll'>*</span>",
 	"Cleaning herbs": "Cleaning herbs counts as primary herblore training <span class='rule-asterisk noscroll'>†</span>",
+	"Swordy": "Must obtain Swordy McSwordFace from Bossy McBossFace in The Shadow Reef <span class='rule-asterisk noscroll'>*</span>"
 };                                                                              // List of rule definitions
 
 let rulePresets = {
@@ -499,6 +501,7 @@ let rulePresets = {
 		"Token": true,
 		"Golden fish egg": true,
 		"Stuffables": true,
+		"Swordy": true,
     },
     "Supreme Chunker": {
         "Skillcape": true,
@@ -550,6 +553,7 @@ let rulePresets = {
 		"Golden fish egg": true,
 		"Cleaning herbs": true,
 		"Stuffables": true,
+		"Swordy": true,
     },
 };                                                                              // List of rules that are part of each preset
 
@@ -624,7 +628,8 @@ let ruleStructure = {
         "Boss": true,
         "Rare Drop": true,
         "RDT": true,
-        "Primary Spawns": true
+        "Primary Spawns": true,
+		"Swordy": true,
     },
     "Miscellaneous": {
         "Minigame": true,
