@@ -24808,7 +24808,7 @@
 				"Category": ["Minigame"],
 				"Chunks": ["Vinesweeper"],
 				"Level": 1,
-				"Primary": true,
+				"Primary": false,
 				"Priority": 12
 			},
 			"Harvest a ~|winter sq'irk|~": {
