@@ -24582,7 +24582,7 @@
 				"Priority": 1
 			},
 			"Obtain a ~|Hope Nibbler|~ pet": {
-				"Category": ["Pet"],
+				"Category": ["Pets"],
 				"Level": 101,
 				"NPCs": ["Rewards trader"],
 				"Primary": false,
@@ -24808,7 +24808,7 @@
 				"Category": ["Minigame"],
 				"Chunks": ["Vinesweeper"],
 				"Level": 1,
-				"Primary": false,
+				"Primary": true,
 				"Priority": 12
 			},
 			"Harvest a ~|winter sq'irk|~": {
@@ -38806,14 +38806,14 @@
 				"Priority": 4
 			},
 			"Cast ~|air strike|~": {
-				"Category": ["Spells", "Combat and Teleport Spells"],
+				"Category": ["Spells"],
 				"Items": ["Air rune+*"],
 				"Level": 1,
 				"Primary": true,
 				"Priority": 2
 			},
 			"Cast ~|confuse|~": {
-				"Category": ["Spells", "Combat and Teleport Spells"],
+				"Category": ["Spells"],
 				"Items": ["Mind rune*"],
 				"Level": 1,
 				"Primary": true,
