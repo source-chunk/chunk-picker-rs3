@@ -13984,6 +13984,46 @@
 				"Primary": false,
 				"Priority": 63
 			},
+			"Complete a ~|cracked cooking urn|~": {
+				"Category": ["Token"],
+				"Items": ["Cracked cooking urn (nr)*", "Fire rune*"],
+				"Level": 1,
+				"Output": "Cracked cooking urn",
+				"Primary": true,
+				"Priority": 64
+			},
+			"Complete a ~|fragile cooking urn|~": {
+				"Category": ["Token"],
+				"Items": ["Fragile cooking urn (nr)*", "Fire rune*"],
+				"Level": 1,
+				"Output": "Fragile cooking urn",
+				"Primary": true,
+				"Priority": 65
+			},
+			"Complete a ~|plain cooking urn|~": {
+				"Category": ["Token"],
+				"Items": ["Plain cooking urn (nr)*", "Fire rune*"],
+				"Level": 1,
+				"Output": "Plain cooking urn",
+				"Primary": true,
+				"Priority": 66
+			},
+			"Complete a ~|strong cooking urn|~": {
+				"Category": ["Token"],
+				"Items": ["Strong cooking urn (nr)*", "Fire rune*"],
+				"Level": 1,
+				"Output": "Strong cooking urn",
+				"Primary": true,
+				"Priority": 67
+			},
+			"Complete a ~|decorated cooking urn|~": {
+				"Category": ["Token"],
+				"Items": ["Decorated cooking urn (nr)*", "Fire rune*"],
+				"Level": 1,
+				"Output": "Decorated cooking urn",
+				"Primary": true,
+				"Priority": 68
+			},
 			"Make ~|chocolatey milk|~": {
 				"Items": ["Bucket of milk*", "Chocolate dust*"],
 				"Level": 4,
@@ -22323,6 +22363,46 @@
 				"Primary": true,
 				"Priority": 1
 			},
+			"Complete a ~|cracked divination urn|~": {
+				"Category": ["Token"],
+				"Items": ["Cracked divination urn (nr)*", "Mind rune*"],
+				"Level": 1,
+				"Output": "Cracked divination urn",
+				"Primary": true,
+				"Priority": 6
+			},
+			"Complete a ~|fragile divination urn|~": {
+				"Category": ["Token"],
+				"Items": ["Fragile divination urn (nr)*", "Mind rune*"],
+				"Level": 1,
+				"Output": "Fragile divination urn",
+				"Primary": true,
+				"Priority": 7
+			},
+			"Complete a ~|plain divination urn|~": {
+				"Category": ["Token"],
+				"Items": ["Plain divination urn (nr)*", "Mind rune*"],
+				"Level": 1,
+				"Output": "Plain divination urn",
+				"Primary": true,
+				"Priority": 8
+			},
+			"Complete a ~|strong divination urn|~": {
+				"Category": ["Token"],
+				"Items": ["Strong divination urn (nr)*", "Mind rune*"],
+				"Level": 1,
+				"Output": "Strong divination urn",
+				"Primary": true,
+				"Priority": 9
+			},
+			"Complete a ~|decorated divination urn|~": {
+				"Category": ["Token"],
+				"Items": ["Decorated divination urn (nr)*", "Mind rune*"],
+				"Level": 1,
+				"Output": "Decorated divination urn",
+				"Primary": true,
+				"Priority": 10
+			},
 			"Harvest a ~|flickering wisp|~": {
 				"Chunks": ["11829"],
 				"Level": 10,
@@ -25272,6 +25352,46 @@
 				},
 				"Primary": true,
 				"Priority": 54
+			},
+			"Complete a ~|cracked farming urn|~": {
+				"Category": ["Token"],
+				"Items": ["Cracked farming urn (nr)*", "Nature rune*"],
+				"Level": 1,
+				"Output": "Cracked farming urn",
+				"Primary": true,
+				"Priority": 55
+			},
+			"Complete a ~|fragile farming urn|~": {
+				"Category": ["Token"],
+				"Items": ["Fragile farming urn (nr)*", "Nature rune*"],
+				"Level": 1,
+				"Output": "Fragile farming urn",
+				"Primary": true,
+				"Priority": 56
+			},
+			"Complete a ~|plain farming urn|~": {
+				"Category": ["Token"],
+				"Items": ["Plain farming urn (nr)*", "Nature rune*"],
+				"Level": 1,
+				"Output": "Plain farming urn",
+				"Primary": true,
+				"Priority": 57
+			},
+			"Complete a ~|strong farming urn|~": {
+				"Category": ["Token"],
+				"Items": ["Strong farming urn (nr)*", "Nature rune*"],
+				"Level": 1,
+				"Output": "Strong farming urn",
+				"Primary": true,
+				"Priority": 58
+			},
+			"Complete a ~|decorated farming urn|~": {
+				"Category": ["Token"],
+				"Items": ["Decorated farming urn (nr)*", "Nature rune*"],
+				"Level": 1,
+				"Output": "Decorated farming urn",
+				"Primary": true,
+				"Priority": 59
 			},
 			"Grow ~|marigolds|~": {
 				"Category": ["Normal Farming"],
@@ -31166,6 +31286,46 @@
 				"Output": "Raw minnow",
 				"Priority": 3
 			},
+			"Complete a ~|cracked fishing urn|~": {
+				"Category": ["Token"],
+				"Items": ["Cracked fishing urn (nr)*", "Water rune*"],
+				"Level": 1,
+				"Output": "Cracked fishing urn",
+				"Primary": true,
+				"Priority": 8
+			},
+			"Complete a ~|fragile fishing urn|~": {
+				"Category": ["Token"],
+				"Items": ["Fragile fishing urn (nr)*", "Water rune*"],
+				"Level": 1,
+				"Output": "Fragile fishing urn",
+				"Primary": true,
+				"Priority": 9
+			},
+			"Complete a ~|plain fishing urn|~": {
+				"Category": ["Token"],
+				"Items": ["Plain fishing urn (nr)*", "Water rune*"],
+				"Level": 1,
+				"Output": "Plain fishing urn",
+				"Primary": true,
+				"Priority": 10
+			},
+			"Complete a ~|strong fishing urn|~": {
+				"Category": ["Token"],
+				"Items": ["Strong fishing urn (nr)*", "Water rune*"],
+				"Level": 1,
+				"Output": "Strong fishing urn",
+				"Primary": true,
+				"Priority": 11
+			},
+			"Complete a ~|decorated fishing urn|~": {
+				"Category": ["Token"],
+				"Items": ["Decorated fishing urn (nr)*", "Water rune*"],
+				"Level": 1,
+				"Output": "Decorated fishing urn",
+				"Primary": true,
+				"Priority": 12
+			},
 			"Catch a ~|raw shrimp|~ in the holy lake": {
 				"Level": 5,
 				"Objects": ["Fishing spot (karambwanji)"],
@@ -36537,6 +36697,46 @@
 				"Output": "CrimsonSwift",
 				"Primary": false,
 				"Priority": 9
+			},
+			"Complete a ~|cracked hunter urn|~": {
+				"Category": ["Token"],
+				"Items": ["Cracked hunter urn (nr)*", "Mud rune*"],
+				"Level": 1,
+				"Output": "Cracked hunter urn",
+				"Primary": true,
+				"Priority": 10
+			},
+			"Complete a ~|fragile hunter urn|~": {
+				"Category": ["Token"],
+				"Items": ["Fragile hunter urn (nr)*", "Mud rune*"],
+				"Level": 1,
+				"Output": "Fragile hunter urn",
+				"Primary": true,
+				"Priority": 11
+			},
+			"Complete a ~|plain hunter urn|~": {
+				"Category": ["Token"],
+				"Items": ["Plain hunter urn (nr)*", "Mud rune*"],
+				"Level": 1,
+				"Output": "Plain hunter urn",
+				"Primary": true,
+				"Priority": 12
+			},
+			"Complete a ~|strong hunter urn|~": {
+				"Category": ["Token"],
+				"Items": ["Strong hunter urn (nr)*", "Mud rune*"],
+				"Level": 1,
+				"Output": "Strong hunter urn",
+				"Primary": true,
+				"Priority": 13
+			},
+			"Complete a ~|decorated hunter urn|~": {
+				"Category": ["Token"],
+				"Items": ["Decorated hunter urn (nr)*", "Mud rune*"],
+				"Level": 1,
+				"Output": "Decorated hunter urn",
+				"Primary": true,
+				"Priority": 14
 			},
 			"Catch a ~|common kebbit|~": {
 				"Chunks": ["9271"],
@@ -42350,7 +42550,47 @@
 				"Level": 1,
 				"Output": "Bronzeore",
 				"Primary": false,
-				"Priority": 9
+				"Priority": 11
+			},
+			"Complete a ~|cracked Mining urn|~": {
+				"Category": ["Token"],
+				"Items": ["Cracked Mining urn (nr)*", "Earth rune*"],
+				"Level": 1,
+				"Output": "Cracked Mining urn",
+				"Primary": true,
+				"Priority": 12
+			},
+			"Complete a ~|fragile Mining urn|~": {
+				"Category": ["Token"],
+				"Items": ["Fragile Mining urn (nr)*", "Earth rune*"],
+				"Level": 1,
+				"Output": "Fragile Mining urn",
+				"Primary": true,
+				"Priority": 13
+			},
+			"Complete a ~|plain Mining urn|~": {
+				"Category": ["Token"],
+				"Items": ["Plain Mining urn (nr)*", "Earth rune*"],
+				"Level": 1,
+				"Output": "Plain Mining urn",
+				"Primary": true,
+				"Priority": 14
+			},
+			"Complete a ~|strong Mining urn|~": {
+				"Category": ["Token"],
+				"Items": ["Strong Mining urn (nr)*", "Earth rune*"],
+				"Level": 1,
+				"Output": "Strong Mining urn",
+				"Primary": true,
+				"Priority": 15
+			},
+			"Complete a ~|decorated Mining urn|~": {
+				"Category": ["Token"],
+				"Items": ["Decorated Mining urn (nr)*", "Earth rune*"],
+				"Level": 1,
+				"Output": "Decorated Mining urn",
+				"Primary": true,
+				"Priority": 16
 			},
 			"Mine a ~|divine iron rock|~": {
 				"Items": ["Divine iron rock"],
@@ -43647,6 +43887,30 @@
 				"Output": "TorturedSoul",
 				"Primary": true,
 				"Priority": 53
+			},
+			"Complete a ~|impious urn|~": {
+				"Category": ["Token"],
+				"Items": ["Impious urn (nr)*", "Air rune*"],
+				"Level": 1,
+				"Output": "Impious urn",
+				"Primary": true,
+				"Priority": 54
+			},
+			"Complete a ~|accursed urn|~": {
+				"Category": ["Token"],
+				"Items": ["Accursed urn (nr)*", "Air rune*"],
+				"Level": 1,
+				"Output": "Accursed urn",
+				"Primary": true,
+				"Priority": 55
+			},
+			"Complete a ~|infernal urn|~": {
+				"Category": ["Token"],
+				"Items": ["Infernal urn (nr)*", "Air rune*"],
+				"Level": 1,
+				"Output": "Infernal urn",
+				"Primary": true,
+				"Priority": 56
 			},
 			"Wield a ~|superior ancient mace|~": {
 				"Items": ["Superior ancient mace"],
@@ -46902,7 +47166,7 @@
 					"Crafting": 1
 				},
 				"Primary": true,
-				"Priority": 11
+				"Priority": 10
 			},
 			"Craft ~|wizard wand|~":{
 				"Items": ["Strip of cloth*", "Thread*", "Logs*"],
@@ -46912,7 +47176,47 @@
 					"Crafting": 1
 				},
 				"Primary": true,
+				"Priority": 11
+			},
+			"Complete a ~|cracked runecrafting urn|~": {
+				"Category": ["Token"],
+				"Items": ["Cracked runecrafting urn (nr)*", "Pure essence*"],
+				"Level": 1,
+				"Output": "Cracked runecrafting urn",
+				"Primary": true,
 				"Priority": 12
+			},
+			"Complete a ~|fragile runecrafting urn|~": {
+				"Category": ["Token"],
+				"Items": ["Fragile runecrafting urn (nr)*", "Pure essence*"],
+				"Level": 1,
+				"Output": "Fragile runecrafting urn",
+				"Primary": true,
+				"Priority": 13
+			},
+			"Complete a ~|plain runecrafting urn|~": {
+				"Category": ["Token"],
+				"Items": ["Plain runecrafting urn (nr)*", "Pure essence*"],
+				"Level": 1,
+				"Output": "Plain runecrafting urn",
+				"Primary": true,
+				"Priority": 14
+			},
+			"Complete a ~|strong runecrafting urn|~": {
+				"Category": ["Token"],
+				"Items": ["Strong runecrafting urn (nr)*", "Pure essence*"],
+				"Level": 1,
+				"Output": "Strong runecrafting urn",
+				"Primary": true,
+				"Priority": 15
+			},
+			"Complete a ~|decorated runecrafting urn|~": {
+				"Category": ["Token"],
+				"Items": ["Decorated runecrafting urn (nr)*", "Pure essence*"],
+				"Level": 1,
+				"Output": "Decorated runecrafting urn",
+				"Primary": true,
+				"Priority": 16
 			},
 			"Craft an ~|imphide book|~": {
 				"Items": ["Imphide*", "Thread*"],
@@ -49043,6 +49347,46 @@
 				"Output": "BronzeGear",
 				"Primary": true,
 				"Priority": 2
+			},
+			"Complete a ~|cracked Smelting urn|~": {
+				"Category": ["Token"],
+				"Items": ["Cracked Smelting urn (nr)*", "Fire rune*"],
+				"Level": 1,
+				"Output": "Cracked Smelting urn",
+				"Primary": true,
+				"Priority": 4
+			},
+			"Complete a ~|fragile Smelting urn|~": {
+				"Category": ["Token"],
+				"Items": ["Fragile Smelting urn (nr)*", "Fire rune*"],
+				"Level": 1,
+				"Output": "Fragile Smelting urn",
+				"Primary": true,
+				"Priority": 5
+			},
+			"Complete a ~|plain Smelting urn|~": {
+				"Category": ["Token"],
+				"Items": ["Plain Smelting urn (nr)*", "Fire rune*"],
+				"Level": 1,
+				"Output": "Plain Smelting urn",
+				"Primary": true,
+				"Priority": 6
+			},
+			"Complete a ~|strong Smelting urn|~": {
+				"Category": ["Token"],
+				"Items": ["Strong Smelting urn (nr)*", "Fire rune*"],
+				"Level": 1,
+				"Output": "Strong Smelting urn",
+				"Primary": true,
+				"Priority": 7
+			},
+			"Complete a ~|decorated Smelting urn|~": {
+				"Category": ["Token"],
+				"Items": ["Decorated Smelting urn (nr)*", "Fire rune*"],
+				"Level": 1,
+				"Output": "Decorated Smelting urn",
+				"Primary": true,
+				"Priority": 8
 			},
 			"Forge a ~|bronze hasta|~": {
 				"Items": ["Bronze bar*", "Logs*"],
@@ -54368,6 +54712,46 @@
 				"Output": "Logs",
 				"Primary": false,
 				"Priority": 6
+			},
+			"Complete a ~|cracked Woodcutting urn|~": {
+				"Category": ["Token"],
+				"Items": ["Cracked Woodcutting urn (nr)*", "Earth rune*"],
+				"Level": 1,
+				"Output": "Cracked Woodcutting urn",
+				"Primary": true,
+				"Priority": 7
+			},
+			"Complete a ~|fragile Woodcutting urn|~": {
+				"Category": ["Token"],
+				"Items": ["Fragile Woodcutting urn (nr)*", "Earth rune*"],
+				"Level": 1,
+				"Output": "Fragile Woodcutting urn",
+				"Primary": true,
+				"Priority": 8
+			},
+			"Complete a ~|plain Woodcutting urn|~": {
+				"Category": ["Token"],
+				"Items": ["Plain Woodcutting urn (nr)*", "Earth rune*"],
+				"Level": 1,
+				"Output": "Plain Woodcutting urn",
+				"Primary": true,
+				"Priority": 9
+			},
+			"Complete a ~|strong Woodcutting urn|~": {
+				"Category": ["Token"],
+				"Items": ["Strong Woodcutting urn (nr)*", "Earth rune*"],
+				"Level": 1,
+				"Output": "Strong Woodcutting urn",
+				"Primary": true,
+				"Priority": 10
+			},
+			"Complete a ~|decorated Woodcutting urn|~": {
+				"Category": ["Token"],
+				"Items": ["Decorated Woodcutting urn (nr)*", "Earth rune*"],
+				"Level": 1,
+				"Output": "Decorated Woodcutting urn",
+				"Primary": true,
+				"Priority": 11
 			},
 			"Chop a ~|divine oak tree|~": {
 				"Items": ["Divine oak tree"],
