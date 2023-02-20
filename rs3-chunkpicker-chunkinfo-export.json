@@ -57946,7 +57946,7 @@
 				"BaseQuest": "Lumbridge Achievements"
 			},
 			"~|Lumbridge Achievements%2FBeginner|~ Hotpot": {
-				"Description": "Fire a pot in a pottery oven.",
+				"Description": "Fire a pot in a Pottery oven.",
 				"Chunks": ["12339"],
 				"Items": ["Pot (unfired)"],
 				"BaseQuest": "Lumbridge Achievements"
@@ -58122,7 +58122,7 @@
 				"BaseQuest": "Lumbridge Achievements"
 			},
 			"~|Lumbridge Achievements%2FEasy|~ Artisan Crafting": {
-				"Description": "Create a clay ring using the Draynor village pottery oven.",
+				"Description": "Create a clay ring using the Draynor village Pottery oven.",
 				"Chunks": ["12339"],
 				"Items": ["Clay ring (unfired)"],
 				"Skills": {
@@ -60384,7 +60384,7 @@
 				"BaseQuest": "Varrock Achievements"
 			},
 			"~|Varrock Achievements%2FEasy|~ Pot Stop": {
-				"Description": "Make a bowl on a potter's wheel then fire it in the pottery oven, all in Barbarian Village.",
+				"Description": "Make a bowl on a potter's wheel then fire it in the Pottery oven, all in Barbarian Village.",
 				"Chunks": ["12341"],
 				"Items": ["Soft clay"],
 				"Skills": {
@@ -78294,7 +78294,7 @@
 		},
 		"10297": {
 			"Object": {
-				"Pottery Oven": 1,
+				"Pottery oven": 1,
 				"Spinning wheel": 1,
 				"Potter's Wheel": 1,
 				"Fremennik Anvil": 3,
@@ -83100,7 +83100,7 @@
 		"11571": {
 			"Object": {
 				"Drawers": 1,
-				"Pottery Oven": 1,
+				"Pottery oven": 1,
 				"Spinning wheel": 1,
 				"Cooking range+": 1,
 				"Sand": 1,
@@ -83112,7 +83112,7 @@
 				"Oak": 8,
 				"Tree": 12,
 				"Photo booth": 1,
-				"Pottery Wheel": 4,
+				"Potter's Wheel": 4,
 				"Taverley, Burthorpe": 1,
 				"Clan Camp, Falador": 1,
 				"Crafting Guild": 1,
@@ -83288,8 +83288,8 @@
 				"Oak": 6,
 				"Tree": 51,
 				"Well": 1,
-				"Pottery Oven": 2,
-				"Pottery Wheel": 2,
+				"Pottery oven": 2,
+				"Potter's wheel": 2,
 				"Loom": 2,
 				"Spinning wheel": 2,
 				"Camp Fire": 1,
@@ -86313,7 +86313,7 @@
 				"Well": 1,
 				"Crates": 4,
 				"Spinning wheel": 1,
-				"Pottery Oven": 1,
+				"Pottery oven": 1,
 				"Oak": 3,
 				"Tree": 21,
 				"Clay rock": 3,
@@ -86928,7 +86928,7 @@
 		"12587": {
 			"Object": {
 				"Pottery oven": 1,
-				"Pottery wheel": 2,
+				"Potter's wheel": 2,
 				"Cooking range+": 8,
 				"Well": 1,
 				"Fountain": 1,
@@ -92296,7 +92296,7 @@
 				"Swamp": 1,
 				"Grave": 4,
 				"Swamp tree": 30,
-				"Pottery Oven": 1,
+				"Pottery oven": 1,
 				"Potter's Wheel": 2
 			},
 			"NPC": {
