@@ -24376,7 +24376,7 @@
 				"Primary": false,
 				"Priority": 1
 			},
-			"Use the ~|rapid renewal|~": {
+			"Use the ~|rapid renewal|~ prayer": {
 				"Chunks": ["13625"],
 				"Level": 65,
 				"Primary": false,
@@ -39446,7 +39446,7 @@
 				"Primary": false,
 				"Priority": 3
 			},
-			"Wield a ~|elemental battlestaff|~": {
+			"Wield any kind of elemental ~|battlestaff|~": {
 				"Items": ["ElementalBattlestaff+"],
 				"Level": 30,
 				"Primary": false,
