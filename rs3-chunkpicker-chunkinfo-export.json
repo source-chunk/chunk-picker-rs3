@@ -24885,7 +24885,7 @@
 				"Priority": 11
 			},
 			"Play ~|Vinesweeper|~": {
-				"Category": ["Minigame"],
+				"Category": ["Vinesweeper"],
 				"Chunks": ["Vinesweeper"],
 				"Level": 1,
 				"Primary": true,
