@@ -24898,7 +24898,7 @@
 				"Skills": {
 					"Thieving": 1
 				},
-				"Primary": true,
+				"Primary": false,
 				"Output": "Winter sq'irk",
 				"Priority": 13
 			},
@@ -24909,7 +24909,7 @@
 				"Skills": {
 					"Thieving": 1
 				},
-				"Primary": true,
+				"Primary": false,
 				"Output": "WinterHerbs",
 				"Priority": 14
 			},
@@ -24920,7 +24920,7 @@
 				"Skills": {
 					"Thieving": 25
 				},
-				"Primary": true,
+				"Primary": false,
 				"Output": "Spring sq'irk",
 				"Priority": 15
 			},
@@ -24931,7 +24931,7 @@
 				"Skills": {
 					"Thieving": 25
 				},
-				"Primary": true,
+				"Primary": false,
 				"Output": "SpringHerbs",
 				"Priority": 16
 			},
@@ -24942,7 +24942,7 @@
 				"Skills": {
 					"Thieving": 45
 				},
-				"Primary": true,
+				"Primary": false,
 				"Output": "Autumn sq'irk",
 				"Priority": 17
 			},
@@ -24953,7 +24953,7 @@
 				"Skills": {
 					"Thieving": 45
 				},
-				"Primary": true,
+				"Primary": false,
 				"Output": "AutumnHerbs",
 				"Priority": 18
 			},
@@ -24964,7 +24964,7 @@
 				"Skills": {
 					"Thieving": 65
 				},
-				"Primary": true,
+				"Primary": false,
 				"Output": "Summer sq'irk",
 				"Priority": 19
 			},
@@ -24975,9 +24975,16 @@
 				"Skills": {
 					"Thieving": 65
 				},
-				"Primary": true,
+				"Primary": false,
 				"Output": "SummerHerbs",
 				"Priority": 20
+			},
+			"Pick herbs or fruit in the ~|Sorceress's Garden|~": {
+				"Category": ["Sorceress's Garden"],
+				"Chunks": ["Sorceress's Garden"],
+				"Level": 1,
+				"Primary": true,
+				"Priority": 60
 			},
 			"Cast ~|Cure Plant|~ on a diseased farming patch": {
 				"Items": ["Earth rune+", "Astral rune"],
@@ -25522,19 +25529,19 @@
 				"Priority": 2
 			},
 			"Plant an ~|oak seedling|~": {
-				"Category": ["Normal Farming"],
+				"Category": ["Token"],
 				"Items": ["Plant pot", "Acorn"],
 				"Level": 15,
 				"Output": "Oak seedling",
-				"Primary": false,
+				"Primary": true,
 				"Priority": 1
 			},
 			"Water an ~|oak seedling|~": {
-				"Category": ["Normal Farming"],
+				"Category": ["Token"],
 				"Items": ["Oak seedling", "WateringCan+"],
 				"Level": 15,
 				"Output": "Oak sapling",
-				"Primary": false,
+				"Primary": true,
 				"Priority": 2
 			},
 			"Grow an ~|oak tree|~": {
@@ -25543,7 +25550,7 @@
 				"Objects": ["Tree patch"],
 				"Level": 15,
 				"Output": "Oak roots",
-				"Primary": false,
+				"Primary": true,
 				"Priority": 3
 			},
 			"Nurture an ~|evil willow tree|~ sapling": {
@@ -36737,6 +36744,13 @@
 				"Output": "Decorated hunter urn",
 				"Primary": true,
 				"Priority": 14
+			},
+			"Feed ~|ogleroot|~ to a rabbit in vinesweeper": {
+				"Category": ["Ogleroot"],
+				"Chunks": ["Vinesweeper"],
+				"Level": 1,
+				"Primary": true,
+				"Priority": 15
 			},
 			"Catch a ~|common kebbit|~": {
 				"Chunks": ["9271"],
