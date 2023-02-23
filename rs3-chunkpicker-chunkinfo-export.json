@@ -25858,7 +25858,7 @@
 				"Priority": 2
 			},
 			"Plant an ~|apple seedling|~": {
-				"Category": ["Normal Farming"],
+				"Category": ["Token"],
 				"Items": ["Plant pot", "Apple tree seed"],
 				"Level": 27,
 				"Output": "Apple seedling",
@@ -25866,7 +25866,7 @@
 				"Priority": 1
 			},
 			"Water an ~|apple seedling|~": {
-				"Category": ["Normal Farming"],
+				"Category": ["Token"],
 				"Items": ["Apple seedling", "WateringCan+"],
 				"Level": 27,
 				"Output": "Apple sapling",
@@ -26001,7 +26001,7 @@
 				"Priority": 1
 			},
 			"Plant a ~|willow seedling|~": {
-				"Category": ["Normal Farming"],
+				"Category": ["Token"],
 				"Items": ["Plant pot", "Willow seed"],
 				"Level": 30,
 				"Output": "Willow seedling",
@@ -26009,7 +26009,7 @@
 				"Priority": 1
 			},
 			"Water a ~|willow seedling|~": {
-				"Category": ["Normal Farming"],
+				"Category": ["Token"],
 				"Items": ["Willow seedling", "WateringCan+"],
 				"Level": 30,
 				"Output": "Willow sapling",
@@ -26071,7 +26071,7 @@
 				"Priority": 2
 			},
 			"Plant a ~|banana seedling|~": {
-				"Category": ["Normal Farming"],
+				"Category": ["Token"],
 				"Items": ["Plant pot", "Banana tree seed"],
 				"Level": 33,
 				"Output": "Banana seedling",
@@ -26079,7 +26079,7 @@
 				"Priority": 1
 			},
 			"Water a ~|banana seedling|~": {
-				"Category": ["Normal Farming"],
+				"Category": ["Token"],
 				"Items": ["Banana seedling", "WateringCan+"],
 				"Level": 33,
 				"Output": "Banana sapling",
@@ -26288,7 +26288,7 @@
 				"Priority": 2
 			},
 			"Plant an ~|orange seedling|~": {
-				"Category": ["Normal Farming"],
+				"Category": ["Token"],
 				"Items": ["Plant pot", "Orange tree seed"],
 				"Level": 39,
 				"Output": "Orange seedling",
@@ -26296,7 +26296,7 @@
 				"Priority": 1
 			},
 			"Water an ~|orange seedling|~": {
-				"Category": ["Normal Farming"],
+				"Category": ["Token"],
 				"Items": ["Orange seedling", "WateringCan+"],
 				"Level": 39,
 				"Output": "Orange sapling",
@@ -26313,7 +26313,7 @@
 				"Priority": 3
 			},
 			"Plant a ~|curry seedling|~": {
-				"Category": ["Normal Farming"],
+				"Category": ["Token"],
 				"Items": ["Plant pot", "Curry tree seed"],
 				"Level": 42,
 				"Output": "Curry seedling",
@@ -26321,7 +26321,7 @@
 				"Priority": 1
 			},
 			"Water a ~|curry seedling|~": {
-				"Category": ["Normal Farming"],
+				"Category": ["Token"],
 				"Items": ["Curry seedling", "WateringCan+"],
 				"Level": 42,
 				"Output": "Curry sapling",
@@ -26452,7 +26452,7 @@
 				"Priority": 2
 			},
 			"Plant a ~|maple seedling|~": {
-				"Category": ["Normal Farming"],
+				"Category": ["Token"],
 				"Items": ["Plant pot", "Maple seed"],
 				"Level": 45,
 				"Output": "Maple seedling",
@@ -26460,7 +26460,7 @@
 				"Priority": 1
 			},
 			"Water a ~|maple seedling|~": {
-				"Category": ["Normal Farming"],
+				"Category": ["Token"],
 				"Items": ["Maple seedling", "WateringCan+"],
 				"Level": 45,
 				"Output": "Maple sapling",
@@ -26658,7 +26658,7 @@
 				"Priority": 4
 			},
 			"Plant a ~|pineapple seedling|~": {
-				"Category": ["Normal Farming"],
+				"Category": ["Token"],
 				"Items": ["Plant pot", "Pineapple seed"],
 				"Level": 51,
 				"Output": "Pineapple seedling",
@@ -26666,7 +26666,7 @@
 				"Priority": 1
 			},
 			"Water a ~|pineapple seedling|~": {
-				"Category": ["Normal Farming"],
+				"Category": ["Token"],
 				"Items": ["Pineapple seedling", "WateringCan+"],
 				"Level": 51,
 				"Output": "Pineapple sapling",
@@ -26832,7 +26832,7 @@
 				"Priority": 2
 			},
 			"Plant a ~|papaya seedling|~": {
-				"Category": ["Normal Farming"],
+				"Category": ["Token"],
 				"Items": ["Plant pot", "Papaya tree seed"],
 				"Level": 57,
 				"Output": "Papaya seedling",
@@ -26840,7 +26840,7 @@
 				"Priority": 1
 			},
 			"Water a ~|papaya seedling|~": {
-				"Category": ["Normal Farming"],
+				"Category": ["Token"],
 				"Items": ["Papaya seedling", "WateringCan+"],
 				"Level": 57,
 				"Output": "Papaya sapling",
@@ -26885,7 +26885,7 @@
 				"Priority": 1
 			},
 			"Plant a ~|yew seedling|~": {
-				"Category": ["Normal Farming"],
+				"Category": ["Token"],
 				"Items": ["Plant pot", "Yew seed"],
 				"Level": 60,
 				"Output": "Yew seedling",
@@ -26893,7 +26893,7 @@
 				"Priority": 1
 			},
 			"Water a ~|yew seedling|~": {
-				"Category": ["Normal Farming"],
+				"Category": ["Token"],
 				"Items": ["Yew seedling", "WateringCan+"],
 				"Level": 60,
 				"Output": "Yew sapling",
@@ -27289,7 +27289,7 @@
 				"Priority": 1
 			},
 			"Plant a ~|magic seedling|~": {
-				"Category": ["Normal Farming"],
+				"Category": ["Token"],
 				"Items": ["Plant pot", "Magic seed"],
 				"Level": 75,
 				"Output": "Magic seedling",
@@ -27297,7 +27297,7 @@
 				"Priority": 1
 			},
 			"Water a ~|magic seedling|~": {
-				"Category": ["Normal Farming"],
+				"Category": ["Token"],
 				"Items": ["Magic seedling", "WateringCan+"],
 				"Level": 75,
 				"Output": "Magic sapling",
@@ -27706,7 +27706,7 @@
 				"Priority": 1
 			},
 			"Plant a ~|spirit seedling|~": {
-				"Category": ["Normal Farming"],
+				"Category": ["Token"],
 				"Items": ["Plant pot", "Spirit seed"],
 				"Level": 83,
 				"Output": "Spirit seedling",
@@ -27714,7 +27714,7 @@
 				"Priority": 1
 			},
 			"Water a ~|spirit seedling|~": {
-				"Category": ["Normal Farming"],
+				"Category": ["Token"],
 				"Items": ["Spirit seedling", "WateringCan+"],
 				"Level": 83,
 				"Output": "Spirit sapling",
@@ -28044,7 +28044,7 @@
 				"Priority": 1
 			},
 			"Plant an ~|elder seedling|~": {
-				"Category": ["Normal Farming"],
+				"Category": ["Token"],
 				"Items": ["Plant pot", "Elder seed"],
 				"Level": 90,
 				"Output": "Elder seedling",
@@ -28052,7 +28052,7 @@
 				"Priority": 1
 			},
 			"Water an ~|elder seedling|~": {
-				"Category": ["Normal Farming"],
+				"Category": ["Token"],
 				"Items": ["Elder seedling", "WateringCan+"],
 				"Level": 90,
 				"Output": "Elder sapling",
