@@ -605,7 +605,8 @@ let ruleStructure = {
         "Normal Farming": true,
         "Raking": true,
         "Sorceress's Garden": true,
-        "Farming Primary": true
+        "Farming Primary": true,
+		"Vinesweeper": true
     },
 	"Fishing": {
 		"Golden fish egg": true
@@ -615,7 +616,8 @@ let ruleStructure = {
     },
     "Hunter": {
         "Puro-Puro": ["Extra implings"],
-        "Wandering implings": true
+        "Wandering implings": true,
+		"Ogleroot": true,
     },
     "Magic": {
         "Spells": ["Combat and Teleport Spells", "PVP-Only Spells"],
