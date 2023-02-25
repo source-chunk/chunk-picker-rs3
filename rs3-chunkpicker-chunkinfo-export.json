@@ -16676,42 +16676,42 @@
 				"Priority": 7
 			},
 			"Craft ~|leather gloves|~": {
-				"Items": ["Leather*", "Thread*"],
+				"Items": ["Leather*"],
 				"Level": 1,
 				"Output": "Leather gloves",
 				"Primary": true,
 				"Priority": 1
 			},
 			"Craft ~|leather boots|~": {
-				"Items": ["Leather*", "Thread*"],
+				"Items": ["Leather*"],
 				"Level": 1,
 				"Output": "Leather boots",
 				"Primary": true,
 				"Priority": 2
 			},
 			"Craft a ~|leather cowl|~": {
-				"Items": ["Leather*", "Thread*"],
+				"Items": ["Leather*"],
 				"Level": 1,
 				"Output": "Leather cowl",
 				"Primary": true,
 				"Priority": 3
 			},
 			"Craft a ~|leather body|~": {
-				"Items": ["Leather*", "Thread*"],
+				"Items": ["Leather*"],
 				"Level": 1,
 				"Output": "Leather body",
 				"Primary": true,
 				"Priority": 4
 			},
 			"Craft ~|leather chaps|~": {
-				"Items": ["Leather*", "Thread*"],
+				"Items": ["Leather*"],
 				"Level": 1,
 				"Output": "Leather chaps",
 				"Primary": true,
 				"Priority": 5
 			},
 			"Craft ~|leather vambraces|~": {
-				"Items": ["Leather*", "Thread*"],
+				"Items": ["Leather*"],
 				"Level": 11,
 				"Output": "Leather vambraces",
 				"Primary": true,
@@ -16781,7 +16781,7 @@
 				"Priority": 16
 			},
 			"Craft a ~|leather shield|~": {
-				"Items": ["Leather*", "Thread*"],
+				"Items": ["Leather*"],
 				"Level": 19,
 				"Output": "Leather shield",
 				"Primary": true,
@@ -16823,7 +16823,7 @@
 				"Priority": 2
 			},
 			"Craft a ~|hard leather shield|~": {
-				"Items": ["Hard leather*", "Thread*"],
+				"Items": ["Hard leather*"],
 				"Level": 29,
 				"Output": "Hard leather shield",
 				"Primary": true,
@@ -31667,7 +31667,7 @@
 				"Level": 76,
 				"Objects": ["Fishing spot (big fishing net, harpoon)"],
 				"Primary": true,
-				"Output": "big shark",
+				"Output": "Big shark",
 				"Priority": 3
 			},
 			"Catch ~|golden shark eggs|~": {
@@ -66788,10 +66788,16 @@
 			"Jatizso Dungeon Mine": {
 				"UnlocksArea": true
 			},
+			"Jatizso Dungeon Elite Mine": {
+				"Tasks": {
+					"~|Fremennik Achievements%2FElite|~ Complete the Elite Achievements": "Diary"
+				},
+				"UnlocksArea": true
+			},
 			"Penguin outpost": {
 				"UnlocksArea": true
 			},
-			"Piscatoris summoning cave": {
+			"Piscatoris Summoning Cave": {
 				"UnlocksArea": true
 			},
 			"Agility course pit": {
@@ -74728,6 +74734,7 @@
 				"Chinchompa": 11
 			},
 			"Connect": {
+				"9372": true,
 				"9541": true
 			},
 			"Nickname": "Piscatoris mine"
@@ -75160,7 +75167,7 @@
 			"Object": {
 				"Obelisk": 1
 			},
-			"Name": "Piscatoris summoning cave"
+			"Name": "Piscatoris Summoning Cave"
 		},
 		"9377": {
 			"Object": {
@@ -75954,12 +75961,20 @@
 				"Bonzara": 1
 			}
 		},
+		"9630": {
+			"Object": {
+				"Banite rock": 4
+			},
+			"Connect": {
+				"9631": true
+			},
+			"Name": "Jatizso Dungeon Elite Mine"
+		},
 		"9631": {
 			"Object": {
 				"Slippery log": 2,
 				"Coal rock": 19,
-				"Mithril rock": 28,
-				"Banite rock": 4
+				"Mithril rock": 28
 			},
 			"NPC": {
 				"Hallvar": 1,
@@ -75969,6 +75984,10 @@
 				"Ice troll runt": 5,
 				"Ice troll male": 2,
 				"Ice troll female": 3
+			},
+			"Connect": {
+				"9630": true,
+				"9531": true
 			},
 			"Name": "Jatizso Dungeon Mine"
 		},
@@ -79653,6 +79672,9 @@
 				"KGP Agent": 1,
 				"Ping": 1,
 				"Pong": 1
+			},
+			"Connect": {
+				"10658": true
 			},
 			"Nickname": "South Iceberg"
 		},
@@ -105924,12 +105946,19 @@
 				"Azzanadra": 1
 			}
 		},
+		"Jatizso Dungeon Elite Mine": {
+			"Object": {
+				"Banite rock": 4
+			},
+			"Connect": {
+				"9631": true
+			}
+		},
 		"Jatizso Dungeon Mine": {
 			"Object": {
 				"Slippery log": 2,
 				"Coal rock": 19,
-				"Mithril rock": 28,
-				"Banite rock": 4
+				"Mithril rock": 28
 			},
 			"NPC": {
 				"Hallvar": 1,
@@ -105941,6 +105970,7 @@
 				"Ice troll female": 3
 			},
 			"Connect": {
+				"9630": true,
 				"9531": true
 			}
 		},
@@ -105968,11 +105998,17 @@
 			},
 			"Monster": {
 				"Icelord": 4
+			},
+			"Connect": {
+				"10558": true
 			}
 		},
-		"Piscatoris summoning cave": {
+		"Piscatoris Summoning Cave": {
 			"Object": {
 				"Obelisk": 1
+			},
+			"Connect": {
+				"9272": true
 			}
 		},
 		"Agility course pit": {},
@@ -124121,9 +124157,6 @@
 			"Nature rune": {
 				"3": "Uncommon"
 			},
-			"Cosmic rune": {
-				"1-2": "Uncommon"
-			},
 			"Coins": {
 				"2": "Common",
 				"3": "Common",
@@ -124154,15 +124187,6 @@
 			},
 			"Unholy mould": {
 				"1": "Rare"
-			},
-			"Cosmic talisman": {
-				"1": "Very rare"
-			},
-			"Tiny plated iron salvage": {
-				"1": "Very rare"
-			},
-			"Uncut jade": {
-				"1": "Very rare"
 			},
 			"Rare drop table": {
 				"1": "Rare"
