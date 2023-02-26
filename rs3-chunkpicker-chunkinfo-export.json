@@ -58891,7 +58891,7 @@
 			},
 			"~|Morytania Achievements%2FEasy|~ Lab Clean-up Assistant": {
 				"Description": "Kill an experiment under Castle Fenkenstrain.",
-				"Chunks": ["Fenkenstrain's Dungeon"],
+				"Chunks": ["Experiment cave"],
 				"Tasks": {
 					"~|Creature of Fenkenstrain|~ Complete the quest": "Quest"
 				},
@@ -61900,7 +61900,7 @@
 			"Obtain a ~|crawling hand|~": {
 				"Category": ["Stuffables"],
 				"Label": "Stuffables",
-				"Items": ["Big shark"]
+				"Items": ["Crawling hand"]
 			},
 			"Obtain a ~|strange egg|~": {
 				"Items": ["Strange egg"]
@@ -66800,25 +66800,23 @@
 			"Piscatoris Summoning Cave": {
 				"UnlocksArea": true
 			},
-			"Agility course pit": {
-				"UnlocksArea": true
-			},
 			"Brimstail's home": {
 				"UnlocksArea": true
 			},
-			"Grand Tree mine": {
+			"Grand Tree Mine": {
 				"UnlocksArea": true
 			},
-			"Glarial's tomb": {
+			"Glarial's Tomb": {
+				"Items": ["Glarial's pebble"],
 				"UnlocksArea": true
 			},
-			"Golrie's hideout": {
+			"Golrie's Hideout": {
 				"UnlocksArea": true
 			},
 			"Varrock West Bank Cellar": {
 				"UnlocksArea": true
 			},
-			"Skavid cave": {
+			"Skavid Cave": {
 				"UnlocksArea": true
 			},
 			"Yanille Agility Dungeon": {
@@ -66828,9 +66826,9 @@
 				"UnlocksArea": true
 			},
 			"Chaos Druid Tower Dungeon": {
-				"UnlocksArea": true
-			},
-			"Isafdar underground": {
+				"Tasks": {
+					"Lockpick the door to the ~|chaos druid tower|~": "Thieving"
+				},
 				"UnlocksArea": true
 			},
 			"Troll tunnels": {
@@ -66843,27 +66841,13 @@
 				"UnlocksArea": true
 			},
 			"Fishing Guild Cave": {
+				"Chunks": ["10548"],
 				"UnlocksArea": true
 			},
 			"Rantz's house": {
 				"UnlocksArea": true
 			},
 			"Cairn Island Dungeon": {
-				"UnlocksArea": true
-			},
-			"Gem mine": {
-				"UnlocksArea": true
-			},
-			"Desert temple": {
-				"UnlocksArea": true
-			},
-			"Office": {
-				"UnlocksArea": true
-			},
-			"Cellar": {
-				"UnlocksArea": true
-			},
-			"Melzar's Maze": {
 				"UnlocksArea": true
 			},
 			"H%2EA%2EM%2E Cave": {
@@ -66876,15 +66860,18 @@
 				"UnlocksArea": true
 			},
 			"Columbarium": {
+				"Items": ["Columbarium key"],
 				"UnlocksArea": true
 			},
 			"Paterdomus": {
 				"UnlocksArea": true
 			},
-			"Fenkenstrain's Dungeon": {
+			"Experiment cave": {
+				"Chunks": ["13135"],
 				"UnlocksArea": true
 			},
 			"Werewolf Agility Course": {
+				"Items": ["Ring of Charos"],
 				"UnlocksArea": true
 			},
 			"Port Phasmatys Distillery": {
@@ -66900,30 +66887,19 @@
 				"UnlocksArea": true
 			},
 			"Dwarf tunnel": {
-				"UnlocksArea": true
-			},
-			"Ramarno's forge": {
+				"Chunks": ["10549", "10550"],
 				"UnlocksArea": true
 			},
 			"Legends' Guild Dungeon": {
 				"UnlocksArea": true
 			},
-			"Pyramid": {
-				"UnlocksArea": true
-			},
 			"Gamers' Grotto": {
-				"UnlocksArea": true
-			},
-			"Bank vault": {
 				"UnlocksArea": true
 			},
 			"Asgarnia Ice Cave": {
 				"UnlocksArea": true
 			},
 			"Observatory": {
-				"UnlocksArea": true
-			},
-			"Underwater cave": {
 				"UnlocksArea": true
 			},
 			"Ghorrock Fortress Dungeon": {
@@ -66938,22 +66914,17 @@
 			"Clocktower Dungeon": {
 				"UnlocksArea": true
 			},
-			"Interrogation room": {
-				"UnlocksArea": true
-			},
 			"Mos Le'Harmless caves": {
 				"UnlocksArea": true
 			},
-			"Elvarg's lair": {
-				"UnlocksArea": true
-			},
-			"Artisans' Workshop": {
+			"Elvarg's Lair": {
+				"Chunks": ["11314", "11315"],
 				"UnlocksArea": true
 			},
 			"Draynor Manor basement": {
 				"UnlocksArea": true
 			},
-			"Pollninveach Dungeon": {
+			"Pollninveach Slayer Dungeon": {
 				"UnlocksArea": true
 			},
 			"Tomb of Catolax": {
@@ -66962,7 +66933,8 @@
 			"Underground Hive": {
 				"UnlocksArea": true
 			},
-			"Brine rat caverns": {
+			"Brine Rat Caverns": {
+				"Items": ["Spade"],
 				"UnlocksArea": true
 			},
 			"Lava Maze Dungeon": {
@@ -66974,10 +66946,8 @@
 			"Jiggig Dungeon": {
 				"UnlocksArea": true
 			},
-			"Conquest": {
-				"UnlocksArea": true
-			},
 			"Water Ravine Dungeon": {
+				"Items": ["Rope"],
 				"UnlocksArea": true
 			},
 			"Barrows": {
@@ -68328,9 +68298,6 @@
 		},
 		"4": {
 			"Name": "Kharid-Et Praetorium"
-		},
-		"5": {
-			"Name": "Camdozaal"
 		},
 		"6": {
 			"Name": "Infernal Source"
@@ -76387,6 +76354,7 @@
 				"Gnome banker": 4
 			},
 			"Connect": {
+				"9882": true,
 				"10307": true,
 				"10566": true
 			},
@@ -76902,7 +76870,7 @@
 			"NPC": {
 				"King Narnode Shareen": 1
 			},
-			"Name": "Grand Tree mine"
+			"Name": "Grand Tree Mine"
 		},
 		"9886": {
 			"Object": {
@@ -77375,6 +77343,7 @@
 				"Rasolo the Wandering Merchant": true
 			},
 			"Connect": {
+				"10137": true,
 				"10575": true
 			},
 			"Nickname": "Glarial's Tomb"
@@ -77855,7 +77824,7 @@
 				"10287": true,
 				"10288": true
 			},
-			"Name": "Skavid cave"
+			"Name": "Skavid Cave"
 		},
 		"10133": {
 			"Object": {
@@ -77874,7 +77843,7 @@
 			"Connect": {
 				"10033": true
 			},
-			"Name": "Golrie's hideout"
+			"Name": "Golrie's Hideout"
 		},
 		"10134": {
 			"Name": "Claus' Kitchen"
@@ -77911,7 +77880,7 @@
 			"Object": {
 				"Tree": 5,
 				"Closed chest": 1,
-				"Glarial's tomb": 1
+				"Glarial's Tomb": 1
 			},
 			"Monster": {
 				"Zombie": 6,
@@ -77921,7 +77890,7 @@
 			"NPC": {
 				"Butterfly": 1
 			},
-			"Name": "Glarial's tomb"
+			"Name": "Glarial's Tomb"
 		},
 		"10138": {
 			"Object": {
@@ -79144,6 +79113,9 @@
 			"Spawn": {
 				"Equa leaves": 3
 			},
+			"Connect": {
+				"10642": true
+			},
 			"Nickname": "Rantz' Cave"
 		},
 		"10544": {
@@ -79915,19 +79887,6 @@
 				"Ghost praetorian": 1
 			}
 		},
-		"10637": {
-			"Object": {
-				"Auto-matching barrier": 1,
-				"Challenge barrier": 1
-			},
-			"NPC": {
-				"Stanley Limelight": 1
-			},
-			"Shop": {
-				"Stanley Limelight Traders": true
-			},
-			"Name": "Conquest"
-		},
 		"10642": {
 			"Object": {
 				"Locked Ogre chest": 1,
@@ -79936,7 +79895,8 @@
 			"NPC": {
 				"Fycie": 1,
 				"Bugs": 1
-			}
+			},
+			"Name": "Rantz's house"
 		},
 		"10644": {
 			"Object": {
@@ -80985,7 +80945,7 @@
 			"NPC": {
 				"Boulder": 1
 			},
-			"Name": "Brine rat caverns"
+			"Name": "Brine Rat Caverns"
 		},
 		"10911": {
 			"Object": {
@@ -82904,7 +82864,8 @@
 			},
 			"Connect": {
 				"11314": true
-			}
+			},
+			"Name": "Elvarg's Lair"
 		},
 		"11416": {
 			"Object": {
@@ -83833,6 +83794,9 @@
 			"Monster": {
 				"Iron dragon": 7,
 				"Steel dragon": 7
+			},
+			"Connect": {
+				"11681": true
 			},
 			"Nickname": "Ghorrock"
 		},
@@ -85583,7 +85547,7 @@
 				"Herald": 1
 			},
 			"Connect": {
-				"5": true
+				"12186": true
 			},
 			"Spawn": {
 				"Monk's robe (top)": 1,
@@ -86123,15 +86087,7 @@
 			"Name": "Dwarven Mine"
 		},
 		"12186": {
-			"Object": {
-				"Rubble mound": 1,
-				"Material cache (goldrune)": 4
-			},
-			"NPC": {
-				"Ramarno": 1,
-				"Fish": 2
-			},
-			"Name": "Ramarno's forge"
+			"Name": "Camdozaal"
 		},
 		"12187": {
 			"Object": {
@@ -86544,7 +86500,8 @@
 			},
 			"Connect": {
 				"6473": true,
-				"10577": true
+				"10577": true,
+				"12440": true
 			},
 			"Spawn": {
 				"Bronze med helm": 1,
@@ -87469,7 +87426,8 @@
 			},
 			"Connect": {
 				"4441": true,
-				"6473": true
+				"6473": true,
+				"12696": true
 			},
 			"Shop": {
 				"Marvellous Mysticism": true,
@@ -90447,7 +90405,7 @@
 				"Shop of Distaste": true,
 				"Magic Training Arena Shop": true
 			},
-			"Nickname": "Mage training Arena"
+			"Nickname": "Mage Training Arena"
 		},
 		"13364": {
 			"Object": {
@@ -90715,7 +90673,7 @@
 			"Connect": {
 				"13358": true
 			},
-			"Name": "Pollninveach Dungeon"
+			"Name": "Pollninveach Slayer Dungeon"
 		},
 		"13459": {
 			"Object": {
@@ -90729,7 +90687,7 @@
 				"Leeuni": 1,
 				"Iwazaru": 1
 			},
-			"Name": "Pollninveach Dungeon"
+			"Name": "Pollninveach Slayer Dungeon"
 		},
 		"13460": {
 			"Object": {
@@ -90755,43 +90713,6 @@
 				"13360": true
 			},
 			"Name": "Water Ravine Dungeon"
-		},
-		"13462": {
-			"Object": {
-				"Old Bookshelf": 4,
-				"Bones": 39,
-				"Coin Collector": 1,
-				"Food chute": 8,
-				"Exit Teleport": 7,
-				"Cupboard": 8,
-				"Cube Pile": 9,
-				"Cylinder Pile": 7,
-				"Icosahedron Pile": 7,
-				"Pentamid Pile": 8,
-				"Hole": 1
-			},
-			"NPC": {
-				"Flying Book": 2,
-				"Alchemy Guardian": 1,
-				"Enchantment Guardian": 1,
-				"Graveyard Guardian": 1,
-				"Charmed Warrior": 6,
-				"Sweeper": 1
-			},
-			"Name": "Mage Training Arena"
-		},
-		"13463": {
-			"Object": {
-				"Old Bookshelf": 32,
-				"Exit Teleport": 10
-			},
-			"NPC": {
-				"Flying Book": 5,
-				"Telekinetic Guardian": 8,
-				"Maze Guardian": 2,
-				"Charmed Warrior": 10
-			},
-			"Name": "Mage Training Arena"
 		},
 		"13464": {
 			"Object": {
@@ -91942,7 +91863,7 @@
 			"Connect": {
 				"13879": true
 			},
-			"Name": "Fenkenstrain's Dungeon"
+			"Name": "Experiment cave"
 		},
 		"13981": {
 			"Object": {
@@ -92376,7 +92297,7 @@
 			"Connect": {
 				"14135": true
 			},
-			"Name": "Fenkenstrain's Dungeon"
+			"Name": "Experiment cave"
 		},
 		"14260": {
 			"Object": {
@@ -102902,8 +102823,13 @@
 			}
 		},
 		"Camdozaal": {
-			"Objects": {
-				"Material cache (goldrune)": 1
+			"Object": {
+				"Rubble mound": 1,
+				"Material cache (goldrune)": 4
+			},
+			"NPC": {
+				"Ramarno": 1,
+				"Fish": 2
 			},
 			"Connects": {
 				"12086": true
@@ -106011,7 +105937,6 @@
 				"9272": true
 			}
 		},
-		"Agility course pit": {},
 		"Brimstail's home": {
 			"Object": {
 				"Tunnel": 2,
@@ -106028,7 +105953,7 @@
 				"11595": true
 			}
 		},
-		"Grand Tree mine": {
+		"Grand Tree Mine": {
 			"Object": {
 				"Small obelisk": 1,
 				"Roots": 1,
@@ -106045,13 +105970,16 @@
 			},
 			"NPC": {
 				"King Narnode Shareen": 1
+			},
+			"Connect": {
+				"9782": true
 			}
 		},
-		"Glarial's tomb": {
+		"Glarial's Tomb": {
 			"Object": {
 				"Tree": 5,
 				"Closed chest": 1,
-				"Glarial's tomb": 1
+				"Glarial's Tomb": 1
 			},
 			"Monster": {
 				"Zombie": 6,
@@ -106060,9 +105988,12 @@
 			},
 			"NPC": {
 				"Butterfly": 1
+			},
+			"Connect": {
+				"10037": true
 			}
 		},
-		"Golrie's hideout": {
+		"Golrie's Hideout": {
 			"Object": {
 				"Crate": 27,
 				"Chest": 3,
@@ -106097,7 +106028,7 @@
 				"12597": true
 			}
 		},
-		"Skavid cave": {
+		"Skavid Cave": {
 			"Object": {
 				"Cave exit": 6,
 				"Hole": 1
@@ -106169,20 +106100,6 @@
 			},
 			"Connect": {
 				"10292": true
-			}
-		},
-		"Isafdar underground": {
-			"Object": {
-				"Protruding rocks": 16,
-				"Well": 1,
-				"Cave Exit": 1,
-				"Altar": 1,
-				"Obelisk": 1
-			},
-			"Connect": {
-				"8009": true,
-				"9266": true,
-				"18020": true
 			}
 		},
 		"Troll tunnels": {
@@ -106273,36 +106190,24 @@
 				"10549": true
 			}
 		},
-		"Rantz's house": {},
+		"Rantz's house": {
+			"Object": {
+				"Locked Ogre chest": 1,
+				"Tunnel": 2
+			},
+			"NPC": {
+				"Fycie": 1,
+				"Bugs": 1
+			},
+			"Connect": {
+				"10542": true
+			}
+		},
 		"Cairn Island Dungeon": {
 			"Connect": {
 				"11054": true
 			}
 		},
-		"Gem mine": {},
-		"Desert temple": {
-			"Object": {
-				"Sand pile": 4,
-				"Magic barrier": 3,
-				"Rubble": 1,
-				"Pedestal": 4
-			},
-			"NPC": {
-				"Pentyn": 1,
-				"Pile of bones": 1,
-				"Crust of ice": 1,
-				"Furnace grate": 1,
-				"Enakhra": 1,
-				"Akthanakos": 1,
-				"Lazim": 3
-			},
-			"Connect": {
-				"12589": true
-			}
-		},
-		"Office": {},
-		"Cellar": {},
-		"Melzar's Maze": {},
 		"H%2EA%2EM%2E Cave": {
 			"Object": {
 				"Crate": 14,
@@ -106336,6 +106241,9 @@
 			"NPC": {
 				"Larxus": 1,
 				"Mystery figure": 6
+			},
+			"Connect": {
+				"12596": true
 			}
 		},
 		"Castle Wars": {
@@ -106377,7 +106285,7 @@
 				"13723": true
 			}
 		},
-		"Fenkenstrain's Dungeon": {
+		"Experiment cave": {
 			"Object": {
 				"Chest": 1
 			},
@@ -106445,16 +106353,6 @@
 		},
 		"Citharede Abbey basement": {},
 		"Dwarf tunnel": {},
-		"Ramarno's forge": {
-			"Object": {
-				"Rubble mound": 1,
-				"Material cache (goldrune)": 4
-			},
-			"NPC": {
-				"Ramarno": 1,
-				"Fish": 2
-			}
-		},
 		"Legends' Guild Dungeon": {
 			"Object": {
 				"Crate": 1,
@@ -106468,22 +106366,6 @@
 			},
 			"Connect": {
 				"10804": true
-			}
-		},
-		"Pyramid": {
-			"Object": {
-				"Sarcophagus": 33,
-				"Pit": 8,
-				"Closed chest": 1
-			},
-			"NPC": {
-				"High Priest": 1,
-				"Priest": 3,
-				"Wanderer": 2,
-				"Icthlarin": 1
-			},
-			"Monster": {
-				"Mummy": 6
 			}
 		},
 		"Gamers' Grotto": {
@@ -106527,7 +106409,6 @@
 				"Stanley Limelight Traders": true
 			}
 		},
-		"Bank vault": {},
 		"Asgarnia Ice Cave": {
 			"Object": {
 				"Crate": 8,
@@ -106570,21 +106451,6 @@
 				"9777": true
 			}
 		},
-		"Underwater cave": {
-			"Object": {
-				"Anchor": 2,
-				"Kelp": 51
-			},
-			"NPC": {
-				"Mogre Guard": 4,
-				"Fish": 45,
-				"Nung": 1
-			},
-			"Monster": {
-				"Crab": 10,
-				"Mudskipper": 8
-			}
-		},
 		"Ghorrock Fortress Dungeon": {
 			"Object": {
 				"Pipe": 58,
@@ -106595,31 +106461,9 @@
 				"Ice demon": 1,
 				"Waterfiend": 22,
 				"Icefiend": 24
-			}
-		},
-		"Mage Training Arena": {
-			"Object": {
-				"Old Bookshelf": 36,
-				"Bones": 39,
-				"Coin Collector": 1,
-				"Food chute": 8,
-				"Exit Teleport": 17,
-				"Cupboard": 8,
-				"Cube Pile": 9,
-				"Cylinder Pile": 7,
-				"Icosahedron Pile": 7,
-				"Pentamid Pile": 8,
-				"Hole": 1
 			},
-			"NPC": {
-				"Flying Book": 7,
-				"Alchemy Guardian": 1,
-				"Enchantment Guardian": 1,
-				"Graveyard Guardian": 1,
-				"Charmed Warrior": 16,
-				"Sweeper": 1,
-				"Telekinetic Guardian": 8,
-				"Maze Guardian": 2
+			"Connect": {
+				"11581": true
 			}
 		},
 		"Genie's Cave": {
@@ -106659,7 +106503,6 @@
 				"10290": true
 			}
 		},
-		"Interrogation room": {},
 		"Mos Le'Harmless caves": {
 			"Object": {
 				"Cave": 2
@@ -106674,8 +106517,20 @@
 				"15151": true
 			}
 		},
-		"Elvarg's lair": {},
-		"Artisans' Workshop": {},
+		"Elvarg's Lair": {
+			"Object": {
+				"Climbing rope": 1
+			},
+			"Monster": {
+				"Rat": 2,
+				"Lesser demon": 5,
+				"Skeleton": 14,
+				"Elvarg": 1
+			},
+			"Connect": {
+				"11314": true
+			}
+		},
 		"Draynor Manor basement": {
 			"Object": {
 				"Coffin": 1,
@@ -106685,12 +106540,18 @@
 			"Monster": {
 				"Rat": 9,
 				"Spider": 4
+			},
+			"Connect": {
+				"12340": true
 			}
 		},
-		"Pollninveach Dungeon": {
+		"Pollninveach Slayer Dungeon": {
 			"Object": {
+				"Small obelisk": 1,
 				"Bucket rope": 1,
-				"Mystic barrier": 4,
+				"Pulsing markings": 4,
+				"Mystic barrier": 8,
+				"Subterranean spring": 2,
 				"Wavering mystic barrier": 1
 			},
 			"NPC": {
@@ -106699,7 +106560,12 @@
 				"Iwazaru": 1
 			},
 			"Monster": {
-				"Mighty banshee": 20
+				"Mighty banshee": 20,
+				"Basilisk": 19,
+				"Turoth": 26,
+				"Aberrant spectre": 15,
+				"Kurask": 15,
+				"Cave crawler": 31
 			},
 			"Connect": {
 				"13358": true
@@ -106744,7 +106610,7 @@
 				"13612": true
 			}
 		},
-		"Brine rat caverns": {
+		"Brine Rat Caverns": {
 			"Object": {
 				"Chest": 1,
 				"Cave": 2
@@ -106801,18 +106667,6 @@
 			},
 			"Connect": {
 				"9775": true
-			}
-		},
-		"Conquest": {
-			"Object": {
-				"Auto-matching barrier": 1,
-				"Challenge barrier": 1
-			},
-			"NPC": {
-				"Stanley Limelight": 1
-			},
-			"Shop": {
-				"Stanley Limelight Traders": true
 			}
 		},
 		"Water Ravine Dungeon": {
