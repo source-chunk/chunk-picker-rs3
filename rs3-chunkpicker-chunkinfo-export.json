@@ -63178,30 +63178,30 @@
 				"Items": ["Black boots"],
 				"NonShop": true
 			},
-			"(Morytania) Obtain a ~|black mystic hat|~": {
+			"(Morytania) Obtain a ~|dark mystic hat|~": {
 				"Category": ["Collection Log", "Slayer Collection Log"],
 				"Label": "Slayer Collection Log",
-				"Items": ["Black mystic hat"]
+				"Items": ["Dark mystic hat"]
 			},
-			"(Morytania) Obtain a ~|black mystic robe top|~": {
+			"(Morytania) Obtain a ~|dark mystic robe top|~": {
 				"Category": ["Collection Log", "Slayer Collection Log"],
 				"Label": "Slayer Collection Log",
-				"Items": ["Black mystic robe top"]
+				"Items": ["Dark mystic robe top"]
 			},
-			"(Morytania) Obtain a ~|black mystic robe bottom|~": {
+			"(Morytania) Obtain a ~|dark mystic robe bottom|~": {
 				"Category": ["Collection Log", "Slayer Collection Log"],
 				"Label": "Slayer Collection Log",
-				"Items": ["Black mystic robe bottom"]
+				"Items": ["Dark mystic robe bottom"]
 			},
-			"(Morytania) Obtain ~|black mystic gloves|~": {
+			"(Morytania) Obtain ~|dark mystic gloves|~": {
 				"Category": ["Collection Log", "Slayer Collection Log"],
 				"Label": "Slayer Collection Log",
-				"Items": ["Black mystic gloves"]
+				"Items": ["Dark mystic gloves"]
 			},
-			"(Morytania) Obtain ~|black mystic boots|~": {
+			"(Morytania) Obtain ~|dark mystic boots|~": {
 				"Category": ["Collection Log", "Slayer Collection Log"],
 				"Label": "Slayer Collection Log",
-				"Items": ["Black mystic boots"]
+				"Items": ["Dark mystic boots"]
 			},
 			"(Morytania) Obtain a ~|lava battlestaff|~": {
 				"Category": ["Collection Log", "Slayer Collection Log"],
@@ -66934,7 +66934,6 @@
 				"UnlocksArea": true
 			},
 			"Brine Rat Caverns": {
-				"Items": ["Spade"],
 				"UnlocksArea": true
 			},
 			"Lava Maze Dungeon": {
@@ -66954,18 +66953,24 @@
 				"UnlocksArea": true
 			},
 			"Ogre enclave": {
+				"Items": ["Cave nightshade"],
 				"UnlocksArea": true
 			},
 			"Rashiliyia's tomb": {
+				"Items": ["Bone key (Shilo Village)"],
 				"UnlocksArea": true
 			},
 			"Pothole Dungeon": {
 				"UnlocksArea": true
 			},
 			"Heroes' Guild mine": {
+				"Items": ["Entranan firebird feather", "Lava eel", "Master thief's armband"],
 				"UnlocksArea": true
 			},
 			"Ice Queen's lair": {
+				"Tasks": {
+					"Mine the rockslide to gain access to the ~|Ice Queen's Lair|~": "Mining"
+				},
 				"UnlocksArea": true
 			},
 			"Black Arm Gang hideout": {
@@ -82389,6 +82394,7 @@
 			},
 			"Connect": {
 				"9030": true,
+				"11419": true,
 				"20118": true
 			},
 			"Nickname": "White Wolf Mountain"
@@ -82440,7 +82446,8 @@
 			},
 			"Connect": {
 				"8772": true,
-				"9034": true
+				"9034": true,
+				"11419": true
 			},
 			"Spawn": {
 				"Egg": 2
@@ -82936,6 +82943,10 @@
 				"Ice spider": 6,
 				"Ice warrior": 9,
 				"Ice Queen": 1
+			},
+			"Connect": {
+				"11318": true,
+				"11319": true
 			},
 			"Name": "Ice Queen's lair"
 		},
@@ -106757,6 +106768,10 @@
 				"Ice spider": 6,
 				"Ice warrior": 9,
 				"Ice Queen": 1
+			},
+			"Connect": {
+				"11318": true,
+				"11319": true
 			}
 		},
 		"Black Arm Gang hideout": {},
