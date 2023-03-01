@@ -9334,6 +9334,10 @@
 				"Priority": 19
 			},
 			"Build the tier 1 ~|workshop (fort Forinthry)|~": {
+				"Tasks": {
+					"Build the stone wall around ~|Fort Forinthry|~ in chunk 13111": "Construction",
+					"Build the stone wall around ~|Fort Forinthry|~ in chunk 13367": "Construction"
+				},
 				"Items": ["Wooden frame*", "Stone wall segment*"],
 				"Level": 1,
 				"Output Object": "Tier1Workshop+",
@@ -9547,6 +9551,10 @@
 				"Priority": 5
 			},
 			"Build the tier 1 ~|town hall (fort Forinthry)|~": {
+				"Tasks": {
+					"Build the stone wall around ~|Fort Forinthry|~ in chunk 13111": "Construction",
+					"Build the stone wall around ~|Fort Forinthry|~ in chunk 13367": "Construction"
+				},
 				"Items": ["Wooden frame*", "Stone wall segment*"],
 				"Level": 10,
 				"Primary": true,
@@ -9857,6 +9865,10 @@
 				"Priority": 10
 			},
 			"Build the tier 1 ~|chapel (fort Forinthry)|~": {
+				"Tasks": {
+					"Build the stone wall around ~|Fort Forinthry|~ in chunk 13111": "Construction",
+					"Build the stone wall around ~|Fort Forinthry|~ in chunk 13367": "Construction"
+				},
 				"Items": ["Oak frame*", "Stone wall segment*"],
 				"Level": 20,
 				"Primary": true,
@@ -10195,6 +10207,10 @@
 				"Priority": 10
 			},
 			"Build the tier 1 ~|command centre|~": {
+				"Tasks": {
+					"Build the stone wall around ~|Fort Forinthry|~ in chunk 13111": "Construction",
+					"Build the stone wall around ~|Fort Forinthry|~ in chunk 13367": "Construction"
+				},
 				"Items": ["Oak frame*", "Stone wall segment*"],
 				"Level": 30,
 				"Primary": true,
@@ -10716,6 +10732,9 @@
 				"Priority": 19
 			},
 			"Build the tier 2 ~|workshop (Fort Forinthry)|~": {
+				"Tasks": {
+					"Build the tier 1 ~|workshop (Fort Forinthry)|~": "Construction"
+				},
 				"Items": ["Teak frame*", "Stone wall segment*"],
 				"Level": 40,
 				"Primary": true,
@@ -11299,6 +11318,9 @@
 				"Priority": 13
 			},
 			"Build the tier 2 ~|town hall (Fort Forinthry)|~": {
+				"Tasks": {
+					"Build the tier 1 ~|town hall (Fort Forinthry)|~": "Construction"
+				},
 				"Items": ["Teak frame*", "Stone wall segment*"],
 				"Level": 50,
 				"Primary": true,
@@ -11790,6 +11812,9 @@
 				"Priority": 11
 			},
 			"Build the tier 2 ~|chapel (Fort Forinthry)|~": {
+				"Tasks": {
+					"Build the tier 1 ~|chapel (Fort Forinthry)|~": "Construction"
+				},
 				"Items": ["Teak frame*", "Stone wall segment*"],
 				"Level": 60,
 				"Primary": true,
@@ -12352,6 +12377,9 @@
 				"Priority": 8
 			},
 			"Build the tier 2 ~|command centre|~": {
+				"Tasks": {
+					"Build the tier 1 ~|command centre|~": "Construction"
+				},
 				"Items": ["Teak frame*", "Stone wall segment*"],
 				"Level": 70,
 				"Primary": true,
@@ -12953,6 +12981,9 @@
 				"Priority": 9
 			},
 			"Build the tier 3 ~|workshop (Fort Forinthry)|~": {
+				"Tasks": {
+					"Build the tier 2 ~|workshop (Fort Forinthry)|~": "Construction"
+				},
 				"Items": ["Mahogany frame*", "Stone wall segment*"],
 				"Level": 80,
 				"Primary": true,
@@ -13361,6 +13392,9 @@
 				"Priority": 8
 			},
 			"Build the tier 3 ~|town hall (Fort Forinthry)|~": {
+				"Tasks": {
+					"Build the tier 2 ~|town hall (Fort Forinthry)|~": "Construction"
+				},
 				"Items": ["Mahogany frame*", "Stone wall segment*"],
 				"Level": 90,
 				"Primary": true,
@@ -13475,6 +13509,9 @@
 				"Priority": 3
 			},
 			"Build the tier 3 ~|chapel (Fort Forinthry)|~": {
+				"Tasks": {
+					"Build the tier 2 ~|chapel (Fort Forinthry)|~": "Construction"
+				},
 				"Items": ["Mahogany frame*", "Stone wall segment*"],
 				"Level": 95,
 				"Primary": true,
@@ -13542,6 +13579,9 @@
 				"Priority": 5
 			},
 			"Build the tier 3 ~|command centre|~": {
+				"Tasks": {
+					"Build the tier 2 ~|command centre|~": "Construction"
+				},
 				"Items": ["Mahogany frame*", "Stone wall segment*"],
 				"Level": 99,
 				"Primary": true,
@@ -67159,12 +67199,6 @@
 				},
 				"UnlocksArea": true
 			},
-			"Black Arm Gang hideout": {
-				"UnlocksArea": true
-			},
-			"Beneath Iban's lair": {
-				"UnlocksArea": true
-			},
 			"Underground Pass": {
 				"UnlocksArea": true
 			},
@@ -67172,12 +67206,7 @@
 				"UnlocksArea": true
 			},
 			"Chaos Temple Dungeon": {
-				"UnlocksArea": true
-			},
-			"Kitchen": {
-				"UnlocksArea": true
-			},
-			"Dragontooth shipwreck": {
+				"Items": ["Grubby key"],
 				"UnlocksArea": true
 			},
 			"Eastern Ardougne sewer": {
@@ -67187,9 +67216,6 @@
 				"UnlocksArea": true
 			},
 			"Claus' Kitchen": {
-				"UnlocksArea": true
-			},
-			"Agility Arena": {
 				"UnlocksArea": true
 			},
 			"Smoke Dungeon": {
@@ -71330,8 +71356,7 @@
 				"Guard": 1
 			},
 			"Connect": {
-				"12087": true,
-				"12187": true
+				"12087": true
 			},
 			"Name": "King's Ransom Jail"
 		},
@@ -72909,7 +72934,7 @@
 				"9541": true
 			},
 			"Shop": {
-				"Construction Supplies": true,
+				"Construction Supplies (Prifddinas)": true,
 				"Summoning Shop": true,
 				"Crafting Supplies": true,
 				"Estate agent": true
@@ -85807,6 +85832,7 @@
 			"Connect": {
 				"7490": true,
 				"9033": true,
+				"12187": true,
 				"12629": true,
 				"17496": true
 			},
@@ -86298,7 +86324,8 @@
 			},
 			"Connect": {
 				"7490": true
-			}
+			},
+			"Name": "Black Knights' catacombs"
 		},
 		"12188": {
 			"Object": {
@@ -86337,7 +86364,7 @@
 				"11579": true,
 				"12188": true
 			},
-			"Name": "Forinthry Dungeon"
+			"Name": "Black Knights' catacombs"
 		},
 		"12190": {
 			"Object": {
@@ -88866,6 +88893,7 @@
 				"Harrison": 1
 			},
 			"Connect": {
+				"12956": true,
 				"13121": true
 			},
 			"Spawn": {
@@ -89831,10 +89859,7 @@
 				"Logs": 9,
 				"Thread": 1
 			},
-			"Shop": {
-				"Construction Supplies": true
-			},
-			"Nickname": "Lumberyard"
+			"Nickname": "Jolly Boar Inn"
 		},
 		"13111": {
 			"Object": {
@@ -89876,6 +89901,9 @@
 				"Aster": 1,
 				"Father Flint": 1,
 				"Overseer Siv": 1
+			},
+			"Shop": {
+				"Construction Supplies (Fort Forinthry)": true
 			},
 			"Nickname": "Fort Forinthry"
 		},
@@ -94359,24 +94387,6 @@
 				"15151": true
 			},
 			"Name": "Mos Le'Harmless caves"
-		},
-		"15259": {
-			"Object": {
-				"Anchor": 4,
-				"Chest": 1
-			},
-			"NPC": {
-				"Fish": 27,
-				"Karamthulhu": 1
-			},
-			"Monster": {
-				"Giant lobster": 3,
-				"Giant crab": 7
-			},
-			"Connect": {
-				"15159": true
-			},
-			"Name": "Dragontooth shipwreck"
 		},
 		"15284": {
 			"Object": {
@@ -106998,7 +107008,6 @@
 				"11319": true
 			}
 		},
-		"Black Arm Gang hideout": {},
 		"Underground Pass": {
 			"Object": {
 				"Protruding rocks": 20,
@@ -107075,13 +107084,14 @@
 			"Object": {
 				"Barricade": 1,
 				"Crate": 9,
-				"Desk": 1
+				"Desk": 1,
+				"Rope bridge": 4
 			},
 			"Monster": {
-				"Elite Dark Warrior": 15,
-				"Elite Dark Ranger": 8,
-				"Elite Dark Mage": 12,
-				"Elite Black Knight": 14
+				"Elite Dark Warrior": 21,
+				"Elite Dark Ranger": 19,
+				"Elite Dark Mage": 21,
+				"Elite Black Knight": 29
 			},
 			"NPC": {
 				"Silif": 1,
@@ -107089,8 +107099,7 @@
 			},
 			"Connect": {
 				"11579": true,
-				"12188": true,
-				"12189": true
+				"12087": true
 			}
 		},
 		"Chaos Temple Dungeon": {
@@ -107109,24 +107118,9 @@
 			},
 			"Monster": {
 				"Armoured zombie": 55
-			}
-		},
-		"Kitchen": {},
-		"Dragontooth shipwreck": {
-			"Object": {
-				"Anchor": 4,
-				"Chest": 1
-			},
-			"NPC": {
-				"Fish": 27,
-				"Karamthulhu": 1
-			},
-			"Monster": {
-				"Giant lobster": 3,
-				"Giant crab": 7
 			},
 			"Connect": {
-				"15159": true
+				"12856": true
 			}
 		},
 		"Eastern Ardougne sewer": {
@@ -107166,26 +107160,6 @@
 			},
 			"Connect": {
 				"10291": true
-			}
-		},
-		"Agility Arena": {
-			"Object": {
-				"Balancing rope": 6,
-				"Log balance": 6,
-				"Balancing ledge": 6,
-				"Monkey bars": 6,
-				"Rope swing": 4,
-				"Plank": 12,
-				"Pillar": 6,
-				"Ticket Dispenser": 24,
-				"Hand holds": 6,
-				"Climbing rope": 25
-			},
-			"NPC": {
-				"Giant bat": 17
-			},
-			"Connect": {
-				"11057": true
 			}
 		},
 		"Smoke Dungeon": {
@@ -107300,15 +107274,9 @@
 		"Beneath Harmony Island": {},
 		"Forinthry Dungeon": {
 			"Object": {
-				"Crate": 5,
-				"Desk": 1,
 				"Exit": 2
 			},
 			"Monster": {
-				"Elite Dark Warrior": 3,
-				"Elite Dark Ranger": 3,
-				"Elite Dark Mage": 3,
-				"Elite Black Knight": 3,
 				"Lesser demon": 8,
 				"Dark beast": 9,
 				"Greater demon": 10,
@@ -107329,13 +107297,9 @@
 				"Revenant knight": 1,
 				"Revenant dragon": 1
 			},
-			"NPC": {
-				"Elite Black Knight": 1
-			},
 			"Connect": {
 				"12089": true,
-				"12090": true,
-				"12188": true
+				"12090": true
 			}
 		},
 		"Kalphite tunnel": {},
@@ -177632,7 +177596,7 @@
 			"Gold leaf": true,
 			"Magic stone": true
 		},
-		"Construction Supplies (Sawmill)": {
+		"Construction Supplies (Fort Forinthry)": {
 			"Saw": true,
 			"Bolt of cloth": true,
 			"Bronze nails": true,
