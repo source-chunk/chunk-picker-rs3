@@ -866,6 +866,12 @@
 				"Output": "Piece of Het",
 				"Priority": 2
 			},
+			"Cross the jutting wall to the ~|Meiyerditch laboratories": {
+				"Chunks": ["Meiyerditch Laboratories"],
+				"Level": 65,
+				"Primary": true,
+				"Priority": 3
+			},
 			"Unlock ~|the tengu|~ in the player-owned port": {
 				"Chunks": ["Player-Owned Port"],
 				"Level": 90,
@@ -31925,6 +31931,9 @@
 				"Priority": 2
 			},
 			"Catch a ~|raw great white shark|~": {
+				"Tasks": {
+					"Build a ~|driftwood prawnbroker|~": "Construction"
+				},
 				"Level": 80,
 				"Objects": ["Fishing spot (big fishing net, harpoon)"],
 				"Primary": true,
@@ -67222,15 +67231,15 @@
 				"UnlocksArea": true
 			},
 			"Hallows Myreque Hideout": {
+				"Chunks": ["13877"],
 				"UnlocksArea": true
 			},
 			"Shade Catacombs": {
+				"Items": ["Bronze key red"],
 				"UnlocksArea": true
 			},
 			"Meiyerditch Laboratories": {
-				"UnlocksArea": true
-			},
-			"Windmill cellar": {
+				"Chunks": ["14387"],
 				"UnlocksArea": true
 			},
 			"Beneath Harmony Island": {
@@ -94376,7 +94385,8 @@
 			},
 			"Connect": {
 				"15148": true
-			}
+			},
+			"Name": "Beneath Harmony Island"
 		},
 		"15251": {
 			"Monster": {
@@ -107270,8 +107280,22 @@
 				"Sarius Guile": 1
 			}
 		},
-		"Windmill cellar": {},
-		"Beneath Harmony Island": {},
+		"Beneath Harmony Island": {
+			"Object": {
+				"Crate": 3
+			},
+			"NPC": {
+				"Dr Fenkenstrain": 1,
+				"Monk": 4,
+				"Brother Tranquillity": 1
+			},
+			"Monster": {
+				"Zombie pirate": 11
+			},
+			"Connect": {
+				"15148": true
+			}
+		},
 		"Forinthry Dungeon": {
 			"Object": {
 				"Exit": 2
