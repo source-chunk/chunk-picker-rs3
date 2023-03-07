@@ -51102,6 +51102,7 @@
 				"Priority": 3
 			},
 			"Catch a ~|raw tuna|~ barehanded": {
+				"Chunks": ["10038"],
 				"Level": 35,
 				"Objects": ["Fishing spot (cage, harpoon)"],
 				"Primary": true,
@@ -51112,6 +51113,7 @@
 				"Priority": 2
 			},
 			"Catch a ~|raw swordfish|~ barehanded": {
+				"Chunks": ["10038"],
 				"Level": 50,
 				"Objects": ["Fishing spot (cage, harpoon)"],
 				"Primary": true,
@@ -51122,6 +51124,7 @@
 				"Priority": 1
 			},
 			"Catch a ~|raw shark|~ barehanded": {
+				"Chunks": ["10038"],
 				"Level": 76,
 				"Objects": ["Fishing spot (big fishing net, harpoon)"],
 				"Primary": true,
@@ -51132,6 +51135,7 @@
 				"Priority": 1
 			},
 			"Catch a ~|raw baron shark|~ barehanded": {
+				"Chunks": ["10038"],
 				"Items": ["Juju fishing potion"],
 				"Level": 76,
 				"Objects": ["Fishing spot (big fishing net, harpoon)"],
@@ -66619,6 +66623,7 @@
 				"UnlocksArea": true
 			},
 			"Watermill cellar": {
+				"Chunks": ["12851"],
 				"UnlocksArea": true
 			},
 			"Chaos Dwarf Battlefield": {
@@ -66705,9 +66710,6 @@
 				"UnlocksArea": true
 			},
 			"Mage arena cave": {
-				"UnlocksArea": true
-			},
-			"Jungle Demon Arena": {
 				"UnlocksArea": true
 			},
 			"Fairy HQ": {
@@ -67248,9 +67250,6 @@
 			"Forinthry Dungeon": {
 				"UnlocksArea": true
 			},
-			"Kalphite tunnel": {
-				"UnlocksArea": true
-			},
 			"Polar Eagles' Eyrie": {
 				"Tasks": {
 					"Enter the ~|Polar eagle|~ eyrie|~": "Agility"
@@ -67265,60 +67264,41 @@
 				"UnlocksArea": true
 			},
 			"Dorgesh-Kaan mine": {
+				"Chunks": ["Lumbridge Cellar"],
+				"UnlocksArea": true
+			},
+			"Lumbridge Cellar": {	
 				"UnlocksArea": true
 			},
 			"Lumbridge Swamp caves": {
 				"UnlocksArea": true
 			},
-			"Wizards' Tower basement": {
+			"Mahjarrat Ritual Site Cavern": {
 				"UnlocksArea": true
 			},
-			"Jhallan's resting place": {
-				"UnlocksArea": true
-			},
-			"Ritual plateau tunnels": {
+			"Lamistard's Tunnels": {
 				"UnlocksArea": true
 			},
 			"Ape Atoll tunnels": {
-				"UnlocksArea": true
-			},
-			"Jungle demon lair": {
 				"UnlocksArea": true
 			},
 			"Temple of Marimbo Dungeon": {
 				"UnlocksArea": true
 			},
 			"Tch'ki nut cave": {
-				"UnlocksArea": true
-			},
-			"Dig Site caves": {
+				"Tasks": {
+					"Complete a lap of the ~|Ape Atoll agility course|~": "Agility"
+				},
 				"UnlocksArea": true
 			},
 			"Waterfall cave": {
+				"Items": ["Glarial's amulet"],
 				"UnlocksArea": true
 			},
 			"Eadgar's cave": {
 				"UnlocksArea": true
 			},
 			"Tunnel to Trollheim": {
-				"UnlocksArea": true
-			},
-			"Varrock Dig Site caves": {
-				"UnlocksArea": true
-			},
-			"Blue Moon Inn cellar": {
-				"UnlocksArea": true
-			},
-			"Crate interior": {
-				"UnlocksArea": true
-			},
-			"Escape route": {
-				"UnlocksArea": true
-			},
-			"Desert obelisk": {
-				"UnlocksArea": true
-			},
-			"Pit": {
 				"UnlocksArea": true
 			},
 			"Tears Of Guthix cavern": {
@@ -73001,7 +72981,10 @@
 				"'Beedy-eye' Jones": 1,
 				"Jenny Blade": 2
 			},
-			"Nickname": "Lunar isle mine"
+			"Connect": {
+				"9377": true
+			},
+			"Nickname": "Lunar Isle Mine"
 		},
 		"8519": {
 			"Object": {
@@ -79908,19 +79891,6 @@
 			},
 			"Name": "Gnome glider hangar"
 		},
-		"10567": {
-			"Object": {
-				"Banana Tree": 97,
-				"Crack": 1
-			},
-			"NPC": {
-				"Waydar": 1,
-				"G%2EL%2EO%2E Caranock": 1,
-				"Awowogei": 1,
-				"Spider": 3
-			},
-			"Name": "Jungle Demon Arena"
-		},
 		"10568": {
 			"Object": {
 				"Dead tree": 74
@@ -81029,16 +80999,6 @@
 			},
 			"Name": "Ape Atoll tunnels"
 		},
-		"10895": {
-			"Object": {
-				"Banana Tree": 97,
-				"Crack": 5
-			},
-			"Monster": {
-				"Spider": 16
-			},
-			"Name": "Jungle demon lair"
-		},
 		"10899": {
 			"Monster": {
 				"Iron dragon": 13,
@@ -81289,7 +81249,6 @@
 				"Snake": 2
 			},
 			"Connect": {
-				"10567": true,
 				"11151": true
 			},
 			"Spawn": {
@@ -81815,6 +81774,7 @@
 				"Ice wolf": 7
 			},
 			"Connect": {
+				"11167": true,
 				"11168": true
 			},
 			"Spawn": {
@@ -82222,7 +82182,7 @@
 				"11068": true,
 				"11324": true
 			},
-			"Name": "Ritual plateau tunnels"
+			"Name": "Lamistard's Tunnels"
 		},
 		"11283": {
 			"Object": {
@@ -82788,6 +82748,9 @@
 				"Cavern": 1,
 				"Dead tree covered in snow": 10
 			},
+			"Connect": {
+				"11425": true
+			},
 			"Nickname": "Ritual Site Coast"
 		},
 		"11330": {
@@ -83336,7 +83299,7 @@
 			"Monster": {
 				"Jelly": 9
 			},
-			"Name": "Jhallan's resting place"
+			"Name": "Mahjarrat Ritual Site Cavern"
 		},
 		"11461": {
 			"Object": {
@@ -83943,6 +83906,9 @@
 				"Troll spectator": 7,
 				"Dad": 1
 			},
+			"Connect": {
+				"11676": true
+			},
 			"Nickname": "Troll Arena"
 		},
 		"11577": {
@@ -83960,6 +83926,10 @@
 				"Mountain goat": 5,
 				"Thistle": 1,
 				"Egg": 1
+			},
+			"Connect": {
+				"11676": true,
+				"11677": true
 			},
 			"Nickname": "Trollheim"
 		},
@@ -84780,7 +84750,8 @@
 				"Lowse": 1
 			},
 			"Connect": {
-				"4184": true
+				"4184": true,
+				"15687": true
 			},
 			"Shop": {
 				"Magic secateurs": true,
@@ -87141,13 +87112,6 @@
 			},
 			"Name": "Enakhra's Temple"
 		},
-		"12437": {
-			"Object": {
-				"Bookcase": 3,
-				"Cabinet": 3
-			},
-			"Name": "Wizards' Tower basement"
-		},
 		"12438": {
 			"Monster": {
 				"Zombie": 4
@@ -88509,7 +88473,7 @@
 			"Connect": {
 				"6473": true,
 				"12694": true,
-				"12950": true
+				"13207": true
 			},
 			"Spawn": {
 				"Mind rune": 1,
@@ -90318,6 +90282,9 @@
 			},
 			"Name": "Dorgesh-Kaan mine"
 		},
+		"13207": {
+			"Name": "Lumbridge Cellar"
+		},
 		"13209": {
 			"Object": {
 				"Rope": 1
@@ -90998,19 +90965,6 @@
 				"Doug Deeping": 1
 			},
 			"Name": "Varrock Dig Site dungeon"
-		},
-		"13465": {
-			"Object": {
-				"Sacks": 7,
-				"Silver rock": 6
-			},
-			"Monster": {
-				"Skeleton": 10
-			},
-			"NPC": {
-				"Doug Deeping": 1
-			},
-			"Name": "Varrock Dig Site caves"
 		},
 		"13468": {
 			"Object": {
@@ -92136,19 +92090,6 @@
 				"13879": true
 			},
 			"Name": "Experiment cave"
-		},
-		"13981": {
-			"Object": {
-				"Sacks": 10,
-				"Silver rock": 6
-			},
-			"Monster": {
-				"Skeleton": 10
-			},
-			"NPC": {
-				"Doug Deeping": 1
-			},
-			"Name": "Varrock Dig Site caves"
 		},
 		"14129": {
 			"Object": {
@@ -104542,21 +104483,6 @@
 				"Lundail's Arena-side Rune Shop": true
 			}
 		},
-		"Jungle Demon Arena": {
-			"Object": {
-				"Banana Tree": 97,
-				"Crack": 1
-			},
-			"NPC": {
-				"Waydar": 1,
-				"G%2EL%2EO%2E Caranock": 1,
-				"Awowogei": 1,
-				"Spider": 3
-			},
-			"Connect": {
-				"11051": true
-			}
-		},
 		"Fairy HQ": {
 			"Object": {
 				"Crate": 56
@@ -106366,7 +106292,7 @@
 				"Ice Troll": 21
 			},
 			"Connect": {
-				"10812": true,
+				"11068": true,
 				"11322": true
 			}
 		},
@@ -107326,7 +107252,6 @@
 				"12090": true
 			}
 		},
-		"Kalphite tunnel": {},
 		"Polar Eagles' Eyrie": {
 			"Object": {
 				"Cave": 6
@@ -107366,38 +107291,50 @@
 		},
 		"Dorgesh-Kaan mine": {
 			"Object": {
-				"Crate": 1,
-				"Sink": 1,
-				"Crates": 1,
-				"Sacks": 3,
-				"Hole": 2,
+				"Hole": 1,
 				"Symbol": 19,
 				"Iron rock": 7,
 				"Silver rock": 9
 			},
 			"Monster": {
-				"Spider": 4,
 				"Cave goblin miner": 8,
 				"Cave goblin guard": 4
 			},
 			"NPC": {
 				"Kazgar": 1,
 				"Dartog": 1,
-				"Zanik": 1,
 				"Mistag": 1,
 				"Nardok": 1,
 				"Grubfoot": 1
 			},
 			"Connect": {
 				"10835": true,
-				"12850": true,
 				"12949": true,
-				"12951": true
+				"12951": true,
+				"13207": true
 			},
 			"Shop": {
 				"Nardok's Bone Weapons": true
 			}
 		},
+		"Lumbridge Cellar": {
+			"Object": {
+				"Crate": 1,
+				"Sink": 1,
+				"Crates": 1,
+				"Sacks": 3,
+				"Hole": 1
+			},
+			"Monster": {
+				"Spider": 4
+			},
+			"NPC": {
+				"Zanik": 1
+			},
+			"Connect": {
+				"12850": true,
+				"13206": true
+			}
 		"Lumbridge Swamp caves": {
 			"Object": {
 				"Climbing rope": 1,
@@ -107427,21 +107364,18 @@
 				"12950": true
 			}
 		},
-		"Wizards' Tower basement": {
-			"Object": {
-				"Bookcase": 3,
-				"Cabinet": 3
-			}
-		},
-		"Jhallan's resting place": {
+		"Mahjarrat Ritual Site Cavern": {
 			"Object": {
 				"Cave": 1
 			},
 			"Monster": {
 				"Jelly": 9
+			},
+			"Connect": {
+				"11325": true
 			}
 		},
-		"Ritual plateau tunnels": {
+		"Lamistard's Tunnels": {
 			"Object": {
 				"Rubble": 61,
 				"Underground pass exit": 1,
@@ -107468,15 +107402,6 @@
 			},
 			"Connect": {
 				"11050": true
-			}
-		},
-		"Jungle demon lair": {
-			"Object": {
-				"Banana Tree": 97,
-				"Crack": 5
-			},
-			"Monster": {
-				"Spider": 16
 			}
 		},
 		"Temple of Marimbo Dungeon": {
@@ -107516,18 +107441,6 @@
 				"11562": true
 			}
 		},
-		"Dig Site caves": {
-			"Object": {
-				"Sacks": 10,
-				"Silver rock": 6
-			},
-			"Monster": {
-				"Skeleton": 10
-			},
-			"NPC": {
-				"Doug Deeping": 1
-			}
-		},
 		"Waterfall cave": {
 			"Object": {
 				"Whirlpool": 1,
@@ -107554,6 +107467,9 @@
 			},
 			"NPC": {
 				"Eadgar": 1
+			},
+			"Connect": {
+				"11577": true
 			}
 		},
 		"Tunnel to Trollheim": {
@@ -107563,25 +107479,12 @@
 			},
 			"Monster": {
 				"Mountain troll": 4
+			},
+			"Connect": {
+				"11576": true,
+				"11577": true
 			}
 		},
-		"Varrock Dig Site caves": {
-			"Object": {
-				"Sacks": 17,
-				"Silver rock": 12
-			},
-			"Monster": {
-				"Skeleton": 20
-			},
-			"NPC": {
-				"Doug Deeping": 2
-			}
-		},
-		"Blue Moon Inn cellar": {},
-		"Crate interior": {},
-		"Escape route": {},
-		"Desert obelisk": {},
-		"Pit": {},
 		"Tears Of Guthix cavern": {
 			"Object": {
 				"Rocks": 39,
@@ -107614,6 +107517,9 @@
 			},
 			"NPC": {
 				"Fallen Man": 1
+			},
+			"Connect": {
+				"8509": true
 			}
 		},
 		"Clan Citadel": {
@@ -107638,6 +107544,9 @@
 				"Spotlight machine": 5,
 				"Sound machine": 5,
 				"Prop machine": 5
+			},
+			"Connect": {
+				"11827": true
 			}
 		},
 		"Guthixian ruins": {
