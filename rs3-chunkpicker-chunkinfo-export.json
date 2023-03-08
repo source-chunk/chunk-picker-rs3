@@ -42939,7 +42939,7 @@
 				"Priority": 7
 			},
 			"Mine the rockslide to gain access to the ~|Ice Queen's Lair|~": {
-				"Chunks": ["11318"],
+				"Chunks": ["11318", "11319"],
 				"Level": 50,
 				"Primary": false,
 				"Priority": 6
@@ -48940,7 +48940,7 @@
 			},
 			"Slay a ~|ripper demon|~": {
 				"Level": 96,
-				"Monsters": ["Ripper demon"],
+				"Monsters": ["Ripper Demon"],
 				"Primary": false,
 				"Priority": 3,
 				"Source": "drop",
@@ -91347,7 +91347,7 @@
 			"Shop": {
 				"Elite Dungeon Reward Shop": true,
 				"Thok of Daemonheim": true,
-				"Dungeoneering Reward Shop": true
+				"Daemonheim Rewards": true
 			},
 			"Connect": {
 				"5140": true
@@ -177947,7 +177947,7 @@
 			"Hammer": true,
 			"Bronze pickaxe": true
 		},
-		"Dungeoneering Reward Shop": {
+		"Daemonheim Rewards": {
 			"Bonecrusher": true,
 			"Herbicide": true,
 			"Charming imp": true,
