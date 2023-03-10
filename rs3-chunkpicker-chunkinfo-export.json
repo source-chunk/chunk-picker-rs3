@@ -50345,6 +50345,30 @@
 				"Primary": true,
 				"Priority": 3
 			},
+			"Forge a ~|dragonfire deflector|~": {
+				"Items": ["Draconic visage*", "Anti-dragon shield*"],
+				"Level": 90,
+				"Objects": ["Forge", "Anvil"],
+				"Output": "Dragonfire deflector",
+				"Primary": true,
+				"Priority": 4
+			},
+			"Forge a ~|dragonfire shield|~": {
+				"Items": ["Draconic visage*", "Anti-dragon shield*"],
+				"Level": 90,
+				"Objects": ["Forge", "Anvil"],
+				"Output": "Dragonfire shield",
+				"Primary": true,
+				"Priority": 5
+			},
+			"Forge a ~|dragonfire ward|~": {
+				"Items": ["Draconic visage*", "Anti-dragon shield*"],
+				"Level": 90,
+				"Objects": ["Forge", "Anvil"],
+				"Output": "Dragonfire ward",
+				"Primary": true,
+				"Priority": 6
+			},
 			"Smelt a ~|concentrated alloy bar|~": {
 				"Items": ["Bronze bar*", "Iron bar*", "Steel bar*", "Mithril bar*", "Adamant bar*", "Rune bar*", "Orikalkum bar*", "Necronium bar*", "Bane bar*", "Elder rune bar*"],
 				"Level": 99,
