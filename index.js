@@ -373,6 +373,8 @@ let rules = {
 	"Golden fish egg": false,
 	"Cleaning herbs": false,
 	"Swordy": false,
+	"Vinesweeper": false,
+	"Ogleroot": false,
 };                                                                              // List of rules and their on/off state
 
 let ruleNames = {
@@ -387,7 +389,7 @@ let ruleNames = {
     "Normal Farming": "Allow normal farming to count as a primary method for training Farming",
     "Raking": "Allow raking patches to count as a primary method for training Farming <span class='rule-asterisk noscroll'>*</span>",
     "Kill X": "Kill X-amount of every new, unique monster you encounter",
-    "Sorceress's Garden": "Allow Sorceress's Garden to count as primary training for training Farming",
+    "Sorceress's Garden": "Allow Sorceress's Garden to count as primary training for training Farming<span class='rule-asterisk noscroll'>*</span>",
     "Spells": "Spells count as a way to process runes via Magic, and therefore can count as chunk tasks",
     "Show Skill Tasks": "Show Skill Tasks (e.g. Get 43 Crafting to cut a diamond)",
     "Show Quest Tasks": "Show Quest Tasks",
@@ -438,6 +440,8 @@ let ruleNames = {
 	"Golden fish egg": "Must obtain all available golden fish eggs <span class='rule-asterisk noscroll'>*</span>",
 	"Cleaning herbs": "Cleaning herbs counts as primary herblore training <span class='rule-asterisk noscroll'>†</span>",
 	"Swordy": "Must obtain Swordy McSwordFace from Bossy McBossFace in The Shadow Reef <span class='rule-asterisk noscroll'>*</span>",
+	"Vinesweeper": "Allow Vinesweeper to count as primary training for training Farming <span class='rule-asterisk noscroll'>*</span>",
+	"Ogleroot": "Allow Vinesweeper to count as primary training for training hunter",
 };                                                                              // List of rule definitions
 
 let rulePresets = {
@@ -458,6 +462,7 @@ let rulePresets = {
         "PVP-Only Spells": true,
         "Smithing by Smelting": true,
         "Rare Drop Amount": "0",
+		"Ogleroot": true,
     },
     "Xtreme Chunker": {
         "Skillcape": true,
@@ -502,6 +507,8 @@ let rulePresets = {
 		"Golden fish egg": true,
 		"Stuffables": true,
 		"Swordy": true,
+		"Vinesweeper": true,
+		"Ogleroot": true,
     },
     "Supreme Chunker": {
         "Skillcape": true,
@@ -554,6 +561,8 @@ let rulePresets = {
 		"Cleaning herbs": true,
 		"Stuffables": true,
 		"Swordy": true,
+		"Vinesweeper": true,
+		"Ogleroot": true,
     }
 };                                                                              // List of rules that are part of each preset
 
@@ -596,7 +605,8 @@ let ruleStructure = {
         "Normal Farming": true,
         "Raking": true,
         "Sorceress's Garden": true,
-        "Farming Primary": true
+        "Farming Primary": true,
+		"Vinesweeper": true
     },
 	"Fishing": {
 		"Golden fish egg": true
@@ -606,7 +616,8 @@ let ruleStructure = {
     },
     "Hunter": {
         "Puro-Puro": ["Extra implings"],
-        "Wandering implings": true
+        "Wandering implings": true,
+		"Ogleroot": true,
     },
     "Magic": {
         "Spells": ["Combat and Teleport Spells", "PVP-Only Spells"],
