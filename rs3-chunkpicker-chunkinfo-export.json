@@ -67110,7 +67110,6 @@
 				"UnlocksArea": true
 			},
 			"H%2EA%2EM%2E Cave": {
-				"Chunks": ["12850"],
 				"UnlocksArea": true
 			},
 			"Champions' Arena": {
@@ -88496,6 +88495,7 @@
 			},
 			"Connect": {
 				"6473": true,
+				"12694": true,
 				"13207": true
 			},
 			"Spawn": {
@@ -88582,7 +88582,6 @@
 			"Connect": {
 				"4186": true,
 				"6473": true,
-				"12694": true,
 				"12951": true,
 				"14167": true,
 				"18524": true
@@ -106436,7 +106435,7 @@
 			},
 			"Connect": {
 				"10321": true,
-				"12851": true
+				"12850": true
 			}
 		},
 		"Champions' Arena": {
