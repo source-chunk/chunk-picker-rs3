@@ -24188,7 +24188,7 @@
 		},
 		"Dungeoneering": {
 			"Unlock ~|frozen floors|~": {
-				"Chunks": ["13626"],
+				"Chunks": ["13626", "13882"],
 				"Level": 1,
 				"Primary": true,
 				"Priority": 1
@@ -67112,6 +67112,7 @@
 				"UnlocksArea": true
 			},
 			"H%2EA%2EM%2E Cave": {
+				"Chunks": ["12850"],
 				"UnlocksArea": true
 			},
 			"Champions' Arena": {
@@ -85103,7 +85104,7 @@
 			},
 			"Monster": {
 				"Elite Black Knight": 4,
-				"Black demon": 4
+				"Dark beast": 4
 			},
 			"NPC": {
 				"Mysterious ghost": 1
@@ -85117,7 +85118,8 @@
 				"Ice strykewyrm": 5,
 				"Wyvern": 3,
 				"Greater demon ash lord": 3,
-				"Greater demon berserker": 3
+				"Greater demon berserker": 3,
+				"Glacor": 1
 			},
 			"NPC": {
 				"Darren": 1,
@@ -88496,7 +88498,6 @@
 			},
 			"Connect": {
 				"6473": true,
-				"12694": true,
 				"13207": true
 			},
 			"Spawn": {
@@ -88583,6 +88584,7 @@
 			"Connect": {
 				"4186": true,
 				"6473": true,
+				"12694": true,
 				"12951": true,
 				"14167": true,
 				"18524": true
@@ -90831,6 +90833,10 @@
 				"Edward": 1,
 				"Sif": 1,
 				"Bryll Thoksdottir": 1
+			},
+			
+			"Monster": {
+				"Greater demon ash lord": 1
 			},
 			"Connect": {
 				"12865": true,
@@ -94058,8 +94064,7 @@
 				"Enriched radiant wisp": 1
 			},
 			"Connect": {
-				"9053": true,
-				"15259": true
+				"9053": true
 			},
 			"Nickname": "Dragontooth Island"
 		},
@@ -106433,7 +106438,7 @@
 			},
 			"Connect": {
 				"10321": true,
-				"12850": true
+				"12851": true
 			}
 		},
 		"Champions' Arena": {
