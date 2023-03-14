@@ -20,19 +20,19 @@
 				"Priority": 1
 			},
 			"Access the ~|Brimhaven agility arena|~ low level obstacles": {
-				"Chunks": ["Brimhaven Agility arena"],
+				"Chunks": ["Brimhaven agility arena"],
 				"Level": 1,
 				"Primary": true,
 				"Priority": 3
 			},
 			"Access the ~|Brimhaven agility arena|~ medium level obstacles": {
-				"Chunks": ["Brimhaven Agility arena"],
+				"Chunks": ["Brimhaven agility arena"],
 				"Level": 20,
 				"Primary": true,
 				"Priority": 1
 			},
 			"Access the ~|Brimhaven agility arena|~ high level obstacles": {
-				"Chunks": ["Brimhaven Agility arena"],
+				"Chunks": ["Brimhaven agility arena"],
 				"Level": 40,
 				"Primary": true,
 				"Priority": 1
@@ -9303,7 +9303,6 @@
 				"Chunks": ["13111"],
 				"Items": ["Stone wall segment*", "Plank*"],
 				"Level": 1,
-				"Output": "Stone wall segment",
 				"Primary": false,
 				"Priority": 16
 			},
@@ -9311,7 +9310,6 @@
 				"Chunks": ["13111"],
 				"Items": ["Stone wall segment*"],
 				"Level": 1,
-				"Output": "Stone wall segment",
 				"Primary": false,
 				"Priority": 16
 			},
