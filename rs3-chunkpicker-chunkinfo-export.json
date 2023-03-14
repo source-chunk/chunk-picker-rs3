@@ -61115,7 +61115,7 @@
 					"~|Varrock Achievements%2FEasy|~ Plank You Very Much": "Diary",
 					"~|Varrock Achievements%2FEasy|~ Making Learning Fun!": "Diary",
 					"~|Varrock Achievements%2FEasy|~ Jumping-off Point": "Diary",
-					"~|Varrock Achievements%2FEasy|~ Lumbering Around": "Diary",
+					"~|Varrock Achievements%2FEasy|~ No Good to Me Alive": "Diary",
 					"~|Varrock Achievements%2FEasy|~ Read All About It": "Diary",
 					"~|Varrock Achievements%2FEasy|~ Dog and Bone": "Diary",
 					"~|Varrock Achievements%2FEasy|~ Pot Stop": "Diary",
@@ -61291,7 +61291,7 @@
 				},
 				"BaseQuest": "Varrock Achievements"
 			},
-			"~|Varrock Achievements%2FMedium|~ Flatpack Backpack": {
+			"~|Varrock Achievements%2FMedium|~ My Fort Smells of Rich Mahogany": {
 				"Description": "Make a mahogany plank yourself on the sawmill in Fort Forinthry.",
 				"Chunks": ["13111"],
 				"Items": ["Mahogany logs"],
@@ -61367,7 +61367,7 @@
 					"~|Varrock Achievements%2FMedium|~ Royale With Thieve": "Diary",
 					"~|Varrock Achievements%2FMedium|~ Like a Varrocket": "Diary",
 					"~|Varrock Achievements%2FMedium|~ Challenge Vannaka": "Diary",
-					"~|Varrock Achievements%2FMedium|~ Flatpack Backpack": "Diary",
+					"~|Varrock Achievements%2FMedium|~ My Fort Smells of Rich Mahogany": "Diary",
 					"~|Varrock Achievements%2FMedium|~ Master Scrumper": "Diary",
 					"~|Varrock Achievements%2FMedium|~ Engage": "Diary",
 					"~|Varrock Achievements%2FMedium|~ Faster, Pussycat! Kill! Kill! ": "Diary",
@@ -61655,7 +61655,7 @@
 				"Tasks": {
 					"~|Varrock Achievements%2FElite|~ Stick a Bork In Him, He's Done": "Diary",
 					"~|Varrock Achievements%2FElite|~ Nomadness": "Diary",
-					"~|Varrock Achievements%2FElite|~ Double Jointed": "Diary",
+					"~|Varrock Achievements%2FElite|~ Arborehole": "Diary",
 					"~|Varrock Achievements%2FElite|~ It All Adze Up": "Diary",
 					"~|Varrock Achievements%2FElite|~ Mind Your Back": "Diary",
 					"~|Varrock Achievements%2FElite|~ Red, Red Pies of Summer": "Diary",
