@@ -1147,6 +1147,30 @@
 				"Primary": true,
 				"Priority": 9
 			},
+			"Feed a ~|starved ancient effigy|~ with agility": {
+				"Items": ["Starved ancient effigy (agility/crafting)"],
+				"Level": 91,
+				"Primary": false,
+				"Priority": 1
+			},
+			"Feed a ~|nourished ancient effigy|~ with agility": {
+				"Items": ["Nourished ancient effigy (agility/crafting)"],
+				"Level": 93,
+				"Primary": false,
+				"Priority": 1
+			},
+			"Feed a ~|sated ancient effigy|~ with agility": {
+				"Items": ["Sated ancient effigy (agility/crafting)"],
+				"Level": 95,
+				"Primary": false,
+				"Priority": 1
+			},
+			"Feed a ~|gorged ancient effigy|~ with agility": {
+				"Items": ["Gorged ancient effigy (agility/crafting)"],
+				"Level": 97,
+				"Primary": false,
+				"Priority": 1
+			},
 			"Buy the ~|Max cape|~": {
 				"Tasks": {
 					"Complete the ~|Archaeology tutorial|~": "Archaeology"
@@ -5301,7 +5325,7 @@
 				},
 				"Items": ["Dragon burner", "Draconic energy", "Curved masterwork plate", "Vital spark", "Magic logs", "Extra fine sand", "Orichalchite stone spirit", "Drakolith stone spirit", "Tarromin incense sticks", "Swamp tar"],
 				"Level": 102,
-				"Objects": ["Forge", "Anvil"],
+				"Objects": ["Forge", "Anvil+"],
 				"Output": "Orthen furnace core",
 				"Skills": {
 					"Smithing": 99
@@ -13433,6 +13457,12 @@
 				"Level": 91,
 				"Primary": true,
 				"Priority": 1
+			},			
+			"Feed a ~|starved ancient effigy|~ with construction": {
+				"Items": ["Starved ancient effigy (construction/thieving)"],
+				"Level": 91,
+				"Primary": false,
+				"Priority": 2
 			},
 			"Build a ~|consecrated pet house|~": {
 				"Category": ["InsidePOH Primary"],
@@ -13457,6 +13487,12 @@
 				"Level": 92,
 				"Primary": true,
 				"Priority": 3
+			},
+			"Feed a ~|nourished ancient effigy|~ with construction": {
+				"Items": ["Nourished ancient effigy (construction/thieving)"],
+				"Level": 93,
+				"Primary": false,
+				"Priority": 1
 			},
 			"Build a ~|hanging skeleton|~": {
 				"Category": ["InsidePOH Primary"],
@@ -13521,6 +13557,12 @@
 				"Primary": true,
 				"Priority": 4
 			},
+			"Feed a ~|sated ancient effigy|~ with construction": {
+				"Items": ["Sated ancient effigy (construction/thieving)"],
+				"Level": 95,
+				"Primary": false,
+				"Priority": 5
+			},
 			"Build a ~|marble magic wardrobe|~": {
 				"Category": ["InsidePOH Primary"],
 				"Chunks": ["Player-owned house"],
@@ -13551,6 +13593,12 @@
 				"Level": 97,
 				"Primary": true,
 				"Priority": 2
+			},
+			"Feed a ~|gorged ancient effigy|~ with construction": {
+				"Items": ["Gorged ancient effigy (construction/thieving)"],
+				"Level": 97,
+				"Primary": false,
+				"Priority": 3
 			},
 			"Build a ~|demonic throne|~": {
 				"Category": ["InsidePOH Primary"],
@@ -16423,6 +16471,7 @@
 			"Cook ~|rocktail soup|~": {
 				"Items": ["Rocktail*", "Spices*"],
 				"Level": 93,
+				"Objects": ["Port workshop"],
 				"Output": "Rocktail soup",
 				"Primary": true,
 				"Priority": 2
@@ -16515,6 +16564,30 @@
 				"Primary": true,
 				"Priority": 8
 			},
+			"Feed a ~|starved ancient effigy|~ with cooking": {
+				"Items": ["Starved ancient effigy (cooking/firemaking)"],
+				"Level": 91,
+				"Primary": false,
+				"Priority": 6
+			},
+			"Feed a ~|nourished ancient effigy|~ with cooking": {
+				"Items": ["Nourished ancient effigy (cooking/firemaking)"],
+				"Level": 93,
+				"Primary": false,
+				"Priority": 4
+			},
+			"Feed a ~|sated ancient effigy|~ with cooking": {
+				"Items": ["Sated ancient effigy (cooking/firemaking)"],
+				"Level": 95,
+				"Primary": false,
+				"Priority": 9
+			},
+			"Feed a ~|gorged ancient effigy|~ with cooking": {
+				"Items": ["Gorged ancient effigy (cooking/firemaking)"],
+				"Level": 97,
+				"Primary": false,
+				"Priority": 1
+			},
 			"Make ~|wobbegong oil|~": {
 				"Items": ["Raw wobbegong*"],
 				"Objects": ["Cooking object+"],
@@ -16549,6 +16622,7 @@
 			"Cook ~|sailfish soup|~": {
 				"Items": ["Sailfish*", "Spices*"],
 				"Level": 99,
+				"Objects": ["Port workshop"],
 				"Output": "Sailfish soup",
 				"Primary": true,
 				"Priority": 3
@@ -16801,7 +16875,7 @@
 			"Forge a ~|dark ice shard|~": {
 				"Items": ["Glacor remnants*", "Dark nilas*", "Black stone heart*", "Glorious bar*"],
 				"Level": 85,
-				"Objects": ["Forge", "Anvil"],
+				"Objects": ["Forge", "Anvil+"],
 				"Output": "Dark ice shard",
 				"Skills": {
 					"Smithing": 85
@@ -16812,7 +16886,7 @@
 			"Forge a ~|dark ice sliver|~": {
 				"Items": ["Glacor remnants*", "Dark nilas*", "Black stone heart*", "Glorious bar*"],
 				"Level": 85,
-				"Objects": ["Forge", "Anvil"],
+				"Objects": ["Forge", "Anvil+"],
 				"Output": "Dark ice sliver",
 				"Skills": {
 					"Smithing": 85
@@ -16823,7 +16897,7 @@
 			"Smelt a ~|glorious silvthril chain|~": {
 				"Items": ["Silver bar*", "Mithril bar*", "Glorious bar*"],
 				"Level": 90,
-				"Objects": ["Furnace"],
+				"Objects": ["Furnace+"],
 				"Output": "Glorious silvthril chain",
 				"Primary": true,
 				"Priority": 1
@@ -18764,7 +18838,7 @@
 				"Items": ["Bucket of sand*", "Soda ash*"],
 				"Level": 1,
 				"Output": "Molten glass",
-				"Objects": ["Furnace"],
+				"Objects": ["CraftingFurnace+"],
 				"Primary": true,
 				"Priority": 28
 			},
@@ -19069,7 +19143,7 @@
 				"Items": ["Silver bar*", "Holy mould*"],
 				"Level": 16,
 				"Output": "Unstrung symbol",
-				"Objects": ["Furnace"],
+				"Objects": ["CraftingFurnace+"],
 				"Primary": true,
 				"Priority": 4
 			},
@@ -19084,7 +19158,7 @@
 				"Items": ["Silver bar*", "Unholy mould*"],
 				"Level": 17,
 				"Output": "Unstrung emblem",
-				"Objects": ["Furnace"],
+				"Objects": ["CraftingFurnace+"],
 				"Primary": true,
 				"Priority": 8
 			},
@@ -19099,7 +19173,7 @@
 				"Items": ["Silver bar*", "Sickle mould*"],
 				"Level": 18,
 				"Output": "Silver sickle",
-				"Objects": ["Furnace"],
+				"Objects": ["CraftingFurnace+"],
 				"Primary": true,
 				"Priority": 5
 			},
@@ -19107,7 +19181,7 @@
 				"Items": ["Silver bar", "Conductor mould"],
 				"Level": 20,
 				"Output": "Conductor",
-				"Objects": ["Furnace"],
+				"Objects": ["CraftingFurnace+"],
 				"Primary": true,
 				"Priority": 2
 			},
@@ -19115,7 +19189,7 @@
 				"Items": ["Silver bar*", "Bolt mould"],
 				"Level": 21,
 				"Output": "Silver bolts (unf)",
-				"Objects": ["Furnace"],
+				"Objects": ["CraftingFurnace+"],
 				"Primary": true,
 				"Priority": 2
 			},
@@ -19123,7 +19197,7 @@
 				"Items": ["Silver bar*"],
 				"Level": 23,
 				"Output": "Tiara",
-				"Objects": ["Furnace"],
+				"Objects": ["CraftingFurnace+"],
 				"Primary": true,
 				"Priority": 2
 			},
@@ -19222,7 +19296,7 @@
 				"Items": ["Gold bar*"],
 				"Level": 5,
 				"Output": "Gold ring",
-				"Objects": ["Furnace"],
+				"Objects": ["CraftingFurnace+"],
 				"Primary": true,
 				"Priority": 3
 			},
@@ -19230,7 +19304,7 @@
 				"Items": ["Gold bar*"],
 				"Level": 6,
 				"Output": "Gold necklace",
-				"Objects": ["Furnace"],
+				"Objects": ["CraftingFurnace+"],
 				"Primary": true,
 				"Priority": 1
 			},
@@ -19238,7 +19312,7 @@
 				"Items": ["Gold bar*"],
 				"Level": 8,
 				"Output": "Gold amulet(unstrung)",
-				"Objects": ["Furnace"],
+				"Objects": ["CraftingFurnace+"],
 				"Primary": true,
 				"Priority": 3
 			},
@@ -19253,7 +19327,7 @@
 				"Items": ["Gold bar*"],
 				"Level": 7,
 				"Output": "Gold bracelet",
-				"Objects": ["Furnace"],
+				"Objects": ["CraftingFurnace+"],
 				"Primary": true,
 				"Priority": 3
 			},
@@ -19261,7 +19335,7 @@
 				"Items": ["Opal*", "Silver bar*"],
 				"Level": 1,
 				"Output": "Opal ring",
-				"Objects": ["Furnace"],
+				"Objects": ["CraftingFurnace+"],
 				"Primary": true,
 				"Priority": 32
 			},
@@ -19269,7 +19343,7 @@
 				"Items": ["Opal*", "Silver bar*"],
 				"Level": 16,
 				"Output": "Opal necklace",
-				"Objects": ["Furnace"],
+				"Objects": ["CraftingFurnace+"],
 				"Primary": true,
 				"Priority": 7
 			},
@@ -19277,7 +19351,7 @@
 				"Items": ["Opal*", "Silver bar*"],
 				"Level": 22,
 				"Output": "Opal bracelet",
-				"Objects": ["Furnace"],
+				"Objects": ["CraftingFurnace+"],
 				"Primary": true,
 				"Priority": 2
 			},
@@ -19285,7 +19359,7 @@
 				"Items": ["Jade*", "Silver bar*"],
 				"Level": 13,
 				"Output": "Jade ring",
-				"Objects": ["Furnace"],
+				"Objects": ["CraftingFurnace+"],
 				"Primary": true,
 				"Priority": 4
 			},
@@ -19293,7 +19367,7 @@
 				"Items": ["Jade*", "Silver bar*"],
 				"Level": 25,
 				"Output": "Jade necklace",
-				"Objects": ["Furnace"],
+				"Objects": ["CraftingFurnace+"],
 				"Primary": true,
 				"Priority": 6
 			},
@@ -19301,7 +19375,7 @@
 				"Items": ["Jade*", "Silver bar*"],
 				"Level": 29,
 				"Output": "Jade bracelet",
-				"Objects": ["Furnace"],
+				"Objects": ["CraftingFurnace+"],
 				"Primary": true,
 				"Priority": 2
 			},
@@ -19309,7 +19383,7 @@
 				"Items": ["Jade*", "Silver bar*"],
 				"Level": 34,
 				"Output": "Jade amulet (unstrung)",
-				"Objects": ["Furnace"],
+				"Objects": ["CraftingFurnace+"],
 				"Primary": true,
 				"Priority": 5
 			},
@@ -19324,7 +19398,7 @@
 				"Items": ["Red topaz*", "Silver bar*"],
 				"Level": 45,
 				"Output": "Topaz amulet (unstrung)",
-				"Objects": ["Furnace"],
+				"Objects": ["CraftingFurnace+"],
 				"Primary": true,
 				"Priority": 3
 			},
@@ -19339,7 +19413,7 @@
 				"Items": ["Red topaz*", "Silver bar*"],
 				"Level": 38,
 				"Output": "Topaz bracelet",
-				"Objects": ["Furnace"],
+				"Objects": ["CraftingFurnace+"],
 				"Primary": true,
 				"Priority": 5
 			},
@@ -19347,7 +19421,7 @@
 				"Items": ["Red topaz*", "Silver bar*"],
 				"Level": 32,
 				"Output": "Topaz necklace",
-				"Objects": ["Furnace"],
+				"Objects": ["CraftingFurnace+"],
 				"Primary": true,
 				"Priority": 10
 			},
@@ -19355,7 +19429,7 @@
 				"Items": ["Red topaz*", "Silver bar*"],
 				"Level": 16,
 				"Output": "Topaz ring",
-				"Objects": ["Furnace"],
+				"Objects": ["CraftingFurnace+"],
 				"Primary": true,
 				"Priority": 8
 			},
@@ -19363,7 +19437,7 @@
 				"Items": ["Sapphire*", "Gold bar*"],
 				"Level": 24,
 				"Output": "Sapphire amulet (unstrung)",
-				"Objects": ["Furnace"],
+				"Objects": ["CraftingFurnace+"],
 				"Primary": true,
 				"Priority": 2
 			},
@@ -19378,7 +19452,7 @@
 				"Items": ["Sapphire*", "Gold bar*"],
 				"Level": 23,
 				"Output": "Sapphire bracelet",
-				"Objects": ["Furnace"],
+				"Objects": ["CraftingFurnace+"],
 				"Primary": true,
 				"Priority": 3
 			},
@@ -19386,7 +19460,7 @@
 				"Items": ["Sapphire*", "Gold bar*"],
 				"Level": 22,
 				"Output": "Sapphire necklace",
-				"Objects": ["Furnace"],
+				"Objects": ["CraftingFurnace+"],
 				"Primary": true,
 				"Priority": 3
 			},
@@ -19394,7 +19468,7 @@
 				"Items": ["Sapphire*", "Gold bar*"],
 				"Level": 20,
 				"Output": "Sapphire ring",
-				"Objects": ["Furnace"],
+				"Objects": ["CraftingFurnace+"],
 				"Primary": true,
 				"Priority": 4
 			},
@@ -19402,7 +19476,7 @@
 				"Items": ["Emerald*", "Gold bar*"],
 				"Level": 31,
 				"Output": "Emerald amulet (unstrung)",
-				"Objects": ["Furnace"],
+				"Objects": ["CraftingFurnace+"],
 				"Primary": true,
 				"Priority": 3
 			},
@@ -19417,7 +19491,7 @@
 				"Items": ["Emerald*", "Gold bar*"],
 				"Level": 30,
 				"Output": "Emerald bracelet",
-				"Objects": ["Furnace"],
+				"Objects": ["CraftingFurnace+"],
 				"Primary": true,
 				"Priority": 3
 			},
@@ -19425,7 +19499,7 @@
 				"Items": ["Emerald*", "Gold bar*"],
 				"Level": 29,
 				"Output": "Emerald necklace",
-				"Objects": ["Furnace"],
+				"Objects": ["CraftingFurnace+"],
 				"Primary": true,
 				"Priority": 3
 			},
@@ -19433,7 +19507,7 @@
 				"Items": ["Emerald*", "Gold bar*"],
 				"Level": 27,
 				"Output": "Emerald ring",
-				"Objects": ["Furnace"],
+				"Objects": ["CraftingFurnace+"],
 				"Primary": true,
 				"Priority": 4
 			},
@@ -19441,7 +19515,7 @@
 				"Items": ["Ruby*", "Gold bar*"],
 				"Level": 50,
 				"Output": "Ruby amulet (unstrung)",
-				"Objects": ["Furnace"],
+				"Objects": ["CraftingFurnace+"],
 				"Primary": true,
 				"Priority": 2
 			},
@@ -19456,7 +19530,7 @@
 				"Items": ["Ruby*", "Gold bar*"],
 				"Level": 42,
 				"Output": "Ruby bracelet",
-				"Objects": ["Furnace"],
+				"Objects": ["CraftingFurnace+"],
 				"Primary": true,
 				"Priority": 3
 			},
@@ -19464,7 +19538,7 @@
 				"Items": ["Ruby*", "Gold bar*"],
 				"Level": 40,
 				"Output": "Ruby necklace",
-				"Objects": ["Furnace"],
+				"Objects": ["CraftingFurnace+"],
 				"Primary": true,
 				"Priority": 3
 			},
@@ -19472,7 +19546,7 @@
 				"Items": ["Ruby*", "Gold bar*"],
 				"Level": 34,
 				"Output": "Ruby ring",
-				"Objects": ["Furnace"],
+				"Objects": ["CraftingFurnace+"],
 				"Primary": true,
 				"Priority": 7
 			},
@@ -19480,7 +19554,7 @@
 				"Items": ["Diamond*", "Gold bar*"],
 				"Level": 70,
 				"Output": "Diamond amulet (unstrung)",
-				"Objects": ["Furnace"],
+				"Objects": ["CraftingFurnace+"],
 				"Primary": true,
 				"Priority": 1
 			},
@@ -19495,7 +19569,7 @@
 				"Items": ["Diamond*", "Gold bar*"],
 				"Level": 58,
 				"Output": "Diamond bracelet",
-				"Objects": ["Furnace"],
+				"Objects": ["CraftingFurnace+"],
 				"Primary": true,
 				"Priority": 5
 			},
@@ -19503,7 +19577,7 @@
 				"Items": ["Diamond*", "Gold bar*"],
 				"Level": 56,
 				"Output": "Diamond necklace",
-				"Objects": ["Furnace"],
+				"Objects": ["CraftingFurnace+"],
 				"Primary": true,
 				"Priority": 4
 			},
@@ -19511,7 +19585,7 @@
 				"Items": ["Diamond*", "Gold bar*"],
 				"Level": 43,
 				"Output": "Diamond ring",
-				"Objects": ["Furnace"],
+				"Objects": ["CraftingFurnace+"],
 				"Primary": true,
 				"Priority": 5
 			},
@@ -19519,7 +19593,7 @@
 				"Items": ["Dragonstone*", "Gold bar*"],
 				"Level": 80,
 				"Output": "Dragonstone amulet (unstrung)",
-				"Objects": ["Furnace"],
+				"Objects": ["CraftingFurnace+"],
 				"Primary": true,
 				"Priority": 3
 			},
@@ -19534,7 +19608,7 @@
 				"Items": ["Dragonstone*", "Gold bar*"],
 				"Level": 74,
 				"Output": "Dragonstone bracelet",
-				"Objects": ["Furnace"],
+				"Objects": ["CraftingFurnace+"],
 				"Primary": true,
 				"Priority": 1
 			},
@@ -19542,7 +19616,7 @@
 				"Items": ["Dragonstone*", "Gold bar*"],
 				"Level": 72,
 				"Output": "Dragonstone necklace",
-				"Objects": ["Furnace"],
+				"Objects": ["CraftingFurnace+"],
 				"Primary": true,
 				"Priority": 3
 			},
@@ -19550,7 +19624,7 @@
 				"Items": ["Dragonstone*", "Gold bar*"],
 				"Level": 55,
 				"Output": "Dragonstone ring",
-				"Objects": ["Furnace"],
+				"Objects": ["CraftingFurnace+"],
 				"Primary": true,
 				"Priority": 5
 			},
@@ -19558,7 +19632,7 @@
 				"Items": ["Onyx*", "Gold bar*"],
 				"Level": 90,
 				"Output": "Onyx amulet (unstrung)",
-				"Objects": ["Furnace"],
+				"Objects": ["CraftingFurnace+"],
 				"Primary": true,
 				"Priority": 3
 			},
@@ -19573,7 +19647,7 @@
 				"Items": ["Onyx*", "Gold bar*"],
 				"Level": 84,
 				"Output": "Onyx bracelet",
-				"Objects": ["Furnace"],
+				"Objects": ["CraftingFurnace+"],
 				"Primary": true,
 				"Priority": 7
 			},
@@ -19581,7 +19655,7 @@
 				"Items": ["Onyx*", "Gold bar*"],
 				"Level": 82,
 				"Output": "Onyx necklace",
-				"Objects": ["Furnace"],
+				"Objects": ["CraftingFurnace+"],
 				"Primary": true,
 				"Priority": 4
 			},
@@ -19589,7 +19663,7 @@
 				"Items": ["Onyx*", "Gold bar*"],
 				"Level": 72,
 				"Output": "Onyx ring",
-				"Objects": ["Furnace"],
+				"Objects": ["CraftingFurnace+"],
 				"Primary": true,
 				"Priority": 4
 			},
@@ -19597,7 +19671,7 @@
 				"Items": ["Hydrix*", "Gold bar*"],
 				"Level": 99,
 				"Output": "Hydrix amulet (unstrung)",
-				"Objects": ["Furnace"],
+				"Objects": ["CraftingFurnace+"],
 				"Primary": true,
 				"Priority": 2
 			},
@@ -19612,7 +19686,7 @@
 				"Items": ["Hydrix*", "Gold bar*"],
 				"Level": 94,
 				"Output": "Hydrix bracelet",
-				"Objects": ["Furnace"],
+				"Objects": ["CraftingFurnace+"],
 				"Primary": true,
 				"Priority": 1
 			},
@@ -19620,7 +19694,7 @@
 				"Items": ["Hydrix*", "Gold bar*"],
 				"Level": 90,
 				"Output": "Hydrix necklace",
-				"Objects": ["Furnace"],
+				"Objects": ["CraftingFurnace+"],
 				"Primary": true,
 				"Priority": 5
 			},
@@ -19628,7 +19702,7 @@
 				"Items": ["Hydrix*", "Gold bar*"],
 				"Level": 79,
 				"Output": "Hydrix ring",
-				"Objects": ["Furnace"],
+				"Objects": ["CraftingFurnace+"],
 				"Primary": true,
 				"Priority": 11
 			},
@@ -19636,7 +19710,7 @@
 				"Items": ["Alchemical onyx*", "Gold bar*"],
 				"Level": 91,
 				"Output": "Alchemical onyx necklace",
-				"Objects": ["Furnace"],
+				"Objects": ["CraftingFurnace+"],
 				"Primary": true,
 				"Priority": 5
 			},
@@ -19644,9 +19718,9 @@
 				"Items": ["Alchemical onyx*", "Gold bar*"],
 				"Level": 91,
 				"Output": "Alchemical onyx ring",
-				"Objects": ["Furnace"],
+				"Objects": ["CraftingFurnace+"],
 				"Primary": true,
-				"Priority": 5
+				"Priority": 4
 			},
 			"Create an ~|alchemical onyx|~":{
 				"Items": ["Oynx*", "Fortunate components*", "Refined components*", "Precious components*"],
@@ -20249,6 +20323,54 @@
 				},
 				"Primary": false,
 				"Priority": 9
+			},
+			"Craft ~|death lotus armour|~": {
+				"Items": ["Lacquer*"],
+				"Level": 90,
+				"Objects": ["Port workshop"],
+				"Output": "DeathLotusArmour",
+				"Primary": true,
+				"Priority": 10
+			},
+			"Craft a ~|reefwalker's cape|~": {
+				"Items": ["Koi scales*"],
+				"Level": 90,
+				"Objects": ["Port workshop"],
+				"Output": "Reefwalker's cape",
+				"Primary": true,
+				"Priority": 11
+			},
+			"Craft a ~|leviathan ring|~": {
+				"Items": ["Pearls*"],
+				"Level": 90,
+				"Objects": ["Port workshop"],
+				"Output": "Leviathan ring",
+				"Primary": false,
+				"Priority": 12
+			},
+			"Feed a ~|starved ancient effigy|~ with crafting": {
+				"Items": ["Starved ancient effigy (agility/crafting)"],
+				"Level": 91,
+				"Primary": false,
+				"Priority": 6
+			},
+			"Feed a ~|nourished ancient effigy|~ with crafting": {
+				"Items": ["Nourished ancient effigy (agility/crafting)"],
+				"Level": 93,
+				"Primary": false,
+				"Priority": 9
+			},
+			"Feed a ~|sated ancient effigy|~ with crafting": {
+				"Items": ["Sated ancient effigy (agility/crafting)"],
+				"Level": 95,
+				"Primary": false,
+				"Priority": 1
+			},
+			"Feed a ~|gorged ancient effigy|~ with crafting": {
+				"Items": ["Gorged ancient effigy (agility/crafting)"],
+				"Level": 97,
+				"Primary": false,
+				"Priority": 1
 			},
 			"Craft a ~|toy horsey|~": {
 				"Objects": ["Crafting table 1"],
@@ -22689,7 +22811,7 @@
 				"Priority": 1
 			},
 			"Harvest an ~|elder wisp|~": {
-				"Chunks": ["The Elder Halls"],
+				"Chunks": ["The Elder Halls (Freneskae)"],
 				"Level": 75,
 				"Output": "Elder energy",
 				"Primary": true,
@@ -28567,6 +28689,30 @@
 				"Primary": false,
 				"Priority": 6
 			},
+			"Feed a ~|starved ancient effigy|~ with farming": {
+				"Items": ["Starved ancient effigy (farming/fishing)"],
+				"Level": 91,
+				"Primary": false,
+				"Priority": 3
+			},
+			"Feed a ~|nourished ancient effigy|~ with farming": {
+				"Items": ["Nourished ancient effigy (farming/fishing)"],
+				"Level": 93,
+				"Primary": false,
+				"Priority": 2
+			},
+			"Feed a ~|sated ancient effigy|~ with farming": {
+				"Items": ["Sated ancient effigy (farming/fishing)"],
+				"Level": 95,
+				"Primary": false,
+				"Priority": 3
+			},
+			"Feed a ~|gorged ancient effigy|~ with farming": {
+				"Items": ["Gorged ancient effigy (farming/fishing)"],
+				"Level": 97,
+				"Primary": false,
+				"Priority": 7
+			},
 			"Build a large dinosaur pen in your ~|player-owned ranch|~": {
 				"Chunks": ["POR+"],
 				"Items": ["Wood", "Vines", "Stone"],
@@ -31236,6 +31382,30 @@
 				"Primary": true,
 				"Priority": 9
 			},
+			"Feed a ~|starved ancient effigy|~ with firemaking": {
+				"Items": ["Starved ancient effigy (cooking/firemaking)"],
+				"Level": 91,
+				"Primary": false,
+				"Priority": 4
+			},
+			"Feed a ~|nourished ancient effigy|~ with firemaking": {
+				"Items": ["Nourished ancient effigy (cooking/firemaking)"],
+				"Level": 93,
+				"Primary": false,
+				"Priority": 1
+			},
+			"Feed a ~|sated ancient effigy|~ with firemaking": {
+				"Items": ["Sated ancient effigy (cooking/firemaking)"],
+				"Level": 95,
+				"Primary": false,
+				"Priority": 11
+			},
+			"Feed a ~|gorged ancient effigy|~ with firemaking": {
+				"Items": ["Gorged ancient effigy (cooking/firemaking)"],
+				"Level": 97,
+				"Primary": false,
+				"Priority": 1
+			},
 			"Create an elder ~|pyre ship|~": {
 				"Items": ["Elder logs*", "Mangled bones*"],
 				"Level": 99,
@@ -31913,13 +32083,6 @@
 				"Output": "Golden shark eggs",
 				"Priority": 4
 			},
-			"Catch a ~|raw sea turtle|~ on the fishing trawler": {
-				"Chunks": ["10545"],
-				"Level": 79,
-				"Primary": true,
-				"Output": "Raw sea turtle",
-				"Priority": 1
-			},
 			"Catch a ~|raw sea turtle|~": {
 				"Items": ["Sea turtle bait"],
 				"Level": 79,
@@ -31944,13 +32107,6 @@
 				"Objects": ["Magical fishing spot"],
 				"Primary": true,
 				"Output": "Raw great white shark",
-				"Priority": 1
-			},
-			"Catch a ~|raw manta ray|~ on the fishing trawler": {
-				"Chunks": ["10545"],
-				"Level": 81,
-				"Primary": true,
-				"Output": "Raw manta ray",
 				"Priority": 1
 			},
 			"Catch a ~|raw manta ray|~": {
@@ -32067,13 +32223,6 @@
 				"Output": "Raw baron shark",
 				"Priority": 5
 			},
-			"Catch a ~|raw tiger shark|~": {
-				"Chunks": ["10545"],
-				"Level": 95,
-				"Primary": true,
-				"Output": "Raw tiger shark",
-				"Priority": 2
-			},
 			"Catch a ~|small crystal urchin|~": {
 				"Level": 93,
 				"Objects": ["Fishing spot (waterfal)"],
@@ -32094,6 +32243,30 @@
 				"Primary": true,
 				"Output": "Large crystal urchin",
 				"Priority": 2
+			},
+			"Feed a ~|starved ancient effigy|~ with fishing": {
+				"Items": ["Starved ancient effigy (farming/fishing)"],
+				"Level": 91,
+				"Primary": false,
+				"Priority": 3
+			},
+			"Feed a ~|nourished ancient effigy|~ with fishing": {
+				"Items": ["Nourished ancient effigy (farming/fishing)"],
+				"Level": 93,
+				"Primary": false,
+				"Priority": 2
+			},
+			"Feed a ~|sated ancient effigy|~ with fishing": {
+				"Items": ["Sated ancient effigy (farming/fishing)"],
+				"Level": 95,
+				"Primary": false,
+				"Priority": 2
+			},
+			"Feed a ~|gorged ancient effigy|~ with fishing": {
+				"Items": ["Gorged ancient effigy (farming/fishing)"],
+				"Level": 97,
+				"Primary": false,
+				"Priority": 3
 			},
 			"Fish with a ~|cobalt skillchompa|~": {
 				"Items": ["Cobalt skillchompa"],
@@ -33805,6 +33978,7 @@
 			"Fletch ~|Death Lotus darts|~": {
 				"Items": ["Ancient bones*", "Ascension shard*"],
 				"Level": 92,
+				"Objects": ["Port workshop"],
 				"Output": "Death Lotus dart",
 				"Primary": true,
 				"Priority": 8
@@ -33812,6 +33986,7 @@
 			"Fletch ~|off-hand Death Lotus darts|~": {
 				"Items": ["Ancient bones*", "Ascension shard*"],
 				"Level": 92,
+				"Objects": ["Port workshop"],
 				"Output": "Off-hand Death Lotus dart",
 				"Primary": true,
 				"Priority": 9
@@ -33819,6 +33994,7 @@
 			"Fletch ~|elite Death Lotus darts|~": {
 				"Items": ["Lacquer*", "Death Lotus dart*", "Death lotus extract*"],
 				"Level": 92,
+				"Objects": ["Port workshop"],
 				"Output": "Elite Death Lotus dart",
 				"Primary": true,
 				"Priority": 10
@@ -33826,6 +34002,7 @@
 			"Fletch ~|off-hand elite Death Lotus darts|~": {
 				"Items": ["Lacquer*", "Off-hand Death Lotus dart*", "Death lotus extract*"],
 				"Level": 92,
+				"Objects": ["Port workshop"],
 				"Output": "Off-hand elite Death Lotus dart",
 				"Primary": true,
 				"Priority": 11
@@ -34046,6 +34223,30 @@
 				"Output": "Dragonstone bakriminel bolts",
 				"Primary": true,
 				"Priority": 1
+			},
+			"Feed a ~|starved ancient effigy|~ with fletching": {
+				"Items": ["Starved ancient effigy (fetching/woodcutting)"],
+				"Level": 91,
+				"Primary": false,
+				"Priority": 2
+			},
+			"Feed a ~|nourished ancient effigy|~ with fletching": {
+				"Items": ["Starved ancient effigy (fetching/woodcutting)"],
+				"Level": 93,
+				"Primary": false,
+				"Priority": 4
+			},
+			"Feed a ~|sated ancient effigy|~ with fletching": {
+				"Items": ["Starved ancient effigy (fetching/woodcutting)"],
+				"Level": 95,
+				"Primary": false,
+				"Priority": 22
+			},
+			"Feed a ~|gorged ancient effigy|~ with fletching": {
+				"Items": ["Starved ancient effigy (fetching/woodcutting)"],
+				"Level": 97,
+				"Primary": false,
+				"Priority": 2
 			},
 			"Tip ~|onyx bakriminel bolts|~": {
 				"Items": ["Bakriminel bolts*", "Onyx bolt tips*"],
@@ -36543,6 +36744,30 @@
 				"Primary": true,
 				"Priority": 3
 			},
+			"Feed a ~|starved ancient effigy|~ with herblore": {
+				"Items": ["Starved ancient effigy (herblore/hunter)"],
+				"Level": 91,
+				"Primary": false,
+				"Priority": 8
+			},
+			"Feed a ~|nourished ancient effigy|~ with herblore": {
+				"Items": ["Starved ancient effigy (herblore/hunter)"],
+				"Level": 93,
+				"Primary": false,
+				"Priority": 11
+			},
+			"Feed a ~|sated ancient effigy|~ with herblore": {
+				"Items": ["Starved ancient effigy (herblore/hunter)"],
+				"Level": 95,
+				"Primary": false,
+				"Priority": 3
+			},
+			"Feed a ~|gorged ancient effigy|~ with herblore": {
+				"Items": ["Starved ancient effigy (herblore/hunter)"],
+				"Level": 97,
+				"Primary": false,
+				"Priority": 4
+			},
 			"Mix a ~|supreme overload potion|~": {
 				"Chunks": ["8757"],
 				"Items": ["OverloadPotion+*", "SuperAttackPotion+*", "SuperDefencePotion+*", "SuperStrengthPotion+*", "SuperRangingPotion+*", "SuperMagicPotion+*", "Crystal flask*"],
@@ -38344,7 +38569,7 @@
 				"Items": ["Marasamaw plant"],
 				"NPCs": ["Aquatic jadinko"],
 				"Chunks": ["AquaticJadinkoAnachronia+"],
-				"Level": 85,
+				"Level": 86,
 				"Output": "AquaticJadinko",
 				"Primary": true,
 				"Priority": 2
@@ -38712,6 +38937,30 @@
 				"Output": "CrystalSkillchompa",
 				"Primary": true,
 				"Priority": 1
+			},
+			"Feed a ~|starved ancient effigy|~ with hunter": {
+				"Items": ["Starved ancient effigy (herblore/hunter)"],
+				"Level": 91,
+				"Primary": false,
+				"Priority": 4
+			},
+			"Feed a ~|nourished ancient effigy|~ with hunter": {
+				"Items": ["Starved ancient effigy (herblore/hunter)"],
+				"Level": 93,
+				"Primary": false,
+				"Priority": 1
+			},
+			"Feed a ~|sated ancient effigy|~ with hunter": {
+				"Items": ["Starved ancient effigy (herblore/hunter)"],
+				"Level": 95,
+				"Primary": false,
+				"Priority": 14
+			},
+			"Feed a ~|gorged ancient effigy|~ with hunter": {
+				"Items": ["Starved ancient effigy (herblore/hunter)"],
+				"Level": 97,
+				"Primary": false,
+				"Priority": 2
 			},
 			"Buy the ~|Hunter cape|~": {
 				"Category": ["Skillcape"],
@@ -42755,6 +43004,30 @@
 				"Primary": true,
 				"Output": "Golden sea salt",
 				"Priority": 1
+			},
+			"Feed a ~|starved ancient effigy|~ with mining": {
+				"Items": ["Starved ancient effigy (mining/smithing)"],
+				"Level": 91,
+				"Primary": false,
+				"Priority": 1
+			},
+			"Feed a ~|nourished ancient effigy|~ with mining": {
+				"Items": ["Starved ancient effigy (mining/smithing)"],
+				"Level": 93,
+				"Primary": false,
+				"Priority": 1
+			},
+			"Feed a ~|sated ancient effigy|~ with mining": {
+				"Items": ["Starved ancient effigy (mining/smithing)"],
+				"Level": 95,
+				"Primary": false,
+				"Priority": 1
+			},
+			"Feed a ~|gorged ancient effigy|~ with mining": {
+				"Items": ["Starved ancient effigy (mining/smithing)"],
+				"Level": 97,
+				"Primary": false,
+				"Priority": 2
 			},
 			"Mine an ~|idol crablet|~": {
 				"Level": 98,
@@ -47344,6 +47617,7 @@
 			"Craft ~|sea singer robes|~": {
 				"Items": ["Chi*"],
 				"Level": 90,
+				"Objects": ["Port workshop"],
 				"Output": "SeaSingerRobes",
 				"Primary": true,
 				"Priority": 5
@@ -47358,6 +47632,7 @@
 			"Craft a ~|seasinger kiba|~": {
 				"Items": ["Chi*", "Koi scales*", "Gemstone kaseki*"],
 				"Level": 92,
+				"Objects": ["Port workshop"],
 				"Output": "Seasinger kiba",
 				"Primary": true,
 				"Priority": 1
@@ -47365,6 +47640,7 @@
 			"Craft a ~|seasinger makigai|~": {
 				"Items": ["Chi*", "Koi scales*", "Gemstone kaseki*"],
 				"Level": 92,
+				"Objects": ["Port workshop"],
 				"Output": "Seasinger makigai",
 				"Primary": true,
 				"Priority": 2
@@ -47624,6 +47900,30 @@
 				},
 				"Primary": false,
 				"Priority": 6
+			},
+			"Feed a ~|starved ancient effigy|~ with runecrafting": {
+				"Items": ["Starved ancient effigy (runecrafting/summoning)"],
+				"Level": 91,
+				"Primary": false,
+				"Priority": 2
+			},
+			"Feed a ~|nourished ancient effigy|~ with runecrafting": {
+				"Items": ["Starved ancient effigy (runecrafting/summoning)"],
+				"Level": 93,
+				"Primary": false,
+				"Priority": 3
+			},
+			"Feed a ~|sated ancient effigy|~ with runecrafting": {
+				"Items": ["Starved ancient effigy (runecrafting/summoning)"],
+				"Level": 95,
+				"Primary": false,
+				"Priority": 3
+			},
+			"Feed a ~|gorged ancient effigy|~ with runecrafting": {
+				"Items": ["Starved ancient effigy (runecrafting/summoning)"],
+				"Level": 97,
+				"Primary": false,
+				"Priority": 1
 			},
 			"Buy the ~|Max cape|~": {
 				"Tasks": {
@@ -49500,7 +49800,7 @@
 			"Smelt a ~|bronze bar|~": {
 				"Items": ["Copper ore*", "Tin ore*"],
 				"Level": 1,
-				"Objects": ["Furnace"],
+				"Objects": ["Furnace+"],
 				"Output": "Bronze bar",
 				"Primary": true,
 				"Priority": 1
@@ -49508,7 +49808,7 @@
 			"Smelt an ~|iron bar|~": {
 				"Items": ["Iron ore*"],
 				"Level": 10,
-				"Objects": ["Furnace"],
+				"Objects": ["Furnace+"],
 				"Output": "Iron bar",
 				"Primary": true,
 				"Priority": 1
@@ -49516,7 +49816,7 @@
 			"Smelt a ~|silver bar|~": {
 				"Items": ["Silver ore*"],
 				"Level": 20,
-				"Objects": ["Furnace"],
+				"Objects": ["Furnace+"],
 				"Output": "Silver bar",
 				"Primary": true,
 				"Priority": 1
@@ -49524,7 +49824,7 @@
 			"Smelt a ~|steel bar|~": {
 				"Items": ["Iron ore*", "Coal*"],
 				"Level": 20,
-				"Objects": ["Furnace"],
+				"Objects": ["Furnace+"],
 				"Output": "Steel bar",
 				"Primary": true,
 				"Priority": 2
@@ -49532,7 +49832,7 @@
 			"Smelt a ~|mithril bar|~": {
 				"Items": ["Mithril ore*", "Coal*"],
 				"Level": 30,
-				"Objects": ["Furnace"],
+				"Objects": ["Furnace+"],
 				"Output": "Mithril bar",
 				"Primary": true,
 				"Priority": 1
@@ -49540,7 +49840,7 @@
 			"Smelt a ~|gold bar|~": {
 				"Items": ["Gold ore*"],
 				"Level": 40,
-				"Objects": ["Furnace"],
+				"Objects": ["Furnace+"],
 				"Output": "Gold bar",
 				"Primary": true,
 				"Priority": 1
@@ -49548,7 +49848,7 @@
 			"Smelt an ~|adamant bar|~": {
 				"Items": ["Adamantite ore*", "Luminite*"],
 				"Level": 40,
-				"Objects": ["Furnace"],
+				"Objects": ["Furnace+"],
 				"Output": "Adamant bar",
 				"Primary": true,
 				"Priority": 2
@@ -49556,7 +49856,7 @@
 			"Smelt a ~|rune bar|~": {
 				"Items": ["Runite ore*", "Luminite*"],
 				"Level": 50,
-				"Objects": ["Furnace"],
+				"Objects": ["Furnace+"],
 				"Output": "Rune bar",
 				"Primary": true,
 				"Priority": 1
@@ -49564,7 +49864,7 @@
 			"Smelt a ~|orikalkum bar|~": {
 				"Items": ["Orichalcite ore*", "Drakolith*"],
 				"Level": 60,
-				"Objects": ["Furnace"],
+				"Objects": ["Furnace+"],
 				"Output": "Orikalkum bar",
 				"Primary": true,
 				"Priority": 1
@@ -49572,7 +49872,7 @@
 			"Smelt a ~|necronium bar|~": {
 				"Items": ["Necrite ore*", "Phasmatite*"],
 				"Level": 70,
-				"Objects": ["Furnace"],
+				"Objects": ["Furnace+"],
 				"Output": "Necronium bar",
 				"Primary": true,
 				"Priority": 1
@@ -49580,7 +49880,7 @@
 			"Smelt a ~|bane bar|~": {
 				"Items": ["Banite ore*"],
 				"Level": 80,
-				"Objects": ["Furnace"],
+				"Objects": ["Furnace+"],
 				"Output": "Bane bar",
 				"Primary": true,
 				"Priority": 1
@@ -49588,7 +49888,7 @@
 			"Smelt a ~|elder rune bar|~": {
 				"Items": ["Rune bar*", "Light animica*", "Dark animica*"],
 				"Level": 90,
-				"Objects": ["Furnace"],
+				"Objects": ["Furnace+"],
 				"Output": "Elder rune bar",
 				"Primary": true,
 				"Priority": 1
@@ -49596,7 +49896,7 @@
 			"Forge ~|bronze|~": {
 				"Items": ["Bronze bar*"],
 				"Level": 1,
-				"Objects": ["Forge", "Anvil"],
+				"Objects": ["Forge", "Anvil+"],
 				"Output": "BronzeGear",
 				"Primary": true,
 				"Priority": 2
@@ -49660,7 +49960,7 @@
 			"Forge a ~|cannon part|~": {
 				"Items": ["Bronze bar*"],
 				"Level": 18,
-				"Objects": ["Forge", "Anvil"],
+				"Objects": ["Forge", "Anvil+"],
 				"Output": "Cannon part",
 				"Primary": true,
 				"Priority": 1
@@ -49668,7 +49968,7 @@
 			"Forge a ~|bronze dart tip|~": {
 				"Items": ["Bronze bar*"],
 				"Level": 20,
-				"Objects": ["Forge", "Anvil"],
+				"Objects": ["Forge", "Anvil+"],
 				"Output": "Bronze dart tip",
 				"Primary": true,
 				"Priority": 3
@@ -49676,7 +49976,7 @@
 			"Forge ~|iron|~": {
 				"Items": ["Iron bar*"],
 				"Level": 10,
-				"Objects": ["Forge", "Anvil"],
+				"Objects": ["Forge", "Anvil+"],
 				"Output": "IronGear",
 				"Primary": true,
 				"Priority": 2
@@ -49700,7 +50000,7 @@
 			"Smelt an ~|iron ingot|~": {
 				"Items": ["IronIngot+*"],
 				"Level": 10,
-				"Objects": ["Furnace"],
+				"Objects": ["Furnace+"],
 				"Output": "Iron ingot",
 				"Primary": true,
 				"Priority": 5
@@ -49708,7 +50008,7 @@
 			"Forge an ~|iron ore box|~": {
 				"Items": ["Iron bar*", "Bronze ore box*"],
 				"Level": 10,
-				"Objects": ["Forge", "Anvil"],
+				"Objects": ["Forge", "Anvil+"],
 				"Output": "Iron ore box",
 				"Primary": true,
 				"Priority": 6
@@ -49716,7 +50016,7 @@
 			"Forge ~|iron dart tips|~": {
 				"Items": ["Iron bar*"],
 				"Level": 20,
-				"Objects": ["Forge", "Anvil"],
+				"Objects": ["Forge", "Anvil+"],
 				"Output": "Iron dart tip",
 				"Primary": true,
 				"Priority": 4
@@ -49724,7 +50024,7 @@
 			"Forge ~|steel|~": {
 				"Items": ["Steel bar*"],
 				"Level": 20,
-				"Objects": ["Forge", "Anvil"],
+				"Objects": ["Forge", "Anvil+"],
 				"Output": "SteelGear",
 				"Primary": true,
 				"Priority": 5
@@ -49748,7 +50048,7 @@
 			"Forge a ~|steel ore box|~": {
 				"Items": ["Steel bar*", "Iron ore box*"],
 				"Level": 20,
-				"Objects": ["Forge", "Anvil"],
+				"Objects": ["Forge", "Anvil+"],
 				"Output": "Steel ore box",
 				"Primary": true,
 				"Priority": 8
@@ -49780,7 +50080,7 @@
 			"Forge a ~|cannonball|~": {
 				"Items": ["Steel bar*"],
 				"Level": 35,
-				"Objects": ["Furnace"],
+				"Objects": ["Furnace+"],
 				"Output": "Cannonball",
 				"Primary": true,
 				"Priority": 1
@@ -49788,7 +50088,7 @@
 			"Forge ~|masterwork rivets|~": {
 				"Items": ["Steel bar*"],
 				"Level": 99,
-				"Objects": ["Forge", "Anvil"],
+				"Objects": ["Forge", "Anvil+"],
 				"Output": "Masterwork rivets",
 				"Primary": true,
 				"Priority": 2
@@ -49796,7 +50096,7 @@
 			"Forge ~|mithril|~": {
 				"Items": ["Mithril bar*"],
 				"Level": 30,
-				"Objects": ["Forge", "Anvil"],
+				"Objects": ["Forge", "Anvil+"],
 				"Output": "MithrilGear",
 				"Primary": true,
 				"Priority": 2
@@ -49820,7 +50120,7 @@
 			"Forge a ~|mithril ore box|~": {
 				"Items": ["Mithril bar*", "Steel ore box*"],
 				"Level": 30,
-				"Objects": ["Forge", "Anvil"],
+				"Objects": ["Forge", "Anvil+"],
 				"Output": "Mithril ore box",
 				"Primary": true,
 				"Priority": 5
@@ -49959,7 +50259,7 @@
 			"Forge ~|adamant|~": {
 				"Items": ["Adamant bar*"],
 				"Level": 40,
-				"Objects": ["Forge", "Anvil"],
+				"Objects": ["Forge", "Anvil+"],
 				"Output": "AdamantGear",
 				"Primary": true,
 				"Priority": 3
@@ -49983,7 +50283,7 @@
 			"Forge an ~|adamant ore box|~": {
 				"Items": ["Adamant bar*", "Mithril ore box*"],
 				"Level": 40,
-				"Objects": ["Forge", "Anvil"],
+				"Objects": ["Forge", "Anvil+"],
 				"Output": "Adamant ore box",
 				"Primary": true,
 				"Priority": 6
@@ -50063,7 +50363,7 @@
 			"Forge ~|rune|~": {
 				"Items": ["Rune bar*"],
 				"Level": 50,
-				"Objects": ["Forge", "Anvil"],
+				"Objects": ["Forge", "Anvil+"],
 				"Output": "RuneGear",
 				"Primary": true,
 				"Priority": 2
@@ -50087,7 +50387,7 @@
 			"Forge a ~|rune ore box|~": {
 				"Items": ["Rune bar*", "Adamant ore box*"],
 				"Level": 50,
-				"Objects": ["Forge", "Anvil"],
+				"Objects": ["Forge", "Anvil+"],
 				"Output": "Rune ore box",
 				"Primary": true,
 				"Priority": 5
@@ -50106,7 +50406,7 @@
 			"Forge ~|orikalkum|~": {
 				"Items": ["Orikalkum bar*"],
 				"Level": 60,
-				"Objects": ["Forge", "Anvil"],
+				"Objects": ["Forge", "Anvil+"],
 				"Output": "OrikalkumGear",
 				"Primary": true,
 				"Priority": 2
@@ -50114,7 +50414,7 @@
 			"Forge an ~|orikalkum ore box|~": {
 				"Items": ["Orikalkum bar*", "Rune ore box*"],
 				"Level": 60,
-				"Objects": ["Forge", "Anvil"],
+				"Objects": ["Forge", "Anvil+"],
 				"Output": "Orikalkum ore box",
 				"Primary": true,
 				"Priority": 3
@@ -50122,7 +50422,7 @@
 			"Forge ~|necronium|~": {
 				"Items": ["Necronium bar*"],
 				"Level": 70,
-				"Objects": ["Forge", "Anvil"],
+				"Objects": ["Forge", "Anvil+"],
 				"Output": "NecroniumGear",
 				"Primary": true,
 				"Priority": 2
@@ -50130,7 +50430,7 @@
 			"Forge a ~|necronium ore box|~": {
 				"Items": ["Necronium bar*", "Orikalkum ore box*"],
 				"Level": 70,
-				"Objects": ["Forge", "Anvil"],
+				"Objects": ["Forge", "Anvil+"],
 				"Output": "Necronium ore box",
 				"Primary": true,
 				"Priority": 3
@@ -50138,7 +50438,7 @@
 			"Forge ~|enhanced gloves of passage|~": {
 				"Items": ["Necronium bar*", "Glacor remnants*", "Leng artefact*", "Gloves of passage*"],
 				"Level": 90,
-				"Objects": ["Forge", "Anvil"],
+				"Objects": ["Forge", "Anvil+"],
 				"Output": "Enhanced gloves of passage",
 				"Primary": true,
 				"Priority": 2
@@ -50146,7 +50446,7 @@
 			"Forge ~|bane|~": {
 				"Items": ["Bane bar*"],
 				"Level": 80,
-				"Objects": ["Forge", "Anvil"],
+				"Objects": ["Forge", "Anvil+"],
 				"Output": "BaneGear",
 				"Primary": true,
 				"Priority": 2
@@ -50154,7 +50454,7 @@
 			"Forge a ~|bane ore box|~": {
 				"Items": ["Bane bar*", "Necronium ore box*"],
 				"Level": 80,
-				"Objects": ["Forge", "Anvil"],
+				"Objects": ["Forge", "Anvil+"],
 				"Output": "Bane ore box",
 				"Primary": true,
 				"Priority": 3
@@ -50162,7 +50462,7 @@
 			"Forge ~|Tagga's corehammer|~": {
 				"Items": ["Croesus sporehammer*", "Bane bar*", "Croesus flakes*", "Calcified fungus*", "Fungal algae*"],
 				"Level": 80,
-				"Objects": ["Forge", "Anvil"],
+				"Objects": ["Forge", "Anvil+"],
 				"Output": "Tagga's corehammer",
 				"Primary": true,
 				"Priority": 4
@@ -50170,7 +50470,7 @@
 			"Smelt an ~|abyssalbane bar|~": {
 				"Items": ["Abyssalbanite ore*"],
 				"Level": 77,
-				"Objects": ["Furnace"],
+				"Objects": ["Furnace+"],
 				"Output": "Abyssalbane bar",
 				"Primary": true,
 				"Priority": 1
@@ -50178,7 +50478,7 @@
 			"Smelt a ~|basiliskbane bar|~": {
 				"Items": ["Basiliskbanite ore*"],
 				"Level": 77,
-				"Objects": ["Furnace"],
+				"Objects": ["Furnace+"],
 				"Output": "Basiliskbane bar",
 				"Primary": true,
 				"Priority": 2
@@ -50186,7 +50486,7 @@
 			"Smelt a ~|dragonbane bar|~": {
 				"Items": ["Dragonbanite ore*"],
 				"Level": 77,
-				"Objects": ["Furnace"],
+				"Objects": ["Furnace+"],
 				"Output": "Dragonbane bar",
 				"Primary": true,
 				"Priority": 3
@@ -50194,7 +50494,7 @@
 			"Smelt a ~|wallasalkibane bar|~": {
 				"Items": ["Wallasalkibanite ore*"],
 				"Level": 77,
-				"Objects": ["Furnace"],
+				"Objects": ["Furnace+"],
 				"Output": "Wallasalkibane bar",
 				"Primary": true,
 				"Priority": 4
@@ -50234,7 +50534,7 @@
 			"Forge an ~|abyssal bane longsword|~": {
 				"Items": ["Bane longsword + 4*", "Abyssal whip*"],
 				"Level": 80,
-				"Objects": ["Forge", "Anvil"],
+				"Objects": ["Forge", "Anvil+"],
 				"Output": "Abyssal bane longsword",
 				"Primary": true,
 				"Priority": 9
@@ -50242,7 +50542,7 @@
 			"Forge an ~|abyssal bane 2h sword|~": {
 				"Items": ["Bane 2h sword + 4*", "Abyssal whip*"],
 				"Level": 80,
-				"Objects": ["Forge", "Anvil"],
+				"Objects": ["Forge", "Anvil+"],
 				"Output": "Abyssal bane 2h sword",
 				"Primary": true,
 				"Priority": 10
@@ -50250,7 +50550,7 @@
 			"Forge an ~|abyssal bane off hand longsword|~": {
 				"Items": ["Bane off hand longsword + 4*", "Abyssal whip*"],
 				"Level": 80,
-				"Objects": ["Forge", "Anvil"],
+				"Objects": ["Forge", "Anvil+"],
 				"Output": "Abyssal bane off hand longsword",
 				"Primary": true,
 				"Priority": 11
@@ -50258,7 +50558,7 @@
 			"Forge an ~|abyssal bane square shield|~": {
 				"Items": ["Bane square shield + 4*", "Abyssal whip*"],
 				"Level": 80,
-				"Objects": ["Forge", "Anvil"],
+				"Objects": ["Forge", "Anvil+"],
 				"Output": "Abyssal bane square shield",
 				"Primary": true,
 				"Priority": 12
@@ -50266,7 +50566,7 @@
 			"Forge a ~|dragon bane longsword|~": {
 				"Items": ["Bane longsword + 4*", "Draconic visage*"],
 				"Level": 80,
-				"Objects": ["Forge", "Anvil"],
+				"Objects": ["Forge", "Anvil+"],
 				"Output": "Dragon bane longsword",
 				"Primary": true,
 				"Priority": 13
@@ -50274,7 +50574,7 @@
 			"Forge a ~|dragon bane 2h sword|~": {
 				"Items": ["Bane 2h sword + 4*", "Draconic visage*"],
 				"Level": 80,
-				"Objects": ["Forge", "Anvil"],
+				"Objects": ["Forge", "Anvil+"],
 				"Output": "Dragon bane 2h sword",
 				"Primary": true,
 				"Priority": 14
@@ -50282,7 +50582,7 @@
 			"Forge a ~|dragon bane off hand longsword|~": {
 				"Items": ["Bane off hand longsword + 4*", "Draconic visage*"],
 				"Level": 80,
-				"Objects": ["Forge", "Anvil"],
+				"Objects": ["Forge", "Anvil+"],
 				"Output": "Dragon bane off hand longsword",
 				"Primary": true,
 				"Priority": 15
@@ -50290,7 +50590,7 @@
 			"Forge a ~|dragon bane square shield|~": {
 				"Items": ["Bane square shield + 4*", "Draconic visage*"],
 				"Level": 80,
-				"Objects": ["Forge", "Anvil"],
+				"Objects": ["Forge", "Anvil+"],
 				"Output": "Dragon bane square shield",
 				"Primary": true,
 				"Priority": 16
@@ -50298,7 +50598,7 @@
 			"Forge ~|revenant bane longsword|~": {
 				"Items": ["Bane long sword + 4*", "CorruptMeleeWeapon+*"],
 				"Level": 80,
-				"Objects": ["Forge", "Anvil"],
+				"Objects": ["Forge", "Anvil+"],
 				"Output": "Revenant bane Longsword",
 				"Primary": true,
 				"Priority": 17
@@ -50306,7 +50606,7 @@
 			"Forge ~|revenant bane 2h sword|~": {
 				"Items": ["Bane 2h sword + 4*", "CorruptMeleeWeapon+*"],
 				"Level": 80,
-				"Objects": ["Forge", "Anvil"],
+				"Objects": ["Forge", "Anvil+"],
 				"Output": "Revenant bane 2h sword",
 				"Primary": true,
 				"Priority": 18
@@ -50314,7 +50614,7 @@
 			"Forge ~|revenant bane off hand longsword|~": {
 				"Items": ["Bane off hand longsword + 4*", "CorruptMeleeWeapon+*"],
 				"Level": 80,
-				"Objects": ["Forge", "Anvil"],
+				"Objects": ["Forge", "Anvil+"],
 				"Output": "Revenant bane off hand longsword",
 				"Primary": true,
 				"Priority": 19
@@ -50322,135 +50622,32 @@
 			"Forge ~|revenant bane square shield|~": {
 				"Items": ["Bane square shield + 4*", "CorruptMeleeWeapon+*"],
 				"Level": 80,
-				"Objects": ["Forge", "Anvil"],
+				"Objects": ["Forge", "Anvil+"],
 				"Output": "Revenant bane square shield",
 				"Primary": true,
 				"Priority": 20
 			},
-			"Forge ~|elder rune|~": {
-				"Items": ["Elder rune bar*"],
-				"Level": 90,
-				"Objects": ["Forge", "Anvil"],
-				"Output": "ElderRuneGear",
-				"Primary": true,
-				"Priority": 2
+			"Unlock ~|Invention|~": {
+				"Chunks": ["Invention Guild"],
+				"Level": 80,
+				"Skills": {
+					"Divination": 80,
+					"Crafting": 80
+				},
+				"primary": false,
+				"Priority": 21
 			},
-			"Forge an ~|elder rune ore box|~": {
-				"Items": ["Elder rune bar*", "Bane ore box*"],
-				"Level": 90,
-				"Objects": ["Forge", "Anvil"],
-				"Output": "Elder rune ore box",
-				"Primary": true,
-				"Priority": 3
-			},
-			"Forge a ~|dragonfire deflector|~": {
-				"Items": ["Draconic visage*", "Anti-dragon shield*"],
-				"Level": 90,
-				"Objects": ["Forge", "Anvil"],
-				"Output": "Dragonfire deflector",
-				"Primary": true,
-				"Priority": 4
-			},
-			"Forge a ~|dragonfire shield|~": {
-				"Items": ["Draconic visage*", "Anti-dragon shield*"],
-				"Level": 90,
-				"Objects": ["Forge", "Anvil"],
-				"Output": "Dragonfire shield",
-				"Primary": true,
-				"Priority": 5
-			},
-			"Forge a ~|dragonfire ward|~": {
-				"Items": ["Draconic visage*", "Anti-dragon shield*"],
-				"Level": 90,
-				"Objects": ["Forge", "Anvil"],
-				"Output": "Dragonfire ward",
-				"Primary": true,
-				"Priority": 6
-			},
-			"Smelt a ~|concentrated alloy bar|~": {
-				"Items": ["Bronze bar*", "Iron bar*", "Steel bar*", "Mithril bar*", "Adamant bar*", "Rune bar*", "Orikalkum bar*", "Necronium bar*", "Bane bar*", "Elder rune bar*"],
-				"Level": 99,
-				"Objects": ["Furnace"],
-				"Output": "Concentrated alloy bar",
-				"Primary": true,
-				"Priority": 3
-			},
-			"Forge a ~|masterwork trim|~": {
-				"Items": ["Elder rune bar*", "Malevolent essence*", "Praesulic essence (melee)*"],
-				"Level": 99,
-				"Objects": ["Forge", "Anvil"],
-				"Output": "Masterwork trim",
-				"Primary": true,
-				"Priority": 4
-			},
-			"Forge ~|armour spikes (alloy)|~": {
-				"Items": ["Armour spikes*", "Concentrated alloy bar*"],
-				"Level": 99,
-				"Objects": ["Forge", "Anvil"],
-				"Output": "Armour spikes (alloy)",
-				"Primary": true,
-				"Priority": 5
-			},
-			"Smelt an ~|enriched alloy bar|~": {
-				"Items": ["Concentrated alloy bar*"],
-				"Level": 99,
-				"Objects": ["Furnace"],
-				"Output": "Enriched alloy bar",
-				"Primary": true,
-				"Priority": 6
-			},
-			"Smelt an ~|immaculate alloy bar|~": {
-				"Items": ["Enriched alloy bar*"],
-				"Level": 99,
-				"Objects": ["Furnace"],
-				"Output": "Immaculate alloy bar",
-				"Primary": true,
-				"Priority": 7
-			},
-			"Forge a ~|partially folded alloy bar|~": {
-				"Items": ["Immaculate alloy bar*"],
-				"Level": 99,
-				"Objects": ["Forge", "Anvil"],
-				"Output": "Partially folded alloy bar",
-				"Primary": true,
-				"Priority": 8
-			},
-			"Forge a ~|glorious bar|~": {
-				"Items": ["Partially folded alloy bar*"],
-				"Level": 99,
-				"Objects": ["Forge", "Anvil"],
-				"Output": "Glorious bar",
-				"Primary": true,
-				"Priority": 9
-			},
-			"Forge the ~|prepared masterwork Spear of Annihilation|~": {
-				"Items": ["Spear of Annihilation*", "Masterwork trim*", "Glorious bar*"],
-				"Level": 99,
-				"Objects": ["Forge", "Anvil"],
-				"Output": "Prepared masterwork Spear of Annihilation",
-				"Primary": true,
-				"Priority": 10
-			},
-			"Forge the ~|masterwork Spear of Annihilation|~": {
-				"Items": ["Prepared masterwork Spear of Annihilation*", "Masterwork trim*", "Glorious bar*", "Masterwork rivets*"],
-				"Level": 99,
-				"Objects": ["Forge", "Anvil"],
-				"Output": "Masterwork Spear of Annihilation",
-				"Primary": true,
-				"Priority": 11
-			},
-			"Forge a ~|masterwork plate|~": {
-				"Items": ["Glorious bar*"],
-				"Level": 99,
-				"Objects": ["Forge", "Anvil"],
-				"Output": "Masterwork plate",
-				"Primary": true,
-				"Priority": 12
+			"Forge the ~|godsword blade|~": {
+				"Items": ["Godsword shard 1*", "Godsword shard 2*", "Godsword shard 3*"],
+				"Objects": ["Forge", "Anvil+"],
+				"Level": 80,
+				"primary": true,
+				"Priority": 22
 			},
 			"Forge a ~|dark ice shard|~": {
 				"Items": ["Glacor remnants*", "Dark nilas*", "Black stone heart*", "Glorious bar*"],
 				"Level": 85,
-				"Objects": ["Forge", "Anvil"],
+				"Objects": ["Forge", "Anvil+"],
 				"Output": "Dark ice shard",
 				"Skills": {
 					"Crafting": 85
@@ -50461,7 +50658,7 @@
 			"Forge a ~|dark ice sliver|~": {
 				"Items": ["Glacor remnants*", "Dark nilas*", "Black stone heart*", "Glorious bar*"],
 				"Level": 85,
-				"Objects": ["Forge", "Anvil"],
+				"Objects": ["Forge", "Anvil+"],
 				"Output": "Dark ice sliver",
 				"Skills": {
 					"Crafting": 85
@@ -50469,10 +50666,146 @@
 				"Primary": true,
 				"Priority": 2
 			},
+			"Forge ~|elder rune|~": {
+				"Items": ["Elder rune bar*"],
+				"Level": 90,
+				"Objects": ["Forge", "Anvil+"],
+				"Output": "ElderRuneGear",
+				"Primary": true,
+				"Priority": 2
+			},
+			"Forge an ~|elder rune ore box|~": {
+				"Items": ["Elder rune bar*", "Bane ore box*"],
+				"Level": 90,
+				"Objects": ["Forge", "Anvil+"],
+				"Output": "Elder rune ore box",
+				"Primary": true,
+				"Priority": 3
+			},
+			"Forge a ~|dragonfire deflector|~": {
+				"Items": ["Draconic visage*", "Anti-dragon shield*"],
+				"Level": 90,
+				"Objects": ["Forge", "Anvil+"],
+				"Output": "Dragonfire deflector",
+				"Primary": true,
+				"Priority": 4
+			},
+			"Forge a ~|dragonfire shield|~": {
+				"Items": ["Draconic visage*", "Anti-dragon shield*"],
+				"Level": 90,
+				"Objects": ["Forge", "Anvil+"],
+				"Output": "Dragonfire shield",
+				"Primary": true,
+				"Priority": 5
+			},
+			"Forge a ~|dragonfire ward|~": {
+				"Items": ["Draconic visage*", "Anti-dragon shield*"],
+				"Level": 90,
+				"Objects": ["Forge", "Anvil+"],
+				"Output": "Dragonfire ward",
+				"Primary": true,
+				"Priority": 6
+			},
+			"Forge ~|tetsu armour|~": {
+				"Items": ["Plate*"],
+				"Level": 90,
+				"Objects": ["Port workshop"],
+				"Output": "TetsuArmour",
+				"Primary": true,
+				"Priority": 7
+			},
+			"Forge ~|tetsu weapons|~": {
+				"Items": ["Plate*", "Pearl*", "Tsuba*"],
+				"Level": 92,
+				"Objects": ["Port workshop"],
+				"Output": "TetsuWeapon",
+				"Primary": true,
+				"Priority": 1
+			},
+			"Smelt a ~|concentrated alloy bar|~": {
+				"Items": ["Bronze bar*", "Iron bar*", "Steel bar*", "Mithril bar*", "Adamant bar*", "Rune bar*", "Orikalkum bar*", "Necronium bar*", "Bane bar*", "Elder rune bar*"],
+				"Level": 99,
+				"Objects": ["Furnace+"],
+				"Output": "Concentrated alloy bar",
+				"Primary": true,
+				"Priority": 3
+			},
+			"Forge a ~|masterwork trim|~": {
+				"Items": ["Elder rune bar*", "Malevolent essence*", "Praesulic essence (melee)*"],
+				"Level": 99,
+				"Objects": ["Forge", "Anvil+"],
+				"Output": "Masterwork trim",
+				"Primary": true,
+				"Priority": 4
+			},
+			"Forge ~|armour spikes (alloy)|~": {
+				"Items": ["Armour spikes*", "Concentrated alloy bar*"],
+				"Level": 99,
+				"Objects": ["Forge", "Anvil+"],
+				"Output": "Armour spikes (alloy)",
+				"Primary": true,
+				"Priority": 5
+			},
+			"Smelt an ~|enriched alloy bar|~": {
+				"Items": ["Concentrated alloy bar*"],
+				"Level": 99,
+				"Objects": ["Furnace+"],
+				"Output": "Enriched alloy bar",
+				"Primary": true,
+				"Priority": 6
+			},
+			"Smelt an ~|immaculate alloy bar|~": {
+				"Items": ["Enriched alloy bar*"],
+				"Level": 99,
+				"Objects": ["Furnace+"],
+				"Output": "Immaculate alloy bar",
+				"Primary": true,
+				"Priority": 7
+			},
+			"Forge a ~|partially folded alloy bar|~": {
+				"Items": ["Immaculate alloy bar*"],
+				"Level": 99,
+				"Objects": ["Forge", "Anvil+"],
+				"Output": "Partially folded alloy bar",
+				"Primary": true,
+				"Priority": 8
+			},
+			"Forge a ~|glorious bar|~": {
+				"Items": ["Partially folded alloy bar*"],
+				"Level": 99,
+				"Objects": ["Forge", "Anvil+"],
+				"Output": "Glorious bar",
+				"Primary": true,
+				"Priority": 9
+			},
+			"Forge the ~|prepared masterwork Spear of Annihilation|~": {
+				"Items": ["Spear of Annihilation*", "Masterwork trim*", "Glorious bar*"],
+				"Level": 99,
+				"Objects": ["Forge", "Anvil+"],
+				"Output": "Prepared masterwork Spear of Annihilation",
+				"Primary": true,
+				"Priority": 10
+			},
+			"Forge the ~|masterwork Spear of Annihilation|~": {
+				"Items": ["Prepared masterwork Spear of Annihilation*", "Masterwork trim*", "Glorious bar*", "Masterwork rivets*"],
+				"Level": 99,
+				"Objects": ["Forge", "Anvil+"],
+				"Output": "Masterwork Spear of Annihilation",
+				"Primary": true,
+				"Priority": 11
+			},
+			"Forge a ~|masterwork plate|~": {
+				"Items": ["Glorious bar*"],
+				"Level": 99,
+				"Objects": ["Forge", "Anvil+"],
+				"Output": "Masterwork plate",
+				"Primary": true,
+				"Priority": 12
+			},
 			"Forge a ~|curved masterwork plate|~": {
 				"Items": ["Masterwork plate*"],
 				"Level": 99,
-				"Objects": ["Forge", "Anvil"],
+				"Objects": ["Forge", "Anvil+"],
 				"Output": "Curved masterwork plate",
 				"Primary": true,
 				"Priority": 13
@@ -50483,7 +50816,7 @@
 				},
 				"Items": ["Dragon burner*", "Draconic energy*", "Curved masterwork plate*", "Vital spark*", "Magic logs*", "Extra fine sand*", "Orichalchite stone spirit*", "Drakolith stone spirit*", "Tarromin incense sticks*", "Swamp tar*"],
 				"Level": 99,
-				"Objects": ["Forge", "Anvil"],
+				"Objects": ["Forge", "Anvil+"],
 				"Output": "Orthen furnace core",
 				"Skills": {
 					"Archaeology": 102
@@ -50494,7 +50827,7 @@
 			"Forge an ~|untempered masterwork armour piece|~": {
 				"Items": ["Curved masterwork plate*"],
 				"Level": 99,
-				"Objects": ["Forge", "Anvil"],
+				"Objects": ["Forge", "Anvil+"],
 				"Output": "Untempered masterwork armour piece",
 				"Primary": true,
 				"Priority": 15
@@ -50502,7 +50835,7 @@
 			"Forge a ~|Masterwork armour piece|~": {
 				"Items": ["Untempered masterwork armour piece*"],
 				"Level": 99,
-				"Objects": ["Forge", "Anvil"],
+				"Objects": ["Forge", "Anvil+"],
 				"Output": "Masterwork armour piece",
 				"Primary": true,
 				"Priority": 16
@@ -50510,7 +50843,7 @@
 			"Forge a ~|lined masterwork armour piece|~": {
 				"Items": ["Masterwork armour piece*", "Leather*"],
 				"Level": 99,
-				"Objects": ["Forge", "Anvil"],
+				"Objects": ["Forge", "Anvil+"],
 				"Output": "Lined masterwork armour piece",
 				"Primary": true,
 				"Priority": 17
@@ -50518,7 +50851,7 @@
 			"Forge ~|unfinished masterwork|~": {
 				"Items": ["Lined masterwork armour piece*"],
 				"Level": 99,
-				"Objects": ["Forge", "Anvil"],
+				"Objects": ["Forge", "Anvil+"],
 				"Output": "UnfinishedMasterwork",
 				"Primary": true,
 				"Priority": 18
@@ -50526,7 +50859,7 @@
 			"Rivet ~|unfinished masterwork|~": {
 				"Items": ["UnfinishedMasterwork+*"],
 				"Level": 99,
-				"Objects": ["Forge", "Anvil"],
+				"Objects": ["Forge", "Anvil+"],
 				"Output": "RivetedMasterwork",
 				"Primary": true,
 				"Priority": 19
@@ -50534,7 +50867,7 @@
 			"Finish ~|masterwork|~": {
 				"Items": ["RivetedMasterwork+*"],
 				"Level": 99,
-				"Objects": ["Forge", "Anvil"],
+				"Objects": ["Forge", "Anvil+"],
 				"Output": "MasterworkArmour+",
 				"Primary": true,
 				"Priority": 20
@@ -50542,7 +50875,7 @@
 			"Trim ~|masterwork|~": {
 				"Items": ["Masterwork trim*", "MasterworkArmour+*"],
 				"Level": 99,
-				"Objects": ["Forge", "Anvil"],
+				"Objects": ["Forge", "Anvil+"],
 				"Output": "TrimmedMasterwork",
 				"Primary": true,
 				"Priority": 21
@@ -50622,16 +50955,6 @@
 				"Primary": false,
 				"Priority": 3
 			},
-			"Unlock ~|Invention|~": {
-				"Chunks": ["Invention Guild"],
-				"Level": 80,
-				"Skills": {
-					"Divination": 80,
-					"Crafting": 80
-				},
-				"primary": false,
-				"Priority": 21
-			},
 			"Restore a ~|Wingsuit v1|~": {
 				"Tasks": {
 					"Complete the ~|Archaeology tutorial|~": "Archaeology"
@@ -50684,6 +51007,30 @@
 				"Skills": {
 					"Dungeoneering": 55
 				},
+				"Primary": false,
+				"Priority": 1
+			},
+			"Feed a ~|starved ancient effigy|~ with smithing": {
+				"Items": ["Starved ancient effigy (mining/smithing)"],
+				"Level": 91,
+				"Primary": false,
+				"Priority": 1
+			},
+			"Feed a ~|nourished ancient effigy|~ with smithing": {
+				"Items": ["Starved ancient effigy (mining/smithing)"],
+				"Level": 93,
+				"Primary": false,
+				"Priority": 1
+			},
+			"Feed a ~|sated ancient effigy|~ with smithing": {
+				"Items": ["Starved ancient effigy (mining/smithing)"],
+				"Level": 95,
+				"Primary": false,
+				"Priority": 1
+			},
+			"Feed a ~|gorged ancient effigy|~ with smithing": {
+				"Items": ["Starved ancient effigy (mining/smithing)"],
+				"Level": 97,
 				"Primary": false,
 				"Priority": 1
 			},
@@ -53357,6 +53704,30 @@
 				"Primary": false,
 				"Priority": 9
 			},
+			"Feed a ~|starved ancient effigy|~ with summoning": {
+				"Items": ["Starved ancient effigy (runecrafting/summoning)"],
+				"Level": 91,
+				"Primary": false,
+				"Priority": 1
+			},
+			"Feed a ~|nourished ancient effigy|~ with summoning": {
+				"Items": ["Starved ancient effigy (runecrafting/summoning)"],
+				"Level": 93,
+				"Primary": false,
+				"Priority": 3
+			},
+			"Feed a ~|sated ancient effigy|~ with summoning": {
+				"Items": ["Starved ancient effigy (runecrafting/summoning)"],
+				"Level": 95,
+				"Primary": false,
+				"Priority": 4
+			},
+			"Feed a ~|gorged ancient effigy|~ with summoning": {
+				"Items": ["Starved ancient effigy (runecrafting/summoning)"],
+				"Level": 97,
+				"Primary": false,
+				"Priority": 1
+			},
 			"Obtain a ~|forsty pet|~": {
 				"Category": ["Pet"],
 				"Level": 99,
@@ -54193,6 +54564,30 @@
 				},
 				"Output": "Sceptre of the gods",
 				"Primary": true,
+				"Priority": 2
+			},
+			"Feed a ~|starved ancient effigy|~ with thieving": {
+				"Items": ["Starved ancient effigy (construction/thieving)"],
+				"Level": 91,
+				"Primary": false,
+				"Priority": 4
+			},
+			"Feed a ~|nourished ancient effigy|~ with thieving": {
+				"Items": ["Nourished ancient effigy (construction/thieving)"],
+				"Level": 93,
+				"Primary": false,
+				"Priority": 2
+			},
+			"Feed a ~|sated ancient effigy|~ with thieving": {
+				"Items": ["Sated ancient effigy (construction/thieving)"],
+				"Level": 95,
+				"Primary": false,
+				"Priority": 2
+			},
+			"Feed a ~|gorged ancient effigy|~ with thieving": {
+				"Items": ["Gorged ancient effigy (construction/thieving)"],
+				"Level": 97,
+				"Primary": false,
 				"Priority": 2
 			},
 			"Crack a ~|safe|~ in Misthalin": {
@@ -55070,6 +55465,30 @@
 				"Skills":{
 					"Crafting": 43
 				},
+				"Primary": false,
+				"Priority": 2
+			},
+			"Feed a ~|starved ancient effigy|~ with woodcutting": {
+				"Items": ["Starved ancient effigy (fetching/woodcutting)"],
+				"Level": 91,
+				"Primary": false,
+				"Priority": 1
+			},
+			"Feed a ~|nourished ancient effigy|~ with woodcutting": {
+				"Items": ["Starved ancient effigy (fetching/woodcutting)"],
+				"Level": 93,
+				"Primary": false,
+				"Priority": 1
+			},
+			"Feed a ~|sated ancient effigy|~ with woodcutting": {
+				"Items": ["Starved ancient effigy (fetching/woodcutting)"],
+				"Level": 95,
+				"Primary": false,
+				"Priority": 1
+			},
+			"Feed a ~|gorged ancient effigy|~ with woodcutting": {
+				"Items": ["Starved ancient effigy (fetching/woodcutting)"],
+				"Level": 97,
 				"Primary": false,
 				"Priority": 2
 			},
@@ -67341,70 +67760,75 @@
 			"Naragi homeworld": {
 				"UnlocksArea": true
 			},
-			"Ritual of the Mahjarrat": {
+			"Mr Mordaut's Office": {
 				"UnlocksArea": true
 			},
-			"A Void Dance": {
+			"Mysterious Old Man's basement": {
 				"UnlocksArea": true
 			},
-			"Mr Mordaut Tribute": {
+			"Empyrean Citadel": {
 				"UnlocksArea": true
 			},
-			"Evil Bob Tribute": {
-				"UnlocksArea": true
-			},
-			"Armadyl's Citadel": {
-				"UnlocksArea": true
-			},
-			"Barrows Graveyard": {
-				"UnlocksArea": true
-			},
-			"Myreque Hideout": {
-				"UnlocksArea": true
-			},
-			"Crypt of Vanarus": {
+			"Crypt of Varanus": {
+				"Tasks": {
+					"Gain access to the ~|Orthen Dig Site|~": "Archaeology"
+				},
 				"UnlocksArea": true
 			},
 			"Observation Outpost": {
+				"Tasks": {
+					"Gain access to the ~|Orthen Dig Site|~": "Archaeology"
+				},
 				"UnlocksArea": true
 			},
 			"Xolo City": {
+				"Tasks": {
+					"Restore a ~|lingam stone|~": "Archaeology"
+				},
+				"Skills": {
+					"Hunter": 86
+				},
 				"UnlocksArea": true
 			},
 			"Moksha Ritual Site": {
+				"Tasks": {
+					"Activate the ~|Orthen teleportation device|~ at the Moksha ritual site": "Archaeology"
+				},
+				"Skills": {
+					"Runecrafting": 70
+				},
 				"UnlocksArea": true
 			},
-			"The Approach": {
+			"The Approach (Freneskae)": {
+				"Items": ["Sixth-Age circuit"],
 				"UnlocksArea": true
 			},
 			"Invention Guild": {
 				"UnlocksArea": true
 			},
-			"The Sanctum": {
+			"The Sanctum (Freneskae)": {
+				"Items": ["Sixth-Age circuit"],
 				"UnlocksArea": true
 			},
-			"The Pit": {
+			"The Pit (Freneskae)": {
+				"Items": ["Sixth-Age circuit"],
 				"UnlocksArea": true
 			},
-			"The Cradle": {
+			"The Cradle (Freneskae)": {
+				"Items": ["Sixth-Age circuit"],
 				"UnlocksArea": true
 			},
-			"The Elder Halls": {
-				"UnlocksArea": true
-			},
-			"Limbo": {
+			"The Elder Halls (Freneskae)": {
+				"Items": ["Sixth-Age circuit"],
 				"UnlocksArea": true
 			},
 			"Ashdale Caves": {
 				"UnlocksArea": true
 			},
-			"Ashdale Sewers": {
-				"UnlocksArea": true
-			},
 			"Kal'gerion Dungeon": {
-				"UnlocksArea": true
-			},
-			"Bandos' Arena on Yu'biusk": {
+				"Tasks": {
+					"Enter the ~|Kal'gerion resource dungeon|~": "Dungeoneering"
+				},
 				"UnlocksArea": true
 			},
 			"Araxyte lair": {
@@ -68558,7 +68982,7 @@
 			"Name": "Bandos's Sanctum"
 		},
 		"17": {
-			"Name": "Crypt of Vanarus"
+			"Name": "Crypt of Varanus"
 		},
 		"18": {
 			"Name": "Observation Outpost"
@@ -70242,7 +70666,7 @@
 			"Object": {
 				"Pinball post": 1
 			},
-			"Name": "Evil Bob Tribute"
+			"Name": "Mysterious Old Man's basement"
 		},
 		"5725": {
 			"Object": {
@@ -70897,7 +71321,7 @@
 			"NPC": {
 				"Mr%2E Mordaut": 1
 			},
-			"Name": "Mr Mordaut Tribute"
+			"Name": "Mr Mordaut's Office"
 		},
 		"6991": {
 			"Object": {
@@ -74838,7 +75262,6 @@
 				"Sliske": 1
 			},
 			"Connect": {
-				"10178": false,
 				"15713": true,
 				"16225": true,
 				"16226": true,
@@ -75943,12 +76366,6 @@
 				"Tree": 6
 			}
 		},
-		"9566": {
-			"Object": {
-				"Rope": 1
-			},
-			"Name": "Barrows Graveyard"
-		},
 		"9572": {
 			"Object": {
 				"Dead tree": 4,
@@ -76209,6 +76626,9 @@
 			"Object": {
 				"Gangplank": 1
 			},
+			"connect": {
+				"15465": true
+			},
 			"Nickname": "Ashdale cliff"
 		},
 		"9770": {
@@ -76224,6 +76644,9 @@
 				"Magda": 1,
 				"Herald": 1,
 				"Lucy": 1
+			},
+			"Connect": {
+				"15465": true
 			},
 			"Nickname": "Ashdale cave entrance"
 		},
@@ -78204,11 +78627,6 @@
 				"Mushroom cluster": 1
 			},
 			"Name": "The Arc"
-		},
-		"10178": {
-			"Connect": {
-				"9268": false
-			}
 		},
 		"10256": {
 			"Object": {
@@ -86683,6 +87101,7 @@
 			"Connect": {
 				"1546": true,
 				"5705": true,
+				"5706": true,
 				"10307": true,
 				"12438": true,
 				"13214": true
@@ -93568,7 +93987,7 @@
 			"NPC": {
 				"Sliske Mask": 5
 			},
-			"Name": "Armadyl's Citadel"
+			"Name": "Empyrean Citadel"
 		},
 		"14918": {
 			"Object": {
@@ -93584,7 +94003,7 @@
 				"Sliske Mask": 5,
 				"Relomia, Emissary of Sliske": 1
 			},
-			"Name": "Armadyl's Citadel"
+			"Name": "Empyrean Citadel"
 		},
 		"14921": {
 			"Object": {
@@ -94119,14 +94538,14 @@
 				"Zamorak": 1,
 				"Rift": 1
 			},
-			"Name": "Armadyl's Citadel"
+			"Name": "Empyrean Citadel"
 		},
 		"15175": {
 			"Object": {
 				"Shadow Caster": 4,
 				"Viewing panel": 1
 			},
-			"Name": "Armadyl's Citadel"
+			"Name": "Empyrean Citadel"
 		},
 		"15176": {
 			"Object": {
@@ -94144,7 +94563,7 @@
 			"Connect": {
 				"13366": true
 			},
-			"Name": "Armadyl's Citadel"
+			"Name": "Empyrean Citadel"
 		},
 		"15177": {
 			"Object": {
@@ -94687,7 +95106,7 @@
 			"Connect": {
 				"9268": true
 			},
-			"Name": "The Approach"
+			"Name": "The Approach (Freneskae)"
 		},
 		"15714": {
 			"Object": {
@@ -94695,7 +95114,7 @@
 				"Rock formation": 2,
 				"Cliffside": 2
 			},
-			"Name": "The Approach"
+			"Name": "The Approach (Freneskae)"
 		},
 		"15716": {
 			"Object": {
@@ -94940,7 +95359,7 @@
 				"Stepping stone": 2,
 				"Cliffside": 4
 			},
-			"Name": "The Approach"
+			"Name": "The Approach (Freneskae)"
 		},
 		"15970": {
 			"Object": {
@@ -94954,7 +95373,7 @@
 				"Cliffside": 2,
 				"Slope": 1
 			},
-			"Name": "The Approach"
+			"Name": "The Approach (Freneskae)"
 		},
 		"15972": {
 			"Object": {
@@ -95113,13 +95532,13 @@
 				"Memoriam device": 1,
 				"Memoriam crystal": 1
 			},
-			"Name": "The Sanctum"
+			"Name": "The Sanctum (Freneskae)"
 		},
 		"16226": {
 			"Object": {
 				"Memoriam crystal": 1
 			},
-			"Name": "The Pit"
+			"Name": "The Pit (Freneskae)"
 		},
 		"16229": {
 			"Object": {
@@ -95662,12 +96081,6 @@
 				"Solid crystal": 1
 			}
 		},
-		"16745": {
-			"Object": {
-				"Tunnel": 1
-			},
-			"Name": "Ashdale Sewers"
-		},
 		"16907": {
 			"Object": {
 				"Ancient statue": 1,
@@ -95781,7 +96194,7 @@
 				"Memoriam crystal": 1,
 				"Ledge": 2
 			},
-			"Name": "The Cradle"
+			"Name": "The Cradle (Freneskae)"
 		},
 		"16994": {
 			"Object": {
@@ -95792,13 +96205,13 @@
 				"Elder wisp": 13,
 				"Enriched elder wisp": 2
 			},
-			"Name": "The Elder Halls"
+			"Name": "The Elder Halls (Freneskae)"
 		},
 		"16995": {
 			"Object": {
 				"Fragmented sphere": 1
 			},
-			"Name": "The Elder Halls"
+			"Name": "The Elder Halls (Freneskae)"
 		},
 		"16996": {
 			"Object": {
@@ -96076,13 +96489,13 @@
 			"Object": {
 				"Fragmented sphere": 1
 			},
-			"Name": "The Elder Halls"
+			"Name": "The Elder Halls (Freneskae)"
 		},
 		"17251": {
 			"Object": {
 				"Fragmented sphere": 1
 			},
-			"Name": "The Elder Halls"
+			"Name": "The Elder Halls (Freneskae)"
 		},
 		"17252": {
 			"Object": {
@@ -101568,6 +101981,10 @@
 			"NPC": {
 				"Meg": 1
 			},
+			"Object": {
+				"Port workshop": 1,
+				"Scrimshaw Crafter": 1
+			},
 			"Connect": {
 				"12082": true
 			}
@@ -101743,7 +102160,8 @@
                 "Sandpit": 1,
                 "Wire": 1,
                 "Tools": 1,
-                "Forge": 1
+                "Forge": 1,
+				"Furnace (Dorgesh)": 1
 			},
 			"Connect": {
 				"9282": true,
@@ -102720,6 +103138,7 @@
 				"Mole display": 1
 			},
 			"Connect": {
+				"6990": true,
 				"12853": true
 			}
 		},
@@ -107617,19 +108036,23 @@
 				"9541": true
 			}
 		},
-		"Ritual of the Mahjarrat": {},
-		"A Void Dance": {},
-		"Mr Mordaut Tribute": {
+		"Mr Mordaut's Office": {
 			"NPC": {
 				"Mr%2E Mordaut": 1
+			},
+			"Connect": {
+				"6989": true
 			}
 		},
-		"Evil Bob Tribute": {
+		"Mysterious Old Man's basement": {
 			"Object": {
 				"Pinball post": 1
+			},
+			"Connect": {
+				"12339": true
 			}
 		},
-		"Armadyl's Citadel": {
+		"Empyrean Citadel": {
 			"Object": {
 				"Storage crates": 10,
 				"Gap": 1,
@@ -107686,13 +108109,7 @@
 				"13366": true
 			}
 		},
-		"Barrows Graveyard": {
-			"Object": {
-				"Rope": 1
-			}
-		},
-		"Myreque Hideout": {},
-		"Crypt of Vanarus": {
+		"Crypt of Varanus": {
 			"Objects": {
 				"Material cache (compass rose)": 1,
 				"Material cache (felt)": 1,
@@ -107738,7 +108155,7 @@
 				"16193": true
 			}
 		},
-		"The Approach": {
+		"The Approach (Freneskae)": {
 			"Object": {
 				"Ledge": 4,
 				"Memoriam crystal": 12,
@@ -107776,25 +108193,25 @@
 				"11829": true
 			}
 		},
-		"The Sanctum": {
+		"The Sanctum (Freneskae)": {
 			"Object": {
 				"Opening": 2,
 				"Memoriam device": 1,
 				"Memoriam crystal": 1
 			}
 		},
-		"The Pit": {
+		"The Pit (Freneskae)": {
 			"Object": {
 				"Memoriam crystal": 1
 			}
 		},
-		"The Cradle": {
+		"The Cradle (Freneskae)": {
 			"Object": {
 				"Memoriam crystal": 1,
 				"Ledge": 2
 			}
 		},
-		"The Elder Halls": {
+		"The Elder Halls (Freneskae)": {
 			"Object": {
 				"Fragmented sphere": 5,
 				"Rock face": 1
@@ -107804,7 +108221,6 @@
 				"Enriched elder wisp": 2
 			}
 		},
-		"Limbo": {},
 		"Ashdale Caves": {
 			"Object": {
 				"Dead smuggler": 1,
@@ -107819,11 +108235,10 @@
 			"Monster": {
 				"Crassian scout": 4,
 				"Crassian warrior": 3
-			}
-		},
-		"Ashdale Sewers": {
-			"Object": {
-				"Tunnel": 1
+			},
+			"Connect": {
+				"9769": true,
+				"9770": true
 			}
 		},
 		"Kal'gerion Dungeon": {
@@ -107832,14 +108247,6 @@
 			},
 			"Monster": {
 				"Kal'gerion demon": 13
-			}
-		},
-		"Bandos' Arena on Yu'biusk": {
-			"Spawn": {
-				"Broken glass": 8
-			},
-			"NPC": {
-				"Masterwork fanatic": 1
 			}
 		},
 		"Araxyte lair": {
@@ -113360,12 +113767,15 @@
 			"YakAttackChunks+": "Any chunk in which you can kill an ice troll of the Fremennik Isles"
 			},
 		"objectsPlus": {
+			"Anvil+": ["Anvil", "Tri-Anvil"],
 			"Cooking object+": ["Fire", "Cooking range", "Cooking range+", "Clay oven", "Campfire", "Fireplace", "Stove", "Cooking pot", "Sulphur pit", "Player fire"],
 			"Cooking range+": ["Cooking range", "Cooking range+", "Stove", "Clay oven"],
+			"CraftingFurnace+": ["Furnace", "Furnace (Dorgesh)"],
 			"CurePatch+": ["Allotment", "Flower patch", "Herb patch", "Tree patch", "Fruit tree patch", "Hops patch", "Bush patch"],
 			"FarmingPatch+": ["Allotment", "Flower patch", "Herb patch", "Potato patch", "Hops patch", "Bush patch", "Tree patch", "Fruit tree patch", "Mushroom patch", "Cactus patch", "Spirit tree patch", "Evil turnip patch", "Nightshade patch", "Calquat patch", "Elder tree patch", "Crystal tree patch", "Vine herb patch", "Vine bush patch", "Vine flower patch", "Fertile soil (patch)", "Money tree patch", "Jade vine patch"],
 			"Fire+": ["Fire", "Fireplace", "Player fire", "Campfire"],
 			"Fish+": ["Fishing spot (minnow)", "Fishing spot (crayfish)", "Fishing spot (small fishing net, bait)"],
+			"Furnace+": ["Furnace", "Lava Furnace"],
 			"Haystack+": ["Haystack", "Hay bale"],
 			"Ore+": ["Copper rock", "Tin rock", "Common gem rock", "Feldip swamp rock", "Clay rock", "Rune essence rock"],
 			"PotatoPatch+": ["Allotment", "Potato patch"],
@@ -113375,12 +113785,15 @@
 			"WaterObject+": ["Sink", "Fountain", "Waterpump", "Water barrel", "Well", "Large Geyser", "Water trough"]
 		},
 		"objectsPlusNames": {
+			"Anvil+": ["Any anvil you can forge on"],
 			"Cooking object+": "Any object that counts for cooking",
 			"Cooking range+": "Any object that counts as a range for cooking",
-			"CurePatch+": ["Allotment", "Flower patch", "Herb patch", "Tree patch", "Fruit tree patch", "Hops patch", "Bush patch"],
+			"CraftingFurnace+": ["Any furnace you can smelt jewelry in"],
+			"CurePatch+": ["Any patch that the cure spell can be cast on"],
 			"FarmingPatch+": "Any farming patch",
 			"Fire+": "Any fire that can be cooked on",
 			"Fish+": "Any level 1 fishing spot",
+			"Furnace+": ["Any furnace that can smelt bars"],
 			"Haystack+": "Any object that can fill an empty sack with hay",
 			"Ore+": "Any level 1 mining object",
 			"PotatoPatch+": "Any patch where potatoes can be planted",
@@ -169419,9 +169832,6 @@
 			"Ring of stone": {
 				"1": "1/5000"
 			},
-			"Raw cavefish": {
-				"1": "Very rare"
-			},
 			"Starved ancient effigy": {
 				"1": "Very rare"
 			},
@@ -184455,6 +184865,11 @@
 				"Myre snelm (round)": "Always",
 				"Ochre snelm (pointed)": "Always",
 				"Ochre snelm (round)": "Always"
+			},
+			"DeathLotusArmour": {
+				"Death Lotus hood": "Always",
+				"Death Lotus chestplate": "Always",
+				"Death Lotus chaps": "Always"
 			}
 		},
 		"Divination": {
@@ -187668,6 +188083,15 @@
 			"WallasalkibaneAmmo": {
 				"Wallasalkibane arrowheads": "Always",
 				"Wallasalkibane bolts (unf)": "Always" 
+			},
+			"TetsuArmour": {
+				"Tetsu helm": "Always",
+				"Tetsu body": "Always",
+				"Tetsu platelegs": "Always"
+			},
+			"TetsuWeapon": {
+				"Tetsu wakizashi": "Always",
+				"Tetsu katana": "Always"
 			},
 			"UnfinishedMasterwork": {
 				"Unfinished masterwork boots": "Always",
