@@ -1148,25 +1148,25 @@
 				"Priority": 9
 			},
 			"Feed a ~|starved ancient effigy|~ with agility": {
-				"Items": ["Starved ancient effigy (agility/crafting)"],
+				"Items": ["Starved ancient effigy (agility%2gcrafting)"],
 				"Level": 91,
 				"Primary": false,
 				"Priority": 1
 			},
 			"Feed a ~|nourished ancient effigy|~ with agility": {
-				"Items": ["Nourished ancient effigy (agility/crafting)"],
+				"Items": ["Nourished ancient effigy (agility%2gcrafting)"],
 				"Level": 93,
 				"Primary": false,
 				"Priority": 1
 			},
 			"Feed a ~|sated ancient effigy|~ with agility": {
-				"Items": ["Sated ancient effigy (agility/crafting)"],
+				"Items": ["Sated ancient effigy (agility%2gcrafting)"],
 				"Level": 95,
 				"Primary": false,
 				"Priority": 1
 			},
 			"Feed a ~|gorged ancient effigy|~ with agility": {
-				"Items": ["Gorged ancient effigy (agility/crafting)"],
+				"Items": ["Gorged ancient effigy (agility%2gcrafting)"],
 				"Level": 97,
 				"Primary": false,
 				"Priority": 1
@@ -13459,7 +13459,7 @@
 				"Priority": 1
 			},			
 			"Feed a ~|starved ancient effigy|~ with construction": {
-				"Items": ["Starved ancient effigy (construction/thieving)"],
+				"Items": ["Starved ancient effigy (construction%2gthieving)"],
 				"Level": 91,
 				"Primary": false,
 				"Priority": 2
@@ -13489,7 +13489,7 @@
 				"Priority": 3
 			},
 			"Feed a ~|nourished ancient effigy|~ with construction": {
-				"Items": ["Nourished ancient effigy (construction/thieving)"],
+				"Items": ["Nourished ancient effigy (construction%2gthieving)"],
 				"Level": 93,
 				"Primary": false,
 				"Priority": 1
@@ -13558,7 +13558,7 @@
 				"Priority": 4
 			},
 			"Feed a ~|sated ancient effigy|~ with construction": {
-				"Items": ["Sated ancient effigy (construction/thieving)"],
+				"Items": ["Sated ancient effigy (construction%2gthieving)"],
 				"Level": 95,
 				"Primary": false,
 				"Priority": 5
@@ -13595,7 +13595,7 @@
 				"Priority": 2
 			},
 			"Feed a ~|gorged ancient effigy|~ with construction": {
-				"Items": ["Gorged ancient effigy (construction/thieving)"],
+				"Items": ["Gorged ancient effigy (construction%2gthieving)"],
 				"Level": 97,
 				"Primary": false,
 				"Priority": 3
@@ -16565,25 +16565,25 @@
 				"Priority": 8
 			},
 			"Feed a ~|starved ancient effigy|~ with cooking": {
-				"Items": ["Starved ancient effigy (cooking/firemaking)"],
+				"Items": ["Starved ancient effigy (cooking%2gfiremaking)"],
 				"Level": 91,
 				"Primary": false,
 				"Priority": 6
 			},
 			"Feed a ~|nourished ancient effigy|~ with cooking": {
-				"Items": ["Nourished ancient effigy (cooking/firemaking)"],
+				"Items": ["Nourished ancient effigy (cooking%2gfiremaking)"],
 				"Level": 93,
 				"Primary": false,
 				"Priority": 4
 			},
 			"Feed a ~|sated ancient effigy|~ with cooking": {
-				"Items": ["Sated ancient effigy (cooking/firemaking)"],
+				"Items": ["Sated ancient effigy (cooking%2gfiremaking)"],
 				"Level": 95,
 				"Primary": false,
 				"Priority": 9
 			},
 			"Feed a ~|gorged ancient effigy|~ with cooking": {
-				"Items": ["Gorged ancient effigy (cooking/firemaking)"],
+				"Items": ["Gorged ancient effigy (cooking%2gfiremaking)"],
 				"Level": 97,
 				"Primary": false,
 				"Priority": 1
@@ -20349,25 +20349,25 @@
 				"Priority": 12
 			},
 			"Feed a ~|starved ancient effigy|~ with crafting": {
-				"Items": ["Starved ancient effigy (agility/crafting)"],
+				"Items": ["Starved ancient effigy (agility%2gcrafting)"],
 				"Level": 91,
 				"Primary": false,
 				"Priority": 6
 			},
 			"Feed a ~|nourished ancient effigy|~ with crafting": {
-				"Items": ["Nourished ancient effigy (agility/crafting)"],
+				"Items": ["Nourished ancient effigy (agility%2gcrafting)"],
 				"Level": 93,
 				"Primary": false,
 				"Priority": 9
 			},
 			"Feed a ~|sated ancient effigy|~ with crafting": {
-				"Items": ["Sated ancient effigy (agility/crafting)"],
+				"Items": ["Sated ancient effigy (agility%2gcrafting)"],
 				"Level": 95,
 				"Primary": false,
 				"Priority": 1
 			},
 			"Feed a ~|gorged ancient effigy|~ with crafting": {
-				"Items": ["Gorged ancient effigy (agility/crafting)"],
+				"Items": ["Gorged ancient effigy (agility%2gcrafting)"],
 				"Level": 97,
 				"Primary": false,
 				"Priority": 1
@@ -28690,25 +28690,25 @@
 				"Priority": 6
 			},
 			"Feed a ~|starved ancient effigy|~ with farming": {
-				"Items": ["Starved ancient effigy (farming/fishing)"],
+				"Items": ["Starved ancient effigy (farming%2gfishing)"],
 				"Level": 91,
 				"Primary": false,
 				"Priority": 3
 			},
 			"Feed a ~|nourished ancient effigy|~ with farming": {
-				"Items": ["Nourished ancient effigy (farming/fishing)"],
+				"Items": ["Nourished ancient effigy (farming%2gfishing)"],
 				"Level": 93,
 				"Primary": false,
 				"Priority": 2
 			},
 			"Feed a ~|sated ancient effigy|~ with farming": {
-				"Items": ["Sated ancient effigy (farming/fishing)"],
+				"Items": ["Sated ancient effigy (farming%2gfishing)"],
 				"Level": 95,
 				"Primary": false,
 				"Priority": 3
 			},
 			"Feed a ~|gorged ancient effigy|~ with farming": {
-				"Items": ["Gorged ancient effigy (farming/fishing)"],
+				"Items": ["Gorged ancient effigy (farming%2gfishing)"],
 				"Level": 97,
 				"Primary": false,
 				"Priority": 7
@@ -31383,25 +31383,25 @@
 				"Priority": 9
 			},
 			"Feed a ~|starved ancient effigy|~ with firemaking": {
-				"Items": ["Starved ancient effigy (cooking/firemaking)"],
+				"Items": ["Starved ancient effigy (cooking%2gfiremaking)"],
 				"Level": 91,
 				"Primary": false,
 				"Priority": 4
 			},
 			"Feed a ~|nourished ancient effigy|~ with firemaking": {
-				"Items": ["Nourished ancient effigy (cooking/firemaking)"],
+				"Items": ["Nourished ancient effigy (cooking%2gfiremaking)"],
 				"Level": 93,
 				"Primary": false,
 				"Priority": 1
 			},
 			"Feed a ~|sated ancient effigy|~ with firemaking": {
-				"Items": ["Sated ancient effigy (cooking/firemaking)"],
+				"Items": ["Sated ancient effigy (cooking%2gfiremaking)"],
 				"Level": 95,
 				"Primary": false,
 				"Priority": 11
 			},
 			"Feed a ~|gorged ancient effigy|~ with firemaking": {
-				"Items": ["Gorged ancient effigy (cooking/firemaking)"],
+				"Items": ["Gorged ancient effigy (cooking%2gfiremaking)"],
 				"Level": 97,
 				"Primary": false,
 				"Priority": 1
@@ -32245,25 +32245,25 @@
 				"Priority": 2
 			},
 			"Feed a ~|starved ancient effigy|~ with fishing": {
-				"Items": ["Starved ancient effigy (farming/fishing)"],
+				"Items": ["Starved ancient effigy (farming%2gfishing)"],
 				"Level": 91,
 				"Primary": false,
 				"Priority": 3
 			},
 			"Feed a ~|nourished ancient effigy|~ with fishing": {
-				"Items": ["Nourished ancient effigy (farming/fishing)"],
+				"Items": ["Nourished ancient effigy (farming%2gfishing)"],
 				"Level": 93,
 				"Primary": false,
 				"Priority": 2
 			},
 			"Feed a ~|sated ancient effigy|~ with fishing": {
-				"Items": ["Sated ancient effigy (farming/fishing)"],
+				"Items": ["Sated ancient effigy (farming%2gfishing)"],
 				"Level": 95,
 				"Primary": false,
 				"Priority": 2
 			},
 			"Feed a ~|gorged ancient effigy|~ with fishing": {
-				"Items": ["Gorged ancient effigy (farming/fishing)"],
+				"Items": ["Gorged ancient effigy (farming%2gfishing)"],
 				"Level": 97,
 				"Primary": false,
 				"Priority": 3
@@ -34225,25 +34225,25 @@
 				"Priority": 1
 			},
 			"Feed a ~|starved ancient effigy|~ with fletching": {
-				"Items": ["Starved ancient effigy (fetching/woodcutting)"],
+				"Items": ["Starved ancient effigy (fetching%2gwoodcutting)"],
 				"Level": 91,
 				"Primary": false,
 				"Priority": 2
 			},
 			"Feed a ~|nourished ancient effigy|~ with fletching": {
-				"Items": ["Starved ancient effigy (fetching/woodcutting)"],
+				"Items": ["Starved ancient effigy (fetching%2gwoodcutting)"],
 				"Level": 93,
 				"Primary": false,
 				"Priority": 4
 			},
 			"Feed a ~|sated ancient effigy|~ with fletching": {
-				"Items": ["Starved ancient effigy (fetching/woodcutting)"],
+				"Items": ["Starved ancient effigy (fetching%2gwoodcutting)"],
 				"Level": 95,
 				"Primary": false,
 				"Priority": 22
 			},
 			"Feed a ~|gorged ancient effigy|~ with fletching": {
-				"Items": ["Starved ancient effigy (fetching/woodcutting)"],
+				"Items": ["Starved ancient effigy (fetching%2gwoodcutting)"],
 				"Level": 97,
 				"Primary": false,
 				"Priority": 2
@@ -36745,25 +36745,25 @@
 				"Priority": 3
 			},
 			"Feed a ~|starved ancient effigy|~ with herblore": {
-				"Items": ["Starved ancient effigy (herblore/hunter)"],
+				"Items": ["Starved ancient effigy (herblore%2ghunter)"],
 				"Level": 91,
 				"Primary": false,
 				"Priority": 8
 			},
 			"Feed a ~|nourished ancient effigy|~ with herblore": {
-				"Items": ["Starved ancient effigy (herblore/hunter)"],
+				"Items": ["Starved ancient effigy (herblore%2ghunter)"],
 				"Level": 93,
 				"Primary": false,
 				"Priority": 11
 			},
 			"Feed a ~|sated ancient effigy|~ with herblore": {
-				"Items": ["Starved ancient effigy (herblore/hunter)"],
+				"Items": ["Starved ancient effigy (herblore%2ghunter)"],
 				"Level": 95,
 				"Primary": false,
 				"Priority": 3
 			},
 			"Feed a ~|gorged ancient effigy|~ with herblore": {
-				"Items": ["Starved ancient effigy (herblore/hunter)"],
+				"Items": ["Starved ancient effigy (herblore%2ghunter)"],
 				"Level": 97,
 				"Primary": false,
 				"Priority": 4
@@ -38939,25 +38939,25 @@
 				"Priority": 1
 			},
 			"Feed a ~|starved ancient effigy|~ with hunter": {
-				"Items": ["Starved ancient effigy (herblore/hunter)"],
+				"Items": ["Starved ancient effigy (herblore%2ghunter)"],
 				"Level": 91,
 				"Primary": false,
 				"Priority": 4
 			},
 			"Feed a ~|nourished ancient effigy|~ with hunter": {
-				"Items": ["Starved ancient effigy (herblore/hunter)"],
+				"Items": ["Starved ancient effigy (herblore%2ghunter)"],
 				"Level": 93,
 				"Primary": false,
 				"Priority": 1
 			},
 			"Feed a ~|sated ancient effigy|~ with hunter": {
-				"Items": ["Starved ancient effigy (herblore/hunter)"],
+				"Items": ["Starved ancient effigy (herblore%2ghunter)"],
 				"Level": 95,
 				"Primary": false,
 				"Priority": 14
 			},
 			"Feed a ~|gorged ancient effigy|~ with hunter": {
-				"Items": ["Starved ancient effigy (herblore/hunter)"],
+				"Items": ["Starved ancient effigy (herblore%2ghunter)"],
 				"Level": 97,
 				"Primary": false,
 				"Priority": 2
@@ -43006,25 +43006,25 @@
 				"Priority": 1
 			},
 			"Feed a ~|starved ancient effigy|~ with mining": {
-				"Items": ["Starved ancient effigy (mining/smithing)"],
+				"Items": ["Starved ancient effigy (mining%2gsmithing)"],
 				"Level": 91,
 				"Primary": false,
 				"Priority": 1
 			},
 			"Feed a ~|nourished ancient effigy|~ with mining": {
-				"Items": ["Starved ancient effigy (mining/smithing)"],
+				"Items": ["Starved ancient effigy (mining%2gsmithing)"],
 				"Level": 93,
 				"Primary": false,
 				"Priority": 1
 			},
 			"Feed a ~|sated ancient effigy|~ with mining": {
-				"Items": ["Starved ancient effigy (mining/smithing)"],
+				"Items": ["Starved ancient effigy (mining%2gsmithing)"],
 				"Level": 95,
 				"Primary": false,
 				"Priority": 1
 			},
 			"Feed a ~|gorged ancient effigy|~ with mining": {
-				"Items": ["Starved ancient effigy (mining/smithing)"],
+				"Items": ["Starved ancient effigy (mining%2gsmithing)"],
 				"Level": 97,
 				"Primary": false,
 				"Priority": 2
@@ -47902,25 +47902,25 @@
 				"Priority": 6
 			},
 			"Feed a ~|starved ancient effigy|~ with runecrafting": {
-				"Items": ["Starved ancient effigy (runecrafting/summoning)"],
+				"Items": ["Starved ancient effigy (runecrafting%2gsummoning)"],
 				"Level": 91,
 				"Primary": false,
 				"Priority": 2
 			},
 			"Feed a ~|nourished ancient effigy|~ with runecrafting": {
-				"Items": ["Starved ancient effigy (runecrafting/summoning)"],
+				"Items": ["Starved ancient effigy (runecrafting%2gsummoning)"],
 				"Level": 93,
 				"Primary": false,
 				"Priority": 3
 			},
 			"Feed a ~|sated ancient effigy|~ with runecrafting": {
-				"Items": ["Starved ancient effigy (runecrafting/summoning)"],
+				"Items": ["Starved ancient effigy (runecrafting%2gsummoning)"],
 				"Level": 95,
 				"Primary": false,
 				"Priority": 3
 			},
 			"Feed a ~|gorged ancient effigy|~ with runecrafting": {
-				"Items": ["Starved ancient effigy (runecrafting/summoning)"],
+				"Items": ["Starved ancient effigy (runecrafting%2gsummoning)"],
 				"Level": 97,
 				"Primary": false,
 				"Priority": 1
@@ -51011,25 +51011,25 @@
 				"Priority": 1
 			},
 			"Feed a ~|starved ancient effigy|~ with smithing": {
-				"Items": ["Starved ancient effigy (mining/smithing)"],
+				"Items": ["Starved ancient effigy (mining%2gsmithing)"],
 				"Level": 91,
 				"Primary": false,
 				"Priority": 1
 			},
 			"Feed a ~|nourished ancient effigy|~ with smithing": {
-				"Items": ["Starved ancient effigy (mining/smithing)"],
+				"Items": ["Starved ancient effigy (mining%2gsmithing)"],
 				"Level": 93,
 				"Primary": false,
 				"Priority": 1
 			},
 			"Feed a ~|sated ancient effigy|~ with smithing": {
-				"Items": ["Starved ancient effigy (mining/smithing)"],
+				"Items": ["Starved ancient effigy (mining%2gsmithing)"],
 				"Level": 95,
 				"Primary": false,
 				"Priority": 1
 			},
 			"Feed a ~|gorged ancient effigy|~ with smithing": {
-				"Items": ["Starved ancient effigy (mining/smithing)"],
+				"Items": ["Starved ancient effigy (mining%2gsmithing)"],
 				"Level": 97,
 				"Primary": false,
 				"Priority": 1
@@ -53705,25 +53705,25 @@
 				"Priority": 9
 			},
 			"Feed a ~|starved ancient effigy|~ with summoning": {
-				"Items": ["Starved ancient effigy (runecrafting/summoning)"],
+				"Items": ["Starved ancient effigy (runecrafting%2gsummoning)"],
 				"Level": 91,
 				"Primary": false,
 				"Priority": 1
 			},
 			"Feed a ~|nourished ancient effigy|~ with summoning": {
-				"Items": ["Starved ancient effigy (runecrafting/summoning)"],
+				"Items": ["Starved ancient effigy (runecrafting%2gsummoning)"],
 				"Level": 93,
 				"Primary": false,
 				"Priority": 3
 			},
 			"Feed a ~|sated ancient effigy|~ with summoning": {
-				"Items": ["Starved ancient effigy (runecrafting/summoning)"],
+				"Items": ["Starved ancient effigy (runecrafting%2gsummoning)"],
 				"Level": 95,
 				"Primary": false,
 				"Priority": 4
 			},
 			"Feed a ~|gorged ancient effigy|~ with summoning": {
-				"Items": ["Starved ancient effigy (runecrafting/summoning)"],
+				"Items": ["Starved ancient effigy (runecrafting%2gsummoning)"],
 				"Level": 97,
 				"Primary": false,
 				"Priority": 1
@@ -54567,25 +54567,25 @@
 				"Priority": 2
 			},
 			"Feed a ~|starved ancient effigy|~ with thieving": {
-				"Items": ["Starved ancient effigy (construction/thieving)"],
+				"Items": ["Starved ancient effigy (construction%2gthieving)"],
 				"Level": 91,
 				"Primary": false,
 				"Priority": 4
 			},
 			"Feed a ~|nourished ancient effigy|~ with thieving": {
-				"Items": ["Nourished ancient effigy (construction/thieving)"],
+				"Items": ["Nourished ancient effigy (construction%2gthieving)"],
 				"Level": 93,
 				"Primary": false,
 				"Priority": 2
 			},
 			"Feed a ~|sated ancient effigy|~ with thieving": {
-				"Items": ["Sated ancient effigy (construction/thieving)"],
+				"Items": ["Sated ancient effigy (construction%2gthieving)"],
 				"Level": 95,
 				"Primary": false,
 				"Priority": 2
 			},
 			"Feed a ~|gorged ancient effigy|~ with thieving": {
-				"Items": ["Gorged ancient effigy (construction/thieving)"],
+				"Items": ["Gorged ancient effigy (construction%2gthieving)"],
 				"Level": 97,
 				"Primary": false,
 				"Priority": 2
@@ -55469,25 +55469,25 @@
 				"Priority": 2
 			},
 			"Feed a ~|starved ancient effigy|~ with woodcutting": {
-				"Items": ["Starved ancient effigy (fetching/woodcutting)"],
+				"Items": ["Starved ancient effigy (fetching%2gwoodcutting)"],
 				"Level": 91,
 				"Primary": false,
 				"Priority": 1
 			},
 			"Feed a ~|nourished ancient effigy|~ with woodcutting": {
-				"Items": ["Starved ancient effigy (fetching/woodcutting)"],
+				"Items": ["Starved ancient effigy (fetching%2gwoodcutting)"],
 				"Level": 93,
 				"Primary": false,
 				"Priority": 1
 			},
 			"Feed a ~|sated ancient effigy|~ with woodcutting": {
-				"Items": ["Starved ancient effigy (fetching/woodcutting)"],
+				"Items": ["Starved ancient effigy (fetching%2gwoodcutting)"],
 				"Level": 95,
 				"Primary": false,
 				"Priority": 1
 			},
 			"Feed a ~|gorged ancient effigy|~ with woodcutting": {
-				"Items": ["Starved ancient effigy (fetching/woodcutting)"],
+				"Items": ["Starved ancient effigy (fetching%2gwoodcutting)"],
 				"Level": 97,
 				"Primary": false,
 				"Priority": 2
