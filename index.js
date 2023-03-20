@@ -467,7 +467,7 @@ let rulePresets = {
         "Smithing by Smelting": true,
         "Rare Drop Amount": "0",
 		"Ogleroot": true,
-		"Gnomeball" true,
+		"Gnomeball": true,
     },
     "Xtreme Chunker": {
         "Skillcape": true,
@@ -514,7 +514,7 @@ let rulePresets = {
 		"Swordy": true,
 		"Vinesweeper": true,
 		"Ogleroot": true,
-		"Gnomeball" true,
+		"Gnomeball": true,
 		"Daemonheim training": true,
     },
     "Supreme Chunker": {
