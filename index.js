@@ -132,8 +132,8 @@ var rulesPanelVis = {
     herblore: false,
     hunter: false,
     magic: false,
-    mining: false,
     prayer: false,
+	ranged: false,
     runecraft: false,
     slayer: false,
     smithing: false,
@@ -627,7 +627,7 @@ let ruleStructure = {
     "Hunter": {
         "Puro-Puro": ["Extra implings"],
         "Wandering implings": true,
-		"Ogleroot": true,
+		"Ogleroot": true
     },
     "Magic": {
         "Spells": ["Combat and Teleport Spells", "PVP-Only Spells"],
