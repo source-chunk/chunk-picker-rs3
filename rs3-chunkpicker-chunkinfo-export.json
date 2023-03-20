@@ -169,7 +169,7 @@
 				"Priority": 3
 			},
 			"Play a game of ~|Gnome ball|~": {
-				"Category": ["Minigame"],
+				"Category": ["Gnomeball"],
 				"Chunks": ["9526"],
 				"Level": 1,
 				"Primary": true,
@@ -6610,6 +6610,15 @@
 				"Primary": false,
 				"Priority": 21
 			},
+			"Train attack in ~|Daemonheim|~": {
+				"Category": ["Daemonheim training"],
+				"Tasks": {
+					"Unlock ~|frozen floors|~": "Dungeoneering"
+				},
+				"Level": 1,
+				"Primary": true,
+				"Priority": 22
+			},
 			"Wield a ~|keenblade|~": {
 				"Items": ["Keenblade"],
 				"Level": 5,
@@ -7773,6 +7782,15 @@
 			}
 		},
 		"Constitution": {
+			"Train constitution in ~|Daemonheim|~": {
+				"Category": ["Daemonheim training"],
+				"Tasks": {
+					"Unlock ~|frozen floors|~": "Dungeoneering"
+				},
+				"Level": 1,
+				"Primary": true,
+				"Priority": 1
+			},
 			"Use a ~|portent of restoration I|~": {
 				"Items": ["Portent of restoration I"],
 				"Level": 10,
@@ -9985,6 +10003,15 @@
 				"Level": 25,
 				"Primary": false,
 				"Priority": 4
+			},
+			"Train construction in ~|Daemonheim|~": {
+				"Category": ["Daemonheim training"],
+				"Tasks": {
+					"Unlock ~|frozen floors|~": "Dungeoneering"
+				},
+				"Level": 25,
+				"Primary": true,
+				"Priority": 5
 			},
 			"Build an ~|oak armchair|~": {
 				"Category": ["InsidePOH Primary"],
@@ -14307,6 +14334,15 @@
 				"Output": "Decorated cooking urn",
 				"Primary": true,
 				"Priority": 68
+			},
+			"Train cooking in ~|Daemonheim|~": {
+				"Category": ["Daemonheim training"],
+				"Tasks": {
+					"Unlock ~|frozen floors|~": "Dungeoneering"
+				},
+				"Level": 1,
+				"Primary": true,
+				"Priority": 69
 			},
 			"Make ~|chocolatey milk|~": {
 				"Items": ["Bucket of milk*", "Chocolate dust*"],
@@ -20481,6 +20517,15 @@
 				"Primary": true,
 				"Priority": 34
 			},
+			"Train crafting in ~|Daemonheim|~": {
+				"Category": ["Daemonheim training"],
+				"Tasks": {
+					"Unlock ~|frozen floors|~": "Dungeoneering"
+				},
+				"Level": 1,
+				"Primary": true,
+				"Priority": 35
+			},
 			"Buy the ~|Max cape|~": {
 				"Tasks": {
 					"Complete the ~|Archaeology tutorial|~": "Archaeology"
@@ -22558,6 +22603,15 @@
 				"Primary": true,
 				"Priority": 14
 			},
+			"Train defence in ~|Daemonheim|~": {
+				"Category": ["Daemonheim training"],
+				"Tasks": {
+					"Unlock ~|frozen floors|~": "Dungeoneering"
+				},
+				"Level": 1,
+				"Primary": true,
+				"Priority": 15
+			},
 			"Buy the ~|Max cape|~": {
 				"Tasks": {
 					"Complete the ~|Archaeology tutorial|~": "Archaeology"
@@ -22761,6 +22815,15 @@
 				"Primary": true,
 				"Priority": 10
 			},
+			"Train divination in ~|Daemonheim|~": {
+				"Category": ["Daemonheim training"],
+				"Tasks": {
+					"Unlock ~|frozen floors|~": "Dungeoneering"
+				},
+				"Level": 1,
+				"Primary": true,
+				"Priority": 11
+			},
 			"Harvest a ~|flickering wisp|~": {
 				"Chunks": ["11829"],
 				"Level": 10,
@@ -22845,13 +22908,6 @@
 				"Primary": true,
 				"Priority": 1
 			},
-			"Harvest a ~|cursed wisp|~": {
-				"NPCs": ["Cursed wisp"],
-				"Level": 1,
-				"Output": "Cursed energy",
-				"Primary": true,
-				"Priority": 2
-			},
 			"Harvest ~|positive energy|~": {
 				"Chunks": ["The Arc"],
 				"Level": 90,
@@ -22873,90 +22929,6 @@
 				"Output": "Ancestral energy",
 				"Primary": true,
 				"Priority": 2
-			},
-			"Convert ~|cursed energy|~ into pale energy": {
-				"Items": ["Cursed energy*"],
-				"Level": 1,
-				"Output": "Pale energy",
-				"Primary": false,
-				"Priority": 3
-			},
-			"Convert ~|cursed energy|~ into flickering energy": {
-				"Items": ["Cursed energy*"],
-				"Level": 10,
-				"Output": "Flickering energy",
-				"Primary": false,
-				"Priority": 2
-			},
-			"Convert ~|cursed energy|~ into bright energy": {
-				"Items": ["Cursed energy*"],
-				"Level": 20,
-				"Output": "Bright energy",
-				"Primary": false,
-				"Priority": 2
-			},
-			"Convert ~|cursed energy|~ into glowing energy": {
-				"Items": ["Cursed energy*"],
-				"Level": 30,
-				"Output": "Glowing energy",
-				"Primary": false,
-				"Priority": 2
-			},
-			"Convert ~|cursed energy|~ into sparkling energy": {
-				"Items": ["Cursed energy*"],
-				"Level": 40,
-				"Output": "Sparkling energy",
-				"Primary": false,
-				"Priority": 2
-			},
-			"Convert ~|cursed energy|~ into gleaming energy": {
-				"Items": ["Cursed energy*"],
-				"Level": 50,
-				"Output": "Gleaming energy",
-				"Primary": false,
-				"Priority": 2
-			},
-			"Convert ~|cursed energy|~ into vibrant energy": {
-				"Items": ["Cursed energy*"],
-				"Level": 60,
-				"Output": "Vibrant energy",
-				"Primary": false,
-				"Priority": 2
-			},
-			"Convert ~|cursed energy|~ into lustrous energy": {
-				"Items": ["Cursed energy*"],
-				"Level": 70,
-				"Output": "Lustrous energy",
-				"Primary": false,
-				"Priority": 2
-			},
-			"Convert ~|cursed energy|~ into brilliant energy": {
-				"Items": ["Cursed energy*"],
-				"Level": 80,
-				"Output": "Brilliant energy",
-				"Primary": false,
-				"Priority": 2
-			},
-			"Convert ~|cursed energy|~ into radiant energy": {
-				"Items": ["Cursed energy*"],
-				"Level": 85,
-				"Output": "Radiant energy",
-				"Primary": false,
-				"Priority": 2
-			},
-			"Convert ~|cursed energy|~ into luminous energy": {
-				"Items": ["Cursed energy*"],
-				"Level": 90,
-				"Output": "Luminous energy",
-				"Primary": false,
-				"Priority": 4
-			},
-			"Convert ~|cursed energy|~ into incandescent energy": {
-				"Items": ["Cursed energy*"],
-				"Level": 95,
-				"Output": "Incandescent energy",
-				"Primary": false,
-				"Priority": 3
 			},
 			"Create a ~|boon of flickering energy|~": {
 				"Items": ["Flickerboon+*"],
@@ -25757,6 +25729,15 @@
 				"Output": "Decorated farming urn",
 				"Primary": true,
 				"Priority": 59
+			},
+			"Train farming in ~|Daemonheim|~": {
+				"Category": ["Daemonheim training"],
+				"Tasks": {
+					"Unlock ~|frozen floors|~": "Dungeoneering"
+				},
+				"Level": 1,
+				"Primary": true,
+				"Priority": 61
 			},
 			"Grow ~|marigolds|~": {
 				"Category": ["Normal Farming"],
@@ -29709,6 +29690,15 @@
 				"Primary": true,
 				"Priority": 11
 			},
+			"Train firemaking in ~|Daemonheim|~": {
+				"Category": ["Daemonheim training"],
+				"Tasks": {
+					"Unlock ~|frozen floors|~": "Dungeoneering"
+				},
+				"Level": 1,
+				"Primary": true,
+				"Priority": 12
+			},
 			"Light ~|candle latern (white)|~": {
 				"Items": ["Candle latern (white)"],
 				"Level": 4,
@@ -31739,6 +31729,15 @@
 				"Primary": true,
 				"Priority": 12
 			},
+			"Train fishing in ~|Daemonheim|~": {
+				"Category": ["Daemonheim training"],
+				"Tasks": {
+					"Unlock ~|frozen floors|~": "Dungeoneering"
+				},
+				"Level": 1,
+				"Primary": true,
+				"Priority": 13
+			},
 			"Catch a ~|raw shrimp|~ in the holy lake": {
 				"Level": 5,
 				"Objects": ["Fishing spot (karambwanji)"],
@@ -32625,6 +32624,15 @@
 				"Output": "Shortbow",
 				"Primary": true,
 				"Priority": 5
+			},
+			"Train fletching in ~|Daemonheim|~": {
+				"Category": ["Daemonheim training"],
+				"Tasks": {
+					"Unlock ~|frozen floors|~": "Dungeoneering"
+				},
+				"Level": 1,
+				"Primary": true,
+				"Priority": 6
 			},
 			"Fletch ~|ogre arrow shafts|~": {
 				"Items": ["Achey tree logs*"],
@@ -34648,6 +34656,15 @@
 				"Output": "Neem oil",
 				"Primary": true,
 				"Priority": 4
+			},
+			"Train herblore in ~|Daemonheim|~": {
+				"Category": ["Daemonheim training"],
+				"Tasks": {
+					"Unlock ~|frozen floors|~": "Dungeoneering"
+				},
+				"Level": 3,
+				"Primary": true,
+				"Priority": 6
 			},
 			"Mix an ~|attack mix|~": {
 				"Items": ["AttackPotion+*", "Roe*"],
@@ -37216,6 +37233,15 @@
 				"Primary": true,
 				"Priority": 15
 			},
+			"Train hunter in ~|Daemonheim|~": {
+				"Category": ["Daemonheim training"],
+				"Tasks": {
+					"Unlock ~|frozen floors|~": "Dungeoneering"
+				},
+				"Level": 1,
+				"Primary": true,
+				"Priority": 16
+			},
 			"Catch a ~|common kebbit|~": {
 				"Chunks": ["9271"],
 				"Level": 3,
@@ -39580,6 +39606,15 @@
 				"Level": 1,
 				"Primary": false,
 				"Priority": 12
+			},
+			"Train magic in ~|Daemonheim|~": {
+				"Category": ["Daemonheim training"],
+				"Tasks": {
+					"Unlock ~|frozen floors|~": "Dungeoneering"
+				},
+				"Level": 1,
+				"Primary": true,
+				"Priority": 13
 			},
 			"Cast ~|enchant crossbow bolt (opal)|~": {
 				"Category": ["Spells"],
@@ -43118,6 +43153,15 @@
 				"Primary": true,
 				"Priority": 16
 			},
+			"Train mining in ~|Daemonheim|~": {
+				"Category": ["Daemonheim training"],
+				"Tasks": {
+					"Unlock ~|frozen floors|~": "Dungeoneering"
+				},
+				"Level": 1,
+				"Primary": true,
+				"Priority": 17
+			},
 			"Mine a ~|divine iron rock|~": {
 				"Items": ["Divine iron rock"],
 				"Level": 10,
@@ -44438,6 +44482,15 @@
 				"Primary": true,
 				"Priority": 56
 			},
+			"Train prayer in ~|Daemonheim|~": {
+				"Category": ["Daemonheim training"],
+				"Tasks": {
+					"Unlock ~|frozen floors|~": "Dungeoneering"
+				},
+				"Level": 1,
+				"Primary": true,
+				"Priority": 57
+			},
 			"Wield a ~|superior ancient mace|~": {
 				"Items": ["Superior ancient mace"],
 				"Level": 60,
@@ -44627,7 +44680,8 @@
 				"Skills": {
 					"Strength": 60,
 					"Agility": 60
-				}
+				},
+				"Priority": 1
 			},
 			"Complete a lap of the ~|Dorgesh-Kaan agility course|~ grapple route": {
 				"Chunks": ["Dorgesh-Kaan Agility course"],
@@ -44637,15 +44691,18 @@
 				"Skills": {
 					"Strength": 80,
 					"Agility": 80
-				}
+				},
+				"Priority": 1
 			},
 			"Play a game of ~|Gnome ball|~": {
+				"Category": ["Gnomeball"],
 				"Chunks": ["9526"],
 				"Level": 1,
 				"Primary": true,
 				"Skills": {
 					"Agility": 1
-				}
+				},
+				"Priority": 1
 			},
 			"Cross the ~|strong tree (Lumbridge%2GAl Kharid)|~": {
 				"Category": ["Shortcut"],
@@ -44656,7 +44713,8 @@
 				"Skills": {
 					"Strength": 17,
 					"Agility": 8
-				}
+				},
+				"Priority": 1
 			},
 			"Cross the ~|wall (Falador)|~": {
 				"Category": ["Shortcut"],
@@ -44667,7 +44725,8 @@
 				"Skills": {
 					"Strength": 37,
 					"Agility": 11
-				}
+				},
+				"Priority": 1
 			},
 			"Cross the ~|rocks (Catherby)|~": {
 				"Category": ["Shortcut"],
@@ -44678,7 +44737,8 @@
 				"Skills": {
 					"Strength": 35,
 					"Agility": 32
-				}
+				},
+				"Priority": 1
 			},
 			"Cross the ~|grapple column|~": {
 				"Category": ["Shortcut"],
@@ -44689,7 +44749,8 @@
 				"Skills": {
 					"Strength": 22,
 					"Agility": 36
-				}
+				},
+				"Priority": 1
 			},
 			"Cross the ~|wall (Yanille)|~": {
 				"Category": ["Shortcut"],
@@ -44700,7 +44761,8 @@
 				"Skills": {
 					"Strength": 38,
 					"Agility": 39
-				}
+				},
+				"Priority": 1
 			},
 			"Cross the ~|strong tree (Karamja)|~": {
 				"Category": ["Shortcut"],
@@ -44711,7 +44773,8 @@
 				"Skills": {
 					"Strength": 21,
 					"Agility": 53
-				}
+				},
+				"Priority": 1
 			},
 			"Equip a ~|feather headdress (blue)|~": {
 				"Items": ["Feather headdress (blue)"],
@@ -44982,6 +45045,15 @@
 				"Level": 1,
 				"Primary": false,
 				"Priority": 21
+			},
+			"Train ranged in ~|Daemonheim|~": {
+				"Category": ["Daemonheim training"],
+				"Tasks": {
+					"Unlock ~|frozen floors|~": "Dungeoneering"
+				},
+				"Level": 1,
+				"Primary": true,
+				"Priority": 22
 			},
 			"Wield a ~|quickbow|~": {
 				"Items": ["Quickbow"],
@@ -47747,6 +47819,15 @@
 				"Primary": true,
 				"Priority": 16
 			},
+			"Train runecrafting in ~|Daemonheim|~": {
+				"Category": ["Daemonheim training"],
+				"Tasks": {
+					"Unlock ~|frozen floors|~": "Dungeoneering"
+				},
+				"Level": 1,
+				"Primary": true,
+				"Priority": 17
+			},
 			"Craft an ~|imphide book|~": {
 				"Items": ["Imphide*", "Thread*"],
 				"Level": 10,
@@ -49941,6 +50022,15 @@
 				"Primary": true,
 				"Priority": 8
 			},
+			"Train smithing in ~|Daemonheim|~": {
+				"Category": ["Daemonheim training"],
+				"Tasks": {
+					"Unlock ~|frozen floors|~": "Dungeoneering"
+				},
+				"Level": 1,
+				"Primary": true,
+				"Priority": 9
+			},
 			"Forge a ~|bronze hasta|~": {
 				"Items": ["Bronze bar*", "Logs*"],
 				"Level": 5,
@@ -51588,6 +51678,15 @@
 				"Primary": true,
 				"Priority": 1
 			},
+			"Train strength in ~|Daemonheim|~": {
+				"Category": ["Daemonheim training"],
+				"Tasks": {
+					"Unlock ~|frozen floors|~": "Dungeoneering"
+				},
+				"Level": 1,
+				"Primary": true,
+				"Priority": 2
+			},
 			"Buy the ~|Max cape|~": {
 				"Tasks": {
 					"Complete the ~|Archaeology tutorial|~": "Archaeology"
@@ -52587,6 +52686,15 @@
 				"Output": "Spirit wolf scroll (howl)",
 				"Primary": true,
 				"Priority": 2
+			},
+			"Train summoning in ~|Daemonheim|~": {
+				"Category": ["Daemonheim training"],
+				"Tasks": {
+					"Unlock ~|frozen floors|~": "Dungeoneering"
+				},
+				"Level": 1,
+				"Primary": true,
+				"Priority": 3
 			},
 			"Create a ~|dreadfowl scroll (dreadfowl strike)|~": {
 				"Items": ["Dreadfowl pouch*"],
@@ -54811,6 +54919,15 @@
 				"Primary": true,
 				"Priority": 8
 			},
+			"Train thieving in ~|Daemonheim|~": {
+				"Category": ["Daemonheim training"],
+				"Tasks": {
+					"Unlock ~|frozen floors|~": "Dungeoneering"
+				},
+				"Level": 1,
+				"Primary": true,
+				"Priority": 9
+			},
 			"Enter a tier one ~|Shifting Tombs|~": {
 				"Chunks": ["8300"],
 				"Level": 50,
@@ -55422,6 +55539,15 @@
 				"Output": "Decorated Woodcutting urn",
 				"Primary": true,
 				"Priority": 11
+			},
+			"Train woodcutting in ~|Daemonheim|~": {
+				"Category": ["Daemonheim training"],
+				"Tasks": {
+					"Unlock ~|frozen floors|~": "Dungeoneering"
+				},
+				"Level": 1,
+				"Primary": true,
+				"Priority": 12
 			},
 			"Chop a ~|divine oak tree|~": {
 				"Items": ["Divine oak tree"],
@@ -88234,9 +88360,6 @@
 			"Monster": {
 				"Greater demon": 9
 			},
-			"NPC": {
-				"Cursed wisp": 4
-			},
 			"Nickname": "South-East Wilderness Volcano"
 		},
 		"12602": {
@@ -88245,10 +88368,6 @@
 			},
 			"Monster": {
 				"Ankou": 7
-			},
-			"NPC": {
-				"Cursed wisp": 9,
-				"Enriched cursed wisp": 1
 			},
 			"Nickname": "North-East Wilderness Volcano"
 		},

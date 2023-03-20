@@ -375,6 +375,8 @@ let rules = {
 	"Swordy": false,
 	"Vinesweeper": false,
 	"Ogleroot": false,
+	"Gnomeball": false,
+	"Daemonheim training": false,
 };                                                                              // List of rules and their on/off state
 
 let ruleNames = {
@@ -442,6 +444,8 @@ let ruleNames = {
 	"Swordy": "Must obtain Swordy McSwordFace from Bossy McBossFace in The Shadow Reef <span class='rule-asterisk noscroll'>*</span>",
 	"Vinesweeper": "Allow Vinesweeper to count as primary training for training Farming <span class='rule-asterisk noscroll'>*</span>",
 	"Ogleroot": "Allow Vinesweeper to count as primary training for training hunter",
+	"Gnomeball": "Allow playing gnomeball to count a primary training method for agility and ranged",
+	"Daemonheim training": "Allow training methods in Daemonheim to count as primary training methods<span class='rule-asterisk noscroll'>*</span>",
 };                                                                              // List of rule definitions
 
 let rulePresets = {
@@ -463,6 +467,7 @@ let rulePresets = {
         "Smithing by Smelting": true,
         "Rare Drop Amount": "0",
 		"Ogleroot": true,
+		"Gnomeball" true,
     },
     "Xtreme Chunker": {
         "Skillcape": true,
@@ -509,6 +514,8 @@ let rulePresets = {
 		"Swordy": true,
 		"Vinesweeper": true,
 		"Ogleroot": true,
+		"Gnomeball" true,
+		"Daemonheim training": true,
     },
     "Supreme Chunker": {
         "Skillcape": true,
@@ -563,6 +570,8 @@ let rulePresets = {
 		"Swordy": true,
 		"Vinesweeper": true,
 		"Ogleroot": true,
+		"Gnomeball" true,
+		"Daemonheim training": true,
     }
 };                                                                              // List of rules that are part of each preset
 
@@ -587,6 +596,7 @@ let ruleStructure = {
         "Wield Crafted Items": true,
         "Secondary Primary": true,
         "Quest Skill Reqs": true,
+		"Daemonheim training": true,
 		"Token": true
     },
     "Agility": {
@@ -626,6 +636,9 @@ let ruleStructure = {
     "Prayer": {
         "Prayers": true
     },
+	"Ranged": {
+		"Gnomeball": true
+	},
     "Runecrafting": {
         "Pouch": true
     },
