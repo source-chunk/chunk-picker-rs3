@@ -16738,7 +16738,7 @@
 				"Primary": true,
 				"Priority": 8
 			},
-			"Make a ~|Moray %26 edicap potato|~": {
+			"Make a ~|Moray & edicap potato|~": {
 				"Category": ["Daemonheim tasks"],
 				"Tasks": {
 					"Unlock ~|frozen floors|~": "Dungeoneering"
