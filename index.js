@@ -570,7 +570,7 @@ let rulePresets = {
 		"Swordy": true,
 		"Vinesweeper": true,
 		"Ogleroot": true,
-		"Gnomeball" true,
+		"Gnomeball": true,
 		"Daemonheim training": true,
     }
 };                                                                              // List of rules that are part of each preset
