@@ -85395,6 +85395,9 @@
 				"Mining instructor": 1,
 				"Brother Brace": 1
 			},
+			"Monster": {
+				"Mogre": 5
+			},
 			"Connect": {
 				"9541": true
 			},
