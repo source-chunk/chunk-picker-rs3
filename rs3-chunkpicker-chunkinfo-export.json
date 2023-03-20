@@ -8789,6 +8789,14 @@
 				"Not Equip": true,
 				"Priority": 10
 			},
+			"Enter the ~|Crondis tomb|~": {
+				"Chunks": ["13097"],
+				"Level": 80,
+				"Primary": false,
+				"Not Equip": true,
+				"Priority": 11
+				
+			},
 			"Get the full amount of healing from ~|sea turtles|~": {
 				"Items": ["Sea turtle"],
 				"Level": 82,
@@ -10292,6 +10300,16 @@
 				"Primary": true,
 				"Priority": 11
 			},
+			"Build the tier 1 ~|kitchen (Fort Forinthry)|~": {
+				"Tasks": {
+					"Build the stone wall around ~|Fort Forinthry|~ in chunk 13111": "Construction",
+					"Build the stone wall around ~|Fort Forinthry|~ in chunk 13367": "Construction"
+				},
+				"Items": ["Oak frame*", "Stone wall segment*"],
+				"Level": 30,
+				"Primary": true,
+				"Priority": 12
+			},
 			"Build a ~|carved oak table|~": {
 				"Category": ["InsidePOH Primary"],
 				"Chunks": ["Player-owned house"],
@@ -11591,6 +11609,15 @@
 				"Level": 55,
 				"Primary": false,
 				"Priority": 6
+			},
+			"Build the tier 2 ~|kitchen (Fort Forinthry)|~": {
+				"Tasks": {
+					"Build the tier 1 ~|kitchen (Fort Forinthry)|~": "Construction"
+				},
+				"Items": ["Teak frame*", "Stone wall segment*"],
+				"Level": 55,
+				"Primary": true,
+				"Priority": 7
 			},
 			"Build a ~|fancy teak dresser|~": {
 				"Category": ["InsidePOH Primary"],
@@ -13544,6 +13571,15 @@
 				"Level": 92,
 				"Primary": true,
 				"Priority": 3
+			},
+			"Build the tier 3 ~|kitchen (Fort Forinthry)|~": {
+				"Tasks": {
+					"Build the tier 2 ~|kitchen (Fort Forinthry)|~": "Construction"
+				},
+				"Items": ["Mahogany frame*", "Stone wall segment*"],
+				"Level": 92,
+				"Primary": true,
+				"Priority": 4
 			},
 			"Feed a ~|nourished ancient effigy|~ with construction": {
 				"Items": ["Nourished ancient effigy (construction%2Gthieving)"],
@@ -32158,6 +32194,12 @@
 				"Output": " Swarm fishing",
 				"Primary": true,
 				"Priority": 3
+			},
+			"Enter the ~|fishing guild|~": {
+				"Chunks": ["10292"],
+				"Level": 68,
+				"Primary": true,
+				"Priority": 4
 			},
 			"Catch a ~|raw beltfish|~": {
 				"Items": ["Fishing bait"],
@@ -66710,32 +66752,32 @@
 				"Label": "Boss Pets",
 				"Items": ["Telos' tendril"]
 			},
-			"(Temple of Amanishi) Obtain a ~|fishy treat|~": {
+			"(Temple of Aminishi) Obtain a ~|fishy treat|~": {
 				"Category": ["Collection Log", "Boss Collection Log"],
 				"Label": "Boss Collection Log",
 				"Items": ["Fishy treat"]
 			},
-			"(Temple of Amanishi) Obtain the ~|Crassian Allegiance|~": {
+			"(Temple of Aminishi) Obtain the ~|Crassian Allegiance|~": {
 				"Category": ["Collection Log", "Boss Collection Log"],
 				"Label": "Boss Collection Log",
 				"Items": ["Crassian Allegiance"]
 			},
-			"(Temple of Amanishi) Obtain ~|Masuta's warspear|~": {
+			"(Temple of Aminishi) Obtain ~|Masuta's warspear|~": {
 				"Category": ["Collection Log", "Boss Collection Log"],
 				"Label": "Boss Collection Log",
 				"Items": ["Masuta's warspear"]
 			},
-			"(Temple of Amanishi) Obtain ~|Himiko's Vision|~": {
+			"(Temple of Aminishi) Obtain ~|Himiko's Vision|~": {
 				"Category": ["Collection Log", "Boss Collection Log"],
 				"Label": "Boss Collection Log",
 				"Items": ["Himiko's Vision"]
 			},
-			"(Temple of Amanishi) Obtain an ~|ancient scale|~": {
+			"(Temple of Aminishi) Obtain an ~|ancient scale|~": {
 				"Category": ["Collection Log", "Boss Collection Log"],
 				"Label": "Boss Collection Log",
 				"Items": ["Ancient scale"]
 			},
-			"(Temple of Amanishi) Obtain ~|Kuroryu|~": {
+			"(Temple of Aminishi) Obtain ~|Kuroryu|~": {
 				"Category": ["Collection Log", "Boss Collection Log", "Pets"],
 				"Label": "Boss Pets",
 				"Items": ["Chipped black stone crystal"]
@@ -67945,20 +67987,10 @@
 				"Items": ["Ring of Charos"],
 				"UnlocksArea": true
 			},
-			"Port Phasmatys Distillery": {
-				"UnlocksArea": true
-			},
 			"Ectofuntus": {
 				"UnlocksArea": true
 			},
 			"Meiyerditch Myreque base": {
-				"UnlocksArea": true
-			},
-			"Citharede Abbey basement": {
-				"UnlocksArea": true
-			},
-			"Dwarf tunnel": {
-				"Chunks": ["10549", "10550"],
 				"UnlocksArea": true
 			},
 			"Legends' Guild Dungeon": {
@@ -68138,9 +68170,6 @@
 			"Tears Of Guthix cavern": {
 				"UnlocksArea": true
 			},
-			"Temple Of Ikov": {
-				"UnlocksArea": true
-			},
 			"Lunar Isle Mine": {
 				"UnlocksArea": true
 			},
@@ -68233,19 +68262,16 @@
 			"Fight Cauldron": {
 				"UnlocksArea": true
 			},
-			"Silverlight Crypt": {
-				"UnlocksArea": true
-			},
-			"Zamorakian Crypt": {
-				"UnlocksArea": true
-			},
 			"Gorajo resource dungeon": {
+				"Tasks": {
+					"Enter the ~|Gorajo resource dungeon|~": "Dungeoneering"
+				},
 				"UnlocksArea": true
 			},
 			"Edimmu Dungeon": {
-				"UnlocksArea": true
-			},
-			"Sliske's Vault": {
+				"Tasks": {
+					"Enter the ~|Edimmu resource dungeon|~": "Dungeoneering"
+				},
 				"UnlocksArea": true
 			},
 			"New Varrock": {
@@ -68263,16 +68289,7 @@
 			"Mazcab": {
 				"UnlocksArea": true
 			},
-			"Nemi forest clearing": {
-				"UnlocksArea": true
-			},
-			"Capture Square": {
-				"UnlocksArea": true
-			},
-			"Wyverns": {
-				"UnlocksArea": true
-			},
-			"Ripper Demons": {
+			"Ripper Demon Cave": {
 				"UnlocksArea": true
 			},
 			"Guthixian Cache": {
@@ -68284,49 +68301,36 @@
 			"Sunken Tutorial Island cavern": {
 				"UnlocksArea": true
 			},
-			"Nomad's Fortress": {
-				"UnlocksArea": true
-			},
 			"Tarddiad": {
+				"Items": ["Sixth-Age circuit"],
 				"UnlocksArea": true
 			},
 			"The Heart": {
 				"UnlocksArea": true
 			},
+			"Crondis Tomb": {
+				"Tasks": {
+					"Enter the ~|Crondis tomb|~": "Constitution"
+				},
+				"UnlocksArea": true
+			},
 			"The Arc": {
-				"UnlocksArea": true
-			},
-			"RuneFest Treasure Island": {
-				"UnlocksArea": true
-			},
-			"North Falador": {
-				"UnlocksArea": true
-			},
-			"Shattered Worlds": {
-				"UnlocksArea": true
-			},
-			"Easter": {
+				"Chunks": ["11826", "12081"],
 				"UnlocksArea": true
 			},
 			"Shifting tombs": {
-				"UnlocksArea": true
-			},
-			"Sunken pyramid": {
+				"Tasks": {
+					"Enter a tier one ~|Shifting Tombs|~": "Agility"	
+				},
 				"UnlocksArea": true
 			},
 			"Deep Sea Fishing Hub": {
-				"UnlocksArea": true
-			},
-			"Tutorial Island": {
-				"UnlocksArea": true
-			},
-			"Underwater Area": {
+				"Tasks": {
+					"Enter the ~|fishing guild|~": "Fishing"
+				},
 				"UnlocksArea": true
 			},
 			"Hall of Memories": {
-				"UnlocksArea": true
-			},
-			"Aminishi Dungeon": {
 				"UnlocksArea": true
 			},
 			"Empty Throne Room": {
@@ -68335,31 +68339,28 @@
 			"Ice troll cave": {
 				"UnlocksArea": true
 			},
-			"Varrock Dig Site dungeon": {
-				"UnlocksArea": true
-			},
-			"Meiyerditch Daeyalt Mine": {
+			"Meiyerditch Mine": {
 				"UnlocksArea": true
 			},
 			"Tarshak's Sanctum": {
-				"UnlocksArea": true
-			},
-			"Tutorial Island Underground": {
 				"UnlocksArea": true
 			},
 			"The Shadow Reef": {
 				"UnlocksArea": true
 			},
 			"Slayer Tower Resource Dungeon": {
-				"UnlocksArea": true
-			},
-			"Burthorpe underground": {
+				"Tasks": {
+					"Enter the ~|Morytania Slayer Tower resource dungeon|~": "Dungeoneering"
+				},
 				"UnlocksArea": true
 			},
 			"Enakhra's Temple": {
 				"UnlocksArea": true
 			},
 			"Kharid-Et Main Fortress": {
+				"Tasks": {
+					"Clear the ~|fort debris|~ outside Kharid-et": "Archaeology"
+				},
 				"UnlocksArea": true
 			},
 			"Kharid-Et Prison": {
@@ -68368,28 +68369,10 @@
 			"Kharid-Et Praetorium": {
 				"UnlocksArea": true
 			},
-			"Dig Site: Everlight": {
-				"UnlocksArea": true
-			},
-			"Dig Site: Infernal Source": {
-				"UnlocksArea": true
-			},
-			"Dig Site: Stormguard - Howl's Workshop": {
-				"UnlocksArea": true
-			},
-			"Dig Site: Stormguard Citadel": {
-				"UnlocksArea": true
-			},
-			"Dig Site: Warforge": {
-				"UnlocksArea": true
-			},
-			"Dig Site: Orthen": {
-				"UnlocksArea": true
-			},
 			"Orthen Oubliette": {
 				"UnlocksArea": true
 			},
-			"Senntisten Colosseum": {
+			"Lair of the Rex Matriarchs": {
 				"UnlocksArea": true
 			},
 			"Temple of Aminishi": {
@@ -68399,15 +68382,15 @@
 				"UnlocksArea": true
 			},
 			"War's Retreat": {
+				"Tasks": {
+					"Get access to ~|War's retreat|~": "Combat"
+				},
 				"UnlocksArea": true
 			},
 			"Dorgesh-Kaan Agility course": {
 				"UnlocksArea": true
 			},
 			"Dragonkin Lair": {
-				"UnlocksArea": true
-			},
-			"King's Ransom Jail": {
 				"UnlocksArea": true
 			},
 			"Create a super explosive shaker*": {
@@ -69335,6 +69318,9 @@
 		}
 	},
 	"chunks": {
+		"1": {
+			"Name": "Lair of the Rex Matriarchs"
+		},
 		"2": {
 			"Name": "Kharid-Et Main Fortress"
 		},
@@ -72163,31 +72149,6 @@
 			},
 			"Nickname": "North-West Lost Grove"
 		},
-		"7490": {
-			"Object": {
-				"Sir Palomedes": 1,
-				"Sir Lucan": 1,
-				"Sir Lancelot": 1,
-				"Vent": 1,
-				"Sir Tristram": 1
-			},
-			"Monster": {
-				"Rat": 3,
-				"Renegade knight": 2
-			},
-			"NPC": {
-				"Arthur": 1,
-				"Merlin": 1,
-				"Sir Pelleas": 1,
-				"Sir Gawain": 1,
-				"Sir Kay": 1,
-				"Guard": 1
-			},
-			"Connect": {
-				"12087": true
-			},
-			"Name": "King's Ransom Jail"
-		},
 		"7492": {
 			"Object": {
 				"Rocks": 1
@@ -72846,6 +72807,9 @@
 				"Alfrick the Planner": 1,
 				"Freya Lune": 1,
 				"Fisherman": 1
+			},
+			"Connect": {
+				"5441": true
 			},
 			"Nickname": "V's island"
 		},
@@ -74802,7 +74766,8 @@
 			"Connect": {
 				"4956": true,
 				"13097": true
-			}
+			},
+			"Name": "Crondis Tomb"
 		},
 		"8811": {
 			"Object": {
@@ -74925,6 +74890,9 @@
 				"Myself": 1,
 				"Death": 1,
 				"A memory": 1
+			},
+			"Connect": {
+				"23130": true
 			},
 			"Nickname": "Incandescent wisp colony"
 		},
@@ -75208,7 +75176,7 @@
 				"Meiyerditch miner": 5,
 				"Juvinate guard": 4
 			},
-			"Name": "Meiyerditch Daeyalt Mine"
+			"Name": "Meiyerditch Mine"
 		},
 		"9033": {
 			"Object": {
@@ -76255,7 +76223,8 @@
 				"Zanik": 1
 			},
 			"Connect": {
-				"13": true
+				"13": true,
+				"23130": true
 			},
 			"Nickname": "The Warforge"
 		},
@@ -81284,6 +81253,9 @@
 			"Shop": {
 				"Ignatius's Hot Deals": true
 			},
+			"Connect": {
+				"23130": true
+			},
 			"Nickname": "Sorcerer's Tower"
 		},
 		"10806": {
@@ -82518,7 +82490,8 @@
 			},
 			"Connect": {
 				"9541": true,
-				"11164": true
+				"11164": true,
+				"23130": true
 			},
 			"Shop": {
 				"Golden fleece": true
@@ -84254,6 +84227,9 @@
 				"Gecko": 2,
 				"Gleaming wisp": 6
 			},
+			"Connect": {
+				"23130": true
+			},
 			"Nickname": "Karamjan Idol"
 		},
 		"11568": {
@@ -84610,6 +84586,7 @@
 				"6473": true,
 				"8774": true,
 				"11418": true,
+				"11674": true,
 				"14167": true
 			},
 			"Shop": {
@@ -85136,7 +85113,8 @@
 			"Monster": {
 				"Giant bat": 5,
 				"Blue dragon": 1
-			}
+			},
+			"Name": "Heroes' Guild mine"
 		},
 		"11675": {
 			"Monster": {
@@ -85756,6 +85734,7 @@
 				"10307": true,
 				"11927": true,
 				"12127": true,
+				"23130": true,
 				"24592": true
 			},
 			"Shop": {
@@ -87049,12 +87028,9 @@
 				"Hobgoblin": 7
 			},
 			"Connect": {
-				"5190": true
+				"20597": true
 			},
 			"Name": "Asgarnian Ice Dungeon"
-		},
-		"12182": {
-			"Name": "Living Wyvern Cavern"
 		},
 		"12183": {
 			"Object": {
@@ -87346,7 +87322,8 @@
 				"8025": true,
 				"9541": true,
 				"11595": true,
-				"15710": true
+				"15710": true,
+				"21004": true
 			},
 			"Spawn": {
 				"Logs": 3,
@@ -89558,7 +89535,8 @@
 			},
 			"Connect": {
 				"6989": true,
-				"11595": true
+				"11595": true,
+				"15246": true
 			},
 			"Spawn": {
 				"Empty pot": 1,
@@ -90148,7 +90126,8 @@
 				"Portmaster Kags": 1
 			},
 			"Connect": {
-				"8809": true
+				"8809": true,
+				"23130": true
 			},
 			"Nickname": "South of Sophanem"
 		},
@@ -90606,7 +90585,8 @@
 				"Guard (Varrock)": 4
 			},
 			"Connect": {
-				"13209": true
+				"13209": true,
+				"23130": true
 			},
 			"Spawn": {
 				"Jug": 1,
@@ -90685,7 +90665,7 @@
 				"Material storage container": 1,
 				"Invetion Machines": 1,
 				"Invention workbench": 1,
-				"Bank chest": 3,
+				"Bank chest": 4,
 				"Fort Forinthry blueprints": 1,
 				"Trap door": 1,
 				"Ornate Stairs": 2,
@@ -90693,7 +90673,9 @@
 				"Research notes": 1,
 				"Ports Table": 1,
 				"Anachronia Table": 1,
-				"Miscellania Table": 1
+				"Miscellania Table": 1,
+				"Range": 1,
+				"Sink": 1
 			},
 			"NPC": {
 				"Copperpot": 1,
@@ -90701,7 +90683,9 @@
 				"Zoe": 1,
 				"Aster": 1,
 				"Father Flint": 1,
-				"Overseer Siv": 1
+				"Overseer Siv": 1,
+				"Bianca": 1,
+				"Rodney": 1
 			},
 			"Shop": {
 				"Construction Supplies (Fort Forinthry)": true
@@ -91785,19 +91769,6 @@
 			},
 			"Name": "Water Ravine Dungeon"
 		},
-		"13464": {
-			"Object": {
-				"Sacks": 10,
-				"Silver rock": 6
-			},
-			"Monster": {
-				"Skeleton": 10
-			},
-			"NPC": {
-				"Doug Deeping": 1
-			},
-			"Name": "Varrock Dig Site dungeon"
-		},
 		"13468": {
 			"Object": {
 				"Pipe": 2,
@@ -92013,7 +91984,8 @@
 				"Bark Blamish Snail": 5
 			},
 			"Connect": {
-				"9541": true
+				"9541": true,
+				"23130": true
 			},
 			"Spawn": {
 				"Swamp tar": 9
@@ -92676,7 +92648,8 @@
 			},
 			"Connect": {
 				"13979": true,
-				"17787": true
+				"17787": true,
+				"23130": true
 			},
 			"Nickname": "Old Crone's Hut"
 		},
@@ -93195,12 +93168,6 @@
 				"Cave opening": 15
 			}
 		},
-		"14177": {
-			"Object": {
-				"Lever": 9
-			},
-			"Name": "Sliske's Vault"
-		},
 		"14178": {
 			"Object": {
 				"Stone of Jas": 1
@@ -93343,21 +93310,6 @@
 				"14135": true
 			},
 			"Name": "Experiment cave"
-		},
-		"14260": {
-			"Object": {
-				"Mainland portal": 1,
-				"Bank chest": 1,
-				"Camp fire": 1,
-				"Submerged Golden Gnome": 1,
-				"Golden Scythe": 1
-			},
-			"NPC": {
-				"Party Pete": 1,
-				"RuneFest dragonling": 1,
-				"The Kendal": 1
-			},
-			"Name": "RuneFest Treasure Island"
 		},
 		"14382": {
 			"Nickname": "Mos Le'Harmless Corner"
@@ -93511,6 +93463,9 @@
 				"Vyrelady": 8,
 				"Vyrelord": 9,
 				"Ranis Drakan": 1
+			},
+			"Connect": {
+				"9032": true
 			},
 			"Nickname": "Darkmeyer"
 		},
@@ -93952,23 +93907,6 @@
 		"14660": {
 			"Nickname": "Dinosaur Farm North"
 		},
-		"14665": {
-			"Object": {
-				"Furnace": 1,
-				"Copper rock": 5,
-				"Tin rock": 4,
-				"Anvil": 4,
-				"Forge": 1
-			},
-			"NPC": {
-				"Mining instructor": 1,
-				"Combat instructor": 1
-			},
-			"Monster": {
-				"Giant rat": 12
-			},
-			"Name": "Tutorial Island Underground"
-		},
 		"14671": {
 			"Object": {
 				"Pulley lift": 1,
@@ -94347,18 +94285,6 @@
 				"Bill Teach": 1
 			},
 			"Nickname": "The Adventerous"
-		},
-		"14913": {
-			"Object": {
-				"Tree": 2
-			},
-			"Name": "Tutorial Island"
-		},
-		"14914": {
-			"Object": {
-				"Tree": 5
-			},
-			"Name": "Tutorial Island"
 		},
 		"14915": {
 			"Nickname": "Dinosaur Farm Entrance"
@@ -94866,7 +94792,8 @@
 				"Enriched radiant wisp": 1
 			},
 			"Connect": {
-				"9053": true
+				"9053": true,
+				"23130": true
 			},
 			"Nickname": "Dragontooth Island"
 		},
@@ -95840,6 +95767,9 @@
 				"Bench": 60,
 				"Podium": 1
 			},
+			"Connect": {
+				"1": true
+			},
 			"Nickname": "Anachronia Spirit Grove"
 		},
 		"16196": {
@@ -96293,7 +96223,8 @@
 				"Noticeboard": 1
 			},
 			"Connect": {
-				"18": true
+				"18": true,
+				"22828": true
 			},
 			"Nickname": "Xolo City Ruins"
 		},
@@ -96921,13 +96852,13 @@
 				"Shimmering barrier": 1,
 				"Anchor": 1
 			},
-			"Name": "Underwater Area"
+			"Name": "The Shadow Reef"
 		},
 		"17259": {
 			"Object": {
 				"'Rum' barrel": 12
 			},
-			"Name": "Underwater Area"
+			"Name": "The Shadow Reef"
 		},
 		"17264": {
 			"Object": {
@@ -97149,7 +97080,7 @@
 			"Object": {
 				"Edge": 1
 			},
-			"Name": "Underwater Area"
+			"Name": "The Shadow Reef"
 		},
 		"17517": {
 			"Object": {
@@ -97371,39 +97302,6 @@
 			},
 			"Name": "Slayer Tower Mausoleum"
 		},
-		"17843": {
-			"Object": {
-				"Dead tree": 81,
-				"Dead apple tree": 3,
-				"Dead Barley": 4,
-				"Noticeboard": 1,
-				"Bank deposit box": 1
-			},
-			"Name": "North Falador"
-		},
-		"17844": {
-			"Object": {
-				"Dead tree": 4,
-				"Barrel": 3,
-				"Steps": 1,
-				"Stepping stone": 2
-			},
-			"Monster": {
-				"Troll": 12
-			},
-			"Name": "North Falador"
-		},
-		"17845": {
-			"Object": {
-				"Dead tree": 26,
-				"Well": 1,
-				"Altar of Guthix": 1
-			},
-			"Monster": {
-				"Troll": 12
-			},
-			"Name": "North Falador"
-		},
 		"17983": {
 			"Object": {
 				"Woodchip": 48,
@@ -97558,51 +97456,6 @@
 		"18063": {
 			"Name": "Temple of Aminishi"
 		},
-		"18099": {
-			"Object": {
-				"Dead tree": 14,
-				"Noticeboard": 1,
-				"Web": 4,
-				"Portcullis": 1,
-				"Tapestry": 6,
-				"Shelves": 1,
-				"Cliff": 1,
-				"Torch": 11,
-				"Camp fire": 1,
-				"Bonfire": 1
-			},
-			"NPC": {
-				"Sir Tiffy Cashien": 1
-			},
-			"Name": "North Falador"
-		},
-		"18100": {
-			"Object": {
-				"Dead tree": 34,
-				"Young tree": 2,
-				"Bush": 2,
-				"Dimensional portal": 1,
-				"Gunnarsgone": 1,
-				"Trolley and Trollthorpe": 1
-			},
-			"NPC": {
-				"Iron Doc": 1
-			},
-			"Name": "North Falador"
-		},
-		"18101": {
-			"Object": {
-				"Sacks": 1,
-				"Dead tree": 62,
-				"Mysterious ruins": 1,
-				"White tree": 1,
-				"Crate": 3,
-				"Chest": 1,
-				"Fire": 2,
-				"Chaos altar": 1
-			},
-			"Name": "North Falador"
-		},
 		"18239": {
 			"Object": {
 				"Loom": 32,
@@ -97692,13 +97545,6 @@
 			},
 			"Name": "TzHaar Caves"
 		},
-		"18279": {
-			"Object": {
-				"Tunnel": 1,
-				"Exit": 1
-			},
-			"Name": "Nomad's Fortress"
-		},
 		"18283": {
 			"Object": {
 				"Bank chest": 1,
@@ -97723,61 +97569,6 @@
 				"Gail": 1,
 				"Primrose": 1
 			}
-		},
-		"18355": {
-			"Object": {
-				"Dead tree": 18,
-				"Crates": 2,
-				"Noticeboard": 2,
-				"Drawers": 1,
-				"Workshop Plan": 2,
-				"Web": 3,
-				"Oak": 1,
-				"Torch": 54,
-				"Cooking range+": 1,
-				"Closed chest": 1,
-				"Tree": 2,
-				"Bank deposit box": 1,
-				"Anvil": 4
-			},
-			"Monster": {
-				"Guard": 3
-			},
-			"NPC": {
-				"Dwarf": 1
-			},
-			"Name": "North Falador"
-		},
-		"18356": {
-			"Object": {
-				"Dead tree": 33,
-				"Mysterious ruins": 1,
-				"New Varrock": 1,
-				"White Knights' Fortress": 1
-			},
-			"Monster": {
-				"Zombie": 16
-			},
-			"Name": "North Falador"
-		},
-		"18357": {
-			"Object": {
-				"Dead tree": 45,
-				"Altar": 1,
-				"Bloodwood tree": 1,
-				"Roses": 8,
-				"Cooking range+": 1,
-				"Crate": 3,
-				"Crates": 2,
-				"Bookcase": 5,
-				"Fountain": 4,
-				"Drawers": 6,
-				"Chest": 1,
-				"Edgeville Monastery, Wilderness": 1,
-				"Edgeville": 1,
-				"Ice Mountain, Dwarven Mine": 1
-			},
-			"Name": "North Falador"
 		},
 		"18496": {
 			"Object": {
@@ -98019,14 +97810,6 @@
 				"Tree": 60
 			}
 		},
-		"18535": {
-			"Object": {
-				"Underworld root": 2,
-				"Exit": 1,
-				"Underworld rock": 7
-			},
-			"Name": "Nomad's Fortress"
-		},
 		"18545": {
 			"Object": {
 				"Spear": 1,
@@ -98044,69 +97827,7 @@
 			"Object": {
 				"Altar": 1
 			},
-			"Name": "Aminishi Dungeon"
-		},
-		"18611": {
-			"Object": {
-				"Compost heap": 1,
-				"Fountain": 1,
-				"Lever": 1,
-				"Dead tree": 464,
-				"Gravestone": 1,
-				"Broken railing": 1,
-				"Candle sconce": 1
-			},
-			"Monster": {
-				"Giant spider": 2
-			},
-			"NPC": {
-				"Scout": 1
-			},
-			"Name": "North Falador"
-		},
-		"18612": {
-			"Object": {
-				"Closed chest": 2,
-				"Dead tree": 48
-			},
-			"Monster": {
-				"Goblin": 1
-			},
-			"Name": "North Falador"
-		},
-		"18613": {
-			"Object": {
-				"Dead tree": 32,
-				"Lever": 1,
-				"Stove": 2,
-				"Fairy ring": 1,
-				"Coffin": 5,
-				"Well": 1,
-				"Bank deposit box": 2,
-				"Crevice": 1,
-				"Small obelisk": 1,
-				"Willow": 2,
-				"Counter": 4,
-				"Sink": 1,
-				"Drawers": 7,
-				"Bookcase": 5,
-				"Clan Cup plaque": 2,
-				"Chest": 1
-			},
-			"Name": "North Falador"
-		},
-		"18700": {
-			"Object": {
-				"Stone fragment": 1
-			},
-			"NPC": {
-				"Ancient goebie": 1,
-				"Ancient carer": 2,
-				"Tunks": 1,
-				"Lunch": 1,
-				"Peck": 1
-			},
-			"Name": "Nemi forest clearing"
+			"Name": "Temple of Aminishi"
 		},
 		"18750": {
 			"Object": {
@@ -98276,7 +97997,7 @@
 			"Object": {
 				"Shackle Platform": 1
 			},
-			"Name": "Aminishi Dungeon"
+			"Name": "Temple of Aminishi"
 		},
 		"19006": {
 			"Object": {
@@ -98490,13 +98211,13 @@
 			"Object": {
 				"Shackle Platform": 1
 			},
-			"Name": "Aminishi Dungeon"
+			"Name": "Temple of Aminishi"
 		},
 		"19086": {
 			"Monster": {
 				"The Sanctum Guardian": 1
 			},
-			"Name": "Aminishi Dungeon"
+			"Name": "Temple of Aminishi"
 		},
 		"19213": {
 			"Object": {
@@ -99396,7 +99117,7 @@
 			"Monster": {
 				"Wyvern": 10
 			},
-			"Name": "Wyverns"
+			"Name": "Living Wyvern Cavern"
 		},
 		"20598": {
 			"Object": {
@@ -99408,7 +99129,7 @@
 			"Connect": {
 				"13361": true
 			},
-			"Name": "Ripper Demons"
+			"Name": "Ripper Demon Cave"
 		},
 		"20630": {
 			"Object": {
@@ -102488,6 +102209,10 @@
 			}
 		},
 		"Living Wyvern Cavern": {
+			"Object": {
+				"Exit": 1,
+				"Fire remains": 5
+			},
 			"Monster": {
 				"Wyvern": 15
 			},
@@ -106091,6 +105816,7 @@
 			},
 			"Connect": {
 				"4422": true,
+				"4673": true,
 				"10801": true,
 				"18014": true
 			},
@@ -107328,7 +107054,6 @@
 				"14134": true
 			}
 		},
-		"Port Phasmatys Distillery": {},
 		"Ectofuntus": {
 			"Object": {
 				"Pool of Slime": 78
@@ -107363,8 +107088,6 @@
 				"14386": true
 			}
 		},
-		"Citharede Abbey basement": {},
-		"Dwarf tunnel": {},
 		"Legends' Guild Dungeon": {
 			"Object": {
 				"Crate": 1,
@@ -107760,7 +107483,17 @@
 				"11312": true
 			}
 		},
-		"Heroes' Guild mine": {},
+		"Heroes' Guild mine": {
+			"Object": {
+				"Small obelisk": 1,
+				"Fountain of Heroes": 1,
+				"Drakolith rock": 17
+			},
+			"Monster": {
+				"Giant bat": 5,
+				"Blue dragon": 1
+			}
+		},
 		"Ice Queen's lair": {
 			"Object": {
 				"Small obelisk": 1
@@ -108337,7 +108070,6 @@
 				"12949": true
 			}
 		},
-		"Temple Of Ikov": {},
 		"Lunar Isle Mine": {
 			"Object": {
 				"Stalagmites": 5,
@@ -108584,17 +108316,26 @@
 				"Opening": 2,
 				"Memoriam device": 1,
 				"Memoriam crystal": 1
+			},
+			"Connect": {
+				"9268": true
 			}
 		},
 		"The Pit (Freneskae)": {
 			"Object": {
 				"Memoriam crystal": 1
+			},
+			"Connect": {
+				"9268": true
 			}
 		},
 		"The Cradle (Freneskae)": {
 			"Object": {
 				"Memoriam crystal": 1,
 				"Ledge": 2
+			},
+			"Connect": {
+				"9268": true
 			}
 		},
 		"The Elder Halls (Freneskae)": {
@@ -108605,6 +108346,10 @@
 			"NPC": {
 				"Elder wisp": 13,
 				"Enriched elder wisp": 2
+			},
+			"Connect": {
+				"9268": true,
+				"23130": true
 			}
 		},
 		"Ashdale Caves": {
@@ -108678,8 +108423,6 @@
 				"19024": true
 			}
 		},
-		"Silverlight Crypt": {},
-		"Zamorakian Crypt": {},
 		"Gorajo resource dungeon": {
 			"Object": {
 				"Deposit box": 1,
@@ -108709,11 +108452,6 @@
 			},
 			"Connect": {
 				"8757": true
-			}
-		},
-		"Sliske's Vault": {
-			"Object": {
-				"Lever": 9
 			}
 		},
 		"New Varrock": {
@@ -108860,6 +108598,9 @@
 				"Sani's Orefully Affordable Store": true,
 				"New Varrock General Store": true,
 				"Zaff's Superior Spellcasting": true
+			},
+			"Connect": {
+				"12853": true
 			}
 		},
 		"Mount Firewake": {
@@ -108894,6 +108635,9 @@
 			},
 			"NPC": {
 				"Hannu, Emissary of V": 1
+			},
+			"Connect": {
+				"7995": true
 			}
 		},
 		"Mazcab": {
@@ -108943,33 +108687,7 @@
 				"12334": true
 			}
 		},
-		"Nemi forest clearing": {
-			"Object": {
-				"Stone fragment": 1
-			},
-			"NPC": {
-				"Ancient goebie": 1,
-				"Ancient carer": 2,
-				"Tunks": 1,
-				"Lunch": 1,
-				"Peck": 1
-			}
-		},
-		"Capture Square": {
-			"NPC": {
-				"Masterwork fanatic": 1
-			}
-		},
-		"Wyverns": {
-			"Object": {
-				"Exit": 1,
-				"Fire remains": 5
-			},
-			"Monster": {
-				"Wyvern": 10
-			}
-		},
-		"Ripper Demons": {
+		"Ripper Demon Cave": {
 			"Object": {
 				"Dark Tunnel": 1
 			},
@@ -108988,6 +108706,20 @@
 				"Ancient automaton": 8,
 				"Confused automaton": 2,
 				"Enraged automaton": 2
+			},
+			"Connect": {
+				"9007": true,
+				"9516": true,
+				"10805": true,
+				"11064": true,
+				"11567": true,
+				"11829": true,
+				"13097": true,
+				"13109": true,
+				"13619": true,
+				"13879": true,
+				"15159": true,
+				"16994": true
 			}
 		},
 		"Sunken tutorial island": {
@@ -109019,6 +108751,10 @@
 				"Fish": 5,
 				"Wizard Terrova": 1,
 				"Chicken": 5
+			},
+			"Connect": {
+				"12337": true,
+				"21771": true
 			}
 		},
 		"Sunken Tutorial Island cavern": {
@@ -109033,14 +108769,9 @@
 				"Vannaka": 1,
 				"Mining instructor": 1,
 				"Giant sea rat": 13
-			}
-		},
-		"Nomad's Fortress": {
-			"Object": {
-				"Tunnel": 1,
-				"Exit": 2,
-				"Underworld root": 2,
-				"Underworld rock": 7
+			},
+			"Connect": {
+				"21004": true
 			}
 		},
 		"Tarddiad": {
@@ -109115,6 +108846,18 @@
 			},
 			"Connect": {
 				"13356": true
+			}
+		},
+		"Crondis Tomb": {
+			"Object": {
+				"Crondis": 1
+			},
+			"NPC": {
+				"High Priest of Crondis": 1
+			},
+			"Connect": {
+				"4956": true,
+				"13097": true
 			}
 		},
 		"The Arc": {
@@ -109274,96 +109017,6 @@
 				"The Junk of One Cyclops": 2
 			}
 		},
-		"RuneFest Treasure Island": {
-			"Object": {
-				"Mainland portal": 1,
-				"Bank chest": 1,
-				"Camp fire": 1,
-				"Submerged Golden Gnome": 1,
-				"Golden Scythe": 1
-			},
-			"NPC": {
-				"Party Pete": 1,
-				"RuneFest dragonling": 1,
-				"The Kendal": 1
-			}
-		},
-		"North Falador": {
-			"Object": {
-				"Dead tree": 861,
-				"Dead apple tree": 3,
-				"Dead Barley": 4,
-				"Noticeboard": 4,
-				"Bank deposit box": 4,
-				"Barrel": 3,
-				"Steps": 1,
-				"Stepping stone": 2,
-				"Well": 2,
-				"Altar of Guthix": 1,
-				"Web": 7,
-				"Portcullis": 1,
-				"Tapestry": 6,
-				"Shelves": 1,
-				"Cliff": 1,
-				"Torch": 65,
-				"Camp fire": 1,
-				"Bonfire": 1,
-				"Young tree": 2,
-				"Bush": 2,
-				"Dimensional portal": 1,
-				"Invention guild": 1,
-				"Sacks": 1,
-				"Mysterious ruins": 2,
-				"White tree": 1,
-				"Crate": 6,
-				"Chest": 3,
-				"Fire": 2,
-				"Chaos altar": 1,
-				"Crates": 4,
-				"Drawers": 14,
-				"Workshop Plan": 2,
-				"Oak": 1,
-				"Cooking range+": 2,
-				"Closed chest": 3,
-				"Tree": 2,
-				"Anvil": 4,
-				"Altar": 1,
-				"Bloodwood tree": 1,
-				"Roses": 8,
-				"Bookcase": 10,
-				"Fountain": 5,
-				"Compost heap": 1,
-				"Lever": 2,
-				"Gravestone": 1,
-				"Broken railing": 1,
-				"Candle sconce": 1,
-				"Stove": 2,
-				"Fairy ring": 1,
-				"Coffin": 5,
-				"Crevice": 1,
-				"Small obelisk": 1,
-				"Willow": 2,
-				"Counter": 4,
-				"Sink": 1,
-				"Clan Cup plaque": 2
-			},
-			"Monster": {
-				"Troll": 24,
-				"Guard": 3,
-				"Zombie": 16,
-				"Giant spider": 2,
-				"Goblin": 1
-			},
-			"NPC": {
-				"Sir Tiffy Cashien": 1,
-				"Iron Doc": 1,
-				"Dwarf": 1,
-				"Scout": 1
-			}
-		},
-		"Shattered Worlds": {},
-		"Shifting tombs": {},
-		"Sunken pyramid": {},
 		"Deep Sea Fishing Hub": {
 			"Object": {
                 "Magical net": 2,
@@ -109397,40 +109050,6 @@
 				"10293": true
 			}
 		},
-		"Tutorial Island": {
-			"Object": {
-				"Tree": 93,
-				"Closed chest": 2,
-				"Sink": 1,
-				"Cooking range+": 1,
-				"Bank booth": 1,
-				"Calendar": 1,
-				"Altar": 1,
-				"Fishing spot (tutorial)": 1,
-				"Hay bale": 2
-			},
-			"NPC": {
-				"RuneScape guide": 1,
-				"Survival expert": 1,
-				"Master chef": 1,
-				"Quest guide": 1,
-				"Financial advisor": 1,
-				"Prayer instructor": 1,
-				"Banker": 1,
-				"Magic instructor": 1
-			},
-			"Monster": {
-				"Chicken": 4
-			}
-		},
-		"Underwater Area": {
-			"Object": {
-				"Shimmering barrier": 1,
-				"Anchor": 1,
-				"'Rum' barrel": 12,
-				"Edge": 1
-			}
-		},
 		"Hall of Memories": {
 			"Object": {
 				"Pool": 1,
@@ -109450,19 +109069,6 @@
 			},
 			"Connect": {
 				"9015": true
-			}
-		},
-		"Aminishi Dungeon": {
-			"Object": {
-				"Mysterious lectern": 1,
-				"Discarded pages": 1,
-				"Armament log": 1,
-				"Discarded scraps": 1,
-				"Altar": 1,
-				"Shackle Platform": 2
-			},
-			"Monster": {
-				"The Sanctum Guardian": 1
 			}
 		},
 		"Empty Throne Room": {
@@ -109510,25 +109116,16 @@
 				"9532": true
 			}
 		},
-		"Varrock Dig Site dungeon": {
-			"Object": {
-				"Sacks": 10,
-				"Silver rock": 6
-			},
-			"Monster": {
-				"Skeleton": 10
-			},
-			"NPC": {
-				"Doug Deeping": 1
-			}
-		},
-		"Meiyerditch Daeyalt Mine": {
+		"Meiyerditch Mine": {
 			"Object": {
 				"Daeyalt vein": 10
 			},
 			"NPC": {
 				"Meiyerditch miner": 5,
 				"Juvinate guard": 4
+			},
+			"Connect": {
+				"14388": true
 			}
 		},
 		"Tarshak's Sanctum": {
@@ -109537,22 +109134,12 @@
 				"Roof support": 1,
 				"Banite ore rockfall": 1,
 				"Banite rock": 13
-			}
-		},
-		"Tutorial Island Underground": {
-			"Object": {
-				"Furnace": 1,
-				"Copper rock": 5,
-				"Tin rock": 4,
-				"Anvil": 4,
-				"Forge": 1
-			},
-			"NPC": {
-				"Mining instructor": 1,
-				"Combat instructor": 1
 			},
 			"Monster": {
-				"Giant rat": 12
+				"Abomination": 1
+			},
+			"Connect": {
+				"10644": true
 			}
 		},
 		"The Shadow Reef": {
@@ -109648,14 +109235,6 @@
 				"12589": true
 			}
 		},
-		"Burthorpe underground": {
-			"Spawn": {
-				"Broken glass": 8
-			},
-			"NPC": {
-				"Masterwork fanatic": 1
-			}
-		},
 		"Kharid-Et Main Fortress": {
 			"Objects": {
 				"Material cache (Zarosian insignia)": 1,
@@ -109672,10 +109251,9 @@
 				"Culinarum debris": 1
 			},
 			"Connect": {
+				"3": true,
+				"4": true,
 				"13361": true
-			},
-			"Spawn": {
-				"Broken glass": 8
 			}
 		},
 		"Kharid-Et Prison": {
@@ -109697,56 +109275,35 @@
 				"2": true
 			}
 		},
-		"Dig Site: Everlight": {},
-		"Dig Site: Infernal Source": {
-			"Spawn": {
-				"Broken glass": 8
-			},
-			"NPC": {
-				"Masterwork fanatic": 1
-			}
-		},
-		"Dig Site: Stormguard - Howl's Workshop": {
-			"Spawn": {
-				"Broken glass": 8
-			},
-			"NPC": {
-				"Masterwork fanatic": 1
-			}
-		},
-		"Dig Site: Stormguard Citadel": {
-			"Spawn": {
-				"Broken glass": 8
-			},
-			"NPC": {
-				"Masterwork fanatic": 1
-			}
-		},
-		"Dig Site: Warforge": {
-			"Spawn": {
-				"Broken glass": 8
-			}
-		},
-		"Dig Site: Orthen": {
-			"Spawn": {
-				"Broken glass": 16
-			},
-			"NPC": {
-				"Masterwork fanatic": 2
-			}
-		},
 		"Orthen Oubliette": {
 			"Object": {
 				"Stairway": 1
+			},
+			"Monster":{
+				"Raksha,the Shadow Colossus": 1
+			},
+			"Connect": {
+				"16704": true
 			}
 		},
-		"Senntisten Colosseum": {},
+		"Lair of the Rex Matriarchs": {
+			"Monster": {
+				"Orikalka": 1,
+				"Rathis": 1,
+				"Pthentraken": 1
+			},
+			"Connect": {
+				"16195": true
+			}
+		},
 		"Temple of Aminishi": {
 			"Object": {
 				"Mysterious lectern": 1,
 				"Discarded pages": 1,
 				"Armament log": 1,
-				"Discarded scraps": 1
+				"Discarded scraps": 1,
+				"Altar": 1,
+				"Shackle Platform": 2
 			},
 			"Monster": {
 				"Elite Sotapanna": 1,
@@ -109919,31 +109476,6 @@
 			},
 			"Connect": {
 				"6994": true
-			}
-		},
-		"King's Ransom Jail": {
-			"Object": {
-				"Sir Palomedes": 1,
-				"Sir Lucan": 1,
-				"Sir Lancelot": 1,
-				"Vent": 1,
-				"Sir Tristram": 1
-			},
-			"Monster": {
-				"Rat": 3,
-				"Renegade knight": 2
-			},
-			"NPC": {
-				"Arthur": 1,
-				"Merlin": 1,
-				"Sir Pelleas": 1,
-				"Sir Gawain": 1,
-				"Sir Kay": 1,
-				"Guard": 1
-			},
-			"Connect": {
-				"12087": true,
-				"12187": true
 			}
 		}
 	},
@@ -115294,7 +114826,7 @@
 				"Revenant knight": true,
 				"Revenant dragon": true
 			},
-			"Ripper demons": {
+			"Ripper Demon Cave": {
 				"Ripper demon": true,
 				"Slasher demon": true
 			},
