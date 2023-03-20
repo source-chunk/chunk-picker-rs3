@@ -1148,25 +1148,25 @@
 				"Priority": 9
 			},
 			"Feed a ~|starved ancient effigy|~ with agility": {
-				"Items": ["Starved ancient effigy (agility%2gcrafting)"],
+				"Items": ["Starved ancient effigy (agility%2Gcrafting)"],
 				"Level": 91,
 				"Primary": false,
 				"Priority": 1
 			},
 			"Feed a ~|nourished ancient effigy|~ with agility": {
-				"Items": ["Nourished ancient effigy (agility%2gcrafting)"],
+				"Items": ["Nourished ancient effigy (agility%2Gcrafting)"],
 				"Level": 93,
 				"Primary": false,
 				"Priority": 1
 			},
 			"Feed a ~|sated ancient effigy|~ with agility": {
-				"Items": ["Sated ancient effigy (agility%2gcrafting)"],
+				"Items": ["Sated ancient effigy (agility%2Gcrafting)"],
 				"Level": 95,
 				"Primary": false,
 				"Priority": 1
 			},
 			"Feed a ~|gorged ancient effigy|~ with agility": {
-				"Items": ["Gorged ancient effigy (agility%2gcrafting)"],
+				"Items": ["Gorged ancient effigy (agility%2Gcrafting)"],
 				"Level": 97,
 				"Primary": false,
 				"Priority": 1
@@ -7523,6 +7523,15 @@
 				"Primary": false,
 				"Priority": 1
 			},
+			"Wield a ~|primal|~ melee weapon": {
+				"Category": ["Daemonheim tasks"],
+				"Tasks": {
+					"Unlock ~|frozen floors|~": "Dungeoneering"
+				},
+				"Level": 99,
+				"Primary": false,
+				"Priority": 4
+			},
 			"Buy the ~|Attack cape|~": {
 				"Category": ["Skillcape"],
 				"Items": ["Attack cape"],
@@ -8927,7 +8936,19 @@
 				"Level": 90,
 				"Primary": false,
 				"Not Equip": true,
-				"Priority": 1
+				"Priority": 2
+			},
+			"Create a ~|portent of restoration X|~ in Daemonheim": {
+				"Category": ["Daemonheim tasks"],
+				"Tasks": {
+					"Unlock ~|frozen floors|~": "Dungeoneering"
+				},
+				"Level": 90,
+				"Skills": {
+					"Divination": 97
+				},
+				"Primary": false,
+				"Priority": 3
 			},
 			"Unlock the ~|Ice Asylum|~ ability": {
 				"Items": ["Codex Ultimatus"],
@@ -12748,6 +12769,15 @@
 				"Primary": false,
 				"Priority": 12
 			},
+			"Build a ~|Prayer altar|~ in Daemonheim": {
+				"Category": ["Daemonheim tasks"],
+				"Tasks": {
+					"Unlock ~|frozen floors|~": "Dungeoneering"
+				},
+				"Level": 75,
+				"Primary": false,
+				"Priority": 13
+			},
 			"Build a ~|mounted shark|~": {
 				"Category": ["InsidePOH Primary"],
 				"Chunks": ["Player-owned house"],
@@ -13486,7 +13516,7 @@
 				"Priority": 1
 			},			
 			"Feed a ~|starved ancient effigy|~ with construction": {
-				"Items": ["Starved ancient effigy (construction%2gthieving)"],
+				"Items": ["Starved ancient effigy (construction%2Gthieving)"],
 				"Level": 91,
 				"Primary": false,
 				"Priority": 2
@@ -13516,7 +13546,7 @@
 				"Priority": 3
 			},
 			"Feed a ~|nourished ancient effigy|~ with construction": {
-				"Items": ["Nourished ancient effigy (construction%2gthieving)"],
+				"Items": ["Nourished ancient effigy (construction%2Gthieving)"],
 				"Level": 93,
 				"Primary": false,
 				"Priority": 1
@@ -13585,7 +13615,7 @@
 				"Priority": 4
 			},
 			"Feed a ~|sated ancient effigy|~ with construction": {
-				"Items": ["Sated ancient effigy (construction%2gthieving)"],
+				"Items": ["Sated ancient effigy (construction%2Gthieving)"],
 				"Level": 95,
 				"Primary": false,
 				"Priority": 5
@@ -13622,7 +13652,7 @@
 				"Priority": 2
 			},
 			"Feed a ~|gorged ancient effigy|~ with construction": {
-				"Items": ["Gorged ancient effigy (construction%2gthieving)"],
+				"Items": ["Gorged ancient effigy (construction%2Gthieving)"],
 				"Level": 97,
 				"Primary": false,
 				"Priority": 3
@@ -16601,25 +16631,25 @@
 				"Priority": 8
 			},
 			"Feed a ~|starved ancient effigy|~ with cooking": {
-				"Items": ["Starved ancient effigy (cooking%2gfiremaking)"],
+				"Items": ["Starved ancient effigy (cooking%2Gfiremaking)"],
 				"Level": 91,
 				"Primary": false,
 				"Priority": 6
 			},
 			"Feed a ~|nourished ancient effigy|~ with cooking": {
-				"Items": ["Nourished ancient effigy (cooking%2gfiremaking)"],
+				"Items": ["Nourished ancient effigy (cooking%2Gfiremaking)"],
 				"Level": 93,
 				"Primary": false,
 				"Priority": 4
 			},
 			"Feed a ~|sated ancient effigy|~ with cooking": {
-				"Items": ["Sated ancient effigy (cooking%2gfiremaking)"],
+				"Items": ["Sated ancient effigy (cooking%2Gfiremaking)"],
 				"Level": 95,
 				"Primary": false,
 				"Priority": 9
 			},
 			"Feed a ~|gorged ancient effigy|~ with cooking": {
-				"Items": ["Gorged ancient effigy (cooking%2gfiremaking)"],
+				"Items": ["Gorged ancient effigy (cooking%2Gfiremaking)"],
 				"Level": 97,
 				"Primary": false,
 				"Priority": 1
@@ -16707,6 +16737,15 @@
 				"Output": "Primal dessert",
 				"Primary": true,
 				"Priority": 8
+			},
+			"Make a ~|Moray %26 edicap potato|~": {
+				"Category": ["Daemonheim tasks"],
+				"Tasks": {
+					"Unlock ~|frozen floors|~": "Dungeoneering"
+				},
+				"Level": 99,
+				"Primary": false,
+				"Priority": 9
 			},
 			"Make a ~|primal feast|~": {
 				"Items": ["Primal starter*", "Primal main course*", "Primal dessert*", "Extreme cooking potion+*"],
@@ -20274,6 +20313,15 @@
 				"Primary": false,
 				"Priority": 8
 			},
+			"Craft a ~|Tyrannoleather body|~": {
+				"Category": ["Daemonheim tasks"],
+				"Tasks": {
+					"Unlock ~|frozen floors|~": "Dungeoneering"
+				},
+				"Level": 99,
+				"Primary": false,
+				"Priority": 9
+			},
 			"Buy the ~|Crafting master cape|~": {
 				"Category": ["Master skillcape"],
 				"Items": ["Crafting master cape"],
@@ -20385,25 +20433,25 @@
 				"Priority": 12
 			},
 			"Feed a ~|starved ancient effigy|~ with crafting": {
-				"Items": ["Starved ancient effigy (agility%2gcrafting)"],
+				"Items": ["Starved ancient effigy (agility%2Gcrafting)"],
 				"Level": 91,
 				"Primary": false,
 				"Priority": 6
 			},
 			"Feed a ~|nourished ancient effigy|~ with crafting": {
-				"Items": ["Nourished ancient effigy (agility%2gcrafting)"],
+				"Items": ["Nourished ancient effigy (agility%2Gcrafting)"],
 				"Level": 93,
 				"Primary": false,
 				"Priority": 9
 			},
 			"Feed a ~|sated ancient effigy|~ with crafting": {
-				"Items": ["Sated ancient effigy (agility%2gcrafting)"],
+				"Items": ["Sated ancient effigy (agility%2Gcrafting)"],
 				"Level": 95,
 				"Primary": false,
 				"Priority": 1
 			},
 			"Feed a ~|gorged ancient effigy|~ with crafting": {
-				"Items": ["Gorged ancient effigy (agility%2gcrafting)"],
+				"Items": ["Gorged ancient effigy (agility%2Gcrafting)"],
 				"Level": 97,
 				"Primary": false,
 				"Priority": 1
@@ -22586,6 +22634,33 @@
 				"Primary": false,
 				"Priority": 3
 			},
+			"Wear a piece of ~|primal armour|~": {
+				"Category": ["Daemonheim tasks"],
+				"Tasks": {
+					"Unlock ~|frozen floors|~": "Dungeoneering"
+				},
+				"Level": 99,
+				"Primary": false,
+				"Priority": 4
+			},
+			"Wear a piece of ~|sagittarian armour|~": {
+				"Category": ["Daemonheim tasks"],
+				"Tasks": {
+					"Unlock ~|frozen floors|~": "Dungeoneering"
+				},
+				"Level": 99,
+				"Primary": false,
+				"Priority": 5
+			},
+			"Wear a piece of ~|celestial armour|~": {
+				"Category": ["Daemonheim tasks"],
+				"Tasks": {
+					"Unlock ~|frozen floors|~": "Dungeoneering"
+				},
+				"Level": 99,
+				"Primary": false,
+				"Priority": 6
+			},
 			"Buy the ~|Defence master cape|~": {
 				"Category": ["Master skillcape"],
 				"Items": ["Defence master cape"],
@@ -23261,6 +23336,27 @@
 					"Constitution": 93
 				},
 				"Priority": 1
+			},
+			"Create a ~|portent of restoration X|~ in Daemonheim": {
+				"Category": ["Daemonheim tasks"],
+				"Tasks": {
+					"Unlock ~|frozen floors|~": "Dungeoneering"
+				},
+				"Level": 97,
+				"Skills": {
+					"Constitution": 90
+				},
+				"Primary": false,
+				"Priority": 4
+			},
+			"Create a ~|portent of passage X|~": {
+				"Category": ["Daemonheim tasks"],
+				"Tasks": {
+					"Unlock ~|frozen floors|~": "Dungeoneering"
+				},
+				"Level": 97,
+				"Primary": false,
+				"Priority": 5
 			},
 			"Create a ~|portent of item protection|~": {
 				"Items": ["Luminous energy*", "Prayer potion+*"],
@@ -25151,7 +25247,7 @@
 				"Objects": ["FarmingPatch+"],
 				"Level": 1,
 				"Output": "Weeds",
-				"Primary": false,
+				"Primary": true,
 				"Priority": 3
 			},
 			"Fill ~|compost|~ from a bin": {
@@ -25205,7 +25301,7 @@
 				"Objects": ["PotatoPatch+"],
 				"Level": 1,
 				"Output": "Potato",
-				"Primary": false,
+				"Primary": true,
 				"Priority": 10
 			},
 			"Nurture a ~|normal evil tree|~ sapling": {
@@ -28671,25 +28767,34 @@
 				"Priority": 6
 			},
 			"Feed a ~|starved ancient effigy|~ with farming": {
-				"Items": ["Starved ancient effigy (farming%2gfishing)"],
+				"Items": ["Starved ancient effigy (farming%2Gfishing)"],
 				"Level": 91,
 				"Primary": false,
 				"Priority": 3
 			},
 			"Feed a ~|nourished ancient effigy|~ with farming": {
-				"Items": ["Nourished ancient effigy (farming%2gfishing)"],
+				"Items": ["Nourished ancient effigy (farming%2Gfishing)"],
 				"Level": 93,
 				"Primary": false,
 				"Priority": 2
 			},
 			"Feed a ~|sated ancient effigy|~ with farming": {
-				"Items": ["Sated ancient effigy (farming%2gfishing)"],
+				"Items": ["Sated ancient effigy (farming%2Gfishing)"],
 				"Level": 95,
 				"Primary": false,
 				"Priority": 3
 			},
+			"Grow a ~|buckthorn|~": {
+				"Category": ["Daemonheim tasks"],
+				"Tasks": {
+					"Unlock ~|frozen floors|~": "Dungeoneering"
+				},
+				"Level": 95,
+				"Primary": false,
+				"Priority": 4
+			},
 			"Feed a ~|gorged ancient effigy|~ with farming": {
-				"Items": ["Gorged ancient effigy (farming%2gfishing)"],
+				"Items": ["Gorged ancient effigy (farming%2Gfishing)"],
 				"Level": 97,
 				"Primary": false,
 				"Priority": 7
@@ -31236,6 +31341,15 @@
 				"Primary": true,
 				"Priority": 3
 			},
+			"Burn ~|grave creeper branches|~": {
+				"Category": ["Daemonheim tasks"],
+				"Tasks": {
+					"Unlock ~|frozen floors|~": "Dungeoneering"
+				},
+				"Level": 90,
+				"Primary": false,
+				"Priority": 4
+			},
 			"Craft ~|fellstalk incense sticks|~": {
 				"Items": ["Infernal magic incense sticks*", "Clean fellstalk*"],
 				"Level": 91,
@@ -31373,25 +31487,25 @@
 				"Priority": 9
 			},
 			"Feed a ~|starved ancient effigy|~ with firemaking": {
-				"Items": ["Starved ancient effigy (cooking%2gfiremaking)"],
+				"Items": ["Starved ancient effigy (cooking%2Gfiremaking)"],
 				"Level": 91,
 				"Primary": false,
 				"Priority": 4
 			},
 			"Feed a ~|nourished ancient effigy|~ with firemaking": {
-				"Items": ["Nourished ancient effigy (cooking%2gfiremaking)"],
+				"Items": ["Nourished ancient effigy (cooking%2Gfiremaking)"],
 				"Level": 93,
 				"Primary": false,
 				"Priority": 1
 			},
 			"Feed a ~|sated ancient effigy|~ with firemaking": {
-				"Items": ["Sated ancient effigy (cooking%2gfiremaking)"],
+				"Items": ["Sated ancient effigy (cooking%2Gfiremaking)"],
 				"Level": 95,
 				"Primary": false,
 				"Priority": 11
 			},
 			"Feed a ~|gorged ancient effigy|~ with firemaking": {
-				"Items": ["Gorged ancient effigy (cooking%2gfiremaking)"],
+				"Items": ["Gorged ancient effigy (cooking%2Gfiremaking)"],
 				"Level": 97,
 				"Primary": false,
 				"Priority": 1
@@ -32244,25 +32358,25 @@
 				"Priority": 2
 			},
 			"Feed a ~|starved ancient effigy|~ with fishing": {
-				"Items": ["Starved ancient effigy (farming%2gfishing)"],
+				"Items": ["Starved ancient effigy (farming%2Gfishing)"],
 				"Level": 91,
 				"Primary": false,
 				"Priority": 3
 			},
 			"Feed a ~|nourished ancient effigy|~ with fishing": {
-				"Items": ["Nourished ancient effigy (farming%2gfishing)"],
+				"Items": ["Nourished ancient effigy (farming%2Gfishing)"],
 				"Level": 93,
 				"Primary": false,
 				"Priority": 2
 			},
 			"Feed a ~|sated ancient effigy|~ with fishing": {
-				"Items": ["Sated ancient effigy (farming%2gfishing)"],
+				"Items": ["Sated ancient effigy (farming%2Gfishing)"],
 				"Level": 95,
 				"Primary": false,
 				"Priority": 2
 			},
 			"Feed a ~|gorged ancient effigy|~ with fishing": {
-				"Items": ["Gorged ancient effigy (farming%2gfishing)"],
+				"Items": ["Gorged ancient effigy (farming%2Gfishing)"],
 				"Level": 97,
 				"Primary": false,
 				"Priority": 3
@@ -32414,6 +32528,15 @@
 				"Level": 90,
 				"Primary": false,
 				"Priority": 5
+			},
+			"Catch ~|raw cave moray|~": {
+				"Category": ["Daemonheim tasks"],
+				"Tasks": {
+					"Unlock ~|frozen floors|~": "Dungeoneering"
+				},
+				"Level": 90,
+				"Primary": false,
+				"Priority": 6
 			},
 			"Buy the ~|Fishing cape|~": {
 				"Category": ["Skillcape"],
@@ -34233,25 +34356,25 @@
 				"Priority": 1
 			},
 			"Feed a ~|starved ancient effigy|~ with fletching": {
-				"Items": ["Starved ancient effigy (fetching%2gwoodcutting)"],
+				"Items": ["Starved ancient effigy (fetching%2Gwoodcutting)"],
 				"Level": 91,
 				"Primary": false,
 				"Priority": 2
 			},
 			"Feed a ~|nourished ancient effigy|~ with fletching": {
-				"Items": ["Starved ancient effigy (fetching%2gwoodcutting)"],
+				"Items": ["Starved ancient effigy (fetching%2Gwoodcutting)"],
 				"Level": 93,
 				"Primary": false,
 				"Priority": 4
 			},
 			"Feed a ~|sated ancient effigy|~ with fletching": {
-				"Items": ["Starved ancient effigy (fetching%2gwoodcutting)"],
+				"Items": ["Starved ancient effigy (fetching%2Gwoodcutting)"],
 				"Level": 95,
 				"Primary": false,
 				"Priority": 22
 			},
 			"Feed a ~|gorged ancient effigy|~ with fletching": {
-				"Items": ["Starved ancient effigy (fetching%2gwoodcutting)"],
+				"Items": ["Starved ancient effigy (fetching%2Gwoodcutting)"],
 				"Level": 97,
 				"Primary": false,
 				"Priority": 2
@@ -34290,6 +34413,15 @@
 				"Level": 99,
 				"Primary": false,
 				"Priority": 5
+			},
+			"Fletch ~|promethium arrows|~": {
+				"Category": ["Daemonheim tasks"],
+				"Tasks": {
+					"Unlock ~|frozen floors|~": "Dungeoneering"
+				},
+				"Level": 99,
+				"Primary": false,
+				"Priority": 6
 			},
 			"Buy the ~|Fletching master cape|~": {
 				"Category": ["Master skillcape"],
@@ -36762,25 +36894,25 @@
 				"Priority": 3
 			},
 			"Feed a ~|starved ancient effigy|~ with herblore": {
-				"Items": ["Starved ancient effigy (herblore%2ghunter)"],
+				"Items": ["Starved ancient effigy (herblore%2Ghunter)"],
 				"Level": 91,
 				"Primary": false,
 				"Priority": 8
 			},
 			"Feed a ~|nourished ancient effigy|~ with herblore": {
-				"Items": ["Starved ancient effigy (herblore%2ghunter)"],
+				"Items": ["Starved ancient effigy (herblore%2Ghunter)"],
 				"Level": 93,
 				"Primary": false,
 				"Priority": 11
 			},
 			"Feed a ~|sated ancient effigy|~ with herblore": {
-				"Items": ["Starved ancient effigy (herblore%2ghunter)"],
+				"Items": ["Starved ancient effigy (herblore%2Ghunter)"],
 				"Level": 95,
 				"Primary": false,
 				"Priority": 3
 			},
 			"Feed a ~|gorged ancient effigy|~ with herblore": {
-				"Items": ["Starved ancient effigy (herblore%2ghunter)"],
+				"Items": ["Starved ancient effigy (herblore%2Ghunter)"],
 				"Level": 97,
 				"Primary": false,
 				"Priority": 4
@@ -36853,6 +36985,15 @@
 				"Level": 99,
 				"Primary": false,
 				"Priority": 6
+			},
+			"Mix a ~|strong survivalist's potion|~": {
+				"Category": ["Daemonheim tasks"],
+				"Tasks": {
+					"Unlock ~|frozen floors|~": "Dungeoneering"
+				},
+				"Level": 99,
+				"Primary": false,
+				"Priority": 7
 			},
 			"Mix ~|weapon poison+++|~": {
 				"Items": ["WeaponPoison++Potion+*", "Poison slime*", "Primal extract*"],
@@ -38792,6 +38933,15 @@
 				"Primary": true,
 				"Priority": 15
 			},
+			"Catch a ~|tyrannomastyx|~": {
+				"Category": ["Daemonheim tasks"],
+				"Tasks": {
+					"Unlock ~|frozen floors|~": "Dungeoneering"
+				},
+				"Level": 90,
+				"Primary": false,
+				"Priority": 16
+			},
 			"Catch a ~|kingly impling|~ in Puro-Puro": {
 				"Category": ["Extra implings"],
 				"Chunks": ["Puro-Puro"],
@@ -38965,25 +39115,25 @@
 				"Priority": 1
 			},
 			"Feed a ~|starved ancient effigy|~ with hunter": {
-				"Items": ["Starved ancient effigy (herblore%2ghunter)"],
+				"Items": ["Starved ancient effigy (herblore%2Ghunter)"],
 				"Level": 91,
 				"Primary": false,
 				"Priority": 4
 			},
 			"Feed a ~|nourished ancient effigy|~ with hunter": {
-				"Items": ["Starved ancient effigy (herblore%2ghunter)"],
+				"Items": ["Starved ancient effigy (herblore%2Ghunter)"],
 				"Level": 93,
 				"Primary": false,
 				"Priority": 1
 			},
 			"Feed a ~|sated ancient effigy|~ with hunter": {
-				"Items": ["Starved ancient effigy (herblore%2ghunter)"],
+				"Items": ["Starved ancient effigy (herblore%2Ghunter)"],
 				"Level": 95,
 				"Primary": false,
 				"Priority": 14
 			},
 			"Feed a ~|gorged ancient effigy|~ with hunter": {
-				"Items": ["Starved ancient effigy (herblore%2ghunter)"],
+				"Items": ["Starved ancient effigy (herblore%2Ghunter)"],
 				"Level": 97,
 				"Primary": false,
 				"Priority": 2
@@ -42347,6 +42497,15 @@
 				"Primary": false,
 				"Priority": 5
 			},
+			"Wield a ~|celestial catalytic staff%2Gwand|~": {
+				"Category": ["Daemonheim tasks"],
+				"Tasks": {
+					"Unlock ~|frozen floors|~": "Dungeoneering"
+				},
+				"Level": 99,
+				"Primary": false,
+				"Priority": 6
+			},
 			"Buy the ~|Magic master cape|~": {
 				"Category": ["Master skillcape"],
 				"Items": ["Magic master cape"],
@@ -43041,25 +43200,25 @@
 				"Priority": 1
 			},
 			"Feed a ~|starved ancient effigy|~ with mining": {
-				"Items": ["Starved ancient effigy (mining%2gsmithing)"],
+				"Items": ["Starved ancient effigy (mining%2Gsmithing)"],
 				"Level": 91,
 				"Primary": false,
 				"Priority": 1
 			},
 			"Feed a ~|nourished ancient effigy|~ with mining": {
-				"Items": ["Starved ancient effigy (mining%2gsmithing)"],
+				"Items": ["Starved ancient effigy (mining%2Gsmithing)"],
 				"Level": 93,
 				"Primary": false,
 				"Priority": 1
 			},
 			"Feed a ~|sated ancient effigy|~ with mining": {
-				"Items": ["Starved ancient effigy (mining%2gsmithing)"],
+				"Items": ["Starved ancient effigy (mining%2Gsmithing)"],
 				"Level": 95,
 				"Primary": false,
 				"Priority": 1
 			},
 			"Feed a ~|gorged ancient effigy|~ with mining": {
-				"Items": ["Starved ancient effigy (mining%2gsmithing)"],
+				"Items": ["Starved ancient effigy (mining%2Gsmithing)"],
 				"Level": 97,
 				"Primary": false,
 				"Priority": 2
@@ -43278,6 +43437,15 @@
 				"Level": 99,
 				"Primary": false,
 				"Priority": 3
+			},
+			"Mine with a ~|primal pickaxe|~": {
+				"Category": ["Daemonheim tasks"],
+				"Tasks": {
+					"Unlock ~|frozen floors|~": "Dungeoneering"
+				},
+				"Level": 99,
+				"Primary": false,
+				"Priority": 4
 			},
 			"Buy the ~|Mining master cape|~": {
 				"Category": ["Master skillcape"],
@@ -46853,6 +47021,24 @@
 				"Primary": false,
 				"Priority": 12
 			},
+			"Wield a ~|sagittarian|~ ranged weapon or arrows": {
+				"Category": ["Daemonheim tasks"],
+				"Tasks": {
+					"Unlock ~|frozen floors|~": "Dungeoneering"
+				},
+				"Level": 99,
+				"Primary": false,
+				"Priority": 15
+			},
+			"Wield ~|primal knives|~": {
+				"Category": ["Daemonheim tasks"],
+				"Tasks": {
+					"Unlock ~|frozen floors|~": "Dungeoneering"
+				},
+				"Level": 99,
+				"Primary": false,
+				"Priority": 16
+			},
 			"Use the ~|greater dazing shot|~ ability": {
 				"Chunks": ["12592"],
 				"Level": 8,
@@ -47932,6 +48118,33 @@
 				"Primary": false,
 				"Priority": 3
 			},
+			"Imbue a ~|spiritbloom orb|~": {
+				"Category": ["Daemonheim tasks"],
+				"Tasks": {
+					"Unlock ~|frozen floors|~": "Dungeoneering"
+				},
+				"Level": 99,
+				"Primary": false,
+				"Priority": 4
+			},
+			"Imbue a ~|grave creeper wand|~": {
+				"Category": ["Daemonheim tasks"],
+				"Tasks": {
+					"Unlock ~|frozen floors|~": "Dungeoneering"
+				},
+				"Level": 99,
+				"Primary": false,
+				"Priority": 5
+			},
+			"Imbue a ~|grave creeper staff|~": {
+				"Category": ["Daemonheim tasks"],
+				"Tasks": {
+					"Unlock ~|frozen floors|~": "Dungeoneering"
+				},
+				"Level": 99,
+				"Primary": false,
+				"Priority": 6
+			},
 			"Buy the ~|Runecrafting master cape|~": {
 				"Category": ["Master skillcape"],
 				"Items": ["Runecrafting master cape"],
@@ -47983,25 +48196,25 @@
 				"Priority": 6
 			},
 			"Feed a ~|starved ancient effigy|~ with runecrafting": {
-				"Items": ["Starved ancient effigy (runecrafting%2gsummoning)"],
+				"Items": ["Starved ancient effigy (runecrafting%2Gsummoning)"],
 				"Level": 91,
 				"Primary": false,
 				"Priority": 2
 			},
 			"Feed a ~|nourished ancient effigy|~ with runecrafting": {
-				"Items": ["Starved ancient effigy (runecrafting%2gsummoning)"],
+				"Items": ["Starved ancient effigy (runecrafting%2Gsummoning)"],
 				"Level": 93,
 				"Primary": false,
 				"Priority": 3
 			},
 			"Feed a ~|sated ancient effigy|~ with runecrafting": {
-				"Items": ["Starved ancient effigy (runecrafting%2gsummoning)"],
+				"Items": ["Starved ancient effigy (runecrafting%2Gsummoning)"],
 				"Level": 95,
 				"Primary": false,
 				"Priority": 3
 			},
 			"Feed a ~|gorged ancient effigy|~ with runecrafting": {
-				"Items": ["Starved ancient effigy (runecrafting%2gsummoning)"],
+				"Items": ["Starved ancient effigy (runecrafting%2Gsummoning)"],
 				"Level": 97,
 				"Primary": false,
 				"Priority": 1
@@ -49596,6 +49809,15 @@
 				"Primary": false,
 				"Priority": 5
 			},
+			"Slayer a ~|soulgazer|~ in Daemonheim": {
+				"Category": ["Daemonheim tasks"],
+				"Tasks": {
+					"Unlock ~|frozen floors|~": "Dungeoneering"
+				},
+				"Level": 99,
+				"Primary": false,
+				"Priority": 6
+			},
 			"Buy the ~|Slayer master cape|~": {
 				"Category": ["Skillcape"],
 				"Items": ["Slayer master cape"],
@@ -50970,6 +51192,15 @@
 				"Primary": true,
 				"Priority": 21
 			},
+			"Forge a ~|Promethium platebody|~": {
+				"Category": ["Daemonheim tasks"],
+				"Tasks": {
+					"Unlock ~|frozen floors|~": "Dungeoneering"
+				},
+				"Level": 99,
+				"Primary": false,
+				"Priority": 24
+			},
 			"Attach an ~|arcane sigil|~ to a blessed spirit shield|~": {
 				"Items": ["Arcane sigil*", "Blessed spirit shield*"],
 				"Level": 85,
@@ -51101,25 +51332,25 @@
 				"Priority": 1
 			},
 			"Feed a ~|starved ancient effigy|~ with smithing": {
-				"Items": ["Starved ancient effigy (mining%2gsmithing)"],
+				"Items": ["Starved ancient effigy (mining%2Gsmithing)"],
 				"Level": 91,
 				"Primary": false,
 				"Priority": 1
 			},
 			"Feed a ~|nourished ancient effigy|~ with smithing": {
-				"Items": ["Starved ancient effigy (mining%2gsmithing)"],
+				"Items": ["Starved ancient effigy (mining%2Gsmithing)"],
 				"Level": 93,
 				"Primary": false,
 				"Priority": 1
 			},
 			"Feed a ~|sated ancient effigy|~ with smithing": {
-				"Items": ["Starved ancient effigy (mining%2gsmithing)"],
+				"Items": ["Starved ancient effigy (mining%2Gsmithing)"],
 				"Level": 95,
 				"Primary": false,
 				"Priority": 1
 			},
 			"Feed a ~|gorged ancient effigy|~ with smithing": {
-				"Items": ["Starved ancient effigy (mining%2gsmithing)"],
+				"Items": ["Starved ancient effigy (mining%2Gsmithing)"],
 				"Level": 97,
 				"Primary": false,
 				"Priority": 1
@@ -51660,6 +51891,15 @@
 				"Level": 99,
 				"Primary": false,
 				"Priority": 3
+			},
+			"Wield a ~|Primal maul|~": {
+				"Category": ["Daemonheim tasks"],
+				"Tasks": {
+					"Unlock ~|frozen floors|~": "Dungeoneering"
+				},
+				"Level": 99,
+				"Primary": false,
+				"Priority": 4
 			},
 			"Buy the ~|Strength master cape|~": {
 				"Category": ["Master skillcape"],
@@ -53813,25 +54053,25 @@
 				"Priority": 9
 			},
 			"Feed a ~|starved ancient effigy|~ with summoning": {
-				"Items": ["Starved ancient effigy (runecrafting%2gsummoning)"],
+				"Items": ["Starved ancient effigy (runecrafting%2Gsummoning)"],
 				"Level": 91,
 				"Primary": false,
 				"Priority": 1
 			},
 			"Feed a ~|nourished ancient effigy|~ with summoning": {
-				"Items": ["Starved ancient effigy (runecrafting%2gsummoning)"],
+				"Items": ["Starved ancient effigy (runecrafting%2Gsummoning)"],
 				"Level": 93,
 				"Primary": false,
 				"Priority": 3
 			},
 			"Feed a ~|sated ancient effigy|~ with summoning": {
-				"Items": ["Starved ancient effigy (runecrafting%2gsummoning)"],
+				"Items": ["Starved ancient effigy (runecrafting%2Gsummoning)"],
 				"Level": 95,
 				"Primary": false,
 				"Priority": 4
 			},
 			"Feed a ~|gorged ancient effigy|~ with summoning": {
-				"Items": ["Starved ancient effigy (runecrafting%2gsummoning)"],
+				"Items": ["Starved ancient effigy (runecrafting%2Gsummoning)"],
 				"Level": 97,
 				"Primary": false,
 				"Priority": 1
@@ -53845,6 +54085,15 @@
 					"Dungeoneering": 85
 				},
 				"Priority": 12
+			},
+			"Create a ~|Sachem skinweaver|~ pouch": {
+				"Category": ["Daemonheim tasks"],
+				"Tasks": {
+					"Unlock ~|frozen floors|~": "Dungeoneering"
+				},
+				"Level": 99,
+				"Primary": false,
+				"Priority": 13
 			},
 			"Buy the ~|Max cape|~": {
 				"Tasks": {
@@ -54675,25 +54924,25 @@
 				"Priority": 2
 			},
 			"Feed a ~|starved ancient effigy|~ with thieving": {
-				"Items": ["Starved ancient effigy (construction%2gthieving)"],
+				"Items": ["Starved ancient effigy (construction%2Gthieving)"],
 				"Level": 91,
 				"Primary": false,
 				"Priority": 4
 			},
 			"Feed a ~|nourished ancient effigy|~ with thieving": {
-				"Items": ["Nourished ancient effigy (construction%2gthieving)"],
+				"Items": ["Nourished ancient effigy (construction%2Gthieving)"],
 				"Level": 93,
 				"Primary": false,
 				"Priority": 2
 			},
 			"Feed a ~|sated ancient effigy|~ with thieving": {
-				"Items": ["Sated ancient effigy (construction%2gthieving)"],
+				"Items": ["Sated ancient effigy (construction%2Gthieving)"],
 				"Level": 95,
 				"Primary": false,
 				"Priority": 2
 			},
 			"Feed a ~|gorged ancient effigy|~ with thieving": {
-				"Items": ["Gorged ancient effigy (construction%2gthieving)"],
+				"Items": ["Gorged ancient effigy (construction%2Gthieving)"],
 				"Level": 97,
 				"Primary": false,
 				"Priority": 2
@@ -54975,6 +55224,15 @@
 				"Level": 90,
 				"Primary": true,
 				"Priority": 5
+			},
+			"Open a level 90 chest in ~|Daemonheim|~": {
+				"Category": ["Daemonheim tasks"],
+				"Tasks": {
+					"Unlock ~|frozen floors|~": "Dungeoneering"
+				},
+				"Level": 90,
+				"Primary": false,
+				"Priority": 6
 			},
 			"Buy the ~|Max cape|~": {
 				"Tasks": {
@@ -55595,25 +55853,25 @@
 				"Priority": 2
 			},
 			"Feed a ~|starved ancient effigy|~ with woodcutting": {
-				"Items": ["Starved ancient effigy (fetching%2gwoodcutting)"],
+				"Items": ["Starved ancient effigy (fetching%2Gwoodcutting)"],
 				"Level": 91,
 				"Primary": false,
 				"Priority": 1
 			},
 			"Feed a ~|nourished ancient effigy|~ with woodcutting": {
-				"Items": ["Starved ancient effigy (fetching%2gwoodcutting)"],
+				"Items": ["Starved ancient effigy (fetching%2Gwoodcutting)"],
 				"Level": 93,
 				"Primary": false,
 				"Priority": 1
 			},
 			"Feed a ~|sated ancient effigy|~ with woodcutting": {
-				"Items": ["Starved ancient effigy (fetching%2gwoodcutting)"],
+				"Items": ["Starved ancient effigy (fetching%2Gwoodcutting)"],
 				"Level": 95,
 				"Primary": false,
 				"Priority": 1
 			},
 			"Feed a ~|gorged ancient effigy|~ with woodcutting": {
-				"Items": ["Starved ancient effigy (fetching%2gwoodcutting)"],
+				"Items": ["Starved ancient effigy (fetching%2Gwoodcutting)"],
 				"Level": 97,
 				"Primary": false,
 				"Priority": 2
@@ -55631,6 +55889,15 @@
 				"Level": 99,
 				"Primary": false,
 				"Priority": 3
+			},
+			"Chop with a ~|primal hatchet|~": {
+				"Category": ["Daemonheim tasks"],
+				"Tasks": {
+					"Unlock ~|frozen floors|~": "Dungeoneering"
+				},
+				"Level": 99,
+				"Primary": false,
+				"Priority": 4
 			},
 			"Buy the ~|Woodcutting master cape|~": {
 				"Category": ["Master skillcape"],

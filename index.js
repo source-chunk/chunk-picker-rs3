@@ -253,25 +253,20 @@ const clueTiers = [
     'Master'
 ];
 const clueStepAmounts = {
-    'Beginner': {
-        '1': .1,
-        '2': .45,
-        '3': .45
-    },
     'Easy': {
-        '2': .33,
-        '3': .34,
-        '4': .33
-    },
-    'Medium': {
         '3': .33,
         '4': .34,
         '5': .33
     },
-    'Hard': {
+    'Medium': {
         '4': .33,
         '5': .34,
         '6': .33
+    },
+    'Hard': {
+        '5': .33,
+        '6': .34,
+        '7': .33
     },
     'Elite': {
         '5': .33,
@@ -377,6 +372,7 @@ let rules = {
 	"Ogleroot": false,
 	"Gnomeball": false,
 	"Daemonheim training": false,
+	"Daemonheim tasks": false,
 };                                                                              // List of rules and their on/off state
 
 let ruleNames = {
@@ -446,6 +442,7 @@ let ruleNames = {
 	"Ogleroot": "Allow Vinesweeper to count as primary training for training hunter",
 	"Gnomeball": "Allow playing gnomeball to count a primary training method for agility and ranged",
 	"Daemonheim training": "Allow training methods in Daemonheim to count as primary training methods<span class='rule-asterisk noscroll'>*</span>",
+	"Daemonheim tasks": "Allows activities and items in Daemonheim, excluding doors and puzzles, to create skilling tasks<span class='rule-asterisk noscroll'>*</span>",
 };                                                                              // List of rule definitions
 
 let rulePresets = {
@@ -516,6 +513,7 @@ let rulePresets = {
 		"Ogleroot": true,
 		"Gnomeball": true,
 		"Daemonheim training": true,
+		"Daemonheim tasks": true,
     },
     "Supreme Chunker": {
         "Skillcape": true,
@@ -572,6 +570,7 @@ let rulePresets = {
 		"Ogleroot": true,
 		"Gnomeball": true,
 		"Daemonheim training": true,
+		"Daemonheim tasks": true,
     }
 };                                                                              // List of rules that are part of each preset
 
@@ -597,6 +596,7 @@ let ruleStructure = {
         "Secondary Primary": true,
         "Quest Skill Reqs": true,
 		"Daemonheim training": true,
+		"Daemonheim tasks": true,
 		"Token": true
     },
     "Agility": {
