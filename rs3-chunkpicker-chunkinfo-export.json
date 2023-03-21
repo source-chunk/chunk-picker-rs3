@@ -67146,10 +67146,6 @@
 			"Mountain camp cave": {
 				"UnlocksArea": true
 			},
-			"Grotworm Lair": {
-				"Chunks": ["11826"],
-				"UnlocksArea": true
-			},
 			"Exiled Kalphite Hive": {
 				"Chunks": ["12844"],
 				"UnlocksArea": true
@@ -102563,23 +102559,6 @@
 			},
 			"Connect": {
 				"11065": true
-			}
-		},
-		"Grotworm Lair": {
-			"Object": {
-				"Cave opening": 1,
-				"Corpse": 11,
-				"Acid": 14,
-				"Cave exit": 1,
-				"Shortcut": 1
-			},
-			"Monster": {
-				"Young grotworm": 36
-			},
-			"Connect": {
-				"4709": true,
-				"5221": true,
-				"11826": true
 			}
 		},
 		"Exiled Kalphite Hive": {
