@@ -67140,15 +67140,18 @@
 				"UnlocksArea": true
 			},
 			"Ascension Dungeon": {
+				"Chunks": ["10029"],
 				"UnlocksArea": true
 			},
 			"Mountain camp cave": {
 				"UnlocksArea": true
 			},
 			"Grotworm Lair": {
+				"Chunks": ["11826"],
 				"UnlocksArea": true
 			},
 			"Exiled Kalphite Hive": {
+				"Chunks": ["12844"],
 				"UnlocksArea": true
 			},
 			"The Runespan": {
@@ -67544,6 +67547,7 @@
 				"UnlocksArea": true
 			},
 			"Spirit Realm Corporeal Lair": {
+				"Chunks": ["12859"],
 				"UnlocksArea": true
 			},
 			"Rune Essence mine": {
@@ -67634,6 +67638,7 @@
 				"UnlocksArea": true
 			},
 			"Waterbirth Dungeon": {
+				"Chunks": ["10042"],
 				"UnlocksArea": true
 			},
 			"The Barrows": {
@@ -68254,6 +68259,7 @@
 				"UnlocksArea": true
 			},
 			"Araxyte lair": {
+				"Chunks": ["14645"],
 				"UnlocksArea": true
 			},
 			"Araxyte graveyard": {
@@ -68287,6 +68293,7 @@
 				"UnlocksArea": true
 			},
 			"Mazcab": {
+				"Chunks": ["12334"],
 				"UnlocksArea": true
 			},
 			"Ripper Demon Cave": {
@@ -68306,6 +68313,7 @@
 				"UnlocksArea": true
 			},
 			"The Heart": {
+				"Chunks": ["13356"],
 				"UnlocksArea": true
 			},
 			"Crondis Tomb": {
@@ -91384,6 +91392,9 @@
 				"Munsim": 1,
 				"Archaeologist": 2,
 				"Dr Nabanik": 1
+			},
+			"Monster": {
+				"Desert strykewyrm": 12
 			},
 			"Connect": {
 				"2": true,
