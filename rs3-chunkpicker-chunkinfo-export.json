@@ -86631,6 +86631,7 @@
 				"Blacklock": 1
 			},
 			"Connect": {
+				"7490": true,
 				"9033": true,
 				"12187": true,
 				"12629": true,
@@ -87118,6 +87119,9 @@
 				"Elite Dark Ranger": 11,
 				"Elite Dark Mage": 9,
 				"Elite Black Knight": 15
+			},
+			"Connect": {
+				"7490": true
 			},
 			"Name": "Black Knights' catacombs"
 		},
