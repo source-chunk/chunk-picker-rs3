@@ -66993,10 +66993,6 @@
 				"Category": ["Collection Log", "Boss Collection Log", "Pets"],
 				"Label": "Boss Pets",
 				"Items": ["Ancient artefact"]
-			},
-			"Unlock Player-owned Ports with any Ports skill": {
-				"Chunks": ["12082"],
-				"Label": "Player-owned Ports"
 			}
 		},
 		"Nonskill": {
