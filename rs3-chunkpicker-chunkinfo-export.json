@@ -102215,8 +102215,7 @@
                 "Hobgoblin": 7
             },
 			"Connect": {
-				"5190": true,
-				"12182": true
+				"5190": true
 			}
 		},
 		"Living Wyvern Cavern": {
@@ -115117,7 +115116,8 @@
 		"magicTools": {},
 		"bossLogs": {},
 		"bossMonsters": {},
-		"minigameShops": {}
+		"minigameShops": {},
+		"boostItems": {}
 	},
 	"Diaries": {
 		"Ardougne Diary": "Easy, Medium, Hard, Elite",
