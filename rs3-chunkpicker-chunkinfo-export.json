@@ -67004,7 +67004,7 @@
 			"Zanaris": {
 				"UnlocksArea": true,
 				"Items": ["Dramen staff"],
-				"Chunks": ["12849"]
+				"Chunks": ["11316", "12849"]
 			},
 			"Troll Stronghold": {
 				"UnlocksArea": true
@@ -67476,6 +67476,7 @@
 				"UnlocksArea": true
 			},
 			"The Abyss": {
+				"Chunks": ["12852"],
 				"UnlocksArea": true
 			},
 			"Abyssal area": {
@@ -67485,6 +67486,7 @@
 				"UnlocksArea": true
 			},
 			"Tunnel of Chaos": {
+				"Chunks": ["13110"],
 				"UnlocksArea": true
 			},
 			"Arzinian Gold Mine": {
