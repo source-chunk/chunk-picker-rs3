@@ -66995,7 +66995,6 @@
 				"Items": ["Ancient artefact"]
 			},
 			"Unlock Player-owned Ports with any Ports skill": {
-				"Description": "Get level 90 in one of the following skills: Agility, Construction, Cooking, Divination, Dungeoneering, Fishing, Herblore, Hunter, Prayer, Runecrafting, Slayer, Thieving",
 				"Chunks": ["12082"],
 				"Label": "Player-owned Ports"
 			}
