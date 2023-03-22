@@ -7807,7 +7807,7 @@
 					"Divination": 2
 				},
 				"Primary": false,
-				"Not Equip": true,
+				"Not Equip": false,
 				"Priority": 1
 			},
 			"Use an ~|attuned portent of restoration I|~": {
@@ -7817,7 +7817,7 @@
 					"Divination": 5
 				},
 				"Primary": false,
-				"Not Equip": true,
+				"Not Equip": false,
 				"Priority": 2
 			},
 			"Unlock the ~|Sacrifice|~ ability from Anima Islands": {
@@ -7890,14 +7890,14 @@
 				"Items": ["Chilli con carne"],
 				"Level": 11,
 				"Primary": false,
-				"Not Equip": true,
+				"Not Equip": false,
 				"Priority": 1
 			},
 			"Get the full amount of healing from ~|trout|~": {
 				"Items": ["Trout"],
 				"Level": 15,
 				"Primary": false,
-				"Not Equip": true,
+				"Not Equip": false,
 				"Priority": 1
 			},
 			"Use a ~|portent of restoration II|~": {
@@ -7907,7 +7907,7 @@
 					"Divination": 15
 				},
 				"Primary": false,
-				"Not Equip": true,
+				"Not Equip": false,
 				"Priority": 2
 			},
 			"Use an ~|attuned portent of restoration II|~": {
@@ -7917,133 +7917,133 @@
 					"Divination": 18
 				},
 				"Primary": false,
-				"Not Equip": true,
+				"Not Equip": false,
 				"Priority": 3
 			},
 			"Get the full amount of healing from ~|chocchip crunchies|~": {
 				"Items": ["Chocchip crunchies"],
 				"Level": 15,
 				"Primary": false,
-				"Not Equip": true,
+				"Not Equip": false,
 				"Priority": 4
 			},
 			"Get the full amount of healing from ~|premade chocchip crunchies|~": {
 				"Items": ["Premade chocolate chip crunchies"],
 				"Level": 15,
 				"Primary": false,
-				"Not Equip": true,
+				"Not Equip": false,
 				"Priority": 5
 			},
 			"Get the full amount of healing from ~|spicy crunchies|~": {
 				"Items": ["Spicy crunchies"],
 				"Level": 15,
 				"Primary": false,
-				"Not Equip": true,
+				"Not Equip": false,
 				"Priority": 6
 			},
 			"Get the full amount of healing from ~|premade spicy crunchies|~": {
 				"Items": ["Premade spicy crunchies"],
 				"Level": 15,
 				"Primary": false,
-				"Not Equip": true,
+				"Not Equip": false,
 				"Priority": 7
 			},
 			"Get the full amount of healing from ~|roast rabbit|~": {
 				"Items": ["Roast rabbit"],
 				"Level": 16,
 				"Primary": false,
-				"Not Equip": true,
+				"Not Equip": false,
 				"Priority": 1
 			},
 			"Get the full amount of healing from ~|cod|~": {
 				"Items": ["Cod"],
 				"Level": 18,
 				"Primary": false,
-				"Not Equip": true,
+				"Not Equip": false,
 				"Priority": 1
 			},
 			"Get the full amount of healing from ~|Wizard Blizzards|~": {
 				"Items": ["Wizard Blizzard"],
 				"Level": 18,
 				"Primary": false,
-				"Not Equip": true,
+				"Not Equip": false,
 				"Priority": 2
 			},
 			"Get the full amount of healing from ~|premade Wizard Blizzards|~": {
 				"Items": ["Premade Wizard Blizzard"],
 				"Level": 18,
 				"Primary": false,
-				"Not Equip": true,
+				"Not Equip": false,
 				"Priority": 3
 			},
 			"Get the full amount of healing from ~|pike|~": {
 				"Items": ["Pike"],
 				"Level": 20,
 				"Primary": false,
-				"Not Equip": true,
+				"Not Equip": false,
 				"Priority": 1
 			},
 			"Get the full amount of healing from ~|toad crunchies|~": {
 				"Items": ["Toad crunchies"],
 				"Level": 20,
 				"Primary": false,
-				"Not Equip": true,
+				"Not Equip": false,
 				"Priority": 2
 			},
 			"Get the full amount of healing from ~|premade toad crunchies|~": {
 				"Items": ["Premade toad crunchies"],
 				"Level": 20,
 				"Primary": false,
-				"Not Equip": true,
+				"Not Equip": false,
 				"Priority": 3
 			},
 			"Get the full amount of healing from ~|Short Green Guys|~": {
 				"Items": ["Short Green Guy"],
 				"Level": 20,
 				"Primary": false,
-				"Not Equip": true,
+				"Not Equip": false,
 				"Priority": 4
 			},
 			"Get the full amount of healing from ~|premade Short Green Guys|~": {
 				"Items": ["Premade Short Green Guy"],
 				"Level": 20,
 				"Primary": false,
-				"Not Equip": true,
+				"Not Equip": false,
 				"Priority": 5
 			},
 			"Get the full amount of healing from ~|worm crunchies|~": {
 				"Items": ["Worm crunchies"],
 				"Level": 20,
 				"Primary": false,
-				"Not Equip": true,
+				"Not Equip": false,
 				"Priority": 6
 			},
 			"Get the full amount of healing from ~|premade worm crunchies|~": {
 				"Items": ["Premade worm crunchies"],
 				"Level": 20,
 				"Primary": false,
-				"Not Equip": true,
+				"Not Equip": false,
 				"Priority": 7
 			},
 			"Get the full amount of healing from ~|roast beast meat|~": {
 				"Items": ["Roast beast meat"],
 				"Level": 21,
 				"Primary": false,
-				"Not Equip": true,
+				"Not Equip": false,
 				"Priority": 1
 			},
 			"Get the full amount of healing from ~|egg and tomato|~": {
 				"Items": ["Egg and tomato"],
 				"Level": 23,
 				"Primary": false,
-				"Not Equip": true,
+				"Not Equip": false,
 				"Priority": 1
 			},
 			"Get the full amount of healing from ~|salmon|~": {
 				"Items": ["Salmon"],
 				"Level": 25,
 				"Primary": false,
-				"Not Equip": true,
+				"Not Equip": false,
 				"Priority": 1
 			},
 			"Use a ~|portent of restoration III|~": {
@@ -8053,7 +8053,7 @@
 					"Divination": 25
 				},
 				"Primary": false,
-				"Not Equip": true,
+				"Not Equip": false,
 				"Priority": 2
 			},
 			"Use an ~|attuned portent of restoration III|~": {
@@ -8063,28 +8063,28 @@
 					"Divination": 27
 				},
 				"Primary": false,
-				"Not Equip": true,
+				"Not Equip": false,
 				"Priority": 3
 			},
 			"Get the full amount of healing from ~|cheese and tomato battas|~": {
 				"Items": ["Cheese+tom batta"],
 				"Level": 28,
 				"Primary": false,
-				"Not Equip": true,
+				"Not Equip": false,
 				"Priority": 1
 			},
 			"Get the full amount of healing from ~|premade cheese and tomato battas|~": {
 				"Items": ["Premade c+t batta"],
 				"Level": 28,
 				"Primary": false,
-				"Not Equip": true,
+				"Not Equip": false,
 				"Priority": 1
 			},
 			"Get the full amount of healing from ~|tuna|~": {
 				"Items": ["Tuna"],
 				"Level": 30,
 				"Primary": false,
-				"Not Equip": true,
+				"Not Equip": false,
 				"Priority": 1
 			},
 			"Use a ~|portent of restoration IV|~": {
@@ -8094,7 +8094,7 @@
 					"Divination": 35
 				},
 				"Primary": false,
-				"Not Equip": true,
+				"Not Equip": false,
 				"Priority": 2
 			},
 			"Use an ~|attuned portent of restoration IV|~": {
@@ -8104,189 +8104,189 @@
 					"Divination": 37
 				},
 				"Primary": false,
-				"Not Equip": true,
+				"Not Equip": false,
 				"Priority": 3
 			},
 			"Get the full amount of healing from ~|cooked chompy|~": {
 				"Items": ["Cooked chompy"],
 				"Level": 30,
 				"Primary": false,
-				"Not Equip": true,
+				"Not Equip": false,
 				"Priority": 4
 			},
 			"Get the full amount of healing from ~|cheesecakes|~": {
 				"Items": ["Cheesecake"],
 				"Level": 30,
 				"Primary": false,
-				"Not Equip": true,
+				"Not Equip": false,
 				"Priority": 5
 			},
 			"Get the full amount of healing from ~|chopped tuna|~": {
 				"Items": ["Chopped tuna"],
 				"Level": 30,
 				"Primary": false,
-				"Not Equip": true,
+				"Not Equip": false,
 				"Priority": 6
 			},
 			"Get the full amount of healing from ~|cooked karambwan|~": {
 				"Items": ["Cooked karambwan"],
 				"Level": 30,
 				"Primary": false,
-				"Not Equip": true,
+				"Not Equip": false,
 				"Priority": 7
 			},
 			"Get the full amount of healing from ~|Drunk Dragons|~": {
 				"Items": ["Drunk Dragon"],
 				"Level": 32,
 				"Primary": false,
-				"Not Equip": true,
+				"Not Equip": false,
 				"Priority": 1
 			},
 			"Get the full amount of healing from ~|premade Drunk Dragons|~": {
 				"Items": ["Premade Drunk Dragon"],
 				"Level": 32,
 				"Primary": false,
-				"Not Equip": true,
+				"Not Equip": false,
 				"Priority": 2
 			},
 			"Get the full amount of healing from ~|Chocolate Saturdays|~": {
 				"Items": ["Chocolate Saturday"],
 				"Level": 33,
 				"Primary": false,
-				"Not Equip": true,
+				"Not Equip": false,
 				"Priority": 1
 			},
 			"Get the full amount of healing from ~|premade Chocolate Saturdays|~": {
 				"Items": ["Premade Chocolate Saturday"],
 				"Level": 33,
 				"Primary": false,
-				"Not Equip": true,
+				"Not Equip": false,
 				"Priority": 2
 			},
 			"Get the full amount of healing from ~|garden pies|~": {
 				"Items": ["Garden pie"],
 				"Level": 34,
 				"Primary": false,
-				"Not Equip": true,
+				"Not Equip": false,
 				"Priority": 1
 			},
 			"Get the full amount of healing from ~|plain pizzas|~": {
 				"Items": ["Plain pizza"],
 				"Level": 35,
 				"Primary": false,
-				"Not Equip": true,
+				"Not Equip": false,
 				"Priority": 1
 			},
 			"Get the full amount of healing from ~|fruit battas|~": {
 				"Items": ["Fruit batta"],
 				"Level": 35,
 				"Primary": false,
-				"Not Equip": true,
+				"Not Equip": false,
 				"Priority": 2
 			},
 			"Get the full amount of healing from ~|premade fruit battas|~": {
 				"Items": ["Premade fruit batta"],
 				"Level": 35,
 				"Primary": false,
-				"Not Equip": true,
+				"Not Equip": false,
 				"Priority": 3
 			},
 			"Get the full amount of healing from ~|rainbow fish|~": {
 				"Items": ["Rainbow fish"],
 				"Level": 35,
 				"Primary": false,
-				"Not Equip": true,
+				"Not Equip": false,
 				"Priority": 4
 			},
 			"Get the full amount of healing from ~|toad battas|~": {
 				"Items": ["Toad batta"],
 				"Level": 35,
 				"Primary": false,
-				"Not Equip": true,
+				"Not Equip": false,
 				"Priority": 5
 			},
 			"Get the full amount of healing from ~|premade toad battas|~": {
 				"Items": ["Premade toad batta"],
 				"Level": 35,
 				"Primary": false,
-				"Not Equip": true,
+				"Not Equip": false,
 				"Priority": 6
 			},
 			"Get the full amount of healing from ~|vegetable battas|~": {
 				"Items": ["Vegatable batta"],
 				"Level": 35,
 				"Primary": false,
-				"Not Equip": true,
+				"Not Equip": false,
 				"Priority": 7
 			},
 			"Get the full amount of healing from ~|premade vegetable battas|~": {
 				"Items": ["Premade veg batta"],
 				"Level": 35,
 				"Primary": false,
-				"Not Equip": true,
+				"Not Equip": false,
 				"Priority": 8
 			},
 			"Get the full amount of healing from ~|worm battas|~": {
 				"Items": ["Worm batta"],
 				"Level": 35,
 				"Primary": false,
-				"Not Equip": true,
+				"Not Equip": false,
 				"Priority": 9
 			},
 			"Get the full amount of healing from ~|premade worm battas|~": {
 				"Items": ["Premade worm batta"],
 				"Level": 35,
 				"Primary": false,
-				"Not Equip": true,
+				"Not Equip": false,
 				"Priority": 10
 			},
 			"Get the full amount of healing from ~|vanilla cheesecake|~": {
 				"Items": ["Vanilla cheesecake"],
 				"Level": 36,
 				"Primary": false,
-				"Not Equip": true,
+				"Not Equip": false,
 				"Priority": 1
 			},
 			"Get the full amount of healing from ~|Fruit Blasts|~": {
 				"Items": ["Fruit Blast"],
 				"Level": 37,
 				"Primary": false,
-				"Not Equip": true,
+				"Not Equip": false,
 				"Priority": 1
 			},
 			"Get the full amount of healing from ~|premade Fruit Blasts|~": {
 				"Items": ["Premade Fruit Blast"],
 				"Level": 37,
 				"Primary": false,
-				"Not Equip": true,
+				"Not Equip": false,
 				"Priority": 2
 			},
 			"Get the full amount of healing from ~|Blurberry Specials|~": {
 				"Items": ["Blurberry Special"],
 				"Level": 37,
 				"Primary": false,
-				"Not Equip": true,
+				"Not Equip": false,
 				"Priority": 3
 			},
 			"Get the full amount of healing from ~|premade Blurberry Specials|~": {
 				"Items": ["Premade Blurberry Special"],
 				"Level": 37,
 				"Primary": false,
-				"Not Equip": true,
+				"Not Equip": false,
 				"Priority": 4
 			},
 			"Get the full amount of healing from ~|potatoes with butter|~": {
 				"Items": ["Potato with butter"],
 				"Level": 39,
 				"Primary": false,
-				"Not Equip": true,
+				"Not Equip": false,
 				"Priority": 1
 			},
 			"Get the full amount of healing from ~|cakes|~": {
 				"Items": ["Cake"],
 				"Level": 40,
 				"Primary": false,
-				"Not Equip": true,
+				"Not Equip": false,
 				"Priority": 1
 			},
 			"Use a ~|portent of restoration V|~": {
@@ -8296,7 +8296,7 @@
 					"Divination": 45
 				},
 				"Primary": false,
-				"Not Equip": true,
+				"Not Equip": false,
 				"Priority": 2
 			},
 			"Use an ~|attuned portent of restoration V|~": {
@@ -8306,42 +8306,42 @@
 					"Divination": 47
 				},
 				"Primary": false,
-				"Not Equip": true,
+				"Not Equip": false,
 				"Priority": 3
 			},
 			"Get the full amount of healing from ~|veg balls|~": {
 				"Items": ["Veg ball"],
 				"Level": 40,
 				"Primary": false,
-				"Not Equip": true,
+				"Not Equip": false,
 				"Priority": 4
 			},
 			"Get the full amount of healing from ~|premade veg balls|~": {
 				"Items": ["Premade veg ball"],
 				"Level": 40,
 				"Primary": false,
-				"Not Equip": true,
+				"Not Equip": false,
 				"Priority": 5
 			},
 			"Get the full amount of healing from ~|worm hole|~": {
 				"Items": ["Worm hole"],
 				"Level": 40,
 				"Primary": false,
-				"Not Equip": true,
+				"Not Equip": false,
 				"Priority": 6
 			},
 			"Get the full amount of healing from ~|premade worm hole|~": {
 				"Items": ["Premade worm hole"],
 				"Level": 40,
 				"Primary": false,
-				"Not Equip": true,
+				"Not Equip": false,
 				"Priority": 7
 			},
 			"Get the full amount of healing from ~|cooked jubbly|~": {
 				"Items": ["Cooked jubbly"],
 				"Level": 41,
 				"Primary": false,
-				"Not Equip": true,
+				"Not Equip": false,
 				"Priority": 1
 			},
 			"Wear a piece of ~|Void Knight equipment|~": {
@@ -8362,49 +8362,49 @@
 				"Items": ["Chocolate cheesecake"],
 				"Level": 42,
 				"Primary": false,
-				"Not Equip": true,
+				"Not Equip": false,
 				"Priority": 2
 			},
 			"Get the full amount of healing from ~|cooked oomlie wraps|~": {
 				"Items": ["Cooked oomlie wrap"],
 				"Level": 45,
 				"Primary": false,
-				"Not Equip": true,
+				"Not Equip": false,
 				"Priority": 1
 			},
 			"Get the full amount of healing from ~|potatoes with cheese|~": {
 				"Items": ["Potato with cheese"],
 				"Level": 46,
 				"Primary": false,
-				"Not Equip": true,
+				"Not Equip": false,
 				"Priority": 1
 			},
 			"Get the full amount of healing from ~|fish pies|~": {
 				"Items": ["Fish pie"],
 				"Level": 47,
 				"Primary": false,
-				"Not Equip": true,
+				"Not Equip": false,
 				"Priority": 1
 			},
 			"Get the full amount of healing from ~|lobsters|~": {
 				"Items": ["Lobster"],
 				"Level": 48,
 				"Primary": false,
-				"Not Equip": true,
+				"Not Equip": false,
 				"Priority": 1
 			},
 			"Get the full amount of healing from ~|strawberry cheesecakes|~": {
 				"Items": ["Strawberry cheesecake"],
 				"Level": 48,
 				"Primary": false,
-				"Not Equip": true,
+				"Not Equip": false,
 				"Priority": 2
 			},
 			"Get the full amount of healing from ~|chocolate cakes|~": {
 				"Items": ["Chocolate cake"],
 				"Level": 50,
 				"Primary": false,
-				"Not Equip": true,
+				"Not Equip": false,
 				"Priority": 1
 			},
 			"Use a ~|portent of restoration VI|~": {
@@ -8414,7 +8414,7 @@
 					"Divination": 55
 				},
 				"Primary": false,
-				"Not Equip": true,
+				"Not Equip": false,
 				"Priority": 2
 			},
 			"Use an ~|attuned portent of restoration VI|~": {
@@ -8424,7 +8424,7 @@
 					"Divination": 57
 				},
 				"Primary": false,
-				"Not Equip": true,
+				"Not Equip": false,
 				"Priority": 3
 			},
 			"Unlock the ~|Tuska's Wrath|~ ability": {
@@ -8437,126 +8437,126 @@
 				"Items": ["Chilli potato"],
 				"Level": 50,
 				"Primary": false,
-				"Not Equip": true,
+				"Not Equip": false,
 				"Priority": 5
 			},
 			"Get the full amount of healing from ~|bass|~": {
 				"Items": ["Bass"],
 				"Level": 52,
 				"Primary": false,
-				"Not Equip": true,
+				"Not Equip": false,
 				"Priority": 1
 			},
 			"Get the full amount of healing from ~|lava eels|~": {
 				"Items": ["Lava eel"],
 				"Level": 53,
 				"Primary": false,
-				"Not Equip": true,
+				"Not Equip": false,
 				"Priority": 1
 			},
 			"Get the full amount of healing from ~|lemon cheesecake|~": {
 				"Items": ["Lemon cheesecake"],
 				"Level": 54,
 				"Primary": false,
-				"Not Equip": true,
+				"Not Equip": false,
 				"Priority": 1
 			},
 			"Get the full amount of healing from ~|anchovy pizzas|~": {
 				"Items": ["Anchovy pizza"],
 				"Level": 55,
 				"Primary": false,
-				"Not Equip": true,
+				"Not Equip": false,
 				"Priority": 1
 			},
 			"Get the full amount of healing from ~|egg potatoes|~": {
 				"Items": ["Egg potato"],
 				"Level": 55,
 				"Primary": false,
-				"Not Equip": true,
+				"Not Equip": false,
 				"Priority": 2
 			},
 			"Get the full amount of healing from ~|swordfish|~": {
 				"Items": ["Swordfish"],
 				"Level": 56,
 				"Primary": false,
-				"Not Equip": true,
+				"Not Equip": false,
 				"Priority": 1
 			},
 			"Get the full amount of healing from ~|arcane apoterrasaur meat|~": {
 				"Items": ["Arcane apoterrasaur meat"],
 				"Level": 56,
 				"Primary": false,
-				"Not Equip": true,
+				"Not Equip": false,
 				"Priority": 2
 			},
 			"Get the full amount of healing from ~|bagrada rex meat|~": {
 				"Items": ["Bagrada rex meat"],
 				"Level": 56,
 				"Primary": false,
-				"Not Equip": true,
+				"Not Equip": false,
 				"Priority": 3
 			},
 			"Get the full amount of healing from ~|scimitops meat|~": {
 				"Items": ["Scimitops meat"],
 				"Level": 56,
 				"Primary": false,
-				"Not Equip": true,
+				"Not Equip": false,
 				"Priority": 1
 			},
 			"Get the full amount of healing from ~|desert soles|~": {
 				"Items": ["Desert sole"],
 				"Level": 58,
 				"Primary": false,
-				"Not Equip": true,
+				"Not Equip": false,
 				"Priority": 1
 			},
 			"Get the full amount of healing from ~|bacon cheesecakes|~": {
 				"Items": ["Bacon cheesecake"],
 				"Level": 60,
 				"Primary": false,
-				"Not Equip": true,
+				"Not Equip": false,
 				"Priority": 1
 			},
 			"Get the full amount of healing from ~|catfish|~": {
 				"Items": ["Catfish"],
 				"Level": 60,
 				"Primary": false,
-				"Not Equip": true,
+				"Not Equip": false,
 				"Priority": 2
 			},
 			"Get the full amount of healing from ~|chocolate bombs|~": {
 				"Items": ["Chocolate bomb"],
 				"Level": 60,
 				"Primary": false,
-				"Not Equip": true,
+				"Not Equip": false,
 				"Priority": 3
 			},
 			"Get the full amount of healing from ~|premade chocolate bombs|~": {
 				"Items": ["Premade choc bomb"],
 				"Level": 60,
 				"Primary": false,
-				"Not Equip": true,
+				"Not Equip": false,
 				"Priority": 4
 			},
 			"Get the full amount of healing from ~|curry|~": {
 				"Items": ["Curry"],
 				"Level": 60,
 				"Primary": false,
-				"Not Equip": true,
+				"Not Equip": false,
 				"Priority": 5
 			},
 			"Get the full amount of healing from ~|tangled toads' legs|~": {
 				"Items": ["Tangled toads' legs"],
 				"Level": 60,
 				"Primary": false,
-				"Not Equip": true,
+				"Not Equip": false,
 				"Priority": 6
 			},
 			"Get the full amount of healing from ~|premade tangled toads' legs|~": {
 				"Items": ["Premade ttl"],
 				"Level": 60,
 				"Primary": false,
-				"Not Equip": true,
+				"Not Equip": false,
 				"Priority": 7
 			},
 			"Use a ~|portent of restoration VII|~": {
@@ -8566,7 +8566,7 @@
 					"Divination": 65
 				},
 				"Primary": false,
-				"Not Equip": true,
+				"Not Equip": false,
 				"Priority": 1
 			},
 			"Use an ~|attuned portent of restoration VII|~": {
@@ -8576,35 +8576,35 @@
 					"Divination": 67
 				},
 				"Primary": false,
-				"Not Equip": true,
+				"Not Equip": false,
 				"Priority": 2
 			},
 			"Get the full amount of healing from ~|monkfish|~": {
 				"Items": ["Monkfish"],
 				"Level": 64,
 				"Primary": false,
-				"Not Equip": true,
+				"Not Equip": false,
 				"Priority": 1
 			},
 			"Get the full amount of healing from ~|pineapple pizzas|~": {
 				"Items": ["Pineapple pizza"],
 				"Level": 65,
 				"Primary": false,
-				"Not Equip": true,
+				"Not Equip": false,
 				"Priority": 1
 			},
 			"Get the full amount of healing from ~|beltfish|~": {
 				"Items": ["Beltfish"],
 				"Level": 66,
 				"Primary": false,
-				"Not Equip": true,
+				"Not Equip": false,
 				"Priority": 1
 			},
 			"Get the full amount of healing from ~|tuna and corn|~": {
 				"Items": ["Tuna and corn"],
 				"Level": 67,
 				"Primary": false,
-				"Not Equip": true,
+				"Not Equip": false,
 				"Priority": 1
 			},
 			"Access ~|Zamorak's Fortress|~ in the God Wars Dungeon": {
@@ -8623,91 +8623,91 @@
 				"Items": ["Admiral pies"],
 				"Level": 70,
 				"Primary": false,
-				"Not Equip": true,
+				"Not Equip": false,
 				"Priority": 3
 			},
 			"Get the full amount of healing from ~|asciatops meat|~": {
 				"Items": ["Asciatops meat"],
 				"Level": 72,
 				"Primary": false,
-				"Not Equip": true,
+				"Not Equip": false,
 				"Priority": 1
 			},
 			"Get the full amount of healing from ~|corbicula rex meat|~": {
 				"Items": ["Corbicula rex meat"],
 				"Level": 72,
 				"Primary": false,
-				"Not Equip": true,
+				"Not Equip": false,
 				"Priority": 2
 			},
 			"Get the full amount of healing from ~|spicati apoterrasaur meat|~": {
 				"Items": ["Spicati apoterrasaur meat"],
 				"Level": 72,
 				"Primary": false,
-				"Not Equip": true,
+				"Not Equip": false,
 				"Priority": 3
 			},
 			"Get the full amount of healing from ~|cooked eeligator|~": {
 				"Items": ["Cooked eeligator"],
 				"Level": 75,
 				"Primary": false,
-				"Not Equip": true,
+				"Not Equip": false,
 				"Priority": 1
 			},
 			"Get the full amount of healing from ~|evil turnips|~": {
 				"Items": ["Evil turnip"],
 				"Level": 77,
 				"Primary": false,
-				"Not Equip": true,
+				"Not Equip": false,
 				"Priority": 1
 			},
 			"Get the full amount of healing from ~|dragonfruits|~": {
 				"Items": ["Dragonfruit"],
 				"Level": 78,
 				"Primary": false,
-				"Not Equip": true,
+				"Not Equip": false,
 				"Priority": 1
 			},
 			"Get the full amount of healing from ~|avocados|~": {
 				"Items": ["Avocado"],
 				"Level": 78,
 				"Primary": false,
-				"Not Equip": true,
+				"Not Equip": false,
 				"Priority": 2
 			},
 			"Get the full amount of healing from ~|cikus|~": {
 				"Items": ["Ciku"],
 				"Level": 78,
 				"Primary": false,
-				"Not Equip": true,
+				"Not Equip": false,
 				"Priority": 3
 			},
 			"Get the full amount of healing from ~|mangos|~": {
 				"Items": ["Mango"],
 				"Level": 78,
 				"Primary": false,
-				"Not Equip": true,
+				"Not Equip": false,
 				"Priority": 4
 			},
 			"Get the full amount of healing from ~|guaranas|~": {
 				"Items": ["Guarana"],
 				"Level": 78,
 				"Primary": false,
-				"Not Equip": true,
+				"Not Equip": false,
 				"Priority": 5
 			},
 			"Get the full amount of healing from ~|lychees|~": {
 				"Items": ["Lychees"],
 				"Level": 78,
 				"Primary": false,
-				"Not Equip": true,
+				"Not Equip": false,
 				"Priority": 6
 			},
 			"Get the full amount of healing from ~|carambolas|~": {
 				"Items": ["Carambola"],
 				"Level": 78,
 				"Primary": false,
-				"Not Equip": true,
+				"Not Equip": false,
 				"Priority": 7
 			},
 			"Wear ~|torva armour|~": {
@@ -8732,7 +8732,7 @@
 				"Items": ["Shark"],
 				"Level": 80,
 				"Primary": false,
-				"Not Equip": true,
+				"Not Equip": false,
 				"Priority": 4
 			},
 			"Use a ~|portent of restoration VIII|~": {
@@ -8742,7 +8742,7 @@
 					"Divination": 75
 				},
 				"Primary": false,
-				"Not Equip": true,
+				"Not Equip": false,
 				"Priority": 5
 			},
 			"Use an ~|attuned portent of restoration VIII|~": {
@@ -8752,7 +8752,7 @@
 					"Divination": 77
 				},
 				"Primary": false,
-				"Not Equip": true,
+				"Not Equip": false,
 				"Priority": 6
 			},
 			"Use a ~|portent of degradation I|~": {
@@ -8762,7 +8762,7 @@
 					"Divination": 75
 				},
 				"Primary": false,
-				"Not Equip": true,
+				"Not Equip": false,
 				"Priority": 7
 			},
 			"Use an ~|attuned portent of degradation I|~": {
@@ -8772,28 +8772,28 @@
 					"Divination": 77
 				},
 				"Primary": false,
-				"Not Equip": true,
+				"Not Equip": false,
 				"Priority": 8
 			},
 			"Get the full amount of healing from ~|baron sharks|~": {
 				"Items": ["Baron shark"],
 				"Level": 80,
 				"Primary": false,
-				"Not Equip": true,
+				"Not Equip": false,
 				"Priority": 9
 			},
 			"Get the full amount of healing from ~|mushroom potato|~": {
 				"Items": ["Mushroom potato"],
 				"Level": 80,
 				"Primary": false,
-				"Not Equip": true,
+				"Not Equip": false,
 				"Priority": 10
 			},
 			"Enter the ~|Crondis tomb|~": {
 				"Chunks": ["13097"],
 				"Level": 80,
 				"Primary": false,
-				"Not Equip": true,
+				"Not Equip": false,
 				"Priority": 11
 				
 			},
@@ -8801,28 +8801,28 @@
 				"Items": ["Sea turtle"],
 				"Level": 82,
 				"Primary": false,
-				"Not Equip": true,
+				"Not Equip": false,
 				"Priority": 1
 			},
 			"Get the full amount of healing from ~|great maki|~": {
 				"Items": ["Great maki"],
 				"Level": 84,
 				"Primary": false,
-				"Not Equip": true,
+				"Not Equip": false,
 				"Priority": 1
 			},
 			"Get the full amount of healing from ~|tuna potatoes|~": {
 				"Items": ["Tuna potato"],
 				"Level": 85,
 				"Primary": false,
-				"Not Equip": true,
+				"Not Equip": false,
 				"Priority": 1
 			},
 			"Get the full amount of healing from ~|wild pies|~": {
 				"Items": ["Wild pie"],
 				"Level": 85,
 				"Primary": false,
-				"Not Equip": true,
+				"Not Equip": false,
 				"Priority": 2
 			},
 			"Unlock the ~|Guthix's Blessing|~ ability": {
@@ -8841,14 +8841,14 @@
 				"Items": ["Scorpion meat"],
 				"Level": 85,
 				"Primary": false,
-				"Not Equip": true,
+				"Not Equip": false,
 				"Priority": 5
 			},
 			"Get the full amount of healing from ~|cavefish|~": {
 				"Items": ["Cavefish"],
 				"Level": 88,
 				"Primary": false,
-				"Not Equip": true,
+				"Not Equip": false,
 				"Priority": 1
 			},
 			"Use a ~|portent of restoration IX|~": {
@@ -8858,7 +8858,7 @@
 					"Divination": 86
 				},
 				"Primary": false,
-				"Not Equip": true,
+				"Not Equip": false,
 				"Priority": 2
 			},
 			"Use an ~|attuned portent of restoration IX|~": {
@@ -8868,7 +8868,7 @@
 					"Divination": 87
 				},
 				"Primary": false,
-				"Not Equip": true,
+				"Not Equip": false,
 				"Priority": 3
 			},
 			"Use a ~|portent of degradation II|~": {
@@ -8878,7 +8878,7 @@
 					"Divination": 86
 				},
 				"Primary": false,
-				"Not Equip": true,
+				"Not Equip": false,
 				"Priority": 4
 			},
 			"Use an ~|attuned portent of degradation II|~": {
@@ -8888,49 +8888,49 @@
 					"Divination": 87
 				},
 				"Primary": false,
-				"Not Equip": true,
+				"Not Equip": false,
 				"Priority": 5
 			},
 			"Get the full amount of healing from ~|great gunkan|~": {
 				"Items": ["Great gunkan"],
 				"Level": 88,
 				"Primary": false,
-				"Not Equip": true,
+				"Not Equip": false,
 				"Priority": 4
 			},
 			"Get the full amount of healing from ~|malletops meat|~": {
 				"Items": ["Malletops meat"],
 				"Level": 88,
 				"Primary": false,
-				"Not Equip": true,
+				"Not Equip": false,
 				"Priority": 5
 			},
 			"Get the full amount of healing from ~|oculi apoterrasaur meat|~": {
 				"Items": ["Oculi apoterrasaur meat"],
 				"Level": 88,
 				"Primary": false,
-				"Not Equip": true,
+				"Not Equip": false,
 				"Priority": 6
 			},
 			"Get the full amount of healing from ~|pavosaurus rex meat|~": {
 				"Items": ["Pavosaurus rex meat"],
 				"Level": 88,
 				"Primary": false,
-				"Not Equip": true,
+				"Not Equip": false,
 				"Priority": 7
 			},
 			"Get the full amount of healing from ~|golden dragonfruits|~": {
 				"Items": ["Golden dragonfruit"],
 				"Level": 89,
 				"Primary": false,
-				"Not Equip": true,
+				"Not Equip": false,
 				"Priority": 1
 			},
 			"Get the full amount of healing from ~|Arc gumbo|~": {
 				"Items": ["Arc gumbo"],
 				"Level": 89,
 				"Primary": false,
-				"Not Equip": true,
+				"Not Equip": false,
 				"Priority": 2
 			},
 			"Unlock the ~|Onslaught|~ ability": {
@@ -8943,7 +8943,7 @@
 				"Items": ["Juju gumbo"],
 				"Level": 90,
 				"Primary": false,
-				"Not Equip": true,
+				"Not Equip": false,
 				"Priority": 2
 			},
 			"Create a ~|portent of restoration X|~ in Daemonheim": {
@@ -8968,42 +8968,42 @@
 				"Items": ["Great white sharks"],
 				"Level": 91,
 				"Primary": false,
-				"Not Equip": true,
+				"Not Equip": false,
 				"Priority": 2
 			},
 			"Get the full amount of healing from ~|manta rays|~": {
 				"Items": ["Manta ray"],
 				"Level": 91,
 				"Primary": false,
-				"Not Equip": true,
+				"Not Equip": false,
 				"Priority": 1
 			},
 			"Get the full amount of healing from ~|rocktails|~": {
 				"Items": ["Rocktail"],
 				"Level": 92,
 				"Primary": false,
-				"Not Equip": true,
+				"Not Equip": false,
 				"Priority": 1
 			},
 			"Get the full amount of healing from ~|primal starter|~s": {
 				"Items": ["Primal starter"],
 				"Level": 92,
 				"Primary": false,
-				"Not Equip": true,
+				"Not Equip": false,
 				"Priority": 2
 			},
 			"Get the full amount of healing from ~|primal main course|~s": {
 				"Items": ["Primal main course"],
 				"Level": 93,
 				"Primary": false,
-				"Not Equip": true,
+				"Not Equip": false,
 				"Priority": 3
 			},
 			"Get the full amount of healing from ~|primal dessert|~s": {
 				"Items": ["Primal dessert"],
 				"Level": 92,
 				"Primary": false,
-				"Not Equip": true,
+				"Not Equip": false,
 				"Priority": 4
 			},
 			"Use a ~|portent of restoration X|~": {
@@ -9013,7 +9013,7 @@
 					"Divination": 97
 				},
 				"Primary": false,
-				"Not Equip": true,
+				"Not Equip": false,
 				"Priority": 1
 			},
 			"Use an ~|attuned portent of restoration X|~": {
@@ -9023,7 +9023,7 @@
 					"Divination": 98
 				},
 				"Primary": false,
-				"Not Equip": true,
+				"Not Equip": false,
 				"Priority": 2
 			},
 			"Use a ~|portent of degradation III|~": {
@@ -9033,7 +9033,7 @@
 					"Divination": 97
 				},
 				"Primary": false,
-				"Not Equip": true,
+				"Not Equip": false,
 				"Priority": 3
 			},
 			"Use an ~|attuned portent of degradation III|~": {
@@ -9043,49 +9043,49 @@
 					"Divination": 98
 				},
 				"Primary": false,
-				"Not Equip": true,
+				"Not Equip": false,
 				"Priority": 4
 			},
 			"Get the full amount of healing from ~|shark soup|~": {
 				"Items": ["Shark soup"],
 				"Level": 94,
 				"Primary": false,
-				"Not Equip": true,
+				"Not Equip": false,
 				"Priority": 1
 			},
 			"Get the full amount of healing from ~|summer pies|~": {
 				"Items": ["Summer pie"],
 				"Level": 95,
 				"Primary": false,
-				"Not Equip": true,
+				"Not Equip": false,
 				"Priority": 1
 			},
 			"Get the full amount of healing from ~|tiger sharks|~": {
 				"Items": ["Tiger shark"],
 				"Level": 95,
 				"Primary": false,
-				"Not Equip": true,
+				"Not Equip": false,
 				"Priority": 2
 			},
 			"Get the full amount of healing from ~|rocktail soup|~": {
 				"Items": ["Rocktail soup"],
 				"Level": 96,
 				"Primary": false,
-				"Not Equip": true,
+				"Not Equip": false,
 				"Priority": 1
 			},
 			"Get the full amount of healing from ~|sailfish|~": {
 				"Items": ["Sailfish"],
 				"Level": 96,
 				"Primary": false,
-				"Not Equip": true,
+				"Not Equip": false,
 				"Priority": 2
 			},
 			"Get the full amount of healing from ~|fury sharks|~": {
 				"Items": ["Fury shark"],
 				"Level": 99,
 				"Primary": false,
-				"Not Equip": true,
+				"Not Equip": false,
 				"Priority": 2
 			},
 			"Buy the ~|Constitution cape|~": {
@@ -9113,7 +9113,7 @@
 				"Items": ["Sailfish soup"],
 				"Level": 99,
 				"Primary": false,
-				"Not Equip": true,
+				"Not Equip": false,
 				"Priority": 5
 			},
 			"Buy the ~|Max cape|~": {
