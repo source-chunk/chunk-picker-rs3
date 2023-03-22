@@ -385,6 +385,7 @@ let rules = {
 	"Gnomeball": false,
 	"Daemonheim training": false,
 	"Daemonheim tasks": false,
+	"PortSkills": false,
 };                                                                              // List of rules and their on/off state
 
 let ruleNames = {
@@ -458,6 +459,7 @@ let ruleNames = {
 	"Gnomeball": "Allow playing gnomeball to count a primary training method for agility and ranged",
 	"Daemonheim training": "Allow training methods in Daemonheim to count as primary training methods<span class='rule-asterisk noscroll'>*</span>",
 	"Daemonheim tasks": "Allows activities and items in Daemonheim, excluding doors and puzzles, to create skilling tasks<span class='rule-asterisk noscroll'>*</span>",
+	"PortSkills": "Require all trainable port skills to be trained up to 90<span class='rule-asterisk noscroll'>*</span>",
 };                                                                              // List of rule definitions
 
 let rulePresets = {
@@ -531,6 +533,7 @@ let rulePresets = {
 		"Gnomeball": true,
 		"Daemonheim training": true,
 		"Daemonheim tasks": true,
+		"PortSkills": true,
     },
     "Supreme Chunker": {
         "Skillcape": true,
@@ -589,6 +592,7 @@ let rulePresets = {
 		"Gnomeball": true,
 		"Daemonheim training": true,
 		"Daemonheim tasks": true,
+		"PortSkills": true,
     }
 };                                                                              // List of rules that are part of each preset
 
@@ -616,6 +620,7 @@ let ruleStructure = {
         "Boosting": true,
 		"Daemonheim training": true,
 		"Daemonheim tasks": true,
+		"PortSkills": true,
 		"Token": true
     },
     "Agility": {

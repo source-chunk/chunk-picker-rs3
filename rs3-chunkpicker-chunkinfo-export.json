@@ -873,6 +873,7 @@
 				"Priority": 3
 			},
 			"Unlock ~|the tengu|~ in the player-owned port": {
+				"Category": ["PortSkills"],
 				"Chunks": ["Player-Owned Port"],
 				"Level": 90,
 				"Primary": false,
@@ -13476,6 +13477,7 @@
 				"Priority": 5
 			},
 			"Unlock ~|the architect|~ in the player-owned port": {
+				"Category": ["PortSkills"],
 				"Chunks": ["Player-Owned Port"],
 				"Level": 90,
 				"Primary": false,
@@ -16471,6 +16473,7 @@
 				"Priority": 3
 			},
 			"Unlock ~|the chef|~ in the player-owned port": {
+				"Category": ["PortSkills"],
 				"Chunks": ["Player-Owned Port"],
 				"Level": 90,
 				"Primary": false,
@@ -24196,6 +24199,7 @@
 				"Priority": 2
 			},
 			"Unlock ~|the memory|~ in the player-owned port": {
+				"Category": ["PortSkills"],
 				"Chunks": ["Player-Owned Port"],
 				"Level": 90,
 				"Primary": false,
@@ -25057,6 +25061,7 @@
 				"Priority": 2
 			},
 			"Unlock ~|the exile|~ in the player-owned port": {
+				"Category": ["PortSkills"],
 				"Chunks": ["Player-Owned Port"],
 				"Level": 90,
 				"Primary": false,
@@ -32566,6 +32571,7 @@
 				"Priority": 3
 			},
 			"Unlock ~|the whaler|~ in the player-owned port": {
+				"Category": ["PortSkills"],
 				"Chunks": ["Player-Owned Port"],
 				"Level": 90,
 				"Primary": false,
@@ -36690,6 +36696,7 @@
 				"Priority": 7
 			},
 			"Unlock ~|the biologist|~ in the player-owned port": {
+				"Category": ["PortSkills"],
 				"Chunks": ["Player-Owned Port"],
 				"Level": 90,
 				"Primary": false,
@@ -38935,6 +38942,7 @@
 				"Priority": 10
 			},
 			"Unlock ~|the trapper|~ in the player-owned port": {
+				"Category": ["PortSkills"],
 				"Chunks": ["Player-Owned Port"],
 				"Level": 90,
 				"Primary": false,
@@ -44034,6 +44042,7 @@
 				"Priority": 5
 			},
 			"Unlock ~|the missionary|~ in the player-owned port": {
+				"Category": ["PortSkills"],
 				"Chunks": ["Player-Owned Port"],
 				"Level": 90,
 				"Primary": false,
@@ -47909,6 +47918,7 @@
 				"Priority": 3
 			},
 			"Unlock ~|the occultist|~ at the player-owned port": {
+				"Category": ["PortSkills"],
 				"Chunks": ["Player-Owned Port"],
 				"Level": 90,
 				"Primary": false,
@@ -49799,6 +49809,7 @@
 				"Priority": 3
 			},
 			"Unlock ~|the assassin|~ in the player-owned port": {
+				"Category": ["PortSkills"],
 				"Chunks": ["Player-Owned Port"],
 				"Level": 90,
 				"Primary": false,
@@ -55058,6 +55069,7 @@
 				"Priority": 3
 			},
 			"Unlock ~|the convict|~ in the player-owned port": {
+				"Category": ["PortSkills"],
 				"Chunks": ["Player-Owned Port"],
 				"Level": 90,
 				"Primary": false,
@@ -66981,6 +66993,11 @@
 				"Category": ["Collection Log", "Boss Collection Log", "Pets"],
 				"Label": "Boss Pets",
 				"Items": ["Ancient artefact"]
+			},
+			"Unlock Player-owned Ports with any Ports skill": {
+				"Description": "Get level 90 in one of the following skills: Agility, Construction, Cooking, Divination, Dungeoneering, Fishing, Herblore, Hunter, Prayer, Runecrafting, Slayer, Thieving",
+				"Chunks": ["12082"],
+				"Label": "Player-owned Ports"
 			}
 		},
 		"Nonskill": {
@@ -67916,6 +67933,7 @@
 				"UnlocksArea": true
 			},
 			"Brimstail's home": {
+				"Chunks": ["9525"],
 				"UnlocksArea": true
 			},
 			"Grand Tree Mine": {
@@ -68132,7 +68150,7 @@
 				"UnlocksArea": true
 			},
 			"Dorgesh-Kaan mine": {
-				"Chunks": ["Lumbridge Cellar"],
+				"Chunks": ["Lumbridge Cellar", "11830", "12854"],
 				"UnlocksArea": true
 			},
 			"Lumbridge Cellar": {	
@@ -69315,7 +69333,7 @@
 					"Cross the ~|pipe (Edgeville Dungeon%2GVarrock Sewers)|~": "Agility"
 				}
 			},
-			"Create the ~|dragonkin key|~": {
+			"Create the dragonkin key": {
 				"Items": ["Strange key teeth", "Strange key loop"],
 				"Monster": ["Mithril dragon"],
 				"Output": "Dragonkin key"
