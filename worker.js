@@ -182,6 +182,7 @@ let assignedXpRewards;
 let isDiary2Tier = false;
 let manualAreas;
 let secondaryPrimaryNum;
+let isOnlyManualAreas = false;
 
 let clueTasksPossible = {};
 let areasStructure = {};
@@ -236,6 +237,7 @@ onmessage = function(e) {
             isDiary2Tier,
             manualAreas,
             secondaryPrimaryNum,
+            isOnlyManualAreas,
         ] = eGlobal.data;
 
         if (isDiary2Tier) {
@@ -1377,7 +1379,7 @@ var calcChallenges = function(chunks, baseChunkData) {
         });
         let areasAdded = {};
         let tempChunkArray = [];
-        newValids.hasOwnProperty('Nonskill') && Object.keys(newValids['Nonskill']).filter((task) => { return !!chunkInfo['challenges']['Nonskill'][task] && chunkInfo['challenges']['Nonskill'][task].hasOwnProperty('UnlocksArea') && (!manualAreas.hasOwnProperty(task) || manualAreas[task]) }).forEach(task => {
+        !isOnlyManualAreas && newValids.hasOwnProperty('Nonskill') && Object.keys(newValids['Nonskill']).filter((task) => { return !!chunkInfo['challenges']['Nonskill'][task] && chunkInfo['challenges']['Nonskill'][task].hasOwnProperty('UnlocksArea') && (!manualAreas.hasOwnProperty(task) || manualAreas[task]) }).forEach(task => {
             if (chunkInfo['challenges']['Nonskill'][task].hasOwnProperty('SkillsNeeded')) {
                 let tempValidNeeded = true;
                 Object.keys(chunkInfo['challenges']['Nonskill'][task]['SkillsNeeded']).forEach(taskSkill => {
