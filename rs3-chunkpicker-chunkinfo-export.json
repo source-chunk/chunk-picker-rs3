@@ -68030,9 +68030,6 @@
 			"Gamers' Grotto": {
 				"UnlocksArea": true
 			},
-			"Asgarnia Ice Cave": {
-				"UnlocksArea": true
-			},
 			"Observatory": {
 				"UnlocksArea": true
 			},
@@ -107160,29 +107157,6 @@
 				"Larry's Wilderness Cape Shop": true,
 				"Rewards shop": true,
 				"Stanley Limelight Traders": true
-			}
-		},
-		"Asgarnia Ice Cave": {
-			"Object": {
-				"Crate": 8,
-				"Crates": 4,
-				"Open chest": 2,
-				"Closed chest": 1,
-				"Cave": 1,
-				"Icy Cavern": 1,
-				"Hole": 1,
-				"Blurite rock": 4
-			},
-			"Monster": {
-				"Mugger": 4,
-				"Pirate": 9,
-				"Ice warrior": 11,
-				"Skeletal wyvern": 8,
-				"Ice giant": 3,
-				"Hobgoblin": 7
-			},
-			"Connect": {
-				"5190": true
 			}
 		},
 		"Observatory": {
