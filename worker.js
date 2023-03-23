@@ -778,7 +778,7 @@ var calcChallenges = function(chunks, baseChunkData) {
         let leftoversCount = 0;
         let savedValids = {};
         let passedByTasks = {};
-        while (leftoversCount < 10 && !_.isEqual(newValids, savedValids)) {
+        while (leftoversCount < 10 && Object.keys(diff(newValids, savedValids)).length !== 0) {
             savedValids = JSON.parse(JSON.stringify(newValids));
             Object.keys(savedValids).filter((skill) => { return skill !== 'BiS' }).forEach(skill => {
                 Object.keys(savedValids[skill]).sort(function(a, b) { return skill === 'Diary' ? ((diaryTierOrder.indexOf(a.split('|')[1].split('%2F')[1]) - diaryTierOrder.indexOf(b.split('|')[1].split('%2F')[1]) === 0) ? a.replaceAll('Task ', '').localeCompare(b.replaceAll('Task ', ''), 'en', { numeric: true }) : (diaryTierOrder.indexOf(a.split('|')[1].split('%2F')[1]) - diaryTierOrder.indexOf(b.split('|')[1].split('%2F')[1]))) : a.replaceAll('Task ', '').localeCompare(b.replaceAll('Task ', ''), 'en', { numeric: true }) }).forEach(challenge => {
@@ -2200,7 +2200,7 @@ var calcChallenges = function(chunks, baseChunkData) {
         });
         globalValids = {...newValids};
         //console.log(i);
-    } while ((!_.isEqual(valids, newValids) && i < 10) || i < 3);
+    } while ((Object.keys(diff(valids, newValids)).length !== 0 && i < 10) || i < 3);
     valids = newValids;
     //console.log(baseChunkData);
     tempChunkData = baseChunkData;
@@ -2208,7 +2208,7 @@ var calcChallenges = function(chunks, baseChunkData) {
 }
 
 // Gets diff between 2 objects
-function diff(obj1, obj2) {
+function diff(obj1, obj2, isInner) {
     const result = {};
     if (Object.is(obj1, obj2)) {
         return undefined;
@@ -2217,14 +2217,17 @@ function diff(obj1, obj2) {
         return obj2;
     }
     Object.keys(obj1 || {}).concat(Object.keys(obj2 || {})).forEach(key => {
-        if(obj2[key] !== obj1[key] && !Object.is(obj1[key], obj2[key])) {
+        if (obj2[key] !== obj1[key] && !Object.is(obj1[key], obj2[key])) {
             result[key] = obj2[key];
         }
-        if(typeof obj2[key] === 'object' && typeof obj1[key] === 'object') {
-            const value = diff(obj1[key], obj2[key]);
+        if (typeof obj2[key] === 'object' && typeof obj1[key] === 'object') {
+            const value = diff(obj1[key], obj2[key], true);
             if (value !== undefined) {
                 result[key] = value;
             }
+        }
+        if (!!result[key] && Object.keys(result[key]).length === 0) {
+            delete result[key];
         }
     });
     return result;
@@ -3392,7 +3395,19 @@ var checkPrimaryMethod = function(skill, valids, baseChunkData) {
             !!baseChunkData['items'] && rangedItems.forEach(set => {
                 let innerValid = true;
                 set.forEach(item => {
-                    if (!!baseChunkData['items'] && !Object.keys(baseChunkData['items']).includes(item.replaceAll(/\*/g, ''))) {
+                    if (item.replaceAll(/\*/g, '').includes('+')) {
+                        if (!itemsPlus[item.replaceAll(/\*/g, '')] || itemsPlus[item.replaceAll(/\*/g, '')].filter((plus) => { return !!baseChunkData['items'][plus] }).length <= 0) {
+                            innerValid = false;
+                        } else if (item.includes('*')) {
+                            let tempSecondary = true;
+                            !!itemsPlus[item.replaceAll(/\*/g, '')] && itemsPlus[item.replaceAll(/\*/g, '')].forEach(plus => {
+                                if (!!baseChunkData['items'][plus] && Object.keys(baseChunkData['items'][plus]).filter((source) => { return (!baseChunkData['items'][plus][source].includes('secondary-') && (!processingSkill[baseChunkData['items'][plus][source].split('-')[1]] || rules['Wield Crafted Items'])) || (baseChunkData['items'][plus][source]['primary-'] && (!processingSkill[baseChunkData['items'][plus][source].split('-')[1]] || rules['Wield Crafted Items'])) || baseChunkData['items'][plus][source] === 'shop' }).length > 0) {
+                                    tempSecondary = false;
+                                }
+                            });
+                            tempSecondary && (innerValid = false);
+                        }
+                    } else if (!!baseChunkData['items'] && !Object.keys(baseChunkData['items']).includes(item.replaceAll(/\*/g, ''))) {
                         innerValid = false;
                     } else if (item.includes('*')) {
                         let tempSecondary = !(!!baseChunkData['items'][item.replaceAll(/\*/g, '')] && Object.keys(baseChunkData['items'][item.replaceAll(/\*/g, '')]).filter((source) => { return (!baseChunkData['items'][item.replaceAll(/\*/g, '')][source].includes('secondary-') && (!processingSkill[baseChunkData['items'][item.replaceAll(/\*/g, '')][source].split('-')[1]] || rules['Wield Crafted Items'])) || (baseChunkData['items'][item.replaceAll(/\*/g, '')][source]['primary-'] && (!processingSkill[baseChunkData['items'][item.replaceAll(/\*/g, '')][source].split('-')[1]] || rules['Wield Crafted Items'])) || baseChunkData['items'][item.replaceAll(/\*/g, '')][source] === 'shop' }).length > 0);
