@@ -44911,6 +44911,7 @@
 					"Strength": 80,
 					"Agility": 80
 				},
+				"Not Equip": true,
 				"Priority": 1
 			},
 			"Play a game of ~|Gnome ball|~": {
@@ -44933,6 +44934,7 @@
 					"Strength": 17,
 					"Agility": 8
 				},
+				"Not Equip": true,
 				"Priority": 1
 			},
 			"Cross the ~|wall (Falador)|~": {
@@ -44945,6 +44947,7 @@
 					"Strength": 37,
 					"Agility": 11
 				},
+				"Not Equip": true,
 				"Priority": 1
 			},
 			"Cross the ~|rocks (Catherby)|~": {
@@ -44957,6 +44960,7 @@
 					"Strength": 35,
 					"Agility": 32
 				},
+				"Not Equip": true,
 				"Priority": 1
 			},
 			"Cross the ~|grapple column|~": {
@@ -44969,6 +44973,7 @@
 					"Strength": 22,
 					"Agility": 36
 				},
+				"Not Equip": true,
 				"Priority": 1
 			},
 			"Cross the ~|wall (Yanille)|~": {
@@ -44981,6 +44986,7 @@
 					"Strength": 38,
 					"Agility": 39
 				},
+				"Not Equip": true,
 				"Priority": 1
 			},
 			"Cross the ~|strong tree (Karamja)|~": {
@@ -44993,6 +44999,7 @@
 					"Strength": 21,
 					"Agility": 53
 				},
+				"Not Equip": true,
 				"Priority": 1
 			},
 			"Equip a ~|feather headdress (blue)|~": {
@@ -51538,6 +51545,7 @@
 					"Agility": 60,
 					"Ranged": 60
 				},
+				"Not Equip": true,
 				"Priority": 1
 			},
 			"Complete a lap of the ~|Dorgesh-Kaan agility course|~ grapple route": {
@@ -51549,6 +51557,7 @@
 					"Agility": 80,
 					"Ranged": 80
 				},
+				"Not Equip": true,
 				"Priority": 1
 			},
 			"Catch a ~|leaping trout|~": {
@@ -51597,6 +51606,7 @@
 					"Agility": 8,
 					"Ranged": 37
 				},
+				"Not Equip": true,
 				"Priority": 1
 			},
 			"Cross the ~|wall (Falador)|~": {
@@ -51609,6 +51619,7 @@
 					"Agility": 11,
 					"Ranged": 19
 				},
+				"Not Equip": true,
 				"Priority": 1
 			},
 			"Cross the ~|rocks (Catherby)|~": {
@@ -51621,6 +51632,7 @@
 					"Agility": 32,
 					"Ranged": 35
 				},
+				"Not Equip": true,
 				"Priority": 1
 			},
 			"Cross the ~|grapple column|~": {
@@ -51633,6 +51645,7 @@
 					"Agility": 36,
 					"Ranged": 39
 				},
+				"Not Equip": true,
 				"Priority": 1
 			},
 			"Cross the ~|wall (Yanille)|~": {
@@ -51657,6 +51670,7 @@
 					"Agility": 53,
 					"Ranged": 42
 				},
+				"Not Equip": true,
 				"Priority": 1
 			},
 			"Cross the ~|boulder (God Wars Dungeon)|~": {
