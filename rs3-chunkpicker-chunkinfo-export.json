@@ -43117,7 +43117,7 @@
 				"Output": "Drakolith",
 				"Priority": 3
 			},
-			"Mine in the ~|lava flow mine|~": {
+			"Mine in the ~|Lava Flow Mine|~": {
 				"Chunks": ["8792"],
 				"Level": 65,
 				"Primary": true,
@@ -67102,9 +67102,6 @@
 			"Ancient Keldagrim Ruins": {
 				"UnlocksArea": true
 			},
-			"Pollnivneach Slayer Dungeon": {
-				"UnlocksArea": true
-			},
 			"Player-Owned Port": {
 				"UnlocksArea": true
 			},
@@ -67306,7 +67303,7 @@
 			"Varrock Museum Basement": {
 				"UnlocksArea": true
 			},
-			"Lava flow mine": {
+			"Lava Flow Mine": {
 				"UnlocksArea": true
 			},
 			"Train Station": {
@@ -68055,7 +68052,7 @@
 			"Draynor Manor basement": {
 				"UnlocksArea": true
 			},
-			"Pollninveach Slayer Dungeon": {
+			"Pollnivneach Slayer Dungeon": {
 				"UnlocksArea": true
 			},
 			"Tomb of Catolax": {
@@ -74615,7 +74612,7 @@
 			"Connect": {
 				"11679": true
 			},
-			"Name": "Lava flow mine"
+			"Name": "Lava Flow Mine"
 		},
 		"8796": {
 			"Object": {
@@ -91761,7 +91758,7 @@
 			"Connect": {
 				"13358": true
 			},
-			"Name": "Pollninveach Slayer Dungeon"
+			"Name": "Pollnivneach Slayer Dungeon"
 		},
 		"13459": {
 			"Object": {
@@ -91775,7 +91772,7 @@
 				"Leeuni": 1,
 				"Iwazaru": 1
 			},
-			"Name": "Pollninveach Slayer Dungeon"
+			"Name": "Pollnivneach Slayer Dungeon"
 		},
 		"13460": {
 			"Object": {
@@ -102083,21 +102080,6 @@
 				"11423": true
 			}
 		},
-		"Pollnivneach Slayer Dungeon": {
-			"Object": {
-				"Pulsing markings": 8,
-				"Subterranean spring": 4,
-				"Mystic barrier": 8,
-				"Small obelisk": 1
-			},
-			"Monster": {
-				"Basilisk": 19,
-				"Turoth": 26,
-				"Aberrant spectre": 15,
-				"Kurask": 15,
-				"Cave crawler": 31
-			}
-		},
 		"Death's Office": {
 			"Object": {
 				"Bank chest": 1,
@@ -103268,7 +103250,7 @@
 				"12853": true
 			}
 		},
-		"Lava flow mine": {
+		"Lava Flow Mine": {
 			"Object": {
 				"Exit": 1,
 				"Crust": 384
@@ -107272,7 +107254,7 @@
 				"12340": true
 			}
 		},
-		"Pollninveach Slayer Dungeon": {
+		"Pollnivneach Slayer Dungeon": {
 			"Object": {
 				"Small obelisk": 1,
 				"Bucket rope": 1,
