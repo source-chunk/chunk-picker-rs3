@@ -37571,7 +37571,7 @@
 				"Priority": 2
 			},
 			"Access ~|Puro-Puro|~": {
-				"Chunks" : [ "Puro-Puro" ],
+				"Chunks" : ["CropCircle+"],
 				"Level" : 17,
 				"Primary" : false,
 				"Priority": 3
@@ -113582,6 +113582,7 @@
 			"ChaosTunnelEntrance+": ["12343", "12599", "12600", "12344", "12087"],
 			"CommonJadinkoAnachronia+": ["16964", "15938"],
 			"CoolStoryBroChunks+": ["9275", "9531"],
+			"CropCircle+": ["9782", "10044", "10288", "10292", "11058", "11062", "11826", "11829", "12339", "12595", "12598", "12852", "14639"],
 			"CursedEnergyRift+": ["12602", "12601"],
 			"DesertChunks+": ["12848", "12847", "12846", "12845", "12844", "13104", "13103", "13104", "13102", "13101", "13100", "13360", "13359", "13358", "13357", "13356", "13355", "13616", "13615", "13614", "13613", "13612", "13611", "13872", "13871", "13870", "13591", "13590", "13589", "13588", "12333", "12332", "12076", "12077", "12078"],
 			"DiseasedJadinkoAnachronia+": ["16965", "16709", "16194"],
@@ -113641,6 +113642,7 @@
 			"ChaosTunnelEntrance+": "Any Wilderness chunk from which you can enter the Chaos Tunnels",
 			"CommonJadinkoAnachronia+": "Any chunk with common jadinkos on Anachronia",
 			"CoolStoryBroChunks+": "Any chunk from which you can watch the Fremennik Isle tower guard shouting match",
+			"CropCircle+": "Any chunk where a crop circle can spawn",
 			"CursedEnergyRift+": "Any Chunk where you can obtain and deposit cursed energy",
 			"DesertChunks+": "Any chunks that count as part of the Kharidian desert",
 			"DiseasedJadinkoAnachronia+": "Any chunk with diseased jadinkos on Anachronia",
