@@ -67303,9 +67303,6 @@
 			"Varrock Museum Basement": {
 				"UnlocksArea": true
 			},
-			"Lava Flow Mine": {
-				"UnlocksArea": true
-			},
 			"Train Station": {
 				"UnlocksArea": true
 			},
@@ -102483,19 +102480,6 @@
 				"15961": true,
 				"16729": true,
 				"18512": true
-			}
-		},
-		"Lava Flow Mine": {
-			"Object": {
-				"Exit": 1,
-				"Crust": 384
-			},
-			"NPC": {
-				"Foreman Jaak": 1,
-				"Lava-flow miner": 20
-			},
-			"Connect": {
-				"11679": true
 			}
 		},
 		"Jadinko lair": {
