@@ -43322,43 +43322,43 @@
 				"Primary": false,
 				"Priority": 11
 			},
-			"Complete a ~|cracked Mining urn|~": {
+			"Complete a ~|cracked mining urn|~": {
 				"Category": ["Token"],
-				"Items": ["Cracked Mining urn (nr)*", "Earth rune*"],
+				"Items": ["Cracked mining urn (nr)*", "Earth rune*"],
 				"Level": 1,
-				"Output": "Cracked Mining urn",
+				"Output": "Cracked mining urn",
 				"Primary": true,
 				"Priority": 12
 			},
-			"Complete a ~|fragile Mining urn|~": {
+			"Complete a ~|fragile mining urn|~": {
 				"Category": ["Token"],
-				"Items": ["Fragile Mining urn (nr)*", "Earth rune*"],
+				"Items": ["Fragile mining urn (nr)*", "Earth rune*"],
 				"Level": 1,
-				"Output": "Fragile Mining urn",
+				"Output": "Fragile mining urn",
 				"Primary": true,
 				"Priority": 13
 			},
-			"Complete a ~|plain Mining urn|~": {
+			"Complete a ~|plain mining urn|~": {
 				"Category": ["Token"],
-				"Items": ["Plain Mining urn (nr)*", "Earth rune*"],
+				"Items": ["Plain mining urn (nr)*", "Earth rune*"],
 				"Level": 1,
-				"Output": "Plain Mining urn",
+				"Output": "Plain mining urn",
 				"Primary": true,
 				"Priority": 14
 			},
-			"Complete a ~|strong Mining urn|~": {
+			"Complete a ~|strong mining urn|~": {
 				"Category": ["Token"],
-				"Items": ["Strong Mining urn (nr)*", "Earth rune*"],
+				"Items": ["Strong mining urn (nr)*", "Earth rune*"],
 				"Level": 1,
-				"Output": "Strong Mining urn",
+				"Output": "Strong mining urn",
 				"Primary": true,
 				"Priority": 15
 			},
-			"Complete a ~|decorated Mining urn|~": {
+			"Complete a ~|decorated mining urn|~": {
 				"Category": ["Token"],
-				"Items": ["Decorated Mining urn (nr)*", "Earth rune*"],
+				"Items": ["Decorated mining urn (nr)*", "Earth rune*"],
 				"Level": 1,
-				"Output": "Decorated Mining urn",
+				"Output": "Decorated mining urn",
 				"Primary": true,
 				"Priority": 16
 			},
@@ -49589,13 +49589,13 @@
 				"Source": "drop",
 				"Output": "Wyvern"
 			},
-			"Slay a ~|ripper demon|~": {
+			"Slay a ~|Ripper Demon|~": {
 				"Level": 96,
 				"Monsters": ["Ripper Demon"],
 				"Primary": false,
 				"Priority": 3,
 				"Source": "drop",
-				"Output": "Ripper demon"
+				"Output": "Ripper Demon"
 			},
 			"Slay a ~|camel warrior|~": {
 				"Level": 96,
@@ -50264,43 +50264,43 @@
 				"Primary": true,
 				"Priority": 2
 			},
-			"Complete a ~|cracked Smelting urn|~": {
+			"Complete a ~|cracked smelting urn|~": {
 				"Category": ["Token"],
-				"Items": ["Cracked Smelting urn (nr)*", "Fire rune*"],
+				"Items": ["Cracked smelting urn (nr)*", "Fire rune*"],
 				"Level": 1,
-				"Output": "Cracked Smelting urn",
+				"Output": "Cracked smelting urn",
 				"Primary": true,
 				"Priority": 4
 			},
-			"Complete a ~|fragile Smelting urn|~": {
+			"Complete a ~|fragile smelting urn|~": {
 				"Category": ["Token"],
-				"Items": ["Fragile Smelting urn (nr)*", "Fire rune*"],
+				"Items": ["Fragile smelting urn (nr)*", "Fire rune*"],
 				"Level": 1,
-				"Output": "Fragile Smelting urn",
+				"Output": "Fragile smelting urn",
 				"Primary": true,
 				"Priority": 5
 			},
-			"Complete a ~|plain Smelting urn|~": {
+			"Complete a ~|plain smelting urn|~": {
 				"Category": ["Token"],
-				"Items": ["Plain Smelting urn (nr)*", "Fire rune*"],
+				"Items": ["Plain smelting urn (nr)*", "Fire rune*"],
 				"Level": 1,
-				"Output": "Plain Smelting urn",
+				"Output": "Plain smelting urn",
 				"Primary": true,
 				"Priority": 6
 			},
-			"Complete a ~|strong Smelting urn|~": {
+			"Complete a ~|strong smelting urn|~": {
 				"Category": ["Token"],
-				"Items": ["Strong Smelting urn (nr)*", "Fire rune*"],
+				"Items": ["Strong smelting urn (nr)*", "Fire rune*"],
 				"Level": 1,
-				"Output": "Strong Smelting urn",
+				"Output": "Strong smelting urn",
 				"Primary": true,
 				"Priority": 7
 			},
-			"Complete a ~|decorated Smelting urn|~": {
+			"Complete a ~|decorated smelting urn|~": {
 				"Category": ["Token"],
-				"Items": ["Decorated Smelting urn (nr)*", "Fire rune*"],
+				"Items": ["Decorated smelting urn (nr)*", "Fire rune*"],
 				"Level": 1,
-				"Output": "Decorated Smelting urn",
+				"Output": "Decorated smelting urn",
 				"Primary": true,
 				"Priority": 8
 			},
@@ -52881,12 +52881,12 @@
 				"Primary": true,
 				"Priority": 1
 			},
-			"Create a ~|binding contract (ripper demon)|~": {
+			"Create a ~|binding contract (Ripper Demon)|~": {
 				"Items": ["Blue charm*", "Blood of Orcus*", "Hellfire metal*", "Pouch*", "Spirit shards*"],
 				"Level": 96,
-				"Monsters": ["Ripper demon"],
+				"Monsters": ["Ripper Demon"],
 				"Objects": ["Obelisk"],
-				"Output": "Binding contract (ripper demon)",
+				"Output": "Binding contract (Ripper Demon)",
 				"Primary": true,
 				"Priority": 2
 			},
@@ -53635,11 +53635,11 @@
 				"Primary": true,
 				"Priority": 2
 			},
-			"Create a ~|ripper demon scroll (death from above)|~": {
-				"Items": ["Binding contract (ripper demon)*"],
+			"Create a ~|Ripper Demon scroll (death from above)|~": {
+				"Items": ["Binding contract (Ripper Demon)*"],
 				"Level": 96,
 				"Objects": ["Obelisk"],
-				"Output": "Ripper demon scroll (death from above)",
+				"Output": "Ripper Demon scroll (death from above)",
 				"Primary": true,
 				"Priority": 4
 			},
@@ -55826,43 +55826,43 @@
 				"Primary": false,
 				"Priority": 6
 			},
-			"Complete a ~|cracked Woodcutting urn|~": {
+			"Complete a ~|cracked woodcutting urn|~": {
 				"Category": ["Token"],
-				"Items": ["Cracked Woodcutting urn (nr)*", "Earth rune*"],
+				"Items": ["Cracked woodcutting urn (nr)*", "Earth rune*"],
 				"Level": 1,
-				"Output": "Cracked Woodcutting urn",
+				"Output": "Cracked woodcutting urn",
 				"Primary": true,
 				"Priority": 7
 			},
-			"Complete a ~|fragile Woodcutting urn|~": {
+			"Complete a ~|fragile woodcutting urn|~": {
 				"Category": ["Token"],
-				"Items": ["Fragile Woodcutting urn (nr)*", "Earth rune*"],
+				"Items": ["Fragile woodcutting urn (nr)*", "Earth rune*"],
 				"Level": 1,
-				"Output": "Fragile Woodcutting urn",
+				"Output": "Fragile woodcutting urn",
 				"Primary": true,
 				"Priority": 8
 			},
-			"Complete a ~|plain Woodcutting urn|~": {
+			"Complete a ~|plain woodcutting urn|~": {
 				"Category": ["Token"],
-				"Items": ["Plain Woodcutting urn (nr)*", "Earth rune*"],
+				"Items": ["Plain woodcutting urn (nr)*", "Earth rune*"],
 				"Level": 1,
-				"Output": "Plain Woodcutting urn",
+				"Output": "Plain woodcutting urn",
 				"Primary": true,
 				"Priority": 9
 			},
-			"Complete a ~|strong Woodcutting urn|~": {
+			"Complete a ~|strong woodcutting urn|~": {
 				"Category": ["Token"],
-				"Items": ["Strong Woodcutting urn (nr)*", "Earth rune*"],
+				"Items": ["Strong woodcutting urn (nr)*", "Earth rune*"],
 				"Level": 1,
-				"Output": "Strong Woodcutting urn",
+				"Output": "Strong woodcutting urn",
 				"Primary": true,
 				"Priority": 10
 			},
-			"Complete a ~|decorated Woodcutting urn|~": {
+			"Complete a ~|decorated woodcutting urn|~": {
 				"Category": ["Token"],
-				"Items": ["Decorated Woodcutting urn (nr)*", "Earth rune*"],
+				"Items": ["Decorated woodcutting urn (nr)*", "Earth rune*"],
 				"Level": 1,
-				"Output": "Decorated Woodcutting urn",
+				"Output": "Decorated woodcutting urn",
 				"Primary": true,
 				"Priority": 11
 			},
@@ -87785,7 +87785,7 @@
 			"Monster": {
 				"King Scorpion": 2,
 				"Hill Giant": 4,
-				"Lesser demon": 2
+				"Ripper Demon": 2
 			},
 			"Spawn": {
 				"Body rune": 1,
@@ -87803,7 +87803,7 @@
 			"Monster": {
 				"Hellhound": 7,
 				"Battle mage": 9,
-				"Ripper demon": 1
+				"Ripper Demon": 1
 			},
 			"Connect": {
 				"10057": true
@@ -89782,7 +89782,7 @@
 		},
 		"12860": {
 			"Monster": {
-				"Ripper demon": 12
+				"Ripper Demon": 12
 			},
 			"NPC": {
 				"William": 1
@@ -107330,7 +107330,7 @@
 			"Monster": {
 				"Poison spider": 9,
 				"Black dragon": 2,
-				"Greater demon": 3
+				"Ripper demon": 3
 			},
 			"Connect": {
 				"9033": true,
@@ -114359,7 +114359,7 @@
 				"Abyssal beast": true,
 				"Tormented demon": true,
 				"Gargoyle sentinal": true,
-				"Ripper demon": true,
+				"Ripper Demon": true,
 				"Abyssal lord": true,
 				"Yol'Ger the Deceiver": true
 			},
@@ -114787,7 +114787,7 @@
 				"Revenant dragon": true
 			},
 			"Ripper Demon Cave": {
-				"Ripper demon": true,
+				"Ripper Demon": true,
 				"Slasher demon": true
 			},
 			"Rock slugs": {
