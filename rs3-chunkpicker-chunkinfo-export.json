@@ -33422,7 +33422,7 @@
 				"Priority": 1
 			},
 			"Fletch a ~|mithril grapple|~": {
-				"Items": ["Mithril grapple (unf)*", "Rope*"],
+				"Items": ["Mithril grapple (unf)", "Rope"],
 				"Level": 59,
 				"Output": "Mithril grapple",
 				"Primary": false,
