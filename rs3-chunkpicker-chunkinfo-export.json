@@ -33415,7 +33415,7 @@
 				"Priority": 2
 			},
 			"Tip a ~|mithril grapple (unf)|~": {
-				"Items": ["Mithril bolts*", "Mithril grapple tip*"],
+				"Items": ["Mithril bolts", "Mithril grapple tip"],
 				"Level": 59,
 				"Output": "Mithril grapple (unf)",
 				"Primary": true,
@@ -33425,7 +33425,7 @@
 				"Items": ["Mithril grapple (unf)", "Rope"],
 				"Level": 59,
 				"Output": "Mithril grapple",
-				"Primary": false,
+				"Primary": true,
 				"Priority": 2
 			},
 			"Fletch ~|arrow shafts|~ using yew logs": {
