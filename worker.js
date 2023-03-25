@@ -776,9 +776,9 @@ var calcChallenges = function(chunks, baseChunkData) {
         });
         let fullyValid;
         let leftoversCount = 0;
-        let savedValids = {};
+        let savedValids = JSON.parse(JSON.stringify(newValids));
         let passedByTasks = {};
-        while (leftoversCount < 10 && Object.keys(diff(newValids, savedValids)).length !== 0) {
+        while ((leftoversCount < 10 && Object.keys(diff(newValids, savedValids) || {}).length !== 0) || leftoversCount < 1) {
             savedValids = JSON.parse(JSON.stringify(newValids));
             Object.keys(savedValids).filter((skill) => { return skill !== 'BiS' }).forEach(skill => {
                 Object.keys(savedValids[skill]).sort(function(a, b) { return skill === 'Diary' ? ((diaryTierOrder.indexOf(a.split('|')[1].split('%2F')[1]) - diaryTierOrder.indexOf(b.split('|')[1].split('%2F')[1]) === 0) ? a.replaceAll('Task ', '').localeCompare(b.replaceAll('Task ', ''), 'en', { numeric: true }) : (diaryTierOrder.indexOf(a.split('|')[1].split('%2F')[1]) - diaryTierOrder.indexOf(b.split('|')[1].split('%2F')[1]))) : a.replaceAll('Task ', '').localeCompare(b.replaceAll('Task ', ''), 'en', { numeric: true }) }).forEach(challenge => {
@@ -2200,16 +2200,21 @@ var calcChallenges = function(chunks, baseChunkData) {
         });
         globalValids = {...newValids};
         //console.log(i);
-    } while ((Object.keys(diff(valids, newValids)).length !== 0 && i < 10) || i < 3);
+    } while ((Object.keys(diff(valids, newValids) || {}).length !== 0 && i < 10) || i < 3);
     valids = newValids;
     //console.log(baseChunkData);
     tempChunkData = baseChunkData;
     return valids;
 }
 
+// Returns copy of object
+let freeze = function(obj) {
+    return JSON.parse(JSON.stringify(obj));
+}
+
 // Gets diff between 2 objects
-function diff(obj1, obj2, isInner) {
-    const result = {};
+let diff = function(obj1, obj2, isInner) {
+    let result = {};
     if (Object.is(obj1, obj2)) {
         return undefined;
     }
@@ -2218,7 +2223,7 @@ function diff(obj1, obj2, isInner) {
     }
     Object.keys(obj1 || {}).concat(Object.keys(obj2 || {})).forEach(key => {
         if (obj2[key] !== obj1[key] && !Object.is(obj1[key], obj2[key])) {
-            result[key] = obj2[key];
+            result[key] = obj1[key] || obj2[key];
         }
         if (typeof obj2[key] === 'object' && typeof obj1[key] === 'object') {
             const value = diff(obj1[key], obj2[key], true);
@@ -2226,12 +2231,29 @@ function diff(obj1, obj2, isInner) {
                 result[key] = value;
             }
         }
-        if (!!result[key] && Object.keys(result[key]).length === 0) {
-            delete result[key];
-        }
     });
+    if (!isInner) {
+        result = freeze(clearEmpties(result));
+    }
     return result;
 }
+
+// Clears empty subobjects from object
+let clearEmpties = function(obj) {
+    typeof obj === 'object' && Object.keys(obj).forEach(subObj => {
+        if (typeof obj[subObj] === 'object' && Object.keys(obj).length === 0) {
+            delete obj[subObj];
+        } else if (typeof obj[subObj] === 'object') {
+            obj[subObj] = clearEmpties(obj[subObj]);
+        }
+    });
+    if (Object.keys(obj).length === 0) {
+        return undefined;
+    } else {
+        return obj;
+    }
+}
+
 
 // Checks if every source of an item is from a shop
 var onlyShop = function(sources) {
