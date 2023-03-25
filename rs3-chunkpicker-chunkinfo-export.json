@@ -108555,9 +108555,18 @@
 				"Zombie cow": 8
 			},
 			"Shop": {
-				"Sani's Orefully Affordable Store": true,
+				"Aubury's Rune Shop (New Varrock)": true,
+				"Gertrude's Food": true,
+				"Horvik's Armour Shop (New Varrock)": true,
+				"Lowe's Archery Emporium (New Varrock)": true,
 				"New Varrock General Store": true,
-				"Zaff's Superior Spellcasting": true
+				"New Varrock Leather Emporium": true,
+				"New Varrock Sword Shop": true,
+				"Sani's Orefully Affordable Store": true,
+				"Thessalia's Fine Clothes (New Varrock)": true,
+				"Urist's Crafting Supplies (New Varrock)": true,
+				"Xuan's Fresh Produce": true,
+				"Zaff's Superior Spellcasting (New Varrock)": true
 			},
 			"Connect": {
 				"12853": true
