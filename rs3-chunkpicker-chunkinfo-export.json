@@ -44900,6 +44900,7 @@
 					"Strength": 60,
 					"Agility": 60
 				},
+				"Not Equip": true,
 				"Priority": 1
 			},
 			"Complete a lap of the ~|Dorgesh-Kaan agility course|~ grapple route": {
@@ -59197,6 +59198,7 @@
 				"Tasks": {
 					"~|Karamja Achievements%2FMedium|~ Complete the Medium Achievements": "Diary"
 				},
+				"Not Equip": true,
 				"BaseQuest": "Karamja Achievements"
 			},
 			"~|Karamja Achievements%2FHard|~ A Palm For Each Finger": {
