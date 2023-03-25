@@ -55016,49 +55016,49 @@
 			},
 			"Crack a ~|safe|~ in Misthalin": {
 				"Level": 62,
-				"Chunks": ["Thievesguild+", "Misthalin safes+"],
+				"Chunks": ["Misthalin safes+"],
 				"Output": "Safes low",
 				"Primary": true,
 				"Priority": 1
 			},
 			"Crack a ~|safe|~ in the Kharidian Desert": {
 				"Level": 69,
-				"Chunks": ["Thievesguild+", "Kharidian safes+"],
+				"Chunks": ["Kharidian safes+"],
 				"Output": "Safes low",
 				"Primary": true,
 				"Priority": 1
 			},
 			"Crack a ~|safe|~ in Asgarnia": {
 				"Level": 76,
-				"Chunks": ["Thievesguild+", "Asgarnian safes+"],
+				"Chunks": ["Asgarnian safes+"],
 				"Output": "Safes low",
 				"Primary": true,
 				"Priority": 1
 			},
 			"Crack a ~|safe|~ in Kandarin": {
 				"Level": 83,
-				"Chunks": ["Thievesguild+", "Kandarin safes+"],
+				"Chunks": ["Kandarin safes+"],
 				"Output": "Safes high",
 				"Primary": true,
 				"Priority": 2
 			},
 			"Crack the ~|safes|~ in Zemouregal's fort": {
 				"Level": 96,
-				"Chunks": ["Thievesguild+", "11324"],
+				"Chunks": ["11324"],
 				"Output": "Safes high",
 				"Primary": true,
 				"Priority": 1
 			},
 			"Crack the ~|safes|~ in Zanaris": {
 				"Level": 94,
-				"Chunks": ["Thievesguild+", "Zanaris"],
+				"Chunks": ["Zanaris"],
 				"Output": "Safes high",
 				"Primary": true,
 				"Priority": 1
 			},
 			"Crack the ~|safe|~ in the rogues' castle": {
 				"Level": 90,
-				"Chunks": ["Thievesguild+", "13117"],
+				"Chunks": ["13117"],
 				"Output": "Safes high",
 				"Primary": true,
 				"Priority": 1
@@ -58874,7 +58874,7 @@
 			},
 			"~|Karamja Achievements%2FEasy|~ It's a Jungle Ogre": {
 				"Description": "Kill a jogre in the Pothole dungeon.",
-				"Chunks": ["Pothole dungeon"],
+				"Chunks": ["Pothole Dungeon"],
 				"BaseQuest": "Karamja Achievements"
 			},
 			"~|Karamja Achievements%2FEasy|~ Complete the Easy Achievements": {
