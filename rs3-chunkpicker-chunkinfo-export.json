@@ -67119,7 +67119,7 @@
 			"Ah Za Rhoon": {
 				"UnlocksArea": true
 			},
-			"Miscellania Underground": {
+			"Miscellania and Etceteria dungeon": {
 				"UnlocksArea": true
 			},
 			"God Wars Dungeon": {
@@ -79074,7 +79074,7 @@
 				"The Esoterican Arms": true,
 				"Miscellanian Clothes Shop": true
 			},
-			"Name": "Miscellania Underground"
+			"Name": "Miscellania and Etceteria dungeon"
 		},
 		"10164": {
 			"Object": {
@@ -79716,7 +79716,8 @@
 				"Rabbit": 3
 			},
 			"Connect": {
-				"6473": true
+				"6473": true,
+				"10400": true
 			},
 			"Shop": {
 				"Etceteria Fish": true,
@@ -80122,7 +80123,7 @@
 				"Sea Snake Young": 10,
 				"Sea Snake Hatchling": 7
 			},
-			"Name": "Miscellania Underground"
+			"Name": "Miscellania and Etceteria dungeon"
 		},
 		"10420": {
 			"Object": {
@@ -101639,7 +101640,7 @@
 				"11566": true
 			}
 		},
-		"Miscellania Underground": {
+		"Miscellania and Etceteria dungeon": {
 			"Object": {
 				"Stalagmites": 5,
 				"Stalagmite": 14,
@@ -101698,14 +101699,9 @@
 				"Pong": 1
 			},
 			"Monster": {
-				"Ice troll runt": 5,
-				"Ice troll male": 7,
-				"Ice troll female": 9,
-				"Ice troll grunt": 6,
 				"Honour guard": 6,
 				"Sea Snake Young": 10,
-				"Sea Snake Hatchling": 7,
-				"Icelord": 4
+				"Sea Snake Hatchling": 7
 			},
 			"Connect": {
 				"10300": true,
