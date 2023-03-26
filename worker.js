@@ -277,7 +277,7 @@ onmessage = function(e) {
         globalValids = calcChallenges(chunks, baseChunkData);
         baseChunkData = tempChunkData;
         postMessage('90%');
-        //calcBIS();
+        //calcBIS(); // TEMP
         postMessage('100%');
         //console.log(globalValids);
 
@@ -1321,7 +1321,7 @@ var calcChallenges = function(chunks, baseChunkData) {
                 }
             });
         });
-        !rules["Highest Level"] && Object.keys(tempItemSkill).forEach(skill => {
+        Object.keys(tempItemSkill).forEach(skill => {
             let lowestName;
             let lowestLevel;
             !!newValids[skill] && Object.keys(newValids[skill]).forEach(challenge => {
@@ -1351,7 +1351,7 @@ var calcChallenges = function(chunks, baseChunkData) {
                 });
             });
         });
-        !rules["Highest Level"] && Object.keys(tempMultiStepSkill).forEach(skill => {
+        Object.keys(tempMultiStepSkill).forEach(skill => {
             let lowestLevel;
             !!newValids[skill] && Object.keys(newValids[skill]).forEach(challenge => {
                 if ((!lowestLevel || (lowestLevel < newValids[skill][challenge])) && (!backlog[skill] || !backlog[skill].hasOwnProperty(challenge))) {
