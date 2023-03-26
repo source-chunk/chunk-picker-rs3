@@ -17527,14 +17527,14 @@
 				"Priority": 1
 			},
 			"Craft a ~|black dragonhide body|~": {
-				"Items": ["Black dragonhide leather*", "Thread*"],
+				"Items": ["Black dragon leather*", "Thread*"],
 				"Level": 84,
 				"Output": "Black dragonhide body",
 				"Primary": true,
 				"Priority": 4
 			},
 			"Craft a ~|black dragonhide shield|~": {
-				"Items": ["Black dragonhide leather*", "Thread*"],
+				"Items": ["Black dragon leather*", "Thread*"],
 				"Level": 85,
 				"Output": "Black dragonhide shield",
 				"Primary": true,
@@ -18078,7 +18078,7 @@
 			},
 			"Create ~|soft clay|~ with a watersource":{
 				"Category": ["Token"],
-				"Items": ["clay*"],
+				"Items": ["Clay*"],
 				"Level": 1,
 				"Output": "Soft clay",
 				"Objects": ["WaterObject+"],
@@ -19393,7 +19393,7 @@
 				"Priority": 4
 			},
 			"Cut an ~|onyx|~":{
-				"Items": ["Uncut oynx*"],
+				"Items": ["Uncut onyx*"],
 				"Level": 72,
 				"Output": "Onyx",
 				"Primary": true,
