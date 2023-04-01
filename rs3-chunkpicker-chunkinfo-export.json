@@ -67081,12 +67081,12 @@
 			},
 			"Defeat the ~|leprechaun champion|~": {
 				"Category": ["Champion Challenge"],
-				"Chunks": ["12596"],
+				"Chunks": ["Champions' Arena"],
 				"Label": "Champion Challenge"			
 			},
 			"Defeat the ~|imp champion|~": {
 				"Category": ["Untracked Uniques", "Champion Challenge"],
-				"Chunks": ["12596"],
+				"Chunks": ["Champions' Arena"],
 				"Label": "Champion Challenge",
 				"Tasks": {
 					"Defeat the ~|leprechaun champion|~": "Extra"
@@ -67095,7 +67095,7 @@
 			},
 			"Defeat the ~|goblin champion|~": {
 				"Category": ["Untracked Uniques", "Champion Challenge"],
-				"Chunks": ["12596"],
+				"Chunks": ["Champions' Arena"],
 				"Label": "Champion Challenge",
 				"Tasks": {
 					"Defeat the ~|leprechaun champion|~": "Extra"
@@ -67104,7 +67104,7 @@
 			},
 			"Defeat the ~|skeleton champion|~": {
 				"Category": ["Untracked Uniques", "Champion Challenge"],
-				"Chunks": ["12596"],
+				"Chunks": ["Champions' Arena"],
 				"Label": "Champion Challenge",
 				"Tasks": {
 					"Defeat the ~|leprechaun champion|~": "Extra"
@@ -67113,7 +67113,7 @@
 			},
 			"Defeat the ~|zombie champion|~": {
 				"Category": ["Untracked Uniques", "Champion Challenge"],
-				"Chunks": ["12596"],
+				"Chunks": ["Champions' Arena"],
 				"Label": "Champion Challenge",
 				"Tasks": {
 					"Defeat the ~|leprechaun champion|~": "Extra"
@@ -67122,7 +67122,7 @@
 			},
 			"Defeat the ~|hobgoblin champion|~": {
 				"Category": ["Untracked Uniques", "Champion Challenge"],
-				"Chunks": ["12596"],
+				"Chunks": ["Champions' Arena"],
 				"Label": "Champion Challenge",
 				"Tasks": {
 					"Defeat the ~|leprechaun champion|~": "Extra"
@@ -67131,7 +67131,7 @@
 			},
 			"Defeat the ~|giant champion|~": {
 				"Category": ["Untracked Uniques", "Champion Challenge"],
-				"Chunks": ["12596"],
+				"Chunks": ["Champions' Arena"],
 				"Label": "Champion Challenge",
 				"Tasks": {
 					"Defeat the ~|leprechaun champion|~": "Extra"
@@ -67140,7 +67140,7 @@
 			},
 			"Defeat the ~|banshee champion|~": {
 				"Category": ["Untracked Uniques", "Champion Challenge"],
-				"Chunks": ["12596"],
+				"Chunks": ["Champions' Arena"],
 				"Label": "Champion Challenge",
 				"Tasks": {
 					"Defeat the ~|leprechaun champion|~": "Extra"
@@ -67149,7 +67149,7 @@
 			},
 			"Defeat the ~|ghoul champion|~": {
 				"Category": ["Untracked Uniques", "Champion Challenge"],
-				"Chunks": ["12596"],
+				"Chunks": ["Champions' Arena"],
 				"Label": "Champion Challenge",
 				"Tasks": {
 					"Defeat the ~|leprechaun champion|~": "Extra"
@@ -67158,7 +67158,7 @@
 			},
 			"Defeat the ~|earth warrior champion|~": {
 				"Category": ["Untracked Uniques", "Champion Challenge"],
-				"Chunks": ["12596"],
+				"Chunks": ["Champions' Arena"],
 				"Label": "Champion Challenge",
 				"Tasks": {
 					"Defeat the ~|leprechaun champion|~": "Extra"
@@ -67167,7 +67167,7 @@
 			},
 			"Defeat the ~|aberrant spectre champion|~": {
 				"Category": ["Untracked Uniques", "Champion Challenge"],
-				"Chunks": ["12596"],
+				"Chunks": ["Champions' Arena"],
 				"Label": "Champion Challenge",
 				"Tasks": {
 					"Defeat the ~|leprechaun champion|~": "Extra"
@@ -67176,7 +67176,7 @@
 			},
 			"Defeat the ~|jogre champion|~": {
 				"Category": ["Untracked Uniques", "Champion Challenge"],
-				"Chunks": ["12596"],
+				"Chunks": ["Champions' Arena"],
 				"Label": "Champion Challenge",
 				"Tasks": {
 					"Defeat the ~|leprechaun champion|~": "Extra"
@@ -67185,7 +67185,7 @@
 			},
 			"Defeat the ~|mummy champion|~": {
 				"Category": ["Untracked Uniques", "Champion Challenge"],
-				"Chunks": ["12596"],
+				"Chunks": ["Champions' Arena"],
 				"Label": "Champion Challenge",
 				"Tasks": {
 					"Defeat the ~|leprechaun champion|~": "Extra"
@@ -67194,7 +67194,7 @@
 			},
 			"Defeat the ~|lesser demon champion|~": {
 				"Category": ["Untracked Uniques", "Champion Challenge"],
-				"Chunks": ["12596"],
+				"Chunks": ["Champions' Arena"],
 				"Label": "Champion Challenge",
 				"Tasks": {
 					"Defeat the ~|leprechaun champion|~": "Extra"
@@ -67203,7 +67203,7 @@
 			},
 			"Defeat ~|Leon d'Cour|~": {
 				"Category": ["Champion Challenge"],
-				"Chunks": ["12596"],
+				"Chunks": ["Champions' Arena"],
 				"Label": "Champion Challenge",
 				"Tasks": {
 					"Champions+x10": "Extra"
@@ -67211,7 +67211,7 @@
 			},
 			"Defeat ~|Glophren|~": {
 				"Category": ["Champion Challenge"],
-				"Chunks": ["12596"],
+				"Chunks": ["Champions' Arena"],
 				"Label": "Champion Challenge",
 				"Tasks": {
 					"Champions+x13": "Extra"
