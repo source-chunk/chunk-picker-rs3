@@ -386,6 +386,7 @@ let rules = {
 	"Daemonheim training": false,
 	"Daemonheim tasks": false,
 	"PortSkills": false,
+	"Champion Challenge": false,
 };                                                                              // List of rules and their on/off state
 
 let ruleNames = {
@@ -460,6 +461,7 @@ let ruleNames = {
 	"Daemonheim training": "Allow training methods in Daemonheim to count as primary training methods<span class='rule-asterisk noscroll'>*</span>",
 	"Daemonheim tasks": "Allows activities and items in Daemonheim, excluding doors and puzzles, to create skilling tasks<span class='rule-asterisk noscroll'>*</span>",
 	"PortSkills": "Require all trainable port skills to be trained up to 90<span class='rule-asterisk noscroll'>*</span>",
+	"Champion Challenge": "Require all champions in the champion guild to be defeated when able<span class='rule-asterisk noscroll'>*</span>",
 };                                                                              // List of rule definitions
 
 let rulePresets = {
@@ -535,6 +537,7 @@ let rulePresets = {
 		"Daemonheim training": true,
 		"Daemonheim tasks": true,
 		"PortSkills": true,
+		"Champion Challenge": true,
     },
     "Supreme Chunker": {
         "Skillcape": true,
@@ -594,6 +597,7 @@ let rulePresets = {
 		"Daemonheim training": true,
 		"Daemonheim tasks": true,
 		"PortSkills": true,
+		"Champion Challenge": true,
     }
 };                                                                              // List of rules that are part of each preset
 
@@ -685,6 +689,7 @@ let ruleStructure = {
         "BIS Skilling": true,
         "Collection Log": ["Slayer Collection Log"],
         "Untracked Uniques": true,
+		"Champion Challenge": true,
         "Skilling Pets": true,
         "Stuffables": true,
         "Fill Stash": true,

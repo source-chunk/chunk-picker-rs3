@@ -63100,27 +63100,22 @@
 				"Items": ["Golden rocktail eggs"]
 			},
 			"Obtain a ~|big bass|~": {
-				"Category": ["Stuffables"],
+				"Category": ["Stuffables", "Untracked Uniques"],
 				"Label": "Stuffables",
 				"Items": ["Big bass"]
 			},
 			"Obtain a ~|big swordfish|~": {
-				"Category": ["Stuffables"],
+				"Category": ["Stuffables", "Untracked Uniques"],
 				"Label": "Stuffables",
 				"Items": ["Big swordfish"]
 			},
 			"Obtain a ~|big shark|~": {
-				"Category": ["Stuffables"],
+				"Category": ["Stuffables", "Untracked Uniques"],
 				"Label": "Stuffables",
 				"Items": ["Big shark"]
 			},
-			"Obtain a ~|crawling hand|~": {
-				"Category": ["Stuffables"],
-				"Label": "Stuffables",
-				"Items": ["Crawling hand"]
-			},
 			"Obtain a ~|strange egg|~": {
-				"Items": ["Strange egg"]
+				"Items": ["Strange egg", "Untracked Uniques"]
 			},
 			"~|hidey-hole|~: Lumbridge Swamp shed": {
 				"Category": ["Fill Stash"],
@@ -64451,7 +64446,7 @@
 				"Items": ["Abyssal whip"]
 			},
 			"(Morytania) Obtain a ~|crawling hand (item)|~": {
-				"Category": ["Collection Log", "Slayer Collection Log"],
+				"Category": ["Collection Log", "Slayer Collection Log", "Stuffables"],
 				"Label": "Slayer Collection Log",
 				"Items": ["Crawling hand (item)"]
 			},
@@ -67083,6 +67078,144 @@
 				"Category": ["Collection Log", "Boss Collection Log", "Pets"],
 				"Label": "Boss Pets",
 				"Items": ["Ancient artefact"]
+			},
+			"Defeat the ~|leprechaun champion|~": {
+				"Category": ["Champion Challenge"],
+				"Chunks": ["12596"],
+				"Label": "Champion Challenge"			
+			},
+			"Defeat the ~|imp champion|~": {
+				"Category": ["Untracked Uniques", "Champion Challenge"],
+				"Chunks": ["12596"],
+				"Label": "Champion Challenge",
+				"Tasks": {
+					"Defeat the ~|leprechaun champion|~": "Extra"
+				},
+				"Items": ["Imp Champion's scroll"]				
+			},
+			"Defeat the ~|goblin champion|~": {
+				"Category": ["Untracked Uniques", "Champion Challenge"],
+				"Chunks": ["12596"],
+				"Label": "Champion Challenge",
+				"Tasks": {
+					"Defeat the ~|leprechaun champion|~": "Extra"
+				},
+				"Items": ["Goblin Champion's scroll"]				
+			},
+			"Defeat the ~|skeleton champion|~": {
+				"Category": ["Untracked Uniques", "Champion Challenge"],
+				"Chunks": ["12596"],
+				"Label": "Champion Challenge",
+				"Tasks": {
+					"Defeat the ~|leprechaun champion|~": "Extra"
+				},
+				"Items": ["Skeleton Champion's scroll"]				
+			},
+			"Defeat the ~|zombie champion|~": {
+				"Category": ["Untracked Uniques", "Champion Challenge"],
+				"Chunks": ["12596"],
+				"Label": "Champion Challenge",
+				"Tasks": {
+					"Defeat the ~|leprechaun champion|~": "Extra"
+				},
+				"Items": ["Zombie Champion's scroll"]				
+			},
+			"Defeat the ~|hobgoblin champion|~": {
+				"Category": ["Untracked Uniques", "Champion Challenge"],
+				"Chunks": ["12596"],
+				"Label": "Champion Challenge",
+				"Tasks": {
+					"Defeat the ~|leprechaun champion|~": "Extra"
+				},
+				"Items": ["Hobgoblin Champion's scroll"]				
+			},
+			"Defeat the ~|giant champion|~": {
+				"Category": ["Untracked Uniques", "Champion Challenge"],
+				"Chunks": ["12596"],
+				"Label": "Champion Challenge",
+				"Tasks": {
+					"Defeat the ~|leprechaun champion|~": "Extra"
+				},
+				"Items": ["Giant Champion's scroll"]				
+			},
+			"Defeat the ~|banshee champion|~": {
+				"Category": ["Untracked Uniques", "Champion Challenge"],
+				"Chunks": ["12596"],
+				"Label": "Champion Challenge",
+				"Tasks": {
+					"Defeat the ~|leprechaun champion|~": "Extra"
+				},
+				"Items": ["Banshee Champion's scroll"]				
+			},
+			"Defeat the ~|ghoul champion|~": {
+				"Category": ["Untracked Uniques", "Champion Challenge"],
+				"Chunks": ["12596"],
+				"Label": "Champion Challenge",
+				"Tasks": {
+					"Defeat the ~|leprechaun champion|~": "Extra"
+				},
+				"Items": ["Ghoul Champion's scroll"]				
+			},
+			"Defeat the ~|earth warrior champion|~": {
+				"Category": ["Untracked Uniques", "Champion Challenge"],
+				"Chunks": ["12596"],
+				"Label": "Champion Challenge",
+				"Tasks": {
+					"Defeat the ~|leprechaun champion|~": "Extra"
+				},
+				"Items": ["Earth Warrior Champion's scroll"]				
+			},
+			"Defeat the ~|aberrant spectre champion|~": {
+				"Category": ["Untracked Uniques", "Champion Challenge"],
+				"Chunks": ["12596"],
+				"Label": "Champion Challenge",
+				"Tasks": {
+					"Defeat the ~|leprechaun champion|~": "Extra"
+				},
+				"Items": ["Aberrant Spectre champion's scroll"]				
+			},
+			"Defeat the ~|jogre champion|~": {
+				"Category": ["Untracked Uniques", "Champion Challenge"],
+				"Chunks": ["12596"],
+				"Label": "Champion Challenge",
+				"Tasks": {
+					"Defeat the ~|leprechaun champion|~": "Extra"
+				},
+				"Items": ["Jogre Champion's scroll"]				
+			},
+			"Defeat the ~|mummy champion|~": {
+				"Category": ["Untracked Uniques", "Champion Challenge"],
+				"Chunks": ["12596"],
+				"Label": "Champion Challenge",
+				"Tasks": {
+					"Defeat the ~|leprechaun champion|~": "Extra"
+				},
+				"Items": ["Mummy Champion's scroll"]				
+			},
+			"Defeat the ~|lesser demon champion|~": {
+				"Category": ["Untracked Uniques", "Champion Challenge"],
+				"Chunks": ["12596"],
+				"Label": "Champion Challenge",
+				"Tasks": {
+					"Defeat the ~|leprechaun champion|~": "Extra"
+				},
+				"Items": ["Lesser Demon Champion's scroll"]				
+			},
+			"Defeat ~|Leon d'Cour|~": {
+				"Category": ["Champion Challenge"],
+				"Chunks": ["12596"],
+				"Label": "Champion Challenge",
+				"Tasks": {
+					"Champions+x10": "Extra"
+				}			
+			},
+			"Defeat ~|Glophren|~": {
+				"Category": ["Champion Challenge"],
+				"Chunks": ["12596"],
+				"Label": "Champion Challenge",
+				"Tasks": {
+					"Champions+x13": "Extra"
+				}		
 			}
 		},
 		"Nonskill": {
@@ -113903,6 +114036,7 @@
 			"AirAccess+": ["Access the air rune temple with a talisman*", "Access the air rune temple through the abyss*"],
 			"BloodAccess+": ["Access the blood rune temple with a talisman*", "Access the blood rune temple through the abyss*"],
 			"BodyAccess+": ["Access the body rune temple with a talisman*", "Access the body rune temple through the abyss*"],
+			"Champions+": ["Defeat the ~|imp champion|~", "Defeat the ~|goblin champion|~", "Defeat the ~|skeleton champion|~", "Defeat the ~|zombie champion|~", "Defeat the ~|hobgoblin champion|~", "Defeat the ~|giant champion|~", "Defeat the ~|banshee champion|~", "Defeat the ~|ghoul champion|~", "Defeat the ~|earth warrior champion|~", "Defeat the ~|aberrant spectre champion|~", "Defeat the ~|jogre champion|~", "Defeat the ~|mummy champion|~", "Defeat the ~|lesser demon champion|~"],
 			"ChaosAccess+": ["Access the chaos rune temple with a talisman*", "Access the chaos rune temple through the abyss*"],
 			"CosmicAccess+": ["Access the cosmic rune temple with a talisman*", "Access the cosmic rune temple through the abyss*"],
 			"DeathAccess+": ["Access the death rune temple with a talisman*", "Access the death rune temple through the abyss*"],
@@ -113925,6 +114059,7 @@
 			"BloodAccess+": "Any way to access the blood rune temple",
 			"BodyAccess+": "Any way to access the body rune temple",
 			"ChaosAccess+": "Any way to access the chaos rune temple",
+			"Champions+": "All of the warrior guild champions with a champion's scroll",
 			"CosmicAccess+": "Any way to access the cosmic rune temple",
 			"DeathAccess+": "Any way to access the death rune temple",
 			"EarthAccess+": "Any way to access the earth rune temple",
@@ -134545,6 +134680,9 @@
 			"Barley seed": {
 				"1": "Common"
 			},
+			"Goblin Champion's scroll": {
+				"1": "1/5000"
+			},
 			"Goblin book": {
 				"1": "Uncommon"
 			},
@@ -134573,6 +134711,9 @@
 			},
 			"Chef's hat": {
 				"1": "Common"
+			},
+			"Goblin Champion's scroll": {
+				"1": "1/5000"
 			},
 			"Sealed clue scroll (easy)": {
 				"1": "1/128"
