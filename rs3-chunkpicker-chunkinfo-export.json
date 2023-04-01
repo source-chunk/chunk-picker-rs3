@@ -5216,7 +5216,7 @@
 				"Primary": false,
 				"Priority": 11
 			},
-			"Complete the 'Where There's Smoke...' ~|research|~": {
+			"Complete the 'Where There's Smoke%2E%2E%2E' ~|research|~": {
 				"Chunks": ["Kharid-Et Main Fortress"],
 				"Tasks": {
 					"Complete the ~|Archaeology tutorial|~": "Archaeology"
@@ -56215,7 +56215,7 @@
 				},
 				"BaseQuest": "Ardougne Achievements"
 			},
-			"~|Ardougne Achievements%2FEasy|~ A Cat is For Life...": {
+			"~|Ardougne Achievements%2FEasy|~ A Cat is For Life%2E%2E%2E": {
 				"Description": "Talk to a civilian in West Ardougne about selling a cat.",
 				"Chunks": ["9779"],
 				"Items": ["Cat+"],
@@ -56328,7 +56328,7 @@
 					"~|Ardougne Achievements%2FEasy|~ A Gift from Khazard": "Diary",
 					"~|Ardougne Achievements%2FEasy|~ P-P-P-Pick Up Some Prizes": "Diary",
 					"~|Ardougne Achievements%2FEasy|~ Breaking and Entering": "Diary",
-					"~|Ardougne Achievements%2FEasy|~ A Cat is For Life...": "Diary",
+					"~|Ardougne Achievements%2FEasy|~ A Cat is For Life%2E%2E%2E": "Diary",
 					"~|Ardougne Achievements%2FEasy|~ Boot Camp": "Diary",
 					"~|Ardougne Achievements%2FEasy|~ Gone Fishing": "Diary",
 					"~|Ardougne Achievements%2FEasy|~ Playing the Waiting Game": "Diary",
@@ -58321,7 +58321,7 @@
 				"BaseQuest": "Falador Achievements",
 				"ManualShow": true
 			},
-			"~|Falador Achievements%2FElite|~ When This Cavern's Rockin'...": {
+			"~|Falador Achievements%2FElite|~ When This Cavern's Rockin'%2E%2E%2E": {
 				"Description": "Catch a rocktail in the Living Rock Caverns.",
 				"Chunks": ["Living Rock Caverns"],
 				"Skills": {
@@ -58332,7 +58332,7 @@
 				},
 				"BaseQuest": "Falador Achievements"
 			},
-			"~|Falador Achievements%2FElite|~ ...You'd Best Come A-cookin'": {
+			"~|Falador Achievements%2FElite|~ %2E%2E%2EYou'd Best Come A-cookin'": {
 				"Description": "Cook a rocktail on a range in the Falador area.",
 				"Chunks": ["FaladorChunks+"],
 				"Items": ["Raw rocktail"],
@@ -58410,8 +58410,8 @@
 			"~|Falador Achievements%2FElite|~ Complete the Elite Achievements": {
 				"Chunks": ["11828"],
 				"Tasks": {
-					"~|Falador Achievements%2FElite|~ When This Cavern's Rockin'...": "Diary",
-					"~|Falador Achievements%2FElite|~ ...You'd Best Come A-cookin'": "Diary",
+					"~|Falador Achievements%2FElite|~ When This Cavern's Rockin'%2E%2E%2E": "Diary",
+					"~|Falador Achievements%2FElite|~ %2E%2E%2EYou'd Best Come A-cookin'": "Diary",
 					"~|Falador Achievements%2FElite|~ Concentration Is Key": "Diary",
 					"~|Falador Achievements%2FElite|~ I Swear I Heard It Scream": "Diary",
 					"~|Falador Achievements%2FElite|~ I've Changed My Mind!": "Diary",
@@ -59076,7 +59076,7 @@
 				},
 				"BaseQuest": "Karamja Achievements"
 			},
-			"~|Karamja Achievements%2FMedium|~ That's Not a Knife...": {
+			"~|Karamja Achievements%2FMedium|~ That's Not a Knife%2E%2E%2E": {
 				"Description": "Exchange gems for a machete.",
 				"Chunks": ["11056"],
 				"Items": ["Gout tuber", "MachetteGem+"],
@@ -59184,7 +59184,7 @@
 					"~|Karamja Achievements%2FMedium|~ I'm a Lumberjack and I'm Okay": "Diary",
 					"~|Karamja Achievements%2FMedium|~ I Sleep All Night and I Work All Day": "Diary",
 					"~|Karamja Achievements%2FMedium|~ To Catch a Karambwan": "Diary",
-					"~|Karamja Achievements%2FMedium|~ That's Not a Knife...": "Diary",
+					"~|Karamja Achievements%2FMedium|~ That's Not a Knife%2E%2E%2E": "Diary",
 					"~|Karamja Achievements%2FMedium|~ Falling With Style": "Diary",
 					"~|Karamja Achievements%2FMedium|~ Scourge of Scurvy": "Diary",
 					"~|Karamja Achievements%2FMedium|~ Hunters of the Horned Graahk": "Diary",
@@ -59613,7 +59613,7 @@
 				},
 				"BaseQuest": "Lumbridge Achievements"
 			},
-			"~|Lumbridge Achievements%2FEasy|~ Draaaaaiiiiins...": {
+			"~|Lumbridge Achievements%2FEasy|~ Draaaaaiiiiins%2E%2E%2E": {
 				"Description": "Defeat a zombie in the sewers under the jailhouse.",
 				"Chunks": ["Draynor sewers"],
 				"Tasks": {
@@ -59720,7 +59720,7 @@
 				},
 				"BaseQuest": "Lumbridge Achievements"
 			},
-			"~|Lumbridge Achievements%2FEasy|~ What Is This Place?": {
+			"~|Lumbridge Achievements%2FEasy|~ What Is This Place%3F": {
 				"Description": "Have Sedridor teleport you to the Rune Essence Mine.",
 				"Chunks": ["12337"],
 				"Tasks": {
@@ -59781,7 +59781,7 @@
 				"Chunks": ["12850"],
 				"Tasks": {
 					"~|Lumbridge Achievements%2FEasy|~ And It Was THIS Big!": "Diary",
-					"~|Lumbridge Achievements%2FEasy|~ Draaaaaiiiiins...": "Diary",
+					"~|Lumbridge Achievements%2FEasy|~ Draaaaaiiiiins%2E%2E%2E": "Diary",
 					"~|Lumbridge Achievements%2FEasy|~ Belter of a Smelter": "Diary",
 					"~|Lumbridge Achievements%2FEasy|~ Come In Here and Say That": "Diary",
 					"~|Lumbridge Achievements%2FEasy|~ Slippery When Wet": "Diary",
@@ -60145,7 +60145,7 @@
 				},
 				"BaseQuest": "Morytania Achievements"
 			},
-			"~|Morytania Achievements%2FEasy|~ If It Bleeds...": {
+			"~|Morytania Achievements%2FEasy|~ If It Bleeds%2E%2E%2E": {
 				"Description": "Kill anything on the ground floor of the Slayer Tower.",
 				"Chunks": ["13623"],
 				"BaseQuest": "Morytania Achievements"
@@ -60170,7 +60170,7 @@
 					"~|Morytania Achievements%2FEasy|~ Struck A-Ghast": "Diary",
 					"~|Morytania Achievements%2FEasy|~ Blooming Marvellous": "Diary",
 					"~|Morytania Achievements%2FEasy|~ Only Going Forward. We Can't Find Reverse": "Diary",
-					"~|Morytania Achievements%2FEasy|~ If It Bleeds...": "Diary",
+					"~|Morytania Achievements%2FEasy|~ If It Bleeds%2E%2E%2E": "Diary",
 					"~|Morytania Achievements%2FEasy|~ Wurt A Bundle": "Diary"
 				},
 				"Reward": ["Morytania legs 1"],
@@ -60248,7 +60248,7 @@
 				},
 				"BaseQuest": "Morytania Achievements"
 			},
-			"~|Morytania Achievements%2FMedium|~ Ready? Trek!": {
+			"~|Morytania Achievements%2FMedium|~ Ready%3F Trek!": {
 				"Description": "Take a medium companion through a medium route of Temple Trekking.",
 				"Chunks": ["13622", "13874"],
 				"Tasks": {
@@ -60505,7 +60505,7 @@
 				},
 				"BaseQuest": "Morytania Achievements"
 			},
-			"~|Morytania Achievements%2FHard|~ Just One More Key...": {
+			"~|Morytania Achievements%2FHard|~ Just One More Key%2E%2E%2E": {
 				"Description": "Use a Columbarium key to unlock an alcove.",
 				"Chunks": ["Columbarium"],
 				"Items": ["Columbarium key"],
@@ -60566,7 +60566,7 @@
 					"~|Morytania Achievements%2FHard|~ Time Salver": "Diary",
 					"~|Morytania Achievements%2FHard|~ Huge Success": "Diary",
 					"~|Morytania Achievements%2FHard|~ I Brought Your Stuff Back": "Diary",
-					"~|Morytania Achievements%2FHard|~ Just One More Key...": "Diary",
+					"~|Morytania Achievements%2FHard|~ Just One More Key%2E%2E%2E": "Diary",
 					"~|Morytania Achievements%2FHard|~ Raising The Stakes": "Diary",
 					"~|Morytania Achievements%2FHard|~ Trekkin' Ain't Easy": "Diary",
 					"~|Morytania Achievements%2FHard|~ Better Than Cursing The Darkness": "Diary"
@@ -60917,7 +60917,7 @@
 				},
 				"BaseQuest": "Seers' Village Achievements"
 			},
-			"~|Seers' Village Achievements%2FMedium|~ All Your Bass...": {
+			"~|Seers' Village Achievements%2FMedium|~ All Your Bass%2E%2E%2E": {
 				"Description": "Catch and cook a bass in Catherby.",
 				"Chunks": ["11317", "11061"],
 				"Skills": {
@@ -60943,7 +60943,7 @@
 					"~|Seers' Village Achievements%2FMedium|~ What, No Cuddly Toy?": "Diary",
 					"~|Seers' Village Achievements%2FMedium|~ Familiar Fire Familiarity": "Diary",
 					"~|Seers' Village Achievements%2FMedium|~ At Least It Doesn't Need Walking": "Diary",
-					"~|Seers' Village Achievements%2FMedium|~ All Your Bass...": "Diary"
+					"~|Seers' Village Achievements%2FMedium|~ All Your Bass%2E%2E%2E": "Diary"
 				},
 				"Reward": ["Seer's headband 2"],
 				"XpReward": {
@@ -62642,7 +62642,7 @@
 				"Chunks": ["ChaosTunnelEntrance+"],
 				"BaseQuest": "Wilderness Achievements"
 			},
-			"~|Wilderness Achievements%2FEasy|~ Take a Potato Chip...and Eat it!": {
+			"~|Wilderness Achievements%2FEasy|~ Take a Potato Chip%2E%2E%2Eand Eat it!": {
 				"Description": "View the recent wilderness kills on the death list noticeboard in Edgeville.",
 				"Chunks": ["12342"],
 				"BaseQuest": "Wilderness Achievements"
@@ -62678,7 +62678,7 @@
 					"~|Wilderness Achievements%2FEasy|~ Highway to the Danger Zone!": "Diary",
 					"~|Wilderness Achievements%2FEasy|~ Chaosteo": "Diary",
 					"~|Wilderness Achievements%2FEasy|~ Taking the Subway": "Diary",
-					"~|Wilderness Achievements%2FEasy|~ Take a Potato Chip...and Eat it!": "Diary",
+					"~|Wilderness Achievements%2FEasy|~ Take a Potato Chip%2E%2E%2Eand Eat it!": "Diary",
 					"~|Wilderness Achievements%2FEasy|~ Hold My Beer While I PK This Guy": "Diary",
 					"~|Wilderness Achievements%2FEasy|~ Repressed": "Diary",
 					"~|Wilderness Achievements%2FEasy|~ Ten-uous Link": "Diary",
@@ -67172,7 +67172,7 @@
 				"Tasks": {
 					"Defeat the ~|leprechaun champion|~": "Extra"
 				},
-				"Items": ["Aberrant Spectre champion's scroll"]				
+				"Items": ["Aberrant Spectre Champion's scroll"]				
 			},
 			"Defeat the ~|jogre champion|~": {
 				"Category": ["Untracked Uniques", "Champion Challenge"],
@@ -172720,7 +172720,7 @@
 				"Xolo pickaxe (damaged)": "1/2",
 				"The One Above All": "Uncommon",
 				"Father of Dragons": "Uncommon",
-				"One... Voice...": "Uncommon",
+				"One%2E%2E%2E Voice%2E%2E%2E": "Uncommon",
 				"Raksha Observations": "Uncommon",
 				"Rex skeleton fragments": "Uncommon",
 				"Powerburst of opportunity recipe fragment 1": "Rare",
@@ -172910,7 +172910,7 @@
 				"Xolo spear (damaged)": "1/2",
 				"The One Above All": "Uncommon",
 				"Father of Dragons": "Uncommon",
-				"One... Voice...": "Uncommon",
+				"One%2E%2E%2E Voice%2E%2E%2E": "Uncommon",
 				"Raksha Observations": "Uncommon",
 				"Rex skeleton fragments": "Uncommon",
 				"Spirit attraction recipe fragment 1": "Rare",
@@ -172933,7 +172933,7 @@
 				"'Raksha' idol (damaged)": "1/2",
 				"The One Above All": "Uncommon",
 				"Father of Dragons": "Uncommon",
-				"One... Voice...": "Uncommon",
+				"One%2E%2E%2E Voice%2E%2E%2E": "Uncommon",
 				"Raksha Observations": "Uncommon",
 				"Rex skeleton fragments": "Uncommon",
 				"Spirit attraction recipe fragment 1": "Rare",
