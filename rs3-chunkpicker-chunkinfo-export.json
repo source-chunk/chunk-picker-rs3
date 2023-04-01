@@ -67222,6 +67222,7 @@
 			},
 			"Ancient Cavern": {
 				"UnlocksArea": true,
+				"Chunks": ["10038", "10039"],
 				"SkillsNeeded": {
 					"Firemaking": 35
 				}
@@ -111731,7 +111732,7 @@
 				"Corrupted slayer helmet",
 				"Full slayer helmet",
 				"Mighty slayer helmet",
-				"Nosepeg",
+				"Nose peg",
 				"Reinforced slayer helmet",
 				"Slayer helmet",
 				"Strong slayer helmet"
