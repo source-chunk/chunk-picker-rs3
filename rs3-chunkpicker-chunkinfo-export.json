@@ -86702,7 +86702,8 @@
 			},
 			"Monster": {
 				"Dwarf": 5,
-				"Guard": 10
+				"Guard": 10,
+				"Man": 1
 			},
 			"Connect": {
 				"12184": true,
