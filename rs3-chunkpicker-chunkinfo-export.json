@@ -59720,7 +59720,7 @@
 				},
 				"BaseQuest": "Lumbridge Achievements"
 			},
-			"~|Lumbridge Achievements%2FEasy|~ What Is This Place%3F": {
+			"~|Lumbridge Achievements%2FEasy|~ What Is This Place?": {
 				"Description": "Have Sedridor teleport you to the Rune Essence Mine.",
 				"Chunks": ["12337"],
 				"Tasks": {
