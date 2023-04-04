@@ -26033,6 +26033,7 @@
 				"Objects": ["Tree patch"],
 				"Level": 15,
 				"Output": "Oak roots",
+				"Output Object": "Oak",
 				"Primary": true,
 				"Priority": 3
 			},
@@ -26505,6 +26506,7 @@
 				"Objects": ["Tree patch"],
 				"Level": 30,
 				"Output": "Willow roots",
+				"Output Object": "Willow",
 				"Primary": false,
 				"Priority": 3
 			},
@@ -26956,6 +26958,7 @@
 				"Objects": ["Tree patch"],
 				"Level": 45,
 				"Output": "Maple roots",
+				"Output Object": "Maple tree",
 				"Primary": false,
 				"Priority": 3
 			},
@@ -27389,6 +27392,7 @@
 				"Objects": ["Tree patch"],
 				"Level": 60,
 				"Output": "Yew roots",
+				"Output Object": "Yew",
 				"Primary": false,
 				"Priority": 3
 			},
@@ -27793,6 +27797,7 @@
 				"Objects": ["Tree patch"],
 				"Level": 75,
 				"Output": "Magic roots",
+				"Output Object": "Magic tree",
 				"Primary": false,
 				"Priority": 3
 			},
@@ -28548,6 +28553,7 @@
 				"Objects": ["Elder tree patch"],
 				"Level": 90,
 				"Output": "Elder logs",
+				"Output Object": "Elder tree",
 				"Primary": false,
 				"Priority": 3
 			},
@@ -52198,7 +52204,7 @@
 		},
 		"Summoning": {
 			"Create a ~|spirit wolf|~ pouch": {
-				"Items": ["Gold charm*", "Wolf bones*", "Pouch*", "Spirit shards*"],
+				"Items": ["Gold charm*", "Wolf bones*", "Pouch*", "Spirit shard*"],
 				"Level": 1,
 				"Objects": ["Obelisk"],
 				"Output": "Spirit wolf pouch",
@@ -52206,7 +52212,7 @@
 				"Priority": 1
 			},
 			"Create a ~|dreadfowl|~ pouch": {
-				"Items": ["Gold charm*", "Raw chicken*", "Pouch*", "Spirit shards*"],
+				"Items": ["Gold charm*", "Raw chicken*", "Pouch*", "Spirit shard*"],
 				"Level": 4,
 				"Objects": ["Obelisk"],
 				"Output": "Dreadfowl pouch",
@@ -52214,7 +52220,7 @@
 				"Priority": 1
 			},
 			"Create a ~|spirit spider|~ pouch": {
-				"Items": ["Gold charm*", "Spider carcass*", "Pouch*", "Spirit shards*"],
+				"Items": ["Gold charm*", "Spider carcass*", "Pouch*", "Spirit shard*"],
 				"Level": 10,
 				"Objects": ["Obelisk"],
 				"Output": "Spirit spider pouch",
@@ -52222,7 +52228,7 @@
 				"Priority": 1
 			},
 			"Create a ~|thorny snail|~ pouch": {
-				"Items": ["Gold charm*", "Thin snail*", "Pouch*", "Spirit shards*"],
+				"Items": ["Gold charm*", "Thin snail*", "Pouch*", "Spirit shard*"],
 				"Level": 13,
 				"Objects": ["Obelisk"],
 				"Output": "Thorny snail pouch",
@@ -52230,7 +52236,7 @@
 				"Priority": 1
 			},
 			"Create a ~|granite crab|~ pouch": {
-				"Items": ["Gold charm*", "Iron ore*", "Pouch*", "Spirit shards*"],
+				"Items": ["Gold charm*", "Iron ore*", "Pouch*", "Spirit shard*"],
 				"Level": 16,
 				"Objects": ["Obelisk"],
 				"Output": "Granite crab pouch",
@@ -52238,7 +52244,7 @@
 				"Priority": 1
 			},
 			"Create a ~|spirit mosquito|~ pouch": {
-				"Items": ["Gold charm*", "Proboscis*", "Pouch*", "Spirit shards*"],
+				"Items": ["Gold charm*", "Proboscis*", "Pouch*", "Spirit shard*"],
 				"Level": 17,
 				"Objects": ["Obelisk"],
 				"Output": "Spirit mosquito pouch",
@@ -52246,7 +52252,7 @@
 				"Priority": 1
 			},
 			"Create a ~|desert wyrm|~ pouch": {
-				"Items": ["Green charm*", "Bucket of sand*", "Pouch*", "Spirit shards*"],
+				"Items": ["Green charm*", "Bucket of sand*", "Pouch*", "Spirit shard*"],
 				"Level": 18,
 				"Objects": ["Obelisk"],
 				"Output": "Desert wyrm pouch",
@@ -52254,7 +52260,7 @@
 				"Priority": 1
 			},
 			"Create a ~|spirit scorpion|~ pouch": {
-				"Items": ["Crimson charm*", "Bronze claws*", "Pouch*", "Spirit shards*"],
+				"Items": ["Crimson charm*", "Bronze claws*", "Pouch*", "Spirit shard*"],
 				"Level": 19,
 				"Objects": ["Obelisk"],
 				"Output": "Spirit scorpion pouch",
@@ -52262,7 +52268,7 @@
 				"Priority": 1
 			},
 			"Create a ~|spirit Tz-Kih|~ pouch": {
-				"Items": ["Crimson charm*", "Obsidian charm*", "Pouch*", "Spirit shards*"],
+				"Items": ["Crimson charm*", "Obsidian charm*", "Pouch*", "Spirit shard*"],
 				"Level": 22,
 				"Objects": ["Obelisk"],
 				"Output": "Spirit Tz-Kih pouch",
@@ -52270,7 +52276,7 @@
 				"Priority": 1
 			},
 			"Create a ~|albino rat|~ pouch": {
-				"Items": ["Blue charm*", "Raw rat meat*", "Pouch*", "Spirit shards*"],
+				"Items": ["Blue charm*", "Raw rat meat*", "Pouch*", "Spirit shard*"],
 				"Level": 23,
 				"Objects": ["Obelisk"],
 				"Output": "Albino rat pouch",
@@ -52278,7 +52284,7 @@
 				"Priority": 1
 			},
 			"Create a ~|spirit kalphite|~ pouch": {
-				"Items": ["Blue charm*", "Potato cactus*", "Pouch*", "Spirit shards*"],
+				"Items": ["Blue charm*", "Potato cactus*", "Pouch*", "Spirit shard*"],
 				"Level": 25,
 				"Objects": ["Obelisk"],
 				"Output": "Spirit kalphite pouch",
@@ -52286,7 +52292,7 @@
 				"Priority": 1
 			},
 			"Create a ~|compost mound|~ pouch": {
-				"Items": ["Green charm*", "Compost*", "Pouch*", "Spirit shards*"],
+				"Items": ["Green charm*", "Compost*", "Pouch*", "Spirit shard*"],
 				"Level": 28,
 				"Objects": ["Obelisk"],
 				"Output": "Compost mound pouch",
@@ -52294,7 +52300,7 @@
 				"Priority": 1
 			},
 			"Create a ~|giant chinchompa|~ pouch": {
-				"Items": ["Blue charm*", "Chinchompa*", "Pouch*", "Spirit shards*"],
+				"Items": ["Blue charm*", "Chinchompa*", "Pouch*", "Spirit shard*"],
 				"Level": 29,
 				"Objects": ["Obelisk"],
 				"Output": "Giant chinchompa pouch",
@@ -52302,7 +52308,7 @@
 				"Priority": 1
 			},
 			"Create a ~|vampyre bat|~ pouch": {
-				"Items": ["Crimson charm*", "Vampyre dust*", "Pouch*", "Spirit shards*"],
+				"Items": ["Crimson charm*", "Vampyre dust*", "Pouch*", "Spirit shard*"],
 				"Level": 31,
 				"Objects": ["Obelisk"],
 				"Output": "Vampyre bat pouch",
@@ -52310,7 +52316,7 @@
 				"Priority": 1
 			},
 			"Create a ~|honey badger|~ pouch": {
-				"Items": ["Crimson charm*", "Honeycomb*", "Pouch*", "Spirit shards*"],
+				"Items": ["Crimson charm*", "Honeycomb*", "Pouch*", "Spirit shard*"],
 				"Level": 32,
 				"Objects": ["Obelisk"],
 				"Output": "Honey badger pouch",
@@ -52318,7 +52324,7 @@
 				"Priority": 1
 			},
 			"Create a ~|beaver|~ pouch": {
-				"Items": ["Green charm*", "Willow logs*", "Pouch*", "Spirit shards*"],
+				"Items": ["Green charm*", "Willow logs*", "Pouch*", "Spirit shard*"],
 				"Level": 33,
 				"Objects": ["Obelisk"],
 				"Output": "Beaver pouch",
@@ -52326,7 +52332,7 @@
 				"Priority": 1
 			},
 			"Create a ~|void ravager|~ pouch": {
-				"Items": ["Green charm*", "Ravager charm*", "Pouch*", "Spirit shards*"],
+				"Items": ["Green charm*", "Ravager charm*", "Pouch*", "Spirit shard*"],
 				"Level": 34,
 				"Objects": ["Obelisk"],
 				"Output": "Void ravager pouch",
@@ -52334,7 +52340,7 @@
 				"Priority": 2
 			},
 			"Create a ~|void shifter|~ pouch": {
-				"Items": ["Blue charm*", "Shifter charm*", "Pouch*", "Spirit shards*"],
+				"Items": ["Blue charm*", "Shifter charm*", "Pouch*", "Spirit shard*"],
 				"Level": 34,
 				"Objects": ["Obelisk"],
 				"Output": "Void shifter pouch",
@@ -52342,7 +52348,7 @@
 				"Priority": 1
 			},
 			"Create a ~|void spinner|~ pouch": {
-				"Items": ["Blue charm*", "Spinner charm*", "Pouch*", "Spirit shards*"],
+				"Items": ["Blue charm*", "Spinner charm*", "Pouch*", "Spirit shard*"],
 				"Level": 34,
 				"Objects": ["Obelisk"],
 				"Output": "Void spinner pouch",
@@ -52350,7 +52356,7 @@
 				"Priority": 3
 			},
 			"Create a ~|void torcher|~ pouch": {
-				"Items": ["Blue charm*", "Torcher charm*", "Pouch*", "Spirit shards*"],
+				"Items": ["Blue charm*", "Torcher charm*", "Pouch*", "Spirit shard*"],
 				"Level": 34,
 				"Objects": ["Obelisk"],
 				"Output": "Void torcher pouch",
@@ -52358,7 +52364,7 @@
 				"Priority": 4
 			},
 			"Create a ~|bronze minotaur|~ pouch": {
-				"Items": ["Blue charm*", "Bronze bar*", "Pouch*", "Spirit shards*"],
+				"Items": ["Blue charm*", "Bronze bar*", "Pouch*", "Spirit shard*"],
 				"Level": 36,
 				"Objects": ["Obelisk"],
 				"Output": "Bronze minotaur pouch",
@@ -52366,7 +52372,7 @@
 				"Priority": 1
 			},
 			"Create a ~|bull ant|~ pouch": {
-				"Items": ["Gold charm*", "Marigolds*", "Pouch*", "Spirit shards*"],
+				"Items": ["Gold charm*", "Marigolds*", "Pouch*", "Spirit shard*"],
 				"Level": 40,
 				"Objects": ["Obelisk"],
 				"Output": "Bull ant pouch",
@@ -52374,7 +52380,7 @@
 				"Priority": 1
 			},
 			"Create a ~|macaw|~ pouch": {
-				"Items": ["Green charm*", "Clean guam*", "Pouch*", "Spirit shards*"],
+				"Items": ["Green charm*", "Clean guam*", "Pouch*", "Spirit shard*"],
 				"Level": 41,
 				"Objects": ["Obelisk"],
 				"Output": "Macaw pouch",
@@ -52382,7 +52388,7 @@
 				"Priority": 1
 			},
 			"Create a ~|evil turnip (familiar)|~ pouch": {
-				"Items": ["Crimson charm*", "Carved evil turnip*", "Pouch*", "Spirit shards*"],
+				"Items": ["Crimson charm*", "Carved evil turnip*", "Pouch*", "Spirit shard*"],
 				"Level": 42,
 				"Objects": ["Obelisk"],
 				"Output": "Evil turnip pouch",
@@ -52390,7 +52396,7 @@
 				"Priority": 1
 			},
 			"Create a ~|spirit cockatrice|~ pouch": {
-				"Items": ["Green charm*", "Cockatrice egg*", "Pouch*", "Spirit shards*"],
+				"Items": ["Green charm*", "Cockatrice egg*", "Pouch*", "Spirit shard*"],
 				"Level": 43,
 				"Objects": ["Obelisk"],
 				"Output": "Spirit cockatrice pouch",
@@ -52398,7 +52404,7 @@
 				"Priority": 1
 			},
 			"Create a ~|spirit guthatrice|~ pouch": {
-				"Items": ["Green charm*", "Guthatrice egg*", "Pouch*", "Spirit shards*"],
+				"Items": ["Green charm*", "Guthatrice egg*", "Pouch*", "Spirit shard*"],
 				"Level": 43,
 				"Objects": ["Obelisk"],
 				"Output": "Spirit guthatrice pouch",
@@ -52406,7 +52412,7 @@
 				"Priority": 2
 			},
 			"Create a ~|spirit saratrice|~ pouch": {
-				"Items": ["Green charm*", "Saratrice egg*", "Pouch*", "Spirit shards*"],
+				"Items": ["Green charm*", "Saratrice egg*", "Pouch*", "Spirit shard*"],
 				"Level": 43,
 				"Objects": ["Obelisk"],
 				"Output": "Spirit saratrice pouch",
@@ -52414,7 +52420,7 @@
 				"Priority": 3
 			},
 			"Create a ~|spirit zamatrice|~ pouch": {
-				"Items": ["Green charm*", "Zamatrice egg*", "Pouch*", "Spirit shards*"],
+				"Items": ["Green charm*", "Zamatrice egg*", "Pouch*", "Spirit shard*"],
 				"Level": 43,
 				"Objects": ["Obelisk"],
 				"Output": "Spirit zamatrice pouch",
@@ -52422,7 +52428,7 @@
 				"Priority": 4
 			},
 			"Create a ~|spirit pengatrice|~ pouch": {
-				"Items": ["Green charm*", "Pengatrice egg*", "Pouch*", "Spirit shards*"],
+				"Items": ["Green charm*", "Pengatrice egg*", "Pouch*", "Spirit shard*"],
 				"Level": 43,
 				"Objects": ["Obelisk"],
 				"Output": "Spirit pengatrice pouch",
@@ -52430,7 +52436,7 @@
 				"Priority": 5
 			},
 			"Create a ~|spirit coraxatrice|~ pouch": {
-				"Items": ["Green charm*", "Coraxatrice egg*", "Pouch*", "Spirit shards*"],
+				"Items": ["Green charm*", "Coraxatrice egg*", "Pouch*", "Spirit shard*"],
 				"Level": 43,
 				"Objects": ["Obelisk"],
 				"Output": "Spirit coraxatrice pouch",
@@ -52438,7 +52444,7 @@
 				"Priority": 6
 			},
 			"Create a ~|spirit vulatrice|~ pouch": {
-				"Items": ["Green charm*", "Vulatrice egg*", "Pouch*", "Spirit shards*"],
+				"Items": ["Green charm*", "Vulatrice egg*", "Pouch*", "Spirit shard*"],
 				"Level": 43,
 				"Objects": ["Obelisk"],
 				"Output": "Spirit vulatrice pouch",
@@ -52446,7 +52452,7 @@
 				"Priority": 7
 			},
 			"Create a ~|iron minotaur|~ pouch": {
-				"Items": ["Blue charm*", "Iron bar*", "Pouch*", "Spirit shards*"],
+				"Items": ["Blue charm*", "Iron bar*", "Pouch*", "Spirit shard*"],
 				"Level": 46,
 				"Objects": ["Obelisk"],
 				"Output": "Iron minotaur pouch",
@@ -52454,7 +52460,7 @@
 				"Priority": 1
 			},
 			"Create a ~|pyrelord|~ pouch": {
-				"Items": ["Crimson charm*", "Tinderbox*", "Pouch*", "Spirit shards*"],
+				"Items": ["Crimson charm*", "Tinderbox*", "Pouch*", "Spirit shard*"],
 				"Level": 46,
 				"Objects": ["Obelisk"],
 				"Output": "Pyrelord pouch",
@@ -52462,7 +52468,7 @@
 				"Priority": 2
 			},
 			"Create a ~|magpie|~ pouch": {
-				"Items": ["Green charm*", "Gold ring*", "Pouch*", "Spirit shards*"],
+				"Items": ["Green charm*", "Gold ring*", "Pouch*", "Spirit shard*"],
 				"Level": 47,
 				"Objects": ["Obelisk"],
 				"Output": "Magpie pouch",
@@ -52470,7 +52476,7 @@
 				"Priority": 1
 			},
 			"Create a ~|bloated leech|~ pouch": {
-				"Items": ["Crimson charm*", "Raw beef*", "Pouch*", "Spirit shards*"],
+				"Items": ["Crimson charm*", "Raw beef*", "Pouch*", "Spirit shard*"],
 				"Level": 49,
 				"Objects": ["Obelisk"],
 				"Output": "Bloated leech pouch",
@@ -52478,7 +52484,7 @@
 				"Priority": 1
 			},
 			"Create a ~|spirit terrorbird|~ pouch": {
-				"Items": ["Gold charm*", "Raw bird meat*", "Pouch*", "Spirit shards*"],
+				"Items": ["Gold charm*", "Raw bird meat*", "Pouch*", "Spirit shard*"],
 				"Level": 52,
 				"Objects": ["Obelisk"],
 				"Output": "Spirit terrorbird pouch",
@@ -52486,7 +52492,7 @@
 				"Priority": 1
 			},
 			"Create a ~|abyssal parasite|~ pouch": {
-				"Items": ["Green charm*", "Abyssal charm*", "Pouch*", "Spirit shards*"],
+				"Items": ["Green charm*", "Abyssal charm*", "Pouch*", "Spirit shard*"],
 				"Level": 54,
 				"Objects": ["Obelisk"],
 				"Output": "Abyssal parasite pouch",
@@ -52494,7 +52500,7 @@
 				"Priority": 1
 			},
 			"Create a ~|spirit jelly|~ pouch": {
-				"Items": ["Blue charm*", "Jug of water*", "Pouch*", "Spirit shards*"],
+				"Items": ["Blue charm*", "Jug of water*", "Pouch*", "Spirit shard*"],
 				"Level": 55,
 				"Objects": ["Obelisk"],
 				"Output": "Spirit jelly pouch",
@@ -52502,7 +52508,7 @@
 				"Priority": 1
 			},
 			"Create a ~|ibis|~ pouch": {
-				"Items": ["Green charm*", "Harpoon*", "Pouch*", "Spirit shards*"],
+				"Items": ["Green charm*", "Harpoon*", "Pouch*", "Spirit shard*"],
 				"Level": 56,
 				"Objects": ["Obelisk"],
 				"Output": "Ibis pouch",
@@ -52510,7 +52516,7 @@
 				"Priority": 1
 			},
 			"Create a ~|steel minotaur|~ pouch": {
-				"Items": ["Blue charm*", "Steel bar*", "Pouch*", "Spirit shards*"],
+				"Items": ["Blue charm*", "Steel bar*", "Pouch*", "Spirit shard*"],
 				"Level": 56,
 				"Objects": ["Obelisk"],
 				"Output": "Steel minotaur pouch",
@@ -52518,7 +52524,7 @@
 				"Priority": 2
 			},
 			"Create a ~|spirit graahk|~ pouch": {
-				"Items": ["Blue charm*", "Graahk fur*", "Pouch*", "Spirit shards*"],
+				"Items": ["Blue charm*", "Graahk fur*", "Pouch*", "Spirit shard*"],
 				"Level": 57,
 				"Objects": ["Obelisk"],
 				"Output": "Spirit graahk pouch",
@@ -52526,7 +52532,7 @@
 				"Priority": 1
 			},
 			"Create a ~|spirit kyatt|~ pouch": {
-				"Items": ["Blue charm*", "Kyatt fur*", "Pouch*", "Spirit shards*"],
+				"Items": ["Blue charm*", "Kyatt fur*", "Pouch*", "Spirit shard*"],
 				"Level": 57,
 				"Objects": ["Obelisk"],
 				"Output": "Spirit kyatt pouch",
@@ -52534,7 +52540,7 @@
 				"Priority": 2
 			},
 			"Create a ~|spirit larupia|~ pouch": {
-				"Items": ["Blue charm*", "Larupia fur*", "Pouch*", "Spirit shards*"],
+				"Items": ["Blue charm*", "Larupia fur*", "Pouch*", "Spirit shard*"],
 				"Level": 57,
 				"Objects": ["Obelisk"],
 				"Output": "Spirit larupia pouch",
@@ -52542,7 +52548,7 @@
 				"Priority": 3
 			},
 			"Create a ~|Karam. overlord|~ pouch": {
-				"Items": ["Blue charm*", "Fishbowl*", "Pouch*", "Spirit shards*"],
+				"Items": ["Blue charm*", "Fishbowl*", "Pouch*", "Spirit shard*"],
 				"Level": 58,
 				"Objects": ["Obelisk"],
 				"Output": "Karam. overlord pouch",
@@ -52550,7 +52556,7 @@
 				"Priority": 1
 			},
 			"Create a ~|smoke devil|~ pouch": {
-				"Items": ["Crimson charm*", "Goat horn dust*", "Pouch*", "Spirit shards*"],
+				"Items": ["Crimson charm*", "Goat horn dust*", "Pouch*", "Spirit shard*"],
 				"Level": 61,
 				"Objects": ["Obelisk"],
 				"Output": "Smoke devil pouch",
@@ -52558,7 +52564,7 @@
 				"Priority": 1
 			},
 			"Create a ~|abyssal lurker|~ pouch": {
-				"Items": ["Green charm*", "Abyssal charm*", "Pouch*", "Spirit shards*"],
+				"Items": ["Green charm*", "Abyssal charm*", "Pouch*", "Spirit shard*"],
 				"Level": 62,
 				"Objects": ["Obelisk"],
 				"Output": "Abyssal lurker pouch",
@@ -52566,7 +52572,7 @@
 				"Priority": 1
 			},
 			"Create a ~|spirit cobra|~ pouch": {
-				"Items": ["Crimson charm*", "Snake hide*", "Pouch*", "Spirit shards*"],
+				"Items": ["Crimson charm*", "Snake hide*", "Pouch*", "Spirit shard*"],
 				"Level": 63,
 				"Objects": ["Obelisk"],
 				"Output": "Spirit cobra pouch",
@@ -52574,7 +52580,7 @@
 				"Priority": 1
 			},
 			"Create a ~|stranger plant|~ pouch": {
-				"Items": ["Crimson charm*", "Bagged plant 1*", "Pouch*", "Spirit shards*"],
+				"Items": ["Crimson charm*", "Bagged plant 1*", "Pouch*", "Spirit shard*"],
 				"Level": 64,
 				"Objects": ["Obelisk"],
 				"Output": "Stranger plant pouch",
@@ -52582,7 +52588,7 @@
 				"Priority": 1
 			},
 			"Create a ~|barker toad|~ pouch": {
-				"Items": ["Gold charm*", "Swamp toad*", "Pouch*", "Spirit shards*"],
+				"Items": ["Gold charm*", "Swamp toad*", "Pouch*", "Spirit shard*"],
 				"Level": 66,
 				"Objects": ["Obelisk"],
 				"Output": "Barker toad pouch",
@@ -52590,7 +52596,7 @@
 				"Priority": 1
 			},
 			"Create a ~|mithril minotaur|~ pouch": {
-				"Items": ["Blue charm*", "Mithril bar*", "Pouch*", "Spirit shards*"],
+				"Items": ["Blue charm*", "Mithril bar*", "Pouch*", "Spirit shard*"],
 				"Level": 66,
 				"Objects": ["Obelisk"],
 				"Output": "Mithril minotaur pouch",
@@ -52598,7 +52604,7 @@
 				"Priority": 2
 			},
 			"Create a ~|war tortoise|~ pouch": {
-				"Items": ["Gold charm*", "Tortoise shell*", "Pouch*", "Spirit shards*"],
+				"Items": ["Gold charm*", "Tortoise shell*", "Pouch*", "Spirit shard*"],
 				"Level": 67,
 				"Objects": ["Obelisk"],
 				"Output": "War tortoise pouch",
@@ -52606,7 +52612,7 @@
 				"Priority": 1
 			},
 			"Create a ~|bunyip|~ pouch": {
-				"Items": ["Green charm*", "Raw shark*", "Pouch*", "Spirit shards*"],
+				"Items": ["Green charm*", "Raw shark*", "Pouch*", "Spirit shard*"],
 				"Level": 68,
 				"Objects": ["Obelisk"],
 				"Output": "Bunyip pouch",
@@ -52614,7 +52620,7 @@
 				"Priority": 1
 			},
 			"Create a ~|fruit bat|~ pouch": {
-				"Items": ["Green charm*", "Banana*", "Pouch*", "Spirit shards*"],
+				"Items": ["Green charm*", "Banana*", "Pouch*", "Spirit shard*"],
 				"Level": 69,
 				"Objects": ["Obelisk"],
 				"Output": "Fruit bat pouch",
@@ -52622,7 +52628,7 @@
 				"Priority": 1
 			},
 			"Create a ~|ravenous locust|~ pouch": {
-				"Items": ["Crimson charm*", "Pot of flour*", "Pouch*", "Spirit shards*"],
+				"Items": ["Crimson charm*", "Pot of flour*", "Pouch*", "Spirit shard*"],
 				"Level": 70,
 				"Objects": ["Obelisk"],
 				"Output": "Ravenous locust pouch",
@@ -52630,7 +52636,7 @@
 				"Priority": 1
 			},
 			"Create a ~|arctic bear|~ pouch": {
-				"Items": ["Gold charm*", "Polar kebbit fur*", "Pouch*", "Spirit shards*"],
+				"Items": ["Gold charm*", "Polar kebbit fur*", "Pouch*", "Spirit shard*"],
 				"Level": 71,
 				"Objects": ["Obelisk"],
 				"Output": "Arctic bear pouch",
@@ -52638,7 +52644,7 @@
 				"Priority": 1
 			},
 			"Create a ~|phoenix (familiar)|~ pouch": {
-				"Items": ["Crimson charm*", "Phoenix quill*", "Pouch*", "Spirit shards*"],
+				"Items": ["Crimson charm*", "Phoenix quill*", "Pouch*", "Spirit shard*"],
 				"Level": 72,
 				"Objects": ["Obelisk"],
 				"Output": "Phoenix pouch",
@@ -52646,7 +52652,7 @@
 				"Priority": 1
 			},
 			"Create a ~|obsidian golem|~ pouch": {
-				"Items": ["Blue charm*", "Obsidian charm*", "Pouch*", "Spirit shards*"],
+				"Items": ["Blue charm*", "Obsidian charm*", "Pouch*", "Spirit shard*"],
 				"Level": 73,
 				"Objects": ["Obelisk"],
 				"Output": "Obsidian golem pouch",
@@ -52654,7 +52660,7 @@
 				"Priority": 1
 			},
 			"Create a ~|granite lobster|~ pouch": {
-				"Items": ["Crimson charm*", "Granite (500g)*", "Pouch*", "Spirit shards*"],
+				"Items": ["Crimson charm*", "Granite (500g)*", "Pouch*", "Spirit shard*"],
 				"Level": 74,
 				"Objects": ["Obelisk"],
 				"Output": "Granite lobster pouch",
@@ -52662,7 +52668,7 @@
 				"Priority": 1
 			},
 			"Create a ~|praying mantis|~ pouch": {
-				"Items": ["Crimson charm*", "Red flowers*", "Pouch*", "Spirit shards*"],
+				"Items": ["Crimson charm*", "Red flowers*", "Pouch*", "Spirit shard*"],
 				"Level": 75,
 				"Objects": ["Obelisk"],
 				"Output": "Praying mantis pouch",
@@ -52670,7 +52676,7 @@
 				"Priority": 1
 			},
 			"Create a ~|forge regent|~ pouch": {
-				"Items": ["Green charm*", "Ruby harvest*", "Pouch*", "Spirit shards*"],
+				"Items": ["Green charm*", "Ruby harvest*", "Pouch*", "Spirit shard*"],
 				"Level": 76,
 				"Objects": ["Obelisk"],
 				"Output": "Forge regent pouch",
@@ -52678,7 +52684,7 @@
 				"Priority": 1
 			},
 			"Create a ~|adamant minotaur|~ pouch": {
-				"Items": ["Blue charm*", "Adamant bar*", "Pouch*", "Spirit shards*"],
+				"Items": ["Blue charm*", "Adamant bar*", "Pouch*", "Spirit shard*"],
 				"Level": 76,
 				"Objects": ["Obelisk"],
 				"Output": "Adamant minotaur pouch",
@@ -52686,7 +52692,7 @@
 				"Priority": 2
 			},
 			"Create a ~|talon beast|~ pouch": {
-				"Items": ["Crimson charm*", "Talon beast charm*", "Pouch*", "Spirit shards*"],
+				"Items": ["Crimson charm*", "Talon beast charm*", "Pouch*", "Spirit shard*"],
 				"Level": 77,
 				"Objects": ["Obelisk"],
 				"Output": "Talon beast pouch",
@@ -52694,7 +52700,7 @@
 				"Priority": 1
 			},
 			"Create a ~|giant ent|~ pouch": {
-				"Items": ["Green charm*", "Willow branch*", "Pouch*", "Spirit shards*"],
+				"Items": ["Green charm*", "Willow branch*", "Pouch*", "Spirit shard*"],
 				"Level": 78,
 				"Objects": ["Obelisk"],
 				"Output": "Giant ent pouch",
@@ -52702,7 +52708,7 @@
 				"Priority": 1
 			},
 			"Create a ~|fire titan|~ pouch": {
-				"Items": ["Blue charm*", "Fire talisman*", "Pouch*", "Spirit shards*"],
+				"Items": ["Blue charm*", "Fire talisman*", "Pouch*", "Spirit shard*"],
 				"Level": 79,
 				"Objects": ["Obelisk"],
 				"Output": "Fire titan pouch",
@@ -52710,7 +52716,7 @@
 				"Priority": 1
 			},
 			"Create a ~|moss titan|~ pouch": {
-				"Items": ["Blue charm*", "Earth talisman*", "Pouch*", "Spirit shards*"],
+				"Items": ["Blue charm*", "Earth talisman*", "Pouch*", "Spirit shard*"],
 				"Level": 79,
 				"Objects": ["Obelisk"],
 				"Output": "Moss titan pouch",
@@ -52718,7 +52724,7 @@
 				"Priority": 2
 			},
 			"Create a ~|ice titan|~ pouch": {
-				"Items": ["Blue charm*", "Air talisman*", "Water talisman*", "Pouch*", "Spirit shards*"],
+				"Items": ["Blue charm*", "Air talisman*", "Water talisman*", "Pouch*", "Spirit shard*"],
 				"Level": 79,
 				"Objects": ["Obelisk"],
 				"Output": "Ice titan pouch",
@@ -52726,7 +52732,7 @@
 				"Priority": 3
 			},
 			"Create a ~|hydra|~ pouch": {
-				"Items": ["Green charm*", "Water orb*", "Pouch*", "Spirit shards*"],
+				"Items": ["Green charm*", "Water orb*", "Pouch*", "Spirit shard*"],
 				"Level": 80,
 				"Objects": ["Obelisk"],
 				"Output": "Hydra pouch",
@@ -52734,7 +52740,7 @@
 				"Priority": 1
 			},
 			"Create a ~|demon brawler|~ pouch": {
-				"Items": ["Crimson charm*", "Demon claw*", "Pouch*", "Spirit shards*"],
+				"Items": ["Crimson charm*", "Demon claw*", "Pouch*", "Spirit shard*"],
 				"Level": 82,
 				"Objects": ["Obelisk"],
 				"Output": "Demon brawler pouch",
@@ -52742,7 +52748,7 @@
 				"Priority": 1
 			},
 			"Create a ~|demon deacon|~ pouch": {
-				"Items": ["Crimson charm*", "Demon claw*", "Pouch*", "Spirit shards*"],
+				"Items": ["Crimson charm*", "Demon claw*", "Pouch*", "Spirit shard*"],
 				"Level": 82,
 				"Objects": ["Obelisk"],
 				"Output": "Demon deacon pouch",
@@ -52750,7 +52756,7 @@
 				"Priority": 2
 			},
 			"Create a ~|demon executioner|~ pouch": {
-				"Items": ["Crimson charm*", "Demon claw*", "Pouch*", "Spirit shards*"],
+				"Items": ["Crimson charm*", "Demon claw*", "Pouch*", "Spirit shard*"],
 				"Level": 82,
 				"Objects": ["Obelisk"],
 				"Output": "Demon executioner pouch",
@@ -52758,7 +52764,7 @@
 				"Priority": 3
 			},
 			"Create a ~|spirit dagannoth|~ pouch": {
-				"Items": ["Crimson charm*", "Dagannoth hide*", "Pouch*", "Spirit shards*"],
+				"Items": ["Crimson charm*", "Dagannoth hide*", "Pouch*", "Spirit shard*"],
 				"Level": 83,
 				"Objects": ["Obelisk"],
 				"Output": "Spirit dagannoth pouch",
@@ -52766,7 +52772,7 @@
 				"Priority": 1
 			},
 			"Create a ~|lava titan|~ pouch": {
-				"Items": ["Blue charm*", "Obsidian charm*", "Pouch*", "Spirit shards*"],
+				"Items": ["Blue charm*", "Obsidian charm*", "Pouch*", "Spirit shard*"],
 				"Level": 83,
 				"Objects": ["Obelisk"],
 				"Output": "Lava titan pouch",
@@ -52774,7 +52780,7 @@
 				"Priority": 2
 			},
 			"Create a ~|reborn phoenix|~ pouch": {
-				"Items": ["Crimson charm*", "Phoenix quill*", "Pouch*", "Spirit shards*"],
+				"Items": ["Crimson charm*", "Phoenix quill*", "Pouch*", "Spirit shard*"],
 				"Level": 84,
 				"Objects": ["Obelisk"],
 				"Output": "Reborn phoenix pouch",
@@ -52782,7 +52788,7 @@
 				"Priority": 4
 			},
 			"Create a ~|swamp titan|~ pouch": {
-				"Items": ["Crimson charm*", "Green salamander*", "Pouch*", "Spirit shards*"],
+				"Items": ["Crimson charm*", "Green salamander*", "Pouch*", "Spirit shard*"],
 				"Level": 85,
 				"Objects": ["Obelisk"],
 				"Output": "Swamp titan pouch",
@@ -52790,7 +52796,7 @@
 				"Priority": 1
 			},
 			"Create a ~|rune minotaur|~ pouch": {
-				"Items": ["Blue charm*", "Rune bar*", "Pouch*", "Spirit shards*"],
+				"Items": ["Blue charm*", "Rune bar*", "Pouch*", "Spirit shard*"],
 				"Level": 86,
 				"Objects": ["Obelisk"],
 				"Output": "Rune minotaur pouch",
@@ -52798,7 +52804,7 @@
 				"Priority": 1
 			},
 			"Create a ~|unicorn stallion|~ pouch": {
-				"Items": ["Green charm*", "Unicorn horn*", "Pouch*", "Spirit shards*"],
+				"Items": ["Green charm*", "Unicorn horn*", "Pouch*", "Spirit shard*"],
 				"Level": 88,
 				"Objects": ["Obelisk"],
 				"Output": "Unicorn stallion pouch",
@@ -52806,7 +52812,7 @@
 				"Priority": 1
 			},
 			"Create a ~|light creature (familiar)|~ pouch": {
-				"Items": ["Blue charm*", "Light core*", "Pouch*", "Spirit shards*"],
+				"Items": ["Blue charm*", "Light core*", "Pouch*", "Spirit shard*"],
 				"Level": 88,
 				"Objects": ["Obelisk"],
 				"Output": "Light creature pouch",
@@ -52814,7 +52820,7 @@
 				"Priority": 2
 			},
 			"Create a ~|geyser titan|~ pouch": {
-				"Items": ["Blue charm*", "Water talisman*", "Pouch*", "Spirit shards*"],
+				"Items": ["Blue charm*", "Water talisman*", "Pouch*", "Spirit shard*"],
 				"Level": 89,
 				"Objects": ["Obelisk"],
 				"Output": "Geyser titan pouch",
@@ -52822,7 +52828,7 @@
 				"Priority": 1
 			},
 			"Create a ~|wolpertinger|~ pouch": {
-				"Items": ["Crimson charm*", "Raw rabbit*", "Wolf bones*", "Pouch*", "Spirit shards*"],
+				"Items": ["Crimson charm*", "Raw rabbit*", "Wolf bones*", "Pouch*", "Spirit shard*"],
 				"Level": 92,
 				"Objects": ["Obelisk"],
 				"Output": "Wolpertinger pouch",
@@ -52830,7 +52836,7 @@
 				"Priority": 1
 			},
 			"Create a ~|abyssal titan|~ pouch": {
-				"Items": ["Green charm*", "Abyssal charm*", "Pouch*", "Spirit shards*"],
+				"Items": ["Green charm*", "Abyssal charm*", "Pouch*", "Spirit shard*"],
 				"Level": 93,
 				"Objects": ["Obelisk"],
 				"Output": "Abyssal titan pouch",
@@ -52838,7 +52844,7 @@
 				"Priority": 1
 			},
 			"Create a ~|iron titan|~ pouch": {
-				"Items": ["Crimson charm*", "Iron ingot*", "Pouch*", "Spirit shards*"],
+				"Items": ["Crimson charm*", "Iron ingot*", "Pouch*", "Spirit shard*"],
 				"Level": 95,
 				"Objects": ["Obelisk"],
 				"Output": "Iron titan pouch",
@@ -52846,7 +52852,7 @@
 				"Priority": 1
 			},
 			"Create a ~|pack yak|~ pouch": {
-				"Items": ["Crimson charm*", "Yak-hide*", "Pouch*", "Spirit shards*"],
+				"Items": ["Crimson charm*", "Yak-hide*", "Pouch*", "Spirit shard*"],
 				"Level": 96,
 				"Objects": ["Obelisk"],
 				"Output": "Pack yak pouch",
@@ -52854,7 +52860,7 @@
 				"Priority": 1
 			},
 			"Create a ~|pack mammoth|~ pouch": {
-				"Items": ["Crimson charm*", "Mammoth tusk*", "Pouch*", "Spirit shards*"],
+				"Items": ["Crimson charm*", "Mammoth tusk*", "Pouch*", "Spirit shard*"],
 				"Level": 99,
 				"Objects": ["Obelisk"],
 				"Output": "Pack mammoth pouch",
@@ -52862,7 +52868,7 @@
 				"Priority": 2
 			},
 			"Create a ~|steel titan|~ pouch": {
-				"Items": ["Crimson charm*", "Steel ingot*", "Pouch*", "Spirit shards*"],
+				"Items": ["Crimson charm*", "Steel ingot*", "Pouch*", "Spirit shard*"],
 				"Level": 99,
 				"Objects": ["Obelisk"],
 				"Output": "Steel titan pouch",
@@ -52910,7 +52916,7 @@
 				"Priority": 4
 			},
 			"Create a ~|binding contract (hellhound)|~": {
-				"Items": ["Blue charm*", "Blood of Orcus*", "Hellfire metal*", "Pouch*", "Spirit shards*"],
+				"Items": ["Blue charm*", "Blood of Orcus*", "Hellfire metal*", "Pouch*", "Spirit shard*"],
 				"Level": 45,
 				"Monsters": ["Hellhound"],
 				"Objects": ["Obelisk"],
@@ -52919,7 +52925,7 @@
 				"Priority": 1
 			},
 			"Create a ~|binding contract (waterfiend)|~": {
-				"Items": ["Blue charm*", "Blood of Orcus*", "Hellfire metal*", "Pouch*", "Spirit shards*"],
+				"Items": ["Blue charm*", "Blood of Orcus*", "Hellfire metal*", "Pouch*", "Spirit shard*"],
 				"Level": 50,
 				"Monsters": ["Waterfiend"],
 				"Objects": ["Obelisk"],
@@ -52928,7 +52934,7 @@
 				"Priority": 1
 			},
 			"Create a ~|binding contract (blood reaver)|~": {
-				"Items": ["Blue charm*", "Blood of Orcus*", "Hellfire metal*", "Pouch*", "Spirit shards*"],
+				"Items": ["Blue charm*", "Blood of Orcus*", "Hellfire metal*", "Pouch*", "Spirit shard*"],
 				"Level": 73,
 				"Monsters": ["Blood reaver"],
 				"Objects": ["Obelisk"],
@@ -52937,7 +52943,7 @@
 				"Priority": 2
 			},
 			"Create a ~|binding contract (gargoyle)|~": {
-				"Items": ["Blue charm*", "Blood of Orcus*", "Hellfire metal*", "Pouch*", "Spirit shards*"],
+				"Items": ["Blue charm*", "Blood of Orcus*", "Hellfire metal*", "Pouch*", "Spirit shard*"],
 				"Level": 75,
 				"Monsters": ["Gargoyle"],
 				"Objects": ["Obelisk"],
@@ -52946,7 +52952,7 @@
 				"Priority": 2
 			},
 			"Create a ~|binding contract (abyssal demon)|~": {
-				"Items": ["Blue charm*", "Blood of Orcus*", "Hellfire metal*", "Pouch*", "Spirit shards*"],
+				"Items": ["Blue charm*", "Blood of Orcus*", "Hellfire metal*", "Pouch*", "Spirit shard*"],
 				"Level": 85,
 				"Monsters": ["Abyssal demon"],
 				"Objects": ["Obelisk"],
@@ -52955,7 +52961,7 @@
 				"Priority": 2
 			},
 			"Create a ~|binding contract (Kal'gerion demon)|~": {
-				"Items": ["Blue charm*", "Blood of Orcus*", "Hellfire metal*", "Pouch*", "Spirit shards*"],
+				"Items": ["Blue charm*", "Blood of Orcus*", "Hellfire metal*", "Pouch*", "Spirit shard*"],
 				"Level": 90,
 				"Monsters": ["Kal'gerion demon"],
 				"Objects": ["Obelisk"],
@@ -52964,7 +52970,7 @@
 				"Priority": 1
 			},
 			"Create a ~|binding contract (Ripper Demon)|~": {
-				"Items": ["Blue charm*", "Blood of Orcus*", "Hellfire metal*", "Pouch*", "Spirit shards*"],
+				"Items": ["Blue charm*", "Blood of Orcus*", "Hellfire metal*", "Pouch*", "Spirit shard*"],
 				"Level": 96,
 				"Monsters": ["Ripper Demon"],
 				"Objects": ["Obelisk"],
@@ -57579,7 +57585,7 @@
 			"~|Desert Achievements%2FMedium|~ Unbeetleable": {
 				"Description": "Create a spirit kalphite pouch at the obelisk south west of Pollnivneach.",
 				"Chunks": ["13101"],
-				"Items": ["Blue charm", "Pouch", "Spirit shards", "Potato cactus"],
+				"Items": ["Blue charm", "Pouch", "Spirit shard", "Potato cactus"],
 				"Skills": {
 					"Summoning": 25
 				},
@@ -61451,7 +61457,7 @@
 			"~|Tirannwn Achievements%2FMedium|~ Stranger and Stranger": {
 				"Description": "Create a stranger plant pouch at the Well of Voyage.",
 				"Chunks": ["9779"],
-				"Items": ["Crimson charm", "Bagged plant 1", "Spirit shards", "Pouch"],
+				"Items": ["Crimson charm", "Bagged plant 1", "Spirit shard", "Pouch"],
 				"Skills": {
 					"Summoning": 64
 				},
@@ -78356,7 +78362,7 @@
 			"Shop": {
 				"Grud's Herblore stall": true,
 				"Dal's General Ogre Supplies": true,
-				"Summoning Supplies": true
+				"Summoning Supplies (Bogrog)": true
 			},
 			"Nickname": "Gu'Tanoth"
 		},
@@ -79781,7 +79787,7 @@
 				"Flax": 11,
 				"Oak": 2,
 				"Tree": 11,
-				"Maple Tree": 1,
+				"Maple tree": 1,
 				"Dead tree": 6,
 				"Broken bridge": 1,
 				"Crystal tree": 1
@@ -80696,7 +80702,7 @@
 				"Crate": 2,
 				"Oak": 50,
 				"Tree": 86,
-				"Maple Tree": 4,
+				"Maple tree": 4,
 				"Seers' Village, Camelot Castle": 1,
 				"McGrubor's Wood": 1
 			},
@@ -80722,7 +80728,7 @@
 			"Object": {
 				"Oak": 3,
 				"Tree": 19,
-				"Maple Tree": 25,
+				"Maple tree": 25,
 				"Dead tree": 7,
 				"Water barrel": 1,
 				"Hops patch": 1
@@ -81432,7 +81438,7 @@
 				"Tree": 32,
 				"Fountain": 1,
 				"Teak chest": 3,
-				"Maple Tree": 5,
+				"Maple tree": 5,
 				"Dead tree": 16,
 				"Coal rock": 4,
 				"Mithril rock": 4
@@ -81529,7 +81535,7 @@
 				"Oak": 10,
 				"Yew": 3,
 				"Tree": 24,
-				"Maple Tree": 9,
+				"Maple tree": 9,
 				"Sinclair Mansion, Fremennik Province": 1,
 				"Camelot Castle, Catherby": 1,
 				"Seers' Village, McGrubor's Wood": 1,
@@ -81601,7 +81607,7 @@
 				"Willow": 6,
 				"Oak": 1,
 				"Tree": 7,
-				"Maple Tree": 22,
+				"Maple tree": 22,
 				"Dead tree": 38,
 				"Fishing spot (lure, bait))": 4
 			},
@@ -81650,7 +81656,7 @@
 				"Log balance": 3,
 				"Oak": 15,
 				"Tree": 72,
-				"Maple Tree": 9,
+				"Maple tree": 9,
 				"Dead tree": 19,
 				"Fishing spot (lure, bait))": 2,
 				"Fishing spot (crayfish)": 2
@@ -92912,7 +92918,7 @@
 				"Bank deposit box": 1,
 				"Willow": 6,
 				"Yew": 3,
-				"Maple Tree": 9,
+				"Maple tree": 9,
 				"Magical barrier": 1
 			},
 			"NPC": {
@@ -122693,6 +122699,18 @@
 			},
 			"Off-hand rubber chicken": {
 				"1": "Very rare"
+			},
+			"Gold charm": {
+				"1": "Rare"
+			},
+			"Green charm": {
+				"1": "Rare"
+			},
+			"Crimson charm": {
+				"1": "Rare"
+			},
+			"Blue charm": {
+				"1": "Rare"
 			}
 		},
 		"Chocolate cow (player-owned farm teaser)": {
@@ -123934,6 +123952,18 @@
 			},
 			"Starved ancient effigy": {
 				"1": "Very rare"
+			},
+			"Gold charm": {
+				"1": "Rare"
+			},
+			"Green charm": {
+				"1": "Rare"
+			},
+			"Crimson charm": {
+				"1": "Rare"
+			},
+			"Blue charm": {
+				"1": "Rare"
 			}
 		},
 		"Cow calf": {
@@ -127630,6 +127660,18 @@
 				"1": "Very rare"
 			},
 			"Rare drop table": {
+				"1": "Rare"
+			},
+			"Gold charm": {
+				"1": "Rare"
+			},
+			"Green charm": {
+				"1": "Rare"
+			},
+			"Crimson charm": {
+				"1": "Rare"
+			},
+			"Blue charm": {
 				"1": "Rare"
 			}
 		},
@@ -133801,6 +133843,18 @@
 			},
 			"Cocktail shaker": {
 				"1": "Rare"
+			},
+			"Gold charm": {
+				"1": "Rare"
+			},
+			"Green charm": {
+				"1": "Rare"
+			},
+			"Crimson charm": {
+				"1": "Rare"
+			},
+			"Blue charm": {
+				"1": "Rare"
 			}
 		},
 		"Gnome Driver": {
@@ -134073,6 +134127,18 @@
 			},
 			"Grimy cadantine": {
 				"1": "1/1024"
+			},
+			"Gold charm": {
+				"1": "Rare"
+			},
+			"Green charm": {
+				"1": "Rare"
+			},
+			"Crimson charm": {
+				"1": "Rare"
+			},
+			"Blue charm": {
+				"1": "Rare"
 			}
 		},
 		"Goblin (village)": {
@@ -134233,6 +134299,18 @@
 			},
 			"Grimy cadantine": {
 				"1": "1/1024"
+			},
+			"Gold charm": {
+				"1": "Rare"
+			},
+			"Green charm": {
+				"1": "Rare"
+			},
+			"Crimson charm": {
+				"1": "Rare"
+			},
+			"Blue charm": {
+				"1": "Rare"
 			}
 		},
 		"Goblin (Goblin cave)": {
@@ -134390,6 +134468,18 @@
 			},
 			"Grimy cadantine": {
 				"1": "1/1024"
+			},
+			"Gold charm": {
+				"1": "Rare"
+			},
+			"Green charm": {
+				"1": "Rare"
+			},
+			"Crimson charm": {
+				"1": "Rare"
+			},
+			"Blue charm": {
+				"1": "Rare"
 			}
 		},
 		"Goblin (GWD)": {
@@ -136130,6 +136220,18 @@
 			},
 			"Starved ancient effigy": {
 				"1": "Very rare"
+			},
+			"Gold charm": {
+				"1": "Rare"
+			},
+			"Green charm": {
+				"1": "Rare"
+			},
+			"Crimson charm": {
+				"1": "Rare"
+			},
+			"Blue charm": {
+				"1": "Rare"
 			}
 		},
 		"Guard (Catherby)": {
@@ -137199,6 +137301,18 @@
 				"1": "1/5000"
 			},
 			"Rare drop table": {
+				"1": "Rare"
+			},
+			"Gold charm": {
+				"1": "Rare"
+			},
+			"Green charm": {
+				"1": "Rare"
+			},
+			"Crimson charm": {
+				"1": "Rare"
+			},
+			"Blue charm": {
 				"1": "Rare"
 			}
 		},
@@ -140085,6 +140199,18 @@
 			},
 			"Imp Champion's scroll": {
 				"1": "1/5000"
+			},
+			"Gold charm": {
+				"1": "Rare"
+			},
+			"Green charm": {
+				"1": "Rare"
+			},
+			"Crimson charm": {
+				"1": "Rare"
+			},
+			"Blue charm": {
+				"1": "Rare"
 			}
 		},
 		"Imp (GWD)": {
@@ -141063,6 +141189,18 @@
 			},
 			"Jackal bone": {
 				"1": "Common"
+			},
+			"Gold charm": {
+				"1": "Rare"
+			},
+			"Green charm": {
+				"1": "Rare"
+			},
+			"Crimson charm": {
+				"1": "Rare"
+			},
+			"Blue charm": {
+				"1": "Rare"
 			}
 		},
 		"Jade the Unruly": {
@@ -144866,6 +145004,18 @@
 			},
 			"Sealed clue scroll (easy)": {
 				"1": "1/128"
+			},
+			"Gold charm": {
+				"1": "Rare"
+			},
+			"Green charm": {
+				"1": "Rare"
+			},
+			"Crimson charm": {
+				"1": "Rare"
+			},
+			"Blue charm": {
+				"1": "Rare"
 			}
 		},
 		"Man (West Ardougne)": {
@@ -152893,6 +153043,18 @@
 			},
 			"Rare drop table": {
 				"1": "Rare"
+			},
+			"Gold charm": {
+				"1": "Rare"
+			},
+			"Green charm": {
+				"1": "Rare"
+			},
+			"Crimson charm": {
+				"1": "Rare"
+			},
+			"Blue charm": {
+				"1": "Rare"
 			}
 		},
 		"Skeleton (Ape Atoll)": {
@@ -153125,6 +153287,18 @@
 			},
 			"Skeleton Champion's scroll": {
 				"1": "1/5000"
+			},
+			"Gold charm": {
+				"1": "Rare"
+			},
+			"Green charm": {
+				"1": "Rare"
+			},
+			"Crimson charm": {
+				"1": "Rare"
+			},
+			"Blue charm": {
+				"1": "Rare"
 			}
 		},
 		"Skeleton (Melzar's Maze)": {
@@ -154976,6 +155150,18 @@
 			},
 			"Snake spine": {
 				"1": "Uncommon"
+			},
+			"Gold charm": {
+				"1": "Rare"
+			},
+			"Green charm": {
+				"1": "Rare"
+			},
+			"Crimson charm": {
+				"1": "Rare"
+			},
+			"Blue charm": {
+				"1": "Rare"
 			}
 		},
 		"Snake (Ape Atoll)": {
@@ -155609,6 +155795,18 @@
 				"2": "Common",
 				"18": "Common",
 				"30": "Common"
+			},
+			"Gold charm": {
+				"1": "Rare"
+			},
+			"Green charm": {
+				"1": "Rare"
+			},
+			"Crimson charm": {
+				"1": "Rare"
+			},
+			"Blue charm": {
+				"1": "Rare"
 			}
 		},
 		"Spidine": {
@@ -156462,6 +156660,18 @@
 			},
 			"Terrorbird wing": {
 				"1": "Common"
+			},
+			"Gold charm": {
+				"1": "Rare"
+			},
+			"Green charm": {
+				"1": "Rare"
+			},
+			"Crimson charm": {
+				"1": "Rare"
+			},
+			"Blue charm": {
+				"1": "Rare"
 			}
 		},
 		"The Ambassador": {
@@ -157534,6 +157744,18 @@
 			},
 			"Humerus bone": {
 				"1": "Uncommon"
+			},
+			"Gold charm": {
+				"1": "Rare"
+			},
+			"Green charm": {
+				"1": "Rare"
+			},
+			"Crimson charm": {
+				"1": "Rare"
+			},
+			"Blue charm": {
+				"1": "Rare"
 			}
 		},
 		"Tortured soul (Port Phasmatys)": {
@@ -157988,6 +158210,18 @@
 			},
 			"Bladestorm drape": {
 				"1": "Common"
+			},
+			"Gold charm": {
+				"1": "Rare"
+			},
+			"Green charm": {
+				"1": "Rare"
+			},
+			"Crimson charm": {
+				"1": "Rare"
+			},
+			"Blue charm": {
+				"1": "Rare"
 			}
 		},
 		"Troll commando": {
@@ -158400,6 +158634,18 @@
 			},
 			"Arrowstorm drape": {
 				"1": "Common"
+			},
+			"Gold charm": {
+				"1": "Rare"
+			},
+			"Green charm": {
+				"1": "Rare"
+			},
+			"Crimson charm": {
+				"1": "Rare"
+			},
+			"Blue charm": {
+				"1": "Rare"
 			}
 		},
 		"Troll spectator": {
@@ -163050,6 +163296,18 @@
 			},
 			"Sealed clue scroll (easy)": {
 				"1": "1/128"
+			},
+			"Gold charm": {
+				"1": "Rare"
+			},
+			"Green charm": {
+				"1": "Rare"
+			},
+			"Crimson charm": {
+				"1": "Rare"
+			},
+			"Blue charm": {
+				"1": "Rare"
 			}
 		},
 		"Woman (Canifis)": {
@@ -168134,7 +168392,7 @@
 			"Zamorak staff": true
 		},
 		"Magestix's Summoning Shop": {
-			"Spirit shards": true,
+			"Spirit shard": true,
 			"Pouch": true,
 			"Antlers": true,
 			"Feather headdress (blue)": true,
@@ -168751,14 +169009,14 @@
 			"Nuts": true,
 			"Flies": true,
 			"Beetle bits": true,
-			"Spirit shards": true,
+			"Spirit shard": true,
 			"Spirit shard pack": true
 		},
 		"Pet Shop (Yanille)": {
 			"Nuts": true,
 			"Flies": true,
 			"Beetle bits": true,
-			"Spirit shards": true,
+			"Spirit shard": true,
 			"Spirit shard pack": true
 		},
 		"Pickaxe-Is-Mine": {
@@ -168781,7 +169039,7 @@
 			"Summoning master cape": true
 		},
 		"Pikkupstix's Summoning Shop": {
-			"Spirit shards": true,
+			"Spirit shard": true,
 			"Pouch": true,
 			"Antlers": true,
 			"Lizard skull": true,
@@ -169524,7 +169782,7 @@
 			"Feather headdress (red)": true,
 			"Feather headdress (yellow)": true,
 			"Feather headdress (stripy)": true,
-			"Spirit shards": true,
+			"Spirit shard": true,
 			"Pouch": true,
 			"Spirit shard pack": true
 		},
@@ -169536,14 +169794,14 @@
 			"Feather headdress (red)": true,
 			"Feather headdress (yellow)": true,
 			"Feather headdress (stripy)": true,
-			"Spirit shards": true,
+			"Spirit shard": true,
 			"Pouch": true,
 			"Spirit shard pack": true
 		},
 		"Summoning Supplies (Wishing well)": {
 			"Antlers": true,
 			"Lizard skull": true,
-			"Spirit shards": true,
+			"Spirit shard": true,
 			"Feather headdress (blue)": true,
 			"Feather headdress (orange)": true,
 			"Feather headdress (red)": true,
