@@ -20471,6 +20471,12 @@
 				"Primary": false,
 				"Priority": 12
 			},
+			"Engrave the onyx amulet after ~|Gunnar's Ground|~": {
+				"Level": 90,
+				"Chunks": ["12341", "12597"],
+				"Primary": false,
+				"Priority": 13
+			},
 			"Feed a ~|starved ancient effigy|~ with crafting": {
 				"Items": ["Starved ancient effigy (agility%2Gcrafting)"],
 				"Level": 91,
@@ -80364,6 +80370,9 @@
 			},
 			"Nickname": "Rantz' Cave"
 		},
+		"10543": {
+			"Nickname": "Fake 1 Tile Corner"
+		},
 		"10544": {
 			"Object": {
 				"Oak": 3,
@@ -86672,7 +86681,9 @@
 				"Bank deposit box": 1,
 				"Mining & Smithing noticeboard": 1,
 				"Anvil": 8,
-				"Burial Anvil": 8
+				"Burial Anvil": 8,
+				"Furnace": 1,
+				"Forge": 1
 			},
 			"NPC": {
 				"Dwarf": 2,
