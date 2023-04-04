@@ -9366,6 +9366,7 @@
 			},
 			"Make a ~|stone wall segment|~": {
 				"Items": ["Limestone brick*"],
+				"Objects": ["Stonecutter"],
 				"Level": 1,
 				"Output": "Stone wall segment",
 				"Primary": true,
@@ -90904,7 +90905,7 @@
 				"South wall section 2": 1,
 				"South-west wall": 1,
 				"Command centre": 1,
-				"Chapel (Fort Forinthry": 1,
+				"Chapel (Fort Forinthry)": 1,
 				"Town Hall (Fort Forinthry)": 1,
 				"Workshop (Fort Forinthry)": 1,
 				"Lodestone": 1,
