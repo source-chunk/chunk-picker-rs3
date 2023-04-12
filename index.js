@@ -97,6 +97,7 @@ var filterByCheckedEquipment = false;                                           
 var filterByCheckedSources = false;                                             // Are we filtering sources by checked only
 var filterByCheckedMonsters = false;                                            // Are we filtering monsters by checked only
 var filterByUnlockedManualAreas = false;                                        // Are we filtering manual areas by unlocked only
+var filterByLockedManualAreas = false;                                          // Are we filtering manual areas by locked only
 var extraOutputItems = {};                                                      // List of extra items obtainable from skill output
 var baseChunkData = {};                                                         // Chunk data global list
 
@@ -2530,7 +2531,7 @@ var calcCurrentChallengesCanvas = function(useOld, proceed) {
         setCalculating('.panel-active', useOld);
         setCurrentChallenges(['No tasks currently backlogged.'], ['No tasks currently completed.'], true, true);
         myWorker.terminate();
-        myWorker = new Worker("./worker.js?v=5.3.10");
+        myWorker = new Worker("./worker.js?v=5.3.10.1");
         myWorker.onmessage = workerOnMessage;
         myWorker.postMessage(['current', tempChunks['unlocked'], rules, chunkInfo, skillNames, processingSkill, maybePrimary, combatSkills, monstersPlus, objectsPlus, chunksPlus, itemsPlus, mixPlus, npcsPlus, tasksPlus, tools, elementalRunes, manualTasks, completedChallenges, backlog, "1/" + rules['Rare Drop Amount'], universalPrimary, elementalStaves, rangedItems, boneItems, highestCurrent, dropTables, possibleAreas, randomLoot, magicTools, bossLogs, bossMonsters, minigameShops, manualEquipment, checkedChallenges, backloggedSources, altChallenges, manualMonsters, slayerLocked, passiveSkill, f2pSkills, assignedXpRewards, mid === diary2Tier, manualAreas, "1/" + rules['Secondary Primary Amount'], mid === manualAreasOnly]);
         workerOut = 1;
@@ -2774,7 +2775,7 @@ $(document).ready(function() {
 // ------------------------------------------------------------
 
 // Recieve message from worker
-let myWorker = new Worker("./worker.js?v=5.3.10");
+let myWorker = new Worker("./worker.js?v=5.3.10.1");
 let workerOnMessage = function(e) {
     if (e.data[0] === 'error') {
         $('.panel-active > .calculating > .inner-loading-bar').css('background-color', 'red');
@@ -5340,7 +5341,10 @@ var openManualAreas = function() {
         manualAreasModalOpen = true;
         $('#searchManualAreas').val('');
         filterByUnlockedManualAreas = false;
+        filterByLockedManualAreas = false;
         $('.changeManualAreasFilterBy').prop('checked', false);
+        $('.changeManualAreasFilterBy2').prop('checked', false);
+        (mid === manualAreasOnly) ? $('.changeManualAreasFilterBy2-container').show() : $('.changeManualAreasFilterBy2-container').hide();
         searchManualAreas();
         $('#myModal31').show();
         modalOutsideTime = Date.now();
@@ -5351,6 +5355,20 @@ var openManualAreas = function() {
 // Toggle filtering of manual areas by unlocked-only
 var changeManualAreasFilterBy = function() {
     filterByUnlockedManualAreas = !filterByUnlockedManualAreas;
+    if (filterByUnlockedManualAreas) {
+        filterByLockedManualAreas = false;
+        $('.changeManualAreasFilterBy2').prop('checked', false);
+    }
+    searchManualAreas();
+}
+
+// Toggle filtering of manual areas by locked-only
+var changeManualAreasFilterBy2 = function() {
+    filterByLockedManualAreas = !filterByLockedManualAreas;
+    if (filterByLockedManualAreas) {
+        filterByUnlockedManualAreas = false;
+        $('.changeManualAreasFilterBy').prop('checked', false);
+    }
     searchManualAreas();
 }
 
@@ -5358,7 +5376,7 @@ var changeManualAreasFilterBy = function() {
 var searchManualAreas = function() {
     let searchTemp = $('#searchManualAreas').val().toLowerCase();
     $('#manual-areas-data').empty();
-    Object.keys(chunkInfo['challenges']['Nonskill']).filter(task => { return chunkInfo['challenges']['Nonskill'][task].hasOwnProperty('UnlocksArea') && task.toLowerCase().includes(searchTemp.toLowerCase()) && (!filterByUnlockedManualAreas || (possibleAreas.hasOwnProperty(task) && possibleAreas[task])) }).sort().forEach(area => {
+    Object.keys(chunkInfo['challenges']['Nonskill']).filter(task => { return chunkInfo['challenges']['Nonskill'][task].hasOwnProperty('UnlocksArea') && task.toLowerCase().includes(searchTemp.toLowerCase()) && (!filterByUnlockedManualAreas || (possibleAreas.hasOwnProperty(task) && possibleAreas[task])) && (!filterByLockedManualAreas || !possibleAreas.hasOwnProperty(task) || !possibleAreas[task]) }).sort().forEach(area => {
         $('#manual-areas-data').append(`<div class='outer-manual-area noscroll'><span class='manual-area-btn enable-manual-area-btn noscroll${(!testMode && (viewOnly || inEntry || locked)) ? ' locked' : ''}${manualAreas.hasOwnProperty(area) && manualAreas[area] ? ' selected-area' : ''}${manualAreas.hasOwnProperty(area) && !manualAreas[area] ? ' grey-area' : ''}' onclick='setManualArea("${area.replaceAll(/\'/g, '-2H')}", ${true})'>Enable</span><span class='manual-area-btn disable-manual-area-btn noscroll${(!testMode && (viewOnly || inEntry || locked)) ? ' locked' : ''}${manualAreas.hasOwnProperty(area) && !manualAreas[area] ? ' selected-area' : ''}${manualAreas.hasOwnProperty(area) && manualAreas[area] ? ' grey-area' : ''}' onclick='setManualArea("${area.replaceAll(/\'/g, '-2H')}", ${false})'>Disable</span><span class='manual-area-text noscroll${possibleAreas.hasOwnProperty(area) && possibleAreas[area] ? ' green' : ''}'><a class='noscroll link' href="${"https://runescape.wiki/w/" + encodeURI(area.replaceAll(/\%2E/g, '.').replaceAll(/\%2I/g, ',').replaceAll(/\%2F/g, '#').replaceAll(/\%2G/g, '/').replaceAll(/\%2J/g, '+').replaceAll('_', ' ').replaceAll(/\-2H/g, "'").replaceAll(/\%2H/g, "'").replaceAll(/\-2Z/g, '&').replaceAll(/\-2P/g, '(').replaceAll(/\-2Q/g, ')'))}" target='_blank'>${area.replaceAll(/\%2E/g, '.').replaceAll(/\%2I/g, ',').replaceAll(/\%2F/g, '#').replaceAll(/\%2G/g, '/').replaceAll(/\%2J/g, '+').replaceAll('_', ' ').replaceAll(/\-2H/g, "'").replaceAll(/\%2H/g, "'").replaceAll(/\-2Z/g, '&').replaceAll(/\-2P/g, '(').replaceAll(/\-2Q/g, ')').replaceAll(/\#/g, '#\u200B').replaceAll(/\//g, '/\u200B')}</a></span></div>`);
     });
     if ($('#manual-areas-data').children().length === 0) {
