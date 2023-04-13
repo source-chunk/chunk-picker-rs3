@@ -128,8 +128,8 @@ let xpTable = {
     "119": 94442737,
     "120": 104273167
 };
-let diaryTierOrder = ['Easy', 'Medium', 'Hard', 'Elite'];
-let diaryHierarchy = ['Elite', 'Hard', 'Medium', 'Easy'];
+let diaryTierOrder = ['Beginner', 'Easy', 'Medium', 'Hard', 'Elite'];
+let diaryHierarchy = ['Elite', 'Hard', 'Medium', 'Easy', 'Beginner'];
 let outputTasks = {};
 
 let type;
@@ -781,7 +781,7 @@ var calcChallenges = function(chunks, baseChunkData) {
         while ((leftoversCount < 10 && Object.keys(diff(newValids, savedValids) || {}).length !== 0) || leftoversCount < 1) {
             savedValids = JSON.parse(JSON.stringify(newValids));
             Object.keys(savedValids).filter((skill) => { return skill !== 'BiS' }).forEach(skill => {
-                Object.keys(savedValids[skill]).sort(function(a, b) { return skill === 'Diary' ? ((diaryTierOrder.indexOf(a.split('|')[1].split('%2F')[1]) - diaryTierOrder.indexOf(b.split('|')[1].split('%2F')[1]) === 0) ? a.replaceAll('Task ', '').localeCompare(b.replaceAll('Task ', ''), 'en', { numeric: true }) : (diaryTierOrder.indexOf(a.split('|')[1].split('%2F')[1]) - diaryTierOrder.indexOf(b.split('|')[1].split('%2F')[1]))) : a.replaceAll('Task ', '').localeCompare(b.replaceAll('Task ', ''), 'en', { numeric: true }) }).forEach(challenge => {
+                Object.keys(savedValids[skill]).sort(function(a, b) { return skill === 'Diary' ? ((diaryTierOrder.indexOf(a.split('|')[1].split('%2F')[1]) - diaryTierOrder.indexOf(b.split('|')[1].split('%2F')[1]) === 0) ? (chunkInfo['challenges'].hasOwnProperty(skill) && chunkInfo['challenges'][skill].hasOwnProperty(a) && chunkInfo['challenges'][skill].hasOwnProperty(b) && chunkInfo['challenges'][skill][a].hasOwnProperty('ManualShow') !== chunkInfo['challenges'][skill][b].hasOwnProperty('ManualShow') ? chunkInfo['challenges'][skill][a].hasOwnProperty('ManualShow') - chunkInfo['challenges'][skill][b].hasOwnProperty('ManualShow') : a.replaceAll('Task ', '').localeCompare(b.replaceAll('Task ', ''), 'en', { numeric: true })) : (diaryTierOrder.indexOf(a.split('|')[1].split('%2F')[1]) - diaryTierOrder.indexOf(b.split('|')[1].split('%2F')[1]))) : a.replaceAll('Task ', '').localeCompare(b.replaceAll('Task ', ''), 'en', { numeric: true }) }).forEach(challenge => {
                     if (!passedByTasks[skill]) {
                         passedByTasks[skill] = {};
                     }
