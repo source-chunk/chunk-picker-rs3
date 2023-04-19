@@ -388,6 +388,7 @@ let rules = {
 	"Daemonheim tasks": false,
 	"PortSkills": false,
 	"Champion Challenge": false,
+	"Titles": false,
 };                                                                              // List of rules and their on/off state
 
 let ruleNames = {
@@ -463,6 +464,7 @@ let ruleNames = {
 	"Daemonheim tasks": "Allows activities and items in Daemonheim, excluding doors and puzzles, to create skilling tasks<span class='rule-asterisk noscroll'>*</span>",
 	"PortSkills": "Require all trainable port skills to be trained up to 90<span class='rule-asterisk noscroll'>*</span>",
 	"Champion Challenge": "Require all champions in the champion guild to be defeated when able<span class='rule-asterisk noscroll'>*</span>",
+	"Titles": "Require all special titles that aren't connected to other content to be obtained when able<span class='rule-asterisk noscroll'>*</span>",
 };                                                                              // List of rule definitions
 
 let rulePresets = {
@@ -539,6 +541,7 @@ let rulePresets = {
 		"Daemonheim tasks": true,
 		"PortSkills": true,
 		"Champion Challenge": true,
+		"Titles": true,
     },
     "Supreme Chunker": {
         "Skillcape": true,
@@ -599,6 +602,7 @@ let rulePresets = {
 		"Daemonheim tasks": true,
 		"PortSkills": true,
 		"Champion Challenge": true,
+		"Titles": true,
     }
 };                                                                              // List of rules that are part of each preset
 
@@ -688,7 +692,7 @@ let ruleStructure = {
         "Minigame": true,
         "Kill X": true,
         "BIS Skilling": true,
-        "Collection Log": ["Slayer Collection Log"],
+        "Collection Log": ["Slayer Collection Log", "Pets"],
         "Untracked Uniques": true,
 		"Champion Challenge": true,
         "Skilling Pets": true,
@@ -700,7 +704,8 @@ let ruleStructure = {
         "All Droptables": true,
         "All Shops": true,
 		"Swordy": true,
-        "Skiller": true
+        "Skiller": true,
+		"Titles": true
     }
 };                                                                              // Structure of rules
 
