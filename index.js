@@ -389,6 +389,7 @@ let rules = {
 	"PortSkills": false,
 	"Champion Challenge": false,
 	"Titles": false,
+	"DnD": false,
 };                                                                              // List of rules and their on/off state
 
 let ruleNames = {
@@ -465,6 +466,7 @@ let ruleNames = {
 	"PortSkills": "Require all trainable port skills to be trained up to 90<span class='rule-asterisk noscroll'>*</span>",
 	"Champion Challenge": "Require all champions in the champion guild to be defeated when able<span class='rule-asterisk noscroll'>*</span>",
 	"Titles": "Require all special titles that aren't connected to other content to be obtained when able<span class='rule-asterisk noscroll'>*</span>",
+	"DnD": "Allow distractions and diversion to create skilling tasks<span class='rule-asterisk noscroll'>*</span>",
 };                                                                              // List of rule definitions
 
 let rulePresets = {
@@ -542,6 +544,7 @@ let rulePresets = {
 		"PortSkills": true,
 		"Champion Challenge": true,
 		"Titles": true,
+		"DnD": true,
     },
     "Supreme Chunker": {
         "Skillcape": true,
@@ -603,6 +606,7 @@ let rulePresets = {
 		"PortSkills": true,
 		"Champion Challenge": true,
 		"Titles": true,
+		"DnD": true,
     }
 };                                                                              // List of rules that are part of each preset
 
@@ -631,7 +635,8 @@ let ruleStructure = {
 		"Daemonheim training": true,
 		"Daemonheim tasks": true,
 		"PortSkills": true,
-		"Token": true
+		"Token": true,
+		"DnD": true
     },
     "Agility": {
         "Shortcut": true,
