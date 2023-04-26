@@ -3501,7 +3501,7 @@ var checkPrimaryMethod = function(skill, valids, baseChunkData) {
 
 // Calcs the BIS gear
 var calcBIS = function() {
-    let combatStyles = ['Melee', 'Ranged', 'Magic'];
+    let combatStyles = ['Melee'];
     let primarySkill = {};
     skillNames.forEach(skill => {
         primarySkill[skill] = checkPrimaryMethod(skill, globalValids, baseChunkData) || (!!manualTasks[skill] && Object.keys(manualTasks[skill]).length > 0);
@@ -3541,7 +3541,9 @@ var calcBIS = function() {
         let equip = equipLine.split('|')[1].charAt(0).toUpperCase() + equipLine.split('|')[1].slice(1);
         completedEquipment[equip.replaceAll(/\%2J/g, '+')] = chunkInfo['equipment'][equip.replaceAll(/\%2J/g, '+')];
     });
-    baseChunkData['items']['Unarmed'] = {'Built-in': 'secondary-Nonskill'};
+    if (Object.keys(chunks).length > 0) {
+        baseChunkData['items']['Unarmed'] = {'Built-in': 'secondary-Nonskill'};
+    }
     let notFresh = {};
     highestOverall = {};
     let vowels = ['a', 'e', 'i', 'o', 'u'];
@@ -3549,8 +3551,8 @@ var calcBIS = function() {
         let bestEquipment = {};
         let bestEquipmentAlts = {};
         let bestAmmoSaved = {
-            'weapon': null,
-            '2h': null
+            'main hand weapon': null,
+            '2h weapon': null
         };
         let savedWeaponBis = {};
         Object.keys({...completedEquipment, ...chunkInfo['equipment']}).filter(equip => { return !!baseChunkData['items'][equip] }).forEach(equip => {
@@ -3564,15 +3566,15 @@ var calcBIS = function() {
                     validWearable = false;
                 }
             });
-            chunkInfo['taskUnlocks']['Items'].hasOwnProperty(equip) && chunkInfo['taskUnlocks']['Items'][equip].forEach(task => {
+            !!chunkInfo['taskUnlocks'] && chunkInfo['taskUnlocks']['Items'].hasOwnProperty(equip) && chunkInfo['taskUnlocks']['Items'][equip].forEach(task => {
                 if (!globalValids || !globalValids[Object.values(task)[0]] || !globalValids[Object.values(task)[0]].hasOwnProperty(Object.keys(task)[0])) {
                     validWearable = false;
                 }
             });
             if (validWearable) {
-                if (skill === 'Melee') {
-                    if (chunkInfo['equipment'][equip].attack_speed > 0) {
-                        if ((!bestEquipment[chunkInfo['equipment'][equip].slot] || (((Math.max(chunkInfo['equipment'][equip].attack_crush, chunkInfo['equipment'][equip].attack_slash, chunkInfo['equipment'][equip].attack_stab) + chunkInfo['equipment'][equip].melee_strength + 64) / chunkInfo['equipment'][equip].attack_speed) > ((Math.max(chunkInfo['equipment'][bestEquipment[chunkInfo['equipment'][equip].slot]].attack_crush, chunkInfo['equipment'][bestEquipment[chunkInfo['equipment'][equip].slot]].attack_slash, chunkInfo['equipment'][bestEquipment[chunkInfo['equipment'][equip].slot]].attack_stab) + chunkInfo['equipment'][bestEquipment[chunkInfo['equipment'][equip].slot]].melee_strength + 64) / chunkInfo['equipment'][bestEquipment[chunkInfo['equipment'][equip].slot]].attack_speed))) && ((Math.max(chunkInfo['equipment'][equip].attack_crush, chunkInfo['equipment'][equip].attack_slash, chunkInfo['equipment'][equip].attack_stab) > 0 && chunkInfo['equipment'][equip].melee_strength > 0) || equip === 'Unarmed')) {
+                if (skill === 'Melee' && (chunkInfo['equipment'][equip].class === 'melee' || chunkInfo['equipment'][equip].class === 'hybrid' || chunkInfo['equipment'][equip].class === 'all')) {
+                    if (chunkInfo['equipment'][equip].speed > 0) {
+                        if ((!bestEquipment[chunkInfo['equipment'][equip].slot] || ((chunkInfo['equipment'][equip].accuracy + chunkInfo['equipment'][equip].ability_damage) > (chunkInfo['equipment'][bestEquipment[chunkInfo['equipment'][equip].slot]].accuracy + chunkInfo['equipment'][bestEquipment[chunkInfo['equipment'][equip].slot]].ability_damage))) && ((chunkInfo['equipment'][equip].accuracy > 0 && chunkInfo['equipment'][equip].ability_damage > 0) || equip === 'Unarmed')) {
                             let tempTempValid = false;
                             Object.keys(baseChunkData['items'][equip]).forEach(source => {
                                 if (!baseChunkData['items'][equip][source].includes('-') || !processingSkill[baseChunkData['items'][equip][source].split('-')[1]] || rules['Wield Crafted Items'] || baseChunkData['items'][equip][source].split('-')[1] === 'Slayer' || (chunkInfo['challenges'].hasOwnProperty(baseChunkData['items'][equip][source].split('-')[1]) && chunkInfo['challenges'][baseChunkData['items'][equip][source].split('-')[1]].hasOwnProperty(source) && chunkInfo['challenges'][baseChunkData['items'][equip][source].split('-')[1]][source].hasOwnProperty('NoXp'))) {
@@ -3582,7 +3584,7 @@ var calcBIS = function() {
                             let article = vowels.includes(equip.toLowerCase().charAt(0)) ? ' an ' : ' a ';
                             article = equip.toLowerCase().charAt(equip.toLowerCase().length - 1) === 's' ? ' ' : article;
                             tempTempValid && (!backlog['BiS'] || !backlog['BiS'].hasOwnProperty('Obtain' + article + '~|' + equip.toLowerCase() + '|~')) && (bestEquipment[chunkInfo['equipment'][equip].slot] = equip);
-                        } else if ((!bestEquipment[chunkInfo['equipment'][equip].slot] || (((Math.max(chunkInfo['equipment'][equip].attack_crush, chunkInfo['equipment'][equip].attack_slash, chunkInfo['equipment'][equip].attack_stab) + chunkInfo['equipment'][equip].melee_strength + 64) / chunkInfo['equipment'][equip].attack_speed) === ((Math.max(chunkInfo['equipment'][bestEquipment[chunkInfo['equipment'][equip].slot]].attack_crush, chunkInfo['equipment'][bestEquipment[chunkInfo['equipment'][equip].slot]].attack_slash, chunkInfo['equipment'][bestEquipment[chunkInfo['equipment'][equip].slot]].attack_stab) + chunkInfo['equipment'][bestEquipment[chunkInfo['equipment'][equip].slot]].melee_strength + 64) / chunkInfo['equipment'][bestEquipment[chunkInfo['equipment'][equip].slot]].attack_speed))) && ((Math.max(chunkInfo['equipment'][equip].attack_crush, chunkInfo['equipment'][equip].attack_slash, chunkInfo['equipment'][equip].attack_stab) > 0 && chunkInfo['equipment'][equip].melee_strength > 0) || equip === 'Unarmed')) {
+                        } else if ((!bestEquipment[chunkInfo['equipment'][equip].slot] || ((chunkInfo['equipment'][equip].accuracy + chunkInfo['equipment'][equip].ability_damage) === (chunkInfo['equipment'][bestEquipment[chunkInfo['equipment'][equip].slot]].accuracy + chunkInfo['equipment'][bestEquipment[chunkInfo['equipment'][equip].slot]].ability_damage))) && ((chunkInfo['equipment'][equip].accuracy > 0 && chunkInfo['equipment'][equip].ability_damage > 0) || equip === 'Unarmed')) {
                             let tempTempValid = false;
                             Object.keys(baseChunkData['items'][equip]).forEach(source => {
                                 if (!baseChunkData['items'][equip][source].includes('-') || !processingSkill[baseChunkData['items'][equip][source].split('-')[1]] || rules['Wield Crafted Items'] || baseChunkData['items'][equip][source].split('-')[1] === 'Slayer' || (chunkInfo['challenges'].hasOwnProperty(baseChunkData['items'][equip][source].split('-')[1]) && chunkInfo['challenges'][baseChunkData['items'][equip][source].split('-')[1]].hasOwnProperty(source) && chunkInfo['challenges'][baseChunkData['items'][equip][source].split('-')[1]][source].hasOwnProperty('NoXp'))) {
@@ -3599,8 +3601,8 @@ var calcBIS = function() {
                             }
                         }
                     } else {
-                        if ((Math.min(chunkInfo['equipment'][equip].attack_crush, chunkInfo['equipment'][equip].attack_slash, chunkInfo['equipment'][equip].attack_stab) >= 0 || chunkInfo['equipment'][equip].melee_strength > 0) && chunkInfo['equipment'][equip].slot !== 'ammo') {
-                            if (!bestEquipment[chunkInfo['equipment'][equip].slot] || (chunkInfo['equipment'][equip].melee_strength > chunkInfo['equipment'][bestEquipment[chunkInfo['equipment'][equip].slot]].melee_strength)) {
+                        if (chunkInfo['equipment'][equip].strength >= 0) {
+                            if (!bestEquipment[chunkInfo['equipment'][equip].slot] || (chunkInfo['equipment'][equip].strength > chunkInfo['equipment'][bestEquipment[chunkInfo['equipment'][equip].slot]].strength)) {
                                 let tempTempValid = false;
                                 Object.keys(baseChunkData['items'][equip]).forEach(source => {
                                     if (!baseChunkData['items'][equip][source].includes('-') || !processingSkill[baseChunkData['items'][equip][source].split('-')[1]] || rules['Wield Crafted Items'] || baseChunkData['items'][equip][source].split('-')[1] === 'Slayer' || (chunkInfo['challenges'].hasOwnProperty(baseChunkData['items'][equip][source].split('-')[1]) && chunkInfo['challenges'][baseChunkData['items'][equip][source].split('-')[1]].hasOwnProperty(source) && chunkInfo['challenges'][baseChunkData['items'][equip][source].split('-')[1]][source].hasOwnProperty('NoXp'))) {
@@ -3610,7 +3612,7 @@ var calcBIS = function() {
                                 let article = vowels.includes(equip.toLowerCase().charAt(0)) ? ' an ' : ' a ';
                                 article = equip.toLowerCase().charAt(equip.toLowerCase().length - 1) === 's' ? ' ' : article;
                                 tempTempValid && (!backlog['BiS'] || !backlog['BiS'].hasOwnProperty('Obtain' + article + '~|' + equip.toLowerCase() + '|~')) && (bestEquipment[chunkInfo['equipment'][equip].slot] = equip);
-                            } else if ((chunkInfo['equipment'][equip].melee_strength === chunkInfo['equipment'][bestEquipment[chunkInfo['equipment'][equip].slot]].melee_strength) && ((chunkInfo['equipment'][equip].attack_crush + chunkInfo['equipment'][equip].attack_slash + chunkInfo['equipment'][equip].attack_stab) > (chunkInfo['equipment'][bestEquipment[chunkInfo['equipment'][equip].slot]].attack_crush + chunkInfo['equipment'][bestEquipment[chunkInfo['equipment'][equip].slot]].attack_slash + chunkInfo['equipment'][bestEquipment[chunkInfo['equipment'][equip].slot]].attack_stab))) {
+                            } else if ((chunkInfo['equipment'][equip].strength === chunkInfo['equipment'][bestEquipment[chunkInfo['equipment'][equip].slot]].strength) && (chunkInfo['equipment'][equip].armour > chunkInfo['equipment'][bestEquipment[chunkInfo['equipment'][equip].slot]].armour)) {
                                 let tempTempValid = false;
                                 Object.keys(baseChunkData['items'][equip]).forEach(source => {
                                     if (!baseChunkData['items'][equip][source].includes('-') || !processingSkill[baseChunkData['items'][equip][source].split('-')[1]] || rules['Wield Crafted Items'] || baseChunkData['items'][equip][source].split('-')[1] === 'Slayer' || (chunkInfo['challenges'].hasOwnProperty(baseChunkData['items'][equip][source].split('-')[1]) && chunkInfo['challenges'][baseChunkData['items'][equip][source].split('-')[1]].hasOwnProperty(source) && chunkInfo['challenges'][baseChunkData['items'][equip][source].split('-')[1]][source].hasOwnProperty('NoXp'))) {
@@ -3620,9 +3622,9 @@ var calcBIS = function() {
                                 let article = vowels.includes(equip.toLowerCase().charAt(0)) ? ' an ' : ' a ';
                                 article = equip.toLowerCase().charAt(equip.toLowerCase().length - 1) === 's' ? ' ' : article;
                                 tempTempValid && (!backlog['BiS'] || !backlog['BiS'].hasOwnProperty('Obtain' + article + '~|' + equip.toLowerCase() + '|~')) && (bestEquipment[chunkInfo['equipment'][equip].slot] = equip);
-                            } else if ((chunkInfo['equipment'][equip].melee_strength === chunkInfo['equipment'][bestEquipment[chunkInfo['equipment'][equip].slot]].melee_strength) &&
-                            ((chunkInfo['equipment'][equip].attack_crush + chunkInfo['equipment'][equip].attack_slash + chunkInfo['equipment'][equip].attack_stab) === (chunkInfo['equipment'][bestEquipment[chunkInfo['equipment'][equip].slot]].attack_crush + chunkInfo['equipment'][bestEquipment[chunkInfo['equipment'][equip].slot]].attack_slash + chunkInfo['equipment'][bestEquipment[chunkInfo['equipment'][equip].slot]].attack_stab)) &&
-                            ((chunkInfo['equipment'][equip].defence_crush + chunkInfo['equipment'][equip].defence_magic + chunkInfo['equipment'][equip].defence_ranged + chunkInfo['equipment'][equip].defence_slash + chunkInfo['equipment'][equip].defence_stab) > (chunkInfo['equipment'][bestEquipment[chunkInfo['equipment'][equip].slot]].defence_crush + chunkInfo['equipment'][bestEquipment[chunkInfo['equipment'][equip].slot]].defence_magic + chunkInfo['equipment'][bestEquipment[chunkInfo['equipment'][equip].slot]].defence_ranged + chunkInfo['equipment'][bestEquipment[chunkInfo['equipment'][equip].slot]].defence_slash + chunkInfo['equipment'][bestEquipment[chunkInfo['equipment'][equip].slot]].defence_stab))) {
+                            } else if ((chunkInfo['equipment'][equip].strength === chunkInfo['equipment'][bestEquipment[chunkInfo['equipment'][equip].slot]].strength) &&
+                            (chunkInfo['equipment'][equip].armour === chunkInfo['equipment'][bestEquipment[chunkInfo['equipment'][equip].slot]].armour) &&
+                            (chunkInfo['equipment'][equip].lp > chunkInfo['equipment'][bestEquipment[chunkInfo['equipment'][equip].slot]].lp)) {
                                 let tempTempValid = false;
                                 Object.keys(baseChunkData['items'][equip]).forEach(source => {
                                     if (!baseChunkData['items'][equip][source].includes('-') || !processingSkill[baseChunkData['items'][equip][source].split('-')[1]] || rules['Wield Crafted Items'] || baseChunkData['items'][equip][source].split('-')[1] === 'Slayer' || (chunkInfo['challenges'].hasOwnProperty(baseChunkData['items'][equip][source].split('-')[1]) && chunkInfo['challenges'][baseChunkData['items'][equip][source].split('-')[1]].hasOwnProperty(source) && chunkInfo['challenges'][baseChunkData['items'][equip][source].split('-')[1]][source].hasOwnProperty('NoXp'))) {
@@ -3632,9 +3634,9 @@ var calcBIS = function() {
                                 let article = vowels.includes(equip.toLowerCase().charAt(0)) ? ' an ' : ' a ';
                                 article = equip.toLowerCase().charAt(equip.toLowerCase().length - 1) === 's' ? ' ' : article;
                                 tempTempValid && (!backlog['BiS'] || !backlog['BiS'].hasOwnProperty('Obtain' + article + '~|' + equip.toLowerCase() + '|~')) && (bestEquipment[chunkInfo['equipment'][equip].slot] = equip);
-                            } else if ((chunkInfo['equipment'][equip].melee_strength === chunkInfo['equipment'][bestEquipment[chunkInfo['equipment'][equip].slot]].melee_strength) &&
-                            ((chunkInfo['equipment'][equip].attack_crush + chunkInfo['equipment'][equip].attack_slash + chunkInfo['equipment'][equip].attack_stab) === (chunkInfo['equipment'][bestEquipment[chunkInfo['equipment'][equip].slot]].attack_crush + chunkInfo['equipment'][bestEquipment[chunkInfo['equipment'][equip].slot]].attack_slash + chunkInfo['equipment'][bestEquipment[chunkInfo['equipment'][equip].slot]].attack_stab)) &&
-                            ((chunkInfo['equipment'][equip].defence_crush + chunkInfo['equipment'][equip].defence_magic + chunkInfo['equipment'][equip].defence_ranged + chunkInfo['equipment'][equip].defence_slash + chunkInfo['equipment'][equip].defence_stab) === (chunkInfo['equipment'][bestEquipment[chunkInfo['equipment'][equip].slot]].defence_crush + chunkInfo['equipment'][bestEquipment[chunkInfo['equipment'][equip].slot]].defence_magic + chunkInfo['equipment'][bestEquipment[chunkInfo['equipment'][equip].slot]].defence_ranged + chunkInfo['equipment'][bestEquipment[chunkInfo['equipment'][equip].slot]].defence_slash + chunkInfo['equipment'][bestEquipment[chunkInfo['equipment'][equip].slot]].defence_stab))) {
+                            } else if ((chunkInfo['equipment'][equip].strength === chunkInfo['equipment'][bestEquipment[chunkInfo['equipment'][equip].slot]].strength) &&
+                            (chunkInfo['equipment'][equip].armour === chunkInfo['equipment'][bestEquipment[chunkInfo['equipment'][equip].slot]].armour) &&
+                            (chunkInfo['equipment'][equip].lp === chunkInfo['equipment'][bestEquipment[chunkInfo['equipment'][equip].slot]].lp)) {
                                 let tempTempValid = false;
                                 Object.keys(baseChunkData['items'][equip]).forEach(source => {
                                     if (!baseChunkData['items'][equip][source].includes('-') || !processingSkill[baseChunkData['items'][equip][source].split('-')[1]] || rules['Wield Crafted Items'] || baseChunkData['items'][equip][source].split('-')[1] === 'Slayer' || (chunkInfo['challenges'].hasOwnProperty(baseChunkData['items'][equip][source].split('-')[1]) && chunkInfo['challenges'][baseChunkData['items'][equip][source].split('-')[1]].hasOwnProperty(source) && chunkInfo['challenges'][baseChunkData['items'][equip][source].split('-')[1]][source].hasOwnProperty('NoXp'))) {
@@ -4561,14 +4563,14 @@ var calcBIS = function() {
         let twoHPower = 0;
         let weaponShieldPower = 0;
         if (skill === 'Melee') {
-            if (bestEquipment.hasOwnProperty('2h')) {
-                twoHPower = (Math.max(chunkInfo['equipment'][bestEquipment['2h']].attack_crush, chunkInfo['equipment'][bestEquipment['2h']].attack_slash, chunkInfo['equipment'][bestEquipment['2h']].attack_stab) + chunkInfo['equipment'][bestEquipment['2h']].melee_strength + 64) / chunkInfo['equipment'][bestEquipment['2h']].attack_speed;
+            if (bestEquipment.hasOwnProperty('2h weapon')) {
+                twoHPower = (Math.max(chunkInfo['equipment'][bestEquipment['2h weapon']].attack_crush, chunkInfo['equipment'][bestEquipment['2h weapon']].attack_slash, chunkInfo['equipment'][bestEquipment['2h weapon']].attack_stab) + chunkInfo['equipment'][bestEquipment['2h weapon']].melee_strength + 64) / chunkInfo['equipment'][bestEquipment['2h weapon']].attack_speed;
             }
-            if (bestEquipment.hasOwnProperty('weapon')) {
-                if (bestEquipment.hasOwnProperty('shield')) {
-                    weaponShieldPower = (Math.max((chunkInfo['equipment'][bestEquipment['weapon']].attack_crush + chunkInfo['equipment'][bestEquipment['shield']].attack_crush), (chunkInfo['equipment'][bestEquipment['weapon']].attack_slash + chunkInfo['equipment'][bestEquipment['shield']].attack_slash), (chunkInfo['equipment'][bestEquipment['weapon']].attack_stab + chunkInfo['equipment'][bestEquipment['shield']].attack_stab)) + (chunkInfo['equipment'][bestEquipment['weapon']].melee_strength + chunkInfo['equipment'][bestEquipment['shield']].melee_strength) + 64) / chunkInfo['equipment'][bestEquipment['weapon']].attack_speed;
+            if (bestEquipment.hasOwnProperty('main hand weapon')) {
+                if (bestEquipment.hasOwnProperty('off-hand weapon')) {
+                    weaponShieldPower = (Math.max((chunkInfo['equipment'][bestEquipment['main hand weapon']].attack_crush + chunkInfo['equipment'][bestEquipment['off-hand weapon']].attack_crush), (chunkInfo['equipment'][bestEquipment['main hand weapon']].attack_slash + chunkInfo['equipment'][bestEquipment['off-hand weapon']].attack_slash), (chunkInfo['equipment'][bestEquipment['main hand weapon']].attack_stab + chunkInfo['equipment'][bestEquipment['off-hand weapon']].attack_stab)) + (chunkInfo['equipment'][bestEquipment['main hand weapon']].melee_strength + chunkInfo['equipment'][bestEquipment['off-hand weapon']].melee_strength) + 64) / chunkInfo['equipment'][bestEquipment['main hand weapon']].attack_speed;
                 } else {
-                    weaponShieldPower = (Math.max(chunkInfo['equipment'][bestEquipment['weapon']].attack_crush, chunkInfo['equipment'][bestEquipment['weapon']].attack_slash, chunkInfo['equipment'][bestEquipment['weapon']].attack_stab) + chunkInfo['equipment'][bestEquipment['weapon']].melee_strength + 64) / chunkInfo['equipment'][bestEquipment['weapon']].attack_speed;
+                    weaponShieldPower = (Math.max(chunkInfo['equipment'][bestEquipment['main hand weapon']].attack_crush, chunkInfo['equipment'][bestEquipment['main hand weapon']].attack_slash, chunkInfo['equipment'][bestEquipment['main hand weapon']].attack_stab) + chunkInfo['equipment'][bestEquipment['main hand weapon']].melee_strength + 64) / chunkInfo['equipment'][bestEquipment['main hand weapon']].attack_speed;
                 }
             }
         } else if (skill === 'Stab') {
@@ -4752,20 +4754,20 @@ var calcBIS = function() {
         }
         let tempShield;
         if (twoHPower > weaponShieldPower) {
-            tempShield = bestEquipment['shield'];
+            tempShield = bestEquipment['off-hand weapon'];
             if (rules['Show Best in Slot 1H and 2H']) {
-                savedWeaponBis['weapon'] = bestEquipment['weapon'];
-                savedWeaponBis['shield'] = bestEquipment['shield'];
+                savedWeaponBis['main hand weapon'] = bestEquipment['main hand weapon'];
+                savedWeaponBis['off-hand weapon'] = bestEquipment['off-hand weapon'];
             }
-            delete bestEquipment['weapon'];
-            delete bestEquipment['shield'];
-            bestEquipment['ammo'] = bestAmmoSaved['2h'];
+            delete bestEquipment['main hand weapon'];
+            delete bestEquipment['off-hand weapon'];
+            bestEquipment['ammo'] = bestAmmoSaved['2h weapon'];
         } else {
             if (rules['Show Best in Slot 1H and 2H']) {
-                savedWeaponBis['2h'] = bestEquipment['2h'];
+                savedWeaponBis['2h weapon'] = bestEquipment['2h weapon'];
             }
-            delete bestEquipment['2h'];
-            bestEquipment['ammo'] = bestAmmoSaved['weapon'];
+            delete bestEquipment['2h weapon'];
+            bestEquipment['ammo'] = bestAmmoSaved['main hand weapon'];
         }
         if (!bestEquipment['ammo'] || bestEquipment['ammo'] === null || bestEquipment['ammo'] === undefined) {
             delete bestEquipment['ammo'];
@@ -6242,17 +6244,17 @@ var calcBIS = function() {
             bestEquipment[slot] = resultingAdditions[slot];
             delete bestEquipmentAlts[slot];
         });
-        if (bestEquipment.hasOwnProperty('weapon') && bestEquipment.hasOwnProperty('2h')) {
-            delete bestEquipment['2h'];
-            if (!bestEquipment.hasOwnProperty('shield') && !!tempShield) {
-                bestEquipment['shield'] = tempShield;
+        if (bestEquipment.hasOwnProperty('main hand weapon') && bestEquipment.hasOwnProperty('2h weapon')) {
+            delete bestEquipment['2h weapon'];
+            if (!bestEquipment.hasOwnProperty('off-hand weapon') && !!tempShield) {
+                bestEquipment['off-hand weapon'] = tempShield;
             }
         }
         rules['Show Best in Slot 1H and 2H'] && !!savedWeaponBis && Object.keys(savedWeaponBis).filter(slot => !!savedWeaponBis[slot]).forEach(slot => {
             bestEquipment[slot] = savedWeaponBis[slot];
         });
         Object.keys(bestEquipment).forEach(slot => {
-            if (slot === '2h' && !rules['Show Best in Slot 1H and 2H']) {
+            if (slot === '2h weapon' && !rules['Show Best in Slot 1H and 2H']) {
                 highestOverall[skill.replaceAll(' ', '_') + '-weapon'] = bestEquipment[slot];
                 highestOverall[skill.replaceAll(' ', '_') + '-shield'] = 'N/A';
             } else {
@@ -6284,8 +6286,8 @@ var calcBIS = function() {
         Object.keys(bestEquipmentAlts).forEach(slot => {
             Object.keys(bestEquipmentAlts[slot]).forEach(item => {
                 if (!!altChallenges['BiS']) {
-                    if ((slot === '2h' && altChallenges['BiS'].hasOwnProperty(skill.replaceAll(' ', '_') + '-weapon') && altChallenges['BiS'][skill.replaceAll(' ', '_') + '-weapon'] === item.toLowerCase().replaceAll(/\%2E/g, '.').replaceAll(/\%2I/g, ',').replaceAll(/\%2F/g, '#').replaceAll(/\%2G/g, '/').replaceAll(/\%2J/g, '+')) || (altChallenges['BiS'].hasOwnProperty(skill.replaceAll(' ', '_') + '-' + slot) && altChallenges['BiS'][skill.replaceAll(' ', '_') + '-' + slot] === item.toLowerCase().replaceAll(/\%2E/g, '.').replaceAll(/\%2I/g, ',').replaceAll(/\%2F/g, '#').replaceAll(/\%2G/g, '/').replaceAll(/\%2J/g, '+'))) {
-                        if (slot === '2h' && !rules['Show Best in Slot 1H and 2H']) {
+                    if ((slot === '2h weapon' && altChallenges['BiS'].hasOwnProperty(skill.replaceAll(' ', '_') + '-weapon') && altChallenges['BiS'][skill.replaceAll(' ', '_') + '-weapon'] === item.toLowerCase().replaceAll(/\%2E/g, '.').replaceAll(/\%2I/g, ',').replaceAll(/\%2F/g, '#').replaceAll(/\%2G/g, '/').replaceAll(/\%2J/g, '+')) || (altChallenges['BiS'].hasOwnProperty(skill.replaceAll(' ', '_') + '-' + slot) && altChallenges['BiS'][skill.replaceAll(' ', '_') + '-' + slot] === item.toLowerCase().replaceAll(/\%2E/g, '.').replaceAll(/\%2I/g, ',').replaceAll(/\%2F/g, '#').replaceAll(/\%2G/g, '/').replaceAll(/\%2J/g, '+'))) {
+                        if (slot === '2h weapon' && !rules['Show Best in Slot 1H and 2H']) {
                             highestOverall[skill.replaceAll(' ', '_') + '-weapon'] = item;
                             highestOverall[skill.replaceAll(' ', '_') + '-shield'] = 'N/A';
                         } else {
@@ -6300,7 +6302,7 @@ var calcBIS = function() {
                         if (!!globalValids['BiS']['Obtain' + article + '~|' + item.toLowerCase() + '|~']) {
                             globalValids['BiS']['Obtain' + article + '~|' + item.toLowerCase() + '|~'] = skill + '/​' + globalValids['BiS']['Obtain' + article + '~|' + item.toLowerCase() + '|~'];
                             if (Object.values(highestOverall).includes(item)) {
-                                if (slot === '2h' && !rules['Show Best in Slot 1H and 2H']) {
+                                if (slot === '2h weapon' && !rules['Show Best in Slot 1H and 2H']) {
                                     highestOverall[skill.replaceAll(' ', '_') + '-weapon'] = item;
                                     highestOverall[skill.replaceAll(' ', '_') + '-shield'] = 'N/A';
                                 } else {
