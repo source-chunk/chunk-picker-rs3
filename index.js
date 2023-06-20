@@ -390,6 +390,7 @@ let rules = {
 	"Champion Challenge": false,
 	"Titles": false,
 	"DnD": false,
+	"Uncharted": false,
 };                                                                              // List of rules and their on/off state
 
 let ruleNames = {
@@ -467,6 +468,7 @@ let ruleNames = {
 	"Champion Challenge": "Require all champions in the champion guild to be defeated when able<span class='rule-asterisk noscroll'>*</span>",
 	"Titles": "Require all special titles that aren't connected to other content to be obtained when able<span class='rule-asterisk noscroll'>*</span>",
 	"DnD": "Allow distractions and diversion to create skilling tasks<span class='rule-asterisk noscroll'>*</span>",
+	"Uncharted": "Allow resources only available on uncharted islands to create skilling tasks<span class='rule-asterisk noscroll'>*</span>",
 };                                                                              // List of rule definitions
 
 let rulePresets = {
@@ -545,6 +547,7 @@ let rulePresets = {
 		"Champion Challenge": true,
 		"Titles": true,
 		"DnD": true,
+		"Uncharted": true,
     },
     "Supreme Chunker": {
         "Skillcape": true,
@@ -607,6 +610,7 @@ let rulePresets = {
 		"Champion Challenge": true,
 		"Titles": true,
 		"DnD": true,
+		"Uncharted": true,
     }
 };                                                                              // List of rules that are part of each preset
 
@@ -636,7 +640,8 @@ let ruleStructure = {
 		"Daemonheim tasks": true,
 		"PortSkills": true,
 		"Token": true,
-		"DnD": true
+		"DnD": true,
+		"Uncharted": true
     },
     "Agility": {
         "Shortcut": true,
