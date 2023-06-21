@@ -254,7 +254,6 @@ const skillNamesXp = [
 	'Archaeology'
 ];                                                                              // Names of all lampable skills
 const clueTiers = [
-    'Beginner',
     'Easy',
     'Medium',
     'Hard',
@@ -334,6 +333,7 @@ let rules = {
     "Show Best in Slot Defensive Tasks": false,
     "Show Best in Slot Melee Style Tasks": false,
     "Show Best in Slot 1H and 2H": false,
+    "Show Best in Slot Shield": false,
     "Show Quest Tasks Complete": false,
     "Show Diary Tasks Complete": false,
     "Show Diary Tasks Any": false,
@@ -412,9 +412,10 @@ let ruleNames = {
     "Show Diary Tasks": "Show Diary Tasks",
     "Show Best in Slot Tasks": "Show Best in Slot (Accuracy + Strength, or secondarily Defence) Tasks",
     "Show Best in Slot Prayer Tasks": "Show Best in Slot Tasks for Prayer-boosting gear",
-    "Show Best in Slot Defensive Tasks": "Show Best in Slot Tasks for Tank gear (highest defence-only against Melee/Ranged/Magic)",
+    "Show Best in Slot Defensive Tasks": "Show Best in Slot Tasks for Tank gear (highest defence-only)",
     "Show Best in Slot Melee Style Tasks": "Show Best in Slot Tasks for stab/slash/crush instead of overall melee",
     "Show Best in Slot 1H and 2H": "Show Best in Slot Tasks for both 2-handed and 1-handed/shield, rather than just the better of the two",
+    "Show Best in Slot Shield": "Show Best in Slot Tasks for both off-hand weapons and shields, rather than just the better of the two",
     "Show Quest Tasks Complete": "Show Quest Tasks only when the whole quest is completable",
     "Show Diary Tasks Complete": "Show Diary Tasks only when the whole diary tier (easy, medium, etc.) is completable",
     "Show Diary Tasks Any": "Show all diary tasks possible, regardless of tier <span class='rule-asterisk noscroll'>*</span>",
@@ -625,7 +626,7 @@ let ruleStructure = {
         "Show Skill Tasks": true,
         "Show Quest Tasks": ["Show Quest Tasks Complete"],
         "Show Diary Tasks": ["Show Diary Tasks Complete", "Show Diary Tasks Any"],
-        "Show Best in Slot Tasks": ["Show Best in Slot Prayer Tasks", "Show Best in Slot Defensive Tasks", "Show Best in Slot Melee Style Tasks", "Show Best in Slot 1H and 2H"]
+        "Show Best in Slot Tasks": ["Show Best in Slot Prayer Tasks", "Show Best in Slot Defensive Tasks", "Show Best in Slot Melee Style Tasks", "Show Best in Slot 1H and 2H", "Show Best in Slot Shield"]
     },
     "Overall Skill": {
         "Starting Items": false,
@@ -736,10 +737,10 @@ let taskGeneratingRules = {
     "Show Best in Slot Tasks": true,
     "Show Best in Slot Prayer Tasks": true,
     "Show Best in Slot Defensive Tasks": true,
-    "Show Best in Slot Flinching Tasks": true,
     "Show Best in Slot Weight Tasks": true,
     "Show Best in Slot Melee Style Tasks": true,
     "Show Best in Slot 1H and 2H": true,
+    "Show Best in Slot Shield": true,
     "Show Quest Tasks Complete": true,
     "Show Diary Tasks Complete": true,
     "Show Diary Tasks Any": true,
@@ -1139,7 +1140,6 @@ let savedStickerId;
 let savedStickerSticker;
 let altChallenges = {};
 let numClueTasks = {
-    'beginner': 0,
     'easy': 0,
     'medium': 0,
     'hard': 0,
@@ -1147,7 +1147,6 @@ let numClueTasks = {
     'master': 0
 };
 let numClueTasksPossible = {
-    'beginner': 0,
     'easy': 0,
     'medium': 0,
     'hard': 0,
@@ -1155,7 +1154,6 @@ let numClueTasksPossible = {
     'master': 0
 };
 let possibleClueTasks = {
-    'beginner': [],
     'easy': [],
     'medium': [],
     'hard': [],
@@ -2605,7 +2603,7 @@ var calcCurrentChallengesCanvas = function(useOld, proceed) {
         setCalculating('.panel-active', useOld);
         setCurrentChallenges(['No tasks currently backlogged.'], ['No tasks currently completed.'], true, true);
         myWorker.terminate();
-        myWorker = new Worker("./worker.js?v=5.4.11");
+        myWorker = new Worker("./worker.js?v=5.4.11.1");
         myWorker.onmessage = workerOnMessage;
         myWorker.postMessage(['current', tempChunks['unlocked'], rules, chunkInfo, skillNames, processingSkill, maybePrimary, combatSkills, monstersPlus, objectsPlus, chunksPlus, itemsPlus, mixPlus, npcsPlus, tasksPlus, tools, elementalRunes, manualTasks, completedChallenges, backlog, "1/" + rules['Rare Drop Amount'], universalPrimary, elementalStaves, rangedItems, boneItems, highestCurrent, dropTables, possibleAreas, randomLoot, magicTools, bossLogs, bossMonsters, minigameShops, manualEquipment, checkedChallenges, backloggedSources, altChallenges, manualMonsters, slayerLocked, passiveSkill, f2pSkills, assignedXpRewards, mid === diary2Tier, manualAreas, "1/" + rules['Secondary Primary Amount'], mid === manualAreasOnly]);
         workerOut = 1;
@@ -2849,8 +2847,8 @@ $(document).ready(function() {
 // ------------------------------------------------------------
 
 // Recieve message from worker
-let myWorker = new Worker("./worker.js?v=5.4.11");
-let myWorker2 = new Worker("./worker.js?v=5.4.11");
+let myWorker = new Worker("./worker.js?v=5.4.11.1");
+let myWorker2 = new Worker("./worker.js?v=5.4.11.1");
 let workerOnMessage = function(e) {
     if (e.data[0] === 'error') {
         $('.panel-active > .calculating > .inner-loading-bar').css('background-color', 'red');
@@ -5170,7 +5168,7 @@ var calcFutureChallenges = function() {
         i++;
     }
     myWorker2.terminate();
-    myWorker2 = new Worker("./worker.js?v=5.4.11");
+    myWorker2 = new Worker("./worker.js?v=5.4.11.1");
     myWorker2.onmessage = workerOnMessage;
     myWorker2.postMessage(['future', chunks, rules, chunkInfo, skillNames, processingSkill, maybePrimary, combatSkills, monstersPlus, objectsPlus, chunksPlus, itemsPlus, mixPlus, npcsPlus, tasksPlus, tools, elementalRunes, manualTasks, completedChallenges, backlog, "1/" + rules['Rare Drop Amount'], universalPrimary, elementalStaves, rangedItems, boneItems, highestCurrent, dropTables, possibleAreas, randomLoot, magicTools, bossLogs, bossMonsters, minigameShops, manualEquipment, checkedChallenges, backloggedSources, altChallenges, manualMonsters, slayerLocked, passiveSkill, f2pSkills, assignedXpRewards, mid === diary2Tier, manualAreas, "1/" + rules['Secondary Primary Amount'], mid === manualAreasOnly]);
     workerOut++;
@@ -6079,7 +6077,6 @@ var openSearchDetails = function(category, name) {
 
 // Opens the highest modal
 var openHighest = function() {
-    return; //TEMP (missing bis tasks)
     if (!inEntry && !importMenuOpen && !manualModalOpen && !detailsModalOpen && !notesModalOpen && !highscoreMenuOpen && !onMobile && !helpMenuOpen) {
         highestModalOpen = true;
         let combatStyles = [];
@@ -6096,24 +6093,18 @@ var openHighest = function() {
             combatStyles.push('Ranged Tank');
             combatStyles.push('Magic Tank');
         }
-        if (rules['Show Best in Slot Flinching Tasks']) {
-            combatStyles.push('Flinch');
-        }
         if (rules['Show Best in Slot Weight Tasks']) {
             combatStyles.push('Weight Reducing');
         }
         if (rules['Show Best in Slot Melee Style Tasks']) {
             combatStyles.splice(combatStyles.indexOf('Melee'), 1, 'Stab', 'Slash', 'Crush');
-            if (rules['Show Best in Slot Defensive Tasks']) {
-                combatStyles.splice(combatStyles.indexOf('Melee Tank'), 1, 'Stab Tank', 'Slash Tank', 'Crush Tank');
-            }
-            if (rules['Show Best in Slot Flinching Tasks']) {
-                combatStyles.splice(combatStyles.indexOf('Flinch'), 1, 'Stab Flinch', 'Slash Flinch', 'Crush Flinch');
-            }
         }
-        let slots = ['Head', 'Neck', 'Cape', 'Body', 'Legs', 'Weapon', 'Shield', 'Ammo', 'Hands', 'Feet', 'Ring'];
+        let slots = ['Head', 'Neck', 'Back', 'Torso', 'Legs', 'Main hand weapon', 'Off-hand weapon', 'Ammo', 'Hands', 'Feet', 'Ring'];
         if (rules['Show Best in Slot 1H and 2H']) {
-            slots.splice(slots.indexOf('Weapon'), 0, '2h');
+            slots.splice(slots.indexOf('Main hand weapon'), 0, '2h weapon');
+        }
+        if (rules['Show Best in Slot Shield']) {
+            slots.splice(slots.indexOf('Off-hand weapon') + 1, 0, 'Off-hand');
         }
         $('.highest-title').empty();
         $('.highest-data').empty();
@@ -6123,13 +6114,13 @@ var openHighest = function() {
             $('.highest-data').append(`<div class='noscroll style-body ${combatStyle.replaceAll(' ', '_')}-body'><div class='highest-subtitle noscroll'>${combatStyle}${combatStyle === 'Prayer' ? ` <span class="prayer-bonus">(<img class='noscroll slot-icon' src='./resources/Prayer_combat.png' /> +<span class="prayer-bonus-inner">${prayerBonus}</span>)</span>` : ``}${(testMode || !(viewOnly || inEntry || locked)) && combatStyle !== 'Skills' && combatStyle !== 'Slayer' ? `<div class='noscroll'><span class='noscroll addEquipment' onclick='addEquipment()'>Add additional equipment</span></div>` : ''}</div></div>`);
             slots.forEach(slot => {
                 if (highestOverall.hasOwnProperty(combatStyle.replaceAll(' ', '_') + '-' + slot.toLowerCase()) && highestOverall[combatStyle.replaceAll(' ', '_') + '-' + slot.toLowerCase()] !== 'N/A') {
-                    $(`.${combatStyle.replaceAll(' ', '_')}-body`).append(`<div class='noscroll row'><img class='noscroll slot-icon' src='./resources/${slot}_slot.png' title='${slot}' /><span class='noscroll slot-text'><a class='link' href=${"https://runescape.wiki/w/" + encodeURI(highestOverall[combatStyle.replaceAll(' ', '_') + '-' + slot.toLowerCase()].replaceAll(/\%2E/g, '.').replaceAll(/\%2I/g, ',').replaceAll(/\%2F/g, '#').replaceAll(/\%2G/g, '/').replaceAll(/\%2J/g, '+'))} target="_blank">${highestOverall[combatStyle.replaceAll(' ', '_') + '-' + slot.toLowerCase()]}</a></span></div>`);
+                    $(`.${combatStyle.replaceAll(' ', '_')}-body`).append(`<div class='noscroll row'><img class='noscroll slot-icon' src='./resources/${slot.replaceAll(' ', '_')}_slot.png' title='${slot}' /><span class='noscroll slot-text'><a class='link' href=${"https://runescape.wiki/w/" + encodeURI(highestOverall[combatStyle.replaceAll(' ', '_') + '-' + slot.toLowerCase()].replaceAll(/\%2E/g, '.').replaceAll(/\%2I/g, ',').replaceAll(/\%2F/g, '#').replaceAll(/\%2G/g, '/').replaceAll(/\%2J/g, '+'))} target="_blank">${highestOverall[combatStyle.replaceAll(' ', '_') + '-' + slot.toLowerCase()]}</a></span></div>`);
                     !!chunkInfo['equipment'][highestOverall[combatStyle.replaceAll(' ', '_') + '-' + slot.toLowerCase()]] && (prayerBonus += chunkInfo['equipment'][highestOverall[combatStyle.replaceAll(' ', '_') + '-' + slot.toLowerCase()]]['prayer']);
                 } else if (highestOverall.hasOwnProperty(combatStyle.replaceAll(' ', '_') + '-' + slot.toLowerCase()) && highestOverall[combatStyle.replaceAll(' ', '_') + '-' + slot.toLowerCase()] === 'N/A') {
-                    $(`.${combatStyle.replaceAll(' ', '_')}-body`).append(`<div class='noscroll row'><img class='noscroll slot-icon' src='./resources/${slot}_slot.png' title='${slot}' /><span class='noscroll slot-text'>${highestOverall[combatStyle.replaceAll(' ', '_') + '-' + slot.toLowerCase()]}</span></div>`);
+                    $(`.${combatStyle.replaceAll(' ', '_')}-body`).append(`<div class='noscroll row'><img class='noscroll slot-icon' src='./resources/${slot.replaceAll(' ', '_')}_slot.png' title='${slot}' /><span class='noscroll slot-text'>${highestOverall[combatStyle.replaceAll(' ', '_') + '-' + slot.toLowerCase()]}</span></div>`);
                     !!chunkInfo['equipment'][highestOverall[combatStyle.replaceAll(' ', '_') + '-' + slot.toLowerCase()]] && (prayerBonus += chunkInfo['equipment'][highestOverall[combatStyle.replaceAll(' ', '_') + '-' + slot.toLowerCase()]]['prayer']);
                 } else {
-                    $(`.${combatStyle.replaceAll(' ', '_')}-body`).append(`<div class='noscroll row'><img class='noscroll slot-icon' src='./resources/${slot}_slot.png' title='${slot}' /><span class='noscroll slot-text'>None</span></div>`);
+                    $(`.${combatStyle.replaceAll(' ', '_')}-body`).append(`<div class='noscroll row'><img class='noscroll slot-icon' src='./resources/${slot.replaceAll(' ', '_')}_slot.png' title='${slot}' /><span class='noscroll slot-text'>None</span></div>`);
                     !!chunkInfo['equipment'][highestOverall[combatStyle.replaceAll(' ', '_') + '-' + slot.toLowerCase()]] && (prayerBonus += chunkInfo['equipment'][highestOverall[combatStyle.replaceAll(' ', '_') + '-' + slot.toLowerCase()]]['prayer']);
                 }
             });

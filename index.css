@@ -636,19 +636,6 @@ button.menu2 {
     background-color: rgb(200, 75, 175);
 }
 
-.highest { /*//TEMP (no bis tasks)*/
-    background-color: rgb(66, 55, 60);
-    cursor: not-allowed;
-}
-
-.highest:hover { /*//TEMP (no bis tasks)*/
-    background-color: rgb(66, 55, 60);
-}
-
-.highest:active { /*//TEMP (no bis tasks)*/
-    background-color: rgb(66, 55, 60);
-}
-
 .highest2 {
     background-color: rgb(100, 100, 225);
     width: min(8vw, 125px);
