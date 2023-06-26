@@ -3661,7 +3661,7 @@ var calcBIS = function() {
                                 }
                             });
                             let article = vowels.includes(equip.toLowerCase().charAt(0)) ? ' an ' : ' a ';
-                            article = equip.toLowerCase().charAt(equip.toLowerCase().length - 1) === 's' ? ' ' : article;
+                            article = (equip.toLowerCase().charAt(equip.toLowerCase().length - 1) === 's' || (equip.toLowerCase().charAt(equip.toLowerCase().length - 1) === ')' && equip.toLowerCase().split('(')[0].trim().charAt(equip.toLowerCase().split('(')[0].trim().length - 1) === 's')) ? ' ' : article;
                             tempTempValid && (!backlog['BiS'] || !backlog['BiS'].hasOwnProperty('Obtain' + article + '~|' + equip.toLowerCase() + '|~')) && (bestEquipment[chunkInfo['equipment'][equip].slot] = equip);
                         } else if ((!bestEquipment[chunkInfo['equipment'][equip].slot] || ((chunkInfo['equipment'][equip].accuracy + chunkInfo['equipment'][equip].ability_damage) === (chunkInfo['equipment'][bestEquipment[chunkInfo['equipment'][equip].slot]].accuracy + chunkInfo['equipment'][bestEquipment[chunkInfo['equipment'][equip].slot]].ability_damage))) && ((chunkInfo['equipment'][equip].accuracy > 0 && chunkInfo['equipment'][equip].ability_damage > 0) || equip === 'Unarmed')) {
                             let tempTempValid = false;
@@ -3671,7 +3671,7 @@ var calcBIS = function() {
                                 }
                             });
                             let article = vowels.includes(equip.toLowerCase().charAt(0)) ? ' an ' : ' a ';
-                            article = equip.toLowerCase().charAt(equip.toLowerCase().length - 1) === 's' ? ' ' : article;
+                            article = (equip.toLowerCase().charAt(equip.toLowerCase().length - 1) === 's' || (equip.toLowerCase().charAt(equip.toLowerCase().length - 1) === ')' && equip.toLowerCase().split('(')[0].trim().charAt(equip.toLowerCase().split('(')[0].trim().length - 1) === 's')) ? ' ' : article;
                             if (tempTempValid && (!backlog['BiS'] || !backlog['BiS'].hasOwnProperty('Obtain' + article + '~|' + equip.toLowerCase() + '|~'))) {
                                 if (!bestEquipmentAlts[chunkInfo['equipment'][equip].slot]) {
                                     bestEquipmentAlts[chunkInfo['equipment'][equip].slot] = {};
@@ -3689,7 +3689,7 @@ var calcBIS = function() {
                                     }
                                 });
                                 let article = vowels.includes(equip.toLowerCase().charAt(0)) ? ' an ' : ' a ';
-                                article = equip.toLowerCase().charAt(equip.toLowerCase().length - 1) === 's' ? ' ' : article;
+                                article = (equip.toLowerCase().charAt(equip.toLowerCase().length - 1) === 's' || (equip.toLowerCase().charAt(equip.toLowerCase().length - 1) === ')' && equip.toLowerCase().split('(')[0].trim().charAt(equip.toLowerCase().split('(')[0].trim().length - 1) === 's')) ? ' ' : article;
                                 tempTempValid && (!backlog['BiS'] || !backlog['BiS'].hasOwnProperty('Obtain' + article + '~|' + equip.toLowerCase() + '|~')) && (bestEquipment[chunkInfo['equipment'][equip].slot] = equip);
                             } else if ((chunkInfo['equipment'][equip].strength === chunkInfo['equipment'][bestEquipment[chunkInfo['equipment'][equip].slot]].strength) && (chunkInfo['equipment'][equip].armour > chunkInfo['equipment'][bestEquipment[chunkInfo['equipment'][equip].slot]].armour)) {
                                 let tempTempValid = false;
@@ -3699,7 +3699,7 @@ var calcBIS = function() {
                                     }
                                 });
                                 let article = vowels.includes(equip.toLowerCase().charAt(0)) ? ' an ' : ' a ';
-                                article = equip.toLowerCase().charAt(equip.toLowerCase().length - 1) === 's' ? ' ' : article;
+                                article = (equip.toLowerCase().charAt(equip.toLowerCase().length - 1) === 's' || (equip.toLowerCase().charAt(equip.toLowerCase().length - 1) === ')' && equip.toLowerCase().split('(')[0].trim().charAt(equip.toLowerCase().split('(')[0].trim().length - 1) === 's')) ? ' ' : article;
                                 tempTempValid && (!backlog['BiS'] || !backlog['BiS'].hasOwnProperty('Obtain' + article + '~|' + equip.toLowerCase() + '|~')) && (bestEquipment[chunkInfo['equipment'][equip].slot] = equip);
                             } else if ((chunkInfo['equipment'][equip].strength === chunkInfo['equipment'][bestEquipment[chunkInfo['equipment'][equip].slot]].strength) &&
                             (chunkInfo['equipment'][equip].armour === chunkInfo['equipment'][bestEquipment[chunkInfo['equipment'][equip].slot]].armour) &&
@@ -3711,7 +3711,7 @@ var calcBIS = function() {
                                     }
                                 });
                                 let article = vowels.includes(equip.toLowerCase().charAt(0)) ? ' an ' : ' a ';
-                                article = equip.toLowerCase().charAt(equip.toLowerCase().length - 1) === 's' ? ' ' : article;
+                                article = (equip.toLowerCase().charAt(equip.toLowerCase().length - 1) === 's' || (equip.toLowerCase().charAt(equip.toLowerCase().length - 1) === ')' && equip.toLowerCase().split('(')[0].trim().charAt(equip.toLowerCase().split('(')[0].trim().length - 1) === 's')) ? ' ' : article;
                                 tempTempValid && (!backlog['BiS'] || !backlog['BiS'].hasOwnProperty('Obtain' + article + '~|' + equip.toLowerCase() + '|~')) && (bestEquipment[chunkInfo['equipment'][equip].slot] = equip);
                             } else if ((chunkInfo['equipment'][equip].strength === chunkInfo['equipment'][bestEquipment[chunkInfo['equipment'][equip].slot]].strength) &&
                             (chunkInfo['equipment'][equip].armour === chunkInfo['equipment'][bestEquipment[chunkInfo['equipment'][equip].slot]].armour) &&
@@ -3723,7 +3723,7 @@ var calcBIS = function() {
                                     }
                                 });
                                 let article = vowels.includes(equip.toLowerCase().charAt(0)) ? ' an ' : ' a ';
-                                article = equip.toLowerCase().charAt(equip.toLowerCase().length - 1) === 's' ? ' ' : article;
+                                article = (equip.toLowerCase().charAt(equip.toLowerCase().length - 1) === 's' || (equip.toLowerCase().charAt(equip.toLowerCase().length - 1) === ')' && equip.toLowerCase().split('(')[0].trim().charAt(equip.toLowerCase().split('(')[0].trim().length - 1) === 's')) ? ' ' : article;
                                 if (tempTempValid && (!backlog['BiS'] || !backlog['BiS'].hasOwnProperty('Obtain' + article + '~|' + equip.toLowerCase() + '|~'))) {
                                     if (!bestEquipmentAlts[chunkInfo['equipment'][equip].slot]) {
                                         bestEquipmentAlts[chunkInfo['equipment'][equip].slot] = {};
@@ -3743,7 +3743,7 @@ var calcBIS = function() {
                                 }
                             });
                             let article = vowels.includes(equip.toLowerCase().charAt(0)) ? ' an ' : ' a ';
-                            article = equip.toLowerCase().charAt(equip.toLowerCase().length - 1) === 's' ? ' ' : article;
+                            article = (equip.toLowerCase().charAt(equip.toLowerCase().length - 1) === 's' || (equip.toLowerCase().charAt(equip.toLowerCase().length - 1) === ')' && equip.toLowerCase().split('(')[0].trim().charAt(equip.toLowerCase().split('(')[0].trim().length - 1) === 's')) ? ' ' : article;
                             tempTempValid && (!backlog['BiS'] || !backlog['BiS'].hasOwnProperty('Obtain' + article + '~|' + equip.toLowerCase() + '|~')) && (bestEquipment[chunkInfo['equipment'][equip].slot] = equip);
                         } else if (chunkInfo['equipment'][equip].style === 'stab' && (!bestEquipment[chunkInfo['equipment'][equip].slot] || ((chunkInfo['equipment'][equip].accuracy + chunkInfo['equipment'][equip].ability_damage) === (chunkInfo['equipment'][bestEquipment[chunkInfo['equipment'][equip].slot]].accuracy + chunkInfo['equipment'][bestEquipment[chunkInfo['equipment'][equip].slot]].ability_damage))) && (chunkInfo['equipment'][equip].accuracy > 0 && chunkInfo['equipment'][equip].ability_damage > 0)) {
                             let tempTempValid = false;
@@ -3753,7 +3753,7 @@ var calcBIS = function() {
                                 }
                             });
                             let article = vowels.includes(equip.toLowerCase().charAt(0)) ? ' an ' : ' a ';
-                            article = equip.toLowerCase().charAt(equip.toLowerCase().length - 1) === 's' ? ' ' : article;
+                            article = (equip.toLowerCase().charAt(equip.toLowerCase().length - 1) === 's' || (equip.toLowerCase().charAt(equip.toLowerCase().length - 1) === ')' && equip.toLowerCase().split('(')[0].trim().charAt(equip.toLowerCase().split('(')[0].trim().length - 1) === 's')) ? ' ' : article;
                             if (tempTempValid && (!backlog['BiS'] || !backlog['BiS'].hasOwnProperty('Obtain' + article + '~|' + equip.toLowerCase() + '|~'))) {
                                 if (!bestEquipmentAlts[chunkInfo['equipment'][equip].slot]) {
                                     bestEquipmentAlts[chunkInfo['equipment'][equip].slot] = {};
@@ -3771,7 +3771,7 @@ var calcBIS = function() {
                                     }
                                 });
                                 let article = vowels.includes(equip.toLowerCase().charAt(0)) ? ' an ' : ' a ';
-                                article = equip.toLowerCase().charAt(equip.toLowerCase().length - 1) === 's' ? ' ' : article;
+                                article = (equip.toLowerCase().charAt(equip.toLowerCase().length - 1) === 's' || (equip.toLowerCase().charAt(equip.toLowerCase().length - 1) === ')' && equip.toLowerCase().split('(')[0].trim().charAt(equip.toLowerCase().split('(')[0].trim().length - 1) === 's')) ? ' ' : article;
                                 tempTempValid && (!backlog['BiS'] || !backlog['BiS'].hasOwnProperty('Obtain' + article + '~|' + equip.toLowerCase() + '|~')) && (bestEquipment[chunkInfo['equipment'][equip].slot] = equip);
                             } else if ((chunkInfo['equipment'][equip].strength === chunkInfo['equipment'][bestEquipment[chunkInfo['equipment'][equip].slot]].strength) && (chunkInfo['equipment'][equip].armour > chunkInfo['equipment'][bestEquipment[chunkInfo['equipment'][equip].slot]].armour)) {
                                 let tempTempValid = false;
@@ -3781,7 +3781,7 @@ var calcBIS = function() {
                                     }
                                 });
                                 let article = vowels.includes(equip.toLowerCase().charAt(0)) ? ' an ' : ' a ';
-                                article = equip.toLowerCase().charAt(equip.toLowerCase().length - 1) === 's' ? ' ' : article;
+                                article = (equip.toLowerCase().charAt(equip.toLowerCase().length - 1) === 's' || (equip.toLowerCase().charAt(equip.toLowerCase().length - 1) === ')' && equip.toLowerCase().split('(')[0].trim().charAt(equip.toLowerCase().split('(')[0].trim().length - 1) === 's')) ? ' ' : article;
                                 tempTempValid && (!backlog['BiS'] || !backlog['BiS'].hasOwnProperty('Obtain' + article + '~|' + equip.toLowerCase() + '|~')) && (bestEquipment[chunkInfo['equipment'][equip].slot] = equip);
                             } else if ((chunkInfo['equipment'][equip].strength === chunkInfo['equipment'][bestEquipment[chunkInfo['equipment'][equip].slot]].strength) &&
                             (chunkInfo['equipment'][equip].armour === chunkInfo['equipment'][bestEquipment[chunkInfo['equipment'][equip].slot]].armour) &&
@@ -3793,7 +3793,7 @@ var calcBIS = function() {
                                     }
                                 });
                                 let article = vowels.includes(equip.toLowerCase().charAt(0)) ? ' an ' : ' a ';
-                                article = equip.toLowerCase().charAt(equip.toLowerCase().length - 1) === 's' ? ' ' : article;
+                                article = (equip.toLowerCase().charAt(equip.toLowerCase().length - 1) === 's' || (equip.toLowerCase().charAt(equip.toLowerCase().length - 1) === ')' && equip.toLowerCase().split('(')[0].trim().charAt(equip.toLowerCase().split('(')[0].trim().length - 1) === 's')) ? ' ' : article;
                                 tempTempValid && (!backlog['BiS'] || !backlog['BiS'].hasOwnProperty('Obtain' + article + '~|' + equip.toLowerCase() + '|~')) && (bestEquipment[chunkInfo['equipment'][equip].slot] = equip);
                             } else if ((chunkInfo['equipment'][equip].strength === chunkInfo['equipment'][bestEquipment[chunkInfo['equipment'][equip].slot]].strength) &&
                             (chunkInfo['equipment'][equip].armour === chunkInfo['equipment'][bestEquipment[chunkInfo['equipment'][equip].slot]].armour) &&
@@ -3805,7 +3805,7 @@ var calcBIS = function() {
                                     }
                                 });
                                 let article = vowels.includes(equip.toLowerCase().charAt(0)) ? ' an ' : ' a ';
-                                article = equip.toLowerCase().charAt(equip.toLowerCase().length - 1) === 's' ? ' ' : article;
+                                article = (equip.toLowerCase().charAt(equip.toLowerCase().length - 1) === 's' || (equip.toLowerCase().charAt(equip.toLowerCase().length - 1) === ')' && equip.toLowerCase().split('(')[0].trim().charAt(equip.toLowerCase().split('(')[0].trim().length - 1) === 's')) ? ' ' : article;
                                 if (tempTempValid && (!backlog['BiS'] || !backlog['BiS'].hasOwnProperty('Obtain' + article + '~|' + equip.toLowerCase() + '|~'))) {
                                     if (!bestEquipmentAlts[chunkInfo['equipment'][equip].slot]) {
                                         bestEquipmentAlts[chunkInfo['equipment'][equip].slot] = {};
@@ -3825,7 +3825,7 @@ var calcBIS = function() {
                                 }
                             });
                             let article = vowels.includes(equip.toLowerCase().charAt(0)) ? ' an ' : ' a ';
-                            article = equip.toLowerCase().charAt(equip.toLowerCase().length - 1) === 's' ? ' ' : article;
+                            article = (equip.toLowerCase().charAt(equip.toLowerCase().length - 1) === 's' || (equip.toLowerCase().charAt(equip.toLowerCase().length - 1) === ')' && equip.toLowerCase().split('(')[0].trim().charAt(equip.toLowerCase().split('(')[0].trim().length - 1) === 's')) ? ' ' : article;
                             tempTempValid && (!backlog['BiS'] || !backlog['BiS'].hasOwnProperty('Obtain' + article + '~|' + equip.toLowerCase() + '|~')) && (bestEquipment[chunkInfo['equipment'][equip].slot] = equip);
                         } else if (chunkInfo['equipment'][equip].style === 'slash' && (!bestEquipment[chunkInfo['equipment'][equip].slot] || ((chunkInfo['equipment'][equip].accuracy + chunkInfo['equipment'][equip].ability_damage) === (chunkInfo['equipment'][bestEquipment[chunkInfo['equipment'][equip].slot]].accuracy + chunkInfo['equipment'][bestEquipment[chunkInfo['equipment'][equip].slot]].ability_damage))) && (chunkInfo['equipment'][equip].accuracy > 0 && chunkInfo['equipment'][equip].ability_damage > 0)) {
                             let tempTempValid = false;
@@ -3835,7 +3835,7 @@ var calcBIS = function() {
                                 }
                             });
                             let article = vowels.includes(equip.toLowerCase().charAt(0)) ? ' an ' : ' a ';
-                            article = equip.toLowerCase().charAt(equip.toLowerCase().length - 1) === 's' ? ' ' : article;
+                            article = (equip.toLowerCase().charAt(equip.toLowerCase().length - 1) === 's' || (equip.toLowerCase().charAt(equip.toLowerCase().length - 1) === ')' && equip.toLowerCase().split('(')[0].trim().charAt(equip.toLowerCase().split('(')[0].trim().length - 1) === 's')) ? ' ' : article;
                             if (tempTempValid && (!backlog['BiS'] || !backlog['BiS'].hasOwnProperty('Obtain' + article + '~|' + equip.toLowerCase() + '|~'))) {
                                 if (!bestEquipmentAlts[chunkInfo['equipment'][equip].slot]) {
                                     bestEquipmentAlts[chunkInfo['equipment'][equip].slot] = {};
@@ -3853,7 +3853,7 @@ var calcBIS = function() {
                                     }
                                 });
                                 let article = vowels.includes(equip.toLowerCase().charAt(0)) ? ' an ' : ' a ';
-                                article = equip.toLowerCase().charAt(equip.toLowerCase().length - 1) === 's' ? ' ' : article;
+                                article = (equip.toLowerCase().charAt(equip.toLowerCase().length - 1) === 's' || (equip.toLowerCase().charAt(equip.toLowerCase().length - 1) === ')' && equip.toLowerCase().split('(')[0].trim().charAt(equip.toLowerCase().split('(')[0].trim().length - 1) === 's')) ? ' ' : article;
                                 tempTempValid && (!backlog['BiS'] || !backlog['BiS'].hasOwnProperty('Obtain' + article + '~|' + equip.toLowerCase() + '|~')) && (bestEquipment[chunkInfo['equipment'][equip].slot] = equip);
                             } else if ((chunkInfo['equipment'][equip].strength === chunkInfo['equipment'][bestEquipment[chunkInfo['equipment'][equip].slot]].strength) && (chunkInfo['equipment'][equip].armour > chunkInfo['equipment'][bestEquipment[chunkInfo['equipment'][equip].slot]].armour)) {
                                 let tempTempValid = false;
@@ -3863,7 +3863,7 @@ var calcBIS = function() {
                                     }
                                 });
                                 let article = vowels.includes(equip.toLowerCase().charAt(0)) ? ' an ' : ' a ';
-                                article = equip.toLowerCase().charAt(equip.toLowerCase().length - 1) === 's' ? ' ' : article;
+                                article = (equip.toLowerCase().charAt(equip.toLowerCase().length - 1) === 's' || (equip.toLowerCase().charAt(equip.toLowerCase().length - 1) === ')' && equip.toLowerCase().split('(')[0].trim().charAt(equip.toLowerCase().split('(')[0].trim().length - 1) === 's')) ? ' ' : article;
                                 tempTempValid && (!backlog['BiS'] || !backlog['BiS'].hasOwnProperty('Obtain' + article + '~|' + equip.toLowerCase() + '|~')) && (bestEquipment[chunkInfo['equipment'][equip].slot] = equip);
                             } else if ((chunkInfo['equipment'][equip].strength === chunkInfo['equipment'][bestEquipment[chunkInfo['equipment'][equip].slot]].strength) &&
                             (chunkInfo['equipment'][equip].armour === chunkInfo['equipment'][bestEquipment[chunkInfo['equipment'][equip].slot]].armour) &&
@@ -3875,7 +3875,7 @@ var calcBIS = function() {
                                     }
                                 });
                                 let article = vowels.includes(equip.toLowerCase().charAt(0)) ? ' an ' : ' a ';
-                                article = equip.toLowerCase().charAt(equip.toLowerCase().length - 1) === 's' ? ' ' : article;
+                                article = (equip.toLowerCase().charAt(equip.toLowerCase().length - 1) === 's' || (equip.toLowerCase().charAt(equip.toLowerCase().length - 1) === ')' && equip.toLowerCase().split('(')[0].trim().charAt(equip.toLowerCase().split('(')[0].trim().length - 1) === 's')) ? ' ' : article;
                                 tempTempValid && (!backlog['BiS'] || !backlog['BiS'].hasOwnProperty('Obtain' + article + '~|' + equip.toLowerCase() + '|~')) && (bestEquipment[chunkInfo['equipment'][equip].slot] = equip);
                             } else if ((chunkInfo['equipment'][equip].strength === chunkInfo['equipment'][bestEquipment[chunkInfo['equipment'][equip].slot]].strength) &&
                             (chunkInfo['equipment'][equip].armour === chunkInfo['equipment'][bestEquipment[chunkInfo['equipment'][equip].slot]].armour) &&
@@ -3887,7 +3887,7 @@ var calcBIS = function() {
                                     }
                                 });
                                 let article = vowels.includes(equip.toLowerCase().charAt(0)) ? ' an ' : ' a ';
-                                article = equip.toLowerCase().charAt(equip.toLowerCase().length - 1) === 's' ? ' ' : article;
+                                article = (equip.toLowerCase().charAt(equip.toLowerCase().length - 1) === 's' || (equip.toLowerCase().charAt(equip.toLowerCase().length - 1) === ')' && equip.toLowerCase().split('(')[0].trim().charAt(equip.toLowerCase().split('(')[0].trim().length - 1) === 's')) ? ' ' : article;
                                 if (tempTempValid && (!backlog['BiS'] || !backlog['BiS'].hasOwnProperty('Obtain' + article + '~|' + equip.toLowerCase() + '|~'))) {
                                     if (!bestEquipmentAlts[chunkInfo['equipment'][equip].slot]) {
                                         bestEquipmentAlts[chunkInfo['equipment'][equip].slot] = {};
@@ -3907,7 +3907,7 @@ var calcBIS = function() {
                                 }
                             });
                             let article = vowels.includes(equip.toLowerCase().charAt(0)) ? ' an ' : ' a ';
-                            article = equip.toLowerCase().charAt(equip.toLowerCase().length - 1) === 's' ? ' ' : article;
+                            article = (equip.toLowerCase().charAt(equip.toLowerCase().length - 1) === 's' || (equip.toLowerCase().charAt(equip.toLowerCase().length - 1) === ')' && equip.toLowerCase().split('(')[0].trim().charAt(equip.toLowerCase().split('(')[0].trim().length - 1) === 's')) ? ' ' : article;
                             tempTempValid && (!backlog['BiS'] || !backlog['BiS'].hasOwnProperty('Obtain' + article + '~|' + equip.toLowerCase() + '|~')) && (bestEquipment[chunkInfo['equipment'][equip].slot] = equip);
                         } else if (chunkInfo['equipment'][equip].style === 'crush' && (!bestEquipment[chunkInfo['equipment'][equip].slot] || ((chunkInfo['equipment'][equip].accuracy + chunkInfo['equipment'][equip].ability_damage) === (chunkInfo['equipment'][bestEquipment[chunkInfo['equipment'][equip].slot]].accuracy + chunkInfo['equipment'][bestEquipment[chunkInfo['equipment'][equip].slot]].ability_damage))) && (chunkInfo['equipment'][equip].accuracy > 0 && chunkInfo['equipment'][equip].ability_damage > 0)) {
                             let tempTempValid = false;
@@ -3917,7 +3917,7 @@ var calcBIS = function() {
                                 }
                             });
                             let article = vowels.includes(equip.toLowerCase().charAt(0)) ? ' an ' : ' a ';
-                            article = equip.toLowerCase().charAt(equip.toLowerCase().length - 1) === 's' ? ' ' : article;
+                            article = (equip.toLowerCase().charAt(equip.toLowerCase().length - 1) === 's' || (equip.toLowerCase().charAt(equip.toLowerCase().length - 1) === ')' && equip.toLowerCase().split('(')[0].trim().charAt(equip.toLowerCase().split('(')[0].trim().length - 1) === 's')) ? ' ' : article;
                             if (tempTempValid && (!backlog['BiS'] || !backlog['BiS'].hasOwnProperty('Obtain' + article + '~|' + equip.toLowerCase() + '|~'))) {
                                 if (!bestEquipmentAlts[chunkInfo['equipment'][equip].slot]) {
                                     bestEquipmentAlts[chunkInfo['equipment'][equip].slot] = {};
@@ -3935,7 +3935,7 @@ var calcBIS = function() {
                                     }
                                 });
                                 let article = vowels.includes(equip.toLowerCase().charAt(0)) ? ' an ' : ' a ';
-                                article = equip.toLowerCase().charAt(equip.toLowerCase().length - 1) === 's' ? ' ' : article;
+                                article = (equip.toLowerCase().charAt(equip.toLowerCase().length - 1) === 's' || (equip.toLowerCase().charAt(equip.toLowerCase().length - 1) === ')' && equip.toLowerCase().split('(')[0].trim().charAt(equip.toLowerCase().split('(')[0].trim().length - 1) === 's')) ? ' ' : article;
                                 tempTempValid && (!backlog['BiS'] || !backlog['BiS'].hasOwnProperty('Obtain' + article + '~|' + equip.toLowerCase() + '|~')) && (bestEquipment[chunkInfo['equipment'][equip].slot] = equip);
                             } else if ((chunkInfo['equipment'][equip].strength === chunkInfo['equipment'][bestEquipment[chunkInfo['equipment'][equip].slot]].strength) && (chunkInfo['equipment'][equip].armour > chunkInfo['equipment'][bestEquipment[chunkInfo['equipment'][equip].slot]].armour)) {
                                 let tempTempValid = false;
@@ -3945,7 +3945,7 @@ var calcBIS = function() {
                                     }
                                 });
                                 let article = vowels.includes(equip.toLowerCase().charAt(0)) ? ' an ' : ' a ';
-                                article = equip.toLowerCase().charAt(equip.toLowerCase().length - 1) === 's' ? ' ' : article;
+                                article = (equip.toLowerCase().charAt(equip.toLowerCase().length - 1) === 's' || (equip.toLowerCase().charAt(equip.toLowerCase().length - 1) === ')' && equip.toLowerCase().split('(')[0].trim().charAt(equip.toLowerCase().split('(')[0].trim().length - 1) === 's')) ? ' ' : article;
                                 tempTempValid && (!backlog['BiS'] || !backlog['BiS'].hasOwnProperty('Obtain' + article + '~|' + equip.toLowerCase() + '|~')) && (bestEquipment[chunkInfo['equipment'][equip].slot] = equip);
                             } else if ((chunkInfo['equipment'][equip].strength === chunkInfo['equipment'][bestEquipment[chunkInfo['equipment'][equip].slot]].strength) &&
                             (chunkInfo['equipment'][equip].armour === chunkInfo['equipment'][bestEquipment[chunkInfo['equipment'][equip].slot]].armour) &&
@@ -3957,7 +3957,7 @@ var calcBIS = function() {
                                     }
                                 });
                                 let article = vowels.includes(equip.toLowerCase().charAt(0)) ? ' an ' : ' a ';
-                                article = equip.toLowerCase().charAt(equip.toLowerCase().length - 1) === 's' ? ' ' : article;
+                                article = (equip.toLowerCase().charAt(equip.toLowerCase().length - 1) === 's' || (equip.toLowerCase().charAt(equip.toLowerCase().length - 1) === ')' && equip.toLowerCase().split('(')[0].trim().charAt(equip.toLowerCase().split('(')[0].trim().length - 1) === 's')) ? ' ' : article;
                                 tempTempValid && (!backlog['BiS'] || !backlog['BiS'].hasOwnProperty('Obtain' + article + '~|' + equip.toLowerCase() + '|~')) && (bestEquipment[chunkInfo['equipment'][equip].slot] = equip);
                             } else if ((chunkInfo['equipment'][equip].strength === chunkInfo['equipment'][bestEquipment[chunkInfo['equipment'][equip].slot]].strength) &&
                             (chunkInfo['equipment'][equip].armour === chunkInfo['equipment'][bestEquipment[chunkInfo['equipment'][equip].slot]].armour) &&
@@ -3969,7 +3969,7 @@ var calcBIS = function() {
                                     }
                                 });
                                 let article = vowels.includes(equip.toLowerCase().charAt(0)) ? ' an ' : ' a ';
-                                article = equip.toLowerCase().charAt(equip.toLowerCase().length - 1) === 's' ? ' ' : article;
+                                article = (equip.toLowerCase().charAt(equip.toLowerCase().length - 1) === 's' || (equip.toLowerCase().charAt(equip.toLowerCase().length - 1) === ')' && equip.toLowerCase().split('(')[0].trim().charAt(equip.toLowerCase().split('(')[0].trim().length - 1) === 's')) ? ' ' : article;
                                 if (tempTempValid && (!backlog['BiS'] || !backlog['BiS'].hasOwnProperty('Obtain' + article + '~|' + equip.toLowerCase() + '|~'))) {
                                     if (!bestEquipmentAlts[chunkInfo['equipment'][equip].slot]) {
                                         bestEquipmentAlts[chunkInfo['equipment'][equip].slot] = {};
@@ -3996,8 +3996,23 @@ var calcBIS = function() {
                                                 }
                                             });
                                             let articleAmmo = vowels.includes(plus.toLowerCase().charAt(0)) ? ' an ' : ' a ';
-                                            articleAmmo = plus.toLowerCase().charAt(plus.toLowerCase().length - 1) === 's' ? ' ' : articleAmmo;
+                                            articleAmmo = (plus.toLowerCase().charAt(plus.toLowerCase().length - 1) === 's' || (plus.toLowerCase().charAt(plus.toLowerCase().length - 1) === ')' && plus.toLowerCase().split('(')[0].trim().charAt(plus.toLowerCase().split('(')[0].trim().length - 1) === 's')) ? ' ' : articleAmmo;
                                             tempTempValidAmmo && (!backlog['BiS'] || !backlog['BiS'].hasOwnProperty('Obtain' + articleAmmo + '~|' + plus.toLowerCase() + '|~')) && (bestAmmo = plus);
+                                        } else if (chunkInfo['equipment'][plus].ability_damage === chunkInfo['equipment'][bestAmmo].ability_damage) {
+                                            let tempTempValidAmmo = false;
+                                            Object.keys(baseChunkData['items'][plus]).forEach(source => {
+                                                if (!baseChunkData['items'][plus][source].includes('-') || !processingSkill[baseChunkData['items'][plus][source].split('-')[1]] || rules['Wield Crafted Items'] || baseChunkData['items'][plus][source].split('-')[1] === 'Slayer' || (chunkInfo['challenges'].hasOwnProperty(baseChunkData['items'][plus][source].split('-')[1]) && chunkInfo['challenges'][baseChunkData['items'][plus][source].split('-')[1]].hasOwnProperty(source) && chunkInfo['challenges'][baseChunkData['items'][plus][source].split('-')[1]][source].hasOwnProperty('NoXp'))) {
+                                                    tempTempValidAmmo = true;
+                                                }
+                                            });
+                                            let articleAmmo = vowels.includes(plus.toLowerCase().charAt(0)) ? ' an ' : ' a ';
+                                            articleAmmo = (plus.toLowerCase().charAt(plus.toLowerCase().length - 1) === 's' || (plus.toLowerCase().charAt(plus.toLowerCase().length - 1) === ')' && plus.toLowerCase().split('(')[0].trim().charAt(plus.toLowerCase().split('(')[0].trim().length - 1) === 's')) ? ' ' : articleAmmo;
+                                            if (tempTempValidAmmo && (!backlog['BiS'] || !backlog['BiS'].hasOwnProperty('Obtain' + articleAmmo + '~|' + plus.toLowerCase() + '|~'))) {
+                                                if (!bestEquipmentAlts[chunkInfo['equipment'][plus].slot]) {
+                                                    bestEquipmentAlts[chunkInfo['equipment'][plus].slot] = {};
+                                                }
+                                                bestEquipmentAlts[chunkInfo['equipment'][plus].slot][plus] = bestAmmo;
+                                            }
                                         }
                                     });
                                 } else if (chunkInfo['equipment'].hasOwnProperty(ammo)) {
@@ -4009,8 +4024,23 @@ var calcBIS = function() {
                                             }
                                         });
                                         let articleAmmo = vowels.includes(ammo.toLowerCase().charAt(0)) ? ' an ' : ' a ';
-                                        articleAmmo = ammo.toLowerCase().charAt(ammo.toLowerCase().length - 1) === 's' ? ' ' : articleAmmo;
+                                        articleAmmo = (ammo.toLowerCase().charAt(ammo.toLowerCase().length - 1) === 's' || (ammo.toLowerCase().charAt(ammo.toLowerCase().length - 1) === ')' && ammo.toLowerCase().split('(')[0].trim().charAt(ammo.toLowerCase().split('(')[0].trim().length - 1) === 's')) ? ' ' : articleAmmo;
                                         tempTempValidAmmo && (!backlog['BiS'] || !backlog['BiS'].hasOwnProperty('Obtain' + articleAmmo + '~|' + ammo.toLowerCase() + '|~')) && (bestAmmo = ammo);
+                                    } else if (chunkInfo['equipment'][ammo].ability_damage === chunkInfo['equipment'][bestAmmo].ability_damage) {
+                                        let tempTempValidAmmo = false;
+                                        Object.keys(baseChunkData['items'][ammo]).forEach(source => {
+                                            if (!baseChunkData['items'][ammo][source].includes('-') || !processingSkill[baseChunkData['items'][ammo][source].split('-')[1]] || rules['Wield Crafted Items'] || baseChunkData['items'][ammo][source].split('-')[1] === 'Slayer' || (chunkInfo['challenges'].hasOwnProperty(baseChunkData['items'][ammo][source].split('-')[1]) && chunkInfo['challenges'][baseChunkData['items'][ammo][source].split('-')[1]].hasOwnProperty(source) && chunkInfo['challenges'][baseChunkData['items'][ammo][source].split('-')[1]][source].hasOwnProperty('NoXp'))) {
+                                                tempTempValidAmmo = true;
+                                            }
+                                        });
+                                        let articleAmmo = vowels.includes(ammo.toLowerCase().charAt(0)) ? ' an ' : ' a ';
+                                        articleAmmo = (ammo.toLowerCase().charAt(ammo.toLowerCase().length - 1) === 's' || (ammo.toLowerCase().charAt(ammo.toLowerCase().length - 1) === ')' && ammo.toLowerCase().split('(')[0].trim().charAt(ammo.toLowerCase().split('(')[0].trim().length - 1) === 's')) ? ' ' : articleAmmo;
+                                        if (tempTempValidAmmo && (!backlog['BiS'] || !backlog['BiS'].hasOwnProperty('Obtain' + articleAmmo + '~|' + ammo.toLowerCase() + '|~'))) {
+                                            if (!bestEquipmentAlts[chunkInfo['equipment'][ammo].slot]) {
+                                                bestEquipmentAlts[chunkInfo['equipment'][ammo].slot] = {};
+                                            }
+                                            bestEquipmentAlts[chunkInfo['equipment'][ammo].slot][ammo] = bestAmmo;
+                                        }
                                     }
                                 }
                             }
@@ -4024,7 +4054,7 @@ var calcBIS = function() {
                                     }
                                 });
                                 let article = vowels.includes(equip.toLowerCase().charAt(0)) ? ' an ' : ' a ';
-                                article = equip.toLowerCase().charAt(equip.toLowerCase().length - 1) === 's' ? ' ' : article;
+                                article = (equip.toLowerCase().charAt(equip.toLowerCase().length - 1) === 's' || (equip.toLowerCase().charAt(equip.toLowerCase().length - 1) === ')' && equip.toLowerCase().split('(')[0].trim().charAt(equip.toLowerCase().split('(')[0].trim().length - 1) === 's')) ? ' ' : article;
                                 tempTempValid && (!backlog['BiS'] || !backlog['BiS'].hasOwnProperty('Obtain' + article + '~|' + equip.toLowerCase() + '|~')) && (bestEquipment[chunkInfo['equipment'][equip].slot] = equip);
                                 if (!!bestAmmo && tempTempValid && (!backlog['BiS'] || !backlog['BiS'].hasOwnProperty('Obtain' + article + '~|' + equip.toLowerCase() + '|~'))) {
                                     let tempTempValidAmmo = false;
@@ -4034,7 +4064,7 @@ var calcBIS = function() {
                                         }
                                     });
                                     let articleAmmo = vowels.includes(bestAmmo.toLowerCase().charAt(0)) ? ' an ' : ' a ';
-                                    articleAmmo = bestAmmo.toLowerCase().charAt(bestAmmo.toLowerCase().length - 1) === 's' ? ' ' : articleAmmo;
+                                    articleAmmo = (bestAmmo.toLowerCase().charAt(bestAmmo.toLowerCase().length - 1) === 's' || (bestAmmo.toLowerCase().charAt(bestAmmo.toLowerCase().length - 1) === ')' && bestAmmo.toLowerCase().split('(')[0].trim().charAt(bestAmmo.toLowerCase().split('(')[0].trim().length - 1) === 's')) ? ' ' : articleAmmo;
                                     tempTempValidAmmo && (!backlog['BiS'] || !backlog['BiS'].hasOwnProperty('Obtain' + articleAmmo + '~|' + bestAmmo.toLowerCase() + '|~')) && (bestAmmoSaved[chunkInfo['equipment'][equip].slot] = bestAmmo);
                                 } else if (bestEquipment[chunkInfo['equipment'][equip].slot] === equip) {
                                     delete bestAmmoSaved[chunkInfo['equipment'][equip].slot];
@@ -4047,7 +4077,7 @@ var calcBIS = function() {
                                     }
                                 });
                                 let article = vowels.includes(equip.toLowerCase().charAt(0)) ? ' an ' : ' a ';
-                                article = equip.toLowerCase().charAt(equip.toLowerCase().length - 1) === 's' ? ' ' : article;
+                                article = (equip.toLowerCase().charAt(equip.toLowerCase().length - 1) === 's' || (equip.toLowerCase().charAt(equip.toLowerCase().length - 1) === ')' && equip.toLowerCase().split('(')[0].trim().charAt(equip.toLowerCase().split('(')[0].trim().length - 1) === 's')) ? ' ' : article;
                                 if (tempTempValid && (!backlog['BiS'] || !backlog['BiS'].hasOwnProperty('Obtain' + article + '~|' + equip.toLowerCase() + '|~'))) {
                                     if (!bestEquipmentAlts[chunkInfo['equipment'][equip].slot]) {
                                         bestEquipmentAlts[chunkInfo['equipment'][equip].slot] = {};
@@ -4061,7 +4091,7 @@ var calcBIS = function() {
                                             }
                                         });
                                         let articleAmmo = vowels.includes(bestAmmo.toLowerCase().charAt(0)) ? ' an ' : ' a ';
-                                        articleAmmo = bestAmmo.toLowerCase().charAt(bestAmmo.toLowerCase().length - 1) === 's' ? ' ' : articleAmmo;
+                                        articleAmmo = (bestAmmo.toLowerCase().charAt(bestAmmo.toLowerCase().length - 1) === 's' || (bestAmmo.toLowerCase().charAt(bestAmmo.toLowerCase().length - 1) === ')' && bestAmmo.toLowerCase().split('(')[0].trim().charAt(bestAmmo.toLowerCase().split('(')[0].trim().length - 1) === 's')) ? ' ' : articleAmmo;
                                         if (tempTempValidAmmo && (!backlog['BiS'] || !backlog['BiS'].hasOwnProperty('Obtain' + articleAmmo + '~|' + bestAmmo.toLowerCase() + '|~'))) {
                                             if (!bestEquipmentAlts[chunkInfo['equipment'][bestAmmo].slot]) {
                                                 bestEquipmentAlts[chunkInfo['equipment'][bestAmmo].slot] = {};
@@ -4084,7 +4114,7 @@ var calcBIS = function() {
                                     }
                                 });
                                 let article = vowels.includes(equip.toLowerCase().charAt(0)) ? ' an ' : ' a ';
-                                article = equip.toLowerCase().charAt(equip.toLowerCase().length - 1) === 's' ? ' ' : article;
+                                article = (equip.toLowerCase().charAt(equip.toLowerCase().length - 1) === 's' || (equip.toLowerCase().charAt(equip.toLowerCase().length - 1) === ')' && equip.toLowerCase().split('(')[0].trim().charAt(equip.toLowerCase().split('(')[0].trim().length - 1) === 's')) ? ' ' : article;
                                 tempTempValid && (!backlog['BiS'] || !backlog['BiS'].hasOwnProperty('Obtain' + article + '~|' + equip.toLowerCase() + '|~')) && (bestEquipment[chunkInfo['equipment'][equip].slot] = equip);
                             } else if ((chunkInfo['equipment'][equip].ranged === chunkInfo['equipment'][bestEquipment[chunkInfo['equipment'][equip].slot]].ranged) && (chunkInfo['equipment'][equip].armour > chunkInfo['equipment'][bestEquipment[chunkInfo['equipment'][equip].slot]].armour)) {
                                 let tempTempValid = false;
@@ -4094,7 +4124,7 @@ var calcBIS = function() {
                                     }
                                 });
                                 let article = vowels.includes(equip.toLowerCase().charAt(0)) ? ' an ' : ' a ';
-                                article = equip.toLowerCase().charAt(equip.toLowerCase().length - 1) === 's' ? ' ' : article;
+                                article = (equip.toLowerCase().charAt(equip.toLowerCase().length - 1) === 's' || (equip.toLowerCase().charAt(equip.toLowerCase().length - 1) === ')' && equip.toLowerCase().split('(')[0].trim().charAt(equip.toLowerCase().split('(')[0].trim().length - 1) === 's')) ? ' ' : article;
                                 tempTempValid && (!backlog['BiS'] || !backlog['BiS'].hasOwnProperty('Obtain' + article + '~|' + equip.toLowerCase() + '|~')) && (bestEquipment[chunkInfo['equipment'][equip].slot] = equip);
                             } else if ((chunkInfo['equipment'][equip].ranged === chunkInfo['equipment'][bestEquipment[chunkInfo['equipment'][equip].slot]].ranged) &&
                             (chunkInfo['equipment'][equip].armour === chunkInfo['equipment'][bestEquipment[chunkInfo['equipment'][equip].slot]].armour) &&
@@ -4106,7 +4136,7 @@ var calcBIS = function() {
                                     }
                                 });
                                 let article = vowels.includes(equip.toLowerCase().charAt(0)) ? ' an ' : ' a ';
-                                article = equip.toLowerCase().charAt(equip.toLowerCase().length - 1) === 's' ? ' ' : article;
+                                article = (equip.toLowerCase().charAt(equip.toLowerCase().length - 1) === 's' || (equip.toLowerCase().charAt(equip.toLowerCase().length - 1) === ')' && equip.toLowerCase().split('(')[0].trim().charAt(equip.toLowerCase().split('(')[0].trim().length - 1) === 's')) ? ' ' : article;
                                 tempTempValid && (!backlog['BiS'] || !backlog['BiS'].hasOwnProperty('Obtain' + article + '~|' + equip.toLowerCase() + '|~')) && (bestEquipment[chunkInfo['equipment'][equip].slot] = equip);
                             } else if ((chunkInfo['equipment'][equip].ranged === chunkInfo['equipment'][bestEquipment[chunkInfo['equipment'][equip].slot]].ranged) &&
                             (chunkInfo['equipment'][equip].armour === chunkInfo['equipment'][bestEquipment[chunkInfo['equipment'][equip].slot]].armour) &&
@@ -4118,7 +4148,7 @@ var calcBIS = function() {
                                     }
                                 });
                                 let article = vowels.includes(equip.toLowerCase().charAt(0)) ? ' an ' : ' a ';
-                                article = equip.toLowerCase().charAt(equip.toLowerCase().length - 1) === 's' ? ' ' : article;
+                                article = (equip.toLowerCase().charAt(equip.toLowerCase().length - 1) === 's' || (equip.toLowerCase().charAt(equip.toLowerCase().length - 1) === ')' && equip.toLowerCase().split('(')[0].trim().charAt(equip.toLowerCase().split('(')[0].trim().length - 1) === 's')) ? ' ' : article;
                                 if (tempTempValid && (!backlog['BiS'] || !backlog['BiS'].hasOwnProperty('Obtain' + article + '~|' + equip.toLowerCase() + '|~'))) {
                                     if (!bestEquipmentAlts[chunkInfo['equipment'][equip].slot]) {
                                         bestEquipmentAlts[chunkInfo['equipment'][equip].slot] = {};
@@ -4138,7 +4168,7 @@ var calcBIS = function() {
                                 }
                             });
                             let article = vowels.includes(equip.toLowerCase().charAt(0)) ? ' an ' : ' a ';
-                            article = equip.toLowerCase().charAt(equip.toLowerCase().length - 1) === 's' ? ' ' : article;
+                            article = (equip.toLowerCase().charAt(equip.toLowerCase().length - 1) === 's' || (equip.toLowerCase().charAt(equip.toLowerCase().length - 1) === ')' && equip.toLowerCase().split('(')[0].trim().charAt(equip.toLowerCase().split('(')[0].trim().length - 1) === 's')) ? ' ' : article;
                             tempTempValid && (!backlog['BiS'] || !backlog['BiS'].hasOwnProperty('Obtain' + article + '~|' + equip.toLowerCase() + '|~')) && (bestEquipment[chunkInfo['equipment'][equip].slot] = equip);
                         } else if ((!bestEquipment[chunkInfo['equipment'][equip].slot] || ((chunkInfo['equipment'][equip].accuracy + chunkInfo['equipment'][equip].ability_damage) === (chunkInfo['equipment'][bestEquipment[chunkInfo['equipment'][equip].slot]].accuracy + chunkInfo['equipment'][bestEquipment[chunkInfo['equipment'][equip].slot]].ability_damage))) && ((chunkInfo['equipment'][equip].accuracy > 0 && chunkInfo['equipment'][equip].ability_damage > 0) || equip === 'Unarmed')) {
                             let tempTempValid = false;
@@ -4148,7 +4178,7 @@ var calcBIS = function() {
                                 }
                             });
                             let article = vowels.includes(equip.toLowerCase().charAt(0)) ? ' an ' : ' a ';
-                            article = equip.toLowerCase().charAt(equip.toLowerCase().length - 1) === 's' ? ' ' : article;
+                            article = (equip.toLowerCase().charAt(equip.toLowerCase().length - 1) === 's' || (equip.toLowerCase().charAt(equip.toLowerCase().length - 1) === ')' && equip.toLowerCase().split('(')[0].trim().charAt(equip.toLowerCase().split('(')[0].trim().length - 1) === 's')) ? ' ' : article;
                             if (tempTempValid && (!backlog['BiS'] || !backlog['BiS'].hasOwnProperty('Obtain' + article + '~|' + equip.toLowerCase() + '|~'))) {
                                 if (!bestEquipmentAlts[chunkInfo['equipment'][equip].slot]) {
                                     bestEquipmentAlts[chunkInfo['equipment'][equip].slot] = {};
@@ -4166,7 +4196,7 @@ var calcBIS = function() {
                                     }
                                 });
                                 let article = vowels.includes(equip.toLowerCase().charAt(0)) ? ' an ' : ' a ';
-                                article = equip.toLowerCase().charAt(equip.toLowerCase().length - 1) === 's' ? ' ' : article;
+                                article = (equip.toLowerCase().charAt(equip.toLowerCase().length - 1) === 's' || (equip.toLowerCase().charAt(equip.toLowerCase().length - 1) === ')' && equip.toLowerCase().split('(')[0].trim().charAt(equip.toLowerCase().split('(')[0].trim().length - 1) === 's')) ? ' ' : article;
                                 tempTempValid && (!backlog['BiS'] || !backlog['BiS'].hasOwnProperty('Obtain' + article + '~|' + equip.toLowerCase() + '|~')) && (bestEquipment[chunkInfo['equipment'][equip].slot] = equip);
                             } else if ((chunkInfo['equipment'][equip].magic === chunkInfo['equipment'][bestEquipment[chunkInfo['equipment'][equip].slot]].magic) && (chunkInfo['equipment'][equip].armour > chunkInfo['equipment'][bestEquipment[chunkInfo['equipment'][equip].slot]].armour)) {
                                 let tempTempValid = false;
@@ -4176,7 +4206,7 @@ var calcBIS = function() {
                                     }
                                 });
                                 let article = vowels.includes(equip.toLowerCase().charAt(0)) ? ' an ' : ' a ';
-                                article = equip.toLowerCase().charAt(equip.toLowerCase().length - 1) === 's' ? ' ' : article;
+                                article = (equip.toLowerCase().charAt(equip.toLowerCase().length - 1) === 's' || (equip.toLowerCase().charAt(equip.toLowerCase().length - 1) === ')' && equip.toLowerCase().split('(')[0].trim().charAt(equip.toLowerCase().split('(')[0].trim().length - 1) === 's')) ? ' ' : article;
                                 tempTempValid && (!backlog['BiS'] || !backlog['BiS'].hasOwnProperty('Obtain' + article + '~|' + equip.toLowerCase() + '|~')) && (bestEquipment[chunkInfo['equipment'][equip].slot] = equip);
                             } else if ((chunkInfo['equipment'][equip].magic === chunkInfo['equipment'][bestEquipment[chunkInfo['equipment'][equip].slot]].magic) &&
                             (chunkInfo['equipment'][equip].armour === chunkInfo['equipment'][bestEquipment[chunkInfo['equipment'][equip].slot]].armour) &&
@@ -4188,7 +4218,7 @@ var calcBIS = function() {
                                     }
                                 });
                                 let article = vowels.includes(equip.toLowerCase().charAt(0)) ? ' an ' : ' a ';
-                                article = equip.toLowerCase().charAt(equip.toLowerCase().length - 1) === 's' ? ' ' : article;
+                                article = (equip.toLowerCase().charAt(equip.toLowerCase().length - 1) === 's' || (equip.toLowerCase().charAt(equip.toLowerCase().length - 1) === ')' && equip.toLowerCase().split('(')[0].trim().charAt(equip.toLowerCase().split('(')[0].trim().length - 1) === 's')) ? ' ' : article;
                                 tempTempValid && (!backlog['BiS'] || !backlog['BiS'].hasOwnProperty('Obtain' + article + '~|' + equip.toLowerCase() + '|~')) && (bestEquipment[chunkInfo['equipment'][equip].slot] = equip);
                             } else if ((chunkInfo['equipment'][equip].magic === chunkInfo['equipment'][bestEquipment[chunkInfo['equipment'][equip].slot]].magic) &&
                             (chunkInfo['equipment'][equip].armour === chunkInfo['equipment'][bestEquipment[chunkInfo['equipment'][equip].slot]].armour) &&
@@ -4200,7 +4230,7 @@ var calcBIS = function() {
                                     }
                                 });
                                 let article = vowels.includes(equip.toLowerCase().charAt(0)) ? ' an ' : ' a ';
-                                article = equip.toLowerCase().charAt(equip.toLowerCase().length - 1) === 's' ? ' ' : article;
+                                article = (equip.toLowerCase().charAt(equip.toLowerCase().length - 1) === 's' || (equip.toLowerCase().charAt(equip.toLowerCase().length - 1) === ')' && equip.toLowerCase().split('(')[0].trim().charAt(equip.toLowerCase().split('(')[0].trim().length - 1) === 's')) ? ' ' : article;
                                 if (tempTempValid && (!backlog['BiS'] || !backlog['BiS'].hasOwnProperty('Obtain' + article + '~|' + equip.toLowerCase() + '|~'))) {
                                     if (!bestEquipmentAlts[chunkInfo['equipment'][equip].slot]) {
                                         bestEquipmentAlts[chunkInfo['equipment'][equip].slot] = {};
@@ -4220,7 +4250,7 @@ var calcBIS = function() {
                                 }
                             });
                             let article = vowels.includes(equip.toLowerCase().charAt(0)) ? ' an ' : ' a ';
-                            article = equip.toLowerCase().charAt(equip.toLowerCase().length - 1) === 's' ? ' ' : article;
+                            article = (equip.toLowerCase().charAt(equip.toLowerCase().length - 1) === 's' || (equip.toLowerCase().charAt(equip.toLowerCase().length - 1) === ')' && equip.toLowerCase().split('(')[0].trim().charAt(equip.toLowerCase().split('(')[0].trim().length - 1) === 's')) ? ' ' : article;
                             tempTempValid && (!backlog['BiS'] || !backlog['BiS'].hasOwnProperty('Obtain' + article + '~|' + equip.toLowerCase() + '|~')) && (bestEquipment[chunkInfo['equipment'][equip].slot] = equip);
                             tempTempValid && (!backlog['BiS'] || !backlog['BiS'].hasOwnProperty('Obtain' + article + '~|' + equip.toLowerCase() + '|~')) && (chunkInfo['equipment'][equip].slot === 'ammo') && (bestAmmoSaved['weapon'] = equip);
                             tempTempValid && (!backlog['BiS'] || !backlog['BiS'].hasOwnProperty('Obtain' + article + '~|' + equip.toLowerCase() + '|~')) && (chunkInfo['equipment'][equip].slot === 'ammo') && (bestAmmoSaved['2h'] = equip);
@@ -4232,7 +4262,7 @@ var calcBIS = function() {
                                 }
                             });
                             let article = vowels.includes(equip.toLowerCase().charAt(0)) ? ' an ' : ' a ';
-                            article = equip.toLowerCase().charAt(equip.toLowerCase().length - 1) === 's' ? ' ' : article;
+                            article = (equip.toLowerCase().charAt(equip.toLowerCase().length - 1) === 's' || (equip.toLowerCase().charAt(equip.toLowerCase().length - 1) === ')' && equip.toLowerCase().split('(')[0].trim().charAt(equip.toLowerCase().split('(')[0].trim().length - 1) === 's')) ? ' ' : article;
                             if (tempTempValid && (!backlog['BiS'] || !backlog['BiS'].hasOwnProperty('Obtain' + article + '~|' + equip.toLowerCase() + '|~'))) {
                                 if (!bestEquipmentAlts[chunkInfo['equipment'][equip].slot]) {
                                     bestEquipmentAlts[chunkInfo['equipment'][equip].slot] = {};
@@ -4251,7 +4281,7 @@ var calcBIS = function() {
                                 }
                             });
                             let article = vowels.includes(equip.toLowerCase().charAt(0)) ? ' an ' : ' a ';
-                            article = equip.toLowerCase().charAt(equip.toLowerCase().length - 1) === 's' ? ' ' : article;
+                            article = (equip.toLowerCase().charAt(equip.toLowerCase().length - 1) === 's' || (equip.toLowerCase().charAt(equip.toLowerCase().length - 1) === ')' && equip.toLowerCase().split('(')[0].trim().charAt(equip.toLowerCase().split('(')[0].trim().length - 1) === 's')) ? ' ' : article;
                             tempTempValid && (!backlog['BiS'] || !backlog['BiS'].hasOwnProperty('Obtain' + article + '~|' + equip.toLowerCase() + '|~')) && (bestEquipment[chunkInfo['equipment'][equip].slot] = equip);
                         } else if ((chunkInfo['equipment'][equip].armour === chunkInfo['equipment'][bestEquipment[chunkInfo['equipment'][equip].slot]].armour) &&
                         (chunkInfo['equipment'][equip].lp > chunkInfo['equipment'][bestEquipment[chunkInfo['equipment'][equip].slot]].lp)) {
@@ -4262,7 +4292,7 @@ var calcBIS = function() {
                                 }
                             });
                             let article = vowels.includes(equip.toLowerCase().charAt(0)) ? ' an ' : ' a ';
-                            article = equip.toLowerCase().charAt(equip.toLowerCase().length - 1) === 's' ? ' ' : article;
+                            article = (equip.toLowerCase().charAt(equip.toLowerCase().length - 1) === 's' || (equip.toLowerCase().charAt(equip.toLowerCase().length - 1) === ')' && equip.toLowerCase().split('(')[0].trim().charAt(equip.toLowerCase().split('(')[0].trim().length - 1) === 's')) ? ' ' : article;
                             tempTempValid && (!backlog['BiS'] || !backlog['BiS'].hasOwnProperty('Obtain' + article + '~|' + equip.toLowerCase() + '|~')) && (bestEquipment[chunkInfo['equipment'][equip].slot] = equip);
                         } else if ((chunkInfo['equipment'][equip].armour === chunkInfo['equipment'][bestEquipment[chunkInfo['equipment'][equip].slot]].armour) &&
                         (chunkInfo['equipment'][equip].lp === chunkInfo['equipment'][bestEquipment[chunkInfo['equipment'][equip].slot]].lp)) {
@@ -4273,7 +4303,7 @@ var calcBIS = function() {
                                 }
                             });
                             let article = vowels.includes(equip.toLowerCase().charAt(0)) ? ' an ' : ' a ';
-                            article = equip.toLowerCase().charAt(equip.toLowerCase().length - 1) === 's' ? ' ' : article;
+                            article = (equip.toLowerCase().charAt(equip.toLowerCase().length - 1) === 's' || (equip.toLowerCase().charAt(equip.toLowerCase().length - 1) === ')' && equip.toLowerCase().split('(')[0].trim().charAt(equip.toLowerCase().split('(')[0].trim().length - 1) === 's')) ? ' ' : article;
                             if (tempTempValid && (!backlog['BiS'] || !backlog['BiS'].hasOwnProperty('Obtain' + article + '~|' + equip.toLowerCase() + '|~'))) {
                                 if (!bestEquipmentAlts[chunkInfo['equipment'][equip].slot]) {
                                     bestEquipmentAlts[chunkInfo['equipment'][equip].slot] = {};
@@ -4292,7 +4322,7 @@ var calcBIS = function() {
                                 }
                             });
                             let article = vowels.includes(equip.toLowerCase().charAt(0)) ? ' an ' : ' a ';
-                            article = equip.toLowerCase().charAt(equip.toLowerCase().length - 1) === 's' ? ' ' : article;
+                            article = (equip.toLowerCase().charAt(equip.toLowerCase().length - 1) === 's' || (equip.toLowerCase().charAt(equip.toLowerCase().length - 1) === ')' && equip.toLowerCase().split('(')[0].trim().charAt(equip.toLowerCase().split('(')[0].trim().length - 1) === 's')) ? ' ' : article;
                             tempTempValid && (!backlog['BiS'] || !backlog['BiS'].hasOwnProperty('Obtain' + article + '~|' + equip.toLowerCase() + '|~')) && (bestEquipment[chunkInfo['equipment'][equip].slot] = equip);
                         } else if ((chunkInfo['equipment'][equip].armour === chunkInfo['equipment'][bestEquipment[chunkInfo['equipment'][equip].slot]].armour) &&
                         (chunkInfo['equipment'][equip].lp > chunkInfo['equipment'][bestEquipment[chunkInfo['equipment'][equip].slot]].lp)) {
@@ -4303,7 +4333,7 @@ var calcBIS = function() {
                                 }
                             });
                             let article = vowels.includes(equip.toLowerCase().charAt(0)) ? ' an ' : ' a ';
-                            article = equip.toLowerCase().charAt(equip.toLowerCase().length - 1) === 's' ? ' ' : article;
+                            article = (equip.toLowerCase().charAt(equip.toLowerCase().length - 1) === 's' || (equip.toLowerCase().charAt(equip.toLowerCase().length - 1) === ')' && equip.toLowerCase().split('(')[0].trim().charAt(equip.toLowerCase().split('(')[0].trim().length - 1) === 's')) ? ' ' : article;
                             tempTempValid && (!backlog['BiS'] || !backlog['BiS'].hasOwnProperty('Obtain' + article + '~|' + equip.toLowerCase() + '|~')) && (bestEquipment[chunkInfo['equipment'][equip].slot] = equip);
                         } else if ((chunkInfo['equipment'][equip].armour === chunkInfo['equipment'][bestEquipment[chunkInfo['equipment'][equip].slot]].armour) &&
                         (chunkInfo['equipment'][equip].lp === chunkInfo['equipment'][bestEquipment[chunkInfo['equipment'][equip].slot]].lp)) {
@@ -4314,7 +4344,7 @@ var calcBIS = function() {
                                 }
                             });
                             let article = vowels.includes(equip.toLowerCase().charAt(0)) ? ' an ' : ' a ';
-                            article = equip.toLowerCase().charAt(equip.toLowerCase().length - 1) === 's' ? ' ' : article;
+                            article = (equip.toLowerCase().charAt(equip.toLowerCase().length - 1) === 's' || (equip.toLowerCase().charAt(equip.toLowerCase().length - 1) === ')' && equip.toLowerCase().split('(')[0].trim().charAt(equip.toLowerCase().split('(')[0].trim().length - 1) === 's')) ? ' ' : article;
                             if (tempTempValid && (!backlog['BiS'] || !backlog['BiS'].hasOwnProperty('Obtain' + article + '~|' + equip.toLowerCase() + '|~'))) {
                                 if (!bestEquipmentAlts[chunkInfo['equipment'][equip].slot]) {
                                     bestEquipmentAlts[chunkInfo['equipment'][equip].slot] = {};
@@ -4333,7 +4363,7 @@ var calcBIS = function() {
                                 }
                             });
                             let article = vowels.includes(equip.toLowerCase().charAt(0)) ? ' an ' : ' a ';
-                            article = equip.toLowerCase().charAt(equip.toLowerCase().length - 1) === 's' ? ' ' : article;
+                            article = (equip.toLowerCase().charAt(equip.toLowerCase().length - 1) === 's' || (equip.toLowerCase().charAt(equip.toLowerCase().length - 1) === ')' && equip.toLowerCase().split('(')[0].trim().charAt(equip.toLowerCase().split('(')[0].trim().length - 1) === 's')) ? ' ' : article;
                             tempTempValid && (!backlog['BiS'] || !backlog['BiS'].hasOwnProperty('Obtain' + article + '~|' + equip.toLowerCase() + '|~')) && (bestEquipment[chunkInfo['equipment'][equip].slot] = equip);
                         } else if ((chunkInfo['equipment'][equip].armour === chunkInfo['equipment'][bestEquipment[chunkInfo['equipment'][equip].slot]].armour) &&
                         (chunkInfo['equipment'][equip].lp > chunkInfo['equipment'][bestEquipment[chunkInfo['equipment'][equip].slot]].lp)) {
@@ -4344,7 +4374,7 @@ var calcBIS = function() {
                                 }
                             });
                             let article = vowels.includes(equip.toLowerCase().charAt(0)) ? ' an ' : ' a ';
-                            article = equip.toLowerCase().charAt(equip.toLowerCase().length - 1) === 's' ? ' ' : article;
+                            article = (equip.toLowerCase().charAt(equip.toLowerCase().length - 1) === 's' || (equip.toLowerCase().charAt(equip.toLowerCase().length - 1) === ')' && equip.toLowerCase().split('(')[0].trim().charAt(equip.toLowerCase().split('(')[0].trim().length - 1) === 's')) ? ' ' : article;
                             tempTempValid && (!backlog['BiS'] || !backlog['BiS'].hasOwnProperty('Obtain' + article + '~|' + equip.toLowerCase() + '|~')) && (bestEquipment[chunkInfo['equipment'][equip].slot] = equip);
                         } else if ((chunkInfo['equipment'][equip].armour === chunkInfo['equipment'][bestEquipment[chunkInfo['equipment'][equip].slot]].armour) &&
                         (chunkInfo['equipment'][equip].lp === chunkInfo['equipment'][bestEquipment[chunkInfo['equipment'][equip].slot]].lp)) {
@@ -4355,7 +4385,7 @@ var calcBIS = function() {
                                 }
                             });
                             let article = vowels.includes(equip.toLowerCase().charAt(0)) ? ' an ' : ' a ';
-                            article = equip.toLowerCase().charAt(equip.toLowerCase().length - 1) === 's' ? ' ' : article;
+                            article = (equip.toLowerCase().charAt(equip.toLowerCase().length - 1) === 's' || (equip.toLowerCase().charAt(equip.toLowerCase().length - 1) === ')' && equip.toLowerCase().split('(')[0].trim().charAt(equip.toLowerCase().split('(')[0].trim().length - 1) === 's')) ? ' ' : article;
                             if (tempTempValid && (!backlog['BiS'] || !backlog['BiS'].hasOwnProperty('Obtain' + article + '~|' + equip.toLowerCase() + '|~'))) {
                                 if (!bestEquipmentAlts[chunkInfo['equipment'][equip].slot]) {
                                     bestEquipmentAlts[chunkInfo['equipment'][equip].slot] = {};
@@ -4374,7 +4404,7 @@ var calcBIS = function() {
                                 }
                             });
                             let article = vowels.includes(equip.toLowerCase().charAt(0)) ? ' an ' : ' a ';
-                            article = equip.toLowerCase().charAt(equip.toLowerCase().length - 1) === 's' ? ' ' : article;
+                            article = (equip.toLowerCase().charAt(equip.toLowerCase().length - 1) === 's' || (equip.toLowerCase().charAt(equip.toLowerCase().length - 1) === ')' && equip.toLowerCase().split('(')[0].trim().charAt(equip.toLowerCase().split('(')[0].trim().length - 1) === 's')) ? ' ' : article;
                             tempTempValid && (!backlog['BiS'] || !backlog['BiS'].hasOwnProperty('Obtain' + article + '~|' + equip.toLowerCase() + '|~')) && (bestEquipment[chunkInfo['equipment'][equip].slot] = equip);
                         } else if (!bestEquipment[chunkInfo['equipment'][equip].slot] || (chunkInfo['equipment'][equip].weight === chunkInfo['equipment'][bestEquipment[chunkInfo['equipment'][equip].slot]].weight)) {
                             let tempTempValid = false;
@@ -4384,7 +4414,7 @@ var calcBIS = function() {
                                 }
                             });
                             let article = vowels.includes(equip.toLowerCase().charAt(0)) ? ' an ' : ' a ';
-                            article = equip.toLowerCase().charAt(equip.toLowerCase().length - 1) === 's' ? ' ' : article;
+                            article = (equip.toLowerCase().charAt(equip.toLowerCase().length - 1) === 's' || (equip.toLowerCase().charAt(equip.toLowerCase().length - 1) === ')' && equip.toLowerCase().split('(')[0].trim().charAt(equip.toLowerCase().split('(')[0].trim().length - 1) === 's')) ? ' ' : article;
                             if (tempTempValid && (!backlog['BiS'] || !backlog['BiS'].hasOwnProperty('Obtain' + article + '~|' + equip.toLowerCase() + '|~'))) {
                                 if (!bestEquipmentAlts[chunkInfo['equipment'][equip].slot]) {
                                     bestEquipmentAlts[chunkInfo['equipment'][equip].slot] = {};
@@ -4632,7 +4662,7 @@ var calcBIS = function() {
                     Object.keys(baseChunkData['items'][item]).forEach(source => {
                         if (!baseChunkData['items'][item][source].includes('-') || !processingSkill[baseChunkData['items'][item][source].split('-')[1]] || rules['Wield Crafted Items'] || baseChunkData['items'][item][source].split('-')[1] === 'Slayer') {
                             let article = vowels.includes(item.toLowerCase().charAt(0)) ? ' an ' : ' a ';
-                            article = item.toLowerCase().charAt(item.toLowerCase().length - 1) === 's' ? ' ' : article;
+                            article = (item.toLowerCase().charAt(item.toLowerCase().length - 1) === 's' || (item.toLowerCase().charAt(item.toLowerCase().length - 1) === ')' && item.toLowerCase().split('(')[0].trim().charAt(item.toLowerCase().split('(')[0].trim().length - 1) === 's')) ? ' ' : article;
                             (!backlog['BiS'] || !backlog['BiS'].hasOwnProperty('Obtain' + article + '~|' + item.toLowerCase() + '|~')) && (tempTempValid = true);
                         }
                     });
@@ -4675,7 +4705,7 @@ var calcBIS = function() {
                     Object.keys(baseChunkData['items'][item]).forEach(source => {
                         if (!baseChunkData['items'][item][source].includes('-') || !processingSkill[baseChunkData['items'][item][source].split('-')[1]] || rules['Wield Crafted Items'] || baseChunkData['items'][item][source].split('-')[1] === 'Slayer') {
                             let article = vowels.includes(item.toLowerCase().charAt(0)) ? ' an ' : ' a ';
-                            article = item.toLowerCase().charAt(item.toLowerCase().length - 1) === 's' ? ' ' : article;
+                            article = (item.toLowerCase().charAt(item.toLowerCase().length - 1) === 's' || (item.toLowerCase().charAt(item.toLowerCase().length - 1) === ')' && item.toLowerCase().split('(')[0].trim().charAt(item.toLowerCase().split('(')[0].trim().length - 1) === 's')) ? ' ' : article;
                             (!backlog['BiS'] || !backlog['BiS'].hasOwnProperty('Obtain' + article + '~|' + item.toLowerCase() + '|~')) && (tempTempValid = true);
                         }
                     });
@@ -4724,7 +4754,7 @@ var calcBIS = function() {
                     Object.keys(baseChunkData['items'][item]).forEach(source => {
                         if (!baseChunkData['items'][item][source].includes('-') || !processingSkill[baseChunkData['items'][item][source].split('-')[1]] || rules['Wield Crafted Items'] || baseChunkData['items'][item][source].split('-')[1] === 'Slayer') {
                             let article = vowels.includes(item.toLowerCase().charAt(0)) ? ' an ' : ' a ';
-                            article = item.toLowerCase().charAt(item.toLowerCase().length - 1) === 's' ? ' ' : article;
+                            article = (item.toLowerCase().charAt(item.toLowerCase().length - 1) === 's' || (item.toLowerCase().charAt(item.toLowerCase().length - 1) === ')' && item.toLowerCase().split('(')[0].trim().charAt(item.toLowerCase().split('(')[0].trim().length - 1) === 's')) ? ' ' : article;
                             (!backlog['BiS'] || !backlog['BiS'].hasOwnProperty('Obtain' + article + '~|' + item.toLowerCase() + '|~')) && (tempTempValid = true);
                         }
                     });
@@ -4767,7 +4797,7 @@ var calcBIS = function() {
                     Object.keys(baseChunkData['items'][item]).forEach(source => {
                         if (!baseChunkData['items'][item][source].includes('-') || !processingSkill[baseChunkData['items'][item][source].split('-')[1]] || rules['Wield Crafted Items'] || baseChunkData['items'][item][source].split('-')[1] === 'Slayer') {
                             let article = vowels.includes(item.toLowerCase().charAt(0)) ? ' an ' : ' a ';
-                            article = item.toLowerCase().charAt(item.toLowerCase().length - 1) === 's' ? ' ' : article;
+                            article = (item.toLowerCase().charAt(item.toLowerCase().length - 1) === 's' || (item.toLowerCase().charAt(item.toLowerCase().length - 1) === ')' && item.toLowerCase().split('(')[0].trim().charAt(item.toLowerCase().split('(')[0].trim().length - 1) === 's')) ? ' ' : article;
                             (!backlog['BiS'] || !backlog['BiS'].hasOwnProperty('Obtain' + article + '~|' + item.toLowerCase() + '|~')) && (tempTempValid = true);
                         }
                     });
@@ -4816,7 +4846,7 @@ var calcBIS = function() {
                     Object.keys(baseChunkData['items'][item]).forEach(source => {
                         if (!baseChunkData['items'][item][source].includes('-') || !processingSkill[baseChunkData['items'][item][source].split('-')[1]] || rules['Wield Crafted Items'] || baseChunkData['items'][item][source].split('-')[1] === 'Slayer') {
                             let article = vowels.includes(item.toLowerCase().charAt(0)) ? ' an ' : ' a ';
-                            article = item.toLowerCase().charAt(item.toLowerCase().length - 1) === 's' ? ' ' : article;
+                            article = (item.toLowerCase().charAt(item.toLowerCase().length - 1) === 's' || (item.toLowerCase().charAt(item.toLowerCase().length - 1) === ')' && item.toLowerCase().split('(')[0].trim().charAt(item.toLowerCase().split('(')[0].trim().length - 1) === 's')) ? ' ' : article;
                             (!backlog['BiS'] || !backlog['BiS'].hasOwnProperty('Obtain' + article + '~|' + item.toLowerCase() + '|~')) && (tempTempValid = true);
                         }
                     });
@@ -4859,7 +4889,7 @@ var calcBIS = function() {
                     Object.keys(baseChunkData['items'][item]).forEach(source => {
                         if (!baseChunkData['items'][item][source].includes('-') || !processingSkill[baseChunkData['items'][item][source].split('-')[1]] || rules['Wield Crafted Items'] || baseChunkData['items'][item][source].split('-')[1] === 'Slayer') {
                             let article = vowels.includes(item.toLowerCase().charAt(0)) ? ' an ' : ' a ';
-                            article = item.toLowerCase().charAt(item.toLowerCase().length - 1) === 's' ? ' ' : article;
+                            article = (item.toLowerCase().charAt(item.toLowerCase().length - 1) === 's' || (item.toLowerCase().charAt(item.toLowerCase().length - 1) === ')' && item.toLowerCase().split('(')[0].trim().charAt(item.toLowerCase().split('(')[0].trim().length - 1) === 's')) ? ' ' : article;
                             (!backlog['BiS'] || !backlog['BiS'].hasOwnProperty('Obtain' + article + '~|' + item.toLowerCase() + '|~')) && (tempTempValid = true);
                         }
                     });
@@ -4908,7 +4938,7 @@ var calcBIS = function() {
                     Object.keys(baseChunkData['items'][item]).forEach(source => {
                         if (!baseChunkData['items'][item][source].includes('-') || !processingSkill[baseChunkData['items'][item][source].split('-')[1]] || rules['Wield Crafted Items'] || baseChunkData['items'][item][source].split('-')[1] === 'Slayer') {
                             let article = vowels.includes(item.toLowerCase().charAt(0)) ? ' an ' : ' a ';
-                            article = item.toLowerCase().charAt(item.toLowerCase().length - 1) === 's' ? ' ' : article;
+                            article = (item.toLowerCase().charAt(item.toLowerCase().length - 1) === 's' || (item.toLowerCase().charAt(item.toLowerCase().length - 1) === ')' && item.toLowerCase().split('(')[0].trim().charAt(item.toLowerCase().split('(')[0].trim().length - 1) === 's')) ? ' ' : article;
                             (!backlog['BiS'] || !backlog['BiS'].hasOwnProperty('Obtain' + article + '~|' + item.toLowerCase() + '|~')) && (tempTempValid = true);
                         }
                     });
@@ -4951,7 +4981,7 @@ var calcBIS = function() {
                     Object.keys(baseChunkData['items'][item]).forEach(source => {
                         if (!baseChunkData['items'][item][source].includes('-') || !processingSkill[baseChunkData['items'][item][source].split('-')[1]] || rules['Wield Crafted Items'] || baseChunkData['items'][item][source].split('-')[1] === 'Slayer') {
                             let article = vowels.includes(item.toLowerCase().charAt(0)) ? ' an ' : ' a ';
-                            article = item.toLowerCase().charAt(item.toLowerCase().length - 1) === 's' ? ' ' : article;
+                            article = (item.toLowerCase().charAt(item.toLowerCase().length - 1) === 's' || (item.toLowerCase().charAt(item.toLowerCase().length - 1) === ')' && item.toLowerCase().split('(')[0].trim().charAt(item.toLowerCase().split('(')[0].trim().length - 1) === 's')) ? ' ' : article;
                             (!backlog['BiS'] || !backlog['BiS'].hasOwnProperty('Obtain' + article + '~|' + item.toLowerCase() + '|~')) && (tempTempValid = true);
                         }
                     });
@@ -5000,7 +5030,7 @@ var calcBIS = function() {
                     Object.keys(baseChunkData['items'][item]).forEach(source => {
                         if (!baseChunkData['items'][item][source].includes('-') || !processingSkill[baseChunkData['items'][item][source].split('-')[1]] || rules['Wield Crafted Items'] || baseChunkData['items'][item][source].split('-')[1] === 'Slayer') {
                             let article = vowels.includes(item.toLowerCase().charAt(0)) ? ' an ' : ' a ';
-                            article = item.toLowerCase().charAt(item.toLowerCase().length - 1) === 's' ? ' ' : article;
+                            article = (item.toLowerCase().charAt(item.toLowerCase().length - 1) === 's' || (item.toLowerCase().charAt(item.toLowerCase().length - 1) === ')' && item.toLowerCase().split('(')[0].trim().charAt(item.toLowerCase().split('(')[0].trim().length - 1) === 's')) ? ' ' : article;
                             (!backlog['BiS'] || !backlog['BiS'].hasOwnProperty('Obtain' + article + '~|' + item.toLowerCase() + '|~')) && (tempTempValid = true);
                         }
                     });
@@ -5043,7 +5073,7 @@ var calcBIS = function() {
                     Object.keys(baseChunkData['items'][item]).forEach(source => {
                         if (!baseChunkData['items'][item][source].includes('-') || !processingSkill[baseChunkData['items'][item][source].split('-')[1]] || rules['Wield Crafted Items'] || baseChunkData['items'][item][source].split('-')[1] === 'Slayer') {
                             let article = vowels.includes(item.toLowerCase().charAt(0)) ? ' an ' : ' a ';
-                            article = item.toLowerCase().charAt(item.toLowerCase().length - 1) === 's' ? ' ' : article;
+                            article = (item.toLowerCase().charAt(item.toLowerCase().length - 1) === 's' || (item.toLowerCase().charAt(item.toLowerCase().length - 1) === ')' && item.toLowerCase().split('(')[0].trim().charAt(item.toLowerCase().split('(')[0].trim().length - 1) === 's')) ? ' ' : article;
                             (!backlog['BiS'] || !backlog['BiS'].hasOwnProperty('Obtain' + article + '~|' + item.toLowerCase() + '|~')) && (tempTempValid = true);
                         }
                     });
@@ -5092,7 +5122,7 @@ var calcBIS = function() {
                     Object.keys(baseChunkData['items'][item]).forEach(source => {
                         if (!baseChunkData['items'][item][source].includes('-') || !processingSkill[baseChunkData['items'][item][source].split('-')[1]] || rules['Wield Crafted Items'] || baseChunkData['items'][item][source].split('-')[1] === 'Slayer') {
                             let article = vowels.includes(item.toLowerCase().charAt(0)) ? ' an ' : ' a ';
-                            article = item.toLowerCase().charAt(item.toLowerCase().length - 1) === 's' ? ' ' : article;
+                            article = (item.toLowerCase().charAt(item.toLowerCase().length - 1) === 's' || (item.toLowerCase().charAt(item.toLowerCase().length - 1) === ')' && item.toLowerCase().split('(')[0].trim().charAt(item.toLowerCase().split('(')[0].trim().length - 1) === 's')) ? ' ' : article;
                             (!backlog['BiS'] || !backlog['BiS'].hasOwnProperty('Obtain' + article + '~|' + item.toLowerCase() + '|~')) && (tempTempValid = true);
                         }
                     });
@@ -5135,7 +5165,7 @@ var calcBIS = function() {
                     Object.keys(baseChunkData['items'][item]).forEach(source => {
                         if (!baseChunkData['items'][item][source].includes('-') || !processingSkill[baseChunkData['items'][item][source].split('-')[1]] || rules['Wield Crafted Items'] || baseChunkData['items'][item][source].split('-')[1] === 'Slayer') {
                             let article = vowels.includes(item.toLowerCase().charAt(0)) ? ' an ' : ' a ';
-                            article = item.toLowerCase().charAt(item.toLowerCase().length - 1) === 's' ? ' ' : article;
+                            article = (item.toLowerCase().charAt(item.toLowerCase().length - 1) === 's' || (item.toLowerCase().charAt(item.toLowerCase().length - 1) === ')' && item.toLowerCase().split('(')[0].trim().charAt(item.toLowerCase().split('(')[0].trim().length - 1) === 's')) ? ' ' : article;
                             (!backlog['BiS'] || !backlog['BiS'].hasOwnProperty('Obtain' + article + '~|' + item.toLowerCase() + '|~')) && (tempTempValid = true);
                         }
                     });
@@ -5182,7 +5212,7 @@ var calcBIS = function() {
                 highestOverall[skill.replaceAll(' ', '_') + '-' + slot] = bestEquipment[slot];
             }
             let article = vowels.includes(bestEquipment[slot].toLowerCase().charAt(0)) ? ' an ' : ' a ';
-            article = bestEquipment[slot].toLowerCase().charAt(bestEquipment[slot].toLowerCase().length - 1) === 's' ? ' ' : article;
+            article = (bestEquipment[slot].toLowerCase().charAt(bestEquipment[slot].toLowerCase().length - 1) === 's' || (bestEquipment[slot].toLowerCase().charAt(bestEquipment[slot].toLowerCase().length - 1) === ')' && bestEquipment[slot].toLowerCase().split('(')[0].trim().charAt(bestEquipment[slot].toLowerCase().split('(')[0].trim().length - 1) === 's')) ? ' ' : article;
             if (!!globalValids['BiS']['Obtain' + article + '~|' + bestEquipment[slot].toLowerCase() + '|~']) {
                 globalValids['BiS']['Obtain' + article + '~|' + bestEquipment[slot].toLowerCase() + '|~'] = skill + '/​' + globalValids['BiS']['Obtain' + article + '~|' + bestEquipment[slot].toLowerCase() + '|~'];
             } else {
@@ -5225,7 +5255,7 @@ var calcBIS = function() {
                 }
                 if (bestEquipmentAlts[slot][item] === bestEquipment[slot]) {
                     let article = vowels.includes(item.toLowerCase().charAt(0)) ? ' an ' : ' a ';
-                    article = item.toLowerCase().charAt(item.toLowerCase().length - 1) === 's' ? ' ' : article;
+                    article = (item.toLowerCase().charAt(item.toLowerCase().length - 1) === 's' || (item.toLowerCase().charAt(item.toLowerCase().length - 1) === ')' && item.toLowerCase().split('(')[0].trim().charAt(item.toLowerCase().split('(')[0].trim().length - 1) === 's')) ? ' ' : article;
                     if (type === 'current') {
                         if (!!globalValids['BiS']['Obtain' + article + '~|' + item.toLowerCase() + '|~']) {
                             globalValids['BiS']['Obtain' + article + '~|' + item.toLowerCase() + '|~'] = skill + '/​' + globalValids['BiS']['Obtain' + article + '~|' + item.toLowerCase() + '|~'];
