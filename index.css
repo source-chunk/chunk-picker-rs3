@@ -5575,18 +5575,31 @@ input#searchMonsters {
     text-align: center;
 }
 
+.step-table-header.diary-size {
+    width: 25%;
+    padding-right: 5px;
+}
+
 .description-table-header {
     padding-left: 10px;
     font-size: 18px;
     font-weight: bold;
-    width: 75%;
+    width: 88%;
     border-left: solid 1px var(--color8);
+}
+
+.description-table-header.diary-size {
+    width: 75%;
 }
 
 .step-step {
     font-size: 20px;
-    width: 25%;
+    width: 12%;
     text-align: center;
+}
+
+.step-step.diary-size {
+    width: 25%;
     padding-right: 5px;
 }
 
@@ -5595,6 +5608,10 @@ input#searchMonsters {
     font-size: 20px;
     width: 88%;
     border-left: solid 1px var(--color8);
+}
+
+.step-description.diary-size {
+    width: 75%;
 }
 
 .quest-steps-data hr {
