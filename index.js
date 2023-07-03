@@ -2604,7 +2604,7 @@ var calcCurrentChallengesCanvas = function(useOld, proceed) {
         setCalculating('.panel-active', useOld);
         setCurrentChallenges(['No tasks currently backlogged.'], ['No tasks currently completed.'], true, true);
         myWorker.terminate();
-        myWorker = new Worker("./worker.js?v=5.4.21.15");
+        myWorker = new Worker("./worker.js?v=5.4.22");
         myWorker.onmessage = workerOnMessage;
         myWorker.postMessage(['current', tempChunks['unlocked'], rules, chunkInfo, skillNames, processingSkill, maybePrimary, combatSkills, monstersPlus, objectsPlus, chunksPlus, itemsPlus, mixPlus, npcsPlus, tasksPlus, tools, elementalRunes, manualTasks, completedChallenges, backlog, "1/" + rules['Rare Drop Amount'], universalPrimary, elementalStaves, rangedItems, boneItems, highestCurrent, dropTables, possibleAreas, randomLoot, magicTools, bossLogs, bossMonsters, minigameShops, manualEquipment, checkedChallenges, backloggedSources, altChallenges, manualMonsters, slayerLocked, passiveSkill, f2pSkills, assignedXpRewards, mid === diary2Tier, manualAreas, "1/" + rules['Secondary Primary Amount'], mid === manualAreasOnly]);
         workerOut = 1;
@@ -2848,8 +2848,8 @@ $(document).ready(function() {
 // ------------------------------------------------------------
 
 // Recieve message from worker
-let myWorker = new Worker("./worker.js?v=5.4.21.15");
-let myWorker2 = new Worker("./worker.js?v=5.4.21.15");
+let myWorker = new Worker("./worker.js?v=5.4.22");
+let myWorker2 = new Worker("./worker.js?v=5.4.22");
 let workerOnMessage = function(e) {
     if (e.data[0] === 'error') {
         $('.panel-active > .calculating > .inner-loading-bar').css('background-color', 'red');
@@ -4535,7 +4535,9 @@ var toggleHiddenTasks = function(value) {
         }
     });
     if ((value && $(`.panel-active .challenge:not(.hide-backlog)`).length <= 0) || $(`.panel-active .challenge`).length <= 0) {
-        $('.panel-active').append(`<span class="no-current">No current chunk tasks.</span>`);
+        if (!checkFalseRules()) {
+            $('.panel-active').append(`<span class="no-current">No current chunk tasks.</span>`);
+        }
     }
 }
 
@@ -5173,7 +5175,7 @@ var calcFutureChallenges = function() {
         i++;
     }
     myWorker2.terminate();
-    myWorker2 = new Worker("./worker.js?v=5.4.21.15");
+    myWorker2 = new Worker("./worker.js?v=5.4.22");
     myWorker2.onmessage = workerOnMessage;
     myWorker2.postMessage(['future', chunks, rules, chunkInfo, skillNames, processingSkill, maybePrimary, combatSkills, monstersPlus, objectsPlus, chunksPlus, itemsPlus, mixPlus, npcsPlus, tasksPlus, tools, elementalRunes, manualTasks, completedChallenges, backlog, "1/" + rules['Rare Drop Amount'], universalPrimary, elementalStaves, rangedItems, boneItems, highestCurrent, dropTables, possibleAreas, randomLoot, magicTools, bossLogs, bossMonsters, minigameShops, manualEquipment, checkedChallenges, backloggedSources, altChallenges, manualMonsters, slayerLocked, passiveSkill, f2pSkills, assignedXpRewards, mid === diary2Tier, manualAreas, "1/" + rules['Secondary Primary Amount'], mid === manualAreasOnly]);
     workerOut++;
@@ -7929,7 +7931,11 @@ var backlogChallenge = function(challenge, skill, note, noUpdate) {
         $('.marker-extra').remove();
     }
     if ($('.panel-active .challenge').length === 0) {
-        $('.panel-active').append(`<span class="no-current">No current chunk tasks.</span>`);
+        if (checkFalseRules()) {
+            $('.panel-active').append('Please select your Chunk Rules.');
+        } else {
+            $('.panel-active').append(`<span class="no-current">No current chunk tasks.</span>`);
+        }
     }
     if (!noUpdate) {
         calcCurrentChallengesCanvas(true);
