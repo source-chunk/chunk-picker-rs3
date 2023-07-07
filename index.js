@@ -2604,7 +2604,7 @@ var calcCurrentChallengesCanvas = function(useOld, proceed) {
         setCalculating('.panel-active', useOld);
         setCurrentChallenges(['No tasks currently backlogged.'], ['No tasks currently completed.'], true, true);
         myWorker.terminate();
-        myWorker = new Worker("./worker.js?v=5.4.22");
+        myWorker = new Worker("./worker.js?v=5.4.23");
         myWorker.onmessage = workerOnMessage;
         myWorker.postMessage(['current', tempChunks['unlocked'], rules, chunkInfo, skillNames, processingSkill, maybePrimary, combatSkills, monstersPlus, objectsPlus, chunksPlus, itemsPlus, mixPlus, npcsPlus, tasksPlus, tools, elementalRunes, manualTasks, completedChallenges, backlog, "1/" + rules['Rare Drop Amount'], universalPrimary, elementalStaves, rangedItems, boneItems, highestCurrent, dropTables, possibleAreas, randomLoot, magicTools, bossLogs, bossMonsters, minigameShops, manualEquipment, checkedChallenges, backloggedSources, altChallenges, manualMonsters, slayerLocked, passiveSkill, f2pSkills, assignedXpRewards, mid === diary2Tier, manualAreas, "1/" + rules['Secondary Primary Amount'], mid === manualAreasOnly]);
         workerOut = 1;
@@ -2848,8 +2848,8 @@ $(document).ready(function() {
 // ------------------------------------------------------------
 
 // Recieve message from worker
-let myWorker = new Worker("./worker.js?v=5.4.22");
-let myWorker2 = new Worker("./worker.js?v=5.4.22");
+let myWorker = new Worker("./worker.js?v=5.4.23");
+let myWorker2 = new Worker("./worker.js?v=5.4.23");
 let workerOnMessage = function(e) {
     if (e.data[0] === 'error') {
         $('.panel-active > .calculating > .inner-loading-bar').css('background-color', 'red');
@@ -2857,14 +2857,7 @@ let workerOnMessage = function(e) {
         $('.loading-bar-text').css('color', 'yellow').text('Error');
         $('.panel-active > .calculating').css('color', 'red');
         $('.panel-active > .calculating > i').removeClass('fa-spin');
-        if (!(location.hostname === "localhost" || location.hostname === "127.0.0.1")) {
-            let errObject = {
-                date: Date(),
-                map: mid,
-                error: e.data[1].stack
-            };
-            databaseRef.child('errorlogs').push(errObject);
-        }
+        logError(e.data[1].stack);
         throw e.data[1];
     } else if (!Array.isArray(e.data)) {
         if (!!tempChunks['unlocked'] && Object.keys(tempChunks['unlocked']).length >= 100) {
@@ -2987,6 +2980,17 @@ let workerOnMessage = function(e) {
                 chunkJustRolled = false;
             }
         }
+    }
+}
+
+var logError = function(err) {
+    if (!(location.hostname === "localhost" || location.hostname === "127.0.0.1")) {
+        let errObject = {
+            date: Date(),
+            map: mid || null,
+            error: err
+        };
+        databaseRef.child('errorlogs').push(errObject);
     }
 }
 
@@ -5175,7 +5179,7 @@ var calcFutureChallenges = function() {
         i++;
     }
     myWorker2.terminate();
-    myWorker2 = new Worker("./worker.js?v=5.4.22");
+    myWorker2 = new Worker("./worker.js?v=5.4.23");
     myWorker2.onmessage = workerOnMessage;
     myWorker2.postMessage(['future', chunks, rules, chunkInfo, skillNames, processingSkill, maybePrimary, combatSkills, monstersPlus, objectsPlus, chunksPlus, itemsPlus, mixPlus, npcsPlus, tasksPlus, tools, elementalRunes, manualTasks, completedChallenges, backlog, "1/" + rules['Rare Drop Amount'], universalPrimary, elementalStaves, rangedItems, boneItems, highestCurrent, dropTables, possibleAreas, randomLoot, magicTools, bossLogs, bossMonsters, minigameShops, manualEquipment, checkedChallenges, backloggedSources, altChallenges, manualMonsters, slayerLocked, passiveSkill, f2pSkills, assignedXpRewards, mid === diary2Tier, manualAreas, "1/" + rules['Secondary Primary Amount'], mid === manualAreasOnly]);
     workerOut++;
@@ -5406,6 +5410,33 @@ var printTaskLevels = function() {
         });
     });
     console.log(taskLevels);
+}
+
+// Prints all untaken mapId's (debug)
+var printUntakenMids = function() {
+    console.log('Calculating untaken mids:');
+    let char1, char2, char3, char4, charSet;
+    let untakenMids = [];
+    let letters = ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z'];
+    databaseRef.child('mapids').once('value', function(snap) {
+        for (let i = 0; i < 26; i++) {
+            for (let j = 0; j < 26; j++) {
+                for (let k = 0; k < 26; k++) {
+                    for (let m = -1; m < 0; m++) { // optional 4th character
+                        char1 = letters[i];
+                        char2 = letters[j];
+                        char3 = letters[k];
+                        char4 = m >= 0 ? letters[m] : '';
+                        charSet = char1 + char2 + char3 + char4;
+                        if (!snap.val()[charSet]) {
+                            untakenMids.push(charSet);
+                        }
+                    }
+                }
+            }
+        }
+        console.log(JSON.stringify(untakenMids));
+    });
 }
 
 // Sets given panel to a loading screen
@@ -8489,6 +8520,10 @@ var loadData = function(startup) {
             } else if (!rulesTemp['Secondary Primary'] && !rulesTemp.hasOwnProperty('Secondary Primary Amount')) {
                 rulesTemp['Secondary Primary Amount'] = "1";
             }
+            
+            if (!rulesTemp.hasOwnProperty('Forestry')) {
+                rulesTemp['Forestry'] = true;
+            }
 
             !!rulesTemp && Object.keys(rulesTemp).forEach(rule => {
                 rules[rule] = rulesTemp[rule];
@@ -8738,7 +8773,8 @@ var setData = function() {
 }
 
 // Rolls until a new, unique map id is found
-var rollMID = function() {
+var rollMID = function(count) {
+    let rollMidCount = count || 0;
     var char1, char2, char3, char4, charSet;
     var badNums = true;
     var rollCount = 0;
@@ -8747,7 +8783,7 @@ var rollMID = function() {
         return;
     }
     databaseRef.child('mapids').once('value', function(snap) {
-        while (badNums) {
+        while (badNumss || rollCount > 100) {
             char1 = String.fromCharCode(97 + Math.floor(Math.random() * 26));
             char2 = String.fromCharCode(97 + Math.floor(Math.random() * 26));
             char3 = String.fromCharCode(97 + Math.floor(Math.random() * 26));
@@ -8757,22 +8793,36 @@ var rollMID = function() {
             rollCount++;
         }
         mid = charSet;
-        firebase.auth().createUserWithEmailAndPassword('sourcechunk+' + mid + '@yandex.com', savedPin + mid).then((userCredential) => {
-            signedIn = true;
-            userCredential.user.updateProfile({
-                displayName: mid
-            }).then(() => {
-                databaseRef.child('template').once('value', function(snap2) {
-                    var temp = snap2.val();
-                    temp.uid = userCredential.user.uid;
-                    databaseRef.child('maps/' + charSet).set(temp);
-                    databaseRef.child('mapids/' + charSet).set(true);
-                });
-            });
-        }).catch((error) => { console.error(error) });
-
-        $('#newmid').text(charSet.toUpperCase());
-        $('.link').prop('href', 'https://source-chunk.github.io/chunk-picker-rs3-dev/?' + charSet).text('https://source-chunk.github.io/chunk-picker-rs3-dev/?' + charSet);
+        firebase.auth().fetchSignInMethodsForEmail ('sourcechunk+' + mid + '@yandex.com').then(providers => {
+            if (providers.length === 0) {
+                firebase.auth().createUserWithEmailAndPassword('sourcechunk+' + mid + '@yandex.com', savedPin + mid).then((userCredential) => {
+                    signedIn = true;
+                    userCredential.user.updateProfile({
+                        displayName: mid
+                    }).then(() => {
+                        databaseRef.child('template').once('value', function(snap2) {
+                            var temp = snap2.val();
+                            temp.uid = userCredential.user.uid;
+                            databaseRef.child('maps/' + charSet).set(temp);
+                            databaseRef.child('mapids/' + charSet).set(true);
+                            $('#newmid').text(charSet.toUpperCase());
+                            $('.link').prop('href', 'https://source-chunk.github.io/chunk-picker-rs3/?' + charSet).text('https://source-chunk.github.io/chunk-picker-rs3/?' + charSet);
+                        });
+                    });
+                }).catch((error) => { console.error(error) });
+            } else {
+                logError(`Error: '${mid}' not recorded as a taken mapId, but has respective auth user.`);
+                if (rollMidCount < 50) {
+                    rollMID(rollMidCount + 1);
+                } else {
+                    $('#newmid').text('ERROR').css('color', 'red');
+                    $('.maybe-error-text').css('font-size', 16).css('color', 'red').html('An error has occurred. This error has been reported to the developers. Please contact <u>whitecatblack</u> on Discord for more information.');
+                    $('.link-outer').hide();
+                    console.error('Error: Unable to generate untaken mapId.');
+                    logError('Error: Unable to generate untaken mapId.');
+                }
+            }
+        });
     }).catch((error) => { console.error(error) });
 }
 
