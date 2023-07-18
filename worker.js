@@ -5394,7 +5394,7 @@ var calcCurrentChallenges2 = function() {
                                 if (!!chunkInfo['challenges'][skill][challenge]['Skills']) {
                                     let tempValid = true;
                                     Object.keys(chunkInfo['challenges'][skill][challenge]['Skills']).forEach(subSkill => {
-                                        if (!checkPrimaryMethod(subSkill, globalValids, baseChunkData) || (subSkill === 'Slayer' && !!slayerLocked && chunkInfo['challenges'][skill][challenge]['Skills'][subSkill] > slayerLocked['level'])) {
+                                        if (!checkPrimaryMethod(subSkill, globalValids, baseChunkData) && (!passiveSkill || !passiveSkill.hasOwnProperty(subSkill) || passiveSkill[subSkill] < chunkInfo['challenges'][skill][challenge]['Skills'][subSkill]) && (subSkill !== 'Slayer' || !slayerLocked || chunkInfo['challenges'][skill][challenge]['Skills'][subSkill] > slayerLocked['level'])) {
                                             tempValid = false;
                                         }
                                     });
@@ -5410,7 +5410,7 @@ var calcCurrentChallenges2 = function() {
                                         if (!!chunkInfo['challenges'][skill][tempChallenge]['Skills']) {
                                             let tempValid = true;
                                             Object.keys(chunkInfo['challenges'][skill][tempChallenge]['Skills']).forEach(subSkill => {
-                                                if (!checkPrimaryMethod(subSkill, globalValids, baseChunkData) || (subSkill === 'Slayer' && !!slayerLocked && chunkInfo['challenges'][skill][challenge]['Skills'][subSkill] > slayerLocked['level'])) {
+                                                if (!checkPrimaryMethod(subSkill, globalValids, baseChunkData) && (!passiveSkill || !passiveSkill.hasOwnProperty(subSkill) || passiveSkill[subSkill] < chunkInfo['challenges'][skill][tempChallenge]['Skills'][subSkill]) && (subSkill !== 'Slayer' || !slayerLocked || chunkInfo['challenges'][skill][challenge]['Skills'][subSkill] > slayerLocked['level'])) {
                                                     tempValid = false;
                                                 }
                                             });
@@ -5428,7 +5428,7 @@ var calcCurrentChallenges2 = function() {
                                 if (!!chunkInfo['challenges'][skill][challenge]['Skills']) {
                                     let tempValid = true;
                                     Object.keys(chunkInfo['challenges'][skill][challenge]['Skills']).forEach(subSkill => {
-                                        if (!checkPrimaryMethod(subSkill, globalValids, baseChunkData) || (subSkill === 'Slayer' && !!slayerLocked && chunkInfo['challenges'][skill][challenge]['Skills'][subSkill] > slayerLocked['level'])) {
+                                        if (!checkPrimaryMethod(subSkill, globalValids, baseChunkData) && (!passiveSkill || !passiveSkill.hasOwnProperty(subSkill) || passiveSkill[subSkill] < chunkInfo['challenges'][skill][challenge]['Skills'][subSkill]) && (subSkill !== 'Slayer' || !slayerLocked || chunkInfo['challenges'][skill][challenge]['Skills'][subSkill] > slayerLocked['level'])) {
                                             tempValid = false;
                                         }
                                     });
@@ -5444,7 +5444,7 @@ var calcCurrentChallenges2 = function() {
                                         if (!!chunkInfo['challenges'][skill][tempChallenge]['Skills']) {
                                             let tempValid = true;
                                             Object.keys(chunkInfo['challenges'][skill][tempChallenge]['Skills']).forEach(subSkill => {
-                                                if (!checkPrimaryMethod(subSkill, globalValids, baseChunkData) || (subSkill === 'Slayer' && !!slayerLocked && chunkInfo['challenges'][skill][challenge]['Skills'][subSkill] > slayerLocked['level'])) {
+                                                if (!checkPrimaryMethod(subSkill, globalValids, baseChunkData) && (!passiveSkill || !passiveSkill.hasOwnProperty(subSkill) || passiveSkill[subSkill] < chunkInfo['challenges'][skill][tempChallenge]['Skills'][subSkill]) && (subSkill !== 'Slayer' || !slayerLocked || chunkInfo['challenges'][skill][challenge]['Skills'][subSkill] > slayerLocked['level'])) {
                                                     tempValid = false;
                                                 }
                                             });
