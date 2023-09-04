@@ -5636,12 +5636,12 @@ let findFraction = function(fraction, isRoundedDenominator) {
     if (isNaN(fraction)) {
         return fraction;
     } else {
-        var len = fraction.toString().length - 2;
+        let len = fraction.toString().length - 2;
 
-        var denominator = Math.pow(10, len);
-        var numerator = fraction * denominator;
+        let denominator = Math.pow(10, len);
+        let numerator = fraction * denominator;
 
-        var divisor = gcd(numerator, denominator);
+        let divisor = gcd(numerator, denominator);
 
         numerator /= divisor;
         denominator /= divisor;
