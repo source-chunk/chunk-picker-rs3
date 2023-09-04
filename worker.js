@@ -2140,7 +2140,7 @@ let calcChallenges = function(chunks, baseChunkData) {
                 });
             });
         });
-        questPointTotal = 0;
+        questPointTotal = 1;
         questProgress = {};
         diaryProgress = {};
         skillQuestXp = {};
