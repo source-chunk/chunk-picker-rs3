@@ -194,7 +194,8 @@ const skillNames = [
     "Archaeology",
     "Dungeoneering",
     "Summoning",
-    "Invention"
+    "Invention",
+	"Necromancy"
 ];                                                                              // Names of all skills
 const combatSkills = [
     'Attack',
@@ -204,7 +205,8 @@ const combatSkills = [
     'Ranged',
     'Magic',
     'Prayer',
-    'Summoning'
+    'Summoning',
+	'Necromancy'
 ];                                                                              // Names of all combat skills
 const f2pSkills = [
     'Attack',
@@ -252,7 +254,8 @@ const skillNamesXp = [
 	'Dungeoneering',
 	'Divination',
 	'Invention',
-	'Archaeology'
+	'Archaeology',
+	'Necromancy'
 ];                                                                              // Names of all lampable skills
 const clueTiers = [
     'Easy',
@@ -1025,7 +1028,8 @@ let universalPrimary = {
     "Archaeology": ["Primary+"],
     "Dungeoneering": ["Primary+"],
     "Summoning": ["Primary+"],
-    "Invention": ["Primary+"]
+    "Invention": ["Primary+"],
+	"Necromancy": ["Primary+"]
 };                                                                                  // What is the primary way to train each skill
 
 let processingSkill = {
@@ -1062,7 +1066,8 @@ let processingSkill = {
     "Archaeology": true,
     "Dungeoneering": false,
     "Summoning": true,
-    "Invention": true
+    "Invention": true,
+	"Necromancy": true
 };                                                                                  // Is each skill a processing skill
 
 let diaryTierAbr = {
