@@ -1862,13 +1862,35 @@ let calcChallenges = function(chunks, baseChunkData) {
 
         if (rules['Skilling Pets']) {
             let skillingPets = {
-                'Fishing': 'Heron',
-                'Mining': 'Rock golem',
-                'Woodcutting': 'Beaver',
-                'Agility': 'Giant squirrel',
-                'Farming': 'Tangleroot',
-                'Thieving': 'Rocky',
-                'Runecrafting': 'Rift guardian'
+                'Agility': 'Dojo Mojo',
+                'Archaeology': 'Archie',
+                'Attack': 'Sifu',
+                'Constitution': 'Morty',
+                'Construction': 'Baby Yaga%27s house',
+                'Cooking': 'Ramsay',
+                'Crafting': 'Gemi',
+                'Defence': 'Wallace',
+                'Divination': 'Willow',
+                'Dungeoneering': 'Gordie',
+                'Farming': 'Brains',
+                'Firemaking': 'Bernie',
+                'Fishing': 'Bubbles',
+                'Fletching': 'Flo',
+                'Herblore': 'Herbert',
+                'Hunter': 'Ace',
+                'Invention': 'Malcolm',
+                'Magic': 'Newton',
+                'Mining': 'Rocky',
+                'Necromancy': 'Omen',
+                'Prayer': 'Ghostly',
+                'Ranged': 'Sparkly',
+                'Runecrafting': 'Rue',
+                'Slayer': 'Crabbe',
+                'Summoning': 'Shamini',
+                'Smithing': 'Smithy',
+                'Strength': 'Kangali',
+                'Thieving': 'Ralph',
+                'Woodcutting': 'Woody'
             }
             Object.keys(skillingPets).forEach(skill => {
                 if (checkPrimaryMethod(skill, newValids, baseChunkData) && !!newValids && newValids[skill] && Object.keys(newValids[skill]).filter(task => { return chunkInfo['challenges'][skill].hasOwnProperty(task) && !chunkInfo['challenges'][skill][task].hasOwnProperty('NoPet') && !chunkInfo['challenges'][skill][task].hasOwnProperty('Description') }).length > 0) {
