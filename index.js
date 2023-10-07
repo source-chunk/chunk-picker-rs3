@@ -395,6 +395,8 @@ let rules = {
 	"Titles": false,
 	"DnD": false,
 	"Uncharted": false,
+	"Arc Log": false,
+	"Achievement": false,
 };                                                                              // List of rules and their on/off state
 
 let ruleNames = {
@@ -474,6 +476,8 @@ let ruleNames = {
 	"Titles": "Require all special titles that aren't connected to other content to be obtained when able<span class='rule-asterisk noscroll'>*</span>",
 	"DnD": "Allow distractions and diversion to create skilling tasks<span class='rule-asterisk noscroll'>*</span>",
 	"Uncharted": "Allow resources only available on uncharted islands to create skilling tasks<span class='rule-asterisk noscroll'>*</span>",
+	"Arc Log": "Require completion of the Arc Journal<span class='rule-asterisk noscroll'>*</span>",
+	"Achievement": "Require all achievements that can be obtained within your ruleset excluding level up achievements",
 };                                                                              // List of rule definitions
 
 let rulePresets = {
@@ -497,6 +501,7 @@ let rulePresets = {
         "Secondary Primary Amount": "1",
 		"Ogleroot": true,
 		"Gnomeball": true,
+		"Achievement": true,
     },
     "Xtreme Chunker": {
         "Skillcape": true,
@@ -553,6 +558,8 @@ let rulePresets = {
 		"Titles": true,
 		"DnD": true,
 		"Uncharted": true,
+		"Arc Log": true,
+		"Achievement": true,
     },
     "Supreme Chunker": {
         "Skillcape": true,
@@ -616,6 +623,8 @@ let rulePresets = {
 		"Titles": true,
 		"DnD": true,
 		"Uncharted": true,
+		"Arc Log": true,
+		"Achievement": true,
     }
 };                                                                              // List of rules that are part of each preset
 
@@ -628,6 +637,7 @@ let rulePresetFlavor = {
 let ruleStructure = {
     "Visible Tasks": {
         "Show Skill Tasks": true,
+		"Achievement": true,
         "Show Quest Tasks": ["Show Quest Tasks Complete"],
         "Show Diary Tasks": ["Show Diary Tasks Complete", "Show Diary Tasks Any"],
         "Show Best in Slot Tasks": ["Show Best in Slot Prayer Tasks", "Show Best in Slot Defensive Tasks", "Show Best in Slot Melee Style Tasks", "Show Best in Slot 1H and 2H", "Show Best in Slot Shield"]
@@ -707,7 +717,7 @@ let ruleStructure = {
         "Minigame": true,
         "Kill X": true,
         "BIS Skilling": true,
-        "Collection Log": ["Slayer Collection Log", "Pets"],
+        "Collection Log": ["Slayer Collection Log", "Pets", "Arc Log"],
         "Untracked Uniques": true,
 		"Champion Challenge": true,
         "Skilling Pets": true,
