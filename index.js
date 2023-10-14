@@ -397,6 +397,7 @@ let rules = {
 	"Uncharted": false,
 	"Arc Log": false,
 	"Achievement": false,
+	"Multiple Pickpockets": false,
 };                                                                              // List of rules and their on/off state
 
 let ruleNames = {
@@ -478,6 +479,7 @@ let ruleNames = {
 	"Uncharted": "Allow resources only available on uncharted islands to create skilling tasks<span class='rule-asterisk noscroll'>*</span>",
 	"Arc Log": "Require completion of the Arc Journal<span class='rule-asterisk noscroll'>*</span>",
 	"Achievement": "Require all achievements that can be obtained within your ruleset excluding level up achievements",
+	"Multiple Pickpockets": "Require the agility and thieving levels to quadruple pickpocket<span class='rule-asterisk noscroll'>*</span>",
 };                                                                              // List of rule definitions
 
 let rulePresets = {
@@ -560,6 +562,7 @@ let rulePresets = {
 		"Uncharted": true,
 		"Arc Log": true,
 		"Achievement": true,
+		"Multiple Pickpockets": true,
     },
     "Supreme Chunker": {
         "Skillcape": true,
@@ -625,6 +628,7 @@ let rulePresets = {
 		"Uncharted": true,
 		"Arc Log": true,
 		"Achievement": true,
+		"Multiple Pickpockets": true,
     }
 };                                                                              // List of rules that are part of each preset
 
@@ -707,6 +711,9 @@ let ruleStructure = {
     "Smithing": {
         "Smithing by Smelting": true
     },
+	"Thieving": {
+		"Multiple Pickpockets": true
+	},
     "Item Sources": {
         "Boss": true,
         "Rare Drop": true,
