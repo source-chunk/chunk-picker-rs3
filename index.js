@@ -147,6 +147,7 @@ let rulesPanelVis = {
     runecraft: false,
     slayer: false,
     smithing: false,
+	"Thieving": false,
     itemsources: false,
     miscellaneous: false
 };
