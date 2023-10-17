@@ -399,6 +399,7 @@ let rules = {
 	"Arc Log": false,
 	"Achievement": false,
 	"Multiple Pickpockets": false,
+    "F2P": false,
 };                                                                              // List of rules and their on/off state
 
 let ruleNames = {
@@ -442,7 +443,7 @@ let ruleNames = {
     "Wandering implings": "Allow implings that randomly wander the world & their drops to count towards chunk tasks <span class='rule-asterisk noscroll'>*</span>",
     "Secondary Primary": "Allow secondary training methods with drops/methods more common than 1/X (set to 0 to include all drops) to count as primary training methods (e.g. allow a 1/50 drop for a bronze bar be your required way to train Smithing) <span class='rule-asterisk noscroll'>*</span>",
     "RDT": "Allow items from the Rare Drop Table and the Gem Drop Table to count towards chunk tasks",
-    "Untracked Uniques": "Must obtain extra uniques that are untracked on the collection log (e.g. gardening boots from Farmers)",
+    "Untracked Uniques": "Must obtain extra uniques that are untracked on the collection log (e.g. Swordy McSwordface)",
     "Combat and Teleport Spells": "Allow all spells to count as possible Magic skill tasks (otherwise only 'utility' spells like High Alchemy or Telegrab will count)",
     "Primary Spawns": "Item spawns count as primary access to an item, and can be used as a primary way to train a skill if needed <span class='rule-asterisk noscroll'>*</span>",
     "Smithing by Smelting": "Smelting ores into bars counts as a primary method for training Smithing",
@@ -481,6 +482,7 @@ let ruleNames = {
 	"Arc Log": "Require completion of the Arc Journal<span class='rule-asterisk noscroll'>*</span>",
 	"Achievement": "Require all achievements that can be obtained within your ruleset excluding level up achievements",
 	"Multiple Pickpockets": "Require the agility and thieving levels to quadruple pickpocket<span class='rule-asterisk noscroll'>*</span>",
+    "F2P": "Restrict to F2P skills/items/tasks only",
 };                                                                              // List of rule definitions
 
 let rulePresets = {
@@ -738,7 +740,8 @@ let ruleStructure = {
         "All Shops": true,
 		"Swordy": true,
         "Skiller": true,
-		"Titles": true
+		"Titles": true,
+        "F2P": true
     }
 };                                                                              // Structure of rules
 
