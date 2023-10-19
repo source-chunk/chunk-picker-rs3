@@ -1911,9 +1911,9 @@ let calcChallenges = function(chunks, baseChunkData) {
                     if (!baseChunkData['items'][skillingPets[skill]]) {
                         baseChunkData['items'][skillingPets[skill]] = {};
                     }
-                    baseChunkData['items'][skillingPets[skill]][skill] = 'secondary-' + skill;
+                    baseChunkData['items'][skillingPets[skill]]['Manually Added*'] = 'secondary-' + skill;
                 } else {
-                    !!baseChunkData['items'][skillingPets[skill]] && delete baseChunkData['items'][skillingPets[skill]][skill];
+                    !!baseChunkData['items'][skillingPets[skill]] && delete baseChunkData['items'][skillingPets[skill]]['Manually Added*'];
                     if (!!baseChunkData['items'][skillingPets[skill]] && Object.keys(baseChunkData['items'][skillingPets[skill]]).length <= 0) {
                         delete baseChunkData['items'][skillingPets[skill]];
                     }
@@ -2110,7 +2110,7 @@ let calcChallenges = function(chunks, baseChunkData) {
             });
         });
         Object.keys(baseChunkData['items']).forEach(item => {
-            Object.keys(baseChunkData['items'][item]).filter((source) => { return baseChunkData['items'][item][source].split('-').length > 1 && [...skillNames, 'Nonskill', 'Quest', 'Diary', 'Extra'].includes(baseChunkData['items'][item][source].split('-')[1]) && (!newValids.hasOwnProperty(baseChunkData['items'][item][source].split('-')[1]) || !newValids[baseChunkData['items'][item][source].split('-')[1]].hasOwnProperty(source)) && (baseChunkData['items'][item][source].split('-')[1] !== 'Nonskill' || source !== 'Manually Added*') }).forEach(source => {
+            Object.keys(baseChunkData['items'][item]).filter((source) => { return baseChunkData['items'][item][source].split('-').length > 1 && [...skillNames, 'Nonskill', 'Quest', 'Diary', 'Extra'].includes(baseChunkData['items'][item][source].split('-')[1]) && (!newValids.hasOwnProperty(baseChunkData['items'][item][source].split('-')[1]) || !newValids[baseChunkData['items'][item][source].split('-')[1]].hasOwnProperty(source)) && baseChunkData['items'][item][source].split('-')[1] !== 'Nonskill' && source !== 'Manually Added*' }).forEach(source => {
                 delete baseChunkData['items'][item][source];
                 if (!baseChunkData['items'][item] || Object.keys(baseChunkData['items'][item]).length === 0) {
                     delete baseChunkData['items'][item];
@@ -3442,7 +3442,7 @@ let calcChallengesWork = function(chunks, baseChunkData, oldTempItemSkill) {
             drops[line.split(':')[0]][line.split('|')[1]][line.split(' ~')[0].split(': ')[1]] = true;
         });
         Object.keys(items).filter((item) => { return !!items[item] }).sort().forEach(item => {
-            Object.keys(items[item]).filter((source) => { return items[item][source].includes('-Slayer') }).forEach(source => {
+            Object.keys(items[item]).filter((source) => { return items[item][source].includes('-Slayer') && source !== 'Manually Added*' }).forEach(source => {
                 let monster = chunkInfo['challenges']['Slayer'][source.replaceAll('#', '%2F').replaceAll('.', '%2E')]['Output'];
                 Object.keys(chunkInfo['skillItems']['Slayer'][monster]).forEach(drop => {
                     if (!!dropTables[drop] && ((drop !== 'RareDropTable+' && drop !== 'GemDropTable+') || rules['RDT'])) {
