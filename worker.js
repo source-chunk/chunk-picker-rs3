@@ -5169,8 +5169,8 @@ let calcBIS = function() {
             }
         });
         Object.keys(bestEquipmentAlts).forEach(slot => {
-            Object.keys(bestEquipmentAlts[slot]).filter(item => !!altChallenges['BiS']).forEach(item => {
-                if ((slot === '2h weapon' && altChallenges['BiS'].hasOwnProperty(skill.replaceAll(' ', '_') + '-main hand weapon') && altChallenges['BiS'][skill.replaceAll(' ', '_') + '-main hand weapon'] === item.toLowerCase().replaceAll(/\%2E/g, '.').replaceAll(/\%2I/g, ',').replaceAll(/\%2F/g, '#').replaceAll(/\%2G/g, '/').replaceAll(/\%2J/g, '+')) || (altChallenges['BiS'].hasOwnProperty(skill.replaceAll(' ', '_') + '-' + slot) && altChallenges['BiS'][skill.replaceAll(' ', '_') + '-' + slot] === item.toLowerCase().replaceAll(/\%2E/g, '.').replaceAll(/\%2I/g, ',').replaceAll(/\%2F/g, '#').replaceAll(/\%2G/g, '/').replaceAll(/\%2J/g, '+'))) {
+            Object.keys(bestEquipmentAlts[slot]).forEach(item => {
+                if (altChallenges.hasOwnProperty('BiS') && ((slot === '2h weapon' && altChallenges['BiS'].hasOwnProperty(skill.replaceAll(' ', '_') + '-main hand weapon') && altChallenges['BiS'][skill.replaceAll(' ', '_') + '-main hand weapon'] === item.toLowerCase().replaceAll(/\%2E/g, '.').replaceAll(/\%2I/g, ',').replaceAll(/\%2F/g, '#').replaceAll(/\%2G/g, '/').replaceAll(/\%2J/g, '+')) || (altChallenges['BiS'].hasOwnProperty(skill.replaceAll(' ', '_') + '-' + slot) && altChallenges['BiS'][skill.replaceAll(' ', '_') + '-' + slot] === item.toLowerCase().replaceAll(/\%2E/g, '.').replaceAll(/\%2I/g, ',').replaceAll(/\%2F/g, '#').replaceAll(/\%2G/g, '/').replaceAll(/\%2J/g, '+')))) {
                     if (slot === '2h weapon' && !rules['Show Best in Slot 1H and 2H']) {
                         highestOverall[skill.replaceAll(' ', '_') + '-main hand weapon'] = item;
                         highestOverall[skill.replaceAll(' ', '_') + '-off-hand weapon'] = 'N/A';
