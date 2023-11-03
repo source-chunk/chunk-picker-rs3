@@ -1256,6 +1256,7 @@ let activeContextMenuOpen = false;
 let activeContextMenuOpenTime = 0;
 let backlogContextMenuOpen = false;
 let actuallyHideChecked = true;
+let recentlyTestMode = false;
 let currentVersion = '5.5.0';
 
 // Patreon Test Server Data
@@ -1364,7 +1365,7 @@ mapImg.addEventListener("load", e => {
         centerCanvas('quick');
     }
 });
-mapImg.src = "runescape_world_map.png?v=5.5.35";
+mapImg.src = "runescape_world_map.png?v=5.5.36";
 
 // Rounded rectangle
 CanvasRenderingContext2D.prototype.roundRect = function (x, y, w, h, r) {
@@ -2641,7 +2642,7 @@ let calcCurrentChallengesCanvas = function(useOld, proceed) {
         setCalculating('.panel-active', useOld);
         setCurrentChallenges(['No tasks currently backlogged.'], ['No tasks currently completed.'], true, true);
         myWorker.terminate();
-        myWorker = new Worker("./worker.js?v=5.5.35");
+        myWorker = new Worker("./worker.js?v=5.5.36");
         myWorker.onmessage = workerOnMessage;
         myWorker.postMessage(['current', tempChunks['unlocked'], rules, chunkInfo, skillNames, processingSkill, maybePrimary, combatSkills, monstersPlus, objectsPlus, chunksPlus, itemsPlus, mixPlus, npcsPlus, tasksPlus, tools, elementalRunes, manualTasks, completedChallenges, backlog, "1/" + rules['Rare Drop Amount'], universalPrimary, elementalStaves, rangedItems, boneItems, highestCurrent, dropTables, possibleAreas, randomLoot, magicTools, bossLogs, bossMonsters, minigameShops, manualEquipment, checkedChallenges, backloggedSources, altChallenges, manualMonsters, slayerLocked, passiveSkill, f2pSkills, assignedXpRewards, mid === diary2Tier, manualAreas, "1/" + rules['Secondary Primary Amount'], mid === manualAreasOnly]);
         workerOut = 1;
@@ -2885,8 +2886,8 @@ $(document).ready(function() {
 // ------------------------------------------------------------
 
 // Recieve message from worker
-let myWorker = new Worker("./worker.js?v=5.5.35");
-let myWorker2 = new Worker("./worker.js?v=5.5.35");
+let myWorker = new Worker("./worker.js?v=5.5.36");
+let myWorker2 = new Worker("./worker.js?v=5.5.36");
 let workerOnMessage = function(e) {
     if (e.data[0] === 'error') {
         $('.panel-active > .calculating > .inner-loading-bar').css('background-color', 'red');
@@ -3370,6 +3371,7 @@ $(document).on({
             settingsMenu();
         } else if (e.keyCode === 27 && testMode && !rollChunkModalOpen) {
             testMode = false;
+            recentlyTestMode = true;
             locked && $('.open-manual-outer-container').css('opacity', 0).hide();
             locked && $('.center').css('margin-top', '0px');
             locked && $('.pick, .roll2, .unpick').css('opacity', 0).hide();
@@ -4277,6 +4279,7 @@ let enableTestMode = function() {
     testMode = !testMode;
     testMode ? $('.test-hint').css('opacity', 1).show() : $('.test-hint').css('opacity', 0).hide();
     if (!testMode) {
+        recentlyTestMode = true;
         loadData();
         (viewOnly || inEntry || locked) && $('.open-manual-outer-container').css('opacity', 0).hide();
         (viewOnly || inEntry || locked) && $('.center').css('margin-top', '0px');
@@ -5380,7 +5383,7 @@ let calcFutureChallenges = function() {
         i++;
     }
     myWorker2.terminate();
-    myWorker2 = new Worker("./worker.js?v=5.5.35");
+    myWorker2 = new Worker("./worker.js?v=5.5.36");
     myWorker2.onmessage = workerOnMessage;
     myWorker2.postMessage(['future', chunks, rules, chunkInfo, skillNames, processingSkill, maybePrimary, combatSkills, monstersPlus, objectsPlus, chunksPlus, itemsPlus, mixPlus, npcsPlus, tasksPlus, tools, elementalRunes, manualTasks, completedChallenges, backlog, "1/" + rules['Rare Drop Amount'], universalPrimary, elementalStaves, rangedItems, boneItems, highestCurrent, dropTables, possibleAreas, randomLoot, magicTools, bossLogs, bossMonsters, minigameShops, manualEquipment, checkedChallenges, backloggedSources, altChallenges, manualMonsters, slayerLocked, passiveSkill, f2pSkills, assignedXpRewards, mid === diary2Tier, manualAreas, "1/" + rules['Secondary Primary Amount'], mid === manualAreasOnly]);
     workerOut++;
@@ -8958,6 +8961,7 @@ let loadData = function(startup) {
             doneLoading();
             setUpSelected();
             chunkTasksOn && !onMobile && $(`.challenge.clickable`).removeClass('clickable');
+            recentlyTestMode = false;
         });
     });
 }
@@ -9016,7 +9020,7 @@ let setUsername = function(old) {
 
 // Stores data in Firebase
 let setData = function() {
-    if (onTestServer || testMode) {
+    if (onTestServer || testMode || recentlyTestMode) {
         return;
     }
     if (signedIn && firebase.auth().currentUser) {
