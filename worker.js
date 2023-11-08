@@ -4124,13 +4124,13 @@ let calcBIS = function() {
                     }
                 } else if (skill === 'Necromancy' && (chunkInfo['equipment'][equip].class === 'necromancy' || chunkInfo['equipment'][equip].class === 'hybrid' || chunkInfo['equipment'][equip].class === 'all' || chunkInfo['equipment'][equip].class === 'none')) {
                     if (chunkInfo['equipment'][equip].speed > 0) {
-                        if ((!bestEquipment[chunkInfo['equipment'][equip].slot] || ((chunkInfo['equipment'][equip].accuracy + chunkInfo['equipment'][equip].ability_damage) > (chunkInfo['equipment'][bestEquipment[chunkInfo['equipment'][equip].slot]].accuracy + chunkInfo['equipment'][bestEquipment[chunkInfo['equipment'][equip].slot]].ability_damage))) && ((chunkInfo['equipment'][equip].accuracy > 0 && chunkInfo['equipment'][equip].ability_damage > 0) || equip === 'Unarmed')) {
+                        if ((!bestEquipment[chunkInfo['equipment'][equip].slot] || ((chunkInfo['equipment'][equip].accuracy + chunkInfo['equipment'][equip].damage) > (chunkInfo['equipment'][bestEquipment[chunkInfo['equipment'][equip].slot]].accuracy + chunkInfo['equipment'][bestEquipment[chunkInfo['equipment'][equip].slot]].damage))) && ((chunkInfo['equipment'][equip].accuracy > 0 && chunkInfo['equipment'][equip].damage > 0) || equip === 'Unarmed')) {
                             let tempTempValid = false;
                             Object.keys(baseChunkData['items'][equip]).filter(source => !baseChunkData['items'][equip][source].includes('-') || !processingSkill[baseChunkData['items'][equip][source].split('-')[1]] || rules['Wield Crafted Items'] || baseChunkData['items'][equip][source].split('-')[1] === 'Slayer' || (chunkInfo['challenges'].hasOwnProperty(baseChunkData['items'][equip][source].split('-')[1]) && chunkInfo['challenges'][baseChunkData['items'][equip][source].split('-')[1]].hasOwnProperty(source) && chunkInfo['challenges'][baseChunkData['items'][equip][source].split('-')[1]][source].hasOwnProperty('NoXp'))).length > 0 && (tempTempValid = true);
                             let article = vowels.includes(equip.toLowerCase().charAt(0)) ? ' an ' : ' a ';
                             article = (equip.toLowerCase().charAt(equip.toLowerCase().length - 1) === 's' || (equip.toLowerCase().charAt(equip.toLowerCase().length - 1) === ')' && equip.toLowerCase().split('(')[0].trim().charAt(equip.toLowerCase().split('(')[0].trim().length - 1) === 's')) ? ' ' : article;
                             tempTempValid && (!backlog['BiS'] || !backlog['BiS'].hasOwnProperty('Obtain' + article + '~|' + equip.toLowerCase() + '|~')) && (bestEquipment[chunkInfo['equipment'][equip].slot] = equip);
-                        } else if ((!bestEquipment[chunkInfo['equipment'][equip].slot] || ((chunkInfo['equipment'][equip].accuracy + chunkInfo['equipment'][equip].ability_damage) === (chunkInfo['equipment'][bestEquipment[chunkInfo['equipment'][equip].slot]].accuracy + chunkInfo['equipment'][bestEquipment[chunkInfo['equipment'][equip].slot]].ability_damage))) && ((chunkInfo['equipment'][equip].accuracy > 0 && chunkInfo['equipment'][equip].ability_damage > 0) || equip === 'Unarmed')) {
+                        } else if ((!bestEquipment[chunkInfo['equipment'][equip].slot] || ((chunkInfo['equipment'][equip].accuracy + chunkInfo['equipment'][equip].damage) === (chunkInfo['equipment'][bestEquipment[chunkInfo['equipment'][equip].slot]].accuracy + chunkInfo['equipment'][bestEquipment[chunkInfo['equipment'][equip].slot]].damage))) && ((chunkInfo['equipment'][equip].accuracy > 0 && chunkInfo['equipment'][equip].damage > 0) || equip === 'Unarmed')) {
                             let tempTempValid = false;
                             Object.keys(baseChunkData['items'][equip]).filter(source => !baseChunkData['items'][equip][source].includes('-') || !processingSkill[baseChunkData['items'][equip][source].split('-')[1]] || rules['Wield Crafted Items'] || baseChunkData['items'][equip][source].split('-')[1] === 'Slayer' || (chunkInfo['challenges'].hasOwnProperty(baseChunkData['items'][equip][source].split('-')[1]) && chunkInfo['challenges'][baseChunkData['items'][equip][source].split('-')[1]].hasOwnProperty(source) && chunkInfo['challenges'][baseChunkData['items'][equip][source].split('-')[1]][source].hasOwnProperty('NoXp'))).length > 0 && (tempTempValid = true);
                             let article = vowels.includes(equip.toLowerCase().charAt(0)) ? ' an ' : ' a ';
@@ -4144,19 +4144,19 @@ let calcBIS = function() {
                         }
                     } else {
                         if (!chunkInfo['equipment'][equip].hasOwnProperty('necromancy') || chunkInfo['equipment'][equip].necromancy >= 0) {
-                            if (!bestEquipment[chunkInfo['equipment'][equip].slot] || (chunkInfo['equipment'][equip].necromancy > chunkInfo['equipment'][bestEquipment[chunkInfo['equipment'][equip].slot]].necromancy)) {
+                            if (!bestEquipment[chunkInfo['equipment'][equip].slot] || (chunkInfo['equipment'][equip].necromancy > (chunkInfo['equipment'][bestEquipment[chunkInfo['equipment'][equip].slot]].necromancy || 0))) {
                                 let tempTempValid = false;
                                 Object.keys(baseChunkData['items'][equip]).filter(source => !baseChunkData['items'][equip][source].includes('-') || !processingSkill[baseChunkData['items'][equip][source].split('-')[1]] || rules['Wield Crafted Items'] || baseChunkData['items'][equip][source].split('-')[1] === 'Slayer' || (chunkInfo['challenges'].hasOwnProperty(baseChunkData['items'][equip][source].split('-')[1]) && chunkInfo['challenges'][baseChunkData['items'][equip][source].split('-')[1]].hasOwnProperty(source) && chunkInfo['challenges'][baseChunkData['items'][equip][source].split('-')[1]][source].hasOwnProperty('NoXp'))).length > 0 && (tempTempValid = true);
                                 let article = vowels.includes(equip.toLowerCase().charAt(0)) ? ' an ' : ' a ';
                                 article = (equip.toLowerCase().charAt(equip.toLowerCase().length - 1) === 's' || (equip.toLowerCase().charAt(equip.toLowerCase().length - 1) === ')' && equip.toLowerCase().split('(')[0].trim().charAt(equip.toLowerCase().split('(')[0].trim().length - 1) === 's')) ? ' ' : article;
                                 tempTempValid && (!backlog['BiS'] || !backlog['BiS'].hasOwnProperty('Obtain' + article + '~|' + equip.toLowerCase() + '|~')) && (bestEquipment[chunkInfo['equipment'][equip].slot] = equip);
-                            } else if ((chunkInfo['equipment'][equip].necromancy === chunkInfo['equipment'][bestEquipment[chunkInfo['equipment'][equip].slot]].necromancy) && (chunkInfo['equipment'][equip].armour > chunkInfo['equipment'][bestEquipment[chunkInfo['equipment'][equip].slot]].armour)) {
+                            } else if ((chunkInfo['equipment'][equip].necromancy === (chunkInfo['equipment'][bestEquipment[chunkInfo['equipment'][equip].slot]].necromancy || 0)) && (chunkInfo['equipment'][equip].armour > chunkInfo['equipment'][bestEquipment[chunkInfo['equipment'][equip].slot]].armour)) {
                                 let tempTempValid = false;
                                 Object.keys(baseChunkData['items'][equip]).filter(source => !baseChunkData['items'][equip][source].includes('-') || !processingSkill[baseChunkData['items'][equip][source].split('-')[1]] || rules['Wield Crafted Items'] || baseChunkData['items'][equip][source].split('-')[1] === 'Slayer' || (chunkInfo['challenges'].hasOwnProperty(baseChunkData['items'][equip][source].split('-')[1]) && chunkInfo['challenges'][baseChunkData['items'][equip][source].split('-')[1]].hasOwnProperty(source) && chunkInfo['challenges'][baseChunkData['items'][equip][source].split('-')[1]][source].hasOwnProperty('NoXp'))).length > 0 && (tempTempValid = true);
                                 let article = vowels.includes(equip.toLowerCase().charAt(0)) ? ' an ' : ' a ';
                                 article = (equip.toLowerCase().charAt(equip.toLowerCase().length - 1) === 's' || (equip.toLowerCase().charAt(equip.toLowerCase().length - 1) === ')' && equip.toLowerCase().split('(')[0].trim().charAt(equip.toLowerCase().split('(')[0].trim().length - 1) === 's')) ? ' ' : article;
                                 tempTempValid && (!backlog['BiS'] || !backlog['BiS'].hasOwnProperty('Obtain' + article + '~|' + equip.toLowerCase() + '|~')) && (bestEquipment[chunkInfo['equipment'][equip].slot] = equip);
-                            } else if ((chunkInfo['equipment'][equip].necromancy === chunkInfo['equipment'][bestEquipment[chunkInfo['equipment'][equip].slot]].necromancy) &&
+                            } else if ((chunkInfo['equipment'][equip].necromancy === (chunkInfo['equipment'][bestEquipment[chunkInfo['equipment'][equip].slot]].necromancy || 0)) &&
                             (chunkInfo['equipment'][equip].armour === chunkInfo['equipment'][bestEquipment[chunkInfo['equipment'][equip].slot]].armour) &&
                             (chunkInfo['equipment'][equip].lp > chunkInfo['equipment'][bestEquipment[chunkInfo['equipment'][equip].slot]].lp)) {
                                 let tempTempValid = false;
@@ -4164,7 +4164,7 @@ let calcBIS = function() {
                                 let article = vowels.includes(equip.toLowerCase().charAt(0)) ? ' an ' : ' a ';
                                 article = (equip.toLowerCase().charAt(equip.toLowerCase().length - 1) === 's' || (equip.toLowerCase().charAt(equip.toLowerCase().length - 1) === ')' && equip.toLowerCase().split('(')[0].trim().charAt(equip.toLowerCase().split('(')[0].trim().length - 1) === 's')) ? ' ' : article;
                                 tempTempValid && (!backlog['BiS'] || !backlog['BiS'].hasOwnProperty('Obtain' + article + '~|' + equip.toLowerCase() + '|~')) && (bestEquipment[chunkInfo['equipment'][equip].slot] = equip);
-                            } else if ((chunkInfo['equipment'][equip].necromancy === chunkInfo['equipment'][bestEquipment[chunkInfo['equipment'][equip].slot]].necromancy) &&
+                            } else if ((chunkInfo['equipment'][equip].necromancy === (chunkInfo['equipment'][bestEquipment[chunkInfo['equipment'][equip].slot]].necromancy || 0)) &&
                             (chunkInfo['equipment'][equip].armour === chunkInfo['equipment'][bestEquipment[chunkInfo['equipment'][equip].slot]].armour) &&
                             (chunkInfo['equipment'][equip].lp === chunkInfo['equipment'][bestEquipment[chunkInfo['equipment'][equip].slot]].lp)) {
                                 let tempTempValid = false;
@@ -4451,17 +4451,17 @@ let calcBIS = function() {
             }
         } else if (skill === 'Necromancy') {
             if (bestEquipment.hasOwnProperty('2h weapon')) {
-                twoHPower = chunkInfo['equipment'][bestEquipment['2h weapon']].accuracy + chunkInfo['equipment'][bestEquipment['2h weapon']].ability_damage;
+                twoHPower = chunkInfo['equipment'][bestEquipment['2h weapon']].accuracy + chunkInfo['equipment'][bestEquipment['2h weapon']].damage;
             }
             if (bestEquipment.hasOwnProperty('main hand weapon')) {
                 if (bestEquipment.hasOwnProperty('off-hand weapon')) {
-                    weaponShieldPower = ((chunkInfo['equipment'][bestEquipment['main hand weapon']].accuracy + chunkInfo['equipment'][bestEquipment['off-hand weapon']].accuracy) / 2) + (chunkInfo['equipment'][bestEquipment['main hand weapon']].ability_damage + chunkInfo['equipment'][bestEquipment['off-hand weapon']].ability_damage);
+                    weaponShieldPower = ((chunkInfo['equipment'][bestEquipment['main hand weapon']].accuracy + chunkInfo['equipment'][bestEquipment['off-hand weapon']].accuracy) / 2) + (chunkInfo['equipment'][bestEquipment['main hand weapon']].damage + chunkInfo['equipment'][bestEquipment['off-hand weapon']].damage);
                 } else {
-                    weaponShieldPower = chunkInfo['equipment'][bestEquipment['main hand weapon']].accuracy + chunkInfo['equipment'][bestEquipment['main hand weapon']].ability_damage;
+                    weaponShieldPower = chunkInfo['equipment'][bestEquipment['main hand weapon']].accuracy + chunkInfo['equipment'][bestEquipment['main hand weapon']].damage;
                 }
             }
             if (bestEquipment.hasOwnProperty('off-hand weapon')) {
-                offHandPower = chunkInfo['equipment'][bestEquipment['off-hand weapon']].accuracy + chunkInfo['equipment'][bestEquipment['off-hand weapon']].ability_damage;
+                offHandPower = chunkInfo['equipment'][bestEquipment['off-hand weapon']].accuracy + chunkInfo['equipment'][bestEquipment['off-hand weapon']].damage;
             }
             if (bestEquipment.hasOwnProperty('off-hand')) {
                 shieldPower = chunkInfo['equipment'][bestEquipment['off-hand']].accuracy;
