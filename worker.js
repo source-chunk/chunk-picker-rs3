@@ -3663,7 +3663,7 @@ let checkPrimaryMethod = function(skill, valids, baseChunkData) {
 // Calcs the BIS gear
 let calcBIS = function() {
     let combatStyles = ['Melee', 'Ranged', 'Magic'];
-    if (rules['F2P']) {
+    if (!rules['F2P']) {
         combatStyles.push('Necromancy');
     }
     let primarySkill = {};
@@ -3677,7 +3677,7 @@ let calcBIS = function() {
         combatStyles.push('Melee Tank');
         combatStyles.push('Ranged Tank');
         combatStyles.push('Magic Tank');
-        if (rules['F2P']) {
+        if (!rules['F2P']) {
             combatStyles.push('Necromancy Tank');
         }
     }
