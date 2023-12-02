@@ -864,10 +864,21 @@ let calcChallenges = function(chunks, baseChunkData) {
                         Object.keys(chunkInfo['codeItems']['boostItems'][skill]).forEach(boost => {
                             if (baseChunkData.hasOwnProperty(boost.includes('~') ? boost.split('~')[1] : 'items') && (baseChunkData[boost.includes('~') ? boost.split('~')[1] : 'items'].hasOwnProperty(boost.split('~')[0].replaceAll('#', '%2F')) || baseChunkData[boost.includes('~') ? boost.split('~')[1] : 'items'].hasOwnProperty(boost.split('~')[0].replaceAll('%2F', '#')))) {
                                 if (boost !== 'Crystal saw') {
-                                    if (typeof chunkInfo['codeItems']['boostItems'][skill][boost] === 'string') {
+                                    if (typeof chunkInfo['codeItems']['boostItems'][skill][boost] === 'string' && chunkInfo['codeItems']['boostItems'][skill][boost].includes('%+')) {
                                         let stringSplit = chunkInfo['codeItems']['boostItems'][skill][boost].split('%+');
                                         let possibleBoost = Math.floor(newValids[skill][challenge] * stringSplit[0] / 100 + parseInt(stringSplit[1]));
                                         possibleBoost = Math.floor((newValids[skill][challenge] - possibleBoost) * stringSplit[0] / 100 + parseInt(stringSplit[1]));
+                                        if (possibleBoost > bestBoost) {
+                                            bestBoost = possibleBoost;
+                                        }
+                                    } else if (typeof chunkInfo['codeItems']['boostItems'][skill][boost] === 'string' && chunkInfo['codeItems']['boostItems'][skill][boost].includes('xp*')) {
+                                        let stringSplit = chunkInfo['codeItems']['boostItems'][skill][boost].split('xp*');
+                                        let tempXp = 0;
+                                        let possibleBoost = 0;
+                                        while (parseInt(Object.keys(xpTable).filter(lvl => xpTable[lvl] > tempXp)[0]) + possibleBoost < newValids[skill][challenge]) {
+                                            tempXp += parseInt(stringSplit[0]);
+                                            possibleBoost = Math.floor(tempXp / parseInt(stringSplit[0])) * parseInt(stringSplit[1]);
+                                        }
                                         if (possibleBoost > bestBoost) {
                                             bestBoost = possibleBoost;
                                         }
@@ -911,10 +922,21 @@ let calcChallenges = function(chunks, baseChunkData) {
                                 Object.keys(chunkInfo['codeItems']['boostItems'][subSkill]).forEach(boost => {
                                     if (baseChunkData.hasOwnProperty(boost.includes('~') ? boost.split('~')[1] : 'items') && (baseChunkData[boost.includes('~') ? boost.split('~')[1] : 'items'].hasOwnProperty(boost.split('~')[0].replaceAll('#', '%2F')) || baseChunkData[boost.includes('~') ? boost.split('~')[1] : 'items'].hasOwnProperty(boost.split('~')[0].replaceAll('%2F', '#')))) {
                                         if (boost !== 'Crystal saw') {
-                                            if (typeof chunkInfo['codeItems']['boostItems'][subSkill][boost] === 'string') {
+                                            if (typeof chunkInfo['codeItems']['boostItems'][subSkill][boost] === 'string' && chunkInfo['codeItems']['boostItems'][subSkill][boost].includes('%+')) {
                                                 let stringSplit = chunkInfo['codeItems']['boostItems'][subSkill][boost].split('%+');
                                                 let possibleBoost = Math.floor(newValids[subSkill][challenge] * stringSplit[0] / 100 + parseInt(stringSplit[1]));
                                                 possibleBoost = Math.floor((newValids[subSkill][challenge] - possibleBoost) * stringSplit[0] / 100 + parseInt(stringSplit[1]));
+                                                if (possibleBoost > bestBoost) {
+                                                    bestBoost = possibleBoost;
+                                                }
+                                            } else if (typeof chunkInfo['codeItems']['boostItems'][subSkill][boost] === 'string' && chunkInfo['codeItems']['boostItems'][subSkill][boost].includes('xp*')) {
+                                                let stringSplit = chunkInfo['codeItems']['boostItems'][skill][boost].split('xp*');
+                                                let tempXp = 0;
+                                                let possibleBoost = 0;
+                                                while (parseInt(Object.keys(xpTable).filter(lvl => xpTable[lvl] > tempXp)[0]) + possibleBoost < newValids[subSkill][challenge]) {
+                                                    tempXp += parseInt(stringSplit[0]);
+                                                    possibleBoost = Math.floor(tempXp / parseInt(stringSplit[0])) * parseInt(stringSplit[1]);
+                                                }
                                                 if (possibleBoost > bestBoost) {
                                                     bestBoost = possibleBoost;
                                                 }
@@ -3544,10 +3566,21 @@ let checkPrimaryMethod = function(skill, valids, baseChunkData) {
                     Object.keys(chunkInfo['codeItems']['boostItems'][skill]).forEach(boost => {
                         if (baseChunkData.hasOwnProperty(boost.includes('~') ? boost.split('~')[1] : 'items') && (baseChunkData[boost.includes('~') ? boost.split('~')[1] : 'items'].hasOwnProperty(boost.split('~')[0].replaceAll('#', '%2F')) || baseChunkData[boost.includes('~') ? boost.split('~')[1] : 'items'].hasOwnProperty(boost.split('~')[0].replaceAll('%2F', '#')))) {
                             if (boost !== 'Crystal saw') {
-                                if (typeof chunkInfo['codeItems']['boostItems'][skill][boost] === 'string') {
+                                if (typeof chunkInfo['codeItems']['boostItems'][skill][boost] === 'string' && chunkInfo['codeItems']['boostItems'][skill][boost].includes('%+')) {
                                     let stringSplit = chunkInfo['codeItems']['boostItems'][skill][boost].split('%+');
                                     let possibleBoost = Math.floor(valids[skill][challenge] * stringSplit[0] / 100 + parseInt(stringSplit[1]));
                                     possibleBoost = Math.floor((valids[skill][challenge] - possibleBoost) * stringSplit[0] / 100 + parseInt(stringSplit[1]));
+                                    if (possibleBoost > bestBoost) {
+                                        bestBoost = possibleBoost;
+                                    }
+                                } else if (typeof chunkInfo['codeItems']['boostItems'][skill][boost] === 'string' && chunkInfo['codeItems']['boostItems'][skill][boost].includes('xp*')) {
+                                    let stringSplit = chunkInfo['codeItems']['boostItems'][skill][boost].split('xp*');
+                                    let tempXp = 0;
+                                    let possibleBoost = 0;
+                                    while (parseInt(Object.keys(xpTable).filter(lvl => xpTable[lvl] > tempXp)[0]) + possibleBoost < valids[skill][challenge]) {
+                                        tempXp += parseInt(stringSplit[0]);
+                                        possibleBoost = Math.floor(tempXp / parseInt(stringSplit[0])) * parseInt(stringSplit[1]);
+                                    }
                                     if (possibleBoost > bestBoost) {
                                         bestBoost = possibleBoost;
                                     }
@@ -6629,6 +6662,234 @@ let calcBIS = function() {
                     }
                 }
             }
+        } else if (skill === 'Necromancy') {
+            // Non-set DPS
+            let equipment_bonus = { 'accuracy': 0, 'damage': 0, 'necromancy': 0, 'armour': 0, 'lp': 0 };
+            if (bestDps === -1) {
+                Object.keys(bestEquipment).forEach(slot => { equipment_bonus['accuracy'] += chunkInfo['equipment'][bestEquipment[slot]].accuracy || 0; equipment_bonus['damage'] += chunkInfo['equipment'][bestEquipment[slot]].damage || 0; equipment_bonus['necromancy'] += chunkInfo['equipment'][bestEquipment[slot]].necromancy || 0; equipment_bonus['armour'] += chunkInfo['equipment'][bestEquipment[slot]].armour || 0; equipment_bonus['lp'] += chunkInfo['equipment'][bestEquipment[slot]].lp || 0 });
+            }
+            // Warpriest of Tuska
+            validWearable = true;
+            tempEquipment = ['Warpriest of Tuska helm', 'Warpriest of Tuska cuirass', 'Warpriest of Tuska robe legs', 'Warpriest of Tuska cape', 'Warpriest of Tuska boots', 'Warpriest of Tuska gauntlets'];
+            tempEquipment.some(equip => {
+                if (!baseChunkData['items'].hasOwnProperty(equip)) {
+                    validWearable = false;
+                    return true;
+                }
+                if (baseChunkData['items'].hasOwnProperty(equip) && !!chunkInfo['equipment'][equip].requirements && Object.keys(chunkInfo['equipment'][equip].requirements).filter(skill => !primarySkill[skill] && (!passiveSkill || !passiveSkill.hasOwnProperty(skill) || passiveSkill[skill] < chunkInfo['equipment'][equip].requirements[skill])).length > 0) {
+                    validWearable = false;
+                    return true;
+                }
+            });
+            if (validWearable) {
+                let itemList = ['Warpriest of Tuska helm', 'Warpriest of Tuska cuirass', 'Warpriest of Tuska robe legs', 'Warpriest of Tuska cape', 'Warpriest of Tuska boots', 'Warpriest of Tuska gauntlets'];
+                let slotMapping = {'head': true, 'torso': true, 'legs': true, 'back': true, 'feet': true, 'hands': true};
+                let allValid = true;
+                itemList.forEach(item => {
+                    let tempTempValid = false;
+                    if (Object.keys(baseChunkData['items'][item]).filter(source => !baseChunkData['items'][item][source].includes('-') || !processingSkill[baseChunkData['items'][item][source].split('-')[1]] || rules['Wield Crafted Items'] || baseChunkData['items'][item][source].split('-')[1] === 'Slayer').length > 0) {
+                        let article = vowels.includes(item.toLowerCase().charAt(0)) ? ' an ' : ' a ';
+                        article = (item.toLowerCase().charAt(item.toLowerCase().length - 1) === 's' || (item.toLowerCase().charAt(item.toLowerCase().length - 1) === ')' && item.toLowerCase().split('(')[0].trim().charAt(item.toLowerCase().split('(')[0].trim().length - 1) === 's')) ? ' ' : article;
+                        (!backlog['BiS'] || !backlog['BiS'].hasOwnProperty('Obtain' + article + '~|' + item.toLowerCase() + '|~')) && (tempTempValid = true);
+                    }
+                    if (!tempTempValid) {
+                        allValid = false;
+                        return true;
+                    }
+                });
+                if (allValid) {
+                    let tempSetSlots = [-1, -1, -1, 0, 0, 0];
+                    for (let aSlot = tempSetSlots[0] === -1 || tempSetSlots[1] === -1 || tempSetSlots[2] === -1 ? -1 : 0; aSlot < itemList.length; aSlot++) {
+                        tempSetSlots[0] = aSlot;
+                        for (let bSlot = tempSetSlots[1] === -1 || tempSetSlots[2] === -1 ? -1 : (tempSetSlots[0] === -1 ? 0 : aSlot + 1); bSlot < itemList.length; bSlot++) {
+                            tempSetSlots[1] = bSlot;
+                            for (let cSlot = tempSetSlots[2] === -1 ? -1 : (tempSetSlots[1] === -1 ? 0 : bSlot + 1); cSlot < itemList.length; cSlot++) {
+                                tempSetSlots[2] = cSlot;
+                                for (let dSlot = tempSetSlots[2] === -1 ? 0 : cSlot + 1; dSlot < itemList.length; dSlot++) {
+                                    tempSetSlots[3] = dSlot;
+                                    for (let eSlot = dSlot + 1; eSlot < itemList.length; eSlot++) {
+                                        tempSetSlots[4] = eSlot;
+                                        for (let fSlot = eSlot + 1; fSlot < itemList.length; fSlot++) {
+                                            tempSetSlots[5] = fSlot;
+                                            let equipment_bonus_set = { 'accuracy': 0, 'damage': 0, 'necromancy': 0, 'armour': 0, 'lp': 0 };
+                                            Object.keys(bestEquipment).filter(slot => Object.keys(slotMapping).indexOf(slot) === - 1 || !tempSetSlots.includes(Object.keys(slotMapping).indexOf(slot))).forEach(slot => { equipment_bonus_set['accuracy'] += chunkInfo['equipment'][bestEquipment[slot]].accuracy || 0; equipment_bonus_set['damage'] += chunkInfo['equipment'][bestEquipment[slot]].damage || 0; equipment_bonus_set['necromancy'] += chunkInfo['equipment'][bestEquipment[slot]].necromancy || 0; equipment_bonus_set['armour'] += chunkInfo['equipment'][bestEquipment[slot]].armour || 0; equipment_bonus_set['lp'] += chunkInfo['equipment'][bestEquipment[slot]].lp || 0 });
+                                            itemList.filter((item, index) => tempSetSlots.includes(index)).forEach(item => { equipment_bonus_set['accuracy'] += chunkInfo['equipment'][item].accuracy || 0; equipment_bonus_set['damage'] += chunkInfo['equipment'][item].damage || 0; equipment_bonus_set['necromancy'] += chunkInfo['equipment'][item].necromancy || 0; equipment_bonus_set['armour'] += chunkInfo['equipment'][item].armour || 0; equipment_bonus_set['lp'] += chunkInfo['equipment'][item].lp || 0 });
+                                            equipment_bonus_set['necromancy'] += (20 * tempSetSlots.filter(el => el !== -1).length);
+                                            let equipment_bonus_partial = { 'accuracy': 0, 'damage': 0, 'necromancy': 0, 'armour': 0, 'lp': 0 };
+                                            Object.keys(bestEquipment).filter(slot => Object.keys(resultingAdditionsBonus).length === 0 || !resultingAdditions.hasOwnProperty(slot)).forEach(slot => { equipment_bonus_partial['accuracy'] += chunkInfo['equipment'][bestEquipment[slot]].accuracy || 0; equipment_bonus_partial['damage'] += chunkInfo['equipment'][bestEquipment[slot]].damage || 0; equipment_bonus_partial['necromancy'] += chunkInfo['equipment'][bestEquipment[slot]].necromancy || 0; equipment_bonus_partial['armour'] += chunkInfo['equipment'][bestEquipment[slot]].armour || 0; equipment_bonus_partial['lp'] += chunkInfo['equipment'][bestEquipment[slot]].lp || 0 });
+                                            if ((equipment_bonus_set['accuracy'] + equipment_bonus_set['damage'] > ((equipment_bonus_partial['accuracy'] + (Object.keys(resultingAdditionsBonus).length === 0 ? 0 : resultingAdditionsBonus['accuracy'])) * (Object.keys(resultingAdditionsBonus).length === 0 ? 1 : resultingAdditionsBonus['accuracy-mult'])) + ((equipment_bonus_partial['damage'] + (Object.keys(resultingAdditionsBonus).length === 0 ? 0 : resultingAdditionsBonus['damage'])) * (Object.keys(resultingAdditionsBonus).length === 0 ? 1 : resultingAdditionsBonus['damage-mult']))) ||
+                                                (equipment_bonus_set['accuracy'] + equipment_bonus_set['damage'] === ((equipment_bonus_partial['accuracy'] + (Object.keys(resultingAdditionsBonus).length === 0 ? 0 : resultingAdditionsBonus['accuracy'])) * (Object.keys(resultingAdditionsBonus).length === 0 ? 1 : resultingAdditionsBonus['accuracy-mult'])) + ((equipment_bonus_partial['damage'] + (Object.keys(resultingAdditionsBonus).length === 0 ? 0 : resultingAdditionsBonus['damage'])) * (Object.keys(resultingAdditionsBonus).length === 0 ? 1 : resultingAdditionsBonus['damage-mult'])) && equipment_bonus_set['necromancy'] > equipment_bonus_partial['necromancy'] + (Object.keys(resultingAdditionsBonus).length === 0 ? 0 : resultingAdditionsBonus['necromancy'])) ||
+                                                (equipment_bonus_set['accuracy'] + equipment_bonus_set['damage'] === ((equipment_bonus_partial['accuracy'] + (Object.keys(resultingAdditionsBonus).length === 0 ? 0 : resultingAdditionsBonus['accuracy'])) * (Object.keys(resultingAdditionsBonus).length === 0 ? 1 : resultingAdditionsBonus['accuracy-mult'])) + ((equipment_bonus_partial['damage'] + (Object.keys(resultingAdditionsBonus).length === 0 ? 0 : resultingAdditionsBonus['damage'])) * (Object.keys(resultingAdditionsBonus).length === 0 ? 1 : resultingAdditionsBonus['damage-mult'])) && equipment_bonus_set['necromancy'] === equipment_bonus_partial['necromancy'] + (Object.keys(resultingAdditionsBonus).length === 0 ? 0 : resultingAdditionsBonus['necromancy']) && equipment_bonus_set['armour'] > ((equipment_bonus_partial['armour'] + (Object.keys(resultingAdditionsBonus).length === 0 ? 0 : resultingAdditionsBonus['armour'])) * (Object.keys(resultingAdditionsBonus).length === 0 ? 1 : resultingAdditionsBonus['armour-mult']))) ||
+                                                (equipment_bonus_set['accuracy'] + equipment_bonus_set['damage'] === ((equipment_bonus_partial['accuracy'] + (Object.keys(resultingAdditionsBonus).length === 0 ? 0 : resultingAdditionsBonus['accuracy'])) * (Object.keys(resultingAdditionsBonus).length === 0 ? 1 : resultingAdditionsBonus['accuracy-mult'])) + ((equipment_bonus_partial['damage'] + (Object.keys(resultingAdditionsBonus).length === 0 ? 0 : resultingAdditionsBonus['damage'])) * (Object.keys(resultingAdditionsBonus).length === 0 ? 1 : resultingAdditionsBonus['damage-mult'])) && equipment_bonus_set['necromancy'] === equipment_bonus_partial['necromancy'] + (Object.keys(resultingAdditionsBonus).length === 0 ? 0 : resultingAdditionsBonus['necromancy']) && equipment_bonus_set['armour'] === ((equipment_bonus_partial['armour'] + (Object.keys(resultingAdditionsBonus).length === 0 ? 0 : resultingAdditionsBonus['armour'])) * (Object.keys(resultingAdditionsBonus).length === 0 ? 1 : resultingAdditionsBonus['armour-mult'])) && equipment_bonus_set['lp'] > equipment_bonus_partial['lp'] + (Object.keys(resultingAdditionsBonus).length === 0 ? 0 : resultingAdditionsBonus['lp']))) {
+                                                bestDps = 1;
+                                                resultingAdditions = {};
+                                                resultingAdditionsBonus = { 'accuracy': 0, 'damage': 0, 'necromancy': 0, 'armour': 0, 'lp': 0, 'accuracy-mult': 1, 'damage-mult': 1, 'armour-mult': 1 };
+                                                itemList.filter((item, index) => tempSetSlots.includes(index)).forEach(item => {
+                                                    resultingAdditions[chunkInfo['equipment'][item].slot] = item;
+                                                    resultingAdditionsBonus['accuracy'] += chunkInfo['equipment'][item].accuracy || 0;
+                                                    resultingAdditionsBonus['damage'] += chunkInfo['equipment'][item].damage || 0;
+                                                    resultingAdditionsBonus['necromancy'] += chunkInfo['equipment'][item].necromancy || 0;
+                                                    resultingAdditionsBonus['armour'] += chunkInfo['equipment'][item].armour || 0;
+                                                    resultingAdditionsBonus['lp'] += chunkInfo['equipment'][item].lp || 0;
+                                                });
+                                                resultingAdditionsBonus['necromancy'] += (20 * tempSetSlots.filter(el => el !== -1).length);
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+            // Warpriest of Saradomin
+            validWearable = true;
+            tempEquipment = ['Warpriest of Saradomin helm', 'Warpriest of Saradomin cuirass', 'Warpriest of Saradomin greaves', 'Warpriest of Saradomin cape', 'Warpriest of Saradomin boots', 'Warpriest of Saradomin gauntlets'];
+            tempEquipment.some(equip => {
+                if (!baseChunkData['items'].hasOwnProperty(equip)) {
+                    validWearable = false;
+                    return true;
+                }
+                if (baseChunkData['items'].hasOwnProperty(equip) && !!chunkInfo['equipment'][equip].requirements && Object.keys(chunkInfo['equipment'][equip].requirements).filter(skill => !primarySkill[skill] && (!passiveSkill || !passiveSkill.hasOwnProperty(skill) || passiveSkill[skill] < chunkInfo['equipment'][equip].requirements[skill])).length > 0) {
+                    validWearable = false;
+                    return true;
+                }
+            });
+            if (validWearable) {
+                let itemList = ['Warpriest of Saradomin helm', 'Warpriest of Saradomin cuirass', 'Warpriest of Saradomin greaves', 'Warpriest of Saradomin cape', 'Warpriest of Saradomin boots', 'Warpriest of Saradomin gauntlets'];
+                let slotMapping = {'head': true, 'torso': true, 'legs': true, 'back': true, 'feet': true, 'hands': true};
+                let allValid = true;
+                itemList.forEach(item => {
+                    let tempTempValid = false;
+                    if (Object.keys(baseChunkData['items'][item]).filter(source => !baseChunkData['items'][item][source].includes('-') || !processingSkill[baseChunkData['items'][item][source].split('-')[1]] || rules['Wield Crafted Items'] || baseChunkData['items'][item][source].split('-')[1] === 'Slayer').length > 0) {
+                        let article = vowels.includes(item.toLowerCase().charAt(0)) ? ' an ' : ' a ';
+                        article = (item.toLowerCase().charAt(item.toLowerCase().length - 1) === 's' || (item.toLowerCase().charAt(item.toLowerCase().length - 1) === ')' && item.toLowerCase().split('(')[0].trim().charAt(item.toLowerCase().split('(')[0].trim().length - 1) === 's')) ? ' ' : article;
+                        (!backlog['BiS'] || !backlog['BiS'].hasOwnProperty('Obtain' + article + '~|' + item.toLowerCase() + '|~')) && (tempTempValid = true);
+                    }
+                    if (!tempTempValid) {
+                        allValid = false;
+                        return true;
+                    }
+                });
+                if (allValid) {
+                    let tempSetSlots = [-1, -1, -1, 0, 0, 0];
+                    for (let aSlot = tempSetSlots[0] === -1 || tempSetSlots[1] === -1 || tempSetSlots[2] === -1 ? -1 : 0; aSlot < itemList.length; aSlot++) {
+                        tempSetSlots[0] = aSlot;
+                        for (let bSlot = tempSetSlots[1] === -1 || tempSetSlots[2] === -1 ? -1 : (tempSetSlots[0] === -1 ? 0 : aSlot + 1); bSlot < itemList.length; bSlot++) {
+                            tempSetSlots[1] = bSlot;
+                            for (let cSlot = tempSetSlots[2] === -1 ? -1 : (tempSetSlots[1] === -1 ? 0 : bSlot + 1); cSlot < itemList.length; cSlot++) {
+                                tempSetSlots[2] = cSlot;
+                                for (let dSlot = tempSetSlots[2] === -1 ? 0 : cSlot + 1; dSlot < itemList.length; dSlot++) {
+                                    tempSetSlots[3] = dSlot;
+                                    for (let eSlot = dSlot + 1; eSlot < itemList.length; eSlot++) {
+                                        tempSetSlots[4] = eSlot;
+                                        for (let fSlot = eSlot + 1; fSlot < itemList.length; fSlot++) {
+                                            tempSetSlots[5] = fSlot;
+                                            let equipment_bonus_set = { 'accuracy': 0, 'damage': 0, 'necromancy': 0, 'armour': 0, 'lp': 0 };
+                                            Object.keys(bestEquipment).filter(slot => Object.keys(slotMapping).indexOf(slot) === - 1 || !tempSetSlots.includes(Object.keys(slotMapping).indexOf(slot))).forEach(slot => { equipment_bonus_set['accuracy'] += chunkInfo['equipment'][bestEquipment[slot]].accuracy || 0; equipment_bonus_set['damage'] += chunkInfo['equipment'][bestEquipment[slot]].damage || 0; equipment_bonus_set['necromancy'] += chunkInfo['equipment'][bestEquipment[slot]].necromancy || 0; equipment_bonus_set['armour'] += chunkInfo['equipment'][bestEquipment[slot]].armour || 0; equipment_bonus_set['lp'] += chunkInfo['equipment'][bestEquipment[slot]].lp || 0 });
+                                            itemList.filter((item, index) => tempSetSlots.includes(index)).forEach(item => { equipment_bonus_set['accuracy'] += chunkInfo['equipment'][item].accuracy || 0; equipment_bonus_set['damage'] += chunkInfo['equipment'][item].damage || 0; equipment_bonus_set['necromancy'] += chunkInfo['equipment'][item].necromancy || 0; equipment_bonus_set['armour'] += chunkInfo['equipment'][item].armour || 0; equipment_bonus_set['lp'] += chunkInfo['equipment'][item].lp || 0 });
+                                            equipment_bonus_set['armour'] *= (1 + (.01 * tempSetSlots.filter(el => el !== -1).length));
+                                            let equipment_bonus_partial = { 'accuracy': 0, 'damage': 0, 'necromancy': 0, 'armour': 0, 'lp': 0 };
+                                            Object.keys(bestEquipment).filter(slot => Object.keys(resultingAdditionsBonus).length === 0 || !resultingAdditions.hasOwnProperty(slot)).forEach(slot => { equipment_bonus_partial['accuracy'] += chunkInfo['equipment'][bestEquipment[slot]].accuracy || 0; equipment_bonus_partial['damage'] += chunkInfo['equipment'][bestEquipment[slot]].damage || 0; equipment_bonus_partial['necromancy'] += chunkInfo['equipment'][bestEquipment[slot]].necromancy || 0; equipment_bonus_partial['armour'] += chunkInfo['equipment'][bestEquipment[slot]].armour || 0; equipment_bonus_partial['lp'] += chunkInfo['equipment'][bestEquipment[slot]].lp || 0 });
+                                            if ((equipment_bonus_set['accuracy'] + equipment_bonus_set['damage'] > ((equipment_bonus_partial['accuracy'] + (Object.keys(resultingAdditionsBonus).length === 0 ? 0 : resultingAdditionsBonus['accuracy'])) * (Object.keys(resultingAdditionsBonus).length === 0 ? 1 : resultingAdditionsBonus['accuracy-mult'])) + ((equipment_bonus_partial['damage'] + (Object.keys(resultingAdditionsBonus).length === 0 ? 0 : resultingAdditionsBonus['damage'])) * (Object.keys(resultingAdditionsBonus).length === 0 ? 1 : resultingAdditionsBonus['damage-mult']))) ||
+                                                (equipment_bonus_set['accuracy'] + equipment_bonus_set['damage'] === ((equipment_bonus_partial['accuracy'] + (Object.keys(resultingAdditionsBonus).length === 0 ? 0 : resultingAdditionsBonus['accuracy'])) * (Object.keys(resultingAdditionsBonus).length === 0 ? 1 : resultingAdditionsBonus['accuracy-mult'])) + ((equipment_bonus_partial['damage'] + (Object.keys(resultingAdditionsBonus).length === 0 ? 0 : resultingAdditionsBonus['damage'])) * (Object.keys(resultingAdditionsBonus).length === 0 ? 1 : resultingAdditionsBonus['damage-mult'])) && equipment_bonus_set['necromancy'] > equipment_bonus_partial['necromancy'] + (Object.keys(resultingAdditionsBonus).length === 0 ? 0 : resultingAdditionsBonus['necromancy'])) ||
+                                                (equipment_bonus_set['accuracy'] + equipment_bonus_set['damage'] === ((equipment_bonus_partial['accuracy'] + (Object.keys(resultingAdditionsBonus).length === 0 ? 0 : resultingAdditionsBonus['accuracy'])) * (Object.keys(resultingAdditionsBonus).length === 0 ? 1 : resultingAdditionsBonus['accuracy-mult'])) + ((equipment_bonus_partial['damage'] + (Object.keys(resultingAdditionsBonus).length === 0 ? 0 : resultingAdditionsBonus['damage'])) * (Object.keys(resultingAdditionsBonus).length === 0 ? 1 : resultingAdditionsBonus['damage-mult'])) && equipment_bonus_set['necromancy'] === equipment_bonus_partial['necromancy'] + (Object.keys(resultingAdditionsBonus).length === 0 ? 0 : resultingAdditionsBonus['necromancy']) && equipment_bonus_set['armour'] > ((equipment_bonus_partial['armour'] + (Object.keys(resultingAdditionsBonus).length === 0 ? 0 : resultingAdditionsBonus['armour'])) * (Object.keys(resultingAdditionsBonus).length === 0 ? 1 : resultingAdditionsBonus['armour-mult']))) ||
+                                                (equipment_bonus_set['accuracy'] + equipment_bonus_set['damage'] === ((equipment_bonus_partial['accuracy'] + (Object.keys(resultingAdditionsBonus).length === 0 ? 0 : resultingAdditionsBonus['accuracy'])) * (Object.keys(resultingAdditionsBonus).length === 0 ? 1 : resultingAdditionsBonus['accuracy-mult'])) + ((equipment_bonus_partial['damage'] + (Object.keys(resultingAdditionsBonus).length === 0 ? 0 : resultingAdditionsBonus['damage'])) * (Object.keys(resultingAdditionsBonus).length === 0 ? 1 : resultingAdditionsBonus['damage-mult'])) && equipment_bonus_set['necromancy'] === equipment_bonus_partial['necromancy'] + (Object.keys(resultingAdditionsBonus).length === 0 ? 0 : resultingAdditionsBonus['necromancy']) && equipment_bonus_set['armour'] === ((equipment_bonus_partial['armour'] + (Object.keys(resultingAdditionsBonus).length === 0 ? 0 : resultingAdditionsBonus['armour'])) * (Object.keys(resultingAdditionsBonus).length === 0 ? 1 : resultingAdditionsBonus['armour-mult'])) && equipment_bonus_set['lp'] > equipment_bonus_partial['lp'] + (Object.keys(resultingAdditionsBonus).length === 0 ? 0 : resultingAdditionsBonus['lp']))) {
+                                                bestDps = 1;
+                                                resultingAdditions = {};
+                                                resultingAdditionsBonus = { 'accuracy': 0, 'damage': 0, 'necromancy': 0, 'armour': 0, 'lp': 0, 'accuracy-mult': 1, 'damage-mult': 1, 'armour-mult': 1 };
+                                                itemList.filter((item, index) => tempSetSlots.includes(index)).forEach(item => {
+                                                    resultingAdditions[chunkInfo['equipment'][item].slot] = item;
+                                                    resultingAdditionsBonus['accuracy'] += chunkInfo['equipment'][item].accuracy || 0;
+                                                    resultingAdditionsBonus['damage'] += chunkInfo['equipment'][item].damage || 0;
+                                                    resultingAdditionsBonus['necromancy'] += chunkInfo['equipment'][item].necromancy || 0;
+                                                    resultingAdditionsBonus['armour'] += chunkInfo['equipment'][item].armour || 0;
+                                                    resultingAdditionsBonus['lp'] += chunkInfo['equipment'][item].lp || 0;
+                                                });
+                                                resultingAdditionsBonus['armour-mult'] = (1 + (.01 * tempSetSlots.filter(el => el !== -1).length));
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+            // Warpriest of Zamorak
+            validWearable = true;
+            tempEquipment = ['Warpriest of Zamorak helm', 'Warpriest of Zamorak cuirass', 'Warpriest of Zamorak greaves', 'Warpriest of Zamorak cape', 'Warpriest of Zamorak boots', 'Warpriest of Zamorak gauntlets'];
+            tempEquipment.some(equip => {
+                if (!baseChunkData['items'].hasOwnProperty(equip)) {
+                    validWearable = false;
+                    return true;
+                }
+                if (baseChunkData['items'].hasOwnProperty(equip) && !!chunkInfo['equipment'][equip].requirements && Object.keys(chunkInfo['equipment'][equip].requirements).filter(skill => !primarySkill[skill] && (!passiveSkill || !passiveSkill.hasOwnProperty(skill) || passiveSkill[skill] < chunkInfo['equipment'][equip].requirements[skill])).length > 0) {
+                    validWearable = false;
+                    return true;
+                }
+            });
+            if (validWearable) {
+                let itemList = ['Warpriest of Zamorak helm', 'Warpriest of Zamorak cuirass', 'Warpriest of Zamorak greaves', 'Warpriest of Zamorak cape', 'Warpriest of Zamorak boots', 'Warpriest of Zamorak gauntlets'];
+                let slotMapping = {'head': true, 'torso': true, 'legs': true, 'back': true, 'feet': true, 'hands': true};
+                let allValid = true;
+                itemList.forEach(item => {
+                    let tempTempValid = false;
+                    if (Object.keys(baseChunkData['items'][item]).filter(source => !baseChunkData['items'][item][source].includes('-') || !processingSkill[baseChunkData['items'][item][source].split('-')[1]] || rules['Wield Crafted Items'] || baseChunkData['items'][item][source].split('-')[1] === 'Slayer').length > 0) {
+                        let article = vowels.includes(item.toLowerCase().charAt(0)) ? ' an ' : ' a ';
+                        article = (item.toLowerCase().charAt(item.toLowerCase().length - 1) === 's' || (item.toLowerCase().charAt(item.toLowerCase().length - 1) === ')' && item.toLowerCase().split('(')[0].trim().charAt(item.toLowerCase().split('(')[0].trim().length - 1) === 's')) ? ' ' : article;
+                        (!backlog['BiS'] || !backlog['BiS'].hasOwnProperty('Obtain' + article + '~|' + item.toLowerCase() + '|~')) && (tempTempValid = true);
+                    }
+                    if (!tempTempValid) {
+                        allValid = false;
+                        return true;
+                    }
+                });
+                if (allValid) {
+                    let tempSetSlots = [-1, -1, -1, 0, 0, 0];
+                    for (let aSlot = tempSetSlots[0] === -1 || tempSetSlots[1] === -1 || tempSetSlots[2] === -1 ? -1 : 0; aSlot < itemList.length; aSlot++) {
+                        tempSetSlots[0] = aSlot;
+                        for (let bSlot = tempSetSlots[1] === -1 || tempSetSlots[2] === -1 ? -1 : (tempSetSlots[0] === -1 ? 0 : aSlot + 1); bSlot < itemList.length; bSlot++) {
+                            tempSetSlots[1] = bSlot;
+                            for (let cSlot = tempSetSlots[2] === -1 ? -1 : (tempSetSlots[1] === -1 ? 0 : bSlot + 1); cSlot < itemList.length; cSlot++) {
+                                tempSetSlots[2] = cSlot;
+                                for (let dSlot = tempSetSlots[2] === -1 ? 0 : cSlot + 1; dSlot < itemList.length; dSlot++) {
+                                    tempSetSlots[3] = dSlot;
+                                    for (let eSlot = dSlot + 1; eSlot < itemList.length; eSlot++) {
+                                        tempSetSlots[4] = eSlot;
+                                        for (let fSlot = eSlot + 1; fSlot < itemList.length; fSlot++) {
+                                            tempSetSlots[5] = fSlot;
+                                            let equipment_bonus_set = { 'accuracy': 0, 'damage': 0, 'necromancy': 0, 'armour': 0, 'lp': 0 };
+                                            Object.keys(bestEquipment).filter(slot => Object.keys(slotMapping).indexOf(slot) === - 1 || !tempSetSlots.includes(Object.keys(slotMapping).indexOf(slot))).forEach(slot => { equipment_bonus_set['accuracy'] += chunkInfo['equipment'][bestEquipment[slot]].accuracy || 0; equipment_bonus_set['damage'] += chunkInfo['equipment'][bestEquipment[slot]].damage || 0; equipment_bonus_set['necromancy'] += chunkInfo['equipment'][bestEquipment[slot]].necromancy || 0; equipment_bonus_set['armour'] += chunkInfo['equipment'][bestEquipment[slot]].armour || 0; equipment_bonus_set['lp'] += chunkInfo['equipment'][bestEquipment[slot]].lp || 0 });
+                                            itemList.filter((item, index) => tempSetSlots.includes(index)).forEach(item => { equipment_bonus_set['accuracy'] += chunkInfo['equipment'][item].accuracy || 0; equipment_bonus_set['damage'] += chunkInfo['equipment'][item].damage || 0; equipment_bonus_set['necromancy'] += chunkInfo['equipment'][item].necromancy || 0; equipment_bonus_set['armour'] += chunkInfo['equipment'][item].armour || 0; equipment_bonus_set['lp'] += chunkInfo['equipment'][item].lp || 0 });
+                                            equipment_bonus_set['armour'] *= (1 + (.01 * tempSetSlots.filter(el => el !== -1).length));
+                                            let equipment_bonus_partial = { 'accuracy': 0, 'damage': 0, 'necromancy': 0, 'armour': 0, 'lp': 0 };
+                                            Object.keys(bestEquipment).filter(slot => Object.keys(resultingAdditionsBonus).length === 0 || !resultingAdditions.hasOwnProperty(slot)).forEach(slot => { equipment_bonus_partial['accuracy'] += chunkInfo['equipment'][bestEquipment[slot]].accuracy || 0; equipment_bonus_partial['damage'] += chunkInfo['equipment'][bestEquipment[slot]].damage || 0; equipment_bonus_partial['necromancy'] += chunkInfo['equipment'][bestEquipment[slot]].necromancy || 0; equipment_bonus_partial['armour'] += chunkInfo['equipment'][bestEquipment[slot]].armour || 0; equipment_bonus_partial['lp'] += chunkInfo['equipment'][bestEquipment[slot]].lp || 0 });
+                                            if ((equipment_bonus_set['accuracy'] + equipment_bonus_set['damage'] > ((equipment_bonus_partial['accuracy'] + (Object.keys(resultingAdditionsBonus).length === 0 ? 0 : resultingAdditionsBonus['accuracy'])) * (Object.keys(resultingAdditionsBonus).length === 0 ? 1 : resultingAdditionsBonus['accuracy-mult'])) + ((equipment_bonus_partial['damage'] + (Object.keys(resultingAdditionsBonus).length === 0 ? 0 : resultingAdditionsBonus['damage'])) * (Object.keys(resultingAdditionsBonus).length === 0 ? 1 : resultingAdditionsBonus['damage-mult']))) ||
+                                                (equipment_bonus_set['accuracy'] + equipment_bonus_set['damage'] === ((equipment_bonus_partial['accuracy'] + (Object.keys(resultingAdditionsBonus).length === 0 ? 0 : resultingAdditionsBonus['accuracy'])) * (Object.keys(resultingAdditionsBonus).length === 0 ? 1 : resultingAdditionsBonus['accuracy-mult'])) + ((equipment_bonus_partial['damage'] + (Object.keys(resultingAdditionsBonus).length === 0 ? 0 : resultingAdditionsBonus['damage'])) * (Object.keys(resultingAdditionsBonus).length === 0 ? 1 : resultingAdditionsBonus['damage-mult'])) && equipment_bonus_set['necromancy'] > equipment_bonus_partial['necromancy'] + (Object.keys(resultingAdditionsBonus).length === 0 ? 0 : resultingAdditionsBonus['necromancy'])) ||
+                                                (equipment_bonus_set['accuracy'] + equipment_bonus_set['damage'] === ((equipment_bonus_partial['accuracy'] + (Object.keys(resultingAdditionsBonus).length === 0 ? 0 : resultingAdditionsBonus['accuracy'])) * (Object.keys(resultingAdditionsBonus).length === 0 ? 1 : resultingAdditionsBonus['accuracy-mult'])) + ((equipment_bonus_partial['damage'] + (Object.keys(resultingAdditionsBonus).length === 0 ? 0 : resultingAdditionsBonus['damage'])) * (Object.keys(resultingAdditionsBonus).length === 0 ? 1 : resultingAdditionsBonus['damage-mult'])) && equipment_bonus_set['necromancy'] === equipment_bonus_partial['necromancy'] + (Object.keys(resultingAdditionsBonus).length === 0 ? 0 : resultingAdditionsBonus['necromancy']) && equipment_bonus_set['armour'] > ((equipment_bonus_partial['armour'] + (Object.keys(resultingAdditionsBonus).length === 0 ? 0 : resultingAdditionsBonus['armour'])) * (Object.keys(resultingAdditionsBonus).length === 0 ? 1 : resultingAdditionsBonus['armour-mult']))) ||
+                                                (equipment_bonus_set['accuracy'] + equipment_bonus_set['damage'] === ((equipment_bonus_partial['accuracy'] + (Object.keys(resultingAdditionsBonus).length === 0 ? 0 : resultingAdditionsBonus['accuracy'])) * (Object.keys(resultingAdditionsBonus).length === 0 ? 1 : resultingAdditionsBonus['accuracy-mult'])) + ((equipment_bonus_partial['damage'] + (Object.keys(resultingAdditionsBonus).length === 0 ? 0 : resultingAdditionsBonus['damage'])) * (Object.keys(resultingAdditionsBonus).length === 0 ? 1 : resultingAdditionsBonus['damage-mult'])) && equipment_bonus_set['necromancy'] === equipment_bonus_partial['necromancy'] + (Object.keys(resultingAdditionsBonus).length === 0 ? 0 : resultingAdditionsBonus['necromancy']) && equipment_bonus_set['armour'] === ((equipment_bonus_partial['armour'] + (Object.keys(resultingAdditionsBonus).length === 0 ? 0 : resultingAdditionsBonus['armour'])) * (Object.keys(resultingAdditionsBonus).length === 0 ? 1 : resultingAdditionsBonus['armour-mult'])) && equipment_bonus_set['lp'] > equipment_bonus_partial['lp'] + (Object.keys(resultingAdditionsBonus).length === 0 ? 0 : resultingAdditionsBonus['lp']))) {
+                                                bestDps = 1;
+                                                resultingAdditions = {};
+                                                resultingAdditionsBonus = { 'accuracy': 0, 'damage': 0, 'necromancy': 0, 'armour': 0, 'lp': 0, 'accuracy-mult': 1, 'damage-mult': 1, 'armour-mult': 1 };
+                                                itemList.filter((item, index) => tempSetSlots.includes(index)).forEach(item => {
+                                                    resultingAdditions[chunkInfo['equipment'][item].slot] = item;
+                                                    resultingAdditionsBonus['accuracy'] += chunkInfo['equipment'][item].accuracy || 0;
+                                                    resultingAdditionsBonus['damage'] += chunkInfo['equipment'][item].damage || 0;
+                                                    resultingAdditionsBonus['necromancy'] += chunkInfo['equipment'][item].necromancy || 0;
+                                                    resultingAdditionsBonus['armour'] += chunkInfo['equipment'][item].armour || 0;
+                                                    resultingAdditionsBonus['lp'] += chunkInfo['equipment'][item].lp || 0;
+                                                });
+                                                resultingAdditionsBonus['armour-mult'] = (1 + (.01 * tempSetSlots.filter(el => el !== -1).length));
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
         } else if (skill === 'Melee Tank') {
             // Non-set DPS
             let equipment_bonus = { 'accuracy': 0, 'ability_damage': 0, 'strength': 0, 'armour': 0, 'lp': 0 };
@@ -7091,6 +7352,160 @@ let calcBIS = function() {
                     }
                 }
             }
+        } else if (skill === 'Necromancy Tank') {
+            // Non-set DPS
+            let equipment_bonus = { 'accuracy': 0, 'damage': 0, 'necromancy': 0, 'armour': 0, 'lp': 0 };
+            if (bestDps === -1) {
+                Object.keys(bestEquipment).forEach(slot => { equipment_bonus['accuracy'] += chunkInfo['equipment'][bestEquipment[slot]].accuracy || 0; equipment_bonus['damage'] += chunkInfo['equipment'][bestEquipment[slot]].damage || 0; equipment_bonus['necromancy'] += chunkInfo['equipment'][bestEquipment[slot]].necromancy || 0; equipment_bonus['armour'] += chunkInfo['equipment'][bestEquipment[slot]].armour || 0; equipment_bonus['lp'] += chunkInfo['equipment'][bestEquipment[slot]].lp || 0 });
+            }
+            // Warpriest of Saradomin
+            validWearable = true;
+            tempEquipment = ['Warpriest of Saradomin helm', 'Warpriest of Saradomin cuirass', 'Warpriest of Saradomin greaves', 'Warpriest of Saradomin cape', 'Warpriest of Saradomin boots', 'Warpriest of Saradomin gauntlets'];
+            tempEquipment.some(equip => {
+                if (!baseChunkData['items'].hasOwnProperty(equip)) {
+                    validWearable = false;
+                    return true;
+                }
+                if (baseChunkData['items'].hasOwnProperty(equip) && !!chunkInfo['equipment'][equip].requirements && Object.keys(chunkInfo['equipment'][equip].requirements).filter(skill => !primarySkill[skill] && (!passiveSkill || !passiveSkill.hasOwnProperty(skill) || passiveSkill[skill] < chunkInfo['equipment'][equip].requirements[skill])).length > 0) {
+                    validWearable = false;
+                    return true;
+                }
+            });
+            if (validWearable) {
+                let itemList = ['Warpriest of Saradomin helm', 'Warpriest of Saradomin cuirass', 'Warpriest of Saradomin greaves', 'Warpriest of Saradomin cape', 'Warpriest of Saradomin boots', 'Warpriest of Saradomin gauntlets'];
+                let slotMapping = {'head': true, 'torso': true, 'legs': true, 'back': true, 'feet': true, 'hands': true};
+                let allValid = true;
+                itemList.forEach(item => {
+                    let tempTempValid = false;
+                    if (Object.keys(baseChunkData['items'][item]).filter(source => !baseChunkData['items'][item][source].includes('-') || !processingSkill[baseChunkData['items'][item][source].split('-')[1]] || rules['Wield Crafted Items'] || baseChunkData['items'][item][source].split('-')[1] === 'Slayer').length > 0) {
+                        let article = vowels.includes(item.toLowerCase().charAt(0)) ? ' an ' : ' a ';
+                        article = (item.toLowerCase().charAt(item.toLowerCase().length - 1) === 's' || (item.toLowerCase().charAt(item.toLowerCase().length - 1) === ')' && item.toLowerCase().split('(')[0].trim().charAt(item.toLowerCase().split('(')[0].trim().length - 1) === 's')) ? ' ' : article;
+                        (!backlog['BiS'] || !backlog['BiS'].hasOwnProperty('Obtain' + article + '~|' + item.toLowerCase() + '|~')) && (tempTempValid = true);
+                    }
+                    if (!tempTempValid) {
+                        allValid = false;
+                        return true;
+                    }
+                });
+                if (allValid) {
+                    let tempSetSlots = [-1, -1, -1, 0, 0, 0];
+                    for (let aSlot = tempSetSlots[0] === -1 || tempSetSlots[1] === -1 || tempSetSlots[2] === -1 ? -1 : 0; aSlot < itemList.length; aSlot++) {
+                        tempSetSlots[0] = aSlot;
+                        for (let bSlot = tempSetSlots[1] === -1 || tempSetSlots[2] === -1 ? -1 : (tempSetSlots[0] === -1 ? 0 : aSlot + 1); bSlot < itemList.length; bSlot++) {
+                            tempSetSlots[1] = bSlot;
+                            for (let cSlot = tempSetSlots[2] === -1 ? -1 : (tempSetSlots[1] === -1 ? 0 : bSlot + 1); cSlot < itemList.length; cSlot++) {
+                                tempSetSlots[2] = cSlot;
+                                for (let dSlot = tempSetSlots[2] === -1 ? 0 : cSlot + 1; dSlot < itemList.length; dSlot++) {
+                                    tempSetSlots[3] = dSlot;
+                                    for (let eSlot = dSlot + 1; eSlot < itemList.length; eSlot++) {
+                                        tempSetSlots[4] = eSlot;
+                                        for (let fSlot = eSlot + 1; fSlot < itemList.length; fSlot++) {
+                                            tempSetSlots[5] = fSlot;
+                                            let equipment_bonus_set = { 'accuracy': 0, 'damage': 0, 'necromancy': 0, 'armour': 0, 'lp': 0 };
+                                            Object.keys(bestEquipment).filter(slot => Object.keys(slotMapping).indexOf(slot) === - 1 || !tempSetSlots.includes(Object.keys(slotMapping).indexOf(slot))).forEach(slot => { equipment_bonus_set['accuracy'] += chunkInfo['equipment'][bestEquipment[slot]].accuracy || 0; equipment_bonus_set['damage'] += chunkInfo['equipment'][bestEquipment[slot]].damage || 0; equipment_bonus_set['necromancy'] += chunkInfo['equipment'][bestEquipment[slot]].necromancy || 0; equipment_bonus_set['armour'] += chunkInfo['equipment'][bestEquipment[slot]].armour || 0; equipment_bonus_set['lp'] += chunkInfo['equipment'][bestEquipment[slot]].lp || 0 });
+                                            itemList.filter((item, index) => tempSetSlots.includes(index)).forEach(item => { equipment_bonus_set['accuracy'] += chunkInfo['equipment'][item].accuracy || 0; equipment_bonus_set['damage'] += chunkInfo['equipment'][item].damage || 0; equipment_bonus_set['necromancy'] += chunkInfo['equipment'][item].necromancy || 0; equipment_bonus_set['armour'] += chunkInfo['equipment'][item].armour || 0; equipment_bonus_set['lp'] += chunkInfo['equipment'][item].lp || 0 });
+                                            equipment_bonus_set['armour'] *= (1 + (.01 * tempSetSlots.filter(el => el !== -1).length));
+                                            let equipment_bonus_partial = { 'accuracy': 0, 'damage': 0, 'necromancy': 0, 'armour': 0, 'lp': 0 };
+                                            Object.keys(bestEquipment).filter(slot => Object.keys(resultingAdditionsBonus).length === 0 || !resultingAdditions.hasOwnProperty(slot)).forEach(slot => { equipment_bonus_partial['accuracy'] += chunkInfo['equipment'][bestEquipment[slot]].accuracy || 0; equipment_bonus_partial['damage'] += chunkInfo['equipment'][bestEquipment[slot]].damage || 0; equipment_bonus_partial['necromancy'] += chunkInfo['equipment'][bestEquipment[slot]].necromancy || 0; equipment_bonus_partial['armour'] += chunkInfo['equipment'][bestEquipment[slot]].armour || 0; equipment_bonus_partial['lp'] += chunkInfo['equipment'][bestEquipment[slot]].lp || 0 });
+                                            if ((equipment_bonus_set['accuracy'] + equipment_bonus_set['damage'] > ((equipment_bonus_partial['accuracy'] + (Object.keys(resultingAdditionsBonus).length === 0 ? 0 : resultingAdditionsBonus['accuracy'])) * (Object.keys(resultingAdditionsBonus).length === 0 ? 1 : resultingAdditionsBonus['accuracy-mult'])) + ((equipment_bonus_partial['damage'] + (Object.keys(resultingAdditionsBonus).length === 0 ? 0 : resultingAdditionsBonus['damage'])) * (Object.keys(resultingAdditionsBonus).length === 0 ? 1 : resultingAdditionsBonus['damage-mult']))) ||
+                                                (equipment_bonus_set['accuracy'] + equipment_bonus_set['damage'] === ((equipment_bonus_partial['accuracy'] + (Object.keys(resultingAdditionsBonus).length === 0 ? 0 : resultingAdditionsBonus['accuracy'])) * (Object.keys(resultingAdditionsBonus).length === 0 ? 1 : resultingAdditionsBonus['accuracy-mult'])) + ((equipment_bonus_partial['damage'] + (Object.keys(resultingAdditionsBonus).length === 0 ? 0 : resultingAdditionsBonus['damage'])) * (Object.keys(resultingAdditionsBonus).length === 0 ? 1 : resultingAdditionsBonus['damage-mult'])) && equipment_bonus_set['necromancy'] > equipment_bonus_partial['necromancy'] + (Object.keys(resultingAdditionsBonus).length === 0 ? 0 : resultingAdditionsBonus['necromancy'])) ||
+                                                (equipment_bonus_set['accuracy'] + equipment_bonus_set['damage'] === ((equipment_bonus_partial['accuracy'] + (Object.keys(resultingAdditionsBonus).length === 0 ? 0 : resultingAdditionsBonus['accuracy'])) * (Object.keys(resultingAdditionsBonus).length === 0 ? 1 : resultingAdditionsBonus['accuracy-mult'])) + ((equipment_bonus_partial['damage'] + (Object.keys(resultingAdditionsBonus).length === 0 ? 0 : resultingAdditionsBonus['damage'])) * (Object.keys(resultingAdditionsBonus).length === 0 ? 1 : resultingAdditionsBonus['damage-mult'])) && equipment_bonus_set['necromancy'] === equipment_bonus_partial['necromancy'] + (Object.keys(resultingAdditionsBonus).length === 0 ? 0 : resultingAdditionsBonus['necromancy']) && equipment_bonus_set['armour'] > ((equipment_bonus_partial['armour'] + (Object.keys(resultingAdditionsBonus).length === 0 ? 0 : resultingAdditionsBonus['armour'])) * (Object.keys(resultingAdditionsBonus).length === 0 ? 1 : resultingAdditionsBonus['armour-mult']))) ||
+                                                (equipment_bonus_set['accuracy'] + equipment_bonus_set['damage'] === ((equipment_bonus_partial['accuracy'] + (Object.keys(resultingAdditionsBonus).length === 0 ? 0 : resultingAdditionsBonus['accuracy'])) * (Object.keys(resultingAdditionsBonus).length === 0 ? 1 : resultingAdditionsBonus['accuracy-mult'])) + ((equipment_bonus_partial['damage'] + (Object.keys(resultingAdditionsBonus).length === 0 ? 0 : resultingAdditionsBonus['damage'])) * (Object.keys(resultingAdditionsBonus).length === 0 ? 1 : resultingAdditionsBonus['damage-mult'])) && equipment_bonus_set['necromancy'] === equipment_bonus_partial['necromancy'] + (Object.keys(resultingAdditionsBonus).length === 0 ? 0 : resultingAdditionsBonus['necromancy']) && equipment_bonus_set['armour'] === ((equipment_bonus_partial['armour'] + (Object.keys(resultingAdditionsBonus).length === 0 ? 0 : resultingAdditionsBonus['armour'])) * (Object.keys(resultingAdditionsBonus).length === 0 ? 1 : resultingAdditionsBonus['armour-mult'])) && equipment_bonus_set['lp'] > equipment_bonus_partial['lp'] + (Object.keys(resultingAdditionsBonus).length === 0 ? 0 : resultingAdditionsBonus['lp']))) {
+                                                bestDps = 1;
+                                                resultingAdditions = {};
+                                                resultingAdditionsBonus = { 'accuracy': 0, 'damage': 0, 'necromancy': 0, 'armour': 0, 'lp': 0, 'accuracy-mult': 1, 'damage-mult': 1, 'armour-mult': 1 };
+                                                itemList.filter((item, index) => tempSetSlots.includes(index)).forEach(item => {
+                                                    resultingAdditions[chunkInfo['equipment'][item].slot] = item;
+                                                    resultingAdditionsBonus['accuracy'] += chunkInfo['equipment'][item].accuracy || 0;
+                                                    resultingAdditionsBonus['damage'] += chunkInfo['equipment'][item].damage || 0;
+                                                    resultingAdditionsBonus['necromancy'] += chunkInfo['equipment'][item].necromancy || 0;
+                                                    resultingAdditionsBonus['armour'] += chunkInfo['equipment'][item].armour || 0;
+                                                    resultingAdditionsBonus['lp'] += chunkInfo['equipment'][item].lp || 0;
+                                                });
+                                                resultingAdditionsBonus['armour-mult'] = (1 + (.01 * tempSetSlots.filter(el => el !== -1).length));
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+            // Warpriest of Zamorak
+            validWearable = true;
+            tempEquipment = ['Warpriest of Zamorak helm', 'Warpriest of Zamorak cuirass', 'Warpriest of Zamorak greaves', 'Warpriest of Zamorak cape', 'Warpriest of Zamorak boots', 'Warpriest of Zamorak gauntlets'];
+            tempEquipment.some(equip => {
+                if (!baseChunkData['items'].hasOwnProperty(equip)) {
+                    validWearable = false;
+                    return true;
+                }
+                if (baseChunkData['items'].hasOwnProperty(equip) && !!chunkInfo['equipment'][equip].requirements && Object.keys(chunkInfo['equipment'][equip].requirements).filter(skill => !primarySkill[skill] && (!passiveSkill || !passiveSkill.hasOwnProperty(skill) || passiveSkill[skill] < chunkInfo['equipment'][equip].requirements[skill])).length > 0) {
+                    validWearable = false;
+                    return true;
+                }
+            });
+            if (validWearable) {
+                let itemList = ['Warpriest of Zamorak helm', 'Warpriest of Zamorak cuirass', 'Warpriest of Zamorak greaves', 'Warpriest of Zamorak cape', 'Warpriest of Zamorak boots', 'Warpriest of Zamorak gauntlets'];
+                let slotMapping = {'head': true, 'torso': true, 'legs': true, 'back': true, 'feet': true, 'hands': true};
+                let allValid = true;
+                itemList.forEach(item => {
+                    let tempTempValid = false;
+                    if (Object.keys(baseChunkData['items'][item]).filter(source => !baseChunkData['items'][item][source].includes('-') || !processingSkill[baseChunkData['items'][item][source].split('-')[1]] || rules['Wield Crafted Items'] || baseChunkData['items'][item][source].split('-')[1] === 'Slayer').length > 0) {
+                        let article = vowels.includes(item.toLowerCase().charAt(0)) ? ' an ' : ' a ';
+                        article = (item.toLowerCase().charAt(item.toLowerCase().length - 1) === 's' || (item.toLowerCase().charAt(item.toLowerCase().length - 1) === ')' && item.toLowerCase().split('(')[0].trim().charAt(item.toLowerCase().split('(')[0].trim().length - 1) === 's')) ? ' ' : article;
+                        (!backlog['BiS'] || !backlog['BiS'].hasOwnProperty('Obtain' + article + '~|' + item.toLowerCase() + '|~')) && (tempTempValid = true);
+                    }
+                    if (!tempTempValid) {
+                        allValid = false;
+                        return true;
+                    }
+                });
+                if (allValid) {
+                    let tempSetSlots = [-1, -1, -1, 0, 0, 0];
+                    for (let aSlot = tempSetSlots[0] === -1 || tempSetSlots[1] === -1 || tempSetSlots[2] === -1 ? -1 : 0; aSlot < itemList.length; aSlot++) {
+                        tempSetSlots[0] = aSlot;
+                        for (let bSlot = tempSetSlots[1] === -1 || tempSetSlots[2] === -1 ? -1 : (tempSetSlots[0] === -1 ? 0 : aSlot + 1); bSlot < itemList.length; bSlot++) {
+                            tempSetSlots[1] = bSlot;
+                            for (let cSlot = tempSetSlots[2] === -1 ? -1 : (tempSetSlots[1] === -1 ? 0 : bSlot + 1); cSlot < itemList.length; cSlot++) {
+                                tempSetSlots[2] = cSlot;
+                                for (let dSlot = tempSetSlots[2] === -1 ? 0 : cSlot + 1; dSlot < itemList.length; dSlot++) {
+                                    tempSetSlots[3] = dSlot;
+                                    for (let eSlot = dSlot + 1; eSlot < itemList.length; eSlot++) {
+                                        tempSetSlots[4] = eSlot;
+                                        for (let fSlot = eSlot + 1; fSlot < itemList.length; fSlot++) {
+                                            tempSetSlots[5] = fSlot;
+                                            let equipment_bonus_set = { 'accuracy': 0, 'damage': 0, 'necromancy': 0, 'armour': 0, 'lp': 0 };
+                                            Object.keys(bestEquipment).filter(slot => Object.keys(slotMapping).indexOf(slot) === - 1 || !tempSetSlots.includes(Object.keys(slotMapping).indexOf(slot))).forEach(slot => { equipment_bonus_set['accuracy'] += chunkInfo['equipment'][bestEquipment[slot]].accuracy || 0; equipment_bonus_set['damage'] += chunkInfo['equipment'][bestEquipment[slot]].damage || 0; equipment_bonus_set['necromancy'] += chunkInfo['equipment'][bestEquipment[slot]].necromancy || 0; equipment_bonus_set['armour'] += chunkInfo['equipment'][bestEquipment[slot]].armour || 0; equipment_bonus_set['lp'] += chunkInfo['equipment'][bestEquipment[slot]].lp || 0 });
+                                            itemList.filter((item, index) => tempSetSlots.includes(index)).forEach(item => { equipment_bonus_set['accuracy'] += chunkInfo['equipment'][item].accuracy || 0; equipment_bonus_set['damage'] += chunkInfo['equipment'][item].damage || 0; equipment_bonus_set['necromancy'] += chunkInfo['equipment'][item].necromancy || 0; equipment_bonus_set['armour'] += chunkInfo['equipment'][item].armour || 0; equipment_bonus_set['lp'] += chunkInfo['equipment'][item].lp || 0 });
+                                            equipment_bonus_set['armour'] *= (1 + (.01 * tempSetSlots.filter(el => el !== -1).length));
+                                            let equipment_bonus_partial = { 'accuracy': 0, 'damage': 0, 'necromancy': 0, 'armour': 0, 'lp': 0 };
+                                            Object.keys(bestEquipment).filter(slot => Object.keys(resultingAdditionsBonus).length === 0 || !resultingAdditions.hasOwnProperty(slot)).forEach(slot => { equipment_bonus_partial['accuracy'] += chunkInfo['equipment'][bestEquipment[slot]].accuracy || 0; equipment_bonus_partial['damage'] += chunkInfo['equipment'][bestEquipment[slot]].damage || 0; equipment_bonus_partial['necromancy'] += chunkInfo['equipment'][bestEquipment[slot]].necromancy || 0; equipment_bonus_partial['armour'] += chunkInfo['equipment'][bestEquipment[slot]].armour || 0; equipment_bonus_partial['lp'] += chunkInfo['equipment'][bestEquipment[slot]].lp || 0 });
+                                            if ((equipment_bonus_set['accuracy'] + equipment_bonus_set['damage'] > ((equipment_bonus_partial['accuracy'] + (Object.keys(resultingAdditionsBonus).length === 0 ? 0 : resultingAdditionsBonus['accuracy'])) * (Object.keys(resultingAdditionsBonus).length === 0 ? 1 : resultingAdditionsBonus['accuracy-mult'])) + ((equipment_bonus_partial['damage'] + (Object.keys(resultingAdditionsBonus).length === 0 ? 0 : resultingAdditionsBonus['damage'])) * (Object.keys(resultingAdditionsBonus).length === 0 ? 1 : resultingAdditionsBonus['damage-mult']))) ||
+                                                (equipment_bonus_set['accuracy'] + equipment_bonus_set['damage'] === ((equipment_bonus_partial['accuracy'] + (Object.keys(resultingAdditionsBonus).length === 0 ? 0 : resultingAdditionsBonus['accuracy'])) * (Object.keys(resultingAdditionsBonus).length === 0 ? 1 : resultingAdditionsBonus['accuracy-mult'])) + ((equipment_bonus_partial['damage'] + (Object.keys(resultingAdditionsBonus).length === 0 ? 0 : resultingAdditionsBonus['damage'])) * (Object.keys(resultingAdditionsBonus).length === 0 ? 1 : resultingAdditionsBonus['damage-mult'])) && equipment_bonus_set['necromancy'] > equipment_bonus_partial['necromancy'] + (Object.keys(resultingAdditionsBonus).length === 0 ? 0 : resultingAdditionsBonus['necromancy'])) ||
+                                                (equipment_bonus_set['accuracy'] + equipment_bonus_set['damage'] === ((equipment_bonus_partial['accuracy'] + (Object.keys(resultingAdditionsBonus).length === 0 ? 0 : resultingAdditionsBonus['accuracy'])) * (Object.keys(resultingAdditionsBonus).length === 0 ? 1 : resultingAdditionsBonus['accuracy-mult'])) + ((equipment_bonus_partial['damage'] + (Object.keys(resultingAdditionsBonus).length === 0 ? 0 : resultingAdditionsBonus['damage'])) * (Object.keys(resultingAdditionsBonus).length === 0 ? 1 : resultingAdditionsBonus['damage-mult'])) && equipment_bonus_set['necromancy'] === equipment_bonus_partial['necromancy'] + (Object.keys(resultingAdditionsBonus).length === 0 ? 0 : resultingAdditionsBonus['necromancy']) && equipment_bonus_set['armour'] > ((equipment_bonus_partial['armour'] + (Object.keys(resultingAdditionsBonus).length === 0 ? 0 : resultingAdditionsBonus['armour'])) * (Object.keys(resultingAdditionsBonus).length === 0 ? 1 : resultingAdditionsBonus['armour-mult']))) ||
+                                                (equipment_bonus_set['accuracy'] + equipment_bonus_set['damage'] === ((equipment_bonus_partial['accuracy'] + (Object.keys(resultingAdditionsBonus).length === 0 ? 0 : resultingAdditionsBonus['accuracy'])) * (Object.keys(resultingAdditionsBonus).length === 0 ? 1 : resultingAdditionsBonus['accuracy-mult'])) + ((equipment_bonus_partial['damage'] + (Object.keys(resultingAdditionsBonus).length === 0 ? 0 : resultingAdditionsBonus['damage'])) * (Object.keys(resultingAdditionsBonus).length === 0 ? 1 : resultingAdditionsBonus['damage-mult'])) && equipment_bonus_set['necromancy'] === equipment_bonus_partial['necromancy'] + (Object.keys(resultingAdditionsBonus).length === 0 ? 0 : resultingAdditionsBonus['necromancy']) && equipment_bonus_set['armour'] === ((equipment_bonus_partial['armour'] + (Object.keys(resultingAdditionsBonus).length === 0 ? 0 : resultingAdditionsBonus['armour'])) * (Object.keys(resultingAdditionsBonus).length === 0 ? 1 : resultingAdditionsBonus['armour-mult'])) && equipment_bonus_set['lp'] > equipment_bonus_partial['lp'] + (Object.keys(resultingAdditionsBonus).length === 0 ? 0 : resultingAdditionsBonus['lp']))) {
+                                                bestDps = 1;
+                                                resultingAdditions = {};
+                                                resultingAdditionsBonus = { 'accuracy': 0, 'damage': 0, 'necromancy': 0, 'armour': 0, 'lp': 0, 'accuracy-mult': 1, 'damage-mult': 1, 'armour-mult': 1 };
+                                                itemList.filter((item, index) => tempSetSlots.includes(index)).forEach(item => {
+                                                    resultingAdditions[chunkInfo['equipment'][item].slot] = item;
+                                                    resultingAdditionsBonus['accuracy'] += chunkInfo['equipment'][item].accuracy || 0;
+                                                    resultingAdditionsBonus['damage'] += chunkInfo['equipment'][item].damage || 0;
+                                                    resultingAdditionsBonus['necromancy'] += chunkInfo['equipment'][item].necromancy || 0;
+                                                    resultingAdditionsBonus['armour'] += chunkInfo['equipment'][item].armour || 0;
+                                                    resultingAdditionsBonus['lp'] += chunkInfo['equipment'][item].lp || 0;
+                                                });
+                                                resultingAdditionsBonus['armour-mult'] = (1 + (.01 * tempSetSlots.filter(el => el !== -1).length));
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
         }
         Object.keys(resultingAdditions).forEach(slot => {
             bestEquipment[slot] = resultingAdditions[slot];
@@ -7226,10 +7641,21 @@ let calcCurrentChallenges2 = function() {
                         Object.keys(chunkInfo['codeItems']['boostItems'][skill]).forEach(boost => {
                             if (baseChunkData.hasOwnProperty(boost.includes('~') ? boost.split('~')[1] : 'items') && (baseChunkData[boost.includes('~') ? boost.split('~')[1] : 'items'].hasOwnProperty(boost.split('~')[0].replaceAll('#', '%2F')) || baseChunkData[boost.includes('~') ? boost.split('~')[1] : 'items'].hasOwnProperty(boost.split('~')[0].replaceAll('%2F', '#')))) {
                                 if (boost !== 'Crystal saw') {
-                                    if (typeof chunkInfo['codeItems']['boostItems'][skill][boost] === 'string') {
+                                    if (typeof chunkInfo['codeItems']['boostItems'][skill][boost] === 'string' && chunkInfo['codeItems']['boostItems'][skill][boost].includes('%+')) {
                                         let stringSplit = chunkInfo['codeItems']['boostItems'][skill][boost].split('%+');
                                         let possibleBoost = Math.floor(globalValids[skill][name] * stringSplit[0] / 100 + parseInt(stringSplit[1]));
                                         possibleBoost = Math.floor((globalValids[skill][name] - possibleBoost) * stringSplit[0] / 100 + parseInt(stringSplit[1]));
+                                        if (possibleBoost > bestBoost) {
+                                            bestBoost = possibleBoost;
+                                        }
+                                    } else if (typeof chunkInfo['codeItems']['boostItems'][skill][boost] === 'string' && chunkInfo['codeItems']['boostItems'][skill][boost].includes('xp*')) {
+                                        let stringSplit = chunkInfo['codeItems']['boostItems'][skill][boost].split('xp*');
+                                        let tempXp = 0;
+                                        let possibleBoost = 0;
+                                        while (parseInt(Object.keys(xpTable).filter(lvl => xpTable[lvl] > tempXp)[0]) + possibleBoost < globalValids[skill][name]) {
+                                            tempXp += parseInt(stringSplit[0]);
+                                            possibleBoost = Math.floor(tempXp / parseInt(stringSplit[0])) * parseInt(stringSplit[1]);
+                                        }
                                         if (possibleBoost > bestBoost) {
                                             bestBoost = possibleBoost;
                                         }
@@ -7260,10 +7686,21 @@ let calcCurrentChallenges2 = function() {
                     Object.keys(chunkInfo['codeItems']['boostItems'][skill]).forEach(boost => {
                         if (baseChunkData.hasOwnProperty(boost.includes('~') ? boost.split('~')[1] : 'items') && (baseChunkData[boost.includes('~') ? boost.split('~')[1] : 'items'].hasOwnProperty(boost.split('~')[0].replaceAll('#', '%2F')) || baseChunkData[boost.includes('~') ? boost.split('~')[1] : 'items'].hasOwnProperty(boost.split('~')[0].replaceAll('%2F', '#')))) {
                             if (boost !== 'Crystal saw') {
-                                if (typeof chunkInfo['codeItems']['boostItems'][skill][boost] === 'string') {
+                                if (typeof chunkInfo['codeItems']['boostItems'][skill][boost] === 'string' && chunkInfo['codeItems']['boostItems'][skill][boost].includes('%+')) {
                                     let stringSplit = chunkInfo['codeItems']['boostItems'][skill][boost].split('%+');
                                     let possibleBoost = Math.floor(globalValids[skill][challenge] * stringSplit[0] / 100 + parseInt(stringSplit[1]));
                                     possibleBoost = Math.floor((globalValids[skill][challenge] - possibleBoost) * stringSplit[0] / 100 + parseInt(stringSplit[1]));
+                                    if (possibleBoost > bestBoost) {
+                                        bestBoost = possibleBoost;
+                                    }
+                                } else if (typeof chunkInfo['codeItems']['boostItems'][skill][boost] === 'string' && chunkInfo['codeItems']['boostItems'][skill][boost].includes('xp*')) {
+                                    let stringSplit = chunkInfo['codeItems']['boostItems'][skill][boost].split('xp*');
+                                    let tempXp = 0;
+                                    let possibleBoost = 0;
+                                    while (parseInt(Object.keys(xpTable).filter(lvl => xpTable[lvl] > tempXp)[0]) + possibleBoost < globalValids[skill][challenge]) {
+                                        tempXp += parseInt(stringSplit[0]);
+                                        possibleBoost = Math.floor(tempXp / parseInt(stringSplit[0])) * parseInt(stringSplit[1]);
+                                    }
                                     if (possibleBoost > bestBoost) {
                                         bestBoost = possibleBoost;
                                     }
@@ -7355,10 +7792,21 @@ let calcCurrentChallenges2 = function() {
                         Object.keys(chunkInfo['codeItems']['boostItems'][subSkill]).forEach(boost => {
                             if (baseChunkData.hasOwnProperty(boost.includes('~') ? boost.split('~')[1] : 'items') && (baseChunkData[boost.includes('~') ? boost.split('~')[1] : 'items'].hasOwnProperty(boost.split('~')[0].replaceAll('#', '%2F')) || baseChunkData[boost.includes('~') ? boost.split('~')[1] : 'items'].hasOwnProperty(boost.split('~')[0].replaceAll('%2F', '#')))) {
                                 if (boost !== 'Crystal saw') {
-                                    if (typeof chunkInfo['codeItems']['boostItems'][subSkill][boost] === 'string') {
+                                    if (typeof chunkInfo['codeItems']['boostItems'][subSkill][boost] === 'string' && chunkInfo['codeItems']['boostItems'][subSkill][boost].includes('%+')) {
                                         let stringSplit = chunkInfo['codeItems']['boostItems'][subSkill][boost].split('%+');
                                         let possibleBoost = Math.floor(globalValids[subSkill][challenge] * stringSplit[0] / 100 + parseInt(stringSplit[1]));
                                         possibleBoost = Math.floor((globalValids[subSkill][challenge] - possibleBoost) * stringSplit[0] / 100 + parseInt(stringSplit[1]));
+                                        if (possibleBoost > bestBoost) {
+                                            bestBoost = possibleBoost;
+                                        }
+                                    } else if (typeof chunkInfo['codeItems']['boostItems'][subSkill][boost] === 'string' && chunkInfo['codeItems']['boostItems'][subSkill][boost].includes('xp*')) {
+                                        let stringSplit = chunkInfo['codeItems']['boostItems'][skill][boost].split('xp*');
+                                        let tempXp = 0;
+                                        let possibleBoost = 0;
+                                        while (parseInt(Object.keys(xpTable).filter(lvl => xpTable[lvl] > tempXp)[0]) + possibleBoost < globalValids[subSkill][challenge]) {
+                                            tempXp += parseInt(stringSplit[0]);
+                                            possibleBoost = Math.floor(tempXp / parseInt(stringSplit[0])) * parseInt(stringSplit[1]);
+                                        }
                                         if (possibleBoost > bestBoost) {
                                             bestBoost = possibleBoost;
                                         }
@@ -7395,10 +7843,22 @@ let calcCurrentChallenges2 = function() {
             Object.keys(chunkInfo['codeItems']['boostItems'][skill]).forEach(boost => {
                 if (baseChunkData.hasOwnProperty(boost.includes('~') ? boost.split('~')[1] : 'items') && (baseChunkData[boost.includes('~') ? boost.split('~')[1] : 'items'].hasOwnProperty(boost.split('~')[0].replaceAll('#', '%2F')) || baseChunkData[boost.includes('~') ? boost.split('~')[1] : 'items'].hasOwnProperty(boost.split('~')[0].replaceAll('%2F', '#')))) {
                     if (boost !== 'Crystal saw') {
-                        if (typeof chunkInfo['codeItems']['boostItems'][skill][boost] === 'string') {
+                        if (typeof chunkInfo['codeItems']['boostItems'][skill][boost] === 'string' && chunkInfo['codeItems']['boostItems'][skill][boost].includes('%+')) {
                             let stringSplit = chunkInfo['codeItems']['boostItems'][skill][boost].split('%+');
                             let possibleBoost = Math.floor(globalValids[skill][challenge] * stringSplit[0] / 100 + parseInt(stringSplit[1]));
                             possibleBoost = Math.floor((globalValids[skill][challenge] - possibleBoost) * stringSplit[0] / 100 + parseInt(stringSplit[1]));
+                            if (possibleBoost > bestBoost) {
+                                bestBoost = possibleBoost;
+                                bestBoostSource = boost;
+                            }
+                        } else if (typeof chunkInfo['codeItems']['boostItems'][skill][boost] === 'string' && chunkInfo['codeItems']['boostItems'][skill][boost].includes('xp*')) {
+                            let stringSplit = chunkInfo['codeItems']['boostItems'][skill][boost].split('xp*');
+                            let tempXp = 0;
+                            let possibleBoost = 0;
+                            while (parseInt(Object.keys(xpTable).filter(lvl => xpTable[lvl] > tempXp)[0]) + possibleBoost < globalValids[skill][challenge]) {
+                                tempXp += parseInt(stringSplit[0]);
+                                possibleBoost = Math.floor(tempXp / parseInt(stringSplit[0])) * parseInt(stringSplit[1]);
+                            }
                             if (possibleBoost > bestBoost) {
                                 bestBoost = possibleBoost;
                                 bestBoostSource = boost;
