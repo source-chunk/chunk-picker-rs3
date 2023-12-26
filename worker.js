@@ -3165,12 +3165,12 @@ let calcChallengesWork = function(chunks, baseChunkData, oldTempItemSkill) {
                                         }
                                         nonskill[items[plus][source].split('-')[1]][source] = true;
                                     }
-                                    if ((!processingSkill[items[plus][source].split('-')[1]] || rules['Multi Step Processing']) && (!items[plus][source].includes('-Farming') || rules['Farming Primary'])) {
+                                    if ((!processingSkill[items[plus][source].split('-')[1]] || rules['Multi Step Processing']) && (!items[plus][source].includes('-Farming') || rules['Farming Primary'] || (chunkInfo['challenges'].hasOwnProperty(items[plus][source].split('-')[1]) && chunkInfo['challenges'][items[plus][source].split('-')[1]].hasOwnProperty(source) && chunkInfo['challenges'][items[plus][source].split('-')[1]][source].hasOwnProperty('Category') && chunkInfo['challenges'][items[plus][source].split('-')[1]][source]['Category'].includes('Token')))) {
                                         tempNonValid = false;
                                         if (!nonskill.hasOwnProperty('Nonskill') || !nonskill['Nonskill'].hasOwnProperty(source)) {
                                             tempValidHard = true;
                                         }
-                                    } else if (!items[plus][source].includes('-Farming') || rules['Farming Primary']) {
+                                    } else if (!items[plus][source].includes('-Farming') || rules['Farming Primary'] || (chunkInfo['challenges'].hasOwnProperty(items[plus][source].split('-')[1]) && chunkInfo['challenges'][items[plus][source].split('-')[1]].hasOwnProperty(source) && chunkInfo['challenges'][items[plus][source].split('-')[1]][source].hasOwnProperty('Category') && chunkInfo['challenges'][items[plus][source].split('-')[1]][source]['Category'].includes('Token'))) {
                                         tempMultiStepSkill[skill][name] = true;
                                     }
                                 });
@@ -3214,12 +3214,12 @@ let calcChallengesWork = function(chunks, baseChunkData, oldTempItemSkill) {
                                         }
                                         nonskill[items[item.replaceAll(/\*/g, '')][source].split('-')[1]][source] = true;
                                     }
-                                    if ((!processingSkill[items[item.replaceAll(/\*/g, '')][source].split('-')[1]] || rules['Multi Step Processing']) && (!items[item.replaceAll(/\*/g, '')][source].includes('-Farming') || rules['Farming Primary'])) {
+                                    if ((!processingSkill[items[item.replaceAll(/\*/g, '')][source].split('-')[1]] || rules['Multi Step Processing']) && (!items[item.replaceAll(/\*/g, '')][source].includes('-Farming') || rules['Farming Primary'] || (chunkInfo['challenges'].hasOwnProperty(items[item.replaceAll(/\*/g, '')][source].split('-')[1]) && chunkInfo['challenges'][items[item.replaceAll(/\*/g, '')][source].split('-')[1]].hasOwnProperty(source) && chunkInfo['challenges'][items[item.replaceAll(/\*/g, '')][source].split('-')[1]][source].hasOwnProperty('Category') && chunkInfo['challenges'][items[item.replaceAll(/\*/g, '')][source].split('-')[1]][source]['Category'].includes('Token')))) {
                                         tempNonValid = false;
                                         if (!nonskill.hasOwnProperty('Nonskill') || !nonskill['Nonskill'].hasOwnProperty(source)) {
                                             tempValidHard = true;
                                         }
-                                    } else if (!items[item.replaceAll(/\*/g, '')][source].includes('-Farming') || rules['Farming Primary']) {
+                                    } else if (!items[item.replaceAll(/\*/g, '')][source].includes('-Farming') || rules['Farming Primary'] || (chunkInfo['challenges'].hasOwnProperty(items[item.replaceAll(/\*/g, '')][source].split('-')[1]) && chunkInfo['challenges'][items[item.replaceAll(/\*/g, '')][source].split('-')[1]].hasOwnProperty(source) && chunkInfo['challenges'][items[item.replaceAll(/\*/g, '')][source].split('-')[1]][source].hasOwnProperty('Category') && chunkInfo['challenges'][items[item.replaceAll(/\*/g, '')][source].split('-')[1]][source]['Category'].includes('Token'))) {
                                         tempMultiStepSkill[skill][name] = true;
                                     }
                                 });
