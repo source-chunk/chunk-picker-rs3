@@ -3706,7 +3706,7 @@ let checkPrimaryMethod = function(skill, valids, baseChunkData) {
 // Calcs the BIS gear
 let calcBIS = function() {
     let combatStyles = ['Melee', 'Ranged', 'Magic'];
-    if (!rules['F2P']) {
+    if (!rules['F2P'] && chunks.hasOwnProperty('City of Um')) {
         combatStyles.push('Necromancy');
     }
     let primarySkill = {};
