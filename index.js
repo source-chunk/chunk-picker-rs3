@@ -1365,7 +1365,7 @@ mapImg.addEventListener("load", e => {
         centerCanvas('quick');
     }
 });
-mapImg.src = "runescape_world_map.png?v=5.5.39.4";
+mapImg.src = "runescape_world_map.png?v=5.5.39.5";
 
 // Rounded rectangle
 CanvasRenderingContext2D.prototype.roundRect = function (x, y, w, h, r) {
@@ -2642,7 +2642,7 @@ let calcCurrentChallengesCanvas = function(useOld, proceed) {
         setCalculating('.panel-active', useOld);
         setCurrentChallenges(['No tasks currently backlogged.'], ['No tasks currently completed.'], true, true);
         myWorker.terminate();
-        myWorker = new Worker("./worker.js?v=5.5.39.4");
+        myWorker = new Worker("./worker.js?v=5.5.39.5");
         myWorker.onmessage = workerOnMessage;
         myWorker.postMessage(['current', tempChunks['unlocked'], rules, chunkInfo, skillNames, processingSkill, maybePrimary, combatSkills, monstersPlus, objectsPlus, chunksPlus, itemsPlus, mixPlus, npcsPlus, tasksPlus, tools, elementalRunes, manualTasks, completedChallenges, backlog, "1/" + rules['Rare Drop Amount'], universalPrimary, elementalStaves, rangedItems, boneItems, highestCurrent, dropTables, possibleAreas, randomLoot, magicTools, bossLogs, bossMonsters, minigameShops, manualEquipment, checkedChallenges, backloggedSources, altChallenges, manualMonsters, slayerLocked, passiveSkill, f2pSkills, assignedXpRewards, mid === diary2Tier, manualAreas, "1/" + rules['Secondary Primary Amount'], mid === manualAreasOnly]);
         workerOut = 1;
@@ -2886,8 +2886,8 @@ $(document).ready(function() {
 // ------------------------------------------------------------
 
 // Recieve message from worker
-let myWorker = new Worker("./worker.js?v=5.5.39.4");
-let myWorker2 = new Worker("./worker.js?v=5.5.39.4");
+let myWorker = new Worker("./worker.js?v=5.5.39.5");
+let myWorker2 = new Worker("./worker.js?v=5.5.39.5");
 let workerOnMessage = function(e) {
     if (e.data[0] === 'error') {
         $('.panel-active > .calculating > .inner-loading-bar').css('background-color', 'red');
@@ -5394,7 +5394,7 @@ let calcFutureChallenges = function() {
         i++;
     }
     myWorker2.terminate();
-    myWorker2 = new Worker("./worker.js?v=5.5.39.4");
+    myWorker2 = new Worker("./worker.js?v=5.5.39.5");
     myWorker2.onmessage = workerOnMessage;
     myWorker2.postMessage(['future', chunks, rules, chunkInfo, skillNames, processingSkill, maybePrimary, combatSkills, monstersPlus, objectsPlus, chunksPlus, itemsPlus, mixPlus, npcsPlus, tasksPlus, tools, elementalRunes, manualTasks, completedChallenges, backlog, "1/" + rules['Rare Drop Amount'], universalPrimary, elementalStaves, rangedItems, boneItems, highestCurrent, dropTables, possibleAreas, randomLoot, magicTools, bossLogs, bossMonsters, minigameShops, manualEquipment, checkedChallenges, backloggedSources, altChallenges, manualMonsters, slayerLocked, passiveSkill, f2pSkills, assignedXpRewards, mid === diary2Tier, manualAreas, "1/" + rules['Secondary Primary Amount'], mid === manualAreasOnly]);
     workerOut++;
@@ -6079,7 +6079,7 @@ let slayerLockedChange = function() {
     let val = $('#slayer-locked-dropdown').val();
     let val2 = $('#slayer-locked-input').val();
     if (val !== 'Select a task') {
-        if (!!val2 && parseInt(val2) !== NaN && parseInt(val2) >= 0 && parseInt(val2) <= 99 && parseInt(val2) % 1 === 0) {
+        if (!!val2 && parseInt(val2) !== NaN && parseInt(val2) >= 0 && parseInt(val2) <= 120 && parseInt(val2) % 1 === 0) {
             $('.slayer-locked-proceed').removeClass('disabled');
         } else {
             $('.slayer-locked-proceed').addClass('disabled');
@@ -6097,7 +6097,7 @@ let addSlayerLocked = function(close) {
     } else {
         let task = $('#slayer-locked-dropdown').val();
         let level = !!$('#slayer-locked-input').val() ? parseInt($('#slayer-locked-input').val()) : NaN;
-        if (task !== 'Select a task' && level !== NaN && level >= 0 && level <= 99 && level % 1 === 0) {
+        if (task !== 'Select a task' && level !== NaN && level >= 0 && level <= 120 && level % 1 === 0) {
             if (task !== '') {
                 slayerLocked = {};
                 slayerLocked['monster'] = task;
@@ -6699,7 +6699,7 @@ let openPassiveModal = function(skill) {
 // Triggers onchange of passive skill selection to validate submit button
 let passiveLockedChange = function() {
     let val = $('#passive-skill-input').val();
-    if (!!val && parseInt(val) !== NaN && parseInt(val) >= 0 && parseInt(val) <= 99 && parseInt(val) % 1 === 0) {
+    if (!!val && parseInt(val) !== NaN && parseInt(val) >= 0 && parseInt(val) <= 120 && parseInt(val) % 1 === 0) {
         $('.passive-skill-proceed').removeClass('disabled');
     } else {
         $('.passive-skill-proceed').addClass('disabled');
@@ -6713,7 +6713,7 @@ let addPassiveSkill = function(close, skill) {
         passiveSkillModalOpen = false;
     } else {
         let level = !!$('#passive-skill-input').val() ? parseInt($('#passive-skill-input').val()) : NaN;
-        if (level !== NaN && level >= 0 && level <= 99 && level % 1 === 0) {
+        if (level !== NaN && level >= 0 && level <= 120 && level % 1 === 0) {
             if (!passiveSkill) {
                 passiveSkill = {};
             }
