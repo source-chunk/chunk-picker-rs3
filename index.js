@@ -1026,7 +1026,7 @@ let challengeArr = [];
 let checkedChallenges = {};
 let backlog = {};
 let completedChallenges = {};
-let possibleAreas = {}
+let possibleAreas = {};
 let manualAreas = {};
 let manualSections = {};
 let areasStructure = {};
@@ -1301,7 +1301,7 @@ let signInAttempts = 0;
 let expandChallengeStr = '';
 let detailsStack = [];
 
-let currentVersion = '6.1.4';
+let currentVersion = '6.1.5';
 let patchNotesVersion = '6.0.0';
 
 // Patreon Test Server Data
@@ -1411,7 +1411,7 @@ mapImg.addEventListener("load", e => {
         centerCanvas('quick');
     }
 });
-mapImg.src = "runescape_world_map.png?v=6.1.4";
+mapImg.src = "runescape_world_map.png?v=6.1.5";
 
 // Rounded rectangle
 CanvasRenderingContext2D.prototype.roundRect = function (x, y, w, h, r) {
@@ -2509,7 +2509,7 @@ let setRecentRoll = function(chunkId) {
 }
 
 // Pick button: picks a random chunk from selected/potential
-let pickCanvas = function(both) {
+let pickCanvas = function(both, override) {
     if (!testMode && (locked || importMenuOpen || highscoreMenuOpen || helpMenuOpen || patchNotesOpen || manualModalOpen || detailsModalOpen || notesModalOpen || rulesModalOpen || settingsModalOpen || randomModalOpen || randomListModalOpen || statsErrorModalOpen || searchModalOpen || searchDetailsModalOpen || highestModalOpen || highest2ModalOpen || methodsModalOpen || completeModalOpen || addEquipmentModalOpen || stickerModalOpen || backlogSourcesModalOpen || chunkHistoryModalOpen || challengeAltsModalOpen || manualOuterModalOpen || monsterModalOpen || slayerLockedModalOpen || rollChunkModalOpen || questStepsModalOpen || friendsListModalOpen || friendsAddModalOpen || passiveSkillModalOpen || mapIntroOpen || xpRewardOpen || manualAreasModalOpen || chunkSectionsModalOpen || chunkSectionPickerModalOpen || slayerMasterInfoModalOpen || doableClueStepsModalOpen || clueChunksModalOpen || notesOpen || newTasksOpen || clipboardModalOpen || overlaysModalOpen || exitSandboxWarningModalOpen || mobileMenuOpen || mobileTasksOpen || (unlockedChunks !== 0 && selectedChunks === 0 && !settings['randomStartAlways']))) {
         return;
     }
@@ -2799,7 +2799,7 @@ let calcCurrentChallengesCanvas = function(useOld, proceed, fromLoadData, inputT
         myWorker.terminate();
         return;
     }
-    
+
     let tempSections = inputTempSections || {};
     let manualSectionsModified = {};
     !!manualSections && Object.keys(manualSections).forEach((chunk) => {
@@ -2839,7 +2839,7 @@ let calcCurrentChallengesCanvas = function(useOld, proceed, fromLoadData, inputT
         setCalculating('.panel-active', useOld);
         setCurrentChallenges(['No tasks currently backlogged.'], ['No tasks currently completed.'], true, true);
         myWorker.terminate();
-        myWorker = new Worker("./worker.js?v=6.1.4");
+        myWorker = new Worker("./worker.js?v=6.1.5");
         myWorker.onmessage = workerOnMessage;
         myWorker.postMessage(['current', tempChunks['unlocked'], rules, chunkInfo, skillNames, processingSkill, maybePrimary, combatSkills, monstersPlus, objectsPlus, chunksPlus, itemsPlus, mixPlus, npcsPlus, tasksPlus, tools, elementalRunes, manualTasks, completedChallenges, backlog, "1/" + rules['Rare Drop Amount'], universalPrimary, elementalStaves, rangedItems, boneItems, highestCurrent, dropTables, possibleAreas, randomLoot, magicTools, bossLogs, bossMonsters, minigameShops, manualEquipment, checkedChallenges, backloggedSources, altChallenges, manualMonsters, slayerLocked, passiveSkill, f2pSkills, assignedXpRewards, mid === diary2Tier, manualAreas, "1/" + rules['Secondary Primary Amount'], mid === manualAreasOnly, tempSections, settings['optOutSections']]);
         workerOut = 1;
@@ -2875,6 +2875,7 @@ let handleMouseScroll = function(e) {
                 dir = -1;
             }
         }
+
         let currentMouseX = e.clientX;
         let currentMouseY = e.clientY;
 
@@ -3100,8 +3101,8 @@ $(document).ready(function() {
 // ------------------------------------------------------------
 
 // Recieve message from worker
-let myWorker = new Worker("./worker.js?v=6.1.4");
-let myWorker2 = new Worker("./worker.js?v=6.1.4");
+let myWorker = new Worker("./worker.js?v=6.1.5");
+let myWorker2 = new Worker("./worker.js?v=6.1.5");
 let workerOnMessage = function(e) {
     if (lastUpdated + 2000000 < Date.now() && !hasUpdate) {
         lastUpdated = Date.now();
@@ -3307,7 +3308,7 @@ $(document).ready(function() {
     onMobile = window.mobileCheck();
     !window.location.href.split('?')[1] && $('.loading').hide();
     checkMID(window.location.href.split('?')[1]);
-    console.info('Chunk Picker V2 - Version', currentVersion);
+    console.info('Chunk Picker RS3 - Version', currentVersion);
 
     $('.mid').on('input', function(e) {
         if ((!(/^[a-zA-Z]+$/).test(e.target.value) && e.target.value !== '') || e.target.value.length > 4) {
@@ -3642,7 +3643,7 @@ $(document).on({
             if (overlaysModalOpen) { closeOverlays(); modalJustClosed = true; }
             if (notesOpen && !notesEditing) { closeChunkNotes(); modalJustClosed = true; }
 
-            if (testMode && !rollChunkModalOpen && !modalJustClosed && !mapIntroOpen) {
+            if (testMode && !modalJustClosed && !importMenuOpen && !highscoreMenuOpen && !helpMenuOpen && !patchNotesOpen && !manualModalOpen && !detailsModalOpen && !rulesModalOpen && !settingsModalOpen && !randomModalOpen && !randomListModalOpen && !statsErrorModalOpen && !searchModalOpen && !searchDetailsModalOpen && !highestModalOpen && !highest2ModalOpen && !methodsModalOpen && !completeModalOpen && !notesModalOpen && !addEquipmentModalOpen && !stickerModalOpen && !backlogSourcesModalOpen && !chunkHistoryModalOpen && !challengeAltsModalOpen && !manualOuterModalOpen && !monsterModalOpen && !slayerLockedModalOpen && !rollChunkModalOpen && !questStepsModalOpen && !friendsListModalOpen && !friendsAddModalOpen && !passiveSkillModalOpen && !mapIntroOpen && !xpRewardOpen && !manualAreasModalOpen && !chunkSectionsModalOpen && !chunkSectionPickerModalOpen && !slayerMasterInfoModalOpen && !doableClueStepsModalOpen && !clueChunksModalOpen && !notesOpen && !newTasksOpen && !clipboardModalOpen && !overlaysModalOpen) {
                 warnExitSandbox();
             }
         } else if ((e.keyCode === 37 || e.keyCode === 38 || e.keyCode === 39 || e.keyCode === 40) && !importMenuOpen && !highscoreMenuOpen && !helpMenuOpen && !patchNotesOpen && !manualModalOpen && !detailsModalOpen && !rulesModalOpen && !settingsModalOpen && !randomModalOpen && !randomListModalOpen && !statsErrorModalOpen && !searchModalOpen && !searchDetailsModalOpen && !highestModalOpen && !highest2ModalOpen && !methodsModalOpen && !completeModalOpen && !notesModalOpen && !addEquipmentModalOpen && !stickerModalOpen && !backlogSourcesModalOpen && !chunkHistoryModalOpen && !challengeAltsModalOpen && !manualOuterModalOpen && !monsterModalOpen && !slayerLockedModalOpen && !rollChunkModalOpen && !questStepsModalOpen && !friendsListModalOpen && !friendsAddModalOpen && !passiveSkillModalOpen && !mapIntroOpen && !xpRewardOpen && !manualAreasModalOpen && !chunkSectionsModalOpen && !chunkSectionPickerModalOpen && !slayerMasterInfoModalOpen && !doableClueStepsModalOpen && !clueChunksModalOpen && !notesOpen && !newTasksOpen && !clipboardModalOpen && !overlaysModalOpen && !exitSandboxWarningModalOpen && !mobileMenuOpen && !mobileTasksOpen) {
@@ -3954,8 +3955,9 @@ let saveChunkNotes = function() {
 }
 
 // Opens the new chunk tasks modal
-let openNewTasksModal = function(data) {
+let openNewTasksModal = function(data, expandFuture) {
     newTasksOpen = true;
+    $('.new-tasks-title').text(expandFuture ? 'Potential Chunk Tasks' : 'New Chunk Tasks');
     $('.new-tasks-data').html(data);
     $('#myModal36').show();
     modalOutsideTime = Date.now();
@@ -5359,7 +5361,7 @@ let updateChunkInfo = function() {
                 return $(a).text() > $(b).text() ? 1 : -1;
             });
             connectStr = connectStr.join(', ');
-            
+
             let cluesTemp = {};
             !!chunkInfo['chunks'][id]['Sections'] && Object.keys(chunkInfo['chunks'][id]['Sections']).forEach((section) => {
                 !!chunkInfo['chunks'][id]['Sections'][section]['Clue'] && Object.keys(chunkInfo['chunks'][id]['Sections'][section]['Clue']).sort().forEach((name) => {
@@ -5487,7 +5489,7 @@ let checkPrimaryMethod = function(skill, valids, baseChunkData, wantMethods) {
             }
         } else if (line === 'Combat[+]') {
             let combatExists = false;
-            combatSkills.forEach(skill2 => {
+            combatSkills.forEach((skill2) => {
                 if (checkPrimaryMethod(skill2, valids, baseChunkData)) {
                     combatExists = true;
                 }
@@ -5631,7 +5633,7 @@ setupCurrentChallenges = function(tempChallengeArr, noDisplay, noClear) {
     !!globalValids['BiS'] && Object.keys(globalValids['BiS']).length > 0 && rules['Show Best in Slot Tasks'] && challengeArr.push(`<div class="marker marker-bis noscroll" onclick="expandActive('bis')"><i class="expand-button fas ${activeSubTabs['bis'] ? 'fa-caret-down' : 'fa-caret-right'} noscroll"></i><span class="noscroll">BiS Tasks</span></div>`);
     !!globalValids['BiS'] && rules['Show Best in Slot Tasks'] && Object.keys(globalValids['BiS']).forEach((challenge) => {
         !!globalValids['BiS'][challenge] && globalValids['BiS'][challenge].split(' BiS ')[0].split('/​').forEach((bit) => {
-            if (altChallenges.hasOwnProperty('BiS') && altChallenges['BiS'].hasOwnProperty(bit + ' BiS ' + globalValids['BiS'][challenge.replaceAll(/\%2E/g, '.').replaceAll(/\%2I/g, ',').replaceAll(/\%2F/g, '#').replaceAll(/\%2G/g, '/').replaceAll(/\%2J/g, '[+]')].split(' BiS ')[1]) && bestEquipmentAltsGlobal.hasOwnProperty(bit + ' BiS ' + globalValids['BiS'][challenge.replaceAll(/\%2E/g, '.').replaceAll(/\%2I/g, ',').replaceAll(/\%2F/g, '#').replaceAll(/\%2G/g, '/').replaceAll(/\%2J/g, '[+]')].split(' BiS ')[1]) && bestEquipmentAltsGlobal[bit + ' BiS ' + globalValids['BiS'][challenge.replaceAll(/\%2E/g, '.').replaceAll(/\%2I/g, ',').replaceAll(/\%2F/g, '#').replaceAll(/\%2G/g, '/').replaceAll(/\%2J/g, '[+]')].split(' BiS ')[1]].includes(altChallenges['BiS'][bit + ' BiS ' + globalValids['BiS'][challenge.replaceAll(/\%2E/g, '.').replaceAll(/\%2I/g, ',').replaceAll(/\%2F/g, '#').replaceAll(/\%2G/g, '/').replaceAll(/\%2J/g, '[+]')].split(' BiS ')[1]].split('|')[1].replaceAll(/\%2J/g, '[+]').replaceAll(/\%2Q/g, '!').charAt(0).toUpperCase() + altChallenges['BiS'][bit + ' BiS ' + globalValids['BiS'][challenge.replaceAll(/\%2E/g, '.').replaceAll(/\%2I/g, ',').replaceAll(/\%2F/g, '#').replaceAll(/\%2G/g, '/').replaceAll(/\%2J/g, '[+]')].split(' BiS ')[1]].split('|')[1].replaceAll(/\%2J/g, '[+]').replaceAll(/\%2Q/g, '!').slice(1))) {
+            if (altChallenges.hasOwnProperty('BiS') && altChallenges['BiS'].hasOwnProperty(bit + ' BiS ' + globalValids['BiS'][challenge].split(' BiS ')[1]) && bestEquipmentAltsGlobal.hasOwnProperty(bit + ' BiS ' + globalValids['BiS'][challenge].split(' BiS ')[1]) && bestEquipmentAltsGlobal[bit + ' BiS ' + globalValids['BiS'][challenge].split(' BiS ')[1]].includes(altChallenges['BiS'][bit + ' BiS ' + globalValids['BiS'][challenge].split(' BiS ')[1]].split('|')[1].charAt(0).toUpperCase() + altChallenges['BiS'][bit + ' BiS ' + globalValids['BiS'][challenge].split(' BiS ')[1]].split('|')[1].slice(1))) {
                 highestOverall[bit.replaceAll(' ', '_') + '-' + globalValids['BiS'][challenge].split(' BiS ')[1].split(' BiS ').join('-')] = altChallenges['BiS'][bit + ' BiS ' + globalValids['BiS'][challenge].split(' BiS ')[1]].split('|')[1].charAt(0).toUpperCase() + altChallenges['BiS'][bit + ' BiS ' + globalValids['BiS'][challenge].split(' BiS ')[1]].split('|')[1].slice(1);
             }
         });
@@ -5785,7 +5787,7 @@ let calcFutureChallenges = function() {
     }
     tempSections = combineJSONs(tempSections, manualSections);
     myWorker2.terminate();
-    myWorker2 = new Worker("./worker.js?v=6.1.4");
+    myWorker2 = new Worker("./worker.js?v=6.1.5");
     myWorker2.onmessage = workerOnMessage;
     myWorker2.postMessage(['future', chunks, rules, chunkInfo, skillNames, processingSkill, maybePrimary, combatSkills, monstersPlus, objectsPlus, chunksPlus, itemsPlus, mixPlus, npcsPlus, tasksPlus, tools, elementalRunes, manualTasks, completedChallenges, backlog, "1/" + rules['Rare Drop Amount'], universalPrimary, elementalStaves, rangedItems, boneItems, highestCurrent, dropTables, possibleAreas, randomLoot, magicTools, bossLogs, bossMonsters, minigameShops, manualEquipment, checkedChallenges, backloggedSources, altChallenges, manualMonsters, slayerLocked, passiveSkill, f2pSkills, assignedXpRewards, mid === diary2Tier, manualAreas, "1/" + rules['Secondary Primary Amount'], mid === manualAreasOnly, tempSections, settings['optOutSections']]);
     workerOut++;
@@ -7036,6 +7038,7 @@ let openClipboard = function() {
 // Opens the search within my chunks modal
 let openSearch = function() {
     if (!inEntry && !importMenuOpen && !manualModalOpen && !detailsModalOpen && !notesModalOpen && !highscoreMenuOpen && !helpMenuOpen) {
+        onMobile && hideMobileMenu();
         searchModalOpen = true;
         $('#myModal10').show();
         modalOutsideTime = Date.now();
@@ -7844,8 +7847,8 @@ let openStickers = function(id) {
                 $('.sticker-data').append(`<span class='noscroll sticker-option-container black-outline unset-option' title='${stickerName.charAt(0).toUpperCase() + stickerName.slice(1)}' onclick="setSticker('${id}', '${sticker}')"><i class="noscroll fas fa-ban" style="transform: scaleX(-1)"></i></span>`);
             }
         });
-        $('.sticker-data').append(`<div class='noscroll sticker-data-subheader'>RS3 Stickers</div>`);
-        stickerChoicesRS3.forEach((sticker) => {
+        $('.sticker-data').append(`<div class='noscroll sticker-data-subheader'>OSRS Stickers</div>`);
+        stickerChoicesOsrs.forEach((sticker) => {
             let stickerName = sticker.split('-').join(' ');
             $('.sticker-data').append(`<span class='noscroll sticker-option-container ${sticker}-tag' title='${stickerName.charAt(0).toUpperCase() + stickerName.slice(1)}' onclick="setSticker('${id}', '${sticker}')"><img class="noscroll" src="./resources/SVG/${sticker}-osrs.svg"></span>`);
         });
@@ -8330,7 +8333,7 @@ let closeChunkNotes = function() {
 
 // Manually completes checked-off tasks
 let submitCompleteTasks = function() {
-    completeChallenges(false);
+    completeChallenges(true);
     completeModalOpen = false;
     modalOutsideTime = Date.now();
     $('#myModal14').hide();
@@ -8794,7 +8797,7 @@ let showAlternatives = function(challenge, skill) {
     challenge = decodeQueryParam(challenge);
     challengeAltsModalOpen = true;
     $('#alts-data').empty();
-    !!globalValids[skill] && Object.keys(globalValids[skill]).forEach((chal) => {
+    !!globalValids[skill] && Object.keys(globalValids[skill]).filter(chal => !backlog.hasOwnProperty(skill) || !backlog[skill].hasOwnProperty(chal)).forEach((chal) => {
         if (globalValids[skill][chal] === globalValids[skill][challenge]) {
             if (skill === 'BiS') {
                 $('#alts-data').append(`<div class="alt-challenge noscroll ${skill + '-alt-challenge'}"><label class="radio noscroll ${(!testMode && (viewOnly || inEntry || locked)) ? "radio--disabled" : ''}"><span class="radio__input noscroll"><input type="radio" name="radio" ${(!!highestOverall && Object.values(highestOverall).map(function(y) { return y.toLowerCase() }).includes(chal.split('|')[1].toLowerCase())) ? "checked" : ''} class='noscroll' onclick="checkOffAltChallenge('${skill}', '${encodeRFC5987ValueChars(chal)}')" ${(!testMode && (viewOnly || inEntry || locked)) ? "disabled" : ''}><span class="radio__control noscroll"><svg viewBox='0 0 24 24' aria-hidden="true" focusable="false"><path fill='currentColor' stroke='currentColor' d='M 12 12 m -7.5 0 a 7.5 7.5 90 1 0 15 0 a 7.5 7.5 90 1 0 -15 0' /></svg></span></span><span class="radio__label noscroll"><b class="noscroll"><span class="inner noscroll">${skill}</b>: ${chal.split('~')[0]} <a class='link noscroll' href=${"https://runescape.wiki/w/" + encodeForUrl((chal.split('|')[1]))} target="_blank">${chal.split('~')[1].split('|').join('')}</a> ${chal.split('~')[2]}</span></span></label></div>`);
@@ -9911,6 +9914,7 @@ let loadData = function(startup) {
         gotData = true;
         chunkInfo = data;
         setCodeItems();
+
         skillNames.forEach((skill) => {
             if (!chunkInfo['challenges'][skill]) {
                 chunkInfo['challenges'][skill] = {};
@@ -10010,7 +10014,7 @@ let loadData = function(startup) {
             if (settingsTemp['topButtons'] === undefined) {
                 settingsTemp['topButtons'] = true;
             }
-
+            
             (!settingsTemp['mapIntro'] || (!settingsTemp['startingChunk'] || settingsTemp['startingChunk'] === '0000' || settingsTemp['startingChunk'] === '00000')) && (mapIntroOpenSoon = true);
             justStartingChunkSet = (settingsTemp['mapIntro'] && (!settingsTemp['startingChunk'] || settingsTemp['startingChunk'] === '0000' || settingsTemp['startingChunk'] === '00000'));
             if (!mapIntroOpenSoon) {
