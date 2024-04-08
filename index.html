@@ -9,7 +9,7 @@
 
     gtag('config', 'G-8P0V9GSFJ2');
   </script>
-  <link rel="stylesheet" href="./index.css?v=6.1.5" />
+  <link rel="stylesheet" href="./index.css?v=6.1.6" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
@@ -43,12 +43,12 @@
 <span style="font-family: Roboto Condensed; visibility: hidden">Roboto Condensed</span>
 
 <img class='background-img' draggable='false' src='./Background-chunk.PNG' />
-<img id='mapImg' style="display:none" src='./runescape_world_map.png?v=6.1.5' />
+<img id='mapImg' style="display:none" src='./runescape_world_map.png?v=6.1.6' />
 
 <div class='loading'><div class='loading-inner'></div><div class='loading-hint-1'>Chunk Picker RS3</div><div class='loading-hint-2'></div></div>
 
 <div class='body' data-role="page" ondragstart="() => {return false;}" ondrop="() => {return false;}">
-  <script src="./index.js?v=6.1.5"></script>
+  <script src="./index.js?v=6.1.6"></script>
   <ul class='active-context-menu'>
     <li onclick="switchActiveContext(event, 'backlog')">Backlog</li>
     <li onclick="switchActiveContext(event, 'backlog note')">Backlog Options</li>
@@ -437,13 +437,13 @@
       <div id="patch-notes-data" class="patch-notes-data noscroll">
         <h2 class='noscroll'>Major Changes & New Features</h2>
         <ul class='noscroll'>
-          <li class='noscroll'><b>Chunk Sections</b> - Chunk Sections are the parts that make up a whole chunk, created by a river or fence separating a chunk into pieces. Now that we are able to determine not just what chunks you have access to, but what part of those chunks you have access to, we can much more accurately generate tasks and more! (This feature was a very big undertaking, and surely will have some issues. Report any you find using the Bug Report link in the top bar).<br /><img style="width: 50%;display: flex;margin: auto;" src="https://i.imgur.com/dddnn67.gif" /><br /><i style="display:block;text-align: center;">An example of Chunk Sections in chunk 12596</i></li>
+          <li class='noscroll'><b>Chunk Sections*</b> - Chunk Sections are the parts that make up a whole chunk, created by a river or fence separating a chunk into pieces. Now that we are able to determine not just what chunks you have access to, but what part of those chunks you have access to, we can much more accurately generate tasks and more! (This feature was a very big undertaking, and surely will have some issues. Report any you find using the Bug Report link in the top bar).<br /><img style="width: 50%;display: flex;margin: auto;" src="https://i.imgur.com/dddnn67.gif" /><br /><i style="display:block;text-align: center;">An example of Chunk Sections in chunk 12596 on the OSRS map</i></li>
           <li class='noscroll'><b>Mobile Support</b> - Added much better support for the Chunk Picker on mobile, allowing for nearly everything that can be done on the desktop site to be done on the mobile site too!</li>
           <li class='noscroll'><b>BiS Images</b> - Added equipment images to the BiS Equipment window, to more easily check out what gear is listed there visually.</li>
-          <li class='noscroll'><b>Map Overlays</b> - Added an Overlays button at the bottom-left of the map, to show different overlays overtop your chunk map.</li>
+          <li class='noscroll'><b>Map Overlays*</b> - Added an Overlays button at the bottom-left of the map, to show different overlays overtop your chunk map.</li>
           <li class='noscroll'><b>Chunk Notes Markdown</b> - Changed the Chunk Notes window to have basic support for markdown, allowing more options to customize what you want to display there.</li>
           <li class='noscroll'><b>Chunk Numbering</b> - Changed the way that Selected chunk numbering works, so now it stays the same between reloads of the page. This will cut out confusion when other people look at your map also, since the numbers will be the same for you and them.</li>
-          <li class='noscroll'><b>RS3 Friends</b> - Added the ability to add both OSRS and RS3 Chunk Maps to your Chunk Picker Friends List.</li>
+          <li class='noscroll'><b>OSRS Friends</b> - Added the ability to add both RS3 and OSRS Chunk Maps to your Chunk Picker Friends List.</li>
           <li class='noscroll'><b>Backend Logic</b> - Overhauled the underlying logic for handling special characters in task and item names.</li>
         </ul>
         <h2 class='noscroll'>Other Changes & Bug Fixes</h2>
@@ -452,44 +452,19 @@
           <li class='noscroll'>Added support for pressing the Esc key to exit windows within the Chunk Picker (thanks Happery).</li>
           <li class='noscroll'>Added pre-loading for chunk images before a fancy roll, to prevent them from being partially loaded as the roll happens.</li>
           <li class='noscroll'>Added support for double-searching shops to see their chunk location.</li>
-          <li class='noscroll'>Added a task for raking the Keldagrim farming patch once (thanks ChunkDwarf).</li>
-          <li class='noscroll'>Added the ability to get anti poison from Sigmund's chest in Lumbridge.</li>
-          <li class='noscroll'>Added Scrubfoot's Cave as an Accessible Area.</li>
-          <li class='noscroll'>Added the ability to get uncut red topaz from special crates and boxes.</li>
           <li class='noscroll'>Added the ability to search partial data before tasks load in the Search window.</li>
           <li class='noscroll'>Added console info output of the current version number.</li>
-          <li class='noscroll'>Added new quest Children of the Sun, and removed Zeah favour.</li>
-          <li class='noscroll'>Added new boss Scurrius, the Rat King.</li>
-          <li class='noscroll'>Added Combat Achievemnts for Scurrius and Desert Treasure II bosses.</li>
-          <li class='noscroll'>Added the Poll 80 changes.</li>
-          <li class='noscroll'>Added Forestry Part 3 changes, including the removal of forestry event-spawning items.</li>
           <li class='noscroll'>Added a setting to enable warnings when clicking the 'Pick Chunk' button (thanks Kono Tyran).</li>
-          <li class='noscroll'>Added the ability to get Rocky from Sorceress' Garden.</li>
-          <li class='noscroll'>Added Camdozaal lockbox loot to task calculation.</li>
           <li class='noscroll'>Added wiki links to the Methods and All Tasks lists.</li>
-          <li class='noscroll'>Added various barrels throughout the game that can fill an empty glass with beer.</li>
           <li class='noscroll'>Added bird nest loot to the All Droptables rule.</li>
-          <li class='noscroll'>Added partial product skills tasks for Xtreme-type accounts.</li>
-          <li class='noscroll'>Added missing burnt tree tasks.</li>
-          <li class='noscroll'>Added music and max icon options for Chunk Stickers (thanks ChunkLok9090).</li>
-          <li class='noscroll'>Added a permanent unlockables task to buy a POH (thanks Streammz).</li>
-          <li class='noscroll'>Locked the ore rocks within the Desert Mining Camp underground behind completion of The Tourist Trap.</li>
-          <li class='noscroll'>Locked aberrant sepctres and bloodvelds within the Stronghold Slayer Cave behind completion of Priest in Peril.</li>
-          <li class='noscroll'>Changed the logic with how level 1 woodcutting and mining tools are handled.</li>
-          <li class='noscroll'>Changed the fire in the Ruins of Unkah to be classified as a range for cooking.</li>
-          <li class='noscroll'>Overhauled many tasks to refer to NPCs or Objects instead of Chunks, where possible, to help with Backlogging.</li>
           <li class='noscroll'>Renamed 'Connections' to 'Connected Areas' in the Chunk Info sidebar.</li>
           <li class='noscroll'>Fixed Slayer-monster drops not working with double-search.</li>
           <li class='noscroll'>Fixed an issue with special characters in the Search window.</li>
           <li class='noscroll'>Fixed an issue with Every Drop tasks not including the correct title if the task name has special characters.</li>
           <li class='noscroll'>Fixed an issue where Future Tasks were calculated too often.</li>
-          <li class='noscroll'>Fixed an issue with earth impling loot.</li>
-          <li class='noscroll'>Fixed an error in the 'Giant rat#Stronghold of Security' droptable.</li>
-          <li class='noscroll'>Fixed the dark wizard tower wizards not being excluded from f2p maps.</li>
           <li class='noscroll'>Fixed an issue with missing items from slayer monsters in All Droptables and Every Drop rules.</li>
-          <li class='noscroll'>Fixed an issue with Inquisitor armour showing the wrong wielding requirements (thanks CmwCaelin1).</li>
         </ul>
-        <h3 class='noscroll'>As always, if you experience any issues with your map or anything wrong related to this update, please contact me on Discord at <i class='noscroll hover-copy' onclick="navigator.clipboard.writeText('whitecatblack')">whitecatblack  <i class="fas fa-copy noscroll"></i></i> or submit a bug report <a class='noscroll link' href='https://docs.google.com/forms/d/e/1FAIpQLSc-stwx0VaJHm79LoYQG0rEogzaJ56XHnQtovr2GIX-sZXzaA/viewform' target='_blank'>here</a>.</h3>
+        <h3 class='noscroll'>* <i>Some features will require more work to be fully operational.</i> <br />As always, if you experience any issues with your map or anything wrong related to this update, please contact me on Discord at <i class='noscroll hover-copy' onclick="navigator.clipboard.writeText('whitecatblack')">whitecatblack  <i class="fas fa-copy noscroll"></i></i> or submit a bug report <a class='noscroll link' href='https://docs.google.com/forms/d/e/1FAIpQLSc-stwx0VaJHm79LoYQG0rEogzaJ56XHnQtovr2GIX-sZXzaA/viewform' target='_blank'>here</a>.</h3>
       </div>
       <div id="patch-notes-footer" class="patch-notes-footer noscroll">
         <button id='submit-patch-notes-button' class='modal-button' onclick='dismissPatchNotes()'>Dismiss</button>

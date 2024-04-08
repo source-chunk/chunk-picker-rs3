@@ -2922,10 +2922,10 @@ let calcChallengesWork = function(chunks, baseChunkData, oldTempItemSkill) {
                             validChallenge = false;
                             wrongThings.push(item);
                             nonValids[name] = wrongThings;
-                            chunkInfo['challenges'][skill][name]['ItemsDetails'].push(item.replaceAll(/\*/g, ''));
+                            chunkInfo['challenges'][skill][name]['ItemsDetails'].push(xItem.replaceAll(/\*/g, ''));
                             return true;
                         } else {
-                            chunkInfo['challenges'][skill][name]['ItemsDetails'].push(item.replaceAll(/\*/g, ''));
+                            chunkInfo['challenges'][skill][name]['ItemsDetails'].push(xItem.replaceAll(/\*/g, ''));
                         }
                         if (!multiValid && rules['Multi Step Processing']) {
                             validChallenge = false;
@@ -4236,7 +4236,7 @@ let calcBIS = function() {
                                             !!baseChunkData['items'][plus] && Object.keys(baseChunkData['items'][plus]).filter(source => !baseChunkData['items'][plus][source].includes('-') || !processingSkill[baseChunkData['items'][plus][source].split('-')[1]] || rules['Wield Crafted Items'] || baseChunkData['items'][plus][source].split('-')[1] === 'Slayer' || (chunkInfo['challenges'].hasOwnProperty(baseChunkData['items'][plus][source].split('-')[1]) && chunkInfo['challenges'][baseChunkData['items'][plus][source].split('-')[1]].hasOwnProperty(source) && chunkInfo['challenges'][baseChunkData['items'][plus][source].split('-')[1]][source].hasOwnProperty('NoXp'))).length > 0 && (tempTempValidAmmo = true);
                                             let articleAmmo = vowels.includes(plus.toLowerCase().charAt(0)) ? ' an ' : ' a ';
                                             articleAmmo = (plus.toLowerCase().charAt(plus.toLowerCase().length - 1) === 's' || (plus.toLowerCase().charAt(plus.toLowerCase().length - 1) === ')' && plus.toLowerCase().split('(')[0].trim().charAt(plus.toLowerCase().split('(')[0].trim().length - 1) === 's')) ? ' ' : articleAmmo;
-                                            if (tempTempValidAmmo && (!backlog['BiS'].hasOwnProperty('Obtain' + articleAmmo + '~|' + plus.toLowerCase() + '|~') && !backlog['BiS'].hasOwnProperty('Obtain' + articleAmmo + '~|' + plus.toLowerCase().replaceAll('#', '/') + '|~'))) {
+                                            if (tempTempValidAmmo && (!backlog['BiS'] || (!backlog['BiS'].hasOwnProperty('Obtain' + articleAmmo + '~|' + plus.toLowerCase() + '|~') && !backlog['BiS'].hasOwnProperty('Obtain' + articleAmmo + '~|' + plus.toLowerCase().replaceAll('#', '/') + '|~')))) {
                                                 if (!bestEquipmentAlts[chunkInfo['equipment'][plus].slot]) {
                                                     bestEquipmentAlts[chunkInfo['equipment'][plus].slot] = {};
                                                 }
@@ -7761,21 +7761,6 @@ let calcBIS = function() {
         });
         Object.keys(bestEquipmentAlts).forEach((slot) => {
             Object.keys(bestEquipmentAlts[slot]).forEach((item) => {
-                if (altChallenges.hasOwnProperty('BiS') && ((slot === '2h weapon' && altChallenges['BiS'].hasOwnProperty(skill.replaceAll(' ', '_') + '-main hand weapon') && altChallenges['BiS'][skill.replaceAll(' ', '_') + '-main hand weapon'] === item.toLowerCase()) || (altChallenges['BiS'].hasOwnProperty(skill.replaceAll(' ', '_') + '-' + slot) && altChallenges['BiS'][skill.replaceAll(' ', '_') + '-' + slot] === item.toLowerCase()))) {
-                    if (slot === '2h weapon' && !rules['Show Best in Slot 1H and 2H']) {
-                        highestOverall[skill.replaceAll(' ', '_') + '-main hand weapon'] = item;
-                        highestOverall[skill.replaceAll(' ', '_') + '-off-hand weapon'] = 'N/A';
-                    } else {
-                        highestOverall[skill.replaceAll(' ', '_') + '-' + slot] = item;
-                    }
-                }
-                if (altChallenges.hasOwnProperty('BiS') && ((slot === 'off-hand' && altChallenges['BiS'].hasOwnProperty(skill.replaceAll(' ', '_') + '-off-hand weapon') && altChallenges['BiS'][skill.replaceAll(' ', '_') + '-off-hand weapon'] === item.toLowerCase().replaceAll(/\%2E/g, '.').replaceAll(/\%2I/g, ',').replaceAll(/\%2F/g, '#').replaceAll(/\%2G/g, '/').replaceAll(/\%2J/g, '+')) || (altChallenges['BiS'].hasOwnProperty(skill.replaceAll(' ', '_') + '-' + slot) && altChallenges['BiS'][skill.replaceAll(' ', '_') + '-' + slot] === item.toLowerCase().replaceAll(/\%2E/g, '.').replaceAll(/\%2I/g, ',').replaceAll(/\%2F/g, '#').replaceAll(/\%2G/g, '/').replaceAll(/\%2J/g, '+')))) {
-                    if (slot === 'off-hand' && !rules['Show Best in Slot Shield']) {
-                        highestOverall[skill.replaceAll(' ', '_') + '-off-hand weapon'] = item;
-                    } else {
-                        highestOverall[skill.replaceAll(' ', '_') + '-' + slot] = item;
-                    }
-                }
                 if (bestEquipmentAlts[slot][item] === bestEquipment[slot]) {
                     let article = vowels.includes(item.toLowerCase().charAt(0)) ? ' an ' : ' a ';
                     article = (item.toLowerCase().charAt(item.toLowerCase().length - 1) === 's' || (item.toLowerCase().charAt(item.toLowerCase().length - 1) === ')' && item.toLowerCase().split('(')[0].trim().charAt(item.toLowerCase().split('(')[0].trim().length - 1) === 's')) ? ' ' : article;
