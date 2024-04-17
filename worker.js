@@ -4865,6 +4865,12 @@ let calcBIS = function() {
             if (rules['Show Best in Slot 1H and 2H']) {
                 savedWeaponBis['main hand weapon'] = bestEquipment['main hand weapon'];
                 savedWeaponBis['off-hand weapon'] = bestEquipment['off-hand weapon'];
+                if (bestAmmoSaved['main hand weapon'] !== bestAmmoSaved['2h weapon']) {
+                    savedWeaponBis['ammo'] = bestAmmoSaved['main hand weapon'];
+                    savedWeaponBis['ammo (2h)'] = bestAmmoSaved['2h weapon'];
+                } else {
+                    savedWeaponBis['ammo'] = bestAmmoSaved['2h weapon'];
+                }
             }
             delete bestEquipment['main hand weapon'];
             delete bestEquipment['off-hand weapon'];
@@ -4872,6 +4878,12 @@ let calcBIS = function() {
         } else {
             if (rules['Show Best in Slot 1H and 2H']) {
                 savedWeaponBis['2h weapon'] = bestEquipment['2h weapon'];
+                if (bestAmmoSaved['main hand weapon'] !== bestAmmoSaved['2h weapon']) {
+                    savedWeaponBis['ammo'] = bestAmmoSaved['main hand weapon'];
+                    savedWeaponBis['ammo (2h)'] = bestAmmoSaved['2h weapon'];
+                } else {
+                    savedWeaponBis['ammo'] = bestAmmoSaved['main hand weapon'];
+                }
             }
             delete bestEquipment['2h weapon'];
             bestEquipment['ammo'] = bestAmmoSaved['main hand weapon'];
@@ -7745,7 +7757,11 @@ let calcBIS = function() {
             delete bestEquipmentAlts[slot];
         });
         rules['Show Best in Slot 1H and 2H'] && !!savedWeaponBis && Object.keys(savedWeaponBis).filter(slot => !!savedWeaponBis[slot]).forEach((slot) => {
-            bestEquipment[slot] = savedWeaponBis[slot];
+            if (slot === 'ammo (2h)' && !savedWeaponBis['ammo']) {
+                bestEquipment['ammo'] = savedWeaponBis['ammo (2h)'];
+            } else {
+                bestEquipment[slot] = savedWeaponBis[slot];
+            }
         });
         rules['Show Best in Slot Shield'] && !!savedWeaponBis && Object.keys(savedWeaponBis).filter(slot => !!savedWeaponBis[slot]).forEach((slot) => {
             bestEquipment[slot] = savedWeaponBis[slot];
