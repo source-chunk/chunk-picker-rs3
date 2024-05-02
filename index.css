@@ -5300,7 +5300,9 @@ input#searchChunks {
     padding-left: 10px;
     margin-left: 10px;
     font-size: 20px;
-    width: 65%;
+    min-width: 60%;
+    max-width: 60%;
+    padding-right: 30px;
     border-left: solid 1px var(--color8);
     border-right: solid 1px var(--color8);
     position: relative;
@@ -5379,7 +5381,9 @@ input#searchChunks {
     margin-left: 10px;
     font-size: 18px;
     font-weight: bold;
-    width: 65%;
+    min-width: 60%;
+    max-width: 60%;
+    padding-right: 28px;
     border-left: solid 1px var(--color8);
     border-right: solid 1px var(--color8);
 }
