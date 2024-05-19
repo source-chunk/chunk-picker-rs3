@@ -5346,7 +5346,7 @@ input#searchChunks {
 
 .skill-button {
     width: 28%;
-    font-size: 19px;
+    font-size: 18px;
     text-align: center;
 }
 
@@ -5363,7 +5363,7 @@ input#searchChunks {
 
 .skill-button2 {
     width: 28%;
-    font-size: 19px;
+    font-size: 18px;
     text-align: center;
     border-left: solid 1px var(--color8);
 }
