@@ -2788,7 +2788,6 @@ input#searchPlayerMaps {
     width: 45%;
     height: 30%;
     border: solid black;
-    overflow-y: auto;
 }
 
 .modal .topbar {
@@ -4194,6 +4193,7 @@ input#searchChunkSections {
 #myModal28 > .modal-content {
     max-width: 450px;
     height: 52%;
+    overflow-y: auto;
 }
 
 #myModal5 > .modal-content {
