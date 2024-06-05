@@ -1312,7 +1312,7 @@ let expandChallengeStr = '';
 let detailsStack = [];
 let touchTime = 0;
 
-let currentVersion = '6.2.11';
+let currentVersion = '6.2.12';
 let patchNotesVersion = '6.0.0';
 
 // Patreon Test Server Data
@@ -1437,7 +1437,7 @@ mapImg.addEventListener("load", e => {
         centerCanvas('quick');
     }
 });
-mapImg.src = "runescape_world_map.png?v=6.2.11";
+mapImg.src = "runescape_world_map.png?v=6.2.12";
 
 // Rounded rectangle
 CanvasRenderingContext2D.prototype.roundRect = function (x, y, w, h, r) {
@@ -1511,7 +1511,6 @@ let drawCanvas = function() {
         drawCanvas();
         return;
     }
-    fixMapEdgesCanvas();
     updateFutureMove();
     selectedNum = tempSelectedChunks.length;
 
@@ -2228,6 +2227,7 @@ let handleMouseMove = function(e) {
             canvas.style.cursor = "default";
         }
     }
+    fixMapEdgesCanvas();
     drawCanvas();
 }
 
@@ -3073,7 +3073,7 @@ let calcCurrentChallengesCanvas = function(useOld, proceed, fromLoadData, inputT
         setCalculating('.panel-active', useOld);
         setCurrentChallenges(['No tasks currently backlogged.'], ['No tasks currently completed.'], true, true);
         myWorker.terminate();
-        myWorker = new Worker("./worker.js?v=6.2.11");
+        myWorker = new Worker("./worker.js?v=6.2.12");
         myWorker.onmessage = workerOnMessage;
         myWorker.postMessage(['current', tempChunks['unlocked'], rules, chunkInfo, skillNames, processingSkill, maybePrimary, combatSkills, monstersPlus, objectsPlus, chunksPlus, itemsPlus, mixPlus, npcsPlus, tasksPlus, tools, elementalRunes, manualTasks, completedChallenges, backlog, "1/" + rules['Rare Drop Amount'], universalPrimary, elementalStaves, rangedItems, boneItems, highestCurrent, dropTables, possibleAreas, randomLoot, magicTools, bossLogs, bossMonsters, minigameShops, manualEquipment, checkedChallenges, backloggedSources, altChallenges, manualMonsters, slayerLocked, passiveSkill, f2pSkills, assignedXpRewards, mid === diary2Tier, manualAreas, "1/" + rules['Secondary Primary Amount'], mid === manualAreasOnly, tempSections, settings['optOutSections'], maxSkill]);
         workerOut = 1;
@@ -3126,6 +3126,7 @@ let handleMouseScroll = function(e) {
         }
         manualMouseMoveCheck = e;
     }
+    fixMapEdgesCanvas();
     drawCanvas();
 }
 
@@ -3145,6 +3146,7 @@ let handleMobileZoom = function(dir) {
             dragTotalY = dragTotalY - offsetY;
         }
     }
+    fixMapEdgesCanvas();
     drawCanvas();
 }
 
@@ -3224,6 +3226,7 @@ let scrollToPosCanvas = function(x, y, xPart, yPart, doQuick) {
         futureMoveX = dragTotalX - moveX;
         futureMoveY = dragTotalY - moveY;
     }
+    fixMapEdgesCanvas();
     drawCanvas();
 }
 
@@ -3326,6 +3329,7 @@ $(document).ready(function() {
         canvas.height = window.innerHeight;
         cw = canvas.width;
         ch = canvas.height;
+        fixMapEdgesCanvas();
         drawCanvas();
     });
 
@@ -3352,8 +3356,8 @@ $(document).ready(function() {
 // ------------------------------------------------------------
 
 // Recieve message from worker
-let myWorker = new Worker("./worker.js?v=6.2.11");
-let myWorker2 = new Worker("./worker.js?v=6.2.11");
+let myWorker = new Worker("./worker.js?v=6.2.12");
+let myWorker2 = new Worker("./worker.js?v=6.2.12");
 let workerOnMessage = function(e) {
     if (lastUpdated + 2000000 < Date.now() && !hasUpdate) {
         lastUpdated = Date.now();
@@ -6050,7 +6054,7 @@ let calcFutureChallenges = function() {
     }
     tempSections = combineJSONs(tempSections, manualSections);
     myWorker2.terminate();
-    myWorker2 = new Worker("./worker.js?v=6.2.11");
+    myWorker2 = new Worker("./worker.js?v=6.2.12");
     myWorker2.onmessage = workerOnMessage;
     myWorker2.postMessage(['future', chunks, rules, chunkInfo, skillNames, processingSkill, maybePrimary, combatSkills, monstersPlus, objectsPlus, chunksPlus, itemsPlus, mixPlus, npcsPlus, tasksPlus, tools, elementalRunes, manualTasks, completedChallenges, backlog, "1/" + rules['Rare Drop Amount'], universalPrimary, elementalStaves, rangedItems, boneItems, highestCurrent, dropTables, possibleAreas, randomLoot, magicTools, bossLogs, bossMonsters, minigameShops, manualEquipment, checkedChallenges, backloggedSources, altChallenges, manualMonsters, slayerLocked, passiveSkill, f2pSkills, assignedXpRewards, mid === diary2Tier, manualAreas, "1/" + rules['Secondary Primary Amount'], mid === manualAreasOnly, tempSections, settings['optOutSections'], maxSkill]);
     workerOut++;
@@ -8864,6 +8868,7 @@ let showDetails = function(challenge, skill, dataType, isNested) {
                 });
             }
             !!chunkInfo['challenges'][skill][challenge][key] && chunkInfo['challenges'][skill][challenge][key].forEach((el) => {
+                el.includes('[Thieving] ') && (el = el.split('[Thieving] ').join(''));
                 let formattedSource = '';
                 if (key === 'ChunksDetails') {
                     let els = [];
