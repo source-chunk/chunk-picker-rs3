@@ -561,7 +561,6 @@ button.menu2 {
     width: 300px;
 }
 
-
 .menu11 {
     position: fixed;
     z-index: 99 !important;
@@ -2581,7 +2580,6 @@ input#searchPlayerMaps {
     margin-left: 10px;
 }
 
-
 #challengesactive.mobile .num-tasks {
     font-size: 3.5vw !important;
 }
@@ -2723,7 +2721,6 @@ input#searchPlayerMaps {
 .challenge-icon:hover {
     color: gray;
 }
-
 
 .panel-questdata b {
     color: var(--colorQuestBorderText);
@@ -3854,30 +3851,8 @@ input#searchManualAreas {
     background-color: rgb(100, 30, 30);
 }
 
-
-#save-chunk-section-picker-button {
-    background-color: rgb(30, 100, 30);
-    width: 200px;
-    height: 5vh;
-    font-size: 24px;
-    color: white;
-    border-width: 1px 1px 1px 1px;
-    border-style: solid;
-    border-color: black;
-    outline: none;
-    -webkit-transition-duration: 0.4s;
-    transition-duration: 0.4s;
-    cursor: pointer;
-    margin: 20px 10px;
-}
-
-#save-chunk-section-picker-button.disabled {
-    background-color: gray;
-    cursor: not-allowed;
-}
-
-#save-chunk-section-picker-button:not(.disabled):hover {
-    background-color: rgb(15, 150, 15);
+.grey-manual-area-btn {
+    background-color: rgb(100, 100, 100);
 }
 
 .chunk-sections-title {
@@ -3988,9 +3963,9 @@ input#searchChunkSections {
   
 .chunk-section-picker-container {
     border: solid black 2px;
-    width: 192px;
+    width: 128px;
     display: inline-block;
-    height: 192px;
+    height: 128px;
 }
 
 .chunk-section-picker-btns {
@@ -4055,8 +4030,35 @@ input#searchChunkSections {
     background-color: rgb(100, 30, 30);
 }
 
-.grey-manual-area-btn {
-    background-color: rgb(100, 100, 100);
+.chunk-section-picker-footer {
+    height: 13%;
+    text-align: center;
+    background-color: var(--color2);
+}
+
+#save-chunk-section-picker-button {
+    background-color: rgb(30, 100, 30);
+    width: 200px;
+    height: 5vh;
+    font-size: 24px;
+    color: white;
+    border-width: 1px 1px 1px 1px;
+    border-style: solid;
+    border-color: black;
+    outline: none;
+    -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    margin: 20px 10px;
+}
+
+#save-chunk-section-picker-button.disabled {
+    background-color: gray;
+    cursor: not-allowed;
+}
+
+#save-chunk-section-picker-button:not(.disabled):hover {
+    background-color: rgb(15, 150, 15);
 }
 
 #myModal4 > .modal-content {
@@ -7031,6 +7033,24 @@ input#searchMonsters {
     width: 75%;
 }
 
+.combat-achievements .step-table-header {
+    width: 30%;
+}
+
+.combat-achievements .description-table-header {
+    width: 70%;
+}
+
+.combat-achievements .step-step {
+    width: 30%;
+    border-right: solid 1px var(--color8);
+}
+
+.combat-achievements .step-description {
+    width: 70%;
+    border-left: none;
+}
+
 .friends-list-title {
     font-size: 4.5vh;
     padding-left: 10px;
@@ -7741,15 +7761,15 @@ input#searchMonsters {
     font-weight: normal;
     pointer-events: none;
 }
-  
-.radio--disabled {
-    color: var(--disabled);
-}
 
 .radio.extra-space {
     margin-left: 5px;
 }
-
+  
+.radio--disabled {
+    color: var(--disabled);
+}
+  
 .radio__control {
     display: inline-grid;
     width: .825em;
