@@ -286,7 +286,8 @@ onmessage = function(e) {
         globalValids = calcChallenges(chunks, baseChunkData);
         baseChunkData = tempChunkData;
         type === 'current' && postMessage('95%');
-        calcBIS();
+        highestOverall = calcBIS();
+        let highestOverallCompleted = calcBIS(true);
         type === 'current' && postMessage('100%');
         //console.log(globalValids);
 
@@ -296,7 +297,7 @@ onmessage = function(e) {
         //console.log(nonValids);
         //console.log(baseChunkData);
 
-        postMessage([type, globalValids, baseChunkData, chunkInfo, highestCurrent, tempChallengeArr, type === 'current' ? questPointTotal : 0, highestOverall, type === 'current' ? dropRatesGlobal : {}, questProgress, diaryProgress, skillQuestXp, chunks, type === 'current' ? dropTablesGlobal : {}, bestEquipmentAltsGlobal, unlockedSections]);
+        postMessage([type, globalValids, baseChunkData, chunkInfo, highestCurrent, tempChallengeArr, type === 'current' ? questPointTotal : 0, highestOverall, type === 'current' ? dropRatesGlobal : {}, questProgress, diaryProgress, skillQuestXp, chunks, type === 'current' ? dropTablesGlobal : {}, bestEquipmentAltsGlobal, unlockedSections, highestOverallCompleted]);
     } catch (err) {
         postMessage(['error', err]);
     }
@@ -4095,7 +4096,7 @@ let checkPrimaryMethod = function(skill, valids, baseChunkData) {
 }
 
 // Calcs the BIS gear
-let calcBIS = function() {
+let calcBIS = function(completedOnly) {
     let combatStyles = ['Melee', 'Ranged', 'Magic'];
     if (!rules['F2P'] && chunks.hasOwnProperty('City of Um')) {
         combatStyles.push('Necromancy');
@@ -4147,7 +4148,7 @@ let calcBIS = function() {
         baseChunkData['items']['Unarmed'] = {'Built-in': 'secondary-Nonskill'};
     }
     let notFresh = {};
-    highestOverall = {};
+    let highestOverallLocal = {};
     let vowels = ['a', 'e', 'i', 'o', 'u'];
     combatStyles.forEach((skill) => {
         let bestEquipment = {};
@@ -4157,13 +4158,19 @@ let calcBIS = function() {
             '2h weapon': null
         };
         let savedWeaponBis = {};
-        Object.keys({...completedEquipment, ...chunkInfo['equipment']}).filter(equip => { return !!baseChunkData['items'][equip] }).forEach((equip) => {
+        let tempEquipmentObject;
+        if (completedOnly) {
+            tempEquipmentObject = {...completedEquipment};
+        } else {
+            tempEquipmentObject = {...completedEquipment, ...chunkInfo['equipment']};
+        }
+        Object.keys(tempEquipmentObject).filter(equip => { return !!baseChunkData['items'][equip] }).forEach((equip) => {
             if (!!!chunkInfo['equipment'][equip]) {
                 console.error(equip + " doesn't exist in data.");
                 return;
             }
             let validWearable = true;
-            !!chunkInfo['equipment'][equip].requirements && Object.keys(chunkInfo['equipment'][equip].requirements).filter(skill => (rules['Skiller'] && chunkInfo['equipment'][equip].requirements[skill] > 1) || (!primarySkill[skill] && chunkInfo['equipment'][equip].requirements[skill] > 1 && (!!passiveSkill && passiveSkill.hasOwnProperty(skill) && passiveSkill[skill] < chunkInfo['equipment'][equip].requirements[skill])) || (skill === 'Slayer' && !!slayerLocked && chunkInfo['equipment'][equip].requirements[skill] > slayerLocked['level']) || (!!maxSkill && maxSkill.hasOwnProperty(skill) && maxSkill[skill] < chunkInfo['equipment'][equip].requirements[skill])).length > 0 && (validWearable = false);
+            !!chunkInfo['equipment'][equip].requirements && Object.keys(chunkInfo['equipment'][equip].requirements).filter(skill => (rules['Skiller'] && chunkInfo['equipment'][equip].requirements[skill] > 1) || (!primarySkill[skill] && chunkInfo['equipment'][equip].requirements[skill] > 1 && (!passiveSkill || !passiveSkill.hasOwnProperty(skill) || passiveSkill[skill] >= chunkInfo['equipment'][equip].requirements[skill])) || (skill === 'Slayer' && !!slayerLocked && chunkInfo['equipment'][equip].requirements[skill] > slayerLocked['level']) || (!!maxSkill && maxSkill.hasOwnProperty(skill) && maxSkill[skill] < chunkInfo['equipment'][equip].requirements[skill])).length > 0 && (validWearable = false);
             !!chunkInfo['taskUnlocks'] && chunkInfo['taskUnlocks']['Items'].hasOwnProperty(equip) && chunkInfo['taskUnlocks']['Items'][equip].filter(task => !globalValids || !globalValids[Object.values(task)[0]] || !globalValids[Object.values(task)[0]].hasOwnProperty(Object.keys(task)[0])).length > 0 && (validWearable = false);
             if ((!chunkInfo['equipment'][equip].hasOwnProperty('accuracy') || chunkInfo['equipment'][equip].accuracy === 0) &&
             (!chunkInfo['equipment'][equip].hasOwnProperty('ability_damage') || chunkInfo['equipment'][equip].ability_damage === 0) &&
@@ -7936,15 +7943,15 @@ let calcBIS = function() {
         });
         Object.keys(bestEquipment).forEach((slot) => {
             if (slot === '2h weapon' && !rules['Show Best in Slot 1H and 2H']) {
-                highestOverall[skill.replaceAll(' ', '_') + '-main hand weapon'] = bestEquipment[slot];
-                highestOverall[skill.replaceAll(' ', '_') + '-off-hand weapon'] = 'N/A';
+                highestOverallLocal[skill.replaceAll(' ', '_') + '-main hand weapon'] = bestEquipment[slot];
+                highestOverallLocal[skill.replaceAll(' ', '_') + '-off-hand weapon'] = 'N/A';
             } else {
-                highestOverall[skill.replaceAll(' ', '_') + '-' + slot] = bestEquipment[slot];
+                highestOverallLocal[skill.replaceAll(' ', '_') + '-' + slot] = bestEquipment[slot];
             }
             if (slot === 'off-hand' && !rules['Show Best in Slot Shield']) {
-                highestOverall[skill.replaceAll(' ', '_') + '-off-hand weapon'] = bestEquipment[slot];
+                highestOverallLocal[skill.replaceAll(' ', '_') + '-off-hand weapon'] = bestEquipment[slot];
             } else {
-                highestOverall[skill.replaceAll(' ', '_') + '-' + slot] = bestEquipment[slot];
+                highestOverallLocal[skill.replaceAll(' ', '_') + '-' + slot] = bestEquipment[slot];
             }
             let article = vowels.includes(bestEquipment[slot].toLowerCase().charAt(0)) ? ' an ' : ' a ';
             article = (bestEquipment[slot].toLowerCase().charAt(bestEquipment[slot].toLowerCase().length - 1) === 's' || (bestEquipment[slot].toLowerCase().charAt(bestEquipment[slot].toLowerCase().length - 1) === ')' && bestEquipment[slot].toLowerCase().split('(')[0].trim().charAt(bestEquipment[slot].toLowerCase().split('(')[0].trim().length - 1) === 's')) ? ' ' : article;
@@ -7977,14 +7984,14 @@ let calcBIS = function() {
                     if (type === 'current') {
                         if (!!globalValids['BiS']['Obtain' + article + '~|' + item.toLowerCase() + '|~']) {
                             globalValids['BiS']['Obtain' + article + '~|' + item.toLowerCase() + '|~'] = skill + '/​' + globalValids['BiS']['Obtain' + article + '~|' + item.toLowerCase() + '|~'];
-                            if (Object.values(highestOverall).includes(item) || completedEquipment.hasOwnProperty(item)) {
+                            if (Object.values(highestOverallLocal).includes(item) || completedEquipment.hasOwnProperty(item)) {
                                 if (slot === '2h weapon' && !rules['Show Best in Slot 1H and 2H']) {
-                                    highestOverall[skill.replaceAll(' ', '_') + '-main hand weapon'] = item;
-                                    highestOverall[skill.replaceAll(' ', '_') + '-off-hand weapon'] = 'N/A';
+                                    highestOverallLocal[skill.replaceAll(' ', '_') + '-main hand weapon'] = item;
+                                    highestOverallLocal[skill.replaceAll(' ', '_') + '-off-hand weapon'] = 'N/A';
                                 } else if (slot === 'off-hand' && !rules['Show Best in Slot Shield']) {
-                                        highestOverall[skill.replaceAll(' ', '_') + '-off-hand weapon'] = item;
+                                        highestOverallLocal[skill.replaceAll(' ', '_') + '-off-hand weapon'] = item;
                                 } else {
-                                    highestOverall[skill.replaceAll(' ', '_') + '-' + slot] = item;
+                                    highestOverallLocal[skill.replaceAll(' ', '_') + '-' + slot] = item;
                                 }
                             }
                         } else {
@@ -8022,6 +8029,7 @@ let calcBIS = function() {
         });
         //console.log(bestEquipment);
     });
+    return highestOverallLocal;
 }
 
 // Calcs the current challenges to be displayed
