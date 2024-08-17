@@ -1324,13 +1324,13 @@ let topbarChoices = ['Map Notes', 'Patch Notes', 'Report a Bug', 'Chunk-roll His
 let topbarElements = {
     'Map Notes': `<div><span class='noscroll' onclick="openChunkNotesModal()"><i class="gonotes fas fa-sticky-note" title='Notes'></i></span></div>`,
     'Patch Notes': `<div><span class='noscroll' onclick="openPatchNotesModal(true)"><i class="godocumentation fas fa-file-alt" title='Patch Notes'></i></span></div>`,
-    'Report a Bug': `<div><a href='https://docs.google.com/forms/d/e/1FAIpQLSdmSyeMPMjuDxPrDKQHbCjJe0bXQOUwPYvyTeY_mrF-UrtmCQ/viewform?usp=sf_link' target='_blank'><i class="gobugreport fas fa-bug" title='Report a Bug'></i></a></div>`,
+    'Report a Bug': `<div><a href='https://docs.google.com/forms/d/e/1FAIpQLSc-stwx0VaJHm79LoYQG0rEogzaJ56XHnQtovr2GIX-sZXzaA/viewform' target='_blank'><i class="gobugreport fas fa-bug" title='Report a Bug'></i></a></div>`,
     'Chunk-roll History': `<div><span class='noscroll' onclick="showChunkHistory()"><i class="gohistory fas fa-history" title='Chunk-roll History'></i></span></div>`,
     'Screenshot Mode': `<div><span class='noscroll' onclick="enableScreenshotMode()"><i class="goscreenshot fas fa-camera" title='Screenshot Mode'></i></span></div>`,
     'Sandbox Mode': `<div><span class='noscroll' onclick="enableTestMode()"><i class="gosandbox fas fa-flask" title='Sandbox Mode'></i></span></div>`,
 };
 
-let currentVersion = '6.3.3';
+let currentVersion = '6.3.3.1';
 let patchNotesVersion = '6.3.0';
 
 // Patreon Test Server Data
@@ -1457,7 +1457,7 @@ mapImg.addEventListener("load", e => {
         centerCanvas('quick');
     }
 });
-mapImg.src = "runescape_world_map.png?v=6.3.3";
+mapImg.src = "runescape_world_map.png?v=6.3.3.1";
 
 // Rounded rectangle
 CanvasRenderingContext2D.prototype.roundRect = function (x, y, w, h, r) {
@@ -3117,7 +3117,7 @@ let calcCurrentChallengesCanvas = function(useOld, proceed, fromLoadData, inputT
         setCalculating('.panel-active', useOld);
         setCurrentChallenges(['No tasks currently backlogged.'], ['No tasks currently completed.'], true, true);
         myWorker.terminate();
-        myWorker = new Worker("./worker.js?v=6.3.3");
+        myWorker = new Worker("./worker.js?v=6.3.3.1");
         myWorker.onmessage = workerOnMessage;
         myWorker.postMessage(['current', tempChunks['unlocked'], rules, chunkInfo, skillNames, processingSkill, maybePrimary, combatSkills, monstersPlus, objectsPlus, chunksPlus, itemsPlus, mixPlus, npcsPlus, tasksPlus, tools, elementalRunes, manualTasks, completedChallenges, backlog, "1/" + rules['Rare Drop Amount'], universalPrimary, elementalStaves, rangedItems, boneItems, highestCurrent, dropTables, possibleAreas, randomLoot, magicTools, bossLogs, bossMonsters, minigameShops, manualEquipment, checkedChallenges, backloggedSources, altChallenges, manualMonsters, slayerLocked, passiveSkill, f2pSkills, assignedXpRewards, mid === diary2Tier, manualAreas, "1/" + rules['Secondary Primary Amount'], mid === manualAreasOnly, tempSections, settings['optOutSections'], maxSkill]);
         workerOut = 1;
@@ -3401,8 +3401,8 @@ $(document).ready(function() {
 // ------------------------------------------------------------
 
 // Recieve message from worker
-let myWorker = new Worker("./worker.js?v=6.3.3");
-let myWorker2 = new Worker("./worker.js?v=6.3.3");
+let myWorker = new Worker("./worker.js?v=6.3.3.1");
+let myWorker2 = new Worker("./worker.js?v=6.3.3.1");
 let workerOnMessage = function(e) {
     if (lastUpdated + 2000000 < Date.now() && !hasUpdate) {
         lastUpdated = Date.now();
@@ -6139,7 +6139,7 @@ let calcFutureChallenges = function() {
     }
     tempSections = combineJSONs(tempSections, manualSections);
     myWorker2.terminate();
-    myWorker2 = new Worker("./worker.js?v=6.3.3");
+    myWorker2 = new Worker("./worker.js?v=6.3.3.1");
     myWorker2.onmessage = workerOnMessage;
     myWorker2.postMessage(['future', chunks, rules, chunkInfo, skillNames, processingSkill, maybePrimary, combatSkills, monstersPlus, objectsPlus, chunksPlus, itemsPlus, mixPlus, npcsPlus, tasksPlus, tools, elementalRunes, manualTasks, completedChallenges, backlog, "1/" + rules['Rare Drop Amount'], universalPrimary, elementalStaves, rangedItems, boneItems, highestCurrent, dropTables, possibleAreas, randomLoot, magicTools, bossLogs, bossMonsters, minigameShops, manualEquipment, checkedChallenges, backloggedSources, altChallenges, manualMonsters, slayerLocked, passiveSkill, f2pSkills, assignedXpRewards, mid === diary2Tier, manualAreas, "1/" + rules['Secondary Primary Amount'], mid === manualAreasOnly, tempSections, settings['optOutSections'], maxSkill]);
     workerOut++;
