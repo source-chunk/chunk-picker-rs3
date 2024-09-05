@@ -356,6 +356,7 @@ let rules = {
     "Highest Level": false,
     "BIS Skilling": false,
     "Collection Log": false,
+	"Boss Collection Log": false,
 	"Slayer Collection Log": false,
     "Minigame": false,
     "Shortcut Task": false,
@@ -397,7 +398,6 @@ let rules = {
 	"Master skillcape": false,
 	"Golden fish egg": false,
 	"Cleaning herbs": false,
-	"Swordy": false,
 	"Vinesweeper": false,
 	"Ogleroot": false,
 	"Gnomeball": false,
@@ -412,6 +412,7 @@ let rules = {
 	"Achievement": false,
 	"Multiple Pickpockets": false,
     "F2P": false,
+	"Hard Mode Bosses": false,
 };                                                                              // List of rules and their on/off state
 
 let ruleNames = {
@@ -442,8 +443,9 @@ let ruleNames = {
     "Show Diary Tasks Any": "Show all diary tasks possible, regardless of tier <span class='rule-asterisk noscroll'>*</span>",
     "Highest Level": "Require processing skill tasks to be the highest level of processing, rather than the lowest (e.g. must craft black dragonhide leather fully into a dragonhide shield rather than just into vambraces) <span class='rule-asterisk noscroll'>*</span>",
     "BIS Skilling": "Must obtain items that are best-in-slot/add quality-of-life for skilling (e.g. Dragon Pickaxe, Angler Outfit, wieldable saw, etc.)",
-    "Collection Log": "Must obtain items from the boss collection log",
-	"Slayer Collection Log": "Must obtain items from the slayer collection log",
+    "Collection Log": "Must obtain items from collection logs <span class='rule-asterisk noscroll'>*</span>",
+	"Boss Collection Log": "Must obtain items from the boss collection log <span class='rule-asterisk noscroll'>*</span>",
+	"Slayer Collection Log": "Must obtain items from the slayer collection log <span class='rule-asterisk noscroll'>*</span>",
     "Minigame": "Allow items obtained from minigame rewards to count towards chunk tasks",
     "Shortcut Task": "Allow agility shortcuts to count as an Agility skill task",
     "Shortcut": "Allow agility shortcuts to count as a primary method for training Agility",
@@ -481,7 +483,6 @@ let ruleNames = {
 	"Master skillcape": "Must obtain master skillcapes for all skills <span class='rule-asterisk noscroll'>†</span>",
 	"Golden fish egg": "Must obtain all available golden fish eggs <span class='rule-asterisk noscroll'>*</span>",
 	"Cleaning herbs": "Cleaning herbs counts as primary herblore training <span class='rule-asterisk noscroll'>*</span>",
-	"Swordy": "Must obtain Swordy McSwordFace from Bossy McBossFace in The Shadow Reef <span class='rule-asterisk noscroll'>*</span>",
 	"Vinesweeper": "Allow Vinesweeper to count as primary training for training Farming <span class='rule-asterisk noscroll'>*</span>",
 	"Ogleroot": "Allow Vinesweeper to count as primary training for training hunter",
 	"Gnomeball": "Allow playing gnomeball to count as a primary training method for agility and ranged",
@@ -496,6 +497,7 @@ let ruleNames = {
 	"Achievement": "Require all achievements that can be obtained within your ruleset excluding level up achievements",
 	"Multiple Pickpockets": "Require the agility and thieving levels to quadruple pickpocket<span class='rule-asterisk noscroll'>*</span>",
     "F2P": "Restrict to F2P skills/items/tasks only",
+	"Hard Mode Bosses": "Include Hard mode variants of bosses<span class='rule-asterisk noscroll'>*</span>"
 };                                                                              // List of rule definitions
 
 let rulePresets = {
@@ -552,6 +554,7 @@ let rulePresets = {
         "Secondary Primary": true,
         "Secondary Primary Amount": "0",
         "Collection Log": true,
+		"Boss Collection Log": true,
 		"Slayer Collection Log": true,
         "Untracked Uniques": true,
         "Smithing by Smelting": true,
@@ -565,7 +568,6 @@ let rulePresets = {
 		"Golden fish egg": true,
 		"Cleaning herbs": true,
 		"Stuffables": true,
-		"Swordy": true,
 		"Vinesweeper": true,
 		"Ogleroot": true,
 		"Gnomeball": true,
@@ -579,6 +581,7 @@ let rulePresets = {
 		"Arc Log": true,
 		"Achievement": true,
 		"Multiple Pickpockets": true,
+		"Hard Mode Bosses": true,
     },
     "Supreme Chunker": {
         "Skillcape": true,
@@ -611,6 +614,7 @@ let rulePresets = {
         "Secondary Primary": true,
         "Secondary Primary Amount": "0",
         "Collection Log": true,
+		"Boss Collection Log": true,
 		"Slayer Collection Log": true,
         "Untracked Uniques": true,
         "Smithing by Smelting": true,
@@ -631,7 +635,6 @@ let rulePresets = {
 		"Golden fish egg": true,
 		"Cleaning herbs": true,
 		"Stuffables": true,
-		"Swordy": true,
 		"Vinesweeper": true,
 		"Ogleroot": true,
 		"Gnomeball": true,
@@ -645,6 +648,7 @@ let rulePresets = {
 		"Arc Log": true,
 		"Achievement": true,
 		"Multiple Pickpockets": true,
+		"Hard Mode Bosses": true,
     }
 };                                                                              // List of rules that are part of each preset
 
@@ -660,7 +664,8 @@ let ruleStructure = {
 		"Achievement": true,
         "Show Quest Tasks": ["Show Quest Tasks Complete"],
         "Show Diary Tasks": ["Show Diary Tasks Complete", "Show Diary Tasks Any"],
-        "Show Best in Slot Tasks": ["Show Best in Slot Prayer Tasks", "Show Best in Slot Defensive Tasks", "Show Best in Slot Melee Style Tasks", "Show Best in Slot 1H and 2H", "Show Best in Slot Shield"]
+        "Show Best in Slot Tasks": ["Show Best in Slot Prayer Tasks", "Show Best in Slot Defensive Tasks", "Show Best in Slot Melee Style Tasks", "Show Best in Slot 1H and 2H", "Show Best in Slot Shield"],
+		"BIS Skilling": true
     },
     "Overall Skill": {
         "Starting Items": false,
@@ -678,6 +683,8 @@ let ruleStructure = {
 		"DnD": true,
 		"Uncharted": true
     },
+//	"Uniques and Collections": {
+//	},
     "Agility": {
         "Shortcut": true,
         "Shortcut Task": true
@@ -731,27 +738,25 @@ let ruleStructure = {
 		"Multiple Pickpockets": true
 	},
     "Item Sources": {
-        "Boss": true,
+        "Boss": ["Hard Mode Bosses"],
         "Rare Drop": true,
         "RDT": true,
-        "Primary Spawns": true
+        "Primary Spawns": true,
+		"Collection Log": ["Boss Collection Log", "Slayer Collection Log", "Pets", "Arc Log"],
+		"Untracked Uniques": true,
+		"Stuffables": true,
+		"Money Unlockables": true,
+		"Every Drop": true,
+        "All Droptables": true,
+        "All Shops": true,
+		"Skilling Pets": true,
+		"Champion Challenge": true
     },
     "Miscellaneous": {
         "Minigame": true,
         "Kill X": true,
-        "BIS Skilling": true,
-        "Collection Log": ["Slayer Collection Log", "Pets", "Arc Log"],
-        "Untracked Uniques": true,
-		"Champion Challenge": true,
-        "Skilling Pets": true,
-        "Stuffables": true,
         "Fill Stash": true,
-        "Money Unlockables": true,
         "Manually Complete Tasks": true,
-        "Every Drop": true,
-        "All Droptables": true,
-        "All Shops": true,
-		"Swordy": true,
         "Skiller": true,
 		"Titles": true,
         "F2P": true
