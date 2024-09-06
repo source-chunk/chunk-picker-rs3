@@ -501,7 +501,7 @@ let ruleNames = {
 	"Multiple Pickpockets": "Require the agility and thieving levels to quadruple pickpocket<span class='rule-asterisk noscroll'>*</span>",
     "F2P": "Restrict to F2P skills/items/tasks only",
 	"Hard Mode Bosses": "Include Hard mode variants of bosses<span class='rule-asterisk noscroll'>*</span>",
-	"Group Content": "Content that cannot reasonably be completed solo (Castle wars, Yakamaru, AoD, etc)<span class='rule-asterisk noscroll'>†</span>",
+	"Group Content": "Require content that cannot reasonably be completed solo (Castle wars, Yakamaru, AoD, etc)<span class='rule-asterisk noscroll'>†</span>",
 	"Full Healing": "Require Constitution levels to fully heal from different foods",
 	"PVP": "Require items that can only be obtained through PVP<span class='rule-asterisk noscroll'>†</span>",
 };                                                                              // List of rule definitions
