@@ -356,6 +356,7 @@ let rules = {
     "Highest Level": false,
     "BIS Skilling": false,
     "Collection Log": false,
+	"Boss Collection Log": false,
 	"Slayer Collection Log": false,
     "Minigame": false,
     "Shortcut Task": false,
@@ -365,7 +366,6 @@ let rules = {
     "Puro-Puro": false,
     "Extra implings": false,
     "Farming Primary": false,
-    "Wandering implings": false,
     "Secondary Primary": false,
     "Secondary Primary Amount": "1",
     "RDT": false,
@@ -382,7 +382,6 @@ let rules = {
     "HigherLander": false,
     "Starting Items": false,
     "Secondary MTA": false,
-    "PVP-Only Spells": false,
     "Skilling Pets": false,
     "Money Unlockables": false,
     "Prayers": false,
@@ -397,7 +396,6 @@ let rules = {
 	"Master skillcape": false,
 	"Golden fish egg": false,
 	"Cleaning herbs": false,
-	"Swordy": false,
 	"Vinesweeper": false,
 	"Ogleroot": false,
 	"Gnomeball": false,
@@ -412,10 +410,14 @@ let rules = {
 	"Achievement": false,
 	"Multiple Pickpockets": false,
     "F2P": false,
+	"Hard Mode Bosses": false,
+	"Group Content": false,
+	"Full Healing": false,
+	"PVP": false,
 };                                                                              // List of rules and their on/off state
 
 let ruleNames = {
-    "Skillcape": "Must obtain skillcapes <span class='rule-asterisk noscroll'>*</span>",
+    "Skillcape": "Must obtain skillcapes<span class='rule-asterisk noscroll'>*</span>",
     "Rare Drop": "Chunk tasks only use drops more common than 1/X (set to 0 to include all drops)",
     "Pouch": "Using Runecrafting pouches count as chunk tasks",
     "InsidePOH": "Crafting furniture inside a POH can count as a chunk task",
@@ -424,7 +426,7 @@ let ruleNames = {
     "Boss": "Killing a boss can be used for a chunk task (item on droptable, Slayer level to kill, etc.)",
     "Slayer Equipment": "Using Slayer equipment can count for chunk tasks",
     "Normal Farming": "Allow normal farming to count as a primary method for training Farming",
-    "Raking": "Allow raking patches to count as a primary method for training Farming <span class='rule-asterisk noscroll'>*</span>",
+    "Raking": "Allow raking patches to count as a primary method for training Farming<span class='rule-asterisk noscroll'>*</span>",
     "Kill X": "Kill X-amount of every new, unique monster you encounter",
     "Sorceress's Garden": "Allow Sorceress's Garden to count as primary training for training Farming<span class='rule-asterisk noscroll'>*</span>",
     "Spells": "Spells count as a way to process runes via Magic, and therefore can count as chunk tasks",
@@ -439,63 +441,65 @@ let ruleNames = {
     "Show Best in Slot Shield": "Show Best in Slot Tasks for both off-hand weapons and shields, rather than just the better of the two",
     "Show Quest Tasks Complete": "Show Quest Tasks only when the whole quest is completable",
     "Show Diary Tasks Complete": "Show Diary Tasks only when the whole diary tier (easy, medium, etc.) is completable",
-    "Show Diary Tasks Any": "Show all diary tasks possible, regardless of tier <span class='rule-asterisk noscroll'>*</span>",
-    "Highest Level": "Require processing skill tasks to be the highest level of processing, rather than the lowest (e.g. must craft black dragonhide leather fully into a dragonhide shield rather than just into vambraces) <span class='rule-asterisk noscroll'>*</span>",
-    "BIS Skilling": "Must obtain items that are best-in-slot/add quality-of-life for skilling (e.g. Dragon Pickaxe, Angler Outfit, wieldable saw, etc.)",
-    "Collection Log": "Must obtain items from the boss collection log",
-	"Slayer Collection Log": "Must obtain items from the slayer collection log",
+    "Show Diary Tasks Any": "Show all diary tasks possible, regardless of tier<span class='rule-asterisk noscroll'>*</span>",
+    "Highest Level": "Require processing skill tasks to be the highest level of processing, rather than the lowest (e.g. must craft black dragonhide leather fully into a dragonhide shield rather than just into vambraces)<span class='rule-asterisk noscroll'>*</span>",
+    "BIS Skilling": "WIP - Must obtain items that are best-in-slot/add quality-of-life for skilling (e.g. Dragon Pickaxe, Angler Outfit, wieldable saw, etc.)",
+    "Collection Log": "Must obtain items from collection logs (Does nothing on its own)<span class='rule-asterisk noscroll'>*</span>",
+	"Boss Collection Log": "Must obtain items from the boss collection log<span class='rule-asterisk noscroll'>*</span>",
+	"Slayer Collection Log": "Must obtain items from the slayer collection log<span class='rule-asterisk noscroll'>*</span>",
     "Minigame": "Allow items obtained from minigame rewards to count towards chunk tasks",
     "Shortcut Task": "Allow agility shortcuts to count as an Agility skill task",
     "Shortcut": "Allow agility shortcuts to count as a primary method for training Agility",
-    "Wield Crafted Items": "Crafted items (e.g. bows, metal armour/weapons, etc.) can count as BiS gear <span class='rule-asterisk noscroll'>*</span>",
-    "Multi Step Processing": "Allow higher level processing of resources to enable other processing tasks <span class='rule-asterisk noscroll'>*</span>",
+    "Wield Crafted Items": "Crafted items (e.g. bows, metal armour/weapons, etc.) can count as BiS gear<span class='rule-asterisk noscroll'>*</span>",
+    "Multi Step Processing": "Allow higher level processing of resources to enable other processing tasks<span class='rule-asterisk noscroll'>*</span>",
     "Puro-Puro": "Allow implings from Puro-Puro & their drops to count towards chunk tasks",
     "Extra implings": "Include implings that have non-guaranteed spawns in Puro-Puro or the Al Kharid Resource Dungeon as chunk tasks",
-    "Farming Primary": "Farming products (herbs, vegetables, etc.) can count as primary item sources for chunk tasks <span class='rule-asterisk noscroll'>*</span>",
-    "Wandering implings": "Allow implings that randomly wander the world & their drops to count towards chunk tasks <span class='rule-asterisk noscroll'>*</span>",
-    "Secondary Primary": "Allow secondary training methods with drops/methods more common than 1/X (set to 0 to include all drops) to count as primary training methods (e.g. allow a 1/50 drop for a bronze bar be your required way to train Smithing) <span class='rule-asterisk noscroll'>*</span>",
+    "Farming Primary": "Farming products (herbs, vegetables, etc.) can count as primary item sources for chunk tasks<span class='rule-asterisk noscroll'>*</span>",
+    "Secondary Primary": "Allow secondary training methods with drops/methods more common than 1/X (set to 0 to include all drops) to count as primary training methods (e.g. allow a 1/50 drop for a bronze bar be your required way to train Smithing)<span class='rule-asterisk noscroll'>*</span>",
     "RDT": "Allow items from the Rare Drop Table and the Gem Drop Table to count towards chunk tasks",
     "Untracked Uniques": "Must obtain extra uniques that are untracked on the collection log (e.g. Swordy McSwordface)",
     "Combat and Teleport Spells": "Allow all spells to count as possible Magic skill tasks (otherwise only 'utility' spells like High Alchemy or Telegrab will count)",
-    "Primary Spawns": "Item spawns count as primary access to an item, and can be used as a primary way to train a skill if needed <span class='rule-asterisk noscroll'>*</span>",
+    "Primary Spawns": "Item spawns count as primary access to an item, and can be used as a primary way to train a skill if needed<span class='rule-asterisk noscroll'>*</span>",
     "Smithing by Smelting": "Smelting ores into bars counts as a primary method for training Smithing",
-    "Pets": "Obtaining pets is included in the collection log tasks <span class='rule-asterisk noscroll'>*</span>",
-    "Stuffables": "Must obtain stuffable items that can be mounted in the POH (big fish, slayer heads) <span class='rule-asterisk noscroll'>*</span>",
+    "Pets": "Obtaining pets is included in the collection log tasks<span class='rule-asterisk noscroll'>*</span>",
+    "Stuffables": "Must obtain stuffable items that can be mounted in the POH (big fish, slayer heads)<span class='rule-asterisk noscroll'>*</span>",
     "Manually Complete Tasks": "<b class='noscroll'>For maps that allow manually choosing new chunks</b>, allow the ability to manually move completed active tasks",
     "Every Drop": "Must obtain every unique item drop from monsters (items that are dropped by multiple monsters only need to be obtained once)",
     "HigherLander": "Accessing the intermediate and veteran landers for Pest Control are required tasks (only novice lander is required otherwise)",
-    "Starting Items": "Do not count toolbelt items WIP",
     "Secondary MTA": "Allow MTA to be required with secondary sources of nature/law/cosmic runes",
-    "PVP-Only Spells": "Require spells that can only be cast on PVP Worlds/in the Wilderness (Teleother/Teleblock)",
-    "Skilling Pets": "Require skilling pets be obtained as soon as the relevant skill is trainable <span class='rule-asterisk noscroll'>†</span>",
-    "Money Unlockables": "Require permanently unlockable options be unlocked (angelic gravestone, additional bank space, infinitely charged lyre, etc.) <span class='rule-asterisk noscroll'>†</span>",
-    "Prayers": "Must be able to activate all prayers possible <span class='rule-asterisk noscroll'>†</span>",
-    "All Droptables": "Must obtain every drop from every unique monster's droptable (duplicates included, all quantities) <span class='rule-asterisk noscroll'>†</span>",
-    "All Droptables Nest": "Must include every drop from bird nests <span class='rule-asterisk noscroll'>†</span>",
+    "Skilling Pets": "Require skilling pets be obtained as soon as the relevant skill is trainable<span class='rule-asterisk noscroll'>†</span>",
+    "Money Unlockables": "Require permanently unlockable options be unlocked (angelic gravestone, additional bank space, infinitely charged lyre, etc.)<span class='rule-asterisk noscroll'>†</span>",
+    "Prayers": "Must be able to activate all prayers possible<span class='rule-asterisk noscroll'>†</span>",
+    "All Droptables": "Must obtain every drop from every unique monster's droptable (duplicates included, all quantities)<span class='rule-asterisk noscroll'>†</span>",
+    "All Droptables Nest": "Must include every drop from bird nests<span class='rule-asterisk noscroll'>†</span>",
     "Skiller": "Restrict tasks to only those doable on a level 3 skiller",
     "Fill Stash": "Must build and fill S.T.A.S.H. units as soon as you're able to",
     "All Shops": "Must buy every item from every shop within your chunks once <span class='rule-asterisk noscroll'>⁺</span>",
     "Quest Skill Reqs": "Must get Quest skill requirements, regardless of if the Quest is startable or not <span class='rule-asterisk noscroll'>⁺</span>",
 	"Boosting": "Allow skill boosts to be considered for skill tasks",
     "Token": "Allow token xp drops to count as a primary training method<span class='rule-asterisk noscroll'>*</span>",
-	"Master skillcape": "Must obtain master skillcapes for all skills <span class='rule-asterisk noscroll'>†</span>",
-	"Golden fish egg": "Must obtain all available golden fish eggs <span class='rule-asterisk noscroll'>*</span>",
-	"Cleaning herbs": "Cleaning herbs counts as primary herblore training <span class='rule-asterisk noscroll'>*</span>",
-	"Swordy": "Must obtain Swordy McSwordFace from Bossy McBossFace in The Shadow Reef <span class='rule-asterisk noscroll'>*</span>",
-	"Vinesweeper": "Allow Vinesweeper to count as primary training for training Farming <span class='rule-asterisk noscroll'>*</span>",
+	"Master skillcape": "Must obtain master skillcapes for all skills<span class='rule-asterisk noscroll'>†</span>",
+	"Golden fish egg": "Must obtain all available golden fish eggs<span class='rule-asterisk noscroll'>*</span>",
+	"Cleaning herbs": "Cleaning herbs counts as primary herblore training<span class='rule-asterisk noscroll'>*</span>",
+	"Vinesweeper": "Allow Vinesweeper to count as primary training for training Farming<span class='rule-asterisk noscroll'>*</span>",
 	"Ogleroot": "Allow Vinesweeper to count as primary training for training hunter",
 	"Gnomeball": "Allow playing gnomeball to count as a primary training method for agility and ranged",
 	"Daemonheim training": "Allow training methods in Daemonheim to count as primary training methods<span class='rule-asterisk noscroll'>*</span>",
 	"Daemonheim tasks": "Allows activities and items in Daemonheim, excluding doors and puzzles, to create skilling tasks<span class='rule-asterisk noscroll'>*</span>",
 	"PortSkills": "Require all trainable port skills to be trained up to 90<span class='rule-asterisk noscroll'>*</span>",
 	"Champion Challenge": "Require all champions in the champion guild to be defeated when able<span class='rule-asterisk noscroll'>*</span>",
-	"Titles": "Require all special titles that aren't connected to other content to be obtained when able<span class='rule-asterisk noscroll'>*</span>",
+	"Titles": "WIP - Require all special titles that aren't connected to other content to be obtained when able<span class='rule-asterisk noscroll'>*</span>",
 	"DnD": "Allow distractions and diversion to create skilling tasks<span class='rule-asterisk noscroll'>*</span>",
 	"Uncharted": "Allow resources only available on uncharted islands to create skilling tasks<span class='rule-asterisk noscroll'>*</span>",
 	"Arc Log": "Require completion of the Arc Journal<span class='rule-asterisk noscroll'>*</span>",
-	"Achievement": "Require all achievements that can be obtained within your ruleset excluding level up achievements",
+	"Achievement": "WIP - Require all achievements that can be obtained within your ruleset excluding level up achievements (WIP)",
 	"Multiple Pickpockets": "Require the agility and thieving levels to quadruple pickpocket<span class='rule-asterisk noscroll'>*</span>",
     "F2P": "Restrict to F2P skills/items/tasks only",
+	"Hard Mode Bosses": "WIP - Include Hard mode variants of bosses",
+	"Group Content": "WIP - Require content that cannot reasonably be completed solo (Castle wars, Yakamaru, AoD, etc)<span class='rule-asterisk noscroll'>†</span>",
+	"Full Healing": "Require Constitution levels to fully heal from different foods",
+	"PVP": "Require items and to cast spells that can only completed in PVP<span class='rule-asterisk noscroll'>†</span>",
+	"Codex": "Require codices"
 };                                                                              // List of rule definitions
 
 let rulePresets = {
@@ -513,13 +517,13 @@ let rulePresets = {
         "Puro-Puro": true,
         "Spells": true,
         "Combat and Teleport Spells": true,
-        "PVP-Only Spells": true,
         "Smithing by Smelting": true,
         "Rare Drop Amount": "0",
         "Secondary Primary Amount": "1",
 		"Ogleroot": true,
 		"Gnomeball": true,
 		"Achievement": true,
+		"Full Healing": true,
     },
     "Xtreme Chunker": {
         "Skillcape": true,
@@ -549,9 +553,9 @@ let rulePresets = {
         "Extra implings": true,
         "Farming Primary": true,
         "Wandering implings": true,
-        "Secondary Primary": true,
         "Secondary Primary Amount": "0",
         "Collection Log": true,
+		"Boss Collection Log": true,
 		"Slayer Collection Log": true,
         "Untracked Uniques": true,
         "Smithing by Smelting": true,
@@ -565,7 +569,6 @@ let rulePresets = {
 		"Golden fish egg": true,
 		"Cleaning herbs": true,
 		"Stuffables": true,
-		"Swordy": true,
 		"Vinesweeper": true,
 		"Ogleroot": true,
 		"Gnomeball": true,
@@ -579,6 +582,7 @@ let rulePresets = {
 		"Arc Log": true,
 		"Achievement": true,
 		"Multiple Pickpockets": true,
+		"Hard Mode Bosses": true,
     },
     "Supreme Chunker": {
         "Skillcape": true,
@@ -607,10 +611,10 @@ let rulePresets = {
         "Puro-Puro": true,
         "Extra implings": true,
         "Farming Primary": true,
-        "Wandering implings": true,
         "Secondary Primary": true,
         "Secondary Primary Amount": "0",
         "Collection Log": true,
+		"Boss Collection Log": true,
 		"Slayer Collection Log": true,
         "Untracked Uniques": true,
         "Smithing by Smelting": true,
@@ -620,7 +624,6 @@ let rulePresets = {
         "Secondary MTA": true,
         "Spells": true,
         "Combat and Teleport Spells": true,
-        "PVP-Only Spells": true,
         "Skilling Pets": true,
         "Primary Spawns": true,
         "Money Unlockables": true,
@@ -631,7 +634,6 @@ let rulePresets = {
 		"Golden fish egg": true,
 		"Cleaning herbs": true,
 		"Stuffables": true,
-		"Swordy": true,
 		"Vinesweeper": true,
 		"Ogleroot": true,
 		"Gnomeball": true,
@@ -645,6 +647,9 @@ let rulePresets = {
 		"Arc Log": true,
 		"Achievement": true,
 		"Multiple Pickpockets": true,
+		"Hard Mode Bosses": true,
+		"Group Content": true,
+		"PVP": true,
     }
 };                                                                              // List of rules that are part of each preset
 
@@ -660,7 +665,10 @@ let ruleStructure = {
 		"Achievement": true,
         "Show Quest Tasks": ["Show Quest Tasks Complete"],
         "Show Diary Tasks": ["Show Diary Tasks Complete", "Show Diary Tasks Any"],
-        "Show Best in Slot Tasks": ["Show Best in Slot Prayer Tasks", "Show Best in Slot Defensive Tasks", "Show Best in Slot Melee Style Tasks", "Show Best in Slot 1H and 2H", "Show Best in Slot Shield"]
+        "Show Best in Slot Tasks": ["Show Best in Slot Prayer Tasks", "Show Best in Slot Defensive Tasks", "Show Best in Slot Melee Style Tasks", "Show Best in Slot 1H and 2H", "Show Best in Slot Shield"],
+		"BIS Skilling": true,
+		"Collection Log": ["Boss Collection Log", "Slayer Collection Log", "Pets"],
+		"Untracked Uniques": ["Stuffables", "Money Unlockables", "Champion Challenge", "Arc Log", "PVP", "Skilling Pets", "Golden fish egg"]
     },
     "Overall Skill": {
         "Starting Items": false,
@@ -676,13 +684,15 @@ let ruleStructure = {
 		"PortSkills": true,
 		"Token": true,
 		"DnD": true,
-		"Uncharted": true
+		"Uncharted": true,
+		"Multiple Pickpockets": true
     },
     "Agility": {
         "Shortcut": true,
         "Shortcut Task": true
     },
     "Combat": {
+		"Full Healing": true,
         "HigherLander": true
     },
     "Construction": {
@@ -698,18 +708,17 @@ let ruleStructure = {
 		"Vinesweeper": true
     },
 	"Fishing": {
-		"Golden fish egg": true
+		
 	},
     "Herblore": {
 		"Cleaning herbs": true
     },
     "Hunter": {
-        "Puro-Puro": ["Extra implings"],
-        "Wandering implings": true,
+		"Puro-Puro": ["Extra implings"],
 		"Ogleroot": true
     },
     "Magic": {
-        "Spells": ["Combat and Teleport Spells", "PVP-Only Spells"],
+        "Spells": ["Combat and Teleport Spells"],
         "Secondary MTA": true
     },
     "Prayer": {
@@ -728,33 +737,26 @@ let ruleStructure = {
         "Smithing by Smelting": true
     },
 	"Thieving": {
-		"Multiple Pickpockets": true
+		
 	},
     "Item Sources": {
-        "Boss": true,
+        "Boss": ["Hard Mode Bosses"],
+		"Minigame": true,
         "Rare Drop": true,
         "RDT": true,
-        "Primary Spawns": true
+        "Primary Spawns": true,
+		"Every Drop": true,
+        "All Droptables": true,
+        "All Shops": true
     },
     "Miscellaneous": {
-        "Minigame": true,
         "Kill X": true,
-        "BIS Skilling": true,
-        "Collection Log": ["Slayer Collection Log", "Pets", "Arc Log"],
-        "Untracked Uniques": true,
-		"Champion Challenge": true,
-        "Skilling Pets": true,
-        "Stuffables": true,
         "Fill Stash": true,
-        "Money Unlockables": true,
         "Manually Complete Tasks": true,
-        "Every Drop": true,
-        "All Droptables": true,
-        "All Shops": true,
-		"Swordy": true,
         "Skiller": true,
 		"Titles": true,
-        "F2P": true
+        "F2P": true,
+		"Group Content": true
     }
 };                                                                              // Structure of rules
 
@@ -763,6 +765,7 @@ let subRuleDefault = {
     "Show Diary Tasks": false,
     "Show Best in Slot Tasks": false,
     "Collection Log": true,
+	"Untracked Uniques": false,
     "Puro-Puro": false,
     "Spells": false,
     "All Droptables": false,
