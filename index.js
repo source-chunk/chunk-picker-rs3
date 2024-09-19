@@ -1351,7 +1351,7 @@ let topbarElements = {
     'Sandbox Mode': `<div><span class='noscroll' onclick="enableTestMode()"><i class="gosandbox fas fa-flask" title='Sandbox Mode'></i></span></div>`,
 };
 
-let currentVersion = '6.4.8';
+let currentVersion = '6.4.8.1';
 let patchNotesVersion = '6.4.0';
 
 // Patreon Test Server Data
@@ -1492,7 +1492,7 @@ mapImg.addEventListener("load", e => {
         centerCanvas('quick');
     }
 });
-mapImg.src = "runescape_world_map.png?v=6.4.8";
+mapImg.src = "runescape_world_map.png?v=6.4.8.1";
 
 // Rounded rectangle
 CanvasRenderingContext2D.prototype.roundRect = function (x, y, w, h, r) {
@@ -3168,7 +3168,7 @@ let calcCurrentChallengesCanvas = function(useOld, proceed, fromLoadData, inputT
         setCalculating('.panel-active', useOld);
         setCurrentChallenges(['No tasks currently backlogged.'], ['No tasks currently completed.'], true, true);
         myWorker.terminate();
-        myWorker = new Worker("./worker.js?v=6.4.8");
+        myWorker = new Worker("./worker.js?v=6.4.8.1");
         myWorker.onmessage = workerOnMessage;
         myWorker.postMessage(['current', tempChunks['unlocked'], rules, chunkInfo, skillNames, processingSkill, maybePrimary, combatSkills, monstersPlus, objectsPlus, chunksPlus, itemsPlus, mixPlus, npcsPlus, tasksPlus, tools, elementalRunes, manualTasks, completedChallenges, backlog, "1/" + rules['Rare Drop Amount'], universalPrimary, elementalStaves, rangedItems, boneItems, highestCurrent, dropTables, possibleAreas, randomLoot, magicTools, bossLogs, bossMonsters, minigameShops, manualEquipment, checkedChallenges, backloggedSources, altChallenges, manualMonsters, slayerLocked, passiveSkill, f2pSkills, assignedXpRewards, mid === diary2Tier, manualAreas, "1/" + rules['Secondary Primary Amount'], mid === manualAreasOnly, tempSections, settings['optOutSections'], maxSkill, userTasks, manualPrimary]);
         workerOut = 1;
@@ -3470,8 +3470,8 @@ $(document).ready(function() {
 // ------------------------------------------------------------
 
 // Recieve message from worker
-let myWorker = new Worker("./worker.js?v=6.4.8");
-let myWorker2 = new Worker("./worker.js?v=6.4.8");
+let myWorker = new Worker("./worker.js?v=6.4.8.1");
+let myWorker2 = new Worker("./worker.js?v=6.4.8.1");
 let workerOnMessage = function(e) {
     if (lastUpdated + 2000000 < Date.now() && !hasUpdate) {
         lastUpdated = Date.now();
@@ -6231,7 +6231,7 @@ let calcFutureChallenges = function() {
     }
     tempSections = combineJSONs(tempSections, manualSections);
     myWorker2.terminate();
-    myWorker2 = new Worker("./worker.js?v=6.4.8");
+    myWorker2 = new Worker("./worker.js?v=6.4.8.1");
     myWorker2.onmessage = workerOnMessage;
     myWorker2.postMessage(['future', chunks, rules, chunkInfo, skillNames, processingSkill, maybePrimary, combatSkills, monstersPlus, objectsPlus, chunksPlus, itemsPlus, mixPlus, npcsPlus, tasksPlus, tools, elementalRunes, manualTasks, completedChallenges, backlog, "1/" + rules['Rare Drop Amount'], universalPrimary, elementalStaves, rangedItems, boneItems, highestCurrent, dropTables, possibleAreas, randomLoot, magicTools, bossLogs, bossMonsters, minigameShops, manualEquipment, checkedChallenges, backloggedSources, altChallenges, manualMonsters, slayerLocked, passiveSkill, f2pSkills, assignedXpRewards, mid === diary2Tier, manualAreas, "1/" + rules['Secondary Primary Amount'], mid === manualAreasOnly, tempSections, settings['optOutSections'], maxSkill, userTasks, manualPrimary]);
     workerOut++;
@@ -10980,7 +10980,7 @@ let loadData = async function(startup) {
             questLastStep['~|' + chunkInfo['challenges']['Quest'][name]['BaseQuest'] + '|~ Complete the quest'] = name;
         }
     });
-    myRef.child('chunkOrder').once('value', function(snap) {
+    myRef.child('chunkOrder').on('value', function(snap) {
         let shouldScroll = setSnap.hasOwnProperty('chunkOrder');
         let snapDiff = preloadHelper(snap, 'chunkOrder');
         if (snapDiff === false) return;
@@ -11015,7 +11015,7 @@ let loadData = async function(startup) {
             }
         });
     });
-    myRef.child('settings').once('value', function(snap) {
+    myRef.child('settings').on('value', function(snap) {
         let snapDiff = preloadHelper(snap, 'settings');
         if (snapDiff === false) return;
         let settingsTemp = snap.val();
@@ -11071,49 +11071,49 @@ let loadData = async function(startup) {
         toggleTaskSidebar(settings['taskSidebar'], 'startup');
         settings['hideChecked'] ? $(`.tasks-checkmark`).show() : $(`.tasks-checkmark`).hide();
     });
-    myRef.child('recent').once('value', function(snap) {
+    myRef.child('recent').on('value', function(snap) {
         let snapDiff = preloadHelper(snap, 'recent');
         if (snapDiff === false) return;
         recent = decodeObject(snap.val()) || [];
     });
-    myRef.child('topbarSelection').once('value', function(snap) {
+    myRef.child('topbarSelection').on('value', function(snap) {
         let snapDiff = preloadHelper(snap, 'topbarSelection');
         topbarSelection = snap.val() || ['Patreon', 'Map Notes', 'Patch Notes', 'Discord', 'Report a Bug', 'Chunk-roll History', 'Settings'];
         manageTopbar();
         if (snapDiff === false) return;
     });
-    myRef.child('friends').once('value', function(snap) {
+    myRef.child('friends').on('value', function(snap) {
         let snapDiff = preloadHelper(snap, 'friends');
         if (snapDiff === false) return;
         friends = decodeObject(snap.val()) || {};
     });
-    myRef.child('friendsAlt').once('value', function(snap) {
+    myRef.child('friendsAlt').on('value', function(snap) {
         let snapDiff = preloadHelper(snap, 'friendsAlt');
         if (snapDiff === false) return;
         friendsAlt = decodeObject(snap.val()) || {};
     });
-    myRef.child('chunkNotes').once('value', function(snap) {
+    myRef.child('chunkNotes').on('value', function(snap) {
         let snapDiff = preloadHelper(snap, 'chunkNotes');
         if (snapDiff === false) return;
         chunkNotes = decodeObject(snap.val()) || null;
     });
-    myRef.child('userTasks').once('value', function(snap) {
+    myRef.child('userTasks').on('value', function(snap) {
         let snapDiff = preloadHelper(snap, 'userTasks');
         if (snapDiff === false) return;
         userTasks = decodeObject(snap.val()) || {};
         loadUserTasks();
     });
-    myRef.child('manualPrimary').once('value', function(snap) {
+    myRef.child('manualPrimary').on('value', function(snap) {
         let snapDiff = preloadHelper(snap, 'manualPrimary');
         if (snapDiff === false) return;
         manualPrimary = decodeObject(snap.val()) || {};
     });
-    myRef.child('randomLoot').once('value', function(snap) {
+    myRef.child('randomLoot').on('value', function(snap) {
         let snapDiff = preloadHelper(snap, 'randomLoot');
         if (snapDiff === false) return;
         randomLoot = decodeObject(snap.val()) || {};
     });
-    myRef.child('chunks').once('value', function(snap) {
+    myRef.child('chunks').on('value', function(snap) {
         let snapDiff = preloadHelper(snap, 'chunks');
         if (snapDiff === false) return;
         let chunks = decodeObject(snap.val());
@@ -11157,7 +11157,7 @@ let loadData = async function(startup) {
         }
         setUpSelected();
     });
-    myRef.child('recentFancyRollTime').once('value', function(snap) {
+    myRef.child('recentFancyRollTime').on('value', function(snap) {
         if (snap.val() === 0) {
             recentFancyRollTime = 0;
         }
@@ -11177,72 +11177,72 @@ let loadData = async function(startup) {
             loadData();
         }
     });
-    myRef.child('chunkinfo/checkedChallenges').once('value', function(snap) {
+    myRef.child('chunkinfo/checkedChallenges').on('value', function(snap) {
         let snapDiff = preloadHelper(snap, 'chunkinfo/checkedChallenges');
         if (snapDiff === false) return;
         checkedChallenges = !!snap.val() ? decodeObject(snap.val()) : {};
     });
-    myRef.child('chunkinfo/completedChallenges').once('value', function(snap) {
+    myRef.child('chunkinfo/completedChallenges').on('value', function(snap) {
         let snapDiff = preloadHelper(snap, 'chunkinfo/completedChallenges');
         if (snapDiff === false) return;
         completedChallenges = !!snap.val() ? decodeObject(snap.val()) : {};
     });
-    myRef.child('chunkinfo/backlog').once('value', function(snap) {
+    myRef.child('chunkinfo/backlog').on('value', function(snap) {
         let snapDiff = preloadHelper(snap, 'chunkinfo/backlog');
         if (snapDiff === false) return;
         backlog = !!snap.val() ? decodeObject(snap.val()) : {};
     });
-    myRef.child('chunkinfo/possibleAreas').once('value', function(snap) {
+    myRef.child('chunkinfo/possibleAreas').on('value', function(snap) {
         let snapDiff = preloadHelper(snap, 'chunkinfo/possibleAreas');
         if (snapDiff === false) return;
         possibleAreas = !!snap.val() ? decodeObject(snap.val()) : {};
     });
-    myRef.child('chunkinfo/manualAreas').once('value', function(snap) {
+    myRef.child('chunkinfo/manualAreas').on('value', function(snap) {
         let snapDiff = preloadHelper(snap, 'chunkinfo/manualAreas');
         if (snapDiff === false) return;
         manualAreas = !!snap.val() ? decodeObject(snap.val()) : {};
     });
-    myRef.child('chunkinfo/manualTasks').once('value', function(snap) {
+    myRef.child('chunkinfo/manualTasks').on('value', function(snap) {
         let snapDiff = preloadHelper(snap, 'chunkinfo/manualTasks');
         if (snapDiff === false) return;
         manualTasks = !!snap.val() ? decodeObject(snap.val()) : {};
     });
-    myRef.child('chunkinfo/manualEquipment').once('value', function(snap) {
+    myRef.child('chunkinfo/manualEquipment').on('value', function(snap) {
         let snapDiff = preloadHelper(snap, 'chunkinfo/manualEquipment');
         if (snapDiff === false) return;
         manualEquipment = !!snap.val() ? decodeObject(snap.val()) : {};
     });
-    myRef.child('chunkinfo/manualSections').once('value', function(snap) {
+    myRef.child('chunkinfo/manualSections').on('value', function(snap) {
         let snapDiff = preloadHelper(snap, 'chunkinfo/manualSections');
         if (snapDiff === false) return;
         manualSections = !!snap.val() ? decodeObject(snap.val()) : {};
     });
-    myRef.child('chunkinfo/backloggedSources').once('value', function(snap) {
+    myRef.child('chunkinfo/backloggedSources').on('value', function(snap) {
         let snapDiff = preloadHelper(snap, 'chunkinfo/backloggedSources');
         if (snapDiff === false) return;
         backloggedSources = !!snap.val() ? decodeObject(snap.val()) : {};
     });
-    myRef.child('chunkinfo/altChallenges').once('value', function(snap) {
+    myRef.child('chunkinfo/altChallenges').on('value', function(snap) {
         let snapDiff = preloadHelper(snap, 'chunkinfo/altChallenges');
         if (snapDiff === false) return;
         altChallenges = !!snap.val() ? decodeObject(snap.val()) : {};
     });
-    myRef.child('chunkinfo/manualMonsters').once('value', function(snap) {
+    myRef.child('chunkinfo/manualMonsters').on('value', function(snap) {
         let snapDiff = preloadHelper(snap, 'chunkinfo/manualMonsters');
         if (snapDiff === false) return;
         manualMonsters = !!snap.val() ? decodeObject(snap.val()) : {};
     });
-    myRef.child('chunkinfo/slayerLocked').once('value', function(snap) {
+    myRef.child('chunkinfo/slayerLocked').on('value', function(snap) {
         let snapDiff = preloadHelper(snap, 'chunkinfo/slayerLocked');
         if (snapDiff === false) return;
         slayerLocked = !!snap.val() ? decodeObject(snap.val()) : null;
     });
-    myRef.child('chunkinfo/passiveSkill').once('value', function(snap) {
+    myRef.child('chunkinfo/passiveSkill').on('value', function(snap) {
         let snapDiff = preloadHelper(snap, 'chunkinfo/passiveSkill');
         if (snapDiff === false) return;
         passiveSkill = !!snap.val() ? decodeObject(snap.val()) : null;
     });
-    myRef.child('chunkinfo/maxSkill').once('value', function(snap) {
+    myRef.child('chunkinfo/maxSkill').on('value', function(snap) {
         let snapDiff = preloadHelper(snap, 'chunkinfo/maxSkill');
         if (snapDiff === false) return;
         maxSkill = !!snap.val() ? decodeObject(snap.val()) : null;
@@ -11252,7 +11252,7 @@ let loadData = async function(startup) {
         if (snapDiff === false) return;
         prevValueLevelInput = !!snap.val() ? decodeObject(snap.val()) : {'Combat': 3, 'Slayer': 1, 'ignoreCombatLevel': false, 'krystiliaSlayerCreatures': false, 'ClueSteps': 0};
     });
-    myRef.child('chunkinfo/checkedAllTasks').once('value', function(snap) {
+    myRef.child('chunkinfo/checkedAllTasks').on('value', function(snap) {
         let snapDiff = preloadHelper(snap, 'chunkinfo/checkedAllTasks');
         if (snapDiff === false) return;
         checkedAllTasks = !!snap.val() ? decodeObject(snap.val()) : {};
@@ -11265,12 +11265,12 @@ let loadData = async function(startup) {
             !initialLoaded && chunkTasksOn && setCurrentChallenges(['No tasks currently backlogged.'], ['No tasks currently completed.'], true);
         }
     });
-    myRef.child('chunkinfo/assignedXpRewards').once('value', function(snap) {
+    myRef.child('chunkinfo/assignedXpRewards').on('value', function(snap) {
         let snapDiff = preloadHelper(snap, 'chunkinfo/assignedXpRewards');
         if (snapDiff === false) return;
         assignedXpRewards = !!snap.val() ? decodeObject(snap.val()) : {};
     });
-    myRef.child('rules').once('value', function(snap) {
+    myRef.child('rules').on('value', function(snap) {
         let snapDiff = preloadHelper(snap, 'rules');
         if (snapDiff === false) return;
         let rulesTemp = snap.val() || {};
