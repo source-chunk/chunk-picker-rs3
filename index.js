@@ -4135,9 +4135,10 @@ let highscoreFunc = function() {
     $('.settings').css({ 'color': 'var(--colorText)' });
 }
 
+
 // Sets username for the highscores
 let highscoreOptIn = function() {
-    return; //TEMP (highscore not enabled)
+    return; /*TEMP (highscore not enabled)
     $('#highscoreoptin').prop('disabled', true).html('<i class="spin fas fa-spinner"></i>');
     let oldUsername = userName;
     userName = $('.username').val();
@@ -4160,7 +4161,9 @@ let highscoreOptIn = function() {
             }, 1000);
         }
     });
+	*/
 }
+
 
 // Exits the highscores menu
 let exitHighscoreMenu = function() {
@@ -5300,11 +5303,12 @@ let toggleRecent = function(value, extra) {
 
 // Enabled highscore tracking
 let enableHighscore = function(extra) {
-    return; //TEMP (highscore not enabled)
+    return; /*TEMP (highscore not enabled)
     if (!highscoreEnabled) {
         highscoreEnabled = true;
         extra !== 'startup' && !locked && setData();
     }
+	*/
 }
 
 // Toggles the accordion panels of the chunk info panel
@@ -10826,7 +10830,7 @@ let setRecentLogin = function() {
 
 // Stores data in Firebase
 let setUsername = function(old) {
-    return; //TEMP (highscore not enabled)
+    return; /*TEMP (highscore not enabled)
     if (onTestServer || testMode) {
         return;
     }
@@ -10851,6 +10855,7 @@ let setUsername = function(old) {
             setData();
         });
     });
+	*/
 }
 
 // Stores data in Firebase
