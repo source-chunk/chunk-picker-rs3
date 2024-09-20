@@ -505,7 +505,7 @@ let ruleNames = {
 	"Achievement": "WIP - Require all achievements that can be obtained within your ruleset excluding level up achievements (WIP)",
 	"Multiple Pickpockets": "Require the agility and thieving levels to quadruple pickpocket<span class='rule-asterisk noscroll'>*</span>",
     "F2P": "Restrict to F2P skills/items/tasks only",
-	"Hard Mode Bosses": "WIP - Include Hard mode variants of bosses",
+	"Hard Mode Bosses": "Include Hard mode variants of bosses",
 	"Group Content": "WIP - Require content that cannot reasonably be completed solo (Castle wars, Yakamaru, AoD, etc)<span class='rule-asterisk noscroll'>†</span>",
 	"Full Healing": "Require Constitution levels to fully heal from different foods",
 	"PVP": "Require items and to cast spells that can only completed in PVP<span class='rule-asterisk noscroll'>†</span>",
