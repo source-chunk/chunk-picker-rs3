@@ -388,7 +388,6 @@ let rules = {
     "Manually Complete Tasks": false,
     "Every Drop": false,
     "HigherLander": false,
-    "Starting Items": false,
     "Secondary MTA": false,
     "Skilling Pets": false,
     "Money Unlockables": false,
@@ -456,7 +455,7 @@ let ruleNames = {
     "Show Diary Tasks Any": "Show all diary tasks possible, regardless of tier<span class='rule-asterisk noscroll'>*</span>",
     "Highest Level": "Require processing skill tasks to be the highest level of processing, rather than the lowest (e.g. must craft black dragonhide leather fully into a dragonhide shield rather than just into vambraces)<span class='rule-asterisk noscroll'>*</span>",
     "BIS Skilling": "Must obtain items that are best-in-slot/add quality-of-life for skilling (e.g. Dragon Pickaxe, Angler Outfit, wieldable saw, etc.)",
-	"Brawling gloves": "Brawling gloves of every type count as skilling BIS",
+	"Brawling Gloves": "Brawling gloves of every type count as skilling BIS",
 	"Hero Items": "Must contain Hero Items as part of chunk tasks<span class='rule-asterisk noscroll'>†</span>",
     "Collection Log": "Must obtain items from collection logs (Does nothing on its own)<span class='rule-asterisk noscroll'>*</span>",
 	"Boss Collection Log": "Must obtain items from the boss collection log<span class='rule-asterisk noscroll'>*</span>",
@@ -692,7 +691,6 @@ let ruleStructure = {
 		"Untracked Uniques": ["Stuffables", "Money Unlockables", "Champion Challenge", "Arc Log", "Skilling Pets", "Golden fish egg"]
     },
     "Overall Skill": {
-        "Starting Items": false,
         "Skillcape": ["Master skillcape"],
         "Highest Level": true,
         "Multi Step Processing": true,
