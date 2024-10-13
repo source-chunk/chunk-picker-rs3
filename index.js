@@ -425,6 +425,8 @@ let rules = {
 	"PVP": false,
 	"Hero Items": false,
 	"Brawling Gloves": false,
+	"Codex": false,
+	"All Abilities": false,
 };                                                                              // List of rules and their on/off state
 
 let ruleNames = {
@@ -456,7 +458,7 @@ let ruleNames = {
     "Highest Level": "Require processing skill tasks to be the highest level of processing, rather than the lowest (e.g. must craft black dragonhide leather fully into a dragonhide shield rather than just into vambraces)<span class='rule-asterisk noscroll'>*</span>",
     "BIS Skilling": "Must obtain items that are best-in-slot/add quality-of-life for skilling (e.g. Dragon Pickaxe, Angler Outfit, wieldable saw, etc.)",
 	"Brawling Gloves": "Brawling gloves of every type count as skilling BIS",
-	"Hero Items": "Must contain Hero Items as part of chunk tasks<span class='rule-asterisk noscroll'>†</span>",
+	"Hero Items": "Must obtain Hero Items as part of chunk tasks<span class='rule-asterisk noscroll'>†</span>",
     "Collection Log": "Must obtain items from collection logs (Does nothing on its own)<span class='rule-asterisk noscroll'>*</span>",
 	"Boss Collection Log": "Must obtain items from the boss collection log<span class='rule-asterisk noscroll'>*</span>",
 	"Slayer Collection Log": "Must obtain items from the slayer collection log<span class='rule-asterisk noscroll'>*</span>",
@@ -514,7 +516,8 @@ let ruleNames = {
 	"Group Content": "WIP - Require content that cannot reasonably be completed solo (Castle wars, Yakamaru, AoD, etc)<span class='rule-asterisk noscroll'>†</span>",
 	"Full Healing": "Require Constitution levels to fully heal from different foods",
 	"PVP": "Require tasks that can only be completed by engaging in PvP<span class='rule-asterisk noscroll'>†</span>",
-	"Codex": "Require codices"
+	"Codex": "Require new abilities and prayers that are obtained through an ability codex (WIP)",
+	"All Abilities": "Require new abilities and prayers that are obtained through other means than an ability codex (WIP)"
 };                                                                              // List of rule definitions
 
 let rulePresets = {
@@ -712,7 +715,8 @@ let ruleStructure = {
     },
     "Combat": {
 		"Full Healing": true,
-        "HigherLander": true
+        "HigherLander": true,
+		"Codex": ["All Abilities"],
     },
     "Construction": {
         "InsidePOH Primary": true,
