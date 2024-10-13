@@ -414,6 +414,7 @@ let rules = {
 	"Champion Challenge": false,
 	"Titles": false,
 	"DnD": false,
+	"DnD Skilling": false,
 	"Uncharted": false,
 	"Arc Log": false,
 	"Achievement": false,
@@ -423,6 +424,8 @@ let rules = {
 	"Group Content": false,
 	"Full Healing": false,
 	"PVP": false,
+	"Hero Items": false,
+	"Brawling Gloves": false,
 };                                                                              // List of rules and their on/off state
 
 let ruleNames = {
@@ -452,11 +455,14 @@ let ruleNames = {
     "Show Diary Tasks Complete": "Show Diary Tasks only when the whole diary tier (easy, medium, etc.) is completable",
     "Show Diary Tasks Any": "Show all diary tasks possible, regardless of tier<span class='rule-asterisk noscroll'>*</span>",
     "Highest Level": "Require processing skill tasks to be the highest level of processing, rather than the lowest (e.g. must craft black dragonhide leather fully into a dragonhide shield rather than just into vambraces)<span class='rule-asterisk noscroll'>*</span>",
-    "BIS Skilling": "WIP - Must obtain items that are best-in-slot/add quality-of-life for skilling (e.g. Dragon Pickaxe, Angler Outfit, wieldable saw, etc.)",
+    "BIS Skilling": "Must obtain items that are best-in-slot/add quality-of-life for skilling (e.g. Dragon Pickaxe, Angler Outfit, wieldable saw, etc.)",
+	"Brawling gloves": "Brawling gloves of every type count as skilling BIS",
+	"Hero Items": "Must contain Hero Items as part of chunk tasks<span class='rule-asterisk noscroll'>†</span>",
     "Collection Log": "Must obtain items from collection logs (Does nothing on its own)<span class='rule-asterisk noscroll'>*</span>",
 	"Boss Collection Log": "Must obtain items from the boss collection log<span class='rule-asterisk noscroll'>*</span>",
 	"Slayer Collection Log": "Must obtain items from the slayer collection log<span class='rule-asterisk noscroll'>*</span>",
     "Minigame": "Allow items obtained from minigame rewards to count towards chunk tasks",
+	"DnD": "Allow items obtained from DnD rewards to count towards chunk tasks<span class='rule-asterisk noscroll'>*</span>",
     "Shortcut Task": "Allow agility shortcuts to count as an Agility skill task",
     "Shortcut": "Allow agility shortcuts to count as a primary method for training Agility",
     "Wield Crafted Items": "Crafted items (e.g. bows, metal armour/weapons, etc.) can be wielded as part of chunks tasks (as BiS gear, wielding requirements, training methods, etc.)<span class='rule-asterisk noscroll'>*</span>",
@@ -499,7 +505,7 @@ let ruleNames = {
 	"PortSkills": "Require all trainable port skills to be trained up to 90<span class='rule-asterisk noscroll'>*</span>",
 	"Champion Challenge": "Require all champions in the champion guild to be defeated when able<span class='rule-asterisk noscroll'>*</span>",
 	"Titles": "WIP - Require all special titles that aren't connected to other content to be obtained when able<span class='rule-asterisk noscroll'>*</span>",
-	"DnD": "Allow distractions and diversion to create skilling tasks<span class='rule-asterisk noscroll'>*</span>",
+	"DnD Skilling": "Allow distractions and diversion to create skilling tasks<span class='rule-asterisk noscroll'>*</span>",
 	"Uncharted": "Allow resources only available on uncharted islands to create skilling tasks<span class='rule-asterisk noscroll'>*</span>",
 	"Arc Log": "Require completion of the Arc Journal<span class='rule-asterisk noscroll'>*</span>",
 	"Achievement": "WIP - Require all achievements that can be obtained within your ruleset excluding level up achievements (WIP)",
@@ -508,7 +514,7 @@ let ruleNames = {
 	"Hard Mode Bosses": "Include Hard mode variants of bosses",
 	"Group Content": "WIP - Require content that cannot reasonably be completed solo (Castle wars, Yakamaru, AoD, etc)<span class='rule-asterisk noscroll'>†</span>",
 	"Full Healing": "Require Constitution levels to fully heal from different foods",
-	"PVP": "Require items and to cast spells that can only completed in PVP<span class='rule-asterisk noscroll'>†</span>",
+	"PVP": "Require tasks that can only be completed by engaging in PvP<span class='rule-asterisk noscroll'>†</span>",
 	"Codex": "Require codices"
 };                                                                              // List of rule definitions
 
@@ -555,6 +561,7 @@ let rulePresets = {
         "Show Best in Slot Prayer Tasks": true,
         "Highest Level": true,
         "Minigame": true,
+        "DnD": true,
         "Shortcut Task": true,
         "Shortcut": true,
         "Wield Crafted Items": true,
@@ -587,7 +594,7 @@ let rulePresets = {
 		"PortSkills": true,
 		"Champion Challenge": true,
 		"Titles": true,
-		"DnD": true,
+		"DnD Skilling": true,
 		"Uncharted": true,
 		"Arc Log": true,
 		"Achievement": true,
@@ -615,6 +622,7 @@ let rulePresets = {
         "Show Best in Slot Prayer Tasks": true,
         "Highest Level": true,
         "Minigame": true,
+        "DnD": true,
         "Shortcut Task": true,
         "Shortcut": true,
         "Wield Crafted Items": true,
@@ -653,7 +661,7 @@ let rulePresets = {
 		"PortSkills": true,
 		"Champion Challenge": true,
 		"Titles": true,
-		"DnD": true,
+		"DnD Skilling": true,
 		"Uncharted": true,
 		"Arc Log": true,
 		"Achievement": true,
@@ -662,6 +670,7 @@ let rulePresets = {
 		"Group Content": true,
 		"PVP": true,
 		"Full Healing": true,
+		"Hero Items": true,
     }
 };                                                                              // List of rules that are part of each preset
 
@@ -678,9 +687,9 @@ let ruleStructure = {
         "Show Quest Tasks": ["Show Quest Tasks Complete"],
         "Show Diary Tasks": ["Show Diary Tasks Complete", "Show Diary Tasks Any"],
         "Show Best in Slot Tasks": ["Show Best in Slot Prayer Tasks", "Show Best in Slot Defensive Tasks", "Show Best in Slot Melee Style Tasks", "Show Best in Slot 1H and 2H", "Show Best in Slot Shield"],
-		"BIS Skilling": true,
+		"BIS Skilling": ["Brawling Gloves"],
 		"Collection Log": ["Boss Collection Log", "Slayer Collection Log", "Pets"],
-		"Untracked Uniques": ["Stuffables", "Money Unlockables", "Champion Challenge", "Arc Log", "PVP", "Skilling Pets", "Golden fish egg"]
+		"Untracked Uniques": ["Stuffables", "Money Unlockables", "Champion Challenge", "Arc Log", "Skilling Pets", "Golden fish egg"]
     },
     "Overall Skill": {
         "Starting Items": false,
@@ -695,7 +704,7 @@ let ruleStructure = {
 		"Daemonheim tasks": true,
 		"PortSkills": true,
 		"Token": true,
-		"DnD": true,
+		"DnD Skilling": true,
 		"Uncharted": true,
 		"Multiple Pickpockets": true
     },
@@ -753,7 +762,9 @@ let ruleStructure = {
 	},
     "Item Sources": {
         "Boss": ["Hard Mode Bosses"],
+		"PVP": true,
 		"Minigame": true,
+		"DnD": true,
         "Rare Drop": true,
         "RDT": true,
         "Primary Spawns": true,
@@ -762,7 +773,8 @@ let ruleStructure = {
         "All Shops": true
     },
     "Miscellaneous": {
-        "Kill X": true,
+        "Hero Items": true,
+		"Kill X": true,
         "Fill Stash": true,
         "Manually Complete Tasks": true,
         "Skiller": true,
