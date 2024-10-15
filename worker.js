@@ -1725,7 +1725,7 @@ let calcChallenges = function(chunks, baseChunkData) {
         });
         let sectionsAdded = false;
         newValids.hasOwnProperty('Nonskill') && Object.keys(newValids['Nonskill']).filter((task) => { return !!chunkInfo['challenges']['Nonskill'][task] && chunkInfo['challenges']['Nonskill'][task].hasOwnProperty('ConnectsSections') }).forEach((task) => {
-            chunkInfo['challenges']['Nonskill'][task].hasOwnProperty('Sections') && chunkInfo['challenges']['Nonskill'][task]['Sections'].filter((section) => section.includes('-') && (!unlockedSections[section.split('-')[0]] || !unlockedSections[section.split('-')[0]][section.split('-')[1]])).forEach((section) => {
+            chunkInfo['challenges']['Nonskill'][task].hasOwnProperty('Sections') && chunkInfo['challenges']['Nonskill'][task]['Sections'].filter((section) => section.includes('-') && chunks.hasOwnProperty(section.split('-')[0]) && (!unlockedSections[section.split('-')[0]] || !unlockedSections[section.split('-')[0]][section.split('-')[1]])).forEach((section) => {
                 if (!unlockedSections[section.split('-')[0]]) {
                     unlockedSections[section.split('-')[0]] = {};
                 }
@@ -4301,14 +4301,14 @@ let checkPrimaryMethod = function(skill, valids, baseChunkData) {
                             return;
                         } else {
                             let tempSecondary = true;
-                            itemsPlus[tempItem.replaceAll(/\*/g, '')].filter((plus) => { return !!baseChunkData['items'][plus] && (!!baseChunkData['items'][plus.replaceAll(/\*/g, '')] && Object.keys(baseChunkData['items'][plus.replaceAll(/\*/g, '')]).filter((source) => { return (!baseChunkData['items'][plus.replaceAll(/\*/g, '')][source].includes('secondary-') && (!processingSkill[baseChunkData['items'][plus.replaceAll(/\*/g, '')][source].split('-')[1]] || rules['Wield Crafted Items'])) || (baseChunkData['items'][plus.replaceAll(/\*/g, '')][source]['primary-'] && (!processingSkill[baseChunkData['items'][plus.replaceAll(/\*/g, '')][source].split('-')[1]] || rules['Wield Crafted Items'])) || baseChunkData['items'][plus.replaceAll(/\*/g, '')][source] === 'shop' }).length > 0) }).length > 0 && (tempSecondary = false);
+                            itemsPlus[tempItem.replaceAll(/\*/g, '')].filter((plus) => { return !!baseChunkData['items'][plus] && (!!baseChunkData['items'][plus.replaceAll(/\*/g, '')] && Object.keys(baseChunkData['items'][plus.replaceAll(/\*/g, '')]).filter((source) => { return (!baseChunkData['items'][plus.replaceAll(/\*/g, '')][source].includes('secondary-') && (!processingSkill[baseChunkData['items'][plus.replaceAll(/\*/g, '')][source].split('-')[1]] || rules['Wield Crafted Items'])) || (baseChunkData['items'][plus.replaceAll(/\*/g, '')][source]['Primary'] && (!processingSkill[baseChunkData['items'][plus.replaceAll(/\*/g, '')][source].split('-')[1]] || rules['Wield Crafted Items'])) || baseChunkData['items'][plus.replaceAll(/\*/g, '')][source] === 'shop' }).length > 0) }).length > 0 && (tempSecondary = false);
                             tempSecondary && (ammoValid = false);
                         }
                     } else {
                         if (!!baseChunkData['items'] && !Object.keys(baseChunkData['items']).includes(tempItem.replaceAll(/\*/g, ''))) {
                             ammoValid = false;
                         } else {
-                            let tempSecondary = !(!!baseChunkData['items'][tempItem.replaceAll(/\*/g, '')] && Object.keys(baseChunkData['items'][tempItem.replaceAll(/\*/g, '')]).filter((source) => { return (!baseChunkData['items'][tempItem.replaceAll(/\*/g, '')][source].includes('secondary-') && (!processingSkill[baseChunkData['items'][tempItem.replaceAll(/\*/g, '')][source].split('-')[1]] || rules['Wield Crafted Items'])) || (baseChunkData['items'][tempItem.replaceAll(/\*/g, '')][source]['primary-'] && (!processingSkill[baseChunkData['items'][tempItem.replaceAll(/\*/g, '')][source].split('-')[1]] || rules['Wield Crafted Items'])) || baseChunkData['items'][tempItem.replaceAll(/\*/g, '')][source] === 'shop' }).length > 0);
+                            let tempSecondary = !(!!baseChunkData['items'][tempItem.replaceAll(/\*/g, '')] && Object.keys(baseChunkData['items'][tempItem.replaceAll(/\*/g, '')]).filter((source) => { return (!baseChunkData['items'][tempItem.replaceAll(/\*/g, '')][source].includes('secondary-') && (!processingSkill[baseChunkData['items'][tempItem.replaceAll(/\*/g, '')][source].split('-')[1]] || rules['Wield Crafted Items'])) || (baseChunkData['items'][tempItem.replaceAll(/\*/g, '')][source]['Primary'] && (!processingSkill[baseChunkData['items'][tempItem.replaceAll(/\*/g, '')][source].split('-')[1]] || rules['Wield Crafted Items'])) || baseChunkData['items'][tempItem.replaceAll(/\*/g, '')][source] === 'shop' }).length > 0);
                             tempSecondary && (ammoValid = false);
                         }
                     }
@@ -4319,7 +4319,7 @@ let checkPrimaryMethod = function(skill, valids, baseChunkData) {
                         if (!!baseChunkData['items'] && Object.keys(baseChunkData['items']).includes(item.replaceAll(/\*/g, ''))) {
                             if (rangedItems.hasOwnProperty(item.replaceAll(/\*/g, '')) && (rangedItems[item.replaceAll(/\*/g, '')] === 1 || (!!passiveSkill && passiveSkill.hasOwnProperty(skill) && passiveSkill['Ranged'] > 1 && rangedItems[item.replaceAll(/\*/g, '')] <= passiveSkill['Ranged']) || ((!!skillQuestXp && skillQuestXp.hasOwnProperty('Ranged') && rangedItems[item.replaceAll(/\*/g, '')] <= skillQuestXp['Ranged']['level'])))) {
                                 if (item.includes('*')) {
-                                    let tempSecondary = !(!!baseChunkData['items'][item.replaceAll(/\*/g, '')] && Object.keys(baseChunkData['items'][item.replaceAll(/\*/g, '')]).filter((source) => { return (!baseChunkData['items'][item.replaceAll(/\*/g, '')][source].includes('secondary-') && (!processingSkill[baseChunkData['items'][item.replaceAll(/\*/g, '')][source].split('-')[1]] || rules['Wield Crafted Items'])) || (baseChunkData['items'][item.replaceAll(/\*/g, '')][source]['primary-'] && (!processingSkill[baseChunkData['items'][item.replaceAll(/\*/g, '')][source].split('-')[1]] || rules['Wield Crafted Items'])) || baseChunkData['items'][item.replaceAll(/\*/g, '')][source] === 'shop' }).length > 0);
+                                    let tempSecondary = !(!!baseChunkData['items'][item.replaceAll(/\*/g, '')] && Object.keys(baseChunkData['items'][item.replaceAll(/\*/g, '')]).filter((source) => { return (!baseChunkData['items'][item.replaceAll(/\*/g, '')][source].includes('secondary-') && (!processingSkill[baseChunkData['items'][item.replaceAll(/\*/g, '')][source].split('-')[1]] || rules['Wield Crafted Items'])) || (baseChunkData['items'][item.replaceAll(/\*/g, '')][source]['Primary'] && (!processingSkill[baseChunkData['items'][item.replaceAll(/\*/g, '')][source].split('-')[1]] || rules['Wield Crafted Items'])) || baseChunkData['items'][item.replaceAll(/\*/g, '')][source] === 'shop' }).length > 0);
                                     !tempSecondary && (innerValid = true);
                                 } else {
                                     innerValid = true;
@@ -5377,7 +5377,7 @@ let calcBIS = function(completedOnly) {
             validWearable = true;
             tempEquipment = ['Void knight melee helm', 'Void knight top', 'Void knight robe', 'Void knight gloves'];
             tempEquipment.some(equip => {
-                if (!baseChunkData['items'].hasOwnProperty(equip)) {
+                if (!baseChunkData['items'].hasOwnProperty(equip) || !tempEquipmentObject.hasOwnProperty(equip)) {
                     validWearable = false;
                     return true;
                 }
@@ -5432,7 +5432,7 @@ let calcBIS = function(completedOnly) {
             validWearable = true;
             tempEquipment = ['Superior void knight melee helm', 'Superior void knight top', 'Superior void knight robe', 'Superior void knight gloves'];
             tempEquipment.some(equip => {
-                if (!baseChunkData['items'].hasOwnProperty(equip)) {
+                if (!baseChunkData['items'].hasOwnProperty(equip) || !tempEquipmentObject.hasOwnProperty(equip)) {
                     validWearable = false;
                     return true;
                 }
@@ -5487,7 +5487,7 @@ let calcBIS = function(completedOnly) {
             validWearable = true;
             tempEquipment = ['Warpriest of Tuska helm', 'Warpriest of Tuska cuirass', 'Warpriest of Tuska robe legs', 'Warpriest of Tuska cape', 'Warpriest of Tuska boots', 'Warpriest of Tuska gauntlets'];
             tempEquipment.some(equip => {
-                if (!baseChunkData['items'].hasOwnProperty(equip)) {
+                if (!baseChunkData['items'].hasOwnProperty(equip) || !tempEquipmentObject.hasOwnProperty(equip)) {
                     validWearable = false;
                     return true;
                 }
@@ -5561,7 +5561,7 @@ let calcBIS = function(completedOnly) {
             validWearable = true;
             tempEquipment = ['Warpriest of Saradomin helm', 'Warpriest of Saradomin cuirass', 'Warpriest of Saradomin greaves', 'Warpriest of Saradomin cape', 'Warpriest of Saradomin boots', 'Warpriest of Saradomin gauntlets'];
             tempEquipment.some(equip => {
-                if (!baseChunkData['items'].hasOwnProperty(equip)) {
+                if (!baseChunkData['items'].hasOwnProperty(equip) || !tempEquipmentObject.hasOwnProperty(equip)) {
                     validWearable = false;
                     return true;
                 }
@@ -5635,7 +5635,7 @@ let calcBIS = function(completedOnly) {
             validWearable = true;
             tempEquipment = ['Warpriest of Zamorak helm', 'Warpriest of Zamorak cuirass', 'Warpriest of Zamorak greaves', 'Warpriest of Zamorak cape', 'Warpriest of Zamorak boots', 'Warpriest of Zamorak gauntlets'];
             tempEquipment.some(equip => {
-                if (!baseChunkData['items'].hasOwnProperty(equip)) {
+                if (!baseChunkData['items'].hasOwnProperty(equip) || !tempEquipmentObject.hasOwnProperty(equip)) {
                     validWearable = false;
                     return true;
                 }
@@ -5715,7 +5715,7 @@ let calcBIS = function(completedOnly) {
             validWearable = true;
             tempEquipment = ['Void knight melee helm', 'Void knight top', 'Void knight robe', 'Void knight gloves'];
             tempEquipment.some(equip => {
-                if (!baseChunkData['items'].hasOwnProperty(equip)) {
+                if (!baseChunkData['items'].hasOwnProperty(equip) || !tempEquipmentObject.hasOwnProperty(equip)) {
                     validWearable = false;
                     return true;
                 }
@@ -5767,7 +5767,7 @@ let calcBIS = function(completedOnly) {
             validWearable = true;
             tempEquipment = ['Superior void knight melee helm', 'Superior void knight top', 'Superior void knight robe', 'Superior void knight gloves'];
             tempEquipment.some(equip => {
-                if (!baseChunkData['items'].hasOwnProperty(equip)) {
+                if (!baseChunkData['items'].hasOwnProperty(equip) || !tempEquipmentObject.hasOwnProperty(equip)) {
                     validWearable = false;
                     return true;
                 }
@@ -5819,7 +5819,7 @@ let calcBIS = function(completedOnly) {
             validWearable = true;
             tempEquipment = ['Warpriest of Tuska helm', 'Warpriest of Tuska cuirass', 'Warpriest of Tuska robe legs', 'Warpriest of Tuska cape', 'Warpriest of Tuska boots', 'Warpriest of Tuska gauntlets'];
             tempEquipment.some(equip => {
-                if (!baseChunkData['items'].hasOwnProperty(equip)) {
+                if (!baseChunkData['items'].hasOwnProperty(equip) || !tempEquipmentObject.hasOwnProperty(equip)) {
                     validWearable = false;
                     return true;
                 }
@@ -5893,7 +5893,7 @@ let calcBIS = function(completedOnly) {
             validWearable = true;
             tempEquipment = ['Warpriest of Saradomin helm', 'Warpriest of Saradomin cuirass', 'Warpriest of Saradomin greaves', 'Warpriest of Saradomin cape', 'Warpriest of Saradomin boots', 'Warpriest of Saradomin gauntlets'];
             tempEquipment.some(equip => {
-                if (!baseChunkData['items'].hasOwnProperty(equip)) {
+                if (!baseChunkData['items'].hasOwnProperty(equip) || !tempEquipmentObject.hasOwnProperty(equip)) {
                     validWearable = false;
                     return true;
                 }
@@ -5967,7 +5967,7 @@ let calcBIS = function(completedOnly) {
             validWearable = true;
             tempEquipment = ['Warpriest of Zamorak helm', 'Warpriest of Zamorak cuirass', 'Warpriest of Zamorak greaves', 'Warpriest of Zamorak cape', 'Warpriest of Zamorak boots', 'Warpriest of Zamorak gauntlets'];
             tempEquipment.some(equip => {
-                if (!baseChunkData['items'].hasOwnProperty(equip)) {
+                if (!baseChunkData['items'].hasOwnProperty(equip) || !tempEquipmentObject.hasOwnProperty(equip)) {
                     validWearable = false;
                     return true;
                 }
@@ -6047,7 +6047,7 @@ let calcBIS = function(completedOnly) {
             validWearable = true;
             tempEquipment = ['Void knight melee helm', 'Void knight top', 'Void knight robe', 'Void knight gloves'];
             tempEquipment.some(equip => {
-                if (!baseChunkData['items'].hasOwnProperty(equip)) {
+                if (!baseChunkData['items'].hasOwnProperty(equip) || !tempEquipmentObject.hasOwnProperty(equip)) {
                     validWearable = false;
                     return true;
                 }
@@ -6099,7 +6099,7 @@ let calcBIS = function(completedOnly) {
             validWearable = true;
             tempEquipment = ['Superior void knight melee helm', 'Superior void knight top', 'Superior void knight robe', 'Superior void knight gloves'];
             tempEquipment.some(equip => {
-                if (!baseChunkData['items'].hasOwnProperty(equip)) {
+                if (!baseChunkData['items'].hasOwnProperty(equip) || !tempEquipmentObject.hasOwnProperty(equip)) {
                     validWearable = false;
                     return true;
                 }
@@ -6151,7 +6151,7 @@ let calcBIS = function(completedOnly) {
             validWearable = true;
             tempEquipment = ['Warpriest of Tuska helm', 'Warpriest of Tuska cuirass', 'Warpriest of Tuska robe legs', 'Warpriest of Tuska cape', 'Warpriest of Tuska boots', 'Warpriest of Tuska gauntlets'];
             tempEquipment.some(equip => {
-                if (!baseChunkData['items'].hasOwnProperty(equip)) {
+                if (!baseChunkData['items'].hasOwnProperty(equip) || !tempEquipmentObject.hasOwnProperty(equip)) {
                     validWearable = false;
                     return true;
                 }
@@ -6225,7 +6225,7 @@ let calcBIS = function(completedOnly) {
             validWearable = true;
             tempEquipment = ['Warpriest of Saradomin helm', 'Warpriest of Saradomin cuirass', 'Warpriest of Saradomin greaves', 'Warpriest of Saradomin cape', 'Warpriest of Saradomin boots', 'Warpriest of Saradomin gauntlets'];
             tempEquipment.some(equip => {
-                if (!baseChunkData['items'].hasOwnProperty(equip)) {
+                if (!baseChunkData['items'].hasOwnProperty(equip) || !tempEquipmentObject.hasOwnProperty(equip)) {
                     validWearable = false;
                     return true;
                 }
@@ -6299,7 +6299,7 @@ let calcBIS = function(completedOnly) {
             validWearable = true;
             tempEquipment = ['Warpriest of Zamorak helm', 'Warpriest of Zamorak cuirass', 'Warpriest of Zamorak greaves', 'Warpriest of Zamorak cape', 'Warpriest of Zamorak boots', 'Warpriest of Zamorak gauntlets'];
             tempEquipment.some(equip => {
-                if (!baseChunkData['items'].hasOwnProperty(equip)) {
+                if (!baseChunkData['items'].hasOwnProperty(equip) || !tempEquipmentObject.hasOwnProperty(equip)) {
                     validWearable = false;
                     return true;
                 }
@@ -6379,7 +6379,7 @@ let calcBIS = function(completedOnly) {
             validWearable = true;
             tempEquipment = ['Void knight melee helm', 'Void knight top', 'Void knight robe', 'Void knight gloves'];
             tempEquipment.some(equip => {
-                if (!baseChunkData['items'].hasOwnProperty(equip)) {
+                if (!baseChunkData['items'].hasOwnProperty(equip) || !tempEquipmentObject.hasOwnProperty(equip)) {
                     validWearable = false;
                     return true;
                 }
@@ -6431,7 +6431,7 @@ let calcBIS = function(completedOnly) {
             validWearable = true;
             tempEquipment = ['Superior void knight melee helm', 'Superior void knight top', 'Superior void knight robe', 'Superior void knight gloves'];
             tempEquipment.some(equip => {
-                if (!baseChunkData['items'].hasOwnProperty(equip)) {
+                if (!baseChunkData['items'].hasOwnProperty(equip) || !tempEquipmentObject.hasOwnProperty(equip)) {
                     validWearable = false;
                     return true;
                 }
@@ -6483,7 +6483,7 @@ let calcBIS = function(completedOnly) {
             validWearable = true;
             tempEquipment = ['Warpriest of Tuska helm', 'Warpriest of Tuska cuirass', 'Warpriest of Tuska robe legs', 'Warpriest of Tuska cape', 'Warpriest of Tuska boots', 'Warpriest of Tuska gauntlets'];
             tempEquipment.some(equip => {
-                if (!baseChunkData['items'].hasOwnProperty(equip)) {
+                if (!baseChunkData['items'].hasOwnProperty(equip) || !tempEquipmentObject.hasOwnProperty(equip)) {
                     validWearable = false;
                     return true;
                 }
@@ -6557,7 +6557,7 @@ let calcBIS = function(completedOnly) {
             validWearable = true;
             tempEquipment = ['Warpriest of Saradomin helm', 'Warpriest of Saradomin cuirass', 'Warpriest of Saradomin greaves', 'Warpriest of Saradomin cape', 'Warpriest of Saradomin boots', 'Warpriest of Saradomin gauntlets'];
             tempEquipment.some(equip => {
-                if (!baseChunkData['items'].hasOwnProperty(equip)) {
+                if (!baseChunkData['items'].hasOwnProperty(equip) || !tempEquipmentObject.hasOwnProperty(equip)) {
                     validWearable = false;
                     return true;
                 }
@@ -6631,7 +6631,7 @@ let calcBIS = function(completedOnly) {
             validWearable = true;
             tempEquipment = ['Warpriest of Zamorak helm', 'Warpriest of Zamorak cuirass', 'Warpriest of Zamorak greaves', 'Warpriest of Zamorak cape', 'Warpriest of Zamorak boots', 'Warpriest of Zamorak gauntlets'];
             tempEquipment.some(equip => {
-                if (!baseChunkData['items'].hasOwnProperty(equip)) {
+                if (!baseChunkData['items'].hasOwnProperty(equip) || !tempEquipmentObject.hasOwnProperty(equip)) {
                     validWearable = false;
                     return true;
                 }
@@ -6711,7 +6711,7 @@ let calcBIS = function(completedOnly) {
             validWearable = true;
             tempEquipment = ['Void knight ranger helm', 'Void knight top', 'Void knight robe', 'Void knight gloves'];
             tempEquipment.some(equip => {
-                if (!baseChunkData['items'].hasOwnProperty(equip)) {
+                if (!baseChunkData['items'].hasOwnProperty(equip) || !tempEquipmentObject.hasOwnProperty(equip)) {
                     validWearable = false;
                     return true;
                 }
@@ -6763,7 +6763,7 @@ let calcBIS = function(completedOnly) {
             validWearable = true;
             tempEquipment = ['Superior void knight ranger helm', 'Superior void knight top', 'Superior void knight robe', 'Superior void knight gloves'];
             tempEquipment.some(equip => {
-                if (!baseChunkData['items'].hasOwnProperty(equip)) {
+                if (!baseChunkData['items'].hasOwnProperty(equip) || !tempEquipmentObject.hasOwnProperty(equip)) {
                     validWearable = false;
                     return true;
                 }
@@ -6815,7 +6815,7 @@ let calcBIS = function(completedOnly) {
             validWearable = true;
             tempEquipment = ['Warpriest of Tuska helm', 'Warpriest of Tuska cuirass', 'Warpriest of Tuska robe legs', 'Warpriest of Tuska cape', 'Warpriest of Tuska boots', 'Warpriest of Tuska gauntlets'];
             tempEquipment.some(equip => {
-                if (!baseChunkData['items'].hasOwnProperty(equip)) {
+                if (!baseChunkData['items'].hasOwnProperty(equip) || !tempEquipmentObject.hasOwnProperty(equip)) {
                     validWearable = false;
                     return true;
                 }
@@ -6889,7 +6889,7 @@ let calcBIS = function(completedOnly) {
             validWearable = true;
             tempEquipment = ['Warpriest of Saradomin helm', 'Warpriest of Saradomin cuirass', 'Warpriest of Saradomin greaves', 'Warpriest of Saradomin cape', 'Warpriest of Saradomin boots', 'Warpriest of Saradomin gauntlets'];
             tempEquipment.some(equip => {
-                if (!baseChunkData['items'].hasOwnProperty(equip)) {
+                if (!baseChunkData['items'].hasOwnProperty(equip) || !tempEquipmentObject.hasOwnProperty(equip)) {
                     validWearable = false;
                     return true;
                 }
@@ -6963,7 +6963,7 @@ let calcBIS = function(completedOnly) {
             validWearable = true;
             tempEquipment = ['Warpriest of Zamorak helm', 'Warpriest of Zamorak cuirass', 'Warpriest of Zamorak greaves', 'Warpriest of Zamorak cape', 'Warpriest of Zamorak boots', 'Warpriest of Zamorak gauntlets'];
             tempEquipment.some(equip => {
-                if (!baseChunkData['items'].hasOwnProperty(equip)) {
+                if (!baseChunkData['items'].hasOwnProperty(equip) || !tempEquipmentObject.hasOwnProperty(equip)) {
                     validWearable = false;
                     return true;
                 }
@@ -7043,7 +7043,7 @@ let calcBIS = function(completedOnly) {
             validWearable = true;
             tempEquipment = ['Void knight mage helm', 'Void knight top', 'Void knight robe', 'Void knight gloves'];
             tempEquipment.some(equip => {
-                if (!baseChunkData['items'].hasOwnProperty(equip)) {
+                if (!baseChunkData['items'].hasOwnProperty(equip) || !tempEquipmentObject.hasOwnProperty(equip)) {
                     validWearable = false;
                     return true;
                 }
@@ -7095,7 +7095,7 @@ let calcBIS = function(completedOnly) {
             validWearable = true;
             tempEquipment = ['Superior void knight mage helm', 'Superior void knight top', 'Superior void knight robe', 'Superior void knight gloves'];
             tempEquipment.some(equip => {
-                if (!baseChunkData['items'].hasOwnProperty(equip)) {
+                if (!baseChunkData['items'].hasOwnProperty(equip) || !tempEquipmentObject.hasOwnProperty(equip)) {
                     validWearable = false;
                     return true;
                 }
@@ -7147,7 +7147,7 @@ let calcBIS = function(completedOnly) {
             validWearable = true;
             tempEquipment = ['Warpriest of Tuska helm', 'Warpriest of Tuska cuirass', 'Warpriest of Tuska robe legs', 'Warpriest of Tuska cape', 'Warpriest of Tuska boots', 'Warpriest of Tuska gauntlets'];
             tempEquipment.some(equip => {
-                if (!baseChunkData['items'].hasOwnProperty(equip)) {
+                if (!baseChunkData['items'].hasOwnProperty(equip) || !tempEquipmentObject.hasOwnProperty(equip)) {
                     validWearable = false;
                     return true;
                 }
@@ -7221,7 +7221,7 @@ let calcBIS = function(completedOnly) {
             validWearable = true;
             tempEquipment = ['Warpriest of Saradomin helm', 'Warpriest of Saradomin cuirass', 'Warpriest of Saradomin greaves', 'Warpriest of Saradomin cape', 'Warpriest of Saradomin boots', 'Warpriest of Saradomin gauntlets'];
             tempEquipment.some(equip => {
-                if (!baseChunkData['items'].hasOwnProperty(equip)) {
+                if (!baseChunkData['items'].hasOwnProperty(equip) || !tempEquipmentObject.hasOwnProperty(equip)) {
                     validWearable = false;
                     return true;
                 }
@@ -7295,7 +7295,7 @@ let calcBIS = function(completedOnly) {
             validWearable = true;
             tempEquipment = ['Warpriest of Zamorak helm', 'Warpriest of Zamorak cuirass', 'Warpriest of Zamorak greaves', 'Warpriest of Zamorak cape', 'Warpriest of Zamorak boots', 'Warpriest of Zamorak gauntlets'];
             tempEquipment.some(equip => {
-                if (!baseChunkData['items'].hasOwnProperty(equip)) {
+                if (!baseChunkData['items'].hasOwnProperty(equip) || !tempEquipmentObject.hasOwnProperty(equip)) {
                     validWearable = false;
                     return true;
                 }
@@ -7375,7 +7375,7 @@ let calcBIS = function(completedOnly) {
             validWearable = true;
             tempEquipment = ['Warpriest of Tuska helm', 'Warpriest of Tuska cuirass', 'Warpriest of Tuska robe legs', 'Warpriest of Tuska cape', 'Warpriest of Tuska boots', 'Warpriest of Tuska gauntlets'];
             tempEquipment.some(equip => {
-                if (!baseChunkData['items'].hasOwnProperty(equip)) {
+                if (!baseChunkData['items'].hasOwnProperty(equip) || !tempEquipmentObject.hasOwnProperty(equip)) {
                     validWearable = false;
                     return true;
                 }
@@ -7449,7 +7449,7 @@ let calcBIS = function(completedOnly) {
             validWearable = true;
             tempEquipment = ['Warpriest of Saradomin helm', 'Warpriest of Saradomin cuirass', 'Warpriest of Saradomin greaves', 'Warpriest of Saradomin cape', 'Warpriest of Saradomin boots', 'Warpriest of Saradomin gauntlets'];
             tempEquipment.some(equip => {
-                if (!baseChunkData['items'].hasOwnProperty(equip)) {
+                if (!baseChunkData['items'].hasOwnProperty(equip) || !tempEquipmentObject.hasOwnProperty(equip)) {
                     validWearable = false;
                     return true;
                 }
@@ -7523,7 +7523,7 @@ let calcBIS = function(completedOnly) {
             validWearable = true;
             tempEquipment = ['Warpriest of Zamorak helm', 'Warpriest of Zamorak cuirass', 'Warpriest of Zamorak greaves', 'Warpriest of Zamorak cape', 'Warpriest of Zamorak boots', 'Warpriest of Zamorak gauntlets'];
             tempEquipment.some(equip => {
-                if (!baseChunkData['items'].hasOwnProperty(equip)) {
+                if (!baseChunkData['items'].hasOwnProperty(equip) || !tempEquipmentObject.hasOwnProperty(equip)) {
                     validWearable = false;
                     return true;
                 }
@@ -7603,7 +7603,7 @@ let calcBIS = function(completedOnly) {
             validWearable = true;
             tempEquipment = ['Warpriest of Saradomin helm', 'Warpriest of Saradomin cuirass', 'Warpriest of Saradomin greaves', 'Warpriest of Saradomin cape', 'Warpriest of Saradomin boots', 'Warpriest of Saradomin gauntlets'];
             tempEquipment.some(equip => {
-                if (!baseChunkData['items'].hasOwnProperty(equip)) {
+                if (!baseChunkData['items'].hasOwnProperty(equip) || !tempEquipmentObject.hasOwnProperty(equip)) {
                     validWearable = false;
                     return true;
                 }
@@ -7677,7 +7677,7 @@ let calcBIS = function(completedOnly) {
             validWearable = true;
             tempEquipment = ['Warpriest of Zamorak helm', 'Warpriest of Zamorak cuirass', 'Warpriest of Zamorak greaves', 'Warpriest of Zamorak cape', 'Warpriest of Zamorak boots', 'Warpriest of Zamorak gauntlets'];
             tempEquipment.some(equip => {
-                if (!baseChunkData['items'].hasOwnProperty(equip)) {
+                if (!baseChunkData['items'].hasOwnProperty(equip) || !tempEquipmentObject.hasOwnProperty(equip)) {
                     validWearable = false;
                     return true;
                 }
@@ -7757,7 +7757,7 @@ let calcBIS = function(completedOnly) {
             validWearable = true;
             tempEquipment = ['Warpriest of Saradomin helm', 'Warpriest of Saradomin cuirass', 'Warpriest of Saradomin greaves', 'Warpriest of Saradomin cape', 'Warpriest of Saradomin boots', 'Warpriest of Saradomin gauntlets'];
             tempEquipment.some(equip => {
-                if (!baseChunkData['items'].hasOwnProperty(equip)) {
+                if (!baseChunkData['items'].hasOwnProperty(equip) || !tempEquipmentObject.hasOwnProperty(equip)) {
                     validWearable = false;
                     return true;
                 }
@@ -7831,7 +7831,7 @@ let calcBIS = function(completedOnly) {
             validWearable = true;
             tempEquipment = ['Warpriest of Zamorak helm', 'Warpriest of Zamorak cuirass', 'Warpriest of Zamorak greaves', 'Warpriest of Zamorak cape', 'Warpriest of Zamorak boots', 'Warpriest of Zamorak gauntlets'];
             tempEquipment.some(equip => {
-                if (!baseChunkData['items'].hasOwnProperty(equip)) {
+                if (!baseChunkData['items'].hasOwnProperty(equip) || !tempEquipmentObject.hasOwnProperty(equip)) {
                     validWearable = false;
                     return true;
                 }
@@ -7911,7 +7911,7 @@ let calcBIS = function(completedOnly) {
             validWearable = true;
             tempEquipment = ['Warpriest of Saradomin helm', 'Warpriest of Saradomin cuirass', 'Warpriest of Saradomin greaves', 'Warpriest of Saradomin cape', 'Warpriest of Saradomin boots', 'Warpriest of Saradomin gauntlets'];
             tempEquipment.some(equip => {
-                if (!baseChunkData['items'].hasOwnProperty(equip)) {
+                if (!baseChunkData['items'].hasOwnProperty(equip) || !tempEquipmentObject.hasOwnProperty(equip)) {
                     validWearable = false;
                     return true;
                 }
@@ -7985,7 +7985,7 @@ let calcBIS = function(completedOnly) {
             validWearable = true;
             tempEquipment = ['Warpriest of Zamorak helm', 'Warpriest of Zamorak cuirass', 'Warpriest of Zamorak greaves', 'Warpriest of Zamorak cape', 'Warpriest of Zamorak boots', 'Warpriest of Zamorak gauntlets'];
             tempEquipment.some(equip => {
-                if (!baseChunkData['items'].hasOwnProperty(equip)) {
+                if (!baseChunkData['items'].hasOwnProperty(equip) || !tempEquipmentObject.hasOwnProperty(equip)) {
                     validWearable = false;
                     return true;
                 }
@@ -8065,7 +8065,7 @@ let calcBIS = function(completedOnly) {
             validWearable = true;
             tempEquipment = ['Warpriest of Saradomin helm', 'Warpriest of Saradomin cuirass', 'Warpriest of Saradomin greaves', 'Warpriest of Saradomin cape', 'Warpriest of Saradomin boots', 'Warpriest of Saradomin gauntlets'];
             tempEquipment.some(equip => {
-                if (!baseChunkData['items'].hasOwnProperty(equip)) {
+                if (!baseChunkData['items'].hasOwnProperty(equip) || !tempEquipmentObject.hasOwnProperty(equip)) {
                     validWearable = false;
                     return true;
                 }
@@ -8139,7 +8139,7 @@ let calcBIS = function(completedOnly) {
             validWearable = true;
             tempEquipment = ['Warpriest of Zamorak helm', 'Warpriest of Zamorak cuirass', 'Warpriest of Zamorak greaves', 'Warpriest of Zamorak cape', 'Warpriest of Zamorak boots', 'Warpriest of Zamorak gauntlets'];
             tempEquipment.some(equip => {
-                if (!baseChunkData['items'].hasOwnProperty(equip)) {
+                if (!baseChunkData['items'].hasOwnProperty(equip) || !tempEquipmentObject.hasOwnProperty(equip)) {
                     validWearable = false;
                     return true;
                 }
