@@ -517,8 +517,8 @@ let ruleNames = {
 	"Group Content": "WIP - Require content that cannot reasonably be completed solo (Castle wars, Yakamaru, AoD, etc)<span class='rule-asterisk noscroll'>†</span>",
 	"Full Healing": "Require Constitution levels to fully heal from different foods",
 	"All Abilities": "Require new abilities and prayers that are obtained through other means than an ability codex (WIP)"
-	"PVP": "Require items and to cast spells that can only completed in PVP<span class='rule-asterisk noscroll'>†</span>",
-	"Codex": "Require codices",
+	"PVP": "Require tasks that can only be completed by engaging in PvP<span class='rule-asterisk noscroll'>†</span>",
+	"Codex": "Require new abilities and prayers that are obtained through an ability codex (WIP)",
     "KeyItem Bosses": "For bosses that require keys to kill, factor in the droprate of the key as part of the droprate of each drop"
 };                                                                              // List of rule definitions
 
