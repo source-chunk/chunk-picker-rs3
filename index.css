@@ -2639,6 +2639,88 @@ input#searchPlayerMaps {
     visibility: visible;
 }
 
+.quest-question-outer {
+    text-align: center;
+    margin: 5px;
+}
+
+.quest-question .tooltiptext {
+    visibility: hidden;
+    width: 220px;
+    background-color: var(--color2);
+    color: var(--colorText);
+    text-align: center;
+    border: 1px var(--colorText) solid;
+    padding: 5px 0;
+    font-size: 14px;
+    position: absolute;
+    z-index: 1;
+    margin: 25px -15px;
+    padding: 5px;
+}
+
+.quest-question:hover {
+    cursor: pointer;
+    color: var(--colorLink);
+}
+
+.quest-question:hover .tooltiptext {
+    visibility: visible;
+}
+
+.diary-question-outer {
+    text-align: center;
+    margin: 5px;
+}
+
+.diary-question .tooltiptext {
+    visibility: hidden;
+    width: 220px;
+    background-color: var(--color2);
+    color: var(--colorText);
+    text-align: center;
+    border: 1px var(--colorText) solid;
+    padding: 5px 0;
+    font-size: 14px;
+    position: absolute;
+    z-index: 1;
+    margin: 25px -15px;
+    padding: 5px;
+}
+
+.diary-question:hover {
+    cursor: pointer;
+    color: var(--colorLink);
+}
+
+.diary-question:hover .tooltiptext {
+    visibility: visible;
+}
+
+.slayermasterinfo-question .tooltiptext {
+    visibility: hidden;
+    width: 220px;
+    background-color: var(--color2);
+    color: var(--colorText);
+    text-align: center;
+    border: 1px var(--colorText) solid;
+    padding: 5px 0;
+    font-size: 14px;
+    position: absolute;
+    z-index: 1;
+    margin: 25px -15px;
+    padding: 5px;
+}
+
+.slayermasterinfo-question:hover {
+    cursor: pointer;
+    color: var(--colorLink);
+}
+
+.slayermasterinfo-question:hover .tooltiptext {
+    visibility: visible;
+}
+
 .expand {
     position: relative;
     float: right;
@@ -3547,6 +3629,12 @@ input#searchPlayerMaps {
     padding: 2px;
     background-color: var(--color3);
     position: relative;
+}
+
+.setting-color {
+    min-height: 32px;
+    display: flex;
+    align-items: center;
 }
 
 .setting > input {
@@ -5419,8 +5507,18 @@ input#searchChunks {
 .slayermasterinfo-title {
     font-size: 30px;
     text-align: center;
-    max-height: 15%;
-    min-height: 15%;
+    max-height: 9%;
+    min-height: 9%;
+    font-weight: bold;
+    padding: 0px 10px;
+    overflow-y: hidden;
+}
+
+.slayermasterinfo-subtitle {
+    font-size: 18px;
+    text-align: center;
+    max-height: 6%;
+    min-height: 6%;
     font-weight: bold;
     padding: 0px 10px;
     overflow-y: hidden;
@@ -5890,6 +5988,11 @@ input#searchChunks {
     position: relative;
 }
 
+.skill-text.narrow {
+    min-width: 50%;
+    max-width: 50%;
+}
+
 .skill-icon-wrapper {
     width: 5%;
     min-width: 25px;
@@ -5912,6 +6015,7 @@ input#searchChunks {
     width: 28%;
     font-size: 18px;
     text-align: center;
+    padding-right: 30px;
 }
 
 .skill-button.active > .methods-button {
@@ -5930,6 +6034,12 @@ input#searchChunks {
     font-size: 18px;
     text-align: center;
     border-left: solid 1px var(--color8);
+    position: relative;
+    padding-right: 30px;
+}
+
+.skill-button2 > div {
+    display: inline-block;
 }
 
 .skill-button2.active > .tasks-button {
@@ -5970,6 +6080,11 @@ input#searchChunks {
     border-right: solid 1px var(--color8);
 }
 
+.text-table-header.narrow {
+    min-width: 50%;
+    max-width: 50%;
+}
+
 .button-table-header.mobile {
     width: 48.2%;
 }
@@ -5987,6 +6102,7 @@ input#searchChunks {
     text-align: center;
     width: 28.2%;
     border-left: solid 1px var(--color8);
+    padding-right: 30px;
 }
 
 .clue-possible {
@@ -6155,6 +6271,10 @@ input#searchChunks {
     padding: 2px 30px 2px 5px;
     background-color: var(--color3);
     position: relative;
+}
+
+.methods-data > .skill-method .skill-method-text {
+    margin-left: 10px;
 }
 
 .methods-data > .skill-method .details-info {
@@ -6394,11 +6514,23 @@ input#searchMonsters {
     padding-left: 5px;
     background-color: var(--color3);
     margin-right: 15px;
+    position: relative;
 }
 
-.search-monsters-result > span {
+.search-monsters-result > .search-monsters-result-inner {
     margin-left: 5px;
     font-size: 24px;
+}
+
+.search-monsters-result > .search-monsters-result-inner.spacing-right {
+    padding-right: 95px;
+}
+
+.manualmonsters-dropdown-container {
+    position: absolute;
+    right: 5px;
+    top: 50%;
+    transform: translateY(-50%);
 }
 
 .search-monsters-result input {
@@ -6497,6 +6629,12 @@ input#searchMonsters {
 .sticker-option-container.black-outline > i {
     -webkit-text-stroke-width: 0.05em;
     -webkit-text-stroke-color: black;
+}
+
+.sticker-option-container.black-outline {
+    -webkit-text-stroke: 1.5px;
+    -webkit-text-stroke-color: black;
+    font-weight: bold;
 }
 
 .sticker-option-container.unset-option {
@@ -7515,7 +7653,10 @@ input#searchMonsters {
 
 .manualprimary-highest {
     cursor: pointer;
-    margin-right: 5px;
+    position: absolute;
+    right: 5px;
+    top: 50%;
+    transform: translateY(-50%);
 }
 
 .manualprimary-highest:hover {
@@ -7676,7 +7817,6 @@ input#searchMonsters {
 }
 
 .Quests-body {
-    position: relative;
     height: 70%;
 }
 
@@ -7746,10 +7886,6 @@ input#searchMonsters {
 
 .diary-text {
     text-decoration: none;
-}
-
-.Diaries-body {
-    position: relative;
 }
 
 .Diaries-body .row {
@@ -8063,8 +8199,8 @@ input#searchMonsters {
   
 .radio__control {
     display: inline-grid;
-    width: .825em;
-    height: .825em;
+    width: .855em;
+    height: .855em;
     margin: .15em .3em;
     border-radius: 0.5em;
     border: 0.1em solid currentColor;
