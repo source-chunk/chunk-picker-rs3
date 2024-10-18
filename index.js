@@ -423,6 +423,7 @@ let rules = {
 	"Group Content": false,
 	"Full Healing": false,
 	"PVP": false,
+    "KeyItem Bosses": false,
 };                                                                              // List of rules and their on/off state
 
 let ruleNames = {
@@ -509,7 +510,8 @@ let ruleNames = {
 	"Group Content": "WIP - Require content that cannot reasonably be completed solo (Castle wars, Yakamaru, AoD, etc)<span class='rule-asterisk noscroll'>†</span>",
 	"Full Healing": "Require Constitution levels to fully heal from different foods",
 	"PVP": "Require items and to cast spells that can only completed in PVP<span class='rule-asterisk noscroll'>†</span>",
-	"Codex": "Require codices"
+	"Codex": "Require codices",
+    "KeyItem Bosses": "For bosses that require keys to kill, factor in the droprate of the key as part of the droprate of each drop"
 };                                                                              // List of rule definitions
 
 let rulePresets = {
@@ -754,7 +756,7 @@ let ruleStructure = {
     "Item Sources": {
         "Boss": ["Hard Mode Bosses"],
 		"Minigame": true,
-        "Rare Drop": true,
+        "Rare Drop": ["KeyItem Bosses"],
         "RDT": true,
         "Primary Spawns": true,
 		"Every Drop": ["Every Drop Implings"],
@@ -782,6 +784,7 @@ let subRuleDefault = {
     "Spells": false,
     "Every Drop": false,
     "All Droptables": false,
+    "Rare Drop": false,
 };                                                                              // Default value of sub-rule when parent is checked
 
 let taskGeneratingRules = {
@@ -1352,7 +1355,7 @@ let topbarElements = {
     'Sandbox Mode': `<div><span class='noscroll' onclick="enableTestMode()"><i class="gosandbox fas fa-flask" title='Sandbox Mode'></i></span></div>`,
 };
 
-let currentVersion = '6.4.26';
+let currentVersion = '6.5.0';
 let patchNotesVersion = '6.4.0';
 
 // Patreon Test Server Data
@@ -1493,7 +1496,7 @@ mapImg.addEventListener("load", e => {
         centerCanvas('quick');
     }
 });
-mapImg.src = "runescape_world_map.png?v=6.4.26";
+mapImg.src = "runescape_world_map.png?v=6.5.0";
 
 // Rounded rectangle
 CanvasRenderingContext2D.prototype.roundRect = function (x, y, w, h, r) {
@@ -3179,7 +3182,7 @@ let calcCurrentChallengesCanvas = function(useOld, proceed, fromLoadData, inputT
         setCalculating('.panel-active', useOld);
         setCurrentChallenges(['No tasks currently backlogged.'], ['No tasks currently completed.'], true, true);
         myWorker.terminate();
-        myWorker = new Worker("./worker.js?v=6.4.26");
+        myWorker = new Worker("./worker.js?v=6.5.0");
         myWorker.onmessage = workerOnMessage;
         myWorker.postMessage(['current', tempChunks['unlocked'], rules, chunkInfo, skillNames, processingSkill, maybePrimary, combatSkills, monstersPlus, objectsPlus, chunksPlus, itemsPlus, mixPlus, npcsPlus, tasksPlus, tools, elementalRunes, manualTasks, completedChallenges, backlog, "1/" + rules['Rare Drop Amount'], universalPrimary, elementalStaves, rangedItems, boneItems, highestCurrent, dropTables, possibleAreas, randomLoot, magicTools, bossLogs, bossMonsters, minigameShops, manualEquipment, checkedChallenges, backloggedSources, altChallenges, manualMonsters, slayerLocked, passiveSkill, f2pSkills, assignedXpRewards, mid === diary2Tier, manualAreas, "1/" + rules['Secondary Primary Amount'], mid === manualAreasOnly, tempSections, settings['optOutSections'], maxSkill, userTasks, manualPrimary]);
         workerOut = 1;
@@ -3482,8 +3485,8 @@ $(document).ready(function() {
 // ------------------------------------------------------------
 
 // Recieve message from worker
-let myWorker = new Worker("./worker.js?v=6.4.26");
-let myWorker2 = new Worker("./worker.js?v=6.4.26");
+let myWorker = new Worker("./worker.js?v=6.5.0");
+let myWorker2 = new Worker("./worker.js?v=6.5.0");
 let workerOnMessage = function(e) {
     if (lastUpdated + 2000000 < Date.now() && !hasUpdate) {
         lastUpdated = Date.now();
@@ -3501,7 +3504,8 @@ let workerOnMessage = function(e) {
         $('.loading-bar-text').css('color', 'yellow').text('Error');
         $('.panel-active > .calculating').css('color', 'red');
         $('.panel-active > .calculating > i').removeClass('fa-spin');
-        logError(e.data[1].stack);
+        logError(e.data[1].toString() + ';' + e.data[1].stack);
+        throw e.data[1];
     } else if (e.data[0] === 'initial-data') {
         baseChunkData = e.data[1];
         onlyInitialData = true;
@@ -3661,12 +3665,6 @@ $(document).ready(function() {
 window.addEventListener('contextmenu', function(e) {
     e.preventDefault();
 }, false);
-
-window.addEventListener('error', e => {
-    if (parseInt(e.lineno) > 1 && typeof e.lineno === 'number' && !e.message.includes('Script error.') && !!currentVersion) {
-        logError(e.message + ';index.js;' + e.lineno + ';' + e.colno);
-    }
-});
 
 jQuery.event.special.touchstart = {
     setup: function( _, ns, handle ) {
@@ -6250,7 +6248,7 @@ let calcFutureChallenges = function() {
     }
     tempSections = combineJSONs(tempSections, manualSections);
     myWorker2.terminate();
-    myWorker2 = new Worker("./worker.js?v=6.4.26");
+    myWorker2 = new Worker("./worker.js?v=6.5.0");
     myWorker2.onmessage = workerOnMessage;
     myWorker2.postMessage(['future', chunks, rules, chunkInfo, skillNames, processingSkill, maybePrimary, combatSkills, monstersPlus, objectsPlus, chunksPlus, itemsPlus, mixPlus, npcsPlus, tasksPlus, tools, elementalRunes, manualTasks, completedChallenges, backlog, "1/" + rules['Rare Drop Amount'], universalPrimary, elementalStaves, rangedItems, boneItems, highestCurrent, dropTables, possibleAreas, randomLoot, magicTools, bossLogs, bossMonsters, minigameShops, manualEquipment, checkedChallenges, backloggedSources, altChallenges, manualMonsters, slayerLocked, passiveSkill, f2pSkills, assignedXpRewards, mid === diary2Tier, manualAreas, "1/" + rules['Secondary Primary Amount'], mid === manualAreasOnly, tempSections, settings['optOutSections'], maxSkill, userTasks, manualPrimary]);
     workerOut++;
@@ -7406,46 +7404,46 @@ let searchMonsters = function() {
         baseChunkDataTotal['Monsters'][monster] = true;
     });
     if (Object.keys(baseChunkDataTotal).length > 0 && Object.keys(baseChunkDataTotal['Items']).filter(item => item.replaceAll(/~/g, '').replaceAll(/\|/g, '').toLowerCase().includes(searchTemp)).length + Object.keys(baseChunkDataTotal['Monsters']).filter(monster => monster.replaceAll(/~/g, '').replaceAll(/\|/g, '').toLowerCase().includes(searchTemp)).length + Object.keys(baseChunkDataTotal['NPCs']).filter(npc => npc.replaceAll(/~/g, '').replaceAll(/\|/g, '').toLowerCase().includes(searchTemp)).length + Object.keys(baseChunkDataTotal['Objects']).filter(object => object.replaceAll(/~/g, '').replaceAll(/\|/g, '').toLowerCase().includes(searchTemp)).length + Object.keys(baseChunkDataTotal['Shops']).filter(shop => shop.replaceAll(/~/g, '').replaceAll(/\|/g, '').toLowerCase().includes(searchTemp)).length <= 200 || filterByCheckedMonsters) {
-        Object.keys(baseChunkDataTotal['Items']).filter(item => item.replaceAll(/~/g, '').replaceAll(/\|/g, '').toLowerCase().includes(searchTemp) && (!filterByCheckedMonsters || (!!manualMonsters['Items'] && !!manualMonsters['Items'][item]))).length > 0 && $('.monsters-data').append(`<div class="search-header noscroll"><b class="noscroll">Items</b></div>`);
-        Object.keys(baseChunkDataTotal['Items']).filter(item => item.replaceAll(/~/g, '').replaceAll(/\|/g, '').toLowerCase().includes(searchTemp) && (!filterByCheckedMonsters || (!!manualMonsters['Items'] && !!manualMonsters['Items'][item]))).length > 0 && Object.keys(baseChunkDataTotal['Items']).filter(item => item.replaceAll(/~/g, '').replaceAll(/\|/g, '').toLowerCase().includes(searchTemp) && (!filterByCheckedMonsters || (!!manualMonsters['Items'] && !!manualMonsters['Items'][item]))).sort().forEach((item) => {
-            $('.monsters-data').append(`<div class="search-monsters-result noscroll"><span class='noscroll'><input class="noscroll" ${!!manualMonsters && !!manualMonsters['Items'] && !!manualMonsters['Items'][item] && "checked"} type="checkbox" onclick="checkOffMonster('${encodeRFC5987ValueChars(item.replaceAll(/~/g, '').replaceAll(/\|/g, ''))}', 'Items')" /><a class='noscroll' href='${"https://runescape.wiki/w/" + encodeForUrl(item.replace(/[!'()*]/g, escape))}' target='_blank'>${item.replaceAll(/~/g, '').replaceAll(/\|/g, '')}</a></span></div>`);
+        Object.keys(baseChunkDataTotal['Items']).filter(item => item.replaceAll(/~/g, '').replaceAll(/\|/g, '').toLowerCase().includes(searchTemp) && (!filterByCheckedMonsters || (!!manualMonsters['Items'] && manualMonsters['Items'].hasOwnProperty(item)))).length > 0 && $('.monsters-data').append(`<div class="search-header noscroll"><b class="noscroll">Items</b></div>`);
+        Object.keys(baseChunkDataTotal['Items']).filter(item => item.replaceAll(/~/g, '').replaceAll(/\|/g, '').toLowerCase().includes(searchTemp) && (!filterByCheckedMonsters || (!!manualMonsters['Items'] && manualMonsters['Items'].hasOwnProperty(item)))).length > 0 && Object.keys(baseChunkDataTotal['Items']).filter(item => item.replaceAll(/~/g, '').replaceAll(/\|/g, '').toLowerCase().includes(searchTemp) && (!filterByCheckedMonsters || (!!manualMonsters['Items'] && manualMonsters['Items'].hasOwnProperty(item)))).sort().forEach((item, num) => {
+            $('.monsters-data').append(`<div class="search-monsters-result noscroll"><span class='noscroll search-monsters-result-inner${!!manualMonsters && !!manualMonsters['Items'] && manualMonsters['Items'].hasOwnProperty(item) ? ' spacing-right' : ''}'><input class="noscroll" ${!!manualMonsters && !!manualMonsters['Items'] && manualMonsters['Items'].hasOwnProperty(item) && "checked"} type="checkbox" onclick="checkOffMonster('${encodeRFC5987ValueChars(item.replaceAll(/~/g, '').replaceAll(/\|/g, ''))}', 'Items')" /><a class='noscroll' href='${"https://oldschool.runescape.wiki/w/" + encodeForUrl(item.replace(/[!'()*]/g, escape))}' target='_blank'>${item.replaceAll(/~/g, '').replaceAll(/\|/g, '')}</a></span>${!!manualMonsters && !!manualMonsters['Items'] && manualMonsters['Items'].hasOwnProperty(item) ? `<span class='manualmonsters-dropdown-container'><select onchange="selectManualItemPrimary('Items', '${encodeRFC5987ValueChars(item.replaceAll(/~/g, '').replaceAll(/\|/g, ''))}', '${num}')" id="manualmonsters-dropdown-${num}"><option value="primary" ${manualMonsters['Items'][item] ? 'selected' : ''}>Primary</option><option value="secondary" ${!manualMonsters['Items'][item] ? 'selected' : ''}>Secondary</option></select></span>` : ''}</div>`);
         });
         Object.keys(baseChunkDataTotal['Monsters']).filter(monster => monster.replaceAll(/~/g, '').replaceAll(/\|/g, '').toLowerCase().includes(searchTemp) && (!filterByCheckedMonsters || (!!manualMonsters['Monsters'] && !!manualMonsters['Monsters'][monster]))).length > 0 && $('.monsters-data').append(`<div class="search-header noscroll"><b class="noscroll">Monsters</b></div>`);
         Object.keys(baseChunkDataTotal['Monsters']).filter(monster => monster.replaceAll(/~/g, '').replaceAll(/\|/g, '').toLowerCase().includes(searchTemp) && (!filterByCheckedMonsters || (!!manualMonsters['Monsters'] && !!manualMonsters['Monsters'][monster]))).length > 0 && Object.keys(baseChunkDataTotal['Monsters']).filter(monster => monster.replaceAll(/~/g, '').replaceAll(/\|/g, '').toLowerCase().includes(searchTemp) && (!filterByCheckedMonsters || (!!manualMonsters['Monsters'] && !!manualMonsters['Monsters'][monster]))).sort().forEach((monster) => {
-            $('.monsters-data').append(`<div class="search-monsters-result noscroll"><span class='noscroll'><input class="noscroll" ${!!manualMonsters && !!manualMonsters['Monsters'] && !!manualMonsters['Monsters'][monster] && "checked"} type="checkbox" onclick="checkOffMonster('${encodeRFC5987ValueChars(monster.replaceAll(/~/g, '').replaceAll(/\|/g, ''))}', 'Monsters')" /><a class='noscroll' href='${"https://runescape.wiki/w/" + encodeForUrl(monster.replace(/[!'()*]/g, escape))}' target='_blank'>${monster.replaceAll(/~/g, '').replaceAll(/\|/g, '')}</a></span></div>`);
+            $('.monsters-data').append(`<div class="search-monsters-result noscroll"><span class='noscroll search-monsters-result-inner'><input class="noscroll" ${!!manualMonsters && !!manualMonsters['Monsters'] && !!manualMonsters['Monsters'][monster] && "checked"} type="checkbox" onclick="checkOffMonster('${encodeRFC5987ValueChars(monster.replaceAll(/~/g, '').replaceAll(/\|/g, ''))}', 'Monsters')" /><a class='noscroll' href='${"https://runescape.wiki/w/" + encodeForUrl(monster.replace(/[!'()*]/g, escape))}' target='_blank'>${monster.replaceAll(/~/g, '').replaceAll(/\|/g, '')}</a></span></div>`);
         });
         Object.keys(baseChunkDataTotal['NPCs']).filter(npc => npc.replaceAll(/~/g, '').replaceAll(/\|/g, '').toLowerCase().includes(searchTemp) && (!filterByCheckedMonsters || (!!manualMonsters['NPCs'] && !!manualMonsters['NPCs'][npc]))).length > 0 && $('.monsters-data').append(`<div class="search-header noscroll"><b class="noscroll">Npcs</b></div>`);
         Object.keys(baseChunkDataTotal['NPCs']).filter(npc => npc.replaceAll(/~/g, '').replaceAll(/\|/g, '').toLowerCase().includes(searchTemp) && (!filterByCheckedMonsters || (!!manualMonsters['NPCs'] && !!manualMonsters['NPCs'][npc]))).length > 0 && Object.keys(baseChunkDataTotal['NPCs']).filter(npc => npc.replaceAll(/~/g, '').replaceAll(/\|/g, '').toLowerCase().includes(searchTemp) && (!filterByCheckedMonsters || (!!manualMonsters['NPCs'] && !!manualMonsters['NPCs'][npc]))).sort().forEach((npc) => {
-            $('.monsters-data').append(`<div class="search-monsters-result noscroll"><span class='noscroll'><input class="noscroll" ${!!manualMonsters && !!manualMonsters['NPCs'] && !!manualMonsters['NPCs'][npc] && "checked"} type="checkbox" onclick="checkOffMonster('${npc.replaceAll(/~/g, '').replaceAll(/\|/g, '')}', 'NPCs')" /><a class='noscroll' href='${"https://runescape.wiki/w/" + encodeForUrl(npc.replace(/[!'()*]/g, escape))}' target='_blank'>${npc.replaceAll(/~/g, '').replaceAll(/\|/g, '')}</a></span></div>`);
+            $('.monsters-data').append(`<div class="search-monsters-result noscroll"><span class='noscroll search-monsters-result-inner'><input class="noscroll" ${!!manualMonsters && !!manualMonsters['NPCs'] && !!manualMonsters['NPCs'][npc] && "checked"} type="checkbox" onclick="checkOffMonster('${npc.replaceAll(/~/g, '').replaceAll(/\|/g, '')}', 'NPCs')" /><a class='noscroll' href='${"https://runescape.wiki/w/" + encodeForUrl(npc.replace(/[!'()*]/g, escape))}' target='_blank'>${npc.replaceAll(/~/g, '').replaceAll(/\|/g, '')}</a></span></div>`);
         });
         Object.keys(baseChunkDataTotal['Objects']).filter(object => object.replaceAll(/~/g, '').replaceAll(/\|/g, '').toLowerCase().includes(searchTemp) && (!filterByCheckedMonsters || (!!manualMonsters['Objects'] && !!manualMonsters['Objects'][object]))).length > 0 && $('.monsters-data').append(`<div class="search-header noscroll"><b class="noscroll">Objects</b></div>`);
         Object.keys(baseChunkDataTotal['Objects']).filter(object => object.replaceAll(/~/g, '').replaceAll(/\|/g, '').toLowerCase().includes(searchTemp) && (!filterByCheckedMonsters || (!!manualMonsters['Objects'] && !!manualMonsters['Objects'][object]))).length > 0 && Object.keys(baseChunkDataTotal['Objects']).filter(object => object.replaceAll(/~/g, '').replaceAll(/\|/g, '').toLowerCase().includes(searchTemp) && (!filterByCheckedMonsters || (!!manualMonsters['Objects'] && !!manualMonsters['Objects'][object]))).sort().forEach((object) => {
-            $('.monsters-data').append(`<div class="search-monsters-result noscroll"><span class='noscroll'><input class="noscroll" ${!!manualMonsters && !!manualMonsters['Objects'] && !!manualMonsters['Objects'][object] && "checked"} type="checkbox" onclick="checkOffMonster('${encodeRFC5987ValueChars(object.replaceAll(/~/g, '').replaceAll(/\|/g, ''))}', 'Objects')" /><a class='noscroll' href='${"https://runescape.wiki/w/" + encodeForUrl(object.replace(/[!'()*]/g, escape))}' target='_blank'>${object.replaceAll(/~/g, '').replaceAll(/\|/g, '')}</a></span></div>`);
+            $('.monsters-data').append(`<div class="search-monsters-result noscroll"><span class='noscroll search-monsters-result-inner'><input class="noscroll" ${!!manualMonsters && !!manualMonsters['Objects'] && !!manualMonsters['Objects'][object] && "checked"} type="checkbox" onclick="checkOffMonster('${encodeRFC5987ValueChars(object.replaceAll(/~/g, '').replaceAll(/\|/g, ''))}', 'Objects')" /><a class='noscroll' href='${"https://runescape.wiki/w/" + encodeForUrl(object.replace(/[!'()*]/g, escape))}' target='_blank'>${object.replaceAll(/~/g, '').replaceAll(/\|/g, '')}</a></span></div>`);
         });
         Object.keys(baseChunkDataTotal['Shops']).filter(shop => shop.replaceAll(/~/g, '').replaceAll(/\|/g, '').toLowerCase().includes(searchTemp) && (!filterByCheckedMonsters || (!!manualMonsters['Shops'] && !!manualMonsters['Shops'][shop]))).length > 0 && $('.monsters-data').append(`<div class="search-header noscroll"><b class="noscroll">Shops</b></div>`);
         Object.keys(baseChunkDataTotal['Shops']).filter(shop => shop.replaceAll(/~/g, '').replaceAll(/\|/g, '').toLowerCase().includes(searchTemp) && (!filterByCheckedMonsters || (!!manualMonsters['Shops'] && !!manualMonsters['Shops'][shop]))).length > 0 && Object.keys(baseChunkDataTotal['Shops']).filter(shop => shop.replaceAll(/~/g, '').replaceAll(/\|/g, '').toLowerCase().includes(searchTemp) && (!filterByCheckedMonsters || (!!manualMonsters['Shops'] && !!manualMonsters['Shops'][shop]))).sort().forEach((shop) => {
-            $('.monsters-data').append(`<div class="search-monsters-result noscroll"><span class='noscroll'><input class="noscroll" ${!!manualMonsters && !!manualMonsters['Shops'] && !!manualMonsters['Shops'][shop] && "checked"} type="checkbox" onclick="checkOffMonster('${encodeRFC5987ValueChars(shop.replaceAll(/~/g, '').replaceAll(/\|/g, ''))}', 'Shops')" /><a class='noscroll' href='${"https://runescape.wiki/w/" + encodeForUrl(shop.replace(/[!'()*]/g, escape))}' target='_blank'>${shop}</a></span></div>`);
+            $('.monsters-data').append(`<div class="search-monsters-result noscroll"><span class='noscroll search-monsters-result-inner'><input class="noscroll" ${!!manualMonsters && !!manualMonsters['Shops'] && !!manualMonsters['Shops'][shop] && "checked"} type="checkbox" onclick="checkOffMonster('${encodeRFC5987ValueChars(shop.replaceAll(/~/g, '').replaceAll(/\|/g, ''))}', 'Shops')" /><a class='noscroll' href='${"https://runescape.wiki/w/" + encodeForUrl(shop.replace(/[!'()*]/g, escape))}' target='_blank'>${shop}</a></span></div>`);
         });
     } else if (Object.keys(baseChunkDataTotal).length > 0) {
-        Object.keys(baseChunkDataTotal['Items']).filter(item => item.replaceAll(/~/g, '').replaceAll(/\|/g, '').toLowerCase() === searchTemp && (!filterByCheckedMonsters || (!!manualMonsters['Items'] && !!manualMonsters['Items'][item]))).length > 0 && $('.monsters-data').append(`<div class="search-header noscroll"><b class="noscroll">Items</b></div>`);
-        Object.keys(baseChunkDataTotal['Items']).filter(item => item.replaceAll(/~/g, '').replaceAll(/\|/g, '').toLowerCase() === searchTemp && (!filterByCheckedMonsters || (!!manualMonsters['Items'] && !!manualMonsters['Items'][item]))).length > 0 && Object.keys(baseChunkDataTotal['Items']).filter(item => item.replaceAll(/~/g, '').replaceAll(/\|/g, '').toLowerCase() === searchTemp && (!filterByCheckedMonsters || (!!manualMonsters['Items'] && !!manualMonsters['Items'][item]))).sort().forEach((item) => {
-            $('.monsters-data').append(`<div class="search-monsters-result noscroll"><span class='noscroll'><input class="noscroll" ${!!manualMonsters && !!manualMonsters['Items'] && !!manualMonsters['Items'][item] && "checked"} type="checkbox" onclick="checkOffMonster('${encodeRFC5987ValueChars(item.replaceAll(/~/g, '').replaceAll(/\|/g, ''))}', 'Items')" /><a class='noscroll' href='${"https://runescape.wiki/w/" + encodeForUrl(item.replace(/[!'()*]/g, escape))}' target='_blank'>${item.replaceAll(/~/g, '').replaceAll(/\|/g, '')}</a></span></div>`);
+        Object.keys(baseChunkDataTotal['Items']).filter(item => item.replaceAll(/~/g, '').replaceAll(/\|/g, '').toLowerCase() === searchTemp && (!filterByCheckedMonsters || (!!manualMonsters['Items'] && manualMonsters['Items'].hasOwnProperty(item)))).length > 0 && $('.monsters-data').append(`<div class="search-header noscroll"><b class="noscroll">Items</b></div>`);
+        Object.keys(baseChunkDataTotal['Items']).filter(item => item.replaceAll(/~/g, '').replaceAll(/\|/g, '').toLowerCase() === searchTemp && (!filterByCheckedMonsters || (!!manualMonsters['Items'] && manualMonsters['Items'].hasOwnProperty(item)))).length > 0 && Object.keys(baseChunkDataTotal['Items']).filter(item => item.replaceAll(/~/g, '').replaceAll(/\|/g, '').toLowerCase() === searchTemp && (!filterByCheckedMonsters || (!!manualMonsters['Items'] && manualMonsters['Items'].hasOwnProperty(item)))).sort().forEach((item) => {
+            $('.monsters-data').append(`<div class="search-monsters-result noscroll"><span class='noscroll search-monsters-result-inner'><input class="noscroll" ${!!manualMonsters && !!manualMonsters['Items'] && manualMonsters['Items'].hasOwnProperty(item) && "checked"} type="checkbox" onclick="checkOffMonster('${encodeRFC5987ValueChars(item.replaceAll(/~/g, '').replaceAll(/\|/g, ''))}', 'Items')" /><a class='noscroll' href='${"https://oldschool.runescape.wiki/w/" + encodeForUrl(item.replace(/[!'()*]/g, escape))}' target='_blank'>${item.replaceAll(/~/g, '').replaceAll(/\|/g, '')}</a></span></div>`);
         });
         Object.keys(baseChunkDataTotal['Monsters']).filter(monster => monster.replaceAll(/~/g, '').replaceAll(/\|/g, '').toLowerCase() === searchTemp && (!filterByCheckedMonsters || (!!manualMonsters['Monsters'] && !!manualMonsters['Monsters'][monster]))).length > 0 && $('.monsters-data').append(`<div class="search-header noscroll"><b class="noscroll">Monsters</b></div>`);
         Object.keys(baseChunkDataTotal['Monsters']).filter(monster => monster.replaceAll(/~/g, '').replaceAll(/\|/g, '').toLowerCase() === searchTemp && (!filterByCheckedMonsters || (!!manualMonsters['Monsters'] && !!manualMonsters['Monsters'][monster]))).length > 0 && Object.keys(baseChunkDataTotal['Monsters']).filter(monster => monster.replaceAll(/~/g, '').replaceAll(/\|/g, '').toLowerCase() === searchTemp && (!filterByCheckedMonsters || (!!manualMonsters['Monsters'] && !!manualMonsters['Monsters'][monster]))).sort().forEach((monster) => {
-            $('.monsters-data').append(`<div class="search-monsters-result noscroll"><span class='noscroll'><input class="noscroll" ${!!manualMonsters && !!manualMonsters['Monsters'] && !!manualMonsters['Monsters'][monster] && "checked"} type="checkbox" onclick="checkOffMonster('${encodeRFC5987ValueChars(monster.replaceAll(/~/g, '').replaceAll(/\|/g, ''))}', 'Monsters')" /><a class='noscroll' href='${"https://runescape.wiki/w/" + encodeForUrl(monster.replace(/[!'()*]/g, escape))}' target='_blank'>${monster.replaceAll(/~/g, '').replaceAll(/\|/g, '')}</a></span></div>`);
+            $('.monsters-data').append(`<div class="search-monsters-result noscroll"><span class='noscroll search-monsters-result-inner'><input class="noscroll" ${!!manualMonsters && !!manualMonsters['Monsters'] && !!manualMonsters['Monsters'][monster] && "checked"} type="checkbox" onclick="checkOffMonster('${encodeRFC5987ValueChars(monster.replaceAll(/~/g, '').replaceAll(/\|/g, ''))}', 'Monsters')" /><a class='noscroll' href='${"https://runescape.wiki/w/" + encodeForUrl(monster.replace(/[!'()*]/g, escape))}' target='_blank'>${monster.replaceAll(/~/g, '').replaceAll(/\|/g, '')}</a></span></div>`);
         });
         Object.keys(baseChunkDataTotal['NPCs']).filter(npc => npc.replaceAll(/~/g, '').replaceAll(/\|/g, '').toLowerCase() === searchTemp && (!filterByCheckedMonsters || (!!manualMonsters['NPCs'] && !!manualMonsters['NPCs'][npc]))).length > 0 && $('.monsters-data').append(`<div class="search-header noscroll"><b class="noscroll">Npcs</b></div>`);
         Object.keys(baseChunkDataTotal['NPCs']).filter(npc => npc.replaceAll(/~/g, '').replaceAll(/\|/g, '').toLowerCase() === searchTemp && (!filterByCheckedMonsters || (!!manualMonsters['NPCs'] && !!manualMonsters['NPCs'][npc]))).length > 0 && Object.keys(baseChunkDataTotal['NPCs']).filter(npc => npc.replaceAll(/~/g, '').replaceAll(/\|/g, '').toLowerCase() === searchTemp && (!filterByCheckedMonsters || (!!manualMonsters['NPCs'] && !!manualMonsters['NPCs'][npc]))).sort().forEach((npc) => {
-            $('.monsters-data').append(`<div class="search-monsters-result noscroll"><span class='noscroll'><input class="noscroll" ${!!manualMonsters && !!manualMonsters['NPCs'] && !!manualMonsters['NPCs'][npc] && "checked"} type="checkbox" onclick="checkOffMonster('${encodeRFC5987ValueChars(npc.replaceAll(/~/g, '').replaceAll(/\|/g, ''))}', 'NPCs')" /><a class='noscroll' href='${"https://runescape.wiki/w/" + encodeForUrl(npc.replace(/[!'()*]/g, escape))}' target='_blank'>${npc.replaceAll(/~/g, '').replaceAll(/\|/g, '')}</a></span></div>`);
+            $('.monsters-data').append(`<div class="search-monsters-result noscroll"><span class='noscroll search-monsters-result-inner'><input class="noscroll" ${!!manualMonsters && !!manualMonsters['NPCs'] && !!manualMonsters['NPCs'][npc] && "checked"} type="checkbox" onclick="checkOffMonster('${encodeRFC5987ValueChars(npc.replaceAll(/~/g, '').replaceAll(/\|/g, ''))}', 'NPCs')" /><a class='noscroll' href='${"https://runescape.wiki/w/" + encodeForUrl(npc.replace(/[!'()*]/g, escape))}' target='_blank'>${npc.replaceAll(/~/g, '').replaceAll(/\|/g, '')}</a></span></div>`);
         });
         Object.keys(baseChunkDataTotal['Objects']).filter(object => object.replaceAll(/~/g, '').replaceAll(/\|/g, '').toLowerCase() === searchTemp && (!filterByCheckedMonsters || (!!manualMonsters['Objects'] && !!manualMonsters['Objects'][object]))).length > 0 && $('.monsters-data').append(`<div class="search-header noscroll"><b class="noscroll">Objects</b></div>`);
         Object.keys(baseChunkDataTotal['Objects']).filter(object => object.replaceAll(/~/g, '').replaceAll(/\|/g, '').toLowerCase() === searchTemp && (!filterByCheckedMonsters || (!!manualMonsters['Objects'] && !!manualMonsters['Objects'][object]))).length > 0 && Object.keys(baseChunkDataTotal['Objects']).filter(object => object.replaceAll(/~/g, '').replaceAll(/\|/g, '').toLowerCase() === searchTemp && (!filterByCheckedMonsters || (!!manualMonsters['Objects'] && !!manualMonsters['Objects'][object]))).sort().forEach((object) => {
-            $('.monsters-data').append(`<div class="search-monsters-result noscroll"><span class='noscroll'><input class="noscroll" ${!!manualMonsters && !!manualMonsters['Objects'] && !!manualMonsters['Objects'][object] && "checked"} type="checkbox" onclick="checkOffMonster('${encodeRFC5987ValueChars(object.replaceAll(/~/g, '').replaceAll(/\|/g, ''))}', 'Objects')" /><a class='noscroll' href='${"https://runescape.wiki/w/" + encodeForUrl(object.replace(/[!'()*]/g, escape))}' target='_blank'>${object.replaceAll(/~/g, '').replaceAll(/\|/g, '')}</a></span></div>`);
+            $('.monsters-data').append(`<div class="search-monsters-result noscroll"><span class='noscroll search-monsters-result-inner'><input class="noscroll" ${!!manualMonsters && !!manualMonsters['Objects'] && !!manualMonsters['Objects'][object] && "checked"} type="checkbox" onclick="checkOffMonster('${encodeRFC5987ValueChars(object.replaceAll(/~/g, '').replaceAll(/\|/g, ''))}', 'Objects')" /><a class='noscroll' href='${"https://runescape.wiki/w/" + encodeForUrl(object.replace(/[!'()*]/g, escape))}' target='_blank'>${object.replaceAll(/~/g, '').replaceAll(/\|/g, '')}</a></span></div>`);
         });
         Object.keys(baseChunkDataTotal['Shops']).filter(shop => shop.replaceAll(/~/g, '').replaceAll(/\|/g, '').toLowerCase() === searchTemp && (!filterByCheckedMonsters || (!!manualMonsters['Shops'] && !!manualMonsters['Shops'][shop]))).length > 0 && $('.monsters-data').append(`<div class="search-header noscroll"><b class="noscroll">Shops</b></div>`);
         Object.keys(baseChunkDataTotal['Shops']).filter(shop => shop.replaceAll(/~/g, '').replaceAll(/\|/g, '').toLowerCase() === searchTemp && (!filterByCheckedMonsters || (!!manualMonsters['Shops'] && !!manualMonsters['Shops'][shop]))).length > 0 && Object.keys(baseChunkDataTotal['Shops']).filter(shop => shop.replaceAll(/~/g, '').replaceAll(/\|/g, '').toLowerCase() === searchTemp && (!filterByCheckedMonsters || (!!manualMonsters['Shops'] && !!manualMonsters['Shops'][shop]))).sort().forEach((shop) => {
-            $('.monsters-data').append(`<div class="search-monsters-result noscroll"><span class='noscroll'><input class="noscroll" ${!!manualMonsters && !!manualMonsters['Shops'] && !!manualMonsters['Shops'][object] && "checked"} type="checkbox" onclick="checkOffMonster('${encodeRFC5987ValueChars(shop.replaceAll(/~/g, '').replaceAll(/\|/g, ''))}', 'Shops')" /><a class='noscroll' href='${"https://runescape.wiki/w/" + encodeForUrl(shop.replace(/[!'()*]/g, escape))}' target='_blank'>${shop}</a></span></div>`);
+            $('.monsters-data').append(`<div class="search-monsters-result noscroll"><span class='noscroll search-monsters-result-inner'><input class="noscroll" ${!!manualMonsters && !!manualMonsters['Shops'] && !!manualMonsters['Shops'][object] && "checked"} type="checkbox" onclick="checkOffMonster('${encodeRFC5987ValueChars(shop.replaceAll(/~/g, '').replaceAll(/\|/g, ''))}', 'Shops')" /><a class='noscroll' href='${"https://runescape.wiki/w/" + encodeForUrl(shop.replace(/[!'()*]/g, escape))}' target='_blank'>${shop}</a></span></div>`);
         });
         $('.monsters-data').append(`<div class="noscroll results ${Object.keys(baseChunkDataTotal['Items']).filter(item => item.replaceAll(/~/g, '').replaceAll(/\|/g, '').toLowerCase() === searchTemp).length + Object.keys(baseChunkDataTotal['Monsters']).filter(monster => monster.replaceAll(/~/g, '').replaceAll(/\|/g, '').toLowerCase() === searchTemp).length + Object.keys(baseChunkDataTotal['NPCs']).filter(npc => npc.replaceAll(/~/g, '').replaceAll(/\|/g, '').toLowerCase() === searchTemp).length + Object.keys(baseChunkDataTotal['Objects']).filter(object => object.replaceAll(/~/g, '').replaceAll(/\|/g, '').toLowerCase() === searchTemp).length + Object.keys(baseChunkDataTotal['Shops']).filter(shop => shop.replaceAll(/~/g, '').replaceAll(/\|/g, '').toLowerCase() === searchTemp).length > 0 ? 'results-alt': ''}"><span class="noscroll holder"><span class="noscroll topline">Too many results (${Object.keys(baseChunkDataTotal['Items']).filter(item => item.replaceAll(/~/g, '').replaceAll(/\|/g, '').toLowerCase().includes(searchTemp)).length + Object.keys(baseChunkDataTotal['Monsters']).filter(monster => monster.replaceAll(/~/g, '').replaceAll(/\|/g, '').toLowerCase().includes(searchTemp)).length + Object.keys(baseChunkDataTotal['NPCs']).filter(npc => npc.replaceAll(/~/g, '').replaceAll(/\|/g, '').toLowerCase().includes(searchTemp)).length + Object.keys(baseChunkDataTotal['Objects']).filter(object => object.replaceAll(/~/g, '').replaceAll(/\|/g, '').toLowerCase().includes(searchTemp)).length + Object.keys(baseChunkDataTotal['Shops']).filter(shop => shop.replaceAll(/~/g, '').replaceAll(/\|/g, '').toLowerCase().includes(searchTemp)).length})</span><br /><span class="noscroll bottomline">Try refining your search to narrow down the results.</span></span></div>`);
     }
@@ -7466,7 +7464,7 @@ let checkOffMonster = function(monster, type) {
     if (!manualMonsters[type]) {
         manualMonsters[type] = {};
     }
-    if (!manualMonsters[type][monster]) {
+    if (!manualMonsters[type].hasOwnProperty(monster)) {
         manualMonsters[type][monster] = true;
     } else {
         delete manualMonsters[type][monster];
@@ -7474,6 +7472,16 @@ let checkOffMonster = function(monster, type) {
             delete manualMonsters[type];
         }
     }
+    setData();
+    calcCurrentChallengesCanvas(true);
+    searchMonsters();
+}
+
+// Sets the primary/secondary of a manual item
+let selectManualItemPrimary = function(type, item, num) {
+    item = decodeQueryParam(item);
+    let dropdownVal = $(`#manualmonsters-dropdown-${num}`).val();
+    manualMonsters[type][item] = dropdownVal === 'primary';
     setData();
     calcCurrentChallengesCanvas(true);
 }
@@ -8091,6 +8099,7 @@ let openHighest2 = function() {
                 }
             } else if (combatStyle === 'Quests') {
                 $(`.${combatStyle.replaceAll(' ', '_')}-body`).append(`<div class='noscroll qps'>Quest Points: ${questPointTotal}<i class="noscroll fas fa-filter" title="Filter" onclick="openQuestFilterContextMenu()"></i></div>`);
+                $(`.${combatStyle.replaceAll(' ', '_')}-body`).append(`<div class="quest-question-outer"><span class="quest-question">What do the colors indicate? <i class="fas fa-question-circle"></i><span class="tooltiptext"><div>Quests in <span style="color:green">green</span> indicate a quest that you can complete within your chunks.</div><hr /><div>Quests in <span style="color:yellow">yellow</span> indicate a quest that can be started, but not completed within your chunks.</div><hr /><div>Quests in <span style="color:grey">grey</span> indicate a quest that cannot be started yet.</div></span></span></div>`);
                 Object.keys(chunkInfo['quests']).filter(quest => { return quest === 'break' || quest === 'break2' || questFilterType === 'all' || (questFilterType === 'complete' && questProgress.hasOwnProperty(quest) && (questProgress[quest] === 'Complete the quest')) || (questFilterType === 'incomplete' && questProgress.hasOwnProperty(quest) && Array.isArray(questProgress[quest])) || (questFilterType === 'unstarted' && !questProgress.hasOwnProperty(quest)) }).forEach((quest) => {
                     if (quest === 'break' || quest === 'break2') {
                         $(`.${combatStyle.replaceAll(' ', '_')}-body`).append(`<hr class='noscroll' />`);
@@ -8102,6 +8111,7 @@ let openHighest2 = function() {
                     $(`.${combatStyle.replaceAll(' ', '_')}-body`).empty().append(`<div class='highest-subtitle noscroll'>${combatStyle}</div><div class='noscroll qps'>Quest Points: ${questPointTotal}<i class="noscroll fas fa-filter" title="Filter" onclick="openQuestFilterContextMenu()"></i></div>`).append(`<div class="noscroll results"><span class="noscroll holder"><span class="noscroll topline">No quests ${questFilterType}</span></span></div>`);
                 }
             } else if (combatStyle === 'Diaries') {
+                $(`.${combatStyle.replaceAll(' ', '_')}-body`).append(`<div class="diary-question-outer"><span class="diary-question">What do the colors indicate? <i class="fas fa-question-circle"></i><span class="tooltiptext"><div>Diary tiers in <span style="color:green">green</span> indicate a diary that you can complete within your chunks.</div><hr /><div>Diary tiers in <span style="color:yellow">yellow</span> indicate a diary that can be started, but not completed within your chunks.</div><hr /><div>Diary tiers in <span style="color:grey">grey</span> indicate a diary that cannot be started yet.</div></span></span></div>`);
                 Object.keys(chunkInfo['diaries']).forEach((diary) => {
                     $(`.${combatStyle.replaceAll(' ', '_')}-body`).append(`<div class='noscroll row ${diary.replaceAll(' ', '_').replaceAll("'", '')}'><span class='noscroll outer-diary-text'>${diary.replaceAll(/~/g, '').replaceAll(/\|/g, '')}</div>`);
                     chunkInfo['diaries'][diary].split(', ').forEach((tier) => {
@@ -9972,6 +9982,7 @@ let searchRules = function() {
         $('.panel-search').removeClass('visible').hide();
         showRules(true);
     }
+    checkOffRules(false, true);
 }
 
 // Shows chunk rules
@@ -10575,14 +10586,14 @@ let checkOffRules = function(didRedo, startup) {
             rules[rule] = $(extraFilter + '.' + rule.replaceAll(' ', '_').replace(/[!"#$%&'()*+,.\/:;<=>?@\[\\\]\^\`{|}~]/g, '').toLowerCase() + '-rule input').prop('checked');
         }
         if ($(extraFilter + '.' + rule.replaceAll(' ', '_').replace(/[!"#$%&'()*+,.\/:;<=>?@\[\\\]\^\`{|}~]/g, '').toLowerCase() + '-rule').children('.subrule').length) {
-            if (rules[rule] && (!(viewOnly || inEntry || locked) || testMode)) {
+            if ((rules[rule] || rule === 'Rare Drop') && (!(viewOnly || inEntry || locked) || testMode)) {
                 $(extraFilter + '.' + rule.replaceAll(' ', '_').replace(/[!"#$%&'()*+,.\/:;<=>?@\[\\\]\^\`{|}~]/g, '').toLowerCase() + '-rule').children('.subrule').children('.checkbox').removeClass('checkbox--disabled');
                 $(extraFilter + '.' + rule.replaceAll(' ', '_').replace(/[!"#$%&'()*+,.\/:;<=>?@\[\\\]\^\`{|}~]/g, '').toLowerCase() + '-rule').children('.subrule').children('.checkbox').children('.checkbox__input').children('input').prop('disabled', false);
             } else {
                 $(extraFilter + '.' + rule.replaceAll(' ', '_').replace(/[!"#$%&'()*+,.\/:;<=>?@\[\\\]\^\`{|}~]/g, '').toLowerCase() + '-rule').children('.subrule').children('.checkbox').addClass('checkbox--disabled');
                 $(extraFilter + '.' + rule.replaceAll(' ', '_').replace(/[!"#$%&'()*+,.\/:;<=>?@\[\\\]\^\`{|}~]/g, '').toLowerCase() + '-rule').children('.subrule').children('.checkbox').children('.checkbox__input').children('input').prop('disabled', true);
             }
-            if (!rules[rule]) {
+            if (!rules[rule] && rule !== 'Rare Drop') {
                 $(extraFilter + '.' + rule.replaceAll(' ', '_').replace(/[!"#$%&'()*+,.\/:;<=>?@\[\\\]\^\`{|}~]/g, '').toLowerCase() + '-rule').children('.subrule').children('.checkbox').children('.checkbox__input').children('input').prop('checked', false);
                 redo = true;
             }
