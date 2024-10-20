@@ -493,12 +493,12 @@ let ruleNames = {
     "Skiller": "Restrict tasks to only those doable on a level 3 skiller",
     "Fill Stash": "Must build and fill S.T.A.S.H. units as soon as you're able to",
     "All Shops": "Must buy every item from every shop within your chunks once <span class='rule-asterisk noscroll'>⁺</span>",
-    "Quest Skill Reqs": "Must get Quest skill requirements, regardless of if the Quest is startable or not <span class='rule-asterisk noscroll'>⁺</span>",
+    "Quest Skill Reqs": "WIP - Must get Quest skill requirements, regardless of if the Quest is startable or not <span class='rule-asterisk noscroll'>⁺</span>",
 	"Boosting": "Allow skill boosts to be considered for skill tasks",
     "Token": "Allow token xp drops to count as a primary training method<span class='rule-asterisk noscroll'>*</span>",
 	"Master skillcape": "Must obtain master skillcapes for all skills<span class='rule-asterisk noscroll'>†</span>",
 	"Golden fish egg": "Must obtain all available golden fish eggs<span class='rule-asterisk noscroll'>*</span>",
-	"Cleaning herbs": "Cleaning herbs counts as primary herblore training<span class='rule-asterisk noscroll'>*</span>",
+	"Cleaning Herbs": "Cleaning grimy herbs/making (unf) potions can count as chunk tasks",
 	"Vinesweeper": "Allow Vinesweeper to count as primary training for training Farming<span class='rule-asterisk noscroll'>*</span>",
 	"Ogleroot": "Allow Vinesweeper to count as primary training for training hunter",
 	"Gnomeball": "Allow playing gnomeball to count as a primary training method for agility and ranged",
@@ -510,16 +510,16 @@ let ruleNames = {
 	"DnD Skilling": "Allow activities inside Distractions and Diversions to create skilling tasks<span class='rule-asterisk noscroll'>*</span>",
 	"Uncharted": "Allow resources only available on uncharted islands to create skilling tasks<span class='rule-asterisk noscroll'>*</span>",
 	"Arc Log": "Require completion of the Arc Journal<span class='rule-asterisk noscroll'>*</span>",
-	"Achievement": "WIP - Require all achievements that can be obtained within your ruleset excluding level up achievements (WIP)",
+	"Achievement": "WIP - Require all achievements that can be obtained within your ruleset excluding level up achievements",
 	"Multiple Pickpockets": "Require the agility and thieving levels to quadruple pickpocket<span class='rule-asterisk noscroll'>*</span>",
-    "F2P": "Restrict to F2P skills/items/tasks only",
+    "F2P": "Restrict to F2P skills/items/tasks only (Partially implemented)",
 	"Hard Mode Bosses": "Include Hard mode variants of bosses",
-	"Group Content": "WIP - Require content that cannot reasonably be completed solo (Castle wars, Yakamaru, AoD, etc)<span class='rule-asterisk noscroll'>†</span>",
+	"Group Content": "Require content that is intended to be completed in a group<span class='rule-asterisk noscroll'>†</span>",
 	"Full Healing": "Require Constitution levels to fully heal from different foods",
-	"All Abilities": "Require new abilities and prayers that are obtained through other means than an ability codex (WIP)"
+	"All Abilities": "WIP - Require new abilities and prayers that are obtained through other means than an ability codex"
 	"PVP": "Require tasks that can only be completed by engaging in PvP<span class='rule-asterisk noscroll'>†</span>",
-	"Codex": "Require new abilities and prayers that are obtained through an ability codex (WIP)",
-    "KeyItem Bosses": "For bosses that require keys to kill, factor in the droprate of the key as part of the droprate of each drop"
+	"Codex": "WIP - Require new abilities and prayers that are obtained through an ability codex",
+    "KeyItem Bosses": "For bosses that require keys to kill, factor in the droprate of the key as part of the droprate of each drop",
 };                                                                              // List of rule definitions
 
 let rulePresets = {
@@ -544,6 +544,7 @@ let rulePresets = {
 		"Gnomeball": true,
 		"Achievement": true,
 		"Full Healing": true,
+		"Cleaning Herbs": true,
     },
     "Xtreme Chunker": {
         "Skillcape": true,
@@ -588,7 +589,7 @@ let rulePresets = {
         "Spells": true,
 		"Token": true,
 		"Golden fish egg": true,
-		"Cleaning herbs": true,
+		"Cleaning Herbs": true,
 		"Stuffables": true,
 		"Vinesweeper": true,
 		"Ogleroot": true,
@@ -655,7 +656,7 @@ let rulePresets = {
 		"Token": true,
 		"Master skillcape": true,
 		"Golden fish egg": true,
-		"Cleaning herbs": true,
+		"Cleaning Herbs": true,
 		"Stuffables": true,
 		"Vinesweeper": true,
 		"Ogleroot": true,
@@ -736,7 +737,7 @@ let ruleStructure = {
 		
 	},
     "Herblore": {
-		"Cleaning herbs": true
+		"Cleaning Herbs": true
     },
     "Hunter": {
 		"Puro-Puro": ["Extra implings"],
