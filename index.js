@@ -365,6 +365,8 @@ let rules = {
     "Show Diary Tasks Any": false,
     "Highest Level": false,
     "BIS Skilling": false,
+	"BIS Skilling Consumables": false,
+	"BIS Skilling Relic": false,
     "Collection Log": false,
 	"Boss Collection Log": false,
 	"Slayer Collection Log": false,
@@ -391,7 +393,6 @@ let rules = {
     "Manually Complete Tasks": false,
     "Every Drop": false,
     "HigherLander": false,
-    "Starting Items": false,
     "Secondary MTA": false,
     "Skilling Pets": false,
     "Money Unlockables": false,
@@ -418,6 +419,8 @@ let rules = {
 	"Champion Challenge": false,
 	"Titles": false,
 	"DnD": false,
+	"DnD Flash Events": false,
+	"DnD Skilling": false,
 	"Uncharted": false,
 	"Arc Log": false,
 	"Achievement": false,
@@ -427,6 +430,11 @@ let rules = {
 	"Group Content": false,
 	"Full Healing": false,
 	"PVP": false,
+	"Hero Items": false,
+	"Brawling Gloves": false,
+	"Codex": false,
+	"All Abilities": false,
+	"PvM Relics": false,
     "KeyItem Bosses": false,
 };                                                                              // List of rules and their on/off state
 
@@ -457,11 +465,17 @@ let ruleNames = {
     "Show Diary Tasks Complete": "Show Diary Tasks only when the whole diary tier (easy, medium, etc.) is completable",
     "Show Diary Tasks Any": "Show all diary tasks possible, regardless of tier<span class='rule-asterisk noscroll'>*</span>",
     "Highest Level": "Require processing skill tasks to be the highest level of processing, rather than the lowest (e.g. must craft black dragonhide leather fully into a dragonhide shield rather than just into vambraces)<span class='rule-asterisk noscroll'>*</span>",
-    "BIS Skilling": "WIP - Must obtain items that are best-in-slot/add quality-of-life for skilling (e.g. Dragon Pickaxe, Angler Outfit, wieldable saw, etc.)",
+    "BIS Skilling": "Must obtain items that are best-in-slot/add quality-of-life for skilling (e.g. Dragon Pickaxe, Angler Outfit, wieldable saw, etc.)",
+    "BIS Skilling Consumables": "WIP - Must also obtain best-in-slot/quality-of-life consumable items for skilling (scrimshaws, familiars, ...). Does not include visible skill boosts",
+    "BIS Skilling Relics": "WIP - Must also obtain best-in-slot/quality-of-life Archaeology relics for skilling",
+	"Brawling Gloves": "Brawling gloves of every type count as skilling BIS",
+	"Hero Items": "Must obtain Hero Items as part of chunk tasks<span class='rule-asterisk noscroll'>†</span>",
     "Collection Log": "Must obtain items from collection logs (Does nothing on its own)<span class='rule-asterisk noscroll'>*</span>",
 	"Boss Collection Log": "Must obtain items from the boss collection log<span class='rule-asterisk noscroll'>*</span>",
 	"Slayer Collection Log": "Must obtain items from the slayer collection log<span class='rule-asterisk noscroll'>*</span>",
     "Minigame": "Allow items obtained from minigame rewards to count towards chunk tasks",
+	"DnD": "Allow items obtained from Distractions and Diversions to count towards chunk tasks<span class='rule-asterisk noscroll'>*</span>",
+	"DnD Flash Events": "Include Wilderness Flash Events, Demon Flash Mobs and Goblin Raids<span class='rule-asterisk noscroll'>*</span>",
     "Shortcut Task": "Allow agility shortcuts to count as an Agility skill task",
     "Shortcut": "Allow agility shortcuts to count as a primary method for training Agility",
     "Wield Crafted Items": "Crafted items (e.g. bows, metal armour/weapons, etc.) can be wielded as part of chunks tasks (as BiS gear, wielding requirements, training methods, etc.)<span class='rule-asterisk noscroll'>*</span>",
@@ -491,12 +505,12 @@ let ruleNames = {
     "Skiller": "Restrict tasks to only those doable on a level 3 skiller",
     "Fill Stash": "Must build and fill S.T.A.S.H. units as soon as you're able to",
     "All Shops": "Must buy every item from every shop within your chunks once <span class='rule-asterisk noscroll'>⁺</span>",
-    "Quest Skill Reqs": "Must get Quest skill requirements, regardless of if the Quest is startable or not <span class='rule-asterisk noscroll'>⁺</span>",
+    "Quest Skill Reqs": "WIP - Must get Quest skill requirements, regardless of if the Quest is startable or not <span class='rule-asterisk noscroll'>⁺</span>",
 	"Boosting": "Allow skill boosts to be considered for skill tasks",
     "Token": "Allow token xp drops to count as a primary training method<span class='rule-asterisk noscroll'>*</span>",
 	"Master skillcape": "Must obtain master skillcapes for all skills<span class='rule-asterisk noscroll'>†</span>",
 	"Golden fish egg": "Must obtain all available golden fish eggs<span class='rule-asterisk noscroll'>*</span>",
-	"Cleaning herbs": "Cleaning herbs counts as primary herblore training<span class='rule-asterisk noscroll'>*</span>",
+	"Cleaning Herbs": "Cleaning grimy herbs/making (unf) potions can count as chunk tasks",
 	"Vinesweeper": "Allow Vinesweeper to count as primary training for training Farming<span class='rule-asterisk noscroll'>*</span>",
 	"Ogleroot": "Allow Vinesweeper to count as primary training for training hunter",
 	"Gnomeball": "Allow playing gnomeball to count as a primary training method for agility and ranged",
@@ -505,18 +519,20 @@ let ruleNames = {
 	"PortSkills": "Require all trainable port skills to be trained up to 90<span class='rule-asterisk noscroll'>*</span>",
 	"Champion Challenge": "Require all champions in the champion guild to be defeated when able<span class='rule-asterisk noscroll'>*</span>",
 	"Titles": "WIP - Require all special titles that aren't connected to other content to be obtained when able<span class='rule-asterisk noscroll'>*</span>",
-	"DnD": "Allow distractions and diversion to create skilling tasks<span class='rule-asterisk noscroll'>*</span>",
+	"DnD Skilling": "Allow activities inside Distractions and Diversions to create skilling tasks<span class='rule-asterisk noscroll'>*</span>",
 	"Uncharted": "Allow resources only available on uncharted islands to create skilling tasks<span class='rule-asterisk noscroll'>*</span>",
 	"Arc Log": "Require completion of the Arc Journal<span class='rule-asterisk noscroll'>*</span>",
-	"Achievement": "WIP - Require all achievements that can be obtained within your ruleset excluding level up achievements (WIP)",
+	"Achievement": "WIP - Require all achievements that can be obtained within your ruleset excluding level up achievements",
 	"Multiple Pickpockets": "Require the agility and thieving levels to quadruple pickpocket<span class='rule-asterisk noscroll'>*</span>",
-    "F2P": "Restrict to F2P skills/items/tasks only",
+    "F2P": "Restrict to F2P skills/items/tasks only (Partially implemented)",
 	"Hard Mode Bosses": "Include Hard mode variants of bosses",
-	"Group Content": "WIP - Require content that cannot reasonably be completed solo (Castle wars, Yakamaru, AoD, etc)<span class='rule-asterisk noscroll'>†</span>",
+	"Group Content": "Require content that is intended to be completed in a group<span class='rule-asterisk noscroll'>†</span>",
 	"Full Healing": "Require Constitution levels to fully heal from different foods",
-	"PVP": "Require items and to cast spells that can only completed in PVP<span class='rule-asterisk noscroll'>†</span>",
-	"Codex": "Require codices",
-    "KeyItem Bosses": "For bosses that require keys to kill, factor in the droprate of the key as part of the droprate of each drop"
+	"All Abilities": "WIP - Must obtain new abilities and prayers that are obtained through other means than an ability codex",
+	"PVP": "Require tasks that can only be completed by engaging in PvP<span class='rule-asterisk noscroll'>†</span>",
+	"Codex": "WIP - Must obtain new abilities and prayers that are obtained through an ability codex",
+	"PvM Relics": "WIP - Must obtain all best-in-slot/quality-of-life Archaeology Relics for combat",
+    "KeyItem Bosses": "For bosses that require keys to kill, factor in the droprate of the key as part of the droprate of each drop",
 };                                                                              // List of rule definitions
 
 let rulePresets = {
@@ -541,6 +557,7 @@ let rulePresets = {
 		"Gnomeball": true,
 		"Achievement": true,
 		"Full Healing": true,
+		"Cleaning Herbs": true,
     },
     "Xtreme Chunker": {
         "Skillcape": true,
@@ -562,6 +579,8 @@ let rulePresets = {
         "Show Best in Slot Prayer Tasks": true,
         "Highest Level": true,
         "Minigame": true,
+        "DnD": true,
+        "DnD Flash Events": true,
         "Shortcut Task": true,
         "Shortcut": true,
         "Wield Crafted Items": true,
@@ -584,7 +603,7 @@ let rulePresets = {
         "Spells": true,
 		"Token": true,
 		"Golden fish egg": true,
-		"Cleaning herbs": true,
+		"Cleaning Herbs": true,
 		"Stuffables": true,
 		"Vinesweeper": true,
 		"Ogleroot": true,
@@ -594,7 +613,7 @@ let rulePresets = {
 		"PortSkills": true,
 		"Champion Challenge": true,
 		"Titles": true,
-		"DnD": true,
+		"DnD Skilling": true,
 		"Uncharted": true,
 		"Arc Log": true,
 		"Achievement": true,
@@ -622,6 +641,8 @@ let rulePresets = {
         "Show Best in Slot Prayer Tasks": true,
         "Highest Level": true,
         "Minigame": true,
+        "DnD": true,
+        "DnD Flash Events": true,
         "Shortcut Task": true,
         "Shortcut": true,
         "Wield Crafted Items": true,
@@ -650,7 +671,7 @@ let rulePresets = {
 		"Token": true,
 		"Master skillcape": true,
 		"Golden fish egg": true,
-		"Cleaning herbs": true,
+		"Cleaning Herbs": true,
 		"Stuffables": true,
 		"Vinesweeper": true,
 		"Ogleroot": true,
@@ -660,7 +681,7 @@ let rulePresets = {
 		"PortSkills": true,
 		"Champion Challenge": true,
 		"Titles": true,
-		"DnD": true,
+		"DnD Skilling": true,
 		"Uncharted": true,
 		"Arc Log": true,
 		"Achievement": true,
@@ -669,6 +690,7 @@ let rulePresets = {
 		"Group Content": true,
 		"PVP": true,
 		"Full Healing": true,
+		"Hero Items": true,
     }
 };                                                                              // List of rules that are part of each preset
 
@@ -685,12 +707,11 @@ let ruleStructure = {
         "Show Quest Tasks": ["Show Quest Tasks Complete"],
         "Show Diary Tasks": ["Show Diary Tasks Complete", "Show Diary Tasks Any"],
         "Show Best in Slot Tasks": ["Show Best in Slot Prayer Tasks", "Show Best in Slot Defensive Tasks", "Show Best in Slot Melee Style Tasks", "Show Best in Slot 1H and 2H", "Show Best in Slot Shield"],
-		"BIS Skilling": true,
+		"BIS Skilling": ["BIS Skilling Consumables", "BIS Skilling Relics", "Brawling Gloves"],
 		"Collection Log": ["Boss Collection Log", "Slayer Collection Log", "Pets"],
-		"Untracked Uniques": ["Stuffables", "Money Unlockables", "Champion Challenge", "Arc Log", "PVP", "Skilling Pets", "Golden fish egg"]
+		"Untracked Uniques": ["Stuffables", "Money Unlockables", "Champion Challenge", "Arc Log", "Skilling Pets", "Golden fish egg"]
     },
     "Overall Skill": {
-        "Starting Items": false,
         "Skillcape": ["Master skillcape"],
         "Highest Level": true,
         "Multi Step Processing": true,
@@ -702,7 +723,7 @@ let ruleStructure = {
 		"Daemonheim tasks": true,
 		"PortSkills": true,
 		"Token": true,
-		"DnD": true,
+		"DnD Skilling": true,
 		"Uncharted": true,
 		"Multiple Pickpockets": true
     },
@@ -712,7 +733,9 @@ let ruleStructure = {
     },
     "Combat": {
 		"Full Healing": true,
-        "HigherLander": true
+        "HigherLander": true,
+		"PvM Relics": true,
+		"Codex": ["All Abilities"],
     },
     "Construction": {
         "InsidePOH Primary": true,
@@ -726,11 +749,8 @@ let ruleStructure = {
         "Farming Primary": true,
 		"Vinesweeper": true
     },
-	"Fishing": {
-		
-	},
     "Herblore": {
-		"Cleaning herbs": true
+		"Cleaning Herbs": true
     },
     "Hunter": {
 		"Puro-Puro": ["Extra implings"],
@@ -755,12 +775,11 @@ let ruleStructure = {
     "Smithing": {
         "Smithing by Smelting": true
     },
-	"Thieving": {
-		
-	},
     "Item Sources": {
         "Boss": ["Hard Mode Bosses"],
+		"PVP": true,
 		"Minigame": true,
+		"DnD": ["DnD Flash Events"],
         "Rare Drop": ["KeyItem Bosses"],
         "RDT": true,
         "Primary Spawns": true,
@@ -769,7 +788,8 @@ let ruleStructure = {
         "All Shops": true
     },
     "Miscellaneous": {
-        "Kill X": true,
+        "Hero Items": true,
+		"Kill X": true,
         "Fill Stash": true,
         "Manually Complete Tasks": true,
         "Skiller": true,
@@ -11393,6 +11413,10 @@ let loadData = async function(startup) {
 
         if (!rulesTemp.hasOwnProperty('Full Healing')) {
             rulesTemp['Full Healing'] = true;
+        }
+		
+		 if (!rulesTemp.hasOwnProperty('DnD Flash Events')) {
+            rulesTemp['DnD Flash Events'] = rulesTemp.hasOwnProperty('DnD') ? rulesTemp['DnD'] : false;
         }
 
         if (!rulesTemp.hasOwnProperty('Boss Collection Log')) {
