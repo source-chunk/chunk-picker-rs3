@@ -365,6 +365,8 @@ let rules = {
     "Show Diary Tasks Any": false,
     "Highest Level": false,
     "BIS Skilling": false,
+	"BIS Skilling Consumables": false,
+	"BIS Skilling Relic": false,
     "Collection Log": false,
 	"Boss Collection Log": false,
 	"Slayer Collection Log": false,
@@ -417,6 +419,7 @@ let rules = {
 	"Champion Challenge": false,
 	"Titles": false,
 	"DnD": false,
+	"DnD Flash Events": false,
 	"DnD Skilling": false,
 	"Uncharted": false,
 	"Arc Log": false,
@@ -431,6 +434,7 @@ let rules = {
 	"Brawling Gloves": false,
 	"Codex": false,
 	"All Abilities": false,
+	"PvM Relics": false,
     "KeyItem Bosses": false,
 };                                                                              // List of rules and their on/off state
 
@@ -462,6 +466,8 @@ let ruleNames = {
     "Show Diary Tasks Any": "Show all diary tasks possible, regardless of tier<span class='rule-asterisk noscroll'>*</span>",
     "Highest Level": "Require processing skill tasks to be the highest level of processing, rather than the lowest (e.g. must craft black dragonhide leather fully into a dragonhide shield rather than just into vambraces)<span class='rule-asterisk noscroll'>*</span>",
     "BIS Skilling": "Must obtain items that are best-in-slot/add quality-of-life for skilling (e.g. Dragon Pickaxe, Angler Outfit, wieldable saw, etc.)",
+    "BIS Skilling Consumables": "WIP - Must also obtain best-in-slot/quality-of-life consumable items for skilling (scrimshaws, familiars, ...). Does not include visible skill boosts",
+    "BIS Skilling Relics": "WIP - Must also obtain best-in-slot/quality-of-life Archaeology relics for skilling",
 	"Brawling Gloves": "Brawling gloves of every type count as skilling BIS",
 	"Hero Items": "Must obtain Hero Items as part of chunk tasks<span class='rule-asterisk noscroll'>†</span>",
     "Collection Log": "Must obtain items from collection logs (Does nothing on its own)<span class='rule-asterisk noscroll'>*</span>",
@@ -469,6 +475,7 @@ let ruleNames = {
 	"Slayer Collection Log": "Must obtain items from the slayer collection log<span class='rule-asterisk noscroll'>*</span>",
     "Minigame": "Allow items obtained from minigame rewards to count towards chunk tasks",
 	"DnD": "Allow items obtained from Distractions and Diversions to count towards chunk tasks<span class='rule-asterisk noscroll'>*</span>",
+	"DnD Flash Events": "Include Wilderness Flash Events, Demon Flash Mobs and Goblin Raids<span class='rule-asterisk noscroll'>*</span>",
     "Shortcut Task": "Allow agility shortcuts to count as an Agility skill task",
     "Shortcut": "Allow agility shortcuts to count as a primary method for training Agility",
     "Wield Crafted Items": "Crafted items (e.g. bows, metal armour/weapons, etc.) can be wielded as part of chunks tasks (as BiS gear, wielding requirements, training methods, etc.)<span class='rule-asterisk noscroll'>*</span>",
@@ -521,9 +528,10 @@ let ruleNames = {
 	"Hard Mode Bosses": "Include Hard mode variants of bosses",
 	"Group Content": "Require content that is intended to be completed in a group<span class='rule-asterisk noscroll'>†</span>",
 	"Full Healing": "Require Constitution levels to fully heal from different foods",
-	"All Abilities": "WIP - Require new abilities and prayers that are obtained through other means than an ability codex"
+	"All Abilities": "WIP - Must obtain new abilities and prayers that are obtained through other means than an ability codex",
 	"PVP": "Require tasks that can only be completed by engaging in PvP<span class='rule-asterisk noscroll'>†</span>",
-	"Codex": "WIP - Require new abilities and prayers that are obtained through an ability codex",
+	"Codex": "WIP - Must obtain new abilities and prayers that are obtained through an ability codex",
+	"PvM Relics": "WIP - Must obtain all best-in-slot/quality-of-life Archaeology Relics for combat",
     "KeyItem Bosses": "For bosses that require keys to kill, factor in the droprate of the key as part of the droprate of each drop",
 };                                                                              // List of rule definitions
 
@@ -572,6 +580,7 @@ let rulePresets = {
         "Highest Level": true,
         "Minigame": true,
         "DnD": true,
+        "DnD Flash Events": true,
         "Shortcut Task": true,
         "Shortcut": true,
         "Wield Crafted Items": true,
@@ -633,6 +642,7 @@ let rulePresets = {
         "Highest Level": true,
         "Minigame": true,
         "DnD": true,
+        "DnD Flash Events": true,
         "Shortcut Task": true,
         "Shortcut": true,
         "Wield Crafted Items": true,
@@ -697,7 +707,7 @@ let ruleStructure = {
         "Show Quest Tasks": ["Show Quest Tasks Complete"],
         "Show Diary Tasks": ["Show Diary Tasks Complete", "Show Diary Tasks Any"],
         "Show Best in Slot Tasks": ["Show Best in Slot Prayer Tasks", "Show Best in Slot Defensive Tasks", "Show Best in Slot Melee Style Tasks", "Show Best in Slot 1H and 2H", "Show Best in Slot Shield"],
-		"BIS Skilling": ["Brawling Gloves"],
+		"BIS Skilling": ["BIS Skilling Consumables", "BIS Skilling Relics", "Brawling Gloves"],
 		"Collection Log": ["Boss Collection Log", "Slayer Collection Log", "Pets"],
 		"Untracked Uniques": ["Stuffables", "Money Unlockables", "Champion Challenge", "Arc Log", "Skilling Pets", "Golden fish egg"]
     },
@@ -724,6 +734,7 @@ let ruleStructure = {
     "Combat": {
 		"Full Healing": true,
         "HigherLander": true,
+		"PvM Relics": true,
 		"Codex": ["All Abilities"],
     },
     "Construction": {
@@ -738,9 +749,6 @@ let ruleStructure = {
         "Farming Primary": true,
 		"Vinesweeper": true
     },
-	"Fishing": {
-		
-	},
     "Herblore": {
 		"Cleaning Herbs": true
     },
@@ -767,14 +775,11 @@ let ruleStructure = {
     "Smithing": {
         "Smithing by Smelting": true
     },
-	"Thieving": {
-		
-	},
     "Item Sources": {
         "Boss": ["Hard Mode Bosses"],
 		"PVP": true,
 		"Minigame": true,
-		"DnD": true,
+		"DnD": ["DnD Flash Events"],
         "Rare Drop": ["KeyItem Bosses"],
         "RDT": true,
         "Primary Spawns": true,
@@ -11408,6 +11413,10 @@ let loadData = async function(startup) {
 
         if (!rulesTemp.hasOwnProperty('Full Healing')) {
             rulesTemp['Full Healing'] = true;
+        }
+		
+		 if (!rulesTemp.hasOwnProperty('DnD Flash Events')) {
+            rulesTemp['DnD Flash Events'] = rulesTemp.hasOwnProperty('DnD') ? rulesTemp['DnD'] : false;
         }
 
         if (!rulesTemp.hasOwnProperty('Boss Collection Log')) {
