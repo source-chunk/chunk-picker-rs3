@@ -563,7 +563,7 @@ button.menu2 {
 
 .menu11 {
     position: fixed;
-    z-index: 99 !important;
+    z-index: 98 !important;
     bottom: min(7vw, 90px);
     left: 10px;
     width: auto;
@@ -5258,6 +5258,10 @@ input#searchChunkSections {
     margin-right: 20px;
 }
 
+.submarker-extra > span {
+    padding-right: 30px;
+}
+
 .expand-button {
     margin-left: 10px;
     position: absolute;
@@ -5266,6 +5270,24 @@ input#searchChunkSections {
 .expand-button.fa-caret-right {
     margin-left: 15px !important;
     margin-top: 2px;
+}
+
+.checkmark-all-btn {
+    -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+    color: var(--colorTextAlt);
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.checkmark-all-btn-disabled {
+    display: none;
+}
+
+.checkmark-all-btn:hover {
+    color: var(--colorLink);
 }
 
 .challenge-data > .results {
@@ -6018,6 +6040,10 @@ input#searchChunks {
     padding-right: 30px;
 }
 
+.skill-button.extra-gear-room {    
+    padding-right: 30px;
+}
+
 .skill-button.active > .methods-button {
     cursor: pointer;
     text-decoration: underline;
@@ -6035,6 +6061,10 @@ input#searchChunks {
     text-align: center;
     border-left: solid 1px var(--color8);
     position: relative;
+    padding-right: 30px;
+}
+
+.skill-button2.extra-gear-room {    
     padding-right: 30px;
 }
 
@@ -6102,7 +6132,6 @@ input#searchChunks {
     text-align: center;
     width: 28.2%;
     border-left: solid 1px var(--color8);
-    padding-right: 30px;
 }
 
 .clue-possible {
