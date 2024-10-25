@@ -1409,6 +1409,7 @@
 				"Output": "Agility cape",
 				"Primary": false,
 				"Priority": 3,
+				"NoBoost": true,
 				"NoPet": true
 			},
 			"Buy the ~|Agility master cape|~": {
@@ -1418,6 +1419,7 @@
 				"Output": "Agility master cape",
 				"Primary": false,
 				"Priority": 3,
+				"NoBoost": true,
 				"NoPet": true
 			},
 			"Catch a ~|charming moth|~": {
@@ -1596,6 +1598,7 @@
 					"Woodcutting": 99
 				},
 				"Priority": 1,
+				"NoBoost": true,
 				"NoPet": true
 			},
 			"Make a ~|Milestone cape (90)|~": {
@@ -1635,6 +1638,7 @@
 					"Woodcutting": 90
 				},
 				"Priority": 8,
+				"NoBoost": true,
 				"NoPet": true
 			},
 			"Create the ~|blurite keystone|~": {
@@ -1718,6 +1722,7 @@
 					"Woodcutting": 120
 				},
 				"Priority": 1,
+				"NoBoost": true,
 				"NoPet": true
 			}
 		},
@@ -4734,7 +4739,7 @@
 				"Tasks": {
 					"Complete the ~|Archaeology tutorial|~": "Archaeology"
 				},
-				"Items": ["Seed of the Charyou Tree"],
+				"Items": ["Hand of Glory (Luck of the Dwarves)"],
 				"Level": 83,
 				"Primary": false,
 				"Priority": 6
@@ -5165,6 +5170,7 @@
 				"Level": 90,
 				"Output": "Milestone cape (90)",
 				"Primary": false,
+				"NoBoost": true,
 				"Skills": {
 					"Agility": 90,
 					"Attack": 90,
@@ -7312,6 +7318,7 @@
 				"Level": 120,
 				"Output": "Archaeology master cape",
 				"Primary": false,
+				"NoBoost": true,
 				"Priority": 3
 			},
 			"Buy the ~|Max cape|~": {
@@ -7322,6 +7329,7 @@
 				"Items": ["Max cape"],
 				"Level": 99,
 				"Primary": false,
+				"NoBoost": true,
 				"Skills": {
 					"Agility": 99,
 					"Attack": 99,
@@ -7364,6 +7372,7 @@
 				"Level": 120,
 				"Output": "Blurite keystone",
 				"Primary": false,
+				"NoBoost": true,
 				"Skills": {
 					"Agility": 120,
 					"Attack": 120,
@@ -7404,6 +7413,7 @@
 				"Items": ["Master max cape", "Blurite keystone"],
 				"Level": 120,
 				"Primary": false,
+				"NoBoost": true,
 				"Skills": {
 					"Agility": 120,
 					"Attack": 120,
@@ -10564,6 +10574,7 @@
 			    "Output": "Milestone cape (90)",
 			    "Primary": false,
 			    "NoPet": true,
+				"NoBoost": true,
 			    "Skills": {
 			        "Agility": 90,
 			        "Archaeology": 90,
@@ -10760,6 +10771,7 @@
 			    "Level": 99,
 			    "Output": "Constitution cape",
 			    "Primary": false,
+				"NoBoost": true,
 			    "NoPet": true,
 			    "Priority": 3
 			},
@@ -10769,6 +10781,7 @@
 			    "Level": 120,
 			    "Output": "Constitution master cape",
 			    "Primary": false,
+				"NoBoost": true,
 			    "Priority": 3
 			},
 			"Get the full amount of healing from ~|sailfish soup|~": {
@@ -10788,6 +10801,7 @@
 				"Items": ["Max cape"],
 				"Level": 99,
 				"Primary": false,
+				"NoBoost": true,
 				"NoPet": true,
 				"Skills": {
 					"Agility": 99,
@@ -10831,6 +10845,7 @@
 				"Level": 120,
 				"Output": "Blurite keystone",
 				"Primary": false,
+				"NoBoost": true,
 				"NoPet": true,
 				"Skills": {
 					"Agility": 120,
@@ -10872,6 +10887,7 @@
 				"Items": ["Master max cape", "Blurite keystone"],
 				"Level": 120,
 				"Primary": false,
+				"NoBoost": true,
 				"NoPet": true,
 				"Skills": {
 					"Agility": 120,
@@ -15457,6 +15473,8 @@
 				"Chunks": ["Player-Owned Port"],
 				"Level": 90,
 				"Primary": false,
+				"NoBoost": true,
+				"NoPet": true,
 				"Priority": 6
 			},
 			"Build a large dinosaur pen in your ~|player-owned ranch|~": {
@@ -15510,6 +15528,7 @@
 				"Level": 90,
 				"Output": "Milestone cape (90)",
 				"Primary": false,
+				"NoBoost": true,
 				"Skills": {
 					"Agility": 90,
 					"Archaeology": 90,
@@ -15761,6 +15780,7 @@
 				"Level": 99,
 				"Output": "Construction cape",
 				"Primary": false,
+				"NoBoost": true,
 				"Priority": 4
 			},
 			"Build the tier 3 ~|command centre|~": {
@@ -15778,6 +15798,7 @@
 				"Level": 120,
 				"Output": "Construction master cape",
 				"Primary": false,
+				"NoBoost": true,
 				"Priority": 3
 			},
 			"Buy the ~|Max cape|~": {
@@ -15788,6 +15809,7 @@
 				"Items": ["Max cape"],
 				"Level": 99,
 				"Primary": false,
+				"NoBoost": true,
 				"Skills": {
 					"Agility": 99,
 					"Archaeology": 99,
@@ -15830,6 +15852,7 @@
 				"Level": 120,
 				"Output": "Blurite keystone",
 				"Primary": false,
+				"NoBoost": true,
 				"Skills": {
 					"Agility": 120,
 					"Archaeology": 120,
@@ -15870,6 +15893,7 @@
 				"Items": ["Master max cape", "Blurite keystone"],
 				"Level": 120,
 				"Primary": false,
+				"NoBoost": true,
 				"Skills": {
 					"Agility": 120,
 					"Archaeology": 120,
@@ -18604,6 +18628,8 @@
 				"Chunks": ["Player-Owned Port"],
 				"Level": 90,
 				"Primary": false,
+				"NoBoost": true,
+				"NoPet": true,
 				"Priority": 1
 			},
 			"Make ~|primal fruit pulp|~": {
@@ -18638,6 +18664,7 @@
 				"Level": 90,
 				"Output": "Milestone cape (90)",
 				"Primary": false,
+				"NoBoost": true,
 				"Skills": {
 					"Agility": 90,
 					"Archaeology": 90,
@@ -18905,6 +18932,7 @@
 				"Level": 99,
 				"Output": "Cooking cape",
 				"Primary": false,
+				"NoBoost": true,
 				"Priority": 4
 			},
 			"Buy the ~|Cooking master cape|~": {
@@ -18913,28 +18941,29 @@
 				"Level": 120,
 				"Output": "Cooking master cape",
 				"Primary": false,
+				"NoBoost": true,
 				"Priority": 3
 			},
 			"Make a ~|primal starter|~": {
-				"Items": ["Raw oculi apoterrasaur meat*", "Rainbow sweetcorn*", "Cannonball cabbage*", "Sweet potato*"],
+				"Items": ["Raw oculi apoterrasaur meat*", "Rainbow sweetcorn*", "Cannonball cabbage*", "Sweet potato*", "Extreme cooking potion[+]*"],
 				"Objects": ["Cooking range[+]"],
-				"Level": 99,
+				"Level": 115,
 				"Output": "Primal starter",
 				"Primary": true,
 				"Priority": 6
 			},
 			"Make a ~|primal main course|~": {
-				"Items": ["Raw malletops meat*", "Raw pavosaurus rew meat*", "Red onion*", "Heirloom tomato*"],
+				"Items": ["Raw malletops meat*", "Raw pavosaurus rew meat*", "Red onion*", "Heirloom tomato*", "Extreme cooking potion[+]*"],
 				"Objects": ["Cooking range[+]"],
-				"Level": 99,
+				"Level": 115,
 				"Output": "Primal main course",
 				"Primary": true,
 				"Priority": 7
 			},
 			"Make a ~|primal dessert|~": {
-				"Items": ["White strawberry*", "Golden watermelon*", "Dragonfruit*", "Mango*"],
+				"Items": ["White strawberry*", "Golden watermelon*", "Dragonfruit*", "Mango*", "Extreme cooking potion[+]*"],
 				"Objects": ["Cooking range[+]"],
-				"Level": 99,
+				"Level": 115,
 				"Output": "Primal dessert",
 				"Primary": true,
 				"Priority": 8
@@ -18951,7 +18980,7 @@
 			"Make a ~|primal feast|~": {
 				"Items": ["Primal starter*", "Primal main course*", "Primal dessert*", "Extreme cooking potion[+]*"],
 				"Objects": ["Cooking range[+]"],
-				"Level": 98,
+				"Level": 115,
 				"Output": "Primal starter",
 				"Primary": true,
 				"Priority": 1
@@ -18964,6 +18993,7 @@
 				"Items": ["Max cape"],
 				"Level": 99,
 				"Primary": false,
+				"NoBoost": true,
 				"Skills": {
 					"Agility": 99,
 					"Archaeology": 99,
@@ -19006,6 +19036,7 @@
 				"Level": 120,
 				"Output": "Blurite keystone",
 				"Primary": false,
+				"NoBoost": true,
 				"Skills": {
 					"Agility": 120,
 					"Archaeology": 120,
@@ -19046,6 +19077,7 @@
 				"Items": ["Master max cape", "Blurite keystone"],
 				"Level": 120,
 				"Primary": false,
+				"NoBoost": true,
 				"Skills": {
 					"Agility": 120,
 					"Archaeology": 120,
@@ -23756,6 +23788,7 @@
 				"Level": 99,
 				"Output": "Crafting cape",
 				"Primary": false,
+				"NoBoost": true,
 				"Priority": 7
 			},
 			"Craft a ~|Tyrannoleather body|~": {
@@ -23781,6 +23814,7 @@
 				"Level": 120,
 				"Output": "Crafting master cape",
 				"Primary": false,
+				"NoBoost": true,
 				"Priority": 3
 			},
 			"Unlock ~|Invention|~": {
@@ -23979,6 +24013,7 @@
 				"Level": 90,
 				"Output": "Milestone cape (90)",
 				"Primary": false,
+				"NoBoost": true,
 				"Skills": {
 					"Agility": 90,
 					"Archaeology": 90,
@@ -24142,6 +24177,7 @@
 				"Items": ["Max cape"],
 				"Level": 99,
 				"Primary": false,
+				"NoBoost": true,
 				"Skills": {
 					"Agility": 99,
 					"Archaeology": 99,
@@ -24184,6 +24220,7 @@
 				"Level": 120,
 				"Output": "Blurite keystone",
 				"Primary": false,
+				"NoBoost": true,
 				"Skills": {
 					"Agility": 120,
 					"Archaeology": 120,
@@ -24224,6 +24261,7 @@
 				"Items": ["Master max cape", "Blurite keystone"],
 				"Level": 120,
 				"Primary": false,
+				"NoBoost": true,
 				"Skills": {
 					"Agility": 120,
 					"Archaeology": 120,
@@ -25249,7 +25287,7 @@
 				"NoPet": true,
 				"NoBoost": true
 			},
-			"Wear a piece of ~|spirit cape|~": {
+			"Wear a  ~|spirit cape|~": {
 				"Items": ["Spirit cape"],
 				"Level": 50,
 				"Skills": {
@@ -28608,6 +28646,8 @@
 				"Chunks": ["Player-Owned Port"],
 				"Level": 90,
 				"Primary": false,
+				"NoBoost": true,
+				"NoPet": true,
 				"Priority": 10
 			},
 			"Buy the ~|Divination cape|~": {
@@ -28616,6 +28656,7 @@
 				"Level": 99,
 				"Output": "Divination cape",
 				"Primary": false,
+				"NoBoost": true,
 				"Priority": 5
 			},
 			"Buy the ~|Divination master cape|~": {
@@ -28624,6 +28665,7 @@
 				"Level": 120,
 				"Output": "Divination master cape",
 				"Primary": false,
+				"NoBoost": true,
 				"Priority": 3
 			},
 			"Unlock ~|Invention|~": {
@@ -28778,6 +28820,7 @@
 				"Level": 90,
 				"Output": "Milestone cape (90)",
 				"Primary": false,
+				"NoBoost": true,
 				"Skills": {
 					"Agility": 90,
 					"Archaeology": 90,
@@ -28824,6 +28867,7 @@
 				"Items": ["Max cape"],
 				"Level": 99,
 				"Primary": false,
+				"NoBoost": true,
 				"Skills": {
 					"Agility": 99,
 					"Archaeology": 99,
@@ -28866,6 +28910,7 @@
 				"Level": 120,
 				"Output": "Blurite keystone",
 				"Primary": false,
+				"NoBoost": true,
 				"Skills": {
 					"Agility": 120,
 					"Archaeology": 120,
@@ -28906,6 +28951,7 @@
 				"Items": ["Master max cape", "Blurite keystone"],
 				"Level": 120,
 				"Primary": false,
+				"NoBoost": true,
 				"Skills": {
 					"Agility": 120,
 					"Archaeology": 120,
@@ -29648,6 +29694,8 @@
 				"Chunks": ["Player-Owned Port"],
 				"Level": 90,
 				"Primary": false,
+				"NoBoost": true,
+				"NoPet": true,
 				"Priority": 1
 			},
 			"Enter the ~|Kal'gerion resource dungeon|~": {
@@ -29690,6 +29738,7 @@
 				"Level": 90,
 				"Output": "Milestone cape (90)",
 				"Primary": false,
+				"NoBoost": true,
 				"Skills": {
 					"Agility": 90,
 					"Archaeology": 90,
@@ -29749,6 +29798,7 @@
 				"Level": 99,
 				"Output": "Dungeoneering cape",
 				"Primary": false,
+				"NoBoost": true,
 				"Priority": 2
 			},
 			"Enter the ~|Morytania Morytania Slayer Tower dungeon|~": {
@@ -29777,6 +29827,7 @@
 				"Level": 120,
 				"Output": "Dungeoneering master cape",
 				"Primary": false,
+				"NoBoost": true,
 				"Priority": 3
 			},
 			"Buy the ~|Max cape|~": {
@@ -29787,6 +29838,7 @@
 				"Items": ["Max cape"],
 				"Level": 99,
 				"Primary": false,
+				"NoBoost": true,
 				"Skills": {
 					"Agility": 99,
 					"Archaeology": 99,
@@ -29829,6 +29881,7 @@
 				"Level": 120,
 				"Output": "Blurite keystone",
 				"Primary": false,
+				"NoBoost": true,
 				"Skills": {
 					"Agility": 120,
 					"Archaeology": 120,
@@ -29869,6 +29922,7 @@
 				"Items": ["Master max cape", "Blurite keystone"],
 				"Level": 120,
 				"Primary": false,
+				"NoBoost": true,
 				"Skills": {
 					"Agility": 120,
 					"Archaeology": 120,
@@ -33248,6 +33302,7 @@
 				"Level": 90,
 				"Output": "Milestone cape (90)",
 				"Primary": false,
+				"NoBoost": true,
 				"Skills": {
 					"Agility": 90,
 					"Archaeology": 90,
@@ -33606,6 +33661,7 @@
 				"Level": 99,
 				"Output": "Farming cape",
 				"Primary": false,
+				"NoBoost": true,
 				"Priority": 3
 			},
 			"Raise a ~|brutish dinosaur|~": {
@@ -34312,6 +34368,7 @@
 				"Level": 120,
 				"Output": "Farming master cape",
 				"Primary": false,
+				"NoBoost": true,
 				"Priority": 3
 			},
 			"Buy the ~|Max cape|~": {
@@ -34322,6 +34379,7 @@
 				"Items": ["Max cape"],
 				"Level": 99,
 				"Primary": false,
+				"NoBoost": true,
 				"Skills": {
 					"Agility": 99,
 					"Archaeology": 99,
@@ -34364,6 +34422,7 @@
 				"Level": 120,
 				"Output": "Blurite keystone",
 				"Primary": false,
+				"NoBoost": true,
 				"Skills": {
 					"Agility": 120,
 					"Archaeology": 120,
@@ -34404,6 +34463,7 @@
 				"Items": ["Master max cape", "Blurite keystone"],
 				"Level": 120,
 				"Primary": false,
+				"NoBoost": true,
 				"Skills": {
 					"Agility": 120,
 					"Archaeology": 120,
@@ -36193,6 +36253,7 @@
 				"Level": 90,
 				"Output": "Milestone cape (90)",
 				"Primary": false,
+				"NoBoost": true,
 				"Skills": {
 					"Agility": 90,
 					"Archaeology": 90,
@@ -36430,6 +36491,7 @@
 				"Level": 99,
 				"Output": "Firemaking cape",
 				"Primary": true,
+				"NoBoost": true,
 				"Priority": 5
 			},
 			"Buy the ~|Firemaking master cape|~": {
@@ -36438,6 +36500,7 @@
 				"Level": 120,
 				"Output": "Firemaking master cape",
 				"Primary": false,
+				"NoBoost": true,
 				"Priority": 3
 			},
 			"Carestyle a zygomite with ~|accidental fletching and firemaking|~": {
@@ -36478,6 +36541,7 @@
 				"Items": ["Max cape"],
 				"Level": 99,
 				"Primary": false,
+				"NoBoost": true,
 				"Skills": {
 					"Agility": 99,
 					"Archaeology": 99,
@@ -36520,6 +36584,7 @@
 				"Level": 120,
 				"Output": "Blurite keystone",
 				"Primary": false,
+				"NoBoost": true,
 				"Skills": {
 					"Agility": 120,
 					"Archaeology": 120,
@@ -36560,6 +36625,7 @@
 				"Items": ["Master max cape", "Blurite keystone"],
 				"Level": 120,
 				"Primary": false,
+				"NoBoost": true,
 				"Skills": {
 					"Agility": 120,
 					"Archaeology": 120,
@@ -37490,6 +37556,8 @@
 				"Chunks": ["Player-Owned Port"],
 				"Level": 90,
 				"Primary": false,
+				"NoBoost": true,
+				"NoPet": true,
 				"Priority": 5
 			},
 			"Catch ~|raw cave moray|~": {
@@ -37508,6 +37576,7 @@
 				"Level": 90,
 				"Output": "Milestone cape (90)",
 				"Primary": false,
+				"NoBoost": true,
 				"Skills": {
 					"Agility": 90,
 					"Archaeology": 90,
@@ -37545,6 +37614,7 @@
 				"Level": 99,
 				"Output": "Fishing cape",
 				"Primary": true,
+				"NoBoost": true,
 				"Priority": 2
 			},
 			"Buy the ~|Fishing master cape|~": {
@@ -37553,6 +37623,7 @@
 				"Level": 120,
 				"Output": "Fishing master cape",
 				"Primary": false,
+				"NoBoost": true,
 				"Priority": 3
 			},
 			"Build a ~|mounted sea bass|~": {
@@ -37596,6 +37667,7 @@
 				"Items": ["Max cape"],
 				"Level": 99,
 				"Primary": false,
+				"NoBoost": true,
 				"Skills": {
 					"Agility": 99,
 					"Archaeology": 99,
@@ -37638,6 +37710,7 @@
 				"Level": 120,
 				"Output": "Blurite keystone",
 				"Primary": false,
+				"NoBoost": true,
 				"Skills": {
 					"Agility": 120,
 					"Archaeology": 120,
@@ -37678,6 +37751,7 @@
 				"Items": ["Master max cape", "Blurite keystone"],
 				"Level": 120,
 				"Primary": false,
+				"NoBoost": true,
 				"Skills": {
 					"Agility": 120,
 					"Archaeology": 120,
@@ -39133,6 +39207,7 @@
 				"Level": 90,
 				"Output": "Milestone cape (90)",
 				"Primary": false,
+				"NoBoost": true,
 				"Skills": {
 					"Agility": 90,
 					"Archaeology": 90,
@@ -39550,6 +39625,7 @@
 				"NPCs": ["Hickton"],
 				"Level": 120,
 				"Output": "Fletching master cape",
+				"NoBoost": true,
 				"Primary": false,
 				"Priority": 3
 			},
@@ -39628,6 +39704,7 @@
 				"Items": ["Max cape"],
 				"Level": 99,
 				"Primary": false,
+				"NoBoost": true,
 				"Skills": {
 					"Agility": 99,
 					"Archaeology": 99,
@@ -39670,6 +39747,7 @@
 				"Level": 120,
 				"Output": "Blurite keystone",
 				"Primary": false,
+				"NoBoost": true,
 				"Skills": {
 					"Agility": 120,
 					"Archaeology": 120,
@@ -39710,6 +39788,7 @@
 				"Items": ["Master max cape", "Blurite keystone"],
 				"Level": 120,
 				"Primary": false,
+				"NoBoost": true,
 				"Skills": {
 					"Agility": 120,
 					"Archaeology": 120,
@@ -41876,6 +41955,8 @@
 				"Chunks": ["Player-Owned Port"],
 				"Level": 90,
 				"Primary": false,
+				"NoBoost": true,
+				"NoPet": true,
 				"Priority": 8
 			},
 			"Make a ~|Milestone cape (90)|~": {
@@ -41885,6 +41966,7 @@
 				"Level": 90,
 				"Output": "Milestone cape (90)",
 				"Primary": false,
+				"NoBoost": true,
 				"Skills": {
 					"Agility": 90,
 					"Archaeology": 90,
@@ -42247,6 +42329,7 @@
 				"Level": 99,
 				"Output": "Herblore cape",
 				"Primary": false,
+				"NoBoost": true,
 				"Priority": 5
 			},
 			"Mix a ~|strong survivalist's potion|~": {
@@ -42404,6 +42487,7 @@
 				"Level": 120,
 				"Output": "Herblore master cape",
 				"Primary": false,
+				"NoBoost": true,
 				"Priority": 3
 			},
 			"Buy the ~|Max cape|~": {
@@ -42414,6 +42498,7 @@
 				"Items": ["Max cape"],
 				"Level": 99,
 				"Primary": false,
+				"NoBoost": true,
 				"Skills": {
 					"Agility": 99,
 					"Archaeology": 99,
@@ -42456,6 +42541,7 @@
 				"Level": 120,
 				"Output": "Blurite keystone",
 				"Primary": false,
+				"NoBoost": true,
 				"Skills": {
 					"Agility": 120,
 					"Archaeology": 120,
@@ -42496,6 +42582,7 @@
 				"Items": ["Master max cape", "Blurite keystone"],
 				"Level": 120,
 				"Primary": false,
+				"NoBoost": true,
 				"Skills": {
 					"Agility": 120,
 					"Archaeology": 120,
@@ -43113,6 +43200,7 @@
 				"Items": ["Spotted cape"],
 				"Level": 40,
 				"Primary": false,
+				"NoBoost": true,
 				"Priority": 1
 			},
 			"Build the first tier of the hunter lodge in your ~|Anachronia base camp|~": {
@@ -43512,6 +43600,7 @@
 				"Items": ["Spottier cape"],
 				"Level": 66,
 				"Primary": false,
+				"NoBoost": true,
 				"Priority": 3
 			},
 			"Catch a pawya from a ~|divine box trap|~": {
@@ -44239,6 +44328,8 @@
 				"Chunks": ["Player-Owned Port"],
 				"Level": 90,
 				"Primary": false,
+				"NoBoost": true,
+				"NoPet": true,
 				"Priority": 11
 			},
 			"Build the third tier of the hunter lodge in your ~|Anachronia base camp|~": {
@@ -44293,6 +44384,7 @@
 				"Level": 90,
 				"Output": "Milestone cape (90)",
 				"Primary": false,
+				"NoBoost": true,
 				"Skills": {
 					"Agility": 90,
 					"Archaeology": 90,
@@ -44550,6 +44642,7 @@
 				"Level": 99,
 				"Output": "Hunter cape",
 				"Primary": false,
+				"NoBoost": true,
 				"Priority": 2
 			},
 			"Buy the ~|Hunter master cape|~": {
@@ -44558,6 +44651,7 @@
 				"Level": 120,
 				"Output": "Hunter master cape",
 				"Primary": false,
+				"NoBoost": true,
 				"Priority": 3
 			},
 			"Buy the ~|Max cape|~": {
@@ -44568,6 +44662,7 @@
 				"Items": ["Max cape"],
 				"Level": 99,
 				"Primary": false,
+				"NoBoost": true,
 				"Skills": {
 					"Agility": 99,
 					"Archaeology": 99,
@@ -44610,6 +44705,7 @@
 				"Level": 120,
 				"Output": "Blurite keystone",
 				"Primary": false,
+				"NoBoost": true,
 				"Skills": {
 					"Agility": 120,
 					"Archaeology": 120,
@@ -44650,6 +44746,7 @@
 				"Items": ["Master max cape", "Blurite keystone"],
 				"Level": 120,
 				"Primary": false,
+				"NoBoost": true,
 				"Skills": {
 					"Agility": 120,
 					"Archaeology": 120,
@@ -44854,12 +44951,13 @@
 				"Primary": true,
 				"Priority": 1
 			},
-			"Buy the ~|invention cape|~": {
+			"Buy the ~|Invention cape|~": {
 				"Category": ["Skillcape"],
 				"NPCs": ["Doc"],
 				"Level": 99,
 				"Output": "Invention cape",
 				"Primary": false,
+				"NoBoost": true,
 				"Priority": 2
 			},
 			"Buy the ~|Invention master cape|~": {
@@ -44868,6 +44966,7 @@
 				"Level": 120,
 				"Output": "Invention master cape",
 				"Primary": false,
+				"NoBoost": true,
 				"Priority": 3
 			},
 			"Buy the ~|Max cape|~": {
@@ -44878,6 +44977,7 @@
 				"Items": ["Max cape"],
 				"Level": 99,
 				"Primary": false,
+				"NoBoost": true,
 				"Skills": {
 					"Agility": 99,
 					"Archaeology": 99,
@@ -44919,6 +45019,7 @@
 				"Level": 120,
 				"Output": "Blurite keystone",
 				"Primary": false,
+				"NoBoost": true,
 				"Skills": {
 					"Agility": 120,
 					"Archaeology": 120,
@@ -44959,6 +45060,7 @@
 				"Items": ["Master max cape", "Blurite keystone"],
 				"Level": 120,
 				"Primary": false,
+				"NoBoost": true,
 				"Skills": {
 					"Agility": 120,
 					"Archaeology": 120,
@@ -49951,6 +50053,7 @@
 				"Level": 90,
 				"Output": "Milestone cape (90)",
 				"Primary": false,
+				"NoBoost": true,
 				"Skills": {
 					"Agility": 90,
 					"Archaeology": 90,
@@ -50016,6 +50119,7 @@
 				"Level": 99,
 				"Output": "Mining cape",
 				"Primary": true,
+				"NoBoost": true,
 				"Priority": 2
 			},
 			"Mine with a ~|primal pickaxe (Dungeoneering)|~": {
@@ -50033,6 +50137,7 @@
 				"Level": 120,
 				"Output": "Mining master cape",
 				"Primary": false,
+				"NoBoost": true,
 				"Priority": 3
 			},
 			"Buy the ~|Max cape|~": {
@@ -50043,6 +50148,7 @@
 				"Items": ["Max cape"],
 				"Level": 99,
 				"Primary": false,
+				"NoBoost": true,
 				"Skills": {
 					"Agility": 99,
 					"Archaeology": 99,
@@ -50085,6 +50191,7 @@
 				"Level": 120,
 				"Output": "Blurite keystone",
 				"Primary": false,
+				"NoBoost": true,
 				"Skills": {
 					"Agility": 120,
 					"Archaeology": 120,
@@ -50125,6 +50232,7 @@
 				"Items": ["Master max cape", "Blurite keystone"],
 				"Level": 120,
 				"Primary": false,
+				"NoBoost": true,
 				"Skills": {
 					"Agility": 120,
 					"Archaeology": 120,
@@ -56469,6 +56577,7 @@
 				"Items": ["Wicked cape"],
 				"Level": 30,
 				"Primary": false,
+				"NoBoost": true,
 				"Priority": 3
 			},
 			"Wield a ~|lesser runic staff|~": {
@@ -57133,6 +57242,7 @@
 				"Level": 99,
 				"Output": "Runecrafting cape",
 				"Primary": true,
+				"NoBoost": true,
 				"Priority": 2
 			},
 			"Imbue a ~|spiritbloom orb|~": {
@@ -57176,6 +57286,7 @@
 				"Level": 120,
 				"Output": "Runecrafting master cape",
 				"Primary": false,
+				"NoBoost": true,
 				"Priority": 3
 			},
 			"Activate the ~|Orthen teleportation device|~ at the Observation Outpost": {
@@ -57252,6 +57363,7 @@
 				"Level": 90,
 				"Output": "Milestone cape (90)",
 				"Primary": false,
+				"NoBoost": true,
 				"Skills": {
 					"Agility": 90,
 					"Archaeology": 90,
@@ -57315,6 +57427,7 @@
 				"Items": ["Max cape"],
 				"Level": 99,
 				"Primary": false,
+				"NoBoost": true,
 				"Skills": {
 					"Agility": 99,
 					"Archaeology": 99,
@@ -57367,6 +57480,7 @@
 				"Level": 120,
 				"Output": "Blurite keystone",
 				"Primary": false,
+				"NoBoost": true,
 				"Skills": {
 					"Agility": 120,
 					"Archaeology": 120,
@@ -57407,6 +57521,7 @@
 				"Items": ["Master max cape", "Blurite keystone"],
 				"Level": 120,
 				"Primary": false,
+				"NoBoost": true,
 				"Skills": {
 					"Agility": 120,
 					"Archaeology": 120,
@@ -60808,6 +60923,7 @@
 				"Level": 90,
 				"Output": "Milestone cape (90)",
 				"Primary": false,
+				"NoBoost": true,
 				"Skills": {
 					"Agility": 90,
 					"Archaeology": 90,
@@ -61276,6 +61392,7 @@
 				"Level": 99,
 				"Output": "Smithing cape",
 				"Primary": false,
+				"NoBoost": true,
 				"Priority": 22
 			},
 			"Buy the ~|Smithing master cape|~": {
@@ -61284,6 +61401,7 @@
 				"Level": 120,
 				"Output": "Smithing master cape",
 				"Primary": false,
+				"NoBoost": true,
 				"Priority": 3
 			},
 			"Restore a ~|Wingsuit v1|~": {
@@ -61380,6 +61498,7 @@
 				"Items": ["Max cape"],
 				"Level": 99,
 				"Primary": false,
+				"NoBoost": true,
 				"Skills": {
 					"Agility": 99,
 					"Archaeology": 99,
@@ -61487,6 +61606,7 @@
 				"Level": 120,
 				"Output": "Blurite keystone",
 				"Primary": false,
+				"NoBoost": true,
 				"Skills": {
 					"Agility": 120,
 					"Archaeology": 120,
@@ -61527,6 +61647,7 @@
 				"Items": ["Master max cape", "Blurite keystone"],
 				"Level": 120,
 				"Primary": false,
+				"NoBoost": true,
 				"Skills": {
 					"Agility": 120,
 					"Archaeology": 120,
@@ -65206,7 +65327,9 @@
 				"Category": ["PortSkills"],
 				"Chunks": ["Player-Owned Port"],
 				"Level": 90,
+				"NoBoost": true,
 				"Primary": false,
+				"NoPet": true,
 				"Priority": 3
 			},			
 			"Enter a tier three ~|Shifting Tombs|~": {
@@ -65270,6 +65393,7 @@
 				"Level": 90,
 				"Output": "Milestone cape (90)",
 				"Primary": false,
+				"NoBoost": true,
 				"Skills": {
 					"Agility": 90,
 					"Archaeology": 90,
@@ -65906,6 +66030,7 @@
 				"Level": 99,
 				"Output": "Thieving cape",
 				"Primary": true,
+				"NoBoost": true,
 				"Priority": 2
 			},
 			"Buy the ~|Thieving master cape|~": {
@@ -65914,6 +66039,7 @@
 				"Level": 120,
 				"Output": "Thieving master cape",
 				"Primary": false,
+				"NoBoost": true,
 				"Priority": 3
 			},
 			"Harvest a ~|winter sq'irk|~": {
@@ -66017,6 +66143,7 @@
 				"Items": ["Max cape"],
 				"Level": 99,
 				"Primary": false,
+				"NoBoost": true,
 				"Skills": {
 					"Agility": 99,
 					"Archaeology": 99,
@@ -66059,6 +66186,7 @@
 				"Level": 120,
 				"Output": "Blurite keystone",
 				"Primary": false,
+				"NoBoost": true,
 				"Skills": {
 					"Agility": 120,
 					"Archaeology": 120,
@@ -66099,6 +66227,7 @@
 				"Items": ["Master max cape", "Blurite keystone"],
 				"Level": 120,
 				"Primary": false,
+				"NoBoost": true,
 				"Skills": {
 					"Agility": 120,
 					"Archaeology": 120,
@@ -66339,6 +66468,7 @@
 				"Level": 90,
 				"Output": "Milestone cape (90)",
 				"Primary": false,
+				"NoBoost": true,
 				"Skills": {
 					"Agility": 90,
 					"Archaeology": 90,
@@ -66801,6 +66931,7 @@
 				"Level": 99,
 				"Output": "Woodcutting cape",
 				"Primary": true,
+				"NoBoost": true,
 				"Priority": 2
 			},
 			"Chop with a ~|primal hatchet (Dungeoneering)|~": {
@@ -66818,6 +66949,7 @@
 				"Level": 120,
 				"Output": "Woodcutting master cape",
 				"Primary": false,
+				"NoBoost": true,
 				"Priority": 3
 			},
 			"Buy the ~|Max cape|~": {
@@ -66828,6 +66960,7 @@
 				"Items": ["Max cape"],
 				"Level": 99,
 				"Primary": false,
+				"NoBoost": true,
 				"Skills": {
 					"Agility": 99,
 					"Archaeology": 99,
@@ -66870,6 +67003,7 @@
 				"Level": 120,
 				"Output": "Blurite keystone",
 				"Primary": false,
+				"NoBoost": true,
 				"Skills": {
 					"Agility": 120,
 					"Archaeology": 120,
@@ -66910,6 +67044,7 @@
 				"Items": ["Master max cape", "Blurite keystone"],
 				"Level": 120,
 				"Primary": false,
+				"NoBoost": true,
 				"Skills": {
 					"Agility": 120,
 					"Archaeology": 120,
@@ -115563,6 +115698,391 @@
 				"Category": ["BIS Skilling"],
 				"Label": "BIS Skilling",
 				"Items": ["Collector's insignia"],
+				"Not F2P": true
+			},
+			"Summon a ~|arctic bear|~": {
+				"Category": ["BIS Skilling Consumables", "BIS Skilling"],
+				"Label": "BIS Skilling Familiar",
+				"Items": ["Arctic bear pouch"],
+				"Priority": 1,
+				"Requirements": ["Hunter"],
+				"Set": "BIS Hunter Familiar",
+				"Not F2P": true
+			},
+			"Summon a ~|spirit larupia|~": {
+				"Category": ["BIS Skilling Consumables", "BIS Skilling"],
+				"Label": "BIS Skilling Familiar",
+				"Items": ["Spirit larupia pouch"],
+				"Priority": 2,
+				"Requirements": ["Hunter"],
+				"Set": "BIS Hunter Familiar",
+				"Not F2P": true
+			},
+			"Summon a ~|spirit kyatt|~": {
+				"Category": ["BIS Skilling Consumables", "BIS Skilling"],
+				"Label": "BIS Skilling Familiar",
+				"Items": ["Spirit kyatt pouch"],
+				"Priority": 3,
+				"Requirements": ["Hunter"],
+				"Set": "BIS Hunter Familiar",
+				"Not F2P": true
+			},
+			"Summon a ~|spirit graahk|~": {
+				"Category": ["BIS Skilling Consumables", "BIS Skilling"],
+				"Label": "BIS Skilling Familiar",
+				"Items": ["Spirit graahk pouch"],
+				"Priority": 4,
+				"Requirements": ["Hunter"],
+				"Set": "BIS Hunter Familiar",
+				"Not F2P": true
+			},
+			"Summon a ~|wolpertinger|~": {
+				"Category": ["BIS Skilling Consumables", "BIS Skilling"],
+				"Label": "BIS Skilling Familiar",
+				"Items": ["Wolpertinger pouch"],
+				"Priority": 5,
+				"Requirements": ["Hunter"],
+				"Set": "BIS Hunter Familiar",
+				"Not F2P": true
+			},
+			"Summon a ~|stranger plant|~": {
+				"Category": ["BIS Skilling Consumables", "BIS Skilling"],
+				"Label": "BIS Skilling Familiar",
+				"Items": ["Stranger plant pouch"],
+				"Priority": 1,
+				"Requirements": ["Farming"],
+				"Set": "BIS Farming Familiar",
+				"Not F2P": true
+			},
+			"Summon a ~|compost mound|~": {
+				"Category": ["BIS Skilling Consumables", "BIS Skilling"],
+				"Label": "BIS Skilling Familiar",
+				"Items": ["Compost mound pouch"],
+				"Priority": 2,
+				"Requirements": ["Farming"],
+				"Set": "BIS Farming Familiar",
+				"Not F2P": true
+			},
+			"Summon a ~|dreadfowl|~": {
+				"Category": ["BIS Skilling Consumables", "BIS Skilling"],
+				"Label": "BIS Skilling Familiar",
+				"Items": ["Dreadfowl pouch"],
+				"Priority": 3,
+				"Requirements": ["Farming"],
+				"Set": "BIS Farming Familiar",
+				"Not F2P": true
+			},
+			"Summon a ~|granite lobster|~": {
+				"Category": ["BIS Skilling Consumables", "BIS Skilling"],
+				"Label": "BIS Skilling Familiar",
+				"Items": ["Granite lobster pouch"],
+				"Priority": 1,
+				"Requirements": ["Fishing"],
+				"Set": "BIS Fishing Familiar",
+				"Not F2P": true
+			},
+			"Summon an ~|ibis|~": {
+				"Category": ["BIS Skilling Consumables", "BIS Skilling"],
+				"Label": "BIS Skilling Familiar",
+				"Items": ["Ibis pouch"],
+				"Priority": 2,
+				"Requirements": ["Fishing"],
+				"Set": "BIS Fishing Familiar",
+				"Not F2P": true
+			},
+			"Summon a ~|granite crab|~": {
+				"Category": ["BIS Skilling Consumables", "BIS Skilling"],
+				"Label": "BIS Skilling Familiar",
+				"Items": ["Granite crab pouch"],
+				"Priority": 3,
+				"Requirements": ["Farming"],
+				"Set": "BIS Farming Familiar",
+				"Not F2P": true
+			},
+			"Summon a ~|waterfiend (familiar)|~": {
+				"Category": ["BIS Skilling Consumables", "BIS Skilling"],
+				"Label": "BIS Skilling Familiar",
+				"Items": ["Binding contract (waterfiend)"],
+				"Not F2P": true
+			},
+			"Summon a ~|gargoyle (familiar)|~": {
+				"Category": ["BIS Skilling Consumables", "BIS Skilling"],
+				"Label": "BIS Skilling Familiar",
+				"Items": ["Binding contract (gargoyle)"],
+				"Priority": 1,
+				"Requirements": ["Mining"],
+				"Set": "BIS Mining Familiar",
+				"Not F2P": true
+			},
+			"Summon a ~|lava titan|~ (mining)": {
+				"Category": ["BIS Skilling Consumables", "BIS Skilling"],
+				"Label": "BIS Skilling Familiar",
+				"Items": ["Lava titan pouch"],
+				"Priority": 2,
+				"Requirements": ["Mining"],
+				"Set": "BIS Mining Familiar",
+				"Not F2P": true
+			},
+			"Summon a ~|obsidian golem|~": {
+				"Category": ["BIS Skilling Consumables", "BIS Skilling"],
+				"Label": "BIS Skilling Familiar",
+				"Items": ["Obsidian golem pouch"],
+				"Priority": 3,
+				"Requirements": ["Mining"],
+				"Set": "BIS Mining Familiar",
+				"Not F2P": true
+			},
+			"Summon a ~|void ravager|~": {
+				"Category": ["BIS Skilling Consumables", "BIS Skilling"],
+				"Label": "BIS Skilling Familiar",
+				"Items": ["Void ravager pouch"],
+				"Priority": 4,
+				"Requirements": ["Mining"],
+				"Set": "BIS Mining Familiar",
+				"Not F2P": true
+			},
+			"Summon a ~|desert wyrm|~": {
+				"Category": ["BIS Skilling Consumables", "BIS Skilling"],
+				"Label": "BIS Skilling Familiar",
+				"Items": ["Desert wyrm pouch"],
+				"Priority": 5,
+				"Requirements": ["Mining"],
+				"Set": "BIS Mining Familiar",
+				"Not F2P": true
+			},
+			"Summon a ~|beaver|~": {
+				"Category": ["BIS Skilling Consumables", "BIS Skilling"],
+				"Label": "BIS Skilling Familiar",
+				"Items": ["Beaver pouch"],
+				"Not F2P": true
+			},
+			"Summon a ~|reborn phoenix|~": {
+				"Category": ["BIS Skilling Consumables", "BIS Skilling"],
+				"Label": "BIS Skilling Familiar",
+				"Items": ["Reborn phoenix pouch"],
+				"Priority": 1,
+				"Requirements": ["Firemaking"],
+				"Set": "BIS Firemaking Familiar",
+				"Not F2P": true
+			},
+			"Summon a ~|lava titan|~ (firemaking)": {
+				"Category": ["BIS Skilling Consumables", "BIS Skilling"],
+				"Label": "BIS Skilling Familiar",
+				"Items": ["Lava titan pouch"],
+				"Priority": 2,
+				"Requirements": ["Firemaking"],
+				"Set": "BIS Firemaking Familiar",
+				"Not F2P": true
+			},
+			"Summon a ~|phoenix (familiar)|~": {
+				"Category": ["BIS Skilling Consumables", "BIS Skilling"],
+				"Label": "BIS Skilling Familiar",
+				"Items": ["Phoenix pouch"],
+				"Priority": 3,
+				"Requirements": ["Firemaking"],
+				"Set": "BIS Firemaking Familiar",
+				"Not F2P": true
+			},
+			"Summon a ~|forge regent|~": {
+				"Category": ["BIS Skilling Consumables", "BIS Skilling"],
+				"Label": "BIS Skilling Familiar",
+				"Items": ["Forge regent pouch"],
+				"Priority": 4,
+				"Requirements": ["Firemaking"],
+				"Set": "BIS Firemaking Familiar",
+				"Not F2P": true
+			},
+			"Summon a ~|pyrelord|~": {
+				"Category": ["BIS Skilling Consumables", "BIS Skilling"],
+				"Label": "BIS Skilling Familiar",
+				"Items": ["Pyrelord pouch"],
+				"Priority": 5,
+				"Requirements": ["Firemaking"],
+				"Set": "BIS Firemaking Familiar",
+				"Not F2P": true
+			},
+			"Summon a ~|magpie|~": {
+				"Category": ["BIS Skilling Consumables", "BIS Skilling"],
+				"Label": "BIS Skilling Familiar",
+				"Items": ["Magpie pouch"],
+				"Priority": 1,
+				"Requirements": ["Thieving"],
+				"Set": "BIS Thieving Familiar",
+				"Not F2P": true
+			},
+			"Summon an ~|abyssal titan|~": {
+				"Category": ["BIS Skilling Consumables", "BIS Skilling"],
+				"Label": "BIS Skilling Familiar",
+				"Items": ["Abyssal titan pouch"],
+				"Priority": 1,
+				"Requirements": ["Runecrafting"],
+				"Set": "BIS Runecrafting Familiar",
+				"Not F2P": true
+			},
+			"Summon an ~|abyssal lurker|~": {
+				"Category": ["BIS Skilling Consumables", "BIS Skilling"],
+				"Label": "BIS Skilling Familiar",
+				"Items": ["Abyssal lurker pouch"],
+				"Priority": 2,
+				"Requirements": ["Runecrafting"],
+				"Set": "BIS Runecrafting Familiar",
+				"Not F2P": true
+			},
+			"Summon an ~|abyssal parasite|~": {
+				"Category": ["BIS Skilling Consumables", "BIS Skilling"],
+				"Label": "BIS Skilling Familiar",
+				"Items": ["Abyssal parasite pouch"],
+				"Priority": 3,
+				"Requirements": ["Runecrafting"],
+				"Set": "BIS Runecrafting Familiar",
+				"Not F2P": true
+			},
+			"Summon a ~|nightmare muspah|~": {
+				"Category": ["BIS Skilling Consumables", "BIS Skilling"],
+				"Label": "BIS Skilling Familiar",
+				"Items": ["Nightmare muspah pouch"],
+				"Requirements": ["Divination"],
+				"Not F2P": true
+			},
+			"Summon a ~|light creature (familiar)|~": {
+				"Category": ["BIS Skilling Consumables", "BIS Skilling"],
+				"Label": "BIS Skilling Familiar",
+				"Items": ["Light creature pouch"],
+				"Requirements": ["Divination"],
+				"Not F2P": true
+			},
+			"Unlock the ~|Pouch Protector|~ relic power": {
+				"Category": ["BIS Skilling Relics", "BIS Skilling"],
+				"Label": "BIS Skilling Relic",
+				"Items": ["Threads of Fate"],
+				"Not F2P": true
+			},
+			"Unlock the ~|Nexus Mod|~ relic power": {
+				"Category": ["BIS Skilling Relics", "BIS Skilling"],
+				"Label": "BIS Skilling Relic",
+				"Items": ["Abyssal Gatestone"],
+				"Not F2P": true
+			},
+			"Unlock the ~|Pharm Ecology|~ relic power": {
+				"Category": ["BIS Skilling Relics", "BIS Skilling"],
+				"Label": "BIS Skilling Relic",
+				"Items": ["Queen Mab's Moonstone"],
+				"Not F2P": true
+			},
+			"Unlock the ~|Always Adze|~ relic power": {
+				"Category": ["BIS Skilling Relics", "BIS Skilling"],
+				"Label": "BIS Skilling Relic",
+				"Items": ["Seed of the Charyou Tree"],
+				"Not F2P": true
+			},
+			"Unlock the ~|Sticky Fingers|~ relic power": {
+				"Category": ["BIS Skilling Relics", "BIS Skilling"],
+				"Label": "BIS Skilling Relic",
+				"Items": ["Andvaranaut"],
+				"Not F2P": true
+			},
+			"Unlock the ~|Deathless|~ relic power": {
+				"Category": ["BIS Skilling Relics", "BIS Skilling"],
+				"Label": "BIS Skilling Relic",
+				"Items": ["Koschei's Death Egg"],
+				"Not F2P": true
+			},
+			"Unlock the ~|Divine Conversion|~ relic power": {
+				"Category": ["BIS Skilling Relics", "BIS Skilling"],
+				"Label": "BIS Skilling Relic",
+				"Items": ["Cres Framework"],
+				"Not F2P": true
+			},
+			"Unlock the ~|Bait and Switch|~ relic power": {
+				"Category": ["BIS Skilling Relics", "BIS Skilling"],
+				"Label": "BIS Skilling Relic",
+				"Items": ["Evil Bob's Catspaw"],
+				"Not F2P": true
+			},
+			"Unlock the ~|Flow State|~ relic power": {
+				"Category": ["BIS Skilling Relics", "BIS Skilling"],
+				"Label": "BIS Skilling Relic",
+				"Items": ["Soma"],
+				"Not F2P": true
+			},
+			"Unlock the ~|Spirit Weaver|~ relic power": {
+				"Category": ["BIS Skilling Relics", "BIS Skilling"],
+				"Label": "BIS Skilling Relic",
+				"Items": ["Pastkeeper's tapestry"],
+				"Not F2P": true
+			},
+			"Unlock the ~|Inspire Love|~ relic power": {
+				"Category": ["BIS Skilling Relics", "BIS Skilling"],
+				"Label": "BIS Skilling Relic",
+				"Items": ["Ariadne's Diadem"],
+				"Not F2P": true
+			},
+			"Unlock the ~|Inspire Effort|~ relic power": {
+				"Category": ["BIS Skilling Relics", "BIS Skilling"],
+				"Label": "BIS Skilling Relic",
+				"Items": ["Petasos"],
+				"Not F2P": true
+			},
+			"Unlock the ~|Inspire Genius|~ relic power": {
+				"Category": ["BIS Skilling Relics", "BIS Skilling"],
+				"Label": "BIS Skilling Relic",
+				"Items": ["Howl's Thinking Cap"],
+				"Not F2P": true
+			},
+			"Obtain a ~|superior log-splitting scrimshaw|~": {
+				"Category": ["BIS Skilling Consumables", "BIS Skilling"],
+				"Label": "BIS Skilling Scrimshaw",
+				"Items": ["Superior log-splitting scrimshaw"],
+				"Requirements": ["Woodcutting"],
+				"Not F2P": true
+			},
+			"Obtain a ~|superior tree-shaking scrimshaw|~": {
+				"Category": ["BIS Skilling Consumables", "BIS Skilling"],
+				"Label": "BIS Skilling Scrimshaw",
+				"Items": ["Superior tree-shaking scrimshaw"],
+				"Requirements": ["Woodcutting"],
+				"Not F2P": true
+			},
+			"Obtain a ~|superior rock-crushing scrimshaw|~": {
+				"Category": ["BIS Skilling Consumables", "BIS Skilling"],
+				"Label": "BIS Skilling Scrimshaw",
+				"Items": ["Superior rock-crushing scrimshaw"],
+				"Requirements": ["Mining"],
+				"Not F2P": true
+			},
+			"Obtain a ~|superior gem-finding scrimshaw|~": {
+				"Category": ["BIS Skilling Consumables", "BIS Skilling"],
+				"Label": "BIS Skilling Scrimshaw",
+				"Items": ["Superior gem-finding scrimshaw"],
+				"Requirements": ["Mining"],
+				"Not F2P": true
+			},
+			"Obtain a ~|superior whopper-baiting scrimshaw|~": {
+				"Category": ["BIS Skilling Consumables", "BIS Skilling"],
+				"Label": "BIS Skilling Scrimshaw",
+				"Items": ["Superior whopper-baiting scrimshaw"],
+				"Requirements": ["Fishing"],
+				"Not F2P": true
+			},
+			"Obtain a ~|superior casket-salvaging scrimshaw|~": {
+				"Category": ["BIS Skilling Consumables", "BIS Skilling"],
+				"Label": "BIS Skilling Scrimshaw",
+				"Items": ["Superior casket-salvaging scrimshaw"],
+				"Requirements": ["Fishing"],
+				"Not F2P": true
+			},
+			"Obtain a ~|superior memory-crushing scrimshaw|~": {
+				"Category": ["BIS Skilling Consumables", "BIS Skilling"],
+				"Label": "BIS Skilling Scrimshaw",
+				"Items": ["Superior memory-crushing scrimshaw"],
+				"Requirements": ["Divination"],
+				"Not F2P": true
+			},
+			"Obtain a ~|superior energy-gathering scrimshaw|~": {
+				"Category": ["BIS Skilling Consumables", "BIS Skilling"],
+				"Label": "BIS Skilling Scrimshaw",
+				"Items": ["Superior energy-gathering scrimshaw"],
+				"Requirements": ["Divination"],
 				"Not F2P": true
 			}
 		},
