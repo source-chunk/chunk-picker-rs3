@@ -177,6 +177,9 @@
 				"Objects": ["Fishing spot (barbarian)"],
 				"Primary": true,
 				"Output": "Leaping trout",
+				"Tasks": {
+					"~|Barbarian Training|~ 2b3": "Quest"
+				},
 				"Skills": {
 					"Fishing": 48,
 					"Strength": 15
@@ -190,6 +193,9 @@
 				"Objects": ["Fishing spot (barbarian)"],
 				"Primary": true,
 				"Output": "Leaping salmon",
+				"Tasks": {
+					"~|Barbarian Training|~ 2b3": "Quest"
+				},
 				"Skills": {
 					"Fishing": 58,
 					"Strength": 30
@@ -542,6 +548,9 @@
 				"Objects": ["Fishing spot (barbarian)"],
 				"Primary": true,
 				"Output": "Leaping sturgeon",
+				"Tasks": {
+					"~|Barbarian Training|~ 2b3": "Quest"
+				},
 				"Skills": {
 					"Fishing": 70,
 					"Strength": 45
@@ -16376,6 +16385,9 @@
 				"Items": ["LeapingFish[+]*"],
 				"Level": 1,
 				"Output": "Roe",
+				"Tasks": {
+					"~|Barbarian Training|~ 2b3": "Quest"
+				},
 				"Primary": true,
 				"Priority": 61
 			},
@@ -16383,6 +16395,9 @@
 				"Items": ["Leaping sturgeon*"],
 				"Level": 1,
 				"Output": "Caviar",
+				"Tasks": {
+					"~|Barbarian Training|~ 2b3": "Quest"
+				},
 				"Primary": true,
 				"Priority": 62
 			},
@@ -19298,6 +19313,9 @@
 				"Skills": {
 					"Firemaking": 85
 				},
+				"Tasks": {
+					"~|Barbarian Training|~ 2a5": "Quest"
+				},
 				"Primary": true,
 				"Priority": 22
 			},
@@ -19307,6 +19325,9 @@
 				"Level": 85,
 				"Skills": {
 					"Firemaking": 85
+				},
+				"Tasks": {
+					"~|Barbarian Training|~ 2a5": "Quest"
 				},
 				"Output": "PyreChew",
 				"Primary": true,
@@ -19886,6 +19907,9 @@
 				"Skills": {
 					"Firemaking": 25
 				},
+				"Tasks": {
+					"~|Barbarian Training|~ 2a5": "Quest"
+				},
 				"Primary": true,
 				"Priority": 8
 			},
@@ -19895,6 +19919,9 @@
 				"Level": 25,
 				"Skills": {
 					"Firemaking": 25
+				},
+				"Tasks": {
+					"~|Barbarian Training|~ 2a5": "Quest"
 				},
 				"Output": "PyreChew",
 				"Primary": true,
@@ -20131,6 +20158,9 @@
 				"Skills": {
 					"Firemaking": 45
 				},
+				"Tasks": {
+					"~|Barbarian Training|~ 2a5": "Quest"
+				},
 				"Primary": true,
 				"Priority": 6
 			},
@@ -20140,6 +20170,9 @@
 				"Level": 45,
 				"Skills": {
 					"Firemaking": 45
+				},
+				"Tasks": {
+					"~|Barbarian Training|~ 2a5": "Quest"
 				},
 				"Output": "PyreChew",
 				"Primary": true,
@@ -21092,6 +21125,9 @@
 				"Skills": {
 					"Firemaking": 55
 				},
+				"Tasks": {
+					"~|Barbarian Training|~ 2a5": "Quest"
+				},
 				"Primary": true,
 				"Priority": 6
 			},
@@ -21101,6 +21137,9 @@
 				"Level": 55,
 				"Skills": {
 					"Firemaking": 55
+				},
+				"Tasks": {
+					"~|Barbarian Training|~ 2a5": "Quest"
 				},
 				"Output": "PyreChew",
 				"Primary": true,
@@ -23492,6 +23531,9 @@
 				"Skills": {
 					"Firemaking": 11
 				},
+				"Tasks": {
+					"~|Barbarian Training|~ 2a5": "Quest"
+				},
 				"Primary": true,
 				"Priority": 3
 			},
@@ -23500,6 +23542,9 @@
 				"Level": 11,
 				"Skills": {
 					"Firemaking": 11
+				},
+				"Tasks": {
+					"~|Barbarian Training|~ 2a5": "Quest"
 				},
 				"Primary": true,
 				"Priority": 4
@@ -23510,6 +23555,9 @@
 				"Skills": {
 					"Firemaking": 40
 				},
+				"Tasks": {
+					"~|Barbarian Training|~ 2a5": "Quest"
+				},
 				"Primary": true,
 				"Priority": 4
 			},
@@ -23518,6 +23566,9 @@
 				"Level": 52,
 				"Skills": {
 					"Firemaking": 52
+				},
+				"Tasks": {
+					"~|Barbarian Training|~ 2a5": "Quest"
 				},
 				"Primary": true,
 				"Priority": 3
@@ -23528,6 +23579,9 @@
 				"Skills": {
 					"Firemaking": 60
 				},
+				"Tasks": {
+					"~|Barbarian Training|~ 2a5": "Quest"
+				},
 				"Primary": true,
 				"Priority": 9
 			},
@@ -23536,6 +23590,9 @@
 				"Level": 68,
 				"Skills": {
 					"Firemaking": 68
+				},
+				"Tasks": {
+					"~|Barbarian Training|~ 2a5": "Quest"
 				},
 				"Primary": true,
 				"Priority": 2
@@ -23546,6 +23603,9 @@
 				"Skills": {
 					"Firemaking": 70
 				},
+				"Tasks": {
+					"~|Barbarian Training|~ 2a5": "Quest"
+				},
 				"Primary": true,
 				"Priority": 3
 			},
@@ -23554,6 +23614,9 @@
 				"Level": 99,
 				"Skills": {
 					"Firemaking": 99
+				},
+				"Tasks": {
+					"~|Barbarian Training|~ 2a5": "Quest"
 				},
 				"Primary": true,
 				"Priority": 5
@@ -23564,6 +23627,9 @@
 				"Level": 11,
 				"Skills": {
 					"Firemaking": 11
+				},
+				"Tasks": {
+					"~|Barbarian Training|~ 2a5": "Quest"
 				},
 				"Output": "PyreChew",
 				"Primary": true,
@@ -23576,6 +23642,9 @@
 				"Skills": {
 					"Firemaking": 11
 				},
+				"Tasks": {
+					"~|Barbarian Training|~ 2a5": "Quest"
+				},
 				"Output": "PyreChew",
 				"Primary": true,
 				"Priority": 6
@@ -23586,6 +23655,9 @@
 				"Level": 40,
 				"Skills": {
 					"Firemaking": 40
+				},
+				"Tasks": {
+					"~|Barbarian Training|~ 2a5": "Quest"
 				},
 				"Output": "PyreChew",
 				"Primary": true,
@@ -23598,6 +23670,9 @@
 				"Skills": {
 					"Firemaking": 52
 				},
+				"Tasks": {
+					"~|Barbarian Training|~ 2a5": "Quest"
+				},
 				"Output": "PyreChew",
 				"Primary": true,
 				"Priority": 4
@@ -23608,6 +23683,9 @@
 				"Level": 60,
 				"Skills": {
 					"Firemaking": 60
+				},
+				"Tasks": {
+					"~|Barbarian Training|~ 2a5": "Quest"
 				},
 				"Output": "PyreChew",
 				"Primary": true,
@@ -23620,6 +23698,9 @@
 				"Skills": {
 					"firemaking": 68
 				},
+				"Tasks": {
+					"~|Barbarian Training|~ 2a5": "Quest"
+				},
 				"Output": "PyreChew",
 				"Primary": true,
 				"Priority": 3
@@ -23631,6 +23712,9 @@
 				"Skills": {
 					"Firemaking": 70
 				},
+				"Tasks": {
+					"~|Barbarian Training|~ 2a5": "Quest"
+				},
 				"Output": "PyreChew",
 				"Primary": true,
 				"Priority": 4
@@ -23641,6 +23725,9 @@
 				"Level": 99,
 				"Skills": {
 					"Firemaking": 99
+				},
+				"Tasks": {
+					"~|Barbarian Training|~ 2a5": "Quest"
 				},
 				"Output": "PyreChew",
 				"Primary": true,
@@ -34503,6 +34590,9 @@
 				"Skills": {
 					"Crafting": 11
 				},
+				"Tasks": {
+					"~|Barbarian Training|~ 2a5": "Quest"
+				},
 				"Primary": true,
 				"Priority": 1
 			},
@@ -34511,6 +34601,9 @@
 				"Level": 11,
 				"Skills": {
 					"Crafting": 11
+				},
+				"Tasks": {
+					"~|Barbarian Training|~ 2a5": "Quest"
 				},
 				"Primary": true,
 				"Priority": 2
@@ -34521,6 +34614,9 @@
 				"Skills": {
 					"Crafting": 11
 				},
+				"Tasks": {
+					"~|Barbarian Training|~ 2a5": "Quest"
+				},
 				"Output": "PyreChew",
 				"Primary": true,
 				"Priority": 3
@@ -34530,6 +34626,9 @@
 				"Level": 11,
 				"Skills": {
 					"Crafting": 11
+				},
+				"Tasks": {
+					"~|Barbarian Training|~ 2a5": "Quest"
 				},
 				"Output": "PyreChew",
 				"Primary": true,
@@ -34669,7 +34768,9 @@
 				"Level": 21,
 				"Output": "Ashes",
 				"Output Object": "Player fire",
-				"NPCs": ["Otto Godblessed"],
+				"Tasks": {
+					"~|Barbarian Training|~ 2a2": "Quest"
+				},
 				"Primary": true,
 				"Priority": 1
 			},
@@ -34678,7 +34779,9 @@
 				"Items": ["Achey tree logs*", "FiremakingBow[+]"],
 				"Level": 21,
 				"Output": "Ashes",
-				"NPCs": ["Otto Godblessed"],
+				"Tasks": {
+					"~|Barbarian Training|~ 2a2": "Quest"
+				},
 				"Primary": true,
 				"Priority": 2
 			},
@@ -34695,6 +34798,9 @@
 				"Skills": {
 					"Crafting": 25
 				},
+				"Tasks": {
+					"~|Barbarian Training|~ 2a5": "Quest"
+				},
 				"Primary": true,
 				"Priority": 2
 			},
@@ -34703,6 +34809,9 @@
 				"Level": 25,
 				"Skills": {
 					"Crafting": 25
+				},
+				"Tasks": {
+					"~|Barbarian Training|~ 2a5": "Quest"
 				},
 				"Output": "PyreChew",
 				"Primary": true,
@@ -34839,7 +34948,9 @@
 				"Items": ["Oak logs*", "FiremakingBow[+]"],
 				"Level": 35,
 				"Output": "Ashes",
-				"NPCs": ["Otto Godblessed"],
+				"Tasks": {
+					"~|Barbarian Training|~ 2a2": "Quest"
+				},
 				"Primary": true,
 				"Priority": 7
 			},
@@ -34907,6 +35018,9 @@
 				"Skills": {
 					"Crafting": 40
 				},
+				"Tasks": {
+					"~|Barbarian Training|~ 2a5": "Quest"
+				},
 				"Primary": true,
 				"Priority": 6
 			},
@@ -34915,6 +35029,9 @@
 				"Level": 40,
 				"Skills": {
 					"Crafting": 40
+				},
+				"Tasks": {
+					"~|Barbarian Training|~ 2a5": "Quest"
 				},
 				"Output": "PyreChew",
 				"Primary": true,
@@ -35020,6 +35137,9 @@
 				"Skills": {
 					"Crafting": 45
 				},
+				"Tasks": {
+					"~|Barbarian Training|~ 2a5": "Quest"
+				},
 				"Primary": true,
 				"Priority": 4
 			},
@@ -35028,6 +35148,9 @@
 				"Level": 45,
 				"Skills": {
 					"Crafting": 45
+				},
+				"Tasks": {
+					"~|Barbarian Training|~ 2a5": "Quest"
 				},
 				"Output": "PyreChew",
 				"Primary": true,
@@ -35229,7 +35352,9 @@
 				"Items": ["Willow logs*", "FiremakingBow[+]"],
 				"Level": 50,
 				"Output": "Ashes",
-				"NPCs": ["Otto Godblessed"],
+				"Tasks": {
+					"~|Barbarian Training|~ 2a2": "Quest"
+				},
 				"Primary": true,
 				"Priority": 8
 			},
@@ -35254,6 +35379,9 @@
 				"Skills": {
 					"Crafting": 52
 				},
+				"Tasks": {
+					"~|Barbarian Training|~ 2a5": "Quest"
+				},
 				"Primary": true,
 				"Priority": 2
 			},
@@ -35262,6 +35390,9 @@
 				"Level": 52,
 				"Skills": {
 					"Crafting": 52
+				},
+				"Tasks": {
+					"~|Barbarian Training|~ 2a5": "Quest"
 				},
 				"Output": "PyreChew",
 				"Primary": true,
@@ -35339,7 +35470,9 @@
 				"Items": ["Teak logs*", "FiremakingBow[+]"],
 				"Level": 55,
 				"Output": "Ashes",
-				"NPCs": ["Otto Godblessed"],
+				"Tasks": {
+					"~|Barbarian Training|~ 2a2": "Quest"
+				},
 				"Primary": true,
 				"Priority": 6
 			},
@@ -35349,6 +35482,9 @@
 				"Skills": {
 					"Crafting": 55
 				},
+				"Tasks": {
+					"~|Barbarian Training|~ 2a5": "Quest"
+				},
 				"Primary": true,
 				"Priority": 7
 			},
@@ -35357,6 +35493,9 @@
 				"Level": 55,
 				"Skills": {
 					"Crafting": 55
+				},
+				"Tasks": {
+					"~|Barbarian Training|~ 2a5": "Quest"
 				},
 				"Output": "PyreChew",
 				"Primary": true,
@@ -35427,6 +35566,9 @@
 				"Skills": {
 					"Crafting": 60
 				},
+				"Tasks": {
+					"~|Barbarian Training|~ 2a5": "Quest"
+				},
 				"Primary": true,
 				"Priority": 4
 			},
@@ -35435,6 +35577,9 @@
 				"Level": 60,
 				"Skills": {
 					"Crafting": 60
+				},
+				"Tasks": {
+					"~|Barbarian Training|~ 2a5": "Quest"
 				},
 				"Output": "PyreChew",
 				"Primary": true,
@@ -35461,7 +35606,9 @@
 				"Items": ["Arctic pine logs*", "FiremakingBow[+]"],
 				"Level": 62,
 				"Output": "Ashes",
-				"NPCs": ["Otto Godblessed"],
+				"Tasks": {
+					"~|Barbarian Training|~ 2a2": "Quest"
+				},
 				"Primary": true,
 				"Priority": 1
 			},
@@ -35640,7 +35787,9 @@
 				"Items": ["Maple logs*", "FiremakingBow[+]"],
 				"Level": 65,
 				"Output": "Ashes",
-				"NPCs": ["Otto Godblessed"],
+				"Tasks": {
+					"~|Barbarian Training|~ 2a2": "Quest"
+				},
 				"Primary": true,
 				"Priority": 11
 			},
@@ -35657,6 +35806,9 @@
 				"Skills": {
 					"Crafting": 68
 				},
+				"Tasks": {
+					"~|Barbarian Training|~ 2a5": "Quest"
+				},
 				"Primary": true,
 				"Priority": 1
 			},
@@ -35665,6 +35817,9 @@
 				"Level": 68,
 				"Skills": {
 					"Crafting": 68
+				},
+				"Tasks": {
+					"~|Barbarian Training|~ 2a5": "Quest"
 				},
 				"Output": "PyreChew",
 				"Primary": true,
@@ -35687,7 +35842,9 @@
 				"Items": ["Mahogany logs*", "FiremakingBow[+]"],
 				"Level": 70,
 				"Output": "Ashes",
-				"NPCs": ["Otto Godblessed"],
+				"Tasks": {
+					"~|Barbarian Training|~ 2a2": "Quest"
+				},
 				"Primary": true,
 				"Priority": 1
 			},
@@ -35697,6 +35854,9 @@
 				"Skills": {
 					"Crafting": 70
 				},
+				"Tasks": {
+					"~|Barbarian Training|~ 2a5": "Quest"
+				},
 				"Primary": true,
 				"Priority": 2
 			},
@@ -35705,6 +35865,9 @@
 				"Level": 70,
 				"Skills": {
 					"Crafting": 70
+				},
+				"Tasks": {
+					"~|Barbarian Training|~ 2a5": "Quest"
 				},
 				"Output": "PyreChew",
 				"Primary": true,
@@ -35813,7 +35976,9 @@
 				"Items": ["Eucalyptus logs*", "FiremakingBow[+]"],
 				"Level": 78,
 				"Output": "Ashes",
-				"NPCs": ["Otto Godblessed"],
+				"Tasks": {
+					"~|Barbarian Training|~ 2a2": "Quest"
+				},
 				"Primary": true,
 				"Priority": 1
 			},
@@ -35910,7 +36075,9 @@
 				"Items": ["Yew logs*", "FiremakingBow[+]"],
 				"Level": 80,
 				"Output": "Ashes",
-				"NPCs": ["Otto Godblessed"],
+				"Tasks": {
+					"~|Barbarian Training|~ 2a2": "Quest"
+				},
 				"Primary": true,
 				"Priority": 8
 			},
@@ -35950,6 +36117,9 @@
 				"Skills": {
 					"Crafting": 85
 				},
+				"Tasks": {
+					"~|Barbarian Training|~ 2a5": "Quest"
+				},
 				"Primary": true,
 				"Priority": 1
 			},
@@ -35958,6 +36128,9 @@
 				"Level": 85,
 				"Skills": {
 					"Crafting": 85
+				},
+				"Tasks": {
+					"~|Barbarian Training|~ 2a5": "Quest"
 				},
 				"Output": "PyreChew",
 				"Primary": true,
@@ -36186,7 +36359,9 @@
 				"Items": ["Magic logs*", "FiremakingBow[+]"],
 				"Level": 95,
 				"Output": "Ashes",
-				"NPCs": ["Otto Godblessed"],
+				"Tasks": {
+					"~|Barbarian Training|~ 2a2": "Quest"
+				},
 				"Primary": true,
 				"Priority": 9
 			},
@@ -36220,6 +36395,9 @@
 				"Skills": {
 					"Crafting": 99
 				},
+				"Tasks": {
+					"~|Barbarian Training|~ 2a5": "Quest"
+				},
 				"Primary": true,
 				"Priority": 2
 			},
@@ -36229,6 +36407,9 @@
 				"Skills": {
 					"Crafting": 99
 				},
+				"Tasks": {
+					"~|Barbarian Training|~ 2a5": "Quest"
+				},
 				"Output": "PyreChew",
 				"Primary": true,
 				"Priority": 3
@@ -36237,7 +36418,9 @@
 				"Items": ["Elder logs*", "FiremakingBow[+]"],
 				"Level": 99,
 				"Output": "Ashes",
-				"NPCs": ["Otto Godblessed"],
+				"Tasks": {
+					"~|Barbarian Training|~ 2a2": "Quest"
+				},
 				"Primary": true,
 				"Priority": 4
 			},
@@ -36414,6 +36597,9 @@
 				"Items": ["Barbarian bait[+]*"],
 				"Level": 48,
 				"Objects": ["Fishing spot (barbarian)"],
+				"Tasks": {
+					"~|Barbarian Training|~ 2b3": "Quest"
+				},
 				"Primary": true,
 				"Output": "Leaping trout",
 				"Skills": {
@@ -36426,6 +36612,9 @@
 				"Items": ["Barbarian bait[+]*"],
 				"Level": 48,
 				"Objects": ["Fishing spot (barbarian)"],
+				"Tasks": {
+					"~|Barbarian Training|~ 2b3": "Quest"
+				},
 				"Primary": true,
 				"Output": "Golden leaping trout eggs",
 				"Skills": {
@@ -36438,6 +36627,9 @@
 				"Items": ["Barbarian bait[+]*"],
 				"Level": 58,
 				"Objects": ["Fishing spot (barbarian)"],
+				"Tasks": {
+					"~|Barbarian Training|~ 2b3": "Quest"
+				},
 				"Primary": true,
 				"Output": "Leaping salmon",
 				"Skills": {
@@ -36450,6 +36642,9 @@
 				"Items": ["Barbarian bait[+]*"],
 				"Level": 58,
 				"Objects": ["Fishing spot (barbarian)"],
+				"Tasks": {
+					"~|Barbarian Training|~ 2b3": "Quest"
+				},
 				"Primary": true,
 				"Output": "Golden leaping salmon eggs",
 				"Skills": {
@@ -36462,6 +36657,9 @@
 				"Items": ["Barbarian bait[+]*"],
 				"Level": 70,
 				"Objects": ["Fishing spot (barbarian)"],
+				"Tasks": {
+					"~|Barbarian Training|~ 2b3": "Quest"
+				},
 				"Primary": true,
 				"Output": "Leaping sturgeon",
 				"Skills": {
@@ -36474,6 +36672,9 @@
 				"Items": ["Barbarian bait[+]*"],
 				"Level": 70,
 				"Objects": ["Fishing spot (barbarian)"],
+				"Tasks": {
+					"~|Barbarian Training|~ 2b3": "Quest"
+				},
 				"Primary": true,
 				"Output": "Golden leaping sturgeon eggs",
 				"Skills": {
@@ -39753,8 +39954,10 @@
 			},
 			"Mix an ~|attack mix|~": {
 				"Items": ["AttackPotion[+]*", "Roe*"],
-				"NPCs": ["Otto Godblessed"],
 				"Level": 4,
+				"Tasks": {
+					"~|Barbarian Training|~ 2b4b3": "Quest"
+				},
 				"Output": "Attack mix (2)",
 				"Primary": true,
 				"Priority": 1
@@ -39790,7 +39993,9 @@
 			},
 			"Mix a ~|ranging mix|~": {
 				"Items": ["RangingPotion[+]*", "Roe*"],
-				"NPCs": ["Otto Godblessed"],
+				"Tasks": {
+					"~|Barbarian Training|~ 2b4b3": "Quest"
+				},
 				"Level": 5,
 				"Output": "Ranging mix (2)",
 				"Primary": true,
@@ -39819,7 +40024,9 @@
 			},
 			"Mix a ~|magic mix|~": {
 				"Items": ["MagicPotion[+]*", "Roe*"],
-				"NPCs": ["Otto Godblessed"],
+				"Tasks": {
+					"~|Barbarian Training|~ 2b4b3": "Quest"
+				},
 				"Level": 7,
 				"Output": "Magic mix (2)",
 				"Primary": true,
@@ -39863,7 +40070,9 @@
 			},
 			"Mix ~|Relicym's mix|~": {
 				"Items": ["RelicymBalm[+]*", "Roe*"],
-				"NPCs": ["Otto Godblessed"],
+				"Tasks": {
+					"~|Barbarian Training|~ 2b4b3": "Quest"
+				},
 				"Level": 9,
 				"Output": "Relicym's mix (2)",
 				"Primary": true,
@@ -39871,7 +40080,9 @@
 			},
 			"Mix a ~|strength mix|~": {
 				"Items": ["StrengthPotion[+]*", "Roe*"],
-				"NPCs": ["Otto Godblessed"],
+				"Tasks": {
+					"~|Barbarian Training|~ 2b4b3": "Quest"
+				},
 				"Level": 9,
 				"Output": "Strength mix (2)",
 				"Primary": true,
@@ -39879,7 +40090,9 @@
 			},
 			"Mix a ~|defence mix|~": {
 				"Items": ["DefencePotion[+]*", "Caviar*"],
-				"NPCs": ["Otto Godblessed"],
+				"Tasks": {
+					"~|Barbarian Training|~ 2b4b3": "Quest"
+				},
 				"Level": 11,
 				"Output": "Defence mix (2)",
 				"Primary": true,
@@ -39915,7 +40128,9 @@
 			},
 			"Mix an ~|antipoison mix|~": {
 				"Items": ["AntipoisonPotion[+]*", "Roe*"],
-				"NPCs": ["Otto Godblessed"],
+				"Tasks": {
+					"~|Barbarian Training|~ 2b4b3": "Quest"
+				},
 				"Level": 15,
 				"Output": "Antipoison mix (2)",
 				"Primary": true,
@@ -40018,7 +40233,9 @@
 			},
 			"Mix a ~|restore mix|~": {
 				"Items": ["RestorePotion[+]*", "Roe*"],
-				"NPCs": ["Otto Godblessed"],
+				"Tasks": {
+					"~|Barbarian Training|~ 2b4b3": "Quest"
+				},
 				"Level": 24,
 				"Output": "Restore mix (2)",
 				"Primary": true,
@@ -40062,7 +40279,9 @@
 			},
 			"Mix an ~|energy mix|~": {
 				"Items": ["EnergyPotion[+]*", "Caviar*"],
-				"NPCs": ["Otto Godblessed"],
+				"Tasks": {
+					"~|Barbarian Training|~ 2b4b3": "Quest"
+				},
 				"Level": 29,
 				"Output": "Energy mix (2)",
 				"Primary": true,
@@ -40149,7 +40368,9 @@
 			},
 			"Mix an ~|agility mix|~": {
 				"Items": ["AgilityPotion[+]*", "Caviar*"],
-				"NPCs": ["Otto Godblessed"],
+				"Tasks": {
+					"~|Barbarian Training|~ 2b4b3": "Quest"
+				},
 				"Level": 37,
 				"Output": "Agility mix (2)",
 				"Primary": true,
@@ -40217,7 +40438,9 @@
 			},
 			"Mix a ~|combat mix|~": {
 				"Items": ["CombatPotion[+]*", "Caviar*"],
-				"NPCs": ["Otto Godblessed"],
+				"Tasks": {
+					"~|Barbarian Training|~ 2b4b3": "Quest"
+				},
 				"Level": 40,
 				"Output": "Combat mix (2)",
 				"Primary": true,
@@ -40254,7 +40477,9 @@
 			},
 			"Mix a ~|prayer mix|~": {
 				"Items": ["PrayerPotion[+]*", "Caviar*"],
-				"NPCs": ["Otto Godblessed"],
+				"Tasks": {
+					"~|Barbarian Training|~ 2b4b3": "Quest"
+				},
 				"Level": 42,
 				"Output": "Prayer mix (2)",
 				"Primary": true,
@@ -40307,7 +40532,9 @@
 			},
 			"Mix a ~|super attack mix|~": {
 				"Items": ["SuperAttackPotion[+]*", "Caviar*"],
-				"NPCs": ["Otto Godblessed"],
+				"Tasks": {
+					"~|Barbarian Training|~ 2b4b3": "Quest"
+				},
 				"Level": 47,
 				"Output": "Super attack mix (2)",
 				"Primary": true,
@@ -40398,7 +40625,9 @@
 			},
 			"Mix a ~|super antipoison mix|~": {
 				"Items": ["SuperAntipoisonPotion[+]*", "Caviar*"],
-				"NPCs": ["Otto Godblessed"],
+				"Tasks": {
+					"~|Barbarian Training|~ 2b4b3": "Quest"
+				},
 				"Level": 51,
 				"Output": "Super antipoison mix (2)",
 				"Primary": true,
@@ -40448,7 +40677,9 @@
 			},
 			"Mix a ~|fishing mix|~": {
 				"Items": ["FishingPotion[+]*", "Caviar*"],
-				"NPCs": ["Otto Godblessed"],
+				"Tasks": {
+					"~|Barbarian Training|~ 2b4b3": "Quest"
+				},
 				"Level": 53,
 				"Output": "Fishing mix (2)",
 				"Primary": true,
@@ -40556,7 +40787,9 @@
 			},
 			"Mix a ~|super energy mix|~": {
 				"Items": ["SuperEnergyPotion[+]*", "Caviar*"],
-				"NPCs": ["Otto Godblessed"],
+				"Tasks": {
+					"~|Barbarian Training|~ 2b4b3": "Quest"
+				},
 				"Level": 56,
 				"Output": "Super energy mix (2)",
 				"Primary": true,
@@ -40643,7 +40876,9 @@
 			},
 			"Mix a ~|hunting mix|~": {
 				"Items": ["HunterPotion[+]*", "Caviar*"],
-				"NPCs": ["Otto Godblessed"],
+				"Tasks": {
+					"~|Barbarian Training|~ 2b4b3": "Quest"
+				},
 				"Level": 58,
 				"Output": "Hunting mix (2)",
 				"Primary": true,
@@ -40688,7 +40923,9 @@
 			},
 			"Mix a ~|super strength mix|~": {
 				"Items": ["SuperStrengthPotion[+]*", "Caviar*"],
-				"NPCs": ["Otto Godblessed"],
+				"Tasks": {
+					"~|Barbarian Training|~ 2b4b3": "Quest"
+				},
 				"Level": 59,
 				"Output": "Super strength mix (2)",
 				"Primary": true,
@@ -40723,7 +40960,9 @@
 			},
 			"Mix a ~|magic essence mix|~": {
 				"Items": ["MagicEssPotion[+]*", "Caviar*"],
-				"NPCs": ["Otto Godblessed"],
+				"Tasks": {
+					"~|Barbarian Training|~ 2b4b3": "Quest"
+				},
 				"Level": 61,
 				"Output": "Magic essence mix (2)",
 				"Primary": true,
@@ -40877,7 +41116,9 @@
 			},
 			"Mix a ~|super restore mix|~": {
 				"Items": ["SuperRestorePotion[+]*", "Caviar*"],
-				"NPCs": ["Otto Godblessed"],
+				"Tasks": {
+					"~|Barbarian Training|~ 2b4b3": "Quest"
+				},
 				"Level": 67,
 				"Output": "Super restore mix (2)",
 				"Primary": true,
@@ -40994,7 +41235,9 @@
 			},
 			"Mix a ~|super defence mix|~": {
 				"Items": ["SuperDefencePotion[+]*", "Caviar*"],
-				"NPCs": ["Otto Godblessed"],
+				"Tasks": {
+					"~|Barbarian Training|~ 2b4b3": "Quest"
+				},
 				"Level": 71,
 				"Output": "Super defence mix (2)",
 				"Primary": true,
@@ -41058,7 +41301,9 @@
 			},
 			"Mix an ~|antipoison+ mix|~": {
 				"Items": ["Antipoison+Potion[+]*", "Caviar*"],
-				"NPCs": ["Otto Godblessed"],
+				"Tasks": {
+					"~|Barbarian Training|~ 2b4b3": "Quest"
+				},
 				"Level": 74,
 				"Output": "Antipoison+ mix (2)",
 				"Primary": true,
@@ -41130,7 +41375,9 @@
 			},
 			"Mix an ~|antifire mix|~": {
 				"Items": ["AntifirePotion[+]*", "Caviar*"],
-				"NPCs": ["Otto Godblessed"],
+				"Tasks": {
+					"~|Barbarian Training|~ 2b4b3": "Quest"
+				},
 				"Level": 75,
 				"Output": "Antifire mix (2)",
 				"Primary": true,
@@ -41347,7 +41594,9 @@
 			},
 			"Mix a ~|super ranging mix|~": {
 				"Items": ["SuperRangingPotion[+]*", "Caviar*"],
-				"NPCs": ["Otto Godblessed"],
+				"Tasks": {
+					"~|Barbarian Training|~ 2b4b3": "Quest"
+				},
 				"Level": 80,
 				"Output": "Super ranging mix (2)",
 				"Primary": true,
@@ -41439,7 +41688,9 @@
 			},
 			"Mix a ~|super magic mix|~": {
 				"Items": ["SuperMagicPotion[+]*", "Caviar*"],
-				"NPCs": ["Otto Godblessed"],
+				"Tasks": {
+					"~|Barbarian Training|~ 2b4b3": "Quest"
+				},
 				"Level": 83,
 				"Output": "Super magic mix (2)",
 				"Primary": true,
@@ -41461,7 +41712,9 @@
 			},
 			"Mix a ~|Zamorak mix|~": {
 				"Items": ["ZamorakPotion[+]*", "Caviar*"],
-				"NPCs": ["Otto Godblessed"],
+				"Tasks": {
+					"~|Barbarian Training|~ 2b4b3": "Quest"
+				},
 				"Level": 85,
 				"Output": "Zamorak mix (2)",
 				"Primary": true,
@@ -61335,6 +61588,9 @@
 				"Items": ["Barbarian bait[+]"],
 				"Level": 15,
 				"Objects": ["Fishing spot (barbarian)"],
+				"Tasks": {
+					"~|Barbarian Training|~ 2b3": "Quest"
+				},
 				"Primary": true,
 				"Output": "Leaping trout",
 				"Skills": {
@@ -61347,6 +61603,9 @@
 				"Items": ["Barbarian bait[+]"],
 				"Level": 30,
 				"Objects": ["Fishing spot (barbarian)"],
+				"Tasks": {
+					"~|Barbarian Training|~ 2b3": "Quest"
+				},
 				"Primary": true,
 				"Output": "Leaping salmon",
 				"Skills": {
@@ -61359,6 +61618,9 @@
 				"Items": ["Barbarian bait[+]"],
 				"Level": 45,
 				"Objects": ["Fishing spot (barbarian)"],
+				"Tasks": {
+					"~|Barbarian Training|~ 2b3": "Quest"
+				},
 				"Primary": true,
 				"Output": "Leaping sturgeon",
 				"Skills": {
@@ -67890,8 +68152,7 @@
 			"~|Barbarian Training|~ 1": {
 				"BaseQuest": "Barbarian Training",
 				"Description": "Speak to Otto Godblessed at his Grotto",
-				"Chunks": ["10038"],
-				"NPCs": ["Otto Godblessed"],
+				"Chunks": ["10038", "10039"],
 				"Not F2P": true
 			},
 			"~|Barbarian Training|~ 2a1": {
@@ -77160,12 +77421,18 @@
 			"~|Fight Arena|~ 1": {
 				"BaseQuest": "Fight Arena",
 				"Description": "Talk to Lady Servil, and rescue her family from the fight arena.",
+				"Chunks": ["10290"],
+				"Not F2P": true
+			},
+			"~|Fight Arena|~ 2": {
+				"BaseQuest": "Fight Arena",
+				"Description": "Rescue the Servil family from the fight arena.",
 				"Chunks": ["10289"],
 				"Not F2P": true
 			},
 			"~|Fight Arena|~ Complete the quest": {
 				"Tasks": {
-					"~|Fight Arena|~ 1": "Quest"
+					"~|Fight Arena|~ 2": "Quest"
 				},
 				"QuestPoints": 2,
 				"XpReward": {
@@ -77174,7 +77441,7 @@
 				},
 				"BaseQuest": "Fight Arena",
 				"Reward": ["Khazard helmet", "Khazard armour"],
-				"Chunks": ["10289"],
+				"Chunks": ["10290"],
 				"Not F2P": true
 			},
 			"~|Final Destination (miniquest)|~ 1": {
