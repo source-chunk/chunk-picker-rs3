@@ -10162,6 +10162,15 @@
 		        "NoPet": true,
 		        "Priority": 3
 		    },
+			"Get the full amount of healing from ~|ugthanki kebabs|~": {
+		        "Category": ["Full Healing"],
+		        "Items": ["Ugthanki kebab"],
+		        "Level": 70,
+		        "Primary": false,
+		        "Not Equip": true,
+		        "NoPet": true,
+		        "Priority": 4
+		    },
 		    "Get the full amount of healing from ~|asciatops meat|~": {
 		        "Category": ["Full Healing"],
 		        "Items": ["Asciatops meat"],
@@ -116597,7 +116606,7 @@
 			"Taverley Well Cave": {
 				"UnlocksArea": true,
 				"Tasks": {
-					"~|Wolf Whistle|~ 2a": "Quest"
+					"~|Wolf Whistle|~ 3": "Quest"
 				}
 			},
 			"Enchanted valley": {
@@ -119205,10 +119214,10 @@
 			"Champions Guild Questpoints": {
 				"QuestPointsNeeded": 32
 			},
-			"Access Dungeonering shop": {
+			"Access Daemonheim Rewards (F2P)": {
 				"Items": ["Dungeoneering token"]
 			},
-			"Access Dungeonering shop member": {
+			"Access Daemonheim Rewards": {
 				"Items": ["Dungeoneering token"],
 				"Not F2P": true
 			},
@@ -171134,9 +171143,6 @@
 			},
 			"Grimy tarromin": {
 				"1": "12/128"
-			},
-			"Grimy marrentill": {
-				"1": "6/128"
 			},
 			"Starved ancient effigy": {
 				"1": "1/781250"
@@ -225463,6 +225469,9 @@
 			"Akrisae's war mace^": [{
 				"~|Ritual of the Mahjarrat|~ Complete the quest": "Quest"
 			}],
+			"Ancient staff": [{
+				"~|Desert Treasure|~ Complete the quest": "Quest"
+			}],
 			"Archer helm": [{
 				"~|Fremennik Trials|~ Complete the quest": "Quest"
 			}],
@@ -226319,15 +226328,15 @@
 			},
 			"Daemonheim Rewards": {
 				"8757": [{
-					"Access Dungeonering shop": "Nonskill"
+					"Access Daemonheim Rewards": "Nonskill"
 				}],
 				"13625": [{
-					"Access Dungeonering shop": "Nonskill"
+					"Access Daemonheim Rewards": "Nonskill"
 				}]
 			},
-			"Daemonheim Rewards": {
+			"Daemonheim Rewards (F2P)": {
 				"13625": [{
-					"Access Dungeonering shop member": "Nonskill"
+					"Access Daemonheim Rewards (F2P)": "Nonskill"
 				}]
 			},
 			"Dealga's Scimitar Emporium": {
