@@ -226344,6 +226344,11 @@
 					"~|Monkey Madness|~ Complete the quest": "Quest"
 				}]
 			},
+			"Honest Jimmy's House of Stuff": {
+				"15151": [{
+					"Group Bosses": "Nonskill"
+				}]
+			},
 			"Initiate Temple Knight Armoury": {
 				"11828": [{
 					"~|Recruitment Drive|~ Complete the quest": "Quest"
@@ -256113,7 +256118,7 @@
 					"1": "1/100"
 				}
 			},
-			"(WIP) Demon Flash Mob rewards (normal)": {
+			"Demon Flash Mob rewards (normal)": {
 				"Infernal ashes": {
 					"1": "Always"
 				},
@@ -256233,7 +256238,7 @@
 					"1": "1/2000"
 				}
 			},
-			"(WIP) Demon Flash Mob rewards (wilderness)": {
+			"Demon Flash Mob rewards (wilderness)": {
 				"Infernal ashes": {
 					"5": "Always"
 				},
