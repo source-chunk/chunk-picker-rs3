@@ -116394,9 +116394,6 @@
 				},
 				"UnlocksArea": true
 			},
-			"Big Chinchompa nest": {
-				"UnlocksArea": true
-			},
 			"Ice strykewyrm cave": {
 				"UnlocksArea": true,
 				"Tasks": {
@@ -117797,7 +117794,7 @@
 					"~|Ode of the Devourer|~ Complete the quest": "Quest"
 				}
 			},
-			"Big chinchompa" : {
+			"Chinchompa cave" : {
 				"UnlocksArea": true
 			},
 			"Daemonheim - Depths excavation site": {
@@ -120277,7 +120274,7 @@
 			"Hard Mode Bosses": {
 				"Category": ["Hard Mode Bosses"]
 			},
-			"Group Bosses": {
+			"Group Content enabled": {
 				"Category": ["Group Content"]
 			},
 			"Receive a Dwarven army axe from Major Rancour*": {
@@ -120351,26 +120348,22 @@
 				"Output": "Ectofuntus rewards",
 				"Not F2P": true
 			},
-			"Safecracking rewards*": {
+			"Safecracking rewards": {
 				"Category": ["Minigame"],
 				"Chunks": ["Thieves' Guild Complete"],
 				"Items": ["Pilfer points"],
-				"Output": "Safecracking rewards",
 				"Not F2P": true
 			},
-			"Archaeology rewards*": {
+			"Archaeology rewards": {
 				"Chunks": ["13108", "13364", "13365"],
 				"Tasks": {
 					"Excavate any artifact": "Nonskill"
 				},
-				"Output": "Archaeology rewards",
 				"Not F2P": true
 			},
-			"Construction Contracts rewards*": {
+			"Construction Contracts rewards": {
 				"Items": ["White candle", "Bolt of cloth", "Steel bar", "Plank[+]", "Nails[+]", "ConstructionMetalBar[+]"],
-				"NPCs": ["Estate agent"],
 				"Chunks": ["12338", "12850", "12853", "12342"],
-				"Output": "Construction Contracts rewards",
 				"Not F2P": true
 			},
 			"Pyramid Plunder rewards*": {
@@ -120379,28 +120372,19 @@
 				"Output": "Pyramid Plunder rewards",
 				"Not F2P": true
 			},
-			"Stealing Creation rewards*": {
+			"Stealing Creation rewards": {
 				"Category": ["Minigame", "Group Content"],
 				"Chunks": ["Stealing Creation", "Gamers' Grotto"],
-				"Output": "Stealing Creation rewards",
 				"Not F2P": true
 			},
-			"Castle Wars rewards*": {
+			"Castle Wars rewards": {
 				"Category": ["Minigame", "PvP", "Group Content"],
 				"Chunks": ["9776", "9520"],
-				"Output": "Castle Wars rewards",
 				"Not F2P": true
 			},
-			"Cabage Facepunch Bonanza rewards*": {
-				"Category": ["Minigame"],
-				"Chunks": ["Gamer's Grotto"],
-				"Output": "Cabage Facepunch Bonanza rewards",
-				"Not F2P": true
-			},
-			"Barbarian Assault rewards*": {
+			"Barbarian Assault rewards": {
 				"Category": ["Minigame", "Group Content"],
 				"Chunks": ["10039"],
-				"Output": "Barbarian Assault rewards",
 				"Not F2P": true
 			},
 			"Deathmatch rewards*": {
@@ -120418,16 +120402,14 @@
 				"Output": "Dominion Tower rewards",
 				"Not F2P": true
 			},
-			"Pest Control rewards*": {
+			"Pest Control rewards": {
 				"Category": ["Minigame", "Group Content"],
 				"Chunks": ["10537", "10536"],
-				"Output": "Pest Control rewards",
 				"Not F2P": true
 			},
-			"Soul Wars rewards*": {
+			"Soul Wars rewards": {
 				"Category": ["Minigame", "PvP", "Group Content"],
 				"Chunks": ["8493", "8748", "8749", "9005"],
-				"Output": "Soul Wars rewards",
 				"Not F2P": true
 			},
 			"Shattered Worlds rewards*": {
@@ -120467,7 +120449,7 @@
 				"Output": "The Pit rewards",
 				"Not F2P": true
 			},
-			"Anima Islands rewards*": {
+			"Anima Islands titles*": {
 				"Category": ["DnD"],
 				"Chunks": ["12335"],
 				"Output": "Anima Islands rewards",
@@ -120477,12 +120459,6 @@
 				"Category": ["DnD"],
 				"Chunks": ["Balthazar Beauregard's Big Top"],
 				"Output": "Circus rewards",
-				"Not F2P": true
-			},
-			"Big Chinchompa rewards*": {
-				"Category": ["DnD"],
-				"Chunks": ["Big Chinchompa"],
-				"Output": "Big Chinchompa rewards",
 				"Not F2P": true
 			},
 			"Evil Tree rewards*": {
@@ -120506,10 +120482,8 @@
 				"Chunks": ["ForestRaids[+]"],
 				"Output": "Goblin Raid rewards (forest)"
 			},
-			"Goblin Raid (any) rewards*": {
-				"Category": ["DnD Flash Events"],
-				"Chunks": ["GoblinRaids[+]"],
-				"Output": "Goblin Raid rewards (any)"
+			"Flash Events enabled": {
+				"Category": ["DnD Flash Events"]
 			},
 			"Memory of Nomad rewards*": {
 				"Category": ["DnD"],
@@ -120681,7 +120655,7 @@
 			"Name": "Gate of Elidinis"
 		},
 		"33": {
-			"Name": "Big Chinchompa"
+			"Name": "Chinchompa cave"
 		},
 		"34": {
 			"Name": "Daemonheim - Depths excavation site"
@@ -124869,7 +124843,8 @@
 			"Shop": {
 				"Construction Supplies (Prifddinas)": true,
 				"Summoning Shop": true,
-				"Crafting Supplies": true
+				"Crafting Supplies": true,
+				"Estate Agents Shop": true
 			},
 			"Nickname": "West Prifddinas"
 		},
@@ -125282,7 +125257,8 @@
 				"A memory": 1
 			},
 			"Shop": {
-				"Stanley Limelight Traders": true
+				"Stanley Limelight Traders": true,
+				"Reward Shop (Soul Wars)": true
 			},
 			"Connect": {
 				"12891": true
@@ -126034,6 +126010,9 @@
 				"Tar": 3,
 				"Tree": 3,
 				"Evil tree": 1
+			},
+			"Monster": {
+				"Demon Boss": 1
 			},
 			"Quest": {
 				"Mourning's End Part I": "step",
@@ -129565,7 +129544,8 @@
 			"Monster": {
 				"Rat": 15,
 				"Knight of Ardougne": 4,
-				"Ogre": 8
+				"Ogre": 8,
+				"Demon Boss": 1
 			},
 			"NPC": {
 				"Guard": 14,
@@ -129725,7 +129705,8 @@
 				"Egg": 2
 			},
 			"Shop": {
-				"Stanley Limelight Traders": true
+				"Stanley Limelight Traders": true,
+				"Rewards (Barbarian Assault)": true
 			},
 			"Quest": {
 				"Bar Crawl (miniquest)": "first",
@@ -130364,7 +130345,8 @@
 			"Monster": {
 				"Wolf": 6,
 				"Ogre": 7,
-				"Ogre chieftain": 1
+				"Ogre chieftain": 1,
+				"Demon Boss": 1
 			},
 			"NPC": {
 				"Swamp toad": 8,
@@ -131439,7 +131421,8 @@
 				"Void Knight Archery Store": true,
 				"Void Knight General Store": true,
 				"Void Knight Magic Store": true,
-				"Stanley Limelight Traders": true
+				"Stanley Limelight Traders": true,
+				"Commendation Rewards": true
 			},
 			"Quest": {
 				"Quiet Before the Swarm": "step",
@@ -131673,7 +131656,8 @@
 				"Ardougne Gem stall": true,
 				"Ardougne Silver stall": true,
 				"Ardougne Spice stall": true,
-				"Zenesha's Platebody Shop": true
+				"Zenesha's Platebody Shop": true,
+				"Estate Agents Shop": true
 			},
 			"Quest": {
 				"Back to my Roots": "first",
@@ -132775,6 +132759,9 @@
 				"7234": true,
 				"10906": true,
 				"14167": true
+			},
+			"Shop": {
+				"Estate Agents Shop": true
 			},
 			"Quest": {
 				"Bar Crawl (miniquest)": "step",
@@ -136017,7 +136004,8 @@
 				"Cow calf": 2,
 				"Hobgoblin": 10,
 				"Ram": 2,
-				"Highwayman": 1
+				"Highwayman": 1,
+				"Hollowtoof": 1
 			},
 			"NPC": {
 				"Tanner": 1,
@@ -136158,7 +136146,8 @@
 				"Velrak the explorer": 1
 			},
 			"Monster": {
-				"Farmer": 1
+				"Farmer": 1,
+				"Hollowtoof": 1
 			},
 			"Spawn": {
 				"Empty pot": 2,
@@ -137225,7 +137214,8 @@
 				"Highwayman": 1,
 				"Goblin": 12,
 				"Hengel": 1,
-				"Anja": 1
+				"Anja": 1,
+				"Hollowtoof": 1
 			},
 			"Connect": {
 				"4448": true,
@@ -137420,7 +137410,8 @@
 				"Proselyte Temple Knight Armoury": true,
 				"White Knight Master Armoury": true,
 				"Sir Renitee's Construction Supplies": true,
-				"Wyson's the gardener": true
+				"Wyson's the gardener": true,
+				"Estate Agents Shop": true
 			},
 			"Quest": {
 				"Aftermath": "first",
@@ -137616,7 +137607,8 @@
 				"Dead tree": 2
 			},
 			"Monster": {
-				"Green dragon": 3
+				"Green dragon": 3,
+				"Demon Boss (Wilderness)": 1
 			},
 			"NPC": {
 				"Crate": 1
@@ -137667,7 +137659,8 @@
 			},
 			"Monster": {
 				"Skeleton": 2,
-				"Ghost (Wildy)": 6
+				"Ghost (Wildy)": 6,
+				"Demon Boss (Wilderness)": 1
 			},
 			"NPC": {
 				"Ian (cape merchant)": 1,
@@ -137909,7 +137902,9 @@
 			},
 			"Shop": {
 				"Larry's Wilderness Cape Shop": true,
-				"Stanley Limelight Traders": true
+				"Stanley Limelight Traders": true,
+				"Stealing Creation Reward Shop": true,
+				"Cabbage Facepunch Bonanza Rewards": true
 			},
 			"Name": "Gamers' Grotto"
 		},
@@ -138210,7 +138205,8 @@
 				"Imp": 3,
 				"Cow calf": 3,
 				"Chicken": 9,
-				"Highwayman": 1
+				"Highwayman": 1,
+				"Hollowtoof": 1
 			},
 			"NPC": {
 				"Dog": 1,
@@ -138385,7 +138381,8 @@
 				"Guard (Edgeville)": 3,
 				"Dwarf": 4,
 				"Ram": 1,
-				"Monk": 6
+				"Monk": 6,
+				"Demon Boss": 1
 			},
 			"NPC": {
 				"Kharid Scorpion": 1,
@@ -139359,7 +139356,8 @@
 			},
 			"Monster": {
 				"Rat": 1,
-				"Goblin": 1
+				"Goblin": 1,
+				"Hollowtoof": 1
 			},
 			"NPC": {
 				"Morgan": 1,
@@ -140320,6 +140318,9 @@
 			"Spawn": {
 				"Swamp tar": 7
 			},
+			"Shop": {
+				"Shattered Worlds Reward Shop": true
+			},
 			"Quest": {
 				"Another Slice of H.A.M.": "step",
 				"Boric's Task II (miniquest)": "step",
@@ -140429,7 +140430,8 @@
 				"Duck": 41,
 				"Thief": 3,
 				"Cow": 8,
-				"Cow calf": 4
+				"Cow calf": 4,
+				"Hollowtoof": 1
 			},
 			"NPC": {
 				"Undead tree": 4,
@@ -140513,7 +140515,8 @@
 				"Rat": 1,
 				"Imp": 1,
 				"Guard (Varrock)": 6,
-				"Man": 1
+				"Man": 1,
+				"Hollowtoof": 1
 			},
 			"Spawn": {
 				"Bowl": 1,
@@ -141088,7 +141091,8 @@
 			"Monster": {
 				"Crocodile": 6,
 				"Jackal": 13,
-				"Vulture": 3
+				"Vulture": 3,
+				"Demon Boss": 1
 			},
 			"NPC": {
 				"Rug merchant": 1,
@@ -141235,7 +141239,8 @@
 				"Xenia": 1
 			},
 			"Monster": {
-				"Giant rat": 8
+				"Giant rat": 8,
+				"Hollowtoof": 1
 			},
 			"Connect": {
 				"9797": true,
@@ -141431,7 +141436,8 @@
 				"Imp": 2,
 				"Goblin": 2,
 				"Cow": 10,
-				"Cow calf": 4
+				"Cow calf": 4,
+				"Hollowtoof": 1
 			},
 			"NPC": {
 				"Seth Groats": 1,
@@ -141533,7 +141539,8 @@
 				"Guard (Varrock)": 3,
 				"Thief": 1,
 				"Dark wizard": 11,
-				"Man": 1
+				"Man": 1,
+				"Hollowtoof": 1
 			},
 			"Connect": {
 				"10307": true,
@@ -141772,6 +141779,9 @@
 				"Wooden shield": 1,
 				"Coins": 2
 			},
+			"Shop": {
+				"Estate Agents Shop": true
+			},
 			"Quest": {
 				"All Fired Up": "first",
 				"Benedict's World Tour (miniquest)": "step",
@@ -141859,7 +141869,8 @@
 			"Monster": {
 				"Rat": 6,
 				"Abyssal demon": 17,
-				"Zombie": 21
+				"Zombie": 21,
+				"Demon Boss (Wilderness)": 1
 			},
 			"NPC": {
 				"Will o' the wisp": 4,
@@ -141884,7 +141895,8 @@
 			"Monster": {
 				"Rat": 3,
 				"Deadly red spider": 11,
-				"Gargoyle": 11
+				"Gargoyle": 11,
+				"Demon Boss (Wilderness)": 1
 			},
 			"Connect": {
 				"11842": true
@@ -142717,7 +142729,8 @@
 			},
 			"Monster": {
 				"Scorpion": 9,
-				"Imp": 1
+				"Imp": 1,
+				"Demon Boss": 1
 			},
 			"Shop": {
 				"Sydekix's Shop of Balance": true
@@ -142990,7 +143003,8 @@
 			},
 			"Monster": {
 				"Fetid zombie": 10,
-				"Bound skeleton": 10
+				"Bound skeleton": 10,
+				"Demon Boss (Wilderness)": 1
 			},
 			"Connect": {
 				"22": true
@@ -143977,7 +143991,8 @@
 		"13369": {
 			"Monster": {
 				"Green dragon": 11,
-				"Waterfiend": 4
+				"Waterfiend": 4,
+				"Demon Boss (Wilderness)": 1
 			},
 			"Quest": {
 				"Enchanted Key": "step"
@@ -144313,6 +144328,9 @@
 			"NPC": {
 				"Golden warbler": 4,
 				"Orange salamander": 11
+			},
+			"Monster": {
+				"Demon Boss": 1
 			},
 			"Connect": {
 				"33": true
@@ -146076,7 +146094,8 @@
 				"Sentinel Draemus": 1
 			},
 			"Monster": {
-				"Vyrewatch": 8
+				"Vyrewatch": 8,
+				"Demon Boss": 1
 			},
 			"Nickname": "South Haunted Woods"
 		},
@@ -156150,16 +156169,6 @@
 				"13362": true
 			}
 		},
-		"Big Chinchompa nest": {
-			"Object": {
-				"Moth jars": 1,
-				"Protea flowers": 4,
-				"Nest": 1
-			},
-			"Connect": {
-				"9781": true
-			}
-		},
 		"Ice strykewyrm cave": {
 			"Monster": {
 				"Ice strykewyrm": 12
@@ -157161,6 +157170,9 @@
 			"NPC": {
 				"Tobias Bronzearms": 1
 			},
+			"Monster": {
+				"Hollowtoof": 1
+			},
 			"Connect": {
 				"11318": true
 			},
@@ -157532,7 +157544,8 @@
                 "Mr Pinsworth": 1
             },
             "Shop": {
-                "Dodgy Derek's Dirty Deals": true
+                "Dodgy Derek's Dirty Deals": true,
+				"Dodgy Derek's Dirty Deals#Reward Shop": true
             },
 			"Connect": {
 				"18522": true
@@ -160803,7 +160816,9 @@
 			},
 			"Shop": {
 				"Larry's Wilderness Cape Shop": true,
-				"Stanley Limelight Traders": true
+				"Stanley Limelight Traders": true,
+				"Stealing Creation Reward Shop": true,
+				"Cabbage Facepunch Bonanza Rewards": true
 			}
 		},
 		"Observatory": {
@@ -163552,7 +163567,7 @@
 				"23": true
 			}
 		},
-		"Big Chinchompa": {
+		"Chinchompa cave": {
 			"NPC": {
 				"Red soporith moth": 1,
 				"Orange soporith moth": 1,
@@ -163566,6 +163581,9 @@
 			"Spawn": {
 				"Moth jar": 1,
 				"Protea flower": 1
+			},
+			"Shop": {
+				"Reward Shop (Big Chinchompa)": true
 			},
 			"Connect": {
 				"9773": true,
@@ -168318,8 +168336,6 @@
 			"CurseOfZaros4[+]": ["12337", "12086", "12084"],
 			"CurseOfZaros5[+]": ["13117", "13623", "Edgeville Dungeon"],
 			"DesertChunks[+]": ["12848", "12847", "12846", "12845", "12844", "13104", "13103", "13104", "13105", "13102", "13101", "13100", "13360", "13359", "13355", "13356", "13357", "13358", "13361", "13616", "13615", "13614", "13613", "13612", "13611", "13872", "13871", "13870", "12591", "12590", "12589", "12588", "12333", "12332", "12076", "12077", "12078"],
-			"DemonFlashMob[+]": ["10036", "9008", "10286", "12086", "12844", "13616", "13107", "14389"],
-			"DemonFlashMobWilderness[+]": ["11832", "13112", "13369", "12857", "12858", "11834"],
 			"DiseasedJadinkoAnachronia[+]": ["16965", "16709", "16194"],
 			"DressToImpressChunks[+]": ["10810", "Waterbirth Dungeon"],
 			"DwarfTunnelEntrance[+]": ["11574", "11062"],
@@ -168335,10 +168351,9 @@
 			"FaladorGuardChunks[+]": ["11827", "11828", "12084"],
 			"FarmRaids[+]": ["12339", "12851", "12083", "11573"],
 			"FeldipHills[+]": ["10285", "10029"],
-			"ForestRaids[+]": ["11575", "12339", "12852", "12597"],
+			"ForestRaids[+]": ["11571", "12339", "12852", "12597"],
 			"Forinthry[+]": ["12089", "12090"],
 			"GloriousMemories2[+]": ["9275", "10044"],
-			"GoblinRaids[+]": ["12339", "12851", "12083", "11573", "11575", "12852", "12597", "Burthorpe Mine", "11826", "12849", "12596"],
 			"GrenwallAnachronia[+]": ["16193", "16197"],
 			"GrenwallTirannwn[+]": ["8754", "8753", "9010"],
 			"HardGnomeRestaurant[+]": ["12854", "11828", "10291", "11068", "11318", "13105", "13106", "Dwarven Tunnel", "11822", "11051", "11823", "10030", "10033", "10034", "10544", "11566", "10288", "12337", "Keldagrim", "13357"],
@@ -168427,8 +168442,6 @@
 			"CurseOfZaros3[+]": "wip",
 			"CurseOfZaros4[+]": "wip",
 			"CurseOfZaros5[+]": "wip",
-			"DemonFlashMob[+]": "Any chunk where a Demon Flash Mob may happen",
-			"DemonFlashMob[+]": "Any chunk where a Wilderness Demon Flash Mob may happen",
 			"DesertChunks[+]": "Any chunks that count as part of the Kharidian desert",
 			"DiseasedJadinkoAnachronia[+]": "Any chunk with diseased jadinkos on Anachronia",
 			"DressToImpressChunks[+]": "Any chunks outside of 10553 with NPCs that will use your Fremennik name",
@@ -168448,7 +168461,6 @@
 			"ForestRaids[+]": "Any forest chunk that gets raided by goblins",
 			"Forinthry[+]": "Any chunk that gives direct access to the Forinthry dungeon when having a connection to the dungeon",
 			"GloriousMemories2[+]": "Any chunk that has King Vargas or Mawnis Burowgar in it",
-			"GoblinRaids[+]": "Any chunk that gets raided by goblins",
 			"GrenwallAnachronia[+]": "Any chunk with grenwalls on Anachronia",
 			"GrenwallTirannwn[+]": "Any chunk with grenwalls in Tirannwn",
 			"HardGnomeRestaurant[+]": "Any chunk with a hard Gnome Restaurant delivery person",
@@ -170234,14 +170246,22 @@
 			"Zamorak, Lord of Chaos": true
 		},
 		"minigameShops": {
+			"Castle Wars Ticket Exchange": true,
+			"Commendation Rewards": true,
 			"Flash Factory Reward Shop": true,
-			"Barbarian Assault rewards": true,
+			"Rewards (Barbarian Assault)": true,
 			"Stanley Limelight Traders": true,
 			"Wizard Finix's Runecrafting Shop": true,
 			"Wizard Rinsit's Runecrafting Shop": true,
 			"Herby Werby Reward Shop": true,
 			"Agility Arena Ticket Exchange": true,
-			"Honest Jimmy's House of Stuff": true
+			"Honest Jimmy's House of Stuff": true,
+			"Reward Shop (Big Chinchompa)": true,
+			"Dodgy Derek's Dirty Deals#Reward Shop": true,
+			"Stealing Creation Reward Shop": true,
+			"Cabbage Facepunch Bonanza Rewards": true,
+			"Reward Shop (Soul Wars)": true,
+			"Shattered Worlds Reward Shop":true
 		},
 		"boostItems": {
 			"Agility": {
@@ -182956,91 +182976,61 @@
 				"5000": "Always"
 			}
 		},
-		"Demon boss": {
+		"Demon Boss": {
 			"Infernal ashes": {
-				"1": "Always",
-				"5": "Always",
-				"30 (noted)": "6/128",
-				"60 (noted)": "6/128"
+				"1": "Always"
 			},
 			"Accursed ashes": {
 				"1": "Always"
 			},
 			"Coal stone spirit": {
-				"80": "31/128"
+				"80": "1/4"
 			},
 			"Coins": {
-				"20000": "21/128",
-				"45000": "21/128"
+				"20000": "1/6"
 			},
 			"Demon claw": {
-				"3-8 (noted)": "40/128",
-				"5-10 (noted)": "40/128"
+				"3-8 (noted)": "1/3"
 			},
 			"Dragon longsword": {
-				"1": "20/128"
+				"1": "1/6"
 			},
 			"Grimy avantoe": {
-				"8 (noted)": "23/128",
-				"20 (noted)": "23/128"
+				"8 (noted)": "1/6"
 			},
 			"Grimy irit": {
-				"14 (noted)": "25/128",
-				"30 (noted)": "25/128"
+				"14 (noted)": "1/5"
 			},
 			"Grimy lantadyme": {
-				"5 (noted)": "24/128",
-				"10 (noted)": "24/128"
+				"5 (noted)": "1/5"
 			},
 			"Huge plated rune salvage": {
-				"1": "31/128"
+				"1": "1/4"
+			},
+			"Infernal ashes": {
+				"30 (noted)": "1/21"
 			},
 			"Lantadyme seed": {
-				"2": "15/128",
-				"3": "15/128"
+				"2": "1/9"
 			},
 			"Large plated rune salvage": {
-				"1": "30/128"
+				"1": "1/4"
 			},
 			"Maple logs": {
-				"200 (noted)": "24/128"
+				"200 (noted)": "1/5"
 			},
 			"Mithril stone spirit": {
-				"20": "26/128",
-				"40": "37/128"
+				"20": "1/5",
+				"40": "1/4"
 			},
 			"Rare drop table": {
 				"1": "Rare"
 			},
 			"Uncut ruby": {
-				"10 (noted)": "17/128"
+				"10 (noted)": "1/8"
 			},
 			"Yew logs": {
-				"60 (noted)": "38/128"
-			},
-			"Adamantite stone spirit": {
-				"25": "5/128"
-			},
-			"Black dragonhide": {
-				"10 (noted)": "2/128"
-			},
-			"Dragon helm": {
-				"1": "2/128"
-			},
-			"Green dragonhide": {
-				"30 (noted)": "3/128"
-			},
-			"Large bladed rune salvage": {
-				"1": "3/128"
-			},
-			"Magic logs": {
-				"40 (noted)": "3/128"
-			},
-			"Red dragonhide": {
-				"15 (noted)": "3/128"
-			},
-			"Runite stone spirit": {
-				"4-5": "3/128"
+				"60 (noted)": "1/3"
 			},
 			"Demon slayer circlet": {
 				"1": "1/256"
@@ -183063,50 +183053,169 @@
 			"Off-hand demon slayer crossbow": {
 				"1": "1/256"
 			},
-			"Demonic title scroll": {
-				"1": "1/1000"
-			},
 			"Demonic title scroll (terrifying)": {
-				"1": "1/2"
+				"1": "1/2000"
 			},
 			"Demonic title scroll (shattering)": {
-				"1": "1/2"
+				"1": "1/2000"
 			},
 			"Demonic title scroll (rending)": {
-				"1": "1/2"
+				"1": "1/2000"
 			},
 			"Demonic title scroll (pestilent)": {
-				"1": "1/2"
+				"1": "1/2000"
 			},
 			"Demonic title scroll (obscured)": {
-				"1": "1/2"
+				"1": "1/2000"
 			},
 			"Demonic title scroll (infernal)": {
-				"1": "1/2"
+				"1": "1/2000"
 			},
 			"Demonic title scroll (glorious)": {
-				"1": "1/2"
+				"1": "1/2000"
 			},
 			"Demonic title scroll (frostborn)": {
-				"1": "1/2"
+				"1": "1/2000"
 			},
 			"Demonic title scroll (corrupting)": {
-				"1": "1/2"
+				"1": "1/2000"
 			},
 			"Demonic title scroll (blazing)": {
-				"1": "1/2"
+				"1": "1/2000"
 			},
 			"Demonic title scroll (castellan)": {
-				"1": "1/2"
+				"1": "1/2000"
 			},
 			"Demonic title scroll (deacon)": {
-				"1": "1/2"
+				"1": "1/2000"
 			},
 			"Demonic title scroll (executioner)": {
-				"1": "1/2"
+				"1": "1/2000"
 			},
 			"Demonic title scroll (general)": {
-				"1": "1/2"
+				"1": "1/2000"
+			}
+		},
+		"Demon Boss (Wilderness)": {
+			"Infernal ashes": {
+				"5": "Always"
+			},
+			"Accursed ashes": {
+				"1": "Always"
+			},
+			"Adamantite stone spirit": {
+				"25": "1/25"
+			},
+			"Coins": {
+				"45000": "1/6"
+			},
+			"Demon claw": {
+				"5-10 (noted)": "1/3"
+			},
+			"Dragon longsword": {
+				"1": "1/6"
+			},
+			"Grimy avantoe": {
+				"20 (noted)": "1/6"
+			},
+			"Grimy irit": {
+				"30 (noted)": "1/5"
+			},
+			"Grimy lantadyme": {
+				"10 (noted)": "1/5"
+			},
+			"Huge plated rune salvage": {
+				"1": "1/4"
+			},
+			"Infernal ashes": {
+				"60 (noted)": "1/21"
+			},
+			"Lantadyme seed": {
+				"3": "1/9"
+			},
+			"Large plated rune salvage": {
+				"1": "1/4"
+			},
+			"Magic logs": {
+				"40 (noted)": "1/5"
+			},
+			"Black dragonhide": {
+				"10 (noted)": "1/64"
+			},
+			"Rare drop table": {
+				"1": "Rare"
+			},
+			"Red dragonhide": {
+				"15 (noted)": "1/43"
+			},
+			"Runite stone spirit": {
+				"4-5": "1/43"
+			},
+			"Dragon helm": {
+				"1": "1/64"
+			},
+			"Demon slayer circlet": {
+				"1": "1/256"
+			},
+			"Demon slayer torso": {
+				"1": "1/256"
+			},
+			"Demon slayer skirt": {
+				"1": "1/256"
+			},
+			"Demon slayer gloves": {
+				"1": "1/256"
+			},
+			"Demon slayer boots": {
+				"1": "1/256"
+			},
+			"Demon slayer crossbow": {
+				"1": "1/256"
+			},
+			"Off-hand demon slayer crossbow": {
+				"1": "1/256"
+			},
+			"Demonic title scroll (terrifying)": {
+				"1": "1/2000"
+			},
+			"Demonic title scroll (shattering)": {
+				"1": "1/2000"
+			},
+			"Demonic title scroll (rending)": {
+				"1": "1/2000"
+			},
+			"Demonic title scroll (pestilent)": {
+				"1": "1/2000"
+			},
+			"Demonic title scroll (obscured)": {
+				"1": "1/2000"
+			},
+			"Demonic title scroll (infernal)": {
+				"1": "1/2000"
+			},
+			"Demonic title scroll (glorious)": {
+				"1": "1/2000"
+			},
+			"Demonic title scroll (frostborn)": {
+				"1": "1/2000"
+			},
+			"Demonic title scroll (corrupting)": {
+				"1": "1/2000"
+			},
+			"Demonic title scroll (blazing)": {
+				"1": "1/2000"
+			},
+			"Demonic title scroll (castellan)": {
+				"1": "1/2000"
+			},
+			"Demonic title scroll (deacon)": {
+				"1": "1/2000"
+			},
+			"Demonic title scroll (executioner)": {
+				"1": "1/2000"
+			},
+			"Demonic title scroll (general)": {
+				"1": "1/2000"
 			}
 		},
 		"Desert snake": {
@@ -225968,7 +226077,7 @@
 		"Monsters": {
 			"The Ambassador": {
 				"The Sahdow Reef": [{
-					"Group Bosses": "Nonskill"
+					"Group Content enabled": "Nonskill"
 				}]
 			},
 			"Arch-Glacor (Hard Mode)": {
@@ -225978,7 +226087,7 @@
 			},
 			"Astellarn": {
 				"Dragonkin Laboratory": [{
-					"Group Bosses": "Nonskill"
+					"Group Content enabled": "Nonskill"
 				}]
 			},
 			"Automaton Generator": {
@@ -225998,12 +226107,12 @@
 			},
 			"Barrows - Rise of the Six": {
 				"The Barrows": [{
-					"Group Bosses": "Nonskill"
+					"Group Content enabled": "Nonskill"
 				}]
 			},
 			"Black Stone Dragon": {
 				"Dragonkin Laboratory": [{
-					"Group Bosses": "Nonskill"
+					"Group Content enabled": "Nonskill"
 				}]
 			},
 			"Chompy bird": {
@@ -226026,12 +226135,58 @@
 			},
 			"Crassian Leviathan": {
 				"The Sahdow Reef": [{
-					"Group Bosses": "Nonskill"
+					"Group Content enabled": "Nonskill"
 				}]
 			},
 			"Croesus": {
 				"Senntsiten": [{
-					"Group Bosses": "Nonskill"
+					"Group Content enabled": "Nonskill"
+				}]
+			},
+			"Demon Boss": {
+				"10036": [{
+					"Flash Events enabled": "Nonskill"
+				}],
+				"9008": [{
+					"Flash Events enabled": "Nonskill"
+				}],
+				"10286": [{
+					"Flash Events enabled": "Nonskill"
+				}],
+				"12086": [{
+					"Flash Events enabled": "Nonskill"
+				}],
+				"12844": [{
+					"Flash Events enabled": "Nonskill"
+				}],
+				"13616": [{
+					"Flash Events enabled": "Nonskill"
+				}],
+				"13107": [{
+					"Flash Events enabled": "Nonskill"
+				}],
+				"14389": [{
+					"Flash Events enabled": "Nonskill"
+				}]
+			},
+			"Demon Boss (Wilderness)": {
+				"11832": [{
+					"Flash Events enabled": "Nonskill"
+				}],
+				"13112": [{
+					"Flash Events enabled": "Nonskill"
+				}],
+				"13369": [{
+					"Flash Events enabled": "Nonskill"
+				}],
+				"12857": [{
+					"Flash Events enabled": "Nonskill"
+				}],
+				"12858": [{
+					"Flash Events enabled": "Nonskill"
+				}],
+				"11834": [{
+					"Flash Events enabled": "Nonskill"
 				}]
 			},
 			"General Graardor (Hard Mode)": {
@@ -226075,6 +226230,41 @@
 					"Hard Mode Bosses": "Nonskill"
 				}]
 			},
+			"Hollowtoof": {
+				"12339": [{
+					"Flash Events enabled": "Nonskill"
+				}],
+				"12851": [{
+					"Flash Events enabled": "Nonskill"
+				}],
+				"12083": [{
+					"Flash Events enabled": "Nonskill"
+				}],
+				"11573": [{
+					"Flash Events enabled": "Nonskill"
+				}],
+				"11571": [{
+					"Flash Events enabled": "Nonskill"
+				}],
+				"12852": [{
+					"Flash Events enabled": "Nonskill"
+				}],
+				"12597": [{
+					"Flash Events enabled": "Nonskill"
+				}],
+				"Burthorpe Mine": [{
+					"Flash Events enabled": "Nonskill"
+				}],
+				"11826": [{
+					"Flash Events enabled": "Nonskill"
+				}],
+				"12849": [{
+					"Flash Events enabled": "Nonskill"
+				}],
+				"12596": [{
+					"Flash Events enabled": "Nonskill"
+				}]
+			},
 			"Ice giant": {
 				"11318": [{
 					"Access members content": "Nonskill"
@@ -226097,7 +226287,7 @@
 			},
 			"Kalphite King": {
 				"Exiled Kalphite Hive": [{
-					"Group Bosses": "Nonskill"
+					"Group Content enabled": "Nonskill"
 				}]
 			},
 			"Kree'arra (Hard Mode)": {
@@ -226112,19 +226302,19 @@
 			},
 			"Kezalam, the Wanderer": {
 				"Sanctum of Rebirth": [{
-					"Group Bosses": "Nonskill"
+					"Group Content enabled": "Nonskill"
 				}]
 			},
 			"Kezalam, the Wanderer (Hard Mode)": {
 				"Sanctum of Rebirth": [{
 					"Hard Mode Bosses": "Nonskill"
 				}, {
-					"Group Bosses": "Nonskill"
+					"Group Content enabled": "Nonskill"
 				}]
 			},
 			"Masuta the Ascended": {
 				"Temple of Aminishi": [{
-					"Group Bosses": "Nonskill"
+					"Group Content enabled": "Nonskill"
 				}]
 			},
 			"Mithril dragon": {
@@ -226139,24 +226329,24 @@
 			},
 			"Nakatra, Devourer Eternal": {
 				"Sanctum of Rebirth": [{
-					"Group Bosses": "Nonskill"
+					"Group Content enabled": "Nonskill"
 				}]
 			},
 			"Nakatra, Devourer Eternal (Hard Mode)": {
 				"Sanctum of Rebirth": [{
 					"Hard Mode Bosses": "Nonskill"
 				}, {
-					"Group Bosses": "Nonskill"
+					"Group Content enabled": "Nonskill"
 				}]
 			},
 			"Nex": {
 				"Ancient Prison": [{
-					"Group Bosses": "Nonskill"
+					"Group Content enabled": "Nonskill"
 				}]
 			},
 			"Nex: Angel of Death": {
 				"Ancient Prison": [{
-					"Group Bosses": "Nonskill"
+					"Group Content enabled": "Nonskill"
 				}]
 			},
 			"Osseous": {
@@ -226196,12 +226386,12 @@
 			},
 			"Seiryu the Azure Serpent": {
 				"Temple of Aminishi": [{
-					"Group Bosses": "Nonskill"
+					"Group Content enabled": "Nonskill"
 				}]
 			},
 			"The Sanctum Guardian": {
 				"Temple of Aminishi": [{
-					"Group Bosses": "Nonskill"
+					"Group Content enabled": "Nonskill"
 				}]
 			},
 			"Sir Mordred": {
@@ -226211,7 +226401,7 @@
 			},
 			"Taraket the Necromacer": {
 				"The Sahdow Reef": [{
-					"Group Bosses": "Nonskill"
+					"Group Content enabled": "Nonskill"
 				}]
 			},
 			"Twin Furies (Hard Mode)": {
@@ -226226,19 +226416,19 @@
 			},
 			"Verak Lith": {
 				"Dragonkin Laboratory": [{
-					"Group Bosses": "Nonskill"
+					"Group Content enabled": "Nonskill"
 				}]
 			},
 			"Vermyx, Brood Mother": {
 				"Sanctum of Rebirth": [{
-					"Group Bosses": "Nonskill"
+					"Group Content enabled": "Nonskill"
 				}]
 			},
 			"Vermyx, Brood Mother (Hard Mode)": {
 				"Sanctum of Rebirth": [{
 					"Hard Mode Bosses": "Nonskill"
 				}, {
-					"Group Bosses": "Nonskill"
+					"Group Content enabled": "Nonskill"
 				}]
 			},
 			"Vindicta (Hard Mode)": {
@@ -226248,14 +226438,14 @@
 			},
 			"Vorago": {
 				"Borehole": [{
-					"Group Bosses": "Nonskill"
+					"Group Content enabled": "Nonskill"
 				}]
 			},
 			"Vorago (Hard Mode)": {
 				"Borehole": [{
 					"Hard Mode Bosses": "Nonskill"
 				}, {
-					"Group Bosses": "Nonskill"
+					"Group Content enabled": "Nonskill"
 				}]
 			},
 			"Zemouregal & Vorkath (Story Mode)": {
@@ -226321,6 +226511,21 @@
 					"~|The Feud|~ Complete the quest": "Quest"
 				}]
 			},
+			"Archaeology Guild Shop": {
+				"13108": [{
+					"Archaeology rewards": "Nonskill"
+				}]
+			},
+			"Castle Wars Ticket Exchange": {
+				"9776": [{
+					"Castle Wars rewards": "Nonskill"
+				}]
+			},
+			"Commendation Rewards": {
+				"10537": [{
+					"Pest Control rewards": "Nonskill"
+				}]
+			},
 			"Culinaromancer's Chest": {
 				"Lumbridge Cellar": [{
 					"~|Recipe for Disaster: Another Cook's Quest|~ Complete the subquest": "Quest"
@@ -226344,9 +226549,31 @@
 					"~|Monkey Madness|~ Complete the quest": "Quest"
 				}]
 			},
+			"Dodgy Derek's Dirty Deals#Reward Shop": {
+				"Thieves' Guild Complete": [{
+					"Safecracking rewards": "Nonskill"
+				}]
+			},
+			"Estate Agents Shop": {
+				"12854": [{
+					"Construction Contracts rewards": "Nonskill"
+				}],
+				"11828": [{
+					"Construction Contracts rewards": "Nonskill"
+				}],
+				"10806": [{
+					"Construction Contracts rewards": "Nonskill"
+				}],
+				"10291": [{
+					"Construction Contracts rewards": "Nonskill"
+				}],
+				"8500": [{
+					"Construction Contracts rewards": "Nonskill"
+				}]
+			},
 			"Honest Jimmy's House of Stuff": {
 				"15151": [{
-					"Group Bosses": "Nonskill"
+					"Group Content enabled": "Nonskill"
 				}]
 			},
 			"Initiate Temple Knight Armoury": {
@@ -226391,12 +226618,27 @@
 			},
 			"Raid Rewards": {
 				"Mazcab": [{
-					"Group Bosses": "Nonskill"
+					"Group Content enabled": "Nonskill"
+				}]
+			},
+			"Reward Shop (Soul Wars)": {
+				"8748": [{
+					"Soul Wars rewards": "Nonskill"
+				}]
+			},
+			"Rewards (Barbarian Assault)": {
+				"10039": [{
+					"Barbarian Assault rewards": "Nonskill"
 				}]
 			},
 			"Scavvo's Rune Store": {
 				"12596": [{
 					"Champions Guild Questpoints": "Nonskill"
+				}]
+			},
+			"Shattered Worlds Reward Shop": {
+				"12593": [{
+					"Shattered Worlds rewards*": "Nonskill" 
 				}]
 			},
 			"Skulgrimen's Battle Gear": {
@@ -226417,6 +226659,11 @@
 			"Slayer Equipment (Burthorpe)": {
 				"11575": [{
 					"Access members content": "Nonskill"
+				}]
+			},
+			"Stealing Creation Reward Shop": {
+				"Gamers' Grotto": [{
+					"Stealing Creation rewards": "Nonskill"
 				}]
 			},
 			"Trader Stan's Trading Post": {
@@ -226649,6 +226896,27 @@
 			"Attuned crystal gloves": true,
 			"Attuned crystal boots": true
 		},
+		"Anima Islands Rewards":{
+			"Warpriest of Tuska gauntlets": true,
+			"Warpriest of Tuska boots": true,
+			"Warpriest of Tuska cuirass": true,
+			"Warpriest of Tuska robe legs": true,
+			"Warpriest of Tuska helm": true,
+			"Warpriest of Tuska cape": true,
+			"Saradomin Spear override": true,
+			"Armadyl Spear override": true,
+			"Zamorak Spear override": true,
+			"Godless Spear override": true,
+			"Calibration Device": true,
+			"Sacrifice ability": true,
+			"Devotion ability": true,
+			"Transfigure ability": true,
+			"Tuska's Wrath ability": true,
+			"Tuska emote tier 1": true,
+			"Tuska emote tier 2": true,
+			"Tuska emote tier 3": true,
+			"Tuska storm teleport": true
+		},
 		"Archaeology Guild Shop": {
 			"Archaeological soil box": true,
 			"Material manual": true,
@@ -226656,7 +226924,19 @@
 			"Tarpaulin sheet": true,
 			"Archaeologist's tea": true,
 			"Archaeology teleport": true,
-			"Timeworn tincture": true
+			"Timeworn tincture": true,
+			"Archaeologist's hat": true,
+			"Archaeologist's jacket": true,
+			"Archaeologist's trousers": true,
+			"Archaeologist's gloves": true,
+			"Archaeologist's boots": true,
+			"Auto-screener v1.080 Blueprint": true,
+			"Master archaeologist's hat": true,
+			"Master archaeologist's jacket": true,
+			"Master archaeologist's trousers": true,
+			"Master archaeologist's gloves": true,
+			"Master archaeologist's boots": true,
+			"Energised meteorite shard": true
 		},
 		"Ardougne Baker's Stall": {
 			"Bread": true,
@@ -227186,6 +227466,16 @@
 			"Bread": true,
 			"Tomato": true
 		},
+		"Cabbage Facepunch Bonanza Rewards": {
+			"Seedicide": true,
+			"Farmer's hat": true,
+			"Farmer's legwear": true,
+			"Farmer's jacket": true,
+			"Farmer's cuffs": true,
+			"Farmer's boots": true,
+			"Farmer's hat add-on": true,
+			"Patch bomb": true
+		},
 		"Candle Shop": {
 			"White candle": true,
 			"Black candle": true
@@ -227294,6 +227584,22 @@
 			"Curry seedling": true,
 			"Pineapple seedling": true,
 			"Plant pot": true
+		},
+		"Commendation Rewards": {
+			"Void knight melee helm": true,
+			"Void knight ranger helm": true,
+			"Void knight mage helm": true,
+			"Void knight top": true,
+			"Void knight robes": true,
+			"Void knight gloves": true,
+			"Void knight deflector": true,
+			"Void knight mace": true,
+			"Jessika's sword": true,
+			"Void knight armour patch": true,
+			"Torcher charm": true,
+			"Ravager charm": true,
+			"Spinner charm": true,
+			"Shifter charm": true
 		},
 		"Construction Supplies (Prifddinas)": {
 			"Saw": true,
@@ -227652,6 +227958,13 @@
 			"Tinderbox": true,
 			"Rope": true
 		},
+		"Dodgy Derek's Dirty Deals#Reward Shop": {
+			"Master thief's lockpick": true,
+			"Master thief's stethoscope": true,
+			"Medium loot bag": true,
+			"Large loot bag": true,
+			"Huge loot bag": true
+		},
 		"Dodgy Mike's Second-hand Clothing": {
 			"Pirate bandana (white)": true,
 			"Pirate shirt (white)": true,
@@ -227861,6 +228174,14 @@
 		},
 		"Elnock's Backup Supply": {
 			"Impling jar": true
+		},
+		"Estate Agents Shop": {
+			"Plank box": true,
+			"Master constructor's hat": true,
+			"Master constructor's jacket": true,
+			"Master constructor's trousers": true,
+			"Master constructor's gloves": true,
+			"Master constructor's boots": true
 		},
 		"Etceteria Fish": {
 			"Small fishing net": true,
@@ -230070,6 +230391,43 @@
 			"Beer (tankard)": true,
 			"Keg of beer": true
 		},
+		"Reward Shop (Big Chinchompa)": {
+			"Swamp toad": true,
+			"Flax": true,
+			"Swamp tar": true,
+			"Green salamander quota ticket": true,
+			"Carnivorous chinchompa quota ticket": true,
+			"Pawya quota ticket": true,
+			"Polar kebbit quota ticket": true,
+			"Grenwall quota ticket": true
+		},
+		"Reward Shop (Soul Wars)": {
+			"Gold charm": true,
+			"Crimson charm": true,
+			"Green charm": true,
+			"Blue charm": true
+		},
+		"Rewards (Barbarian Assault)": {
+			"Attacker's insignia": true,
+			"Defender's insignia": true,
+			"Collector's insignia": true,
+			"Healer's insignia": true,
+			"Fighter hat": true,
+			"Ranger hat": true,
+			"Runner hat": true,
+			"Healer hat": true,
+			"Fighter torso": true,
+			"Penance skirt": true,
+			"Runner boots": true,
+			"Penance gloves": true,
+			"Penance trident": true,
+			"Penance master trident": true,
+			"Penance horn": true,
+			"Penance master horn": true,
+			"Granite body": true,
+			"The Account of Aesa Fellsdottir (Part 1)": true,
+			"The Account of Aesa Fellsdottir (Part 2)": true
+		},
 		"Richard's Farming Shop": {
 			"Basket": true,
 			"Basket pack": true,
@@ -230328,6 +230686,50 @@
 			"Rope": true,
 			"Feather pack": true
 		},
+		"Shattered Worlds Reward Shop": {
+			"Slayer's Insight ability": true,
+			"Kuradal's Favour ability": true,
+			"Aggression ability": true,
+			"Bladed Dive ability": true,
+			"Salt the Wound ability": true,
+			"Abyssal Knights' armour override": true,
+			"'The Abyssal Knight' title": true,
+			"'Animaniac' title": true,
+			"'Abyss Diver' title": true,
+			"Anima Pet - Tier 1": true,
+			"Anima Pet - Tier 2": true,
+			"Anima Pet - Tier 3": true,
+			"Anima Pet - Tier 4": true,
+			"Anima Pet - Tier 5": true,
+			"Anima Pet - Tier 6": true,
+			"Anima Pet - Tier 7": true,
+			"Anima Pet - Tier 8": true,
+			"Anima Pet - Tier 9": true,
+			"Spirit of Battle": true,
+			"Mask of the Troll": true,
+			"Mask of Broken Fingers": true,
+			"Mask of Mourning": true,
+			"Mask of Stone": true,
+			"Mask of Reflection": true,
+			"Mask of the Black Demon": true,
+			"Mask of Crimson": true,
+			"Mask of Gelatin": true,
+			"Mask of Stench": true,
+			"Mask of Dust": true,
+			"Mask of the Kura": true,
+			"Mask of the Automatons": true,
+			"Mask of the Green Wyrm": true,
+			"Mask of Granite": true,
+			"Mask of the Yellow Wyrm": true,
+			"Mask of Vines": true,
+			"Mask of the Dagannoth": true,
+			"Mask of the White Wyrm": true,
+			"Mask of the Airut": true,
+			"Mask of the Aquanites": true,
+			"Mask of the Ganodermic": true,
+			"Mask of Gloom": true,
+			"Mask of the Abyss": true
+		},
 		"Shield shop": {
 			"Bronze kiteshield": true,
 			"Iron kiteshield": true,
@@ -230573,6 +230975,19 @@
 		"Stankers' Bronze Pickaxes": {
 			"Poison chalice": true,
 			"Bronze pickaxe": true
+		},
+		"Stealing Creation Reward Shop": {
+			"Artisan's bandana": true,
+			"Artisan's top": true,
+			"Artisan's legs": true,
+			"Artisan's gloves": true,
+			"Artisan's boots": true,
+			"Artisan's bandana add-on": true,
+			"Fletcher's headwear": true,
+			"Fletcher's chestpiece": true,
+			"Fletcher's legwear": true,
+			"Fletcher's gloves": true,
+			"Fletcher's boots": true
 		},
 		"Summoning Supplies (Bogrog)": {
 			"Antlers": true,
@@ -234338,26 +234753,6 @@
 				"Empty pot": "Always",
 				"Chef's hat": "Always",
 				"Empty beer glass": "Always"
-			},
-			"Construction Contracts rewards": {
-				"Plank box": {
-					"1": "Always"
-				},
-				"Master constructor's hat": {
-					"1": "Always"
-				},
-				"Master constructor's jacket": {
-					"1": "Always"
-				},
-				"Master constructor's trousers": {
-					"1": "Always"
-				},
-				"Master constructor's gloves": {
-					"1": "Always"
-				},
-				"Master constructor's boots": {
-					"1": "Always"
-				}
 			}
 		},
 		"Crafting": {
@@ -254740,41 +255135,6 @@
 					"1": "Always"
 				}
 			},
-			"Stealing Creation rewards": {
-				"Artisan's bandana": {
-					"1": "Always"
-				},
-				"Artisan's top": {
-					"1": "Always"
-				},
-				"Artisan's legs": {
-					"1": "Always"
-				},
-				"Artisan's gloves": {
-					"1": "Always"
-				},
-				"Artisan's boots": {
-					"1": "Always"
-				},
-				"Artisan's bandana add-on": {
-					"1": "Always"
-				},
-				"Fletcher's headwear": {
-					"1": "Always"
-				},
-				"Fletcher's chestpiece": {
-					"1": "Always"
-				},
-				"Fletcher's legwear": {
-					"1": "Always"
-				},
-				"Fletcher's gloves": {
-					"1": "Always"
-				},
-				"Fletcher's boots": {
-					"1": "Always"
-				}
-			},
 			"The Pit rewards": {
 				"Nimble headwear": {
 					"1": "1/3"
@@ -254792,180 +255152,6 @@
 					"1": "1/3"
 				},
 				"Gorilla mask": {
-					"1": "Always"
-				}
-			},
-			"Castle Wars rewards": {
-				"Basic decorative helm": {
-					"1": "Always"
-				},
-				"Basic decorative shield": {
-					"1": "Always"
-				},
-				"Basic decorative platelegs": {
-					"1": "Always"
-				},
-				"Basic decorative platebody": {
-					"1": "Always"
-				},
-				"Basic decorative sword": {
-					"1": "Always"
-				},
-				"Detailed decorative helm": {
-					"1": "Always"
-				},
-				"Detailed decorative shield": {
-					"1": "Always"
-				},
-				"Detailed decorative platelegs": {
-					"1": "Always"
-				},
-				"Detailed decorative platebody": {
-					"1": "Always"
-				},
-				"Detailed decorative sword": {
-					"1": "Always"
-				},
-				"Intricate decorative helm": {
-					"1": "Always"
-				},
-				"Intricate decorative shield": {
-					"1": "Always"
-				},
-				"Intricate decorative platelegs": {
-					"1": "Always"
-				},
-				"Intricate decorative platebody": {
-					"1": "Always"
-				},
-				"Intricate decorative sword": {
-					"1": "Always"
-				},
-				"Profound decorative helm": {
-					"1": "Always"
-				},
-				"Profound decorative shield": {
-					"1": "Always"
-				},
-				"Profound decorative platelegs": {
-					"1": "Always"
-				},
-				"Profound decorative platebody": {
-					"1": "Always"
-				},
-				"Profound decorative sword": {
-					"1": "Always"
-				},
-				"Faithful shield": {
-					"1": "Always"
-				},
-				"Guthix halo": {
-					"1": "Always"
-				},
-				"Saradomin halo": {
-					"1": "Always"
-				},
-				"Zamorak halo": {
-					"1": "Always"
-				},
-				"Castle Wars flag cape": {
-					"1": "Always"
-				},
-				"Castle Wars kills cape": {
-					"1": "Always"
-				},
-				"Castle Wars hobbyist cape": {
-					"1": "Always"
-				},
-				"Castle Wars enthusiast cape": {
-					"1": "Always"
-				},
-				"Castle Wars professional cape": {
-					"1": "Always"
-				},
-				"Saradomin team hood": {
-					"1": "Always"
-				},
-				"Saradomin team cape": {
-					"1": "Always"
-				},
-				"Zamorak team hood": {
-					"1": "Always"
-				},
-				"Zamorak team cape": {
-					"1": "Always"
-				},
-				"Ballista base": {
-					"1": "Always"
-				},
-				"Ballista bolt stack": {
-					"1": "Always"
-				},
-				"Ballista bow": {
-					"1": "Always"
-				},
-				"Ballista chamber": {
-					"1": "Always"
-				},
-				"Ballista ammo": {
-					"1": "Always"
-				},
-				"Melee potion set": {
-					"1": "Always"
-				},
-				"Magic potion set": {
-					"1": "Always"
-				},
-				"Ranged potion set": {
-					"1": "Always"
-				},
-				"Castle Wars chinchompa": {
-					"1": "Always"
-				},
-				"Castle Wars manual": {
-				"1": "Always"
-			}
-			},
-			"Cabbage Facepunch Bonanza rewards": {
-				"Seedicide": {
-					"1": "Always"
-				},
-				"Farmer's hat": {
-					"1": "Always"
-				},
-				"Farmer's legwear": {
-					"1": "Always"
-				},
-				"Farmer's jacket": {
-					"1": "Always"
-				},
-				"Farmer's cuffs": {
-					"1": "Always"
-				},
-				"Farmer's boots": {
-					"1": "Always"
-				},
-				"Farmer's hat add-on": {
-					"1": "Always"
-				},
-				"Patch bomb": {
-					"1": "Always"
-				}
-			},
-			"Safecracking rewards": {
-				"Master thief's lockpick": {
-					"1": "Always"
-				},
-				"Master thief's stethoscope": {
-					"1": "Always"
-				},
-				"Medium loot bag": {
-					"1": "Always"
-				},
-				"Large loot bag": {
-					"1": "Always"
-				},
-				"Huge loot bag": {
 					"1": "Always"
 				}
 			},
@@ -255009,44 +255195,6 @@
 					"1": "Always"
 				}
 			},
-			"Archaeology rewards": {
-				"Archaeologist's hat": {
-					"1": "Always"
-				},
-				"Archaeologist's jacket": {
-					"1": "Always"
-				},
-				"Archaeologist's trousers": {
-					"1": "Always"
-				},
-				"Archaeologist's gloves": {
-					"1": "Always"
-				},
-				"Archaeologist's boots": {
-					"1": "Always"
-				},
-				"Auto-screener v1.080 Blueprint": {
-					"1": "Always"
-				},
-				"Master archaeologist's hat": {
-					"1": "Always"
-				},
-				"Master archaeologist's jacket": {
-					"1": "Always"
-				},
-				"Master archaeologist's trousers": {
-					"1": "Always"
-				},
-				"Master archaeologist's gloves": {
-					"1": "Always"
-				},
-				"Master archaeologist's boots": {
-					"1": "Always"
-				},
-				"Energised meteorite shard": {
-					"1": "Always"
-				}
-			},
 			"Guthixian Cache rewards": {
 				"Diviner's headwear": {
 					"1": "Always"
@@ -255061,65 +255209,6 @@
 					"1": "Always"
 				},
 				"Diviner's footwear": {
-					"1": "Always"
-				}
-			},
-			"Barbarian Assault rewards": {
-				"Attacker's insignia": {
-					"1": "Always"
-				},
-				"Defender's insignia": {
-					"1": "Always"
-				},
-				"Collector's insignia": {
-					"1": "Always"
-				},
-				"Healer's insignia": {
-					"1": "Always"
-				},
-				"Fighter hat": {
-					"1": "Always"
-				},
-				"Ranger hat": {
-					"1": "Always"
-				},
-				"Runner hat": {
-					"1": "Always"
-				},
-				"Healer hat": {
-					"1": "Always"
-				},
-				"Fighter torso": {
-					"1": "Always"
-				},
-				"Penance skirt": {
-					"1": "Always"
-				},
-				"Runner boots": {
-					"1": "Always"
-				},
-				"Penance gloves": {
-					"1": "Always"
-				},
-				"Penance trident": {
-					"1": "Always"
-				},
-				"Penance master trident": {
-					"1": "Always"
-				},
-				"Penance horn": {
-					"1": "Always"
-				},
-				"Penance master horn": {
-					"1": "Always"
-				},
-				"Granite body": {
-					"1": "Always"
-				},
-				"The Account of Aesa Fellsdottir (Part 1)": {
-					"1": "Always"
-				},
-				"The Account of Aesa Fellsdottir (Part 2)": {
 					"1": "Always"
 				}
 			},
@@ -255190,254 +255279,7 @@
 					"1": "Always"
 				}
 			},
-			"Pest Control rewards": {
-				"Void knight melee helm": {
-					"1": "Always"
-				},
-				"Void knight ranger helm": {
-					"1": "Always"
-				},
-				"Void knight mage helm": {
-					"1": "Always"
-				},
-				"Void knight top": {
-					"1": "Always"
-				},
-				"Void knight robes": {
-					"1": "Always"
-				},
-				"Void knight gloves": {
-					"1": "Always"
-				},
-				"Void knight deflector": {
-					"1": "Always"
-				},
-				"Void knight mace": {
-					"1": "Always"
-				},
-				"Jessika's sword": {
-					"1": "Always"
-				},
-				"Void knight armour patch": {
-					"1": "Always"
-				},
-				"Torcher charm": {
-					"1": "Always"
-				},
-				"Ravager charm": {
-					"1": "Always"
-				},
-				"Spinner charm": {
-					"1": "Always"
-				},
-				"Shifter charm": {
-					"1": "Always"
-				}
-			},
-			"Soul Wars rewards": {
-				"Bones": {
-					"209-290 (noted)": "Uncommon"
-				},
-				"Wolf bones": {
-					"18-39 (noted)": "Uncommon"
-				},
-				"Big bones": {
-					"60 (noted)": "Uncommon"
-				},
-				"Dagannoth bones": {
-					"3-5 (noted)": "Uncommon"
-				},
-				"Baby dragon bones": {
-					"23 (noted)": "Uncommon"
-				},
-				"Dragon bones": {
-					"11 (noted)": "Uncommon"
-				},
-				"Wyvern bones": {
-					"11-23 (noted)": "Uncommon"
-				},
-				"Snake hide": {
-					"10 (noted)": "Uncommon"
-				},
-				"Dagannoth hide": {
-					"5": "Uncommon"
-				},
-				"Green dragonhide": {
-					"10 (noted)": "Uncommon"
-				},
-				"Ogre coffin key": {
-					"42 (noted)": "Uncommon"
-				},
-				"Desert goat horn": {
-					"6 (noted)": "Uncommon"
-				},
-				"Potato cactus": {
-					"18-19 (noted)": "Uncommon"
-				},
-				"Bagged plant 1": {
-					"20 (noted)": "Uncommon"
-				},
-				"Evil turnip": {
-					"7 (noted)": "Uncommon"
-				},
-				"Carved evil turnip": {
-					"7 (noted)": "Uncommon"
-				},
-				"Marigolds": {
-					"6-8": "Uncommon"
-				},
-				"Graahk fur": {
-					"5-21 (noted)": "Uncommon"
-				},
-				"Kyatt fur": {
-					"4-9 (noted)": "Uncommon"
-				},
-				"Larupia fur": {
-					"4-12 (noted)": "Uncommon"
-				},
-				"Proboscis": {
-					"12 (noted)": "Uncommon"
-				},
-				"Red flowers": {
-					"9 (noted)": "Uncommon"
-				},
-				"Thin snail": {
-					"20 (noted)": "Uncommon"
-				},
-				"Unicorn horn": {
-					"22": "Uncommon"
-				},
-				"Vampyre dust": {
-					"19-28 (noted)": "Uncommon"
-				}
-			},
 			"Shattered Worlds rewards": {
-				"Slayer's Insight ability": {
-					"1": "Always"
-				},
-				"Kuradal's Favour ability": {
-					"1": "Always"
-				},
-				"Aggression ability": {
-					"1": "Always"
-				},
-				"Bladed Dive ability": {
-					"1": "Always"
-				},
-				"Salt the Wound ability": {
-					"1": "Always"
-				},
-				"Abyssal Knights' armour override": {
-					"1": "Always"
-				},
-				"'The Abyssal Knight' title": {
-					"1": "Always"
-				},
-				"'Animaniac' title": {
-					"1": "Always"
-				},
-				"'Abyss Diver' title": {
-					"1": "Always"
-				},
-				"Anima Pet - Tier 1": {
-					"1": "Always"
-				},
-				"Anima Pet - Tier 2": {
-					"1": "Always"
-				},
-				"Anima Pet - Tier 3": {
-					"1": "Always"
-				},
-				"Anima Pet - Tier 4": {
-					"1": "Always"
-				},
-				"Anima Pet - Tier 5": {
-					"1": "Always"
-				},
-				"Anima Pet - Tier 6": {
-					"1": "Always"
-				},
-				"Anima Pet - Tier 7": {
-					"1": "Always"
-				},
-				"Anima Pet - Tier 8": {
-					"1": "Always"
-				},
-				"Anima Pet - Tier 9": {
-					"1": "Always"
-				},
-				"Spirit of Battle": {
-					"1": "Always"
-				},
-				"Mask of the Troll": {
-					"1": "Always"
-				},
-				"Mask of Broken Fingers": {
-					"1": "Always"
-				},
-				"Mask of Mourning": {
-					"1": "Always"
-				},
-				"Mask of Stone": {
-					"1": "Always"
-				},
-				"Mask of Reflection": {
-					"1": "Always"
-				},
-				"Mask of the Black Demon": {
-					"1": "Always"
-				},
-				"Mask of Crimson": {
-					"1": "Always"
-				},
-				"Mask of Gelatin": {
-					"1": "Always"
-				},
-				"Mask of Stench": {
-					"1": "Always"
-				},
-				"Mask of Dust": {
-					"1": "Always"
-				},
-				"Mask of the Kura": {
-					"1": "Always"
-				},
-				"Mask of the Automatons": {
-					"1": "Always"
-				},
-				"Mask of the Green Wyrm": {
-					"1": "Always"
-				},
-				"Mask of Granite": {
-					"1": "Always"
-				},
-				"Mask of the Yellow Wyrm": {
-					"1": "Always"
-				},
-				"Mask of Vines": {
-					"1": "Always"
-				},
-				"Mask of the Dagannoth": {
-					"1": "Always"
-				},
-				"Mask of the White Wyrm": {
-					"1": "Always"
-				},
-				"Mask of the Airut": {
-					"1": "Always"
-				},
-				"Mask of the Aquanites": {
-					"1": "Always"
-				},
-				"Mask of the Ganodermic": {
-					"1": "Always"
-				},
-				"Mask of Gloom": {
-					"1": "Always"
-				},
-				"Mask of the Abyss": {
-					"1": "Always"
-				},
 				"Abyssal hound": {
 					"1": "1/150000"
 				}
@@ -255528,63 +255370,6 @@
 				},
 				"'The Boundless' title": {
 					"1": "Very rare"
-				},
-				"Warpriest of Tuska gauntlets": {
-					"1": "Always"
-				},
-				"Warpriest of Tuska boots": {
-					"1": "Always"
-				},
-				"Warpriest of Tuska cuirass": {
-					"1": "Always"
-				},
-				"Warpriest of Tuska robe legs": {
-					"1": "Always"
-				},
-				"Warpriest of Tuska helm": {
-					"1": "Always"
-				},
-				"Warpriest of Tuska cape": {
-					"1": "Always"
-				},
-				"Saradomin Spear override": {
-					"1": "Always"
-				},
-				"Armadyl Spear override": {
-					"1": "Always"
-				},
-				"Zamorak Spear override": {
-					"1": "Always"
-				},
-				"Godless Spear override": {
-					"1": "Always"
-				},
-				"Calibration Device": {
-					"1": "Always"
-				},
-				"Sacrifice ability": {
-					"1": "Always"
-				},
-				"Devotion ability": {
-					"1": "Always"
-				},
-				"Transfigure ability": {
-					"1": "Always"
-				},
-				"Tuska's Wrath ability": {
-					"1": "Always"
-				},
-				"Tuska emote tier 1": {
-					"1": "Always"
-				},
-				"Tuska emote tier 2": {
-					"1": "Always"
-				},
-				"Tuska emote tier 3": {
-					"1": "Always"
-				},
-				"Tuska storm teleport": {
-					"1": "Always"
 				}
 			},
 			"Circus rewards": {
@@ -255706,32 +255491,6 @@
 					"1": "Common"
 				}
 			},
-			"Big Chinchompa rewards": {
-				"Swamp toad": {
-					"1 (noted)": "Always"
-				},
-				"Flax": {
-					"1 (noted)": "Always"
-				},
-				"Swamp tar": {
-					"1 (noted)": "Always"
-				},
-				"Green salamander quota ticket": {
-					"1": "Always"
-				},
-				"Carnivorous chinchompa quota ticket": {
-					"1": "Always"
-				},
-				"Pawya quota ticket": {
-					"1": "Always"
-				},
-				"Polar kebbit quota ticket": {
-					"1": "Always"
-				},
-				"Grenwall quota ticket": {
-					"1": "Always"
-				}
-			},
 			"Evil Tree rewards": {
 				"Fellstalk seed": {
 					"1-11": "Rare"
@@ -255755,7 +255514,7 @@
 					"1": "Uncommon"
 				}
 			},
-			"Goblin Raids rewards (farm)": {
+			"Goblin Raid rewards (farm)": {
 				"Potato seed": {
 					"1": "1/3"
 				},
@@ -255766,7 +255525,7 @@
 					"1": "1/3"
 				}
 			},
-			"Goblin Raids rewards (forest)": {
+			"Goblin Raid rewards (forest)": {
 				"Yew logs": {
 					"1": "1/5"
 				},
@@ -255774,7 +255533,7 @@
 					"1": "4/5"
 				}
 			},
-			"Goblin Raids rewards (mine)": {
+			"Goblin Raid rewards (mine)": {
 				"Coal stone spirit": {
 					"1": "3/10"
 				},
@@ -255783,98 +255542,6 @@
 				},
 				"Clay": {
 					"1": "4/10"
-				}
-			},
-			"Goblin Raids rewards (any)": {
-				"Raider chainbody": {
-					"1": "Always"
-				},
-				"Raider axe": {
-					"1": "Always"
-				},
-				"Raider shield": {
-					"1": "Always"
-				},
-				"Bones": {
-					"1": "Always"
-				},
-				"Earth rune": {
-					"4": "Common"
-				},
-				"Mind rune": {
-					"2": "Common"
-				},
-				"Body rune": {
-					"2": "Common"
-				},
-				"Chaos rune": {
-					"1": "Common"
-				},
-				"Nature rune": {
-					"1": "Uncommon"
-				},
-				"Bronze arrow": {
-					"20": "Common"
-				},
-				"Bronze javelin": {
-					"5": "Common"
-				},
-				"Cape (red)": {
-					"1": "Rare"
-				},
-				"Grapes": {
-					"1": "Uncommon"
-				},
-				"Tin stone spirit": {
-					"1": "Uncommon"
-				},
-				"Goblin mail": {
-					"1": "Common"
-				},
-				"Goblin book": {
-					"1": "Uncommon"
-				},
-				"Gud raider axe": {
-					"1": "1/512"
-				},
-				"Gud raider chainbody": {
-					"1": "1/512"
-				},
-				"Gud raider shield": {
-					"1": "1/512"
-				},
-				"Grimy guam": {
-					"1": "Uncommon"
-				},
-				"Grimy tarromin": {
-					"1": "Uncommon"
-				},
-				"Grimy marrentill": {
-					"1": "Uncommon"
-				},
-				"Grimy Harralander": {
-					"1": "Uncommon"
-				},
-				"Grimy ranarr": {
-					"1": "Uncommon"
-				},
-				"Grimy irit": {
-					"1": "Uncommon"
-				},
-				"Grimy avantoe": {
-					"1": "Rare"
-				},
-				"Grimy kwuarm": {
-					"1": "Rare"
-				},
-				"Grimy cadanatine": {
-					"1": "Rare"
-				},
-				"Grimy lantadyme": {
-					"1": "Rare"
-				},
-				"Grimy dwarf weed": {
-					"1": "Rare"
 				}
 			},
 			"Memory of Nomad rewards": {
@@ -256118,248 +255785,6 @@
 					"1": "1/100"
 				}
 			},
-			"Demon Flash Mob rewards (normal)": {
-				"Infernal ashes": {
-					"1": "Always"
-				},
-				"Accursed ashes": {
-					"1": "Always"
-				},
-				"Coal stone spirit": {
-					"80": "1/4"
-				},
-				"Coins": {
-					"20000": "1/6"
-				},
-				"Demon claw": {
-					"3-8 (noted)": "1/3"
-				},
-				"Dragon longsword": {
-					"1": "1/6"
-				},
-				"Grimy avantoe": {
-					"8 (noted)": "1/6"
-				},
-				"Grimy irit": {
-					"14 (noted)": "1/5"
-				},
-				"Grimy lantadyme": {
-					"5 (noted)": "1/5"
-				},
-				"Huge plated rune salvage": {
-					"1": "1/4"
-				},
-				"Infernal ashes": {
-					"30 (noted)": "1/21"
-				},
-				"Lantadyme seed": {
-					"2": "1/9"
-				},
-				"Large plated rune salvage": {
-					"1": "1/4"
-				},
-				"Maple logs": {
-					"200 (noted)": "1/5"
-				},
-				"Mithril stone spirit": {
-					"20": "1/5",
-					"40": "1/4"
-				},
-				"Rare drop table": {
-					"1": "Rare"
-				},
-				"Uncut ruby": {
-					"10 (noted)": "1/8"
-				},
-				"Yew logs": {
-					"60 (noted)": "1/3"
-				},
-				"Demon slayer circlet": {
-					"1": "1/256"
-				},
-				"Demon slayer torso": {
-					"1": "1/256"
-				},
-				"Demon slayer skirt": {
-					"1": "1/256"
-				},
-				"Demon slayer gloves": {
-					"1": "1/256"
-				},
-				"Demon slayer boots": {
-					"1": "1/256"
-				},
-				"Demon slayer crossbow": {
-					"1": "1/256"
-				},
-				"Off-hand demon slayer crossbow": {
-					"1": "1/256"
-				},
-				"Demon title scroll (terrifying)": {
-					"1": "1/2000"
-				},
-				"Demon title scroll (shattering)": {
-					"1": "1/2000"
-				},
-				"Demon title scroll (rending)": {
-					"1": "1/2000"
-				},
-				"Demon title scroll (pestilent)": {
-					"1": "1/2000"
-				},
-				"Demon title scroll (obscured)": {
-					"1": "1/2000"
-				},
-				"Demon title scroll (infernal)": {
-					"1": "1/2000"
-				},
-				"Demon title scroll (glorious)": {
-					"1": "1/2000"
-				},
-				"Demon title scroll (frostborn)": {
-					"1": "1/2000"
-				},
-				"Demon title scroll (corrupting)": {
-					"1": "1/2000"
-				},
-				"Demon title scroll (blazing)": {
-					"1": "1/2000"
-				},
-				"Demon title scroll (castellan)": {
-					"1": "1/2000"
-				},
-				"Demon title scroll (deacon)": {
-					"1": "1/2000"
-				},
-				"Demon title scroll (executioner)": {
-					"1": "1/2000"
-				},
-				"Demon title scroll (general)": {
-					"1": "1/2000"
-				}
-			},
-			"Demon Flash Mob rewards (wilderness)": {
-				"Infernal ashes": {
-					"5": "Always"
-				},
-				"Accursed ashes": {
-					"1": "Always"
-				},
-				"Adamantite stone spirit": {
-					"25": "1/25"
-				},
-				"Coins": {
-					"45000": "1/6"
-				},
-				"Demon claw": {
-					"5-10 (noted)": "1/3"
-				},
-				"Dragon longsword": {
-					"1": "1/6"
-				},
-				"Grimy avantoe": {
-					"20 (noted)": "1/6"
-				},
-				"Grimy irit": {
-					"30 (noted)": "1/5"
-				},
-				"Grimy lantadyme": {
-					"10 (noted)": "1/5"
-				},
-				"Huge plated rune salvage": {
-					"1": "1/4"
-				},
-				"Infernal ashes": {
-					"60 (noted)": "1/21"
-				},
-				"Lantadyme seed": {
-					"3": "1/9"
-				},
-				"Large plated rune salvage": {
-					"1": "1/4"
-				},
-				"Magic logs": {
-					"40 (noted)": "1/5"
-				},
-				"Black dragonhide": {
-					"10 (noted)": "1/64"
-				},
-				"Rare drop table": {
-					"1": "Rare"
-				},
-				"Red dragonhide": {
-					"15 (noted)": "1/43"
-				},
-				"Runite stone spirit": {
-					"4-5": "1/43"
-				},
-				"Dragon helm": {
-					"1": "1/64"
-				},
-				"Demon slayer circlet": {
-					"1": "1/256"
-				},
-				"Demon slayer torso": {
-					"1": "1/256"
-				},
-				"Demon slayer skirt": {
-					"1": "1/256"
-				},
-				"Demon slayer gloves": {
-					"1": "1/256"
-				},
-				"Demon slayer boots": {
-					"1": "1/256"
-				},
-				"Demon slayer crossbow": {
-					"1": "1/256"
-				},
-				"Off-hand demon slayer crossbow": {
-					"1": "1/256"
-				},
-				"Demon title scroll (terrifying)": {
-					"1": "1/2000"
-				},
-				"Demon title scroll (shattering)": {
-					"1": "1/2000"
-				},
-				"Demon title scroll (rending)": {
-					"1": "1/2000"
-				},
-				"Demon title scroll (pestilent)": {
-					"1": "1/2000"
-				},
-				"Demon title scroll (obscured)": {
-					"1": "1/2000"
-				},
-				"Demon title scroll (infernal)": {
-					"1": "1/2000"
-				},
-				"Demon title scroll (glorious)": {
-					"1": "1/2000"
-				},
-				"Demon title scroll (frostborn)": {
-					"1": "1/2000"
-				},
-				"Demon title scroll (corrupting)": {
-					"1": "1/2000"
-				},
-				"Demon title scroll (blazing)": {
-					"1": "1/2000"
-				},
-				"Demon title scroll (castellan)": {
-					"1": "1/2000"
-				},
-				"Demon title scroll (deacon)": {
-					"1": "1/2000"
-				},
-				"Demon title scroll (executioner)": {
-					"1": "1/2000"
-				},
-				"Demon title scroll (general)": {
-					"1": "1/2000"
-				}
-			}
 		}
 	},
 	"slayerEquipment": {
