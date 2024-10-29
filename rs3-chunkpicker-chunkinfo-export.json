@@ -56755,13 +56755,13 @@
 				"Output": "Crawling hand",
 				"NoPet": true
 			},
-			"Slay a ~|skeleton hand|~": {
+			"Slay a ~|skeletal hand|~": {
 				"Level": 5,
-				"Monsters": ["Skeleton hand"],
+				"Monsters": ["Skeletal hand"],
 				"Primary": false,
 				"Priority": 3,
 				"Source": "drop",
-				"Output": "Skeleton hand",
+				"Output": "Skeletal hand",
 				"NoPet": true
 			},
 			"Slay a ~|zombie hand|~": {
@@ -57518,7 +57518,7 @@
 				"Primary": false,
 				"Priority": 1,
 				"Source": "drop",
-				"Output": "Mutated jadinko",
+				"Output": "Mutated jadinko guard",
 				"NoPet": true
 			},
 			"Slay a ~|grifolapine|~": {
@@ -57831,13 +57831,13 @@
 				"Output": "Ripper Demon",
 				"NoPet": true
 			},
-			"Slay a ~|camel warrior|~": {
+			"Slay a ~|Camel Warrior|~": {
 				"Level": 96,
-				"Monsters": ["Camel warrior"],
+				"Monsters": ["Camel Warrior"],
 				"Primary": false,
 				"Priority": 4,
 				"Source": "drop",
-				"Output": "Camel warrior",
+				"Output": "Camel Warrior",
 				"NoPet": true
 			},
 			"Slay an ~|Acheron mammoth|~": {
@@ -57959,7 +57959,7 @@
 				"Primary": false,
 				"Priority": 2,
 				"Source": "drop",
-				"Output": "Vemonous dinosaur",
+				"Output": "Venomous dinosaur",
 				"NoPet": true
 			},
 			"Slay a ~|bulbous crawler|~": {
@@ -164233,8 +164233,8 @@
 			"Bronze dragons": {
 				"Bronze dragon": true
 			},
-			"Camel warriors": {
-				"Camel warrior": true
+			"Camel Warriors": {
+				"Camel Warrior": true
 			},
 			"Catablepon": {
 				"Catablepon": true
@@ -248678,7 +248678,7 @@
 	"slayerMonsters": {
 		"Gelatinous abomination": 1,
 		"Crawling Hand": 5,
-		"Skeleton hand": 5,
+		"Skeletal hand": 5,
 		"Zombie hand": 5,
 		"Cave bug": 7,
 		"Cave bug (Burthorpe)": 7,
@@ -248792,7 +248792,7 @@
 		"Arhat": 96,
 		"Wyvern": 96,
 		"Ripper Demon": 96,
-		"Camel warrior": 96,
+		"Camel Warrior": 96,
 		"Acheron mammoth": 96,
 		"Corrupted dust devil": 97,
 		"Onyx dragon": 98,
@@ -312178,7 +312178,7 @@
 			"Bound skeletons": {
 				"Weight": 8
 			},
-			"Camel warriors": {
+			"Camel Warriors": {
 				"Weight": 6
 			},
 			"Dagannoth": {
@@ -312849,7 +312849,7 @@
 			"Blue dragons": {
 				"Weight": 7
 			},
-			"Camel warriors": {
+			"Camel Warriors": {
 				"Level": 96,
 				"Weight": 8
 			},
@@ -313065,7 +313065,7 @@
 			"Black dragons": {
 				"Weight": 5
 			},
-			"Camel warriors": {
+			"Camel Warriors": {
 				"Level": 96,
 				"Weight": 8
 			},
@@ -313261,7 +313261,7 @@
 			"Black dragons": {
 				"Weight": 5
 			},
-			"Camel warriors": {
+			"Camel Warriors": {
 				"Level": 96,
 				"Weight": 8
 			},
