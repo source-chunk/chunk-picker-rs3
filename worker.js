@@ -1029,7 +1029,7 @@ let calcChallenges = function(chunks, baseChunkData) {
 
     do {
         i++;
-        type === 'current' && postMessage(((i + 1) * 6) + '%');
+        type === 'current' && postMessage(((Math.max(i, .1)) * 5.5) + '%');
         !!tempItemSkill && Object.keys(tempItemSkill).forEach((skill) => {
             let skillMax = Math.max(...Object.values(newValids[skill]));
             !!tempItemSkill[skill] && Object.keys(tempItemSkill[skill]).forEach((item) => {
@@ -1373,7 +1373,7 @@ let calcChallenges = function(chunks, baseChunkData) {
                 });
             });
             leftoversCount++;
-            type === 'current' && postMessage(((i + 1 + (.2 * Math.min(leftoversCount, 5))) * 6) + '%');
+            type === 'current' && postMessage(((Math.max(i, .1) + (.16 * Math.min(leftoversCount, 5))) * 5.5) + '%');
         }
         Object.keys(newValids).filter((skill) => { return skill !== 'BiS' }).forEach((skill) => {
             let skillIsPrimary = checkPrimaryMethod(skill, newValids, baseChunkData);
@@ -3139,11 +3139,11 @@ let calcChallengesWork = function(chunks, baseChunkData, oldTempItemSkill) {
 
     let tempSkills;
     if (rules['F2P'] && rules['Skiller']) {
-        tempSkills = [...f2pSkills.filter(x => !combatSkills.includes(x) && x !== 'Combat' && x !== 'Slayer'), 'Nonskill', 'Quest', 'Extra'];
+        tempSkills = [...f2pSkills.filter(x => !combatSkills.includes(x) && x !== 'Combat' && x !== 'Slayer'), 'Nonskill', 'Quest', 'Diary', 'Extra'];
     } else if (rules['F2P']) {
-        tempSkills = [...f2pSkills, 'Nonskill', 'Quest', 'Extra'];
+        tempSkills = [...f2pSkills, 'Nonskill', 'Quest', 'Diary', 'Extra'];
     } else if (rules['Skiller']) {
-        tempSkills = [...skillNames.filter(x => !combatSkills.includes(x) && x !== 'Combat' && x !== 'Slayer'), 'Nonskill', 'Quest', 'Extra'];
+        tempSkills = [...skillNames.filter(x => !combatSkills.includes(x) && x !== 'Combat' && x !== 'Slayer'), 'Nonskill', 'Quest', 'Diary', 'Extra'];
     } else {
         tempSkills = [...skillNames, 'Nonskill', 'Quest', 'Diary', 'Extra'];
     }
