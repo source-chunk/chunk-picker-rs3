@@ -302,9 +302,12 @@ onmessage = function(e) {
             !!craftedBisOverride && Object.keys(craftedBisOverride).forEach((skill) => {
                 craftedBisHighestLevel[skill] = 0;
                 !!craftedBisOverride[skill] && Object.keys(craftedBisOverride[skill]).forEach((name) => {
-                    if (Object.values(highestOverall).includes(chunkInfo['challenges'][skill][name]['Output']) && chunkInfo['challenges'][skill][name]['Level'] > bisOverrideMinLevel[skill] && craftedBisHighestLevel[skill] < chunkInfo['challenges'][skill][name]['Level'] && baseChunkData['items'].hasOwnProperty(chunkInfo['challenges'][skill][name]['Output']) && Object.values(baseChunkData['items'][chunkInfo['challenges'][skill][name]['Output']]).filter((source) => !source.includes(skill)).length === 0) {
+                    if (Object.values(highestOverall).includes(chunkInfo['challenges'][skill][name]['Output']) && chunkInfo['challenges'][skill][name]['Level'] > bisOverrideMinLevel[skill] && baseChunkData['items'].hasOwnProperty(chunkInfo['challenges'][skill][name]['Output']) && Object.values(baseChunkData['items'][chunkInfo['challenges'][skill][name]['Output']]).filter((source) => !source.includes(skill)).length === 0) {
                         craftedBisHighestLevel[skill] = chunkInfo['challenges'][skill][name]['Level'];
-                        toManuallyAdd[skill] = name;
+                        if (!toManuallyAdd[skill]) {
+                            toManuallyAdd[skill] = {};
+                        }
+                        toManuallyAdd[skill][name] = true;
                     }
                 });
                 craftedBisHighestLevel[skill] === 0 && (restartCalcs = true);
@@ -314,8 +317,25 @@ onmessage = function(e) {
                     if (!manualTasks[skill]) {
                         manualTasks[skill] = {};
                     }
-                    manualTasks[skill][toManuallyAdd[skill]] = craftedBisHighestLevel[skill];
-                    chunkInfo['challenges'][skill][toManuallyAdd[skill]]['Priority'] = -1
+                    Object.keys(toManuallyAdd[skill]).forEach((name) => {
+                        manualTasks[skill][name] = chunkInfo['challenges'][skill][name]['Level'];
+                        chunkInfo['challenges'][skill][name]['Priority'] = -1;
+                        let tasksToProcess = [{ name: name, skill: skill }];
+                        let i = 0;
+                        while (i < tasksToProcess.length && i < 50) {
+                            !!chunkInfo['challenges'][tasksToProcess[i].skill][tasksToProcess[i].name]['Items'] && chunkInfo['challenges'][tasksToProcess[i].skill][tasksToProcess[i].name]['Items'].forEach((item) => {
+                                if (!!baseChunkData['items'][item.replaceAll('*', '')] && Object.keys(baseChunkData['items'][item.replaceAll('*', '')]).length === 1 && Object.values(baseChunkData['items'][item.replaceAll('*', '')])[0].includes('-') && !!craftedBisOverride[Object.values(baseChunkData['items'][item.replaceAll('*', '')])[0].split('-')[1]] && craftedBisOverride[Object.values(baseChunkData['items'][item.replaceAll('*', '')])[0].split('-')[1]].hasOwnProperty(Object.keys(baseChunkData['items'][item.replaceAll('*', '')])[0])) {
+                                    if (!manualTasks[Object.values(baseChunkData['items'][item.replaceAll('*', '')])[0].split('-')[1]]) {
+                                        manualTasks[Object.values(baseChunkData['items'][item.replaceAll('*', '')])[0].split('-')[1]] = {};
+                                    }
+                                    manualTasks[Object.values(baseChunkData['items'][item.replaceAll('*', '')])[0].split('-')[1]][Object.keys(baseChunkData['items'][item.replaceAll('*', '')])[0]] = chunkInfo['challenges'][Object.values(baseChunkData['items'][item.replaceAll('*', '')])[0].split('-')[1]][Object.keys(baseChunkData['items'][item.replaceAll('*', '')])[0]]['Level'];
+                                    chunkInfo['challenges'][Object.values(baseChunkData['items'][item.replaceAll('*', '')])[0].split('-')[1]][Object.keys(baseChunkData['items'][item.replaceAll('*', '')])[0]]['Priority'] = -1;
+                                    tasksToProcess.push({ name: Object.keys(baseChunkData['items'][item.replaceAll('*', '')])[0], skill: Object.values(baseChunkData['items'][item.replaceAll('*', '')])[0].split('-')[1] });
+                                }
+                            });
+                            i++;
+                        }
+                    });
                 });
                 didRestart = true;
                 onmessage(e);
@@ -1009,7 +1029,7 @@ let calcChallenges = function(chunks, baseChunkData) {
 
     do {
         i++;
-        type === 'current' && postMessage(((i + 1) * 6) + '%');
+        type === 'current' && postMessage(((Math.max(i, .1)) * 5.5) + '%');
         !!tempItemSkill && Object.keys(tempItemSkill).forEach((skill) => {
             let skillMax = Math.max(...Object.values(newValids[skill]));
             !!tempItemSkill[skill] && Object.keys(tempItemSkill[skill]).forEach((item) => {
@@ -1302,7 +1322,15 @@ let calcChallenges = function(chunks, baseChunkData) {
                                 }
                             }
                         }
-                        !!chunkInfo['challenges'][skill][challenge]['Requirements'] && chunkInfo['challenges'][skill][challenge]['Requirements'].filter((req) => { return !checkPrimaryMethod(req, newValids, baseChunkData) && !chunkInfo['challenges'][skill][challenge]['ManualValid'] }).some(req => {
+                        !!chunkInfo['challenges'][skill][challenge]['Requirements'] && Object.keys(chunkInfo['challenges'][skill][challenge]['Requirements']).filter((req) => {
+                            let highestLevel = 0;
+                            !!newValids && newValids.hasOwnProperty(req) && Object.keys(newValids[req]).forEach((task) => {
+                                if (!!chunkInfo['challenges'][req] && !!chunkInfo['challenges'][req][task] && !!chunkInfo['challenges'][req][task]['Level'] && chunkInfo['challenges'][req][task]['Level'] > highestLevel) {
+                                    highestLevel = chunkInfo['challenges'][req][task]['Level'];
+                                }
+                            });
+                            return !checkPrimaryMethod(req, newValids, baseChunkData) && !chunkInfo['challenges'][skill][challenge]['ManualValid'] && (!passiveSkill || !passiveSkill.hasOwnProperty(req) || passiveSkill[req] <= 1 || passiveSkill[req] < chunkInfo['challenges'][req][chunkInfo['challenges'][skill][challenge]['Requirements'][req]]) && (highestLevel <= 1 || highestLevel < chunkInfo['challenges'][req][chunkInfo['challenges'][skill][challenge]['Requirements'][req]]);
+                        }).some(req => {
                             if (!nonValids.hasOwnProperty(challenge)) {
                                 nonValids[challenge] = [];
                             }
@@ -1353,7 +1381,7 @@ let calcChallenges = function(chunks, baseChunkData) {
                 });
             });
             leftoversCount++;
-            type === 'current' && postMessage(((i + 1 + (.2 * Math.min(leftoversCount, 5))) * 6) + '%');
+            type === 'current' && postMessage(((Math.max(i, .1) + (.16 * Math.min(leftoversCount, 5))) * 5.5) + '%');
         }
         Object.keys(newValids).filter((skill) => { return skill !== 'BiS' }).forEach((skill) => {
             let skillIsPrimary = checkPrimaryMethod(skill, newValids, baseChunkData);
@@ -1496,7 +1524,15 @@ let calcChallenges = function(chunks, baseChunkData) {
                         }
                     }
                 }
-                !!chunkInfo['challenges'][skill][challenge]['Requirements'] && chunkInfo['challenges'][skill][challenge]['Requirements'].filter((req) => { return !checkPrimaryMethod(req, newValids, baseChunkData) && !chunkInfo['challenges'][skill][challenge]['ManualValid'] }).some(req => {
+                !!chunkInfo['challenges'][skill][challenge]['Requirements'] && Object.keys(chunkInfo['challenges'][skill][challenge]['Requirements']).filter((req) => {
+                    let highestLevel = 0;
+                    !!newValids && newValids.hasOwnProperty(req) && Object.keys(newValids[req]).forEach((task) => {
+                        if (!!chunkInfo['challenges'][req] && !!chunkInfo['challenges'][req][task] && !!chunkInfo['challenges'][req][task]['Level'] && chunkInfo['challenges'][req][task]['Level'] > highestLevel) {
+                            highestLevel = chunkInfo['challenges'][req][task]['Level'];
+                        }
+                    });
+                    return !checkPrimaryMethod(req, newValids, baseChunkData) && !chunkInfo['challenges'][skill][challenge]['ManualValid'] && (!passiveSkill || !passiveSkill.hasOwnProperty(req) || passiveSkill[req] <= 1 || passiveSkill[req] < chunkInfo['challenges'][req][chunkInfo['challenges'][skill][challenge]['Requirements'][req]]) && (highestLevel <= 1 || highestLevel < chunkInfo['challenges'][req][chunkInfo['challenges'][skill][challenge]['Requirements'][req]]);
+                }).some(req => {
                     if (!nonValids.hasOwnProperty(challenge)) {
                         nonValids[challenge] = [];
                     }
@@ -3119,11 +3155,11 @@ let calcChallengesWork = function(chunks, baseChunkData, oldTempItemSkill) {
 
     let tempSkills;
     if (rules['F2P'] && rules['Skiller']) {
-        tempSkills = [...f2pSkills.filter(x => !combatSkills.includes(x) && x !== 'Combat' && x !== 'Slayer'), 'Nonskill', 'Quest', 'Extra'];
+        tempSkills = [...f2pSkills.filter(x => !combatSkills.includes(x) && x !== 'Combat' && x !== 'Slayer'), 'Nonskill', 'Quest', 'Diary', 'Extra'];
     } else if (rules['F2P']) {
-        tempSkills = [...f2pSkills, 'Nonskill', 'Quest', 'Extra'];
+        tempSkills = [...f2pSkills, 'Nonskill', 'Quest', 'Diary', 'Extra'];
     } else if (rules['Skiller']) {
-        tempSkills = [...skillNames.filter(x => !combatSkills.includes(x) && x !== 'Combat' && x !== 'Slayer'), 'Nonskill', 'Quest', 'Extra'];
+        tempSkills = [...skillNames.filter(x => !combatSkills.includes(x) && x !== 'Combat' && x !== 'Slayer'), 'Nonskill', 'Quest', 'Diary', 'Extra'];
     } else {
         tempSkills = [...skillNames, 'Nonskill', 'Quest', 'Diary', 'Extra'];
     }
@@ -3993,7 +4029,7 @@ let calcChallengesWork = function(chunks, baseChunkData, oldTempItemSkill) {
                         lowestItem = challenge;
                         lowestName = name;
                     }
-                    if (rules['Wield Crafted Items Override'] && !didRestart && chunkInfo['challenges'][skill].hasOwnProperty(name) && chunkInfo['challenges'][skill][name].hasOwnProperty('Output') && chunkInfo['equipment'].hasOwnProperty(chunkInfo['challenges'][skill][name]['Output'])) {
+                    if (rules['Wield Crafted Items Override'] && !didRestart && chunkInfo['challenges'][skill].hasOwnProperty(name) && chunkInfo['challenges'][skill][name].hasOwnProperty('Output')) {
                         valids[skill][name] = chunkInfo['challenges'][skill][name]['Level'];
                         if (!craftedBisOverride[skill]) {
                             craftedBisOverride[skill] = {};
@@ -8813,6 +8849,20 @@ let gatherChunksInfo = function(chunksIn) {
     });
     unlockedSections = combineJSONs(unlockedSections, manualSectionsModified);
     unlockedSections = combineJSONs(unlockedSections, findConnectedSections(chunks, unlockedSections));
+
+    !!chunkInfo['codeItems']['droprateOverrides'] && Object.keys(chunkInfo['codeItems']['droprateOverrides']).forEach((monster) => {
+        Object.keys(chunkInfo['codeItems']['droprateOverrides'][monster]).forEach((drop) => {
+            chunkInfo['codeItems']['droprateOverrides'][monster][drop].forEach((overrideObj) => {
+                let useNewRate = true;
+                !!overrideObj['Chunks'] && overrideObj['Chunks'].forEach((chunk) => {
+                    if (!chunksIn.hasOwnProperty(chunk.split('-')[0]) || !unlockedSections.hasOwnProperty(chunk.split('-')[0]) || !unlockedSections[chunk.split('-')[0]][chunk.split('-')[1]]) {
+                        useNewRate = false;
+                    }
+                });
+                chunkInfo['drops'][monster][drop] = useNewRate ? overrideObj['NewRate'] : overrideObj['OldRate'];
+            });
+        });
+    });
 
     Object.keys(chunksIn).forEach((num) => {
         !!chunkInfo['chunks'][num] && !!chunkInfo['chunks'][num]['Sections'] && Object.keys(chunkInfo['chunks'][num]['Sections']).filter(section => !!unlockedSections[num] && unlockedSections[num][section]).forEach((section) => {
