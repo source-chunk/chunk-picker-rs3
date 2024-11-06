@@ -113257,7 +113257,9 @@
 				"Label": "BIS Skilling",
 				"Items": ["Pickaxe of Life and Death"],
 				"Priority": 1,
-				"Requirements": ["Mining"],
+				"Requirements": {
+					"Mining": 100
+				},
 				"Set": "BIS Pickaxe",
 				"Not F2P": true
 			},
@@ -113266,7 +113268,9 @@
 				"Label": "BIS Skilling",
 				"Items": ["Primal pickaxe + 5"],
 				"Priority": 2,
-				"Requirements": ["Mining"],
+				"Requirements": {
+					"Mining": 100
+				},
 				"Set": "BIS Pickaxe",
 				"Not F2P": true
 			},
@@ -113275,7 +113279,9 @@
 				"Label": "BIS Skilling",
 				"Items": ["Primal pickaxe"],
 				"Priority": 3,
-				"Requirements": ["Mining"],
+				"Requirements": {
+					"Mining": 100
+				},
 				"Set": "BIS Pickaxe",
 				"Not F2P": true
 			},
@@ -113284,7 +113290,9 @@
 				"Label": "BIS Skilling",
 				"Items": ["Pickaxe of Earth and Song"],
 				"Priority": 4,
-				"Requirements": ["Mining"],
+				"Requirements": {
+					"Mining": 90
+				},
 				"Set": "BIS Pickaxe",
 				"Not F2P": true
 			},
@@ -113293,7 +113301,9 @@
 				"Label": "BIS Skilling",
 				"Items": ["Elder rune pickaxe + 5"],
 				"Priority": 5,
-				"Requirements": ["Mining"],
+				"Requirements": {
+					"Mining": 90
+				},
 				"Set": "BIS Pickaxe",
 				"Not F2P": true
 			},
@@ -113302,7 +113312,9 @@
 				"Label": "BIS Skilling",
 				"Items": ["Elder rune pickaxe"],
 				"Priority": 6,
-				"Requirements": ["Mining"],
+				"Requirements": {
+					"Mining": 90
+				},
 				"Set": "BIS Pickaxe",
 				"Not F2P": true
 			},
@@ -113311,7 +113323,9 @@
 				"Label": "BIS Skilling",
 				"Items": ["Imcando pickaxe"],
 				"Priority": 7,
-				"Requirements": ["Mining"],
+				"Requirements": {
+					"Mining": 80
+				},
 				"Set": "BIS Pickaxe",
 				"Not F2P": true
 			},
@@ -113320,7 +113334,9 @@
 				"Label": "BIS Skilling",
 				"Items": ["Bane pickaxe + 4"],
 				"Priority": 8,
-				"Requirements": ["Mining"],
+				"Requirements": {
+					"Mining": 80
+				},
 				"Set": "BIS Pickaxe",
 				"Not F2P": true
 			},
@@ -113329,7 +113345,9 @@
 				"Label": "BIS Skilling",
 				"Items": ["Bane pickaxe"],
 				"Priority": 9,
-				"Requirements": ["Mining"],
+				"Requirements": {
+					"Mining": 80
+				},
 				"Set": "BIS Pickaxe",
 				"Not F2P": true
 			},
@@ -113338,7 +113356,9 @@
 				"Label": "BIS Skilling",
 				"Items": ["Crystal pickaxe"],
 				"Priority": 10,
-				"Requirements": ["Mining"],
+				"Requirements": {
+					"Mining": 70
+				},
 				"Set": "BIS Pickaxe",
 				"Not F2P": true
 			},
@@ -113347,7 +113367,9 @@
 				"Label": "BIS Skilling",
 				"Items": ["Necronium pickaxe + 4"],
 				"Priority": 11,
-				"Requirements": ["Mining"],
+				"Requirements": {
+					"Mining": 70
+				},
 				"Set": "BIS Pickaxe",
 				"Not F2P": true
 			},
@@ -113356,7 +113378,9 @@
 				"Label": "BIS Skilling",
 				"Items": ["Necronium pickaxe"],
 				"Priority": 12,
-				"Requirements": ["Mining"],
+				"Requirements": {
+					"Mining": 70
+				},
 				"Set": "BIS Pickaxe",
 				"Not F2P": true
 			},
@@ -113365,7 +113389,9 @@
 				"Label": "BIS Skilling",
 				"Items": ["Dragon pickaxe"],
 				"Priority": 13,
-				"Requirements": ["Mining"],
+				"Requirements": {
+					"Mining": 60
+				},
 				"Set": "BIS Pickaxe",
 				"Not F2P": true
 			},
@@ -113374,7 +113400,9 @@
 				"Label": "BIS Skilling",
 				"Items": ["Orikalkum pickaxe + 3"],
 				"Priority": 14,
-				"Requirements": ["Mining"],
+				"Requirements": {
+					"Mining": 60
+				},
 				"Set": "BIS Pickaxe",
 				"Not F2P": true
 			},
@@ -113383,7 +113411,9 @@
 				"Label": "BIS Skilling",
 				"Items": ["Orikalkum pickaxe"],
 				"Priority": 15,
-				"Requirements": ["Mining"],
+				"Requirements": {
+					"Mining": 60
+				},
 				"Set": "BIS Pickaxe",
 				"Not F2P": true
 			},
@@ -113392,7 +113422,9 @@
 				"Label": "BIS Skilling",
 				"Items": ["Rune pickaxe + 3"],
 				"Priority": 17,
-				"Requirements": ["Mining"],
+				"Requirements": {
+					"Mining": 50
+				},
 				"Set": "BIS Pickaxe"
 			},
 			"Obtain a ~|rune pickaxe|~": {
@@ -113400,7 +113432,9 @@
 				"Label": "BIS Skilling",
 				"Items": ["Rune pickaxe"],
 				"Priority": 18,
-				"Requirements": ["Mining"],
+				"Requirements": {
+					"Mining": 50
+				},
 				"Set": "BIS Pickaxe"
 			},
 			"Obtain an ~|adamant pickaxe + 2|~": {
@@ -113408,7 +113442,9 @@
 				"Label": "BIS Skilling",
 				"Items": ["Adamant pickaxe + 2"],
 				"Priority": 19,
-				"Requirements": ["Mining"],
+				"Requirements": {
+					"Mining": 40
+				},
 				"Set": "BIS Pickaxe"
 			},
 			"Obtain an ~|adamant pickaxe|~": {
@@ -113416,7 +113452,9 @@
 				"Label": "BIS Skilling",
 				"Items": ["Adamant pickaxe"],
 				"Priority": 20,
-				"Requirements": ["Mining"],
+				"Requirements": {
+					"Mining": 40
+				},
 				"Set": "BIS Pickaxe"
 			},
 			"Obtain a ~|mithril pickaxe + 2|~": {
@@ -113424,7 +113462,9 @@
 				"Label": "BIS Skilling",
 				"Items": ["Mithril pickaxe + 2"],
 				"Priority": 21,
-				"Requirements": ["Mining"],
+				"Requirements": {
+					"Mining": 30
+				},
 				"Set": "BIS Pickaxe"
 			},
 			"Obtain a ~|mithril pickaxe|~": {
@@ -113432,7 +113472,9 @@
 				"Label": "BIS Skilling",
 				"Items": ["Mithril pickaxe"],
 				"Priority": 22,
-				"Requirements": ["Mining"],
+				"Requirements": {
+					"Mining": 30
+				},
 				"Set": "BIS Pickaxe"
 			},
 			"Obtain a ~|steel pickaxe + 1|~": {
@@ -113440,7 +113482,9 @@
 				"Label": "BIS Skilling",
 				"Items": ["Steel pickaxe"],
 				"Priority": 23,
-				"Requirements": ["Mining"],
+				"Requirements": {
+					"Mining": 20
+				},
 				"Set": "BIS Pickaxe"
 			},
 			"Obtain a ~|steel pickaxe|~": {
@@ -113448,7 +113492,9 @@
 				"Label": "BIS Skilling",
 				"Items": ["Steel pickaxe"],
 				"Priority": 24,
-				"Requirements": ["Mining"],
+				"Requirements": {
+					"Mining": 20
+				},
 				"Set": "BIS Pickaxe"
 			},
 			"Obtain an ~|iron pickaxe + 1|~": {
@@ -113456,7 +113502,9 @@
 				"Label": "BIS Skilling",
 				"Items": ["Iron pickaxe + 1"],
 				"Priority": 25,
-				"Requirements": ["Mining"],
+				"Requirements": {
+					"Mining": 10
+				},
 				"Set": "BIS Pickaxe"
 			},
 			"Obtain an ~|iron pickaxe|~": {
@@ -113464,7 +113512,9 @@
 				"Label": "BIS Skilling",
 				"Items": ["Iron pickaxe"],
 				"Priority": 26,
-				"Requirements": ["Mining"],
+				"Requirements": {
+					"Mining": 10
+				},
 				"Set": "BIS Pickaxe"
 			},
 			"Obtain a ~|Imcando hatchet|~": {
@@ -113472,7 +113522,9 @@
 				"Label": "BIS Skilling",
 				"Items": ["Imcando hatchet"],
 				"Priority": 1,
-				"Requirements": ["Woodcutting"],
+				"Requirements": {
+					"Woodcutting": 80
+				},
 				"Set": "BIS Hatchet",
 				"Not F2P": true
 			},
@@ -113481,7 +113533,9 @@
 				"Label": "BIS Skilling",
 				"Items": ["Crystal hatchet"],
 				"Priority": 2,
-				"Requirements": ["Woodcutting"],
+				"Requirements": {
+					"Woodcutting": 70
+				},
 				"Set": "BIS Hatchet",
 				"Not F2P": true
 			},
@@ -113490,7 +113544,9 @@
 				"Label": "BIS Skilling",
 				"Items": ["Dragon hatchet"],
 				"Priority": 3,
-				"Requirements": ["Woodcutting"],
+				"Requirements": {
+					"Woodcutting": 60
+				},
 				"Set": "BIS Hatchet",
 				"Not F2P": true
 			},
@@ -113499,7 +113555,9 @@
 				"Label": "BIS Skilling",
 				"Items": ["Rune hatchet"],
 				"Priority": 4,
-				"Requirements": ["Woodcutting"],
+				"Requirements": {
+					"Woodcutting": 50
+				},
 				"Set": "BIS Hatchet"
 			},
 			"Obtain an ~|adamant hatchet|~": {
@@ -113507,7 +113565,9 @@
 				"Label": "BIS Skilling",
 				"Items": ["Adamant hatchet"],
 				"Priority": 5,
-				"Requirements": ["Woodcutting"],
+				"Requirements": {
+					"Woodcutting": 40
+				},
 				"Set": "BIS Hatchet"
 			},
 			"Obtain a ~|mithril hatchet|~": {
@@ -113515,7 +113575,9 @@
 				"Label": "BIS Skilling",
 				"Items": ["Mithril hatchet"],
 				"Priority": 6,
-				"Requirements": ["Woodcutting"],
+				"Requirements": {
+					"Woodcutting": 30
+				},
 				"Set": "BIS Hatchet"
 			},
 			"Obtain a ~|black hatchet|~": {
@@ -113523,7 +113585,9 @@
 				"Label": "BIS Skilling",
 				"Items": ["Black hatchet"],
 				"Priority": 7,
-				"Requirements": ["Woodcutting"],
+				"Requirements": {
+					"Woodcutting": 25
+				},
 				"Set": "BIS Hatchet"
 			},
 			"Obtain a ~|steel hatchet|~": {
@@ -113531,7 +113595,9 @@
 				"Label": "BIS Skilling",
 				"Items": ["Steel hatchet"],
 				"Priority": 8,
-				"Requirements": ["Woodcutting"],
+				"Requirements": {
+					"Woodcutting": 20
+				},
 				"Set": "BIS Hatchet"
 			},
 			"Obtain an ~|iron hatchet|~": {
@@ -113539,7 +113605,9 @@
 				"Label": "BIS Skilling",
 				"Items": ["Iron hatchet"],
 				"Priority": 9,
-				"Requirements": ["Woodcutting"],
+				"Requirements": {
+					"Woodcutting": 10
+				},
 				"Set": "BIS Hatchet"
 			},
 			"Obtain a ~|red topaz machete|~": {
@@ -113547,7 +113615,6 @@
 				"Label": "BIS Skilling",
 				"Items": ["Red topaz machete"],
 				"Priority": 1,
-				"Requirements": ["Woodcutting"],
 				"Set": "BIS Machete",
 				"Not F2P": true
 			},
@@ -113556,7 +113623,6 @@
 				"Label": "BIS Skilling",
 				"Items": ["Jade machete"],
 				"Priority": 2,
-				"Requirements": ["Woodcutting"],
 				"Set": "BIS Machete",
 				"Not F2P": true
 			},
@@ -113565,7 +113631,6 @@
 				"Label": "BIS Skilling",
 				"Items": ["Opal machete"],
 				"Priority": 3,
-				"Requirements": ["Woodcutting"],
 				"Set": "BIS Machete",
 				"Not F2P": true
 			},
@@ -113574,7 +113639,9 @@
 				"Label": "BIS Skilling",
 				"Items": ["Guildmaster Tony's mattock"],
 				"Priority": 1,
-				"Requirements": ["Archaeology"],
+				"Requirements": {
+					"Archaeology": 99
+				},
 				"Set": "BIS Mattock",
 				"Not F2P": true
 			},
@@ -113583,7 +113650,9 @@
 				"Label": "BIS Skilling",
 				"Items": ["Mattock of Time and Space"],
 				"Priority": 2,
-				"Requirements": ["Archaeology"],
+				"Requirements": {
+					"Archaeology": 99
+				},
 				"Set": "BIS Mattock",
 				"Not F2P": true
 			},
@@ -113592,7 +113661,9 @@
 				"Label": "BIS Skilling",
 				"Items": ["Imcando mattock"],
 				"Priority": 3,
-				"Requirements": ["Archaeology"],
+				"Requirements": {
+					"Archaeology": 80
+				},
 				"Set": "BIS Mattock",
 				"Not F2P": true
 			},
@@ -113601,16 +113672,20 @@
 				"Label": "BIS Skilling",
 				"Items": ["Elder rune mattock"],
 				"Priority": 4,
-				"Requirements": ["Archaeology"],
+				"Requirements": {
+					"Archaeology": 90
+				},
 				"Set": "BIS Mattock",
 				"Not F2P": true
 			},
 			"Obtain a ~|crystal mattock|~": {
 				"Category": ["BIS Skilling"],
 				"Label": "BIS Skilling",
-				"Items": ["xxx"],
+				"Items": ["Crystal mattock"],
 				"Priority": 5,
-				"Requirements": ["Archaeology"],
+				"Requirements": {
+					"Archaeology": 70
+				},
 				"Set": "BIS Mattock",
 				"Not F2P": true
 			},
@@ -113619,7 +113694,9 @@
 				"Label": "BIS Skilling",
 				"Items": ["Bane mattock"],
 				"Priority": 6,
-				"Requirements": ["Archaeology"],
+				"Requirements": {
+					"Archaeology": 80
+				},
 				"Set": "BIS Mattock",
 				"Not F2P": true
 			},	
@@ -113628,7 +113705,9 @@
 				"Label": "BIS Skilling",
 				"Items": ["Dragon mattock"],
 				"Priority": 7,
-				"Requirements": ["Archaeology"],
+				"Requirements": {
+					"Archaeology": 60
+				},
 				"Set": "BIS Mattock",
 				"Not F2P": true
 			},
@@ -113637,7 +113716,9 @@
 				"Label": "BIS Skilling",
 				"Items": ["Necronium mattock"],
 				"Priority": 8,
-				"Requirements": ["Archaeology"],
+				"Requirements": {
+					"Archaeology": 70
+				},
 				"Set": "BIS Mattock",
 				"Not F2P": true
 			},
@@ -113646,7 +113727,9 @@
 				"Label": "BIS Skilling",
 				"Items": ["Orikalkum mattock"],
 				"Priority": 9,
-				"Requirements": ["Archaeology"],
+				"Requirements": {
+					"Archaeology": 60
+				},
 				"Set": "BIS Mattock",
 				"Not F2P": true
 			},
@@ -113655,7 +113738,9 @@
 				"Label": "BIS Skilling",
 				"Items": ["Rune mattock"],
 				"Priority": 10,
-				"Requirements": ["Archaeology"],
+				"Requirements": {
+					"Archaeology": 50
+				},
 				"Set": "BIS Mattock",
 				"Not F2P": true
 			},
@@ -113664,7 +113749,9 @@
 				"Label": "BIS Skilling",
 				"Items": ["Adamant mattock"],
 				"Priority": 11,
-				"Requirements": ["Archaeology"],
+				"Requirements": {
+					"Archaeology": 40
+				},
 				"Set": "BIS Mattock",
 				"Not F2P": true
 			},
@@ -113673,7 +113760,9 @@
 				"Label": "BIS Skilling",
 				"Items": ["Mithril mattock"],
 				"Priority": 11,
-				"Requirements": ["Archaeology"],
+				"Requirements": {
+					"Archaeology": 30
+				},
 				"Set": "BIS Mattock",
 				"Not F2P": true
 			},
@@ -113682,7 +113771,9 @@
 				"Label": "BIS Skilling",
 				"Items": ["Steel mattock"],
 				"Priority": 12,
-				"Requirements": ["Archaeology"],
+				"Requirements": {
+					"Archaeology": 20
+				},
 				"Set": "BIS Mattock"
 			},
 			"Obtain an ~|iron mattock|~": {
@@ -113690,70 +113781,66 @@
 				"Label": "BIS Skilling",
 				"Items": ["Iron mattock"],
 				"Priority": 13,
-				"Requirements": ["Archaeology"],
+				"Requirements": {
+					"Archaeology": 10
+				},
 				"Set": "BIS Mattock"
 			},
 			"Obtain a ~|first age tiara|~": {
 				"Category": ["BIS Skilling"],
 				"Label": "BIS Skilling",
 				"Items": ["First age tiara"],
-				"Requirements": ["Prayer"],
 				"Not F2P": true
 			},
 			"Obtain a ~|first age amulet|~": {
 				"Category": ["BIS Skilling"],
 				"Label": "BIS Skilling",
 				"Items": ["First age amulet"],
-				"Requirements": ["Prayer"],
 				"Not F2P": true
 			},
 			"Obtain a ~|first age cape|~": {
 				"Category": ["BIS Skilling"],
 				"Label": "BIS Skilling",
 				"Items": ["First age cape"],
-				"Requirements": ["Prayer"],
 				"Not F2P": true
 			},
 			"Obtain a ~|first age bracelet|~": {
 				"Category": ["BIS Skilling"],
 				"Label": "BIS Skilling",
 				"Items": ["First age bracelet"],
-				"Requirements": ["Prayer"],
 				"Not F2P": true
 			},
 			"Obtain a ~|first age ring|~": {
 				"Category": ["BIS Skilling"],
 				"Label": "BIS Skilling",
 				"Items": ["First age ring"],
-				"Requirements": ["Prayer"],
 				"Not F2P": true
 			},
 			"Obtain a ~|first age tiara add-on|~": {
 				"Category": ["BIS Skilling"],
 				"Label": "BIS Skilling",
 				"Items": ["First age tiara add-on"],
-				"Requirements": ["Prayer"],
 				"Not F2P": true
 			},
 			"Obtain a ~|Dragon Rider amulet|~": {
 				"Category": ["BIS Skilling"],
 				"Label": "BIS Skilling",
 				"Items": ["Dragon Rider amulet"],
-				"Requirements": ["Prayer"],
 				"Not F2P": true
 			},
 			"Obtain a ~|bonecrusher|~": {
 				"Category": ["BIS Skilling"],
 				"Label": "BIS Skilling",
 				"Items": ["Bonecrusher"],
-				"Requirements": ["Prayer"],
+				"Requirements": {
+					"Prayer": 21
+				},
 				"Not F2P": true
 			},
 			"Obtain an ~|attuned ectoplasmator|~": {
 				"Category": ["BIS Skilling"],
 				"Label": "BIS Skilling",
 				"Items": ["Ectoplasmator", "Ghostly essence"],
-				"Requirements": ["Prayer"],
 				"Priority": 1,
 				"Set": "BIS Ectoplasmator",
 				"Not F2P": true
@@ -113762,7 +113849,6 @@
 				"Category": ["BIS Skilling"],
 				"Label": "BIS Skilling",
 				"Items": ["Ectoplasmator"],
-				"Requirements": ["Prayer"],
 				"Priority": 2,
 				"Set": "BIS Ectoplasmator",
 				"Not F2P": true
@@ -113771,49 +113857,42 @@
 				"Category": ["BIS Skilling"],
 				"Label": "BIS Skilling",
 				"Items": ["Artisan's bandana"],
-				"Requirements": ["Crafting"],
 				"Not F2P": true
 			},
 			"Obtain an ~|artisan's top|~": {
 				"Category": ["BIS Skilling"],
 				"Label": "BIS Skilling",
 				"Items": ["Artisan's top"],
-				"Requirements": ["Crafting"],
 				"Not F2P": true
 			},
 			"Obtain ~|artisan's legs|~": {
 				"Category": ["BIS Skilling"],
 				"Label": "BIS Skilling",
 				"Items": ["Artisan's legs"],
-				"Requirements": ["Crafting"],
 				"Not F2P": true
 			},
 			"Obtain ~|artisan's gloves|~": {
 				"Category": ["BIS Skilling"],
 				"Label": "BIS Skilling",
 				"Items": ["Artisan's gloves"],
-				"Requirements": ["Crafting"],
 				"Not F2P": true
 			},
 			"Obtain ~|artisan's boots|~": {
 				"Category": ["BIS Skilling"],
 				"Label": "BIS Skilling",
 				"Items": ["Artisan's boots"],
-				"Requirements": ["Crafting"],
 				"Not F2P": true
 			},
 			"Obtain an ~|artisan's bandana add-on|~": {
 				"Category": ["BIS Skilling"],
 				"Label": "BIS Skilling",
 				"Items": ["Artisan's bandana add-on"],
-				"Requirements": ["Crafting"],
 				"Not F2P": true
 			},
 			"Obtain a ~|crystal chisel|~": {
 				"Category": ["BIS Skilling"],
 				"Label": "BIS Skilling",
 				"Items": ["Crystal chisel"],
-				"Requirements": ["Crafting"],
 				"Not F2P": true
 			},
 			"Obtain an ~|Amulet of Offerings|~": {
@@ -113826,21 +113905,21 @@
 				"Category": ["BIS Skilling"],
 				"Label": "BIS Skilling",
 				"Items": ["Amulet of Artisan's Offerings"],
-				"Requirements": ["Crafting"],
 				"Not F2P": true
 			},
 			"Obtain an ~|Amulet of Fletcher's Offerings|~": {
 				"Category": ["BIS Skilling"],
 				"Label": "BIS Skilling",
 				"Items": ["Amulet of Fletcher's Offerings"],
-				"Requirements": ["Fletching"],
 				"Not F2P": true
 			},
 			"Obtain a ~|scroll of dexterity|~": {
 				"Category": ["BIS Skilling"],
 				"Label": "BIS Skilling",
 				"Items": ["Scroll of dexterity"],
-				"Requirements": ["Crafting"],
+				"Requirements": {
+					"Crafting": 60
+				},
 				"Not F2P": true
 			},
 			"Obtain an ~|artificer's measure|~": {
@@ -113853,7 +113932,6 @@
 				"Category": ["BIS Skilling"],
 				"Label": "BIS Skilling",
 				"Items": ["Brooch of the Gods"],
-				"Requirements": ["Crafting"],
 				"Not F2P": true
 			},
 			"Obtain a ~|primal ore box|~": {
@@ -113861,7 +113939,9 @@
 				"Label": "BIS Skilling",
 				"Items": ["Primal ore box"],
 				"Priority": 1,
-				"Requirements": ["Smithing"],
+				"Requirements": {
+					"Smithing": 100
+				},
 				"Set": "BIS Ore Box",
 				"Not F2P": true
 			},
@@ -113870,7 +113950,9 @@
 				"Label": "BIS Skilling",
 				"Items": ["Elder rune ore box"],
 				"Priority": 2,
-				"Requirements": ["Smithing"],
+				"Requirements": {
+					"Smithing": 90
+				},
 				"Set": "BIS Ore Box",
 				"Not F2P": true
 			},
@@ -113879,7 +113961,9 @@
 				"Label": "BIS Skilling",
 				"Items": ["Bane ore box"],
 				"Priority": 3,
-				"Requirements": ["Smithing"],
+				"Requirements": {
+					"Smithing": 80
+				},
 				"Set": "BIS Ore Box",
 				"Not F2P": true
 			},
@@ -113888,7 +113972,9 @@
 				"Label": "BIS Skilling",
 				"Items": ["Necronium ore box"],
 				"Priority": 4,
-				"Requirements": ["Smithing"],
+				"Requirements": {
+					"Smithing": 70
+				},
 				"Set": "BIS Ore Box",
 				"Not F2P": true
 			},
@@ -113897,7 +113983,9 @@
 				"Label": "BIS Skilling",
 				"Items": ["Orikalkum ore box"],
 				"Priority": 5,
-				"Requirements": ["Smithing"],
+				"Requirements": {
+					"Smithing": 60
+				},
 				"Set": "BIS Ore Box",
 				"Not F2P": true
 			},
@@ -113906,7 +113994,9 @@
 				"Label": "BIS Skilling",
 				"Items": ["Rune ore box"],
 				"Priority": 6,
-				"Requirements": ["Smithing"],
+				"Requirements": {
+					"Smithing": 50
+				},
 				"Set": "BIS Ore Box"
 			},
 			"Obtain an ~|adamant ore box|~": {
@@ -113914,7 +114004,9 @@
 				"Label": "BIS Skilling",
 				"Items": ["Adamant ore box"],
 				"Priority": 7,
-				"Requirements": ["Smithing"],
+				"Requirements": {
+					"Smithing": 40
+				},
 				"Set": "BIS Ore Box"
 			},
 			"Obtain a ~|mithril ore box|~": {
@@ -113922,7 +114014,9 @@
 				"Label": "BIS Skilling",
 				"Items": ["Mithril ore box"],
 				"Priority": 8,
-				"Requirements": ["Smithing"],
+				"Requirements": {
+					"Smithing": 30
+				},
 				"Set": "BIS Ore Box",
 				"Not F2P": true
 			},
@@ -113931,7 +114025,9 @@
 				"Label": "BIS Skilling",
 				"Items": ["Steel ore box"],
 				"Priority": 9,
-				"Requirements": ["Smithing"],
+				"Requirements": {
+					"Smithing": 20
+				},
 				"Set": "BIS Ore Box",
 				"Not F2P": true
 			},
@@ -113940,7 +114036,9 @@
 				"Label": "BIS Skilling",
 				"Items": ["Iron ore box"],
 				"Priority": 10,
-				"Requirements": ["Smithing"],
+				"Requirements": {
+					"Smithing": 10
+				},
 				"Set": "BIS Ore Box",
 				"Not F2P": true
 			},
@@ -113956,7 +114054,6 @@
 				"Category": ["BIS Skilling"],
 				"Label": "BIS Skilling",
 				"Items": ["Amulet of glory"],
-				"Requirements": ["Mining"],
 				"Not F2P": true
 			},
 			"Obtain ~|Hazelmere's signet ring|~": {
@@ -114033,76 +114130,69 @@
 				"Category": ["BIS Skilling"],
 				"Label": "BIS Skilling",
 				"Items": ["Magic golem head"],
-				"Requirements": ["Mining"],
 				"Not F2P": true
 			},
 			"Obtain a ~|magic golem torso|~": {
 				"Category": ["BIS Skilling"],
 				"Label": "BIS Skilling",
 				"Items": ["Magic golem torso"],
-				"Requirements": ["Mining"],
 				"Not F2P": true
 			},
 			"Obtain ~|magic golem legs|~": {
 				"Category": ["BIS Skilling"],
 				"Label": "BIS Skilling",
 				"Items": ["Magic golem legs"],
-				"Requirements": ["Mining"],
 				"Not F2P": true
 			},
 			"Obtain ~|magic golem gloves|~": {
 				"Category": ["BIS Skilling"],
 				"Label": "BIS Skilling",
 				"Items": ["Magic golem gloves"],
-				"Requirements": ["Mining"],
 				"Not F2P": true
 			},
 			"Obtain ~|magic golem boots|~": {
 				"Category": ["BIS Skilling"],
 				"Label": "BIS Skilling",
 				"Items": ["Magic golem boots"],
-				"Requirements": ["Mining"],
 				"Not F2P": true
 			},
 			"Obtain ~|golden mining boots|~": {
 				"Category": ["BIS Skilling"],
 				"Label": "BIS Skilling",
 				"Items": ["Golden mining boots"],
-				"Requirements": ["Mining"],
 				"Not F2P": true
 			},
 			"Obtain ~|golden mining gloves|~": {
 				"Category": ["BIS Skilling"],
 				"Label": "BIS Skilling",
 				"Items": ["Golden mining gloves"],
-				"Requirements": ["Mining"],
 				"Not F2P": true
 			},
 			"Obtain a ~|golden mining helmet|~": {
 				"Category": ["BIS Skilling"],
 				"Label": "BIS Skilling",
 				"Items": ["Golden mining helmet"],
-				"Requirements": ["Mining"],
 				"Not F2P": true
 			},
 			"Obtain ~|golden mining trousers|~": {
 				"Category": ["BIS Skilling"],
 				"Label": "BIS Skilling",
 				"Items": ["Golden mining trousers"],
-				"Requirements": ["Mining"],
 				"Not F2P": true
 			},
 			"Obtain a ~|golden mining top|~": {
 				"Category": ["BIS Skilling"],
 				"Label": "BIS Skilling",
 				"Items": ["Golden mining top"],
-				"Requirements": ["Mining"],
 				"Not F2P": true
 			},
 			"Obtain ~|Tagga's corehammer|~": {
 				"Category": ["BIS Skilling"],
 				"Label": "BIS Skilling",
 				"Items": ["Tagga's corehammer"],
+				"Requirements": {
+					"Mining": 80
+				},
 				"Not F2P": true
 			},
 			"Obtain the ~|Ring of Whispers|~": {
@@ -114116,6 +114206,9 @@
 				"Label": "BIS Skilling",
 				"Items": ["Gem bag (upgraded)"],
 				"Priority": 1,
+				"Requirements": {
+					"Crafting": 45
+				},
 				"Set": "BIS Gem Bag",
 				"Not F2P": true
 			},
@@ -114124,6 +114217,9 @@
 				"Label": "BIS Skilling",
 				"Items": ["Gem bag"],
 				"Priority": 2,
+				"Requirements": {
+					"Crafting": 25
+				},
 				"Set": "BIS Gem Bag",
 				"Not F2P": true
 			},
@@ -114138,13 +114234,17 @@
 				"Category": ["BIS Skilling"],
 				"Label": "BIS Skilling",
 				"Items": ["Scroll of efficiency"],
-				"Requirements": ["Smithing"]
+				"Requirements": {
+					"Smithing": 55
+				}
 			},
 			"Obtain an ~|advanced smithing autoheater|~": {
 				"Category": ["BIS Skilling"],
 				"Label": "BIS Skilling",
 				"Items": ["Advanced smithing autoheater"],
-				"Requirements": ["Smithing"],
+				"Requirements": {
+					"Smithing": 70
+				},
 				"Priority": 1,
 				"Set": "BIS Autoheater",
 				"Not F2P": true
@@ -114153,7 +114253,9 @@
 				"Category": ["BIS Skilling"],
 				"Label": "BIS Skilling",
 				"Items": ["Smithing autoheater"],
-				"Requirements": ["Smithing"],
+				"Requirements": {
+					"Smithing": 35
+				},
 				"Priority": 2,
 				"Set": "BIS Autoheater",
 				"Not F2P": true
@@ -114168,91 +114270,78 @@
 				"Category": ["BIS Skilling"],
 				"Label": "BIS Skilling",
 				"Items": ["Smelting gauntlets"],
-				"Requirements": ["Smithing"],
 				"Not F2P": true
 			},
 			"Obtain a ~|blacksmith's helmet|~": {
 				"Category": ["BIS Skilling"],
 				"Label": "BIS Skilling",
 				"Items": ["Blacksmith's helmet"],
-				"Requirements": ["Smithing"],
 				"Not F2P": true
 			},
 			"Obtain a ~|blacksmith's top|~": {
 				"Category": ["BIS Skilling"],
 				"Label": "BIS Skilling",
 				"Items": ["Blacksmith's top"],
-				"Requirements": ["Smithing"],
 				"Not F2P": true
 			},
 			"Obtain a ~|blacksmith's apron|~": {
 				"Category": ["BIS Skilling"],
 				"Label": "BIS Skilling",
 				"Items": ["Blacksmith's arpon"],
-				"Requirements": ["Smithing"],
 				"Not F2P": true
 			},
 			"Obtain ~|blacksmith's gloves|~": {
 				"Category": ["BIS Skilling"],
 				"Label": "BIS Skilling",
 				"Items": ["Blacksmith's gloves"],
-				"Requirements": ["Smithing"],
 				"Not F2P": true
 			},
 			"Obtain ~|blacksmith's boots|~": {
 				"Category": ["BIS Skilling"],
 				"Label": "BIS Skilling",
 				"Items": ["Blacksmith's boots"],
-				"Requirements": ["Smithing"],
 				"Not F2P": true
 			},
 			"Obtain a ~|blacksmith's helmet add-on|~": {
 				"Category": ["BIS Skilling"],
 				"Label": "BIS Skilling",
 				"Items": ["Blacksmith's helmet add-on"],
-				"Requirements": ["Smithing"],
 				"Not F2P": true
 			},
 			"Obtain a ~|fishing hat|~": {
 				"Category": ["BIS Skilling"],
 				"Label": "BIS Skilling",
 				"Items": ["Fishing hat"],
-				"Requirements": ["Fishing"],
 				"Not F2P": true
 			},
 			"Obtain a ~|fishing jacket|~": {
 				"Category": ["BIS Skilling"],
 				"Label": "BIS Skilling",
 				"Items": ["Fishing jacket"],
-				"Requirements": ["Fishing"],
 				"Not F2P": true
 			},
 			"Obtain a ~|fishing waders|~": {
 				"Category": ["BIS Skilling"],
 				"Label": "BIS Skilling",
 				"Items": ["Fishing waders"],
-				"Requirements": ["Fishing"],
 				"Not F2P": true
 			},
 			"Obtain a ~|fishing boots|~": {
 				"Category": ["BIS Skilling"],
 				"Label": "BIS Skilling",
 				"Items": ["Fishing boots"],
-				"Requirements": ["Fishing"],
 				"Not F2P": true
 			},
 			"Obtain a ~|fishing hat|~": {
 				"Category": ["BIS Skilling"],
 				"Label": "BIS Skilling",
 				"Items": ["Fishing hat"],
-				"Requirements": ["Fishing"],
 				"Not F2P": true
 			},
 			"Obtain the ~|champion's tacklebox|~": {
 				"Category": ["BIS Skilling"],
 				"Label": "BIS Skilling",
 				"Items": ["Champion's tacklebox"],
-				"Requirements": ["Fishing"],
 				"Priority": 1,
 				"Set": "BIS Tacklebox",
 				"Not F2P": true
@@ -114261,7 +114350,6 @@
 				"Category": ["BIS Skilling"],
 				"Label": "BIS Skilling",
 				"Items": ["Professional tacklebox"],
-				"Requirements": ["Fishing"],
 				"Priority": 2,
 				"Set": "BIS Tacklebox",
 				"Not F2P": true
@@ -114270,7 +114358,6 @@
 				"Category": ["BIS Skilling"],
 				"Label": "BIS Skilling",
 				"Items": ["Standard tacklebox"],
-				"Requirements": ["Fishing"],
 				"Priority": 3,
 				"Set": "BIS Tacklebox",
 				"Not F2P": true
@@ -114279,7 +114366,6 @@
 				"Category": ["BIS Skilling"],
 				"Label": "BIS Skilling",
 				"Items": ["Basic tacklebox"],
-				"Requirements": ["Fishing"],
 				"Priority": 4,
 				"Set": "BIS Tacklebox",
 				"Not F2P": true
@@ -114288,7 +114374,6 @@
 				"Category": ["BIS Skilling"],
 				"Label": "BIS Skilling",
 				"Items": ["Beginner's tacklebox"],
-				"Requirements": ["Fishing"],
 				"Priority": 5,
 				"Set": "BIS Tacklebox",
 				"Not F2P": true
@@ -114297,7 +114382,6 @@
 				"Category": ["BIS Skilling", "Hero Items"],
 				"Label": "BIS Skilling",
 				"Items": ["Tavia's fishing rod"],
-				"Requirements": ["Fishing"],
 				"Priority": 1,
 				"Set": "BIS Fishing Rod",
 				"Not F2P": true
@@ -114306,7 +114390,6 @@
 				"Category": ["BIS Skilling"],
 				"Label": "BIS Skilling",
 				"Items": ["Crystal fishing rod"],
-				"Requirements": ["Fishing"],
 				"Priority": 2,
 				"Set": "BIS Fishing Rod",
 				"Not F2P": true
@@ -114315,112 +114398,96 @@
 				"Category": ["BIS Skilling"],
 				"Label": "BIS Skilling",
 				"Items": ["Fury shark head"],
-				"Requirements": ["Fishing"],
 				"Not F2P": true
 			},
 			"Obtain the ~|fury shark body|~": {
 				"Category": ["BIS Skilling"],
 				"Label": "BIS Skilling",
 				"Items": ["Fury shark body"],
-				"Requirements": ["Fishing"],
 				"Not F2P": true
 			},
 			"Obtain the ~|fury shark legs|~": {
 				"Category": ["BIS Skilling"],
 				"Label": "BIS Skilling",
 				"Items": ["Fury shark legs"],
-				"Requirements": ["Fishing"],
 				"Not F2P": true
 			},
 			"Obtain the ~|fury shark hands|~": {
 				"Category": ["BIS Skilling"],
 				"Label": "BIS Skilling",
 				"Items": ["Fury shark hands"],
-				"Requirements": ["Fishing"],
 				"Not F2P": true
 			},
 			"Obtain the ~|fury shark feet|~": {
 				"Category": ["BIS Skilling"],
 				"Label": "BIS Skilling",
 				"Items": ["Fury shark feet"],
-				"Requirements": ["Fishing"],
 				"Not F2P": true
 			},
 			"Obtain a ~|sous chef's toque|~": {
 				"Category": ["BIS Skilling"],
 				"Label": "BIS Skilling",
 				"Items": ["Sous chef's toque"],
-				"Requirements": ["Cooking"],
 				"Not F2P": true
 			},
 			"Obtain a ~|sous chef's jacket|~": {
 				"Category": ["BIS Skilling"],
 				"Label": "BIS Skilling",
 				"Items": ["Sous chef's jacket"],
-				"Requirements": ["Cooking"],
 				"Not F2P": true
 			},
 			"Obtain ~|sous chef's trousers|~": {
 				"Category": ["BIS Skilling"],
 				"Label": "BIS Skilling",
 				"Items": ["Sous chef's trousers"],
-				"Requirements": ["Cooking"],
 				"Not F2P": true
 			},
 			"Obtain ~|sous chef's mitts|~": {
 				"Category": ["BIS Skilling"],
 				"Label": "BIS Skilling",
 				"Items": ["Sous chef's mitts"],
-				"Requirements": ["Cooking"],
 				"Not F2P": true
 			},
 			"Obtain ~|sous chef's shoes|~": {
 				"Category": ["BIS Skilling"],
 				"Label": "BIS Skilling",
 				"Items": ["Sous chef's shoes"],
-				"Requirements": ["Cooking"],
 				"Not F2P": true
 			},
 			"Obtain a ~|sous chef's toque add-on|~": {
 				"Category": ["BIS Skilling"],
 				"Label": "BIS Skilling",
 				"Items": ["Sous chef's toque add-on"],
-				"Requirements": ["Cooking"],
 				"Not F2P": true
 			},
 			"Obtain ~|cooking gauntlets|~": {
 				"Category": ["BIS Skilling"],
 				"Label": "BIS Skilling",
 				"Items": ["Cooking gauntlets"],
-				"Requirements": ["Cooking"],
 				"Not F2P": true
 			},
 			"Obtain a ~|ring of fire|~": {
 				"Category": ["BIS Skilling"],
 				"Label": "BIS Skilling",
 				"Items": ["Ring of fire"],
-				"Requirements": ["Firemaking"],
 				"Not F2P": true
 			},
 			"Obtain ~|flame gloves|~": {
 				"Category": ["BIS Skilling"],
 				"Label": "BIS Skilling",
 				"Items": ["Flame gloves"],
-				"Requirements": ["Firemaking"],
 				"Not F2P": true
 			},
 			"Obtain a ~|pitch can|~": {
 				"Category": ["BIS Skilling"],
 				"Label": "BIS Skilling",
 				"Items": ["Pitch can"],
-				"Requirements": ["Firemaking"],
 				"Not F2P": true
 			},
 			"Obtain a ~|crystal tinderbox|~": {
 				"Category": ["BIS Skilling"],
 				"Label": "BIS Skilling",
 				"Items": ["Crystal tinderbox"],
-				"Requirements": ["Firemaking"],
 				"Not F2P": true
 			},
 			"Obtain an ~|elder wood box|~": {
@@ -114428,7 +114495,9 @@
 				"Label": "BIS Skilling",
 				"Items": ["Elder wood box"],
 				"Priority": 1,
-				"Requirements": ["Fletching"],
+				"Requirements": {
+					"Fletching": 90
+				},
 				"Set": "BIS Wood Box",
 				"Not F2P": true
 			},
@@ -114437,7 +114506,9 @@
 				"Label": "BIS Skilling",
 				"Items": ["Magic wood box"],
 				"Priority": 2,
-				"Requirements": ["Fletching"],
+				"Requirements": {
+					"Fletching": 80
+				},
 				"Set": "BIS Wood Box",
 				"Not F2P": true
 			},
@@ -114446,7 +114517,9 @@
 				"Label": "BIS Skilling",
 				"Items": ["Yew wood box"],
 				"Priority": 3,
-				"Requirements": ["Fletching"],
+				"Requirements": {
+					"Fletching": 70
+				},
 				"Set": "BIS Wood Box",
 				"Not F2P": true
 			},
@@ -114455,7 +114528,9 @@
 				"Label": "BIS Skilling",
 				"Items": ["Mahogany wood box"],
 				"Priority": 4,
-				"Requirements": ["Fletching"],
+				"Requirements": {
+					"Fletching": 60
+				},
 				"Set": "BIS Wood Box",
 				"Not F2P": true
 			},
@@ -114464,7 +114539,9 @@
 				"Label": "BIS Skilling",
 				"Items": ["Acadia wood box"],
 				"Priority": 5,
-				"Requirements": ["Fletching"],
+				"Requirements": {
+					"Fletching": 50
+				},
 				"Set": "BIS Wood Box",
 				"Not F2P": true
 			},
@@ -114473,7 +114550,9 @@
 				"Label": "BIS Skilling",
 				"Items": ["Maple wood box"],
 				"Priority": 6,
-				"Requirements": ["Fletching"],
+				"Requirements": {
+					"Fletching": 40
+				},
 				"Set": "BIS Wood Box",
 				"Not F2P": true
 			},
@@ -114482,7 +114561,9 @@
 				"Label": "BIS Skilling",
 				"Items": ["Teak wood box"],
 				"Priority": 7,
-				"Requirements": ["Fletching"],
+				"Requirements": {
+					"Fletching": 30
+				},
 				"Set": "BIS Wood Box",
 				"Not F2P": true
 			},
@@ -114491,7 +114572,9 @@
 				"Label": "BIS Skilling",
 				"Items": ["Willow wood box"],
 				"Priority": 8,
-				"Requirements": ["Fletching"],
+				"Requirements": {
+					"Fletching": 20
+				},
 				"Set": "BIS Wood Box",
 				"Not F2P": true
 			},
@@ -114500,7 +114583,9 @@
 				"Label": "BIS Skilling",
 				"Items": ["Oak wood box"],
 				"Priority": 9,
-				"Requirements": ["Fletching"],
+				"Requirements": {
+					"Fletching": 10
+				},
 				"Set": "BIS Wood Box",
 				"Not F2P": true
 			},
@@ -114516,482 +114601,435 @@
 				"Category": ["BIS Skilling"],
 				"Label": "BIS Skilling",
 				"Items": ["Lumberjack hat"],
-				"Requirements": ["Woodcutting"],
 				"Not F2P": true
 			},
 			"Obtain a ~|lumberjack top|~": {
 				"Category": ["BIS Skilling"],
 				"Label": "BIS Skilling",
 				"Items": ["Lumberjack top"],
-				"Requirements": ["Woodcutting"],
 				"Not F2P": true
 			},
 			"Obtain ~|lumberjack legs|~": {
 				"Category": ["BIS Skilling"],
 				"Label": "BIS Skilling",
 				"Items": ["Lumberjack legs"],
-				"Requirements": ["Woodcutting"],
 				"Not F2P": true
 			},
 			"Obtain ~|lumberjack boots|~": {
 				"Category": ["BIS Skilling"],
 				"Label": "BIS Skilling",
 				"Items": ["Lumberjack boots"],
-				"Requirements": ["Woodcutting"],
 				"Not F2P": true
 			},
 			"Obtain the ~|nature's sentinel helm|~": {
 				"Category": ["BIS Skilling"],
 				"Label": "BIS Skilling",
 				"Items": ["Nature's sentinel helm"],
-				"Requirements": ["Woodcutting"],
 				"Not F2P": true
 			},
 			"Obtain the ~|nature's sentinel chest|~": {
 				"Category": ["BIS Skilling"],
 				"Label": "BIS Skilling",
 				"Items": ["Nature's sentinel chest"],
-				"Requirements": ["Woodcutting"],
 				"Not F2P": true
 			},
 			"Obtain the ~|nature's sentinel trunks|~": {
 				"Category": ["BIS Skilling"],
 				"Label": "BIS Skilling",
 				"Items": ["Nature's sentinel trunks"],
-				"Requirements": ["Woodcutting"],
 				"Not F2P": true
 			},
 			"Obtain the ~|nature's sentinel branch|~": {
 				"Category": ["BIS Skilling"],
 				"Label": "BIS Skilling",
 				"Items": ["Nature's sentinel branch"],
-				"Requirements": ["Woodcutting"],
 				"Not F2P": true
 			},
 			"Obtain the ~|nature's sentinel boots|~": {
 				"Category": ["BIS Skilling"],
 				"Label": "BIS Skilling",
 				"Items": ["Nature's sentinel boots"],
-				"Requirements": ["Woodcutting"],
 				"Not F2P": true
 			},
 			"Obtain ~|Sana's frytorch|~": {
 				"Category": ["BIS Skilling"],
 				"Label": "BIS Skilling",
 				"Items": ["Sana's frytorch"],
+				"Requirements": {
+					"Woodcutting": 80
+				},
 				"Not F2P": true
 			},
-			"Obtain a ~|strong rabbit foot|~": {
+			"Obtain a ~|strung rabbit foot|~": {
 				"Category": ["BIS Skilling"],
 				"Label": "BIS Skilling",
 				"Items": ["Strung rabbit foot"],
-				"Requirements": ["Woodcutting"],
 				"Not F2P": true
 			},
 			"Obtain a ~|master runecrafter hat|~": {
 				"Category": ["BIS Skilling"],
 				"Label": "BIS Skilling",
 				"Items": ["Master Runecrafter hat"],
-				"Requirements": ["Runecrafting"],
 				"Not F2P": true
 			},
 			"Obtain a ~|master runecrafter robe|~": {
 				"Category": ["BIS Skilling"],
 				"Label": "BIS Skilling",
 				"Items": ["Master Runecrafter robe"],
-				"Requirements": ["Runecrafting"],
 				"Not F2P": true
 			},
 			"Obtain a ~|master runecrafter skirt|~": {
 				"Category": ["BIS Skilling"],
 				"Label": "BIS Skilling",
 				"Items": ["Master Runecrafter skirt"],
-				"Requirements": ["Runecrafting"],
 				"Not F2P": true
 			},
 			"Obtain a ~|master runecrafter boots|~": {
 				"Category": ["BIS Skilling"],
 				"Label": "BIS Skilling",
 				"Items": ["Master Runecrafter boots"],
-				"Requirements": ["Runecrafting"],
 				"Not F2P": true
 			},
 			"Obtain the ~|infinity ethereal head|~": {
 				"Category": ["BIS Skilling"],
 				"Label": "BIS Skilling",
 				"Items": ["Infinity ethereal head"],
-				"Requirements": ["Runecrafting"],
 				"Not F2P": true
 			},
 			"Obtain the ~|infinity ethereal body|~": {
 				"Category": ["BIS Skilling"],
 				"Label": "BIS Skilling",
 				"Items": ["Infinity ethereal body"],
-				"Requirements": ["Runecrafting"],
 				"Not F2P": true
 			},
 			"Obtain the ~|infinity ethereal legs|~": {
 				"Category": ["BIS Skilling"],
 				"Label": "BIS Skilling",
 				"Items": ["Infinity ethereal legs"],
-				"Requirements": ["Runecrafting"],
 				"Not F2P": true
 			},
 			"Obtain the ~|infinity ethereal hands|~": {
 				"Category": ["BIS Skilling"],
 				"Label": "BIS Skilling",
 				"Items": ["Infinity ethereal hands"],
-				"Requirements": ["Runecrafting"],
 				"Not F2P": true
 			},
 			"Obtain the ~|infinity ethereal feet|~": {
 				"Category": ["BIS Skilling"],
 				"Label": "BIS Skilling",
 				"Items": ["Infinity ethereal feet"],
-				"Requirements": ["Runecrafting"],
 				"Not F2P": true
 			},
 			"Obtain the ~|infinity ethereal head|~": {
 				"Category": ["BIS Skilling"],
 				"Label": "BIS Skilling",
 				"Items": ["Infinity ethereal head"],
-				"Requirements": ["Runecrafting"],
 				"Not F2P": true
 			},
 			"Obtain a ~|small pouch|~": {
 				"Category": ["BIS Skilling"],
 				"Label": "BIS Skilling",
 				"Items": ["Small pouch"],
-				"Requirements": ["Runecrafting"],
 				"Not F2P": true
 			},
 			"Obtain a ~|medium pouch|~": {
 				"Category": ["BIS Skilling"],
 				"Label": "BIS Skilling",
 				"Items": ["Small pouch"],
-				"Requirements": ["Runecrafting"],
+				"Requirements": {
+					"Runecrafting": 25
+				},
 				"Not F2P": true
 			},
 			"Obtain a ~|large pouch|~": {
 				"Category": ["BIS Skilling"],
 				"Label": "BIS Skilling",
 				"Items": ["Large pouch"],
-				"Requirements": ["Runecrafting"],
+				"Requirements": {
+					"Runecrafting": 50
+				},
 				"Not F2P": true
 			},
 			"Obtain a ~|giant pouch|~": {
 				"Category": ["BIS Skilling"],
 				"Label": "BIS Skilling",
 				"Items": ["Giant pouch"],
-				"Requirements": ["Runecrafting"],
+				"Requirements": {
+					"Runecrafting": 75
+				},
 				"Not F2P": true
 			},
 			"Obtain a ~|massive pouch|~": {
 				"Category": ["BIS Skilling"],
 				"Label": "BIS Skilling",
 				"Items": ["Massive pouch"],
-				"Requirements": ["Runecrafting"],
+				"Requirements": {
+					"Runecrafting": 90
+				},
 				"Not F2P": true
 			},
 			"Obtain the ~|runecrafter's Catalyst fragment|~": {
 				"Category": ["BIS Skilling"],
 				"Label": "BIS Skilling",
 				"Items": ["Runecrafter's Catalyst fragment"],
-				"Requirements": ["Runecrafting"],
 				"Not F2P": true
 			},
 			"Obtain a ~|ring of imbuing|~": {
 				"Category": ["BIS Skilling"],
 				"Label": "BIS Skilling",
 				"Items": ["Ring of imbuing"],
-				"Requirements": ["Runecrafting"],
 				"Not F2P": true
 			},
 			"Obtain a ~|runic attuner|~": {
 				"Category": ["BIS Skilling"],
 				"Label": "BIS Skilling",
 				"Items": ["Runic attuner"],
-				"Requirements": ["Runecrafting"],
+				"Requirements": {
+					"Runecrafting": 80
+				},
 				"Not F2P": true
 			},
 			"Obtain a ~|fletcher's headwear|~": {
 				"Category": ["BIS Skilling"],
 				"Label": "BIS Skilling",
 				"Items": ["Fletcher's headwear"],
-				"Requirements": ["Fletching"],
 				"Not F2P": true
 			},
 			"Obtain a ~|fletcher's chestpiece|~": {
 				"Category": ["BIS Skilling"],
 				"Label": "BIS Skilling",
 				"Items": ["Fletcher's chestpiece"],
-				"Requirements": ["Fletching"],
 				"Not F2P": true
 			},
 			"Obtain a ~|fletcher's legwear|~": {
 				"Category": ["BIS Skilling"],
 				"Label": "BIS Skilling",
 				"Items": ["Fletcher's legwear"],
-				"Requirements": ["Fletching"],
 				"Not F2P": true
 			},
 			"Obtain ~|fletcher's gloves|~": {
 				"Category": ["BIS Skilling"],
 				"Label": "BIS Skilling",
 				"Items": ["Fletcher's gloves"],
-				"Requirements": ["Fletching"],
 				"Not F2P": true
 			},
 			"Obtain ~|fletcher's boots|~": {
 				"Category": ["BIS Skilling"],
 				"Label": "BIS Skilling",
 				"Items": ["Fletcher's boots"],
-				"Requirements": ["Fletching"],
 				"Not F2P": true
 			},
 			"Obtain a ~|crystal knife|~": {
 				"Category": ["BIS Skilling"],
 				"Label": "BIS Skilling",
 				"Items": ["Crystal knife"],
-				"Requirements": ["Fletching"],
 				"Not F2P": true
 			},
 			"Obtain ~|nimble headwear|~": {
 				"Category": ["BIS Skilling"],
 				"Label": "BIS Skilling",
 				"Items": ["Nimble headwear"],
-				"Requirements": ["Agility"],
 				"Not F2P": true
 			},
 			"Obtain a ~|nimble chestpiece|~": {
 				"Category": ["BIS Skilling"],
 				"Label": "BIS Skilling",
 				"Items": ["Nimble chestpiece"],
-				"Requirements": ["Agility"],
 				"Not F2P": true
 			},
 			"Obtain ~|nimble legwear|~": {
 				"Category": ["BIS Skilling"],
 				"Label": "BIS Skilling",
 				"Items": ["Nimble legwear"],
-				"Requirements": ["Agility"],
 				"Not F2P": true
 			},
 			"Obtain ~|nimble gloves|~": {
 				"Category": ["BIS Skilling"],
 				"Label": "BIS Skilling",
 				"Items": ["Nimble gloves"],
-				"Requirements": ["Agility"],
 				"Not F2P": true
 			},
 			"Obtain ~|nimble boots|~": {
 				"Category": ["BIS Skilling"],
 				"Label": "BIS Skilling",
 				"Items": ["Nimble boots"],
-				"Requirements": ["Agility"],
 				"Not F2P": true
 			},
 			"Obtain a ~|herb bag|~": {
 				"Category": ["BIS Skilling"],
 				"Label": "BIS Skilling",
 				"Items": ["Herb bag"],
-				"Requirements": ["Herblore"],
 				"Not F2P": true
 			},
 			"Obtain a ~|herbicide|~": {
 				"Category": ["BIS Skilling"],
 				"Label": "BIS Skilling",
 				"Items": ["Herbicide"],
-				"Requirements": ["Herblore"],
 				"Not F2P": true
 			},
 			"Obtain a ~|botanist's mask|~": {
 				"Category": ["BIS Skilling"],
 				"Label": "BIS Skilling",
 				"Items": ["Botanist's mask"],
-				"Requirements": ["Herblore"],
 				"Not F2P": true
 			},
 			"Obtain a ~|botanist's top|~": {
 				"Category": ["BIS Skilling"],
 				"Label": "BIS Skilling",
 				"Items": ["Botanist's top"],
-				"Requirements": ["Herblore"],
 				"Not F2P": true
 			},
 			"Obtain ~|botanist's trousers|~": {
 				"Category": ["BIS Skilling"],
 				"Label": "BIS Skilling",
 				"Items": ["Botanist's trousers"],
-				"Requirements": ["Herblore"],
 				"Not F2P": true
 			},
 			"Obtain ~|botanist's gloves|~": {
 				"Category": ["BIS Skilling"],
 				"Label": "BIS Skilling",
 				"Items": ["Botanist's gloves"],
-				"Requirements": ["Herblore"],
 				"Not F2P": true
 			},
 			"Obtain ~|botanist's boots|~": {
 				"Category": ["BIS Skilling"],
 				"Label": "BIS Skilling",
 				"Items": ["Botanist's boots"],
-				"Requirements": ["Herblore"],
 				"Not F2P": true
 			},
 			"Obtain a ~|botanist's mask add-on|~": {
 				"Category": ["BIS Skilling"],
 				"Label": "BIS Skilling",
 				"Items": ["Botanist's mask add-on"],
-				"Requirements": ["Herblore"],
 				"Not F2P": true
 			},
 			"Obtain the ~|scroll of cleansing|~": {
 				"Category": ["BIS Skilling"],
 				"Label": "BIS Skilling",
 				"Items": ["Scroll of cleansing"],
-				"Requirements": ["Herblore"],
+				"Requirements": {
+					"Herblore": 49
+				},
 				"Not F2P": true
 			},
 			"Obtain a ~|factory mask|~": {
 				"Category": ["BIS Skilling"],
 				"Label": "BIS Skilling",
 				"Items": ["Factory mask"],
-				"Requirements": ["Herblore"],
 				"Not F2P": true
 			},
 			"Obtain a ~|factory top|~": {
 				"Category": ["BIS Skilling"],
 				"Label": "BIS Skilling",
 				"Items": ["Factory top"],
-				"Requirements": ["Herblore"],
 				"Not F2P": true
 			},
 			"Obtain ~|factory trousers|~": {
 				"Category": ["BIS Skilling"],
 				"Label": "BIS Skilling",
 				"Items": ["Factory trousers"],
-				"Requirements": ["Herblore"],
 				"Not F2P": true
 			},
 			"Obtain ~|factory gloves|~": {
 				"Category": ["BIS Skilling"],
 				"Label": "BIS Skilling",
 				"Items": ["Factory gloves"],
-				"Requirements": ["Herblore"],
 				"Not F2P": true
 			},
 			"Obtain ~|factory boots|~": {
 				"Category": ["BIS Skilling"],
 				"Label": "BIS Skilling",
 				"Items": ["Factory mask"],
-				"Requirements": ["Herblore"],
 				"Not F2P": true
 			},
 			"Obtain ~|gloves of silence|~": {
 				"Category": ["BIS Skilling"],
 				"Label": "BIS Skilling",
 				"Items": ["Gloves of silence"],
-				"Requirements": ["Thieving"],
 				"Not F2P": true
 			},
 			"Obtain the ~|exoskeleton headband|~": {
 				"Category": ["BIS Skilling"],
 				"Label": "BIS Skilling",
 				"Items": ["Exoskeleton headband"],
-				"Requirements": ["Thieving"],
 				"Not F2P": true
 			},
 			"Obtain the ~|exoskeleton torso|~": {
 				"Category": ["BIS Skilling"],
 				"Label": "BIS Skilling",
 				"Items": ["Exoskeleton torso"],
-				"Requirements": ["Thieving"],
 				"Not F2P": true
 			},
 			"Obtain the ~|exoskeleton legs|~": {
 				"Category": ["BIS Skilling"],
 				"Label": "BIS Skilling",
 				"Items": ["Exoskeleton legs"],
-				"Requirements": ["Thieving"],
 				"Not F2P": true
 			},
 			"Obtain the ~|exoskeleton bracers|~": {
 				"Category": ["BIS Skilling"],
 				"Label": "BIS Skilling",
 				"Items": ["Exoskeleton bracers"],
-				"Requirements": ["Thieving"],
 				"Not F2P": true
 			},
 			"Obtain the ~|master camouflage head|~": {
 				"Category": ["BIS Skilling"],
 				"Label": "BIS Skilling",
 				"Items": ["Master camouflage head"],
-				"Requirements": ["Thieving"],
 				"Not F2P": true
 			},
 			"Obtain the ~|master camouflage body|~": {
 				"Category": ["BIS Skilling"],
 				"Label": "BIS Skilling",
 				"Items": ["Master camouflage body"],
-				"Requirements": ["Thieving"],
 				"Not F2P": true
 			},
 			"Obtain the ~|master camouflage legs|~": {
 				"Category": ["BIS Skilling"],
 				"Label": "BIS Skilling",
 				"Items": ["Master camouflage legs"],
-				"Requirements": ["Thieving"],
 				"Not F2P": true
 			},
 			"Obtain the ~|master camouflage hands|~": {
 				"Category": ["BIS Skilling"],
 				"Label": "BIS Skilling",
 				"Items": ["Master camouflage hands"],
-				"Requirements": ["Thieving"],
 				"Not F2P": true
 			},
 			"Obtain the ~|master camouflage feet|~": {
 				"Category": ["BIS Skilling"],
 				"Label": "BIS Skilling",
 				"Items": ["Master camouflage feet"],
-				"Requirements": ["Thieving"],
 				"Not F2P": true
 			},
 			"Obtain the ~|black ibis mask|~": {
 				"Category": ["BIS Skilling"],
 				"Label": "BIS Skilling",
-				"Items": ["black ibis mask"],
-				"Requirements": ["Thieving"],
+				"Items": ["Black ibis mask"],
 				"Not F2P": true
 			},
 			"Obtain the ~|black ibis body|~": {
 				"Category": ["BIS Skilling"],
 				"Label": "BIS Skilling",
-				"Items": ["black ibis body"],
-				"Requirements": ["Thieving"],
+				"Items": ["Black ibis body"],
 				"Not F2P": true
 			},
 			"Obtain the ~|black ibis legs|~": {
 				"Category": ["BIS Skilling"],
 				"Label": "BIS Skilling",
-				"Items": ["black ibis legs"],
-				"Requirements": ["Thieving"],
+				"Items": ["Black ibis legs"],
 				"Not F2P": true
 			},
 			"Obtain the ~|black ibis boots|~": {
 				"Category": ["BIS Skilling"],
 				"Label": "BIS Skilling",
-				"Items": ["black ibis boots"],
-				"Requirements": ["Thieving"],
+				"Items": ["Black ibis boots"],
 				"Not F2P": true
 			},
 			"Obtain the ~|huge loot bag|~": {
 				"Category": ["BIS Skilling"],
 				"Label": "BIS Skilling",
 				"Items": ["Huge loot bag"],
-				"Requirements": ["Thieving"],
 				"Priority": 1,
 				"Set": "BIS Loot Bag",
 				"Not F2P": true
@@ -115000,7 +115038,6 @@
 				"Category": ["BIS Skilling"],
 				"Label": "BIS Skilling",
 				"Items": ["Large loot bag"],
-				"Requirements": ["Thieving"],
 				"Priority": 2,
 				"Set": "BIS Loot Bag",
 				"Not F2P": true
@@ -115009,7 +115046,6 @@
 				"Category": ["BIS Skilling"],
 				"Label": "BIS Skilling",
 				"Items": ["Medium loot bag"],
-				"Requirements": ["Thieving"],
 				"Priority": 3,
 				"Set": "BIS Loot Bag",
 				"Not F2P": true
@@ -115018,7 +115054,6 @@
 				"Category": ["BIS Skilling"],
 				"Label": "BIS Skilling",
 				"Items": ["Small loot bag"],
-				"Requirements": ["Thieving"],
 				"Priority": 4,
 				"Set": "BIS Loot Bag",
 				"Not F2P": true
@@ -115027,14 +115062,12 @@
 				"Category": ["BIS Skilling"],
 				"Label": "BIS Skilling",
 				"Items": ["Master thief's lockpick"],
-				"Requirements": ["Thieving"],
 				"Not F2P": true
 			},
 			"Obtain the ~|master thief's stethoscope|~": {
 				"Category": ["BIS Skilling"],
 				"Label": "BIS Skilling",
 				"Items": ["Master thief's stethoscope"],
-				"Requirements": ["Thieving"],
 				"Not F2P": true
 			},
 			"Obtain ~|magic secateurs|~": {
@@ -115053,287 +115086,255 @@
 				"Category": ["BIS Skilling"],
 				"Label": "BIS Skilling",
 				"Items": ["Seedicide"],
-				"Requirements": ["Farming"],
 				"Not F2P": true
 			},
 			"Obtain the ~|scroll of life|~": {
 				"Category": ["BIS Skilling"],
 				"Label": "BIS Skilling",
 				"Items": ["Scroll of life"],
-				"Requirements": ["Farming"],
+				"Requirements": {
+					"Farming": 25
+				},
 				"Not F2P": true
 			},
 			"Obtain the ~|farmer's Catalyst fragment|~": {
 				"Category": ["BIS Skilling"],
 				"Label": "BIS Skilling",
 				"Items": ["Farmer's Catalyst fragment"],
-				"Requirements": ["Farming"],
 				"Not F2P": true
 			},
 			"Obtain the ~|seed bag|~": {
 				"Category": ["BIS Skilling"],
 				"Label": "BIS Skilling",
 				"Items": ["Seed bag"],
-				"Requirements": ["Farming"],
 				"Not F2P": true
 			},
 			"Obtain the ~|master farmer hat|~": {
 				"Category": ["BIS Skilling"],
 				"Label": "BIS Skilling",
 				"Items": ["Master farmer hat"],
-				"Requirements": ["Farming"],
 				"Not F2P": true
 			},
 			"Obtain the ~|master farmer jacket|~": {
 				"Category": ["BIS Skilling"],
 				"Label": "BIS Skilling",
 				"Items": ["Master farmer jacket"],
-				"Requirements": ["Farming"],
 				"Not F2P": true
 			},
 			"Obtain the ~|master farmer legwear|~": {
 				"Category": ["BIS Skilling"],
 				"Label": "BIS Skilling",
 				"Items": ["Master farmer legwear"],
-				"Requirements": ["Farming"],
 				"Not F2P": true
 			},
 			"Obtain the ~|master farmer gloves|~": {
 				"Category": ["BIS Skilling"],
 				"Label": "BIS Skilling",
 				"Items": ["Master farmer gloves"],
-				"Requirements": ["Farming"],
 				"Not F2P": true
 			},
 			"Obtain the ~|master farmer boots|~": {
 				"Category": ["BIS Skilling"],
 				"Label": "BIS Skilling",
 				"Items": ["Master farmer boots"],
-				"Requirements": ["Farming"],
 				"Not F2P": true
 			},
 			"Obtain a ~|farmer's hat|~": {
 				"Category": ["BIS Skilling"],
 				"Label": "BIS Skilling",
 				"Items": ["Farmer's hat"],
-				"Requirements": ["Farming"],
 				"Not F2P": true
 			},
 			"Obtain a ~|farmer's jacket|~": {
 				"Category": ["BIS Skilling"],
 				"Label": "BIS Skilling",
 				"Items": ["Farmer's jacket"],
-				"Requirements": ["Farming"],
 				"Not F2P": true
 			},
 			"Obtain a ~|farmer's legwear|~": {
 				"Category": ["BIS Skilling"],
 				"Label": "BIS Skilling",
 				"Items": ["Farmer's legwear"],
-				"Requirements": ["Farming"],
 				"Not F2P": true
 			},
 			"Obtain a ~|farmer's cuffs|~": {
 				"Category": ["BIS Skilling"],
 				"Label": "BIS Skilling",
 				"Items": ["Farmer's cuffs"],
-				"Requirements": ["Farming"],
 				"Not F2P": true
 			},
 			"Obtain a ~|farmer's boots|~": {
 				"Category": ["BIS Skilling"],
 				"Label": "BIS Skilling",
 				"Items": ["Farmer's boots"],
-				"Requirements": ["Farming"],
 				"Not F2P": true
 			},
 			"Obtain a ~|farmer's hat add-on|~": {
 				"Category": ["BIS Skilling"],
 				"Label": "BIS Skilling",
 				"Items": ["Farmer's hat add-on"],
-				"Requirements": ["Farming"],
 				"Not F2P": true
 			},
 			"Obtain ~|constructor's gloves|~": {
 				"Category": ["BIS Skilling"],
 				"Label": "BIS Skilling",
 				"Items": ["Constructor's gloves"],
-				"Requirements": ["Construction"],
 				"Not F2P": true
 			},
 			"Obtain ~|constructor's boots|~": {
 				"Category": ["BIS Skilling"],
 				"Label": "BIS Skilling",
 				"Items": ["Constructor's boots"],
-				"Requirements": ["Construction"],
 				"Not F2P": true
 			},
 			"Obtain a ~|constructor's hat|~": {
 				"Category": ["BIS Skilling"],
 				"Label": "BIS Skilling",
 				"Items": ["Constructor's hat"],
-				"Requirements": ["Construction"],
 				"Not F2P": true
 			},
 			"Obtain ~|constructor's trousers|~": {
 				"Category": ["BIS Skilling"],
 				"Label": "BIS Skilling",
 				"Items": ["Constructor's trousers"],
-				"Requirements": ["Construction"],
 				"Not F2P": true
 			},
 			"Obtain a ~|constructor's garb|~": {
 				"Category": ["BIS Skilling"],
 				"Label": "BIS Skilling",
 				"Items": ["Constructor's garb"],
-				"Requirements": ["Construction"],
 				"Not F2P": true
 			},
 			"Obtain and fully upgrade a ~|plank box|~": {
 				"Category": ["BIS Skilling"],
 				"Label": "BIS Skilling",
 				"Items": ["Plank box"],
-				"Requirements": ["Construction"],
 				"Not F2P": true
 			},
 			"Obtain ~|master constructor's gloves|~": {
 				"Category": ["BIS Skilling"],
 				"Label": "BIS Skilling",
 				"Items": ["Master constructor's gloves"],
-				"Requirements": ["Construction"],
 				"Not F2P": true
 			},
 			"Obtain ~|master constructor's boots|~": {
 				"Category": ["BIS Skilling"],
 				"Label": "BIS Skilling",
 				"Items": ["Master constructor's boots"],
-				"Requirements": ["Construction"],
 				"Not F2P": true
 			},
 			"Obtain a ~|master constructor's hat|~": {
 				"Category": ["BIS Skilling"],
 				"Label": "BIS Skilling",
 				"Items": ["Master constructor's hat"],
-				"Requirements": ["Construction"],
 				"Not F2P": true
 			},
 			"Obtain ~|master constructor's trousers|~": {
 				"Category": ["BIS Skilling"],
 				"Label": "BIS Skilling",
 				"Items": ["Master constructor's trousers"],
-				"Requirements": ["Construction"],
 				"Not F2P": true
 			},
 			"Obtain a ~|master constructor's jacket|~": {
 				"Category": ["BIS Skilling"],
 				"Label": "BIS Skilling",
 				"Items": ["Master constructor's jacket"],
-				"Requirements": ["Construction"],
 				"Not F2P": true
 			},
 			"Obtain a ~|crystal saw|~": {
 				"Category": ["BIS Skilling"],
 				"Label": "BIS Skilling",
 				"Items": ["Crystal saw"],
-				"Requirements": ["Construction"],
 				"Not F2P": true
 			},
 			"Obtain the ~|scroll of proficiency|~": {
 				"Category": ["BIS Skilling"],
 				"Label": "BIS Skilling",
 				"Items": ["Scroll of proficiency"],
-				"Requirements": ["Construction"],
+				"Requirements": {
+					"Construction": 60
+				},
 				"Not F2P": true
 			},
 			"Obtain a ~|sculpting chisel|~": {
 				"Category": ["BIS Skilling"],
 				"Label": "BIS Skilling",
 				"Items": ["Sculpting chisel"],
-				"Requirements": ["Construction"],
 				"Not F2P": true
 			},
 			"Obtain an ~|enhanced yaktwee stick|~": {
 				"Category": ["BIS Skilling"],
 				"Label": "BIS Skilling",
 				"Items": ["Enhanced yaktwee stick"],
-				"Requirements": ["Hunter"],
 				"Not F2P": true
 			},
 			"Obtain a ~|hunter's headwear|~": {
 				"Category": ["BIS Skilling"],
 				"Label": "BIS Skilling",
 				"Items": ["Hunter's headwear"],
-				"Requirements": ["Hunter"],
 				"Not F2P": true
 			},
 			"Obtain a ~|hunter's chestpiece|~": {
 				"Category": ["BIS Skilling"],
 				"Label": "BIS Skilling",
 				"Items": ["Hunter's chestpiece"],
-				"Requirements": ["Hunter"],
 				"Not F2P": true
 			},
 			"Obtain a ~|hunter's legwear|~": {
 				"Category": ["BIS Skilling"],
 				"Label": "BIS Skilling",
 				"Items": ["Hunter's legwear"],
-				"Requirements": ["Hunter"],
 				"Not F2P": true
 			},
 			"Obtain ~|hunter's gloves|~": {
 				"Category": ["BIS Skilling"],
 				"Label": "BIS Skilling",
 				"Items": ["Hunter's gloves"],
-				"Requirements": ["Hunter"],
 				"Not F2P": true
 			},
 			"Obtain ~|hunter's boots|~": {
 				"Category": ["BIS Skilling"],
 				"Label": "BIS Skilling",
 				"Items": ["Hunter's boots"],
-				"Requirements": ["Hunter"],
 				"Not F2P": true
 			},
 			"Obtain a ~|volcanic trapper head|~": {
 				"Category": ["BIS Skilling"],
 				"Label": "BIS Skilling",
 				"Items": ["Volcanic trapper head"],
-				"Requirements": ["Hunter"],
 				"Not F2P": true
 			},
 			"Obtain a ~|volcanic trapper chest|~": {
 				"Category": ["BIS Skilling"],
 				"Label": "BIS Skilling",
 				"Items": ["Volcanic trapper chest"],
-				"Requirements": ["Hunter"],
 				"Not F2P": true
 			},
 			"Obtain ~|volcanic trapper legguards|~": {
 				"Category": ["BIS Skilling"],
 				"Label": "BIS Skilling",
 				"Items": ["Volcanic trapper leggaurds"],
-				"Requirements": ["Hunter"],
 				"Not F2P": true
 			},
 			"Obtain ~|volcanic trapper arms|~": {
 				"Category": ["BIS Skilling"],
 				"Label": "BIS Skilling",
 				"Items": ["Volcanic trapper arms"],
-				"Requirements": ["Hunter"],
 				"Not F2P": true
 			},
 			"Obtain ~|volcanic trapper boots|~": {
 				"Category": ["BIS Skilling"],
 				"Label": "BIS Skilling",
 				"Items": ["Volcanic trapper boots"],
-				"Requirements": ["Hunter"],
 				"Not F2P": true
 			},
 			"Obtain ~|Skek's hypnowand|~": {
 				"Category": ["BIS Skilling"],
 				"Label": "BIS Skilling",
 				"Items": ["Skeka's hypnowand"],
-				"Requirements": ["Hunter"],
+				"Requirements": {
+					"Hunter": 80
+				},
 				"Not F2P": true
 			},
 			"Obtain a ~|magic butterfly net|~": {
@@ -115354,217 +115355,207 @@
 				"Category": ["BIS Skilling"],
 				"Label": "BIS Skilling",
 				"Items": ["Hunter's Catalyst fragment"],
-				"Requirements": ["Hunter"],
 				"Not F2P": true
 			},
 			"Obtain a ~|shaman's headdres|~": {
 				"Category": ["BIS Skilling"],
 				"Label": "BIS Skilling",
 				"Items": ["Shaman's headdres"],
-				"Requirements": ["Summoning"],
 				"Not F2P": true
 			},
 			"Obtain a ~|shaman's poncho|~": {
 				"Category": ["BIS Skilling"],
 				"Label": "BIS Skilling",
 				"Items": ["Shaman's poncho"],
-				"Requirements": ["Summoning"],
 				"Not F2P": true
 			},
 			"Obtain a ~|shaman's leggings|~": {
 				"Category": ["BIS Skilling"],
 				"Label": "BIS Skilling",
 				"Items": ["Shaman's leggings"],
-				"Requirements": ["Summoning"],
 				"Not F2P": true
 			},
 			"Obtain a ~|shaman's hand wraps|~": {
 				"Category": ["BIS Skilling"],
 				"Label": "BIS Skilling",
 				"Items": ["Shaman's hand wraps"],
-				"Requirements": ["Summoning"],
 				"Not F2P": true
 			},
 			"Obtain a ~|shaman's moccasins|~": {
 				"Category": ["BIS Skilling"],
 				"Label": "BIS Skilling",
 				"Items": ["Shaman's moccasins"],
-				"Requirements": ["Summoning"],
 				"Not F2P": true
 			},
 			"Obtain a ~|shaman's headdres add-on|~": {
 				"Category": ["BIS Skilling"],
 				"Label": "BIS Skilling",
 				"Items": ["Shaman's headdres add-on"],
-				"Requirements": ["Summoning"],
 				"Not F2P": true
 			},
 			"Obtain a ~|diviner's headwear|~": {
 				"Category": ["BIS Skilling"],
 				"Label": "BIS Skilling",
 				"Items": ["Diviner's headwear"],
-				"Requirements": ["Divination"],
 				"Not F2P": true
 			},
 			"Obtain a ~|diviner's robe|~": {
 				"Category": ["BIS Skilling"],
 				"Label": "BIS Skilling",
 				"Items": ["Diviner's robe"],
-				"Requirements": ["Divination"],
 				"Not F2P": true
 			},
 			"Obtain a ~|diviner's legwear|~": {
 				"Category": ["BIS Skilling"],
 				"Label": "BIS Skilling",
 				"Items": ["Diviner's legwear"],
-				"Requirements": ["Divination"],
 				"Not F2P": true
 			},
 			"Obtain a ~|diviner's handwear|~": {
 				"Category": ["BIS Skilling"],
 				"Label": "BIS Skilling",
 				"Items": ["Diviner's handwear"],
-				"Requirements": ["Divination"],
 				"Not F2P": true
 			},
 			"Obtain a ~|diviner's footwear|~": {
 				"Category": ["BIS Skilling"],
 				"Label": "BIS Skilling",
 				"Items": ["Diviner's footwear"],
-				"Requirements": ["Divination"],
 				"Not F2P": true
 			},
 			"Obtain the ~|elder divination head|~": {
 				"Category": ["BIS Skilling"],
 				"Label": "BIS Skilling",
 				"Items": ["Elder divination head"],
-				"Requirements": ["Divination"],
 				"Not F2P": true
 			},
 			"Obtain the ~|elder divination body|~": {
 				"Category": ["BIS Skilling"],
 				"Label": "BIS Skilling",
 				"Items": ["Elder divination body"],
-				"Requirements": ["Divination"],
 				"Not F2P": true
 			},
 			"Obtain the ~|elder divination legs|~": {
 				"Category": ["BIS Skilling"],
 				"Label": "BIS Skilling",
 				"Items": ["Elder divination legs"],
-				"Requirements": ["Divination"],
 				"Not F2P": true
 			},
 			"Obtain the ~|elder divination hands|~": {
 				"Category": ["BIS Skilling"],
 				"Label": "BIS Skilling",
 				"Items": ["Elder divination hands"],
-				"Requirements": ["Divination"],
 				"Not F2P": true
 			},
 			"Obtain the ~|elder divination feet|~": {
 				"Category": ["BIS Skilling"],
 				"Label": "BIS Skilling",
 				"Items": ["Elder divination feet"],
-				"Requirements": ["Divination"],
 				"Not F2P": true
 			},
 			"Obtain the ~|memory dowser|~": {
 				"Category": ["BIS Skilling"],
 				"Label": "BIS Skilling",
 				"Items": ["Memory dowser"],
-				"Requirements": ["Divination"],
+				"Requirements": {
+					"Divination": 80
+				},
 				"Not F2P": true
 			},
 			"Obtain an ~|archaeologist's hat|~": {
 				"Category": ["BIS Skilling"],
 				"Label": "BIS Skilling",
 				"Items": ["Archaeologist's hat"],
-				"Requirements": ["Archaeology"],
 				"Not F2P": true
 			},
 			"Obtain an ~|archaeologist's jacket|~": {
 				"Category": ["BIS Skilling"],
 				"Label": "BIS Skilling",
 				"Items": ["Archaeologist's jacket"],
-				"Requirements": ["Archaeology"],
 				"Not F2P": true
 			},
 			"Obtain an ~|archaeologist's trousers|~": {
 				"Category": ["BIS Skilling"],
 				"Label": "BIS Skilling",
 				"Items": ["Archaeologist's trousers"],
-				"Requirements": ["Archaeology"],
 				"Not F2P": true
 			},
 			"Obtain an ~|archaeologist's gloves|~": {
 				"Category": ["BIS Skilling"],
 				"Label": "BIS Skilling",
 				"Items": ["Archaeologist's gloves"],
-				"Requirements": ["Archaeology"],
 				"Not F2P": true
 			},
 			"Obtain an ~|archaeologist's boots|~": {
 				"Category": ["BIS Skilling"],
 				"Label": "BIS Skilling",
 				"Items": ["Archaeologist's boots"],
-				"Requirements": ["Archaeology"],
 				"Not F2P": true
 			},
 			"Obtain the ~|master archaeologist's hat|~": {
 				"Category": ["BIS Skilling"],
 				"Label": "BIS Skilling",
 				"Items": ["Master archaeologist's hat"],
-				"Requirements": ["Archaeology"],
+				"Requirements": {
+					"Archaeology": 99
+				},
 				"Not F2P": true
 			},
 			"Obtain the ~|master archaeologist's jacket|~": {
 				"Category": ["BIS Skilling"],
 				"Label": "BIS Skilling",
 				"Items": ["Master archaeologist's jacket"],
-				"Requirements": ["Archaeology"],
+				"Requirements": {
+					"Archaeology": 99
+				},
 				"Not F2P": true
 			},
 			"Obtain the ~|master archaeologist's trousers|~": {
 				"Category": ["BIS Skilling"],
 				"Label": "BIS Skilling",
 				"Items": ["Master archaeologist's trousers"],
-				"Requirements": ["Archaeology"],
+				"Requirements": {
+					"Archaeology": 99
+				},
 				"Not F2P": true
 			},
 			"Obtain the ~|master archaeologist's gloves|~": {
 				"Category": ["BIS Skilling"],
 				"Label": "BIS Skilling",
 				"Items": ["Master archaeologist's gloves"],
-				"Requirements": ["Archaeology"],
+				"Requirements": {
+					"Archaeology": 99
+				},
 				"Not F2P": true
 			},
 			"Obtain the ~|master archaeologist's boots|~": {
 				"Category": ["BIS Skilling"],
 				"Label": "BIS Skilling",
 				"Items": ["Master archaeologist's boots"],
-				"Requirements": ["Archaeology"],
+				"Requirements": {
+					"Archaeology": 99
+				},
 				"Not F2P": true
 			},
 			"Obtain the ~|auto-screener v1.080|~": {
 				"Category": ["BIS Skilling"],
 				"Label": "BIS Skilling",
 				"Items": ["Auto-screener v1.080"],
-				"Requirements": ["Archaeology"],
 				"Not F2P": true
 			},
 			"Obtain the ~|Balarak's sash brush|~": {
 				"Category": ["BIS Skilling"],
 				"Label": "BIS Skilling",
 				"Items": ["Balarak's sash brush"],
-				"Requirements": ["Archaeology"],
+				"Requirements": {
+					"Archaeology": 80
+				},
 				"Not F2P": true
 			},
 			"Obtain the ~|cosmic accumulator|~": {
 				"Category": ["BIS Skilling"],
 				"Label": "BIS Skilling",
 				"Items": ["Cosmic accumulator"],
-				"Requirements": ["Archaeology"],
 				"Priority": 1,
 				"Set": "BIS Cosmic Focus",
 				"Not F2P": true
@@ -115573,7 +115564,6 @@
 				"Category": ["BIS Skilling"],
 				"Label": "BIS Skilling",
 				"Items": ["Cosmic focus"],
-				"Requirements": ["Archaeology"],
 				"Priority": 1,
 				"Set": "BIS Cosmic Focus",
 				"Not F2P": true
@@ -115582,6 +115572,13 @@
 				"Category": ["BIS Skilling"],
 				"Label": "BIS Skilling",
 				"Items": ["Crystal skillchompa"],
+				"Requirements": {
+					"Fishing": 71,
+					"Mining": 71,
+					"Woodcutting": 71,
+					"Divination": 71,
+					"Archaeology": 71
+				},
 				"Priority": 1,
 				"Set": "BIS Skillchompa"
 			},
@@ -115589,6 +115586,13 @@
 				"Category": ["BIS Skilling"],
 				"Label": "BIS Skilling",
 				"Items": ["Crimson skillchompa"],
+				"Requirements": {
+					"Fishing": 61,
+					"Mining": 61,
+					"Woodcutting": 61,
+					"Divination": 61,
+					"Archaeology": 61
+				},
 				"Priority": 2,
 				"Set": "BIS Skillchompa"
 			},
@@ -115596,6 +115600,13 @@
 				"Category": ["BIS Skilling"],
 				"Label": "BIS Skilling",
 				"Items": ["Azure skillchompa"],
+				"Requirements": {
+					"Fishing": 51,
+					"Mining": 51,
+					"Woodcutting": 51,
+					"Divination": 51,
+					"Archaeology": 51
+				},
 				"Priority": 3,
 				"Set": "BIS Skillchompa"
 			},
@@ -115603,6 +115614,13 @@
 				"Category": ["BIS Skilling"],
 				"Label": "BIS Skilling",
 				"Items": ["Viridian skillchompa"],
+				"Requirements": {
+					"Fishing": 41,
+					"Mining": 41,
+					"Woodcutting": 41,
+					"Divination": 41,
+					"Archaeology": 41
+				},
 				"Priority": 4,
 				"Set": "BIS Skillchompa"
 			},
@@ -115611,90 +115629,91 @@
 				"Label": "BIS Skilling",
 				"Items": ["Cobalt skillchompa"],
 				"Priority": 5,
+				"Requirements": {
+					"Fishing": 31,
+					"Mining": 31,
+					"Woodcutting": 31,
+					"Divination": 31,
+					"Archaeology": 31
+				},
 				"Set": "BIS Skillchompa"
 			},
 			"Obtain a ~|scroll of Daemonheim|~": {
 				"Category": ["BIS Skilling"],
 				"Label": "BIS Skilling",
 				"Items": ["Scroll of Daemonheim"],
-				"Requirements": ["Dungeoneering"],
+				"Requirements": {
+					"Dungeoneering": 70
+				},
 				"Not F2P": true
 			},
 			"Obtain a ~|scroll of gathering|~": {
 				"Category": ["BIS Skilling"],
 				"Label": "BIS Skilling",
 				"Items": ["Scroll of gathering"],
-				"Requirements": ["Dungeoneering"],
+				"Requirements": {
+					"Dungeoneering": 70
+				},
 				"Not F2P": true
 			},
 			"Obtain ~|brawling gloves (Agility)|~": {
 				"Category": ["BIS Skilling", "Brawling Gloves"],
 				"Label": "BIS Skilling",
 				"Items": ["Brawling gloves (Agility)"],
-				"Requirements": ["Agility"],
 				"Not F2P": true
 			},
 			"Obtain ~|brawling gloves (Cooking)|~": {
 				"Category": ["BIS Skilling", "Brawling Gloves"],
 				"Label": "BIS Skilling",
 				"Items": ["Brawling gloves (Cooking)"],
-				"Requirements": ["Cooking"],
 				"Not F2P": true
 			},
 			"Obtain ~|brawling gloves (FM)|~": {
 				"Category": ["BIS Skilling", "Brawling Gloves"],
 				"Label": "BIS Skilling",
 				"Items": ["Brawling gloves (FM)"],
-				"Requirements": ["Firemaking"],
 				"Not F2P": true
 			},
 			"Obtain ~|brawling gloves (Fishing)|~": {
 				"Category": ["BIS Skilling", "Brawling Gloves"],
 				"Label": "BIS Skilling",
 				"Items": ["Brawling gloves (Fishing)"],
-				"Requirements": ["Fishing"],
 				"Not F2P": true
 			},
 			"Obtain ~|brawling gloves (Hunter)|~": {
 				"Category": ["BIS Skilling", "Brawling Gloves"],
 				"Label": "BIS Skilling",
 				"Items": ["Brawling gloves (Hunter)"],
-				"Requirements": ["Hunter"],
 				"Not F2P": true
 			},
 			"Obtain ~|brawling gloves (Mining)|~": {
 				"Category": ["BIS Skilling", "Brawling Gloves"],
 				"Label": "BIS Skilling",
 				"Items": ["Brawling gloves (Mining)"],
-				"Requirements": ["Mining"],
 				"Not F2P": true
 			},
 			"Obtain ~|brawling gloves (Prayer)|~": {
 				"Category": ["BIS Skilling", "Brawling Gloves"],
 				"Label": "BIS Skilling",
 				"Items": ["Brawling gloves (Prayer)"],
-				"Requirements": ["Prayer"],
 				"Not F2P": true
 			},
 			"Obtain ~|brawling gloves (Smithing)|~": {
 				"Category": ["BIS Skilling", "Brawling Gloves"],
 				"Label": "BIS Skilling",
 				"Items": ["Brawling gloves (Smithing)"],
-				"Requirements": ["Smithing"],
 				"Not F2P": true
 			},
 			"Obtain ~|brawling gloves (Thieving)|~": {
 				"Category": ["BIS Skilling", "Brawling Gloves"],
 				"Label": "BIS Skilling",
 				"Items": ["Brawling gloves (Thieving)"],
-				"Requirements": ["Thieving"],
 				"Not F2P": true
 			},
 			"Obtain ~|brawling gloves (WC)|~": {
 				"Category": ["BIS Skilling", "Brawling Gloves"],
 				"Label": "BIS Skilling",
 				"Items": ["Brawling gloves (WC)"],
-				"Requirements": ["Woodcutting"],
 				"Not F2P": true
 			},
 			"Obtain a ~|scripture of Elidinis|~": {
@@ -115714,7 +115733,6 @@
 				"Label": "BIS Skilling Familiar",
 				"Items": ["Arctic bear pouch"],
 				"Priority": 1,
-				"Requirements": ["Hunter"],
 				"Set": "BIS Hunter Familiar",
 				"Not F2P": true
 			},
@@ -115723,7 +115741,6 @@
 				"Label": "BIS Skilling Familiar",
 				"Items": ["Spirit larupia pouch"],
 				"Priority": 2,
-				"Requirements": ["Hunter"],
 				"Set": "BIS Hunter Familiar",
 				"Not F2P": true
 			},
@@ -115732,7 +115749,6 @@
 				"Label": "BIS Skilling Familiar",
 				"Items": ["Spirit kyatt pouch"],
 				"Priority": 3,
-				"Requirements": ["Hunter"],
 				"Set": "BIS Hunter Familiar",
 				"Not F2P": true
 			},
@@ -115741,7 +115757,6 @@
 				"Label": "BIS Skilling Familiar",
 				"Items": ["Spirit graahk pouch"],
 				"Priority": 4,
-				"Requirements": ["Hunter"],
 				"Set": "BIS Hunter Familiar",
 				"Not F2P": true
 			},
@@ -115750,7 +115765,6 @@
 				"Label": "BIS Skilling Familiar",
 				"Items": ["Wolpertinger pouch"],
 				"Priority": 5,
-				"Requirements": ["Hunter"],
 				"Set": "BIS Hunter Familiar",
 				"Not F2P": true
 			},
@@ -115759,7 +115773,6 @@
 				"Label": "BIS Skilling Familiar",
 				"Items": ["Stranger plant pouch"],
 				"Priority": 1,
-				"Requirements": ["Farming"],
 				"Set": "BIS Farming Familiar",
 				"Not F2P": true
 			},
@@ -115768,7 +115781,6 @@
 				"Label": "BIS Skilling Familiar",
 				"Items": ["Compost mound pouch"],
 				"Priority": 2,
-				"Requirements": ["Farming"],
 				"Set": "BIS Farming Familiar",
 				"Not F2P": true
 			},
@@ -115777,7 +115789,6 @@
 				"Label": "BIS Skilling Familiar",
 				"Items": ["Dreadfowl pouch"],
 				"Priority": 3,
-				"Requirements": ["Farming"],
 				"Set": "BIS Farming Familiar",
 				"Not F2P": true
 			},
@@ -115786,7 +115797,6 @@
 				"Label": "BIS Skilling Familiar",
 				"Items": ["Granite lobster pouch"],
 				"Priority": 1,
-				"Requirements": ["Fishing"],
 				"Set": "BIS Fishing Familiar",
 				"Not F2P": true
 			},
@@ -115795,7 +115805,6 @@
 				"Label": "BIS Skilling Familiar",
 				"Items": ["Ibis pouch"],
 				"Priority": 2,
-				"Requirements": ["Fishing"],
 				"Set": "BIS Fishing Familiar",
 				"Not F2P": true
 			},
@@ -115804,7 +115813,6 @@
 				"Label": "BIS Skilling Familiar",
 				"Items": ["Granite crab pouch"],
 				"Priority": 3,
-				"Requirements": ["Farming"],
 				"Set": "BIS Farming Familiar",
 				"Not F2P": true
 			},
@@ -115819,7 +115827,6 @@
 				"Label": "BIS Skilling Familiar",
 				"Items": ["Binding contract (gargoyle)"],
 				"Priority": 1,
-				"Requirements": ["Mining"],
 				"Set": "BIS Mining Familiar",
 				"Not F2P": true
 			},
@@ -115828,7 +115835,6 @@
 				"Label": "BIS Skilling Familiar",
 				"Items": ["Lava titan pouch"],
 				"Priority": 2,
-				"Requirements": ["Mining"],
 				"Set": "BIS Mining Familiar",
 				"Not F2P": true
 			},
@@ -115837,7 +115843,6 @@
 				"Label": "BIS Skilling Familiar",
 				"Items": ["Obsidian golem pouch"],
 				"Priority": 3,
-				"Requirements": ["Mining"],
 				"Set": "BIS Mining Familiar",
 				"Not F2P": true
 			},
@@ -115846,7 +115851,6 @@
 				"Label": "BIS Skilling Familiar",
 				"Items": ["Void ravager pouch"],
 				"Priority": 4,
-				"Requirements": ["Mining"],
 				"Set": "BIS Mining Familiar",
 				"Not F2P": true
 			},
@@ -115855,7 +115859,6 @@
 				"Label": "BIS Skilling Familiar",
 				"Items": ["Desert wyrm pouch"],
 				"Priority": 5,
-				"Requirements": ["Mining"],
 				"Set": "BIS Mining Familiar",
 				"Not F2P": true
 			},
@@ -115870,7 +115873,6 @@
 				"Label": "BIS Skilling Familiar",
 				"Items": ["Reborn phoenix pouch"],
 				"Priority": 1,
-				"Requirements": ["Firemaking"],
 				"Set": "BIS Firemaking Familiar",
 				"Not F2P": true
 			},
@@ -115879,7 +115881,6 @@
 				"Label": "BIS Skilling Familiar",
 				"Items": ["Lava titan pouch"],
 				"Priority": 2,
-				"Requirements": ["Firemaking"],
 				"Set": "BIS Firemaking Familiar",
 				"Not F2P": true
 			},
@@ -115888,7 +115889,6 @@
 				"Label": "BIS Skilling Familiar",
 				"Items": ["Phoenix pouch"],
 				"Priority": 3,
-				"Requirements": ["Firemaking"],
 				"Set": "BIS Firemaking Familiar",
 				"Not F2P": true
 			},
@@ -115897,7 +115897,6 @@
 				"Label": "BIS Skilling Familiar",
 				"Items": ["Forge regent pouch"],
 				"Priority": 4,
-				"Requirements": ["Firemaking"],
 				"Set": "BIS Firemaking Familiar",
 				"Not F2P": true
 			},
@@ -115906,7 +115905,6 @@
 				"Label": "BIS Skilling Familiar",
 				"Items": ["Pyrelord pouch"],
 				"Priority": 5,
-				"Requirements": ["Firemaking"],
 				"Set": "BIS Firemaking Familiar",
 				"Not F2P": true
 			},
@@ -115914,9 +115912,6 @@
 				"Category": ["BIS Skilling Consumables", "BIS Skilling"],
 				"Label": "BIS Skilling Familiar",
 				"Items": ["Magpie pouch"],
-				"Priority": 1,
-				"Requirements": ["Thieving"],
-				"Set": "BIS Thieving Familiar",
 				"Not F2P": true
 			},
 			"Summon an ~|abyssal titan|~": {
@@ -115924,7 +115919,6 @@
 				"Label": "BIS Skilling Familiar",
 				"Items": ["Abyssal titan pouch"],
 				"Priority": 1,
-				"Requirements": ["Runecrafting"],
 				"Set": "BIS Runecrafting Familiar",
 				"Not F2P": true
 			},
@@ -115933,7 +115927,6 @@
 				"Label": "BIS Skilling Familiar",
 				"Items": ["Abyssal lurker pouch"],
 				"Priority": 2,
-				"Requirements": ["Runecrafting"],
 				"Set": "BIS Runecrafting Familiar",
 				"Not F2P": true
 			},
@@ -115942,7 +115935,6 @@
 				"Label": "BIS Skilling Familiar",
 				"Items": ["Abyssal parasite pouch"],
 				"Priority": 3,
-				"Requirements": ["Runecrafting"],
 				"Set": "BIS Runecrafting Familiar",
 				"Not F2P": true
 			},
@@ -115950,14 +115942,12 @@
 				"Category": ["BIS Skilling Consumables", "BIS Skilling"],
 				"Label": "BIS Skilling Familiar",
 				"Items": ["Nightmare muspah pouch"],
-				"Requirements": ["Divination"],
 				"Not F2P": true
 			},
 			"Summon a ~|light creature (familiar)|~": {
 				"Category": ["BIS Skilling Consumables", "BIS Skilling"],
 				"Label": "BIS Skilling Familiar",
 				"Items": ["Light creature pouch"],
-				"Requirements": ["Divination"],
 				"Not F2P": true
 			},
 			"Unlock the ~|Pouch Protector|~ relic power": {
@@ -116042,56 +116032,48 @@
 				"Category": ["BIS Skilling Consumables", "BIS Skilling"],
 				"Label": "BIS Skilling Scrimshaw",
 				"Items": ["Superior log-splitting scrimshaw"],
-				"Requirements": ["Woodcutting"],
 				"Not F2P": true
 			},
 			"Obtain a ~|superior tree-shaking scrimshaw|~": {
 				"Category": ["BIS Skilling Consumables", "BIS Skilling"],
 				"Label": "BIS Skilling Scrimshaw",
 				"Items": ["Superior tree-shaking scrimshaw"],
-				"Requirements": ["Woodcutting"],
 				"Not F2P": true
 			},
 			"Obtain a ~|superior rock-crushing scrimshaw|~": {
 				"Category": ["BIS Skilling Consumables", "BIS Skilling"],
 				"Label": "BIS Skilling Scrimshaw",
 				"Items": ["Superior rock-crushing scrimshaw"],
-				"Requirements": ["Mining"],
 				"Not F2P": true
 			},
 			"Obtain a ~|superior gem-finding scrimshaw|~": {
 				"Category": ["BIS Skilling Consumables", "BIS Skilling"],
 				"Label": "BIS Skilling Scrimshaw",
 				"Items": ["Superior gem-finding scrimshaw"],
-				"Requirements": ["Mining"],
 				"Not F2P": true
 			},
 			"Obtain a ~|superior whopper-baiting scrimshaw|~": {
 				"Category": ["BIS Skilling Consumables", "BIS Skilling"],
 				"Label": "BIS Skilling Scrimshaw",
 				"Items": ["Superior whopper-baiting scrimshaw"],
-				"Requirements": ["Fishing"],
 				"Not F2P": true
 			},
 			"Obtain a ~|superior casket-salvaging scrimshaw|~": {
 				"Category": ["BIS Skilling Consumables", "BIS Skilling"],
 				"Label": "BIS Skilling Scrimshaw",
 				"Items": ["Superior casket-salvaging scrimshaw"],
-				"Requirements": ["Fishing"],
 				"Not F2P": true
 			},
 			"Obtain a ~|superior memory-crushing scrimshaw|~": {
 				"Category": ["BIS Skilling Consumables", "BIS Skilling"],
 				"Label": "BIS Skilling Scrimshaw",
 				"Items": ["Superior memory-crushing scrimshaw"],
-				"Requirements": ["Divination"],
 				"Not F2P": true
 			},
 			"Obtain a ~|superior energy-gathering scrimshaw|~": {
 				"Category": ["BIS Skilling Consumables", "BIS Skilling"],
 				"Label": "BIS Skilling Scrimshaw",
 				"Items": ["Superior energy-gathering scrimshaw"],
-				"Requirements": ["Divination"],
 				"Not F2P": true
 			}
 		},
