@@ -24672,6 +24672,17 @@
 				"NoPet": true,
 				"NoBoost": true
 			},
+			"Wear a ~|spectral lens|~": {
+				"Items": ["Spectral lens"],
+				"Level": 20,
+				"Skills": {
+					"Necromancy": 20
+				},
+				"Primary": false,
+				"Priority": 16,
+				"NoPet": true,
+				"NoBoost": true
+			},
 			"Wear a piece of ~|black armour|~": {
 				"Items": ["BlackArmour[+]"],
 				"Level": 25,
@@ -50382,6 +50393,17 @@
 				"Primary": true,
 				"Priority": 8
 			},
+			"Wear a ~|spectral lens|~": {
+				"Items": ["Spectral lens"],
+				"Level": 20,
+				"Skills": {
+					"Defence": 20
+				},
+				"Primary": false,
+				"Priority": 9,
+				"NoPet": true,
+				"NoBoost": true
+			},
 			"Perform a ~|lesser essence ritual|~": {
 				"Chunks": ["RitualSite[+]"],
 				"Items": ["RitualLightSource[+]*", "Basic ghostly ink*", "Regular ghostly ink*", "Pure essence*"],
@@ -50932,6 +50954,17 @@
 				"Priority": 11,
 				"NoPet": true,
 				"NoBoost": true
+			},
+			"Ensoul an ~|ensouled spectral lens|~": {
+				"Chunks": ["RitualSite[+]"],
+				"Items": ["RitualLightSource[+]", "Basic ghostly ink", "Regular ghostly ink", "Greater ghostly ink", "Spectral lens"],
+				"Level": 80,
+				"Primary": true,
+				"Tasks": {
+					"~|Smoking Kills|~ Complete the quest": "Quest"
+				},
+				"Output": "Ensouled spectral lens",
+				"Priority": 12
 			},
 			"Unlock and cast the ~|Command Phantom Guardian|~ ability": {
 				"Chunks": ["City of Um"],
@@ -58756,6 +58789,15 @@
 				"Output": "Mutated jadinko guard",
 				"NoPet": true
 			},
+			"Slay a ~|profane scabarite|~": {
+				"Level": 87,
+				"Monsters": ["Profane Scabarite"],
+				"Primary": false,
+				"Priority": 1,
+				"Source": "drop",
+				"Output": "Profane Scabarite",
+				"NoPet": true
+			},
 			"Slay a ~|grifolapine|~": {
 				"Level": 88,
 				"Monsters": ["Grifolapine"],
@@ -65152,14 +65194,14 @@
 				"Monsters": ["Paladin"],
 				"Output": "Paladin",
 				"Primary": true,
-				"Priority": 2
+				"Priority": 1
 			},
 			"Pickpocket a ~|monkey knife fighter|~": {
 				"Level": 70,
 				"NPCs": ["Monkey knife fighter"],
 				"Output": "Monkey knife fighter",
 				"Primary": true,
-				"Priority": 1
+				"Priority": 3
 			},
 			"Enter a tier two ~|Shifting Tombs|~": {
 				"Chunks": ["8300"],
@@ -65175,7 +65217,7 @@
 				},
 				"Primary": false,
 				"Output": "Shifting Tombs loot",
-				"Priority": 3
+				"Priority": 4
 			},
 			"Pickpocket a ~|Guard|~ for quadruple loot": {
 				"Category": ["Multiple Pickpockets"],
@@ -65186,7 +65228,7 @@
 				},
 				"Output": "Coins",
 				"Primary": false,
-				"Priority": 4
+				"Priority": 5
 			},
 			"Pickpocket a ~|gnome|~": {
 				"Level": 75,
@@ -65844,6 +65886,14 @@
 				"Output": "Rich chest",
 				"Primary": true,
 				"Priority": 1
+			},
+			"Steal from a ~|chest (Scabarite Cavern)|~": {
+				"Level": 70,
+				"Items": ["Lockpick"],
+				"Objects": ["Chest (Scabarite Cavern)"],
+				"Output": "Chest (Scabarite Cavern)",
+				"Primary": true,
+				"Priority": 2
 			},
 			"Lockpick the door to a ~|10-coins chest|~": {
 				"Level": 1,
@@ -103537,19 +103587,19 @@
 			},
 			"~|Lumbridge Achievements#Beginner|~ Just Add Water": {
 				"Description": "Make some soft clay.",
-				"Chunks": ["12339"],
+				"Objects": ["Water object[+]"],
 				"Items": ["Clay"],
 				"BaseQuest": "Lumbridge Achievements"
 			},
 			"~|Lumbridge Achievements#Beginner|~ Very Potter": {
 				"Description": "Make a pot on a potter's wheel.",
-				"Chunks": ["12339"],
+				"Objects": ["Potter's wheel"],
 				"Items": ["Soft clay"],
 				"BaseQuest": "Lumbridge Achievements"
 			},
 			"~|Lumbridge Achievements#Beginner|~ Hotpot": {
 				"Description": "Fire a pot in a Pottery oven.",
-				"Chunks": ["12339"],
+				"Object": ["Pottery oven"],
 				"Items": ["Pot (unfired)"],
 				"BaseQuest": "Lumbridge Achievements"
 			},
@@ -109715,6 +109765,11 @@
 				"Category": ["Collection Log", "Slayer Collection Log", "Pets"],
 				"Label": "Slayer Pets",
 				"Items": ["Parasitic orb"]
+			},
+			"(Kharidian Desert) Obtain a ~|spectral lens|~": {
+				"Category": ["Collection Log", "Slayer Collection Log"],
+				"Label": "Slayer Collection Log",
+				"Items": ["Spectral lens"]
 			},
 			"(Lost Lands and Dungeons) Obtain a ~|black mask|~": {
 				"Category": ["Collection Log", "Slayer Collection Log"],
@@ -117787,6 +117842,9 @@
 					"Become an ~|archaeology assistant|~": "Archaeology"
 				}
 			},
+			"Scabarite Cavern": {
+				"UnlocksArea": true
+			},
 			"Create a super explosive shaker*": {
 				"Items": ["Super explosive flask", "Rubium"],
 				"Output": "Super explosive shaker"
@@ -120641,6 +120699,9 @@
 		},
 		"34": {
 			"Name": "Daemonheim - Depths excavation site"
+		},
+		"35": {
+			"Name": "Scabarite Cavern"
 		},
 		"258": {
 			"Spawn": {
@@ -124824,9 +124885,9 @@
 			},
 			"Shop": {
 				"Construction Supplies (Prifddinas)": true,
-				"Summoning Shop": true,
 				"Crafting Supplies": true,
-				"Estate Agents Shop": true
+				"Estate Agents Shop": true,
+				"Summoning Supplies (Lord Amlodd)": true
 			},
 			"Nickname": "West Prifddinas"
 		},
@@ -125951,6 +126012,23 @@
 			"NPC": {
 				"Nightmare": 18
 			}
+		},
+		"9001": {
+			"Object": {
+				"Iron Enclave portal": 1
+			},
+			"NPC": {
+				"Baeksica Plume": 1,
+				"Gutheggs": 1,
+				"Saracluckin": 1,
+				"Sehen": 1,
+				"Zamopeck": 1,
+				"Iroh, the Group Ironman tutor": 1
+			},
+			"Spawn": {
+				"Egg": 3
+			},
+			"Nickname": "Iron Enclave"
 		},
 		"9005": {
 			"Object": {
@@ -141278,7 +141356,8 @@
 				"Canoe station": 1,
 				"Vegetable stall": 2,
 				"Fishing spot (crayfish)": 5,
-				"Tree patch": 1
+				"Tree patch": 1,
+				"Iron Enclave portal": 1
 			},
 			"NPC": {
 				"Hans": 1,
@@ -142448,7 +142527,8 @@
 				"Bandit": 5
 			},
 			"Connect": {
-				"12946": true
+				"12946": true,
+				"35": true
 			},
 			"Quest": {
 				"Desert Treasure": "step"
@@ -158894,6 +158974,9 @@
 			"NPC": {
 				"Nature Spirit": 1
 			},
+			"Shop": {
+				"Summoning Supplies (Wishing well)": 1
+			},
 			"Connect": {
 				"13620": true
 			},
@@ -163592,6 +163675,18 @@
 			},
 			"Connect": {
 				"13882": true
+			}
+		},
+		"Scabarite Cavern": {
+			"Monster": {
+				"Profane Scabarite": 21
+			},
+			"Object": {
+				"Chest (Scabarite Cavern)": 1,
+				"Sack (Scabarite Cavern)": 3
+			},
+			"Connect": {
+				"13102": true
 			}
 		}
 	},
@@ -169824,7 +169919,11 @@
 				"Giant scarab": true,
 				"High Priest of Scabaras": true,
 				"Corrupted scarab": true,
-				"Scarab akh": true
+				"Scarab akh": true,
+				"Profane Scabarite": true
+			},
+			"Profane Scabarites": {
+				"Profane Scabarite": true
 			},
 			"Scorpions": {
 				"Grave scorpion": true,
@@ -215364,63 +215463,86 @@
 			"Bones": {
 				"1": "Always"
 			},
-			"Grimy guam": {
-				"1": "common"
+			"Coins": {
+				"3": "Common",
+				"5": "Common",
+				"15": "Common",
+				"25": "Common"
 			},
-			"Grimy marrentill": {
-				"1": "common"
+			"Earth rune": {
+				"4": "Unommon"
+			},
+			"Fire rune": {
+				"6": "Unommon"
+			},
+			"Mind rune": {
+				"9": "Uncommon"
+			},
+			"Chaos rune": {
+				"2": "Rare"
+			},
+			"Bronze arrow": {
+				"7": "Uncommon"
+			},
+			"Bronze bolts": {
+				"2-12": "Common"
+			},
+			"Cabbage": {
+				"1": "Rare"
+			},
+			"Tiny plated bronze salvage": {
+				"1": "Uncommon"
+			},
+			"Tiny spiky iron salvage": {
+				"1": "Rare"
+			},
+			"Copper stone spirit": {
+				"1": "Uncommon"
+			},
+			"Earth talisman": {
+				"1": "Uncommon"
+			},
+			"Fishing bait": {
+				"1": "Uncommon"
+			},
+			"Grimy guam": {
+				"1": "Common"
 			},
 			"Grimy tarromin": {
-				"1": "common"
+				"1": "Uncommon"
+			},
+			"Grimy marrentill": {
+				"1": "Uncommon"
 			},
 			"Grimy harralander": {
 				"1": "Uncommon"
-			},
-			"Grimy kwuarm": {
-				"1": "Very rare"
-			},
-			"Grimy avantoe": {
-				"1": "Very rare"
 			},
 			"Grimy ranarr": {
 				"1": "Uncommon"
 			},
 			"Grimy irit": {
-				"1": "Very rare"
+				"1": "Rare"
 			},
-			"Grimy dwarf weed": {
-				"1": "Very rare"
+			"Grimy avantoe": {
+				"1": "Rare"
+			},
+			"Grimy kwuarm": {
+				"1": "Rare"
+			},
+			"Grimy cadentine": {
+				"1": "Rare"
 			},
 			"Grimy lantadyme": {
-				"1": "Very rare"
+				"1": "Rare"
 			},
-			"Bronze bolts": {
-				"2": "Uncommon",
-				"4": "Uncommon",
-				"6": "Uncommon",
-				"8": "Uncommon",
-				"11": "Uncommon"
+			"Grimy dwarf weed": {
+				"1": "Rare"
 			},
 			"Chargebow": {
-				"1": "Uncommon"
+				"1": "Common"
 			},
 			"Staff of air": {
-				"1": "Uncommon"
-			},
-			"Copper stone spirit": {
-				"1": "Rare"
-			},
-			"Spice": {
-				"1": "Rare"
-			},
-			"Coins": {
-				"3": "common",
-				"5": "common",
-				"15": "common",
-				"25": "common"
-			},
-			"Earth talisman": {
-				"1": "Rare"
+				"1": "Common"
 			},
 			"Sealed clue scroll (easy)": {
 				"1": "1/128"
@@ -226676,6 +226798,11 @@
 			"Wizard Korvak's Pouch Shop": {
 				"Runecrafting Guild": [{
 					"Access members content": "Nonskill"
+				}]
+			},
+			"Summoning Supplies (Wishing well)": {
+				"Nature grotto": [{
+					"~|Nature Spirit|~ Complete the quest": "Quest"
 				}]
 			},
 			"Wizard Rinsit's Runecrafting Shop": {
@@ -248032,6 +248159,77 @@
 					"1": "1/10000"
 				}
 			},
+			"Profane Scabarite": {
+				"Carapace": {
+					"1": "Always"
+				},
+				"Gold charm": {
+					"1": "15/100"
+				},
+				"Green charm": {
+					"1": "12/100"
+				},
+				"Crimson charm": {
+					"1": "15/1000"
+				},
+				"Blue charm": {
+					"1": "15/100"
+				},
+				"Spectral lens": {
+					"1": "1/512"
+				},
+				"Jade amulet": {
+					"1": "Common"
+				},
+				"Jade ring": {
+					"1": "Common"
+				},
+				"Huge bladed mithril salvage": {
+					"4 (noted)": "Common"
+				},
+				"Medium spiky rune salvage": {
+					"2 (noted)": "Common"
+				},
+				"Uncut jade": {
+					"2": "Common"
+				},
+				"Dragon dart tip": {
+					"23-40": "Common"
+				},
+				"Primal stone spirit": {
+					"4": "Common"
+				},
+				"Maple wood spirit": {
+					"3-7": "Common"
+				},
+				"Mahogany wood spirit": {
+					"2-8": "Common"
+				},
+				"Yew wood spirit": {
+					"3-5": "Common"
+				},
+				"White berries": {
+					"3-5 (noted)": "Common"
+				},
+				"Cadava berries": {
+					"3-5": "Common"
+				},
+				"Toadflax seed": {
+					"1-3": "Common"
+				},
+				"Magic seed": {
+					"1": "Rare"
+				},
+				"Ciku seed": {
+					"1": "Very rare"
+				},
+				"Dust rune": {
+					"8-28": "Uncommon"
+				},
+				"Rare drop table": {
+					"1": "Rare"
+				}
+			},
 			"Pyrefiend": {
 				"Impious ashes": {
 					"1": "Always"
@@ -254354,6 +254552,20 @@
 					"541-2456": "48/1000"
 				}
 			},
+			"Chest (Scabarite Cavern)": {
+				"Coins": {
+					"300": "Common"
+				},
+				"Willow wood spirit": {
+					"3": "Uncommon"
+				},
+				"Teak wood spirit": {
+					"3": "Uncommon"
+				},
+				"Menaphite gift offering (small)": {
+					"1": "Rare"
+				}
+			},
 			"Safes low": {
 				"Sealed clue scroll (medium)": {
 					"1": "1/128"
@@ -255867,6 +256079,7 @@
 		"Abyssal demon (Heart of Gielinor)": 85,
 		"Risen ghost": 85,
 		"Mutated jadinko guard": 86,
+		"Profane Scabarite": 87,
 		"Grifolapine": 88,
 		"Corrupted scorpion": 88,
 		"Anagami": 90,
@@ -307463,6 +307676,26 @@
 			"accuracy": 2458,
 			"auto_damage": 2011.5
 		},
+		"Spectral lens": {
+			"ranged": 0,
+			"requirements": {
+				"Defence": 20,
+				"Necromancy": 20
+			},
+			"class": "necromancy",
+			"lp": 0,
+			"tier": 20,
+			"speed": 0,
+			"damage": 0,
+			"type": "Tank armour",
+			"armour": 63.2,
+			"slot": "head",
+			"strength": 0,
+			"magic": 0,
+			"necromancy": 0,
+			"prayer": 0,
+			"accuracy": 0
+		},
 		"Spectral spirit shield": {
 			"ranged": 0,
 			"requirements": {
@@ -319742,6 +319975,10 @@
 				"Level": 80,
 				"Weight": 10
 			},
+			"Profane Scabarites": {
+				"Level": 87,
+				"Weight": 5
+			},
 			"Red dragons": {
 				"Weight": 5
 			},
@@ -320113,6 +320350,10 @@
 				"Level": 76,
 				"Weight": 16
 			},
+			"Profane Scabarites": {
+				"Level": 87,
+				"Weight": 5
+			},
 			"Ripper Demons": {
 				"Level": 96,
 				"Weight": 8
@@ -320325,6 +320566,10 @@
 				"Level": 81,
 				"Weight": 10
 			},
+			"Profane Scabarites": {
+				"Level": 87,
+				"Weight": 5
+			},
 			"Ripper Demons": {
 				"Level": 96,
 				"Weight": 8
@@ -320524,6 +320769,10 @@
 			"Order of ascension members": {
 				"Level": 81,
 				"Weight": 10
+			},
+			"Profane Scabarites": {
+				"Level": 87,
+				"Weight": 5
 			},
 			"Ripper Demons": {
 				"Level": 96,
