@@ -40,14 +40,14 @@ body::-webkit-scrollbar {
     -webkit-tap-highlight-color:rgba(0,0,0,0);
 }
 
-body:not(.about):not(.patch):not(.change-password) {
+body:not(.about):not(.patch):not(.change-password):not(.home) {
     background-color: black;
     color: var(--colorText);
     overflow: hidden !important;
 }
 
 @-moz-document url-prefix() {
-    html:not(.about):not(.patch):not(.change-password),body:not(.about):not(.patch):not(.change-password){overflow: hidden !important;}
+    html:not(.about):not(.patch):not(.change-password):not(.home),body:not(.about):not(.patch):not(.change-password):not(.home){overflow: hidden !important;}
 }
 
 a, a:visited {
@@ -505,8 +505,19 @@ button.menu2 {
     margin-right: 15px;
 }
 
-.infoid, #infomonsters, #infonpcs, #infospawns, #infoshops, #infofeatures, #infoquests, #infoclues, #infoconnections, #infochallenges {
+.infoid, .chunkinfo-dropdown-container {
     display: none;
+}
+
+.chunkinfo-dropdown-container {
+    position: relative;
+    font-size: min(2vw, 24px);
+    border-top: solid 1px;
+}
+
+#chunkinfo-dropdown {
+    font-size: min(1.5vw, 18px);
+    margin: 5px;
 }
 
 .infoid {
@@ -595,7 +606,7 @@ button.menu2 {
 .menu12 {
     position: fixed;
     z-index: 98 !important;
-    bottom: min(28vw, 110px);
+    bottom: min(28vw, 160px);
     right: 10px;
     width: auto;
     height: 2vw;
@@ -1966,9 +1977,19 @@ input#searchPlayerMaps {
     border: solid black 1px;
 }
 
+.rolling-chunk-options-p {
+    padding: 0px 10px;
+    font-size: 16px;
+    color: var(--colorTextAlt);
+}
+
 .theme-header {
     font-size: 20px;
     font-weight: bold;
+    padding: 10px;
+}
+
+.theme-subheader {
     padding: 10px;
 }
 
@@ -2360,7 +2381,11 @@ input#searchPlayerMaps {
 }
 
 .menu8 .panel.visible {
-    max-height: min(10vh, 200px);
+    max-height: min(20vh, 400px);
+    margin: 5px;
+    background-color: var(--color3);
+    padding: 10px !important;
+    border-radius: 5px;
 }
 
 .panel-active .challenge {
@@ -2581,10 +2606,11 @@ input#searchPlayerMaps {
 }
 
 .help {
-    position: relative;
-    float: right;
-    margin-right: 10px;
+    position: absolute;
+    right: 0;
+    margin-right: 15px;
     color: var(--colorTextAlt);
+    display: none;
 }
 
 .help2 {
@@ -2722,12 +2748,13 @@ input#searchPlayerMaps {
 }
 
 .expand {
-    position: relative;
-    float: right;
-    margin-right: 10px;
+    position: absolute;
+    right: 0;
+    margin-right: 15px;
     color: var(--colorTextAlt);
     -webkit-transition-duration: 0.4s;
     transition-duration: 0.4s;
+    cursor: pointer;
 }
 
 .expand:hover {
@@ -3650,6 +3677,11 @@ input#searchPlayerMaps {
     cursor: not-allowed;
 }
 
+.regions .subsetting {
+    display: inline-block;
+    width: 49%;
+}
+
 .extraspace {
     padding-left: 90px !important;
 }
@@ -4373,7 +4405,7 @@ input#searchChunkSections {
 }
 
 #myModal38 > .modal-content {
-    height: 15%;
+    height: 40%;
     width: 25%;
     margin-top: 1.5%;
 }
@@ -5810,20 +5842,21 @@ input#searchChunks {
     font-size: min(10vw, 36px);
     font-weight: bold;
     padding-top: 0px;
-    max-height: 20%;
-    min-height: 20%;
+    max-height: 15%;
+    min-height: 15%;
     line-height: 5.5vh;
     text-align: center;
     background-color: var(--color1);
 }
 
-.clipboard-data {
+.clipboard-data, .clipboard-data-2, .clipboard-data-3 {
     margin: 0px 15px;
     font-size: 2vh;
     display: flex;
     align-items: center;
-    height: 80%;
+    height: 20%;
     justify-content: center;
+    position: relative;
 }
 
 #chunks-clipboard-button {
@@ -5884,6 +5917,44 @@ input#searchChunks {
 
 #rules-clipboard-button:hover {
     background-color: rgb(195, 80, 80);
+}
+
+#plugin-clipboard-button {
+    background-color: rgb(0, 165, 165);
+    width: 250px;
+    font-size: 2.7vh;
+    color: white;
+    border-width: 1px 1px 1px 1px;
+    border-style: solid;
+    border-color: black;
+    outline: none;
+    -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    margin: 10px;
+}
+
+#plugin-clipboard-button:hover {
+    background-color: rgb(0, 130, 130);
+}
+
+#assign-clipboard-button {
+    background-color: rgb(255, 50, 150);
+    width: 250px;
+    font-size: 2.7vh;
+    color: white;
+    border-width: 1px 1px 1px 1px;
+    border-style: solid;
+    border-color: black;
+    outline: none;
+    -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    margin: 10px;
+}
+
+#assign-clipboard-button:hover {
+    background-color: rgb(225, 25, 125);
 }
 
 .modal-content.mobile .style-button {
@@ -6010,9 +6081,19 @@ input#searchChunks {
     position: relative;
 }
 
+.mobile .skill-text {
+    min-width: 50%;
+    max-width: 50%;
+}
+
 .skill-text.narrow {
     min-width: 50%;
     max-width: 50%;
+}
+
+.mobile .skill-text.narrow {
+    min-width: 30%;
+    max-width: 30%;
 }
 
 .skill-icon-wrapper {
@@ -6110,13 +6191,19 @@ input#searchChunks {
     border-right: solid 1px var(--color8);
 }
 
+.mobile .text-table-header {
+    min-width: 50%;
+    max-width: 50%;
+}
+
 .text-table-header.narrow {
     min-width: 50%;
     max-width: 50%;
 }
 
-.button-table-header.mobile {
-    width: 48.2%;
+.mobile .text-table-header.narrow {
+    min-width: 30%;
+    max-width: 30%;
 }
 
 .button-table-header {
