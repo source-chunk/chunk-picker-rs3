@@ -144,6 +144,7 @@ let challengePanelVis = {
 
 let rulesPanelVis = {
     visibletasks: false,
+    collections: false,
     overallskill: false,
     agility: false,
     combat: false,
@@ -368,6 +369,7 @@ let rules = {
     "Collection Log": false,
 	"Boss Collection Log": false,
 	"Slayer Collection Log": false,
+	"Breeding Log": false,
     "Minigame": false,
     "Shortcut Task": false,
     "Shortcut": false,
@@ -381,11 +383,17 @@ let rules = {
     "Secondary Primary Amount": "1",
     "RDT": false,
     "Untracked Uniques": false,
+    "Untracked Uniques Skilling": false,
+    "Untracked Uniques Combat": false,
+    "Untracked Uniques Minigames": false,
+    "Untracked Uniques Daemonheim": false,
+    "Untracked Uniques Misc": false,
+    "Slayer Souls": false,
+	"Dungeoneering Journals": false,
     "Combat and Teleport Spells": false,
     "Primary Spawns": false,
     "Smithing by Smelting": false,
     "Pets": false,
-    "Stuffables": false,
     "Kill X Amount": "1",
     "Rare Drop Amount": "1000",
     "Manually Complete Tasks": false,
@@ -395,7 +403,6 @@ let rules = {
     "Secondary MTA": false,
     "Skilling Pets": false,
     "Money Unlockables": false,
-    "Additional Money Unlockables": false,
     "Prayers": false,
     "All Droptables": false,
     "All Droptables Nest": false,
@@ -407,7 +414,6 @@ let rules = {
     "Boosting": false,
 	"Token": false,
 	"Master skillcape": false,
-	"Golden fish egg": false,
 	"Cleaning herbs": false,
 	"Vinesweeper": false,
 	"Ogleroot": false,
@@ -415,11 +421,11 @@ let rules = {
 	"Daemonheim training": false,
 	"Daemonheim tasks": false,
 	"PortSkills": false,
-	"Champion Challenge": false,
 	"Titles": false,
 	"DnD": false,
 	"Uncharted": false,
 	"Arc Log": false,
+	"Costume Room": false,
 	"Achievement": false,
 	"Multiple Pickpockets": false,
     "F2P": false,
@@ -461,6 +467,7 @@ let ruleNames = {
     "Collection Log": "Must obtain items from collection logs (Does nothing on its own)<span class='rule-asterisk noscroll'>*</span>",
 	"Boss Collection Log": "Must obtain items from the boss collection log<span class='rule-asterisk noscroll'>*</span>",
 	"Slayer Collection Log": "Must obtain items from the slayer collection log<span class='rule-asterisk noscroll'>*</span>",
+	"Breeding Log": "WIP - Must fill out the Player-Owned Farm and Player-Owned Ranch breeding logs<span class='rule-asterisk noscroll'>*</span>",
     "Minigame": "Allow items obtained from minigame rewards to count towards chunk tasks",
     "Shortcut Task": "Allow agility shortcuts to count as an Agility skill task",
     "Shortcut": "Allow agility shortcuts to count as a primary method for training Agility",
@@ -472,7 +479,14 @@ let ruleNames = {
     "Farming Primary": "Farming products (herbs, vegetables, etc.) can count as primary item sources for chunk tasks<span class='rule-asterisk noscroll'>*</span>",
     "Secondary Primary": "Allow secondary training methods with drops/methods more common than 1/X (not inclusive, set to 0 to include all drops) to count as primary training methods (e.g. allow a 1/50 drop for a bronze bar be your required way to train Smithing)<span class='rule-asterisk noscroll'>*</span>",
     "RDT": "Allow items from the Rare Drop Table and the Gem Drop Table to count towards chunk tasks",
-    "Untracked Uniques": "Must obtain extra uniques that are untracked on the collection log (e.g. Swordy McSwordface)",
+    "Untracked Uniques": "Must obtain extra uniques that are untracked on the collection log (does nothing by itself)<span class='rule-asterisk noscroll'>*</span>",
+    "Untracked Uniques Skilling": "WIP - Must obtain untracked uniques obtained from skilling (e.g. Big shark, Golden fish egg, etc.)<span class='rule-asterisk noscroll'>*</span>",
+    "Untracked Uniques Combat": "WIP - Must obtain untracked uniques obtained from combat (e.g. Abomination cape, Champion scrolls, etc.)<span class='rule-asterisk noscroll'>*</span>",
+    "Untracked Uniques Minigames": "WIP - Must obtain untracked uniques obtained from minigames (e.g. Penance armor, Slayer VIP ticket, etc.)<span class='rule-asterisk noscroll'>*</span>",
+    "Untracked Uniques Misc": "WIP - Must obtain untracked uniques obtained through other means (e.g. Chompy bird hunting hats, etc.)<span class='rule-asterisk noscroll'>*</span>",
+    "Untracked Uniques Daemonheim": "WIP - Must obtain untracked uniques that exist solely in the Dungeons of Daemonheim (e.g. Celestial surgebox, etc.)<span class='rule-asterisk noscroll'>*</span>",
+	"Dungeoneering Journals": "WIP - Must complete the Daemonheim Journals (e.g. Behemoth notes, Stalker notes, etc.)<span class='rule-asterisk noscroll'>*</span>",
+	"Slayer Souls": "WIP - Must fill out all available souls in the Slayer Codex<span class='rule-asterisk noscroll'>*</span>",
     "Combat and Teleport Spells": "Allow all spells to count as possible Magic skill tasks (otherwise only 'utility' spells like High Alchemy or Telegrab will count)",
     "Primary Spawns": "Item spawns count as primary access to an item, and can be used as a primary way to train a skill if needed<span class='rule-asterisk noscroll'>*</span>",
     "Smithing by Smelting": "Smelting ores into bars counts as a primary method for training Smithing",
@@ -491,7 +505,7 @@ let ruleNames = {
     "Skiller": "Restrict tasks to only those doable on a level 3 skiller",
     "Fill Stash": "Must build and fill S.T.A.S.H. units as soon as you're able to",
     "All Shops": "Must buy every item from every shop within your chunks once <span class='rule-asterisk noscroll'>⁺</span>",
-    "Quest Skill Reqs": "Must get Quest skill requirements, regardless of if the Quest is startable or not <span class='rule-asterisk noscroll'>⁺</span>",
+    "Quest Skill Reqs": "Must get Quest skill requirements, regardless of if the Quest is startable or not <span class='rule-asterisk noscroll'>†</span>",
 	"Boosting": "Allow skill boosts to be considered for skill tasks",
     "Token": "Allow token xp drops to count as a primary training method<span class='rule-asterisk noscroll'>*</span>",
 	"Master skillcape": "Must obtain master skillcapes for all skills<span class='rule-asterisk noscroll'>†</span>",
@@ -508,6 +522,7 @@ let ruleNames = {
 	"DnD": "Allow distractions and diversion to create skilling tasks<span class='rule-asterisk noscroll'>*</span>",
 	"Uncharted": "Allow resources only available on uncharted islands to create skilling tasks<span class='rule-asterisk noscroll'>*</span>",
 	"Arc Log": "Require completion of the Arc Journal<span class='rule-asterisk noscroll'>*</span>",
+	"Fill Costume Room": "WIP - Must fill all slots in the Player-Owned House costume room",
 	"Achievement": "WIP - Require all achievements that can be obtained within your ruleset excluding level up achievements (WIP)",
 	"Multiple Pickpockets": "Require the agility and thieving levels to quadruple pickpocket<span class='rule-asterisk noscroll'>*</span>",
     "F2P": "Restrict to F2P skills/items/tasks only",
@@ -574,7 +589,15 @@ let rulePresets = {
         "Collection Log": true,
 		"Boss Collection Log": true,
 		"Slayer Collection Log": true,
+		"Breeding Log": true,
         "Untracked Uniques": true,
+        "Untracked Uniques Skilling": true,
+        "Untracked Uniques Combat": true,
+        "Untracked Uniques Minigames": true,
+        "Untracked Uniques Misc": true,
+		"Untracked Uniques Daemonheim": true,
+		"Dungeoneering Journals": true,
+        "Slayer Souls": true,
         "Smithing by Smelting": true,
         "Pets": true,
         "Rare Drop Amount": "0",
@@ -634,7 +657,15 @@ let rulePresets = {
         "Collection Log": true,
 		"Boss Collection Log": true,
 		"Slayer Collection Log": true,
+		"Breeding Log": true,
         "Untracked Uniques": true,
+		"Untracked Uniques Skilling": true,
+        "Untracked Uniques Combat": true,
+        "Untracked Uniques Minigames": true,
+        "Untracked Uniques Misc": true,
+		"Untracked Uniques Daemonheim": true,
+		"Dungeoneering Journals": true,
+        "Slayer Souls": true,
         "Smithing by Smelting": true,
         "Pets": true,
         "Rare Drop Amount": "0",
@@ -686,9 +717,17 @@ let ruleStructure = {
         "Show Diary Tasks": ["Show Diary Tasks Complete", "Show Diary Tasks Any"],
         "Show Best in Slot Tasks": ["Show Best in Slot Prayer Tasks", "Show Best in Slot Defensive Tasks", "Show Best in Slot Melee Style Tasks", "Show Best in Slot 1H and 2H", "Show Best in Slot Shield"],
 		"BIS Skilling": true,
-		"Collection Log": ["Boss Collection Log", "Slayer Collection Log", "Pets"],
-		"Untracked Uniques": ["Stuffables", "Money Unlockables", "Champion Challenge", "Arc Log", "PVP", "Skilling Pets", "Golden fish egg"]
-    },
+	},
+	"Collections": {
+        "Collection Log": ["Boss Collection Log", "Slayer Collection Log", "Arc Log", "Breeding Log"],
+		"Untracked Uniques": ["Untracked Uniques Skilling", "Untracked Uniques Combat", "Untracked Uniques Minigames", "Untracked Uniques Daemonheim", "Untracked Uniques Misc"],
+		"Dungeoneering Journals": true,
+		"Titles": true,
+		"Slayer Souls": true,
+		"Money Unlockables": true,
+		"Fill Costume Room": true,
+		"Pets": ["Skilling Pets"]
+	},
     "Overall Skill": {
         "Starting Items": false,
         "Skillcape": ["Master skillcape"],
@@ -773,7 +812,6 @@ let ruleStructure = {
         "Fill Stash": true,
         "Manually Complete Tasks": true,
         "Skiller": true,
-		"Titles": true,
         "F2P": true,
 		"Group Content": true
     }
@@ -11397,6 +11435,22 @@ let loadData = async function(startup) {
 
         if (!rulesTemp.hasOwnProperty('Boss Collection Log')) {
             rulesTemp['Boss Collection Log'] = rulesTemp.hasOwnProperty('Slayer Collection Log') ? rulesTemp['Slayer Collection Log'] : false;
+        }
+		
+		if (!rulesTemp.hasOwnProperty('Untracked Uniques Skilling')) {
+            rulesTemp['Untracked Uniques Skilling'] = rulesTemp.hasOwnProperty('Untracked Uniques') ? rulesTemp['Untracked Uniques'] : false;
+        }
+		
+		if (!rulesTemp.hasOwnProperty('Untracked Uniques Combat')) {
+            rulesTemp['Untracked Uniques Combat'] = rulesTemp.hasOwnProperty('Untracked Uniques') ? rulesTemp['Untracked Uniques'] : false;
+        }
+		
+		if (!rulesTemp.hasOwnProperty('Untracked Uniques Minigames')) {
+            rulesTemp['Untracked Uniques Minigames'] = rulesTemp.hasOwnProperty('Untracked Uniques') ? rulesTemp['Untracked Uniques'] : false;
+        }
+		
+		if (!rulesTemp.hasOwnProperty('Untracked Uniques Misc')) {
+            rulesTemp['Untracked Uniques Misc'] = rulesTemp.hasOwnProperty('Untracked Uniques') ? rulesTemp['Untracked Uniques'] : false;
         }
 
         !!rulesTemp && Object.keys(rulesTemp).forEach((rule) => {

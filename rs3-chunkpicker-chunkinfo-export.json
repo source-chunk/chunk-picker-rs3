@@ -8091,7 +8091,6 @@
 				"NoBoost": true
 			},
 			"Wield ~|Swordy McSwordFace|~": {
-				"Category": ["Untracked Uniques"],
 				"Items": ["Swordy McSwordFace"],
 				"Level": 80,
 				"Primary": false,
@@ -106526,139 +106525,6 @@
 				},
 				"AllowMulti": true
 			},
-			"Obtain ~|golden leaping trout eggs|~": {
-				"Category": ["Golden fish egg"],
-				"Label": "Golden fish egg",
-				"Items": ["Golden leaping trout eggs"]
-			},
-			"Obtain ~|golden leaping salmon eggs|~": {
-				"Category": ["Golden fish egg"],
-				"Label": "Golden fish egg",
-				"Items": ["Golden leaping salmon eggs"]
-			},
-			"Obtain ~|golden leaping sturgeon eggs|~": {
-				"Category": ["Golden fish egg"],
-				"Label": "Golden fish egg",
-				"Items": ["Golden leaping sturgeon eggs"]
-			},
-			"Obtain ~|golden trout eggs|~": {
-				"Category": ["Golden fish egg"],
-				"Label": "Golden fish egg",
-				"Items": ["Golden trout eggs"]
-			},
-			"Obtain ~|golden salmon eggs|~": {
-				"Category": ["Golden fish egg"],
-				"Label": "Golden fish egg",
-				"Items": ["Golden salmon eggs"]
-			},
-			"Obtain ~|golden tuna eggs|~": {
-				"Category": ["Golden fish egg"],
-				"Label": "Golden fish egg",
-				"Items": ["Golden tuna eggs"]
-			},
-			"Obtain ~|golden rainbow fish eggs|~": {
-				"Category": ["Golden fish egg"],
-				"Label": "Golden fish egg",
-				"Items": ["Golden rainbow fish eggs"]
-			},
-			"Obtain ~|golden lobster eggs|~": {
-				"Category": ["Golden fish egg"],
-				"Label": "Golden fish egg",
-				"Items": ["Golden lobster eggs"]
-			},
-			"Obtain ~|golden swordfish eggs|~": {
-				"Category": ["Golden fish egg"],
-				"Label": "Golden fish egg",
-				"Items": ["Golden swordfish eggs"]
-			},
-			"Obtain ~|golden lava eel eggs|~": {
-				"Category": ["Golden fish egg"],
-				"Label": "Golden fish egg",
-				"Items": ["Golden lava eel eggs"]
-			},
-			"Obtain ~|golden monkfish eggs|~": {
-				"Category": ["Golden fish egg"],
-				"Label": "Golden fish egg",
-				"Items": ["Golden monkfish eggs"]
-			},
-			"Obtain ~|golden shark eggs|~": {
-				"Category": ["Golden fish egg"],
-				"Label": "Golden fish egg",
-				"Items": ["Golden shark eggs"]
-			},
-			"Obtain ~|golden cavefish eggs|~": {
-				"Category": ["Golden fish egg"],
-				"Label": "Golden fish egg",
-				"Items": ["Golden cavefish eggs"]
-			},
-			"Obtain ~|golden rocktail eggs|~": {
-				"Category": ["Golden fish egg"],
-				"Label": "Golden fish egg",
-				"Items": ["Golden rocktail eggs"]
-			},
-			"Obtain a ~|big bass|~": {
-				"Category": ["Stuffables", "Untracked Uniques"],
-				"Label": "Stuffables",
-				"Items": ["Big bass"]
-			},
-			"Obtain a ~|big swordfish|~": {
-				"Category": ["Stuffables", "Untracked Uniques"],
-				"Label": "Stuffables",
-				"Items": ["Big swordfish"]
-			},
-			"Obtain a ~|big shark|~": {
-				"Category": ["Stuffables", "Untracked Uniques"],
-				"Label": "Stuffables",
-				"Items": ["Big shark"]
-			},
-			"Obtain a ~|strange egg|~": {
-				"Category": ["Untracked Uniques"],
-				"Items": ["Strange egg"]
-			},
-			"Obtain a ~|bolt pouch|~": {
-				"Category": ["Untracked Uniques"],
-				"NPCs": ["Hirko"],
-				"Output": "Bolt pouch"
-			},
-			"Obtain ~|Richie|~ and his partyhat": {
-				"Category": ["Money Unlockables", "Pets"],
-				"Label": "Pets",
-				"Chunks": ["12598"]
-			},
-			"Obtain ~|Remy|~": {
-				"Category": ["Pets"],
-				"Label": "Pets",
-				"Chunks": ["City of Um"],
-				"Items": ["GhostlySole[+]"],
-				"NPCs": ["Ghost cat"]
-			},
-			"Unlock the ~|ornate gravestone|~": {
-				"Category": ["Money Unlockables"],
-				"Label": "Permanent Unlockables",
-				"Tasks": {
-					"~|The Restless Ghost|~ Complete the quest": "Quest"
-				}
-			},
-			"Unlock the ~|Angel of Death|~ gravestone": {
-				"Category": ["Money Unlockables"],
-				"Label": "Permanent Unlockables",
-				"Tasks": {
-					"~|The Giant Dwarf|~ Complete the quest": "Quest"
-				}
-			},
-			"Unlock the ~|Royal dwarven gravestone|~": {
-				"Category": ["Money Unlockables"],
-				"Label": "Permanent Unlockables",
-				"Tasks": {
-					"~|King of the Dwarves|~ Complete the quest": "Quest"
-				}
-			},
-			"Unlock all ~|Dundee's Crocodile Upgrades|~": {
-				"Category": ["Money Unlockables"],
-				"Label": "Permanent Unlockables",
-				"Chunks": ["13362"],
-				"Not F2P": true
-			},
 			"Unlock the ~|Lumbridge lodestone|~": {
 				"Label": "Lodestones",
 				"Chunks": ["12850"]
@@ -107639,31 +107505,6 @@
 				"Label": "Achievement",
 				"NPCs": ["Flipper McGraw"],
 				"Items": ["ArcFish[+]"]
-			},
-			"Obtain ~|the Castaway|~ title": {
-				"Category": ["Arc Log", "Titles"],
-				"Label": "Titles",
-				"Chunks": ["The Arc"],
-				"Tasks": {
-					"Find ~|Milky Joel|~": "Extra",
-					"Find ~|One-Eyed Willy|~": "Extra",
-					"Find ~|Manti Claws|~": "Extra",
-					"Find ~|Swabbie Steve|~": "Extra",
-					"Find ~|TzHaar-Ga'al-Knot|~": "Extra",
-					"Find ~|The Cannonballs|~": "Extra",
-					"Find ~|Azalea Oakheart|~": "Extra",
-					"Find ~|Harley|~": "Extra",
-					"Find ~|Squick|~": "Extra",
-					"Find ~|Salmon Ella|~": "Extra"
-				}
-			},
-			"Obtain the ~|of the Arc|~ title": {
-				"Category": ["Arc Log", "Titles"],
-				"Label": "Titles",
-				"Chunks": ["The Arc"],
-				"Tasks": {
-					"~|Final Destination (miniquest)|~ Complete the miniquest": "Quest"
-				}
 			},
 			"(Asgarnia & Misthalin) Obtain a ~|goblin mail|~": {
 				"Category": ["Collection Log", "Slayer Collection Log"],
@@ -110932,15 +110773,15 @@
 				"Label": "Boss Collection Log",
 				"Items": ["Blightbound crossbow"]
 			},
-			"Obtain an ~|off-hand blightbound crossbow|~": {
+			"(Solak) Obtain an ~|off-hand blightbound crossbow|~": {
 				"Category": ["Collection Log", "Boss Collection Log"],
 				"Label": "Boss Collection Log",
 				"Items": ["Off-hand blightbound crossbow"]
 			},
-			"Obtain ~|Erethdor's grimoire (token)|~": {
+			"(Solak) Obtain ~|Erethdor's grimoire|~": {
 				"Category": ["Collection Log", "Boss Collection Log"],
 				"Label": "Boss Collection Log",
-				"Items": ["Erethdor's grimoire (token)"]
+				"Items": ["Erethdor's grimoire"]
 			},
 			"(Solak) Obtain a ~|purple mushroom|~": {
 				"Category": ["Collection Log", "Boss Collection Log"],
@@ -111312,224 +111153,6 @@
 				"Label": "Boss Pets",
 				"Items": ["Vorkath's claw"]
 			},
-			"Defeat the ~|leprechaun champion|~": {
-				"Category": ["Champion Challenge"],
-				"Chunks": ["Champions' Arena"],
-				"Label": "Champion Challenge"			
-			},
-			"Defeat the ~|imp champion|~": {
-				"Category": ["Untracked Uniques", "Champion Challenge"],
-				"Chunks": ["Champions' Arena"],
-				"Label": "Champion Challenge",
-				"Tasks": {
-					"Defeat the ~|leprechaun champion|~": "Extra"
-				},
-				"Items": ["Imp Champion's scroll"]				
-			},
-			"Defeat the ~|goblin champion|~": {
-				"Category": ["Untracked Uniques", "Champion Challenge"],
-				"Chunks": ["Champions' Arena"],
-				"Label": "Champion Challenge",
-				"Tasks": {
-					"Defeat the ~|leprechaun champion|~": "Extra"
-				},
-				"Items": ["Goblin Champion's scroll"]				
-			},
-			"Defeat the ~|skeleton champion|~": {
-				"Category": ["Untracked Uniques", "Champion Challenge"],
-				"Chunks": ["Champions' Arena"],
-				"Label": "Champion Challenge",
-				"Tasks": {
-					"Defeat the ~|leprechaun champion|~": "Extra"
-				},
-				"Items": ["Skeleton Champion's scroll"]				
-			},
-			"Defeat the ~|zombie champion|~": {
-				"Category": ["Untracked Uniques", "Champion Challenge"],
-				"Chunks": ["Champions' Arena"],
-				"Label": "Champion Challenge",
-				"Tasks": {
-					"Defeat the ~|leprechaun champion|~": "Extra"
-				},
-				"Items": ["Zombie Champion's scroll"]				
-			},
-			"Defeat the ~|hobgoblin champion|~": {
-				"Category": ["Untracked Uniques", "Champion Challenge"],
-				"Chunks": ["Champions' Arena"],
-				"Label": "Champion Challenge",
-				"Tasks": {
-					"Defeat the ~|leprechaun champion|~": "Extra"
-				},
-				"Items": ["Hobgoblin Champion's scroll"]				
-			},
-			"Defeat the ~|giant champion|~": {
-				"Category": ["Untracked Uniques", "Champion Challenge"],
-				"Chunks": ["Champions' Arena"],
-				"Label": "Champion Challenge",
-				"Tasks": {
-					"Defeat the ~|leprechaun champion|~": "Extra"
-				},
-				"Items": ["Giant Champion's scroll"]				
-			},
-			"Defeat the ~|banshee champion|~": {
-				"Category": ["Untracked Uniques", "Champion Challenge"],
-				"Chunks": ["Champions' Arena"],
-				"Label": "Champion Challenge",
-				"Tasks": {
-					"Defeat the ~|leprechaun champion|~": "Extra"
-				},
-				"Items": ["Banshee Champion's scroll"]				
-			},
-			"Defeat the ~|ghoul champion|~": {
-				"Category": ["Untracked Uniques", "Champion Challenge"],
-				"Chunks": ["Champions' Arena"],
-				"Label": "Champion Challenge",
-				"Tasks": {
-					"Defeat the ~|leprechaun champion|~": "Extra"
-				},
-				"Items": ["Ghoul Champion's scroll"]				
-			},
-			"Defeat the ~|earth warrior champion|~": {
-				"Category": ["Untracked Uniques", "Champion Challenge"],
-				"Chunks": ["Champions' Arena"],
-				"Label": "Champion Challenge",
-				"Tasks": {
-					"Defeat the ~|leprechaun champion|~": "Extra"
-				},
-				"Items": ["Earth Warrior Champion's scroll"]				
-			},
-			"Defeat the ~|aberrant spectre champion|~": {
-				"Category": ["Untracked Uniques", "Champion Challenge"],
-				"Chunks": ["Champions' Arena"],
-				"Label": "Champion Challenge",
-				"Tasks": {
-					"Defeat the ~|leprechaun champion|~": "Extra"
-				},
-				"Items": ["Aberrant Spectre Champion's scroll"]				
-			},
-			"Defeat the ~|jogre champion|~": {
-				"Category": ["Untracked Uniques", "Champion Challenge"],
-				"Chunks": ["Champions' Arena"],
-				"Label": "Champion Challenge",
-				"Tasks": {
-					"Defeat the ~|leprechaun champion|~": "Extra"
-				},
-				"Items": ["Jogre Champion's scroll"]				
-			},
-			"Defeat the ~|mummy champion|~": {
-				"Category": ["Untracked Uniques", "Champion Challenge"],
-				"Chunks": ["Champions' Arena"],
-				"Label": "Champion Challenge",
-				"Tasks": {
-					"Defeat the ~|leprechaun champion|~": "Extra"
-				},
-				"Items": ["Mummy Champion's scroll"]				
-			},
-			"Defeat the ~|lesser demon champion|~": {
-				"Category": ["Untracked Uniques", "Champion Challenge"],
-				"Chunks": ["Champions' Arena"],
-				"Label": "Champion Challenge",
-				"Tasks": {
-					"Defeat the ~|leprechaun champion|~": "Extra"
-				},
-				"Items": ["Lesser Demon Champion's scroll"]				
-			},
-			"Defeat ~|Leon d'Cour|~": {
-				"Category": ["Champion Challenge"],
-				"Chunks": ["Champions' Arena"],
-				"Label": "Champion Challenge",
-				"Tasks": {
-					"Champions[+]x10": "Extra"
-				}			
-			},
-			"Defeat ~|Glophren|~": {
-				"Category": ["Champion Challenge"],
-				"Chunks": ["Champions' Arena"],
-				"Label": "Champion Challenge",
-				"Tasks": {
-					"Champions[+]x13": "Extra"
-				}		
-			},
-			"Unlock the ~|Stone of Jas ball|~": {
-				"Category": ["Untracked Uniques"],
-				"Label": "Untracked Uniques",
-				"Chunks": ["12338"]
-			},
-			"Unlock the ~|duellist's cap|~ (tier 6)": {
-				"Category": ["PVP"],
-				"Label": "PVP",
-				"Chunks": ["13106"]
-			},
-			"Unlock the ~|wilderstalker helmet|~ (tier 6)": {
-				"Category": ["PVP"],
-				"Label": "PVP",
-				"Chunks": ["12342", "PVP[+]"]
-			},
-			"Obtain a ~|cyclopean helmet|~": {
-				"Category": ["Untracked Uniques"],
-				"Label": "Untracked Uniques",
-				"Chunks": ["11319"]
-			},
-			"Obtain a ~|long bone|~": {
-				"Category": ["Untracked Uniques"],
-				"Label": "Untracked Uniques",
-				"Items": ["Long bone"],
-				"Not F2P": true				
-			},
-			"Obtain a ~|curved bone|~": {
-				"Category": ["Untracked Uniques"],
-				"Label": "Untracked Uniques",
-				"Items": ["Curved bone"],
-				"Not F2P": true
-			},
-			"Obtain ~|the breaktaker|~ title": {
-				"Category": ["Titles"],
-				"Label": "Titles"
-			},
-			"Obtain the ~|archmage|~ title": {	
-				"Category": ["Titles"],
-				"Label": "Titles",
-				"Chunks": ["12337"],
-				"Skills": {
-					"Magic": 99,
-					"Runecrafting": 99
-				}
-			},
-			"Obtain a ~|tea flask|~": {
-				"Category": ["Untracked Uniques"],
-				"Label": "Untracked Uniques",
-				"Items": ["Tea flask"]
-			},
-			"Obtain a ~|rune satchel|~": {
-				"Category": ["Untracked Uniques"],
-				"Label": "Untracked Uniques",
-				"Items": ["Rune satchel"]
-			},
-			"Obtain a ~|green satchel|~": {
-				"Category": ["Untracked Uniques"],
-				"Label": "Untracked Uniques",
-				"Items": ["Green satchel"]
-			},
-			"Obtain a ~|red satchel|~": {
-				"Category": ["Untracked Uniques"],
-				"Label": "Untracked Uniques",
-				"Items": ["Red satchel"]
-			},
-			"Obtain a ~|black satchel|~": {
-				"Category": ["Untracked Uniques"],
-				"Label": "Untracked Uniques",
-				"Items": ["Black satchel"]
-			},
-			"Obtain a ~|gold satchel|~": {
-				"Category": ["Untracked Uniques"],
-				"Label": "Untracked Uniques",
-				"Items": ["Gold satchel"]
-			},
-			"Obtain a ~|plain satchel|~": {
-				"Category": ["Untracked Uniques"],
-				"Label": "Untracked Uniques",
-				"Items": ["Plain satchel"]
-			},
 			"Obtain a ~|fishing hat|~": {
 				"Category": ["DnD", "BIS Skilling"],
 				"Label": "BIS Skilling",
@@ -111692,190 +111315,2326 @@
 				"NPCs": ["Shady ghost"],
 				"Output": "First age ring"
 			},
-			"Obtain a ~|nue orokami mask|~": {
-				"Category": ["Uncharted", "Untracked Uniques"],
-				"Label": "Untracked Uniques",
-				"Items": ["Nue orokami mask"]
-			},
-			"Obtain a ~|kodama orokami mask|~": {
-				"Category": ["Uncharted", "Untracked Uniques"],
-				"Label": "Untracked Uniques",
-				"Items": ["Kodama orokami mask"]
-			},
-			"Obtain an ~|akateko orokami mask|~": {
-				"Category": ["Uncharted", "Untracked Uniques"],
-				"Label": "Untracked Uniques",
-				"Items": ["Akateko orokami mask"]
-			},
-			"Obtain an ~|oni orokami mask|~": {
-				"Category": ["Uncharted", "Untracked Uniques"],
-				"Label": "Untracked Uniques",
-				"Items": ["Oni orokami mask"]
-			},
-			"Obtain a ~|shinigami orokami mask|~": {
-				"Category": ["Uncharted", "Untracked Uniques"],
-				"Label": "Untracked Uniques",
-				"Items": ["Shinigami orokami mask"]
-			},
-			"Obtain an ~|ikuchi orokami mask|~": {
-				"Category": ["Uncharted", "Untracked Uniques"],
-				"Label": "Untracked Uniques",
-				"Items": ["Ikuchi orokami mask"]
-			},
-			"Obtain an ~|akkorokamui orokami mask|~": {
-				"Category": ["Uncharted", "Untracked Uniques"],
-				"Label": "Untracked Uniques",
-				"Items": ["Akkorokamui orokami mask"]
-			},
-			"Obtain a ~|karasu orokami mask|~": {
-				"Category": ["Uncharted", "Untracked Uniques"],
-				"Label": "Untracked Uniques",
-				"Items": ["Karasu orokami mask"]
-			},
 			"(Skilling Pets) Obtain ~|Dojo Mojo|~": {
-				"Category": ["Skilling Pets"],
+				"Category": ["Pets", "Skilling Pets"],
 				"Label": "Skilling Pets",
 				"Items": ["Dojo Mojo"]
 			},
 			"(Skilling Pets) Obtain ~|Archie|~": {
-				"Category": ["Skilling Pets"],
+				"Category": ["Pets", "Skilling Pets"],
 				"Label": "Skilling Pets",
 				"Items": ["Archie"]
 			},
 			"(Skilling Pets) Obtain ~|Sifu|~": {
-				"Category": ["Skilling Pets"],
+				"Category": ["Pets", "Skilling Pets"],
 				"Label": "Skilling Pets",
 				"Items": ["Sifu"]
 			},
 			"(Skilling Pets) Obtain ~|Morty|~": {
-				"Category": ["Skilling Pets"],
+				"Category": ["Pets", "Skilling Pets"],
 				"Label": "Skilling Pets",
 				"Items": ["Morty"]
 			},
 			"(Skilling Pets) Obtain ~|Baby Yaga's House|~": {
-				"Category": ["Skilling Pets"],
+				"Category": ["Pets", "Skilling Pets"],
 				"Label": "Skilling Pets",
 				"Items": ["Baby Yaga's House"]
 			},
 			"(Skilling Pets) Obtain ~|Ramsay|~": {
-				"Category": ["Skilling Pets"],
+				"Category": ["Pets", "Skilling Pets"],
 				"Label": "Skilling Pets",
 				"Items": ["Ramsay"]
 			},
 			"(Skilling Pets) Obtain ~|Gemi|~": {
-				"Category": ["Skilling Pets"],
+				"Category": ["Pets", "Skilling Pets"],
 				"Label": "Skilling Pets",
 				"Items": ["Gemi"]
 			},
 			"(Skilling Pets) Obtain ~|Wallace|~": {
-				"Category": ["Skilling Pets"],
+				"Category": ["Pets", "Skilling Pets"],
 				"Label": "Skilling Pets",
 				"Items": ["Wallace"]
 			},
 			"(Skilling Pets) Obtain ~|Willow|~": {
-				"Category": ["Skilling Pets"],
+				"Category": ["Pets", "Skilling Pets"],
 				"Label": "Skilling Pets",
 				"Items": ["Willow"]
 			},
 			"(Skilling Pets) Obtain ~|Gordie|~": {
-				"Category": ["Skilling Pets"],
+				"Category": ["Pets", "Skilling Pets"],
 				"Label": "Skilling Pets",
 				"Items": ["Gordie"]
 			},
 			"(Skilling Pets) Obtain ~|Brains|~": {
-				"Category": ["Skilling Pets"],
+				"Category": ["Pets", "Skilling Pets"],
 				"Label": "Skilling Pets",
 				"Items": ["Brains"]
 			},
 			"(Skilling Pets) Obtain ~|Bernie|~": {
-				"Category": ["Skilling Pets"],
+				"Category": ["Pets", "Skilling Pets"],
 				"Label": "Skilling Pets",
 				"Items": ["Bernie"]
 			},
 			"(Skilling Pets) Obtain ~|Bubbles|~": {
-				"Category": ["Skilling Pets"],
+				"Category": ["Pets", "Skilling Pets"],
 				"Label": "Skilling Pets",
 				"Items": ["Bubbles"]
 			},
 			"(Skilling Pets) Obtain ~|Flo|~": {
-				"Category": ["Skilling Pets"],
+				"Category": ["Pets", "Skilling Pets"],
 				"Label": "Skilling Pets",
 				"Items": ["Flo"]
 			},
 			"(Skilling Pets) Obtain ~|Herbert|~": {
-				"Category": ["Skilling Pets"],
+				"Category": ["Pets", "Skilling Pets"],
 				"Label": "Skilling Pets",
 				"Items": ["Herbert"]
 			},
 			"(Skilling Pets) Obtain ~|Ace|~": {
-				"Category": ["Skilling Pets"],
+				"Category": ["Pets", "Skilling Pets"],
 				"Label": "Skilling Pets",
 				"Items": ["Ace"]
 			},
 			"(Skilling Pets) Obtain ~|Malcolm|~": {
-				"Category": ["Skilling Pets"],
+				"Category": ["Pets", "Skilling Pets"],
 				"Label": "Skilling Pets",
 				"Items": ["Malcolm"]
 			},
 			"(Skilling Pets) Obtain ~|Newton|~": {
-				"Category": ["Skilling Pets"],
+				"Category": ["Pets", "Skilling Pets"],
 				"Label": "Skilling Pets",
 				"Items": ["Newton"]
 			},
 			"(Skilling Pets) Obtain ~|Rocky|~": {
-				"Category": ["Skilling Pets"],
+				"Category": ["Pets", "Skilling Pets"],
 				"Label": "Skilling Pets",
 				"Items": ["Rocky"]
 			},
 			"(Skilling Pets) Obtain ~|Omen|~": {
-				"Category": ["Skilling Pets"],
+				"Category": ["Pets", "Skilling Pets"],
 				"Label": "Skilling Pets",
 				"Items": ["Omen"]
 			},
 			"(Skilling Pets) Obtain ~|Ghostly|~": {
-				"Category": ["Skilling Pets"],
+				"Category": ["Pets", "Skilling Pets"],
 				"Label": "Skilling Pets",
 				"Items": ["Ghostly"]
 			},
 			"(Skilling Pets) Obtain ~|Sparky|~": {
-				"Category": ["Skilling Pets"],
+				"Category": ["Pets", "Skilling Pets"],
 				"Label": "Skilling Pets",
 				"Items": ["Sparky"]
 			},
 			"(Skilling Pets) Obtain ~|Rue|~": {
-				"Category": ["Skilling Pets"],
+				"Category": ["Pets", "Skilling Pets"],
 				"Label": "Skilling Pets",
 				"Items": ["Rue"]
 			},
 			"(Skilling Pets) Obtain ~|Crabbe|~": {
-				"Category": ["Skilling Pets"],
+				"Category": ["Pets", "Skilling Pets"],
 				"Label": "Skilling Pets",
 				"Items": ["Crabbe"]
 			},
 			"(Skilling Pets) Obtain ~|Shamini|~": {
-				"Category": ["Skilling Pets"],
+				"Category": ["Pets", "Skilling Pets"],
 				"Label": "Skilling Pets",
 				"Items": ["Shamini"]
 			},
 			"(Skilling Pets) Obtain ~|Smithy|~": {
-				"Category": ["Skilling Pets"],
+				"Category": ["Pets", "Skilling Pets"],
 				"Label": "Skilling Pets",
 				"Items": ["Smithy"]
 			},
 			"(Skilling Pets) Obtain ~|Kangali|~": {
-				"Category": ["Skilling Pets"],
+				"Category": ["Pets", "Skilling Pets"],
 				"Label": "Skilling Pets",
 				"Items": ["Kangali"]
 			},
 			"(Skilling Pets) Obtain ~|Ralph|~": {
-				"Category": ["Skilling Pets"],
+				"Category": ["Pets", "Skilling Pets"],
 				"Label": "Skilling Pets",
 				"Items": ["Ralph"]
 			},
 			"(Skilling Pets) Obtain ~|Woody|~": {
-				"Category": ["Skilling Pets"],
+				"Category": ["Pets", "Skilling Pets"],
 				"Label": "Skilling Pets",
 				"Items": ["Woody"]
+			},
+			"(Golden Fish Eggs) Obtain ~|golden leaping trout eggs|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Skilling"],
+				"Label": "Untracked Skilling Uniques",
+				"Items": ["Golden leaping trout eggs"]
+			},
+			"(Golden Fish Eggs) Obtain ~|golden leaping salmon eggs|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Skilling"],
+				"Label": "Untracked Skilling Uniques",
+				"Items": ["Golden leaping salmon eggs"]
+			},
+			"(Golden Fish Eggs) Obtain ~|golden leaping sturgeon eggs|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Skilling"],
+				"Label": "Untracked Skilling Uniques",
+				"Items": ["Golden leaping sturgeon eggs"]
+			},
+			"(Golden Fish Eggs) Obtain ~|golden trout eggs|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Skilling"],
+				"Label": "Untracked Skilling Uniques",
+				"Items": ["Golden trout eggs"]
+			},
+			"(Golden Fish Eggs) Obtain ~|golden salmon eggs|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Skilling"],
+				"Label": "Untracked Skilling Uniques",
+				"Items": ["Golden salmon eggs"]
+			},
+			"(Golden Fish Eggs) Obtain ~|golden tuna eggs|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Skilling"],
+				"Label": "Untracked Skilling Uniques",
+				"Items": ["Golden tuna eggs"]
+			},
+			"(Golden Fish Eggs) Obtain ~|golden rainbow fish eggs|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Skilling"],
+				"Label": "Untracked Skilling Uniques",
+				"Items": ["Golden rainbow fish eggs"]
+			},
+			"(Golden Fish Eggs) Obtain ~|golden lobster eggs|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Skilling"],
+				"Label": "Untracked Skilling Uniques",
+				"Items": ["Golden lobster eggs"]
+			},
+			"(Golden Fish Eggs) Obtain ~|golden swordfish eggs|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Skilling"],
+				"Label": "Untracked Skilling Uniques",
+				"Items": ["Golden swordfish eggs"]
+			},
+			"(Golden Fish Eggs) Obtain ~|golden lava eel eggs|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Skilling"],
+				"Label": "Untracked Skilling Uniques",
+				"Items": ["Golden lava eel eggs"]
+			},
+			"(Golden Fish Eggs) Obtain ~|golden monkfish eggs|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Skilling"],
+				"Label": "Untracked Skilling Uniques",
+				"Items": ["Golden monkfish eggs"]
+			},
+			"(Golden Fish Eggs) Obtain ~|golden shark eggs|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Skilling"],
+				"Label": "Untracked Skilling Uniques",
+				"Items": ["Golden shark eggs"]
+			},
+			"(Golden Fish Eggs) Obtain ~|golden cavefish eggs|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Skilling"],
+				"Label": "Untracked Skilling Uniques",
+				"Items": ["Golden cavefish eggs"]
+			},
+			"(Golden Fish Eggs) Obtain ~|golden rocktail eggs|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Skilling"],
+				"Label": "Untracked Skilling Uniques",
+				"Items": ["Golden rocktail eggs"]
+			},
+			"(Big Fish) Obtain a ~|big bass|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Skilling"],
+				"Label": "Untracked Skilling Uniques",
+				"Items": ["Big bass"]
+			},
+			"(Big Fish) Obtain a ~|big swordfish|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Skilling"],
+				"Label": "Untracked Skilling Uniques",
+				"Items": ["Big swordfish"]
+			},
+			"(Big Fish) Obtain a ~|big shark|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Skilling"],
+				"Label": "Untracked Skilling Uniques",
+				"Items": ["Big shark"]
+			},
+			"(Orokami Masks) Obtain a ~|nue orokami mask|~": {
+				"Category": ["Uncharted", "Untracked Uniques", "Untracked Uniques Skilling"],
+				"Label": "Untracked Skilling Uniques",
+				"Items": ["Nue orokami mask"]
+			},
+			"(Orokami Masks) Obtain a ~|kodama orokami mask|~": {
+				"Category": ["Uncharted", "Untracked Uniques", "Untracked Uniques Skilling"],
+				"Label": "Untracked Skilling Uniques",
+				"Items": ["Kodama orokami mask"]
+			},
+			"(Orokami Masks) Obtain an ~|akateko orokami mask|~": {
+				"Category": ["Uncharted", "Untracked Uniques", "Untracked Uniques Skilling"],
+				"Label": "Untracked Skilling Uniques",
+				"Items": ["Akateko orokami mask"]
+			},
+			"(Orokami Masks) Obtain an ~|oni orokami mask|~": {
+				"Category": ["Uncharted", "Untracked Uniques", "Untracked Uniques Skilling"],
+				"Label": "Untracked Skilling Uniques",
+				"Items": ["Oni orokami mask"]
+			},
+			"(Orokami Masks) Obtain a ~|shinigami orokami mask|~": {
+				"Category": ["Uncharted", "Untracked Uniques", "Untracked Uniques Skilling"],
+				"Label": "Untracked Skilling Uniques",
+				"Items": ["Shinigami orokami mask"]
+			},
+			"(Orokami Masks) Obtain an ~|ikuchi orokami mask|~": {
+				"Category": ["Uncharted", "Untracked Uniques", "Untracked Uniques Skilling"],
+				"Label": "Untracked Skilling Uniques",
+				"Items": ["Ikuchi orokami mask"]
+			},
+			"(Orokami Masks) Obtain an ~|akkorokamui orokami mask|~": {
+				"Category": ["Uncharted", "Untracked Uniques", "Untracked Uniques Skilling"],
+				"Label": "Untracked Skilling Uniques",
+				"Items": ["Akkorokamui orokami mask"]
+			},
+			"(Orokami Masks) Obtain a ~|karasu orokami mask|~": {
+				"Category": ["Uncharted", "Untracked Uniques", "Untracked Uniques Skilling"],
+				"Label": "Untracked Skilling Uniques",
+				"Items": ["Karasu orokami mask"]
+			},
+			"(Big Game Hunter) Obtain a ~|dragon mattock|~": {
+				"Category": ["Uncharted", "Untracked Uniques", "Untracked Uniques Skilling"],
+				"Label": "Untracked Skilling Uniques",
+				"Items": ["Karasu orokami mask"]
+			},
+			"(Big Game Hunter) Obtain ~|compacted hides|~": {
+				"Category": ["Uncharted", "Untracked Uniques", "Untracked Uniques Skilling"],
+				"Label": "Untracked Skilling Uniques",
+				"Items": ["Compacted hides"]
+			},
+			"(Big Game Hunter) Obtain a ~|compass arrow|~": {
+				"Category": ["Uncharted", "Untracked Uniques", "Untracked Uniques Skilling"],
+				"Label": "Untracked Skilling Uniques",
+				"Items": ["Compass arrow"]
+			},
+			"(Big Game Hunter) Obtain a ~|reinforced dinosaur pelt|~": {
+				"Category": ["Uncharted", "Untracked Uniques", "Untracked Uniques Skilling"],
+				"Label": "Untracked Skilling Uniques",
+				"Items": ["Reinforced dinosaur pelt"]
+			},
+			"(Big Game Hunter) Obtain a ~|dinosaur rib bone|~": {
+				"Category": ["Uncharted", "Untracked Uniques", "Untracked Uniques Skilling"],
+				"Label": "Untracked Skilling Uniques",
+				"Items": ["Dinosaur rib bone"]
+			},
+			"(Anachronia Skilling) Obtain the ~|Totem of Summoning base|~": {
+				"Category": ["Uncharted", "Untracked Uniques", "Untracked Uniques Skilling"],
+				"Label": "Untracked Skilling Uniques",
+				"Items": ["Totem of Summoning base"]
+			},
+			"(Anachronia Skilling) Obtain the ~|Totem of the Abyss middle|~": {
+				"Category": ["Uncharted", "Untracked Uniques", "Untracked Uniques Skilling"],
+				"Label": "Untracked Skilling Uniques",
+				"Items": ["Totem of the Abyss middle"]
+			},
+			"(Anachronia Skilling) Obtain the ~|Totem of Treasure top|~": {
+				"Category": ["Uncharted", "Untracked Uniques", "Untracked Uniques Skilling"],
+				"Label": "Untracked Skilling Uniques",
+				"Items": ["Totem of Treasure top"]
+			},
+			"(Anachronia Skilling) Obtain ~|Skeka's hypnowand base|~": {
+				"Category": ["Uncharted", "Untracked Uniques", "Untracked Uniques Skilling"],
+				"Label": "Untracked Skilling Uniques",
+				"Items": ["Skeka's hypnowand base"]
+			},
+			"(Anachronia Skilling) Obtain ~|Skeka's hypnowand projector|~": {
+				"Category": ["Uncharted", "Untracked Uniques", "Untracked Uniques Skilling"],
+				"Label": "Untracked Skilling Uniques",
+				"Items": ["Skeka's hypnowand projector"]
+			},
+			"(Anachronia Skilling) Obtain ~|Skeka's hypnowand handle|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Skilling"],
+				"Label": "Untracked Skilling Uniques",
+				"Items": ["Skeka's hypnowand handle"]
+			},
+			"(Anachronia Skilling) Obtain ~|Skeka's hypnowand focus|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Skilling"],
+				"Label": "Untracked Skilling Uniques",
+				"Items": ["Skeka's hypnowand focus"]
+			},
+			"(Skilling Bosses) Obtain a ~|Elder Trove (Bik, T3)|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Skilling"],
+				"Label": "Untracked Skilling Uniques",
+				"Items": ["Elder Trove (Bik, T3)"],
+				"Not F2P": true
+			},
+			"(Skilling Bosses) Obtain a ~|manuscript of Bik|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Skilling"],
+				"Label": "Untracked Skilling Uniques",
+				"Items": ["Manuscript of Bik"],
+				"Not F2P": true
+			},
+			"(Skilling Bosses) Obtain a ~|manuscript of Elidinis|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Skilling"],
+				"Label": "Untracked Skilling Uniques",
+				"Items": ["Manuscript of Elidinis"],
+				"Not F2P": true
+			},
+			"(Priffdinas) Obtain a ~|crystal weapon seed|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Skilling"],
+				"Label": "Untracked Skilling Uniques",
+				"Items": ["Crystal weapon seed"]
+			},
+			"(Priffdinas) Obtain a ~|crystal armour seed|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Skilling"],
+				"Label": "Untracked Skilling Uniques",
+				"Items": ["Crystal armour seed"]
+			},
+			"(Priffdinas) Obtain a ~|crystal tool seed|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Skilling"],
+				"Label": "Untracked Skilling Uniques",
+				"Items": ["Crystal tool seed"]
+			},
+			"(Priffdinas) Obtain a ~|crystal acorn|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Skilling"],
+				"Label": "Untracked Skilling Uniques",
+				"Items": ["Crystal acorn"]
+			},
+			"(Champion Scrolls) Obtain the ~|imp champion's scroll|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Combat"],
+				"Label": "Untracked Combat Uniques",
+				"Chunks": ["Champions' Arena"],
+				"Items": ["Imp Champion's scroll"],
+				"Not F2P": true
+			},
+			"(Champion Scrolls) Obtain the ~|goblin champion's scroll|~": {
+				"CategoryChampion Scrolls": ["Untracked Uniques", "Untracked Uniques Combat"],
+				"Label": "Untracked Combat Uniques",
+				"Chunks": ["Champions' Arena"],
+				"Items": ["Goblin Champion's scroll"],
+				"Not F2P": true
+			},
+			"(Champion Scrolls) Obtain the ~|skeleton champion's scroll|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Combat"],
+				"Label": "Untracked Combat Uniques",
+				"Chunks": ["Champions' Arena"],
+				"Items": ["Skeleton Champion's scroll"],
+				"Not F2P": true
+			},
+			"(Champion Scrolls) Obtain the ~|zombie champion's scroll|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Combat"],
+				"Label": "Untracked Combat Uniques",
+				"Chunks": ["Champions' Arena"],
+				"Items": ["Zombie Champion's scroll"],
+				"Not F2P": true
+			},
+			"(Champion Scrolls) Obtain the ~|hobgoblin champion's scroll|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Combat"],
+				"Label": "Untracked Combat Uniques",
+				"Chunks": ["Champions' Arena"],
+				"Items": ["Hobgoblin Champion's scroll"],
+				"Not F2P": true
+			},
+			"(Champion Scrolls) Obtain the ~|giant champion's scroll|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Combat"],
+				"Label": "Untracked Combat Uniques",
+				"Chunks": ["Champions' Arena"],
+				"Items": ["Giant Champion's scroll"],
+				"Not F2P": true
+			},
+			"(Champion Scrolls) Obtain the ~|banshee champion's scroll|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Combat"],
+				"Label": "Untracked Combat Uniques",
+				"Chunks": ["Champions' Arena"],
+				"Items": ["Banshee Champion's scroll"],
+				"Not F2P": true
+			},
+			"(Champion Scrolls) Obtain the ~|ghoul champion's scroll|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Combat"],
+				"Label": "Untracked Combat Uniques",
+				"Chunks": ["Champions' Arena"],
+				"Items": ["Ghoul Champion's scroll"],
+				"Not F2P": true
+			},
+			"(Champion Scrolls) Obtain the ~|earth warrior champion's scroll|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Combat"],
+				"Label": "Untracked Combat Uniques",
+				"Chunks": ["Champions' Arena"],
+				"Items": ["Earth Warrior Champion's scroll"],
+				"Not F2P": true
+			},
+			"(Champion Scrolls) Obtain the ~|abberant spectre champion's scroll|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Combat"],
+				"Label": "Untracked Combat Uniques",
+				"Chunks": ["Champions' Arena"],
+				"Items": ["Aberrant Spectre Champion's scroll"],
+				"Not F2P": true
+			},
+			"(Champion Scrolls) Obtain the ~|jogre champion's scroll|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Combat"],
+				"Champion ScrollsLabel": "Untracked Combat Uniques",
+				"Chunks": ["Champions' Arena"],
+				"Items": ["Jogre Champion's scroll"],
+				"Not F2P": true
+			},
+			"(Champion Scrolls) Obtain the ~|mummy champion's scroll|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Combat"],
+				"Label": "Untracked Combat Uniques",
+				"Chunks": ["Champions' Arena"],
+				"Items": ["Mummy Champion's scroll"],
+				"Not F2P": true
+			},
+			"(Champion Scrolls) Obtain the ~|lesser demon champion's scroll|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Combat"],
+				"Label": "Untracked Combat Uniques",
+				"Chunks": ["Champions' Arena"],
+				"Items": ["Lesser Demon Champion's scroll"],
+				"Not F2P": true
+			},
+			"(Champion Scrolls) Obtain the ~|calling beeds|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Combat"],
+				"Label": "Untracked Combat Uniques",
+				"Chunks": ["Champions' Arena"],
+				"Items": ["ChampionScrolls[+]"],
+				"Not F2P": true
+			},
+			"(Rare Drop Table) Obtain a ~|shield left half|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Combat"],
+				"Label": "Untracked Combat Uniques",
+				"Items": ["Shield left half"],
+				"Not F2P": true
+			},
+			"(Rare Drop Table) Obtain a ~|dragon spear|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Combat"],
+				"Label": "Untracked Combat Uniques",
+				"Items": ["Dragon spear"],
+				"Not F2P": true
+			},
+			"(Rare Drop Table) Obtain a ~|Vecna skull|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Combat"],
+				"Label": "Untracked Combat Uniques",
+				"Items": ["Vecna skull"],
+				"Not F2P": true
+			},
+			"(Rare Drop Table) Obtain ~|Hazelmere's signet ring|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Combat", "Hero Items"],
+				"Label": "Untracked Combat Uniques",
+				"Items": ["Hazelmere's signet ring"],
+				"Not F2P": true
+			},
+			"(Abomination) Obtain a ~|dragon javelin|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Combat"],
+				"Label": "Untracked Combat Uniques",
+				"Items": ["Dragon javelin"],
+				"Not F2P": true
+			},
+			"(Abomination) Obtain an ~|off-hand dragon javelin|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Combat"],
+				"Label": "Untracked Combat Uniques",
+				"Items": ["Off-hand dragon javelin"],
+				"Not F2P": true
+			},
+			"(Abomination) Obtain the ~|abomination cape|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Combat"],
+				"Label": "Untracked Combat Uniques",
+				"Items": ["Abomination cape"],
+				"Not F2P": true
+			},
+			"(Abyss Monsters) Obtain an ~|elemental talisman|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Combat"],
+				"Label": "Untracked Combat Uniques",
+				"Items": ["Elemental Talisman"],
+				"Not F2P": true
+			},
+			"(Abyss Monsters) Obtain a ~|small pouch|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Combat"],
+				"Label": "Untracked Combat Uniques",
+				"Items": ["Small pouch"],
+				"Not F2P": true
+			},
+			"(Abyss Monsters) Obtain an ~|abyssal charm|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Combat"],
+				"Label": "Untracked Combat Uniques",
+				"Items": ["Abyssal charm"],
+				"Not F2P": true
+			},
+			"(Senntisten) Obtain a ~|gate key|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Combat"],
+				"Label": "Untracked Combat Uniques",
+				"Items": ["Gate key"]
+			},
+			"(Senntisten) Obtain ~|siege engine parts|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Combat"],
+				"Label": "Untracked Combat Uniques",
+				"Items": ["Siege engine parts"]
+			},
+			"(Lore Books) Obtain the ~|Scions of Erebus|~ book": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Combat"],
+				"Label": "Untracked Combat Uniques",
+				"Items": ["Scions of Erebus"]
+			},
+			"(Lore Books) Obtain ~|Naressa's journal|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Combat"],
+				"Label": "Untracked Combat Uniques",
+				"Items": ["Naressa's journal"]
+			},
+			"(Lore Books) Obtain ~|Forcae's journal page|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Combat"],
+				"Label": "Untracked Combat Uniques",
+				"Items": ["Forcae's journal page"]
+			},
+			"(Lore Books) Obtain ~|Sakirth's journal|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Combat"],
+				"Label": "Untracked Combat Uniques",
+				"Items": ["Sakirth's journal"]
+			},
+			"(Lore Books) Obtain ~|Strisath's journal|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Combat"],
+				"Label": "Untracked Combat Uniques",
+				"Items": ["Strisath's journal"]
+			},
+			"(Lore Books) Obtain ~|Kalibath's journal|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Combat"],
+				"Label": "Untracked Combat Uniques",
+				"Items": ["Kalibath's journal"]
+			},
+			"(Lore Books) Obtain ~|Phalaks's journal|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Combat"],
+				"Label": "Untracked Combat Uniques",
+				"Items": ["Phalaks's journal"]
+			},
+			"(Lore Books) Obtain the ~|Archaeology Journal - H.F.A|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Combat"],
+				"Label": "Untracked Combat Uniques",
+				"Items": ["Archaeology Journal - H.F.A"],
+				"Not F2P": true
+			},
+			"(Lore Books) Obtain ~|The Ugthanatos|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Combat"],
+				"Label": "Untracked Combat Uniques",
+				"Items": ["The Ugthanatos"],
+				"Not F2P": true
+			},
+			"(Lore Books) Obtain an ~|Order journal page|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Combat"],
+				"Label": "Untracked Combat Uniques",
+				"Items": ["Order journal page"],
+				"Not F2P": true
+			},
+			"(Lore Books) Obtain ~|Miner's journal 1|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Combat"],
+				"Label": "Untracked Combat Uniques",
+				"Items": ["Miner's journal 1"],
+				"Not F2P": true
+			},
+			"(Lore Books) Obtain ~|Miner's journal 2|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Combat"],
+				"Label": "Untracked Combat Uniques",
+				"Items": ["Miner's journal 2"],
+				"Not F2P": true
+			},
+			"(Lore Books) Obtain ~|Miner's journal 3|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Combat"],
+				"Label": "Untracked Combat Uniques",
+				"Items": ["Miner's journal 3"],
+				"Not F2P": true
+			},
+			"(Lore Books) Obtain ~|Miner's journal 4|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Combat"],
+				"Label": "Untracked Combat Uniques",
+				"Items": ["Miner's journal 4"],
+				"Not F2P": true
+			},
+			"(Lore Books) Obtain ~|Miner's journal 5|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Combat"],
+				"Label": "Untracked Combat Uniques",
+				"Items": ["Miner's journal 5"],
+				"Not F2P": true
+			},
+			"(Lore Books) Obtain ~|The Diary of Jebediah Omnis|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Combat"],
+				"Label": "Untracked Combat Uniques",
+				"Items": ["The Diary of Jebediah Omnis"],
+				"Not F2P": true
+			},
+			"(Lore Books) Obtain the ~|festering journal|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Combat"],
+				"Label": "Untracked Combat Uniques",
+				"Items": ["Festering journal"],
+				"Not F2P": true
+			},
+			"(Temple of Aminishi) Obtain a ~|tetsu sword upgrade kit|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Combat"],
+				"Label": "Untracked Combat Uniques",
+				"Items": ["Tetsu sword upgrade kit"]
+			},
+			"(Temple of Aminishi) Obtain a ~|seasinger weapon upgrade kit|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Combat"],
+				"Label": "Untracked Combat Uniques",
+				"Items": ["Seasinger weapon upgrade kit"]
+			},
+			"(Temple of Aminishi) Obtain ~|suspicious gunpowder|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Combat"],
+				"Label": "Untracked Combat Uniques",
+				"Items": ["Suspicious gunpowder"]
+			},
+			"(Dragonkin Laboratory) Obtain a ~|mysterious egg (item)|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Combat", "Pets"],
+				"Label": "Untracked Combat Uniques",
+				"Items": ["Mysterious egg (item)"]
+			},
+			"(Dragonkin Laboratory) Obtain ~|dragonfire ash|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Combat"],
+				"Label": "Untracked Combat Uniques",
+				"Items": ["Dragonfire ash"]
+			},
+			"(Dragonkin Laboratory) Obtain a ~|lucky dragonkin coin|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Combat", "Pets"],
+				"Label": "Untracked Combat Uniques",
+				"Items": ["Lucky dragonkin coin"]
+			},
+			"(Dragonkin Laboratory) Obtain ~|prefect gemstone scales|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Combat"],
+				"Label": "Untracked Combat Uniques",
+				"Items": ["Perfect gemstone scales"]
+			},
+			"(Shadow Reef) Obtain a ~|darting shadow|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Combat"],
+				"Label": "Untracked Combat Uniques",
+				"Items": ["Darting shadow"]
+			},
+			"(Shadow Reef) Obtain a ~|shadowy egg|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Combat", "Pets"],
+				"Label": "Untracked Combat Uniques",
+				"Items": ["Shadowy egg"]
+			},
+			"(Shadow Reef) Obtain an ~|oak casket|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Combat"],
+				"Label": "Untracked Combat Uniques",
+				"Items": ["Oak casket"]
+			},
+			"(Shadow Reef) Obtain a ~|teak casket|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Combat"],
+				"Label": "Untracked Combat Uniques",
+				"Items": ["Teak casket"]
+			},
+			"(Shadow Reef) Obtain a ~|mahogany casket|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Combat"],
+				"Label": "Untracked Combat Uniques",
+				"Items": ["Mahogany casket"]
+			},
+			"(Shadow Reef) Obtain ~|Swordy McSwordFace|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Combat"],
+				"Label": "Untracked Combat Uniques",
+				"Items": ["Swordy McSwordFace"]
+			},
+			"(Zamorakian Undercity) Obtain ~|crystal chaos|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Combat"],
+				"Label": "Untracked Combat Uniques",
+				"Items": ["Crystal chaos"],
+				"Not F2P": true
+			},
+			"(Zamorakian Undercity) Obtain ~|living remnants|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Combat"],
+				"Label": "Untracked Combat Uniques",
+				"Items": ["Living remnants"],
+				"Not F2P": true
+			},
+			"(Zamorakian Undercity) Obtain a ~|zamorakian sigil|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Combat"],
+				"Label": "Untracked Combat Uniques",
+				"Items": ["Zamorakian sigil"],
+				"Not F2P": true
+			},
+			"(Zamorakian Undercity) Obtain a ~|silver of pain|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Combat"],
+				"Label": "Untracked Combat Uniques",
+				"Items": ["Silver of pain"],
+				"Not F2P": true
+			},
+			"(Zamorakian Undercity) Obtain a ~|silver of power|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Combat"],
+				"Label": "Untracked Combat Uniques",
+				"Items": ["Silver of power"],
+				"Not F2P": true
+			},
+			"(Zamorakian Undercity) Obtain a ~|silver of strength|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Combat"],
+				"Label": "Untracked Combat Uniques",
+				"Items": ["Silver of strength"],
+				"Not F2P": true
+			},
+			"(Ancient Prison) Obtain a ~|ancient ceremonial mask|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Combat"],
+				"Label": "Untracked Combat Uniques",
+				"Items": ["Ancient ceremonial mask"]
+			},
+			"(Ancient Prison) Obtain a ~|ancient ceremonial top|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Combat"],
+				"Label": "Untracked Combat Uniques",
+				"Items": ["Ancient ceremonial top"]
+			},
+			"(Ancient Prison) Obtain ~|ancient ceremonial legs|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Combat"],
+				"Label": "Untracked Combat Uniques",
+				"Items": ["Ancient ceremonial legs"]
+			},
+			"(Ancient Prison) Obtain ~|ancient ceremonial gloves|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Combat"],
+				"Label": "Untracked Combat Uniques",
+				"Items": ["Ancient ceremonial gloves"]
+			},
+			"(Ancient Prison) Obtain ~|ancient ceremonial boots|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Combat"],
+				"Label": "Untracked Combat Uniques",
+				"Items": ["Ancient ceremonial boots"]
+			},
+			"(My Notes) Obtain ~|ancient page (1)|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Combat"],
+				"Label": "Untracked Combat Uniques",
+				"Items": ["Ancient page"]
+			},
+			"(My Notes) Obtain ~|ancient page (2)|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Combat"],
+				"Label": "Untracked Combat Uniques",
+				"Items": ["Ancient page"]
+			},
+			"(My Notes) Obtain ~|ancient page (3)|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Combat"],
+				"Label": "Untracked Combat Uniques",
+				"Items": ["Ancient page"]
+			},
+			"(My Notes) Obtain ~|ancient page (4)|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Combat"],
+				"Label": "Untracked Combat Uniques",
+				"Items": ["Ancient page"]
+			},
+			"(My Notes) Obtain ~|ancient page (5)|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Combat"],
+				"Label": "Untracked Combat Uniques",
+				"Items": ["Ancient page"]
+			},
+			"(My Notes) Obtain ~|ancient page (6)|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Combat"],
+				"Label": "Untracked Combat Uniques",
+				"Items": ["Ancient page"]
+			},
+			"(My Notes) Obtain ~|ancient page (7)|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Combat"],
+				"Label": "Untracked Combat Uniques",
+				"Items": ["Ancient page"]
+			},
+			"(My Notes) Obtain ~|ancient page (8)|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Combat"],
+				"Label": "Untracked Combat Uniques",
+				"Items": ["Ancient page"]
+			},
+			"(My Notes) Obtain ~|ancient page (9)|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Combat"],
+				"Label": "Untracked Combat Uniques",
+				"Items": ["Ancient page"]
+			},
+			"(My Notes) Obtain ~|ancient page (10)|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Combat"],
+				"Label": "Untracked Combat Uniques",
+				"Items": ["Ancient page"]
+			},
+			"(My Notes) Obtain ~|ancient page (11)|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Combat"],
+				"Label": "Untracked Combat Uniques",
+				"Items": ["Ancient page"]
+			},
+			"(My Notes) Obtain ~|ancient page (12)|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Combat"],
+				"Label": "Untracked Combat Uniques",
+				"Items": ["Ancient page"]
+			},
+			"(My Notes) Obtain ~|ancient page (13)|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Combat"],
+				"Label": "Untracked Combat Uniques",
+				"Items": ["Ancient page"]
+			},
+			"(My Notes) Obtain ~|ancient page (14)|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Combat"],
+				"Label": "Untracked Combat Uniques",
+				"Items": ["Ancient page"]
+			},
+			"(My Notes) Obtain ~|ancient page (15)|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Combat"],
+				"Label": "Untracked Combat Uniques",
+				"Items": ["Ancient page"]
+			},
+			"(My Notes) Obtain ~|ancient page (16)|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Combat"],
+				"Label": "Untracked Combat Uniques",
+				"Items": ["Ancient page"]
+			},
+			"(My Notes) Obtain ~|ancient page (17)|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Combat"],
+				"Label": "Untracked Combat Uniques",
+				"Items": ["Ancient page"]
+			},
+			"(My Notes) Obtain ~|ancient page (18)|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Combat"],
+				"Label": "Untracked Combat Uniques",
+				"Items": ["Ancient page"]
+			},
+			"(My Notes) Obtain ~|ancient page (19)|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Combat"],
+				"Label": "Untracked Combat Uniques",
+				"Items": ["Ancient page"]
+			},
+			"(My Notes) Obtain ~|ancient page (20)|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Combat"],
+				"Label": "Untracked Combat Uniques",
+				"Items": ["Ancient page"]
+			},
+			"(My Notes) Obtain ~|ancient page (21)|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Combat"],
+				"Label": "Untracked Combat Uniques",
+				"Items": ["Ancient page"]
+			},
+			"(My Notes) Obtain ~|ancient page (22)|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Combat"],
+				"Label": "Untracked Combat Uniques",
+				"Items": ["Ancient page"]
+			},
+			"(My Notes) Obtain ~|ancient page (23)|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Combat"],
+				"Label": "Untracked Combat Uniques",
+				"Items": ["Ancient page"]
+			},
+			"(My Notes) Obtain ~|ancient page (24)|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Combat"],
+				"Label": "Untracked Combat Uniques",
+				"Items": ["Ancient page"]
+			},
+			"(My Notes) Obtain ~|ancient page (25)|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Combat"],
+				"Label": "Untracked Combat Uniques",
+				"Items": ["Ancient page"]
+			},
+			"(My Notes) Obtain ~|ancient page (26)|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Combat"],
+				"Label": "Untracked Combat Uniques",
+				"Items": ["Ancient page"]
+			},
+			"(Scabarite Notes) Obtain ~|scabarite notes (1)|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Combat"],
+				"Label": "Untracked Combat Uniques",
+				"Items": ["Scabarite notes"]
+			},
+			"(Scabarite Notes) Obtain ~|scabarite notes (2)|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Combat"],
+				"Label": "Untracked Combat Uniques",
+				"Items": ["Scabarite notes"]
+			},
+			"(Scabarite Notes) Obtain ~|scabarite notes (3)|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Combat"],
+				"Label": "Untracked Combat Uniques",
+				"Items": ["Scabarite notes"]
+			},
+			"(Scabarite Notes) Obtain ~|scabarite notes (4)|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Combat"],
+				"Label": "Untracked Combat Uniques",
+				"Items": ["Scabarite notes"]
+			},
+			"(Scabarite Notes) Obtain ~|scabarite notes (5)|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Combat"],
+				"Label": "Untracked Combat Uniques",
+				"Items": ["Scabarite notes"]
+			},
+			"(Scabarite Notes) Obtain ~|scabarite notes (6)|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Combat"],
+				"Label": "Untracked Combat Uniques",
+				"Items": ["Scabarite notes"]
+			},
+			"(Scabarite Notes) Obtain ~|scabarite notes (7)|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Combat"],
+				"Label": "Untracked Combat Uniques",
+				"Items": ["Scabarite notes"]
+			},
+			"(Scabarite Notes) Obtain ~|scabarite notes (8)|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Combat"],
+				"Label": "Untracked Combat Uniques",
+				"Items": ["Scabarite notes"]
+			},
+			"(Scabarite Notes) Obtain ~|scabarite notes (9)|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Combat"],
+				"Label": "Untracked Combat Uniques",
+				"Items": ["Scabarite notes"]
+			},
+			"(Scabarite Notes) Obtain ~|scabarite notes (10)|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Combat"],
+				"Label": "Untracked Combat Uniques",
+				"Items": ["Scabarite notes"]
+			},
+			"(Scabarite Notes) Obtain ~|scabarite notes (11)|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Combat"],
+				"Label": "Untracked Combat Uniques",
+				"Items": ["Scabarite notes"]
+			},
+			"(Scabarite Notes) Obtain ~|scabarite notes (12)|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Combat"],
+				"Label": "Untracked Combat Uniques",
+				"Items": ["Scabarite notes"]
+			},
+			"(Scabarite Notes) Obtain ~|scabarite notes (13)|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Combat"],
+				"Label": "Untracked Combat Uniques",
+				"Items": ["Scabarite notes"]
+			},
+			"(Scabarite Notes) Obtain ~|scabarite notes (14)|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Combat"],
+				"Label": "Untracked Combat Uniques",
+				"Items": ["Scabarite notes"]
+			},
+			"(Scabarite Notes) Obtain ~|scabarite notes (15)|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Combat"],
+				"Label": "Untracked Combat Uniques",
+				"Items": ["Scabarite notes"]
+			},
+			"(Scabarite Notes) Obtain ~|scabarite notes (16)|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Combat"],
+				"Label": "Untracked Combat Uniques",
+				"Items": ["Scabarite notes"]
+			},
+			"(Scabarite Notes) Obtain ~|scabarite notes (17)|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Combat"],
+				"Label": "Untracked Combat Uniques",
+				"Items": ["Scabarite notes"]
+			},
+			"(Scabarite Notes) Obtain ~|scabarite notes (18)|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Combat"],
+				"Label": "Untracked Combat Uniques",
+				"Items": ["Scabarite notes"]
+			},
+			"(Scabarite Notes) Obtain ~|scabarite notes (19)|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Combat"],
+				"Label": "Untracked Combat Uniques",
+				"Items": ["Scabarite notes"]
+			},
+			"(Anachronia Combat) Obtain ~|Skeka's hypnowand handle|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Combat"],
+				"Label": "Untracked Combat Uniques",
+				"Items": ["Skeka's hypnowand handle"]
+			},
+			"(Anachronia Combat) Obtain ~|Skeka's hypnowand focus|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Combat"],
+				"Label": "Untracked Combat Uniques",
+				"Items": ["Skeka's hypnowand focus"]
+			},
+			"(Anachronia Combat) Obtain ~|Skeka's hypnowand base|~": {
+				"Category": ["Uncharted", "Untracked Uniques", "Untracked Uniques Combat"],
+				"Label": "Untracked Skilling Uniques",
+				"Items": ["Skeka's hypnowand base"]
+			},
+			"(Anachronia Combat) Obtain ~|Skeka's hypnowand projector|~": {
+				"Category": ["Uncharted", "Untracked Uniques", "Untracked Uniques Combat"],
+				"Label": "Untracked Skilling Uniques",
+				"Items": ["Skeka's hypnowand projector"]
+			},
+			"(Anachronia Combat) Obtain ~|compacted hides|~": {
+				"Category": ["Uncharted", "Untracked Uniques", "Untracked Uniques Combat"],
+				"Label": "Untracked Skilling Uniques",
+				"Items": ["Compacted hides"]
+			},
+			"(Anachronia Combat) Obtain a ~|dinosaur rib bone|~": {
+				"Category": ["Uncharted", "Untracked Uniques", "Untracked Uniques Combat"],
+				"Label": "Untracked Skilling Uniques",
+				"Items": ["Dinosaur rib bone"]
+			},
+			"(Anachronia Combat) Obtain a ~|dinosaur tooth|~": {
+				"Category": ["Uncharted", "Untracked Uniques", "Untracked Uniques Combat"],
+				"Label": "Untracked Skilling Uniques",
+				"Items": ["Dinosaur tooth"]
+			},
+			"(Anachronia Combat) Obtain a ~|Totem of Auras middle|~": {
+				"Category": ["Uncharted", "Untracked Uniques", "Untracked Uniques Combat"],
+				"Label": "Untracked Skilling Uniques",
+				"Items": ["Totem of Auras middle"]
+			},
+			"(Anachronia Combat) Obtain a ~|Totem of Summoning middle|~": {
+				"Category": ["Uncharted", "Untracked Uniques", "Untracked Uniques Combat"],
+				"Label": "Untracked Skilling Uniques",
+				"Items": ["Totem of Summoning middle"]
+			},
+			"(Anachronia Combat) Obtain a ~|Totem of Intimidation base|~": {
+				"Category": ["Uncharted", "Untracked Uniques", "Untracked Uniques Combat"],
+				"Label": "Untracked Skilling Uniques",
+				"Items": ["Totem of Intimidation base"]
+			},
+			"(Vile Blooms) Obtain a ~|devil's snare seed|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Combat"],
+				"Label": "Untracked Combat Uniques",
+				"Items": ["Devil's snare seed"]
+			},
+			"(Vile Blooms) Obtain a ~|luminous snaggler seed|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Combat"],
+				"Label": "Untracked Combat Uniques",
+				"Items": ["Luminous snaggler seed"]
+			},
+			"(Vile Blooms) Obtain a ~|lampenflora seed|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Combat"],
+				"Label": "Untracked Combat Uniques",
+				"Items": ["Lampenflora seed"]
+			},
+			"(Vile Blooms) Obtain a ~|liverwort seed|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Combat"],
+				"Label": "Untracked Combat Uniques",
+				"Items": ["Liverwort seed"]
+			},
+			"(Zamorakian Notes) Obtain a ~|bloodstained note|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Combat"],
+				"Label": "Untracked Combat Uniques",
+				"Items": ["Bloodstained note"],
+				"Not F2P": true
+			},
+			"(Zamorakian Notes) Obtain a ~|elegant note|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Combat"],
+				"Label": "Untracked Combat Uniques",
+				"Items": ["Elegant note"],
+				"Not F2P": true
+			},
+			"(Zamorakian Notes) Obtain a ~|burnt note|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Combat"],
+				"Label": "Untracked Combat Uniques",
+				"Items": ["Burnt note"],
+				"Not F2P": true
+			},
+			"(Zamorakian Notes) Obtain a ~|crumpled note|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Combat"],
+				"Label": "Untracked Combat Uniques",
+				"Items": ["Crumpled note (Zamorak's demon invasion)"],
+				"Not F2P": true
+			},
+			"(Zamorakian Notes) Obtain a ~|mysterious note|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Combat"],
+				"Label": "Untracked Combat Uniques",
+				"Items": ["Mysterious note (Zamorak's demon invasion)"],
+				"Not F2P": true
+			},
+			"(Freneskae) Obtain a ~|muspah spine|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Combat"],
+				"Label": "Untracked Combat Uniques",
+				"Items": ["Muspah spine"]
+			},
+			"(Freneskae) Obtain an ~|elder charm|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Combat"],
+				"Label": "Untracked Combat Uniques",
+				"Items": ["Elder charm"]
+			},
+			"(Priffdinas) Obtain a ~|blissful shadow core|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Combat"],
+				"Label": "Untracked Combat Uniques",
+				"Items": ["Blissful shadow core"]
+			},
+			"(Priffdinas) Obtain a ~|manifest shadow core|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Combat"],
+				"Label": "Untracked Combat Uniques",
+				"Items": ["Manifest shadow core"]
+			},
+			"(Priffdinas) Obtain a ~|truthful shadow core|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Combat"],
+				"Label": "Untracked Combat Uniques",
+				"Items": ["Truthful shadow core"]
+			},
+			"(Priffdinas) Obtain a ~|crystal weapon seed|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Combat"],
+				"Label": "Untracked Combat Uniques",
+				"Items": ["Crystal weapon seed"]
+			},
+			"(Priffdinas) Obtain a ~|crystal armour seed|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Combat"],
+				"Label": "Untracked Combat Uniques",
+				"Items": ["Crystal armour seed"]
+			},
+			"(Priffdinas) Obtain a ~|crystal tool seed|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Combat"],
+				"Label": "Untracked Combat Uniques",
+				"Items": ["Crystal tool seed"]
+			},
+			"(Priffdinas) Obtain a ~|crystal acorn|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Combat"],
+				"Label": "Untracked Combat Uniques",
+				"Items": ["Crystal acorn"]
+			},
+			"(Priffdinas) Obtain an ~|elder seed|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Combat"],
+				"Label": "Untracked Combat Uniques",
+				"Items": ["Elder seed"]
+			},
+			"(Senntisten) Obtain a ~|Elder Trove (Wen, T3)|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Combat"],
+				"Label": "Untracked Combat Uniques",
+				"Items": ["Elder Trove (Wen, T3)"],
+				"Not F2P": true
+			},
+			"(Senntisten) Obtain a ~|Elder Trove (Jas, T3)|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Combat"],
+				"Label": "Untracked Combat Uniques",
+				"Items": ["Elder Trove (Jas, T3)"],
+				"Not F2P": true
+			},
+			"(Senntisten) Obtain a ~|Elder Trove (Ful, T3)|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Combat"],
+				"Label": "Untracked Combat Uniques",
+				"Items": ["Elder Trove (Ful, T3)"],
+				"Not F2P": true
+			},
+			"(Bandos's Throne Room) Obtain a ~|granite mace|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Combat"],
+				"Label": "Untracked Combat Uniques",
+				"Items": ["Granite mace"],
+				"Not F2P": true
+			},
+			"(Bandos's Throne Room) Obtain a ~|superior ancient mace|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Combat"],
+				"Label": "Untracked Combat Uniques",
+				"Items": ["Superior ancient mace"],
+				"Not F2P": true
+			},
+			"(Broodoo) Obtain a ~|tribal mask (green)|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Combat"],
+				"Label": "Untracked Combat Uniques",
+				"Items": ["Tribal mask (green)"],
+				"Not F2P": true
+			},
+			"(Broodoo) Obtain a ~|tribal mask (orange)|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Combat"],
+				"Label": "Untracked Combat Uniques",
+				"Items": ["Tribal mask (orange)"],
+				"Not F2P": true
+			},
+			"(Broodoo) Obtain a ~|tribal mask (blue)|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Combat"],
+				"Label": "Untracked Combat Uniques",
+				"Items": ["Tribal mask (blue)"],
+				"Not F2P": true
+			},
+			"(Chaos Druids) Obtain a ~|druid's robe (top)|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Combat"],
+				"Label": "Untracked Combat Uniques",
+				"Items": ["druid's robe (top)"]
+			},
+			"(Chaos Druids) Obtain a ~|druid's robe (bottom)|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Combat"],
+				"Label": "Untracked Combat Uniques",
+				"Items": ["druid's robe (bottom)"]
+			},
+			"(Wilderness Artefacts) Obtain a ~|broken statue headdress|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Combat"],
+				"Label": "Untracked Combat Uniques",
+				"Items": ["Broken statue headdress"],
+				"Not F2P": true
+			},
+			"(Wilderness Artefacts) Obtain a ~|Third age carafe|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Combat"],
+				"Label": "Untracked Combat Uniques",
+				"Items": ["Third age carafe"],
+				"Not F2P": true
+			},
+			"(Wilderness Artefacts) Obtain a ~|bronzed dragon claw|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Combat"],
+				"Label": "Untracked Combat Uniques",
+				"Items": ["Bronzed dragon claw"],
+				"Not F2P": true
+			},
+			"(Wilderness Artefacts) Obtain a ~|ancient psaltery bridge|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Combat"],
+				"Label": "Untracked Combat Uniques",
+				"Items": ["Ancient psaltery bridge"],
+				"Not F2P": true
+			},
+			"(Wilderness Artefacts) Obtain a ~|Saradomin amphora|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Combat"],
+				"Label": "Untracked Combat Uniques",
+				"Items": ["Saradomin amphora"],
+				"Not F2P": true
+			},
+			"(Wilderness Artefacts) Obtain a ~|Bandos scrimshaw|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Combat"],
+				"Label": "Untracked Combat Uniques",
+				"Items": ["Bandos scrimshaw"],
+				"Not F2P": true
+			},
+			"(Wilderness Artefacts) Obtain a ~|Saradomin carving|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Combat"],
+				"Label": "Untracked Combat Uniques",
+				"Items": ["Saradomin carving"],
+				"Not F2P": true
+			},
+			"(Wilderness Artefacts) Obtain a ~|Zamorak medallion|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Combat"],
+				"Label": "Untracked Combat Uniques",
+				"Items": ["Zamorak medallion"],
+				"Not F2P": true
+			},
+			"(Wilderness Artefacts) Obtain a ~|Armadyl totem|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Combat"],
+				"Label": "Untracked Combat Uniques",
+				"Items": ["Armadyl totem"],
+				"Not F2P": true
+			},
+			"(Wilderness Artefacts) Obtain a ~|Guthixian brazier|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Combat"],
+				"Label": "Untracked Combat Uniques",
+				"Items": ["Guthixian brazier"],
+				"Not F2P": true
+			},
+			"(Wilderness Artefacts) Obtain a ~|ruby chalice|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Combat"],
+				"Label": "Untracked Combat Uniques",
+				"Items": ["Ruby chalice"],
+				"Not F2P": true
+			},
+			"(Wilderness Artefacts) Obtain a ~|Bandos satuette|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Combat"],
+				"Label": "Untracked Combat Uniques",
+				"Items": ["Bandos satuette"],
+				"Not F2P": true
+			},
+			"(Wilderness Artefacts) Obtain a ~|Saradomin satuette|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Combat"],
+				"Label": "Untracked Combat Uniques",
+				"Items": ["Saradomin satuette"],
+				"Not F2P": true
+			},
+			"(Wilderness Artefacts) Obtain a ~|Zamorak satuette|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Combat"],
+				"Label": "Untracked Combat Uniques",
+				"Items": ["Zamorak satuette"],
+				"Not F2P": true
+			},
+			"(Wilderness Artefacts) Obtain a ~|Armadyl satuette|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Combat"],
+				"Label": "Untracked Combat Uniques",
+				"Items": ["Armadyl satuette"],
+				"Not F2P": true
+			},
+			"(Wilderness Artefacts) Obtain a ~|Seren satuette|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Combat"],
+				"Label": "Untracked Combat Uniques",
+				"Items": ["Seren satuette"],
+				"Not F2P": true
+			},
+			"(Wilderness Artefacts) Obtain a ~|Ancient satuette|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Combat"],
+				"Label": "Untracked Combat Uniques",
+				"Items": ["Ancient satuette"],
+				"Not F2P": true
+			},
+			"(Untracked Slayer) Obtain a ~|cockatrice egg|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Combat"],
+				"Label": "Untracked Combat Uniques",
+				"Items": ["Cockatrice egg"],
+				"Not F2P": true
+			},
+			"(Untracked Slayer) Obtain a ~|summoning focus|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Combat"],
+				"Label": "Untracked Combat Uniques",
+				"Items": ["Summoning focus"],
+				"Not F2P": true
+			},
+			"(Untracked Slayer) Obtain ~|corrupted magic logs|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Combat"],
+				"Label": "Untracked Combat Uniques",
+				"Items": ["Corrupted magic logs"],
+				"Not F2P": true
+			},
+			"(Untracked Slayer) Obtain a ~|soul talisman|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Combat"],
+				"Label": "Untracked Combat Uniques",
+				"Items": ["Soul talisman"],
+				"Not F2P": true
+			},
+			"(Untracked Slayer) Obtain an ~|inert adrenaline crystal|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Combat"],
+				"Label": "Untracked Combat Uniques",
+				"Items": ["Inert adrenaline crystal"],
+				"Not F2P": true
+			},
+			"(Untracked Slayer) Obtain an ~|obsidian charm|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Combat"],
+				"Label": "Untracked Combat Uniques",
+				"Items": ["Obsidian charm"],
+				"Not F2P": true
+			},
+			"(Untracked Slayer) Obtain ~|lost tokens|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Combat"],
+				"Label": "Untracked Combat Uniques",
+				"Items": ["Lost tokens"],
+				"Not F2P": true
+			},
+			"(Untracked Slayer) Obtain a ~|fury shark|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Combat"],
+				"Label": "Untracked Combat Uniques",
+				"Items": ["Fury shark"],
+				"Not F2P": true
+			},
+			"(Untracked Slayer) Obtain an ~|ogre club|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Combat"],
+				"Label": "Untracked Combat Uniques",
+				"Items": ["Ogre club"],
+				"Not F2P": true
+			},
+			"(Untracked Slayer) Obtain ~|stalker essence|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Combat"],
+				"Label": "Untracked Combat Uniques",
+				"Items": ["Stalker essence"],
+				"Not F2P": true
+			},
+			"(Polypore) Obtain a ~|Gorajian mushroom|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Combat"],
+				"Label": "Untracked Combat Uniques",
+				"Items": ["Gorajian mushroom"],
+				"Not F2P": true
+			},
+			"(Polypore) Obtain a ~|fungal flake|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Combat"],
+				"Label": "Untracked Combat Uniques",
+				"Items": ["Fungal flake"],
+				"Not F2P": true
+			},
+			"(Polypore) Obtain a ~|grifolic flake|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Combat"],
+				"Label": "Untracked Combat Uniques",
+				"Items": ["Grifolic flake"],
+				"Not F2P": true
+			},
+			"(Polypore) Obtain a ~|polypore spore|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Combat"],
+				"Label": "Untracked Combat Uniques",
+				"Items": ["Polypore spore"],
+				"Not F2P": true
+			},
+			"(Troll Capes) Obtain a ~|deathstorm drape|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Combat"],
+				"Label": "Untracked Combat Uniques",
+				"Items": ["Deathstorm drape"],
+				"Not F2P": true
+			},
+			"(Troll Capes) Obtain a ~|spellstorm drape|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Combat"],
+				"Label": "Untracked Combat Uniques",
+				"Items": ["Spellstorm drape"],
+				"Not F2P": true
+			},
+			"(Troll Capes) Obtain a ~|bladestorm drape|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Combat"],
+				"Label": "Untracked Combat Uniques",
+				"Items": ["Bladestorm drape"],
+				"Not F2P": true
+			},
+			"(Troll Capes) Obtain a ~|arrowstorm drape|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Combat"],
+				"Label": "Untracked Combat Uniques",
+				"Items": ["Arrowstorm drape"],
+				"Not F2P": true
+			},
+			"(Untracked Boss) Obtain a ~|mole claw|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Combat"],
+				"Label": "Untracked Combat Uniques",
+				"Items": ["Mole claw"],
+				"Not F2P": true
+			},
+			"(Untracked Boss) Obtain a ~|ultra-growth potion (1)|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Combat"],
+				"Label": "Untracked Combat Uniques",
+				"Items": ["Ultra-growth potion (1)"],
+				"Not F2P": true
+			},
+			"(Untracked Boss) Obtain a ~|numbing root|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Combat"],
+				"Label": "Untracked Combat Uniques",
+				"Items": ["Numbing root"],
+				"Not F2P": true
+			},
+			"(Untracked Boss) Obtain a ~|chaos die reroll token|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Combat"],
+				"Label": "Untracked Combat Uniques",
+				"Items": ["Chaos die reroll token"]
+			},
+			"(Untracked Boss) Obtain a ~|goblin cower shield|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Combat"],
+				"Label": "Untracked Combat Uniques",
+				"Items": ["Goblin cower shield"],
+				"Not F2P": true
+			},
+			"(Untracked Boss) Obtain a ~|manuscript of Amascut|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Combat"],
+				"Label": "Untracked Combat Uniques",
+				"Items": ["Manuscript of Amascut"],
+				"Not F2P": true
+			},
+			"(Untracked Boss) Obtain a ~|manuscript of Jas|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Combat"],
+				"Label": "Untracked Combat Uniques",
+				"Items": ["Manuscript of Jas"],
+				"Not F2P": true
+			},
+			"(Untracked Boss) Obtain a ~|manuscript of Wen|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Combat"],
+				"Label": "Untracked Combat Uniques",
+				"Items": ["Manuscript of Wen"],
+				"Not F2P": true
+			},
+			"(Untracked Boss) Obtain a ~|manuscript of Ful|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Combat"],
+				"Label": "Untracked Combat Uniques",
+				"Items": ["Manuscript of Ful"],
+				"Not F2P": true
+			},
+			"(Untracked Boss) Obtain the ~|devourer aura|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Combat"],
+				"Label": "Untracked Combat Uniques",
+				"Items": ["Devourer aura"],
+				"Not F2P": true
+			},
+			"(Untracked Boss) Obtain a ~|sinister key|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Combat"],
+				"Label": "Untracked Combat Uniques",
+				"Items": ["Sinister key"],
+				"Not F2P": true
+			},
+			"(Untracked Boss) Obtain ~|undead dragonhide|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Combat"],
+				"Label": "Untracked Combat Uniques",
+				"Items": ["Undead dragonhide"],
+				"Not F2P": true
+			},
+			"(Untracked Boss) Obtain a ~|Vorkath Necromancy weapon override token|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Combat"],
+				"Label": "Untracked Combat Uniques",
+				"Items": ["Vorkath Necromancy weapon override token"],
+				"Not F2P": true
+			},
+			"(God Wars Dungeon) Obtain a ~|saradominist soulstone|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Combat"],
+				"Label": "Untracked Combat Uniques",
+				"Items": ["Saradominist soulstone"],
+				"Not F2P": true
+			},
+			"(God Wars Dungeon) Obtain a ~|bandosian soulstone|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Combat"],
+				"Label": "Untracked Combat Uniques",
+				"Items": ["Bandosian soulstone"],
+				"Not F2P": true
+			},
+			"(God Wars Dungeon) Obtain an ~|armadylean soulstone|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Combat"],
+				"Label": "Untracked Combat Uniques",
+				"Items": ["Armadylean soulstone"],
+				"Not F2P": true
+			},
+			"(God Wars Dungeon) Obtain a ~|zamorakian soulstone|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Combat"],
+				"Label": "Untracked Combat Uniques",
+				"Items": ["Zamorakian soulstone"],
+				"Not F2P": true
+			},
+			"(God Wars Dungeon) Obtain a ~|frozen key piece (Zamorak)|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Combat"],
+				"Label": "Untracked Combat Uniques",
+				"Items": ["Frozen key piece (Zamorak)"],
+				"Not F2P": true
+			},
+			"(God Wars Dungeon) Obtain a ~|frozen key piece (Bandos)|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Combat"],
+				"Label": "Untracked Combat Uniques",
+				"Items": ["Frozen key piece (Bandos)"],
+				"Not F2P": true
+			},
+			"(God Wars Dungeon) Obtain a ~|frozen key piece (Saradomin)|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Combat"],
+				"Label": "Untracked Combat Uniques",
+				"Items": ["Frozen key piece (Saradomin)"],
+				"Not F2P": true
+			},
+			"(God Wars Dungeon) Obtain a ~|frozen key piece (Armadyl)|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Combat"],
+				"Label": "Untracked Combat Uniques",
+				"Items": ["Frozen key piece (Armadyl)"],
+				"Not F2P": true
+			},
+			"(Lumbridge Catacombs) Obtain a ~|mask part 1|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Combat"],
+				"Label": "Untracked Combat Uniques",
+				"Items": ["Mask part 1"],
+				"Not F2P": true
+			},
+			"(Lumbridge Catacombs) Obtain a ~|mask part 2|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Combat"],
+				"Label": "Untracked Combat Uniques",
+				"Items": ["Mask part 2"],
+				"Not F2P": true
+			},
+			"(Lumbridge Catacombs) Obtain a ~|mask part 3|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Combat"],
+				"Label": "Untracked Combat Uniques",
+				"Items": ["Mask part 3"],
+				"Not F2P": true
+			},
+			"(Lumbridge Catacombs) Obtain a ~|mask part 4|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Combat"],
+				"Label": "Untracked Combat Uniques",
+				"Items": ["Mask part 4"],
+				"Not F2P": true
+			},
+			"(Lumbridge Catacombs) Obtain a ~|mask part 5|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Combat"],
+				"Label": "Untracked Combat Uniques",
+				"Items": ["Mask part 5"],
+				"Not F2P": true
+			},
+			"(Fremennik) Obtain a ~|Fremennik blade|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Combat"],
+				"Label": "Untracked Combat Uniques",
+				"Items": ["Fremennik blade"]
+			},
+			"(Fremennik) Obtain a ~|Fremennik shield|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Combat"],
+				"Label": "Untracked Combat Uniques",
+				"Items": ["Fremennik shield"]
+			},
+			"(Fremennik) Obtain a ~|Fremennik helm|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Combat"],
+				"Label": "Untracked Combat Uniques",
+				"Items": ["Fremennik helm"]
+			},
+			"(Fremennik) Obtain ~|rock-shell gloves|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Combat"],
+				"Label": "Untracked Combat Uniques",
+				"Items": ["Rock-shell gloves"]
+			},
+			"(Fremennik) Obtain ~|rock-shell boots|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Combat"],
+				"Label": "Untracked Combat Uniques",
+				"Items": ["Rock-shell boots"]
+			},
+			"(Fremennik) Obtain a ~|rock-shell splinter|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Combat"],
+				"Label": "Untracked Combat Uniques",
+				"Items": ["Rock-shell splinter"]
+			},
+			"(Fremennik) Obtain a ~|rock-shell chunk|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Combat"],
+				"Label": "Untracked Combat Uniques",
+				"Items": ["Rock-shell chunk"]
+			},
+			"(Fremennik) Obtain a ~|rock-shell shard|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Combat"],
+				"Label": "Untracked Combat Uniques",
+				"Items": ["Rock-shell shard"]
+			},
+			"(Fremennik) Obtain ~|skeletal gloves|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Combat"],
+				"Label": "Untracked Combat Uniques",
+				"Items": ["Skeletal gloves"]
+			},
+			"(Fremennik) Obtain ~|skeletal boots|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Combat"],
+				"Label": "Untracked Combat Uniques",
+				"Items": ["Skeletal boots"]
+			},
+			"(Fremennik) Obtain a ~|fibula piece|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Combat"],
+				"Label": "Untracked Combat Uniques",
+				"Items": ["Fibula piece"]
+			},
+			"(Fremennik) Obtain a ~|ribcage piece|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Combat"],
+				"Label": "Untracked Combat Uniques",
+				"Items": ["Ribcage piece"]
+			},
+			"(Fremennik) Obtain a ~|skull piece|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Combat"],
+				"Label": "Untracked Combat Uniques",
+				"Items": ["Skull piece"]
+			},
+			"(Pigs) Obtain a ~|pack pig tooth|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Combat"],
+				"Label": "Untracked Combat Uniques",
+				"Items": ["Pack pig tooth"],
+				"Not F2P": true
+			},
+			"(Pigs) Obtain a ~|war pig tooth|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Combat"],
+				"Label": "Untracked Combat Uniques",
+				"Items": ["War pig tooth"],
+				"Not F2P": true
+			},
+			"(Pigs) Obtain a ~|prayer pig tooth|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Combat"],
+				"Label": "Untracked Combat Uniques",
+				"Items": ["Prayer pig tooth"],
+				"Not F2P": true
+			},
+			"(Misc Drops) Obtain a ~|court summons|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Combat"],
+				"Label": "Untracked Combat Uniques",
+				"Items": ["Court summons"]
+			},
+			"(Misc Drops) Obtain a ~|cyclopean helmet|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Combat"],
+				"Label": "Untracked Combat Uniques",
+				"Items": ["Cyclopean helmet"]
+			},
+			"(Misc Drops) Obtain a ~|long bone|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Combat"],
+				"Label": "Untracked Combat Uniques",
+				"Items": ["Long bone"],
+				"Not F2P": true				
+			},
+			"(Misc Drops) Obtain a ~|curved bone|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Combat"],
+				"Label": "Untracked Combat Uniques",
+				"Items": ["Curved bone"],
+				"Not F2P": true
+			},
+			"(Misc Drops) Obtain ~|preserved meat|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Combat"],
+				"Label": "Untracked Combat Uniques",
+				"Items": ["Preserved meat"],
+				"Not F2P": true
+			},
+			"(Misc Drops) Obtain a ~|muddy key|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Combat"],
+				"Label": "Untracked Combat Uniques",
+				"Items": ["Muddy key"],
+				"Not F2P": true
+			},
+			"(Misc Drops) Obtain a ~|fresh crab claw|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Combat"],
+				"Label": "Untracked Combat Uniques",
+				"Items": ["Fresh crab claw"],
+				"Not F2P": true
+			},
+			"(Misc Drops) Obtain a ~|fresh crab shell|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Combat"],
+				"Label": "Untracked Combat Uniques",
+				"Items": ["Fresh crab shell"],
+				"Not F2P": true
+			},
+			"(Misc Drops) Obtain a ~|mimic kill token|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Combat"],
+				"Label": "Untracked Combat Uniques",
+				"Items": ["Mimic kill token"],
+				"Not F2P": true
+			},
+			"(Misc Drops) Obtain an ~|alchemist's key|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Combat"],
+				"Label": "Untracked Combat Uniques",
+				"Items": ["Alchemist's key"],
+				"Not F2P": true
+			},
+			"(Misc Drops) Obtain a ~|rusty scimitar|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Combat"],
+				"Label": "Untracked Combat Uniques",
+				"Items": ["Rusty scimitar"],
+				"Not F2P": true
+			},
+			"(Rush of Blood) Obtain a ~|Slayer VIP ticket|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Minigames"],
+				"Label": "Untracked Minigame Uniques",
+				"Items": ["Slayer VIP ticket"]
+			},
+			"(Misc.) Obtain a ~|strange egg|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Misc"],
+				"Label": "Untracked Misc Uniques",
+				"Items": ["Strange egg"]
+			},
+			"(Misc.) Obtain a ~|bolt pouch|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Misc"],
+				"Label": "Untracked Misc Uniques",
+				"Items": ["Bolt pouch"]
+			},
+			"(Misc.) Obtain ~|fragments of Pernix's quiver|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Misc"],
+				"Label": "Untracked Misc Uniques",
+				"Items": ["Fragments of Pernix's quiver"]
+			},
+			"(Misc.) Unlock the ~|Stone of Jas ball|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Misc"],
+				"Label": "Untracked Uniques",
+				"Label": "Untracked Misc Uniques",
+				"Chunks": ["12338"]
+			},
+			"(PvP) Unlock the ~|duellist's cap|~ (tier 6)": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Misc", "PVP"],
+				"Label": "Untracked Misc Uniques",
+				"Chunks": ["13106"]
+			},
+			"(PvP) Unlock the ~|wilderstalker helmet|~ (tier 6)": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Misc", "PVP"],
+				"Label": "Untracked Misc Uniques",
+				"Chunks": ["12342", "PVP[+]"]
+			},
+			"(Tower of Life) Obtain a ~|tea flask|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Misc"],
+				"Label": "Untracked Misc Uniques",
+				"Items": ["Tea flask"]
+			},
+			"(Tower of Life) Obtain a ~|rune satchel|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Misc"],
+				"Label": "Untracked Misc Uniques",
+				"Items": ["Rune satchel"]
+			},
+			"(Tower of Life) Obtain a ~|green satchel|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Misc"],
+				"Label": "Untracked Misc Uniques",
+				"Items": ["Green satchel"]
+			},
+			"(Tower of Life) Obtain a ~|red satchel|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Misc"],
+				"Label": "Untracked Misc Uniques",
+				"Items": ["Red satchel"]
+			},
+			"(Tower of Life) Obtain a ~|black satchel|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Misc"],
+				"Label": "Untracked Misc Uniques",
+				"Items": ["Black satchel"]
+			},
+			"(Tower of Life) Obtain a ~|gold satchel|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Misc"],
+				"Label": "Untracked Misc Uniques",
+				"Items": ["Gold satchel"]
+			},
+			"(Tower of Life) Obtain a ~|plain satchel|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Misc"],
+				"Label": "Untracked Misc Uniques",
+				"Items": ["Plain satchel"]
+			},
+			"(Giant Mimic) Obtain a ~|mimic plushie|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Misc", "Pets"],
+				"Label": "Untracked Misc Uniques",
+				"Items": ["Mimic plushie"]
+			},
+			"(Giant Mimic) Obtain a ~|mimic tongue cape|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Misc"],
+				"Label": "Untracked Misc Uniques",
+				"Items": ["Mimic tongue cape"]
+			},
+			"(Giant Mimic) Obtain a ~|mimic helm|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Misc"],
+				"Label": "Untracked Misc Uniques",
+				"Items": ["Mimic helm"]
+			},
+			"(Giant Mimic) Obtain a ~|scrimshaw of aggression (inactive)|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Misc"],
+				"Label": "Untracked Misc Uniques",
+				"Items": ["Scrimshaw of aggression (inactive)"]
+			},
+			"(Giant Mimic) Obtain a ~|scrimshaw of sacrifice (inactive)|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Misc"],
+				"Label": "Untracked Misc Uniques",
+				"Items": ["Scrimshaw of sacrifice (inactive)"]
+			},
+			"(Giant Mimic) Obtain a ~|Slayer VIP ticket|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Misc"],
+				"Label": "Untracked Misc Uniques",
+				"Items": ["Slayer VIP ticket"]
+			},
+			"(Giant Mimic) Obtain a ~|shard of havoc weapon token|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Misc"],
+				"Label": "Untracked Misc Uniques",
+				"Items": ["Shard of havoc weapon token"]
+			},
+			"(Giant Mimic) Obtain a ~|shard of malice weapon token|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Misc"],
+				"Label": "Untracked Misc Uniques",
+				"Items": ["Shard of malice weapon token"]
+			},
+			"(Giant Mimic) Obtain a ~|shard of energy weapon token|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Misc"],
+				"Label": "Untracked Misc Uniques",
+				"Items": ["Shard of energy weapon token"]
+			},
+			"(Giant Mimic) Obtain a ~|shard of chaos weapon token|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Misc"],
+				"Label": "Untracked Misc Uniques",
+				"Items": ["Shard of chaos weapon token"]
+			},
+			"(Giant Mimic) Obtain a ~|shard of despite weapon token|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Misc"],
+				"Label": "Untracked Misc Uniques",
+				"Items": ["Shard of despite weapon token"]
+			},
+			"(Giant Mimic) Obtain a ~|shard of suffering weapon token|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Misc"],
+				"Label": "Untracked Misc Uniques",
+				"Items": ["Shard of suffering weapon token"]
+			},
+			"(Chompy Hats) Obtain an ~|ogre bowman hat|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Misc"],
+				"Label": "Untracked Misc Uniques",
+				"Monsters": ["Chompy bird"]
+			},
+			"(Chompy Hats) Obtain a ~|bowman hat|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Misc"],
+				"Label": "Untracked Misc Uniques",
+				"Monsters": ["Chompy bird"]
+			},
+			"(Chompy Hats) Obtain an ~|ogre yeonman hat|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Misc"],
+				"Label": "Untracked Misc Uniques",
+				"Monsters": ["Chompy bird"]
+			},
+			"(Chompy Hats) Obtain a ~|yeonman hat|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Misc"],
+				"Label": "Untracked Misc Uniques",
+				"Monsters": ["Chompy bird"]
+			},
+			"(Chompy Hats) Obtain an ~|ogre marksman hat|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Misc"],
+				"Label": "Untracked Misc Uniques",
+				"Monsters": ["Chompy bird"]
+			},
+			"(Chompy Hats) Obtain a ~|marksman hat|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Misc"],
+				"Label": "Untracked Misc Uniques",
+				"Monsters": ["Chompy bird"]
+			},
+			"(Chompy Hats) Obtain an ~|ogre woodsman hat|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Misc"],
+				"Label": "Untracked Misc Uniques",
+				"Monsters": ["Chompy bird"]
+			},
+			"(Chompy Hats) Obtain a ~|woodsman hat|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Misc"],
+				"Label": "Untracked Misc Uniques",
+				"Monsters": ["Chompy bird"]
+			},
+			"(Chompy Hats) Obtain an ~|ogre forester hat|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Misc"],
+				"Label": "Untracked Misc Uniques",
+				"Monsters": ["Chompy bird"]
+			},
+			"(Chompy Hats) Obtain a ~|forester hat|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Misc"],
+				"Label": "Untracked Misc Uniques",
+				"Monsters": ["Chompy bird"]
+			},
+			"(Chompy Hats) Obtain an ~|ogre bowmaster hat|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Misc"],
+				"Label": "Untracked Misc Uniques",
+				"Monsters": ["Chompy bird"]
+			},
+			"(Chompy Hats) Obtain a ~|bowmaster hat|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Misc"],
+				"Label": "Untracked Misc Uniques",
+				"Monsters": ["Chompy bird"]
+			},
+			"(Chompy Hats) Obtain a ~|ogre expert hat|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Misc"],
+				"Label": "Untracked Misc Uniques",
+				"Monsters": ["Chompy bird"]
+			},
+			"(Chompy Hats) Obtain a ~|expert hat|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Misc"],
+				"Label": "Untracked Misc Uniques",
+				"Monsters": ["Chompy bird"]
+			},
+			"(Chompy Hats) Obtain a ~|ogre dragon archer hat|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Misc"],
+				"Label": "Untracked Misc Uniques",
+				"Monsters": ["Chompy bird"]
+			},
+			"(Chompy Hats) Obtain a ~|dragon archer hat|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Misc"],
+				"Label": "Untracked Misc Uniques",
+				"Monsters": ["Chompy bird"]
+			},
+			"(Chompy Hats) Obtain a ~|expert ogre dragon archer hat|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Misc"],
+				"Label": "Untracked Misc Uniques",
+				"Monsters": ["Chompy bird"]
+			},
+			"(Chompy Hats) Obtain a ~|expert dragon archer hat|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Misc"],
+				"Label": "Untracked Misc Uniques",
+				"Monsters": ["Chompy bird"]
+			},
+			"(Frozen Floors) Obtain a ~|frostbite dagger|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Daemonheim"],
+				"Label": "Daemonheim Uniques",
+				"Chunks": ["13626", "13882"],
+				"Requirements": {
+					"Slayer": 1,
+					"Dungeoneering": 1
+				},
+				"Not F2P": true
+			},
+			"(Frozen Floors) Obtain a ~|hailstorm dagger|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Daemonheim"],
+				"Label": "Daemonheim Uniques",
+				"Chunks": ["13626", "13882"],
+				"Requirements": {
+					"Slayer": 1,
+					"Dungeoneering": 1
+				},
+				"Not F2P": true
+			},
+			"(Frozen Floors) Obtain a ~|silver precision bracelet|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Daemonheim"],
+				"Label": "Daemonheim Uniques",
+				"Chunks": ["13626", "13882"],
+				"Requirements": {
+					"Slayer": 5,
+					"Dungeoneering": 1
+				},
+				"Not F2P": true
+			},
+			"(Frozen Floors) Obtain a ~|golden precision bracelet|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Daemonheim"],
+				"Label": "Daemonheim Uniques",
+				"Chunks": ["13626", "13882"],
+				"Requirements": {
+					"Slayer": 5,
+					"Dungeoneering": 1
+				},
+				"Not F2P": true
+			},
+			"(Frozen Floors) Obtain ~|sunstriker boots|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Daemonheim"],
+				"Label": "Daemonheim Uniques",
+				"Chunks": ["13626", "13882"],
+				"Requirements": {
+					"Slayer": 10,
+					"Dungeoneering": 1
+				},
+				"Not F2P": true
+			},
+			"(Frozen Floors) Obtain ~|marksman boots|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Daemonheim"],
+				"Label": "Daemonheim Uniques",
+				"Chunks": ["13626", "13882"],
+				"Requirements": {
+					"Slayer": 10,
+					"Dungeoneering": 1
+				},
+				"Not F2P": true
+			},
+			"(Frozen Floors) Obtain ~|incantor's boots|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Daemonheim"],
+				"Label": "Daemonheim Uniques",
+				"Chunks": ["13626", "13882"],
+				"Requirements": {
+					"Slayer": 10,
+					"Dungeoneering": 1
+				},
+				"Not F2P": true
+			},
+			"(Frozen Floors) Obtain ~|sorcerer's boots|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Daemonheim"],
+				"Label": "Daemonheim Uniques",
+				"Chunks": ["13626", "13882"],
+				"Requirements": {
+					"Slayer": 10,
+					"Dungeoneering": 1
+				},
+				"Not F2P": true
+			},
+			"(Frozen Floors) Obtain a ~|flameburst defender|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Daemonheim"],
+				"Label": "Daemonheim Uniques",
+				"Chunks": ["13626", "13882"],
+				"Requirements": {
+					"Slayer": 30,
+					"Dungeoneering": 1
+				},
+				"Not F2P": true
+			},
+			"(Frozen Floors) Obtain a ~|shadow silk hood|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Daemonheim"],
+				"Label": "Daemonheim Uniques",
+				"Chunks": ["13626", "13882"],
+				"Requirements": {
+					"Slayer": 41,
+					"Dungeoneering": 1
+				},
+				"Not F2P": true
+			},
+			"(Frozen Floors) Obtain ~|absorption boots|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Daemonheim"],
+				"Label": "Daemonheim Uniques",
+				"Chunks": ["13626", "13882"],
+				"Requirements": {
+					"Slayer": 52,
+					"Dungeoneering": 1
+				},
+				"Not F2P": true
+			},
+			"(Frozen Floors) Obtain ~|grounding boots|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Daemonheim"],
+				"Label": "Daemonheim Uniques",
+				"Chunks": ["13626", "13882"],
+				"Requirements": {
+					"Slayer": 52,
+					"Dungeoneering": 1
+				},
+				"Not F2P": true
+			},
+			"(Abandoned Floors) Obtain a ~|protector's ward|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Daemonheim"],
+				"Label": "Daemonheim Uniques",
+				"Chunks": ["13626", "13882"],
+				"Requirements": {
+					"Slayer": 63,
+					"Dungeoneering": 22
+				},
+				"Not F2P": true
+			},
+			"(Abandoned Floors) Obtain a ~|guardian's ward|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Daemonheim"],
+				"Label": "Daemonheim Uniques",
+				"Chunks": ["13626", "13882"],
+				"Requirements": {
+					"Slayer": 63,
+					"Dungeoneering": 22
+				},
+				"Not F2P": true
+			},
+			"(Abandoned Floors) Obtain a ~|seeker's charm|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Daemonheim"],
+				"Label": "Daemonheim Uniques",
+				"Chunks": ["13626", "13882"],
+				"Requirements": {
+					"Slayer": 71,
+					"Dungeoneering": 22
+				},
+				"Not F2P": true
+			},
+			"(Furnished Floors) Obtain a ~|doomcore staff|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Daemonheim"],
+				"Label": "Daemonheim Uniques",
+				"Chunks": ["13626", "13882"],
+				"Requirements": {
+					"Slayer": 80,
+					"Dungeoneering": 35
+				},
+				"Not F2P": true
+			},
+			"(Abandoned 2 Floors) Obtain a ~|blood necklace|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Daemonheim"],
+				"Label": "Daemonheim Uniques",
+				"Chunks": ["13626", "13882"],
+				"Requirements": {
+					"Slayer": 90,
+					"Dungeoneering": 59
+				},
+				"Not F2P": true
+			},
+			"(Abandoned 2 Floors) Obtain a ~|hexhunter bow|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Daemonheim"],
+				"Label": "Daemonheim Uniques",
+				"Chunks": ["13626", "13882"],
+				"Requirements": {
+					"Slayer": 99,
+					"Dungeoneering": 59
+				},
+				"Not F2P": true
+			},
+			"Obtain ~|Remy|~": {
+				"Category": ["Pets"],
+				"Label": "Pets",
+				"Chunks": ["City of Um"],
+				"Items": ["GhostlySole[+]"],
+				"NPCs": ["Ghost cat"]
+			},
+			"Obtain ~|Richie|~ and his partyhat": {
+				"Category": ["Money Unlockables", "Pets"],
+				"Label": "Pets",
+				"Chunks": ["12598"]
+			},
+			"Unlock the ~|ornate gravestone|~": {
+				"Category": ["Money Unlockables"],
+				"Label": "Permanent Unlockables",
+				"Tasks": {
+					"~|The Restless Ghost|~ Complete the quest": "Quest"
+				}
+			},
+			"Unlock the ~|Angel of Death|~ gravestone": {
+				"Category": ["Money Unlockables"],
+				"Label": "Permanent Unlockables",
+				"Tasks": {
+					"~|The Giant Dwarf|~ Complete the quest": "Quest"
+				}
+			},
+			"Unlock the ~|Royal dwarven gravestone|~": {
+				"Category": ["Money Unlockables"],
+				"Label": "Permanent Unlockables",
+				"Tasks": {
+					"~|King of the Dwarves|~ Complete the quest": "Quest"
+				}
+			},
+			"Unlock all ~|Dundee's Crocodile Upgrades|~": {
+				"Category": ["Money Unlockables"],
+				"Label": "Permanent Unlockables",
+				"Chunks": ["13362"],
+				"Not F2P": true
+			},
+			"Obtain ~|the Castaway|~ title": {
+				"Category": ["Arc Log", "Titles"],
+				"Label": "Titles",
+				"Chunks": ["The Arc"],
+				"Tasks": {
+					"Find ~|Milky Joel|~": "Extra",
+					"Find ~|One-Eyed Willy|~": "Extra",
+					"Find ~|Manti Claws|~": "Extra",
+					"Find ~|Swabbie Steve|~": "Extra",
+					"Find ~|TzHaar-Ga'al-Knot|~": "Extra",
+					"Find ~|The Cannonballs|~": "Extra",
+					"Find ~|Azalea Oakheart|~": "Extra",
+					"Find ~|Harley|~": "Extra",
+					"Find ~|Squick|~": "Extra",
+					"Find ~|Salmon Ella|~": "Extra"
+				}
+			},
+			"Obtain the ~|of the Arc|~ title": {
+				"Category": ["Arc Log", "Titles"],
+				"Label": "Titles",
+				"Chunks": ["The Arc"],
+				"Tasks": {
+					"~|Final Destination (miniquest)|~ Complete the miniquest": "Quest"
+				}
+			},
+			"Obtain the ~|Champion of Champions|~ title": {
+				"Category": ["Titles"],
+				"Label": "Titles",
+				"Chunks": ["Champions' Arena"],
+				"Items": ["ChampionScrolls[+]x13"]		
+			},
+			"Obtain ~|the breaktaker|~ title": {
+				"Category": ["Titles"],
+				"Label": "Titles"
+			},
+			"Obtain the ~|archmage|~ title": {	
+				"Category": ["Titles"],
+				"Label": "Titles",
+				"Chunks": ["12337"],
+				"Skills": {
+					"Magic": 99,
+					"Runecrafting": 99
+				}
+			},
+			"Obtain the ~|the Terrifying|~ title": {
+				"Category": ["Titles"],
+				"Label": "Titles",
+				"Items": ["Demonic title scroll (terrifying)"]
+			},
+			"Obtain the ~|the Shattering|~ title": {
+				"Category": ["Titles"],
+				"Label": "Titles",
+				"Items": ["Demonic title scroll (shattering)"]
+			},
+			"Obtain the ~|the Rending|~ title": {
+				"Category": ["Titles"],
+				"Label": "Titles",
+				"Items": ["Demonic title scroll (rending)"]
+			},
+			"Obtain the ~|the Pestilent|~ title": {
+				"Category": ["Titles"],
+				"Label": "Titles",
+				"Items": ["Demonic title scroll (pestilent)"]
+			},
+			"Obtain the ~|the Obscured|~ title": {
+				"Category": ["Titles"],
+				"Label": "Titles",
+				"Items": ["Demonic title scroll (obscured)"]
+			},
+			"Obtain the ~|the Infernal|~ title": {
+				"Category": ["Titles"],
+				"Label": "Titles",
+				"Items": ["Demonic title scroll (infernal)"]
+			},
+			"Obtain the ~|the Glorious|~ title": {
+				"Category": ["Titles"],
+				"Label": "Titles",
+				"Items": ["Demonic title scroll (glorious)"]
+			},
+			"Obtain the ~|the Frostborn|~ title": {
+				"Category": ["Titles"],
+				"Label": "Titles",
+				"Items": ["Demonic title scroll (frostborn)"]
+			},
+			"Obtain the ~|the Corrupting|~ title": {
+				"Category": ["Titles"],
+				"Label": "Titles",
+				"Items": ["Demonic title scroll (corrupting)"]
+			},
+			"Obtain the ~|the Blazing|~ title": {
+				"Category": ["Titles"],
+				"Label": "Titles",
+				"Items": ["Demonic title scroll (blazing)"]
+			},
+			"Obtain the ~|Deacon|~ title": {
+				"Category": ["Titles"],
+				"Label": "Titles",
+				"Items": ["Demonic title scroll (deacon)"]
+			},
+			"Obtain the ~|Castellan|~ title": {
+				"Category": ["Titles"],
+				"Label": "Titles",
+				"Items": ["Demonic title scroll (castellan)"]
+			},
+			"Obtain the ~|Executioner|~ title": {
+				"Category": ["Titles"],
+				"Label": "Titles",
+				"Items": ["Demonic title scroll (executioner)"]
+			},
+			"Obtain the ~|General|~ title": {
+				"Category": ["Titles"],
+				"Label": "Titles",
+				"Items": ["Demonic title scroll (general)"]
+			},
+			"Obtain the ~|High Priest/Priestess (Zamorakian)|~ title": {
+				"Category": ["Titles"],
+				"Label": "Titles",
+				"Items": ["Zamorakian title scroll (high priestess/high priest)"]
+			},
+			"Obtain the ~|Hierophant (Zamorakian)|~ title": {
+				"Category": ["Titles"],
+				"Label": "Titles",
+				"Items": ["Zamorakian title scroll (hierophant)"]
+			},
+			"Obtain the ~|the Witch|~ title": {
+				"Category": ["Titles"],
+				"Label": "Titles",
+				"Items": ["Zamorakian title scroll (the Witch)"]
+			},
+			"Obtain the ~|Acolyte (Zamorakian)|~ title": {
+				"Category": ["Titles"],
+				"Label": "Titles",
+				"Items": ["Zamorakian title scroll (acolyte)"]
+			},
+			"Obtain the ~|the Bloodchiller|~ title": {
+				"Category": ["Titles"],
+				"Label": "Titles",
+				"Chunks": ["13626", "13882"],
+				"Requirements": {
+					"Dungeoneering": 17
+				},
+				"Items": ["Kal'gerion battle commendation"]
+			},
+			"Obtain the ~|the Riftsplitter|~ title": {
+				"Category": ["Titles"],
+				"Label": "Titles",
+				"Chunks": ["13626", "13882"],
+				"Requirements": {
+					"Dungeoneering": 35
+				},
+				"Items": ["Kal'gerion battle commendation"]
+			},
+			"Obtain the ~|the Pummeller|~ title": {
+				"Category": ["Titles"],
+				"Label": "Titles",
+				"Chunks": ["13626", "13882"],
+				"Requirements": {
+					"Dungeoneering": 65
+				},
+				"Items": ["Kal'gerion battle commendation"]
+			},
+			"Obtain the ~|the Thunderous|~ title": {
+				"Category": ["Titles"],
+				"Label": "Titles",
+				"Chunks": ["13626", "13882"],
+				"Requirements": {
+					"Dungeoneering": 89
+				},
+				"Items": ["Kal'gerion battle commendation"]
+			},
+			"Obtain the ~|the Warmonger|~ title": {
+				"Category": ["Titles"],
+				"Label": "Titles",
+				"Chunks": ["13626", "13882"],
+				"Requirements": {
+					"Dungeoneering": 113
+				},
+				"Items": ["Kal'gerion battle commendation"]
 			}
 		},
 		"Nonskill": {
@@ -113018,6 +114777,7 @@
 				"Not F2P": true
 			},
 			"Champions' Arena": {
+				"QuestPointsNeeded": 33,
 				"UnlocksArea": true
 			},
 			"Castle Wars": {
@@ -113571,6 +115331,12 @@
 				"UnlocksArea": true,
 				"Tasks": {
 					"~|Ode of the Devourer|~ Complete the quest": "Quest"
+				}
+			},
+			"'Rum'geon": {
+				"UnlocksArea": true,
+				"Tasks": {
+					"~|A Clockwork Syringe|~ Complete the quest": "Quest"
 				}
 			},
 			"Create a super explosive shaker*": {
@@ -114977,7 +116743,7 @@
 				"Chunks": ["MonkRobeChunk[+]"]
 			},
 			"Champions Guild Questpoints": {
-				"QuestPointsNeeded": 32
+				"QuestPointsNeeded": 33
 			},
 			"Access Dungeonering shop": {
 				"Items": ["Dungeoneering token"]
@@ -116556,7 +118322,7 @@
 			"Connect": {
 				"8528": true
 			},
-			"Name": "Dungeon"
+			"Name": "'Rum'geon"
 		},
 		"4180": {
 			"Object": {
@@ -132900,6 +134666,9 @@
 				"Black bear": 3,
 				"Monk of Zamorak": 6,
 				"Goblin (village)": 27,
+				"Lumpnose": 1,
+				"Brokeface": 1,
+				"Stinkears": 1,
 				"Icefiend": 11
 			},
 			"NPC": {
@@ -158896,8 +160665,22 @@
 			"Connect": {
 				"23": true
 			}
+		},
+		"'Rum'geon": {
+			"Object": {
+				"Portal": 1
+			},
+			"NPC": {
+				"Fish": 36
+			},
+			"Monster": {
+				"General malpractitioner": 9,
+				"'Rum'-pumped crab": 27
+			},
+			"Connect": {
+				"8528": true
+			}
 		}
-		
 	},
 	"codeItems": {
 		"ammoTools": {
@@ -159908,6 +161691,21 @@
 				"Gilded cavalier",
 				"Cavalier and mask",
 				"Gilded cavalier and mask"
+			],
+			"ChampionScrolls[+]": [
+				"Imp Champion's scroll",
+				"Zombie Champion's scroll",
+				"Skeleton Champion's scroll",
+				"Zombie Champion's scroll",
+				"Hobgoblin Champion's scroll",
+				"Giant Champion's scroll",
+				"Banshee Champion's scroll",
+				"Ghoul Champion's scroll",
+				"Earth Warrior Champion's scroll",
+				"Abberant Spectre Champion's scroll",
+				"Jogre Champion's scroll",
+				"Mummy Champion's scroll",
+				"Lesser Demon Champion's scroll"
 			],
 			"ChaosArmour[+]": [
 				"Chaos body",
@@ -163131,6 +164929,7 @@
 			"ChaoticArmour[+]": "Any chaotic shield variant",
 			"ChaoticMageWeapon[+]": "Any chaotic mage weapon",
 			"ChaoticWeapon[+]": "Any chaotic melee weapon",
+			"ChampionScrolls[+]": "Any champion scroll",
 			"ChewedBones[+]": "Any item that can be put into a pyre ship",
 			"Chocolate[+]": "Any cooking chocolate",
 			"ChocolateCake[+]": "Any variant of chocolate cake",
@@ -163917,7 +165716,6 @@
 			"BlackKnightFortressEntry[+]": ["Black Knights' Fortress Entry (guard uniform)*", "Black Knights' Fortress Entry (black armour)*", "Black Knights' Fortress Entry (Dagon'hai robes)*", "Black Knights' Fortress Entry (elite black armour)*", "Black Knights' Fortress Entry (The Death of Chivalry)*"],
 			"BloodAccess[+]": ["Access the blood rune temple with a talisman*", "Access the blood rune temple through the abyss*"],
 			"BodyAccess[+]": ["Access the body rune temple with a talisman*", "Access the body rune temple through the abyss*"],
-			"Champions[+]": ["Defeat the ~|imp champion|~", "Defeat the ~|goblin champion|~", "Defeat the ~|skeleton champion|~", "Defeat the ~|zombie champion|~", "Defeat the ~|hobgoblin champion|~", "Defeat the ~|giant champion|~", "Defeat the ~|banshee champion|~", "Defeat the ~|ghoul champion|~", "Defeat the ~|earth warrior champion|~", "Defeat the ~|aberrant spectre champion|~", "Defeat the ~|jogre champion|~", "Defeat the ~|mummy champion|~", "Defeat the ~|lesser demon champion|~"],
 			"ChaosAccess[+]": ["Access the chaos rune temple with a talisman*", "Access the chaos rune temple through the abyss*"],
 			"CosmicAccess[+]": ["Access the cosmic rune temple with a talisman*", "Access the cosmic rune temple through the abyss*"],
 			"TheCurseOfZarosFinal[+]": ["~|The Curse of Zaros (miniquest)|~ 2a5", "~|The Curse of Zaros (miniquest)|~ 2b5", "~|The Curse of Zaros (miniquest)|~ 2c5"],
@@ -164035,7 +165833,6 @@
 			"BloodAccess[+]": "Any way to access the blood rune temple",
 			"BodyAccess[+]": "Any way to access the body rune temple",
 			"ChaosAccess[+]": "Any way to access the chaos rune temple",
-			"Champions[+]": "All of the warrior guild champions with a champion's scroll",
 			"CosmicAccess[+]": "Any way to access the cosmic rune temple",
 			"TheCurseOfZarosFinal[+]": "Any final step in the 'The Curse of Zaros' sequence",
 			"DeathAccess[+]": "Any way to access the death rune temple",
@@ -171011,9 +172808,6 @@
 			}
 		},
 		"Blood reaver": {
-			"Binding contract (blood reaver)": {
-				"1": "Always"
-			},
 			"Lobster": {
 				"1": "Rare"
 			},
@@ -199144,6 +200938,9 @@
 			},
 			"Shard of Genesis Essence": {
 				"1": "1/80"
+			},
+			"Devourer aura": {
+				"1": "Always"
 			}
 		},
 		"Narf": {
@@ -208582,7 +210379,7 @@
 			"Off-hand Blightbound crossbow": {
 				"1": "1/400"
 			},
-			"Erethdor's grimoire (token)": {
+			"Erethdor's grimoire": {
 				"1": "1/200"
 			},
 			"Sealed clue scroll (elite)": {
@@ -220389,6 +222186,9 @@
 			"Corrupt Morrigan's throwing axe^": [{
 				"Access members content": "Nonskill"
 			}],
+			"Court summons^": [{
+				"~|King's Ransom|~ Complete the quest": "Quest"
+			}],
 			"Rolling pin": [{
 				"RecipeSub[+]x6": "Quest"
 			}],
@@ -220520,6 +222320,45 @@
 			}],
 			"Corrupt Zuriel's robe top^": [{
 				"Access members content": "Nonskill"
+			}],
+			"Imp Champion's scroll^": [{
+				"Champions Guild Questpoints": "Nonskill"
+			}],
+			"Zombie Champion's scroll^": [{
+				"Champions Guild Questpoints": "Nonskill"
+			}],
+			"Skeleton Champion's scroll^": [{
+				"Champions Guild Questpoints": "Nonskill"
+			}],
+			"Zombie Champion's scroll^": [{
+				"Champions Guild Questpoints": "Nonskill"
+			}],
+			"Hobgoblin Champion's scroll^": [{
+				"Champions Guild Questpoints": "Nonskill"
+			}],
+			"Giant Champion's scroll^": [{
+				"Champions Guild Questpoints": "Nonskill"
+			}],
+			"Banshee Champion's scroll^": [{
+				"Champions Guild Questpoints": "Nonskill"
+			}],
+			"Ghoul Champion's scroll^": [{
+				"Champions Guild Questpoints": "Nonskill"
+			}],
+			"Earth Warrior Champion's scroll^": [{
+				"Champions Guild Questpoints": "Nonskill"
+			}],
+			"Abberant Spectre Champion's scroll^": [{
+				"Champions Guild Questpoints": "Nonskill"
+			}],
+			"Jogre Champion's scroll^": [{
+				"Champions Guild Questpoints": "Nonskill"
+			}],
+			"Mummy Champion's scroll^": [{
+				"Champions Guild Questpoints": "Nonskill"
+			}],
+			"Lesser Demon Champion's scroll^": [{
+				"Champions Guild Questpoints": "Nonskill"
 			}]
 		},
 		"Monsters": {
@@ -245123,7 +246962,8 @@
 				"Steel sword + 1": "Always",
 				"Steel throwing axe": "Always",
 				"Steel warhammer": "Always",
-				"Steel warhammer + 1": "Always"
+				"Steel warhammer + 1": "Always",
+				"Steel studs": "Always"
 			},
 			"MithrilGear": {
 				"Mithril 2h sword": "Always",
