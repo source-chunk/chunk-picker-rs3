@@ -13,6 +13,13 @@
 				"Primary": true,
 				"Priority": 2
 			},
+			"Move between islands in ~|Anima Islands|~": {
+				"Category": ["DnD Skilling"],
+				"Chunks": ["12335"],
+				"Level": 1,
+				"Primary": true,
+				"Priority": 10
+			},
 			"Complete a lap of the ~|advanced Gnome Stronghold agility course|~": {
 				"Chunks": ["9781"],
 				"Level": 85,
@@ -11132,11 +11139,26 @@
 				"Primary": false,
 				"Priority": 22
 			},
-			"Repair walls in ~|troll invasion|~": {
+			"Repair walls in ~|Troll Invasion|~": {
+				"Category": ["DnD Skilling"],
 				"Chunks": ["11319"],
 				"Level": 1,
 				"Primary": true,
 				"Priority": 23
+			},
+			"Construct pylons in ~|Anima Islands|~": {
+				"Category": ["DnD Skilling"],
+				"Chunks": ["12335"],
+				"Level": 1,
+				"Primary": true,
+				"Priority": 24
+			},
+			"Construct a ~|God Statue|~": {
+				"Category": ["DnD Skilling"],
+				"NPCs": ["Copernicus Glyph"],
+				"Level": 1,
+				"Primary": true,
+				"Priority": 25
 			},
 			"Build a ~|brown rug|~": {
 				"Category": ["InsidePOH Primary"],
@@ -16107,7 +16129,7 @@
 			"Make ~|bread dough|~ from a water source": {
 				"Category": ["Token"],
 				"Items": ["Pot of flour*"],
-				"Objects": ["WaterObject[+]"],
+				"Objects": ["WaterSource[+]"],
 				"Level": 1,
 				"Output": "Bread dough",
 				"Primary": true,
@@ -16625,7 +16647,7 @@
 			"Make ~|pastry dough|~ from a water source": {
 				"Category": ["Token"],
 				"Items": ["Pot of flour*"],
-				"Objects": ["WaterObject[+]"],
+				"Objects": ["WaterSource[+]"],
 				"Level": 10,
 				"Output": "Pastry dough",
 				"Primary": true,
@@ -17668,7 +17690,7 @@
 			"Make a ~|pizza base|~ from a water source": {
 				"Category": ["Token"],
 				"Items": ["Pot of flour*"],
-				"Objects": ["WaterObject[+]"],
+				"Objects": ["WaterSource[+]"],
 				"Level": 35,
 				"Output": "Pizza base",
 				"Primary": true,
@@ -18201,7 +18223,7 @@
 			"Make a ~|pitta dough|~ from a water source": {
 				"Category": ["Token"],
 				"Items": ["Pot of flour*"],
-				"Objects": ["WaterObject[+]"],
+				"Objects": ["WaterSource[+]"],
 				"Level": 58,
 				"Output": "Pitta dough",
 				"Primary": true,
@@ -21526,7 +21548,7 @@
 				"Items": ["Clay*"],
 				"Level": 1,
 				"Output": "Soft clay",
-				"Objects": ["WaterObject[+]"],
+				"Objects": ["WaterSource[+]"],
 				"Primary": true,
 				"Priority": 25
 			},
@@ -21610,7 +21632,8 @@
 				},
 				"Priority": 36
 			},
-			"Repair barricades in ~|troll invasion|~": {
+			"Repair barricades in ~|Troll Invasion|~": {
+				"Category": ["DnD Skilling"],
 				"Chunks": ["11319"],
 				"Level": 1,
 				"Primary": true,
@@ -27317,6 +27340,20 @@
 				"Primary": true,
 				"Priority": 11
 			},
+			"Free a lost soul, or charge a gatestone, in ~|Anima Islands|~": {
+				"Category": ["DnD Skilling"],
+				"Chunks": ["12335"],
+				"Level": 1,
+				"Primary": true,
+				"Priority": 12
+			},
+			"Finish the Displaced Energy ~|Wilderness Flash Event|~": {
+				"Category": ["DnD Skilling", "DnD Flash Events", "DnD"],
+				"Chunks": ["11832"],
+				"Level": 1,
+				"Primary": true,
+				"Priority": 13
+			},
 			"Harvest a ~|flickering wisp|~": {
 				"NPCs": ["Flickering wisp"],
 				"Level": 10,
@@ -29026,6 +29063,13 @@
 				"Primary": true,
 				"Priority": 2
 			},
+			"Chip off a gatestone in ~|Anima Islands|~": {
+				"Category": ["DnD Skilling"],
+				"Chunks": ["12335"],
+				"Level": 1,
+				"Primary": true,
+				"Priority": 4
+			},
 			"Enter the ~|Edgeville Dungeon chaos druids dungeon|~": {
 				"Chunks": ["Edgeville Dungeon"],
 				"Level": 10,
@@ -30053,9 +30097,10 @@
 				"Priority": 10
 			},
 			"Nurture a ~|normal evil tree|~ sapling": {
+				"Category": ["DnD Skilling"],
 				"Objects": ["Evil tree"],
 				"Level": 1,
-				"Primary": false,
+				"Primary": true,
 				"Priority": 11
 			},
 			"Play ~|Vinesweeper|~": {
@@ -30584,6 +30629,27 @@
 				"Level": 1,
 				"Primary": true,
 				"Priority": 61
+			},
+			"Harvest a flower seed in ~|Anima Islands|~": {
+				"Category": ["DnD Skilling"],
+				"Chunks": ["12335"],
+				"Level": 1,
+				"Primary": true,
+				"Priority": 24
+			},
+			"Finish the Surprising Seedlings ~|Wilderness Flash Event|~": {
+				"Category": ["DnD Skilling", "DnD Flash Events", "DnD"],
+				"Chunks": ["12600"],
+				"Level": 1,
+				"Primary": true,
+				"Priority": 25
+			},
+			"Finish the Phase 1 Evil Bloodwood Tree ~|Wilderness Flash Event|~": {
+				"Category": ["DnD Skilling", "DnD Flash Events", "DnD"],
+				"Chunks": ["12344"],
+				"Level": 1,
+				"Primary": true,
+				"Priority": 26
 			},
 			"Grow ~|marigolds|~": {
 				"Category": ["Normal Farming"],
@@ -34607,6 +34673,27 @@
 				"Primary": true,
 				"Priority": 12
 			},
+			"Light holy fire in ~|Anima Islands|~": {
+				"Category": ["DnD Skilling"],
+				"Chunks": ["12335"],
+				"Level": 1,
+				"Primary": true,
+				"Priority": 13
+			},
+			"Light ballista ammunition in ~|Troll Invasion|~": {
+				"Category": ["DnD Skilling"],
+				"Chunks": ["11319"],
+				"Level": 1,
+				"Primary": true,
+				"Priority": 14
+			},
+			"Finish the Phase 3 Evil Bloodwood Tree ~|Wilderness Flash Event|~": {
+				"Category": ["DnD Skilling", "DnD Flash Events", "DnD"],
+				"Chunks": ["12344"],
+				"Level": 1,
+				"Primary": true,
+				"Priority": 15
+			},
 			"Light ~|candle latern (white)|~": {
 				"Items": ["Candle latern (white)"],
 				"Level": 4,
@@ -36839,6 +36926,13 @@
 				"Level": 1,
 				"Primary": true,
 				"Priority": 13
+			},
+			"Compete in ~|Fish Flingers|~": {
+				"Category": ["DnD Skilling"],
+				"Chunks": ["10295"],
+				"Level": 1,
+				"Primary": true,
+				"Priority": 14
 			},
 			"Catch a ~|raw shrimp|~ in the holy lake": {
 				"Level": 5,
@@ -40051,6 +40145,20 @@
 				"Primary": true,
 				"Priority": 6
 			},
+			"Nurture roots in ~|Anima Islands|~": {
+				"Category": ["DnD Skilling"],
+				"Chunks": ["12335"],
+				"Level": 1,
+				"Primary": true,
+				"Priority": 21
+			},
+			"Partake in ~|Herby Werby|~": {
+				"Category": ["DnD Skilling"],
+				"Chunks": ["Herby Werby"],
+				"Level": 1,
+				"Primary": true,
+				"Priority": 22
+			},
 			"Mix an ~|attack mix|~": {
 				"Items": ["AttackPotion[+]*", "Roe*"],
 				"Level": 4,
@@ -42756,6 +42864,20 @@
 				"Level": 1,
 				"Primary": true,
 				"Priority": 16
+			},
+			"Lure sentient lightning in ~|Anima Islands|~": {
+				"Category": ["DnD Skilling"],
+				"Chunks": ["12335"],
+				"Level": 1,
+				"Primary": true,
+				"Priority": 17
+			},
+			"Finish the Butterfly Swarm ~|Wilderness Flash Event|~": {
+				"Category": ["DnD Skilling", "DnD Flash Events", "DnD"],
+				"Chunks": ["12600"],
+				"Level": 1,
+				"Primary": true,
+				"Priority": 18
 			},
 			"Catch a ~|common kebbit|~": {
 				"Chunks": ["9271"],
@@ -49227,13 +49349,13 @@
 			"Mine with a ~|bronze pickaxe|~": {
 				"Level": 1,
 				"Objects": ["Ore[+]"],
-				"Primary": false,
+				"Primary": true,
 				"Priority": 8
 			},
 			"Mine with a ~|dwarven army axe|~": {
 				"Items": ["Dwarven army axe"],
 				"Level": 1,
-				"Objects": ["Ore[+]"],
+				"Objects": ["CopperOrTin[+]"],
 				"Primary": true,
 				"Output": "Uncut lapis lazuli",
 				"Priority": 7
@@ -49420,6 +49542,20 @@
 				"Primary": true,
 				"Output": "Rock (ore)",
 				"Priority": 10
+			},
+			"Finish the Unnatural Outcrop ~|Wilderness Flash Event|~": {
+				"Category": ["DnD Skilling", "DnD Flash Events", "DnD"],
+				"Chunks": ["12343"],
+				"Level": 1,
+				"Primary": true,
+				"Priority": 11
+			},
+			"Finish the Infernal Star ~|Wilderness Flash Event|~": {
+				"Category": ["DnD Skilling", "DnD Flash Events", "DnD"],
+				"Chunks": ["12856"],
+				"Level": 1,
+				"Primary": true,
+				"Priority": 11
 			},
 			"Mine an ~|iron rock|~": {
 				"Level": 10,
@@ -52893,6 +53029,27 @@
 				"Level": 1,
 				"Primary": true,
 				"Priority": 57
+			},
+			"Guide a tormented soul in ~|Anima Islands|~": {
+				"Category": ["DnD Skilling"],
+				"Chunks": ["12335"],
+				"Level": 1,
+				"Primary": true,
+				"Priority": 68
+			},
+			"Pray at a ~|God Statue|~": {
+				"Category": ["DnD Skilling"],
+				"NPCs": ["Copernicus Glyph"],
+				"Level": 1,
+				"Primary": true,
+				"Priority": 69
+			},
+			"Finish the Lost Souls ~|Wilderness Flash Event|~": {
+				"Category": ["DnD Skilling", "DnD Flash Events", "DnD"],
+				"Chunks": ["11834"],
+				"Level": 1,
+				"Primary": true,
+				"Priority": 70
 			},
 			"Make a bone offering at the ~|Ectofuntus|~": {
 				"Chunks": ["14646", "14647"],
@@ -58013,6 +58170,20 @@
 				"Source": "drop",
 				"Output": "Gelatinous abomination",
 				"NoPet": true
+			},
+			"Defeat fanatics after building a ~|God Statue|~": {
+				"Category": ["DnD Skilling"],
+				"NPCs": ["Copernicus Glyph"],
+				"Level": 1,
+				"Primary": true,
+				"Priority": 13
+			},
+			"Finish the Stryke the Wyrm ~|Wilderness Flash Event|~": {
+				"Category": ["DnD Skilling", "DnD Flash Events", "DnD"],
+				"Chunks": ["12343"],
+				"Level": 1,
+				"Primary": true,
+				"Priority": 14
 			},
 			"Slay a ~|crawling hand|~": {
 				"Level": 5,
@@ -66950,6 +67121,20 @@
 				"Primary": true,
 				"Priority": 3
 			},
+			"Cut overgrown remnants in ~|Anima Islands|~": {
+				"Category": ["DnD Skilling"],
+				"Chunks": ["12335"],
+				"Level": 1,
+				"Primary": true,
+				"Priority": 14
+			},
+			"Finish the Phase 2 Evil Bloodwood Tree ~|Wilderness Flash Event|~": {
+				"Category": ["DnD Skilling", "DnD Flash Events", "DnD"],
+				"Chunks": ["12344"],
+				"Level": 1,
+				"Primary": true,
+				"Priority": 15
+			},
 			"Craft a ~|fremennik round shield|~": {
 				"Items": ["Artic pine logs", "Bronze nails", "Rope"],
 				"Level": 54,
@@ -68571,38 +68756,6 @@
 				"QuestPoints": 0,
 				"Not F2P": true
 			},
-			"~|Battle of the Monolith|~ 1": {
-				"BaseQuest": "Battle of the Monolith",
-				"Description": "Talk to Ali the Wise or Wizard Trindy at the Archaeology Campus",
-				"Chunks": ["13365"],
-				"Tasks": {
-					"~|Azzanadra's Quest|~ Complete the quest": "Quest"
-				},
-				"Skills": {
-					"Archaeology": 5
-				},
-				"Not F2P": true,
-				"NoBoost": true
-			},
-			"~|Battle of the Monolith|~ 2": {
-				"BaseQuest": "Battle of the Monolith",
-				"Description": "Win the four battles",
-				"Chunks": ["13365", "13364"],
-				"Tasks": {
-					"~|Battle of the Monolith|~ 1": "Quest"
-				},
-				"Not F2P": true
-			},
-			"~|Battle of the Monolith|~ Complete the quest": {
-				"BaseQuest": "Battle of the Monolith",
-				"Chunks": ["13364", "13365"],
-				"Tasks": {
-					"~|Battle of the Monolith|~ 2": "Quest"
-				},
-				"QuestPoints": 0,
-				"Reward": ["Shard of Erebus"],
-				"Not F2P": true
-			},
 			"~|Battle of Forinthry|~ 1": {
 				"BaseQuest": "Battle of Forinthry",
 				"Description": "Speak to the Raptor in Fort Forinthry",
@@ -68639,6 +68792,38 @@
 				},
 				"Not F2P": true
 			},
+			"~|Battle of the Monolith|~ 1": {
+				"BaseQuest": "Battle of the Monolith",
+				"Description": "Talk to Ali the Wise or Wizard Trindy at the Archaeology Campus",
+				"Chunks": ["13365"],
+				"Tasks": {
+					"~|Azzanadra's Quest|~ Complete the quest": "Quest"
+				},
+				"Skills": {
+					"Archaeology": 5
+				},
+				"Not F2P": true,
+				"NoBoost": true
+			},
+			"~|Battle of the Monolith|~ 2": {
+				"BaseQuest": "Battle of the Monolith",
+				"Description": "Win the four battles",
+				"Chunks": ["13365", "13364"],
+				"Tasks": {
+					"~|Battle of the Monolith|~ 1": "Quest"
+				},
+				"Not F2P": true
+			},
+			"~|Battle of the Monolith|~ Complete the quest": {
+				"BaseQuest": "Battle of the Monolith",
+				"Chunks": ["13364", "13365"],
+				"Tasks": {
+					"~|Battle of the Monolith|~ 2": "Quest"
+				},
+				"QuestPoints": 0,
+				"Reward": ["Shard of Erebus"],
+				"Not F2P": true
+			},
 			"~|Beneath Cursed Tides|~ 1": {
 				"BaseQuest": "Beneath Cursed Tides",
 				"Description": "Talk to Wizard Myrtle at the Wizards' Tower",
@@ -68653,7 +68838,6 @@
 					"Strength": 30,
 					"Woodcutting": 30
 				},
-				"Not F2P": true,
 				"NoBoost": true
 			},
 			"~|Beneath Cursed Tides|~ 2": {
@@ -68662,8 +68846,7 @@
 				"Chunks": ["12337", "12342"],
 				"Tasks": {
 					"~|Beneath Cursed Tides|~ 1": "Quest"
-				},
-				"Not F2P": true
+				}
 			},
 			"~|Beneath Cursed Tides|~ 3": {
 				"BaseQuest": "Beneath Cursed Tides",
@@ -68671,8 +68854,7 @@
 				"Chunks": ["11824"],
 				"Tasks": {
 					"~|Beneath Cursed Tides|~ 2": "Quest"
-				},
-				"Not F2P": true
+				}
 			},
 			"~|Beneath Cursed Tides|~ 4": {
 				"BaseQuest": "Beneath Cursed Tides",
@@ -68680,8 +68862,7 @@
 				"Chunks": ["Sunken tutorial island"],
 				"Tasks": {
 					"~|Beneath Cursed Tides|~ 3": "Quest"
-				},
-				"Not F2P": true
+				}
 			},
 			"~|Beneath Cursed Tides|~ 5": {
 				"BaseQuest": "Beneath Cursed Tides",
@@ -68689,8 +68870,7 @@
 				"Chunks": ["11824"],
 				"Tasks": {
 					"~|Beneath Cursed Tides|~ 4": "Quest"
-				},
-				"Not F2P": true
+				}
 			},
 			"~|Beneath Cursed Tides|~ Complete the quest": {
 				"BaseQuest": "Beneath Cursed Tides",
@@ -68703,8 +68883,7 @@
 					"Cooking": 5000,
 					"Fishing": 5000,
 					"Attack|Constitution|Strength|Defence|Ranged|Prayer|Magic|Herblore|Slayer|Summoning": 10000
-				},
-				"Not F2P": true
+				}
 			},
 			"~|Benedict's World Tour (miniquest)|~ 1": {
 				"BaseQuest": "Benedict's World Tour (miniquest)",
@@ -75818,7 +75997,7 @@
 				"Tasks": {
 					"~|The Elder Kiln|~ 4": "Quest"
 				},
-				"QuestPoints": 1,
+				"QuestPoints": 2,
 				"XpReward": {
 					"Attack|Strength|Defence|Ranged|Magic": 100000,
 					"Magic": 50000,
@@ -84518,7 +84697,7 @@
 				"Description": "Create the Waking Sleep potion and give it to the Oneiromancer",
 				"Chunks": ["8508"],
 				"Items": ["Clean guam", "Clean marrentill", "Suqah tooth"],
-				"Objects": ["WaterObject[+]"],
+				"Objects": ["WaterSource[+]"],
 				"Tasks": {
 					"~|Lunar Diplomacy|~ 9": "Quest"
 				},
@@ -87009,7 +87188,7 @@
 			"~|Ode of the Devourer|~ 5a1": {
 				"BaseQuest": "Ode of the Devourer",
 				"Description": "Search for the Idol of Amascut at the destroyed Temple of Amascut",
-				"Chunks": ["12592", "12848"],
+				"Chunks": ["12848"],
 				"Tasks": {
 					"~|Ode of the Devourer|~ 4": "Quest"
 				},
@@ -89080,8 +89259,7 @@
 				},
 				"BaseQuest": "Priest in Peril",
 				"Reward": ["Wolfbane"],
-				"Chunks": ["13622"],
-				"Not F2P": true
+				"Chunks": ["13622"]
 			},
 			"~|The Prisoner of Glouphrie|~ 1": {
 				"BaseQuest": "The Prisoner of Glouphrie",
@@ -92452,8 +92630,7 @@
 			"~|A Shadow over Ashdale|~ 1": {
 				"BaseQuest": "A Shadow over Ashdale",
 				"Description": "Speak to Gudrik in Port Sarim",
-				"Chunks": ["12082"],
-				"Not F2P": true
+				"Chunks": ["12082"]
 			},
 			"~|A Shadow over Ashdale|~ 2": {
 				"BaseQuest": "A Shadow over Ashdale",
@@ -92461,8 +92638,7 @@
 				"Chunks": ["12082"],
 				"Tasks": {
 					"~|A Shadow over Ashdale|~ 1": "Quest"
-				},
-				"Not F2P": true
+				}
 			},
 			"~|A Shadow over Ashdale|~ Complete the quest": {
 				"BaseQuest": "A Shadow over Ashdale",
@@ -92476,8 +92652,7 @@
 					"Strength": 300,
 					"Defence": 300,
 					"Constitution": 300
-				},
-				"Not F2P": true
+				}
 			},
 			"~|Sheep Herder|~ 1": {
 				"BaseQuest": "Sheep Herder",
@@ -97348,7 +97523,6 @@
 				"Skills": {
 					"Smithing": 5
 				},
-				"Not F2P": true,
 				"NoBoost": true
 			},
 			"~|What's Mine is Yours|~ 2a": {
@@ -97357,8 +97531,7 @@
 				"Chunks": ["Dwarven Mine"],
 				"Tasks": {
 					"~|What's Mine is Yours|~ 1": "Quest"
-				},
-				"Not F2P": true
+				}
 			},
 			"~|What's Mine is Yours|~ 2b": {
 				"BaseQuest": "What's Mine is Yours",
@@ -97366,8 +97539,7 @@
 				"Chunks": ["11826"],
 				"Tasks": {
 					"~|What's Mine is Yours|~ 1": "Quest"
-				},
-				"Not F2P": true
+				}
 			},
 			"~|What's Mine is Yours|~ 2c": {
 				"BaseQuest": "What's Mine is Yours",
@@ -97375,8 +97547,7 @@
 				"Chunks": ["13108"],
 				"Tasks": {
 					"~|What's Mine is Yours|~ 1": "Quest"
-				},
-				"Not F2P": true
+				}
 			},
 			"~|What's Mine is Yours|~ 2d": {
 				"BaseQuest": "What's Mine is Yours",
@@ -97384,8 +97555,7 @@
 				"Chunks": ["12596"],
 				"Tasks": {
 					"~|What's Mine is Yours|~ 1": "Quest"
-				},
-				"Not F2P": true
+				}
 			},
 			"~|What's Mine is Yours|~ 3": {
 				"BaseQuest": "What's Mine is Yours",
@@ -97396,8 +97566,7 @@
 					"~|What's Mine is Yours|~ 2b": "Quest",
 					"~|What's Mine is Yours|~ 2c": "Quest",
 					"~|What's Mine is Yours|~ 2d": "Quest"
-				},
-				"Not F2P": true
+				}
 			},
 			"~|What's Mine is Yours|~ 4": {
 				"BaseQuest": "What's Mine is Yours",
@@ -97405,8 +97574,7 @@
 				"Chunks": ["12084"],
 				"Tasks": {
 					"~|What's Mine is Yours|~ 3": "Quest"
-				},
-				"Not F2P": true
+				}
 			},
 			"~|What's Mine is Yours|~ 5": {
 				"BaseQuest": "What's Mine is Yours",
@@ -97414,8 +97582,7 @@
 				"Chunks": ["11828"],
 				"Tasks": {
 					"~|What's Mine is Yours|~ 4": "Quest"
-				},
-				"Not F2P": true
+				}
 			},
 			"~|What's Mine is Yours|~ 6": {
 				"BaseQuest": "What's Mine is Yours",
@@ -97423,8 +97590,7 @@
 				"Chunks": ["11829"],
 				"Tasks": {
 					"~|What's Mine is Yours|~ 5": "Quest"
-				},
-				"Not F2P": true
+				}
 			},
 			"~|What's Mine is Yours|~ Complete the quest": {
 				"BaseQuest": "What's Mine is Yours",
@@ -97436,8 +97602,7 @@
 				"XpReward": {
 					"Mining": 1000,
 					"Smithing": 400
-				},
-				"Not F2P": true
+				}
 			},
 			"~|While Guthix Sleeps|~ 1": {
 				"BaseQuest": "While Guthix Sleeps",
@@ -97793,8 +97958,7 @@
 			"~|Witch's House|~ 1": {
 				"BaseQuest": "Witch's House",
 				"Description": "Talk to the boy",
-				"Chunks": ["11572"],
-				"Not F2P": true
+				"Chunks": ["11572"]
 			},
 			"~|Witch's House|~ 2": {
 				"BaseQuest": "Witch's House",
@@ -97803,8 +97967,7 @@
 				"Items": ["Leather gloves"],
 				"Tasks": {
 					"~|Witch's House|~ 1": "Quest"
-				},
-				"Not F2P": true
+				}
 			},
 			"~|Witch's House|~ 3": {
 				"BaseQuest": "Witch's House",
@@ -97813,8 +97976,7 @@
 				"Items": ["Cheese"],
 				"Tasks": {
 					"~|Witch's House|~ 2": "Quest"
-				},
-				"Not F2P": true
+				}
 			},
 			"~|Witch's House|~ 4": {
 				"BaseQuest": "Witch's House",
@@ -97822,8 +97984,7 @@
 				"Chunks": ["11572"],
 				"Tasks": {
 					"~|Witch's House|~ 3": "Quest"
-				},
-				"Not F2P": true
+				}
 			},
 			"~|Witch's House|~ 5": {
 				"BaseQuest": "Witch's House",
@@ -97831,8 +97992,7 @@
 				"Chunks": ["11572"],
 				"Tasks": {
 					"~|Witch's House|~ 4": "Quest"
-				},
-				"Not F2P": true
+				}
 			},
 			"~|Witch's House|~ Complete the quest": {
 				"Tasks": {
@@ -97843,8 +98003,7 @@
 					"Constitution": 6325
 				},
 				"BaseQuest": "Witch's House",
-				"Chunks": ["11572"],
-				"Not F2P": true
+				"Chunks": ["11572"]
 			},
 			"~|Witch's Potion (miniquest)|~ 1": {
 				"BaseQuest": "Witch's Potion (miniquest)",
@@ -103587,7 +103746,7 @@
 			},
 			"~|Lumbridge Achievements#Beginner|~ Just Add Water": {
 				"Description": "Make some soft clay.",
-				"Objects": ["Water object[+]"],
+				"Objects": ["WaterSource[+]"],
 				"Items": ["Clay"],
 				"BaseQuest": "Lumbridge Achievements"
 			},
@@ -109165,6 +109324,478 @@
 				"Tasks": {
 					"~|Final Destination (miniquest)|~ Complete the miniquest": "Quest"
 				}
+			},
+			"(Agility) Unlock the ~|Dive|~ ability": {
+				"Category": ["Unlock Abilities"],
+				"Label": "Unlockable Abilities",
+				"Skills": {
+					"Agility": 5
+				},
+				"Tasks": {
+					"~|Succession|~ Complete the quest": "Quest"
+				}
+			},
+			"(Constitution) Unlock the ~|Ingenuity of the Humans|~ ability": {
+				"Category": ["Unlock Abilities"],
+				"Label": "Unlockable Abilities",
+				"Items": ["Ingenuity of the Humans ability codex"]
+			},
+			"(Constitution) Unlock the ~|Sacrifice|~ ability": {
+				"Category": ["Unlock Abilities"],
+				"Label": "Unlockable Abilities",
+				"Items": ["Sacrifice ability"]
+			},
+			"(Constitution) Unlock the ~|Transfigure|~ ability": {
+				"Category": ["Unlock Abilities"],
+				"Label": "Unlockable Abilities",
+				"Items": ["Transfigure ability"]
+			},
+			"(Constitution) Unlock the ~|Tuska's Wrath|~ ability": {
+				"Category": ["Unlock Abilities"],
+				"Label": "Unlockable Abilities",
+				"Skills": {
+					"Constitution": 50
+				},
+				"Items": ["Tuska's Wrath ability"]
+			},
+			"(Constitution) Unlock the ~|Storm Shards|~ and Shatter abilities": {
+				"Category": ["Unlock Abilities"],
+				"Label": "Unlockable Abilities",
+				"Skills": {
+					"Constitution": 70
+				},
+				"Items": ["Mazcab ability codex"]
+			},
+			"(Constitution) Unlock the ~|Guthix's Blessing|~ ability": {
+				"Category": ["Unlock Abilities"],
+				"Label": "Unlockable Abilities",
+				"Skills": {
+					"Constitution": 85
+				},
+				"Tasks": {
+					"~|The World Wakes|~ Complete the quest": "Quest"
+				}
+			},
+			"(Constitution) Unlock the ~|Reprisal|~ ability": {
+				"Category": ["Unlock Abilities"],
+				"Label": "Unlockable Abilities",
+				"Skills": {
+					"Constitution": 85
+				},
+				"Items": ["Reprisal ability codex"]
+			},
+			"(Constitution) Unlock the ~|Onslaught|~ ability": {
+				"Category": ["Unlock Abilities"],
+				"Label": "Unlockable Abilities",
+				"Skills": {
+					"Constitution": 90
+				},
+				"Items": ["Mazcab ability codex"]
+			},
+			"(Constitution) Unlock the ~|Ice Asylum|~ ability": {
+				"Category": ["Unlock Abilities"],
+				"Label": "Unlockable Abilities",
+				"Skills": {
+					"Constituiton": 91
+				},
+				"Items": ["Codex Ultimatus"]
+			},
+			"(Defence) Unlock the ~|Devotion|~ ability": {
+				"Category": ["Unlock Abilities"],
+				"Label": "Unlockable Abilities",
+				"Items": ["Devotion ability"]
+			},
+			"(Defence) Unlock the ~|Divert|~ ability": {
+				"Category": ["Unlock Abilities"],
+				"Label": "Unlockable Abilities",
+				"Skills": {
+					"Defence": 48
+				},
+				"Items": ["Divert ability codex"]
+			},
+			"(Defence) Unlock the ~|Natural Instinct|~ ability": {
+				"Category": ["Unlock Abilities"],
+				"Label": "Unlockable Abilities",
+				"Skills": {
+					"Defence": 85
+				},
+				"Tasks": {
+					"~|The World Wakes|~ Complete the quest": "Quest"
+				}
+			},
+			"(Magic) Unlock the ~|Shock|~ ability": {
+				"Category": ["Unlock Abilities"],
+				"Label": "Unlockable Abilities",
+				"Skills": {
+					"Magic": 10
+				},
+				"Items": ["Scare Tactics"]
+			},
+			"(Magic) Unlock the ~|Greater Concentrated Blast|~ ability": {
+				"Category": ["Unlock Abilities"],
+				"Label": "Unlockable Abilities",
+				"Skills": {
+					"Magic": 12
+				},
+				"Items": ["Greater Concentrated Blast ability codex"]
+			},
+			"(Magic) Unlock the ~|Horror|~ ability": {
+				"Category": ["Unlock Abilities"],
+				"Label": "Unlockable Abilities",
+				"Skills": {
+					"Magic": 15
+				},
+				"Items": ["Scare Tactics"]
+			},
+			"(Magic) Unlock the ~|Greater Chain|~ ability": {
+				"Category": ["Unlock Abilities"],
+				"Label": "Unlockable Abilities",
+				"Skills": {
+					"Magic": 45
+				},
+				"Items": ["Greater Chain ability codex"]
+			},
+			"(Magic) Unlock the ~|Magma Tempest|~ ability": {
+				"Category": ["Unlock Abilities"],
+				"Label": "Unlockable Abilities",
+				"Skills": {
+					"Magic": 66
+				},
+				"Items": ["Magma Tempest ability codex"]
+			},
+			"(Magic) Unlock the ~|Corruption Blast|~ ability": {
+				"Category": ["Unlock Abilities"],
+				"Label": "Unlockable Abilities",
+				"Skills": {
+					"Magic": 70
+				},
+				"Items": ["Mazcab ability codex"]
+			},	
+			"(Magic) Unlock the ~|Smoke Tendrils|~ ability": {
+				"Category": ["Unlock Abilities"],
+				"Label": "Unlockable Abilities",
+				"Skills": {
+					"Magic": 75
+				},
+				"Items": ["Codex Ultimatus"]
+			},
+			"(Magic) Unlock the ~|Greater Sonic Wave|~ ability": {
+				"Category": ["Unlock Abilities"],
+				"Label": "Unlockable Abilities",
+				"Skills": {
+					"Magic": 75
+				},
+				"Items": ["Greater Sonic Wave ability codex"]
+			},
+			"(Magic) Unlock the ~|Sunshine|~ ability": {
+				"Category": ["Unlock Abilities"],
+				"Label": "Unlockable Abilities",
+				"Skills": {
+					"Magic": 85
+				},
+				"Tasks": {
+					"~|The World Wakes|~ Complete the quest": "Quest"
+				}
+			},
+			"(Magic) Unlock the ~|Greater Sunshine|~ ability": {
+				"Category": ["Unlock Abilities"],
+				"Label": "Unlockable Abilities",
+				"Skills": {
+					"Magic": 85
+				},
+				"Tasks": {
+					"~|The World Wakes|~ Complete the quest": "Quest"
+				},
+				"Items": ["Greater Deaths' Swiftness ability codex"]
+			},
+			"(Melee) Unlock the ~|Greater Fury|~ ability": {
+				"Category": ["Unlock Abilities"],
+				"Label": "Unlockable Abilities",
+				"Skills": {
+					"Strength": 24
+				},
+				"Items": ["Greater Fury ability codex"]
+			},
+			"(Melee) Unlock the ~|Greater Barge|~ ability": {
+				"Category": ["Unlock Abilities"],
+				"Label": "Unlockable Abilities",
+				"Skills": {
+					"Attack": 30
+				},
+				"Items": ["Greater Barge ability codex"]
+			},
+			"(Melee) Unlock the ~|Greater Flurry|~ ability": {
+				"Category": ["Unlock Abilities"],
+				"Label": "Unlockable Abilities",
+				"Skills": {
+					"Attack": 37
+				},
+				"Items": ["Greater Flurry ability codex"]
+			},
+			"(Melee) Unlock the ~|Bladed Dive|~ ability": {
+				"Category": ["Unlock Abilities"],
+				"Label": "Unlockable Abilities",
+				"Skills": {
+					"Melee": 65
+				},
+				"Items": ["Bladed Dive ability"]
+			},
+			"(Melee) Unlock the ~|Blood Tendrils|~ ability": {
+				"Category": ["Unlock Abilities"],
+				"Label": "Unlockable Abilities",
+				"Skills": {
+					"Attack": 75
+				},
+				"Items": ["Codex Ultimatus"]
+			},
+			"(Melee) Unlock the ~|Balanced Strike|~ ability": {
+				"Category": ["Unlock Abilities"],
+				"Label": "Unlockable Abilities",
+				"Skills": {
+					"Attack": 85
+				},
+				"Tasks": {
+					"~|The World Wakes|~ Complete the quest": "Quest"
+				}
+			},
+			"(Melee) Unlock the ~|Chaos Roar|~ ability": {
+				"Category": ["Unlock Abilities"],
+				"Label": "Unlockable Abilities",
+				"Skills": {
+					"Strength": 92
+				},
+				"Items": ["Chaos Roar ability codex"]
+			},
+			"(Necromancy) Unlock the ~|Invoke Lord of Bones|~ invocation": {
+				"Category": ["Unlock Abilities"],
+				"Label": "Unlockable Abilities",
+				"Skills": {
+					"Necromancy": 75
+				},
+				"Items": ["Invoke Lord of Bones incantation codex"]
+			},
+			"(Ranged) Unlock the ~|Demoralise|~ ability": {
+				"Category": ["Unlock Abilities"],
+				"Label": "Unlockable Abilities",
+				"Skills": {
+					"Ranged": 10
+				},
+				"Items": ["Scare Tactics"]
+			},
+			"(Ranged) Unlock the ~|Rout|~ ability": {
+				"Category": ["Unlock Abilities"],
+				"Label": "Unlockable Abilities",
+				"Skills": {
+					"Ranged": 15
+				},
+				"Items": ["Scare Tactics"]
+			},
+			"(Ranged) Unlock the ~|Greater Ricochet|~ ability": {
+				"Category": ["Unlock Abilities"],
+				"Label": "Unlockable Abilities",
+				"Skills": {
+					"Ranged": 45
+				},
+				"Items": ["Greater Ricochet"]
+			},
+			"(Ranged) Unlock the ~|Salt the Wound|~ and Greater Dazing Shot abilities": {
+				"Category": ["Unlock Abilities"],
+				"Label": "Unlockable Abilities",
+				"Skills": {
+					"Ranged": 60
+				},
+				"Items": ["Salt the Wound ability"]
+			},
+			"(Ranged) Unlock the ~|Corruption Shot|~ ability": {
+				"Category": ["Unlock Abilities"],
+				"Label": "Unlockable Abilities",
+				"Skills": {
+					"Ranged": 70
+				},
+				"Items": ["Mazcab ability codex"]
+			},
+			"(Ranged) Unlock the ~|Shadow Tendrils|~ ability": {
+				"Category": ["Unlock Abilities"],
+				"Label": "Unlockable Abilities",
+				"Skills": {
+					"Ranged": 75
+				},
+				"Items": ["Codex Ultimatus"]
+			},
+			"(Ranged) Unlock the ~|Death's Swiftness|~ ability": {
+				"Category": ["Unlock Abilities"],
+				"Label": "Unlockable Abilities",
+				"Skills": {
+					"Ranged": 85
+				},
+				"Tasks": {
+					"~|The World Wakes|~ Complete the quest": "Quest"
+				}
+			},
+			"(Ranged) Unlock the ~|Greater Death's Swiftness|~ ability": {
+				"Category": ["Unlock Abilities"],
+				"Label": "Unlockable Abilities",
+				"Skills": {
+					"Ranged": 85
+				},
+				"Tasks": {
+					"~|The World Wakes|~ Complete the quest": "Quest"
+				},
+				"Items": ["Greater Deaths' Swiftness ability codex"]
+			},
+			"(Sigil) Unlock the ~|Slayer's Insight|~ ability": {
+				"Category": ["Unlock Abilities", "Sigil Abilities"],
+				"Label": "Unlockable Abilities",
+				"Items": ["Slayer's Insight ability"]
+			},
+			"(Sigil) Unlock the ~|Kuradal's Favour|~ ability": {
+				"Category": ["Unlock Abilities", "Sigil Abilities"],
+				"Label": "Unlockable Abilities",
+				"Items": ["Kuradal's Favour ability"]
+			},
+			"(Sigil) Unlock the ~|Aggression|~ ability": {
+				"Category": ["Unlock Abilities", "Sigil Abilities"],
+				"Label": "Unlockable Abilities",
+				"Items": ["Aggression ability"]
+			},
+			"(Sigil) Unlock the ~|Limitless|~ ability": {
+				"Category": ["Unlock Abilities", "Sigil Abilities"],
+				"Label": "Unlockable Abilities",
+				"Items": ["Limitless ability codex"]
+			},
+			"(Sigil) Unlock the ~|Unsullied|~ ability": {
+				"Category": ["Unlock Abilities", "Sigil Abilities"],
+				"Label": "Unlockable Abilities",
+				"Items": ["Unsullied ability codex"]
+			},
+			"(Sigil) Unlock the ~|Dragon Slayer|~ ability": {
+				"Category": ["Unlock Abilities", "Sigil Abilities"],
+				"Label": "Unlockable Abilities",
+				"Items": ["Dragon Slayer ability codex"]
+			},
+			"(Sigil) Unlock the ~|Demon Slayer|~ ability": {
+				"Category": ["Unlock Abilities", "Sigil Abilities"],
+				"Label": "Unlockable Abilities",
+				"Items": ["Demon Slayer ability codex"]
+			},
+			"(Sigil) Unlock the ~|Undead Slayer|~ ability": {
+				"Category": ["Unlock Abilities", "Sigil Abilities"],
+				"Label": "Unlockable Abilities",
+				"Items": ["Undead Slayer ability codex"]
+			},
+			"(Sigil) Unlock the ~|Golden Touch|~ ability": {
+				"Category": ["Unlock Abilities", "Sigil Abilities"],
+				"Label": "Unlockable Abilities",
+				"Skills": {
+					"Magic": 55
+				},
+				"Items": ["Golden Touch codex"]
+			},
+			"Unlock the ~|Knight Waves training ground|~ prayers": {
+				"Category": ["Unlock Prayers"],
+				"Label": "Unlockable Prayers",
+				"Tasks": {
+					"~|King's Ransom|~ Complete the quest": "Quest"
+				}
+			},
+			"Unlock the ~|Sanctity|~ prayer": {
+				"Category": ["Unlock Prayers"],
+				"Label": "Unlockable Prayers",
+				"Skills": {
+					"Necromancy": 60
+				},
+				"Tasks": {
+					"~|King's Ransom|~ Complete the quest": "Quest"
+				}
+			},
+			"Unlock the ~|Eclipsed Soul|~ prayer": {
+				"Category": ["Unlock Prayers"],
+				"Label": "Unlockable Prayers",
+				"Skills": {
+					"Necromancy": 75,
+					"Strength": 75,
+					"Ranged": 75,
+					"Magic": 75,
+					"Prayer": 75
+				},
+				"Items": ["Eclipsed Soul prayer codex"]
+			},
+			"Unlock the ~|Divine Rage|~ prayer": {
+				"Category": ["Unlock Prayers"],
+				"Label": "Unlockable Prayers",
+				"Skills": {
+					"Necromancy": 85,
+					"Strength": 85,
+					"Ranged": 85,
+					"Magic": 85,
+					"Prayer": 85
+				},
+				"Items": ["Divine Rage prayer codex"]
+			},
+			"Unlock the ~|Leech Necromancy Attack|~ curse": {
+				"Category": ["Unlock Prayers"],
+				"Label": "Unlockable Curses",
+				"Skills": {
+					"Necromancy": 70
+				},
+				"Tasks": {
+					"~|The Temple at Senntisten|~ Complete the quest": "Quest"
+				}
+			},
+			"Unlock the ~|Leech Necromancy Strength|~ curse": {
+				"Category": ["Unlock Prayers"],
+				"Label": "Unlockable Curses",
+				"Skills": {
+					"Necromancy": 70
+				},
+				"Tasks": {
+					"~|The Temple at Senntisten|~ Complete the quest": "Quest"
+				}
+			},
+			"Unlock the ~|Sorrow|~ curse": {
+				"Category": ["Unlock Prayers"],
+				"Label": "Unlockable Curses",
+				"Skills": {
+					"Necromancy": 90
+				},
+				"Tasks": {
+					"~|The Temple at Senntisten|~ Complete the quest": "Quest"
+				}
+			},
+			"Unlock the ~|Ruination|~ curse": {
+				"Category": ["Unlock Prayers"],
+				"Label": "Unlockable Curses",
+				"Skills": {
+					"Necromancy": 95
+				},
+				"Tasks": {
+					"~|The Temple at Senntisten|~ Complete the quest": "Quest"
+				},
+				"Items": ["Praesul codex"]
+			},
+			"Unlock the ~|Malevolence|~ curse": {
+				"Category": ["Unlock Prayers"],
+				"Label": "Unlockable Curses",
+				"Tasks": {
+					"~|The Temple at Senntisten|~ Complete the quest": "Quest"
+				},
+				"Items": ["Praesul codex"]
+			},
+			"Unlock the ~|Desolation|~ curse": {
+				"Category": ["Unlock Prayers"],
+				"Label": "Unlockable Curses",
+				"Tasks": {
+					"~|The Temple at Senntisten|~ Complete the quest": "Quest"
+				},
+				"Items": ["Praesul codex"]
+			},
+			"Unlock the ~|Affliction|~ curse": {
+				"Category": ["Unlock Prayers"],
+				"Label": "Unlockable Curses",
+				"Tasks": {
+					"~|The Temple at Senntisten|~ Complete the quest": "Quest"
+				},
+				"Items": ["Praesul codex"]
 			},
 			"(Asgarnia & Misthalin) Obtain a ~|goblin mail|~": {
 				"Category": ["Collection Log", "Slayer Collection Log"],
@@ -117340,7 +117971,7 @@
 			"Tomb of Catolax": {
 				"UnlocksArea": true,
 				"Tasks": {
-					"~|Smoking Kils|~ 1": "Quest"
+					"~|Smoking Kills|~ 1": "Quest"
 				},
 				"Chunks": ["13611"]
 			},
@@ -117930,22 +118561,22 @@
 			},
 			"Fill a bowl of water*": {
 				"Items": ["Bowl"],
-				"Objects": ["WaterObject[+]"],
+				"Objects": ["WaterSource[+]"],
 				"Output": "Bowl of water"
 			},
 			"Fill a bucket of water*": {
 				"Items": ["Empty bucket"],
-				"Objects": ["WaterObject[+]"],
+				"Objects": ["WaterSource[+]"],
 				"Output": "Bucket of water"
 			},
 			"Fill a jug of water*": {
 				"Items": ["Jug"],
-				"Objects": ["WaterObject[+]"],
+				"Objects": ["WaterSource[+]"],
 				"Output": "Jug of water"
 			},
 			"Fill a vial of water*": {
 				"Items": ["Vial"],
-				"Objects": ["WaterObject[+]"],
+				"Objects": ["WaterSource[+]"],
 				"Output": "Vial of water"
 			},
 			"Fill a bucket of milk*": {
@@ -118345,7 +118976,7 @@
 			},
 			"Fill a watering can from a water source*": {
 				"Items": ["Watering can"],
-				"Objects": ["WaterObject[+]"],
+				"Objects": ["WaterSource[+]"],
 				"Output": "Watering can (8)"
 			},
 			"Fill a plant pot*": {
@@ -118380,7 +119011,7 @@
 			},
 			"Fill a juju vial of water*": {
 				"Items": ["Juju vial"],
-				"Objects": ["WaterObject[+]"],
+				"Objects": ["WaterSource[+]"],
 				"Output": "Juju vial of water"
 			},
 			"Create the Hand of Glory (Ring of Luck)*": {
@@ -120508,22 +121139,22 @@
 				"Not F2P": true
 			},
 			"Goblin Raid (farm) rewards*": {
-				"Category": ["DnD Flash Events"],
+				"Category": ["DnD Flash Events", "DnD"],
 				"Chunks": ["FarmRaids[+]"],
 				"Output": "Goblin Raid rewards (farm)"
 			},
 			"Goblin Raid (mine) rewards*": {
-				"Category": ["DnD Flash Events"],
+				"Category": ["DnD Flash Events", "DnD"],
 				"Chunks": ["MineRaids[+]"],
 				"Output": "Goblin Raid rewards (mine)"
 			},
 			"Goblin Raid (forest) rewards*": {
-				"Category": ["DnD Flash Events"],
+				"Category": ["DnD Flash Events", "DnD"],
 				"Chunks": ["ForestRaids[+]"],
 				"Output": "Goblin Raid rewards (forest)"
 			},
 			"Flash Events enabled": {
-				"Category": ["DnD Flash Events"]
+				"Category": ["DnD Flash Events", "DnD"]
 			},
 			"Memory of Nomad rewards*": {
 				"Category": ["DnD"],
@@ -120559,19 +121190,19 @@
 				"Not F2P": true
 			},
 			"Wilderness Flash Events rewards (common)*": {
-				"Category": ["DnD Flash Events"],
+				"Category": ["DnD Flash Events", "DnD"],
 				"Chunks": ["WildernessFlashEvents[+]"],
 				"Output": "Wilderness Flash Events rewards (common)",
 				"Not F2P": true
 			},
 			"Wilderness Flash Events rewards (special)*": {
-				"Category": ["DnD Flash Events"],
+				"Category": ["DnD Flash Events", "DnD"],
 				"Chunks": ["WildernessFlashEventsSpecial[+]"],
 				"Output": "Wilderness Flash Events rewards (special)",
 				"Not F2P": true
 			},
 			"Wilderness Flash Events rewards (wyrm)*": {
-				"Category": ["DnD Flash Events"],
+				"Category": ["DnD Flash Events", "DnD"],
 				"Chunks": ["12603"],
 				"Output": "Wilderness Flash Events rewards (wyrm)",
 				"Not F2P": true
@@ -123703,7 +124334,8 @@
 				"9541": true
 			},
 			"Quest": {
-				"Twilight of the Gods": "step"
+				"Twilight of the Gods": "step",
+				"A New Age": "step"
 			},
 			"Nickname": "Central Lost Grove"
 		},
@@ -136065,7 +136697,8 @@
 				"Hobgoblin": 10,
 				"Ram": 2,
 				"Highwayman": 1,
-				"Hollowtoof": 1
+				"Hollowtoof": 1,
+				"Goblin Raider": 1
 			},
 			"NPC": {
 				"Tanner": 1,
@@ -136207,7 +136840,8 @@
 			},
 			"Monster": {
 				"Farmer": 1,
-				"Hollowtoof": 1
+				"Hollowtoof": 1,
+				"Goblin Raider": 1
 			},
 			"Spawn": {
 				"Empty pot": 2,
@@ -137275,7 +137909,8 @@
 				"Goblin": 12,
 				"Hengel": 1,
 				"Anja": 1,
-				"Hollowtoof": 1
+				"Hollowtoof": 1,
+				"Goblin Raider": 1
 			},
 			"Connect": {
 				"4448": true,
@@ -138266,7 +138901,8 @@
 				"Cow calf": 3,
 				"Chicken": 9,
 				"Highwayman": 1,
-				"Hollowtoof": 1
+				"Hollowtoof": 1,
+				"Goblin Raider": 1
 			},
 			"NPC": {
 				"Dog": 1,
@@ -139417,7 +140053,8 @@
 			"Monster": {
 				"Rat": 1,
 				"Goblin": 1,
-				"Hollowtoof": 1
+				"Hollowtoof": 1,
+				"Goblin Raider": 1
 			},
 			"NPC": {
 				"Morgan": 1,
@@ -139596,6 +140233,7 @@
 		"12342": {
 			"Object": {
 				"Dead tree": 6,
+				"Elder tree": 1,
 				"Lever": 1,
 				"Stove": 2,
 				"Fairy ring": 1,
@@ -140338,9 +140976,6 @@
 				"Shattered Worlds portal": 1,
 				"Shattered Worlds challenger portal": 1
 			},
-			"Quest": {
-				"Ode of the Devourer": "step"
-			},
 			"Nickname": "Shattered Worlds Portals"
 		},
 		"12593": {
@@ -140356,7 +140991,8 @@
 			"Monster": {
 				"Giant spider": 6,
 				"Spider": 6,
-				"Giant rat": 2
+				"Giant rat": 2,
+				"Swamp frog": 10
 			},
 			"NPC": {
 				"Archer": 1,
@@ -140491,7 +141127,8 @@
 				"Thief": 3,
 				"Cow": 8,
 				"Cow calf": 4,
-				"Hollowtoof": 1
+				"Hollowtoof": 1,
+				"Goblin Raider": 1
 			},
 			"NPC": {
 				"Undead tree": 4,
@@ -140576,7 +141213,8 @@
 				"Imp": 1,
 				"Guard (Varrock)": 6,
 				"Man": 1,
-				"Hollowtoof": 1
+				"Hollowtoof": 1,
+				"Goblin Raider": 1
 			},
 			"Spawn": {
 				"Bowl": 1,
@@ -141300,7 +141938,8 @@
 			},
 			"Monster": {
 				"Giant rat": 8,
-				"Hollowtoof": 1
+				"Hollowtoof": 1,
+				"Goblin Raider": 1
 			},
 			"Connect": {
 				"9797": true,
@@ -141498,7 +142137,8 @@
 				"Goblin": 2,
 				"Cow": 10,
 				"Cow calf": 4,
-				"Hollowtoof": 1
+				"Hollowtoof": 1,
+				"Goblin Raider": 1
 			},
 			"NPC": {
 				"Seth Groats": 1,
@@ -141601,7 +142241,8 @@
 				"Thief": 1,
 				"Dark wizard": 11,
 				"Man": 1,
-				"Hollowtoof": 1
+				"Hollowtoof": 1,
+				"Goblin Raider": 1
 			},
 			"Connect": {
 				"10307": true,
@@ -144688,7 +145329,10 @@
 				"Vengeance (abridged saga)": "step",
 				"Vengeance (unabridged saga)": "step",
 				"Mahjarrat Memories (miniquest)": "step",
-				"Plague's End": "step"
+				"Plague's End": "step",
+				"A New Home": "first",
+				"A New Form": "first",
+				"A New Age": "first"
 			},
 			"Nickname": "Daemonheim Fremennik Camp"
 		},
@@ -157233,7 +157877,8 @@
 				"Tobias Bronzearms": 1
 			},
 			"Monster": {
-				"Hollowtoof": 1
+				"Hollowtoof": 1,
+				"Goblin Raider": 1
 			},
 			"Connect": {
 				"11318": true
@@ -163665,13 +164310,16 @@
 			}
 		},
 		"Daemonheim - Depths excavation site": {
-			"Objects": {
+			"Object": {
 				"Projection space": 3,
 				"Security booth": 3,
 				"Traveller's station": 3
 			},
 			"Spawn": {
 				"Aged journal": 1
+			},
+			"Quest": {
+				"A New Age": "step"
 			},
 			"Connect": {
 				"13882": true
@@ -164791,6 +165439,7 @@
 				"Cooking potion (3)",
 				"Cooking potion (4)"
 			],
+			"CopperOrTin[+]": ["Copper rock", "Tin rock"],
 			"CorruptDragonArmour[+]": [
 				"Corrupt dragon chainbody",
 				"Corrupt dragon helm",
@@ -167937,6 +168586,7 @@
 			"CookedMeat[+]": "Any meat that can be used in chili con carne",
 			"CookingGuildEntryItem[+]": "Any item that gives access to the Cooking guild",
 			"CookingPotion[+]": "Any cooking potion",
+			"CopperOrTin[+]": "A Copper or Tin rock",
 			"CorruptDragonArmour[+]": "Any piece of corrupt draogn armour",
 			"CorruptDragonWeapon[+]": "Any corrupt dragon melee weapon",
 			"CorruptMeleeWeapon[+]": "Any corrupt ancient warrior melee weapon",
@@ -168624,7 +169274,7 @@
 			"Tier3Grove[+]": ["Elder tree"],
 			"Tier1Workshop[+]": ["Furnace", "Anvil", "Forge"],
 			"Tree[+]": ["Tree", "Burnt tree", "Dead tree (Timbo)", "Dead tree covered in snow", "Dead tree", "Dying tree", "Evergreen", "Jungle Bush", "Jungle tree", "Swamp tree", "Palm tree (choppable)"],
-			"WaterObject[+]": ["Sink", "Fountain", "Waterpump", "Water barrel", "Well", "Large Geyser", "Water trough", "Water pump"]
+			"WaterSource[+]": ["Sink", "Fountain", "Waterpump", "Water barrel", "Well", "Large Geyser", "Water trough", "Water pump"]
 		},
 		"objectsPlusNames": {
 			"Anvil[+]": "Any anvil you can forge on",
@@ -168646,7 +169296,7 @@
 			"Tier3Grove[+]": "New trees accessible after building the tier 3 grove",
 			"Tier1Workshop[+]": "All objects created when building the tier 1 workshop at Fort Forinthry",
 			"Tree[+]": "Any level 1 woodcuttable tree",
-			"WaterObject[+]": "Any object that can fill an item with water"
+			"WaterSource[+]": "Any object that can fill an item with water"
 		},
 		"monstersPlus": {
 			"AnyBoss[+]": ["The Ambassador", "Araxxor", "Arch-Glacor", "Barrows", "Barrows - Rise of the Six", "Black stone dragon", "Chaos Elemental", "Commander Zilyana", "Croesus", "Dagannoth Kings", "The Gate of Elidinis", "General Graardor", "Giant Mole", "Gregorovic", "Har-Aken", "Helwyr", "Hermod, the Spirit of War", "Kalphite Queen", "Kalphite King", "Kerapac, the bound", "King Black Dragon", "Kree'arra", "K'ril Tsutsaroth", "Legiones", "The Magister", "Nex", "Nex: Angel of Death", "Queen Black Dragon", "Raksha, the Shadow Colossus", "Rasial, the First Necromancer", "Rex Matriarchs", "Seiryu the Azure Serpent", "Solak", "Telos, the Warden (dormant)", "Twin Furies", "TzKal-Zuk", "TzTok-Jad", "Vindicta", "Gorvek", "Vorago", "Zamorak, Lord of Chaos", "Osseous", "Vermyx, Brood Mother", "Kezalam, the Wanderer", "Nakatra, Devourer Eternal"],
@@ -169611,6 +170261,7 @@
 				"Cave goblin guard": true,
 				"Goblin guard": true,
 				"Hollowtoof": true,
+				"Goblin Raider": true,
 				"Goblin (God Wars Dungeon)": true,
 				"Sergeant Grimspike": true,
 				"Sergeant Steelwill": true,
@@ -186668,12 +187319,6 @@
 			"Fire battlestaff": {
 				"1": "1/128"
 			},
-			"Batwing wand": {
-				"1": "1/256"
-			},
-			"Batwing book": {
-				"1": "1/256"
-			},
 			"Rune arrow": {
 				"12": "5/128"
 			},
@@ -191420,27 +192065,6 @@
 			},
 			"Grimy dwarf weed": {
 				"1": "Rare"
-			},
-			"Logs": {
-				"1": "Common"
-			},
-			"Oak logs": {
-				"1": "Common"
-			},
-			"Willow logs": {
-				"1": "Uncommon"
-			},
-			"Yew logs": {
-				"1": "Uncommon"
-			},
-			"Marigold seed": {
-				"1": "Common"
-			},
-			"Potato seed": {
-				"2": "Common"
-			},
-			"Barley seed": {
-				"1": "Common"
 			},
 			"Goblin Champion's scroll": {
 				"1": "1/5000"
@@ -225282,21 +225906,15 @@
 		"Azzanadra's Quest": "11575, Kharid-et - Barracks excavation site, 9268, 11828, Paterdomus, Hall of Memories, 11313, TzHaar City, 12337, 13356, The Heart",
 		"Back to my Roots": "10547, 11058, 11566",
 		"Back to the Freezer": "10290, 10553, 13101, 10558, 10559, Killerwatt Plane",
-		"Bar Crawl (miniquest)": "10039, 12853, 9782, 11057, 10032, 10291, 10806, 13110, 11569, 11828",
-		"Barbarian Training": "10038, Ancient Cavern",
 		"Battle of the Monolith": "13365, 13364",
 		"Battle of Forinthry": "13111, Prison (Fort Forinthry)",
 		"Beneath Cursed Tides": "12337, 12342, 11824, Sunken tutorial island",
-		"Benedict's World Tour (miniquest)": "12852, 12854, 13105, 13362, 11318, 9782, 9776, The Runespan, Polypore Dungeon, 11824, 10805, 12850, 12849, Mazcab, 11828, 13622, 9770",
 		"Between a Rock...": "Keldagrim, 12085, Dwarven Mine, Dwarven Tunnel, Arzinian gold mine",
 		"Big Chompy Bird Hunting": "10542, Rantz's cave",
 		"Biohazard": "10292, 10291, 10035, 10036, 11570, 13108",
 		"Birthright of the Dwarves": "Keldagrim, Taverley Dungeon, 10288, Barendir",
 		"The Blood Pact": "12849, Lumbridge Catacombs",
 		"Blood Runs Deep": "Baba Yaga's House, 10553, 10297, 10042, Waterbirth Dungeon",
-		"Boric's Task I (miniquest)": "Doric's cave, 10294",
-		"Boric's Task II (miniquest)": "Doric's cave, 10804, 13107, 10802, 12593, 13100",
-		"Boric's Task III (miniquest)": "Doric's cave, Dwarven Mine",
 		"The Branches of Darkmeyer": "Burgh de Rott Myreque Hideout, Cave (Burgh de Rott), Meiyerditch Myreque base, 14386, 14388, 14644, 14387",
 		"Bringing Home the Bacon": "12083, Falador Farm storm cellar, 12338, 12082, 12850, 12853, 11828, 10547",
 		"The Brink of Extinction": "TzHaar City, Fight Kiln, Fight Cauldron",
@@ -225310,9 +225928,6 @@
 		"Children of Mah": "10812, 11580, 13365, 11580, Empty Throne Room, 9268",
 		"The Chosen Commander": "Dorgesh-Kaan, Dorgesh-Kaan Agility Course, H.A.M. Cave, 10548, Sigmund's base, Tears of Guthix cavern, Dorgesh-Kaan mine, Bandos's throne room",
 		"City of Senntisten": "13356, 13364, 11827, 11575, 11828, Senntisten",
-		"Civil War I (miniquest)": "11828, 12599, WildernessDemonChunks[+]",
-		"Civil War II (miniquest)": "12599, 12342, WildernessFlashEvents[+]",
-		"Civil War III (miniquest)": "12599, 13107, 11828",
 		"Clock Tower": "10290, Clock Tower Dungeon",
 		"A Clockwork Syringe": "Player-owned house, 14902, 14638, Braindeath Island, Bloodsplatter Isle, 14638",
 		"Cold War": "10291, 10810, 10558, Player-owned house, LarryChunks[+], 12595, 12851, Penguin outpost",
@@ -225322,8 +225937,6 @@
 		"Crocodile Tears": "13099, Uzer Mastaba, 13871, 13354, 12591, Water Ravine Dungeon, 12329, Crondis Tomb, 13356",
 		"The Curse of Arrav": "13613, Lamistard's Tunnels, 11324, Uzer Mastaba, 12854, Chaos Temple Dungeon",
 		"Curse of the Black Stone": "13625, The Arc, Temple of Aminishi, Mr Mordaut's Office, 13881, Adamant dragon dungeon, Dragonkin Laboratory, 12337, 12086, 13617, 12087, 13356, Taverley Dungeon, 12087, The Shadow Reef",
-		"The Curse of Zaros (miniquest)": "10037, CurseOfZaros1[+], CurseOfZaros2[+], CurseOfZaros3[+], CurseOfZaros4[+], CurseOfZaros5[+]",
-		"Damage Control (miniquest)": "The Arc",
 		"The Darkness of Hallowvale": "Burgh de Rott Myreque Hideout, 14129, 14385, 14386, Meiyerditch Myreque base, Paterdomus, 13622, 12854, 14387, 14388, 14132, Meiyerditch Laboratories",
 		"Daughter of Chaos": "11828, 12599",
 		"Dead and Buried": "13111, Old Crypt, 12854",
@@ -225334,7 +225947,6 @@
 		"Death to the Dorgeshuun": "Dorgesh-Kaan mine, Lumbridge Cellar, 12850, H.A.M. Cave, H.A.M. store rooms, Tears of Guthix cavern, 112851, Watermill cellar",
 		"Defender of Varrock": "12854, 13109, 12853, Chaos Temple Dungeon, 11825, Camdozaal",
 		"Demon Slayer": "12854, 12852",
-		"Desert Slayer Dungeon (miniquest)": "Pollnivneach Slayer Dungeon",
 		"Desert Treasure": "12591, 13364, 12590, 12846, 13878, Draynor sewers, 11316, 14133, 12845, 11322, 11323, 13102, Smoke Dungeon, 10037, Shadow Dungeon, Jaldraocht Pyramid",
 		"Desperate Creatures": "11575, 15426, 15171, 15172, 15940, 15939, 15683, 16449, 16193, 16451, 16708, 16964, 16195",
 		"Desperate Measures": "11575, 15939, 15684, 14916, 16709, 8761, 13356, 15683, 15941, 15172, 15428",
@@ -225350,14 +225962,6 @@
 		"Dimension of Disaster: Curse of Arrav": "New Varrock",
 		"Dishonour among Thieves": "Empyrean Citadel, Zamorak's hideout, 11324, Lamistard's Tunnels, Southern Ardougne sewer, 10547, Death's Office, Ruins of Uzer, Taverley Dungeon, 14131",
 		"Do No Evil": "Uzer Mastaba, 13099, 11051, 13613, 12846, 13106, 12340, 12847, 13871, Pollnivneach Slayer Dungeon, Kalphite Hive, Thammaron's Throne Room",
-		"Doric's Task I (miniquest)": "11829, 12084",
-		"Doric's Task II (miniquest)": "11829, 11575",
-		"Doric's Task III (miniquest)": "11829, 11830",
-		"Doric's Task IV (miniquest)": "11829, 12084",
-		"Doric's Task V (miniquest)": "11829, 10034",
-		"Doric's Task VI (miniquest)": "11829, 10553",
-		"Doric's Task VII (miniquest)": "11829, Keldagrim",
-		"Doric's Task VIII (miniquest)": "11829, 11828",
 		"Dragon Slayer": "12596, 12086, 12850, Dwarven Mine, 11570, Melzar's Maze Basement, 12081, 12082, 12338, 11314, 11315, Elvarg's Lair",
 		"Dream Mentor": "Lunar Isle Mine, 8253, 8508",
 		"Druidic Ritual": "11574, 11573, Burthorpe Slayer Cave, 11572",
@@ -225372,11 +225976,9 @@
 		"Enakhra's Lament": "12589, Enakhra's Temple",
 		"Enchanted Key": "10808, 10290, 12081, 9524, 9781, 12085, 11827, 12593, 13106, 13364, 12859, 9526, 13104, 10801, 12599, 11311, 10029, 13355, 12090, 13369, 11576, 12861",
 		"Enlightened Journey": "11060, 11573",
-		"Enter the Abyss (miniquest)": "12343, 12852, EnterTheAbyss3[+]x3",
 		"Ernest the Chicken": "12340",
 		"Evil Dave's Big Day Out": "12342, 12598, 11571, 11828, 13104, 13103",
 		"Extinction": "13365, Senntisten, 15683, 9268",
-		"Eye for an Eye (miniquest)": "The Arc",
 		"Eye of Het I": "13106, 13362",
 		"Eye of Het II": "13106, 13363, Senntisten",
 		"The Eyes of Glouphrie": "Brimstail's cave, 10544, 9782, 9527, 9781",
@@ -225385,72 +225987,52 @@
 		"A Fairy Tale III - Battle at Ork's Rift": "Sparse Plane, Fairy Resistance Hideout, 14893, Enchanted Valley, 10794, Shredflesh's Cave, Ork's Rift, 12338",
 		"Family Crest": "13109, 11317, 13107, Dwarven Mine, Witchaven Dungeon, 13110, Edgeville Dungeon",
 		"Fate of the Gods": "9268",
-		"Father and Son (miniquest)": "15683, 10553",
 		"The Feud": "13106, 13358",
 		"Fight Arena": "10289",
-		"Final Destination (miniquest)": "The Arc",
 		"The Firemaker's Curse": "9268",
 		"Fishing Contest": "DwarfTunnelEntrance[+], 10549",
-		"Flag Fall (miniquest)": "The Arc",
 		"Forgettable Tale of a Drunken Dwarf": "Keldagrim, Dwarven Tunnel",
 		"Forgiveness of a Chaos Dwarf": "Keldagrim, 12598",
 		"The Fremennik Isles": "10553, 9531, 9275, 9276, Ice Troll Caves",
 		"The Fremennik Trials": "10553, 10806, 10552, 10808, 11064, 11064",
-		"From Tiny Acorns (miniquest)": "Thieves' Guild Start, 12853",
 		"Fur 'n Seek": "13366",
-		"Fur 'n Seek#Wish List": "13366",
 		"Garden of Tranquility": "12854, 12338, 14391, 10548, 12083, 11062, 11830, 12086, 12342, 11573, 11574, 12850, 11828",
-		"The General's Shadow (miniquest)": "10808, 10806, 11311, 9780, 12340, 13104, Goblin Cave",
 		"Gertrude's Cat": "12597, 12853",
 		"Ghosts Ahoy": "14646, 13879, 14391, 15159, Ectofuntus, 14647",
-		"Ghosts from the Past (miniquest)": "The Arc",
 		"The Giant Dwarf": "Keldagrim, 11825, 12854",
 		"Glorious Memories": "10553, GloriousMemories2[+], 10044, 9275, 10811, Rellekka Hunter area dungeon, 9531, 11065",
 		"Goblin Diplomacy": "11830",
-		"God Emissaries Combat": "10032, 13106",
-		"God Emissaries Skilling": "10547, 11826, 12338, 12853",
-		"God Emissaries Exploration": "11830, 12085, 12341, 12593, 13106, 13110",
 		"The Golem": "13872, Ruins of Uzer, 13365, 13364, 12853, Thammaron's Throne Room",
 		"Gower Quest": "12852, Dwarven Mine",
 		"The Grand Tree": "9782, 10544, 11823, 9526, Grand Tree Mine",
 		"The Great Brain Robbery": "14638, 15148, 12086, 14135, 13878",
 		"Grim Tales": "11572, 11318, 11830, Mouse Hole, Witch's House Underground",
-		"A Guild of Our Own (miniquest)": "Thieves' Guild after Caper 2, 10547, 12851",
 		"Gunnar's Ground": "12341, 12342",
 		"The Hand in the Sand": "10032, 10288, 11057, 11316",
-		"Harbinger (miniquest)": "The Arc",
 		"Haunted Mine": "13618, Haunted mine",
 		"Hazeel Cult": "10291, 10290, Southern Ardougne sewer",
-		"Head of the Family (miniquest)": "The Arc",
 		"Heart of Stone": "12337, 11316, 11313, 11318, 13355, 12849",
 		"Heartstealer": "12342, 12853",
-		"Helping Laniakea (miniquest)": "15939, 15425, 15935, 16703, 15683, 16708, 16453, 15173",
 		"Hero's Welcome": "10553, V's Island (interior), 8763, Ancient Cavern, Dragonkin Lair, Grotworm Lair 3, Tarshak's sanctum",
 		"Heroes' Quest": "11574, Ice Queen's lair, 11316, 12082, 12596, 11057, Phoenix Gang Hideout",
 		"Holy Grail": "11062, 11316, 10294, 12340, 10802, Fisher Realm, 11830",
-		"Hopespear's Will (miniquest)": "Goblin Temple, Yu'biusk",
 		"Horror from the Deep": "10040, 10039, 10296, Lighthouse Dungeon",
 		"Housing of Parliament": "City of Um, Pet shop[+]",
 		"Hunt for Red Raktuber": "10291, 10803, Penguin outpost, 10558, 11304",
-		"The Hunt for Surok (miniquest)": "13110, Tunnel of Chaos",
 		"Icthlarin's Little Helper": "13100, 13099, Little Helper Pyramid, 13098",
 		"Imp Catcher": "12337, 12593, 13106, 13110, 12341",
 		"Impressing the Locals": "12081, 12082, 11826, 12339",
 		"In Aid of the Myreque": "Hallows Myreque Hideout, 13874, 14130, 13622, Paterdomus",
-		"In Memory of the Myreque (miniquest)": "13879",
 		"In Pyre Need": "9016, Phoenix's Lair",
 		"In Search of the Myreque": "13878, 14131, 13876, 13877, Hallows Myreque Hideout",
 		"The Jack of Spades": "13105, 12844, 12587, 12585, 12586, Shifting Tombs",
 		"Jungle Potion": "11056, 11055, 11312, 11311, Pothole Dungeon",
-		"Jed Hunter (miniquest)": "The Arc",
 		"Kennith's Concerns": "10803, Witchaven Dungeon, 10804, Slug Citadel",
 		"Kili Row": "City of Um",
 		"Kindred Spirits": "11574, 12338, 13881, 14131",
 		"King of the Dwarves": "Keldagrim, Lava Flow Mine, Barendir, Pretty Flower's Cave",
 		"King's Ransom": "10807, 10806, 11062, 11061, 10547, 12086",
 		"The Knight's Sword": "11828, 12854, 11825, Asgarnian Ice Dungeon,",
-		"Koschei's Troubles (miniquest)": "10553, 10552",
-		"Lair of Tarn Razorlor (miniquest)": "Lair of Tarn Razorlor (dungeon)",
 		"Land of the Goblins": "Dorgesh-Kaan mine, Dorgesh-Kaan, Goblin Cave, 11571, Goblin Temple, 12338, 10549, Dorgesh-Kaan Agility Course",
 		"Legacy of Seergaze": "13622, Paterdomus, Columbarium, 13874, Burgh de Rott Myreque Hideout, Meiyerditch Myreque base, 14387, Meiyerditch Laboratories, 14386",
 		"Legends' Quest": "10804, 11053, 11309, 11565, Viyeldi caves",
@@ -225458,20 +226040,15 @@
 		"The Light Within": "8756, Guthixian ruins, 8752, 9265, 8757, 8755, Waterfall cave, Tarddiad, 9268",
 		"The Lord of Vampyrium": "14385, 14641, Meiyerditch Myreque base, 14388, Burgh de Rott Myreque Hideout, Paterdomus, 12854",
 		"Lost City": "12593, Entrana Dungeon, 12849",
-		"Lost Her Marbles (miniquest)": "Thieves' Guild after Caper 1, 12851",
-		"The Lost Toys (miniquest)": "13878, 13622, 14390, Araxyte lair, Paterdomus, 13877, Burgh de Rott Myreque Hideout, Meiyerditch Laboratories, Meiyerditch Mine, 14132, Cave (Burgh de Rott), 14385",
 		"The Lost Tribe": "12850, Lumbridge Cellar, 12854, 11830, Dorgesh-Kaan mine, H.A.M. Cave",
 		"Love Story": "12595, 12338, 11826",
 		"Lunar Diplomacy": "10297, 10553, 8763, 8508, 8252, 8508, 8253, Air Rune Temple, Fire Rune Temple, Water Rune Temple, Earth Rune Temple, Lunar Isle Mine",
-		"Mahjarrat Memories (miniquest)": "10553, VibrantOrBetterWisps[+], Enakhra's Temple, Jaldraocht Pyramid, 13626, Southern Ardougne sewer, Erjolf's cave, Lamistard's Tunnels, 12342, Senntisten Temple, 11580, 11581, Empyrean Citadel, 13613, Chaos Temple Dungeon",
 		"Making History": "9780, 10547, 9777, 14646, 10553, 10291",
 		"Meeting History": "9780, The Past",
 		"Merlin's Crystal": "11062, 10806, 11061, 11573, 12082, 12852",
 		"The Mighty Fall": "Dorgesh-Kaan, 12593, Lumbridge Swamp caves, 11830, Yu'biusk",
 		"Missing My Mummy": "12338, Uzer Mastaba, 13106, 12854, 13107",
-		"Restoring Senliten": "12338, Uzer Mastaba, 13106, 12854, 13107",
 		"Missing, Presumed Death": "13366, 13622, 12337, Empyrean Citadel",
-		"Mogre (lore activity)": "11825",
 		"Monk's Friend": "10290, Clock Tower Dungeon",
 		"Monkey Madness": "9782, 11823, Gnome glider hangar, 11562, 11050, 10794, 11051, 11051, Ape Atoll Dungeon, Temple of Marimbo Dungeon, 10795, 10291",
 		"Mountain Daughter": "11065, 10809, 10553, 11318, Mountain camp cave",
@@ -225481,8 +226058,6 @@
 		"Murder on the Border": "13111",
 		"My Arm's Big Adventure": "Troll Stronghold, 11320, 11321, 13358, 11058, 11056, 11312, 10547",
 		"Myths of the White Lands": "12850, 12337, Land of Snow (Yeti cave)",
-		"Nadir (abridged saga)": "13626, 13882, 13625",
-		"Nadir (unabridged saga)": "13626, 13882, 13625",
 		"Nature Spirit": "13620, Paterdomus, MortMyre[+], Nature grotto",
 		"Necromancy!": "12339, City of Um",
 		"The Needle Skips": "8761",
@@ -225490,7 +226065,7 @@
 		"Nomad's Elegy": "8748, Nomad's temple, Death's Office",
 		"Nomad's Requiem": "8748, Nomad's Temple",
 		"Observatory Quest": "9777, Observatory",
-		"Ode of the Devourer": "13111, 13105, Prison (Fort Forinthry), 12592, 12848, 13106, City of Um",
+		"Ode of the Devourer": "13111, 13105, Prison (Fort Forinthry), 12848, 13106, City of Um",
 		"Olaf's Quest": "10810, 10553, Brine Rat Cavern",
 		"Once Upon a Slime": "11826, 12853",
 		"Once Upon a Time in Gielinor": "12853, Death's Office",
@@ -225498,7 +226073,6 @@
 		"Once Upon a Time in Gielinor: Flashback": "12853, Death's Office, 13110",
 		"Once Upon a Time in Gielinor: Fortunes": "Death's Office, 12339, 13108",
 		"Once Upon a Time in Gielinor: Finale": "Death's Office",
-		"One Foot in the Grave (miniquest)": "10288, 11566, 11057",
 		"One Piercing Note": "13617",
 		"One Small Favour": "11310, 11054, 12082, 12338, H.A.M. Cave, 12851, 12853, 12597, 12341, Dwarven Mine, 11573, 11318, 11061, 10806, Goblin Cave, 10547, 10545, 10542, 10030",
 		"One of a Kind": "Mr Mordaut's Office, 11575, MysteriousStatueChunks[+]x2, 11060, Forinthry Dungeon, Brimhaven Dungeon, Grotworm Lair 3, Dragontooth Island resource dungeon, King Black Dragon's Lair, 13881",
@@ -225513,13 +226087,10 @@
 		"Plague's End": "9265, Plague's End Areas, 10291, 10035, 9779, 10036, 10292, Temple of Light, Underground Pass, 8753, 8496, 9009, 13626",
 		"Priest in Peril": "12854, 13622, Paterdomus",
 		"The Prisoner of Glouphrie": "Gnome Village Dungeon, 10033, 9778, Caverns under Arandar, 9521, 9265, Arposandra",
-		"Purple Cat (miniquest)": "12339, Betty's Basement",
 		"Quiet Before the Swarm": "11828, 10537, 12082, Temple Knight training ground",
 		"Rag and Bone Man": "13366",
-		"Rag and Bone Man#Wish List": "13366",
 		"Raksha, the Shadow Colossus": "16704, Orthen Oubliette",
 		"Rat Catchers": "12597, Varrock Sewers, 10291, 13109, 13108, Keldagrim, 12082, 13358",
-		"Rebuilding Edgeville (miniquest)": "12093, 12338, 12342",
 		"Recipe for Disaster: Another Cook's Quest": "12850",
 		"Recipe for Disaster: Freeing the Mountain Dwarf": "12850, 11828, Dwarven Tunnel",
 		"Recipe for Disaster: Freeing the Goblin Generals": "12850, 11830",
@@ -225552,7 +226123,6 @@
 		"Shadow of the Storm": "13105, 13872, Ruins of Uzer",
 		"A Shadow over Ashdale": "12082",
 		"Sheep Herder": "10291, 10292",
-		"Sheep Shearer (miniquest)": "12851, 12595",
 		"Shield of Arrav": "12854, 12853, Phoenix Gang Hideout, 12852, 12596",
 		"Shilo Village": "11566, 11056, 11054, 11568, Cairn Island Dungeon",
 		"Sins of the Father": "15939, 15684",
@@ -225566,7 +226136,6 @@
 		"Spirit of Summer": "12854",
 		"The Spirit of War": "City of Um, Rasial's Citadel",
 		"Spirits of the Elid": "13613, Water Ravine Dungeon, Elid Genie Cave",
-		"Spiritual Enlightenment (miniquest)": "The Arc, Player-Owned Port",
 		"Stolen Hearts": "12338, The Skullery, 12339, 13105",
 		"Succession": "11828, 13365, 12586, 13367, 12858, 12093, 12349",
 		"Summer's End": "12854, 12859, Spirit Realm Summer's Farm",
@@ -225575,42 +226144,29 @@
 		"Tai Bwo Wannai Trio": "11056, 11311, 11055, 11057, 11568, 11054",
 		"A Tail of Two Cats": "11575, 12597, 12854, 13099",
 		"The Tale of the Muspah": "10810, Erjolf's cave, 10811, 13359, Mahjarrat Ritual Site Cavern",
-		"Tales of Nomad (miniquest)": "Death's Office, 12342, 12853, 9778, Nomad's temple, Lumbridge Catacombs, 13109, 8748, 11828, 12087, 9007",
-		"Tales of the God Wars (miniquest)": "13356, 9007, The Barrows, God Wars Dungeon, Grotworm Lair 1, Grotworm Lair 2, Grotworm Lair 3",
 		"Tears of Guthix": "Tears of Guthix cavern",
 		"The Temple at Senntisten": "13613, 13364, Senntisten Temple, The Barrows, Ghorrock Fortress Dungeon, 13365",
 		"Temple of Ikov": "10291, Temple of Ikov, 12342",
 		"That Old Black Magic": "City of Um, Lumbridge Catacombs, Rasial's Citadel",
-		"Thok It To 'Em (abridged saga)": "13626, 13882, 13625",
-		"Thok It To 'Em (unabridged saga)": "13626, 13882, 13625",
-		"Thok Your Block Off (abridged saga)": "13626, 13882, 13625",
-		"Thok Your Block Off (unabridged saga)": "13626, 13882, 13625",
-		"Three's Company (abridged saga)": "13626, 13882, 13625",
-		"Three's Company (unabridged saga)": "13626, 13882, 13625",
 		"Throne of Miscellania": "10044, 10300",
 		"TokTz-Ket-Dill": "TzHaar City, 12854, TzHaar Caves",
 		"Tomes of the Warlock": "City of Um, 10288, 12337, 12586, 12853, 12854, 13361, 13364",
-		"Tortle Combat (miniquest)": "12854, 10548, Varrock Sewers, 12598",
 		"The Tourist Trap": "13104, 13103, Desert Mining Camp cave, 12591, 12847",
 		"Tower of Life": "10546, Tower of Life#Basement",
 		"Tree Gnome Village": "10033, 10034, 9779",
 		"Tribal Totem": "11057, 10547",
 		"Troll Romance": "Troll Stronghold, 11319, 11575, 11067, 11576",
 		"Troll Stronghold": "11575, 11576, Troll Stronghold",
-		"Tuai Leit's Own (miniquest)": "The Arc",
 		"Twilight of the Gods": "13365, Senntisten, 11828, 13110, Dungeon of Disorder, 13108, 9015, 11567, 7729",
 		"Underground Pass": "10291, 9779, Underground Pass",
 		"Unwelcome Guests": "13111, 13112, Old Crypt",
 		"Vampyre Slayer": "12339, 12853, 12340",
 		"The Vault of Shadows": "13361, Kharid-et - Carcerem excavation site, Kharid-et - Barracks excavation site, Kharid-et - Praetorium excavation site, VibrantOrBetterWisps[+]",
-		"Vengeance (abridged saga)": "13626, 13882, 13625",
-		"Vengeance (unabridged saga)": "13626, 13882, 13625",
 		"Vessel of the Harbinger": "City of Um, 13879, 14646, 14647",
 		"Violet is Blue": "11318, Land of Snow",
 		"Violet is Blue Too": "11318, Land of Snow",
 		"A Void Dance": "10537, 12082, 11826, 11569, 11570, 11828, 11572, 11827, 12083, 12086",
 		"The Void Stares Back": "11828, 12087, Taverley Dungeon",
-		"Wandering Ga'al (miniquest)": "Fight Cauldron",
 		"Wanted!": "11828, Taverley Dungeon, 12852, 13878, SolusLocation[+], 12596, 11062, Dorgesh-Kaan mine, Rune Essence mine",
 		"Watchtower": "10032, 10287, 10031, Skavid caves, Ogre enclave",
 		"Waterfall Quest": "10038, 10037, Gnome Village Dungeon, Glarial's Tomb, Waterfall cave",
@@ -225618,12 +226174,79 @@
 		"What's Mine is Yours": "11829, Dwarven Mine, 11826, 13108, 12596, 12084, 11828",
 		"While Guthix Sleeps": "10804, 11573, 12854, 10029, 10289, 10034, Movario's base, 10550, 10806, 11828, 12338, 12082, 11310, 10544, 11575, 13878, 11319, 12087, Black Knights' catacombs, 11579, 11835, Tears of Guthix cavern, Ancient Guthix Temple",
 		"Witch's House": "11572, Witch's House Underground",
-		"Witch's Potion (miniquest)": "11826",
 		"Within the Light": "9265, Temple of Light, Death Rune Temple",
 		"Wolf Whistle": "11573, 11318, Taverley Well Cave",
 		"The World Wakes": "10804, Guthixian ruins",
 		"You Are It": "10550, 12854, 12850, 12849, 11826, 12340",
 		"Zogre Flesh Eaters": "9775, Jiggig Dungeon, 10032, 10288",
+		"break": "",
+		"Benedict's World Tour (miniquest)": "12852, 12854, 13105, 13362, 11318, 9782, 9776, The Runespan, Polypore Dungeon, 11824, 10805, 12850, 12849, Mazcab, 11828, 13622, 9770",	
+		"Bar Crawl (miniquest)": "10039, 12853, 9782, 11057, 10032, 10291, 10806, 13110, 11569, 11828",
+		"Barbarian Training": "10038, Ancient Cavern",
+		"Boric's Task I (miniquest)": "Doric's cave, 10294",
+		"Boric's Task II (miniquest)": "Doric's cave, 10804, 13107, 10802, 12593, 13100",
+		"Boric's Task III (miniquest)": "Doric's cave, Dwarven Mine",
+		"Civil War I (miniquest)": "11828, 12599, WildernessDemonChunks[+]",
+		"Civil War II (miniquest)": "12599, 12342, WildernessFlashEvents[+]",
+		"Civil War III (miniquest)": "12599, 13107, 11828",
+		"The Curse of Zaros (miniquest)": "10037, CurseOfZaros1[+], CurseOfZaros2[+], CurseOfZaros3[+], CurseOfZaros4[+], CurseOfZaros5[+]",
+		"Damage Control (miniquest)": "The Arc",
+		"Desert Slayer Dungeon (miniquest)": "Pollnivneach Slayer Dungeon",
+		"Doric's Task I (miniquest)": "11829, 12084",
+		"Doric's Task II (miniquest)": "11829, 11575",
+		"Doric's Task III (miniquest)": "11829, 11830",
+		"Doric's Task IV (miniquest)": "11829, 12084",
+		"Doric's Task V (miniquest)": "11829, 10034",
+		"Doric's Task VI (miniquest)": "11829, 10553",
+		"Doric's Task VII (miniquest)": "11829, Keldagrim",
+		"Doric's Task VIII (miniquest)": "11829, 11828",
+		"Enter the Abyss (miniquest)": "12343, 12852, EnterTheAbyss3[+]x3",
+		"Eye for an Eye (miniquest)": "The Arc",
+		"Father and Son (miniquest)": "15683, 10553",
+		"Final Destination (miniquest)": "The Arc",
+		"Flag Fall (miniquest)": "The Arc",
+		"From Tiny Acorns (miniquest)": "Thieves' Guild Start, 12853",
+		"Fur 'n Seek#Wish List": "13366",
+		"The General's Shadow (miniquest)": "10808, 10806, 11311, 9780, 12340, 13104, Goblin Cave",
+		"Ghosts from the Past (miniquest)": "The Arc",
+		"A Guild of Our Own (miniquest)": "Thieves' Guild after Caper 2, 10547, 12851",
+		"Harbinger (miniquest)": "The Arc",
+		"Head of the Family (miniquest)": "The Arc",
+		"Helping Laniakea (miniquest)": "15939, 15425, 15935, 16703, 15683, 16708, 16453, 15173",
+		"Hopespear's Will (miniquest)": "Goblin Temple, Yu'biusk",
+		"The Hunt for Surok (miniquest)": "13110, Tunnel of Chaos",
+		"In Memory of the Myreque (miniquest)": "13879",
+		"Jed Hunter (miniquest)": "The Arc",
+		"Koschei's Troubles (miniquest)": "10553, 10552",
+		"Lair of Tarn Razorlor (miniquest)": "Lair of Tarn Razorlor (dungeon)",
+		"Lost Her Marbles (miniquest)": "Thieves' Guild after Caper 1, 12851",
+		"The Lost Toys (miniquest)": "13878, 13622, 14390, Araxyte lair, Paterdomus, 13877, Burgh de Rott Myreque Hideout, Meiyerditch Laboratories, Meiyerditch Mine, 14132, Cave (Burgh de Rott), 14385",
+		"Mahjarrat Memories (miniquest)": "10553, VibrantOrBetterWisps[+], Enakhra's Temple, Jaldraocht Pyramid, 13626, Southern Ardougne sewer, Erjolf's cave, Lamistard's Tunnels, 12342, Senntisten Temple, 11580, 11581, Empyrean Citadel, 13613, Chaos Temple Dungeon",
+		"Mogre (lore activity)": "11825",
+		"Nadir (abridged saga)": "13626, 13882, 13625",
+		"Nadir (unabridged saga)": "13626, 13882, 13625",
+		"Rebuilding Edgeville (miniquest)": "12093, 12338, 12342",
+		"Rag and Bone Man#Wish List": "13366",
+		"One Foot in the Grave (miniquest)": "10288, 11566, 11057",
+		"Purple Cat (miniquest)": "12339, Betty's Basement",
+		"Restoring Senliten": "12338, Uzer Mastaba, 13106, 12854, 13107",
+		"Sheep Shearer (miniquest)": "12851, 12595",
+		"Spiritual Enlightenment (miniquest)": "The Arc, Player-Owned Port",
+		"Tales of Nomad (miniquest)": "Death's Office, 12342, 12853, 9778, Nomad's temple, Lumbridge Catacombs, 13109, 8748, 11828, 12087, 9007",
+		"Tales of the God Wars (miniquest)": "13356, 9007, The Barrows, God Wars Dungeon, Grotworm Lair 1, Grotworm Lair 2, Grotworm Lair 3",
+		"Thok It To 'Em (abridged saga)": "13626, 13882, 13625",
+		"Thok It To 'Em (unabridged saga)": "13626, 13882, 13625",
+		"Thok Your Block Off (abridged saga)": "13626, 13882, 13625",
+		"Thok Your Block Off (unabridged saga)": "13626, 13882, 13625",
+		"Three's Company (abridged saga)": "13626, 13882, 13625",
+		"Three's Company (unabridged saga)": "13626, 13882, 13625",
+		"Tortle Combat (miniquest)": "12854, 10548, Varrock Sewers, 12598",
+		"Tuai Leit's Own (miniquest)": "The Arc",
+		"Vengeance (abridged saga)": "13626, 13882, 13625",
+		"Vengeance (unabridged saga)": "13626, 13882, 13625",
+		"Wandering Ga'al (miniquest)": "Fight Cauldron",
+		"Witch's Potion (miniquest)": "11826",
+		"break2": "",
 		"Breaking the Seal": "13361, Kharid-et - Barracks excavation site",
 		"Prison Break": "Kharid-et - Barracks excavation site",
 		"Eyes in Their Stars": "Star Lodge, Dungeon of Disorder",
@@ -225647,6 +226270,7 @@
 		"Into the Forge": "Warforge Tunnels, Warforge Crucible",
 		"Out of the Crucible": "Warforge Crucible, Warforge Tunnels",
 		"A Study in Aether": "10549",
+		"A New Home": "13625",
 		"Forge War!": "9516",
 		"Crypt o' Zoology": "15939",
 		"Teleport Node On": "15428, 16454, 16193, 16704",
@@ -225656,6 +226280,7 @@
 		"Writings on the Walls": "Kharid-et - Carcerem excavation site, Dungeon of Disorder, Underwater Cave Excavation Site, Stormguard Citadel, Thalmund's Forge, 13364",
 		"You Have Chosen...": "Warforge Crucible, 9516, Bandos's Sanctum",
 		"Death Watch": "15939",
+		"A New Age": "13625, 7729, Daemonheim - Depths excavation site",
 		"The Everlight": "11828, 14897, 15154",
 		"Hallowed Be...": "14897, Underwater Cave Excavation Site, 14898",
 		"Free Your Mind": "15939",
@@ -225666,7 +226291,12 @@
 		"Fragmented Memories": "Moksha Ritual Site, 15936",
 		"Heart of the Forge": "9516",
 		"I Am Become Death": "15939",
-		"Mysterious City": "16704, Xolo City, 13364"
+		"A New Form": "13625",
+		"Mysterious City": "16704, Xolo City, 13364",
+		"break3": "",
+		"God Emissaries Combat": "10032, 13106",
+		"God Emissaries Skilling": "10547, 11826, 12338, 12853",
+		"God Emissaries Exploration": "11830, 12085, 12341, 12593, 13106, 13110"
 	},
 	"taskUnlocks": {
 		"Items": {
@@ -226306,6 +226936,41 @@
 			"Glacor": {
 				"11836": [{
 					"Access members content": "Nonskill"
+				}]
+			},
+			"Goblin Raider": {
+				"12339": [{
+					"Flash Events enabled": "Nonskill"
+				}],
+				"12851": [{
+					"Flash Events enabled": "Nonskill"
+				}],
+				"12083": [{
+					"Flash Events enabled": "Nonskill"
+				}],
+				"11573": [{
+					"Flash Events enabled": "Nonskill"
+				}],
+				"11571": [{
+					"Flash Events enabled": "Nonskill"
+				}],
+				"12852": [{
+					"Flash Events enabled": "Nonskill"
+				}],
+				"12597": [{
+					"Flash Events enabled": "Nonskill"
+				}],
+				"Burthorpe Mine": [{
+					"Flash Events enabled": "Nonskill"
+				}],
+				"11826": [{
+					"Flash Events enabled": "Nonskill"
+				}],
+				"12849": [{
+					"Flash Events enabled": "Nonskill"
+				}],
+				"12596": [{
+					"Flash Events enabled": "Nonskill"
 				}]
 			},
 			"Greater demon ash lord": {
@@ -251565,6 +252230,7 @@
 				"Steel scimitar + 1": "Always",
 				"Steel squire shield": "Always",
 				"Steel squire shield + 1": "Always",
+				"Steel studs": "Always",
 				"Steel sword": "Always",
 				"Steel sword + 1": "Always",
 				"Steel throwing axe": "Always",
