@@ -749,7 +749,7 @@ let ruleStructure = {
         "HigherLander": true,
 		"PvM Relics": true,
 		"Unlock Abilities": ["Sigil Abilities"],
-		"Unlock Prayers": true,
+		"Unlock Prayers": true
     },
     "Construction": {
         "InsidePOH Primary": true,
@@ -775,7 +775,7 @@ let ruleStructure = {
         "Secondary MTA": true
     },
     "Prayer": {
-        "Prayers": true,
+        "Prayers": true
     },
 	"Ranged": {
 		"Gnomeball": true
