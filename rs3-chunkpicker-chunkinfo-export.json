@@ -20,6 +20,13 @@
 				"Primary": true,
 				"Priority": 10
 			},
+			"Read an agility tome from ~|Temple Trekking|~": {
+				"Category": ["DnD Skilling"],
+				"Chunks": ["Temple Trekking Routes"],
+				"Level": 1,
+				"Primary": true,
+				"Priority": 11
+			},
 			"Complete a lap of the ~|advanced Gnome Stronghold agility course|~": {
 				"Chunks": ["9781"],
 				"Level": 85,
@@ -1494,7 +1501,7 @@
 					"Thieving": 50,
 					"Construction": 50
 				},
-				"Primary": false,
+				"Primary": true,
 				"Priority": 20,
 				"NoPet": true
 			},
@@ -13220,7 +13227,7 @@
 					"Thieving": 50,
 					"Dungeoneering": 50
 				},
-				"Primary": false,
+				"Primary": true,
 				"Priority": 14
 			},
 			"Make ~|acadia planks|~ at the sawmill in Fort Forinthry": {
@@ -21622,6 +21629,16 @@
 				"Primary": true,
 				"Priority": 35
 			},
+			"Complete a run through ~|Shifting Tombs|~": {
+				"Category": ["DnD Skilling"],
+				"Chunks": ["Shifting Tombs"],
+				"Tasks": {
+					"Enter a tier one ~|Shifting Tombs|~": "Agility"
+				},
+				"Level": 1,
+				"Primary": true,
+				"Priority": 36
+			},
 			"Create ~|enhanced Kerapac's wrist wraps|~": {
 				"Items": ["Glacor remnants*", "Leng artefact*", "Kerapac's wrist wraps*"],
 				"Level": 1,
@@ -27354,6 +27371,16 @@
 				"Primary": true,
 				"Priority": 13
 			},
+			"Complete a run through ~|Shifting Tombs|~": {
+				"Category": ["DnD Skilling"],
+				"Chunks": ["Shifting Tombs"],
+				"Tasks": {
+					"Enter a tier one ~|Shifting Tombs|~": "Agility"
+				},
+				"Level": 1,
+				"Primary": true,
+				"Priority": 14
+			},
 			"Harvest a ~|flickering wisp|~": {
 				"NPCs": ["Flickering wisp"],
 				"Level": 10,
@@ -29070,6 +29097,14 @@
 				"Primary": true,
 				"Priority": 4
 			},
+			"Participate in a ~|sinkhole|~": {
+				"Category": ["DnD Skilling"],
+				"Chunks": ["Sinkhole", "13625"],
+				"Level": 1,
+				"Output": "Dungeoneering token",
+				"Primary": true,
+				"Priority": 5
+			},
 			"Enter the ~|Edgeville Dungeon chaos druids dungeon|~": {
 				"Chunks": ["Edgeville Dungeon"],
 				"Level": 10,
@@ -29399,7 +29434,7 @@
 					"Thieving": 50,
 					"Construction": 50
 				},
-				"Primary": false,
+				"Primary": true,
 				"Priority": 4
 			},
 			"Enter the ~|Taverley hellhound resource dungeon|~": {
@@ -30650,6 +30685,13 @@
 				"Level": 1,
 				"Primary": true,
 				"Priority": 26
+			},
+			"Harvest seaweed for the ~|Giant Oyster|~": {
+				"Category": ["DnD Skilling"],
+				"Chunks": ["Sunken tutorial island"],
+				"Level": 1,
+				"Primary": true,
+				"Priority": 27
 			},
 			"Grow ~|marigolds|~": {
 				"Category": ["Normal Farming"],
@@ -32888,6 +32930,7 @@
 				"Priority": 3
 			},
 			"Create the ~|master farmer outfit|~": {
+				"Items": ["Master farmer outfit blueprint"],
 				"Objects": ["Inventor's workbench"],
 				"Level": 80,
 				"Skills": {
@@ -34693,6 +34736,20 @@
 				"Level": 1,
 				"Primary": true,
 				"Priority": 15
+			},
+			"Partake in ~|Herby Werby|~": {
+				"Category": ["DnD Skilling"],
+				"Chunks": ["Herby Werby"],
+				"Level": 1,
+				"Primary": true,
+				"Priority": 16
+			},
+			"Read a firemaking tome from ~|Temple Trekking|~": {
+				"Category": ["DnD Skilling"],
+				"Chunks": ["Temple Trekking Routes"],
+				"Level": 1,
+				"Primary": true,
+				"Priority": 17
 			},
 			"Light ~|candle latern (white)|~": {
 				"Items": ["Candle latern (white)"],
@@ -36933,6 +36990,20 @@
 				"Level": 1,
 				"Primary": true,
 				"Priority": 14
+			},
+			"Fish for sea cucumber for the ~|Giant Oyster|~": {
+				"Category": ["DnD Skilling"],
+				"Chunks": ["Sunken tutorial island"],
+				"Level": 1,
+				"Primary": true,
+				"Priority": 22
+			},
+			"Read a fishing tome from ~|Temple Trekking|~": {
+				"Category": ["DnD Skilling"],
+				"Chunks": ["Temple Trekking Routes"],
+				"Level": 1,
+				"Primary": true,
+				"Priority": 23
 			},
 			"Catch a ~|raw shrimp|~ in the holy lake": {
 				"Level": 5,
@@ -44156,6 +44227,7 @@
 				"Priority": 4
 			},
 			"Create the ~|volcanic trapper outfit|~": {
+				"Items": ["Elite trapper outfit blueprint"],
 				"Objects": ["Inventor's workbench"],
 				"Level": 80,
 				"Skills": {
@@ -44934,6 +45006,7 @@
 				"Priority": 1
 			},
 			"Create the ~|volcanic trapper outfit|~": {
+				"Items": ["Elite trapper outfit blueprint"],
 				"Objects": ["Inventor's workbench"],
 				"Level": 20,
 				"Skills": {
@@ -44943,7 +45016,8 @@
 				"Output": "TrapperOutfit",
 				"Priority": 1
 			},
-			"Create the ~|farmer outfit|~": {
+			"Create the ~|master farmer outfit|~": {
+				"Items": ["Master farmer outfit blueprint"],
 				"Objects": ["Inventor's workbench"],
 				"Level": 20,
 				"Skills": {
@@ -49557,6 +49631,13 @@
 				"Primary": true,
 				"Priority": 11
 			},
+			"Read a mining tome from ~|Temple Trekking|~": {
+				"Category": ["DnD Skilling"],
+				"Chunks": ["Temple Trekking Routes"],
+				"Level": 1,
+				"Primary": true,
+				"Priority": 12
+			},
 			"Mine an ~|iron rock|~": {
 				"Level": 10,
 				"Objects": ["Iron rock"],
@@ -53050,6 +53131,23 @@
 				"Level": 1,
 				"Primary": true,
 				"Priority": 70
+			},
+			"Spend Zeal from ~|Soul Wars|~": {
+				"Category": ["DnD Skilling"],
+				"Chunks": ["8748", "8493", "8749", "9005"],
+				"Level": 1,
+				"Primary": true,
+				"Priority": 71
+			},
+			"Complete a run through ~|Shifting Tombs|~": {
+				"Category": ["DnD Skilling"],
+				"Chunks": ["Shifting Tombs"],
+				"Tasks": {
+					"Enter a tier one ~|Shifting Tombs|~": "Agility"
+				},
+				"Level": 1,
+				"Primary": true,
+				"Priority": 72
 			},
 			"Make a bone offering at the ~|Ectofuntus|~": {
 				"Chunks": ["14646", "14647"],
@@ -57327,6 +57425,16 @@
 				"Primary": true,
 				"Priority": 18
 			},
+			"Complete a run through ~|Shifting Tombs|~": {
+				"Category": ["DnD Skilling"],
+				"Chunks": ["Shifting Tombs"],
+				"Tasks": {
+					"Enter a tier one ~|Shifting Tombs|~": "Agility"
+				},
+				"Level": 1,
+				"Primary": true,
+				"Priority": 19
+			},
 			"Craft an ~|imphide book|~": {
 				"Items": ["Imphide*", "Thread*"],
 				"Level": 10,
@@ -57932,9 +58040,9 @@
 					"Combat": 120
 				}
 			},
-			"Receive a slayer bounty from ~|Mandrith|~": {
+			"Receive a slayer assignment from ~|Mandrith|~": {
 				"Chunks": ["12093"],
-				"Level": 85,
+				"Level": 95,
 				"Primary": true,
 				"Priority": 3,
 				"Skills": {
@@ -58184,6 +58292,27 @@
 				"Level": 1,
 				"Primary": true,
 				"Priority": 14
+			},
+			"Read a slayer tome from ~|Temple Trekking|~": {
+				"Category": ["DnD Skilling"],
+				"Chunks": ["Temple Trekking Routes"],
+				"Level": 1,
+				"Primary": true,
+				"Priority": 15
+			},
+			"Spend Zeal from ~|Soul Wars|~": {
+				"Category": ["DnD Skilling"],
+				"Chunks": ["8748", "8493", "8749", "9005"],
+				"Level": 1,
+				"Primary": true,
+				"Priority": 12
+			},
+			"Complete an ~|abyssal slayer contract|~ ": {
+				"Category": ["DnD Skilling"],
+				"Items": ["Abyssal Slayer Contract"],
+				"Level": 1,
+				"Primary": true,
+				"Priority": 12
 			},
 			"Slay a ~|crawling hand|~": {
 				"Level": 5,
@@ -65926,7 +66055,7 @@
 					"Construction": 50
 				},
 				"Output": "Shifting Tombs loot",
-				"Primary": false,
+				"Primary": true,
 				"Priority": 3
 			},
 			"Pickpocket a ~|H.A.M. member (male)|~ for quadruple loot": {
@@ -66363,7 +66492,14 @@
 				"Level": 1,
 				"Output": "DigSitePickpocket",
 				"Primary": true,
-				"Priority": 9
+				"Priority": 10
+			},
+			"Read a thieving tome from ~|Temple Trekking|~": {
+				"Category": ["DnD Skilling"],
+				"Chunks": ["Temple Trekking Routes"],
+				"Level": 1,
+				"Primary": true,
+				"Priority": 12
 			},
 			"Buy the ~|Max cape|~": {
 				"Tasks": {
@@ -67134,6 +67270,13 @@
 				"Level": 1,
 				"Primary": true,
 				"Priority": 15
+			},
+			"Read a woodcutting tome from ~|Temple Trekking|~": {
+				"Category": ["DnD Skilling"],
+				"Chunks": ["Temple Trekking Routes"],
+				"Level": 1,
+				"Primary": true,
+				"Priority": 16
 			},
 			"Craft a ~|fremennik round shield|~": {
 				"Items": ["Artic pine logs", "Bronze nails", "Rope"],
@@ -231466,6 +231609,7 @@
 			"Aggression ability": true,
 			"Bladed Dive ability": true,
 			"Salt the Wound ability": true,
+			"Abyssal Slayer Contract": true,
 			"Abyssal Knights' armour override": true,
 			"'The Abyssal Knight' title": true,
 			"'Animaniac' title": true,
