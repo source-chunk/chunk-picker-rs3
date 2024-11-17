@@ -66451,7 +66451,7 @@
 				"Level": 81,
 				"Objects": ["Overgrown idol#Karamja"],
 				"Primary": true,
-				"Output": "The End of Gara-Dul"
+				"Output": "The End of Gara-Dul",
 				"Priority": 2
 			},	
 			"Cut ~|cursed magic logs|~": {
@@ -118703,61 +118703,61 @@
 				"Category": ["Untracked Uniques", "Untracked Uniques Misc"],
 				"Label": "Untracked Misc Uniques",
 				"Chunks": ["War's Retreat"],
-				"Monsters": ["AnyBoss[+]"],
+				"Monsters": ["AnyBoss[+]"]
 			},
 			"(War's Retreat) Obtain the ~|dark magic aura|~": {
 				"Category": ["Untracked Uniques", "Untracked Uniques Misc"],
 				"Label": "Untracked Misc Uniques",
 				"Chunks": ["War's Retreat"],
-				"Monsters": ["AnyBoss[+]"],
+				"Monsters": ["AnyBoss[+]"]
 			},
 			"(War's Retreat) Obtain the ~|berserker aura|~": {
 				"Category": ["Untracked Uniques", "Untracked Uniques Misc"],
 				"Label": "Untracked Misc Uniques",
 				"Chunks": ["War's Retreat"],
-				"Monsters": ["AnyBoss[+]"],
+				"Monsters": ["AnyBoss[+]"]
 			},
 			"(War's Retreat) Obtain the ~|reckless aura|~": {
 				"Category": ["Untracked Uniques", "Untracked Uniques Misc"],
 				"Label": "Untracked Misc Uniques",
 				"Chunks": ["War's Retreat"],
-				"Monsters": ["AnyBoss[+]"],
+				"Monsters": ["AnyBoss[+]"]
 			},
 			"(War's Retreat) Obtain the ~|maniacal aura|~": {
 				"Category": ["Untracked Uniques", "Untracked Uniques Misc"],
 				"Label": "Untracked Misc Uniques",
 				"Chunks": ["War's Retreat"],
-				"Monsters": ["AnyBoss[+]"],
+				"Monsters": ["AnyBoss[+]"]
 			},
 			"(Soul Reaper) Obtain ~|death notes|~": {
 				"Category": ["Untracked Uniques", "Untracked Uniques Misc"],
 				"Label": "Untracked Misc Uniques",
 				"Chunks": ["Death's Office"],
-				"Monsters": ["AnyBoss[+]"],
+				"Monsters": ["AnyBoss[+]"]
 			},
 			"(Soul Reaper) Obtain an ~|incomplete hydrix|~": {
 				"Category": ["Untracked Uniques", "Untracked Uniques Misc"],
 				"Label": "Untracked Misc Uniques",
 				"Chunks": ["Death's Office"],
-				"Monsters": ["AnyBoss[+]"],
+				"Monsters": ["AnyBoss[+]"]
 			},
 			"(Soul Reaper) Obtain the ~|mahjarrat aura|~": {
 				"Category": ["Untracked Uniques", "Untracked Uniques Misc"],
 				"Label": "Untracked Misc Uniques",
 				"Chunks": ["Death's Office"],
-				"Monsters": ["AnyBoss[+]"],
+				"Monsters": ["AnyBoss[+]"]
 			},
 			"(Soul Reaper) Obtain the ~|Death Scythe|~": {
 				"Category": ["Untracked Uniques", "Untracked Uniques Misc"],
 				"Label": "Untracked Misc Uniques",
 				"Chunks": ["Death's Office"],
-				"Monsters": ["AnyBoss[+]"],
+				"Monsters": ["AnyBoss[+]"]
 			},
 			"(Soul Reaper) Obtain ~|Tiny Death|~": {
 				"Category": ["Untracked Uniques", "Untracked Uniques Misc", "Pets"],
 				"Label": "Untracked Misc Uniques",
 				"Chunks": ["Death's Office"],
-				"Monsters": ["AnyBoss[+]"],
+				"Monsters": ["AnyBoss[+]"]
 			},
 			"(Dig Site Finds) Obtain ~|pottery|~": {
 				"Category": ["Untracked Uniques", "Untracked Uniques Misc"],
@@ -170589,7 +170589,7 @@
 				"Common green frog (unchecked)",
 				"Sky-blue poison frog (unchecked)",
 				"Phantasmal poison frog (unchecked)",
-				"Golden poison frog (unchecked)",
+				"Golden poison frog (unchecked)"
 			],
 			"AllJadinkos[+]": [
 				"Amphibious jadinko (unchecked)",
@@ -170673,7 +170673,6 @@
 				"Daemoncap zygomite (unchecked)",
 				"Arcspore zygomite (unchecked)"
 			],
-			
 			"AltSlayStaff[+]": [
 				"Abyssal orb",
 				"Abyssal wand",
