@@ -66451,6 +66451,7 @@
 				"Level": 81,
 				"Objects": ["Overgrown idol#Karamja"],
 				"Primary": true,
+				"Output": "The End of Gara-Dul"
 				"Priority": 2
 			},	
 			"Cut ~|cursed magic logs|~": {
@@ -112735,6 +112736,690 @@
 				"Label": "Boss Pets",
 				"Items": ["Vorkath's claw"]
 			},
+			"(Rabbits) Breed a ~|common brown rabbit|~": {
+				"Category": ["Collection Log", "Breeding Log"],
+				"Label": "Untracked Skilling Uniques",
+				"Chunks": ["10548"],
+				"Items": ["Common brown rabbit (unchecked)"]
+			},
+			"(Rabbits) Breed a ~|rellekkan cream rabbit|~": {
+				"Category": ["Collection Log", "Breeding Log"],
+				"Label": "Untracked Skilling Uniques",
+				"Chunks": ["10548"],
+				"Items": ["Rellekkan cream rabbit (unchecked)"]
+			},
+			"(Rabbits) Breed a ~|piscatorian cottontail rabbit|~": {
+				"Category": ["Collection Log", "Breeding Log"],
+				"Label": "Untracked Skilling Uniques",
+				"Chunks": ["10548"],
+				"Items": ["Piscatorian cottontail rabbit (unchecked)"]
+			},
+			"(Rabbits) Breed a ~|Jackalope|~": {
+				"Category": ["Collection Log", "Breeding Log"],
+				"Label": "Player-Owned Farm Breeding Log",
+				"Chunks": ["10548"],
+				"Items": ["AllRabbits[+]"]
+			},
+			"(Chickens) Breed a ~|common white hen|~": {
+				"Category": ["Collection Log", "Breeding Log"],
+				"Label": "Player-Owned Farm Breeding Log",
+				"Chunks": ["10548"],
+				"Items": ["Common white hen (unchecked)"]
+			},
+			"(Chickens) Breed a ~|bandosian bantam hen|~": {
+				"Category": ["Collection Log", "Breeding Log"],
+				"Label": "Player-Owned Farm Breeding Log",
+				"Chunks": ["10548"],
+				"Items": ["Bandosian bantam hen (unchecked)"]
+			},
+			"(Chickens) Breed a ~|varrockian red hen|~": {
+				"Category": ["Collection Log", "Breeding Log"],
+				"Label": "Player-Owned Farm Breeding Log",
+				"Chunks": ["10548"],
+				"Items": ["Varrockian red hen (unchecked)"]
+			},
+			"(Chickens) Breed a ~|oomlie hen|~": {
+				"Category": ["Collection Log", "Breeding Log"],
+				"Label": "Player-Owned Farm Breeding Log",
+				"Chunks": ["10548"],
+				"Items": ["Oomlie hen (unchecked)"]
+			},
+			"(Chickens) Breed a ~|lizard chicken|~": {
+				"Category": ["Collection Log", "Breeding Log"],
+				"Label": "Player-Owned Farm Breeding Log",
+				"Chunks": ["10548"],
+				"Items": ["AllChickens[+]"]
+			},
+			"(Chinchompas) Breed a ~|grey chinchompa|~": {
+				"Category": ["Collection Log", "Breeding Log"],
+				"Label": "Player-Owned Farm Breeding Log",
+				"Chunks": ["10548"],
+				"Items": ["Grey chinchompa (unchecked)"]
+			},
+			"(Chinchompas) Breed a ~|carnivorous chinchompa|~": {
+				"Category": ["Collection Log", "Breeding Log"],
+				"Label": "Player-Owned Farm Breeding Log",
+				"Chunks": ["10548"],
+				"Items": ["Carnivorous chinchompa (unchecked)"]
+			},
+			"(Chinchompas) Breed a ~|cobalt chinchompa|~": {
+				"Category": ["Collection Log", "Breeding Log"],
+				"Label": "Player-Owned Farm Breeding Log",
+				"Chunks": ["10548"],
+				"Items": ["Cobalt chinchompa (unchecked)"]
+			},
+			"(Chinchompas) Breed a ~|viridian chinchompa|~": {
+				"Category": ["Collection Log", "Breeding Log"],
+				"Label": "Player-Owned Farm Breeding Log",
+				"Chunks": ["10548"],
+				"Items": ["Viridian chinchompa (unchecked)"]
+			},
+			"(Chinchompas) Breed a ~|azure chinchompa|~": {
+				"Category": ["Collection Log", "Breeding Log"],
+				"Label": "Player-Owned Farm Breeding Log",
+				"Chunks": ["10548"],
+				"Items": ["Azure chinchompa (unchecked)"]
+			},
+			"(Chinchompas) Breed a ~|crimson chinchompa|~": {
+				"Category": ["Collection Log", "Breeding Log"],
+				"Label": "Player-Owned Farm Breeding Log",
+				"Chunks": ["10548"],
+				"Items": ["Crimson chinchompa (unchecked)"]
+			},
+			"(Chinchompas) Breed a ~|crystal chinchompa|~": {
+				"Category": ["Collection Log", "Breeding Log"],
+				"Label": "Player-Owned Farm Breeding Log",
+				"Chunks": ["10548"],
+				"Items": ["Crystal chinchompa (unchecked)"]
+			},
+			"(Chinchompas) Breed a ~|golden chinchompa|~": {
+				"Category": ["Collection Log", "Breeding Log"],
+				"Label": "Player-Owned Farm Breeding Log",
+				"Chunks": ["10548"],
+				"Items": ["AllChins[+]"]
+			},
+			"(Sheep) Breed a ~|white sheep|~ or ram": {
+				"Category": ["Collection Log", "Breeding Log"],
+				"Label": "Player-Owned Farm Breeding Log",
+				"Chunks": ["10548"],
+				"Items": ["White sheep (unchecked)"]
+			},
+			"(Sheep) Breed a ~|black sheep|~ or ram": {
+				"Category": ["Collection Log", "Breeding Log"],
+				"Label": "Player-Owned Farm Breeding Log",
+				"Chunks": ["10548"],
+				"Items": ["Black sheep (unchecked)"]
+			},
+			"(Sheep) Breed a ~|summerdown sheep|~ or ram": {
+				"Category": ["Collection Log", "Breeding Log"],
+				"Label": "Player-Owned Farm Breeding Log",
+				"Chunks": ["10548"],
+				"Items": ["Summerdown sheep (unchecked)"]
+			},
+			"(Sheep) Breed a ~|springsheared sheep|~ or ram": {
+				"Category": ["Collection Log", "Breeding Log"],
+				"Label": "Player-Owned Farm Breeding Log",
+				"Chunks": ["10548"],
+				"Items": ["Springsheared sheep (unchecked)"]
+			},
+			"(Sheep) Breed a ~|winterwold sheep|~ or ram": {
+				"Category": ["Collection Log", "Breeding Log"],
+				"Label": "Player-Owned Farm Breeding Log",
+				"Chunks": ["10548"],
+				"Items": ["Winterwold sheep (unchecked)"]
+			},
+			"(Sheep) Breed a ~|fallfaced sheep|~ or ram": {
+				"Category": ["Collection Log", "Breeding Log"],
+				"Label": "Player-Owned Farm Breeding Log",
+				"Chunks": ["10548"],
+				"Items": ["Fallfaced sheep (unchecked)"]
+			},
+			"(Sheep) Breed a ~|golden sheep|~ or ram": {
+				"Category": ["Collection Log", "Breeding Log"],
+				"Label": "Player-Owned Farm Breeding Log",
+				"Chunks": ["10548"],
+				"Items": ["AllSheep[+]"]
+			},
+			"(Spiders) Breed a ~|spirit spider|~": {
+				"Category": ["Collection Log", "Breeding Log"],
+				"Label": "Player-Owned Farm Breeding Log",
+				"Chunks": ["10548"],
+				"Items": ["Spirit spider (unchecked)"]
+			},
+			"(Spiders) Breed a ~|night spider|~": {
+				"Category": ["Collection Log", "Breeding Log"],
+				"Label": "Player-Owned Farm Breeding Log",
+				"Chunks": ["10548"],
+				"Items": ["Night spider (unchecked)"]
+			},
+			"(Spiders) Breed a ~|corpse spider|~": {
+				"Category": ["Collection Log", "Breeding Log"],
+				"Label": "Player-Owned Farm Breeding Log",
+				"Chunks": ["10548"],
+				"Items": ["Corpse spider (unchecked)"]
+			},
+			"(Spiders) Breed a ~|fever spider|~": {
+				"Category": ["Collection Log", "Breeding Log"],
+				"Label": "Player-Owned Farm Breeding Log",
+				"Chunks": ["10548"],
+				"Items": ["Fever spider (unchecked)"]
+			},
+			"(Spiders) Breed a ~|giant spider|~": {
+				"Category": ["Collection Log", "Breeding Log"],
+				"Label": "Player-Owned Farm Breeding Log",
+				"Chunks": ["10548"],
+				"Items": ["Giant spider (unchecked)"]
+			},
+			"(Spiders) Breed a ~|ice spider|~": {
+				"Category": ["Collection Log", "Breeding Log"],
+				"Label": "Player-Owned Farm Breeding Log",
+				"Chunks": ["10548"],
+				"Items": ["Ice spider (unchecked)"]
+			},
+			"(Spiders) Breed an ~|Araxyte spider|~": {
+				"Category": ["Collection Log", "Breeding Log"],
+				"Label": "Player-Owned Farm Breeding Log",
+				"Chunks": ["10548"],
+				"Items": ["AllSpiders[+]"]
+			},
+			"(Zygomites) Breed a ~|gloomshroom zygomite|~": {
+				"Category": ["Collection Log", "Breeding Log"],
+				"Label": "Player-Owned Farm Breeding Log",
+				"Chunks": ["10548"],
+				"Items": ["Gloomshroom zygomite (unchecked)"]
+			},
+			"(Zygomites) Breed a ~|zanarian zygomite|~": {
+				"Category": ["Collection Log", "Breeding Log"],
+				"Label": "Player-Owned Farm Breeding Log",
+				"Chunks": ["10548"],
+				"Items": ["Zanarian zygomite (unchecked)"]
+			},
+			"(Zygomites) Breed a ~|daemoncap zygomite|~": {
+				"Category": ["Collection Log", "Breeding Log"],
+				"Label": "Player-Owned Farm Breeding Log",
+				"Chunks": ["10548"],
+				"Items": ["Daemoncap zygomite (unchecked)"]
+			},
+			"(Zygomites) Breed a ~|arcspore zygomite|~": {
+				"Category": ["Collection Log", "Breeding Log"],
+				"Label": "Player-Owned Farm Breeding Log",
+				"Chunks": ["10548"],
+				"Items": ["Arcspore zygomite (unchecked)"]
+			},
+			"(Zygomites) Breed a ~|magical zygomite|~": {
+				"Category": ["Collection Log", "Breeding Log"],
+				"Label": "Player-Owned Farm Breeding Log",
+				"Chunks": ["10548"],
+				"Items": ["AllZyogmites[+]"]
+			},
+			"(Cows) Breed a ~|kandarin cow|~ or bull": {
+				"Category": ["Collection Log", "Breeding Log"],
+				"Label": "Player-Owned Farm Breeding Log",
+				"Chunks": ["10548"],
+				"Items": ["Kandarin cow (unchecked)"]
+			},
+			"(Cows) Breed a ~|chocolate cow|~": {
+				"Category": ["Collection Log", "Breeding Log"],
+				"Label": "Player-Owned Farm Breeding Log",
+				"Chunks": ["10548"],
+				"Items": ["Chocolate cow (unchecked)"]
+			},
+			"(Cows) Breed a ~|strawberry cow|~": {
+				"Category": ["Collection Log", "Breeding Log"],
+				"Label": "Player-Owned Farm Breeding Log",
+				"Chunks": ["10548"],
+				"Items": ["Strawberry cow (unchecked)"]
+			},
+			"(Cows) Breed a ~|vanilla cow|~": {
+				"Category": ["Collection Log", "Breeding Log"],
+				"Label": "Player-Owned Farm Breeding Log",
+				"Chunks": ["10548"],
+				"Items": ["Vanilla cow (unchecked)"]
+			},
+			"(Cows) Breed a ~|harlequin cow|~": {
+				"Category": ["Collection Log", "Breeding Log"],
+				"Label": "Player-Owned Farm Breeding Log",
+				"Chunks": ["10548"],
+				"Items": ["AllCows[+]"]
+			},
+			"(Yaks) Breed a ~|fremennik yak|~": {
+				"Category": ["Collection Log", "Breeding Log"],
+				"Label": "Player-Owned Farm Breeding Log",
+				"Chunks": ["10548"],
+				"Items": ["Fremennik yak (unchecked)"]
+			},
+			"(Yaks) Breed a ~|spirit yak|~": {
+				"Category": ["Collection Log", "Breeding Log"],
+				"Label": "Player-Owned Farm Breeding Log",
+				"Chunks": ["10548"],
+				"Items": ["Spirit yak (unchecked)"]
+			},
+			"(Yaks) Breed a ~|fremennik yak|~": {
+				"Category": ["Collection Log", "Breeding Log"],
+				"Label": "Player-Owned Farm Breeding Log",
+				"Chunks": ["10548"],
+				"Items": ["AllYaks[+]"]
+			},
+			"(Dragons) Breed a ~|green dragon|~": {
+				"Category": ["Collection Log", "Breeding Log"],
+				"Label": "Player-Owned Farm Breeding Log",
+				"Chunks": ["10548"],
+				"Items": ["Green dragon (unchecked)"]
+			},
+			"(Dragons) Breed a ~|blue dragon|~": {
+				"Category": ["Collection Log", "Breeding Log"],
+				"Label": "Player-Owned Farm Breeding Log",
+				"Chunks": ["10548"],
+				"Items": ["Blue dragon (unchecked)"]
+			},
+			"(Dragons) Breed a ~|red dragon|~": {
+				"Category": ["Collection Log", "Breeding Log"],
+				"Label": "Player-Owned Farm Breeding Log",
+				"Chunks": ["10548"],
+				"Items": ["Red dragon (unchecked)"]
+			},
+			"(Dragons) Breed a ~|black dragon|~": {
+				"Category": ["Collection Log", "Breeding Log"],
+				"Label": "Player-Owned Farm Breeding Log",
+				"Chunks": ["10548"],
+				"Items": ["Black dragon (unchecked)"]
+			},
+			"(Dragons) Breed a ~|royal dragon|~": {
+				"Category": ["Collection Log", "Breeding Log"],
+				"Label": "Player-Owned Farm Breeding Log",
+				"Chunks": ["10548"],
+				"Items": ["Black dragon (unchecked)"]
+			},
+			"(Frogs) Breed a ~|common green frog|~": {
+				"Category": ["Collection Log", "Breeding Log"],
+				"Label": "Player-Owned Ranch Breeding Log",
+				"Chunks": ["14659"],
+				"Items": ["Common green frog (unchecked)"]
+			},
+			"(Frogs) Breed a ~|phantasmal poison frog|~": {
+				"Category": ["Collection Log", "Breeding Log"],
+				"Label": "Player-Owned Ranch Breeding Log",
+				"Chunks": ["14659"],
+				"Items": ["Phantasmal poison frog (unchecked)"]
+			},
+			"(Frogs) Breed a ~|sky-blue poison frog|~": {
+				"Category": ["Collection Log", "Breeding Log"],
+				"Label": "Player-Owned Ranch Breeding Log",
+				"Chunks": ["14659"],
+				"Items": ["Sky-blue poison frog (unchecked)"]
+			},
+			"(Frogs) Breed a ~|golden poison frog|~": {
+				"Category": ["Collection Log", "Breeding Log"],
+				"Label": "Player-Owned Ranch Breeding Log",
+				"Chunks": ["14659"],
+				"Items": ["Golden poison frog (unchecked)"]
+			},
+			"(Frogs) Breed a ~|cactoad|~": {
+				"Category": ["Collection Log", "Breeding Log"],
+				"Label": "Player-Owned Ranch Breeding Log",
+				"Chunks": ["14659"],
+				"Items": ["AllFrogs[+]"]
+			},
+			"(Salamanders) Breed a ~|green salamander|~": {
+				"Category": ["Collection Log", "Breeding Log"],
+				"Label": "Player-Owned Ranch Breeding Log",
+				"Chunks": ["14659"],
+				"Items": ["Green salamander (unchecked)"]
+			},
+			"(Salamanders) Breed a ~|orange salamander|~": {
+				"Category": ["Collection Log", "Breeding Log"],
+				"Label": "Player-Owned Ranch Breeding Log",
+				"Chunks": ["14659"],
+				"Items": ["Orange salamander (unchecked)"]
+			},
+			"(Salamanders) Breed a ~|red salamander|~": {
+				"Category": ["Collection Log", "Breeding Log"],
+				"Label": "Player-Owned Ranch Breeding Log",
+				"Chunks": ["14659"],
+				"Items": ["Red salamander (unchecked)"]
+			},
+			"(Salamanders) Breed a ~|black salamander|~": {
+				"Category": ["Collection Log", "Breeding Log"],
+				"Label": "Player-Owned Ranch Breeding Log",
+				"Chunks": ["14659"],
+				"Items": ["Black salamander (unchecked)"]
+			},
+			"(Salamanders) Breed a ~|wytchfire salamander|~": {
+				"Category": ["Collection Log", "Breeding Log"],
+				"Label": "Player-Owned Ranch Breeding Log",
+				"Chunks": ["14659"],
+				"Items": ["AllSalamander[+]"]
+			},
+			"(Jadinkos) Breed an ~|amphibious jadinko|~": {
+				"Category": ["Collection Log", "Breeding Log"],
+				"Label": "Player-Owned Ranch Breeding Log",
+				"Chunks": ["14659"],
+				"Items": ["Amphibious jadinko (unchecked)"]
+			},
+			"(Jadinkos) Breed an ~|aquatic jadinko|~": {
+				"Category": ["Collection Log", "Breeding Log"],
+				"Label": "Player-Owned Ranch Breeding Log",
+				"Chunks": ["14659"],
+				"Items": ["Aquatic jadinko (unchecked)"]
+			},
+			"(Jadinkos) Breed a ~|camouflaged jadinko|~": {
+				"Category": ["Collection Log", "Breeding Log"],
+				"Label": "Player-Owned Ranch Breeding Log",
+				"Chunks": ["14659"],
+				"Items": ["Camouflaged jadinko (unchecked)"]
+			},
+			"(Jadinkos) Breed a ~|cannibal jadinko|~": {
+				"Category": ["Collection Log", "Breeding Log"],
+				"Label": "Player-Owned Ranch Breeding Log",
+				"Chunks": ["14659"],
+				"Items": ["Cannibal jadinko (unchecked)"]
+			},
+			"(Jadinkos) Breed a ~|carrion jadinko|~": {
+				"Category": ["Collection Log", "Breeding Log"],
+				"Label": "Player-Owned Ranch Breeding Log",
+				"Chunks": ["14659"],
+				"Items": ["Carrion jadinko (unchecked)"]
+			},
+			"(Jadinkos) Breed a ~|common jadinko|~": {
+				"Category": ["Collection Log", "Breeding Log"],
+				"Label": "Player-Owned Ranch Breeding Log",
+				"Chunks": ["14659"],
+				"Items": ["Common jadinko (unchecked)"]
+			},
+			"(Jadinkos) Breed a ~|diseased jadinko|~": {
+				"Category": ["Collection Log", "Breeding Log"],
+				"Label": "Player-Owned Ranch Breeding Log",
+				"Chunks": ["14659"],
+				"Items": ["Diseased jadinko (unchecked)"]
+			},
+			"(Jadinkos) Breed a ~|draconic jadinko|~": {
+				"Category": ["Collection Log", "Breeding Log"],
+				"Label": "Player-Owned Ranch Breeding Log",
+				"Chunks": ["14659"],
+				"Items": ["Draconic jadinko (unchecked)"]
+			},
+			"(Jadinkos) Breed a ~|igneous jadinko|~": {
+				"Category": ["Collection Log", "Breeding Log"],
+				"Label": "Player-Owned Ranch Breeding Log",
+				"Chunks": ["14659"],
+				"Items": ["Igneous jadinko (unchecked)"]
+			},
+			"(Jadinkos) Breed a ~|shadow jadinko|~": {
+				"Category": ["Collection Log", "Breeding Log"],
+				"Label": "Player-Owned Ranch Breeding Log",
+				"Chunks": ["14659"],
+				"Items": ["Shadow jadinko (unchecked)"]
+			},
+			"(Jadinkos) Breed a ~|luminous jadinko|~": {
+				"Category": ["Collection Log", "Breeding Log"],
+				"Label": "Player-Owned Ranch Breeding Log",
+				"Chunks": ["14659"],
+				"Items": ["AllJadinkos[+]"]
+			},
+			"(Varanusaurs) Breed a ~|feral dinosaur|~": {
+				"Category": ["Collection Log", "Breeding Log"],
+				"Label": "Player-Owned Ranch Breeding Log",
+				"Chunks": ["14659"],
+				"Items": ["Feral dinosaur (unchecked)"]
+			},
+			"(Varanusaurs) Breed a ~|venemous dinosaur|~": {
+				"Category": ["Collection Log", "Breeding Log"],
+				"Label": "Player-Owned Ranch Breeding Log",
+				"Chunks": ["14659"],
+				"Items": ["Venemous dinosaur (unchecked)"]
+			},
+			"(Varanusaurs) Breed a ~|ripper dinosaur|~": {
+				"Category": ["Collection Log", "Breeding Log"],
+				"Label": "Player-Owned Ranch Breeding Log",
+				"Chunks": ["14659"],
+				"Items": ["Ripper dinosaur (unchecked)"]
+			},
+			"(Varanusaurs) Breed a ~|hypnotic dinosaur|~": {
+				"Category": ["Collection Log", "Breeding Log"],
+				"Label": "Player-Owned Ranch Breeding Log",
+				"Chunks": ["14659"],
+				"Items": ["AllVaranusaurs[+]"]
+			},
+			"(Brutish Dinosaurs) Breed a ~|brutish dinosaur|~": {
+				"Category": ["Collection Log", "Breeding Log"],
+				"Label": "Player-Owned Ranch Breeding Log",
+				"Chunks": ["14659"],
+				"Items": ["Brutish dinosaur (unchecked)"]
+			},
+			"(Brutish Dinosaurs) Breed a ~|beach dinosaur|~": {
+				"Category": ["Collection Log", "Breeding Log"],
+				"Label": "Player-Owned Ranch Breeding Log",
+				"Chunks": ["14659"],
+				"Items": ["Beach dinosaur (unchecked)"]
+			},
+			"(Brutish Dinosaurs) Breed a ~|forest dinosaur|~": {
+				"Category": ["Collection Log", "Breeding Log"],
+				"Label": "Player-Owned Ranch Breeding Log",
+				"Chunks": ["14659"],
+				"Items": ["Forest dinosaur (unchecked)"]
+			},
+			"(Brutish Dinosaurs) Breed a ~|magnificent dinosaur|~": {
+				"Category": ["Collection Log", "Breeding Log"],
+				"Label": "Player-Owned Ranch Breeding Log",
+				"Chunks": ["14659"],
+				"Items": ["AllBrutishDinosaurs[+]"]
+			},
+			"(Arcane Apoterrasaurs) Breed a ~|arcane apoterrasaur|~": {
+				"Category": ["Collection Log", "Breeding Log"],
+				"Label": "Player-Owned Ranch Breeding Log",
+				"Chunks": ["14659"],
+				"Items": ["Arcane apoterrasaur (unchecked)"]
+			},
+			"(Arcane Apoterrasaurs) Breed a ~|arcane apoterrasaur natura|~": {
+				"Category": ["Collection Log", "Breeding Log"],
+				"Label": "Player-Owned Ranch Breeding Log",
+				"Chunks": ["14659"],
+				"Items": ["Arcane apoterrasaur natura (unchecked)"]
+			},
+			"(Arcane Apoterrasaurs) Breed a ~|arcane apoterrasaur iratum|~": {
+				"Category": ["Collection Log", "Breeding Log"],
+				"Label": "Player-Owned Ranch Breeding Log",
+				"Chunks": ["14659"],
+				"Items": ["Arcane apoterrasaur iratum (unchecked)"]
+			},
+			"(Arcane Apoterrasaurs) Breed a ~|arcane apoterrasaur lucidum|~": {
+				"Category": ["Collection Log", "Breeding Log"],
+				"Label": "Player-Owned Ranch Breeding Log",
+				"Chunks": ["14659"],
+				"Items": ["AllArcaneApoterrasaurs[+]"]
+			},
+			"(Spicati Apoterrasaurs) Breed a ~|spicati apoterrasaur|~": {
+				"Category": ["Collection Log", "Breeding Log"],
+				"Label": "Player-Owned Ranch Breeding Log",
+				"Chunks": ["14659"],
+				"Items": ["Spicati apoterrasaur (unchecked)"]
+			},
+			"(Spicati Apoterrasaurs) Breed a ~|spicati apoterrasaur tilia|~": {
+				"Category": ["Collection Log", "Breeding Log"],
+				"Label": "Player-Owned Ranch Breeding Log",
+				"Chunks": ["14659"],
+				"Items": ["Spicati apoterrasaur tilia (unchecked)"]
+			},
+			"(Spicati Apoterrasaurs) Breed a ~|spicati apoterrasaur purpura|~": {
+				"Category": ["Collection Log", "Breeding Log"],
+				"Label": "Player-Owned Ranch Breeding Log",
+				"Chunks": ["14659"],
+				"Items": ["Spicati apoterrasaur purpura (unchecked)"]
+			},
+			"(Spicati Apoterrasaurs) Breed a ~|spicati apoterrasaur lucidum|~": {
+				"Category": ["Collection Log", "Breeding Log"],
+				"Label": "Player-Owned Ranch Breeding Log",
+				"Chunks": ["14659"],
+				"Items": ["AllSpicatiApoterrasaurs[+]"]
+			},
+			"(Oculi Apoterrasaurs) Breed a ~|oculi apoterrasaur|~": {
+				"Category": ["Collection Log", "Breeding Log"],
+				"Label": "Player-Owned Ranch Breeding Log",
+				"Chunks": ["14659"],
+				"Items": ["Oculi apoterrasaur (unchecked)"]
+			},
+			"(Oculi Apoterrasaurs) Breed a ~|oculi apoterrasaur oceanum|~": {
+				"Category": ["Collection Log", "Breeding Log"],
+				"Label": "Player-Owned Ranch Breeding Log",
+				"Chunks": ["14659"],
+				"Items": ["Oculi apoterrasaur oceanum (unchecked)"]
+			},
+			"(Oculi Apoterrasaurs) Breed a ~|oculi apoterrasaur glacies|~": {
+				"Category": ["Collection Log", "Breeding Log"],
+				"Label": "Player-Owned Ranch Breeding Log",
+				"Chunks": ["14659"],
+				"Items": ["Oculi apoterrasaur glacies (unchecked)"]
+			},
+			"(Oculi Apoterrasaurs) Breed a ~|oculi apoterrasaur lucidum|~": {
+				"Category": ["Collection Log", "Breeding Log"],
+				"Label": "Player-Owned Ranch Breeding Log",
+				"Chunks": ["14659"],
+				"Items": ["AllOculiApoterrasaurs[+]"]
+			},
+			"(Scimitops) Breed a ~|scimitops|~": {
+				"Category": ["Collection Log", "Breeding Log"],
+				"Label": "Player-Owned Ranch Breeding Log",
+				"Chunks": ["14659"],
+				"Items": ["Scimitops (unchecked)"]
+			},
+			"(Scimitops) Breed a ~|scimitops palus|~": {
+				"Category": ["Collection Log", "Breeding Log"],
+				"Label": "Player-Owned Ranch Breeding Log",
+				"Chunks": ["14659"],
+				"Items": ["Scimitops palus (unchecked)"]
+			},
+			"(Scimitops) Breed a ~|scimitops blavum|~": {
+				"Category": ["Collection Log", "Breeding Log"],
+				"Label": "Player-Owned Ranch Breeding Log",
+				"Chunks": ["14659"],
+				"Items": ["Scimitops blavum (unchecked)"]
+			},
+			"(Scimitops) Breed a ~|scimitops lucidum|~": {
+				"Category": ["Collection Log", "Breeding Log"],
+				"Label": "Player-Owned Ranch Breeding Log",
+				"Chunks": ["14659"],
+				"Items": ["AllScimitops[+]"]
+			},
+			"(Asciatops) Breed a ~|asciatops|~": {
+				"Category": ["Collection Log", "Breeding Log"],
+				"Label": "Player-Owned Ranch Breeding Log",
+				"Chunks": ["14659"],
+				"Items": ["Asciatops (unchecked)"]
+			},
+			"(Asciatops) Breed a ~|asciatops acta|~": {
+				"Category": ["Collection Log", "Breeding Log"],
+				"Label": "Player-Owned Ranch Breeding Log",
+				"Chunks": ["14659"],
+				"Items": ["Asciatops acta (unchecked)"]
+			},
+			"(Asciatops) Breed a ~|asciatops aurum|~": {
+				"Category": ["Collection Log", "Breeding Log"],
+				"Label": "Player-Owned Ranch Breeding Log",
+				"Chunks": ["14659"],
+				"Items": ["Asciatops aurum (unchecked)"]
+			},
+			"(Asciatops) Breed a ~|asciatops lucidum|~": {
+				"Category": ["Collection Log", "Breeding Log"],
+				"Label": "Player-Owned Ranch Breeding Log",
+				"Chunks": ["14659"],
+				"Items": ["AllAsciatops[+]"]
+			},
+			"(Malletops) Breed a ~|malletops|~": {
+				"Category": ["Collection Log", "Breeding Log"],
+				"Label": "Player-Owned Ranch Breeding Log",
+				"Chunks": ["14659"],
+				"Items": ["Malletops (unchecked)"]
+			},
+			"(Malletops) Breed a ~|malletops palus|~": {
+				"Category": ["Collection Log", "Breeding Log"],
+				"Label": "Player-Owned Ranch Breeding Log",
+				"Chunks": ["14659"],
+				"Items": ["Malletops palus (unchecked)"]
+			},
+			"(Malletops) Breed a ~|malletops purpura|~": {
+				"Category": ["Collection Log", "Breeding Log"],
+				"Label": "Player-Owned Ranch Breeding Log",
+				"Chunks": ["14659"],
+				"Items": ["Malletops purpura (unchecked)"]
+			},
+			"(Malletops) Breed a ~|malletops lucidum|~": {
+				"Category": ["Collection Log", "Breeding Log"],
+				"Label": "Player-Owned Ranch Breeding Log",
+				"Chunks": ["14659"],
+				"Items": ["AllMalletops[+]"]
+			},
+			"(Bagrada Rex) Breed a ~|bagrada rex|~": {
+				"Category": ["Collection Log", "Breeding Log"],
+				"Label": "Player-Owned Ranch Breeding Log",
+				"Chunks": ["14659"],
+				"Items": ["Bagrada rex (unchecked)"]
+			},
+			"(Bagrada Rex) Breed a ~|bagrada nemus|~": {
+				"Category": ["Collection Log", "Breeding Log"],
+				"Label": "Player-Owned Ranch Breeding Log",
+				"Chunks": ["14659"],
+				"Items": ["Bagrada nemus (unchecked)"]
+			},
+			"(Bagrada Rex) Breed a ~|bagrada purpura|~": {
+				"Category": ["Collection Log", "Breeding Log"],
+				"Label": "Player-Owned Ranch Breeding Log",
+				"Chunks": ["14659"],
+				"Items": ["Bagrada purpura (unchecked)"]
+			},
+			"(Bagrada Rex) Breed a ~|bagrada lucidum|~": {
+				"Category": ["Collection Log", "Breeding Log"],
+				"Label": "Player-Owned Ranch Breeding Log",
+				"Chunks": ["14659"],
+				"Items": ["AllBagradaRex[+]"]
+			},
+			"(Corbicula Rex) Breed a ~|corbicula rex|~": {
+				"Category": ["Collection Log", "Breeding Log"],
+				"Label": "Player-Owned Ranch Breeding Log",
+				"Chunks": ["14659"],
+				"Items": ["Corbicula rex (unchecked)"]
+			},
+			"(Corbicula Rex) Breed a ~|corbicula gelum|~": {
+				"Category": ["Collection Log", "Breeding Log"],
+				"Label": "Player-Owned Ranch Breeding Log",
+				"Chunks": ["14659"],
+				"Items": ["Corbicula gelum (unchecked)"]
+			},
+			"(Corbicula Rex) Breed a ~|corbicula malum|~": {
+				"Category": ["Collection Log", "Breeding Log"],
+				"Label": "Player-Owned Ranch Breeding Log",
+				"Chunks": ["14659"],
+				"Items": ["Corbicula malum (unchecked)"]
+			},
+			"(Corbicula Rex) Breed a ~|corbicula rex|~": {
+				"Category": ["Collection Log", "Breeding Log"],
+				"Label": "Player-Owned Ranch Breeding Log",
+				"Chunks": ["14659"],
+				"Items": ["Corbicula rex (unchecked)"]
+			},
+			"(Pavosaurus Rex) Breed a ~|pavosaurus rex|~": {
+				"Category": ["Collection Log", "Breeding Log"],
+				"Label": "Player-Owned Ranch Breeding Log",
+				"Chunks": ["14659"],
+				"Items": ["Pavosaurus rex (unchecked)"]
+			},
+			"(Pavosaurus Rex) Breed a ~|pavosaurus nemus|~": {
+				"Category": ["Collection Log", "Breeding Log"],
+				"Label": "Player-Owned Ranch Breeding Log",
+				"Chunks": ["14659"],
+				"Items": ["Pavosaurus nemus (unchecked)"]
+			},
+			"(Pavosaurus Rex) Breed a ~|pavosaurus desertum|~": {
+				"Category": ["Collection Log", "Breeding Log"],
+				"Label": "Player-Owned Ranch Breeding Log",
+				"Chunks": ["14659"],
+				"Items": ["Pavosaurus desertum (unchecked)"]
+			},
+			"(Pavosaurus Rex) Breed a ~|pavosaurus lucidum|~": {
+				"Category": ["Collection Log", "Breeding Log"],
+				"Label": "Player-Owned Ranch Breeding Log",
+				"Chunks": ["14659"],
+				"Items": ["AllPavosaurusRex[+]"]
+			},
 			"Start ~|player-owned ports|~ by getting a ports skill to level 90": {
 				"Chunks": ["12082"],
 				"Label": "Unlock Ports",
@@ -112885,7 +113570,6 @@
 				"Label": "Skilling Pets",
 				"Items": ["Woody"]
 			},
-			
 			"(Golden Fish Eggs) Obtain ~|golden leaping trout eggs|~": {
 				"Category": ["Untracked Uniques", "Untracked Uniques Skilling"],
 				"Label": "Untracked Skilling Uniques",
@@ -113036,20 +113720,100 @@
 				"Label": "Untracked Skilling Uniques",
 				"Items": ["Dinosaur rib bone"]
 			},
-			"(Anachronia Skilling) Obtain the ~|Totem of Summoning base|~": {
+			"(Big Game Hunter) Obtain a ~|superior long bone|~": {
 				"Category": ["Uncharted", "Untracked Uniques", "Untracked Uniques Skilling"],
 				"Label": "Untracked Skilling Uniques",
-				"Items": ["Totem of Summoning base"]
+				"Items": ["Superior long bone"]
 			},
-			"(Anachronia Skilling) Obtain the ~|Totem of the Abyss middle|~": {
+			"(Big Game Hunter) Obtain a ~|tribal fin|~": {
+				"Category": ["Uncharted", "Untracked Uniques", "Untracked Uniques Skilling"],
+				"Label": "Untracked Skilling Uniques",
+				"Items": ["Tribal fin"]
+			},
+			"(Big Game Hunter) Obtain a ~|volcanic fragments|~": {
+				"Category": ["Uncharted", "Untracked Uniques", "Untracked Uniques Skilling"],
+				"Label": "Untracked Skilling Uniques",
+				"Items": ["Volcanic fragments"]
+			},
+			"(Anachronia Totems) Obtain the ~|Totem of Treasure top|~": {
+				"Category": ["Uncharted", "Untracked Uniques", "Untracked Uniques Skilling"],
+				"Label": "Untracked Skilling Uniques",
+				"Items": ["Totem of Treasure top"]
+			},
+			"(Anachronia Totems) Obtain the ~|Totem of Treasure middle|~": {
+				"Category": ["Uncharted", "Untracked Uniques", "Untracked Uniques Skilling"],
+				"Label": "Untracked Skilling Uniques",
+				"Items": ["Totem of Treasure middle"]
+			},
+			"(Anachronia Totems) Obtain ~|Totem of Navigation base|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Skilling"],
+				"Label": "Untracked Skilling Uniques",
+				"Items": ["Totem of Navigation base"]
+			},
+			"(Anachronia Totems) Obtain ~|Totem of Crystal top|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Skilling"],
+				"Label": "Untracked Skilling Uniques",
+				"Items": ["Totem of Crystal top"]
+			},
+			"(Anachronia Totems) Obtain the ~|Totem of the Abyss middle|~": {
 				"Category": ["Uncharted", "Untracked Uniques", "Untracked Uniques Skilling"],
 				"Label": "Untracked Skilling Uniques",
 				"Items": ["Totem of the Abyss middle"]
 			},
-			"(Anachronia Skilling) Obtain the ~|Totem of Treasure top|~": {
+			"(Anachronia Totems) Obtain the ~|Totem of Summoning top|~": {
 				"Category": ["Uncharted", "Untracked Uniques", "Untracked Uniques Skilling"],
 				"Label": "Untracked Skilling Uniques",
-				"Items": ["Totem of Treasure top"]
+				"Items": ["Totem of Summoning top"]
+			},
+			"(Anachronia Totems) Obtain the ~|Totem of Summoning base|~": {
+				"Category": ["Uncharted", "Untracked Uniques", "Untracked Uniques Skilling"],
+				"Label": "Untracked Skilling Uniques",
+				"Items": ["Totem of Summoning base"]
+			},
+			"(Anachronia Totems) Obtain the ~|Totem of Auras base|~": {
+				"Category": ["Uncharted", "Untracked Uniques", "Untracked Uniques Skilling"],
+				"Label": "Untracked Skilling Uniques",
+				"Items": ["Totem of Auras base"]
+			},
+			"(Anachronia Totems) Obtain the ~|Remototem top|~": {
+				"Category": ["Uncharted", "Untracked Uniques", "Untracked Uniques Skilling"],
+				"Label": "Untracked Skilling Uniques",
+				"Items": ["Remototem top"]
+			},
+			"(Anachronia Totems) Obtain the ~|Remototem middle|~": {
+				"Category": ["Uncharted", "Untracked Uniques", "Untracked Uniques Skilling"],
+				"Label": "Untracked Skilling Uniques",
+				"Items": ["Remototem middle"]
+			},
+			"(Anachronia Skilling) Obtain ~|compacted wood|~": {
+				"Category": ["Uncharted", "Untracked Uniques", "Untracked Uniques Skilling"],
+				"Label": "Untracked Skilling Uniques",
+				"Items": ["Compacted wood"]
+			},
+			"(Anachronia Skilling) Obtain ~|compacted leaves|~": {
+				"Category": ["Uncharted", "Untracked Uniques", "Untracked Uniques Skilling"],
+				"Label": "Untracked Skilling Uniques",
+				"Items": ["Compacted leaves"]
+			},
+			"(Anachronia Skilling) Obtain ~|compacted vines|~": {
+				"Category": ["Uncharted", "Untracked Uniques", "Untracked Uniques Skilling"],
+				"Label": "Untracked Skilling Uniques",
+				"Items": ["Compacted vines"]
+			},
+			"(Anachronia Skilling) Obtain ~|compacted stone|~": {
+				"Category": ["Uncharted", "Untracked Uniques", "Untracked Uniques Skilling"],
+				"Label": "Untracked Skilling Uniques",
+				"Items": ["Compacted stone"]
+			},
+			"(Anachronia Skilling) Obtain ~|compacted clay|~": {
+				"Category": ["Uncharted", "Untracked Uniques", "Untracked Uniques Skilling"],
+				"Label": "Untracked Skilling Uniques",
+				"Items": ["Compacted clay"]
+			},
+			"(Anachronia Skilling) Obtain a ~|codex page|~": {
+				"Category": ["Uncharted", "Untracked Uniques", "Untracked Uniques Skilling"],
+				"Label": "Untracked Skilling Uniques",
+				"Items": ["Codex page"]
 			},
 			"(Anachronia Skilling) Obtain ~|Skeka's hypnowand base|~": {
 				"Category": ["Uncharted", "Untracked Uniques", "Untracked Uniques Skilling"],
@@ -113071,6 +113835,16 @@
 				"Label": "Untracked Skilling Uniques",
 				"Items": ["Skeka's hypnowand focus"]
 			},
+			"(Dream of Iaia) Obtain an ~|Anachronia resource pack|~": {
+				"Category": ["Uncharted", "Untracked Uniques", "Untracked Uniques Skilling"],
+				"Label": "Untracked Skilling Uniques",
+				"Items": ["Anachronia resource pack"]
+			},
+			"(Dream of Iaia) Obtain a ~|necklace of Salamancy|~": {
+				"Category": ["Uncharted", "Untracked Uniques", "Untracked Uniques Skilling"],
+				"Label": "Untracked Skilling Uniques",
+				"Items": ["Necklace of Salamancy"]
+			},
 			"(Skilling Bosses) Obtain a ~|Elder Trove (Bik, T3)|~": {
 				"Category": ["Untracked Uniques", "Untracked Uniques Skilling"],
 				"Label": "Untracked Skilling Uniques",
@@ -113087,6 +113861,30 @@
 				"Category": ["Untracked Uniques", "Untracked Uniques Skilling"],
 				"Label": "Untracked Skilling Uniques",
 				"Items": ["Manuscript of Elidinis"],
+				"Not F2P": true
+			},
+			"(Croesus Front) Obtain ~|The Great Beast|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Skilling"],
+				"Label": "Untracked Skilling Uniques",
+				"Items": ["The Great Beast"],
+				"Not F2P": true
+			},
+			"(Croesus Front) Obtain ~|A Life in Colour|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Skilling"],
+				"Label": "Untracked Skilling Uniques",
+				"Items": ["A Life in Colour"],
+				"Not F2P": true
+			},
+			"(Croesus Front) Obtain ~|The Massacrer of Moles|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Skilling"],
+				"Label": "Untracked Skilling Uniques",
+				"Items": ["The Massacrer of Moles"],
+				"Not F2P": true
+			},
+			"(Croesus Front) Obtain ~|Kings and Queens|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Skilling"],
+				"Label": "Untracked Skilling Uniques",
+				"Items": ["Kings and Queens"],
 				"Not F2P": true
 			},
 			"(Priffdinas) Obtain a ~|crystal weapon seed|~": {
@@ -113108,6 +113906,181 @@
 				"Category": ["Untracked Uniques", "Untracked Uniques Skilling"],
 				"Label": "Untracked Skilling Uniques",
 				"Items": ["Crystal acorn"]
+			},
+			"(Priffdinas) Obtain ~|priffdinian worker's robes|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Skilling"],
+				"Label": "Untracked Skilling Uniques",
+				"Items": ["Priffdinian worker's robes"]
+			},
+			"(Priffdinas) Obtain ~|priffdinian worker's trousers|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Skilling"],
+				"Label": "Untracked Skilling Uniques",
+				"Items": ["Priffdinian worker's trousers"]
+			},
+			"(Priffdinas) Obtain ~|priffdinian worker's gloves|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Skilling"],
+				"Label": "Untracked Skilling Uniques",
+				"Items": ["Priffdinian worker's gloves"]
+			},
+			"(Priffdinas) Obtain ~|priffdinian worker's boots|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Skilling"],
+				"Label": "Untracked Skilling Uniques",
+				"Items": ["Priffdinian worker's boots"]
+			},
+			"(Priffdinas) Obtain a ~|priffdinian musician's robe top|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Skilling"],
+				"Label": "Untracked Skilling Uniques",
+				"Items": ["Priffdinian musician's robe top"]
+			},
+			"(Priffdinas) Obtain a ~|priffdinian musician's robe bottom|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Skilling"],
+				"Label": "Untracked Skilling Uniques",
+				"Items": ["Priffdinian musician's robe bottom"]
+			},
+			"(Priffdinas) Obtain ~|priffdinian musician's gloves|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Skilling"],
+				"Label": "Untracked Skilling Uniques",
+				"Items": ["Priffdinian musician's gloves"]
+			},
+			"(Priffdinas) Obtain ~|priffdinian musician's boots|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Skilling"],
+				"Label": "Untracked Skilling Uniques",
+				"Items": ["Priffdinian musician's boots"]
+			},
+			"(Priffdinas) Obtain ~|The Voice of the Elders|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Skilling"],
+				"Label": "Untracked Skilling Uniques",
+				"Items": ["The Voice of the Elders"]
+			},
+			"(Priffdinas) Obtain an ~|Amlodd symbol piece|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Skilling"],
+				"Label": "Untracked Skilling Uniques",
+				"Items": ["Amlodd symbol piece"]
+			},
+			"(Priffdinas) Obtain a ~|Cadarn symbol piece|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Skilling"],
+				"Label": "Untracked Skilling Uniques",
+				"Items": ["Cadarn symbol piece"]
+			},
+			"(Priffdinas) Obtain a ~|Crwys symbol piece|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Skilling"],
+				"Label": "Untracked Skilling Uniques",
+				"Items": ["Crwys symbol piece"]
+			},
+			"(Priffdinas) Obtain a ~|Hefin symbol piece|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Skilling"],
+				"Label": "Untracked Skilling Uniques",
+				"Items": ["Hefin symbol piece"]
+			},
+			"(Priffdinas) Obtain an ~|Iowerth symbol piece|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Skilling"],
+				"Label": "Untracked Skilling Uniques",
+				"Items": ["Iowerth symbol piece"]
+			},
+			"(Priffdinas) Obtain an ~|Ithell symbol piece|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Skilling"],
+				"Label": "Untracked Skilling Uniques",
+				"Items": ["Ithell symbol piece"]
+			},
+			"(Priffdinas) Obtain a ~|Meilyr symbol piece|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Skilling"],
+				"Label": "Untracked Skilling Uniques",
+				"Items": ["Meilyr symbol piece"]
+			},
+			"(Priffdinas) Obtain a ~|Trahaearn symbol piece|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Skilling"],
+				"Label": "Untracked Skilling Uniques",
+				"Items": ["Trahaearn symbol piece"]
+			},
+			"(Waterfall Fishing) Obtain a ~|hermit crab|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Skilling", "Pets"],
+				"Label": "Untracked Skilling Uniques",
+				"Items": ["Hermit crab"]
+			},
+			"(Waterfall Fishing) Obtain a ~|hermit crab boot|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Skilling"],
+				"Label": "Untracked Skilling Uniques",
+				"Items": ["Hermit crab boot"]
+			},
+			"(Waterfall Fishing) Obtain a ~|hermit crab chest|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Skilling"],
+				"Label": "Untracked Skilling Uniques",
+				"Items": ["Hermit crab chest"]
+			},
+			"(Waterfall Fishing) Obtain a ~|hermit crab coral|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Skilling"],
+				"Label": "Untracked Skilling Uniques",
+				"Items": ["Hermit crab coral"]
+			},
+			"(Waterfall Fishing) Obtain a ~|hermit crab nautilus|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Skilling"],
+				"Label": "Untracked Skilling Uniques",
+				"Items": ["Hermit crab nautilus"]
+			},
+			"(Waterfall Fishing) Obtain a ~|hermit crab shell|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Skilling"],
+				"Label": "Untracked Skilling Uniques",
+				"Items": ["Hermit crab shell"]
+			},
+			"(Implings) Obtain ~|thinker gloves|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Skilling"],
+				"Label": "Untracked Skilling Uniques",
+				"Items": ["Thinker gloves"]
+			},
+			"(Implings) Obtain a ~|monkey skull|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Skilling"],
+				"Label": "Untracked Skilling Uniques",
+				"Items": ["Monkey skull"]
+			},
+			"(Implings) Obtain a ~|royal amulet|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Skilling"],
+				"Label": "Untracked Skilling Uniques",
+				"Items": ["Royal amulet"]
+			},
+			"(Implings) Obtain a ~|royal crown|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Skilling"],
+				"Label": "Untracked Skilling Uniques",
+				"Items": ["Royal crown"]
+			},
+			"(Implings) Obtain a ~|royal leggings|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Skilling"],
+				"Label": "Untracked Skilling Uniques",
+				"Items": ["Royal leggings"]
+			},
+			"(Implings) Obtain a ~|royal sceptre|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Skilling"],
+				"Label": "Untracked Skilling Uniques",
+				"Items": ["Royal sceptre"]
+			},
+			"(Implings) Obtain a ~|royal shirt|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Skilling"],
+				"Label": "Untracked Skilling Uniques",
+				"Items": ["Royal shirt"]
+			},
+			"(Implings) Obtain a ~|left eyepatch|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Skilling"],
+				"Label": "Untracked Skilling Uniques",
+				"Items": ["Left eyepatch"]
+			},
+			"(Geodes) Obtain a ~|First Age coin|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Skilling"],
+				"Label": "Untracked Skilling Uniques",
+				"Items": ["First Age count"]
+			},
+			"(Ogre Coffins) Obtain ~|fayrg bones|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Skilling"],
+				"Label": "Untracked Skilling Uniques",
+				"Items": ["Fayrg bones"]
+			},
+			"(Ogre Coffins) Obtain ~|raurg bones|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Skilling"],
+				"Label": "Untracked Skilling Uniques",
+				"Items": ["Raurg bones"]
+			},
+			"(Ogre Coffins) Obtain ~|ourg bones|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Skilling"],
+				"Label": "Untracked Skilling Uniques",
+				"Items": ["Ourg bones"]
 			},
 			"(Deep Sea Fishing) Obtain a ~|barrel of bait|~": {
 				"Category": ["Untracked Uniques", "Untracked Uniques Skilling"],
@@ -113136,6 +114109,16 @@
 			},
 			"(Deep Sea Fishing) Obtain ~|Gregg 'groggy' herring's ring|~": {
 				"Category": ["Untracked Uniques", "Untracked Uniques Skilling"],
+				"Label": "Untracked Skilling Uniques",
+				"Chunks": ["Deep Sea Fishing Hub"]
+			},
+			"(Deep Sea Fishing) Obtain an ~|uncharted island map|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Skilling"],
+				"Label": "Untracked Skilling Uniques",
+				"Chunks": ["Deep Sea Fishing Hub"]
+			},
+			"(Deep Sea Fishing) Obtain an ~|uncharted island map (red)|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Skilling", "Hero Items"],
 				"Label": "Untracked Skilling Uniques",
 				"Chunks": ["Deep Sea Fishing Hub"]
 			},
@@ -113404,12 +114387,218 @@
 				"Label": "Untracked Skilling Uniques",
 				"Items": ["Inquisitor's staff censer"]
 			},
-			
-			
-			
-			
-			
-			
+			"(Player-Owned Farm) Obtain the ~|herbicide|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Skilling"],
+				"Label": "Untracked Skilling Uniques",
+				"Items": ["Herbicide"]
+			},
+			"(Player-Owned Farm) Obtain the ~|seedicide|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Skilling"],
+				"Label": "Untracked Skilling Uniques",
+				"Items": ["Seedicide"]
+			},
+			"(Player-Owned Farm) Obtain the ~|left banana of knowledge|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Skilling"],
+				"Label": "Untracked Skilling Uniques",
+				"Items": ["Left banana of knowledge"]
+			},
+			"(Player-Owned Farm) Obtain the ~|right banana of knowledge|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Skilling"],
+				"Label": "Untracked Skilling Uniques",
+				"Items": ["Right banana of knowledge"]
+			},
+			"(Player-Owned Farm) Obtain ~|Trevor|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Skilling", "Pets"],
+				"Label": "Untracked Skilling Uniques",
+				"Items": ["Trevor"]
+			},
+			"(Empty Throne Room) Obtain the ~|letter signed 'Pontifex Madromurt'|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Skilling"],
+				"Label": "Untracked Skilling Uniques",
+				"Chunks": ["Empty Throne Room"]
+			},
+			"(Empty Throne Room) Obtain the ~|letter signed 'Pontifex Nabor'|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Skilling"],
+				"Label": "Untracked Skilling Uniques",
+				"Chunks": ["Empty Throne Room"]
+			},
+			"(Empty Throne Room) Obtain the ~|letter signed 'Pontifex Bilrach'|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Skilling"],
+				"Label": "Untracked Skilling Uniques",
+				"Chunks": ["Empty Throne Room"]
+			},
+			"(Empty Throne Room) Obtain the ~|damaged letter|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Skilling"],
+				"Label": "Untracked Skilling Uniques",
+				"Chunks": ["Empty Throne Room"]
+			},
+			"(Het's Oasis) Obtain the ~|Warrior of Het helmet|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Skilling"],
+				"Label": "Untracked Skilling Uniques",
+				"Items": ["Warrior of Het helmet"]
+			},
+			"(Het's Oasis) Obtain the ~|Warrior of Het chestplate|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Skilling"],
+				"Label": "Untracked Skilling Uniques",
+				"Items": ["Warrior of Het chestplate"]
+			},
+			"(Het's Oasis) Obtain the ~|Warrior of Het shendyt|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Skilling"],
+				"Label": "Untracked Skilling Uniques",
+				"Items": ["Warrior of Het shendyt"]
+			},
+			"(Het's Oasis) Obtain the ~|Warrior of Het sandals|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Skilling"],
+				"Label": "Untracked Skilling Uniques",
+				"Items": ["Warrior of Het sandals"]
+			},
+			"(Het's Oasis) Obtain the ~|Warrior of Het gloves|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Skilling"],
+				"Label": "Untracked Skilling Uniques",
+				"Items": ["Warrior of Het gloves"]
+			},
+			"(Het's Oasis) Obtain ~|gators|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Skilling"],
+				"Label": "Untracked Skilling Uniques",
+				"Items": ["Gators"]
+			},
+			"(Het's Oasis) Obtain ~|Chomper|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Skilling", "Pets"],
+				"Label": "Untracked Skilling Uniques",
+				"Items": ["Chomper"]
+			},
+			"(Overgrown Idols) Obtain ~|The End of Gara-Dul|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Skilling"],
+				"Label": "Untracked Skilling Uniques",
+				"Items": ["The End of Gara-Dul"]
+			},
+			"(Lava Flow Mine) Obtain the ~|imcando pickaxe fragment 1|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Skilling"],
+				"Label": "Untracked Skilling Uniques",
+				"Chunks": ["Lava Flow Mine"]
+			},
+			"(Lava Flow Mine) Obtain the ~|imcando pickaxe fragment 2|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Skilling"],
+				"Label": "Untracked Skilling Uniques",
+				"Chunks": ["Lava Flow Mine"]
+			},
+			"(Lava Flow Mine) Obtain the ~|imcando pickaxe fragment 3|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Skilling"],
+				"Label": "Untracked Skilling Uniques",
+				"Chunks": ["Lava Flow Mine"]
+			},
+			"(Lava Flow Mine) Obtain the ~|imcando pickaxe fragment 4|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Skilling"],
+				"Label": "Untracked Skilling Uniques",
+				"Chunks": ["Lava Flow Mine"]
+			},
+			"(Lava Flow Mine) Obtain a ~|golden mining helmet|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Skilling"],
+				"Label": "Untracked Skilling Uniques",
+				"Chunks": ["Lava Flow Mine"]
+			},
+			"(Lava Flow Mine) Obtain a ~|golden mining top|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Skilling"],
+				"Label": "Untracked Skilling Uniques",
+				"Chunks": ["Lava Flow Mine"]
+			},
+			"(Lava Flow Mine) Obtain ~|golden mining trousers|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Skilling"],
+				"Label": "Untracked Skilling Uniques",
+				"Chunks": ["Lava Flow Mine"]
+			},
+			"(Lava Flow Mine) Obtain ~|golden mining boots|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Skilling"],
+				"Label": "Untracked Skilling Uniques",
+				"Chunks": ["Lava Flow Mine"]
+			},
+			"(Lava Flow Mine) Obtain ~|golden mining gloves|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Skilling"],
+				"Label": "Untracked Skilling Uniques",
+				"Chunks": ["Lava Flow Mine"]
+			},
+			"(Lava Flow Mine) Obtain a ~|gilded bronze pickaxe|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Skilling"],
+				"Label": "Untracked Skilling Uniques",
+				"Items": ["Bronze pickaxe"],
+				"Chunks": ["Lava Flow Mine"]
+			},
+			"(Lava Flow Mine) Obtain a ~|gilded iron pickaxe|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Skilling"],
+				"Label": "Untracked Skilling Uniques",
+				"Items": ["Iron pickaxe"],
+				"Chunks": ["Lava Flow Mine"]
+			},
+			"(Lava Flow Mine) Obtain a ~|gilded steel pickaxe|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Skilling"],
+				"Label": "Untracked Skilling Uniques",
+				"Items": ["Steel pickaxe"],
+				"Chunks": ["Lava Flow Mine"]
+			},
+			"(Lava Flow Mine) Obtain a ~|gilded mithril pickaxe|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Skilling"],
+				"Label": "Untracked Skilling Uniques",
+				"Items": ["Mithril pickaxe"],
+				"Chunks": ["Lava Flow Mine"]
+			},
+			"(Lava Flow Mine) Obtain a ~|gilded adamant pickaxe|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Skilling"],
+				"Label": "Untracked Skilling Uniques",
+				"Items": ["Adamant pickaxe"],
+				"Chunks": ["Lava Flow Mine"]
+			},
+			"(Lava Flow Mine) Obtain a ~|gilded rune pickaxe|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Skilling"],
+				"Label": "Untracked Skilling Uniques",
+				"Items": ["Rune pickaxe"],
+				"Chunks": ["Lava Flow Mine"]
+			},
+			"(Lava Flow Mine) Obtain a ~|gilded dragon pickaxe|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Skilling"],
+				"Label": "Untracked Skilling Uniques",
+				"Items": ["Dragon pickaxe"],
+				"Chunks": ["Lava Flow Mine"]
+			},
+			"(Agility Outfit) Obtain an ~|agile top|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Skilling"],
+				"Label": "Untracked Skilling Uniques",
+				"Chunks": ["10039"]
+			},
+			"(Agility Outfit) Obtain ~|agile legs|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Skilling"],
+				"Label": "Untracked Skilling Uniques",
+				"Chunks": ["9781"]
+			},
+			"(Special Logs) Obtain a ~|special teak log|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Skilling"],
+				"Label": "Untracked Skilling Uniques",
+				"Objects": ["Teak"]
+			},
+			"(Special Logs) Obtain a ~|special mahogany log|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Skilling"],
+				"Label": "Untracked Skilling Uniques",
+				"Objects": ["Mahogany"]
+			},
+			"(Dungeoneering) Obtain ~|Sneakerpeeper|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Skilling", "Pets"],
+				"Label": "Untracked Skilling Uniques",
+				"Items": ["Sneekerpeeper"]
+			},
+			"(Dungeoneering) Obtain ~|Frosty|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Skilling", "Pets"],
+				"Label": "Untracked Skilling Uniques",
+				"Items": ["Frosty"]
+			},
+			"(Dungeoneering) Obtain ~|Mini-Blink|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Skilling", "Pets"],
+				"Label": "Untracked Skilling Uniques",
+				"Items": ["Mini-Blink"]
+			},
+			"(Dungeoneering) Obtain ~|Hope Nibbler|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Skilling", "Pets"],
+				"Label": "Untracked Skilling Uniques",
+				"Items": ["Hope Nibbler"]
+			},
 			"(Champion Scrolls) Obtain the ~|imp champion's scroll|~": {
 				"Category": ["Untracked Uniques", "Untracked Uniques Combat"],
 				"Label": "Untracked Combat Uniques",
@@ -113507,6 +114696,31 @@
 				"Chunks": ["Champions' Arena"],
 				"Items": ["ChampionScrolls[+]"],
 				"Not F2P": true
+			},
+			"(Kethsi) Unlock the Helmet piece of the ~|Kethsi (overide)|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Combat"],
+				"Label": "Untracked Combat Uniques",
+				"Items": ["Kethsi outfit scroll"]
+			},
+			"(Kethsi) Unlock the Chestplate piece of the ~|Kethsi (overide)|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Combat"],
+				"Label": "Untracked Combat Uniques",
+				"Items": ["Kethsi outfit scroll"]
+			},
+			"(Kethsi) Unlock the Robes piece of the ~|Kethsi (overide)|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Combat"],
+				"Label": "Untracked Combat Uniques",
+				"Items": ["Kethsi outfit scroll"]
+			},
+			"(Kethsi) Unlock the Bracers piece of the ~|Kethsi (overide)|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Combat"],
+				"Label": "Untracked Combat Uniques",
+				"Items": ["Kethsi outfit scroll"]
+			},
+			"(Kethsi) Unlock the Boots piece of the ~|Kethsi (overide)|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Combat"],
+				"Label": "Untracked Combat Uniques",
+				"Items": ["Kethsi outfit scroll"]
 			},
 			"(Rare Drop Table) Obtain a ~|shield left half|~": {
 				"Category": ["Untracked Uniques", "Untracked Uniques Combat"],
@@ -113672,6 +114886,72 @@
 				"Label": "Untracked Combat Uniques",
 				"Items": ["Festering journal"],
 				"Not F2P": true
+			},
+			"(Lore Books) Obtain the ~|decaying journal|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Combat"],
+				"Label": "Untracked Combat Uniques",
+				"Items": ["Decaying journal"],
+				"Not F2P": true
+			},
+			"(Elite Dungeons) Obtain a ~|Acolyte of Seiryu headdress|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Combat"],
+				"Label": "Untracked Combat Uniques",
+				"Items": ["Acolyte of Seiryu headdress"]
+			},
+			"(Elite Dungeons) Obtain a ~|Acolyte of Seiryu jacket|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Combat"],
+				"Label": "Untracked Combat Uniques",
+				"Items": ["Acolyte of Seiryu jacket"]
+			},
+			"(Elite Dungeons) Obtain ~|Acolyte of Seiryu trousers|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Combat"],
+				"Label": "Untracked Combat Uniques",
+				"Items": ["Acolyte of Seiryu trousers"]
+			},
+			"(Elite Dungeons) Obtain ~|Acolyte of Seiryu handwraps|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Combat"],
+				"Label": "Untracked Combat Uniques",
+				"Items": ["Acolyte of Seiryu handwraps"]
+			},
+			"(Elite Dungeons) Obtain ~|Acolyte of Seiryu footwraps|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Combat"],
+				"Label": "Untracked Combat Uniques",
+				"Items": ["Acolyte of Seiryu footwraps"]
+			},
+			"(Elite Dungeons) Obtain a ~|Sakadagami headdress|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Combat"],
+				"Label": "Untracked Combat Uniques",
+				"Items": ["Sakadagami headdress"]
+			},
+			"(Elite Dungeons) Obtain a ~|Sakadagami jacket|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Combat"],
+				"Label": "Untracked Combat Uniques",
+				"Items": ["Sakadagami jacket"]
+			},
+			"(Elite Dungeons) Obtain ~|Sakadagami trousers|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Combat"],
+				"Label": "Untracked Combat Uniques",
+				"Items": ["Sakadagami trousers"]
+			},
+			"(Elite Dungeons) Obtain ~|Sakadagami handwraps|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Combat"],
+				"Label": "Untracked Combat Uniques",
+				"Items": ["Sakadagami handwraps"]
+			},
+			"(Elite Dungeons) Obtain ~|Sakadagami footwraps|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Combat"],
+				"Label": "Untracked Combat Uniques",
+				"Items": ["Sakadagami footwraps"]
+			},
+			"(Elite Dungeons) Obtain ~|Micah|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Combat", "Pets"],
+				"Label": "Untracked Combat Uniques",
+				"Items": ["Micah"]
+			},
+			"(Elite Dungeons) Obtain ~|Tetch|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Combat", "Pets"],
+				"Label": "Untracked Combat Uniques",
+				"Items": ["Tetch"]
 			},
 			"(Temple of Aminishi) Obtain a ~|tetsu sword upgrade kit|~": {
 				"Category": ["Untracked Uniques", "Untracked Uniques Combat"],
@@ -114054,22 +115334,22 @@
 				"Label": "Untracked Skilling Uniques",
 				"Items": ["Dinosaur rib bone"]
 			},
-			"(Anachronia Combat) Obtain a ~|dinosaur tooth|~": {
+			"(Anachronia Totems) Obtain a ~|dinosaur tooth|~": {
 				"Category": ["Uncharted", "Untracked Uniques", "Untracked Uniques Combat"],
 				"Label": "Untracked Skilling Uniques",
 				"Items": ["Dinosaur tooth"]
 			},
-			"(Anachronia Combat) Obtain a ~|Totem of Auras middle|~": {
+			"(Anachronia Totems) Obtain a ~|Totem of Auras middle|~": {
 				"Category": ["Uncharted", "Untracked Uniques", "Untracked Uniques Combat"],
 				"Label": "Untracked Skilling Uniques",
 				"Items": ["Totem of Auras middle"]
 			},
-			"(Anachronia Combat) Obtain a ~|Totem of Summoning middle|~": {
+			"(Anachronia Totems) Obtain a ~|Totem of Summoning middle|~": {
 				"Category": ["Uncharted", "Untracked Uniques", "Untracked Uniques Combat"],
 				"Label": "Untracked Skilling Uniques",
 				"Items": ["Totem of Summoning middle"]
 			},
-			"(Anachronia Combat) Obtain a ~|Totem of Intimidation base|~": {
+			"(Anachronia Totems) Obtain a ~|Totem of Intimidation base|~": {
 				"Category": ["Uncharted", "Untracked Uniques", "Untracked Uniques Combat"],
 				"Label": "Untracked Skilling Uniques",
 				"Items": ["Totem of Intimidation base"]
@@ -114660,6 +115940,84 @@
 				"Category": ["Untracked Uniques", "Untracked Uniques Combat"],
 				"Label": "Untracked Combat Uniques",
 				"Items": ["Prayer pig tooth"],
+				"Not F2P": true
+			},
+			"(Jadinko Fruits) Obtain a ~|common fruit|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Combat"],
+				"Label": "Untracked Combat Uniques",
+				"Items": ["Common fruit"],
+				"Not F2P": true
+			},
+			"(Jadinko Fruits) Obtain a ~|diseased fruit|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Combat"],
+				"Label": "Untracked Combat Uniques",
+				"Items": ["Diseased fruit"],
+				"Not F2P": true
+			},
+			"(Jadinko Fruits) Obtain a ~|camouflaged fruit|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Combat"],
+				"Label": "Untracked Combat Uniques",
+				"Items": ["Camouflaged fruit"],
+				"Not F2P": true
+			},
+			"(Jadinko Fruits) Obtain a ~|cannibal fruit|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Combat"],
+				"Label": "Untracked Combat Uniques",
+				"Items": ["Cannibal fruit"],
+				"Not F2P": true
+			},
+			"(Jadinko Fruits) Obtain a ~|Guthix fruit|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Combat"],
+				"Label": "Untracked Combat Uniques",
+				"Items": ["Guthix fruit"],
+				"Not F2P": true
+			},
+			"(Jadinko Fruits) Obtain a ~|Saradomin fruit|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Combat"],
+				"Label": "Untracked Combat Uniques",
+				"Items": ["Saradomin fruit"],
+				"Not F2P": true
+			},
+			"(Jadinko Fruits) Obtain a ~|Zamorak fruit|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Combat"],
+				"Label": "Untracked Combat Uniques",
+				"Items": ["Zamorak fruit"],
+				"Not F2P": true
+			},
+			"(Jadinko Fruits) Obtain a ~|shadow fruit|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Combat"],
+				"Label": "Untracked Combat Uniques",
+				"Items": ["Shadow fruit"],
+				"Not F2P": true
+			},
+			"(Jadinko Fruits) Obtain a ~|draconic fruit|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Combat"],
+				"Label": "Untracked Combat Uniques",
+				"Items": ["Draconic fruit"],
+				"Not F2P": true
+			},
+			"(Jadinko Fruits) Obtain a ~|amphibious fruit|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Combat"],
+				"Label": "Untracked Combat Uniques",
+				"Items": ["Amphibious fruit"],
+				"Not F2P": true
+			},
+			"(Jadinko Fruits) Obtain a ~|igneous fruit|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Combat"],
+				"Label": "Untracked Combat Uniques",
+				"Items": ["Igneous fruit"],
+				"Not F2P": true
+			},
+			"(Jadinko Fruits) Obtain a ~|aquatic fruit|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Combat"],
+				"Label": "Untracked Combat Uniques",
+				"Items": ["Aquatic fruit"],
+				"Not F2P": true
+			},
+			"(Jadinko Fruits) Obtain a ~|carrion fruit|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Combat"],
+				"Label": "Untracked Combat Uniques",
+				"Items": ["Carrion fruit"],
 				"Not F2P": true
 			},
 			"(Misc Drops) Obtain a ~|court summons|~": {
@@ -117100,16 +118458,21 @@
 				"Label": "Untracked Minigame Uniques",
 				"Items": ["Sheldon the Penguin"]
 			},
-			
-			
-			
-			
-			"(xxx) Obtain a ~|xxx|~": {
-				"Category": ["Untracked Uniques", "Untracked Uniques Minigames"],
-				"Label": "Untracked Minigame Uniques",
-				"Items": ["xxx"]
+			"(Misc.) Obtain ~|fancy boots|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Misc"],
+				"Label": "Untracked Misc Uniques",
+				"Chunks": ["Stronghold of Security"]
 			},
-			
+			"(Misc.) Obtain ~|fighting boots|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Misc"],
+				"Label": "Untracked Misc Uniques",
+				"Chunks": ["Stronghold of Security"]
+			},
+			"(Misc.) Obtain ~|safety gloves|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Misc"],
+				"Label": "Untracked Misc Uniques",
+				"Chunks": ["Stronghold of Player Safety"]
+			},
 			"(Misc.) Obtain a ~|strange egg|~": {
 				"Category": ["Untracked Uniques", "Untracked Uniques Misc"],
 				"Label": "Untracked Misc Uniques",
@@ -117130,6 +118493,16 @@
 				"Label": "Untracked Uniques",
 				"Label": "Untracked Misc Uniques",
 				"Chunks": ["12338"]
+			},
+			"(Misc.) Obtain a ~|chromatic partyhat|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Misc"],
+				"Label": "Untracked Misc Uniques",
+				"Chunks": ["New Varrock"]
+			},
+			"(Misc.) Obtain the ~|enhanced fire cape|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Misc"],
+				"Label": "Untracked Misc Uniques",
+				"Items": ["TokHaar-Kal-Ket", "TokHaar-Kal-Xil", "TokHaar-Kal-Mej"]
 			},
 			"(PvP) Obtain the ~|duellist's cap|~ (tier 6)": {
 				"Category": ["Untracked Uniques", "Untracked Uniques Misc", "PVP"],
@@ -117386,10 +118759,139 @@
 				"Chunks": ["Death's Office"],
 				"Monsters": ["AnyBoss[+]"],
 			},
-			
-			
-			
-			
+			"(Dig Site Finds) Obtain ~|pottery|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Misc"],
+				"Label": "Untracked Misc Uniques",
+				"Chunks": ["13109", "12853"],
+				"Tasks": {
+					"~|The Dig Site|~ Complete the quest": "Quest"
+				}
+			},
+			"(Dig Site Finds) Obtain an ~|old symbol|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Misc"],
+				"Label": "Untracked Misc Uniques",
+				"Chunks": ["13109", "12853"],
+				"Tasks": {
+					"~|The Dig Site|~ Complete the quest": "Quest"
+				}
+			},
+			"(Dig Site Finds) Obtain an ~|ancient symbol|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Misc"],
+				"Label": "Untracked Misc Uniques",
+				"Chunks": ["13109", "12853"],
+				"Tasks": {
+					"~|The Dig Site|~ Complete the quest": "Quest"
+				}
+			},
+			"(Dig Site Finds) Obtain an ~|ancient coin|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Misc"],
+				"Label": "Untracked Misc Uniques",
+				"Chunks": ["13109", "12853"],
+				"Tasks": {
+					"~|The Dig Site|~ Complete the quest": "Quest"
+				}
+			},
+			"(Dig Site Finds) Obtain an ~|old coin|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Misc"],
+				"Label": "Untracked Misc Uniques",
+				"Chunks": ["13109", "12853"],
+				"Tasks": {
+					"~|The Dig Site|~ Complete the quest": "Quest"
+				}
+			},
+			"(Dig Site Finds) Obtain a ~|clean necklace|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Misc"],
+				"Label": "Untracked Misc Uniques",
+				"Chunks": ["13109", "12853"],
+				"Tasks": {
+					"~|The Dig Site|~ Complete the quest": "Quest"
+				}
+			},
+			"(Enchanted Key) Obtain a ~|Zamorak mjolnir|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Misc"],
+				"Label": "Untracked Misc Uniques",
+				"Items": ["Zamorak mjolnir"]
+			},
+			"(Enchanted Key) Obtain a ~|Saradomin mjolnir|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Misc"],
+				"Label": "Untracked Misc Uniques",
+				"Items": ["Saradomin mjolnir"]
+			},
+			"(Enchanted Key) Obtain a ~|Guthix mjolnir|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Misc"],
+				"Label": "Untracked Misc Uniques",
+				"Items": ["Guthix mjolnir"]
+			},
+			"(Crystal Chest) Obtain a ~|dragonstone helm|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Misc"],
+				"Label": "Untracked Misc Uniques",
+				"Items": ["Dragonstone helm"]
+			},
+			"(Crystal Chest) Obtain a ~|dragonstone hauberk|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Misc"],
+				"Label": "Untracked Misc Uniques",
+				"Items": ["Dragonstone hauberk"]
+			},
+			"(Crystal Chest) Obtain ~|dragonstone greaves|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Misc"],
+				"Label": "Untracked Misc Uniques",
+				"Items": ["Dragonstone greaves"]
+			},
+			"(Crystal Chest) Obtain ~|dragonstone boots|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Misc"],
+				"Label": "Untracked Misc Uniques",
+				"Items": ["Dragonstone boots"]
+			},
+			"(Crystal Chest) Obtain ~|dragonstone guantlets|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Misc"],
+				"Label": "Untracked Misc Uniques",
+				"Items": ["Dragonstone guantlets"]
+			},
+			"(Anachronia Totems) Obtain the ~|Totem of Treasure base|~": {
+				"Category": ["Uncharted", "Untracked Uniques", "Untracked Uniques Skilling"],
+				"Label": "Untracked Skilling Uniques",
+				"Items": ["Totem of Treasure base"]
+			},
+			"(Anachronia Totems) Obtain the ~|Totem of Navigation top|~": {
+				"Category": ["Uncharted", "Untracked Uniques", "Untracked Uniques Skilling"],
+				"Label": "Untracked Skilling Uniques",
+				"Items": ["Totem of Navigation top"]
+			},
+			"(Anachronia Totems) Obtain the ~|Totem of Navigation middle|~": {
+				"Category": ["Uncharted", "Untracked Uniques", "Untracked Uniques Skilling"],
+				"Label": "Untracked Skilling Uniques",
+				"Items": ["Totem of Navigation middle"]
+			},
+			"(Anachronia Totems) Obtain the ~|Totem of Crystal middle|~": {
+				"Category": ["Uncharted", "Untracked Uniques", "Untracked Uniques Skilling"],
+				"Label": "Untracked Skilling Uniques",
+				"Items": ["Totem of Crystal middle"]
+			},
+			"(Anachronia Totems) Obtain the ~|Totem of Abyss base|~": {
+				"Category": ["Uncharted", "Untracked Uniques", "Untracked Uniques Skilling"],
+				"Label": "Untracked Skilling Uniques",
+				"Items": ["Totem of Abyss base"]
+			},
+			"(Anachronia Totems) Obtain the ~|Totem of Intimidation top|~": {
+				"Category": ["Uncharted", "Untracked Uniques", "Untracked Uniques Skilling"],
+				"Label": "Untracked Skilling Uniques",
+				"Items": ["Totem of Intimidation top"]
+			},
+			"(Anachronia Totems) Obtain the ~|Totem of Intimidation middle|~": {
+				"Category": ["Uncharted", "Untracked Uniques", "Untracked Uniques Skilling"],
+				"Label": "Untracked Skilling Uniques",
+				"Items": ["Totem of Intimidation middle"]
+			},
+			"(Anachronia Totems) Obtain the ~|Totem of Auras top|~": {
+				"Category": ["Uncharted", "Untracked Uniques", "Untracked Uniques Skilling"],
+				"Label": "Untracked Skilling Uniques",
+				"Items": ["Totem of Auras top"]
+			},
+			"(Anachronia Totems) Obtain the ~|Remototem base|~": {
+				"Category": ["Uncharted", "Untracked Uniques", "Untracked Uniques Skilling"],
+				"Label": "Untracked Skilling Uniques",
+				"Items": ["Remototem base"]
+			},
 			"(Frozen Floors) Obtain a ~|frostbite dagger|~": {
 				"Category": ["Untracked Uniques", "Untracked Uniques Daemonheim"],
 				"Label": "Daemonheim Uniques",
@@ -117570,7 +119072,6 @@
 				},
 				"Not F2P": true
 			},
-			
 			"(Tetsu) Obtain a ~|tetsu helm|~ scroll": {
 				"Category": ["Ports Scrolls"],
 				"Label": "Player-Owned Port Scrolls",
@@ -117706,7 +119207,6 @@
 				"Label": "Player-Owned Port Scrolls",
 				"Chunks": ["Player-Owned Port"]
 			},
-			
 			"Obtain ~|Remy|~": {
 				"Category": ["Pets"],
 				"Label": "Pets",
@@ -117714,7 +119214,6 @@
 				"Items": ["GhostlySole[+]"],
 				"NPCs": ["Ghost cat"]
 			},
-			
 			"Obtain ~|Richie|~ and his partyhat": {
 				"Category": ["Money Unlockables", "Pets"],
 				"Label": "Pets",
@@ -117747,7 +119246,6 @@
 				"Chunks": ["13362"],
 				"Not F2P": true
 			},
-			
 			"Obtain ~|the Castaway|~ title": {
 				"Category": ["Arc Log", "Titles"],
 				"Label": "Titles",
@@ -118147,10 +119645,41 @@
 				"Label": "Titles",
 				"Items": ["Honorary Druid"]
 			},
-			
-			
-			
-			
+			"Obtain the ~|the Master Farmer|~ title": {
+				"Category": ["Titles"],
+				"Label": "Titles",
+				"Items": ["'The Master Farmer' title"]
+			},
+			"Obtain the ~|of the Ruination|~ title": {
+				"Category": ["Titles"],
+				"Label": "Titles",
+				"Items": ["'of the Ruination' title"]
+			},
+			"Obtain the ~|the Master Fisherman/Fisherwoman|~ title": {
+				"Category": ["Titles"],
+				"Label": "Titles",
+				"Items": ["'the Master Fisherman/Fisherwoman' title"]
+			},
+			"Obtain the ~|Novice Baiter|~ title": {
+				"Category": ["Titles"],
+				"Label": "Titles",
+				"Items": ["Ranked 'Baiter' title"]
+			},
+			"Obtain the ~|Apprentice Baiter|~ title": {
+				"Category": ["Titles"],
+				"Label": "Titles",
+				"Items": ["Ranked 'Baiter' title"]
+			},
+			"Obtain the ~|Expert Baiter|~ title": {
+				"Category": ["Titles"],
+				"Label": "Titles",
+				"Items": ["Ranked 'Baiter' title"]
+			},
+			"Obtain the ~|Vety Good Baiter|~ title": {
+				"Category": ["Titles"],
+				"Label": "Titles",
+				"Items": ["Ranked 'Baiter' title"]
+			},
 			"Obtain a ~|dwarven army axe|~": {
 				"Category": ["BIS Skilling"],
 				"Label": "BIS Skilling",
@@ -169003,6 +170532,26 @@
 				"Akrisae's robe skirt",
 				"Akrisae's robe top"
 			],
+			"AllArcaneApoterrasaurs[+]": [
+				"Arcane apoterrasaur (unchecked)",
+				"Arcane apoterrasaur natura (unchecked)",
+				"Arcane apoterrasaur iratum (unchecked)"
+			],
+			"AllAsciatops[+]": [
+				"Asciatops (unchecked)",
+				"Asciatops acta (unchecked)",
+				"Asciatops aurum (unchecked)"
+			],
+			"AllBagradaRex[+]": [
+				"Bagrada rex (unchecked)",
+				"Bagrada nemus (unchecked)",
+				"Bagrada purpura (unchecked)"
+			],
+			"AllBrutishDinosaurs[+]": [
+				"Brutish dinosaur (unchecked)",
+				"Beach dinosaur (unchecked)",
+				"Forest dinosaur (unchecked)"
+			],
 			"AllChickens[+]": [
 				"Bandosian bantam hen (unchecked)",
 				"Common white hen (unchecked)",
@@ -169018,11 +170567,113 @@
 				"Grey chinchompa (unchecked)",
 				"Viridian chinchompa (unchecked)"
 			],
+			"AllCorbiculaRex[+]": [
+				"Corbicula rex (unchecked)",
+				"Corbicula gelum (unchecked)",
+				"Corbicula malum (unchecked)"
+			],
+			"AllCows[+]": [
+				"Kandarin cow (unchecked)",
+				"Cocolate cow (unchecked)",
+				"Strawberry cow (unchecked)",
+				"Vanilla cow (unchecked)",
+				"Bull (unchecked)"
+			],
+			"AllDragons[+]": [
+				"Green dragon (unchecked)",
+				"Blue dragon (unchecked)",
+				"Red dragon (unchecked)",
+				"Black dragon (unchecked)"
+			],
+			"AllFrogs[+]": [
+				"Common green frog (unchecked)",
+				"Sky-blue poison frog (unchecked)",
+				"Phantasmal poison frog (unchecked)",
+				"Golden poison frog (unchecked)",
+			],
+			"AllJadinkos[+]": [
+				"Amphibious jadinko (unchecked)",
+				"Aquatic jadinko (unchecked)",
+				"Camouflaged jadinko (unchecked)",
+				"Cannibal jadinko (unchecked)",
+				"Carrion jadinko (unchecked)",
+				"Common jadinko (unchecked)",
+				"Diseased jadinko (unchecked)",
+				"Draconic jadinko (unchecked)",
+				"Igneous jadinko (unchecked)",
+				"Shadow jadinko (unchecked)"
+			],
+			"AllMalletops[+]": [
+				"Malletops (unchecked)",
+				"Malletops palus (unchecked)",
+				"Malletops purpura (unchecked)"
+			],
+			"AllOculiApoterrasaurs[+]": [
+				"Oculi apoterrasaur (unchecked)",
+				"Oculi apoterrasaur oceanum (unchecked)",
+				"Oculi apoterrasaur glacies (unchecked)"
+			],
+			"AllPavosaurusRex[+]": [
+				"Pavosaurus rex (unchecked)",
+				"Pavosaurus nemus (unchecked)",
+				"Pavosaurus desertum (unchecked)"
+			],
 			"AllRabbits[+]": [
 				"Common brown rabbit (unchecked)",
 				"Piscatorian cottontail rabbit (unchecked)",
 				"Rellekkan cream rabbit (unchecked)"
 			],
+			"AllSalamander[+]": [
+				"Green salamander (unchecked)",
+				"Orange salamander (unchecked)",
+				"Red salamander (unchecked)",
+				"Black salamander (unchecked)"
+			],
+			"AllScimitops[+]": [
+				"Scimitops (unchecked)",
+				"Scimitops palus (unchecked)",
+				"Scimitops blavum (unchecked)"
+			],
+			"AllSheep[+]": [
+				"White ram (unchecked)",
+				"White sheep (unchecked)",
+				"Black ram (unchecked)",
+				"Black sheep (unchecked)",
+				"Summerdown sheep (unchecked)",
+				"Springsheared sheep (unchecked)",
+				"Winterwold sheep (unchecked)",
+				"Fallfaced sheep (unchecked)"
+			],
+			"AllSpicatiApoterrasaurs[+]": [
+				"Spicati apoterrasaur (unchecked)",
+				"Spicati apoterrasaur tilia (unchecked)",
+				"Spicati apoterrasaur purpura (unchecked)"
+			],
+			"AllSpiders[+]": [
+				"Spirit spider (unchecked)",
+				"Spider egg (unchecked)",
+				"Corpse spider (unchecked)",
+				"Night spider (unchecked)",
+				"Fever spider (unchecked)",
+				"Giant spider (unchecked)",
+				"Ice spider (unchecked)"
+			],
+			"AllVaranusaurs[+]": [
+				"Feral dinosaur (unchecked)",
+				"Venemous dinosaur (unchecked)",
+				"Ripper dinosaur (unchecked)"
+			],
+			"AllYaks[+]": [
+				"Fremennik yak (unchecked)",
+				"Spirit yak (unchecked)"
+			],
+			"AllZyogmites[+]": [
+				"Gloomshroom zygomite (unchecked)",
+				"Zanarian zygomite (unchecked)",
+				"Daemoncap zygomite (unchecked)",
+				"Arcspore zygomite (unchecked)"
+			],
+			
 			"AltSlayStaff[+]": [
 				"Abyssal orb",
 				"Abyssal wand",
