@@ -540,6 +540,7 @@
 					"Ranged": 1
 				},
 				"Priority": 4,
+				"Output": "Gnomeball",
 				"NoPet": true
 			},
 			"Catch a ~|leaping sturgeon|~": {
@@ -9187,7 +9188,7 @@
 		        "Priority": 8
 		    },
 		    "Unlock and use the ~|Slayer's Insight|~ ability": {
-		        "Chunks": ["12593"],
+		        "Items": ["Slayer's Insight ability"],
 		        "Level": 10,
 		        "Primary": false,
 		        "NoPet": true,
@@ -9201,21 +9202,21 @@
 		        "Priority": 10
 		    },
 		    "Unlock and use the ~|Dragon Slayer (ability)|~": {
-		        "Chunks": ["12593"],
+		        "Items": ["Dragon slayer ability codex"],
 		        "Level": 10,
 		        "Primary": false,
 		        "NoPet": true,
 		        "Priority": 11
 		    },
 		    "Unlock and use the ~|Demon Slayer (ability)|~": {
-		        "Chunks": ["12593"],
+		        "Items": ["Demon slayer ability codex"],
 		        "Level": 10,
 		        "Primary": false,
 		        "NoPet": true,
 		        "Priority": 12
 		    },
 		    "Unlock and use the ~|Undead Slayer (ability)|~": {
-		        "Chunks": ["12593"],
+		        "Items": ["Undead slayer ability codex"],
 		        "Level": 10,
 		        "Primary": false,
 		        "NoPet": true,
@@ -24371,7 +24372,7 @@
 				"NoBoost": true
 			},
 			"Unlock the ~|Aggression|~ ability": {
-				"Chunks": ["12593"],
+				"Items": ["Aggression ability"],
 				"Level": 1,
 				"Primary": false,
 				"Priority": 10,
@@ -112884,6 +112885,7 @@
 				"Label": "Skilling Pets",
 				"Items": ["Woody"]
 			},
+			
 			"(Golden Fish Eggs) Obtain ~|golden leaping trout eggs|~": {
 				"Category": ["Untracked Uniques", "Untracked Uniques Skilling"],
 				"Label": "Untracked Skilling Uniques",
@@ -113107,6 +113109,307 @@
 				"Label": "Untracked Skilling Uniques",
 				"Items": ["Crystal acorn"]
 			},
+			"(Deep Sea Fishing) Obtain a ~|barrel of bait|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Skilling"],
+				"Label": "Untracked Skilling Uniques",
+				"Chunks": ["Deep Sea Fishing Hub"]
+			},
+			"(Deep Sea Fishing) Obtain a ~|broken fishing rod|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Skilling"],
+				"Label": "Untracked Skilling Uniques",
+				"Chunks": ["Deep Sea Fishing Hub"]
+			},
+			"(Deep Sea Fishing) Obtain a ~|tangled fishbowl|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Skilling"],
+				"Label": "Untracked Skilling Uniques",
+				"Chunks": ["Deep Sea Fishing Hub"]
+			},
+			"(Deep Sea Fishing) Obtain a ~|message in a bottle|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Skilling"],
+				"Label": "Untracked Skilling Uniques",
+				"Chunks": ["Deep Sea Fishing Hub"]
+			},
+			"(Deep Sea Fishing) Obtain ~|fishing notes|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Skilling"],
+				"Label": "Untracked Skilling Uniques",
+				"Chunks": ["Deep Sea Fishing Hub"]
+			},
+			"(Deep Sea Fishing) Obtain ~|Gregg 'groggy' herring's ring|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Skilling"],
+				"Label": "Untracked Skilling Uniques",
+				"Chunks": ["Deep Sea Fishing Hub"]
+			},
+			"(Char's Training Cave) Obtain a ~|pitch can|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Skilling"],
+				"Label": "Untracked Skilling Uniques",
+				"Tasks": {
+					"~|The Firemaker's Curse|~ Finish the quest": "Quest"
+				},
+				"Chunks": ["Char's training cave"]
+			},
+			"(Char's Training Cave) Obtain ~|Glowing Ember|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Skilling", "Pets"],
+				"Label": "Untracked Skilling Uniques",
+				"Tasks": {
+					"~|The Firemaker's Curse|~ Finish the quest": "Quest"
+				},
+				"Chunks": ["Char's training cave"]
+			},
+			"(Char's Training Cave) Obtain ~|Warming Flame|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Skilling", "Pets"],
+				"Label": "Untracked Skilling Uniques",
+				"Tasks": {
+					"~|The Firemaker's Curse|~ Finish the quest": "Quest"
+				},
+				"Chunks": ["Char's training cave"]
+			},
+			"(Char's Training Cave) Obtain ~|Searing Flame|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Skilling", "Pets"],
+				"Label": "Untracked Skilling Uniques",
+				"Tasks": {
+					"~|The Firemaker's Curse|~ Finish the quest": "Quest"
+				},
+				"Chunks": ["Char's training cave"]
+			},
+			"(Char's Training Cave) Obtain ~|Twister Firestarter|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Skilling", "Pets"],
+				"Label": "Untracked Skilling Uniques",
+				"Tasks": {
+					"~|The Firemaker's Curse|~ Finish the quest": "Quest"
+				},
+				"Chunks": ["Char's training cave"]
+			},
+			"(Garden of Kharid) Obtain a ~|farmer's hat|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Skilling"],
+				"Label": "Untracked Skilling Uniques",
+				"Items": ["Farmer's hat"]
+			},
+			"(Garden of Kharid) Obtain a ~|farmer's hat add-on|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Skilling"],
+				"Label": "Untracked Skilling Uniques",
+				"Items": ["Farmer's hat add-on"]
+			},
+			"(Garden of Kharid) Obtain a ~|farmer's jacket|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Skilling"],
+				"Label": "Untracked Skilling Uniques",
+				"Items": ["Farmer's jacket"]
+			},
+			"(Garden of Kharid) Obtain ~|farmer's legwear|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Skilling"],
+				"Label": "Untracked Skilling Uniques",
+				"Items": ["Farmer's legwear"]
+			},
+			"(Garden of Kharid) Obtain ~|farmer's cuffs|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Skilling"],
+				"Label": "Untracked Skilling Uniques",
+				"Items": ["Farmer's cuffs"]
+			},
+			"(Garden of Kharid) Obtain ~|farmer's boots|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Skilling"],
+				"Label": "Untracked Skilling Uniques",
+				"Items": ["Farmer's boots"]
+			},
+			"(Garden of Kharid) Obtain a ~|supreme growth potion (universal)|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Skilling"],
+				"Label": "Untracked Skilling Uniques",
+				"Items": ["Supreme growth potion (universal)"]
+			},
+			"(Garden of Kharid) Obtain a ~|sand seed|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Skilling"],
+				"Label": "Untracked Skilling Uniques",
+				"Items": ["Sand seed"]
+			},
+			"(Garden of Kharid) Obtain a ~|mystical sand seed|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Skilling"],
+				"Label": "Untracked Skilling Uniques",
+				"Items": ["Mystical sand seed"]
+			},
+			"(Garden of Kharid) Obtain a ~|Crux Eqal hood|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Skilling"],
+				"Label": "Untracked Skilling Uniques",
+				"Items": ["Crux Eqal hood"]
+			},
+			"(Archaeology) Obtain a ~|complete tome|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Skilling"],
+				"Label": "Untracked Skilling Uniques",
+				"Items": ["Complete tome"]
+			},
+			"(Archaeology) Obtain a ~|tetracompas piece (left)|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Skilling"],
+				"Label": "Untracked Skilling Uniques",
+				"Items": ["Tetracompas piece (left)"]
+			},
+			"(Archaeology) Obtain a ~|tetracompas piece (right)|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Skilling"],
+				"Label": "Untracked Skilling Uniques",
+				"Items": ["Tetracompas piece (right)"]
+			},
+			"(Archaeology) Obtain a ~|tetracompas piece (dial)|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Skilling"],
+				"Label": "Untracked Skilling Uniques",
+				"Items": ["Tetracompas piece (dial)"]
+			},
+			"(Archaeology) Obtain a ~|tetracompas piece (needle)|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Skilling"],
+				"Label": "Untracked Skilling Uniques",
+				"Items": ["Tetracompas piece (needle)"]
+			},
+			"(Archaeology) Obtain the ~|ancient gladiator helm|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Skilling"],
+				"Label": "Untracked Skilling Uniques",
+				"Items": ["Ancient gladiator helm"]
+			},
+			"(Archaeology) Obtain a ~|slice of imcando metal|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Skilling"],
+				"Label": "Untracked Skilling Uniques",
+				"Items": ["Slice of imcando metal"]
+			},
+			"(Archaeology) Obtain a ~|shard of imcando metal|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Skilling"],
+				"Label": "Untracked Skilling Uniques",
+				"Items": ["Shard of imcando metal"]
+			},
+			"(Archaeology) Obtain a ~|lump of imcando metal|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Skilling"],
+				"Label": "Untracked Skilling Uniques",
+				"Items": ["Lump of imcando metal"]
+			},
+			"(Archaeology) Obtain a ~|chunk of imcando metal|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Skilling"],
+				"Label": "Untracked Skilling Uniques",
+				"Items": ["Chunk of imcando metal"]
+			},
+			"(Archaeology) Obtain ~|'The Epic of Hebe'|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Skilling"],
+				"Label": "Untracked Skilling Uniques",
+				"Items": ["'The Epic of Hebe'"]
+			},
+			"(Archaeology) Obtain ~|holy aggroverload recipe fragment 1|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Skilling"],
+				"Label": "Untracked Skilling Uniques",
+				"Items": ["Holy aggroverload recipe fragment 1"]
+			},
+			"(Archaeology) Obtain ~|holy aggroverload recipe fragment 2|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Skilling"],
+				"Label": "Untracked Skilling Uniques",
+				"Items": ["Holy aggroverload recipe fragment 2"]
+			},
+			"(Archaeology) Obtain ~|holy aggroverload recipe fragment 3|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Skilling"],
+				"Label": "Untracked Skilling Uniques",
+				"Items": ["Holy aggroverload recipe fragment 3"]
+			},
+			"(Archaeology) Obtain ~|holy aggroverload recipe fragment 4|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Skilling"],
+				"Label": "Untracked Skilling Uniques",
+				"Items": ["Holy aggroverload recipe fragment 4"]
+			},
+			"(Archaeology) Obtain ~|archaeology potion recipe fragment 1|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Skilling"],
+				"Label": "Untracked Skilling Uniques",
+				"Items": ["Archaeology potion recipe fragment 1"]
+			},
+			"(Archaeology) Obtain ~|archaeology potion recipe fragment 2|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Skilling"],
+				"Label": "Untracked Skilling Uniques",
+				"Items": ["Archaeology potion recipe fragment 2"]
+			},
+			"(Archaeology) Obtain ~|archaeology potion recipe fragment 3|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Skilling"],
+				"Label": "Untracked Skilling Uniques",
+				"Items": ["Archaeology potion recipe fragment 3"]
+			},
+			"(Archaeology) Obtain ~|archaeology potion recipe fragment 4|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Skilling"],
+				"Label": "Untracked Skilling Uniques",
+				"Items": ["Archaeology potion recipe fragment 4"]
+			},
+			"(Archaeology) Obtain ~|summoning renewal recipe fragment 1|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Skilling"],
+				"Label": "Untracked Skilling Uniques",
+				"Items": ["Summoning renewal recipe fragment 1"]
+			},
+			"(Archaeology) Obtain ~|summoning renewal recipe fragment 2|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Skilling"],
+				"Label": "Untracked Skilling Uniques",
+				"Items": ["Summoning renewal recipe fragment 2"]
+			},
+			"(Archaeology) Obtain ~|summoning renewal recipe fragment 3|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Skilling"],
+				"Label": "Untracked Skilling Uniques",
+				"Items": ["Summoning renewal recipe fragment 3"]
+			},
+			"(Archaeology) Obtain ~|summoning renewal recipe fragment 4|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Skilling"],
+				"Label": "Untracked Skilling Uniques",
+				"Items": ["Summoning renewal recipe fragment 4"]
+			},
+			"(Archaeology) Obtain ~|powerburt of opportunity recipe fragment 1|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Skilling"],
+				"Label": "Untracked Skilling Uniques",
+				"Items": ["Powerburt of opportunity recipe fragment 1"]
+			},
+			"(Archaeology) Obtain ~|powerburt of opportunity recipe fragment 2|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Skilling"],
+				"Label": "Untracked Skilling Uniques",
+				"Items": ["Powerburt of opportunity recipe fragment 2"]
+			},
+			"(Archaeology) Obtain ~|powerburt of opportunity recipe fragment 3|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Skilling"],
+				"Label": "Untracked Skilling Uniques",
+				"Items": ["Powerburt of opportunity recipe fragment 3"]
+			},
+			"(Archaeology) Obtain ~|powerburt of opportunity recipe fragment 4|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Skilling"],
+				"Label": "Untracked Skilling Uniques",
+				"Items": ["Powerburt of opportunity recipe fragment 4"]
+			},
+			"(Archaeology) Obtain ~|spirit attraction recipe fragment 1|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Skilling"],
+				"Label": "Untracked Skilling Uniques",
+				"Items": ["Spirit attraction recipe fragment 1"]
+			},
+			"(Archaeology) Obtain ~|spirit attraction recipe fragment 2|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Skilling"],
+				"Label": "Untracked Skilling Uniques",
+				"Items": ["Spirit attraction recipe fragment 2"]
+			},
+			"(Archaeology) Obtain ~|spirit attraction recipe fragment 3|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Skilling"],
+				"Label": "Untracked Skilling Uniques",
+				"Items": ["Spirit attraction recipe fragment 3"]
+			},
+			"(Archaeology) Obtain ~|spirit attraction recipe fragment 4|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Skilling"],
+				"Label": "Untracked Skilling Uniques",
+				"Items": ["Spirit attraction recipe fragment 4"]
+			},
+			"(Archaeology) Obtain the ~|Spear of Annihilation tip|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Skilling"],
+				"Label": "Untracked Skilling Uniques",
+				"Items": ["Spear of Annihilation tip"]
+			},
+			"(Archaeology) Obtain the ~|Inquisitor's staff ornament|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Skilling"],
+				"Label": "Untracked Skilling Uniques",
+				"Items": ["Inquisitor's staff ornament"]
+			},
+			"(Archaeology) Obtain the ~|Inquisitor's staff rod|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Skilling"],
+				"Label": "Untracked Skilling Uniques",
+				"Items": ["Inquisitor's staff rod"]
+			},
+			"(Archaeology) Obtain the ~|Inquisitor's staff censer|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Skilling"],
+				"Label": "Untracked Skilling Uniques",
+				"Items": ["Inquisitor's staff censer"]
+			},
+			
+			
+			
+			
+			
+			
 			"(Champion Scrolls) Obtain the ~|imp champion's scroll|~": {
 				"Category": ["Untracked Uniques", "Untracked Uniques Combat"],
 				"Label": "Untracked Combat Uniques",
@@ -113901,24 +114204,6 @@
 				"Items": ["Superior ancient mace"],
 				"Not F2P": true
 			},
-			"(Broodoo) Obtain a ~|tribal mask (green)|~": {
-				"Category": ["Untracked Uniques", "Untracked Uniques Combat"],
-				"Label": "Untracked Combat Uniques",
-				"Items": ["Tribal mask (green)"],
-				"Not F2P": true
-			},
-			"(Broodoo) Obtain a ~|tribal mask (orange)|~": {
-				"Category": ["Untracked Uniques", "Untracked Uniques Combat"],
-				"Label": "Untracked Combat Uniques",
-				"Items": ["Tribal mask (orange)"],
-				"Not F2P": true
-			},
-			"(Broodoo) Obtain a ~|tribal mask (blue)|~": {
-				"Category": ["Untracked Uniques", "Untracked Uniques Combat"],
-				"Label": "Untracked Combat Uniques",
-				"Items": ["Tribal mask (blue)"],
-				"Not F2P": true
-			},
 			"(Chaos Druids) Obtain a ~|druid's robe (top)|~": {
 				"Category": ["Untracked Uniques", "Untracked Uniques Combat"],
 				"Label": "Untracked Combat Uniques",
@@ -114441,11 +114726,2390 @@
 				"Items": ["Rusty scimitar"],
 				"Not F2P": true
 			},
-			"(Rush of Blood) Obtain a ~|Slayer VIP ticket|~": {
+			"(Artisans' Workshop) Obtain the ~|dwarven instinct fragment 1|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Minigames"],
+				"Label": "Untracked Minigame Uniques",
+				"Items": ["Dwarven instinct fragment 1"]
+			},
+			"(Artisans' Workshop) Obtain the ~|dwarven instinct fragment 2|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Minigames"],
+				"Label": "Untracked Minigame Uniques",
+				"Items": ["Dwarven instinct fragment 2"]
+			},
+			"(Artisans' Workshop) Obtain the ~|gold dwarf multicannon|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Minigames"],
+				"Label": "Untracked Minigame Uniques",
+				"Items": ["Gold dwarf multicannon"]
+			},
+			"(Artisans' Workshop) Obtain the ~|royale cannon|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Minigames"],
+				"Label": "Untracked Minigame Uniques",
+				"Items": ["Royale multicannon"]
+			},
+			"(Artisans' Workshop) Obtain the ~|blacksmith's helmet|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Minigames"],
+				"Label": "Untracked Minigame Uniques",
+				"Items": ["Blacksmith's helmet"]
+			},
+			"(Artisans' Workshop) Obtain the ~|blacksmith's apron|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Minigames"],
+				"Label": "Untracked Minigame Uniques",
+				"Items": ["Blacksmith's apron"]
+			},
+			"(Artisans' Workshop) Obtain the ~|blacksmith's top|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Minigames"],
+				"Label": "Untracked Minigame Uniques",
+				"Items": ["Blacksmith's top"]
+			},
+			"(Artisans' Workshop) Obtain the ~|blacksmith's gloves|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Minigames"],
+				"Label": "Untracked Minigame Uniques",
+				"Items": ["Blacksmith's gloves"]
+			},
+			"(Artisans' Workshop) Obtain the ~|blacksmith's boots|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Minigames"],
+				"Label": "Untracked Minigame Uniques",
+				"Items": ["Blacksmith's boots"]
+			},
+			"(Artisans' Workshop) Obtain the ~|blacksmith's helmet add-on|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Minigames"],
+				"Label": "Untracked Minigame Uniques",
+				"Items": ["Blacksmith's helmet add-on"]
+			},
+			"(Artisans' Workshop) Obtain the ~|necturion outfit|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Minigames"],
+				"Label": "Untracked Minigame Uniques",
+				"Items": ["Necturion Outfit"]
+			},
+			"(Artisans' Workshop) Obtain the ~|invictum outfit|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Minigames"],
+				"Label": "Untracked Minigame Uniques",
+				"Items": ["Invictum Outfit"]
+			},
+			"(Artisans' Workshop) Obtain the ~|aetherium outfit|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Minigames"],
+				"Label": "Untracked Minigame Uniques",
+				"Items": ["Aetherium Outfit"]
+			},
+			"(Artisans' Workshop) Obtain any ~|iron ceremonial sword|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Minigames"],
+				"Label": "Untracked Minigame Uniques",
+				"Items": ["Ceremonial sword"]
+			},
+			"(Artisans' Workshop) Obtain any ~|off-hand iron ceremonial sword|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Minigames"],
+				"Label": "Untracked Minigame Uniques",
+				"Items": ["Ceremonial sword"]
+			},
+			"(Artisans' Workshop) Obtain any ~|steel ceremonial sword|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Minigames"],
+				"Label": "Untracked Minigame Uniques",
+				"Items": ["Ceremonial sword"]
+			},
+			"(Artisans' Workshop) Obtain any ~|off-hand steel ceremonial sword|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Minigames"],
+				"Label": "Untracked Minigame Uniques",
+				"Items": ["Ceremonial sword"]
+			},
+			"(Artisans' Workshop) Obtain any ~|mithril ceremonial sword|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Minigames"],
+				"Label": "Untracked Minigame Uniques",
+				"Items": ["Ceremonial sword"]
+			},
+			"(Artisans' Workshop) Obtain any ~|off-hand mithril ceremonial sword|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Minigames"],
+				"Label": "Untracked Minigame Uniques",
+				"Items": ["Ceremonial sword"]
+			},
+			"(Artisans' Workshop) Obtain any ~|adamant ceremonial sword|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Minigames"],
+				"Label": "Untracked Minigame Uniques",
+				"Items": ["Ceremonial sword"]
+			},
+			"(Artisans' Workshop) Obtain any ~|off-hand adamant ceremonial sword|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Minigames"],
+				"Label": "Untracked Minigame Uniques",
+				"Items": ["Ceremonial sword"]
+			},
+			"(Artisans' Workshop) Obtain any ~|rune ceremonial sword|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Minigames"],
+				"Label": "Untracked Minigame Uniques",
+				"Items": ["Ceremonial sword"]
+			},
+			"(Artisans' Workshop) Obtain any ~|off-hand rune ceremonial sword|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Minigames"],
+				"Label": "Untracked Minigame Uniques",
+				"Items": ["Ceremonial sword"]
+			},
+			"Obtain an ~|iron ceremonial sword I|~": {
+				"Category": ["Ceremonial Swords"],
+				"Label": "All Ceremonial Swords",
+				"Items": ["Ceremonial sword"]
+			},
+			"Obtain an ~|off-hand iron ceremonial sword I|~": {
+				"Category": ["Ceremonial Swords"],
+				"Label": "All Ceremonial Swords",
+				"Items": ["Ceremonial sword"]
+			},
+			"Obtain an ~|iron ceremonial sword II|~": {
+				"Category": ["Ceremonial Swords"],
+				"Label": "All Ceremonial Swords",
+				"Items": ["Ceremonial sword"]
+			},
+			"Obtain an ~|off-hand iron ceremonial sword II|~": {
+				"Category": ["Ceremonial Swords"],
+				"Label": "All Ceremonial Swords",
+				"Items": ["Ceremonial sword"]
+			},
+			"Obtain an ~|iron ceremonial sword III|~": {
+				"Category": ["Ceremonial Swords"],
+				"Label": "All Ceremonial Swords",
+				"Items": ["Ceremonial sword"]
+			},
+			"Obtain an ~|off-hand iron ceremonial sword III|~": {
+				"Category": ["Ceremonial Swords"],
+				"Label": "All Ceremonial Swords",
+				"Items": ["Ceremonial sword"]
+			},
+			"Obtain an ~|iron ceremonial sword IV|~": {
+				"Category": ["Ceremonial Swords"],
+				"Label": "All Ceremonial Swords",
+				"Items": ["Ceremonial sword"]
+			},
+			"Obtain an ~|off-hand iron ceremonial sword IV|~": {
+				"Category": ["Ceremonial Swords"],
+				"Label": "All Ceremonial Swords",
+				"Items": ["Ceremonial sword"]
+			},
+			"Obtain an ~|iron ceremonial sword V|~": {
+				"Category": ["Ceremonial Swords"],
+				"Label": "All Ceremonial Swords",
+				"Items": ["Ceremonial sword"]
+			},
+			"Obtain an ~|off-hand iron ceremonial sword V|~": {
+				"Category": ["Ceremonial Swords"],
+				"Label": "All Ceremonial Swords",
+				"Items": ["Ceremonial sword"]
+			},
+			"Obtain an ~|steel ceremonial sword I|~": {
+				"Category": ["Ceremonial Swords"],
+				"Label": "All Ceremonial Swords",
+				"Items": ["Ceremonial sword"]
+			},
+			"Obtain an ~|off-hand steel ceremonial sword I|~": {
+				"Category": ["Ceremonial Swords"],
+				"Label": "All Ceremonial Swords",
+				"Items": ["Ceremonial sword"]
+			},
+			"Obtain an ~|steel ceremonial sword II|~": {
+				"Category": ["Ceremonial Swords"],
+				"Label": "All Ceremonial Swords",
+				"Items": ["Ceremonial sword"]
+			},
+			"Obtain an ~|off-hand steel ceremonial sword II|~": {
+				"Category": ["Ceremonial Swords"],
+				"Label": "All Ceremonial Swords",
+				"Items": ["Ceremonial sword"]
+			},
+			"Obtain an ~|steel ceremonial sword III|~": {
+				"Category": ["Ceremonial Swords"],
+				"Label": "All Ceremonial Swords",
+				"Items": ["Ceremonial sword"]
+			},
+			"Obtain an ~|off-hand steel ceremonial sword III|~": {
+				"Category": ["Ceremonial Swords"],
+				"Label": "All Ceremonial Swords",
+				"Items": ["Ceremonial sword"]
+			},
+			"Obtain an ~|steel ceremonial sword IV|~": {
+				"Category": ["Ceremonial Swords"],
+				"Label": "All Ceremonial Swords",
+				"Items": ["Ceremonial sword"]
+			},
+			"Obtain an ~|off-hand steel ceremonial sword IV|~": {
+				"Category": ["Ceremonial Swords"],
+				"Label": "All Ceremonial Swords",
+				"Items": ["Ceremonial sword"]
+			},
+			"Obtain an ~|steel ceremonial sword V|~": {
+				"Category": ["Ceremonial Swords"],
+				"Label": "All Ceremonial Swords",
+				"Items": ["Ceremonial sword"]
+			},
+			"Obtain an ~|off-hand steel ceremonial sword V|~": {
+				"Category": ["Ceremonial Swords"],
+				"Label": "All Ceremonial Swords",
+				"Items": ["Ceremonial sword"]
+			},
+			"Obtain an ~|mithril ceremonial sword I|~": {
+				"Category": ["Ceremonial Swords"],
+				"Label": "All Ceremonial Swords",
+				"Items": ["Ceremonial sword"]
+			},
+			"Obtain an ~|off-hand mithril ceremonial sword I|~": {
+				"Category": ["Ceremonial Swords"],
+				"Label": "All Ceremonial Swords",
+				"Items": ["Ceremonial sword"]
+			},
+			"Obtain an ~|mithril ceremonial sword II|~": {
+				"Category": ["Ceremonial Swords"],
+				"Label": "All Ceremonial Swords",
+				"Items": ["Ceremonial sword"]
+			},
+			"Obtain an ~|off-hand mithril ceremonial sword II|~": {
+				"Category": ["Ceremonial Swords"],
+				"Label": "All Ceremonial Swords",
+				"Items": ["Ceremonial sword"]
+			},
+			"Obtain an ~|mithril ceremonial sword III|~": {
+				"Category": ["Ceremonial Swords"],
+				"Label": "All Ceremonial Swords",
+				"Items": ["Ceremonial sword"]
+			},
+			"Obtain an ~|off-hand mithril ceremonial sword III|~": {
+				"Category": ["Ceremonial Swords"],
+				"Label": "All Ceremonial Swords",
+				"Items": ["Ceremonial sword"]
+			},
+			"Obtain an ~|mithril ceremonial sword IV|~": {
+				"Category": ["Ceremonial Swords"],
+				"Label": "All Ceremonial Swords",
+				"Items": ["Ceremonial sword"]
+			},
+			"Obtain an ~|off-hand mithril ceremonial sword IV|~": {
+				"Category": ["Ceremonial Swords"],
+				"Label": "All Ceremonial Swords",
+				"Items": ["Ceremonial sword"]
+			},
+			"Obtain an ~|mithril ceremonial sword V|~": {
+				"Category": ["Ceremonial Swords"],
+				"Label": "All Ceremonial Swords",
+				"Items": ["Ceremonial sword"]
+			},
+			"Obtain an ~|off-hand mithril ceremonial sword V|~": {
+				"Category": ["Ceremonial Swords"],
+				"Label": "All Ceremonial Swords",
+				"Items": ["Ceremonial sword"]
+			},
+			"Obtain an ~|adamant ceremonial sword I|~": {
+				"Category": ["Ceremonial Swords"],
+				"Label": "All Ceremonial Swords",
+				"Items": ["Ceremonial sword"]
+			},
+			"Obtain an ~|off-hand adamant ceremonial sword I|~": {
+				"Category": ["Ceremonial Swords"],
+				"Label": "All Ceremonial Swords",
+				"Items": ["Ceremonial sword"]
+			},
+			"Obtain an ~|adamant ceremonial sword II|~": {
+				"Category": ["Ceremonial Swords"],
+				"Label": "All Ceremonial Swords",
+				"Items": ["Ceremonial sword"]
+			},
+			"Obtain an ~|off-hand adamant ceremonial sword II|~": {
+				"Category": ["Ceremonial Swords"],
+				"Label": "All Ceremonial Swords",
+				"Items": ["Ceremonial sword"]
+			},
+			"Obtain an ~|adamant ceremonial sword III|~": {
+				"Category": ["Ceremonial Swords"],
+				"Label": "All Ceremonial Swords",
+				"Items": ["Ceremonial sword"]
+			},
+			"Obtain an ~|off-hand adamant ceremonial sword III|~": {
+				"Category": ["Ceremonial Swords"],
+				"Label": "All Ceremonial Swords",
+				"Items": ["Ceremonial sword"]
+			},
+			"Obtain an ~|adamant ceremonial sword IV|~": {
+				"Category": ["Ceremonial Swords"],
+				"Label": "All Ceremonial Swords",
+				"Items": ["Ceremonial sword"]
+			},
+			"Obtain an ~|off-hand adamant ceremonial sword IV|~": {
+				"Category": ["Ceremonial Swords"],
+				"Label": "All Ceremonial Swords",
+				"Items": ["Ceremonial sword"]
+			},
+			"Obtain an ~|adamant ceremonial sword V|~": {
+				"Category": ["Ceremonial Swords"],
+				"Label": "All Ceremonial Swords",
+				"Items": ["Ceremonial sword"]
+			},
+			"Obtain an ~|off-hand adamant ceremonial sword V|~": {
+				"Category": ["Ceremonial Swords"],
+				"Label": "All Ceremonial Swords",
+				"Items": ["Ceremonial sword"]
+			},
+			"Obtain an ~|rune ceremonial sword I|~": {
+				"Category": ["Ceremonial Swords"],
+				"Label": "All Ceremonial Swords",
+				"Items": ["Ceremonial sword"]
+			},
+			"Obtain an ~|off-hand rune ceremonial sword I|~": {
+				"Category": ["Ceremonial Swords"],
+				"Label": "All Ceremonial Swords",
+				"Items": ["Ceremonial sword"]
+			},
+			"Obtain an ~|rune ceremonial sword II|~": {
+				"Category": ["Ceremonial Swords"],
+				"Label": "All Ceremonial Swords",
+				"Items": ["Ceremonial sword"]
+			},
+			"Obtain an ~|off-hand rune ceremonial sword II|~": {
+				"Category": ["Ceremonial Swords"],
+				"Label": "All Ceremonial Swords",
+				"Items": ["Ceremonial sword"]
+			},
+			"Obtain an ~|rune ceremonial sword III|~": {
+				"Category": ["Ceremonial Swords"],
+				"Label": "All Ceremonial Swords",
+				"Items": ["Ceremonial sword"]
+			},
+			"Obtain an ~|off-hand rune ceremonial sword III|~": {
+				"Category": ["Ceremonial Swords"],
+				"Label": "All Ceremonial Swords",
+				"Items": ["Ceremonial sword"]
+			},
+			"Obtain an ~|rune ceremonial sword IV|~": {
+				"Category": ["Ceremonial Swords"],
+				"Label": "All Ceremonial Swords",
+				"Items": ["Ceremonial sword"]
+			},
+			"Obtain an ~|off-hand rune ceremonial sword IV|~": {
+				"Category": ["Ceremonial Swords"],
+				"Label": "All Ceremonial Swords",
+				"Items": ["Ceremonial sword"]
+			},
+			"Obtain an ~|rune ceremonial sword V|~": {
+				"Category": ["Ceremonial Swords"],
+				"Label": "All Ceremonial Swords",
+				"Items": ["Ceremonial sword"]
+			},
+			"Obtain an ~|off-hand rune ceremonial sword V|~": {
+				"Category": ["Ceremonial Swords"],
+				"Label": "All Ceremonial Swords",
+				"Items": ["Ceremonial sword"]
+			},
+			"(Barbarian Assault) Obtain a ~|fighter hat|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Minigames"],
+				"Label": "Untracked Minigame Uniques",
+				"Items": ["Fighter hat"]
+			},
+			"(Barbarian Assault) Obtain a ~|healer hat|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Minigames"],
+				"Label": "Untracked Minigame Uniques",
+				"Items": ["Healer hat"]
+			},
+			"(Barbarian Assault) Obtain a ~|runner hat|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Minigames"],
+				"Label": "Untracked Minigame Uniques",
+				"Items": ["Runner hat"]
+			},
+			"(Barbarian Assault) Obtain a ~|ranger hat|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Minigames"],
+				"Label": "Untracked Minigame Uniques",
+				"Items": ["Ranger hat"]
+			},
+			"(Barbarian Assault) Obtain a ~|fighter torso|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Minigames"],
+				"Label": "Untracked Minigame Uniques",
+				"Items": ["Fighter torso"]
+			},
+			"(Barbarian Assault) Obtain a ~|penance skirt|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Minigames"],
+				"Label": "Untracked Minigame Uniques",
+				"Items": ["Penance skirt"]
+			},
+			"(Barbarian Assault) Obtain ~|runner boots|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Minigames"],
+				"Label": "Untracked Minigame Uniques",
+				"Items": ["Runner boots"]
+			},
+			"(Barbarian Assault) Obtain ~|penance gloves|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Minigames"],
+				"Label": "Untracked Minigame Uniques",
+				"Items": ["Penance gloves"]
+			},
+			"(Barbarian Assault) Obtain a ~|granite body|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Minigames"],
+				"Label": "Untracked Minigame Uniques",
+				"Items": ["Granite body"]
+			},
+			"(Barbarian Assault) Obtain a ~|barbarian assault armour patch|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Minigames"],
+				"Label": "Untracked Minigame Uniques",
+				"Items": ["Barbarian assault armour patch"]
+			},
+			"(Barbarian Assault) Obtain a ~|penance trident|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Minigames"],
+				"Label": "Untracked Minigame Uniques",
+				"Items": ["Penance trident"]
+			},
+			"(Barbarian Assault) Obtain a ~|penance master trident|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Minigames"],
+				"Label": "Untracked Minigame Uniques",
+				"Items": ["Penance master trident"]
+			},
+			"(Barbarian Assault) Obtain ~|penance egg paint (blue)|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Minigames"],
+				"Label": "Untracked Minigame Uniques",
+				"Items": ["Penance egg paint (Blue)"]
+			},
+			"(Barbarian Assault) Obtain ~|penance egg paint (yellow)|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Minigames"],
+				"Label": "Untracked Minigame Uniques",
+				"Items": ["Penance egg paint (Yellow)"]
+			},
+			"(Barbarian Assault) Obtain ~|penance egg paint (white)|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Minigames"],
+				"Label": "Untracked Minigame Uniques",
+				"Items": ["Penance egg paint (White)"]
+			},
+			"(Barbarian Assault) Obtain ~|penance egg paint (green)|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Minigames"],
+				"Label": "Untracked Minigame Uniques",
+				"Items": ["Penance egg paint (Green)"]
+			},
+			"(Barbarian Assault) Obtain an ~|attacker's insignia|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Minigames"],
+				"Label": "Untracked Minigame Uniques",
+				"Items": ["Attacker's insignia"]
+			},
+			"(Barbarian Assault) Obtain an ~|healer's insignia|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Minigames"],
+				"Label": "Untracked Minigame Uniques",
+				"Items": ["Healer's insignia"]
+			},
+			"(Barbarian Assault) Obtain an ~|collector's insignia|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Minigames"],
+				"Label": "Untracked Minigame Uniques",
+				"Items": ["Collector's insignia"]
+			},
+			"(Barbarian Assault) Obtain an ~|defender's insignia|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Minigames"],
+				"Label": "Untracked Minigame Uniques",
+				"Items": ["Defender's insignia"]
+			},
+			"(Barbarian Assault) Obtain a ~|penance horn|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Minigames"],
+				"Label": "Untracked Minigame Uniques",
+				"Items": ["Penance horn"]
+			},
+			"(Barbarian Assault) Obtain a ~|penance master horn|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Minigames"],
+				"Label": "Untracked Minigame Uniques",
+				"Items": ["Penance master horn"]
+			},
+			"(Barbarian Assault) Obtain ~|The Account of Aesa Fellsdottir (Part 1)|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Minigames"],
+				"Label": "Untracked Minigame Uniques",
+				"Items": ["The Account of Aesa Fellsdottir (Part 1)"]
+			},
+			"(Barbarian Assault) Obtain ~|The Account of Aesa Fellsdottir (Part 2)|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Minigames"],
+				"Label": "Untracked Minigame Uniques",
+				"Items": ["The Account of Aesa Fellsdottir (Part 2)"]
+			},
+			"(Castle Wars) Obtain a ~|basic decorative helm|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Minigames"],
+				"Label": "Untracked Minigame Uniques",
+				"Items": ["Basic decorative helm"]
+			},
+			"(Castle Wars) Obtain a ~|basic decorative shield|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Minigames"],
+				"Label": "Untracked Minigame Uniques",
+				"Items": ["Basic decorative shield"]
+			},
+			"(Castle Wars) Obtain a ~|basic decorative platelegs|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Minigames"],
+				"Label": "Untracked Minigame Uniques",
+				"Items": ["Basic decorative platelegs"]
+			},
+			"(Castle Wars) Obtain a ~|basic decorative platebody|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Minigames"],
+				"Label": "Untracked Minigame Uniques",
+				"Items": ["Basic decorative platebody"]
+			},
+			"(Castle Wars) Obtain a ~|basic decorative sword|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Minigames"],
+				"Label": "Untracked Minigame Uniques",
+				"Items": ["Basic decorative sword"]
+			},
+			"(Castle Wars) Obtain a ~|detailed decorative helm|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Minigames"],
+				"Label": "Untracked Minigame Uniques",
+				"Items": ["Detailed decorative helm"]
+			},
+			"(Castle Wars) Obtain a ~|detailed decorative shield|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Minigames"],
+				"Label": "Untracked Minigame Uniques",
+				"Items": ["Detailed decorative shield"]
+			},
+			"(Castle Wars) Obtain a ~|detailed decorative platelegs|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Minigames"],
+				"Label": "Untracked Minigame Uniques",
+				"Items": ["Detailed decorative platelegs"]
+			},
+			"(Castle Wars) Obtain a ~|detailed decorative platebody|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Minigames"],
+				"Label": "Untracked Minigame Uniques",
+				"Items": ["Detailed decorative platebody"]
+			},
+			"(Castle Wars) Obtain a ~|detailed decorative sword|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Minigames"],
+				"Label": "Untracked Minigame Uniques",
+				"Items": ["Detailed decorative sword"]
+			},
+			"(Castle Wars) Obtain a ~|intricate decorative helm|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Minigames"],
+				"Label": "Untracked Minigame Uniques",
+				"Items": ["Intricate decorative helm"]
+			},
+			"(Castle Wars) Obtain a ~|intricate decorative shield|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Minigames"],
+				"Label": "Untracked Minigame Uniques",
+				"Items": ["Intricate decorative shield"]
+			},
+			"(Castle Wars) Obtain a ~|intricate decorative platelegs|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Minigames"],
+				"Label": "Untracked Minigame Uniques",
+				"Items": ["Intricate decorative platelegs"]
+			},
+			"(Castle Wars) Obtain a ~|intricate decorative platebody|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Minigames"],
+				"Label": "Untracked Minigame Uniques",
+				"Items": ["Intricate decorative platebody"]
+			},
+			"(Castle Wars) Obtain a ~|intricate decorative sword|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Minigames"],
+				"Label": "Untracked Minigame Uniques",
+				"Items": ["Intricate decorative sword"]
+			},
+			"(Castle Wars) Obtain a ~|profound decorative helm|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Minigames"],
+				"Label": "Untracked Minigame Uniques",
+				"Items": ["Profound decorative helm"]
+			},
+			"(Castle Wars) Obtain a ~|profound decorative shield|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Minigames"],
+				"Label": "Untracked Minigame Uniques",
+				"Items": ["Profound decorative shield"]
+			},
+			"(Castle Wars) Obtain a ~|profound decorative platelegs|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Minigames"],
+				"Label": "Untracked Minigame Uniques",
+				"Items": ["Profound decorative platelegs"]
+			},
+			"(Castle Wars) Obtain a ~|profound decorative platebody|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Minigames"],
+				"Label": "Untracked Minigame Uniques",
+				"Items": ["Profound decorative platebody"]
+			},
+			"(Castle Wars) Obtain a ~|profound decorative sword|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Minigames"],
+				"Label": "Untracked Minigame Uniques",
+				"Items": ["Profound decorative sword"]
+			},
+			"(Castle Wars) Obtain a ~|faithful shield|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Minigames"],
+				"Label": "Untracked Minigame Uniques",
+				"Items": ["Faithful shield"]
+			},
+			"(Castle Wars) Obtain a ~|Guthix halo|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Minigames"],
+				"Label": "Untracked Minigame Uniques",
+				"Items": ["Guthix halo"]
+			},
+			"(Castle Wars) Obtain a ~|Saradomin halo|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Minigames"],
+				"Label": "Untracked Minigame Uniques",
+				"Items": ["Saradomin halo"]
+			},
+			"(Castle Wars) Obtain a ~|Zamorak halo|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Minigames"],
+				"Label": "Untracked Minigame Uniques",
+				"Items": ["Zamorak halo"]
+			},
+			"(Castle Wars) Obtain a ~|trickster helm|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Minigames"],
+				"Label": "Untracked Minigame Uniques",
+				"Items": ["Trickster helm"]
+			},
+			"(Castle Wars) Obtain a ~|battle-mage helm|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Minigames"],
+				"Label": "Untracked Minigame Uniques",
+				"Items": ["Battle-mage helm"]
+			},
+			"(Castle Wars) Obtain a ~|vangaurd helm|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Minigames"],
+				"Label": "Untracked Minigame Uniques",
+				"Items": ["Vanguard helm"]
+			},
+			"(Castle Wars) Obtain a ~|Saradomin team hood|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Minigames"],
+				"Label": "Untracked Minigame Uniques",
+				"Items": ["Saradomin team hood"]
+			},
+			"(Castle Wars) Obtain a ~|Saradomin team cape|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Minigames"],
+				"Label": "Untracked Minigame Uniques",
+				"Items": ["Saradomin team cape"]
+			},
+			"(Castle Wars) Obtain a ~|Zamorak team hood|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Minigames"],
+				"Label": "Untracked Minigame Uniques",
+				"Items": ["Zamorak team hood"]
+			},
+			"(Castle Wars) Obtain a ~|Zamorak team cape|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Minigames"],
+				"Label": "Untracked Minigame Uniques",
+				"Items": ["Zamorak team cape"]
+			},
+			"(Castle Wars) Obtain a ~|Castle Wars flag cape|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Minigames"],
+				"Label": "Untracked Minigame Uniques",
+				"Items": ["Castle Wars flag cape"]
+			},
+			"(Castle Wars) Obtain a ~|Castle Wars kills cape|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Minigames"],
+				"Label": "Untracked Minigame Uniques",
+				"Items": ["Castle Wars kills cape"]
+			},
+			"(Castle Wars) Obtain a ~|Castle Wars hobbyist cape|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Minigames"],
+				"Label": "Untracked Minigame Uniques",
+				"Items": ["Castle Wars hobbyist cape"]
+			},
+			"(Castle Wars) Obtain a ~|Castle Wars enthusiast cape|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Minigames"],
+				"Label": "Untracked Minigame Uniques",
+				"Items": ["Castle Wars enthusiast cape"]
+			},
+			"(Castle Wars) Obtain a ~|Castle Wars professional cape|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Minigames"],
+				"Label": "Untracked Minigame Uniques",
+				"Items": ["Castle Wars professional cape"]
+			},
+			"(Conquest & Pest Control) Obtain a ~|void knight mace|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Minigames"],
+				"Label": "Untracked Minigame Uniques",
+				"Items": ["Void knight mace"]
+			},
+			"(Conquest & Pest Control) Obtain a ~|void knight top|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Minigames"],
+				"Label": "Untracked Minigame Uniques",
+				"Items": ["Void knight top"]
+			},
+			"(Conquest & Pest Control) Obtain a ~|void knight robes|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Minigames"],
+				"Label": "Untracked Minigame Uniques",
+				"Items": ["Void knight robes"]
+			},
+			"(Conquest & Pest Control) Obtain a ~|void knight gloves|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Minigames"],
+				"Label": "Untracked Minigame Uniques",
+				"Items": ["Void knight gloves"]
+			},
+			"(Conquest & Pest Control) Obtain a ~|void knight melee helm|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Minigames"],
+				"Label": "Untracked Minigame Uniques",
+				"Items": ["Void knight melee helm"]
+			},
+			"(Conquest & Pest Control) Obtain a ~|void knight mage helm|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Minigames"],
+				"Label": "Untracked Minigame Uniques",
+				"Items": ["Void knight mage helm"]
+			},
+			"(Conquest & Pest Control) Obtain a ~|void knight ranger helm|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Minigames"],
+				"Label": "Untracked Minigame Uniques",
+				"Items": ["Void knight ranger helm"]
+			},
+			"(Conquest & Pest Control) Obtain a ~|void knight deflector|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Minigames"],
+				"Label": "Untracked Minigame Uniques",
+				"Items": ["Void knight deflector"]
+			},
+			"(Conquest & Pest Control) Obtain a ~|void knight armour patch|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Minigames"],
+				"Label": "Untracked Minigame Uniques",
+				"Items": ["Void knight armour patch"]
+			},
+			"(Conquest & Pest Control) Obtain ~|Jessika's sword|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Minigames"],
+				"Label": "Untracked Minigame Uniques",
+				"Items": ["Jessika's sword"]
+			},
+			"(Conquest & Pest Control) Obtain a ~|ravager charm|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Minigames"],
+				"Label": "Untracked Minigame Uniques",
+				"Items": ["Ravager charm"]
+			},
+			"(Conquest & Pest Control) Obtain a ~|shifter charm|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Minigames"],
+				"Label": "Untracked Minigame Uniques",
+				"Items": ["Shifter charm"]
+			},
+			"(Conquest & Pest Control) Obtain a ~|torcher charm|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Minigames"],
+				"Label": "Untracked Minigame Uniques",
+				"Items": ["Torcher charm"]
+			},
+			"(Conquest & Pest Control) Obtain a ~|spinner charm|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Minigames"],
+				"Label": "Untracked Minigame Uniques",
+				"Items": ["Spinner charm"]
+			},
+			"(Conquest & Pest Control) Obtain ~|battle-mage boots|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Minigames"],
+				"Label": "Untracked Minigame Uniques",
+				"Items": ["Battle-mage boots"]
+			},
+			"(Conquest & Pest Control) Obtain ~|trickster boots|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Minigames"],
+				"Label": "Untracked Minigame Uniques",
+				"Items": ["Trickster boots"]
+			},
+			"(Conquest & Pest Control) Obtain ~|vanguard boots|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Minigames"],
+				"Label": "Untracked Minigame Uniques",
+				"Items": ["Vanguard boots"]
+			},
+			"(Deathmatch) Obtain a ~|supreme hunter's helm|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Minigames"],
+				"Label": "Untracked Minigame Uniques",
+				"Items": ["Supreme hunter's helm"]
+			},
+			"(Deathmatch) Obtain ~|corrupt rogue gloves|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Minigames"],
+				"Label": "Untracked Minigame Uniques",
+				"Items": ["Corrupt rogue gloves"]
+			},
+			"(Deathmatch) Obtain ~|nasty rogue gloves|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Minigames"],
+				"Label": "Untracked Minigame Uniques",
+				"Items": ["Nasty rogue gloves"]
+			},
+			"(Deathmatch) Obtain ~|malicious rogue gloves|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Minigames"],
+				"Label": "Untracked Minigame Uniques",
+				"Items": ["Malicious rogue gloves"]
+			},
+			"(Deathmatch) Obtain ~|loathsome rogue gloves|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Minigames"],
+				"Label": "Untracked Minigame Uniques",
+				"Items": ["Loathsome rogue gloves"]
+			},
+			"(Deathmatch) Obtain ~|atrocious rogue gloves|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Minigames"],
+				"Label": "Untracked Minigame Uniques",
+				"Items": ["Atrocious rogue gloves"]
+			},
+			"(Deathmatch) Obtain a ~|deathmatch taunt scroll|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Minigames"],
+				"Label": "Untracked Minigame Uniques",
+				"Items": ["Deathmatch taunt scroll"]
+			},
+			"(Deathmatch) Obtain a ~|deathmatch title scroll|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Minigames"],
+				"Label": "Untracked Minigame Uniques",
+				"Items": ["Deathmatch title scroll"]
+			},
+			"(Dominion Tower) Obtain ~|a journal page|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Minigames"],
+				"Label": "Untracked Minigame Uniques",
+				"Items": ["A journal page"]
+			},
+			"(Dominion Tower) Obtain a ~|dominion mine|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Minigames"],
+				"Label": "Untracked Minigame Uniques",
+				"Items": ["Dominion mine"]
+			},
+			"(Dominion Tower) Obtain a ~|ascendancy mine|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Minigames"],
+				"Label": "Untracked Minigame Uniques",
+				"Items": ["Ascendancy mine"]
+			},
+			"(Dominion Tower) Obtain a ~|dreadnip|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Minigames"],
+				"Label": "Untracked Minigame Uniques",
+				"Items": ["Dreadnip"]
+			},
+			"(Dominion Tower) Obtain a ~|dominion marker (stage 4)|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Minigames"],
+				"Label": "Untracked Minigame Uniques",
+				"Items": ["Dominion marker (stage 4)"]
+			},
+			"(Dominion Tower) Obtain a ~|dominion medallion|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Minigames"],
+				"Label": "Untracked Minigame Uniques",
+				"Items": ["Dominion medallion"]
+			},
+			"(Dominion Tower) Obtain a ~|super dominion medallion|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Minigames"],
+				"Label": "Untracked Minigame Uniques",
+				"Items": ["Super dominion medallion"]
+			},
+			"(Dominion Tower) Obtain a ~|extreme dominion medallion|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Minigames"],
+				"Label": "Untracked Minigame Uniques",
+				"Items": ["Extreme dominion medallion"]
+			},
+			"(Dominion Tower) Obtain ~|goliath gloves|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Minigames"],
+				"Label": "Untracked Minigame Uniques",
+				"Items": ["Goliath gloves"]
+			},
+			"(Dominion Tower) Obtain ~|spellcaster gloves|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Minigames"],
+				"Label": "Untracked Minigame Uniques",
+				"Items": ["Spellcater gloves"]
+			},
+			"(Dominion Tower) Obtain ~|swift gloves|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Minigames"],
+				"Label": "Untracked Minigame Uniques",
+				"Items": ["Swift gloves"]
+			},
+			"(Soul Wars) Obtain a ~|TzRek-Jad|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Minigames"],
+				"Label": "Untracked Minigame Uniques",
+				"Items": ["TzRek-Jad"]
+			},
+			"(Soul Wars) Obtain ~|trickster robe legs|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Minigames"],
+				"Label": "Untracked Minigame Uniques",
+				"Items": ["Trickster robe legs"]
+			},
+			"(Soul Wars) Obtain ~|battle-mage robe legs|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Minigames"],
+				"Label": "Untracked Minigame Uniques",
+				"Items": ["Battle-mage robe legs"]
+			},
+			"(Soul Wars) Obtain ~|vanguard legs|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Minigames"],
+				"Label": "Untracked Minigame Uniques",
+				"Items": ["Vanguard legs"]
+			},
+			"(Shattered Worlds) Obtain the ~|Abyssal Knight (override)|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Minigames"],
+				"Label": "Untracked Minigame Uniques",
+				"Items": ["Abyssal Knights' armour override"]
+			},
+			"(Shattered Worlds) Obtain the ~|aniwisp|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Minigames", "Pets"],
+				"Label": "Untracked Minigame Uniques",
+				"Items": ["Anima Pet - Tier 1"]
+			},
+			"(Shattered Worlds) Obtain the ~|animist|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Minigames", "Pets"],
+				"Label": "Untracked Minigame Uniques",
+				"Items": ["Anima Pet - Tier 2"]
+			},
+			"(Shattered Worlds) Obtain the ~|animagu|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Minigames", "Pets"],
+				"Label": "Untracked Minigame Uniques",
+				"Items": ["Anima Pet - Tier 3"]
+			},
+			"(Shattered Worlds) Obtain the ~|animawhal|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Minigames", "Pets"],
+				"Label": "Untracked Minigame Uniques",
+				"Items": ["Anima Pet - Tier 4"]
+			},
+			"(Shattered Worlds) Obtain the ~|animaroo|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Minigames", "Pets"],
+				"Label": "Untracked Minigame Uniques",
+				"Items": ["Anima Pet - Tier 5"]
+			},
+			"(Shattered Worlds) Obtain the ~|animaraptor|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Minigames", "Pets"],
+				"Label": "Untracked Minigame Uniques",
+				"Items": ["Anima Pet - Tier 6"]
+			},
+			"(Shattered Worlds) Obtain the ~|animasaur|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Minigames", "Pets"],
+				"Label": "Untracked Minigame Uniques",
+				"Items": ["Anima Pet - Tier 7"]
+			},
+			"(Shattered Worlds) Obtain the ~|animasaurus|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Minigames", "Pets"],
+				"Label": "Untracked Minigame Uniques",
+				"Items": ["Anima Pet - Tier 8"]
+			},
+			"(Shattered Worlds) Obtain the ~|animasaurus rex|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Minigames", "Pets"],
+				"Label": "Untracked Minigame Uniques",
+				"Items": ["Anima Pet - Tier 9"]
+			},
+			"(Shattered Worlds) Obtain the ~|abyssal hound|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Minigames", "Pets"],
+				"Label": "Untracked Minigame Uniques",
+				"Items": ["Abyssal hound"]
+			},
+			"(Shattered Worlds) Obtain the ~|Spirit of Battle|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Minigames"],
+				"Label": "Untracked Minigame Uniques",
+				"Items": ["Spirit of Battle"]
+			},
+			"(Shattered Worlds) Obtain a ~|Mask of the Troll|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Minigames"],
+				"Label": "Untracked Minigame Uniques",
+				"Items": ["Mask of the Troll"]
+			},
+			"(Shattered Worlds) Obtain a ~|Mask of Broken Fingers|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Minigames"],
+				"Label": "Untracked Minigame Uniques",
+				"Items": ["Mask of Broken Fingers"]
+			},
+			"(Shattered Worlds) Obtain a ~|Mask of Mourning|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Minigames"],
+				"Label": "Untracked Minigame Uniques",
+				"Items": ["Mask of Mourning"]
+			},
+			"(Shattered Worlds) Obtain a ~|Mask of Stone|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Minigames"],
+				"Label": "Untracked Minigame Uniques",
+				"Items": ["Mask of Stone"]
+			},
+			"(Shattered Worlds) Obtain a ~|Mask of Reflection|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Minigames"],
+				"Label": "Untracked Minigame Uniques",
+				"Items": ["Mask of Reflection"]
+			},
+			"(Shattered Worlds) Obtain a ~|Mask of Crimson|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Minigames"],
+				"Label": "Untracked Minigame Uniques",
+				"Items": ["Mask of Crimson"]
+			},
+			"(Shattered Worlds) Obtain a ~|Mask of Gelatin|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Minigames"],
+				"Label": "Untracked Minigame Uniques",
+				"Items": ["Mask of Gelatin"]
+			},
+			"(Shattered Worlds) Obtain a ~|Mask of Stench|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Minigames"],
+				"Label": "Untracked Minigame Uniques",
+				"Items": ["Mask of Stench"]
+			},
+			"(Shattered Worlds) Obtain a ~|Mask of Dust|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Minigames"],
+				"Label": "Untracked Minigame Uniques",
+				"Items": ["Mask of Dust"]
+			},
+			"(Shattered Worlds) Obtain a ~|Mask of the Automatons|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Minigames"],
+				"Label": "Untracked Minigame Uniques",
+				"Items": ["Mask of the Automatons"]
+			},
+			"(Shattered Worlds) Obtain a ~|Mask of the Kura|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Minigames"],
+				"Label": "Untracked Minigame Uniques",
+				"Items": ["Mask of the Kura"]
+			},
+			"(Shattered Worlds) Obtain a ~|Mask of the Green Wyrm|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Minigames"],
+				"Label": "Untracked Minigame Uniques",
+				"Items": ["Mask of the Green Wyrm"]
+			},
+			"(Shattered Worlds) Obtain a ~|Mask of Granite|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Minigames"],
+				"Label": "Untracked Minigame Uniques",
+				"Items": ["Mask of Granite"]
+			},
+			"(Shattered Worlds) Obtain a ~|Mask of the Dagannoth|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Minigames"],
+				"Label": "Untracked Minigame Uniques",
+				"Items": ["Mask of the Dagannoth"]
+			},
+			"(Shattered Worlds) Obtain a ~|Mask of the Black Demon|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Minigames"],
+				"Label": "Untracked Minigame Uniques",
+				"Items": ["Mask of the Black Demon"]
+			},
+			"(Shattered Worlds) Obtain a ~|Mask of the Yellow Wyrm|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Minigames"],
+				"Label": "Untracked Minigame Uniques",
+				"Items": ["Mask of the Yellow Wyrm"]
+			},
+			"(Shattered Worlds) Obtain a ~|Mask of the Aquanites|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Minigames"],
+				"Label": "Untracked Minigame Uniques",
+				"Items": ["Mask of the Aquanites"]
+			},
+			"(Shattered Worlds) Obtain a ~|Mask of Vines|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Minigames"],
+				"Label": "Untracked Minigame Uniques",
+				"Items": ["Mask of Vines"]
+			},
+			"(Shattered Worlds) Obtain a ~|Mask of the Abyss|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Minigames"],
+				"Label": "Untracked Minigame Uniques",
+				"Items": ["Mask of the Abyss"]
+			},
+			"(Shattered Worlds) Obtain a ~|Mask of Gloom|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Minigames"],
+				"Label": "Untracked Minigame Uniques",
+				"Items": ["Mask of Gloom"]
+			},
+			"(Shattered Worlds) Obtain a ~|Mask of the Airut|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Minigames"],
+				"Label": "Untracked Minigame Uniques",
+				"Items": ["Mask of the Airut"]
+			},
+			"(Shattered Worlds) Obtain a ~|Mask of the White Wyrm|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Minigames"],
+				"Label": "Untracked Minigame Uniques",
+				"Items": ["Mask of the White Wyrm"]
+			},
+			"(Shattered Worlds) Obtain a ~|Mask of the Ganodermic|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Minigames"],
+				"Label": "Untracked Minigame Uniques",
+				"Items": ["Mask of the Ganodermic"]
+			},
+			"(All Fired Up) Obtain a ~|ring of fire|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Minigames"],
+				"Label": "Untracked Minigame Uniques",
+				"Items": ["Ring of fire"]
+			},
+			"(All Fired Up) Obtain ~|flame gloves|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Minigames"],
+				"Label": "Untracked Minigame Uniques",
+				"Items": ["Flame gloves"]
+			},
+			"(All Fired Up) Obtain a ~|inferno adze|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Minigames"],
+				"Label": "Untracked Minigame Uniques",
+				"Items": ["Inferno adze"]
+			},
+			"(Brimhaven Agility Arena) Obtain a ~|pirate hook (left)|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Minigames"],
+				"Label": "Untracked Minigame Uniques",
+				"Items": ["Pirate hook (left)"]
+			},
+			"(Flash Powder Factory) Obtain a ~|factory mask|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Minigames"],
+				"Label": "Untracked Minigame Uniques",
+				"Items": ["Factory mask"]
+			},
+			"(Flash Powder Factory) Obtain a ~|factory top|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Minigames"],
+				"Label": "Untracked Minigame Uniques",
+				"Items": ["Factory top"]
+			},
+			"(Flash Powder Factory) Obtain ~|factory trousers|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Minigames"],
+				"Label": "Untracked Minigame Uniques",
+				"Items": ["Factory trousers"]
+			},
+			"(Flash Powder Factory) Obtain ~|factory boots|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Minigames"],
+				"Label": "Untracked Minigame Uniques",
+				"Items": ["Factory boots"]
+			},
+			"(Flash Powder Factory) Obtain ~|factory gloves|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Minigames"],
+				"Label": "Untracked Minigame Uniques",
+				"Items": ["Factory gloves"]
+			},
+			"(Flash Powder Factory) Obtain a ~|botanist's mask|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Minigames"],
+				"Label": "Untracked Minigame Uniques",
+				"Items": ["Botanist's mask"]
+			},
+			"(Flash Powder Factory) Obtain a ~|botanist's mask add-on|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Minigames"],
+				"Label": "Untracked Minigame Uniques",
+				"Items": ["Botanist's mask add-on"]
+			},
+			"(Flash Powder Factory) Obtain a ~|botanist's top|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Minigames"],
+				"Label": "Untracked Minigame Uniques",
+				"Items": ["Botanist's top"]
+			},
+			"(Flash Powder Factory) Obtain ~|botanist's trousers|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Minigames"],
+				"Label": "Untracked Minigame Uniques",
+				"Items": ["Botanist's trousers"]
+			},
+			"(Flash Powder Factory) Obtain ~|botanist's boots|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Minigames"],
+				"Label": "Untracked Minigame Uniques",
+				"Items": ["Botanist's boots"]
+			},
+			"(Flash Powder Factory) Obtain ~|botanist's gloves|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Minigames"],
+				"Label": "Untracked Minigame Uniques",
+				"Items": ["Botanist's gloves"]
+			},
+			"(Flash Powder Factory) Obtain a ~|rogue mask|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Minigames"],
+				"Label": "Untracked Minigame Uniques",
+				"Items": ["Rogue mask"]
+			},
+			"(Flash Powder Factory) Obtain a ~|rogue top|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Minigames"],
+				"Label": "Untracked Minigame Uniques",
+				"Items": ["Rogue top"]
+			},
+			"(Flash Powder Factory) Obtain ~|rogue trousers|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Minigames"],
+				"Label": "Untracked Minigame Uniques",
+				"Items": ["Rogue trousers"]
+			},
+			"(Flash Powder Factory) Obtain ~|rogue boots|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Minigames"],
+				"Label": "Untracked Minigame Uniques",
+				"Items": ["Rogue boots"]
+			},
+			"(Flash Powder Factory) Obtain ~|rogue gloves|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Minigames"],
+				"Label": "Untracked Minigame Uniques",
+				"Items": ["Rogue gloves"]
+			},
+			"(Gnome Restaurant) Obtain a ~|mint cake|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Minigames"],
+				"Label": "Untracked Minigame Uniques",
+				"Items": ["Mint cake"]
+			},
+			"(Gnome Restaurant) Obtain a ~|grand seed pod|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Minigames"],
+				"Label": "Untracked Minigame Uniques",
+				"Items": ["Grand seed pod"]
+			},
+			"(Gnome Restaurant) Obtain ~|gnome goggles|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Minigames"],
+				"Label": "Untracked Minigame Uniques",
+				"Items": ["Gnome goggles"]
+			},
+			"(Gnome Restaurant) Obtain a ~|gnome scarf|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Minigames"],
+				"Label": "Untracked Minigame Uniques",
+				"Items": ["Gnome scarf"]
+			},
+			"(Gnome Restaurant) Obtain a ~|sous chef's toque|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Minigames"],
+				"Label": "Untracked Minigame Uniques",
+				"Items": ["Sous chef's toque"]
+			},
+			"(Gnome Restaurant) Obtain a ~|sous chef's toque add-on|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Minigames"],
+				"Label": "Untracked Minigame Uniques",
+				"Items": ["Sous chef's toque add-on"]
+			},
+			"(Gnome Restaurant) Obtain a ~|sous chef's jacket|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Minigames"],
+				"Label": "Untracked Minigame Uniques",
+				"Items": ["Sous chef's jacket"]
+			},
+			"(Gnome Restaurant) Obtain ~|sous chef's trousers|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Minigames"],
+				"Label": "Untracked Minigame Uniques",
+				"Items": ["Sous chef's trousers"]
+			},
+			"(Gnome Restaurant) Obtain ~|sous chef's mitts|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Minigames"],
+				"Label": "Untracked Minigame Uniques",
+				"Items": ["Sous chef's mitts"]
+			},
+			"(Gnome Restaurant) Obtain ~|sous chef's shoes|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Minigames"],
+				"Label": "Untracked Minigame Uniques",
+				"Items": ["Sous chef's shoes"]
+			},
+			"(Gnome Ball) Obtain the titular ~|gnomeball|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Minigames"],
+				"Label": "Untracked Minigame Uniques",
+				"Items": ["Gnomeball"]
+			},
+			"(Puro-Puro) Obtain a ~|magic butterfly net|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Minigames"],
+				"Label": "Untracked Minigame Uniques",
+				"Items": ["Magic butterfly net"]
+			},
+			"(Puro-Puro) Obtain a ~|jar generator|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Minigames"],
+				"Label": "Untracked Minigame Uniques",
+				"Items": ["Jar generator"]
+			},
+			"(Puro-Puro) Obtain ~|imp repellent|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Minigames"],
+				"Label": "Untracked Minigame Uniques",
+				"Items": ["Imp repellent"]
+			},
+			"(Mage Training Arena) Obtain an ~|infinity hat|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Minigames"],
+				"Label": "Untracked Minigame Uniques",
+				"Items": ["Infinity hat"]
+			},
+			"(Mage Training Arena) Obtain an ~|infinity top|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Minigames"],
+				"Label": "Untracked Minigame Uniques",
+				"Items": ["Infinity top"]
+			},
+			"(Mage Training Arena) Obtain ~|infinity bottoms|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Minigames"],
+				"Label": "Untracked Minigame Uniques",
+				"Items": ["Infinity bottoms"]
+			},
+			"(Mage Training Arena) Obtain ~|infinity gloves|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Minigames"],
+				"Label": "Untracked Minigame Uniques",
+				"Items": ["Infinity gloves"]
+			},
+			"(Mage Training Arena) Obtain ~|infinity boots|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Minigames"],
+				"Label": "Untracked Minigame Uniques",
+				"Items": ["Infinity boots"]
+			},
+			"(Mage Training Arena) Obtain a ~|beginner wand|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Minigames"],
+				"Label": "Untracked Minigame Uniques",
+				"Items": ["Beginner wand"]
+			},
+			"(Mage Training Arena) Obtain a ~|apprentice wand|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Minigames"],
+				"Label": "Untracked Minigame Uniques",
+				"Items": ["Apprentice wand"]
+			},
+			"(Mage Training Arena) Obtain a ~|teacher wand|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Minigames"],
+				"Label": "Untracked Minigame Uniques",
+				"Items": ["Teacher wand"]
+			},
+			"(Mage Training Arena) Obtain a ~|master wand|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Minigames"],
+				"Label": "Untracked Minigame Uniques",
+				"Items": ["Master wand"]
+			},
+			"(Mage Training Arena) Obtain a ~|mages' book|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Minigames"],
+				"Label": "Untracked Minigame Uniques",
+				"Items": ["Mages' book"]
+			},
+			"(Pyramid Plunder) Obtain a ~|black ibis mask|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Minigames"],
+				"Label": "Untracked Minigame Uniques",
+				"Items": ["Black ibis mask"]
+			},
+			"(Pyramid Plunder) Obtain a ~|black ibis body|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Minigames"],
+				"Label": "Untracked Minigame Uniques",
+				"Items": ["Black ibis body"]
+			},
+			"(Pyramid Plunder) Obtain ~|black ibis legs|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Minigames"],
+				"Label": "Untracked Minigame Uniques",
+				"Items": ["Black ibis legs"]
+			},
+			"(Pyramid Plunder) Obtain ~|black ibis boots|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Minigames"],
+				"Label": "Untracked Minigame Uniques",
+				"Items": ["Black ibis boots"] 
+			},
+			"(Pyramid Plunder) Obtain the ~|pharaoh's sceptre|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Minigames"],
+				"Label": "Untracked Minigame Uniques",
+				"Items": ["Pharaoh's sceptre"] 
+			},
+			"(Pyramid Plunder) Obtain the ~|sceptre of the gods|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Minigames"],
+				"Label": "Untracked Minigame Uniques",
+				"Items": ["Sceptre of the gods"] 
+			},
+			"(Shifting Tombs) Obtain a ~|soul talisman|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Minigames"],
+				"Label": "Untracked Minigame Uniques",
+				"Items": ["Soul talisman"] 
+			},
+			"(Shifting Tombs) Obtain a ~|off-hand khopesh of the Kharidian|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Minigames"],
+				"Label": "Untracked Minigame Uniques",
+				"Items": ["Off-hand khopesh of the Kharidian"] 
+			},
+			"(Shifting Tombs) Obtain the ~|desert pantheon aura|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Minigames"],
+				"Label": "Untracked Minigame Uniques",
+				"Items": ["Desert Pantheon fragment"] 
+			},
+			"(Trouble Brewing) Obtain a ~|blue naval shirt|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Minigames"],
+				"Label": "Untracked Minigame Uniques",
+				"Items": ["Blue naval shirt"] 
+			},
+			"(Trouble Brewing) Obtain a ~|green naval shirt|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Minigames"],
+				"Label": "Untracked Minigame Uniques",
+				"Items": ["Green naval shirt"] 
+			},
+			"(Trouble Brewing) Obtain a ~|red naval shirt|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Minigames"],
+				"Label": "Untracked Minigame Uniques",
+				"Items": ["Red naval shirt"] 
+			},
+			"(Trouble Brewing) Obtain a ~|brown naval shirt|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Minigames"],
+				"Label": "Untracked Minigame Uniques",
+				"Items": ["Brown naval shirt"] 
+			},
+			"(Trouble Brewing) Obtain a ~|black naval shirt|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Minigames"],
+				"Label": "Untracked Minigame Uniques",
+				"Items": ["Black naval shirt"] 
+			},
+			"(Trouble Brewing) Obtain a ~|purple naval shirt|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Minigames"],
+				"Label": "Untracked Minigame Uniques",
+				"Items": ["Purple naval shirt"] 
+			},
+			"(Trouble Brewing) Obtain a ~|grey naval shirt|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Minigames"],
+				"Label": "Untracked Minigame Uniques",
+				"Items": ["Grey naval shirt"] 
+			},
+			"(Trouble Brewing) Obtain a ~|blue tricorn hat|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Minigames"],
+				"Label": "Untracked Minigame Uniques",
+				"Items": ["Blue tricorn hat"] 
+			},
+			"(Trouble Brewing) Obtain a ~|green tricorn hat|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Minigames"],
+				"Label": "Untracked Minigame Uniques",
+				"Items": ["Green tricorn hat"] 
+			},
+			"(Trouble Brewing) Obtain a ~|red tricorn hat|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Minigames"],
+				"Label": "Untracked Minigame Uniques",
+				"Items": ["Red tricorn hat"] 
+			},
+			"(Trouble Brewing) Obtain a ~|brown tricorn hat|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Minigames"],
+				"Label": "Untracked Minigame Uniques",
+				"Items": ["Brown tricorn hat"] 
+			},
+			"(Trouble Brewing) Obtain a ~|black tricorn hat|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Minigames"],
+				"Label": "Untracked Minigame Uniques",
+				"Items": ["Black tricorn hat"] 
+			},
+			"(Trouble Brewing) Obtain a ~|purple tricorn hat|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Minigames"],
+				"Label": "Untracked Minigame Uniques",
+				"Items": ["Purple tricorn hat"] 
+			},
+			"(Trouble Brewing) Obtain a ~|grey tricorn hat|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Minigames"],
+				"Label": "Untracked Minigame Uniques",
+				"Items": ["Grey tricorn hat"] 
+			},
+			"(Trouble Brewing) Obtain ~|blue navy slacks|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Minigames"],
+				"Label": "Untracked Minigame Uniques",
+				"Items": ["Blue navy slacks"] 
+			},
+			"(Trouble Brewing) Obtain ~|green navy slacks|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Minigames"],
+				"Label": "Untracked Minigame Uniques",
+				"Items": ["Green navy slacks"] 
+			},
+			"(Trouble Brewing) Obtain ~|red navy slacks|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Minigames"],
+				"Label": "Untracked Minigame Uniques",
+				"Items": ["Red navy slacks"] 
+			},
+			"(Trouble Brewing) Obtain ~|brown navy slacks|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Minigames"],
+				"Label": "Untracked Minigame Uniques",
+				"Items": ["Brown navy slacks"] 
+			},
+			"(Trouble Brewing) Obtain ~|black navy slacks|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Minigames"],
+				"Label": "Untracked Minigame Uniques",
+				"Items": ["Black navy slacks"] 
+			},
+			"(Trouble Brewing) Obtain ~|purple navy slacks|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Minigames"],
+				"Label": "Untracked Minigame Uniques",
+				"Items": ["Purple navy slacks"] 
+			},
+			"(Trouble Brewing) Obtain ~|grey navy slacks|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Minigames"],
+				"Label": "Untracked Minigame Uniques",
+				"Items": ["Grey navy slacks"] 
+			},
+			"(Trouble Brewing) Obtain a ~|cutthroat flag|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Minigames"],
+				"Label": "Untracked Minigame Uniques",
+				"Items": ["Cutthroat flag"] 
+			},
+			"(Trouble Brewing) Obtain a ~|guilded smile flag|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Minigames"],
+				"Label": "Untracked Minigame Uniques",
+				"Items": ["Guilded smile flag"] 
+			},
+			"(Trouble Brewing) Obtain a ~|bronze fist flag|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Minigames"],
+				"Label": "Untracked Minigame Uniques",
+				"Items": ["Bronze fist flag"] 
+			},
+			"(Trouble Brewing) Obtain a ~|lucky shot flag|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Minigames"],
+				"Label": "Untracked Minigame Uniques",
+				"Items": ["Lucky shot flag"] 
+			},
+			"(Trouble Brewing) Obtain a ~|treasure flag|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Minigames"],
+				"Label": "Untracked Minigame Uniques",
+				"Items": ["Treasure flag"] 
+			},
+			"(Trouble Brewing) Obtain a ~|phasmatys flag|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Minigames"],
+				"Label": "Untracked Minigame Uniques",
+				"Items": ["Phasmatys flag"] 
+			},
+			"(Trouble Brewing) Obtain ~|The Stuff|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Minigames"],
+				"Label": "Untracked Minigame Uniques",
+				"Items": ["The Stuff"] 
+			},
+			"(Trouble Brewing) Obtain ~|rum (red)|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Minigames"],
+				"Label": "Untracked Minigame Uniques",
+				"Items": ["Rum (red)"] 
+			},
+			"(Trouble Brewing) Obtain ~|rum (blue)|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Minigames"],
+				"Label": "Untracked Minigame Uniques",
+				"Items": ["Rum (blue)"] 
+			},
+			"(Stealing Creation) Obtain an ~|artisan's bandana|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Minigames"],
+				"Label": "Untracked Minigame Uniques",
+				"Items": ["Artisan's bandana"] 
+			},
+			"(Stealing Creation) Obtain an ~|artisan's bandana add-on|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Minigames"],
+				"Label": "Untracked Minigame Uniques",
+				"Items": ["Artisan's bandana add-on"] 
+			},
+			"(Stealing Creation) Obtain an ~|artisan's top|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Minigames"],
+				"Label": "Untracked Minigame Uniques",
+				"Items": ["Artisan's top"] 
+			},
+			"(Stealing Creation) Obtain ~|artisan's legs|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Minigames"],
+				"Label": "Untracked Minigame Uniques",
+				"Items": ["Artisan's legs"] 
+			},
+			"(Stealing Creation) Obtain ~|artisan's gloves|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Minigames"],
+				"Label": "Untracked Minigame Uniques",
+				"Items": ["Artisan's gloves"] 
+			},
+			"(Stealing Creation) Obtain ~|artisan's boots|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Minigames"],
+				"Label": "Untracked Minigame Uniques",
+				"Items": ["Artisan's boots"] 
+			},
+			"(Stealing Creation) Obtain ~|fletcher's headwear|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Minigames"],
+				"Label": "Untracked Minigame Uniques",
+				"Items": ["Fletcher's headwear"] 
+			},
+			"(Stealing Creation) Obtain a ~|fletcher's chestpiece|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Minigames"],
+				"Label": "Untracked Minigame Uniques",
+				"Items": ["Fletcher's chestpiece"] 
+			},
+			"(Stealing Creation) Obtain ~|fletcher's legwear|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Minigames"],
+				"Label": "Untracked Minigame Uniques",
+				"Items": ["Fletcher's legwear"] 
+			},
+			"(Stealing Creation) Obtain ~|fletcher's gloves|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Minigames"],
+				"Label": "Untracked Minigame Uniques",
+				"Items": ["Fletcher's gloves"] 
+			},
+			"(Stealing Creation) Obtain ~|fletcher's boots|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Minigames"],
+				"Label": "Untracked Minigame Uniques",
+				"Items": ["Fletcher's boots"] 
+			},
+			"(Tai Bwo Wannai Cleanup) Obtain a ~|gout tuber|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Minigames"],
+				"Label": "Untracked Minigame Uniques",
+				"Items": ["Gout tuber"] 
+			},
+			"(Tai Bwo Wannai Cleanup) Obtain a ~|tribal mask (green)|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Minigame"],
+				"Label": "Untracked Minigame Uniques",
+				"Items": ["Tribal mask (green)"],
+				"Not F2P": true
+			},
+			"(Tai Bwo Wannai Cleanup) Obtain a ~|tribal mask (orange)|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Minigame"],
+				"Label": "Untracked Minigame Uniques",
+				"Items": ["Tribal mask (orange)"],
+				"Not F2P": true
+			},
+			"(Tai Bwo Wannai Cleanup) Obtain a ~|tribal mask (blue)|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Minigame"],
+				"Label": "Untracked Minigame Uniques",
+				"Items": ["Tribal mask (blue)"],
+				"Not F2P": true
+			},
+			"(Cabbage Facepunch Bonanza) Obtain a ~|seedicide|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Minigames"],
+				"Label": "Untracked Minigame Uniques",
+				"Items": ["Seedice"]
+			},
+			"(Cabbage Facepunch Bonanza) Obtain a ~|Slayer VIP ticket|~": {
 				"Category": ["Untracked Uniques", "Untracked Uniques Minigames"],
 				"Label": "Untracked Minigame Uniques",
 				"Items": ["Slayer VIP ticket"]
 			},
+			"(Cabbage Facepunch Bonanza) Obtain a ~|patch bomb|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Minigames"],
+				"Label": "Untracked Minigame Uniques",
+				"Items": ["Patch bomb"]
+			},
+			"(Cabbage Facepunch Bonanza) Obtain a ~|farmer's hat|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Minigames"],
+				"Label": "Untracked Minigame Uniques",
+				"Items": ["Farmer's hat"]
+			},
+			"(Cabbage Facepunch Bonanza) Obtain a ~|farmer's hat add-on|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Minigames"],
+				"Label": "Untracked Minigame Uniques",
+				"Items": ["Farmer's hat add-on"]
+			},
+			"(Cabbage Facepunch Bonanza) Obtain a ~|farmer's jacket|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Minigames"],
+				"Label": "Untracked Minigame Uniques",
+				"Items": ["Farmer's jacket"]
+			},
+			"(Cabbage Facepunch Bonanza) Obtain ~|farmer's legwear|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Minigames"],
+				"Label": "Untracked Minigame Uniques",
+				"Items": ["Farmer's legwear"]
+			},
+			"(Cabbage Facepunch Bonanza) Obtain ~|farmer's cuffs|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Minigames"],
+				"Label": "Untracked Minigame Uniques",
+				"Items": ["Farmer's cuffs"]
+			},
+			"(Cabbage Facepunch Bonanza) Obtain ~|farmer's boots|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Minigames"],
+				"Label": "Untracked Minigame Uniques",
+				"Items": ["Farmer's boots"]
+			},
+			"(Player-Owned Port) Obtain a ~|mask of gu|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Minigames"],
+				"Label": "Untracked Minigame Uniques",
+				"Chunks": ["Player-Owned Port"]
+			},
+			"(Player-Owned Port) Obtain a ~|gu uwagi|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Minigames"],
+				"Label": "Untracked Minigame Uniques",
+				"Chunks": ["Player-Owned Port"]
+			},
+			"(Player-Owned Port) Obtain a ~|gu hakama|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Minigames"],
+				"Label": "Untracked Minigame Uniques",
+				"Chunks": ["Player-Owned Port"]
+			},
+			"(Player-Owned Port) Obtain ~|The Way of Gu|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Minigames"],
+				"Label": "Untracked Minigame Uniques",
+				"Chunks": ["Player-Owned Port"]
+			},
+			"(Anima Islands) Obtain a ~|warpriest of Tuska helm|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Minigames"],
+				"Label": "Untracked Minigame Uniques",
+				"Items": ["Warpriest of Tuska helm"]
+			},
+			"(Anima Islands) Obtain a ~|warpriest of Tuska cuirass|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Minigames"],
+				"Label": "Untracked Minigame Uniques",
+				"Items": ["Warpriest of Tuska cuirass"]
+			},
+			"(Anima Islands) Obtain ~|warpriest of Tuska robe legs|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Minigames"],
+				"Label": "Untracked Minigame Uniques",
+				"Items": ["Warpriest of Tuska robe legs"]
+			},
+			"(Anima Islands) Obtain ~|warpriest of Tuska gauntlets|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Minigames"],
+				"Label": "Untracked Minigame Uniques",
+				"Items": ["Warpriest of Tuska gauntlets"]
+			},
+			"(Anima Islands) Obtain ~|warpriest of Tuska boots|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Minigames"],
+				"Label": "Untracked Minigame Uniques",
+				"Items": ["Warpriest of Tuska boots"]
+			},
+			"(Anima Islands) Obtain a ~|warpriest of Tuska cape|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Minigames"],
+				"Label": "Untracked Minigame Uniques",
+				"Items": ["Warpriest of Tuska cape"]
+			},
+			"(Anima Islands) Obtain a ~|Tuska (Saradomin) spear|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Minigames"],
+				"Label": "Untracked Minigame Uniques",
+				"Items": ["Saradomin Spear override"]
+			},
+			"(Anima Islands) Obtain a ~|Tuska (Armadyl) spear|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Minigames"],
+				"Label": "Untracked Minigame Uniques",
+				"Items": ["Armadyl Spear override"]
+			},
+			"(Anima Islands) Obtain a ~|Tuska (Zamorak) spear|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Minigames"],
+				"Label": "Untracked Minigame Uniques",
+				"Items": ["Zamorak Spear override"]
+			},
+			"(Anima Islands) Obtain a ~|Tuska (Godless) spear|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Minigames"],
+				"Label": "Untracked Minigame Uniques",
+				"Items": ["Godless Spear override"]
+			},
+			"(Anima Islands) Obtain a ~|calibration device|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Minigames"],
+				"Label": "Untracked Minigame Uniques",
+				"Items": ["Calibration device"]
+			},
+			"(Fish Flingers) Obtain a ~|fishing hat|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Minigames"],
+				"Label": "Untracked Minigame Uniques",
+				"Items": ["Fishing hat"]
+			},
+			"(Fish Flingers) Obtain a ~|fishing jacket|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Minigames"],
+				"Label": "Untracked Minigame Uniques",
+				"Items": ["Fishing jacket"]
+			},
+			"(Fish Flingers) Obtain ~|fishing waders|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Minigames"],
+				"Label": "Untracked Minigame Uniques",
+				"Items": ["Fishing waders"]
+			},
+			"(Fish Flingers) Obtain ~|fishing boots|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Minigames"],
+				"Label": "Untracked Minigame Uniques",
+				"Items": ["Fishing boots"]
+			},
+			"(Fish Flingers) Obtain a ~|beginner's tackle box|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Minigames"],
+				"Label": "Untracked Minigame Uniques",
+				"Items": ["Beginner's tackle box"]
+			},
+			"(Fish Flingers) Obtain a ~|basic tackle box|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Minigames"],
+				"Label": "Untracked Minigame Uniques",
+				"Items": ["Basic tackle box"]
+			},
+			"(Fish Flingers) Obtain a ~|standard tackle box|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Minigames"],
+				"Label": "Untracked Minigame Uniques",
+				"Items": ["Standard tackle box"]
+			},
+			"(Fish Flingers) Obtain a ~|professional tackle box|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Minigames"],
+				"Label": "Untracked Minigame Uniques",
+				"Items": ["Professional tackle box"]
+			},
+			"(Fish Flingers) Obtain a ~|champion's tackle box|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Minigames"],
+				"Label": "Untracked Minigame Uniques",
+				"Items": ["Champion's tackle box"]
+			},
+			"(Guthixian Cache) Obtain ~|diviner's headwear|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Minigames"],
+				"Label": "Untracked Minigame Uniques",
+				"Items": ["Diviner's headwear"]
+			},
+			"(Guthixian Cache) Obtain a ~|diviner's headwear add-on|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Minigames"],
+				"Label": "Untracked Minigame Uniques",
+				"Items": ["Diviner's headwear"]
+			},
+			"(Guthixian Cache) Obtain a ~|diviner's robe|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Minigames"],
+				"Label": "Untracked Minigame Uniques",
+				"Items": ["Diviner's robe"]
+			},
+			"(Guthixian Cache) Obtain ~|diviner's legwear|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Minigames"],
+				"Label": "Untracked Minigame Uniques",
+				"Items": ["Diviner's legwear"]
+			},
+			"(Guthixian Cache) Obtain ~|diviner's handwear|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Minigames"],
+				"Label": "Untracked Minigame Uniques",
+				"Items": ["Diviner's handwear"]
+			},
+			"(Guthixian Cache) Obtain ~|diviner's footwear|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Minigames"],
+				"Label": "Untracked Minigame Uniques",
+				"Items": ["Diviner's footwear"]
+			},
+			"(Phoenix Lair) Obtain a ~|phoenix eggling|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Minigames", "Pets"],
+				"Label": "Untracked Minigame Uniques",
+				"Items": ["Phoenix eggling"]
+			},
+			"(Phoenix Lair) Obtain a ~|phoenix quill|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Minigames"],
+				"Label": "Untracked Minigame Uniques",
+				"Items": ["Phoenix quill"]
+			},
+			"(The Pit) Obtain ~|nimble headwear|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Minigames"],
+				"Label": "Untracked Minigame Uniques",
+				"Items": ["Nimble headwear"]
+			},
+			"(The Pit) Obtain a ~|nimble chestpiece|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Minigames"],
+				"Label": "Untracked Minigame Uniques",
+				"Items": ["Nimble chestpiece"]
+			},
+			"(The Pit) Obtain ~|nimble legwear|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Minigames"],
+				"Label": "Untracked Minigame Uniques",
+				"Items": ["Nimble legwear"]
+			},
+			"(The Pit) Obtain ~|nimble gloves|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Minigames"],
+				"Label": "Untracked Minigame Uniques",
+				"Items": ["Nimble gloves"]
+			},
+			"(The Pit) Obtain ~|nimble boots|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Minigames"],
+				"Label": "Untracked Minigame Uniques",
+				"Items": ["Nimble boots"]
+			},
+			"(The Pit) Obtain a ~|gorilla mask|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Minigames"],
+				"Label": "Untracked Minigame Uniques",
+				"Items": ["Gorilla mask"]
+			},
+			"(Sinkholes) Obtain a ~|hoardstalker helm|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Minigames"],
+				"Label": "Untracked Minigame Uniques",
+				"Items": ["Hoardstalker helm"]
+			},
+			"(Sinkholes) Obtain a ~|hoardstalker top|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Minigames"],
+				"Label": "Untracked Minigame Uniques",
+				"Items": ["Hoardstalker top"]
+			},
+			"(Sinkholes) Obtain ~|hoardstalker legs|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Minigames"],
+				"Label": "Untracked Minigame Uniques",
+				"Items": ["Hoardstalker legs"]
+			},
+			"(Sinkholes) Obtain ~|hoardstalker gloves|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Minigames"],
+				"Label": "Untracked Minigame Uniques",
+				"Items": ["Hoardstalker gloves"]
+			},
+			"(Sinkholes) Obtain ~|hoardstalker boots|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Minigames"],
+				"Label": "Untracked Minigame Uniques",
+				"Items": ["Hoardstalker boots"]
+			},
+			"(Sinkholes) Obtain a ~|hoardstalker ring|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Minigames"],
+				"Label": "Untracked Minigame Uniques",
+				"Items": ["Hoardstalker ring"]
+			},
+			"(Balthazar Beauregard's Big Top Bonanza) Obtain ~|a stylish hat (female, green)|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Minigames"],
+				"Label": "Untracked Minigame Uniques",
+				"Items": ["A stylish hat (female, green)"]
+			},
+			"(Balthazar Beauregard's Big Top Bonanza) Obtain ~|shirt (female, green)|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Minigames"],
+				"Label": "Untracked Minigame Uniques",
+				"Items": ["Shirt (female, green)"]
+			},
+			"(Balthazar Beauregard's Big Top Bonanza) Obtain ~|a stylish hat (female, maroon)|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Minigames"],
+				"Label": "Untracked Minigame Uniques",
+				"Items": ["A stylish hat (female, maroon)"]
+			},
+			"(Balthazar Beauregard's Big Top Bonanza) Obtain ~|shirt (female, maroon)|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Minigames"],
+				"Label": "Untracked Minigame Uniques",
+				"Items": ["Shirt (female, maroon)"]
+			},
+			"(Balthazar Beauregard's Big Top Bonanza) Obtain ~|a stylish hat (female, yellow)|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Minigames"],
+				"Label": "Untracked Minigame Uniques",
+				"Items": ["A stylish hat (female, yellow)"]
+			},
+			"(Balthazar Beauregard's Big Top Bonanza) Obtain ~|shirt (female, yellow)|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Minigames"],
+				"Label": "Untracked Minigame Uniques",
+				"Items": ["Shirt (female, yellow)"]
+			},
+			"(Balthazar Beauregard's Big Top Bonanza) Obtain ~|a stylish hat (male, green)|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Minigames"],
+				"Label": "Untracked Minigame Uniques",
+				"Items": ["A stylish hat (male, green)"]
+			},
+			"(Balthazar Beauregard's Big Top Bonanza) Obtain ~|shirt (male, green)|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Minigames"],
+				"Label": "Untracked Minigame Uniques",
+				"Items": ["Shirt (male, green)"]
+			},
+			"(Balthazar Beauregard's Big Top Bonanza) Obtain ~|a stylish hat (male, maroon)|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Minigames"],
+				"Label": "Untracked Minigame Uniques",
+				"Items": ["A stylish hat (male, maroon)"]
+			},
+			"(Balthazar Beauregard's Big Top Bonanza) Obtain ~|shirt (male, maroon)|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Minigames"],
+				"Label": "Untracked Minigame Uniques",
+				"Items": ["Shirt (male, maroon)"]
+			},
+			"(Balthazar Beauregard's Big Top Bonanza) Obtain ~|a stylish hat (male, yellow)|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Minigames"],
+				"Label": "Untracked Minigame Uniques",
+				"Items": ["A stylish hat (male, yellow)"]
+			},
+			"(Balthazar Beauregard's Big Top Bonanza) Obtain ~|shirt (male, yellow)|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Minigames"],
+				"Label": "Untracked Minigame Uniques",
+				"Items": ["Shirt (male, yellow)"]
+			},
+			"(Balthazar Beauregard's Big Top Bonanza) Obtain ~|shoes (female, green)|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Minigames"],
+				"Label": "Untracked Minigame Uniques",
+				"Items": ["Shoes (female, green)"]
+			},
+			"(Balthazar Beauregard's Big Top Bonanza) Obtain ~|shoes (female, yellow)|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Minigames"],
+				"Label": "Untracked Minigame Uniques",
+				"Items": ["Shoes (female, yellow)"]
+			},
+			"(Balthazar Beauregard's Big Top Bonanza) Obtain ~|shoes (female, maroon)|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Minigames"],
+				"Label": "Untracked Minigame Uniques",
+				"Items": ["Shoes (female, maroon)"]
+			},
+			"(Balthazar Beauregard's Big Top Bonanza) Obtain ~|shoes (male, green)|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Minigames"],
+				"Label": "Untracked Minigame Uniques",
+				"Items": ["Shoes (male, green)"]
+			},
+			"(Balthazar Beauregard's Big Top Bonanza) Obtain ~|shoes (male, yellow)|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Minigames"],
+				"Label": "Untracked Minigame Uniques",
+				"Items": ["Shoes (male, yellow)"]
+			},
+			"(Balthazar Beauregard's Big Top Bonanza) Obtain ~|shoes (male, maroon)|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Minigames"],
+				"Label": "Untracked Minigame Uniques",
+				"Items": ["Shoes (male, maroon)"]
+			},
+			"(Balthazar Beauregard's Big Top Bonanza) Obtain a ~|skirt (green)|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Minigames"],
+				"Label": "Untracked Minigame Uniques",
+				"Items": ["Skirt (green)"]
+			},
+			"(Balthazar Beauregard's Big Top Bonanza) Obtain a ~|skirt (maroon)|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Minigames"],
+				"Label": "Untracked Minigame Uniques",
+				"Items": ["Skirt (maroon)"]
+			},
+			"(Balthazar Beauregard's Big Top Bonanza) Obtain a ~|skirt (yellow)|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Minigames"],
+				"Label": "Untracked Minigame Uniques",
+				"Items": ["Skirt (yellow)"]
+			},
+			"(Balthazar Beauregard's Big Top Bonanza) Obtain ~|leggings (green)|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Minigames"],
+				"Label": "Untracked Minigame Uniques",
+				"Items": ["Leggings (green)"]
+			},
+			"(Balthazar Beauregard's Big Top Bonanza) Obtain ~|leggings (maroon)|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Minigames"],
+				"Label": "Untracked Minigame Uniques",
+				"Items": ["Leggings (maroon)"]
+			},
+			"(Balthazar Beauregard's Big Top Bonanza) Obtain ~|leggings (yellow)|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Minigames"],
+				"Label": "Untracked Minigame Uniques",
+				"Items": ["Leggings (yellow)"]
+			},
+			"(Balthazar Beauregard's Big Top Bonanza) Obtain a ~|giant's hand|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Minigames"],
+				"Label": "Untracked Minigame Uniques",
+				"Items": ["Giant's hand"]
+			},
+			"(Balthazar Beauregard's Big Top Bonanza) Obtain an ~|acrobat hood|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Minigames"],
+				"Label": "Untracked Minigame Uniques",
+				"Items": ["Acrobat hood"]
+			},
+			"(Balthazar Beauregard's Big Top Bonanza) Obtain an ~|acrobat shirt|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Minigames"],
+				"Label": "Untracked Minigame Uniques",
+				"Items": ["Acrobat shirt"]
+			},
+			"(Balthazar Beauregard's Big Top Bonanza) Obtain ~|acrobat pants|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Minigames"],
+				"Label": "Untracked Minigame Uniques",
+				"Items": ["Acrobat pants"]
+			},
+			"(Balthazar Beauregard's Big Top Bonanza) Obtain ~|acrobat boots|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Minigames"],
+				"Label": "Untracked Minigame Uniques",
+				"Items": ["Acrobat boots"]
+			},
+			"(Balthazar Beauregard's Big Top Bonanza) Obtain a ~|firemaker's tabard|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Minigames"],
+				"Label": "Untracked Minigame Uniques",
+				"Items": ["Firemaker's tabard"]
+			},
+			"(Balthazar Beauregard's Big Top Bonanza) Obtain a ~|firemaker's trousers|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Minigames"],
+				"Label": "Untracked Minigame Uniques",
+				"Items": ["Firemaker's trousers"]
+			},
+			"(Balthazar Beauregard's Big Top Bonanza) Obtain a ~|firemaker's tabard|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Minigames"],
+				"Label": "Untracked Minigame Uniques",
+				"Items": ["Firemaker's tabard"]
+			},
+			"(Balthazar Beauregard's Big Top Bonanza) Obtain a ~|clown hat|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Minigames"],
+				"Label": "Untracked Minigame Uniques",
+				"Items": ["Clown hat"]
+			},
+			"(Balthazar Beauregard's Big Top Bonanza) Obtain a ~|clown shirt|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Minigames"],
+				"Label": "Untracked Minigame Uniques",
+				"Items": ["Clown shirt"]
+			},
+			"(Balthazar Beauregard's Big Top Bonanza) Obtain ~|clown leggings|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Minigames"],
+				"Label": "Untracked Minigame Uniques",
+				"Items": ["Clown leggings"]
+			},
+			"(Balthazar Beauregard's Big Top Bonanza) Obtain ~|clown shoes|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Minigames"],
+				"Label": "Untracked Minigame Uniques",
+				"Items": ["Clown shoes"]
+			},
+			"(Balthazar Beauregard's Big Top Bonanza) Obtain a ~|tambourine|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Minigames"],
+				"Label": "Untracked Minigame Uniques",
+				"Items": ["Tambourine"]
+			},
+			"(Balthazar Beauregard's Big Top Bonanza) Obtain a ~|ringmaster hat|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Minigames"],
+				"Label": "Untracked Minigame Uniques",
+				"Items": ["Ringmaster hat"]
+			},
+			"(Balthazar Beauregard's Big Top Bonanza) Obtain a ~|ringmaster shirt|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Minigames"],
+				"Label": "Untracked Minigame Uniques",
+				"Items": ["Ringmaster shirt"]
+			},
+			"(Balthazar Beauregard's Big Top Bonanza) Obtain ~|ringmaster pants|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Minigames"],
+				"Label": "Untracked Minigame Uniques",
+				"Items": ["Ringmaster pants"]
+			},
+			"(Balthazar Beauregard's Big Top Bonanza) Obtain ~|ringmaster boots|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Minigames"],
+				"Label": "Untracked Minigame Uniques",
+				"Items": ["Ringmaster boots"]
+			},
+			"(Balthazar Beauregard's Big Top Bonanza) Obtain a ~|mage-phonus|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Minigames"],
+				"Label": "Untracked Minigame Uniques",
+				"Items": ["Mega-phonus"]
+			},
+			"(Familiarisation) Obtain a ~|shaman's headdress|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Minigames"],
+				"Label": "Untracked Minigame Uniques",
+				"Items": ["Shaman's headdress"]
+			},
+			"(Familiarisation) Obtain a ~|shaman's headdress add-on|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Minigames"],
+				"Label": "Untracked Minigame Uniques",
+				"Items": ["Shaman's headdress add-on"]
+			},
+			"(Familiarisation) Obtain a ~|shaman's poncho|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Minigames"],
+				"Label": "Untracked Minigame Uniques",
+				"Items": ["Shaman's poncho"]
+			},
+			"(Familiarisation) Obtain ~|shaman's leggings|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Minigames"],
+				"Label": "Untracked Minigame Uniques",
+				"Items": ["Shaman's leggings"]
+			},
+			"(Familiarisation) Obtain ~|shaman's hand wraps|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Minigames"],
+				"Label": "Untracked Minigame Uniques",
+				"Items": ["Shaman's hand wraps"]
+			},
+			"(Familiarisation) Obtain ~|shaman's moccasins|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Minigames"],
+				"Label": "Untracked Minigame Uniques",
+				"Items": ["Shaman's moccasins"]
+			},
+			"(Herby Werby) Obtain an ~|ancient seed|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Minigames"],
+				"Label": "Untracked Minigame Uniques",
+				"Items": ["Ancient seed"]
+			},
+			"(Herby Werby) Obtain a ~|hern bag|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Minigames"],
+				"Label": "Untracked Minigame Uniques",
+				"Items": ["Herb bag"]
+			},
+			"(Herby Werby) Obtain ~|Sasha|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Minigames", "Pets"],
+				"Label": "Untracked Minigame Uniques",
+				"Items": ["Sasha"]
+			},
+			"(Herby Werby) Obtain a ~|Totem of Crystal Base|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Minigames"],
+				"Label": "Untracked Minigame Uniques",
+				"Items": ["Totem of Crystal Base"]
+			},
+			"(Herby Werby) Obtain a ~|Totem of Abyss Top|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Minigames"],
+				"Label": "Untracked Minigame Uniques",
+				"Items": ["Totem of Abyss Top"]
+			},
+			"(Herblore Habitat) Obtain a ~|witchdoctor mask|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Minigames"],
+				"Label": "Untracked Minigame Uniques",
+				"Items": ["Witchdoctor mask"]
+			},
+			"(Herblore Habitat) Obtain ~|witchdoctor robes|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Minigames"],
+				"Label": "Untracked Minigame Uniques",
+				"Items": ["Witchdoctor robes"]
+			},
+			"(Herblore Habitat) Obtain ~|witchdoctor legs|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Minigames"],
+				"Label": "Untracked Minigame Uniques",
+				"Items": ["Witchdoctor legs"]
+			},
+			"(Livid Farm) Obtain ~|Mambo's potion|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Minigames"],
+				"Label": "Untracked Minigame Uniques",
+				"Items": ["Mambo's potion"]
+			},
+			"(Memory of Nomad) Obtain a ~|soul cape|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Minigames"],
+				"Label": "Untracked Minigame Uniques",
+				"Items": ["Soul cape"]
+			},
+			"(Memory of Nomad) Obtain a ~|soul cape (barrows)|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Minigames"],
+				"Label": "Untracked Minigame Uniques",
+				"Items": ["Soul cape (barrows)"]
+			},
+			"(Memory of Nomad) Obtain a ~|soul cape (white)|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Minigames"],
+				"Label": "Untracked Minigame Uniques",
+				"Items": ["Soul cape (white)"]
+			},
+			"(Memory of Nomad) Obtain a ~|soul cape (shadow)|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Minigames"],
+				"Label": "Untracked Minigame Uniques",
+				"Items": ["Soul cape (shadow)"]
+			},
+			"(Memory of Nomad) Obtain a ~|soul cape (black)|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Minigames"],
+				"Label": "Untracked Minigame Uniques",
+				"Items": ["Soul cape (black)"]
+			},
+			"(Memory of Nomad) Obtain a ~|soul cape (blood)|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Minigames"],
+				"Label": "Untracked Minigame Uniques",
+				"Items": ["Soul cape (blood)"]
+			},
+			"(Memory of Nomad) Obtain a ~|soul cape (golden)|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Minigames"],
+				"Label": "Untracked Minigame Uniques",
+				"Items": ["Soul cape (golden)"]
+			},
+			"(Effigy Incubtor) Obtain ~|Jeffy|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Minigames", "Pets"],
+				"Label": "Untracked Minigame Uniques",
+				"Items": ["Jeffy"]
+			},
+			"(Effigy Incubtor) Obtain ~|Geffy|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Minigames", "Pets"],
+				"Label": "Untracked Minigame Uniques",
+				"Items": ["Geffy"]
+			},
+			"(Effigy Incubtor) Obtain ~|Leffy|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Minigames", "Pets"],
+				"Label": "Untracked Minigame Uniques",
+				"Items": ["Leffy"]
+			},
+			"(Effigy Incubtor) Obtain ~|Seffy|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Minigames", "Pets"],
+				"Label": "Untracked Minigame Uniques",
+				"Items": ["Seffy"]
+			},
+			"(Court Cases) Obtain a ~|barrister wig|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Minigames"],
+				"Label": "Untracked Minigame Uniques",
+				"Items": ["Barrister wig"]
+			},
+			"(Court Cases) Obtain a ~|barrister top|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Minigames"],
+				"Label": "Untracked Minigame Uniques",
+				"Items": ["Barrister top"]
+			},
+			"(Court Cases) Obtain a ~|gavel|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Minigames"],
+				"Label": "Untracked Minigame Uniques",
+				"Items": ["Gavel"]
+			},
+			"(Rush of Blood) Obtain a ~|Most Wanted card (abyssal demons)|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Minigames"],
+				"Label": "Untracked Minigame Uniques",
+				"Items": ["Most Wanted card (abyssal demons)"]
+			},
+			"(Rush of Blood) Obtain a ~|Most Wanted card (automatons)|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Minigames"],
+				"Label": "Untracked Minigame Uniques",
+				"Items": ["Most Wanted card (automatons)"]
+			},
+			"(Rush of Blood) Obtain a ~|Most Wanted card (glacors)|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Minigames"],
+				"Label": "Untracked Minigame Uniques",
+				"Items": ["Most Wanted card (glacors)"]
+			},
+			"(Rush of Blood) Obtain a ~|Most Wanted card (tormented demons)|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Minigames"],
+				"Label": "Untracked Minigame Uniques",
+				"Items": ["Most Wanted card (tormented demons)"]
+			},
+			"(Temple Trekking) Obtain a ~|rambler's backpack|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Minigames"],
+				"Label": "Untracked Minigame Uniques",
+				"Items": ["Rambler's backpack"]
+			},
+			"(Temple Trekking) Obtain a ~|walking stick|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Minigames"],
+				"Label": "Untracked Minigame Uniques",
+				"Items": ["Walking stick"]
+			},
+			"(Temple Trekking) Obtain an ~|ouroboros pouch|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Minigames"],
+				"Label": "Untracked Minigame Uniques",
+				"Items": ["Ouroboros pouch"]
+			},
+			"(Temple Trekking) Obtain a ~|lumberjack hat|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Minigames"],
+				"Label": "Untracked Minigame Uniques",
+				"Items": ["Lumberjack hat"]
+			},
+			"(Temple Trekking) Obtain a ~|lumberjack top|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Minigames"],
+				"Label": "Untracked Minigame Uniques",
+				"Items": ["Lumberjack top"]
+			},
+			"(Temple Trekking) Obtain ~|lumberjack legs|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Minigames"],
+				"Label": "Untracked Minigame Uniques",
+				"Items": ["Lumberjack legs"]
+			},
+			"(Temple Trekking) Obtain ~|lumberjack boots|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Minigames"],
+				"Label": "Untracked Minigame Uniques",
+				"Items": ["Lumberjack boots"]
+			},
+			"(Temple Trekking) Obtain ~|lumberjack gloves|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Minigames"],
+				"Label": "Untracked Minigame Uniques",
+				"Items": ["Lumberjack gloves"]
+			},
+			"(Temple Trekking) Obtain a ~|constructor's hat|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Minigames"],
+				"Label": "Untracked Minigame Uniques",
+				"Items": ["Constructor's hat"]
+			},
+			"(Temple Trekking) Obtain a ~|constructor's garb|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Minigames"],
+				"Label": "Untracked Minigame Uniques",
+				"Items": ["Constructor's garb"]
+			},
+			"(Temple Trekking) Obtain ~|constructor's trousers|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Minigames"],
+				"Label": "Untracked Minigame Uniques",
+				"Items": ["Constructor's trousers"]
+			},
+			"(Temple Trekking) Obtain ~|constructor's boots|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Minigames"],
+				"Label": "Untracked Minigame Uniques",
+				"Items": ["Constructor's boots"]
+			},
+			"(Temple Trekking) Obtain ~|constructor's gloves|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Minigames"],
+				"Label": "Untracked Minigame Uniques",
+				"Items": ["Constructor's gloves"]
+			},
+			"(God Statues) Obtain a ~|sculpting chisel (Bandos)|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Minigames"],
+				"Label": "Untracked Minigame Uniques",
+				"Items": ["Sculpting chisel"]
+			},
+			"(God Statues) Obtain a ~|sculpting chisel (Guthix)|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Minigames"],
+				"Label": "Untracked Minigame Uniques",
+				"Items": ["Sculpting chisel"]
+			},
+			"(God Statues) Obtain a ~|sculpting chisel (Zamorak)|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Minigames"],
+				"Label": "Untracked Minigame Uniques",
+				"Items": ["Sculpting chisel"]
+			},
+			"(God Statues) Obtain a ~|sculpting chisel (Saradomin)|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Minigames"],
+				"Label": "Untracked Minigame Uniques",
+				"Items": ["Sculpting chisel"]
+			},
+			"(God Statues) Obtain a ~|sculpting chisel (Seren)|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Minigames"],
+				"Label": "Untracked Minigame Uniques",
+				"Chunks": ["8500"],
+				"Items": ["Sculpting chisel"]
+			},
+			"(The Runespan) Obtain a ~|wicked hood|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Minigames"],
+				"Label": "Untracked Minigame Uniques",
+				"Items": ["Wicked hood"]
+			},
+			"(The Runespan) Obtain a ~|wicked robe top|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Minigames"],
+				"Label": "Untracked Minigame Uniques",
+				"Items": ["Wicked robe top"]
+			},
+			"(The Runespan) Obtain a ~|wicked legs|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Minigames"],
+				"Label": "Untracked Minigame Uniques",
+				"Items": ["Wicked legs"]
+			},
+			"(The Runespan) Obtain a ~|wicked cape|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Minigames"],
+				"Label": "Untracked Minigame Uniques",
+				"Items": ["Wicked cape"]
+			},
+			"(The Runespan) Obtain a ~|lesser runic staff|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Minigames"],
+				"Label": "Untracked Minigame Uniques",
+				"Items": ["Lesser runic staff"]
+			},
+			"(The Runespan) Obtain a ~|runic staff|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Minigames"],
+				"Label": "Untracked Minigame Uniques",
+				"Items": ["Runic staff"]
+			},
+			"(The Runespan) Obtain a ~|greater runic staff|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Minigames"],
+				"Label": "Untracked Minigame Uniques",
+				"Items": ["Greater runic staff"]
+			},
+			"(The Runespan) Obtain a ~|massive pouch|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Minigames"],
+				"Label": "Untracked Minigame Uniques",
+				"Items": ["Massive pouch"]
+			},
+			"(TzHaar Fight Pit) Obtain a ~|trickster robe|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Minigames"],
+				"Label": "Untracked Minigame Uniques",
+				"Items": ["Trickster robe"]
+			},
+			"(TzHaar Fight Pit) Obtain a ~|battle-mage robe|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Minigames"],
+				"Label": "Untracked Minigame Uniques",
+				"Items": ["Battle-mage robe"]
+			},
+			"(TzHaar Fight Pit) Obtain a ~|vanguard robe|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Minigames"],
+				"Label": "Untracked Minigame Uniques",
+				"Items": ["Vanguard robe"]
+			},
+			"(Wisps of the Lost Grove) Obtain ~|Vinny|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Minigames", "Pets"],
+				"Label": "Untracked Minigame Uniques",
+				"Items": ["Vinny"]
+			},
+			"(Wilderness Flash Events) Obtain an ~|obelisk shard|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Minigames"],
+				"Label": "Untracked Minigame Uniques",
+				"Items": ["Obelisk shard"]
+			},
+			"(Wilderness Flash Events) Obtain a ~|portable obelisk|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Minigames"],
+				"Label": "Untracked Minigame Uniques",
+				"Items": ["Portable obelisk"]
+			},
+			"(Wilderness Flash Events) Obtain the ~|Annihilation|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Minigames"],
+				"Label": "Untracked Minigame Uniques",
+				"Items": ["Annihilation"]
+			},
+			"(Wilderness Flash Events) Obtain the ~|Decimation|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Minigames"],
+				"Label": "Untracked Minigame Uniques",
+				"Items": ["Decimation"]
+			},
+			"(Wilderness Flash Events) Obtain the ~|Obliteration|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Minigames"],
+				"Label": "Untracked Minigame Uniques",
+				"Items": ["Obliteration"]
+			},
+			"(Wilderness Flash Events) Obtain a ~|dark onyx core|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Minigames"],
+				"Label": "Untracked Minigame Uniques",
+				"Items": ["Dark onyx core"]
+			},
+			"(Shades of Mort'ton) Obtain a ~|shade skull|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Minigames"],
+				"Label": "Untracked Minigame Uniques",
+				"Items": ["Shade skull"]
+			},
+			"(Shades of Mort'ton) Obtain a ~|shade master kit|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Minigames"],
+				"Label": "Untracked Minigame Uniques",
+				"Items": ["Shade master kit"]
+			},
+			"(Penguin Hide & Seek) Obtain the ~|briefcase of disguises|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Minigames"],
+				"Label": "Untracked Minigame Uniques",
+				"Items": ["Briefcase of disguises"]
+			},
+			"(Penguin Hide & Seek) Obtain ~|Sheldon the Penguin|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Minigames", "Pets"],
+				"Label": "Untracked Minigame Uniques",
+				"Items": ["Sheldon the Penguin"]
+			},
+			
+			
+			
+			
+			"(xxx) Obtain a ~|xxx|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Minigames"],
+				"Label": "Untracked Minigame Uniques",
+				"Items": ["xxx"]
+			},
+			
 			"(Misc.) Obtain a ~|strange egg|~": {
 				"Category": ["Untracked Uniques", "Untracked Uniques Misc"],
 				"Label": "Untracked Misc Uniques",
@@ -114461,18 +117125,18 @@
 				"Label": "Untracked Misc Uniques",
 				"Items": ["Fragments of Pernix's quiver"]
 			},
-			"(Misc.) Unlock the ~|Stone of Jas ball|~": {
+			"(Misc.) Obtain the ~|Stone of Jas ball|~": {
 				"Category": ["Untracked Uniques", "Untracked Uniques Misc"],
 				"Label": "Untracked Uniques",
 				"Label": "Untracked Misc Uniques",
 				"Chunks": ["12338"]
 			},
-			"(PvP) Unlock the ~|duellist's cap|~ (tier 6)": {
+			"(PvP) Obtain the ~|duellist's cap|~ (tier 6)": {
 				"Category": ["Untracked Uniques", "Untracked Uniques Misc", "PVP"],
 				"Label": "Untracked Misc Uniques",
 				"Chunks": ["13106"]
 			},
-			"(PvP) Unlock the ~|wilderstalker helmet|~ (tier 6)": {
+			"(PvP) Obtain the ~|wilderstalker helmet|~ (tier 6)": {
 				"Category": ["Untracked Uniques", "Untracked Uniques Misc", "PVP"],
 				"Label": "Untracked Misc Uniques",
 				"Chunks": ["12342", "PVP[+]"]
@@ -114662,6 +117326,70 @@
 				"Label": "Untracked Misc Uniques",
 				"Monsters": ["Chompy bird"]
 			},
+			"(War's Retreat) Obtain the ~|vampyrism aura|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Misc"],
+				"Label": "Untracked Misc Uniques",
+				"Chunks": ["War's Retreat"],
+				"Monsters": ["AnyBoss[+]"],
+			},
+			"(War's Retreat) Obtain the ~|dark magic aura|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Misc"],
+				"Label": "Untracked Misc Uniques",
+				"Chunks": ["War's Retreat"],
+				"Monsters": ["AnyBoss[+]"],
+			},
+			"(War's Retreat) Obtain the ~|berserker aura|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Misc"],
+				"Label": "Untracked Misc Uniques",
+				"Chunks": ["War's Retreat"],
+				"Monsters": ["AnyBoss[+]"],
+			},
+			"(War's Retreat) Obtain the ~|reckless aura|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Misc"],
+				"Label": "Untracked Misc Uniques",
+				"Chunks": ["War's Retreat"],
+				"Monsters": ["AnyBoss[+]"],
+			},
+			"(War's Retreat) Obtain the ~|maniacal aura|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Misc"],
+				"Label": "Untracked Misc Uniques",
+				"Chunks": ["War's Retreat"],
+				"Monsters": ["AnyBoss[+]"],
+			},
+			"(Soul Reaper) Obtain ~|death notes|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Misc"],
+				"Label": "Untracked Misc Uniques",
+				"Chunks": ["Death's Office"],
+				"Monsters": ["AnyBoss[+]"],
+			},
+			"(Soul Reaper) Obtain an ~|incomplete hydrix|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Misc"],
+				"Label": "Untracked Misc Uniques",
+				"Chunks": ["Death's Office"],
+				"Monsters": ["AnyBoss[+]"],
+			},
+			"(Soul Reaper) Obtain the ~|mahjarrat aura|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Misc"],
+				"Label": "Untracked Misc Uniques",
+				"Chunks": ["Death's Office"],
+				"Monsters": ["AnyBoss[+]"],
+			},
+			"(Soul Reaper) Obtain the ~|Death Scythe|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Misc"],
+				"Label": "Untracked Misc Uniques",
+				"Chunks": ["Death's Office"],
+				"Monsters": ["AnyBoss[+]"],
+			},
+			"(Soul Reaper) Obtain ~|Tiny Death|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Misc", "Pets"],
+				"Label": "Untracked Misc Uniques",
+				"Chunks": ["Death's Office"],
+				"Monsters": ["AnyBoss[+]"],
+			},
+			
+			
+			
+			
 			"(Frozen Floors) Obtain a ~|frostbite dagger|~": {
 				"Category": ["Untracked Uniques", "Untracked Uniques Daemonheim"],
 				"Label": "Daemonheim Uniques",
@@ -114842,6 +117570,143 @@
 				},
 				"Not F2P": true
 			},
+			
+			"(Tetsu) Obtain a ~|tetsu helm|~ scroll": {
+				"Category": ["Ports Scrolls"],
+				"Label": "Player-Owned Port Scrolls",
+				"Chunks": ["Player-Owned Port"]
+			},
+			"(Tetsu) Obtain a ~|tetsu body|~ scroll": {
+				"Category": ["Ports Scrolls"],
+				"Label": "Player-Owned Port Scrolls",
+				"Chunks": ["Player-Owned Port"]
+			},
+			"(Tetsu) Obtain a ~|tetsu platelegs|~ scroll": {
+				"Category": ["Ports Scrolls"],
+				"Label": "Player-Owned Port Scrolls",
+				"Chunks": ["Player-Owned Port"]
+			},
+			"(Tetsu) Obtain a ~|tetsu swords|~ scroll": {
+				"Category": ["Ports Scrolls"],
+				"Label": "Player-Owned Port Scrolls",
+				"Chunks": ["Player-Owned Port"]
+			},
+			"(Death Lotus) Obtain a ~|Death Lotus hood|~ scroll": {
+				"Category": ["Ports Scrolls"],
+				"Label": "Player-Owned Port Scrolls",
+				"Chunks": ["Player-Owned Port"]
+			},
+			"(Death Lotus) Obtain a ~|Death Lotus chestplate|~ scroll": {
+				"Category": ["Ports Scrolls"],
+				"Label": "Player-Owned Port Scrolls",
+				"Chunks": ["Player-Owned Port"]
+			},
+			"(Death Lotus) Obtain a ~|Death Lotus chaps|~ scroll": {
+				"Category": ["Ports Scrolls"],
+				"Label": "Player-Owned Port Scrolls",
+				"Chunks": ["Player-Owned Port"]
+			},
+			"(Death Lotus) Obtain a ~|Death Lotus darts|~ scroll": {
+				"Category": ["Ports Scrolls"],
+				"Label": "Player-Owned Port Scrolls",
+				"Chunks": ["Player-Owned Port"]
+			},
+			"(Seasinger's) Obtain a ~|seasinger's hood|~ scroll": {
+				"Category": ["Ports Scrolls"],
+				"Label": "Player-Owned Port Scrolls",
+				"Chunks": ["Player-Owned Port"]
+			},
+			"(Seasinger's) Obtain a ~|seasinger's robe top|~ scroll": {
+				"Category": ["Ports Scrolls"],
+				"Label": "Player-Owned Port Scrolls",
+				"Chunks": ["Player-Owned Port"]
+			},
+			"(Seasinger's) Obtain a ~|seasinger's robe bottom|~ scroll": {
+				"Category": ["Ports Scrolls"],
+				"Label": "Player-Owned Port Scrolls",
+				"Chunks": ["Player-Owned Port"]
+			},
+			"(Seasinger's) Obtain a ~|seasinger's wand/orb|~ scroll": {
+				"Category": ["Ports Scrolls"],
+				"Label": "Player-Owned Port Scrolls",
+				"Chunks": ["Player-Owned Port"]
+			},
+			"(Scrimshaw) Obtain a ~|log-splitting scrimshaw|~ scroll": {
+				"Category": ["Ports Scrolls"],
+				"Label": "Player-Owned Port Scrolls",
+				"Chunks": ["Player-Owned Port"]
+			},
+			"(Scrimshaw) Obtain a ~|rock-crushing scrimshaw|~ scroll": {
+				"Category": ["Ports Scrolls"],
+				"Label": "Player-Owned Port Scrolls",
+				"Chunks": ["Player-Owned Port"]
+			},
+			"(Scrimshaw) Obtain a ~|tree-shaking scrimshaw|~ scroll": {
+				"Category": ["Ports Scrolls"],
+				"Label": "Player-Owned Port Scrolls",
+				"Chunks": ["Player-Owned Port"]
+			},
+			"(Scrimshaw) Obtain a ~|gem-finding scrimshaw|~ scroll": {
+				"Category": ["Ports Scrolls"],
+				"Label": "Player-Owned Port Scrolls",
+				"Chunks": ["Player-Owned Port"]
+			},
+			"(Scrimshaw) Obtain a ~|whopper-baiting scrimshaw|~ scroll": {
+				"Category": ["Ports Scrolls"],
+				"Label": "Player-Owned Port Scrolls",
+				"Chunks": ["Player-Owned Port"]
+			},
+			"(Scrimshaw) Obtain a ~|casket-salvaging scrimshaw|~ scroll": {
+				"Category": ["Ports Scrolls"],
+				"Label": "Player-Owned Port Scrolls",
+				"Chunks": ["Player-Owned Port"]
+			},
+			"(Scrimshaw) Obtain a ~|scrimshaw of vampyrism|~ scroll": {
+				"Category": ["Ports Scrolls"],
+				"Label": "Player-Owned Port Scrolls",
+				"Chunks": ["Player-Owned Port"]
+			},
+			"(Scrimshaw) Obtain a ~|scrimshaw of attack|~ scroll": {
+				"Category": ["Ports Scrolls"],
+				"Label": "Player-Owned Port Scrolls",
+				"Chunks": ["Player-Owned Port"]
+			},
+			"(Scrimshaw) Obtain a ~|scrimshaw of the elements|~ scroll": {
+				"Category": ["Ports Scrolls"],
+				"Label": "Player-Owned Port Scrolls",
+				"Chunks": ["Player-Owned Port"]
+			},
+			"(Scrimshaw) Obtain a ~|scrimshaw of magic|~ scroll": {
+				"Category": ["Ports Scrolls"],
+				"Label": "Player-Owned Port Scrolls",
+				"Chunks": ["Player-Owned Port"]
+			},
+			"(Scrimshaw) Obtain a ~|scrimshaw of cruelty|~ scroll": {
+				"Category": ["Ports Scrolls"],
+				"Label": "Player-Owned Port Scrolls",
+				"Chunks": ["Player-Owned Port"]
+			},
+			"(Scrimshaw) Obtain a ~|scrimshaw of ranging|~ scroll": {
+				"Category": ["Ports Scrolls"],
+				"Label": "Player-Owned Port Scrolls",
+				"Chunks": ["Player-Owned Port"]
+			},
+			"(Other) Obtain a ~|eastern soups|~ scroll": {
+				"Category": ["Ports Scrolls"],
+				"Label": "Player-Owned Port Scrolls",
+				"Chunks": ["Player-Owned Port"]
+			},
+			"(Other) Obtain a ~|leviathan ring|~ scroll": {
+				"Category": ["Ports Scrolls"],
+				"Label": "Player-Owned Port Scrolls",
+				"Chunks": ["Player-Owned Port"]
+			},
+			"(Other) Obtain a ~|reefwalker's cape|~ scroll": {
+				"Category": ["Ports Scrolls"],
+				"Label": "Player-Owned Port Scrolls",
+				"Chunks": ["Player-Owned Port"]
+			},
+			
 			"Obtain ~|Remy|~": {
 				"Category": ["Pets"],
 				"Label": "Pets",
@@ -114849,6 +117714,7 @@
 				"Items": ["GhostlySole[+]"],
 				"NPCs": ["Ghost cat"]
 			},
+			
 			"Obtain ~|Richie|~ and his partyhat": {
 				"Category": ["Money Unlockables", "Pets"],
 				"Label": "Pets",
@@ -114881,6 +117747,7 @@
 				"Chunks": ["13362"],
 				"Not F2P": true
 			},
+			
 			"Obtain ~|the Castaway|~ title": {
 				"Category": ["Arc Log", "Titles"],
 				"Label": "Titles",
@@ -115060,6 +117927,230 @@
 				},
 				"Items": ["Kal'gerion battle commendation"]
 			},
+			"Obtain the ~|Cowardly|~ title": {
+				"Category": ["Titles"],
+				"Label": "Titles",
+				"Items": ["Deathmatch title scroll"]
+			},
+			"Obtain the ~|the Redundant|~ title": {
+				"Category": ["Titles"],
+				"Label": "Titles",
+				"Items": ["Deathmatch title scroll"]
+			},
+			"Obtain the ~|Everyone attack|~ title": {
+				"Category": ["Titles"],
+				"Label": "Titles",
+				"Items": ["Deathmatch title scroll"]
+			},
+			"Obtain the ~|Smelly|~ title": {
+				"Category": ["Titles"],
+				"Label": "Titles",
+				"Items": ["Deathmatch title scroll"]
+			},
+			"Obtain the ~|the Idiot|~ title": {
+				"Category": ["Titles"],
+				"Label": "Titles",
+				"Items": ["Deathmatch title scroll"]
+			},
+			"Obtain the ~|Sir/Madam Lame|~ title": {
+				"Category": ["Titles"],
+				"Label": "Titles",
+				"Items": ["Deathmatch title scroll"]
+			},
+			"Obtain the ~|the Flamboyant|~ title": {
+				"Category": ["Titles"],
+				"Label": "Titles",
+				"Items": ["Deathmatch title scroll"]
+			},
+			"Obtain the ~|Weakling (title)|~ title": {
+				"Category": ["Titles"],
+				"Label": "Titles",
+				"Items": ["Deathmatch title scroll"]
+			},
+			"Obtain the ~|was punished|~ title": {
+				"Category": ["Titles"],
+				"Label": "Titles",
+				"Items": ["Deathmatch title scroll"]
+			},
+			"Obtain the ~|lost (title)|~ title": {
+				"Category": ["Titles"],
+				"Label": "Titles",
+				"Items": ["Deathmatch title scroll"]
+			},
+			"Obtain the ~|...you fail|~ title": {
+				"Category": ["Titles"],
+				"Label": "Titles",
+				"Items": ["Deathmatch title scroll"]
+			},
+			"Obtain the ~|no-mates|~ title": {
+				"Category": ["Titles"],
+				"Label": "Titles",
+				"Items": ["Deathmatch title scroll"]
+			},
+			"Obtain the ~|ate dirt|~ title": {
+				"Category": ["Titles"],
+				"Label": "Titles",
+				"Items": ["Deathmatch title scroll"]
+			},
+			"Obtain the ~|Delusional|~ title": {
+				"Category": ["Titles"],
+				"Label": "Titles",
+				"Items": ["Deathmatch title scroll"]
+			},
+			"Obtain the ~|the Respawner|~ title": {
+				"Category": ["Titles"],
+				"Label": "Titles",
+				"Items": ["Deathmatch title scroll"]
+			},
+			"Obtain the ~|Cutey-pie|~ title": {
+				"Category": ["Titles"],
+				"Label": "Titles",
+				"Items": ["Deathmatch title scroll"]
+			},
+			"Obtain the ~|the Fail Magnet|~ title": {
+				"Category": ["Titles"],
+				"Label": "Titles",
+				"Items": ["Deathmatch title scroll"]
+			},
+			"Obtain the ~|was terminated|~ title": {
+				"Category": ["Titles"],
+				"Label": "Titles",
+				"Items": ["Deathmatch title scroll"]
+			},
+			"Obtain the ~|Lazy|~ title": {
+				"Category": ["Titles"],
+				"Label": "Titles",
+				"Items": ["Deathmatch title scroll"]
+			},
+			"Obtain the ~|? Who?|~ title": {
+				"Category": ["Titles"],
+				"Label": "Titles",
+				"Items": ["Deathmatch title scroll"]
+			},
+			"Obtain the ~|the Survivor|~ title": {
+				"Category": ["Titles"],
+				"Label": "Titles",
+				"Items": ["'The Survivor' title scroll"]
+			},
+			"Obtain the ~|the Abyssal Knight|~ title": {
+				"Category": ["Titles"],
+				"Label": "Titles",
+				"Items": ["'the Abyssal Knight' title"]
+			},
+			"Obtain the ~|Animaniac|~ title": {
+				"Category": ["Titles"],
+				"Label": "Titles",
+				"Items": ["'Animaniac' title"]
+			},
+			"Obtain the ~|Abyss Diver|~ title": {
+				"Category": ["Titles"],
+				"Label": "Titles",
+				"Items": ["'Abyss Diver' title"]
+			},
+			"Obtain the ~|The Cabin Boy/Girl|~ title": {
+				"Category": ["Titles"],
+				"Label": "Titles",
+				"Chunks": ["Player-Owned Port"]
+			},
+			"Obtain the ~|Bo'son|~ title": {
+				"Category": ["Titles"],
+				"Label": "Titles",
+				"Chunks": ["Player-Owned Port"]
+			},
+			"Obtain the ~|First Mate|~ title": {
+				"Category": ["Titles"],
+				"Label": "Titles",
+				"Chunks": ["Player-Owned Port"]
+			},
+			"Obtain the ~|Cap'n|~ title": {
+				"Category": ["Titles"],
+				"Label": "Titles",
+				"Chunks": ["Player-Owned Port"]
+			},
+			"Obtain the ~|Commodore|~ title": {
+				"Category": ["Titles"],
+				"Label": "Titles",
+				"Chunks": ["Player-Owned Port"]
+			},
+			"Obtain the ~|Admiral|~ title": {
+				"Category": ["Titles"],
+				"Label": "Titles",
+				"Chunks": ["Player-Owned Port"]
+			},
+			"Obtain the ~|Admiral of the Fleet|~ title": {
+				"Category": ["Titles"],
+				"Label": "Titles",
+				"Chunks": ["Player-Owned Port"]
+			},
+			"Obtain the ~|Portmaster|~ title": {
+				"Category": ["Titles"],
+				"Label": "Titles",
+				"Chunks": ["Player-Owned Port"]
+			},
+			"Obtain the ~|the Powerful|~ title": {
+				"Category": ["Titles"],
+				"Label": "Titles",
+				"Items": ["'the Powerful' title"]
+			},
+			"Obtain the ~|the Virtuous|~ title": {
+				"Category": ["Titles"],
+				"Label": "Titles",
+				"Items": ["'the Virtuous' title"]
+			},
+			"Obtain the ~|the Eternal|~ title": {
+				"Category": ["Titles"],
+				"Label": "Titles",
+				"Items": ["'the Eternal' title"]
+			},
+			"Obtain the ~|the Boundless|~ title": {
+				"Category": ["Titles"],
+				"Label": "Titles",
+				"Items": ["'the Boundless' title"]
+			},
+			"Obtain the ~|the Naabe|~ title": {
+				"Category": ["Titles"],
+				"Label": "Titles",
+				"Items": ["'the Naabe' title"]
+			},
+			"Obtain the ~|The Abyssal|~ title": {
+				"Category": ["Titles"],
+				"Label": "Titles",
+				"Items": ["'The Abyssal' title"]
+			},
+			"Obtain the ~|The Dark|~ title": {
+				"Category": ["Titles"],
+				"Label": "Titles",
+				"Items": ["'The Dark' title"]
+			},
+			"Obtain the ~|The Beast|~ title": {
+				"Category": ["Titles"],
+				"Label": "Titles",
+				"Items": ["'The Beast' title"]
+			},
+			"Obtain the ~|Slayer Master (title)|~ title": {
+				"Category": ["Titles"],
+				"Label": "Titles",
+				"Items": ["'Slayer Master' title"]
+			},
+			"Obtain the ~|Birdwatcher|~ title": {
+				"Category": ["Titles"],
+				"Label": "Titles",
+				"Items": ["'Birdwatcher' title"]
+			},
+			"Obtain the ~|Spymaster|~ title": {
+				"Category": ["Titles"],
+				"Label": "Titles",
+				"Items": ["'Spymaster' title"]
+			},
+			"Obtain the ~|the Druid/Druidess|~ title": {
+				"Category": ["Titles"],
+				"Label": "Titles",
+				"Items": ["Honorary Druid"]
+			},
+			
+			
+			
+			
 			"Obtain a ~|dwarven army axe|~": {
 				"Category": ["BIS Skilling"],
 				"Label": "BIS Skilling",
@@ -121750,6 +124841,16 @@
 				"Output": "Ouroboros pouch",
 				"Not F2P": true
 			},
+			"Claim the rambler's backpack from Temple Trekking*": {
+				"Chunks": ["Temple Trekking Routes"],
+				"Output": "Rambler's backpack",
+				"Not F2P": true
+			},
+			"Claim the walking stick from Temple Trekking*": {
+				"Chunks": ["Temple Trekking Routes"],
+				"Output": "Rambler's backpack",
+				"Not F2P": true
+			},
 			"Buy a ghast pouch from Temple Trekking*": {
 				"Chunks": ["Temple Trekking Routes"],
 				"Tasks": {
@@ -122100,11 +125201,6 @@
 				"Output": "Enriched pontifex shadow ring",
 				"Not F2P": true
 			},
-			"Artisans' Workshop rewards*": {
-				"Chunks": ["12084"],
-				"Output": "Artisans' Workshop rewards",
-				"Not F2P": true
-			},
 			"Fish Flingers rewards*": {
 				"Category": ["DnD"],
 				"Chunks": ["10295"],
@@ -122365,6 +125461,13 @@
 				"Category": ["DnD Flash Events", "Group Content"],
 				"Chunks": ["DemonFlashMobWilderness[+]"],
 				"Output": "Demon Flash Mob rewards (wilderness)"
+			},
+			"Unlock the Jad pet": {
+				"Items": ["Fire cape"],
+				"Skills": {
+					"Summoning": 99,
+					"Slayer": 99
+				}
 			}
 		}
 	},
@@ -140138,7 +143241,7 @@
 				"Bronze pickaxe": 1
 			},
 			"Shop": {
-				"Cashes in Metal item tokens for equipment or salvage.": true,
+				"Artisans' Workshop Reward Shop": true,
 				"Garden Centre": true,
 				"Party Pete's Emporium": true,
 				"Minerva": true
@@ -172145,7 +175248,8 @@
 			"Stealing Creation Reward Shop": true,
 			"Cabbage Facepunch Bonanza Rewards": true,
 			"Reward Shop (Soul Wars)": true,
-			"Shattered Worlds Reward Shop":true
+			"Shattered Worlds Reward Shop":true,
+			"Artisans' Workshop Reward Shop": true
 		},
 		"boostItems": {
 			"Agility": {
@@ -228021,6 +231125,77 @@
 			}],
 			"Shards of Armadyl^": [{
 				"~|Ritual of the Mahjarrat|~ Complete the quest": "Quest"
+			}],
+			"Goliath gloves^": [{
+				"~|Nomad's Requiem|~ Complete the quest": "Quest"
+			}, {
+				"~|Do No Evil|~ Complete the quest": "Quest"
+			}, {
+				"~|Blood Runs Deep|~ Complete the quest": "Quest"
+			}, {
+				"~|Dream Mentor|~ Complete the quest": "Quest"
+			}, {
+				"~|While Guthix Sleeps|~ Complete the quest": "Quest"
+			}, {
+				"~|The Temple at Senntisten|~ Complete the quest": "Quest"
+			}],
+			"Spellcaster gloves^": [{
+				"~|Nomad's Requiem|~ Complete the quest": "Quest"
+			}, {
+				"~|Legends' Quest|~ Complete the quest": "Quest"
+			}, {
+				"~|Blood Runs Deep|~ Complete the quest": "Quest"
+			}, {
+				"~|Dream Mentor|~ Complete the quest": "Quest"
+			}, {
+				"~|The Curse of Arrav|~ Complete the quest": "Quest"
+			}, {
+				"~|My Arm's Big Adventure|~ Complete the quest": "Quest"
+			}],
+			"Swift gloves^": [{
+				"~|The Void Stares Back|~ Complete the quest": "Quest"
+			}, {
+				"~|Love Sotry|~ Complete the quest": "Quest"
+			}, {
+				"~|Desert Treasure|~ Complete the quest": "Quest"
+			}, {
+				"~|Dream Mentor|~ Complete the quest": "Quest"
+			}, {
+				"~|Recipe for Disaster: Freeing the Culinaromancer|~ Complete the quest": "Quest"
+			}, {
+				"~|Monkey Madness|~ Complete the quest": "Quest"
+			}],
+			"'The Survivor' title scroll^": [{
+				"~|Nomad's Requiem|~ Complete the quest": "Quest"
+			}, {
+				"~|Do No Evil|~ Complete the quest": "Quest"
+			}, {
+				"~|Blood Runs Deep|~ Complete the quest": "Quest"
+			}, {
+				"~|Dream Mentor|~ Complete the quest": "Quest"
+			}, {
+				"~|While Guthix Sleeps|~ Complete the quest": "Quest"
+			}, {
+				"~|The Temple at Senntisten|~ Complete the quest": "Quest"
+			}, {
+				"~|Recipe for Disaster: Freeing the Culinaromancer|~ Complete the quest": "Quest"
+			}, {
+				"~|Monkey Madness|~ Complete the quest": "Quest"
+			}, {
+				"~|The Void Stares Back|~ Complete the quest": "Quest"
+			}, {
+				"~|Love Sotry|~ Complete the quest": "Quest"
+			}, {
+				"~|Desert Treasure|~ Complete the quest": "Quest"
+			}, {
+				"~|The Curse of Arrav|~ Complete the quest": "Quest"
+			}, {
+				"~|My Arm's Big Adventure|~ Complete the quest": "Quest"
+			}, {
+				"~|Legends' Quest|~ Complete the quest": "Quest"
+			}],
+			"TzRek-Jad^": [{
+				"Unlock the Jad pet": "Nonskill"
 			}]
 		},
 		"Monsters": {
@@ -228985,6 +232160,24 @@
 			"Beer": true,
 			"Glassblowing pipe": true,
 			"Knife": true
+		},
+		"Artisans' Workshop Reward Shop": {
+			"Blacksmith's helmet": true,
+			"Blacksmith's top": true,
+			"Blacksmith's gloves": true,
+			"Blacksmith's apron": true,
+			"Blacksmith's boots": true,
+			"Blacksmith's helmet add-on": true,
+			"Dwarven instinct fragment 1": true,
+			"Dwarven instinct fragment 2": true,
+			"Gold dwarf multicannon": true,
+			"Royale cannon": true,
+			"Sword Polishing Kit": true,
+			"Luminite injector": true,
+			"Necturion Outfit": true,
+			"Invictum Outfit": true,
+			"Aetherium Outfit": true,
+			"Ceremonial sword": true
 		},
 		"Aubury's Rune Shop": {
 			"Air rune": true,
@@ -232359,7 +235552,8 @@
 			"Gold charm": true,
 			"Crimson charm": true,
 			"Green charm": true,
-			"Blue charm": true
+			"Blue charm": true,
+			"TzRek-Jad": true
 		},
 		"Rewards (Barbarian Assault)": {
 			"Attacker's insignia": true,
@@ -232379,6 +235573,11 @@
 			"Penance horn": true,
 			"Penance master horn": true,
 			"Granite body": true,
+			"Barbarian assault armour patch": true,
+			"Penance egg paint (Blue)": true,
+			"Penance egg paint (Yellow)": true,
+			"Penance egg paint (White)": true,
+			"Penance egg paint (Green)": true,
 			"The Account of Aesa Fellsdottir (Part 1)": true,
 			"The Account of Aesa Fellsdottir (Part 2)": true
 		},
@@ -233016,6 +236215,7 @@
 			"Farmer's hat add-on": true,
 			"Sand seed": true,
 			"Patch bomb": true,
+			"Honorary Druid": true,
 			"Supreme growth potion (woody)": true,
 			"Supreme growth potion (fruity)": true,
 			"Supreme growth potion (bushy)": true,
@@ -256484,6 +259684,21 @@
 				},
 				"Botanist's mask add-on": {
 					"1": "Common"
+				},
+				"Rogue mask": {
+					"1": "1/5000"
+				},
+				"Rogue top": {
+					"1": "1/5000"
+				},
+				"Rogue trousers": {
+					"1": "1/5000"
+				},
+				"Rogue gloves": {
+					"1": "1/5000"
+				},
+				"Rogue boots": {
+					"1": "1/5000"
 				}
 			},
 			"Crux Eqal Druid": {
@@ -256992,14 +260207,6 @@
 					"1": "Always"
 				}
 			},
-			"Artisans' Workshop rewards": {
-				"Blacksmith's helmet": "Always",
-				"Blacksmith's top": "Always",
-				"Blacksmith's gloves": "Always",
-				"Blacksmith's apron": "Always",
-				"Blacksmith's boots": "Always",
-				"Blacksmith's helmet add-on": "Always"
-			},
 			"Fish Flingers rewards": {
 				"Fishing hat": "Always",
 				"Fishing jacket": "Always",
@@ -257315,7 +260522,40 @@
 				"Dagannoth bones": {
 					"1": "Always"
 				},
-				"Frost tragon bones": {
+				"Frost dragon bones": {
+					"1": "Always"
+				},
+				"Dreadnip": {
+					"1": "Always"
+				},
+				"Dominion medallion": {
+					"1": "Always"
+				},
+				"Super dominion medallion": {
+					"1": "Always"
+				},
+				"Exteme dominion medallion": {
+					"1": "Always"
+				},
+				"Dominion marker (stage 4)": {
+					"1": "Always"
+				},
+				"Dominion mine": {
+					"1": "Always"
+				},
+				"Ascendancy mine": {
+					"1": "Always"
+				},
+				"Goliath gloves": {
+					"1": "Always"
+				},
+				"Spellcaster gloves": {
+					"1": "Always"
+				},
+				"Swift gloves": {
+					"1": "Always"
+				},
+				"'The Survivor title' scroll": {
 					"1": "Always"
 				}
 			},
