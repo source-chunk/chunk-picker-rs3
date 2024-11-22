@@ -1739,6 +1739,7 @@ let calcChallenges = function(chunks, baseChunkData) {
                 if (!!lowestName) {
                     !newValids[skill] && (newValids[skill] = {});
                     newValids[skill][lowestName] = chunkInfo['challenges'][skill][lowestName]['Level'];
+                    chunkInfo['challenges'][skill][lowestName]['Priority'] = -1;
                 }
             });
         });
@@ -1805,7 +1806,7 @@ let calcChallenges = function(chunks, baseChunkData) {
                 if (stillValid) {
                     !newValids[skill] && (newValids[skill] = {});
                     newValids[skill][name] = chunkInfo['challenges'][skill][name]['Level'];
-                    chunkInfo['challenges'][skill][name]['Priority'] = 999;
+                    //chunkInfo['challenges'][skill][name]['Priority'] = 999;
                 }
             });
         });
