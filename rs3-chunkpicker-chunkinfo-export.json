@@ -126294,7 +126294,9 @@
 				"Blissful shadow": 1,
 				"Manifest shadow": 4
 			},
-			"Connect": {},
+			"Connect": {
+				"17781": true
+			},
 			"Shop": {
 				"Coeden's Seed Store": true,
 				"Loyalty Programme Shop": true,
@@ -140895,6 +140897,9 @@
 				"Sensei Hakase": 1,
 				"Lokkir": 1,
 				"Gullible tourist": 1
+			},
+			"Connect": {
+				"17781": true
 			},
 			"Nickname": "Menaphos Dock"
 		},
@@ -156294,7 +156299,9 @@
 				"Scrimshaw Crafter": 1
 			},
 			"Connect": {
-				"12082": true
+				"12082": true,
+				"8756": true,
+				"12584": true
 			},
 			"Quest": {
 				"Spiritual Enlightenment (miniquest)": "step"
