@@ -434,8 +434,9 @@ let rules = {
 	"PVP": false,
 	"Hero Items": false,
 	"Brawling Gloves": false,
-	"Codex": false,
-	"All Abilities": false,
+	"Unlock Abilities": false,
+	"Sigil Abilities": false,
+	"Unlock Prayers": false,
 	"PvM Relics": false,
     "KeyItem Bosses": false,
 };                                                                              // List of rules and their on/off state
@@ -532,9 +533,10 @@ let ruleNames = {
 	"Hard Mode Bosses": "Include Hard mode variants of bosses",
 	"Group Content": "Require content that is intended to be completed in a group<span class='rule-asterisk noscroll'>†</span>",
 	"Full Healing": "Require Constitution levels to fully heal from different foods",
-	"All Abilities": "WIP - Must obtain new abilities and prayers that are obtained through other means than an ability codex",
+	"Unlock Abilities": "Must unlock all reward-locked abilities, including Necromancy incantations",
+	"Sigil Abilities": "Also include Sigil abilities (e.g. Aggression, Golden Touch, etc.)<span class='rule-asterisk noscroll'>*</span>",
+	"Unlock Prayers": "Must unlock all reward-locked prayers",
 	"PVP": "Require tasks that can only be completed by engaging in PvP<span class='rule-asterisk noscroll'>†</span>",
-	"Codex": "WIP - Must obtain new abilities and prayers that are obtained through an ability codex",
 	"PvM Relics": "WIP - Must obtain all best-in-slot/quality-of-life Archaeology Relics for combat",
     "KeyItem Bosses": "For bosses that require keys to kill, factor in the droprate of the key as part of the droprate of each drop",
 };                                                                              // List of rule definitions
@@ -561,6 +563,8 @@ let rulePresets = {
 		"Achievement": true,
 		"Full Healing": true,
 		"Cleaning Herbs": true,
+		"Unlock Abilities": true,
+        "Unlock Prayers": true,
     },
     "Xtreme Chunker": {
         "Skillcape": true,
@@ -623,6 +627,9 @@ let rulePresets = {
 		"Multiple Pickpockets": true,
 		"Hard Mode Bosses": true,
 		"Full Healing": true,
+		"Unlock Abilities": true,
+		"Sigil Abilities": true,
+        "Unlock Prayers": true,
     },
     "Supreme Chunker": {
         "Skillcape": true,
@@ -694,6 +701,9 @@ let rulePresets = {
 		"PVP": true,
 		"Full Healing": true,
 		"Hero Items": true,
+		"Unlock Abilities": true,
+		"Sigil Abilities": true,
+        "Unlock Prayers": true,
     }
 };                                                                              // List of rules that are part of each preset
 
@@ -738,7 +748,8 @@ let ruleStructure = {
 		"Full Healing": true,
         "HigherLander": true,
 		"PvM Relics": true,
-		"Codex": ["All Abilities"],
+		"Unlock Abilities": ["Sigil Abilities"],
+		"Unlock Prayers": true
     },
     "Construction": {
         "InsidePOH Primary": true,
@@ -8240,8 +8251,8 @@ let openHighest2 = function() {
             } else if (combatStyle === 'Quests') {
                 $(`.${combatStyle.replaceAll(' ', '_')}-body`).append(`<div class='noscroll qps'>Quest Points: ${questPointTotal}<i class="noscroll fas fa-filter" title="Filter" onclick="openQuestFilterContextMenu()"></i></div>`);
                 $(`.${combatStyle.replaceAll(' ', '_')}-body`).append(`<div class="quest-question-outer"><span class="quest-question">What do the colors indicate? <i class="fas fa-question-circle"></i><span class="tooltiptext"><div>Quests in <span style="color:green">green</span> indicate a quest that you can complete within your chunks.</div><hr /><div>Quests in <span style="color:yellow">yellow</span> indicate a quest that can be started, but not completed within your chunks.</div><hr /><div>Quests in <span style="color:grey">grey</span> indicate a quest that cannot be started yet.</div></span></span></div>`);
-                Object.keys(chunkInfo['quests']).filter(quest => { return quest === 'break' || quest === 'break2' || questFilterType === 'all' || (questFilterType === 'complete' && questProgress.hasOwnProperty(quest) && (questProgress[quest] === 'Complete the quest')) || (questFilterType === 'incomplete' && questProgress.hasOwnProperty(quest) && Array.isArray(questProgress[quest])) || (questFilterType === 'unstarted' && !questProgress.hasOwnProperty(quest)) }).forEach((quest) => {
-                    if (quest === 'break' || quest === 'break2') {
+                Object.keys(chunkInfo['quests']).filter(quest => { return quest === 'break' || quest === 'break2' || quest === 'break3' || questFilterType === 'all' || (questFilterType === 'complete' && questProgress.hasOwnProperty(quest) && (questProgress[quest] === 'Complete the quest')) || (questFilterType === 'incomplete' && questProgress.hasOwnProperty(quest) && Array.isArray(questProgress[quest])) || (questFilterType === 'unstarted' && !questProgress.hasOwnProperty(quest)) }).forEach((quest) => {
+                    if (quest === 'break' || quest === 'break2' || quest === 'break3') {
                         $(`.${combatStyle.replaceAll(' ', '_')}-body`).append(`<hr class='noscroll' />`);
                     } else {
                         $(`.${combatStyle.replaceAll(' ', '_')}-body`).append(`<div class='noscroll row${questProgress.hasOwnProperty(quest) ? (questProgress[quest] === 'Complete the quest' ? ' complete' : ' incomplete') : ''}'><span class='noscroll quest-text internal-link' onclick="openQuestSteps('Quest', '~|${encodeForUrl(quest)}|~')">${quest.replaceAll(/~/g, '').replaceAll(/\|/g, '')}</span> ${!onMobile ? `<span class="quest-info-button" onclick="getQuestInfo('` + encodeRFC5987ValueChars(quest) + `')"><i class="quest-icon fas fa-crosshairs"></i></span>` : ''}${(testMode || !(viewOnly || inEntry || locked)) && (chunkInfo['challenges'].hasOwnProperty('Quest') && chunkInfo['challenges']['Quest'].hasOwnProperty(`~|${quest}|~ Complete the quest`) && chunkInfo['challenges']['Quest'][`~|${quest}|~ Complete the quest`].hasOwnProperty('XpReward') && Object.keys(chunkInfo['challenges']['Quest'][`~|${quest}|~ Complete the quest`]['XpReward']).filter(skill => { return !skillNames.includes(skill) }).length > 0 && questProgress.hasOwnProperty(quest) && questProgress[quest] === 'Complete the quest') ? `<span class='noscroll xp-button${(!assignedXpRewards.hasOwnProperty('Quest') || !assignedXpRewards['Quest'].hasOwnProperty(`~|${quest}|~ Complete the quest`) || Object.keys(assignedXpRewards['Quest'][`~|${quest}|~ Complete the quest`]).includes('None')) ? ' unset' : ''}' onclick="openXpRewardModalWithFormat('Quest', '~|${encodeRFC5987ValueChars(quest)}|~ Complete the quest')">xp</span>` : ''}</div>`);
@@ -11547,6 +11558,14 @@ let loadData = async function(startup) {
 
         if (!rulesTemp.hasOwnProperty('Full Healing')) {
             rulesTemp['Full Healing'] = true;
+        }
+		
+		if (!rulesTemp.hasOwnProperty('Unlock Prayers')) {
+            rulesTemp['Unlock Prayers'] = true;
+        }
+		
+		if (!rulesTemp.hasOwnProperty('Unlock Abilities')) {
+            rulesTemp['Unlock Abilities'] = true;
         }
 		
 		 if (!rulesTemp.hasOwnProperty('DnD Flash Events')) {
