@@ -106063,7 +106063,6 @@
 			"~|Tirannwn Achievements#Elite|~ The Crested Guest is Best": {
 				"Description": "Visit Seren and bow or curtsy whilst wearing the Crest of Seren.",
 				"Chunks": ["8756"],
-				"Items": ["Crest of Seren"],
 				"Tasks": {
 					"~|Tirannwn Achievements#Hard|~ Complete the Hard Achievements": "Diary",
 					"~|Plague's End|~ Complete the quest": "Quest",
