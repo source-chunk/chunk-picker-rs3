@@ -412,6 +412,7 @@
 				"Chunks": ["8501", "8757"],
 				"Level": 77,
 				"Primary": true,
+				"Output": "Hefin Course Rewards",
 				"Priority": 1
 			},
 			"Complete a lap of the ~|Dorgesh-Kaan agility course|~": {
@@ -1043,7 +1044,7 @@
 				"Chunks": ["13362"],
 				"Level": 65,
 				"Primary": true,
-				"Output": "Piece of Het",
+				"Output": "Het's Course Rewards",
 				"Priority": 2
 			},
 			"Cross the jutting wall to the ~|Meiyerditch laboratories": {
@@ -37370,21 +37371,21 @@
 				"Level": 93,
 				"Objects": ["Fishing spot (waterfal)"],
 				"Primary": true,
-				"Output": "Small crystal urchin",
+				"Output": "Small Urchin Loot",
 				"Priority": 1
 			},
 			"Catch a ~|medium crystal urchin|~": {
 				"Level": 95,
 				"Objects": ["Fishing spot (waterfal)"],
 				"Primary": true,
-				"Output": "Medium crystal urchin",
+				"Output": "Medium Urchin Loot",
 				"Priority": 1
 			},
 			"Catch a ~|large crystal urchin|~": {
 				"Level": 97,
 				"Objects": ["Fishing spot (waterfal)"],
 				"Primary": true,
-				"Output": "Large crystal urchin",
+				"Output": "Large Urchin Loot",
 				"Priority": 2
 			},
 			"Feed a ~|starved ancient effigy|~ with fishing": {
@@ -114432,30 +114433,15 @@
 				"Label": "Untracked Skilling Uniques",
 				"Chunks": ["Empty Throne Room"]
 			},
-			"(Het's Oasis) Obtain the ~|Warrior of Het helmet|~": {
+			"(Het's Oasis) Obtain a ~|piece of Het|~": {
 				"Category": ["Untracked Uniques", "Untracked Uniques Skilling"],
 				"Label": "Untracked Skilling Uniques",
-				"Items": ["Warrior of Het helmet"]
+				"Items": ["Piece of Het"]
 			},
-			"(Het's Oasis) Obtain the ~|Warrior of Het chestplate|~": {
+			"(Het's Oasis) Obtain the ~|Warrior of Het armour|~": {
 				"Category": ["Untracked Uniques", "Untracked Uniques Skilling"],
 				"Label": "Untracked Skilling Uniques",
-				"Items": ["Warrior of Het chestplate"]
-			},
-			"(Het's Oasis) Obtain the ~|Warrior of Het shendyt|~": {
-				"Category": ["Untracked Uniques", "Untracked Uniques Skilling"],
-				"Label": "Untracked Skilling Uniques",
-				"Items": ["Warrior of Het shendyt"]
-			},
-			"(Het's Oasis) Obtain the ~|Warrior of Het sandals|~": {
-				"Category": ["Untracked Uniques", "Untracked Uniques Skilling"],
-				"Label": "Untracked Skilling Uniques",
-				"Items": ["Warrior of Het sandals"]
-			},
-			"(Het's Oasis) Obtain the ~|Warrior of Het gloves|~": {
-				"Category": ["Untracked Uniques", "Untracked Uniques Skilling"],
-				"Label": "Untracked Skilling Uniques",
-				"Items": ["Warrior of Het gloves"]
+				"Items": ["Warrior of Het armour"]
 			},
 			"(Het's Oasis) Obtain ~|gators|~": {
 				"Category": ["Untracked Uniques", "Untracked Uniques Skilling"],
@@ -119613,22 +119599,64 @@
 			"Obtain the ~|The Abyssal|~ title": {
 				"Category": ["Titles"],
 				"Label": "Titles",
-				"Items": ["'The Abyssal' title"]
+				"Chunks": ["8755"],
+				"Skills": {
+					"Slayer": 85
+				},
+				"Tasks": {
+					"~|Legacy of Seergaze|~ Complete the quest": "Quest"
+				}
 			},
 			"Obtain the ~|The Dark|~ title": {
 				"Category": ["Titles"],
 				"Label": "Titles",
-				"Items": ["'The Dark' title"]
+				"Chunks": ["8755"],
+				"Skills": {
+					"Slayer": 90
+				},
+				"Tasks": {
+					"~|Legacy of Seergaze|~ Complete the quest": "Quest"
+				}
 			},
 			"Obtain the ~|The Beast|~ title": {
 				"Category": ["Titles"],
 				"Label": "Titles",
-				"Items": ["'The Beast' title"]
+				"Chunks": ["8755"],
+				"Skills": {
+					"Slayer": 95,
+					"Dungeoneering": 90
+				},
+				"Tasks": {
+					"~|Blood Runs Deep|~ Complete the quest": "Quest",
+					"~|The Branches of Darkmeyer|~ Complete the quest": "Quest",
+					"~|The Chosen Commander|~ Complete the quest": "Quest",
+					"~|The Elder Kiln|~ Complete the quest": "Quest",
+					"~|Fate of the Gods|~ Complete the quest": "Quest",
+					"~|One of a Kind|~ Complete the quest": "Quest",
+					"~|The Firemaker's Curse|~ Complete the quest": "Quest",
+					"~|Ritual of the Mahjarrat|~ Complete the quest": "Quest",
+					"~|The Void Stares Back|~ Complete the quest": "Quest",
+					"~|The World Wakes|~ Complete the quest": "Quest"
+				}
 			},
 			"Obtain the ~|Slayer Master (title)|~ title": {
 				"Category": ["Titles"],
 				"Label": "Titles",
-				"Items": ["'Slayer Master' title"]
+				"Chunks": ["8755"],
+				"Skills": {
+					"Slayer": 95,
+					"Dungeoneering": 90
+				},
+				"Tasks": {
+					"~|The Branches of Darkmeyer|~ Complete the quest": "Quest",
+					"~|The Chosen Commander|~ Complete the quest": "Quest",
+					"~|Fate of the Gods|~ Complete the quest": "Quest",
+					"~|One of a Kind|~ Complete the quest": "Quest",
+					"~|The Firemaker's Curse|~ Complete the quest": "Quest",
+					"~|Ritual of the Mahjarrat|~ Complete the quest": "Quest",
+					"~|The Void Stares Back|~ Complete the quest": "Quest",
+					"~|The World Wakes|~ Complete the quest": "Quest"
+				}
 			},
 			"Obtain the ~|Birdwatcher|~ title": {
 				"Category": ["Titles"],
@@ -119679,6 +119707,11 @@
 				"Category": ["Titles"],
 				"Label": "Titles",
 				"Items": ["Ranked 'Baiter' title"]
+			},
+			"Obtain the ~|the Detective|~ title": {
+				"Category": ["Titles"],
+				"Label": "Titles",
+				"Items": ["Gavel"]
 			},
 			"Obtain a ~|dwarven army axe|~": {
 				"Category": ["BIS Skilling"],
@@ -126997,6 +127030,92 @@
 					"Summoning": 99,
 					"Slayer": 99
 				}
+			},
+			"Get the witchdoctor mask from Herblore Habitat*": {
+				"Category": ["DnD"],
+				"Chunks": ["11821"],
+				"Items": ["Orange tree seed", "Apple tree seed", "Banana tree seed", "Plant pot", "WateringCan[+]"],
+				"Skills": {
+					"Hunter": 81,
+					"Farming": 39
+				},
+				"Output": "Witchdoctor mask"
+			},
+			"Get the witchdoctor robes from Herblore Habitat*": {
+				"Category": ["DnD"],
+				"Chunks": ["11821"],
+				"Items": ["Orange tree seed", "Apple tree seed", "Banana tree seed", "Plant pot", "WateringCan[+]"],
+				"Skills": {
+					"Hunter": 81,
+					"Farming": 39
+				},
+				"Output": "Witchdoctor robes"
+			},
+			"Get the witchdoctor legs from Herblore Habitat*": {
+				"Category": ["DnD"],
+				"Chunks": ["11821"],
+				"Items": ["Orange tree seed", "Apple tree seed", "Banana tree seed", "Plant pot", "WateringCan[+]"],
+				"Skills": {
+					"Hunter": 81,
+					"Farming": 39
+				},
+				"Output": "Witchdoctor legs"
+			},
+			"Exchange implings for imp repellent*": {
+				"Chunks": ["Puro-Puro"],
+				"NPCs": ["Baby impling", "Young impling", "Gourmet impling"],
+				"Output": "Imp repellent"
+			},
+			"Exchange implings for a jar generator*": {
+				"Chunks": ["Puro-Puro"],
+				"NPCs": ["Essence impling", "Eclectic impling", "Nature impling"],
+				"Output": "Jar generator"
+			},
+			"Exchange implings for a magic butterfly net*": {
+				"Chunks": ["Puro-Puro"],
+				"NPCs": ["Gourmet impling", "Earth impling", "Essence impling"],
+				"Output": "Magic butterfly net"
+			},
+			"Get the barrister wig from Court Cases*": {
+				"Category": ["DnD"],
+				"Chunks": ["10806"],
+				"Items": ["Court summons"],
+				"Tasks": {
+					"~|King's Ransom|~ Complete the quest": "Quest"
+				},
+				"Output": "Barrister wig"
+			},
+			"Get the barrister top from Court Cases*": {
+				"Category": ["DnD"],
+				"Chunks": ["10806"],
+				"Items": ["Court summons"],
+				"Tasks": {
+					"~|King's Ransom|~ Complete the quest": "Quest"
+				},
+				"Output": "Barrister top"
+			},
+			"Get the gavel from Court Cases*": {
+				"Category": ["DnD"],
+				"Chunks": ["10806"],
+				"Items": ["Court summons"],
+				"Skills": {
+					"Attack": 65,
+					"Defence": 65
+				},
+				"Tasks": {
+					"~|King's Ransom|~ Complete the quest": "Quest",
+					"~|The Chosen Commander|~ Complete the quest": "Quest",
+					"~|Recipe for Disaster: Freeing Evil Dave|~ Complete the subquest": "Quest"
+				},
+				"Output": "Gavel"
+			},
+			"Find a gout tuber during Tai Bwo Wannai Cleanup*": {
+				"Category": ["Minigame"],
+				"Chunks": ["11056"],
+				"Tasks": {
+					"~|Jungle Potion|~ Complete the quest": "Quest"
+				},
+				"Output": "Gout tuber"
 			}
 		}
 	},
@@ -127105,6 +127224,9 @@
 		},
 		"35": {
 			"Name": "Scabarite Cavern"
+		},
+		"36": {
+			"Name": "Sinkhole"
 		},
 		"258": {
 			"Spawn": {
@@ -133340,7 +133462,8 @@
 			},
 			"Connect": {
 				"9372": true,
-				"9541": true
+				"9541": true,
+				"36": true
 			},
 			"Nickname": "Piscatoris mine"
 		},
@@ -135921,7 +136044,8 @@
 				"Iron med helm": 1
 			},
 			"Connect": {
-				"8004": true
+				"8004": true,
+				"36": true
 			},
 			"Quest": {
 				"Doric's Task V (miniquest)": "step",
@@ -136161,7 +136285,8 @@
 				"Stanley Limelight": 1
 			},
 			"Connect": {
-				"10139": true
+				"10139": true,
+				"36": true
 			},
 			"Spawn": {
 				"Plank": 4,
@@ -136792,6 +136917,9 @@
 				"Barb-tailed kebbit": 15,
 				"Spined larupia": 2
 			},
+			"Connect": {
+				"36": true
+			},
 			"Nickname": "East Feldip Shore"
 		},
 		"10286": {
@@ -136929,7 +137057,8 @@
 				"10131": true,
 				"10307": true,
 				"10388": true,
-				"11595": true
+				"11595": true,
+				"36": true
 			},
 			"Spawn": {
 				"Vial": 2,
@@ -137325,6 +137454,9 @@
 			},
 			"Quest": {
 				"Horror from the Deep": "step"
+			},
+			"Connect": {
+				"36": true
 			},
 			"Nickname": "Lighthouse Bridge"
 		},
@@ -138252,7 +138384,8 @@
 			"Connect": {
 				"11": true,
 				"10393": true,
-				"10649": true
+				"10649": true,
+				"36": true
 			},
 			"Spawn": {
 				"Shieldbow": 1,
@@ -138987,7 +139120,8 @@
 				"Saniboch": 1
 			},
 			"Connect": {
-				"10901": true
+				"10901": true,
+				"36": true
 			},
 			"Quest": {
 				"The Grand Tree": "step"
@@ -139153,7 +139287,8 @@
 				"Ignatius's Hot Deals": true
 			},
 			"Connect": {
-				"23130": true
+				"23130": true,
+				"36": true
 			},
 			"Quest": {
 				"Benedict's World Tour (miniquest)": "step",
@@ -140093,7 +140228,11 @@
 				"Chicken": 4,
 				"Jungle spider": 2,
 				"Wandering warrior": 4,
-				"Hobgoblin (Karamja)": 3
+				"Hobgoblin (Karamja)": 3,
+				"Broodoo victim": 1,
+				"Large mosquito": 1,
+				"Mosquito swarm": 1,
+				"Bush snake": 1
 			},
 			"NPC": {
 				"Tiadeche": 1,
@@ -140133,7 +140272,11 @@
 			},
 			"Monster": {
 				"Jungle spider": 6,
-				"Snake": 6
+				"Snake": 6,
+				"Broodoo victim": 1,
+				"Large mosquito": 1,
+				"Mosquito swarm": 1,
+				"Bush snake": 1
 			},
 			"NPC": {
 				"Jiminua": 1,
@@ -140501,7 +140644,8 @@
 			"Connect": {
 				"9541": true,
 				"11164": true,
-				"23130": true
+				"23130": true,
+				"36": true
 			},
 			"Shop": {
 				"Golden fleece": true
@@ -141436,7 +141580,8 @@
 			"Connect": {
 				"9030": true,
 				"11419": true,
-				"20118": true
+				"20118": true,
+				"36": true
 			},
 			"Quest": {
 				"Benedict's World Tour (miniquest)": "step",
@@ -142629,7 +142774,8 @@
 			"Connect": {
 				"7503": true,
 				"11417": true,
-				"12109": true
+				"12109": true,
+				"36": true
 			},
 			"Quest": {
 				"Chef's Assistant": "step",
@@ -143960,7 +144106,8 @@
 				"11927": true,
 				"12127": true,
 				"23130": true,
-				"24592": true
+				"24592": true,
+				"36": true
 			},
 			"Shop": {
 				"Stanley Limelight Traders": true
@@ -144523,7 +144670,8 @@
 				"Trader Stan's Trading Post": true
 			},
 			"Connect": {
-				"12181": true
+				"12181": true,
+				"36": true
 			},
 			"Quest": {
 				"Dragon Slayer": "step",
@@ -144872,7 +145020,8 @@
 				"Herald": 1
 			},
 			"Connect": {
-				"12186": true
+				"12186": true,
+				"36": true
 			},
 			"Spawn": {
 				"Monk's robe (top)": 1,
@@ -147710,7 +147859,8 @@
 			},
 			"Connect": {
 				"9797": true,
-				"15958": true
+				"15958": true,
+				"36": true
 			},
 			"Spawn": {
 				"Leather gloves": 1
@@ -149205,7 +149355,8 @@
 			},
 			"Connect": {
 				"4678": true,
-				"6473": true
+				"6473": true,
+				"36": true
 			},
 			"Spawn": {
 				"Fire rune": 1,
@@ -151643,7 +151794,8 @@
 			"Connect": {
 				"13979": true,
 				"17787": true,
-				"23130": true
+				"23130": true,
+				"36": true
 			},
 			"Quest": {
 				"Animal Magnetism":  "step",
@@ -151983,7 +152135,8 @@
 				"Archaeologist": 2
 			},
 			"Connect": {
-				"14231": true
+				"14231": true,
+				"36": true
 			},
 			"Spawn": {
 				"Crumbling tome": 1
@@ -152621,7 +152774,8 @@
 				"Tool leprechaun": 1
 			},
 			"Connect": {
-				"6473": true
+				"6473": true,
+				"36": true
 			},
 			"Shop": {
 				"Alice's Farming Shop": true
@@ -170108,6 +170262,33 @@
 			},
 			"Connect": {
 				"13102": true
+			}
+		},
+		"Sinkhole": {
+			"NPC": {
+				"Gorajo hoardstalker": 1
+			},
+			"Connect": {
+				"9272": true,
+				"10034": true,
+				"10039": true,
+				"10288": true,
+				"10285": true,
+				"10296": true,
+				"10549": true,
+				"10801": true,
+				"10805": true,
+				"11064": true,
+				"11318": true,
+				"11573": true,
+				"11829": true,
+				"12081": true,
+				"12086": true,
+				"12849": true,
+				"13107": true,
+				"13879": true,
+				"14131": true,
+				"14391": true
 			}
 		}
 	},
@@ -233238,6 +233419,38 @@
 				}, {
 					"Hard Mode Bosses": "Nonskill"
 				}]
+			},
+			"Broodoo victim": {
+				"11055": [{
+					"~|Jungle Potion|~ Complete the quest": "Quest"
+				}],
+				"11056": [{
+					"~|Jungle Potion|~ Complete the quest": "Quest"
+				}]
+			},
+			"Large mosquito": {
+				"11055": [{
+					"~|Jungle Potion|~ Complete the quest": "Quest"
+				}],
+				"11056": [{
+					"~|Jungle Potion|~ Complete the quest": "Quest"
+				}]
+			},
+			"Mosquito swarm": {
+				"11055": [{
+					"~|Jungle Potion|~ Complete the quest": "Quest"
+				}],
+				"11056": [{
+					"~|Jungle Potion|~ Complete the quest": "Quest"
+				}]
+			},
+			"Bush snake": {
+				"11055": [{
+					"~|Jungle Potion|~ Complete the quest": "Quest"
+				}],
+				"11056": [{
+					"~|Jungle Potion|~ Complete the quest": "Quest"
+				}]
 			}
 		},
 		"NPCs": {
@@ -236977,6 +237190,15 @@
 			"Ring of the Corrupted (Shadow)": true,
 			"Ring of the Defiled (Shadow)": true
 		},
+		"Prifddinas Waterfall Fishing Shop": {
+			"Hermit crab boot": true,
+			"Hermit crab chest": true,
+			"Hermit crab coral": true,
+			"Hermit crab nautilus": true,
+			"Hermit crab shell": true,
+			"Crystal rod unlock": true,
+			"'The Master Fisherman/Fisherwoman' title": true
+		},
 		"Proselyte Temple Knight Armoury": {
 			"Initiate sallet": true,
 			"Initiate cuisse": true,
@@ -238797,6 +239019,96 @@
 				"Skeka's hypnowand projector": "7/35000",
 				"Skeka's hypnowand handle": "1/35000",
 				"Skeka's hypnowand base": "1/35000"
+			},
+			"Hefin Course Rewards": {
+				"Voice of the Elders lore page": {
+					"1": "1/20"
+				},
+				"Spicy stew": {
+					"1": "Common"
+				},
+				"Mint cake": {
+					"1": "Common"
+				},
+				"Summer pie": {
+					"1": "Very rare"
+				},
+				"Agility potion (3)": {
+					"1": "Rare"
+				},
+				"Corrupted ore": {
+					"1": "Rare"
+				},
+				"Truthful shadow core": {
+					"1": "Rare"
+				},
+				"Blissful shadow core": {
+					"1": "Rare"
+				},
+				"Manifest shadow core": {
+					"1": "Rare"
+				},
+				"Light Creature scroll (Enlightenment)": {
+					"1": "Rare"
+				},
+				"Crystal acorn": {
+					"1": "Very rare"
+				},
+				"Prifddinian worker's robes": {
+					"1": "Common"
+				},
+				"Prifddinian worker's trousers": {
+					"1": "Common"
+				},
+				"Prifddinian worker's boots": {
+					"1": "Common"
+				},
+				"Prifddinian worker's gloves": {
+					"1": "Common"
+				},
+				"Hefin Ward": {
+					"1": "Uncommon"
+				},
+				"Hefin Lotus": {
+					"1": "Uncommon"
+				},
+				"Hefin Crane": {
+					"1": "Uncommon"
+				},
+				"Hefin Bow": {
+					"1": "Uncommon"
+				},
+				"Amlodd symbol piece": {
+					"1": "Very rare"
+				},
+				"Cadarn symbol piece": {
+					"1": "Very rare"
+				},
+				"Crwys symbol piece": {
+					"1": "Very rare"
+				},
+				"Hefin symbol piece": {
+					"1": "Very rare"
+				},
+				"Ithell symbol piece": {
+					"1": "Very rare"
+				},
+				"Iowerth symbol piece": {
+					"1": "Very rare"
+				},
+				"Meilyr symbol piece": {
+					"1": "Very rare"
+				},
+				"Trahaearn symbol piece": {
+					"1": "Very rare"
+				}
+			},
+			"Het's Course Rewards": {
+				"Piece of Het": "Rare",
+				"Warrior of Het armour": "Very rare",
+				"'of the Ruination' title": "Very rare",
+				"Gators": "Very rare",
+				"Chomper": "Very rare"
 			}
 		},
 		"Archaeology": {
@@ -241719,6 +242031,15 @@
 				"Warped gorajan trailblazer legs": "Always",
 				"Warped gorajan trailblazer hands": "Always",
 				"Warped gorajan trailblazer feet": "Always"
+			},
+			"Sinkholes Rewards": {
+				"Dungeoneering tokens": "Always",
+				"Hoardstalker helm": "Rare",
+				"Hoardstalker top": "Rare",
+				"Hoardstalker legs": "Rare",
+				"Hoardstalker gloves": "Rare",
+				"Hoardstalker boots": "Rare",
+				"Hoardstalker ring": "Rare"
 			}
 		},
 		"Farming": {
@@ -241795,7 +242116,12 @@
 			},
 			"RoseBushYield": {
 				"Roses": "Always",
-				"Golden roses": "Rare"
+				"Golden roses": "Rare",
+				"Piece of Het": "Rare",
+				"Warrior of Het armour": "Very rare",
+				"'of the Ruination' title": "Very rare",
+				"Gators": "Very rare",
+				"Chomper": "Very rare"
 			},
 			"WhiteSheepBreed": {
 				"White ewe (unchecked)": "Unknown",
@@ -241863,7 +242189,12 @@
 			},
 			"IrisBushYield": {
 				"Irises": "Always",
-				"Golden roses": "Rare"
+				"Golden roses": "Rare",
+				"Piece of Het": "Rare",
+				"Warrior of Het armour": "Very rare",
+				"'of the Ruination' title": "Very rare",
+				"Gators": "Very rare",
+				"Chomper": "Very rare"
 			},
 			"GreyChinOutput": {
 				"Chinchompa residue": "Always",
@@ -241922,7 +242253,12 @@
 			},
 			"HydrangeaBushYield": {
 				"Hydrangeas": "Always",
-				"Golden roses": "Rare"
+				"Golden roses": "Rare",
+				"Piece of Het": "Rare",
+				"Warrior of Het armour": "Very rare",
+				"'of the Ruination' title": "Very rare",
+				"Gators": "Very rare",
+				"Chomper": "Very rare"
 			},
 			"YakOutput": {
 				"Yak-hide": "Always",
@@ -242049,7 +242385,12 @@
 			},
 			"HollyhockBushYield": {
 				"Hollyhocks": "Always",
-				"Golden roses": "Rare"
+				"Golden roses": "Rare",
+				"Piece of Het": "Rare",
+				"Warrior of Het armour": "Very rare",
+				"'of the Ruination' title": "Very rare",
+				"Gators": "Very rare",
+				"Chomper": "Very rare"
 			},
 			"GreenDragonBreed": {
 				"Green dragon (unchecked)": "Unknown"
@@ -242475,6 +242816,18 @@
 			"EelSpawn": {
 				"Frog spawn": "Common",
 				"Slimy eel": "Common"
+			},
+			"Small Urchin Loot": {
+				"Small crystal urchin": "Always",
+				"Hermit crab": "Very rare"
+			},
+			"Medium Urchin Loot": {
+				"Medium crystal urchin": "Always",
+				"Hermit crab": "Very rare"
+			},
+			"Large Urchin Loot": {
+				"Large crystal urchin": "Always",
+				"Hermit crab": "Very rare"
 			}
 		},
 		"Fletching": {
@@ -242647,11 +243000,19 @@
 			},
 			"PlainWhirligig": {
 				"Plain whirligig shell": "Always",
-				"Piece of Het": "Uncommon"
+				"Piece of Het": "Uncommon",
+				"Warrior of Het armour": "Very rare",
+				"'of the Ruination' title": "Very rare",
+				"Gators": "Very rare",
+				"Chomper": "Very rare"
 			},
 			"DazzlingWhirligig": {
 				"Dazzling whirligig shell": "Always",
-				"Piece of Het": "Uncommon"
+				"Piece of Het": "Uncommon",
+				"Warrior of Het armour": "Very rare",
+				"'of the Ruination' title": "Very rare",
+				"Gators": "Very rare",
+				"Chomper": "Very rare"
 			},
 			"CommonKebbit": {
 				"Bones": "Always",
@@ -242900,7 +243261,11 @@
 			},
 			"GlidingWhirligig": {
 				"Gliding whirligig shell": "Always",
-				"Piece of Het": "Uncommon"
+				"Piece of Het": "Uncommon",
+				"Warrior of Het armour": "Very rare",
+				"'of the Ruination' title": "Very rare",
+				"Gators": "Very rare",
+				"Chomper": "Very rare"
 			},
 			"SpinedLarupia": {
 				"Big bones": "Always",
@@ -243562,7 +243927,11 @@
 			},
 			"HastyWhirligig": {
 				"Hasty whirligig shell": "Always",
-				"Piece of Het": "Uncommon"
+				"Piece of Het": "Uncommon",
+				"Warrior of Het armour": "Very rare",
+				"'of the Ruination' title": "Very rare",
+				"Gators": "Very rare",
+				"Chomper": "Very rare"
 			},
 			"ShadowJadinko": {
 				"Shadow vine": "Always",
@@ -244738,7 +245107,11 @@
 			},
 			"SpeedyWhirligig": {
 				"Speedy whirligig shell": "Always",
-				"Piece of Het": "Uncommon"
+				"Piece of Het": "Uncommon",
+				"Warrior of Het armour": "Very rare",
+				"'of the Ruination' title": "Very rare",
+				"Gators": "Very rare",
+				"Chomper": "Very rare"
 			},
 			"Kingly impling": {
 				"Uncut diamond": {
