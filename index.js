@@ -350,6 +350,7 @@ let rules = {
     "Normal Farming": false,
     "Raking": false,
     "Kill X": false,
+    "Kill X Boss": false,
     "Sorceress's Garden": false,
     "Spells": false,
     "Show Skill Tasks": false,
@@ -361,6 +362,7 @@ let rules = {
     "Show Best in Slot Melee Style Tasks": false,
     "Show Best in Slot 1H and 2H": false,
     "Show Best in Slot Shield": false,
+    "Consumable Primary BiS": false,
     "Show Quest Tasks Complete": false,
     "Show Diary Tasks Complete": false,
     "Show Diary Tasks Any": false,
@@ -440,8 +442,9 @@ let rules = {
 	"PVP": false,
 	"Hero Items": false,
 	"Brawling Gloves": false,
-	"Codex": false,
-	"All Abilities": false,
+	"Unlock Abilities": false,
+	"Sigil Abilities": false,
+	"Unlock Prayers": false,
 	"PvM Relics": false,
     "KeyItem Bosses": false,
 };                                                                              // List of rules and their on/off state
@@ -458,6 +461,7 @@ let ruleNames = {
     "Normal Farming": "Allow normal farming to count as a primary method for training Farming",
     "Raking": "Allow raking patches to count as a primary method for training Farming<span class='rule-asterisk noscroll'>*</span>",
     "Kill X": "Kill X-amount of every new, unique monster you encounter",
+    "Kill X Boss": "Include bosses for these tasks",
     "Sorceress's Garden": "Allow Sorceress's Garden to count as primary training for training Farming<span class='rule-asterisk noscroll'>*</span>",
     "Spells": "Spells count as a way to process runes via Magic, and therefore can count as chunk tasks",
     "Show Skill Tasks": "Show Skill Tasks (e.g. Get 43 Crafting to cut a diamond)",
@@ -469,6 +473,7 @@ let ruleNames = {
     "Show Best in Slot Melee Style Tasks": "Show Best in Slot Tasks for stab/slash/crush instead of overall melee",
     "Show Best in Slot 1H and 2H": "Show Best in Slot Tasks for both 2-handed and 1-handed/shield, rather than just the better of the two",
     "Show Best in Slot Shield": "Show Best in Slot Tasks for both off-hand weapons and shields, rather than just the better of the two",
+    "Consumable Primary BiS": "For consumable items (arrows, darts, etc.), only count them as Best in Slot if you have primary access to them",
     "Show Quest Tasks Complete": "Show Quest Tasks only when the whole quest is completable",
     "Show Diary Tasks Complete": "Show Diary Tasks only when the whole diary tier (easy, medium, etc.) is completable",
     "Show Diary Tasks Any": "Show all diary tasks possible, regardless of tier<span class='rule-asterisk noscroll'>*</span>",
@@ -547,9 +552,10 @@ let ruleNames = {
 	"Hard Mode Bosses": "Include Hard mode variants of bosses",
 	"Group Content": "Require content that is intended to be completed in a group<span class='rule-asterisk noscroll'>†</span>",
 	"Full Healing": "Require Constitution levels to fully heal from different foods",
-	"All Abilities": "WIP - Must obtain new abilities and prayers that are obtained through other means than an ability codex",
+	"Unlock Abilities": "Must unlock all reward-locked abilities, including Necromancy incantations",
+	"Sigil Abilities": "Also include Sigil abilities (e.g. Aggression, Golden Touch, etc.)<span class='rule-asterisk noscroll'>*</span>",
+	"Unlock Prayers": "Must unlock all reward-locked prayers",
 	"PVP": "Require tasks that can only be completed by engaging in PvP<span class='rule-asterisk noscroll'>†</span>",
-	"Codex": "WIP - Must obtain new abilities and prayers that are obtained through an ability codex",
 	"PvM Relics": "WIP - Must obtain all best-in-slot/quality-of-life Archaeology Relics for combat",
     "KeyItem Bosses": "For bosses that require keys to kill, factor in the droprate of the key as part of the droprate of each drop",
 };                                                                              // List of rule definitions
@@ -576,6 +582,8 @@ let rulePresets = {
 		"Achievement": true,
 		"Full Healing": true,
 		"Cleaning Herbs": true,
+		"Unlock Abilities": true,
+        "Unlock Prayers": true,
     },
     "Xtreme Chunker": {
         "Skillcape": true,
@@ -647,6 +655,9 @@ let rulePresets = {
 		"Multiple Pickpockets": true,
 		"Hard Mode Bosses": true,
 		"Full Healing": true,
+		"Unlock Abilities": true,
+		"Sigil Abilities": true,
+        "Unlock Prayers": true,
     },
     "Supreme Chunker": {
         "Skillcape": true,
@@ -728,6 +739,9 @@ let rulePresets = {
 		"PVP": true,
 		"Full Healing": true,
 		"Hero Items": true,
+		"Unlock Abilities": true,
+		"Sigil Abilities": true,
+        "Unlock Prayers": true,
     }
 };                                                                              // List of rules that are part of each preset
 
@@ -743,7 +757,7 @@ let ruleStructure = {
 		"Achievement": true,
         "Show Quest Tasks": ["Show Quest Tasks Complete"],
         "Show Diary Tasks": ["Show Diary Tasks Complete", "Show Diary Tasks Any"],
-        "Show Best in Slot Tasks": ["Show Best in Slot Prayer Tasks", "Show Best in Slot Defensive Tasks", "Show Best in Slot Melee Style Tasks", "Show Best in Slot 1H and 2H", "Show Best in Slot Shield"],
+        "Show Best in Slot Tasks": ["Show Best in Slot Prayer Tasks", "Show Best in Slot Defensive Tasks", "Show Best in Slot Melee Style Tasks", "Show Best in Slot 1H and 2H", "Show Best in Slot Shield", "Consumable Primary BiS"],
 		"BIS Skilling": ["BIS Skilling Consumables", "BIS Skilling Relics", "Brawling Gloves"],
 	},
 	"Collections": {
@@ -780,7 +794,8 @@ let ruleStructure = {
 		"Full Healing": true,
         "HigherLander": true,
 		"PvM Relics": true,
-		"Codex": ["All Abilities"],
+		"Unlock Abilities": ["Sigil Abilities"],
+		"Unlock Prayers": true
     },
     "Construction": {
         "InsidePOH Primary": true,
@@ -834,7 +849,7 @@ let ruleStructure = {
     },
     "Miscellaneous": {
         "Hero Items": true,
-		"Kill X": true,
+		"Kill X": ["Kill X Boss"],
         "Fill Stash": true,
         "Manually Complete Tasks": true,
         "Skiller": true,
@@ -917,6 +932,7 @@ let settings = {
     "rollWarning": false,
     "optOutSections": false,
     "unlockedBorderColor": '#FF0000',
+    "defaultChunkinfo": 'monsters',
 };                                                                              // Current state of all settings
 
 let settingNames = {
@@ -948,6 +964,7 @@ let settingNames = {
     "rollWarning": "Show a confirmation window after clicking the Pick Chunk or Roll 2 button",
     "optOutSections": "Always assume all chunks are entirely accessible (opt out of chunk sections)",
     "unlockedBorderColor": "Change the color of the border surrounding your unlocked chunks",
+    "defaultChunkinfo": 'Select the default tab when first opening the Chunk Info Panel',
 };                                                                              // Descriptions of the settings
 
 let settingStructure = {
@@ -962,7 +979,7 @@ let settingStructure = {
     },
     "Information Panels": {
         "recent": true,
-        "info": true,
+        "info": ["defaultChunkinfo"],
         "chunkTasks": ["taskSidebar", "hideChecked"],
         "topButtons": ["allTasks"]
     },
@@ -1415,6 +1432,7 @@ let expandChallengeStr = '';
 let detailsStack = [];
 let touchTime = 0;
 let mobileChunkId = 0;
+let sidebarHidden = false;
 let topbarSelection = ['Patreon', 'Map Notes', 'Patch Notes', 'Discord', 'Report a Bug', 'Chunk-roll History', 'Settings'];
 let topbarChoices = ['Map Notes', 'Patch Notes', 'Report a Bug', 'Chunk-roll History', 'Screenshot Mode', 'Sandbox Mode'];
 let topbarElements = {
@@ -1426,7 +1444,7 @@ let topbarElements = {
     'Sandbox Mode': `<div><span class='noscroll' onclick="enableTestMode()"><i class="gosandbox fas fa-flask" title='Sandbox Mode'></i></span></div>`,
 };
 
-let currentVersion = '6.5.12';
+let currentVersion = '6.5.19';
 let patchNotesVersion = '6.4.0';
 
 // Patreon Test Server Data
@@ -1567,7 +1585,7 @@ mapImg.addEventListener("load", e => {
         centerCanvas('quick');
     }
 });
-mapImg.src = "runescape_world_map.png?v=6.5.12";
+mapImg.src = "runescape_world_map.png?v=6.5.19";
 
 // Rounded rectangle
 CanvasRenderingContext2D.prototype.roundRect = function (x, y, w, h, r) {
@@ -2706,7 +2724,7 @@ let selectAllNeighborsCanvas = function() {
 
 // Resorts the order/numbering of selected chunks
 let sortSelectedChunks = function() {
-    tempSelectedChunks.sort().reverse().forEach((chunkId) => {
+    tempSelectedChunks.sort((a, b) => parseInt(b) - parseInt(a)).forEach((chunkId) => {
         tempChunks['selected'][chunkId] = tempSelectedChunks.indexOf(chunkId.toString()) + 1;
     });
 }
@@ -2906,7 +2924,7 @@ let setRecentRoll = function(chunkId) {
             $('#recentChunks' + count).html('<span class="chunknone" onclick="recentChunkCanvas(recentChunks' + count + ')">-</span>');
         }
     }
-    if (!!recentTime[0]) {
+    if (!!chunkOrderArr[0]) {
         $('#recentChunksTitle > b').text(Math.max(Math.floor((new Date().getTime() - chunkOrderArr[0]) / (1000 * 3600 * 24)), 0) + ' days since last roll');
     }
     setData();
@@ -3249,7 +3267,7 @@ let calcCurrentChallengesCanvas = function(useOld, proceed, fromLoadData, inputT
         setCalculating('.panel-active', useOld);
         setCurrentChallenges(['No tasks currently backlogged.'], ['No tasks currently completed.'], true, true);
         myWorker.terminate();
-        myWorker = new Worker("./worker.js?v=6.5.12");
+        myWorker = new Worker("./worker.js?v=6.5.19");
         myWorker.onmessage = workerOnMessage;
         myWorker.postMessage(['current', tempChunks['unlocked'], rules, chunkInfo, skillNames, processingSkill, maybePrimary, combatSkills, monstersPlus, objectsPlus, chunksPlus, itemsPlus, mixPlus, npcsPlus, tasksPlus, tools, elementalRunes, manualTasks, completedChallenges, backlog, "1/" + rules['Rare Drop Amount'], universalPrimary, elementalStaves, rangedItems, boneItems, highestCurrent, dropTables, possibleAreas, randomLoot, magicTools, bossLogs, bossMonsters, minigameShops, manualEquipment, checkedChallenges, backloggedSources, altChallenges, manualMonsters, slayerLocked, passiveSkill, f2pSkills, assignedXpRewards, mid === diary2Tier, manualAreas, "1/" + rules['Secondary Primary Amount'], mid === manualAreasOnly, tempSections, settings['optOutSections'], maxSkill, userTasks, manualPrimary]);
         workerOut = 1;
@@ -3552,8 +3570,8 @@ $(document).ready(function() {
 // ------------------------------------------------------------
 
 // Recieve message from worker
-let myWorker = new Worker("./worker.js?v=6.5.12");
-let myWorker2 = new Worker("./worker.js?v=6.5.12");
+let myWorker = new Worker("./worker.js?v=6.5.19");
+let myWorker2 = new Worker("./worker.js?v=6.5.19");
 let workerOnMessage = function(e) {
     if (lastUpdated + 2000000 < Date.now() && !hasUpdate) {
         lastUpdated = Date.now();
@@ -4185,9 +4203,9 @@ let exportFunc = function(type) {
         navigator.clipboard.writeText(tasksTemp);
     } else if (type === 'rules') {
         navigator.clipboard.writeText(JSON.stringify(rules));
-    } else if (type === 'plugin') {
+    } else if (type === 'plugin' && (testMode || !(viewOnly || inEntry || locked))) {
         calcCurrentChallengesCanvas(true, true);
-    } else if (type === 'assign') {
+    } else if (type === 'assign' && (testMode || !(viewOnly || inEntry || locked))) {
         selectAllNeighborsCanvas();
     }
     closeClipboard();
@@ -5484,10 +5502,12 @@ let enableHighscore = function(extra) {
 
 // Toggles the accordion panels of the chunk info panel
 let toggleInfoPanel = function(pnl) {
-    infoPanelVis[pnl] = !infoPanelVis[pnl];
+    infoPanelVis[pnl] = true;
     Object.keys(infoPanelVis).forEach((uniqKey) => {
         if (uniqKey === pnl) {
             infoPanelVis[pnl] ? $('.panel-' + pnl).addClass('visible') : $('.panel-' + pnl).removeClass('visible');
+            infoPanelVis[pnl] ? $('.chunkinfo-sidebar-' + pnl).addClass('active') : $('.chunkinfo-sidebar-' + pnl).removeClass('active');
+            $('.divider-title').text($('.chunkinfo-sidebar-' + pnl).text());
             if (pnl === 'challenges' && infoPanelVis[pnl] && expandChallengeStr === '') {
                 $('.panel-challenges').html(`<div class="noscroll calculating"><i class="noscroll fas fa-spinner fa-spin"></i></div>`);
                 $('.expand').hide();
@@ -5505,6 +5525,7 @@ let toggleInfoPanel = function(pnl) {
             }
         } else {
             $('.panel-' + uniqKey).removeClass('visible');
+            $('.chunkinfo-sidebar-' + uniqKey).removeClass('active');
             infoPanelVis[uniqKey] = false;
         }
     });
@@ -5684,21 +5705,29 @@ let updateChunkInfo = function() {
                 visible = id;
             }
         });
+        if (visible.length === 0) {
+            toggleInfoPanel(settings['defaultChunkinfo'] || 'monsters');
+            visible = settings['defaultChunkinfo'] || 'monsters';
+        }
         if (chunkInfoOn) {
             $('.menu8').show();
             $('.hiddenInfo').hide();
         }
-        if ($('.infoid').is(':hidden') && id > 0) {
+        if ($('.infoid').is(':hidden') && id !== -1) {
             $('.infostartup').hide();
             $('.infoid').show();
-            $('.chunkinfo-dropdown-container').show();
+            $('#chunkinfo-sidebar-container, .chunkinfo-divider, #chunkinfo-main-container').show();
+            $('.menu8 .infocontent').css({'height': '350px'});
+            $('.infocontribute').css({'float': 'left'});
             if (visible !== '') {
                 $('.panel-' + visible).show();
             }
         } else if (id === -1) {
             $('.infostartup').show();
             $('.infoid').hide();
-            $('.chunkinfo-dropdown-container').hide();
+            $('#chunkinfo-sidebar-container, .chunkinfo-divider, #chunkinfo-main-container').hide();
+            $('.menu8 .infocontent').css({'height': 'unset'});
+            $('.infocontribute').css({'float': 'unset'});
             if (visible !== '') {
                 $('.panel-' + visible).hide();
             }
@@ -6332,7 +6361,7 @@ let calcFutureChallenges = function() {
     }
     tempSections = combineJSONs(tempSections, manualSections);
     myWorker2.terminate();
-    myWorker2 = new Worker("./worker.js?v=6.5.12");
+    myWorker2 = new Worker("./worker.js?v=6.5.19");
     myWorker2.onmessage = workerOnMessage;
     myWorker2.postMessage(['future', chunks, rules, chunkInfo, skillNames, processingSkill, maybePrimary, combatSkills, monstersPlus, objectsPlus, chunksPlus, itemsPlus, mixPlus, npcsPlus, tasksPlus, tools, elementalRunes, manualTasks, completedChallenges, backlog, "1/" + rules['Rare Drop Amount'], universalPrimary, elementalStaves, rangedItems, boneItems, highestCurrent, dropTables, possibleAreas, randomLoot, magicTools, bossLogs, bossMonsters, minigameShops, manualEquipment, checkedChallenges, backloggedSources, altChallenges, manualMonsters, slayerLocked, passiveSkill, f2pSkills, assignedXpRewards, mid === diary2Tier, manualAreas, "1/" + rules['Secondary Primary Amount'], mid === manualAreasOnly, tempSections, settings['optOutSections'], maxSkill, userTasks, manualPrimary]);
     workerOut++;
@@ -6561,6 +6590,14 @@ let calcFutureChallenges2 = function(valids, baseChunkDataLocal) {
 let expandFutureChallenges = function(event) {
     event.stopPropagation();
     openNewTasksModal(expandChallengeStr.replaceAll('</span>,', '</span><br />') || 'None', true);
+}
+
+// Hides the chunkinfo sidebar
+let hideSidebar = function() {
+    sidebarHidden = !sidebarHidden;
+    $('#chunkinfo-sidebar-container').css({'width': sidebarHidden ? '0%' : '38%', 'border-right-width': sidebarHidden ? '0px' : '1px'});
+    $('.sidebar-hide i').toggleClass('fa-chevron-left fa-chevron-right');
+    $('.sidebar-hide').prop('title', sidebarHidden ? 'Show sidebar' : 'Hide sidebar');
 }
 
 // Clears empty subobjects from object
@@ -7784,7 +7821,7 @@ let showUserTasksList = function() {
     $('.usertasks-list-data').empty();
     !!userTasks && Object.keys(userTasks).forEach((skill) => {
         !!userTasks[skill] && Object.keys(userTasks[skill]).forEach((challenge) => {
-            $('.usertasks-list-data').append(`<div class="noscroll result-item">${challenge.replaceAll(/~/g, '').replaceAll(/\|/g, '')}<span onclick="showDeleteUserTaskConfirmation('${encodeRFC5987ValueChars(challenge)}', '${skill}', '')"><i class="info-icon fas fa-trash-alt"></i></span></div>`);
+            $('.usertasks-list-data').append(`<div class="noscroll result-item"><b>${skill === 'Extra' ? '[Custom Tasks]' : `[${userTasks[skill][challenge]}] ${skill}:`}</b> ${challenge.replaceAll(/~/g, '').replaceAll(/\|/g, '')}<span onclick="showDeleteUserTaskConfirmation('${encodeRFC5987ValueChars(challenge)}', '${skill}', '')"><i class="info-icon fas fa-trash-alt"></i></span></div>`);
         });
     });
     if ($('.usertasks-list-data').children().length === 0) {
@@ -7892,6 +7929,7 @@ let openClipboard = function() {
     $('.settings-menu').hide();
     $('.settings').css({ 'color': 'var(--colorText)' });
     modalOutsideTime = Date.now();
+    $('#plugin-clipboard-button, #assign-clipboard-button').prop('disabled', !(testMode || !(viewOnly || inEntry || locked)));
 }
 
 // Opens the search within my chunks modal
@@ -8258,8 +8296,8 @@ let openHighest2 = function() {
             } else if (combatStyle === 'Quests') {
                 $(`.${combatStyle.replaceAll(' ', '_')}-body`).append(`<div class='noscroll qps'>Quest Points: ${questPointTotal}<i class="noscroll fas fa-filter" title="Filter" onclick="openQuestFilterContextMenu()"></i></div>`);
                 $(`.${combatStyle.replaceAll(' ', '_')}-body`).append(`<div class="quest-question-outer"><span class="quest-question">What do the colors indicate? <i class="fas fa-question-circle"></i><span class="tooltiptext"><div>Quests in <span style="color:green">green</span> indicate a quest that you can complete within your chunks.</div><hr /><div>Quests in <span style="color:yellow">yellow</span> indicate a quest that can be started, but not completed within your chunks.</div><hr /><div>Quests in <span style="color:grey">grey</span> indicate a quest that cannot be started yet.</div></span></span></div>`);
-                Object.keys(chunkInfo['quests']).filter(quest => { return quest === 'break' || quest === 'break2' || questFilterType === 'all' || (questFilterType === 'complete' && questProgress.hasOwnProperty(quest) && (questProgress[quest] === 'Complete the quest')) || (questFilterType === 'incomplete' && questProgress.hasOwnProperty(quest) && Array.isArray(questProgress[quest])) || (questFilterType === 'unstarted' && !questProgress.hasOwnProperty(quest)) }).forEach((quest) => {
-                    if (quest === 'break' || quest === 'break2') {
+                Object.keys(chunkInfo['quests']).filter(quest => { return quest === 'break' || quest === 'break2' || quest === 'break3' || questFilterType === 'all' || (questFilterType === 'complete' && questProgress.hasOwnProperty(quest) && (questProgress[quest] === 'Complete the quest')) || (questFilterType === 'incomplete' && questProgress.hasOwnProperty(quest) && Array.isArray(questProgress[quest])) || (questFilterType === 'unstarted' && !questProgress.hasOwnProperty(quest)) }).forEach((quest) => {
+                    if (quest === 'break' || quest === 'break2' || quest === 'break3') {
                         $(`.${combatStyle.replaceAll(' ', '_')}-body`).append(`<hr class='noscroll' />`);
                     } else {
                         $(`.${combatStyle.replaceAll(' ', '_')}-body`).append(`<div class='noscroll row${questProgress.hasOwnProperty(quest) ? (questProgress[quest] === 'Complete the quest' ? ' complete' : ' incomplete') : ''}'><span class='noscroll quest-text internal-link' onclick="openQuestSteps('Quest', '~|${encodeForUrl(quest)}|~')">${quest.replaceAll(/~/g, '').replaceAll(/\|/g, '')}</span> ${!onMobile ? `<span class="quest-info-button" onclick="getQuestInfo('` + encodeRFC5987ValueChars(quest) + `')"><i class="quest-icon fas fa-crosshairs"></i></span>` : ''}${(testMode || !(viewOnly || inEntry || locked)) && (chunkInfo['challenges'].hasOwnProperty('Quest') && chunkInfo['challenges']['Quest'].hasOwnProperty(`~|${quest}|~ Complete the quest`) && chunkInfo['challenges']['Quest'][`~|${quest}|~ Complete the quest`].hasOwnProperty('XpReward') && Object.keys(chunkInfo['challenges']['Quest'][`~|${quest}|~ Complete the quest`]['XpReward']).filter(skill => { return !skillNames.includes(skill) }).length > 0 && questProgress.hasOwnProperty(quest) && questProgress[quest] === 'Complete the quest') ? `<span class='noscroll xp-button${(!assignedXpRewards.hasOwnProperty('Quest') || !assignedXpRewards['Quest'].hasOwnProperty(`~|${quest}|~ Complete the quest`) || Object.keys(assignedXpRewards['Quest'][`~|${quest}|~ Complete the quest`]).includes('None')) ? ' unset' : ''}' onclick="openXpRewardModalWithFormat('Quest', '~|${encodeRFC5987ValueChars(quest)}|~ Complete the quest')">xp</span>` : ''}</div>`);
@@ -10270,7 +10308,11 @@ let showSettings = function(keepSettingsClosed) {
                 $('.' + category.replaceAll(/ /g, '_') + '-category').append(`<div class="setting ${setting.replaceAll(' ', '_').replace(/[!"#$%&'()*+,.\/:;<=>?@\[\\\]\^\`{|}~]/g, '').toLowerCase() + '-setting'} noscroll"><label class="checkbox noscroll ${(viewOnly || inEntry || locked || settingStructure[category][setting] === false) ? "checkbox--disabled" : ''}"><span class="checkbox__input noscroll"><input type="checkbox" name="checkbox" ${settings[setting] ? "checked" : ''} class='noscroll' onclick="checkOffSettings()" ${(viewOnly || inEntry || locked || settingStructure[category][setting] === false) ? "disabled" : ''}><span class="checkbox__control noscroll"><svg viewBox='0 0 24 24' aria-hidden="true" focusable="false"><path fill='none' stroke='currentColor' stroke-width='3' d='M1.73 12.91l6.37 6.37L22.79 4.59' /></svg></span></span><span class="radio__label noscroll">${settingNames[setting]}</span></label></div>`);
             }
             Array.isArray(settingStructure[category][setting]) && settingStructure[category][setting].forEach((subSetting) => {
-                $('.' + setting.replaceAll(' ', '_').replace(/[!"#$%&'()*+,.\/:;<=>?@\[\\\]\^\`{|}~]/g, '').toLowerCase() + '-setting').append(`<div class="setting ${subSetting.replaceAll(' ', '_').replace(/[!"#$%&'()*+,.\/:;<=>?@\[\\\]\^\`{|}~]/g, '').toLowerCase() + '-setting subsetting'} noscroll"><label class="checkbox noscroll ${!testMode && (viewOnly || inEntry || locked || settingStructure[category][subSetting] === false) ? "checkbox--disabled" : ''}"><span class="checkbox__input noscroll"><input type="checkbox" name="checkbox" ${settings[subSetting] ? "checked" : ''} class='noscroll' onclick="checkOffSettings()" ${!testMode && (viewOnly || inEntry || locked || settingStructure[category][subSetting] === false) ? "disabled" : ''}><span class="checkbox__control noscroll"><svg viewBox='0 0 24 24' aria-hidden="true" focusable="false"><path fill='none' stroke='currentColor' stroke-width='3' d='M1.73 12.91l6.37 6.37L22.79 4.59' /></svg></span></span><span class="radio__label noscroll">${settingNames[subSetting]}</span></label></div>`);
+                if (subSetting === 'defaultChunkinfo') {
+                    $('.' + setting.replaceAll(' ', '_').replace(/[!"#$%&'()*+,.\/:;<=>?@\[\\\]\^\`{|}~]/g, '').toLowerCase() + '-setting').append(`<div class="setting ${subSetting.replaceAll(' ', '_').replace(/[!"#$%&'()*+,.\/:;<=>?@\[\\\]\^\`{|}~]/g, '').toLowerCase() + '-setting subsetting'} noscroll"><span class='noscroll'>` + settingNames[subSetting] + `</span><select class="chunkinfo-default-rule" onchange="changeDefaultChunkinfo()"><option value='monsters' ${settings[subSetting] === 'monsters' ? 'selected': ''}>Monsters</option><option value='npcs' ${settings[subSetting] === 'npcs' ? 'selected': ''}>NPCs</option><option value='spawns' ${settings[subSetting] === 'spawns' ? 'selected': ''}>Item spawns</option><option value='shops' ${settings[subSetting] === 'shops' ? 'selected': ''}>Shops</option><option value='features' ${settings[subSetting] === 'features' ? 'selected': ''}>Features</option><option value='quests' ${settings[subSetting] === 'quests' ? 'selected': ''}>Quests</option><option value='clues' ${settings[subSetting] === 'clues' ? 'selected': ''}>Clue steps</option><option value='connections' ${settings[subSetting] === 'connections' ? 'selected': ''}>Connected areas</option><option value='challenges' ${settings[subSetting] === 'challenges' ? 'selected': ''}>Possible tasks</option></select></div>`);
+                } else {
+                    $('.' + setting.replaceAll(' ', '_').replace(/[!"#$%&'()*+,.\/:;<=>?@\[\\\]\^\`{|}~]/g, '').toLowerCase() + '-setting').append(`<div class="setting ${subSetting.replaceAll(' ', '_').replace(/[!"#$%&'()*+,.\/:;<=>?@\[\\\]\^\`{|}~]/g, '').toLowerCase() + '-setting subsetting'} noscroll"><label class="checkbox noscroll ${!testMode && (viewOnly || inEntry || locked || settingStructure[category][subSetting] === false) ? "checkbox--disabled" : ''}"><span class="checkbox__input noscroll"><input type="checkbox" name="checkbox" ${settings[subSetting] ? "checked" : ''} class='noscroll' onclick="checkOffSettings()" ${!testMode && (viewOnly || inEntry || locked || settingStructure[category][subSetting] === false) ? "disabled" : ''}><span class="checkbox__control noscroll"><svg viewBox='0 0 24 24' aria-hidden="true" focusable="false"><path fill='none' stroke='currentColor' stroke-width='3' d='M1.73 12.91l6.37 6.37L22.79 4.59' /></svg></span></span><span class="radio__label noscroll">${settingNames[subSetting]}</span></label></div>`);
+                }
             });
         });
     });
@@ -10327,6 +10369,13 @@ let changeUnlockedBorderColor = function() {
 let resetDefaultBorderColor = function() {
     $('.border-color-rule').val('#FF0000');
     changeUnlockedBorderColor();
+}
+
+//Changes the default chunkinfo tab
+let changeDefaultChunkinfo = function() {
+    settings['defaultChunkinfo'] = $('.chunkinfo-default-rule').val();
+    toggleInfoPanel(settings['defaultChunkinfo']);
+    setData();
 }
 
 // Shows chunk history
@@ -10516,7 +10565,7 @@ let backlogChallenge = function(challenge, skill, note, noUpdate) {
         $(`.panel-active .challenge.${skill.toLowerCase() + '-challenge'}.${skill + '-' + challenge.replaceAll(' ', '_').replace(/[!"#$%&'()*+,.\/:;<=>?@\[\\\]\^\`{|}~]/g, '').toLowerCase() + '-challenge'}`).remove();
     } else {
         backlog[skill][challenge] = note;
-        if (!!chunkInfo['challenges'][skill][challenge]['Skills']) {
+        if (!!chunkInfo['challenges'][skill][challenge] && !!chunkInfo['challenges'][skill][challenge]['Skills']) {
             skill !== 'Quest' && skill !== 'Diary' && Object.keys(chunkInfo['challenges'][skill][challenge]['Skills']).forEach((subSkill) => {
                 if (!backlog[subSkill]) {
                     backlog[subSkill] = {};
@@ -10797,7 +10846,7 @@ let checkOffSettings = function(didRedo, startup) {
             $('.' + setting.replaceAll(' ', '_').replace(/[!"#$%&'()*+,.\/:;<=>?@\[\\\]\^\`{|}~]/g, '').toLowerCase() + '-setting').children('.subsetting').children('.checkbox').children('.checkbox__input').children('input').prop('checked', subSettingDefault[setting]);
             redo = true;
         }
-        if (setting !== 'completedTaskColor' && setting !== 'defaultStickerColor' && setting !== 'unlockedBorderColor' && setting !== 'startingChunk' && setting !== 'theme' && setting !== 'rollingChunksOptions' && settingNames.hasOwnProperty(setting)) {
+        if (setting !== 'completedTaskColor' && setting !== 'defaultStickerColor' && setting !== 'unlockedBorderColor' && setting !== 'startingChunk' && setting !== 'theme' && setting !== 'defaultChunkinfo' && setting !== 'rollingChunksOptions' && settingNames.hasOwnProperty(setting)) {
             settings[setting] = $('.' + setting.replaceAll(' ', '_').replace(/[!"#$%&'()*+,.\/:;<=>?@\[\\\]\^\`{|}~]/g, '').toLowerCase() + '-setting input').prop('checked');
         }
         if ($('.' + setting.replaceAll(' ', '_').replace(/[!"#$%&'()*+,.\/:;<=>?@\[\\\]\^\`{|}~]/g, '').toLowerCase() + '-setting').children('.subsetting').length) {
@@ -10886,7 +10935,9 @@ let getQuestInfo = function(quest) {
     });
     questChunks = [];
     chunkInfo['quests'][quest].split(', ').forEach((chunkId) => {
-        chunkId = chunkId.split('-')[0];
+        if (chunkId.match(/^[0-9]+(-[0-9]+)$/g)) {
+            chunkId = chunkId.split('-')[0];
+        }
         let chunkName = chunkId;
         let aboveground = false;
         !!chunkInfo['chunks'][encodeRFC5987ValueChars(chunkName)] && !!chunkInfo['chunks'][encodeRFC5987ValueChars(chunkName)]['Nickname'] && (aboveground = true);
@@ -10897,7 +10948,9 @@ let getQuestInfo = function(quest) {
         } else if (chunksPlus[chunkName.split('[+]')[0] + '[+]']) {
             $('.panel-questdata').append(`<b class="noscroll"><div class="noscroll"><i class='noscroll'>Any ${chunkName.split('[+]x')[1] || 1} of:</i></div></b>`);
             chunksPlus[chunkName.split('[+]')[0] + '[+]'].forEach((plus) => {
-                plus = plus.split('-')[0];
+                if (plus.match(/^[0-9]+(-[0-9]+)$/g)) {
+                    plus = plus.split('-')[0];
+                }
                 let abovegroundPlus = false;
                 let chunkNamePlus = plus;
                 !!chunkInfo['chunks'][encodeRFC5987ValueChars(chunkNamePlus)] && !!chunkInfo['chunks'][encodeRFC5987ValueChars(chunkNamePlus)]['Nickname'] && (abovegroundPlus = true);
@@ -10980,6 +11033,15 @@ let checkMID = function(mid) {
         onMobile && $('#patch-menu').addClass('mobile');
         $('#patch-menu').show();
         $('html, body').addClass('patch');
+    } else if (mid === '404') {
+        atHome = true;
+        $('.loading, .ui-loader-header').remove();
+        $('.menu, .menu2, .menu3, .menu4, .menu5, .menu6, .menu7, .menu8, .menu9, .menu10, .menu11, .settings-menu, .topnav, #beta, .hiddenInfo, #entry-menu, #highscore-menu, #highscore-menu2, #import-menu, #help-menu, .canvasDiv, .gomobiletasks, .menu12, .menu13, .menu14').hide();
+        $('#home-menu, .entry-home-menu-container, .entry-home-menu-extra').hide();
+        onMobile && $('#a404-menu').addClass('mobile');
+        $('#a404-menu').show();
+        $('html, body').addClass('a404');
+        $('.a404-address').text(window.location.href.split('?')[1]);
     } else if (mid) {
         if (mid.split('-')[1] === 'view') {
             mid = mid.split('-')[0];
@@ -11005,11 +11067,14 @@ let checkMID = function(mid) {
                                     if (!!snap4.val()) {
                                         window.location.replace(window.location.href.split('?')[0] + '?' + mid.toLowerCase());
                                     } else {
-                                        window.location.replace(window.location.href.split('?')[0]);
                                         atHome = true;
-                                        $('.menu, .menu2, .menu3, .menu4, .menu5, .menu6, .menu7, .menu8, .menu9, .menu10, .menu11, .settings-menu, .topnav, #beta, .hiddenInfo, #entry-menu, #highscore-menu, #highscore-menu2, #import-menu, #help-menu, .canvasDiv, .gomobiletasks, .menu12, .menu13, .menu14').hide();
                                         $('.loading, .ui-loader-header').remove();
-                                        $('html, body').addClass('home');
+                                        $('.menu, .menu2, .menu3, .menu4, .menu5, .menu6, .menu7, .menu8, .menu9, .menu10, .menu11, .settings-menu, .topnav, #beta, .hiddenInfo, #entry-menu, #highscore-menu, #highscore-menu2, #import-menu, #help-menu, .canvasDiv, .gomobiletasks, .menu12, .menu13, .menu14').hide();
+                                        $('#home-menu, .entry-home-menu-container, .entry-home-menu-extra').hide();
+                                        onMobile && $('#a404-menu').addClass('mobile');
+                                        $('#a404-menu').show();
+                                        $('html, body').addClass('a404');
+                                        $('.a404-address').text(window.location.href.split('?')[1]);
                                     }
                                 });
                             }
@@ -11223,14 +11288,9 @@ let loadData = async function(startup) {
         if (!!snapDiff && shouldScroll) {
             scrollToChunkCanvas(Object.values(snapDiff)[0]);
         }
-        myRef.child('recentTime').on('value', function(snap) {
-            let snapDiff = preloadHelper(snap, 'recentTime');
-            if (snapDiff === false) return;
-            recentTime = decodeObject(snap.val()) || [];
-            if (!!recentTime[0]) {
-                $('#recentChunksTitle > b').text(Math.max(Math.floor((new Date().getTime() - chunkOrderArr[0]) / (1000 * 3600 * 24)), 0) + ' days since last roll');
-            }
-        });
+        if (!!chunkOrderArr[0]) {
+            $('#recentChunksTitle > b').text(Math.max(Math.floor((new Date().getTime() - chunkOrderArr[0]) / (1000 * 3600 * 24)), 0) + ' days since last roll');
+        }
     });
     myRef.child('settings').on('value', function(snap) {
         let snapDiff = preloadHelper(snap, 'settings');
@@ -11545,6 +11605,14 @@ let loadData = async function(startup) {
             rulesTemp['Full Healing'] = true;
         }
 		
+		if (!rulesTemp.hasOwnProperty('Unlock Prayers')) {
+            rulesTemp['Unlock Prayers'] = true;
+        }
+		
+		if (!rulesTemp.hasOwnProperty('Unlock Abilities')) {
+            rulesTemp['Unlock Abilities'] = true;
+        }
+		
 		 if (!rulesTemp.hasOwnProperty('DnD Flash Events')) {
             rulesTemp['DnD Flash Events'] = rulesTemp.hasOwnProperty('DnD') ? rulesTemp['DnD'] : false;
         }
@@ -11567,6 +11635,10 @@ let loadData = async function(startup) {
 		
 		if (!rulesTemp.hasOwnProperty('Untracked Uniques Misc')) {
             rulesTemp['Untracked Uniques Misc'] = rulesTemp.hasOwnProperty('Untracked Uniques') ? rulesTemp['Untracked Uniques'] : false;
+		}
+        
+        if (!rulesTemp.hasOwnProperty('Kill X Boss')) {
+            rulesTemp['Kill X Boss'] = rulesTemp.hasOwnProperty('Kill X') ? rulesTemp['Kill X'] : false;
         }
 
         !!rulesTemp && Object.keys(rulesTemp).forEach((rule) => {
@@ -11734,7 +11806,7 @@ let setData = function() {
                     recentFancyRollTime,
                     userTasks: encodeObject(userTasks, true),
                     manualPrimary: encodeObject(manualPrimary, true),
-                    settings: { 'neighbors': autoSelectNeighbors, 'walkableRollable': settings['walkableRollable'], 'autoWalkableRollable': settings['autoWalkableRollable'], 'remove': autoRemoveSelected, 'roll2': roll2On, 'unpick': unpickOn, 'randomStartAlways': settings['randomStartAlways'], 'recent': recentOn, 'cinematicRoll': settings['cinematicRoll'], 'highscoreEnabled': false, 'chunkTasks': chunkTasksOn, 'topButtons': topButtonsOn, 'completedTaskColor': settings['completedTaskColor'], 'defaultStickerColor': settings['defaultStickerColor'], 'unlockedBorderColor': settings['unlockedBorderColor'], 'completedTaskStrikethrough': settings['completedTaskStrikethrough'], 'taskSidebar': settings['taskSidebar'], 'allTasks': settings['allTasks'], 'startingChunk': settings['startingChunk'], 'numTasksPercent': settings['numTasksPercent'], 'help': !(!helpMenuOpen && !helpMenuOpenSoon), 'patchNotes': (!patchNotesOpen && !patchNotesOpenSoon) ? patchNotesVersion : settings['patchNotes'], 'mapIntro': !mapIntroOpen && !mapIntroOpenSoon, 'theme': theme, 'newTasks': settings['newTasks'], 'hideChecked': settings['hideChecked'], 'shiftUnlock': settings['shiftUnlock'], rollWarning: settings['rollWarning'], optOutSections: settings['optOutSections'], info: chunkInfoOn }, //TEMP (highscore not enabled)
+                    settings: { 'neighbors': autoSelectNeighbors, 'walkableRollable': settings['walkableRollable'], 'autoWalkableRollable': settings['autoWalkableRollable'], 'remove': autoRemoveSelected, 'roll2': roll2On, 'unpick': unpickOn, 'randomStartAlways': settings['randomStartAlways'], 'recent': recentOn, 'cinematicRoll': settings['cinematicRoll'], 'highscoreEnabled': false, 'chunkTasks': chunkTasksOn, 'topButtons': topButtonsOn, 'completedTaskColor': settings['completedTaskColor'], 'defaultStickerColor': settings['defaultStickerColor'], 'unlockedBorderColor': settings['unlockedBorderColor'], 'completedTaskStrikethrough': settings['completedTaskStrikethrough'], 'taskSidebar': settings['taskSidebar'], 'allTasks': settings['allTasks'], 'startingChunk': settings['startingChunk'], 'numTasksPercent': settings['numTasksPercent'], 'help': !(!helpMenuOpen && !helpMenuOpenSoon), 'patchNotes': (!patchNotesOpen && !patchNotesOpenSoon) ? patchNotesVersion : settings['patchNotes'], 'mapIntro': !mapIntroOpen && !mapIntroOpenSoon, 'theme': theme, 'newTasks': settings['newTasks'], 'hideChecked': settings['hideChecked'], 'shiftUnlock': settings['shiftUnlock'], rollWarning: settings['rollWarning'], optOutSections: settings['optOutSections'], info: chunkInfoOn, 'defaultChunkinfo': settings['defaultChunkinfo'] }, //TEMP (highscore not enabled)
                     chunkinfo: { checkedChallenges: encodeObject(checkedChallenges, true), completedChallenges: encodeObject(completedChallenges, true), backlog: encodeObject(backlog, true), possibleAreas: encodeObject(possibleAreas, true), manualTasks: encodeObject(manualTasks, true), manualEquipment: encodeObject(manualEquipment, true), backloggedSources: encodeObject(backloggedSources, true), altChallenges: encodeObject(altChallenges, true), manualMonsters: encodeObject(manualMonsters, true), slayerLocked: encodeObject(slayerLocked, true), passiveSkill: encodeObject(passiveSkill, true), maxSkill: encodeObject(maxSkill, true), oldSavedChallengeArr: encodeObject(oldSavedChallengeArr, true), assignedXpRewards: encodeObject(assignedXpRewards, true), manualAreas: encodeObject(manualAreas, true), manualSections: encodeObject(manualSections, true), prevValueLevelInput: encodeObject(prevValueLevelInput, true), checkedAllTasks: encodeObject(checkedAllTasks, true) },
                     chunks: { unlocked: unlockedJson, selected: selectedJson, potential: potentialJson, blacklisted: blacklistedJson, stickered, stickeredNotes: encodeObject(stickeredNotes, true), stickeredColors },
                 };
@@ -11801,7 +11873,7 @@ let setData = function() {
                 recentFancyRollTime,
                 userTasks: encodeObject(userTasks, true),
                 manualPrimary: encodeObject(manualPrimary, true),
-                settings: { 'neighbors': autoSelectNeighbors, 'walkableRollable': settings['walkableRollable'], 'autoWalkableRollable': settings['autoWalkableRollable'], 'remove': autoRemoveSelected, 'roll2': roll2On, 'unpick': unpickOn, 'randomStartAlways': settings['randomStartAlways'], 'recent': recentOn, 'cinematicRoll': settings['cinematicRoll'], 'highscoreEnabled': false, 'chunkTasks': chunkTasksOn, 'topButtons': topButtonsOn, 'completedTaskColor': settings['completedTaskColor'], 'defaultStickerColor': settings['defaultStickerColor'], 'unlockedBorderColor': settings['unlockedBorderColor'], 'completedTaskStrikethrough': settings['completedTaskStrikethrough'], 'taskSidebar': settings['taskSidebar'], 'allTasks': settings['allTasks'], 'startingChunk': settings['startingChunk'], 'numTasksPercent': settings['numTasksPercent'], 'help': !(!helpMenuOpen && !helpMenuOpenSoon), 'patchNotes': (!patchNotesOpen && !patchNotesOpenSoon) ? patchNotesVersion : settings['patchNotes'], 'mapIntro': !mapIntroOpen && !mapIntroOpenSoon, 'theme': theme, 'newTasks': settings['newTasks'], 'hideChecked': settings['hideChecked'], 'shiftUnlock': settings['shiftUnlock'], rollWarning: settings['rollWarning'], optOutSections: settings['optOutSections'], info: chunkInfoOn }, //TEMP (highscore not enabled)
+                settings: { 'neighbors': autoSelectNeighbors, 'walkableRollable': settings['walkableRollable'], 'autoWalkableRollable': settings['autoWalkableRollable'], 'remove': autoRemoveSelected, 'roll2': roll2On, 'unpick': unpickOn, 'randomStartAlways': settings['randomStartAlways'], 'recent': recentOn, 'cinematicRoll': settings['cinematicRoll'], 'highscoreEnabled': false, 'chunkTasks': chunkTasksOn, 'topButtons': topButtonsOn, 'completedTaskColor': settings['completedTaskColor'], 'defaultStickerColor': settings['defaultStickerColor'], 'unlockedBorderColor': settings['unlockedBorderColor'], 'completedTaskStrikethrough': settings['completedTaskStrikethrough'], 'taskSidebar': settings['taskSidebar'], 'allTasks': settings['allTasks'], 'startingChunk': settings['startingChunk'], 'numTasksPercent': settings['numTasksPercent'], 'help': !(!helpMenuOpen && !helpMenuOpenSoon), 'patchNotes': (!patchNotesOpen && !patchNotesOpenSoon) ? patchNotesVersion : settings['patchNotes'], 'mapIntro': !mapIntroOpen && !mapIntroOpenSoon, 'theme': theme, 'newTasks': settings['newTasks'], 'hideChecked': settings['hideChecked'], 'shiftUnlock': settings['shiftUnlock'], rollWarning: settings['rollWarning'], optOutSections: settings['optOutSections'], info: chunkInfoOn, 'defaultChunkinfo': settings['defaultChunkinfo'] }, //TEMP (highscore not enabled)
                 chunkinfo: { checkedChallenges: encodeObject(checkedChallenges, true), completedChallenges: encodeObject(completedChallenges, true), backlog: encodeObject(backlog, true), possibleAreas: encodeObject(possibleAreas, true), manualTasks: encodeObject(manualTasks, true), manualEquipment: encodeObject(manualEquipment, true), backloggedSources: encodeObject(backloggedSources, true), altChallenges: encodeObject(altChallenges, true), manualMonsters: encodeObject(manualMonsters, true), slayerLocked: encodeObject(slayerLocked, true), passiveSkill: encodeObject(passiveSkill, true), maxSkill: encodeObject(maxSkill, true), oldSavedChallengeArr: encodeObject(oldSavedChallengeArr, true), assignedXpRewards: encodeObject(assignedXpRewards, true), manualAreas: encodeObject(manualAreas, true), manualSections: encodeObject(manualSections, true), prevValueLevelInput: encodeObject(prevValueLevelInput, true), checkedAllTasks: encodeObject(checkedAllTasks, true) },
                 chunks: { unlocked: unlockedJson, selected: selectedJson, potential: potentialJson, blacklisted: blacklistedJson, stickered, stickeredNotes: encodeObject(stickeredNotes, true), stickeredColors },
             };
