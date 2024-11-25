@@ -113506,19 +113506,19 @@
 			},
 			"(Rabbits) Breed a ~|common brown rabbit|~": {
 				"Category": ["Collection Log", "Breeding Log"],
-				"Label": "Untracked Skilling Uniques",
+				"Label": "Player-Owned Farm Breeding Log",
 				"Chunks": ["10548"],
 				"Items": ["Common brown rabbit (unchecked)"]
 			},
 			"(Rabbits) Breed a ~|rellekkan cream rabbit|~": {
 				"Category": ["Collection Log", "Breeding Log"],
-				"Label": "Untracked Skilling Uniques",
+				"Label": "Player-Owned Farm Breeding Log",
 				"Chunks": ["10548"],
 				"Items": ["Rellekkan cream rabbit (unchecked)"]
 			},
 			"(Rabbits) Breed a ~|piscatorian cottontail rabbit|~": {
 				"Category": ["Collection Log", "Breeding Log"],
-				"Label": "Untracked Skilling Uniques",
+				"Label": "Player-Owned Farm Breeding Log",
 				"Chunks": ["10548"],
 				"Items": ["Piscatorian cottontail rabbit (unchecked)"]
 			},
@@ -113606,41 +113606,41 @@
 				"Chunks": ["10548"],
 				"Items": ["AllChins[+]"]
 			},
-			"(Sheep) Breed a ~|white sheep|~ or ram": {
+			"(Sheep) Breed a ~|white ewe|~ or ram": {
 				"Category": ["Collection Log", "Breeding Log"],
 				"Label": "Player-Owned Farm Breeding Log",
 				"Chunks": ["10548"],
-				"Items": ["White sheep (unchecked)"]
+				"Items": ["White ewe (unchecked)"]
 			},
-			"(Sheep) Breed a ~|black sheep|~ or ram": {
+			"(Sheep) Breed a ~|black ewe|~ or ram": {
 				"Category": ["Collection Log", "Breeding Log"],
 				"Label": "Player-Owned Farm Breeding Log",
 				"Chunks": ["10548"],
-				"Items": ["Black sheep (unchecked)"]
+				"Items": ["Black ewe (unchecked)"]
 			},
-			"(Sheep) Breed a ~|summerdown sheep|~ or ram": {
+			"(Sheep) Breed a ~|summerdown ewe|~ or ram": {
 				"Category": ["Collection Log", "Breeding Log"],
 				"Label": "Player-Owned Farm Breeding Log",
 				"Chunks": ["10548"],
-				"Items": ["Summerdown sheep (unchecked)"]
+				"Items": ["Summerdown ewe (unchecked)"]
 			},
-			"(Sheep) Breed a ~|springsheared sheep|~ or ram": {
+			"(Sheep) Breed a ~|springsheared ewe|~ or ram": {
 				"Category": ["Collection Log", "Breeding Log"],
 				"Label": "Player-Owned Farm Breeding Log",
 				"Chunks": ["10548"],
-				"Items": ["Springsheared sheep (unchecked)"]
+				"Items": ["Springsheared ewe (unchecked)"]
 			},
-			"(Sheep) Breed a ~|winterwold sheep|~ or ram": {
+			"(Sheep) Breed a ~|winterwold ewe|~ or ram": {
 				"Category": ["Collection Log", "Breeding Log"],
 				"Label": "Player-Owned Farm Breeding Log",
 				"Chunks": ["10548"],
-				"Items": ["Winterwold sheep (unchecked)"]
+				"Items": ["Winterwold ewe (unchecked)"]
 			},
-			"(Sheep) Breed a ~|fallfaced sheep|~ or ram": {
+			"(Sheep) Breed a ~|fallfaced ewe|~ or ram": {
 				"Category": ["Collection Log", "Breeding Log"],
 				"Label": "Player-Owned Farm Breeding Log",
 				"Chunks": ["10548"],
-				"Items": ["Fallfaced sheep (unchecked)"]
+				"Items": ["Fallfaced ewe (unchecked)"]
 			},
 			"(Sheep) Breed a ~|golden sheep|~ or ram": {
 				"Category": ["Collection Log", "Breeding Log"],
@@ -119648,6 +119648,419 @@
 				"Category": ["Uncharted", "Untracked Uniques", "Untracked Uniques Skilling"],
 				"Label": "Untracked Skilling Uniques",
 				"Items": ["Remototem base"]
+			},
+			"(Any Floor) Obtain a ~|celestial surgebox|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Daemonheim"],
+				"Label": "Daemonheim Uniques",
+				"Chunks": ["13626", "13882"],
+				"Requirements": {
+					"Dungeoneering": 1
+				},
+				"Not F2P": true
+			},
+			"(Any Floor) Obtain a ~|magical surgebox|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Daemonheim"],
+				"Label": "Daemonheim Uniques",
+				"Chunks": ["13626", "13882"],
+				"Requirements": {
+					"Dungeoneering": 1
+				}
+			},
+			"(Celestial Equipment) Obtain a ~|celestial catalytic wand|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Daemonheim"],
+				"Label": "Daemonheim Uniques",
+				"Chunks": ["13626", "13882"],
+				"Requirements": {
+					"Dungeoneering": 1
+				},
+				"Not F2P": true
+			},
+			"(Celestial Equipment) Obtain a ~|celestial catalytic orb|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Daemonheim"],
+				"Label": "Daemonheim Uniques",
+				"Chunks": ["13626", "13882"],
+				"Requirements": {
+					"Dungeoneering": 39
+				},
+				"Not F2P": true
+			},
+			"(Celestial Equipment) Obtain a ~|celestial catalytic staff|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Daemonheim"],
+				"Label": "Daemonheim Uniques",
+				"Chunks": ["13626", "13882"],
+				"Requirements": {
+					"Dungeoneering": 29
+				},
+				"Not F2P": true
+			},
+			"(Celestial Equipment) Obtain a ~|celestial hood|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Daemonheim"],
+				"Label": "Daemonheim Uniques",
+				"Chunks": ["13626", "13882"],
+				"Requirements": {
+					"Dungeoneering": 39
+				},
+				"Not F2P": true
+			},
+			"(Celestial Equipment) Obtain a ~|celestial robe top|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Daemonheim"],
+				"Label": "Daemonheim Uniques",
+				"Chunks": ["13626", "13882"],
+				"Requirements": {
+					"Dungeoneering": 95
+				},
+				"Not F2P": true
+			},
+			"(Celestial Equipment) Obtain a ~|celestial robe bottom|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Daemonheim"],
+				"Label": "Daemonheim Uniques",
+				"Chunks": ["13626", "13882"],
+				"Requirements": {
+					"Dungeoneering": 81
+				},
+				"Not F2P": true
+			},
+			"(Celestial Equipment) Obtain ~|celestial gloves|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Daemonheim"],
+				"Label": "Daemonheim Uniques",
+				"Chunks": ["13626", "13882"],
+				"Requirements": {
+					"Dungeoneering": 17
+				},
+				"Not F2P": true
+			},
+			"(Celestial Equipment) Obtain ~|celestial shoes|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Daemonheim"],
+				"Label": "Daemonheim Uniques",
+				"Chunks": ["13626", "13882"],
+				"Requirements": {
+					"Dungeoneering": 1
+				},
+				"Not F2P": true
+			},
+			"(Celestial Equipment) Obtain a ~|celestial shield|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Daemonheim"],
+				"Label": "Daemonheim Uniques",
+				"Chunks": ["13626", "13882"],
+				"Requirements": {
+					"Dungeoneering": 71
+				},
+				"Not F2P": true
+			},
+			"(Sagittarian Equipment) Obtain a ~|sagittarian arrow|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Daemonheim"],
+				"Label": "Daemonheim Uniques",
+				"Chunks": ["13626", "13882"],
+				"Requirements": {
+					"Dungeoneering": 45
+				},
+				"Not F2P": true
+			},
+			"(Sagittarian Equipment) Obtain a ~|sagittarian shortbow|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Daemonheim"],
+				"Label": "Daemonheim Uniques",
+				"Chunks": ["13626", "13882"],
+				"Requirements": {
+					"Dungeoneering": 71
+				},
+				"Not F2P": true
+			},
+			"(Sagittarian Equipment) Obtain a ~|sagittarian longbow|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Daemonheim"],
+				"Label": "Daemonheim Uniques",
+				"Chunks": ["13626", "13882"],
+				"Requirements": {
+					"Dungeoneering": 45
+				},
+				"Not F2P": true
+			},
+			"(Sagittarian Equipment) Obtain a ~|sagittarian coif|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Daemonheim"],
+				"Label": "Daemonheim Uniques",
+				"Chunks": ["13626", "13882"],
+				"Requirements": {
+					"Dungeoneering": 35
+				},
+				"Not F2P": true
+			},
+			"(Sagittarian Equipment) Obtain a ~|sagittarian body|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Daemonheim"],
+				"Label": "Daemonheim Uniques",
+				"Chunks": ["13626", "13882"],
+				"Requirements": {
+					"Dungeoneering": 101
+				},
+				"Not F2P": true
+			},
+			"(Sagittarian Equipment) Obtain a ~|sagittarian chaps|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Daemonheim"],
+				"Label": "Daemonheim Uniques",
+				"Chunks": ["13626", "13882"],
+				"Requirements": {
+					"Dungeoneering": 77
+				},
+				"Not F2P": true
+			},
+			"(Sagittarian Equipment) Obtain a ~|sagittarian vambraces|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Daemonheim"],
+				"Label": "Daemonheim Uniques",
+				"Chunks": ["13626", "13882"],
+				"Requirements": {
+					"Dungeoneering": 1
+				},
+				"Not F2P": true
+			},
+			"(Sagittarian Equipment) Obtain a ~|sagittarian boots|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Daemonheim"],
+				"Label": "Daemonheim Uniques",
+				"Chunks": ["13626", "13882"],
+				"Requirements": {
+					"Dungeoneering": 23
+				},
+				"Not F2P": true
+			},
+			"(Sagittarian Equipment) Obtain a ~|sagittarian shield|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Daemonheim"],
+				"Label": "Daemonheim Uniques",
+				"Chunks": ["13626", "13882"],
+				"Requirements": {
+					"Dungeoneering": 35
+				},
+				"Not F2P": true
+			},
+			"(Sagittarian Equipment) Obtain a ~|sagittarian arrow|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Daemonheim"],
+				"Label": "Daemonheim Uniques",
+				"Chunks": ["13626", "13882"],
+				"Requirements": {
+					"Dungeoneering": 1
+				},
+				"Not F2P": true
+			},
+			"(Primal Equipment) Obtain a ~|primal battleaxe|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Daemonheim"],
+				"Label": "Daemonheim Uniques",
+				"Chunks": ["13626", "13882"],
+				"Requirements": {
+					"Dungeoneering": 65
+				},
+				"Not F2P": true
+			},
+			"(Primal Equipment) Obtain a ~|primal dagger|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Daemonheim"],
+				"Label": "Daemonheim Uniques",
+				"Chunks": ["13626", "13882"],
+				"Requirements": {
+					"Dungeoneering": 5
+				},
+				"Not F2P": true
+			},
+			"(Primal Equipment) Obtain a ~|primal hatchet|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Daemonheim"],
+				"Label": "Daemonheim Uniques",
+				"Chunks": ["13626", "13882"],
+				"Requirements": {
+					"Dungeoneering": 23
+				},
+				"Not F2P": true
+			},
+			"(Primal Equipment) Obtain a ~|primal longsword|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Daemonheim"],
+				"Label": "Daemonheim Uniques",
+				"Chunks": ["13626", "13882"],
+				"Requirements": {
+					"Dungeoneering": 95
+				},
+				"Not F2P": true
+			},
+			"(Primal Equipment) Obtain a ~|primal pickaxe|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Daemonheim"],
+				"Label": "Daemonheim Uniques",
+				"Chunks": ["13626", "13882"],
+				"Requirements": {
+					"Dungeoneering": 23
+				},
+				"Not F2P": true
+			},
+			"(Primal Equipment) Obtain a ~|primal rapier|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Daemonheim"],
+				"Label": "Daemonheim Uniques",
+				"Chunks": ["13626", "13882"],
+				"Requirements": {
+					"Dungeoneering": 35
+				},
+				"Not F2P": true
+			},
+			"(Primal Equipment) Obtain a ~|primal warhammer|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Daemonheim"],
+				"Label": "Daemonheim Uniques",
+				"Chunks": ["13626", "13882"],
+				"Requirements": {
+					"Dungeoneering": 65
+				},
+				"Not F2P": true
+			},
+			"(Primal Equipment) Obtain an ~|off-hand primal battleaxe|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Daemonheim"],
+				"Label": "Daemonheim Uniques",
+				"Chunks": ["13626", "13882"],
+				"Requirements": {
+					"Dungeoneering": 65
+				},
+				"Not F2P": true
+			},
+			"(Primal Equipment) Obtain an ~|off-hand primal dagger|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Daemonheim"],
+				"Label": "Daemonheim Uniques",
+				"Chunks": ["13626", "13882"],
+				"Requirements": {
+					"Dungeoneering": 5
+				},
+				"Not F2P": true
+			},
+			"(Primal Equipment) Obtain an ~|off-hand primal longsword|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Daemonheim"],
+				"Label": "Daemonheim Uniques",
+				"Chunks": ["13626", "13882"],
+				"Requirements": {
+					"Dungeoneering": 95
+				},
+				"Not F2P": true
+			},
+			"(Primal Equipment) Obtain an ~|off-hand primal rapier|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Daemonheim"],
+				"Label": "Daemonheim Uniques",
+				"Chunks": ["13626", "13882"],
+				"Requirements": {
+					"Dungeoneering": 35
+				},
+				"Not F2P": true
+			},
+			"(Primal Equipment) Obtain an ~|off-hand primal warhammer|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Daemonheim"],
+				"Label": "Daemonheim Uniques",
+				"Chunks": ["13626", "13882"],
+				"Requirements": {
+					"Dungeoneering": 65
+				},
+				"Not F2P": true
+			},
+			"(Primal Equipment) Obtain a ~|primal 2h sword|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Daemonheim"],
+				"Label": "Daemonheim Uniques",
+				"Chunks": ["13626", "13882"],
+				"Requirements": {
+					"Dungeoneering": 113
+				},
+				"Not F2P": true
+			},
+			"(Primal Equipment) Obtain a ~|primal maul|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Daemonheim"],
+				"Label": "Daemonheim Uniques",
+				"Chunks": ["13626", "13882"],
+				"Requirements": {
+					"Dungeoneering": 35
+				},
+				"Not F2P": true
+			},
+			"(Primal Equipment) Obtain a ~|primal spear|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Daemonheim"],
+				"Label": "Daemonheim Uniques",
+				"Chunks": ["13626", "13882"],
+				"Requirements": {
+					"Dungeoneering": 107
+				},
+				"Not F2P": true
+			},
+			"(Primal Equipment) Obtain a ~|primal knife|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Daemonheim"],
+				"Label": "Daemonheim Uniques",
+				"Chunks": ["13626", "13882"],
+				"Requirements": {
+					"Dungeoneering": 65
+				},
+				"Not F2P": true
+			},
+			"(Primal Equipment) Obtain an ~|off-hand primal knife|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Daemonheim"],
+				"Label": "Daemonheim Uniques",
+				"Chunks": ["13626", "13882"],
+				"Requirements": {
+					"Dungeoneering": 77
+				},
+				"Not F2P": true
+			},
+			"(Primal Equipment) Obtain a ~|primal full helm|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Daemonheim"],
+				"Label": "Daemonheim Uniques",
+				"Chunks": ["13626", "13882"],
+				"Requirements": {
+					"Dungeoneering": 23
+				},
+				"Not F2P": true
+			},
+			"(Primal Equipment) Obtain a ~|primal platebody|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Daemonheim"],
+				"Label": "Daemonheim Uniques",
+				"Chunks": ["13626", "13882"],
+				"Requirements": {
+					"Dungeoneering": 95
+				},
+				"Not F2P": true
+			},
+			"(Primal Equipment) Obtain a ~|primal chainbody|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Daemonheim"],
+				"Label": "Daemonheim Uniques",
+				"Chunks": ["13626", "13882"],
+				"Requirements": {
+					"Dungeoneering": 71
+				},
+				"Not F2P": true
+			},
+			"(Primal Equipment) Obtain ~|primal platelegs|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Daemonheim"],
+				"Label": "Daemonheim Uniques",
+				"Chunks": ["13626", "13882"],
+				"Requirements": {
+					"Dungeoneering": 83
+				},
+				"Not F2P": true
+			},
+			"(Primal Equipment) Obtain a ~|primal plateskirt|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Daemonheim"],
+				"Label": "Daemonheim Uniques",
+				"Chunks": ["13626", "13882"],
+				"Requirements": {
+					"Dungeoneering": 51
+				},
+				"Not F2P": true
+			},
+			"(Primal Equipment) Obtain ~|primal gauntlets|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Daemonheim"],
+				"Label": "Daemonheim Uniques",
+				"Chunks": ["13626", "13882"],
+				"Requirements": {
+					"Dungeoneering": 11
+				},
+				"Not F2P": true
+			},
+			"(Primal Equipment) Obtain a ~|primal kiteshield|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Daemonheim"],
+				"Label": "Daemonheim Uniques",
+				"Chunks": ["13626", "13882"],
+				"Requirements": {
+					"Dungeoneering": 59
+				},
+				"Not F2P": true
+			},
+			"(Primal Equipment) Obtain ~|primal boots|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Daemonheim"],
+				"Label": "Daemonheim Uniques",
+				"Chunks": ["13626", "13882"],
+				"Requirements": {
+					"Dungeoneering": 1
+				},
+				"Not F2P": true
 			},
 			"(Frozen Floors) Obtain a ~|frostbite dagger|~": {
 				"Category": ["Untracked Uniques", "Untracked Uniques Daemonheim"],
