@@ -125044,17 +125044,17 @@
 				"UnlocksArea": true
 			},
 			"Effigy Incubator": {
-				"UnlocksArea": true
+				"UnlocksArea": true,
 				"Tasks": {
 					"~|Sins of the Father|~ 2": "Quest"
 				}
 			},
 			"Dream of Iaia": {
-				"UnlocksArea": true
+				"UnlocksArea": true,
 				"Tasks": {
 					"~|Extinction|~ Complete the quest": "Quest"
 				}
-			}
+			},
 			"Create a super explosive shaker*": {
 				"Items": ["Super explosive flask", "Rubium"],
 				"Output": "Super explosive shaker"
