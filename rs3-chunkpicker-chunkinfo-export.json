@@ -14738,11 +14738,10 @@
 				"Primary": false,
 				"Priority": 10
 			},
-			"Stock the Stonemason in the ~|dream of Iaia|~": {
-				"Objects": ["Hibernation pot"],
-				"Items": ["Compacted stone*"],
+			"Prepare stones at the stonemason in the ~|Dream of Iaia|~": {
+				"Chunks": ["Dream of Iaia", "15939"],
 				"Level": 75,
-				"Output": "Stonemason",
+				"Output": "Dream of Iaia loot"
 				"Primary": true,
 				"Priority": 11
 			},
@@ -20584,11 +20583,10 @@
 				"Primary": true,
 				"Priority": 15
 			},
-			"Stock the tannery in the ~|dream of Iaia|~": {
-				"Objects": ["Hibernation pot"],
-				"Items": ["Compacted hide*"],
+			"Dye leather at the tannery in the ~|Dream of Iaia|~": {
+				"Chunks": ["Dream of Iaia", "15939"],
 				"Level": 75,
-				"Output": "Tannery",
+				"Output": "Dream of Iaia loot"
 				"Primary": true,
 				"Priority": 2
 			},
@@ -37346,11 +37344,10 @@
 				"Output": "Raw beltfish",
 				"Priority": 1
 			},
-			"Stock the fishery in the ~|dream of Iaia|~": {
-				"Objects": ["Hibernation pot"],
-				"Items": ["Compacted clay"],
+			"Feed fish at the fishery in the ~|Dream of Iaia|~": {
+				"Chunks": ["Dream of Iaia", "15939"],
 				"Level": 75,
-				"Output": "Fishery",
+				"Output": "Dream of Iaia loot"
 				"Primary": true,
 				"Priority": 1
 			},
@@ -39037,13 +39034,12 @@
 				"Primary": true,
 				"Priority": 6
 			},
-			"Stock the fletcher's hut in the ~|dream of Iaia|~": {
-				"Objects": ["Hibernation pot"],
-				"Items": ["Compacted wood*"],
+			"Fletch logs at the fletcher's hut in the ~|Dream of Iaia|~": {
+				"Chunks": ["Dream of Iaia", "15939"],
 				"Level": 75,
-				"Output": "Fletcher's Hut",
+				"Output": "Dream of Iaia loot"
 				"Primary": true,
-				"Priority": 7
+				"Priority": 18
 			},
 			"Fletch ~|rune brutals|~": {
 				"Items": ["Rune nails*", "Flighted ogre arrow*"],
@@ -41691,13 +41687,12 @@
 				"Primary": true,
 				"Priority": 10
 			},
-			"Stock the apothecary in the ~|dream of Iaia|~": {
-				"Objects": ["Hibernation pot"],
-				"Items": ["Compacted leaves*"],
+			"Mix tinctures at the apothecary in the ~|Dream of Iaia|~": {
+				"Chunks": ["Dream of Iaia", "15939"],
 				"Level": 75,
-				"Output": "Apothecary",
+				"Output": "Dream of Iaia loot"
 				"Primary": true,
-				"Priority": 11
+				"Priority": 18
 			},
 			"Mix a ~|super magic potion|~": {
 				"Items": ["Lantadyme potion (unf)*", "Potato cactus*"],
@@ -44023,11 +44018,10 @@
 				"Primary": true,
 				"Priority": 5
 			},
-			"Stock the hunting lodge in the ~|dream of Iaia|~": {
-				"Objects": ["Hibernation pot"],
-				"Items": ["Compacted vines"],
+			"Build traps at the hunting lodge in the ~|Dream of Iaia|~": {
+				"Chunks": ["Dream of Iaia", "15939"],
 				"Level": 75,
-				"Output": "Hunting Lodge",
+				"Output": "Dream of Iaia loot"
 				"Primary": true,
 				"Priority": 6
 			},
@@ -76929,7 +76923,7 @@
 			"~|Extinction|~ 4": {
 				"BaseQuest": "Extinction",
 				"Description": "Speak to Vicendithas at the Effigy Incubator",
-				"Chunks": ["15683"],
+				"Chunks": ["Effigy Incubator"],
 				"Tasks": {
 					"~|Extinction|~ 3": "Quest"
 				},
@@ -93056,7 +93050,7 @@
 			"~|Sins of the Father|~ 3": {
 				"BaseQuest": "Sins of the Father",
 				"Description": "Find a way into Vicendithas' lab and complete the effigy incubator tutorial",
-				"Chunks": ["15684"],
+				"Chunks": ["Effigy Incubator"],
 				"Tasks": {
 					"~|Sins of the Father|~ 2": "Quest"
 				},
@@ -93064,7 +93058,7 @@
 			},
 			"~|Sins of the Father|~ Complete the quest": {
 				"BaseQuest": "Sins of the Father",
-				"Chunks": ["15684"],
+				"Chunks": ["Effigy Incubator"],
 				"Tasks": {
 					"~|Sins of the Father|~ 3": "Quest"
 				},
@@ -109423,7 +109417,7 @@
 				"Skills": {
 					"Magic": 12
 				},
-				"Items": ["Greater Concentrated Blast ability codex"]
+				"Items": ["Greater Concentrated blast ability codex"]
 			},
 			"(Magic) Unlock the ~|Horror|~ ability": {
 				"Category": ["Unlock Abilities"],
@@ -115011,11 +115005,6 @@
 				"Label": "Untracked Skilling Uniques",
 				"Items": ["Tetracompas piece (needle)"]
 			},
-			"(Archaeology) Obtain the ~|ancient gladiator helm|~": {
-				"Category": ["Untracked Uniques", "Untracked Uniques Skilling"],
-				"Label": "Untracked Skilling Uniques",
-				"Items": ["Ancient gladiator helm"]
-			},
 			"(Archaeology) Obtain a ~|slice of imcando metal|~": {
 				"Category": ["Untracked Uniques", "Untracked Uniques Skilling"],
 				"Label": "Untracked Skilling Uniques",
@@ -115039,7 +115028,16 @@
 			"(Archaeology) Obtain ~|'The Epic of Hebe'|~": {
 				"Category": ["Untracked Uniques", "Untracked Uniques Skilling"],
 				"Label": "Untracked Skilling Uniques",
-				"Items": ["'The Epic of Hebe'"]
+				"Chunks": ["14897", "14989"],
+				"Items": ["White marble"],
+				"Skills": {
+					"Construction": 40,
+					"Archaeology": 105
+				},
+				"Tasks": {
+					"Archaeology Mystery: ~|The Everlight|~ Complete the mystery": "Quest"
+				},
+				"Items": ["Hallowed lantern"]
 			},
 			"(Archaeology) Obtain ~|holy aggroverload recipe fragment 1|~": {
 				"Category": ["Untracked Uniques", "Untracked Uniques Skilling"],
@@ -125042,6 +125040,21 @@
 			"Scabarite Cavern": {
 				"UnlocksArea": true
 			},
+			"Sinkhole": {
+				"UnlocksArea": true
+			},
+			"Effigy Incubator": {
+				"UnlocksArea": true
+				"Tasks": {
+					"~|Sins of the Father|~ 2": "Quest"
+				}
+			},
+			"Dream of Iaia": {
+				"UnlocksArea": true
+				"Tasks": {
+					"~|Extinction|~ Complete the quest": "Quest"
+				}
+			}
 			"Create a super explosive shaker*": {
 				"Items": ["Super explosive flask", "Rubium"],
 				"Output": "Super explosive shaker"
@@ -128000,6 +128013,12 @@
 		},
 		"36": {
 			"Name": "Sinkhole"
+		},
+		"37": {
+			"Name": "Effigy Incubator"
+		},
+		"38": {
+			"Name": "Dream of Iaia"
 		},
 		"258": {
 			"Spawn": {
@@ -155653,6 +155672,9 @@
 				"Desperate Measures": "step",
 				"Sins of the Father": "step"
 			},
+			"Connect": {
+				"37": true
+			},
 			"Nickname": "North Base Camp"
 		},
 		"15685": {
@@ -171087,6 +171109,29 @@
 				"14131": true,
 				"14391": true
 			}
+		},
+		"Effigy Incubator": {
+			"NPC": {
+				"Vicendithas": 1
+			},
+			"Quest": {
+				"Sins of the Father": "step"
+			},
+			"Shop": {
+				"The Effigy Incubator Reward Shop": true
+			},
+			"Connect": {
+				"38": true,
+				"15684": true
+			}
+		},
+		"Dream of Iaia": {
+			"NPC": {
+				"Gorajo hoardstalker": 1
+			},
+			"Connect": {
+				"37": true
+			}
 		}
 	},
 	"codeItems": {
@@ -177880,7 +177925,8 @@
 			"Cabbage Facepunch Bonanza Rewards": true,
 			"Reward Shop (Soul Wars)": true,
 			"Shattered Worlds Reward Shop":true,
-			"Artisans' Workshop Reward Shop": true
+			"Artisans' Workshop Reward Shop": true,
+			"The Effigy Incubator Reward Shop": true
 		},
 		"boostItems": {
 			"Agility": {
@@ -233012,7 +233058,7 @@
 		"Sheep Herder": "10291, 10292",
 		"Shield of Arrav": "12854, 12853, Phoenix Gang Hideout, 12852, 12596",
 		"Shilo Village": "11566, 11056, 11054, 11568, Cairn Island Dungeon",
-		"Sins of the Father": "15939, 15684",
+		"Sins of the Father": "15939, 15684, Effigy Incubator",
 		"Sliske's Endgame": "12338, Death's Office, 11828, 11827, 12087, 8756, 13357",
 		"The Slug Menace": "11828, 10803, Witchaven Dungeon, 9780, 11059, Air Rune Temple, Water Rune Temple, Fire Rune Temple, Earth Rune Temple, Mind Rune Temple",
 		"Smoking Kills": "13358, Tomb of Catolax, Pollnivneach Slayer Dungeon",
@@ -235995,6 +236041,12 @@
 			"Team-25 cape": true,
 			"Team-35 cape": true,
 			"Team-45 cape": true
+		},
+		"The Effigy Incubator Reward Shop": {
+			"Jeffy": true,
+			"Geffy": true,
+			"Leffy": true,
+			"Seffy": true
 		},
 		"Elnock's Backup Supply": {
 			"Impling jar": true
@@ -242469,7 +242521,7 @@
 			}
 		},
 		"Construction": {
-			"Stonemason": {
+			"Dream of Iaia loot": {
 				"Laboratory relic (common)": "Common",
 				"Compacted stone": "Common",
 				"Fruity mush": "Uncommon",
@@ -242713,7 +242765,7 @@
 				"Fishing mix (2)": "Rare",
 				"Dragon full helm": "1/250"
 			},
-			"Tannery": {
+			"Dream of Iaia loot": {
 				"Laboratory relic (common)": "Common",
 				"Compacted hides": "Common",
 				"Fruity mush": "Uncommon",
@@ -243538,7 +243590,7 @@
 				"Raw swordfish": "Varies",
 				"Raw shark": "Varies"
 			},
-			"Fishery": {
+			"Dream of Iaia loot": {
 				"Laboratory relic (common)": "Common",
 				"Compacted clay": "Common",
 				"Fruity mush": "Uncommon",
@@ -243646,7 +243698,7 @@
 			}
 		},
 		"Fletching": {
-			"Fletcher's Hut": {
+			"Dream of Iaia loot": {
 				"Laboratory relic (common)": "Common",
 				"Compacted wood": "Common",
 				"Fruity mush": "Uncommon",
@@ -243724,7 +243776,7 @@
 				}
 		},
 		"Herblore": {
-			"Apothecary": {
+			"Dream of Iaia loot": {
 				"Laboratory relic (common)": "Common",
 				"Compacted leaves": "Common",
 				"Fruity mush": "Uncommon",
@@ -246390,7 +246442,7 @@
 				"Crystal skillchompa": "Always",
 				"Crystal chinchompa (unchecked)": "1/1500"
 			},
-			"Hunting Lodge": {
+			"Dream of Iaia loot": {
 				"Laboratory relic (common)": "Common",
 				"Compacted vines": "Common",
 				"Fruity mush": "Uncommon",
