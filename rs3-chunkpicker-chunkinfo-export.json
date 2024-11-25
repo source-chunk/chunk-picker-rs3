@@ -14741,7 +14741,7 @@
 			"Prepare stones at the stonemason in the ~|Dream of Iaia|~": {
 				"Chunks": ["Dream of Iaia", "15939"],
 				"Level": 75,
-				"Output": "Dream of Iaia loot"
+				"Output": "Dream of Iaia loot",
 				"Primary": true,
 				"Priority": 11
 			},
@@ -20586,7 +20586,7 @@
 			"Dye leather at the tannery in the ~|Dream of Iaia|~": {
 				"Chunks": ["Dream of Iaia", "15939"],
 				"Level": 75,
-				"Output": "Dream of Iaia loot"
+				"Output": "Dream of Iaia loot",
 				"Primary": true,
 				"Priority": 2
 			},
@@ -37347,7 +37347,7 @@
 			"Feed fish at the fishery in the ~|Dream of Iaia|~": {
 				"Chunks": ["Dream of Iaia", "15939"],
 				"Level": 75,
-				"Output": "Dream of Iaia loot"
+				"Output": "Dream of Iaia loot",
 				"Primary": true,
 				"Priority": 1
 			},
@@ -39037,7 +39037,7 @@
 			"Fletch logs at the fletcher's hut in the ~|Dream of Iaia|~": {
 				"Chunks": ["Dream of Iaia", "15939"],
 				"Level": 75,
-				"Output": "Dream of Iaia loot"
+				"Output": "Dream of Iaia loot",
 				"Primary": true,
 				"Priority": 18
 			},
@@ -41690,7 +41690,7 @@
 			"Mix tinctures at the apothecary in the ~|Dream of Iaia|~": {
 				"Chunks": ["Dream of Iaia", "15939"],
 				"Level": 75,
-				"Output": "Dream of Iaia loot"
+				"Output": "Dream of Iaia loot",
 				"Primary": true,
 				"Priority": 18
 			},
@@ -44021,7 +44021,7 @@
 			"Build traps at the hunting lodge in the ~|Dream of Iaia|~": {
 				"Chunks": ["Dream of Iaia", "15939"],
 				"Level": 75,
-				"Output": "Dream of Iaia loot"
+				"Output": "Dream of Iaia loot",
 				"Primary": true,
 				"Priority": 6
 			},
@@ -171126,9 +171126,6 @@
 			}
 		},
 		"Dream of Iaia": {
-			"NPC": {
-				"Gorajo hoardstalker": 1
-			},
 			"Connect": {
 				"37": true
 			}
