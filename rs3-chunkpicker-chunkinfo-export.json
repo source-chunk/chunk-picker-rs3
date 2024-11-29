@@ -16151,7 +16151,11 @@
 				"Priority": 23
 			},
 			"Slice ~|breadcrumbs|~": {
+				"Category": ["Token"],
 				"Items": ["Bread*"],
+				"Tasks": {
+					"~|Recipe for Disaster: Freeing Pirate Pete|~ 1": "Quest"
+				},
 				"Level": 1,
 				"Output": "Breadcrumbs",
 				"Primary": true,
@@ -16174,6 +16178,7 @@
 				"Priority": 26
 			},
 			"Make a ~|pie shell|~": {
+				"Category": ["Token"],
 				"Items": ["Pie dish", "Pastry dough*"],
 				"Level": 1,
 				"Output": "Pie shell",
@@ -233853,6 +233858,9 @@
 			"Corrupt Statius's warhammer^": [{
 				"Access members content": "Nonskill"
 			}],
+			"Pilfer points^": [{
+				"~|A Guild of Our Own (miniquest)|~ Complete the miniquest": "Quest"
+			}],
 			"Prayer potion (2)^Barrows": [{
 				"Tier 2 luck or higher*": "Nonskill"
 			}],
@@ -234266,7 +234274,7 @@
 		},
 		"Monsters": {
 			"The Ambassador": {
-				"The Sahdow Reef": [{
+				"The Shadow Reef": [{
 					"Group Content enabled": "Nonskill"
 				}]
 			},
@@ -234324,12 +234332,12 @@
 				}]
 			},
 			"Crassian Leviathan": {
-				"The Sahdow Reef": [{
+				"The Shadow Reef": [{
 					"Group Content enabled": "Nonskill"
 				}]
 			},
 			"Croesus": {
-				"Senntsiten": [{
+				"Senntisten": [{
 					"Group Content enabled": "Nonskill"
 				}]
 			},
@@ -234670,6 +234678,11 @@
 				"Borehole": [{
 					"Hard Mode Bosses": "Nonskill"
 				}, {
+					"Group Content enabled": "Nonskill"
+				}]
+			},
+			"Zamorak, Lord of Chaos": {
+				"Zamorakian Undercity": [{
 					"Group Content enabled": "Nonskill"
 				}]
 			},
