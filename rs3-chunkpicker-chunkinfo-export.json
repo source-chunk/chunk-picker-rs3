@@ -115216,6 +115216,15 @@
 				},
 				"Set": "BIS Mattock"
 			},
+			"Obtain a ~|charming imp|~": {
+				"Category": ["BIS Skilling"],
+				"Label": "BIS Skilling",
+				"Items": ["Charming imp"],
+				"Requirements": {
+					"Summoning": 21
+				},
+				"Not F2P": true
+			},
 			"Obtain a ~|first age tiara|~": {
 				"Category": ["BIS Skilling"],
 				"Label": "BIS Skilling",
@@ -271380,6 +271389,25 @@
 			"attack_range": 7,
 			"class": "ranged",
 			"accuracy": 1924
+		},
+		"Chaotic kiteshield": {
+			"ranged": 0,
+			"requirements": {
+				"Defence": 80
+			},
+			"class": "melee",
+			"lp": 385,
+			"tier": 80,
+			"speed": 0,
+			"damage": 0,
+			"type": "Shield",
+			"armour": 384.8,
+			"slot": "off-hand",
+			"strength": 0,
+			"magic": 0,
+			"charges": 30000,
+			"prayer": 0,
+			"accuracy": 0
 		},
 		"Chaotic longsword": {
 			"ranged": 0,
