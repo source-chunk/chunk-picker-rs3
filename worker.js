@@ -5517,7 +5517,7 @@ let calcBIS = function(completedOnly) {
                     validWearable = false;
                     return true;
                 }
-                if (baseChunkData['items'].hasOwnProperty(equip) && !!chunkInfo['equipment'][equip].requirements && Object.keys(chunkInfo['equipment'][equip].requirements).filter(skill => !primarySkill[skill] && (!passiveSkill || !passiveSkill.hasOwnProperty(skill) || passiveSkill[skill] < chunkInfo['equipment'][equip].requirements[skill])).length > 0) {
+                if (baseChunkData['items'].hasOwnProperty(equip) && !!chunkInfo['equipment'][equip].requirements && Object.keys(chunkInfo['equipment'][equip].requirements).filter(skill => (rules['Skiller'] && chunkInfo['equipment'][equip].requirements[skill] > 1) || (!primarySkill[skill] && chunkInfo['equipment'][equip].requirements[skill] > 1 && (!passiveSkill || !passiveSkill.hasOwnProperty(skill) || passiveSkill[skill] < chunkInfo['equipment'][equip].requirements[skill])) || (skill === 'Slayer' && !!slayerLocked && chunkInfo['equipment'][equip].requirements[skill] > slayerLocked['level']) || (!!maxSkill && maxSkill.hasOwnProperty(skill) && maxSkill[skill] < chunkInfo['equipment'][equip].requirements[skill])).length > 0) {
                     validWearable = false;
                     return true;
                 }
@@ -5572,7 +5572,7 @@ let calcBIS = function(completedOnly) {
                     validWearable = false;
                     return true;
                 }
-                if (baseChunkData['items'].hasOwnProperty(equip) && !!chunkInfo['equipment'][equip].requirements && Object.keys(chunkInfo['equipment'][equip].requirements).filter(skill => !primarySkill[skill] && (!passiveSkill || !passiveSkill.hasOwnProperty(skill) || passiveSkill[skill] < chunkInfo['equipment'][equip].requirements[skill])).length > 0) {
+                if (baseChunkData['items'].hasOwnProperty(equip) && !!chunkInfo['equipment'][equip].requirements && Object.keys(chunkInfo['equipment'][equip].requirements).filter(skill => (rules['Skiller'] && chunkInfo['equipment'][equip].requirements[skill] > 1) || (!primarySkill[skill] && chunkInfo['equipment'][equip].requirements[skill] > 1 && (!passiveSkill || !passiveSkill.hasOwnProperty(skill) || passiveSkill[skill] < chunkInfo['equipment'][equip].requirements[skill])) || (skill === 'Slayer' && !!slayerLocked && chunkInfo['equipment'][equip].requirements[skill] > slayerLocked['level']) || (!!maxSkill && maxSkill.hasOwnProperty(skill) && maxSkill[skill] < chunkInfo['equipment'][equip].requirements[skill])).length > 0) {
                     validWearable = false;
                     return true;
                 }
@@ -5627,7 +5627,7 @@ let calcBIS = function(completedOnly) {
                     validWearable = false;
                     return true;
                 }
-                if (baseChunkData['items'].hasOwnProperty(equip) && !!chunkInfo['equipment'][equip].requirements && Object.keys(chunkInfo['equipment'][equip].requirements).filter(skill => !primarySkill[skill] && (!passiveSkill || !passiveSkill.hasOwnProperty(skill) || passiveSkill[skill] < chunkInfo['equipment'][equip].requirements[skill])).length > 0) {
+                if (baseChunkData['items'].hasOwnProperty(equip) && !!chunkInfo['equipment'][equip].requirements && Object.keys(chunkInfo['equipment'][equip].requirements).filter(skill => (rules['Skiller'] && chunkInfo['equipment'][equip].requirements[skill] > 1) || (!primarySkill[skill] && chunkInfo['equipment'][equip].requirements[skill] > 1 && (!passiveSkill || !passiveSkill.hasOwnProperty(skill) || passiveSkill[skill] < chunkInfo['equipment'][equip].requirements[skill])) || (skill === 'Slayer' && !!slayerLocked && chunkInfo['equipment'][equip].requirements[skill] > slayerLocked['level']) || (!!maxSkill && maxSkill.hasOwnProperty(skill) && maxSkill[skill] < chunkInfo['equipment'][equip].requirements[skill])).length > 0) {
                     validWearable = false;
                     return true;
                 }
@@ -5701,7 +5701,7 @@ let calcBIS = function(completedOnly) {
                     validWearable = false;
                     return true;
                 }
-                if (baseChunkData['items'].hasOwnProperty(equip) && !!chunkInfo['equipment'][equip].requirements && Object.keys(chunkInfo['equipment'][equip].requirements).filter(skill => !primarySkill[skill] && (!passiveSkill || !passiveSkill.hasOwnProperty(skill) || passiveSkill[skill] < chunkInfo['equipment'][equip].requirements[skill])).length > 0) {
+                if (baseChunkData['items'].hasOwnProperty(equip) && !!chunkInfo['equipment'][equip].requirements && Object.keys(chunkInfo['equipment'][equip].requirements).filter(skill => (rules['Skiller'] && chunkInfo['equipment'][equip].requirements[skill] > 1) || (!primarySkill[skill] && chunkInfo['equipment'][equip].requirements[skill] > 1 && (!passiveSkill || !passiveSkill.hasOwnProperty(skill) || passiveSkill[skill] < chunkInfo['equipment'][equip].requirements[skill])) || (skill === 'Slayer' && !!slayerLocked && chunkInfo['equipment'][equip].requirements[skill] > slayerLocked['level']) || (!!maxSkill && maxSkill.hasOwnProperty(skill) && maxSkill[skill] < chunkInfo['equipment'][equip].requirements[skill])).length > 0) {
                     validWearable = false;
                     return true;
                 }
@@ -5775,7 +5775,7 @@ let calcBIS = function(completedOnly) {
                     validWearable = false;
                     return true;
                 }
-                if (baseChunkData['items'].hasOwnProperty(equip) && !!chunkInfo['equipment'][equip].requirements && Object.keys(chunkInfo['equipment'][equip].requirements).filter(skill => !primarySkill[skill] && (!passiveSkill || !passiveSkill.hasOwnProperty(skill) || passiveSkill[skill] < chunkInfo['equipment'][equip].requirements[skill])).length > 0) {
+                if (baseChunkData['items'].hasOwnProperty(equip) && !!chunkInfo['equipment'][equip].requirements && Object.keys(chunkInfo['equipment'][equip].requirements).filter(skill => (rules['Skiller'] && chunkInfo['equipment'][equip].requirements[skill] > 1) || (!primarySkill[skill] && chunkInfo['equipment'][equip].requirements[skill] > 1 && (!passiveSkill || !passiveSkill.hasOwnProperty(skill) || passiveSkill[skill] < chunkInfo['equipment'][equip].requirements[skill])) || (skill === 'Slayer' && !!slayerLocked && chunkInfo['equipment'][equip].requirements[skill] > slayerLocked['level']) || (!!maxSkill && maxSkill.hasOwnProperty(skill) && maxSkill[skill] < chunkInfo['equipment'][equip].requirements[skill])).length > 0) {
                     validWearable = false;
                     return true;
                 }
@@ -5855,7 +5855,7 @@ let calcBIS = function(completedOnly) {
                     validWearable = false;
                     return true;
                 }
-                if (baseChunkData['items'].hasOwnProperty(equip) && !!chunkInfo['equipment'][equip].requirements && Object.keys(chunkInfo['equipment'][equip].requirements).filter(skill => !primarySkill[skill] && (!passiveSkill || !passiveSkill.hasOwnProperty(skill) || passiveSkill[skill] < chunkInfo['equipment'][equip].requirements[skill])).length > 0) {
+                if (baseChunkData['items'].hasOwnProperty(equip) && !!chunkInfo['equipment'][equip].requirements && Object.keys(chunkInfo['equipment'][equip].requirements).filter(skill => (rules['Skiller'] && chunkInfo['equipment'][equip].requirements[skill] > 1) || (!primarySkill[skill] && chunkInfo['equipment'][equip].requirements[skill] > 1 && (!passiveSkill || !passiveSkill.hasOwnProperty(skill) || passiveSkill[skill] < chunkInfo['equipment'][equip].requirements[skill])) || (skill === 'Slayer' && !!slayerLocked && chunkInfo['equipment'][equip].requirements[skill] > slayerLocked['level']) || (!!maxSkill && maxSkill.hasOwnProperty(skill) && maxSkill[skill] < chunkInfo['equipment'][equip].requirements[skill])).length > 0) {
                     validWearable = false;
                     return true;
                 }
@@ -5907,7 +5907,7 @@ let calcBIS = function(completedOnly) {
                     validWearable = false;
                     return true;
                 }
-                if (baseChunkData['items'].hasOwnProperty(equip) && !!chunkInfo['equipment'][equip].requirements && Object.keys(chunkInfo['equipment'][equip].requirements).filter(skill => !primarySkill[skill] && (!passiveSkill || !passiveSkill.hasOwnProperty(skill) || passiveSkill[skill] < chunkInfo['equipment'][equip].requirements[skill])).length > 0) {
+                if (baseChunkData['items'].hasOwnProperty(equip) && !!chunkInfo['equipment'][equip].requirements && Object.keys(chunkInfo['equipment'][equip].requirements).filter(skill => (rules['Skiller'] && chunkInfo['equipment'][equip].requirements[skill] > 1) || (!primarySkill[skill] && chunkInfo['equipment'][equip].requirements[skill] > 1 && (!passiveSkill || !passiveSkill.hasOwnProperty(skill) || passiveSkill[skill] < chunkInfo['equipment'][equip].requirements[skill])) || (skill === 'Slayer' && !!slayerLocked && chunkInfo['equipment'][equip].requirements[skill] > slayerLocked['level']) || (!!maxSkill && maxSkill.hasOwnProperty(skill) && maxSkill[skill] < chunkInfo['equipment'][equip].requirements[skill])).length > 0) {
                     validWearable = false;
                     return true;
                 }
@@ -5959,7 +5959,7 @@ let calcBIS = function(completedOnly) {
                     validWearable = false;
                     return true;
                 }
-                if (baseChunkData['items'].hasOwnProperty(equip) && !!chunkInfo['equipment'][equip].requirements && Object.keys(chunkInfo['equipment'][equip].requirements).filter(skill => !primarySkill[skill] && (!passiveSkill || !passiveSkill.hasOwnProperty(skill) || passiveSkill[skill] < chunkInfo['equipment'][equip].requirements[skill])).length > 0) {
+                if (baseChunkData['items'].hasOwnProperty(equip) && !!chunkInfo['equipment'][equip].requirements && Object.keys(chunkInfo['equipment'][equip].requirements).filter(skill => (rules['Skiller'] && chunkInfo['equipment'][equip].requirements[skill] > 1) || (!primarySkill[skill] && chunkInfo['equipment'][equip].requirements[skill] > 1 && (!passiveSkill || !passiveSkill.hasOwnProperty(skill) || passiveSkill[skill] < chunkInfo['equipment'][equip].requirements[skill])) || (skill === 'Slayer' && !!slayerLocked && chunkInfo['equipment'][equip].requirements[skill] > slayerLocked['level']) || (!!maxSkill && maxSkill.hasOwnProperty(skill) && maxSkill[skill] < chunkInfo['equipment'][equip].requirements[skill])).length > 0) {
                     validWearable = false;
                     return true;
                 }
@@ -6033,7 +6033,7 @@ let calcBIS = function(completedOnly) {
                     validWearable = false;
                     return true;
                 }
-                if (baseChunkData['items'].hasOwnProperty(equip) && !!chunkInfo['equipment'][equip].requirements && Object.keys(chunkInfo['equipment'][equip].requirements).filter(skill => !primarySkill[skill] && (!passiveSkill || !passiveSkill.hasOwnProperty(skill) || passiveSkill[skill] < chunkInfo['equipment'][equip].requirements[skill])).length > 0) {
+                if (baseChunkData['items'].hasOwnProperty(equip) && !!chunkInfo['equipment'][equip].requirements && Object.keys(chunkInfo['equipment'][equip].requirements).filter(skill => (rules['Skiller'] && chunkInfo['equipment'][equip].requirements[skill] > 1) || (!primarySkill[skill] && chunkInfo['equipment'][equip].requirements[skill] > 1 && (!passiveSkill || !passiveSkill.hasOwnProperty(skill) || passiveSkill[skill] < chunkInfo['equipment'][equip].requirements[skill])) || (skill === 'Slayer' && !!slayerLocked && chunkInfo['equipment'][equip].requirements[skill] > slayerLocked['level']) || (!!maxSkill && maxSkill.hasOwnProperty(skill) && maxSkill[skill] < chunkInfo['equipment'][equip].requirements[skill])).length > 0) {
                     validWearable = false;
                     return true;
                 }
@@ -6107,7 +6107,7 @@ let calcBIS = function(completedOnly) {
                     validWearable = false;
                     return true;
                 }
-                if (baseChunkData['items'].hasOwnProperty(equip) && !!chunkInfo['equipment'][equip].requirements && Object.keys(chunkInfo['equipment'][equip].requirements).filter(skill => !primarySkill[skill] && (!passiveSkill || !passiveSkill.hasOwnProperty(skill) || passiveSkill[skill] < chunkInfo['equipment'][equip].requirements[skill])).length > 0) {
+                if (baseChunkData['items'].hasOwnProperty(equip) && !!chunkInfo['equipment'][equip].requirements && Object.keys(chunkInfo['equipment'][equip].requirements).filter(skill => (rules['Skiller'] && chunkInfo['equipment'][equip].requirements[skill] > 1) || (!primarySkill[skill] && chunkInfo['equipment'][equip].requirements[skill] > 1 && (!passiveSkill || !passiveSkill.hasOwnProperty(skill) || passiveSkill[skill] < chunkInfo['equipment'][equip].requirements[skill])) || (skill === 'Slayer' && !!slayerLocked && chunkInfo['equipment'][equip].requirements[skill] > slayerLocked['level']) || (!!maxSkill && maxSkill.hasOwnProperty(skill) && maxSkill[skill] < chunkInfo['equipment'][equip].requirements[skill])).length > 0) {
                     validWearable = false;
                     return true;
                 }
@@ -6187,7 +6187,7 @@ let calcBIS = function(completedOnly) {
                     validWearable = false;
                     return true;
                 }
-                if (baseChunkData['items'].hasOwnProperty(equip) && !!chunkInfo['equipment'][equip].requirements && Object.keys(chunkInfo['equipment'][equip].requirements).filter(skill => !primarySkill[skill] && (!passiveSkill || !passiveSkill.hasOwnProperty(skill) || passiveSkill[skill] < chunkInfo['equipment'][equip].requirements[skill])).length > 0) {
+                if (baseChunkData['items'].hasOwnProperty(equip) && !!chunkInfo['equipment'][equip].requirements && Object.keys(chunkInfo['equipment'][equip].requirements).filter(skill => (rules['Skiller'] && chunkInfo['equipment'][equip].requirements[skill] > 1) || (!primarySkill[skill] && chunkInfo['equipment'][equip].requirements[skill] > 1 && (!passiveSkill || !passiveSkill.hasOwnProperty(skill) || passiveSkill[skill] < chunkInfo['equipment'][equip].requirements[skill])) || (skill === 'Slayer' && !!slayerLocked && chunkInfo['equipment'][equip].requirements[skill] > slayerLocked['level']) || (!!maxSkill && maxSkill.hasOwnProperty(skill) && maxSkill[skill] < chunkInfo['equipment'][equip].requirements[skill])).length > 0) {
                     validWearable = false;
                     return true;
                 }
@@ -6239,7 +6239,7 @@ let calcBIS = function(completedOnly) {
                     validWearable = false;
                     return true;
                 }
-                if (baseChunkData['items'].hasOwnProperty(equip) && !!chunkInfo['equipment'][equip].requirements && Object.keys(chunkInfo['equipment'][equip].requirements).filter(skill => !primarySkill[skill] && (!passiveSkill || !passiveSkill.hasOwnProperty(skill) || passiveSkill[skill] < chunkInfo['equipment'][equip].requirements[skill])).length > 0) {
+                if (baseChunkData['items'].hasOwnProperty(equip) && !!chunkInfo['equipment'][equip].requirements && Object.keys(chunkInfo['equipment'][equip].requirements).filter(skill => (rules['Skiller'] && chunkInfo['equipment'][equip].requirements[skill] > 1) || (!primarySkill[skill] && chunkInfo['equipment'][equip].requirements[skill] > 1 && (!passiveSkill || !passiveSkill.hasOwnProperty(skill) || passiveSkill[skill] < chunkInfo['equipment'][equip].requirements[skill])) || (skill === 'Slayer' && !!slayerLocked && chunkInfo['equipment'][equip].requirements[skill] > slayerLocked['level']) || (!!maxSkill && maxSkill.hasOwnProperty(skill) && maxSkill[skill] < chunkInfo['equipment'][equip].requirements[skill])).length > 0) {
                     validWearable = false;
                     return true;
                 }
@@ -6291,7 +6291,7 @@ let calcBIS = function(completedOnly) {
                     validWearable = false;
                     return true;
                 }
-                if (baseChunkData['items'].hasOwnProperty(equip) && !!chunkInfo['equipment'][equip].requirements && Object.keys(chunkInfo['equipment'][equip].requirements).filter(skill => !primarySkill[skill] && (!passiveSkill || !passiveSkill.hasOwnProperty(skill) || passiveSkill[skill] < chunkInfo['equipment'][equip].requirements[skill])).length > 0) {
+                if (baseChunkData['items'].hasOwnProperty(equip) && !!chunkInfo['equipment'][equip].requirements && Object.keys(chunkInfo['equipment'][equip].requirements).filter(skill => (rules['Skiller'] && chunkInfo['equipment'][equip].requirements[skill] > 1) || (!primarySkill[skill] && chunkInfo['equipment'][equip].requirements[skill] > 1 && (!passiveSkill || !passiveSkill.hasOwnProperty(skill) || passiveSkill[skill] < chunkInfo['equipment'][equip].requirements[skill])) || (skill === 'Slayer' && !!slayerLocked && chunkInfo['equipment'][equip].requirements[skill] > slayerLocked['level']) || (!!maxSkill && maxSkill.hasOwnProperty(skill) && maxSkill[skill] < chunkInfo['equipment'][equip].requirements[skill])).length > 0) {
                     validWearable = false;
                     return true;
                 }
@@ -6365,7 +6365,7 @@ let calcBIS = function(completedOnly) {
                     validWearable = false;
                     return true;
                 }
-                if (baseChunkData['items'].hasOwnProperty(equip) && !!chunkInfo['equipment'][equip].requirements && Object.keys(chunkInfo['equipment'][equip].requirements).filter(skill => !primarySkill[skill] && (!passiveSkill || !passiveSkill.hasOwnProperty(skill) || passiveSkill[skill] < chunkInfo['equipment'][equip].requirements[skill])).length > 0) {
+                if (baseChunkData['items'].hasOwnProperty(equip) && !!chunkInfo['equipment'][equip].requirements && Object.keys(chunkInfo['equipment'][equip].requirements).filter(skill => (rules['Skiller'] && chunkInfo['equipment'][equip].requirements[skill] > 1) || (!primarySkill[skill] && chunkInfo['equipment'][equip].requirements[skill] > 1 && (!passiveSkill || !passiveSkill.hasOwnProperty(skill) || passiveSkill[skill] < chunkInfo['equipment'][equip].requirements[skill])) || (skill === 'Slayer' && !!slayerLocked && chunkInfo['equipment'][equip].requirements[skill] > slayerLocked['level']) || (!!maxSkill && maxSkill.hasOwnProperty(skill) && maxSkill[skill] < chunkInfo['equipment'][equip].requirements[skill])).length > 0) {
                     validWearable = false;
                     return true;
                 }
@@ -6439,7 +6439,7 @@ let calcBIS = function(completedOnly) {
                     validWearable = false;
                     return true;
                 }
-                if (baseChunkData['items'].hasOwnProperty(equip) && !!chunkInfo['equipment'][equip].requirements && Object.keys(chunkInfo['equipment'][equip].requirements).filter(skill => !primarySkill[skill] && (!passiveSkill || !passiveSkill.hasOwnProperty(skill) || passiveSkill[skill] < chunkInfo['equipment'][equip].requirements[skill])).length > 0) {
+                if (baseChunkData['items'].hasOwnProperty(equip) && !!chunkInfo['equipment'][equip].requirements && Object.keys(chunkInfo['equipment'][equip].requirements).filter(skill => (rules['Skiller'] && chunkInfo['equipment'][equip].requirements[skill] > 1) || (!primarySkill[skill] && chunkInfo['equipment'][equip].requirements[skill] > 1 && (!passiveSkill || !passiveSkill.hasOwnProperty(skill) || passiveSkill[skill] < chunkInfo['equipment'][equip].requirements[skill])) || (skill === 'Slayer' && !!slayerLocked && chunkInfo['equipment'][equip].requirements[skill] > slayerLocked['level']) || (!!maxSkill && maxSkill.hasOwnProperty(skill) && maxSkill[skill] < chunkInfo['equipment'][equip].requirements[skill])).length > 0) {
                     validWearable = false;
                     return true;
                 }
@@ -6519,7 +6519,7 @@ let calcBIS = function(completedOnly) {
                     validWearable = false;
                     return true;
                 }
-                if (baseChunkData['items'].hasOwnProperty(equip) && !!chunkInfo['equipment'][equip].requirements && Object.keys(chunkInfo['equipment'][equip].requirements).filter(skill => !primarySkill[skill] && (!passiveSkill || !passiveSkill.hasOwnProperty(skill) || passiveSkill[skill] < chunkInfo['equipment'][equip].requirements[skill])).length > 0) {
+                if (baseChunkData['items'].hasOwnProperty(equip) && !!chunkInfo['equipment'][equip].requirements && Object.keys(chunkInfo['equipment'][equip].requirements).filter(skill => (rules['Skiller'] && chunkInfo['equipment'][equip].requirements[skill] > 1) || (!primarySkill[skill] && chunkInfo['equipment'][equip].requirements[skill] > 1 && (!passiveSkill || !passiveSkill.hasOwnProperty(skill) || passiveSkill[skill] < chunkInfo['equipment'][equip].requirements[skill])) || (skill === 'Slayer' && !!slayerLocked && chunkInfo['equipment'][equip].requirements[skill] > slayerLocked['level']) || (!!maxSkill && maxSkill.hasOwnProperty(skill) && maxSkill[skill] < chunkInfo['equipment'][equip].requirements[skill])).length > 0) {
                     validWearable = false;
                     return true;
                 }
@@ -6571,7 +6571,7 @@ let calcBIS = function(completedOnly) {
                     validWearable = false;
                     return true;
                 }
-                if (baseChunkData['items'].hasOwnProperty(equip) && !!chunkInfo['equipment'][equip].requirements && Object.keys(chunkInfo['equipment'][equip].requirements).filter(skill => !primarySkill[skill] && (!passiveSkill || !passiveSkill.hasOwnProperty(skill) || passiveSkill[skill] < chunkInfo['equipment'][equip].requirements[skill])).length > 0) {
+                if (baseChunkData['items'].hasOwnProperty(equip) && !!chunkInfo['equipment'][equip].requirements && Object.keys(chunkInfo['equipment'][equip].requirements).filter(skill => (rules['Skiller'] && chunkInfo['equipment'][equip].requirements[skill] > 1) || (!primarySkill[skill] && chunkInfo['equipment'][equip].requirements[skill] > 1 && (!passiveSkill || !passiveSkill.hasOwnProperty(skill) || passiveSkill[skill] < chunkInfo['equipment'][equip].requirements[skill])) || (skill === 'Slayer' && !!slayerLocked && chunkInfo['equipment'][equip].requirements[skill] > slayerLocked['level']) || (!!maxSkill && maxSkill.hasOwnProperty(skill) && maxSkill[skill] < chunkInfo['equipment'][equip].requirements[skill])).length > 0) {
                     validWearable = false;
                     return true;
                 }
@@ -6623,7 +6623,7 @@ let calcBIS = function(completedOnly) {
                     validWearable = false;
                     return true;
                 }
-                if (baseChunkData['items'].hasOwnProperty(equip) && !!chunkInfo['equipment'][equip].requirements && Object.keys(chunkInfo['equipment'][equip].requirements).filter(skill => !primarySkill[skill] && (!passiveSkill || !passiveSkill.hasOwnProperty(skill) || passiveSkill[skill] < chunkInfo['equipment'][equip].requirements[skill])).length > 0) {
+                if (baseChunkData['items'].hasOwnProperty(equip) && !!chunkInfo['equipment'][equip].requirements && Object.keys(chunkInfo['equipment'][equip].requirements).filter(skill => (rules['Skiller'] && chunkInfo['equipment'][equip].requirements[skill] > 1) || (!primarySkill[skill] && chunkInfo['equipment'][equip].requirements[skill] > 1 && (!passiveSkill || !passiveSkill.hasOwnProperty(skill) || passiveSkill[skill] < chunkInfo['equipment'][equip].requirements[skill])) || (skill === 'Slayer' && !!slayerLocked && chunkInfo['equipment'][equip].requirements[skill] > slayerLocked['level']) || (!!maxSkill && maxSkill.hasOwnProperty(skill) && maxSkill[skill] < chunkInfo['equipment'][equip].requirements[skill])).length > 0) {
                     validWearable = false;
                     return true;
                 }
@@ -6697,7 +6697,7 @@ let calcBIS = function(completedOnly) {
                     validWearable = false;
                     return true;
                 }
-                if (baseChunkData['items'].hasOwnProperty(equip) && !!chunkInfo['equipment'][equip].requirements && Object.keys(chunkInfo['equipment'][equip].requirements).filter(skill => !primarySkill[skill] && (!passiveSkill || !passiveSkill.hasOwnProperty(skill) || passiveSkill[skill] < chunkInfo['equipment'][equip].requirements[skill])).length > 0) {
+                if (baseChunkData['items'].hasOwnProperty(equip) && !!chunkInfo['equipment'][equip].requirements && Object.keys(chunkInfo['equipment'][equip].requirements).filter(skill => (rules['Skiller'] && chunkInfo['equipment'][equip].requirements[skill] > 1) || (!primarySkill[skill] && chunkInfo['equipment'][equip].requirements[skill] > 1 && (!passiveSkill || !passiveSkill.hasOwnProperty(skill) || passiveSkill[skill] < chunkInfo['equipment'][equip].requirements[skill])) || (skill === 'Slayer' && !!slayerLocked && chunkInfo['equipment'][equip].requirements[skill] > slayerLocked['level']) || (!!maxSkill && maxSkill.hasOwnProperty(skill) && maxSkill[skill] < chunkInfo['equipment'][equip].requirements[skill])).length > 0) {
                     validWearable = false;
                     return true;
                 }
@@ -6771,7 +6771,7 @@ let calcBIS = function(completedOnly) {
                     validWearable = false;
                     return true;
                 }
-                if (baseChunkData['items'].hasOwnProperty(equip) && !!chunkInfo['equipment'][equip].requirements && Object.keys(chunkInfo['equipment'][equip].requirements).filter(skill => !primarySkill[skill] && (!passiveSkill || !passiveSkill.hasOwnProperty(skill) || passiveSkill[skill] < chunkInfo['equipment'][equip].requirements[skill])).length > 0) {
+                if (baseChunkData['items'].hasOwnProperty(equip) && !!chunkInfo['equipment'][equip].requirements && Object.keys(chunkInfo['equipment'][equip].requirements).filter(skill => (rules['Skiller'] && chunkInfo['equipment'][equip].requirements[skill] > 1) || (!primarySkill[skill] && chunkInfo['equipment'][equip].requirements[skill] > 1 && (!passiveSkill || !passiveSkill.hasOwnProperty(skill) || passiveSkill[skill] < chunkInfo['equipment'][equip].requirements[skill])) || (skill === 'Slayer' && !!slayerLocked && chunkInfo['equipment'][equip].requirements[skill] > slayerLocked['level']) || (!!maxSkill && maxSkill.hasOwnProperty(skill) && maxSkill[skill] < chunkInfo['equipment'][equip].requirements[skill])).length > 0) {
                     validWearable = false;
                     return true;
                 }
@@ -6851,7 +6851,7 @@ let calcBIS = function(completedOnly) {
                     validWearable = false;
                     return true;
                 }
-                if (baseChunkData['items'].hasOwnProperty(equip) && !!chunkInfo['equipment'][equip].requirements && Object.keys(chunkInfo['equipment'][equip].requirements).filter(skill => !primarySkill[skill] && (!passiveSkill || !passiveSkill.hasOwnProperty(skill) || passiveSkill[skill] < chunkInfo['equipment'][equip].requirements[skill])).length > 0) {
+                if (baseChunkData['items'].hasOwnProperty(equip) && !!chunkInfo['equipment'][equip].requirements && Object.keys(chunkInfo['equipment'][equip].requirements).filter(skill => (rules['Skiller'] && chunkInfo['equipment'][equip].requirements[skill] > 1) || (!primarySkill[skill] && chunkInfo['equipment'][equip].requirements[skill] > 1 && (!passiveSkill || !passiveSkill.hasOwnProperty(skill) || passiveSkill[skill] < chunkInfo['equipment'][equip].requirements[skill])) || (skill === 'Slayer' && !!slayerLocked && chunkInfo['equipment'][equip].requirements[skill] > slayerLocked['level']) || (!!maxSkill && maxSkill.hasOwnProperty(skill) && maxSkill[skill] < chunkInfo['equipment'][equip].requirements[skill])).length > 0) {
                     validWearable = false;
                     return true;
                 }
@@ -6903,7 +6903,7 @@ let calcBIS = function(completedOnly) {
                     validWearable = false;
                     return true;
                 }
-                if (baseChunkData['items'].hasOwnProperty(equip) && !!chunkInfo['equipment'][equip].requirements && Object.keys(chunkInfo['equipment'][equip].requirements).filter(skill => !primarySkill[skill] && (!passiveSkill || !passiveSkill.hasOwnProperty(skill) || passiveSkill[skill] < chunkInfo['equipment'][equip].requirements[skill])).length > 0) {
+                if (baseChunkData['items'].hasOwnProperty(equip) && !!chunkInfo['equipment'][equip].requirements && Object.keys(chunkInfo['equipment'][equip].requirements).filter(skill => (rules['Skiller'] && chunkInfo['equipment'][equip].requirements[skill] > 1) || (!primarySkill[skill] && chunkInfo['equipment'][equip].requirements[skill] > 1 && (!passiveSkill || !passiveSkill.hasOwnProperty(skill) || passiveSkill[skill] < chunkInfo['equipment'][equip].requirements[skill])) || (skill === 'Slayer' && !!slayerLocked && chunkInfo['equipment'][equip].requirements[skill] > slayerLocked['level']) || (!!maxSkill && maxSkill.hasOwnProperty(skill) && maxSkill[skill] < chunkInfo['equipment'][equip].requirements[skill])).length > 0) {
                     validWearable = false;
                     return true;
                 }
@@ -6955,7 +6955,7 @@ let calcBIS = function(completedOnly) {
                     validWearable = false;
                     return true;
                 }
-                if (baseChunkData['items'].hasOwnProperty(equip) && !!chunkInfo['equipment'][equip].requirements && Object.keys(chunkInfo['equipment'][equip].requirements).filter(skill => !primarySkill[skill] && (!passiveSkill || !passiveSkill.hasOwnProperty(skill) || passiveSkill[skill] < chunkInfo['equipment'][equip].requirements[skill])).length > 0) {
+                if (baseChunkData['items'].hasOwnProperty(equip) && !!chunkInfo['equipment'][equip].requirements && Object.keys(chunkInfo['equipment'][equip].requirements).filter(skill => (rules['Skiller'] && chunkInfo['equipment'][equip].requirements[skill] > 1) || (!primarySkill[skill] && chunkInfo['equipment'][equip].requirements[skill] > 1 && (!passiveSkill || !passiveSkill.hasOwnProperty(skill) || passiveSkill[skill] < chunkInfo['equipment'][equip].requirements[skill])) || (skill === 'Slayer' && !!slayerLocked && chunkInfo['equipment'][equip].requirements[skill] > slayerLocked['level']) || (!!maxSkill && maxSkill.hasOwnProperty(skill) && maxSkill[skill] < chunkInfo['equipment'][equip].requirements[skill])).length > 0) {
                     validWearable = false;
                     return true;
                 }
@@ -7029,7 +7029,7 @@ let calcBIS = function(completedOnly) {
                     validWearable = false;
                     return true;
                 }
-                if (baseChunkData['items'].hasOwnProperty(equip) && !!chunkInfo['equipment'][equip].requirements && Object.keys(chunkInfo['equipment'][equip].requirements).filter(skill => !primarySkill[skill] && (!passiveSkill || !passiveSkill.hasOwnProperty(skill) || passiveSkill[skill] < chunkInfo['equipment'][equip].requirements[skill])).length > 0) {
+                if (baseChunkData['items'].hasOwnProperty(equip) && !!chunkInfo['equipment'][equip].requirements && Object.keys(chunkInfo['equipment'][equip].requirements).filter(skill => (rules['Skiller'] && chunkInfo['equipment'][equip].requirements[skill] > 1) || (!primarySkill[skill] && chunkInfo['equipment'][equip].requirements[skill] > 1 && (!passiveSkill || !passiveSkill.hasOwnProperty(skill) || passiveSkill[skill] < chunkInfo['equipment'][equip].requirements[skill])) || (skill === 'Slayer' && !!slayerLocked && chunkInfo['equipment'][equip].requirements[skill] > slayerLocked['level']) || (!!maxSkill && maxSkill.hasOwnProperty(skill) && maxSkill[skill] < chunkInfo['equipment'][equip].requirements[skill])).length > 0) {
                     validWearable = false;
                     return true;
                 }
@@ -7103,7 +7103,7 @@ let calcBIS = function(completedOnly) {
                     validWearable = false;
                     return true;
                 }
-                if (baseChunkData['items'].hasOwnProperty(equip) && !!chunkInfo['equipment'][equip].requirements && Object.keys(chunkInfo['equipment'][equip].requirements).filter(skill => !primarySkill[skill] && (!passiveSkill || !passiveSkill.hasOwnProperty(skill) || passiveSkill[skill] < chunkInfo['equipment'][equip].requirements[skill])).length > 0) {
+                if (baseChunkData['items'].hasOwnProperty(equip) && !!chunkInfo['equipment'][equip].requirements && Object.keys(chunkInfo['equipment'][equip].requirements).filter(skill => (rules['Skiller'] && chunkInfo['equipment'][equip].requirements[skill] > 1) || (!primarySkill[skill] && chunkInfo['equipment'][equip].requirements[skill] > 1 && (!passiveSkill || !passiveSkill.hasOwnProperty(skill) || passiveSkill[skill] < chunkInfo['equipment'][equip].requirements[skill])) || (skill === 'Slayer' && !!slayerLocked && chunkInfo['equipment'][equip].requirements[skill] > slayerLocked['level']) || (!!maxSkill && maxSkill.hasOwnProperty(skill) && maxSkill[skill] < chunkInfo['equipment'][equip].requirements[skill])).length > 0) {
                     validWearable = false;
                     return true;
                 }
@@ -7183,7 +7183,7 @@ let calcBIS = function(completedOnly) {
                     validWearable = false;
                     return true;
                 }
-                if (baseChunkData['items'].hasOwnProperty(equip) && !!chunkInfo['equipment'][equip].requirements && Object.keys(chunkInfo['equipment'][equip].requirements).filter(skill => !primarySkill[skill] && (!passiveSkill || !passiveSkill.hasOwnProperty(skill) || passiveSkill[skill] < chunkInfo['equipment'][equip].requirements[skill])).length > 0) {
+                if (baseChunkData['items'].hasOwnProperty(equip) && !!chunkInfo['equipment'][equip].requirements && Object.keys(chunkInfo['equipment'][equip].requirements).filter(skill => (rules['Skiller'] && chunkInfo['equipment'][equip].requirements[skill] > 1) || (!primarySkill[skill] && chunkInfo['equipment'][equip].requirements[skill] > 1 && (!passiveSkill || !passiveSkill.hasOwnProperty(skill) || passiveSkill[skill] < chunkInfo['equipment'][equip].requirements[skill])) || (skill === 'Slayer' && !!slayerLocked && chunkInfo['equipment'][equip].requirements[skill] > slayerLocked['level']) || (!!maxSkill && maxSkill.hasOwnProperty(skill) && maxSkill[skill] < chunkInfo['equipment'][equip].requirements[skill])).length > 0) {
                     validWearable = false;
                     return true;
                 }
@@ -7235,7 +7235,7 @@ let calcBIS = function(completedOnly) {
                     validWearable = false;
                     return true;
                 }
-                if (baseChunkData['items'].hasOwnProperty(equip) && !!chunkInfo['equipment'][equip].requirements && Object.keys(chunkInfo['equipment'][equip].requirements).filter(skill => !primarySkill[skill] && (!passiveSkill || !passiveSkill.hasOwnProperty(skill) || passiveSkill[skill] < chunkInfo['equipment'][equip].requirements[skill])).length > 0) {
+                if (baseChunkData['items'].hasOwnProperty(equip) && !!chunkInfo['equipment'][equip].requirements && Object.keys(chunkInfo['equipment'][equip].requirements).filter(skill => (rules['Skiller'] && chunkInfo['equipment'][equip].requirements[skill] > 1) || (!primarySkill[skill] && chunkInfo['equipment'][equip].requirements[skill] > 1 && (!passiveSkill || !passiveSkill.hasOwnProperty(skill) || passiveSkill[skill] < chunkInfo['equipment'][equip].requirements[skill])) || (skill === 'Slayer' && !!slayerLocked && chunkInfo['equipment'][equip].requirements[skill] > slayerLocked['level']) || (!!maxSkill && maxSkill.hasOwnProperty(skill) && maxSkill[skill] < chunkInfo['equipment'][equip].requirements[skill])).length > 0) {
                     validWearable = false;
                     return true;
                 }
@@ -7287,7 +7287,7 @@ let calcBIS = function(completedOnly) {
                     validWearable = false;
                     return true;
                 }
-                if (baseChunkData['items'].hasOwnProperty(equip) && !!chunkInfo['equipment'][equip].requirements && Object.keys(chunkInfo['equipment'][equip].requirements).filter(skill => !primarySkill[skill] && (!passiveSkill || !passiveSkill.hasOwnProperty(skill) || passiveSkill[skill] < chunkInfo['equipment'][equip].requirements[skill])).length > 0) {
+                if (baseChunkData['items'].hasOwnProperty(equip) && !!chunkInfo['equipment'][equip].requirements && Object.keys(chunkInfo['equipment'][equip].requirements).filter(skill => (rules['Skiller'] && chunkInfo['equipment'][equip].requirements[skill] > 1) || (!primarySkill[skill] && chunkInfo['equipment'][equip].requirements[skill] > 1 && (!passiveSkill || !passiveSkill.hasOwnProperty(skill) || passiveSkill[skill] < chunkInfo['equipment'][equip].requirements[skill])) || (skill === 'Slayer' && !!slayerLocked && chunkInfo['equipment'][equip].requirements[skill] > slayerLocked['level']) || (!!maxSkill && maxSkill.hasOwnProperty(skill) && maxSkill[skill] < chunkInfo['equipment'][equip].requirements[skill])).length > 0) {
                     validWearable = false;
                     return true;
                 }
@@ -7361,7 +7361,7 @@ let calcBIS = function(completedOnly) {
                     validWearable = false;
                     return true;
                 }
-                if (baseChunkData['items'].hasOwnProperty(equip) && !!chunkInfo['equipment'][equip].requirements && Object.keys(chunkInfo['equipment'][equip].requirements).filter(skill => !primarySkill[skill] && (!passiveSkill || !passiveSkill.hasOwnProperty(skill) || passiveSkill[skill] < chunkInfo['equipment'][equip].requirements[skill])).length > 0) {
+                if (baseChunkData['items'].hasOwnProperty(equip) && !!chunkInfo['equipment'][equip].requirements && Object.keys(chunkInfo['equipment'][equip].requirements).filter(skill => (rules['Skiller'] && chunkInfo['equipment'][equip].requirements[skill] > 1) || (!primarySkill[skill] && chunkInfo['equipment'][equip].requirements[skill] > 1 && (!passiveSkill || !passiveSkill.hasOwnProperty(skill) || passiveSkill[skill] < chunkInfo['equipment'][equip].requirements[skill])) || (skill === 'Slayer' && !!slayerLocked && chunkInfo['equipment'][equip].requirements[skill] > slayerLocked['level']) || (!!maxSkill && maxSkill.hasOwnProperty(skill) && maxSkill[skill] < chunkInfo['equipment'][equip].requirements[skill])).length > 0) {
                     validWearable = false;
                     return true;
                 }
@@ -7435,7 +7435,7 @@ let calcBIS = function(completedOnly) {
                     validWearable = false;
                     return true;
                 }
-                if (baseChunkData['items'].hasOwnProperty(equip) && !!chunkInfo['equipment'][equip].requirements && Object.keys(chunkInfo['equipment'][equip].requirements).filter(skill => !primarySkill[skill] && (!passiveSkill || !passiveSkill.hasOwnProperty(skill) || passiveSkill[skill] < chunkInfo['equipment'][equip].requirements[skill])).length > 0) {
+                if (baseChunkData['items'].hasOwnProperty(equip) && !!chunkInfo['equipment'][equip].requirements && Object.keys(chunkInfo['equipment'][equip].requirements).filter(skill => (rules['Skiller'] && chunkInfo['equipment'][equip].requirements[skill] > 1) || (!primarySkill[skill] && chunkInfo['equipment'][equip].requirements[skill] > 1 && (!passiveSkill || !passiveSkill.hasOwnProperty(skill) || passiveSkill[skill] < chunkInfo['equipment'][equip].requirements[skill])) || (skill === 'Slayer' && !!slayerLocked && chunkInfo['equipment'][equip].requirements[skill] > slayerLocked['level']) || (!!maxSkill && maxSkill.hasOwnProperty(skill) && maxSkill[skill] < chunkInfo['equipment'][equip].requirements[skill])).length > 0) {
                     validWearable = false;
                     return true;
                 }
@@ -7515,7 +7515,7 @@ let calcBIS = function(completedOnly) {
                     validWearable = false;
                     return true;
                 }
-                if (baseChunkData['items'].hasOwnProperty(equip) && !!chunkInfo['equipment'][equip].requirements && Object.keys(chunkInfo['equipment'][equip].requirements).filter(skill => !primarySkill[skill] && (!passiveSkill || !passiveSkill.hasOwnProperty(skill) || passiveSkill[skill] < chunkInfo['equipment'][equip].requirements[skill])).length > 0) {
+                if (baseChunkData['items'].hasOwnProperty(equip) && !!chunkInfo['equipment'][equip].requirements && Object.keys(chunkInfo['equipment'][equip].requirements).filter(skill => (rules['Skiller'] && chunkInfo['equipment'][equip].requirements[skill] > 1) || (!primarySkill[skill] && chunkInfo['equipment'][equip].requirements[skill] > 1 && (!passiveSkill || !passiveSkill.hasOwnProperty(skill) || passiveSkill[skill] < chunkInfo['equipment'][equip].requirements[skill])) || (skill === 'Slayer' && !!slayerLocked && chunkInfo['equipment'][equip].requirements[skill] > slayerLocked['level']) || (!!maxSkill && maxSkill.hasOwnProperty(skill) && maxSkill[skill] < chunkInfo['equipment'][equip].requirements[skill])).length > 0) {
                     validWearable = false;
                     return true;
                 }
@@ -7589,7 +7589,7 @@ let calcBIS = function(completedOnly) {
                     validWearable = false;
                     return true;
                 }
-                if (baseChunkData['items'].hasOwnProperty(equip) && !!chunkInfo['equipment'][equip].requirements && Object.keys(chunkInfo['equipment'][equip].requirements).filter(skill => !primarySkill[skill] && (!passiveSkill || !passiveSkill.hasOwnProperty(skill) || passiveSkill[skill] < chunkInfo['equipment'][equip].requirements[skill])).length > 0) {
+                if (baseChunkData['items'].hasOwnProperty(equip) && !!chunkInfo['equipment'][equip].requirements && Object.keys(chunkInfo['equipment'][equip].requirements).filter(skill => (rules['Skiller'] && chunkInfo['equipment'][equip].requirements[skill] > 1) || (!primarySkill[skill] && chunkInfo['equipment'][equip].requirements[skill] > 1 && (!passiveSkill || !passiveSkill.hasOwnProperty(skill) || passiveSkill[skill] < chunkInfo['equipment'][equip].requirements[skill])) || (skill === 'Slayer' && !!slayerLocked && chunkInfo['equipment'][equip].requirements[skill] > slayerLocked['level']) || (!!maxSkill && maxSkill.hasOwnProperty(skill) && maxSkill[skill] < chunkInfo['equipment'][equip].requirements[skill])).length > 0) {
                     validWearable = false;
                     return true;
                 }
@@ -7663,7 +7663,7 @@ let calcBIS = function(completedOnly) {
                     validWearable = false;
                     return true;
                 }
-                if (baseChunkData['items'].hasOwnProperty(equip) && !!chunkInfo['equipment'][equip].requirements && Object.keys(chunkInfo['equipment'][equip].requirements).filter(skill => !primarySkill[skill] && (!passiveSkill || !passiveSkill.hasOwnProperty(skill) || passiveSkill[skill] < chunkInfo['equipment'][equip].requirements[skill])).length > 0) {
+                if (baseChunkData['items'].hasOwnProperty(equip) && !!chunkInfo['equipment'][equip].requirements && Object.keys(chunkInfo['equipment'][equip].requirements).filter(skill => (rules['Skiller'] && chunkInfo['equipment'][equip].requirements[skill] > 1) || (!primarySkill[skill] && chunkInfo['equipment'][equip].requirements[skill] > 1 && (!passiveSkill || !passiveSkill.hasOwnProperty(skill) || passiveSkill[skill] < chunkInfo['equipment'][equip].requirements[skill])) || (skill === 'Slayer' && !!slayerLocked && chunkInfo['equipment'][equip].requirements[skill] > slayerLocked['level']) || (!!maxSkill && maxSkill.hasOwnProperty(skill) && maxSkill[skill] < chunkInfo['equipment'][equip].requirements[skill])).length > 0) {
                     validWearable = false;
                     return true;
                 }
@@ -7743,7 +7743,7 @@ let calcBIS = function(completedOnly) {
                     validWearable = false;
                     return true;
                 }
-                if (baseChunkData['items'].hasOwnProperty(equip) && !!chunkInfo['equipment'][equip].requirements && Object.keys(chunkInfo['equipment'][equip].requirements).filter(skill => !primarySkill[skill] && (!passiveSkill || !passiveSkill.hasOwnProperty(skill) || passiveSkill[skill] < chunkInfo['equipment'][equip].requirements[skill])).length > 0) {
+                if (baseChunkData['items'].hasOwnProperty(equip) && !!chunkInfo['equipment'][equip].requirements && Object.keys(chunkInfo['equipment'][equip].requirements).filter(skill => (rules['Skiller'] && chunkInfo['equipment'][equip].requirements[skill] > 1) || (!primarySkill[skill] && chunkInfo['equipment'][equip].requirements[skill] > 1 && (!passiveSkill || !passiveSkill.hasOwnProperty(skill) || passiveSkill[skill] < chunkInfo['equipment'][equip].requirements[skill])) || (skill === 'Slayer' && !!slayerLocked && chunkInfo['equipment'][equip].requirements[skill] > slayerLocked['level']) || (!!maxSkill && maxSkill.hasOwnProperty(skill) && maxSkill[skill] < chunkInfo['equipment'][equip].requirements[skill])).length > 0) {
                     validWearable = false;
                     return true;
                 }
@@ -7817,7 +7817,7 @@ let calcBIS = function(completedOnly) {
                     validWearable = false;
                     return true;
                 }
-                if (baseChunkData['items'].hasOwnProperty(equip) && !!chunkInfo['equipment'][equip].requirements && Object.keys(chunkInfo['equipment'][equip].requirements).filter(skill => !primarySkill[skill] && (!passiveSkill || !passiveSkill.hasOwnProperty(skill) || passiveSkill[skill] < chunkInfo['equipment'][equip].requirements[skill])).length > 0) {
+                if (baseChunkData['items'].hasOwnProperty(equip) && !!chunkInfo['equipment'][equip].requirements && Object.keys(chunkInfo['equipment'][equip].requirements).filter(skill => (rules['Skiller'] && chunkInfo['equipment'][equip].requirements[skill] > 1) || (!primarySkill[skill] && chunkInfo['equipment'][equip].requirements[skill] > 1 && (!passiveSkill || !passiveSkill.hasOwnProperty(skill) || passiveSkill[skill] < chunkInfo['equipment'][equip].requirements[skill])) || (skill === 'Slayer' && !!slayerLocked && chunkInfo['equipment'][equip].requirements[skill] > slayerLocked['level']) || (!!maxSkill && maxSkill.hasOwnProperty(skill) && maxSkill[skill] < chunkInfo['equipment'][equip].requirements[skill])).length > 0) {
                     validWearable = false;
                     return true;
                 }
@@ -7897,7 +7897,7 @@ let calcBIS = function(completedOnly) {
                     validWearable = false;
                     return true;
                 }
-                if (baseChunkData['items'].hasOwnProperty(equip) && !!chunkInfo['equipment'][equip].requirements && Object.keys(chunkInfo['equipment'][equip].requirements).filter(skill => !primarySkill[skill] && (!passiveSkill || !passiveSkill.hasOwnProperty(skill) || passiveSkill[skill] < chunkInfo['equipment'][equip].requirements[skill])).length > 0) {
+                if (baseChunkData['items'].hasOwnProperty(equip) && !!chunkInfo['equipment'][equip].requirements && Object.keys(chunkInfo['equipment'][equip].requirements).filter(skill => (rules['Skiller'] && chunkInfo['equipment'][equip].requirements[skill] > 1) || (!primarySkill[skill] && chunkInfo['equipment'][equip].requirements[skill] > 1 && (!passiveSkill || !passiveSkill.hasOwnProperty(skill) || passiveSkill[skill] < chunkInfo['equipment'][equip].requirements[skill])) || (skill === 'Slayer' && !!slayerLocked && chunkInfo['equipment'][equip].requirements[skill] > slayerLocked['level']) || (!!maxSkill && maxSkill.hasOwnProperty(skill) && maxSkill[skill] < chunkInfo['equipment'][equip].requirements[skill])).length > 0) {
                     validWearable = false;
                     return true;
                 }
@@ -7971,7 +7971,7 @@ let calcBIS = function(completedOnly) {
                     validWearable = false;
                     return true;
                 }
-                if (baseChunkData['items'].hasOwnProperty(equip) && !!chunkInfo['equipment'][equip].requirements && Object.keys(chunkInfo['equipment'][equip].requirements).filter(skill => !primarySkill[skill] && (!passiveSkill || !passiveSkill.hasOwnProperty(skill) || passiveSkill[skill] < chunkInfo['equipment'][equip].requirements[skill])).length > 0) {
+                if (baseChunkData['items'].hasOwnProperty(equip) && !!chunkInfo['equipment'][equip].requirements && Object.keys(chunkInfo['equipment'][equip].requirements).filter(skill => (rules['Skiller'] && chunkInfo['equipment'][equip].requirements[skill] > 1) || (!primarySkill[skill] && chunkInfo['equipment'][equip].requirements[skill] > 1 && (!passiveSkill || !passiveSkill.hasOwnProperty(skill) || passiveSkill[skill] < chunkInfo['equipment'][equip].requirements[skill])) || (skill === 'Slayer' && !!slayerLocked && chunkInfo['equipment'][equip].requirements[skill] > slayerLocked['level']) || (!!maxSkill && maxSkill.hasOwnProperty(skill) && maxSkill[skill] < chunkInfo['equipment'][equip].requirements[skill])).length > 0) {
                     validWearable = false;
                     return true;
                 }
@@ -8051,7 +8051,7 @@ let calcBIS = function(completedOnly) {
                     validWearable = false;
                     return true;
                 }
-                if (baseChunkData['items'].hasOwnProperty(equip) && !!chunkInfo['equipment'][equip].requirements && Object.keys(chunkInfo['equipment'][equip].requirements).filter(skill => !primarySkill[skill] && (!passiveSkill || !passiveSkill.hasOwnProperty(skill) || passiveSkill[skill] < chunkInfo['equipment'][equip].requirements[skill])).length > 0) {
+                if (baseChunkData['items'].hasOwnProperty(equip) && !!chunkInfo['equipment'][equip].requirements && Object.keys(chunkInfo['equipment'][equip].requirements).filter(skill => (rules['Skiller'] && chunkInfo['equipment'][equip].requirements[skill] > 1) || (!primarySkill[skill] && chunkInfo['equipment'][equip].requirements[skill] > 1 && (!passiveSkill || !passiveSkill.hasOwnProperty(skill) || passiveSkill[skill] < chunkInfo['equipment'][equip].requirements[skill])) || (skill === 'Slayer' && !!slayerLocked && chunkInfo['equipment'][equip].requirements[skill] > slayerLocked['level']) || (!!maxSkill && maxSkill.hasOwnProperty(skill) && maxSkill[skill] < chunkInfo['equipment'][equip].requirements[skill])).length > 0) {
                     validWearable = false;
                     return true;
                 }
@@ -8125,7 +8125,7 @@ let calcBIS = function(completedOnly) {
                     validWearable = false;
                     return true;
                 }
-                if (baseChunkData['items'].hasOwnProperty(equip) && !!chunkInfo['equipment'][equip].requirements && Object.keys(chunkInfo['equipment'][equip].requirements).filter(skill => !primarySkill[skill] && (!passiveSkill || !passiveSkill.hasOwnProperty(skill) || passiveSkill[skill] < chunkInfo['equipment'][equip].requirements[skill])).length > 0) {
+                if (baseChunkData['items'].hasOwnProperty(equip) && !!chunkInfo['equipment'][equip].requirements && Object.keys(chunkInfo['equipment'][equip].requirements).filter(skill => (rules['Skiller'] && chunkInfo['equipment'][equip].requirements[skill] > 1) || (!primarySkill[skill] && chunkInfo['equipment'][equip].requirements[skill] > 1 && (!passiveSkill || !passiveSkill.hasOwnProperty(skill) || passiveSkill[skill] < chunkInfo['equipment'][equip].requirements[skill])) || (skill === 'Slayer' && !!slayerLocked && chunkInfo['equipment'][equip].requirements[skill] > slayerLocked['level']) || (!!maxSkill && maxSkill.hasOwnProperty(skill) && maxSkill[skill] < chunkInfo['equipment'][equip].requirements[skill])).length > 0) {
                     validWearable = false;
                     return true;
                 }
@@ -8205,7 +8205,7 @@ let calcBIS = function(completedOnly) {
                     validWearable = false;
                     return true;
                 }
-                if (baseChunkData['items'].hasOwnProperty(equip) && !!chunkInfo['equipment'][equip].requirements && Object.keys(chunkInfo['equipment'][equip].requirements).filter(skill => !primarySkill[skill] && (!passiveSkill || !passiveSkill.hasOwnProperty(skill) || passiveSkill[skill] < chunkInfo['equipment'][equip].requirements[skill])).length > 0) {
+                if (baseChunkData['items'].hasOwnProperty(equip) && !!chunkInfo['equipment'][equip].requirements && Object.keys(chunkInfo['equipment'][equip].requirements).filter(skill => (rules['Skiller'] && chunkInfo['equipment'][equip].requirements[skill] > 1) || (!primarySkill[skill] && chunkInfo['equipment'][equip].requirements[skill] > 1 && (!passiveSkill || !passiveSkill.hasOwnProperty(skill) || passiveSkill[skill] < chunkInfo['equipment'][equip].requirements[skill])) || (skill === 'Slayer' && !!slayerLocked && chunkInfo['equipment'][equip].requirements[skill] > slayerLocked['level']) || (!!maxSkill && maxSkill.hasOwnProperty(skill) && maxSkill[skill] < chunkInfo['equipment'][equip].requirements[skill])).length > 0) {
                     validWearable = false;
                     return true;
                 }
@@ -8279,7 +8279,7 @@ let calcBIS = function(completedOnly) {
                     validWearable = false;
                     return true;
                 }
-                if (baseChunkData['items'].hasOwnProperty(equip) && !!chunkInfo['equipment'][equip].requirements && Object.keys(chunkInfo['equipment'][equip].requirements).filter(skill => !primarySkill[skill] && (!passiveSkill || !passiveSkill.hasOwnProperty(skill) || passiveSkill[skill] < chunkInfo['equipment'][equip].requirements[skill])).length > 0) {
+                if (baseChunkData['items'].hasOwnProperty(equip) && !!chunkInfo['equipment'][equip].requirements && Object.keys(chunkInfo['equipment'][equip].requirements).filter(skill => (rules['Skiller'] && chunkInfo['equipment'][equip].requirements[skill] > 1) || (!primarySkill[skill] && chunkInfo['equipment'][equip].requirements[skill] > 1 && (!passiveSkill || !passiveSkill.hasOwnProperty(skill) || passiveSkill[skill] < chunkInfo['equipment'][equip].requirements[skill])) || (skill === 'Slayer' && !!slayerLocked && chunkInfo['equipment'][equip].requirements[skill] > slayerLocked['level']) || (!!maxSkill && maxSkill.hasOwnProperty(skill) && maxSkill[skill] < chunkInfo['equipment'][equip].requirements[skill])).length > 0) {
                     validWearable = false;
                     return true;
                 }
