@@ -119420,21 +119420,21 @@
 				"Items": ["Elder logs"],
 				"Output": "Elder plank"
 			},
-			"Easy Ardougne tasks Yoink! (Stall)*": {
+			"Easy Ardougne tasks ~|Yoink!|~ (Stall)*": {
 				"Description": "Attempt to steal from any stall in Ardougne Market.",
 				"Chunks": ["10547"],
 				"Skills": {
 					"Thieving": 5
 				}
 			},
-			"Easy Ardougne tasks Yoink! (Guard)*": {
+			"Easy Ardougne tasks ~|Yoink!|~ (Guard)*": {
 				"Description": "Attempt to pickpocket any guard in Ardougne.",
 				"Chunks": ["ArdougneGuardChunks[+]"],
 				"Skills": {
 					"Thieving": 40
 				}
 			},
-			"Hard Ardougne tasks A Taste of the Exotic (Papaya)*": {
+			"Hard Ardougne tasks ~|A Taste of the Exotic|~ (Papaya)*": {
 				"Description": "Pick a papaya fruit or coconut from the fruit tree patch near Tree Gnome Village.",
 				"Chunks": ["9777"],
 				"Items": ["Papaya seed"],
@@ -119442,7 +119442,7 @@
 					"Farming": 57
 				}
 			},
-			"Hard Ardougne tasks A Taste of the Exotic (Coconut)*": {
+			"Hard Ardougne tasks~|A Taste of the Exotic|~ (Coconut)*": {
 				"Description": "Pick a papaya fruit or coconut from the fruit tree patch near Tree Gnome Village.",
 				"Chunks": ["9777"],
 				"Items": ["Palm tree seed"],
@@ -119450,21 +119450,21 @@
 					"Farming": 68
 				}
 			},
-			"Easy Daemonheim tasks Setting Up (Smithing)*": {
+			"Easy Daemonheim tasks ~|Setting Up|~ (Smithing)*": {
 				"Description": "Make a full suit of tier 1 melee armour (helm, body, legs, boots, gloves).",
 				"Chunks": ["13626"],
 				"Skills": {
 					"Smithing": 7
 				}
 			},
-			"Easy Daemonheim tasks Setting Up (Crafting)*": {
+			"Easy Daemonheim tasks ~|Setting Up|~ (Crafting)*": {
 				"Description": "Make a full suit of tier 1 ranged or magic armour (helm, body, legs, boots, gloves).",
 				"Chunks": ["13626"],
 				"Skills": {
 					"Crafting": 8
 				}
 			},
-			"Easy Desert tasks More Fletcher than Sumona (Arrows)*": {
+			"Easy Desert tasks ~|More Fletcher than Sumona|~ (Arrows)*": {
 				"Description": "Fletch some broad arrows in Sumona's house.",
 				"Chunks": ["13358"],
 				"Items": ["Broad arrowheads", "Headless arrow"],
@@ -119472,7 +119472,7 @@
 					"Fletching": 52
 				}
 			},
-			"Easy Desert tasks More Fletcher than Sumona (Bolts)*": {
+			"Easy Desert tasks ~|More Fletcher than Sumona|~ (Bolts)*": {
 				"Description": "Fletch some broad bolts in Sumona's house.",
 				"Chunks": ["13358"],
 				"Items": ["Unfinished broad bolts", "Feather[+]"],
@@ -119480,7 +119480,7 @@
 					"Fletching": 55
 				}
 			},
-			"Hard Falador tasks It Spoiled My View (Yew)*": {
+			"Hard Falador tasks ~|It Spoiled My View|~ (Yew)*": {
 				"Description": "Cut down a yew tree that you grew in Falador Park.",
 				"Chunks": ["11828"],
 				"Items": ["Yew seed", "Plant pot", "WateringCan[+]"],
@@ -119489,7 +119489,7 @@
 					"Woodcutting": 60
 				}
 			},
-			"Hard Falador tasks It Spoiled My View (Magic)*": {
+			"Hard Falador tasks ~|It Spoiled My View|~ (Magic)*": {
 				"Description": "Cut down a magic tree that you grew in Falador Park.",
 				"Chunks": ["11828"],
 				"Items": ["Magic seed", "Plant pot", "WateringCan[+]"],
@@ -120570,7 +120570,7 @@
 				"Items": ["Crest of Dagon", "Ikovian gerege", "Necromantic focus", "Golem instruction", "'The Enlightened Soul' scroll", "'The Eudoxian Elements' tablet", "'Da Boss Man' sculpture"],
 				"NPCs": ["Wise Old Man"]
 			},
-			"Complete the archaeology collection 'Desperate for Artefacts'*":{
+			"Complete the archaeology collection ~|'Desperate for Artefacts'|~*":{
 				"Chunks": ["16709"],
 				"Items": ["Orthenglass"],
 				"Skills": {
