@@ -49758,13 +49758,90 @@
 			}
 		},
 		"Mining": {
-			"Mine a ~|crashed star|~": {
-				"Category": ["DnD Skilling"],
-				"Level": 1,
-				"Chunks": ["ShootingStar[+]"],
-				"Output": "CrashedStar",
+			"Mine a size 1 ~|crashed star|~": {
+				"Category": ["Shooting Stars"],
+				"Level": 10,
+				"Chunks": ["Crashed star"],
+				"Output": "Stardust",
 				"Primary": true,
-				"Priority": 18
+				"Priority": 40
+			},
+			"Mine a size 2 ~|crashed star|~": {
+				"Category": ["Shooting Stars"],
+				"Level": 20,
+				"Chunks": ["Crashed star"],
+				"Output": "Stardust",
+				"Primary": true,
+				"Priority": 40
+			},
+			"Mine a size 3 ~|crashed star|~": {
+				"Category": ["Shooting Stars"],
+				"Level": 30,
+				"Chunks": ["Crashed star"],
+				"Output": "Stardust",
+				"Primary": true,
+				"Priority": 40
+			},
+			"Mine a size 4 ~|crashed star|~": {
+				"Category": ["Shooting Stars"],
+				"Level": 40,
+				"Chunks": ["Crashed star"],
+				"Output": "Stardust",
+				"Primary": true,
+				"Priority": 40
+			},
+			"Mine a size 5 ~|crashed star|~": {
+				"Category": ["Shooting Stars"],
+				"Level": 50,
+				"Chunks": ["Crashed star"],
+				"Output": "Stardust",
+				"Primary": true,
+				"Priority": 40
+			},
+			"Mine a size 6 ~|crashed star|~": {
+				"Category": ["Shooting Stars"],
+				"Level": 60,
+				"Chunks": ["Crashed star"],
+				"Output": "Stardust",
+				"Primary": true,
+				"Priority": 40,
+				"Not F2P": true
+			},
+			"Mine a size 7 ~|crashed star|~": {
+				"Category": ["Shooting Stars"],
+				"Level": 70,
+				"Chunks": ["Crashed star"],
+				"Output": "Stardust",
+				"Primary": true,
+				"Priority": 40,
+				"Not F2P": true
+			},
+			"Mine a size 8 ~|crashed star|~": {
+				"Category": ["Shooting Stars"],
+				"Level": 80,
+				"Chunks": ["Crashed star"],
+				"Output": "Stardust",
+				"Primary": true,
+				"Priority": 40,
+				"Not F2P": true
+			},
+			"Mine a size 9 ~|crashed star|~": {
+				"Category": ["Shooting Stars"],
+				"Level": 90,
+				"Chunks": ["Crashed star"],
+				"Output": "Stardust",
+				"Primary": true,
+				"Priority": 40,
+				"Not F2P": true
+			},
+			"Mine a size 10 ~|crashed star|~": {
+				"Category": ["Shooting Stars"],
+				"Level": 100,
+				"Chunks": ["Crashed star"],
+				"Output": "Stardust",
+				"Primary": true,
+				"Priority": 40,
+				"Not F2P": true
 			},
 			"Mine with an ~|inferno Adze|~": {
 				"Items": ["Inferno Adze|~"],
@@ -62334,7 +62411,8 @@
 					"Argonite rock", 
 					"Katagon rock", 
 					"Gorgonite rock", 
-					"Promethium rock"
+					"Promethium rock",
+					"Crashed star"
 				],
 				"Level": 100,
 				"Tasks": {
@@ -62343,7 +62421,7 @@
 				"Skills": {
 					"Necromancy": 90
 				},
-				"Chunks": ["Camdozaal", "ShootingStar[+]", "14894", "City of Um"],
+				"Chunks": ["Camdozaal", "14894", "City of Um"],
 				"Output": "Pickaxe of Life and Death",
 				"Primary": true,
 				"Priority": 6
@@ -147641,7 +147719,8 @@
 				"Kipple": 1,
 				"Wizard Myrtle": 1,
 				"Vannaka": 1,
-				"Wizard Rinsit": 1
+				"Wizard Rinsit": 1,
+				"Wizard Rosalina": 1
 			},
 			"Monster": {
 				"Lesser demon (Wizards' Tower)": 1,
@@ -147663,7 +147742,8 @@
 			},
 			"Shop": {
 				"Wizard Finix's Runecrafting Shop": true,
-				"Wizard Rinsit's Runecrafting Shop": true
+				"Wizard Rinsit's Runecrafting Shop": true,
+				"Shooting Star Reward Shop": true
 			},
 			"Quest": {
 				"Azzanadra's Quest": "step",
@@ -177110,7 +177190,6 @@
 			"SeaweedChunks[+]": ["11313", "11056", "11055", "11054", "11822", "11310", "11823", "11568"],
 			"SeerChunk[+]": ["10806", "11062"],
 			"SenntistenChunks[+]": ["13364", "13365"],
-			"ShootingStar[+]": ["13105", "13107", "13363", "11571", "11826", "12084", "11572", "11314", "10809", "9531", "8509", "10044", "10553", "10290", "10803", "10294", "10288", "10545", "10802", "10801", "11311", "11310", "13873", "13100", "13613", "12589", "12849", "13108", "12596", "12853", "9781", "9265", "9272", "13874", "13878", "14638", "12343", "12088", "12601", "12091", "12092", "12093", "12349"],
 			"SlayerMasterChunks[+]": ["8755", "Ancient Cavern", "11310", "12342", "11575", "13111", "13878", "Zanaris", "12093", "12850", "16704"],
 			"SolusLocation[+]": ["11569", "10032", "10547", "12596", "Dorgesh-Kaan mine", "9782", "13623", "11057", "13106", "10553", "Lumbridge Swamp caves", "11830", "10550", "9776", "12338", "9778", "12337"],
 			"SophSlayUnlock[+]": ["13097", "13098"],
@@ -177217,7 +177296,6 @@
 			"SeaweedChunks[+]": "Any chunk on Karamja with seaweed",
 			"SenntistenChunks[+]": "Any chunk that the Dig Site pendant can teleport to",
 			"SeerChunk[+]": "Any chunk in which you can complete twisted firestarter",
-			"ShootingStar[+]": "Any chunk where a shooting star can crash down",
 			"SlayerMasterChunks[+]": "Any chunk with a slayer master in it",
 			"SophSlayUnlock[+]": "Any chunks that give permanent access to the Sophanem Slayer dungeon",
 			"SolusLocation[+]": "Any location Solus Dellagar might show up",
@@ -178983,9 +179061,14 @@
 			"Stealing Creation Reward Shop": true,
 			"Cabbage Facepunch Bonanza Rewards": true,
 			"Reward Shop (Soul Wars)": true,
+<<<<<<< Updated upstream
 			"Shattered Worlds Reward Shop":true,
 			"Artisans' Workshop Reward Shop": true,
 			"The Effigy Incubator Reward Shop": true
+=======
+			"Shattered Worlds Reward Shop": true,
+			"Shooting Star Reward Shop": true
+>>>>>>> Stashed changes
 		},
 		"boostItems": {
 			"Agility": {
@@ -195487,8 +195570,8 @@
 			"Black full helm": {
 				"1": "Uncommon"
 			},
-			"Tiny plated steel salvage": {
-				"1": "Rare"
+			"Oak wood spirit": {
+				"1": "Unknown"
 			},
 			"Starved ancient effigy": {
 				"1": "Varies"
@@ -211557,14 +211640,14 @@
 			"Bones": {
 				"1": "Always"
 			},
-			"Small plated bronze salvage": {
-				"1": "10/128"
+			"Wood spirit": {
+				"1-2": "8/101"
 			},
 			"Tiny plated iron salvage": {
 				"1": "1/128"
 			},
-			"Tiny spiky bronze salvage": {
-				"1": "14/128"
+			"Oak wood spirit": {
+				"1-2": "11/101"
 			},
 			"Iron arrow": {
 				"5-20": "7/128"
@@ -231779,8 +231862,8 @@
 			"Coral bolts": {
 				"20": "Common"
 			},
-			"Bronze javelin": {
-				"5": "Uncommon"
+			"Wood spirit": {
+				"1": "2/128"
 			},
 			"Medium spiky bronze salvage": {
 				"1": "Common"
@@ -239718,6 +239801,17 @@
 			"Necronium shield": true,
 			"Bane shield": true,
 			"Elder rune shield": true
+		},
+		"Shooting Star Reward Shop": {
+			"Portable telescope": true,
+			"Stargazer (title)": true,
+			"Star sprite (pet)": true,
+			"Mining boost": true,
+			"Shooting Star teleport token": true,
+			"Bundle of gems": true,
+			"Cosmic rune": true,
+			"Astral rune": true,
+			"Gold stone spirit": true
 		},
 		"Shop of Distaste": {
 			"Rotten tomato": true
@@ -247715,11 +247809,6 @@
 				"Magic golem gloves": "Always",
 				"Magic golem boots": "Always"
 			},
-			"CrashedStar": {
-				"Astral rune": "Always", 
-				"Cosmic rune": "Always", 
-				"Gold stone spirit": "Always"
-			},
 			"Lava Flow Mine rewards": {
 				"Golden mining suit boots": "Always",
 				"Golden mining suit gloves": "Always",
@@ -249438,8 +249527,8 @@
 				}
 			},
 			"Banshee": {
-				"Small spiky bronze salvage": {
-					"1": "3/128"
+				"Oak wood spirit": {
+					"1-2": "6/128"
 				},
 				"Staff of air": {
 					"1": "4/128"
@@ -261381,7 +261470,7 @@
 				"Tiny Spiky bronze salvage": {
 					"1": "Common"
 				},
-				"Small spiky bronze salvage": {
+				"Wood spirit": {
 					"1": "Common"
 				},
 				"Tiny bladed iron salvage": {
@@ -261408,7 +261497,7 @@
 				"Tiny bladed steel salvage": {
 					"1": "Uncommon"
 				},
-				"Tiny spiky steel salvage": {
+				"Oak wood spirit": {
 					"1": "Uncommon"
 				},
 				"Small spiky steel salvage": {
