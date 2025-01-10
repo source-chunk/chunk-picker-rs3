@@ -115971,7 +115971,7 @@
 				"Not F2P": true
 			},
 			"(Champion Scrolls) Obtain the ~|goblin champion's scroll|~": {
-				"CategoryChampion Scrolls": ["Untracked Uniques", "Untracked Uniques Combat"],
+				"Category": ["Untracked Uniques", "Untracked Uniques Combat"],
 				"Label": "Untracked Combat Uniques",
 				"Chunks": ["Champions' Arena"],
 				"Items": ["Goblin Champion's scroll"],
@@ -177440,7 +177440,7 @@
 			"SlayerPointMasters[+]": "Any slayer master that may award you Slayer Points"
 		},
 		"tasksPlus": {
-			"A Taste of the Exotic[+]": ["Hard Ardougne tasks A Taste of the Exotic (Coconut)*", "Hard Ardougne tasks A Taste of the Exotic (Papaya)*"],
+			"A Taste of the Exotic[+]": ["Hard Ardougne tasks ~|A Taste of the Exotic|~ (Coconut)*", "Hard Ardougne tasks ~|A Taste of the Exotic|~ (Papaya)*"],
 			"AirAccess[+]": ["Access the air rune temple with a talisman*", "Access the air rune temple through the abyss*"],
 			"AnyCollection[+]": [
 				"Complete the archaeology collection 'Anarchic Abstraction'", 
@@ -177580,7 +177580,7 @@
 			"FireAccess[+]": ["Access the fire rune temple with a talisman*", "Access the fire rune temple through the abyss*"],
 			"HazeelCultFinal[+]": ["~|Hazeel Cult|~ 3a", "~|Hazeel Cult|~ 6b"],
 			"HeroesQuestCandlestick[+]": ["~|Heroes' Quest|~ 2c1d", "~|Heroes' Quest|~ 2c2d"],
-			"It Spoiled My View[+]": ["Hard Falador tasks It Spoiled My View (Yew)*", "Hard Falador tasks It Spoiled My View (Magic)*"],
+			"It Spoiled My View[+]": ["Hard Falador tasks ~|It Spoiled My View|~ (Yew)*", "Hard Falador tasks ~|It Spoiled My View|~ (Magic)*"],
 			"KiliRowSoulUrnStep[+]": ["~|Kili Row|~ 3a", "~|Kili Row|~ 3b"],
 			"Kili'sKnowledgeV[+]": ["Complete ~|Kili's Knowledge V|~", "Complete ~|Kili's Knowledge V (power)|~"],
 			"Kili'sKnowledgeVI[+]": ["Complete ~|Kili's Knowledge VI|~", "Complete ~|Kili's Knowledge VI (power)|~"],
@@ -177693,11 +177693,11 @@
 			],
 			"MindAccess[+]": ["Access the mind rune temple with a talisman*", "Access the mind rune temple through the abyss*"],
 			"MissingMyMummyPartial[+]": ["~|Missing My Mummy|~ 5b", "~|Missing My Mummy|~ 5c", "~|Missing My Mummy|~ 5d1", "~|Missing My Mummy|~ 5d2", "~|Missing My Mummy|~ 5d3", "~|Missing My Mummy|~ 5e1", "~|Missing My Mummy|~ 5e2", "~|Missing My Mummy|~ 5e3", "~|Missing My Mummy|~ 5e4", "~|Missing My Mummy|~ 5f3a", "~|Missing My Mummy|~ 5f4b2", "~|Missing My Mummy|~ 5g3"],
-			"More Fletcher than Sumona[+]": ["Easy Desert tasks More Fletcher than Sumona (Arrows)*", "Easy Desert tasks More Fletcher than Sumona (Bolts)*"],
+			"More Fletcher than Sumona[+]": ["Easy Desert tasks ~|More Fletcher than Sumona|~ (Arrows)*", "Easy Desert tasks ~|More Fletcher than Sumona|~ (Bolts)*"],
 			"NatureAccess[+]": ["Access the nature rune temple with a talisman*", "Access the nature rune temple through the abyss*"],
 			"RecipeSub[+]": ["~|Recipe for Disaster: Freeing the Mountain Dwarf|~ Complete the subquest", "~|Recipe for Disaster: Freeing the Goblin Generals|~ Complete the subquest", "~|Recipe for Disaster: Freeing Pirate Pete|~ Complete the subquest", "~|Recipe for Disaster: Freeing the Lumbridge Sage|~ Complete the subquest", "~|Recipe for Disaster: Freeing Evil Dave|~ Complete the subquest", "~|Recipe for Disaster: Freeing King Awowogei|~ Complete the subquest", "~|Recipe for Disaster: Freeing Sir Amik Varze|~ Complete the subquest", "~|Recipe for Disaster: Freeing Skrach Uglogwee|~ Complete the subquest"],
 			"RuneMechanics3a1[+]": ["~|Rune Mechanics|~ 3a1a", "~|Rune Mechanics|~ 3a1b"],
-			"Setting Up[+]": ["Easy Daemonheim tasks Setting Up (Crafting)*", "Easy Daemonheim tasks Setting Up (Smithing)*"],
+			"Setting Up[+]": ["Easy Daemonheim tasks ~|Setting Up|~ (Crafting)*", "Easy Daemonheim tasks ~|Setting Up|~ (Smithing)*"],
 			"SoulUrnI[+]": ["Fill the Soul Urn using lesser communion rituals", "Fill the Soul Urn for Kili's Knowledge I (combat)"],
 			"SoulUrnII[+]": ["Fill the Soul Urn using lesser communion rituals", "Fill the Soul Urn for Kili's Knowledge II (combat)"],
 			"SoulUrnIII[+]": ["Fill the Soul Urn using lesser communion rituals", "Fill the Soul Urn for Kili's Knowledge III (combat)"],
@@ -177708,7 +177708,7 @@
 			"TzHaarUnlock[+]": ["TzHaarcityunlockZan", "TzHaarcityunlockvol"],
 			"VarrockSewerAccess[+]": ["Access the Varrock sewers through the Varrock manhole*", "Access the Varrock sewer through the Edgeville dungeon*"],
 			"WaterAccess[+]": ["Access the water rune temple with a talisman*", "Access the water rune temple through the abyss*"],
-			"Yoink![+]": ["Easy Ardougne tasks Yoink! (Guard)*", "Easy Ardougne tasks Yoink! (Stall)*"],
+			"Yoink![+]": ["Easy Ardougne tasks ~|Yoink!|~ (Guard)*", "Easy Ardougne tasks ~|Yoink!|~ (Stall)*"],
 			"DominionTowerQuests[+]": [
 				"~|A Void Dance|~ Complete the quest",
 				"~|Between a Rock...|~ Complete the quest",			
