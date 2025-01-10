@@ -179061,19 +179061,11 @@
 			"Stealing Creation Reward Shop": true,
 			"Cabbage Facepunch Bonanza Rewards": true,
 			"Reward Shop (Soul Wars)": true,
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
 			"Shattered Worlds Reward Shop":true,
 			"Artisans' Workshop Reward Shop": true,
 			"The Effigy Incubator Reward Shop": true
-=======
 			"Shattered Worlds Reward Shop": true,
 			"Shooting Star Reward Shop": true
->>>>>>> Stashed changes
-=======
-			"Shattered Worlds Reward Shop": true,
-			"Shooting Star Reward Shop": true
->>>>>>> Stashed changes
 		},
 		"boostItems": {
 			"Agility": {
