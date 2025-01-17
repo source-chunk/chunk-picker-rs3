@@ -99687,7 +99687,7 @@
 			"Archaeology Mystery: ~|Night Theatre|~ 1": {
 				"BaseQuest": "Night Theatre",
 				"Description": "Gather all the critic's review articles",
-				"Items": ["A critic's reveiw (aricle 1)", "A critic's reveiw (aricle 2)", "A critic's reveiw (aricle 3)", "A critic's reveiw (aricle 4)", "A critic's reveiw (aricle 5)"],
+				"Items": ["A critic's review (aricle 1)", "A critic's review (aricle 2)", "A critic's review (aricle 3)", "A critic's review (aricle 4)", "A critic's review (aricle 5)"],
 				"Tasks": {
 					"Complete the ~|Archaeology tutorial|~": "Archaeology"
 				},
