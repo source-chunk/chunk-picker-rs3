@@ -28031,11 +28031,11 @@
 				"Priority": 1
 			},
 			"Create a ~|divine oak tree|~": {
-				"Items": ["Bright energy*", "Oak logs*"],
-				"Level": 21,
+				"Items": ["Flickering energy*", "Oak logs*"],
+				"Level": 13,
 				"Output": "Divine oak tree",
 				"Primary": false,
-				"Priority": 1
+				"Priority": 3
 			},
 			"Transmute a broken memento to a ~|fragile memento|~": {
 				"Items": ["Bright energy*", "Broken memento*"],
@@ -28045,8 +28045,8 @@
 				"Priority": 2
 			},
 			"Create a ~|divine willow tree|~": {
-				"Items": ["Glowing energy*", "Willow logs*"],
-				"Level": 31,
+				"Items": ["Bright energy*", "Willow logs*"],
+				"Level": 21,
 				"Output": "Divine willow tree",
 				"Primary": false,
 				"Priority": 1
@@ -28059,11 +28059,11 @@
 				"Priority": 1
 			},
 			"Create a ~|divine yew tree|~": {
-				"Items": ["Vibrant energy*", "Yew logs*"],
-				"Level": 62,
+				"Items": ["Lustrous energy*", "Yew logs*"],
+				"Level": 71,
 				"Output": "Divine yew tree",
 				"Primary": false,
-				"Priority": 1
+				"Priority": 3
 			},
 			"Create a ~|divine magic tree|~": {
 				"Items": ["Brilliant energy*", "Magic logs*"],
@@ -49761,7 +49761,7 @@
 			"Mine a size 1 ~|crashed star|~": {
 				"Category": ["Shooting Stars"],
 				"Level": 10,
-				"Chunks": ["Crashed star"],
+				"Objects": ["Crashed star"],
 				"Output": "Stardust",
 				"Primary": true,
 				"Priority": 40
@@ -49769,7 +49769,7 @@
 			"Mine a size 2 ~|crashed star|~": {
 				"Category": ["Shooting Stars"],
 				"Level": 20,
-				"Chunks": ["Crashed star"],
+				"Objects": ["Crashed star"],
 				"Output": "Stardust",
 				"Primary": true,
 				"Priority": 40
@@ -49777,7 +49777,7 @@
 			"Mine a size 3 ~|crashed star|~": {
 				"Category": ["Shooting Stars"],
 				"Level": 30,
-				"Chunks": ["Crashed star"],
+				"Objects": ["Crashed star"],
 				"Output": "Stardust",
 				"Primary": true,
 				"Priority": 40
@@ -49785,7 +49785,7 @@
 			"Mine a size 4 ~|crashed star|~": {
 				"Category": ["Shooting Stars"],
 				"Level": 40,
-				"Chunks": ["Crashed star"],
+				"Objects": ["Crashed star"],
 				"Output": "Stardust",
 				"Primary": true,
 				"Priority": 40
@@ -49793,7 +49793,7 @@
 			"Mine a size 5 ~|crashed star|~": {
 				"Category": ["Shooting Stars"],
 				"Level": 50,
-				"Chunks": ["Crashed star"],
+				"Objects": ["Crashed star"],
 				"Output": "Stardust",
 				"Primary": true,
 				"Priority": 40
@@ -49801,7 +49801,7 @@
 			"Mine a size 6 ~|crashed star|~": {
 				"Category": ["Shooting Stars"],
 				"Level": 60,
-				"Chunks": ["Crashed star"],
+				"Objects": ["Crashed star"],
 				"Output": "Stardust",
 				"Primary": true,
 				"Priority": 40,
@@ -49810,7 +49810,7 @@
 			"Mine a size 7 ~|crashed star|~": {
 				"Category": ["Shooting Stars"],
 				"Level": 70,
-				"Chunks": ["Crashed star"],
+				"Objects": ["Crashed star"],
 				"Output": "Stardust",
 				"Primary": true,
 				"Priority": 40,
@@ -49819,7 +49819,7 @@
 			"Mine a size 8 ~|crashed star|~": {
 				"Category": ["Shooting Stars"],
 				"Level": 80,
-				"Chunks": ["Crashed star"],
+				"Objects": ["Crashed star"],
 				"Output": "Stardust",
 				"Primary": true,
 				"Priority": 40,
@@ -49828,7 +49828,7 @@
 			"Mine a size 9 ~|crashed star|~": {
 				"Category": ["Shooting Stars"],
 				"Level": 90,
-				"Chunks": ["Crashed star"],
+				"Objects": ["Crashed star"],
 				"Output": "Stardust",
 				"Primary": true,
 				"Priority": 40,
@@ -49837,7 +49837,7 @@
 			"Mine a size 10 ~|crashed star|~": {
 				"Category": ["Shooting Stars"],
 				"Level": 100,
-				"Chunks": ["Crashed star"],
+				"Objects": ["Crashed star"],
 				"Output": "Stardust",
 				"Primary": true,
 				"Priority": 40,
@@ -67448,7 +67448,8 @@
 				"Objects": ["Eternal magic tree"],
 				"Primary": true,
 				"Output": "Perfect eternal magic branch",
-				"Priority": 1
+				"Priority": 1,
+				"NoBoost": true
 			},
 			"Create the ~|nature's sentinel outfit|~": {
 				"Objects": ["Inventor's workbench"],
@@ -131862,6 +131863,9 @@
 				"Red wisp": 1,
 				"Yellow wisp": 1
 			},
+			"Object": {
+				"Crashed star": 1
+			},
 			"Nickname": "South-West Lost Grove"
 		},
 		"7473": {
@@ -132146,6 +132150,9 @@
 				"Red wisp": 1,
 				"Yellow wisp": 1
 			},
+			"Object": {
+				"Crashed star": 1
+			},
 			"Nickname": "North Lost Grove"
 		},
 		"7745": {
@@ -132392,6 +132399,9 @@
 			},
 			"NPC": {
 				"Firefly": 6
+			},
+			"Object": {
+				"Crashed star": 1
 			},
 			"Nickname": "South-East Lost Grove"
 		},
@@ -133364,7 +133374,8 @@
 				"Barrel": 6,
 				"Trade wagon": 1,
 				"Log pile": 1,
-				"Crate": 1
+				"Crate": 1,
+				"Crashed star": 1
 			},
 			"Monster": {
 				"Suqah": 14
@@ -133752,7 +133763,8 @@
 		"8751": {
 			"Object": {
 				"Tree": 29,
-				"Standstone": 1
+				"Standstone": 1,
+				"Crashed star": 1
 			},
 			"NPC": {
 				"Tarddiad Firefly": 5
@@ -134739,7 +134751,8 @@
 		"9016": {
 			"Object": {
 				"Dead tree": 22,
-				"Evergreen": 4
+				"Evergreen": 4,
+				"Crashed star": 1
 			},
 			"NPC": {
 				"Brian Twitcher": 1
@@ -135161,7 +135174,8 @@
 				"Spinning wheel": 1,
 				"Water barrel": 1,
 				"Cooking range": 2,
-				"Fruit tree patch": 1
+				"Fruit tree patch": 1,
+				"Crashed star": 1
 			},
 			"NPC": {
 				"Sheep": 3,
@@ -135359,7 +135373,8 @@
 				"Iron rock": 6,
 				"Elder tree": 1,
 				"Obelisk": 1,
-				"Eternal magic tree": 5
+				"Eternal magic tree": 5,
+				"Crashed star": 1
 			},
 			"NPC": {
 				"Kathy Corkat": 1,
@@ -136133,7 +136148,8 @@
 				"Anvil": 2,
 				"Forge": 2,
 				"Fishing spot (cage, harpoon)": 5,
-				"Fishing spot (big fishing net, harpoon)": 5
+				"Fishing spot (big fishing net, harpoon)": 5,
+				"Crashed star": 1
 			},
 			"NPC": {
 				"King Gjuki Sorvott IV": 1,
@@ -136681,7 +136697,8 @@
 			"Object": {
 				"Villager": 2,
 				"Fire": 1,
-				"Fishing spot (minnow)": 1
+				"Fishing spot (minnow)": 1,
+				"Crashed star": 1
 			},
 			"NPC": {
 				"Hendrik": 1,
@@ -136724,7 +136741,8 @@
 				"Jungle Tree": 13,
 				"Fishing spot (small fishing net, bait)": 3,
 				"Fishing spot (cage, harpoon)": 2,
-				"Fishing spot (big fishing net, harpoon)": 2
+				"Fishing spot (big fishing net, harpoon)": 2,
+				"Crashed star": 1
 			},
 			"Monster": {
 				"Giant spider": 13,
@@ -136999,7 +137017,8 @@
 				"Nyriki's crate": 1,
 				"Water barrel": 1,
 				"Tree patch": 1,
-				"Fruit tree patch": 1
+				"Fruit tree patch": 1,
+				"Crashed star": 1
 			},
 			"Monster": {
 				"Gnome": 3,
@@ -137649,6 +137668,9 @@
 				"Villager": 1,
 				"Sir Owen": 1
 			},
+			"Object": {
+				"Crashed star": 1
+			},
 			"Nickname": "Ashdale Chapel"
 		},
 		"10026": {
@@ -138287,7 +138309,8 @@
 				"Water barrel": 1,
 				"Coal rock": 6,
 				"Anvil": 1,
-				"Forge": 1
+				"Forge": 1,
+				"Crashed star": 1
 			},
 			"Monster": {
 				"Penguin": 8,
@@ -138936,7 +138959,8 @@
 				"Forge": 2,
 				"Ivy": 6,
 				"Hops patch": 1,
-				"Evil tree": 1
+				"Evil tree": 1,
+				"Crashed star": 1
 			},
 			"Monster": {
 				"Man": 2,
@@ -139045,7 +139069,8 @@
 				"Tree": 64,
 				"Crate": 2,
 				"Silver rock": 4,
-				"Bush patch": 1
+				"Bush patch": 1,
+				"Crashed star": 1
 			},
 			"NPC": {
 				"Brother Kojo": 1,
@@ -139312,7 +139337,8 @@
 				"Oak": 7,
 				"Tree": 24,
 				"Dead tree": 24,
-				"Coal rock": 13
+				"Coal rock": 13,
+				"Crashed star": 1
 			},
 			"Monster": {
 				"Rat": 3,
@@ -140014,7 +140040,8 @@
 				"Dead tree": 20,
 				"Runite rock": 8,
 				"Anvil": 3,
-				"Forge": 2
+				"Forge": 2,
+				"Crashed star": 1
 			},
 			"NPC": {
 				"Murphy": 1,
@@ -140434,7 +140461,8 @@
 				"Mithril rock": 5,
 				"Fishing spot (small fishing net, bait)": 4,
 				"Fishing spot (cage, harpoon)": 4,
-				"Fishing spot (big fishing net, harpoon)": 3
+				"Fishing spot (big fishing net, harpoon)": 3,
+				"Crashed star": 1
 			},
 			"Monster": {
 				"Chicken": 4,
@@ -141021,7 +141049,8 @@
 			"Object": {
 				"Fire": 4,
 				"Crystal tree": 1,
-				"Evil tree": 1
+				"Evil tree": 1,
+				"Crashed star": 1
 			},
 			"Monster": {
 				"Snake": 5,
@@ -141044,7 +141073,8 @@
 			"Object": {
 				"Ropeswing": 2,
 				"Obelisk": 1,
-				"Gold rock": 5
+				"Gold rock": 5,
+				"Crashed star": 1
 			},
 			"Monster": {
 				"Poison Scorpion": 7,
@@ -141123,7 +141153,8 @@
 				"Dead tree": 16,
 				"Coal rock": 4,
 				"Mithril rock": 4,
-				"Evil tree": 1
+				"Evil tree": 1,
+				"Crashed star": 1
 			},
 			"Monster": {
 				"Grizzly bear": 18
@@ -141403,7 +141434,8 @@
 				"Oak": 10,
 				"Tree": 27,
 				"Dead tree": 29,
-				"Iron rock": 5
+				"Iron rock": 5,
+				"Crashed star": 1
 			},
 			"Monster": {
 				"Black unicorn": 2,
@@ -142425,7 +142457,8 @@
 				"Bank deposit box": 1,
 				"Beehive": 8,
 				"Vegetable stall": 2,
-				"Evil tree": 1
+				"Evil tree": 1,
+				"Crashed star": 1
 			},
 			"Monster": {
 				"Man": 2,
@@ -143170,7 +143203,8 @@
 				"Tunnel": 1,
 				"Precious gem rock": 3,
 				"Furnace": 1,
-				"Fishing spot (lure, bait))": 3
+				"Fishing spot (lure, bait)": 3,
+				"Crashed star": 1
 			},
 			"NPC": {
 				"Theho Rses": 1,
@@ -143216,7 +143250,8 @@
 				"Small obelisk": 1,
 				"Tunnel": 1,
 				"Drakolith rock": 7,
-				"Evil tree": 1
+				"Evil tree": 1,
+				"Crashed star": 1
 			},
 			"Monster": {
 				"Jungle spider": 3,
@@ -143311,7 +143346,8 @@
 		"11314": {
 			"Object": {
 				"Hole": 1,
-				"Runite rock": 5
+				"Runite rock": 5,
+				"Crashed star": 1
 			},
 			"Monster": {
 				"Skeleton": 9,
@@ -144520,7 +144556,8 @@
 				"Clay rock": 3,
 				"Silver rock": 3,
 				"Gold rock": 3,
-				"Furnace": 1
+				"Furnace": 1,
+				"Crashed star": 1
 			},
 			"Monster": {
 				"Cow": 10,
@@ -144579,7 +144616,8 @@
 				"Coal rock": 3,
 				"Silver rock": 2,
 				"Crystal tree": 1,
-				"Evil tree": 1
+				"Evil tree": 1,
+				"Crashed star": 1
 			},
 			"NPC": {
 				"Nora T. Hagg": 1,
@@ -144633,7 +144671,8 @@
 				"Hopper controls": 1,
 				"Water barrel": 1,
 				"Stepping stone": 2,
-				"Ivy": 5
+				"Ivy": 5,
+				"Crashed star": 1
 			},
 			"NPC": {
 				"The Lady of the Lake": 1,
@@ -144727,7 +144766,8 @@
 				"Forge": 1,
 				"Fishing spot (crayfish)": 4,
 				"Potato patch": 1,
-				"Tree patch": 1
+				"Tree patch": 1,
+				"Crashed star": 1
 			},
 			"NPC": {
 				"Austri": 1,
@@ -145713,7 +145753,8 @@
 				"Copper rock": 3,
 				"Tin rock": 2,
 				"Adamantite rock": 4,
-				"Gold rock": 3
+				"Gold rock": 3,
+				"Crashed star": 1
 			},
 			"NPC": {
 				"Butterfly": 5,
@@ -146795,7 +146836,8 @@
 				"Anvil": 8,
 				"Burial Anvil": 8,
 				"Furnace": 1,
-				"Forge": 1
+				"Forge": 1,
+				"Crashed star": 1
 			},
 			"NPC": {
 				"Dwarf": 2,
@@ -147034,7 +147076,8 @@
 				"Mysterious ruins": 1,
 				"Crate": 1,
 				"Shelves": 14,
-				"Orichalcite rock": 8
+				"Orichalcite rock": 8,
+				"Crashed star": 1
 			},
 			"Monster": {
 				"Skeleton": 12,
@@ -147112,7 +147155,8 @@
 		"12091": {
 			"Object": {
 				"Necrite rock": 20,
-				"Fishing spot (lava)": 1
+				"Fishing spot (lava)": 1,
+				"Crashed star": 1
 			},
 			"Monster": {
 				"Dark beast": 12,
@@ -147130,7 +147174,8 @@
 			"Object": {
 				"Web": 1,
 				"Stone Column": 1,
-				"Phasmatite rock": 10
+				"Phasmatite rock": 10,
+				"Crashed star": 1
 			},
 			"Monster": {
 				"Deadly red spider": 14,
@@ -147156,7 +147201,8 @@
 				"Banite rock": 6,
 				"Anvil": 1,
 				"Forge": 1,
-				"Bloodwood tree": 1
+				"Bloodwood tree": 1,
+				"Crashed star": 1
 			},
 			"Monster": {
 				"Pirate": 12,
@@ -147662,7 +147708,8 @@
 			"Object": {
 				"Bank chest": 1,
 				"Water": 2,
-				"Magical barrier": 1
+				"Magical barrier": 1,
+				"Crashed star": 1
 			},
 			"NPC": {
 				"Wizard Chambers": 1,
@@ -148171,7 +148218,8 @@
 				"Rift": 1,
 				"PvP hatch": 1,
 				"Runite rock": 4,
-				"Air obelisk": 1
+				"Air obelisk": 1,
+				"Crashed star": 1
 			},
 			"Monster": {
 				"Skeleton": 14
@@ -148278,7 +148326,8 @@
 		"12349": {
 			"Object": {
 				"Lever": 1,
-				"Web": 2
+				"Web": 2,
+				"Crashed star": 1
 			},
 			"Monster": {
 				"Hellhound": 7,
@@ -148645,7 +148694,8 @@
 				"VIP archway": 1,
 				"Shifting Tombs": 1,
 				"Mineral deposit": 1,
-				"Fishing spot (Menaphos)": 2
+				"Fishing spot (Menaphos)": 2,
+				"Crashed star": 1
 			},
 			"NPC": {
 				"Anukat": 1,
@@ -148681,7 +148731,8 @@
 				"Anvil": 1,
 				"Forge": 1,
 				"Fishing spot (Menaphos)": 1,
-				"Cactus patch": 1
+				"Cactus patch": 1,
+				"Crashed star": 1
 			},
 			"NPC": {
 				"Fisherman": 1,
@@ -148743,7 +148794,8 @@
 			"Object": {
 				"Kharidian cactus (healthy)": 1,
 				"Sandstone rock": 17,
-				"Granite rock": 15
+				"Granite rock": 15,
+				"Crashed star": 1
 			},
 			"NPC": {
 				"Lazim": 1,
@@ -148962,7 +149014,8 @@
 				"Tin rock": 2,
 				"Iron rock": 4,
 				"Mithril rock": 3,
-				"Bush patch": 1
+				"Bush patch": 1,
+				"Crashed star": 1
 			},
 			"Monster": {
 				"Chicken": 5,
@@ -149182,7 +149235,8 @@
 		"12601": {
 			"Object": {
 				"Rock": 1,
-				"Energy rift": 5
+				"Energy rift": 5,
+				"Crashed star": 1
 			},
 			"Monster": {
 				"Greater demon": 9
@@ -149766,7 +149820,8 @@
 				"Tin rock": 3,
 				"Clay rock": 2,
 				"Fishing spot (small fishing net, bait)": 3,
-				"Nettles": 3
+				"Nettles": 3,
+				"Crashed star": 1
 			},
 			"NPC": {
 				"Father Urhney": 1,
@@ -150140,7 +150195,8 @@
 				"Anvil": 3,
 				"Forge": 2,
 				"Shrinking Machine": 1,
-				"Fletching workbench": 1
+				"Fletching workbench": 1,
+				"Crashed star": 1
 			},
 			"NPC": {
 				"Tramp": 2,
@@ -150951,7 +151007,8 @@
 		"13100": {
 			"Object": {
 				"Banana Tree": 8,
-				"Adamantite rock": 4
+				"Adamantite rock": 4,
+				"Crashed star": 1
 			},
 			"NPC": {
 				"Priest": 2,
@@ -151117,7 +151174,8 @@
 				"Furnace": 2,
 				"Cooking range": 2,
 				"Water trough": 1,
-				"Carved fountain": 1
+				"Carved fountain": 1,
+				"Crashed star": 1
 			},
 			"Monster": {
 				"Man": 4,
@@ -151264,7 +151322,8 @@
 				"Uncommon gem rock": 4,
 				"Gold rock": 4,
 				"Herb patch": 1,
-				"Bonfire": 1
+				"Bonfire": 1,
+				"Crashed star": 1
 			},
 			"NPC": {
 				"Camel": 1,
@@ -151318,7 +151377,8 @@
 				"Tin rock": 1,
 				"Mithril rock": 3,
 				"Adamantite rock": 2,
-				"Dig sites map": 1
+				"Dig sites map": 1,
+				"Crashed star": 1
 			},
 			"Monster": {
 				"Unicorn": 2,
@@ -152552,7 +152612,8 @@
 		},
 		"13370": {
 			"Monster": {
-				"Soulgazer": 2
+				"Soulgazer": 2,
+				"Crashed star": 1
 			},
 			"NPC": {
 				"Gull": 1,
@@ -152795,7 +152856,8 @@
 				"Bank booth": 4,
 				"Banana Tree": 5,
 				"Anvil": 1,
-				"Forge": 1
+				"Forge": 1,
+				"Crashed star": 1
 			},
 			"NPC": {
 				"Monkey": 1,
@@ -153450,7 +153512,8 @@
 				"Teak": 1,
 				"Crate": 1,
 				"Acadia tree": 2,
-				"Palm tree (choppable)": 1
+				"Palm tree (choppable)": 1,
+				"Crashed star": 1
 			},
 			"NPC": {
 				"Clay golem": 1,
@@ -153488,7 +153551,8 @@
 				"Low fence": 1,
 				"Well": 1,
 				"Small obelisk": 1,
-				"Swamp tree": 1
+				"Swamp tree": 1,
+				"Crashed star": 1
 			},
 			"Monster": {
 				"Rat": 13,
@@ -153643,7 +153707,8 @@
 				"Crate": 8,
 				"Old Bookshelf": 2,
 				"Bank booth": 6,
-				"Nettles": 3
+				"Nettles": 3,
+				"Crashed star": 1
 			},
 			"NPC": {
 				"Will o' the wisp": 45,
@@ -153761,7 +153826,8 @@
 				"Fremennik ship (Shadow reef)": 1,
 				"Bathus rock": 2,
 				"Fractite rock": 3,
-				"Heroes of the Shadow Reef": 1
+				"Heroes of the Shadow Reef": 1,
+				"Crashed star": 1
 			},
 			"NPC": {
 				"Linza": 2,
@@ -154884,7 +154950,8 @@
 				"Gangplank": 2,
 				"Climbing Net": 1,
 				"Bank booth": 3,
-				"Rowboat": 1
+				"Rowboat": 1,
+				"Crashed star": 1
 			},
 			"Monster": {
 				"Rat": 3
@@ -156487,7 +156554,8 @@
 				"Crate": 1,
 				"Dragonkin statue": 1,
 				"Flower": 1,
-				"The Stormbreaker": 1
+				"The Stormbreaker": 1,
+				"Crashed star": 1
 			},
 			"NPC": {
 				"Frank (Ancient zygomite)": 1,
@@ -157394,7 +157462,8 @@
 				"Fishing spot (Lure/Bait)": 2,
 				"Fishing spot (Cage/Harpoon)": 3,
 				"Red vine blossom": 1,
-				"Teleportation device": 1
+				"Teleportation device": 1,
+				"Crashed star": 1
 			},
 			"NPC": {
 				"Aquatic jadinko (Anachronia)": 5,
@@ -157594,7 +157663,8 @@
 		"16448": {
 			"Object": {
 				"Dark animica rock (Anachronia)": 4,
-				"Door": 1
+				"Door": 1,
+				"Crashed star": 1
 			},
 			"Monster": {
 				"Devil's snare": 5
@@ -266006,7 +266076,7 @@
 				"Defence": 80
 			},
 			"class": "melee",
-			"lp": 350,
+			"lp": 0,
 			"tier": 79,
 			"speed": 0,
 			"damage": 0,
@@ -266889,7 +266959,7 @@
 				"Defence": 40
 			},
 			"class": "melee",
-			"lp": 0,
+			"lp": 200,
 			"tier": 41,
 			"speed": 0,
 			"damage": 0,
@@ -266907,7 +266977,7 @@
 				"Defence": 40
 			},
 			"class": "melee",
-			"lp": 0,
+			"lp": 200,
 			"tier": 42,
 			"speed": 0,
 			"damage": 0,
@@ -266925,7 +266995,7 @@
 				"Defence": 40
 			},
 			"class": "melee",
-			"lp": 0,
+			"lp": 200,
 			"tier": 40,
 			"speed": 0,
 			"damage": 0,
@@ -267183,7 +267253,7 @@
 				"Defence": 40
 			},
 			"class": "melee",
-			"lp": 0,
+			"lp": 600,
 			"tier": 41,
 			"speed": 0,
 			"damage": 0,
@@ -267201,7 +267271,7 @@
 				"Defence": 40
 			},
 			"class": "melee",
-			"lp": 0,
+			"lp": 600,
 			"tier": 42,
 			"speed": 0,
 			"damage": 0,
@@ -267219,7 +267289,7 @@
 				"Defence": 40
 			},
 			"class": "melee",
-			"lp": 0,
+			"lp": 600,
 			"tier": 40,
 			"speed": 0,
 			"damage": 0,
@@ -267459,7 +267529,7 @@
 				"Defence": 40
 			},
 			"class": "melee",
-			"lp": 0,
+			"lp": 400,
 			"tier": 40,
 			"speed": 0,
 			"damage": 0,
@@ -267477,7 +267547,7 @@
 				"Defence": 40
 			},
 			"class": "melee",
-			"lp": 0,
+			"lp": 400,
 			"tier": 40,
 			"speed": 0,
 			"damage": 0,
@@ -267495,7 +267565,7 @@
 				"Defence": 40
 			},
 			"class": "melee",
-			"lp": 0,
+			"lp": 400,
 			"tier": 41,
 			"speed": 0,
 			"damage": 0,
@@ -267513,7 +267583,7 @@
 				"Defence": 40
 			},
 			"class": "melee",
-			"lp": 0,
+			"lp": 400,
 			"tier": 42,
 			"speed": 0,
 			"damage": 0,
@@ -267531,7 +267601,7 @@
 				"Defence": 40
 			},
 			"class": "melee",
-			"lp": 0,
+			"lp": 400,
 			"tier": 40,
 			"speed": 0,
 			"damage": 0,
@@ -267549,7 +267619,7 @@
 				"Defence": 40
 			},
 			"class": "melee",
-			"lp": 0,
+			"lp": 200,
 			"tier": 41,
 			"speed": 0,
 			"damage": 0,
@@ -267567,7 +267637,7 @@
 				"Defence": 40
 			},
 			"class": "melee",
-			"lp": 0,
+			"lp": 200,
 			"tier": 42,
 			"speed": 0,
 			"damage": 0,
@@ -267585,7 +267655,7 @@
 				"Defence": 40
 			},
 			"class": "melee",
-			"lp": 0,
+			"lp": 200,
 			"tier": 40,
 			"speed": 0,
 			"damage": 0,
@@ -267664,7 +267734,7 @@
 				"Defence": 40
 			},
 			"class": "melee",
-			"lp": 0,
+			"lp": 400,
 			"tier": 40,
 			"speed": 0,
 			"damage": 0,
@@ -267682,7 +267752,7 @@
 				"Defence": 40
 			},
 			"class": "melee",
-			"lp": 0,
+			"lp": 400,
 			"tier": 40,
 			"speed": 0,
 			"damage": 0,
@@ -267700,7 +267770,7 @@
 				"Defence": 40
 			},
 			"class": "melee",
-			"lp": 0,
+			"lp": 400,
 			"tier": 40,
 			"speed": 0,
 			"damage": 0,
@@ -267718,7 +267788,7 @@
 				"Defence": 40
 			},
 			"class": "melee",
-			"lp": 0,
+			"lp": 400,
 			"tier": 40,
 			"speed": 0,
 			"damage": 0,
@@ -267736,7 +267806,7 @@
 				"Defence": 40
 			},
 			"class": "melee",
-			"lp": 0,
+			"lp": 400,
 			"tier": 40,
 			"speed": 0,
 			"damage": 0,
@@ -268026,7 +268096,7 @@
 				"Defence": 40
 			},
 			"class": "melee",
-			"lp": 0,
+			"lp": 400,
 			"tier": 41,
 			"speed": 0,
 			"damage": 0,
@@ -268044,7 +268114,7 @@
 				"Defence": 40
 			},
 			"class": "melee",
-			"lp": 0,
+			"lp": 400,
 			"tier": 42,
 			"speed": 0,
 			"damage": 0,
@@ -268062,7 +268132,7 @@
 				"Defence": 40
 			},
 			"class": "melee",
-			"lp": 0,
+			"lp": 400,
 			"tier": 40,
 			"speed": 0,
 			"damage": 0,
@@ -268620,7 +268690,7 @@
 				"Defence": 40
 			},
 			"class": "melee",
-			"lp": 0,
+			"lp": 600,
 			"tier": 40,
 			"speed": 0,
 			"damage": 0,
@@ -268638,7 +268708,7 @@
 				"Defence": 40
 			},
 			"class": "melee",
-			"lp": 0,
+			"lp": 600,
 			"tier": 40,
 			"speed": 0,
 			"damage": 0,
@@ -268656,7 +268726,7 @@
 				"Defence": 40
 			},
 			"class": "melee",
-			"lp": 0,
+			"lp": 600,
 			"tier": 40,
 			"speed": 0,
 			"damage": 0,
@@ -268674,7 +268744,7 @@
 				"Defence": 40
 			},
 			"class": "melee",
-			"lp": 0,
+			"lp": 600,
 			"tier": 40,
 			"speed": 0,
 			"damage": 0,
@@ -268692,7 +268762,7 @@
 				"Defence": 40
 			},
 			"class": "melee",
-			"lp": 0,
+			"lp": 600,
 			"tier": 40,
 			"speed": 0,
 			"damage": 0,
@@ -268710,7 +268780,7 @@
 				"Defence": 40
 			},
 			"class": "melee",
-			"lp": 0,
+			"lp": 600,
 			"tier": 40,
 			"speed": 0,
 			"damage": 0,
@@ -268728,7 +268798,7 @@
 				"Defence": 40
 			},
 			"class": "melee",
-			"lp": 0,
+			"lp": 600,
 			"tier": 40,
 			"speed": 0,
 			"damage": 0,
@@ -268746,7 +268816,7 @@
 				"Defence": 40
 			},
 			"class": "melee",
-			"lp": 0,
+			"lp": 600,
 			"tier": 41,
 			"speed": 0,
 			"damage": 0,
@@ -268764,7 +268834,7 @@
 				"Defence": 40
 			},
 			"class": "melee",
-			"lp": 0,
+			"lp": 600,
 			"tier": 42,
 			"speed": 0,
 			"damage": 0,
@@ -268782,7 +268852,7 @@
 				"Defence": 40
 			},
 			"class": "melee",
-			"lp": 0,
+			"lp": 600,
 			"tier": 40,
 			"speed": 0,
 			"damage": 0,
@@ -268800,7 +268870,7 @@
 				"Defence": 40
 			},
 			"class": "melee",
-			"lp": 0,
+			"lp": 600,
 			"tier": 40,
 			"speed": 0,
 			"damage": 0,
@@ -268818,7 +268888,7 @@
 				"Defence": 40
 			},
 			"class": "melee",
-			"lp": 0,
+			"lp": 600,
 			"tier": 40,
 			"speed": 0,
 			"damage": 0,
@@ -268836,7 +268906,7 @@
 				"Defence": 40
 			},
 			"class": "melee",
-			"lp": 0,
+			"lp": 600,
 			"tier": 40,
 			"speed": 0,
 			"damage": 0,
@@ -268854,7 +268924,7 @@
 				"Defence": 40
 			},
 			"class": "melee",
-			"lp": 0,
+			"lp": 600,
 			"tier": 40,
 			"speed": 0,
 			"damage": 0,
@@ -268872,7 +268942,7 @@
 				"Defence": 40
 			},
 			"class": "melee",
-			"lp": 0,
+			"lp": 600,
 			"tier": 40,
 			"speed": 0,
 			"damage": 0,
@@ -268890,7 +268960,7 @@
 				"Defence": 40
 			},
 			"class": "melee",
-			"lp": 0,
+			"lp": 600,
 			"tier": 40,
 			"speed": 0,
 			"damage": 0,
@@ -268908,7 +268978,7 @@
 				"Defence": 40
 			},
 			"class": "melee",
-			"lp": 0,
+			"lp": 600,
 			"tier": 40,
 			"speed": 0,
 			"damage": 0,
@@ -268926,7 +268996,7 @@
 				"Defence": 40
 			},
 			"class": "melee",
-			"lp": 0,
+			"lp": 600,
 			"tier": 41,
 			"speed": 0,
 			"damage": 0,
@@ -268944,7 +269014,7 @@
 				"Defence": 40
 			},
 			"class": "melee",
-			"lp": 0,
+			"lp": 600,
 			"tier": 42,
 			"speed": 0,
 			"damage": 0,
@@ -268962,7 +269032,7 @@
 				"Defence": 40
 			},
 			"class": "melee",
-			"lp": 0,
+			"lp": 600,
 			"tier": 40,
 			"speed": 0,
 			"damage": 0,
@@ -268980,7 +269050,7 @@
 				"Defence": 40
 			},
 			"class": "melee",
-			"lp": 0,
+			"lp": 600,
 			"tier": 40,
 			"speed": 0,
 			"damage": 0,
@@ -268998,7 +269068,7 @@
 				"Defence": 40
 			},
 			"class": "melee",
-			"lp": 0,
+			"lp": 600,
 			"tier": 40,
 			"speed": 0,
 			"damage": 0,
@@ -269016,7 +269086,7 @@
 				"Defence": 40
 			},
 			"class": "melee",
-			"lp": 0,
+			"lp": 600,
 			"tier": 40,
 			"speed": 0,
 			"damage": 0,
@@ -269034,7 +269104,7 @@
 				"Defence": 40
 			},
 			"class": "melee",
-			"lp": 0,
+			"lp": 600,
 			"tier": 40,
 			"speed": 0,
 			"damage": 0,
@@ -269052,7 +269122,7 @@
 				"Defence": 40
 			},
 			"class": "melee",
-			"lp": 0,
+			"lp": 600,
 			"tier": 40,
 			"speed": 0,
 			"damage": 0,
@@ -269070,7 +269140,7 @@
 				"Defence": 40
 			},
 			"class": "melee",
-			"lp": 0,
+			"lp": 600,
 			"tier": 40,
 			"speed": 0,
 			"damage": 0,
@@ -269088,7 +269158,7 @@
 				"Defence": 40
 			},
 			"class": "melee",
-			"lp": 0,
+			"lp": 600,
 			"tier": 40,
 			"speed": 0,
 			"damage": 0,
@@ -269106,7 +269176,7 @@
 				"Defence": 40
 			},
 			"class": "melee",
-			"lp": 0,
+			"lp": 600,
 			"tier": 41,
 			"speed": 0,
 			"damage": 0,
@@ -269124,7 +269194,7 @@
 				"Defence": 40
 			},
 			"class": "melee",
-			"lp": 0,
+			"lp": 600,
 			"tier": 42,
 			"speed": 0,
 			"damage": 0,
@@ -269142,7 +269212,7 @@
 				"Defence": 40
 			},
 			"class": "melee",
-			"lp": 0,
+			"lp": 600,
 			"tier": 40,
 			"speed": 0,
 			"damage": 0,
@@ -269630,7 +269700,7 @@
 				"Defence": 70
 			},
 			"class": "magic",
-			"lp": 0,
+			"lp": 700,
 			"tier": 70,
 			"speed": 0,
 			"damage": 0,
@@ -269649,7 +269719,7 @@
 				"Defence": 70
 			},
 			"class": "magic",
-			"lp": 0,
+			"lp": 1050,
 			"tier": 70,
 			"speed": 0,
 			"damage": 0,
@@ -269668,7 +269738,7 @@
 				"Defence": 70
 			},
 			"class": "magic",
-			"lp": 0,
+			"lp": 10500,
 			"tier": 70,
 			"speed": 0,
 			"damage": 0,
@@ -270298,7 +270368,7 @@
 				"Prayer": 40
 			},
 			"class": "magic",
-			"lp": 0,
+			"lp": 400,
 			"tier": 40,
 			"speed": 0,
 			"damage": 0,
@@ -270340,7 +270410,7 @@
 				"Prayer": 20
 			},
 			"class": "magic",
-			"lp": 0,
+			"lp": 600,
 			"tier": 40,
 			"speed": 0,
 			"damage": 0,
@@ -270359,7 +270429,7 @@
 				"Prayer": 20
 			},
 			"class": "magic",
-			"lp": 0,
+			"lp": 600,
 			"tier": 40,
 			"speed": 0,
 			"damage": 0,
@@ -271209,7 +271279,7 @@
 				"Prayer": 40
 			},
 			"class": "ranged",
-			"lp": 0,
+			"lp": 400,
 			"tier": 40,
 			"speed": 0,
 			"damage": 0,
@@ -271228,7 +271298,7 @@
 				"Prayer": 20
 			},
 			"class": "ranged",
-			"lp": 0,
+			"lp": 600,
 			"tier": 40,
 			"speed": 0,
 			"damage": 0,
@@ -271247,7 +271317,7 @@
 				"Prayer": 20
 			},
 			"class": "ranged",
-			"lp": 0,
+			"lp": 600,
 			"tier": 40,
 			"speed": 0,
 			"damage": 0,
@@ -272318,7 +272388,7 @@
 				"Prayer": 40
 			},
 			"class": "melee",
-			"lp": 0,
+			"lp": 400,
 			"tier": 40,
 			"speed": 0,
 			"damage": 0,
@@ -272337,7 +272407,7 @@
 				"Prayer": 20
 			},
 			"class": "melee",
-			"lp": 0,
+			"lp": 600,
 			"tier": 40,
 			"speed": 0,
 			"damage": 0,
@@ -272356,7 +272426,7 @@
 				"Prayer": 20
 			},
 			"class": "melee",
-			"lp": 0,
+			"lp": 600,
 			"tier": 40,
 			"speed": 0,
 			"damage": 0,
@@ -272550,7 +272620,7 @@
 				"Defence": 80
 			},
 			"class": "melee",
-			"lp": 0,
+			"lp": 400,
 			"tier": 76,
 			"speed": 0,
 			"damage": 0,
@@ -272569,7 +272639,7 @@
 				"Defence": 80
 			},
 			"class": "melee",
-			"lp": 0,
+			"lp": 400,
 			"tier": 77,
 			"speed": 0,
 			"damage": 0,
@@ -272588,7 +272658,7 @@
 				"Defence": 80
 			},
 			"class": "melee",
-			"lp": 0,
+			"lp": 400,
 			"tier": 78,
 			"speed": 0,
 			"damage": 0,
@@ -272607,7 +272677,7 @@
 				"Defence": 80
 			},
 			"class": "melee",
-			"lp": 0,
+			"lp": 400,
 			"tier": 79,
 			"speed": 0,
 			"damage": 0,
@@ -272626,7 +272696,7 @@
 				"Defence": 80
 			},
 			"class": "melee",
-			"lp": 0,
+			"lp": 400,
 			"tier": 75,
 			"speed": 0,
 			"damage": 0,
@@ -272645,7 +272715,7 @@
 				"Defence": 80
 			},
 			"class": "melee",
-			"lp": 140,
+			"lp": 800,
 			"tier": 76,
 			"speed": 0,
 			"damage": 0,
@@ -272664,7 +272734,7 @@
 				"Defence": 80
 			},
 			"class": "melee",
-			"lp": 160,
+			"lp": 800,
 			"tier": 77,
 			"speed": 0,
 			"damage": 0,
@@ -272683,7 +272753,7 @@
 				"Defence": 80
 			},
 			"class": "melee",
-			"lp": 180,
+			"lp": 800,
 			"tier": 78,
 			"speed": 0,
 			"damage": 0,
@@ -272702,7 +272772,7 @@
 				"Defence": 80
 			},
 			"class": "melee",
-			"lp": 200,
+			"lp": 800,
 			"tier": 79,
 			"speed": 0,
 			"damage": 0,
@@ -272721,7 +272791,7 @@
 				"Defence": 80
 			},
 			"class": "melee",
-			"lp": 120,
+			"lp": 800,
 			"tier": 75,
 			"speed": 0,
 			"damage": 0,
@@ -272740,7 +272810,7 @@
 				"Defence": 80
 			},
 			"class": "melee",
-			"lp": 0,
+			"lp": 400,
 			"tier": 76,
 			"speed": 0,
 			"damage": 0,
@@ -272759,7 +272829,7 @@
 				"Defence": 80
 			},
 			"class": "melee",
-			"lp": 0,
+			"lp": 400,
 			"tier": 77,
 			"speed": 0,
 			"damage": 0,
@@ -272778,7 +272848,7 @@
 				"Defence": 80
 			},
 			"class": "melee",
-			"lp": 0,
+			"lp": 400,
 			"tier": 78,
 			"speed": 0,
 			"damage": 0,
@@ -272797,7 +272867,7 @@
 				"Defence": 80
 			},
 			"class": "melee",
-			"lp": 0,
+			"lp": 400,
 			"tier": 79,
 			"speed": 0,
 			"damage": 0,
@@ -272816,7 +272886,7 @@
 				"Defence": 80
 			},
 			"class": "melee",
-			"lp": 0,
+			"lp": 400,
 			"tier": 75,
 			"speed": 0,
 			"damage": 0,
@@ -273185,7 +273255,7 @@
 				"Defence": 80
 			},
 			"class": "melee",
-			"lp": 280,
+			"lp": 1200,
 			"tier": 76,
 			"speed": 0,
 			"damage": 0,
@@ -273204,7 +273274,7 @@
 				"Defence": 80
 			},
 			"class": "melee",
-			"lp": 320,
+			"lp": 1200,
 			"tier": 77,
 			"speed": 0,
 			"damage": 0,
@@ -273223,7 +273293,7 @@
 				"Defence": 80
 			},
 			"class": "melee",
-			"lp": 360,
+			"lp": 1200,
 			"tier": 78,
 			"speed": 0,
 			"damage": 0,
@@ -273242,7 +273312,7 @@
 				"Defence": 80
 			},
 			"class": "melee",
-			"lp": 400,
+			"lp": 1200,
 			"tier": 79,
 			"speed": 0,
 			"damage": 0,
@@ -273261,7 +273331,7 @@
 				"Defence": 80
 			},
 			"class": "melee",
-			"lp": 240,
+			"lp": 1200,
 			"tier": 75,
 			"speed": 0,
 			"damage": 0,
@@ -273280,7 +273350,7 @@
 				"Defence": 80
 			},
 			"class": "melee",
-			"lp": 210,
+			"lp": 1200,
 			"tier": 76,
 			"speed": 0,
 			"damage": 0,
@@ -273299,7 +273369,7 @@
 				"Defence": 80
 			},
 			"class": "melee",
-			"lp": 240,
+			"lp": 1200,
 			"tier": 77,
 			"speed": 0,
 			"damage": 0,
@@ -273318,7 +273388,7 @@
 				"Defence": 80
 			},
 			"class": "melee",
-			"lp": 270,
+			"lp": 1200,
 			"tier": 78,
 			"speed": 0,
 			"damage": 0,
@@ -273337,7 +273407,7 @@
 				"Defence": 80
 			},
 			"class": "melee",
-			"lp": 300,
+			"lp": 1200,
 			"tier": 79,
 			"speed": 0,
 			"damage": 0,
@@ -273356,7 +273426,7 @@
 				"Defence": 80
 			},
 			"class": "melee",
-			"lp": 180,
+			"lp": 1200,
 			"tier": 75,
 			"speed": 0,
 			"damage": 0,
@@ -274205,7 +274275,7 @@
 				"Defence": 30
 			},
 			"class": "magic",
-			"lp": 0,
+			"lp": 150,
 			"tier": 30,
 			"speed": 0,
 			"damage": 0,
@@ -274223,7 +274293,7 @@
 				"Defence": 30
 			},
 			"class": "magic",
-			"lp": 0,
+			"lp": 150,
 			"tier": 30,
 			"speed": 0,
 			"damage": 0,
@@ -274241,7 +274311,7 @@
 				"Defence": 30
 			},
 			"class": "magic",
-			"lp": 0,
+			"lp": 300,
 			"tier": 30,
 			"speed": 0,
 			"damage": 0,
@@ -274259,7 +274329,7 @@
 				"Defence": 30
 			},
 			"class": "magic",
-			"lp": 0,
+			"lp": 450,
 			"tier": 30,
 			"speed": 0,
 			"damage": 0,
@@ -274295,7 +274365,7 @@
 				"Defence": 30
 			},
 			"class": "magic",
-			"lp": 0,
+			"lp": 450,
 			"tier": 30,
 			"speed": 0,
 			"damage": 0,
@@ -274605,7 +274675,7 @@
 				"Defence": 25
 			},
 			"class": "melee",
-			"lp": 0,
+			"lp": 375,
 			"tier": 23,
 			"speed": 0,
 			"damage": 0,
@@ -274725,7 +274795,7 @@
 				"Defence": 60
 			},
 			"class": "ranged",
-			"lp": 0,
+			"lp": 900,
 			"tier": 60,
 			"speed": 0,
 			"damage": 0,
@@ -274743,7 +274813,7 @@
 				"Defence": 60
 			},
 			"class": "ranged",
-			"lp": 0,
+			"lp": 300,
 			"tier": 60,
 			"speed": 0,
 			"damage": 0,
@@ -274761,7 +274831,7 @@
 				"Defence": 60
 			},
 			"class": "ranged",
-			"lp": 0,
+			"lp": 900,
 			"tier": 60,
 			"speed": 0,
 			"damage": 0,
@@ -274779,7 +274849,7 @@
 				"Defence": 60
 			},
 			"class": "ranged",
-			"lp": 0,
+			"lp": 600,
 			"tier": 60,
 			"speed": 0,
 			"damage": 0,
@@ -274815,7 +274885,7 @@
 				"Defence": 60
 			},
 			"class": "ranged",
-			"lp": 0,
+			"lp": 300,
 			"tier": 60,
 			"speed": 0,
 			"damage": 0,
@@ -274851,7 +274921,7 @@
 				"Defence": 25
 			},
 			"class": "melee",
-			"lp": 0,
+			"lp": 250,
 			"tier": 25,
 			"speed": 0,
 			"damage": 0,
@@ -274869,7 +274939,7 @@
 				"Defence": 25
 			},
 			"class": "melee",
-			"lp": 0,
+			"lp": 250,
 			"tier": 25,
 			"speed": 0,
 			"damage": 0,
@@ -274887,7 +274957,7 @@
 				"Defence": 25
 			},
 			"class": "melee",
-			"lp": 0,
+			"lp": 250,
 			"tier": 25,
 			"speed": 0,
 			"damage": 0,
@@ -274964,7 +275034,7 @@
 				"Defence": 25
 			},
 			"class": "melee",
-			"lp": 0,
+			"lp": 250,
 			"tier": 25,
 			"speed": 0,
 			"damage": 0,
@@ -274982,7 +275052,7 @@
 				"Defence": 25
 			},
 			"class": "melee",
-			"lp": 0,
+			"lp": 250,
 			"tier": 25,
 			"speed": 0,
 			"damage": 0,
@@ -275000,7 +275070,7 @@
 				"Defence": 25
 			},
 			"class": "melee",
-			"lp": 0,
+			"lp": 250,
 			"tier": 25,
 			"speed": 0,
 			"damage": 0,
@@ -275018,7 +275088,7 @@
 				"Defence": 25
 			},
 			"class": "melee",
-			"lp": 0,
+			"lp": 250,
 			"tier": 25,
 			"speed": 0,
 			"damage": 0,
@@ -275036,7 +275106,7 @@
 				"Defence": 25
 			},
 			"class": "melee",
-			"lp": 0,
+			"lp": 250,
 			"tier": 25,
 			"speed": 0,
 			"damage": 0,
@@ -275054,7 +275124,7 @@
 				"Defence": 25
 			},
 			"class": "melee",
-			"lp": 0,
+			"lp": 250,
 			"tier": 23,
 			"speed": 0,
 			"damage": 0,
@@ -275206,7 +275276,7 @@
 				"Defence": 25
 			},
 			"class": "melee",
-			"lp": 0,
+			"lp": 375,
 			"tier": 25,
 			"speed": 0,
 			"damage": 0,
@@ -275224,7 +275294,7 @@
 				"Defence": 25
 			},
 			"class": "melee",
-			"lp": 0,
+			"lp": 375,
 			"tier": 25,
 			"speed": 0,
 			"damage": 0,
@@ -275242,7 +275312,7 @@
 				"Defence": 25
 			},
 			"class": "melee",
-			"lp": 0,
+			"lp": 375,
 			"tier": 25,
 			"speed": 0,
 			"damage": 0,
@@ -275260,7 +275330,7 @@
 				"Defence": 25
 			},
 			"class": "melee",
-			"lp": 0,
+			"lp": 375,
 			"tier": 25,
 			"speed": 0,
 			"damage": 0,
@@ -275278,7 +275348,7 @@
 				"Defence": 25
 			},
 			"class": "melee",
-			"lp": 0,
+			"lp": 375,
 			"tier": 25,
 			"speed": 0,
 			"damage": 0,
@@ -275296,7 +275366,7 @@
 				"Defence": 25
 			},
 			"class": "melee",
-			"lp": 0,
+			"lp": 375,
 			"tier": 25,
 			"speed": 0,
 			"damage": 0,
@@ -275314,7 +275384,7 @@
 				"Defence": 25
 			},
 			"class": "melee",
-			"lp": 0,
+			"lp": 375,
 			"tier": 25,
 			"speed": 0,
 			"damage": 0,
@@ -275332,7 +275402,7 @@
 				"Defence": 25
 			},
 			"class": "melee",
-			"lp": 0,
+			"lp": 375,
 			"tier": 25,
 			"speed": 0,
 			"damage": 0,
@@ -275350,7 +275420,7 @@
 				"Defence": 25
 			},
 			"class": "melee",
-			"lp": 0,
+			"lp": 375,
 			"tier": 25,
 			"speed": 0,
 			"damage": 0,
@@ -275368,7 +275438,7 @@
 				"Defence": 25
 			},
 			"class": "melee",
-			"lp": 0,
+			"lp": 375,
 			"tier": 25,
 			"speed": 0,
 			"damage": 0,
@@ -275386,7 +275456,7 @@
 				"Defence": 25
 			},
 			"class": "melee",
-			"lp": 0,
+			"lp": 375,
 			"tier": 25,
 			"speed": 0,
 			"damage": 0,
@@ -275404,7 +275474,7 @@
 				"Defence": 25
 			},
 			"class": "melee",
-			"lp": 0,
+			"lp": 375,
 			"tier": 25,
 			"speed": 0,
 			"damage": 0,
@@ -275422,7 +275492,7 @@
 				"Defence": 25
 			},
 			"class": "melee",
-			"lp": 0,
+			"lp": 375,
 			"tier": 25,
 			"speed": 0,
 			"damage": 0,
@@ -275440,7 +275510,7 @@
 				"Defence": 25
 			},
 			"class": "melee",
-			"lp": 0,
+			"lp": 375,
 			"tier": 25,
 			"speed": 0,
 			"damage": 0,
@@ -275458,7 +275528,7 @@
 				"Defence": 25
 			},
 			"class": "melee",
-			"lp": 0,
+			"lp": 375,
 			"tier": 25,
 			"speed": 0,
 			"damage": 0,
@@ -275476,7 +275546,7 @@
 				"Defence": 25
 			},
 			"class": "melee",
-			"lp": 0,
+			"lp": 375,
 			"tier": 25,
 			"speed": 0,
 			"damage": 0,
@@ -275494,7 +275564,7 @@
 				"Defence": 25
 			},
 			"class": "melee",
-			"lp": 0,
+			"lp": 375,
 			"tier": 25,
 			"speed": 0,
 			"damage": 0,
@@ -275512,7 +275582,7 @@
 				"Defence": 25
 			},
 			"class": "melee",
-			"lp": 0,
+			"lp": 375,
 			"tier": 25,
 			"speed": 0,
 			"damage": 0,
@@ -275530,7 +275600,7 @@
 				"Defence": 25
 			},
 			"class": "melee",
-			"lp": 0,
+			"lp": 375,
 			"tier": 25,
 			"speed": 0,
 			"damage": 0,
@@ -275548,7 +275618,7 @@
 				"Defence": 25
 			},
 			"class": "melee",
-			"lp": 0,
+			"lp": 375,
 			"tier": 25,
 			"speed": 0,
 			"damage": 0,
@@ -275566,7 +275636,7 @@
 				"Defence": 25
 			},
 			"class": "melee",
-			"lp": 0,
+			"lp": 375,
 			"tier": 25,
 			"speed": 0,
 			"damage": 0,
@@ -275584,7 +275654,7 @@
 				"Defence": 25
 			},
 			"class": "melee",
-			"lp": 0,
+			"lp": 375,
 			"tier": 25,
 			"speed": 0,
 			"damage": 0,
@@ -275602,7 +275672,7 @@
 				"Defence": 25
 			},
 			"class": "melee",
-			"lp": 0,
+			"lp": 375,
 			"tier": 25,
 			"speed": 0,
 			"damage": 0,
@@ -275620,7 +275690,7 @@
 				"Defence": 25
 			},
 			"class": "melee",
-			"lp": 0,
+			"lp": 375,
 			"tier": 25,
 			"speed": 0,
 			"damage": 0,
@@ -276062,7 +276132,7 @@
 				"Defence": 60
 			},
 			"class": "ranged",
-			"lp": 0,
+			"lp": 900,
 			"tier": 60,
 			"speed": 0,
 			"damage": 0,
@@ -276080,7 +276150,7 @@
 				"Defence": 60
 			},
 			"class": "ranged",
-			"lp": 0,
+			"lp": 900,
 			"tier": 60,
 			"speed": 0,
 			"damage": 0,
@@ -276098,7 +276168,7 @@
 				"Defence": 60
 			},
 			"class": "ranged",
-			"lp": 0,
+			"lp": 900,
 			"tier": 60,
 			"speed": 0,
 			"damage": 0,
@@ -276116,7 +276186,7 @@
 				"Defence": 60
 			},
 			"class": "ranged",
-			"lp": 0,
+			"lp": 900,
 			"tier": 60,
 			"speed": 0,
 			"damage": 0,
@@ -276134,7 +276204,7 @@
 				"Defence": 60
 			},
 			"class": "ranged",
-			"lp": 0,
+			"lp": 900,
 			"tier": 60,
 			"speed": 0,
 			"damage": 0,
@@ -276152,7 +276222,7 @@
 				"Defence": 60
 			},
 			"class": "ranged",
-			"lp": 0,
+			"lp": 900,
 			"tier": 60,
 			"speed": 0,
 			"damage": 0,
@@ -276170,7 +276240,7 @@
 				"Defence": 60
 			},
 			"class": "ranged",
-			"lp": 0,
+			"lp": 900,
 			"tier": 60,
 			"speed": 0,
 			"damage": 0,
@@ -276188,7 +276258,7 @@
 				"Defence": 60
 			},
 			"class": "ranged",
-			"lp": 0,
+			"lp": 900,
 			"tier": 60,
 			"speed": 0,
 			"damage": 0,
@@ -276206,7 +276276,7 @@
 				"Defence": 60
 			},
 			"class": "ranged",
-			"lp": 0,
+			"lp": 900,
 			"tier": 60,
 			"speed": 0,
 			"damage": 0,
@@ -276224,7 +276294,7 @@
 				"Defence": 60
 			},
 			"class": "ranged",
-			"lp": 0,
+			"lp": 900,
 			"tier": 60,
 			"speed": 0,
 			"damage": 0,
@@ -276242,7 +276312,7 @@
 				"Defence": 60
 			},
 			"class": "ranged",
-			"lp": 0,
+			"lp": 900,
 			"tier": 60,
 			"speed": 0,
 			"damage": 0,
@@ -276260,7 +276330,7 @@
 				"Defence": 60
 			},
 			"class": "ranged",
-			"lp": 0,
+			"lp": 900,
 			"tier": 60,
 			"speed": 0,
 			"damage": 0,
@@ -276809,7 +276879,7 @@
 				"Defence": 50
 			},
 			"class": "ranged",
-			"lp": 0,
+			"lp": 750,
 			"tier": 50,
 			"speed": 0,
 			"damage": 0,
@@ -276827,7 +276897,7 @@
 				"Defence": 50
 			},
 			"class": "ranged",
-			"lp": 0,
+			"lp": 750,
 			"tier": 50,
 			"speed": 0,
 			"damage": 0,
@@ -276845,7 +276915,7 @@
 				"Defence": 50
 			},
 			"class": "ranged",
-			"lp": 0,
+			"lp": 750,
 			"tier": 50,
 			"speed": 0,
 			"damage": 0,
@@ -276863,7 +276933,7 @@
 				"Defence": 50
 			},
 			"class": "ranged",
-			"lp": 0,
+			"lp": 250,
 			"tier": 50,
 			"speed": 0,
 			"damage": 0,
@@ -276881,7 +276951,7 @@
 				"Defence": 50
 			},
 			"class": "ranged",
-			"lp": 0,
+			"lp": 750,
 			"tier": 50,
 			"speed": 0,
 			"damage": 0,
@@ -276899,7 +276969,7 @@
 				"Defence": 50
 			},
 			"class": "ranged",
-			"lp": 0,
+			"lp": 750,
 			"tier": 50,
 			"speed": 0,
 			"damage": 0,
@@ -276917,7 +276987,7 @@
 				"Defence": 50
 			},
 			"class": "ranged",
-			"lp": 0,
+			"lp": 750,
 			"tier": 50,
 			"speed": 0,
 			"damage": 0,
@@ -276935,7 +277005,7 @@
 				"Defence": 50
 			},
 			"class": "ranged",
-			"lp": 0,
+			"lp": 500,
 			"tier": 50,
 			"speed": 0,
 			"damage": 0,
@@ -276971,7 +277041,7 @@
 				"Defence": 50
 			},
 			"class": "ranged",
-			"lp": 0,
+			"lp": 250,
 			"tier": 50,
 			"speed": 0,
 			"damage": 0,
@@ -277662,7 +277732,7 @@
 				"Defence": 1
 			},
 			"class": "melee",
-			"lp": 0,
+			"lp": 5,
 			"tier": 5,
 			"speed": 0,
 			"damage": 0,
@@ -277756,7 +277826,7 @@
 				"Defence": 1
 			},
 			"class": "melee",
-			"lp": 0,
+			"lp": 15,
 			"tier": 5,
 			"speed": 0,
 			"damage": 0,
@@ -277928,7 +277998,7 @@
 				"Defence": 1
 			},
 			"class": "melee",
-			"lp": 0,
+			"lp": 10,
 			"tier": 5,
 			"speed": 0,
 			"damage": 0,
@@ -277941,7 +278011,7 @@
 			"accuracy": 0
 		},
 		"Bronze gauntlets": {
-			"ranged": 0,
+			"ranged": 5,
 			"requirements": {
 				"Defence": 1
 			},
@@ -278143,7 +278213,7 @@
 				"Defence": 1
 			},
 			"class": "melee",
-			"lp": 0,
+			"lp": 10,
 			"tier": 5,
 			"speed": 0,
 			"damage": 0,
@@ -278340,7 +278410,7 @@
 				"Defence": 1
 			},
 			"class": "melee",
-			"lp": 0,
+			"lp": 15,
 			"tier": 5,
 			"speed": 0,
 			"damage": 0,
@@ -278358,7 +278428,7 @@
 				"Defence": 1
 			},
 			"class": "melee",
-			"lp": 0,
+			"lp": 15,
 			"tier": 5,
 			"speed": 0,
 			"damage": 0,
@@ -278376,7 +278446,7 @@
 				"Defence": 1
 			},
 			"class": "melee",
-			"lp": 0,
+			"lp": 15,
 			"tier": 5,
 			"speed": 0,
 			"damage": 0,
@@ -278696,7 +278766,7 @@
 				"Defence": 30
 			},
 			"class": "ranged",
-			"lp": 0,
+			"lp": 150,
 			"tier": 30,
 			"speed": 0,
 			"damage": 0,
@@ -278714,7 +278784,7 @@
 				"Defence": 30
 			},
 			"class": "ranged",
-			"lp": 0,
+			"lp": 150,
 			"tier": 30,
 			"speed": 0,
 			"damage": 0,
@@ -278732,7 +278802,7 @@
 				"Defence": 30
 			},
 			"class": "ranged",
-			"lp": 0,
+			"lp": 300,
 			"tier": 30,
 			"speed": 0,
 			"damage": 0,
@@ -278750,7 +278820,7 @@
 				"Defence": 30
 			},
 			"class": "ranged",
-			"lp": 0,
+			"lp": 450,
 			"tier": 30,
 			"speed": 0,
 			"damage": 0,
@@ -278786,7 +278856,7 @@
 				"Defence": 30
 			},
 			"class": "ranged",
-			"lp": 0,
+			"lp": 450,
 			"tier": 30,
 			"speed": 0,
 			"damage": 0,
@@ -278876,7 +278946,7 @@
 				"Defence": 50
 			},
 			"class": "magic",
-			"lp": 0,
+			"lp": 750,
 			"tier": 30,
 			"speed": 0,
 			"damage": 0,
@@ -278894,7 +278964,7 @@
 				"Defence": 50
 			},
 			"class": "magic",
-			"lp": 0,
+			"lp": 250,
 			"tier": 30,
 			"speed": 0,
 			"damage": 0,
@@ -278927,7 +278997,7 @@
 				"Defence": 50
 			},
 			"class": "magic",
-			"lp": 0,
+			"lp": 250,
 			"tier": 30,
 			"speed": 0,
 			"damage": 0,
@@ -278945,7 +279015,7 @@
 				"Defence": 50
 			},
 			"class": "magic",
-			"lp": 0,
+			"lp": 500,
 			"tier": 30,
 			"speed": 0,
 			"damage": 0,
@@ -280473,7 +280543,7 @@
 				"Defence": 40
 			},
 			"class": "magic",
-			"lp": 0,
+			"lp": 600,
 			"tier": 25,
 			"speed": 0,
 			"damage": 0,
@@ -280491,7 +280561,7 @@
 				"Defence": 40
 			},
 			"class": "magic",
-			"lp": 0,
+			"lp": 200,
 			"tier": 25,
 			"speed": 0,
 			"damage": 0,
@@ -280509,7 +280579,7 @@
 				"Defence": 40
 			},
 			"class": "magic",
-			"lp": 0,
+			"lp": 200,
 			"tier": 25,
 			"speed": 0,
 			"damage": 0,
@@ -280527,7 +280597,7 @@
 				"Defence": 40
 			},
 			"class": "magic",
-			"lp": 0,
+			"lp": 400,
 			"tier": 25,
 			"speed": 0,
 			"damage": 0,
@@ -280725,7 +280795,7 @@
 				"Defence": 90
 			},
 			"class": "magic",
-			"lp": 0,
+			"lp": 450,
 			"tier": 90,
 			"speed": 0,
 			"damage": 0,
@@ -280744,7 +280814,7 @@
 				"Defence": 90
 			},
 			"class": "magic",
-			"lp": 630,
+			"lp": 1350,
 			"tier": 90,
 			"speed": 0,
 			"damage": 0,
@@ -280763,7 +280833,7 @@
 				"Defence": 90
 			},
 			"class": "magic",
-			"lp": 0,
+			"lp": 450,
 			"tier": 90,
 			"speed": 0,
 			"damage": 0,
@@ -280782,7 +280852,7 @@
 				"Defence": 90
 			},
 			"class": "magic",
-			"lp": 420,
+			"lp": 900,
 			"tier": 90,
 			"speed": 0,
 			"damage": 0,
@@ -280801,7 +280871,7 @@
 				"Defence": 90
 			},
 			"class": "magic",
-			"lp": 840,
+			"lp": 1350,
 			"tier": 90,
 			"speed": 0,
 			"damage": 0,
@@ -281851,7 +281921,7 @@
 				"Defence": 50
 			},
 			"class": "magic",
-			"lp": 0,
+			"lp": 250,
 			"tier": 50,
 			"speed": 0,
 			"damage": 0,
@@ -281869,7 +281939,7 @@
 				"Defence": 50
 			},
 			"class": "magic",
-			"lp": 0,
+			"lp": 250,
 			"tier": 50,
 			"speed": 0,
 			"damage": 0,
@@ -281887,7 +281957,7 @@
 				"Defence": 50
 			},
 			"class": "magic",
-			"lp": 0,
+			"lp": 500,
 			"tier": 50,
 			"speed": 0,
 			"damage": 0,
@@ -281905,7 +281975,7 @@
 				"Defence": 50
 			},
 			"class": "magic",
-			"lp": 0,
+			"lp": 750,
 			"tier": 50,
 			"speed": 0,
 			"damage": 0,
@@ -281923,7 +281993,7 @@
 				"Defence": 50
 			},
 			"class": "magic",
-			"lp": 0,
+			"lp": 750,
 			"tier": 50,
 			"speed": 0,
 			"damage": 0,
@@ -281961,7 +282031,7 @@
 				"Defence": 85
 			},
 			"class": "ranged",
-			"lp": 420,
+			"lp": 1275,
 			"tier": 83,
 			"speed": 0,
 			"damage": 0,
@@ -281980,7 +282050,7 @@
 				"Defence": 85
 			},
 			"class": "ranged",
-			"lp": 560,
+			"lp": 1275,
 			"tier": 83,
 			"speed": 0,
 			"damage": 0,
@@ -282020,7 +282090,7 @@
 				"Defence": 85
 			},
 			"class": "ranged",
-			"lp": 280,
+			"lp": 850,
 			"tier": 83,
 			"speed": 0,
 			"damage": 0,
@@ -283828,7 +283898,7 @@
 				"Defence": 70
 			},
 			"class": "melee",
-			"lp": 0,
+			"lp": 700,
 			"tier": 70,
 			"speed": 0,
 			"damage": 0,
@@ -283847,7 +283917,7 @@
 				"Defence": 70
 			},
 			"class": "melee",
-			"lp": 0,
+			"lp": 1050,
 			"tier": 70,
 			"speed": 0,
 			"damage": 0,
@@ -283866,7 +283936,7 @@
 				"Defence": 70
 			},
 			"class": "melee",
-			"lp": 0,
+			"lp": 1050,
 			"tier": 70,
 			"speed": 0,
 			"damage": 0,
@@ -284000,7 +284070,7 @@
 				"Defence": 75
 			},
 			"class": "ranged",
-			"lp": 0,
+			"lp": 1125,
 			"tier": 75,
 			"speed": 0,
 			"damage": 0,
@@ -284019,7 +284089,7 @@
 				"Defence": 75
 			},
 			"class": "ranged",
-			"lp": 0,
+			"lp": 375,
 			"tier": 75,
 			"speed": 0,
 			"damage": 0,
@@ -284037,7 +284107,7 @@
 				"Defence": 75
 			},
 			"class": "ranged",
-			"lp": 0,
+			"lp": 1125,
 			"tier": 75,
 			"speed": 0,
 			"damage": 0,
@@ -284056,7 +284126,7 @@
 				"Defence": 75
 			},
 			"class": "ranged",
-			"lp": 0,
+			"lp": 750,
 			"tier": 75,
 			"speed": 0,
 			"damage": 0,
@@ -284075,7 +284145,7 @@
 				"Defence": 75
 			},
 			"class": "ranged",
-			"lp": 0,
+			"lp": 375,
 			"tier": 75,
 			"speed": 0,
 			"damage": 0,
@@ -286279,7 +286349,7 @@
 				"Defence": 90
 			},
 			"class": "melee",
-			"lp": 0,
+			"lp": 450,
 			"tier": 81,
 			"speed": 0,
 			"damage": 0,
@@ -286298,7 +286368,7 @@
 				"Defence": 90
 			},
 			"class": "melee",
-			"lp": 0,
+			"lp": 450,
 			"tier": 82,
 			"speed": 0,
 			"damage": 0,
@@ -286317,7 +286387,7 @@
 				"Defence": 90
 			},
 			"class": "melee",
-			"lp": 0,
+			"lp": 450,
 			"tier": 83,
 			"speed": 0,
 			"damage": 0,
@@ -286336,7 +286406,7 @@
 				"Defence": 90
 			},
 			"class": "melee",
-			"lp": 0,
+			"lp": 450,
 			"tier": 84,
 			"speed": 0,
 			"damage": 0,
@@ -286355,7 +286425,7 @@
 				"Defence": 90
 			},
 			"class": "melee",
-			"lp": 0,
+			"lp": 450,
 			"tier": 85,
 			"speed": 0,
 			"damage": 0,
@@ -286374,7 +286444,7 @@
 				"Defence": 90
 			},
 			"class": "melee",
-			"lp": 0,
+			"lp": 450,
 			"tier": 80,
 			"speed": 0,
 			"damage": 0,
@@ -286393,7 +286463,7 @@
 				"Defence": 90
 			},
 			"class": "melee",
-			"lp": 240,
+			"lp": 900,
 			"tier": 81,
 			"speed": 0,
 			"damage": 0,
@@ -286412,7 +286482,7 @@
 				"Defence": 90
 			},
 			"class": "melee",
-			"lp": 260,
+			"lp": 900,
 			"tier": 82,
 			"speed": 0,
 			"damage": 0,
@@ -286431,7 +286501,7 @@
 				"Defence": 90
 			},
 			"class": "melee",
-			"lp": 280,
+			"lp": 900,
 			"tier": 83,
 			"speed": 0,
 			"damage": 0,
@@ -286450,7 +286520,7 @@
 				"Defence": 90
 			},
 			"class": "melee",
-			"lp": 300,
+			"lp": 900,
 			"tier": 84,
 			"speed": 0,
 			"damage": 0,
@@ -286469,7 +286539,7 @@
 				"Defence": 90
 			},
 			"class": "melee",
-			"lp": 320,
+			"lp": 900,
 			"tier": 85,
 			"speed": 0,
 			"damage": 0,
@@ -286488,7 +286558,7 @@
 				"Defence": 90
 			},
 			"class": "melee",
-			"lp": 220,
+			"lp": 900,
 			"tier": 80,
 			"speed": 0,
 			"damage": 0,
@@ -286507,7 +286577,7 @@
 				"Defence": 90
 			},
 			"class": "melee",
-			"lp": 0,
+			"lp": 450,
 			"tier": 81,
 			"speed": 0,
 			"damage": 0,
@@ -286526,7 +286596,7 @@
 				"Defence": 90
 			},
 			"class": "melee",
-			"lp": 0,
+			"lp": 450,
 			"tier": 82,
 			"speed": 0,
 			"damage": 0,
@@ -286545,7 +286615,7 @@
 				"Defence": 90
 			},
 			"class": "melee",
-			"lp": 0,
+			"lp": 450,
 			"tier": 83,
 			"speed": 0,
 			"damage": 0,
@@ -286564,7 +286634,7 @@
 				"Defence": 90
 			},
 			"class": "melee",
-			"lp": 0,
+			"lp": 450,
 			"tier": 84,
 			"speed": 0,
 			"damage": 0,
@@ -286583,7 +286653,7 @@
 				"Defence": 90
 			},
 			"class": "melee",
-			"lp": 0,
+			"lp": 450,
 			"tier": 85,
 			"speed": 0,
 			"damage": 0,
@@ -286602,7 +286672,7 @@
 				"Defence": 90
 			},
 			"class": "melee",
-			"lp": 0,
+			"lp": 450,
 			"tier": 80,
 			"speed": 0,
 			"damage": 0,
@@ -287033,7 +287103,7 @@
 				"Defence": 90
 			},
 			"class": "melee",
-			"lp": 480,
+			"lp": 1350,
 			"tier": 81,
 			"speed": 0,
 			"damage": 0,
@@ -287052,7 +287122,7 @@
 				"Defence": 90
 			},
 			"class": "melee",
-			"lp": 520,
+			"lp": 1350,
 			"tier": 82,
 			"speed": 0,
 			"damage": 0,
@@ -287071,7 +287141,7 @@
 				"Defence": 90
 			},
 			"class": "melee",
-			"lp": 560,
+			"lp": 1350,
 			"tier": 83,
 			"speed": 0,
 			"damage": 0,
@@ -287090,7 +287160,7 @@
 				"Defence": 90
 			},
 			"class": "melee",
-			"lp": 600,
+			"lp": 1350,
 			"tier": 84,
 			"speed": 0,
 			"damage": 0,
@@ -287109,7 +287179,7 @@
 				"Defence": 90
 			},
 			"class": "melee",
-			"lp": 640,
+			"lp": 1350,
 			"tier": 85,
 			"speed": 0,
 			"damage": 0,
@@ -287128,7 +287198,7 @@
 				"Defence": 90
 			},
 			"class": "melee",
-			"lp": 440,
+			"lp": 1350,
 			"tier": 80,
 			"speed": 0,
 			"damage": 0,
@@ -287147,7 +287217,7 @@
 				"Defence": 90
 			},
 			"class": "melee",
-			"lp": 360,
+			"lp": 1350,
 			"tier": 81,
 			"speed": 0,
 			"damage": 0,
@@ -287166,7 +287236,7 @@
 				"Defence": 90
 			},
 			"class": "melee",
-			"lp": 390,
+			"lp": 1350,
 			"tier": 82,
 			"speed": 0,
 			"damage": 0,
@@ -287185,7 +287255,7 @@
 				"Defence": 90
 			},
 			"class": "melee",
-			"lp": 420,
+			"lp": 1350,
 			"tier": 83,
 			"speed": 0,
 			"damage": 0,
@@ -287204,7 +287274,7 @@
 				"Defence": 90
 			},
 			"class": "melee",
-			"lp": 450,
+			"lp": 1350,
 			"tier": 84,
 			"speed": 0,
 			"damage": 0,
@@ -287223,7 +287293,7 @@
 				"Defence": 90
 			},
 			"class": "melee",
-			"lp": 480,
+			"lp": 1350,
 			"tier": 85,
 			"speed": 0,
 			"damage": 0,
@@ -287242,7 +287312,7 @@
 				"Defence": 90
 			},
 			"class": "melee",
-			"lp": 330,
+			"lp": 1350,
 			"tier": 80,
 			"speed": 0,
 			"damage": 0,
@@ -289768,7 +289838,7 @@
 				"Ranged": 25
 			},
 			"class": "ranged",
-			"lp": 0,
+			"lp": 375,
 			"tier": 25,
 			"speed": 0,
 			"damage": 0,
@@ -289787,7 +289857,7 @@
 				"Ranged": 25
 			},
 			"class": "ranged",
-			"lp": 0,
+			"lp": 125,
 			"tier": 25,
 			"speed": 0,
 			"damage": 0,
@@ -289806,7 +289876,7 @@
 				"Ranged": 25
 			},
 			"class": "ranged",
-			"lp": 0,
+			"lp": 375,
 			"tier": 25,
 			"speed": 0,
 			"damage": 0,
@@ -289897,7 +289967,7 @@
 				"Defence": 25
 			},
 			"class": "magic",
-			"lp": 0,
+			"lp": 375,
 			"tier": 25,
 			"speed": 0,
 			"damage": 0,
@@ -289916,7 +289986,7 @@
 				"Defence": 25
 			},
 			"class": "magic",
-			"lp": 0,
+			"lp": 375,
 			"tier": 25,
 			"speed": 0,
 			"damage": 0,
@@ -289935,7 +290005,7 @@
 				"Defence": 25
 			},
 			"class": "magic",
-			"lp": 0,
+			"lp": 250,
 			"tier": 25,
 			"speed": 0,
 			"damage": 0,
@@ -289972,7 +290042,7 @@
 				"Defence": 75
 			},
 			"class": "magic",
-			"lp": 0,
+			"lp": 375,
 			"tier": 75,
 			"speed": 0,
 			"damage": 0,
@@ -289990,7 +290060,7 @@
 				"Defence": 75
 			},
 			"class": "magic",
-			"lp": 0,
+			"lp": 375,
 			"tier": 75,
 			"speed": 0,
 			"damage": 0,
@@ -290008,7 +290078,7 @@
 				"Defence": 75
 			},
 			"class": "magic",
-			"lp": 0,
+			"lp": 1125,
 			"tier": 75,
 			"speed": 0,
 			"damage": 0,
@@ -290022,7 +290092,7 @@
 			"accuracy": 0
 		},
 		"Ganodermic poncho": {
-			"ranged": 0,
+			"ranged": 1125,
 			"requirements": {
 				"Defence": 75
 			},
@@ -290046,7 +290116,7 @@
 				"Defence": 75
 			},
 			"class": "magic",
-			"lp": 0,
+			"lp": 750,
 			"tier": 75,
 			"speed": 0,
 			"damage": 0,
@@ -290763,7 +290833,7 @@
 				"Strength": 55
 			},
 			"class": "melee",
-			"lp": 0,
+			"lp": 825,
 			"tier": 55,
 			"speed": 0,
 			"damage": 0,
@@ -290782,7 +290852,7 @@
 				"Strength": 55
 			},
 			"class": "melee",
-			"lp": 0,
+			"lp": 550,
 			"tier": 55,
 			"speed": 0,
 			"damage": 0,
@@ -290801,7 +290871,7 @@
 				"Strength": 55
 			},
 			"class": "melee",
-			"lp": 0,
+			"lp": 825,
 			"tier": 55,
 			"speed": 0,
 			"damage": 0,
@@ -291085,7 +291155,7 @@
 				"Defence": 40
 			},
 			"class": "ranged",
-			"lp": 0,
+			"lp": 600,
 			"tier": 40,
 			"speed": 0,
 			"damage": 0,
@@ -291103,7 +291173,7 @@
 				"Defence": 40
 			},
 			"class": "ranged",
-			"lp": 0,
+			"lp": 600,
 			"tier": 40,
 			"speed": 0,
 			"damage": 0,
@@ -291121,7 +291191,7 @@
 				"Defence": 40
 			},
 			"class": "ranged",
-			"lp": 0,
+			"lp": 600,
 			"tier": 40,
 			"speed": 0,
 			"damage": 0,
@@ -291139,7 +291209,7 @@
 				"Defence": 40
 			},
 			"class": "ranged",
-			"lp": 0,
+			"lp": 200,
 			"tier": 40,
 			"speed": 0,
 			"damage": 0,
@@ -291157,7 +291227,7 @@
 				"Defence": 40
 			},
 			"class": "ranged",
-			"lp": 0,
+			"lp": 600,
 			"tier": 40,
 			"speed": 0,
 			"damage": 0,
@@ -291175,7 +291245,7 @@
 				"Defence": 40
 			},
 			"class": "ranged",
-			"lp": 0,
+			"lp": 600,
 			"tier": 40,
 			"speed": 0,
 			"damage": 0,
@@ -291193,7 +291263,7 @@
 				"Defence": 40
 			},
 			"class": "ranged",
-			"lp": 0,
+			"lp": 600,
 			"tier": 40,
 			"speed": 0,
 			"damage": 0,
@@ -291211,7 +291281,7 @@
 				"Defence": 40
 			},
 			"class": "ranged",
-			"lp": 0,
+			"lp": 400,
 			"tier": 40,
 			"speed": 0,
 			"damage": 0,
@@ -291247,7 +291317,7 @@
 				"Defence": 40
 			},
 			"class": "ranged",
-			"lp": 0,
+			"lp": 200,
 			"tier": 40,
 			"speed": 0,
 			"damage": 0,
@@ -291303,7 +291373,7 @@
 				"Defence": 60
 			},
 			"class": "magic",
-			"lp": 0,
+			"lp": 300,
 			"tier": 60,
 			"speed": 0,
 			"damage": 0,
@@ -291321,7 +291391,7 @@
 				"Defence": 60
 			},
 			"class": "magic",
-			"lp": 0,
+			"lp": 900,
 			"tier": 60,
 			"speed": 0,
 			"damage": 0,
@@ -291360,7 +291430,7 @@
 				"Defence": 60
 			},
 			"class": "magic",
-			"lp": 0,
+			"lp": 900,
 			"tier": 60,
 			"speed": 0,
 			"damage": 0,
@@ -291397,7 +291467,7 @@
 				"Defence": 60
 			},
 			"class": "magic",
-			"lp": 0,
+			"lp": 600,
 			"tier": 60,
 			"speed": 0,
 			"damage": 0,
@@ -291550,7 +291620,7 @@
 				"Defence": 70
 			},
 			"class": "melee",
-			"lp": 0,
+			"lp": 1050,
 			"tier": 70,
 			"speed": 0,
 			"damage": 0,
@@ -291569,7 +291639,7 @@
 				"Defence": 70
 			},
 			"class": "melee",
-			"lp": 0,
+			"lp": 700,
 			"tier": 70,
 			"speed": 0,
 			"damage": 0,
@@ -291588,7 +291658,7 @@
 				"Defence": 70
 			},
 			"class": "melee",
-			"lp": 0,
+			"lp": 1050,
 			"tier": 70,
 			"speed": 0,
 			"damage": 0,
@@ -291944,7 +292014,7 @@
 				"Defence": 10
 			},
 			"class": "ranged",
-			"lp": 0,
+			"lp": 150,
 			"tier": 10,
 			"speed": 0,
 			"damage": 0,
@@ -291962,7 +292032,7 @@
 				"Defence": 10
 			},
 			"class": "ranged",
-			"lp": 0,
+			"lp": 50,
 			"tier": 5,
 			"speed": 0,
 			"damage": 0,
@@ -291980,7 +292050,7 @@
 				"Defence": 10
 			},
 			"class": "ranged",
-			"lp": 0,
+			"lp": 150,
 			"tier": 10,
 			"speed": 0,
 			"damage": 0,
@@ -292014,7 +292084,7 @@
 				"Defence": 10
 			},
 			"class": "ranged",
-			"lp": 0,
+			"lp": 50,
 			"tier": 10,
 			"speed": 0,
 			"damage": 0,
@@ -293519,7 +293589,7 @@
 				"Defence": 10
 			},
 			"class": "magic",
-			"lp": 0,
+			"lp": 50,
 			"tier": 10,
 			"speed": 0,
 			"damage": 0,
@@ -293537,7 +293607,7 @@
 				"Defence": 10
 			},
 			"class": "magic",
-			"lp": 0,
+			"lp": 50,
 			"tier": 10,
 			"speed": 0,
 			"damage": 0,
@@ -293555,7 +293625,7 @@
 				"Defence": 10
 			},
 			"class": "magic",
-			"lp": 0,
+			"lp": 100,
 			"tier": 10,
 			"speed": 0,
 			"damage": 0,
@@ -293573,7 +293643,7 @@
 				"Defence": 10
 			},
 			"class": "magic",
-			"lp": 0,
+			"lp": 150,
 			"tier": 10,
 			"speed": 0,
 			"damage": 0,
@@ -293591,7 +293661,7 @@
 				"Defence": 10
 			},
 			"class": "magic",
-			"lp": 0,
+			"lp": 150,
 			"tier": 10,
 			"speed": 0,
 			"damage": 0,
@@ -293648,7 +293718,7 @@
 				"Magic": 50
 			},
 			"class": "magic",
-			"lp": 0,
+			"lp": 275,
 			"tier": 55,
 			"speed": 0,
 			"damage": 0,
@@ -293667,7 +293737,7 @@
 				"Magic": 50
 			},
 			"class": "magic",
-			"lp": 0,
+			"lp": 825,
 			"tier": 55,
 			"speed": 0,
 			"damage": 0,
@@ -293686,7 +293756,7 @@
 				"Magic": 50
 			},
 			"class": "magic",
-			"lp": 0,
+			"lp": 275,
 			"tier": 55,
 			"speed": 0,
 			"damage": 0,
@@ -293705,7 +293775,7 @@
 				"Magic": 50
 			},
 			"class": "magic",
-			"lp": 0,
+			"lp": 550,
 			"tier": 55,
 			"speed": 0,
 			"damage": 0,
@@ -293723,7 +293793,7 @@
 				"Defence": 55
 			},
 			"class": "magic",
-			"lp": 0,
+			"lp": 825,
 			"tier": 55,
 			"speed": 0,
 			"damage": 0,
@@ -293742,7 +293812,7 @@
 				"Prayer": 10
 			},
 			"class": "melee",
-			"lp": 0,
+			"lp": 375,
 			"tier": 25,
 			"speed": 0,
 			"damage": 0,
@@ -293761,7 +293831,7 @@
 				"Prayer": 10
 			},
 			"class": "melee",
-			"lp": 0,
+			"lp": 375,
 			"tier": 25,
 			"speed": 0,
 			"damage": 0,
@@ -293780,7 +293850,7 @@
 				"Prayer": 10
 			},
 			"class": "melee",
-			"lp": 0,
+			"lp": 250,
 			"tier": 25,
 			"speed": 0,
 			"damage": 0,
@@ -293799,7 +293869,7 @@
 				"Prayer": 10
 			},
 			"class": "melee",
-			"lp": 0,
+			"lp": 375,
 			"tier": 25,
 			"speed": 0,
 			"damage": 0,
@@ -294268,7 +294338,7 @@
 				"Defence": 10
 			},
 			"class": "melee",
-			"lp": 0,
+			"lp": 150,
 			"tier": 11,
 			"speed": 0,
 			"damage": 0,
@@ -294286,7 +294356,7 @@
 				"Defence": 10
 			},
 			"class": "melee",
-			"lp": 0,
+			"lp": 150,
 			"tier": 10,
 			"speed": 0,
 			"damage": 0,
@@ -294486,7 +294556,7 @@
 				"Defence": 10
 			},
 			"class": "melee",
-			"lp": 0,
+			"lp": 100,
 			"tier": 11,
 			"speed": 0,
 			"damage": 0,
@@ -294504,7 +294574,7 @@
 				"Defence": 10
 			},
 			"class": "melee",
-			"lp": 0,
+			"lp": 100,
 			"tier": 10,
 			"speed": 0,
 			"damage": 0,
@@ -294522,7 +294592,7 @@
 				"Defence": 10
 			},
 			"class": "melee",
-			"lp": 0,
+			"lp": 50,
 			"tier": 11,
 			"speed": 0,
 			"damage": 0,
@@ -294540,7 +294610,7 @@
 				"Defence": 10
 			},
 			"class": "melee",
-			"lp": 0,
+			"lp": 50,
 			"tier": 10,
 			"speed": 0,
 			"damage": 0,
@@ -294797,7 +294867,7 @@
 				"Defence": 10
 			},
 			"class": "melee",
-			"lp": 0,
+			"lp": 100,
 			"tier": 11,
 			"speed": 0,
 			"damage": 0,
@@ -294815,7 +294885,7 @@
 				"Defence": 10
 			},
 			"class": "melee",
-			"lp": 0,
+			"lp": 100,
 			"tier": 10,
 			"speed": 0,
 			"damage": 0,
@@ -295192,7 +295262,7 @@
 				"Defence": 10
 			},
 			"class": "melee",
-			"lp": 0,
+			"lp": 150,
 			"tier": 11,
 			"speed": 0,
 			"damage": 0,
@@ -295210,7 +295280,7 @@
 				"Defence": 10
 			},
 			"class": "melee",
-			"lp": 0,
+			"lp": 150,
 			"tier": 10,
 			"speed": 0,
 			"damage": 0,
@@ -295228,7 +295298,7 @@
 				"Defence": 10
 			},
 			"class": "melee",
-			"lp": 0,
+			"lp": 150,
 			"tier": 11,
 			"speed": 0,
 			"damage": 0,
@@ -295246,7 +295316,7 @@
 				"Defence": 10
 			},
 			"class": "melee",
-			"lp": 0,
+			"lp": 150,
 			"tier": 10,
 			"speed": 0,
 			"damage": 0,
@@ -295264,7 +295334,7 @@
 				"Defence": 10
 			},
 			"class": "melee",
-			"lp": 0,
+			"lp": 150,
 			"tier": 11,
 			"speed": 0,
 			"damage": 0,
@@ -295282,7 +295352,7 @@
 				"Defence": 10
 			},
 			"class": "melee",
-			"lp": 0,
+			"lp": 150,
 			"tier": 10,
 			"speed": 0,
 			"damage": 0,
@@ -295879,7 +295949,7 @@
 				"Defence": 70
 			},
 			"class": "ranged",
-			"lp": 0,
+			"lp": 700,
 			"tier": 70,
 			"speed": 0,
 			"damage": 0,
@@ -295919,7 +295989,7 @@
 				"Defence": 70
 			},
 			"class": "ranged",
-			"lp": 0,
+			"lp": 1050,
 			"tier": 70,
 			"speed": 0,
 			"damage": 0,
@@ -295938,7 +296008,7 @@
 				"Defence": 70
 			},
 			"class": "ranged",
-			"lp": 0,
+			"lp": 1050,
 			"tier": 70,
 			"speed": 0,
 			"damage": 0,
@@ -296517,7 +296587,7 @@
 				"Defence": 50
 			},
 			"class": "magic",
-			"lp": 0,
+			"lp": 250,
 			"tier": 50,
 			"speed": 0,
 			"damage": 0,
@@ -296535,7 +296605,7 @@
 				"Defence": 50
 			},
 			"class": "magic",
-			"lp": 0,
+			"lp": 250,
 			"tier": 50,
 			"speed": 0,
 			"damage": 0,
@@ -296553,7 +296623,7 @@
 				"Defence": 50
 			},
 			"class": "magic",
-			"lp": 0,
+			"lp": 500,
 			"tier": 50,
 			"speed": 0,
 			"damage": 0,
@@ -296571,7 +296641,7 @@
 				"Defence": 50
 			},
 			"class": "magic",
-			"lp": 0,
+			"lp": 750,
 			"tier": 50,
 			"speed": 0,
 			"damage": 0,
@@ -296589,7 +296659,7 @@
 				"Defence": 50
 			},
 			"class": "magic",
-			"lp": 0,
+			"lp": 750,
 			"tier": 50,
 			"speed": 0,
 			"damage": 0,
@@ -296607,7 +296677,7 @@
 				"Defence": 80
 			},
 			"class": "melee",
-			"lp": 0,
+			"lp": 1200,
 			"tier": 80,
 			"speed": 0,
 			"damage": 0,
@@ -296626,7 +296696,7 @@
 				"Defence": 80
 			},
 			"class": "melee",
-			"lp": 0,
+			"lp": 1200,
 			"tier": 80,
 			"speed": 0,
 			"damage": 0,
@@ -296666,7 +296736,7 @@
 				"Defence": 80
 			},
 			"class": "melee",
-			"lp": 0,
+			"lp": 800,
 			"tier": 80,
 			"speed": 0,
 			"damage": 0,
@@ -298808,7 +298878,7 @@
 				"Defence": 30
 			},
 			"class": "melee",
-			"lp": 0,
+			"lp":150,
 			"tier": 31,
 			"speed": 0,
 			"damage": 0,
@@ -298826,7 +298896,7 @@
 				"Defence": 30
 			},
 			"class": "melee",
-			"lp": 0,
+			"lp":150,
 			"tier": 32,
 			"speed": 0,
 			"damage": 0,
@@ -298844,7 +298914,7 @@
 				"Defence": 30
 			},
 			"class": "melee",
-			"lp": 0,
+			"lp":150,
 			"tier": 30,
 			"speed": 0,
 			"damage": 0,
@@ -299082,7 +299152,7 @@
 				"Defence": 30
 			},
 			"class": "melee",
-			"lp": 0,
+			"lp":450,
 			"tier": 31,
 			"speed": 0,
 			"damage": 0,
@@ -299100,7 +299170,7 @@
 				"Defence": 30
 			},
 			"class": "melee",
-			"lp": 0,
+			"lp":450,
 			"tier": 32,
 			"speed": 0,
 			"damage": 0,
@@ -299118,7 +299188,7 @@
 				"Defence": 30
 			},
 			"class": "melee",
-			"lp": 0,
+			"lp":450,
 			"tier": 30,
 			"speed": 0,
 			"damage": 0,
@@ -299358,7 +299428,7 @@
 				"Defence": 30
 			},
 			"class": "melee",
-			"lp": 0,
+			"lp": 300,
 			"tier": 31,
 			"speed": 0,
 			"damage": 0,
@@ -299376,7 +299446,7 @@
 				"Defence": 30
 			},
 			"class": "melee",
-			"lp": 0,
+			"lp": 300,
 			"tier": 32,
 			"speed": 0,
 			"damage": 0,
@@ -299394,7 +299464,7 @@
 				"Defence": 30
 			},
 			"class": "melee",
-			"lp": 0,
+			"lp": 300,
 			"tier": 30,
 			"speed": 0,
 			"damage": 0,
@@ -299412,7 +299482,7 @@
 				"Defence": 30
 			},
 			"class": "melee",
-			"lp": 0,
+			"lp": 150,
 			"tier": 31,
 			"speed": 0,
 			"damage": 0,
@@ -299430,7 +299500,7 @@
 				"Defence": 30
 			},
 			"class": "melee",
-			"lp": 0,
+			"lp": 150,
 			"tier": 32,
 			"speed": 0,
 			"damage": 0,
@@ -299448,7 +299518,7 @@
 				"Defence": 30
 			},
 			"class": "melee",
-			"lp": 0,
+			"lp": 150,
 			"tier": 30,
 			"speed": 0,
 			"damage": 0,
@@ -299763,7 +299833,7 @@
 				"Defence": 30
 			},
 			"class": "melee",
-			"lp": 0,
+			"lp": 300,
 			"tier": 31,
 			"speed": 0,
 			"damage": 0,
@@ -299781,7 +299851,7 @@
 				"Defence": 30
 			},
 			"class": "melee",
-			"lp": 0,
+			"lp": 300,
 			"tier": 32,
 			"speed": 0,
 			"damage": 0,
@@ -299799,7 +299869,7 @@
 				"Defence": 30
 			},
 			"class": "melee",
-			"lp": 0,
+			"lp": 300,
 			"tier": 30,
 			"speed": 0,
 			"damage": 0,
@@ -300357,7 +300427,7 @@
 				"Defence": 30
 			},
 			"class": "melee",
-			"lp": 0,
+			"lp": 450,
 			"tier": 31,
 			"speed": 0,
 			"damage": 0,
@@ -300375,7 +300445,7 @@
 				"Defence": 30
 			},
 			"class": "melee",
-			"lp": 0,
+			"lp": 450,
 			"tier": 32,
 			"speed": 0,
 			"damage": 0,
@@ -300393,7 +300463,7 @@
 				"Defence": 30
 			},
 			"class": "melee",
-			"lp": 0,
+			"lp": 450,
 			"tier": 30,
 			"speed": 0,
 			"damage": 0,
@@ -300411,7 +300481,7 @@
 				"Defence": 30
 			},
 			"class": "melee",
-			"lp": 0,
+			"lp": 450,
 			"tier": 31,
 			"speed": 0,
 			"damage": 0,
@@ -300429,7 +300499,7 @@
 				"Defence": 30
 			},
 			"class": "melee",
-			"lp": 0,
+			"lp": 450,
 			"tier": 32,
 			"speed": 0,
 			"damage": 0,
@@ -300447,7 +300517,7 @@
 				"Defence": 30
 			},
 			"class": "melee",
-			"lp": 0,
+			"lp": 450,
 			"tier": 30,
 			"speed": 0,
 			"damage": 0,
@@ -300465,7 +300535,7 @@
 				"Defence": 30
 			},
 			"class": "melee",
-			"lp": 0,
+			"lp": 450,
 			"tier": 31,
 			"speed": 0,
 			"damage": 0,
@@ -300483,7 +300553,7 @@
 				"Defence": 30
 			},
 			"class": "melee",
-			"lp": 0,
+			"lp": 450,
 			"tier": 32,
 			"speed": 0,
 			"damage": 0,
@@ -300501,7 +300571,7 @@
 				"Defence": 30
 			},
 			"class": "melee",
-			"lp": 0,
+			"lp": 450,
 			"tier": 30,
 			"speed": 0,
 			"damage": 0,
@@ -301069,7 +301139,7 @@
 				"Defence": 5
 			},
 			"class": "magic",
-			"lp": 0,
+			"lp": 75,
 			"tier": 5,
 			"speed": 0,
 			"damage": 0,
@@ -301087,7 +301157,7 @@
 				"Defence": 5
 			},
 			"class": "magic",
-			"lp": 0,
+			"lp": 75,
 			"tier": 5,
 			"speed": 0,
 			"damage": 0,
@@ -301105,7 +301175,7 @@
 				"Defence": 5
 			},
 			"class": "magic",
-			"lp": 0,
+			"lp": 50,
 			"tier": 5,
 			"speed": 0,
 			"damage": 0,
@@ -301143,7 +301213,7 @@
 				"Defence": 50
 			},
 			"class": "magic",
-			"lp": 0,
+			"lp": 250,
 			"tier": 50,
 			"speed": 0,
 			"damage": 0,
@@ -301201,7 +301271,7 @@
 				"Defence": 50
 			},
 			"class": "magic",
-			"lp": 0,
+			"lp": 250,
 			"tier": 50,
 			"speed": 0,
 			"damage": 0,
@@ -301219,7 +301289,7 @@
 				"Defence": 50
 			},
 			"class": "magic",
-			"lp": 0,
+			"lp": 500,
 			"tier": 50,
 			"speed": 0,
 			"damage": 0,
@@ -301297,7 +301367,7 @@
 				"Defence": 50
 			},
 			"class": "magic",
-			"lp": 0,
+			"lp":75 0,
 			"tier": 50,
 			"speed": 0,
 			"damage": 0,
@@ -301315,7 +301385,7 @@
 				"Defence": 50
 			},
 			"class": "magic",
-			"lp": 0,
+			"lp": 750,
 			"tier": 50,
 			"speed": 0,
 			"damage": 0,
@@ -301642,7 +301712,7 @@
 				"Defence": 70
 			},
 			"class": "melee",
-			"lp": 0,
+			"lp": 350,
 			"tier": 71,
 			"speed": 0,
 			"damage": 0,
@@ -301661,7 +301731,7 @@
 				"Defence": 70
 			},
 			"class": "melee",
-			"lp": 0,
+			"lp": 350,
 			"tier": 72,
 			"speed": 0,
 			"damage": 0,
@@ -301680,7 +301750,7 @@
 				"Defence": 70
 			},
 			"class": "melee",
-			"lp": 0,
+			"lp": 350,
 			"tier": 73,
 			"speed": 0,
 			"damage": 0,
@@ -301699,7 +301769,7 @@
 				"Defence": 70
 			},
 			"class": "melee",
-			"lp": 0,
+			"lp": 350,
 			"tier": 74,
 			"speed": 0,
 			"damage": 0,
@@ -301718,7 +301788,7 @@
 				"Defence": 70
 			},
 			"class": "melee",
-			"lp": 0,
+			"lp": 350,
 			"tier": 70,
 			"speed": 0,
 			"damage": 0,
@@ -301842,7 +301912,7 @@
 				"Defence": 70
 			},
 			"class": "melee",
-			"lp": 40,
+			"lp": 700,
 			"tier": 71,
 			"speed": 0,
 			"damage": 0,
@@ -301861,7 +301931,7 @@
 				"Defence": 70
 			},
 			"class": "melee",
-			"lp": 60,
+			"lp": 700,
 			"tier": 72,
 			"speed": 0,
 			"damage": 0,
@@ -301880,7 +301950,7 @@
 				"Defence": 70
 			},
 			"class": "melee",
-			"lp": 80,
+			"lp": 700,
 			"tier": 73,
 			"speed": 0,
 			"damage": 0,
@@ -301899,7 +301969,7 @@
 				"Defence": 70
 			},
 			"class": "melee",
-			"lp": 100,
+			"lp": 700,
 			"tier": 74,
 			"speed": 0,
 			"damage": 0,
@@ -301918,7 +301988,7 @@
 				"Defence": 70
 			},
 			"class": "melee",
-			"lp": 20,
+			"lp": 700,
 			"tier": 70,
 			"speed": 0,
 			"damage": 0,
@@ -301937,7 +302007,7 @@
 				"Defence": 70
 			},
 			"class": "melee",
-			"lp": 0,
+			"lp": 350,
 			"tier": 71,
 			"speed": 0,
 			"damage": 0,
@@ -301956,7 +302026,7 @@
 				"Defence": 70
 			},
 			"class": "melee",
-			"lp": 0,
+			"lp": 350,
 			"tier": 72,
 			"speed": 0,
 			"damage": 0,
@@ -301975,7 +302045,7 @@
 				"Defence": 70
 			},
 			"class": "melee",
-			"lp": 0,
+			"lp": 350,
 			"tier": 73,
 			"speed": 0,
 			"damage": 0,
@@ -301994,7 +302064,7 @@
 				"Defence": 70
 			},
 			"class": "melee",
-			"lp": 0,
+			"lp": 350,
 			"tier": 74,
 			"speed": 0,
 			"damage": 0,
@@ -302013,7 +302083,7 @@
 				"Defence": 70
 			},
 			"class": "melee",
-			"lp": 0,
+			"lp": 350,
 			"tier": 70,
 			"speed": 0,
 			"damage": 0,
@@ -302372,7 +302442,7 @@
 				"Defence": 70
 			},
 			"class": "melee",
-			"lp": 80,
+			"lp": 1050,
 			"tier": 71,
 			"speed": 0,
 			"damage": 0,
@@ -302391,7 +302461,7 @@
 				"Defence": 70
 			},
 			"class": "melee",
-			"lp": 120,
+			"lp": 1050,
 			"tier": 72,
 			"speed": 0,
 			"damage": 0,
@@ -302410,7 +302480,7 @@
 				"Defence": 70
 			},
 			"class": "melee",
-			"lp": 160,
+			"lp": 1050,
 			"tier": 73,
 			"speed": 0,
 			"damage": 0,
@@ -302429,7 +302499,7 @@
 				"Defence": 70
 			},
 			"class": "melee",
-			"lp": 200,
+			"lp": 1050,
 			"tier": 74,
 			"speed": 0,
 			"damage": 0,
@@ -302448,7 +302518,7 @@
 				"Defence": 70
 			},
 			"class": "melee",
-			"lp": 40,
+			"lp": 1050,
 			"tier": 70,
 			"speed": 0,
 			"damage": 0,
@@ -302467,7 +302537,7 @@
 				"Defence": 70
 			},
 			"class": "melee",
-			"lp": 60,
+			"lp": 1050,
 			"tier": 71,
 			"speed": 0,
 			"damage": 0,
@@ -302486,7 +302556,7 @@
 				"Defence": 70
 			},
 			"class": "melee",
-			"lp": 90,
+			"lp": 1050,
 			"tier": 72,
 			"speed": 0,
 			"damage": 0,
@@ -302505,7 +302575,7 @@
 				"Defence": 70
 			},
 			"class": "melee",
-			"lp": 120,
+			"lp": 1050,
 			"tier": 73,
 			"speed": 0,
 			"damage": 0,
@@ -302524,7 +302594,7 @@
 				"Defence": 70
 			},
 			"class": "melee",
-			"lp": 150,
+			"lp": 1050,
 			"tier": 74,
 			"speed": 0,
 			"damage": 0,
@@ -302543,7 +302613,7 @@
 				"Defence": 70
 			},
 			"class": "melee",
-			"lp": 30,
+			"lp": 1050,
 			"tier": 70,
 			"speed": 0,
 			"damage": 0,
@@ -305550,7 +305620,7 @@
 				"Defence": 60
 			},
 			"class": "melee",
-			"lp": 0,
+			"lp": 300,
 			"tier": 61,
 			"speed": 0,
 			"damage": 0,
@@ -305568,7 +305638,7 @@
 				"Defence": 60
 			},
 			"class": "melee",
-			"lp": 0,
+			"lp": 300,
 			"tier": 62,
 			"speed": 0,
 			"damage": 0,
@@ -305586,7 +305656,7 @@
 				"Defence": 60
 			},
 			"class": "melee",
-			"lp": 0,
+			"lp": 300,
 			"tier": 63,
 			"speed": 0,
 			"damage": 0,
@@ -305604,7 +305674,7 @@
 				"Defence": 60
 			},
 			"class": "melee",
-			"lp": 0,
+			"lp": 300,
 			"tier": 60,
 			"speed": 0,
 			"damage": 0,
@@ -305622,7 +305692,7 @@
 				"Defence": 60
 			},
 			"class": "melee",
-			"lp": 0,
+			"lp": 600,
 			"tier": 61,
 			"speed": 0,
 			"damage": 0,
@@ -305640,7 +305710,7 @@
 				"Defence": 60
 			},
 			"class": "melee",
-			"lp": 0,
+			"lp": 600,
 			"tier": 62,
 			"speed": 0,
 			"damage": 0,
@@ -305658,7 +305728,7 @@
 				"Defence": 60
 			},
 			"class": "melee",
-			"lp": 0,
+			"lp": 600,
 			"tier": 63,
 			"speed": 0,
 			"damage": 0,
@@ -305676,7 +305746,7 @@
 				"Defence": 60
 			},
 			"class": "melee",
-			"lp": 0,
+			"lp": 600,
 			"tier": 60,
 			"speed": 0,
 			"damage": 0,
@@ -305694,7 +305764,7 @@
 				"Defence": 60
 			},
 			"class": "melee",
-			"lp": 0,
+			"lp": 300,
 			"tier": 61,
 			"speed": 0,
 			"damage": 0,
@@ -305712,7 +305782,7 @@
 				"Defence": 60
 			},
 			"class": "melee",
-			"lp": 0,
+			"lp": 300,
 			"tier": 62,
 			"speed": 0,
 			"damage": 0,
@@ -305730,7 +305800,7 @@
 				"Defence": 60
 			},
 			"class": "melee",
-			"lp": 0,
+			"lp": 300,
 			"tier": 63,
 			"speed": 0,
 			"damage": 0,
@@ -305748,7 +305818,7 @@
 				"Defence": 60
 			},
 			"class": "melee",
-			"lp": 0,
+			"lp": 300,
 			"tier": 60,
 			"speed": 0,
 			"damage": 0,
@@ -306018,7 +306088,7 @@
 				"Defence": 60
 			},
 			"class": "melee",
-			"lp": 0,
+			"lp": 900,
 			"tier": 61,
 			"speed": 0,
 			"damage": 0,
@@ -306036,7 +306106,7 @@
 				"Defence": 60
 			},
 			"class": "melee",
-			"lp": 0,
+			"lp": 900,
 			"tier": 62,
 			"speed": 0,
 			"damage": 0,
@@ -306054,7 +306124,7 @@
 				"Defence": 60
 			},
 			"class": "melee",
-			"lp": 0,
+			"lp": 900,
 			"tier": 63,
 			"speed": 0,
 			"damage": 0,
@@ -306072,7 +306142,7 @@
 				"Defence": 60
 			},
 			"class": "melee",
-			"lp": 0,
+			"lp": 900,
 			"tier": 60,
 			"speed": 0,
 			"damage": 0,
@@ -306090,7 +306160,7 @@
 				"Defence": 60
 			},
 			"class": "melee",
-			"lp": 0,
+			"lp": 900,
 			"tier": 61,
 			"speed": 0,
 			"damage": 0,
@@ -306108,7 +306178,7 @@
 				"Defence": 60
 			},
 			"class": "melee",
-			"lp": 0,
+			"lp": 900,
 			"tier": 62,
 			"speed": 0,
 			"damage": 0,
@@ -306126,7 +306196,7 @@
 				"Defence": 60
 			},
 			"class": "melee",
-			"lp": 0,
+			"lp": 900,
 			"tier": 63,
 			"speed": 0,
 			"damage": 0,
@@ -306144,7 +306214,7 @@
 				"Defence": 60
 			},
 			"class": "melee",
-			"lp": 0,
+			"lp": 900,
 			"tier": 60,
 			"speed": 0,
 			"damage": 0,
@@ -306170,7 +306240,7 @@
 			},
 			"speed": 5,
 			"tier": 61,
-			"lp": 0,
+			"lp": 900,
 			"attack_range": 1,
 			"class": "melee",
 			"accuracy": 1164,
@@ -306190,7 +306260,7 @@
 			},
 			"speed": 5,
 			"tier": 62,
-			"lp": 0,
+			"lp": 900,
 			"attack_range": 1,
 			"class": "melee",
 			"accuracy": 1197,
@@ -306210,7 +306280,7 @@
 			},
 			"speed": 5,
 			"tier": 63,
-			"lp": 0,
+			"lp": 900,
 			"attack_range": 1,
 			"class": "melee",
 			"accuracy": 1230,
@@ -307113,7 +307183,7 @@
 				"Defence": 99
 			},
 			"class": "melee",
-			"lp": 0,
+			"lp": 495,
 			"tier": 85,
 			"speed": 0,
 			"damage": 0,
@@ -307132,7 +307202,7 @@
 				"Defence": 99
 			},
 			"class": "melee",
-			"lp": 0,
+			"lp": 495,
 			"tier": 86,
 			"speed": 0,
 			"damage": 0,
@@ -307151,7 +307221,7 @@
 				"Defence": 99
 			},
 			"class": "melee",
-			"lp": 0,
+			"lp": 495,
 			"tier": 87,
 			"speed": 0,
 			"damage": 0,
@@ -307170,7 +307240,7 @@
 				"Defence": 99
 			},
 			"class": "melee",
-			"lp": 0,
+			"lp": 495,
 			"tier": 88,
 			"speed": 0,
 			"damage": 0,
@@ -307189,7 +307259,7 @@
 				"Defence": 99
 			},
 			"class": "melee",
-			"lp": 0,
+			"lp": 495,
 			"tier": 89,
 			"speed": 0,
 			"damage": 0,
@@ -307208,7 +307278,7 @@
 				"Defence": 99
 			},
 			"class": "melee",
-			"lp": 0,
+			"lp": 495,
 			"tier": 90,
 			"speed": 0,
 			"damage": 0,
@@ -307267,7 +307337,7 @@
 				"Defence": 99
 			},
 			"class": "melee",
-			"lp": 320,
+			"lp": 990,
 			"tier": 85,
 			"speed": 0,
 			"damage": 0,
@@ -307286,7 +307356,7 @@
 				"Defence": 99
 			},
 			"class": "melee",
-			"lp": 340,
+			"lp": 990,
 			"tier": 86,
 			"speed": 0,
 			"damage": 0,
@@ -307305,7 +307375,7 @@
 				"Defence": 99
 			},
 			"class": "melee",
-			"lp": 360,
+			"lp": 990,
 			"tier": 87,
 			"speed": 0,
 			"damage": 0,
@@ -307324,7 +307394,7 @@
 				"Defence": 99
 			},
 			"class": "melee",
-			"lp": 380,
+			"lp": 990,
 			"tier": 88,
 			"speed": 0,
 			"damage": 0,
@@ -307343,7 +307413,7 @@
 				"Defence": 99
 			},
 			"class": "melee",
-			"lp": 400,
+			"lp": 990,
 			"tier": 89,
 			"speed": 0,
 			"damage": 0,
@@ -307362,7 +307432,7 @@
 				"Defence": 99
 			},
 			"class": "melee",
-			"lp": 420,
+			"lp": 990,
 			"tier": 90,
 			"speed": 0,
 			"damage": 0,
@@ -307381,7 +307451,7 @@
 				"Defence": 99
 			},
 			"class": "melee",
-			"lp": 0,
+			"lp": 495,
 			"tier": 85,
 			"speed": 0,
 			"damage": 0,
@@ -307400,7 +307470,7 @@
 				"Defence": 99
 			},
 			"class": "melee",
-			"lp": 0,
+			"lp": 495,
 			"tier": 86,
 			"speed": 0,
 			"damage": 0,
@@ -307419,7 +307489,7 @@
 				"Defence": 99
 			},
 			"class": "melee",
-			"lp": 0,
+			"lp": 495,
 			"tier": 87,
 			"speed": 0,
 			"damage": 0,
@@ -307438,7 +307508,7 @@
 				"Defence": 99
 			},
 			"class": "melee",
-			"lp": 0,
+			"lp": 495,
 			"tier": 88,
 			"speed": 0,
 			"damage": 0,
@@ -307457,7 +307527,7 @@
 				"Defence": 99
 			},
 			"class": "melee",
-			"lp": 0,
+			"lp": 495,
 			"tier": 89,
 			"speed": 0,
 			"damage": 0,
@@ -307476,7 +307546,7 @@
 				"Defence": 99
 			},
 			"class": "melee",
-			"lp": 0,
+			"lp": 495,
 			"tier": 90,
 			"speed": 0,
 			"damage": 0,
@@ -307629,7 +307699,7 @@
 				"Defence": 99
 			},
 			"class": "melee",
-			"lp": 640,
+			"lp": 1485,
 			"tier": 85,
 			"speed": 0,
 			"damage": 0,
@@ -307648,7 +307718,7 @@
 				"Defence": 99
 			},
 			"class": "melee",
-			"lp": 680,
+			"lp": 1485,
 			"tier": 86,
 			"speed": 0,
 			"damage": 0,
@@ -307667,7 +307737,7 @@
 				"Defence": 99
 			},
 			"class": "melee",
-			"lp": 720,
+			"lp": 1485,
 			"tier": 87,
 			"speed": 0,
 			"damage": 0,
@@ -307686,7 +307756,7 @@
 				"Defence": 99
 			},
 			"class": "melee",
-			"lp": 760,
+			"lp": 1485,
 			"tier": 88,
 			"speed": 0,
 			"damage": 0,
@@ -307705,7 +307775,7 @@
 				"Defence": 99
 			},
 			"class": "melee",
-			"lp": 800,
+			"lp": 1485,
 			"tier": 89,
 			"speed": 0,
 			"damage": 0,
@@ -307724,7 +307794,7 @@
 				"Defence": 99
 			},
 			"class": "melee",
-			"lp": 840,
+			"lp": 1485,
 			"tier": 90,
 			"speed": 0,
 			"damage": 0,
@@ -307743,7 +307813,7 @@
 				"Defence": 99
 			},
 			"class": "melee",
-			"lp": 480,
+			"lp": 1485,
 			"tier": 85,
 			"speed": 0,
 			"damage": 0,
@@ -307762,7 +307832,7 @@
 				"Defence": 99
 			},
 			"class": "melee",
-			"lp": 510,
+			"lp": 1485,
 			"tier": 86,
 			"speed": 0,
 			"damage": 0,
@@ -307781,7 +307851,7 @@
 				"Defence": 99
 			},
 			"class": "melee",
-			"lp": 540,
+			"lp": 1485,
 			"tier": 87,
 			"speed": 0,
 			"damage": 0,
@@ -307800,7 +307870,7 @@
 				"Defence": 99
 			},
 			"class": "melee",
-			"lp": 600,
+			"lp": 1485,
 			"tier": 88,
 			"speed": 0,
 			"damage": 0,
@@ -307819,7 +307889,7 @@
 				"Defence": 99
 			},
 			"class": "melee",
-			"lp": 480,
+			"lp": 1485,
 			"tier": 89,
 			"speed": 0,
 			"damage": 0,
@@ -307838,7 +307908,7 @@
 				"Defence": 99
 			},
 			"class": "melee",
-			"lp": 630,
+			"lp": 1485,
 			"tier": 90,
 			"speed": 0,
 			"damage": 0,
@@ -307857,7 +307927,7 @@
 				"Defence": 90
 			},
 			"class": "magic",
-			"lp": 0,
+			"lp": 450,
 			"tier": 90,
 			"speed": 0,
 			"damage": 0,
@@ -307876,7 +307946,7 @@
 				"Defence": 90
 			},
 			"class": "magic",
-			"lp": 0,
+			"lp": 450,
 			"tier": 90,
 			"speed": 0,
 			"damage": 0,
@@ -307895,7 +307965,7 @@
 				"Defence": 90
 			},
 			"class": "magic",
-			"lp": 320,
+			"lp": 900,
 			"tier": 90,
 			"speed": 0,
 			"damage": 0,
@@ -307914,7 +307984,7 @@
 				"Defence": 90
 			},
 			"class": "magic",
-			"lp": 480,
+			"lp": 1350,
 			"tier": 90,
 			"speed": 0,
 			"damage": 0,
@@ -307933,7 +308003,7 @@
 				"Defence": 90
 			},
 			"class": "magic",
-			"lp": 640,
+			"lp": 1350,
 			"tier": 90,
 			"speed": 0,
 			"damage": 0,
@@ -308042,7 +308112,7 @@
 				"Prayer": 20
 			},
 			"class": "melee",
-			"lp": 0,
+			"lp": 450,
 			"tier": 30,
 			"speed": 0,
 			"damage": 0,
@@ -308061,7 +308131,7 @@
 				"Prayer": 20
 			},
 			"class": "melee",
-			"lp": 0,
+			"lp": 450,
 			"tier": 30,
 			"speed": 0,
 			"damage": 0,
@@ -308080,7 +308150,7 @@
 				"Prayer": 20
 			},
 			"class": "melee",
-			"lp": 0,
+			"lp": 300,
 			"tier": 30,
 			"speed": 0,
 			"damage": 0,
@@ -308099,7 +308169,7 @@
 				"Prayer": 20
 			},
 			"class": "melee",
-			"lp": 0,
+			"lp": 450,
 			"tier": 30,
 			"speed": 0,
 			"damage": 0,
@@ -308549,7 +308619,7 @@
 				"Defence": 55
 			},
 			"class": "ranged",
-			"lp": 0,
+			"lp": 825,
 			"tier": 55,
 			"speed": 0,
 			"damage": 0,
@@ -308567,7 +308637,7 @@
 				"Defence": 55
 			},
 			"class": "ranged",
-			"lp": 0,
+			"lp": 275,
 			"tier": 55,
 			"speed": 0,
 			"damage": 0,
@@ -308585,7 +308655,7 @@
 				"Defence": 55
 			},
 			"class": "ranged",
-			"lp": 0,
+			"lp": 825,
 			"tier": 55,
 			"speed": 0,
 			"damage": 0,
@@ -308603,7 +308673,7 @@
 				"Defence": 55
 			},
 			"class": "ranged",
-			"lp": 0,
+			"lp": 550,
 			"tier": 55,
 			"speed": 0,
 			"damage": 0,
@@ -308639,7 +308709,7 @@
 				"Defence": 55
 			},
 			"class": "ranged",
-			"lp": 0,
+			"lp": 275,
 			"tier": 55,
 			"speed": 0,
 			"damage": 0,
@@ -309869,7 +309939,7 @@
 				"Defence": 65
 			},
 			"class": "ranged",
-			"lp": 0,
+			"lp": 975,
 			"tier": 65,
 			"speed": 0,
 			"damage": 0,
@@ -309887,7 +309957,7 @@
 				"Defence": 65
 			},
 			"class": "ranged",
-			"lp": 0,
+			"lp": 325,
 			"tier": 65,
 			"speed": 0,
 			"damage": 0,
@@ -309905,7 +309975,7 @@
 				"Defence": 65
 			},
 			"class": "ranged",
-			"lp": 0,
+			"lp": 975,
 			"tier": 65,
 			"speed": 0,
 			"damage": 0,
@@ -309923,7 +309993,7 @@
 				"Defence": 65
 			},
 			"class": "ranged",
-			"lp": 0,
+			"lp": 650,
 			"tier": 65,
 			"speed": 0,
 			"damage": 0,
@@ -309941,7 +310011,7 @@
 				"Defence": 65
 			},
 			"class": "ranged",
-			"lp": 0,
+			"lp": 325,
 			"tier": 65,
 			"speed": 0,
 			"damage": 0,
@@ -310209,7 +310279,7 @@
 				"Defence": 50
 			},
 			"class": "melee",
-			"lp": 0,
+			"lp": 250,
 			"tier": 51,
 			"speed": 0,
 			"damage": 0,
@@ -310227,7 +310297,7 @@
 				"Defence": 50
 			},
 			"class": "melee",
-			"lp": 0,
+			"lp": 250,
 			"tier": 52,
 			"speed": 0,
 			"damage": 0,
@@ -310245,7 +310315,7 @@
 				"Defence": 50
 			},
 			"class": "melee",
-			"lp": 0,
+			"lp": 250,
 			"tier": 53,
 			"speed": 0,
 			"damage": 0,
@@ -310263,7 +310333,7 @@
 				"Defence": 50
 			},
 			"class": "melee",
-			"lp": 0,
+			"lp": 250,
 			"tier": 50,
 			"speed": 0,
 			"damage": 0,
@@ -310541,7 +310611,7 @@
 				"Defence": 50
 			},
 			"class": "melee",
-			"lp": 0,
+			"lp": 750,
 			"tier": 51,
 			"speed": 0,
 			"damage": 0,
@@ -310559,7 +310629,7 @@
 				"Defence": 50
 			},
 			"class": "melee",
-			"lp": 0,
+			"lp": 750,
 			"tier": 52,
 			"speed": 0,
 			"damage": 0,
@@ -310577,7 +310647,7 @@
 				"Defence": 50
 			},
 			"class": "melee",
-			"lp": 0,
+			"lp": 750,
 			"tier": 53,
 			"speed": 0,
 			"damage": 0,
@@ -310595,7 +310665,7 @@
 				"Defence": 50
 			},
 			"class": "melee",
-			"lp": 0,
+			"lp": 750,
 			"tier": 50,
 			"speed": 0,
 			"damage": 0,
@@ -310875,7 +310945,7 @@
 				"Defence": 50
 			},
 			"class": "melee",
-			"lp": 0,
+			"lp": 500,
 			"tier": 50,
 			"speed": 0,
 			"damage": 0,
@@ -310893,7 +310963,7 @@
 				"Defence": 50
 			},
 			"class": "melee",
-			"lp": 0,
+			"lp": 500,
 			"tier": 50,
 			"speed": 0,
 			"damage": 0,
@@ -310911,7 +310981,7 @@
 				"Defence": 50
 			},
 			"class": "melee",
-			"lp": 0,
+			"lp": 500,
 			"tier": 50,
 			"speed": 0,
 			"damage": 0,
@@ -310929,7 +310999,7 @@
 				"Defence": 50
 			},
 			"class": "melee",
-			"lp": 0,
+			"lp": 500,
 			"tier": 50,
 			"speed": 0,
 			"damage": 0,
@@ -310947,7 +311017,7 @@
 				"Defence": 50
 			},
 			"class": "melee",
-			"lp": 0,
+			"lp": 500,
 			"tier": 50,
 			"speed": 0,
 			"damage": 0,
@@ -310965,7 +311035,7 @@
 				"Defence": 50
 			},
 			"class": "melee",
-			"lp": 0,
+			"lp": 500,
 			"tier": 50,
 			"speed": 0,
 			"damage": 0,
@@ -310983,7 +311053,7 @@
 				"Defence": 50
 			},
 			"class": "melee",
-			"lp": 0,
+			"lp": 500,
 			"tier": 50,
 			"speed": 0,
 			"damage": 0,
@@ -311001,7 +311071,7 @@
 				"Defence": 50
 			},
 			"class": "melee",
-			"lp": 0,
+			"lp": 500,
 			"tier": 50,
 			"speed": 0,
 			"damage": 0,
@@ -311019,7 +311089,7 @@
 				"Defence": 50
 			},
 			"class": "melee",
-			"lp": 0,
+			"lp": 500,
 			"tier": 50,
 			"speed": 0,
 			"damage": 0,
@@ -311037,7 +311107,7 @@
 				"Defence": 50
 			},
 			"class": "melee",
-			"lp": 0,
+			"lp": 500,
 			"tier": 51,
 			"speed": 0,
 			"damage": 0,
@@ -311055,7 +311125,7 @@
 				"Defence": 50
 			},
 			"class": "melee",
-			"lp": 0,
+			"lp": 500,
 			"tier": 52,
 			"speed": 0,
 			"damage": 0,
@@ -311073,7 +311143,7 @@
 				"Defence": 50
 			},
 			"class": "melee",
-			"lp": 0,
+			"lp": 500,
 			"tier": 53,
 			"speed": 0,
 			"damage": 0,
@@ -311091,7 +311161,7 @@
 				"Defence": 50
 			},
 			"class": "melee",
-			"lp": 0,
+			"lp": 500,
 			"tier": 50,
 			"speed": 0,
 			"damage": 0,
@@ -311109,7 +311179,7 @@
 				"Defence": 50
 			},
 			"class": "melee",
-			"lp": 0,
+			"lp": 250,
 			"tier": 51,
 			"speed": 0,
 			"damage": 0,
@@ -311127,7 +311197,7 @@
 				"Defence": 50
 			},
 			"class": "melee",
-			"lp": 0,
+			"lp": 250,
 			"tier": 52,
 			"speed": 0,
 			"damage": 0,
@@ -311145,7 +311215,7 @@
 				"Defence": 50
 			},
 			"class": "melee",
-			"lp": 0,
+			"lp": 250,
 			"tier": 53,
 			"speed": 0,
 			"damage": 0,
@@ -311163,7 +311233,7 @@
 				"Defence": 50
 			},
 			"class": "melee",
-			"lp": 0,
+			"lp": 250,
 			"tier": 50,
 			"speed": 0,
 			"damage": 0,
@@ -311242,7 +311312,7 @@
 				"Defence": 50
 			},
 			"class": "melee",
-			"lp": 0,
+			"lp": 500,
 			"tier": 50,
 			"speed": 0,
 			"damage": 0,
@@ -311260,7 +311330,7 @@
 				"Defence": 50
 			},
 			"class": "melee",
-			"lp": 0,
+			"lp": 500,
 			"tier": 50,
 			"speed": 0,
 			"damage": 0,
@@ -311278,7 +311348,7 @@
 				"Defence": 50
 			},
 			"class": "melee",
-			"lp": 0,
+			"lp": 500,
 			"tier": 50,
 			"speed": 0,
 			"damage": 0,
@@ -311296,7 +311366,7 @@
 				"Defence": 50
 			},
 			"class": "melee",
-			"lp": 0,
+			"lp": 500,
 			"tier": 50,
 			"speed": 0,
 			"damage": 0,
@@ -311314,7 +311384,7 @@
 				"Defence": 50
 			},
 			"class": "melee",
-			"lp": 0,
+			"lp": 500,
 			"tier": 50,
 			"speed": 0,
 			"damage": 0,
@@ -311332,7 +311402,7 @@
 				"Defence": 50
 			},
 			"class": "melee",
-			"lp": 0,
+			"lp": 500,
 			"tier": 50,
 			"speed": 0,
 			"damage": 0,
@@ -311349,7 +311419,7 @@
 				"Defence": 50
 			},
 			"class": "melee",
-			"lp": 0,
+			"lp": 500,
 			"tier": 50,
 			"speed": 0,
 			"damage": 0,
@@ -311366,7 +311436,7 @@
 				"Defence": 50
 			},
 			"class": "melee",
-			"lp": 0,
+			"lp": 500,
 			"tier": 50,
 			"speed": 0,
 			"damage": 0,
@@ -311383,7 +311453,7 @@
 				"Defence": 50
 			},
 			"class": "melee",
-			"lp": 0,
+			"lp": 500,
 			"tier": 50,
 			"speed": 0,
 			"damage": 0,
@@ -311400,7 +311470,7 @@
 				"Defence": 50
 			},
 			"class": "melee",
-			"lp": 0,
+			"lp": 500,
 			"tier": 50,
 			"speed": 0,
 			"damage": 0,
@@ -311417,7 +311487,7 @@
 				"Defence": 50
 			},
 			"class": "melee",
-			"lp": 0,
+			"lp": 500,
 			"tier": 50,
 			"speed": 0,
 			"damage": 0,
@@ -311434,7 +311504,7 @@
 				"Defence": 50
 			},
 			"class": "melee",
-			"lp": 0,
+			"lp": 500,
 			"tier": 50,
 			"speed": 0,
 			"damage": 0,
@@ -311451,7 +311521,7 @@
 				"Defence": 50
 			},
 			"class": "melee",
-			"lp": 0,
+			"lp": 500,
 			"tier": 50,
 			"speed": 0,
 			"damage": 0,
@@ -311468,7 +311538,7 @@
 				"Defence": 50
 			},
 			"class": "melee",
-			"lp": 0,
+			"lp": 500,
 			"tier": 50,
 			"speed": 0,
 			"damage": 0,
@@ -311485,7 +311555,7 @@
 				"Defence": 50
 			},
 			"class": "melee",
-			"lp": 0,
+			"lp": 500,
 			"tier": 50,
 			"speed": 0,
 			"damage": 0,
@@ -311502,7 +311572,7 @@
 				"Defence": 50
 			},
 			"class": "melee",
-			"lp": 0,
+			"lp": 500,
 			"tier": 50,
 			"speed": 0,
 			"damage": 0,
@@ -311519,7 +311589,7 @@
 				"Defence": 50
 			},
 			"class": "melee",
-			"lp": 0,
+			"lp": 500,
 			"tier": 50,
 			"speed": 0,
 			"damage": 0,
@@ -311536,7 +311606,7 @@
 				"Defence": 50
 			},
 			"class": "melee",
-			"lp": 0,
+			"lp": 500,
 			"tier": 50,
 			"speed": 0,
 			"damage": 0,
@@ -311553,7 +311623,7 @@
 				"Defence": 50
 			},
 			"class": "melee",
-			"lp": 0,
+			"lp": 500,
 			"tier": 50,
 			"speed": 0,
 			"damage": 0,
@@ -311570,7 +311640,7 @@
 				"Defence": 50
 			},
 			"class": "melee",
-			"lp": 0,
+			"lp": 500,
 			"tier": 50,
 			"speed": 0,
 			"damage": 0,
@@ -311587,7 +311657,7 @@
 				"Defence": 50
 			},
 			"class": "melee",
-			"lp": 0,
+			"lp": 500,
 			"tier": 50,
 			"speed": 0,
 			"damage": 0,
@@ -312348,7 +312418,7 @@
 				"Defence": 50
 			},
 			"class": "melee",
-			"lp": 0,
+			"lp": 500,
 			"tier": 51,
 			"speed": 0,
 			"damage": 0,
@@ -312366,7 +312436,7 @@
 				"Defence": 50
 			},
 			"class": "melee",
-			"lp": 0,
+			"lp": 500,
 			"tier": 52,
 			"speed": 0,
 			"damage": 0,
@@ -312384,7 +312454,7 @@
 				"Defence": 50
 			},
 			"class": "melee",
-			"lp": 0,
+			"lp": 500,
 			"tier": 53,
 			"speed": 0,
 			"damage": 0,
@@ -312402,7 +312472,7 @@
 				"Defence": 50
 			},
 			"class": "melee",
-			"lp": 0,
+			"lp": 500,
 			"tier": 50,
 			"speed": 0,
 			"damage": 0,
@@ -313140,7 +313210,7 @@
 				"Defence": 50
 			},
 			"class": "melee",
-			"lp": 0,
+			"lp": 750,
 			"tier": 50,
 			"speed": 0,
 			"damage": 0,
@@ -313158,7 +313228,7 @@
 				"Defence": 50
 			},
 			"class": "melee",
-			"lp": 0,
+			"lp": 750,
 			"tier": 50,
 			"speed": 0,
 			"damage": 0,
@@ -313176,7 +313246,7 @@
 				"Defence": 50
 			},
 			"class": "melee",
-			"lp": 0,
+			"lp": 750,
 			"tier": 50,
 			"speed": 0,
 			"damage": 0,
@@ -313194,7 +313264,7 @@
 				"Defence": 50
 			},
 			"class": "melee",
-			"lp": 0,
+			"lp": 750,
 			"tier": 50,
 			"speed": 0,
 			"damage": 0,
@@ -313212,7 +313282,7 @@
 				"Defence": 50
 			},
 			"class": "melee",
-			"lp": 0,
+			"lp": 750,
 			"tier": 50,
 			"speed": 0,
 			"damage": 0,
@@ -313230,7 +313300,7 @@
 				"Defence": 50
 			},
 			"class": "melee",
-			"lp": 0,
+			"lp": 750,
 			"tier": 50,
 			"speed": 0,
 			"damage": 0,
@@ -313248,7 +313318,7 @@
 				"Defence": 50
 			},
 			"class": "melee",
-			"lp": 0,
+			"lp": 750,
 			"tier": 50,
 			"speed": 0,
 			"damage": 0,
@@ -313266,7 +313336,7 @@
 				"Defence": 50
 			},
 			"class": "melee",
-			"lp": 0,
+			"lp": 750,
 			"tier": 50,
 			"speed": 0,
 			"damage": 0,
@@ -313284,7 +313354,7 @@
 				"Defence": 50
 			},
 			"class": "melee",
-			"lp": 0,
+			"lp": 750,
 			"tier": 50,
 			"speed": 0,
 			"damage": 0,
@@ -313302,7 +313372,7 @@
 				"Defence": 50
 			},
 			"class": "melee",
-			"lp": 0,
+			"lp": 750,
 			"tier": 50,
 			"speed": 0,
 			"damage": 0,
@@ -313320,7 +313390,7 @@
 				"Defence": 50
 			},
 			"class": "melee",
-			"lp": 0,
+			"lp": 750,
 			"tier": 50,
 			"speed": 0,
 			"damage": 0,
@@ -313338,7 +313408,7 @@
 				"Defence": 50
 			},
 			"class": "melee",
-			"lp": 0,
+			"lp": 750,
 			"tier": 50,
 			"speed": 0,
 			"damage": 0,
@@ -313356,7 +313426,7 @@
 				"Defence": 50
 			},
 			"class": "melee",
-			"lp": 0,
+			"lp": 750,
 			"tier": 50,
 			"speed": 0,
 			"damage": 0,
@@ -313374,7 +313444,7 @@
 				"Defence": 50
 			},
 			"class": "melee",
-			"lp": 0,
+			"lp": 750,
 			"tier": 50,
 			"speed": 0,
 			"damage": 0,
@@ -313392,7 +313462,7 @@
 				"Defence": 50
 			},
 			"class": "melee",
-			"lp": 0,
+			"lp": 750,
 			"tier": 51,
 			"speed": 0,
 			"damage": 0,
@@ -313410,7 +313480,7 @@
 				"Defence": 50
 			},
 			"class": "melee",
-			"lp": 0,
+			"lp": 750,
 			"tier": 52,
 			"speed": 0,
 			"damage": 0,
@@ -313428,7 +313498,7 @@
 				"Defence": 50
 			},
 			"class": "melee",
-			"lp": 0,
+			"lp": 750,
 			"tier": 53,
 			"speed": 0,
 			"damage": 0,
@@ -313446,7 +313516,7 @@
 				"Defence": 50
 			},
 			"class": "melee",
-			"lp": 0,
+			"lp": 750,
 			"tier": 50,
 			"speed": 0,
 			"damage": 0,
@@ -313464,7 +313534,7 @@
 				"Defence": 50
 			},
 			"class": "melee",
-			"lp": 0,
+			"lp": 750,
 			"tier": 50,
 			"speed": 0,
 			"damage": 0,
@@ -313482,7 +313552,7 @@
 				"Defence": 50
 			},
 			"class": "melee",
-			"lp": 0,
+			"lp": 750,
 			"tier": 50,
 			"speed": 0,
 			"damage": 0,
@@ -313500,7 +313570,7 @@
 				"Defence": 50
 			},
 			"class": "melee",
-			"lp": 0,
+			"lp": 750,
 			"tier": 50,
 			"speed": 0,
 			"damage": 0,
@@ -313518,7 +313588,7 @@
 				"Defence": 50
 			},
 			"class": "melee",
-			"lp": 0,
+			"lp": 750,
 			"tier": 50,
 			"speed": 0,
 			"damage": 0,
@@ -313536,7 +313606,7 @@
 				"Defence": 50
 			},
 			"class": "melee",
-			"lp": 0,
+			"lp": 750,
 			"tier": 50,
 			"speed": 0,
 			"damage": 0,
@@ -313554,7 +313624,7 @@
 				"Defence": 50
 			},
 			"class": "melee",
-			"lp": 0,
+			"lp": 750,
 			"tier": 50,
 			"speed": 0,
 			"damage": 0,
@@ -313572,7 +313642,7 @@
 				"Defence": 50
 			},
 			"class": "melee",
-			"lp": 0,
+			"lp": 750,
 			"tier": 50,
 			"speed": 0,
 			"damage": 0,
@@ -313590,7 +313660,7 @@
 				"Defence": 50
 			},
 			"class": "melee",
-			"lp": 0,
+			"lp": 750,
 			"tier": 50,
 			"speed": 0,
 			"damage": 0,
@@ -313608,7 +313678,7 @@
 				"Defence": 50
 			},
 			"class": "melee",
-			"lp": 0,
+			"lp": 750,
 			"tier": 50,
 			"speed": 0,
 			"damage": 0,
@@ -313626,7 +313696,7 @@
 				"Defence": 50
 			},
 			"class": "melee",
-			"lp": 0,
+			"lp": 750,
 			"tier": 50,
 			"speed": 0,
 			"damage": 0,
@@ -313644,7 +313714,7 @@
 				"Defence": 50
 			},
 			"class": "melee",
-			"lp": 0,
+			"lp": 750,
 			"tier": 50,
 			"speed": 0,
 			"damage": 0,
@@ -313662,7 +313732,7 @@
 				"Defence": 50
 			},
 			"class": "melee",
-			"lp": 0,
+			"lp": 750,
 			"tier": 50,
 			"speed": 0,
 			"damage": 0,
@@ -313680,7 +313750,7 @@
 				"Defence": 50
 			},
 			"class": "melee",
-			"lp": 0,
+			"lp": 750,
 			"tier": 50,
 			"speed": 0,
 			"damage": 0,
@@ -313698,7 +313768,7 @@
 				"Defence": 50
 			},
 			"class": "melee",
-			"lp": 0,
+			"lp": 750,
 			"tier": 50,
 			"speed": 0,
 			"damage": 0,
@@ -313716,7 +313786,7 @@
 				"Defence": 50
 			},
 			"class": "melee",
-			"lp": 0,
+			"lp": 750,
 			"tier": 51,
 			"speed": 0,
 			"damage": 0,
@@ -313734,7 +313804,7 @@
 				"Defence": 50
 			},
 			"class": "melee",
-			"lp": 0,
+			"lp": 750,
 			"tier": 52,
 			"speed": 0,
 			"damage": 0,
@@ -313752,7 +313822,7 @@
 				"Defence": 50
 			},
 			"class": "melee",
-			"lp": 0,
+			"lp": 750,
 			"tier": 53,
 			"speed": 0,
 			"damage": 0,
@@ -313770,7 +313840,7 @@
 				"Defence": 50
 			},
 			"class": "melee",
-			"lp": 0,
+			"lp": 750,
 			"tier": 50,
 			"speed": 0,
 			"damage": 0,
@@ -313788,7 +313858,7 @@
 				"Defence": 50
 			},
 			"class": "melee",
-			"lp": 0,
+			"lp": 750,
 			"tier": 50,
 			"speed": 0,
 			"damage": 0,
@@ -313806,7 +313876,7 @@
 				"Defence": 50
 			},
 			"class": "melee",
-			"lp": 0,
+			"lp": 750,
 			"tier": 50,
 			"speed": 0,
 			"damage": 0,
@@ -313824,7 +313894,7 @@
 				"Defence": 50
 			},
 			"class": "melee",
-			"lp": 0,
+			"lp": 750,
 			"tier": 50,
 			"speed": 0,
 			"damage": 0,
@@ -313842,7 +313912,7 @@
 				"Defence": 50
 			},
 			"class": "melee",
-			"lp": 0,
+			"lp": 750,
 			"tier": 50,
 			"speed": 0,
 			"damage": 0,
@@ -313860,7 +313930,7 @@
 				"Defence": 50
 			},
 			"class": "melee",
-			"lp": 0,
+			"lp": 750,
 			"tier": 50,
 			"speed": 0,
 			"damage": 0,
@@ -313878,7 +313948,7 @@
 				"Defence": 50
 			},
 			"class": "melee",
-			"lp": 0,
+			"lp": 750,
 			"tier": 50,
 			"speed": 0,
 			"damage": 0,
@@ -313896,7 +313966,7 @@
 				"Defence": 50
 			},
 			"class": "melee",
-			"lp": 0,
+			"lp": 750,
 			"tier": 50,
 			"speed": 0,
 			"damage": 0,
@@ -313914,7 +313984,7 @@
 				"Defence": 50
 			},
 			"class": "melee",
-			"lp": 0,
+			"lp": 750,
 			"tier": 50,
 			"speed": 0,
 			"damage": 0,
@@ -313932,7 +314002,7 @@
 				"Defence": 50
 			},
 			"class": "melee",
-			"lp": 0,
+			"lp": 750,
 			"tier": 50,
 			"speed": 0,
 			"damage": 0,
@@ -313950,7 +314020,7 @@
 				"Defence": 50
 			},
 			"class": "melee",
-			"lp": 0,
+			"lp": 750,
 			"tier": 50,
 			"speed": 0,
 			"damage": 0,
@@ -313968,7 +314038,7 @@
 				"Defence": 50
 			},
 			"class": "melee",
-			"lp": 0,
+			"lp": 750,
 			"tier": 50,
 			"speed": 0,
 			"damage": 0,
@@ -313986,7 +314056,7 @@
 				"Defence": 50
 			},
 			"class": "melee",
-			"lp": 0,
+			"lp": 750,
 			"tier": 50,
 			"speed": 0,
 			"damage": 0,
@@ -314004,7 +314074,7 @@
 				"Defence": 50
 			},
 			"class": "melee",
-			"lp": 0,
+			"lp": 750,
 			"tier": 50,
 			"speed": 0,
 			"damage": 0,
@@ -314022,7 +314092,7 @@
 				"Defence": 50
 			},
 			"class": "melee",
-			"lp": 0,
+			"lp": 750,
 			"tier": 50,
 			"speed": 0,
 			"damage": 0,
@@ -314040,7 +314110,7 @@
 				"Defence": 50
 			},
 			"class": "melee",
-			"lp": 0,
+			"lp": 750,
 			"tier": 51,
 			"speed": 0,
 			"damage": 0,
@@ -314058,7 +314128,7 @@
 				"Defence": 50
 			},
 			"class": "melee",
-			"lp": 0,
+			"lp": 750,
 			"tier": 52,
 			"speed": 0,
 			"damage": 0,
@@ -314076,7 +314146,7 @@
 				"Defence": 50
 			},
 			"class": "melee",
-			"lp": 0,
+			"lp": 750,
 			"tier": 53,
 			"speed": 0,
 			"damage": 0,
@@ -314094,7 +314164,7 @@
 				"Defence": 50
 			},
 			"class": "melee",
-			"lp": 0,
+			"lp": 750,
 			"tier": 50,
 			"speed": 0,
 			"damage": 0,
@@ -315856,7 +315926,7 @@
 				"Defence": 85
 			},
 			"class": "magic",
-			"lp": 280,
+			"lp": 850,
 			"tier": 83,
 			"speed": 0,
 			"damage": 0,
@@ -315875,7 +315945,7 @@
 				"Defence": 85
 			},
 			"class": "magic",
-			"lp": 420,
+			"lp": 1275,
 			"tier": 83,
 			"speed": 0,
 			"damage": 0,
@@ -315894,7 +315964,7 @@
 				"Defence": 85
 			},
 			"class": "magic",
-			"lp": 560,
+			"lp": 1275,
 			"tier": 83,
 			"speed": 0,
 			"damage": 0,
@@ -315933,7 +316003,7 @@
 				"Defence": 80
 			},
 			"class": "melee",
-			"lp": 0,
+			"lp": 800,
 			"tier": 80,
 			"speed": 0,
 			"damage": 0,
@@ -315951,7 +316021,7 @@
 				"Defence": 80
 			},
 			"class": "magic",
-			"lp": 0,
+			"lp": 800,
 			"tier": 80,
 			"speed": 0,
 			"damage": 0,
@@ -315969,7 +316039,7 @@
 				"Defence": 80
 			},
 			"class": "melee",
-			"lp": 0,
+			"lp": 1200,
 			"tier": 80,
 			"speed": 0,
 			"damage": 0,
@@ -315987,7 +316057,7 @@
 				"Defence": 80
 			},
 			"class": "melee",
-			"lp": 0,
+			"lp": 1200,
 			"tier": 80,
 			"speed": 0,
 			"damage": 0,
@@ -316005,7 +316075,7 @@
 				"Defence": 80
 			},
 			"class": "ranged",
-			"lp": 0,
+			"lp": 800,
 			"tier": 80,
 			"speed": 0,
 			"damage": 0,
@@ -316023,7 +316093,7 @@
 				"Defence": 80
 			},
 			"class": "ranged",
-			"lp": 0,
+			"lp": 1200,
 			"tier": 80,
 			"speed": 0,
 			"damage": 0,
@@ -316041,7 +316111,7 @@
 				"Defence": 80
 			},
 			"class": "ranged",
-			"lp": 0,
+			"lp": 1200,
 			"tier": 80,
 			"speed": 0,
 			"damage": 0,
@@ -316059,7 +316129,7 @@
 				"Defence": 80
 			},
 			"class": "magic",
-			"lp": 0,
+			"lp": 1200,
 			"tier": 80,
 			"speed": 0,
 			"damage": 0,
@@ -316077,7 +316147,7 @@
 				"Defence": 80
 			},
 			"class": "magic",
-			"lp": 0,
+			"lp": 1200,
 			"tier": 80,
 			"speed": 0,
 			"damage": 0,
@@ -317125,7 +317195,7 @@
 				"Ranged": 30
 			},
 			"class": "ranged",
-			"lp": 0,
+			"lp": 300,
 			"tier": 30,
 			"speed": 0,
 			"damage": 0,
@@ -317144,7 +317214,7 @@
 				"Ranged": 30
 			},
 			"class": "ranged",
-			"lp": 0,
+			"lp": 450,
 			"tier": 30,
 			"speed": 0,
 			"damage": 0,
@@ -317163,7 +317233,7 @@
 				"Ranged": 30
 			},
 			"class": "ranged",
-			"lp": 0,
+			"lp": 150,
 			"tier": 30,
 			"speed": 0,
 			"damage": 0,
@@ -317182,7 +317252,7 @@
 				"Ranged": 30
 			},
 			"class": "ranged",
-			"lp": 0,
+			"lp": 450,
 			"tier": 30,
 			"speed": 0,
 			"damage": 0,
@@ -317201,7 +317271,7 @@
 				"Ranged": 30
 			},
 			"class": "ranged",
-			"lp": 0,
+			"lp": 150,
 			"tier": 30,
 			"speed": 0,
 			"damage": 0,
@@ -317463,7 +317533,7 @@
 				"Defence": 20
 			},
 			"class": "magic",
-			"lp": 0,
+			"lp": 100,
 			"tier": 20,
 			"speed": 0,
 			"damage": 0,
@@ -317481,7 +317551,7 @@
 				"Defence": 20
 			},
 			"class": "magic",
-			"lp": 0,
+			"lp": 100,
 			"tier": 20,
 			"speed": 0,
 			"damage": 0,
@@ -317499,7 +317569,7 @@
 				"Defence": 20
 			},
 			"class": "magic",
-			"lp": 0,
+			"lp": 200,
 			"tier": 20,
 			"speed": 0,
 			"damage": 0,
@@ -317517,7 +317587,7 @@
 				"Defence": 20
 			},
 			"class": "magic",
-			"lp": 0,
+			"lp": 300,
 			"tier": 20,
 			"speed": 0,
 			"damage": 0,
@@ -317535,7 +317605,7 @@
 				"Defence": 20
 			},
 			"class": "magic",
-			"lp": 0,
+			"lp": 300,
 			"tier": 20,
 			"speed": 0,
 			"damage": 0,
@@ -317822,7 +317892,7 @@
 				"Defence": 40
 			},
 			"class": "magic",
-			"lp": 0,
+			"lp": 600,
 			"tier": 40,
 			"speed": 0,
 			"damage": 0,
@@ -317840,7 +317910,7 @@
 				"Defence": 40
 			},
 			"class": "magic",
-			"lp": 0,
+			"lp": 200,
 			"tier": 40,
 			"speed": 0,
 			"damage": 0,
@@ -317858,7 +317928,7 @@
 				"Defence": 40
 			},
 			"class": "magic",
-			"lp": 0,
+			"lp": 200,
 			"tier": 40,
 			"speed": 0,
 			"damage": 0,
@@ -317876,7 +317946,7 @@
 				"Defence": 40
 			},
 			"class": "magic",
-			"lp": 0,
+			"lp": 400,
 			"tier": 40,
 			"speed": 0,
 			"damage": 0,
@@ -317894,7 +317964,7 @@
 				"Defence": 40
 			},
 			"class": "magic",
-			"lp": 0,
+			"lp": 600,
 			"tier": 40,
 			"speed": 0,
 			"damage": 0,
@@ -318554,7 +318624,7 @@
 				"Defence": 20
 			},
 			"class": "melee",
-			"lp": 0,
+			"lp": 100,
 			"tier": 21,
 			"speed": 0,
 			"damage": 0,
@@ -318572,7 +318642,7 @@
 				"Defence": 20
 			},
 			"class": "melee",
-			"lp": 0,
+			"lp": 100,
 			"tier": 20,
 			"speed": 0,
 			"damage": 0,
@@ -319027,7 +319097,7 @@
 				"Defence": 20
 			},
 			"class": "melee",
-			"lp": 0,
+			"lp": 200,
 			"tier": 21,
 			"speed": 0,
 			"damage": 0,
@@ -319045,7 +319115,7 @@
 				"Defence": 20
 			},
 			"class": "melee",
-			"lp": 0,
+			"lp": 200,
 			"tier": 20,
 			"speed": 0,
 			"damage": 0,
@@ -319063,7 +319133,7 @@
 				"Defence": 20
 			},
 			"class": "melee",
-			"lp": 0,
+			"lp": 100,
 			"tier": 21,
 			"speed": 0,
 			"damage": 0,
@@ -319081,7 +319151,7 @@
 				"Defence": 20
 			},
 			"class": "melee",
-			"lp": 0,
+			"lp": 100,
 			"tier": 20,
 			"speed": 0,
 			"damage": 0,
@@ -319160,7 +319230,7 @@
 				"Defence": 20
 			},
 			"class": "melee",
-			"lp": 0,
+			"lp": 200,
 			"tier": 20,
 			"speed": 0,
 			"damage": 0,
@@ -319177,7 +319247,7 @@
 				"Defence": 20
 			},
 			"class": "melee",
-			"lp": 0,
+			"lp": 200,
 			"tier": 20,
 			"speed": 0,
 			"damage": 0,
@@ -319194,7 +319264,7 @@
 				"Defence": 20
 			},
 			"class": "melee",
-			"lp": 0,
+			"lp": 200,
 			"tier": 20,
 			"speed": 0,
 			"damage": 0,
@@ -319211,7 +319281,7 @@
 				"Defence": 20
 			},
 			"class": "melee",
-			"lp": 0,
+			"lp": 200,
 			"tier": 20,
 			"speed": 0,
 			"damage": 0,
@@ -319228,7 +319298,7 @@
 				"Defence": 20
 			},
 			"class": "melee",
-			"lp": 0,
+			"lp": 200,
 			"tier": 20,
 			"speed": 0,
 			"damage": 0,
@@ -319245,7 +319315,7 @@
 				"Defence": 20
 			},
 			"class": "melee",
-			"lp": 0,
+			"lp": 200,
 			"tier": 20,
 			"speed": 0,
 			"damage": 0,
@@ -319262,7 +319332,7 @@
 				"Defence": 20
 			},
 			"class": "melee",
-			"lp": 0,
+			"lp": 200,
 			"tier": 20,
 			"speed": 0,
 			"damage": 0,
@@ -319279,7 +319349,7 @@
 				"Defence": 20
 			},
 			"class": "melee",
-			"lp": 0,
+			"lp": 200,
 			"tier": 20,
 			"speed": 0,
 			"damage": 0,
@@ -319296,7 +319366,7 @@
 				"Defence": 20
 			},
 			"class": "melee",
-			"lp": 0,
+			"lp": 200,
 			"tier": 20,
 			"speed": 0,
 			"damage": 0,
@@ -319313,7 +319383,7 @@
 				"Defence": 20
 			},
 			"class": "melee",
-			"lp": 0,
+			"lp": 200,
 			"tier": 20,
 			"speed": 0,
 			"damage": 0,
@@ -319330,7 +319400,7 @@
 				"Defence": 20
 			},
 			"class": "melee",
-			"lp": 0,
+			"lp": 200,
 			"tier": 20,
 			"speed": 0,
 			"damage": 0,
@@ -319347,7 +319417,7 @@
 				"Defence": 20
 			},
 			"class": "melee",
-			"lp": 0,
+			"lp": 200,
 			"tier": 20,
 			"speed": 0,
 			"damage": 0,
@@ -319364,7 +319434,7 @@
 				"Defence": 20
 			},
 			"class": "melee",
-			"lp": 0,
+			"lp": 200,
 			"tier": 20,
 			"speed": 0,
 			"damage": 0,
@@ -319381,7 +319451,7 @@
 				"Defence": 20
 			},
 			"class": "melee",
-			"lp": 0,
+			"lp": 200,
 			"tier": 20,
 			"speed": 0,
 			"damage": 0,
@@ -319398,7 +319468,7 @@
 				"Defence": 20
 			},
 			"class": "melee",
-			"lp": 0,
+			"lp": 200,
 			"tier": 20,
 			"speed": 0,
 			"damage": 0,
@@ -319415,7 +319485,7 @@
 				"Defence": 20
 			},
 			"class": "melee",
-			"lp": 0,
+			"lp": 200,
 			"tier": 20,
 			"speed": 0,
 			"damage": 0,
@@ -319898,7 +319968,7 @@
 				"Defence": 20
 			},
 			"class": "melee",
-			"lp": 0,
+			"lp": 200,
 			"tier": 21,
 			"speed": 0,
 			"damage": 0,
@@ -319916,7 +319986,7 @@
 				"Defence": 20
 			},
 			"class": "melee",
-			"lp": 0,
+			"lp": 200,
 			"tier": 20,
 			"speed": 0,
 			"damage": 0,
@@ -320294,7 +320364,7 @@
 				"Defence": 20
 			},
 			"class": "melee",
-			"lp": 0,
+			"lp": 300,
 			"tier": 21,
 			"speed": 0,
 			"damage": 0,
@@ -320312,7 +320382,7 @@
 				"Defence": 20
 			},
 			"class": "melee",
-			"lp": 0,
+			"lp": 300,
 			"tier": 20,
 			"speed": 0,
 			"damage": 0,
@@ -320330,7 +320400,7 @@
 				"Defence": 20
 			},
 			"class": "melee",
-			"lp": 0,
+			"lp": 300,
 			"tier": 21,
 			"speed": 0,
 			"damage": 0,
@@ -320348,7 +320418,7 @@
 				"Defence": 20
 			},
 			"class": "melee",
-			"lp": 0,
+			"lp": 300,
 			"tier": 20,
 			"speed": 0,
 			"damage": 0,
@@ -320366,7 +320436,7 @@
 				"Defence": 20
 			},
 			"class": "melee",
-			"lp": 0,
+			"lp": 300,
 			"tier": 21,
 			"speed": 0,
 			"damage": 0,
@@ -320384,7 +320454,7 @@
 				"Defence": 20
 			},
 			"class": "melee",
-			"lp": 0,
+			"lp": 300,
 			"tier": 20,
 			"speed": 0,
 			"damage": 0,
@@ -320743,7 +320813,7 @@
 				"Defence": 20
 			},
 			"class": "ranged",
-			"lp": 0,
+			"lp": 300,
 			"tier": 20,
 			"speed": 0,
 			"damage": 0,
@@ -320761,7 +320831,7 @@
 				"Defence": 20
 			},
 			"class": "ranged",
-			"lp": 0,
+			"lp": 300,
 			"tier": 20,
 			"speed": 0,
 			"damage": 0,
@@ -320779,7 +320849,7 @@
 				"Defence": 20
 			},
 			"class": "ranged",
-			"lp": 0,
+			"lp": 300,
 			"tier": 20,
 			"speed": 0,
 			"damage": 0,
@@ -320797,7 +320867,7 @@
 				"Defence": 20
 			},
 			"class": "ranged",
-			"lp": 0,
+			"lp": 300,
 			"tier": 20,
 			"speed": 0,
 			"damage": 0,
@@ -320815,7 +320885,7 @@
 				"Defence": 20
 			},
 			"class": "ranged",
-			"lp": 0,
+			"lp": 300,
 			"tier": 20,
 			"speed": 0,
 			"damage": 0,
@@ -320833,7 +320903,7 @@
 				"Defence": 20
 			},
 			"class": "ranged",
-			"lp": 0,
+			"lp": 100,
 			"tier": 20,
 			"speed": 0,
 			"damage": 0,
@@ -320851,7 +320921,7 @@
 				"Defence": 20
 			},
 			"class": "ranged",
-			"lp": 0,
+			"lp": 200,
 			"tier": 20,
 			"speed": 0,
 			"damage": 0,
@@ -320869,7 +320939,7 @@
 				"Defence": 20
 			},
 			"class": "ranged",
-			"lp": 0,
+			"lp": 100,
 			"tier": 20,
 			"speed": 0,
 			"damage": 0,
@@ -323831,7 +323901,7 @@
 				"Defence": 90
 			},
 			"class": "ranged",
-			"lp": 640,
+			"lp": 1350,
 			"tier": 90,
 			"speed": 0,
 			"damage": 0,
@@ -323850,7 +323920,7 @@
 				"Defence": 90
 			},
 			"class": "ranged",
-			"lp": 0,
+			"lp": 450,
 			"tier": 90,
 			"speed": 0,
 			"damage": 0,
@@ -323869,7 +323939,7 @@
 				"Defence": 90
 			},
 			"class": "ranged",
-			"lp": 480,
+			"lp": 1350,
 			"tier": 90,
 			"speed": 0,
 			"damage": 0,
@@ -323888,7 +323958,7 @@
 				"Defence": 90
 			},
 			"class": "ranged",
-			"lp": 320,
+			"lp": 900,
 			"tier": 90,
 			"speed": 0,
 			"damage": 0,
@@ -323907,7 +323977,7 @@
 				"Defence": 90
 			},
 			"class": "ranged",
-			"lp": 0,
+			"lp": 450,
 			"tier": 90,
 			"speed": 0,
 			"damage": 0,
@@ -323926,7 +323996,7 @@
 				"Defence": 90
 			},
 			"class": "melee",
-			"lp": 0,
+			"lp": 450,
 			"tier": 90,
 			"speed": 0,
 			"damage": 0,
@@ -323945,7 +324015,7 @@
 				"Defence": 90
 			},
 			"class": "melee",
-			"lp": 640,
+			"lp": 1350,
 			"tier": 90,
 			"speed": 0,
 			"damage": 0,
@@ -323964,7 +324034,7 @@
 				"Defence": 90
 			},
 			"class": "melee",
-			"lp": 0,
+			"lp": 450,
 			"tier": 90,
 			"speed": 0,
 			"damage": 0,
@@ -323983,7 +324053,7 @@
 				"Defence": 90
 			},
 			"class": "melee",
-			"lp": 320,
+			"lp": 900,
 			"tier": 90,
 			"speed": 0,
 			"damage": 0,
@@ -324002,7 +324072,7 @@
 				"Defence": 90
 			},
 			"class": "melee",
-			"lp": 480,
+			"lp": 1350,
 			"tier": 90,
 			"speed": 0,
 			"damage": 0,
@@ -324042,7 +324112,7 @@
 				"Defence": 85
 			},
 			"class": "melee",
-			"lp": 560,
+			"lp": 1275,
 			"tier": 83,
 			"speed": 0,
 			"damage": 0,
@@ -324061,7 +324131,7 @@
 				"Defence": 85
 			},
 			"class": "melee",
-			"lp": 280,
+			"lp": 950,
 			"tier": 83,
 			"speed": 0,
 			"damage": 0,
@@ -324080,7 +324150,7 @@
 				"Defence": 85
 			},
 			"class": "melee",
-			"lp": 420,
+			"lp": 1275,
 			"tier": 83,
 			"speed": 0,
 			"damage": 0,
@@ -324232,7 +324302,7 @@
 				"Prayer": 65
 			},
 			"class": "magic",
-			"lp": 0,
+			"lp": 975,
 			"tier": 65,
 			"speed": 0,
 			"damage": 0,
@@ -324251,7 +324321,7 @@
 				"Prayer": 65
 			},
 			"class": "magic",
-			"lp": 0,
+			"lp": 975,
 			"tier": 65,
 			"speed": 0,
 			"damage": 0,
@@ -324290,7 +324360,7 @@
 				"Prayer": 65
 			},
 			"class": "magic",
-			"lp": 0,
+			"lp": 650,
 			"tier": 65,
 			"speed": 0,
 			"damage": 0,
@@ -324308,7 +324378,7 @@
 				"Defence": 65
 			},
 			"class": "melee",
-			"lp": 0,
+			"lp": 650,
 			"tier": 65,
 			"speed": 0,
 			"damage": 0,
@@ -324345,7 +324415,7 @@
 				"Defence": 65
 			},
 			"class": "magic",
-			"lp": 0,
+			"lp": 650,
 			"tier": 65,
 			"speed": 0,
 			"damage": 0,
@@ -324363,7 +324433,7 @@
 				"Defence": 65
 			},
 			"class": "melee",
-			"lp": 0,
+			"lp": 975,
 			"tier": 65,
 			"speed": 0,
 			"damage": 0,
@@ -324381,7 +324451,7 @@
 				"Defence": 65
 			},
 			"class": "melee",
-			"lp": 0,
+			"lp": 975,
 			"tier": 65,
 			"speed": 0,
 			"damage": 0,
@@ -324400,7 +324470,7 @@
 				"Defence": 65
 			},
 			"class": "ranged",
-			"lp": 0,
+			"lp": 975,
 			"tier": 65,
 			"speed": 0,
 			"damage": 0,
@@ -324419,7 +324489,7 @@
 				"Defence": 65
 			},
 			"class": "ranged",
-			"lp": 0,
+			"lp": 975,
 			"tier": 65,
 			"speed": 0,
 			"damage": 0,
@@ -324438,7 +324508,7 @@
 				"Defence": 65
 			},
 			"class": "ranged",
-			"lp": 0,
+			"lp": 650,
 			"tier": 65,
 			"speed": 0,
 			"damage": 0,
@@ -324457,7 +324527,7 @@
 				"Defence": 65
 			},
 			"class": "magic",
-			"lp": 0,
+			"lp": 975,
 			"tier": 65,
 			"speed": 0,
 			"damage": 0,
@@ -324476,7 +324546,7 @@
 				"Defence": 65
 			},
 			"class": "magic",
-			"lp": 0,
+			"lp": 975,
 			"tier": 65,
 			"speed": 0,
 			"damage": 0,
@@ -324495,7 +324565,7 @@
 				"Defence": 65
 			},
 			"class": "ranged",
-			"lp": 0,
+			"lp": 325,
 			"tier": 65,
 			"speed": 0,
 			"damage": 0,
@@ -324831,7 +324901,7 @@
 				"Defence": 70
 			},
 			"class": "melee",
-			"lp": 0,
+			"lp": 700,
 			"tier": 70,
 			"speed": 0,
 			"damage": 0,
@@ -324850,7 +324920,7 @@
 				"Defence": 70
 			},
 			"class": "melee",
-			"lp": 0,
+			"lp": 1050,
 			"tier": 70,
 			"speed": 0,
 			"damage": 0,
@@ -324869,7 +324939,7 @@
 				"Defence": 70
 			},
 			"class": "melee",
-			"lp": 0,
+			"lp": 1050,
 			"tier": 70,
 			"speed": 0,
 			"damage": 0,
@@ -325243,7 +325313,7 @@
 				"Defence": 75
 			},
 			"class": "ranged",
-			"lp": 240,
+			"lp": 1125,
 			"tier": 75,
 			"speed": 0,
 			"damage": 0,
@@ -325261,7 +325331,7 @@
 				"Defence": 75
 			},
 			"class": "ranged",
-			"lp": 0,
+			"lp": 375,
 			"tier": 75,
 			"speed": 0,
 			"damage": 0,
@@ -325279,7 +325349,7 @@
 				"Defence": 75
 			},
 			"class": "ranged",
-			"lp": 180,
+			"lp": 1125,
 			"tier": 75,
 			"speed": 0,
 			"damage": 0,
@@ -325297,7 +325367,7 @@
 				"Defence": 75
 			},
 			"class": "ranged",
-			"lp": 240,
+			"lp": 750,
 			"tier": 75,
 			"speed": 0,
 			"damage": 0,
@@ -325315,7 +325385,7 @@
 				"Defence": 75
 			},
 			"class": "ranged",
-			"lp": 0,
+			"lp": 375,
 			"tier": 75,
 			"speed": 0,
 			"damage": 0,
@@ -325618,7 +325688,7 @@
 				"Defence": 70
 			},
 			"class": "melee",
-			"lp": 0,
+			"lp": 1050,
 			"tier": 70,
 			"speed": 0,
 			"damage": 0,
@@ -325658,7 +325728,7 @@
 				"Defence": 70
 			},
 			"class": "melee",
-			"lp": 0,
+			"lp": 700,
 			"tier": 70,
 			"speed": 0,
 			"damage": 0,
@@ -325677,7 +325747,7 @@
 				"Defence": 70
 			},
 			"class": "melee",
-			"lp": 0,
+			"lp": 1050,
 			"tier": 70,
 			"speed": 0,
 			"damage": 0,
@@ -327208,7 +327278,7 @@
 				"Prayer": 25
 			},
 			"class": "melee",
-			"lp": 0,
+			"lp": 375,
 			"tier": 23,
 			"speed": 0,
 			"damage": 0,
@@ -327285,7 +327355,7 @@
 				"Prayer": 25
 			},
 			"class": "melee",
-			"lp": 0,
+			"lp": 250,
 			"tier": 25,
 			"speed": 0,
 			"damage": 0,
@@ -327304,7 +327374,7 @@
 				"Prayer": 25
 			},
 			"class": "melee",
-			"lp": 0,
+			"lp": 125,
 			"tier": 25,
 			"speed": 0,
 			"damage": 0,
@@ -327344,7 +327414,7 @@
 				"Prayer": 25
 			},
 			"class": "melee",
-			"lp": 0,
+			"lp": 200,
 			"tier": 23,
 			"speed": 0,
 			"damage": 0,
@@ -327443,7 +327513,7 @@
 				"Prayer": 25
 			},
 			"class": "melee",
-			"lp": 0,
+			"lp": 375,
 			"tier": 25,
 			"speed": 0,
 			"damage": 0,
@@ -327462,7 +327532,7 @@
 				"Prayer": 25
 			},
 			"class": "melee",
-			"lp": 0,
+			"lp": 375,
 			"tier": 25,
 			"speed": 0,
 			"damage": 0,
@@ -327481,7 +327551,7 @@
 				"Prayer": 25
 			},
 			"class": "melee",
-			"lp": 0,
+			"lp": 375,
 			"tier": 25,
 			"speed": 0,
 			"damage": 0,
@@ -327921,7 +327991,7 @@
 				"Defence": 20
 			},
 			"class": "magic",
-			"lp": 0,
+			"lp": 100,
 			"tier": 20,
 			"speed": 0,
 			"damage": 0,
@@ -327939,7 +328009,7 @@
 				"Defence": 1
 			},
 			"class": "magic",
-			"lp": 0,
+			"lp": 5,
 			"tier": 5,
 			"speed": 0,
 			"damage": 0,
@@ -327957,7 +328027,7 @@
 				"Defence": 1
 			},
 			"class": "magic",
-			"lp": 0,
+			"lp": 5,
 			"tier": 5,
 			"speed": 0,
 			"damage": 0,
@@ -328345,7 +328415,7 @@
 				"Defence": 20
 			},
 			"class": "melee",
-			"lp": 0,
+			"lp": 300,
 			"tier": 25,
 			"speed": 0,
 			"damage": 0,
@@ -328363,7 +328433,7 @@
 				"Defence": 20
 			},
 			"class": "melee",
-			"lp": 0,
+			"lp": 300,
 			"tier": 25,
 			"speed": 0,
 			"damage": 0,
