@@ -447,6 +447,7 @@ let rules = {
 	"Unlock Prayers": false,
 	"PvM Relics": false,
     "KeyItem Bosses": false,
+	"Shooting Stars": false,
 };                                                                              // List of rules and their on/off state
 
 let ruleNames = {
@@ -555,6 +556,7 @@ let ruleNames = {
 	"PVP": "Require tasks that can only be completed by engaging in PvP<span class='rule-asterisk noscroll'>†</span>",
 	"PvM Relics": "WIP - Must obtain all best-in-slot/quality-of-life Archaeology Relics for combat",
     "KeyItem Bosses": "For bosses that require keys to kill, factor in the droprate of the key as part of the droprate of each drop",
+	"Shooting Stars": "Getting the level to mine all tiers of shooting stars counts as a Mining skill task<span class='rule-asterisk noscroll'>*</span>"
 };                                                                              // List of rule definitions
 
 let rulePresets = {
@@ -652,6 +654,7 @@ let rulePresets = {
 		"Unlock Abilities": true,
 		"Sigil Abilities": true,
         "Unlock Prayers": true,
+        "Shooting Stars": true
     },
     "Supreme Chunker": {
         "Skillcape": true,
@@ -733,6 +736,7 @@ let rulePresets = {
 		"Unlock Abilities": true,
 		"Sigil Abilities": true,
         "Unlock Prayers": true,
+        "Shooting Stars": true
     }
 };                                                                              // List of rules that are part of each preset
 
@@ -810,6 +814,9 @@ let ruleStructure = {
     "Magic": {
         "Spells": ["Combat and Teleport Spells"],
         "Secondary MTA": true
+    },
+	"Mining": {
+        "Shooting Stars": true
     },
     "Prayer": {
         "Prayers": true

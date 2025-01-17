@@ -99684,6 +99684,36 @@
 				},
 				"Not F2P": true
 			},
+			"Archaeology Mystery: ~|Night Theatre|~ 1": {
+				"BaseQuest": "Night Theatre",
+				"Description": "Gather all the critic's review articles",
+				"Items": ["A critic's reveiw (aricle 1)", "A critic's reveiw (aricle 2)", "A critic's reveiw (aricle 3)", "A critic's reveiw (aricle 4)", "A critic's reveiw (aricle 5)"],
+				"Tasks": {
+					"Complete the ~|Archaeology tutorial|~": "Archaeology"
+				},
+				"Not F2P": true
+			},
+			"Archaeology Mystery: ~|Night Theatre|~ 2": {
+				"BaseQuest": "Night Theatre",
+				"Description": "Speak to Jimmy",
+				"Chunks": ["Senntisten"],
+				"Tasks": {
+					"Archaeology Mystery: ~|Night Theatre|~ 1": "Quest"
+				},
+				"Not F2P": true
+			},
+			"Archaeology Mystery: ~|Night Theatre|~ Complete the mystery": {
+				"BaseQuest": "Night Theatre",
+				"Chunks": ["Senntisten"],
+				"Tasks": {
+					"Archaeology Mystery: ~|Night Theatre|~ 2": "Quest"
+				},
+				"QuestPoints": 0,
+				"XpReward": {
+					"Archaeology": 5100
+				},
+				"Not F2P": true
+			},
 			"Archaeology Mystery: ~|Secrets of the Inquisition|~ 1": {
 				"BaseQuest": "Secrets of the Inquisition",
 				"Description": "Find the first four pages of the inquisitor's memoir",
@@ -125764,6 +125794,9 @@
 			},
 			"Lumbridge Swamp caves": {
 				"UnlocksArea": true,
+				"Tasks": {
+					"Access the Lumbridge Swamp caves[+]": "Nonskill"
+				},
 				"Not F2P": true
 			},
 			"Mahjarrat Ritual Site Cavern": {
@@ -129015,6 +129048,16 @@
 					"~|Jungle Potion|~ Complete the quest": "Quest"
 				},
 				"Output": "Gout tuber"
+			},
+			"Access the Lumbridge Swamp caves via Lumbridge Cellar": {
+				"Chunks": ["Lumbridge Cellar"],
+				"Tasks": {
+					"~|The Lost Tribe|~ 2": "Quest"
+				}
+			}, 
+			"Access the Lumbridge Swamp caves via 12953": {
+				"Chunks": ["12953"],
+				"Items": ["Rope"]
 			}
 		}
 	},
@@ -167729,6 +167772,7 @@
 				"The Temple at Senntisten": "step",
 				"Twilight of the Gods": "step",
 				"Empty Children": "first",
+				"Night Theatre": "first",
 				"Secrets of the Inquisition": "first"
 			}
 		},
@@ -170265,6 +170309,10 @@
 			},
 			"Shop": {
 				"Culinaromancer's Chest": true
+			},
+			"Spawn": {
+				"Cabbage": 1,
+				"Leather boots": 1
 			},
 			"Connect": {
 				"12850": true,
@@ -177848,7 +177896,8 @@
 			"ChargeDragonstone2[+]": [
 				"Charge dragonstone jewelry using a geyser titan",
 				"Charge dragonstone jewelry after the Legends' Quest"
-			]
+			],
+			"Access the Lumbridge Swamp caves[+]": ["Access the Lumbridge Swamp caves via Lumbridge Cellar", "Access the Lumbridge Swamp caves via 12953"]
 		},
 		"tasksPlusNames": {
 			"A Taste of the Exotic[+]": "Any subtasks for A Taste of the Exotic",
@@ -234416,6 +234465,7 @@
 		"Time Served": "Kharid-et - Carcerem excavation site",
 		"Fall and Rise": "14642",
 		"Empty Children": "Senntisten, 13364",
+		"Night Theatre": "Senntisten",
 		"Secrets of the Inquisition": "Senntisten, 13364",
 		"Dagon Bye": "Infernal Source",
 		"Atonement": "10549",
@@ -301367,7 +301417,7 @@
 				"Defence": 50
 			},
 			"class": "magic",
-			"lp":75 0,
+			"lp": 750,
 			"tier": 50,
 			"speed": 0,
 			"damage": 0,
