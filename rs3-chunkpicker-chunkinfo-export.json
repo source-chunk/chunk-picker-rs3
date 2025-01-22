@@ -8560,6 +8560,14 @@
 				"NoPet": true,
 				"NoBoost": true
 			},
+			"Wield an ~|Imcando hatchet|~": {
+				"Items": ["Imcando hatchet"],
+				"Level": 80,
+				"Primary": false,
+				"Priority": 12,
+				"NoPet": true,
+				"NoBoost": true
+			},
 			"Wield ~|Masuta's warspear|~": {
 				"Items": ["Masuta's warspear"],
 				"Level": 82,
@@ -8747,6 +8755,14 @@
 				"NoPet": true,
 				"NoBoost": true
 			},
+			"Wield a ~|Hatchet of Ember and Glade|~": {
+				"Items": ["Hatchet of Ember and Glade"],
+				"Level": 90,
+				"Primary": false,
+				"Priority": 7,
+				"NoPet": true,
+				"NoBoost": true
+			},
 			"Make a ~|Milestone cape (90)|~": {
 				"Category": ["Skillcape"],
 				"Items": ["Balls of wool"],
@@ -8783,7 +8799,7 @@
 					"Thieving": 90,
 					"Woodcutting": 90
 				},
-				"Priority": 7,
+				"Priority": 8,
 				"NoPet": true,
 				"NoBoost": true
 			},
@@ -8856,6 +8872,14 @@
 				"Level": 99,
 				"Primary": false,
 				"Priority": 6,
+				"NoPet": true,
+				"NoBoost": true
+			},
+			"Wield a ~|Hatchet of Bloom and Blight|~": {
+				"Items": ["Hatchet of Bloom and Blight"],
+				"Level": 99,
+				"Primary": false,
+				"Priority": 7,
 				"NoPet": true,
 				"NoBoost": true
 			},
@@ -13290,7 +13314,7 @@
 				},
 				"Items": ["Acadia frame*", "Stone wall segment*"],
 				"Level": 50,
-				"Output Object": "Spinning wheel",
+				"Output Object": "RangersWorkroom",
 				"Primary": true,
 				"Priority": 21
 			},
@@ -24105,6 +24129,41 @@
 				"Primary": true,
 				"Priority": 27
 			},
+			"Craft ~|eternal magic glue|~": {
+				"Items": ["Eternal magic sap*", "Ground mud runes*", "Ground miasma rune*"],
+				"Level": 90,
+				"Tasks": {
+					"Fletch Quest*": "Nonskill"
+				},
+				"Primary": true,
+				"Output": "Eternal magic glue",
+				"Priority": 28
+			},
+			"Facet a ~|faceted noxious sapphire|~": {
+				"Items": ["Noxious sapphire*"],
+				"Level": 90,
+				"Output": "Faceted noxious sapphire",
+				"Primary": true,
+				"Priority": 29
+			},
+			"Facet a ~|faceted ascended sapphire|~": {
+				"Items": ["Ascended sapphire*"],
+				"Level": 90,
+				"Output": "Faceted ascended sapphire",
+				"Primary": true,
+				"Priority": 30
+			},
+			"Craft a ~|bucket of vis wax|~": {
+				"Items": ["Bucket of wax*"],
+				"Chunks": ["Runecrafting Guild"],
+				"Tasks": {
+					"Fletch Quest*": "Nonskill"
+				},
+				"Level": 90,
+				"Output": "Bucket of vis wax",
+				"Primary": true,
+				"Priority": 31
+			},
 			"Craft a ~|wrapped masterwork sword grip|~": {
 				"Items": ["Dyed undead dragon leather*", "Unwrapped masterwork sword grip*"],
 				"Level": 90,
@@ -27972,11 +28031,11 @@
 				"Priority": 1
 			},
 			"Create a ~|divine oak tree|~": {
-				"Items": ["Bright energy*", "Oak logs*"],
-				"Level": 21,
+				"Items": ["Flickering energy*", "Oak logs*"],
+				"Level": 13,
 				"Output": "Divine oak tree",
 				"Primary": false,
-				"Priority": 1
+				"Priority": 3
 			},
 			"Transmute a broken memento to a ~|fragile memento|~": {
 				"Items": ["Bright energy*", "Broken memento*"],
@@ -27986,8 +28045,8 @@
 				"Priority": 2
 			},
 			"Create a ~|divine willow tree|~": {
-				"Items": ["Glowing energy*", "Willow logs*"],
-				"Level": 31,
+				"Items": ["Bright energy*", "Willow logs*"],
+				"Level": 21,
 				"Output": "Divine willow tree",
 				"Primary": false,
 				"Priority": 1
@@ -28000,11 +28059,11 @@
 				"Priority": 1
 			},
 			"Create a ~|divine yew tree|~": {
-				"Items": ["Vibrant energy*", "Yew logs*"],
-				"Level": 62,
+				"Items": ["Lustrous energy*", "Yew logs*"],
+				"Level": 71,
 				"Output": "Divine yew tree",
 				"Primary": false,
-				"Priority": 1
+				"Priority": 3
 			},
 			"Create a ~|divine magic tree|~": {
 				"Items": ["Brilliant energy*", "Magic logs*"],
@@ -36742,6 +36801,20 @@
 				},
 				"Priority": 1
 			},
+			"Light a fire using ~|eternal magic logs|~": {
+				"Items": ["Eternal magic logs*"],
+				"Level": 100,
+				"Output": "Ashes",
+				"Output Object": "Player fire",
+				"Primary": true,
+				"Priority": 1
+			},
+			"Add ~|eternal magic logs|~ to a bonfire": {
+				"Items": ["Eternal magic logs*"],
+				"Level": 100,
+				"Primary": true,
+				"Priority": 2
+			},
 			"Create the ~|blurite keystone|~": {
 				"Tasks": {
 					"Complete the ~|Archaeology tutorial|~": "Archaeology"
@@ -39923,6 +39996,276 @@
 					"Woodcutting": 99
 				},
 				"Priority": 1
+			},
+			"Fletch an ~|eternal magic wood box|~": {
+				"Items": ["Eternal magic logs*", "Elder logs*", "Magic logs*", "Yew logs*", "Mahogany logs*", "Acadia logs*", "Maple logs*", "Teak logs*", "Willow logs*", "Oak logs*", "Logs*"],
+				"Level": 100,
+				"Output": "Eternal magic wood box",
+				"Primary": true,
+				"Priority": 1
+			},
+			"Fletch a ~|eternal magic shaft|~": {
+				"Items": ["Eternal magic logs*"],
+				"Level": 100,
+				"Output": "Eternal magic shaft",
+				"Primary": true,
+				"Priority": 2
+			},
+			"Feather a ~|eternal magic headless shaft|~": {
+				"Items": ["Eternal magic shaft*", "Feather[+]*"],
+				"Level": 100,
+				"Output": "Eternal magic headless shaft",
+				"Primary": true,
+				"Priority": 3
+			},
+			"Tip a ~|primal arrow|~": {
+				"Items": ["Eternal magic headless shaft*", "Primal arrowheads*"],
+				"Level": 100,
+				"Output": "Primal arrow",
+				"Primary": true,
+				"Priority": 4
+			},
+			"Fletch an ~|eternal magic shortbow (unstrung)|~": {
+				"Items": ["Eternal magic logs*"],
+				"Level": 100,
+				"Output": "Eternal magic shortbow (unstrung)",
+				"Primary": true,
+				"Priority": 5
+			},
+			"String an ~|eternal magic shortbow|~": {
+				"Items": ["Eternal magic shortbow (unstrung)*", "Bowstring*"],
+				"Level": 100,
+				"Output": "Eternal magic shortbow",
+				"Primary": true,
+				"Priority": 6
+			},
+			"Fletch an ~|eternal magic shortbow Mk. 5|~": {
+				"Items": ["Eternal magic shortbow*", "Eternal magic logs*"],
+				"Objects": ["Fletching workbench"],
+				"Level": 100,
+				"Output": "Eternal magic shortbow Mk. 5",
+				"Primary": true,
+				"Priority": 7
+			},
+			"Fletch an ~|eternal magic stock|~": {
+				"Items": ["Eternal magic logs*"],
+				"Level": 103,
+				"Output": "Eternal magic stock",
+				"Primary": true,
+				"Priority": 1
+			},
+			"Fletch a ~|primal crossbow (unstrung)|~": {
+				"Items": ["Eternal magic logs*"],
+				"Level": 103,
+				"Output": "Primal crossbow (unstrung)",
+				"Primary": true,
+				"Priority": 2
+			},
+			"String a ~|primal crossbow|~": {
+				"Items": ["Primal crossbow (unstrung)*", "Crossbow string*"],
+				"Level": 103,
+				"Output": "Primal crossbow",
+				"Primary": true,
+				"Priority": 3
+			},
+			"Fletch a ~|primal crossbow Mk. 5|~": {
+				"Items": ["Primal crossbow*", "Eternal magic logs*"],
+				"Objects": ["Fletching workbench"],
+				"Level": 103,
+				"Output": "Primal crossbow Mk. 5",
+				"Primary": true,
+				"Priority": 4
+			},
+			"Fletch a ~|off-hand primal crossbow (unstrung)|~": {
+				"Items": ["Eternal magic logs*"],
+				"Level": 103,
+				"Output": "Off-hand primal crossbow (unstrung)",
+				"Primary": true,
+				"Priority": 5
+			},
+			"String a ~|off-hand primal crossbow|~": {
+				"Items": ["Off-hand primal crossbow (unstrung)*", "Crossbow string*"],
+				"Level": 103,
+				"Output": "Off-hand primal crossbow",
+				"Primary": true,
+				"Priority": 6
+			},
+			"Fletch a ~|off-hand primal crossbow Mk. 5|~": {
+				"Items": ["Off-hand primal crossbow*", "Eternal magic logs*"],
+				"Objects": ["Fletching workbench"],
+				"Level": 103,
+				"Output": "Off-hand primal crossbow Mk. 5",
+				"Primary": true,
+				"Priority": 7
+			},
+			"Tip ~|primal bolts|~": {
+				"Items": ["Eternal magic headless shaft*", "Primal bolt tips*"],
+				"Level": 103,
+				"Output": "Primal bolts",
+				"Primary": true,
+				"Priority": 8
+			},
+			"Shave off ~|wood shavings|~": {
+				"Items": ["Logs*"],
+				"Tasks": {
+					"Fletch Quest*": "Nonskill"
+				},
+				"Level": 110,
+				"Output": "Wood shavings",
+				"Primary": true,
+				"Priority": 1
+			},
+			"Shave off ~|oak shavings|~": {
+				"Items": ["Oak logs*"],
+				"Tasks": {
+					"Fletch Quest*": "Nonskill"
+				},
+				"Level": 110,
+				"Output": "Oak shavings",
+				"Primary": true,
+				"Priority": 2
+			},
+			"Shave off ~|willow shavings|~": {
+				"Items": ["Willow logs*"],
+				"Tasks": {
+					"Fletch Quest*": "Nonskill"
+				},
+				"Level": 110,
+				"Output": "Willow shavings",
+				"Primary": true,
+				"Priority": 3
+			},
+			"Shave off ~|teak shavings|~": {
+				"Items": ["Teak logs*"],
+				"Tasks": {
+					"Fletch Quest*": "Nonskill"
+				},
+				"Level": 110,
+				"Output": "Teak shavings",
+				"Primary": true,
+				"Priority": 4
+			},
+			"Shave off ~|maple shavings|~": {
+				"Items": ["Maple logs*"],
+				"Tasks": {
+					"Fletch Quest*": "Nonskill"
+				},
+				"Level": 110,
+				"Output": "Maple shavings",
+				"Primary": true,
+				"Priority": 5
+			},
+			"Shave off ~|acadia shavings|~": {
+				"Items": ["Acadia logs*"],
+				"Tasks": {
+					"Fletch Quest*": "Nonskill"
+				},
+				"Level": 110,
+				"Output": "Acadia shavings",
+				"Primary": true,
+				"Priority": 6
+			},
+			"Shave off ~|mahogany shavings|~": {
+				"Items": ["Mahogany logs*"],
+				"Tasks": {
+					"Fletch Quest*": "Nonskill"
+				},
+				"Level": 110,
+				"Output": "Mahogany shavings",
+				"Primary": true,
+				"Priority": 7
+			},
+			"Shave off ~|yew shavings|~": {
+				"Items": ["Yew logs*"],
+				"Tasks": {
+					"Fletch Quest*": "Nonskill"
+				},
+				"Level": 110,
+				"Output": "Yew shavings",
+				"Primary": true,
+				"Priority": 8
+			},
+			"Shave off ~|magic shavings|~": {
+				"Items": ["Magic logs*"],
+				"Tasks": {
+					"Fletch Quest*": "Nonskill"
+				},
+				"Level": 110,
+				"Output": "Magic shavings",
+				"Primary": true,
+				"Priority": 9
+			},
+			"Shave off ~|elder shavings|~": {
+				"Items": ["Elder logs*"],
+				"Tasks": {
+					"Fletch Quest*": "Nonskill"
+				},
+				"Level": 110,
+				"Output": "Elder shavings",
+				"Primary": true,
+				"Priority": 10
+			},
+			"Shave off ~|eternal magic shavings|~": {
+				"Items": ["Eternal magic logs*"],
+				"Tasks": {
+					"Fletch Quest*": "Nonskill"
+				},
+				"Level": 110,
+				"Output": "Eternal magic shavings",
+				"Primary": true,
+				"Priority": 11
+			},
+			"Fletch a ~|waxed masterwork string|~": {
+				"Items": ["Bucket of vis wax*", "Magic string*"],
+				"Tasks": {
+					"Fletch Quest*": "Nonskill"
+				},
+				"Level": 110,
+				"Output": "Waxed masterwork string",
+				"Primary": true,
+				"Priority": 12
+			},
+			"Fletch a ~|hollowed masterwork bow limb|~": {
+				"Items": ["Perfect eternal magic branch*"],
+				"Tasks": {
+					"Fletch Quest*": "Nonskill"
+				},
+				"Level": 110,
+				"Output": "Hollowed masterwork bow limb",
+				"Primary": true,
+				"Priority": 13
+			},
+			"Complete the ~|masterwork bow|~": {
+				"Items": [
+					"Hollowed masterwork bow limb*",
+					"Eternal magic glue*",
+					"Wood shavings*",
+					"Oak shavings*",
+					"Willow shavings*",
+					"Teak shavings*",
+					"Maple shavings*",
+					"Acadia shavings*",
+					"Mahogany shavings*",
+					"Yew shavings*",
+					"Magic shavings*",
+					"Elder shavings*",
+					"Eternal magic shavings*",
+					"Glorious bar*",
+					"Gold bar*",
+					"Masterwork rivets*",
+					"Dyed undead dragon leather*",
+					"Faceted noxious sapphire*",
+					"Faceted ascended sapphire*",
+					"Waxed masterwork string*"
+				],
+				"Objects": ["Anvil[+]"],
+				"Tasks": {
+					"Fletch Quest*": "Nonskill"
+				},
+				"Level": 110,
+				"Output": "Masterwork bow",
+				"Primary": true,
+				"Priority": 11
 			},
 			"Create the ~|blurite keystone|~": {
 				"Tasks": {
@@ -48904,6 +49247,20 @@
 				"NoPet": true,
 				"NoBoost": true
 			},
+			"Imbue a ~|noxious sapphire|~": {
+				"Items": ["Noxious sapphire (unimbued)*"],
+				"Level": 90,
+				"Output": "Noxious sapphire",
+				"Primary": true,
+				"Priority": 14
+			},
+			"Imbue a ~|ascended sapphire|~": {
+				"Items": ["Ascended sapphire (unimbued)*"],
+				"Level": 90,
+				"Output": "Ascended sapphire",
+				"Primary": true,
+				"Priority": 15
+			},
 			"Cast ~|enchant bakriminel bolt (jade)|~": {
 				"Category": ["Spells"],
 				"Items": ["Blood rune*", "Cosmic rune*", "Earth rune[+]*", "Jade bakriminel bolts*"],
@@ -49401,13 +49758,90 @@
 			}
 		},
 		"Mining": {
-			"Mine a ~|crashed star|~": {
-				"Category": ["DnD Skilling"],
-				"Level": 1,
-				"Chunks": ["ShootingStar[+]"],
-				"Output": "CrashedStar",
+			"Mine a size 1 ~|crashed star|~": {
+				"Category": ["Shooting Stars"],
+				"Level": 10,
+				"Objects": ["Crashed star"],
+				"Output": "Stardust",
 				"Primary": true,
-				"Priority": 18
+				"Priority": 40
+			},
+			"Mine a size 2 ~|crashed star|~": {
+				"Category": ["Shooting Stars"],
+				"Level": 20,
+				"Objects": ["Crashed star"],
+				"Output": "Stardust",
+				"Primary": true,
+				"Priority": 40
+			},
+			"Mine a size 3 ~|crashed star|~": {
+				"Category": ["Shooting Stars"],
+				"Level": 30,
+				"Objects": ["Crashed star"],
+				"Output": "Stardust",
+				"Primary": true,
+				"Priority": 40
+			},
+			"Mine a size 4 ~|crashed star|~": {
+				"Category": ["Shooting Stars"],
+				"Level": 40,
+				"Objects": ["Crashed star"],
+				"Output": "Stardust",
+				"Primary": true,
+				"Priority": 40
+			},
+			"Mine a size 5 ~|crashed star|~": {
+				"Category": ["Shooting Stars"],
+				"Level": 50,
+				"Objects": ["Crashed star"],
+				"Output": "Stardust",
+				"Primary": true,
+				"Priority": 40
+			},
+			"Mine a size 6 ~|crashed star|~": {
+				"Category": ["Shooting Stars"],
+				"Level": 60,
+				"Objects": ["Crashed star"],
+				"Output": "Stardust",
+				"Primary": true,
+				"Priority": 40,
+				"Not F2P": true
+			},
+			"Mine a size 7 ~|crashed star|~": {
+				"Category": ["Shooting Stars"],
+				"Level": 70,
+				"Objects": ["Crashed star"],
+				"Output": "Stardust",
+				"Primary": true,
+				"Priority": 40,
+				"Not F2P": true
+			},
+			"Mine a size 8 ~|crashed star|~": {
+				"Category": ["Shooting Stars"],
+				"Level": 80,
+				"Objects": ["Crashed star"],
+				"Output": "Stardust",
+				"Primary": true,
+				"Priority": 40,
+				"Not F2P": true
+			},
+			"Mine a size 9 ~|crashed star|~": {
+				"Category": ["Shooting Stars"],
+				"Level": 90,
+				"Objects": ["Crashed star"],
+				"Output": "Stardust",
+				"Primary": true,
+				"Priority": 40,
+				"Not F2P": true
+			},
+			"Mine a size 10 ~|crashed star|~": {
+				"Category": ["Shooting Stars"],
+				"Level": 100,
+				"Objects": ["Crashed star"],
+				"Output": "Stardust",
+				"Primary": true,
+				"Priority": 40,
+				"Not F2P": true
 			},
 			"Mine with an ~|inferno Adze|~": {
 				"Items": ["Inferno Adze|~"],
@@ -57702,6 +58136,20 @@
 				},
 				"Priority": 10
 			},
+			"Craft a ~|noxious sapphire (unimbued)|~": {
+				"Items": ["Sapphire*", "Noxious essence*"],
+				"Level": 90,
+				"Output": "Noxious sapphire (unimbued)",
+				"Primary": true,
+				"Priority": 11
+			},
+			"Craft a ~|ascended sapphire (unimbued)|~": {
+				"Items": ["Sapphire*", "Ascended essence*"],
+				"Level": 90,
+				"Output": "Ascended sapphire (unimbued)",
+				"Primary": true,
+				"Priority": 12
+			},
 			"Feed a ~|starved ancient effigy|~ with runecrafting": {
 				"Items": ["Starved ancient effigy (runecrafting/summoning)"],
 				"Level": 91,
@@ -61310,7 +61758,7 @@
 				"Items": ["Dragon pickaxe*", "Harmonic dust*", "Redberry pie*"],
 				"Level": 90,
 				"Chunks": ["11825", "Lava Flow Mine", "8500", "8756"],
-				"Objects": ["Anvil[+]"],
+				"Objects": ["Dragonkin anvil"],
 				"Tasks": {
 					"~|While Guthix Sleeps|~ Complete the quest": "Quest",
 					"~|Birthright of the Dwarves|~ Complete the quest": "Quest",
@@ -61319,6 +61767,20 @@
 				"Output": "Pickaxe of Earth and Song",
 				"Primary": true,
 				"Priority": 11
+			},
+			"Forge the ~|Hatchet of Ember and Glade|~": {
+				"Items": ["Dragon hatchet*", "Harmonic dust*", "Redberry pie*", "Imcando hatchet fragment*"],
+				"Level": 90,
+				"Chunks": ["11825", "8500", "8756", "11829"],
+				"Objects": ["Dragonkin anvil"],
+				"Tasks": {
+					"~|While Guthix Sleeps|~ Complete the quest": "Quest",
+					"~|Birthright of the Dwarves|~ Complete the quest": "Quest",
+					"~|Plague's End|~ Complete the quest": "Quest"
+				},
+				"Output": "Hatchet of Ember and Glade",
+				"Primary": true,
+				"Priority": 12
 			},
 			"Forge ~|tetsu weapons|~": {
 				"Items": ["Plate*", "Pearl*", "Tengu tsuba*"],
@@ -61575,6 +62037,22 @@
 				"Output": "Demonic essence",
 				"Primary": true,
 				"Priority": 29
+			},
+			"Extract ~|noxious essence|~ from Noxious weapons": {
+				"Items": ["NoxWeapons[+]*"],
+				"Level": 99,
+				"Objects": ["Dragonkin anvil"],
+				"Output": "Noxious essence",
+				"Primary": true,
+				"Priority": 30
+			},
+			"Extract ~|ascended essence|~ from Ascenscion weapons": {
+				"Items": ["Ascensions[+]*"],
+				"Level": 99,
+				"Objects": ["Dragonkin anvil"],
+				"Output": "Ascended essence",
+				"Primary": true,
+				"Priority": 31
 			},
 			"Forge an ~|Orthen furnace core|~": {
 				"Tasks": {
@@ -61933,7 +62411,8 @@
 					"Argonite rock", 
 					"Katagon rock", 
 					"Gorgonite rock", 
-					"Promethium rock"
+					"Promethium rock",
+					"Crashed star"
 				],
 				"Level": 100,
 				"Tasks": {
@@ -61942,8 +62421,58 @@
 				"Skills": {
 					"Necromancy": 90
 				},
-				"Chunks": ["Camdozaal", "ShootingStar[+]", "14894", "City of Um"],
+				"Chunks": ["Camdozaal", "14894", "City of Um"],
 				"Output": "Pickaxe of Life and Death",
+				"Primary": true,
+				"Priority": 6
+			},
+			"Forge the ~|Hatchet of Bloom and Blight|~": {
+				"Items": [
+					"Hatchet of Ember and Glade*", 
+					"Ensouled moonstone*", 
+					"Wood spirit*", 
+					"Oak wood spirit*", 
+					"Willow wood spirit*", 
+					"Teak wood spirit*", 
+					"Maple wood spirit*", 
+					"Acadia wood spirit*", 
+					"Mahogany wood spirit*", 
+					"Yew wood spirit*", 
+					"Magic wood spirit*", 
+					"Elder wood spirit*", 
+					"RitualLightSource[+]*", 
+					"Basic ghostly ink*", 
+					"Regular ghostly ink*", 
+					"Greater ghostly ink*", 
+					"Uncut moonstone*", 
+					"Brown apron"
+				],
+				"Objects": [
+					"Tree", 
+					"Oak", 
+					"Willow", 
+					"Teak", 
+					"Maple tree", 
+					"Acadia tree", 
+					"Mahogany", 
+					"Yew", 
+					"Magic tree", 
+					"Elder tree", 
+					"Eternal magic tree", 
+					"Overgrown idol#Karamja"
+				],
+				"Level": 100,
+				"Tasks": {
+					"Learn how to forge the Hatchet of Bloom and Blight": "Nonskill",
+					"~|Pieces of Hate|~ Complete the quest": "Quest"
+				},
+				"Skills": {
+					"Necromancy": 90,
+					"Woodcutting": 100,
+					"Fletching": 100
+				},
+				"Chunks": ["Camdozaal", "Braindeath Island", "City of Um"],
+				"Output": "Hatchet of Bloom and Blight",
 				"Primary": true,
 				"Priority": 6
 			},
@@ -66889,12 +67418,38 @@
 				"Primary": false,
 				"Priority": 1
 			},
-			"Cut ~|branching crystal": {
+			"Cut ~|branching crystal|~": {
 				"Level": 80,
 				"Objects": ["Branching crystal"],
 				"Output": "Crystal fragment",
 				"Primary": true,
 				"Priority": 1
+			},
+			"Chop an ~|eternal magic tree|~": {
+				"Level": 100,
+				"Objects": ["Eternal magic tree"],
+				"Primary": true,
+				"Output": "Eternal magic logs",
+				"Priority": 1
+			},
+			"Extract ~|eternal magic sap|~": {
+				"Level": 100,
+				"Items": ["Bucket"],
+				"Objects": ["Eternal magic tree"],
+				"Tasks": {
+					"Fletch Quest*": "Nonskill"
+				},
+				"Primary": true,
+				"Output": "Eternal magic sap",
+				"Priority": 2
+			},
+			"Obtain a ~|perfect eternal magic branch|~": {
+				"Level": 110,
+				"Objects": ["Eternal magic tree"],
+				"Primary": true,
+				"Output": "Perfect eternal magic branch",
+				"Priority": 1,
+				"NoBoost": true
 			},
 			"Create the ~|nature's sentinel outfit|~": {
 				"Objects": ["Inventor's workbench"],
@@ -66982,6 +67537,13 @@
 				"Primary": false,
 				"Priority": 2
 			},
+			"Chop with an ~|orikalkum hatchet|~": {
+				"Items": ["Orikalkum hatchet"],
+				"Level": 6,
+				"Objects": ["Tree[+]"],
+				"Primary": false,
+				"Priority": 2
+			},
 			"Use an ~|inferno Adze|~": {
 				"Items": ["Inferno Adze|~"],
 				"Level": 61,
@@ -66999,6 +67561,48 @@
 				"Objects": ["Tree[+]"],
 				"Primary": false,
 				"Priority": 2
+			},
+			"Chop with a ~|necronium hatchet|~": {
+				"Items": ["Necronium hatchet"],
+				"Level": 70,
+				"Objects": ["Tree[+]"],
+				"Primary": false,
+				"Priority": 3
+			},
+			"Chop with a ~|bane hatchet|~": {
+				"Items": ["Bane hatchet"],
+				"Level": 80,
+				"Objects": ["Tree[+]"],
+				"Primary": false,
+				"Priority": 2
+			},
+			"Chop with the ~|Hatchet of Ember and Glade|~": {
+				"Items": ["Hatchet of Ember and Glade"],
+				"Level": 90,
+				"Objects": ["Tree[+]"],
+				"Primary": false,
+				"Priority": 3
+			},
+			"Chop with an ~|elder rune hatchet|~": {
+				"Items": ["Elder rune hatchet"],
+				"Level": 90,
+				"Objects": ["Tree[+]"],
+				"Primary": false,
+				"Priority": 4
+			},
+			"Chop with the ~|Hatchet of Bloom and Blight|~": {
+				"Items": ["Hatchet of Bloom and Blight"],
+				"Level": 100,
+				"Objects": ["Tree[+]"],
+				"Primary": false,
+				"Priority": 2
+			},
+			"Chop with a ~|primal hatchet|~": {
+				"Items": ["Primal hatchet"],
+				"Level": 100,
+				"Objects": ["Tree[+]"],
+				"Primary": false,
+				"Priority": 3
 			},
 			"Equip a ~|superior log-splitting scrimshaw|~": {
 				"Items": ["Superior log-splitting scrimshaw"],
@@ -99080,6 +99684,36 @@
 				},
 				"Not F2P": true
 			},
+			"Archaeology Mystery: ~|Night Theatre|~ 1": {
+				"BaseQuest": "Night Theatre",
+				"Description": "Gather all the critic's review articles",
+				"Items": ["A critic's review (aricle 1)", "A critic's review (aricle 2)", "A critic's review (aricle 3)", "A critic's review (aricle 4)", "A critic's review (aricle 5)"],
+				"Tasks": {
+					"Complete the ~|Archaeology tutorial|~": "Archaeology"
+				},
+				"Not F2P": true
+			},
+			"Archaeology Mystery: ~|Night Theatre|~ 2": {
+				"BaseQuest": "Night Theatre",
+				"Description": "Speak to Jimmy",
+				"Chunks": ["Senntisten"],
+				"Tasks": {
+					"Archaeology Mystery: ~|Night Theatre|~ 1": "Quest"
+				},
+				"Not F2P": true
+			},
+			"Archaeology Mystery: ~|Night Theatre|~ Complete the mystery": {
+				"BaseQuest": "Night Theatre",
+				"Chunks": ["Senntisten"],
+				"Tasks": {
+					"Archaeology Mystery: ~|Night Theatre|~ 2": "Quest"
+				},
+				"QuestPoints": 0,
+				"XpReward": {
+					"Archaeology": 5100
+				},
+				"Not F2P": true
+			},
 			"Archaeology Mystery: ~|Secrets of the Inquisition|~ 1": {
 				"BaseQuest": "Secrets of the Inquisition",
 				"Description": "Find the first four pages of the inquisitor's memoir",
@@ -103379,21 +104013,20 @@
 			},
 			"~|Karamja Achievements#Medium|~ I'm a Lumberjack and I'm Okay": {
 				"Description": "Cut a log from a teak tree.",
-				"Chunks": ["11312"],
+				"Objects": ["Teak"],
 				"Skills": {
 					"Woodcutting": 35
 				},
 				"Tasks": {
-					"~|Karamja Achievements#Easy|~ Complete the Easy Achievements": "Diary",
-					"~|Jungle Potion|~ Complete the quest": "Quest"
+					"~|Karamja Achievements#Easy|~ Complete the Easy Achievements": "Diary"
 				},
 				"BaseQuest": "Karamja Achievements"
 			},
 			"~|Karamja Achievements#Medium|~ I Sleep All Night and I Work All Day": {
 				"Description": "Cut a log from a mahogany tree.",
-				"Chunks": ["11312"],
+				"Objects": ["Mahogany tree"],
 				"Skills": {
-					"Woodcutting": 50
+					"Woodcutting": 60
 				},
 				"Tasks": {
 					"~|Karamja Achievements#Easy|~ Complete the Easy Achievements": "Diary",
@@ -104188,7 +104821,7 @@
 				"Description": "Cut a willow tree east of Lumbridge Castle.",
 				"Chunks": ["12850"],
 				"Skills": {
-					"Woodcutting": 30
+					"Woodcutting": 20
 				},
 				"Tasks": {
 					"~|Lumbridge Achievements#Easy|~ Complete the Easy Achievements": "Diary"
@@ -105540,7 +106173,7 @@
 				"Description": "Cut five sets of yew logs.",
 				"Chunks": ["11061", "10806"],
 				"Skills": {
-					"Woodcutting": 60
+					"Woodcutting": 70
 				},
 				"Tasks": {
 					"~|Seers' Village Achievements#Medium|~ Complete the Medium Achievements": "Diary"
@@ -106084,7 +106717,7 @@
 				"Description": "During the Crwys Voice of Seren : cut a magic log in the Crwys district.",
 				"Chunks": ["9012"],
 				"Skills": {
-					"Woodcutting": 75
+					"Woodcutting": 80
 				},
 				"Tasks": {
 					"~|Tirannwn Achievements#Medium|~ Complete the Medium Achievements": "Diary",
@@ -115369,7 +116002,7 @@
 				"Not F2P": true
 			},
 			"(Champion Scrolls) Obtain the ~|goblin champion's scroll|~": {
-				"CategoryChampion Scrolls": ["Untracked Uniques", "Untracked Uniques Combat"],
+				"Category": ["Untracked Uniques", "Untracked Uniques Combat"],
 				"Label": "Untracked Combat Uniques",
 				"Chunks": ["Champions' Arena"],
 				"Items": ["Goblin Champion's scroll"],
@@ -121178,11 +121811,66 @@
 				},
 				"Set": "BIS Pickaxe"
 			},
-			"Obtain a ~|Imcando hatchet|~": {
+			"Obtain a ~|Hatchet of Bloom and Blight|~": {
+				"Category": ["BIS Skilling"],
+				"Label": "BIS Skilling",
+				"Items": ["Hatchet of Bloom and Blight"],
+				"Priority": 1,
+				"Requirements": {
+					"Woodcutting": 100
+				},
+				"Set": "BIS Hatchet",
+				"Not F2P": true
+			},
+			"Obtain a ~|primal hatchet|~": {
+				"Category": ["BIS Skilling"],
+				"Label": "BIS Skilling",
+				"Items": ["Primal hatchet"],
+				"Priority": 2,
+				"Requirements": {
+					"Woodcutting": 100
+				},
+				"Set": "BIS Hatchet",
+				"Not F2P": true
+			},
+			"Obtain a ~|Hatchet of Ember and Glade|~": {
+				"Category": ["BIS Skilling"],
+				"Label": "BIS Skilling",
+				"Items": ["Hatchet of Ember and Glade"],
+				"Priority": 3,
+				"Requirements": {
+					"Woodcutting": 90
+				},
+				"Set": "BIS Hatchet",
+				"Not F2P": true
+			},
+			"Obtain an ~|elder rune hatchet|~": {
+				"Category": ["BIS Skilling"],
+				"Label": "BIS Skilling",
+				"Items": ["Elder rune hatchet"],
+				"Priority": 4,
+				"Requirements": {
+					"Woodcutting": 90
+				},
+				"Set": "BIS Hatchet",
+				"Not F2P": true
+			},
+			"Obtain an ~|Imcando hatchet|~": {
 				"Category": ["BIS Skilling"],
 				"Label": "BIS Skilling",
 				"Items": ["Imcando hatchet"],
-				"Priority": 1,
+				"Priority": 5,
+				"Requirements": {
+					"Woodcutting": 80
+				},
+				"Set": "BIS Hatchet",
+				"Not F2P": true
+			},
+			"Obtain a ~|bane hatchet|~": {
+				"Category": ["BIS Skilling"],
+				"Label": "BIS Skilling",
+				"Items": ["Bane hatchet"],
+				"Priority": 6,
 				"Requirements": {
 					"Woodcutting": 80
 				},
@@ -121193,7 +121881,18 @@
 				"Category": ["BIS Skilling"],
 				"Label": "BIS Skilling",
 				"Items": ["Crystal hatchet"],
-				"Priority": 2,
+				"Priority": 7,
+				"Requirements": {
+					"Woodcutting": 70
+				},
+				"Set": "BIS Hatchet",
+				"Not F2P": true
+			},
+			"Obtain a ~|necronium hatchet|~": {
+				"Category": ["BIS Skilling"],
+				"Label": "BIS Skilling",
+				"Items": ["Necronium hatchet"],
+				"Priority": 8,
 				"Requirements": {
 					"Woodcutting": 70
 				},
@@ -121204,7 +121903,18 @@
 				"Category": ["BIS Skilling"],
 				"Label": "BIS Skilling",
 				"Items": ["Dragon hatchet"],
-				"Priority": 3,
+				"Priority": 9,
+				"Requirements": {
+					"Woodcutting": 60
+				},
+				"Set": "BIS Hatchet",
+				"Not F2P": true
+			},
+			"Obtain an ~|orikalkum hatchet|~": {
+				"Category": ["BIS Skilling"],
+				"Label": "BIS Skilling",
+				"Items": ["Orikalkum hatchet"],
+				"Priority": 10,
 				"Requirements": {
 					"Woodcutting": 60
 				},
@@ -121215,7 +121925,7 @@
 				"Category": ["BIS Skilling"],
 				"Label": "BIS Skilling",
 				"Items": ["Rune hatchet"],
-				"Priority": 4,
+				"Priority": 11,
 				"Requirements": {
 					"Woodcutting": 50
 				},
@@ -121225,7 +121935,7 @@
 				"Category": ["BIS Skilling"],
 				"Label": "BIS Skilling",
 				"Items": ["Adamant hatchet"],
-				"Priority": 5,
+				"Priority": 12,
 				"Requirements": {
 					"Woodcutting": 40
 				},
@@ -121235,7 +121945,7 @@
 				"Category": ["BIS Skilling"],
 				"Label": "BIS Skilling",
 				"Items": ["Mithril hatchet"],
-				"Priority": 6,
+				"Priority": 13,
 				"Requirements": {
 					"Woodcutting": 30
 				},
@@ -121245,7 +121955,7 @@
 				"Category": ["BIS Skilling"],
 				"Label": "BIS Skilling",
 				"Items": ["Black hatchet"],
-				"Priority": 7,
+				"Priority": 14,
 				"Requirements": {
 					"Woodcutting": 25
 				},
@@ -121255,7 +121965,7 @@
 				"Category": ["BIS Skilling"],
 				"Label": "BIS Skilling",
 				"Items": ["Steel hatchet"],
-				"Priority": 8,
+				"Priority": 15,
 				"Requirements": {
 					"Woodcutting": 20
 				},
@@ -121265,7 +121975,7 @@
 				"Category": ["BIS Skilling"],
 				"Label": "BIS Skilling",
 				"Items": ["Iron hatchet"],
-				"Priority": 9,
+				"Priority": 16,
 				"Requirements": {
 					"Woodcutting": 10
 				},
@@ -121446,6 +122156,15 @@
 					"Archaeology": 10
 				},
 				"Set": "BIS Mattock"
+			},
+			"Obtain a ~|charming imp|~": {
+				"Category": ["BIS Skilling"],
+				"Label": "BIS Skilling",
+				"Items": ["Charming imp"],
+				"Requirements": {
+					"Summoning": 21
+				},
+				"Not F2P": true
 			},
 			"Obtain a ~|first age tiara|~": {
 				"Category": ["BIS Skilling"],
@@ -125075,6 +125794,9 @@
 			},
 			"Lumbridge Swamp caves": {
 				"UnlocksArea": true,
+				"Tasks": {
+					"Access the Lumbridge Swamp caves[+]": "Nonskill"
+				},
 				"Not F2P": true
 			},
 			"Mahjarrat Ritual Site Cavern": {
@@ -126534,12 +127256,6 @@
 				"Output": "Wool",
 				"Not F2P": false
 			},
-			"Make an Imcando hatchet*": {
-				"Items": ["Dragon hatchet", "Imcando hatchet fragment"],
-				"NPCs": ["Thurgo"],
-				"Output": "Imcando hatchet",
-				"Not F2P": true
-			},
 			"Kill a living rock creature*": {
 				"Chunks": ["Living Rock Caverns"],
 				"Output Object": "Living rock remains",
@@ -127824,6 +128540,11 @@
 				},
 				"Output": "Imcando pickaxe"
 			},
+			"Have Thrugo make you an Imcando hatchet*": {
+				"Items": ["Dragon hatchet*", "Redberry pie*", "Imcando hatchet fragment"],
+				"Chunks": ["11825"],
+				"Output": "Imcando hatchet"
+			},
 			"Have Lady Ithell make you a crystal pickaxe*": {
 				"Items": ["Dragon pickaxe*", "Harmonic dust*"],
 				"Chunks": ["8500", "8756"],
@@ -127947,6 +128668,10 @@
 			},
 			"Learn how to forge the Pickaxe of Life and Death": {
 				"Items": ["Pickaxe of Earth and Song"],
+				"Chunks": ["Camdozaal"]
+			},
+			"Learn how to forge the Hatchet of Bloom and Blight": {
+				"Items": ["Hatchet of Ember and Glade"],
 				"Chunks": ["Camdozaal"]
 			},
 			"Hard Mode Bosses": {
@@ -128228,6 +128953,9 @@
 				"Chunks": ["DemonFlashMobWilderness[+]"],
 				"Output": "Demon Flash Mob rewards (wilderness)"
 			},
+			"Fletch Quest*": {
+				"Items": ["Off-hand primal crossbow Mk. 5", "Primal crossbow Mk. 5", "Eternal magic shortbow Mk. 5"]
+			},
 			"Unlock the Jad pet": {
 				"Items": ["Fire cape"],
 				"Skills": {
@@ -128320,6 +129048,16 @@
 					"~|Jungle Potion|~ Complete the quest": "Quest"
 				},
 				"Output": "Gout tuber"
+			},
+			"Access the Lumbridge Swamp caves via Lumbridge Cellar": {
+				"Chunks": ["Lumbridge Cellar"],
+				"Tasks": {
+					"~|The Lost Tribe|~ 2": "Quest"
+				}
+			}, 
+			"Access the Lumbridge Swamp caves via 12953": {
+				"Chunks": ["12953"],
+				"Items": ["Rope"]
 			}
 		}
 	},
@@ -131168,6 +131906,9 @@
 				"Red wisp": 1,
 				"Yellow wisp": 1
 			},
+			"Object": {
+				"Crashed star": 1
+			},
 			"Nickname": "South-West Lost Grove"
 		},
 		"7473": {
@@ -131452,6 +132193,9 @@
 				"Red wisp": 1,
 				"Yellow wisp": 1
 			},
+			"Object": {
+				"Crashed star": 1
+			},
 			"Nickname": "North Lost Grove"
 		},
 		"7745": {
@@ -131698,6 +132442,9 @@
 			},
 			"NPC": {
 				"Firefly": 6
+			},
+			"Object": {
+				"Crashed star": 1
 			},
 			"Nickname": "South-East Lost Grove"
 		},
@@ -132670,7 +133417,8 @@
 				"Barrel": 6,
 				"Trade wagon": 1,
 				"Log pile": 1,
-				"Crate": 1
+				"Crate": 1,
+				"Crashed star": 1
 			},
 			"Monster": {
 				"Suqah": 14
@@ -133058,7 +133806,8 @@
 		"8751": {
 			"Object": {
 				"Tree": 29,
-				"Standstone": 1
+				"Standstone": 1,
+				"Crashed star": 1
 			},
 			"NPC": {
 				"Tarddiad Firefly": 5
@@ -133943,7 +134692,8 @@
 				"Ivy": 9,
 				"Herb patch": 1,
 				"Bush patch": 1,
-				"Elder tree patch": 1
+				"Elder tree patch": 1,
+				"Fletching workbench": 1
 			},
 			"Monster": {
 				"Cadarn ranger": 12,
@@ -134044,7 +134794,8 @@
 		"9016": {
 			"Object": {
 				"Dead tree": 22,
-				"Evergreen": 4
+				"Evergreen": 4,
+				"Crashed star": 1
 			},
 			"NPC": {
 				"Brian Twitcher": 1
@@ -134466,7 +135217,8 @@
 				"Spinning wheel": 1,
 				"Water barrel": 1,
 				"Cooking range": 2,
-				"Fruit tree patch": 1
+				"Fruit tree patch": 1,
+				"Crashed star": 1
 			},
 			"NPC": {
 				"Sheep": 3,
@@ -134633,7 +135385,8 @@
 				"Oak": 1,
 				"Yew": 1,
 				"Tree": 17,
-				"Evergreen": 9
+				"Evergreen": 9,
+				"Eternal magic tree": 1
 			},
 			"Monster": {
 				"Chinchompa": 11
@@ -134662,13 +135415,16 @@
 				"Evergreen": 13,
 				"Iron rock": 6,
 				"Elder tree": 1,
-				"Obelisk": 1
+				"Obelisk": 1,
+				"Eternal magic tree": 5,
+				"Crashed star": 1
 			},
 			"NPC": {
 				"Kathy Corkat": 1,
 				"Copper longtail": 15,
 				"Ruby harvest": 16,
-				"Prickly kebbit": 20
+				"Prickly kebbit": 20,
+				"Heedi": 1
 			},
 			"Monster": {
 				"Chinchompa": 11
@@ -135435,7 +136191,8 @@
 				"Anvil": 2,
 				"Forge": 2,
 				"Fishing spot (cage, harpoon)": 5,
-				"Fishing spot (big fishing net, harpoon)": 5
+				"Fishing spot (big fishing net, harpoon)": 5,
+				"Crashed star": 1
 			},
 			"NPC": {
 				"King Gjuki Sorvott IV": 1,
@@ -135983,7 +136740,8 @@
 			"Object": {
 				"Villager": 2,
 				"Fire": 1,
-				"Fishing spot (minnow)": 1
+				"Fishing spot (minnow)": 1,
+				"Crashed star": 1
 			},
 			"NPC": {
 				"Hendrik": 1,
@@ -136026,7 +136784,8 @@
 				"Jungle Tree": 13,
 				"Fishing spot (small fishing net, bait)": 3,
 				"Fishing spot (cage, harpoon)": 2,
-				"Fishing spot (big fishing net, harpoon)": 2
+				"Fishing spot (big fishing net, harpoon)": 2,
+				"Crashed star": 1
 			},
 			"Monster": {
 				"Giant spider": 13,
@@ -136301,7 +137060,8 @@
 				"Nyriki's crate": 1,
 				"Water barrel": 1,
 				"Tree patch": 1,
-				"Fruit tree patch": 1
+				"Fruit tree patch": 1,
+				"Crashed star": 1
 			},
 			"Monster": {
 				"Gnome": 3,
@@ -136951,6 +137711,9 @@
 				"Villager": 1,
 				"Sir Owen": 1
 			},
+			"Object": {
+				"Crashed star": 1
+			},
 			"Nickname": "Ashdale Chapel"
 		},
 		"10026": {
@@ -137589,7 +138352,8 @@
 				"Water barrel": 1,
 				"Coal rock": 6,
 				"Anvil": 1,
-				"Forge": 1
+				"Forge": 1,
+				"Crashed star": 1
 			},
 			"Monster": {
 				"Penguin": 8,
@@ -138238,7 +139002,8 @@
 				"Forge": 2,
 				"Ivy": 6,
 				"Hops patch": 1,
-				"Evil tree": 1
+				"Evil tree": 1,
+				"Crashed star": 1
 			},
 			"Monster": {
 				"Man": 2,
@@ -138347,7 +139112,8 @@
 				"Tree": 64,
 				"Crate": 2,
 				"Silver rock": 4,
-				"Bush patch": 1
+				"Bush patch": 1,
+				"Crashed star": 1
 			},
 			"NPC": {
 				"Brother Kojo": 1,
@@ -138614,7 +139380,8 @@
 				"Oak": 7,
 				"Tree": 24,
 				"Dead tree": 24,
-				"Coal rock": 13
+				"Coal rock": 13,
+				"Crashed star": 1
 			},
 			"Monster": {
 				"Rat": 3,
@@ -139102,7 +139869,8 @@
 				"Black mushrooms": 3,
 				"Boxes": 11,
 				"Crates": 13,
-				"Crack": 1
+				"Crack": 1,
+				"Fletching workbench": 1
 			},
 			"Monster": {
 				"Rat": 19,
@@ -139315,7 +140083,8 @@
 				"Dead tree": 20,
 				"Runite rock": 8,
 				"Anvil": 3,
-				"Forge": 2
+				"Forge": 2,
+				"Crashed star": 1
 			},
 			"NPC": {
 				"Murphy": 1,
@@ -139735,7 +140504,8 @@
 				"Mithril rock": 5,
 				"Fishing spot (small fishing net, bait)": 4,
 				"Fishing spot (cage, harpoon)": 4,
-				"Fishing spot (big fishing net, harpoon)": 3
+				"Fishing spot (big fishing net, harpoon)": 3,
+				"Crashed star": 1
 			},
 			"Monster": {
 				"Chicken": 4,
@@ -140322,7 +141092,8 @@
 			"Object": {
 				"Fire": 4,
 				"Crystal tree": 1,
-				"Evil tree": 1
+				"Evil tree": 1,
+				"Crashed star": 1
 			},
 			"Monster": {
 				"Snake": 5,
@@ -140345,7 +141116,8 @@
 			"Object": {
 				"Ropeswing": 2,
 				"Obelisk": 1,
-				"Gold rock": 5
+				"Gold rock": 5,
+				"Crashed star": 1
 			},
 			"Monster": {
 				"Poison Scorpion": 7,
@@ -140424,7 +141196,8 @@
 				"Dead tree": 16,
 				"Coal rock": 4,
 				"Mithril rock": 4,
-				"Evil tree": 1
+				"Evil tree": 1,
+				"Crashed star": 1
 			},
 			"Monster": {
 				"Grizzly bear": 18
@@ -140704,7 +141477,8 @@
 				"Oak": 10,
 				"Tree": 27,
 				"Dead tree": 29,
-				"Iron rock": 5
+				"Iron rock": 5,
+				"Crashed star": 1
 			},
 			"Monster": {
 				"Black unicorn": 2,
@@ -141726,7 +142500,8 @@
 				"Bank deposit box": 1,
 				"Beehive": 8,
 				"Vegetable stall": 2,
-				"Evil tree": 1
+				"Evil tree": 1,
+				"Crashed star": 1
 			},
 			"Monster": {
 				"Man": 2,
@@ -142471,7 +143246,8 @@
 				"Tunnel": 1,
 				"Precious gem rock": 3,
 				"Furnace": 1,
-				"Fishing spot (lure, bait))": 3
+				"Fishing spot (lure, bait)": 3,
+				"Crashed star": 1
 			},
 			"NPC": {
 				"Theho Rses": 1,
@@ -142517,7 +143293,8 @@
 				"Small obelisk": 1,
 				"Tunnel": 1,
 				"Drakolith rock": 7,
-				"Evil tree": 1
+				"Evil tree": 1,
+				"Crashed star": 1
 			},
 			"Monster": {
 				"Jungle spider": 3,
@@ -142612,7 +143389,8 @@
 		"11314": {
 			"Object": {
 				"Hole": 1,
-				"Runite rock": 5
+				"Runite rock": 5,
+				"Crashed star": 1
 			},
 			"Monster": {
 				"Skeleton": 9,
@@ -142775,7 +143553,8 @@
 				"Cave": 4,
 				"Crate": 1,
 				"Evergreen": 48,
-				"Brazier": 1
+				"Brazier": 1,
+				"Fletching workbench": 1
 			},
 			"Monster": {
 				"Wolf": 9,
@@ -143319,7 +144098,8 @@
 		"11418": {
 			"Object": {
 				"Fire": 2,
-				"Train cart": 1
+				"Train cart": 1,
+				"Fletching workbench": 1
 			},
 			"Monster": {
 				"Ice spider": 1,
@@ -143707,7 +144487,8 @@
 				"Banana Tree": 24,
 				"Boxes": 2,
 				"Fishing spot (small fishing net, bait)": 3,
-				"Fishing spot (cage, harpoon)": 3
+				"Fishing spot (cage, harpoon)": 3,
+				"Teak": 4
 			},
 			"Monster": {
 				"Snake": 2,
@@ -143818,7 +144599,8 @@
 				"Clay rock": 3,
 				"Silver rock": 3,
 				"Gold rock": 3,
-				"Furnace": 1
+				"Furnace": 1,
+				"Crashed star": 1
 			},
 			"Monster": {
 				"Cow": 10,
@@ -143877,7 +144659,8 @@
 				"Coal rock": 3,
 				"Silver rock": 2,
 				"Crystal tree": 1,
-				"Evil tree": 1
+				"Evil tree": 1,
+				"Crashed star": 1
 			},
 			"NPC": {
 				"Nora T. Hagg": 1,
@@ -143931,7 +144714,8 @@
 				"Hopper controls": 1,
 				"Water barrel": 1,
 				"Stepping stone": 2,
-				"Ivy": 5
+				"Ivy": 5,
+				"Crashed star": 1
 			},
 			"NPC": {
 				"The Lady of the Lake": 1,
@@ -144025,7 +144809,8 @@
 				"Forge": 1,
 				"Fishing spot (crayfish)": 4,
 				"Potato patch": 1,
-				"Tree patch": 1
+				"Tree patch": 1,
+				"Crashed star": 1
 			},
 			"NPC": {
 				"Austri": 1,
@@ -145011,7 +145796,8 @@
 				"Copper rock": 3,
 				"Tin rock": 2,
 				"Adamantite rock": 4,
-				"Gold rock": 3
+				"Gold rock": 3,
+				"Crashed star": 1
 			},
 			"NPC": {
 				"Butterfly": 5,
@@ -146093,7 +146879,8 @@
 				"Anvil": 8,
 				"Burial Anvil": 8,
 				"Furnace": 1,
-				"Forge": 1
+				"Forge": 1,
+				"Crashed star": 1
 			},
 			"NPC": {
 				"Dwarf": 2,
@@ -146332,7 +147119,8 @@
 				"Mysterious ruins": 1,
 				"Crate": 1,
 				"Shelves": 14,
-				"Orichalcite rock": 8
+				"Orichalcite rock": 8,
+				"Crashed star": 1
 			},
 			"Monster": {
 				"Skeleton": 12,
@@ -146410,7 +147198,8 @@
 		"12091": {
 			"Object": {
 				"Necrite rock": 20,
-				"Fishing spot (lava)": 1
+				"Fishing spot (lava)": 1,
+				"Crashed star": 1
 			},
 			"Monster": {
 				"Dark beast": 12,
@@ -146428,7 +147217,8 @@
 			"Object": {
 				"Web": 1,
 				"Stone Column": 1,
-				"Phasmatite rock": 10
+				"Phasmatite rock": 10,
+				"Crashed star": 1
 			},
 			"Monster": {
 				"Deadly red spider": 14,
@@ -146454,7 +147244,8 @@
 				"Banite rock": 6,
 				"Anvil": 1,
 				"Forge": 1,
-				"Bloodwood tree": 1
+				"Bloodwood tree": 1,
+				"Crashed star": 1
 			},
 			"Monster": {
 				"Pirate": 12,
@@ -146960,7 +147751,8 @@
 			"Object": {
 				"Bank chest": 1,
 				"Water": 2,
-				"Magical barrier": 1
+				"Magical barrier": 1,
+				"Crashed star": 1
 			},
 			"NPC": {
 				"Wizard Chambers": 1,
@@ -147017,7 +147809,8 @@
 				"Kipple": 1,
 				"Wizard Myrtle": 1,
 				"Vannaka": 1,
-				"Wizard Rinsit": 1
+				"Wizard Rinsit": 1,
+				"Wizard Rosalina": 1
 			},
 			"Monster": {
 				"Lesser demon (Wizards' Tower)": 1,
@@ -147039,7 +147832,8 @@
 			},
 			"Shop": {
 				"Wizard Finix's Runecrafting Shop": true,
-				"Wizard Rinsit's Runecrafting Shop": true
+				"Wizard Rinsit's Runecrafting Shop": true,
+				"Shooting Star Reward Shop": true
 			},
 			"Quest": {
 				"Azzanadra's Quest": "step",
@@ -147467,7 +148261,8 @@
 				"Rift": 1,
 				"PvP hatch": 1,
 				"Runite rock": 4,
-				"Air obelisk": 1
+				"Air obelisk": 1,
+				"Crashed star": 1
 			},
 			"Monster": {
 				"Skeleton": 14
@@ -147574,7 +148369,8 @@
 		"12349": {
 			"Object": {
 				"Lever": 1,
-				"Web": 2
+				"Web": 2,
+				"Crashed star": 1
 			},
 			"Monster": {
 				"Hellhound": 7,
@@ -147941,7 +148737,8 @@
 				"VIP archway": 1,
 				"Shifting Tombs": 1,
 				"Mineral deposit": 1,
-				"Fishing spot (Menaphos)": 2
+				"Fishing spot (Menaphos)": 2,
+				"Crashed star": 1
 			},
 			"NPC": {
 				"Anukat": 1,
@@ -147977,7 +148774,8 @@
 				"Anvil": 1,
 				"Forge": 1,
 				"Fishing spot (Menaphos)": 1,
-				"Cactus patch": 1
+				"Cactus patch": 1,
+				"Crashed star": 1
 			},
 			"NPC": {
 				"Fisherman": 1,
@@ -148039,7 +148837,8 @@
 			"Object": {
 				"Kharidian cactus (healthy)": 1,
 				"Sandstone rock": 17,
-				"Granite rock": 15
+				"Granite rock": 15,
+				"Crashed star": 1
 			},
 			"NPC": {
 				"Lazim": 1,
@@ -148258,7 +149057,8 @@
 				"Tin rock": 2,
 				"Iron rock": 4,
 				"Mithril rock": 3,
-				"Bush patch": 1
+				"Bush patch": 1,
+				"Crashed star": 1
 			},
 			"Monster": {
 				"Chicken": 5,
@@ -148478,7 +149278,8 @@
 		"12601": {
 			"Object": {
 				"Rock": 1,
-				"Energy rift": 5
+				"Energy rift": 5,
+				"Crashed star": 1
 			},
 			"Monster": {
 				"Greater demon": 9
@@ -149062,7 +149863,8 @@
 				"Tin rock": 3,
 				"Clay rock": 2,
 				"Fishing spot (small fishing net, bait)": 3,
-				"Nettles": 3
+				"Nettles": 3,
+				"Crashed star": 1
 			},
 			"NPC": {
 				"Father Urhney": 1,
@@ -149354,7 +150156,8 @@
 				"Storage Chest": 1,
 				"Elder tree": 1,
 				"Canoe station": 1,
-				"Nettles": 2
+				"Nettles": 2,
+				"Maple tree": 3
 			},
 			"NPC": {
 				"Charlie the Tramp": 1,
@@ -149434,7 +150237,9 @@
 				"Mysterious cape": 1,
 				"Anvil": 3,
 				"Forge": 2,
-				"Shrinking Machine": 1
+				"Shrinking Machine": 1,
+				"Fletching workbench": 1,
+				"Crashed star": 1
 			},
 			"NPC": {
 				"Tramp": 2,
@@ -150245,7 +151050,8 @@
 		"13100": {
 			"Object": {
 				"Banana Tree": 8,
-				"Adamantite rock": 4
+				"Adamantite rock": 4,
+				"Crashed star": 1
 			},
 			"NPC": {
 				"Priest": 2,
@@ -150411,7 +151217,8 @@
 				"Furnace": 2,
 				"Cooking range": 2,
 				"Water trough": 1,
-				"Carved fountain": 1
+				"Carved fountain": 1,
+				"Crashed star": 1
 			},
 			"Monster": {
 				"Man": 4,
@@ -150492,7 +151299,8 @@
 				"Cooking range": 1,
 				"Boxes": 2,
 				"Scoreboard": 1,
-				"Cactus patch": 1
+				"Cactus patch": 1,
+				"Acadia tree": 3
 			},
 			"Monster": {
 				"Man": 2,
@@ -150557,7 +151365,8 @@
 				"Uncommon gem rock": 4,
 				"Gold rock": 4,
 				"Herb patch": 1,
-				"Bonfire": 1
+				"Bonfire": 1,
+				"Crashed star": 1
 			},
 			"NPC": {
 				"Camel": 1,
@@ -150611,7 +151420,8 @@
 				"Tin rock": 1,
 				"Mithril rock": 3,
 				"Adamantite rock": 2,
-				"Dig sites map": 1
+				"Dig sites map": 1,
+				"Crashed star": 1
 			},
 			"Monster": {
 				"Unicorn": 2,
@@ -151845,7 +152655,8 @@
 		},
 		"13370": {
 			"Monster": {
-				"Soulgazer": 2
+				"Soulgazer": 2,
+				"Crashed star": 1
 			},
 			"NPC": {
 				"Gull": 1,
@@ -152088,7 +152899,8 @@
 				"Bank booth": 4,
 				"Banana Tree": 5,
 				"Anvil": 1,
-				"Forge": 1
+				"Forge": 1,
+				"Crashed star": 1
 			},
 			"NPC": {
 				"Monkey": 1,
@@ -152743,7 +153555,8 @@
 				"Teak": 1,
 				"Crate": 1,
 				"Acadia tree": 2,
-				"Palm tree (choppable)": 1
+				"Palm tree (choppable)": 1,
+				"Crashed star": 1
 			},
 			"NPC": {
 				"Clay golem": 1,
@@ -152781,7 +153594,8 @@
 				"Low fence": 1,
 				"Well": 1,
 				"Small obelisk": 1,
-				"Swamp tree": 1
+				"Swamp tree": 1,
+				"Crashed star": 1
 			},
 			"Monster": {
 				"Rat": 13,
@@ -152936,7 +153750,8 @@
 				"Crate": 8,
 				"Old Bookshelf": 2,
 				"Bank booth": 6,
-				"Nettles": 3
+				"Nettles": 3,
+				"Crashed star": 1
 			},
 			"NPC": {
 				"Will o' the wisp": 45,
@@ -153054,7 +153869,8 @@
 				"Fremennik ship (Shadow reef)": 1,
 				"Bathus rock": 2,
 				"Fractite rock": 3,
-				"Heroes of the Shadow Reef": 1
+				"Heroes of the Shadow Reef": 1,
+				"Crashed star": 1
 			},
 			"NPC": {
 				"Linza": 2,
@@ -154177,7 +154993,8 @@
 				"Gangplank": 2,
 				"Climbing Net": 1,
 				"Bank booth": 3,
-				"Rowboat": 1
+				"Rowboat": 1,
+				"Crashed star": 1
 			},
 			"Monster": {
 				"Rat": 3
@@ -155780,7 +156597,8 @@
 				"Crate": 1,
 				"Dragonkin statue": 1,
 				"Flower": 1,
-				"The Stormbreaker": 1
+				"The Stormbreaker": 1,
+				"Crashed star": 1
 			},
 			"NPC": {
 				"Frank (Ancient zygomite)": 1,
@@ -156687,7 +157505,8 @@
 				"Fishing spot (Lure/Bait)": 2,
 				"Fishing spot (Cage/Harpoon)": 3,
 				"Red vine blossom": 1,
-				"Teleportation device": 1
+				"Teleportation device": 1,
+				"Crashed star": 1
 			},
 			"NPC": {
 				"Aquatic jadinko (Anachronia)": 5,
@@ -156887,7 +157706,8 @@
 		"16448": {
 			"Object": {
 				"Dark animica rock (Anachronia)": 4,
-				"Door": 1
+				"Door": 1,
+				"Crashed star": 1
 			},
 			"Monster": {
 				"Devil's snare": 5
@@ -166952,6 +167772,7 @@
 				"The Temple at Senntisten": "step",
 				"Twilight of the Gods": "step",
 				"Empty Children": "first",
+				"Night Theatre": "first",
 				"Secrets of the Inquisition": "first"
 			}
 		},
@@ -169489,6 +170310,10 @@
 			"Shop": {
 				"Culinaromancer's Chest": true
 			},
+			"Spawn": {
+				"Cabbage": 1,
+				"Leather boots": 1
+			},
 			"Connect": {
 				"12850": true,
 				"13206": true
@@ -171295,7 +172120,8 @@
 				"Pottery wheel": 1,
 				"Spinning wheel": 1,
 				"Mushroom patch": 1,
-				"Platform (rituals)": 1
+				"Platform (rituals)": 1,
+				"Fletching workbench": 1
 			},
 			"Quest": {
 				"Alpha vs Omega": "first",
@@ -172306,6 +173132,10 @@
 				"Arrow shaft",
 				"Grenwall spikes"
 			],
+			"Ascensions[+]": [
+				"Ascension crossbow",
+				"Off-hand ascenscion crossbow"
+			],
 			"AttackPotion[+]": [
 				"Attack potion (1)",
 				"Attack potion (2)",
@@ -172430,7 +173260,8 @@
 				"Dragon bane off hand longsword",
 				"Revenant bane 2h sword",
 				"Revenant bane longsword",
-				"Revenant bane off hand longsword"
+				"Revenant bane off hand longsword",
+				"Bane hatchet"
 			],
 			"Barbarian bait[+]": [
 				"Blue feather",
@@ -173213,7 +174044,8 @@
 				"Elder rune off hand longsword + 3",
 				"Elder rune off hand longsword + 4",
 				"Elder rune off hand longsword + 5",
-				"Elder rune off hand longsword"
+				"Elder rune off hand longsword",
+				"Elder rune hatchet"
 			],
 			"Elemental Staff[+]": [
 				"Staff of air",
@@ -174245,7 +175077,8 @@
 				"Necronium off hand battleaxe + 2",
 				"Necronium off hand battleaxe + 3",
 				"Necronium off hand battleaxe + 4",
-				"Necronium off hand battleaxe"
+				"Necronium off hand battleaxe",
+				"Necronium hatchet"
 			],
 			"NettleTea[+]": [
 				"Cup of tea (Nettle tea)",
@@ -174265,6 +175098,11 @@
 				"Reinforced slayer helmet",
 				"Slayer helmet",
 				"Strong slayer helmet"
+			],
+			"NoxWeapons[+]": [
+				"Noxious scythe",
+				"Noxious longbow",
+				"Noxious staff"
 			],
 			"ObsidianArmour[+]": [
 				"Obsidian boots",
@@ -174337,7 +175175,8 @@
 				"Orikalkum warhammer + 1",
 				"Orikalkum warhammer + 2",
 				"Orikalkum warhammer + 3",
-				"Orikalkum warhammer"
+				"Orikalkum warhammer",
+				"Orikalkum hatchet"
 			],
 			"OverloadPotion[+]": [
 				"Overload (1)",
@@ -175863,6 +176702,7 @@
 			"ArcZygoParents[+]": "Any breedable arcspore zygomyte",
 			"ArmadylArmour[+]": "Any pieces of Armadyl armour",
 			"ArrowShafts[+]": "Any arrow shaft variant",
+			"Ascensions[+]": "Any ascension crossbow",
 			"AttackPotion[+]": "Any attack potion",
 			"AttunedCrystalArmour[+]": "Any piece of attuned crystal armour",
 			"AttunedCrystalShield[+]": "Any type of attuned crystal shield",
@@ -176147,6 +176987,7 @@
 			"NettleTea[+]": "Any kind of nettle tea",
 			"Nihilpouch[+]": "Any pouch that can be used to make a nihil scroll (annihilate)",
 			"Nosepeg[+]": "Any item that protects from an aberrant spectre's smell",
+			"NoxWeapons[+]": "Any noxious weapon",
 			"ObsidianArmour[+]": "Any piece of obsidian armour",
 			"ObsidianWeapon[+]": "Any obsidian melee weapon with an attack requirement",
 			"OliveOil[+]": "Any olive oil vial",
@@ -176467,7 +177308,6 @@
 			"SeaweedChunks[+]": ["11313", "11056", "11055", "11054", "11822", "11310", "11823", "11568"],
 			"SeerChunk[+]": ["10806", "11062"],
 			"SenntistenChunks[+]": ["13364", "13365"],
-			"ShootingStar[+]": ["13105", "13107", "13363", "11571", "11826", "12084", "11572", "11314", "10809", "9531", "8509", "10044", "10553", "10290", "10803", "10294", "10288", "10545", "10802", "10801", "11311", "11310", "13873", "13100", "13613", "12589", "12849", "13108", "12596", "12853", "9781", "9265", "9272", "13874", "13878", "14638", "12343", "12088", "12601", "12091", "12092", "12093", "12349"],
 			"SlayerMasterChunks[+]": ["8755", "Ancient Cavern", "11310", "12342", "11575", "13111", "13878", "Zanaris", "12093", "12850", "16704"],
 			"SolusLocation[+]": ["11569", "10032", "10547", "12596", "Dorgesh-Kaan mine", "9782", "13623", "11057", "13106", "10553", "Lumbridge Swamp caves", "11830", "10550", "9776", "12338", "9778", "12337"],
 			"SophSlayUnlock[+]": ["13097", "13098"],
@@ -176574,7 +177414,6 @@
 			"SeaweedChunks[+]": "Any chunk on Karamja with seaweed",
 			"SenntistenChunks[+]": "Any chunk that the Dig Site pendant can teleport to",
 			"SeerChunk[+]": "Any chunk in which you can complete twisted firestarter",
-			"ShootingStar[+]": "Any chunk where a shooting star can crash down",
 			"SlayerMasterChunks[+]": "Any chunk with a slayer master in it",
 			"SophSlayUnlock[+]": "Any chunks that give permanent access to the Sophanem Slayer dungeon",
 			"SolusLocation[+]": "Any location Solus Dellagar might show up",
@@ -176620,6 +177459,7 @@
 			"Tier1Grove[+]": ["Tree", "Oak"],
 			"Tier2Grove[+]": ["Willow", "Yew", "Ivy"],
 			"Tier3Grove[+]": ["Elder tree"],
+			"RangersWorkroom[+]": ["Spinning wheel", "Fletching workbench"],
 			"Tier1Workshop[+]": ["Furnace", "Anvil", "Forge"],
 			"Tree[+]": ["Tree", "Burnt tree", "Dead tree (Timbo)", "Dead tree covered in snow", "Dead tree", "Dying tree", "Evergreen", "Jungle Bush", "Jungle tree", "Swamp tree", "Palm tree (choppable)"],
 			"WaterSource[+]": ["Sink", "Fountain", "Waterpump", "Water barrel", "Well", "Large Geyser", "Water trough", "Water pump"]
@@ -176718,7 +177558,7 @@
 			"SlayerPointMasters[+]": "Any slayer master that may award you Slayer Points"
 		},
 		"tasksPlus": {
-			"A Taste of the Exotic[+]": ["Hard Ardougne tasks A Taste of the Exotic (Coconut)*", "Hard Ardougne tasks A Taste of the Exotic (Papaya)*"],
+			"A Taste of the Exotic[+]": ["Hard Ardougne tasks ~|A Taste of the Exotic|~ (Coconut)*", "Hard Ardougne tasks ~|A Taste of the Exotic|~ (Papaya)*"],
 			"AirAccess[+]": ["Access the air rune temple with a talisman*", "Access the air rune temple through the abyss*"],
 			"AnyCollection[+]": [
 				"Complete the archaeology collection 'Anarchic Abstraction'", 
@@ -176858,7 +177698,7 @@
 			"FireAccess[+]": ["Access the fire rune temple with a talisman*", "Access the fire rune temple through the abyss*"],
 			"HazeelCultFinal[+]": ["~|Hazeel Cult|~ 3a", "~|Hazeel Cult|~ 6b"],
 			"HeroesQuestCandlestick[+]": ["~|Heroes' Quest|~ 2c1d", "~|Heroes' Quest|~ 2c2d"],
-			"It Spoiled My View[+]": ["Hard Falador tasks It Spoiled My View (Yew)*", "Hard Falador tasks It Spoiled My View (Magic)*"],
+			"It Spoiled My View[+]": ["Hard Falador tasks ~|It Spoiled My View|~ (Yew)*", "Hard Falador tasks ~|It Spoiled My View|~ (Magic)*"],
 			"KiliRowSoulUrnStep[+]": ["~|Kili Row|~ 3a", "~|Kili Row|~ 3b"],
 			"Kili'sKnowledgeV[+]": ["Complete ~|Kili's Knowledge V|~", "Complete ~|Kili's Knowledge V (power)|~"],
 			"Kili'sKnowledgeVI[+]": ["Complete ~|Kili's Knowledge VI|~", "Complete ~|Kili's Knowledge VI (power)|~"],
@@ -176971,11 +177811,11 @@
 			],
 			"MindAccess[+]": ["Access the mind rune temple with a talisman*", "Access the mind rune temple through the abyss*"],
 			"MissingMyMummyPartial[+]": ["~|Missing My Mummy|~ 5b", "~|Missing My Mummy|~ 5c", "~|Missing My Mummy|~ 5d1", "~|Missing My Mummy|~ 5d2", "~|Missing My Mummy|~ 5d3", "~|Missing My Mummy|~ 5e1", "~|Missing My Mummy|~ 5e2", "~|Missing My Mummy|~ 5e3", "~|Missing My Mummy|~ 5e4", "~|Missing My Mummy|~ 5f3a", "~|Missing My Mummy|~ 5f4b2", "~|Missing My Mummy|~ 5g3"],
-			"More Fletcher than Sumona[+]": ["Easy Desert tasks More Fletcher than Sumona (Arrows)*", "Easy Desert tasks More Fletcher than Sumona (Bolts)*"],
+			"More Fletcher than Sumona[+]": ["Easy Desert tasks ~|More Fletcher than Sumona|~ (Arrows)*", "Easy Desert tasks ~|More Fletcher than Sumona|~ (Bolts)*"],
 			"NatureAccess[+]": ["Access the nature rune temple with a talisman*", "Access the nature rune temple through the abyss*"],
 			"RecipeSub[+]": ["~|Recipe for Disaster: Freeing the Mountain Dwarf|~ Complete the subquest", "~|Recipe for Disaster: Freeing the Goblin Generals|~ Complete the subquest", "~|Recipe for Disaster: Freeing Pirate Pete|~ Complete the subquest", "~|Recipe for Disaster: Freeing the Lumbridge Sage|~ Complete the subquest", "~|Recipe for Disaster: Freeing Evil Dave|~ Complete the subquest", "~|Recipe for Disaster: Freeing King Awowogei|~ Complete the subquest", "~|Recipe for Disaster: Freeing Sir Amik Varze|~ Complete the subquest", "~|Recipe for Disaster: Freeing Skrach Uglogwee|~ Complete the subquest"],
 			"RuneMechanics3a1[+]": ["~|Rune Mechanics|~ 3a1a", "~|Rune Mechanics|~ 3a1b"],
-			"Setting Up[+]": ["Easy Daemonheim tasks Setting Up (Crafting)*", "Easy Daemonheim tasks Setting Up (Smithing)*"],
+			"Setting Up[+]": ["Easy Daemonheim tasks ~|Setting Up|~ (Crafting)*", "Easy Daemonheim tasks ~|Setting Up|~ (Smithing)*"],
 			"SoulUrnI[+]": ["Fill the Soul Urn using lesser communion rituals", "Fill the Soul Urn for Kili's Knowledge I (combat)"],
 			"SoulUrnII[+]": ["Fill the Soul Urn using lesser communion rituals", "Fill the Soul Urn for Kili's Knowledge II (combat)"],
 			"SoulUrnIII[+]": ["Fill the Soul Urn using lesser communion rituals", "Fill the Soul Urn for Kili's Knowledge III (combat)"],
@@ -176986,7 +177826,7 @@
 			"TzHaarUnlock[+]": ["TzHaarcityunlockZan", "TzHaarcityunlockvol"],
 			"VarrockSewerAccess[+]": ["Access the Varrock sewers through the Varrock manhole*", "Access the Varrock sewer through the Edgeville dungeon*"],
 			"WaterAccess[+]": ["Access the water rune temple with a talisman*", "Access the water rune temple through the abyss*"],
-			"Yoink![+]": ["Easy Ardougne tasks Yoink! (Guard)*", "Easy Ardougne tasks Yoink! (Stall)*"],
+			"Yoink![+]": ["Easy Ardougne tasks ~|Yoink!|~ (Guard)*", "Easy Ardougne tasks ~|Yoink!|~ (Stall)*"],
 			"DominionTowerQuests[+]": [
 				"~|A Void Dance|~ Complete the quest",
 				"~|Between a Rock...|~ Complete the quest",			
@@ -177056,7 +177896,8 @@
 			"ChargeDragonstone2[+]": [
 				"Charge dragonstone jewelry using a geyser titan",
 				"Charge dragonstone jewelry after the Legends' Quest"
-			]
+			],
+			"Access the Lumbridge Swamp caves[+]": ["Access the Lumbridge Swamp caves via Lumbridge Cellar", "Access the Lumbridge Swamp caves via 12953"]
 		},
 		"tasksPlusNames": {
 			"A Taste of the Exotic[+]": "Any subtasks for A Taste of the Exotic",
@@ -180010,8 +180851,8 @@
 			"Coins": {
 				"106-467": "9/128"
 			},
-			"Yew logs": {
-				"1": "14/128"
+			"Yew wood spirit": {
+				"4-5": "12/128"
 			},
 			"Uncut sapphire": {
 				"1": "1/128"
@@ -180245,8 +181086,8 @@
 			"Bass": {
 				"1": "14/128"
 			},
-			"Medium bladed mithril salvage": {
-				"1": "8/128"
+			"Mahogany wood spirit": {
+				"2": "8/128"
 			},
 			"Medium plated mithril salvage": {
 				"1": "8/128"
@@ -180257,8 +181098,8 @@
 			"Mystic cloth": {
 				"1-3 (noted)": "1/128"
 			},
-			"Yew logs": {
-				"2 (noted)": "8/128"
+			"Acadia wood spirit": {
+				"3": "8/128"
 			},
 			"Grimy guam": {
 				"1": "4/128"
@@ -180367,8 +181208,8 @@
 			"Pure essence": {
 				"15 (noted)": "Uncommon"
 			},
-			"Yew logs": {
-				"2 (noted)": "Uncommon"
+			"Mahogany wood spirit": {
+				"2": "Uncommon"
 			},
 			"Limpwurt seed": {
 				"1": "Uncommon"
@@ -180646,8 +181487,8 @@
 			"Magic logs": {
 				"150-324": "1/17"
 			},
-			"Yew logs": {
-				"600": "1/17"
+			"Elder wood spirit": {
+				"55": "1/17"
 			},
 			"Huge plated rune salvage": {
 				"10": "1/17"
@@ -180687,6 +181528,9 @@
 			},
 			"Hydrix bolt tips": {
 				"40": "1/17"
+			},
+			"Eternal magic wood spirit": {
+				"37-49": "1/18"
 			},
 			"Spider leg top": {
 				"1": "1/40"
@@ -182777,8 +183621,8 @@
 			"Primal stone spirit": {
 				"25-40": "Common"
 			},
-			"Magic logs": {
-				"209-245": "Common"
+			"Magic wood spirit": {
+				"54-66": "Common"
 			},
 			"Black dragonhide": {
 				"100-146": "Common"
@@ -182801,11 +183645,11 @@
 			"Raw rocktail": {
 				"103-142": "Uncommon"
 			},
-			"Grimy lantadyme": {
-				"44-160": "Uncommon"
+			"Elder wood spirit": {
+				"35-48": "Uncommon"
 			},
-			"Grimy dwarf weed": {
-				"44-104": "Uncommon"
+			"Dwarf weed seed": {
+				"7-10": "Uncommon"
 			},
 			"Uncut dragonstone": {
 				"23-73": "Uncommon"
@@ -182987,8 +183831,8 @@
 			"Grimy tarromin": {
 				"1": "Uncommon"
 			},
-			"Yew logs": {
-				"1": "Uncommon"
+			"Yew wood spirit": {
+				"1": "12/128"
 			},
 			"Sealed clue scroll (medium)": {
 				"1": "1/128"
@@ -185104,8 +185948,8 @@
 			"Grenwall spikes": {
 				"8": "1/49"
 			},
-			"Magic logs": {
-				"12-15 (noted)": "Uncommon"
+			"Magic wood spirit": {
+				"3-6": "16/128"
 			},
 			"Small spiky rune salvage": {
 				"1": "1/42"
@@ -187616,8 +188460,8 @@
 			"Teak plank": {
 				"100 (noted)": "Uncommon"
 			},
-			"Mahogany logs": {
-				"150 (noted)": "Uncommon"
+			"Mahogany wood spirit": {
+				"65-75": "9/512"
 			},
 			"Magic logs": {
 				"75 (noted)": "Uncommon"
@@ -187746,8 +188590,8 @@
 			"Mind talisman": {
 				"1": "Unknown"
 			},
-			"Tiny blunt bronze salvage": {
-				"1": "5/128"
+			"Oak wood spirit": {
+				"1": "10/256"
 			},
 			"Shortbow": {
 				"1": "3/128"
@@ -187773,7 +188617,7 @@
 			"Leather cowl": {
 				"1": "Unknown"
 			},
-			"Tiny plated bronze salvage": {
+			"Wood spirit": {
 				"1": "3/128"
 			},
 			"Medium plated bronze salvage": {
@@ -187868,8 +188712,8 @@
 			"Water talisman": {
 				"1": "2/768"
 			},
-			"Tiny blunt bronze salvage": {
-				"1": "2/384"
+			"Oak wood spirit": {
+				"2": "1/128"
 			},
 			"Shortbow": {
 				"1": "4/384"
@@ -187898,8 +188742,8 @@
 			"Leather cowl": {
 				"1": "4/384"
 			},
-			"Tiny plated bronze salvage": {
-				"1": "4/384"
+			"Wood spirit": {
+				"2": "2/128"
 			},
 			"Medium plated bronze salvage": {
 				"1": "6/384"
@@ -188259,7 +189103,7 @@
 			"Leather cowl": {
 				"1": "Uncommon"
 			},
-			"Tiny plated bronze salvage": {
+			"Wood spirit": {
 				"1": "Uncommon"
 			},
 			"Medium plated bronze salvage": {
@@ -191426,8 +192270,8 @@
 			"Bones": {
 				"1": "Always"
 			},
-			"Tiny blunt bronze salvage": {
-				"1": "Unknown"
+			"Oak wood spirit": {
+				"1": "17/1000"
 			},
 			"Shortbow": {
 				"1": "Unknown"
@@ -191447,8 +192291,8 @@
 			"Medium plated bronze salvage": {
 				"1": "2/128"
 			},
-			"Tiny plated bronze salvage": {
-				"1": "Unknown"
+			"Wood spirit": {
+				"1": "11/1000"
 			},
 			"Leather boots": {
 				"1": "1/128"
@@ -193363,8 +194207,8 @@
 				"142": "Common",
 				"323": "Common"
 			},
-			"Yew logs": {
-				"1": "Uncommon"
+			"Yew wood spirit": {
+				"4-5": "12/128"
 			},
 			"Ancient page": {
 				"1": "Uncommon"
@@ -194840,8 +195684,8 @@
 			"Black full helm": {
 				"1": "Uncommon"
 			},
-			"Tiny plated steel salvage": {
-				"1": "Rare"
+			"Oak wood spirit": {
+				"1": "Unknown"
 			},
 			"Starved ancient effigy": {
 				"1": "Varies"
@@ -195264,8 +196108,8 @@
 			"Rune arrow": {
 				"12": "Common"
 			},
-			"Medium plated adamant salvage": {
-				"1": "Uncommon"
+			"Yew wood spirit": {
+				"5-7": "1/128"
 			},
 			"Medium bladed rune salvage": {
 				"1": "Uncommon"
@@ -198646,14 +199490,14 @@
 			"Tiny spiky bronze salvage": {
 				"1": "18/128"
 			},
-			"Medium spiky bronze salvage": {
-				"1": "9/128"
+			"Wood spirit": {
+				"1": "11/128"
 			},
 			"Tiny plated bronze salvage": {
 				"1": "1/128"
 			},
-			"Small plated bronze salvage": {
-				"1": "14/128"
+			"Oak wood spirit": {
+				"2": "6/128"
 			},
 			"Medium plated bronze salvage": {
 				"1": "1/128"
@@ -199354,8 +200198,8 @@
 			"Cape (red)": {
 				"1": "Rare"
 			},
-			"Tiny spiky bronze salvage": {
-				"1": "Common"
+			"Oak wood spirit": {
+				"5": "Common"
 			},
 			"Tiny plated bronze salvage": {
 				"1": "Rare"
@@ -199363,11 +200207,11 @@
 			"Small bladed bronze salvage": {
 				"1": "Uncommon"
 			},
-			"Small plated bronze salvage": {
-				"1": "Uncommon"
+			"Willow wood spirit": {
+				"4": "Uncommon"
 			},
-			"Small plated iron salvage": {
-				"1": "Uncommon"
+			"Teak wood spirit": {
+				"3": "Uncommon"
 			},
 			"Grapes": {
 				"1": "Uncommon"
@@ -199803,8 +200647,8 @@
 			"Gold stone spirit": {
 				"4": "Common"
 			},
-			"Yew logs": {
-				"6 (noted)": "Common"
+			"Mahogany wood spirit": {
+				"6": "8/128"
 			},
 			"Grimy marrentill": {
 				"1": "Uncommon"
@@ -200744,12 +201588,11 @@
 			"Grimy dwarf weed": {
 				"1": "1/900"
 			},
-			"Teak logs": {
-				"4 (noted)": "5/100"
+			"Acadia wood spirit": {
+				"4": "4/128"
 			},
-			"Mahogany logs": {
-				"2": "3/100",
-				"4": "3/100"
+			"Mahogany wood spirit": {
+				"3": "7/128"
 			},
 			"Morchella mushroom spore": {
 				"1": "3/110"
@@ -201640,8 +202483,8 @@
 			"Knife": {
 				"1": "Common"
 			},
-			"Logs": {
-				"1-3": "Common"
+			"Willow wood spirit": {
+				"4": "Common"
 			},
 			"Tinderbox": {
 				"1": "Common"
@@ -203458,8 +204301,8 @@
 			"Cape (red)": {
 				"1": "Rare"
 			},
-			"Tiny spiky bronze salvage": {
-				"1": "Common"
+			"Oak wood spirit": {
+				"5": "Common"
 			},
 			"Tiny plated bronze salvage": {
 				"1": "Rare"
@@ -203467,11 +204310,11 @@
 			"Small bladed bronze salvage": {
 				"1": "Uncommon"
 			},
-			"Small plated bronze salvage": {
-				"1": "Uncommon"
+			"Willow wood spirit": {
+				"4": "Uncommon"
 			},
-			"Small plated iron salvage": {
-				"1": "Uncommon"
+			"Teak wood spirit": {
+				"3": "Uncommon"
 			},
 			"Grapes": {
 				"1": "Uncommon"
@@ -204888,8 +205731,8 @@
 			"Mithril arrow": {
 				"12": "Uncommon"
 			},
-			"Tiny blunt mithril salvage": {
-				"12 (noted)": "Uncommon"
+			"Teak wood spirit": {
+				"3": "10/128"
 			},
 			"Small plated adamant salvage": {
 				"1": "Uncommon"
@@ -204910,8 +205753,8 @@
 			"Headless arrow": {
 				"6": "Uncommon"
 			},
-			"Maple logs": {
-				"2 (noted)": "Uncommon"
+			"Willow wood spirit": {
+				"4": "7/128"
 			},
 			"Limpwurt root": {
 				"1": "Uncommon"
@@ -210670,8 +211513,8 @@
 			"Medium plated adamant salvage": {
 				"1": "6/128"
 			},
-			"Small plated adamant salvage": {
-				"1": "10/128"
+			"Magic wood spirit": {
+				"2": "10/128"
 			},
 			"Royal cape": {
 				"1": "1/512"
@@ -210911,14 +211754,14 @@
 			"Bones": {
 				"1": "Always"
 			},
-			"Small plated bronze salvage": {
-				"1": "10/128"
+			"Wood spirit": {
+				"1-2": "8/101"
 			},
 			"Tiny plated iron salvage": {
 				"1": "1/128"
 			},
-			"Tiny spiky bronze salvage": {
-				"1": "14/128"
+			"Oak wood spirit": {
+				"1-2": "11/101"
 			},
 			"Iron arrow": {
 				"5-20": "7/128"
@@ -211164,8 +212007,9 @@
 			"Magic staff": {
 				"1": "Common"
 			},
-			"Medium spiky mithril salvage": {
-				"1": "rare"
+			"Maple wood spirit": {
+				"6": "Uncommon",
+				"7": "Uncommon"
 			},
 			"Tiny spiky mithril salvage": {
 				"1": "Common"
@@ -211188,8 +212032,9 @@
 			"Tiny plated steel salvage": {
 				"1": "Common"
 			},
-			"Medium plated steel salvage": {
-				"1": "Uncommon"
+			"Acadia wood spirit": {
+				"5": "Uncommon",
+				"6": "Uncommon"
 			},
 			"Tiny plated mithril salvage": {
 				"1": "Rare"
@@ -213095,8 +213940,11 @@
 			"Primal stone spirit": {
 				"20-35": "3/45"
 			},
-			"Magic logs": {
-				"750-1249 (noted)": "3/45"
+			"Eternal magic wood spirit": {
+				"35-37": "3/45"
+			},
+			"Magic wood spirit": {
+				"Unknown": "Unkown"
 			},
 			"Incendescent energy": {
 				"2784-3204": "2/45"
@@ -217678,8 +218526,8 @@
 			"Phasmatite stone spirit": {
 				"2": "24/128"
 			},
-			"Magic logs": {
-				"30 (noted)": "12/128"
+			"Magic wood spirit": {
+				"16-22": "12/128"
 			},
 			"Coins": {
 				"11000-14000": "10/128"
@@ -219884,7 +220732,7 @@
 			"Shortbow": {
 				"1": "2/128"
 			},
-			"Tiny blunt bronze salvage": {
+			"Oak wood spirit": {
 				"1": "3/128"
 			},
 			"Magic staff": {
@@ -219926,7 +220774,7 @@
 			"Leather boots": {
 				"1": "2/128"
 			},
-			"Tiny plated bronze salvage": {
+			"Wood spirit": {
 				"1": "3/128"
 			},
 			"Small plated bronze salvage": {
@@ -220751,8 +221599,8 @@
 			"Mithril grapple": {
 				"2": "Uncommon"
 			},
-			"Yew logs": {
-				"1": "Common"
+			"Yew wood spirit": {
+				"1": "12/128"
 			},
 			"Grimy guam": {
 				"1": "Rare"
@@ -221033,8 +221881,8 @@
 			"Mithril grapple": {
 				"2": "Uncommon"
 			},
-			"Yew logs": {
-				"1": "Common"
+			"Yew wood spirit": {
+				"1": "12/128"
 			},
 			"Grimy guam": {
 				"1": "Rare"
@@ -221172,8 +222020,8 @@
 			"Mithril grapple": {
 				"2": "Uncommon"
 			},
-			"Yew logs": {
-				"1": "Common"
+			"Yew wood spirit": {
+				"1": "12/128"
 			},
 			"Grimy guam": {
 				"1": "Rare"
@@ -221346,8 +222194,8 @@
 			"Mithril grapple": {
 				"2": "Uncommon"
 			},
-			"Yew logs": {
-				"1": "Common"
+			"Yew wood spirit": {
+				"1": "12/128"
 			},
 			"Grimy guam": {
 				"1": "Rare"
@@ -221490,8 +222338,8 @@
 			"Mithril grapple": {
 				"2": "Uncommon"
 			},
-			"Yew logs": {
-				"1": "Common"
+			"Yew wood spirit": {
+				"1": "12/128"
 			},
 			"Grimy guam": {
 				"1": "Rare"
@@ -221546,8 +222394,8 @@
 			"Bronze arrow": {
 				"28": "Uncommon"
 			},
-			"Tiny blunt bronze salvage": {
-				"1": "Uncommon"
+			"Oak wood spirit": {
+				"1": "5/256"
 			},
 			"Magic staff": {
 				"1": "Uncommon"
@@ -221604,8 +222452,8 @@
 			"Small plated bronze salvage": {
 				"1": "Uncommon"
 			},
-			"Tiny plated bronze salvage": {
-				"1": "Uncommon"
+			"Wood spirit": {
+				"1": "5/256"
 			},
 			"Gold ring": {
 				"1": "Uncommon"
@@ -221932,8 +222780,8 @@
 			"Coins": {
 				"748333-899844": "Uncommon"
 			},
-			"Grimy kwuarm": {
-				"155-200 (noted)": "Uncommon"
+			"Kwuarm seed": {
+				"14-16": "Uncommon"
 			},
 			"Medium spiky rune salvage": {
 				"30-45 (noted)": "Uncommon"
@@ -221959,20 +222807,23 @@
 			"Crushed nest": {
 				"200-250 (noted)": "Uncommon"
 			},
-			"Grimy cadantine": {
-				"151-200 (noted)": "Uncommon"
+			"Cadantine seed": {
+				"14-16": "Uncommon"
 			},
 			"Primal stone spirit": {
 				"20-40": "Uncommon"
 			},
-			"Light animica stone spirit": {
-				"60-90": "Uncommon"
+			"Elder wood spirit": {
+				"39-51": "Uncommon"
+			},
+			"Eternal magic wood spirit": {
+				"37": "Uncommon"
 			},
 			"Black dragonhide": {
 				"252-341 (noted)": "Uncommon"
 			},
-			"Grimy irit": {
-				"156-200 (noted)": "Uncommon"
+			"Irit seed": {
+				"14-16": "Uncommon"
 			},
 			"Uncut onyx": {
 				"1-2 (noted)": "Uncommon"
@@ -224415,10 +225266,9 @@
 			"Curved bone": {
 				"1": "1/5000"
 			},
-			"Teak logs": {
-				"1": "Uncommon",
-				"2": "Uncommon",
-				"4": "Uncommon"
+			"Teak wood spirit": {
+				"3": "2/128",
+				"4": "1/128"
 			},
 			"Mahogany logs": {
 				"1": "Uncommon",
@@ -228044,6 +228894,9 @@
 			"Magic logs": {
 				"35-128 (noted)": "Common"
 			},
+			"Eternal magic wood spirit": {
+					"35-39": "Common"
+			},
 			"Hydrix bolt tips": {
 				"50": "common"
 			},
@@ -228090,6 +228943,9 @@
 			},
 			"Hydrix bolt tips": {
 				"50": "common"
+			},
+			"Eternal magic wood spirit": {
+				"35-39": "Common"
 			},
 			"Seismic wand": {
 				"1": "1/200"
@@ -228708,10 +229564,10 @@
 			"Staff": {
 				"1": "Uncommon"
 			},
-			"Tiny blunt bronze salvage": {
+			"Oak wood spirit": {
 				"1": "Uncommon"
 			},
-			"Tiny plated bronze salvage": {
+			"Wood spirit": {
 				"1": "Uncommon"
 			},
 			"Small plated bronze salvage": {
@@ -228967,7 +229823,7 @@
 			"Bronze arrow": {
 				"18": "Common"
 			},
-			"Tiny blunt bronze salvage": {
+			"Oak wood spirit": {
 				"1": "Uncommon"
 			},
 			"Staff": {
@@ -228991,7 +229847,7 @@
 			"Leather gloves": {
 				"1": "Uncommon"
 			},
-			"Tiny plated bronze salvage": {
+			"Wood spirit": {
 				"1": "Uncommon"
 			},
 			"Small plated bronze salvage": {
@@ -230819,8 +231675,8 @@
 			"Primal stone spirits": {
 				"25-40": "Uncommon"
 			},
-			"Magic logs": {
-				"210-689": "Uncommon"
+			"Magic wood spirit": {
+				"54-66": "Uncommon"
 			},
 			"Black dragonhide": {
 				"102-258": "Uncommon"
@@ -230843,11 +231699,14 @@
 			"Phasmatite stone spirit": {
 				"22-99": "Uncommon"
 			},
-			"Grimy lantadyme": {
-				"43-60": "Uncommon"
+			"Elder wood spirit": {
+				"35-48": "Uncommon"
 			},
-			"Grimy dwarf weed": {
-				"42-102": "Uncommon"
+			"Eternal magic wood spirit": {
+				"43": "Unknown"
+			},
+			"Dwarf weed seed": {
+				"7-12": "Uncommon"
 			},
 			"Uncut dragonstone": {
 				"23-46": "Uncommon"
@@ -231117,8 +231976,8 @@
 			"Coral bolts": {
 				"20": "Common"
 			},
-			"Bronze javelin": {
-				"5": "Uncommon"
+			"Wood spirit": {
+				"1": "2/128"
 			},
 			"Medium spiky bronze salvage": {
 				"1": "Common"
@@ -233606,6 +234465,7 @@
 		"Time Served": "Kharid-et - Carcerem excavation site",
 		"Fall and Rise": "14642",
 		"Empty Children": "Senntisten, 13364",
+		"Night Theatre": "Senntisten",
 		"Secrets of the Inquisition": "Senntisten, 13364",
 		"Dagon Bye": "Infernal Source",
 		"Atonement": "10549",
@@ -239056,6 +239916,17 @@
 			"Necronium shield": true,
 			"Bane shield": true,
 			"Elder rune shield": true
+		},
+		"Shooting Star Reward Shop": {
+			"Portable telescope": true,
+			"Stargazer (title)": true,
+			"Star sprite (pet)": true,
+			"Mining boost": true,
+			"Shooting Star teleport token": true,
+			"Bundle of gems": true,
+			"Cosmic rune": true,
+			"Astral rune": true,
+			"Gold stone spirit": true
 		},
 		"Shop of Distaste": {
 			"Rotten tomato": true
@@ -247053,11 +247924,6 @@
 				"Magic golem gloves": "Always",
 				"Magic golem boots": "Always"
 			},
-			"CrashedStar": {
-				"Astral rune": "Always", 
-				"Cosmic rune": "Always", 
-				"Gold stone spirit": "Always"
-			},
 			"Lava Flow Mine rewards": {
 				"Golden mining suit boots": "Always",
 				"Golden mining suit gloves": "Always",
@@ -247776,8 +248642,8 @@
 				"Mammoth tusk": {
 					"1": "Always"
 				},
-				"Mahogany logs": {
-					"20-40 (noted)": "7/64"
+				"Elder wood spirit": {
+					"4-9": "7/64"
 				},
 				"Necrite stone spirit": {
 					"5": "5/64"
@@ -247889,8 +248755,8 @@
 				"Magic logs": {
 					"8-11 (noted)": "1/10"
 				},
-				"Yew logs": {
-					"16-19 (noted)": "3/20"
+				"Yew wood spirit": {
+					"9-15": "19/128"
 				},
 				"Sirenic scale": {
 					"1-2": "1/400"
@@ -248578,8 +249444,8 @@
 				"Cresbot (unpoked)": {
 					"1": "1/1600"
 				},
-				"Magic logs": {
-					"10 (noted)": "Uncommon"
+				"Magic wood spirit": {
+					"10-15": "17/256"
 				},
 				"Rare drop table": {
 					"1": "Rare"
@@ -248667,8 +249533,8 @@
 				"Cresbot (unpoked)": {
 					"1": "1/1600"
 				},
-				"Magic logs": {
-					"10 (noted)": "3/50"
+				"Magic wood spirit": {
+					"10-15": "17/256"
 				},
 				"Rare drop table": {
 					"1": "Rare"
@@ -248759,8 +249625,8 @@
 				"Cresbot (unpoked)": {
 					"1": "1/1600"
 				},
-				"Magic logs": {
-					"10 (noted)": "3/40"
+				"Magic wood spirit": {
+					"10-15": "17/256"
 				},
 				"Rare drop table": {
 					"1": "Rare"
@@ -248776,8 +249642,8 @@
 				}
 			},
 			"Banshee": {
-				"Small spiky bronze salvage": {
-					"1": "3/128"
+				"Oak wood spirit": {
+					"1-2": "6/128"
 				},
 				"Staff of air": {
 					"1": "4/128"
@@ -248933,14 +249799,14 @@
 				"Bones": {
 					"1": "Always"
 				},
-				"Medium bladed steel salvage": {
-					"1": "7/128"
+				"Teak wood spirit": {
+					"3": "7/128"
 				},
 				"Tiny spiky mithril salvage": {
 					"1": "4/128"
 				},
-				"Tiny bladed mithril salvage": {
-					"1": "8/128"
+				"Acadia wood spirit": {
+					"3": "8/128"
 				},
 				"Medium plated mithril salvage": {
 					"1": "8/128"
@@ -249551,8 +250417,8 @@
 				"Dragon mace": {
 					"1": "Uncommon"
 				},
-				"Large plated rune salvage": {
-					"1": "Uncommon"
+				"Elder wood spirit": {
+					"11-16": "Uncommon"
 				},
 				"Large bladed rune salvage": {
 					"1": "Uncommon"
@@ -249577,9 +250443,6 @@
 				},
 				"Ugthanki kebab": {
 					"2": "Uncommon"
-				},
-				"Magic logs": {
-					"15-39 (noted)": "Uncommon"
 				},
 				"Cactus spine": {
 					"4-8 (noted)": "Uncommon"
@@ -249655,8 +250518,8 @@
 				"Coins": {
 					"700-900": "16/64"
 				},
-				"Yew logs": {
-					"2 (noted)": "6/64"
+				"Yew wood spirit": {
+					"4-7": "6/64"
 				},
 				"Chilli potato": {
 					"1": "4/64"
@@ -250111,11 +250974,11 @@
 				"Bones": {
 					"1": "Always"
 				},
-				"Tiny spiky iron salvage": {
-					"1": "1/128"
+				"Willow wood spirit": {
+					"4": "1/128"
 				},
-				"Tiny spiky steel salvage": {
-					"1": "1/128"
+				"Teak wood spirit": {
+					"3": "1/128"
 				},
 				"Small bladed steel salvage": {
 					"1": "1/256"
@@ -251173,8 +252036,8 @@
 					"3": "Common",
 					"5-18 (noted)": "Common"
 				},
-				"Yew logs": {
-					"10 (noted)": "Common"
+				"Yew wood spirit": {
+					"6": "30/512"
 				},
 				"Pure essence": {
 					"120 (noted)": "Common"
@@ -251523,6 +252386,9 @@
 				},
 				"Primal stone spirit": {
 					"3-5": "1/16"
+				},
+				"Eternal magic wood spirit": {
+					"4-7": "1/16"
 				},
 				"Unicorn horn dust": {
 					"6-10 (noted)": "10/128"
@@ -252256,14 +253122,14 @@
 				"Medium bladed rune salvage": {
 					"1": "Uncommon"
 				},
-				"Mithril stone spirit": {
-					"5-7": "Uncommon"
+				"Acadia wood spirit": {
+					"5-8": "4/128"
 				},
 				"Adamantite stone spirit": {
 					"3-5": "Uncommon"
 				},
-				"Magic logs": {
-					"3-5 (noted)": "Uncommon"
+				"Yew wood spirit": {
+					"4-6": "3/128"
 				},
 				"Coins": {
 					"1100-2200": "Common"
@@ -252787,8 +253653,8 @@
 				"Super defence (3)": {
 					"1": "Common"
 				},
-				"Magic logs": {
-					"5 (noted)": "Common"
+				"Magic wood spirit": {
+					"5": "30/512"
 				},
 				"Runite stone spirit": {
 					"1": "Common"
@@ -253325,8 +254191,8 @@
 				"Vial of water": {
 					"6 (noted)": "14/128"
 				},
-				"Logs": {
-					"2 (noted)": "8/128"
+				"Maple wood spirit": {
+					"3)": "8/128"
 				},
 				"Big bones": {
 					"2 (noted)": "9/128"
@@ -253505,9 +254371,8 @@
 					"2": "Uncommon",
 					"5-10": "Uncommon"
 				},
-				"Teak logs": {
-					"20": "Uncommon",
-					"40 (noted)": "Uncommon"
+				"Teak wood spirit": {
+					"8": "31/512"
 				},
 				"Starved ancient effigy": {
 					"1": "Very rare"
@@ -253708,11 +254573,11 @@
 				"Medium blunt rune salvage": {
 					"1-4 (noted)": "Uncommon"
 				},
-				"Strawberry": {
-					"8-12 (noted)": "Common"
+				"Magic wood spirit": {
+					"8-12": "Common"
 				},
-				"Pineapple": {
-					"8-12 (noted)": "Common"
+				"Elder wood spirit": {
+					"6-9": "Common"
 				},
 				"Morchella mushroom": {
 					"4-6 (noted)": "Common"
@@ -253822,8 +254687,8 @@
 				"Gold stone spirit": {
 					"10-20": "1/12"
 				},
-				"Adamantite stone spirit": {
-					"8-20": "1/40"
+				"Yew wood spirit": {
+					"5-9": "1/40"
 				},
 				"Runite stone spirit": {
 					"2": "1/76"
@@ -254505,6 +255370,9 @@
 				"Grimy dwarf weed": {
 					"3-5 (noted)": "Common"
 				},
+				"Eternal magic wood spirit": {
+					"5-9": "Unknown"
+				},
 				"Blast diffusion boots": {
 					"1": "1/8000"
 				},
@@ -255117,8 +255985,8 @@
 				"Grimy cadantine": {
 					"1-4 (noted)": "Common"
 				},
-				"Adamantite stone spirit": {
-					"7-14": "Common"
+				"Magic wood spirit": {
+					"6-12": "Common"
 				},
 				"White berries": {
 					"2-7 (noted)": "Common"
@@ -256598,11 +257466,11 @@
 				"Grimy harralander": {
 					"1": "5/128"
 				},
-				"Medium plated mithril salvage": {
-					"1": "6/128"
+				"Willow wood spirit": {
+					"3": "6/128"
 				},
-				"Tiny plated steel salvage": {
-					"1": "6/128"
+				"Teak wood spirit": {
+					"2": "6/128"
 				},
 				"Tiny plated adamant salvage": {
 					"1": "4/128"
@@ -256646,11 +257514,11 @@
 				"Grimy harralander": {
 					"1": "5/128"
 				},
-				"Medium plated mithril salvage": {
-					"1": "6/128"
+				"Willow wood spirit": {
+					"3": "6/128"
 				},
-				"Tiny plated steel salvage": {
-					"1": "6/128"
+				"Teak wood spirit": {
+					"2": "6/128"
 				},
 				"Tiny plated adamant salvage": {
 					"1": "4/128"
@@ -256813,6 +257681,9 @@
 				"Necrite stone spirit": {
 					"4-6": "Uncommon"
 				},
+				"Eternal magic wood spirit": {
+					"4-5": "Unknown"
+				},
 				"Lychee seed": {
 					"1": "1/5"
 				},
@@ -256908,8 +257779,8 @@
 				"Grimy guam": {
 					"1": "6/128"
 				},
-				"Willow logs": {
-					"5 (Noted)": "6/128"
+				"Willow wood spirit": {
+					"5": "6/128"
 				},
 				"Earth rune": {
 					"10": "18/128"
@@ -256940,8 +257811,8 @@
 				"Gold stone spirit": {
 					"5-7": "12/128"
 				},
-				"Maple logs": {
-					"18-22 (noted)": "16/128"
+				"Maple wood spirit": {
+					"1-15": "16/128"
 				},
 				"Potato with butter": {
 					"1": "8/128",
@@ -257345,8 +258216,8 @@
 				"Pure essence": {
 					"55-65 (noted)": "Common"
 				},
-				"Yew logs": {
-					"11-13 (noted)": "Common"
+				"Yew wood spirit": {
+					"4-6": "Common"
 				},
 				"Mithril stone spirit": {
 					"6-11": "Common"
@@ -258499,8 +259370,8 @@
 				"Bowstring": {
 					"8 (noted)": "16/128"
 				},
-				"Maple logs": {
-					"25 (noted)": "16/128"
+				"Yew wood spirit": {
+					"8": "16/128"
 				},
 				"Mithril stone spirit": {
 					"2": "10/128"
@@ -260269,6 +261140,7 @@
 				"Orikalkum gauntlets + 1": "Always",
 				"Orikalkum gauntlets + 2": "Always",
 				"Orikalkum gauntlets + 3": "Always",
+				"Orikalkum hatchet": "Always",
 				"Orikalkum kiteshield": "Always",
 				"Orikalkum kiteshield + 1": "Always",
 				"Orikalkum kiteshield + 2": "Always",
@@ -260321,6 +261193,7 @@
 				"Necronium gauntlets + 2": "Always",
 				"Necronium gauntlets + 3": "Always",
 				"Necronium gauntlets + 4": "Always",
+				"Necronium hatchet": "Always",
 				"Necronium kiteshield": "Always",
 				"Necronium kiteshield + 1": "Always",
 				"Necronium kiteshield + 2": "Always",
@@ -260364,6 +261237,7 @@
 				"Bane gauntlets + 2": "Always",
 				"Bane gauntlets + 3": "Always",
 				"Bane gauntlets + 4": "Always",
+				"Bane hatchet": "Always",
 				"Bane longsword": "Always",
 				"Bane longsword + 1": "Always",
 				"Bane longsword + 2": "Always",
@@ -260422,6 +261296,7 @@
 				"Elder rune gauntlets + 3": "Always",
 				"Elder rune gauntlets + 4": "Always",
 				"Elder rune gauntlets + 5": "Always",
+				"Elder rune hatchet": "Always",
 				"Elder rune longsword": "Always",
 				"Elder rune longsword + 1": "Always",
 				"Elder rune longsword + 2": "Always",
@@ -260486,6 +261361,7 @@
 				"Primal gauntlets + 3": "Always",
 				"Primal gauntlets + 4": "Always",
 				"Primal gauntlets + 5": "Always",
+				"Primal hatchet": "Always",
 				"Primal pickaxe": "Always",
 				"Primal pickaxe + 1": "Always",
 				"Primal pickaxe + 2": "Always",
@@ -260509,7 +261385,10 @@
 				"Primal kiteshield + 2": "Always",
 				"Primal kiteshield + 3": "Always",
 				"Primal kiteshield + 4": "Always",
-				"Primal kiteshield + 5": "Always"
+				"Primal kiteshield + 5": "Always",
+				"Primal limbs": "Always",
+				"Primal bolt tips": "Always",
+				"Primal arrowheads": "Always"
 			},
 			"AbyssalbaneAmmo": {
 				"Abyssalbane arrowheads": "Always",
@@ -260706,7 +261585,7 @@
 				"Tiny Spiky bronze salvage": {
 					"1": "Common"
 				},
-				"Small spiky bronze salvage": {
+				"Wood spirit": {
 					"1": "Common"
 				},
 				"Tiny bladed iron salvage": {
@@ -260733,7 +261612,7 @@
 				"Tiny bladed steel salvage": {
 					"1": "Uncommon"
 				},
-				"Tiny spiky steel salvage": {
+				"Oak wood spirit": {
 					"1": "Uncommon"
 				},
 				"Small spiky steel salvage": {
@@ -265247,7 +266126,7 @@
 				"Defence": 80
 			},
 			"class": "melee",
-			"lp": 350,
+			"lp": 0,
 			"tier": 79,
 			"speed": 0,
 			"damage": 0,
@@ -266130,7 +267009,7 @@
 				"Defence": 40
 			},
 			"class": "melee",
-			"lp": 0,
+			"lp": 200,
 			"tier": 41,
 			"speed": 0,
 			"damage": 0,
@@ -266148,7 +267027,7 @@
 				"Defence": 40
 			},
 			"class": "melee",
-			"lp": 0,
+			"lp": 200,
 			"tier": 42,
 			"speed": 0,
 			"damage": 0,
@@ -266166,7 +267045,7 @@
 				"Defence": 40
 			},
 			"class": "melee",
-			"lp": 0,
+			"lp": 200,
 			"tier": 40,
 			"speed": 0,
 			"damage": 0,
@@ -266424,7 +267303,7 @@
 				"Defence": 40
 			},
 			"class": "melee",
-			"lp": 0,
+			"lp": 600,
 			"tier": 41,
 			"speed": 0,
 			"damage": 0,
@@ -266442,7 +267321,7 @@
 				"Defence": 40
 			},
 			"class": "melee",
-			"lp": 0,
+			"lp": 600,
 			"tier": 42,
 			"speed": 0,
 			"damage": 0,
@@ -266460,7 +267339,7 @@
 				"Defence": 40
 			},
 			"class": "melee",
-			"lp": 0,
+			"lp": 600,
 			"tier": 40,
 			"speed": 0,
 			"damage": 0,
@@ -266700,7 +267579,7 @@
 				"Defence": 40
 			},
 			"class": "melee",
-			"lp": 0,
+			"lp": 400,
 			"tier": 40,
 			"speed": 0,
 			"damage": 0,
@@ -266718,7 +267597,7 @@
 				"Defence": 40
 			},
 			"class": "melee",
-			"lp": 0,
+			"lp": 400,
 			"tier": 40,
 			"speed": 0,
 			"damage": 0,
@@ -266736,7 +267615,7 @@
 				"Defence": 40
 			},
 			"class": "melee",
-			"lp": 0,
+			"lp": 400,
 			"tier": 41,
 			"speed": 0,
 			"damage": 0,
@@ -266754,7 +267633,7 @@
 				"Defence": 40
 			},
 			"class": "melee",
-			"lp": 0,
+			"lp": 400,
 			"tier": 42,
 			"speed": 0,
 			"damage": 0,
@@ -266772,7 +267651,7 @@
 				"Defence": 40
 			},
 			"class": "melee",
-			"lp": 0,
+			"lp": 400,
 			"tier": 40,
 			"speed": 0,
 			"damage": 0,
@@ -266790,7 +267669,7 @@
 				"Defence": 40
 			},
 			"class": "melee",
-			"lp": 0,
+			"lp": 200,
 			"tier": 41,
 			"speed": 0,
 			"damage": 0,
@@ -266808,7 +267687,7 @@
 				"Defence": 40
 			},
 			"class": "melee",
-			"lp": 0,
+			"lp": 200,
 			"tier": 42,
 			"speed": 0,
 			"damage": 0,
@@ -266826,7 +267705,7 @@
 				"Defence": 40
 			},
 			"class": "melee",
-			"lp": 0,
+			"lp": 200,
 			"tier": 40,
 			"speed": 0,
 			"damage": 0,
@@ -266905,7 +267784,7 @@
 				"Defence": 40
 			},
 			"class": "melee",
-			"lp": 0,
+			"lp": 400,
 			"tier": 40,
 			"speed": 0,
 			"damage": 0,
@@ -266923,7 +267802,7 @@
 				"Defence": 40
 			},
 			"class": "melee",
-			"lp": 0,
+			"lp": 400,
 			"tier": 40,
 			"speed": 0,
 			"damage": 0,
@@ -266941,7 +267820,7 @@
 				"Defence": 40
 			},
 			"class": "melee",
-			"lp": 0,
+			"lp": 400,
 			"tier": 40,
 			"speed": 0,
 			"damage": 0,
@@ -266959,7 +267838,7 @@
 				"Defence": 40
 			},
 			"class": "melee",
-			"lp": 0,
+			"lp": 400,
 			"tier": 40,
 			"speed": 0,
 			"damage": 0,
@@ -266977,7 +267856,7 @@
 				"Defence": 40
 			},
 			"class": "melee",
-			"lp": 0,
+			"lp": 400,
 			"tier": 40,
 			"speed": 0,
 			"damage": 0,
@@ -267267,7 +268146,7 @@
 				"Defence": 40
 			},
 			"class": "melee",
-			"lp": 0,
+			"lp": 400,
 			"tier": 41,
 			"speed": 0,
 			"damage": 0,
@@ -267285,7 +268164,7 @@
 				"Defence": 40
 			},
 			"class": "melee",
-			"lp": 0,
+			"lp": 400,
 			"tier": 42,
 			"speed": 0,
 			"damage": 0,
@@ -267303,7 +268182,7 @@
 				"Defence": 40
 			},
 			"class": "melee",
-			"lp": 0,
+			"lp": 400,
 			"tier": 40,
 			"speed": 0,
 			"damage": 0,
@@ -267861,7 +268740,7 @@
 				"Defence": 40
 			},
 			"class": "melee",
-			"lp": 0,
+			"lp": 600,
 			"tier": 40,
 			"speed": 0,
 			"damage": 0,
@@ -267879,7 +268758,7 @@
 				"Defence": 40
 			},
 			"class": "melee",
-			"lp": 0,
+			"lp": 600,
 			"tier": 40,
 			"speed": 0,
 			"damage": 0,
@@ -267897,7 +268776,7 @@
 				"Defence": 40
 			},
 			"class": "melee",
-			"lp": 0,
+			"lp": 600,
 			"tier": 40,
 			"speed": 0,
 			"damage": 0,
@@ -267915,7 +268794,7 @@
 				"Defence": 40
 			},
 			"class": "melee",
-			"lp": 0,
+			"lp": 600,
 			"tier": 40,
 			"speed": 0,
 			"damage": 0,
@@ -267933,7 +268812,7 @@
 				"Defence": 40
 			},
 			"class": "melee",
-			"lp": 0,
+			"lp": 600,
 			"tier": 40,
 			"speed": 0,
 			"damage": 0,
@@ -267951,7 +268830,7 @@
 				"Defence": 40
 			},
 			"class": "melee",
-			"lp": 0,
+			"lp": 600,
 			"tier": 40,
 			"speed": 0,
 			"damage": 0,
@@ -267969,7 +268848,7 @@
 				"Defence": 40
 			},
 			"class": "melee",
-			"lp": 0,
+			"lp": 600,
 			"tier": 40,
 			"speed": 0,
 			"damage": 0,
@@ -267987,7 +268866,7 @@
 				"Defence": 40
 			},
 			"class": "melee",
-			"lp": 0,
+			"lp": 600,
 			"tier": 41,
 			"speed": 0,
 			"damage": 0,
@@ -268005,7 +268884,7 @@
 				"Defence": 40
 			},
 			"class": "melee",
-			"lp": 0,
+			"lp": 600,
 			"tier": 42,
 			"speed": 0,
 			"damage": 0,
@@ -268023,7 +268902,7 @@
 				"Defence": 40
 			},
 			"class": "melee",
-			"lp": 0,
+			"lp": 600,
 			"tier": 40,
 			"speed": 0,
 			"damage": 0,
@@ -268041,7 +268920,7 @@
 				"Defence": 40
 			},
 			"class": "melee",
-			"lp": 0,
+			"lp": 600,
 			"tier": 40,
 			"speed": 0,
 			"damage": 0,
@@ -268059,7 +268938,7 @@
 				"Defence": 40
 			},
 			"class": "melee",
-			"lp": 0,
+			"lp": 600,
 			"tier": 40,
 			"speed": 0,
 			"damage": 0,
@@ -268077,7 +268956,7 @@
 				"Defence": 40
 			},
 			"class": "melee",
-			"lp": 0,
+			"lp": 600,
 			"tier": 40,
 			"speed": 0,
 			"damage": 0,
@@ -268095,7 +268974,7 @@
 				"Defence": 40
 			},
 			"class": "melee",
-			"lp": 0,
+			"lp": 600,
 			"tier": 40,
 			"speed": 0,
 			"damage": 0,
@@ -268113,7 +268992,7 @@
 				"Defence": 40
 			},
 			"class": "melee",
-			"lp": 0,
+			"lp": 600,
 			"tier": 40,
 			"speed": 0,
 			"damage": 0,
@@ -268131,7 +269010,7 @@
 				"Defence": 40
 			},
 			"class": "melee",
-			"lp": 0,
+			"lp": 600,
 			"tier": 40,
 			"speed": 0,
 			"damage": 0,
@@ -268149,7 +269028,7 @@
 				"Defence": 40
 			},
 			"class": "melee",
-			"lp": 0,
+			"lp": 600,
 			"tier": 40,
 			"speed": 0,
 			"damage": 0,
@@ -268167,7 +269046,7 @@
 				"Defence": 40
 			},
 			"class": "melee",
-			"lp": 0,
+			"lp": 600,
 			"tier": 41,
 			"speed": 0,
 			"damage": 0,
@@ -268185,7 +269064,7 @@
 				"Defence": 40
 			},
 			"class": "melee",
-			"lp": 0,
+			"lp": 600,
 			"tier": 42,
 			"speed": 0,
 			"damage": 0,
@@ -268203,7 +269082,7 @@
 				"Defence": 40
 			},
 			"class": "melee",
-			"lp": 0,
+			"lp": 600,
 			"tier": 40,
 			"speed": 0,
 			"damage": 0,
@@ -268221,7 +269100,7 @@
 				"Defence": 40
 			},
 			"class": "melee",
-			"lp": 0,
+			"lp": 600,
 			"tier": 40,
 			"speed": 0,
 			"damage": 0,
@@ -268239,7 +269118,7 @@
 				"Defence": 40
 			},
 			"class": "melee",
-			"lp": 0,
+			"lp": 600,
 			"tier": 40,
 			"speed": 0,
 			"damage": 0,
@@ -268257,7 +269136,7 @@
 				"Defence": 40
 			},
 			"class": "melee",
-			"lp": 0,
+			"lp": 600,
 			"tier": 40,
 			"speed": 0,
 			"damage": 0,
@@ -268275,7 +269154,7 @@
 				"Defence": 40
 			},
 			"class": "melee",
-			"lp": 0,
+			"lp": 600,
 			"tier": 40,
 			"speed": 0,
 			"damage": 0,
@@ -268293,7 +269172,7 @@
 				"Defence": 40
 			},
 			"class": "melee",
-			"lp": 0,
+			"lp": 600,
 			"tier": 40,
 			"speed": 0,
 			"damage": 0,
@@ -268311,7 +269190,7 @@
 				"Defence": 40
 			},
 			"class": "melee",
-			"lp": 0,
+			"lp": 600,
 			"tier": 40,
 			"speed": 0,
 			"damage": 0,
@@ -268329,7 +269208,7 @@
 				"Defence": 40
 			},
 			"class": "melee",
-			"lp": 0,
+			"lp": 600,
 			"tier": 40,
 			"speed": 0,
 			"damage": 0,
@@ -268347,7 +269226,7 @@
 				"Defence": 40
 			},
 			"class": "melee",
-			"lp": 0,
+			"lp": 600,
 			"tier": 41,
 			"speed": 0,
 			"damage": 0,
@@ -268365,7 +269244,7 @@
 				"Defence": 40
 			},
 			"class": "melee",
-			"lp": 0,
+			"lp": 600,
 			"tier": 42,
 			"speed": 0,
 			"damage": 0,
@@ -268383,7 +269262,7 @@
 				"Defence": 40
 			},
 			"class": "melee",
-			"lp": 0,
+			"lp": 600,
 			"tier": 40,
 			"speed": 0,
 			"damage": 0,
@@ -268871,7 +269750,7 @@
 				"Defence": 70
 			},
 			"class": "magic",
-			"lp": 0,
+			"lp": 700,
 			"tier": 70,
 			"speed": 0,
 			"damage": 0,
@@ -268890,7 +269769,7 @@
 				"Defence": 70
 			},
 			"class": "magic",
-			"lp": 0,
+			"lp": 1050,
 			"tier": 70,
 			"speed": 0,
 			"damage": 0,
@@ -268909,7 +269788,7 @@
 				"Defence": 70
 			},
 			"class": "magic",
-			"lp": 0,
+			"lp": 10500,
 			"tier": 70,
 			"speed": 0,
 			"damage": 0,
@@ -269539,7 +270418,7 @@
 				"Prayer": 40
 			},
 			"class": "magic",
-			"lp": 0,
+			"lp": 400,
 			"tier": 40,
 			"speed": 0,
 			"damage": 0,
@@ -269581,7 +270460,7 @@
 				"Prayer": 20
 			},
 			"class": "magic",
-			"lp": 0,
+			"lp": 600,
 			"tier": 40,
 			"speed": 0,
 			"damage": 0,
@@ -269600,7 +270479,7 @@
 				"Prayer": 20
 			},
 			"class": "magic",
-			"lp": 0,
+			"lp": 600,
 			"tier": 40,
 			"speed": 0,
 			"damage": 0,
@@ -270450,7 +271329,7 @@
 				"Prayer": 40
 			},
 			"class": "ranged",
-			"lp": 0,
+			"lp": 400,
 			"tier": 40,
 			"speed": 0,
 			"damage": 0,
@@ -270469,7 +271348,7 @@
 				"Prayer": 20
 			},
 			"class": "ranged",
-			"lp": 0,
+			"lp": 600,
 			"tier": 40,
 			"speed": 0,
 			"damage": 0,
@@ -270488,7 +271367,7 @@
 				"Prayer": 20
 			},
 			"class": "ranged",
-			"lp": 0,
+			"lp": 600,
 			"tier": 40,
 			"speed": 0,
 			"damage": 0,
@@ -271559,7 +272438,7 @@
 				"Prayer": 40
 			},
 			"class": "melee",
-			"lp": 0,
+			"lp": 400,
 			"tier": 40,
 			"speed": 0,
 			"damage": 0,
@@ -271578,7 +272457,7 @@
 				"Prayer": 20
 			},
 			"class": "melee",
-			"lp": 0,
+			"lp": 600,
 			"tier": 40,
 			"speed": 0,
 			"damage": 0,
@@ -271597,7 +272476,7 @@
 				"Prayer": 20
 			},
 			"class": "melee",
-			"lp": 0,
+			"lp": 600,
 			"tier": 40,
 			"speed": 0,
 			"damage": 0,
@@ -271791,7 +272670,7 @@
 				"Defence": 80
 			},
 			"class": "melee",
-			"lp": 0,
+			"lp": 400,
 			"tier": 76,
 			"speed": 0,
 			"damage": 0,
@@ -271810,7 +272689,7 @@
 				"Defence": 80
 			},
 			"class": "melee",
-			"lp": 0,
+			"lp": 400,
 			"tier": 77,
 			"speed": 0,
 			"damage": 0,
@@ -271829,7 +272708,7 @@
 				"Defence": 80
 			},
 			"class": "melee",
-			"lp": 0,
+			"lp": 400,
 			"tier": 78,
 			"speed": 0,
 			"damage": 0,
@@ -271848,7 +272727,7 @@
 				"Defence": 80
 			},
 			"class": "melee",
-			"lp": 0,
+			"lp": 400,
 			"tier": 79,
 			"speed": 0,
 			"damage": 0,
@@ -271867,7 +272746,7 @@
 				"Defence": 80
 			},
 			"class": "melee",
-			"lp": 0,
+			"lp": 400,
 			"tier": 75,
 			"speed": 0,
 			"damage": 0,
@@ -271886,7 +272765,7 @@
 				"Defence": 80
 			},
 			"class": "melee",
-			"lp": 140,
+			"lp": 800,
 			"tier": 76,
 			"speed": 0,
 			"damage": 0,
@@ -271905,7 +272784,7 @@
 				"Defence": 80
 			},
 			"class": "melee",
-			"lp": 160,
+			"lp": 800,
 			"tier": 77,
 			"speed": 0,
 			"damage": 0,
@@ -271924,7 +272803,7 @@
 				"Defence": 80
 			},
 			"class": "melee",
-			"lp": 180,
+			"lp": 800,
 			"tier": 78,
 			"speed": 0,
 			"damage": 0,
@@ -271943,7 +272822,7 @@
 				"Defence": 80
 			},
 			"class": "melee",
-			"lp": 200,
+			"lp": 800,
 			"tier": 79,
 			"speed": 0,
 			"damage": 0,
@@ -271962,7 +272841,7 @@
 				"Defence": 80
 			},
 			"class": "melee",
-			"lp": 120,
+			"lp": 800,
 			"tier": 75,
 			"speed": 0,
 			"damage": 0,
@@ -271981,7 +272860,7 @@
 				"Defence": 80
 			},
 			"class": "melee",
-			"lp": 0,
+			"lp": 400,
 			"tier": 76,
 			"speed": 0,
 			"damage": 0,
@@ -272000,7 +272879,7 @@
 				"Defence": 80
 			},
 			"class": "melee",
-			"lp": 0,
+			"lp": 400,
 			"tier": 77,
 			"speed": 0,
 			"damage": 0,
@@ -272019,7 +272898,7 @@
 				"Defence": 80
 			},
 			"class": "melee",
-			"lp": 0,
+			"lp": 400,
 			"tier": 78,
 			"speed": 0,
 			"damage": 0,
@@ -272038,7 +272917,7 @@
 				"Defence": 80
 			},
 			"class": "melee",
-			"lp": 0,
+			"lp": 400,
 			"tier": 79,
 			"speed": 0,
 			"damage": 0,
@@ -272057,7 +272936,7 @@
 				"Defence": 80
 			},
 			"class": "melee",
-			"lp": 0,
+			"lp": 400,
 			"tier": 75,
 			"speed": 0,
 			"damage": 0,
@@ -272069,6 +272948,26 @@
 			"charges": 10000,
 			"prayer": 0,
 			"accuracy": 0
+		},
+		"Bane hatchet": {
+			"ranged": 0,
+			"slot": "main hand weapon",
+			"prayer": 0,
+			"style": "slash",
+			"ability_damage": 384,
+			"magic": 0,
+			"strength": 0,
+			"armour": 0,
+			"requirements": {
+				"Woodcutting": 80
+			},
+			"damage": 490,
+			"speed": 3,
+			"tier": 80,
+			"lp": 0,
+			"attack_range": 1,
+			"class": "melee",
+			"accuracy": 1694
 		},
 		"Bane longsword + 1": {
 			"ranged": 0,
@@ -272406,7 +273305,7 @@
 				"Defence": 80
 			},
 			"class": "melee",
-			"lp": 280,
+			"lp": 1200,
 			"tier": 76,
 			"speed": 0,
 			"damage": 0,
@@ -272425,7 +273324,7 @@
 				"Defence": 80
 			},
 			"class": "melee",
-			"lp": 320,
+			"lp": 1200,
 			"tier": 77,
 			"speed": 0,
 			"damage": 0,
@@ -272444,7 +273343,7 @@
 				"Defence": 80
 			},
 			"class": "melee",
-			"lp": 360,
+			"lp": 1200,
 			"tier": 78,
 			"speed": 0,
 			"damage": 0,
@@ -272463,7 +273362,7 @@
 				"Defence": 80
 			},
 			"class": "melee",
-			"lp": 400,
+			"lp": 1200,
 			"tier": 79,
 			"speed": 0,
 			"damage": 0,
@@ -272482,7 +273381,7 @@
 				"Defence": 80
 			},
 			"class": "melee",
-			"lp": 240,
+			"lp": 1200,
 			"tier": 75,
 			"speed": 0,
 			"damage": 0,
@@ -272501,7 +273400,7 @@
 				"Defence": 80
 			},
 			"class": "melee",
-			"lp": 210,
+			"lp": 1200,
 			"tier": 76,
 			"speed": 0,
 			"damage": 0,
@@ -272520,7 +273419,7 @@
 				"Defence": 80
 			},
 			"class": "melee",
-			"lp": 240,
+			"lp": 1200,
 			"tier": 77,
 			"speed": 0,
 			"damage": 0,
@@ -272539,7 +273438,7 @@
 				"Defence": 80
 			},
 			"class": "melee",
-			"lp": 270,
+			"lp": 1200,
 			"tier": 78,
 			"speed": 0,
 			"damage": 0,
@@ -272558,7 +273457,7 @@
 				"Defence": 80
 			},
 			"class": "melee",
-			"lp": 300,
+			"lp": 1200,
 			"tier": 79,
 			"speed": 0,
 			"damage": 0,
@@ -272577,7 +273476,7 @@
 				"Defence": 80
 			},
 			"class": "melee",
-			"lp": 180,
+			"lp": 1200,
 			"tier": 75,
 			"speed": 0,
 			"damage": 0,
@@ -273426,7 +274325,7 @@
 				"Defence": 30
 			},
 			"class": "magic",
-			"lp": 0,
+			"lp": 150,
 			"tier": 30,
 			"speed": 0,
 			"damage": 0,
@@ -273444,7 +274343,7 @@
 				"Defence": 30
 			},
 			"class": "magic",
-			"lp": 0,
+			"lp": 150,
 			"tier": 30,
 			"speed": 0,
 			"damage": 0,
@@ -273462,7 +274361,7 @@
 				"Defence": 30
 			},
 			"class": "magic",
-			"lp": 0,
+			"lp": 300,
 			"tier": 30,
 			"speed": 0,
 			"damage": 0,
@@ -273480,7 +274379,7 @@
 				"Defence": 30
 			},
 			"class": "magic",
-			"lp": 0,
+			"lp": 450,
 			"tier": 30,
 			"speed": 0,
 			"damage": 0,
@@ -273516,7 +274415,7 @@
 				"Defence": 30
 			},
 			"class": "magic",
-			"lp": 0,
+			"lp": 450,
 			"tier": 30,
 			"speed": 0,
 			"damage": 0,
@@ -273826,7 +274725,7 @@
 				"Defence": 25
 			},
 			"class": "melee",
-			"lp": 0,
+			"lp": 375,
 			"tier": 23,
 			"speed": 0,
 			"damage": 0,
@@ -273946,7 +274845,7 @@
 				"Defence": 60
 			},
 			"class": "ranged",
-			"lp": 0,
+			"lp": 900,
 			"tier": 60,
 			"speed": 0,
 			"damage": 0,
@@ -273964,7 +274863,7 @@
 				"Defence": 60
 			},
 			"class": "ranged",
-			"lp": 0,
+			"lp": 300,
 			"tier": 60,
 			"speed": 0,
 			"damage": 0,
@@ -273982,7 +274881,7 @@
 				"Defence": 60
 			},
 			"class": "ranged",
-			"lp": 0,
+			"lp": 900,
 			"tier": 60,
 			"speed": 0,
 			"damage": 0,
@@ -274000,7 +274899,7 @@
 				"Defence": 60
 			},
 			"class": "ranged",
-			"lp": 0,
+			"lp": 600,
 			"tier": 60,
 			"speed": 0,
 			"damage": 0,
@@ -274036,7 +274935,7 @@
 				"Defence": 60
 			},
 			"class": "ranged",
-			"lp": 0,
+			"lp": 300,
 			"tier": 60,
 			"speed": 0,
 			"damage": 0,
@@ -274072,7 +274971,7 @@
 				"Defence": 25
 			},
 			"class": "melee",
-			"lp": 0,
+			"lp": 250,
 			"tier": 25,
 			"speed": 0,
 			"damage": 0,
@@ -274090,7 +274989,7 @@
 				"Defence": 25
 			},
 			"class": "melee",
-			"lp": 0,
+			"lp": 250,
 			"tier": 25,
 			"speed": 0,
 			"damage": 0,
@@ -274108,7 +275007,7 @@
 				"Defence": 25
 			},
 			"class": "melee",
-			"lp": 0,
+			"lp": 250,
 			"tier": 25,
 			"speed": 0,
 			"damage": 0,
@@ -274185,7 +275084,7 @@
 				"Defence": 25
 			},
 			"class": "melee",
-			"lp": 0,
+			"lp": 250,
 			"tier": 25,
 			"speed": 0,
 			"damage": 0,
@@ -274203,7 +275102,7 @@
 				"Defence": 25
 			},
 			"class": "melee",
-			"lp": 0,
+			"lp": 250,
 			"tier": 25,
 			"speed": 0,
 			"damage": 0,
@@ -274221,7 +275120,7 @@
 				"Defence": 25
 			},
 			"class": "melee",
-			"lp": 0,
+			"lp": 250,
 			"tier": 25,
 			"speed": 0,
 			"damage": 0,
@@ -274239,7 +275138,7 @@
 				"Defence": 25
 			},
 			"class": "melee",
-			"lp": 0,
+			"lp": 250,
 			"tier": 25,
 			"speed": 0,
 			"damage": 0,
@@ -274257,7 +275156,7 @@
 				"Defence": 25
 			},
 			"class": "melee",
-			"lp": 0,
+			"lp": 250,
 			"tier": 25,
 			"speed": 0,
 			"damage": 0,
@@ -274275,7 +275174,7 @@
 				"Defence": 25
 			},
 			"class": "melee",
-			"lp": 0,
+			"lp": 250,
 			"tier": 23,
 			"speed": 0,
 			"damage": 0,
@@ -274427,7 +275326,7 @@
 				"Defence": 25
 			},
 			"class": "melee",
-			"lp": 0,
+			"lp": 375,
 			"tier": 25,
 			"speed": 0,
 			"damage": 0,
@@ -274445,7 +275344,7 @@
 				"Defence": 25
 			},
 			"class": "melee",
-			"lp": 0,
+			"lp": 375,
 			"tier": 25,
 			"speed": 0,
 			"damage": 0,
@@ -274463,7 +275362,7 @@
 				"Defence": 25
 			},
 			"class": "melee",
-			"lp": 0,
+			"lp": 375,
 			"tier": 25,
 			"speed": 0,
 			"damage": 0,
@@ -274481,7 +275380,7 @@
 				"Defence": 25
 			},
 			"class": "melee",
-			"lp": 0,
+			"lp": 375,
 			"tier": 25,
 			"speed": 0,
 			"damage": 0,
@@ -274499,7 +275398,7 @@
 				"Defence": 25
 			},
 			"class": "melee",
-			"lp": 0,
+			"lp": 375,
 			"tier": 25,
 			"speed": 0,
 			"damage": 0,
@@ -274517,7 +275416,7 @@
 				"Defence": 25
 			},
 			"class": "melee",
-			"lp": 0,
+			"lp": 375,
 			"tier": 25,
 			"speed": 0,
 			"damage": 0,
@@ -274535,7 +275434,7 @@
 				"Defence": 25
 			},
 			"class": "melee",
-			"lp": 0,
+			"lp": 375,
 			"tier": 25,
 			"speed": 0,
 			"damage": 0,
@@ -274553,7 +275452,7 @@
 				"Defence": 25
 			},
 			"class": "melee",
-			"lp": 0,
+			"lp": 375,
 			"tier": 25,
 			"speed": 0,
 			"damage": 0,
@@ -274571,7 +275470,7 @@
 				"Defence": 25
 			},
 			"class": "melee",
-			"lp": 0,
+			"lp": 375,
 			"tier": 25,
 			"speed": 0,
 			"damage": 0,
@@ -274589,7 +275488,7 @@
 				"Defence": 25
 			},
 			"class": "melee",
-			"lp": 0,
+			"lp": 375,
 			"tier": 25,
 			"speed": 0,
 			"damage": 0,
@@ -274607,7 +275506,7 @@
 				"Defence": 25
 			},
 			"class": "melee",
-			"lp": 0,
+			"lp": 375,
 			"tier": 25,
 			"speed": 0,
 			"damage": 0,
@@ -274625,7 +275524,7 @@
 				"Defence": 25
 			},
 			"class": "melee",
-			"lp": 0,
+			"lp": 375,
 			"tier": 25,
 			"speed": 0,
 			"damage": 0,
@@ -274643,7 +275542,7 @@
 				"Defence": 25
 			},
 			"class": "melee",
-			"lp": 0,
+			"lp": 375,
 			"tier": 25,
 			"speed": 0,
 			"damage": 0,
@@ -274661,7 +275560,7 @@
 				"Defence": 25
 			},
 			"class": "melee",
-			"lp": 0,
+			"lp": 375,
 			"tier": 25,
 			"speed": 0,
 			"damage": 0,
@@ -274679,7 +275578,7 @@
 				"Defence": 25
 			},
 			"class": "melee",
-			"lp": 0,
+			"lp": 375,
 			"tier": 25,
 			"speed": 0,
 			"damage": 0,
@@ -274697,7 +275596,7 @@
 				"Defence": 25
 			},
 			"class": "melee",
-			"lp": 0,
+			"lp": 375,
 			"tier": 25,
 			"speed": 0,
 			"damage": 0,
@@ -274715,7 +275614,7 @@
 				"Defence": 25
 			},
 			"class": "melee",
-			"lp": 0,
+			"lp": 375,
 			"tier": 25,
 			"speed": 0,
 			"damage": 0,
@@ -274733,7 +275632,7 @@
 				"Defence": 25
 			},
 			"class": "melee",
-			"lp": 0,
+			"lp": 375,
 			"tier": 25,
 			"speed": 0,
 			"damage": 0,
@@ -274751,7 +275650,7 @@
 				"Defence": 25
 			},
 			"class": "melee",
-			"lp": 0,
+			"lp": 375,
 			"tier": 25,
 			"speed": 0,
 			"damage": 0,
@@ -274769,7 +275668,7 @@
 				"Defence": 25
 			},
 			"class": "melee",
-			"lp": 0,
+			"lp": 375,
 			"tier": 25,
 			"speed": 0,
 			"damage": 0,
@@ -274787,7 +275686,7 @@
 				"Defence": 25
 			},
 			"class": "melee",
-			"lp": 0,
+			"lp": 375,
 			"tier": 25,
 			"speed": 0,
 			"damage": 0,
@@ -274805,7 +275704,7 @@
 				"Defence": 25
 			},
 			"class": "melee",
-			"lp": 0,
+			"lp": 375,
 			"tier": 25,
 			"speed": 0,
 			"damage": 0,
@@ -274823,7 +275722,7 @@
 				"Defence": 25
 			},
 			"class": "melee",
-			"lp": 0,
+			"lp": 375,
 			"tier": 25,
 			"speed": 0,
 			"damage": 0,
@@ -274841,7 +275740,7 @@
 				"Defence": 25
 			},
 			"class": "melee",
-			"lp": 0,
+			"lp": 375,
 			"tier": 25,
 			"speed": 0,
 			"damage": 0,
@@ -275283,7 +276182,7 @@
 				"Defence": 60
 			},
 			"class": "ranged",
-			"lp": 0,
+			"lp": 900,
 			"tier": 60,
 			"speed": 0,
 			"damage": 0,
@@ -275301,7 +276200,7 @@
 				"Defence": 60
 			},
 			"class": "ranged",
-			"lp": 0,
+			"lp": 900,
 			"tier": 60,
 			"speed": 0,
 			"damage": 0,
@@ -275319,7 +276218,7 @@
 				"Defence": 60
 			},
 			"class": "ranged",
-			"lp": 0,
+			"lp": 900,
 			"tier": 60,
 			"speed": 0,
 			"damage": 0,
@@ -275337,7 +276236,7 @@
 				"Defence": 60
 			},
 			"class": "ranged",
-			"lp": 0,
+			"lp": 900,
 			"tier": 60,
 			"speed": 0,
 			"damage": 0,
@@ -275355,7 +276254,7 @@
 				"Defence": 60
 			},
 			"class": "ranged",
-			"lp": 0,
+			"lp": 900,
 			"tier": 60,
 			"speed": 0,
 			"damage": 0,
@@ -275373,7 +276272,7 @@
 				"Defence": 60
 			},
 			"class": "ranged",
-			"lp": 0,
+			"lp": 900,
 			"tier": 60,
 			"speed": 0,
 			"damage": 0,
@@ -275391,7 +276290,7 @@
 				"Defence": 60
 			},
 			"class": "ranged",
-			"lp": 0,
+			"lp": 900,
 			"tier": 60,
 			"speed": 0,
 			"damage": 0,
@@ -275409,7 +276308,7 @@
 				"Defence": 60
 			},
 			"class": "ranged",
-			"lp": 0,
+			"lp": 900,
 			"tier": 60,
 			"speed": 0,
 			"damage": 0,
@@ -275427,7 +276326,7 @@
 				"Defence": 60
 			},
 			"class": "ranged",
-			"lp": 0,
+			"lp": 900,
 			"tier": 60,
 			"speed": 0,
 			"damage": 0,
@@ -275445,7 +276344,7 @@
 				"Defence": 60
 			},
 			"class": "ranged",
-			"lp": 0,
+			"lp": 900,
 			"tier": 60,
 			"speed": 0,
 			"damage": 0,
@@ -275463,7 +276362,7 @@
 				"Defence": 60
 			},
 			"class": "ranged",
-			"lp": 0,
+			"lp": 900,
 			"tier": 60,
 			"speed": 0,
 			"damage": 0,
@@ -275481,7 +276380,7 @@
 				"Defence": 60
 			},
 			"class": "ranged",
-			"lp": 0,
+			"lp": 900,
 			"tier": 60,
 			"speed": 0,
 			"damage": 0,
@@ -276030,7 +276929,7 @@
 				"Defence": 50
 			},
 			"class": "ranged",
-			"lp": 0,
+			"lp": 750,
 			"tier": 50,
 			"speed": 0,
 			"damage": 0,
@@ -276048,7 +276947,7 @@
 				"Defence": 50
 			},
 			"class": "ranged",
-			"lp": 0,
+			"lp": 750,
 			"tier": 50,
 			"speed": 0,
 			"damage": 0,
@@ -276066,7 +276965,7 @@
 				"Defence": 50
 			},
 			"class": "ranged",
-			"lp": 0,
+			"lp": 750,
 			"tier": 50,
 			"speed": 0,
 			"damage": 0,
@@ -276084,7 +276983,7 @@
 				"Defence": 50
 			},
 			"class": "ranged",
-			"lp": 0,
+			"lp": 250,
 			"tier": 50,
 			"speed": 0,
 			"damage": 0,
@@ -276102,7 +277001,7 @@
 				"Defence": 50
 			},
 			"class": "ranged",
-			"lp": 0,
+			"lp": 750,
 			"tier": 50,
 			"speed": 0,
 			"damage": 0,
@@ -276120,7 +277019,7 @@
 				"Defence": 50
 			},
 			"class": "ranged",
-			"lp": 0,
+			"lp": 750,
 			"tier": 50,
 			"speed": 0,
 			"damage": 0,
@@ -276138,7 +277037,7 @@
 				"Defence": 50
 			},
 			"class": "ranged",
-			"lp": 0,
+			"lp": 750,
 			"tier": 50,
 			"speed": 0,
 			"damage": 0,
@@ -276156,7 +277055,7 @@
 				"Defence": 50
 			},
 			"class": "ranged",
-			"lp": 0,
+			"lp": 500,
 			"tier": 50,
 			"speed": 0,
 			"damage": 0,
@@ -276192,7 +277091,7 @@
 				"Defence": 50
 			},
 			"class": "ranged",
-			"lp": 0,
+			"lp": 250,
 			"tier": 50,
 			"speed": 0,
 			"damage": 0,
@@ -276883,7 +277782,7 @@
 				"Defence": 1
 			},
 			"class": "melee",
-			"lp": 0,
+			"lp": 5,
 			"tier": 5,
 			"speed": 0,
 			"damage": 0,
@@ -276977,7 +277876,7 @@
 				"Defence": 1
 			},
 			"class": "melee",
-			"lp": 0,
+			"lp": 15,
 			"tier": 5,
 			"speed": 0,
 			"damage": 0,
@@ -277149,7 +278048,7 @@
 				"Defence": 1
 			},
 			"class": "melee",
-			"lp": 0,
+			"lp": 10,
 			"tier": 5,
 			"speed": 0,
 			"damage": 0,
@@ -277162,7 +278061,7 @@
 			"accuracy": 0
 		},
 		"Bronze gauntlets": {
-			"ranged": 0,
+			"ranged": 5,
 			"requirements": {
 				"Defence": 1
 			},
@@ -277364,7 +278263,7 @@
 				"Defence": 1
 			},
 			"class": "melee",
-			"lp": 0,
+			"lp": 10,
 			"tier": 5,
 			"speed": 0,
 			"damage": 0,
@@ -277561,7 +278460,7 @@
 				"Defence": 1
 			},
 			"class": "melee",
-			"lp": 0,
+			"lp": 15,
 			"tier": 5,
 			"speed": 0,
 			"damage": 0,
@@ -277579,7 +278478,7 @@
 				"Defence": 1
 			},
 			"class": "melee",
-			"lp": 0,
+			"lp": 15,
 			"tier": 5,
 			"speed": 0,
 			"damage": 0,
@@ -277597,7 +278496,7 @@
 				"Defence": 1
 			},
 			"class": "melee",
-			"lp": 0,
+			"lp": 15,
 			"tier": 5,
 			"speed": 0,
 			"damage": 0,
@@ -277917,7 +278816,7 @@
 				"Defence": 30
 			},
 			"class": "ranged",
-			"lp": 0,
+			"lp": 150,
 			"tier": 30,
 			"speed": 0,
 			"damage": 0,
@@ -277935,7 +278834,7 @@
 				"Defence": 30
 			},
 			"class": "ranged",
-			"lp": 0,
+			"lp": 150,
 			"tier": 30,
 			"speed": 0,
 			"damage": 0,
@@ -277953,7 +278852,7 @@
 				"Defence": 30
 			},
 			"class": "ranged",
-			"lp": 0,
+			"lp": 300,
 			"tier": 30,
 			"speed": 0,
 			"damage": 0,
@@ -277971,7 +278870,7 @@
 				"Defence": 30
 			},
 			"class": "ranged",
-			"lp": 0,
+			"lp": 450,
 			"tier": 30,
 			"speed": 0,
 			"damage": 0,
@@ -278007,7 +278906,7 @@
 				"Defence": 30
 			},
 			"class": "ranged",
-			"lp": 0,
+			"lp": 450,
 			"tier": 30,
 			"speed": 0,
 			"damage": 0,
@@ -278097,7 +278996,7 @@
 				"Defence": 50
 			},
 			"class": "magic",
-			"lp": 0,
+			"lp": 750,
 			"tier": 30,
 			"speed": 0,
 			"damage": 0,
@@ -278115,7 +279014,7 @@
 				"Defence": 50
 			},
 			"class": "magic",
-			"lp": 0,
+			"lp": 250,
 			"tier": 30,
 			"speed": 0,
 			"damage": 0,
@@ -278148,7 +279047,7 @@
 				"Defence": 50
 			},
 			"class": "magic",
-			"lp": 0,
+			"lp": 250,
 			"tier": 30,
 			"speed": 0,
 			"damage": 0,
@@ -278166,7 +279065,7 @@
 				"Defence": 50
 			},
 			"class": "magic",
-			"lp": 0,
+			"lp": 500,
 			"tier": 30,
 			"speed": 0,
 			"damage": 0,
@@ -278277,6 +279176,25 @@
 			"attack_range": 7,
 			"class": "ranged",
 			"accuracy": 1924
+		},
+		"Chaotic kiteshield": {
+			"ranged": 0,
+			"requirements": {
+				"Defence": 80
+			},
+			"class": "melee",
+			"lp": 385,
+			"tier": 80,
+			"speed": 0,
+			"damage": 0,
+			"type": "Shield",
+			"armour": 384.8,
+			"slot": "off-hand",
+			"strength": 0,
+			"magic": 0,
+			"charges": 30000,
+			"prayer": 0,
+			"accuracy": 0
 		},
 		"Chaotic longsword": {
 			"ranged": 0,
@@ -279675,7 +280593,7 @@
 				"Defence": 40
 			},
 			"class": "magic",
-			"lp": 0,
+			"lp": 600,
 			"tier": 25,
 			"speed": 0,
 			"damage": 0,
@@ -279693,7 +280611,7 @@
 				"Defence": 40
 			},
 			"class": "magic",
-			"lp": 0,
+			"lp": 200,
 			"tier": 25,
 			"speed": 0,
 			"damage": 0,
@@ -279711,7 +280629,7 @@
 				"Defence": 40
 			},
 			"class": "magic",
-			"lp": 0,
+			"lp": 200,
 			"tier": 25,
 			"speed": 0,
 			"damage": 0,
@@ -279729,7 +280647,7 @@
 				"Defence": 40
 			},
 			"class": "magic",
-			"lp": 0,
+			"lp": 400,
 			"tier": 25,
 			"speed": 0,
 			"damage": 0,
@@ -279927,7 +280845,7 @@
 				"Defence": 90
 			},
 			"class": "magic",
-			"lp": 0,
+			"lp": 450,
 			"tier": 90,
 			"speed": 0,
 			"damage": 0,
@@ -279946,7 +280864,7 @@
 				"Defence": 90
 			},
 			"class": "magic",
-			"lp": 630,
+			"lp": 1350,
 			"tier": 90,
 			"speed": 0,
 			"damage": 0,
@@ -279965,7 +280883,7 @@
 				"Defence": 90
 			},
 			"class": "magic",
-			"lp": 0,
+			"lp": 450,
 			"tier": 90,
 			"speed": 0,
 			"damage": 0,
@@ -279984,7 +280902,7 @@
 				"Defence": 90
 			},
 			"class": "magic",
-			"lp": 420,
+			"lp": 900,
 			"tier": 90,
 			"speed": 0,
 			"damage": 0,
@@ -280003,7 +280921,7 @@
 				"Defence": 90
 			},
 			"class": "magic",
-			"lp": 840,
+			"lp": 1350,
 			"tier": 90,
 			"speed": 0,
 			"damage": 0,
@@ -281053,7 +281971,7 @@
 				"Defence": 50
 			},
 			"class": "magic",
-			"lp": 0,
+			"lp": 250,
 			"tier": 50,
 			"speed": 0,
 			"damage": 0,
@@ -281071,7 +281989,7 @@
 				"Defence": 50
 			},
 			"class": "magic",
-			"lp": 0,
+			"lp": 250,
 			"tier": 50,
 			"speed": 0,
 			"damage": 0,
@@ -281089,7 +282007,7 @@
 				"Defence": 50
 			},
 			"class": "magic",
-			"lp": 0,
+			"lp": 500,
 			"tier": 50,
 			"speed": 0,
 			"damage": 0,
@@ -281107,7 +282025,7 @@
 				"Defence": 50
 			},
 			"class": "magic",
-			"lp": 0,
+			"lp": 750,
 			"tier": 50,
 			"speed": 0,
 			"damage": 0,
@@ -281125,7 +282043,7 @@
 				"Defence": 50
 			},
 			"class": "magic",
-			"lp": 0,
+			"lp": 750,
 			"tier": 50,
 			"speed": 0,
 			"damage": 0,
@@ -281163,7 +282081,7 @@
 				"Defence": 85
 			},
 			"class": "ranged",
-			"lp": 420,
+			"lp": 1275,
 			"tier": 83,
 			"speed": 0,
 			"damage": 0,
@@ -281182,7 +282100,7 @@
 				"Defence": 85
 			},
 			"class": "ranged",
-			"lp": 560,
+			"lp": 1275,
 			"tier": 83,
 			"speed": 0,
 			"damage": 0,
@@ -281222,7 +282140,7 @@
 				"Defence": 85
 			},
 			"class": "ranged",
-			"lp": 280,
+			"lp": 850,
 			"tier": 83,
 			"speed": 0,
 			"damage": 0,
@@ -283030,7 +283948,7 @@
 				"Defence": 70
 			},
 			"class": "melee",
-			"lp": 0,
+			"lp": 700,
 			"tier": 70,
 			"speed": 0,
 			"damage": 0,
@@ -283049,7 +283967,7 @@
 				"Defence": 70
 			},
 			"class": "melee",
-			"lp": 0,
+			"lp": 1050,
 			"tier": 70,
 			"speed": 0,
 			"damage": 0,
@@ -283068,7 +283986,7 @@
 				"Defence": 70
 			},
 			"class": "melee",
-			"lp": 0,
+			"lp": 1050,
 			"tier": 70,
 			"speed": 0,
 			"damage": 0,
@@ -283202,7 +284120,7 @@
 				"Defence": 75
 			},
 			"class": "ranged",
-			"lp": 0,
+			"lp": 1125,
 			"tier": 75,
 			"speed": 0,
 			"damage": 0,
@@ -283221,7 +284139,7 @@
 				"Defence": 75
 			},
 			"class": "ranged",
-			"lp": 0,
+			"lp": 375,
 			"tier": 75,
 			"speed": 0,
 			"damage": 0,
@@ -283239,7 +284157,7 @@
 				"Defence": 75
 			},
 			"class": "ranged",
-			"lp": 0,
+			"lp": 1125,
 			"tier": 75,
 			"speed": 0,
 			"damage": 0,
@@ -283258,7 +284176,7 @@
 				"Defence": 75
 			},
 			"class": "ranged",
-			"lp": 0,
+			"lp": 750,
 			"tier": 75,
 			"speed": 0,
 			"damage": 0,
@@ -283277,7 +284195,7 @@
 				"Defence": 75
 			},
 			"class": "ranged",
-			"lp": 0,
+			"lp": 375,
 			"tier": 75,
 			"speed": 0,
 			"damage": 0,
@@ -285481,7 +286399,7 @@
 				"Defence": 90
 			},
 			"class": "melee",
-			"lp": 0,
+			"lp": 450,
 			"tier": 81,
 			"speed": 0,
 			"damage": 0,
@@ -285500,7 +286418,7 @@
 				"Defence": 90
 			},
 			"class": "melee",
-			"lp": 0,
+			"lp": 450,
 			"tier": 82,
 			"speed": 0,
 			"damage": 0,
@@ -285519,7 +286437,7 @@
 				"Defence": 90
 			},
 			"class": "melee",
-			"lp": 0,
+			"lp": 450,
 			"tier": 83,
 			"speed": 0,
 			"damage": 0,
@@ -285538,7 +286456,7 @@
 				"Defence": 90
 			},
 			"class": "melee",
-			"lp": 0,
+			"lp": 450,
 			"tier": 84,
 			"speed": 0,
 			"damage": 0,
@@ -285557,7 +286475,7 @@
 				"Defence": 90
 			},
 			"class": "melee",
-			"lp": 0,
+			"lp": 450,
 			"tier": 85,
 			"speed": 0,
 			"damage": 0,
@@ -285576,7 +286494,7 @@
 				"Defence": 90
 			},
 			"class": "melee",
-			"lp": 0,
+			"lp": 450,
 			"tier": 80,
 			"speed": 0,
 			"damage": 0,
@@ -285595,7 +286513,7 @@
 				"Defence": 90
 			},
 			"class": "melee",
-			"lp": 240,
+			"lp": 900,
 			"tier": 81,
 			"speed": 0,
 			"damage": 0,
@@ -285614,7 +286532,7 @@
 				"Defence": 90
 			},
 			"class": "melee",
-			"lp": 260,
+			"lp": 900,
 			"tier": 82,
 			"speed": 0,
 			"damage": 0,
@@ -285633,7 +286551,7 @@
 				"Defence": 90
 			},
 			"class": "melee",
-			"lp": 280,
+			"lp": 900,
 			"tier": 83,
 			"speed": 0,
 			"damage": 0,
@@ -285652,7 +286570,7 @@
 				"Defence": 90
 			},
 			"class": "melee",
-			"lp": 300,
+			"lp": 900,
 			"tier": 84,
 			"speed": 0,
 			"damage": 0,
@@ -285671,7 +286589,7 @@
 				"Defence": 90
 			},
 			"class": "melee",
-			"lp": 320,
+			"lp": 900,
 			"tier": 85,
 			"speed": 0,
 			"damage": 0,
@@ -285690,7 +286608,7 @@
 				"Defence": 90
 			},
 			"class": "melee",
-			"lp": 220,
+			"lp": 900,
 			"tier": 80,
 			"speed": 0,
 			"damage": 0,
@@ -285709,7 +286627,7 @@
 				"Defence": 90
 			},
 			"class": "melee",
-			"lp": 0,
+			"lp": 450,
 			"tier": 81,
 			"speed": 0,
 			"damage": 0,
@@ -285728,7 +286646,7 @@
 				"Defence": 90
 			},
 			"class": "melee",
-			"lp": 0,
+			"lp": 450,
 			"tier": 82,
 			"speed": 0,
 			"damage": 0,
@@ -285747,7 +286665,7 @@
 				"Defence": 90
 			},
 			"class": "melee",
-			"lp": 0,
+			"lp": 450,
 			"tier": 83,
 			"speed": 0,
 			"damage": 0,
@@ -285766,7 +286684,7 @@
 				"Defence": 90
 			},
 			"class": "melee",
-			"lp": 0,
+			"lp": 450,
 			"tier": 84,
 			"speed": 0,
 			"damage": 0,
@@ -285785,7 +286703,7 @@
 				"Defence": 90
 			},
 			"class": "melee",
-			"lp": 0,
+			"lp": 450,
 			"tier": 85,
 			"speed": 0,
 			"damage": 0,
@@ -285804,7 +286722,7 @@
 				"Defence": 90
 			},
 			"class": "melee",
-			"lp": 0,
+			"lp": 450,
 			"tier": 80,
 			"speed": 0,
 			"damage": 0,
@@ -285816,6 +286734,26 @@
 			"charges": 10000,
 			"prayer": 0,
 			"accuracy": 0
+		},
+		"Elder rune hatchet": {
+			"ranged": 0,
+			"slot": "main hand weapon",
+			"prayer": 0,
+			"style": "slash",
+			"ability_damage": 432,
+			"magic": 0,
+			"strength": 0,
+			"armour": 0,
+			"requirements": {
+				"Woodcutting": 90
+			},
+			"damage": 551.3,
+			"speed": 3,
+			"tier": 80,
+			"lp": 0,
+			"attack_range": 1,
+			"class": "melee",
+			"accuracy": 1924
 		},
 		"Elder rune longsword + 1": {
 			"ranged": 0,
@@ -286215,7 +287153,7 @@
 				"Defence": 90
 			},
 			"class": "melee",
-			"lp": 480,
+			"lp": 1350,
 			"tier": 81,
 			"speed": 0,
 			"damage": 0,
@@ -286234,7 +287172,7 @@
 				"Defence": 90
 			},
 			"class": "melee",
-			"lp": 520,
+			"lp": 1350,
 			"tier": 82,
 			"speed": 0,
 			"damage": 0,
@@ -286253,7 +287191,7 @@
 				"Defence": 90
 			},
 			"class": "melee",
-			"lp": 560,
+			"lp": 1350,
 			"tier": 83,
 			"speed": 0,
 			"damage": 0,
@@ -286272,7 +287210,7 @@
 				"Defence": 90
 			},
 			"class": "melee",
-			"lp": 600,
+			"lp": 1350,
 			"tier": 84,
 			"speed": 0,
 			"damage": 0,
@@ -286291,7 +287229,7 @@
 				"Defence": 90
 			},
 			"class": "melee",
-			"lp": 640,
+			"lp": 1350,
 			"tier": 85,
 			"speed": 0,
 			"damage": 0,
@@ -286310,7 +287248,7 @@
 				"Defence": 90
 			},
 			"class": "melee",
-			"lp": 440,
+			"lp": 1350,
 			"tier": 80,
 			"speed": 0,
 			"damage": 0,
@@ -286329,7 +287267,7 @@
 				"Defence": 90
 			},
 			"class": "melee",
-			"lp": 360,
+			"lp": 1350,
 			"tier": 81,
 			"speed": 0,
 			"damage": 0,
@@ -286348,7 +287286,7 @@
 				"Defence": 90
 			},
 			"class": "melee",
-			"lp": 390,
+			"lp": 1350,
 			"tier": 82,
 			"speed": 0,
 			"damage": 0,
@@ -286367,7 +287305,7 @@
 				"Defence": 90
 			},
 			"class": "melee",
-			"lp": 420,
+			"lp": 1350,
 			"tier": 83,
 			"speed": 0,
 			"damage": 0,
@@ -286386,7 +287324,7 @@
 				"Defence": 90
 			},
 			"class": "melee",
-			"lp": 450,
+			"lp": 1350,
 			"tier": 84,
 			"speed": 0,
 			"damage": 0,
@@ -286405,7 +287343,7 @@
 				"Defence": 90
 			},
 			"class": "melee",
-			"lp": 480,
+			"lp": 1350,
 			"tier": 85,
 			"speed": 0,
 			"damage": 0,
@@ -286424,7 +287362,7 @@
 				"Defence": 90
 			},
 			"class": "melee",
-			"lp": 330,
+			"lp": 1350,
 			"tier": 80,
 			"speed": 0,
 			"damage": 0,
@@ -287732,6 +288670,46 @@
 			"prayer": 7,
 			"accuracy": 0
 		},
+		"Eternal magic shortbow": {
+			"ranged": 0,
+			"slot": "2h weapon",
+			"prayer": 0,
+			"style": "arrows",
+			"ability_damage": 1425.6,
+			"magic": 0,
+			"strength": 0,
+			"armour": 0,
+			"requirements": {
+				"Ranged": 99
+			},
+			"damage": 745.9,
+			"speed": 3,
+			"tier": 90,
+			"lp": 0,
+			"attack_range": 7,
+			"class": "ranged",
+			"accuracy": 2178
+		},
+		"Eternal magic shortbow Mk. 5": {
+			"ranged": 0,
+			"slot": "2h weapon",
+			"prayer": 0,
+			"style": "arrows",
+			"ability_damage": 1425.6,
+			"magic": 0,
+			"strength": 0,
+			"armour": 0,
+			"requirements": {
+				"Ranged": 99
+			},
+			"damage": 789.8,
+			"speed": 3,
+			"tier": 100,
+			"lp": 0,
+			"attack_range": 8,
+			"class": "ranged",
+			"accuracy": 2458
+		},
 		"Eva's longsword": {
 			"ranged": 0,
 			"requirements": {},
@@ -288910,7 +289888,7 @@
 				"Ranged": 25
 			},
 			"class": "ranged",
-			"lp": 0,
+			"lp": 375,
 			"tier": 25,
 			"speed": 0,
 			"damage": 0,
@@ -288929,7 +289907,7 @@
 				"Ranged": 25
 			},
 			"class": "ranged",
-			"lp": 0,
+			"lp": 125,
 			"tier": 25,
 			"speed": 0,
 			"damage": 0,
@@ -288948,7 +289926,7 @@
 				"Ranged": 25
 			},
 			"class": "ranged",
-			"lp": 0,
+			"lp": 375,
 			"tier": 25,
 			"speed": 0,
 			"damage": 0,
@@ -289039,7 +290017,7 @@
 				"Defence": 25
 			},
 			"class": "magic",
-			"lp": 0,
+			"lp": 375,
 			"tier": 25,
 			"speed": 0,
 			"damage": 0,
@@ -289058,7 +290036,7 @@
 				"Defence": 25
 			},
 			"class": "magic",
-			"lp": 0,
+			"lp": 375,
 			"tier": 25,
 			"speed": 0,
 			"damage": 0,
@@ -289077,7 +290055,7 @@
 				"Defence": 25
 			},
 			"class": "magic",
-			"lp": 0,
+			"lp": 250,
 			"tier": 25,
 			"speed": 0,
 			"damage": 0,
@@ -289114,7 +290092,7 @@
 				"Defence": 75
 			},
 			"class": "magic",
-			"lp": 0,
+			"lp": 375,
 			"tier": 75,
 			"speed": 0,
 			"damage": 0,
@@ -289132,7 +290110,7 @@
 				"Defence": 75
 			},
 			"class": "magic",
-			"lp": 0,
+			"lp": 375,
 			"tier": 75,
 			"speed": 0,
 			"damage": 0,
@@ -289150,7 +290128,7 @@
 				"Defence": 75
 			},
 			"class": "magic",
-			"lp": 0,
+			"lp": 1125,
 			"tier": 75,
 			"speed": 0,
 			"damage": 0,
@@ -289164,7 +290142,7 @@
 			"accuracy": 0
 		},
 		"Ganodermic poncho": {
-			"ranged": 0,
+			"ranged": 1125,
 			"requirements": {
 				"Defence": 75
 			},
@@ -289188,7 +290166,7 @@
 				"Defence": 75
 			},
 			"class": "magic",
-			"lp": 0,
+			"lp": 750,
 			"tier": 75,
 			"speed": 0,
 			"damage": 0,
@@ -289905,7 +290883,7 @@
 				"Strength": 55
 			},
 			"class": "melee",
-			"lp": 0,
+			"lp": 825,
 			"tier": 55,
 			"speed": 0,
 			"damage": 0,
@@ -289924,7 +290902,7 @@
 				"Strength": 55
 			},
 			"class": "melee",
-			"lp": 0,
+			"lp": 550,
 			"tier": 55,
 			"speed": 0,
 			"damage": 0,
@@ -289943,7 +290921,7 @@
 				"Strength": 55
 			},
 			"class": "melee",
-			"lp": 0,
+			"lp": 825,
 			"tier": 55,
 			"speed": 0,
 			"damage": 0,
@@ -290227,7 +291205,7 @@
 				"Defence": 40
 			},
 			"class": "ranged",
-			"lp": 0,
+			"lp": 600,
 			"tier": 40,
 			"speed": 0,
 			"damage": 0,
@@ -290245,7 +291223,7 @@
 				"Defence": 40
 			},
 			"class": "ranged",
-			"lp": 0,
+			"lp": 600,
 			"tier": 40,
 			"speed": 0,
 			"damage": 0,
@@ -290263,7 +291241,7 @@
 				"Defence": 40
 			},
 			"class": "ranged",
-			"lp": 0,
+			"lp": 600,
 			"tier": 40,
 			"speed": 0,
 			"damage": 0,
@@ -290281,7 +291259,7 @@
 				"Defence": 40
 			},
 			"class": "ranged",
-			"lp": 0,
+			"lp": 200,
 			"tier": 40,
 			"speed": 0,
 			"damage": 0,
@@ -290299,7 +291277,7 @@
 				"Defence": 40
 			},
 			"class": "ranged",
-			"lp": 0,
+			"lp": 600,
 			"tier": 40,
 			"speed": 0,
 			"damage": 0,
@@ -290317,7 +291295,7 @@
 				"Defence": 40
 			},
 			"class": "ranged",
-			"lp": 0,
+			"lp": 600,
 			"tier": 40,
 			"speed": 0,
 			"damage": 0,
@@ -290335,7 +291313,7 @@
 				"Defence": 40
 			},
 			"class": "ranged",
-			"lp": 0,
+			"lp": 600,
 			"tier": 40,
 			"speed": 0,
 			"damage": 0,
@@ -290353,7 +291331,7 @@
 				"Defence": 40
 			},
 			"class": "ranged",
-			"lp": 0,
+			"lp": 400,
 			"tier": 40,
 			"speed": 0,
 			"damage": 0,
@@ -290389,7 +291367,7 @@
 				"Defence": 40
 			},
 			"class": "ranged",
-			"lp": 0,
+			"lp": 200,
 			"tier": 40,
 			"speed": 0,
 			"damage": 0,
@@ -290445,7 +291423,7 @@
 				"Defence": 60
 			},
 			"class": "magic",
-			"lp": 0,
+			"lp": 300,
 			"tier": 60,
 			"speed": 0,
 			"damage": 0,
@@ -290463,7 +291441,7 @@
 				"Defence": 60
 			},
 			"class": "magic",
-			"lp": 0,
+			"lp": 900,
 			"tier": 60,
 			"speed": 0,
 			"damage": 0,
@@ -290502,7 +291480,7 @@
 				"Defence": 60
 			},
 			"class": "magic",
-			"lp": 0,
+			"lp": 900,
 			"tier": 60,
 			"speed": 0,
 			"damage": 0,
@@ -290539,7 +291517,7 @@
 				"Defence": 60
 			},
 			"class": "magic",
-			"lp": 0,
+			"lp": 600,
 			"tier": 60,
 			"speed": 0,
 			"damage": 0,
@@ -290692,7 +291670,7 @@
 				"Defence": 70
 			},
 			"class": "melee",
-			"lp": 0,
+			"lp": 1050,
 			"tier": 70,
 			"speed": 0,
 			"damage": 0,
@@ -290711,7 +291689,7 @@
 				"Defence": 70
 			},
 			"class": "melee",
-			"lp": 0,
+			"lp": 700,
 			"tier": 70,
 			"speed": 0,
 			"damage": 0,
@@ -290730,7 +291708,7 @@
 				"Defence": 70
 			},
 			"class": "melee",
-			"lp": 0,
+			"lp": 1050,
 			"tier": 70,
 			"speed": 0,
 			"damage": 0,
@@ -291086,7 +292064,7 @@
 				"Defence": 10
 			},
 			"class": "ranged",
-			"lp": 0,
+			"lp": 150,
 			"tier": 10,
 			"speed": 0,
 			"damage": 0,
@@ -291104,7 +292082,7 @@
 				"Defence": 10
 			},
 			"class": "ranged",
-			"lp": 0,
+			"lp": 50,
 			"tier": 5,
 			"speed": 0,
 			"damage": 0,
@@ -291122,7 +292100,7 @@
 				"Defence": 10
 			},
 			"class": "ranged",
-			"lp": 0,
+			"lp": 150,
 			"tier": 10,
 			"speed": 0,
 			"damage": 0,
@@ -291156,7 +292134,7 @@
 				"Defence": 10
 			},
 			"class": "ranged",
-			"lp": 0,
+			"lp": 50,
 			"tier": 10,
 			"speed": 0,
 			"damage": 0,
@@ -291369,6 +292347,46 @@
 			"class": "melee",
 			"accuracy": 316,
 			"auto_damage": 245
+		},
+		"Hatchet of Bloom and Blight": {
+			"ranged": 0,
+			"slot": "main hand weapon",
+			"prayer": 0,
+			"style": "slash",
+			"ability_damage": 480,
+			"magic": 0,
+			"strength": 0,
+			"armour": 0,
+			"requirements": {
+				"Woodcutting": 100
+			},
+			"damage": 612.5,
+			"speed": 3,
+			"tier": 99,
+			"lp": 0,
+			"attack_range": 1,
+			"class": "melee",
+			"accuracy": 2458
+		},
+		"Hatchet of Ember and Glade": {
+			"ranged": 0,
+			"slot": "main hand weapon",
+			"prayer": 0,
+			"style": "slash",
+			"ability_damage": 432,
+			"magic": 0,
+			"strength": 0,
+			"armour": 0,
+			"requirements": {
+				"Woodcutting": 90
+			},
+			"damage": 551.3,
+			"speed": 3,
+			"tier": 90,
+			"lp": 0,
+			"attack_range": 1,
+			"class": "melee",
+			"accuracy": 2178
 		},
 		"Hazelmere's signet ring (i)": {
 			"ranged": 23.7,
@@ -292621,7 +293639,7 @@
 				"Defence": 10
 			},
 			"class": "magic",
-			"lp": 0,
+			"lp": 50,
 			"tier": 10,
 			"speed": 0,
 			"damage": 0,
@@ -292639,7 +293657,7 @@
 				"Defence": 10
 			},
 			"class": "magic",
-			"lp": 0,
+			"lp": 50,
 			"tier": 10,
 			"speed": 0,
 			"damage": 0,
@@ -292657,7 +293675,7 @@
 				"Defence": 10
 			},
 			"class": "magic",
-			"lp": 0,
+			"lp": 100,
 			"tier": 10,
 			"speed": 0,
 			"damage": 0,
@@ -292675,7 +293693,7 @@
 				"Defence": 10
 			},
 			"class": "magic",
-			"lp": 0,
+			"lp": 150,
 			"tier": 10,
 			"speed": 0,
 			"damage": 0,
@@ -292693,7 +293711,7 @@
 				"Defence": 10
 			},
 			"class": "magic",
-			"lp": 0,
+			"lp": 150,
 			"tier": 10,
 			"speed": 0,
 			"damage": 0,
@@ -292750,7 +293768,7 @@
 				"Magic": 50
 			},
 			"class": "magic",
-			"lp": 0,
+			"lp": 275,
 			"tier": 55,
 			"speed": 0,
 			"damage": 0,
@@ -292769,7 +293787,7 @@
 				"Magic": 50
 			},
 			"class": "magic",
-			"lp": 0,
+			"lp": 825,
 			"tier": 55,
 			"speed": 0,
 			"damage": 0,
@@ -292788,7 +293806,7 @@
 				"Magic": 50
 			},
 			"class": "magic",
-			"lp": 0,
+			"lp": 275,
 			"tier": 55,
 			"speed": 0,
 			"damage": 0,
@@ -292807,7 +293825,7 @@
 				"Magic": 50
 			},
 			"class": "magic",
-			"lp": 0,
+			"lp": 550,
 			"tier": 55,
 			"speed": 0,
 			"damage": 0,
@@ -292825,7 +293843,7 @@
 				"Defence": 55
 			},
 			"class": "magic",
-			"lp": 0,
+			"lp": 825,
 			"tier": 55,
 			"speed": 0,
 			"damage": 0,
@@ -292844,7 +293862,7 @@
 				"Prayer": 10
 			},
 			"class": "melee",
-			"lp": 0,
+			"lp": 375,
 			"tier": 25,
 			"speed": 0,
 			"damage": 0,
@@ -292863,7 +293881,7 @@
 				"Prayer": 10
 			},
 			"class": "melee",
-			"lp": 0,
+			"lp": 375,
 			"tier": 25,
 			"speed": 0,
 			"damage": 0,
@@ -292882,7 +293900,7 @@
 				"Prayer": 10
 			},
 			"class": "melee",
-			"lp": 0,
+			"lp": 250,
 			"tier": 25,
 			"speed": 0,
 			"damage": 0,
@@ -292901,7 +293919,7 @@
 				"Prayer": 10
 			},
 			"class": "melee",
-			"lp": 0,
+			"lp": 375,
 			"tier": 25,
 			"speed": 0,
 			"damage": 0,
@@ -293370,7 +294388,7 @@
 				"Defence": 10
 			},
 			"class": "melee",
-			"lp": 0,
+			"lp": 150,
 			"tier": 11,
 			"speed": 0,
 			"damage": 0,
@@ -293388,7 +294406,7 @@
 				"Defence": 10
 			},
 			"class": "melee",
-			"lp": 0,
+			"lp": 150,
 			"tier": 10,
 			"speed": 0,
 			"damage": 0,
@@ -293588,7 +294606,7 @@
 				"Defence": 10
 			},
 			"class": "melee",
-			"lp": 0,
+			"lp": 100,
 			"tier": 11,
 			"speed": 0,
 			"damage": 0,
@@ -293606,7 +294624,7 @@
 				"Defence": 10
 			},
 			"class": "melee",
-			"lp": 0,
+			"lp": 100,
 			"tier": 10,
 			"speed": 0,
 			"damage": 0,
@@ -293624,7 +294642,7 @@
 				"Defence": 10
 			},
 			"class": "melee",
-			"lp": 0,
+			"lp": 50,
 			"tier": 11,
 			"speed": 0,
 			"damage": 0,
@@ -293642,7 +294660,7 @@
 				"Defence": 10
 			},
 			"class": "melee",
-			"lp": 0,
+			"lp": 50,
 			"tier": 10,
 			"speed": 0,
 			"damage": 0,
@@ -293899,7 +294917,7 @@
 				"Defence": 10
 			},
 			"class": "melee",
-			"lp": 0,
+			"lp": 100,
 			"tier": 11,
 			"speed": 0,
 			"damage": 0,
@@ -293917,7 +294935,7 @@
 				"Defence": 10
 			},
 			"class": "melee",
-			"lp": 0,
+			"lp": 100,
 			"tier": 10,
 			"speed": 0,
 			"damage": 0,
@@ -294294,7 +295312,7 @@
 				"Defence": 10
 			},
 			"class": "melee",
-			"lp": 0,
+			"lp": 150,
 			"tier": 11,
 			"speed": 0,
 			"damage": 0,
@@ -294312,7 +295330,7 @@
 				"Defence": 10
 			},
 			"class": "melee",
-			"lp": 0,
+			"lp": 150,
 			"tier": 10,
 			"speed": 0,
 			"damage": 0,
@@ -294330,7 +295348,7 @@
 				"Defence": 10
 			},
 			"class": "melee",
-			"lp": 0,
+			"lp": 150,
 			"tier": 11,
 			"speed": 0,
 			"damage": 0,
@@ -294348,7 +295366,7 @@
 				"Defence": 10
 			},
 			"class": "melee",
-			"lp": 0,
+			"lp": 150,
 			"tier": 10,
 			"speed": 0,
 			"damage": 0,
@@ -294366,7 +295384,7 @@
 				"Defence": 10
 			},
 			"class": "melee",
-			"lp": 0,
+			"lp": 150,
 			"tier": 11,
 			"speed": 0,
 			"damage": 0,
@@ -294384,7 +295402,7 @@
 				"Defence": 10
 			},
 			"class": "melee",
-			"lp": 0,
+			"lp": 150,
 			"tier": 10,
 			"speed": 0,
 			"damage": 0,
@@ -294981,7 +295999,7 @@
 				"Defence": 70
 			},
 			"class": "ranged",
-			"lp": 0,
+			"lp": 700,
 			"tier": 70,
 			"speed": 0,
 			"damage": 0,
@@ -295021,7 +296039,7 @@
 				"Defence": 70
 			},
 			"class": "ranged",
-			"lp": 0,
+			"lp": 1050,
 			"tier": 70,
 			"speed": 0,
 			"damage": 0,
@@ -295040,7 +296058,7 @@
 				"Defence": 70
 			},
 			"class": "ranged",
-			"lp": 0,
+			"lp": 1050,
 			"tier": 70,
 			"speed": 0,
 			"damage": 0,
@@ -295619,7 +296637,7 @@
 				"Defence": 50
 			},
 			"class": "magic",
-			"lp": 0,
+			"lp": 250,
 			"tier": 50,
 			"speed": 0,
 			"damage": 0,
@@ -295637,7 +296655,7 @@
 				"Defence": 50
 			},
 			"class": "magic",
-			"lp": 0,
+			"lp": 250,
 			"tier": 50,
 			"speed": 0,
 			"damage": 0,
@@ -295655,7 +296673,7 @@
 				"Defence": 50
 			},
 			"class": "magic",
-			"lp": 0,
+			"lp": 500,
 			"tier": 50,
 			"speed": 0,
 			"damage": 0,
@@ -295673,7 +296691,7 @@
 				"Defence": 50
 			},
 			"class": "magic",
-			"lp": 0,
+			"lp": 750,
 			"tier": 50,
 			"speed": 0,
 			"damage": 0,
@@ -295691,7 +296709,7 @@
 				"Defence": 50
 			},
 			"class": "magic",
-			"lp": 0,
+			"lp": 750,
 			"tier": 50,
 			"speed": 0,
 			"damage": 0,
@@ -295709,7 +296727,7 @@
 				"Defence": 80
 			},
 			"class": "melee",
-			"lp": 0,
+			"lp": 1200,
 			"tier": 80,
 			"speed": 0,
 			"damage": 0,
@@ -295728,7 +296746,7 @@
 				"Defence": 80
 			},
 			"class": "melee",
-			"lp": 0,
+			"lp": 1200,
 			"tier": 80,
 			"speed": 0,
 			"damage": 0,
@@ -295768,7 +296786,7 @@
 				"Defence": 80
 			},
 			"class": "melee",
-			"lp": 0,
+			"lp": 800,
 			"tier": 80,
 			"speed": 0,
 			"damage": 0,
@@ -297076,6 +298094,26 @@
 			"class": "magic",
 			"accuracy": 1132
 		},
+		"Masterwork bow": {
+			"ranged": 0,
+			"slot": "2h weapon",
+			"prayer": 0,
+			"style": "arrows",
+			"ability_damage": 1440,
+			"magic": 0,
+			"strength": 0,
+			"armour": 0,
+			"requirements": {
+				"Ranged": 99
+			},
+			"damage": 2235,
+			"speed": 4,
+			"tier": 100,
+			"lp": 0,
+			"attack_range": 8,
+			"class": "ranged",
+			"accuracy": 3100
+		},
 		"Masterwork Spear of Annihilation": {
 			"ranged": 0,
 			"strength": 0,
@@ -297890,7 +298928,7 @@
 				"Defence": 30
 			},
 			"class": "melee",
-			"lp": 0,
+			"lp":150,
 			"tier": 31,
 			"speed": 0,
 			"damage": 0,
@@ -297908,7 +298946,7 @@
 				"Defence": 30
 			},
 			"class": "melee",
-			"lp": 0,
+			"lp":150,
 			"tier": 32,
 			"speed": 0,
 			"damage": 0,
@@ -297926,7 +298964,7 @@
 				"Defence": 30
 			},
 			"class": "melee",
-			"lp": 0,
+			"lp":150,
 			"tier": 30,
 			"speed": 0,
 			"damage": 0,
@@ -298164,7 +299202,7 @@
 				"Defence": 30
 			},
 			"class": "melee",
-			"lp": 0,
+			"lp":450,
 			"tier": 31,
 			"speed": 0,
 			"damage": 0,
@@ -298182,7 +299220,7 @@
 				"Defence": 30
 			},
 			"class": "melee",
-			"lp": 0,
+			"lp":450,
 			"tier": 32,
 			"speed": 0,
 			"damage": 0,
@@ -298200,7 +299238,7 @@
 				"Defence": 30
 			},
 			"class": "melee",
-			"lp": 0,
+			"lp":450,
 			"tier": 30,
 			"speed": 0,
 			"damage": 0,
@@ -298440,7 +299478,7 @@
 				"Defence": 30
 			},
 			"class": "melee",
-			"lp": 0,
+			"lp": 300,
 			"tier": 31,
 			"speed": 0,
 			"damage": 0,
@@ -298458,7 +299496,7 @@
 				"Defence": 30
 			},
 			"class": "melee",
-			"lp": 0,
+			"lp": 300,
 			"tier": 32,
 			"speed": 0,
 			"damage": 0,
@@ -298476,7 +299514,7 @@
 				"Defence": 30
 			},
 			"class": "melee",
-			"lp": 0,
+			"lp": 300,
 			"tier": 30,
 			"speed": 0,
 			"damage": 0,
@@ -298494,7 +299532,7 @@
 				"Defence": 30
 			},
 			"class": "melee",
-			"lp": 0,
+			"lp": 150,
 			"tier": 31,
 			"speed": 0,
 			"damage": 0,
@@ -298512,7 +299550,7 @@
 				"Defence": 30
 			},
 			"class": "melee",
-			"lp": 0,
+			"lp": 150,
 			"tier": 32,
 			"speed": 0,
 			"damage": 0,
@@ -298530,7 +299568,7 @@
 				"Defence": 30
 			},
 			"class": "melee",
-			"lp": 0,
+			"lp": 150,
 			"tier": 30,
 			"speed": 0,
 			"damage": 0,
@@ -298845,7 +299883,7 @@
 				"Defence": 30
 			},
 			"class": "melee",
-			"lp": 0,
+			"lp": 300,
 			"tier": 31,
 			"speed": 0,
 			"damage": 0,
@@ -298863,7 +299901,7 @@
 				"Defence": 30
 			},
 			"class": "melee",
-			"lp": 0,
+			"lp": 300,
 			"tier": 32,
 			"speed": 0,
 			"damage": 0,
@@ -298881,7 +299919,7 @@
 				"Defence": 30
 			},
 			"class": "melee",
-			"lp": 0,
+			"lp": 300,
 			"tier": 30,
 			"speed": 0,
 			"damage": 0,
@@ -299439,7 +300477,7 @@
 				"Defence": 30
 			},
 			"class": "melee",
-			"lp": 0,
+			"lp": 450,
 			"tier": 31,
 			"speed": 0,
 			"damage": 0,
@@ -299457,7 +300495,7 @@
 				"Defence": 30
 			},
 			"class": "melee",
-			"lp": 0,
+			"lp": 450,
 			"tier": 32,
 			"speed": 0,
 			"damage": 0,
@@ -299475,7 +300513,7 @@
 				"Defence": 30
 			},
 			"class": "melee",
-			"lp": 0,
+			"lp": 450,
 			"tier": 30,
 			"speed": 0,
 			"damage": 0,
@@ -299493,7 +300531,7 @@
 				"Defence": 30
 			},
 			"class": "melee",
-			"lp": 0,
+			"lp": 450,
 			"tier": 31,
 			"speed": 0,
 			"damage": 0,
@@ -299511,7 +300549,7 @@
 				"Defence": 30
 			},
 			"class": "melee",
-			"lp": 0,
+			"lp": 450,
 			"tier": 32,
 			"speed": 0,
 			"damage": 0,
@@ -299529,7 +300567,7 @@
 				"Defence": 30
 			},
 			"class": "melee",
-			"lp": 0,
+			"lp": 450,
 			"tier": 30,
 			"speed": 0,
 			"damage": 0,
@@ -299547,7 +300585,7 @@
 				"Defence": 30
 			},
 			"class": "melee",
-			"lp": 0,
+			"lp": 450,
 			"tier": 31,
 			"speed": 0,
 			"damage": 0,
@@ -299565,7 +300603,7 @@
 				"Defence": 30
 			},
 			"class": "melee",
-			"lp": 0,
+			"lp": 450,
 			"tier": 32,
 			"speed": 0,
 			"damage": 0,
@@ -299583,7 +300621,7 @@
 				"Defence": 30
 			},
 			"class": "melee",
-			"lp": 0,
+			"lp": 450,
 			"tier": 30,
 			"speed": 0,
 			"damage": 0,
@@ -300151,7 +301189,7 @@
 				"Defence": 5
 			},
 			"class": "magic",
-			"lp": 0,
+			"lp": 75,
 			"tier": 5,
 			"speed": 0,
 			"damage": 0,
@@ -300169,7 +301207,7 @@
 				"Defence": 5
 			},
 			"class": "magic",
-			"lp": 0,
+			"lp": 75,
 			"tier": 5,
 			"speed": 0,
 			"damage": 0,
@@ -300187,7 +301225,7 @@
 				"Defence": 5
 			},
 			"class": "magic",
-			"lp": 0,
+			"lp": 50,
 			"tier": 5,
 			"speed": 0,
 			"damage": 0,
@@ -300225,7 +301263,7 @@
 				"Defence": 50
 			},
 			"class": "magic",
-			"lp": 0,
+			"lp": 250,
 			"tier": 50,
 			"speed": 0,
 			"damage": 0,
@@ -300283,7 +301321,7 @@
 				"Defence": 50
 			},
 			"class": "magic",
-			"lp": 0,
+			"lp": 250,
 			"tier": 50,
 			"speed": 0,
 			"damage": 0,
@@ -300301,7 +301339,7 @@
 				"Defence": 50
 			},
 			"class": "magic",
-			"lp": 0,
+			"lp": 500,
 			"tier": 50,
 			"speed": 0,
 			"damage": 0,
@@ -300379,7 +301417,7 @@
 				"Defence": 50
 			},
 			"class": "magic",
-			"lp": 0,
+			"lp": 750,
 			"tier": 50,
 			"speed": 0,
 			"damage": 0,
@@ -300397,7 +301435,7 @@
 				"Defence": 50
 			},
 			"class": "magic",
-			"lp": 0,
+			"lp": 750,
 			"tier": 50,
 			"speed": 0,
 			"damage": 0,
@@ -300724,7 +301762,7 @@
 				"Defence": 70
 			},
 			"class": "melee",
-			"lp": 0,
+			"lp": 350,
 			"tier": 71,
 			"speed": 0,
 			"damage": 0,
@@ -300743,7 +301781,7 @@
 				"Defence": 70
 			},
 			"class": "melee",
-			"lp": 0,
+			"lp": 350,
 			"tier": 72,
 			"speed": 0,
 			"damage": 0,
@@ -300762,7 +301800,7 @@
 				"Defence": 70
 			},
 			"class": "melee",
-			"lp": 0,
+			"lp": 350,
 			"tier": 73,
 			"speed": 0,
 			"damage": 0,
@@ -300781,7 +301819,7 @@
 				"Defence": 70
 			},
 			"class": "melee",
-			"lp": 0,
+			"lp": 350,
 			"tier": 74,
 			"speed": 0,
 			"damage": 0,
@@ -300800,7 +301838,7 @@
 				"Defence": 70
 			},
 			"class": "melee",
-			"lp": 0,
+			"lp": 350,
 			"tier": 70,
 			"speed": 0,
 			"damage": 0,
@@ -300924,7 +301962,7 @@
 				"Defence": 70
 			},
 			"class": "melee",
-			"lp": 40,
+			"lp": 700,
 			"tier": 71,
 			"speed": 0,
 			"damage": 0,
@@ -300943,7 +301981,7 @@
 				"Defence": 70
 			},
 			"class": "melee",
-			"lp": 60,
+			"lp": 700,
 			"tier": 72,
 			"speed": 0,
 			"damage": 0,
@@ -300962,7 +302000,7 @@
 				"Defence": 70
 			},
 			"class": "melee",
-			"lp": 80,
+			"lp": 700,
 			"tier": 73,
 			"speed": 0,
 			"damage": 0,
@@ -300981,7 +302019,7 @@
 				"Defence": 70
 			},
 			"class": "melee",
-			"lp": 100,
+			"lp": 700,
 			"tier": 74,
 			"speed": 0,
 			"damage": 0,
@@ -301000,7 +302038,7 @@
 				"Defence": 70
 			},
 			"class": "melee",
-			"lp": 20,
+			"lp": 700,
 			"tier": 70,
 			"speed": 0,
 			"damage": 0,
@@ -301019,7 +302057,7 @@
 				"Defence": 70
 			},
 			"class": "melee",
-			"lp": 0,
+			"lp": 350,
 			"tier": 71,
 			"speed": 0,
 			"damage": 0,
@@ -301038,7 +302076,7 @@
 				"Defence": 70
 			},
 			"class": "melee",
-			"lp": 0,
+			"lp": 350,
 			"tier": 72,
 			"speed": 0,
 			"damage": 0,
@@ -301057,7 +302095,7 @@
 				"Defence": 70
 			},
 			"class": "melee",
-			"lp": 0,
+			"lp": 350,
 			"tier": 73,
 			"speed": 0,
 			"damage": 0,
@@ -301076,7 +302114,7 @@
 				"Defence": 70
 			},
 			"class": "melee",
-			"lp": 0,
+			"lp": 350,
 			"tier": 74,
 			"speed": 0,
 			"damage": 0,
@@ -301095,7 +302133,7 @@
 				"Defence": 70
 			},
 			"class": "melee",
-			"lp": 0,
+			"lp": 350,
 			"tier": 70,
 			"speed": 0,
 			"damage": 0,
@@ -301107,6 +302145,26 @@
 			"charges": 10000,
 			"prayer": 0,
 			"accuracy": 0
+		},
+		"Necronium hatchet": {
+			"ranged": 0,
+			"slot": "main hand weapon",
+			"prayer": 0,
+			"style": "slash",
+			"ability_damage": 336,
+			"magic": 0,
+			"strength": 0,
+			"armour": 0,
+			"requirements": {
+				"Woodcutting": 70
+			},
+			"damage": 428.8,
+			"speed": 3,
+			"tier": 70,
+			"lp": 0,
+			"attack_range": 1,
+			"class": "melee",
+			"accuracy": 1486
 		},
 		"Necronium kiteshield + 1": {
 			"ranged": 0,
@@ -301434,7 +302492,7 @@
 				"Defence": 70
 			},
 			"class": "melee",
-			"lp": 80,
+			"lp": 1050,
 			"tier": 71,
 			"speed": 0,
 			"damage": 0,
@@ -301453,7 +302511,7 @@
 				"Defence": 70
 			},
 			"class": "melee",
-			"lp": 120,
+			"lp": 1050,
 			"tier": 72,
 			"speed": 0,
 			"damage": 0,
@@ -301472,7 +302530,7 @@
 				"Defence": 70
 			},
 			"class": "melee",
-			"lp": 160,
+			"lp": 1050,
 			"tier": 73,
 			"speed": 0,
 			"damage": 0,
@@ -301491,7 +302549,7 @@
 				"Defence": 70
 			},
 			"class": "melee",
-			"lp": 200,
+			"lp": 1050,
 			"tier": 74,
 			"speed": 0,
 			"damage": 0,
@@ -301510,7 +302568,7 @@
 				"Defence": 70
 			},
 			"class": "melee",
-			"lp": 40,
+			"lp": 1050,
 			"tier": 70,
 			"speed": 0,
 			"damage": 0,
@@ -301529,7 +302587,7 @@
 				"Defence": 70
 			},
 			"class": "melee",
-			"lp": 60,
+			"lp": 1050,
 			"tier": 71,
 			"speed": 0,
 			"damage": 0,
@@ -301548,7 +302606,7 @@
 				"Defence": 70
 			},
 			"class": "melee",
-			"lp": 90,
+			"lp": 1050,
 			"tier": 72,
 			"speed": 0,
 			"damage": 0,
@@ -301567,7 +302625,7 @@
 				"Defence": 70
 			},
 			"class": "melee",
-			"lp": 120,
+			"lp": 1050,
 			"tier": 73,
 			"speed": 0,
 			"damage": 0,
@@ -301586,7 +302644,7 @@
 				"Defence": 70
 			},
 			"class": "melee",
-			"lp": 150,
+			"lp": 1050,
 			"tier": 74,
 			"speed": 0,
 			"damage": 0,
@@ -301605,7 +302663,7 @@
 				"Defence": 70
 			},
 			"class": "melee",
-			"lp": 30,
+			"lp": 1050,
 			"tier": 70,
 			"speed": 0,
 			"damage": 0,
@@ -303670,6 +304728,46 @@
 			"accuracy": 454,
 			"auto_damage": 223.5
 		},
+		"Off-hand primal crossbow": {
+			"ranged": 0,
+			"slot": "main hand weapon",
+			"prayer": 0,
+			"style": "bolts",
+			"ability_damage": 475.2,
+			"magic": 0,
+			"strength": 0,
+			"armour": 0,
+			"requirements": {
+				"Ranged": 99
+			},
+			"damage": 0,
+			"speed": 2,
+			"tier": 90,
+			"lp": 0,
+			"attack_range": 7,
+			"class": "ranged",
+			"accuracy": 2178
+		},
+		"Off-hand primal crossbow Mk. 5": {
+			"ranged": 0,
+			"slot": "main hand weapon",
+			"prayer": 0,
+			"style": "bolts",
+			"ability_damage": 475.2,
+			"magic": 0,
+			"strength": 0,
+			"armour": 0,
+			"requirements": {
+				"Ranged": 99
+			},
+			"damage": 0,
+			"speed": 2,
+			"tier": 95,
+			"lp": 0,
+			"attack_range": 7,
+			"class": "ranged",
+			"accuracy": 2458
+		},
 		"Off-hand ripper claw": {
 			"ranged": 0,
 			"strength": 0,
@@ -304572,7 +305670,7 @@
 				"Defence": 60
 			},
 			"class": "melee",
-			"lp": 0,
+			"lp": 300,
 			"tier": 61,
 			"speed": 0,
 			"damage": 0,
@@ -304590,7 +305688,7 @@
 				"Defence": 60
 			},
 			"class": "melee",
-			"lp": 0,
+			"lp": 300,
 			"tier": 62,
 			"speed": 0,
 			"damage": 0,
@@ -304608,7 +305706,7 @@
 				"Defence": 60
 			},
 			"class": "melee",
-			"lp": 0,
+			"lp": 300,
 			"tier": 63,
 			"speed": 0,
 			"damage": 0,
@@ -304626,7 +305724,7 @@
 				"Defence": 60
 			},
 			"class": "melee",
-			"lp": 0,
+			"lp": 300,
 			"tier": 60,
 			"speed": 0,
 			"damage": 0,
@@ -304644,7 +305742,7 @@
 				"Defence": 60
 			},
 			"class": "melee",
-			"lp": 0,
+			"lp": 600,
 			"tier": 61,
 			"speed": 0,
 			"damage": 0,
@@ -304662,7 +305760,7 @@
 				"Defence": 60
 			},
 			"class": "melee",
-			"lp": 0,
+			"lp": 600,
 			"tier": 62,
 			"speed": 0,
 			"damage": 0,
@@ -304680,7 +305778,7 @@
 				"Defence": 60
 			},
 			"class": "melee",
-			"lp": 0,
+			"lp": 600,
 			"tier": 63,
 			"speed": 0,
 			"damage": 0,
@@ -304698,7 +305796,7 @@
 				"Defence": 60
 			},
 			"class": "melee",
-			"lp": 0,
+			"lp": 600,
 			"tier": 60,
 			"speed": 0,
 			"damage": 0,
@@ -304716,7 +305814,7 @@
 				"Defence": 60
 			},
 			"class": "melee",
-			"lp": 0,
+			"lp": 300,
 			"tier": 61,
 			"speed": 0,
 			"damage": 0,
@@ -304734,7 +305832,7 @@
 				"Defence": 60
 			},
 			"class": "melee",
-			"lp": 0,
+			"lp": 300,
 			"tier": 62,
 			"speed": 0,
 			"damage": 0,
@@ -304752,7 +305850,7 @@
 				"Defence": 60
 			},
 			"class": "melee",
-			"lp": 0,
+			"lp": 300,
 			"tier": 63,
 			"speed": 0,
 			"damage": 0,
@@ -304770,7 +305868,7 @@
 				"Defence": 60
 			},
 			"class": "melee",
-			"lp": 0,
+			"lp": 300,
 			"tier": 60,
 			"speed": 0,
 			"damage": 0,
@@ -305040,7 +306138,7 @@
 				"Defence": 60
 			},
 			"class": "melee",
-			"lp": 0,
+			"lp": 900,
 			"tier": 61,
 			"speed": 0,
 			"damage": 0,
@@ -305058,7 +306156,7 @@
 				"Defence": 60
 			},
 			"class": "melee",
-			"lp": 0,
+			"lp": 900,
 			"tier": 62,
 			"speed": 0,
 			"damage": 0,
@@ -305076,7 +306174,7 @@
 				"Defence": 60
 			},
 			"class": "melee",
-			"lp": 0,
+			"lp": 900,
 			"tier": 63,
 			"speed": 0,
 			"damage": 0,
@@ -305094,7 +306192,7 @@
 				"Defence": 60
 			},
 			"class": "melee",
-			"lp": 0,
+			"lp": 900,
 			"tier": 60,
 			"speed": 0,
 			"damage": 0,
@@ -305112,7 +306210,7 @@
 				"Defence": 60
 			},
 			"class": "melee",
-			"lp": 0,
+			"lp": 900,
 			"tier": 61,
 			"speed": 0,
 			"damage": 0,
@@ -305130,7 +306228,7 @@
 				"Defence": 60
 			},
 			"class": "melee",
-			"lp": 0,
+			"lp": 900,
 			"tier": 62,
 			"speed": 0,
 			"damage": 0,
@@ -305148,7 +306246,7 @@
 				"Defence": 60
 			},
 			"class": "melee",
-			"lp": 0,
+			"lp": 900,
 			"tier": 63,
 			"speed": 0,
 			"damage": 0,
@@ -305166,7 +306264,7 @@
 				"Defence": 60
 			},
 			"class": "melee",
-			"lp": 0,
+			"lp": 900,
 			"tier": 60,
 			"speed": 0,
 			"damage": 0,
@@ -305192,7 +306290,7 @@
 			},
 			"speed": 5,
 			"tier": 61,
-			"lp": 0,
+			"lp": 900,
 			"attack_range": 1,
 			"class": "melee",
 			"accuracy": 1164,
@@ -305212,7 +306310,7 @@
 			},
 			"speed": 5,
 			"tier": 62,
-			"lp": 0,
+			"lp": 900,
 			"attack_range": 1,
 			"class": "melee",
 			"accuracy": 1197,
@@ -305232,7 +306330,7 @@
 			},
 			"speed": 5,
 			"tier": 63,
-			"lp": 0,
+			"lp": 900,
 			"attack_range": 1,
 			"class": "melee",
 			"accuracy": 1230,
@@ -306135,7 +307233,7 @@
 				"Defence": 99
 			},
 			"class": "melee",
-			"lp": 0,
+			"lp": 495,
 			"tier": 85,
 			"speed": 0,
 			"damage": 0,
@@ -306154,7 +307252,7 @@
 				"Defence": 99
 			},
 			"class": "melee",
-			"lp": 0,
+			"lp": 495,
 			"tier": 86,
 			"speed": 0,
 			"damage": 0,
@@ -306173,7 +307271,7 @@
 				"Defence": 99
 			},
 			"class": "melee",
-			"lp": 0,
+			"lp": 495,
 			"tier": 87,
 			"speed": 0,
 			"damage": 0,
@@ -306192,7 +307290,7 @@
 				"Defence": 99
 			},
 			"class": "melee",
-			"lp": 0,
+			"lp": 495,
 			"tier": 88,
 			"speed": 0,
 			"damage": 0,
@@ -306211,7 +307309,7 @@
 				"Defence": 99
 			},
 			"class": "melee",
-			"lp": 0,
+			"lp": 495,
 			"tier": 89,
 			"speed": 0,
 			"damage": 0,
@@ -306230,7 +307328,7 @@
 				"Defence": 99
 			},
 			"class": "melee",
-			"lp": 0,
+			"lp": 495,
 			"tier": 90,
 			"speed": 0,
 			"damage": 0,
@@ -306243,13 +307341,53 @@
 			"prayer": 0,
 			"accuracy": 0
 		},
+		"Primal crossbow": {
+			"ranged": 0,
+			"slot": "main hand weapon",
+			"prayer": 0,
+			"style": "bolts",
+			"ability_damage": 950.4,
+			"magic": 0,
+			"strength": 0,
+			"armour": 0,
+			"requirements": {
+				"Ranged": 99
+			},
+			"damage": 0,
+			"speed": 2,
+			"tier": 90,
+			"lp": 0,
+			"attack_range": 7,
+			"class": "ranged",
+			"accuracy": 2178
+		},
+		"Primal crossbow Mk. 5": {
+			"ranged": 0,
+			"slot": "main hand weapon",
+			"prayer": 0,
+			"style": "bolts",
+			"ability_damage": 950.4,
+			"magic": 0,
+			"strength": 0,
+			"armour": 0,
+			"requirements": {
+				"Ranged": 99
+			},
+			"damage": 0,
+			"speed": 2,
+			"tier": 95,
+			"lp": 0,
+			"attack_range": 7,
+			"class": "ranged",
+			"accuracy": 2458
+		},
 		"Primal full helm": {
 			"ranged": 0,
 			"requirements": {
 				"Defence": 99
 			},
 			"class": "melee",
-			"lp": 320,
+			"lp": 990,
 			"tier": 85,
 			"speed": 0,
 			"damage": 0,
@@ -306268,7 +307406,7 @@
 				"Defence": 99
 			},
 			"class": "melee",
-			"lp": 340,
+			"lp": 990,
 			"tier": 86,
 			"speed": 0,
 			"damage": 0,
@@ -306287,7 +307425,7 @@
 				"Defence": 99
 			},
 			"class": "melee",
-			"lp": 360,
+			"lp": 990,
 			"tier": 87,
 			"speed": 0,
 			"damage": 0,
@@ -306306,7 +307444,7 @@
 				"Defence": 99
 			},
 			"class": "melee",
-			"lp": 380,
+			"lp": 990,
 			"tier": 88,
 			"speed": 0,
 			"damage": 0,
@@ -306325,7 +307463,7 @@
 				"Defence": 99
 			},
 			"class": "melee",
-			"lp": 400,
+			"lp": 990,
 			"tier": 89,
 			"speed": 0,
 			"damage": 0,
@@ -306344,7 +307482,7 @@
 				"Defence": 99
 			},
 			"class": "melee",
-			"lp": 420,
+			"lp": 990,
 			"tier": 90,
 			"speed": 0,
 			"damage": 0,
@@ -306363,7 +307501,7 @@
 				"Defence": 99
 			},
 			"class": "melee",
-			"lp": 0,
+			"lp": 495,
 			"tier": 85,
 			"speed": 0,
 			"damage": 0,
@@ -306382,7 +307520,7 @@
 				"Defence": 99
 			},
 			"class": "melee",
-			"lp": 0,
+			"lp": 495,
 			"tier": 86,
 			"speed": 0,
 			"damage": 0,
@@ -306401,7 +307539,7 @@
 				"Defence": 99
 			},
 			"class": "melee",
-			"lp": 0,
+			"lp": 495,
 			"tier": 87,
 			"speed": 0,
 			"damage": 0,
@@ -306420,7 +307558,7 @@
 				"Defence": 99
 			},
 			"class": "melee",
-			"lp": 0,
+			"lp": 495,
 			"tier": 88,
 			"speed": 0,
 			"damage": 0,
@@ -306439,7 +307577,7 @@
 				"Defence": 99
 			},
 			"class": "melee",
-			"lp": 0,
+			"lp": 495,
 			"tier": 89,
 			"speed": 0,
 			"damage": 0,
@@ -306458,7 +307596,7 @@
 				"Defence": 99
 			},
 			"class": "melee",
-			"lp": 0,
+			"lp": 495,
 			"tier": 90,
 			"speed": 0,
 			"damage": 0,
@@ -306470,6 +307608,26 @@
 			"charges": 10000,
 			"prayer": 0,
 			"accuracy": 0
+		},
+		"Primal hatchet": {
+			"ranged": 0,
+			"slot": "main hand weapon",
+			"prayer": 0,
+			"style": "slash",
+			"ability_damage": 480,
+			"magic": 0,
+			"strength": 0,
+			"armour": 0,
+			"requirements": {
+				"Woodcutting": 100
+			},
+			"damage": 612.5,
+			"speed": 3,
+			"tier": 99,
+			"lp": 0,
+			"attack_range": 1,
+			"class": "melee",
+			"accuracy": 2178
 		},
 		"Primal kiteshield": {
 			"ranged": 0,
@@ -306591,7 +307749,7 @@
 				"Defence": 99
 			},
 			"class": "melee",
-			"lp": 640,
+			"lp": 1485,
 			"tier": 85,
 			"speed": 0,
 			"damage": 0,
@@ -306610,7 +307768,7 @@
 				"Defence": 99
 			},
 			"class": "melee",
-			"lp": 680,
+			"lp": 1485,
 			"tier": 86,
 			"speed": 0,
 			"damage": 0,
@@ -306629,7 +307787,7 @@
 				"Defence": 99
 			},
 			"class": "melee",
-			"lp": 720,
+			"lp": 1485,
 			"tier": 87,
 			"speed": 0,
 			"damage": 0,
@@ -306648,7 +307806,7 @@
 				"Defence": 99
 			},
 			"class": "melee",
-			"lp": 760,
+			"lp": 1485,
 			"tier": 88,
 			"speed": 0,
 			"damage": 0,
@@ -306667,7 +307825,7 @@
 				"Defence": 99
 			},
 			"class": "melee",
-			"lp": 800,
+			"lp": 1485,
 			"tier": 89,
 			"speed": 0,
 			"damage": 0,
@@ -306686,7 +307844,7 @@
 				"Defence": 99
 			},
 			"class": "melee",
-			"lp": 840,
+			"lp": 1485,
 			"tier": 90,
 			"speed": 0,
 			"damage": 0,
@@ -306705,7 +307863,7 @@
 				"Defence": 99
 			},
 			"class": "melee",
-			"lp": 480,
+			"lp": 1485,
 			"tier": 85,
 			"speed": 0,
 			"damage": 0,
@@ -306724,7 +307882,7 @@
 				"Defence": 99
 			},
 			"class": "melee",
-			"lp": 510,
+			"lp": 1485,
 			"tier": 86,
 			"speed": 0,
 			"damage": 0,
@@ -306743,7 +307901,7 @@
 				"Defence": 99
 			},
 			"class": "melee",
-			"lp": 540,
+			"lp": 1485,
 			"tier": 87,
 			"speed": 0,
 			"damage": 0,
@@ -306762,7 +307920,7 @@
 				"Defence": 99
 			},
 			"class": "melee",
-			"lp": 600,
+			"lp": 1485,
 			"tier": 88,
 			"speed": 0,
 			"damage": 0,
@@ -306781,7 +307939,7 @@
 				"Defence": 99
 			},
 			"class": "melee",
-			"lp": 480,
+			"lp": 1485,
 			"tier": 89,
 			"speed": 0,
 			"damage": 0,
@@ -306800,7 +307958,7 @@
 				"Defence": 99
 			},
 			"class": "melee",
-			"lp": 630,
+			"lp": 1485,
 			"tier": 90,
 			"speed": 0,
 			"damage": 0,
@@ -306819,7 +307977,7 @@
 				"Defence": 90
 			},
 			"class": "magic",
-			"lp": 0,
+			"lp": 450,
 			"tier": 90,
 			"speed": 0,
 			"damage": 0,
@@ -306838,7 +307996,7 @@
 				"Defence": 90
 			},
 			"class": "magic",
-			"lp": 0,
+			"lp": 450,
 			"tier": 90,
 			"speed": 0,
 			"damage": 0,
@@ -306857,7 +308015,7 @@
 				"Defence": 90
 			},
 			"class": "magic",
-			"lp": 320,
+			"lp": 900,
 			"tier": 90,
 			"speed": 0,
 			"damage": 0,
@@ -306876,7 +308034,7 @@
 				"Defence": 90
 			},
 			"class": "magic",
-			"lp": 480,
+			"lp": 1350,
 			"tier": 90,
 			"speed": 0,
 			"damage": 0,
@@ -306895,7 +308053,7 @@
 				"Defence": 90
 			},
 			"class": "magic",
-			"lp": 640,
+			"lp": 1350,
 			"tier": 90,
 			"speed": 0,
 			"damage": 0,
@@ -307004,7 +308162,7 @@
 				"Prayer": 20
 			},
 			"class": "melee",
-			"lp": 0,
+			"lp": 450,
 			"tier": 30,
 			"speed": 0,
 			"damage": 0,
@@ -307023,7 +308181,7 @@
 				"Prayer": 20
 			},
 			"class": "melee",
-			"lp": 0,
+			"lp": 450,
 			"tier": 30,
 			"speed": 0,
 			"damage": 0,
@@ -307042,7 +308200,7 @@
 				"Prayer": 20
 			},
 			"class": "melee",
-			"lp": 0,
+			"lp": 300,
 			"tier": 30,
 			"speed": 0,
 			"damage": 0,
@@ -307061,7 +308219,7 @@
 				"Prayer": 20
 			},
 			"class": "melee",
-			"lp": 0,
+			"lp": 450,
 			"tier": 30,
 			"speed": 0,
 			"damage": 0,
@@ -307511,7 +308669,7 @@
 				"Defence": 55
 			},
 			"class": "ranged",
-			"lp": 0,
+			"lp": 825,
 			"tier": 55,
 			"speed": 0,
 			"damage": 0,
@@ -307529,7 +308687,7 @@
 				"Defence": 55
 			},
 			"class": "ranged",
-			"lp": 0,
+			"lp": 275,
 			"tier": 55,
 			"speed": 0,
 			"damage": 0,
@@ -307547,7 +308705,7 @@
 				"Defence": 55
 			},
 			"class": "ranged",
-			"lp": 0,
+			"lp": 825,
 			"tier": 55,
 			"speed": 0,
 			"damage": 0,
@@ -307565,7 +308723,7 @@
 				"Defence": 55
 			},
 			"class": "ranged",
-			"lp": 0,
+			"lp": 550,
 			"tier": 55,
 			"speed": 0,
 			"damage": 0,
@@ -307601,7 +308759,7 @@
 				"Defence": 55
 			},
 			"class": "ranged",
-			"lp": 0,
+			"lp": 275,
 			"tier": 55,
 			"speed": 0,
 			"damage": 0,
@@ -308831,7 +309989,7 @@
 				"Defence": 65
 			},
 			"class": "ranged",
-			"lp": 0,
+			"lp": 975,
 			"tier": 65,
 			"speed": 0,
 			"damage": 0,
@@ -308849,7 +310007,7 @@
 				"Defence": 65
 			},
 			"class": "ranged",
-			"lp": 0,
+			"lp": 325,
 			"tier": 65,
 			"speed": 0,
 			"damage": 0,
@@ -308867,7 +310025,7 @@
 				"Defence": 65
 			},
 			"class": "ranged",
-			"lp": 0,
+			"lp": 975,
 			"tier": 65,
 			"speed": 0,
 			"damage": 0,
@@ -308885,7 +310043,7 @@
 				"Defence": 65
 			},
 			"class": "ranged",
-			"lp": 0,
+			"lp": 650,
 			"tier": 65,
 			"speed": 0,
 			"damage": 0,
@@ -308903,7 +310061,7 @@
 				"Defence": 65
 			},
 			"class": "ranged",
-			"lp": 0,
+			"lp": 325,
 			"tier": 65,
 			"speed": 0,
 			"damage": 0,
@@ -309171,7 +310329,7 @@
 				"Defence": 50
 			},
 			"class": "melee",
-			"lp": 0,
+			"lp": 250,
 			"tier": 51,
 			"speed": 0,
 			"damage": 0,
@@ -309189,7 +310347,7 @@
 				"Defence": 50
 			},
 			"class": "melee",
-			"lp": 0,
+			"lp": 250,
 			"tier": 52,
 			"speed": 0,
 			"damage": 0,
@@ -309207,7 +310365,7 @@
 				"Defence": 50
 			},
 			"class": "melee",
-			"lp": 0,
+			"lp": 250,
 			"tier": 53,
 			"speed": 0,
 			"damage": 0,
@@ -309225,7 +310383,7 @@
 				"Defence": 50
 			},
 			"class": "melee",
-			"lp": 0,
+			"lp": 250,
 			"tier": 50,
 			"speed": 0,
 			"damage": 0,
@@ -309503,7 +310661,7 @@
 				"Defence": 50
 			},
 			"class": "melee",
-			"lp": 0,
+			"lp": 750,
 			"tier": 51,
 			"speed": 0,
 			"damage": 0,
@@ -309521,7 +310679,7 @@
 				"Defence": 50
 			},
 			"class": "melee",
-			"lp": 0,
+			"lp": 750,
 			"tier": 52,
 			"speed": 0,
 			"damage": 0,
@@ -309539,7 +310697,7 @@
 				"Defence": 50
 			},
 			"class": "melee",
-			"lp": 0,
+			"lp": 750,
 			"tier": 53,
 			"speed": 0,
 			"damage": 0,
@@ -309557,7 +310715,7 @@
 				"Defence": 50
 			},
 			"class": "melee",
-			"lp": 0,
+			"lp": 750,
 			"tier": 50,
 			"speed": 0,
 			"damage": 0,
@@ -309837,7 +310995,7 @@
 				"Defence": 50
 			},
 			"class": "melee",
-			"lp": 0,
+			"lp": 500,
 			"tier": 50,
 			"speed": 0,
 			"damage": 0,
@@ -309855,7 +311013,7 @@
 				"Defence": 50
 			},
 			"class": "melee",
-			"lp": 0,
+			"lp": 500,
 			"tier": 50,
 			"speed": 0,
 			"damage": 0,
@@ -309873,7 +311031,7 @@
 				"Defence": 50
 			},
 			"class": "melee",
-			"lp": 0,
+			"lp": 500,
 			"tier": 50,
 			"speed": 0,
 			"damage": 0,
@@ -309891,7 +311049,7 @@
 				"Defence": 50
 			},
 			"class": "melee",
-			"lp": 0,
+			"lp": 500,
 			"tier": 50,
 			"speed": 0,
 			"damage": 0,
@@ -309909,7 +311067,7 @@
 				"Defence": 50
 			},
 			"class": "melee",
-			"lp": 0,
+			"lp": 500,
 			"tier": 50,
 			"speed": 0,
 			"damage": 0,
@@ -309927,7 +311085,7 @@
 				"Defence": 50
 			},
 			"class": "melee",
-			"lp": 0,
+			"lp": 500,
 			"tier": 50,
 			"speed": 0,
 			"damage": 0,
@@ -309945,7 +311103,7 @@
 				"Defence": 50
 			},
 			"class": "melee",
-			"lp": 0,
+			"lp": 500,
 			"tier": 50,
 			"speed": 0,
 			"damage": 0,
@@ -309963,7 +311121,7 @@
 				"Defence": 50
 			},
 			"class": "melee",
-			"lp": 0,
+			"lp": 500,
 			"tier": 50,
 			"speed": 0,
 			"damage": 0,
@@ -309981,7 +311139,7 @@
 				"Defence": 50
 			},
 			"class": "melee",
-			"lp": 0,
+			"lp": 500,
 			"tier": 50,
 			"speed": 0,
 			"damage": 0,
@@ -309999,7 +311157,7 @@
 				"Defence": 50
 			},
 			"class": "melee",
-			"lp": 0,
+			"lp": 500,
 			"tier": 51,
 			"speed": 0,
 			"damage": 0,
@@ -310017,7 +311175,7 @@
 				"Defence": 50
 			},
 			"class": "melee",
-			"lp": 0,
+			"lp": 500,
 			"tier": 52,
 			"speed": 0,
 			"damage": 0,
@@ -310035,7 +311193,7 @@
 				"Defence": 50
 			},
 			"class": "melee",
-			"lp": 0,
+			"lp": 500,
 			"tier": 53,
 			"speed": 0,
 			"damage": 0,
@@ -310053,7 +311211,7 @@
 				"Defence": 50
 			},
 			"class": "melee",
-			"lp": 0,
+			"lp": 500,
 			"tier": 50,
 			"speed": 0,
 			"damage": 0,
@@ -310071,7 +311229,7 @@
 				"Defence": 50
 			},
 			"class": "melee",
-			"lp": 0,
+			"lp": 250,
 			"tier": 51,
 			"speed": 0,
 			"damage": 0,
@@ -310089,7 +311247,7 @@
 				"Defence": 50
 			},
 			"class": "melee",
-			"lp": 0,
+			"lp": 250,
 			"tier": 52,
 			"speed": 0,
 			"damage": 0,
@@ -310107,7 +311265,7 @@
 				"Defence": 50
 			},
 			"class": "melee",
-			"lp": 0,
+			"lp": 250,
 			"tier": 53,
 			"speed": 0,
 			"damage": 0,
@@ -310125,7 +311283,7 @@
 				"Defence": 50
 			},
 			"class": "melee",
-			"lp": 0,
+			"lp": 250,
 			"tier": 50,
 			"speed": 0,
 			"damage": 0,
@@ -310204,7 +311362,7 @@
 				"Defence": 50
 			},
 			"class": "melee",
-			"lp": 0,
+			"lp": 500,
 			"tier": 50,
 			"speed": 0,
 			"damage": 0,
@@ -310222,7 +311380,7 @@
 				"Defence": 50
 			},
 			"class": "melee",
-			"lp": 0,
+			"lp": 500,
 			"tier": 50,
 			"speed": 0,
 			"damage": 0,
@@ -310240,7 +311398,7 @@
 				"Defence": 50
 			},
 			"class": "melee",
-			"lp": 0,
+			"lp": 500,
 			"tier": 50,
 			"speed": 0,
 			"damage": 0,
@@ -310258,7 +311416,7 @@
 				"Defence": 50
 			},
 			"class": "melee",
-			"lp": 0,
+			"lp": 500,
 			"tier": 50,
 			"speed": 0,
 			"damage": 0,
@@ -310276,7 +311434,7 @@
 				"Defence": 50
 			},
 			"class": "melee",
-			"lp": 0,
+			"lp": 500,
 			"tier": 50,
 			"speed": 0,
 			"damage": 0,
@@ -310294,7 +311452,7 @@
 				"Defence": 50
 			},
 			"class": "melee",
-			"lp": 0,
+			"lp": 500,
 			"tier": 50,
 			"speed": 0,
 			"damage": 0,
@@ -310311,7 +311469,7 @@
 				"Defence": 50
 			},
 			"class": "melee",
-			"lp": 0,
+			"lp": 500,
 			"tier": 50,
 			"speed": 0,
 			"damage": 0,
@@ -310328,7 +311486,7 @@
 				"Defence": 50
 			},
 			"class": "melee",
-			"lp": 0,
+			"lp": 500,
 			"tier": 50,
 			"speed": 0,
 			"damage": 0,
@@ -310345,7 +311503,7 @@
 				"Defence": 50
 			},
 			"class": "melee",
-			"lp": 0,
+			"lp": 500,
 			"tier": 50,
 			"speed": 0,
 			"damage": 0,
@@ -310362,7 +311520,7 @@
 				"Defence": 50
 			},
 			"class": "melee",
-			"lp": 0,
+			"lp": 500,
 			"tier": 50,
 			"speed": 0,
 			"damage": 0,
@@ -310379,7 +311537,7 @@
 				"Defence": 50
 			},
 			"class": "melee",
-			"lp": 0,
+			"lp": 500,
 			"tier": 50,
 			"speed": 0,
 			"damage": 0,
@@ -310396,7 +311554,7 @@
 				"Defence": 50
 			},
 			"class": "melee",
-			"lp": 0,
+			"lp": 500,
 			"tier": 50,
 			"speed": 0,
 			"damage": 0,
@@ -310413,7 +311571,7 @@
 				"Defence": 50
 			},
 			"class": "melee",
-			"lp": 0,
+			"lp": 500,
 			"tier": 50,
 			"speed": 0,
 			"damage": 0,
@@ -310430,7 +311588,7 @@
 				"Defence": 50
 			},
 			"class": "melee",
-			"lp": 0,
+			"lp": 500,
 			"tier": 50,
 			"speed": 0,
 			"damage": 0,
@@ -310447,7 +311605,7 @@
 				"Defence": 50
 			},
 			"class": "melee",
-			"lp": 0,
+			"lp": 500,
 			"tier": 50,
 			"speed": 0,
 			"damage": 0,
@@ -310464,7 +311622,7 @@
 				"Defence": 50
 			},
 			"class": "melee",
-			"lp": 0,
+			"lp": 500,
 			"tier": 50,
 			"speed": 0,
 			"damage": 0,
@@ -310481,7 +311639,7 @@
 				"Defence": 50
 			},
 			"class": "melee",
-			"lp": 0,
+			"lp": 500,
 			"tier": 50,
 			"speed": 0,
 			"damage": 0,
@@ -310498,7 +311656,7 @@
 				"Defence": 50
 			},
 			"class": "melee",
-			"lp": 0,
+			"lp": 500,
 			"tier": 50,
 			"speed": 0,
 			"damage": 0,
@@ -310515,7 +311673,7 @@
 				"Defence": 50
 			},
 			"class": "melee",
-			"lp": 0,
+			"lp": 500,
 			"tier": 50,
 			"speed": 0,
 			"damage": 0,
@@ -310532,7 +311690,7 @@
 				"Defence": 50
 			},
 			"class": "melee",
-			"lp": 0,
+			"lp": 500,
 			"tier": 50,
 			"speed": 0,
 			"damage": 0,
@@ -310549,7 +311707,7 @@
 				"Defence": 50
 			},
 			"class": "melee",
-			"lp": 0,
+			"lp": 500,
 			"tier": 50,
 			"speed": 0,
 			"damage": 0,
@@ -311310,7 +312468,7 @@
 				"Defence": 50
 			},
 			"class": "melee",
-			"lp": 0,
+			"lp": 500,
 			"tier": 51,
 			"speed": 0,
 			"damage": 0,
@@ -311328,7 +312486,7 @@
 				"Defence": 50
 			},
 			"class": "melee",
-			"lp": 0,
+			"lp": 500,
 			"tier": 52,
 			"speed": 0,
 			"damage": 0,
@@ -311346,7 +312504,7 @@
 				"Defence": 50
 			},
 			"class": "melee",
-			"lp": 0,
+			"lp": 500,
 			"tier": 53,
 			"speed": 0,
 			"damage": 0,
@@ -311364,7 +312522,7 @@
 				"Defence": 50
 			},
 			"class": "melee",
-			"lp": 0,
+			"lp": 500,
 			"tier": 50,
 			"speed": 0,
 			"damage": 0,
@@ -312102,7 +313260,7 @@
 				"Defence": 50
 			},
 			"class": "melee",
-			"lp": 0,
+			"lp": 750,
 			"tier": 50,
 			"speed": 0,
 			"damage": 0,
@@ -312120,7 +313278,7 @@
 				"Defence": 50
 			},
 			"class": "melee",
-			"lp": 0,
+			"lp": 750,
 			"tier": 50,
 			"speed": 0,
 			"damage": 0,
@@ -312138,7 +313296,7 @@
 				"Defence": 50
 			},
 			"class": "melee",
-			"lp": 0,
+			"lp": 750,
 			"tier": 50,
 			"speed": 0,
 			"damage": 0,
@@ -312156,7 +313314,7 @@
 				"Defence": 50
 			},
 			"class": "melee",
-			"lp": 0,
+			"lp": 750,
 			"tier": 50,
 			"speed": 0,
 			"damage": 0,
@@ -312174,7 +313332,7 @@
 				"Defence": 50
 			},
 			"class": "melee",
-			"lp": 0,
+			"lp": 750,
 			"tier": 50,
 			"speed": 0,
 			"damage": 0,
@@ -312192,7 +313350,7 @@
 				"Defence": 50
 			},
 			"class": "melee",
-			"lp": 0,
+			"lp": 750,
 			"tier": 50,
 			"speed": 0,
 			"damage": 0,
@@ -312210,7 +313368,7 @@
 				"Defence": 50
 			},
 			"class": "melee",
-			"lp": 0,
+			"lp": 750,
 			"tier": 50,
 			"speed": 0,
 			"damage": 0,
@@ -312228,7 +313386,7 @@
 				"Defence": 50
 			},
 			"class": "melee",
-			"lp": 0,
+			"lp": 750,
 			"tier": 50,
 			"speed": 0,
 			"damage": 0,
@@ -312246,7 +313404,7 @@
 				"Defence": 50
 			},
 			"class": "melee",
-			"lp": 0,
+			"lp": 750,
 			"tier": 50,
 			"speed": 0,
 			"damage": 0,
@@ -312264,7 +313422,7 @@
 				"Defence": 50
 			},
 			"class": "melee",
-			"lp": 0,
+			"lp": 750,
 			"tier": 50,
 			"speed": 0,
 			"damage": 0,
@@ -312282,7 +313440,7 @@
 				"Defence": 50
 			},
 			"class": "melee",
-			"lp": 0,
+			"lp": 750,
 			"tier": 50,
 			"speed": 0,
 			"damage": 0,
@@ -312300,7 +313458,7 @@
 				"Defence": 50
 			},
 			"class": "melee",
-			"lp": 0,
+			"lp": 750,
 			"tier": 50,
 			"speed": 0,
 			"damage": 0,
@@ -312318,7 +313476,7 @@
 				"Defence": 50
 			},
 			"class": "melee",
-			"lp": 0,
+			"lp": 750,
 			"tier": 50,
 			"speed": 0,
 			"damage": 0,
@@ -312336,7 +313494,7 @@
 				"Defence": 50
 			},
 			"class": "melee",
-			"lp": 0,
+			"lp": 750,
 			"tier": 50,
 			"speed": 0,
 			"damage": 0,
@@ -312354,7 +313512,7 @@
 				"Defence": 50
 			},
 			"class": "melee",
-			"lp": 0,
+			"lp": 750,
 			"tier": 51,
 			"speed": 0,
 			"damage": 0,
@@ -312372,7 +313530,7 @@
 				"Defence": 50
 			},
 			"class": "melee",
-			"lp": 0,
+			"lp": 750,
 			"tier": 52,
 			"speed": 0,
 			"damage": 0,
@@ -312390,7 +313548,7 @@
 				"Defence": 50
 			},
 			"class": "melee",
-			"lp": 0,
+			"lp": 750,
 			"tier": 53,
 			"speed": 0,
 			"damage": 0,
@@ -312408,7 +313566,7 @@
 				"Defence": 50
 			},
 			"class": "melee",
-			"lp": 0,
+			"lp": 750,
 			"tier": 50,
 			"speed": 0,
 			"damage": 0,
@@ -312426,7 +313584,7 @@
 				"Defence": 50
 			},
 			"class": "melee",
-			"lp": 0,
+			"lp": 750,
 			"tier": 50,
 			"speed": 0,
 			"damage": 0,
@@ -312444,7 +313602,7 @@
 				"Defence": 50
 			},
 			"class": "melee",
-			"lp": 0,
+			"lp": 750,
 			"tier": 50,
 			"speed": 0,
 			"damage": 0,
@@ -312462,7 +313620,7 @@
 				"Defence": 50
 			},
 			"class": "melee",
-			"lp": 0,
+			"lp": 750,
 			"tier": 50,
 			"speed": 0,
 			"damage": 0,
@@ -312480,7 +313638,7 @@
 				"Defence": 50
 			},
 			"class": "melee",
-			"lp": 0,
+			"lp": 750,
 			"tier": 50,
 			"speed": 0,
 			"damage": 0,
@@ -312498,7 +313656,7 @@
 				"Defence": 50
 			},
 			"class": "melee",
-			"lp": 0,
+			"lp": 750,
 			"tier": 50,
 			"speed": 0,
 			"damage": 0,
@@ -312516,7 +313674,7 @@
 				"Defence": 50
 			},
 			"class": "melee",
-			"lp": 0,
+			"lp": 750,
 			"tier": 50,
 			"speed": 0,
 			"damage": 0,
@@ -312534,7 +313692,7 @@
 				"Defence": 50
 			},
 			"class": "melee",
-			"lp": 0,
+			"lp": 750,
 			"tier": 50,
 			"speed": 0,
 			"damage": 0,
@@ -312552,7 +313710,7 @@
 				"Defence": 50
 			},
 			"class": "melee",
-			"lp": 0,
+			"lp": 750,
 			"tier": 50,
 			"speed": 0,
 			"damage": 0,
@@ -312570,7 +313728,7 @@
 				"Defence": 50
 			},
 			"class": "melee",
-			"lp": 0,
+			"lp": 750,
 			"tier": 50,
 			"speed": 0,
 			"damage": 0,
@@ -312588,7 +313746,7 @@
 				"Defence": 50
 			},
 			"class": "melee",
-			"lp": 0,
+			"lp": 750,
 			"tier": 50,
 			"speed": 0,
 			"damage": 0,
@@ -312606,7 +313764,7 @@
 				"Defence": 50
 			},
 			"class": "melee",
-			"lp": 0,
+			"lp": 750,
 			"tier": 50,
 			"speed": 0,
 			"damage": 0,
@@ -312624,7 +313782,7 @@
 				"Defence": 50
 			},
 			"class": "melee",
-			"lp": 0,
+			"lp": 750,
 			"tier": 50,
 			"speed": 0,
 			"damage": 0,
@@ -312642,7 +313800,7 @@
 				"Defence": 50
 			},
 			"class": "melee",
-			"lp": 0,
+			"lp": 750,
 			"tier": 50,
 			"speed": 0,
 			"damage": 0,
@@ -312660,7 +313818,7 @@
 				"Defence": 50
 			},
 			"class": "melee",
-			"lp": 0,
+			"lp": 750,
 			"tier": 50,
 			"speed": 0,
 			"damage": 0,
@@ -312678,7 +313836,7 @@
 				"Defence": 50
 			},
 			"class": "melee",
-			"lp": 0,
+			"lp": 750,
 			"tier": 51,
 			"speed": 0,
 			"damage": 0,
@@ -312696,7 +313854,7 @@
 				"Defence": 50
 			},
 			"class": "melee",
-			"lp": 0,
+			"lp": 750,
 			"tier": 52,
 			"speed": 0,
 			"damage": 0,
@@ -312714,7 +313872,7 @@
 				"Defence": 50
 			},
 			"class": "melee",
-			"lp": 0,
+			"lp": 750,
 			"tier": 53,
 			"speed": 0,
 			"damage": 0,
@@ -312732,7 +313890,7 @@
 				"Defence": 50
 			},
 			"class": "melee",
-			"lp": 0,
+			"lp": 750,
 			"tier": 50,
 			"speed": 0,
 			"damage": 0,
@@ -312750,7 +313908,7 @@
 				"Defence": 50
 			},
 			"class": "melee",
-			"lp": 0,
+			"lp": 750,
 			"tier": 50,
 			"speed": 0,
 			"damage": 0,
@@ -312768,7 +313926,7 @@
 				"Defence": 50
 			},
 			"class": "melee",
-			"lp": 0,
+			"lp": 750,
 			"tier": 50,
 			"speed": 0,
 			"damage": 0,
@@ -312786,7 +313944,7 @@
 				"Defence": 50
 			},
 			"class": "melee",
-			"lp": 0,
+			"lp": 750,
 			"tier": 50,
 			"speed": 0,
 			"damage": 0,
@@ -312804,7 +313962,7 @@
 				"Defence": 50
 			},
 			"class": "melee",
-			"lp": 0,
+			"lp": 750,
 			"tier": 50,
 			"speed": 0,
 			"damage": 0,
@@ -312822,7 +313980,7 @@
 				"Defence": 50
 			},
 			"class": "melee",
-			"lp": 0,
+			"lp": 750,
 			"tier": 50,
 			"speed": 0,
 			"damage": 0,
@@ -312840,7 +313998,7 @@
 				"Defence": 50
 			},
 			"class": "melee",
-			"lp": 0,
+			"lp": 750,
 			"tier": 50,
 			"speed": 0,
 			"damage": 0,
@@ -312858,7 +314016,7 @@
 				"Defence": 50
 			},
 			"class": "melee",
-			"lp": 0,
+			"lp": 750,
 			"tier": 50,
 			"speed": 0,
 			"damage": 0,
@@ -312876,7 +314034,7 @@
 				"Defence": 50
 			},
 			"class": "melee",
-			"lp": 0,
+			"lp": 750,
 			"tier": 50,
 			"speed": 0,
 			"damage": 0,
@@ -312894,7 +314052,7 @@
 				"Defence": 50
 			},
 			"class": "melee",
-			"lp": 0,
+			"lp": 750,
 			"tier": 50,
 			"speed": 0,
 			"damage": 0,
@@ -312912,7 +314070,7 @@
 				"Defence": 50
 			},
 			"class": "melee",
-			"lp": 0,
+			"lp": 750,
 			"tier": 50,
 			"speed": 0,
 			"damage": 0,
@@ -312930,7 +314088,7 @@
 				"Defence": 50
 			},
 			"class": "melee",
-			"lp": 0,
+			"lp": 750,
 			"tier": 50,
 			"speed": 0,
 			"damage": 0,
@@ -312948,7 +314106,7 @@
 				"Defence": 50
 			},
 			"class": "melee",
-			"lp": 0,
+			"lp": 750,
 			"tier": 50,
 			"speed": 0,
 			"damage": 0,
@@ -312966,7 +314124,7 @@
 				"Defence": 50
 			},
 			"class": "melee",
-			"lp": 0,
+			"lp": 750,
 			"tier": 50,
 			"speed": 0,
 			"damage": 0,
@@ -312984,7 +314142,7 @@
 				"Defence": 50
 			},
 			"class": "melee",
-			"lp": 0,
+			"lp": 750,
 			"tier": 50,
 			"speed": 0,
 			"damage": 0,
@@ -313002,7 +314160,7 @@
 				"Defence": 50
 			},
 			"class": "melee",
-			"lp": 0,
+			"lp": 750,
 			"tier": 51,
 			"speed": 0,
 			"damage": 0,
@@ -313020,7 +314178,7 @@
 				"Defence": 50
 			},
 			"class": "melee",
-			"lp": 0,
+			"lp": 750,
 			"tier": 52,
 			"speed": 0,
 			"damage": 0,
@@ -313038,7 +314196,7 @@
 				"Defence": 50
 			},
 			"class": "melee",
-			"lp": 0,
+			"lp": 750,
 			"tier": 53,
 			"speed": 0,
 			"damage": 0,
@@ -313056,7 +314214,7 @@
 				"Defence": 50
 			},
 			"class": "melee",
-			"lp": 0,
+			"lp": 750,
 			"tier": 50,
 			"speed": 0,
 			"damage": 0,
@@ -314818,7 +315976,7 @@
 				"Defence": 85
 			},
 			"class": "magic",
-			"lp": 280,
+			"lp": 850,
 			"tier": 83,
 			"speed": 0,
 			"damage": 0,
@@ -314837,7 +315995,7 @@
 				"Defence": 85
 			},
 			"class": "magic",
-			"lp": 420,
+			"lp": 1275,
 			"tier": 83,
 			"speed": 0,
 			"damage": 0,
@@ -314856,7 +316014,7 @@
 				"Defence": 85
 			},
 			"class": "magic",
-			"lp": 560,
+			"lp": 1275,
 			"tier": 83,
 			"speed": 0,
 			"damage": 0,
@@ -314895,7 +316053,7 @@
 				"Defence": 80
 			},
 			"class": "melee",
-			"lp": 0,
+			"lp": 800,
 			"tier": 80,
 			"speed": 0,
 			"damage": 0,
@@ -314913,7 +316071,7 @@
 				"Defence": 80
 			},
 			"class": "magic",
-			"lp": 0,
+			"lp": 800,
 			"tier": 80,
 			"speed": 0,
 			"damage": 0,
@@ -314931,7 +316089,7 @@
 				"Defence": 80
 			},
 			"class": "melee",
-			"lp": 0,
+			"lp": 1200,
 			"tier": 80,
 			"speed": 0,
 			"damage": 0,
@@ -314949,7 +316107,7 @@
 				"Defence": 80
 			},
 			"class": "melee",
-			"lp": 0,
+			"lp": 1200,
 			"tier": 80,
 			"speed": 0,
 			"damage": 0,
@@ -314967,7 +316125,7 @@
 				"Defence": 80
 			},
 			"class": "ranged",
-			"lp": 0,
+			"lp": 800,
 			"tier": 80,
 			"speed": 0,
 			"damage": 0,
@@ -314985,7 +316143,7 @@
 				"Defence": 80
 			},
 			"class": "ranged",
-			"lp": 0,
+			"lp": 1200,
 			"tier": 80,
 			"speed": 0,
 			"damage": 0,
@@ -315003,7 +316161,7 @@
 				"Defence": 80
 			},
 			"class": "ranged",
-			"lp": 0,
+			"lp": 1200,
 			"tier": 80,
 			"speed": 0,
 			"damage": 0,
@@ -315021,7 +316179,7 @@
 				"Defence": 80
 			},
 			"class": "magic",
-			"lp": 0,
+			"lp": 1200,
 			"tier": 80,
 			"speed": 0,
 			"damage": 0,
@@ -315039,7 +316197,7 @@
 				"Defence": 80
 			},
 			"class": "magic",
-			"lp": 0,
+			"lp": 1200,
 			"tier": 80,
 			"speed": 0,
 			"damage": 0,
@@ -316087,7 +317245,7 @@
 				"Ranged": 30
 			},
 			"class": "ranged",
-			"lp": 0,
+			"lp": 300,
 			"tier": 30,
 			"speed": 0,
 			"damage": 0,
@@ -316106,7 +317264,7 @@
 				"Ranged": 30
 			},
 			"class": "ranged",
-			"lp": 0,
+			"lp": 450,
 			"tier": 30,
 			"speed": 0,
 			"damage": 0,
@@ -316125,7 +317283,7 @@
 				"Ranged": 30
 			},
 			"class": "ranged",
-			"lp": 0,
+			"lp": 150,
 			"tier": 30,
 			"speed": 0,
 			"damage": 0,
@@ -316144,7 +317302,7 @@
 				"Ranged": 30
 			},
 			"class": "ranged",
-			"lp": 0,
+			"lp": 450,
 			"tier": 30,
 			"speed": 0,
 			"damage": 0,
@@ -316163,7 +317321,7 @@
 				"Ranged": 30
 			},
 			"class": "ranged",
-			"lp": 0,
+			"lp": 150,
 			"tier": 30,
 			"speed": 0,
 			"damage": 0,
@@ -316425,7 +317583,7 @@
 				"Defence": 20
 			},
 			"class": "magic",
-			"lp": 0,
+			"lp": 100,
 			"tier": 20,
 			"speed": 0,
 			"damage": 0,
@@ -316443,7 +317601,7 @@
 				"Defence": 20
 			},
 			"class": "magic",
-			"lp": 0,
+			"lp": 100,
 			"tier": 20,
 			"speed": 0,
 			"damage": 0,
@@ -316461,7 +317619,7 @@
 				"Defence": 20
 			},
 			"class": "magic",
-			"lp": 0,
+			"lp": 200,
 			"tier": 20,
 			"speed": 0,
 			"damage": 0,
@@ -316479,7 +317637,7 @@
 				"Defence": 20
 			},
 			"class": "magic",
-			"lp": 0,
+			"lp": 300,
 			"tier": 20,
 			"speed": 0,
 			"damage": 0,
@@ -316497,7 +317655,7 @@
 				"Defence": 20
 			},
 			"class": "magic",
-			"lp": 0,
+			"lp": 300,
 			"tier": 20,
 			"speed": 0,
 			"damage": 0,
@@ -316784,7 +317942,7 @@
 				"Defence": 40
 			},
 			"class": "magic",
-			"lp": 0,
+			"lp": 600,
 			"tier": 40,
 			"speed": 0,
 			"damage": 0,
@@ -316802,7 +317960,7 @@
 				"Defence": 40
 			},
 			"class": "magic",
-			"lp": 0,
+			"lp": 200,
 			"tier": 40,
 			"speed": 0,
 			"damage": 0,
@@ -316820,7 +317978,7 @@
 				"Defence": 40
 			},
 			"class": "magic",
-			"lp": 0,
+			"lp": 200,
 			"tier": 40,
 			"speed": 0,
 			"damage": 0,
@@ -316838,7 +317996,7 @@
 				"Defence": 40
 			},
 			"class": "magic",
-			"lp": 0,
+			"lp": 400,
 			"tier": 40,
 			"speed": 0,
 			"damage": 0,
@@ -316856,7 +318014,7 @@
 				"Defence": 40
 			},
 			"class": "magic",
-			"lp": 0,
+			"lp": 600,
 			"tier": 40,
 			"speed": 0,
 			"damage": 0,
@@ -317516,7 +318674,7 @@
 				"Defence": 20
 			},
 			"class": "melee",
-			"lp": 0,
+			"lp": 100,
 			"tier": 21,
 			"speed": 0,
 			"damage": 0,
@@ -317534,7 +318692,7 @@
 				"Defence": 20
 			},
 			"class": "melee",
-			"lp": 0,
+			"lp": 100,
 			"tier": 20,
 			"speed": 0,
 			"damage": 0,
@@ -317989,7 +319147,7 @@
 				"Defence": 20
 			},
 			"class": "melee",
-			"lp": 0,
+			"lp": 200,
 			"tier": 21,
 			"speed": 0,
 			"damage": 0,
@@ -318007,7 +319165,7 @@
 				"Defence": 20
 			},
 			"class": "melee",
-			"lp": 0,
+			"lp": 200,
 			"tier": 20,
 			"speed": 0,
 			"damage": 0,
@@ -318025,7 +319183,7 @@
 				"Defence": 20
 			},
 			"class": "melee",
-			"lp": 0,
+			"lp": 100,
 			"tier": 21,
 			"speed": 0,
 			"damage": 0,
@@ -318043,7 +319201,7 @@
 				"Defence": 20
 			},
 			"class": "melee",
-			"lp": 0,
+			"lp": 100,
 			"tier": 20,
 			"speed": 0,
 			"damage": 0,
@@ -318122,7 +319280,7 @@
 				"Defence": 20
 			},
 			"class": "melee",
-			"lp": 0,
+			"lp": 200,
 			"tier": 20,
 			"speed": 0,
 			"damage": 0,
@@ -318139,7 +319297,7 @@
 				"Defence": 20
 			},
 			"class": "melee",
-			"lp": 0,
+			"lp": 200,
 			"tier": 20,
 			"speed": 0,
 			"damage": 0,
@@ -318156,7 +319314,7 @@
 				"Defence": 20
 			},
 			"class": "melee",
-			"lp": 0,
+			"lp": 200,
 			"tier": 20,
 			"speed": 0,
 			"damage": 0,
@@ -318173,7 +319331,7 @@
 				"Defence": 20
 			},
 			"class": "melee",
-			"lp": 0,
+			"lp": 200,
 			"tier": 20,
 			"speed": 0,
 			"damage": 0,
@@ -318190,7 +319348,7 @@
 				"Defence": 20
 			},
 			"class": "melee",
-			"lp": 0,
+			"lp": 200,
 			"tier": 20,
 			"speed": 0,
 			"damage": 0,
@@ -318207,7 +319365,7 @@
 				"Defence": 20
 			},
 			"class": "melee",
-			"lp": 0,
+			"lp": 200,
 			"tier": 20,
 			"speed": 0,
 			"damage": 0,
@@ -318224,7 +319382,7 @@
 				"Defence": 20
 			},
 			"class": "melee",
-			"lp": 0,
+			"lp": 200,
 			"tier": 20,
 			"speed": 0,
 			"damage": 0,
@@ -318241,7 +319399,7 @@
 				"Defence": 20
 			},
 			"class": "melee",
-			"lp": 0,
+			"lp": 200,
 			"tier": 20,
 			"speed": 0,
 			"damage": 0,
@@ -318258,7 +319416,7 @@
 				"Defence": 20
 			},
 			"class": "melee",
-			"lp": 0,
+			"lp": 200,
 			"tier": 20,
 			"speed": 0,
 			"damage": 0,
@@ -318275,7 +319433,7 @@
 				"Defence": 20
 			},
 			"class": "melee",
-			"lp": 0,
+			"lp": 200,
 			"tier": 20,
 			"speed": 0,
 			"damage": 0,
@@ -318292,7 +319450,7 @@
 				"Defence": 20
 			},
 			"class": "melee",
-			"lp": 0,
+			"lp": 200,
 			"tier": 20,
 			"speed": 0,
 			"damage": 0,
@@ -318309,7 +319467,7 @@
 				"Defence": 20
 			},
 			"class": "melee",
-			"lp": 0,
+			"lp": 200,
 			"tier": 20,
 			"speed": 0,
 			"damage": 0,
@@ -318326,7 +319484,7 @@
 				"Defence": 20
 			},
 			"class": "melee",
-			"lp": 0,
+			"lp": 200,
 			"tier": 20,
 			"speed": 0,
 			"damage": 0,
@@ -318343,7 +319501,7 @@
 				"Defence": 20
 			},
 			"class": "melee",
-			"lp": 0,
+			"lp": 200,
 			"tier": 20,
 			"speed": 0,
 			"damage": 0,
@@ -318360,7 +319518,7 @@
 				"Defence": 20
 			},
 			"class": "melee",
-			"lp": 0,
+			"lp": 200,
 			"tier": 20,
 			"speed": 0,
 			"damage": 0,
@@ -318377,7 +319535,7 @@
 				"Defence": 20
 			},
 			"class": "melee",
-			"lp": 0,
+			"lp": 200,
 			"tier": 20,
 			"speed": 0,
 			"damage": 0,
@@ -318860,7 +320018,7 @@
 				"Defence": 20
 			},
 			"class": "melee",
-			"lp": 0,
+			"lp": 200,
 			"tier": 21,
 			"speed": 0,
 			"damage": 0,
@@ -318878,7 +320036,7 @@
 				"Defence": 20
 			},
 			"class": "melee",
-			"lp": 0,
+			"lp": 200,
 			"tier": 20,
 			"speed": 0,
 			"damage": 0,
@@ -319256,7 +320414,7 @@
 				"Defence": 20
 			},
 			"class": "melee",
-			"lp": 0,
+			"lp": 300,
 			"tier": 21,
 			"speed": 0,
 			"damage": 0,
@@ -319274,7 +320432,7 @@
 				"Defence": 20
 			},
 			"class": "melee",
-			"lp": 0,
+			"lp": 300,
 			"tier": 20,
 			"speed": 0,
 			"damage": 0,
@@ -319292,7 +320450,7 @@
 				"Defence": 20
 			},
 			"class": "melee",
-			"lp": 0,
+			"lp": 300,
 			"tier": 21,
 			"speed": 0,
 			"damage": 0,
@@ -319310,7 +320468,7 @@
 				"Defence": 20
 			},
 			"class": "melee",
-			"lp": 0,
+			"lp": 300,
 			"tier": 20,
 			"speed": 0,
 			"damage": 0,
@@ -319328,7 +320486,7 @@
 				"Defence": 20
 			},
 			"class": "melee",
-			"lp": 0,
+			"lp": 300,
 			"tier": 21,
 			"speed": 0,
 			"damage": 0,
@@ -319346,7 +320504,7 @@
 				"Defence": 20
 			},
 			"class": "melee",
-			"lp": 0,
+			"lp": 300,
 			"tier": 20,
 			"speed": 0,
 			"damage": 0,
@@ -319705,7 +320863,7 @@
 				"Defence": 20
 			},
 			"class": "ranged",
-			"lp": 0,
+			"lp": 300,
 			"tier": 20,
 			"speed": 0,
 			"damage": 0,
@@ -319723,7 +320881,7 @@
 				"Defence": 20
 			},
 			"class": "ranged",
-			"lp": 0,
+			"lp": 300,
 			"tier": 20,
 			"speed": 0,
 			"damage": 0,
@@ -319741,7 +320899,7 @@
 				"Defence": 20
 			},
 			"class": "ranged",
-			"lp": 0,
+			"lp": 300,
 			"tier": 20,
 			"speed": 0,
 			"damage": 0,
@@ -319759,7 +320917,7 @@
 				"Defence": 20
 			},
 			"class": "ranged",
-			"lp": 0,
+			"lp": 300,
 			"tier": 20,
 			"speed": 0,
 			"damage": 0,
@@ -319777,7 +320935,7 @@
 				"Defence": 20
 			},
 			"class": "ranged",
-			"lp": 0,
+			"lp": 300,
 			"tier": 20,
 			"speed": 0,
 			"damage": 0,
@@ -319795,7 +320953,7 @@
 				"Defence": 20
 			},
 			"class": "ranged",
-			"lp": 0,
+			"lp": 100,
 			"tier": 20,
 			"speed": 0,
 			"damage": 0,
@@ -319813,7 +320971,7 @@
 				"Defence": 20
 			},
 			"class": "ranged",
-			"lp": 0,
+			"lp": 200,
 			"tier": 20,
 			"speed": 0,
 			"damage": 0,
@@ -319831,7 +320989,7 @@
 				"Defence": 20
 			},
 			"class": "ranged",
-			"lp": 0,
+			"lp": 100,
 			"tier": 20,
 			"speed": 0,
 			"damage": 0,
@@ -322793,7 +323951,7 @@
 				"Defence": 90
 			},
 			"class": "ranged",
-			"lp": 640,
+			"lp": 1350,
 			"tier": 90,
 			"speed": 0,
 			"damage": 0,
@@ -322812,7 +323970,7 @@
 				"Defence": 90
 			},
 			"class": "ranged",
-			"lp": 0,
+			"lp": 450,
 			"tier": 90,
 			"speed": 0,
 			"damage": 0,
@@ -322831,7 +323989,7 @@
 				"Defence": 90
 			},
 			"class": "ranged",
-			"lp": 480,
+			"lp": 1350,
 			"tier": 90,
 			"speed": 0,
 			"damage": 0,
@@ -322850,7 +324008,7 @@
 				"Defence": 90
 			},
 			"class": "ranged",
-			"lp": 320,
+			"lp": 900,
 			"tier": 90,
 			"speed": 0,
 			"damage": 0,
@@ -322869,7 +324027,7 @@
 				"Defence": 90
 			},
 			"class": "ranged",
-			"lp": 0,
+			"lp": 450,
 			"tier": 90,
 			"speed": 0,
 			"damage": 0,
@@ -322888,7 +324046,7 @@
 				"Defence": 90
 			},
 			"class": "melee",
-			"lp": 0,
+			"lp": 450,
 			"tier": 90,
 			"speed": 0,
 			"damage": 0,
@@ -322907,7 +324065,7 @@
 				"Defence": 90
 			},
 			"class": "melee",
-			"lp": 640,
+			"lp": 1350,
 			"tier": 90,
 			"speed": 0,
 			"damage": 0,
@@ -322926,7 +324084,7 @@
 				"Defence": 90
 			},
 			"class": "melee",
-			"lp": 0,
+			"lp": 450,
 			"tier": 90,
 			"speed": 0,
 			"damage": 0,
@@ -322945,7 +324103,7 @@
 				"Defence": 90
 			},
 			"class": "melee",
-			"lp": 320,
+			"lp": 900,
 			"tier": 90,
 			"speed": 0,
 			"damage": 0,
@@ -322964,7 +324122,7 @@
 				"Defence": 90
 			},
 			"class": "melee",
-			"lp": 480,
+			"lp": 1350,
 			"tier": 90,
 			"speed": 0,
 			"damage": 0,
@@ -323004,7 +324162,7 @@
 				"Defence": 85
 			},
 			"class": "melee",
-			"lp": 560,
+			"lp": 1275,
 			"tier": 83,
 			"speed": 0,
 			"damage": 0,
@@ -323023,7 +324181,7 @@
 				"Defence": 85
 			},
 			"class": "melee",
-			"lp": 280,
+			"lp": 950,
 			"tier": 83,
 			"speed": 0,
 			"damage": 0,
@@ -323042,7 +324200,7 @@
 				"Defence": 85
 			},
 			"class": "melee",
-			"lp": 420,
+			"lp": 1275,
 			"tier": 83,
 			"speed": 0,
 			"damage": 0,
@@ -323194,7 +324352,7 @@
 				"Prayer": 65
 			},
 			"class": "magic",
-			"lp": 0,
+			"lp": 975,
 			"tier": 65,
 			"speed": 0,
 			"damage": 0,
@@ -323213,7 +324371,7 @@
 				"Prayer": 65
 			},
 			"class": "magic",
-			"lp": 0,
+			"lp": 975,
 			"tier": 65,
 			"speed": 0,
 			"damage": 0,
@@ -323252,7 +324410,7 @@
 				"Prayer": 65
 			},
 			"class": "magic",
-			"lp": 0,
+			"lp": 650,
 			"tier": 65,
 			"speed": 0,
 			"damage": 0,
@@ -323270,7 +324428,7 @@
 				"Defence": 65
 			},
 			"class": "melee",
-			"lp": 0,
+			"lp": 650,
 			"tier": 65,
 			"speed": 0,
 			"damage": 0,
@@ -323307,7 +324465,7 @@
 				"Defence": 65
 			},
 			"class": "magic",
-			"lp": 0,
+			"lp": 650,
 			"tier": 65,
 			"speed": 0,
 			"damage": 0,
@@ -323325,7 +324483,7 @@
 				"Defence": 65
 			},
 			"class": "melee",
-			"lp": 0,
+			"lp": 975,
 			"tier": 65,
 			"speed": 0,
 			"damage": 0,
@@ -323343,7 +324501,7 @@
 				"Defence": 65
 			},
 			"class": "melee",
-			"lp": 0,
+			"lp": 975,
 			"tier": 65,
 			"speed": 0,
 			"damage": 0,
@@ -323362,7 +324520,7 @@
 				"Defence": 65
 			},
 			"class": "ranged",
-			"lp": 0,
+			"lp": 975,
 			"tier": 65,
 			"speed": 0,
 			"damage": 0,
@@ -323381,7 +324539,7 @@
 				"Defence": 65
 			},
 			"class": "ranged",
-			"lp": 0,
+			"lp": 975,
 			"tier": 65,
 			"speed": 0,
 			"damage": 0,
@@ -323400,7 +324558,7 @@
 				"Defence": 65
 			},
 			"class": "ranged",
-			"lp": 0,
+			"lp": 650,
 			"tier": 65,
 			"speed": 0,
 			"damage": 0,
@@ -323419,7 +324577,7 @@
 				"Defence": 65
 			},
 			"class": "magic",
-			"lp": 0,
+			"lp": 975,
 			"tier": 65,
 			"speed": 0,
 			"damage": 0,
@@ -323438,7 +324596,7 @@
 				"Defence": 65
 			},
 			"class": "magic",
-			"lp": 0,
+			"lp": 975,
 			"tier": 65,
 			"speed": 0,
 			"damage": 0,
@@ -323457,7 +324615,7 @@
 				"Defence": 65
 			},
 			"class": "ranged",
-			"lp": 0,
+			"lp": 325,
 			"tier": 65,
 			"speed": 0,
 			"damage": 0,
@@ -323793,7 +324951,7 @@
 				"Defence": 70
 			},
 			"class": "melee",
-			"lp": 0,
+			"lp": 700,
 			"tier": 70,
 			"speed": 0,
 			"damage": 0,
@@ -323812,7 +324970,7 @@
 				"Defence": 70
 			},
 			"class": "melee",
-			"lp": 0,
+			"lp": 1050,
 			"tier": 70,
 			"speed": 0,
 			"damage": 0,
@@ -323831,7 +324989,7 @@
 				"Defence": 70
 			},
 			"class": "melee",
-			"lp": 0,
+			"lp": 1050,
 			"tier": 70,
 			"speed": 0,
 			"damage": 0,
@@ -324205,7 +325363,7 @@
 				"Defence": 75
 			},
 			"class": "ranged",
-			"lp": 240,
+			"lp": 1125,
 			"tier": 75,
 			"speed": 0,
 			"damage": 0,
@@ -324223,7 +325381,7 @@
 				"Defence": 75
 			},
 			"class": "ranged",
-			"lp": 0,
+			"lp": 375,
 			"tier": 75,
 			"speed": 0,
 			"damage": 0,
@@ -324241,7 +325399,7 @@
 				"Defence": 75
 			},
 			"class": "ranged",
-			"lp": 180,
+			"lp": 1125,
 			"tier": 75,
 			"speed": 0,
 			"damage": 0,
@@ -324259,7 +325417,7 @@
 				"Defence": 75
 			},
 			"class": "ranged",
-			"lp": 240,
+			"lp": 750,
 			"tier": 75,
 			"speed": 0,
 			"damage": 0,
@@ -324277,7 +325435,7 @@
 				"Defence": 75
 			},
 			"class": "ranged",
-			"lp": 0,
+			"lp": 375,
 			"tier": 75,
 			"speed": 0,
 			"damage": 0,
@@ -324580,7 +325738,7 @@
 				"Defence": 70
 			},
 			"class": "melee",
-			"lp": 0,
+			"lp": 1050,
 			"tier": 70,
 			"speed": 0,
 			"damage": 0,
@@ -324620,7 +325778,7 @@
 				"Defence": 70
 			},
 			"class": "melee",
-			"lp": 0,
+			"lp": 700,
 			"tier": 70,
 			"speed": 0,
 			"damage": 0,
@@ -324639,7 +325797,7 @@
 				"Defence": 70
 			},
 			"class": "melee",
-			"lp": 0,
+			"lp": 1050,
 			"tier": 70,
 			"speed": 0,
 			"damage": 0,
@@ -326170,7 +327328,7 @@
 				"Prayer": 25
 			},
 			"class": "melee",
-			"lp": 0,
+			"lp": 375,
 			"tier": 23,
 			"speed": 0,
 			"damage": 0,
@@ -326247,7 +327405,7 @@
 				"Prayer": 25
 			},
 			"class": "melee",
-			"lp": 0,
+			"lp": 250,
 			"tier": 25,
 			"speed": 0,
 			"damage": 0,
@@ -326266,7 +327424,7 @@
 				"Prayer": 25
 			},
 			"class": "melee",
-			"lp": 0,
+			"lp": 125,
 			"tier": 25,
 			"speed": 0,
 			"damage": 0,
@@ -326306,7 +327464,7 @@
 				"Prayer": 25
 			},
 			"class": "melee",
-			"lp": 0,
+			"lp": 200,
 			"tier": 23,
 			"speed": 0,
 			"damage": 0,
@@ -326405,7 +327563,7 @@
 				"Prayer": 25
 			},
 			"class": "melee",
-			"lp": 0,
+			"lp": 375,
 			"tier": 25,
 			"speed": 0,
 			"damage": 0,
@@ -326424,7 +327582,7 @@
 				"Prayer": 25
 			},
 			"class": "melee",
-			"lp": 0,
+			"lp": 375,
 			"tier": 25,
 			"speed": 0,
 			"damage": 0,
@@ -326443,7 +327601,7 @@
 				"Prayer": 25
 			},
 			"class": "melee",
-			"lp": 0,
+			"lp": 375,
 			"tier": 25,
 			"speed": 0,
 			"damage": 0,
@@ -326883,7 +328041,7 @@
 				"Defence": 20
 			},
 			"class": "magic",
-			"lp": 0,
+			"lp": 100,
 			"tier": 20,
 			"speed": 0,
 			"damage": 0,
@@ -326901,7 +328059,7 @@
 				"Defence": 1
 			},
 			"class": "magic",
-			"lp": 0,
+			"lp": 5,
 			"tier": 5,
 			"speed": 0,
 			"damage": 0,
@@ -326919,7 +328077,7 @@
 				"Defence": 1
 			},
 			"class": "magic",
-			"lp": 0,
+			"lp": 5,
 			"tier": 5,
 			"speed": 0,
 			"damage": 0,
@@ -327307,7 +328465,7 @@
 				"Defence": 20
 			},
 			"class": "melee",
-			"lp": 0,
+			"lp": 300,
 			"tier": 25,
 			"speed": 0,
 			"damage": 0,
@@ -327325,7 +328483,7 @@
 				"Defence": 20
 			},
 			"class": "melee",
-			"lp": 0,
+			"lp": 300,
 			"tier": 25,
 			"speed": 0,
 			"damage": 0,
