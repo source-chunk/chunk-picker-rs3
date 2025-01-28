@@ -8341,6 +8341,14 @@
 				"NoPet": true,
 				"NoBoost": true
 			},
+			"Wield the ~|primed keris|~": {
+				"Items": ["Primed keris"],
+				"Level": 70,
+				"Primary": false,
+				"Priority": 14,
+				"NoPet": true,
+				"NoBoost": true
+			},
 			"Wield a ~|Saradomin sword|~": {
 				"Items": ["Saradomin sword"],
 				"Level": 75,
@@ -38854,7 +38862,7 @@
 				"Priority": 1
 			},
 			"Tip ~|ruby bolts|~": {
-				"Items": ["Mithril bolts*", "Ruby bolt tips*"],
+				"Items": ["Adamant bolts*", "Ruby bolt tips*"],
 				"Level": 63,
 				"Output": "Ruby bolts",
 				"Primary": true,
@@ -59546,6 +59554,15 @@
 				"Output": "Profane Scabarite",
 				"NoPet": true
 			},
+			"Slay an ~|elite profane scabarite|~": {
+				"Level": 87,
+				"Monsters": ["Elite Profane Scabarite"],
+				"Primary": false,
+				"Priority": 2,
+				"Source": "drop",
+				"Output": "Elite Profane Scabarite",
+				"NoPet": true
+			},
 			"Slay a ~|grifolapine|~": {
 				"Level": 88,
 				"Monsters": ["Grifolapine"],
@@ -69631,6 +69648,133 @@
 					"Cooking": 5000,
 					"Fishing": 5000,
 					"Attack|Constitution|Strength|Defence|Ranged|Prayer|Magic|Herblore|Slayer|Summoning": 10000
+				}
+			},
+			"~|Beneath Scabaras' Sands|~ 1": {
+				"BaseQuest": "Beneath Scabaras' Sands",
+				"Description": "Enter the Menaphos Throne Room",
+				"Chunks": ["12586"],
+				"Skills": {
+					"Slayer": 87
+				},
+				"Tasks": {
+					"~|'Phite Club|~ Complete the quest": "Quest",
+					"~|Ode of the Devourer|~ Complete the quest": "Quest"
+				},
+				"NoBoost": true
+			},
+			"~|Beneath Scabaras' Sands|~ 2a": {
+				"BaseQuest": "Beneath Scabaras' Sands",
+				"Description": "Get the report from Emir Ali Mirza",
+				"Chunks": ["13105"],
+				"Tasks": {
+					"~|Beneath Scabaras' Sands|~ 1": "Quest"
+				}
+			},
+			"~|Beneath Scabaras' Sands|~ 2b": {
+				"BaseQuest": "Beneath Scabaras' Sands",
+				"Description": "Get the report from Hakeem the Mayor",
+				"Chunks": ["13358"],
+				"Tasks": {
+					"~|Beneath Scabaras' Sands|~ 1": "Quest"
+				}
+			},
+			"~|Beneath Scabaras' Sands|~ 2c": {
+				"BaseQuest": "Beneath Scabaras' Sands",
+				"Description": "Get the report from Awusha the Mayor",
+				"Chunks": ["13613"],
+				"Tasks": {
+					"~|Beneath Scabaras' Sands|~ 1": "Quest"
+				}
+			},
+			"~|Beneath Scabaras' Sands|~ 2d": {
+				"BaseQuest": "Beneath Scabaras' Sands",
+				"Description": "Get the report from the High Presit of Ichtlarin",
+				"Chunks": ["13098"],
+				"Tasks": {
+					"~|Beneath Scabaras' Sands|~ 1": "Quest"
+				}
+			},
+			"~|Beneath Scabaras' Sands|~ 3": {
+				"BaseQuest": "Beneath Scabaras' Sands",
+				"Description": "Return the reports to Osman and fend off the scabarites",
+				"Chunks": ["12586"],
+				"Tasks": {
+					"~|Beneath Scabaras' Sands|~ 2a": "Quest",
+					"~|Beneath Scabaras' Sands|~ 2b": "Quest",
+					"~|Beneath Scabaras' Sands|~ 2c": "Quest",
+					"~|Beneath Scabaras' Sands|~ 2d": "Quest"
+				}
+			},
+			"~|Beneath Scabaras' Sands|~ 4": {
+				"BaseQuest": "Beneath Scabaras' Sands",
+				"Description": "Speak to Osman and search for information in the Grand Library",
+				"Chunks": ["Grand Library of Menaphos"],
+				"Tasks": {
+					"~|Beneath Scabaras' Sands|~ 3": "Quest"
+				}
+			},
+			"~|Beneath Scabaras' Sands|~ 5": {
+				"BaseQuest": "Beneath Scabaras' Sands",
+				"Description": "Speak to Leela and Senliten at the Uzer Mastaba",
+				"Chunks": ["Uzer Mastaba"],
+				"Tasks": {
+					"~|Beneath Scabaras' Sands|~ 3": "Quest"
+				}
+			},
+			"~|Beneath Scabaras' Sands|~ 6": {
+				"BaseQuest": "Beneath Scabaras' Sands",
+				"Description": "Speak to Lead Archaeologist Kerner at the Ruins of Uzer and restore the golden scarab",
+				"Chunks": ["13872"],
+				"Items": ["Zarosian Artefact[+]"],
+				"Tasks": {
+					"~|Beneath Scabaras' Sands|~ 5": "Quest"
+				}
+			},
+			"~|Beneath Scabaras' Sands|~ 7": {
+				"BaseQuest": "Beneath Scabaras' Sands",
+				"Description": "Return to Osman",
+				"Chunks": ["12586"],
+				"Tasks": {
+					"~|Beneath Scabaras' Sands|~ 6": "Quest"
+				}
+			},
+			"~|Beneath Scabaras' Sands|~ 8": {
+				"BaseQuest": "Beneath Scabaras' Sands",
+				"Description": "Follow the golden scarab",
+				"Chunks": ["12844", "12845", "12846", "12590", "12847", "13103", "13102"],
+				"Tasks": {
+					"~|Beneath Scabaras' Sands|~ 7": "Quest"
+				}
+			},
+			"~|Beneath Scabaras' Sands|~ 9": {
+				"BaseQuest": "Beneath Scabaras' Sands",
+				"Description": "Enter the Scabarite Cavern, discover the Temple of Isolation, and speak to Scabaras",
+				"Chunks": ["Scabarite Cavern"],
+				"Tasks": {
+					"~|Beneath Scabaras' Sands|~ 8": "Quest"
+				}
+			},
+			"~|Beneath Scabaras' Sands|~ 10": {
+				"BaseQuest": "Beneath Scabaras' Sands",
+				"Description": "Stomp out Grief, and talk to Scabaras at the Temple of Amascut",
+				"Chunks": ["12848"],
+				"Tasks": {
+					"~|Beneath Scabaras' Sands|~ 9": "Quest"
+				}
+			},
+			"~|Beneath Scabaras' Sands|~ Complete the quest": {
+				"BaseQuest": "Beneath Scabaras' Sands",
+				"Chunks": ["12848"],
+				"Tasks": {
+					"~|Beneath Scabaras' Sands|~ 10": "Quest"
+				},
+				"Reward": ["Primed keris"],
+				"QuestPoints": 2,
+				"XpReward": {
+					"Slayer": 100000,
+					"Archaeology": 100000,
+					"Attack|Constitution|Strength|Defence|Ranged|Magic|Necromancy": 75000
 				}
 			},
 			"~|Benedict's World Tour (miniquest)|~ 1": {
@@ -105796,7 +105940,8 @@
 					"Herblore": 65
 				},
 				"Tasks": {
-					"~|New Varrock Achievements#Medium|~ Complete the Medium Achievements": "Diary"
+					"~|New Varrock Achievements#Medium|~ Complete the Medium Achievements": "Diary",
+					"~|Defender of Varrock|~ Complete the quest": "Quest"
 				},
 				"BaseQuest": "New Varrock Achievements"
 			},
@@ -108489,7 +108634,7 @@
 			},
 			"~|Wilderness Achievements#Medium|~ Notatrivialtask": {
 				"Description": "Persuade Noterazzo in the Bandit Camp to show you his goods.",
-				"Chunks": ["12089"],
+				"Chunks": ["12089", "12342"],
 				"Tasks": {
 					"~|Wilderness Achievements#Easy|~ Complete the Easy Achievements": "Diary"
 				},
@@ -126195,6 +126340,12 @@
 					"~|Extinction|~ Complete the quest": "Quest"
 				}
 			},
+			"Temple of Isolation": {
+				"UnlocksArea": true,
+				"Tasks": {
+					"~|Beneath Scabaras' Sands|~ Complete the quest": "Quest"
+				}
+			},
 			"Create a super explosive shaker*": {
 				"Items": ["Super explosive flask", "Rubium"],
 				"Output": "Super explosive shaker"
@@ -129058,6 +129209,11 @@
 			"Access the Lumbridge Swamp caves via 12953": {
 				"Chunks": ["12953"],
 				"Items": ["Rope"]
+			},
+			"Cosecrate the primed keris*": {
+				"Items": ["Primed keris"],
+				"Monsters": ["Elite Profane Scabarites"],
+				"Output": "Consecrated keris"
 			}
 		}
 	},
@@ -129175,6 +129331,9 @@
 		},
 		"38": {
 			"Name": "Dream of Iaia"
+		},
+		"39": {
+			"Name": "Temple of Isolation"
 		},
 		"258": {
 			"Spawn": {
@@ -132622,7 +132781,7 @@
 			},
 			"Monster": {
 				"Flesh Crawler": 26,
-				"Zombie": 52,
+				"Zombie (Stronghold of Security)": 52,
 				"Giant rat": 10,
 				"Rat": 60
 			},
@@ -136640,7 +136799,8 @@
 				"Fire": 1
 			},
 			"Monster": {
-				"Zombie": 14,
+				"Zombie#Level 12": 14,
+				"Zombie#Level 29": 4,
 				"Blessed spider": 4,
 				"Sir Jerro": 1,
 				"Sir Carl": 1,
@@ -138053,7 +138213,8 @@
 				"Knight of Ardougne": 26,
 				"Man": 1,
 				"Woman": 11,
-				"Zombie": 5
+				"Zombie#Level 12": 2,
+				"Zombie#Level 29": 3
 			},
 			"NPC": {
 				"Kilron": 1,
@@ -140021,6 +140182,9 @@
 				"Achey Tree": 7,
 				"Feldip swamp rock": 3
 			},
+			"Monster": {
+				"Chompy bird": 1
+			},
 			"NPC": {
 				"Ogre boat": 1,
 				"Rantz": 2
@@ -140048,8 +140212,7 @@
 			},
 			"Monster": {
 				"Spider": 2,
-				"Jungle spider": 19,
-				"Chompy bird": 1
+				"Jungle spider": 19
 			},
 			"NPC": {
 				"Larry": 1,
@@ -148756,7 +148919,8 @@
 				"Our Man in the North": "step",
 				"'Phite Club": "step",
 				"Succession": "step",
-				"Tomes of the Warlock": "step"
+				"Tomes of the Warlock": "step",
+				"Beneath Scabaras' Sands": "first"
 			},
 			"Nickname": "Menaphos Pyramid"
 		},
@@ -148875,7 +149039,8 @@
 				"The Big Heist Lodge": true
 			},
 			"Quest": {
-				"Desert Treasure": "step"
+				"Desert Treasure": "step",
+				"Beneath Scabaras' Sands": "step"
 			},
 			"Nickname": "Desert Bandit Camp"
 		},
@@ -149741,7 +149906,8 @@
 				"11801": true
 			},
 			"Quest": {
-				"The Jack of Spades": "step"
+				"The Jack of Spades": "step",
+				"Beneath Scabaras' Sands": "step"
 			},
 			"Nickname": "Exiled Kalphite Hive"
 		},
@@ -149758,7 +149924,8 @@
 				"12945": true
 			},
 			"Quest": {
-				"Desert Treasure": "step"
+				"Desert Treasure": "step",
+				"Beneath Scabaras' Sands": "step"
 			},
 			"Nickname": "Jaldraocht"
 		},
@@ -149795,7 +149962,8 @@
 			},
 			"Quest": {
 				"Desert Treasure": "step",
-				"Do No Evil": "step"
+				"Do No Evil": "step",
+				"Beneath Scabaras' Sands": "step"
 			},
 			"Nickname": "Bandit Camp Lodestone"
 		},
@@ -149811,7 +149979,8 @@
 			"Connect": {},
 			"Quest": {
 				"Do No Evil": "step",
-				"The Tourist Trap": "step"
+				"The Tourist Trap": "step",
+				"Beneath Scabaras' Sands": "step"
 			},
 			"Nickname": "Rocky Desert"
 		},
@@ -149840,7 +150009,8 @@
 			},
 			"Quest": {
 				"Diamond in the Rough": "step",
-				"Ode of the Devourer": "step"
+				"Ode of the Devourer": "step",
+				"Beneath Scabaras' Sands": "step"
 			},
 			"Nickname": "Kalphite Hive"
 		},
@@ -150232,7 +150402,6 @@
 				"Tools": 1,
 				"Display case": 21,
 				"Painting": 1,
-				"Oak": 1,
 				"Tree": 10,
 				"Mysterious cape": 1,
 				"Anvil": 3,
@@ -150516,7 +150685,8 @@
 			"Monster": {
 				"Rat": 6,
 				"Abyssal demon": 17,
-				"Zombie": 21,
+				"Zombie#Level 22": 10,
+				"Zombie#Level 29": 11,
 				"Demon Boss (Wilderness)": 1
 			},
 			"NPC": {
@@ -150985,7 +151155,8 @@
 			"Quest": {
 				"Contact!": "first",
 				"Dealing with Scabaras": "first",
-				"Icthlarin's Little Helper": "step"
+				"Icthlarin's Little Helper": "step",
+				"Beneath Scabaras' Sands": "step"
 			},
 			"Nickname": "Sophanem Temple"
 		},
@@ -151118,7 +151289,8 @@
 				"35": true
 			},
 			"Quest": {
-				"Desert Treasure": "step"
+				"Desert Treasure": "step",
+				"Beneath Scabaras' Sands": "step"
 			},
 			"Nickname": "Tumeken's Remnant"
 		},
@@ -151160,7 +151332,8 @@
 			},
 			"Quest": {
 				"Evil Dave's Big Day Out": "step",
-				"The Tourist Trap": "step"
+				"The Tourist Trap": "step",
+				"Beneath Scabaras' Sands": "step"
 			},
 			"Nickname": "The Desert Mining Camp"
 		},
@@ -151286,7 +151459,8 @@
 				"Our Man in the North": "step",
 				"Shadow of the Storm": "first",
 				"Stolen Hearts": "step",
-				"Ode of the Devourer": "step"
+				"Ode of the Devourer": "step",
+				"Beneath Scabaras' Sands": "step"
 			},
 			"Nickname": "Al Kharid"
 		},
@@ -152319,7 +152493,8 @@
 				"My Arm's Big Adventure": "step",
 				"Our Man in the North": "step",
 				"Rat Catchers": "step",
-				"Smoking Kills": "first"
+				"Smoking Kills": "first",
+				"Beneath Scabaras' Sands": "step"
 			},
 			"Nickname": "Pollnivneach"
 		},
@@ -152946,7 +153121,8 @@
 				"Do No Evil": "step",
 				"Mahjarrat Memories (miniquest)": "step",
 				"Spirits of the Elid": "first",
-				"The Temple at Senntisten": "first"
+				"The Temple at Senntisten": "first",
+				"Beneath Scabaras' Sands": "step"
 			},
 			"Nickname": "Nardah"
 		},
@@ -153508,9 +153684,6 @@
 				"Drezel": 1,
 				"Ivan Strom": 1
 			},
-			"Monster": {
-				"Lycurgus": 1
-			},
 			"Connect": {
 				"13622": true
 			},
@@ -153574,7 +153747,8 @@
 			},
 			"Quest": {
 				"The Golem": "first",
-				"Shadow of the Storm": "step"
+				"Shadow of the Storm": "step",
+				"Beneath Scabaras' Sands": "step"
 			},
 			"Nickname": "Uzer"
 		},
@@ -163721,7 +163895,7 @@
                 "Dramen tree": 1
             },
             "Monster": {
-                "Zombie": 5,
+                "Zombie (Entrana Dungeon)": 5,
                 "Greater demon": 2
             },
             "Connect": {
@@ -164256,7 +164430,8 @@
 				"12586": true
 			},
 			"Quest": {
-				"Our Man in the North": "step"
+				"Our Man in the North": "step",
+				"Beneath Scabaras' Sands": "step"
 			}
 		},
 		"Living Wyvern Cavern": {
@@ -164955,7 +165130,8 @@
 				"Pipe": 2
 			},
 			"Monster": {
-				"Zombie": 7,
+				"Zombie#12": 3,
+				"Zombie#29": 4,
 				"Rat": 10,
 				"Skeleton": 4
 			},
@@ -165990,7 +166166,7 @@
 				"Wolf": 16,
 				"Rat#Stronghold of Security": 116,
 				"Flesh Crawler": 26,
-				"Zombie": 52,
+				"Zombie (Stronghold of Security)": 52,
 				"Giant rat": 10,
 				"Catablepon": 26,
 				"Giant spider": 45,
@@ -167527,7 +167703,8 @@
 				"Do No Evil": "first",
 				"Missing My Mummy": "step",
 				"Restoring Senliten": "step",
-				"Our Man in the North": "step"
+				"Our Man in the North": "step",
+				"Beneath Scabaras' Sands": "step"
 			}
 		},
 		"Cosmic Entity plane": {
@@ -167647,7 +167824,8 @@
 				"Giant rat": 12,
 				"Skeleton": 35,
 				"Poison spider": 6,
-				"Zombie": 20,
+				"Zombie#Level 22": 10,
+				"Zombie#Level 29": 10,
 				"Hobgoblin": 5,
 				"Deadly red spider": 18,
 				"Earth warrior": 4,
@@ -167969,7 +168147,8 @@
 				"Rat": 23,
 				"Giant spider": 5,
 				"Skeleton": 5,
-				"Zombie": 6,
+				"Zombie#Level 12": 3,
+				"Zombie#Level 29": 3,
 				"Giant rat": 4,
 				"Red deadly spider": 5
 			},
@@ -168445,7 +168624,7 @@
 				"Rat": 3,
 				"Spider": 3,
 				"Melzar the Mad": 1,
-				"Zombie": 2,
+				"Zombie (Melzar's Maze)": 2,
 				"Lesser demon": 1
 			},
 			"Connect": {
@@ -169015,7 +169194,8 @@
 				"Glarial's Tomb": 1
 			},
 			"Monster": {
-				"Zombie": 6,
+				"Zombie#Level 12": 3,
+				"Zombie#Level 29": 3,
 				"Skeleton": 6,
 				"Moss giant": 3
 			},
@@ -169037,7 +169217,8 @@
 				"Tunnel": 1
 			},
 			"Monster": {
-				"Zombie": 3,
+				"Zombie#Level 12": 2,
+				"Zombie#Level 29": 1,
 				"Giant bat": 3,
 				"Hobgoblin": 9
 			},
@@ -169109,7 +169290,6 @@
 				"Wizard Frumscone": 1
 			},
 			"Monster": {
-				"Zombie": 8,
 				"Giant bat": 8,
 				"Skeleton": 6,
 				"Chaos druid": 11,
@@ -169931,7 +170111,8 @@
 				"Blessed giant rat": 4,
 				"Unicorn": 1,
 				"Goblin": 12,
-				"Zombie": 18,
+				"Zombie#Level 12": 14,
+				"Zombie#Level 29": 4,
 				"Blessed spider": 52,
 				"Sir Jerro": 1,
 				"Sir Carl": 1,
@@ -170006,7 +170187,7 @@
 		"Eastern Ardougne sewer": {
 			"Monster": {
 				"Rat": 5,
-				"Zombie": 3,
+				"Zombie#Level 29": 3,
 				"Giant rat": 8
 			},
 			"Connect": {
@@ -171101,7 +171282,7 @@
 				"Agrith Naar": 1
 			},
 			"Monster": {
-				"Zombie": 49,
+				"Zombie (Dimension of Disaster)": 49,
 				"New Varrock guard": 28,
 				"New Varrock guard captain": 8,
 				"Undead chicken": 3,
@@ -172323,8 +172504,12 @@
 				"Chest (Scabarite Cavern)": 1,
 				"Sack (Scabarite Cavern)": 3
 			},
+			"Quest": {
+				"Beneath Scabaras' Sands": "step"
+			},
 			"Connect": {
-				"13102": true
+				"13102": true,
+				"39": true
 			}
 		},
 		"Sinkhole": {
@@ -172372,6 +172557,14 @@
 		"Dream of Iaia": {
 			"Connect": {
 				"37": true
+			}
+		},
+		"Temple of Isolation": {
+			"Monster": {
+				"Elite Profane Scabarite": 10
+			},
+			"Connect": {
+				"35": true
 			}
 		}
 	},
@@ -176665,6 +176858,60 @@
 				"Anima core body of Zaros",
 				"Anima core helm of Zaros",
 				"Anima core legs of Zaros"
+			],
+			"Zarosian Artefact[+]": [
+				"Venator light crossbow",
+				"Venator dagger",
+				"Primis Elementis standard",
+				"Legionary square shield",
+				"Legionary gladius",
+				"Zarosian training dummy",
+				"Zaros effigy",
+				"Legatus Maximus figurine",
+				"'Solem in Umbra' painting",
+				"Legatus pendant",
+				"Ancient timepiece",
+				"Pontifex signet ring",
+				"'Incite Fear' spell scroll",
+				"Funerary urn of shadow",
+				"Curse tablet",
+				"Apex cap",
+				"Infula robes",
+				"Hand of the Ancients",
+				"Funerary urn of smoke",
+				"Loarnab rod",
+				"Funerary urn of ice",
+				"Decorative amphora",
+				"Inquisitor's seal",
+				"Inquisitor's ceremonial mask",
+				"Inquisitor's ceremonial armour",
+				"Gladiator sword",
+				"Gladiator helmet",
+				"Funerary urn of blood",
+				"Model chariot",
+				"Funerary urn of miasma",
+				"'The Serpent's Fall' carving",
+				"Pontifex Maximus figurine",
+				"Cermonial mace",
+				"'Consensus ad Idem' painting",
+				"Pontifex mitre",
+				"Pontifex crozier",
+				"Pontifex censer",
+				"Necromantic focus",
+				"'Exsanguinate' spell scroll",
+				"Zarosian stein",
+				"Zarosian ewer",
+				"Vigorem vial",
+				"'Smoke Cloud' spell scroll",
+				"Portable phylactery",
+				"Ancient magic tablet",
+				"'Animate Dead' spell scroll",
+				"Praetorian staff",
+				"Praetorian robes",
+				"Praetorian hood",
+				"Battle plans",
+				"Ancient globe",
+				"'Prima Legio' painting"
 			]
 		},
 		"itemsPlusNames": {
@@ -177227,7 +177474,8 @@
 			"ZamorakAnimaCore[+]": "Any piece of Zamorak anima core armour",
 			"ZamorakPotion[+]": "Any Zamorak potion",
 			"ZanarianZygoParents[+]": "Any breedable zygomyte variant",
-			"ZarosAnimaCore[+]": "Any piece of Zaros anima core armour"
+			"ZarosAnimaCore[+]": "Any piece of Zaros anima core armour",
+			"Zarosian Artefact[+]": "Any artefact from Zarosian culture"
 		},
 		"chunksPlus": {
 			"10coin chest[+]": ["10291", "10547", "10553", "12109"],
@@ -178687,6 +178935,10 @@
 			"Otherworldly beings": {
 				"Otherworldly being": true
 			},
+			"Profane Scabarites": {
+				"Profane Scabarite": true,
+				"Elite Profane Scabarite": true
+			},
 			"Pyrefiends": {
 				"Revenant pyrefiend": true,
 				"Pyrefiend": true,
@@ -178758,10 +179010,8 @@
 				"High Priest of Scabaras": true,
 				"Corrupted scarab": true,
 				"Scarab akh": true,
-				"Profane Scabarite": true
-			},
-			"Profane Scabarites": {
-				"Profane Scabarite": true
+				"Profane Scabarite": true,
+				"Elite Profane Scabarite": true
 			},
 			"Scorpions": {
 				"Grave scorpion": true,
@@ -233165,7 +233415,109 @@
 				"1": "Very rare"
 			}
 		},
-		"Zombie": {
+		"Zombie#Level 12": {
+			"Bones": {
+				"1": "Always"
+			},
+			"Grimy guam": {
+				"1": "Common"
+			},
+			"Grimy marrentill": {
+				"1": "Uncommon"
+			},
+			"Grimy tarromin": {
+				"1": "Uncommon"
+			},
+			"Grimy harralander": {
+				"1": "Uncommon"
+			},
+			"Grimy ranarr": {
+				"1": "Uncommon"
+			},
+			"Grimy irit": {
+				"1": "Uncommon"
+			},
+			"Grimy avantoe": {
+				"1": "Rare"
+			},
+			"Grimy kwuarm": {
+				"1": "Rare"
+			},
+			"Grimy cadantine": {
+				"1": "Rare"
+			},
+			"Grimy lantadyme": {
+				"1": "Rare"
+			},
+			"Grimy dwarf weed": {
+				"1": "Rare"
+			},
+			"Small bladed bronze salvage": {
+				"1": "Rare"
+			},
+			"Tiny plated bronze salvage": {
+				"1": "Uncommon"
+			},
+			"Iron arrow": {
+				"5": "Common",
+				"8": "Common"
+			},
+			"Steel arrow": {
+				"5": "Uncommon"
+			},
+			"Body rune": {
+				"6": "Common"
+			},
+			"Air rune": {
+				"13": "Uncommon"
+			},
+			"Mind rune": {
+				"5": "Uncommon"
+			},
+			"Nature rune": {
+				"6": "Uncommon"
+			},
+			"Copper stone spirit": {
+				"1": "Uncommon"
+			},
+			"Coins": {
+				"4": "Common",
+				"10": "Common",
+				"13": "Common",
+				"18": "Common",
+				"28": "Common"
+			},
+			"Fishing bait": {
+				"5": "Common"
+			},
+			"Iron hatchet": {
+				"1": "Unknown"
+			},
+			"Zombie bone": {
+				"1": "Common"
+			},
+			"Zombie Champion's scroll": {
+				"1": "1/5000"
+			},
+			"Starved ancient effigy": {
+				"1": "Very rare"
+			}
+		},
+		"Zombie#Level 22": {
+			"Bones": {
+				"1": "Always"
+			},
+			"Zombie bone": {
+				"1": "Common"
+			},
+			"Zombie Champion's scroll": {
+				"1": "1/5000"
+			},
+			"Starved ancient effigy": {
+				"1": "Very rare"
+			}
+		},
+		"Zombie#Level 29": {
 			"Bones": {
 				"1": "Always"
 			},
@@ -233176,7 +233528,7 @@
 				"1": "Common"
 			},
 			"Grimy tarromin": {
-				"1": "Common"
+				"1": "Uncommon"
 			},
 			"Grimy harralander": {
 				"1": "Uncommon"
@@ -233194,120 +233546,68 @@
 				"1": "Rare"
 			},
 			"Grimy cadantine": {
-				"1": "Very rare"
+				"1": "Rare"
 			},
 			"Grimy lantadyme": {
-				"1": "Very rare"
+				"1": "Rare"
 			},
 			"Grimy dwarf weed": {
-				"1": "Very rare"
-			},
-			"Tiny bladed bronze salvage": {
-				"1": "Uncommon"
-			},
-			"Small bladed bronze salvage": {
-				"1": "Uncommon"
-			},
-			"Tiny plated bronze salvage": {
-				"1": "Uncommon"
+				"1": "Rare"
 			},
 			"Medium plated bronze salvage": {
-				"1": "Uncommon"
+				"1": "Rare"
 			},
 			"Tiny spiky iron salvage": {
-				"1": "Uncommon"
-			},
-			"Tiny bladed iron salvage": {
 				"1": "Uncommon"
 			},
 			"Tiny blunt iron salvage": {
 				"1": "Uncommon"
 			},
-			"Iron arrow": {
-				"5": "Uncommon",
-				"8": "Uncommon"
-			},
-			"Steel arrow": {
-				"5-32": "Common"
-			},
 			"Mithril arrow": {
-				"1": "Uncommon",
-				"2": "Uncommon"
-			},
-			"Chargebow": {
 				"1": "Uncommon"
 			},
+			"Chargebow": {
+				"1": "Common"
+			},
 			"Staff of air": {
-				"1": "Very rare"
+				"1": "Common"
 			},
 			"Body rune": {
-				"3-11": "Common"
+				"3": "Uncommon"
 			},
 			"Chaos rune": {
-				"4": "Uncommon"
+				"4": "Rare"
 			},
 			"Air rune": {
-				"13": "Uncommon"
+				"3": "Uncommon"
 			},
 			"Fire rune": {
-				"7-84": "Uncommon"
-			},
-			"Mind rune": {
-				"5-7": "Uncommon"
-			},
-			"Nature rune": {
-				"6": "Uncommon"
-			},
-			"Law rune": {
-				"2": "Uncommon"
+				"7": "Rare"
 			},
 			"Cosmic rune": {
-				"2": "Uncommon"
+				"2": "Rare"
 			},
 			"Tinderbox": {
 				"1": "Uncommon"
 			},
-			"Tile": {
-				"1": "Uncommon"
-			},
-			"Beer": {
-				"1": "Uncommon"
-			},
-			"Copper stone spirit": {
-				"1": "Uncommon"
-			},
-			"Iron stone spirit": {
-				"1": "Uncommon"
-			},
 			"Tin stone spirit": {
-				"1": "Uncommon"
-			},
-			"Ashes": {
-				"1": "Uncommon"
+				"1": "Rare"
 			},
 			"Eye of newt": {
-				"1": "Uncommon"
-			},
-			"Unholy mould": {
-				"1": "Uncommon"
-			},
-			"Half a meat pie": {
-				"1": "Very rare"
+				"1": "Rare"
 			},
 			"Coins": {
-				"1-82": "Common"
+				"1": "Common",
+				"10": "Common",
+				"18": "Common",
+				"26": "Common",
+				"35": "Common"
 			},
 			"Fishing bait": {
-				"1": "Common",
-				"5": "Common",
-				"7": "Common",
-				"9": "Common"
-			},
-			"Bronze hatchet": {
-				"1": "Unknown"
+				"7": "Common"
 			},
 			"Iron hatchet": {
-				"1": "Unknown"
+				"1": "Rare"
 			},
 			"Zombie bone": {
 				"1": "Common"
@@ -233320,6 +233620,140 @@
 			},
 			"Rare drop table": {
 				"1": "Rare"
+			}
+		},
+		"Zombie (Stronghold of Security)": {
+			"Bones": {
+				"1": "Always"
+			},
+			"Coins": {
+				"5-84": "Common"
+			},
+			"Body rune": {
+				"7": "Common"
+			},
+			"Steel arrow": {
+				"5-14": "Common"
+			},
+			"Beer": {
+				"1": "Common"
+			},
+			"Ashes": {
+				"1": "Common"
+			},
+			"Grimy guam": {
+				"1": "Rare"
+			},
+			"Grimy tarromin": {
+				"1": "Rare"
+			},
+			"Grimy marrentill": {
+				"1": "Rare"
+			},
+			"Grimy harralander": {
+				"1": "Rare"
+			},
+			"Grimy ranarr": {
+				"1": "Rare"
+			},
+			"Grimy avantoe": {
+				"1": "Rare"
+			},
+			"Grimy kwuarm": {
+				"1": "Rare"
+			},
+			"Grimy cadantine": {
+				"1": "Rare"
+			},
+			"Grimy lantadyme": {
+				"1": "Very rare"
+			},
+			"Grimy dwarf weed": {
+				"1": "Very rare"
+			},
+			"Zombie bone": {
+				"1": "Common"
+			},
+			"Zombie Champion's scroll": {
+				"1": "1/5000"
+			},
+			"Starved ancient effigy": {
+				"1": "Very rare"
+			}
+		},
+		"Zombie (Entrana Dungeon)": {
+			"Bones": {
+				"1": "Always"
+			},
+			"Coins": {
+				"18": "Uncommon",
+				"28": "Uncommon"
+			},
+			"Air rune": {
+				"13": "Uncommon"
+			},
+			"Nature rune": {
+				"6": "Rare"
+			},
+			"Bronze arrow": {
+				"8": "Uncommon"
+			},
+			"Bronze hatchet": {
+				"1": "Common"
+			},
+			"Iron hatchet": {
+				"1": "Rare"
+			},
+			"Tiny plated bronze salvage": {
+				"1": "Uncommon"
+			},
+			"Small bladed bronze salvage": {
+				"1": "Rare"
+			},
+			"Fishing bait": {
+				"5": "Common"
+			},
+			"Grimy guam": {
+				"1": "Rare"
+			},
+			"Grimy tarromin": {
+				"1": "Rare"
+			},
+			"Grimy marrentill": {
+				"1": "Rare"
+			},
+			"Grimy harralander": {
+				"1": "Rare"
+			},
+			"Grimy ranarr": {
+				"1": "Rare"
+			},
+			"Grimy irit": {
+				"1": "Rare"
+			},
+			"Grimy avantoe": {
+				"1": "Rare"
+			},
+			"Grimy kwuarm": {
+				"1": "Rare"
+			},
+			"Grimy cadantine": {
+				"1": "Very rare"
+			},
+			"Grimy lantadyme": {
+				"1": "Very rare"
+			},
+			"Grimy dwarf weed": {
+				"1": "Very rare"
+			},
+			"Zombie bone": {
+				"1": "Common"
+			},
+			"Zombie Champion's scroll": {
+				"1": "1/5000"
+			},
+			"Starved ancient effigy": {
+				"1": "Very rare"
 			}
 		},
 		"Zombie (Dimension of the Damned)": {
@@ -234116,6 +234550,7 @@
 		"Battle of the Monolith": "13365, 13364",
 		"Battle of Forinthry": "13111, Prison (Fort Forinthry)",
 		"Beneath Cursed Tides": "12337, 12342, 11824, Sunken tutorial island",
+		"Beneath Scabaras' Sands": "12586, 13105, 13358, 13613, 13098, Grand Library of Menaphos, Uzer Mastaba, 13972, 12844, 12845, 12846, 12590, 12847, 13103, 13102, Scabarite Cavern",
 		"Between a Rock...": "Keldagrim, 12085, Dwarven Mine, Dwarven Tunnel, Arzinian gold mine",
 		"Big Chompy Bird Hunting": "10542, Rantz's cave",
 		"Biohazard": "10292, 10291, 10035, 10036, 11570, 13108",
@@ -252472,6 +252907,80 @@
 					"1": "Very rare"
 				}
 			},
+			"Elite Profane Scabarite": {
+				"Carapace": {
+					"1": "Always"
+				},
+				"Gold charm": {
+					"1": "4/100"
+				},
+				"Green charm": {
+					"1": "20/100"
+				},
+				"Blue charm": {
+					"1": "10/100"
+				},
+				"Spectral lens": {
+					"1": "Unknown"
+				},
+				"Uncut dragonstone": {
+					"12 (noted)": "Common"
+				},
+				"Fellstalk seed": {
+					"3": "Uncommon"
+				},
+				"Ciku seed": {
+					"1": "Rare"
+				},
+				"Potato cactus": {
+					"20 (noted)": "Uncommon"
+				},
+				"Cadava berries": {
+					"10 (noted)": "Common"
+				},
+				"Mahogany wood spirit": {
+					"8": "Common"
+				},
+				"Yew wood spirit": {
+					"5": "Uncommon"
+				},
+				"Elder wood spirit": {
+					"3": "Uncommon"
+				},
+				"Primal stone spirit": {
+					"6": "Uncommon"
+				},
+				"Congealed blood": {
+					"30": "Common"
+				},
+				"Onyx bolt tips": {
+					"20": "Common"
+				},
+				"Onyx dust": {
+					"10": "Rare"
+				},
+				"Medium blunt rune salvage": {
+					"5 (noted)": "Common"
+				},
+				"Tiny planted orikalkum salvage": {
+					"3 (noted)": "Rare"
+				},
+				"Pure essence": {
+					"300 (noted)": "Common"
+				},
+				"Mud rune": {
+					"40": "Uncommon"
+				},
+				"Catalytic anima stone": {
+					"25": "Uncommon"
+				},
+				"Rare drop table": {
+					"1": "Rare"
+				},
+				"Priest's Notes": {
+					"1": "Common"
+				}
+			},
 			"Feline akh": {
 				"Coins": {
 					"1500-2000": "Common"
@@ -265359,6 +265868,7 @@
 		"Risen ghost": 85,
 		"Mutated jadinko guard": 86,
 		"Profane Scabarite": 87,
+		"Elite Profane Scabarite": 87,
 		"Grifolapine": 88,
 		"Corrupted scorpion": 88,
 		"Anagami": 90,
@@ -279773,6 +280283,26 @@
 			"prayer": 0,
 			"accuracy": 0,
 			"necromancy": 60
+		},
+		"Consecrated keris": {
+			"ranged": 0,
+			"slot": "main hand weapon",
+			"prayer": 5,
+			"style": "stab",
+			"ability_damage": 768,
+			"magic": 0,
+			"strength": 0,
+			"armour": 0,
+			"requirements": {
+				"Attack": 70
+			},
+			"speed": 3,
+			"tier": 80,
+			"lp": 0,
+			"attack_range": 1,
+			"class": "melee",
+			"accuracy": 1924,
+			"auto_damage": 768
 		},
 		"Constitution cape (t)": {
 			"ranged": 21.6,
@@ -308065,6 +308595,26 @@
 			"charges": 100000,
 			"prayer": 0,
 			"accuracy": 0
+		},
+		"Primed keris": {
+			"ranged": 0,
+			"slot": "main hand weapon",
+			"prayer": 4,
+			"style": "stab",
+			"ability_damage": 672,
+			"magic": 0,
+			"strength": 0,
+			"armour": 0,
+			"requirements": {
+				"Attack": 70
+			},
+			"speed": 3,
+			"tier": 70,
+			"lp": 0,
+			"attack_range": 1,
+			"class": "melee",
+			"accuracy": 1486,
+			"auto_damage": 672
 		},
 		"Profound decorative helm": {
 			"ranged": 0,
