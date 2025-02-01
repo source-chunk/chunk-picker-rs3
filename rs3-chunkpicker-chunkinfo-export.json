@@ -19884,7 +19884,7 @@
 				"Items": ["Deathwarden hood (tier 10)", "Lesser ensouled cloth"],
 				"Level": 15,
 				"Tasks": {
-					"|Kili Row| Complete the quest": "Quest"
+					"~|Kili Row|~ Complete the quest": "Quest"
 				},
 				"Primary": true,
 				"Output": "Deathwarden hood (tier 20)",
@@ -19895,7 +19895,7 @@
 				"Items": ["Deathwarden robe top (tier 10)", "Lesser ensouled cloth"],
 				"Level": 15,
 				"Tasks": {
-					"|Kili Row| Complete the quest": "Quest"
+					"~|Kili Row|~ Complete the quest": "Quest"
 				},
 				"Primary": true,
 				"Output": "Deathwarden robe top (tier 20)",
@@ -19906,7 +19906,7 @@
 				"Items": ["Deathwarden robe bottom (tier 10)", "Lesser ensouled cloth"],
 				"Level": 15,
 				"Tasks": {
-					"|Kili Row| Complete the quest": "Quest"
+					"~|Kili Row|~ Complete the quest": "Quest"
 				},
 				"Primary": true,
 				"Output": "Deathwarden robe bottom (tier 20)",
@@ -19917,7 +19917,7 @@
 				"Items": ["Deathwarden gloves (tier 10)", "Lesser ensouled cloth"],
 				"Level": 15,
 				"Tasks": {
-					"|Kili Row| Complete the quest": "Quest"
+					"~|Kili Row|~ Complete the quest": "Quest"
 				},
 				"Primary": true,
 				"Output": "Deathwarden gloves (tier 20)",
@@ -19928,7 +19928,7 @@
 				"Items": ["Deathwarden boots (tier 10)", "Lesser ensouled cloth"],
 				"Level": 15,
 				"Tasks": {
-					"|Kili Row| Complete the quest": "Quest"
+					"~|Kili Row|~ Complete the quest": "Quest"
 				},
 				"Primary": true,
 				"Output": "Deathwarden boots (tier 20)",
@@ -66771,7 +66771,7 @@
 				"Primary": true,
 				"Priority": 1
 			},
-			"Create a ~|chaos bar|": {
+			"Create a ~|chaos bar|~": {
 				"Chunks": ["Elemental Workshop Third Floor Second Hallway"],
 				"Items": ["Primed bar*", "Cosmic gloves"],
 				"Level": 39,
@@ -109746,7 +109746,7 @@
 					"Spot the ~|Titchy Tinamou|~": "Extra",
 					"Spot the ~|Azure parrot|~": "Extra",
 					"Spot the ~|Awah Guan|~": "Extra",
-					"Spot the ~Great Pecker|~": "Extra",
+					"Spot the ~|Great Pecker|~": "Extra",
 					"Spot the ~|Tuai Leit Toucan|~": "Extra",
 					"Spot the ~|Waiko Warbler|~": "Extra",
 					"Spot the ~|Fluffy Jublet|~": "Extra",
@@ -109769,7 +109769,7 @@
 					"Spot the ~|Titchy Tinamou|~": "Extra",
 					"Spot the ~|Azure parrot|~": "Extra",
 					"Spot the ~|Awah Guan|~": "Extra",
-					"Spot the ~Great Pecker|~": "Extra",
+					"Spot the ~|Great Pecker|~": "Extra",
 					"Spot the ~|Tuai Leit Toucan|~": "Extra",
 					"Spot the ~|Waiko Warbler|~": "Extra",
 					"Spot the ~|Fluffy Jublet|~": "Extra",
@@ -125875,19 +125875,13 @@
 			},
 			"Xolo City": {
 				"Tasks": {
-					"Restore a ~|lingam stone|~": "Archaeology"
-				},
-				"Skills": {
-					"Hunter": 86
+					"Archaeology Mystery: ~|Fragmented Memories|~ Complete the mystery": "Quest"
 				},
 				"UnlocksArea": true
 			},
 			"Moksha Ritual Site": {
 				"Tasks": {
-					"Activate the ~|Orthen teleportation device|~ at the Moksha ritual site": "Archaeology"
-				},
-				"Skills": {
-					"Runecrafting": 70
+					"Archaeology Mystery: ~|Know Thy Measure|~ Complete the mystery": "Quest"
 				},
 				"UnlocksArea": true
 			},
@@ -127018,7 +127012,7 @@
 					"Farming": 57
 				}
 			},
-			"Hard Ardougne tasks~|A Taste of the Exotic|~ (Coconut)*": {
+			"Hard Ardougne tasks ~|A Taste of the Exotic|~ (Coconut)*": {
 				"Description": "Pick a papaya fruit or coconut from the fruit tree patch near Tree Gnome Village.",
 				"Chunks": ["9777"],
 				"Items": ["Palm tree seed"],
@@ -128956,14 +128950,14 @@
 			"Fletch Quest*": {
 				"Items": ["Off-hand primal crossbow Mk. 5", "Primal crossbow Mk. 5", "Eternal magic shortbow Mk. 5"]
 			},
-			"Unlock the Jad pet": {
+			"Unlock the ~|TzRek-Jad|~": {
 				"Items": ["Fire cape"],
 				"Skills": {
 					"Summoning": 99,
 					"Slayer": 99
 				}
 			},
-			"Get the witchdoctor mask from Herblore Habitat*": {
+			"Get the ~|witchdoctor mask|~ from Herblore Habitat*": {
 				"Category": ["DnD"],
 				"Chunks": ["11821"],
 				"Items": ["Orange tree seed", "Apple tree seed", "Banana tree seed", "Plant pot", "WateringCan[+]"],
@@ -128973,7 +128967,7 @@
 				},
 				"Output": "Witchdoctor mask"
 			},
-			"Get the witchdoctor robes from Herblore Habitat*": {
+			"Get the ~|witchdoctor robes|~ from Herblore Habitat*": {
 				"Category": ["DnD"],
 				"Chunks": ["11821"],
 				"Items": ["Orange tree seed", "Apple tree seed", "Banana tree seed", "Plant pot", "WateringCan[+]"],
@@ -128983,7 +128977,7 @@
 				},
 				"Output": "Witchdoctor robes"
 			},
-			"Get the witchdoctor legs from Herblore Habitat*": {
+			"Get the ~|witchdoctor legs|~ from Herblore Habitat*": {
 				"Category": ["DnD"],
 				"Chunks": ["11821"],
 				"Items": ["Orange tree seed", "Apple tree seed", "Banana tree seed", "Plant pot", "WateringCan[+]"],
@@ -129026,7 +129020,7 @@
 				},
 				"Output": "Barrister top"
 			},
-			"Get the gavel from Court Cases*": {
+			"Get the ~|gavel|~ from Court Cases*": {
 				"Category": ["DnD"],
 				"Chunks": ["10806"],
 				"Items": ["Court summons"],
