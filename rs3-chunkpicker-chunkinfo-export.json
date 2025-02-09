@@ -73601,7 +73601,7 @@
 				"BaseQuest": "Dead and Buried",
 				"Description": "Build the first tier of the Ranger's Workroom, then speak to the Raptor",
 				"Chunks": ["13111"],
-				"Items": ["Acadia frame", "Stone wall segment"],
+				"Items": ["Acadia frame*", "Stone wall segment*"],
 				"Tasks": {
 					"~|Dead and Buried|~ 1": "Quest"
 				},
@@ -87404,9 +87404,12 @@
 				"BaseQuest": "Murder on the Border",
 				"Description": "Build the kitchen",
 				"Chunks": ["13111"],
-				"Items": ["Oak frame", "Stone wall segment"],
+				"Items": ["Willow frame", "Stone wall segment"],
 				"Tasks": {
 					"~|Murder on the Border|~ 1": "Quest"
+				},
+				"Skills": {
+					"Construction": 25
 				},
 				"Not F2P": true
 			},
@@ -97253,7 +97256,7 @@
 				"BaseQuest": "Unwelcome Guests",
 				"Description": "Build the guardhouse and speak to Siv",
 				"Chunks": ["13111"],
-				"Items": ["Teak frame", "Stone wall segment"],
+				"Items": ["Maple frame*", "Stone wall segment*"],
 				"Tasks": {
 					"~|Unwelcome Guests|~ 1": "Quest"
 				},
@@ -110741,8 +110744,8 @@
 				"Items": ["Hexhunter bow"]
 			},
 			"(Daemonheim) Obtain a ~|soulgazer's charm|~": {
-				"Category": ["Collection Log", "Slayer Collection Log"],
-				"Label": "Slayer Collection Log",
+				"Category": ["Collection Log", "Slayer Collection Log", "Pets"],
+				"Label": "Slayer Pets",
 				"Items": ["Soulgazer's charm"]
 			},
 			"(Daemonheim) Obtain a ~|blood necklace shard|~": {
@@ -111666,10 +111669,10 @@
 				"Label": "Slayer Collection Log",
 				"Items": ["Vesta's longsword"]
 			},
-			"(Wilderness) Obtain ~|Vesta's warhammer|~": {
+			"(Wilderness) Obtain ~|Vesta's spear|~": {
 				"Category": ["Collection Log", "Slayer Collection Log"],
 				"Label": "Slayer Collection Log",
-				"Items": ["Vesta's warhammer"]
+				"Items": ["Vesta's spear"]
 			},
 			"(Wilderness) Obtain ~|Zuriel's hood|~": {
 				"Category": ["Collection Log", "Slayer Collection Log"],
@@ -112359,10 +112362,10 @@
 				"Label": "Boss Collection Log",
 				"Items": ["Vesta's longsword"]
 			},
-			"(Chaos Elemental) Obtain ~|Vesta's warhammer|~": {
+			"(Chaos Elemental) Obtain ~|Vesta's spear|~": {
 				"Category": ["Collection Log", "Boss Collection Log"],
 				"Label": "Boss Collection Log",
-				"Items": ["Vesta's warhammer"]
+				"Items": ["Vesta's spear"]
 			},
 			"(Chaos Elemental) Obtain ~|Zuriel's hood|~": {
 				"Category": ["Collection Log", "Boss Collection Log"],
