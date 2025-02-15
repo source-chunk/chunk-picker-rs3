@@ -448,6 +448,8 @@ let rules = {
 	"PvM Relics": false,
     "KeyItem Bosses": false,
 	"Shooting Stars": false,
+	"Menaphos Events": false,
+	"Material Blueprints": false
 };                                                                              // List of rules and their on/off state
 
 let ruleNames = {
@@ -557,6 +559,8 @@ let ruleNames = {
 	"PvM Relics": "WIP - Must obtain all best-in-slot/quality-of-life Archaeology Relics for combat",
     "KeyItem Bosses": "For bosses that require keys to kill, factor in the droprate of the key as part of the droprate of each drop",
 	"Shooting Stars": "Getting the level to mine all tiers of shooting stars counts as a Mining skill task<span class='rule-asterisk noscroll'>*</span>"
+	"Menaphos Events": "Allow soul obelisks and corrupted scarabs in Menaphos to count as primary training methods<span class='rule-asterisk noscroll'>*</span>"
+	"Material Blueprints": "Count discovering material blueprints as a skilling task"
 };                                                                              // List of rule definitions
 
 let rulePresets = {
@@ -583,6 +587,7 @@ let rulePresets = {
 		"Cleaning Herbs": true,
 		"Unlock Abilities": true,
         "Unlock Prayers": true,
+		"Material Blueprints": true
     },
     "Xtreme Chunker": {
         "Skillcape": true,
@@ -654,7 +659,9 @@ let rulePresets = {
 		"Unlock Abilities": true,
 		"Sigil Abilities": true,
         "Unlock Prayers": true,
-        "Shooting Stars": true
+        "Shooting Stars": true,
+		"Menaphos Events": true,
+		"Material Blueprints": true
     },
     "Supreme Chunker": {
         "Skillcape": true,
@@ -736,7 +743,9 @@ let rulePresets = {
 		"Unlock Abilities": true,
 		"Sigil Abilities": true,
         "Unlock Prayers": true,
-        "Shooting Stars": true
+        "Shooting Stars": true,
+		"Menaphos Events": true,
+		"Material Blueprints": true
     }
 };                                                                              // List of rules that are part of each preset
 
@@ -778,6 +787,7 @@ let ruleStructure = {
 		"PortSkills": true,
 		"Token": true,
 		"DnD Skilling": true,
+		"Menaphos Events": true,
 		"Uncharted": true,
 		"Multiple Pickpockets": true
     },
@@ -811,6 +821,9 @@ let ruleStructure = {
 		"Puro-Puro": ["Extra implings"],
 		"Ogleroot": true
     },
+	"Invention": {
+		"Material Blueprints"
+	},
     "Magic": {
         "Spells": ["Combat and Teleport Spells"],
         "Secondary MTA": true
