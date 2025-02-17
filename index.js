@@ -449,7 +449,7 @@ let rules = {
     "KeyItem Bosses": false,
 	"Shooting Stars": false,
 	"Menaphos Events": false,
-	"Material Blueprints": false
+	"Material Blueprints": false,
 };                                                                              // List of rules and their on/off state
 
 let ruleNames = {
@@ -558,8 +558,8 @@ let ruleNames = {
 	"PVP": "Require tasks that can only be completed by engaging in PvP<span class='rule-asterisk noscroll'>†</span>",
 	"PvM Relics": "WIP - Must obtain all best-in-slot/quality-of-life Archaeology Relics for combat",
     "KeyItem Bosses": "For bosses that require keys to kill, factor in the droprate of the key as part of the droprate of each drop",
-	"Shooting Stars": "Getting the level to mine all tiers of shooting stars counts as a Mining skill task<span class='rule-asterisk noscroll'>*</span>"
-	"Menaphos Events": "Allow soul obelisks and corrupted scarabs in Menaphos to count as primary training methods<span class='rule-asterisk noscroll'>*</span>"
+	"Shooting Stars": "Getting the level to mine all tiers of shooting stars counts as a Mining skill task<span class='rule-asterisk noscroll'>*</span>",
+	"Menaphos Events": "Allow soul obelisks and corrupted scarabs in Menaphos to count as primary training methods<span class='rule-asterisk noscroll'>*</span>",
 	"Material Blueprints": "Count discovering material blueprints as a skilling task"
 };                                                                              // List of rule definitions
 
@@ -822,7 +822,7 @@ let ruleStructure = {
 		"Ogleroot": true
     },
 	"Invention": {
-		"Material Blueprints"
+		"Material Blueprints": true
 	},
     "Magic": {
         "Spells": ["Combat and Teleport Spells"],

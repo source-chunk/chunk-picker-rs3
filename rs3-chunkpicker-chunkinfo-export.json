@@ -45443,6 +45443,7 @@
 				"Priority": 1
 			},
 			"Train inventing by ~|disassembling|~": {
+				"Category": ["Token"],
 				"Level": 1,
 				"Skills": {
 					"Crafting": 80,
@@ -45764,7 +45765,7 @@
 			"Create a ~|hammer-tron|~": {
 				"Items": ["Hammer*", "Flexible parts*", "Base parts*", "Powerful components*", "Subtle components*"],
 				"Objects": ["Inventor's workbench"],
-				"Level": 1,
+				"Level": 22,
 				"Primary": true,
 				"Output": "Hammer-tron",
 				"Priority": 5
@@ -45772,10 +45773,10 @@
 			"Create a ~|pyro-matic|~": {
 				"Items": ["Tinderbox*", "Flexible parts*", "Base parts*", "Ethereal components*", "Imbued components*"],
 				"Objects": ["Inventor's workbench"],
-				"Level": 1,
+				"Level": 22,
 				"Primary": true,
 				"Output": "Pyro-matic",
-				"Priority": 1
+				"Priority": 6
 			},
 			"Create a ~|soul-in-a-box|~": {
 				"Items": ["Soul rune*", "Tensile parts*", "Smooth parts*", "Subtle components*", "Pious components*"],
