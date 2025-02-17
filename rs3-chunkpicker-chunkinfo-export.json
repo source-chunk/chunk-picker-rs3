@@ -46158,7 +46158,7 @@
 				"Chunks": ["Invention Guild"],
 				"Level": 72,
 				"Primary": true,
-				"Output Object": "Alchemiser"
+				"Output Object": "Alchemiser",
 				"Priority": 1
 			},
 			"Discover ~|Bandos components|~": {
@@ -46211,7 +46211,7 @@
 				"Objects": ["Simple generator"],
 				"Level": 80,
 				"Primary": true,
-				"Output Object": "Large generator"
+				"Output Object": "Large generator",
 				"Priority": 1
 			},
 			"Build an ~|auto disassembler mk. II|~": {
@@ -46219,7 +46219,7 @@
 				"Chunks": ["Invention Guild"],
 				"Level": 80,
 				"Primary": true,
-				"Output Object": "Auto disassembler mk. II"
+				"Output Object": "Auto disassembler mk. II",
 				"Priority": 2
 			},
 			"Create an ~|enchantment of dread|~": {
@@ -46446,7 +46446,7 @@
 				"Chunks": ["Invention Guild"],
 				"Level": 90,
 				"Primary": true,
-				"Output Object": "Partial potion producer"
+				"Output Object": "Partial potion producer",
 				"Priority": 1
 			},
 			"Create a ~|pogo stick|~": {
@@ -46470,7 +46470,7 @@
 				"Chunks": ["Invention Guild"],
 				"Level": 93,
 				"Primary": true,
-				"Output Object": "Automatic hide tanner"
+				"Output Object": "Automatic hide tanner",
 				"Priority": 1
 			},
 			"Create an ~|enhanced pyro-matic|~": {
@@ -46574,7 +46574,7 @@
 				"Chunks": ["Invention Guild"],
 				"Level": 99,
 				"Primary": true,
-				"Output Object": "Plank maker"
+				"Output Object": "Plank maker",
 				"Priority": 4
 			},
 			"Buy the ~|Invention cape|~": {
@@ -46656,7 +46656,7 @@
 				"Objects": ["Large generator"],
 				"Level": 102,
 				"Primary": true,
-				"Output Object": "Jumbo generator"
+				"Output Object": "Jumbo generator",
 				"Priority": 1
 			},
 			"Discover ~|timeworm components|~": {
@@ -46696,7 +46696,7 @@
 				"Chunks": ["Invention Guild"],
 				"Level": 108,
 				"Primary": true,
-				"Output Object": "Alchemiser mk. II"
+				"Output Object": "Alchemiser mk. II",
 				"Priority": 1
 			},
 			"Create the ~|Experimental Aether Reactor|~": {
@@ -46749,7 +46749,7 @@
 				"Objects": ["Automatic hide tanner"],
 				"Level": 111,
 				"Primary": true,
-				"Output Object": "Optimised hide tanner"
+				"Output Object": "Optimised hide tanner",
 				"Priority": 2
 			},
 			"Create a ~|potion reservoir|~": {
@@ -46774,7 +46774,7 @@
 				"Objects": ["Partial potion producer"],
 				"Level": 114,
 				"Primary": true,
-				"Output Object": "Partial potion producer DX"
+				"Output Object": "Partial potion producer DX",
 				"Priority": 1
 			},
 			"Create an ~|Ingenuity of the Humans ability codex|~": {
@@ -46799,7 +46799,7 @@
 				"Objects": ["Plank maker"],
 				"Level": 117,
 				"Primary": true,
-				"Output Object": "High capacity plank maker"
+				"Output Object": "High capacity plank maker",
 				"Priority": 1
 			},
 			"Create an ~|alchemical hydrix|~": {
@@ -175733,7 +175733,7 @@
 				"Elder rune pickaxe + 3",
 				"Elder rune pickaxe + 4",
 				"Elder rune pickaxe + 5"
-			]
+			],
 			"EZKWeaponPiece[+]": [
 				"Obsidian blade", 
 				"Magma core", 
@@ -246936,7 +246936,7 @@
 			"FSOA weapon piece": {
 				"Fractured Armadyl symbol": "Always",
 				"Fractured stabilisation gem": "Always",
-				"Staff of Armadyl's fractured shaft": "Always",
+				"Staff of Armadyl's fractured shaft": "Always"
 			}
 		},
 		"Dungeoneering": {
