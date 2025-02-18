@@ -45442,41 +45442,33 @@
 				"Primary": false,
 				"Priority": 1
 			},
-			"Train inventing by ~|disassembling|~": {
+			"Train invention by ~|disassembling|~": {
 				"Category": ["Token"],
 				"Level": 1,
-				"Skills": {
-					"Crafting": 80,
-					"Divination": 80,
-					"Smithing": 80
+				"Tasks": {
+					"Unlock ~|Invention|~": "Invention"
 				},
 				"Primary": true,
-				"Output": "Invention Components",
-				"Priority": 1
+				"Priority": 2
 			},
 			"~|Disassemble|~ any item": {
-				"Chunks": ["Invention Guild"],
 				"Level": 1,
-				"Skills": {
-					"Crafting": 80,
-					"Divination": 80,
-					"Smithing": 80
+				"Tasks": {
+					"Unlock ~|Invention|~": "Invention"
 				},
 				"Output": "Invention Components",
 				"Primary": false,
-				"Priority": 2
+				"Priority": 3
 			},
 			"Train ~|Invention|~ using a augmented weapon": {
 				"Chunks": ["Invention Guild"],
 				"Level": 1,
 				"Items": ["AugmentableWeapon[+]", "DivinationEnergy[+]"],
-				"Skills": {
-					"Crafting": 80,
-					"Divination": 80,
-					"Smithing": 80
+				"Tasks": {
+					"Unlock ~|Invention|~": "Invention"
 				},
 				"Primary": true,
-				"Priority": 2
+				"Priority": 4
 			},
 			"~|Disassemble|~ any item that gives Fungal components": {
 				"Items": ["FungalComps[+]"],
@@ -45566,11 +45558,11 @@
 				"Primary": false,
 				"Priority": 112
 			},
-			"~|Disassemble|~ any item that gives Cwyir components": {
-				"Items": ["CwyirComps[+]"],
+			"~|Disassemble|~ any item that gives Cywir components": {
+				"Items": ["CywirComps[+]"],
 				"Chunks": ["Invention Guild"],
 				"Level": 2,
-				"Output": "Cwyir components",
+				"Output": "Cywir components",
 				"Primary": false,
 				"Priority": 113
 			},
@@ -45588,7 +45580,7 @@
 				"Level": 1,
 				"Primary": true,
 				"Output": "Refined components",
-				"Priority": 1
+				"Priority": 100
 			},
 			"Create a ~|weapon gizmo shell|~": {
 				"Items": ["Blade parts*", "Crafted parts*", "Strong components*"],
@@ -45749,7 +45741,7 @@
 			"Create a ~|tool gizmo shell|~": {
 				"Items": ["Head parts*", "Crafted parts*", "Precise components*"],
 				"Objects": ["Inventor's workbench"],
-				"Level": 1,
+				"Level": 22,
 				"Primary": true,
 				"Output": "Tool gizmo shell",
 				"Priority": 3
@@ -45846,7 +45838,7 @@
 				"Priority": 1
 			},
 			"Create a ~|tight spring|~": {
-				"Items": ["Tnesile parts*", "Subtle components*"],
+				"Items": ["Tensile parts*", "Subtle components*"],
 				"Objects": ["Inventor's workbench"],
 				"Level": 43,
 				"Primary": true,
@@ -45921,7 +45913,7 @@
 				"Items": ["Decorated woodcutting urn (r)*", "Base parts*", "Spirital parts*", "Sharp components*"],
 				"Chunks": ["Dorgesh-Kaan"],
 				"Objects": ["Inventor's workbench"],
-				"Level": 1,
+				"Level": 50,
 				"Tasks": {
 					"~|Death to the Dorgeshuun|~ Complete the quest": "Quest"
 				},
@@ -46040,7 +46032,6 @@
 				"Chunks": ["Invention Guild"],
 				"Level": 60,
 				"Primary": true,
-				"Output Object": "Simple generator",
 				"Priority": 6
 			},
 			"Build an ~|auto disassembler|~": {
@@ -46048,7 +46039,6 @@
 				"Chunks": ["Invention Guild"],
 				"Level": 60,
 				"Primary": true,
-				"Output Object": "Auto disassembler",
 				"Priority": 7
 			},
 			"Create a ~|auto-screener v1.080|~": {
@@ -46146,7 +46136,7 @@
 				"Items": ["Lockpick*", "Smooth parts*", "Tensile parts*", "Ethereal components*"],
 				"Chunks": ["Keldagrim"],
 				"Objects": ["Inventor's workbench"],
-				"Level": 1,
+				"Level": 70,
 				"Tasks": {
 					"~|The Giant Dwarf|~ Complete the quest": "Quest"
 				},
@@ -46159,7 +46149,6 @@
 				"Chunks": ["Invention Guild"],
 				"Level": 72,
 				"Primary": true,
-				"Output Object": "Alchemiser",
 				"Priority": 1
 			},
 			"Discover ~|Bandos components|~": {
@@ -46212,7 +46201,6 @@
 				"Objects": ["Simple generator"],
 				"Level": 80,
 				"Primary": true,
-				"Output Object": "Large generator",
 				"Priority": 1
 			},
 			"Build an ~|auto disassembler mk. II|~": {
@@ -46220,7 +46208,6 @@
 				"Chunks": ["Invention Guild"],
 				"Level": 80,
 				"Primary": true,
-				"Output Object": "Auto disassembler mk. II",
 				"Priority": 2
 			},
 			"Create an ~|enchantment of dread|~": {
@@ -46447,7 +46434,6 @@
 				"Chunks": ["Invention Guild"],
 				"Level": 90,
 				"Primary": true,
-				"Output Object": "Partial potion producer",
 				"Priority": 1
 			},
 			"Create a ~|pogo stick|~": {
@@ -46471,7 +46457,6 @@
 				"Chunks": ["Invention Guild"],
 				"Level": 93,
 				"Primary": true,
-				"Output Object": "Automatic hide tanner",
 				"Priority": 1
 			},
 			"Create an ~|enhanced pyro-matic|~": {
@@ -46571,11 +46556,10 @@
 				"Priority": 3
 			},
 			"Build a ~|plank maker (machine)|~": {
-				"Items": ["Saw*", "Direct components*", "Simple parts*", "Crafted parts"],
+				"Items": ["Saw*", "Direct components*", "Simple parts*", "Crafted parts*"],
 				"Chunks": ["Invention Guild"],
 				"Level": 99,
 				"Primary": true,
-				"Output Object": "Plank maker",
 				"Priority": 4
 			},
 			"Buy the ~|Invention cape|~": {
@@ -46657,7 +46641,6 @@
 				"Objects": ["Large generator"],
 				"Level": 102,
 				"Primary": true,
-				"Output Object": "Jumbo generator",
 				"Priority": 1
 			},
 			"Discover ~|timeworm components|~": {
@@ -46697,7 +46680,6 @@
 				"Chunks": ["Invention Guild"],
 				"Level": 108,
 				"Primary": true,
-				"Output Object": "Alchemiser mk. II",
 				"Priority": 1
 			},
 			"Create the ~|Experimental Aether Reactor|~": {
@@ -46747,10 +46729,8 @@
 			"Build an ~|optimised hide tanner|~": {
 				"Items": ["Thread*", "Protective components*", "Evasive components*", "Cover parts*"],
 				"Chunks": ["Invention Guild"],
-				"Objects": ["Automatic hide tanner"],
 				"Level": 111,
 				"Primary": true,
-				"Output Object": "Optimised hide tanner",
 				"Priority": 2
 			},
 			"Create a ~|potion reservoir|~": {
@@ -46772,10 +46752,8 @@
 			"Build a ~|partial potion producer DX|~": {
 				"Items": ["Healthy components*", "Living components*", "Base parts*", "Clear parts*"],
 				"Chunks": ["Invention Guild"],
-				"Objects": ["Partial potion producer"],
 				"Level": 114,
 				"Primary": true,
-				"Output Object": "Partial potion producer DX",
 				"Priority": 1
 			},
 			"Create an ~|Ingenuity of the Humans ability codex|~": {
@@ -46797,10 +46775,8 @@
 			"Build a ~|high capacity plank maker|~": {
 				"Items": ["Precise components*", "Sharp components*", "Living components*", "Crafted parts*"],
 				"Chunks": ["Invention Guild"],
-				"Objects": ["Plank maker"],
 				"Level": 117,
 				"Primary": true,
-				"Output Object": "High capacity plank maker",
 				"Priority": 1
 			},
 			"Create an ~|alchemical hydrix|~": {
@@ -46809,7 +46785,7 @@
 				"Level": 117,
 				"Primary": true,
 				"Output": "Alchemical hydrix",
-				"Priority": 1
+				"Priority": 2
 			},
 			"Create a ~|large gizmo bag|~": {
 				"Items": ["Medium gizmo bag*", "Crafted parts*", "Light components*", "Precious components*"],
@@ -179176,6 +179152,7 @@
 			"AttunedCrystalArmour[+]": "Any piece of attuned crystal armour",
 			"AttunedCrystalShield[+]": "Any type of attuned crystal shield",
 			"AttunedCrystalWeapon[+]": "Any type of attuned crystal weapon",
+			"AugmentableWeapon[+]": "Any augmentable weapon",
 			"AurelFood[+]": "Any food Aurel may ask for during 'In Aid of the Myreque'",
 			"AutomatonGloves[+]": "Any type of automaton gloves",
 			"BalloonLogs[+]": "Any log type than can be used for balloon transport",
@@ -179702,7 +179679,36 @@
 			"ZamorakPotion[+]": "Any Zamorak potion",
 			"ZanarianZygoParents[+]": "Any breedable zygomyte variant",
 			"ZarosAnimaCore[+]": "Any piece of Zaros anima core armour",
-			"Zarosian Artefact[+]": "Any artefact from Zarosian culture"
+			"Zarosian Artefact[+]": "Any artefact from Zarosian culture",
+			"BrassicanComps[+]": "Any source for Brassican components",
+			"KnightlyComps[+]": "Any source for knightly components",
+			"DragonfireComps[+]": "Any source for dragonfire components",
+			"FungalComps[+]": "Any source for fungal components",
+			"ExplosiveComps[+]": "Any source for explosive components",
+			"CorporealComps[+]": "Any source for corporeal components",
+			"ArmadylComps[+]": "Any source for Armadyl components",
+			"BandosComps[+]": "Any source for Bandos components",
+			"SaradominComps[+]": "Any source for Saradomin components",
+			"ZamorakComps[+]": "Any source for Zamorak components",
+			"SerenComps[+]": "Any source for Seren components",
+			"ZarosComps[+]": "Any source for Zaros components",
+			"ResilientComps[+]": "Any source for resilient components",
+			"SilentComps[+]": "Any source for silent components",
+			"NoxiousComps[+]": "Any source for noxious components",
+			"RumblingComps[+]": "Any source for Rumbling components",
+			"PestiferousComps[+]": "Any source for pestiferous components",
+			"ThirdAgeComps[+]": "Any source for Third-Age components",
+			"CulinaryComps[+]": "Any source for culinary components",
+			"ShiftingComps[+]": "Any source for shifting components",
+			"HarnessedComps[+]": "Any source for harnessed components",
+			"OceanicComps[+]": "Any source for oceanic components",
+			"AscendedComps[+]": "Any source for ascended components",
+			"UndeadComps[+]": "Any source for Undead components",
+			"AvernicComps[+]": "Any source for avernic components",
+			"ShadowComps[+]": "Any source for shadow components",
+			"IlujankanComps[+]": "Any source for Ilujankan components",
+			"CywirComps[+]": "Any source for Cywir components",
+			"FortunateComps[+]": "Any source for fortunate components"
 		},
 		"chunksPlus": {
 			"10coin chest[+]": ["10291", "10547", "10553", "12109"],
