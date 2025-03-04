@@ -111404,6 +111404,7 @@
 			"~|Combat Mastery Achievements#Elite|~ Kezalam, the Wanderer (perfect)": {
 				"Category": ["Combat Mastery Achievements"],
 				"Description": "Defeat Kezalam, the Wanderer without being resurrected while dealing with all of her special attacks properly.",
+				"Monsters": ["Kezalam, the Wanderer"],
 				"BaseQuest": "Combat Mastery Achievements",
 				"Not F2P": true,
 				"CombatScore": 4
@@ -111556,6 +111557,7 @@
 			"~|Combat Mastery Achievements#Elite|~ Nakatra, Devourer Eternal (perfect)": {
 				"Category": ["Combat Mastery Achievements"],
 				"Description": "Defeat Nakatra, Devourer Eternal while dealing with all of her special attacks properly.",
+				"Monsters": ["Nakatra, Devourer Eternal"],
 				"BaseQuest": "Combat Mastery Achievements",
 				"Not F2P": true,
 				"CombatScore": 4

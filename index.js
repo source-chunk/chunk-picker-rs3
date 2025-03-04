@@ -145,6 +145,7 @@ let challengePanelVis = {
 let rulesPanelVis = {
     visibletasks: false,
     collections: false,
+    achievements: false,
     overallskill: false,
     agility: false,
     combat: false,
@@ -450,6 +451,7 @@ let rules = {
 	"Shooting Stars": false,
 	"Combat Mastery Achievements": false,
 	"Speed Killer Achievements": false,
+    "Combat Master+": false,
 };                                                                              // List of rules and their on/off state
 
 let ruleNames = {
@@ -893,6 +895,7 @@ let taskGeneratingRules = {
     "Show Quest Tasks Complete": true,
     "Show Diary Tasks Complete": true,
     "Show Diary Tasks Any": true,
+    "Combat Mastery Achievements": true,
     "Collection Log Bosses": true,
     "Collection Log Raids": true,
     "Collection Log Clues": true,
@@ -1317,6 +1320,7 @@ let newTasksOpen = false;
 let workerOut = 0;
 let gotData = false;
 let questPointTotal = 0;
+let combatScoreTotal = 0;
 let highestOverallCompleted = {};
 let oldChallengeArr = {};
 let futureChunkData = {};
@@ -1451,7 +1455,7 @@ let topbarElements = {
     'Sandbox Mode': `<div><span class='noscroll' onclick="enableTestMode()"><i class="gosandbox fas fa-flask" title='Sandbox Mode'></i></span></div>`,
 };
 
-let currentVersion = '6.5.26';
+let currentVersion = '6.6.3.1';
 let patchNotesVersion = '6.4.0';
 
 // Patreon Test Server Data
@@ -1592,7 +1596,7 @@ mapImg.addEventListener("load", e => {
         centerCanvas('quick');
     }
 });
-mapImg.src = "runescape_world_map.png?v=6.5.26";
+mapImg.src = "runescape_world_map.png?v=6.6.3.1";
 
 // Rounded rectangle
 CanvasRenderingContext2D.prototype.roundRect = function (x, y, w, h, r) {
@@ -3275,7 +3279,7 @@ let calcCurrentChallengesCanvas = function(useOld, proceed, fromLoadData, inputT
         setCalculating('.panel-active', useOld);
         setCurrentChallenges(['No tasks currently backlogged.'], ['No tasks currently completed.'], true, true);
         myWorker.terminate();
-        myWorker = new Worker("./worker.js?v=6.5.26");
+        myWorker = new Worker("./worker.js?v=6.6.3.1");
         myWorker.onmessage = workerOnMessage;
         myWorker.postMessage(['current', tempChunks['unlocked'], rules, chunkInfo, skillNames, processingSkill, maybePrimary, combatSkills, monstersPlus, objectsPlus, chunksPlus, itemsPlus, mixPlus, npcsPlus, tasksPlus, tools, elementalRunes, manualTasks, completedChallenges, backlog, "1/" + rules['Rare Drop Amount'], universalPrimary, elementalStaves, rangedItems, boneItems, highestCurrent, dropTables, possibleAreas, randomLoot, magicTools, bossLogs, bossMonsters, minigameShops, manualEquipment, checkedChallenges, backloggedSources, altChallenges, manualMonsters, slayerLocked, passiveSkill, f2pSkills, assignedXpRewards, mid === diary2Tier, manualAreas, "1/" + rules['Secondary Primary Amount'], mid === manualAreasOnly, tempSections, settings['optOutSections'], maxSkill, userTasks, manualPrimary]);
         workerOut = 1;
@@ -3578,8 +3582,8 @@ $(document).ready(function() {
 // ------------------------------------------------------------
 
 // Recieve message from worker
-let myWorker = new Worker("./worker.js?v=6.5.26");
-let myWorker2 = new Worker("./worker.js?v=6.5.26");
+let myWorker = new Worker("./worker.js?v=6.6.3.1");
+let myWorker2 = new Worker("./worker.js?v=6.6.3.1");
 let workerOnMessage = function(e) {
     if (lastUpdated + 2000000 < Date.now() && !hasUpdate) {
         lastUpdated = Date.now();
@@ -3644,7 +3648,8 @@ let workerOnMessage = function(e) {
                 dropTablesGlobal = e.data[13];
                 bestEquipmentAltsGlobal = e.data[14];
                 unlockedSections = e.data[15];
-                highestOverallCompleted = e.data[16];
+                combatPointTotal = e.data[16];
+                highestOverallCompleted = e.data[17];
                 possibleAreas = {};
                 Object.keys(e.data[12]).filter(area => { return e.data[12][area] === true }).forEach((area) => {
                     possibleAreas[area] = true;
@@ -6397,7 +6402,7 @@ let calcFutureChallenges = function() {
     }
     tempSections = combineJSONs(tempSections, manualSections);
     myWorker2.terminate();
-    myWorker2 = new Worker("./worker.js?v=6.5.26");
+    myWorker2 = new Worker("./worker.js?v=6.6.3.1");
     myWorker2.onmessage = workerOnMessage;
     myWorker2.postMessage(['future', chunks, rules, chunkInfo, skillNames, processingSkill, maybePrimary, combatSkills, monstersPlus, objectsPlus, chunksPlus, itemsPlus, mixPlus, npcsPlus, tasksPlus, tools, elementalRunes, manualTasks, completedChallenges, backlog, "1/" + rules['Rare Drop Amount'], universalPrimary, elementalStaves, rangedItems, boneItems, highestCurrent, dropTables, possibleAreas, randomLoot, magicTools, bossLogs, bossMonsters, minigameShops, manualEquipment, checkedChallenges, backloggedSources, altChallenges, manualMonsters, slayerLocked, passiveSkill, f2pSkills, assignedXpRewards, mid === diary2Tier, manualAreas, "1/" + rules['Secondary Primary Amount'], mid === manualAreasOnly, tempSections, settings['optOutSections'], maxSkill, userTasks, manualPrimary]);
     workerOut++;
@@ -8343,6 +8348,7 @@ let openHighest2 = function() {
                     $(`.${combatStyle.replaceAll(' ', '_')}-body`).empty().append(`<div class='highest-subtitle noscroll'>${combatStyle}</div><div class='noscroll qps'>Quest Points: ${questPointTotal}<i class="noscroll fas fa-filter" title="Filter" onclick="openQuestFilterContextMenu()"></i></div>`).append(`<div class="noscroll results"><span class="noscroll holder"><span class="noscroll topline">No quests ${questFilterType}</span></span></div>`);
                 }
             } else if (combatStyle === 'Diaries') {
+                rules['Combat Mastery Achievements'] && $(`.${combatStyle.replaceAll(' ', '_')}-body`).append(`<div class='noscroll cps'>Combat Achievement Points: ${combatPointTotal}</div>`);
                 $(`.${combatStyle.replaceAll(' ', '_')}-body`).append(`<div class="diary-question-outer"><span class="diary-question">What do the colors indicate? <i class="fas fa-question-circle"></i><span class="tooltiptext"><div>Diary tiers in <span style="color:green">green</span> indicate a diary that you can complete within your chunks.</div><hr /><div>Diary tiers in <span style="color:yellow">yellow</span> indicate a diary that can be started, but not completed within your chunks.</div><hr /><div>Diary tiers in <span style="color:grey">grey</span> indicate a diary that cannot be started yet.</div></span></span></div>`);
                 Object.keys(chunkInfo['diaries']).forEach((diary) => {
                     $(`.${combatStyle.replaceAll(' ', '_')}-body`).append(`<div class='noscroll row ${diary.replaceAll(' ', '_').replaceAll("'", '')}'><span class='noscroll outer-diary-text'>${diary.replaceAll(/~/g, '').replaceAll(/\|/g, '')}</div>`);
