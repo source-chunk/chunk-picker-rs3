@@ -448,6 +448,8 @@ let rules = {
 	"PvM Relics": false,
     "KeyItem Bosses": false,
 	"Shooting Stars": false,
+	"Combat Mastery Achievements": false,
+	"Speed Killer Achievements": false,
 };                                                                              // List of rules and their on/off state
 
 let ruleNames = {
@@ -556,7 +558,10 @@ let ruleNames = {
 	"PVP": "Require tasks that can only be completed by engaging in PvP<span class='rule-asterisk noscroll'>†</span>",
 	"PvM Relics": "WIP - Must obtain all best-in-slot/quality-of-life Archaeology Relics for combat",
     "KeyItem Bosses": "For bosses that require keys to kill, factor in the droprate of the key as part of the droprate of each drop",
-	"Shooting Stars": "Getting the level to mine all tiers of shooting stars counts as a Mining skill task<span class='rule-asterisk noscroll'>*</span>"
+	"Shooting Stars": "Getting the level to mine all tiers of shooting stars counts as a Mining skill task<span class='rule-asterisk noscroll'>*</span>",
+	"Combat Mastery Achievements": "Must complete Combat Mastery Achievements when possible.",
+	"Speed Killer Achievements": "Also include Speed Killer achievements.",
+	"Combat Master+": "Must complete the Master and Grandmaster tier."
 };                                                                              // List of rule definitions
 
 let rulePresets = {
@@ -751,7 +756,7 @@ let ruleStructure = {
         "Show Skill Tasks": true,
 		"Achievement": true,
         "Show Quest Tasks": ["Show Quest Tasks Complete"],
-        "Show Diary Tasks": ["Show Diary Tasks Complete", "Show Diary Tasks Any"],
+        
         "Show Best in Slot Tasks": ["Show Best in Slot Prayer Tasks", "Show Best in Slot Defensive Tasks", "Show Best in Slot Melee Style Tasks", "Show Best in Slot 1H and 2H", "Show Best in Slot Shield", "Consumable Primary BiS"],
 		"BIS Skilling": ["BIS Skilling Consumables", "BIS Skilling Relics", "Brawling Gloves"],
 	},
@@ -764,6 +769,10 @@ let ruleStructure = {
 		"Fill Costume Room": true,
 		"Ceremonial Swords": true,
 		"Pets": ["Skilling Pets"]
+	},
+	"Achievements": {
+		"Show Diary Tasks": ["Show Diary Tasks Complete", "Show Diary Tasks Any"],
+		"Combat Mastery Achievements": ["Speed Killer Achievements", "Combat Master+"]
 	},
     "Overall Skill": {
         "Skillcape": ["Master skillcape"],
