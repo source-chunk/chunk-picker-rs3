@@ -182,6 +182,9 @@
         <div id='ruleshunter' class='accordion' onclick="toggleRulesPanel('hunter')"><span class='exp'><i
           class="acc pic fas fa-plus"></i></span><span class="accordion-title">Hunter</span></div>
         <div class="panel panel-hunter"></div>
+		<div id='rulesinvention' class='accordion' onclick="toggleRulesPanel('invention')"><span class='exp'><i
+          class="acc pic fas fa-plus"></i></span><span class="accordion-title">Invention</span></div>
+        <div class="panel panel-invention"></div>
         <div id='rulesmagic' class='accordion' onclick="toggleRulesPanel('magic')"><span class='exp'><i
           class="acc pic fas fa-plus"></i></span><span class="accordion-title">Magic</span></div>
         <div class="panel panel-magic"></div>
@@ -221,6 +224,7 @@
           <div id='rulesfarming' class='accordion-sidebar' onclick="toggleRulesPanel('farming')"><span class="accordion-title">Farming</span></div>
           <div id='rulesherblore' class='accordion-sidebar' onclick="toggleRulesPanel('herblore')"><span class="accordion-title">Herblore</span></div>
           <div id='ruleshunter' class='accordion-sidebar' onclick="toggleRulesPanel('hunter')"><span class="accordion-title">Hunter</span></div>
+          <div id='rulesinvention' class='accordion-sidebar' onclick="toggleRulesPanel('invention')"><span class="accordion-title">Invention</span></div>
           <div id='rulesmagic' class='accordion-sidebar' onclick="toggleRulesPanel('magic')"><span class="accordion-title">Magic</span></div>
 		  <div id='rulesmining' class='accordion-sidebar' onclick="toggleRulesPanel('mining')"><span class="accordion-title">Mining</span></div>
           <div id='rulesprayer' class='accordion-sidebar' onclick="toggleRulesPanel('prayer')"><span class="accordion-title">Prayer</span></div>
@@ -242,6 +246,7 @@
           <div class="panel panel-farming"></div>
           <div class="panel panel-herblore"></div>
           <div class="panel panel-hunter"></div>
+          <div class="panel panel-invention"></div>
           <div class="panel panel-magic"></div>
           <div class="panel panel-mining"></div>
           <div class="panel panel-prayer"></div>
@@ -751,11 +756,16 @@
       </div>
       <div id="chunk-section-picker-data" class="chunk-section-picker-data noscroll">
         <div class="chunk-section-picker-chunk-id noscroll"></div>
-          <div class="chunk-section-picker-container">
-            <canvas id='chunk-section-picker-canvas' width="128" height="128"></canvas>
+        <div class="chunk-section-picker-block-outer">
+          <div class="chunk-section-picker-block">
+            <div class="chunk-section-picker-container">
+              <div class='chunk-section-canvas-spinner'><i class="noscroll fas fa-spinner fa-spin"></i></div>
+              <canvas id='chunk-section-picker-canvas' width="128" height="128"></canvas>
+            </div>
+            <div><input id="chunk-section-picker-selectall-btn" type="checkbox" onclick="selectAllChunkSections()">I have access to the entire chunk</input></div>
           </div>
-          <div><input id="chunk-section-picker-selectall-btn" type="checkbox" onclick="selectAllChunkSections()">I have access to the entire chunk</input></div>
-          <div class="chunk-section-picker-btns"></div>
+          <div class="chunk-section-picker-block chunk-section-picker-btns"></div>
+        </div>
       </div>
       <div id="chunk-section-picker-footer" class="chunk-section-picker-footer noscroll">
         <button id='save-chunk-section-picker-button' class='modal-button' onclick='saveChunkSectionPicker()'>Save</button>

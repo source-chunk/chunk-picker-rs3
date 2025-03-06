@@ -452,6 +452,8 @@ let rules = {
 	"Combat Mastery Achievements": false,
 	"Speed Killer Achievements": false,
     "Combat Master+": false,
+	"Menaphos Events": false,
+	"Material Blueprints": false,
 };                                                                              // List of rules and their on/off state
 
 let ruleNames = {
@@ -563,7 +565,9 @@ let ruleNames = {
 	"Shooting Stars": "Getting the level to mine all tiers of shooting stars counts as a Mining skill task<span class='rule-asterisk noscroll'>*</span>",
 	"Combat Mastery Achievements": "Must complete Combat Mastery Achievements when possible.",
 	"Speed Killer Achievements": "Also include Speed Killer achievements.",
-	"Combat Master+": "Must complete the Master and Grandmaster tier."
+	"Combat Master+": "Must complete the Master and Grandmaster tier.",
+	"Menaphos Events": "Allow soul obelisks and corrupted scarabs in Menaphos to count as primary training methods<span class='rule-asterisk noscroll'>*</span>",
+	"Material Blueprints": "Count discovering material blueprints as a skilling task"
 };                                                                              // List of rule definitions
 
 let rulePresets = {
@@ -590,6 +594,7 @@ let rulePresets = {
 		"Cleaning Herbs": true,
 		"Unlock Abilities": true,
         "Unlock Prayers": true,
+		"Material Blueprints": true
     },
     "Xtreme Chunker": {
         "Skillcape": true,
@@ -661,7 +666,9 @@ let rulePresets = {
 		"Unlock Abilities": true,
 		"Sigil Abilities": true,
         "Unlock Prayers": true,
-        "Shooting Stars": true
+        "Shooting Stars": true,
+		"Menaphos Events": true,
+		"Material Blueprints": true
     },
     "Supreme Chunker": {
         "Skillcape": true,
@@ -743,7 +750,9 @@ let rulePresets = {
 		"Unlock Abilities": true,
 		"Sigil Abilities": true,
         "Unlock Prayers": true,
-        "Shooting Stars": true
+        "Shooting Stars": true,
+		"Menaphos Events": true,
+		"Material Blueprints": true
     }
 };                                                                              // List of rules that are part of each preset
 
@@ -789,6 +798,7 @@ let ruleStructure = {
 		"PortSkills": true,
 		"Token": true,
 		"DnD Skilling": true,
+		"Menaphos Events": true,
 		"Uncharted": true,
 		"Multiple Pickpockets": true
     },
@@ -822,6 +832,9 @@ let ruleStructure = {
 		"Puro-Puro": ["Extra implings"],
 		"Ogleroot": true
     },
+	"Invention": {
+		"Material Blueprints": true
+	},
     "Magic": {
         "Spells": ["Combat and Teleport Spells"],
         "Secondary MTA": true
@@ -960,8 +973,8 @@ let settingNames = {
     "randomStartAlways": "Change the 'Pick Chunk' button to always be a 'Random Start' button; every chunk roll picks a random walkable chunk (that isn't already unlocked)",
     "theme": "Set <b class='noscroll'>Theme</b>",
     "defaultStickerColor": "Change the default color of chunk stickers",
-    "walkableRollable": "Only automatically mark <b class='noscroll'>walkable</b> chunks",
-    "autoWalkableRollable": "Automatically mark all accessible chunks across the whole map after rolling (doesn't include disconnected chunks)",
+    "walkableRollable": "Only automatically mark <b class='noscroll'>walkable</b> chunks (doesn't take into account if chunk is actually accessible yet)",
+    "autoWalkableRollable": "Automatically mark all actually accessible chunks across the whole map after rolling (doesn't include disconnected chunks)",
     "cinematicRoll": "Enable fancier rolling of chunks",
     "taskSidebar": "Expand the task panel into a large sidebar, to show more tasks at once",
     "allTasks": "Generate a list of all intermediate-level skill tasks to be shown in the Activity Info window",
@@ -1438,6 +1451,9 @@ let sectionImgs = [];
 let canvasSection;
 let contextSection;
 let chunkSectionCalculateAfter = false;
+let globalBlackPixelArr = {};
+let globalHighlightPixelArr = {};
+let doneInitDraw = false;
 let signInAttempts = 0;
 let expandChallengeStr = '';
 let detailsStack = [];
@@ -7051,7 +7067,7 @@ let searchChunkSections = function() {
     preloadImages(chunkImageUrls);
     !!tempChunks['unlocked'] && Object.keys(tempChunks['unlocked']).filter(chunkId => chunkInfo['sections'].hasOwnProperty(chunkId) && Object.keys(chunkInfo['sections'][chunkId]).filter(section => section !== "0").length > 0 && (chunkId.toLowerCase().includes(searchTemp.toLowerCase()) || (chunkInfo['chunks'][chunkId].hasOwnProperty('Nickname') && chunkInfo['chunks'][chunkId]['Nickname'].toLowerCase().includes(searchTemp.toLowerCase())))).sort((a, b) => parseInt(a) - parseInt(b)).forEach((chunkId) => {
         let coords = convertToXY(chunkId);
-        $('#chunk-sections-data').append(`<div class='outer-chunk-section noscroll' onclick='openChunkSectionPicker("${chunkId}")' title='${chunkInfo['chunks'][chunkId]['Nickname']}'><img src='${'./resources/chunk_images/row-' + (coords.y + 1) + '-column-' + (coords.x + 1) + '.png'}' /><span class='chunk-section-text noscroll'>${chunkId}</span></div>`);
+        $('#chunk-sections-data').append(`<div class='outer-chunk-section noscroll' onclick='openChunkSectionPicker("${chunkId}")' title="${chunkInfo['chunks'][chunkId]['Nickname']}"><img src='${'./resources/chunk_images/row-' + (coords.y + 1) + '-column-' + (coords.x + 1) + '.png'}' /><span class='chunk-section-text noscroll'>${chunkId}</span></div>`);
     });
     if ($('#chunk-sections-data').children().length === 0) {
         $('#chunk-sections-data').append(`<div class="noscroll results"><span class="noscroll holder"><span class="noscroll topline">No results found (0)</span></span></div>`);
@@ -7092,6 +7108,7 @@ let resetSectionVars = async function(chunkId) {
     hoveredNumSection = '-1';
     sectionImgs = [];
     selectedSections = {};
+    doneInitDraw = false;
     !!chunkInfo['sections'][chunkId] && Object.keys(chunkInfo['sections'][chunkId]).forEach((section) => {
         let imgSection = new Image();
         imgSection.crossOrigin = 'anonymous';
@@ -7106,8 +7123,20 @@ let resetSectionVars = async function(chunkId) {
     sectionImgMain.src = sectionMainUrl;
     canvasSection = document.getElementById('chunk-section-picker-canvas');
     contextSection = canvasSection.getContext('2d');
-    sectionImgMain.onload = function() {
-        redrawSectionCanvas();
+    $('.chunk-section-canvas-spinner').show();
+    contextSection.clearRect(0, 0, canvasSection.width, canvasSection.height);
+    sectionImgMain.onload = async function() {
+        document.body.offsetHeight;
+        await new Promise(resolve => setTimeout(resolve, 0));
+        if ('requestIdleCallback' in window) {
+            requestIdleCallback(() => {
+                redrawSectionCanvas();
+            });
+        } else {
+            setTimeout(() => {
+                redrawSectionCanvas();
+            }, 0);
+        }
     }
 }
 
@@ -7117,83 +7146,94 @@ let openChunkSectionPicker = async function(chunkId, calculateAfter) {
         await resetSectionVars(chunkId);
         chunkSectionPickerModalOpen = true;
         chunkSectionCalculateAfter = calculateAfter;
-        $(`.chunk-section-picker-chunk-id`).text(chunkId);
+        $(`.chunk-section-picker-chunk-id`).text(`Chunk ${chunkId}`);
         $('#chunk-section-picker-selectall-btn').prop("checked", false).prop('disabled', !(testMode || !(viewOnly || inEntry || locked)));
         $('#save-chunk-section-picker-button').text(!(testMode || !(viewOnly || inEntry || locked)) ? 'Close' : 'Save');
         $(`.chunk-section-picker-btns`).empty();
         !!chunkInfo['sections'][chunkId] && Object.keys(chunkInfo['sections'][chunkId]).forEach((sec) => {
-            if (!(testMode || !(viewOnly || inEntry || locked))) {
-                $(`.chunk-section-picker-btns`).append(`<span id='section-btn-${sec}' class='section-btn locked'>Section ${sec}</span>`);
-            } else {
-                $(`.chunk-section-picker-btns`).append(`<span id='section-btn-${sec}' class='section-btn' onmouseover="hoverSectionCanvas('${sec}')" onmouseout="hoverSectionCanvas('-1')" onclick="selectSectionCanvas('${sec}')">Section ${sec}</span>`);
-            }
+            $(`.chunk-section-picker-btns`).append(`<div id='section-btn-${sec}' class='section-btn${!(testMode || !(viewOnly || inEntry || locked)) ? ' locked' : ''}' onmouseover="hoverSectionCanvas('${sec}')" onmouseout="hoverSectionCanvas('-1')">
+                <div class='section-btn-inner'><span>Section ${sec}: </span>
+                <span><select id="section-dropdown-${sec}" ${!(testMode || !(viewOnly || inEntry || locked)) ? ' disabled' : ''} onchange="selectSectionCanvas('${sec}')">
+                    <option value='auto'>Automatic</option>
+                    <option value='enable'>Can Access</option>
+                    <option value='disable'>Disable Access</option>
+                </select></span></div>
+            </div>`);
             if (selectedSections[sec]) {
                 $(`#section-btn-${sec}`).addClass('green-section-btn').removeClass('red-section-btn');
+                $(`#section-dropdown-${sec}`).val('enable');
             } else if (selectedSections[sec] === false) {
                 $(`#section-btn-${sec}`).addClass('red-section-btn').removeClass('green-section-btn');
+                $(`#section-dropdown-${sec}`).val('disable');
             } else {
                 $(`#section-btn-${sec}`).removeClass('red-section-btn').removeClass('green-section-btn');
+                $(`#section-dropdown-${sec}`).val('auto');
             }
         });
         $('#chunk-section-picker-selectall-btn').prop('checked', Object.keys(selectedSections).filter(num => selectedSections[num]).length === Object.keys(sectionUrls).length);
-        redrawSectionCanvas();
         $('#myModal43').show();
         modalOutsideTime = Date.now();
     }
 }
 
-// Redraws the section canvas
-let redrawSectionCanvas = function() {
+// Calculates what each pixel should be based on the hovered section
+let calculateSectionPixels = function(inputNum) {
     let blackPixelArr = [];
-    for (let j = 0; j < 192; j++) {
+    for (let j = 0; j < 128; j++) {
         blackPixelArr[j] = [];
-        for (let k = 0; k < 192; k++) {
+        for (let k = 0; k < 128; k++) {
             blackPixelArr[j][k] = .9;
         }
     }
     let highlightPixelArr = [];
-    for (let j = 0; j < 192; j++) {
+    for (let j = 0; j < 128; j++) {
         highlightPixelArr[j] = [];
-        for (let k = 0; k < 192; k++) {
+        for (let k = 0; k < 128; k++) {
             highlightPixelArr[j][k] = 0;
         }
     }
     contextSection.globalAlpha = 1;
     contextSection.fillStyle = "rgba(0, 0, 0, 1)";
-    contextSection.fillRect(0, 0, 192, 192);
+    contextSection.fillRect(0, 0, 128, 128);
     !!chunkInfo['sections'][sectionChunkId] && Object.keys(chunkInfo['sections'][sectionChunkId]).forEach((section) => {
         if (selectedSections[section] || (unlockedSections.hasOwnProperty(sectionChunkId) && unlockedSections[sectionChunkId][section] && selectedSections[section] !== false)) {
             contextSection.drawImage(sectionImgs[section], 0, 0);
         }
     });
-    if (hoveredNumSection !== '-1') {
-        for (let j = 0; j < 192; j++) {
-            for (let k = 0; k < 192; k++) {
-                if (contextSection.getImageData(j, k, 1, 1).data[0] > 0) {
-                    blackPixelArr[j][k] = .5;
+    if (inputNum !== -1) {
+        let touched = false;
+        let imageData = contextSection.getImageData(0, 0, 128, 128).data;
+        for (let y = 0; y < 128; y++) {
+            for (let x = 0; x < 128; x++) {
+                let index = (y * 128 + x) * 4;
+                if (imageData[index] > 0) {
+                    blackPixelArr[x][y] = 0.5;
                 }
             }
         }
         contextSection.fillStyle = "rgba(0, 0, 0, 1)";
-        contextSection.fillRect(0, 0, 192, 192);
+        contextSection.fillRect(0, 0, 128, 128);
         let imgSection = new Image();
         imgSection.crossOrigin = 'anonymous';
-        imgSection.src = sectionUrls[hoveredNumSection];
+        imgSection.src = sectionUrls[inputNum];
         contextSection.drawImage(imgSection, 0, 0);
-        for (let j = 0; j < 192; j++) {
-            for (let k = 0; k < 192; k++) {
-                if (contextSection.getImageData(j, k, 1, 1).data[0] > 0) {
-                    blackPixelArr[j][k] = 0;
+        imageData = contextSection.getImageData(0, 0, 128, 128).data;
+        for (let y = 0; y < 128; y++) {
+            for (let x = 0; x < 128; x++) {
+                let index = (y * 128 + x) * 4;
+                if (imageData[index] > 0) {
+                    blackPixelArr[x][y] = 0;
                 }
             }
         }
-        for (let j = 0; j < 192; j++) {
-            for (let k = 0; k < 192; k++) {
+        for (let j = 0; j < 128; j++) {
+            for (let k = 0; k < 128; k++) {
                 if (blackPixelArr[j][k] === 0) {
                     for (let jj = -1; jj <= 1; jj++) {
                         for (let kk = -1; kk <= 1; kk++) {
-                            if (j + jj >= 0 && k + kk >= 0 && j + jj < 192 && k + kk < 192 && blackPixelArr[j + jj][k + kk] > 0) {
+                            if (j + jj >= 0 && k + kk >= 0 && j + jj < 128 && k + kk < 128 && blackPixelArr[j + jj][k + kk] > 0) {
                                 highlightPixelArr[j][k] = 1;
+                                touched = true;
                             }
                         }
                     }
@@ -7206,64 +7246,103 @@ let redrawSectionCanvas = function() {
                 }
             }
         }
+        if (!touched) {
+            resetSectionVars(sectionChunkId);
+            return [];
+        }
     } else {
-        for (let j = 0; j < 192; j++) {
-            for (let k = 0; k < 192; k++) {
-                if (contextSection.getImageData(j, k, 1, 1).data[0] > 0) {
-                    blackPixelArr[j][k] = 0;
+        let imageData = contextSection.getImageData(0, 0, 128, 128).data;
+        for (let y = 0; y < 128; y++) {
+            for (let x = 0; x < 128; x++) {
+                let index = (y * 128 + x) * 4;
+                if (imageData[index] > 0) {
+                    blackPixelArr[x][y] = 0;
                 }
+            }
+        }
+    }
+    return [blackPixelArr, highlightPixelArr];
+}
+
+// Redraws the section canvas
+let redrawSectionCanvas = function() {
+    if (!doneInitDraw) {
+        globalBlackPixelArr = {};
+        globalHighlightPixelArr = {};
+        doneInitDraw = true;
+    }
+    if (Object.keys(globalBlackPixelArr).length === 0 || Object.keys(globalHighlightPixelArr).length === 0) {
+        $('.chunk-section-canvas-spinner').show();
+        for (let i = -1; i <= Object.keys(sectionUrls).length; i++) {
+            if (i !== 0 && (!globalBlackPixelArr.hasOwnProperty(i) || !globalHighlightPixelArr.hasOwnProperty(i))) {
+                [globalBlackPixelArr[i], globalHighlightPixelArr[i]] = calculateSectionPixels(i);
             }
         }
     }
     contextSection.globalAlpha = 1;
     contextSection.drawImage(sectionImgMain, 0, 0);
-    for (let j = 0; j < 192; j++) {
-        for (let k = 0; k < 192; k++) {
-            contextSection.fillStyle = "rgba(0, 0, 0, 1)";
-            contextSection.globalAlpha = blackPixelArr[j][k];
-            contextSection.fillRect(j, k, 1, 1);
-            if (highlightPixelArr[j][k] > 0) {
+    for (let j = 0; j < 128; j++) {
+        for (let k = 0; k < 128; k++) {
+            if (globalBlackPixelArr[hoveredNumSection][j][k] > 0) {
+                contextSection.fillStyle = "rgba(0, 0, 0, 1)";
+                contextSection.globalAlpha = globalBlackPixelArr[hoveredNumSection][j][k];
+                contextSection.fillRect(j, k, 1, 1);
+            }
+            if (globalHighlightPixelArr[hoveredNumSection][j][k] > 0) {
                 contextSection.fillStyle = "rgba(255, 255, 0, 1)";
-                contextSection.globalAlpha = highlightPixelArr[j][k];
+                contextSection.globalAlpha = globalHighlightPixelArr[hoveredNumSection][j][k];
                 contextSection.fillRect(j, k, 1, 1);
             }
         }
     }
+    $('.chunk-section-canvas-spinner').hide();
 }
 
 // On-hover section canvas
 let hoverSectionCanvas = function(section) {
+    if (!doneInitDraw) return;
     hoveredNumSection = section;
     redrawSectionCanvas();
 }
 
 // On-select section canvas
 let selectSectionCanvas = function(section) {
-    if (selectedSections[section]) {
-        selectedSections[section] = false;
-        $(`#section-btn-${section}`).addClass('red-section-btn').removeClass('green-section-btn');
-    } else if (selectedSections[section] === false) {
-        delete selectedSections[section];
-        $(`#section-btn-${section}`).removeClass('red-section-btn').removeClass('green-section-btn');
-    } else {
+    if (!(testMode || !(viewOnly || inEntry || locked))) {
+        return;
+    }
+    let selectVal = $(`#section-dropdown-${section}`).val();
+    if (selectVal === 'enable') {
         selectedSections[section] = true;
         $(`#section-btn-${section}`).addClass('green-section-btn').removeClass('red-section-btn');
+    } else if (selectVal === 'disable') {
+        selectedSections[section] = false;
+        $(`#section-btn-${section}`).addClass('red-section-btn').removeClass('green-section-btn');
+    } else if (selectVal === 'auto') {
+        delete selectedSections[section];
+        $(`#section-btn-${section}`).removeClass('red-section-btn').removeClass('green-section-btn');
     }
     $('#chunk-section-picker-selectall-btn').prop('checked', Object.keys(selectedSections).filter(num => selectedSections[num]).length === Object.keys(sectionUrls).length);
+    doneInitDraw = false;
     redrawSectionCanvas();
 }
 
 // Selects all chunk sections
 let selectAllChunkSections = function() {
+    if (!(testMode || !(viewOnly || inEntry || locked))) {
+        return;
+    }
     !!chunkInfo['sections'][sectionChunkId] && Object.keys(chunkInfo['sections'][sectionChunkId]).forEach((section) => {
         if ($('#chunk-section-picker-selectall-btn').prop('checked')) {
             selectedSections[section] = true;
             $(`#section-btn-${section}`).addClass('green-section-btn').removeClass('red-section-btn');
+            $(`#section-dropdown-${section}`).val('enable');
         } else {
             delete selectedSections[section];
             $(`#section-btn-${section}`).removeClass('red-section-btn').removeClass('green-section-btn');
+            $(`#section-dropdown-${section}`).val('auto');
         }
     });
+    doneInitDraw = false;
     redrawSectionCanvas();
 }
 
@@ -7525,12 +7604,12 @@ let removeFriend = function(friendMid, friendName) {
 // Opens the add locked slayer task modal
 let openSlayerLocked = function() {
     slayerLockedModalOpen = true;
-    $('#slayer-locked-input').val('');
+    $('#slayer-locked-input').val(!!slayerLocked && slayerLocked.hasOwnProperty('level') ? slayerLocked['level'] : '');
     $('#slayer-locked-data').html('<div><div class="slayer-locked-cancel" onclick="addSlayerLocked(true)">Cancel</div><div class="slayer-locked-proceed disabled" onclick="addSlayerLocked()">Lock Slayer</div></div>');
     $('#slayer-locked-dropdown').empty().append(`<option value='${'Select a task'}'>${'Select a task'}</option>`);
     $('#slayer-locked-dropdown').append(`<option value="${'Manually Locked'}">${"Manually Locked"}</option>`);
     Object.keys(slayerTasks).forEach((task) => {
-        $('#slayer-locked-dropdown').append(`<option value="${task}">${task}</option>`);
+        $('#slayer-locked-dropdown').append(`<option ${!!slayerLocked && slayerLocked.hasOwnProperty('monster') && slayerLocked['monster'] === task ? 'selected' : ''} value="${task}">${task}</option>`);
     });
     $('#myModal22').show();
 }
@@ -8271,7 +8350,7 @@ let changeBiSFilterBy = function() {
 }
 
 // Opens the highest2 modal
-let openHighest2 = function() {
+let openHighest2 = function(notScrollTop) {
     if (!inEntry && !importMenuOpen && !manualModalOpen && !detailsModalOpen && !notesModalOpen && !highscoreMenuOpen && !helpMenuOpen) {
         onMobile && hideMobileMenu();
         highest2ModalOpen = true;
@@ -8412,7 +8491,7 @@ let openHighest2 = function() {
         $(`.${highestTab2}-body`).show();
         $('#myModal12_2').show();
         modalOutsideTime = Date.now();
-        document.getElementById('highest2-data').scrollTop = 0;
+        !notScrollTop && (document.getElementById('highest2-data').scrollTop = 0);
     }
 }
 
@@ -8456,6 +8535,10 @@ let addPassiveSkill = function(close, skill) {
                 passiveSkill = {};
             }
             passiveSkill[skill] = level;
+            if (skill === 'Slayer' && !!slayerLocked && slayerLocked.hasOwnProperty('level')) {
+                slayerLocked['level'] = level;
+                openHighest2(true);
+            }
             calcCurrentChallengesCanvas(true);
             setData();
             $('#myModal28').hide();

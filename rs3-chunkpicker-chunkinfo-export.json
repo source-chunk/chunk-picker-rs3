@@ -8341,6 +8341,14 @@
 				"NoPet": true,
 				"NoBoost": true
 			},
+			"Wield the ~|primed keris|~": {
+				"Items": ["Primed keris"],
+				"Level": 70,
+				"Primary": false,
+				"Priority": 14,
+				"NoPet": true,
+				"NoBoost": true
+			},
 			"Wield a ~|Saradomin sword|~": {
 				"Items": ["Saradomin sword"],
 				"Level": 75,
@@ -24048,6 +24056,33 @@
 				"Primary": false,
 				"Priority": 20
 			},
+			"Craft a ~|'ancient gizmo' blueprint|~": {
+				"Items": ["Stormguard gerege", "Torn blueprint fragments (Howl's workshop)"],
+				"Level": 70,
+				"Output": "Ancient gizmo blueprint",
+				"Chunks": ["Stormguard Citadel"],
+				"Primary": true,
+				"Priority": 100,
+				"Not F2P": true
+			},
+			"Craft a ~|'ancient tools' blueprint|~": {
+				"Items": ["Stormguard gerege", "Torn blueprint fragments (Howl's workshop)"],
+				"Level": 70,
+				"Output": "Ancient tools blueprint",
+				"Chunks": ["Stormguard Citadel"],
+				"Primary": true,
+				"Priority": 101,
+				"Not F2P": true
+			},
+			"Craft a ~|'XP Capacitor' blueprint|~": {
+				"Items": ["Stormguard gerege", "Torn blueprint fragments (Howl's workshop)"],
+				"Level": 70,
+				"Output": "XP Capacitor blueprint",
+				"Chunks": ["Stormguard Citadel"],
+				"Primary": true,
+				"Priority": 102,
+				"Not F2P": true
+			},
 			"Craft a ~|cryptbloom helm|~": {
 				"Items": ["Croesus flakes*", "Cryptbloom helm (incomplete)*"],
 				"Level": 90,
@@ -28753,6 +28788,34 @@
 				"Primary": true,
 				"Priority": 8
 			},
+			"Transmute an ~|Ek-ZekKil|~ weapon piece": {
+				"Items": ["Incandescent energy*", "EZKWeaponPiece[+]*"],
+				"Level": 95,
+				"Output": "EZK weapon piece",
+				"Primary": true,
+				"Priority": 9
+			},
+			"Transmute a ~|Bow of the Last Guardian|~ weapon piece": {
+				"Items": ["Incandescent energy*", "BOLGWeaponPiece[+]*"],
+				"Level": 95,
+				"Output": "BOLG weapon piece",
+				"Primary": true,
+				"Priority": 10
+			},
+			"Transmute an ~|eldritch crossbow|~ weapon piece": {
+				"Items": ["Incandescent energy*", "ECBWeaponPiece[+]*"],
+				"Level": 92,
+				"Output": "ECB weapon piece",
+				"Primary": true,
+				"Priority": 11
+			},
+			"Transmute a ~|fractured Staff of Armadyl|~ weapon piece": {
+				"Items": ["Incandescent energy*", "FSOAWeaponPiece[+]*"],
+				"Level": 95,
+				"Output": "FSOA weapon piece",
+				"Primary": true,
+				"Priority": 12
+			},
 			"Transmute alaea sea salt to ~|wobbegong oil|~": {
 				"Items": ["Ancestral energy*", "Alaea sea salt*"],
 				"Level": 96,
@@ -29005,6 +29068,27 @@
 				"Output": "Robust memento",
 				"Primary": true,
 				"Priority": 14
+			},
+			"Create an ~|enchantment of shadows|~": {
+				"Items": ["Sliver of power*", "Tracking gloves*", "Scrimshaw of ranging*", "Brilliant energy*"],
+				"Level": 80,
+				"Output": "Enchantment of shadows",
+				"Primary": true,
+				"Priority": 20
+			},
+			"Create an ~|enchantment of metaphysics|~": {
+				"Items": ["Sliver of pain*", "Static gloves*", "Scrimshaw of magic*", "Brilliant energy*"],
+				"Level": 80,
+				"Output": "Enchantment of metaphysics",
+				"Primary": true,
+				"Priority": 21
+			},
+			"Create an ~|enchantment of heroism|~": {
+				"Items": ["Sliver of strength*", "Pneumatic gloves*", "Scrimshaw of attack*", "Brilliant energy*"],
+				"Level": 80,
+				"Output": "Enchantment of heroism",
+				"Primary": true,
+				"Priority": 20
 			},
 			"Buy the ~|Max cape|~": {
 				"Tasks": {
@@ -38114,6 +38198,9 @@
 			"Fletch ~|wolf bone arrowheads|~": {
 				"Items": ["Wolf bones*"],
 				"Level": 5,
+				"Tasks": {
+					"~|Chompy Bird Hunting|~ 2": "Quest"
+				},
 				"Output": "Wolf bone arrowheads",
 				"Primary": true,
 				"Priority": 3,
@@ -38854,7 +38941,7 @@
 				"Priority": 1
 			},
 			"Tip ~|ruby bolts|~": {
-				"Items": ["Mithril bolts*", "Ruby bolt tips*"],
+				"Items": ["Adamant bolts*", "Ruby bolt tips*"],
 				"Level": 63,
 				"Output": "Ruby bolts",
 				"Primary": true,
@@ -39195,6 +39282,13 @@
 				"Output": "Magic wood box",
 				"Primary": true,
 				"Priority": 10
+			},
+			"Create an ~|enchantment of dispelling|~": {
+				"Items": ["Sliver of power*", "Sirenic scale*", "Chaos star*"],
+				"Level": 80,
+				"Output": "Enchantment of dispelling",
+				"Primary": true,
+				"Priority": 20
 			},
 			"Feather ~|rune darts|~": {
 				"Items": ["Rune dart tip*", "Feather[+]*"],
@@ -45347,8 +45441,196 @@
 					"Divination": 80,
 					"Smithing": 80
 				},
-				"Primary": true,
+				"Primary": false,
 				"Priority": 1
+			},
+			"Train invention by ~|disassembling|~": {
+				"Category": ["Token"],
+				"Level": 1,
+				"Tasks": {
+					"Unlock ~|Invention|~": "Invention"
+				},
+				"Primary": true,
+				"Priority": 2
+			},
+			"~|Disassemble|~ any item": {
+				"Level": 1,
+				"Tasks": {
+					"Unlock ~|Invention|~": "Invention"
+				},
+				"Output": "Invention Components",
+				"Primary": false,
+				"Priority": 3
+			},
+			"Train ~|Invention|~ using a augmented weapon": {
+				"Chunks": ["Invention Guild"],
+				"Level": 1,
+				"Items": ["AugmentableWeapon[+]", "DivinationEnergy[+]"],
+				"Tasks": {
+					"Unlock ~|Invention|~": "Invention"
+				},
+				"Primary": true,
+				"Priority": 4
+			},
+			"~|Disassemble|~ any item that gives Fungal components": {
+				"Items": ["FungalComps[+]"],
+				"Chunks": ["Invention Guild"],
+				"Level": 2,
+				"Output": "Fungal components",
+				"Primary": false,
+				"Priority": 100
+			},
+			"~|Disassemble|~ any item that gives Seren components": {
+				"Items": ["SerenComps[+]"],
+				"Chunks": ["Invention Guild"],
+				"Level": 2,
+				"Output": "Seren components",
+				"Primary": false,
+				"Priority": 103
+			},
+			"~|Disassemble|~ any item that gives Resilient components": {
+				"Items": ["ResilientComps[+]"],
+				"Chunks": ["Invention Guild"],
+				"Level": 2,
+				"Output": "Resilient components",
+				"Primary": false,
+				"Priority": 104
+			},
+			"~|Disassemble|~ any item that gives Silent components": {
+				"Items": ["SilentComps[+]"],
+				"Chunks": ["Invention Guild"],
+				"Level": 2,
+				"Output": "Silent components",
+				"Primary": false,
+				"Priority": 105
+			},
+			"~|Disassemble|~ any item that gives Rumbling components": {
+				"Items": ["RumblingComps[+]"],
+				"Chunks": ["Invention Guild"],
+				"Level": 2,
+				"Output": "Rumbling components",
+				"Primary": false,
+				"Priority": 106
+			},
+			"~|Disassemble|~ any item that gives Shifting components": {
+				"Items": ["ShiftingComps[+]"],
+				"Chunks": ["Invention Guild"],
+				"Level": 2,
+				"Output": "Shifting components",
+				"Primary": false,
+				"Priority": 107
+			},
+			"~|Disassemble|~ any item that gives Oceanic components": {
+				"Items": ["OceanicComps[+]"],
+				"Chunks": ["Invention Guild"],
+				"Level": 2,
+				"Output": "Oceanic components",
+				"Primary": false,
+				"Priority": 108
+			},
+			"~|Disassemble|~ any item that gives Ascended components": {
+				"Items": ["AscendedComps[+]"],
+				"Chunks": ["Invention Guild"],
+				"Level": 2,
+				"Output": "Ascended components",
+				"Primary": false,
+				"Priority": 109
+			},
+			"~|Disassemble|~ any item that gives Undead components": {
+				"Items": ["UndeadComps[+]"],
+				"Chunks": ["Invention Guild"],
+				"Level": 2,
+				"Output": "Undead components",
+				"Primary": false,
+				"Priority": 110
+			},
+			"~|Disassemble|~ any item that gives Shadow components": {
+				"Items": ["ShadowComps[+]"],
+				"Chunks": ["Invention Guild"],
+				"Level": 2,
+				"Output": "Shadow components",
+				"Primary": false,
+				"Priority": 111
+			},
+			"~|Disassemble|~ any item that gives Ilujankan components": {
+				"Items": ["IlujankanComps[+]"],
+				"Chunks": ["Invention Guild"],
+				"Level": 2,
+				"Output": "Ilujankan components",
+				"Primary": false,
+				"Priority": 112
+			},
+			"~|Disassemble|~ any item that gives Cywir components": {
+				"Items": ["CywirComps[+]"],
+				"Chunks": ["Invention Guild"],
+				"Level": 2,
+				"Output": "Cywir components",
+				"Primary": false,
+				"Priority": 113
+			},
+			"~|Disassemble|~ any item that gives Fortunate components": {
+				"Items": ["FortunateComps[+]"],
+				"Chunks": ["Invention Guild"],
+				"Level": 2,
+				"Output": "Fortunate components",
+				"Primary": false,
+				"Priority": 114
+			},
+			"Turn junk into ~|refined components|~": {
+				"Items": ["Junk refiner"],
+				"Objects": ["Inventor's workbench"],
+				"Level": 1,
+				"Primary": true,
+				"Output": "Refined components",
+				"Priority": 100
+			},
+			"Create a ~|weapon gizmo shell|~": {
+				"Items": ["Blade parts*", "Crafted parts*", "Strong components*"],
+				"Objects": ["Inventor's workbench"],
+				"Level": 3,
+				"Primary": true,
+				"Output": "Weapon gizmo shell",
+				"Priority": 1
+			},
+			"Create a ~|divine charge|~": {
+				"Items": ["DivinationEnergy[+]*", "Simple parts*"],
+				"Objects": ["Inventor's workbench"],
+				"Level": 4,
+				"Primary": true,
+				"Output": "Divine charge",
+				"Priority": 1
+			},
+			"Create a ~|gizmo dissolver|~": {
+				"Items": ["Vial*", "Organic parts*", "Clear parts*"],
+				"Objects": ["Inventor's workbench"],
+				"Level": 8,
+				"Primary": true,
+				"Output": "Gizmo dissolver",
+				"Priority": 1
+			},
+			"Create an ~|armour gizmo shell|~": {
+				"Items": ["Deflecting parts*", "Crafted parts*", "Protective components*"],
+				"Objects": ["Inventor's workbench"],
+				"Level": 16,
+				"Primary": true,
+				"Output": "Armour gizmo shell",
+				"Priority": 1
+			},
+			"Create an ~|equipment dissolver|~": {
+				"Items": ["Vial*", "Organic parts*", "Clear parts*"],
+				"Objects": ["Inventor's workbench"],
+				"Level": 16,
+				"Primary": true,
+				"Output": "Equipment dissolver",
+				"Priority": 2
+			},
+			"Create an ~|augmentation dissolver|~": {
+				"Items": ["Vial*", "Delicate parts*", "Cover parts*"],
+				"Objects": ["Inventor's workbench"],
+				"Level": 16,
+				"Primary": true,
+				"Output": "Augmentation dissolver",
+				"Priority": 3
 			},
 			"Create the ~|volcanic trapper outfit|~": {
 				"Items": ["Elite trapper outfit blueprint"],
@@ -45384,6 +45666,7 @@
 			},
 			"Create the ~|warped gorajan trailblazer outfit|~": {
 				"Objects": ["Inventor's workbench"],
+				"Items": ["Elite Dungeoneering outfit blueprint"],
 				"Level": 20,
 				"Skills": {
 					"Dungeoneering": 80
@@ -45442,13 +45725,582 @@
 				"Output": "SentinelOutfit",
 				"Priority": 9
 			},
+			"Discover ~|refined components|~": {
+				"Category": ["Material Blueprints"],
+				"Objects": ["Inventor's workbench"],
+				"Level": 22,
+				"Primary": false,
+				"Priority": 1
+			},
+			"Create a ~|junk refiner|~": {
+				"Items": ["Rune bar*", "Crafted parts*"],
+				"Objects": ["Inventor's workbench"],
+				"Level": 22,
+				"Primary": true,
+				"Output": "Junk refiner",
+				"Priority": 2
+			},
+			"Create a ~|tool gizmo shell|~": {
+				"Items": ["Head parts*", "Crafted parts*", "Precise components*"],
+				"Objects": ["Inventor's workbench"],
+				"Level": 22,
+				"Primary": true,
+				"Output": "Tool gizmo shell",
+				"Priority": 3
+			},
+			"Create a ~|fishing rod-o-matic|~": {
+				"Items": ["Fishing rod*", "Flexible parts*", "Base parts*", "Dextrous components*", "Swift components*"],
+				"Objects": ["Inventor's workbench"],
+				"Level": 22,
+				"Primary": true,
+				"Output": "Fishing rod-o-matic",
+				"Priority": 4
+			},
+			"Create a ~|hammer-tron|~": {
+				"Items": ["Hammer*", "Flexible parts*", "Base parts*", "Powerful components*", "Subtle components*"],
+				"Objects": ["Inventor's workbench"],
+				"Level": 22,
+				"Primary": true,
+				"Output": "Hammer-tron",
+				"Priority": 5
+			},
+			"Create a ~|pyro-matic|~": {
+				"Items": ["Tinderbox*", "Flexible parts*", "Base parts*", "Ethereal components*", "Imbued components*"],
+				"Objects": ["Inventor's workbench"],
+				"Level": 22,
+				"Primary": true,
+				"Output": "Pyro-matic",
+				"Priority": 6
+			},
+			"Create a ~|soul-in-a-box|~": {
+				"Items": ["Soul rune*", "Tensile parts*", "Smooth parts*", "Subtle components*", "Pious components*"],
+				"Objects": ["Inventor's workbench"],
+				"Tasks": {
+					"~|Nomad's Elegy|~ Complete the quest": "Quest"
+				},
+				"Level": 24,
+				"Primary": true,
+				"Output": "Soul-in-a-box",
+				"Priority": 1
+			},
+			"Create an ~|urn enhancer|~": {
+				"Items": ["Soul rune*", "Tensile parts*", "Clear parts*", "Subtle components*", "Precise components*"],
+				"Objects": ["Inventor's workbench"],
+				"Tasks": {
+					"~|Nomad's Elegy|~ Complete the quest": "Quest"
+				},
+				"Level": 24,
+				"Primary": true,
+				"Output": "Urn enhancer",
+				"Priority": 2
+			},
+			"Create an ~|equipment siphon|~": {
+				"Items": ["Simple parts*", "Dextrous components*", "Precious components*"],
+				"Objects": ["Inventor's workbench"],
+				"Level": 27,
+				"Primary": true,
+				"Output": "Equipment siphon",
+				"Priority": 1
+			},
+			"Discover ~|knightly components|~": {
+				"Category": ["Material Blueprints"],
+				"Objects": ["Inventor's workbench"],
+				"Level": 35,
+				"Primary": false,
+				"Priority": 1
+			},
+			"Discover ~|comporeal components|~": {
+				"Category": ["Material Blueprints"],
+				"Chunks": ["Keldagrim"],
+				"Objects": ["Inventor's workbench"],
+				"Level": 40,
+				"Tasks": {
+					"~|The Giant Dwarf|~ Complete the quest": "Quest"
+				},
+				"Primary": false,
+				"Priority": 1
+			},
+			"Discover ~|pestiferous components|~": {
+				"Category": ["Material Blueprints"],
+				"Chunks": ["Dorgesh-Kaan"],
+				"Objects": ["Inventor's workbench"],
+				"Level": 40,
+				"Tasks": {
+					"~|Death to the Dorgeshuun|~ Complete the quest": "Quest"
+				},
+				"Primary": false,
+				"Priority": 2
+			},
+			"Create a ~|spring cleaner|~": {
+				"Items": ["Simple parts*", "Tensile parts*", "Flexible parts*", "Precise components*"],
+				"Objects": ["Inventor's workbench"],
+				"Level": 43,
+				"Primary": true,
+				"Output": "Spring cleaner",
+				"Priority": 1
+			},
+			"Create a ~|tight spring|~": {
+				"Items": ["Tensile parts*", "Subtle components*"],
+				"Objects": ["Inventor's workbench"],
+				"Level": 43,
+				"Primary": true,
+				"Output": "Tight spring",
+				"Priority": 2
+			},
+			"Discover ~|culinary components|~": {
+				"Category": ["Material Blueprints"],
+				"Objects": ["Inventor's workbench"],
+				"Level": 45,
+				"Primary": false,
+				"Priority": 1
+			},
+			"Discover ~|harnessed components|~": {
+				"Category": ["Material Blueprints"],
+				"Objects": ["Inventor's workbench"],
+				"Level": 45,
+				"Primary": false,
+				"Priority": 2
+			},
+			"Discover ~|explosive components|~": {
+				"Category": ["Material Blueprints"],
+				"Objects": ["Inventor's workbench"],
+				"Level": 49,
+				"Primary": false,
+				"Priority": 1
+			},
+			"Discover ~|dragonfire components|~": {
+				"Category": ["Material Blueprints"],
+				"Objects": ["Inventor's workbench"],
+				"Level": 49,
+				"Primary": false,
+				"Priority": 1
+			},
+			"Create a ~|mining accumulator|~": {
+				"Items": ["Decorated mining urn (r)*", "Base parts*", "Spiritual parts*", "Heavy components*"],
+				"Chunks": ["Keldagrim"],
+				"Objects": ["Inventor's workbench"],
+				"Level": 50,
+				"Tasks": {
+					"~|The Giant Dwarf|~ Complete the quest": "Quest"
+				},
+				"Primary": true,
+				"Output": "Mining accumulator",
+				"Priority": 1
+			},
+			"Create a ~|sprinkler MK1|~": {
+				"Items": ["Bucket of water*", "Head parts*", "Metallic parts*", "Living components*"],
+				"Chunks": ["Keldagrim"],
+				"Objects": ["Inventor's workbench"],
+				"Level": 50,
+				"Tasks": {
+					"~|The Giant Dwarf|~ Complete the quest": "Quest"
+				},
+				"Primary": true,
+				"Output": "Sprinkler MK1",
+				"Priority": 2
+			},
+			"Create a ~|mechanised chinchompa|~": {
+				"Items": ["Red chinchompa*", "Plated parts*", "Connector parts*", "Living components*"],
+				"Chunks": ["Dorgesh-Kaan"],
+				"Objects": ["Inventor's workbench"],
+				"Level": 50,
+				"Tasks": {
+					"~|Death to the Dorgeshuun|~ Complete the quest": "Quest"
+				},
+				"Primary": true,
+				"Output": "Mechanised chinchompa",
+				"Priority": 3
+			},
+			"Create a ~|woodcutting accumulator|~": {
+				"Items": ["Decorated woodcutting urn (r)*", "Base parts*", "Spirital parts*", "Sharp components*"],
+				"Chunks": ["Dorgesh-Kaan"],
+				"Objects": ["Inventor's workbench"],
+				"Level": 50,
+				"Tasks": {
+					"~|Death to the Dorgeshuun|~ Complete the quest": "Quest"
+				},
+				"Primary": true,
+				"Output": "Woodcutiting accumulator",
+				"Priority": 4
+			},
+			"Discover ~|brassican components|~": {
+				"Category": ["Material Blueprints"],
+				"Objects": ["Inventor's workbench"],
+				"Level": 54,
+				"Primary": false,
+				"Priority": 1
+			},
+			"Discover ~|fungal components|~": {
+				"Category": ["Material Blueprints"],
+				"Objects": ["Inventor's workbench"],
+				"Level": 54,
+				"Primary": false,
+				"Priority": 2
+			},
+			"Discover ~|fortunate components|~": {
+				"Category": ["Material Blueprints"],
+				"Objects": ["Inventor's workbench"],
+				"Level": 54,
+				"Primary": false,
+				"Priority": 3
+			},
+			"Discover ~|undead components|~": {
+				"Category": ["Material Blueprints"],
+				"Objects": ["Inventor's workbench"],
+				"Level": 54,
+				"Primary": false,
+				"Priority": 4
+			},
+			"Create a ~|crystal tool siphon|~": {
+				"Items": ["Crystal tool siphon blueprint", "Clear parts*", "Crystal parts*", "Imbued components*"],
+				"Objects": ["Inventor's workbench"],
+				"Level": 54,
+				"Primary": true,
+				"Output": "Crystal tool siphon",
+				"Priority": 5
+			},
+			"Discover ~|faceted components|~": {
+				"Category": ["Material Blueprints"],
+				"Objects": ["Inventor's workbench"],
+				"Level": 55,
+				"Primary": false,
+				"Priority": 1
+			},
+			"Discover ~|clockwork components|~": {
+				"Category": ["Material Blueprints"],
+				"Objects": ["Inventor's workbench"],
+				"Level": 55,
+				"Primary": false,
+				"Priority": 1
+			},
+			"Create a ~|B.A.N.K. Stander|~": {
+				"Items": ["Adamant bar*", "Refined components*"],
+				"Chunks": ["Dorgesh-Kaan"],
+				"Objects": ["Inventor's workbench"],
+				"Level": 60,
+				"Tasks": {
+					"~|Death to the Dorgeshuun|~ Complete the quest": "Quest"
+				},
+				"Primary": true,
+				"Output": "B.A.N.K. Stander",
+				"Priority": 1
+			},
+			"Create a ~|monkey mind-control helmet|~": {
+				"Items": ["Monkey talisman*", "Head parts*", "Crystal parts*", "Living components*"],
+				"Chunks": ["Dorgesh-Kaan"],
+				"Objects": ["Inventor's workbench"],
+				"Level": 60,
+				"Tasks": {
+					"~|Death to the Dorgeshuun|~ Complete the quest": "Quest"
+				},
+				"Primary": true,
+				"Output": "Monkey mind-control helmet",
+				"Priority": 2
+			},
+			"Create a ~|book swither|~": {
+				"Items": ["Adamant bar*", "Magic parts*", "Spiritual parts*"],
+				"Chunks": ["Keldagrim"],
+				"Objects": ["Inventor's workbench"],
+				"Level": 55,
+				"Tasks": {
+					"~|The Giant Dwarf|~ Complete the quest": "Quest"
+				},
+				"Primary": true,
+				"Output": "Book switcher",
+				"Priority": 3
+			},
+			"Create a ~|calorie bomb (empty)|~": {
+				"Items": ["Empty pot*", "Cover parts*", "Organic parts*"],
+				"Chunks": ["Keldagrim"],
+				"Objects": ["Inventor's workbench"],
+				"Level": 55,
+				"Tasks": {
+					"~|The Giant Dwarf|~ Complete the quest": "Quest"
+				},
+				"Primary": true,
+				"Output": "Calorie bomb (empty)",
+				"Priority": 4
+			},
+			"Create a ~|fishing accumulator|~": {
+				"Items": ["Decorated fishing urn (r)*", "Base parts*", "Spritiual parts*", "Powerful components*"],
+				"Objects": ["Inventor's workbench"],
+				"Level": 60,
+				"Primary": true,
+				"Output": "Fishing accumulator",
+				"Priority": 5
+			},
+			"Build a ~|simple generator|~": {
+				"Items": ["Smooth parts*", "Connector parts*", "Metallic parts*", "Simple parts*"],
+				"Chunks": ["Invention Guild"],
+				"Level": 60,
+				"Primary": true,
+				"Priority": 6
+			},
+			"Build an ~|auto disassembler|~": {
+				"Items": ["Direct components*", "Base parts*", "Head parts*", "Simple parts*"],
+				"Chunks": ["Invention Guild"],
+				"Level": 60,
+				"Primary": true,
+				"Priority": 7
+			},
+			"Create a ~|auto-screener v1.080|~": {
+				"Items": ["Auto-screener v1.080 blueprint", "Organic parts*", "Tensile parts*", "Crafted parts*", "Variable components*", "Precious components*", "Enhancing components*"],
+				"Objects": ["Inventor's workbench"],
+				"Level": 67,
+				"Primary": true,
+				"Output": "Auto-screener v1.080",
+				"Priority": 1
+			},
+			"Create a ~|lab coat top|~": {
+				"Items": ["Fine cloth*", "Padded parts*", "Cover parts*", "Protective components*"],
+				"Objects": ["Inventor's workbench"],
+				"Level": 69,
+				"Primary": true,
+				"Output": "Lab coat top",
+				"Priority": 1
+			},
+			"Create a ~|lab coat top|~": {
+				"Items": ["Fine cloth*", "Deflecting parts*", "Cover parts*", "Dextrous components*"],
+				"Objects": ["Inventor's workbench"],
+				"Level": 69,
+				"Primary": true,
+				"Output": "Lab coat legs",
+				"Priority": 2
+			},
+			"Discover ~|shifting components|~": {
+				"Category": ["Material Blueprints"],
+				"Objects": ["Inventor's workbench"],
+				"Level": 69,
+				"Primary": false,
+				"Priority": 3
+			},
+			"Create an ~|electrified trap|~": {
+				"Items": ["Box trap*", "Connector parts*", "Stave parts*", "Stunning components*"],
+				"Chunks": ["Dorgesh-Kaan"],
+				"Objects": ["Inventor's workbench"],
+				"Level": 70,
+				"Tasks": {
+					"~|Death to the Dorgeshuun|~ Complete the quest": "Quest"
+				},
+				"Primary": true,
+				"Output": "Electrified trap",
+				"Priority": 1
+			},
+			"Create a ~|dungeoneering party simulator|~": {
+				"Items": ["Dungeoneering token*", "Connector parts*", "Padded parts*", "Evasive components*"],
+				"Chunks": ["Dorgesh-Kaan"],
+				"Objects": ["Inventor's workbench"],
+				"Level": 70,
+				"Tasks": {
+					"~|Death to the Dorgeshuun|~ Complete the quest": "Quest"
+				},
+				"Primary": true,
+				"Output": "Dungeoneering party simulator",
+				"Priority": 2
+			},
+			"Create an ~|Oldak coil|~": {
+				"Items": ["Rune bar*", "Metallic parts*", "Heavy components*", "Imbued components*"],
+				"Chunks": ["Dorgesh-Kaan"],
+				"Objects": ["Inventor's workbench"],
+				"Level": 70,
+				"Tasks": {
+					"~|Death to the Dorgeshuun|~ Complete the quest": "Quest"
+				},
+				"Primary": true,
+				"Output": "Oldak coil",
+				"Priority": 3
+			},
+			"Create a ~|kinetic cyclone|~": {
+				"Items": ["Rune bar*", "Plated parts*", "Heavy components*", "Sharp components*"],
+				"Chunks": ["Keldagrim"],
+				"Objects": ["Inventor's workbench"],
+				"Level": 70,
+				"Tasks": {
+					"~|The Giant Dwarf|~ Complete the quest": "Quest"
+				},
+				"Primary": true,
+				"Output": "Kinetic cyclone",
+				"Priority": 4
+			},
+			"Create an ~|auto-sanctifier|~": {
+				"Items": ["Clean marrentill*", "Spiritual parts*", "Cover parts*", "Pious components*"],
+				"Chunks": ["Keldagrim"],
+				"Objects": ["Inventor's workbench"],
+				"Level": 70,
+				"Tasks": {
+					"~|The Giant Dwarf|~ Complete the quest": "Quest"
+				},
+				"Primary": true,
+				"Output": "Auto-sanctifier",
+				"Priority": 5
+			},
+			"Create a ~|dungeoneering lock melter|~": {
+				"Items": ["Lockpick*", "Smooth parts*", "Tensile parts*", "Ethereal components*"],
+				"Chunks": ["Keldagrim"],
+				"Objects": ["Inventor's workbench"],
+				"Level": 70,
+				"Tasks": {
+					"~|The Giant Dwarf|~ Complete the quest": "Quest"
+				},
+				"Primary": true,
+				"Output": "Dungeoneering lock melter",
+				"Priority": 6
+			},
+			"Build an ~|alchemiser|~": {
+				"Items": ["Imbued components*", "Clear parts*", "Magic parts*", "Delicate parts*"],
+				"Chunks": ["Invention Guild"],
+				"Level": 72,
+				"Primary": true,
+				"Priority": 1
+			},
+			"Discover ~|Bandos components|~": {
+				"Category": ["Material Blueprints"],
+				"Objects": ["Inventor's workbench"],
+				"Level": 74,
+				"Primary": false,
+				"Priority": 1
+			},
+			"Discover ~|Zamorak components|~": {
+				"Category": ["Material Blueprints"],
+				"Objects": ["Inventor's workbench"],
+				"Level": 74,
+				"Primary": false,
+				"Priority": 2
+			},
+			"Discover ~|Saradomin components|~": {
+				"Category": ["Material Blueprints"],
+				"Objects": ["Inventor's workbench"],
+				"Level": 74,
+				"Primary": false,
+				"Priority": 3
+			},
+			"Discover ~|Armadyl components|~": {
+				"Category": ["Material Blueprints"],
+				"Objects": ["Inventor's workbench"],
+				"Level": 74,
+				"Primary": false,
+				"Priority": 4
+			},
+			"Create a ~|small gizmo bag|~": {
+				"Items": ["Spiritual parts*", "Padded parts*", "Crafted parts*"],
+				"Objects": ["Inventor's workbench"],
+				"Level": 75,
+				"Primary": true,
+				"Output": "Small bizmo bag",
+				"Priority": 1
+			},
+			"Create a ~|mechanised siphon|~": {
+				"Items": ["Equipment siphon*", "Magic parts*", "Precious components*", "Dextrous components*", "Enhancing components*"],
+				"Objects": ["Inventor's workbench"],
+				"Level": 77,
+				"Primary": true,
+				"Output": "Mechanised siphon",
+				"Priority": 1
+			},
+			"Build a ~|large generator|~": {
+				"Items": ["Precious components*", "Delicate parts*", "Base parts*", "Clear parts*"],
+				"Chunks": ["Invention Guild"],
+				"Objects": ["Simple generator"],
+				"Level": 80,
+				"Primary": true,
+				"Priority": 1
+			},
+			"Build an ~|auto disassembler mk. II|~": {
+				"Items": ["Sharp components*", "Head parts*", "Tensile parts*", "Flexible parts*"],
+				"Chunks": ["Invention Guild"],
+				"Level": 80,
+				"Primary": true,
+				"Priority": 2
+			},
+			"Create an ~|enchantment of dread|~": {
+				"Items": ["Sliver of power*", "Shifting components*", "Dark bow*"],
+				"Level": 80,
+				"Output": "Enchantment of dread",
+				"Primary": true,
+				"Priority": 3
+			},
+			"Create an ~|enchantment of flames|~": {
+				"Items": ["Sliver of pain*", "Ilujankan components*", "Staff of light*"],
+				"Level": 80,
+				"Output": "Enchantment of flames",
+				"Primary": true,
+				"Priority": 4
+			},
+			"Create an ~|enchantment of agony|~": {
+				"Items": ["Sliver of strength*", "Shadow components*", "Abyssal vine whip*"],
+				"Level": 80,
+				"Output": "Enchantment of agony",
+				"Primary": true,
+				"Priority": 5
+			},
+			"Discover ~|Third-age components|~": {
+				"Category": ["Material Blueprints"],
+				"Objects": ["Inventor's workbench"],
+				"Level": 83,
+				"Primary": false,
+				"Priority": 1
+			},
+			"Discover ~|Seren components|~": {
+				"Category": ["Material Blueprints"],
+				"Objects": ["Inventor's workbench"],
+				"Level": 83,
+				"Primary": false,
+				"Priority": 2
+			},
+			"Discover ~|Zaros components|~": {
+				"Category": ["Material Blueprints"],
+				"Objects": ["Inventor's workbench"],
+				"Level": 83,
+				"Primary": false,
+				"Priority": 3
+			},
+			"Discover ~|classic components|~": {
+				"Category": ["Material Blueprints"],
+				"Chunks": ["Howl's Workshop"],
+				"Objects": ["Inventor's workbench"],
+				"Level": 85,
+				"Primary": false,
+				"Priority": 1
+			},
+			"Discover ~|historic components|~": {
+				"Category": ["Material Blueprints"],
+				"Chunks": ["Howl's Workshop"],
+				"Objects": ["Inventor's workbench"],
+				"Level": 85,
+				"Primary": false,
+				"Priority": 2
+			},
+			"Create an ~|ancient weapon gizmo shell|~": {
+				"Items": ["Ancient gizmo blueprint", "Blade parts*", "Historic components*", "Classic components*", "Strong components*"],
+				"Objects": ["Inventor's workbench"],
+				"Level": 85,
+				"Primary": true,
+				"Output": "Ancient weapon gizmo shell",
+				"Priority": 3
+			},
+			"Create an ~|ancient armour gizmo shell|~": {
+				"Items": ["Ancient gizmo blueprint", "Deflecting parts*", "Historic components*", "Classic components*", "Protective components*"],
+				"Objects": ["Inventor's workbench"],
+				"Level": 85,
+				"Primary": true,
+				"Output": "Ancient armour gizmo shell",
+				"Priority": 4
+			},
+			"Create an ~|ancient tool gizmo shell|~": {
+				"Items": ["Ancient gizmo blueprint", "Head parts*", "Historic components*", "Classic components*", "Precise components*"],
+				"Objects": ["Inventor's workbench"],
+				"Level": 85,
+				"Primary": true,
+				"Output": "Ancient tool gizmo shell",
+				"Priority": 5
+			},
 			"Create a ~|greater Death's Swiftness ability codex|~": {
 				"Items": ["Codex of lost knowledge*", "Cywir components*"],
 				"Objects": ["Inventor's workbench"],
 				"Level": 85,
 				"Output": "Greater Death's Swiftness ability codex",
 				"Primary": true,
-				"Priority": 1
+				"Priority": 6
 			},
 			"Create a ~|greater Sunshine ability codex|~": {
 				"Items": ["Codex of lost knowledge*", "Cywir components*"],
@@ -45456,7 +46308,28 @@
 				"Level": 85,
 				"Output": "Greater Sunshine ability codex",
 				"Primary": true,
-				"Priority": 2
+				"Priority": 7
+			},
+			"Create a ~|Dark Facet of Grace|~": {
+				"Items": ["Dark onyx core*", "Seren components*", "Onyx*", "Crystal tool seed*"],
+				"Level": 85,
+				"Output": "Dark Facet of Grace",
+				"Primary": true,
+				"Priority": 8
+			},
+			"Create a ~|Dark Facet of Luck|~": {
+				"Items": ["Dark onyx core*", "Corporeal components*", "Onyx*", "Muddy key*"],
+				"Level": 85,
+				"Output": "Dark Facet of Luck",
+				"Primary": true,
+				"Priority": 9
+			},
+			"Create a ~|Dark Facet of Passage|~": {
+				"Items": ["Dark onyx core*", "Ascended components*", "Onyx*", "Abyssal wand*", "Abyssal orb*"],
+				"Level": 85,
+				"Output": "Dark Facet of Passage",
+				"Primary": true,
+				"Priority": 10
 			},
 			"Create a ~|golem framework|~": {
 				"Tasks": {
@@ -45473,44 +46346,223 @@
 				"Primary": true,
 				"Priority": 1
 			},
-			"Create an ~|alchemical onyx|~": {
-				"Items": ["Oynx*", "Fortunate components*", "Refined components*", "Precious components*"],
-				"Level": 107,
-				"Skills": {
-					"Crafting": 80
-				},
-				"Output": "Alchemical onyx",
+			"Create a ~|lightbulb hat|~": {
+				"Items": ["Light orb*", "Head parts*", "Delicate parts*", "Light components*"],
 				"Objects": ["Inventor's workbench"],
+				"Level": 87,
+				"Primary": true,
+				"Output": "Lightbulb hat",
+				"Priority": 1
+			},
+			"Discover ~|oceanic components|~": {
+				"Category": ["Material Blueprints"],
+				"Objects": ["Inventor's workbench"],
+				"Level": 87,
+				"Primary": false,
+				"Priority": 2
+			},
+			"Discover ~|silent components|~": {
+				"Category": ["Material Blueprints"],
+				"Objects": ["Inventor's workbench"],
+				"Level": 87,
+				"Primary": false,
+				"Priority": 3
+			},
+			"Discover ~|resilient components|~": {
+				"Category": ["Material Blueprints"],
+				"Objects": ["Inventor's workbench"],
+				"Level": 87,
+				"Primary": false,
+				"Priority": 3
+			},
+			"Create an ~|Undead Slayer ability codex|~": {
+				"Items": ["Undead Slayer ability codex blueprint", "Black stone heart*", "Onyx*", "Oceanic components*"],
+				"Objects": ["Inventor's workbench"],
+				"Level": 88,
+				"Primary": true,
+				"Output": "Undead Slayer abiltiy codex",
+				"Priority": 1
+			},
+			"Create an ~|Demon Slayer ability codex|~": {
+				"Items": ["Demon Slayer ability codex blueprint", "Black stone heart*", "Onyx*", "Silent components*"],
+				"Objects": ["Inventor's workbench"],
+				"Level": 88,
+				"Primary": true,
+				"Output": "Demon Slayer abiltiy codex",
+				"Priority": 2
+			},
+			"Create an ~|Dragon Slayer ability codex|~": {
+				"Items": ["Dragon Slayer ability codex blueprint", "Black stone heart*", "Onyx*", "Resilient components*"],
+				"Objects": ["Inventor's workbench"],
+				"Level": 88,
+				"Primary": true,
+				"Output": "Dragon Slayer abiltiy codex",
+				"Priority": 3
+			},
+			"Discover ~|shadow components|~": {
+				"Category": ["Material Blueprints"],
+				"Chunks": ["The Heart"],
+				"Objects": ["Inventor's workbench"],
+				"Level": 89,
+				"Primary": false,
+				"Priority": 1
+			},
+			"Discover ~|avernic components|~": {
+				"Category": ["Material Blueprints"],
+				"Chunks": ["The Heart"],
+				"Objects": ["Inventor's workbench"],
+				"Level": 89,
+				"Primary": false,
+				"Priority": 2
+			},
+			"Discover ~|Cywir components|~": {
+				"Category": ["Material Blueprints"],
+				"Chunks": ["The Heart"],
+				"Objects": ["Inventor's workbench"],
+				"Level": 89,
+				"Primary": false,
+				"Priority": 3
+			},
+			"Discover ~|Ilujankan components|~": {
+				"Category": ["Material Blueprints"],
+				"Chunks": ["The Heart"],
+				"Objects": ["Inventor's workbench"],
+				"Level": 89,
+				"Primary": false,
+				"Priority": 4
+			},
+			"Build a ~|partial potion producer|~": {
+				"Items": ["Living components*", "Clear parts*", "Organic parts*", "Smooth parts*"],
+				"Chunks": ["Invention Guild"],
+				"Level": 90,
 				"Primary": true,
 				"Priority": 1
 			},
-			"Create the ~|Experimental Aether Reactor|~": {
-				"Tasks": {
-					"Complete the ~|Archaeology tutorial|~": "Archaeology"
-				},
-				"Items": ["Chuluu stone*", "Quintessence*", "Historic components*", "Timeworn components*", "Vintage components*"],
-				"Objects": ["Inventor's workbench", "Theoretical blueprint"],
-				"Level": 108,
-				"Skills": {
-					"Archaeology": 118
-				},
-				"Output": "Experimental Aether Reactor",
+			"Create a ~|pogo stick|~": {
+				"Items": ["Roal torsion spring*", "Tensile parts*", "Stave parts*", "Swift components*"],
+				"Objects": ["Inventor's workbench"],
+				"Level": 91,
+				"Primary": true,
+				"Output": "Pogo stick",
+				"Priority": 1
+			},
+			"Create a ~|spirit tree re-rooter|~": {
+				"Items": ["Organic parts*", "Living components*", "Fungal components*"],
+				"Objects": ["Inventor's workbench"],
+				"Level": 92,
+				"Primary": true,
+				"Output": "Spirit tree re-rooter",
+				"Priority": 1
+			},
+			"Build an ~|automatic hide tanner|~": {
+				"Items": ["Needle*", "Protective components*", "Padded parts*", "Deflecting parts*"],
+				"Chunks": ["Invention Guild"],
+				"Level": 93,
 				"Primary": true,
 				"Priority": 1
 			},
-			"Create ~|The Subtle Blade|~": {
-				"Tasks": {
-					"Complete the ~|Archaeology tutorial|~": "Archaeology"
-				},
-				"Items": ["Shard of the Blade*", "Prototype godsword*", "Historic components*", "Base parts*", "Timeworn components*", "Vintage components*"],
-				"Objects": ["Inventor's workbench", "Theoretical blueprint"],
-				"Level": 111,
-				"Skills": {
-					"Archaeology": 112
-				},
-				"Output": "The Subtle Blade",
+			"Create an ~|enhanced pyro-matic|~": {
+				"Items": ["Ancient tools blueprint", "Pyro-matic*", "Historic components*", "Classic components*"],
+				"Objects": ["Inventor's workbench"],
+				"Level": 93,
 				"Primary": true,
+				"Output": "Enhanced pyro-matic",
+				"Priority": 2
+			},
+			"Create an ~|enhanced fishing rod-o-matic|~": {
+				"Items": ["Ancient tools blueprint", "Fishing rod-o-matic*", "Historic components*", "Classic components*"],
+				"Objects": ["Inventor's workbench"],
+				"Level": 93,
+				"Primary": true,
+				"Output": "Enhanced fishing rod-o-matic",
+				"Priority": 3
+			},
+			"Create an ~|enhanced hammer-tron|~": {
+				"Items": ["Ancient tools blueprint", "Hammer-tron*", "Historic components*", "Classic components*"],
+				"Objects": ["Inventor's workbench"],
+				"Level": 93,
+				"Primary": true,
+				"Output": "Enhanced hammer-tron",
+				"Priority": 4
+			},
+			"Create a ~|partable fairy ring|~": {
+				"Items": ["Organic parts*", "Healthy components*", "Fungal components*"],
+				"Objects": ["Inventor's workbench"],
+				"Tasks": {
+					"~|A Fairy Tale II - Cure a Queen|~ Complete the quest": "Quest"
+				},
+				"Level": 94,
+				"Primary": true,
+				"Output": "Portable fairy ring",
 				"Priority": 1
+			},
+			"Discover ~|vintage components|~": {
+				"Category": ["Material Blueprints"],
+				"Chunks": ["Howl's Workshop"],
+				"Objects": ["Inventor's workbench"],
+				"Level": 94,
+				"Primary": false,
+				"Priority": 2
+			},
+			"Create a ~|medium gizmo bag|~": {
+				"Items": ["Small gizmo bag*", "Flexible parts*", "Crafted parts*", "Evasive components*"],
+				"Objects": ["Inventor's workbench"],
+				"Level": 95,
+				"Primary": true,
+				"Output": "Medium gizmo bag",
+				"Priority": 1
+			},
+			"Create a ~|herb protector|~": {
+				"Items": ["Plant cure*", "Organic parts*", "Healthy components*"],
+				"Objects": ["Inventor's workbench"],
+				"Level": 96,
+				"Primary": true,
+				"Output": "Herb protector",
+				"Priority": 1
+			},
+			"Create ~|enchanted notepaper|~": {
+				"Items": ["Notepaper blueprint", "Elder logs*", "Astral rune*", "Magic parts*", "Etheral components*"],
+				"Objects": ["Inventor's workbench"],
+				"Level": 97,
+				"Primary": true,
+				"Output": "Enchanted notepaper",
+				"Priority": 1
+			},
+			"Create an ~|energy barrel|~": {
+				"Items": ["Incandescent energy*", "Magic parts*", "Evasive components*", "Light components*"],
+				"Objects": ["Inventor's workbench"],
+				"Level": 98,
+				"Primary": true,
+				"Output": "Energy barrel",
+				"Priority": 1
+			},
+			"Discover ~|noxious components|~": {
+				"Category": ["Material Blueprints"],
+				"Objects": ["Inventor's workbench"],
+				"Level": 99,
+				"Primary": false,
+				"Priority": 1
+			},
+			"Discover ~|rumbling components|~": {
+				"Category": ["Material Blueprints"],
+				"Objects": ["Inventor's workbench"],
+				"Level": 99,
+				"Primary": false,
+				"Priority": 2
+			},
+			"Discover ~|ascended components|~": {
+				"Category": ["Material Blueprints"],
+				"Objects": ["Inventor's workbench"],
+				"Level": 99,
+				"Primary": false,
+				"Priority": 3
+			},
+			"Build a ~|plank maker (machine)|~": {
+				"Items": ["Saw*", "Direct components*", "Simple parts*", "Crafted parts*"],
+				"Chunks": ["Invention Guild"],
+				"Level": 99,
+				"Primary": true,
+				"Priority": 4
 			},
 			"Buy the ~|Invention cape|~": {
 				"Category": ["Skillcape"],
@@ -45519,17 +46571,8 @@
 				"Output": "Invention cape",
 				"Primary": false,
 				"NoBoost": true,
-				"Priority": 2
-			},
-			"Buy the ~|Invention master cape|~": {
-				"Category": ["Skillcape"],
-				"NPCs": ["Doc"],
-				"Level": 120,
-				"Output": "Invention master cape",
-				"Primary": false,
-				"NoBoost": true,
-				"Priority": 3
-			},
+				"Priority": 5
+			},		
 			"Buy the ~|Max cape|~": {
 				"Tasks": {
 					"Complete the ~|Archaeology tutorial|~": "Archaeology"
@@ -45568,7 +46611,208 @@
 					"Thieving": 99,
 					"Woodcutting": 99
 				},
+				"Priority": 6
+			},
+			"Create a ~|whetstone (device)|~": {
+				"Items": ["Hammer*", "Base parts*", "Deflecting parts*"],
+				"Objects": ["Inventor's workbench"],
+				"Level": 100,
+				"Primary": true,
+				"Output": "Whetstone (device)",
 				"Priority": 1
+			},
+			"Create a ~|divine-o-matic vacuum|~": {
+				"Items": ["Metallic parts*", "Smooth parts*", "Powerful components*"],
+				"Objects": ["Inventor's workbench"],
+				"Level": 101,
+				"Primary": true,
+				"Output": "Divine-o-matic vacuum",
+				"Priority": 1
+			},
+			"Create a ~|divine charge (empty)|~": {
+				"Items": ["Simple parts*"],
+				"Objects": ["Inventor's workbench"],
+				"Level": 101,
+				"Primary": true,
+				"Output": "Divine charge (empty)",
+				"Priority": 2
+			},
+			"Build a ~|jumbo generator|~": {
+				"Items": ["Powerful components*", "Precious components*", "Magic parts*", "Metallic parts*"],
+				"Chunks": ["Invention Guild"],
+				"Objects": ["Large generator"],
+				"Level": 102,
+				"Primary": true,
+				"Priority": 1
+			},
+			"Discover ~|timeworm components|~": {
+				"Category": ["Material Blueprints"],
+				"Chunks": ["Howl's Workshop"],
+				"Objects": ["Inventor's workbench"],
+				"Level": 103,
+				"Primary": false,
+				"Priority": 1
+			},
+			"Create a ~|liquid patch bomb|~": {
+				"Items": ["Magic parts*", "Living components*"],
+				"Objects": ["Inventor's workbench"],
+				"Level": 103,
+				"Primary": true,
+				"Output": "Liquid patch bomb",
+				"Priority": 1
+			},
+			"Create a ~|XP Capacitor 5000|~": {
+				"Items": ["XP Capacitor blueprint", "Refined components*", "Historic components*", "Classic components*", "Clear parts*"],
+				"Objects": ["Inventor's workbench"],
+				"Level": 106,
+				"Primary": true,
+				"Output": "XP Capacitor 5000",
+				"Priority": 1
+			},
+			"Create an ~|alchemical onyx|~": {
+				"Items": ["Oynx*", "Fortunate components*", "Refined components*", "Precious components*"],
+				"Level": 107,
+				"Output": "Alchemical onyx",
+				"Objects": ["Inventor's workbench"],
+				"Primary": true,
+				"Priority": 1
+			},
+			"Build an ~|alchemiser mk. II|~": {
+				"Items": ["Fire battlestaff*", "Pious components*", "Imbued components*", "Spiritual parts*"],
+				"Chunks": ["Invention Guild"],
+				"Level": 108,
+				"Primary": true,
+				"Priority": 1
+			},
+			"Create the ~|Experimental Aether Reactor|~": {
+				"Tasks": {
+					"Complete the ~|Archaeology tutorial|~": "Archaeology"
+				},
+				"Items": ["Chuluu stone*", "Quintessence*", "Historic components*", "Timeworn components*", "Vintage components*"],
+				"Objects": ["Inventor's workbench", "Theoretical blueprint"],
+				"Level": 108,
+				"Skills": {
+					"Archaeology": 118
+				},
+				"Output": "Experimental Aether Reactor",
+				"Primary": true,
+				"Priority": 2
+			},
+			"Create a ~|flatpack depacker|~": {
+				"Items": ["Crafted parts*", "Head parts*", "Sharp components*"],
+				"Objects": ["Inventor's workbench"],
+				"Level": 109,
+				"Primary": true,
+				"Output": "Flatpack depacker",
+				"Priority": 1
+			},
+			"Create a ~|teleportation compactor|~": {
+				"Items": ["Magic parts*", "Imbued components*", "Enhancing components*"],
+				"Objects": ["Inventor's workbench"],
+				"Level": 110,
+				"Primary": true,
+				"Output": "Teleportation compactor",
+				"Priority": 1
+			},
+			"Create ~|The Subtle Blade|~": {
+				"Tasks": {
+					"Complete the ~|Archaeology tutorial|~": "Archaeology"
+				},
+				"Items": ["Shard of the Blade*", "Prototype godsword*", "Historic components*", "Base parts*", "Timeworn components*", "Vintage components*"],
+				"Objects": ["Inventor's workbench", "Theoretical blueprint"],
+				"Level": 111,
+				"Skills": {
+					"Archaeology": 112
+				},
+				"Output": "The Subtle Blade",
+				"Primary": true,
+				"Priority": 1
+			},
+			"Build an ~|optimised hide tanner|~": {
+				"Items": ["Thread*", "Protective components*", "Evasive components*", "Cover parts*"],
+				"Chunks": ["Invention Guild"],
+				"Level": 111,
+				"Primary": true,
+				"Priority": 2
+			},
+			"Create a ~|potion reservoir|~": {
+				"Items": ["Potion flask*", "Simple parts*", "Clear parts*"],
+				"Objects": ["Inventor's workbench"],
+				"Level": 112,
+				"Primary": true,
+				"Output": "Potion reservoir",
+				"Priority": 1
+			},
+			"Create a ~|combat dummy MKII|~": {
+				"Items": ["Deflecting parts*", "Strong components*"],
+				"Objects": ["Inventor's workbench"],
+				"Level": 113,
+				"Primary": true,
+				"Output": "Combat dummy MKII",
+				"Priority": 1
+			},
+			"Build a ~|partial potion producer DX|~": {
+				"Items": ["Healthy components*", "Living components*", "Base parts*", "Clear parts*"],
+				"Chunks": ["Invention Guild"],
+				"Level": 114,
+				"Primary": true,
+				"Priority": 1
+			},
+			"Create an ~|Ingenuity of the Humans ability codex|~": {
+				"Items": ["Alchemical onyx*", "Stunning components*", "Direct components*", "Smooth parts*"],
+				"Objects": ["Inventor's workbench"],
+				"Level": 114,
+				"Primary": true,
+				"Output": "Ingenuity of the Humans ability codex",
+				"Priority": 2
+			},
+			"Create an ~|equipment separator|~": {
+				"Items": ["Clear parts*", "Ethereal components*", "Precious components*", "Protective components*", "Undead components*"],
+				"Objects": ["Inventor's workbench"],
+				"Level": 115,
+				"Primary": true,
+				"Output": "Equipment separator",
+				"Priority": 1
+			},
+			"Build a ~|high capacity plank maker|~": {
+				"Items": ["Precise components*", "Sharp components*", "Living components*", "Crafted parts*"],
+				"Chunks": ["Invention Guild"],
+				"Level": 117,
+				"Primary": true,
+				"Priority": 1
+			},
+			"Create an ~|alchemical hydrix|~": {
+				"Items": ["Hydrix*", "Fortunate components*", "Refined components*", "Precious components*", "Rumbling components*"],
+				"Objects": ["Inventor's workbench"],
+				"Level": 117,
+				"Primary": true,
+				"Output": "Alchemical hydrix",
+				"Priority": 2
+			},
+			"Create a ~|large gizmo bag|~": {
+				"Items": ["Medium gizmo bag*", "Crafted parts*", "Light components*", "Precious components*"],
+				"Objects": ["Inventor's workbench"],
+				"Level": 118,
+				"Primary": true,
+				"Output": "Large bizmo bag",
+				"Priority": 1
+			},
+			"Create a ~|passage of the abyss|~": {
+				"Items": ["Alchemical onyx*", "Teleportation compactor*", "Magic parts*"],
+				"Objects": ["Inventor's workbench"],
+				"Level": 118,
+				"Primary": true,
+				"Output": "Passage of the abyss",
+				"Priority": 2
+			},
+			"Buy the ~|Invention master cape|~": {
+				"Category": ["Skillcape"],
+				"NPCs": ["Doc"],
+				"Level": 120,
+				"Output": "Invention master cape",
+				"Primary": false,
+				"NoBoost": true,
+				"Priority": 3
 			},
 			"Create the ~|blurite keystone|~": {
 				"Tasks": {
@@ -52255,6 +53499,13 @@
 				"Priority": 5,
 				"NoBoost": true
 			},
+			"Siphon from a ~|soul obelisk (Menaphos)|~ for Prayer xp": {
+				"Category": ["Menaphos Events"],
+				"Chunks": ["SoulObelisks[+]"],
+				"Level": 50,
+				"Primary": true,
+				"Priority": 6
+			},
 			"Wield an ~|unblessed spirit shield|~": {
 				"Items": ["Spirit shield"],
 				"Level": 55,
@@ -56816,6 +58067,22 @@
 				"NoPet": true,
 				"NoBoost": true
 			},
+			"Equip a ~|primal arrow|~": {
+				"Items": ["Primal arrow"],
+				"Level": 99,
+				"Primary": false,
+				"Priority": 14,
+				"NoPet": true,
+				"NoBoost": true
+			},
+			"Equip a ~|primal bolt|~": {
+				"Items": ["Primal arrow"],
+				"Level": 99,
+				"Primary": false,
+				"Priority": 14,
+				"NoPet": true,
+				"NoBoost": true
+			},
 			"Buy the ~|Ranged cape|~": {
 				"Category": ["Skillcape"],
 				"NPCs": ["Armour salesman"],
@@ -56965,6 +58232,13 @@
 			}
 		},
 		"Runecrafting": {
+			"Siphon from a ~|soul obelisk (Menaphos)|~ for Runecrafting xp": {
+				"Category": ["Menaphos Events"],
+				"Chunks": ["SoulObelisks[+]"],
+				"Level": 1,
+				"Primary": true,
+				"Priority": 30
+			},
 			"Craft ~|air runes|~ at the air rune temple": {
 				"Chunks": ["Air Rune Temple"],
 				"Items": ["RuneEssence[+]*"],
@@ -57634,6 +58908,13 @@
 				"Level": 80,
 				"Primary": false,
 				"Priority": 4
+			},
+			"Create an ~|enchantment of afflicition|~": {
+				"Items": ["Sliver of pain*", "Onyx*", "Necromantic focus*"],
+				"Level": 80,
+				"Output": "Enchantment of afflicition",
+				"Primary": true,
+				"Priority": 5
 			},
 			"Siphon death and blood runes from ~|bloody skulls|~": {
 				"Chunks": ["The Runespan"],
@@ -58312,6 +59593,13 @@
 			}
 		},
 		"Slayer": {
+			"Burst a ~|corrupted scarab (Menaphos)|~": {
+				"Category": ["Menaphos Events"],
+				"Chunks": ["CorruptedScarabs[+]"],
+				"Level": 1,
+				"Primary": true,
+				"Priority": 30
+			},
 			"Obtain a ~|creeping hand|~": {
 				"Items": ["Crawling hand (item)"],
 				"Level": 5,
@@ -59546,6 +60834,15 @@
 				"Priority": 1,
 				"Source": "drop",
 				"Output": "Profane Scabarite",
+				"NoPet": true
+			},
+			"Slay an ~|elite profane scabarite|~": {
+				"Level": 87,
+				"Monsters": ["Elite Profane Scabarite"],
+				"Primary": false,
+				"Priority": 2,
+				"Source": "drop",
+				"Output": "Elite Profane Scabarite",
 				"NoPet": true
 			},
 			"Slay a ~|grifolapine|~": {
@@ -60954,6 +62251,9 @@
 				"Items": ["Steel bar*"],
 				"Level": 35,
 				"Objects": ["Furnace[+]"],
+				"Tasks": {
+					"~|Dwarf Cannon|~ Complete the quest": "Quest"
+				},
 				"Output": "Cannonball",
 				"Primary": true,
 				"Priority": 1
@@ -61614,6 +62914,13 @@
 				"Level": 80,
 				"primary": true,
 				"Priority": 22
+			},
+			"Create an ~|enchantment of savagery|~": {
+				"Items": ["Sliver of pain*", "Glorious bar*", "Ork cleaver sword*"],
+				"Level": 80,
+				"Output": "Enchantment of savagery",
+				"Primary": true,
+				"Priority": 50
 			},
 			"Forge a ~|Dark Shard of Leng|~": {
 				"Items": ["Glacor remnants*", "Dark nilas*", "Dark ice shard*", "Frozen core of Leng*"],
@@ -67480,7 +68787,8 @@
 				"Level": 10,
 				"Objects": ["Tree[+]"],
 				"Primary": false,
-				"Priority": 7
+				"Priority": 7,
+				"NoBoost": true
 			},
 			"Chop with a ~|dwarven army axe|~": {
 				"Items": ["Dwarven army axe"],
@@ -67495,28 +68803,32 @@
 				"Level": 20,
 				"Objects": ["Tree[+]"],
 				"Primary": false,
-				"Priority": 3
+				"Priority": 3,
+				"NoBoost": true
 			},
 			"Chop with a ~|black hatchet|~": {
 				"Items": ["Black hatchet"],
 				"Level": 25,
 				"Objects": ["Tree[+]"],
 				"Primary": false,
-				"Priority": 1
+				"Priority": 1,
+				"NoBoost": true
 			},
 			"Chop with a ~|mithril hatchet|~": {
 				"Items": ["Mithril hatchet"],
 				"Level": 30,
 				"Objects": ["Tree[+]"],
 				"Primary": false,
-				"Priority": 3
+				"Priority": 3,
+				"NoBoost": true
 			},
 			"Chop with an ~|adamant hatchet|~": {
 				"Items": ["Adamant hatchet"],
 				"Level": 40,
 				"Objects": ["Tree[+]"],
 				"Primary": false,
-				"Priority": 3
+				"Priority": 3,
+				"NoBoost": true
 			},
 			"Chop with a ~|sacred clay hatchet|~": {
 				"Items": ["Sacred clay hatchet"],
@@ -67530,21 +68842,24 @@
 				"Level": 50,
 				"Objects": ["Tree[+]"],
 				"Primary": false,
-				"Priority": 3
+				"Priority": 3,
+				"NoBoost": true
 			},
 			"Chop with a ~|dragon hatchet|~": {
 				"Items": ["Dragon hatchet"],
 				"Level": 61,
 				"Objects": ["Tree[+]"],
 				"Primary": false,
-				"Priority": 2
+				"Priority": 2,
+				"NoBoost": true
 			},
 			"Chop with an ~|orikalkum hatchet|~": {
 				"Items": ["Orikalkum hatchet"],
 				"Level": 6,
 				"Objects": ["Tree[+]"],
 				"Primary": false,
-				"Priority": 2
+				"Priority": 2,
+				"NoBoost": true
 			},
 			"Use an ~|inferno Adze|~": {
 				"Items": ["Inferno Adze|~"],
@@ -67555,62 +68870,71 @@
 					"Firemaking": 92,
 					"Mining": 50
 				},
-				"Priority": 1
+				"Priority": 1,
+				"NoBoost": true
 			},
 			"Chop with a ~|crystal hatchet|~": {
 				"Items": ["Crystal hatchet"],
 				"Level": 70,
 				"Objects": ["Tree[+]"],
 				"Primary": false,
-				"Priority": 2
+				"Priority": 2,
+				"NoBoost": true
 			},
 			"Chop with a ~|necronium hatchet|~": {
 				"Items": ["Necronium hatchet"],
 				"Level": 70,
 				"Objects": ["Tree[+]"],
 				"Primary": false,
-				"Priority": 3
+				"Priority": 3,
+				"NoBoost": true
 			},
 			"Chop with a ~|bane hatchet|~": {
 				"Items": ["Bane hatchet"],
 				"Level": 80,
 				"Objects": ["Tree[+]"],
 				"Primary": false,
-				"Priority": 2
+				"Priority": 2,
+				"NoBoost": true
 			},
 			"Chop with the ~|Hatchet of Ember and Glade|~": {
 				"Items": ["Hatchet of Ember and Glade"],
 				"Level": 90,
 				"Objects": ["Tree[+]"],
 				"Primary": false,
-				"Priority": 3
+				"Priority": 3,
+				"NoBoost": true
 			},
 			"Chop with an ~|elder rune hatchet|~": {
 				"Items": ["Elder rune hatchet"],
 				"Level": 90,
 				"Objects": ["Tree[+]"],
 				"Primary": false,
-				"Priority": 4
+				"Priority": 4,
+				"NoBoost": true
 			},
 			"Chop with the ~|Hatchet of Bloom and Blight|~": {
 				"Items": ["Hatchet of Bloom and Blight"],
 				"Level": 100,
 				"Objects": ["Tree[+]"],
 				"Primary": false,
-				"Priority": 2
+				"Priority": 2,
+				"NoBoost": true
 			},
 			"Chop with a ~|primal hatchet|~": {
 				"Items": ["Primal hatchet"],
 				"Level": 100,
 				"Objects": ["Tree[+]"],
 				"Primary": false,
-				"Priority": 3
+				"Priority": 3,
+				"NoBoost": true
 			},
 			"Equip a ~|superior log-splitting scrimshaw|~": {
 				"Items": ["Superior log-splitting scrimshaw"],
 				"Level": 70,
 				"Primary": false,
-				"Priority": 3
+				"Priority": 3,
+				"NoBoost": true
 			},
 			"Chop ~|light jungle|~": {
 				"Level": 10,
@@ -69633,6 +70957,133 @@
 					"Cooking": 5000,
 					"Fishing": 5000,
 					"Attack|Constitution|Strength|Defence|Ranged|Prayer|Magic|Herblore|Slayer|Summoning": 10000
+				}
+			},
+			"~|Beneath Scabaras' Sands|~ 1": {
+				"BaseQuest": "Beneath Scabaras' Sands",
+				"Description": "Enter the Menaphos Throne Room",
+				"Chunks": ["12586"],
+				"Skills": {
+					"Slayer": 87
+				},
+				"Tasks": {
+					"~|'Phite Club|~ Complete the quest": "Quest",
+					"~|Ode of the Devourer|~ Complete the quest": "Quest"
+				},
+				"NoBoost": true
+			},
+			"~|Beneath Scabaras' Sands|~ 2a": {
+				"BaseQuest": "Beneath Scabaras' Sands",
+				"Description": "Get the report from Emir Ali Mirza",
+				"Chunks": ["13105"],
+				"Tasks": {
+					"~|Beneath Scabaras' Sands|~ 1": "Quest"
+				}
+			},
+			"~|Beneath Scabaras' Sands|~ 2b": {
+				"BaseQuest": "Beneath Scabaras' Sands",
+				"Description": "Get the report from Hakeem the Mayor",
+				"Chunks": ["13358"],
+				"Tasks": {
+					"~|Beneath Scabaras' Sands|~ 1": "Quest"
+				}
+			},
+			"~|Beneath Scabaras' Sands|~ 2c": {
+				"BaseQuest": "Beneath Scabaras' Sands",
+				"Description": "Get the report from Awusha the Mayor",
+				"Chunks": ["13613"],
+				"Tasks": {
+					"~|Beneath Scabaras' Sands|~ 1": "Quest"
+				}
+			},
+			"~|Beneath Scabaras' Sands|~ 2d": {
+				"BaseQuest": "Beneath Scabaras' Sands",
+				"Description": "Get the report from the High Presit of Ichtlarin",
+				"Chunks": ["13098"],
+				"Tasks": {
+					"~|Beneath Scabaras' Sands|~ 1": "Quest"
+				}
+			},
+			"~|Beneath Scabaras' Sands|~ 3": {
+				"BaseQuest": "Beneath Scabaras' Sands",
+				"Description": "Return the reports to Osman and fend off the scabarites",
+				"Chunks": ["12586"],
+				"Tasks": {
+					"~|Beneath Scabaras' Sands|~ 2a": "Quest",
+					"~|Beneath Scabaras' Sands|~ 2b": "Quest",
+					"~|Beneath Scabaras' Sands|~ 2c": "Quest",
+					"~|Beneath Scabaras' Sands|~ 2d": "Quest"
+				}
+			},
+			"~|Beneath Scabaras' Sands|~ 4": {
+				"BaseQuest": "Beneath Scabaras' Sands",
+				"Description": "Speak to Osman and search for information in the Grand Library",
+				"Chunks": ["Grand Library of Menaphos"],
+				"Tasks": {
+					"~|Beneath Scabaras' Sands|~ 3": "Quest"
+				}
+			},
+			"~|Beneath Scabaras' Sands|~ 5": {
+				"BaseQuest": "Beneath Scabaras' Sands",
+				"Description": "Speak to Leela and Senliten at the Uzer Mastaba",
+				"Chunks": ["Uzer Mastaba"],
+				"Tasks": {
+					"~|Beneath Scabaras' Sands|~ 4": "Quest"
+				}
+			},
+			"~|Beneath Scabaras' Sands|~ 6": {
+				"BaseQuest": "Beneath Scabaras' Sands",
+				"Description": "Speak to Lead Archaeologist Kerner at the Ruins of Uzer and restore the golden scarab",
+				"Chunks": ["13872"],
+				"Items": ["Zarosian Artefact[+]"],
+				"Tasks": {
+					"~|Beneath Scabaras' Sands|~ 5": "Quest"
+				}
+			},
+			"~|Beneath Scabaras' Sands|~ 7": {
+				"BaseQuest": "Beneath Scabaras' Sands",
+				"Description": "Return to Osman",
+				"Chunks": ["12586"],
+				"Tasks": {
+					"~|Beneath Scabaras' Sands|~ 6": "Quest"
+				}
+			},
+			"~|Beneath Scabaras' Sands|~ 8": {
+				"BaseQuest": "Beneath Scabaras' Sands",
+				"Description": "Follow the golden scarab",
+				"Chunks": ["12844", "12845", "12846", "12590", "12847", "13103", "13102"],
+				"Tasks": {
+					"~|Beneath Scabaras' Sands|~ 7": "Quest"
+				}
+			},
+			"~|Beneath Scabaras' Sands|~ 9": {
+				"BaseQuest": "Beneath Scabaras' Sands",
+				"Description": "Enter the Scabarite Cavern, discover the Temple of Isolation, and speak to Scabaras",
+				"Chunks": ["Scabarite Cavern"],
+				"Tasks": {
+					"~|Beneath Scabaras' Sands|~ 8": "Quest"
+				}
+			},
+			"~|Beneath Scabaras' Sands|~ 10": {
+				"BaseQuest": "Beneath Scabaras' Sands",
+				"Description": "Stomp out Grief, and talk to Scabaras at the Temple of Amascut",
+				"Chunks": ["12848"],
+				"Tasks": {
+					"~|Beneath Scabaras' Sands|~ 9": "Quest"
+				}
+			},
+			"~|Beneath Scabaras' Sands|~ Complete the quest": {
+				"BaseQuest": "Beneath Scabaras' Sands",
+				"Chunks": ["12848"],
+				"Tasks": {
+					"~|Beneath Scabaras' Sands|~ 10": "Quest"
+				},
+				"Reward": ["Primed keris"],
+				"QuestPoints": 2,
+				"XpReward": {
+					"Slayer": 100000,
+					"Archaeology": 100000,
+					"Attack|Constitution|Strength|Defence|Ranged|Magic|Necromancy": 75000
 				}
 			},
 			"~|Benedict's World Tour (miniquest)|~ 1": {
@@ -73459,7 +74910,7 @@
 				"BaseQuest": "Dead and Buried",
 				"Description": "Build the first tier of the Ranger's Workroom, then speak to the Raptor",
 				"Chunks": ["13111"],
-				"Items": ["Acadia frame", "Stone wall segment"],
+				"Items": ["Acadia frame*", "Stone wall segment*"],
 				"Tasks": {
 					"~|Dead and Buried|~ 1": "Quest"
 				},
@@ -86698,6 +88149,7 @@
 				"Tasks": {
 					"~|Monkey Madness|~ 10": "Quest"
 				},
+				"Rewards": ["Monkey talisman"],
 				"Not F2P": true
 			},
 			"~|Monkey Madness|~ 12": {
@@ -87262,9 +88714,12 @@
 				"BaseQuest": "Murder on the Border",
 				"Description": "Build the kitchen",
 				"Chunks": ["13111"],
-				"Items": ["Oak frame", "Stone wall segment"],
+				"Items": ["Willow frame", "Stone wall segment"],
 				"Tasks": {
 					"~|Murder on the Border|~ 1": "Quest"
+				},
+				"Skills": {
+					"Construction": 25
 				},
 				"Not F2P": true
 			},
@@ -97111,7 +98566,7 @@
 				"BaseQuest": "Unwelcome Guests",
 				"Description": "Build the guardhouse and speak to Siv",
 				"Chunks": ["13111"],
-				"Items": ["Teak frame", "Stone wall segment"],
+				"Items": ["Maple frame*", "Stone wall segment*"],
 				"Tasks": {
 					"~|Unwelcome Guests|~ 1": "Quest"
 				},
@@ -105798,7 +107253,8 @@
 					"Herblore": 65
 				},
 				"Tasks": {
-					"~|New Varrock Achievements#Medium|~ Complete the Medium Achievements": "Diary"
+					"~|New Varrock Achievements#Medium|~ Complete the Medium Achievements": "Diary",
+					"~|Defender of Varrock|~ Complete the quest": "Quest"
 				},
 				"BaseQuest": "New Varrock Achievements"
 			},
@@ -108491,7 +109947,7 @@
 			},
 			"~|Wilderness Achievements#Medium|~ Notatrivialtask": {
 				"Description": "Persuade Noterazzo in the Bandit Camp to show you his goods.",
-				"Chunks": ["12089"],
+				"Chunks": ["12089", "12342"],
 				"Tasks": {
 					"~|Wilderness Achievements#Easy|~ Complete the Easy Achievements": "Diary"
 				},
@@ -115106,8 +116562,8 @@
 				"Items": ["Hexhunter bow"]
 			},
 			"(Daemonheim) Obtain a ~|soulgazer's charm|~": {
-				"Category": ["Collection Log", "Slayer Collection Log"],
-				"Label": "Slayer Collection Log",
+				"Category": ["Collection Log", "Slayer Collection Log", "Pets"],
+				"Label": "Slayer Pets",
 				"Items": ["Soulgazer's charm"]
 			},
 			"(Daemonheim) Obtain a ~|blood necklace shard|~": {
@@ -116031,10 +117487,10 @@
 				"Label": "Slayer Collection Log",
 				"Items": ["Vesta's longsword"]
 			},
-			"(Wilderness) Obtain ~|Vesta's warhammer|~": {
+			"(Wilderness) Obtain ~|Vesta's spear|~": {
 				"Category": ["Collection Log", "Slayer Collection Log"],
 				"Label": "Slayer Collection Log",
-				"Items": ["Vesta's warhammer"]
+				"Items": ["Vesta's spear"]
 			},
 			"(Wilderness) Obtain ~|Zuriel's hood|~": {
 				"Category": ["Collection Log", "Slayer Collection Log"],
@@ -116724,10 +118180,10 @@
 				"Label": "Boss Collection Log",
 				"Items": ["Vesta's longsword"]
 			},
-			"(Chaos Elemental) Obtain ~|Vesta's warhammer|~": {
+			"(Chaos Elemental) Obtain ~|Vesta's spear|~": {
 				"Category": ["Collection Log", "Boss Collection Log"],
 				"Label": "Boss Collection Log",
-				"Items": ["Vesta's warhammer"]
+				"Items": ["Vesta's spear"]
 			},
 			"(Chaos Elemental) Obtain ~|Zuriel's hood|~": {
 				"Category": ["Collection Log", "Boss Collection Log"],
@@ -127717,7 +129173,24 @@
 				"Category": ["BIS Skilling"],
 				"Label": "BIS Skilling",
 				"Items": ["Crystal hammer"],
-				"Requirements": ["Smithing"],
+				"Priority": 1,
+				"Set": "BIS Hammer",
+				"Not F2P": true
+			},
+			"Obtain an ~|enhanced hammer-tron|~": {
+				"Category": ["BIS Skilling"],
+				"Label": "BIS Skilling",
+				"Items": ["Enhanced hammer-tron"],
+				"Priority": 3,
+				"Set": "BIS Hammer",
+				"Not F2P": true
+			},
+			"Obtain a ~|hammer-tron|~": {
+				"Category": ["BIS Skilling"],
+				"Label": "BIS Skilling",
+				"Items": ["Hammer-tron"],
+				"Priority": 3,
+				"Set": "BIS Hammer",
 				"Not F2P": true
 			},
 			"Obtain the ~|scroll of efficiency|~": {
@@ -127884,6 +129357,22 @@
 				"Set": "BIS Fishing Rod",
 				"Not F2P": true
 			},
+			"Obtain an ~|enhanced fishing rod-o-matic|~": {
+				"Category": ["BIS Skilling"],
+				"Label": "BIS Skilling",
+				"Items": ["Enhanced fishing rod-o-matic"],
+				"Priority": 3,
+				"Set": "BIS Fishing Rod",
+				"Not F2P": true
+			},
+			"Obtain a ~|fishing rod-o-matic|~": {
+				"Category": ["BIS Skilling"],
+				"Label": "BIS Skilling",
+				"Items": ["Fishing rod-o-matic"],
+				"Priority": 4,
+				"Set": "BIS Fishing Rod",
+				"Not F2P": true
+			},
 			"Obtain the ~|fury shark head|~": {
 				"Category": ["BIS Skilling"],
 				"Label": "BIS Skilling",
@@ -127978,6 +129467,24 @@
 				"Category": ["BIS Skilling"],
 				"Label": "BIS Skilling",
 				"Items": ["Crystal tinderbox"],
+				"Priority": 1,
+				"Set": "BIS Tinderbox",
+				"Not F2P": true
+			},
+			"Obtain an ~|enhanced pyro-matic|~": {
+				"Category": ["BIS Skilling"],
+				"Label": "BIS Skilling",
+				"Items": ["Enhanced pyro-matic"],
+				"Priority": 2,
+				"Set": "BIS Tinderbox",
+				"Not F2P": true
+			},
+			"Obtain a ~|pyro-matic|~": {
+				"Category": ["BIS Skilling"],
+				"Label": "BIS Skilling",
+				"Items": ["Pyro-matic"],
+				"Priority": 3,
+				"Set": "BIS Tinderbox",
 				"Not F2P": true
 			},
 			"Obtain an ~|elder wood box|~": {
@@ -129248,6 +130755,30 @@
 				"Items": ["Collector's insignia"],
 				"Not F2P": true
 			},
+			"Obtain a ~|soul-in-a-box|~": {
+				"Category": ["BIS Skilling"],
+				"Label": "BIS Skilling",
+				"Items": ["Soul-in-a-box"],
+				"Not F2P": true
+			},
+			"Obtain a ~|soul-in-a-box|~": {
+				"Category": ["BIS Skilling"],
+				"Label": "BIS Skilling",
+				"Items": ["Urn enhancer"],
+				"Not F2P": true
+			},
+			"Obtain a ~|spring cleaner|~": {
+				"Category": ["BIS Skilling"],
+				"Label": "BIS Skilling",
+				"Items": ["Spring cleaner"],
+				"Not F2P": true
+			},
+			"Obtain a ~|divine-o-matic vacuum|~": {
+				"Category": ["BIS Skilling"],
+				"Label": "BIS Skilling",
+				"Items": ["Divine-o-matic vacuum"],
+				"Not F2P": true
+			},
 			"Summon a ~|arctic bear|~": {
 				"Category": ["BIS Skilling Consumables", "BIS Skilling"],
 				"Label": "BIS Skilling Familiar",
@@ -129468,6 +130999,36 @@
 				"Category": ["BIS Skilling Consumables", "BIS Skilling"],
 				"Label": "BIS Skilling Familiar",
 				"Items": ["Light creature pouch"],
+				"Not F2P": true
+			},
+			"Obtain a ~|woodcutting accumulator|~": {
+				"Category": ["BIS Skilling", "BIS Skilling Consumables"],
+				"Label": "BIS Skilling",
+				"Items": ["Woodcutting accumulator"],
+				"Not F2P": true
+			},
+			"Obtain a ~|mining accumulator|~": {
+				"Category": ["BIS Skilling", "BIS Skilling Consumables"],
+				"Label": "BIS Skilling",
+				"Items": ["Mining accumulator"],
+				"Not F2P": true
+			},
+			"Obtain a ~|fishing accumulator|~": {
+				"Category": ["BIS Skilling", "BIS Skilling Consumables"],
+				"Label": "BIS Skilling",
+				"Items": ["Fishing accumulator"],
+				"Not F2P": true
+			},
+			"Obtain a ~|herb protector|~": {
+				"Category": ["BIS Skilling", "BIS Skilling Consumables"],
+				"Label": "BIS Skilling",
+				"Items": ["Herb protector"],
+				"Not F2P": true
+			},
+			"Obtain a ~|liquid patch bomb|~": {
+				"Category": ["BIS Skilling", "BIS Skilling Consumables"],
+				"Label": "BIS Skilling",
+				"Items": ["Liquid patch bomb"],
 				"Not F2P": true
 			},
 			"Unlock the ~|Pouch Protector|~ relic power": {
@@ -130767,6 +132328,9 @@
 				"UnlocksArea": true
 			},
 			"Legends' Guild Dungeon": {
+				"Tasks": {
+					"~|Legends' Quest|~ Complete the quest": "Quest"
+				},
 				"UnlocksArea": true
 			},
 			"Gamers' Grotto": {
@@ -130890,6 +132454,9 @@
 			},
 			"Hallows Myreque Hideout": {
 				"Chunks": ["13877"],
+				"Tasks": {
+					"~|In Search of the Myreque|~ 4": "Quest"
+				},
 				"UnlocksArea": true
 			},
 			"Shade Catacombs": {
@@ -131327,6 +132894,12 @@
 				"UnlocksArea": true,
 				"Tasks": {
 					"~|Extinction|~ Complete the quest": "Quest"
+				}
+			},
+			"Temple of Isolation": {
+				"UnlocksArea": true,
+				"Tasks": {
+					"~|Beneath Scabaras' Sands|~ Complete the quest": "Quest"
 				}
 			},
 			"Create a super explosive shaker*": {
@@ -134092,6 +135665,7 @@
 			},
 			"Unlock the ~|TzRek-Jad|~": {
 				"Items": ["Fire cape"],
+				"Chunks": ["8748"],
 				"Skills": {
 					"Summoning": 99,
 					"Slayer": 99
@@ -134192,6 +135766,11 @@
 			"Access the Lumbridge Swamp caves via 12953": {
 				"Chunks": ["12953"],
 				"Items": ["Rope"]
+			},
+			"Cosecrate the primed keris*": {
+				"Items": ["Primed keris"],
+				"Monsters": ["Elite Profane Scabarites"],
+				"Output": "Consecrated keris"
 			}
 		}
 	},
@@ -134309,6 +135888,9 @@
 		},
 		"38": {
 			"Name": "Dream of Iaia"
+		},
+		"39": {
+			"Name": "Temple of Isolation"
 		},
 		"258": {
 			"Spawn": {
@@ -137759,7 +139341,7 @@
 			},
 			"Monster": {
 				"Flesh Crawler": 26,
-				"Zombie": 52,
+				"Zombie (Stronghold of Security)": 52,
 				"Giant rat": 10,
 				"Rat": 60
 			},
@@ -141777,7 +143359,8 @@
 				"Fire": 1
 			},
 			"Monster": {
-				"Zombie": 14,
+				"Zombie#Level 12": 14,
+				"Zombie#Level 29": 4,
 				"Blessed spider": 4,
 				"Sir Jerro": 1,
 				"Sir Carl": 1,
@@ -143190,7 +144773,8 @@
 				"Knight of Ardougne": 26,
 				"Man": 1,
 				"Woman": 11,
-				"Zombie": 5
+				"Zombie#Level 12": 2,
+				"Zombie#Level 29": 3
 			},
 			"NPC": {
 				"Kilron": 1,
@@ -145158,6 +146742,9 @@
 				"Achey Tree": 7,
 				"Feldip swamp rock": 3
 			},
+			"Monster": {
+				"Chompy bird": 1
+			},
 			"NPC": {
 				"Ogre boat": 1,
 				"Rantz": 2
@@ -145185,8 +146772,7 @@
 			},
 			"Monster": {
 				"Spider": 2,
-				"Jungle spider": 19,
-				"Chompy bird": 1
+				"Jungle spider": 19
 			},
 			"NPC": {
 				"Larry": 1,
@@ -153893,7 +155479,8 @@
 				"Our Man in the North": "step",
 				"'Phite Club": "step",
 				"Succession": "step",
-				"Tomes of the Warlock": "step"
+				"Tomes of the Warlock": "step",
+				"Beneath Scabaras' Sands": "first"
 			},
 			"Nickname": "Menaphos Pyramid"
 		},
@@ -154012,7 +155599,8 @@
 				"The Big Heist Lodge": true
 			},
 			"Quest": {
-				"Desert Treasure": "step"
+				"Desert Treasure": "step",
+				"Beneath Scabaras' Sands": "step"
 			},
 			"Nickname": "Desert Bandit Camp"
 		},
@@ -154878,7 +156466,8 @@
 				"11801": true
 			},
 			"Quest": {
-				"The Jack of Spades": "step"
+				"The Jack of Spades": "step",
+				"Beneath Scabaras' Sands": "step"
 			},
 			"Nickname": "Exiled Kalphite Hive"
 		},
@@ -154895,7 +156484,8 @@
 				"12945": true
 			},
 			"Quest": {
-				"Desert Treasure": "step"
+				"Desert Treasure": "step",
+				"Beneath Scabaras' Sands": "step"
 			},
 			"Nickname": "Jaldraocht"
 		},
@@ -154932,7 +156522,8 @@
 			},
 			"Quest": {
 				"Desert Treasure": "step",
-				"Do No Evil": "step"
+				"Do No Evil": "step",
+				"Beneath Scabaras' Sands": "step"
 			},
 			"Nickname": "Bandit Camp Lodestone"
 		},
@@ -154948,7 +156539,8 @@
 			"Connect": {},
 			"Quest": {
 				"Do No Evil": "step",
-				"The Tourist Trap": "step"
+				"The Tourist Trap": "step",
+				"Beneath Scabaras' Sands": "step"
 			},
 			"Nickname": "Rocky Desert"
 		},
@@ -154977,7 +156569,8 @@
 			},
 			"Quest": {
 				"Diamond in the Rough": "step",
-				"Ode of the Devourer": "step"
+				"Ode of the Devourer": "step",
+				"Beneath Scabaras' Sands": "step"
 			},
 			"Nickname": "Kalphite Hive"
 		},
@@ -155369,7 +156962,6 @@
 				"Tools": 1,
 				"Display case": 21,
 				"Painting": 1,
-				"Oak": 1,
 				"Tree": 10,
 				"Mysterious cape": 1,
 				"Anvil": 3,
@@ -155653,7 +157245,8 @@
 			"Monster": {
 				"Rat": 6,
 				"Abyssal demon": 17,
-				"Zombie": 21,
+				"Zombie#Level 22": 10,
+				"Zombie#Level 29": 11,
 				"Demon Boss (Wilderness)": 1
 			},
 			"NPC": {
@@ -156122,7 +157715,8 @@
 			"Quest": {
 				"Contact!": "first",
 				"Dealing with Scabaras": "first",
-				"Icthlarin's Little Helper": "step"
+				"Icthlarin's Little Helper": "step",
+				"Beneath Scabaras' Sands": "step"
 			},
 			"Nickname": "Sophanem Temple"
 		},
@@ -156255,7 +157849,8 @@
 				"35": true
 			},
 			"Quest": {
-				"Desert Treasure": "step"
+				"Desert Treasure": "step",
+				"Beneath Scabaras' Sands": "step"
 			},
 			"Nickname": "Tumeken's Remnant"
 		},
@@ -156297,7 +157892,8 @@
 			},
 			"Quest": {
 				"Evil Dave's Big Day Out": "step",
-				"The Tourist Trap": "step"
+				"The Tourist Trap": "step",
+				"Beneath Scabaras' Sands": "step"
 			},
 			"Nickname": "The Desert Mining Camp"
 		},
@@ -156423,7 +158019,8 @@
 				"Our Man in the North": "step",
 				"Shadow of the Storm": "first",
 				"Stolen Hearts": "step",
-				"Ode of the Devourer": "step"
+				"Ode of the Devourer": "step",
+				"Beneath Scabaras' Sands": "step"
 			},
 			"Nickname": "Al Kharid"
 		},
@@ -157456,7 +159053,8 @@
 				"My Arm's Big Adventure": "step",
 				"Our Man in the North": "step",
 				"Rat Catchers": "step",
-				"Smoking Kills": "first"
+				"Smoking Kills": "first",
+				"Beneath Scabaras' Sands": "step"
 			},
 			"Nickname": "Pollnivneach"
 		},
@@ -158083,7 +159681,8 @@
 				"Do No Evil": "step",
 				"Mahjarrat Memories (miniquest)": "step",
 				"Spirits of the Elid": "first",
-				"The Temple at Senntisten": "first"
+				"The Temple at Senntisten": "first",
+				"Beneath Scabaras' Sands": "step"
 			},
 			"Nickname": "Nardah"
 		},
@@ -158645,9 +160244,6 @@
 				"Drezel": 1,
 				"Ivan Strom": 1
 			},
-			"Monster": {
-				"Lycurgus": 1
-			},
 			"Connect": {
 				"13622": true
 			},
@@ -158711,7 +160307,8 @@
 			},
 			"Quest": {
 				"The Golem": "first",
-				"Shadow of the Storm": "step"
+				"Shadow of the Storm": "step",
+				"Beneath Scabaras' Sands": "step"
 			},
 			"Nickname": "Uzer"
 		},
@@ -168858,7 +170455,7 @@
                 "Dramen tree": 1
             },
             "Monster": {
-                "Zombie": 5,
+                "Zombie (Entrana Dungeon)": 5,
                 "Greater demon": 2
             },
             "Connect": {
@@ -169393,7 +170990,8 @@
 				"12586": true
 			},
 			"Quest": {
-				"Our Man in the North": "step"
+				"Our Man in the North": "step",
+				"Beneath Scabaras' Sands": "step"
 			}
 		},
 		"Living Wyvern Cavern": {
@@ -170092,7 +171690,8 @@
 				"Pipe": 2
 			},
 			"Monster": {
-				"Zombie": 7,
+				"Zombie#12": 3,
+				"Zombie#29": 4,
 				"Rat": 10,
 				"Skeleton": 4
 			},
@@ -171127,7 +172726,7 @@
 				"Wolf": 16,
 				"Rat#Stronghold of Security": 116,
 				"Flesh Crawler": 26,
-				"Zombie": 52,
+				"Zombie (Stronghold of Security)": 52,
 				"Giant rat": 10,
 				"Catablepon": 26,
 				"Giant spider": 45,
@@ -172664,7 +174263,8 @@
 				"Do No Evil": "first",
 				"Missing My Mummy": "step",
 				"Restoring Senliten": "step",
-				"Our Man in the North": "step"
+				"Our Man in the North": "step",
+				"Beneath Scabaras' Sands": "step"
 			}
 		},
 		"Cosmic Entity plane": {
@@ -172784,7 +174384,8 @@
 				"Giant rat": 12,
 				"Skeleton": 35,
 				"Poison spider": 6,
-				"Zombie": 20,
+				"Zombie#Level 22": 10,
+				"Zombie#Level 29": 10,
 				"Hobgoblin": 5,
 				"Deadly red spider": 18,
 				"Earth warrior": 4,
@@ -173106,7 +174707,8 @@
 				"Rat": 23,
 				"Giant spider": 5,
 				"Skeleton": 5,
-				"Zombie": 6,
+				"Zombie#Level 12": 3,
+				"Zombie#Level 29": 3,
 				"Giant rat": 4,
 				"Red deadly spider": 5
 			},
@@ -173582,7 +175184,7 @@
 				"Rat": 3,
 				"Spider": 3,
 				"Melzar the Mad": 1,
-				"Zombie": 2,
+				"Zombie (Melzar's Maze)": 2,
 				"Lesser demon": 1
 			},
 			"Connect": {
@@ -174152,7 +175754,8 @@
 				"Glarial's Tomb": 1
 			},
 			"Monster": {
-				"Zombie": 6,
+				"Zombie#Level 12": 3,
+				"Zombie#Level 29": 3,
 				"Skeleton": 6,
 				"Moss giant": 3
 			},
@@ -174174,7 +175777,8 @@
 				"Tunnel": 1
 			},
 			"Monster": {
-				"Zombie": 3,
+				"Zombie#Level 12": 2,
+				"Zombie#Level 29": 1,
 				"Giant bat": 3,
 				"Hobgoblin": 9
 			},
@@ -174246,7 +175850,6 @@
 				"Wizard Frumscone": 1
 			},
 			"Monster": {
-				"Zombie": 8,
 				"Giant bat": 8,
 				"Skeleton": 6,
 				"Chaos druid": 11,
@@ -175066,7 +176669,8 @@
 				"Blessed giant rat": 4,
 				"Unicorn": 1,
 				"Goblin": 12,
-				"Zombie": 18,
+				"Zombie#Level 12": 14,
+				"Zombie#Level 29": 4,
 				"Blessed spider": 52,
 				"Sir Jerro": 1,
 				"Sir Carl": 1,
@@ -175141,7 +176745,7 @@
 		"Eastern Ardougne sewer": {
 			"Monster": {
 				"Rat": 5,
-				"Zombie": 3,
+				"Zombie#Level 29": 3,
 				"Giant rat": 8
 			},
 			"Connect": {
@@ -176236,7 +177840,7 @@
 				"Agrith Naar": 1
 			},
 			"Monster": {
-				"Zombie": 49,
+				"Zombie (Dimension of Disaster)": 49,
 				"New Varrock guard": 28,
 				"New Varrock guard captain": 8,
 				"Undead chicken": 3,
@@ -177460,8 +179064,12 @@
 				"Chest (Scabarite Cavern)": 1,
 				"Sack (Scabarite Cavern)": 3
 			},
+			"Quest": {
+				"Beneath Scabaras' Sands": "step"
+			},
 			"Connect": {
-				"13102": true
+				"13102": true,
+				"39": true
 			}
 		},
 		"Sinkhole": {
@@ -177509,6 +179117,14 @@
 		"Dream of Iaia": {
 			"Connect": {
 				"37": true
+			}
+		},
+		"Temple of Isolation": {
+			"Monster": {
+				"Elite Profane Scabarite": 10
+			},
+			"Connect": {
+				"35": true
 			}
 		}
 	},
@@ -178297,6 +179913,139 @@
 				"Off-hand attuned crystal dagger"
 			],
 			"AurelFood[+]": ["Mackerel", "Thin snail", "Lean snail", "Fat snail"],
+			"AugmentableWeapon[+]": [
+				"Ahrim's wand",
+				"Abyssal whip",
+				"Wilderness sword 4",
+				"Crystal wand",
+				"Crystal dagger",
+				"Tainted repriser",
+				"Corrupted defender",
+				"Blighted rebounder",
+				"Enhanced Exalibur",
+				"Karil's pistol crossbow",
+				"Skull lantern (tier 70)",
+				"Korasi's sword",
+				"Jessika's sword",
+				"Armadyl crossbow",
+				"Abyssal vine whip",
+				"Abyssal wand",
+				"Dragon bane longsword",
+				"Abyssal bane longsword",
+				"Revenant bane longsword",
+				"Attuned crystal dagger",
+				"Attuned crystal wand",
+				"Virtus wand",
+				"Chaotic longsword",
+				"Chaotic rapier",
+				"Linza's hammer",
+				"Second-Age sword",
+				"Chaotic crossbow",
+				"Chaotic claw",
+				"Death guard (tier 80)",
+				"Imcando hatchet",
+				"Lava whip",
+				"Ripper claw",
+				"Seasinger kiba",
+				"Shadow glaive",
+				"Wand of the Cywir elders",
+				"Tetsu katana",
+				"Blade of Nymora",
+				"Dark ice shard",
+				"Dark ice sliver",
+				"Superior Morrigan's throwing axe",
+				"Elite tetsu katana",
+				"Elite seasinger kiba",
+				"Superior Satius's warhammer",
+				"Superior Morrigan's javelin",
+				"Superior Vesta's longsword",
+				"Drygore rapier",
+				"Seismic wand",
+				"Drygore longsword",
+				"Drygore mace",
+				"Ascension crossbow",
+				"Death guard (tier 90)",
+				"Skull lantern (tier 90)",
+				"Hatchet of Ember and Glade",
+				"Wand of the praesul",
+				"Blightbound crossbow",
+				"Khopesh of Tumeken",
+				"Khopesh of Elidinis",
+				"Abyssal scourge",
+				"Dark Shard of Leng",
+				"Dark Sliver of Leng",
+				"Omni guard",
+				"Roar of Awakening",
+				"Torag's hammer",
+				"Dharok's greataxe",
+				"Akrisae's war mace",
+				"Crystal bow",
+				"Crystal halberd",
+				"Balmung",
+				"Dark bow",
+				"Black salamander",
+				"Thalassia's Revenge",
+				"Windws of Waiko",
+				"Verac's flail",
+				"Guthan's warspear",
+				"Crystal staff",
+				"Ahrim's staff",
+				"Rage of Hyu-Ji",
+				"Hand cannon",
+				"Bandos godsword",
+				"Armadyl godsword",
+				"Saradomin godsword",
+				"Zamorak godsword",
+				"Zamorakian spear",
+				"Staff of light",
+				"Polypore staff",
+				"Armadyl battlestaff",
+				"Sunspear (melee)",
+				"Sunspear (ranged)",
+				"Sunspear (magic)",
+				"Dragon bane 2h sword",
+				"Abyssal bane 2h sword",
+				"Revenant bane 2h sword",
+				"Attuned crystal bow",
+				"Attuned crystal halberd",
+				"Zaryte bow",
+				"Chaotic maul",
+				"Hexhunter bow",
+				"Second-Age bow",
+				"Royal crossbow",
+				"Chaotic spear",
+				"Terrasaur maul",
+				"Attuned cystal staff",
+				"Chaotic staff",
+				"Second-Age staff",
+				"Inquisitor staff",
+				"Masuta's warspear",
+				"Laniakea's spear",
+				"Mizuyari",
+				"Wyvern crossbow",
+				"Dragon Rider lance",
+				"Strykebow",
+				"Staff of darkness",
+				"Camel staff",
+				"Annihilation",
+				"Decimation",
+				"Obliteration",
+				"Upgraded bone blowpipe",
+				"Noxious scythe",
+				"Noxious longbow",
+				"Spear of Annihilation",
+				"Noxious staff",
+				"Seren godbow",
+				"Zaros godsword",
+				"Eldritch crossbow",
+				"Staff of Sliske",
+				"Ek-ZekKil",
+				"Bow of the Last Guardian",
+				"Fractured Staff of Armadyl",
+				"Flowers",
+				"Rubber chicken",
+				"Offhand rubber chicken"
+			],
 			"AutomatonGloves[+]": [
 				"Pneumatic gloves",
 				"Static gloves",
@@ -178546,6 +180295,11 @@
 				"Body gloves",
 				"Body helmet",
 				"Body shield"
+			],
+			"BOLGWeaponPiece[+]": [
+				"Top of the Last Guardian's bow",
+				"Bottom of the Last Guardian's bow",
+				"Divine bowstring"
 			],
 			"BoneWeapon[+]": [
 				"Bone club",
@@ -178904,6 +180658,22 @@
 				"Dinosaurhide cowl",
 				"Dinosaurhide gloves"
 			],
+			"DivinationEnergy[+]": [
+				"Pale energy",
+				"Flickering energy",
+				"Bright energy",
+				"Glowing energy",
+				"Sparkling energy",
+				"Gleaming energy",
+				"Vibrant energy",
+				"Lustrous energy",
+				"Elder energy",
+				"Brilliant energy",
+				"Radiant energy",
+				"Luminous energy",
+				"Incandescent energy",
+				"Ancestral energy"
+			],
 			"DivinationPotion[+]": [
 				"Divination potion (1)",
 				"Divination potion (2)",
@@ -179054,6 +180824,11 @@
 			],
 			"EarthTalisman[+]": ["Earth talisman", "Earth tiara", "Elemental talisman"],
 			"EarthTiara[+]": ["Earth talisman", "Earth tiara"],
+			"ECBWeaponPiece[+]": [
+				"Eldritch crossbow limb",
+				"Eldritch crossbow stock",
+				"Eldritch crossbow mechanism"
+			],
 			"EctoFunAsh[+]": ["Impious ashes", "Accursed ashes", "Infernal ashes", "Tortured ashes", "Searing ashes"],
 			"EctoFunBone[+]": ["Bones", "Wolf bones", "Burnt bones", "monkey bones", "Bat bones", "Big bones", "Jogre bones", "Zogre bones", "Shaikahan bones", "Baby dragon bones", "Wyvern bones", "Dragon bones", "Fayrg bones", "Raurg bones", "Dagannoth bones", "Airut bones", "Ourg bones (General Graardor)", "Ourg bones", "Hardened dragon bones", "Dragonkin bones", "Dinosaur bones", "Frost dragon bones", "Reinforced dragon bones"],
 			"ElementalRune[+]": [
@@ -179075,12 +180850,17 @@
 				"Elder overload potion (6)"
 			],
 			"Elderpick[+]": [
+				"Elder rune pickaxe",
 				"Elder rune pickaxe + 1",
 				"Elder rune pickaxe + 2",
 				"Elder rune pickaxe + 3",
 				"Elder rune pickaxe + 4",
-				"Elder rune pickaxe + 5",
-				"Elder rune pickaxe"
+				"Elder rune pickaxe + 5"
+			],
+			"EZKWeaponPiece[+]": [
+				"Obsidian blade", 
+				"Magma core", 
+				"Ancient hilt"
 			],
 			"Primalpick[+]": [
 				"Primal pickaxe + 1",
@@ -179380,6 +181160,11 @@
 				"Frog-leather chaps"
 			],
 			"Flowers[+]": ["Flowers (pastel)", "Red flowers", "Blue flowers", "Yellow flowers", "Purple flowers", "Orange flowers", "Flowers (mixed)", "White flowers", "Black flowers"],
+			"FSOAWeaponPiece[+]": [
+				"Fractured Armadyl symbol",
+				"Fractured stabilisation gem",
+				"Staff of Armadyl's fractured shaft"
+			],
 			"FruitTreeSeed[+]": ["Apple tree seed", "Banana tree seed", "Orange tree seed", "Curry tree seed", "Pineapple seed", "Papaya tree seed", "Palm tree seed", "Ciku seed", "Guarana seed", "Carambola seed"],
 			"FungalArmour[+]": [
 				"Fungal leggings",
@@ -181805,6 +183590,672 @@
 				"Anima core body of Zaros",
 				"Anima core helm of Zaros",
 				"Anima core legs of Zaros"
+			],
+			"Zarosian Artefact[+]": [
+				"Venator light crossbow",
+				"Venator dagger",
+				"Primis Elementis standard",
+				"Legionary square shield",
+				"Legionary gladius",
+				"Zarosian training dummy",
+				"Zaros effigy",
+				"Legatus Maximus figurine",
+				"'Solem in Umbra' painting",
+				"Legatus pendant",
+				"Ancient timepiece",
+				"Pontifex signet ring",
+				"'Incite Fear' spell scroll",
+				"Funerary urn of shadow",
+				"Curse tablet",
+				"Apex cap",
+				"Infula robes",
+				"Hand of the Ancients",
+				"Funerary urn of smoke",
+				"Loarnab rod",
+				"Funerary urn of ice",
+				"Decorative amphora",
+				"Inquisitor's seal",
+				"Inquisitor's ceremonial mask",
+				"Inquisitor's ceremonial armour",
+				"Gladiator sword",
+				"Gladiator helmet",
+				"Funerary urn of blood",
+				"Model chariot",
+				"Funerary urn of miasma",
+				"'The Serpent's Fall' carving",
+				"Pontifex Maximus figurine",
+				"Cermonial mace",
+				"'Consensus ad Idem' painting",
+				"Pontifex mitre",
+				"Pontifex crozier",
+				"Pontifex censer",
+				"Necromantic focus",
+				"'Exsanguinate' spell scroll",
+				"Zarosian stein",
+				"Zarosian ewer",
+				"Vigorem vial",
+				"'Smoke Cloud' spell scroll",
+				"Portable phylactery",
+				"Ancient magic tablet",
+				"'Animate Dead' spell scroll",
+				"Praetorian staff",
+				"Praetorian robes",
+				"Praetorian hood",
+				"Battle plans",
+				"Ancient globe",
+				"'Prima Legio' painting"
+			],
+			"BrassicanComps[+]": [
+				"Cabbage", 
+				"Chaos relic (rare)", 
+				"Igneous stone", 
+				"Laboratory relic (rare)", 
+				"Reef relic (rare)", 
+				"Relic of aminishi (rare)", 
+				"Sanctum of rebirth relic (rare)"
+			],
+			"KnightlyComps[+]": [
+				"Black 2h crossbow", 
+				"Black 2h sword", 
+				"Black 2h battleaxe", 
+				"Black 2h boots", 
+				"Black 2h chainbody", 
+				"Black 2h claw", 
+				"Black 2h dagger", 
+				"Black 2h full helm", 
+				"Black 2h gauntlets", 
+				"Black 2h hatchet", 
+				"Black 2h helm", 
+				"Black 2h kiteshield", 
+				"Black 2h knife", 
+				"Black 2h longsword", 
+				"Black 2h mace", 
+				"Black 2h platebody", 
+				"Black 2h platelegs", 
+				"Black 2h scimitar", 
+				"Black 2h spear", 
+				"Black 2h sword", 
+				"Black 2h warhammer", 
+				"Chaos relic (rare)", 
+				"Igneous stone", 
+				"Laboratory relic (rare)", 
+				"Reef relic (rare)", 
+				"Relic of aminishi (rare)", 
+				"Sanctum of rebirth relic (rare)"
+			],
+			"DragonfireComps[+]": [
+				"Dragonfire ash", 
+				"Dragonfire shield", 
+				"Emberkeen boots", 
+				"Flarefrost boots", 
+				"Hailfire boots", 
+				"Greater Barge ability codex", 
+				"Greater Flurry ability codex", 
+				"Greater Fury ability codex", 
+				"Royal crossbow", 
+				"Chaos relic (rare)", 
+				"Igneous stone", 
+				"Laboratory relic (rare)", 
+				"Reef relic (rare)", 
+				"Relic of aminishi (rare)", 
+				"Sanctum of rebirth relic (rare)"
+			],
+			"FungalComps[+]": [
+				"Blightbound crossbow", 
+				"Cryptbloom boots (incomplete)", 
+				"Cryptbloom bottoms (incomplete)", 
+				"Cryptbloom gloves (incomplete)", 
+				"Cryptbloom helm (incomplete)", 
+				"Cryptbloom top (incomplete)", 
+				"Ganodermic boots",
+				"Ganodermic gloves",
+				"Ganodermic leggings",
+				"Ganodermic poncho",
+				"Ganodermic visor",
+				"Off-hand Blightbound crossbow", 
+				"Polypore staff",
+				"Chaos relic (rare)", 
+				"Igneous stone", 
+				"Laboratory relic (rare)", 
+				"Reef relic (rare)", 
+				"Relic of aminishi (rare)", 
+				"Sanctum of rebirth relic (rare)"
+			],
+			"ExplosiveComps[+]": [
+				"Hand cannon", 
+				"Suspicious gunpowder", 
+				"Chaos relic (rare)", 
+				"Igneous stone", 
+				"Laboratory relic (rare)", 
+				"Reef relic (rare)", 
+				"Relic of aminishi (rare)", 
+				"Sanctum of rebirth relic (rare)"
+			],
+			"CorporealComps[+]": [
+				"Arcane sigil", 
+				"Blessed spirit shield", 
+				"Divine sigil", 
+				"Elysian sigil", 
+				"Spectral sigil", 
+				"Chaos relic (rare)", 
+				"Igneous stone", 
+				"Laboratory relic (rare)", 
+				"Reef relic (rare)", 
+				"Relic of aminishi (rare)", 
+				"Sanctum of rebirth relic (rare)"
+			],
+			"ArmadylComps[+]": [
+				"Armadyl battlestaff",
+				"Armadyl boots",
+				"Armadyl buckler",
+				"Armadyl chainskirt",
+				"Armadyl chestplate",
+				"Armadyl crossbow",
+				"Armadyl gloves",
+				"Armadyl godsword",
+				"Armadyl helmet",
+				"Armadyl hilt",
+				"Warpriest of Armadyl boots",
+				"Warpriest of Armadyl cape",
+				"Warpriest of Armadyl cuirass",
+				"Warpriest of Armadyl gauntlets",
+				"Warpriest of Armadyl greaves",
+				"Warpriest of Armadyl helm",
+				"Fractured Staff of Armadyl",
+				"Chaos relic (rare)", 
+				"Igneous stone", 
+				"Laboratory relic (rare)", 
+				"Reef relic (rare)", 
+				"Relic of aminishi (rare)", 
+				"Sanctum of rebirth relic (rare)"
+			],
+			"BandosComps[+]": [
+				"Bandos boots",
+				"Bandos warshield",
+				"Bandos tassets",
+				"Bandos chestplate",
+				"Bandos gloves",
+				"Bandos godsword",
+				"Bandos helmet",
+				"Bandos hilt",
+				"Warpriest of Bandos boots",
+				"Warpriest of Bandos cape",
+				"Warpriest of Bandos cuirass",
+				"Warpriest of Bandos gauntlets",
+				"Warpriest of Bandos greaves",
+				"Warpriest of Bandos helm",
+				"Chaos relic (rare)", 
+				"Igneous stone", 
+				"Laboratory relic (rare)", 
+				"Reef relic (rare)", 
+				"Relic of aminishi (rare)", 
+				"Sanctum of rebirth relic (rare)"
+			],
+			"SaradominComps[+]": [
+				"Saradomin mjolnir",
+				"Saradomin sword",
+				"Saradomin's hiss",
+				"Saradomin's murmur",
+				"Saradomin's whisper",
+				"Saradomin godsword",
+				"Saradomin hilt",
+				"Warpriest of Saradomin boots",
+				"Warpriest of Saradomin cape",
+				"Warpriest of Saradomin cuirass",
+				"Warpriest of Saradomin gauntlets",
+				"Warpriest of Saradomin greaves",
+				"Warpriest of Saradomin helm",
+				"Chaos relic (rare)", 
+				"Igneous stone", 
+				"Laboratory relic (rare)", 
+				"Reef relic (rare)", 
+				"Relic of aminishi (rare)", 
+				"Sanctum of rebirth relic (rare)"
+			],
+			"ZamorakComps[+]": [
+				"Bow of the Last Guardian",
+				"Boots of subjugation",
+				"Garb of subjugation",
+				"Gloves of subjugation",
+				"Gown of subjugation",
+				"Hood of subjugation",
+				"Ward of subjugation",
+				"Zamorak godsword",
+				"Zamorak mjolnir",
+				"Zamorak hilt",
+				"Zamorakian sigil",
+				"Zamorakian spear",
+				"Warpriest of Zamorak boots",
+				"Warpriest of Zamorak cape",
+				"Warpriest of Zamorak cuirass",
+				"Warpriest of Zamorak gauntlets",
+				"Warpriest of Zamorak greaves",
+				"Warpriest of Zamorak helm",
+				"Chaos relic (rare)", 
+				"Igneous stone", 
+				"Laboratory relic (rare)", 
+				"Reef relic (rare)", 
+				"Relic of aminishi (rare)", 
+				"Sanctum of rebirth relic (rare)"
+			],
+			"SerenComps[+]": [
+				"Crystal body", 
+				"Crystal boots", 
+				"Crystal bow", 
+				"Crystal chakram", 
+				"Crystal dagger", 
+				"Crystal deflector", 
+				"Crystal gloves", 
+				"Crystal halberd", 
+				"Crystal hatchet", 
+				"Crystal helm", 
+				"Crystal legs", 
+				"Crystal mattock", 
+				"Crystal orb", 
+				"Crystal pickaxe", 
+				"Crystal shield", 
+				"Crystal staff", 
+				"Crystal wand", 
+				"Crystal ward", 
+				"Nightmare gauntlets",
+				"Chaos relic (rare)", 
+				"Igneous stone", 
+				"Laboratory relic (rare)", 
+				"Reef relic (rare)", 
+				"Relic of aminishi (rare)", 
+				"Sanctum of rebirth relic (rare)"
+			],
+			"ZarosComps[+]": [
+				"Imperium core",
+				"Nightmare gauntlets",
+				"Pernix body",
+				"Pernix chaps",
+				"Pernix boots",
+				"Pernix cowl",
+				"Pernix gloves",
+				"Torva boots",
+				"Torva full helm",
+				"Torva gloves",
+				"Torva pladebody",
+				"Torva platelegs",
+				"Virtus book",
+				"Virtus boots",
+				"Virtus gloves",
+				"Virtus mask",
+				"Virtus robe legs",
+				"Virtus robe top",
+				"Virtus wand",
+				"Wand of the praesul",
+				"Zaryte bow",
+				"Chaos relic (rare)", 
+				"Igneous stone", 
+				"Laboratory relic (rare)", 
+				"Reef relic (rare)", 
+				"Relic of aminishi (rare)", 
+				"Sanctum of rebirth relic (rare)"
+			],
+			"ResilientComps[+]": [
+				"Dark ice shard", 
+				"Dark ice sliver", 
+				"Dark Shard of Leng", 
+				"Dark Sliver of Leng", 
+				"Dinosaurhide body", 
+				"Dinosaurhide boots", 
+				"Dinosaurhide chaps", 
+				"Dinosaurhide cowl", 
+				"Dinosaurhide gloves", 
+				"Eldritch crossbow", 
+				"Elite tesu katana", 
+				"Elite tesu wakizashi", 
+				"Laceration boots", 
+				"Masuta's warspear", 
+				"Mizuyari", 
+				"Superior tetsu body", 
+				"Superior tetsu helm", 
+				"Superior tetsu kogake", 
+				"Superior tetsu kote", 
+				"Superior tetsu platelegs", 
+				"Tetsu sword upgrade kit", 
+				"Chaos relic (rare)", 
+				"Igneous stone", 
+				"Laboratory relic (rare)", 
+				"Reef relic (rare)", 
+				"Relic of aminishi (rare)", 
+				"Sanctum of rebirth relic (rare)"
+			],
+			"SilentComps[+]": [
+				"Superior Death Lotus chaps",
+				"Superior Death Lotus chestplate",
+				"Superior Death Lotus hood",
+				"Superior Death Lotus tabi",
+				"Superior Death Lotus tekoh",
+				"Blowpipe chitin",
+				"Blowpipe feather",
+				"Blowpipe fins",
+				"Laniakea's spear",
+				"Savage plume",
+				"Savage spear cap",
+				"Savage spear shaft",
+				"Savage spear tip",
+				"Chaos relic (rare)", 
+				"Igneous stone", 
+				"Laboratory relic (rare)", 
+				"Reef relic (rare)", 
+				"Relic of aminishi (rare)", 
+				"Sanctum of rebirth relic (rare)"
+			],
+			"NoxiousComps[+]": [
+				"Araxxi's eye", 
+				"Araxxi's fang", 
+				"Araxxi's web", 
+				"Chaos relic (rare)", 
+				"Igneous stone", 
+				"Laboratory relic (rare)", 
+				"Reef relic (rare)", 
+				"Relic of aminishi (rare)", 
+				"Sanctum of rebirth relic (rare)"
+			],
+			"RumblingComps[+]": [
+				"Dark ice shard", 
+				"Dark ice sliver", 
+				"Drygore longsword", 
+				"Drygore mace", 
+				"Drygore rapier", 
+				"Tectonic mask", 
+				"Tectonic robe bottom", 
+				"Tectonic robe top", 
+				"Tectonic robe top", 
+				"Inquisitor's staff censer",
+				"Inquisitor's staff ornament",
+				"Inquisitor's staff rod",
+				"Spear of Annihilation",
+				"Perfect chitin",
+				"Primeval boots",
+				"Primeval gloves",
+				"Primeval mask",
+				"Primeval robe legs",
+				"Primeval robe top",
+				"Superior long bone",
+				"Dinosaur scale",
+				"Volcanic fragments",
+				"Tribal fin",
+				"Chaos relic (rare)", 
+				"Igneous stone", 
+				"Laboratory relic (rare)", 
+				"Reef relic (rare)", 
+				"Relic of aminishi (rare)", 
+				"Sanctum of rebirth relic (rare)"
+			],
+			"PestiferousComps[+]": [
+				"Void knight gloves", 
+				"Void knight mace", 
+				"Void knight mage helm", 
+				"Void knight melee helm", 
+				"Void knight ranger helm", 
+				"Void knight robes", 
+				"Void knight top", 
+				"Jessika's sword", 
+				"Korasi's sword", 
+				"Chaos relic (rare)", 
+				"Igneous stone", 
+				"Laboratory relic (rare)", 
+				"Reef relic (rare)", 
+				"Relic of aminishi (rare)", 
+				"Sanctum of rebirth relic (rare)"
+			],
+			"ThirdAgeComps[+]": [
+				"Sealed clue scroll (hard)", 
+				"Chaos relic (rare)", 
+				"Igneous stone", 
+				"Laboratory relic (rare)", 
+				"Reef relic (rare)", 
+				"Relic of aminishi (rare)", 
+				"Sanctum of rebirth relic (rare)"
+			],
+			"CulinaryComps[+]": [
+				"Culinaromancer's gloves 1", 
+				"Culinaromancer's gloves 2", 
+				"Culinaromancer's gloves 3", 
+				"Culinaromancer's gloves 4", 
+				"Culinaromancer's gloves 5", 
+				"Culinaromancer's gloves 6", 
+				"Culinaromancer's gloves 7", 
+				"Culinaromancer's gloves 8", 
+				"Culinaromancer's gloves 9", 
+				"Culinaromancer's gloves 10", 
+				"Cleaver",
+				"Egg whisk",
+				"Frying pan",
+				"Kitchen knife",
+				"Meat tenderiser",
+				"Rolling pin",
+				"Skewer",
+				"Spatula",
+				"Spork",
+				"Wooden spoon",
+				"Chaos relic (rare)", 
+				"Igneous stone", 
+				"Laboratory relic (rare)", 
+				"Reef relic (rare)", 
+				"Relic of aminishi (rare)", 
+				"Sanctum of rebirth relic (rare)"
+			],
+			"ShiftingComps[+]": [
+				"Blast diffusion boots",
+				"Chaotic crossbow",
+				"Chaotic kiteshield",
+				"Chaotic longsword",
+				"Chaotic maul",
+				"Chaotic rapier",
+				"Chaotic spear",
+				"Chaotic splint",
+				"Chaotic staff",
+				"Fleeting boots",
+				"Gloves of passage",
+				"Hexhunter bow",
+				"Khopesh of the Kharidian",
+				"Chaos relic (rare)", 
+				"Igneous stone", 
+				"Laboratory relic (rare)", 
+				"Reef relic (rare)", 
+				"Relic of aminishi (rare)", 
+				"Sanctum of rebirth relic (rare)"
+			],
+			"HarnessedComps[+]": [
+				"Body body", 
+				"Body boots", 
+				"Body gloves", 
+				"Body helmet", 
+				"Body shield", 
+				"Chaos body", 
+				"Chaos boots", 
+				"Chaos gloves", 
+				"Chaos helmet", 
+				"Chaos shield",
+				"Cosmic body", 
+				"Cosmic boots", 
+				"Cosmic gloves", 
+				"Cosmic helmet", 
+				"Cosmic shield",
+				"Elemental body", 
+				"Elemental boots", 
+				"Elemental gloves", 
+				"Elemental helmet", 
+				"Elemental shield",
+				"Mind body", 
+				"Mind boots", 
+				"Mind gloves", 
+				"Mind helmet", 
+				"Mind shield",
+				"Dark ice shard",
+				"Dark ice sliver",
+				"Chaos relic (rare)", 
+				"Igneous stone", 
+				"Laboratory relic (rare)", 
+				"Reef relic (rare)", 
+				"Relic of aminishi (rare)", 
+				"Sanctum of rebirth relic (rare)"
+			],
+			"OceanicComps[+]": [
+				"Elite seasinger kiba", 
+				"Elite seasinger makigai", 
+				"Superior seasinger aonori", 
+				"Superior seasinger asari", 
+				"Superior seasinger hood", 
+				"Superior seasinger robe top", 
+				"Superior seasinger robe bottom", 
+				"Chaos relic (rare)", 
+				"Igneous stone", 
+				"Laboratory relic (rare)", 
+				"Reef relic (rare)", 
+				"Relic of aminishi (rare)", 
+				"Sanctum of rebirth relic (rare)"
+			],
+			"AscendedComps[+]": [
+				"Ascension crossbow", 
+				"Ascension grips",
+				"Sirenic chaps",
+				"Sirenic hauberk",
+				"Sirenic mask",
+				"Elite Dracolich boots",
+				"Elite Dracolich coif",
+				"Elite Dracolich vambraces",
+				"Chaos relic (rare)", 
+				"Igneous stone", 
+				"Laboratory relic (rare)", 
+				"Reef relic (rare)", 
+				"Relic of aminishi (rare)", 
+				"Sanctum of rebirth relic (rare)"
+			],
+			"UndeadComps[+]": [
+				"Ahrim's book of magic",
+				"Ahrim's hood",
+				"Ahrim's robe skirt",
+				"Ahrim's robe top",
+				"Ahrim's staff",
+				"Ahrim's wand",
+				"Akrisae's hood",
+				"Akrisae's robe skirt",
+				"Akrisae's robe top",
+				"Akrisae's war mace",
+				"Death guard (tier 70)",
+				"Deathdealer boots (tier 70)",
+				"Deathdealer gloves (tier 70)",
+				"Deathdealer hood (tier 70)",
+				"Deathdealer robe top (tier 70)",
+				"Deathdealer robe bottom (tier 70)",
+				"Deathwarden boots (tier 70)",
+				"Deathwarden gloves (tier 70)",
+				"Deathwarden hood (tier 70)",
+				"Deathwarden robe top (tier 70)",
+				"Deathwarden robe bottom (tier 70)",
+				"Dharok's greataxe",
+				"Dharok's platebody",
+				"Dharok's platelegs",
+				"Dharok's helm",
+				"Dracolich boots",
+				"Dracolich champs",
+				"Dracolich coif",
+				"Dracolich hauberk",
+				"Dracolich vambraces",
+				"Guthan's chainskirt",
+				"Guthan's helm",
+				"Guthan's platebody",
+				"Guthan's warspear",
+				"Karil's coif",
+				"Karil's crossbow",
+				"Karil's pistol crossbow",
+				"Karil's skirt",
+				"Karil's top",
+				"Linza's cuirass",
+				"Linza's greaves",
+				"Linza's hammer",
+				"Linza's helm",
+				"Linza's shield",
+				"Living remnants",
+				"Malevolent energy",
+				"Ode to Deceit",
+				"Roar of Awakening",
+				"Omni guard",
+				"Skull lantern (tier 70)",
+				"Soulbound lantern",
+				"Torag's hammer",
+				"Torag's helm",
+				"Torag's platebody",
+				"Torag's platelegs",
+				"Verac's brassard",
+				"Verac's flail",
+				"Verac's helm",
+				"Verac's plateskirt",
+				"Chaos relic (rare)", 
+				"Igneous stone", 
+				"Laboratory relic (rare)", 
+				"Reef relic (rare)", 
+				"Relic of aminishi (rare)", 
+				"Sanctum of rebirth relic (rare)"
+			],
+			"AvernicComps[+]": [
+				"Blade of Avaryss", 
+				"Blade of Nymora", 
+				"Reprisal ability codex", 
+				"Zamorakian essence", 
+				"Chaos relic (rare)", 
+				"Igneous stone", 
+				"Laboratory relic (rare)", 
+				"Reef relic (rare)", 
+				"Relic of aminishi (rare)", 
+				"Sanctum of rebirth relic (rare)"
+			],
+			"ShadowComps[+]": [
+				"Crest of Sliske", 
+				"Dormant staff of Sliske", 
+				"Shadow glaive", 
+				"Off-hand shadow glaive", 
+				"Sliskean essence", 
+				"Chaos relic (rare)", 
+				"Igneous stone", 
+				"Laboratory relic (rare)", 
+				"Reef relic (rare)", 
+				"Relic of aminishi (rare)", 
+				"Sanctum of rebirth relic (rare)"
+			],
+			"IlujankanComps[+]": [
+				"Crest of Zaros", 
+				"Dragon Rider lance", 
+				"Zaros godword", 
+				"Zarosian essence", 
+				"Chaos relic (rare)", 
+				"Igneous stone", 
+				"Laboratory relic (rare)", 
+				"Reef relic (rare)", 
+				"Relic of aminishi (rare)", 
+				"Sanctum of rebirth relic (rare)"
+			],
+			"CywirComps[+]": [
+				"Crest of Seren", 
+				"Seren godbow", 
+				"Orb of the Cywir elders", 
+				"Wand of the Cywir elders",
+				"Serenic essence",
+				"Chaos relic (rare)", 
+				"Igneous stone", 
+				"Laboratory relic (rare)", 
+				"Reef relic (rare)", 
+				"Relic of aminishi (rare)", 
+				"Sanctum of rebirth relic (rare)"
+			],
+			"FortunateComps[+]": [
+				"Sealed clue scroll (easy)", 
+				"Sealed clue scroll (medium)", 
+				"Sealed clue scroll (hard)", 
+				"Sealed clue scroll (elite)", 
+				"Sealed clue scroll (master)", 
+				"Chaos relic (rare)", 
+				"Igneous stone", 
+				"Laboratory relic (rare)", 
+				"Reef relic (rare)", 
+				"Relic of aminishi (rare)", 
+				"Sanctum of rebirth relic (rare)"
 			]
 		},
 		"itemsPlusNames": {
@@ -181847,6 +184298,7 @@
 			"AttunedCrystalArmour[+]": "Any piece of attuned crystal armour",
 			"AttunedCrystalShield[+]": "Any type of attuned crystal shield",
 			"AttunedCrystalWeapon[+]": "Any type of attuned crystal weapon",
+			"AugmentableWeapon[+]": "Any augmentable weapon",
 			"AurelFood[+]": "Any food Aurel may ask for during 'In Aid of the Myreque'",
 			"AutomatonGloves[+]": "Any type of automaton gloves",
 			"BalloonLogs[+]": "Any log type than can be used for balloon transport",
@@ -181880,6 +184332,7 @@
 			"BluriteWeapon[+]": "Any blurite melee weapon",
 			"Boater[+]": "Any boater for the master emote clue",
 			"BodyArmour[+]": "Any piece of elemental workshop body armour",
+			"BOLGWeaponPiece[+]": "Any piece of the Bow of the Last Guardian",
 			"BoneWeapon[+]": "Any bone melee weapon",
 			"BraceYourselfItems[+]": "Any item that can be recharged at the Legends' guild",
 			"Brightboon[+]": "Any energy that can be used to make a bright boon",
@@ -181942,6 +184395,7 @@
 			"DharokArmour[+]": "Any piece of Dharok's armour",
 			"DinosaurhideArmour[+]": "Any piece of dinosaurhide armour",
 			"DillPickaxe[+]": "Any pickaxe that can break through TokTz-Ket-Dill armour",
+			"DivinationEnergy[+]": "Any type of divine energy",
 			"DivinationPotion[+]": "Any divination potion",
 			"DracolichArmour[+]": "Any piece of Dracolich armour",
 			"DragonArmour[+]": "Any piece of dragon armour",
@@ -181963,6 +184417,7 @@
 			"Earth rune[+]": "Any earth rune equivalent",
 			"EarthTalisman[+]": "Any item that can be used to enter the earth rune temple",
 			"EarthTiara[+]": "Any item that can be used as a secondary to make lava runes at the fire altar",
+			"ECBWeaponPiece[+]": "Any piece of the eldritch crossbow",
 			"EctoFunAsh[+]": "Any ashes that can be offered to the ectofuntus",
 			"EctoFunBone[+]": "Any bones that can be offered to the ectofuntus",
 			"Elderboon[+]": "Any energy that can be used to create an elder boon",
@@ -181989,6 +184444,7 @@
 			"ExtremeMagicPotion[+]": "Any extreme magic potion",
 			"ExtremeRangingPotion[+]": "Any extreme ranging potion",
 			"ExtremeStrengthPotion[+]": "Any extreme strength potion",
+			"EZKWeaponPiece[+]": "Any piece of the Ek-ZekKil",
 			"FairyTaleI9[+]": "Any items needed to enchant the magic secateurs",
 			"FallfacedSheep[+]": "Any breedable fallfaced sheep",
 			"Feather[+]": "Any fletchable feathers",
@@ -182008,6 +184464,7 @@
 			"FrogLeatherArmour[+]": "Any piece of frog-leather armour",
 			"Flowers[+]": "Any type of flowers",
 			"FruitTreeSeed[+]": "Any fruit tree seed that can be grown at the brimhaven fruit tree patch",
+			"FSOAWeaponPiece[+]": "Any piece of the fractured Staff of Armadyl",
 			"FungalArmour[+]": "Any piece of fungal armour",
 			"Fungicide[+]": "Any kind of fungicide spray",
 			"FuryBlade[+]": "Either of the furies's blades",
@@ -182368,7 +184825,37 @@
 			"ZamorakAnimaCore[+]": "Any piece of Zamorak anima core armour",
 			"ZamorakPotion[+]": "Any Zamorak potion",
 			"ZanarianZygoParents[+]": "Any breedable zygomyte variant",
-			"ZarosAnimaCore[+]": "Any piece of Zaros anima core armour"
+			"ZarosAnimaCore[+]": "Any piece of Zaros anima core armour",
+			"Zarosian Artefact[+]": "Any artefact from Zarosian culture",
+			"BrassicanComps[+]": "Any source for Brassican components",
+			"KnightlyComps[+]": "Any source for knightly components",
+			"DragonfireComps[+]": "Any source for dragonfire components",
+			"FungalComps[+]": "Any source for fungal components",
+			"ExplosiveComps[+]": "Any source for explosive components",
+			"CorporealComps[+]": "Any source for corporeal components",
+			"ArmadylComps[+]": "Any source for Armadyl components",
+			"BandosComps[+]": "Any source for Bandos components",
+			"SaradominComps[+]": "Any source for Saradomin components",
+			"ZamorakComps[+]": "Any source for Zamorak components",
+			"SerenComps[+]": "Any source for Seren components",
+			"ZarosComps[+]": "Any source for Zaros components",
+			"ResilientComps[+]": "Any source for resilient components",
+			"SilentComps[+]": "Any source for silent components",
+			"NoxiousComps[+]": "Any source for noxious components",
+			"RumblingComps[+]": "Any source for Rumbling components",
+			"PestiferousComps[+]": "Any source for pestiferous components",
+			"ThirdAgeComps[+]": "Any source for Third-Age components",
+			"CulinaryComps[+]": "Any source for culinary components",
+			"ShiftingComps[+]": "Any source for shifting components",
+			"HarnessedComps[+]": "Any source for harnessed components",
+			"OceanicComps[+]": "Any source for oceanic components",
+			"AscendedComps[+]": "Any source for ascended components",
+			"UndeadComps[+]": "Any source for Undead components",
+			"AvernicComps[+]": "Any source for avernic components",
+			"ShadowComps[+]": "Any source for shadow components",
+			"IlujankanComps[+]": "Any source for Ilujankan components",
+			"CywirComps[+]": "Any source for Cywir components",
+			"FortunateComps[+]": "Any source for fortunate components"
 		},
 		"chunksPlus": {
 			"10coin chest[+]": ["10291", "10547", "10553", "12109"],
@@ -182384,6 +184871,7 @@
 			"ChaosTunnelEntrance[+]": ["12343", "12599", "12600", "12344", "12087"],
 			"CommonJadinkoAnachronia[+]": ["16964", "15938"],
 			"CoolStoryBroChunks[+]": ["9275", "9531"],
+			"CorruptedScarabs[+]": ["12587", "12843", "13098", "12586", "12585"],
 			"CropCircle[+]": ["9782", "10044", "10288", "10292", "11058", "11062", "11826", "11829", "12339", "12595", "12598", "12852", "14639"],
 			"CreatureOfFenkenstrain1[+]": ["13878", "14135"],
 			"CursedEnergyRift[+]": ["12602", "12601"],
@@ -182452,6 +184940,7 @@
 			"SlayerMasterChunks[+]": ["8755", "Ancient Cavern", "11310", "12342", "11575", "13111", "13878", "Zanaris", "12093", "12850", "16704"],
 			"SolusLocation[+]": ["11569", "10032", "10547", "12596", "Dorgesh-Kaan mine", "9782", "13623", "11057", "13106", "10553", "Lumbridge Swamp caves", "11830", "10550", "9776", "12338", "9778", "12337"],
 			"SophSlayUnlock[+]": ["13097", "13098"],
+			"SoulObelisks[+]": ["12843", "12586", "12587", "12585"],
 			"StrangeChunks[+]": ["11570", "11830", "12081", "12083", "12085", "12339", "12341", "12851", "12852", "12854", "13107", "13363"],
 			"TaiBwoWannaiChunks[+]": ["11056", "11055"],
 			"Thievesguild[+]": ["Thieves' Guild after Caper 2", "Thieves' Guild Complete"],
@@ -182490,6 +184979,7 @@
 			"ChaosTunnelEntrance[+]": "Any Wilderness chunk from which you can enter the Chaos Tunnels",
 			"CommonJadinkoAnachronia[+]": "Any chunk with common jadinkos on Anachronia",
 			"CoolStoryBroChunks[+]": "Any chunk from which you can watch the Fremennik Isle tower guard shouting match",
+			"CorruptedScarabs[+]": "Any chunk in which Corrupted Scarabs spawn",
 			"CreatureOfFenkenstrain1[+]": "Any chunk where you can start 'Creature of Fenkenstrain'",
 			"CropCircle[+]": "Any chunk where a crop circle can spawn",
 			"CursedEnergyRift[+]": "Any Chunk where you can obtain and deposit cursed energy",
@@ -182557,6 +185047,7 @@
 			"SeerChunk[+]": "Any chunk in which you can complete twisted firestarter",
 			"SlayerMasterChunks[+]": "Any chunk with a slayer master in it",
 			"SophSlayUnlock[+]": "Any chunks that give permanent access to the Sophanem Slayer dungeon",
+			"SoulObelisks[+]": "Any chunks in which a soul obelisk spawns",
 			"SolusLocation[+]": "Any location Solus Dellagar might show up",
 			"StrangeChunks[+]": "Any chunks with strange fragments in them",
 			"TaiBwoWannaiChunks[+]": "Any chunks in which you can gain Taii Bwo Wannai favour",
@@ -183830,6 +186321,10 @@
 			"Otherworldly beings": {
 				"Otherworldly being": true
 			},
+			"Profane Scabarites": {
+				"Profane Scabarite": true,
+				"Elite Profane Scabarite": true
+			},
 			"Pyrefiends": {
 				"Revenant pyrefiend": true,
 				"Pyrefiend": true,
@@ -183901,10 +186396,8 @@
 				"High Priest of Scabaras": true,
 				"Corrupted scarab": true,
 				"Scarab akh": true,
-				"Profane Scabarite": true
-			},
-			"Profane Scabarites": {
-				"Profane Scabarite": true
+				"Profane Scabarite": true,
+				"Elite Profane Scabarite": true
 			},
 			"Scorpions": {
 				"Grave scorpion": true,
@@ -238309,7 +240802,109 @@
 				"1": "Very rare"
 			}
 		},
-		"Zombie": {
+		"Zombie#Level 12": {
+			"Bones": {
+				"1": "Always"
+			},
+			"Grimy guam": {
+				"1": "Common"
+			},
+			"Grimy marrentill": {
+				"1": "Uncommon"
+			},
+			"Grimy tarromin": {
+				"1": "Uncommon"
+			},
+			"Grimy harralander": {
+				"1": "Uncommon"
+			},
+			"Grimy ranarr": {
+				"1": "Uncommon"
+			},
+			"Grimy irit": {
+				"1": "Uncommon"
+			},
+			"Grimy avantoe": {
+				"1": "Rare"
+			},
+			"Grimy kwuarm": {
+				"1": "Rare"
+			},
+			"Grimy cadantine": {
+				"1": "Rare"
+			},
+			"Grimy lantadyme": {
+				"1": "Rare"
+			},
+			"Grimy dwarf weed": {
+				"1": "Rare"
+			},
+			"Small bladed bronze salvage": {
+				"1": "Rare"
+			},
+			"Tiny plated bronze salvage": {
+				"1": "Uncommon"
+			},
+			"Iron arrow": {
+				"5": "Common",
+				"8": "Common"
+			},
+			"Steel arrow": {
+				"5": "Uncommon"
+			},
+			"Body rune": {
+				"6": "Common"
+			},
+			"Air rune": {
+				"13": "Uncommon"
+			},
+			"Mind rune": {
+				"5": "Uncommon"
+			},
+			"Nature rune": {
+				"6": "Uncommon"
+			},
+			"Copper stone spirit": {
+				"1": "Uncommon"
+			},
+			"Coins": {
+				"4": "Common",
+				"10": "Common",
+				"13": "Common",
+				"18": "Common",
+				"28": "Common"
+			},
+			"Fishing bait": {
+				"5": "Common"
+			},
+			"Iron hatchet": {
+				"1": "Unknown"
+			},
+			"Zombie bone": {
+				"1": "Common"
+			},
+			"Zombie Champion's scroll": {
+				"1": "1/5000"
+			},
+			"Starved ancient effigy": {
+				"1": "Very rare"
+			}
+		},
+		"Zombie#Level 22": {
+			"Bones": {
+				"1": "Always"
+			},
+			"Zombie bone": {
+				"1": "Common"
+			},
+			"Zombie Champion's scroll": {
+				"1": "1/5000"
+			},
+			"Starved ancient effigy": {
+				"1": "Very rare"
+			}
+		},
+		"Zombie#Level 29": {
 			"Bones": {
 				"1": "Always"
 			},
@@ -238320,7 +240915,7 @@
 				"1": "Common"
 			},
 			"Grimy tarromin": {
-				"1": "Common"
+				"1": "Uncommon"
 			},
 			"Grimy harralander": {
 				"1": "Uncommon"
@@ -238338,120 +240933,68 @@
 				"1": "Rare"
 			},
 			"Grimy cadantine": {
-				"1": "Very rare"
+				"1": "Rare"
 			},
 			"Grimy lantadyme": {
-				"1": "Very rare"
+				"1": "Rare"
 			},
 			"Grimy dwarf weed": {
-				"1": "Very rare"
-			},
-			"Tiny bladed bronze salvage": {
-				"1": "Uncommon"
-			},
-			"Small bladed bronze salvage": {
-				"1": "Uncommon"
-			},
-			"Tiny plated bronze salvage": {
-				"1": "Uncommon"
+				"1": "Rare"
 			},
 			"Medium plated bronze salvage": {
-				"1": "Uncommon"
+				"1": "Rare"
 			},
 			"Tiny spiky iron salvage": {
-				"1": "Uncommon"
-			},
-			"Tiny bladed iron salvage": {
 				"1": "Uncommon"
 			},
 			"Tiny blunt iron salvage": {
 				"1": "Uncommon"
 			},
-			"Iron arrow": {
-				"5": "Uncommon",
-				"8": "Uncommon"
-			},
-			"Steel arrow": {
-				"5-32": "Common"
-			},
 			"Mithril arrow": {
-				"1": "Uncommon",
-				"2": "Uncommon"
-			},
-			"Chargebow": {
 				"1": "Uncommon"
 			},
+			"Chargebow": {
+				"1": "Common"
+			},
 			"Staff of air": {
-				"1": "Very rare"
+				"1": "Common"
 			},
 			"Body rune": {
-				"3-11": "Common"
+				"3": "Uncommon"
 			},
 			"Chaos rune": {
-				"4": "Uncommon"
+				"4": "Rare"
 			},
 			"Air rune": {
-				"13": "Uncommon"
+				"3": "Uncommon"
 			},
 			"Fire rune": {
-				"7-84": "Uncommon"
-			},
-			"Mind rune": {
-				"5-7": "Uncommon"
-			},
-			"Nature rune": {
-				"6": "Uncommon"
-			},
-			"Law rune": {
-				"2": "Uncommon"
+				"7": "Rare"
 			},
 			"Cosmic rune": {
-				"2": "Uncommon"
+				"2": "Rare"
 			},
 			"Tinderbox": {
 				"1": "Uncommon"
 			},
-			"Tile": {
-				"1": "Uncommon"
-			},
-			"Beer": {
-				"1": "Uncommon"
-			},
-			"Copper stone spirit": {
-				"1": "Uncommon"
-			},
-			"Iron stone spirit": {
-				"1": "Uncommon"
-			},
 			"Tin stone spirit": {
-				"1": "Uncommon"
-			},
-			"Ashes": {
-				"1": "Uncommon"
+				"1": "Rare"
 			},
 			"Eye of newt": {
-				"1": "Uncommon"
-			},
-			"Unholy mould": {
-				"1": "Uncommon"
-			},
-			"Half a meat pie": {
-				"1": "Very rare"
+				"1": "Rare"
 			},
 			"Coins": {
-				"1-82": "Common"
+				"1": "Common",
+				"10": "Common",
+				"18": "Common",
+				"26": "Common",
+				"35": "Common"
 			},
 			"Fishing bait": {
-				"1": "Common",
-				"5": "Common",
-				"7": "Common",
-				"9": "Common"
-			},
-			"Bronze hatchet": {
-				"1": "Unknown"
+				"7": "Common"
 			},
 			"Iron hatchet": {
-				"1": "Unknown"
+				"1": "Rare"
 			},
 			"Zombie bone": {
 				"1": "Common"
@@ -238464,6 +241007,140 @@
 			},
 			"Rare drop table": {
 				"1": "Rare"
+			}
+		},
+		"Zombie (Stronghold of Security)": {
+			"Bones": {
+				"1": "Always"
+			},
+			"Coins": {
+				"5-84": "Common"
+			},
+			"Body rune": {
+				"7": "Common"
+			},
+			"Steel arrow": {
+				"5-14": "Common"
+			},
+			"Beer": {
+				"1": "Common"
+			},
+			"Ashes": {
+				"1": "Common"
+			},
+			"Grimy guam": {
+				"1": "Rare"
+			},
+			"Grimy tarromin": {
+				"1": "Rare"
+			},
+			"Grimy marrentill": {
+				"1": "Rare"
+			},
+			"Grimy harralander": {
+				"1": "Rare"
+			},
+			"Grimy ranarr": {
+				"1": "Rare"
+			},
+			"Grimy avantoe": {
+				"1": "Rare"
+			},
+			"Grimy kwuarm": {
+				"1": "Rare"
+			},
+			"Grimy cadantine": {
+				"1": "Rare"
+			},
+			"Grimy lantadyme": {
+				"1": "Very rare"
+			},
+			"Grimy dwarf weed": {
+				"1": "Very rare"
+			},
+			"Zombie bone": {
+				"1": "Common"
+			},
+			"Zombie Champion's scroll": {
+				"1": "1/5000"
+			},
+			"Starved ancient effigy": {
+				"1": "Very rare"
+			}
+		},
+		"Zombie (Entrana Dungeon)": {
+			"Bones": {
+				"1": "Always"
+			},
+			"Coins": {
+				"18": "Uncommon",
+				"28": "Uncommon"
+			},
+			"Air rune": {
+				"13": "Uncommon"
+			},
+			"Nature rune": {
+				"6": "Rare"
+			},
+			"Bronze arrow": {
+				"8": "Uncommon"
+			},
+			"Bronze hatchet": {
+				"1": "Common"
+			},
+			"Iron hatchet": {
+				"1": "Rare"
+			},
+			"Tiny plated bronze salvage": {
+				"1": "Uncommon"
+			},
+			"Small bladed bronze salvage": {
+				"1": "Rare"
+			},
+			"Fishing bait": {
+				"5": "Common"
+			},
+			"Grimy guam": {
+				"1": "Rare"
+			},
+			"Grimy tarromin": {
+				"1": "Rare"
+			},
+			"Grimy marrentill": {
+				"1": "Rare"
+			},
+			"Grimy harralander": {
+				"1": "Rare"
+			},
+			"Grimy ranarr": {
+				"1": "Rare"
+			},
+			"Grimy irit": {
+				"1": "Rare"
+			},
+			"Grimy avantoe": {
+				"1": "Rare"
+			},
+			"Grimy kwuarm": {
+				"1": "Rare"
+			},
+			"Grimy cadantine": {
+				"1": "Very rare"
+			},
+			"Grimy lantadyme": {
+				"1": "Very rare"
+			},
+			"Grimy dwarf weed": {
+				"1": "Very rare"
+			},
+			"Zombie bone": {
+				"1": "Common"
+			},
+			"Zombie Champion's scroll": {
+				"1": "1/5000"
+			},
+			"Starved ancient effigy": {
+				"1": "Very rare"
 			}
 		},
 		"Zombie (Dimension of the Damned)": {
@@ -239260,6 +241937,7 @@
 		"Battle of the Monolith": "13365, 13364",
 		"Battle of Forinthry": "13111, Prison (Fort Forinthry)",
 		"Beneath Cursed Tides": "12337, 12342, 11824, Sunken tutorial island",
+		"Beneath Scabaras' Sands": "12586, 13105, 13358, 13613, 13098, Grand Library of Menaphos, Uzer Mastaba, 13972, 12844, 12845, 12846, 12590, 12847, 13103, 13102, Scabarite Cavern",
 		"Between a Rock...": "Keldagrim, 12085, Dwarven Mine, Dwarven Tunnel, Arzinian gold mine",
 		"Big Chompy Bird Hunting": "10542, Rantz's cave",
 		"Biohazard": "10292, 10291, 10035, 10036, 11570, 13108",
@@ -240273,7 +242951,7 @@
 				"~|Legends' Quest|~ Complete the quest": "Quest"
 			}],
 			"TzRek-Jad^": [{
-				"Unlock the Jad pet": "Nonskill"
+				"Unlock the ~|TzRek-Jad|~": "Nonskill"
 			}]
 		},
 		"Monsters": {
@@ -240401,6 +243079,11 @@
 					"Hard Mode Bosses": "Nonskill"
 				}]
 			},
+			"Giant spider": {
+				"Temple of Ikov": [{
+					"~|Temple of Ikov|~ 1": "Quest"
+				}]
+			},
 			"Giant Mole (Hard Mode)": {
 				"Giant Mole Lair": [{
 					"Hard Mode Bosses": "Nonskill"
@@ -240467,6 +243150,11 @@
 					"Hard Mode Bosses": "Nonskill"
 				}]
 			},
+			"Guardian of Armadyl": {
+				"Temple of Ikov": [{
+					"~|Temple of Ikov|~ 1": "Quest"
+				}]
+			},
 			"Helwyr (Hard Mode)": {
 				"The Heart": [{
 					"Hard Mode Bosses": "Nonskill"
@@ -240512,6 +243200,11 @@
 					"Access members content": "Nonskill"
 				}]
 			},
+			"Ice spider": {
+				"Temple of Ikov": [{
+					"~|Temple of Ikov|~ 1": "Quest"
+				}]
+			},
 			"Ice warrior": {
 				"11318": [{
 					"Access members content": "Nonskill"
@@ -240552,6 +243245,11 @@
 					"Hard Mode Bosses": "Nonskill"
 				}, {
 					"Group Content enabled": "Nonskill"
+				}]
+			},
+			"Lesser demon": {
+				"Temple of Ikov": [{
+					"~|Temple of Ikov|~ 1": "Quest"
 				}]
 			},
 			"Masuta the Ascended": {
@@ -240626,6 +243324,11 @@
 					"Access members content": "Nonskill"
 				}]
 			},
+			"Scorpion": {
+				"Temple of Ikov": [{
+					"~|Temple of Ikov|~ 1": "Quest"
+				}]
+			},
 			"Seiryu the Azure Serpent": {
 				"Temple of Aminishi": [{
 					"Group Content enabled": "Nonskill"
@@ -240644,6 +243347,11 @@
 			"Solak, Guardian of the Grove": {
 				"7729": [{
 					"Group Content enabled": "Nonskill"
+				}]
+			},
+			"Skeleton": {
+				"Temple of Ikov": [{
+					"~|Temple of Ikov|~ 1": "Quest"
 				}]
 			},
 			"Taraket the Necromacer": {
@@ -242489,6 +245197,45 @@
 			"Geffy": true,
 			"Leffy": true,
 			"Seffy": true
+		},
+		"Elite Dungeon Reward Shop": {
+			"Notepaper blueprint": true,
+			"Elite Dungeoneering outfit blueprint": true,
+			"Daemonheim skill door boost": true,
+			"Scrimshaw of aggression+ scroll": true,
+			"Scrimshaw of sacrifice+ scroll": true,
+			"Scrimshaw of corruption+ scroll": true,
+			"Recipe: Black stone arrows": true,
+			"Elite dungeon chest upgrade": true,
+			"Demon Slayer ability codex blueprint": true,
+			"Dragon Slayer ability codex blueprint": true,
+			"Undead Slayer ability codex blueprint": true,
+			"Magma golem pet": true,
+			"Crassian scuttler pet": true,
+			"Acolyte of Seiryu headdress": true,
+			"Acolyte of Seiryu jacket": true,
+			"Acolyte of Seiryu trousers": true,
+			"Acolyte of Seiryu handwraps": true,
+			"Acolyte of Seiryu footwraps": true,
+			"Sakadagami headdress": true,
+			"Sakadagami jacket": true,
+			"Sakadagami trousers": true,
+			"Sakadagami handwraps": true,
+			"Sakadagami footwraps": true,
+			"Aminishi teleport": true,
+			"Dragonkin Laboratory teleport": true,
+			"Shadow Reef teleport": true,
+			"Lucky Charm (Temple of Aminishi)": true,
+			"Lucky Charm (Dragonkin Laboratory)": true,
+			"Lucky Charm (Shadow Reef)": true,
+			"Lucky Charm (Zamorakian Undercity)": true,
+			"Sophanem slayer dungeon drop enhancer": true,
+			"Player-owned ports enhancer": true,
+			"Vital spark drop enhancer": true,
+			"Shifting tombs reward enhancer": true,
+			"Death Lotus extract": true,
+			"Dragon trinket": true,
+			"Metallic dragon trinket": true
 		},
 		"Elnock's Backup Supply": {
 			"Impling jar": true
@@ -249342,6 +252089,26 @@
 				"Elder divination legs": "Always",
 				"Elder divination hands": "Always",
 				"Elder divination feet": "Always"
+			},
+			"BOLG weapon piece": {
+				"Top of the Last Guardian's bow": "Always",
+				"Bottom of the Last Guardian's bow": "Always",
+				"Divine bowstring": "Always"
+			},
+			"ECB weapon piece": {
+				"Eldritch crossbow mechanism": "Always",
+				"Eldritch crossbow limb": "Always",
+				"Eldritch crossbow stock": "Always"
+			},
+			"EZK weapon piece": {
+				"Obsidian blade": "Always",
+				"Magma core": "Always",
+				"Ancient hilt": "Always"
+			},
+			"FSOA weapon piece": {
+				"Fractured Armadyl symbol": "Always",
+				"Fractured stabilisation gem": "Always",
+				"Staff of Armadyl's fractured shaft": "Always"
 			}
 		},
 		"Dungeoneering": {
@@ -252973,6 +255740,52 @@
 			}
 		},
 		"Invention": {
+			"Invention Components": {
+				"Simple parts": "Common",
+				"Magic parts": "Common",
+				"Spiritual parts": "Common",
+				"Stave parts": "Common",
+				"Tensile parts": "Common",
+				"Head parts": "Common",
+				"Connector parts": "Common",
+				"Cover parts": "Common",
+				"Organic parts": "Common",
+				"Crafted parts": "Common",
+				"Plated parts": "Common",
+				"Padded parts": "Common",
+				"Crystal parts": "Common",
+				"Blade parts": "Common",
+				"Delicate parts": "Common",
+				"Clear parts": "Common",
+				"Smooth parts": "Common",
+				"Spiked parts": "Common",
+				"Deflecting parts": "Common",
+				"Base parts": "Common",
+				"Metallic parts": "Common",
+				"Flexible parts": "Common",
+				"Refined components": "Uncommon",
+				"Powerful components": "Uncommon",
+				"Healthy components": "Uncommon",
+				"Stunning components": "Uncommon",
+				"Enhancing components": "Uncommon",
+				"Evasive components": "Uncommon",
+				"Precious components": "Uncommon",
+				"Pious components": "Uncommon",
+				"Living components": "Uncommon",
+				"Ethereal components": "Uncommon",
+				"Variable components": "Uncommon",
+				"Dextrous components": "Uncommon",
+				"Strong components": "Uncommon",
+				"Swift components": "Uncommon",
+				"Imbued components": "Uncommon",
+				"Direct components": "Uncommon",
+				"Subtle components": "Uncommon",
+				"Light components": "Uncommon",
+				"Protective components": "Uncommon",
+				"Sharp components": "Uncommon",
+				"Heavy components": "Uncommon",
+				"Precise components": "Uncommon"
+			},
 			"DivinationOutfit": {	
 				"Elder divination head": "Always",
 				"Elder divination body": "Always",
@@ -257629,6 +260442,80 @@
 				},
 				"Starved ancient effigy": {
 					"1": "Very rare"
+				}
+			},
+			"Elite Profane Scabarite": {
+				"Carapace": {
+					"1": "Always"
+				},
+				"Gold charm": {
+					"1": "4/100"
+				},
+				"Green charm": {
+					"1": "20/100"
+				},
+				"Blue charm": {
+					"1": "10/100"
+				},
+				"Spectral lens": {
+					"1": "Unknown"
+				},
+				"Uncut dragonstone": {
+					"12 (noted)": "Common"
+				},
+				"Fellstalk seed": {
+					"3": "Uncommon"
+				},
+				"Ciku seed": {
+					"1": "Rare"
+				},
+				"Potato cactus": {
+					"20 (noted)": "Uncommon"
+				},
+				"Cadava berries": {
+					"10 (noted)": "Common"
+				},
+				"Mahogany wood spirit": {
+					"8": "Common"
+				},
+				"Yew wood spirit": {
+					"5": "Uncommon"
+				},
+				"Elder wood spirit": {
+					"3": "Uncommon"
+				},
+				"Primal stone spirit": {
+					"6": "Uncommon"
+				},
+				"Congealed blood": {
+					"30": "Common"
+				},
+				"Onyx bolt tips": {
+					"20": "Common"
+				},
+				"Onyx dust": {
+					"10": "Rare"
+				},
+				"Medium blunt rune salvage": {
+					"5 (noted)": "Common"
+				},
+				"Tiny planted orikalkum salvage": {
+					"3 (noted)": "Rare"
+				},
+				"Pure essence": {
+					"300 (noted)": "Common"
+				},
+				"Mud rune": {
+					"40": "Uncommon"
+				},
+				"Catalytic anima stone": {
+					"25": "Uncommon"
+				},
+				"Rare drop table": {
+					"1": "Rare"
+				},
+				"Priest's Notes": {
+					"1": "Common"
 				}
 			},
 			"Feline akh": {
@@ -270518,6 +273405,7 @@
 		"Risen ghost": 85,
 		"Mutated jadinko guard": 86,
 		"Profane Scabarite": 87,
+		"Elite Profane Scabarite": 87,
 		"Grifolapine": 88,
 		"Corrupted scorpion": 88,
 		"Anagami": 90,
@@ -284932,6 +287820,26 @@
 			"prayer": 0,
 			"accuracy": 0,
 			"necromancy": 60
+		},
+		"Consecrated keris": {
+			"ranged": 0,
+			"slot": "main hand weapon",
+			"prayer": 5,
+			"style": "stab",
+			"ability_damage": 768,
+			"magic": 0,
+			"strength": 0,
+			"armour": 0,
+			"requirements": {
+				"Attack": 70
+			},
+			"speed": 3,
+			"tier": 80,
+			"lp": 0,
+			"attack_range": 1,
+			"class": "melee",
+			"accuracy": 1924,
+			"auto_damage": 768
 		},
 		"Constitution cape (t)": {
 			"ranged": 21.6,
@@ -312500,6 +315408,46 @@
 			"prayer": 0,
 			"accuracy": 0
 		},
+		"Primal arrow": {
+			"ranged": 0,
+			"requirements": {
+				"Ranged": 99
+			},
+			"class": "ranged",
+			"lp": 0,
+			"tier": 100,
+			"speed": 0,
+			"armour": 0,
+			"slot": "ammo",
+			"is_consumable": true,
+			"strength": 0,
+			"magic": 0,
+			"ability_damage": 1440,
+			"style": "arrows",
+			"prayer": 0,
+			"accuracy": 0,
+			"auto_damage": 960
+		},
+		"Primal bolts": {
+			"ranged": 0,
+			"requirements": {
+				"Ranged": 99
+			},
+			"class": "ranged",
+			"lp": 0,
+			"tier": 100,
+			"speed": 0,
+			"armour": 0,
+			"slot": "ammo",
+			"is_consumable": true,
+			"strength": 0,
+			"magic": 0,
+			"ability_damage": 576,
+			"style": "bolts",
+			"prayer": 0,
+			"accuracy": 0,
+			"auto_damage": 384
+		},
 		"Primal crossbow": {
 			"ranged": 0,
 			"slot": "main hand weapon",
@@ -313224,6 +316172,26 @@
 			"charges": 100000,
 			"prayer": 0,
 			"accuracy": 0
+		},
+		"Primed keris": {
+			"ranged": 0,
+			"slot": "main hand weapon",
+			"prayer": 4,
+			"style": "stab",
+			"ability_damage": 672,
+			"magic": 0,
+			"strength": 0,
+			"armour": 0,
+			"requirements": {
+				"Attack": 70
+			},
+			"speed": 3,
+			"tier": 70,
+			"lp": 0,
+			"attack_range": 1,
+			"class": "melee",
+			"accuracy": 1486,
+			"auto_damage": 672
 		},
 		"Profound decorative helm": {
 			"ranged": 0,
