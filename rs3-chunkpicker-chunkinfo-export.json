@@ -108956,7 +108956,7 @@
 			"~|Combat Mastery achievements#Medium|~ Core Problem": {
 				"Category": ["Combat Mastery Achievements"],
 				"Description": "Defeat the Corporeal Beast without being hit by the Dark Eenergy Code. Can only be completed in a solo instance.",
-				"Monsters": ["Corporal Beast"],
+				"Monsters": ["Corporeal Beast"],
 				"BaseQuest": "Combat Mastery Achievements",
 				"Not F2P": true,
 				"CombatScore": 2
@@ -110264,7 +110264,7 @@
 			"~|Combat Mastery achievements#Hard|~ Outflanked 'em in the Sanctum": {
 				"Category": ["Combat Mastery Achievements"],
 				"Description": "Defeat the Sanctum Guardian without anyone taking any damage from her purple corruption.",
-				"Monsters": ["The Sanctum Guadrian"],
+				"Monsters": ["The Sanctum Guardian"],
 				"BaseQuest": "Combat Mastery Achievements",
 				"Not F2P": true,
 				"CombatScore": 3
@@ -111068,7 +111068,7 @@
 			"~|Combat Mastery achievements#Elite|~ Day at the Aquarium": {
 				"Category": ["Combat Mastery Achievements"],
 				"Description": "Defeat Yakamaru with one durable jellyfish and one reflecting jellyfish still alive.",
-				"Monsters": ["XXXX"],
+				"Monsters": ["Yakamaru"],
 				"BaseQuest": "Combat Mastery Achievements",
 				"Not F2P": true,
 				"CombatScore": 4
@@ -111844,8 +111844,8 @@
 			},
 			"~|Combat Mastery achievements#Elite|~ Taraket Elite Speed Killer": {
 				"Category": ["Combat Mastery Achievements", "Speed Killer Achievements"],
-				"Description": "Defeat Taraket the Necroamncer solo in less than 03:00.",
-				"Monsters": ["Taraket the Necroamncer"],
+				"Description": "Defeat Taraket the Necromancer solo in less than 03:00.",
+				"Monsters": ["Taraket the Necromancer"],
 				"BaseQuest": "Combat Mastery Achievements",
 				"Not F2P": true,
 				"CombatScore": 4
@@ -112552,7 +112552,7 @@
 			"~|Combat Mastery achievements#Master|~ Maul or Nothing": {
 				"Category": ["Combat Mastery Achievements", "Combat Master+"],
 				"Description": "Defeat Vorago in hard mode in a team size of 2 or fewer by personally using the Maul of Omens on him on every rotation.",
-				"Monsters": ["Vorage (Hard Mode)"],
+				"Monsters": ["Vorago (Hard Mode)"],
 				"BaseQuest": "Combat Mastery Achievements",
 				"Not F2P": true,
 				"CombatScore": 5
@@ -112631,8 +112631,8 @@
 			},
 			"~|Combat Mastery achievements#Master|~ Pruning the Timeline": {
 				"Category": ["Combat Mastery Achievements", "Combat Master+"],
-				"Description": "Defeat Kerapac the bound in hard mode, solo after dealing with all echos of Kerapac within 9s of each other.",
-				"Monsters": ["Kerapac the bound (Hard Mode)"],
+				"Description": "Defeat Kerapac, the bound in hard mode, solo after dealing with all echos of Kerapac within 9s of each other.",
+				"Monsters": ["Kerapac, the bound (Hard Mode)"],
 				"BaseQuest": "Combat Mastery Achievements",
 				"Not F2P": true,
 				"CombatScore": 5
@@ -112653,10 +112653,10 @@
 				"Not F2P": true,
 				"CombatScore": 5
 			},
-			"~|Combat Mastery achievements#Master|~ Rasial, the First Necroamncer (perfect)": {
+			"~|Combat Mastery achievements#Master|~ Rasial, the First Necromancer (perfect)": {
 				"Category": ["Combat Mastery Achievements", "Combat Master+"],
-				"Description": "Defeat Rasial, the First Necroamncer while dealing with all of his special attacks properly.",
-				"Monsters": ["Rasial, the First Necroamncer"],
+				"Description": "Defeat Rasial, the First Necromancer while dealing with all of his special attacks properly.",
+				"Monsters": ["Rasial, the First Necromancer"],
 				"BaseQuest": "Combat Mastery Achievements",
 				"Not F2P": true,
 				"CombatScore": 5
