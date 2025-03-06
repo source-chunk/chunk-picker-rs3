@@ -109238,7 +109238,7 @@
 			"~|Combat Mastery achievements#Medium|~ Living On a Prayer Switch": {
 				"Category": ["Combat Mastery Achievements"],
 				"Description": "Defeat TzTok-Jad 10 times.",
-				"Monsters": ["Tz-Tok Jad"],
+				"Monsters": ["TzTok-Jad"],
 				"BaseQuest": "Combat Mastery Achievements",
 				"Not F2P": true,
 				"CombatScore": 2
@@ -110763,7 +110763,7 @@
 			"~|Combat Mastery achievements#Hard|~ Zemouregal & Vorkath III": {
 				"Category": ["Combat Mastery Achievements"],
 				"Description": "Defeat Zemouregal & Vorkath 25 times.",
-				"Monsters": ["Zemouregal & Vorkath (Normal Mode)"],
+				"Monsters": ["Zemouregal & Vorkath"],
 				"BaseQuest": "Combat Mastery Achievements",
 				"Not F2P": true,
 				"CombatScore": 3
@@ -110771,7 +110771,7 @@
 			"~|Combat Mastery achievements#Hard|~ Zemouregal & Vorkath Competent Speed Killer": {
 				"Category": ["Combat Mastery Achievements", "Speed Killer Achievements"],
 				"Description": "Defeat Zemouregal & Vorkath solo in less than 05:30.",
-				"Monsters": ["Zemouregal & Vorkath (Normal Mode)"],
+				"Monsters": ["Zemouregal & Vorkath"],
 				"BaseQuest": "Combat Mastery Achievements",
 				"Not F2P": true,
 				"CombatScore": 3
@@ -110939,7 +110939,7 @@
 			"~|Combat Mastery achievements#Elite|~ Blessing Denied": {
 				"Category": ["Combat Mastery Achievements"],
 				"Description": "Defeat Solak, Guardian of the Grove without anyone using the 'Nature's Blessing' action ability.",
-				"Monsters": ["Solak"],
+				"Monsters": ["Solak, Guardian of the Grove"],
 				"BaseQuest": "Combat Mastery Achievements",
 				"Not F2P": true,
 				"CombatScore": 4
@@ -110987,7 +110987,7 @@
 			"~|Combat Mastery achievements#Elite|~ Cleansing is For the Weak": {
 				"Category": ["Combat Mastery Achievements"],
 				"Description": "Defeat Solak, Guardian of the Grove without anyone being cleansed by Merethiel.",
-				"Monsters": ["Solak"],
+				"Monsters": ["Solak, Guardian of the Grove"],
 				"BaseQuest": "Combat Mastery Achievements",
 				"Not F2P": true,
 				"CombatScore": 4
@@ -111100,7 +111100,7 @@
 			"~|Combat Mastery achievements#Elite|~ The Dragon Did Nothing Wrong": {
 				"Category": ["Combat Mastery Achievements"],
 				"Description": "Defeat Zemouregal without killing Vorkath.",
-				"Monsters": ["Zemouregal & Vorkath (Normal Mode)"],
+				"Monsters": ["Zemouregal & Vorkath"],
 				"BaseQuest": "Combat Mastery Achievements",
 				"Not F2P": true,
 				"CombatScore": 4
@@ -111196,7 +111196,7 @@
 			"~|Combat Mastery achievements#Elite|~ Green Thumb": {
 				"Category": ["Combat Mastery Achievements"],
 				"Description": "Defeat Solak, Guardian of the Grove after letting all spore bombs hit the ground during his 'Earthen Seed' attack.",
-				"Monsters": ["Solak"],
+				"Monsters": ["Solak, Guardian of the Grove"],
 				"BaseQuest": "Combat Mastery Achievements",
 				"Not F2P": true,
 				"CombatScore": 4
@@ -111701,7 +111701,7 @@
 			"~|Combat Mastery achievements#Elite|~ Riding the Anima-storm": {
 				"Category": ["Combat Mastery Achievements"],
 				"Description": "Defeat Solak, Guardian of the Grove without anyone siphoning Blight from the Anima storm.",
-				"Monsters": ["Solak"],
+				"Monsters": ["Solak, Guardian of the Grove"],
 				"BaseQuest": "Combat Mastery Achievements",
 				"Not F2P": true,
 				"CombatScore": 4
@@ -111765,7 +111765,7 @@
 			"~|Combat Mastery achievements#Elite|~ So-lacking any Lashers": {
 				"Category": ["Combat Mastery Achievements"],
 				"Description": "Defeat Solak, Guardian of the Grove without letting any Volatile rootling transform into a Blightbound lasher.",
-				"Monsters": ["Solak"],
+				"Monsters": ["Solak, Guardian of the Grove"],
 				"BaseQuest": "Combat Mastery Achievements",
 				"Not F2P": true,
 				"CombatScore": 4
@@ -111773,7 +111773,7 @@
 			"~|Combat Mastery achievements#Elite|~ Solak Elite Speed Killer": {
 				"Category": ["Combat Mastery Achievements", "Speed Killer Achievements"],
 				"Description": "Defeat Solak, Guardian of the Grove in less than 06:00.",
-				"Monsters": ["Solak"],
+				"Monsters": ["Solak, Guardian of the Grove"],
 				"BaseQuest": "Combat Mastery Achievements",
 				"Not F2P": true,
 				"CombatScore": 4
@@ -111797,7 +111797,7 @@
 			"~|Combat Mastery achievements#Elite|~ Spread the Blight": {
 				"Category": ["Combat Mastery Achievements"],
 				"Description": "Defeat Solak, Guardian of the Grove without anyone being hit by a Blight Bomb.",
-				"Monsters": ["Solak"],
+				"Monsters": ["Solak, Guardian of the Grove"],
 				"BaseQuest": "Combat Mastery Achievements",
 				"Not F2P": true,
 				"CombatScore": 4
@@ -111861,7 +111861,7 @@
 			"~|Combat Mastery achievements#Elite|~ Target Practice": {
 				"Category": ["Combat Mastery Achievements"],
 				"Description": "Defeat Solak, Guardian of the Grove without letting any spore bombs hit the ground during his 'Earthen Seed' attack.",
-				"Monsters": ["Solak"],
+				"Monsters": ["Solak, Guardian of the Grove"],
 				"BaseQuest": "Combat Mastery Achievements",
 				"Not F2P": true,
 				"CombatScore": 4
@@ -111901,7 +111901,7 @@
 			"~|Combat Mastery achievements#Elite|~ This Blight of Ours": {
 				"Category": ["Combat Mastery Achievements"],
 				"Description": "Defeat Solak, Guardian of the Grove after siphoning all Blight from the Anima storm.",
-				"Monsters": ["Solak"],
+				"Monsters": ["Solak, Guardian of the Grove"],
 				"BaseQuest": "Combat Mastery Achievements",
 				"Not F2P": true,
 				"CombatScore": 4
@@ -112077,7 +112077,7 @@
 			"~|Combat Mastery achievements#Elite|~ Wood Kill Again III": {
 				"Category": ["Combat Mastery Achievements"],
 				"Description": "Defeat Solak, Guardian of the Grove 25 times.",
-				"Monsters": ["Solak"],
+				"Monsters": ["Solak, Guardian of the Grove"],
 				"BaseQuest": "Combat Mastery Achievements",
 				"Not F2P": true,
 				"CombatScore": 4
@@ -112109,7 +112109,7 @@
 			"~|Combat Mastery achievements#Elite|~ You Can't Siphon Me": {
 				"Category": ["Combat Mastery Achievements"],
 				"Description": "Defeat Solak, Guardian of the Grove without anyone being hit by his 'Blight Siphon' attack.",
-				"Monsters": ["Solak"],
+				"Monsters": ["Solak, Guardian of the Grove"],
 				"BaseQuest": "Combat Mastery Achievements",
 				"Not F2P": true,
 				"CombatScore": 4
@@ -112165,7 +112165,7 @@
 			"~|Combat Mastery achievements#Elite|~ Zemouregal & Vorkath Elite Speed Killer": {
 				"Category": ["Combat Mastery Achievements", "Speed Killer Achievements"],
 				"Description": "Defeat Zemouregal & Vorkath in less than 04:00.",
-				"Monsters": ["Zemouregal & Vorkath (Normal Mode)"],
+				"Monsters": ["Zemouregal & Vorkath"],
 				"BaseQuest": "Combat Mastery Achievements",
 				"Not F2P": true,
 				"CombatScore": 4
@@ -112276,7 +112276,7 @@
 			"~|Combat Mastery achievements#Master|~ Blight the Way with Eruptions": {
 				"Category": ["Combat Mastery Achievements", "Combat Master+"],
 				"Description": "Defeat Solak, Guardian of the Grove after dealing with all eruptions within 6s of each other.",
-				"Monsters": ["Solak"],
+				"Monsters": ["Solak, Guardian of the Grove"],
 				"BaseQuest": "Combat Mastery Achievements",
 				"Not F2P": true,
 				"CombatScore": 5
@@ -112352,7 +112352,7 @@
 			"~|Combat Mastery achievements#Master|~ Cutting the Blight": {
 				"Category": ["Combat Mastery Achievements", "Combat Master+"],
 				"Description": "Defeat Solak, Guardian of the Grove after defeating his Blight afflicted core in a single exposure.",
-				"Monsters": ["Solak"],
+				"Monsters": ["Solak, Guardian of the Grove"],
 				"BaseQuest": "Combat Mastery Achievements",
 				"Not F2P": true,
 				"CombatScore": 5
@@ -112504,7 +112504,7 @@
 			"~|Combat Mastery achievements#Master|~ Keeping a Healthy State of Mind": {
 				"Category": ["Combat Mastery Achievements", "Combat Master+"],
 				"Description": "Defeat Solak, Guardian of the Grove while his remaining conscience within his mind has at least 50% life points remaining.",
-				"Monsters": ["Solak"],
+				"Monsters": ["Solak, Guardian of the Grove"],
 				"BaseQuest": "Combat Mastery Achievements",
 				"Not F2P": true,
 				"CombatScore": 5
@@ -112536,7 +112536,7 @@
 			"~|Combat Mastery achievements#Master|~ Lashers are Friends Not Foes": {
 				"Category": ["Combat Mastery Achievements", "Combat Master+"],
 				"Description": "Defeat Solak, Guardian of the Grove with at least 8 active Blightbound lashers",
-				"Monsters": ["Solak"],
+				"Monsters": ["Solak, Guardian of the Grove"],
 				"BaseQuest": "Combat Mastery Achievements",
 				"Not F2P": true,
 				"CombatScore": 5
@@ -112616,7 +112616,7 @@
 			"~|Combat Mastery achievements#Master|~ Paying No Mind to His Mind": {
 				"Category": ["Combat Mastery Achievements", "Combat Master+"],
 				"Description": "Defeat Solak, Guardian of the Grove without anyone entering his mind in phase 4.",
-				"Monsters": ["Solak"],
+				"Monsters": ["Solak, Guardian of the Grove"],
 				"BaseQuest": "Combat Mastery Achievements",
 				"Not F2P": true,
 				"CombatScore": 5
@@ -112696,7 +112696,7 @@
 			"~|Combat Mastery achievements#Master|~ Single Sigil Solutions": {
 				"Category": ["Combat Mastery Achievements", "Combat Master+"],
 				"Description": "Defeat Solak, Guardian of the Grove after using only one sigil to defeat Erethdor while Solak has at least 30% life points remaining.",
-				"Monsters": ["Solak"],
+				"Monsters": ["Solak, Guardian of the Grove"],
 				"BaseQuest": "Combat Mastery Achievements",
 				"Not F2P": true,
 				"CombatScore": 5
@@ -112720,7 +112720,7 @@
 			"~|Combat Mastery achievements#Master|~ Solak Master Speed Killer": {
 				"Category": ["Combat Mastery Achievements", "Speed Killer Achievements", "Combat Master+"],
 				"Description": "Defeat Solak, Guardian of the Grove in less than 03:45.",
-				"Monsters": ["Solak"],
+				"Monsters": ["Solak, Guardian of the Grove"],
 				"BaseQuest": "Combat Mastery Achievements",
 				"Not F2P": true,
 				"CombatScore": 5
@@ -113112,7 +113112,7 @@
 			"~|Combat Mastery achievements#Grandmaster|~ Solak Grandmaster Speed Killer": {
 				"Category": ["Combat Mastery Achievements", "Speed Killer Achievements", "Combat Master+"],
 				"Description": "Defeat Solak, Guardian of the Grove in less than 02:36.",
-				"Monsters": ["Solak"],
+				"Monsters": ["Solak, Guardian of the Grove"],
 				"BaseQuest": "Combat Mastery Achievements",
 				"Not F2P": true,
 				"CombatScore": 6
@@ -113120,7 +113120,7 @@
 			"~|Combat Mastery achievements#Grandmaster|~ Solak, Guardian of the Grove (perfect)": {
 				"Category": ["Combat Mastery Achievements", "Combat Master+"],
 				"Description": "Defeat Solak, Guardian of the Grove while dealing with all his special attacks properly.",
-				"Monsters": ["Solak"],
+				"Monsters": ["Solak, Guardian of the Grove"],
 				"BaseQuest": "Combat Mastery Achievements",
 				"Not F2P": true,
 				"CombatScore": 6
@@ -113128,7 +113128,7 @@
 			"~|Combat Mastery achievements#Grandmaster|~ Solak, Guardian of the Grove (unorthodox)": {
 				"Category": ["Combat Mastery Achievements", "Combat Master+"],
 				"Description": "Defeat Solak, Guardian of the Grove while dealing with all his special attacks in an unorthodox way.",
-				"Monsters": ["Solak"],
+				"Monsters": ["Solak, Guardian of the Grove"],
 				"BaseQuest": "Combat Mastery Achievements",
 				"Not F2P": true,
 				"CombatScore": 6
@@ -137296,6 +137296,9 @@
 			"Nickname": "South Lost Grove"
 		},
 		"7729": {
+			"Monster": {
+				"Solak, Guardian of the Grove": 1
+			},
 			"Object": {
 				"Offering cradle": 1,
 				"Magical Mushrooms": 1
@@ -172599,7 +172602,7 @@
 				"Crypt spider": 5,
 				"Giant crypt spider": 6,
 				"Skeleton": 6,
-				"Barrows - Rise of the Six": 1,
+				"Barrows: Rise of the Six": 1,
 				"Barrows": 1
 			},
 			"Connect": {
@@ -176350,7 +176353,9 @@
 				"Raid Rewards": true
 			},
 			"Monster": {
-				"Airut": 20
+				"Airut": 20,
+				"Beastmaster Durzag": 1,
+				"Yakamaru": 1
 			},
 			"Connect": {
 				"7503": true,
@@ -177009,7 +177014,7 @@
 				"Stairway": 1
 			},
 			"Monster": {
-				"Raksha,the Shadow Colossus": 1
+				"Raksha, the Shadow Colossus": 1
 			},
 			"Connect": {
 				"16704": true,
@@ -182623,7 +182628,7 @@
 			"WaterSource[+]": "Any object that can fill an item with water"
 		},
 		"monstersPlus": {
-			"AnyBoss[+]": ["The Ambassador", "Araxxor", "Arch-Glacor", "Barrows", "Barrows - Rise of the Six", "Black stone dragon", "Chaos Elemental", "Commander Zilyana", "Croesus", "Dagannoth Kings", "The Gate of Elidinis", "General Graardor", "Giant Mole", "Gregorovic", "Har-Aken", "Helwyr", "Hermod, the Spirit of War", "Kalphite Queen", "Kalphite King", "Kerapac, the bound", "King Black Dragon", "Kree'arra", "K'ril Tsutsaroth", "Legiones", "The Magister", "Nex", "Nex, Angel of Death", "Queen Black Dragon", "Raksha, the Shadow Colossus", "Rasial, the First Necromancer", "Rex Matriarchs", "Seiryu the Azure Serpent", "Solak", "Telos, the Warden", "Twin Furies", "TzKal-Zuk", "TzTok-Jad", "Vindicta", "Gorvek", "Vorago", "Zamorak, Lord of Chaos", "Osseous", "Vermyx, Brood Mother", "Kezalam, the Wanderer", "Nakatra, Devourer Eternal"],
+			"AnyBoss[+]": ["The Ambassador", "Araxxor", "Arch-Glacor", "Barrows", "Barrows: Rise of the Six", "Black stone dragon", "Chaos Elemental", "Commander Zilyana", "Croesus", "Dagannoth Kings", "The Gate of Elidinis", "General Graardor", "Giant Mole", "Gregorovic", "Har-Aken", "Helwyr", "Hermod, the Spirit of War", "Kalphite Queen", "Kalphite King", "Kerapac, the bound", "King Black Dragon", "Kree'arra", "K'ril Tsutsaroth", "Legiones", "The Magister", "Nex", "Nex, Angel of Death", "Queen Black Dragon", "Raksha, the Shadow Colossus", "Rasial, the First Necromancer", "Rex Matriarchs", "Seiryu the Azure Serpent", "Solak, Guardian of the Grove", "Telos, the Warden", "Twin Furies", "TzKal-Zuk", "TzTok-Jad", "Vindicta", "Gorvek", "Vorago", "Zamorak, Lord of Chaos", "Osseous", "Vermyx, Brood Mother", "Kezalam, the Wanderer", "Nakatra, Devourer Eternal"],
 			"AnyDemon[+]": ["Abyssal beast", "Abyssal demon", "Abyssal savage", "Balfrug Kreeyath", "Black demon", "Gargoyle", "Greater demon", "Greater demon ash lord", "Greater demon berserker", "Greater demon brute", "Greater demon pyromancer", "Greater demon sage", "Greater demon savage", "Imp", "Imp scavenger", "K'ril Tsutsaroth", "Kal'gerion demon", "Lesser demon", "Ripper Demon", "Tormented demon", "Tstanon Karlak", "Zakl'n Gritch"],
 			"AnyDragon[+]": ["Adamant dragon", "Astellarn", "Baby blue dragon", "Baby red dragon", "Black dragon", "Black stone dragon", "Blue dragon", "Bronze dragon", "Brutal green dragon", "Celestial dragon", "Dragonstone dragon", "Frost dragon", "Green dragon", "Hydrix dragon", "Iron dragon", "King Black Dragon", "Mithril dragon", "Nodon artificer", "Nodon guard", "Nodon hunter", "Onyx dragon", "Queen Black Dragon", "Rune dragon", "Steel dragon", "Verak Lith"],
 			"AnyUndead[+]": ["Aberrant spectre", "Ahrim the Blighted", "Akrisae the Doomed", "Animated spade", "Ankou", "Armoured phantom", "Armoured zombie", "Banshee", "Bloated monstrosity", "Bound skeleton", "Corpse archer", "Corpse carrier", "Corpse mage", "Corpse spider", "Crawling corpse torso", "Crawling hand", "Dharok the Wretched", "Dragith Nurn", "Edimmu", "Fetid zombie", "Ghast", "Ghost", "Ghostly troll bruiser", "Ghostly troll thrower", "Guthan the Infested", "Karil the Tainted", "Linza the Disgraced", "Magic axe", "Monkey Zombie", "Mummy (Jaldraocht Pyramid)", "Mummy (Ullek)", "Phantom sorcerer", "Phantom wizard", "Possessed pickaxe", "Revenant cyclops", "Revenant dark beast", "Revenant demon", "Revenant dragon", "Revenant goblin", "Revenant hellhound", "Revenant hobgoblin", "Revenant icefiend", "Revenant imp", "Revenant knight", "Revenant ork", "Revenant pyrefiend", "Revenant vampyre", "Revenant werewolf", "Risen ghost", "Shade", "Shadow warrior", "Skeletal Wyvern", "Skeletal hand", "Skeleton", "Skeleton Mage", "Skeleton knight", "Skoblin", "Skogre", "Small scarab", "Spiritual mage", "Spiritual ranger", "Spiritual warrior", "Taraket the Necromancer", "Torag the Corrupted", "Tormented wraith", "Undead chicken", "Undead cow", "Undead pekin", "Undead troll", "Verac the Defiled", "Wight", "Wight ranger", "Zogre", "Zombie", "Zombie hand", "Zombie knight", "Zombie pirate", "Zombie swab", "Zombie warrior"],
@@ -182634,7 +182639,7 @@
 			"Gnome[+]": ["Gnome", "Gnome woman", "Gnome child"],
 			"Guard[+]": ["Guard", "Guard (Varrock)"],
 			"HAMMember[+]": ["Guard (H.A.M.)"],
-			"KiliVIIBosses[+]": ["Solak", "Telos, the Warden", "Vorago"],
+			"KiliVIIBosses[+]": ["Solak, Guardian of the Grove", "Telos, the Warden", "Vorago"],
 			"Knights[+]": ["White Knight", "Black Knight"],
 			"Legiones[+]": ["Legio Primus", "Legio Secundus", "Legio Tertius", "Legio Quartus", "Legio Quintus", "Legio Sextus"],
 			"LudikerisMonsters[+]": ["Locust rider", "Scarab mage", "Kalphite Worker", "Kalphite Soldier", "Kalphite Guardian"],
@@ -184259,7 +184264,7 @@
 			"Araxxor": true,
 			"Arch-Glacor": true,
 			"Barrows": true,
-			"Barrows - Rise of the Six": true,
+			"Barrows: Rise of the Six": true,
 			"Black stone dragon": true,
 			"Chaos Elemental": true,
 			"Commander Zilyana": true,
@@ -184292,7 +184297,7 @@
 			"Raksha, the Shadow Colossus": true,
 			"Rasial, the First Necromancer": true,
 			"Seiryu the Azure Serpent": true,
-			"Solak": true,
+			"Solak, Guardian of the Grove": true,
 			"Telos, the Warden": true,
 			"Twin Furies": true,
 			"TzKal-Zuk": true,
@@ -188627,7 +188632,7 @@
 				"1": "Rare"
 			}
 		},
-		"Barrows - Rise of the Six": {
+		"Barrows: Rise of the Six": {
 			"Malevolent energy (unstable)": {
 				"1-2": "Always"
 			},
@@ -221213,7 +221218,7 @@
 				"1": "Always"
 			}
 		},
-		"Raksha,the Shadow Colossus": {
+		"Raksha, the Shadow Colossus": {
 			"Spirit weed seed": {
 				"5-10": "Common"
 			},
@@ -227911,7 +227916,7 @@
 				"1": "5/512"
 			}
 		},
-		"Solak": {
+		"Solak, Guardian of the Grove": {
 			"Torn grimoire page": {
 				"1": "Always",
 				"25": "1/200"
@@ -240302,8 +240307,13 @@
 					"Full completion of The World Wakes": "Nonskill"
 				}]
 			},
-			"Barrows - Rise of the Six": {
+			"Barrows: Rise of the Six": {
 				"The Barrows": [{
+					"Group Content enabled": "Nonskill"
+				}]
+			},
+			"Beastmaster Durzag": {
+				"Mazcab": [{
 					"Group Content enabled": "Nonskill"
 				}]
 			},
@@ -240631,6 +240641,11 @@
 					"~|Merlin's Crystal|~ 3": "Quest"
 				}]
 			},
+			"Solak, Guardian of the Grove": {
+				"7729": [{
+					"Group Content enabled": "Nonskill"
+				}]
+			},
 			"Taraket the Necromacer": {
 				"The Sahdow Reef": [{
 					"Group Content enabled": "Nonskill"
@@ -240677,6 +240692,11 @@
 				"Borehole": [{
 					"Hard Mode Bosses": "Nonskill"
 				}, {
+					"Group Content enabled": "Nonskill"
+				}]
+			},
+			"Yakamaru": {
+				"Mazcab": [{
 					"Group Content enabled": "Nonskill"
 				}]
 			},
