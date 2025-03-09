@@ -786,7 +786,7 @@ let ruleStructure = {
 		"Daemonheim tasks": true,
 		"PortSkills": true,
 		"Token": true,
-		"DnD Skilling": true,
+		"DnD Skilling": ["Shooting Stars"],
 		"Menaphos Events": true,
 		"Uncharted": true,
 		"Multiple Pickpockets": true
@@ -827,9 +827,6 @@ let ruleStructure = {
     "Magic": {
         "Spells": ["Combat and Teleport Spells"],
         "Secondary MTA": true
-    },
-	"Mining": {
-        "Shooting Stars": true
     },
     "Prayer": {
         "Prayers": true

@@ -9711,6 +9711,15 @@
 		        "NoPet": true,
 		        "Priority": 10
 		    },
+			 "Get the full amount of healing from ~|jug of wine|~": {
+		        "Category": ["Full Healing"],
+		        "Items": ["Jug of wine"],
+		        "Level": 35,
+		        "Primary": false,
+		        "Not Equip": false,
+		        "NoPet": true,
+		        "Priority": 11
+			},
 		    "Get the full amount of healing from ~|vanilla cheesecake|~": {
 		        "Category": ["Full Healing"],
 		        "Items": ["Vanilla cheesecake"],
@@ -19186,6 +19195,14 @@
 			}
 		},
 		"Crafting": {
+			"Chisel ~|pure essence fragments|~": {
+				"Category": ["Token"],
+				"Items": ["Pure essence*"],
+				"Level": 1,
+				"Output": "Pure essence fragments",
+				"Primary": true,
+				"Priority": 1
+			},
 			"Unlock the ~|Livid farm|~ spells": {
 				"Level": 60,
 				"Chunks": ["8253"],
@@ -19620,6 +19637,9 @@
 				"Items": ["Silver bar*", "Mithril bar*", "Glorious bar*"],
 				"Level": 90,
 				"Objects": ["Furnace[+]"],
+				"Tasks": {
+					"~|Legacy of Seergaze|~ 11": "Quest"
+				},
 				"Output": "Glorious silvthril chain",
 				"Primary": true,
 				"Priority": 1
@@ -23953,6 +23973,9 @@
 			"Cast some ~|silvthril limbs|~": {
 				"Items": ["Mithril bar*", "Silver bar*"],
 				"Level": 70,
+				"Tasks": {
+					"~|The Lord of Vampyrium|~ 3": "Quest"
+				},
 				"Output": "Silvthril limbs",
 				"Objects": ["CraftingFurnace[+]"],
 				"Primary": true,
@@ -24157,7 +24180,7 @@
 				},
 				"Priority": 26
 			},
-			"Craft a ~|dyed undead dragon leather|~": {
+			"Craft ~|dyed undead dragon leather|~": {
 				"Items": ["Brown dye*", "Undead dragon leather*"],
 				"Level": 90,
 				"Output": "Dyed undead dragon leather",
@@ -24204,7 +24227,36 @@
 				"Level": 90,
 				"Output": "Wrapped masterwork sword grip",
 				"Primary": true,
-				"Priority": 28
+				"Priority": 32
+			},
+			"Craft a ~|masterwork runic conduit|~": {
+				"Category": ["Token"],
+				"Items": ["Melodic essence*", "Volatile runic brick*"],
+				"Level": 90,
+				"Output": "Masterwork runic conduit",
+				"Primary": true,
+				"Priority": 33
+			},
+			"Craft a ~|smoothed catalysed elemental diamond|~": {
+				"Items": ["Catalysed elemental diamond*"],
+				"Level": 90,
+				"Output": "Smoothed catalysed elemental diamond",
+				"Primary": true,
+				"Priority": 34
+			},
+			"Craft an ~|unhoused masterwork focus|~": {
+				"Items": ["Smoothed catalysed elemental diamond*", "Volatile runic brick*"],
+				"Level": 90,
+				"Output": "Unhoused masterwork focus",
+				"Primary": true,
+				"Priority": 33
+			},
+			"Craft a ~|wrapped masterwork staff grip|~": {
+				"Items": ["Unwrapped masterwork staff grip*", "Dyed undead dragon leather*"],
+				"Level": 90,
+				"Output": "Wrapped masterwork staff grip",
+				"Primary": true,
+				"Priority": 34
 			},
 			"Feed a ~|starved ancient effigy|~ with crafting": {
 				"Items": ["Starved ancient effigy (agility/crafting)"],
@@ -28815,6 +28867,13 @@
 				"Output": "FSOA weapon piece",
 				"Primary": true,
 				"Priority": 12
+			},
+			"Create a ~|sign of runic protection|~": {
+				"Items": ["Incandescent energy*"],
+				"Level": 95,
+				"Output": "Sign of runic protection",
+				"Primary": true,
+				"Priority": 13
 			},
 			"Transmute alaea sea salt to ~|wobbegong oil|~": {
 				"Items": ["Ancestral energy*", "Alaea sea salt*"],
@@ -40141,6 +40200,27 @@
 				"Primary": true,
 				"Priority": 7
 			},
+			"Fletch an ~|eternal magic wand (inert)|~": {
+				"Items": ["Eternal magic logs*"],
+				"Level": 100,
+				"Output": "Eternal magic wand (inert)",
+				"Primary": true,
+				"Priority": 8
+			},
+			"Fletch an ~|eternal magic orb (inert)|~": {
+				"Items": ["Eternal magic logs*"],
+				"Level": 100,
+				"Output": "Eternal magic orb (inert)",
+				"Primary": true,
+				"Priority": 9
+			},
+			"Fletch an ~|eternal magic staff (inert)|~": {
+				"Items": ["Eternal magic logs*"],
+				"Level": 100,
+				"Output": "Eternal magic staff (inert)",
+				"Primary": true,
+				"Priority": 10
+			},
 			"Fletch an ~|eternal magic stock|~": {
 				"Items": ["Eternal magic logs*"],
 				"Level": 103,
@@ -49103,7 +49183,7 @@
 				"NoBoost": true
 			},
 			"Unlock and use the ~|Eclipsed Soul|~ prayer": {
-				"Items": ["Eclipsed Soul prayer codex"],
+				"Items": ["Eclipsed Soul prayer codex*"],
 				"Level": 75,
 				"Primary": false,
 				"Skills": {
@@ -49115,6 +49195,14 @@
 				"Priority": 15,
 				"NoPet": true,
 				"NoBoost": true
+			},
+			"Cast ~|North-western Anachronia Teleport|~": {
+				"Category": ["Spells", "Combat and Teleport Spells"],
+				"Chunks": ["15430"],
+				"Items": ["Nature rune*", "Law rune*", "Time rune*"],
+				"Level": 75,
+				"Primary": true,
+				"Priority": 16
 			},
 			"Cast ~|shadow blitz|~": {
 				"Category": ["Spells", "Combat and Teleport Spells"],
@@ -49251,6 +49339,21 @@
 				"Priority": 5,
 				"NoPet": true,
 				"NoBoost": true
+			},
+			"Cast ~|Crumble Undead|~": {
+				"Category": ["Spells", "Combat and Teleport Spells"],
+				"Items": ["Air rune[+]*", "Earth rune[+]*", "Time rune*"],
+				"Level": 78,
+				"Primary": true,
+				"Priority": 6
+			},
+			"Cast ~|Eastern Anachronia Teleport|~": {
+				"Category": ["Spells", "Combat and Teleport Spells"],
+				"Chunks": ["16451"],
+				"Items": ["Nature rune*", "Law rune*", "Time rune*"],
+				"Level": 78,
+				"Primary": true,
+				"Priority": 7
 			},
 			"Cast ~|entangle|~": {
 				"Category": ["Spells", "Combat and Teleport Spells"],
@@ -49634,6 +49737,18 @@
 				"Primary": true,
 				"Priority": 4
 			},
+			"Cast ~|Western Kharazi Jungle Teleport|~": {
+				"Category": ["Spells", "Combat and Teleport Spells"],
+				"Chunks": ["11053"],
+				"Items": ["Astral rune*", "Law rune*", "Time rune*"],
+				"Tasks": {
+					"~|Legends' Quest|~ Complete the quest": "Quest",
+					"~|Lunar Diplomacy|~ Complete the quest": "Quest"
+				},
+				"Level": 81,
+				"Primary": true,
+				"Priority": 5
+			},
 			"Wear a ~|dragon rider amulet|~": {
 				"Items": ["Dragon rider amulet"],
 				"Level": 81,
@@ -49798,6 +49913,17 @@
 				"Primary": true,
 				"Priority": 10
 			},
+			"Cast ~|Mountain Camp Teleport|~": {
+				"Category": ["Spells", "Combat and Teleport Spells"],
+				"Chunks": ["11065"],
+				"Items": ["Astral rune*", "Law rune*", "Time rune*"],
+				"Tasks": {
+					"~|Lunar Diplomacy|~ Complete the quest": "Quest"
+				},
+				"Level": 83,
+				"Primary": true,
+				"Priority": 11
+			},
 			"Cast ~|Carrallanger teleport|~": {
 				"Category": ["Spells", "Combat and Teleport Spells"],
 				"Items": ["Soul rune*", "Law rune*"],
@@ -49956,6 +50082,38 @@
 				},
 				"Primary": false,
 				"Priority": 14,
+				"NoPet": true,
+				"NoBoost": true
+			},
+			"Cast ~|Northern Lost Grove Teleport|~": {
+				"Category": ["Spells", "Combat and Teleport Spells"],
+				"Chunks": ["7730"],
+				"Items": ["Nature rune*", "Law rune*", "Time rune*"],
+				"Level": 85,
+				"Primary": true,
+				"Priority": 15
+			},
+			"Wield an ~|eternal magic wand (meagre)|~": {
+				"Items": ["Eternal magic wand (meagre)"],
+				"Level": 85,
+				"Primary": false,
+				"Priority": 16,
+				"NoPet": true,
+				"NoBoost": true
+			},
+			"Wield an ~|eternal magic orb (meagre)|~": {
+				"Items": ["Eternal magic orb (meagre)"],
+				"Level": 85,
+				"Primary": false,
+				"Priority": 17,
+				"NoPet": true,
+				"NoBoost": true
+			},
+			"Wield an ~|eternal magic staff (meagre)|~": {
+				"Items": ["Eternal magic staff (meagre)"],
+				"Level": 85,
+				"Primary": false,
+				"Priority": 18,
 				"NoPet": true,
 				"NoBoost": true
 			},
@@ -50314,6 +50472,16 @@
 				"NoPet": true,
 				"NoBoost": true
 			},
+			"Cast ~|Paradox|~": {
+				"Category": ["Spells", "Combat and Teleport Spells"],
+				"Items": ["Chaos rune*", "Astral rune*", "Soul rune*", "Time rune*"],
+				"Tasks": {
+					"~|Lunar Diplomacy|~ Complete the quest": "Quest"
+				},
+				"Level": 88,
+				"Primary": true,
+				"Priority": 8
+			},
 			"Cast ~|ice plateau teleport|~": {
 				"Category": ["Spells", "Combat and Teleport Spells"],
 				"Items": ["Law rune*", "Astral rune*", "Water rune[+]*"],
@@ -50618,6 +50786,13 @@
 				"Primary": true,
 				"Priority": 2
 			},
+			"Cast ~|Advance Time|~": {
+				"Category": ["Spells", "Combat and Teleport Spells"],
+				"Items": ["Astral rune*", "Time rune*"],
+				"Level": 93,
+				"Primary": true,
+				"Priority": 3
+			},
 			"Cast ~|ice barrage|~": {
 				"Category": ["Spells", "Combat and Teleport Spells"],
 				"Items": ["Blood rune*", "Water rune[+]*"],
@@ -50765,6 +50940,13 @@
 				"Primary": true,
 				"Priority": 2
 			},
+			"Cast ~|Temporal Anomaly|~": {
+				"Category": ["Spells", "Combat and Teleport Spells"],
+				"Items": ["Air rune[+]*", "Cosmic rune*", "Soul rune*", "Time rune*"],
+				"Level": 97,
+				"Primary": true,
+				"Priority": 3
+			},
 			"Cast ~|enchant bakriminel bolt (onyx)|~": {
 				"Category": ["Spells"],
 				"Items": ["Blood rune*", "Death rune*", "Cosmic rune*", "Fire rune[+]*", "Onyx bakriminel bolts*"],
@@ -50820,6 +51002,30 @@
 				"Level": 99,
 				"Primary": false,
 				"Priority": 6,
+				"NoPet": true,
+				"NoBoost": true
+			},
+			"Wield an ~|eternal magic wand (saturated)|~": {
+				"Items": ["Eternal magic wand (saturated)"],
+				"Level": 99,
+				"Primary": false,
+				"Priority": 7,
+				"NoPet": true,
+				"NoBoost": true
+			},
+			"Wield an ~|eternal magic orb (saturated)|~": {
+				"Items": ["Eternal magic orb (saturated)"],
+				"Level": 99,
+				"Primary": false,
+				"Priority": 8,
+				"NoPet": true,
+				"NoBoost": true
+			},
+			"Wield an ~|eternal magic staff (saturated)|~": {
+				"Items": ["Eternal magic staff (saturated)"],
+				"Level": 99,
+				"Primary": false,
+				"Priority": 9,
 				"NoPet": true,
 				"NoBoost": true
 			},
@@ -51003,7 +51209,7 @@
 		},
 		"Mining": {
 			"Mine a size 1 ~|crashed star|~": {
-				"Category": ["Shooting Stars"],
+				"Category": ["Shooting Stars", "DnD Skilling"],
 				"Level": 10,
 				"Objects": ["Crashed star"],
 				"Output": "Stardust",
@@ -51011,7 +51217,7 @@
 				"Priority": 40
 			},
 			"Mine a size 2 ~|crashed star|~": {
-				"Category": ["Shooting Stars"],
+				"Category": ["Shooting Stars", "DnD Skilling"],
 				"Level": 20,
 				"Objects": ["Crashed star"],
 				"Output": "Stardust",
@@ -51019,7 +51225,7 @@
 				"Priority": 40
 			},
 			"Mine a size 3 ~|crashed star|~": {
-				"Category": ["Shooting Stars"],
+				"Category": ["Shooting Stars", "DnD Skilling"],
 				"Level": 30,
 				"Objects": ["Crashed star"],
 				"Output": "Stardust",
@@ -51027,7 +51233,7 @@
 				"Priority": 40
 			},
 			"Mine a size 4 ~|crashed star|~": {
-				"Category": ["Shooting Stars"],
+				"Category": ["Shooting Stars", "DnD Skilling"],
 				"Level": 40,
 				"Objects": ["Crashed star"],
 				"Output": "Stardust",
@@ -51035,7 +51241,7 @@
 				"Priority": 40
 			},
 			"Mine a size 5 ~|crashed star|~": {
-				"Category": ["Shooting Stars"],
+				"Category": ["Shooting Stars", "DnD Skilling"],
 				"Level": 50,
 				"Objects": ["Crashed star"],
 				"Output": "Stardust",
@@ -51043,7 +51249,7 @@
 				"Priority": 40
 			},
 			"Mine a size 6 ~|crashed star|~": {
-				"Category": ["Shooting Stars"],
+				"Category": ["Shooting Stars", "DnD Skilling"],
 				"Level": 60,
 				"Objects": ["Crashed star"],
 				"Output": "Stardust",
@@ -51052,7 +51258,7 @@
 				"Not F2P": true
 			},
 			"Mine a size 7 ~|crashed star|~": {
-				"Category": ["Shooting Stars"],
+				"Category": ["Shooting Stars", "DnD Skilling"],
 				"Level": 70,
 				"Objects": ["Crashed star"],
 				"Output": "Stardust",
@@ -51061,7 +51267,7 @@
 				"Not F2P": true
 			},
 			"Mine a size 8 ~|crashed star|~": {
-				"Category": ["Shooting Stars"],
+				"Category": ["Shooting Stars", "DnD Skilling"],
 				"Level": 80,
 				"Objects": ["Crashed star"],
 				"Output": "Stardust",
@@ -51070,7 +51276,7 @@
 				"Not F2P": true
 			},
 			"Mine a size 9 ~|crashed star|~": {
-				"Category": ["Shooting Stars"],
+				"Category": ["Shooting Stars", "DnD Skilling"],
 				"Level": 90,
 				"Objects": ["Crashed star"],
 				"Output": "Stardust",
@@ -51079,7 +51285,7 @@
 				"Not F2P": true
 			},
 			"Mine a size 10 ~|crashed star|~": {
-				"Category": ["Shooting Stars"],
+				"Category": ["Shooting Stars", "DnD Skilling"],
 				"Level": 100,
 				"Objects": ["Crashed star"],
 				"Output": "Stardust",
@@ -52027,6 +52233,14 @@
 				"Level": 80,
 				"Primary": false,
 				"Priority": 8
+			},
+			"Fill an ~|expansive pouch|~ by mining in the rune essence mine": {
+				"Objects": ["Rune essence rock"],
+				"Items": ["Sealed expansive pouch*"],
+				"Level": 1,
+				"Output": "Expansive pouch",
+				"Primary": false,
+				"Priority": 100
 			},
 			"Buy the ~|Mining cape|~": {
 				"Category": ["Skillcape"],
@@ -58301,6 +58515,22 @@
 				"Primary": true,
 				"Priority": 9
 			},
+			"Obtain ~|magical thread|~ by runecrafting through the abyss": {
+				"Chunks": ["RuneTemple[+]", "The Abyss"],
+				"Items": ["RuneEssence[+]*"],
+				"Level": 1,
+				"Output": "Magical thread",
+				"Primary": false,
+				"Priority": 40
+			},
+			"Obtain ~|Ilme's thread|~ by runecrafting through altar running": {
+				"Chunks": ["RuneTemple[+]"],
+				"Items": ["RuneEssence[+]*"],
+				"Level": 1,
+				"Output": "Ilme's thread",
+				"Primary": false,
+				"Priority": 40
+			},
 			"Craft ~|water runes|~ at the water rune temple": {
 				"Chunks": ["Water Rune Temple"],
 				"Items": ["RuneEssence[+]*"],
@@ -59302,6 +59532,40 @@
 				"Primary": true,
 				"Priority": 7
 			},
+			"Extract ~|melodic essence|~ from Cywir weapons": {
+				"Items": ["Wand of the Cywir elders*"],
+				"Level": 99,
+				"Skills": {
+					"Smithing": 99
+				},
+				"Objects": ["Dragonkin anvil"],
+				"Output": "Melodic essence",
+				"Primary": true,
+				"Priority": 32
+			},
+			"Extract ~|binding essence|~ from seismic weapons": {
+				"Items": ["Seismic wand*"],
+				"Level": 99,
+				"Skills": {
+					"Smithing": 99
+				},
+				"Objects": ["Dragonkin anvil"],
+				"Output": "Binding essence",
+				"Primary": true,
+				"Priority": 33
+			},
+			"Extract ~|crystalline essence|~ from attuned crystal magic weapons": {
+				"Chunks": ["8500"],
+				"Items": ["Attuned crystal weapon seed*"],
+				"Level": 99,
+				"Skills": {
+					"Smithing": 99
+				},
+				"Objects": ["Dragonkin anvil"],
+				"Output": "Crystalline essence",
+				"Primary": true,
+				"Priority": 34
+			},
 			"Buy the ~|Runecrafting master cape|~": {
 				"Category": ["Master skillcape"],
 				"NPCs": ["Larriar"],
@@ -59505,6 +59769,227 @@
 				},
 				"Primary": false,
 				"Priority": 7
+			},
+			"Anchor the ~|time altar|~": {
+				"Chunks": ["15430"],
+				"Items": ["Enchanted key"],
+				"Level": 100,
+				"Primary": false,
+				"NoBoost": true,
+				"Priority": 1
+			},
+			"Craft a ~|time rune|~": {
+				"Chunks": ["Time Rune Temple"],
+				"Items": ["Pure essence*"],
+				"Level": 100,
+				"Output": "Time rune",
+				"Primary": true,
+				"NoBoost": true,
+				"Priority": 2
+			},
+			"Craft an ~|eternal magic wand (meagre)|~": {
+				"Chunks": ["RuneTemple[+]"],
+				"Items": ["Pure essence*", "Eternal magic wand (inert)"],
+				"Level": 100,
+				"Output": "Eternal magic wand (meagre)",
+				"Primary": true,
+				"Priority": 3
+			},
+			"Craft an ~|eternal magic orb (meagre)|~": {
+				"Chunks": ["RuneTemple[+]"],
+				"Items": ["Pure essence*", "Eternal magic orb (inert)"],
+				"Level": 100,
+				"Output": "Eternal magic orb (meagre)",
+				"Primary": true,
+				"Priority": 4
+			},
+			"Craft an ~|eternal magic wand (saturated)|~": {
+				"Chunks": ["RuneTemple[+]"],
+				"Items": ["Pure essence*", "Eternal magic wand (meagre)"],
+				"Level": 100,
+				"Output": "Eternal magic wand (saturated)",
+				"Primary": true,
+				"Priority": 5
+			},
+			"Craft an ~|eternal magic orb (saturated)|~": {
+				"Chunks": ["RuneTemple[+]"],
+				"Items": ["Pure essence*", "Eternal magic orb (meagre)"],
+				"Level": 100,
+				"Output": "Eternal magic orb (saturated)",
+				"Primary": true,
+				"Priority": 6
+			},
+			"Craft an ~|eternal magic staff (meagre)|~": {
+				"Chunks": ["RuneTemple[+]"],
+				"Items": ["Pure essence*", "Eternal magic staff (inert)"],
+				"Level": 104,
+				"Output": "Eternal magic staff (meagre)",
+				"Primary": true,
+				"Priority": 1
+			},
+			"Craft an ~|eternal magic staff (saturated)|~": {
+				"Chunks": ["RuneTemple[+]"],
+				"Items": ["Pure essence*", "Eternal magic staff (meagre)"],
+				"Level": 104,
+				"Output": "Eternal magic staff (saturated)",
+				"Primary": true,
+				"Priority": 2
+			},
+			"Create a ~|shielded pouch exterior|~": {
+				"Chunks": ["RuneTemple[+]"],
+				"Items": ["Sign of runic protection*", "Royal dragon leather*", "Dinosaur leather*", "Felt*"],
+				"Level": 105,
+				"Output": "Shielded pouch exterior",
+				"Primary": true,
+				"Priority": 1
+			},
+			"Create an ~|expansive pouch cord|~": {
+				"Chunks": ["RuneTemple[+]"],
+				"Items": ["Ilme's thread*", "Magical thread*"],
+				"Level": 105,
+				"Output": "Expansive pouch cord",
+				"Primary": true,
+				"Priority": 2
+			},
+			"Create a ~|sealed expansive pouch|~": {
+				"Chunks": ["RuneTemple[+]"],
+				"Items": ["Shielded pouch exterior*", "Expansive pouch cord*", "Sated dimensional pouch*"],
+				"Level": 105,
+				"Output": "Sealed expansive pouch",
+				"Primary": true,
+				"Priority": 3
+			},
+			"Obtain an ~|abyssal runic synapse|~ by runecrafting through the abyss": {
+				"Chunks": ["RuneTemple[+]", "The Abyss"],
+				"Items": ["RuneEssence[+]*"],
+				"Level": 110,
+				"Tasks": {
+					"Crafting to Your Own Rune*": "Nonskill"
+				},
+				"Output": "Abyssal runic synapse",
+				"Primary": false,
+				"Priority": 1
+			},
+			"Imbue an ~|imbued masterwork runic conduit|~": {
+				"Chunks": ["RuneTemple[+]"],
+				"Items": ["Masterwork runic conduit*"],
+				"Level": 110,
+				"Tasks": {
+					"Crafting to Your Own Rune*": "Nonskill"
+				},
+				"Output": "Imbued masterwork runic conduit",
+				"Primary": true,
+				"Priority": 2
+			},
+			"Craft a ~|masterwork focus housing|~": {
+				"Chunks": ["RuneTemple[+]"],
+				"Items": ["Imbued masterwork runic conduit*", "Abyssal runic synapse*"],
+				"Level": 110,
+				"Tasks": {
+					"Crafting to Your Own Rune*": "Nonskill"
+				},
+				"Output": "Masterwork focus housing",
+				"Primary": true,
+				"Priority": 3
+			},
+			"Imbue a ~|runic imbued diamond|~": {
+				"Chunks": ["RuneTemple[+]"],
+				"Items": ["Binding essence*", "Diamond*"],
+				"Level": 110,
+				"Tasks": {
+					"Crafting to Your Own Rune*": "Nonskill"
+				},
+				"Output": "Runic imbued diamond",
+				"Primary": true,
+				"Priority": 4
+			},
+			"Imbue an ~|elemental diamond|~": {
+				"Chunks": ["Air Rune Temple", "Water Rune Temple", "Earth Rune Temple", "Fire Rune Temple"],
+				"Items": ["Runic imbued diamond*"],
+				"Level": 110,
+				"Tasks": {
+					"Crafting to Your Own Rune*": "Nonskill"
+				},
+				"Output": "Elemental diamond",
+				"Primary": true,
+				"Priority": 5
+			},
+			"Imbue a ~|catalysed elemental diamond|~": {
+				"Chunks": ["Mind Rune Temple", "Body Rune Temple", "Cosmic Rune Temple", "Chaos Rune Temple", "Nature Rune Temple", "Law Rune Temple", "Death Rune Temple", "Blood Rune Temple", "Soul Rune Temple", "8508"],
+				"Items": ["Elemental diamond*"],
+				"Level": 110,
+				"Tasks": {
+					"Crafting to Your Own Rune*": "Nonskill"
+				},
+				"Output": "Catalysed elemental diamond",
+				"Primary": true,
+				"Priority": 6
+			},
+			"Create a ~|housed masterwork focus|~": {
+				"Chunks": ["RuneTemple[+]"],
+				"Items": ["Unhoused masterwork focus*", "Masterwork focus housing*"],
+				"Level": 110,
+				"Tasks": {
+					"Crafting to Your Own Rune*": "Nonskill"
+				},
+				"Output": "Housed masterwork focus",
+				"Primary": true,
+				"Priority": 7
+			},
+			"Create a ~|masterwork staff focus|~": {
+				"Chunks": ["RuneTemple[+]"],
+				"Items": ["Housed masterwork focus*", "Masterwork focus bracket*"],
+				"Level": 110,
+				"Tasks": {
+					"Crafting to Your Own Rune*": "Nonskill"
+				},
+				"Output": "Masterwork staff focus",
+				"Primary": true,
+				"Priority": 8
+			},
+			"Create an ~|unwrapped masterwork staff grip|~": {
+				"Chunks": ["RuneTemple[+]"],
+				"Items": ["Eternal magic staff (inert)*"],
+				"Level": 110,
+				"Tasks": {
+					"Crafting to Your Own Rune*": "Nonskill"
+				},
+				"Output": "Unwrapped masterwork staff grip",
+				"Primary": true,
+				"Priority": 9
+			},
+			"Craft a ~|volatile runic brick|~": {
+				"Chunks": ["RuneTemple[+]"],
+				"Items": ["Pure essence fragments*", "Air rune*", "Mind rune*", "Water rune*", "Earth rune*", "Fire rune*", "Body rune*", "Cosmic rune*", "Chaos rune*", "Astral rune*", "Nature rune*", "Law rune*", "Death rune*", "Blood rune*", "Soul rune*", "Time rune*"],
+				"Level": 110,
+				"Tasks": {
+					"Crafting to Your Own Rune*": "Nonskill"
+				},
+				"Output": "Volatile runic brick",
+				"Primary": true,
+				"Priority": 10
+			},
+			"Craft a ~|masterwork staff handle|~": {
+				"Chunks": ["RuneTemple[+]"],
+				"Items": ["Grounded masterwork staff base*", "Wrapped masterwork staff grip*"],
+				"Level": 110,
+				"Tasks": {
+					"Crafting to Your Own Rune*": "Nonskill"
+				},
+				"Output": "Masterwork staff handle",
+				"Primary": true,
+				"Priority": 11
+			},
+			"Craft a ~|masterwork staff|~": {
+				"Chunks": ["RuneTemple[+]"],
+				"Items": ["Masterwork staff handle*", "Masterwork staff focus*"],
+				"Level": 110,
+				"Tasks": {
+					"Crafting to Your Own Rune*": "Nonskill"
+				},
+				"Output": "Masterwork staff",
+				"Primary": true,
+				"Priority": 12
 			},
 			"Create the ~|blurite keystone|~": {
 				"Tasks": {
@@ -63089,6 +63574,28 @@
 				"Primary": true,
 				"Priority": 12
 			},
+			"Forge a ~|masterwork focus bracket|~": {
+				"Items": ["Gold bar*", "Glorious bar*"],
+				"Objects": ["Anvil[+]"],
+				"Level": 90,
+				"Tasks": {
+					"Crafting to Your Own Rune*": "Nonskill"
+				},
+				"Output": "Masterwork focus bracket",
+				"Primary": false,
+				"Priority": 13
+			},
+			"Forge a ~|grounded masterwork staff base|~": {
+				"Items": ["Gold bar*", "Volatile runic brick*", "Crystalline essence*"],
+				"Objects": ["Anvil[+]"],
+				"Level": 90,
+				"Tasks": {
+					"Crafting to Your Own Rune*": "Nonskill"
+				},
+				"Output": "Grounded masterwork staff base",
+				"Primary": false,
+				"Priority": 14
+			},
 			"Forge ~|tetsu weapons|~": {
 				"Items": ["Plate*", "Pearl*", "Tengu tsuba*"],
 				"Level": 92,
@@ -63360,6 +63867,40 @@
 				"Output": "Ascended essence",
 				"Primary": true,
 				"Priority": 31
+			},
+			"Extract ~|melodic essence|~ from Cywir weapons": {
+				"Items": ["Wand of the Cywir elders*"],
+				"Level": 99,
+				"Skills": {
+					"Runecrafting": 99
+				},
+				"Objects": ["Dragonkin anvil"],
+				"Output": "Melodic essence",
+				"Primary": true,
+				"Priority": 32
+			},
+			"Extract ~|binding essence|~ from Cywir weapons": {
+				"Items": ["Seismic wand*"],
+				"Level": 99,
+				"Skills": {
+					"Runecrafting": 99
+				},
+				"Objects": ["Dragonkin anvil"],
+				"Output": "Binding essence",
+				"Primary": true,
+				"Priority": 33
+			},
+			"Extract ~|crystalline essence|~ from attuned crystal magic weapons": {
+				"Chunks": ["8500"],
+				"Items": ["Attuned crystal weapon seed*"],
+				"Level": 99,
+				"Skills": {
+					"Runecrafting": 99
+				},
+				"Objects": ["Dragonkin anvil"],
+				"Output": "Crystalline essence",
+				"Primary": true,
+				"Priority": 34
 			},
 			"Forge an ~|Orthen furnace core|~": {
 				"Tasks": {
@@ -67025,6 +67566,12 @@
 				"NPCs": ["Pompous merchant"],
 				"Primary": true,
 				"Priority": 3
+			},
+			"Pickpocket ~|Ikis Krum|~": {
+				"Level": 1,
+				"NPCs": ["Ikis Krum"],
+				"Primary": true,
+				"Priority": 4
 			},
 			"Pickpocket a ~|farmer|~": {
 				"Level": 10,
@@ -101142,7 +101689,7 @@
 			"Archaeology Mystery: ~|Night Theatre|~ 1": {
 				"BaseQuest": "Night Theatre",
 				"Description": "Gather all the critic's review articles",
-				"Items": ["A critic's review (aricle 1)", "A critic's review (aricle 2)", "A critic's review (aricle 3)", "A critic's review (aricle 4)", "A critic's review (aricle 5)"],
+				"Items": ["A critic's review (article 1)", "A critic's review (article 2)", "A critic's review (article 3)", "A critic's review (article 4)", "A critic's review (article 5)"],
 				"Tasks": {
 					"Complete the ~|Archaeology tutorial|~": "Archaeology"
 				},
@@ -106099,6 +106646,7 @@
 			},
 			"~|Lumbridge Achievements#Easy|~ I Can't Hear Dead People": {
 				"Description": "Get a replacement amulet of ghostspeak from Father Urhney.",
+				"Items": ["Ghostspeak amulet"],
 				"Chunks": ["12849"],
 				"Tasks": {
 					"~|Lumbridge Achievements#Beginner|~ Complete the Beginner Achievements": "Diary"
@@ -124655,6 +125203,15 @@
 				},
 				"Not F2P": true
 			},
+			"Obtain an ~|expansive pouch|~": {
+				"Category": ["BIS Skilling"],
+				"Label": "BIS Skilling",
+				"Items": ["Expansive pouch"],
+				"Requirements": {
+					"Runecrafting": 105
+				},
+				"Not F2P": true
+			},
 			"Obtain the ~|runecrafter's Catalyst fragment|~": {
 				"Category": ["BIS Skilling"],
 				"Label": "BIS Skilling",
@@ -126931,7 +127488,10 @@
 				"UnlocksArea": true
 			},
 			"Fisher Realm": {
-				"UnlocksArea": true
+				"UnlocksArea": true,
+				"Tasks": {
+					"~|Holy Grail|~ 4": "Quest"
+				}
 			},
 			"Caverns under Arandar": {
 				"UnlocksArea": true
@@ -127760,6 +128320,12 @@
 				"UnlocksArea": true,
 				"Tasks": {
 					"~|Beneath Scabaras' Sands|~ Complete the quest": "Quest"
+				}
+			},
+			"Time Rune Temple": {
+				"UnlocksArea": true,
+				"Tasks": {
+					"Anchor the ~|time altar|~": "Runecrafting"
 				}
 			},
 			"Create a super explosive shaker*": {
@@ -130631,6 +131197,49 @@
 				"Items": ["Primed keris"],
 				"Monsters": ["Elite Profane Scabarites"],
 				"Output": "Consecrated keris"
+			},
+			"Create a sated dimensional pouch*": {
+				"Items": ["Hugry hood", "Small pouch", "Medium pouch", "Large pouch", "Giant pouch", "Massive pouch", "AnyTalisman[+]"],
+				"Output": "Sated dimensional pouch"
+			},
+			"Crafting to Your Own Rune*": {
+				"Chunks": ["Ourania Cave"],
+				"Items": ["Eternal magic staff (saturated)", "Eternal magic orb (saturated)", "Eternal magic wand (saturated)"]
+			},
+			"Pick up snake weed*": {
+				"Chunks": ["11055"],
+				"Tasks": {
+					"~|Jungle Potion|~ 2": "Quest"
+				},
+				"Output": "Grimy snake weed"
+			},
+			"Pick up ardrigal*": {
+				"Chunks": ["11312"],
+				"Tasks": {
+					"~|Jungle Potion|~ 3": "Quest"
+				},
+				"Output": "Grimy ardrigal"
+			},
+			"Pick up sito foil*": {
+				"Chunks": ["11055"],
+				"Tasks": {
+					"~|Jungle Potion|~ 4": "Quest"
+				},
+				"Output": "Grimy sito foil"
+			},
+			"Pick up volencia moss*": {
+				"Chunks": ["11311"],
+				"Tasks": {
+					"~|Jungle Potion|~ 5": "Quest"
+				},
+				"Output": "Grimy volencia moss"
+			},
+			"Pick up rogue's purse*": {
+				"Chunks": ["Pothole Dungeon"],
+				"Tasks": {
+					"~|Jungle Potion|~ 6": "Quest"
+				},
+				"Output": "Grimy rogue's purse"
 			}
 		}
 	},
@@ -130751,6 +131360,9 @@
 		},
 		"39": {
 			"Name": "Temple of Isolation"
+		},
+		"40": {
+			"Name": "Time Rune Temple"
 		},
 		"258": {
 			"Spawn": {
@@ -145969,7 +146581,7 @@
 				"Hole": 6
 			},
 			"Monster": {
-				"Jungle spider": 19,
+				"Jungle spider#Jade Vine Maze": 19,
 				"Jogre": 7,
 				"Snake": 8,
 				"Monkey": 9,
@@ -146009,7 +146621,7 @@
 				"Overgrown idol#Karamja": 1
 			},
 			"Monster": {
-				"Jungle spider": 14,
+				"Jungle spider#Jade Vine Maze": 14,
 				"Jogre": 8,
 				"Monkey": 10
 			},
@@ -146086,7 +146698,6 @@
 				"Shopkeeper Kofi": 1,
 				"Shop assistant (Musa Point)": 1,
 				"Skippy": 1,
-				"Trader Crewmember": 1,
 				"Man": 1,
 				"Hengel": 1,
 				"Anja": 1,
@@ -148490,8 +149101,7 @@
 			},
 			"Monster": {
 				"Dwarf": 5,
-				"Guard (Falador)": 10,
-				"Man": 1
+				"Guard (Falador)": 10
 			},
 			"Connect": {
 				"12183": true,
@@ -149344,7 +149954,7 @@
 			"Quest": {
 				"Call of the Ancestors": "first"
 			},
-			"Shops": {
+			"Shop": {
 				"Anima Islands Rewards": true
 			},
 			"Nickname": "Tuska's Back North"
@@ -154019,9 +154629,6 @@
 				"Chito": 1,
 				"Frito": 1
 			},
-			"Monster": {
-				"Man": 1
-			},
 			"Connect": {
 				"4957": true,
 				"6473": true
@@ -158258,12 +158865,16 @@
 		"15430": {
 			"Object": {
 				"Flower": 2,
-				"Green vine blossom": 2
+				"Green vine blossom": 2,
+				"Mysterious Ruins": 1
 			},
 			"NPC": {
 				"Abel (Ancient zygomite)": 1,
 				"Cannibal jadinko (Anachronia)": 17,
 				"John (Ancient zygomite)": 1
+			},
+			"Connect": {
+				"40": true
 			},
 			"Nickname": "Cannibal Jadinko Hunting Spot"
 		},
@@ -165735,8 +166346,8 @@
 				"Monk of Zamorak": 22,
 				"Gargoyle": 4,
 				"Mummy (Jaldraocht Pyramid)": 15,
-				"Skeleton (Tarn's Lair)": 21,
-				"Zombie (Tarn's Lair)": 9,
+				"Skeleton (Tarn's Lair)#Mid Level": 21,
+				"Zombie (Tarn's Lair)#Low Level": 9,
 				"Possessed pickaxe": 7,
 				"Animated spade": 8,
 				"Ice troll male (Chaos Tunnels)": 6,
@@ -165956,8 +166567,12 @@
 			},
 			"Monster": {
 				"Giant skeleton (Tarn's Lair": 2,
-				"Skeleton (Tarn's Lair)": 24,
-				"Zombie (Tarn's Lair)": 37,
+				"Skeleton (Tarn's Lair)#High Level": 8,
+				"Skeleton (Tarn's Lair)#Mid Level": 8,
+				"Skeleton (Tarn's Lair)#Low Level": 8,
+				"Zombie (Tarn's Lair)#High Level": 12,
+				"Zombie (Tarn's Lair)#Mid Level": 12,
+				"Zombie (Tarn's Lair)#Low Level": 32,
 				"Terror dog": 9
 			},
 			"Connect": {
@@ -167097,7 +167712,8 @@
 				"13362": true,
 				"13622": true,
 				"14391": true,
-				"15942": true
+				"15942": true,
+				"23": true
 			}
 		},
 		"Camdozaal": {
@@ -167487,7 +168103,7 @@
 				"Warped fly": 8,
 				"Crawling corpse torso": 8,
 				"Warped rat": 5,
-				"Skeleton": 13,
+				"Skeleton (Lumbridge Catacombs)": 13,
 				"Warped bat": 9
 			},
 			"NPC": {
@@ -167865,7 +168481,8 @@
 				"10571": true,
 				"11083": true,
 				"11339": true,
-				"13899": true
+				"13899": true,
+				"40": true
 			},
 			"Object": {
 				"Fire rift": 1,
@@ -168634,7 +169251,7 @@
 				"Rat": 12,
 				"Giant bat": 6,
 				"Bat": 18,
-				"Skeleton": 2,
+				"Skeleton (Tarn's Lair)#Mid Level": 2,
 				"Possessed pickaxe": 1,
 				"Animated spade": 2
 			},
@@ -173747,7 +174364,8 @@
 				"26": true,
 				"12339": true,
 				"29": true,
-				"32": true
+				"32": true,
+				"6473": true
 			}
 		},
 		"Necromantic Rune Temple": {
@@ -173982,6 +174600,15 @@
 			},
 			"Connect": {
 				"35": true
+			}
+		},
+		"Time Rune Temple": {
+			"Object": {
+				"Altar": 1,
+				"Portal": 1
+			},
+			"Connect": {
+				"15430": true
 			}
 		}
 	},
@@ -174699,6 +175326,23 @@
 			"AnyMemento[+]": ["Broken memento", "Fragile memento", "Spirit memento", "Robust memento", "Powerful memento"],
 			"AnyPortalMaterial[+]": ["Teak plank", "Mahogany plank", "Marble block"],
 			"AnySword[+]": ["Bronze sword", "Iron sword", "Steel sword", "Black sword", "White sword", "Mithril sword", "Adamant sword", "Rune sword", "Leaf-bladed sword", "Toktz-xil-ak", "Korasi's sword", "Khopesh of the Kharidian", "Khopesh of Tumeken", "Bronze longsword", "Iron longsword", "Steel longsword", "Corrupt Vesta's longsword", "Black longsword", "White longsword", "Mithril longsword", "Adamant longsword", "Rune longsword", "Gravite longsword", "Dragon longsword", "Corrupt dragon longsword", "Vesta's longsword", "Bane longsword", "Chaotic longsword", "Tetsu katana", "Dark ice shard", "Elite tetsu katana", "Elder rune longsword", "Drygore longsword", "Dark Shard of Leng", "Blurite sword", "Fremennik blade", "Bronze 2h sword", "Iron 2h sword", "Steel 2h sword", "Black 2h sword", "White 2h sword", "Mithril 2h sword", "Adamant 2h sword", "Rune 2h sword", "Gravite 2h sword", "Dragon 2h sword", "Saradomin sword", "Armadyl godsword", "Bandos godsword", "Saradomin godsword", "Zamorak godsword", "Zaros godsword", "Bane 2h sword", "Elder rune 2h sword", "Ek-ZekKil"],
+			"AnyTalisman[+]": [
+				"Air talisman",
+				"Blood talisman",
+				"Body talisman",
+				"Chaos talisman",
+				"Cosmic talisman",
+				"Death talisman",
+				"Earth talisman",
+				"Elemental talisman",
+				"Fire talisman",
+				"Law talisman",
+				"Mind talisman",
+				"Nature talisman",
+				"Omni-talisman",
+				"Soul talisman",
+				"Water talisman"
+			],
 			"ArchaeologyDirt[+]": [
 				"Aerated sediment",
 				"Ancient gravel",
@@ -179141,6 +179785,7 @@
 			"AnyMemento[+]": "Any memento",
 			"AnyPortalMaterial[+]": "Any item that can be used to make a portal frame in your PoH",
 			"AnySword[+]": "Any type of sword",
+			"AnyTalisman[+]": "Any runecrafting talisman",
 			"ArchaeologyDirt[+]": "Any variant of archaeology dirt",
 			"ArcFish[+]": "Any fish from the Arc",
 			"ArcMushrooms[+]": "Any type of mushroom from the Arc",
@@ -179787,6 +180432,7 @@
 			"RitualSite[+]": ["City of Um", "Ungael ritual site"],
 			"RockCrabChunks[+]": ["10810", "10042"],
 			"RubyAnachronia[+]": ["15428", "15427", "15171", "15172"],
+			"RuneTemple[+]": ["Air Rune Temple", "Mind Rune Temple", "Water Rune Temple", "Earth Rune Temple", "Fire Rune Temple", "Body Rune Temple", "Cosmic Rune Temple", "Chaos Rune Temple", "Astral Rune Temple", "Nature Rune Temple", "Law Rune Temple", "Death Rune Temple", "Blood Rune Temple", "Soul Rune Temple", "Time Rune Temple"],
 			"SeaweedChunks[+]": ["11313", "11056", "11055", "11054", "11822", "11310", "11823", "11568"],
 			"SeerChunk[+]": ["10806", "11062"],
 			"SenntistenChunks[+]": ["13364", "13365"],
@@ -179895,6 +180541,7 @@
 			"RitualSite[+]": "Any ritual site",
 			"RockCrabChunks[+]": "The Fremennik coast and waterbirth island chunks that contain rock crabs",
 			"RubyAnachronia[+]": "Any chunk with ruby harvests on Anachronia",
+			"RuneTemple[+]": "Any Rune Temple",
 			"SeaweedChunks[+]": "Any chunk on Karamja with seaweed",
 			"SenntistenChunks[+]": "Any chunk that the Dig Site pendant can teleport to",
 			"SeerChunk[+]": "Any chunk in which you can complete twisted firestarter",
@@ -181669,7 +182316,8 @@
 			"Reward Shop (Soul Wars)": true,
 			"Shattered Worlds Reward Shop":true,
 			"Artisans' Workshop Reward Shop": true,
-			"The Effigy Incubator Reward Shop": true
+			"The Effigy Incubator Reward Shop": true,
+			"Anima Islands Rewards": true
 		},
 		"boostItems": {
 			"Agility": {
@@ -183449,6 +184097,30 @@
 			"Spade": {
 				"1": "Always"
 			},
+			"Ghost hunter goggles": {
+				"1": "1/2000"
+			},
+			"Ghost hunter body": {
+				"1": "1/2000"
+			},
+			"Ghost hunter legs": {
+				"1": "1/2000"
+			},
+			"Ghost hunter backpack": {
+				"1": "1/2000"
+			},
+			"Ectoplasmator": {
+				"1": "Very rare"
+			},
+			"Deployable herb burner": {
+				"1": "1/5000"
+			},
+			"Cremation": {
+				"1": "1/1000"
+			},
+			"Ghostly essence": {
+				"1": "Very rare"
+			},
 			"Starved ancient effigy": {
 				"1": "1/9645"
 			}
@@ -183632,6 +184304,30 @@
 			},
 			"Starved ancient effigy": {
 				"1": "1/13437"
+			},
+			"Ghost hunter goggles": {
+				"1": "1/2000"
+			},
+			"Ghost hunter body": {
+				"1": "1/2000"
+			},
+			"Ghost hunter legs": {
+				"1": "1/2000"
+			},
+			"Ghost hunter backpack": {
+				"1": "1/2000"
+			},
+			"Ectoplasmator": {
+				"1": "Very rare"
+			},
+			"Deployable herb burner": {
+				"1": "1/5000"
+			},
+			"Cremation": {
+				"1": "1/1000"
+			},
+			"Ghostly essence": {
+				"1": "Very rare"
 			},
 			"Rare drop table": {
 				"1": "Rare"
@@ -186885,64 +187581,6 @@
 		"Black Knight Titan": {
 			"Bones": {
 				"1": "Always"
-			},
-			"Law rune": {
-				"2": "Common",
-				"4": "Common"
-			},
-			"Cosmic rune": {
-				"2": "Unknown"
-			},
-			"Chaos rune": {
-				"2": "Unknown"
-			},
-			"Death rune": {
-				"2": "Unknown"
-			},
-			"Fire rune": {
-				"15": "Unknown"
-			},
-			"Grimy ranarr": {
-				"1": "Unknown"
-			},
-			"Grimy dwarf weed": {
-				"1": "Unknown"
-			},
-			"Grimy lantadyme": {
-				"1": "Unknown"
-			},
-			"Grimy marrentill": {
-				"1": "Unknown"
-			},
-			"Small plated iron salvage": {
-				"1": "Unknown"
-			},
-			"Body talisman": {
-				"1": "Unknown"
-			},
-			"Rune javelin": {
-				"1": "Unknown"
-			},
-			"Limpwurt root": {
-				"1": "Unknown"
-			},
-			"Beer": {
-				"1": "Unknown"
-			},
-			"Medium plated iron salvage": {
-				"1": "Unknown"
-			},
-			"Small bladed steel salvage": {
-				"1": "Unknown"
-			},
-			"Dwarf weed seed": {
-				"1": "Rare"
-			},
-			"Starved ancient effigy": {
-				"1": "1/63775"
-			},
-			"Rare drop table": {
-				"1": "Rare"
 			}
 		},
 		"Black Knight champion": {
@@ -199482,9 +200120,6 @@
 			"Tiny plated rune salvage": {
 				"1": "Uncommon"
 			},
-			"Rune javelin": {
-				"1": "Uncommon"
-			},
 			"Grimy tarromin": {
 				"1": "Common"
 			},
@@ -201119,154 +201754,152 @@
 			"Big bones": {
 				"1": "Always"
 			},
-			"Coins": {
-				"17": "Common",
-				"41": "Common",
-				"106": "Common",
-				"142": "Common",
-				"206": "Common",
-				"323": "Common"
-			},
-			"Blood rune": {
-				"3": "Uncommon"
-			},
-			"Steel arrow": {
-				"11": "Uncommon"
-			},
-			"Adamant arrow": {
-				"4": "Uncommon"
-			},
-			"Silver bolts": {
-				"5": "Uncommon"
-			},
-			"Steel bolts": {
-				"2": "Uncommon"
-			},
-			"Steel javelin": {
-				"2": "Uncommon"
-			},
-			"Shortbow": {
-				"1": "Uncommon"
-			},
-			"Magic staff": {
-				"1": "Rare"
-			},
-			"Black longsword": {
-				"1": "Rare"
-			},
-			"Off-hand black longsword": {
-				"1": "Rare"
-			},
-			"Sapphire ring": {
-				"1": "Uncommon"
-			},
-			"Strength potion (3)": {
-				"1": "Uncommon"
+			"Medium plated iron salvage": {
+				"1": "8/128"
 			},
 			"Small plated bronze salvage": {
-				"1": "Uncommon"
+				"1": "5/128"
 			},
 			"Medium plated bronze salvage": {
-				"1": "Uncommon"
-			},
-			"Small bladed iron salvage": {
-				"1": "Uncommon"
-			},
-			"Medium bladed iron salvage": {
-				"1": "Uncommon"
+				"1": "5/128"
 			},
 			"Medium blunt iron salvage": {
-				"1": "Uncommon"
-			},
-			"Medium plated iron salvage": {
-				"1": "Common"
+				"1": "5/128"
 			},
 			"Tiny spiky steel salvage": {
-				"1": "Uncommon"
-			},
-			"Tiny bladed steel salvage": {
-				"1": "Uncommon"
+				"1": "5/128",
+				"6 (noted)": "5/128"
 			},
 			"Medium spiky steel salvage": {
-				"1": "Uncommon"
+				"1": "5/128"
 			},
-			"Small plated steel salvage": {
-				"1": "Rare"
+			"Medium bladed iron salvage": {
+				"1": "3/128"
 			},
 			"Medium plated steel salvage": {
-				"1": "Rare"
+				"1": "3/128"
 			},
-			"Large plated steel salvage": {
-				"1": "Uncommon"
+			"Small bladed steel salvage": {
+				"1": "2/128"
+			},
+			"Tiny bladed steel salvage": {
+				"1": "2/128"
 			},
 			"Tiny blunt mithril salvage": {
-				"1": "Uncommon"
+				"1": "2/128"
+			},
+			"Small plated steel salvage": {
+				"1": "1/128"
 			},
 			"Tiny plated mithril salvage": {
-				"1": "Rare"
+				"1": "1/128"
 			},
 			"Small plated mithril salvage": {
-				"1": "Rare"
+				"1": "1/128"
 			},
 			"Medium bladed adamant salvage": {
-				"1": "Rare"
+				"1": "1/128"
 			},
-			"Small bladed rune salvage": {
-				"1": "Rare"
+			"Medium bladed rune salvage": {
+				"1": "1/128"
 			},
-			"Knife": {
-				"1": "Uncommon"
+			"Shortbow": {
+				"1": "3/128"
 			},
-			"Steel nails": {
-				"12": "Uncommon"
+			"Magic staff": {
+				"1": "1/128"
 			},
-			"Steel studs": {
-				"6": "Uncommon"
+			"Black longsword": {
+				"1": "1/256"
 			},
-			"Gold stone spirit": {
-				"1": "Uncommon"
+			"Off-hand black longsword": {
+				"1": "1/256"
 			},
-			"Adamantite stone spirit": {
-				"1": "Uncommon"
+			"Blood rune": {
+				"3": "3/128"
 			},
-			"White candle": {
-				"1": "Uncommon"
+			"Steel arrow": {
+				"11": "2/128"
+			},
+			"Steel bolts (p)": {
+				"2": "3/128"
+			},
+			"Silver bolts": {
+				"5": "6/128"
+			},
+			"Adamant arrow": {
+				"4": "2/128"
 			},
 			"Grimy guam": {
-				"1": "Rare"
-			},
-			"Grimy tarromin": {
-				"1": "Rare"
+				"1": "1/102.4"
 			},
 			"Grimy marrentill": {
-				"1": "Rare"
+				"1": "1/136.5"
+			},
+			"Grimy tarromin": {
+				"1": "1/182"
 			},
 			"Grimy harralander": {
-				"1": "Very rare"
+				"1": "1/234.1"
 			},
 			"Grimy ranarr": {
-				"1": "Very rare"
+				"1": "1/297.9"
 			},
 			"Grimy irit": {
-				"1": "Very rare"
+				"1": "1/409.6"
 			},
 			"Grimy avantoe": {
-				"1": "Very rare"
+				"1": "1/546.1"
 			},
 			"Grimy kwuarm": {
-				"1": "Very rare"
+				"1": "1/655.4"
 			},
-			"Grimy cadantine": {
-				"1": "Very rare"
+			"Grimy cadentine": {
+				"1": "1/819.2"
 			},
 			"Grimy lantadyme": {
-				"1": "Very rare"
+				"1": "1/1092.3"
 			},
 			"Grimy dwarf weed": {
-				"1": "Very rare"
+				"1": "1/1092.3"
+			},
+			"Coins": {
+				"17": "5/128",
+				"41": "5/128",
+				"142": "5/128",
+				"206": "3/128",
+				"106": "2/128",
+				"323": "1/128"
+			},
+			"Steel nails": {
+				"12": "5/128"
+			},
+			"White candle": {
+				"1": "5/128"
+			},
+			"Strength potion (3)": {
+				"1": "5/128"
+			},
+			"Knife": {
+				"1": "3/128"
+			},
+			"Gold stone spirit": {
+				"1": "2/128"
+			},
+			"Adamantite stone spirit": {
+				"1": "2/128"
+			},
+			"Sapphire ring": {
+				"1": "2/128"
 			},
 			"Sealed clue scroll (medium)": {
 				"1": "1/128"
+			},
+			"Long bone": {
+				"1": "1/400"
+			},
+			"Curved bone": {
+				"1": "1/5000"
 			},
 			"Skeleton Champion's scroll": {
 				"1": "1/5000"
@@ -210366,45 +210999,56 @@
 		"Jungle spider": {
 			"Spider carcass": {
 				"1": "Always"
+			}
+		},
+		"Jungle spider#Jade Vine Maze": {
+			"Spider carcass": {
+				"1": "Always"
+			},
+			"Black dagger": {
+				"3": "1/256"
+			},
+			"Off-hand black dagger": {
+				"3": "1/256"
 			},
 			"Spider egg (unchecked)": {
 				"1": "Very rare"
 			},
 			"Grimy guam": {
-				"1": "Common"
+				"1": "1/51"
 			},
 			"Grimy marrentill": {
-				"1": "Common"
+				"1": "1/68.3"
 			},
 			"Grimy tarromin": {
-				"1": "Common"
+				"1": "1/91"
 			},
 			"Grimy harralander": {
-				"1": "Uncommon"
+				"1": "1/117"
 			},
 			"Grimy ranarr": {
-				"1": "Uncommon"
+				"1": "1/148.9"
 			},
 			"Grimy irit": {
-				"1": "Uncommon"
+				"1": "1/204.8"
 			},
 			"Grimy avantoe": {
-				"1": "Uncommon"
+				"1": "1/273.1"
 			},
 			"Grimy kwuarm": {
-				"1": "Rare"
+				"1": "1/327.7"
 			},
 			"Grimy cadantine": {
-				"1": "Rare"
+				"1": "1/409.6"
 			},
 			"Grimy lantadyme": {
-				"1": "Rare"
+				"1": "1/546.1"
 			},
 			"Grimy dwarf weed": {
-				"1": "Rare"
+				"1": "1/546.1"
 			},
 			"Earth rune": {
-				"13": "Unknown"
+				"13": "Uncommon"
 			},
 			"Steel bolts": {
 				"20": "Uncommon"
@@ -223354,348 +223998,471 @@
 				"1": "Always"
 			}
 		},
-		"Skeleton (Tarn's Lair)": {
+		"Skeleton (Tarn's Lair)#High Level": {
 			"Bones": {
 				"1": "Always"
 			},
-			"Coins": {
-				"6": "Common",
-				"12": "Common",
-				"17": "Common",
-				"39": "Common",
-				"41": "Common",
-				"53": "Common",
-				"61": "Common",
-				"84": "Common",
-				"89": "Common",
-				"98": "Common",
-				"100": "Common",
-				"106": "Common",
-				"112": "Common",
-				"126": "Common",
-				"142": "Common",
-				"181": "Common",
-				"184": "Common",
-				"206": "Common",
-				"323": "Common"
-			},
-			"Air rune": {
-				"9": "Uncommon"
-			},
-			"Law rune": {
-				"1": "Uncommon"
-			},
-			"Iron arrow": {
-				"14": "Uncommon"
-			},
-			"Mithril arrow": {
-				"7": "Uncommon"
-			},
-			"Adamant arrow": {
-				"2": "Uncommon",
-				"4": "Uncommon"
-			},
-			"Iron bolts": {
-				"7": "Uncommon"
-			},
-			"Iron dart": {
-				"2": "Uncommon",
-				"5": "Uncommon"
-			},
-			"Off-hand iron dart": {
-				"Unknown": "Uncommon"
-			},
-			"Leather vambraces": {
-				"1": "Uncommon"
-			},
-			"Leather body": {
-				"1": "Uncommon"
-			},
-			"Black longsword": {
-				"1": "Rare"
-			},
-			"Off-hand black longsword": {
-				"1": "Rare"
-			},
-			"Games necklace (2)": {
-				"1": "Uncommon"
-			},
-			"Tiny bladed bronze salvage": {
-				"1": "Uncommon"
-			},
-			"Tiny blunt bronze salvage": {
-				"1": "Uncommon"
-			},
-			"Huge plated bronze salvage": {
-				"1": "Uncommon"
-			},
-			"Tiny spiky iron salvage": {
-				"1": "Uncommon"
-			},
-			"Tiny bladed iron salvage": {
-				"1": "Uncommon"
-			},
-			"Tiny blunt iron salvage": {
-				"1": "Uncommon"
-			},
-			"Tiny plated iron salvage": {
-				"1": "Common"
-			},
-			"Medium spiky iron salvage": {
-				"1": "Uncommon"
-			},
-			"Medium blunt steel salvage": {
-				"1": "Uncommon"
-			},
-			"Huge plated steel salvage": {
-				"1": "Uncommon"
-			},
-			"Small bladed mithril salvage": {
-				"1": "Uncommon"
-			},
-			"Medium plated mithril salvage": {
-				"1": "Rare"
-			},
-			"Medium plated adamant salvage": {
-				"1": "Rare"
-			},
-			"Attack potion (3)": {
-				"1": "Uncommon"
-			},
-			"Antipoison (3)": {
-				"1": "Uncommon"
-			},
-			"Agility potion (2)": {
-				"1": "Uncommon"
-			},
-			"Weapon poison (4)": {
-				"1": "Rare"
-			},
-			"Arrow shaft": {
-				"12": "Uncommon"
-			},
-			"Amulet mould": {
-				"1": "Uncommon"
-			},
-			"Yew shieldbow (u)": {
-				"1": "Uncommon"
-			},
-			"Silver stone spirit": {
-				"2": "Uncommon"
-			},
-			"Gold stone spirit": {
-				"1": "Uncommon"
-			},
-			"Grimy guam": {
-				"1": "Rare"
-			},
-			"Grimy tarromin": {
-				"1": "Rare"
-			},
-			"Grimy marrentill": {
-				"1": "Rare"
-			},
-			"Grimy harralander": {
-				"1": "Very rare"
-			},
-			"Grimy ranarr": {
-				"1": "Very rare"
-			},
-			"Grimy irit": {
-				"1": "Very rare"
-			},
-			"Grimy avantoe": {
-				"1": "Very rare"
-			},
-			"Grimy kwuarm": {
-				"1": "Very rare"
-			},
-			"Grimy cadantine": {
-				"1": "Very rare"
-			},
-			"Grimy lantadyme": {
-				"1": "Very rare"
-			},
-			"Grimy dwarf weed": {
-				"1": "Very rare"
-			},
-			"Water rune": {
-				"4": "Uncommon"
-			},
-			"Astral rune": {
-				"2": "Uncommon"
-			},
-			"Steel arrow": {
-				"9": "Uncommon",
-				"11": "Uncommon"
-			},
-			"Bronze knife": {
-				"1": "Uncommon"
-			},
-			"Off-hand bronze knife": {
-				"1": "Uncommon"
-			},
-			"Cannonball": {
-				"6": "Uncommon"
-			},
-			"Oak shieldbow": {
-				"1": "Uncommon"
-			},
-			"Black warhammer": {
-				"1": "Rare"
-			},
-			"Off-hand black warhammer": {
-				"1": "Rare"
-			},
-			"Black kiteshield": {
-				"1": "Rare"
-			},
-			"Ring of duelling (3)": {
-				"1": "Uncommon"
-			},
-			"Unblessed symbol": {
-				"1": "Uncommon"
-			},
-			"Small bladed bronze salvage": {
-				"1": "Uncommon"
-			},
-			"Medium blunt iron salvage": {
-				"1": "Uncommon"
-			},
-			"Tiny blunt steel salvage": {
-				"1": "Uncommon"
-			},
-			"Small plated steel salvage": {
-				"1": "Rare"
-			},
-			"Medium plated steel salvage": {
-				"1": "Rare"
-			},
-			"Large bladed steel salvage": {
-				"1": "Uncommon"
-			},
-			"Tiny blunt mithril salvage": {
-				"1": "Uncommon"
-			},
-			"Large plated mithril salvage": {
-				"1": "Rare"
-			},
-			"Vial of water": {
-				"1": "Uncommon"
-			},
-			"Combat potion (3)": {
-				"1": "Uncommon"
-			},
-			"Fishing potion (1)": {
-				"1": "Uncommon"
-			},
-			"Bronze nails": {
-				"17": "Uncommon"
-			},
-			"Unpowered orb": {
-				"1": "Uncommon"
-			},
-			"Unstrung symbol": {
-				"1": "Uncommon"
-			},
-			"Iron stone spirit": {
-				"2": "Uncommon"
-			},
-			"Bullseye lantern (empty)": {
-				"1": "Uncommon"
-			},
-			"Unlit torch": {
-				"1": "Uncommon"
-			},
-			"Blood rune": {
-				"3": "Uncommon"
-			},
-			"Silver bolts": {
-				"5": "Uncommon"
-			},
-			"Steel bolts": {
-				"2": "Uncommon"
-			},
-			"Steel javelin": {
-				"2": "Uncommon"
-			},
-			"Shortbow": {
-				"1": "Uncommon"
-			},
-			"Magic staff": {
-				"1": "Rare"
-			},
-			"Sapphire ring": {
-				"1": "Uncommon"
+			"Medium plated iron salvage": {
+				"1": "8/128"
 			},
 			"Small plated bronze salvage": {
-				"1": "Uncommon"
+				"1": "5/128"
 			},
 			"Medium plated bronze salvage": {
-				"1": "Uncommon"
+				"1": "5/128"
 			},
-			"Small bladed iron salvage": {
-				"1": "Uncommon"
-			},
-			"Medium bladed iron salvage": {
-				"1": "Uncommon"
-			},
-			"Medium plated iron salvage": {
-				"1": "Common"
+			"Medium blunt iron salvage": {
+				"1": "5/128"
 			},
 			"Tiny spiky steel salvage": {
-				"1": "Uncommon"
-			},
-			"Tiny bladed steel salvage": {
-				"1": "Uncommon"
+				"1": "5/128",
+				"6 (noted)": "5/128"
 			},
 			"Medium spiky steel salvage": {
-				"1": "Uncommon"
+				"1": "5/128"
 			},
-			"Large plated steel salvage": {
-				"1": "Uncommon"
+			"Medium bladed iron salvage": {
+				"1": "3/128"
+			},
+			"Medium plated steel salvage": {
+				"1": "3/128"
+			},
+			"Small bladed steel salvage": {
+				"1": "2/128"
+			},
+			"Tiny bladed steel salvage": {
+				"1": "2/128"
+			},
+			"Tiny blunt mithril salvage": {
+				"1": "2/128"
+			},
+			"Small plated steel salvage": {
+				"1": "8/128"
 			},
 			"Tiny plated mithril salvage": {
-				"1": "Rare"
+				"1": "1/128"
 			},
 			"Small plated mithril salvage": {
-				"1": "Rare"
+				"1": "1/128"
 			},
 			"Medium bladed adamant salvage": {
-				"1": "Rare"
+				"1": "1/128"
 			},
-			"Small bladed rune salvage": {
-				"1": "Rare"
+			"Medium bladed rune salvage": {
+				"1": "1/128"
 			},
-			"Strength potion (3)": {
-				"1": "Uncommon"
+			"Shortbow": {
+				"1": "3/128"
 			},
-			"Knife": {
-				"1": "Uncommon"
+			"Magic staff": {
+				"1": "1/128"
+			},
+			"Black longsword": {
+				"1": "1/256"
+			},
+			"Off-hand black longsword": {
+				"1": "1/256"
+			},
+			"Blood rune": {
+				"3": "3/128"
+			},
+			"Steel arrow": {
+				"11": "2/128"
+			},
+			"Steel bolts (p)": {
+				"2": "3/128"
+			},
+			"Silver bolts": {
+				"5": "6/128"
+			},
+			"Adamant arrow": {
+				"4": "2/128"
+			},
+			"Grimy guam": {
+				"1": "1/102.4"
+			},
+			"Grimy marrentill": {
+				"1": "1/136.5"
+			},
+			"Grimy tarromin": {
+				"1": "1/182"
+			},
+			"Grimy harralander": {
+				"1": "1/234.1"
+			},
+			"Grimy ranarr": {
+				"1": "1/297.9"
+			},
+			"Grimy irit": {
+				"1": "1/409.6"
+			},
+			"Grimy avantoe": {
+				"1": "1/546.1"
+			},
+			"Grimy kwuarm": {
+				"1": "1/655.4"
+			},
+			"Grimy cadentine": {
+				"1": "1/819.2"
+			},
+			"Grimy lantadyme": {
+				"1": "1/1092.3"
+			},
+			"Grimy dwarf weed": {
+				"1": "1/1092.3"
+			},
+			"Coins": {
+				"17": "5/128",
+				"41": "5/128",
+				"142": "5/128",
+				"206": "3/128",
+				"106": "2/128",
+				"323": "1/128"
 			},
 			"Steel nails": {
-				"12": "Uncommon"
-			},
-			"Steel studs": {
-				"6": "Uncommon"
-			},
-			"Adamantite stone spirit": {
-				"1": "Uncommon"
+				"12": "5/128"
 			},
 			"White candle": {
-				"1": "Uncommon"
+				"1": "5/128"
+			},
+			"Strength potion (3)": {
+				"1": "5/128"
+			},
+			"Knife": {
+				"1": "3/128"
+			},
+			"Gold stone spirit": {
+				"1": "2/128"
+			},
+			"Adamantite stone spirit": {
+				"1": "2/128"
+			},
+			"Sapphire ring": {
+				"1": "2/128"
+			},
+			"Sealed clue scroll (medium)": {
+				"1": "1/128"
+			},
+			"Skeleton Champion's scroll": {
+				"1": "1/5000"
+			},
+			"Rare drop table": {
+				"1": "Rare"
+			}
+		},
+		"Skeleton (Tarn's Lair)#Low Level": {
+			"Bones": {
+				"1": "Always"
+			},
+			"Small plated steel salvage": {
+				"1": "8/128"
+			},
+			"Tiny bladed bronze salvage": {
+				"1": "5/128"
+			},
+			"Tiny blunt steel salvage": {
+				"1": "5/128"
+			},
+			"Medium bladed steel salvage": {
+				"1": "3/128"
+			},
+			"Small bladed bronze salvage": {
+				"1": "2/128"
+			},
+			"Medium blunt iron salvage": {
+				"1": "2/128"
+			},
+			"Medium plated steel salvage": {
+				"1": "2/128"
+			},
+			"Tiny blunt mithril salvage": {
+				"1": "2/128"
+			},
+			"Medium plated mithril salvage": {
+				"1": "1/128"
+			},
+			"Oak shieldbow": {
+				"1": "3/128"
+			},
+			"Bronze knife": {
+				"1": "5/128"
+			},
+			"Off-hand bronze knife": {
+				"1": "5/128"
+			},
+			"Iron dart": {
+				"1": "3/256"
+			},
+			"Off-hand iron dart": {
+				"1": "3/256"
+			},
+			"Black kiteshield": {
+				"1": "1/128"
+			},
+			"Black warhammer": {
+				"1": "1/256"
+			},
+			"Off-hand black warhammer": {
+				"1": "1/256"
+			},
+			"Water rune": {
+				"4": "5/128"
+			},
+			"Astral rune": {
+				"2": "3/128"
+			},
+			"Steel arrow": {
+				"9": "3/128"
+			},
+			"Cannonball": {
+				"6": "3/128"
+			},
+			"Grimy guam": {
+				"1": "1/256"
+			},
+			"Grimy marrentill": {
+				"1": "1/341"
+			},
+			"Grimy tarromin": {
+				"1": "1/455"
+			},
+			"Grimy harralander": {
+				"1": "1/585"
+			},
+			"Grimy ranarr": {
+				"1": "1/745"
+			},
+			"Grimy irit": {
+				"1": "1/1024"
+			},
+			"Grimy avantoe": {
+				"1": "1/1365"
+			},
+			"Grimy kwuarm": {
+				"1": "1/1638"
+			},
+			"Grimy cadentine": {
+				"1": "1/2048"
+			},
+			"Grimy lantadyme": {
+				"1": "1/2731"
+			},
+			"Grimy dwarf weed": {
+				"1": "1/2731"
+			},
+			"Coins": {
+				"39": "5/128",
+				"89": "5/128",
+				"100": "5/128",
+				"12": "3/128",
+				"53": "3/128",
+				"84": "2/128",
+				"181": "1/128"
+			},
+			"Bronze nails": {
+				"17": "5/128"
+			},
+			"Bullseye lantern (frame)": {
+				"1": "5/128"
+			},
+			"Combat potion (3)": {
+				"1": "5/128"
+			},
+			"Fishing potion (1)": {
+				"1": "5/128"
+			},
+			"Vial of water": {
+				"1": "5/128"
+			},
+			"Unblessed symbol": {
+				"1": "3/128"
+			},
+			"Unpowered orb": {
+				"1": "3/128"
+			},
+			"Gold stone spirit": {
+				"1": "2/128"
+			},
+			"Iron stone spirit": {
+				"1": "2/128"
+			},
+			"Ring of duelling (3)": {
+				"1": "2/128"
+			},
+			"Unlit torch": {
+				"1": "2/128"
+			},
+			"Unstrung symbol": {
+				"1": "2/128"
 			},
 			"Sealed clue scroll (easy)": {
+				"1": "1/128"
+			},
+			"Skeleton Champion's scroll": {
+				"1": "1/5000"
+			},
+			"Rare drop table": {
+				"1": "Rare"
+			}
+		},
+		"Skeleton (Tarn's Lair)#Mid Level": {
+			"Bones": {
+				"1": "Always"
+			},
+			"Tiny plated iron salvage": {
+				"1": "8/128"
+			},
+			"Tiny bladed bronze salvage": {
+				"1": "5/128"
+			},
+			"Tiny blunt bronze salvage": {
+				"1": "8/128"
+			},
+			"Medium spiky iron salvage": {
+				"1": "5/128"
+			},
+			"Tiny bladed iron salvage": {
+				"1": "3/128"
+			},
+			"Tiny spiky iron salvage": {
+				"1": "3/128"
+			},
+			"Huge plated bronze salvage": {
+				"1": "2/128"
+			},
+			"Tiny blunt iron salvage": {
+				"1": "2/128"
+			},
+			"Medium blunt steel salvage": {
+				"1": "2/128"
+			},
+			"Huge plated steel salvage": {
+				"1": "2/128"
+			},
+			"Small bladed mithril salvage": {
+				"1": "2/128"
+			},
+			"Medium plated mithril salvage": {
+				"1": "1/128"
+			},
+			"Medium plated adamant salvage": {
+				"1": "1/128"
+			},
+			"Leather body": {
+				"1": "3/128"
+			},
+			"Leather vambraces": {
+				"1": "3/128"
+			},
+			"Iron dart": {
+				"1": "3/256"
+			},
+			"Off-hand iron dart": {
+				"1": "3/256"
+			},
+			"Black longsword": {
+				"1": "1/256"
+			},
+			"Off-hand black longsword": {
+				"1": "1/256"
+			},
+			"Air rune": {
+				"9": "5/128"
+			},
+			"Law rune": {
+				"1": "3/128"
+			},
+			"Iron bolts": {
+				"7": "3/128"
+			},
+			"Mithril arrow": {
+				"7": "3/128"
+			},
+			"Adamant arrow": {
+				"2": "3/128"
+			},
+			"Iron arrow": {
+				"14": "2/128"
+			},
+			"Grimy guam": {
+				"1": "1/512"
+			},
+			"Grimy marrentill": {
+				"1": "1/682"
+			},
+			"Grimy tarromin": {
+				"1": "1/910"
+			},
+			"Grimy harralander": {
+				"1": "1/1170"
+			},
+			"Grimy ranarr": {
+				"1": "1/1490"
+			},
+			"Grimy irit": {
+				"1": "1/2048"
+			},
+			"Grimy avantoe": {
+				"1": "1/2730"
+			},
+			"Grimy kwuarm": {
+				"1": "1/3278"
+			},
+			"Grimy cadentine": {
+				"1": "1/4096"
+			},
+			"Grimy lantadyme": {
+				"1": "1/5461"
+			},
+			"Grimy dwarf weed": {
+				"1": "1/5461"
+			},
+			"Coins": {
+				"61": "5/128",
+				"112": "5/128",
+				"6": "5/128",
+				"98": "3/128",
+				"184": "2/128",
+				"126": "1/128"
+			},
+			"Arrow shaft": {
+				"11": "5/128"
+			},
+			"Amulet mould": {
+				"1": "5/128"
+			},
+			"Games necklace (2)": {
+				"12": "2/128"
+			},
+			"Yew shieldbow (unstrung)": {
+				"1": "3/128"
+			},
+			"Silver stone spirit": {
+				"2": "2/128"
+			},
+			"Gold stone spirit": {
+				"1": "2/128"
+			},
+			"Agility potion (2)": {
+				"1": "5/128"
+			},
+			"Antipoison (3)": {
+				"1": "5/128"
+			},
+			"Attack potion (3)": {
+				"1": "5/128"
+			},
+			"Weapon poison (3)": {
 				"1": "1/128"
 			},
 			"Sealed clue scroll (medium)": {
 				"1": "1/128"
 			},
-			"Starved ancient effigy": {
-				"1": "Varies"
-			},
 			"Skeleton Champion's scroll": {
 				"1": "1/5000"
+			},
+			"Rare drop table": {
+				"1": "Rare"
 			}
 		},
 		"Skeleton (Temple Trekking)": {
@@ -227875,6 +228642,33 @@
 			},
 			"Vial of water": {
 				"1": "Rare"
+			},
+			"Congealed blood": {
+				"2-7": "Uncommon"
+			},
+			"Ghost hunter goggles": {
+				"1": "1/2000"
+			},
+			"Ghost hunter body": {
+				"1": "1/2000"
+			},
+			"Ghost hunter legs": {
+				"1": "1/2000"
+			},
+			"Ghost hunter backpack": {
+				"1": "1/2000"
+			},
+			"Ectoplasmator": {
+				"1": "Very rare"
+			},
+			"Ghostly essence": {
+				"1": "Very rare"
+			},
+			"Cremation": {
+				"1": "1/1000"
+			},
+			"Deployable herb burner": {
+				"1": "1/5000"
 			},
 			"Rare drop table": {
 				"1": "Rare"
@@ -234046,9 +234840,6 @@
 			"Tiny plated rune salvage": {
 				"1": "Uncommon"
 			},
-			"Rune javelin": {
-				"1": "Uncommon"
-			},
 			"Grimy tarromin": {
 				"1": "Common"
 			},
@@ -234568,9 +235359,6 @@
 				"1": "Uncommon"
 			},
 			"Tiny plated rune salvage": {
-				"1": "Uncommon"
-			},
-			"Rune javelin": {
 				"1": "Uncommon"
 			},
 			"Grimy tarromin": {
@@ -235578,9 +236366,6 @@
 			"Tiny plated rune salvage": {
 				"1": "Uncommon"
 			},
-			"Rune javelin": {
-				"1": "Uncommon"
-			},
 			"Grimy tarromin": {
 				"1": "Common"
 			},
@@ -236402,113 +237187,420 @@
 				"1": "Always"
 			}
 		},
-		"Zombie (Tarn's Lair)": {
+		"Zombie (Tarn's Lair)#High Level": {
 			"Bones": {
 				"1": "Always"
 			},
 			"Coins": {
-				"17-473": "8/128"
+				"17": "Common",
+				"55": "Common",
+				"78": "Common",
+				"82": "Common",
+				"112": "Common",
+				"154": "Common",
+				"410": "Common"
 			},
-			"Steel nails": {
-				"6": "3/128"
+			"Mist rune": {
+				"3": "Uncommon"
 			},
-			"Steel arrow": {
-				"7": "2/128",
-				"11": "2/128"
+			"Lava rune": {
+				"8": "Uncommon"
 			},
-			"Water rune": {
-				"4": "4/128"
+			"Mind rune": {
+				"10": "Uncommon"
 			},
-			"Mud rune": {
-				"3": "5/128"
+			"Cosmic rune": {
+				"2": "Uncommon"
 			},
-			"Earth rune": {
-				"8": "1/256"
-			},
-			"Fire rune": {
-				"12": "1/128"
-			},
-			"Chaos rune": {
-				"6": "1/128"
-			},
-			"Iron stone spirit": {
-				"2": "5/128"
-			},
-			"Gold stone spirit": {
-				"3": "2/128"
-			},
-			"Medium plated steel salvage": {
-				"1": "7/128"
-			},
-			"Fishing potion (1)": {
-				"1": "5/128"
-			},
-			"Steel knife": {
-				"1": "4/128"
-			},
-			"Pot of flour": {
-				"1": "3/128"
-			},
-			"Pot lid": {
-				"1": "3/128"
-			},
-			"Bowl of water": {
-				"1": "3/128"
-			},
-			"Medium bladed bronze salvage": {
-				"1": "3/128"
-			},
-			"Cannonball": {
-				"3": "3/128"
-			},
-			"Tile": {
-				"1": "3/128"
-			},
-			"Unholy mould": {
-				"1": "3/128"
+			"Nature rune": {
+				"7": "Uncommon"
 			},
 			"Law rune": {
-				"2": "1/128",
-				"6": "1/128"
+				"6": "Uncommon"
 			},
-			"Oak plank": {
-				"1": "2/128"
+			"Bronze javelin": {
+				"4": "Uncommon"
 			},
-			"Plant pot (empty)": {
-				"1": "2/128"
+			"Adamant bolts": {
+				"7": "Rare"
 			},
-			"Staff of air": {
-				"1": "1/128"
+			"Leather gloves": {
+				"1": "Uncommon"
 			},
-			"Earth orb": {
-				"1": "1/128"
+			"Black hatchet": {
+				"1": "Rare"
+			},
+			"Black chainbody": {
+				"1": "Rare"
+			},
+			"Black sq shield": {
+				"1": "Rare"
+			},
+			"Dwellberries": {
+				"4 (noted)": "Uncommon"
+			},
+			"Pot of cream": {
+				"1": "Rare"
+			},
+			"Medium bladed bronze salvage": {
+				"1": "Uncommon"
+			},
+			"Medium plated bronze Rare": {
+				"1": "Uncommon"
+			},
+			"Medium blunt steel salvage": {
+				"1": "Uncommon"
+			},
+			"Medium plated steel salvage": {
+				"1": "Uncommon"
+			},
+			"Small spiky mithril salvage": {
+				"1": "Uncommon"
+			},
+			"Medium bladed mithril salvage": {
+				"1": "Uncommon"
+			},
+			"Tiny spiky adamant salvage": {
+				"1": "Rare"
+			},
+			"Medium spiky adamant salvage": {
+				"1": "Uncommon"
+			},
+			"Large bladed rune salvage": {
+				"1": "Rare"
+			},
+			"Adamantite stone spirit": {
+				"1": "Rare"
+			},
+			"Fishing bait": {
+				"7": "Uncommon"
+			},
+			"Hard leather": {
+				"2 (noted)": "Uncommon"
+			},
+			"Pestle and mortar": {
+				"1": "Uncommon"
+			},
+			"White berries": {
+				"1": "Uncommon"
+			},
+			"Black nails": {
+				"8": "Uncommon"
 			},
 			"Grimy guam": {
-				"1": "1/128"
+				"1": "Rare"
 			},
 			"Grimy tarromin": {
-				"1": "1/128"
-			},
-			"Grimy avantoe": {
-				"1": "1/256"
-			},
-			"Grimy ranarr": {
-				"1": "1/128"
-			},
-			"Medium blunt iron salvage": {
-				"1": "1/128"
-			},
-			"Small plated steel salvage": {
-				"1": "1/128"
-			},
-			"Tiny blunt steel salvage": {
-				"1": "1/128"
-			},
-			"Tiny spiky mithril salvage": {
-				"1": "2/128"
+				"1": "Rare"
 			},
 			"Grimy marrentill": {
-				"1": "1/256"
+				"1": "Rare"
+			},
+			"Grimy harralander": {
+				"1": "Rare"
+			},
+			"Grimy ranarr": {
+				"1": "Rare"
+			},
+			"Grimy irit": {
+				"1": "Very rare"
+			},
+			"Grimy avantoe": {
+				"1": "Very rare"
+			},
+			"Grimy kwuarm": {
+				"1": "Very rare"
+			},
+			"Grimy cadantine": {
+				"1": "Very rare"
+			},
+			"Grimy lantadyme": {
+				"1": "Very rare"
+			},
+			"Grimy dwarf weed": {
+				"1": "Very rare"
+			},
+			"Zombie bone": {
+				"1": "Common"
+			}
+		},
+		"Zombie (Tarn's Lair)#Low Level": {
+			"Bones": {
+				"1": "Always"
+			},
+			"Coins": {
+				"2": "Common",
+				"19": "Common",
+				"33": "Common",
+				"37": "Common",
+				"54": "Common",
+				"60": "Common",
+				"86": "Common",
+				"126": "Common"
+			},
+			"Water rune": {
+				"4": "Uncommon"
+			},
+			"Earth rune": {
+				"8": "Uncommon"
+			},
+			"Fire rune": {
+				"12": "Uncommon"
+			},
+			"Mud rune": {
+				"3": "Uncommon"
+			},
+			"Chaos rune": {
+				"6": "Uncommon"
+			},
+			"Law rune": {
+				"2": "Uncommon"
+			},
+			"Cannonball": {
+				"3": "Uncommon"
+			},
+			"Steel arrow": {
+				"7": "Uncommon"
+			},
+			"Steel knife": {
+				"1": "Uncommon"
+			},
+			"Off-hand steel knife": {
+				"1": "Uncommon"
+			},
+			"Staff of air": {
+				"1": "Uncommon"
+			},
+			"Fishing potion (1)": {
+				"1": "Uncommon"
+			},
+			"Medium bladed bronze salvage": {
+				"1": "Uncommon"
+			},
+			"Medium blunt iron salvage": {
+				"1": "Uncommon"
+			},
+			"Tiny blunt steel salvage": {
+				"1": "Uncommon"
+			},
+			"Small plated steel salvage": {
+				"1": "Uncommon"
+			},
+			"Medium plated steel salvage": {
+				"1": "Uncommon"
+			},
+			"Tiny spiky mithril salvage": {
+				"1": "Uncommon"
+			},
+			"Earth orb": {
+				"1": "Rare"
+			},
+			"Iron stone spirit": {
+				"2": "Uncommon"
+			},
+			"Gold stone spirit": {
+				"3": "Uncommon"
+			},
+			"Bowl of water": {
+				"1": "Uncommon"
+			},
+			"Plant pot (empty)": {
+				"1": "Uncommon"
+			},
+			"Pot of flour": {
+				"1": "Uncommon"
+			},
+			"Pot lid": {
+				"1": "Uncommon"
+			},
+			"Oak plank": {
+				"1": "Uncommon"
+			},
+			"Steel nails": {
+				"1": "Uncommon"
+			},
+			"Unholy mould": {
+				"1": "Uncommon"
+			},
+			"Tile": {
+				"1": "Uncommon"
+			},
+			"Grimy guam": {
+				"1": "Rare"
+			},
+			"Grimy tarromin": {
+				"1": "Rare"
+			},
+			"Grimy marrentill": {
+				"1": "Rare"
+			},
+			"Grimy harralander": {
+				"1": "Rare"
+			},
+			"Grimy ranarr": {
+				"1": "Rare"
+			},
+			"Grimy irit": {
+				"1": "Rare"
+			},
+			"Grimy avantoe": {
+				"1": "Rare"
+			},
+			"Grimy kwuarm": {
+				"1": "Rare"
+			},
+			"Grimy cadantine": {
+				"1": "Rare"
+			},
+			"Grimy lantadyme": {
+				"1": "Very rare"
+			},
+			"Grimy dwarf weed": {
+				"1": "Very rare"
+			},
+			"Zombie bone": {
+				"1": "Common"
+			}
+		},
+		"Zombie (Tarn's Lair)#Mid Level": {
+			"Bones": {
+				"1": "Always"
+			},
+			"Coins": {
+				"27": "Common",
+				"35": "Common",
+				"52": "Common",
+				"67": "Common",
+				"95": "Common",
+				"132": "Common",
+				"135": "Common",
+				"298": "Common"
+			},
+			"Death rune": {
+				"4": "Uncommon"
+			},
+			"Bronze throwing axe": {
+				"1": "Uncommon"
+			},
+			"Off-hand bronze throwing axe": {
+				"1": "Uncommon"
+			},
+			"Steel arrow": {
+				"11": "Uncommon"
+			},
+			"Steel dart": {
+				"3": "Uncommon"
+			},
+			"Off-hand steel dart": {
+				"3": "Uncommon"
+			},
+			"Willow shortbow": {
+				"1": "Uncommon"
+			},
+			"Leather boots": {
+				"1": "Uncommon"
+			},
+			"Gold necklace": {
+				"1": "Uncommon"
+			},
+			"Ring of duelling (3)": {
+				"1": "Uncommon"
+			},
+			"Cup of tea": {
+				"1": "Uncommon"
+			},
+			"Super ranging potion (3)": {
+				"1": "Uncommon"
+			},
+			"Small bladed steel salvage": {
+				"1": "Uncommon"
+			},
+			"Medium blunt steel salvage": {
+				"1": "Uncommon"
+			},
+			"Tiny spiky mithril salvage": {
+				"1": "Uncommon"
+			},
+			"Small plated mithril Rare": {
+				"1": "Uncommon"
+			},
+			"Medium plated mithril Rare": {
+				"1": "Uncommon"
+			},
+			"Small bladed adamant salvage": {
+				"1": "Uncommon"
+			},
+			"Medium plated adamant salvage": {
+				"1": "Rare"
+			},
+			"Medium blunt rune salvage": {
+				"1": "Rare"
+			},
+			"Fire orb": {
+				"1": "Uncommon"
+			},
+			"Pure essence": {
+				"14 (noted)": "Uncommon"
+			},
+			"Mithril stone spirit": {
+				"1": "Uncommon"
+			},
+			"Garlic": {
+				"1": "Rare"
+			},
+			"Knife": {
+				"1": "Cmmon"
+			},
+			"Magic logs": {
+				"1": "Uncommon"
+			},
+			"Tinderbox": {
+				"1": "Uncommon"
+			},
+			"Limestone brick": {
+				"2": "Uncommon"
+			},
+			"Rune nails": {
+				"3": "Uncommon"
+			},
+			"Holy mould": {
+				"1": "Uncommon"
+			},
+			"Grimy guam": {
+				"1": "Rare"
+			},
+			"Grimy tarromin": {
+				"1": "Rare"
+			},
+			"Grimy marrentill": {
+				"1": "Rare"
+			},
+			"Grimy harralander": {
+				"1": "Rare"
+			},
+			"Grimy ranarr": {
+				"1": "Rare"
+			},
+			"Grimy irit": {
+				"1": "Very rare"
+			},
+			"Grimy avantoe": {
+				"1": "Very rare"
+			},
+			"Grimy kwuarm": {
+				"1": "Very rare"
+			},
+			"Grimy cadantine": {
+				"1": "Very rare"
+			},
+			"Grimy lantadyme": {
+				"1": "Very rare"
+			},
+			"Grimy dwarf weed": {
+				"1": "Very rare"
+			},
+			"Zombie bone": {
+				"1": "Common"
 			}
 		},
 		"Zombie (The Shadow Reef)": {
@@ -238341,6 +239433,11 @@
 			"Ali's Discount Wares": {
 				"13106": [{
 					"~|The Feud|~ Complete the quest": "Quest"
+				}]
+			},
+			"Ak-Haranu's Exotic Shop": {
+				"14646": [{
+					"~|Ghosts Ahoy|~ 4": "Quest"
 				}]
 			},
 			"Archaeology Guild Shop": {
@@ -243752,7 +244849,8 @@
 			"Law altar teleport": true,
 			"Death altar teleport": true,
 			"Blood altar teleport": true,
-			"Wicked hood teleport token": true
+			"Wicked hood teleport token": true,
+			"Hungry hood": true
 		},
 		"Wydin's Food Store": {
 			"Pot of flour": true,
@@ -250174,58 +251272,55 @@
 			},
 			"Crystal impling": {
 				"Tooth half of a key": {
-					"1": "Common"
+					"1": "70/500"
 				},
 				"Loop half of a key": {
-					"1": "Common"
-				},
-				"Crystal weapon seed": {
-					"1": "Uncommon"
+					"1": "70/500"
 				},
 				"Crystal tool seed": {
-					"1": "Uncommon"
+					"1": "15/500"
 				},
 				"Crystal seed": {
-					"1": "Uncommon"
+					"1": "15/500"
 				},
 				"Super restore (4)": {
-					"8 (noted)": "Uncommon"
+					"8 (noted)": "40/500"
 				},
 				"Prayer potion (4)": {
-					"8 (noted)": "Uncommon"
+					"8 (noted)": "40/500"
 				},
 				"Uncut diamond": {
-					"10 (noted)": "Uncommon"
+					"10 (noted)": "25/500"
 				},
 				"Uncut dragonstone": {
-					"4 (noted)": "Uncommon"
+					"4 (noted)": "40/500"
 				},
 				"Elder seed": {
-					"1": "Uncommon"
+					"1": "5/500"
 				},
 				"Magic seed": {
-					"1": "Uncommon"
+					"1": "10/500"
 				},
 				"Lantadyme seed": {
-					"2": "Uncommon"
+					"2": "15/500"
 				},
 				"Torstol seed": {
-					"1-2": "Uncommon"
+					"2": "40/500"
 				},
 				"Magic logs": {
-					"30 (noted)": "Uncommon"
+					"30 (noted)": "60/500"
 				},
 				"Coconut": {
-					"20 (noted)": "Uncommon"
+					"20 (noted)": "30/500"
 				},
 				"Onyx bolt tips": {
-					"16": "Uncommon"
+					"16": "10/500"
 				},
 				"Golden rock": {
-					"1": "Uncommon"
+					"1": "10/500"
 				},
 				"Crystal acorn": {
-					"1": "Rare"
+					"1": "3/500"
 				},
 				"Thinker boots": {
 					"1": "1/500"
@@ -250234,13 +251329,13 @@
 					"1": "1/500"
 				},
 				"Crystal triskelion fragment 1": {
-					"1": "Very rare"
+					"1": "1/500"
 				},
 				"Crystal triskelion fragment 2": {
-					"1": "Very rare"
+					"1": "1/500"
 				},
 				"Crystal triskelion fragment 3": {
-					"1": "Very rare"
+					"1": "1/500"
 				}
 			},
 			"Malletops": {
@@ -268852,7 +269947,7 @@
 			"Zamorak mix (2)": true
 		}
 	},
-	"walkableChunks": ["7472", "7473", "7474", "7727", "7728", "7729", "7730", "7984", "7985", "7986", "7995", "8244", "8252", "8253", "8493", "8496", "8497", "8498", "8499", "8500", "8501", "8508", "8509", "8748", "8749", "8751", " 8752", "8753", "8754", "8755", "8756", "8757", "8760", "8761", "8763", "9005", "9007", "9008", "9009", "9010", "9011", "9012", "9013", "9014", "9015", "9016", "9017", "9263", "9264", "9265", "9266", "9267", "9268", "9269","9270", "9271", "9272", "9273", "9275", "9276", "9515", "9516", "9517", "9519", "9520", "9521", "9522", "9523", "9524", "9525", "9526", "9527", "9528", "9531", "9532", "9769", "9770", "9711", "9722", "9773", "9774", "9775", "9776", "9777", "9778", "9779", "9780", "9781", "9782", "9783", "9790", "9791", "10025", "10026", "10027", "10028", "10029", "10030", "10031", "10032", "10033", "10034", "10035", "10036", "10037", "10038", "10039", " 10040", "10042", "10043", "10044", "10046", "10047", "10284", "10285", "10286", "10287", "10288", "10289", "10290", "10291", "10292", "10293", "10294", "10295", "10296", "10297", "10300", "10536", "10537", "10542", "10543", "10544", "10545", "10546", "10547", "10548", "10549", "10550", "10551", "10552", "10553", "10554", "10556", "10558", "10559", "10794", "10795", "10801", "10802", "10803", "10804", "10805", "10806", "10807", "10808", "10809", "10810", "10811", "10812", "10814", "11050", "11051", "11053", "11054", "11055", "11056", "11057", "11058", "11059", "11060", "11061", "11062", "11063", "11064", "11065", "11066", "11067", "11068", "11304", "11309", "11310", "11311", "11312", "11313", "11314", "11315", "11316", "11317", "11318", "11319", "11320", "11321", "11322", "11323", "11324", "11325", "11562", "11565", "11566", "11567", "11568", "11569", "11570", "11571", "11572", "11573", "11574", "11575", "11576", "11577", "11578", "11579", "11580", "11581", "11821", "11822", "11823", "11824", "11825", "11826", "11827", "11828", "11829", "11830", "11831", "11832", "11833", "11834", "11835", "11836", "11837", "12073", "12076", "12077", "12078", "12081", "12082", "12083", "12084", "12085", "12086", "12087", "12088", "12089", "12090", "12091", "12092", "12093", "12329", "12330", "12331", "12332", "12333", "12334", "12335", "12336", "12337", "12338", "12339", "12340", "12341", "12342", "12343", "12344", "12345", "12346", "12347", "12348", "12349", "12584", "12585", "12586", "12587", "12588", "12589", "12590", "12591", "12592", "12593", "12594", "12595", "12596", "12597", "12598", "12599", "12600", "12601", "12602", "12603", "12604", "12605", "12840", "12841", "12842", "12843", "12845", "12846", "12847", "12848", "12849", "12850", "12851", "12852", "12853", "12854", "12855", "12856", "12857", "12858", "12859", "12860", "12861", "13097", "13098", "13099", "13100", "13101", "13102", "13103", "13104", "13105", "13106", "13107", "13108", "13109", "13110", "13111", "13112", "13113", "13114", "13115", "13116", "13117", "13353", "13354", "13355", "13356", "13357", "13358", "13359", "13360", "13361", "13362", "13363", "13364", "13365", "13366", "13367 ", "13368", "13369", "13370", "13371", "13372", "13373", "13610", "13611", "13612", "13613", "13614", "13615", "13616", "13617", "13618", "13619", "13620", "13621", "13622", "13623", "13624", "13625", "13626", "13627", "13869", "13870", "13871", "13872", "13873", "13874", "13875", "13876", "13877", "13878", "13879", "13880", "13881", "13882", "13883", "14129", "14130", "14131", "14132", "14133", "14134", "14135", "14382", "14383", "14385", "14386", "14387", "14388", "14389", "14390", "14391", "14637", "14638", "14639", " 14641", "14642", "14643", "14644", "14645", "14646", "14647", "14659", "14660", "14893", "14894", "14895", "14896", "14897", "14898", "14899", "14915", "14916", "15148", "15149", "15150", "15151", "15153", "15154", "15155", "15159", "151568", "15169", "15170", "15171", "15172", "15173", "15423", "15424", "15425", "15426", "15427", "15428", "15429", "15430", "15679", "15680", "15681", "15682", "15683", "15684", "15685", "15686", "15935", "15936", "15937", "15938", "15939", "15940", "15941", "15942", "15943", "16192", "15193", "16194", "16195", "16196", "16197", "16198", "16199", "16447", "16448", "16449", "16450", "16451", "16452", "16453", "16454", "16455", "16703", "16704", "16705", "16706", "16707", "16708", "16709", "16710", "16960", "16961", "16962", "16963", "16964", "16965", "16966"],
+	"walkableChunks": ["7472", "7473", "7474", "7727", "7728", "7729", "7730", "7984", "7985", "7986", "7995", "8252", "8253", "8493", "8496", "8497", "8498", "8499", "8500", "8501", "8508", "8509", "8748", "8749", "8751", " 8752", "8753", "8754", "8755", "8756", "8757", "8760", "8761", "8763", "9001", "9005", "9007", "9008", "9009", "9010", "9011", "9012", "9013", "9014", "9015", "9016", "9017", "9263", "9264", "9265", "9266", "9267", "9268", "9269","9270", "9271", "9272", "9273", "9275", "9276", "9278", "9279", "9515", "9516", "9517", "9519", "9520", "9521", "9522", "9523", "9524", "9525", "9526", "9527", "9528", "9531", "9532", "9769", "9770", "9771", "9722", "9773", "9774", "9775", "9776", "9777", "9778", "9779", "9780", "9781", "9782", "9783", "9790", "9791", "10025", "10026", "10028", "10029", "10030", "10031", "10032", "10033", "10034", "10035", "10036", "10037", "10038", "10039", " 10040", "10042", "10043", "10044", "10046", "10047", "10284", "10285", "10286", "10287", "10288", "10289", "10290", "10291", "10292", "10293", "10294", "10295", "10296", "10297", "10300", "10536", "10537", "10542", "10543", "10544", "10545", "10546", "10547", "10548", "10549", "10550", "10551", "10552", "10553", "10554", "10556", "10558", "10559", "10794", "10795", "10801", "10802", "10803", "10804", "10805", "10806", "10807", "10808", "10809", "10810", "10811", "10812", "10814", "11050", "11051", "11053", "11054", "11055", "11056", "11057", "11058", "11059", "11060", "11061", "11062", "11063", "11064", "11065", "11066", "11067", "11068", "11304", "11309", "11310", "11311", "11312", "11313", "11314", "11315", "11316", "11317", "11318", "11319", "11320", "11321", "11322", "11323", "11324", "11325", "11562", "11565", "11566", "11567", "11568", "11569", "11570", "11571", "11572", "11573", "11574", "11575", "11576", "11577", "11578", "11579", "11580", "11581", "11821", "11822", "11823", "11824", "11825", "11826", "11827", "11828", "11829", "11830", "11831", "11832", "11833", "11834", "11835", "11836", "11837", "12073", "12076", "12077", "12078", "12080", "12081", "12082", "12083", "12084", "12085", "12086", "12087", "12088", "12089", "12090", "12091", "12092", "12093", "12329", "12330", "12331", "12332", "12333", "12334", "12335", "12336", "12337", "12338", "12339", "12340", "12341", "12342", "12343", "12344", "12345", "12346", "12347", "12348", "12349", "12584", "12585", "12586", "12587", "12588", "12589", "12590", "12591", "12592", "12593", "12594", "12595", "12596", "12597", "12598", "12599", "12600", "12601", "12602", "12603", "12604", "12605", "12840", "12841", "12842", "12843", "12845", "12846", "12847", "12848", "12849", "12850", "12851", "12852", "12853", "12854", "12855", "12856", "12857", "12858", "12859", "12860", "12861", "13097", "13098", "13099", "13100", "13101", "13102", "13103", "13104", "13105", "13106", "13107", "13108", "13109", "13110", "13111", "13112", "13113", "13114", "13115", "13116", "13117", "13118", "13353", "13354", "13355", "13356", "13357", "13358", "13359", "13360", "13361", "13362", "13363", "13364", "13365", "13366", "13367 ", "13368", "13369", "13370", "13371", "13372", "13373", "13374", "13610", "13611", "13612", "13613", "13614", "13615", "13616", "13617", "13618", "13619", "13620", "13621", "13622", "13623", "13624", "13625", "13626", "13627", "13629", "13630", "13869", "13870", "13871", "13872", "13873", "13874", "13875", "13876", "13877", "13878", "13879", "13880", "13881", "13882", "13883", "14129", "14130", "14131", "14132", "14133", "14134", "14135", "14382", "14383", "14385", "14386", "14387", "14388", "14389", "14390", "14391", "14637", "14638", "14639", " 14641", "14642", "14643", "14644", "14645", "14646", "14647", "14659", "14660", "14893", "14894", "14895", "14896", "14897", "14898", "14899", "14915", "14916", "15148", "15149", "15150", "15151", "15153", "15154", "15155", "15159", "15168", "15169", "15170", "15171", "15172", "15173", "15423", "15424", "15425", "15426", "15427", "15428", "15429", "15430", "15679", "15680", "15681", "15682", "15683", "15684", "15685", "15686", "15935", "15936", "15937", "15938", "15939", "15940", "15941", "15942", "15943", "16192", "15193", "16194", "16195", "16196", "16197", "16198", "16199", "16447", "16448", "16449", "16450", "16451", "16452", "16453", "16454", "16455", "16703", "16704", "16705", "16706", "16707", "16708", "16709", "16710", "16960", "16961", "16962", "16963", "16964", "16965", "16966"],
 	"walkableChunksF2P": ["6769", "9770", "10025", "10026", "11313", "11314", "11315", "11317", "11318", "11319", "11320", "11569", "11570", "11571", "11572", "11573", "11574", "11575", "11824", "11825", "11826", "11827", "11828", "11829", "11830", "11831", "11832", "11833", "11834", "11835", "11836", "11837", "12080", "12081", "12082", "12083", "12084", "12085", "12086", "12087", "12088", "12089", "12090", "12091", "12092", "12093", "12336", "12337", "12338", "12339", "12340", "12341", "12342", "12343", "12344", "12345", "12346", "12347", "12348", "12349", "12592", "12593", "12594", "12595", "12596", "12597", "12598", "12599", "12600", "12601", "12602", "12603", "12604", "12605", "12849", "12850", "12851", "12852", "12853", "12854", "12855", "12856", "12857", "12858", "12859", "12860", "12861", "13104", "13105", "13106", "13107", "13108", "13109", "13110", "13111", "13112", "13113", "13114", "13115", "13116", "13117", "13360", "13361", "13362", "13363", "13364", "13365", "13366", "13367", "13368", "13369", "13370", "13371", "13372", "13373", "13617", "13618", "13619", "13620", "13622", "13624", "13625", "13626", "13627", "13880", "13881", "13882", "13883"],
 	"unnotingChunks": ["8253", "8500", "8748", "8755", "8756", "8757", "9011", "9015", "9265", "9273", "9275", "9516", "9531", "9776", "9781", "9782", "10028", "10039", "10288", "10292", "10293", "10300", "10537", "10545", "10547", "10548", "10804", "10806", "11061", "11310", "11317", "11319", "11575", "11827", "11828", "11834", "11836", "12084", "12088", "12089", "12335", "12338", "12342", "12347", "12586", "12593", "12594", "12597", "12598", "12841", "12843", "12850", "12852", "12853", "12854", "12856", "12860", "13104", "13105", "13111", "13363", "13364", "13372", "13613", "13626", "13874", "13878", "14388", "14638", "14642", "14646", "15939", "Dominion Tower", "Sophanem Dungeon", "Dorgesh-Kaan", "Mage arena cave", "War's Retreat", "Mazcab", "Gamers' Grotto", "The Arc", "Invention Guild", "TzHaar City", "Keldagrim", "Ourania Cave", "City of Um"],
 	"rollingChunks": {},
@@ -291572,6 +292667,46 @@
 			"prayer": 7,
 			"accuracy": 0
 		},
+		"Eternal magic orb (meagre)": {
+			"ranged": 0,
+			"strength": 0,
+			"prayer": 0,
+			"style": "spell-casting",
+			"ability_damage": 408,
+			"magic": 0,
+			"slot": "off hand weapon",
+			"requirements": {
+				"Magic": 85
+			},
+			"armour": 0,
+			"damage": 0,
+			"speed": 3,
+			"tier": 85,
+			"lp": 0,
+			"attack_range": 8,
+			"class": "magic",
+			"accuracy": 2178
+		},
+		"Eternal magic orb (saturated)": {
+			"ranged": 0,
+			"strength": 0,
+			"prayer": 0,
+			"style": "spell-casting",
+			"ability_damage": 432,
+			"magic": 0,
+			"slot": "off hand weapon",
+			"requirements": {
+				"Magic": 99
+			},
+			"armour": 0,
+			"damage": 0,
+			"speed": 3,
+			"tier": 90,
+			"lp": 0,
+			"attack_range": 8,
+			"class": "magic",
+			"accuracy": 2458
+		},
 		"Eternal magic shortbow": {
 			"ranged": 0,
 			"slot": "2h weapon",
@@ -291610,6 +292745,86 @@
 			"lp": 0,
 			"attack_range": 8,
 			"class": "ranged",
+			"accuracy": 2458
+		},
+		"Eternal magic staff (meagre)": {
+			"ranged": 0,
+			"strength": 0,
+			"prayer": 0,
+			"style": "spell-casting",
+			"ability_damage": 1224,
+			"magic": 0,
+			"slot": "2h weapon",
+			"requirements": {
+				"Magic": 85
+			},
+			"armour": 0,
+			"damage": 0,
+			"speed": 5,
+			"tier": 85,
+			"lp": 0,
+			"attack_range": 8,
+			"class": "magic",
+			"accuracy": 2178
+		},
+		"Eternal magic staff (saturated)": {
+			"ranged": 0,
+			"strength": 0,
+			"prayer": 0,
+			"style": "spell-casting",
+			"ability_damage": 1296,
+			"magic": 0,
+			"slot": "2h weapon",
+			"requirements": {
+				"Magic": 99
+			},
+			"armour": 0,
+			"damage": 0,
+			"speed": 5,
+			"tier": 90,
+			"lp": 0,
+			"attack_range": 8,
+			"class": "magic",
+			"accuracy": 2458
+		},
+		"Eternal magic wand (meagre)": {
+			"ranged": 0,
+			"strength": 0,
+			"prayer": 0,
+			"style": "spell-casting",
+			"ability_damage": 816,
+			"magic": 0,
+			"slot": "main hand weapon",
+			"requirements": {
+				"Magic": 85
+			},
+			"armour": 0,
+			"damage": 0,
+			"speed": 5,
+			"tier": 85,
+			"lp": 0,
+			"attack_range": 8,
+			"class": "magic",
+			"accuracy": 2178
+		},
+		"Eternal magic wand (saturated)": {
+			"ranged": 0,
+			"strength": 0,
+			"prayer": 0,
+			"style": "spell-casting",
+			"ability_damage": 864,
+			"magic": 0,
+			"slot": "main hand weapon",
+			"requirements": {
+				"Magic": 99
+			},
+			"armour": 0,
+			"damage": 0,
+			"speed": 5,
+			"tier": 90,
+			"lp": 0,
+			"attack_range": 8,
+			"class": "magic",
 			"accuracy": 2458
 		},
 		"Eva's longsword": {
@@ -301036,6 +302251,26 @@
 			"class": "melee",
 			"accuracy": 2577,
 			"auto_damage": 2056.2
+		},
+		"Masterwork staff": {
+			"ranged": 0,
+			"strength": 0,
+			"prayer": 0,
+			"style": "spell-casting",
+			"ability_damage": 1440,
+			"magic": 0,
+			"slot": "2h weapon",
+			"requirements": {
+				"Magic": 99
+			},
+			"armour": 0,
+			"damage": 0,
+			"speed": 4,
+			"tier": 100,
+			"lp": 0,
+			"attack_range": 8,
+			"class": "magic",
+			"accuracy": 3100
 		},
 		"Masterwork boots": {
 			"ranged": 0,
