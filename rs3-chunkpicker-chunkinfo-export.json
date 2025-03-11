@@ -59835,13 +59835,20 @@
 				"Primary": true,
 				"Priority": 2
 			},
+			"Gain the ability to buy the ~|hungry hood|~": {
+				"Chunks": ["The Runespan", "12337"],
+				"Level": 105,
+				"Primary": true,
+				"NoBoost": true,
+				"Priority": 1
+			},
 			"Create a ~|shielded pouch exterior|~": {
 				"Chunks": ["RuneTemple[+]"],
 				"Items": ["Sign of runic protection*", "Royal dragon leather*", "Dinosaur leather*", "Felt*"],
 				"Level": 105,
 				"Output": "Shielded pouch exterior",
 				"Primary": true,
-				"Priority": 1
+				"Priority": 2
 			},
 			"Create an ~|expansive pouch cord|~": {
 				"Chunks": ["RuneTemple[+]"],
@@ -59849,7 +59856,7 @@
 				"Level": 105,
 				"Output": "Expansive pouch cord",
 				"Primary": true,
-				"Priority": 2
+				"Priority": 3
 			},
 			"Create a ~|sealed expansive pouch|~": {
 				"Chunks": ["RuneTemple[+]"],
@@ -59857,7 +59864,7 @@
 				"Level": 105,
 				"Output": "Sealed expansive pouch",
 				"Primary": true,
-				"Priority": 3
+				"Priority": 4
 			},
 			"Obtain an ~|abyssal runic synapse|~ by runecrafting through the abyss": {
 				"Chunks": ["RuneTemple[+]", "The Abyss"],
@@ -68579,19 +68586,19 @@
 				"Priority": 2
 			},
 			"Lockpick the door to a ~|10-coins chest|~": {
-				"Level": 1,
+				"Level": 13,
 				"Chunks": ["10547"],
 				"Primary": true,
 				"Priority": 5
 			},
 			"Lockpick the door to a ~|nature-rune chest|~": {
-				"Level": 14,
+				"Level": 16,
 				"Chunks": ["10547"],
 				"Primary": true,
 				"Priority": 1
 			},
 			"Lockpick the door to an ~|Ardougne house|~": {
-				"Level": 14,
+				"Level": 16,
 				"Chunks": ["10547"],
 				"Primary": true,
 				"Priority": 2
@@ -166571,7 +166578,7 @@
 				"Odovacar": 1
 			},
 			"Monster": {
-				"Giant skeleton (Tarn's Lair": 2,
+				"Giant skeleton (Tarn's Lair)": 2,
 				"Skeleton (Tarn's Lair)#High Level": 8,
 				"Skeleton (Tarn's Lair)#Mid Level": 8,
 				"Skeleton (Tarn's Lair)#Low Level": 8,
@@ -180437,7 +180444,7 @@
 			"RitualSite[+]": ["City of Um", "Ungael ritual site"],
 			"RockCrabChunks[+]": ["10810", "10042"],
 			"RubyAnachronia[+]": ["15428", "15427", "15171", "15172"],
-			"RuneTemple[+]": ["Air Rune Temple", "Mind Rune Temple", "Water Rune Temple", "Earth Rune Temple", "Fire Rune Temple", "Body Rune Temple", "Cosmic Rune Temple", "Chaos Rune Temple", "Astral Rune Temple", "Nature Rune Temple", "Law Rune Temple", "Death Rune Temple", "Blood Rune Temple", "Soul Rune Temple", "Time Rune Temple"],
+			"RuneTemple[+]": ["Air Rune Temple", "Mind Rune Temple", "Water Rune Temple", "Earth Rune Temple", "Fire Rune Temple", "Body Rune Temple", "Cosmic Rune Temple", "Chaos Rune Temple", "8508", "Nature Rune Temple", "Law Rune Temple", "Death Rune Temple", "Blood Rune Temple", "Soul Rune Temple", "Time Rune Temple"],
 			"SeaweedChunks[+]": ["11313", "11056", "11055", "11054", "11822", "11310", "11823", "11568"],
 			"SeerChunk[+]": ["10806", "11062"],
 			"SenntistenChunks[+]": ["13364", "13365"],
@@ -238390,6 +238397,9 @@
 			}],
 			"Frying pan": [{
 				"RecipeSub[+]x4": "Quest"
+			}],
+			"Hungry hood^": [{
+				"Gain the ability to buy the ~|hungry hood|~": "Runecrafting"
 			}],
 			"Kitchen knife": [{
 				"RecipeSub[+]x7": "Quest"
