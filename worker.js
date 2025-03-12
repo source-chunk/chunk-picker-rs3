@@ -167,7 +167,6 @@ let diaryProgress = {};
 let skillQuestXp = {};
 let kudosTotal = 0;
 let possibleSkillTotal = 0;
-let randomLoot;
 let magicTools;
 let bossLogs;
 let bossMonsters;
@@ -232,7 +231,6 @@ onmessage = function(e) {
             highestCurrent,
             dropTables,
             possibleAreas,
-            randomLoot,
             magicTools,
             bossLogs,
             bossMonsters,
@@ -8857,14 +8855,7 @@ let gatherChunksInfo = function(chunksIn) {
     let monsters = {};
     let npcs = {};
     let shops = {};
-
-    !!randomLoot && Object.keys(randomLoot).forEach((item) => {
-        if (!items[item]) {
-            items[item] = {};
-        }
-        items[item]['Random Event Loot'] = 'secondary-drop';
-    });
-
+    
     !!manualEquipment && Object.keys(manualEquipment).forEach((item) => {
         if (!items[item]) {
             items[item] = {};
