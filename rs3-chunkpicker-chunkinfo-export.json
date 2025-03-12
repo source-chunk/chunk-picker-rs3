@@ -111142,6 +111142,9 @@
 			"~|Combat Mastery achievements#Medium|~ Descension II": {
 				"Category": ["Combat Mastery achievements"],
 				"Description": "Defeat any of the Asension Legiones 10 times",
+				"Skills": {
+					"Slayer": 95
+				},
 				"Monsters": ["Legiones[+]"],
 				"BaseQuest": "Combat Mastery achievements",
 				"Not F2P": true,
@@ -111383,6 +111386,9 @@
 			"~|Combat Mastery achievements#Medium|~ Legiones Beginner Speed Killer": {
 				"Category": ["Combat Mastery achievements", "Speed Killer Achievements"],
 				"Description": "Defeat any of the Legiones solo in less than 00:30.",
+				"Skills": {
+					"Slayer": 95
+				},
 				"Monsters": ["Legiones[+]"],
 				"BaseQuest": "Combat Mastery achievements",
 				"Not F2P": true,
@@ -111873,6 +111879,9 @@
 				"Category": ["Combat Mastery achievements"],
 				"Description": "Defeat the Magister 25 times.",
 				"Monsters": ["The Magister"],
+				"Skills": {
+					"Slayer": 115
+				},
 				"BaseQuest": "Combat Mastery achievements",
 				"Not F2P": true,
 				"CombatScore": 3
@@ -112169,6 +112178,9 @@
 				"Category": ["Combat Mastery achievements"],
 				"Description": "Defeat the Magister after becoming 50% corrputed",
 				"Monsters": ["The Magister"],
+				"Skills": {
+					"Slayer": 115
+				},
 				"BaseQuest": "Combat Mastery achievements",
 				"Not F2P": true,
 				"CombatScore": 3
@@ -112185,6 +112197,9 @@
 				"Category": ["Combat Mastery achievements"],
 				"Description": "Defeat each of the six Legiones consecutively without leaving the Ascension dungeon.",
 				"Monsters": ["Legio Primus", "Legio Secundus", "Legio Tertius", "Legio Quartus", "Legio Quintus", "Legio Sextus"],
+				"Skills": {
+					"Slayer": 95
+				},
 				"BaseQuest": "Combat Mastery achievements",
 				"Not F2P": true,
 				"CombatScore": 3
@@ -112193,6 +112208,9 @@
 				"Category": ["Combat Mastery achievements"],
 				"Description": "Defeat the Magister without being hit by his 'Unstable Mixture' attack.",
 				"Monsters": ["The Magister"],
+				"Skills": {
+					"Slayer": 115
+				},
 				"BaseQuest": "Combat Mastery achievements",
 				"Not F2P": true,
 				"CombatScore": 3
@@ -112273,6 +112291,9 @@
 				"Category": ["Combat Mastery achievements", "Speed Killer Achievements"],
 				"Description": "Defeat any of the six Ascension Legiones solo in less than 00:18.",
 				"Monsters": ["Legiones[+]"],
+				"Skills": {
+					"Slayer": 95
+				},
 				"BaseQuest": "Combat Mastery achievements",
 				"Not F2P": true,
 				"CombatScore": 3
@@ -112281,6 +112302,9 @@
 				"Category": ["Combat Mastery achievements"],
 				"Description": "Defeat any of the six Legiones solo without being hit by their 'Lightning' attack.",
 				"Monsters": ["Legiones[+]"],
+				"Skills": {
+					"Slayer": 95
+				},
 				"BaseQuest": "Combat Mastery achievements",
 				"Not F2P": true,
 				"CombatScore": 3
@@ -112313,6 +112337,9 @@
 				"Category": ["Combat Mastery achievements", "Speed Killer Achievements"],
 				"Description": "Defeat the Magister solo in less than 00:45.",
 				"Monsters": ["The Magister"],
+				"Skills": {
+					"Slayer": 115
+				},
 				"BaseQuest": "Combat Mastery achievements",
 				"Not F2P": true,
 				"CombatScore": 3
@@ -112578,6 +112605,9 @@
 				"Category": ["Combat Mastery achievements"],
 				"Description": "Defeat each of the six Legiones without moving.",
 				"Monsters": ["Legio Primus", "Legio Secundus", "Legio Tertius", "Legio Quartus", "Legio Quintus", "Legio Sextus"],
+				"Skills": {
+					"Slayer": 95
+				},
 				"BaseQuest": "Combat Mastery achievements",
 				"Not F2P": true,
 				"CombatScore": 3
@@ -112653,6 +112683,9 @@
 				"Category": ["Combat Mastery achievements"],
 				"Description": "Defeat the Magister after cancelling his 'Soul Siphon' attack.",
 				"Monsters": ["The Magister"],
+				"Skills": {
+					"Slayer": 115
+				},
 				"BaseQuest": "Combat Mastery achievements",
 				"Not F2P": true,
 				"CombatScore": 3
@@ -112677,6 +112710,9 @@
 				"Category": ["Combat Mastery achievements"],
 				"Description": "Defeat the Magister after hitting him with his 'Unstable Mixture' attack.",
 				"Monsters": ["The Magister"],
+				"Skills": {
+					"Slayer": 115
+				},
 				"BaseQuest": "Combat Mastery achievements",
 				"Not F2P": true,
 				"CombatScore": 3
@@ -113647,6 +113683,9 @@
 				"Category": ["Combat Mastery achievements", "Speed Killer Achievements"],
 				"Description": "Defeat The Magister solo in less than 00:30.",
 				"Monsters": ["The Magister"],
+				"Skills": {
+					"Slayer": 115
+				},
 				"BaseQuest": "Combat Mastery achievements",
 				"Not F2P": true,
 				"CombatScore": 4
@@ -132449,7 +132488,10 @@
 			},
 			"Fight Kiln": {
 				"UnlocksArea": true,
-				"Items": ["Fire cape"]
+				"Items": ["Fire cape"],
+				"Tasks": {
+					"~|The Elder Kiln|~ 2": "Quest"
+				}
 			},
 			"Fight Cave": {
 				"UnlocksArea": true
@@ -133337,7 +133379,10 @@
 				"UnlocksArea": true
 			},
 			"Fight Cauldron": {
-				"UnlocksArea": true
+				"UnlocksArea": true,
+				"Tasks": {
+					"~|The Brink of Extinction|~ 2": "Quest"
+				}
 			},
 			"Gorajo resource dungeon": {
 				"Tasks": {
@@ -243713,6 +243758,13 @@
 			"Commander Zilyana (Hard Mode)": {
 				"God Wars Dungeon": [{
 					"Hard Mode Bosses": "Nonskill"
+				}, {
+					"Cross the ~|rocky wall (God Wars Dungeon)|~": "Agility"
+				}]
+			},
+			"Commander Zilyana": {
+				"God Wars Dungeon": [{
+					"Cross the ~|rocky wall (God Wars Dungeon)|~": "Agility"
 				}]
 			},
 			"Crassian Leviathan": {
@@ -243774,6 +243826,13 @@
 			"General Graardor (Hard Mode)": {
 				"God Wars Dungeon": [{
 					"Hard Mode Bosses": "Nonskill"
+				}, {
+					"Access the ~|Bandos' stronghold|~": "Strength"
+				}]
+			},
+			"General Graardor": {
+				"God Wars Dungeon": [{
+					"Access the ~|Bandos' stronghold|~": "Strength"
 				}]
 			},
 			"Giant spider": {
@@ -243910,6 +243969,13 @@
 			"K'ril Tsutsaroth (Hard Mode)": {
 				"God Wars Dungeon": [{
 					"Hard Mode Bosses": "Nonskill"
+				}, {
+					"Access ~|Zamorak's Fortress|~ in the God Wars Dungeon": "Constitution"
+				}]
+			},
+			"K'ril Tsutsaroth": {
+				"God Wars Dungeon": [{
+					"Access ~|Zamorak's Fortress|~ in the God Wars Dungeon": "Constitution"
 				}]
 			},
 			"Kal'gerion demon": {
@@ -244051,8 +244117,8 @@
 					"~|Temple of Ikov|~ 1": "Quest"
 				}]
 			},
-			"Taraket the Necromacer": {
-				"The Sahdow Reef": [{
+			"Taraket the Necromancer": {
+				"The Shadow Reef": [{
 					"Group Content enabled": "Nonskill"
 				}]
 			},
