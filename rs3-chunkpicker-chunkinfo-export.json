@@ -310442,7 +310442,7 @@
 		"Necromancy cape": {
 			"ranged": 21.6,
 			"requirements": {
-				"Mining": 99
+				"Necromancy": 99
 			},
 			"class": "all",
 			"lp": 0,
@@ -310460,7 +310460,7 @@
 		"Necromancy master cape": {
 			"ranged": 21.6,
 			"requirements": {
-				"Mining": 120
+				"Necromancy": 120
 			},
 			"class": "all",
 			"lp": 0,
