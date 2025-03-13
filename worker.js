@@ -192,6 +192,7 @@ let optOutSections = false;
 let maxSkill;
 let userTasks = {};
 let manualPrimary = {};
+let updateLevel;
 
 let clueTasksPossible = {};
 let areasStructure = {};
@@ -232,6 +233,7 @@ onmessage = function(e) {
             highestCurrent,
             dropTables,
             possibleAreas,
+            randomLoot,
             magicTools,
             bossLogs,
             bossMonsters,
@@ -254,7 +256,12 @@ onmessage = function(e) {
             maxSkill,
             userTasks,
             manualPrimary,
+            updateLevel,
         ] = eGlobal.data;
+
+        if (updateLevel !== 'difference') {
+            postMessage(['reload']);
+        }
 
         if (isDiary2Tier) {
             !!chunkInfo['challenges']['Diary'] && Object.keys(chunkInfo['challenges']['Diary']).filter(task => { return !chunkInfo['challenges']['Diary'][task].hasOwnProperty('Reward') && diaryHierarchy.includes(task.split('|')[1].split('#')[1]) && chunkInfo['challenges']['Diary'][task].hasOwnProperty('Tasks') }).forEach((task) => {
