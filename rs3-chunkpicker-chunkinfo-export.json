@@ -111084,7 +111084,7 @@
 			},
 			"~|Combat Mastery achievements#Medium|~ Anti-antifire": {
 				"Category": ["Combat Mastery achievements"],
-				"Description": "Defeat the King Black Dragon without using dragonfire protection ot mitigate his attacks",
+				"Description": "Defeat the King Black Dragon without using dragonfire protection to mitigate his attacks",
 				"Monsters": ["King Black Dragon"],
 				"BaseQuest": "Combat Mastery achievements",
 				"Not F2P": true,
@@ -123727,12 +123727,6 @@
 				"Category": ["Untracked Uniques", "Untracked Uniques Combat"],
 				"Label": "Untracked Combat Uniques",
 				"Items": ["Obsidian charm"],
-				"Not F2P": true
-			},
-			"(Untracked Slayer) Obtain ~|lost tokens|~": {
-				"Category": ["Untracked Uniques", "Untracked Uniques Combat"],
-				"Label": "Untracked Combat Uniques",
-				"Items": ["Lost tokens"],
 				"Not F2P": true
 			},
 			"(Untracked Slayer) Obtain a ~|fury shark|~": {
@@ -216676,8 +216670,8 @@
 			"Rare drop table": {
 				"1": "Rare"
 			},
-			"Lost tokens": {
-				"1": "1/512"
+			"Dungeoneering token": {
+				"10000": "1/512"
 			},
 			"Starved ancient effigy": {
 				"1": "1/3149"
@@ -252883,7 +252877,7 @@
 				"Warped gorajan trailblazer feet": "Always"
 			},
 			"Sinkholes Rewards": {
-				"Dungeoneering tokens": "Always",
+				"Dungeoneering token": "Always",
 				"Hoardstalker helm": "Rare",
 				"Hoardstalker top": "Rare",
 				"Hoardstalker legs": "Rare",
