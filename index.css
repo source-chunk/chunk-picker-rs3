@@ -217,7 +217,7 @@ button {
 }
 
 .box.locked .icon::before {
-    font-family: "Font Awesome 5 Free";
+    font-family: "Font Awesome 6 Free";
     content: "\f129";
     color: rgba(0, 255, 255, .75);
     position: absolute;
@@ -7249,7 +7249,7 @@ input#searchMonsters {
 }
 
 .chunk-window-child1::before {
-    font-family: "Font Awesome 5 Free";
+    font-family: "Font Awesome 6 Free";
     content: "\f054";
     color: var(--colorText);
     position: fixed;
@@ -7264,7 +7264,7 @@ input#searchMonsters {
 }
 
 .chunk-window-child1::after {
-    font-family: "Font Awesome 5 Free";
+    font-family: "Font Awesome 6 Free";
     content: "\f053";
     color: var(--colorText);
     position: fixed;
@@ -7279,7 +7279,7 @@ input#searchMonsters {
 }
 
 .chunk-window-child2::before {
-    font-family: "Font Awesome 5 Free";
+    font-family: "Font Awesome 6 Free";
     content: "\f054";
     color: var(--colorText);
     position: fixed;
@@ -7294,7 +7294,7 @@ input#searchMonsters {
 }
 
 .chunk-window-child2::after {
-    font-family: "Font Awesome 5 Free";
+    font-family: "Font Awesome 6 Free";
     content: "\f053";
     color: var(--colorText);
     position: fixed;
@@ -7309,7 +7309,7 @@ input#searchMonsters {
 }
 
 .chunk-window-child3::before {
-    font-family: "Font Awesome 5 Free";
+    font-family: "Font Awesome 6 Free";
     content: "\f054";
     color: var(--colorText);
     position: fixed;
@@ -7324,7 +7324,7 @@ input#searchMonsters {
 }
 
 .chunk-window-child3::after {
-    font-family: "Font Awesome 5 Free";
+    font-family: "Font Awesome 6 Free";
     content: "\f053";
     color: var(--colorText);
     position: fixed;
