@@ -145,6 +145,7 @@ let challengePanelVis = {
 let rulesPanelVis = {
     visibletasks: false,
     collections: false,
+    achievements: false,
     overallskill: false,
     agility: false,
     combat: false,
@@ -448,6 +449,9 @@ let rules = {
 	"PvM Relics": false,
     "KeyItem Bosses": false,
 	"Shooting Stars": false,
+	"Combat Mastery achievements": false,
+	"Speed Killer Achievements": false,
+    "Combat Master+": false,
 	"Menaphos Events": false,
 	"Material Blueprints": false,
 };                                                                              // List of rules and their on/off state
@@ -469,7 +473,7 @@ let ruleNames = {
     "Spells": "Spells count as a way to process runes via Magic, and therefore can count as chunk tasks",
     "Show Skill Tasks": "Show Skill Tasks (e.g. Get 43 Crafting to cut a diamond)",
     "Show Quest Tasks": "Show Quest Tasks",
-    "Show Diary Tasks": "Show Diary Tasks",
+    "Show Diary Tasks": "Show Area Tasks achievements",
     "Show Best in Slot Tasks": "Show Best in Slot (Accuracy + Strength, or secondarily Defence) Tasks",
     "Show Best in Slot Prayer Tasks": "Show Best in Slot Tasks for Prayer-boosting gear",
     "Show Best in Slot Defensive Tasks": "Show Best in Slot Tasks for Tank gear (highest defence-only)",
@@ -478,8 +482,8 @@ let ruleNames = {
     "Show Best in Slot Shield": "Show Best in Slot Tasks for both off-hand weapons and shields, rather than just the better of the two",
     "Consumable Primary BiS": "For consumable items (arrows, darts, etc.), only count them as Best in Slot if you have primary access to them",
     "Show Quest Tasks Complete": "Show Quest Tasks only when the whole quest is completable",
-    "Show Diary Tasks Complete": "Show Diary Tasks only when the whole diary tier (easy, medium, etc.) is completable",
-    "Show Diary Tasks Any": "Show all diary tasks possible, regardless of tier<span class='rule-asterisk noscroll'>*</span>",
+    "Show Diary Tasks Complete": "Show Area Tasks achievements only when the whole area tasks tier (easy, medium, etc.) is completable",
+    "Show Diary Tasks Any": "Show all Area Tasks achievements possible, regardless of tier<span class='rule-asterisk noscroll'>*</span>",
     "Highest Level": "Require processing skill tasks to be the highest level of processing, rather than the lowest (e.g. must craft black dragonhide leather fully into a dragonhide shield rather than just into vambraces)<span class='rule-asterisk noscroll'>*</span>",
     "BIS Skilling": "Must obtain items that are best-in-slot/add quality-of-life for skilling (e.g. Pickaxe of Life and Death, Elite skilling outfits, Seed bag, etc.)",
     "BIS Skilling Consumables": "Must also obtain best-in-slot/quality-of-life consumable items for skilling (scrimshaws, familiars, etc.)",
@@ -559,6 +563,9 @@ let ruleNames = {
 	"PvM Relics": "WIP - Must obtain all best-in-slot/quality-of-life Archaeology Relics for combat",
     "KeyItem Bosses": "For bosses that require keys to kill, factor in the droprate of the key as part of the droprate of each drop",
 	"Shooting Stars": "Getting the level to mine all tiers of shooting stars counts as a Mining skill task<span class='rule-asterisk noscroll'>*</span>",
+	"Combat Mastery achievements": "Must complete Combat Mastery achievements when possible.",
+	"Speed Killer Achievements": "Also include Speed Killer achievements.",
+	"Combat Master+": "Must complete the Master and Grandmaster tier.",
 	"Menaphos Events": "Allow soul obelisks and corrupted scarabs in Menaphos to count as primary training methods<span class='rule-asterisk noscroll'>*</span>",
 	"Material Blueprints": "Count discovering material blueprints as a skilling task"
 };                                                                              // List of rule definitions
@@ -760,7 +767,7 @@ let ruleStructure = {
         "Show Skill Tasks": true,
 		"Achievement": true,
         "Show Quest Tasks": ["Show Quest Tasks Complete"],
-        "Show Diary Tasks": ["Show Diary Tasks Complete", "Show Diary Tasks Any"],
+        
         "Show Best in Slot Tasks": ["Show Best in Slot Prayer Tasks", "Show Best in Slot Defensive Tasks", "Show Best in Slot Melee Style Tasks", "Show Best in Slot 1H and 2H", "Show Best in Slot Shield", "Consumable Primary BiS"],
 		"BIS Skilling": ["BIS Skilling Consumables", "BIS Skilling Relics", "Brawling Gloves"],
 	},
@@ -773,6 +780,10 @@ let ruleStructure = {
 		"Fill Costume Room": true,
 		"Ceremonial Swords": true,
 		"Pets": ["Skilling Pets"]
+	},
+	"Achievements": {
+		"Show Diary Tasks": ["Show Diary Tasks Complete", "Show Diary Tasks Any"],
+		"Combat Mastery achievements": ["Speed Killer Achievements", "Combat Master+"]
 	},
     "Overall Skill": {
         "Skillcape": ["Master skillcape"],
@@ -897,6 +908,7 @@ let taskGeneratingRules = {
     "Show Quest Tasks Complete": true,
     "Show Diary Tasks Complete": true,
     "Show Diary Tasks Any": true,
+    "Combat Mastery achievements": true,
     "Collection Log Bosses": true,
     "Collection Log Raids": true,
     "Collection Log Clues": true,
@@ -1321,6 +1333,7 @@ let newTasksOpen = false;
 let workerOut = 0;
 let gotData = false;
 let questPointTotal = 0;
+let combatScoreTotal = 0;
 let highestOverallCompleted = {};
 let oldChallengeArr = {};
 let futureChunkData = {};
@@ -1458,7 +1471,7 @@ let topbarElements = {
     'Sandbox Mode': `<div><span class='noscroll' onclick="enableTestMode()"><i class="gosandbox fa-solid fa-flask" title='Sandbox Mode'></i></span></div>`,
 };
 
-let currentVersion = '6.6.9';
+let currentVersion = '6.6.9.1';
 let patchNotesVersion = '6.4.0';
 let updateLevel = 'difference';
 
@@ -1600,7 +1613,7 @@ mapImg.addEventListener("load", e => {
         centerCanvas('quick');
     }
 });
-mapImg.src = "runescape_world_map.png?v=6.6.9";
+mapImg.src = "runescape_world_map.png?v=6.6.9.1";
 
 // Rounded rectangle
 CanvasRenderingContext2D.prototype.roundRect = function (x, y, w, h, r) {
@@ -3284,7 +3297,7 @@ let calcCurrentChallengesCanvas = function(useOld, proceed, fromLoadData, inputT
         setCalculating('.panel-active', useOld);
         setCurrentChallenges(['No tasks currently backlogged.'], ['No tasks currently completed.'], true, true);
         myWorker.terminate();
-        myWorker = new Worker("./worker.js?v=6.6.9");
+        myWorker = new Worker("./worker.js?v=6.6.9.1");
         myWorker.onmessage = workerOnMessage;
         myWorker.postMessage(['current', tempChunks['unlocked'], rules, chunkInfo, skillNames, processingSkill, maybePrimary, combatSkills, monstersPlus, objectsPlus, chunksPlus, itemsPlus, mixPlus, npcsPlus, tasksPlus, tools, elementalRunes, manualTasks, completedChallenges, backlog, "1/" + rules['Rare Drop Amount'], universalPrimary, elementalStaves, rangedItems, boneItems, highestCurrent, dropTables, possibleAreas, randomLoot, magicTools, bossLogs, bossMonsters, minigameShops, manualEquipment, checkedChallenges, backloggedSources, altChallenges, manualMonsters, slayerLocked, passiveSkill, f2pSkills, assignedXpRewards, mid === diary2Tier, manualAreas, "1/" + rules['Secondary Primary Amount'], mid === manualAreasOnly, tempSections, settings['optOutSections'], maxSkill, userTasks, manualPrimary, updateLevel]);
         workerOut = 1;
@@ -3587,8 +3600,8 @@ $(document).ready(function() {
 // ------------------------------------------------------------
 
 // Recieve message from worker
-let myWorker = new Worker("./worker.js?v=6.6.9");
-let myWorker2 = new Worker("./worker.js?v=6.6.9");
+let myWorker = new Worker("./worker.js?v=6.6.9.1");
+let myWorker2 = new Worker("./worker.js?v=6.6.9.1");
 let workerOnMessage = function(e) {
     if (e.data[0] === 'reload') {
         window.location.reload();
@@ -3656,7 +3669,8 @@ let workerOnMessage = function(e) {
                 dropTablesGlobal = e.data[13];
                 bestEquipmentAltsGlobal = e.data[14];
                 unlockedSections = e.data[15];
-                highestOverallCompleted = e.data[16];
+                combatPointTotal = e.data[16];
+                highestOverallCompleted = e.data[17];
                 possibleAreas = {};
                 Object.keys(e.data[12]).filter(area => { return e.data[12][area] === true }).forEach((area) => {
                     possibleAreas[area] = true;
@@ -6252,8 +6266,8 @@ let setupCurrentChallenges = function(tempChallengeArr, noDisplay, noClear) {
             }
         }
     });
-    !!globalValids['Diary'] && Object.keys(globalValids['Diary']).length > 0 && rules['Show Diary Tasks'] && challengeArr.push(`<div class="marker marker-diary noscroll" onclick="expandActive('diary')"><i class="expand-button fa-solid ${activeSubTabs['diary'] ? 'fa-caret-down' : 'fa-caret-right'} noscroll"></i><span class="noscroll">Diary Tasks</span></div>`);
-    !!globalValids['Diary'] && rules['Show Diary Tasks'] && Object.keys(globalValids['Diary']).forEach((challenge) => {
+    !!globalValids['Diary'] && Object.keys(globalValids['Diary']).length > 0 && (rules['Show Diary Tasks'] || rules['Combat Mastery achievements']) && challengeArr.push(`<div class="marker marker-diary noscroll" onclick="expandActive('diary')"><i class="expand-button fas ${activeSubTabs['diary'] ? 'fa-caret-down' : 'fa-caret-right'} noscroll"></i><span class="noscroll">Diary Tasks</span></div>`);
+    !!globalValids['Diary'] && (rules['Show Diary Tasks'] || rules['Combat Mastery achievements']) && Object.keys(globalValids['Diary']).forEach((challenge) => {
         if ((!backlog['Diary'] || (!backlog['Diary'].hasOwnProperty(challenge) && !backlog['Diary'].hasOwnProperty(challenge.replaceAll('#', '/')))) && (!completedChallenges['Diary'] || (!completedChallenges['Diary'][challenge] && !completedChallenges['Diary'][challenge.replaceAll('#', '/')])) && globalValids['Diary'][challenge] && (!rules['Show Diary Tasks Complete'] || chunkInfo['challenges']['Diary'][challenge].hasOwnProperty('ManualShow'))) {
             challengeArr.push(`<div class="challenge diary-challenge noscroll clickable ${'Diary-' + challenge.replaceAll(' ', '_').replace(/[!"#$%&'()*+,.\/:;<=>?@\[\\\]\^\`{|}~]/g, '').toLowerCase() + '-challenge'} ${(!!checkedChallenges['Diary'] && !!checkedChallenges['Diary'][challenge]) && 'hide-backlog'} ${!activeSubTabs['diary'] ? 'stay-hidden' : ''}" onclick="showDetails('${encodeRFC5987ValueChars(challenge)}', 'Diary', 'current')"><label class="checkbox noscroll ${(!testMode && (viewOnly || inEntry || locked)) ? "checkbox--disabled" : ''}"><span class="checkbox__input noscroll"><input type="checkbox" name="checkbox" ${(!!checkedChallenges['Diary'] && !!checkedChallenges['Diary'][challenge]) ? "checked" : ''} class='noscroll' onclick="checkOffChallenge('Diary', '${encodeRFC5987ValueChars(challenge)}')" ${(!testMode && (viewOnly || inEntry || locked)) ? "disabled" : ''}><span class="checkbox__control noscroll"><svg viewBox='0 0 24 24' aria-hidden="true" focusable="false"><path fill='none' stroke='currentColor' stroke-width='3' d='M1.73 12.91l6.37 6.37L22.79 4.59' /></svg></span></span><span class="radio__label noscroll"><b class="noscroll">[Diary] <span class="inner noscroll"><a class='link noscroll' href="${"https://runescape.wiki/w/" + encodeForUrl(challenge.split('~')[1].split('|').join(''))}" target="_blank">${challenge.split('~')[1].split('|').join('')}</a></b>: <a href='javascript:openQuestSteps("Diary", "${encodeForUrl(challenge)}")' class='internal-link noscroll'>${challenge.split('~')[2]}</a></span></span></label></span> <span class="burger noscroll${!testMode && (viewOnly || inEntry || locked) ? ' hidden-burger' : ''}" onclick="openActiveContextMenu('${encodeRFC5987ValueChars(challenge)}', 'Diary')"><i class="fa-solid fa-sliders-h noscroll"></i></span></div>`);
         }
@@ -6411,7 +6425,7 @@ let calcFutureChallenges = function() {
     }
     tempSections = combineJSONs(tempSections, manualSections);
     myWorker2.terminate();
-    myWorker2 = new Worker("./worker.js?v=6.6.9");
+    myWorker2 = new Worker("./worker.js?v=6.6.9.1");
     myWorker2.onmessage = workerOnMessage;
     myWorker2.postMessage(['future', chunks, rules, chunkInfo, skillNames, processingSkill, maybePrimary, combatSkills, monstersPlus, objectsPlus, chunksPlus, itemsPlus, mixPlus, npcsPlus, tasksPlus, tools, elementalRunes, manualTasks, completedChallenges, backlog, "1/" + rules['Rare Drop Amount'], universalPrimary, elementalStaves, rangedItems, boneItems, highestCurrent, dropTables, possibleAreas, randomLoot, magicTools, bossLogs, bossMonsters, minigameShops, manualEquipment, checkedChallenges, backloggedSources, altChallenges, manualMonsters, slayerLocked, passiveSkill, f2pSkills, assignedXpRewards, mid === diary2Tier, manualAreas, "1/" + rules['Secondary Primary Amount'], mid === manualAreasOnly, tempSections, settings['optOutSections'], maxSkill, userTasks, manualPrimary, updateLevel]);
     workerOut++;
@@ -6561,7 +6575,7 @@ let calcFutureChallenges2 = function(valids, baseChunkDataLocal) {
             }
             if (skill === 'Quest' || skill === 'Diary' || skill === 'BiS' || skill === 'Extra') {
                 if ((!globalValids.hasOwnProperty(skill) || !globalValids[skill].hasOwnProperty(challenge)) && valids[skill][challenge] && !chunkInfo['challenges'][skill][challenge]['NeverShow'] && (!completedChallenges[skill] || !completedChallenges[skill][challenge])) {
-                    if ((skill === 'Quest' && rules["Show Quest Tasks"] && (chunkInfo['challenges'][skill][challenge].hasOwnProperty('QuestPoints') || !rules["Show Quest Tasks Complete"])) || (skill === 'Diary' && rules["Show Diary Tasks"] && (chunkInfo['challenges'][skill][challenge].hasOwnProperty('ManualShow') || !rules["Show Diary Tasks Complete"])) || (skill === 'BiS' && rules["Show Best in Slot Tasks"]) || (skill === 'Extra')) {
+                    if ((skill === 'Quest' && rules["Show Quest Tasks"] && (chunkInfo['challenges'][skill][challenge].hasOwnProperty('QuestPoints') || !rules["Show Quest Tasks Complete"])) || (skill === 'Diary' && (rules["Show Diary Tasks"] || rules["Combat Mastery achievements"]) && (chunkInfo['challenges'][skill][challenge].hasOwnProperty('ManualShow') || !rules["Show Diary Tasks Complete"])) || (skill === 'BiS' && rules["Show Best in Slot Tasks"]) || (skill === 'Extra')) {
                         if (!!chunkInfo['challenges'][skill][challenge]['Skills']) {
                             let tempValid = true;
                             Object.keys(chunkInfo['challenges'][skill][challenge]['Skills']).forEach((subSkill) => {
@@ -8351,7 +8365,8 @@ let openHighest2 = function(notScrollTop) {
                     $(`.${combatStyle.replaceAll(' ', '_')}-body`).empty().append(`<div class='highest-subtitle noscroll'>${combatStyle}</div><div class='noscroll qps'>Quest Points: ${questPointTotal}<i class="noscroll fa-solid fa-filter" title="Filter" onclick="openQuestFilterContextMenu()"></i></div>`).append(`<div class="noscroll results"><span class="noscroll holder"><span class="noscroll topline">No quests ${questFilterType}</span></span></div>`);
                 }
             } else if (combatStyle === 'Diaries') {
-                $(`.${combatStyle.replaceAll(' ', '_')}-body`).append(`<div class="diary-question-outer"><span class="diary-question">What do the colors indicate? <i class="fa-solid fa-question-circle"></i><span class="tooltiptext"><div>Diary tiers in <span style="color:green">green</span> indicate a diary that you can complete within your chunks.</div><hr /><div>Diary tiers in <span style="color:yellow">yellow</span> indicate a diary that can be started, but not completed within your chunks.</div><hr /><div>Diary tiers in <span style="color:grey">grey</span> indicate a diary that cannot be started yet.</div></span></span></div>`);
+                rules['Combat Mastery achievements'] && $(`.${combatStyle.replaceAll(' ', '_')}-body`).append(`<div class='noscroll cps'>Combat Achievement Points: ${combatPointTotal}</div>`);
+                $(`.${combatStyle.replaceAll(' ', '_')}-body`).append(`<div class="diary-question-outer"><span class="diary-question">What do the colors indicate? <i class="fas fa-question-circle"></i><span class="tooltiptext"><div>Diary tiers in <span style="color:green">green</span> indicate a diary that you can complete within your chunks.</div><hr /><div>Diary tiers in <span style="color:yellow">yellow</span> indicate a diary that can be started, but not completed within your chunks.</div><hr /><div>Diary tiers in <span style="color:grey">grey</span> indicate a diary that cannot be started yet.</div></span></span></div>`);
                 Object.keys(chunkInfo['diaries']).forEach((diary) => {
                     $(`.${combatStyle.replaceAll(' ', '_')}-body`).append(`<div class='noscroll row ${diary.replaceAll(' ', '_').replaceAll("'", '')}'><span class='noscroll outer-diary-text'>${diary.replaceAll(/~/g, '').replaceAll(/\|/g, '')}</div>`);
                     chunkInfo['diaries'][diary].split(', ').forEach((tier) => {
