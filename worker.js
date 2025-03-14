@@ -193,6 +193,7 @@ let optOutSections = false;
 let maxSkill;
 let userTasks = {};
 let manualPrimary = {};
+let updateLevel;
 
 let clueTasksPossible = {};
 let areasStructure = {};
@@ -256,7 +257,12 @@ onmessage = function(e) {
             maxSkill,
             userTasks,
             manualPrimary,
+            updateLevel,
         ] = eGlobal.data;
+
+        if (updateLevel !== 'difference') {
+            postMessage(['reload']);
+        }
 
         if (isDiary2Tier) {
             !!chunkInfo['challenges']['Diary'] && Object.keys(chunkInfo['challenges']['Diary']).filter(task => { return !chunkInfo['challenges']['Diary'][task].hasOwnProperty('Reward') && diaryHierarchy.includes(task.split('|')[1].split('#')[1]) && chunkInfo['challenges']['Diary'][task].hasOwnProperty('Tasks') }).forEach((task) => {
@@ -276,6 +282,9 @@ onmessage = function(e) {
         }
         if (secondaryPrimaryNum === "1/0") {
             secondaryPrimaryNum = "1/999999999999999";
+        }
+        if (!secondaryPrimaryNum) {
+            secondaryPrimaryNum = "1/1";
         }
         if (!chunkInfo) {
             return;
@@ -8398,7 +8407,7 @@ let calcBIS = function(completedOnly) {
             article = (bestEquipment[slot].toLowerCase().charAt(bestEquipment[slot].toLowerCase().length - 1) === 's' || (bestEquipment[slot].toLowerCase().charAt(bestEquipment[slot].toLowerCase().length - 1) === ')' && bestEquipment[slot].toLowerCase().split('(')[0].trim().charAt(bestEquipment[slot].toLowerCase().split('(')[0].trim().length - 1) === 's')) ? ' ' : article;
             if (!completedOnly) {
                 if (!!globalValids['BiS']['Obtain' + article + '~|' + formatEquip(bestEquipment[slot]) + '|~']) {
-                    globalValids['BiS']['Obtain' + article + '~|' + formatEquip(bestEquipment[slot]) + '|~'] = skill + '/​' + globalValids['BiS']['Obtain' + article + '~|' + bestEquipment[slot].toLowerCase() + '|~'];
+                    globalValids['BiS']['Obtain' + article + '~|' + formatEquip(bestEquipment[slot]) + '|~'] = skill + '/​' + globalValids['BiS']['Obtain' + article + '~|' + formatEquip(bestEquipment[slot]) + '|~'];
                 } else {
                     globalValids['BiS']['Obtain' + article + '~|' + formatEquip(bestEquipment[slot]) + '|~'] = skill + ' BiS ' + slot;
                 }
@@ -8406,10 +8415,10 @@ let calcBIS = function(completedOnly) {
             if (!chunkInfo['challenges']['BiS']) {
                 chunkInfo['challenges']['BiS'] = {};
             }
-            if (!!chunkInfo['challenges']['BiS']['Obtain' + article + '~|' + formatEquip(bestEquipment[slot]) + '|~'] && notFresh['Obtain' + article + '~|' + bestEquipment[slot].toLowerCase() + '|~']) {
+            if (!!chunkInfo['challenges']['BiS']['Obtain' + article + '~|' + formatEquip(bestEquipment[slot]) + '|~'] && notFresh['Obtain' + article + '~|' + formatEquip(bestEquipment[slot]) + '|~']) {
                 chunkInfo['challenges']['BiS']['Obtain' + article + '~|' + formatEquip(bestEquipment[slot]) + '|~'] = {
                     'ItemsDetails': [bestEquipment[slot]],
-                    'Label': `<span class='noscroll ${skill}-bis-highlight'>` + skill + '</span>/​' + chunkInfo['challenges']['BiS']['Obtain' + article + '~|' + bestEquipment[slot].toLowerCase() + '|~']['Label']
+                    'Label': `<span class='noscroll ${skill}-bis-highlight'>` + skill + '</span>/​' + chunkInfo['challenges']['BiS']['Obtain' + article + '~|' + formatEquip(bestEquipment[slot]) + '|~']['Label']
                 }
             } else {
                 chunkInfo['challenges']['BiS']['Obtain' + article + '~|' + formatEquip(bestEquipment[slot]) + '|~'] = {
@@ -8870,14 +8879,7 @@ let gatherChunksInfo = function(chunksIn) {
     let monsters = {};
     let npcs = {};
     let shops = {};
-
-    !!randomLoot && Object.keys(randomLoot).forEach((item) => {
-        if (!items[item]) {
-            items[item] = {};
-        }
-        items[item]['Random Event Loot'] = 'secondary-drop';
-    });
-
+    
     !!manualEquipment && Object.keys(manualEquipment).forEach((item) => {
         if (!items[item]) {
             items[item] = {};

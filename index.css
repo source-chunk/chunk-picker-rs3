@@ -217,7 +217,7 @@ button {
 }
 
 .box.locked .icon::before {
-    font-family: "Font Awesome 5 Free";
+    font-family: "Font Awesome 6 Free";
     content: "\f129";
     color: rgba(0, 255, 255, .75);
     position: absolute;
@@ -2550,6 +2550,31 @@ input#searchPlayerMaps {
     position: unset;
 }
 
+.burger > i.fa-sliders-h {
+    position: relative;
+}
+
+.burger-star {
+    position: absolute;
+    font-size: 10px;
+    right: -5px;
+    top: -4px;
+    color: var(--color1);
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: var(--colorText);
+}
+
+.alteratives-star {
+    color: var(--color1);
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: var(--colorText);
+    float: right;
+}
+
+.active-context-menu-alternatives {
+    display: none;
+}
+
 .exp {
     display: inline-block;
     min-width: 20px;
@@ -3553,6 +3578,10 @@ input#searchPlayerMaps {
     position: relative;
 }
 
+.alt-challenge .link {
+    pointer-events: all;
+}
+
 .overlays-title {
     font-size: min(10vw, 40px);
     padding-left: 10px;
@@ -3627,7 +3656,7 @@ input#searchPlayerMaps {
 }
 
 .add-item {
-    margin: 3px;
+    margin: 11px;
     padding: 2px;
     padding-left: 5px;
     font-size: 3.25vh;
@@ -6233,7 +6262,12 @@ input#searchChunks {
     padding-right: 30px;
 }
 
-.skill-button.extra-gear-room {    
+.button2-table-header.extra-gear-room {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.skill-button.extra-gear-room, .skill-button2.extra-gear-room {
     padding-right: 30px;
 }
 
@@ -6254,10 +6288,6 @@ input#searchChunks {
     text-align: center;
     border-left: solid 1px var(--color8);
     position: relative;
-    padding-right: 30px;
-}
-
-.skill-button2.extra-gear-room {    
     padding-right: 30px;
 }
 
@@ -7219,7 +7249,7 @@ input#searchMonsters {
 }
 
 .chunk-window-child1::before {
-    font-family: "Font Awesome 5 Free";
+    font-family: "Font Awesome 6 Free";
     content: "\f054";
     color: var(--colorText);
     position: fixed;
@@ -7234,7 +7264,7 @@ input#searchMonsters {
 }
 
 .chunk-window-child1::after {
-    font-family: "Font Awesome 5 Free";
+    font-family: "Font Awesome 6 Free";
     content: "\f053";
     color: var(--colorText);
     position: fixed;
@@ -7249,7 +7279,7 @@ input#searchMonsters {
 }
 
 .chunk-window-child2::before {
-    font-family: "Font Awesome 5 Free";
+    font-family: "Font Awesome 6 Free";
     content: "\f054";
     color: var(--colorText);
     position: fixed;
@@ -7264,7 +7294,7 @@ input#searchMonsters {
 }
 
 .chunk-window-child2::after {
-    font-family: "Font Awesome 5 Free";
+    font-family: "Font Awesome 6 Free";
     content: "\f053";
     color: var(--colorText);
     position: fixed;
@@ -7279,7 +7309,7 @@ input#searchMonsters {
 }
 
 .chunk-window-child3::before {
-    font-family: "Font Awesome 5 Free";
+    font-family: "Font Awesome 6 Free";
     content: "\f054";
     color: var(--colorText);
     position: fixed;
@@ -7294,7 +7324,7 @@ input#searchMonsters {
 }
 
 .chunk-window-child3::after {
-    font-family: "Font Awesome 5 Free";
+    font-family: "Font Awesome 6 Free";
     content: "\f053";
     color: var(--colorText);
     position: fixed;
