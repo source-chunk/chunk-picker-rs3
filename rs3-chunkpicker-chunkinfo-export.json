@@ -133230,7 +133230,7 @@
 				"UnlocksArea": true,
 				"Tasks": {
 					"~|Salt in the Wound|~ 1": "Quest"
-				},
+				}
 			},
 			"Waterbirth Dungeon": {
 				"Chunks": ["10042"],
@@ -134118,7 +134118,7 @@
 				"UnlocksArea": true,
 				"Tasks": {
 					"~|Necromancy!|~ 1": "Quest"
-				},
+				}
 			},
 			"Necromantic Rune Temple": {
 				"Tasks": {
