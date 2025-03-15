@@ -85520,8 +85520,8 @@
 			},
 			"~|Kennith's Concerns|~ 6": {
 				"BaseQuest": "Kennith's Concerns",
-				"Description": "Go to the Slug Citadel with Ezekiel and talk to Kimberly's parents",
-				"Chunks": ["Slug Citadel"],
+				"Description": "Go to the Witchaven dungeon with Ezekiel and talk to Kimberly's parents",
+				"Chunks": ["Witchaven Dungeon"],
 				"Tasks": {
 					"~|Kennith's Concerns|~ 5": "Quest"
 				},
@@ -85530,7 +85530,7 @@
 			"~|Kennith's Concerns|~ 7": {
 				"BaseQuest": "Kennith's Concerns",
 				"Description": "Find Kennith's toy train and return it to him",
-				"Chunks": ["10803", "Slug Citadel"],
+				"Chunks": ["10803", "Witchaven Dungeon"],
 				"Tasks": {
 					"~|Kennith's Concerns|~ 6": "Quest"
 				},
@@ -85538,7 +85538,7 @@
 			},
 			"~|Kennith's Concerns|~ Complete the quest": {
 				"BaseQuest": "Kennith's Concerns",
-				"Chunks": ["Slug Citadel"],
+				"Chunks": ["Witchaven Dungeon"],
 				"Tasks": {
 					"~|Kennith's Concerns|~ 7": "Quest"
 				},
@@ -95908,7 +95908,7 @@
 			"~|The Slug Menace|~ 9": {
 				"BaseQuest": "The Slug Menace",
 				"Description": "Open the door and defeat the Slug Prince",
-				"Chunks": ["Slug Citadel"],
+				"Chunks": ["Witchaven Dungeon"],
 				"Tasks": {
 					"~|The Slug Menace|~ 8a": "Quest",
 					"~|The Slug Menace|~ 8b": "Quest",
@@ -111381,7 +111381,7 @@
 			},
 			"~|Wilderness Achievements#Elite|~ Camping in Tents": {
 				"Description": "Check a warband camp for supplies.",
-				"Chunks": ["WarbandsChunks[+]"],
+				"Chunks": ["WarbandsChunks[+]", "12342"],
 				"Tasks": {
 					"~|Wilderness Achievements#Hard|~ Complete the Hard Achievements": "Diary"
 				},
@@ -116609,7 +116609,8 @@
 				"Chunks": ["13879"],
 				"Items": ["Maple shieldbow", "Mithril plateskirt"],
 				"Tasks": {
-					"Build a medium ~|hidey-hole|~": "Construction"
+					"Build a medium ~|hidey-hole|~": "Construction",
+					"~|Creature of Fenkenstrain|~ 7": "Quest"
 				}
 			},
 			"~|hidey-hole|~: east of the barbarian village bridge": {
@@ -133226,7 +133227,10 @@
 				"UnlocksArea": true
 			},
 			"Slug Citadel": {
-				"UnlocksArea": true
+				"UnlocksArea": true,
+				"Tasks": {
+					"~|Salt in the Wound|~ 1": "Quest"
+				},
 			},
 			"Waterbirth Dungeon": {
 				"Chunks": ["10042"],
@@ -137130,6 +137134,9 @@
 					"~|Jungle Potion|~ 6": "Quest"
 				},
 				"Output": "Grimy rogue's purse"
+			},
+			"Stronghold drops": {
+				"Chunks": ["Stronghold of Security"]
 			}
 		}
 	},
@@ -150524,6 +150531,9 @@
 				"Broken glass": 2,
 				"Damp sticks": 1
 			},
+			"Connect": {
+				"6467": true
+			},
 			"Quest": {
 				"Salt in the Wound": "step",
 				"Sea Slug": "step",
@@ -154284,7 +154294,6 @@
 				"Iron maiden": 1
 			},
 			"Monster": {
-				"Dark wizard": 8,
 				"Black Knight": 3,
 				"Blue dragon": 10
 			},
@@ -155206,8 +155215,7 @@
 				"Crashed star": 1
 			},
 			"Monster": {
-				"Skeleton": 12,
-				"Dark warrior": 15
+				"Skeleton": 12
 			},
 			"NPC": {
 				"Sam (cape merchant)": 1,
@@ -160723,14 +160731,14 @@
 		},
 		"13368": {
 			"Monster": {
-				"Waterfiend": 9,
-				"Lobster": 2
+				"Waterfiend": 9
 			},
 			"NPC": {
 				"Gull": 3,
 				"Rook": 1,
 				"Torsteg": 1,
-				"Hilda": 1
+				"Hilda": 1,
+				"Lobster": 2
 			},
 			"Nickname": "Daemonheim Entrance"
 		},
@@ -161326,9 +161334,7 @@
 			"NPC": {
 				"Gull": 4,
 				"Rook": 3,
-				"Listless dead": 2
-			},
-			"Monster": {
+				"Listless dead": 2,
 				"Lobster": 3
 			},
 			"Nickname": "Daemonheim Peninsula"
@@ -175492,7 +175498,6 @@
 				"Sea slug": 1
 			},
 			"Connect": {
-				"6467": true,
 				"10803": true
 			},
 			"Quest": {
@@ -175523,9 +175528,6 @@
 			},
 			"Connect": {
 				"10903": true
-			},
-			"Quest": {
-				"Kennith's Concerns": "step"
 			}
 		},
 		"Waterbirth Dungeon": {
@@ -188404,7 +188406,6 @@
 				"Fletching cape": 1,
 				"Fletching potion (3)": 3,
 				"God banner (skill)": 2,
-				"Poison chalice": 1,
 				"Spicy stew": 5,
 				"Spicy stew (Big Day)": 6
 			},
@@ -243898,7 +243899,7 @@
 		"In Search of the Myreque": "13878, 14131, 13876, 13877, Hallows Myreque Hideout",
 		"The Jack of Spades": "13105, 12844, 12587, 12585, 12586, Shifting Tombs",
 		"Jungle Potion": "11056, 11055, 11312, 11311, Pothole Dungeon",
-		"Kennith's Concerns": "10803, Witchaven Dungeon, 10804, Slug Citadel",
+		"Kennith's Concerns": "10803, Witchaven Dungeon, 10804",
 		"Kili Row": "City of Um",
 		"Kindred Spirits": "11574, 12338, 13881, 14131",
 		"King of the Dwarves": "Keldagrim, Lava Flow Mine, Barendir, Pretty Flower's Cave",
@@ -244800,6 +244801,9 @@
 			}],
 			"TzRek-Jad^": [{
 				"Unlock the ~|TzRek-Jad|~": "Nonskill"
+			}],
+			"Left skull half^Ankou": [{
+				"Stronghold drops": "Nonskill"
 			}]
 		},
 		"Monsters": {
