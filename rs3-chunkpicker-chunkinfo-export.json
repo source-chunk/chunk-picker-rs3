@@ -80277,7 +80277,7 @@
 			"~|Family Crest|~ 2": {
 				"BaseQuest": "Family Crest",
 				"Description": "Talk to Caleb",
-				"Chunks": ["11317"],
+				"Chunks": ["12597"],
 				"Tasks": {
 					"~|Family Crest|~ 1": "Quest"
 				},
@@ -80286,7 +80286,7 @@
 			"~|Family Crest|~ 3": {
 				"BaseQuest": "Family Crest",
 				"Description": "Talk to Caleb again with the fish",
-				"Chunks": ["11317"],
+				"Chunks": ["12597"],
 				"Items": ["Shrimps", "Bass", "Salmon", "Tuna", "Swordfish"],
 				"Tasks": {
 					"~|Family Crest|~ 2": "Quest"
@@ -134112,7 +134112,9 @@
 			},
 			"City of Um": {
 				"UnlocksArea": true,
-				"Not F2P": true
+				"Tasks": {
+					"~|Necromancy!|~ 1": "Quest"
+				},
 			},
 			"Necromantic Rune Temple": {
 				"Tasks": {
@@ -244382,6 +244384,9 @@
 			}],
 			"Corrupt Statius's warhammer^": [{
 				"Access members content": "Nonskill"
+			}],
+			"TokHaar-Kal-Mor^": [{
+				"~|Necromancy!|~ Complete the quest": "Quest"
 			}],
 			"Pilfer points^": [{
 				"~|A Guild of Our Own (miniquest)|~ Complete the miniquest": "Quest"
