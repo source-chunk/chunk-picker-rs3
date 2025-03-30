@@ -25736,7 +25736,7 @@
 				"NoBoost": true
 			},
 			"Wield a ~|Toktz-ket-xil|~": {
-				"Items": ["Tokz-ket-xil"],
+				"Items": ["Toktz-ket-xil"],
 				"Level": 60,
 				"Primary": false,
 				"Priority": 7,
@@ -50790,7 +50790,7 @@
 			},
 			"Cast ~|Advance Time|~": {
 				"Category": ["Spells", "Combat and Teleport Spells"],
-				"Items": ["Astral rune*", "Time rune*"],
+				"Items": ["Cosmic rune*", "Time rune*"],
 				"Level": 93,
 				"Primary": true,
 				"Priority": 3
@@ -55052,7 +55052,7 @@
 			},
 			"Make a bone offering at the ~|Ectofuntus|~": {
 				"Chunks": ["14646", "14647"],
-				"Items": ["EctoFunBone[+]"],
+				"Items": ["EctoFunBone[+]", "Ghostspeak amulet"],
 				"Level": 1,
 				"Output": "Ecto-token",
 				"Primary": true,
@@ -55060,7 +55060,7 @@
 			},
 			"Make an ash offering at the ~|Ectofuntus|~": {
 				"Chunks": ["14646"],
-				"Items": ["EctoFunAsh[+]"],
+				"Items": ["EctoFunAsh[+]", "Ghostspeak amulet"],
 				"Level": 1,
 				"Output": "Ecto-token",
 				"Primary": true,
@@ -59924,7 +59924,7 @@
 				"Priority": 5
 			},
 			"Imbue a ~|catalysed elemental diamond|~": {
-				"Chunks": ["Mind Rune Temple", "Body Rune Temple", "Cosmic Rune Temple", "Chaos Rune Temple", "Nature Rune Temple", "Law Rune Temple", "Death Rune Temple", "Blood Rune Temple", "Soul Rune Temple", "8508"],
+				"Chunks": ["Mind Rune Temple", "Body Rune Temple", "Cosmic Rune Temple", "Chaos Rune Temple", "Nature Rune Temple", "Law Rune Temple", "Death Rune Temple", "Blood Rune Temple", "Soul Rune Temple", "8508", "Time Rune Temple"],
 				"Items": ["Elemental diamond*"],
 				"Level": 110,
 				"Tasks": {
@@ -78779,6 +78779,7 @@
 				"Tasks": {
 					"~|Elemental Workshop I|~ 1": "Quest"
 				},
+				"Reward": ["Battered key"],
 				"Not F2P": true
 			},
 			"~|Elemental Workshop I|~ 3": {
@@ -88703,7 +88704,7 @@
 				"Tasks": {
 					"~|Monkey Madness|~ 10": "Quest"
 				},
-				"Rewards": ["Monkey talisman"],
+				"Reward": ["Monkey talisman"],
 				"Not F2P": true
 			},
 			"~|Monkey Madness|~ 12": {
@@ -89124,6 +89125,7 @@
 				"Tasks": {
 					"~|Mourning's End Part II|~ 1": "Quest"
 				},
+				"Reward": ["New key"],
 				"Not F2P": true
 			},
 			"~|Mourning's End Part II|~ 3": {
@@ -92810,8 +92812,8 @@
 			},
 			"~|Rebuilding Edgeville (miniquest)|~ 1": {
 				"BaseQuest": "Rebuilding Edgeville (miniquest)",
-				"Description": "Speak to Mandrith in deep wilderness",
-				"Chunks": ["12093"],
+				"Description": "Speak to Vannaka in Edgeville",
+				"Chunks": ["12342"],
 				"Tasks": {
 					"~|Ritual of the Mahjarrat|~ Complete the quest": "Quest"
 				},
@@ -92934,8 +92936,8 @@
 			},
 			"~|Rebuilding Edgeville (miniquest)|~ 3": {
 				"BaseQuest": "Rebuilding Edgeville (miniquest)",
-				"Description": "Return to Mandrith",
-				"Chunks": ["12093"],
+				"Description": "Return to Vannaka",
+				"Chunks": ["12342"],
 				"Tasks": {
 					"~|Rebuilding Edgeville (miniquest)|~ 2a3": "Quest",
 					"~|Rebuilding Edgeville (miniquest)|~ 2b2a": "Quest",
@@ -98396,6 +98398,7 @@
 				"Tasks": {
 					"~|The Tourist Trap|~ 1": "Quest"
 				},
+				"Reward": ["Metal key"],
 				"Not F2P": true
 			},
 			"~|The Tourist Trap|~ 3": {
@@ -118138,10 +118141,10 @@
 				"Label": "Slayer Collection Log",
 				"Items": ["Toktz-xil-ek"]
 			},
-			"(Karamja) Obtain a ~|Toktz-ket-om|~": {
+			"(Karamja) Obtain a ~|Tzhaar-ket-om|~": {
 				"Category": ["Collection Log", "Slayer Collection Log"],
 				"Label": "Slayer Collection Log",
-				"Items": ["Toktz-ket-om"]
+				"Items": ["Tzhaar-ket-om"]
 			},
 			"(Karamja) Obtain a ~|Toktz-ket-xil|~": {
 				"Category": ["Collection Log", "Slayer Collection Log"],
@@ -118393,10 +118396,10 @@
 				"Label": "Slayer Collection Log",
 				"Items": ["Blowpipe chitin"]
 			},
-			"(Lost Lands and Dungeons) Obtain ~|blowpipe feathers|~": {
+			"(Lost Lands and Dungeons) Obtain ~|blowpipe feather|~": {
 				"Category": ["Collection Log", "Slayer Collection Log"],
 				"Label": "Slayer Collection Log",
-				"Items": ["Blowpipe feathers"]
+				"Items": ["Blowpipe feather"]
 			},
 			"(Lost Lands and Dungeons) Obtain ~|blowpipe fins|~": {
 				"Category": ["Collection Log", "Slayer Collection Log"],
@@ -123551,6 +123554,12 @@
 				"Items": ["Decaying journal"],
 				"Not F2P": true
 			},
+			"(Lore Books) Obtain ~|The Journal of Fell Arnessen|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Combat"],
+				"Label": "Untracked Combat Uniques",
+				"Items": ["The Journal of Fell Arnessen"],
+				"Not F2P": true
+			},
 			"(Elite Dungeons) Obtain a ~|Acolyte of Seiryu headdress|~": {
 				"Category": ["Untracked Uniques", "Untracked Uniques Combat"],
 				"Label": "Untracked Combat Uniques",
@@ -124433,6 +124442,17 @@
 				"Items": ["Vorkath Necromancy weapon override token"],
 				"Not F2P": true
 			},
+			"(Untracked Boss) Obtain a ~|Divine Moon Guard and Lantern override token|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Combat"],
+				"Label": "Untracked Combat Uniques",
+				"Items": ["Divine Moon Guard and Lantern override token"],
+				"Not F2P": true
+			},
+			"(Untracked Boss) Obtain the ~|enhanced fire cape|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Combat"],
+				"Label": "Untracked Combat Uniques",
+				"Items": ["TokHaar-Kal-Ket", "TokHaar-Kal-Xil", "TokHaar-Kal-Mej"]
+			},
 			"(God Wars Dungeon) Obtain a ~|saradominist soulstone|~": {
 				"Category": ["Untracked Uniques", "Untracked Uniques Combat"],
 				"Label": "Untracked Combat Uniques",
@@ -124735,11 +124755,6 @@
 				"Label": "Untracked Combat Uniques",
 				"Items": ["Rusty scimitar"],
 				"Not F2P": true
-			},
-			"(Artisans' Workshop) Obtain the ~|dwarven instinct fragment 1|~": {
-				"Category": ["Untracked Uniques", "Untracked Uniques Minigames"],
-				"Label": "Untracked Minigame Uniques",
-				"Items": ["Dwarven instinct fragment 1"]
 			},
 			"(Combat Mastery) Obtain ~|War's medallion (Easy)|~": {
 				"Category": ["Untracked Uniques", "Untracked Uniques Combat"],
@@ -125340,6 +125355,11 @@
 					"~|Combat Mastery achievements#Grandmaster|~ Zemouregal & Vorkath (HM) Grandmaster Speed Killer": "Diary"
 				},
 				"Not F2P": true
+			},
+			"(Artisans' Workshop) Obtain the ~|dwarven instinct fragment 1|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Minigames"],
+				"Label": "Untracked Minigame Uniques",
+				"Items": ["Dwarven instinct fragment 1"]
 			},
 			"(Artisans' Workshop) Obtain the ~|dwarven instinct fragment 2|~": {
 				"Category": ["Untracked Uniques", "Untracked Uniques Minigames"],
@@ -127750,11 +127770,6 @@
 				"Category": ["Untracked Uniques", "Untracked Uniques Misc"],
 				"Label": "Untracked Misc Uniques",
 				"Chunks": ["New Varrock"]
-			},
-			"(Misc.) Obtain the ~|enhanced fire cape|~": {
-				"Category": ["Untracked Uniques", "Untracked Uniques Misc"],
-				"Label": "Untracked Misc Uniques",
-				"Items": ["TokHaar-Kal-Ket", "TokHaar-Kal-Xil", "TokHaar-Kal-Mej"]
 			},
 			"(PvP) Obtain the ~|duellist's cap|~ (tier 6)": {
 				"Category": ["Untracked Uniques", "Untracked Uniques Misc", "PVP"],
@@ -134222,6 +134237,9 @@
 					"Anchor the ~|time altar|~": "Runecrafting"
 				}
 			},
+			"Senntisten Asylum": {
+				"UnlocksArea": true
+			},
 			"Create a super explosive shaker*": {
 				"Items": ["Super explosive flask", "Rubium"],
 				"Output": "Super explosive shaker"
@@ -137260,6 +137278,9 @@
 		},
 		"40": {
 			"Name": "Time Rune Temple"
+		},
+		"41": {
+			"Name": "Senntisten Asylum"
 		},
 		"258": {
 			"Spawn": {
@@ -157077,6 +157098,10 @@
 				"Saradominist preacher": 1,
 				"Common brown rabbit": 11
 			},
+			"Monster": {
+				"Rabbit": 8,
+				"Duck": 1
+			},
 			"Shop": {
 				"Lumbridge Fishing Supplies": true
 			},
@@ -173061,8 +173086,8 @@
 				"Pipe": 2
 			},
 			"Monster": {
-				"Zombie#12": 3,
-				"Zombie#29": 4,
+				"Zombie#Level 12": 3,
+				"Zombie#Level 29": 4,
 				"Rat": 10,
 				"Skeleton": 4
 			},
@@ -175867,7 +175892,8 @@
 			},
 			"Connect": {
 				"6680": true,
-				"13365": true
+				"13365": true,
+				"41": true
 			},
 			"Quest": {
 				"City of Senntisten": "step",
@@ -177294,6 +177320,9 @@
 				"Lesser demon": 3,
 				"Ice spider": 9,
 				"Giant spider": 2
+			},
+			"Spawn": {
+				"Shiny key": 1
 			},
 			"Connect": {
 				"10549": true,
@@ -180504,6 +180533,16 @@
 			},
 			"Connect": {
 				"15430": true
+			}
+		},
+		"Senntisten Asylum": {
+			"Monster": {
+				"Abyssal savage": 11,
+				"Abyssal beast": 8,
+				"Abyssal lord": 5
+			},
+			"Connect": {
+				"6941": true
 			}
 		}
 	},
@@ -188039,6 +188078,9 @@
 				"Skeletal wyvern": true,
 				"Skeleton mage": true,
 				"Skeleton": true,
+				"Skeleton (Tarn's Lair)#Low Level": true,
+				"Skeleton (Tarn's Lair)#Mid Level": true,
+				"Skeleton (Tarn's Lair)#High Level": true,
 				"Skoblin": true,
 				"Skogre": true,
 				"Small scarab": true,
@@ -188051,7 +188093,12 @@
 				"Wight ranger": true,
 				"Zombie pirate": true,
 				"Zombie swab": true,
-				"Zombie": true
+				"Zombie (Tarn's lair)#Low Level": true,
+				"Zombie (Tarn's lair)#Mid Level": true,
+				"Zombie (Tarn's lair)#High Level": true,
+				"Zombie#Level 12": true,
+				"Zombie#Level 22": true,
+				"Zombie#Level 29": true
 			},
 			"Vampyres": {
 				"Revenant vampyre": true,
@@ -188125,7 +188172,9 @@
 				"Corpse spider": true,
 				"Undead cow": true,
 				"Crawling corpse torse": true,
-				"Zombie": true,
+				"Zombie#Level 12": true,
+				"Zombie#Level 22": true,
+				"Zombie#Level 29": true,
 				"Summoned zombie": true,
 				"Corpse archer": true,
 				"Corpse mage": true,
@@ -188138,7 +188187,9 @@
 				"Zogre": true,
 				"Dried zombie": true,
 				"Monkey zombie": true,
-				"Zombie (Tarn's lair)": true,
+				"Zombie (Tarn's lair)#Low Level": true,
+				"Zombie (Tarn's lair)#Mid Level": true,
+				"Zombie (Tarn's lair)#High Level": true,
 				"Zombie hand": true,
 				"Undead troll": true,
 				"General malpractioner": true,
@@ -190728,6 +190779,9 @@
 			},
 			"Glacor core": {
 				"1": "1/3000"
+			},
+			"The Journal of Fell Arnessen": {
+				"1": "Common"
 			}
 		},
 		"Arch-Glacor (Hard Mode)": {
@@ -205619,6 +205673,9 @@
 			},
 			"After The Flood": {
 				"1": "1/10"
+			},
+			"Divine Moon Guard and Lantern override token": {
+				"1": "Very rare"
 			},
 			"Starved ancient effigy": {
 				"1": "Very rare"
@@ -244948,6 +245005,11 @@
 			"Giant spider": {
 				"Temple of Ikov": [{
 					"~|Temple of Ikov|~ 1": "Quest"
+				}]
+			},
+			"Giant Lobster": {
+				"Witchaven Dungeon": [{
+					"~|The Slug Menace|~ 3": "Nonskill"
 				}]
 			},
 			"Giant Mole (Hard Mode)": {
