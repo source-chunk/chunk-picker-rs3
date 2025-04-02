@@ -953,6 +953,7 @@ let settings = {
     "optOutSections": false,
     "unlockedBorderColor": '#FF0000',
     "defaultChunkinfo": 'monsters',
+    "taskSearchbar": false,
 };                                                                              // Current state of all settings
 
 let settingNames = {
@@ -985,6 +986,7 @@ let settingNames = {
     "optOutSections": "Always assume all chunks are entirely accessible (opt out of chunk sections)",
     "unlockedBorderColor": "Change the color of the border surrounding your unlocked chunks",
     "defaultChunkinfo": 'Select the default tab when first opening the Chunk Info Panel',
+    "taskSearchbar": "Show a searchbar at the top of your Active Tasks to allow filtering. Useful for maps with large task lists that have trouble finding specific tasks"
 };                                                                              // Descriptions of the settings
 
 let settingStructure = {
@@ -1000,7 +1002,7 @@ let settingStructure = {
     "Information Panels": {
         "recent": true,
         "info": ["defaultChunkinfo"],
-        "chunkTasks": ["taskSidebar", "hideChecked"],
+        "chunkTasks": ["taskSidebar", "hideChecked", "taskSearchbar"],
         "topButtons": ["allTasks"]
     },
     "Warnings": {
@@ -1457,7 +1459,7 @@ let detailsStack = [];
 let touchTime = 0;
 let mobileChunkId = 0;
 let sidebarHidden = false;
-let topbarSelection = ['Patreon', 'Map Notes', 'Patch Notes', 'Discord', 'Report a Bug', 'Chunk-roll History', 'Settings'];
+let topbarSelection = ['Help', 'Patreon', 'Map Notes', 'Patch Notes', 'Discord', 'Report a Bug', 'Chunk-roll History', 'Settings'];
 let topbarChoices = ['Map Notes', 'Patch Notes', 'Report a Bug', 'Chunk-roll History', 'Screenshot Mode', 'Sandbox Mode'];
 let topbarElements = {
     'Map Notes': `<div><span class='noscroll' onclick="openChunkNotesModal()"><i class="gonotes fa-solid fa-sticky-note" title='Notes'></i></span></div>`,
@@ -1468,7 +1470,7 @@ let topbarElements = {
     'Sandbox Mode': `<div><span class='noscroll' onclick="enableTestMode()"><i class="gosandbox fa-solid fa-flask" title='Sandbox Mode'></i></span></div>`,
 };
 
-let currentVersion = '6.6.10';
+let currentVersion = '6.6.11';
 let patchNotesVersion = '6.4.0';
 let updateLevel = 'difference';
 
@@ -1567,6 +1569,8 @@ let searchDetailSortBy = 'Alphabetical';
 let searchDetailsParams = [];
 let recentFancyRollTimeout;
 let recentFancyRollTime = 0;
+let searchActiveTasksFocused = false;
+let removeCanvasDarkness = false;
 let lastRegain = 0;
 let lastUpdated = 0;
 let wildySlayerChunks = ['11835', '11836', '12090', '12091', '12345', '12347', '12601', '12605', '12857', '12858', '13115', '13116', '13368', 'Edgeville Dungeon', 'Forinthry Dungeon'];
@@ -1610,7 +1614,7 @@ mapImg.addEventListener("load", e => {
         centerCanvas('quick');
     }
 });
-mapImg.src = "runescape_world_map.png?v=6.6.10";
+mapImg.src = "runescape_world_map.png?v=6.6.11";
 
 // Rounded rectangle
 CanvasRenderingContext2D.prototype.roundRect = function (x, y, w, h, r) {
@@ -2286,6 +2290,16 @@ document.body.addEventListener('mouseup', function (event) {
 
 // Handles mouse down event
 let handleMouseDown = function(e) {
+    if (e.target.id === 'searchActiveTasks' && !inEntry) {
+        searchActiveTasksFocused = true;
+        $('#canvas').css('filter', 'brightness(0.4)');
+        return;
+    }
+    if (e.target.id !== 'searchActiveTasks' && searchActiveTasksFocused) {
+        searchActiveTasksFocused = false;
+        removeCanvasDarkness = true;
+        return;
+    }
     if ((e.button !== 0 && !e.touches) || atHome || inEntry || importMenuOpen || highscoreMenuOpen || helpMenuOpen || patchNotesOpen || manualModalOpen || detailsModalOpen || notesModalOpen || rulesModalOpen || settingsModalOpen || randomModalOpen || userTasksModalOpen || randomListModalOpen || statsErrorModalOpen || searchModalOpen || searchDetailsModalOpen || highestModalOpen || highest2ModalOpen || methodsModalOpen || completeModalOpen || addEquipmentModalOpen || stickerModalOpen || backlogSourcesModalOpen || chunkHistoryModalOpen || challengeAltsModalOpen || manualOuterModalOpen || monsterModalOpen || slayerLockedModalOpen || rollChunkModalOpen || questStepsModalOpen || friendsListModalOpen || friendsAddModalOpen || passiveSkillModalOpen || mapIntroOpen || xpRewardOpen || manualAreasModalOpen || chunkSectionsModalOpen || chunkSectionPickerModalOpen || slayerMasterInfoModalOpen || doableClueStepsModalOpen || clueChunksModalOpen || notesOpen || newTasksOpen || clipboardModalOpen || overlaysModalOpen || userTasksListModalOpen || userTaskDeleteConfirmationModalOpen || exitSandboxWarningModalOpen || mobileMenuOpen || mobileTasksOpen || mobileChunkMenuOpen || customizeTopbarModalOpen || e.target.nodeName.toLowerCase() === 'select' || e.target.nodeName.toLowerCase() === 'option') {
         drawCanvas();
         return;
@@ -2497,6 +2511,11 @@ let handleKeyUp = function(e) {
 let handleMouseUp = function(e) {
     if ((e.button !== 0 && e.button !== 2 && e.type !== 'touchend') || (onMobile && e.type !== 'touchend') || atHome || inEntry || importMenuOpen || highscoreMenuOpen || helpMenuOpen || patchNotesOpen || manualModalOpen || detailsModalOpen || notesModalOpen || rulesModalOpen || settingsModalOpen || randomModalOpen || userTasksModalOpen || randomListModalOpen || statsErrorModalOpen || searchModalOpen || searchDetailsModalOpen || highestModalOpen || highest2ModalOpen || methodsModalOpen || completeModalOpen || addEquipmentModalOpen || stickerModalOpen || backlogSourcesModalOpen || chunkHistoryModalOpen || challengeAltsModalOpen || manualOuterModalOpen || monsterModalOpen || slayerLockedModalOpen || rollChunkModalOpen || questStepsModalOpen || friendsListModalOpen || friendsAddModalOpen || passiveSkillModalOpen || mapIntroOpen || xpRewardOpen || manualAreasModalOpen || chunkSectionsModalOpen || chunkSectionPickerModalOpen || slayerMasterInfoModalOpen || doableClueStepsModalOpen || clueChunksModalOpen || notesOpen || newTasksOpen || clipboardModalOpen || overlaysModalOpen || userTasksListModalOpen || userTaskDeleteConfirmationModalOpen || exitSandboxWarningModalOpen || mobileMenuOpen || mobileTasksOpen || mobileChunkMenuOpen || customizeTopbarModalOpen) {
         drawCanvas();
+        return;
+    }
+    if (removeCanvasDarkness) {
+        removeCanvasDarkness = false;
+        $('#canvas').css('filter', 'brightness(1)');
         return;
     }
     if (e.type === 'touchend') {
@@ -3294,7 +3313,7 @@ let calcCurrentChallengesCanvas = function(useOld, proceed, fromLoadData, inputT
         setCalculating('.panel-active', useOld);
         setCurrentChallenges(['No tasks currently backlogged.'], ['No tasks currently completed.'], true, true);
         myWorker.terminate();
-        myWorker = new Worker("./worker.js?v=6.6.10");
+        myWorker = new Worker("./worker.js?v=6.6.11");
         myWorker.onmessage = workerOnMessage;
         myWorker.postMessage(['current', tempChunks['unlocked'], rules, chunkInfo, skillNames, processingSkill, maybePrimary, combatSkills, monstersPlus, objectsPlus, chunksPlus, itemsPlus, mixPlus, npcsPlus, tasksPlus, tools, elementalRunes, manualTasks, completedChallenges, backlog, "1/" + rules['Rare Drop Amount'], universalPrimary, elementalStaves, rangedItems, boneItems, highestCurrent, dropTables, possibleAreas, randomLoot, magicTools, bossLogs, bossMonsters, minigameShops, manualEquipment, checkedChallenges, backloggedSources, altChallenges, manualMonsters, slayerLocked, passiveSkill, f2pSkills, assignedXpRewards, mid === diary2Tier, manualAreas, "1/" + rules['Secondary Primary Amount'], mid === manualAreasOnly, tempSections, settings['optOutSections'], maxSkill, userTasks, manualPrimary, updateLevel]);
         workerOut = 1;
@@ -3597,8 +3616,8 @@ $(document).ready(function() {
 // ------------------------------------------------------------
 
 // Recieve message from worker
-let myWorker = new Worker("./worker.js?v=6.6.10");
-let myWorker2 = new Worker("./worker.js?v=6.6.10");
+let myWorker = new Worker("./worker.js?v=6.6.11");
+let myWorker2 = new Worker("./worker.js?v=6.6.11");
 let workerOnMessage = function(e) {
     if (e.data[0] === 'reload') {
         window.location.reload();
@@ -3816,11 +3835,11 @@ $(document).ready(function() {
     checkMID(window.location.href.split('?')[1]);
     console.info('Chunk Picker RS3 - Version', currentVersion);
 
-    const currentDate = new Date();
-    if (currentDate.getUTCDate() === 1 && currentDate.getUTCMonth() === 3) { // April 1
+    const currentDate = new Date(new Date().toLocaleString('en-US', { timeZone: 'Europe/London' }));
+    if (currentDate.getDate() === 1 && currentDate.getMonth() === 3) { // April 1
         $('html').addClass('hide-cursor');
         const cursors = ["Colossal_blade.png", "Curved_bone.png", "Dragon_2h_sword.png", "Dragon_dagger(p++).png", "Dragon_longsword.png", "Dragon_spear.png", "Hill_giant_club.png", "Knife.png", "Mithril_scimitar.png", "Obsidian_cape.png", "Osmumten's_fang.png", "Skull_sceptre_(i).png", "Trout.png", "Twinflame_staff.png", "Wolfbane.png", "Armadyl_godsword.png"];
-        let midNumTotal = 0;
+        let midNumTotal = currentDate.getUTCFullYear() + 7;
         if (!!window.location.href.split('?')[1]) {
             window.location.href.split('?')[1].split('').forEach((letter) => {
                 midNumTotal += letter.charCodeAt(0);
@@ -3830,7 +3849,7 @@ $(document).ready(function() {
         }
         const cursorImage = `./resources/cursors/${cursors[midNumTotal % cursors.length]}`;
         $('head').append(`<style>.hide-cursor * { cursor: url('${cursorImage}') 0 0, auto !important; }</style>`);
-    } else if (currentDate.getUTCMonth() === 11) { // December
+    } else if (currentDate.getMonth() === 11) { // December
         $('.avatar img').attr('src', './source-chunk-avatar-hat.png');
     }
 
@@ -5485,6 +5504,14 @@ let toggleChunkTasks = function(value, extra) {
     extra !== 'startup' && !locked && setData();
 }
 
+// Toggles the chunk tasks searchbar
+let toggleTaskSearchbar = function(value, extra) {
+    if (!onMobile) {
+        value ? $('#searchActiveTasks').show() : $('#searchActiveTasks').hide();
+    }
+    extra !== 'startup' && !locked && setData();
+}
+
 // Toggles the top buttons
 let toggleTopButtons = function(value, extra) {
     topButtonsOn = value;
@@ -5507,9 +5534,9 @@ let toggleTaskSidebar = function(value, extra) {
 }
 
 // Toggles checked-off task hiding
-let toggleHiddenTasks = function(value) {
+let toggleHiddenTasks = function(value, fromSearch) {
     $('.no-current').remove();
-    value ? $('.hide-backlog').hide() : $('.hide-backlog').show();
+    value ? $('.hide-backlog').hide() : $('.hide-backlog:not(.searchhide)').show();
     Object.keys(activeSubTabs).forEach((section) => {
         if (value) {
             $(`.${section}-challenge:not(.hide-backlog)`).length <= 0 ? $('.marker-' + section).hide() : $('.marker-' + section).show();
@@ -5522,6 +5549,7 @@ let toggleHiddenTasks = function(value) {
             $('.panel-active').append(`<span class="no-current">No current chunk tasks.</span>`);
         }
     }
+    !fromSearch && searchActiveTasksFunc();
 }
 
 // Toggles the visibility of the roll2 button
@@ -5603,6 +5631,7 @@ let toggleChallengesPanel = function(pnl) {
             challengePanelVis[uniqKey] = false;
         }
     });
+    challengePanelVis['active'] ? $('#searchActiveTasks').show() : $('#searchActiveTasks').hide();
 }
 
 // Toggles the accordion panels of the rules panel
@@ -6372,7 +6401,7 @@ let toggleSubCheckbox = function(event, subTab) {
     toggleSubCheckboxTime = Date.now();
     $('.challenge.' + subTab + '-challenge input').prop('checked', true);
     !!subCheckboxNames[subTab] && Object.keys(subCheckboxNames[subTab]).forEach((challenge) => {
-        delete checkedChallenges['Extra'][challenge];
+        checkedChallenges['Extra'] && delete checkedChallenges['Extra'][challenge];
         checkOffChallenge('Extra', encodeRFC5987ValueChars(challenge));
     });
 }
@@ -6422,7 +6451,7 @@ let calcFutureChallenges = function() {
     }
     tempSections = combineJSONs(tempSections, manualSections);
     myWorker2.terminate();
-    myWorker2 = new Worker("./worker.js?v=6.6.10");
+    myWorker2 = new Worker("./worker.js?v=6.6.11");
     myWorker2.onmessage = workerOnMessage;
     myWorker2.postMessage(['future', chunks, rules, chunkInfo, skillNames, processingSkill, maybePrimary, combatSkills, monstersPlus, objectsPlus, chunksPlus, itemsPlus, mixPlus, npcsPlus, tasksPlus, tools, elementalRunes, manualTasks, completedChallenges, backlog, "1/" + rules['Rare Drop Amount'], universalPrimary, elementalStaves, rangedItems, boneItems, highestCurrent, dropTables, possibleAreas, randomLoot, magicTools, bossLogs, bossMonsters, minigameShops, manualEquipment, checkedChallenges, backloggedSources, altChallenges, manualMonsters, slayerLocked, passiveSkill, f2pSkills, assignedXpRewards, mid === diary2Tier, manualAreas, "1/" + rules['Secondary Primary Amount'], mid === manualAreasOnly, tempSections, settings['optOutSections'], maxSkill, userTasks, manualPrimary, updateLevel]);
     workerOut++;
@@ -7376,7 +7405,7 @@ let openCustomizeTopbar = function() {
     $('#cutomize-topbar-data-inner').empty();
     customizeTopbarModalOpen = true;
     $('#myModal46').show();
-    for (let i = 0; i < 7; i++) {
+    for (let i = 0; i < 8; i++) {
         let tempSelect;
         if (!topbarChoices.includes(topbarSelection[i])) {
             tempSelect = `<select id="topbar-select-slot-${i}" disabled><option 'selected' value="${topbarSelection[i]}">${topbarSelection[i]}</option></select>`;
@@ -7808,6 +7837,33 @@ let openManualComplete = function() {
     completeModalOpen = true;
     $('#myModal14').show();
     modalOutsideTime = Date.now();
+}
+
+
+// Filters the full list of challenges
+let searchActiveTasksFunc = function() {
+    if (inEntry) {
+        $('#searchActiveTasks').val('');
+        return;
+    }
+    let searchTemp = ($('#searchActiveTasks').val() || '').toLowerCase();
+    challengeArr.forEach((line) => {
+        let el = $('.' + $(line).attr('class').trim().replaceAll(/[ \t]+/g, '.'));
+        let valid = $(line).text().toLowerCase().includes(searchTemp);
+        if (valid) {
+            el.hasClass('doubletab') && el.addClass('not-doubletab');
+            el.removeClass('searchhide').show();
+        } else {
+            el.addClass('searchhide').hide();
+        }
+    });
+    toggleHiddenTasks(settings['hideChecked'] && actuallyHideChecked, true);
+    if (searchTemp.length > 0) {
+        $('.panel-active .marker').hide();
+    } else {
+        $('.panel-active .marker').show();
+        $('.not-doubletab').removeClass('not-doubletab');
+    }
 }
 
 // Opens the user-inputted tasks modal
@@ -8497,7 +8553,7 @@ let addPassiveSkill = function(close, skill) {
 let unlockSlayer = function() {
     slayerLocked = null;
     setData();
-    calcCurrentChallengesCanvas(true, true);
+    calcCurrentChallengesCanvas(true, !highest2ModalOpen);
     highest2ModalOpen && openHighest2();
 }
 
@@ -9393,6 +9449,7 @@ let setCurrentChallenges = function(backlogArr, completedArr, useOld, noClear) {
     if (useOld) {
         !noClear && (oldSavedChallengeArr.length > 0 || workerOut === 0) && $('.panel-active').css({ 'min-height': '', 'font-size': '' }).removeClass('calculating').empty();
         !noClear && (oldSavedChallengeArr.length > 0 || workerOut === 0) && $('.panel-active > i').css('line-height', '');
+        $('#searchActiveTasks').val('');
         (oldSavedChallengeArr.length > 0 || workerOut === 0) && $('.panel-active').append(...oldSavedChallengeArr);
         if ($('.panel-active .skill-challenge').length === 0) {
             $('.marker-skill').remove();
@@ -9421,11 +9478,24 @@ let setCurrentChallenges = function(backlogArr, completedArr, useOld, noClear) {
         $('.panel-active span.burger').addClass('hidden-burger');
         changeChallengeColor();
         setTaskNum();
+        searchActiveTasksFunc();
     } else {
         !noClear && (challengeArr.length > 0 || workerOut === 0) && $('.panel-active').css({ 'min-height': '', 'font-size': '' }).removeClass('calculating').empty();
         noClear && (challengeArr.length > 0 || workerOut === 0) && $('.panel-active .marker, .panel-active .challenge').remove();
         !noClear && (challengeArr.length > 0 || workerOut === 0) && $('.panel-active > i').css('line-height', '');
-        (challengeArr.length > 0 || workerOut === 0) && $('.panel-active').append(...challengeArr);
+        if (challengeArr.length > 0 || workerOut === 0) {
+            if (!noClear) {
+                $('#searchActiveTasks').remove();
+                $('#challengesactive').after(`<input type="text" placeholder="Filter tasks..." id="searchActiveTasks" class="noscrollhard" oninput="searchActiveTasksFunc()" autocomplete="off" />`);
+                $('#searchActiveTasks').on('focus', function(e) {
+                    if (inEntry) {
+                        $('#searchActiveTasks').blur();
+                    }
+                });
+            }
+            toggleTaskSearchbar(settings['taskSearchbar']);
+            $('.panel-active').append(...challengeArr);
+        }
         if ($('.panel-active .skill-challenge').length === 0) {
             $('.marker-skill').remove();
         }
@@ -9451,6 +9521,7 @@ let setCurrentChallenges = function(backlogArr, completedArr, useOld, noClear) {
         oldSavedChallengeArr = challengeArr;
         setData();
         setTaskNum();
+        searchActiveTasksFunc();
         $('.panel-backlog').css({ 'min-height': '', 'font-size': '' }).removeClass('calculating').empty();
         $('.panel-backlog > i').css('line-height', '');
         (testMode || !(viewOnly || inEntry || locked)) && $('.panel-backlog').append(`<div class='noscroll backlogSources-container'><span class='noscroll backlogSources' onclick='backlogSources()'><i class="fa-solid fa-archive"></i>Backlog Sources</span></div>`);
@@ -9921,6 +9992,7 @@ let clearOverlayClues = function() {
 // Toggle overlay within chunks only
 let changeOverlayFilterBy = function() {
     unlockedOverlayOnly = !unlockedOverlayOnly;
+    drawCanvas();
 }
 
 // Shows overlay options
@@ -9929,6 +10001,7 @@ let showOverlays = function(fromHelper) {
         onMobile && hideMobileMenu();
         overlaysModalOpen = true;
         $('#overlays-data').empty();
+        $('.overlays-title-checkbox input').prop('checked', unlockedOverlayOnly);
         let overlay;
         let overlayLink;
         ['None', ...Object.keys(chunkInfo['mapOverlays'])].forEach((overlayText) => {
@@ -10399,6 +10472,7 @@ let changeChallengeColor = function() {
     $('.tasks-checkmark').css({ 'color': settings['completedTaskColor'] });
     setData();
     setTaskNum();
+    searchActiveTasksFunc();
 }
 
 // Resets the active challenges color
@@ -10563,7 +10637,7 @@ let switchBacklogContext = function(opt) {
     if (!(viewOnly || inEntry || locked) || testMode) {
         switch (opt) {
             case "unbacklog": unbacklogChallenge(backlogContextMenuChallenge, backlogContextMenuSkill); break;
-            case "edit note": showNotes(backlogContextMenuChallenge, backlogContextMenuSkill, backlog[backlogContextMenuSkill][backlogContextMenuChallenge]); break;
+            case "edit note": showNotes(backlogContextMenuChallenge, backlogContextMenuSkill, backlog[backlogContextMenuSkill][decodeQueryParam(backlogContextMenuChallenge)]); break;
             case "details": showDetails(encodeRFC5987ValueChars(backlogContextMenuChallenge), backlogContextMenuSkill, ''); break;
         }
     }
@@ -10842,6 +10916,7 @@ let checkOffChallenge = function(skill, line) {
         setData();
         setTaskNum();
         toggleHiddenTasks(settings['hideChecked'] && actuallyHideChecked);
+        searchActiveTasksFunc();
     }
 }
 
@@ -10946,6 +11021,7 @@ let checkOffSettings = function(didRedo, startup) {
     toggleTopButtons(settings['topButtons'], startup);
     toggleTaskSidebar(settings['taskSidebar'], startup);
     toggleHiddenTasks(settings['hideChecked'] && actuallyHideChecked);
+    toggleTaskSearchbar(settings['taskSearchbar'], startup);
     settings['hideChecked'] ? $(`.tasks-checkmark`).show() : $(`.tasks-checkmark`).hide();
     changeChallengeColor();
     if (!startup) {
@@ -11417,6 +11493,7 @@ let loadData = async function(startup) {
         toggleChunkTasks(settings['chunkTasks'], 'startup');
         toggleTopButtons(settings['topButtons'], 'startup');
         toggleTaskSidebar(settings['taskSidebar'], 'startup');
+        toggleTaskSearchbar(settings['taskSearchbar'], 'startup');
         settings['hideChecked'] ? $(`.tasks-checkmark`).show() : $(`.tasks-checkmark`).hide();
     });
     myRef.child('recent').on('value', function(snap) {
@@ -11426,7 +11503,10 @@ let loadData = async function(startup) {
     });
     myRef.child('topbarSelection').on('value', function(snap) {
         let snapDiff = preloadHelper(snap, 'topbarSelection');
-        topbarSelection = snap.val() || ['Patreon', 'Map Notes', 'Patch Notes', 'Discord', 'Report a Bug', 'Chunk-roll History', 'Settings'];
+        topbarSelection = snap.val() || ['Help', 'Patreon', 'Map Notes', 'Patch Notes', 'Discord', 'Report a Bug', 'Chunk-roll History', 'Settings'];
+        if (topbarSelection.length === 7) {
+            topbarSelection.unshift('Help');
+        }
         manageTopbar();
         if (snapDiff === false) return;
     });
@@ -11878,7 +11958,7 @@ let setData = function() {
                     recentFancyRollTime,
                     userTasks: encodeObject(userTasks, true),
                     manualPrimary: encodeObject(manualPrimary, true),
-                    settings: { 'neighbors': autoSelectNeighbors, 'walkableRollable': settings['walkableRollable'], 'autoWalkableRollable': settings['autoWalkableRollable'], 'remove': autoRemoveSelected, 'roll2': roll2On, 'unpick': unpickOn, 'randomStartAlways': settings['randomStartAlways'], 'recent': recentOn, 'cinematicRoll': settings['cinematicRoll'], 'highscoreEnabled': false, 'chunkTasks': chunkTasksOn, 'topButtons': topButtonsOn, 'completedTaskColor': settings['completedTaskColor'], 'defaultStickerColor': settings['defaultStickerColor'], 'unlockedBorderColor': settings['unlockedBorderColor'], 'completedTaskStrikethrough': settings['completedTaskStrikethrough'], 'taskSidebar': settings['taskSidebar'], 'allTasks': settings['allTasks'], 'startingChunk': settings['startingChunk'], 'numTasksPercent': settings['numTasksPercent'], 'help': !(!helpMenuOpen && !helpMenuOpenSoon), 'patchNotes': (!patchNotesOpen && !patchNotesOpenSoon) ? patchNotesVersion : settings['patchNotes'], 'mapIntro': !mapIntroOpen && !mapIntroOpenSoon, 'theme': theme, 'newTasks': settings['newTasks'], 'hideChecked': settings['hideChecked'], 'shiftUnlock': settings['shiftUnlock'], rollWarning: settings['rollWarning'], optOutSections: settings['optOutSections'], info: chunkInfoOn, 'defaultChunkinfo': settings['defaultChunkinfo'] }, //TEMP (highscore not enabled)
+                    settings: { 'neighbors': autoSelectNeighbors, 'walkableRollable': settings['walkableRollable'], 'autoWalkableRollable': settings['autoWalkableRollable'], 'remove': autoRemoveSelected, 'roll2': roll2On, 'unpick': unpickOn, 'randomStartAlways': settings['randomStartAlways'], 'recent': recentOn, 'cinematicRoll': settings['cinematicRoll'], 'highscoreEnabled': false, 'chunkTasks': chunkTasksOn, 'topButtons': topButtonsOn, 'completedTaskColor': settings['completedTaskColor'], 'defaultStickerColor': settings['defaultStickerColor'], 'unlockedBorderColor': settings['unlockedBorderColor'], 'completedTaskStrikethrough': settings['completedTaskStrikethrough'], 'taskSidebar': settings['taskSidebar'], 'allTasks': settings['allTasks'], 'startingChunk': settings['startingChunk'], 'numTasksPercent': settings['numTasksPercent'], 'help': !(!helpMenuOpen && !helpMenuOpenSoon), 'patchNotes': (!patchNotesOpen && !patchNotesOpenSoon) ? patchNotesVersion : settings['patchNotes'], 'mapIntro': !mapIntroOpen && !mapIntroOpenSoon, 'theme': theme, 'newTasks': settings['newTasks'], 'hideChecked': settings['hideChecked'], 'shiftUnlock': settings['shiftUnlock'], rollWarning: settings['rollWarning'], optOutSections: settings['optOutSections'], info: chunkInfoOn, 'defaultChunkinfo': settings['defaultChunkinfo'], 'taskSearchbar': settings['taskSearchbar'] }, //TEMP (highscore not enabled)
                     chunkinfo: { checkedChallenges: encodeObject(checkedChallenges, true), completedChallenges: encodeObject(completedChallenges, true), backlog: encodeObject(backlog, true), possibleAreas: encodeObject(possibleAreas, true), manualTasks: encodeObject(manualTasks, true), manualEquipment: encodeObject(manualEquipment, true), backloggedSources: encodeObject(backloggedSources, true), altChallenges: encodeObject(altChallenges, true), manualMonsters: encodeObject(manualMonsters, true), slayerLocked: encodeObject(slayerLocked, true), passiveSkill: encodeObject(passiveSkill, true), maxSkill: encodeObject(maxSkill, true), oldSavedChallengeArr: encodeObject(oldSavedChallengeArr, true), assignedXpRewards: encodeObject(assignedXpRewards, true), manualAreas: encodeObject(manualAreas, true), manualSections: encodeObject(manualSections, true), prevValueLevelInput: encodeObject(prevValueLevelInput, true), checkedAllTasks: encodeObject(checkedAllTasks, true) },
                     chunks: { unlocked: unlockedJson, selected: selectedJson, potential: potentialJson, blacklisted: blacklistedJson, stickered, stickeredNotes: encodeObject(stickeredNotes, true), stickeredColors },
                 };
@@ -11945,7 +12025,7 @@ let setData = function() {
                 recentFancyRollTime,
                 userTasks: encodeObject(userTasks, true),
                 manualPrimary: encodeObject(manualPrimary, true),
-                settings: { 'neighbors': autoSelectNeighbors, 'walkableRollable': settings['walkableRollable'], 'autoWalkableRollable': settings['autoWalkableRollable'], 'remove': autoRemoveSelected, 'roll2': roll2On, 'unpick': unpickOn, 'randomStartAlways': settings['randomStartAlways'], 'recent': recentOn, 'cinematicRoll': settings['cinematicRoll'], 'highscoreEnabled': false, 'chunkTasks': chunkTasksOn, 'topButtons': topButtonsOn, 'completedTaskColor': settings['completedTaskColor'], 'defaultStickerColor': settings['defaultStickerColor'], 'unlockedBorderColor': settings['unlockedBorderColor'], 'completedTaskStrikethrough': settings['completedTaskStrikethrough'], 'taskSidebar': settings['taskSidebar'], 'allTasks': settings['allTasks'], 'startingChunk': settings['startingChunk'], 'numTasksPercent': settings['numTasksPercent'], 'help': !(!helpMenuOpen && !helpMenuOpenSoon), 'patchNotes': (!patchNotesOpen && !patchNotesOpenSoon) ? patchNotesVersion : settings['patchNotes'], 'mapIntro': !mapIntroOpen && !mapIntroOpenSoon, 'theme': theme, 'newTasks': settings['newTasks'], 'hideChecked': settings['hideChecked'], 'shiftUnlock': settings['shiftUnlock'], rollWarning: settings['rollWarning'], optOutSections: settings['optOutSections'], info: chunkInfoOn, 'defaultChunkinfo': settings['defaultChunkinfo'] }, //TEMP (highscore not enabled)
+                settings: { 'neighbors': autoSelectNeighbors, 'walkableRollable': settings['walkableRollable'], 'autoWalkableRollable': settings['autoWalkableRollable'], 'remove': autoRemoveSelected, 'roll2': roll2On, 'unpick': unpickOn, 'randomStartAlways': settings['randomStartAlways'], 'recent': recentOn, 'cinematicRoll': settings['cinematicRoll'], 'highscoreEnabled': false, 'chunkTasks': chunkTasksOn, 'topButtons': topButtonsOn, 'completedTaskColor': settings['completedTaskColor'], 'defaultStickerColor': settings['defaultStickerColor'], 'unlockedBorderColor': settings['unlockedBorderColor'], 'completedTaskStrikethrough': settings['completedTaskStrikethrough'], 'taskSidebar': settings['taskSidebar'], 'allTasks': settings['allTasks'], 'startingChunk': settings['startingChunk'], 'numTasksPercent': settings['numTasksPercent'], 'help': !(!helpMenuOpen && !helpMenuOpenSoon), 'patchNotes': (!patchNotesOpen && !patchNotesOpenSoon) ? patchNotesVersion : settings['patchNotes'], 'mapIntro': !mapIntroOpen && !mapIntroOpenSoon, 'theme': theme, 'newTasks': settings['newTasks'], 'hideChecked': settings['hideChecked'], 'shiftUnlock': settings['shiftUnlock'], rollWarning: settings['rollWarning'], optOutSections: settings['optOutSections'], info: chunkInfoOn, 'defaultChunkinfo': settings['defaultChunkinfo'], 'taskSearchbar': settings['taskSearchbar'] }, //TEMP (highscore not enabled)
                 chunkinfo: { checkedChallenges: encodeObject(checkedChallenges, true), completedChallenges: encodeObject(completedChallenges, true), backlog: encodeObject(backlog, true), possibleAreas: encodeObject(possibleAreas, true), manualTasks: encodeObject(manualTasks, true), manualEquipment: encodeObject(manualEquipment, true), backloggedSources: encodeObject(backloggedSources, true), altChallenges: encodeObject(altChallenges, true), manualMonsters: encodeObject(manualMonsters, true), slayerLocked: encodeObject(slayerLocked, true), passiveSkill: encodeObject(passiveSkill, true), maxSkill: encodeObject(maxSkill, true), oldSavedChallengeArr: encodeObject(oldSavedChallengeArr, true), assignedXpRewards: encodeObject(assignedXpRewards, true), manualAreas: encodeObject(manualAreas, true), manualSections: encodeObject(manualSections, true), prevValueLevelInput: encodeObject(prevValueLevelInput, true), checkedAllTasks: encodeObject(checkedAllTasks, true) },
                 chunks: { unlocked: unlockedJson, selected: selectedJson, potential: potentialJson, blacklisted: blacklistedJson, stickered, stickeredNotes: encodeObject(stickeredNotes, true), stickeredColors },
             };
