@@ -570,7 +570,7 @@ let ruleNames = {
 	"Material Blueprints": "Count discovering material blueprints as a skilling task",
 	"Comp achievements": "Must complete Completionist achievements<span class='rule-asterisk noscroll'>*</span>",
 	"Trim achievements": "Also include Trimmed Completionist Cape achievements<span class='rule-asterisk noscroll'>*</span>",
-	"MQC achievements": "Also include Master Quest Cape achievements<span class='rule-asterisk noscroll'>*</span>"
+	"MQC achievements": " Must complete Master Quest Cape achievements<span class='rule-asterisk noscroll'>*</span>"
 };                                                                              // List of rule definitions
 
 let rulePresets = {

@@ -59042,9 +59042,12 @@
 				"Priority": 4,
 				"Not F2P": true
 			},
-			"Create an ~|Arch-Glacor's Adornment|~": {
-				"Items": ["Glacor remnants*", "Dark nilas*", "Glacor's Adornment"],
+			"Create the ~|Arch-Glacor's Adornment|~": {
+				"Items": ["Glacor remnants*", "Dark nilas*"],
 				"Level": 65,
+				"Tasks": {
+					"Create the ~|Glacor's Adornment|~": "Runecrafting"
+				},
 				"Output": "Arch-Glacor's Adornment",
 				"Primary": true,
 				"Priority": 5
@@ -59126,9 +59129,12 @@
 				"Output": "EtherealOutfit",
 				"Priority": 2
 			},
-			"Create an ~|Ur-Glacor's Adornment|~": {
-				"Items": ["Glacor remnants*", "Dark nilas*", "Arch-Glacor's Adornment"],
+			"Create the ~|Ur-Glacor's Adornment|~": {
+				"Items": ["Glacor remnants*", "Dark nilas*"],
 				"Level": 80,
+				"Tasks": {
+					"Create the ~|Arch-Glacor's Adornment|~": "Runecrafting"
+				},
 				"Output": "Ur-Glacor's Adornment",
 				"Primary": true,
 				"Priority": 3
@@ -59473,9 +59479,9 @@
 				"Primary": false,
 				"Priority": 7
 			},
-			"Create a ~|Glacor's Adornment|~": {
+			"Create the ~|Glacor's Adornment|~": {
 				"Items": ["Glacor remnants*", "Dark nilas*"],
-				"Level": 65,
+				"Level": 50,
 				"Output": "Glacor's Adornment",
 				"Primary": true,
 				"Priority": 8
@@ -91254,6 +91260,113 @@
 					"Construction": 500
 				}
 			},
+			"~|Pharaoh's Folly|~ 1": {
+				"BaseQuest": "Pharaoh's Folly",
+				"Description": "Speak to Leela outside Menaphos",
+				"Chunks": ["12844"],
+				"Tasks": {
+					"~|Beneath Scabaras' Sands|~ Complete the quest": "Quest"
+				},
+				"Not F2P": true
+			},
+			"~|Pharaoh's Folly|~ 2": {
+				"BaseQuest": "Pharaoh's Folly",
+				"Description": "Confront Osman in the Menaphos throne room",
+				"Chunks": ["12586"],
+				"Tasks": {
+					"~|Pharaoh's Folly|~ 1": "Quest"
+				},
+				"Not F2P": true
+			},
+			"~|Pharaoh's Folly|~ 3": {
+				"BaseQuest": "Pharaoh's Folly",
+				"Description": "Escape the Shifting Tombs and talk to Ozan",
+				"Chunks": ["Shifting Tombs"],
+				"Tasks": {
+					"~|Pharaoh's Folly|~ 2": "Quest"
+				},
+				"Not F2P": true
+			},
+			"~|Pharaoh's Folly|~ 4": {
+				"BaseQuest": "Pharaoh's Folly",
+				"Description": "Speak to Akhomet outside Sophanem",
+				"Chunks": ["13100"],
+				"Tasks": {
+					"~|Pharaoh's Folly|~ 3": "Quest"
+				},
+				"Not F2P": true
+			},
+			"~|Pharaoh's Folly|~ 5a": {
+				"BaseQuest": "Pharaoh's Folly",
+				"Description": "Convince Maisa to act as a witness against Osman",
+				"Chunks": ["13098"],
+				"Tasks": {
+					"~|Pharaoh's Folly|~ 4": "Quest"
+				},
+				"Not F2P": true
+			},
+			"~|Pharaoh's Folly|~ 5b": {
+				"BaseQuest": "Pharaoh's Folly",
+				"Description": "Convince Emir Ali Mirza to act as a witness against Osman",
+				"Chunks": ["13105"],
+				"Tasks": {
+					"~|Pharaoh's Folly|~ 4": "Quest"
+				},
+				"Not F2P": true
+			},
+			"~|Pharaoh's Folly|~ 5c": {
+				"BaseQuest": "Pharaoh's Folly",
+				"Description": "Convince Vizier Hassan to act as a witness against Osman",
+				"Chunks": ["12587"],
+				"Tasks": {
+					"~|Pharaoh's Folly|~ 4": "Quest"
+				},
+				"Not F2P": true
+			},
+			"~|Pharaoh's Folly|~ 5d": {
+				"BaseQuest": "Pharaoh's Folly",
+				"Description": "Convince Lydia to act as a witness against Osman",
+				"Chunks": ["13358"],
+				"Tasks": {
+					"~|Pharaoh's Folly|~ 4": "Quest"
+				},
+				"Not F2P": true
+			},
+			"~|Pharaoh's Folly|~ 6": {
+				"BaseQuest": "Pharaoh's Folly",
+				"Description": "Return to Ozan and rescue Leela",
+				"Chunks": ["Shifting Tombs", "13097"],
+				"Tasks": {
+					"~|Pharaoh's Folly|~ 5a": "Quest",
+					"~|Pharaoh's Folly|~ 5b": "Quest",
+					"~|Pharaoh's Folly|~ 5c": "Quest",
+					"~|Pharaoh's Folly|~ 5d": "Quest"
+				},
+				"Not F2P": true
+			},
+			"~|Pharaoh's Folly|~ 7": {
+				"BaseQuest": "Pharaoh's Folly",
+				"Description": "Proceed with the Contendings at the palace and finish up the quest",
+				"Chunks": ["12586"],
+				"Tasks": {
+					"~|Pharaoh's Folly|~ 6": "Quest"
+				},
+				"Not F2P": true
+			},
+			"~|Pharaoh's Folly|~ Complete the quest": {
+				"BaseQuest": "Pharaoh's Folly",
+				"Chunks": ["12586"],
+				"Tasks": {
+					"~|Pharaoh's Folly|~ 7": "Quest"
+				},
+				"QuestPoints": 2,
+				"XpReward": {
+					"Agility": 60000,
+					"Thieving": 60000
+				},
+				"Reward": ["Leela's favour"],
+				"Not F2P": true
+			},
 			"~|'Phite Club|~ 1": {
 				"BaseQuest": "'Phite Club",
 				"Description": "Speak to Grand Vizier Hassan in Menaphos, then speak to Grand Vizier Ehsan",
@@ -104563,7 +104676,7 @@
 				"Category": ["Show Diary Tasks"]
 			},
 			"~|Desert Achievements#Easy|~ Complete the Easy Achievements": {
-				"NPCs": ["Grad Vizier Hassan"],
+				"NPCs": ["Grand Vizier Hassan"],
 				"Tasks": {
 					"~|Desert Achievements#Easy|~ Assassin's Feed": "Diary",
 					"~|Desert Achievements#Easy|~ Touring Gear": "Diary",
@@ -110645,10 +110758,13 @@
 				"BaseQuest": "Varrock Achievements",
 				"Category": ["Show Diary Tasks"]
 			},
-			"~|Varrock Achievements#Medium|~ My Fort Smells of Rich Mahogany": {
-				"Description": "Make a mahogany plank yourself on the sawmill in Fort Forinthry.",
+			"~|Varrock Achievements#Medium|~ My Fort Smells of Syrup": {
+				"Description": "Make a maple plank yourself on the sawmill in Fort Forinthry.",
 				"Chunks": ["13111"],
-				"Items": ["Mahogany logs"],
+				"Items": ["Maple logs"],
+				"Skills": {
+					"Construction": 40
+				},
 				"Tasks": {
 					"~|Varrock Achievements#Easy|~ Complete the Easy Achievements": "Diary"
 				},
@@ -110728,7 +110844,7 @@
 					"~|Varrock Achievements#Medium|~ Royale With Thieve": "Diary",
 					"~|Varrock Achievements#Medium|~ Like a Varrocket": "Diary",
 					"~|Varrock Achievements#Medium|~ Challenge Vannaka": "Diary",
-					"~|Varrock Achievements#Medium|~ My Fort Smells of Rich Mahogany": "Diary",
+					"~|Varrock Achievements#Medium|~ My Fort Smells of Syrup": "Diary",
 					"~|Varrock Achievements#Medium|~ Master Scrumper": "Diary",
 					"~|Varrock Achievements#Medium|~ Engage": "Diary",
 					"~|Varrock Achievements#Medium|~ Faster, Pussycat! Kill! Kill! ": "Diary",
@@ -119117,17 +119233,17 @@
 			"(Arch-Glacor) Obtain the ~|Glacor's Adornment|~": {
 				"Category": ["Collection Log", "Boss Collection Log"],
 				"Label": "Boss Collection Log",
-				"Items": ["Glacor's Adornmen"]
+				"Items": ["Glacor's Adornment"]
 			},
 			"(Arch-Glacor) Obtain the ~|Arch-Glacor's Adornment|~": {
 				"Category": ["Collection Log", "Boss Collection Log"],
 				"Label": "Boss Collection Log",
-				"Items": ["Arch-Glacor's Adornmen"]
+				"Items": ["Arch-Glacor's Adornment"]
 			},
 			"(Arch-Glacor) Obtain the ~|Ur-Glacor's Adornment|~": {
 				"Category": ["Collection Log", "Boss Collection Log"],
 				"Label": "Boss Collection Log",
-				"Items": ["Ur-Glacor's Adornmen"]
+				"Items": ["Ur-Glacor's Adornment"]
 			},
 			"(Arch-Glacor) Obtain ~|Gladys|~": {
 				"Category": ["Collection Log", "Boss Collection Log", "Pets"],
@@ -123552,6 +123668,12 @@
 				"Category": ["Untracked Uniques", "Untracked Uniques Combat"],
 				"Label": "Untracked Combat Uniques",
 				"Items": ["Decaying journal"],
+				"Not F2P": true
+			},
+			"(Lore Books) Obtain the ~|Priest's Notes|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Combat"],
+				"Label": "Untracked Combat Uniques",
+				"Items": ["Priest's Notes"],
 				"Not F2P": true
 			},
 			"(Lore Books) Obtain ~|The Journal of Fell Arnessen|~": {
@@ -129140,7 +129262,7 @@
 				"Label": "Titles",
 				"Items": ["Deathmatch title scroll"]
 			},
-			"Obtain the ~|Weakling (title)|~ title": {
+			"Obtain the ~|Weakling (title)|~": {
 				"Category": ["Titles"],
 				"Label": "Titles",
 				"Items": ["Deathmatch title scroll"]
@@ -129150,7 +129272,7 @@
 				"Label": "Titles",
 				"Items": ["Deathmatch title scroll"]
 			},
-			"Obtain the ~|lost (title)|~ title": {
+			"Obtain the ~|lost (title)|~": {
 				"Category": ["Titles"],
 				"Label": "Titles",
 				"Items": ["Deathmatch title scroll"]
@@ -129333,7 +129455,7 @@
 					"~|The World Wakes|~ Complete the quest": "Quest"
 				}
 			},
-			"Obtain the ~|Slayer Master (title)|~ title": {
+			"Obtain the ~|Slayer Master (title)|~": {
 				"Category": ["Titles"],
 				"Label": "Titles",
 				"Chunks": ["8755"],
@@ -129406,6 +129528,11 @@
 				"Category": ["Titles"],
 				"Label": "Titles",
 				"Items": ["Gavel"]
+			},
+			"Obtain the ~|Starstruck (title)|~": {
+				"Category": ["Titles"],
+				"Label": "Titles",
+				"Objects": ["Crashed star"]
 			},
 			"Obtain a ~|dwarven army axe|~": {
 				"Category": ["BIS Skilling"],
@@ -132950,7 +133077,7 @@
 				},
 				"UnlocksArea": true
 			},
-			"Balthazar Beauregard's Big Top": {
+			"Balthazar Beauregard's Big Top Bonanza": {
 				"UnlocksArea": true
 			},
 			"Pyramid Plunder": {
@@ -135640,12 +135767,11 @@
 			"Champions Guild Questpoints": {
 				"QuestPointsNeeded": 33
 			},
-			"Access Daemonheim Rewards (F2P)": {
-				"Items": ["Dungeoneering token"]
+			"Members Only": {
+				"Not F2P": true
 			},
 			"Access Daemonheim Rewards": {
-				"Items": ["Dungeoneering token"],
-				"Not F2P": true
+				"Items": ["Dungeoneering token"]
 			},
 			"Access members content": {
 				"Not F2P": true
@@ -136900,7 +137026,7 @@
 			},
 			"Circus rewards*": {
 				"Category": ["DnD"],
-				"Chunks": ["Balthazar Beauregard's Big Top"],
+				"Chunks": ["Balthazar Beauregard's Big Top Bonanza"],
 				"Output": "Circus rewards",
 				"Not F2P": true
 			},
@@ -156869,7 +156995,8 @@
 				"'Phite Club": "step",
 				"Succession": "step",
 				"Tomes of the Warlock": "step",
-				"Beneath Scabaras' Sands": "first"
+				"Beneath Scabaras' Sands": "first",
+				"Pharaoh's Folly": "step"
 			},
 			"Nickname": "Menaphos Pyramid"
 		},
@@ -156929,7 +157056,8 @@
 			"Quest": {
 				"The Jack of Spades": "step",
 				"Our Man in the North": "first",
-				"'Phite Club": "first"
+				"'Phite Club": "first",
+				"Pharaoh's Folly": "step"
 			},
 			"Nickname": "Menaphos Worker District"
 		},
@@ -157860,7 +157988,8 @@
 			},
 			"Quest": {
 				"The Jack of Spades": "step",
-				"Beneath Scabaras' Sands": "step"
+				"Beneath Scabaras' Sands": "step",
+				"Pharaoh's Folly": "first"
 			},
 			"Nickname": "Exiled Kalphite Hive"
 		},
@@ -159082,6 +159211,9 @@
 				"Plover bird": 16,
 				"Portmaster Kags": 1
 			},
+			"Quest": {
+				"Pharaoh's Folly": "step"
+			},
 			"Connect": {
 				"8809": true,
 				"23130": true
@@ -159109,7 +159241,8 @@
 				"Contact!": "first",
 				"Dealing with Scabaras": "first",
 				"Icthlarin's Little Helper": "step",
-				"Beneath Scabaras' Sands": "step"
+				"Beneath Scabaras' Sands": "step",
+				"Pharaoh's Folly": "step"
 			},
 			"Nickname": "Sophanem Temple"
 		},
@@ -159194,7 +159327,8 @@
 			"Quest": {
 				"Boric's Task II (miniquest)": "step",
 				"Contact!": "step",
-				"Icthlarin's Little Helper": "first"
+				"Icthlarin's Little Helper": "first",
+				"Pharaoh's Folly": "step"
 			},
 			"Nickname": "Desert Wanderer Tent"
 		},
@@ -159413,7 +159547,8 @@
 				"Shadow of the Storm": "first",
 				"Stolen Hearts": "step",
 				"Ode of the Devourer": "step",
-				"Beneath Scabaras' Sands": "step"
+				"Beneath Scabaras' Sands": "step",
+				"Pharaoh's Folly": "step"
 			},
 			"Nickname": "Al Kharid"
 		},
@@ -160447,7 +160582,8 @@
 				"Our Man in the North": "step",
 				"Rat Catchers": "step",
 				"Smoking Kills": "first",
-				"Beneath Scabaras' Sands": "step"
+				"Beneath Scabaras' Sands": "step",
+				"Pharaoh's Folly": "step"
 			},
 			"Nickname": "Pollnivneach"
 		},
@@ -162486,7 +162622,7 @@
 				"Ranged assistant": 1,
 				"Ringmaster": 1
 			},
-			"Name": "Balthazar Beauregard's Big Top"
+			"Name": "Balthazar Beauregard's Big Top Bonanza"
 		},
 		"14172": {
 			"Object": {
@@ -173905,7 +174041,7 @@
 				"12330": true
 			}
 		},
-		"Balthazar Beauregard's Big Top": {
+		"Balthazar Beauregard's Big Top Bonanza": {
 			"Object": {
 				"Water barrel": 2,
 				"Shooting spot (level 10 approx.)": 2,
@@ -174233,7 +174369,8 @@
 			},
 			"Quest": {
 				"The Jack of Spades": "step",
-				"'Phite Club": "step"
+				"'Phite Club": "step",
+				"Pharaoh's Folly": "step"
 			}
 		},
 		"Killerwatt Plane": {
@@ -180260,7 +180397,8 @@
 				"Spinning wheel": 1,
 				"Mushroom patch": 1,
 				"Platform (rituals)": 1,
-				"Fletching workbench": 1
+				"Fletching workbench": 1,
+				"Oven (City of Um)": 1
 			},
 			"Quest": {
 				"Alpha vs Omega": "first",
@@ -186514,8 +186652,8 @@
 		"objectsPlus": {
 			"Anvil[+]": ["Anvil", "Tri-Anvil"],
 			"AnyExcavationSpot[+]": ["Venator remains", "Legionary remains", "Castra debris", "Lodge bar storage", "Lodge art storage", "Administratum debris", "Cultist footlocker", "Sacrificial altar", "Prodromoi remains", "Dis dungeon debris", "Praesidio remains", "Monoceros remains", "Amphitheatre debris", "Ceramics studio debris", "Carcerem debris", "Ministry remains", "Stadio debris", "Cathedral debris", "Marketplace debris", "Inquisitor remains", "Infernal art", "Gladiator remains", "Citizen remains", "Shakroth remains", "Dominion Games podium", "Ikovian memorial", "Oikos studio debris", "Kharid-et chapel debris", "Gladiatorial goblin remains", "Keshik ger", "Animal trophies", "Pontifex remains", "Cricible stand debris", "Tailory debris", "Goblin dorm debris", "Oikos fishing hut remnants", "Weapons research debris", "Orcus altar", "Dis overspill", "Big High War God shrine", "Orthen rubble", "Varanusaur remains", "Gravitron research debris", "Acropolis debris", "Armarium debris", "Yu'biusk animal pen", "Keshik tower debris", "Dragonkin reliquary", "Goblin trainee remains", "Byzroth remains", "Destroyed golem", "Dragonkin coffin", "Icyene weapon rack", "Culinarum debris", "Kyzaj champion's boudoir", "Autopsy table", "Experiment workbench", "Keshik weapon rack", "Hellfire forge", "Warforge scrap pile", "Stockpiled art", "Aughra remains", "Ancient magick munitions", "Moksha device", "Bibliotheke debris", "Warforge weapon rack", "Flight research debris", "Atherium forge", "Xolo mine", "Praetorian remains", "Bandos's sanctum debris", "Tsutsaroth remains", "Optimatoi remains", "War table debris", "Howl's workshop debris", "Makeshift pie oven", "Xolo remains", "Saurthen debris"],
-			"Cooking object[+]": ["Fire", "Cooking range", "Cooking range[+]", "Clay oven", "Campfire", "Fireplace", "Stove", "Cooking pot", "Sulphur pit", "Player fire"],
-			"Cooking range[+]": ["Cooking range", "Cooking range[+]", "Stove", "Clay oven"],
+			"Cooking object[+]": ["Fire", "Cooking range", "Clay oven", "Campfire", "Fireplace", "Stove", "Cooking pot", "Sulphur pit", "Player fire", "Oven (City of Um)"],
+			"Cooking range[+]": ["Cooking range", "Stove", "Clay oven", "Oven (City of Um)"],
 			"CraftingFurnace[+]": ["Furnace", "Furnace (Dorgesh)"],
 			"CurePatch[+]": ["Allotment", "Flower patch", "Herb patch", "Tree patch", "Fruit tree patch", "Hops patch", "Bush patch"],
 			"FarmingPatch[+]": ["Allotment", "Flower patch", "Herb patch", "Potato patch", "Hops patch", "Bush patch", "Tree patch", "Fruit tree patch", "Mushroom patch", "Cactus patch", "Spirit tree patch", "Evil turnip patch", "Nightshade patch", "Calquat patch", "Elder tree patch", "Crystal tree patch", "Vine herb patch", "Vine bush patch", "Vine flower patch", "Fertile soil (patch)", "Money tree patch", "Jade vine patch"],
@@ -244009,6 +244147,7 @@
 		"Our Man in the North": "12587, Grand Library of Menaphos, 12586, 13358, Uzer Mastaba, 13105, 13106",
 		"The Path of Glouphrie": "10033, Gnome Village Dungeon, Yewnock's cave, 9782, 9264, 10544, Poison Waste Slayer Dungeon",
 		"Perils of Ice Mountain": "12085, 11829, 12086, 11830, Dwarven Mine",
+		"Pharaoh's Folly": "12587, 12586, 12844, 13097, 13098, 13100, 13105, 13358, Shifting Tombs",
 		"'Phite Club": "12587, 12585, 12586, Shifting Tombs",
 		"Pieces of Hate": "Player-owned house, 12078, 11822, 14638, 12597, 11056, Braindeath Island",
 		"Pirate's Treasure": "12082, 11569, 12853, 11828",
@@ -244861,6 +245000,9 @@
 			}],
 			"Left skull half^Ankou": [{
 				"Stronghold drops": "Nonskill"
+			}],
+			"Off-hand rubber chicken": [{
+				"Members Only": true
 			}]
 		},
 		"Monsters": {
@@ -245471,14 +245613,18 @@
 			"Daemonheim Rewards": {
 				"8757": [{
 					"Access Daemonheim Rewards": "Nonskill"
+				}, {
+					"Members Only": "Nonskill"
 				}],
 				"13625": [{
 					"Access Daemonheim Rewards": "Nonskill"
+				}, {
+					"Members Only": "Nonskill"
 				}]
 			},
 			"Daemonheim Rewards (F2P)": {
 				"13625": [{
-					"Access Daemonheim Rewards (F2P)": "Nonskill"
+					"Access Daemonheim Rewards": "Nonskill"
 				}]
 			},
 			"Dealga's Scimitar Emporium": {
