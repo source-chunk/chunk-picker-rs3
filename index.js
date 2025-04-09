@@ -1470,7 +1470,7 @@ let topbarElements = {
     'Sandbox Mode': `<div><span class='noscroll' onclick="enableTestMode()"><i class="gosandbox fa-solid fa-flask" title='Sandbox Mode'></i></span></div>`,
 };
 
-let currentVersion = '6.6.12';
+let currentVersion = '6.6.13';
 let patchNotesVersion = '6.4.0';
 let updateLevel = 'difference';
 
@@ -1614,7 +1614,7 @@ mapImg.addEventListener("load", e => {
         centerCanvas('quick');
     }
 });
-mapImg.src = "runescape_world_map.png?v=6.6.12";
+mapImg.src = "runescape_world_map.png?v=6.6.13";
 
 // Rounded rectangle
 CanvasRenderingContext2D.prototype.roundRect = function (x, y, w, h, r) {
@@ -3313,7 +3313,7 @@ let calcCurrentChallengesCanvas = function(useOld, proceed, fromLoadData, inputT
         setCalculating('.panel-active', useOld);
         setCurrentChallenges(['No tasks currently backlogged.'], ['No tasks currently completed.'], true, true);
         myWorker.terminate();
-        myWorker = new Worker("./worker.js?v=6.6.12");
+        myWorker = new Worker("./worker.js?v=6.6.13");
         myWorker.onmessage = workerOnMessage;
         myWorker.postMessage(['current', tempChunks['unlocked'], rules, chunkInfo, skillNames, processingSkill, maybePrimary, combatSkills, monstersPlus, objectsPlus, chunksPlus, itemsPlus, mixPlus, npcsPlus, tasksPlus, tools, elementalRunes, manualTasks, completedChallenges, backlog, "1/" + rules['Rare Drop Amount'], universalPrimary, elementalStaves, rangedItems, boneItems, highestCurrent, dropTables, possibleAreas, randomLoot, magicTools, bossLogs, bossMonsters, minigameShops, manualEquipment, checkedChallenges, backloggedSources, altChallenges, manualMonsters, slayerLocked, passiveSkill, f2pSkills, assignedXpRewards, mid === diary2Tier, manualAreas, "1/" + rules['Secondary Primary Amount'], mid === manualAreasOnly, tempSections, settings['optOutSections'], maxSkill, userTasks, manualPrimary, updateLevel]);
         workerOut = 1;
@@ -3616,8 +3616,8 @@ $(document).ready(function() {
 // ------------------------------------------------------------
 
 // Recieve message from worker
-let myWorker = new Worker("./worker.js?v=6.6.12");
-let myWorker2 = new Worker("./worker.js?v=6.6.12");
+let myWorker = new Worker("./worker.js?v=6.6.13");
+let myWorker2 = new Worker("./worker.js?v=6.6.13");
 let workerOnMessage = function(e) {
     if (e.data[0] === 'reload') {
         window.location.reload();
@@ -4582,6 +4582,9 @@ let openXpRewardModal = function(skill, line, xpArr, num) {
             }
             let challengeLine = $('.' + skill + '-' + line.replaceAll(' ', '_').replace(/[!"#$%&'()*+,.\/:;<=>?@\[\\\]\^\`{|}~]/g, '').toLowerCase() + '-challenge');
             $(challengeLine).addClass('hide-backlog');
+            Object.keys(activeSubTabs).forEach((subTab) => {
+                settings['hideChecked'] && actuallyHideChecked && $('.challenge.' + subTab + '-challenge').filter($(':not(.hide-backlog)')).length === 0 ? $('.marker-' + subTab).addClass('hide-marker') : $('.marker-' + subTab).removeClass('hide-marker');
+            });
             $($(challengeLine).find('input')[0]).prop('checked', true);
             changeChallengeColor();
             if (!allNone) {
@@ -5225,11 +5228,13 @@ let enableTestMode = async function(close, fromConfirm) {
             (viewOnly || inEntry || locked) && $('.center').css('margin-top', '0px');
             (viewOnly || inEntry || locked) && $('.pick, .roll2, .unpick').css('opacity', 0).hide();
             (viewOnly || inEntry || locked) && $(`.backlogSources-container`).remove();
+            $('.open-checkoff-container').css('opacity', 0).hide();
             chunkTasksOn && setCurrentChallenges(['No tasks currently backlogged.'], ['No tasks currently completed.']);
         } else {
             unlockChallenges();
             $('.open-manual-outer-container').css('opacity', 1).show();
             $('.dropdown-item-customize-topbar').css('opacity', 1).show();
+            $('.open-checkoff-container').css('opacity', 1).show();
             rules['Manually Complete Tasks'] && $('.open-complete-container').css('opacity', 1).show();
             $('.center').css('margin-top', '15px');
             $('.pick').css('opacity', 1).show();
@@ -5547,6 +5552,9 @@ let toggleHiddenTasks = function(value, fromSearch) {
             $('.panel-active').append(`<span class="no-current">No current chunk tasks.</span>`);
         }
     }
+    Object.keys(activeSubTabs).forEach((subTab) => {
+        settings['hideChecked'] && actuallyHideChecked && $('.challenge.' + subTab + '-challenge').filter($(':not(.hide-backlog)')).length === 0 ? $('.marker-' + subTab).addClass('hide-marker') : $('.marker-' + subTab).removeClass('hide-marker');
+    });
     !fromSearch && searchActiveTasksFunc();
 }
 
@@ -5629,7 +5637,7 @@ let toggleChallengesPanel = function(pnl) {
             challengePanelVis[uniqKey] = false;
         }
     });
-    challengePanelVis['active'] ? $('#searchActiveTasks').show() : $('#searchActiveTasks').hide();
+    challengePanelVis['active'] && settings['taskSearchbar'] ? $('#searchActiveTasks').show() : $('#searchActiveTasks').hide();
 }
 
 // Toggles the accordion panels of the rules panel
@@ -5681,7 +5689,7 @@ let doneLoading = function() {
         $('.modal, .entry-content, .menu8, .menu8 .accordion, .menu8 .panel, .menu9, .menu9 .accordion, .menu9 .panel, .modal-content, .open-rules-container, .help-content, .lock-pin').addClass('mobile');
         $('.center').css({ 'height': '40px', 'width': '90px', 'font-size': '12px' });
         $('.pick, .roll2, .unpick').css({ 'height': '20px', 'width': '90px', 'font-size': '12px' });
-        $('.topbar-item, .gohighscore, .gobugreport, .godiscord, .gopatreon, .godocumentation, .gosearch, .gonotes, .hiddenInfo, .help-button, .gohome, .about-button, .open-manual-outer-container:not(.mobile-item), .open-complete-container').hide().remove();
+        $('.topbar-item, .gohighscore, .gobugreport, .godiscord, .gopatreon, .godocumentation, .gosearch, .gonotes, .hiddenInfo, .help-button, .gohome, .about-button, .open-manual-outer-container:not(.mobile-item), .open-checkoff-container:not(.mobile-item), .open-complete-container').hide().remove();
         $('.menu2, .menu6, .menu7, .menu8, .menu9, .menu10, .menu11, .menu13, .menu14, .settings, .help2').hide();
         $('.hr').css({ 'width': '10vw' });
         $('.block, .block > .title, .block button').css({ 'font-size': '4.5vw' });
@@ -5728,6 +5736,7 @@ let setupMap = async function() {
             $('.center').css('margin-top', '0px');
             $('.center, #toggleIds, .toggleIds.text').css('opacity', 1).show();
             $('.open-manual-outer-container').css('opacity', 0).hide();
+            $('.open-checkoff-container').css('opacity', 0).hide();
             $('.dropdown-item-customize-topbar').css('opacity', 0).hide();
             rules['Manually Complete Tasks'] && $('.open-complete-container').css('opacity', 0).hide();
             $('.pin.entry').focus();
@@ -5741,6 +5750,7 @@ let setupMap = async function() {
             $('.center').css('margin-top', '0px');
             $('.roll2, .unpick').css('opacity', 0).hide();
             $('.open-manual-outer-container').css('opacity', 0).hide();
+            $('.open-checkoff-container').css('opacity', 0).hide();
             $('.dropdown-item-customize-topbar').css('opacity', 0).hide();
             rules['Manually Complete Tasks'] && $('.open-complete-container').css('opacity', 0).hide();
             $('.center, #toggleIds, .toggleIds.text').css('opacity', 1).show();
@@ -6453,7 +6463,7 @@ let calcFutureChallenges = function() {
     }
     tempSections = combineJSONs(tempSections, manualSections);
     myWorker2.terminate();
-    myWorker2 = new Worker("./worker.js?v=6.6.12");
+    myWorker2 = new Worker("./worker.js?v=6.6.13");
     myWorker2.onmessage = workerOnMessage;
     myWorker2.postMessage(['future', chunks, rules, chunkInfo, skillNames, processingSkill, maybePrimary, combatSkills, monstersPlus, objectsPlus, chunksPlus, itemsPlus, mixPlus, npcsPlus, tasksPlus, tools, elementalRunes, manualTasks, completedChallenges, backlog, "1/" + rules['Rare Drop Amount'], universalPrimary, elementalStaves, rangedItems, boneItems, highestCurrent, dropTables, possibleAreas, randomLoot, magicTools, bossLogs, bossMonsters, minigameShops, manualEquipment, checkedChallenges, backloggedSources, altChallenges, manualMonsters, slayerLocked, passiveSkill, f2pSkills, assignedXpRewards, mid === diary2Tier, manualAreas, "1/" + rules['Secondary Primary Amount'], mid === manualAreasOnly, tempSections, settings['optOutSections'], maxSkill, userTasks, manualPrimary, updateLevel]);
     workerOut++;
@@ -7841,9 +7851,33 @@ let openManualComplete = function() {
     modalOutsideTime = Date.now();
 }
 
+// Manually checks off tasks
+let submitCheckoffTasks = function() {
+    onMobile && hideMobileMenu();
+    checkedChallenges = {};
+    !!listOfTasksPlugin && listOfTasksPlugin.forEach((taskObj) => {
+        let name = Object.keys(taskObj).filter((key) => key !== 'prefix')[0];
+        let skill = taskObj[Object.keys(taskObj).filter((key) => key !== 'prefix')[0]];
+        checkOffChallenge(skill, name, true);
+    });
+    $('.panel-active .challenge input').prop('checked', true);
+    $('.panel-active .challenge:has(input:checked)').addClass('hide-backlog');
+    $('.panel-active .challenge:not(:has(input:checked))').removeClass('hide-backlog');
+    Object.keys(activeSubTabs).forEach((subTab) => {
+        settings['hideChecked'] && actuallyHideChecked && $('.challenge.' + subTab + '-challenge').filter($(':not(.hide-backlog)')).length === 0 ? $('.marker-' + subTab).addClass('hide-marker') : $('.marker-' + subTab).removeClass('hide-marker');
+    });
+    changeChallengeColor();
+    setData();
+    setTaskNum();
+    toggleHiddenTasks(settings['hideChecked'] && actuallyHideChecked);
+    searchActiveTasksFunc();
+}
 
 // Filters the full list of challenges
 let searchActiveTasksFunc = function() {
+    if (!settings['taskSearchbar']) {
+        return;
+    }
     if (inEntry) {
         $('#searchActiveTasks').val('');
         return;
@@ -10891,7 +10925,7 @@ let uncompleteChallenge = function(challenge, skill) {
 }
 
 // Marks checked off challenge to save for later
-let checkOffChallenge = function(skill, line) {
+let checkOffChallenge = function(skill, line, skip) {
     line = decodeQueryParam(line);
     if (chunkInfo['challenges'].hasOwnProperty(skill) && chunkInfo['challenges'][skill].hasOwnProperty(line) && chunkInfo['challenges'][skill][line].hasOwnProperty('XpReward') && Object.keys(chunkInfo['challenges'][skill][line]['XpReward']).filter(skill => { return !skillNamesXp.includes(skill) }).length > 0 && (!assignedXpRewards.hasOwnProperty(skill) || !assignedXpRewards[skill].hasOwnProperty(line)) && $($('.' + skill + '-' + line.replaceAll(' ', '_').replace(/[!"#$%&'()*+,.\/:;<=>?@\[\\\]\^\`{|}~]/g, '').toLowerCase() + '-challenge').find('input')[0]).prop('checked')) {
         let challengeLine = $('.' + skill + '-' + line.replaceAll(' ', '_').replace(/[!"#$%&'()*+,.\/:;<=>?@\[\\\]\^\`{|}~]/g, '').toLowerCase() + '-challenge');
@@ -10907,18 +10941,23 @@ let checkOffChallenge = function(skill, line) {
         } else {
             delete checkedChallenges[skill][line];
         }
-        $('.panel-active .challenge:has(input:checked)').addClass('hide-backlog');
-        $('.panel-active .challenge:not(:has(input:checked))').removeClass('hide-backlog');
-        oldSavedChallengeArr = [];
-        $('.panel-active').contents().each((i, val) => {
-            oldSavedChallengeArr.push($(val).html());
-        });
-        setupCurrentChallenges(tempChallengeArrSaved, true);
-        changeChallengeColor();
-        setData();
-        setTaskNum();
-        toggleHiddenTasks(settings['hideChecked'] && actuallyHideChecked);
-        searchActiveTasksFunc();
+        if (!skip) {
+            $('.panel-active .challenge:has(input:checked)').addClass('hide-backlog');
+            $('.panel-active .challenge:not(:has(input:checked))').removeClass('hide-backlog');
+            Object.keys(activeSubTabs).forEach((subTab) => {
+                settings['hideChecked'] && actuallyHideChecked && $('.challenge.' + subTab + '-challenge').filter($(':not(.hide-backlog)')).length === 0 ? $('.marker-' + subTab).addClass('hide-marker') : $('.marker-' + subTab).removeClass('hide-marker');
+            });
+            oldSavedChallengeArr = [];
+            $('.panel-active').contents().each((i, val) => {
+                oldSavedChallengeArr.push($(val).html());
+            });
+            setupCurrentChallenges(tempChallengeArrSaved, true);
+            changeChallengeColor();
+            setData();
+            setTaskNum();
+            toggleHiddenTasks(settings['hideChecked'] && actuallyHideChecked);
+            searchActiveTasksFunc();
+        }
     }
 }
 
