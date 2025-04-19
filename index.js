@@ -1471,7 +1471,7 @@ let topbarElements = {
     'Sandbox Mode': `<div><span class='noscroll' onclick="enableTestMode()"><i class="gosandbox fa-solid fa-flask" title='Sandbox Mode'></i></span></div>`,
 };
 
-let currentVersion = '6.6.13.2';
+let currentVersion = '6.6.14';
 let patchNotesVersion = '6.4.0';
 let updateLevel = 'difference';
 
@@ -1615,7 +1615,7 @@ mapImg.addEventListener("load", e => {
         centerCanvas('quick');
     }
 });
-mapImg.src = "runescape_world_map.png?v=6.6.13.2";
+mapImg.src = "runescape_world_map.png?v=6.6.14";
 
 // Rounded rectangle
 CanvasRenderingContext2D.prototype.roundRect = function (x, y, w, h, r) {
@@ -3314,7 +3314,7 @@ let calcCurrentChallengesCanvas = function(useOld, proceed, fromLoadData, inputT
         setCalculating('.panel-active', useOld);
         setCurrentChallenges(['No tasks currently backlogged.'], ['No tasks currently completed.'], true, true);
         myWorker.terminate();
-        myWorker = new Worker("./worker.js?v=6.6.13.2");
+        myWorker = new Worker("./worker.js?v=6.6.14");
         myWorker.onmessage = workerOnMessage;
         myWorker.postMessage(['current', tempChunks['unlocked'], rules, chunkInfo, skillNames, processingSkill, maybePrimary, combatSkills, monstersPlus, objectsPlus, chunksPlus, itemsPlus, mixPlus, npcsPlus, tasksPlus, tools, elementalRunes, manualTasks, completedChallenges, backlog, "1/" + rules['Rare Drop Amount'], universalPrimary, elementalStaves, rangedItems, boneItems, highestCurrent, dropTables, possibleAreas, randomLoot, magicTools, bossLogs, bossMonsters, minigameShops, manualEquipment, checkedChallenges, backloggedSources, altChallenges, manualMonsters, slayerLocked, passiveSkill, f2pSkills, assignedXpRewards, mid === diary2Tier, manualAreas, "1/" + rules['Secondary Primary Amount'], mid === manualAreasOnly, tempSections, settings['optOutSections'], maxSkill, userTasks, manualPrimary, updateLevel]);
         workerOut = 1;
@@ -3617,8 +3617,8 @@ $(document).ready(function() {
 // ------------------------------------------------------------
 
 // Recieve message from worker
-let myWorker = new Worker("./worker.js?v=6.6.13.2");
-let myWorker2 = new Worker("./worker.js?v=6.6.13.2");
+let myWorker = new Worker("./worker.js?v=6.6.14");
+let myWorker2 = new Worker("./worker.js?v=6.6.14");
 let workerOnMessage = function(e) {
     if (e.data[0] === 'reload') {
         window.location.reload();
@@ -6477,7 +6477,7 @@ let calcFutureChallenges = function() {
     }
     tempSections = combineJSONs(tempSections, manualSections);
     myWorker2.terminate();
-    myWorker2 = new Worker("./worker.js?v=6.6.13.2");
+    myWorker2 = new Worker("./worker.js?v=6.6.14");
     myWorker2.onmessage = workerOnMessage;
     myWorker2.postMessage(['future', chunks, rules, chunkInfo, skillNames, processingSkill, maybePrimary, combatSkills, monstersPlus, objectsPlus, chunksPlus, itemsPlus, mixPlus, npcsPlus, tasksPlus, tools, elementalRunes, manualTasks, completedChallenges, backlog, "1/" + rules['Rare Drop Amount'], universalPrimary, elementalStaves, rangedItems, boneItems, highestCurrent, dropTables, possibleAreas, randomLoot, magicTools, bossLogs, bossMonsters, minigameShops, manualEquipment, checkedChallenges, backloggedSources, altChallenges, manualMonsters, slayerLocked, passiveSkill, f2pSkills, assignedXpRewards, mid === diary2Tier, manualAreas, "1/" + rules['Secondary Primary Amount'], mid === manualAreasOnly, tempSections, settings['optOutSections'], maxSkill, userTasks, manualPrimary, updateLevel]);
     workerOut++;
@@ -11209,6 +11209,7 @@ let checkMID = function(mid) {
         $('#pin-menu').show();
         $('.mid-old').focus();
         $('html, body').addClass('change-password');
+        document.title = 'Change Password - Chunk Picker V2';
     } else if (mid === 'about') {
         atHome = true;
         $('.loading, .ui-loader-header').remove();
@@ -11217,6 +11218,7 @@ let checkMID = function(mid) {
         onMobile && $('#about-menu').addClass('mobile');
         $('#about-menu').show();
         $('html, body').addClass('about');
+        document.title = 'About - Chunk Picker V2';
     } else if (mid === 'patch-notes') {
         atHome = true;
         $('.loading, .ui-loader-header').remove();
@@ -11225,6 +11227,7 @@ let checkMID = function(mid) {
         onMobile && $('#patch-menu').addClass('mobile');
         $('#patch-menu').show();
         $('html, body').addClass('patch');
+        document.title = 'Patch Notes Archive - Chunk Picker V2';
     } else if (mid === '404') {
         atHome = true;
         $('.loading, .ui-loader-header').remove();
@@ -11234,6 +11237,7 @@ let checkMID = function(mid) {
         $('#a404-menu').show();
         $('html, body').addClass('a404');
         $('.a404-address').text(window.location.href.split('?')[1]);
+        document.title = '404 - Chunk Picker V2';
     } else if (mid) {
         if (mid.split('-')[1] === 'view') {
             mid = mid.split('-')[0];
