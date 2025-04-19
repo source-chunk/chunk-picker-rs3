@@ -536,7 +536,7 @@ let ruleNames = {
     "All Shops": "Must buy every item from every shop within your chunks once <span class='rule-asterisk noscroll'>⁺</span>",
     "Quest Skill Reqs": "WIP - Must get Quest skill requirements, regardless of if the Quest is startable or not <span class='rule-asterisk noscroll'>⁺</span>",
 	"Boosting": "Allow skill boosts to be considered for skill tasks",
-    "Token": "Allow token xp drops to count as a primary training method<span class='rule-asterisk noscroll'>*</span>",
+    "Token": "Allow token xp drops to count as a primary training method<span class='rule-asterisk noscroll'>†</span>",
 	"Master skillcape": "Must obtain master skillcapes for all skills<span class='rule-asterisk noscroll'>†</span>",
 	"Cleaning Herbs": "Cleaning grimy herbs/making (unf) potions can count as chunk tasks",
 	"Vinesweeper": "Allow Vinesweeper to count as primary training for training Farming<span class='rule-asterisk noscroll'>*</span>",
@@ -567,7 +567,10 @@ let ruleNames = {
 	"Speed Killer Achievements": "Also include Speed Killer achievements.",
 	"Combat Master+": "Must complete the Master and Grandmaster tier.",
 	"Menaphos Events": "Allow soul obelisks and corrupted scarabs in Menaphos to count as primary training methods<span class='rule-asterisk noscroll'>*</span>",
-	"Material Blueprints": "Count discovering material blueprints as a skilling task"
+	"Material Blueprints": "Count discovering material blueprints as a skilling task",
+	"Comp achievements": "Must complete Completionist achievements<span class='rule-asterisk noscroll'>*</span>",
+	"Trim achievements": "Also include Trimmed Completionist Cape achievements<span class='rule-asterisk noscroll'>*</span>",
+	"MQC achievements": " Must complete Master Quest Cape achievements<span class='rule-asterisk noscroll'>*</span>"
 };                                                                              // List of rule definitions
 
 let rulePresets = {
@@ -647,7 +650,6 @@ let rulePresets = {
         "Secondary MTA": true,
         "Primary Spawns": true,
         "Spells": true,
-		"Token": true,
 		"Cleaning Herbs": true,
 		"Vinesweeper": true,
 		"Ogleroot": true,
@@ -668,7 +670,10 @@ let rulePresets = {
         "Unlock Prayers": true,
         "Shooting Stars": true,
 		"Menaphos Events": true,
-		"Material Blueprints": true
+		"Material Blueprints": true,
+		"Comp achievements": true,
+		"Trim achievements": true,
+		"MQC achievements": true
     },
     "Supreme Chunker": {
         "Skillcape": true,
@@ -752,7 +757,10 @@ let rulePresets = {
         "Unlock Prayers": true,
         "Shooting Stars": true,
 		"Menaphos Events": true,
-		"Material Blueprints": true
+		"Material Blueprints": true,
+		"Comp achievements": true,
+		"Trim achievements": true,
+		"MQC achievements": true
     }
 };                                                                              // List of rules that are part of each preset
 
@@ -767,7 +775,6 @@ let ruleStructure = {
         "Show Skill Tasks": true,
 		"Achievement": true,
         "Show Quest Tasks": ["Show Quest Tasks Complete"],
-        
         "Show Best in Slot Tasks": ["Show Best in Slot Prayer Tasks", "Show Best in Slot Defensive Tasks", "Show Best in Slot Melee Style Tasks", "Show Best in Slot 1H and 2H", "Show Best in Slot Shield", "Consumable Primary BiS"],
 		"BIS Skilling": ["BIS Skilling Consumables", "BIS Skilling Relics", "Brawling Gloves"],
 	},
@@ -950,7 +957,6 @@ let settings = {
     "newTasks": false,
     "shiftUnlock": false,
     "rollWarning": false,
-    "optOutSections": false,
     "unlockedBorderColor": '#FF0000',
     "defaultChunkinfo": 'monsters',
     "taskSearchbar": false,
@@ -983,7 +989,6 @@ let settingNames = {
     "newTasks": "In addition to adding new tasks to the Active Chunk Tasks list, also show new chunk tasks in a popup window after every chunk roll",
     "shiftUnlock": "Prevent click-to-unlock chunks unless holding down the Shift-key (or long-pressing on mobile)",
     "rollWarning": "Show a confirmation window after clicking the Pick Chunk or Roll 2 button",
-    "optOutSections": "Always assume all chunks are entirely accessible (opt out of chunk sections)",
     "unlockedBorderColor": "Change the color of the border surrounding your unlocked chunks",
     "defaultChunkinfo": 'Select the default tab when first opening the Chunk Info Panel',
     "taskSearchbar": "Show a searchbar at the top of your Active Tasks to allow filtering. Useful for maps with large task lists that have trouble finding specific tasks"
@@ -1014,7 +1019,6 @@ let settingStructure = {
         "startingChunk": true,
         "ids": true,
         "cinematicRoll": true,
-        "optOutSections": true,
         "newTasks": true,
         "highvis": true,
         "numTasksPercent": true,
