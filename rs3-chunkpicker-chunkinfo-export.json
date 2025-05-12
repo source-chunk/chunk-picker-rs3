@@ -46434,6 +46434,13 @@
 				"Output": "Mechanised siphon",
 				"Priority": 1
 			},
+			"Discover ~|manufactured components|~": {
+				"Category": ["Material Blueprints"],
+				"Objects": ["Inventor's workbench"],
+				"Level": 79,
+				"Primary": false,
+				"Priority": 1
+			},
 			"Build a ~|large generator|~": {
 				"Items": ["Precious components*", "Delicate parts*", "Base parts*", "Clear parts*"],
 				"Chunks": ["Invention Guild"],
