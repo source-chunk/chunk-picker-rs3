@@ -840,7 +840,7 @@ let ruleStructure = {
     },
     "Hunter": {
 		"Puro-Puro": ["Extra implings"],
-		"Wandering implings": true
+		"Wandering implings": true,
 		"Ogleroot": true
     },
 	"Invention": {
