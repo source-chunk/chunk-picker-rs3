@@ -1238,6 +1238,9 @@
 				"Chunks": ["14646"],
 				"Level": 92,
 				"Primary": false,
+				"Tasks": {
+					"~|Ghosts Ahoy|~ Complete the quest": "Quest"
+				},
 				"Priority": 1,
 				"NoPet": true
 			},
@@ -21740,6 +21743,17 @@
 				"Primary": true,
 				"Priority": 41
 			},
+			"Create a ~|binding rod|~": {
+				"Objects": ["Inventor's workbench"],
+				"Items": ["Carved rod of pure essence*", "Magic parts*", "Spiritual parts*", "Precious components*", "Imbued components*", "Offcut components*"],
+				"Level": 1,
+				"Skills": {
+					"Invention": 22
+				},
+				"Primary": true,
+				"Output": "Binding rod",
+				"Priority": 42
+			},
 			"Mold a ~|clay ring (unfired)|~": {
 				"Items": ["Soft clay*"],
 				"Level": 4,
@@ -23932,6 +23946,60 @@
 				},
 				"Primary": false,
 				"Priority": 8
+			},
+			"Cast a ~|cured rod of pure essence|~": {
+				"Objects": ["CraftingFurnace[+]"],
+				"Items": ["Pure essence*", "Air rune*", "Water rune*", "Earth rune*", "Fire rune*"],
+				"Level": 80,
+				"Primary": true,
+				"Output": "Cured rod of pure essence",
+				"Priority": 9,
+				"Not F2P": true
+			},
+			"Carve a ~|carved rod of pure essence|~": {
+				"Objects": ["CraftingFurnace[+]"],
+				"Items": ["Cured rod of pure essence*"],
+				"Level": 80,
+				"Primary": true,
+				"Output": "Carved rod of pure essence",
+				"Priority": 10,
+				"Not F2P": true
+			},
+			"Create a ~|crystal binding rod|~": {
+				"Objects": ["Inventor's workbench"],
+				"Items": ["Binding rod*", "Harmonic dust*", "Offcut components*", "Manufactured components*"],
+				"Level": 80,
+				"Skills": {
+					"Invention": 82
+				},
+				"Primary": true,
+				"Output": "Crystal binding rod",
+				"Priority": 11,
+				"Not F2P": true
+			},
+			"Create a ~|pickpocketing bag|~": {
+				"Objects": ["Inventor's workbench"],
+				"Items": ["Gloves of silence*", "Featherfingered necklace*", "Padded parts*", "Flexible parts*", "Ethereal components*", "Living components*", "Offcut components*"],
+				"Level": 80,
+				"Skills": {
+					"Invention": 22
+				},
+				"Primary": true,
+				"Output": "Pickpocketing bag",
+				"Priority": 12,
+				"Not F2P": true
+			},
+			"Create a ~|mushroomy pickpocketing bag|~": {
+				"Objects": ["Inventor's workbench"],
+				"Items": ["Pickpocketing bag*", "Bittercap mushroom*", "Mushy mush*", "Offcut components*", "Manufactured components*"],
+				"Level": 80,
+				"Skills": {
+					"Invention": 82
+				},
+				"Primary": true,
+				"Output": "Mushroomy pickpocketing bag",
+				"Priority": 13,
+				"Not F2P": true
 			},
 			"Activate the ~|Orthen teleportation device|~ at the Moksha ritual site": {
 				"Tasks": {
@@ -32136,9 +32204,18 @@
 				"Primary": false,
 				"Priority": 13
 			},
+			"Grow a ~|grapevine|~": {
+				"Category": ["Normal Farming"],
+				"Items": ["Grapevine seed*", "Plank[+]"],
+				"Objects": ["Hops patch"],
+				"Level": 49,
+				"Output": "Grapes",
+				"Primary": false,
+				"Priority": 14
+			},
 			"Grow a ~|grimy aventoe|~": {
 				"Category": ["Normal Farming"],
-				"Items": ["Aventoe seed"],
+				"Items": ["Aventoe seed*"],
 				"Objects": ["Herb patch"],
 				"Level": 50,
 				"Output": "Grimy aventoe",
@@ -33811,9 +33888,9 @@
 				"Primary": false,
 				"Priority": 2
 			},
-			"Grow a ~|grapevine|~": {
+			"Grow a ~|godly grapevine|~": {
 				"Category": ["Normal Farming"],
-				"Items": ["Grapevine seed"],
+				"Items": ["Godly grapevine seed", "Plank"],
 				"Objects": ["Hops patch"],
 				"Level": 95,
 				"Output": "GodGrapes",
@@ -40533,16 +40610,16 @@
 				"Primary": true,
 				"Priority": 1
 			},
-			"Mix a ~|guam potion (unf)|~": {
+			"Mix a ~|guam potion (unfinished)|~": {
 				"Category": ["Token"],
 				"Items": ["Clean guam*", "Vial of water"],
 				"Level": 1,
-				"Output": "Guam potion (unf)",
+				"Output": "Guam potion (unfinished)",
 				"Primary": true,
 				"Priority": 2
 			},
 			"Mix an ~|attack potion|~": {
-				"Items": ["Guam potion (unf)*", "Eye of newt*"],
+				"Items": ["Guam potion (unfinished)*", "Eye of newt*"],
 				"Level": 1,
 				"Output": "Attack potion (3)",
 				"Primary": true,
@@ -40682,13 +40759,25 @@
 				"Priority": 21
 			},
 			"Grind ~|softened fungal shafts|~": {
+				"Category": ["Token"],
 				"Items": ["Onyx dust*", "Tempered fungal shaft*"],
 				"Level": 1,
 				"Primary": true,
+				"Output": "Softened fungal shafts",
 				"Priority": 22
 			},
+			"Mix a ~|duckspeak potion|~": {
+				"Items": ["Vial of water*", "Duck food*"],
+				"Level": 1,
+				"Primary": true,
+				"Tasks": {
+					"~|Duck Quest|~ 3": "Quest"
+				},
+				"Output": "Duckspeak potion",
+				"Priority": 23
+			},
 			"Mix a ~|ranging potion|~": {
-				"Items": ["Guam potion (unf)*", "Redberries*"],
+				"Items": ["Guam potion (unfinished)*", "Redberries*"],
 				"Level": 3,
 				"Output": "Ranging potion",
 				"Primary": true,
@@ -40768,16 +40857,16 @@
 				"Primary": true,
 				"Priority": 1
 			},
-			"Mix a ~|tarromin potion (unf)|~": {
+			"Mix a ~|tarromin potion (unfinished)|~": {
 				"Category": ["Token"],
 				"Items": ["Clean tarromin*", "Vial of water"],
 				"Level": 5,
-				"Output": "Tarromin potion (unf)",
+				"Output": "Tarromin potion (unfinished)",
 				"Primary": true,
 				"Priority": 2
 			},
 			"Mix a ~|magic potion|~": {
-				"Items": ["Tarromin potion (unf)*", "ImpBead[+]*"],
+				"Items": ["Tarromin potion (unfinished)*", "ImpBead[+]*"],
 				"Level": 5,
 				"Output": "Magic potion (3)",
 				"Primary": true,
@@ -40800,15 +40889,15 @@
 				"Primary": true,
 				"Priority": 4
 			},
-			"Mix a ~|rogue's purse potion (unf)|~": {
+			"Mix a ~|rogue's purse potion (unfinished)|~": {
 				"Items": ["Clean rogue's purse*", "Vial of water"],
 				"Level": 5,
-				"Output": "Rogue's purse potion (unf)",
+				"Output": "Rogue's purse potion (unfinished)",
 				"Primary": true,
 				"Priority": 5
 			},
 			"Mix a ~|strength potion|~": {
-				"Items": ["Tarromin potion (unf)*", "Limpwurt root*"],
+				"Items": ["Tarromin potion (unfinished)*", "Limpwurt root*"],
 				"Level": 7,
 				"Output": "Strength potion (3)",
 				"Primary": true,
@@ -40845,16 +40934,16 @@
 				"Primary": true,
 				"Priority": 1
 			},
-			"Mix a ~|marrentill potion (unf)|~": {
+			"Mix a ~|marrentill potion (unfinished)|~": {
 				"Category": ["Token"],
 				"Items": ["Clean marrentill*", "Vial of water"],
 				"Level": 9,
-				"Output": "Marrentill potion (unf)",
+				"Output": "Marrentill potion (unfinished)",
 				"Primary": true,
 				"Priority": 2
 			},
 			"Mix a ~|defence potion|~": {
-				"Items": ["Marrentill potion (unf)*", "Bear fur*"],
+				"Items": ["Marrentill potion (unfinished)*", "Bear fur*"],
 				"Level": 9,
 				"Output": "Defence potion (3)",
 				"Primary": true,
@@ -40898,7 +40987,7 @@
 				"Priority": 1
 			},
 			"Mix a ~|necormancy potion|~": {
-				"Items": ["Marentill potion (unf)*", "Cadava berries*"],
+				"Items": ["Marentill potion (unfinished)*", "Cadava berries*"],
 				"Level": 11,
 				"Output": "Necromancy potion (3)",
 				"Primary": true,
@@ -40912,7 +41001,7 @@
 				"Priority": 3
 			},
 			"Mix an ~|antipoison|~": {
-				"Items": ["Marrentill potion (unf)*", "Unicorn horn dust*"],
+				"Items": ["Marrentill potion (unfinished)*", "Unicorn horn dust*"],
 				"Level": 13,
 				"Output": "Antipoison (3)",
 				"Primary": true,
@@ -40937,7 +41026,7 @@
 			},
 			"Mix ~|serum 207|~": {
 				"Chunks": ["13875"],
-				"Items": ["Tarromin potion (unf)*", "Ashes*"],
+				"Items": ["Tarromin potion (unfinished)*", "Ashes*"],
 				"Level": 15,
 				"Output": "Serum 207 (3)",
 				"Primary": true,
@@ -40952,7 +41041,7 @@
 				"Priority": 3
 			},
 			"Mix a ~|Guthix rest|~": {
-				"Items": ["Harralander potion (unf)*", "Clean marrentill*"],
+				"Items": ["Harralander potion (unfinished)*", "Clean marrentill*"],
 				"Level": 18,
 				"Tasks": {
 					"~|One Small Favour|~ 13": "Quest"
@@ -40985,11 +41074,11 @@
 				"Primary": true,
 				"Priority": 1
 			},
-			"Mix a ~|harralander potion (unf)|~": {
+			"Mix a ~|harralander potion (unfinished)|~": {
 				"Category": ["Token"],
 				"Items": ["Clean harralander*", "Vial of water"],
 				"Level": 20,
-				"Output": "Harralander potion (unf)",
+				"Output": "Harralander potion (unfinished)",
 				"Primary": true,
 				"Priority": 2
 			},
@@ -41003,7 +41092,7 @@
 				"Priority": 1
 			},
 			"Mix a ~|restore potion|~": {
-				"Items": ["Harralander potion (unf)*", "Red spiders' eggs*"],
+				"Items": ["Harralander potion (unfinished)*", "Red spiders' eggs*"],
 				"Level": 22,
 				"Output": "Restore potion (3)",
 				"Primary": true,
@@ -41016,15 +41105,15 @@
 				"Primary": true,
 				"Priority": 4
 			},
-			"Mix a ~|Guthix balance (unf)|~": {
+			"Mix a ~|Guthix balance (unfinished)|~": {
 				"Items": ["Restore potion (3)*", "Garlic*"],
 				"Level": 22,
-				"Output": "Guthix balance (unf)",
+				"Output": "Guthix balance (unfinished)",
 				"Primary": true,
 				"Priority": 2
 			},
 			"Mix a ~|Guthix balance|~": {
-				"Items": ["Guthix balance (unf)*", "Silver dust*"],
+				"Items": ["Guthix balance (unfinished)*", "Silver dust*"],
 				"Level": 22,
 				"Output": "Guthix balance (3)",
 				"Primary": true,
@@ -41054,16 +41143,16 @@
 				"Primary": true,
 				"Priority": 1
 			},
-			"Mix a ~|ranarr potion (unf)|~": {
+			"Mix a ~|ranarr potion (unfinished)|~": {
 				"Category": ["Token"],
 				"Items": ["Clean ranarr*", "Vial of water"],
 				"Level": 25,
-				"Output": "Ranarr potion (unf)",
+				"Output": "Ranarr potion (unfinished)",
 				"Primary": true,
 				"Priority": 2
 			},
 			"Mix an ~|energy potion|~": {
-				"Items": ["Harralander potion (unf)*", "Chocolate dust*"],
+				"Items": ["Harralander potion (unfinished)*", "Chocolate dust*"],
 				"Level": 26,
 				"Output": "Energy potion (3)",
 				"Primary": true,
@@ -41093,11 +41182,11 @@
 				"Primary": true,
 				"Priority": 1
 			},
-			"Mix a ~|toadflax potion (unf)|~": {
+			"Mix a ~|toadflax potion (unfinished)|~": {
 				"Category": ["Token"],
 				"Items": ["Clean toadflax*", "Vial of water"],
 				"Level": 30,
-				"Output": "Toadlfax potion (unf)",
+				"Output": "Toadlfax potion (unfinished)",
 				"Primary": true,
 				"Priority": 2
 			},
@@ -41123,7 +41212,7 @@
 				"Priority": 3
 			},
 			"Mix an ~|agility potion|~": {
-				"Items": ["Toadflax potion (unf)*", "Toad's legs*"],
+				"Items": ["Toadflax potion (unfinished)*", "Toad's legs*"],
 				"Level": 34,
 				"Output": "Agility potion (3)",
 				"Primary": true,
@@ -41143,16 +41232,16 @@
 				"Primary": true,
 				"Priority": 1
 			},
-			"Mix a ~|spirit weed potion (unf)|~": {
+			"Mix a ~|spirit weed potion (unfinished)|~": {
 				"Category": ["Token"],
 				"Items": ["Clean spirit weed*", "Vial of water"],
 				"Level": 35,
-				"Output": "Spirit weed potion (unf)",
+				"Output": "Spirit weed potion (unfinished)",
 				"Primary": true,
 				"Priority": 2
 			},
 			"Mix a ~|combat potion|~": {
-				"Items": ["Harralander potion (unf)*", "Goat horn dust*"],
+				"Items": ["Harralander potion (unfinished)*", "Goat horn dust*"],
 				"Level": 36,
 				"Output": "Combat potion (3)",
 				"Primary": true,
@@ -41186,7 +41275,7 @@
 				"Priority": 2
 			},
 			"Mix a ~|prayer potion|~": {
-				"Items": ["Ranarr potion (unf)*", "Snape grass*"],
+				"Items": ["Ranarr potion (unfinished)*", "Snape grass*"],
 				"Level": 38,
 				"Output": "Prayer potion (3)",
 				"Primary": true,
@@ -41207,7 +41296,7 @@
 				"Priority": 1
 			},
 			"Mix a ~|summoning potion|~": {
-				"Items": ["Spirit weed potion (unf)*", "Cockatrice egg*"],
+				"Items": ["Spirit weed potion (unfinished)*", "Cockatrice egg*"],
 				"Level": 40,
 				"Output": "Summoning potion (3)",
 				"Primary": true,
@@ -41227,11 +41316,11 @@
 				"Primary": true,
 				"Priority": 2
 			},
-			"Mix an ~|irit potion (unf)|~": {
+			"Mix an ~|irit potion (unfinished)|~": {
 				"Category": ["Token"],
 				"Items": ["Clean irit*", "Vial of water"],
 				"Level": 40,
-				"Output": "Irit potion (unf)",
+				"Output": "Irit potion (unfinished)",
 				"Primary": true,
 				"Priority": 3
 			},
@@ -41252,16 +41341,16 @@
 				"Primary": true,
 				"Priority": 1
 			},
-			"Mix a ~|wergali potion (unf)|~": {
+			"Mix a ~|wergali potion (unfinished)|~": {
 				"Category": ["Token"],
 				"Items": ["Clean wergali*", "Vial of water"],
 				"Level": 41,
-				"Output": "Wergali potion (unf)",
+				"Output": "Wergali potion (unfinished)",
 				"Primary": true,
 				"Priority": 2
 			},
 			"Mix a ~|crafting potion|~": {
-				"Items": ["Wergali potion (unf)*", "Frog spawn*"],
+				"Items": ["Wergali potion (unfinished)*", "Frog spawn*"],
 				"Level": 42,
 				"Output": "Crafting potion (3)",
 				"Primary": true,
@@ -41285,7 +41374,7 @@
 				"Priority": 2
 			},
 			"Mix a ~|divination potion|~": {
-				"Items": ["Spirit weed potion (unf)*", "Rabbit foot*"],
+				"Items": ["Spirit weed potion (unfinished)*", "Rabbit foot*"],
 				"Level": 43,
 				"Output": "Divination potion (3)",
 				"Primary": true,
@@ -41306,7 +41395,7 @@
 				"Priority": 1
 			},
 			"Mix a ~|super attack|~": {
-				"Items": ["Irit potion (unf)*", "Eye of newt*"],
+				"Items": ["Irit potion (unfinished)*", "Eye of newt*"],
 				"Level": 45,
 				"Output": "Super attack (3)",
 				"Primary": true,
@@ -41346,16 +41435,16 @@
 				"Primary": true,
 				"Priority": 1
 			},
-			"Mix an ~|avantoe potion (unf)|~": {
+			"Mix an ~|avantoe potion (unfinished)|~": {
 				"Category": ["Token"],
 				"Items": ["Clean avantoe*", "Vial of water"],
 				"Level": 48,
-				"Output": "Avantoe potion (unf)",
+				"Output": "Avantoe potion (unfinished)",
 				"Primary": true,
 				"Priority": 2
 			},
 			"Mix a ~|super antipoison|~": {
-				"Items": ["Irit potion (unf)*", "Unicorn horn dust*"],
+				"Items": ["Irit potion (unfinished)*", "Unicorn horn dust*"],
 				"Level": 48,
 				"Output": "Super antipoison (3)",
 				"Primary": true,
@@ -41378,7 +41467,7 @@
 				"Priority": 1
 			},
 			"Mix a ~|woodcutting potion|~": {
-				"Items": ["Avantoe potion (unf)*", "Timber fungus*"],
+				"Items": ["Avantoe potion (unfinished)*", "Timber fungus*"],
 				"Level": 49,
 				"Output": "Woodcutting potion (3)",
 				"Primary": true,
@@ -41392,7 +41481,7 @@
 				"Priority": 3
 			},
 			"Mix a ~|fishing potion|~": {
-				"Items": ["Avantoe potion (unf)*", "Snape grass*"],
+				"Items": ["Avantoe potion (unfinished)*", "Snape grass*"],
 				"Level": 50,
 				"Output": "Fishing potion (3)",
 				"Primary": true,
@@ -41433,7 +41522,7 @@
 				"Priority": 1
 			},
 			"Mix a ~|mining potion|~": {
-				"Items": ["Avantoe potion (unf)*", "Calcified fungus*"],
+				"Items": ["Avantoe potion (unfinished)*", "Calcified fungus*"],
 				"Level": 51,
 				"Output": "Mining potion (3)",
 				"Primary": true,
@@ -41447,7 +41536,7 @@
 				"Priority": 3
 			},
 			"Mix a ~|super energy|~": {
-				"Items": ["Avantoe potion (unf)*", "Mort myre fungus*"],
+				"Items": ["Avantoe potion (unfinished)*", "Mort myre fungus*"],
 				"Level": 52,
 				"Output": "Super energy (3)",
 				"Primary": true,
@@ -41461,7 +41550,7 @@
 				"Priority": 2
 			},
 			"Mix a ~|hunter potion|~": {
-				"Items": ["Avantoe potion (unf)*", "Kebbit teeth dust*"],
+				"Items": ["Avantoe potion (unfinished)*", "Kebbit teeth dust*"],
 				"Level": 53,
 				"Output": "Hunter potion (3)",
 				"Primary": true,
@@ -41520,16 +41609,16 @@
 				"Primary": true,
 				"Priority": 4
 			},
-			"Mix a ~|kwuarm potion (unf)|~": {
+			"Mix a ~|kwuarm potion (unfinished)|~": {
 				"Category": ["Token"],
 				"Items": ["Clean kwuarm*", "Vial of water"],
 				"Level": 54,
-				"Output": "Kwuarm potion (unf)",
+				"Output": "Kwuarm potion (unfinished)",
 				"Primary": true,
 				"Priority": 5
 			},
 			"Mix a ~|runecrafting potion|~": {
-				"Items": ["Wergali potion (unf)*", "SeasonalWool[+]*"],
+				"Items": ["Wergali potion (unfinished)*", "SeasonalWool[+]*"],
 				"Level": 54,
 				"Output": "Runecrafting potion (3)",
 				"Primary": true,
@@ -41543,7 +41632,7 @@
 				"Priority": 8
 			},
 			"Mix a ~|super strength|~": {
-				"Items": ["Kwuarm potion (unf)*", "Limpwurt root*"],
+				"Items": ["Kwuarm potion (unfinished)*", "Limpwurt root*"],
 				"Level": 55,
 				"Output": "Super strength (3)",
 				"Primary": true,
@@ -41564,7 +41653,7 @@
 				"Priority": 2
 			},
 			"Mix a ~|cooking potion|~": {
-				"Items": ["Harralander potion (unf)*", "Swordfish*"],
+				"Items": ["Harralander potion (unfinished)*", "Swordfish*"],
 				"Level": 55,
 				"Output": "Cooking potion (3)",
 				"Primary": true,
@@ -41630,16 +41719,16 @@
 				"Primary": true,
 				"Priority": 4
 			},
-			"Mix a ~|bloodweed potion (unf)|~": {
+			"Mix a ~|bloodweed potion (unfinished)|~": {
 				"Category": ["Token"],
 				"Items": ["Clean bloodweed*", "Vial of water"],
 				"Level": 57,
-				"Output": "Bloodweed potion (unf)",
+				"Output": "Bloodweed potion (unfinished)",
 				"Primary": true,
 				"Priority": 5
 			},
 			"Mix a ~|luck potion|~": {
-				"Items": ["Bloodweed potion (unf)*", "Crushed dragonstone*"],
+				"Items": ["Bloodweed potion (unfinished)*", "Crushed dragonstone*"],
 				"Level": 57,
 				"Output": "Luck potion",
 				"Primary": true,
@@ -41653,7 +41742,7 @@
 				"Priority": 7
 			},
 			"Mix a ~|fletching potion|~": {
-				"Items": ["Wergali potion (unf)*", "Wimpy feather*"],
+				"Items": ["Wergali potion (unfinished)*", "Wimpy feather*"],
 				"Level": 58,
 				"Output": "Fletching potion (3)",
 				"Primary": true,
@@ -41712,11 +41801,11 @@
 				"Primary": true,
 				"Priority": 3
 			},
-			"Mix a ~|snapdragon potion (unf)|~": {
+			"Mix a ~|snapdragon potion (unfinished)|~": {
 				"Category": ["Token"],
 				"Items": ["Clean snapdragon*", "Vial of water"],
 				"Level": 59,
-				"Output": "Snapdragon potion (unf)",
+				"Output": "Snapdragon potion (unfinished)",
 				"Primary": true,
 				"Priority": 4
 			},
@@ -41738,7 +41827,7 @@
 				"Priority": 6
 			},
 			"Mix ~|weapon poison|~": {
-				"Items": ["Kwuarm potion (unf)*", "Dragon scale dust*"],
+				"Items": ["Kwuarm potion (unfinished)*", "Dragon scale dust*"],
 				"Level": 60,
 				"Output": "Weapon poison (3)",
 				"Primary": true,
@@ -41768,7 +41857,7 @@
 				"Priority": 1
 			},
 			"Mix a ~|super restore|~": {
-				"Items": ["Snapdragon potion (unf)*", "Red spiders' eggs*"],
+				"Items": ["Snapdragon potion (unfinished)*", "Red spiders' eggs*"],
 				"Level": 63,
 				"Output": "Super restore (3)",
 				"Primary": true,
@@ -41840,16 +41929,16 @@
 				"Primary": true,
 				"Priority": 4
 			},
-			"Mix a ~|cadantine potion (unf)|~": {
+			"Mix a ~|cadantine potion (unfinished)|~": {
 				"Category": ["Token"],
 				"Items": ["Clean cadantine*", "Vial of water"],
 				"Level": 65,
-				"Output": "Cadantine potion (unf)",
+				"Output": "Cadantine potion (unfinished)",
 				"Primary": true,
 				"Priority": 5
 			},
 			"Mix a ~|camouflage potion|~": {
-				"Items": ["Bloodweed potion (unf)*", "Black salamander*"],
+				"Items": ["Bloodweed potion (unfinished)*", "Black salamander*"],
 				"Level": 65,
 				"Output": "Camouflage potion (3)",
 				"Primary": true,
@@ -41863,7 +41952,7 @@
 				"Priority": 7
 			},
 			"Mix a ~|super defence|~": {
-				"Items": ["Cadantine potion (unf)*", "White berries*"],
+				"Items": ["Cadantine potion (unfinished)*", "White berries*"],
 				"Level": 66,
 				"Output": "Super defence (3)",
 				"Primary": true,
@@ -41905,11 +41994,11 @@
 				"Primary": true,
 				"Priority": 3
 			},
-			"Mix a ~|lantadyme potion (unf)|~": {
+			"Mix a ~|lantadyme potion (unfinished)|~": {
 				"Category": ["Token"],
 				"Items": ["Clean lantadyme*", "Vial of water"],
 				"Level": 67,
-				"Output": "Lantadyme potion (unf)",
+				"Output": "Lantadyme potion (unfinished)",
 				"Primary": true,
 				"Priority": 4
 			},
@@ -41945,7 +42034,7 @@
 				"Priority": 3
 			},
 			"Mix an ~|antifire|~": {
-				"Items": ["Lantadyme potion (unf)*", "Dragon scale dust*"],
+				"Items": ["Lantadyme potion (unfinished)*", "Dragon scale dust*"],
 				"Level": 69,
 				"Output": "Antifire (3)",
 				"Primary": true,
@@ -41979,11 +42068,11 @@
 				"Primary": true,
 				"Priority": 2
 			},
-			"Mix a ~|dwarf weed potion (unf)|~": {
+			"Mix a ~|dwarf weed potion (unfinished)|~": {
 				"Cateogry": ["Token"],
 				"Items": ["Clean dwarf weed*", "Vial of water"],
 				"Level": 70,
-				"Output": "Dwarf weed potion (unf)",
+				"Output": "Dwarf weed potion (unfinished)",
 				"Primary": true,
 				"Priority": 3
 			},
@@ -42050,7 +42139,7 @@
 				"Priority": 4
 			},
 			"Mix a ~|super ranging potion|~": {
-				"Items": ["Dwarf weed potion (unf)*", "Wine of Zamorak*"],
+				"Items": ["Dwarf weed potion (unfinished)*", "Wine of Zamorak*"],
 				"Level": 72,
 				"Output": "Super ranging potion (3)",
 				"Primary": true,
@@ -42164,11 +42253,11 @@
 				"Primary": true,
 				"Priority": 4
 			},
-			"Mix a ~|torstol potion (unf)|~": {
+			"Mix a ~|torstol potion (unfinished)|~": {
 				"Category": ["Token"],
 				"Items": ["Clean torstol*", "Vial of water"],
 				"Level": 75,
-				"Output": "Torstol potion (unf)",
+				"Output": "Torstol potion (unfinished)",
 				"Primary": true,
 				"Priority": 5
 			},
@@ -42219,7 +42308,7 @@
 				"Priority": 18
 			},
 			"Mix a ~|super magic potion|~": {
-				"Items": ["Lantadyme potion (unf)*", "Potato cactus*"],
+				"Items": ["Lantadyme potion (unfinished)*", "Potato cactus*"],
 				"Level": 76,
 				"Output": "Super magic potion (3)",
 				"Primary": true,
@@ -42263,7 +42352,7 @@
 				"Priority": 3
 			},
 			"Mix an ~|invention potion|~": {
-				"Items": ["Snapdragon potion (unf)*", "Chinchompa residue*"],
+				"Items": ["Snapdragon potion (unfinished)*", "Chinchompa residue*"],
 				"Level": 77,
 				"Output": "Invention potion (3)",
 				"Primary": true,
@@ -42283,23 +42372,23 @@
 				"Primary": true,
 				"Priority": 5
 			},
-			"Mix an ~|arbuck potion (unf)|~": {
+			"Mix an ~|arbuck potion (unfinished)|~": {
 				"Category": ["Token"],
 				"Items": ["Clean arbuck*", "Vial of water"],
 				"Level": 77,
-				"Output": "Arbuck potion (unf)",
+				"Output": "Arbuck potion (unfinished)",
 				"Primary": true,
 				"Priority": 6
 			},
 			"Mix a ~|stamina potion|~": {
-				"Items": ["Arbuck potion (unf)*", "SuperEnergyPotion[+]*"],
+				"Items": ["Arbuck potion (unfinished)*", "SuperEnergyPotion[+]*"],
 				"Level": 77,
 				"Output": "Stamina potion (3)",
 				"Primary": true,
 				"Priority": 7
 			},
 			"Mix a ~|Zamorak brew|~": {
-				"Items": ["Torstol potion (unf)*", "Jangerberries*"],
+				"Items": ["Torstol potion (unfinished)*", "Jangerberries*"],
 				"Level": 78,
 				"Output": "Zamorak brew (3)",
 				"Primary": true,
@@ -42324,7 +42413,7 @@
 				"Tasks": {
 					"Complete the ~|Archaeology tutorial|~": "Archaeology"
 				},
-				"Items": ["Avantoe potion (unf)*", "ArchaeologyDirt[+]*", "Archaeology potion recipe*"],
+				"Items": ["Avantoe potion (unfinished)*", "ArchaeologyDirt[+]*", "Archaeology potion recipe*"],
 				"Level": 78,
 				"Output": "Archaeology potion (3)",
 				"Primary": true,
@@ -42377,7 +42466,7 @@
 				"Priority": 4
 			},
 			"Mix a ~|super necromancy|~": {
-				"Items": ["Spirit weed potion (unf)*", "Congealed blood*"],
+				"Items": ["Spirit weed potion (unfinished)*", "Congealed blood*"],
 				"Level": 79,
 				"Output": "Super necromancy (3)",
 				"Primary": true,
@@ -42421,7 +42510,7 @@
 				"Priority": 4
 			},
 			"Mix a ~|Saradomin brew|~": {
-				"Items": ["Torstol potion (unf)*", "Crushed nest*"],
+				"Items": ["Torstol potion (unfinished)*", "Crushed nest*"],
 				"Level": 81,
 				"Output": "Saradomin brew (3)",
 				"Primary": true,
@@ -42471,7 +42560,7 @@
 				"Priority": 3
 			},
 			"Mix an ~|aggression potion|~": {
-				"Items": ["Bloodweed potion (unf)*", "Searing ashes*"],
+				"Items": ["Bloodweed potion (unfinished)*", "Searing ashes*"],
 				"Level": 82,
 				"Output": "Aggression potion (3)",
 				"Primary": true,
@@ -42582,7 +42671,7 @@
 				"Priority": 1
 			},
 			"Mix a ~|summoning renewal|~": {
-				"Items": ["Spirit weed potion (unf)*", "Tombshroom*", "Summoning renewal recipe"],
+				"Items": ["Spirit weed potion (unfinished)*", "Tombshroom*", "Summoning renewal recipe"],
 				"Level": 88,
 				"Output": "Summoning renewal (3)",
 				"Primary": true,
@@ -42731,10 +42820,10 @@
 				"Primary": true,
 				"Priority": 2
 			},
-			"Mix an ~|fellstalk potion (unf)|~": {
+			"Mix an ~|fellstalk potion (unfinished)|~": {
 				"Items": ["Clean fellstalk*", "Vial of water"],
 				"Level": 91,
-				"Output": "Fellstalk potion (unf)",
+				"Output": "Fellstalk potion (unfinished)",
 				"Primary": true,
 				"Priority": 3
 			},
@@ -42887,7 +42976,7 @@
 				"Priority": 1
 			},
 			"Mix a ~|prayer renewal|~": {
-				"Items": ["Fellstalk potion (unf)*", "Morchella mushroom*"],
+				"Items": ["Fellstalk potion (unfinished)*", "Morchella mushroom*"],
 				"Level": 94,
 				"Output": "Prayer renewal (3)",
 				"Primary": true,
@@ -43603,8 +43692,8 @@
 				"Primary": true,
 				"Priority": 1
 			},
-			"Catch a ~|baby impling|~": {
-				"NPCs": ["Baby impling"],
+			"Catch a wandering ~|baby impling|~": {
+				"Category": ["Wandering implings"],
 				"Level": 17,
 				"Source": "drop",
 				"Output": "Baby impling",
@@ -43641,8 +43730,8 @@
 				"Primary": true,
 				"Priority": 1
 			},
-			"Catch a ~|young impling|~": {
-				"NPCs": ["Young impling"],
+			"Catch a wandering ~|young impling|~": {
+				"Category": ["Wandering implings"],
 				"Level": 22,
 				"Source": "drop",
 				"Output": "Young impling",
@@ -43780,8 +43869,8 @@
 				"Primary": true,
 				"Priority": 4
 			},
-			"Catch a ~|gourmet impling|~": {
-				"NPCs": ["Gourmet impling"],
+			"Catch a wandering ~|gourmet impling|~": {
+				"Category": ["Wandering implings"],
 				"Level": 28,
 				"Source": "drop",
 				"Output": "Gourmet impling",
@@ -43872,8 +43961,8 @@
 				"Primary": true,
 				"Priority": 3
 			},
-			"Catch an ~|earth impling|~": {
-				"NPCs": ["Earth impling"],
+			"Catch a wandering ~|earth impling|~": {
+				"Category": ["Wandering implings"],
 				"Level": 36,
 				"Source": "drop",
 				"Output": "Earth impling",
@@ -43969,8 +44058,8 @@
 				"Primary": true,
 				"Priority": 3
 			},
-			"Catch an ~|essence impling|~": {
-				"NPCs": ["Essence impling"],
+			"Catch a wandering ~|essence impling|~": {
+				"Category": ["Wandering implings"],
 				"Level": 42,
 				"Source": "drop",
 				"Output": "Essence impling",
@@ -44104,8 +44193,8 @@
 				"Primary": true,
 				"Priority": 6
 			},
-			"Catch an ~|eclectic impling|~": {
-				"NPCs": ["Eclectic impling"],
+			"Catch a wandering ~|eclectic impling|~": {
+				"Category": ["Wandering implings"],
 				"Level": 50,
 				"Source": "drop",
 				"Output": "Eclectic impling",
@@ -44170,6 +44259,8 @@
 				"Chunks": ["Puro-Puro"],
 				"Items": ["Impling jar"],
 				"Level": 54,
+				"Source": "drop",
+				"Output": "Spirit impling",
 				"Primary": false,
 				"Priority": 1
 			},
@@ -44183,8 +44274,8 @@
 				"Primary": true,
 				"Priority": 4
 			},
-			"Catch a ~|spirit impling|~": {
-				"NPCs": ["Spirit impling"],
+			"Catch a wandering ~|spirit impling|~": {
+				"Category": ["Wandering implings"],
 				"Level": 54,
 				"Source": "drop",
 				"Output": "Spirit impling",
@@ -44234,6 +44325,8 @@
 				"Chunks": ["Puro-Puro"],
 				"Items": ["Impling jar"],
 				"Level": 58,
+				"Source": "drop",
+				"Output": "Nature impling",
 				"Primary": false,
 				"Priority": 1
 			},
@@ -44247,8 +44340,8 @@
 				"Primary": true,
 				"Priority": 3
 			},
-			"Catch a ~|nature impling|~": {
-				"NPCs": ["Nature impling"],
+			"Catch a wandering ~|nature impling|~": {
+				"Category": ["Wandering implings"],
 				"Level": 58,
 				"Source": "drop",
 				"Output": "Nature impling",
@@ -44283,6 +44376,8 @@
 				"Chunks": ["Puro-Puro"],
 				"Items": ["Impling jar"],
 				"Level": 65,
+				"Source": "drop",
+				"Output": "Magpie impling",
 				"Primary": false,
 				"Priority": 1
 			},
@@ -44296,8 +44391,8 @@
 				"Primary": true,
 				"Priority": 4
 			},
-			"Catch a ~|magpie impling|~": {
-				"NPCs": ["Magpie impling"],
+			"Catch a wandering ~|magpie impling|~": {
+				"Category": ["Wandering implings"],
 				"Level": 65,
 				"Source": "drop",
 				"Output": "Magpie impling",
@@ -44369,6 +44464,7 @@
 				"Priority": 1
 			},
 			"Catch a ~|ghost impling|~ in Um": {
+				"Category": ["Extra implings"],
 				"Chunks": ["City of Um"],
 				"Level": 68,
 				"Source": "drop",
@@ -44467,6 +44563,8 @@
 				"Chunks": ["Puro-Puro"],
 				"Items": ["Impling jar"],
 				"Level": 74,
+				"Source": "drop",
+				"Output": "Ninja impling",
 				"Primary": false,
 				"Priority": 2
 			},
@@ -44480,8 +44578,8 @@
 				"Primary": true,
 				"Priority": 4
 			},
-			"Catch a ~|ninja impling|~": {
-				"NPCs": ["Ninja impling"],
+			"Catch a wandering ~|ninja impling|~": {
+				"Category": ["Wandering implings"],
 				"Level": 74,
 				"Source": "drop",
 				"Output": "Ninja impling",
@@ -44566,8 +44664,23 @@
 					"~|Rocking Out|~ Complete the quest": "Quest"
 				},
 				"Level": 76,
+				"Source": "drop",
+				"Output": "Pirate impling",
 				"Primary": false,
 				"Priority": 2
+			},
+			"Catch a ~|pirate impling|~ in Puro-Puro after Pieces of Hate": {
+				"Category": ["Extra implings"],
+				"Chunks": ["Puro-Puro"],
+				"Items": ["Impling jar"],
+				"Level": 76,
+				"Tasks": {
+					"~|Pieces of Hate|~ Complete the quest": "Quest"
+				},
+				"Source": "drop",
+				"Output": "Pirate impling (post quest)",
+				"Primary": false,
+				"Priority": 3
 			},
 			"Catch a ~|pirate impling|~ in the Al Kharid resource dungeon": {
 				"Category": ["Extra implings"],
@@ -44582,8 +44695,8 @@
 				"Primary": true,
 				"Priority": 4
 			},
-			"Catch a ~|pirate impling|~": {
-				"NPCs": ["Pirate impling"],
+			"Catch a wandering ~|pirate impling|~": {
+				"Category": ["Wandering implings"],
 				"Level": 76,
 				"Tasks": {
 					"~|Rocking Out|~ Complete the quest": "Quest"
@@ -44593,8 +44706,8 @@
 				"Primary": false,
 				"Priority": 3
 			},
-			"Catch a ~|pirate impling|~ after Pieces of Hate": {
-				"NPCs": ["Pirate impling"],
+			"Catch a wandering ~|pirate impling|~ after Pieces of Hate": {
+				"Category": ["Wandering implings"],
 				"Level": 76,
 				"Tasks": {
 					"~|Pieces of Hate|~ Complete the quest": "Quest"
@@ -44683,6 +44796,8 @@
 				"Chunks": ["Puro-Puro"],
 				"Items": ["Impling jar"],
 				"Level": 79,
+				"Source": "drop",
+				"Output": "Divine impling",
 				"Primary": false,
 				"Priority": 2
 			},
@@ -44696,8 +44811,8 @@
 				"Primary": true,
 				"Priority": 4
 			},
-			"Catch a ~|divine impling|~": {
-				"NPCs": ["Divine impling"],
+			"Catch a wandering ~|divine impling|~": {
+				"Category": ["Wandering implings"],
 				"Level": 79,
 				"Source": "drop",
 				"Output": "Divine impling",
@@ -44809,6 +44924,8 @@
 				"Chunks": ["Puro-Puro"],
 				"Items": ["Impling jar"],
 				"Level": 83,
+				"Source": "drop",
+				"Output": "Dragon impling",
 				"Primary": false,
 				"Priority": 1
 			},
@@ -44822,8 +44939,8 @@
 				"Primary": true,
 				"Priority": 3
 			},
-			"Catch a ~|dragon impling|~": {
-				"NPCs": ["Dragon impling"],
+			"Catch a wandering ~|dragon impling|~": {
+				"Category": ["Wandering implings"],
 				"Level": 83,
 				"Source": "drop",
 				"Output": "Dragon impling",
@@ -44903,12 +45020,17 @@
 				"Chunks": ["Puro-Puro"],
 				"Items": ["Impling jar"],
 				"Level": 87,
+				"Source": "drop",
+				"Output": "Zombie impling",
 				"Primary": false,
 				"Priority": 1
 			},
 			"Catch a ~|zombie impling|~ in Um": {
+				"Category": ["Extra implings"],
 				"Chunks": ["City of Um"],
 				"Level": 87,
+				"Source": "drop",
+				"Output": "Zombie impling",
 				"Primary": false,
 				"Priority": 4
 			},
@@ -44922,8 +45044,8 @@
 				"Primary": true,
 				"Priority": 4
 			},
-			"Catch a ~|zombie impling|~": {
-				"NPCs": ["Zombie impling"],
+			"Catch a wandering ~|zombie impling|~": {
+				"Category": ["Wandering implings"],
 				"Level": 87,
 				"Source": "drop",
 				"Output": "Zombie impling",
@@ -45154,6 +45276,8 @@
 				"Chunks": ["Puro-Puro"],
 				"Items": ["Impling jar"],
 				"Level": 91,
+				"Source": "drop",
+				"Output": "Kingly impling",
 				"Primary": false,
 				"Priority": 1
 			},
@@ -45163,12 +45287,12 @@
 				"Items": ["Impling jar"],
 				"Level": 91,
 				"Source": "drop",
-				"Output": "kingly impling jar",
+				"Output": "Kingly impling jar",
 				"Primary": true,
 				"Priority": 4
 			},
-			"Catch a ~|kingly impling|~": {
-				"NPCs": ["Kingly impling"],
+			"Catch a wandering ~|kingly impling|~": {
+				"Category": ["Wandering implings"],
 				"Level": 91,
 				"Source": "drop",
 				"Output": "Kingly impling",
@@ -45223,8 +45347,9 @@
 				"Primary": true,
 				"Priority": 2
 			},
-			"Catch a ~|crystal impling|~": {
-				"NPCs": ["Crystal impling"],
+			"Catch a wandering ~|crystal impling|~": {
+				"Category": ["Wandering implings"],
+				"Chunks": ["8756"],
 				"Level": 95,
 				"Output": "Crystal impling",
 				"Primary": false,
@@ -45656,6 +45781,14 @@
 				"Primary": false,
 				"Priority": 114
 			},
+			"~|Disassemble|~ any item that gives Manufactured components": {
+				"Items": ["ManufacturedComps[+]"],
+				"Chunks": ["Invention Guild"],
+				"Level": 2,
+				"Output": "Manufactured components",
+				"Primary": false,
+				"Priority": 114
+			},
 			"Turn junk into ~|refined components|~": {
 				"Items": ["Junk refiner"],
 				"Objects": ["Inventor's workbench"],
@@ -45851,6 +45984,30 @@
 				"Primary": true,
 				"Output": "Pyro-matic",
 				"Priority": 6
+			},
+			"Create a ~|binding rod|~": {
+				"Objects": ["Inventor's workbench"],
+				"Items": ["Carved rod of pure essence*", "Magic parts*", "Spiritual parts*", "Precious components*", "Imbued components*", "Offcut components*"],
+				"Level": 22,
+				"Skills": {
+					"Crafting": 1
+				},
+				"Primary": true,
+				"Output": "Binding rod",
+				"Priority": 7,
+				"Not F2P": true
+			},
+			"Create a ~|pickpocketing bag|~": {
+				"Objects": ["Inventor's workbench"],
+				"Items": ["Gloves of silence*", "Featherfingered necklace*", "Padded parts*", "Flexible parts*", "Ethereal components*", "Living components*", "Offcut components*"],
+				"Level": 22,
+				"Skills": {
+					"Crafting": 80
+				},
+				"Primary": true,
+				"Output": "Pickpocketing bag",
+				"Priority": 8,
+				"Not F2P": true
 			},
 			"Create a ~|soul-in-a-box|~": {
 				"Items": ["Soul rune*", "Tensile parts*", "Smooth parts*", "Subtle components*", "Pious components*"],
@@ -46277,6 +46434,13 @@
 				"Output": "Mechanised siphon",
 				"Priority": 1
 			},
+			"Discover ~|manufactured components|~": {
+				"Category": ["Material Blueprints"],
+				"Objects": ["Inventor's workbench"],
+				"Level": 79,
+				"Primary": false,
+				"Priority": 1
+			},
 			"Build a ~|large generator|~": {
 				"Items": ["Precious components*", "Delicate parts*", "Base parts*", "Clear parts*"],
 				"Chunks": ["Invention Guild"],
@@ -46312,6 +46476,30 @@
 				"Output": "Enchantment of agony",
 				"Primary": true,
 				"Priority": 5
+			},
+			"Invent a ~|crystal binding rod|~": {
+				"Objects": ["Inventor's workbench"],
+				"Items": ["Binding rod*", "Harmonic dust*", "Offcut components*", "Manufactured components*"],
+				"Level": 82,
+				"Skills": {
+					"Crafting": 80
+				},
+				"Primary": true,
+				"Output": "Crystal binding rod",
+				"Priority": 11,
+				"Not F2P": true
+			},
+			"Create a ~|mushroomy pickpocketing bag|~": {
+				"Objects": ["Inventor's workbench"],
+				"Items": ["Pickpocketing bag*", "Bittercap mushroom*", "Mushy mush*", "Offcut components*", "Manufactured components*"],
+				"Level": 82,
+				"Skills": {
+					"Crafting": 80
+				},
+				"Primary": true,
+				"Output": "Mushroomy pickpocketing bag",
+				"Priority": 13,
+				"Not F2P": true
 			},
 			"Discover ~|Third-age components|~": {
 				"Category": ["Material Blueprints"],
@@ -59043,11 +59231,8 @@
 				"Not F2P": true
 			},
 			"Create the ~|Arch-Glacor's Adornment|~": {
-				"Items": ["Glacor remnants*", "Dark nilas*"],
+				"Items": ["Glacor remnants*", "Dark nilas*", "Glacor's Adornment*"],
 				"Level": 65,
-				"Tasks": {
-					"Create the ~|Glacor's Adornment|~": "Runecrafting"
-				},
 				"Output": "Arch-Glacor's Adornment",
 				"Primary": true,
 				"Priority": 5
@@ -59059,7 +59244,7 @@
 				"Priority": 1,
 				"Not F2P": true
 			},
-			"wield a ~|celestial surgebox|~": {
+			"Wield a ~|celestial surgebox|~": {
 				"Items": ["Celestial surgebox"],
 				"Level": 70,
 				"Primary": false,
@@ -59067,6 +59252,12 @@
 					"Dungeoneering": 70,
 					"Magic": 70
 				},
+				"Priority": 1
+			},
+			"Wield a ~|binding rod|~": {
+				"Items": ["Binding rod"],
+				"Level": 71,
+				"Primary": false,
 				"Priority": 1
 			},
 			"Craft ~|Armadyl runes|~ at the air rune temple": {
@@ -59130,11 +59321,8 @@
 				"Priority": 2
 			},
 			"Create the ~|Ur-Glacor's Adornment|~": {
-				"Items": ["Glacor remnants*", "Dark nilas*"],
+				"Items": ["Glacor remnants*", "Dark nilas*", "Arch-Glacor's Adornment*"],
 				"Level": 80,
-				"Tasks": {
-					"Create the ~|Arch-Glacor's Adornment|~": "Runecrafting"
-				},
 				"Output": "Ur-Glacor's Adornment",
 				"Primary": true,
 				"Priority": 3
@@ -59151,6 +59339,12 @@
 				"Output": "Enchantment of afflicition",
 				"Primary": true,
 				"Priority": 5
+			},
+			"Wield a ~|crystal binding rod|~": {
+				"Items": ["Crystal binding rod"],
+				"Level": 81,
+				"Primary": false,
+				"Priority": 1
 			},
 			"Siphon death and blood runes from ~|bloody skulls|~": {
 				"Chunks": ["The Runespan"],
@@ -68717,6 +68911,18 @@
 				},
 				"Output": "Sceptre of the gods",
 				"Primary": true,
+				"Priority": 2
+			},
+			"Wield a ~|pickpocketing bag|~": {
+				"Items": ["Pickpocketing bag"],
+				"Level": 71,
+				"Primary": false,
+				"Priority": 2
+			},
+			"Wield a ~|mushroomy pickpocketing bag|~": {
+				"Items": ["Mushroomy pickpocketing bag"],
+				"Level": 81,
+				"Primary": false,
 				"Priority": 2
 			},
 			"Feed a ~|starved ancient effigy|~ with thieving": {
@@ -78366,6 +78572,55 @@
 				},
 				"Reward": ["Grimy guam", "Eye of newt"]
 			},
+			"~|Duck Quest|~ 1": {
+				"BaseQuest": "Duck Quest",
+				"Description": "Investigate a strange fishing spot near Draynor Village",
+				"Chunks": ["12338"]
+			},
+			"~|Duck Quest|~ 2": {
+				"BaseQuest": "Duck Quest",
+				"Description": "Follow the trail of debris and speak to Breadstix",
+				"Chunks": ["12338", "12337", "12593", "12850", "12851", "12595", "12596"],
+				"Tasks": {
+					"~|Duck Quest|~ 1": "Quest"
+				}
+			},
+			"~|Duck Quest|~ 3": {
+				"BaseQuest": "Duck Quest",
+				"Description": "Create a duckspeak potion and speak to Breadstix again",
+				"Items": ["Vial of water", "Duck food"],
+				"Chunks": ["12596"],
+				"Tasks": {
+					"~|Duck Quest|~ 2": "Quest"
+				}
+			},
+			"~|Duck Quest|~ 4": {
+				"BaseQuest": "Duck Quest",
+				"Description": "Explore Paddlington and return the duckling to its nest",
+				"Chunks": ["Paddlington"],
+				"Tasks": {
+					"~|Duck Quest|~ 3": "Quest"
+				}
+			},
+			"~|Duck Quest|~ 5": {
+				"BaseQuest": "Duck Quest",
+				"Description": "Finish up the quest",
+				"Chunks": ["12596"],
+				"Tasks": {
+					"~|Duck Quest|~ 4": "Quest"
+				}
+			},
+			"~|Duck Quest|~ Complete the quest": {
+				"BaseQuest": "Duck Quest",
+				"Chunks": ["12596"],
+				"Tasks": {
+					"~|Duck Quest|~ 5": "Quest"
+				},
+				"QuestPoints": 1,
+				"XpReward": {
+					"Herblore": 500
+				}
+			},
 			"~|Dwarf Cannon|~ 1": {
 				"BaseQuest": "Dwarf Cannon",
 				"Description": "Talk to Captain Lawgof",
@@ -78569,7 +78824,7 @@
 				"BaseQuest": "Eadgar's Ruse",
 				"Description": "Mix a troll potion",
 				"Chunks": ["11577"],
-				"Items": ["Ranarr potion (unf)"],
+				"Items": ["Ranarr potion (unfinished)"],
 				"Tasks": {
 					"~|Eadgar's Ruse|~ 8": "Quest"
 				},
@@ -83311,7 +83566,7 @@
 				"BaseQuest": "A Guild of Our Own (miniquest)",
 				"Description": "Make a vial of stench and have Chief Thief Robin activate it",
 				"Chunks": ["Thieves' Guild after Caper 2"],
-				"Items": ["Chopped onion", "Irit potion (unf)"],
+				"Items": ["Chopped onion", "Irit potion (unfinished)"],
 				"Tasks": {
 					"~|A Guild of Our Own (miniquest)|~ 1": "Quest"
 				},
@@ -84047,7 +84302,7 @@
 			"~|Heroes' Quest|~ 2b2": {
 				"BaseQuest": "Heroes' Quest",
 				"Description": "Make an oily fishing rod",
-				"Items": ["Harralander potion (unf)", "Fishing rod"],
+				"Items": ["Harralander potion (unfinished)", "Fishing rod"],
 				"Tasks": {
 					"~|Heroes' Quest|~ 2b1": "Quest"
 				},
@@ -96516,7 +96771,7 @@
 			"~|Stolen Hearts|~ 1": {
 				"BaseQuest": "Stolen Hearts",
 				"Description": "Speak to Ozan in Draynor Village",
-				"Chunks": ["12338"]
+				"Chunks": ["12339"]
 			},
 			"~|Stolen Hearts|~ 2": {
 				"BaseQuest": "Stolen Hearts",
@@ -131228,6 +131483,28 @@
 				},
 				"Not F2P": true
 			},
+			"Obtain a ~|crystal binding rod|~": {
+				"Category": ["BIS Skilling"],
+				"Label": "BIS Skilling",
+				"Items": ["Crystal binding rod"],
+				"Requirements": {
+					"Runecrafting": 81
+				},
+				"Priority": 1,
+				"Set": "BIS Binding Rod",
+				"Not F2P": true
+			},
+			"Obtain a ~|binding rod|~": {
+				"Category": ["BIS Skilling"],
+				"Label": "BIS Skilling",
+				"Items": ["Binding rod"],
+				"Requirements": {
+					"Runecrafting": 71
+				},
+				"Priority": 2,
+				"Set": "BIS Binding Rod",
+				"Not F2P": true
+			},
 			"Obtain a ~|fletcher's headwear|~": {
 				"Category": ["BIS Skilling"],
 				"Label": "BIS Skilling",
@@ -131507,6 +131784,28 @@
 				"Category": ["BIS Skilling"],
 				"Label": "BIS Skilling",
 				"Items": ["Master thief's stethoscope"],
+				"Not F2P": true
+			},
+			"Obtain a ~|mushroomy pickpocketing bag|~": {
+				"Category": ["BIS Skilling"],
+				"Label": "BIS Skilling",
+				"Items": ["Mushroomy pickpocketing bag"],
+				"Requirements": {
+					"Runecrafting": 81
+				},
+				"Priority": 1,
+				"Set": "BIS Pickpocketing Bag",
+				"Not F2P": true
+			},
+			"Obtain a ~|pickpocketing bag|~": {
+				"Category": ["BIS Skilling"],
+				"Label": "BIS Skilling",
+				"Items": ["Pickpocketing bag"],
+				"Requirements": {
+					"Runecrafting": 71
+				},
+				"Priority": 2,
+				"Set": "BIS Pickpocketing Bag",
 				"Not F2P": true
 			},
 			"Obtain ~|magic secateurs|~": {
@@ -135438,8 +135737,7 @@
 			},
 			"Sheer sheep*": {
 				"NPCs": ["Sheep"],
-				"Output": "Wool",
-				"Not F2P": false
+				"Output": "Wool"
 			},
 			"Kill a living rock creature*": {
 				"Chunks": ["Living Rock Caverns"],
@@ -137294,6 +137592,11 @@
 			},
 			"Stronghold drops": {
 				"Chunks": ["Stronghold of Security"]
+			},
+			"Obtain mushy mush*": {
+				"Items": ["MushroomEater[+]", "AnyMushroom[+]"],
+				"Chunks": ["10548"],
+				"Output": "Mushy mush"
 			}
 		}
 	},
@@ -137420,6 +137723,9 @@
 		},
 		"41": {
 			"Name": "Senntisten Asylum"
+		},
+		"42": {
+			"Name": "Paddlington"
 		},
 		"258": {
 			"Spawn": {
@@ -144294,8 +144600,7 @@
 			},
 			"Monster": {
 				"Gnome": 3,
-				"Wolf": 2,
-				"Goblin": 3
+				"Goblin#Level 5": 2
 			},
 			"NPC": {
 				"Elf warrior": 2,
@@ -146212,7 +146517,8 @@
 				"Hill Giant": 3,
 				"Terrorbird": 2,
 				"Ogre": 1,
-				"Goblin": 10
+				"Goblin#Level 5": 6,
+				"Goblin#Level 2": 4
 			},
 			"NPC": {
 				"Butterfly": 2,
@@ -147589,7 +147895,7 @@
 				"Man": 1,
 				"Duck": 59,
 				"Rat": 1,
-				"Goblin (Goblin cave)": 22
+				"Goblin#Level 5": 22
 			},
 			"NPC": {
 				"Master fisher": 1,
@@ -147637,7 +147943,7 @@
 				"Rat": 3,
 				"Giant bat": 7,
 				"Guard (dwarf)": 2,
-				"Goblin": 1
+				"Goblin#Level 2": 1
 			},
 			"NPC": {
 				"Captain Lawgof": 1,
@@ -148593,7 +148899,8 @@
 			},
 			"Monster": {
 				"Chicken": 4,
-				"Goblin": 4
+				"Goblin#Level 2": 2,
+				"Goblin#Level 5": 2
 			},
 			"NPC": {
 				"Bonzo": 1,
@@ -151648,7 +151955,7 @@
 				"Crashed star": 1
 			},
 			"Monster": {
-				"Skeleton": 9,
+				"Skeleton#Armed": 9,
 				"Moss giant": 3
 			},
 			"NPC": {
@@ -152803,8 +153110,8 @@
 				"Rat": 6,
 				"Imp": 1,
 				"Zombie rat": 5,
-				"Skeleton": 6,
-				"Ghost": 5
+				"Skeleton (Melzar's Maze)": 6,
+				"Ghost (Melzar's Maze)": 5
 			},
 			"NPC": {
 				"Da Vinci": 1,
@@ -154076,7 +154383,8 @@
 			},
 			"Monster": {
 				"Highwayman": 1,
-				"Goblin": 12,
+				"Goblin#Level 5": 4,
+				"Goblin#Level 2": 8,
 				"Hengel": 1,
 				"Anja": 1,
 				"Hollowtoof": 1,
@@ -154402,7 +154710,7 @@
 				"Man": 1,
 				"Black bear": 3,
 				"Monk of Zamorak": 6,
-				"Goblin (village)": 27,
+				"Goblin (Goblin Village)": 27,
 				"Lumpnose": 1,
 				"Brokeface": 1,
 				"Stinkears": 1,
@@ -154526,7 +154834,7 @@
 				"Rocky handholds": 1
 			},
 			"Monster": {
-				"Skeleton": 2,
+				"Skeleton#Armed": 2,
 				"Ghost (Wildy)": 6,
 				"Demon Boss (Wilderness)": 1
 			},
@@ -154604,6 +154912,9 @@
 			},
 			"Spawn": {
 				"Bones": 5
+			},
+			"Connect": {
+				"11937": true
 			},
 			"Nickname": "Frozen Waste Plateau"
 		},
@@ -155375,7 +155686,7 @@
 				"Crashed star": 1
 			},
 			"Monster": {
-				"Skeleton": 12
+				"Skeleton#Unarmed": 12
 			},
 			"NPC": {
 				"Sam (cape merchant)": 1,
@@ -156097,7 +156408,8 @@
 				"Recipe for Disaster: Freeing the Lumbridge Sage": "step",
 				"Rune Memories": "step",
 				"Rune Mysteries": "first",
-				"Tomes of the Warlock": "step"
+				"Tomes of the Warlock": "step",
+				"Duck Quest": "step"
 			},
 			"Nickname": "Wizard tower"
 		},
@@ -156168,8 +156480,6 @@
 				"Black Knight": 1,
 				"Imp": 1,
 				"Market Guard": 2,
-				"Shady stranger": 2,
-				"Suspicious outsider": 1,
 				"Jail guard": 5
 			},
 			"Spawn": {
@@ -156206,7 +156516,8 @@
 				"Stolen Hearts": "first",
 				"Swan Song": "step",
 				"Swept Away": "step",
-				"While Guthix Sleeps": "step"
+				"While Guthix Sleeps": "step",
+				"Duck Quest": "first"
 			},
 			"Nickname": "South Draynor"
 		},
@@ -156233,7 +156544,7 @@
 			},
 			"Monster": {
 				"Rat": 1,
-				"Goblin": 1,
+				"Goblin#Level 2": 1,
 				"Hollowtoof": 1,
 				"Goblin Raider": 1
 			},
@@ -156300,7 +156611,7 @@
 				"Rat": 2,
 				"Giant spider": 2,
 				"Ghost": 5,
-				"Skeleton": 1
+				"Skeleton (Draynor Manor)": 1
 			},
 			"NPC": {
 				"Undead tree": 10,
@@ -156371,7 +156682,7 @@
 				"Unicorn": 1,
 				"Haakon the Champion": 1,
 				"Barbarian": 17,
-				"Goblin": 5
+				"Goblin#Level 5": 5
 			},
 			"NPC": {
 				"Peksa": 1,
@@ -156516,7 +156827,8 @@
 				"Crashed star": 1
 			},
 			"Monster": {
-				"Skeleton": 14
+				"Skeleton#Unarmed": 9,
+				"Skeleton#Armed": 5
 			},
 			"NPC": {
 				"Mage of Zamorak": 1,
@@ -156581,7 +156893,7 @@
 				"Will o' the wisp": 2
 			},
 			"Monster": {
-				"Skeleton": 10
+				"Skeleton#Armed": 10
 			},
 			"Nickname": "North-West Wilderness Volcano"
 		},
@@ -157217,7 +157529,8 @@
 				"God Emissaries Exploration": "step",
 				"Imp Catcher": "step",
 				"Lost City": "first",
-				"The Mighty Fall": "step"
+				"The Mighty Fall": "step",
+				"Duck Quest": "step"
 			},
 			"Nickname": "West Lumbridge Swamp"
 		},
@@ -157300,7 +157613,8 @@
 				"Cold War": "step",
 				"Cook's Assistant": "step",
 				"Love Story": "first",
-				"Sheep Shearer (miniquest)": "step"
+				"Sheep Shearer (miniquest)": "step",
+				"Duck Quest": "step"
 			},
 			"Nickname": "Lumbridge Mill"
 		},
@@ -157317,7 +157631,8 @@
 				"Iron rock": 4,
 				"Mithril rock": 3,
 				"Bush patch": 1,
-				"Crashed star": 1
+				"Crashed star": 1,
+				"Waddle Willow": 1
 			},
 			"Monster": {
 				"Chicken": 5,
@@ -157345,7 +157660,8 @@
 			"Connect": {
 				"4441": true,
 				"6473": true,
-				"12696": true
+				"12696": true,
+				"42": true
 			},
 			"Shop": {
 				"Marvellous Mysticism": true,
@@ -157358,7 +157674,8 @@
 				"Heroes' Quest": "step",
 				"Shield of Arrav": "step",
 				"Wanted!": "step",
-				"What's Mine is Yours": "step"
+				"What's Mine is Yours": "step",
+				"Duck Quest": "step"
 			},
 			"Nickname": "Champions' Guild"
 		},
@@ -158259,7 +158576,7 @@
 				"Imp": 1,
 				"Man": 4,
 				"Woman": 6,
-				"Goblin": 28,
+				"Goblin#Level 2": 28,
 				"Giant spider": 2,
 				"Cow": 5
 			},
@@ -158305,7 +158622,8 @@
 				"Recipe for Disaster: Freeing Sir Amik Varze": "first",
 				"Recipe for Disaster: Freeing Skrach Uglogwee": "first",
 				"Recipe for Disaster: Defeating the Culinaromancer": "first",
-				"The Restless Ghost": "first"
+				"The Restless Ghost": "first",
+				"Duck Quest": "step"
 			},
 			"Nickname": "Lumbridge"
 		},
@@ -158341,7 +158659,7 @@
 				"Chicken": 18,
 				"Duck": 19,
 				"Imp": 2,
-				"Goblin": 2,
+				"Goblin#Level 2": 2,
 				"Cow": 10,
 				"Cow calf": 4,
 				"Hollowtoof": 1,
@@ -158386,7 +158704,8 @@
 				"A Guild of Our Own (miniquest)": "step",
 				"Lost Her Marbles (miniquest)": "step",
 				"One Small Favour": "step",
-				"Sheep Shearer (miniquest)": "first"
+				"Sheep Shearer (miniquest)": "first",
+				"Duck Quest": "step"
 			},
 			"Nickname": "Groats' Farm"
 		},
@@ -159702,7 +160021,7 @@
 				"Unicorn": 2,
 				"Black bear": 1,
 				"Giant rat": 15,
-				"Goblin": 1
+				"Goblin#Level 5": 1
 			},
 			"NPC": {
 				"Da Vinci": 1,
@@ -159948,7 +160267,7 @@
 				"Young tree": 6
 			},
 			"Monster": {
-				"Skeleton": 5,
+				"Skeleton#Armed": 5,
 				"Ghost": 6,
 				"Hill Giant": 2
 			},
@@ -161149,7 +161468,7 @@
 		"13612": {
 			"Monster": {
 				"Dried zombie": 9,
-				"Skeleton": 11
+				"Skeleton (Ullek)": 11
 			},
 			"NPC": {
 				"Goebie": 4,
@@ -172039,7 +172358,8 @@
                 "Spider": 3,
                 "Giant bat": 9,
                 "Lesser demon": 5,
-                "Skeleton": 7,
+                "Skeleton#Unarmed": 4,
+                "Skeleton#Armed": 3,
                 "Ghost": 14,
                 "Chaos druid": 6,
 				"Magic axe": 7
@@ -173238,7 +173558,8 @@
 				"Zombie#Level 12": 3,
 				"Zombie#Level 29": 4,
 				"Rat": 10,
-				"Skeleton": 4
+				"Skeleton#Unarmed": 2,
+				"Skeleton#Armed": 2
 			},
 			"Connect": {
 				"12338": true,
@@ -174268,7 +174589,7 @@
 			},
 			"Monster": {
 				"Minotaur": 40,
-				"Goblin": 34,
+				"Goblin (Stronghold of Security)": 34,
 				"Wolf": 16,
 				"Rat#Stronghold of Security": 116,
 				"Flesh Crawler": 26,
@@ -174279,7 +174600,8 @@
 				"Spider": 35,
 				"Scorpion": 8,
 				"Ankou": 32,
-				"Skeleton": 26,
+				"Skeleton#Armed": 13,
+				"Skeleton#Unarmed": 13,
 				"Ghost": 31,
 				"Shade": 6
 			},
@@ -175745,7 +176067,7 @@
 				"Giant crypt rat": 4,
 				"Crypt spider": 5,
 				"Giant crypt spider": 6,
-				"Skeleton": 6,
+				"Skeleton (Barrows)": 6,
 				"Barrows: Rise of the Six": 1,
 				"Barrows": 1
 			},
@@ -175927,7 +176249,8 @@
 				"Rat": 31,
 				"Giant spider": 7,
 				"Giant rat": 12,
-				"Skeleton": 35,
+				"Skeleton#Unarmed": 16,
+				"Skeleton#Armed": 16,
 				"Poison spider": 6,
 				"Zombie#Level 22": 10,
 				"Zombie#Level 29": 10,
@@ -176189,7 +176512,7 @@
 				"Deadly red spider": 5,
 				"Giant bat": 3,
 				"Lesser demon": 6,
-				"Skeleton": 5
+				"Skeleton#Unarmed": 5
 			},
 			"Spawn": {
 				"Red spiders' eggs": 1
@@ -176252,7 +176575,8 @@
 				"Scorpion": 2,
 				"Rat": 23,
 				"Giant spider": 5,
-				"Skeleton": 5,
+				"Skeleton#Unarmed": 5,
+				"Skeleton#Armed": 4,
 				"Zombie#Level 12": 3,
 				"Zombie#Level 29": 3,
 				"Giant rat": 4,
@@ -176949,7 +177273,7 @@
 				"Silver rock": 2
 			},
 			"Monster": {
-				"Skeleton": 10
+				"Skeleton#Unarmed": 10
 			},
 			"NPC": {
 				"Doug Deeping": 1,
@@ -177302,7 +177626,8 @@
 			"Monster": {
 				"Zombie#Level 12": 3,
 				"Zombie#Level 29": 3,
-				"Skeleton": 6,
+				"Skeleton#Unarmed": 3,
+				"Skeleton#Armed": 3,
 				"Moss giant": 3
 			},
 			"NPC": {
@@ -177397,7 +177722,7 @@
 			},
 			"Monster": {
 				"Giant bat": 8,
-				"Skeleton": 6,
+				"Skeleton#Armed": 6,
 				"Chaos druid": 11,
 				"Chaos druid warrior": 9,
 				"Salarin the Twisted": 1,
@@ -177465,7 +177790,7 @@
 			},
 			"Monster": {
 				"Giant bat": 3,
-				"Skeleton": 15,
+				"Skeleton#Armed": 15,
 				"Scorpion": 5,
 				"Guardian of Armadyl": 10,
 				"Lesser demon": 3,
@@ -177515,7 +177840,8 @@
 				"Rat": 19,
 				"Giant bat": 6,
 				"Dungeon rat": 5,
-				"Goblin": 24
+				"Goblin#Level 5": 5,
+				"Goblin#Level 2": 19
 			},
 			"NPC": {
 				"Rock pile": 2,
@@ -177795,7 +178121,8 @@
 			},
 			"Monster": {
 				"Rat": 4,
-				"Goblin": 31
+				"Goblin#Level 2": 24,
+				"Goblin#Level 5": 7
 			},
 			"NPC": {
 				"Sleeping guard": 1,
@@ -177861,7 +178188,8 @@
 				"Thief": 2,
 				"Head Thief": 1,
 				"Ogre": 3,
-				"Goblin": 14,
+				"Goblin#Level 2": 6,
+				"Goblin#Level 5": 8,
 				"Hobgoblin": 2
 			},
 			"Connect": {
@@ -177896,7 +178224,7 @@
 			"Monster": {
 				"Rat": 2,
 				"Lesser demon": 5,
-				"Skeleton": 14,
+				"Skeleton#Armed": 14,
 				"Elvarg": 1
 			},
 			"Connect": {
@@ -178092,7 +178420,7 @@
 				"Spider": 10,
 				"Giant bat": 4,
 				"Greater demon": 5,
-				"Skeleton": 3,
+				"Skeleton#Unarmed": 3,
 				"Ogre chieftain": 6
 			},
 			"NPC": {
@@ -178214,10 +178542,11 @@
 			"Monster": {
 				"Rat": 27,
 				"Giant bat": 11,
-				"Skeleton": 10,
+				"Skeleton#Unarmed": 6,
+				"Skeleton#Armed": 4,
 				"Blessed giant rat": 4,
 				"Unicorn": 1,
-				"Goblin": 12,
+				"Goblin#Level 5": 12,
 				"Zombie#Level 12": 14,
 				"Zombie#Level 29": 4,
 				"Blessed spider": 52,
@@ -178366,7 +178695,8 @@
 				"Deadly red spider": 2,
 				"Giant rat": 7,
 				"Poison spider": 2,
-				"Goblin": 3,
+				"Goblin#Level 2": 1,
+				"Goblin#Level 5": 2,
 				"Hobgoblin": 2
 			},
 			"NPC": {
@@ -178439,7 +178769,6 @@
 				"Giant crypt rat": 4,
 				"Crypt spider": 5,
 				"Giant crypt spider": 6,
-				"Skeleton": 6,
 				"Bloodveld": 4,
 				"Skeletal hand": 6,
 				"Zombie hand": 6,
@@ -178681,7 +179010,7 @@
 			},
 			"Monster": {
 				"Monkey Zombie": 30,
-				"Skeleton": 17,
+				"Skeleton (Ape Atoll)": 17,
 				"Spider": 29
 			},
 			"NPC": {
@@ -178746,7 +179075,7 @@
 			"Monster": {
 				"Rat": 9,
 				"Shadow spider": 5,
-				"Skeleton": 3,
+				"Skeleton#Armed": 3,
 				"Skeleton Mage": 4,
 				"Fire giant": 11
 			},
@@ -179634,27 +179963,27 @@
 				"Roots": 1
 			},
 			"Monster": {
-				"Abyssal demon": 9,
-				"Nechryael": 7,
-				"Ancient ranger": 20,
-				"Ancient warrior": 19,
-				"Hellhound": 12,
-				"Zamorakian sniper": 12,
+				"Abyssal demon (Heart of Gielinor)": 9,
+				"Nechryael (Heart of Gielinor)": 7,
+				"Ancient ranger (Heart of Gielinor)": 20,
+				"Ancient warrior (Heart of Gielinor)": 19,
+				"Hellhound (Heart of Gielinor)": 12,
+				"Zamorakian sniper (Heart of Gielinor)": 12,
 				"Chaos dwarf (Heart of Gielinor)": 12,
-				"Ancient mage": 16,
-				"Bloodveld": 8,
-				"Black Knight": 16,
+				"Ancient mage (Heart of Gielinor)": 16,
+				"Bloodveld (Heart of Gielinor)": 8,
+				"Black Knight (Heart of Gielinor)": 16,
 				"Champion of Infernus": 1,
 				"Black Knight champion": 1,
 				"Seren archer": 18,
 				"Seren warrior": 14,
 				"Seren mage": 15,
-				"Wolf": 15,
+				"Wolf (Heart of Gielinor)": 15,
 				"Automaton (Heart of Gielinor)": 2,
-				"Necromancer": 11,
+				"Necromancer (Heart of Gielinor)": 11,
 				"Wight ranger": 11,
 				"Wight": 11,
-				"Skeleton": 18,
+				"Skeleton (Heart of Gielinor)": 18,
 				"Fallen champion": 2,
 				"Telos, the Warden": 1,
 				"Gregorovic": 1,
@@ -180527,6 +180856,7 @@
 				"Riyl shadow (Temple Trekking)": 1,
 				"Shade (Temple Trekking)": 1,
 				"Zombie (Temple Trekking)": 1,
+				"Skeleton (Temple Trekking)": 1,
 				"Vampyre Juvinate": 1,
 				"Ghast": 1,
 				"Swamp snake": 1,
@@ -180695,6 +181025,22 @@
 			},
 			"Connect": {
 				"6941": true
+			}
+		},
+		"Paddlington": {
+			"Quest": {
+				"Duck Quest": "step"
+			},
+			"Connect": {
+				"12596": true
+			}
+		},
+		"Wilderness Agility Course Pit": {
+			"Monster": {
+				"Skeleton#Armed": 8
+			},
+			"Connect": {
+				"11837": true
 			}
 		}
 	},
@@ -181410,6 +181756,39 @@
 			"AnyBow[+]": ["Shortbow", "Oak shortbow", "Willow shortbow", "Maple shortbow", "Yew shortbow", "Magic shortbow", "Elder shortbow", "Hexhunter bow", "Decimation", "Noxious longbow", "Seren godbow", "Bow of the Last Guardian", "Shieldbow", "Oak shieldbow", "Willow shieldbow", "Maple shieldbow", "Yew shieldbow", "Magic shieldbow", "Elder shieldbow", "Dark bow", "Strykebow", "Willow composite bow", "Yew composite bow", "Magic composite bow"],
 			"AnyCenterpieceMaterial[+]": ["Marble block", "Limestone brick"],
 			"AnyMemento[+]": ["Broken memento", "Fragile memento", "Spirit memento", "Robust memento", "Powerful memento"],
+			"AnyMushroom[+]": [
+				"Enriched fungal spore",
+				"Fungal spore",
+				"Enriched fungal algea",
+				"Fungal algae",
+				"Enriched timber fungus",
+				"Timber fungus",
+				"Gorajian mushroom",
+				"Calcified fungus",
+				"Enriched calcified fungus",
+				"Mort myre fungus",
+				"Tombshroom",
+				"Sliced mushrooms",
+				"Morchella mushroom",
+				"Bittercap mushroom",
+				"Wushroom",
+				"Corpsebloom",
+				"Immorel",
+				"Lactarius",
+				"Paraspore",
+				"Purple bellow",
+				"Snufftruffle",
+				"Buttercap",
+				"Blushroom",
+				"Inky cap",
+				"Sporcini",
+				"Toastool",
+				"Honeyfungus",
+				"Arc puffball",
+				"Russula",
+				"Summertwirl",
+				"Sliced mushrooms (The Arc)"
+			],
 			"AnyPortalMaterial[+]": ["Teak plank", "Mahogany plank", "Marble block"],
 			"AnySword[+]": ["Bronze sword", "Iron sword", "Steel sword", "Black sword", "White sword", "Mithril sword", "Adamant sword", "Rune sword", "Leaf-bladed sword", "Toktz-xil-ak", "Korasi's sword", "Khopesh of the Kharidian", "Khopesh of Tumeken", "Bronze longsword", "Iron longsword", "Steel longsword", "Corrupt Vesta's longsword", "Black longsword", "White longsword", "Mithril longsword", "Adamant longsword", "Rune longsword", "Gravite longsword", "Dragon longsword", "Corrupt dragon longsword", "Vesta's longsword", "Bane longsword", "Chaotic longsword", "Tetsu katana", "Dark ice shard", "Elite tetsu katana", "Elder rune longsword", "Drygore longsword", "Dark Shard of Leng", "Blurite sword", "Fremennik blade", "Bronze 2h sword", "Iron 2h sword", "Steel 2h sword", "Black 2h sword", "White 2h sword", "Mithril 2h sword", "Adamant 2h sword", "Rune 2h sword", "Gravite 2h sword", "Dragon 2h sword", "Saradomin sword", "Armadyl godsword", "Bandos godsword", "Saradomin godsword", "Zamorak godsword", "Zaros godsword", "Bane 2h sword", "Elder rune 2h sword", "Ek-ZekKil"],
 			"AnyTalisman[+]": [
@@ -183489,6 +183868,19 @@
 				"Zamorak mjolnir"
 			],
 			"MonkeyGreegreeItem[+]": ["Monkey bones", "Monkey corpse"],
+			"MushroomEater[+]": [
+				"Gloomshroom zygomite (unchecked)",
+				"Zanarian zygomite (unchecked)",
+				"Daemoncap zygomite (unchecked)",
+				"Arcspore zygomite (unchecked)",
+				"Azure chinchompa (unchecked)",
+				"Carnivorous chinchompa (unchecked)",
+				"Cobalt chinchompa (unchecked)",
+				"Crimson chinchompa (unchecked)",
+				"Crystal chinchompa (unchecked)",
+				"Grey chinchompa (unchecked)",
+				"Viridian chinchompa (unchecked)"
+			],
 			"MyceliumWebArmour[+]": [
 				"Mycelium leggings web",
 				"Mycelium poncho web",
@@ -185844,6 +186236,51 @@
 				"Reef relic (rare)", 
 				"Relic of aminishi (rare)", 
 				"Sanctum of rebirth relic (rare)"
+			],
+			"ManufacturedComps[+]": [
+				"Magic wood box", 
+				"Elder wood box", 
+				"Eternal Magic wood box",
+				"Bane ore box",
+				"Elder rune ore box",
+				"Primal ore box",
+				"Greater necroplasm",
+				"Powerful necroplasm",
+				"Primal crossbow Mk. 5",
+				"Off-hand primal crossbow Mk. 5",
+				"Eternal magic shortbow Mk. 5",
+				"Air talisman",
+				"Blood talisman",
+				"Body talisman",
+				"Chaos talisman",
+				"Death talisman",
+				"Earth talisman",
+				"Elemental talisman",
+				"Fire talisman",
+				"Law talisman",
+				"Mind talisman",
+				"Nature talisman",
+				"Omni-talisman",
+				"Soul talisman",
+				"Water talisman",
+				"Air tiara",
+				"Blood tiara",
+				"Body tiara",
+				"Chaos tiara",
+				"Death tiara",
+				"Earth tiara",
+				"Fire tiara",
+				"Law tiara",
+				"Mind tiara",
+				"Nature tiara",
+				"Soul tiara",
+				"Water tiara",
+				"Chaos relic (rare)", 
+				"Igneous stone", 
+				"Laboratory relic (rare)", 
+				"Reef relic (rare)", 
+				"Relic of aminishi (rare)", 
+				"Sanctum of rebirth relic (rare)"
 			]
 		},
 		"itemsPlusNames": {
@@ -185873,6 +186310,7 @@
 			"AnyBow[+]": "Any type of non-chargebow",
 			"AnyCenterpieceMaterial[+]": "Any item that can be used to make a centerpiece to focus your PoH portals",
 			"AnyMemento[+]": "Any memento",
+			"AnyMushroom[+]": "Any type of mushroom or fungus",
 			"AnyPortalMaterial[+]": "Any item that can be used to make a portal frame in your PoH",
 			"AnySword[+]": "Any type of sword",
 			"AnyTalisman[+]": "Any runecrafting talisman",
@@ -186163,6 +186601,7 @@
 			"Mitre[+]": "Any god mitre",
 			"Mjolnir[+]": "Any god mjolnir",
 			"MonkeyGreegreeItem[+]": "Any item that can be used to make the first monkey greegree",
+			"MushroomEater[+]": "Any Manor Farm animal that can eat mushrooms",
 			"MyceliumWebArmour[+]": "Any piece of mycelium web armour",
 			"Mystic Staff[+]": "Any mystic elemental staff variant",
 			"MysticRobes[+]": "Any piece of mystic robes",
@@ -198521,7 +198960,7 @@
 			"Hydrix bolt tips": {
 				"38-42": "Uncommon"
 			},
-			"Grapevine seed": {
+			"Godly grapevine seed": {
 				"6-10": "Uncommon"
 			},
 			"Croesus's enriched root": {
@@ -207719,8 +208158,8 @@
 			"Limpwurt root": {
 				"20 (noted)": "Unknown"
 			},
-			"Grapes": {
-				"14 (noted)": "Unknown"
+			"Grapevine seed": {
+				"8": "Uncommon"
 			},
 			"Long, sharp claws": {
 				"1": "Common"
@@ -208720,641 +209159,484 @@
 				"1": "Always"
 			}
 		},
-		"Goblin": {
+		"Goblin#Level 2": {
 			"Bones": {
 				"1": "Always"
 			},
+			"Gold charm": {
+				"1": "1/10"
+			},
+			"Green charm": {
+				"1": "3/1000"
+			},
+			"Crimson charm": {
+				"1": "1/100"
+			},
+			"Blue charm": {
+				"1": "1/1000"
+			},
 			"Bronze arrow": {
-				"7": "3/128",
-				"16": "1/128",
-				"20": "3/128",
-				"1-10": "11/128"
+				"16": "1/128"
 			},
 			"Bronze bolts": {
-				"8": "3/128"
+				"8": "1/42.7"
 			},
 			"Tiny spiky bronze salvage": {
-				"1": "18/128"
+				"1": "1/42.7"
 			},
 			"Wood spirit": {
-				"1": "11/128"
+				"1": "1/11.6"
 			},
 			"Tiny plated bronze salvage": {
 				"1": "1/128"
 			},
 			"Oak wood spirit": {
-				"2": "6/128"
+				"2": "1/21.3"
 			},
 			"Medium plated bronze salvage": {
 				"1": "1/128"
 			},
 			"Brass necklace": {
-				"1": "3/128"
+				"1": "1/42.7"
 			},
 			"Bread dough": {
-				"1": "10/128"
+				"1": "1/12.8"
 			},
 			"Cabbage": {
-				"1": "14/128"
+				"1": "1/9.14"
 			},
 			"Beer": {
-				"1": "6/128"
+				"1": "1/42.7"
 			},
 			"Air rune": {
-				"2-7": "2/128"
+				"2-7": "2/64"
 			},
 			"Mind rune": {
-				"2": "2/128",
-				"13-19": "3/128"
+				"13-19": "1/42.7"
 			},
 			"Water rune": {
-				"6": "6/128"
+				"6": "1/21.3"
 			},
 			"Earth rune": {
-				"4": "3/128"
+				"4": "1/21.3"
 			},
 			"Body rune": {
-				"2": "4/128",
-				"7": "6/128"
+				"7": "1/21.3"
 			},
 			"Air talisman": {
 				"1": "1/128"
 			},
 			"Chef's hat": {
-				"1": "3/128"
+				"1": "1/42.7"
 			},
 			"Coins": {
-				"1-20": "43/128",
-				"1-24": "79/128",
-				"5-24": "9/128"
+				"5": "1/4.57",
+				"6-10": "1/42.7",
+				"15": "1/42.7",
+				"20": "1/64",
+				"1": "1/128"
 			},
 			"Grapes": {
-				"1": "1/128",
-				"3": "4/128"
+				"3": "1/32"
 			},
 			"Goblin book": {
-				"1": "2/128"
+				"1": "1/128"
 			},
 			"Goblin mail": {
-				"1": "9/128"
+				"1": "1/32"
 			},
 			"Undercooked mystery meat": {
 				"1": "Uncommon"
 			},
 			"Sealed clue scroll (easy)": {
-				"1": "2/128"
+				"1": "1/128"
 			},
 			"Staff of air": {
-				"1": "1/1024"
+				"1": "Common"
 			},
 			"Chargebow": {
-				"1": "1/64"
+				"1": "Common"
 			},
 			"Goblin skull": {
 				"1": "Uncommon"
 			},
 			"Goblin Champion's scroll": {
 				"1": "1/5000"
-			},
-			"Grimy marrentill": {
-				"1": "1/256"
-			},
-			"Tiny bladed bronze salvage": {
-				"1": "3/128"
-			},
-			"Grimy avantoe": {
-				"1": "1/1024"
-			},
-			"Small bladed bronze salvage": {
-				"1": "1/128"
-			},
-			"Bronze javelin": {
-				"5": "2/128"
-			},
-			"Tin stone spirit": {
-				"1": "1/128"
-			},
-			"Chaos rune": {
-				"1": "2/128"
-			},
-			"Grimy irit": {
-				"1": "1/512"
-			},
-			"Grimy lantadyme": {
-				"1": "1/1024"
-			},
-			"Grimy guam": {
-				"1": "1/256"
-			},
-			"Grimy tarromin": {
-				"1": "10/128"
-			},
-			"Bronze hatchet": {
-				"1": "3/128"
-			},
-			"Small plated iron salvage": {
-				"1": "1/128"
-			},
-			"Grimy harralander": {
-				"1": "1/256"
-			},
-			"Grimy kwuarm": {
-				"1": "1/512"
-			},
-			"Grimy ranarr": {
-				"1": "1/1024"
-			},
-			"Grimy cadantine": {
-				"1": "1/1024"
-			},
-			"Gold charm": {
-				"1": "Rare"
-			},
-			"Green charm": {
-				"1": "Rare"
-			},
-			"Crimson charm": {
-				"1": "Rare"
-			},
-			"Blue charm": {
-				"1": "Rare"
 			}
 		},
-		"Goblin (village)": {
+		"Goblin (Goblin Village)": {
 			"Bones": {
 				"1": "Always"
 			},
-			"Bronze arrow": {
-				"7": "3/128",
-				"16": "1/128",
-				"20": "3/128",
-				"1-10": "11/128"
+			"Gold charm": {
+				"1": "1/10"
 			},
-			"Bronze bolts": {
-				"8": "3/128"
+			"Green charm": {
+				"1": "3/1000"
+			},
+			"Crimson charm": {
+				"1": "1/100"
+			},
+			"Blue charm": {
+				"1": "1/1000"
 			},
 			"Tiny spiky bronze salvage": {
-				"1": "18/128"
+				"1": "1/14.2"
 			},
-			"Medium spiky bronze salvage": {
-				"1": "9/128"
+			"Small bladed bronze salvage": {
+				"1": "1/128"
 			},
 			"Tiny plated bronze salvage": {
 				"1": "1/128"
 			},
 			"Small plated bronze salvage": {
-				"1": "14/128"
-			},
-			"Medium plated bronze salvage": {
 				"1": "1/128"
 			},
-			"Brass necklace": {
-				"1": "3/128"
-			},
-			"Bread dough": {
-				"1": "10/128"
-			},
-			"Cabbage": {
-				"1": "14/128"
-			},
-			"Beer": {
-				"1": "6/128"
-			},
-			"Air rune": {
-				"2-7": "2/128"
-			},
-			"Mind rune": {
-				"2": "2/128",
-				"13-19": "3/128"
-			},
-			"Water rune": {
-				"6": "6/128"
-			},
-			"Earth rune": {
-				"4": "3/128"
-			},
-			"Body rune": {
-				"2": "4/128",
-				"7": "6/128"
-			},
-			"Air talisman": {
+			"Small plated iron salvage": {
 				"1": "1/128"
 			},
-			"Chef's hat": {
-				"1": "3/128"
+			"Bronze hatchet": {
+				"1": "1/42.7"
 			},
-			"Coins": {
-				"1-20": "43/128",
-				"1-24": "79/128",
-				"5-24": "9/128"
-			},
-			"Grapes": {
-				"1": "1/128",
-				"3": "4/128"
-			},
-			"Goblin book": {
-				"1": "2/128"
-			},
-			"Goblin mail": {
-				"1": "9/128"
-			},
-			"Undercooked mystery meat": {
-				"1": "Uncommon"
-			},
-			"Sealed clue scroll (easy)": {
-				"1": "2/128"
-			},
-			"Staff of air": {
-				"1": "1/1024"
-			},
-			"Chargebow": {
+			"Bronze javelin": {
 				"1": "1/64"
 			},
-			"Goblin skull": {
-				"1": "Uncommon"
+			"Bronze arrow": {
+				"20": "1/42.7"
 			},
-			"Goblin Champion's scroll": {
-				"1": "1/5000"
+			"Mind rune": {
+				"2": "1/42.7"
 			},
-			"Grimy marrentill": {
-				"1": "1/256"
+			"Earth rune": {
+				"1": "1/42.7"
 			},
-			"Tiny bladed bronze salvage": {
-				"1": "3/128"
+			"Body rune": {
+				"1": "1/42.7"
 			},
-			"Grimy avantoe": {
-				"1": "1/1024"
-			},
-			"Small bladed bronze salvage": {
+			"Chaos rune": {
 				"1": "1/128"
 			},
 			"Nature rune": {
 				"1": "1/128"
 			},
-			"Bronze javelin": {
-				"5": "2/128"
+			"Grimy guam": {
+				"1": "1/256"
+			},
+			"Grimy marrentill": {
+				"1": "1/341"
+			},
+			"Grimy tarromin": {
+				"1": "1/455"
+			},
+			"Grimy harralander": {
+				"1": "1/585"
+			},
+			"Grimy ranarr": {
+				"1": "1/745"
+			},
+			"Grimy irit": {
+				"1": "1/1024"
+			},
+			"Grimy avantoe": {
+				"1": "1/1365"
+			},
+			"Grimy kwuarm": {
+				"1": "1/1638"
+			},
+			"Grimy cadantine": {
+				"1": "1/2048"
+			},
+			"Grimy lantadyme": {
+				"1": "1/2731"
+			},
+			"Grimy dwarf weed": {
+				"1": "1/2731"
+			},
+			"Coins": {
+				"1": "1/2.78",
+				"3": "1/9.85",
+				"5": "1/16",
+				"14": "1/42.7",
+				"16": "1/18.3",
+				"24": "1/42.7",
+				"10": "1/64"
+			},
+			"Goblin book": {
+				"1": "1/64"
+			},
+			"Green goblin mail": {
+				"1": "1/14.2"
+			},
+			"Red goblin mail": {
+				"1": "1/14.2"
+			},
+			"Grapes": {
+				"1": "1/128"
+			},
+			"Cape (red)": {
+				"1": "1/128"
 			},
 			"Tin stone spirit": {
 				"1": "1/128"
 			},
-			"Chaos rune": {
-				"1": "2/128"
+			"Goblin skull": {
+				"1": "1/4"
 			},
-			"Grimy irit": {
-				"1": "1/512"
+			"Undercooked mystery meat": {
+				"1": "Uncommon"
 			},
-			"Grimy lantadyme": {
-				"1": "1/1024"
-			},
-			"Grimy guam": {
-				"1": "1/512"
-			},
-			"Cape (red)": {
-				"1": "1/256"
-			},
-			"Grimy tarromin": {
-				"1": "1/512"
-			},
-			"Green goblin mail": {
-				"1": "10/128"
-			},
-			"Red goblin mail": {
-				"1": "10/128"
-			},
-			"Bronze hatchet": {
-				"1": "3/128"
-			},
-			"Small plated iron salvage": {
+			"Sealed clue scroll (easy)": {
 				"1": "1/128"
 			},
-			"Grimy harralander": {
-				"1": "1/256"
-			},
-			"Grimy kwuarm": {
-				"1": "1/512"
-			},
-			"Grimy ranarr": {
-				"1": "1/1024"
-			},
-			"Grimy cadantine": {
-				"1": "1/1024"
-			},
-			"Gold charm": {
-				"1": "Rare"
-			},
-			"Green charm": {
-				"1": "Rare"
-			},
-			"Crimson charm": {
-				"1": "Rare"
-			},
-			"Blue charm": {
-				"1": "Rare"
+			"Goblin Champions' scroll": {
+				"1": "1/5000"
 			}
 		},
-		"Goblin (Goblin cave)": {
+		"Goblin#Level 5": {
 			"Bones": {
 				"1": "Always"
 			},
-			"Bronze arrow": {
-				"7": "3/128",
-				"16": "1/128",
-				"20": "3/128",
-				"1-10": "11/128"
+			"Gold charm": {
+				"1": "1/10"
 			},
-			"Bronze bolts": {
-				"8": "3/128"
+			"Green charm": {
+				"1": "3/1000"
+			},
+			"Crimson charm": {
+				"1": "1/100"
+			},
+			"Blue charm": {
+				"1": "1/1000"
 			},
 			"Tiny spiky bronze salvage": {
-				"1": "18/128"
+				"1": "1/14.2"
+			},
+			"Small bladed bronze salvage": {
+				"1": "1/128"
 			},
 			"Tiny plated bronze salvage": {
 				"1": "1/128"
 			},
 			"Small plated bronze salvage": {
-				"1": "14/128"
-			},
-			"Medium plated bronze salvage": {
 				"1": "1/128"
 			},
-			"Brass necklace": {
-				"1": "3/128"
-			},
-			"Bread dough": {
-				"1": "10/128"
-			},
-			"Cabbage": {
-				"1": "14/128"
-			},
-			"Beer": {
-				"1": "6/128"
-			},
-			"Air rune": {
-				"2-7": "2/128"
-			},
-			"Mind rune": {
-				"2": "2/128",
-				"13-19": "3/128"
-			},
-			"Water rune": {
-				"6": "6/128"
-			},
-			"Earth rune": {
-				"4": "3/128"
-			},
-			"Body rune": {
-				"2": "4/128",
-				"7": "6/128"
-			},
-			"Air talisman": {
+			"Small plated iron salvage": {
 				"1": "1/128"
 			},
-			"Chef's hat": {
-				"1": "3/128"
+			"Bronze hatchet": {
+				"1": "1/42.7"
 			},
-			"Coins": {
-				"1-20": "43/128",
-				"1-24": "79/128",
-				"5-24": "9/128"
-			},
-			"Grapes": {
-				"1": "1/128",
-				"3": "4/128"
-			},
-			"Goblin book": {
-				"1": "2/128"
-			},
-			"Goblin mail": {
-				"1": "9/128"
-			},
-			"Undercooked mystery meat": {
-				"1": "Uncommon"
-			},
-			"Sealed clue scroll (easy)": {
-				"1": "2/128"
-			},
-			"Staff of air": {
-				"1": "1/1024"
-			},
-			"Chargebow": {
+			"Bronze javelin": {
 				"1": "1/64"
 			},
-			"Goblin skull": {
-				"1": "Uncommon"
+			"Bronze arrow": {
+				"20": "1/42.7"
 			},
-			"Goblin Champion's scroll": {
-				"1": "1/5000"
+			"Mind rune": {
+				"2": "1/42.7"
 			},
-			"Grimy marrentill": {
-				"1": "1/256"
+			"Earth rune": {
+				"1": "1/42.7"
 			},
-			"Tiny bladed bronze salvage": {
-				"1": "3/128"
+			"Body rune": {
+				"1": "1/42.7"
 			},
-			"Grimy avantoe": {
-				"1": "1/1024"
-			},
-			"Small bladed bronze salvage": {
+			"Chaos rune": {
 				"1": "1/128"
 			},
 			"Nature rune": {
 				"1": "1/128"
 			},
-			"Bronze javelin": {
-				"5": "2/128"
+			"Grimy guam": {
+				"1": "1/256"
+			},
+			"Grimy marrentill": {
+				"1": "1/341"
+			},
+			"Grimy tarromin": {
+				"1": "1/455"
+			},
+			"Grimy harralander": {
+				"1": "1/585"
+			},
+			"Grimy ranarr": {
+				"1": "1/745"
+			},
+			"Grimy irit": {
+				"1": "1/1024"
+			},
+			"Grimy avantoe": {
+				"1": "1/1365"
+			},
+			"Grimy kwuarm": {
+				"1": "1/1638"
+			},
+			"Grimy cadantine": {
+				"1": "1/2048"
+			},
+			"Grimy lantadyme": {
+				"1": "1/2731"
+			},
+			"Grimy dwarf weed": {
+				"1": "1/2731"
+			},
+			"Coins": {
+				"1": "1/2.78",
+				"3": "1/9.85",
+				"5": "1/16",
+				"14": "1/42.7",
+				"16": "1/18.3",
+				"24": "1/42.7",
+				"10": "1/64"
+			},
+			"Goblin book": {
+				"1": "1/64"
+			},
+			"Goblin mail": {
+				"1": "1/25.6"
+			},
+			"Grapes": {
+				"1": "1/128"
+			},
+			"Cape (red)": {
+				"1": "1/128"
 			},
 			"Tin stone spirit": {
 				"1": "1/128"
 			},
-			"Chaos rune": {
-				"1": "2/128"
+			"Goblin skull": {
+				"1": "1/4"
 			},
-			"Grimy irit": {
-				"1": "1/512"
+			"Undercooked mystery meat": {
+				"1": "Uncommon"
 			},
-			"Grimy lantadyme": {
-				"1": "1/1024"
-			},
-			"Grimy guam": {
-				"1": "1/512"
-			},
-			"Cape (red)": {
-				"1": "1/256"
-			},
-			"Grimy tarromin": {
-				"1": "1/512"
-			},
-			"Green goblin mail": {
-				"1": "10/128"
-			},
-			"Red goblin mail": {
-				"1": "10/128"
-			},
-			"Bronze hatchet": {
-				"1": "3/128"
-			},
-			"Small plated iron salvage": {
+			"Sealed clue scroll (easy)": {
 				"1": "1/128"
 			},
-			"Grimy harralander": {
-				"1": "1/256"
-			},
-			"Grimy kwuarm": {
-				"1": "1/512"
-			},
-			"Grimy ranarr": {
-				"1": "1/1024"
-			},
-			"Grimy cadantine": {
-				"1": "1/1024"
-			},
-			"Gold charm": {
-				"1": "Rare"
-			},
-			"Green charm": {
-				"1": "Rare"
-			},
-			"Crimson charm": {
-				"1": "Rare"
-			},
-			"Blue charm": {
-				"1": "Rare"
+			"Goblin Champions' scroll": {
+				"1": "1/5000"
 			}
 		},
 		"Goblin (God Wars Dungeon)": {
 			"Bones": {
 				"1": "Always"
 			},
-			"Bronze arrow": {
-				"7": "3/128",
-				"16": "1/128",
-				"20": "3/128",
-				"1-10": "11/128"
+			"Gold charm": {
+				"1": "1/10"
 			},
-			"Bronze bolts": {
-				"8": "3/128"
+			"Green charm": {
+				"1": "3/1000"
 			},
-			"Tiny spiky bronze salvage": {
-				"1": "18/128"
+			"Crimson charm": {
+				"1": "1/100"
 			},
-			"Medium spiky bronze salvage": {
-				"1": "9/128"
-			},
-			"Tiny plated bronze salvage": {
-				"1": "1/128"
-			},
-			"Small plated bronze salvage": {
-				"1": "14/128"
-			},
-			"Medium plated bronze salvage": {
-				"1": "1/128"
-			},
-			"Brass necklace": {
-				"1": "3/128"
-			},
-			"Bread dough": {
-				"1": "10/128"
-			},
-			"Cabbage": {
-				"1": "14/128"
-			},
-			"Beer": {
-				"1": "6/128"
-			},
-			"Air rune": {
-				"2-7": "2/128"
-			},
-			"Mind rune": {
-				"2": "2/128",
-				"13-19": "3/128"
-			},
-			"Water rune": {
-				"6": "6/128"
-			},
-			"Earth rune": {
-				"4": "3/128"
-			},
-			"Body rune": {
-				"2": "4/128",
-				"7": "6/128"
-			},
-			"Air talisman": {
-				"1": "1/128"
-			},
-			"Chef's hat": {
-				"1": "3/128"
-			},
-			"Coins": {
-				"1-20": "43/128",
-				"1-24": "79/128",
-				"5-24": "9/128"
-			},
-			"Grapes": {
-				"1": "1/128",
-				"3": "4/128"
-			},
-			"Goblin book": {
-				"1": "2/128"
-			},
-			"Goblin mail": {
-				"1": "9/128"
-			},
-			"Undercooked mystery meat": {
-				"1": "Uncommon"
-			},
-			"Sealed clue scroll (easy)": {
-				"1": "2/128"
-			},
-			"Staff of air": {
-				"1": "1/1024"
-			},
-			"Chargebow": {
-				"1": "1/64"
-			},
-			"Goblin skull": {
-				"1": "Uncommon"
-			},
-			"Goblin Champion's scroll": {
-				"1": "1/5000"
-			},
-			"Grimy marrentill": {
-				"1": "1/256"
+			"Blue charm": {
+				"1": "1/1000"
 			},
 			"Tiny bladed bronze salvage": {
-				"1": "3/128"
-			},
-			"Grimy avantoe": {
-				"1": "1/1024"
+				"1": "1/14.2"
 			},
 			"Small bladed bronze salvage": {
+				"1": "1/128"
+			},
+			"Medium spiky bronze salvage": {
+				"1": "1/128"
+			},
+			"Bronze hatchet": {
+				"1": "1/42.7"
+			},
+			"Bronze javelin": {
+				"1": "1/64"
+			},
+			"Bronze arrow": {
+				"20": "1/42.7"
+			},
+			"Mind rune": {
+				"2": "1/42.7"
+			},
+			"Earth rune": {
+				"1": "1/42.7"
+			},
+			"Body rune": {
+				"1": "1/42.7"
+			},
+			"Chaos rune": {
 				"1": "1/128"
 			},
 			"Nature rune": {
 				"1": "1/128"
 			},
-			"Bronze javelin": {
-				"5": "2/128"
+			"Grimy guam": {
+				"1": "1/256"
+			},
+			"Grimy marrentill": {
+				"1": "1/341"
+			},
+			"Grimy tarromin": {
+				"1": "1/455"
+			},
+			"Grimy harralander": {
+				"1": "1/585"
+			},
+			"Grimy ranarr": {
+				"1": "1/745"
+			},
+			"Grimy irit": {
+				"1": "1/1024"
+			},
+			"Grimy avantoe": {
+				"1": "1/1365"
+			},
+			"Grimy kwuarm": {
+				"1": "1/1638"
+			},
+			"Grimy cadantine": {
+				"1": "1/2048"
+			},
+			"Grimy lantadyme": {
+				"1": "1/2731"
+			},
+			"Grimy dwarf weed": {
+				"1": "1/2731"
+			},
+			"Coins": {
+				"1": "1/2.78",
+				"3": "1/9.85",
+				"5": "1/16",
+				"14": "1/42.7",
+				"16": "1/18.3",
+				"24": "1/42.7",
+				"10": "1/64"
+			},
+			"Goblin book": {
+				"1": "1/64"
+			},
+			"Green goblin mail": {
+				"1": "1/14.2"
+			},
+			"Red goblin mail": {
+				"1": "1/14.2"
+			},
+			"Grapes": {
+				"1": "1/128"
+			},
+			"Cape (red)": {
+				"1": "1/128"
 			},
 			"Tin stone spirit": {
 				"1": "1/128"
 			},
-			"Chaos rune": {
-				"1": "2/128"
+			"Goblin skull": {
+				"1": "1/4"
 			},
-			"Grimy irit": {
-				"1": "1/512"
+			"Undercooked mystery meat": {
+				"1": "Uncommon"
 			},
-			"Grimy lantadyme": {
-				"1": "1/1024"
+			"Sealed clue scroll (easy)": {
+				"1": "1/128"
 			},
-			"Grimy guam": {
-				"1": "1/512"
-			},
-			"Cape (red)": {
-				"1": "1/256"
-			},
-			"Grimy tarromin": {
-				"1": "1/512"
+			"Goblin Champions' scroll": {
+				"1": "1/5000"
 			},
 			"Sacrifice ability": {
 				"1": "Rare"
@@ -209382,24 +209664,41 @@
 			},
 			"Warpriest of Bandos cape": {
 				"1": "1/128"
+			}
+		},
+		"Goblin (Stronghold of Security)": {
+			"Bones": {
+				"1": "Always"
 			},
-			"Bronze hatchet": {
-				"1": "3/128"
+			"Nothing": {
+				"1": "1/2"
 			},
-			"Small plated iron salvage": {
-				"1": "1/128"
+			"Coins": {
+				"5-25": "1/14.4"
 			},
-			"Grimy harralander": {
-				"1": "1/256"
+			"Beer": {
+				"1": "1/20.2"
 			},
-			"Grimy kwuarm": {
-				"1": "1/512"
+			"Bronze arrow": {
+				"1": "1/11.2"
 			},
-			"Grimy ranarr": {
-				"1": "1/1024"
+			"Tiny bladed bronze salvage": {
+				"1": "1/7.21"
 			},
-			"Grimy cadantine": {
-				"1": "1/1024"
+			"Small bladed bronze salvage": {
+				"1": "1/7.21"
+			},
+			"Chargebow": {
+				"1": "1/200"
+			},
+			"Staff of air": {
+				"1": "1/200"
+			},
+			"Goblin skull": {
+				"1": "Always"
+			},
+			"Goblin Champions' scroll": {
+				"1": "1/5000"
 			}
 		},
 		"Goblin Raider": {
@@ -229726,135 +230025,206 @@
 				"1": "Rare"
 			}
 		},
-		"Skeleton": {
+		"Skeleton#Unarmed": {
 			"Bones": {
 				"1": "Always"
 			},
-			"Coins": {
-				"1": "Common",
-				"2": "Common",
-				"4": "Common",
-				"5": "Common",
-				"10": "Common",
-				"12": "Common",
-				"16": "Common",
-				"25": "Common",
-				"33": "Common",
-				"45": "Common",
-				"48": "Common",
-				"65": "Common"
+			"Gold charm": {
+				"1": "1/92.6"
 			},
-			"Air rune": {
-				"12": "Common",
-				"15": "Common"
+			"Green charm": {
+				"1": "1/185"
 			},
-			"Earth rune": {
-				"3": "Common"
+			"Crimson charm": {
+				"1": "1/92.6"
 			},
-			"Fire rune": {
-				"2": "Common"
-			},
-			"Chaos rune": {
-				"3": "Uncommon",
-				"5": "Uncommon"
-			},
-			"Nature rune": {
-				"3": "Uncommon"
+			"Blue charm": {
+				"1": "1/57.8"
 			},
 			"Bronze arrow": {
-				"2": "Common",
-				"5": "Common"
+				"2": "1/18.3",
+				"5": "1/32"
 			},
 			"Iron arrow": {
-				"1": "Uncommon",
-				"12": "Uncommon"
+				"1": "1/32"
+			},
+			"Air rune": {
+				"12": "1/64"
+			},
+			"Earth rune": {
+				"3": "1/64"
+			},
+			"Fire rune": {
+				"2": "1/64"
+			},
+			"Chaos rune": {
+				"3": "1/64"
+			},
+			"Nature rune": {
+				"3": "1/128"
 			},
 			"Steel arrow": {
-				"1": "Rare"
+				"1": "1/128"
 			},
-			"Tiny spiky iron salvage": {
-				"1": "Uncommon"
-			},
-			"Iron stone spirit": {
-				"1": "Uncommon"
-			},
-			"Fire talisman": {
-				"1": "Rare"
-			},
-			"Wheat": {
-				"1": "Uncommon"
+			"Coins": {
+				"2": "1/7",
+				"4": "1/18",
+				"12": "1/9",
+				"16": "1/32",
+				"25": "1/32",
+				"33": "1/32",
+				"48": "1/128"
 			},
 			"Grimy guam": {
-				"1": "Common"
-			},
-			"Grimy tarromin": {
-				"1": "Common"
+				"1": "1/24"
 			},
 			"Grimy marrentill": {
-				"1": "Common"
+				"1": "1/32"
+			},
+			"Grimy tarromin": {
+				"1": "1/43"
 			},
 			"Grimy harralander": {
-				"1": "Common"
+				"1": "1/55"
 			},
 			"Grimy ranarr": {
-				"1": "Uncommon"
+				"1": "1/70"
 			},
 			"Grimy irit": {
-				"1": "Uncommon"
+				"1": "1/98"
 			},
 			"Grimy avantoe": {
-				"1": "Uncommon"
+				"1": "1/130"
 			},
 			"Grimy kwuarm": {
-				"1": "Uncommon"
+				"1": "1/156"
 			},
 			"Grimy cadantine": {
-				"1": "Rare"
+				"1": "1/195"
 			},
 			"Grimy lantadyme": {
-				"1": "Rare"
+				"1": "1/260"
 			},
 			"Grimy dwarf weed": {
-				"1": "Rare"
+				"1": "1/260"
 			},
-			"Water rune": {
-				"9": "Common"
+			"Nothing": {
+				"1": "1/7"
 			},
-			"Cosmic rune": {
-				"2": "Rare"
+			"Tiny spiky iron salvage": {
+				"1": "1/7"
 			},
-			"Law rune": {
-				"2": "Uncommon"
+			"Iron stone spirit": {
+				"1": "1/128"
 			},
-			"Iron hatchet": {
-				"1": "Uncommon"
+			"Fire talisman": {
+				"1": "1/64"
 			},
-			"Tiny plated iron salvage": {
-				"1": "Common"
-			},
-			"Small bladed iron salvage": {
-				"1": "Rare"
-			},
-			"Copper stone spirit": {
-				"1": "Uncommon"
+			"Wheat": {
+				"1": "1/128"
 			},
 			"Skeleton Champion's scroll": {
 				"1": "1/5000"
 			},
 			"Starved ancient effigy": {
-				"1": "Varies"
+				"1": "Very rare"
+			}
+		},
+		"Skeleton#Armed": {
+			"Bones": {
+				"1": "Always"
 			},
 			"Gold charm": {
-				"1": "Rare"
+				"1": "1/92.6"
 			},
 			"Green charm": {
-				"1": "Rare"
+				"1": "1/185"
 			},
 			"Crimson charm": {
-				"1": "Rare"
+				"1": "1/92.6"
 			},
 			"Blue charm": {
-				"1": "Rare"
+				"1": "1/57.8"
+			},
+			"Air rune": {
+				"15": "1/42"
+			},
+			"Water rune": {
+				"9": "1/42"
+			},
+			"Chaos rune": {
+				"5": "1/64"
+			},
+			"Law rune": {
+				"2": "1/64"
+			},
+			"Iron arrow": {
+				"12": "1/64"
+			},
+			"Cosmic rune": {
+				"2": "1/128"
+			},
+			"Coins": {
+				"1": "1/64",
+				"5": "1/5",
+				"10": "1/5",
+				"25": "1/16",
+				"45": "1/32",
+				"64": "1/42"
+			},
+			"Grimy guam": {
+				"1": "1/25"
+			},
+			"Grimy marrentill": {
+				"1": "1/34"
+			},
+			"Grimy tarromin": {
+				"1": "1/45"
+			},
+			"Grimy harralander": {
+				"1": "1/58"
+			},
+			"Grimy ranarr": {
+				"1": "1/74"
+			},
+			"Grimy irit": {
+				"1": "1/102"
+			},
+			"Grimy avantoe": {
+				"1": "1/137"
+			},
+			"Grimy kwuarm": {
+				"1": "1/164"
+			},
+			"Grimy cadantine": {
+				"1": "1/205"
+			},
+			"Grimy lantadyme": {
+				"1": "1/273"
+			},
+			"Grimy dwarf weed": {
+				"1": "1/273"
+			},
+			"Nothing": {
+				"1": "1/16"
+			},
+			"Tiny spiky iron salvage": {
+				"1": "1/32"
+			},
+			"Tiny plated iron salvage": {
+				"1": "1/21"
+			},
+			"Small bladed iron salvage": {
+				"1": "1/128"
+			},
+			"Copper stone spirit": {
+				"1": "1/25"
+			},
+			"Iron hatchet": {
+				"1": "1/64"
+			},
+			"Skeleton Champion's scroll": {
+				"1": "1/5000"
 			}
 		},
 		"Skeleton (Ape Atoll)": {
@@ -234283,7 +234653,7 @@
 			"Dwarf weed seed": {
 				"1-2": "Uncommon"
 			},
-			"Grapevine seed": {
+			"Godly grapevine seed": {
 				"3": "Rare"
 			},
 			"Cadantine seed": {
@@ -236620,7 +236990,7 @@
 			"Resonant anima of Ful": {
 				"1-3": "Common"
 			},
-			"Grapevine seed": {
+			"Godly grapevine seed": {
 				"1": "Unknown"
 			},
 			"Grimy toadflax": {
@@ -238277,7 +238647,7 @@
 			"Grimy torstol": {
 				"15-29 (noted)": "Common"
 			},
-			"Grapevine seed": {
+			"Godly grapevine seed": {
 				"10-36": "Common"
 			},
 			"Raw rocktail": {
@@ -238324,7 +238694,7 @@
 			"Grimy torstol": {
 				"15-29 (noted)": "Common"
 			},
-			"Grapevine seed": {
+			"Godly grapevine seed": {
 				"10-36": "Common"
 			},
 			"Raw rocktail": {
@@ -244062,6 +244432,7 @@
 		"Dragon Slayer": "12596, 12086, 12850, Dwarven Mine, 11570, Melzar's Maze Basement, 12081, 12082, 12338, 11314, 11315, Elvarg's Lair",
 		"Dream Mentor": "Lunar Isle Mine, 8253, 8508",
 		"Druidic Ritual": "11574, 11573, Burthorpe Slayer Cave, 11572",
+		"Duck Quest": "12238, 12337, 12593, 12850, 12851, 12595, 12596, Paddlington",
 		"Dwarf Cannon": "10294, 10038, 10293, Goblin Cave, 12085",
 		"Eadgar's Ruse": "11573, Eadgar's Cave, Troll Stronghold, 10291, 11577",
 		"Eagles' Peak": "10291, 9270, Eagles' Peak Eyrie, 13109",
@@ -245308,6 +245679,11 @@
 			"Ice warrior": {
 				"11318": [{
 					"Access members content": "Nonskill"
+				}]
+			},
+			"Jail guard": {
+				"12338": [{
+					"~|Stolen Hearts|~ Complete the quest": "Quest"
 				}]
 			},
 			"K'ril Tsutsaroth (Hard Mode)": {
@@ -254061,7 +254437,7 @@
 				"Blood rune": "Common",
 				"Prayer mix (2)": "Common",
 				"Prayer mix (1)": "Common",
-				"Ranarr potion (unf)": "Common",
+				"Ranarr potion (unfinished)": "Common",
 				"Super antipoison mix (1)": "Common",
 				"Super antipoison mix (2)": "Common",
 				"Super strength mix (1)": "Common",
@@ -255770,6 +256146,9 @@
 				"Iron bar": {
 					"5 (noted)": "Uncommon"
 				},
+				"Steel bar": {
+					"2 (noted)": "Uncommon"
+				},
 				"Mithril bar": {
 					"1": "Uncommon"
 				},
@@ -255778,9 +256157,6 @@
 				},
 				"Rune bar": {
 					"1": "Uncommon"
-				},
-				"Iron platebody": {
-					"5 (noted)": "Uncommon"
 				},
 				"Steel ingot": {
 					"2-5 (noted)": "Uncommon"
@@ -255928,6 +256304,12 @@
 				},
 				"Water talisman": {
 					"1-2 (noted)": "Uncommon"
+				},
+				"Earth talisman": {
+					"1-2 (noted)": "Uncommon"
+				},
+				"Bucket of sand": {
+					"10 (noted)": "Uncommon"
 				},
 				"Vampyre dust": {
 					"1": "Uncommon"
@@ -256129,7 +256511,7 @@
 				"Barberry seed": "45/3402",
 				"Butterfly flower seed": "45/3402",
 				"Fly trap seed": "47/3402",
-				"Grapevine seed": "7/3402",
+				"Godly grapevine seed": "7/3402",
 				"Potato cactus seed": "21/3402",
 				"Prickly pear seed": "45/3402",
 				"Reed seed": "29/3402",
@@ -256163,7 +256545,7 @@
 				"Barberry seed": "7/500",
 				"Butterfly flower seed": "8/500",
 				"Fly trap seed": "7/500",
-				"Grapevine seed": "5/500",
+				"Godly grapevine seed": "5/500",
 				"Potato cactus seed": "1/500",
 				"Prickly pear seed": "12/500",
 				"Reed seed": "6/500",
@@ -256190,7 +256572,7 @@
 				"Barberry seed": "90/6793",
 				"Butterfly flower seed": "92/6793",
 				"Fly trap seed": "105/6793",
-				"Grapevine seed": "44/6793",
+				"Godly grapevine seed": "44/6793",
 				"Potato cactus seed": "72/6793",
 				"Prickly pear seed": "100/6793",
 				"Reed seed": "57/6793",
@@ -256271,7 +256653,7 @@
 				"Barberry seed": "17/1312",
 				"Butterfly flower seed": "15/1312",
 				"Fly trap seed": "14/1312",
-				"Grapevine seed": "5/1312",
+				"Godly grapevine seed": "5/1312",
 				"Potato cactus seed": "15/1312",
 				"Prickly pear seed": "14/1312",
 				"Reed seed": "8/1312",
@@ -256428,7 +256810,7 @@
 				"Barberry seed": "28/2221",
 				"Butterfly flower seed": "32/2221",
 				"Fly trap seed": "33/2221",
-				"Grapevine seed": "5/2221",
+				"Godly grapevine seed": "5/2221",
 				"Potato cactus seed": "28/2221",
 				"Prickly pear seed": "21/2221",
 				"Reed seed": "28/2221",
@@ -256584,7 +256966,7 @@
 				"Barberry seed": "35/2046",
 				"Butterfly flower seed": "30/2046",
 				"Fly trap seed": "24/2046",
-				"Grapevine seed": "11/2046",
+				"Godly grapevine seed": "11/2046",
 				"Potato cactus seed": "21/2046",
 				"Prickly pear seed": "21/2046",
 				"Reed seed": "18/2046",
@@ -256602,7 +256984,7 @@
 				"Barberry seed": "100/6360",
 				"Butterfly flower seed": "96/6360",
 				"Fly trap seed": "89/6360",
-				"Grapevine seed": "37/6360",
+				"Godly grapevine seed": "37/6360",
 				"Potato cactus seed": "58/6360",
 				"Prickly pear seed": "107/6360",
 				"Reed seed": "52/6360",
@@ -256628,7 +257010,7 @@
 				"Barberry seed": "5/15461",
 				"Butterfly flower seed": "3/15461",
 				"Fly trap seed": "8/15461",
-				"Grapevine seed": "Unknown",
+				"Godly grapevine seed": "Unknown",
 				"Potato cactus seed": "5/15461",
 				"Prickly pear seed": "2/15461",
 				"Reed seed": "3/15461",
@@ -256654,7 +257036,7 @@
 				"Barberry seed": "14/1805",
 				"Butterfly flower seed": "17/1805",
 				"Fly trap seed": "13/1805",
-				"Grapevine seed": "5/1805",
+				"Godly grapevine seed": "5/1805",
 				"Potato cactus seed": "8/1805",
 				"Prickly pear seed": "18/1805",
 				"Reed seed": "9/1805",
@@ -256905,7 +257287,7 @@
 				"Barberry seed": "79/6343",
 				"Butterfly flower seed": "100/6343",
 				"Fly trap seed": "80/6343",
-				"Grapevine seed": "33/6343",
+				"Godly grapevine seed": "33/6343",
 				"Potato cactus seed": "72/6343",
 				"Prickly pear seed": "101/6343",
 				"Reed seed": "62/6343",
@@ -256938,7 +257320,7 @@
 				"Barberry seed": "54/2616",
 				"Butterfly flower seed": "41/2616",
 				"Fly trap seed": "43/2616",
-				"Grapevine seed": "13/2616",
+				"Godly grapevine seed": "13/2616",
 				"Potato cactus seed": "19/2616",
 				"Prickly pear seed": "42/2616",
 				"Reed seed": "27/2616",
@@ -256963,7 +257345,7 @@
 				"Barberry seed": "20/1064",
 				"Butterfly flower seed": "18/1064",
 				"Fly trap seed": "16/1064",
-				"Grapevine seed": "6/1064",
+				"Godly grapevine seed": "6/1064",
 				"Potato cactus seed": "11/1064",
 				"Prickly pear seed": "21/1064",
 				"Reed seed": "12/1064",
@@ -256988,7 +257370,7 @@
 				"Barberry seed": "15/1010",
 				"Butterfly flower seed": "14/1010",
 				"Fly trap seed": "18/1010",
-				"Grapevine seed": "4/1010",
+				"Godly grapevine seed": "4/1010",
 				"Potato cactus seed": "11/1010",
 				"Prickly pear seed": "13/1010",
 				"Reed seed": "17/1010",
@@ -257914,7 +258296,8 @@
 				"Protective components": "Uncommon",
 				"Sharp components": "Uncommon",
 				"Heavy components": "Uncommon",
-				"Precise components": "Uncommon"
+				"Precise components": "Uncommon",
+				"Offcut components": "Uncommon"
 			},
 			"DivinationOutfit": {	
 				"Elder divination head": "Always",
@@ -260482,7 +260865,7 @@
 				"Onyx bolt tips": {
 					"8-12": "Uncommon"
 				},
-				"Grapevine seed": {
+				"Godly grapevine seed": {
 					"4-8": "Uncommon"
 				},
 				"Avocado seed": {
@@ -262196,7 +262579,7 @@
 				"Grimy snapdragon": {
 					"3-7 (noted)": "Common"
 				},
-				"Ranarr potion (unf)": {
+				"Ranarr potion (unfinished)": {
 					"4-7 (noted)": "Common"
 				},
 				"Red spiders' eggs": {
@@ -265747,7 +266130,7 @@
 				"Grimy lantadyme": {
 					"4-10 (noted)": "common"
 				},
-				"Grapevine seed": {
+				"Godly grapevine seed": {
 					"4-8": "rare"
 				},
 				"Arbuck seed": {
@@ -272289,6 +272672,9 @@
 				"Watermelon seed": {
 					"1": "Rare"
 				},
+				"Grapevine seed": {
+					"2-4": "Rare"
+				},
 				"Wildblood seed": {
 					"1": "Rare"
 				},
@@ -272437,7 +272823,7 @@
 				"Fire orb": {
 					"1": "Uncommon"
 				},
-				"Grapevine seed": {
+				"Godly grapevine seed": {
 					"1": "Uncommon"
 				},
 				"Sunchoke seed": {
@@ -272540,7 +272926,7 @@
 				"Reed seed": {
 					"1": "Uncommon"
 				},
-				"Grapevine seed": {
+				"Godly grapevine seed": {
 					"1": "Uncommon"
 				},
 				"Crystal triskelion fragment 1": {
@@ -272600,7 +272986,7 @@
 				"Runite stone spirit": {
 					"1": "Rare"
 				},
-				"Grapevine seed": {
+				"Godly grapevine seed": {
 					"1": "Rare"
 				},
 				"Snape grass seed": {
