@@ -256122,6 +256122,9 @@
 				"Iron bar": {
 					"5 (noted)": "Uncommon"
 				},
+				"Steel bar": {
+					"2 (noted)": "Uncommon"
+				},
 				"Mithril bar": {
 					"1": "Uncommon"
 				},
@@ -256130,9 +256133,6 @@
 				},
 				"Rune bar": {
 					"1": "Uncommon"
-				},
-				"Iron platebody": {
-					"5 (noted)": "Uncommon"
 				},
 				"Steel ingot": {
 					"2-5 (noted)": "Uncommon"
@@ -256280,6 +256280,12 @@
 				},
 				"Water talisman": {
 					"1-2 (noted)": "Uncommon"
+				},
+				"Earth talisman": {
+					"1-2 (noted)": "Uncommon"
+				},
+				"Bucket of sand": {
+					"10 (noted)": "Uncommon"
 				},
 				"Vampyre dust": {
 					"1": "Uncommon"
