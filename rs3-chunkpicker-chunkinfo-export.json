@@ -82918,7 +82918,7 @@
 			"~|God Emissaries Combat|~ 2": {
 				"BaseQuest": "God Emissaries Combat",
 				"Description": "Kill 10 goblins",
-				"Monsters": ["Goblin"],
+				"Monsters": ["Goblin[+]"],
 				"Tasks": {
 					"~|God Emissaries Combat|~ 1": "Quest"
 				},
@@ -110154,7 +110154,7 @@
 				"Description": "Have a Skeleton Warrior conjured while fighting a skeleton",
 				"Chunks": ["City of Um"],
 				"Items": ["Ectoplasm"],
-				"Monsters": ["Skeleton"],
+				"Monsters": ["Skeleton[+]"],
 				"Tasks": {
 					"~|Necromancy!|~ Complete the quest": "Quest"
 				},
@@ -187115,7 +187115,9 @@
 			"Legiones[+]": ["Legio Primus", "Legio Secundus", "Legio Tertius", "Legio Quartus", "Legio Quintus", "Legio Sextus"],
 			"LudikerisMonsters[+]": ["Locust rider", "Scarab mage", "Kalphite Worker", "Kalphite Soldier", "Kalphite Guardian"],
 			"AnyTroll[+]": ["Ghostly troll bruiser", "Ghostly troll thrower", "Ice troll", "Ice troll female", "Ice troll grunt", "Ice troll male", "Ice troll runt", "Kraka", "Mountain troll", "Mountain troll (well)", "Pee Hat", "River troll", "Rock (monster)", "Stick", "Stove", "Thrower troll", "Troll brute", "Troll chucker", "Troll general", "Troll lout", "Troll shaman", "Troll spectator", "Undead troll"],
-			"Warrior[+]": ["Al Kharid warrior", "Warrior woman"]
+			"Warrior[+]": ["Al Kharid warrior", "Warrior woman"],
+			"Goblin[+]": ["Goblin#Level 2", "Goblin#Level 5", "Goblin (Goblin Village)", "Goblin (God Wars Dungeon)"],
+			"Skeleton[+]": ["Skeleton#Armed", "Skeleton#Unarmed"]
 		},
 		"monstersPlusNames": {
 			"AnyBoss[+]": "Any boss",
@@ -187134,7 +187136,9 @@
 			"Legiones[+]": "Any Ascension Legiones",
 			"LudikerisMonsters[+]": "Any monster weak to the Keris",
 			"AnyTroll[+]": "Any troll that can be killed to fill Kili's urn",
-			"Warrior[+]": "Anything that counts as a warrior for 'Lost My Marbles'"
+			"Warrior[+]": "Anything that counts as a warrior for 'Lost My Marbles'",
+			"Goblin[+]": "Any type of common goblin",
+			"Skeleton[+]": "Any type of common skeleton"
 		},
 		"mixPlus": {
 			"HAMMember[+]": ["H.A.M. Member (male)", "H.A.M. Member (female)", "Guard (H.A.M.)"]
