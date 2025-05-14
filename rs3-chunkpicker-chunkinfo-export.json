@@ -22497,7 +22497,7 @@
 				"Output": "Decorated smelting urn (unf)",
 				"Objects": ["Potter's wheel"],
 				"Primary": true,
-				"Priority": 1,
+				"Priority": 9,
 				"Not F2P": true
 			},
 			"Fire a ~|decorated smelting urn (nr)|~": {
@@ -22506,7 +22506,7 @@
 				"Output": "Decorated smelting urn (nr)",
 				"Objects": ["Pottery oven"],
 				"Primary": true,
-				"Priority": 2,
+				"Priority": 10,
 				"Not F2P": true
 			},
 			"Craft a ~|decorated cooking urn (unf)|~": {
@@ -23953,7 +23953,7 @@
 				"Level": 80,
 				"Primary": true,
 				"Output": "Cured rod of pure essence",
-				"Priority": 9,
+				"Priority": 1,
 				"Not F2P": true
 			},
 			"Carve a ~|carved rod of pure essence|~": {
@@ -23962,7 +23962,7 @@
 				"Level": 80,
 				"Primary": true,
 				"Output": "Carved rod of pure essence",
-				"Priority": 10,
+				"Priority": 2,
 				"Not F2P": true
 			},
 			"Create a ~|crystal binding rod|~": {
@@ -43687,15 +43687,13 @@
 				"Chunks": ["Puro-Puro"],
 				"Items": ["Impling jar"],
 				"Level": 17,
-				"Source": "drop",
-				"Output": "Baby impling jar",
+				"Output": "Baby impling",
 				"Primary": true,
 				"Priority": 1
 			},
 			"Catch a wandering ~|baby impling|~": {
 				"Category": ["Wandering implings"],
 				"Level": 17,
-				"Source": "drop",
 				"Output": "Baby impling",
 				"Primary": false,
 				"Priority": 2
@@ -43725,15 +43723,13 @@
 				"Chunks": ["Puro-Puro"],
 				"Items": ["Impling jar"],
 				"Level": 22,
-				"Source": "drop",
-				"Output": "Young impling jar",
+				"Output": "Young impling",
 				"Primary": true,
 				"Priority": 1
 			},
 			"Catch a wandering ~|young impling|~": {
 				"Category": ["Wandering implings"],
 				"Level": 22,
-				"Source": "drop",
 				"Output": "Young impling",
 				"Primary": false,
 				"Priority": 2
@@ -43743,8 +43739,7 @@
 				"Chunks": ["Al Kharid resource dungeon"],
 				"Items": ["Impling jar"],
 				"Level": 22,
-				"Source": "drop",
-				"Output": "Young impling jar",
+				"Output": "Young impling",
 				"Primary": true,
 				"Priority": 3
 			},
@@ -43854,8 +43849,7 @@
 				"Chunks": ["Puro-Puro"],
 				"Items": ["Impling jar"],
 				"Level": 28,
-				"Source": "drop",
-				"Output": "Gourmet impling jar",
+				"Output": "Gourmet impling",
 				"Primary": true,
 				"Priority": 1
 			},
@@ -43864,15 +43858,13 @@
 				"Chunks": ["Al Kharid resource dungeon"],
 				"Items": ["Impling jar"],
 				"Level": 28,
-				"Source": "drop",
-				"Output": "Gourmet impling jar",
+				"Output": "Gourmet impling",
 				"Primary": true,
 				"Priority": 4
 			},
 			"Catch a wandering ~|gourmet impling|~": {
 				"Category": ["Wandering implings"],
 				"Level": 28,
-				"Source": "drop",
 				"Output": "Gourmet impling",
 				"Primary": false,
 				"Priority": 2
@@ -43946,8 +43938,7 @@
 				"Chunks": ["Puro-Puro"],
 				"Items": ["Impling jar"],
 				"Level": 36,
-				"Source": "drop",
-				"Output": "Earth impling jar",
+				"Output": "Earth impling",
 				"Primary": true,
 				"Priority": 1
 			},
@@ -43956,15 +43947,13 @@
 				"Chunks": ["Al Kharid resource dungeon"],
 				"Items": ["Impling jar"],
 				"Level": 36,
-				"Source": "drop",
-				"Output": "Earth impling jar",
+				"Output": "Earth impling",
 				"Primary": true,
 				"Priority": 3
 			},
 			"Catch a wandering ~|earth impling|~": {
 				"Category": ["Wandering implings"],
 				"Level": 36,
-				"Source": "drop",
 				"Output": "Earth impling",
 				"Primary": false,
 				"Priority": 2
@@ -44043,8 +44032,7 @@
 				"Chunks": ["Puro-Puro"],
 				"Items": ["Impling jar"],
 				"Level": 42,
-				"Source": "drop",
-				"Output": "Essence impling jar",
+				"Output": "Essence impling",
 				"Primary": true,
 				"Priority": 1
 			},
@@ -44053,15 +44041,13 @@
 				"Chunks": ["Al Kharid resource dungeon"],
 				"Items": ["Impling jar"],
 				"Level": 42,
-				"Source": "drop",
-				"Output": "Essence impling jar",
+				"Output": "Essence impling",
 				"Primary": true,
 				"Priority": 3
 			},
 			"Catch a wandering ~|essence impling|~": {
 				"Category": ["Wandering implings"],
 				"Level": 42,
-				"Source": "drop",
 				"Output": "Essence impling",
 				"Primary": false,
 				"Priority": 2
@@ -44178,8 +44164,7 @@
 				"Chunks": ["Puro-Puro"],
 				"Items": ["Impling jar"],
 				"Level": 50,
-				"Source": "drop",
-				"Output": "Eclectic impling jar",
+				"Output": "Eclectic impling",
 				"Primary": true,
 				"Priority": 4
 			},
@@ -44188,15 +44173,13 @@
 				"Chunks": ["Al Kharid resource dungeon"],
 				"Items": ["Impling jar"],
 				"Level": 50,
-				"Source": "drop",
-				"Output": "Eclectic impling jar",
+				"Output": "Eclectic impling",
 				"Primary": true,
 				"Priority": 6
 			},
 			"Catch a wandering ~|eclectic impling|~": {
 				"Category": ["Wandering implings"],
 				"Level": 50,
-				"Source": "drop",
 				"Output": "Eclectic impling",
 				"Primary": false,
 				"Priority": 5
@@ -44259,7 +44242,6 @@
 				"Chunks": ["Puro-Puro"],
 				"Items": ["Impling jar"],
 				"Level": 54,
-				"Source": "drop",
 				"Output": "Spirit impling",
 				"Primary": false,
 				"Priority": 1
@@ -44269,15 +44251,13 @@
 				"Chunks": ["Al Kharid resource dungeon"],
 				"Items": ["Impling jar"],
 				"Level": 54,
-				"Source": "drop",
-				"Output": "Spirit impling jar",
+				"Output": "Spirit impling",
 				"Primary": true,
 				"Priority": 4
 			},
 			"Catch a wandering ~|spirit impling|~": {
 				"Category": ["Wandering implings"],
 				"Level": 54,
-				"Source": "drop",
 				"Output": "Spirit impling",
 				"Primary": false,
 				"Priority": 2
@@ -44325,7 +44305,6 @@
 				"Chunks": ["Puro-Puro"],
 				"Items": ["Impling jar"],
 				"Level": 58,
-				"Source": "drop",
 				"Output": "Nature impling",
 				"Primary": false,
 				"Priority": 1
@@ -44335,15 +44314,13 @@
 				"Chunks": ["Al Kharid resource dungeon"],
 				"Items": ["Impling jar"],
 				"Level": 58,
-				"Source": "drop",
-				"Output": "Nature impling jar",
+				"Output": "Nature impling",
 				"Primary": true,
 				"Priority": 3
 			},
 			"Catch a wandering ~|nature impling|~": {
 				"Category": ["Wandering implings"],
 				"Level": 58,
-				"Source": "drop",
 				"Output": "Nature impling",
 				"Primary": false,
 				"Priority": 2
@@ -44376,7 +44353,6 @@
 				"Chunks": ["Puro-Puro"],
 				"Items": ["Impling jar"],
 				"Level": 65,
-				"Source": "drop",
 				"Output": "Magpie impling",
 				"Primary": false,
 				"Priority": 1
@@ -44386,15 +44362,13 @@
 				"Chunks": ["Al Kharid resource dungeon"],
 				"Items": ["Impling jar"],
 				"Level": 65,
-				"Source": "drop",
-				"Output": "Magpie impling jar",
+				"Output": "Magpie impling",
 				"Primary": true,
 				"Priority": 4
 			},
 			"Catch a wandering ~|magpie impling|~": {
 				"Category": ["Wandering implings"],
 				"Level": 65,
-				"Source": "drop",
 				"Output": "Magpie impling",
 				"Primary": false,
 				"Priority": 2
@@ -44467,7 +44441,6 @@
 				"Category": ["Extra implings"],
 				"Chunks": ["City of Um"],
 				"Level": 68,
-				"Source": "drop",
 				"Output": "Ghost impling",
 				"Primary": false,
 				"Priority": 2
@@ -44563,7 +44536,6 @@
 				"Chunks": ["Puro-Puro"],
 				"Items": ["Impling jar"],
 				"Level": 74,
-				"Source": "drop",
 				"Output": "Ninja impling",
 				"Primary": false,
 				"Priority": 2
@@ -44573,15 +44545,13 @@
 				"Chunks": ["Al Kharid resource dungeon"],
 				"Items": ["Impling jar"],
 				"Level": 74,
-				"Source": "drop",
-				"Output": "Ninja impling jar",
+				"Output": "Ninja impling",
 				"Primary": true,
 				"Priority": 4
 			},
 			"Catch a wandering ~|ninja impling|~": {
 				"Category": ["Wandering implings"],
 				"Level": 74,
-				"Source": "drop",
 				"Output": "Ninja impling",
 				"Primary": false,
 				"Priority": 3
@@ -44664,7 +44634,6 @@
 					"~|Rocking Out|~ Complete the quest": "Quest"
 				},
 				"Level": 76,
-				"Source": "drop",
 				"Output": "Pirate impling",
 				"Primary": false,
 				"Priority": 2
@@ -44677,7 +44646,6 @@
 				"Tasks": {
 					"~|Pieces of Hate|~ Complete the quest": "Quest"
 				},
-				"Source": "drop",
 				"Output": "Pirate impling (post quest)",
 				"Primary": false,
 				"Priority": 3
@@ -44690,8 +44658,7 @@
 					"~|Rocking Out|~ Complete the quest": "Quest"
 				},
 				"Level": 76,
-				"Source": "drop",
-				"Output": "Pirate impling jar",
+				"Output": "Pirate impling",
 				"Primary": true,
 				"Priority": 4
 			},
@@ -44701,7 +44668,6 @@
 				"Tasks": {
 					"~|Rocking Out|~ Complete the quest": "Quest"
 				},
-				"Source": "drop",
 				"Output": "Pirate impling",
 				"Primary": false,
 				"Priority": 3
@@ -44712,7 +44678,6 @@
 				"Tasks": {
 					"~|Pieces of Hate|~ Complete the quest": "Quest"
 				},
-				"Source": "drop",
 				"Output": "Pirate impling (post quest)",
 				"Primary": false,
 				"Priority": 3
@@ -44796,7 +44761,6 @@
 				"Chunks": ["Puro-Puro"],
 				"Items": ["Impling jar"],
 				"Level": 79,
-				"Source": "drop",
 				"Output": "Divine impling",
 				"Primary": false,
 				"Priority": 2
@@ -44806,15 +44770,13 @@
 				"Chunks": ["Al Kharid resource dungeon"],
 				"Items": ["Impling jar"],
 				"Level": 79,
-				"Source": "drop",
-				"Output": "Divine impling jar",
+				"Output": "Divine impling",
 				"Primary": true,
 				"Priority": 4
 			},
 			"Catch a wandering ~|divine impling|~": {
 				"Category": ["Wandering implings"],
 				"Level": 79,
-				"Source": "drop",
 				"Output": "Divine impling",
 				"Primary": false,
 				"Priority": 3
@@ -44924,7 +44886,6 @@
 				"Chunks": ["Puro-Puro"],
 				"Items": ["Impling jar"],
 				"Level": 83,
-				"Source": "drop",
 				"Output": "Dragon impling",
 				"Primary": false,
 				"Priority": 1
@@ -44934,15 +44895,13 @@
 				"Chunks": ["Al Kharid resource dungeon"],
 				"Items": ["Impling jar"],
 				"Level": 83,
-				"Source": "drop",
-				"Output": "Dragon impling jar",
+				"Output": "Dragon impling",
 				"Primary": true,
 				"Priority": 3
 			},
 			"Catch a wandering ~|dragon impling|~": {
 				"Category": ["Wandering implings"],
 				"Level": 83,
-				"Source": "drop",
 				"Output": "Dragon impling",
 				"Primary": false,
 				"Priority": 2
@@ -45020,7 +44979,6 @@
 				"Chunks": ["Puro-Puro"],
 				"Items": ["Impling jar"],
 				"Level": 87,
-				"Source": "drop",
 				"Output": "Zombie impling",
 				"Primary": false,
 				"Priority": 1
@@ -45029,7 +44987,6 @@
 				"Category": ["Extra implings"],
 				"Chunks": ["City of Um"],
 				"Level": 87,
-				"Source": "drop",
 				"Output": "Zombie impling",
 				"Primary": false,
 				"Priority": 4
@@ -45039,15 +44996,13 @@
 				"Chunks": ["Al Kharid resource dungeon"],
 				"Items": ["Impling jar"],
 				"Level": 87,
-				"Source": "drop",
-				"Output": "Zombie impling jar",
+				"Output": "Zombie impling",
 				"Primary": true,
 				"Priority": 4
 			},
 			"Catch a wandering ~|zombie impling|~": {
 				"Category": ["Wandering implings"],
 				"Level": 87,
-				"Source": "drop",
 				"Output": "Zombie impling",
 				"Primary": false,
 				"Priority": 2
@@ -45276,7 +45231,6 @@
 				"Chunks": ["Puro-Puro"],
 				"Items": ["Impling jar"],
 				"Level": 91,
-				"Source": "drop",
 				"Output": "Kingly impling",
 				"Primary": false,
 				"Priority": 1
@@ -45286,15 +45240,13 @@
 				"Chunks": ["Al Kharid resource dungeon"],
 				"Items": ["Impling jar"],
 				"Level": 91,
-				"Source": "drop",
-				"Output": "Kingly impling jar",
+				"Output": "Kingly impling",
 				"Primary": true,
 				"Priority": 4
 			},
 			"Catch a wandering ~|kingly impling|~": {
 				"Category": ["Wandering implings"],
 				"Level": 91,
-				"Source": "drop",
 				"Output": "Kingly impling",
 				"Primary": false,
 				"Priority": 2
@@ -45360,7 +45312,6 @@
 				"Chunks": ["Puro-Puro"],
 				"Items": ["Impling jar"],
 				"Level": 95,
-				"Source": "drop",
 				"Output": "Crystal impling",
 				"Primary": false,
 				"Priority": 14
@@ -134996,18 +134947,6 @@
 				"NPCs": ["Fancy-dress shop owner"],
 				"Output": "Desert camo legs"
 			},
-			"Open a baby impling jar*": {
-				"Items": ["Baby impling jar"],
-				"Output": "Baby impling"
-			},
-			"Open a young impling jar*": {
-				"Items": ["Young impling jar"],
-				"Output": "Young impling"
-			},
-			"Open a gourmet impling jar*": {
-				"Items": ["Gourmet impling jar"],
-				"Output": "Gourmet impling"
-			},
 			"Get a larupia top made*": {
 				"Items": ["LarupiaFur[+]"],
 				"NPCs": ["Fancy-dress shop owner"],
@@ -135022,10 +134961,6 @@
 				"Items": ["Larupia fur"],
 				"NPCs": ["Fancy-dress shop owner"],
 				"Output": "Larupia hat"
-			},
-			"Open an earth impling jar*": {
-				"Items": ["Earth impling jar"],
-				"Output": "Earth impling"
 			},
 			"Get a graahk top made*": {
 				"Items": ["GraahkFur[+]"],
@@ -135059,10 +134994,6 @@
 				"Items": ["Volatile tool"],
 				"Output": "Volatile clay butterfly net"
 			},
-			"Open an essence impling jar*": {
-				"Items": ["Essence impling jar"],
-				"Output": "Essence impling"
-			},
 			"Pick lavender*": {
 				"Objects": ["Lavender"],
 				"Output": "Lavender"
@@ -135071,8 +135002,8 @@
 				"Items": ["Lavender"],
 				"Output": "Smouldering lavender"
 			},
-			"Open an eclectic impling jar*": {
-				"Items": ["Eclectic impling jar"],
+			"Open an eclectic impling*": {
+				"Items": ["Eclectic impling"],
 				"Output": "Eclectic impling"
 			},
 			"Get a kyatt top made*": {
@@ -135090,22 +135021,10 @@
 				"NPCs": ["Fancy-dress shop owner"],
 				"Output": "Kyatt hat"
 			},
-			"Open a spirit impling jar*": {
-				"Items": ["Spirit impling jar"],
-				"Output": "Spirit impling"
-			},
 			"Get gloves of silence made*": {
 				"Items": ["Dark kebbit fur"],
 				"NPCs": ["Fancy-dress shop owner"],
 				"Output": "Gloves of silence"
-			},
-			"Open a nature impling jar*": {
-				"Items": ["Nature impling jar"],
-				"Output": "Nature impling"
-			},
-			"Open a magpie impling jar*": {
-				"Items": ["Magpie impling jar"],
-				"Output": "Magpie impling"
 			},
 			"Loot the sinister chest*": {
 				"Chunks": ["Yanille Agility Dungeon"],
@@ -135144,34 +135063,6 @@
 			"Create a blue charm*": {
 				"Items": ["Blue charm slice*"],
 				"Output": "Blue charm"
-			},
-			"Open a ninja impling jar*": {
-				"Items": ["Ninja impling jar"],
-				"Output": "Ninja impling"
-			},
-			"Open a pirate impling jar*": {
-				"Items": ["Pirate impling jar"],
-				"Output": "Pirate impling"
-			},
-			"Open a divine impling jar*": {
-				"Items": ["Divine impling jar"],
-				"Output": "Divine impling"
-			},
-			"Open a dragon impling jar*": {
-				"Items": ["Dragon impling jar"],
-				"Output": "Dragon impling"
-			},
-			"Open a zombie impling jar*": {
-				"Items": ["Zombie impling jar"],
-				"Output": "Zombie impling"
-			},
-			"Open a kingly impling jar*": {
-				"Items": ["Kingly impling jar"],
-				"Output": "Kingly impling"
-			},
-			"Open a crystal impling jar*": {
-				"Items": ["Crystal impling jar"],
-				"Output": "Crystal impling"
 			},
 			"Fill a watering can from a cannister*": {
 				"Items": ["Watering can", "WaterItem[+]"],
