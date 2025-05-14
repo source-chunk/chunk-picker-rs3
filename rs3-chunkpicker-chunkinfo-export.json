@@ -37662,7 +37662,7 @@
 			"Catch ~|fungal algae|~": {
 				"Objects": ["Colonised Varrock guard"],
 				"Level": 88,
-				"Output": "Fungal algae",
+				"Output": "CroesusFishing",
 				"Primary": true,
 				"Priority": 1
 			},
@@ -44970,7 +44970,7 @@
 			"Catch ~|fungal spore|~": {
 				"Objects": ["Decaying Varrock guard"],
 				"Level": 88,
-				"Output": "Fungal spore",
+				"Output": "Croesus Hunter",
 				"Primary": true,
 				"Priority": 4
 			},
@@ -51832,7 +51832,7 @@
 			"Mine ~|calcified fungus|~": {
 				"Objects": ["Moulding Varrock guard"],
 				"Level": 88,
-				"Output": "Calcified fungus",
+				"Output": "Croesus Mining",
 				"Primary": true,
 				"Priority": 1
 			},
@@ -52714,7 +52714,7 @@
 			},
 			"Perform a ~|greater communion ritual|~": {
 				"Chunks": ["RitualSite[+]"],
-				"Items": ["Basic ghostly ink", "Regular ghostly ink", " Greater ghostly ink", "GreaterCommunionBones[+]", "RitualLightSource[+]"],
+				"Items": ["Basic ghostly ink", "Regular ghostly ink", "Greater ghostly ink", "GreaterCommunionBones[+]", "RitualLightSource[+]"],
 				"Level": 60,
 				"Primary": true,
 				"Output": "Ectoplasm",
@@ -69199,7 +69199,7 @@
 			"Cut ~|timber fungus|~": {
 				"Objects": ["Dead Varrock guard"],
 				"Level": 88,
-				"Output": "Timber fungus",
+				"Output": "Croesus Woodcutting",
 				"Primary": true,
 				"Priority": 1
 			},
@@ -134367,6 +134367,19 @@
 			"Senntisten Asylum": {
 				"UnlocksArea": true
 			},
+			"Paddlington": {
+				"UnlocksArea": true,
+				"Tasks": {
+					"~|Duck Quest|~ 3": "Quest"
+				}
+			},
+			"Obtain duck food*": {
+				"Chunks": ["11828"],
+				"Tasks": {
+					"~|Duck Quest|~ 2": "Quest"
+				},
+				"Output": "Duck food"
+			},
 			"Create a super explosive shaker*": {
 				"Items": ["Super explosive flask", "Rubium"],
 				"Output": "Super explosive shaker"
@@ -183909,6 +183922,7 @@
 				"Replenishment potion (5)",
 				"Replenishment potion (6)"
 			],
+			"ResonantAnima[+]": ["Resonant anima of Bik", "Resonant anima of Jas", "Resonant anima of Wen", "Resonant anima of Ful"],
 			"RestoI[+]": [
 				"Anchovies",
 				"Chicken",
@@ -186209,6 +186223,7 @@
 			"RelicymBalm[+]": "Any Relicym's balm vial",
 			"RemoteViewFamiliar[+]": "Any familiar with the 'Remote view' ability",
 			"ReplenishmentPotion[+]": "Any replenishment potion",
+			"ResonantAnima[+]": "Any type of resonant anima",
 			"RestoI[+]": "Any food that can be used to make a portant of restoration I",
 			"RestorePotion[+]": "Any restore potion",
 			"RipperClaw[+]": "Any ripper claw variant",
@@ -186662,6 +186677,13 @@
 			"Fish[+]": ["Fishing spot (minnow)", "Fishing spot (crayfish)", "Fishing spot (small fishing net, bait)"],
 			"Furnace[+]": ["Furnace", "Lava Furnace"],
 			"Haystack[+]": ["Haystack", "Hay bale"],
+			"HeavyMetalMithril[+]": ["Mithril rock", "Coal rock", "Concentrated coal deposit"],
+			"HeavyMetalAdamant[+]": ["Adamantite rock", "Luminite rock"],
+			"HeavyMetalRune[+]": ["Runite rock", "Luminite rock"],
+			"HeavyMetalOrikalkum[+]": ["Orichalcite rock", "Drakolith rock"],
+			"HeavyMetalNecronium[+]": ["Necrite rock", "Phasmatite rock"],
+			"HeavyMetalElderRune[+]": ["Light animica rock", "Dark animica rock"],
+			"HeavyMetalPrimal[+]": ["Argonite rock", "Bathus rock", "Fractite rock", "Gorgonite rock", "Katagon rock", "Kratonium rock", "Marmaros rock", "Novite rock", "Promethium rock", "Zephyrium rock"],
 			"Ore[+]": ["Copper rock", "Tin rock", "Common gem rock", "Feldip swamp rock", "Clay rock", "Rune essence rock"],
 			"PotatoPatch[+]": ["Allotment", "Potato patch"],
 			"SnowPile[+]": ["Snow pile", "Snow drift"],
@@ -186685,6 +186707,13 @@
 			"Fish[+]": "Any level 1 fishing spot",
 			"Furnace[+]": "Any furnace that can smelt bars",
 			"Haystack[+]": "Any object that can fill an empty sack with hay",
+			"HeavyMetalMithril[+]": "Any rock that may give the mithril entry for Boric's Book of Metal",
+			"HeavyMetalAdamant[+]": "Any rock that may give the adamant entry for Boric's Book of Metal",
+			"HeavyMetalRune[+]": "Any rock that may give the rune entry for Boric's Book of Metal",
+			"HeavyMetalOrikalkum[+]": "Any rock that may give the orikalkum entry for Boric's Book of Metal",
+			"HeavyMetalNecronium[+]": "Any rock that may give the necronium entry for Boric's Book of Metal",
+			"HeavyMetalElderRune[+]": "Any rock that may give the elder rune entry for Boric's Book of Metal",
+			"HeavyMetalPrimal[+]": "Any rock that may give the primal entry for Boric's Book of Metal",
 			"Ore[+]": "Any level 1 mining object",
 			"PotatoPatch[+]": "Any patch where potatoes can be planted",
 			"SnowPile[+]": "Any object where a polar kebbit trace can be started",
@@ -255003,6 +255032,14 @@
 			"Large Urchin Loot": {
 				"Large crystal urchin": "Always",
 				"Hermit crab": "Very rare"
+			},
+			"Coresus Fishing": {
+				"Fungal algae": "Always",
+				"Resonant anima of Bik": "Always",
+				"The Great Beast": "Rare",
+				"Kings and Queens": "Rare",
+				"A Life in Colour": "Rare",
+				"A Massacrer of Moles": "Rare"
 			}
 		},
 		"Fletching": {
@@ -257822,6 +257859,14 @@
 				"Essential oils": "Very rare",
 				"Reinforced dinosaur pelt": "Very rare",
 				"Necklace of Salamancy": "1/500"
+			},
+			"Coresus Hunter": {
+				"Fungal spore": "Always",
+				"Resonant anima of Bik": "Always",
+				"The Great Beast": "Rare",
+				"Kings and Queens": "Rare",
+				"A Life in Colour": "Rare",
+				"A Massacrer of Moles": "Rare"
 			}
 		},
 		"Invention": {
@@ -257987,6 +258032,14 @@
 				"Golden mining suit helmet": "Always",
 				"Golden mining suit trousers": "Always",
 				"Golden mining suit top": "Always"
+			},
+			"Coresus Mining": {
+				"Calcified fungus": "Always",
+				"Resonant anima of Bik": "Always",
+				"The Great Beast": "Rare",
+				"Kings and Queens": "Rare",
+				"A Life in Colour": "Rare",
+				"A Massacrer of Moles": "Rare"
 			}
 		},
 		"Necromancy": {
@@ -274319,6 +274372,14 @@
 				"Nature's sentinel trunks": "Always",
 				"Nature's sentinel branch": "Always",
 				"Nature's sentinel boots": "Always"
+			},
+			"Coresus Woodcutting": {
+				"Timber fungus": "Always",
+				"Resonant anima of Bik": "Always",
+				"The Great Beast": "Rare",
+				"Kings and Queens": "Rare",
+				"A Life in Colour": "Rare",
+				"A Massacrer of Moles": "Rare"
 			}
 		},
 		"Nonskill": {
