@@ -44438,7 +44438,6 @@
 				"Priority": 1
 			},
 			"Catch a ~|ghost impling|~ in Um": {
-				"Category": ["Extra implings"],
 				"Chunks": ["City of Um"],
 				"Level": 68,
 				"Output": "Ghost impling",
@@ -256984,122 +256983,13 @@
 				"Camouflaged jadinko (unchecked)": "1/500"
 			},
 			"Divine impling": {
-				"Pale energy": {
-					"80-121": "Always",
-					"50-151": "Uncommon",
-					"820": "Very rare",
-					"970": "Very rare",
-					"1010": "Very rare",
-					"1110": "Very rare",
-					"1262": "Very rare"
-				},
-				"Flickering energy": {
-					"80-121": "Always",
-					"50-151": "Uncommon",
-					"820": "Very rare",
-					"970": "Very rare",
-					"1010": "Very rare",
-					"1110": "Very rare",
-					"1262": "Very rare"
-				},
-				"Bright energy": {
-					"80-121": "Always",
-					"50-151": "Uncommon",
-					"820": "Very rare",
-					"970": "Very rare",
-					"1010": "Very rare",
-					"1110": "Very rare",
-					"1262": "Very rare"
-				},
-				"Glowing energy": {
-					"80-121": "Always",
-					"50-151": "Uncommon",
-					"820": "Very rare",
-					"970": "Very rare",
-					"1010": "Very rare",
-					"1110": "Very rare",
-					"1262": "Very rare"
-				},
-				"Sparkling energy": {
-					"80-121": "Always",
-					"50-151": "Uncommon",
-					"820": "Very rare",
-					"970": "Very rare",
-					"1010": "Very rare",
-					"1110": "Very rare",
-					"1262": "Very rare"
-				},
-				"Gleaming energy": {
-					"80-121": "Always",
-					"50-151": "Uncommon",
-					"820": "Very rare",
-					"970": "Very rare",
-					"1010": "Very rare",
-					"1110": "Very rare",
-					"1262": "Very rare"
-				},
-				"Vibrant energy": {
-					"80-121": "Always",
-					"50-151": "Uncommon",
-					"820": "Very rare",
-					"970": "Very rare",
-					"1010": "Very rare",
-					"1110": "Very rare",
-					"1262": "Very rare"
-				},
-				"Lustrous energy": {
-					"80-121": "Always",
-					"50-151": "Uncommon",
-					"820": "Very rare",
-					"970": "Very rare",
-					"1010": "Very rare",
-					"1110": "Very rare",
-					"1262": "Very rare"
-				},
-				"Elder energy": {
-					"80-121": "Always",
-					"50-151": "Uncommon",
-					"820": "Very rare",
-					"970": "Very rare",
-					"1010": "Very rare",
-					"1110": "Very rare",
-					"1262": "Very rare"
-				},
-				"Brilliant energy": {
-					"80-121": "Always",
-					"50-151": "Uncommon",
-					"820": "Very rare",
-					"970": "Very rare",
-					"1010": "Very rare",
-					"1110": "Very rare",
-					"1262": "Very rare"
-				},
-				"Radiant energy": {
-					"80-121": "Always",
-					"50-151": "Uncommon",
-					"820": "Very rare",
-					"970": "Very rare",
-					"1010": "Very rare",
-					"1110": "Very rare",
-					"1262": "Very rare"
-				},
 				"Luminous energy": {
-					"80-121": "Always",
-					"50-151": "Uncommon",
-					"820": "Very rare",
-					"970": "Very rare",
-					"1010": "Very rare",
-					"1110": "Very rare",
-					"1262": "Very rare"
+					"50-150": "25/101"
 				},
 				"Incandescent energy": {
-					"80-121": "Always",
-					"50-151": "Uncommon",
-					"820": "Very rare",
-					"970": "Very rare",
-					"1010": "Very rare",
-					"1110": "Very rare",
-					"1262": "Very rare"
+					"80-120": "19/20",
+					"800-1200": "1/20",
+					"50-150": "25/101"
 				},
 				"Elder charm": {
 					"1": "Common",
