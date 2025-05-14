@@ -454,6 +454,7 @@ let rules = {
     "Combat Master+": false,
 	"Menaphos Events": false,
 	"Material Blueprints": false,
+	"Wandering implings": false,
 };                                                                              // List of rules and their on/off state
 
 let ruleNames = {
@@ -504,7 +505,8 @@ let ruleNames = {
     "Multi Step Processing": "Allow higher level processing of resources to enable other processing tasks<span class='rule-asterisk noscroll'>*</span>",
     "Puro-Puro": "Allow implings from Puro-Puro & their drops to count towards chunk tasks",
     "Extra implings": "Include implings that have non-guaranteed spawns in Puro-Puro or the Al Kharid Resource Dungeon as chunk tasks",
-    "Farming Primary": "Farming products (herbs, vegetables, etc.) can count as primary item sources for chunk tasks<span class='rule-asterisk noscroll'>*</span>",
+    "Wandering implings": "Allow implings that randomly wander the world & their drops to count towards chunk tasks <span class='rule-asterisk noscroll'>*</span>",
+	"Farming Primary": "Farming products (herbs, vegetables, etc.) can count as primary item sources for chunk tasks<span class='rule-asterisk noscroll'>*</span>",
     "Secondary Primary": "Allow secondary training methods with drops/methods more common than 1/X (not inclusive, set to 0 to include all drops) to count as primary training methods (e.g. allow a 1/50 drop for a bronze bar be your required way to train Smithing)<span class='rule-asterisk noscroll'>*</span>",
     "RDT": "Allow items from the Rare Drop Table and the Gem Drop Table to count towards chunk tasks",
     "Untracked Uniques": "Must obtain extra unique items that are untracked on the collection logs (does nothing by itself)",
@@ -703,6 +705,7 @@ let rulePresets = {
         "Multi Step Processing": true,
         "Puro-Puro": true,
         "Extra implings": true,
+		"Wandering implings": true,
         "Farming Primary": true,
         "Secondary Primary": true,
         "Secondary Primary Amount": "0",
@@ -837,6 +840,7 @@ let ruleStructure = {
     },
     "Hunter": {
 		"Puro-Puro": ["Extra implings"],
+		"Wandering implings": true,
 		"Ogleroot": true
     },
 	"Invention": {
