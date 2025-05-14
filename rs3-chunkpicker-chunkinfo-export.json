@@ -62801,7 +62801,7 @@
 				"Output": "Skull lantern (tier 20)",
 				"Priority": 2
 			},
-			"Forge ~|iron dart tips|~": {
+			"Forge an ~|iron dart tip|~": {
 				"Items": ["Iron bar*"],
 				"Level": 20,
 				"Objects": ["Forge", "Anvil[+]"],
@@ -62867,6 +62867,17 @@
 				"Output": "Elemental shield",
 				"Primary": true,
 				"Priority": 11
+			},
+			"Forge a ~|steel dart tip|~": {
+				"Items": ["Steel bar*"],
+				"Level": 20,
+				"Objects": ["Forge", "Anvil[+]"],
+				"Tasks": {
+					"~|The Tourist Trap|~ Complete the quest": "Quest"
+				},
+				"Output": "Steel dart tip",
+				"Primary": true,
+				"Priority": 12
 			},
 			"Smith a ~|death gaurd (tier 30)|~": {
 				"Objects": ["Soul forge"],
@@ -62998,6 +63009,17 @@
 				"Output": "Mind helmet",
 				"Primary": true,
 				"Priority": 8
+			},
+			"Forge a ~|mithril dart tip|~": {
+				"Items": ["Mithril bar*"],
+				"Level": 20,
+				"Objects": ["Forge", "Anvil[+]"],
+				"Tasks": {
+					"~|The Tourist Trap|~ Complete the quest": "Quest"
+				},
+				"Output": "Mithril dart tip",
+				"Primary": true,
+				"Priority": 9
 			},
 			"Forge an ~|elemental helmet|~": {
 				"Items": ["Elemental bar*"],
@@ -63135,6 +63157,17 @@
 				"Primary": true,
 				"Priority": 6
 			},
+			"Forge an ~|adamant dart tip|~": {
+				"Items": ["Adamant bar*"],
+				"Level": 40,
+				"Objects": ["Forge", "Anvil[+]"],
+				"Tasks": {
+					"~|The Tourist Trap|~ Complete the quest": "Quest"
+				},
+				"Output": "Adamant dart tip",
+				"Primary": true,
+				"Priority": 7
+			},
 			"Forge an ~|elemental boots|~": {
 				"Items": ["Elemental bar*"],
 				"Level": 42,
@@ -63271,6 +63304,17 @@
 				},
 				"Primary": true,
 				"Priority": 6
+			},
+			"Forge a ~|rune dart tip|~": {
+				"Items": ["Rune bar*"],
+				"Level": 20,
+				"Objects": ["Forge", "Anvil[+]"],
+				"Tasks": {
+					"~|The Tourist Trap|~ Complete the quest": "Quest"
+				},
+				"Output": "Rune dart tip",
+				"Primary": true,
+				"Priority": 7
 			},
 			"Forge ~|orikalkum|~": {
 				"Items": ["Orikalkum bar*"],
@@ -271206,7 +271250,6 @@
 				"Steel claws + 1": "Always",
 				"Steel dagger": "Always",
 				"Steel dagger + 1": "Always",
-				"Steel dart tip": "Always",
 				"Steel full helm": "Always",
 				"Steel full helm + 1": "Always",
 				"Steel gauntlets": "Always",
@@ -271281,7 +271324,6 @@
 				"Mithril dagger": "Always",
 				"Mithril dagger + 1": "Always",
 				"Mithril dagger + 2": "Always",
-				"Mithril dart tip": "Always",
 				"Mithril full helm": "Always",
 				"Mithril full helm + 1": "Always",
 				"Mithril full helm + 2": "Always",
@@ -271379,7 +271421,6 @@
 				"Adamant dagger": "Always",
 				"Adamant dagger + 1": "Always",
 				"Adamant dagger + 2": "Always",
-				"Adamant dart tip": "Always",
 				"Adamant full helm": "Always",
 				"Adamant full helm + 1": "Always",
 				"Adamant full helm + 2": "Always",
@@ -271483,7 +271524,6 @@
 				"Rune dagger + 1": "Always",
 				"Rune dagger + 2": "Always",
 				"Rune dagger + 3": "Always",
-				"Rune dart tip": "Always",
 				"Rune full helm": "Always",
 				"Rune full helm + 1": "Always",
 				"Rune full helm + 2": "Always",
