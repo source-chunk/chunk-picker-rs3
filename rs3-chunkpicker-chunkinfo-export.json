@@ -67202,9 +67202,12 @@
 				"NoBoost": true
 			},
 			"Obtain a ~|Tooth creature|~": {
-				"Items": ["Kebbit teeth", "Suqah tooth", "Old tooth", "Monkey dentures", "Human child's tooth"],
+				"Items": ["Kebbit teeth*", "Suqah tooth*", "Old tooth*", "Monkey dentures*", "Human tooth*"],
 				"Level": 37,
-				"Chunks": ["Zanaris"],
+				"Chunks": ["Fairy Resistance Hideout"],
+				"Tasks": {
+					"~|A Fairy Tale III - Battle at Ork's Rift|~ Complete the quest": "Quest"
+				},
 				"Primary": false,
 				"Priority": 1,
 				"NoPet": true,
@@ -118221,10 +118224,11 @@
 				"Label": "Slayer Collection Log",
 				"Items": ["Hexhunter bow"]
 			},
-			"(Daemonheim) Obtain a ~|soulgazer's charm|~": {
+			"(Daemonheim) Obtain a ~|baby soulgazer|~": {
 				"Category": ["Collection Log", "Slayer Collection Log", "Pets"],
 				"Label": "Slayer Pets",
-				"Items": ["Soulgazer's charm"]
+				"Items": ["Soulgazer's charm"],
+				"Chunks": ["Soulgazer dungeon"]
 			},
 			"(Daemonheim) Obtain a ~|blood necklace shard|~": {
 				"Category": ["Collection Log", "Slayer Collection Log"],
@@ -118636,7 +118640,7 @@
 				"Label": "Slayer Collection Log",
 				"Items": ["Off-hand ripper claw"]
 			},
-			"(Kharidian Desert) Obtain a ~|parasitic orb|~": {
+			"(Kharidian Desert) Obtain a ~|nipper demon|~": {
 				"Category": ["Collection Log", "Slayer Collection Log", "Pets"],
 				"Label": "Slayer Pets",
 				"Items": ["Parasitic orb"]
@@ -137531,6 +137535,21 @@
 				"Items": ["MushroomEater[+]", "AnyMushroom[+]"],
 				"Chunks": ["10548"],
 				"Output": "Mushy mush"
+			},
+			"Obtain an old tooth*": {
+				"Items": ["Trowel"],
+				"Chunks": ["13365"],
+				"Tasks": {
+					"~|A Fairy Tale III - Battle at Ork's Rift|~ Complete the quest": "Quest"
+				},
+				"Output": "Old tooth"
+			},
+			"Obtain a human tooth*": {
+				"Chunks": ["12597"],
+				"Tasks": {
+					"~|A Fairy Tale III - Battle at Ork's Rift|~ Complete the quest": "Quest"
+				},
+				"Output": "Human tooth"
 			}
 		}
 	},
