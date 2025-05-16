@@ -44441,7 +44441,7 @@
 				"Chunks": ["City of Um"],
 				"Level": 68,
 				"Output": "Ghost impling",
-				"Primary": false,
+				"Primary": true,
 				"Priority": 2
 			},
 			"Catch a ~|dashing kebbit|~": {
