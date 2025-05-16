@@ -22497,7 +22497,7 @@
 				"Output": "Decorated smelting urn (unf)",
 				"Objects": ["Potter's wheel"],
 				"Primary": true,
-				"Priority": 1,
+				"Priority": 9,
 				"Not F2P": true
 			},
 			"Fire a ~|decorated smelting urn (nr)|~": {
@@ -22506,7 +22506,7 @@
 				"Output": "Decorated smelting urn (nr)",
 				"Objects": ["Pottery oven"],
 				"Primary": true,
-				"Priority": 2,
+				"Priority": 10,
 				"Not F2P": true
 			},
 			"Craft a ~|decorated cooking urn (unf)|~": {
@@ -23953,7 +23953,7 @@
 				"Level": 80,
 				"Primary": true,
 				"Output": "Cured rod of pure essence",
-				"Priority": 9,
+				"Priority": 1,
 				"Not F2P": true
 			},
 			"Carve a ~|carved rod of pure essence|~": {
@@ -23962,7 +23962,7 @@
 				"Level": 80,
 				"Primary": true,
 				"Output": "Carved rod of pure essence",
-				"Priority": 10,
+				"Priority": 2,
 				"Not F2P": true
 			},
 			"Create a ~|crystal binding rod|~": {
@@ -37739,7 +37739,7 @@
 			"Catch ~|fungal algae|~": {
 				"Objects": ["Colonised Varrock guard"],
 				"Level": 88,
-				"Output": "Fungal algae",
+				"Output": "CroesusFishing",
 				"Primary": true,
 				"Priority": 1
 			},
@@ -43687,15 +43687,13 @@
 				"Chunks": ["Puro-Puro"],
 				"Items": ["Impling jar"],
 				"Level": 17,
-				"Source": "drop",
-				"Output": "Baby impling jar",
+				"Output": "Baby impling",
 				"Primary": true,
 				"Priority": 1
 			},
 			"Catch a wandering ~|baby impling|~": {
 				"Category": ["Wandering implings"],
 				"Level": 17,
-				"Source": "drop",
 				"Output": "Baby impling",
 				"Primary": false,
 				"Priority": 2
@@ -43725,15 +43723,13 @@
 				"Chunks": ["Puro-Puro"],
 				"Items": ["Impling jar"],
 				"Level": 22,
-				"Source": "drop",
-				"Output": "Young impling jar",
+				"Output": "Young impling",
 				"Primary": true,
 				"Priority": 1
 			},
 			"Catch a wandering ~|young impling|~": {
 				"Category": ["Wandering implings"],
 				"Level": 22,
-				"Source": "drop",
 				"Output": "Young impling",
 				"Primary": false,
 				"Priority": 2
@@ -43743,8 +43739,7 @@
 				"Chunks": ["Al Kharid resource dungeon"],
 				"Items": ["Impling jar"],
 				"Level": 22,
-				"Source": "drop",
-				"Output": "Young impling jar",
+				"Output": "Young impling",
 				"Primary": true,
 				"Priority": 3
 			},
@@ -43854,8 +43849,7 @@
 				"Chunks": ["Puro-Puro"],
 				"Items": ["Impling jar"],
 				"Level": 28,
-				"Source": "drop",
-				"Output": "Gourmet impling jar",
+				"Output": "Gourmet impling",
 				"Primary": true,
 				"Priority": 1
 			},
@@ -43864,15 +43858,13 @@
 				"Chunks": ["Al Kharid resource dungeon"],
 				"Items": ["Impling jar"],
 				"Level": 28,
-				"Source": "drop",
-				"Output": "Gourmet impling jar",
+				"Output": "Gourmet impling",
 				"Primary": true,
 				"Priority": 4
 			},
 			"Catch a wandering ~|gourmet impling|~": {
 				"Category": ["Wandering implings"],
 				"Level": 28,
-				"Source": "drop",
 				"Output": "Gourmet impling",
 				"Primary": false,
 				"Priority": 2
@@ -43946,8 +43938,7 @@
 				"Chunks": ["Puro-Puro"],
 				"Items": ["Impling jar"],
 				"Level": 36,
-				"Source": "drop",
-				"Output": "Earth impling jar",
+				"Output": "Earth impling",
 				"Primary": true,
 				"Priority": 1
 			},
@@ -43956,15 +43947,13 @@
 				"Chunks": ["Al Kharid resource dungeon"],
 				"Items": ["Impling jar"],
 				"Level": 36,
-				"Source": "drop",
-				"Output": "Earth impling jar",
+				"Output": "Earth impling",
 				"Primary": true,
 				"Priority": 3
 			},
 			"Catch a wandering ~|earth impling|~": {
 				"Category": ["Wandering implings"],
 				"Level": 36,
-				"Source": "drop",
 				"Output": "Earth impling",
 				"Primary": false,
 				"Priority": 2
@@ -44043,8 +44032,7 @@
 				"Chunks": ["Puro-Puro"],
 				"Items": ["Impling jar"],
 				"Level": 42,
-				"Source": "drop",
-				"Output": "Essence impling jar",
+				"Output": "Essence impling",
 				"Primary": true,
 				"Priority": 1
 			},
@@ -44053,15 +44041,13 @@
 				"Chunks": ["Al Kharid resource dungeon"],
 				"Items": ["Impling jar"],
 				"Level": 42,
-				"Source": "drop",
-				"Output": "Essence impling jar",
+				"Output": "Essence impling",
 				"Primary": true,
 				"Priority": 3
 			},
 			"Catch a wandering ~|essence impling|~": {
 				"Category": ["Wandering implings"],
 				"Level": 42,
-				"Source": "drop",
 				"Output": "Essence impling",
 				"Primary": false,
 				"Priority": 2
@@ -44178,8 +44164,7 @@
 				"Chunks": ["Puro-Puro"],
 				"Items": ["Impling jar"],
 				"Level": 50,
-				"Source": "drop",
-				"Output": "Eclectic impling jar",
+				"Output": "Eclectic impling",
 				"Primary": true,
 				"Priority": 4
 			},
@@ -44188,15 +44173,13 @@
 				"Chunks": ["Al Kharid resource dungeon"],
 				"Items": ["Impling jar"],
 				"Level": 50,
-				"Source": "drop",
-				"Output": "Eclectic impling jar",
+				"Output": "Eclectic impling",
 				"Primary": true,
 				"Priority": 6
 			},
 			"Catch a wandering ~|eclectic impling|~": {
 				"Category": ["Wandering implings"],
 				"Level": 50,
-				"Source": "drop",
 				"Output": "Eclectic impling",
 				"Primary": false,
 				"Priority": 5
@@ -44259,7 +44242,6 @@
 				"Chunks": ["Puro-Puro"],
 				"Items": ["Impling jar"],
 				"Level": 54,
-				"Source": "drop",
 				"Output": "Spirit impling",
 				"Primary": false,
 				"Priority": 1
@@ -44269,15 +44251,13 @@
 				"Chunks": ["Al Kharid resource dungeon"],
 				"Items": ["Impling jar"],
 				"Level": 54,
-				"Source": "drop",
-				"Output": "Spirit impling jar",
+				"Output": "Spirit impling",
 				"Primary": true,
 				"Priority": 4
 			},
 			"Catch a wandering ~|spirit impling|~": {
 				"Category": ["Wandering implings"],
 				"Level": 54,
-				"Source": "drop",
 				"Output": "Spirit impling",
 				"Primary": false,
 				"Priority": 2
@@ -44325,7 +44305,6 @@
 				"Chunks": ["Puro-Puro"],
 				"Items": ["Impling jar"],
 				"Level": 58,
-				"Source": "drop",
 				"Output": "Nature impling",
 				"Primary": false,
 				"Priority": 1
@@ -44335,15 +44314,13 @@
 				"Chunks": ["Al Kharid resource dungeon"],
 				"Items": ["Impling jar"],
 				"Level": 58,
-				"Source": "drop",
-				"Output": "Nature impling jar",
+				"Output": "Nature impling",
 				"Primary": true,
 				"Priority": 3
 			},
 			"Catch a wandering ~|nature impling|~": {
 				"Category": ["Wandering implings"],
 				"Level": 58,
-				"Source": "drop",
 				"Output": "Nature impling",
 				"Primary": false,
 				"Priority": 2
@@ -44376,7 +44353,6 @@
 				"Chunks": ["Puro-Puro"],
 				"Items": ["Impling jar"],
 				"Level": 65,
-				"Source": "drop",
 				"Output": "Magpie impling",
 				"Primary": false,
 				"Priority": 1
@@ -44386,15 +44362,13 @@
 				"Chunks": ["Al Kharid resource dungeon"],
 				"Items": ["Impling jar"],
 				"Level": 65,
-				"Source": "drop",
-				"Output": "Magpie impling jar",
+				"Output": "Magpie impling",
 				"Primary": true,
 				"Priority": 4
 			},
 			"Catch a wandering ~|magpie impling|~": {
 				"Category": ["Wandering implings"],
 				"Level": 65,
-				"Source": "drop",
 				"Output": "Magpie impling",
 				"Primary": false,
 				"Priority": 2
@@ -44464,12 +44438,10 @@
 				"Priority": 1
 			},
 			"Catch a ~|ghost impling|~ in Um": {
-				"Category": ["Extra implings"],
 				"Chunks": ["City of Um"],
 				"Level": 68,
-				"Source": "drop",
 				"Output": "Ghost impling",
-				"Primary": false,
+				"Primary": true,
 				"Priority": 2
 			},
 			"Catch a ~|dashing kebbit|~": {
@@ -44563,7 +44535,6 @@
 				"Chunks": ["Puro-Puro"],
 				"Items": ["Impling jar"],
 				"Level": 74,
-				"Source": "drop",
 				"Output": "Ninja impling",
 				"Primary": false,
 				"Priority": 2
@@ -44573,15 +44544,13 @@
 				"Chunks": ["Al Kharid resource dungeon"],
 				"Items": ["Impling jar"],
 				"Level": 74,
-				"Source": "drop",
-				"Output": "Ninja impling jar",
+				"Output": "Ninja impling",
 				"Primary": true,
 				"Priority": 4
 			},
 			"Catch a wandering ~|ninja impling|~": {
 				"Category": ["Wandering implings"],
 				"Level": 74,
-				"Source": "drop",
 				"Output": "Ninja impling",
 				"Primary": false,
 				"Priority": 3
@@ -44664,7 +44633,6 @@
 					"~|Rocking Out|~ Complete the quest": "Quest"
 				},
 				"Level": 76,
-				"Source": "drop",
 				"Output": "Pirate impling",
 				"Primary": false,
 				"Priority": 2
@@ -44677,7 +44645,6 @@
 				"Tasks": {
 					"~|Pieces of Hate|~ Complete the quest": "Quest"
 				},
-				"Source": "drop",
 				"Output": "Pirate impling (post quest)",
 				"Primary": false,
 				"Priority": 3
@@ -44690,8 +44657,7 @@
 					"~|Rocking Out|~ Complete the quest": "Quest"
 				},
 				"Level": 76,
-				"Source": "drop",
-				"Output": "Pirate impling jar",
+				"Output": "Pirate impling",
 				"Primary": true,
 				"Priority": 4
 			},
@@ -44701,7 +44667,6 @@
 				"Tasks": {
 					"~|Rocking Out|~ Complete the quest": "Quest"
 				},
-				"Source": "drop",
 				"Output": "Pirate impling",
 				"Primary": false,
 				"Priority": 3
@@ -44712,7 +44677,6 @@
 				"Tasks": {
 					"~|Pieces of Hate|~ Complete the quest": "Quest"
 				},
-				"Source": "drop",
 				"Output": "Pirate impling (post quest)",
 				"Primary": false,
 				"Priority": 3
@@ -44796,7 +44760,6 @@
 				"Chunks": ["Puro-Puro"],
 				"Items": ["Impling jar"],
 				"Level": 79,
-				"Source": "drop",
 				"Output": "Divine impling",
 				"Primary": false,
 				"Priority": 2
@@ -44806,15 +44769,13 @@
 				"Chunks": ["Al Kharid resource dungeon"],
 				"Items": ["Impling jar"],
 				"Level": 79,
-				"Source": "drop",
-				"Output": "Divine impling jar",
+				"Output": "Divine impling",
 				"Primary": true,
 				"Priority": 4
 			},
 			"Catch a wandering ~|divine impling|~": {
 				"Category": ["Wandering implings"],
 				"Level": 79,
-				"Source": "drop",
 				"Output": "Divine impling",
 				"Primary": false,
 				"Priority": 3
@@ -44924,7 +44885,6 @@
 				"Chunks": ["Puro-Puro"],
 				"Items": ["Impling jar"],
 				"Level": 83,
-				"Source": "drop",
 				"Output": "Dragon impling",
 				"Primary": false,
 				"Priority": 1
@@ -44934,15 +44894,13 @@
 				"Chunks": ["Al Kharid resource dungeon"],
 				"Items": ["Impling jar"],
 				"Level": 83,
-				"Source": "drop",
-				"Output": "Dragon impling jar",
+				"Output": "Dragon impling",
 				"Primary": true,
 				"Priority": 3
 			},
 			"Catch a wandering ~|dragon impling|~": {
 				"Category": ["Wandering implings"],
 				"Level": 83,
-				"Source": "drop",
 				"Output": "Dragon impling",
 				"Primary": false,
 				"Priority": 2
@@ -45020,7 +44978,6 @@
 				"Chunks": ["Puro-Puro"],
 				"Items": ["Impling jar"],
 				"Level": 87,
-				"Source": "drop",
 				"Output": "Zombie impling",
 				"Primary": false,
 				"Priority": 1
@@ -45029,7 +44986,6 @@
 				"Category": ["Extra implings"],
 				"Chunks": ["City of Um"],
 				"Level": 87,
-				"Source": "drop",
 				"Output": "Zombie impling",
 				"Primary": false,
 				"Priority": 4
@@ -45039,15 +44995,13 @@
 				"Chunks": ["Al Kharid resource dungeon"],
 				"Items": ["Impling jar"],
 				"Level": 87,
-				"Source": "drop",
-				"Output": "Zombie impling jar",
+				"Output": "Zombie impling",
 				"Primary": true,
 				"Priority": 4
 			},
 			"Catch a wandering ~|zombie impling|~": {
 				"Category": ["Wandering implings"],
 				"Level": 87,
-				"Source": "drop",
 				"Output": "Zombie impling",
 				"Primary": false,
 				"Priority": 2
@@ -45092,7 +45046,7 @@
 			"Catch ~|fungal spore|~": {
 				"Objects": ["Decaying Varrock guard"],
 				"Level": 88,
-				"Output": "Fungal spore",
+				"Output": "Croesus Hunter",
 				"Primary": true,
 				"Priority": 4
 			},
@@ -45276,7 +45230,6 @@
 				"Chunks": ["Puro-Puro"],
 				"Items": ["Impling jar"],
 				"Level": 91,
-				"Source": "drop",
 				"Output": "Kingly impling",
 				"Primary": false,
 				"Priority": 1
@@ -45286,15 +45239,13 @@
 				"Chunks": ["Al Kharid resource dungeon"],
 				"Items": ["Impling jar"],
 				"Level": 91,
-				"Source": "drop",
-				"Output": "Kingly impling jar",
+				"Output": "Kingly impling",
 				"Primary": true,
 				"Priority": 4
 			},
 			"Catch a wandering ~|kingly impling|~": {
 				"Category": ["Wandering implings"],
 				"Level": 91,
-				"Source": "drop",
 				"Output": "Kingly impling",
 				"Primary": false,
 				"Priority": 2
@@ -45360,7 +45311,6 @@
 				"Chunks": ["Puro-Puro"],
 				"Items": ["Impling jar"],
 				"Level": 95,
-				"Source": "drop",
 				"Output": "Crystal impling",
 				"Primary": false,
 				"Priority": 14
@@ -52020,7 +51970,7 @@
 			"Mine ~|calcified fungus|~": {
 				"Objects": ["Moulding Varrock guard"],
 				"Level": 88,
-				"Output": "Calcified fungus",
+				"Output": "Croesus Mining",
 				"Primary": true,
 				"Priority": 1
 			},
@@ -52902,7 +52852,7 @@
 			},
 			"Perform a ~|greater communion ritual|~": {
 				"Chunks": ["RitualSite[+]"],
-				"Items": ["Basic ghostly ink", "Regular ghostly ink", " Greater ghostly ink", "GreaterCommunionBones[+]", "RitualLightSource[+]"],
+				"Items": ["Basic ghostly ink", "Regular ghostly ink", "Greater ghostly ink", "GreaterCommunionBones[+]", "RitualLightSource[+]"],
 				"Level": 60,
 				"Primary": true,
 				"Output": "Ectoplasm",
@@ -62850,7 +62800,7 @@
 				"Output": "Skull lantern (tier 20)",
 				"Priority": 2
 			},
-			"Forge ~|iron dart tips|~": {
+			"Forge an ~|iron dart tip|~": {
 				"Items": ["Iron bar*"],
 				"Level": 20,
 				"Objects": ["Forge", "Anvil[+]"],
@@ -62916,6 +62866,17 @@
 				"Output": "Elemental shield",
 				"Primary": true,
 				"Priority": 11
+			},
+			"Forge a ~|steel dart tip|~": {
+				"Items": ["Steel bar*"],
+				"Level": 20,
+				"Objects": ["Forge", "Anvil[+]"],
+				"Tasks": {
+					"~|The Tourist Trap|~ Complete the quest": "Quest"
+				},
+				"Output": "Steel dart tip",
+				"Primary": true,
+				"Priority": 12
 			},
 			"Smith a ~|death gaurd (tier 30)|~": {
 				"Objects": ["Soul forge"],
@@ -63047,6 +63008,17 @@
 				"Output": "Mind helmet",
 				"Primary": true,
 				"Priority": 8
+			},
+			"Forge a ~|mithril dart tip|~": {
+				"Items": ["Mithril bar*"],
+				"Level": 20,
+				"Objects": ["Forge", "Anvil[+]"],
+				"Tasks": {
+					"~|The Tourist Trap|~ Complete the quest": "Quest"
+				},
+				"Output": "Mithril dart tip",
+				"Primary": true,
+				"Priority": 9
 			},
 			"Forge an ~|elemental helmet|~": {
 				"Items": ["Elemental bar*"],
@@ -63184,6 +63156,17 @@
 				"Primary": true,
 				"Priority": 6
 			},
+			"Forge an ~|adamant dart tip|~": {
+				"Items": ["Adamant bar*"],
+				"Level": 40,
+				"Objects": ["Forge", "Anvil[+]"],
+				"Tasks": {
+					"~|The Tourist Trap|~ Complete the quest": "Quest"
+				},
+				"Output": "Adamant dart tip",
+				"Primary": true,
+				"Priority": 7
+			},
 			"Forge an ~|elemental boots|~": {
 				"Items": ["Elemental bar*"],
 				"Level": 42,
@@ -63320,6 +63303,17 @@
 				},
 				"Primary": true,
 				"Priority": 6
+			},
+			"Forge a ~|rune dart tip|~": {
+				"Items": ["Rune bar*"],
+				"Level": 20,
+				"Objects": ["Forge", "Anvil[+]"],
+				"Tasks": {
+					"~|The Tourist Trap|~ Complete the quest": "Quest"
+				},
+				"Output": "Rune dart tip",
+				"Primary": true,
+				"Priority": 7
 			},
 			"Forge ~|orikalkum|~": {
 				"Items": ["Orikalkum bar*"],
@@ -67208,9 +67202,12 @@
 				"NoBoost": true
 			},
 			"Obtain a ~|Tooth creature|~": {
-				"Items": ["Kebbit teeth", "Suqah tooth", "Old tooth", "Monkey dentures", "Human child's tooth"],
+				"Items": ["Kebbit teeth*", "Suqah tooth*", "Old tooth*", "Monkey dentures*", "Human tooth*"],
 				"Level": 37,
-				"Chunks": ["Zanaris"],
+				"Chunks": ["Fairy Resistance Hideout"],
+				"Tasks": {
+					"~|A Fairy Tale III - Battle at Ork's Rift|~ Complete the quest": "Quest"
+				},
 				"Primary": false,
 				"Priority": 1,
 				"NoPet": true,
@@ -69405,7 +69402,7 @@
 			"Cut ~|timber fungus|~": {
 				"Objects": ["Dead Varrock guard"],
 				"Level": 88,
-				"Output": "Timber fungus",
+				"Output": "Croesus Woodcutting",
 				"Primary": true,
 				"Priority": 1
 			},
@@ -82923,7 +82920,7 @@
 			"~|God Emissaries Combat|~ 2": {
 				"BaseQuest": "God Emissaries Combat",
 				"Description": "Kill 10 goblins",
-				"Monsters": ["Goblin"],
+				"Monsters": ["Goblin[+]"],
 				"Tasks": {
 					"~|God Emissaries Combat|~ 1": "Quest"
 				},
@@ -110159,7 +110156,7 @@
 				"Description": "Have a Skeleton Warrior conjured while fighting a skeleton",
 				"Chunks": ["City of Um"],
 				"Items": ["Ectoplasm"],
-				"Monsters": ["Skeleton"],
+				"Monsters": ["Skeleton[+]"],
 				"Tasks": {
 					"~|Necromancy!|~ Complete the quest": "Quest"
 				},
@@ -118227,10 +118224,11 @@
 				"Label": "Slayer Collection Log",
 				"Items": ["Hexhunter bow"]
 			},
-			"(Daemonheim) Obtain a ~|soulgazer's charm|~": {
+			"(Daemonheim) Obtain a ~|baby soulgazer|~": {
 				"Category": ["Collection Log", "Slayer Collection Log", "Pets"],
 				"Label": "Slayer Pets",
-				"Items": ["Soulgazer's charm"]
+				"Items": ["Soulgazer's charm"],
+				"Chunks": ["Soulgazer dungeon"]
 			},
 			"(Daemonheim) Obtain a ~|blood necklace shard|~": {
 				"Category": ["Collection Log", "Slayer Collection Log"],
@@ -118642,7 +118640,7 @@
 				"Label": "Slayer Collection Log",
 				"Items": ["Off-hand ripper claw"]
 			},
-			"(Kharidian Desert) Obtain a ~|parasitic orb|~": {
+			"(Kharidian Desert) Obtain a ~|nipper demon|~": {
 				"Category": ["Collection Log", "Slayer Collection Log", "Pets"],
 				"Label": "Slayer Pets",
 				"Items": ["Parasitic orb"]
@@ -134675,7 +134673,7 @@
 			"Obtain duck food*": {
 				"Chunks": ["11828"],
 				"Tasks": {
-					"~|Duck Quest|~ 3": "Quest"
+					"~|Duck Quest|~ 2": "Quest"
 				},
 				"Output": "Duck food"
 			},
@@ -134996,18 +134994,6 @@
 				"NPCs": ["Fancy-dress shop owner"],
 				"Output": "Desert camo legs"
 			},
-			"Open a baby impling jar*": {
-				"Items": ["Baby impling jar"],
-				"Output": "Baby impling"
-			},
-			"Open a young impling jar*": {
-				"Items": ["Young impling jar"],
-				"Output": "Young impling"
-			},
-			"Open a gourmet impling jar*": {
-				"Items": ["Gourmet impling jar"],
-				"Output": "Gourmet impling"
-			},
 			"Get a larupia top made*": {
 				"Items": ["LarupiaFur[+]"],
 				"NPCs": ["Fancy-dress shop owner"],
@@ -135022,10 +135008,6 @@
 				"Items": ["Larupia fur"],
 				"NPCs": ["Fancy-dress shop owner"],
 				"Output": "Larupia hat"
-			},
-			"Open an earth impling jar*": {
-				"Items": ["Earth impling jar"],
-				"Output": "Earth impling"
 			},
 			"Get a graahk top made*": {
 				"Items": ["GraahkFur[+]"],
@@ -135059,10 +135041,6 @@
 				"Items": ["Volatile tool"],
 				"Output": "Volatile clay butterfly net"
 			},
-			"Open an essence impling jar*": {
-				"Items": ["Essence impling jar"],
-				"Output": "Essence impling"
-			},
 			"Pick lavender*": {
 				"Objects": ["Lavender"],
 				"Output": "Lavender"
@@ -135071,8 +135049,8 @@
 				"Items": ["Lavender"],
 				"Output": "Smouldering lavender"
 			},
-			"Open an eclectic impling jar*": {
-				"Items": ["Eclectic impling jar"],
+			"Open an eclectic impling*": {
+				"Items": ["Eclectic impling"],
 				"Output": "Eclectic impling"
 			},
 			"Get a kyatt top made*": {
@@ -135090,22 +135068,10 @@
 				"NPCs": ["Fancy-dress shop owner"],
 				"Output": "Kyatt hat"
 			},
-			"Open a spirit impling jar*": {
-				"Items": ["Spirit impling jar"],
-				"Output": "Spirit impling"
-			},
 			"Get gloves of silence made*": {
 				"Items": ["Dark kebbit fur"],
 				"NPCs": ["Fancy-dress shop owner"],
 				"Output": "Gloves of silence"
-			},
-			"Open a nature impling jar*": {
-				"Items": ["Nature impling jar"],
-				"Output": "Nature impling"
-			},
-			"Open a magpie impling jar*": {
-				"Items": ["Magpie impling jar"],
-				"Output": "Magpie impling"
 			},
 			"Loot the sinister chest*": {
 				"Chunks": ["Yanille Agility Dungeon"],
@@ -135144,34 +135110,6 @@
 			"Create a blue charm*": {
 				"Items": ["Blue charm slice*"],
 				"Output": "Blue charm"
-			},
-			"Open a ninja impling jar*": {
-				"Items": ["Ninja impling jar"],
-				"Output": "Ninja impling"
-			},
-			"Open a pirate impling jar*": {
-				"Items": ["Pirate impling jar"],
-				"Output": "Pirate impling"
-			},
-			"Open a divine impling jar*": {
-				"Items": ["Divine impling jar"],
-				"Output": "Divine impling"
-			},
-			"Open a dragon impling jar*": {
-				"Items": ["Dragon impling jar"],
-				"Output": "Dragon impling"
-			},
-			"Open a zombie impling jar*": {
-				"Items": ["Zombie impling jar"],
-				"Output": "Zombie impling"
-			},
-			"Open a kingly impling jar*": {
-				"Items": ["Kingly impling jar"],
-				"Output": "Kingly impling"
-			},
-			"Open a crystal impling jar*": {
-				"Items": ["Crystal impling jar"],
-				"Output": "Crystal impling"
 			},
 			"Fill a watering can from a cannister*": {
 				"Items": ["Watering can", "WaterItem[+]"],
@@ -137597,6 +137535,21 @@
 				"Items": ["MushroomEater[+]", "AnyMushroom[+]"],
 				"Chunks": ["10548"],
 				"Output": "Mushy mush"
+			},
+			"Obtain an old tooth*": {
+				"Items": ["Trowel"],
+				"Chunks": ["13365"],
+				"Tasks": {
+					"~|A Fairy Tale III - Battle at Ork's Rift|~ Complete the quest": "Quest"
+				},
+				"Output": "Old tooth"
+			},
+			"Obtain a human tooth*": {
+				"Chunks": ["12597"],
+				"Tasks": {
+					"~|A Fairy Tale III - Battle at Ork's Rift|~ Complete the quest": "Quest"
+				},
+				"Output": "Human tooth"
 			}
 		}
 	},
@@ -184314,6 +184267,7 @@
 				"Replenishment potion (5)",
 				"Replenishment potion (6)"
 			],
+			"ResonantAnima[+]": ["Resonant anima of Bik", "Resonant anima of Jas", "Resonant anima of Wen", "Resonant anima of Ful"],
 			"RestoI[+]": [
 				"Anchovies",
 				"Chicken",
@@ -186661,6 +186615,7 @@
 			"RelicymBalm[+]": "Any Relicym's balm vial",
 			"RemoteViewFamiliar[+]": "Any familiar with the 'Remote view' ability",
 			"ReplenishmentPotion[+]": "Any replenishment potion",
+			"ResonantAnima[+]": "Any type of resonant anima",
 			"RestoI[+]": "Any food that can be used to make a portant of restoration I",
 			"RestorePotion[+]": "Any restore potion",
 			"RipperClaw[+]": "Any ripper claw variant",
@@ -187114,6 +187069,13 @@
 			"Fish[+]": ["Fishing spot (minnow)", "Fishing spot (crayfish)", "Fishing spot (small fishing net, bait)"],
 			"Furnace[+]": ["Furnace", "Lava Furnace"],
 			"Haystack[+]": ["Haystack", "Hay bale"],
+			"HeavyMetalMithril[+]": ["Mithril rock", "Coal rock", "Concentrated coal deposit"],
+			"HeavyMetalAdamant[+]": ["Adamantite rock", "Luminite rock"],
+			"HeavyMetalRune[+]": ["Runite rock", "Luminite rock"],
+			"HeavyMetalOrikalkum[+]": ["Orichalcite rock", "Drakolith rock"],
+			"HeavyMetalNecronium[+]": ["Necrite rock", "Phasmatite rock"],
+			"HeavyMetalElderRune[+]": ["Light animica rock", "Dark animica rock"],
+			"HeavyMetalPrimal[+]": ["Argonite rock", "Bathus rock", "Fractite rock", "Gorgonite rock", "Katagon rock", "Kratonium rock", "Marmaros rock", "Novite rock", "Promethium rock", "Zephyrium rock"],
 			"Ore[+]": ["Copper rock", "Tin rock", "Common gem rock", "Feldip swamp rock", "Clay rock", "Rune essence rock"],
 			"PotatoPatch[+]": ["Allotment", "Potato patch"],
 			"SnowPile[+]": ["Snow pile", "Snow drift"],
@@ -187137,6 +187099,13 @@
 			"Fish[+]": "Any level 1 fishing spot",
 			"Furnace[+]": "Any furnace that can smelt bars",
 			"Haystack[+]": "Any object that can fill an empty sack with hay",
+			"HeavyMetalMithril[+]": "Any rock that may give the mithril entry for Boric's Book of Metal",
+			"HeavyMetalAdamant[+]": "Any rock that may give the adamant entry for Boric's Book of Metal",
+			"HeavyMetalRune[+]": "Any rock that may give the rune entry for Boric's Book of Metal",
+			"HeavyMetalOrikalkum[+]": "Any rock that may give the orikalkum entry for Boric's Book of Metal",
+			"HeavyMetalNecronium[+]": "Any rock that may give the necronium entry for Boric's Book of Metal",
+			"HeavyMetalElderRune[+]": "Any rock that may give the elder rune entry for Boric's Book of Metal",
+			"HeavyMetalPrimal[+]": "Any rock that may give the primal entry for Boric's Book of Metal",
 			"Ore[+]": "Any level 1 mining object",
 			"PotatoPatch[+]": "Any patch where potatoes can be planted",
 			"SnowPile[+]": "Any object where a polar kebbit trace can be started",
@@ -187164,7 +187133,9 @@
 			"Legiones[+]": ["Legio Primus", "Legio Secundus", "Legio Tertius", "Legio Quartus", "Legio Quintus", "Legio Sextus"],
 			"LudikerisMonsters[+]": ["Locust rider", "Scarab mage", "Kalphite Worker", "Kalphite Soldier", "Kalphite Guardian"],
 			"AnyTroll[+]": ["Ghostly troll bruiser", "Ghostly troll thrower", "Ice troll", "Ice troll female", "Ice troll grunt", "Ice troll male", "Ice troll runt", "Kraka", "Mountain troll", "Mountain troll (well)", "Pee Hat", "River troll", "Rock (monster)", "Stick", "Stove", "Thrower troll", "Troll brute", "Troll chucker", "Troll general", "Troll lout", "Troll shaman", "Troll spectator", "Undead troll"],
-			"Warrior[+]": ["Al Kharid warrior", "Warrior woman"]
+			"Warrior[+]": ["Al Kharid warrior", "Warrior woman"],
+			"Goblin[+]": ["Goblin#Level 2", "Goblin#Level 5", "Goblin (Goblin Village)", "Goblin (God Wars Dungeon)"],
+			"Skeleton[+]": ["Skeleton#Armed", "Skeleton#Unarmed"]
 		},
 		"monstersPlusNames": {
 			"AnyBoss[+]": "Any boss",
@@ -187183,7 +187154,9 @@
 			"Legiones[+]": "Any Ascension Legiones",
 			"LudikerisMonsters[+]": "Any monster weak to the Keris",
 			"AnyTroll[+]": "Any troll that can be killed to fill Kili's urn",
-			"Warrior[+]": "Anything that counts as a warrior for 'Lost My Marbles'"
+			"Warrior[+]": "Anything that counts as a warrior for 'Lost My Marbles'",
+			"Goblin[+]": "Any type of common goblin",
+			"Skeleton[+]": "Any type of common skeleton"
 		},
 		"mixPlus": {
 			"HAMMember[+]": ["H.A.M. Member (male)", "H.A.M. Member (female)", "Guard (H.A.M.)"]
@@ -255392,6 +255365,14 @@
 			"Large Urchin Loot": {
 				"Large crystal urchin": "Always",
 				"Hermit crab": "Very rare"
+			},
+			"Coresus Fishing": {
+				"Fungal algae": "Always",
+				"Resonant anima of Bik": "Always",
+				"The Great Beast": "Rare",
+				"Kings and Queens": "Rare",
+				"A Life in Colour": "Rare",
+				"A Massacrer of Moles": "Rare"
 			}
 		},
 		"Fletching": {
@@ -257021,122 +257002,13 @@
 				"Camouflaged jadinko (unchecked)": "1/500"
 			},
 			"Divine impling": {
-				"Pale energy": {
-					"80-121": "Always",
-					"50-151": "Uncommon",
-					"820": "Very rare",
-					"970": "Very rare",
-					"1010": "Very rare",
-					"1110": "Very rare",
-					"1262": "Very rare"
-				},
-				"Flickering energy": {
-					"80-121": "Always",
-					"50-151": "Uncommon",
-					"820": "Very rare",
-					"970": "Very rare",
-					"1010": "Very rare",
-					"1110": "Very rare",
-					"1262": "Very rare"
-				},
-				"Bright energy": {
-					"80-121": "Always",
-					"50-151": "Uncommon",
-					"820": "Very rare",
-					"970": "Very rare",
-					"1010": "Very rare",
-					"1110": "Very rare",
-					"1262": "Very rare"
-				},
-				"Glowing energy": {
-					"80-121": "Always",
-					"50-151": "Uncommon",
-					"820": "Very rare",
-					"970": "Very rare",
-					"1010": "Very rare",
-					"1110": "Very rare",
-					"1262": "Very rare"
-				},
-				"Sparkling energy": {
-					"80-121": "Always",
-					"50-151": "Uncommon",
-					"820": "Very rare",
-					"970": "Very rare",
-					"1010": "Very rare",
-					"1110": "Very rare",
-					"1262": "Very rare"
-				},
-				"Gleaming energy": {
-					"80-121": "Always",
-					"50-151": "Uncommon",
-					"820": "Very rare",
-					"970": "Very rare",
-					"1010": "Very rare",
-					"1110": "Very rare",
-					"1262": "Very rare"
-				},
-				"Vibrant energy": {
-					"80-121": "Always",
-					"50-151": "Uncommon",
-					"820": "Very rare",
-					"970": "Very rare",
-					"1010": "Very rare",
-					"1110": "Very rare",
-					"1262": "Very rare"
-				},
-				"Lustrous energy": {
-					"80-121": "Always",
-					"50-151": "Uncommon",
-					"820": "Very rare",
-					"970": "Very rare",
-					"1010": "Very rare",
-					"1110": "Very rare",
-					"1262": "Very rare"
-				},
-				"Elder energy": {
-					"80-121": "Always",
-					"50-151": "Uncommon",
-					"820": "Very rare",
-					"970": "Very rare",
-					"1010": "Very rare",
-					"1110": "Very rare",
-					"1262": "Very rare"
-				},
-				"Brilliant energy": {
-					"80-121": "Always",
-					"50-151": "Uncommon",
-					"820": "Very rare",
-					"970": "Very rare",
-					"1010": "Very rare",
-					"1110": "Very rare",
-					"1262": "Very rare"
-				},
-				"Radiant energy": {
-					"80-121": "Always",
-					"50-151": "Uncommon",
-					"820": "Very rare",
-					"970": "Very rare",
-					"1010": "Very rare",
-					"1110": "Very rare",
-					"1262": "Very rare"
-				},
 				"Luminous energy": {
-					"80-121": "Always",
-					"50-151": "Uncommon",
-					"820": "Very rare",
-					"970": "Very rare",
-					"1010": "Very rare",
-					"1110": "Very rare",
-					"1262": "Very rare"
+					"50-150": "25/101"
 				},
 				"Incandescent energy": {
-					"80-121": "Always",
-					"50-151": "Uncommon",
-					"820": "Very rare",
-					"970": "Very rare",
-					"1010": "Very rare",
-					"1110": "Very rare",
-					"1262": "Very rare"
+					"80-120": "19/20",
+					"800-1200": "1/20",
+					"50-150": "25/101"
 				},
 				"Elder charm": {
 					"1": "Common",
@@ -258217,6 +258089,14 @@
 				"Essential oils": "Very rare",
 				"Reinforced dinosaur pelt": "Very rare",
 				"Necklace of Salamancy": "1/500"
+			},
+			"Coresus Hunter": {
+				"Fungal spore": "Always",
+				"Resonant anima of Bik": "Always",
+				"The Great Beast": "Rare",
+				"Kings and Queens": "Rare",
+				"A Life in Colour": "Rare",
+				"A Massacrer of Moles": "Rare"
 			}
 		},
 		"Invention": {
@@ -258383,6 +258263,14 @@
 				"Golden mining suit helmet": "Always",
 				"Golden mining suit trousers": "Always",
 				"Golden mining suit top": "Always"
+			},
+			"Coresus Mining": {
+				"Calcified fungus": "Always",
+				"Resonant anima of Bik": "Always",
+				"The Great Beast": "Rare",
+				"Kings and Queens": "Rare",
+				"A Life in Colour": "Rare",
+				"A Massacrer of Moles": "Rare"
 			}
 		},
 		"Necromancy": {
@@ -271275,7 +271163,6 @@
 				"Steel claws + 1": "Always",
 				"Steel dagger": "Always",
 				"Steel dagger + 1": "Always",
-				"Steel dart tip": "Always",
 				"Steel full helm": "Always",
 				"Steel full helm + 1": "Always",
 				"Steel gauntlets": "Always",
@@ -271350,7 +271237,6 @@
 				"Mithril dagger": "Always",
 				"Mithril dagger + 1": "Always",
 				"Mithril dagger + 2": "Always",
-				"Mithril dart tip": "Always",
 				"Mithril full helm": "Always",
 				"Mithril full helm + 1": "Always",
 				"Mithril full helm + 2": "Always",
@@ -271448,7 +271334,6 @@
 				"Adamant dagger": "Always",
 				"Adamant dagger + 1": "Always",
 				"Adamant dagger + 2": "Always",
-				"Adamant dart tip": "Always",
 				"Adamant full helm": "Always",
 				"Adamant full helm + 1": "Always",
 				"Adamant full helm + 2": "Always",
@@ -271552,7 +271437,6 @@
 				"Rune dagger + 1": "Always",
 				"Rune dagger + 2": "Always",
 				"Rune dagger + 3": "Always",
-				"Rune dart tip": "Always",
 				"Rune full helm": "Always",
 				"Rune full helm + 1": "Always",
 				"Rune full helm + 2": "Always",
@@ -274718,6 +274602,14 @@
 				"Nature's sentinel trunks": "Always",
 				"Nature's sentinel branch": "Always",
 				"Nature's sentinel boots": "Always"
+			},
+			"Coresus Woodcutting": {
+				"Timber fungus": "Always",
+				"Resonant anima of Bik": "Always",
+				"The Great Beast": "Rare",
+				"Kings and Queens": "Rare",
+				"A Life in Colour": "Rare",
+				"A Massacrer of Moles": "Rare"
 			}
 		},
 		"Nonskill": {
