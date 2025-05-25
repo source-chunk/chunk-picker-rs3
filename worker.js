@@ -5687,7 +5687,7 @@ let calcBIS = function(completedOnly) {
         if (!bestEquipment['ammo'] || bestEquipment['ammo'] === null || bestEquipment['ammo'] === undefined) {
             delete bestEquipment['ammo'];
         }
-        let bestDps = -1;
+        /* let bestDps = -1;
         let resultingAdditions = {};
         let resultingAdditionsBonus = {};
         let validWearable;
@@ -8538,7 +8538,7 @@ let calcBIS = function(completedOnly) {
         Object.keys(resultingAdditions).forEach((slot) => {
             bestEquipment[slot] = resultingAdditions[slot];
             delete bestEquipmentAlts[slot];
-        });
+        }); */
         rules['Show Best in Slot 1H and 2H'] && !!savedWeaponBis && Object.keys(savedWeaponBis).filter(slot => !!savedWeaponBis[slot]).forEach((slot) => {
             if (slot === 'ammo (2h)' && !savedWeaponBis['ammo']) {
                 bestEquipment['ammo'] = savedWeaponBis['ammo (2h)'];
