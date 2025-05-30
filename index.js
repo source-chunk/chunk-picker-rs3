@@ -559,7 +559,7 @@ let ruleNames = {
 	"Uncharted": "Allow resources only available on uncharted islands to create skilling tasks<span class='rule-asterisk noscroll'>*</span>",
 	"Arc Log": "Require completion of the Arc Journal<span class='rule-asterisk noscroll'>*</span>",
 	"Fill Costume Room": "WIP - Must fill all slots in the Player-Owned House costume room",
-	"Achievement": "Show achievement tasks",
+	"Achievement": "Show Achievement Tasks",
 	"Multiple Pickpockets": "Require the agility and thieving levels to quadruple pickpocket<span class='rule-asterisk noscroll'>*</span>",
     "F2P": "Restrict to F2P skills/items/tasks only (Partially implemented)",
 	"Hard Mode Bosses": "Include Hard mode variants of bosses",
@@ -8500,7 +8500,7 @@ let openHighest2 = function(notScrollTop) {
                     $(`.${combatStyle.replaceAll(' ', '_')}-body`).empty().append(`<div class='highest-subtitle noscroll'>${combatStyle}</div><div class='noscroll qps'>Quest Points: ${questPointTotal}<i class="noscroll fa-solid fa-filter" title="Filter" onclick="openQuestFilterContextMenu()"></i></div>`).append(`<div class="noscroll results"><span class="noscroll holder"><span class="noscroll topline">No quests ${questFilterType}</span></span></div>`);
                 }
             } else if (combatStyle === 'Diaries') {
-                rules['Combat Mastery achievements'] && $(`.${combatStyle.replaceAll(' ', '_')}-body`).append(`<div class='noscroll cps'>Combat Achievement Points: ${combatPointTotal}</div>`);
+                rules['Combat Mastery achievements'] && rules['Achievement'] && $(`.${combatStyle.replaceAll(' ', '_')}-body`).append(`<div class='noscroll cps'>Combat Achievement Points: ${combatPointTotal}</div>`);
                 $(`.${combatStyle.replaceAll(' ', '_')}-body`).append(`<div class="diary-question-outer"><span class="diary-question">What do the colors indicate? <i class="fas fa-question-circle"></i><span class="tooltiptext"><div>Diary tiers in <span style="color:green">green</span> indicate a diary that you can complete within your chunks.</div><hr /><div>Diary tiers in <span style="color:yellow">yellow</span> indicate a diary that can be started, but not completed within your chunks.</div><hr /><div>Diary tiers in <span style="color:grey">grey</span> indicate a diary that cannot be started yet.</div></span></span></div>`);
                 Object.keys(chunkInfo['diaries']).forEach((diary) => {
                     $(`.${combatStyle.replaceAll(' ', '_')}-body`).append(`<div class='noscroll row ${diary.replaceAll(' ', '_').replaceAll("'", '')}'><span class='noscroll outer-diary-text'>${diary.replaceAll(/~/g, '').replaceAll(/\|/g, '')}</div>`);

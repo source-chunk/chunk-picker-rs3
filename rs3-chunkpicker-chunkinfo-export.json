@@ -116614,6 +116614,7 @@
 			},
 			"Complete ~|Kili's Knowledge I|~": {
 				"Category": ["Kili Knowledge"],
+				"Label": ["Necromancy progression"],
 				"Chunks": ["City of Um"],
 				"Tasks": {
 					"SoulUrnI[+]": "Nonskill",
@@ -116626,6 +116627,7 @@
 			},
 			"Complete ~|Kili's Knowledge II|~": {
 				"Category": ["Kili Knowledge"],
+				"Label": ["Necromancy progression"],
 				"Chunks": ["City of Um"],
 				"Items": ["Meat pie"],
 				"Tasks": {
@@ -116639,6 +116641,7 @@
 			},
 			"Complete ~|Kili's Knowledge III|~": {
 				"Category": ["Kili Knowledge"],
+				"Label": ["Necromancy progression"],
 				"Chunks": ["11824", "City of Um"],
 				"Items": ["Apple pie", "Fishing explosive"],
 				"Tasks": {
@@ -116653,6 +116656,7 @@
 			},
 			"Complete ~|Kili's Knowledge IV|~": {
 				"Category": ["Kili Knowledge"],
+				"Label": ["Necromancy progression"],
 				"Chunks": ["City of Um"],
 				"Monsters": ["Ankou"],
 				"Items": ["Garden pie"],
@@ -116666,6 +116670,7 @@
 			},
 			"Complete ~|Kili's Knowledge V|~": {
 				"Category": ["Kili Knowledge"],
+				"Label": ["Necromancy progression"],
 				"Chunks": ["City of Um", "The Barrows"],
 				"Items": ["Fish pie", "Greater necroplasm"],
 				"Tasks": {
@@ -116680,6 +116685,7 @@
 			},
 			"Complete ~|Kili's Knowledge V (power)|~": {
 				"Category": ["Kili Knowledge"],
+				"Label": ["Necromancy progression"],
 				"Chunks": ["City of Um"],
 				"Monsters": ["Giant Mole", "Kalphite Queen"],
 				"Tasks": {
@@ -116693,6 +116699,7 @@
 			},
 			"Complete ~|Kili's Knowledge VI|~": {
 				"Category": ["Kili Knowledge"],
+				"Label": ["Necromancy progression"],
 				"Chunks": ["City of Um", "God Wars Dungeon"],
 				"Items": ["Redberry pie"],
 				"Tasks": {
@@ -116711,6 +116718,7 @@
 			},
 			"Complete ~|Kili's Knowledge VI (power)|~": {
 				"Category": ["Kili Knowledge"],
+				"Label": ["Necromancy progression"],
 				"Chunks": ["City of Um"],
 				"Monsters": ["Nex", "Queen Black Dragon"],
 				"Tasks": {
@@ -116730,6 +116738,7 @@
 			},
 			"Complete ~|Kili's Knowledge VII|~": {
 				"Category": ["Kili Knowledge"],
+				"Label": ["Necromancy progression"],
 				"Chunks": ["City of Um", "ScapeRune", "11064", "Fight Cave", "The Heart", "Necromantic Rune Temple", "Star Lodge"],
 				"Items": ["Pie dish", "Pot of flour", "Uncut onyx", "Greater necroplasm", "Crystal key"],
 				"Objects": ["Spinning wheel", "Cooking object[+]", "Archaeologist's workbench", "Cyrstal chest", "Impure essence"],
@@ -116754,6 +116763,7 @@
 			},
 			"Complete ~|Kili's Knowledge VII (power)|~": {
 				"Category": ["Kili Knowledge"],
+				"Label": ["Necromancy progression"],
 				"Chunks": ["City of Um"],
 				"Monsters": ["Araxxi", "KiliVIIBosses[+]", "The Ambassador"],
 				"Items": ["Greater ensouled cloth"],
