@@ -374,6 +374,7 @@ let rules = {
     "Collection Log": false,
 	"Boss Collection Log": false,
 	"Slayer Collection Log": false,
+	"Secondary Effigies": false,
 	"Breeding Log": false,
     "Minigame": false,
     "Shortcut Task": false,
@@ -455,6 +456,11 @@ let rules = {
 	"Menaphos Events": false,
 	"Material Blueprints": false,
 	"Wandering implings": false,
+	"Comp achievements": false,
+	"Trim achievements": false,
+	"MQC achievements": false,
+	"Misc achievements": false,
+	"Kili Knowledge": false,
 };                                                                              // List of rules and their on/off state
 
 let ruleNames = {
@@ -494,6 +500,7 @@ let ruleNames = {
     "Collection Log": "Must obtain items from collection logs (Does nothing on its own)",
 	"Boss Collection Log": "Must obtain items from the boss collection log<span class='rule-asterisk noscroll'>*</span>",
 	"Slayer Collection Log": "Must obtain items from the slayer collection log<span class='rule-asterisk noscroll'>*</span>",
+	"Secondary Effigies": "Count Effigies as a secondary resource instead of a tertiary resource<span class='rule-asterisk noscroll'>†</span>",
 	"Breeding Log": "Must fill out the Player-Owned Farm and Player-Owned Ranch breeding logs<span class='rule-asterisk noscroll'>*</span>",
     "Minigame": "Allow items obtained from minigame rewards to count towards chunk tasks",
 	"DnD": "Allow items obtained from Distractions and Diversions to count towards chunk tasks<span class='rule-asterisk noscroll'>*</span>",
@@ -518,7 +525,7 @@ let ruleNames = {
     "Untracked Uniques Daemonheim": "Must obtain untracked uniques that exist solely in the Dungeons of Daemonheim (e.g. Celestial surgebox, etc.)<span class='rule-asterisk noscroll'>*</span>",
 	"Ports Scrolls": "Must complete every scroll in Player-Owned Port<span class='rule-asterisk noscroll'>*</span>",
 	"Dungeoneering Journals": "WIP - Must complete the Daemonheim Journals (e.g. Behemoth notes, Stalker notes, etc.)<span class='rule-asterisk noscroll'>*</span>",
-	"Slayer Souls": "WIP - Must fill out all available souls in the Slayer Codex<span class='rule-asterisk noscroll'>*</span>",
+	"Slayer Souls": "Must fill out all available souls in the Slayer Codex<span class='rule-asterisk noscroll'>*</span>",
     "Combat and Teleport Spells": "Allow all spells to count as possible Magic skill tasks (otherwise only 'utility' spells like High Alchemy or Telegrab will count)",
     "Primary Spawns": "Item spawns count as primary access to an item, and can be used as a primary way to train a skill if needed<span class='rule-asterisk noscroll'>*</span>",
     "Smithing by Smelting": "Smelting ores into bars counts as a primary method for training Smithing",
@@ -552,7 +559,7 @@ let ruleNames = {
 	"Uncharted": "Allow resources only available on uncharted islands to create skilling tasks<span class='rule-asterisk noscroll'>*</span>",
 	"Arc Log": "Require completion of the Arc Journal<span class='rule-asterisk noscroll'>*</span>",
 	"Fill Costume Room": "WIP - Must fill all slots in the Player-Owned House costume room",
-	"Achievement": "WIP - Require all achievements that can be obtained within your ruleset excluding level up achievements",
+	"Achievement": "Show achievement tasks",
 	"Multiple Pickpockets": "Require the agility and thieving levels to quadruple pickpocket<span class='rule-asterisk noscroll'>*</span>",
     "F2P": "Restrict to F2P skills/items/tasks only (Partially implemented)",
 	"Hard Mode Bosses": "Include Hard mode variants of bosses",
@@ -572,7 +579,10 @@ let ruleNames = {
 	"Material Blueprints": "Count discovering material blueprints as a skilling task",
 	"Comp achievements": "Must complete Completionist achievements<span class='rule-asterisk noscroll'>*</span>",
 	"Trim achievements": "Also include Trimmed Completionist Cape achievements<span class='rule-asterisk noscroll'>*</span>",
-	"MQC achievements": " Must complete Master Quest Cape achievements<span class='rule-asterisk noscroll'>*</span>"
+	"MQC achievements": "Must complete Master Quest Cape achievements<span class='rule-asterisk noscroll'>*</span>",
+	"Misc achievements": "WIP- Must complete other achievements, excluding level-up achievements.",
+	"Hunter Marks Slayer": "Using Hunter Marks to buy Slayer experience lamps counts as primary training<span class='rule-asterisk noscroll'>*</span>"
+	"Kili Knowledge": "Must complete Kili Knowledge when possible"
 };                                                                              // List of rule definitions
 
 let rulePresets = {
@@ -599,7 +609,9 @@ let rulePresets = {
 		"Cleaning Herbs": true,
 		"Unlock Abilities": true,
         "Unlock Prayers": true,
-		"Material Blueprints": true
+		"Material Blueprints": true,
+		"Achievement": true,
+		"Kili Knowledge": true
     },
     "Xtreme Chunker": {
         "Skillcape": true,
@@ -674,7 +686,9 @@ let rulePresets = {
 		"Material Blueprints": true,
 		"Comp achievements": true,
 		"Trim achievements": true,
-		"MQC achievements": true
+		"MQC achievements": true,
+		"Hunter Marks Slayer": true,
+		"Kili Knowledge": true
     },
     "Supreme Chunker": {
         "Skillcape": true,
@@ -762,7 +776,10 @@ let rulePresets = {
 		"Material Blueprints": true,
 		"Comp achievements": true,
 		"Trim achievements": true,
-		"MQC achievements": true
+		"MQC achievements": true,
+		"Secondary Effigies": true,
+		"Hunter Marks Slayer": true,
+		"Kili Knowledge": true
     }
 };                                                                              // List of rules that are part of each preset
 
@@ -792,7 +809,10 @@ let ruleStructure = {
 	},
 	"Achievements": {
 		"Show Diary Tasks": ["Show Diary Tasks Complete", "Show Diary Tasks Any"],
-		"Combat Mastery achievements": ["Speed Killer Achievements", "Combat Master+"]
+		"Combat Mastery achievements": ["Speed Killer Achievements", "Combat Master+"],
+		"Comp achievements": ["Trim achievements"],
+		"MQC achievements": true,
+		"Misc achievements": true
 	},
     "Overall Skill": {
         "Skillcape": ["Master skillcape"],
@@ -849,6 +869,9 @@ let ruleStructure = {
         "Spells": ["Combat and Teleport Spells"],
         "Secondary MTA": true
     },
+	"Necromancy": {
+		"Kili Knowledge": true
+	},
     "Prayer": {
         "Prayers": true
     },
@@ -859,7 +882,8 @@ let ruleStructure = {
         "Pouch": true
     },
     "Slayer": {
-        "Slayer Equipment": true
+        "Slayer Equipment": true,
+		"Hunter Marks Slayer": true
     },
     "Smithing": {
         "Smithing by Smelting": true
@@ -871,6 +895,7 @@ let ruleStructure = {
 		"DnD": ["DnD Flash Events"],
         "Rare Drop": ["KeyItem Bosses"],
         "RDT": true,
+		"Secondary Effigies": true,
         "Primary Spawns": true,
 		"Every Drop": ["Every Drop Implings"],
         "All Droptables": true,
@@ -6319,8 +6344,8 @@ let setupCurrentChallenges = function(tempChallengeArr, noDisplay, noClear) {
             }
         }
     });
-    !!globalValids['Diary'] && Object.keys(globalValids['Diary']).length > 0 && (rules['Show Diary Tasks'] || rules['Combat Mastery achievements']) && challengeArr.push(`<div class="marker marker-diary noscroll" onclick="expandActive('diary')"><i class="expand-button fas ${activeSubTabs['diary'] ? 'fa-caret-down' : 'fa-caret-right'} noscroll"></i><span class="noscroll">Diary Tasks</span></div>`);
-    !!globalValids['Diary'] && (rules['Show Diary Tasks'] || rules['Combat Mastery achievements']) && Object.keys(globalValids['Diary']).forEach((challenge) => {
+    !!globalValids['Diary'] && Object.keys(globalValids['Diary']).length > 0 && ((rules['Show Diary Tasks'] || rules['Combat Mastery achievements']) && rules['Achievement']) && challengeArr.push(`<div class="marker marker-diary noscroll" onclick="expandActive('diary')"><i class="expand-button fas ${activeSubTabs['diary'] ? 'fa-caret-down' : 'fa-caret-right'} noscroll"></i><span class="noscroll">Diary Tasks</span></div>`);
+    !!globalValids['Diary'] && ((rules['Show Diary Tasks'] || rules['Combat Mastery achievements']) && rules['Achievement']) && Object.keys(globalValids['Diary']).forEach((challenge) => {
         if ((!backlog['Diary'] || (!backlog['Diary'].hasOwnProperty(challenge) && !backlog['Diary'].hasOwnProperty(challenge.replaceAll('#', '/')))) && (!completedChallenges['Diary'] || (!completedChallenges['Diary'][challenge] && !completedChallenges['Diary'][challenge.replaceAll('#', '/')])) && globalValids['Diary'][challenge] && (!rules['Show Diary Tasks Complete'] || chunkInfo['challenges']['Diary'][challenge].hasOwnProperty('ManualShow'))) {
             challengeArr.push(`<div class="challenge diary-challenge noscroll clickable ${'Diary-' + challenge.replaceAll(' ', '_').replace(/[!"#$%&'()*+,.\/:;<=>?@\[\\\]\^\`{|}~]/g, '').toLowerCase() + '-challenge'} ${(!!checkedChallenges['Diary'] && !!checkedChallenges['Diary'][challenge]) && 'hide-backlog'} ${!activeSubTabs['diary'] ? 'stay-hidden' : ''}" onclick="showDetails('${encodeRFC5987ValueChars(challenge)}', 'Diary', 'current')"><label class="checkbox noscroll ${(!testMode && (viewOnly || inEntry || locked)) ? "checkbox--disabled" : ''}"><span class="checkbox__input noscroll"><input type="checkbox" name="checkbox" ${(!!checkedChallenges['Diary'] && !!checkedChallenges['Diary'][challenge]) ? "checked" : ''} class='noscroll' onclick="checkOffChallenge('Diary', '${encodeRFC5987ValueChars(challenge)}')" ${(!testMode && (viewOnly || inEntry || locked)) ? "disabled" : ''}><span class="checkbox__control noscroll"><svg viewBox='0 0 24 24' aria-hidden="true" focusable="false"><path fill='none' stroke='currentColor' stroke-width='3' d='M1.73 12.91l6.37 6.37L22.79 4.59' /></svg></span></span><span class="radio__label noscroll"><b class="noscroll">[Diary] <span class="inner noscroll"><a class='link noscroll' href="${"https://runescape.wiki/w/" + encodeForUrl(challenge.split('~')[1].split('|').join(''))}" target="_blank">${challenge.split('~')[1].split('|').join('')}</a></b>: <a href='javascript:openQuestSteps("Diary", "${encodeForUrl(challenge)}")' class='internal-link noscroll'>${challenge.split('~')[2]}</a></span></span></label></span> <span class="burger noscroll${!testMode && (viewOnly || inEntry || locked) ? ' hidden-burger' : ''}" onclick="openActiveContextMenu('${encodeRFC5987ValueChars(challenge)}', 'Diary')"><i class="fa-solid fa-sliders-h noscroll"></i></span></div>`);
             listOfTasks.push({ [challenge]: 'Diary', prefix: `[Diary]` });
@@ -11831,6 +11856,10 @@ let loadData = async function(startup) {
             rulesTemp['Unlock Abilities'] = true;
         }
 		
+		if (!rulesTemp.hasOwnProperty('Kili Knowledge')) {
+            rulesTemp['Kili Knowledge'] = true;
+        }
+		
 		 if (!rulesTemp.hasOwnProperty('DnD Flash Events')) {
             rulesTemp['DnD Flash Events'] = rulesTemp.hasOwnProperty('DnD') ? rulesTemp['DnD'] : false;
         }
@@ -11854,6 +11883,22 @@ let loadData = async function(startup) {
 		if (!rulesTemp.hasOwnProperty('Untracked Uniques Misc')) {
             rulesTemp['Untracked Uniques Misc'] = rulesTemp.hasOwnProperty('Untracked Uniques') ? rulesTemp['Untracked Uniques'] : false;
 		}
+		
+		if (!rulesTemp.hasOwnProperty('Misc achievements')) {
+            rulesTemp['Misc achievements'] = rulesTemp.hasOwnProperty('Achievement') ? rulesTemp['Achievement'] : false;
+        }
+		
+		if (!rulesTemp.hasOwnProperty('Comp achievements')) {
+            rulesTemp['Comp achievements'] = rulesTemp.hasOwnProperty('Achievement') ? rulesTemp['Achievement'] : false;
+        }
+		
+		if (!rulesTemp.hasOwnProperty('Trim achievements')) {
+            rulesTemp['Trim achievements'] = rulesTemp.hasOwnProperty('Achievement') ? rulesTemp['Achievement'] : false;
+        }
+		
+		if (!rulesTemp.hasOwnProperty('MQC achievements')) {
+            rulesTemp['MQC achievements'] = rulesTemp.hasOwnProperty('Achievement') ? rulesTemp['Achievement'] : false;
+        }
         
         if (!rulesTemp.hasOwnProperty('Kill X Boss')) {
             rulesTemp['Kill X Boss'] = rulesTemp.hasOwnProperty('Kill X') ? rulesTemp['Kill X'] : false;
