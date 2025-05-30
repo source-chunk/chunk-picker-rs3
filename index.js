@@ -581,7 +581,7 @@ let ruleNames = {
 	"Trim achievements": "Also include Trimmed Completionist Cape achievements<span class='rule-asterisk noscroll'>*</span>",
 	"MQC achievements": "Must complete Master Quest Cape achievements<span class='rule-asterisk noscroll'>*</span>",
 	"Misc achievements": "WIP- Must complete other achievements, excluding level-up achievements.",
-	"Hunter Marks Slayer": "Using Hunter Marks to buy Slayer experience lamps counts as primary training<span class='rule-asterisk noscroll'>*</span>"
+	"Hunter Marks Slayer": "Using Hunter Marks to buy Slayer experience lamps counts as primary training<span class='rule-asterisk noscroll'>*</span>",
 	"Kili Knowledge": "Must complete Kili Knowledge when possible"
 };                                                                              // List of rule definitions
 
