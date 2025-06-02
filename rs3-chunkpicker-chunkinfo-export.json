@@ -95167,7 +95167,7 @@
 			"~|Rogue Trader|~ 2a2": {
 				"BaseQuest": "Rogue Trader",
 				"Description": "Return to Ali Morrisane and solve the caskets",
-				"Chunks": ["136106"],
+				"Chunks": ["13106"],
 				"Tasks": {
 					"~|Rogue Trader|~ 2a1": "Quest"
 				},
@@ -154155,7 +154155,8 @@
 				"Bones": 9
 			},
 			"Quest": {
-				"One Small Favour": "step"
+				"One Small Favour": "step",
+				"A Cultist's Journey": "step"
 			},
 			"Nickname": "West Feldip Hills"
 		},
@@ -161304,7 +161305,8 @@
 				"A Tail of Two Cats": "first",
 				"Troll Romance": "step",
 				"Troll Stronghold": "first",
-				"While Guthix Sleeps": "step"
+				"While Guthix Sleeps": "step",
+				"A Cultist's Journey": "first"
 			},
 			"Nickname": "Burthorpe"
 		},
@@ -166695,7 +166697,8 @@
 				"Tales of Nomad (miniquest)": "step",
 				"Tomes of the Warlock": "step",
 				"Vampyre Slayer": "step",
-				"What Lies Below": "step"
+				"What Lies Below": "step",
+				"Rogue Trader": "step"
 			},
 			"Nickname": "Varrock"
 		},
@@ -167388,7 +167391,8 @@
 				"Crocodile Tears": "first",
 				"Do No Evil": "step",
 				"Icthlarin's Little Helper": "step",
-				"A Tail of Two Cats": "step"
+				"A Tail of Two Cats": "step",
+				"Rogue Trader": "step
 			},
 			"Nickname": "Sophanem"
 		},
@@ -167636,7 +167640,8 @@
 				"Stolen Hearts": "step",
 				"Ode of the Devourer": "step",
 				"Beneath Scabaras' Sands": "step",
-				"Pharaoh's Folly": "step"
+				"Pharaoh's Folly": "step",
+				"Rogue Trader": "step"
 			},
 			"Nickname": "Al Kharid"
 		},
@@ -167701,7 +167706,8 @@
 				"Missing My Mummy": "step",
 				"Restoring Senliten": "step",
 				"Our Man in the North": "step",
-				"Ode of the Devourer": "step"
+				"Ode of the Devourer": "step",
+				"Rogue Trader": "first"
 			},
 			"Nickname": "North Al Kharid"
 		},
@@ -168671,7 +168677,8 @@
 				"Rat Catchers": "step",
 				"Smoking Kills": "first",
 				"Beneath Scabaras' Sands": "step",
-				"Pharaoh's Folly": "step"
+				"Pharaoh's Folly": "step",
+				"Rogue Trader": "step"
 			},
 			"Nickname": "Pollnivneach"
 		},
@@ -168872,7 +168879,8 @@
 				"Empty Children": "step",
 				"Secrets of the Inquisition": "step",
 				"Writings on the Walls": "step",
-				"Mysterious City": "step"
+				"Mysterious City": "step",
+				"A Cultist's Journey": "step"
 			},
 			"Nickname": "Exam centre"
 		},
@@ -184136,7 +184144,8 @@
 				"Twilight of the Gods": "step",
 				"Empty Children": "first",
 				"Night Theatre": "first",
-				"Secrets of the Inquisition": "first"
+				"Secrets of the Inquisition": "first",
+				"A Cultist's Journey": "step"
 			}
 		},
 		"Zamorakian Undercity": {
@@ -252829,6 +252838,7 @@
 		"Cook's Assistant": "12850, 12851, 12595",
 		"Creature of Fenkenstrain": "CreatureOfFenkenstrain1[+], 14135, 14390, 13878, Experiment cave, 13879",
 		"Crocodile Tears": "13099, Uzer Mastaba, 13871, 13354, 12591, Water Ravine Dungeon, 12329, Crondis Tomb, 13356",
+		"A Cultust's Journey": "11575, 13364, 10030, Senntisten",
 		"The Curse of Arrav": "13613, Lamistard's Tunnels, 11324, Uzer Mastaba, 12854, Chaos Temple Dungeon",
 		"Curse of the Black Stone": "13625, The Arc, Temple of Aminishi, Mr Mordaut's Office, 13881, Adamant dragon dungeon, Dragonkin Laboratory, 12337, 12086, 13617, 12087, 13356, Taverley Dungeon, 12087, The Shadow Reef",
 		"The Darkness of Hallowvale": "Burgh de Rott Myreque Hideout, 14129, 14385, 14386, Meiyerditch Myreque base, Paterdomus, 13622, 12854, 14387, 14388, 14132, Meiyerditch Laboratories",
@@ -253005,6 +253015,7 @@
 		"Ritual of the Mahjarrat": "11828, 14638, 14639, 14895, 15151, 11575, Isle of Sann, Senntisten Temple, 11581, 11580, 11324, 11324, Glacor cave",
 		"River of Blood": "12854, Paterdomus, 13622, Hallows Myreque Hideout, 14646, 14647, Nature grotto, Meiyerditch Laboratories, Meiyerditch Mine",
 		"Rocking Out": "14646, 11825, 12078, Braindeath Island, 12082, 14638, 15159, 11057",
+		"Rogue Trader": "13106, 12853, 13358, 13099, 13105",
 		"Roving Elves": "ElunedChunks[+], Glarial's Tomb, Waterfall cave",
 		"Royal Trouble": "10044, 10300, Miscellania and Etceteria dungeon",
 		"Rum Deal": "14647, Braindeath Island",
