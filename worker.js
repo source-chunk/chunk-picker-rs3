@@ -3351,7 +3351,7 @@ let calcChallengesWork = function(chunks, baseChunkData, oldTempItemSkill) {
                     return true;
                 }
             });
-			if (!rules['Cleaning Herbs'] && (name.includes('Clean a') || name.includes('(unf)')) && skill === 'Herblore' && chunkInfo['challenges'][skill][name]['Level'] > 1) {
+			if (!rules['Cleaning Herbs'] && (name.includes('Clean a') || (name.includes('Mix a') && ( name.includes('(unfinished)') || name.includes('(unf)')))) && skill === 'Herblore' && chunkInfo['challenges'][skill][name]['Level'] > 1) {
                 chunkInfo['challenges'][skill][name]['NeverShow'] = true;
             }
             if (wrongThings.length > 0) {
