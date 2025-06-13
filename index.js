@@ -454,6 +454,7 @@ let rules = {
 	"Speed Killer Achievements": false,
     "Combat Master+": false,
 	"Menaphos Events": false,
+	"Hunter Marks Slayer": false,
 	"Material Blueprints": false,
 	"Wandering implings": false,
 	"Comp achievements": false,

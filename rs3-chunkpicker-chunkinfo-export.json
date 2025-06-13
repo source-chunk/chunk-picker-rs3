@@ -375,7 +375,6 @@
 				"NoPet": true
 			},
 			"Barehand catch a ~|ruby harvest|~ in Piscatoris": {
-				"Chunks": ["Piscatoris[+]"],
 				"NPCs": ["Ruby harvest"],
 				"Level": 75,
 				"Skills": {
@@ -387,7 +386,7 @@
 				"NoPet": true
 			},
 			"Barehand catch a ~|ruby harvest|~ on Anachronia": {
-				"Chunks": ["RubyAnachronia[+]"],
+				"NPCs": ["Ruby harvest (Anachronia)"],
 				"Level": 75,
 				"Skills": {
 					"Hunter": 80
@@ -1093,6 +1092,14 @@
 				"Priority": 5,
 				"NoPet": true
 			},
+			"Pedal on an ~|manual auto-cycle|~": {
+				"Chunks": ["Empty Throne Room"],
+				"Level": 65,
+				"Primary": false,
+				"Priority": 6,
+				"Output": "Senntisten scroll",
+				"NoPet": true
+			},
 			"Cross the hard ~|jutting wall (Zanaris)|~": {
 				"Category": ["Shortcut"],
 				"Chunks": ["Zanaris"],
@@ -1488,7 +1495,7 @@
 			},
 			"Eggsperiment with ~|accidental fletching and firemaking|~": {
 				"Category": ["Token"],
-				"Chunks": ["14915-1"],
+				"Chunks": ["14915"],
 				"Level": 1,
 				"Skills": {
 					"Firemaking": 95
@@ -2006,7 +2013,7 @@
 				"Tasks": {
 					"Complete the ~|Archaeology tutorial|~": "Archaeology"
 				},
-				"Items": ["Hookah pipe (damaged)", "Third age iron", "Goldrune", "Orthenglass"],
+				"Items": ["Hookah pipe (damaged)", "Third Age iron", "Goldrune", "Orthenglass"],
 				"Objects": ["Archaeologist's workbench"],
 				"Level": 20,
 				"Output": "Hookah pipe",
@@ -2466,7 +2473,7 @@
 				"Tasks": {
 					"Become an ~|archaeology assistant|~": "Archaeology"
 				},
-				"Chunks": [""],
+				"Chunks": ["Kharid-et - Barracks excavation site"],
 				"Objects": ["Research notes"],
 				"Level": 40,
 				"Primary": false,
@@ -3406,10 +3413,10 @@
 				"Tasks": {
 					"Complete the ~|Archaeology tutorial|~": "Archaeology"
 				},
-				"Items": ["'The Lake of Fire painting' (damaged)", "Samite silk", "White oak", "Vellum", "Cadmium red"],
+				"Items": ["'The Lake of Fire' painting (damaged)", "Samite silk", "White oak", "Vellum", "Cadmium red"],
 				"Objects": ["Archaeologist's workbench"],
 				"Level": 65,
-				"Output": "'The Lake of Fire painting'",
+				"Output": "'The Lake of Fire' painting",
 				"Primary": true,
 				"Priority": 3
 			},
@@ -3456,11 +3463,11 @@
 				"Primary": true,
 				"Priority": 4
 			},
-			"Complete the 'Are You Not Entertained' ~|research|~": {
+			"Complete the 'Are You Not Entertained?' ~|research|~": {
 				"Tasks": {
 					"Become an ~|archaeology assistant|~": "Archaeology"
 				},
-				"Chunks": ["Senntsiten"],
+				"Chunks": ["Senntisten"],
 				"Objects": ["Research notes"],
 				"Level": 66,
 				"Primary": false,
@@ -3659,7 +3666,7 @@
 				"Primary": true,
 				"Priority": 4
 			},
-			"Complete the 'Studio Ga Ga' ~|research|~": {
+			"Complete the 'Stadio Ga Ga' ~|research|~": {
 				"Tasks": {
 					"Become an ~|archaeology assistant|~": "Archaeology"
 				},
@@ -4909,6 +4916,29 @@
 				"Primary": true,
 				"Priority": 3
 			},
+			"Complete the 'Requiescat in Pace' ~|research|~": {
+				"Tasks": {
+					"Become an ~|archaeology assistant|~": "Archaeology"
+				},
+				"Chunks": ["Kharid-et - Barracks excavation site"],
+				"Objects": ["Research notes"],
+				"Level": 86,
+				"Primary": false,
+				"Priority": 4,
+				"NoBoost": true
+			},
+			"Complete the 'Nom-Nom-Nom-Nom' ~|research|~": {
+				"Tasks": {
+					"Become an ~|archaeology assistant|~": "Archaeology",
+					"~|Tomes of the Warlock|~ 5": "Quest"
+				},
+				"Chunks": ["Kharid-et - Barracks excavation site"],
+				"Objects": ["Research notes"],
+				"Level": 86,
+				"Primary": false,
+				"Priority": 5,
+				"NoBoost": true
+			},
 			"Excavate ~|communal space|~": {
 				"Tasks": {
 					"Gain access to the ~|Daemonheim Dig Site|~": "Archaeology"
@@ -5308,7 +5338,7 @@
 				"Tasks": {
 					"Complete the ~|Archaeology tutorial|~": "Archaeology"
 				},
-				"Items": ["Rod of Asclepius (damaged)", "White marlbe", "Star of Saradomin", "Goldrune"],
+				"Items": ["Rod of Asclepius (damaged)", "White marble", "Star of Saradomin", "Goldrune"],
 				"Objects": ["Archaeologist's workbench"],
 				"Level": 92,
 				"Output": "Rod of Asclepius",
@@ -5451,7 +5481,7 @@
 				"Tasks": {
 					"Complete the ~|Archaeology tutorial|~": "Archaeology"
 				},
-				"Items": ["Stormguard gerege", "Wingsuit v3"],
+				"Chunks": ["Howl's Workshop"],
 				"Objects": ["Drafting bench"],
 				"Level": 95,
 				"Primary": false,
@@ -5474,9 +5504,8 @@
 				"Tasks": {
 					"Become an ~|archaeology assistant|~": "Archaeology"
 				},
-				"Chunks": ["Stormguard Citadel"],
+				"Chunks": ["Howl's Workshop"],
 				"Objects": ["Research notes"],
-				"Items": ["Wingsuit v3", "Stormguard gerege"],
 				"Level": 95,
 				"Primary": false,
 				"Priority": 5,
@@ -5486,9 +5515,9 @@
 				"Tasks": {
 					"Complete the ~|Archaeology tutorial|~": "Archaeology"
 				},
-				"Objects": ["Dragonkin relinquary"],
+				"Objects": ["Dragonkin reliquary"],
 				"Level": 96,
-				"Output": "DragonkinRelinquary",
+				"Output": "DragonkinReliquary",
 				"Primary": true,
 				"Priority": 1
 			},
@@ -6482,7 +6511,7 @@
 				"Tasks": {
 					"Become an ~|archaeology assistant|~": "Archaeology"
 				},
-				"Chunks": ["Kharid-Et - Barracks excavation site"],
+				"Chunks": ["Kharid-et - Barracks excavation site"],
 				"Objects": ["Research notes"],
 				"Level": 107,
 				"Primary": false,
@@ -6514,7 +6543,7 @@
 				"Tasks": {
 					"Complete the ~|Archaeology tutorial|~": "Archaeology"
 				},
-				"Items": ["Halak's cube (damaged)", "Comapss rose", "Carbon black", "Orgone"],
+				"Items": ["Halak's cube (damaged)", "Compass rose", "Carbon black", "Orgone"],
 				"Objects": ["Archaeologist's workbench"],
 				"Level": 107,
 				"Output": "Halak's cube",
@@ -6910,7 +6939,7 @@
 				"Tasks": {
 					"Complete the ~|Archaeology tutorial|~": "Archaeology"
 				},
-				"Items": ["Kal-i-kra warhorn (damaged)", "Vulcaninsed rubber", "Fossilised bone", "Animal furs"],
+				"Items": ["Kal-i-kra warhorn (damaged)", "Vulcanised rubber", "Fossilised bone", "Animal furs"],
 				"Objects": ["Archaeologist's workbench"],
 				"Level": 115,
 				"Output": "Kal-i-kra warhorn",
@@ -7216,14 +7245,14 @@
 				"Primary": true,
 				"Priority": 2
 			},
-			"Restore a ~|Horogothar cooking pot|~": {
+			"Restore a ~|Horogothgar cooking pot|~": {
 				"Tasks": {
 					"Complete the ~|Archaeology tutorial|~": "Archaeology"
 				},
-				"Items": ["Horogothar cooking pot (damaged)", "Yu'biusk clay", "Malachite green", "Soapstone"],
+				"Items": ["Horogothgar cooking pot (damaged)", "Yu'biusk clay", "Malachite green", "Soapstone"],
 				"Objects": ["Archaeologist's workbench"],
 				"Level": 119,
-				"Output": "Horogothar cooking pot",
+				"Output": "Horogothgar cooking pot",
 				"Primary": true,
 				"Priority": 3
 			},
@@ -11162,7 +11191,7 @@
 				"Primary": true,
 				"Priority": 19
 			},
-			"Build the tier 1 ~|workshop (fort Forinthry)|~": {
+			"Build the tier 1 ~|Workshop (Fort Forinthry)|~": {
 				"Tasks": {
 					"~|New Foundations|~ Complete the quest": "Quest"
 				},
@@ -11278,14 +11307,6 @@
 				},
 				"Primary": true,
 				"Priority": 4
-			},
-			"Build the tier 1 ~|Grove|~ at Fort Forinthry": {
-				"Chunks": ["13367"],
-				"Items": ["Stone wall segment*", "Wooden frame*"],
-				"Level": 5,
-				"Output Object": "Oak",
-				"Primary": true,
-				"Priority": 5
 			},
 			"Build ~|wooden shelves 1|~": {
 				"Category": ["InsidePOH Primary"],
@@ -11426,7 +11447,7 @@
 				"Primary": false,
 				"Priority": 6
 			},
-			"Build the tier 1 ~|town hall (fort Forinthry)|~": {
+			"Build the tier 1 ~|Town Hall (Fort Forinthry)|~": {
 				"Tasks": {
 					"~|New Foundations|~ Complete the quest": "Quest"
 				},
@@ -11582,7 +11603,7 @@
 				"Primary": true,
 				"Priority": 4
 			},
-			"Build the tier 1 ~|chapel (fort Forinthry)|~": {
+			"Build the tier 1 ~|Chapel (Fort Forinthry)|~": {
 				"Tasks": {
 					"~|New Foundations|~ Complete the quest": "Quest"
 				},
@@ -11772,9 +11793,9 @@
 				"Primary": true,
 				"Priority": 13
 			},
-			"Build the tier 1 ~|kitchen (Fort Forinthry)|~": {
+			"Build the tier 1 ~|Kitchen (Fort Forinthry)|~": {
 				"Tasks": {
-					"~|New Foundations|~ Complete the quest": "Quest"
+					"~|Murder on the Border|~ 1": "Quest"
 				},
 				"Items": ["Willow frame*", "Stone wall segment*"],
 				"Level": 30,
@@ -11874,7 +11895,7 @@
 				"Primary": true,
 				"Priority": 5
 			},
-			"Build the tier 1 ~|command centre|~": {
+			"Build the tier 1 ~|Command Centre|~": {
 				"Tasks": {
 					"~|New Foundations|~ Complete the quest": "Quest"
 				},
@@ -12131,14 +12152,6 @@
 				"Primary": true,
 				"Priority": 10
 			},
-			"Build the tier 2 ~|Grove|~ at Fort Forinthry": {
-				"Chunks": ["13367"],
-				"Items": ["Stone wall segment*", "Teak frame*"],
-				"Level": 30,
-				"Output Object": "Yew",
-				"Primary": true,
-				"Priority": 11
-			},
 			"Build a ~|carved oak table|~": {
 				"Category": ["InsidePOH Primary"],
 				"Chunks": ["Player-owned house"],
@@ -12313,9 +12326,9 @@
 				"Primary": true,
 				"Priority": 6
 			},
-			"Build the tier 2 ~|workshop (Fort Forinthry)|~": {
+			"Build the tier 2 ~|Workshop (Fort Forinthry)|~": {
 				"Tasks": {
-					"Build the tier 1 ~|workshop (Fort Forinthry)|~": "Construction"
+					"Build the tier 1 ~|Workshop (Fort Forinthry)|~": "Construction"
 				},
 				"Items": ["Teak frame*", "Stone wall segment*"],
 				"Level": 35,
@@ -12663,7 +12676,7 @@
 				"Primary": true,
 				"Priority": 19
 			},
-			"Build the tier 1 ~|workshop|~": {
+			"Build the tier 1 ~|Guardhouse|~": {
 				"Tasks": {
 					"~|Unwelcome Guests|~ 1": "Quest"
 				},
@@ -12963,9 +12976,9 @@
 				"Primary": false,
 				"Priority": 8
 			},
-			"Build the tier 2 ~|town hall (Fort Forinthry)|~": {
+			"Build the tier 2 ~|Town Hall (Fort Forinthry)|~": {
 				"Tasks": {
-					"Build the tier 1 ~|town hall (Fort Forinthry)|~": "Construction"
+					"Build the tier 1 ~|Town Hall (Fort Forinthry)|~": "Construction"
 				},
 				"Items": ["Maple frame*", "Stone wall segment*"],
 				"Level": 45,
@@ -13299,16 +13312,16 @@
 				"Primary": true,
 				"Priority": 17
 			},
-			"Build the tier 2 ~|kitchen (Fort Forinthry)|~": {
+			"Build the tier 2 ~|Kitchen (Fort Forinthry)|~": {
 				"Tasks": {
-					"Build the tier 1 ~|kitchen (Fort Forinthry)|~": "Construction"
+					"Build the tier 1 ~|Kitchen (Fort Forinthry)|~": "Construction"
 				},
 				"Items": ["Acadia frame*", "Stone wall segment*"],
 				"Level": 50,
 				"Primary": true,
 				"Priority": 18
 			},
-			"Build the tier 1 ~|grove|~": {
+			"Build the tier 1 ~|Grove Cabin|~": {
 				"Tasks": {
 					"~|Unwelcome Guests|~ Complete the quest": "Quest"
 				},
@@ -13318,9 +13331,9 @@
 				"Primary": true,
 				"Priority": 19
 			},
-			"Build the tier 2 ~|grove|~": {
+			"Build the tier 2 ~|Grove Cabin|~": {
 				"Tasks": {
-					"Build the tier 1 ~|grove|~": "Construction"
+					"Build the tier 1 ~|Grove Cabin|~": "Construction"
 				},
 				"Items": ["Teak frame*", "Stone wall segment*"],
 				"Level": 50,
@@ -13526,9 +13539,9 @@
 				"Primary": false,
 				"Priority": 6
 			},
-			"Build the tier 2 ~|chapel (Fort Forinthry)|~": {
+			"Build the tier 2 ~|Chapel (Fort Forinthry)|~": {
 				"Tasks": {
-					"Build the tier 1 ~|chapel (Fort Forinthry)|~": "Construction"
+					"Build the tier 1 ~|Chapel (Fort Forinthry)|~": "Construction"
 				},
 				"Items": ["Acadia frame*", "Stone wall segment*"],
 				"Level": 55,
@@ -13839,15 +13852,6 @@
 				"Primary": false,
 				"Priority": 12
 			},
-			"Build the tier 3 ~|Grove|~ at Fort Forinthry": {
-				"Chunks": ["13367"],
-				"Items": ["Stone wall segment*", "Mahogany frame*"],
-				"Level": 60,
-				"Output": "Imcando hatchet fragment",
-				"Output Object": "Elder tree",
-				"Primary": true,
-				"Priority": 13
-			},
 			"Make ~|mahhogany planks|~ at the sawmill in Fort Forinthry": {
 				"Items": ["Mahogany logs*"],
 				"Objects": ["Sawmill"],
@@ -13872,13 +13876,14 @@
 				"Primary": true,
 				"Priority": 16
 			},
-			"Build the tier 3 ~|grove|~": {
+			"Build the tier 3 ~|Grove Cabin|~": {
 				"Tasks": {
-					"Build the tier 2 ~|grove|~": "Construction"
+					"Build the tier 2 ~|Grove Cabin|~": "Construction"
 				},
 				"Items": ["Mahogany frame*", "Stone wall segment*"],
 				"Level": 60,
 				"Output Object": "Tier3Grove[+]",
+				"Ouput": "Imcando hatchet fragment",
 				"Primary": true,
 				"Priority": 17
 			},
@@ -14111,9 +14116,9 @@
 				"Primary": true,
 				"Priority": 10
 			},
-			"Build the tier 2 ~|guardhouse|~": {
+			"Build the tier 2 ~|Guardhouse|~": {
 				"Tasks": {
-					"Build the tier 1 ~|guardhouse|~": "Construction"
+					"Build the tier 1 ~|Guardhouse|~": "Construction"
 				},
 				"Items": ["Mahogany frame*", "Stone wall segment*"],
 				"Level": 65,
@@ -14450,9 +14455,9 @@
 				"Primary": false,
 				"Priority": 8
 			},
-			"Build the tier 2 ~|command centre|~": {
+			"Build the tier 2 ~|Command Centre|~": {
 				"Tasks": {
-					"Build the tier 1 ~|command centre|~": "Construction"
+					"Build the tier 1 ~|Command Centre|~": "Construction"
 				},
 				"Items": ["Yew frame*", "Stone wall segment*"],
 				"Level": 70,
@@ -14805,9 +14810,9 @@
 				"Primary": false,
 				"Priority": 13
 			},
-			"Build the tier 3 ~|workshop (Fort Forinthry)|~": {
+			"Build the tier 3 ~|Workshop (Fort Forinthry)|~": {
 				"Tasks": {
-					"Build the tier 2 ~|workshop (Fort Forinthry)|~": "Construction"
+					"Build the tier 2 ~|Workshop (Fort Forinthry)|~": "Construction"
 				},
 				"Items": ["Yew frame*", "Stone wall segment*"],
 				"Level": 75,
@@ -15137,9 +15142,9 @@
 				"Primary": true,
 				"Priority": 12
 			},
-			"Build the tier 3 ~|town hall (Fort Forinthry)|~": {
+			"Build the tier 3 ~|Town Hall (Fort Forinthry)|~": {
 				"Tasks": {
-					"Build the tier 2 ~|town hall (Fort Forinthry)|~": "Construction"
+					"Build the tier 2 ~|Town Hall (Fort Forinthry)|~": "Construction"
 				},
 				"Items": ["Magic frame*", "Stone wall segment*"],
 				"Level": 80,
@@ -15370,9 +15375,9 @@
 				"Primary": false,
 				"Priority": 4
 			},
-			"Build the tier 3 ~|kitchen (Fort Forinthry)|~": {
+			"Build the tier 3 ~|Kitchen (Fort Forinthry)|~": {
 				"Tasks": {
-					"Build the tier 2 ~|kitchen (Fort Forinthry)|~": "Construction"
+					"Build the tier 2 ~|Kitchen (Fort Forinthry)|~": "Construction"
 				},
 				"Items": ["Magic frame*", "Stone wall segment*"],
 				"Level": 85,
@@ -15666,9 +15671,9 @@
 				"Primary": true,
 				"Priority": 14
 			},
-			"Build the tier 3 ~|chapel (Fort Forinthry)|~": {
+			"Build the tier 3 ~|Chapel (Fort Forinthry)|~": {
 				"Tasks": {
-					"Build the tier 2 ~|chapel (Fort Forinthry)|~": "Construction"
+					"Build the tier 2 ~|Chapel (Fort Forinthry)|~": "Construction"
 				},
 				"Items": ["Elder frame*", "Stone wall segment*"],
 				"Level": 90,
@@ -15788,9 +15793,9 @@
 				"Primary": false,
 				"Priority": 4
 			},
-			"Build the tier 3 ~|guardhouse|~": {
+			"Build the tier 3 ~|Guardhouse|~": {
 				"Tasks": {
-					"Build the tier 2 ~|guardhouse|~": "Construction"
+					"Build the tier 2 ~|Guardhouse|~": "Construction"
 				},
 				"Items": ["Elder frame*", "Stone wall segment*"],
 				"Level": 95,
@@ -15865,9 +15870,9 @@
 				"NoBoost": true,
 				"Priority": 4
 			},
-			"Build the tier 3 ~|command centre|~": {
+			"Build the tier 3 ~|Command Centre|~": {
 				"Tasks": {
-					"Build the tier 2 ~|command centre|~": "Construction"
+					"Build the tier 2 ~|Command Centre|~": "Construction"
 				},
 				"Items": ["Elder frame*", "Stone wall segment*"],
 				"Level": 99,
@@ -21351,30 +21356,8 @@
 				"Primary": true,
 				"Priority": 20
 			},
-			"Craft a ~|reinforced slayer helmet|~": {
-				"Items": ["Full slayer helmet*"],
-				"Level": 55,
-				"NPCs": ["SlayerPointMasters[+]"],
-				"Tasks": {
-					"~|Smoking Kills|~ Complete the quest": "Quest"
-				},
-				"Output": "Reinforced slayer helmet",
-				"Primary": true,
-				"Priority": 21
-			},
-			"Craft a ~|strong slayer helmet|~": {
-				"Items": ["Reinforced slayer helmet*"],
-				"Level": 55,
-				"NPCs": ["SlayerPointMasters[+]"],
-				"Tasks": {
-					"~|Smoking Kills|~ Complete the quest": "Quest"
-				},
-				"Output": "Strong slayer helmet",
-				"Primary": true,
-				"Priority": 22
-			},
 			"Craft a ~|mighty slayer helmet|~": {
-				"Items": ["Strong slayer helmet*"],
+				"Items": ["Full slayer helmet*"],
 				"Level": 55,
 				"NPCs": ["SlayerPointMasters[+]"],
 				"Tasks": {
@@ -24147,29 +24130,29 @@
 				"Primary": false,
 				"Priority": 20
 			},
-			"Craft a ~|'ancient gizmo' blueprint|~": {
-				"Items": ["Stormguard gerege", "Torn blueprint fragments (Howl's workshop)"],
+			"Craft a ~|'ancient gizmos' blueprint|~": {
+				"Items": ["Torn blueprint fragment"],
 				"Level": 70,
-				"Output": "Ancient gizmo blueprint",
-				"Chunks": ["Stormguard Citadel"],
+				"Output": "'Ancient gizmos' blueprint",
+				"Chunks": ["Howl's Workshop"],
 				"Primary": true,
 				"Priority": 100,
 				"Not F2P": true
 			},
 			"Craft a ~|'ancient tools' blueprint|~": {
-				"Items": ["Stormguard gerege", "Torn blueprint fragments (Howl's workshop)"],
+				"Items": ["Torn blueprint fragment"],
 				"Level": 70,
-				"Output": "Ancient tools blueprint",
-				"Chunks": ["Stormguard Citadel"],
+				"Output": "'Ancient tools' blueprint",
+				"Chunks": ["Howl's Workshop"],
 				"Primary": true,
 				"Priority": 101,
 				"Not F2P": true
 			},
 			"Craft a ~|'XP Capacitor' blueprint|~": {
-				"Items": ["Stormguard gerege", "Torn blueprint fragments (Howl's workshop)"],
+				"Items": ["Torn blueprint fragment"],
 				"Level": 70,
-				"Output": "XP Capacitor blueprint",
-				"Chunks": ["Stormguard Citadel"],
+				"Output": "'XP Capacitor' blueprint",
+				"Chunks": ["Howl's Workshop"],
 				"Primary": true,
 				"Priority": 102,
 				"Not F2P": true
@@ -29217,6 +29200,14 @@
 				"Primary": true,
 				"Priority": 20
 			},
+			"Transmute ~|Senntisten crystals|~": {
+				"Chunks": ["Empty Throne Room"],
+				"Level": 65,
+				"Primary": false,
+				"Priority": 3,
+				"Output": "Senntisten scroll",
+				"NoPet": true
+			},
 			"Buy the ~|Max cape|~": {
 				"Tasks": {
 					"Complete the ~|Archaeology tutorial|~": "Archaeology"
@@ -30540,7 +30531,7 @@
 			},
 			"Seggragate dinosaur eggs with ~|accidental fletching and firemaking": {
 				"Category": ["Token"],
-				"Chunks": ["14915-1"],
+				"Chunks": ["14915"],
 				"Level": 1,
 				"Skills": {
 					"Firemaking": 87
@@ -30962,7 +30953,7 @@
 			},
 			"Harvest seaweed for the ~|Giant Oyster|~": {
 				"Category": ["DnD Skilling"],
-				"Chunks": ["Sunken tutorial island"],
+				"Chunks": ["Sunken Tutorial Island"],
 				"Level": 1,
 				"Primary": true,
 				"Priority": 27
@@ -36951,7 +36942,7 @@
 				"Priority": 3
 			},
 			"Carestyle a zygomite with ~|accidental fletching and firemaking|~": {
-				"Chunks": ["14915-1"],
+				"Chunks": ["14915"],
 				"Level": 82,
 				"Skills": {
 					"Fletching": 82
@@ -36961,7 +36952,7 @@
 				"Priority": 3
 			},
 			"Seggragate dinosaur eggs with ~|accidental fletching and firemaking": {
-				"Chunks": ["14915-1"],
+				"Chunks": ["14915"],
 				"Level": 87,
 				"Skills": {
 					"Farming": 1
@@ -36971,7 +36962,7 @@
 				"Priority": 2
 			},
 			"Eggsperiment with ~|accidental fletching and firemaking|~": {
-				"Chunks": ["14915-1"],
+				"Chunks": ["14915"],
 				"Level": 95,
 				"Skills": {
 					"Agility": 1
@@ -37290,7 +37281,7 @@
 			},
 			"Fish for sea cucumber for the ~|Giant Oyster|~": {
 				"Category": ["DnD Skilling"],
-				"Chunks": ["Sunken tutorial island"],
+				"Chunks": ["Sunken Tutorial Island"],
 				"Level": 1,
 				"Primary": true,
 				"Priority": 22
@@ -38919,6 +38910,13 @@
 				"Primary": true,
 				"Priority": 6
 			},
+			"Create an ~|enhanced grappling hook|~": {
+				"Items": ["Mithril crossbow*", "Mithril grapple*", "Mithril bar"],
+				"Level": 54,
+				"Output": "Enhanced grappling hook",
+				"Primary": true,
+				"Priority": 7
+			},
 			"Fletch a ~|maple shieldbow (u)|~": {
 				"Items": ["Maple logs*"],
 				"Level": 55,
@@ -40120,7 +40118,7 @@
 				"Priority": 3
 			},
 			"Carestyle a zygomite with ~|accidental fletching and firemaking|~": {
-				"Chunks": ["14915-1"],
+				"Chunks": ["14915"],
 				"Level": 82,
 				"Skills": {
 					"Firemaking": 82
@@ -40137,7 +40135,7 @@
 				"Primary": true,
 				"Priority": 2
 			},
-			"Fletch ~|Headless dinarrow|~": {
+			"Fletch ~|headless dinarrow|~": {
 				"Items": ["Tempered fungal shaft*", "Dinosaur 'propellant'*"],
 				"Level": 95,
 				"Output": "Headless dinarrow",
@@ -40145,7 +40143,7 @@
 				"Priority": 16
 			},
 			"Tip ~|dinarrow|~": {
-				"Items": ["Headless dinarrow*", "Sharp shell shard*"],
+				"Items": ["Headless dinarrow*", "Sharp shell shards*"],
 				"Level": 95,
 				"Output": "Dinarrow",
 				"Primary": true,
@@ -41025,10 +41023,12 @@
 				"Priority": 1
 			},
 			"Mix ~|serum 207|~": {
-				"Chunks": ["13875"],
 				"Items": ["Tarromin potion (unfinished)*", "Ashes*"],
 				"Level": 15,
 				"Output": "Serum 207 (3)",
+				"Tasks": {
+					"~|Shades of Mort'ton|~ 1": "Quest"
+				},
 				"Primary": true,
 				"Priority": 2
 			},
@@ -41037,7 +41037,18 @@
 				"Items": ["Grimy tarromin*", "Vial of water", "Ashes*"],
 				"Level": 15,
 				"Output": "Serum 207 (3)",
+				"Tasks": {
+					"~|Shades of Mort'ton|~ 1": "Quest"
+				},
 				"Primary": true,
+				"Priority": 3
+			},
+			"Sanctify ~|serum 208|~": {
+				"Chunks": ["13875"],
+				"Items": ["Serum 207 (3)*"],
+				"Level": 15,
+				"Output": "Serum 208 (3)",
+				"Primary": false,
 				"Priority": 3
 			},
 			"Mix a ~|Guthix rest|~": {
@@ -43667,7 +43678,7 @@
 				"Priority": 3
 			},
 			"Catch a ~|ruby harvest|~ with a net in Piscatoris": {
-				"Chunks": ["Piscatoris[+]"],
+				"NPCs": ["Ruby harvest"],
 				"Items": ["Butterfly jar", "ButterflyNet[+]"],
 				"NPCs": ["Ruby harvest"],
 				"Level": 15,
@@ -43676,7 +43687,7 @@
 				"Priority": 1
 			},
 			"Catch a ~|ruby harvest|~ with a net on Anachronia": {
-				"Chunks": ["RubyAnachronia[+]"],
+				"NPCs": ["Ruby harvest (Anachronia)"],
 				"Items": ["Butterfly jar", "ButterflyNet[+]"],
 				"Level": 15,
 				"Output": "RubyHarvestAnachronia",
@@ -44335,7 +44346,7 @@
 			},
 			"Catch a ~|carnivorous chinchompa|~": {
 				"Items": ["Box trap"],
-				"Monsters": ["Carnivorous Chinchompa"],
+				"Monsters": ["Carnivorous chinchompa"],
 				"Level": 63,
 				"Output": "RedChinchompa",
 				"Primary": true,
@@ -44801,7 +44812,6 @@
 				"Priority": 2
 			},
 			"Barehand catch a ~|ruby harvest|~ in Piscatoris": {
-				"Chunks": ["Piscatoris[+]"],
 				"NPCs": ["Ruby harvest"],
 				"Level": 80,
 				"Skills": {
@@ -44812,7 +44822,7 @@
 				"Priority": 3
 			},
 			"Barehand catch a ~|ruby harvest|~ on Anachronia": {
-				"Chunks": ["RubyAnachronia[+]"],
+				"NPCs": ["Ruby harvest (Anachronia)"],
 				"Level": 80,
 				"Skills": {
 					"Agility": 75
@@ -46489,7 +46499,7 @@
 				"Priority": 2
 			},
 			"Create an ~|ancient weapon gizmo shell|~": {
-				"Items": ["Ancient gizmo blueprint", "Blade parts*", "Historic components*", "Classic components*", "Strong components*"],
+				"Items": ["'Ancient gizmos' blueprint", "Blade parts*", "Historic components*", "Classic components*", "Strong components*"],
 				"Objects": ["Inventor's workbench"],
 				"Level": 85,
 				"Primary": true,
@@ -46497,7 +46507,7 @@
 				"Priority": 3
 			},
 			"Create an ~|ancient armour gizmo shell|~": {
-				"Items": ["Ancient gizmo blueprint", "Deflecting parts*", "Historic components*", "Classic components*", "Protective components*"],
+				"Items": ["'Ancient gizmos' blueprint", "Deflecting parts*", "Historic components*", "Classic components*", "Protective components*"],
 				"Objects": ["Inventor's workbench"],
 				"Level": 85,
 				"Primary": true,
@@ -46505,7 +46515,7 @@
 				"Priority": 4
 			},
 			"Create an ~|ancient tool gizmo shell|~": {
-				"Items": ["Ancient gizmo blueprint", "Head parts*", "Historic components*", "Classic components*", "Precise components*"],
+				"Items": ["'Ancient gizmos' blueprint", "Head parts*", "Historic components*", "Classic components*", "Precise components*"],
 				"Objects": ["Inventor's workbench"],
 				"Level": 85,
 				"Primary": true,
@@ -46680,7 +46690,7 @@
 				"Priority": 1
 			},
 			"Create an ~|enhanced pyro-matic|~": {
-				"Items": ["Ancient tools blueprint", "Pyro-matic*", "Historic components*", "Classic components*"],
+				"Items": ["'Ancient tools' blueprint", "Pyro-matic*", "Historic components*", "Classic components*"],
 				"Objects": ["Inventor's workbench"],
 				"Level": 93,
 				"Primary": true,
@@ -46688,7 +46698,7 @@
 				"Priority": 2
 			},
 			"Create an ~|enhanced fishing rod-o-matic|~": {
-				"Items": ["Ancient tools blueprint", "Fishing rod-o-matic*", "Historic components*", "Classic components*"],
+				"Items": ["'Ancient tools' blueprint", "Fishing rod-o-matic*", "Historic components*", "Classic components*"],
 				"Objects": ["Inventor's workbench"],
 				"Level": 93,
 				"Primary": true,
@@ -46696,7 +46706,7 @@
 				"Priority": 3
 			},
 			"Create an ~|enhanced hammer-tron|~": {
-				"Items": ["Ancient tools blueprint", "Hammer-tron*", "Historic components*", "Classic components*"],
+				"Items": ["'Ancient tools' blueprint", "Hammer-tron*", "Historic components*", "Classic components*"],
 				"Objects": ["Inventor's workbench"],
 				"Level": 93,
 				"Primary": true,
@@ -46880,7 +46890,7 @@
 				"Priority": 1
 			},
 			"Create a ~|XP Capacitor 5000|~": {
-				"Items": ["XP Capacitor blueprint", "Refined components*", "Historic components*", "Classic components*", "Clear parts*"],
+				"Items": ["'XP Capacitor' blueprint", "Refined components*", "Historic components*", "Classic components*", "Clear parts*"],
 				"Objects": ["Inventor's workbench"],
 				"Level": 106,
 				"Primary": true,
@@ -53449,8 +53459,7 @@
 				"Items": ["RitualLightSource[+]", "Powerful ghostly ink*", "Regular ghostly ink*", "Greater ghostly ink*", "Pure essence"],
 				"Level": 95,
 				"Tasks": {
-					"~|Rune Mythos|~ Complete the quest": "Quest",
-					"Perform a ~|powerful necroplasm ritual|~": "Quest"
+					"~|Rune Mythos|~ Complete the quest": "Quest"
 				},
 				"Primary": true,
 				"Output": "EssenceRitual",
@@ -60241,6 +60250,14 @@
 				"Level": 1,
 				"Primary": true,
 				"Priority": 30
+			},
+			"Buy and use a slayer lamp using ~|Hunter Marks|~": {
+				"Category": ["Hunter Marks Slayer"],
+				"Chunks": ["15683"],
+				"Items": ["Hunter Mark"],
+				"Level": 1,
+				"Primary": true,
+				"Priority": 31
 			},
 			"Obtain a ~|creeping hand|~": {
 				"Items": ["Crawling hand (item)"],
@@ -69358,7 +69375,7 @@
 			},	
 			"Cut ~|overgrown idol|~": {
 				"Level": 81,
-				"Objects": ["Overgrown idol"],
+				"Objects": ["Overgrown idol (Anachronia)"],
 				"Output": "Totem of Navigation base",
 				"Primary": true,
 				"Priority": 1
@@ -71053,6 +71070,7 @@
 					"~|Azzanadra's Quest|~ 16": "Quest"
 				},
 				"QuestPoints": 3,
+				"Reward": ["Blank observation"],
 				"XpReward": {
 					"Archaeology": 15000,
 					"Divination": 20000,
@@ -71608,7 +71626,7 @@
 				"Chunks": ["13111"],
 				"Tasks": {
 					"~|Ancient Awakening|~ Complete the quest": "Quest",
-					"Build the tier 1 ~|grove|~": "Construction",
+					"Build the tier 1 ~|Grove Cabin|~": "Construction",
 					"Build the tier 1 ~|Botanist's Workbench|~": "Construction"
 				},
 				"Skills": {
@@ -71705,7 +71723,7 @@
 			"~|Beneath Cursed Tides|~ 4": {
 				"BaseQuest": "Beneath Cursed Tides",
 				"Description": "Travel to Sunken Tutorial Island and defeat Hector Vivian",
-				"Chunks": ["Sunken tutorial island"],
+				"Chunks": ["Sunken Tutorial Island"],
 				"Tasks": {
 					"~|Beneath Cursed Tides|~ 3": "Quest"
 				}
@@ -72809,7 +72827,7 @@
 				},
 				"Not F2P": true
 			},
-			"~|Boric's Task III (miniquest)|~ Complete the quest": {
+			"~|Boric's Task III (miniquest)|~ Complete the miniquest": {
 				"BaseQuest": "Boric's Task III (miniquest)",
 				"Chunks": ["Doric's cave"],
 				"Tasks": {
@@ -83071,6 +83089,7 @@
 				"Tasks": {
 					"~|God Emissaries Combat|~ 6": "Quest"
 				},
+				"QuestPoints": 0,
 				"Reward": ["God banner (combat)"],
 				"Not F2P": true,
 				"NoBoost": true
@@ -83128,6 +83147,7 @@
 				"Tasks": {
 					"~|God Emissaries Skilling|~ 5": "Quest"
 				},
+				"QuestPoints": 0,
 				"Reward": ["God banner (skill)"],
 				"Not F2P": true,
 				"NoBoost": true
@@ -83162,7 +83182,7 @@
 			"~|God Emissaries Exploration|~ 4": {
 				"BaseQuest": "God Emissaries Exploration",
 				"Description": "Use your god banner on 4 prayer altars.",
-				"Objects": ["Altar[+]x4"],
+				"Chunks": ["PrayerAltarChunks[+]x4"],
 				"Tasks": {
 					"~|God Emissaries Exploration|~ 3": "Quest"
 				},				
@@ -83176,6 +83196,7 @@
 				"Tasks": {
 					"~|God Emissaries Exploration|~ 4": "Quest"
 				},
+				"QuestPoints": 0,
 				"Reward": ["God banner (exploration)"],
 				"Not F2P": true,
 				"NoBoost": true
@@ -84403,6 +84424,7 @@
 				"Tasks": {
 					"~|Heroes' Quest|~ 2b1": "Quest"
 				},
+				"Reward": ["Oily fishing rod"],
 				"Not F2P": true
 			},
 			"~|Heroes' Quest|~ 2b3": {
@@ -85437,7 +85459,7 @@
 				"BaseQuest": "In Memory of the Myreque (miniquest)",
 				"Description": "Build and decorate the statue in memory of Vertida Sefalatis",
 				"Chunks": ["13879"],
-				"Items": ["Granite (5kg)", "Blisterwood sickle", "Blisterwood stake-thrower crossbow"],
+				"Items": ["Granite (5kg)", "Blisterwood logs", "Silver bar", "Mithril bar", "Crossbow string", "Sickle mould"],
 				"Tasks": {
 					"~|In Memory of the Myreque (miniquest)|~ 1": "Quest"
 				},
@@ -88674,22 +88696,22 @@
 				},
 				"Not F2P": true
 			},
-			"~|Missing My Mummy|~ 5f4b1": {
+			"~|Missing My Mummy|~ 5f3b1": {
 				"BaseQuest": "Missing My Mummy",
 				"Description": "Speak to Ali Morrisane with a ring of charos (a)",
 				"Chunks": ["13106"],
 				"Items": ["Ring of charos (a)"],
 				"Tasks": {
-					"~|Missing My Mummy|~ 5f3": "Quest"
+					"~|Missing My Mummy|~ 5f3a": "Quest"
 				},
 				"Not F2P": true
 			},
-			"~|Missing My Mummy|~ 5f4b2": {
+			"~|Missing My Mummy|~ 5f3b2": {
 				"BaseQuest": "Missing My Mummy",
 				"Description": "Give the Pharaoh Queen her true name",
 				"Chunks": ["Uzer Mastaba"],
 				"Tasks": {
-					"~|Missing My Mummy|~ 5f4b1": "Quest"
+					"~|Missing My Mummy|~ 5f3b1": "Quest"
 				},
 				"Not F2P": true
 			},
@@ -88757,7 +88779,7 @@
 					"~|Missing My Mummy|~ 5e3": "Quest",
 					"~|Missing My Mummy|~ 5e4": "Quest",
 					"~|Missing My Mummy|~ 5f3a": "Quest",
-					"~|Missing My Mummy|~ 5f4b2": "Quest",
+					"~|Missing My Mummy|~ 5f3b2": "Quest",
 					"~|Missing My Mummy|~ 5g3": "Quest"
 				},
 				"Skills": {
@@ -88773,7 +88795,7 @@
 				"BaseQuest": "Restoring Senliten",
 				"Description": "Bring Leela to Senliten's tomb",
 				"Tasks": {
-					"Fully restore Senliten after ~|Missing My Mummy|~ 1": "Quest"
+					"~|Restoring Senliten|~ 1": "Quest"
 				},
 				"Chunks": ["12338"],
 				"QuestPoints": 0,
@@ -88783,7 +88805,7 @@
 				"BaseQuest": "Restoring Senliten",
 				"Chunks": ["12338"],
 				"Tasks": {
-					"~|Missing My Mummy|~ 6": "Quest"
+					"~|Restoring Senliten|~ 2": "Quest"
 				},
 				"QuestPoints": 0,
 				"Not F2P": true
@@ -89616,10 +89638,10 @@
 				"Chunks": ["13111"],
 				"Tasks": {
 					"~|New Foundations|~ Complete the quest": "Quest",
-					"Build the tier 1 ~|town hall (fort Forinthry)|~": "Construction",
-					"Build the tier 1 ~|workshop (fort Forinthry)|~": "Construction",
-					"Build the tier 1 ~|chapel (fort Forinthry)|~": "Construction",
-					"Build the tier 1 ~|command centre|~" : "Construction"
+					"Build the tier 1 ~|Town Hall (Fort Forinthry)|~": "Construction",
+					"Build the tier 1 ~|Workshop (Fort Forinthry)|~": "Construction",
+					"Build the tier 1 ~|Chapel (Fort Forinthry)|~": "Construction",
+					"Build the tier 1 ~|Command Centre|~" : "Construction"
 				},
 				"Not F2P": true,
 				"NoBoost": true
@@ -94498,15 +94520,7 @@
 				"Description": "Speak to Sir Tiffy Cashien in Falador Park",
 				"Chunks": ["11828"],
 				"Tasks": {
-					"~|The Temple at Senntisten|~ Complete the quest": "Quest",
-					"~|While Guthix Sleeps|~ Complete the quest": "Quest",
-					"~|Hazeel Cult|~ Complete the quest": "Quest",
-					"~|Enakhra's Lament|~ Complete the quest": "Quest",
-					"~|The Slug Menace|~ Complete the quest": "Quest",
-					"~|A Fairy Tale II - Cure a Queen|~ Complete the quest": "Quest",
-					"~|Cabin Fever|~ Complete the quest": "Quest",
-					"~|A Tail of Two Cats|~ Complete the quest": "Quest",
-					"~|Fight Arena|~ Complete the quest": "Quest"
+					"~|Ritual of the Mahjarrat|~ requirements*": "Nonskill"
 				},
 				"Skills": {
 					"Agility": 77,
@@ -102934,11 +102948,10 @@
 				"BaseQuest": "Howl's Floating Workshop",
 				"Description": "Upgrade your Wingsuit v2 to Wingsuit v3",
 				"Chunks": ["Stormguard Citadel"],
-				"Items": ["Wingsuit v2"],
 				"Tasks": {
-					"Complete the ~|Archaeology tutorial|~": "Archaeology"
+					"Complete the ~|Archaeology tutorial|~": "Archaeology",
+					"Archaeology Mystery: ~|Wing Out|~ 2": "Quest"
 				},
-				"Reward": ["Wingsuit v3"],
 				"Not F2P": true
 			},
 			"Archaeology Mystery: ~|Howl's Floating Workshop|~ 2": {
@@ -103368,8 +103381,8 @@
 				},
 				"Not F2P": true
 			},
-			"Archaeology Mystery: ~|The Vault of Shadows|~ 1": {
-				"BaseQuest": "The Vault of Shadows",
+			"Archaeology Mystery: ~|The Vault of Shadows (mystery)|~ 1": {
+				"BaseQuest": "The Vault of Shadows (mystery)",
 				"Description": "Complete the 'The Vault of Shadows' quest",
 				"Tasks": {
 					"Archaeology Mystery: ~|Time Served|~ Complete the mystery": "Quest",
@@ -103377,21 +103390,21 @@
 				},
 				"Not F2P": true
 			},
-			"Archaeology Mystery: ~|The Vault of Shadows|~ 2": {
-				"BaseQuest": "The Vault of Shadows",
+			"Archaeology Mystery: ~|The Vault of Shadows (mystery)|~ 2": {
+				"BaseQuest": "The Vault of Shadows (mystery)",
 				"Description": "Excavate, restore and hand in the spell scrolls to Dr Nabanik",
 				"Chunks": ["13361"],
 				"Items": ["'Incite Fear' spell scroll", "'Exsanguinate' spell scroll", "'Smoke Cloud' spell scroll", "'Animate Dead' spell scroll"],
 				"Tasks": {
-					"Archaeology Mystery: ~|The Vault of Shadows|~ 1": "Quest"
+					"Archaeology Mystery: ~|The Vault of Shadows (mystery)|~ 1": "Quest"
 				},
 				"Not F2P": true
 			},
-			"Archaeology Mystery: ~|The Vault of Shadows|~ Complete the mystery": {
-				"BaseQuest": "The Vault of Shadows",
+			"Archaeology Mystery: ~|The Vault of Shadows (mystery)|~ Complete the mystery": {
+				"BaseQuest": "The Vault of Shadows (mystery)",
 				"Chunks": ["13361"],
 				"Tasks": {
-					"Archaeology Mystery: ~|The Vault of Shadows|~ 2": "Quest"
+					"Archaeology Mystery: ~|The Vault of Shadows (mystery)|~ 2": "Quest"
 				},
 				"QuestPoints": 0,
 				"XpReward": {
@@ -103518,8 +103531,7 @@
 				"Description": "Study the entrance of the Xolo City",
 				"Chunks": ["16704"],
 				"Tasks": {
-					"Complete the ~|Archaeology tutorial|~": "Archaeology",
-					"Archaeology Mystery: ~|Fragmented Memories|~ Complete the mystery": "Quest"
+					"Complete the ~|Archaeology tutorial|~": "Archaeology"
 				},
 				"Not F2P": true
 			},
@@ -103529,7 +103541,8 @@
 				"Chunks": ["16704"],
 				"Items": ["Lingam stone"],
 				"Tasks": {
-					"Archaeology Mystery: ~|Mysterious City|~ 1": "Quest"
+					"Archaeology Mystery: ~|Mysterious City|~ 1": "Quest",
+					"Gain entry to ~|Xolo City|~*": "Nonskill"
 				},
 				"Not F2P": true
 			},
@@ -105560,6 +105573,7 @@
 			"~|Desert Achievements#Elite|~ A, B, Cithara": {
 				"Description": "Play the Holy Cithara while standing in the Citharede Abbey.",
 				"Chunks": ["13617"],
+				"Items": ["Holy Cithara"],
 				"Tasks": {
 					"~|Desert Achievements#Hard|~ Complete the Hard Achievements": "Diary",
 					"~|Desert Treasure|~ Complete the quest": "Quest",
@@ -116607,7 +116621,6 @@
 				"Tasks": {
 					"~|Curse of the Black Stone|~ 5": "Quest"
 				},
-				"Reward": ["Superior scrimshaw of vampyrism"],
 				"Not F2P": true
 			},
 			"~|Completionist achievements#Master Quest Cape|~ A New Direction": {
@@ -116776,7 +116789,35 @@
 				"Category": ["MQC achievements"],
 				"Description": "Restored a collection of Armadylean artefacts.",
 				"BaseQuest": "Completionist achievements",
-				"Items": ["Ikovian gerege", "Toy glider", "Toy war golem", "Avian song-egg player", "Keshik drum", "Morin khuur", "Aviansie dreamcoat", "Ceremonial plume", "Peacocking parasol", "Hawkeye lens multi-vision scope", "Talon-3 razor wing", "Prototype gravimeter", "Songbird recorder", "Dayguard shield", "Stormguard gerege", "Golem heart", "Golem instruction", "Blackfire lance", "Nightguard shield", "Flat cap", "Night owl flight goggles", "Prototype godbow", "Prototype godstaff", "Prototype godsword", "Chuluu stone", "Quintessence counter", "Spherical astrolabe"],
+				"Items": [
+					"Ikovian gerege",
+					"Toy glider",
+					"Toy war golem",
+					"Avian song-egg player",
+					"Keshik drum",
+					"Morin khuur",
+					"Aviansie dreamcoat",
+					"Ceremonial plume",
+					"Peacocking parasol",
+					"Hawkeye lens multi-vision scope",
+					"Talon-3 razor wing",
+					"Prototype gravimeter",
+					"Songbird recorder",
+					"Dayguard shield",
+					"Stormguard gerege",
+					"Golem heart",
+					"Golem instruction",
+					"Blackfire lance", 
+					"Nightguard shield", 
+					"Flat cap", 
+					"Night owl flight goggles", 
+					"Prototype godbow", 
+					"Prototype godstaff", 
+					"Prototype godsword", 
+					"Chuluu stone", 
+					"Quintessence counter", 
+					"Spherical astrolabe"
+				],
 				"Not F2P": true
 			},
 			"~|Completionist achievements#Master Quest Cape|~ Around the World in Six Ways": {
@@ -116875,7 +116916,7 @@
 					"'Forged in War' sculpture",
 					"Huzamogaarb chaos crown",
 					"Saragorgak star crown",
-					"Grogokishuun hook sword",
+					"Drogokishuun hook sword",
 					"Hobgoblin mansticker",
 					"Kal-i-kra chieftan crown",
 					"Kal-i-kra mace",
@@ -117531,7 +117572,7 @@
 			},
 			"~|Completionist achievements#Master Quest Cape|~ Don't Fear the Ripper": {
 				"Category": ["MQC achievements"],
-				"Description": "Find and read all five miner's journals and the diary of Jebediah Omnis.",
+				"Description": "Find and read all five miner's journals and the Diary of Jebediah Omnis.",
 				"BaseQuest": "Completionist achievements",
 				"Items": ["Miner's journal 1", "Miner's journal 2", "Miner's journal 3", "Miner's journal 4", "Miner's journal 5", "The Diary of Jebediah Omnis"],
 				"Skills": {
@@ -117566,7 +117607,7 @@
 					"Kilaya",
 					"Vazara",
 					"Death mask",
-					"Dragonkin caldendar",
+					"Dragonkin calendar",
 					"Dragonkin staff",
 					"Dragon scalpel",
 					"Protective goggles",
@@ -117697,7 +117738,7 @@
 				"BaseQuest": "Completionist achievements",
 				"Chunks": ["Senntisten Temple", "13613"],
 				"Tasks": {
-					"~|The Temple at Senntisen|~ Complete the quest": "Quest",
+					"~|The Temple at Senntisten|~ Complete the quest": "Quest",
 					"~|The World Wakes|~ Complete the quest": "Quest",
 					"~|Fate of the Gods|~ Complete the quest": "Quest",
 					"~|Ritual of the Mahjarrat|~ Complete the quest": "Quest"
@@ -118111,7 +118152,7 @@
 					"~|Hopespear's Will (miniquest)|~ Complete the miniquest": "Quest",
 					"~|The Hunt for Surok (miniquest)|~ Complete the miniquest": "Quest",
 					"~|In Memory of the Myreque (miniquest)|~ Complete the miniquest": "Quest",
-					"~|Koshei's Troubles (miniquest)|~ Complete the miniquest": "Quest",
+					"~|Koschei's Troubles (miniquest)|~ Complete the miniquest": "Quest",
 					"~|Lair of Tarn Razorlor (miniquest)|~ Complete the miniquest": "Quest",
 					"~|The Lost Toys (miniquest)|~ Complete the miniquest": "Quest",
 					"~|Mahjarrat Memories (miniquest)|~ Complete the miniquest": "Quest",
@@ -118217,7 +118258,7 @@
 				"Category": ["MQC achievements"],
 				"Description": "Complete Kaigi's journal.",
 				"BaseQuest": "Completionist achievements",
-				"Items": ["Kaigi's journal page"],
+				"Items": ["Kaigi's journal pages"],
 				"Skills": {
 					"Slayer": 92
 				},
@@ -118238,7 +118279,7 @@
 				"Category": ["MQC achievements"],
 				"Description": "Claim and use 8 experience lamps from Philipe Carnillean.",
 				"BaseQuest": "Completionist achievements",
-				"Chunks": ["10036", "11065", "11310", "14646", "Poypore Dungeon", "Dorgesh-Kaan", "9273", "TzHaar City"],
+				"Chunks": ["10036", "11065", "11310", "14646", "Polypore Dungeon", "Dorgesh-Kaan", "9273", "TzHaar City"],
 				"Skills": {
 					"Combat": 120
 				},
@@ -118307,7 +118348,7 @@
 					"~|Ode of the Devourer|~ Complete the quest": "Quest",
 					"~|Pharaoh's Folly|~ Complete the quest": "Quest",
 					"~|Succession|~ Complete the quest": "Quest",
-					"~|Vampyre Slaye|~ Complete the quest": "Quest"
+					"~|Vampyre Slayer|~ Complete the quest": "Quest"
 				},
 				"Not F2P": true
 			},
@@ -118351,7 +118392,7 @@
 				"Category": ["MQC achievements"],
 				"Description": "Find and read the Ugthanatos journal.",
 				"BaseQuest": "Completionist achievements",
-				"Items": ["Ugthanatos journal"],
+				"Items": ["The Ugthanatos"],
 				"Skills": {
 					"Slayer": 96
 				},
@@ -118413,7 +118454,7 @@
 				},
 				"Tasks": {
 					"~|Cabin Fever|~ Complete the quest": "Quest",
-					"~|Fur 'n' Seek#Wish List|~ Complete the lore activity": "Quest"
+					"~|Fur 'n Seek#Wish List|~ Complete the lore activity": "Quest"
 				},
 				"Not F2P": true
 			},
@@ -118432,7 +118473,7 @@
 				"Description": "Find and read 'Archaeology Journal - H.F.A', found in the Zamorakian Undercity.",
 				"BaseQuest": "Completionist achievements",
 				"Chunks": ["Zamorakian Undercity"],
-				"Items": ["Archaeology Journal - H.F.A."],
+				"Items": ["Archaeology Journal - H.F.A"],
 				"Not F2P": true
 			},
 			"~|Completionist achievements#Master Quest Cape|~ Mage Arena ": {
@@ -118463,7 +118504,7 @@
 				"Description": "Permanently cure Razmire and Ulsquire after 'Shades of Mort'ton'.",
 				"BaseQuest": "Completionist achievements",
 				"Chunks": ["13875"],
-				"Items": ["Serum 208"],
+				"Items": ["Serum 208 (3)"],
 				"Tasks": {
 					"~|Shades of Mort'ton|~ Complete the quest": "Quest"
 				},
@@ -118473,7 +118514,7 @@
 				"Category": ["MQC achievements"],
 				"Description": "Find all Marmaros and Thok letters from Daemonheim.",
 				"BaseQuest": "Completionist achievements",
-				"Chunks": ["13626", "882"],
+				"Chunks": ["13626", "13882"],
 				"Skills": {
 					"Dungeoneering": 107
 				},
@@ -118691,10 +118732,10 @@
 					"Archaeology Mystery: ~|Prison Break|~ Complete the mystery": "Quest",
 					"Archaeology Mystery: ~|Time Served|~ Complete the mystery": "Quest",
 					"Archaeology Mystery: ~|The Cult of Orcus|~ Complete the mystery": "Quest",
-					"Archaeology Mystery: ~|The Vault of Shadows|~ Complete the mystery": "Quest",
+					"Archaeology Mystery: ~|The Vault of Shadows (mystery)|~ Complete the mystery": "Quest",
 					"Archaeology Mystery: ~|The Forgotten Prisoner|~ Complete the mystery": "Quest",
 					"Archaeology Mystery: ~|Shadow Fall|~ Complete the mystery": "Quest",
-					"Archaeology Mystery: ~|Decimated|~ Complete the mystery": "Quest"
+					"Archaeology Mystery: ~|Decimation|~ Complete the mystery": "Quest"
 				},
 				"Not F2P": true
 			},
@@ -118934,7 +118975,7 @@
 				"Category": ["MQC achievements"],
 				"Description": "Feed the giant oyster on Tutorial Island.",
 				"BaseQuest": "Completionist achievements",
-				"Chunks": ["Sunken tutorial island"],
+				"Chunks": ["Sunken Tutorial Island"],
 				"Tasks": {
 					"~|Beneath Cursed Tides|~ Complete the quest": "Quest"
 				},
@@ -119006,11 +119047,11 @@
 				"BaseQuest": "Completionist achievements",
 				"Chunks": ["9012"],
 				"Skills": {
-					"Framing": 89
+					"Farming": 89
 				},
 				"Tasks": {
 					"~|Plague's End|~ Complete the quest": "Quest",
-					"~|Prisoner of Glouphrie|~ Complete the quest": "Quest"
+					"~|The Prisoner of Glouphrie|~ Complete the quest": "Quest"
 				},
 				"Not F2P": true
 			},
@@ -119033,7 +119074,7 @@
 				},
 				"Not F2P": true
 			},
-			"~|Completionist achievements#Master Quest Cape|~ Quest Cape ": {
+			"~|Completionist achievements#Master Quest Cape|~ Quest Cape": {
 				"Category": ["MQC achievements"],
 				"Description": "Complete all quests to obtain the quest cape.",
 				"BaseQuest": "Completionist achievements",
@@ -119123,7 +119164,7 @@
 				"Tasks": {
 					"Complete the 'Lions and Unicorns and Centaurs, Oh My!' ~|research|~": "Archaeology",
 					"Complete the 'Ode to a Midsummer Morning' ~|research|~": "Archaeology",
-					"Complete the 'Studio Ga Ga' ~|research|~": "Archaeology",
+					"Complete the 'Stadio Ga Ga' ~|research|~": "Archaeology",
 					"Complete the 'Home, Sweet Home' ~|research|~": "Archaeology",
 					"Complete the 'Ground of the Polis' ~|research|~": "Archaeology",
 					"Complete the 'Battle of the Optimatoi' ~|research|~": "Archaeology",
@@ -119171,7 +119212,7 @@
 					"Complete the 'Proving Grounds' ~|research|~": "Archaeology",
 					"Complete the 'Cell, a Door' ~|research|~": "Archaeology",
 					"Complete the 'Requiescat in Pace' ~|research|~": "Archaeology",
-					"Complete the 'Where There's Smoke' ~|research|~": "Archaeology",
+					"Complete the 'Where There's Smoke...' ~|research|~": "Archaeology",
 					"Complete the 'Shadow Play' ~|research|~": "Archaeology",
 					"Complete the 'Lockdown' ~|research|~": "Archaeology",
 					"Complete the 'Nom-Nom-Nom-Nom' ~|research|~": "Archaeology"
@@ -119184,7 +119225,7 @@
 				"BaseQuest": "Completionist achievements",
 				"Tasks": {
 					"Complete the 'Let Sleeping Kin Lie' ~|research|~": "Archaeology",
-					"Complete the 'Breadth of Fire' ~|research|~": "Archaeology",
+					"Complete the 'Breath of Fire' ~|research|~": "Archaeology",
 					"Complete the 'Necropsy' ~|research|~": "Archaeology",
 					"Complete the 'Mind Your Head' ~|research|~": "Archaeology",
 					"Complete the 'Xolo Dorado' ~|research|~": "Archaeology"
@@ -119236,10 +119277,10 @@
 				"Category": ["MQC achievements"],
 				"Description": "Unlock all researchers.",
 				"BaseQuest": "Completionist achievements",
-				"Items": ["Ceremonial univon ornament", "Zarosian training dummy", "Opulent wine goblet", "AnyTotem[+]", "Golem instruction", "Ourg megahitter"],
+				"Items": ["Ceremonial unicorn ornament", "Zarosian training dummy", "Opulent wine goblet", "AnyTotem[+]", "Golem instruction", "Ourg megahitter"],
 				"Chunks": ["13365", "15683", "13110", "12591"],
 				"Tasks": {
-					"Become a ~|archaeology guildmaster|~": "Archaeology",
+					"Become an ~|archaeology guildmaster|~": "Archaeology",
 					"~|The Dig Site|~ Complete the quest": "Quest",
 					"~|What Lies Below|~ Complete the quest": "Quest",
 					"~|Desert Treasure|~ Complete the quest": "Quest",
@@ -119343,7 +119384,7 @@
 				"Rod of Asclepius",
 				"Kopis dagger",
 				"Xiphos short sword",
-				"'The Pride of the Padosan' painting",
+				"'The Pride of Padosan' painting",
 				"'Hallowed Be the Everlight' painting",
 				"'The Lord of Light' painting",
 				"'The Enlightened Soul' scroll",
@@ -119405,7 +119446,7 @@
 				"Description": "Collect all of the letters from the Senntisten dig.",
 				"BaseQuest": "Completionist achievements",
 				"Chunks": ["Empty Throne Room"],
-				"Items": ["Letter signed 'Pontifex Madromurt'", "Letter signed 'Pontifex Nabor'", "Letter signed 'Pontifex Bilrach'", "Damaged letter"],
+				"Items": ["Senntisten scroll"],
 				"Not F2P": true
 			},
 			"~|Completionist achievements#Master Quest Cape|~ Seren Memories": {
@@ -119458,7 +119499,7 @@
 				"Chunks": ["13366"],
 				"Tasks": {
 					"~|Rag and Bone Man#Wish List|~ Complete the lore activity": "Quest",
-					"~|Fur 'n' Seek#Wish List|~ Complete the lore activity": "Quest"
+					"~|Fur 'n Seek#Wish List|~ Complete the lore activity": "Quest"
 				},
 				"Not F2P": true
 			},
@@ -119478,7 +119519,7 @@
 				"BaseQuest": "Completionist achievements",
 				"Chunks": ["City of Um"],
 				"Tasks": {
-					"~|Requiem from a Dragon|~ Complete the quest": "Quest"
+					"~|Requiem for a Dragon|~ Complete the quest": "Quest"
 				},
 				"Not F2P": true
 			},
@@ -119816,7 +119857,7 @@
 				"Description": "Find all of the memoriam crystals in Prifddinas.",
 				"BaseQuest": "Completionist achievements",
 				"Chunks": ["8757", "9013", "8500", "8756", "9012", "8755", "9011"],
-				"Items": ["BushSeed[+]", "FruitTreeSeed[+]", "Plant pot", "Harmony moss seed", "Bucket", "Perfect juju farming potion"],
+				"Items": ["BushSeed[+]", "FruitTreeSeed[+]", "Plant pot", "Harmony moss seed", "Bucket", "Perfect juju farming potion (3)"],
 				"Skills": {
 					"Agility": 77,
 					"Farming": 75
@@ -119833,7 +119874,7 @@
 				"Description": "Free Klenter's soul during or after 'Icthlarin's Little Helper'.",
 				"BaseQuest": "Completionist achievements",
 				"Chunks": ["13099"],
-				"Items": ["Ghostpeak amulet"],
+				"Items": ["Ghostspeak amulet"],
 				"Tasks": {
 					"~|Icthlarin's Little Helper|~ Complete the quest": "Quest"
 				},
@@ -119919,8 +119960,8 @@
 				"Description": "Complete all of the Doric and Boric tasks.",
 				"BaseQuest": "Completionist achievements",
 				"Tasks": {
-					"~|Boric's Tasks III (miniquest)|~ Complete the miniquest": "Quest",
-					"~|Doric's Tasks VIII (miniquest)|~ Complete the miniquest": "Quest"
+					"~|Boric's Task III (miniquest)|~ Complete the miniquest": "Quest",
+					"~|Doric's Task VIII (miniquest)|~ Complete the miniquest": "Quest"
 				},
 				"Not F2P": true
 			},
@@ -120039,7 +120080,7 @@
 					"Praetorian hood",
 					"Praetorian robes",
 					"Praetorian staff",
-					"Ancient glove",
+					"Ancient globe",
 					"Battle plans",
 					"'Prima Legio' painting",
 					"Apex cap",
@@ -120059,7 +120100,7 @@
 					"Funerary urn of blood",
 					"Funerary urn of miasma",
 					"Model chariot",
-					"'The Serpent Fall' carving"
+					"'The Serpent's Fall' carving"
 				],
 				"Not F2P": true
 			},
@@ -120367,7 +120408,7 @@
 					"~|Completionist achievements#Master Quest Cape|~ Zarosian Expert": "Diary",
 					"~|Completionist achievements#Master Quest Cape|~ Zarosian Memories": "Diary"
 				},
-				"Reward": "Master quest cape",
+				"Reward": ["Master quest cape"],
 				"ManualShow": true,
 				"Not F2P": true
 			},	
@@ -120378,13 +120419,13 @@
 				"Tasks": {
 					"Build the tier 3 ~|Botanist's Workbench|~": "Construction",
 					"Build the tier 3 ~|Ranger's Workroom|~": "Construction",
-					"Build the tier 3 ~|Grove|~ at Fort Forinthry": "Construction",
-					"Build the tier 3 ~|guardhouse|~": "Construction",
-					"Build the tier 3 ~|kitchen (Fort Forinthry)|~": "Construction",
-					"Build the tier 3 ~|command centre|~": "Construction",
-					"Build the tier 3 ~|town hall (Fort Forinthry)|~": "Construction",
-					"Build the tier 3 ~|chapel (Fort Forinthry)|~": "Construction",
-					"Build the tier 3 ~|workshop (Fort Forinthry)|~": "Construction"
+					"Build the tier 3 ~|Grove Cabin|~": "Construction",
+					"Build the tier 3 ~|Guardhouse|~": "Construction",
+					"Build the tier 3 ~|Kitchen (Fort Forinthry)|~": "Construction",
+					"Build the tier 3 ~|Command Centre|~": "Construction",
+					"Build the tier 3 ~|Town Hall (Fort Forinthry)|~": "Construction",
+					"Build the tier 3 ~|Chapel (Fort Forinthry)|~": "Construction",
+					"Build the tier 3 ~|Workshop (Fort Forinthry)|~": "Construction"
 				},
 				"Not F2P": true
 			},
@@ -120420,7 +120461,7 @@
 				"Skills": {
 					"Construction": 40
 				},
-				"NPCs": ["Estate Agent"],
+				"NPCs": ["Estate agent"],
 				"Items": ["White candle", "Bolt of cloth", "Steel bar", "Plank[+]", "Nails[+]", "ConstructionMetalBar[+]"],
 				"Chunks": ["12338", "12850", "12853", "12342"],
 				"Not F2P": true
@@ -120617,7 +120658,7 @@
 				"Category": ["Comp achievements"],
 				"Description": "Acquire knowledge from the listed ancient blueprints.",
 				"BaseQuest": "Completionist achievements",
-				"Objects": ["'Ancient gizmos' blueprint", "'Ancient tools' blueprint", "'Ancient XP Capacitor' blueprint"],
+				"Items": ["'Ancient gizmos' blueprint", "'Ancient tools' blueprint", "Ancient 'XP Capacitor' blueprint"],
 				"Chunks": ["Howl's Workshop"],
 				"Skills": {
 					"Invention": 85,
@@ -120697,7 +120738,7 @@
 				"Description": "Increase the capacity of your ore box by mining 100 of each of the core ores.",
 				"BaseQuest": "Completionist achievements",
 				"Objects": [
-					"Bronze rock", 
+					"Copper rock", 
 					"Tin rock", 
 					"Iron rock",
 					"Coal rock",
@@ -120732,7 +120773,7 @@
 					"Argonite rock",
 					"Katagon rock",
 					"Gorgonite rock",
-					"Prometheum rock"
+					"Promethium rock"
 				],
 				"Skills": {
 					"Mining": 100
@@ -120940,7 +120981,7 @@
 					"~|Hopespear's Will (miniquest)|~ Complete the miniquest": "Quest",
 					"~|The Hunt for Surok (miniquest)|~ Complete the miniquest": "Quest",
 					"~|In Memory of the Myreque (miniquest)|~ Complete the miniquest": "Quest",
-					"~|Koshei's Troubles (miniquest)|~ Complete the miniquest": "Quest",
+					"~|Koschei's Troubles (miniquest)|~ Complete the miniquest": "Quest",
 					"~|Lair of Tarn Razorlor (miniquest)|~ Complete the miniquest": "Quest",
 					"~|The Lost Toys (miniquest)|~ Complete the miniquest": "Quest",
 					"~|Mahjarrat Memories (miniquest)|~ Complete the miniquest": "Quest",
@@ -120987,7 +121028,7 @@
 					"Perform a ~|lesser essence ritual|~": "Necromancy",
 					"Perform a ~|greater essence ritual|~": "Necromancy",
 					"Perform a ~|powerful essence ritual|~": "Necromancy",
-					"Perform a ~|manifest ectoplasm ritual|~": "Necromancy",
+					"Perform a ~|manifest ectoplasm|~ ritual": "Necromancy",
 					"LesserEnsoulMaterial[+]": "Necromancy",
 					"EnsoulMaterial[+]": "Necromancy",
 					"GreaterEnsoulMaterial[+]": "Necromancy"
@@ -121032,7 +121073,7 @@
 				"Category": ["Comp achievements"],
 				"Description": "Complete the Fight Kiln.",
 				"BaseQuest": "Completionist achievements",
-				"Chunks": ["Elder Kiln"],
+				"Chunks": ["Fight Kiln"],
 				"Tasks": {
 					"~|The Elder Kiln|~ Complete the quest": "Quest"
 				},
@@ -121144,7 +121185,7 @@
 				},
 				"Tasks": {
 					"~|Dead and Buried|~ Complete the quest": "Quest",
-					"Build the tier 3 ~|Ranger's Workroom|~": "Quest"
+					"Build the tier 3 ~|Ranger's Workroom|~": "Construction"
 				},
 				"Not F2P": true
 			},
@@ -121209,7 +121250,7 @@
 				"Description": "Unlock the spell: Bones to Peaches.",
 				"BaseQuest": "Completionist achievements",
 				"Chunks": ["13363"],
-				"Items": ["Law rune*", "Air rune[+]*", "Fire rune[+]*", "Nature rube*", "Water rune[+]*", "Earth rune[+]*", "Cosmic rune*"],
+				"Items": ["Law rune*", "Air rune[+]*", "Fire rune[+]*", "Nature rune*", "Water rune[+]*", "Earth rune[+]*", "Cosmic rune*"],
 				"Skills": {
 					"Magic": 33
 				},
@@ -121497,7 +121538,7 @@
 				"Category": ["Comp achievements"],
 				"Description": "Complete each of the trio storylines from your Player Owned Port.",
 				"BaseQuest": "Completionist achievements",
-				"Chunks": ["Player-Owned Ports"],
+				"Chunks": ["Player-Owned Port"],
 				"Not F2P": true
 			},
 			"~|Completionist achievements#Completionist Cape|~ Troublesome Crystals": {
@@ -121505,7 +121546,7 @@
 				"Description": "Find all of the memoriam crystals in Prifddinas.",
 				"BaseQuest": "Completionist achievements",
 				"Chunks": ["8757", "9013", "8500", "8756", "9012", "8755", "9011"],
-				"Items": ["BushSeed[+]", "FruitTreeSeed[+]", "Plant pot", "Harmony moss seed", "Bucket", "Perfect juju farming potion"],
+				"Items": ["BushSeed[+]", "FruitTreeSeed[+]", "Plant pot", "Harmony moss seed", "Bucket", "Perfect juju farming potion (3)"],
 				"Skills": {
 					"Agility": 77,
 					"Farming": 75
@@ -121592,7 +121633,7 @@
 				"Category": ["Comp achievements"],
 				"Description": "Find all reefwalker's cape scroll pieces in Player Owned Ports.",
 				"BaseQuest": "Completionist achievements",
-				"Chunks": ["Player-Owned Ports"],
+				"Chunks": ["Player-Owned Port"],
 				"Not F2P": true
 			},
 			"~|Completionist achievements#Completionist Cape|~ What's Mine is Also Doric's": {
@@ -121600,8 +121641,8 @@
 				"Description": "Complete all of the Doric and Boric tasks.",
 				"BaseQuest": "Completionist achievements",
 				"Tasks": {
-					"~|Boric's Tasks III (miniquest)|~ Complete the miniquest": "Quest",
-					"~|Doric's Tasks VIII (miniquest)|~ Complete the miniquest": "Quest"
+					"~|Boric's Task III (miniquest)|~ Complete the miniquest": "Quest",
+					"~|Doric's Task VIII (miniquest)|~ Complete the miniquest": "Quest"
 				},
 				"Not F2P": true
 			},
@@ -121740,7 +121781,7 @@
 					"~|Completionist achievements#Completionist Cape|~ Zarosian Memories": "Diary"
 
 				},
-				"Reward": "Completionist cape",
+				"Reward": ["Completionist cape"],
 				"ManualShow": true,
 				"Not F2P": true
 			},
@@ -121815,7 +121856,7 @@
 					"12849", "12337", "12338", "13366", "10804", "11824", "12082", "13107", "12340", "12595", "11826", "12854", "10548", "12084", "11574", "11061", "10291", "10292", "11061", "10807", "13364", "13111", "13106",
 					"13878", "13879", "13365", "12341", "11055", "9777", "9776", "10288", "10039", "9781", "10036", "11317", "13104",
 					"12090", "12856", "10293", "10040", "11318", "11065", "13105", "11569", "11310",
-					"TzHaar City", "9524", "The Arc", "13623", "14646", "12586", "Invention Guild", "Dragontooth Island resource dungeon", "8757"
+					"TzHaar City", "9524", "The Arc", "13623", "14646", "12586", "Invention Guild", "Dragontooth Island resource dungeon", "8757", "12086"
 				],
 				"Items": ["Plank*", "Oak plank*", "Teak plank*", "Mahogany plank*", "Steel nails*", "Gold leaf*"],
 				"Skills": {
@@ -121828,8 +121869,7 @@
 					"~|Impressing the Locals|~ Complete the quest": "Quest",
 					"~|The Jack of Spades|~ Complete the quest": "Quest",
 					"~|One of a Kind|~ Complete the quest": "Quest",
-					"~|Plague's End|~ Complete the quest": "Quest",
-					"~|12086|~ Complete the quest": "Quest"
+					"~|Plague's End|~ Complete the quest": "Quest"
 				},
 				"Not F2P": true
 			},
@@ -121871,7 +121911,7 @@
 				"Description": "Complete all collections for archaeological collectors.",
 				"BaseQuest": "Completionist achievements",
 				"Tasks": {
-					"AnyCollection[+]x74": "Quest"
+					"AnyCollection[+]x74": "Nonskill"
 				},
 				"Not F2P": true
 			},
@@ -121933,12 +121973,12 @@
 					"Archaeology": 110
 				},
 				"Tasks": {
-					"~|Completionist achievements#Trimmed Completionist Cape|~ Mysteries - Everlight": "Diary",
-					"~|Completionist achievements#Trimmed Completionist Cape|~ Mysteries - Infernal Source": "Diary",
-					"~|Completionist achievements#Trimmed Completionist Cape|~ Mysteries - Kharid-et": "Diary",
-					"~|Completionist achievements#Trimmed Completionist Cape|~ Mysteries - Stormguard Citadel": "Diary",
-					"~|Completionist achievements#Trimmed Completionist Cape|~ Mysteries - Warforge": "Diary",
-					"~|Completionist achievements#Trimmed Completionist Cape|~ Mysteries - Orthen": "Diary"
+					"~|Completionist achievements#Master Quest Cape|~ Mysteries - Everlight": "Diary",
+					"~|Completionist achievements#Master Quest Cape|~ Mysteries - Infernal Source": "Diary",
+					"~|Completionist achievements#Master Quest Cape|~ Mysteries - Kharid-et": "Diary",
+					"~|Completionist achievements#Master Quest Cape|~ Mysteries - Stormguard Citadel": "Diary",
+					"~|Completionist achievements#Master Quest Cape|~ Mysteries - Warforge": "Diary",
+					"~|Completionist achievements#Master Quest Cape|~ Mysteries - Orthen": "Diary"
 				},
 				"Not F2P": true
 			},
@@ -121957,7 +121997,7 @@
 					"AllSpicatiApoterrasaurs[+]x3",
 					"AllAsciatops[+]x3",
 					"AllCorbiculaRex[+]x3",
-					"AllOculiApoterrasaur[+]x3",
+					"AllOculiApoterrasaurs[+]x3",
 					"AllMalletops[+]x3",
 					"AllPavosaurusRex[+]x3",
 					"AllFrogs[+]x4",
@@ -121973,7 +122013,7 @@
 				"Items": [
 					"AllChickens[+]x4",
 					"AllRabbits[+]x3",
-					"AllChincompas[+]x7",
+					"AllChins[+]x7",
 					"AllSheep[+]x6",
 					"AllSpiders[+]x6",
 					"AllZygomites[+]x4",
@@ -121987,7 +122027,7 @@
 				"Category": ["Comp achievements", "Trim achievements"],
 				"Description": "Explore the Eastern Lands as far as the Shield from your port.",
 				"BaseQuest": "Completionist achievements",
-				"Chunks": ["Player-Owned Ports"],
+				"Chunks": ["Player-Owned Port"],
 				"Not F2P": true
 			},
 			"~|Completionist achievements#Trimmed Completionist Cape|~ Elder Wisdom": {
@@ -122000,7 +122040,7 @@
 				},
 				"Tasks": {
 					"~|Dead and Buried|~ Complete the quest": "Quest",
-					"Build the tier 3 ~|Ranger's Workroom|~": "Quest"
+					"Build the tier 3 ~|Ranger's Workroom|~": "Construction"
 				},
 				"Not F2P": true
 			},
@@ -122032,7 +122072,7 @@
 				"Items": [
 					"Enhanced grappling hook",
 					"Master thief's lockpick",
-					"Maste thiefs' stethoscope",
+					"Master thief's stethoscope",
 					"Insect repellent",
 					"Steel key ring",
 					"Bolt mould",
@@ -122060,7 +122100,6 @@
 					"Chaos star",
 					"Ikovian gerege",
 					"Stormguard gerege",
-					"Boots of Flight",
 					"Wingsuit v1",
 					"'Friendship bracelet'"
 				],
@@ -122084,6 +122123,8 @@
 					"~|A Fairy Tale III - Battle at Ork's Rift|~ Complete the quest": "Quest",
 					"~|The Path of Glouphrie|~ Complete the quest": "Quest",
 					"~|Succession|~ Complete the quest": "Quest",
+					"~|Leap of Faith|~ 3": "Quest",
+					"~|Leap of Faith|~ 3": "Quest",
 					"Complete the ~|archaeology tutorial|~": "Archaeology",
 					"Unlock ~|Invention|~": "Invention"
 				},
@@ -122148,7 +122189,7 @@
 					"Greater ensouled bar*"
 				],
 				"Tasks": {
-					"~|Completionist achievements#Trimmed Completionist Cape|~ Student Becomes the Master": "Diary"
+					"~|Completionist achievements#Completionist Cape|~ Student Becomes the Master": "Diary"
 				},
 				"Not F2P": true
 			},
@@ -122184,7 +122225,7 @@
 				"Chunks": ["13626", "13882"],
 				"Items": ["Kal'gerion battle commendation"],
 				"Skills": {
-					"Dungeoneering": 1113
+					"Dungeoneering": 113
 				},
 				"Not F2P": true
 			},
@@ -122233,8 +122274,8 @@
 				"Description": "Complete all of the Daemonheim archaeology achievements.",
 				"BaseQuest": "Completionist achievements",
 				"Tasks": {
-					"~|Completionist achievements#Trimmed Completionist Cape|~ Mysteries - Daemonheim": "Diary",
-					"~|Completionist achievements#Trimmed Completionist Cape|~ Research - Daemonheim": "Diary"
+					"~|Completionist achievements#Master Quest Cape|~ Mysteries - Daemonheim": "Diary",
+					"~|Completionist achievements#Master Quest Cape|~ Research - Daemonheim": "Diary"
 				},
 				"Not F2P": true
 			},
@@ -122247,9 +122288,9 @@
 					"Hunter": 6
 				},
 				"Tasks": {
-					"~|Completionist achievements#Trimmed Completionist Cape|~ Mysteries - Everlight": "Diary",
-					"~|Completionist achievements#Trimmed Completionist Cape|~ Research - Everlight": "Diary",
-					"~|Completionist achievements#Trimmed Completionist Cape|~ No Secrets Left to Steal": "Diary"
+					"~|Completionist achievements#Master Quest Cape|~ Mysteries - Everlight": "Diary",
+					"~|Completionist achievements#Master Quest Cape|~ Research - Everlight": "Diary",
+					"~|Completionist achievements#Master Quest Cape|~ No Secrets Left to Steal": "Diary"
 				},
 				"Not F2P": true
 			},
@@ -122257,10 +122298,10 @@
 				"Category": ["Comp achievements", "Trim achievements"],
 				"Description": "Complete all of the Infernal Source archaeology achievements.",
 				"BaseQuest": "Completionist achievements",
-				"Items": ["Star Lodge"],
+				"Chunks": ["Star Lodge"],
 				"Tasks": {
-					"~|Completionist achievements#Trimmed Completionist Cape|~ Mysteries - Infernal Source": "Diary",
-					"~|Completionist achievements#Trimmed Completionist Cape|~ Research - Infernal Source": "Diary"
+					"~|Completionist achievements#Master Quest Cape|~ Mysteries - Infernal Source": "Diary",
+					"~|Completionist achievements#Master Quest Cape|~ Research - Infernal Source": "Diary"
 				},
 				"Not F2P": true
 			},
@@ -122269,8 +122310,8 @@
 				"Description": "Complete all of the Kharid-et archaeology achievements.",
 				"BaseQuest": "Completionist achievements",
 				"Tasks": {
-					"~|Completionist achievements#Trimmed Completionist Cape|~ Mysteries - Kharid-et": "Diary",
-					"~|Completionist achievements#Trimmed Completionist Cape|~ Research - Kharid-et": "Diary"
+					"~|Completionist achievements#Master Quest Cape|~ Mysteries - Kharid-et": "Diary",
+					"~|Completionist achievements#Master Quest Cape|~ Research - Kharid-et": "Diary"
 				},
 				"Not F2P": true
 			},
@@ -122279,8 +122320,8 @@
 				"Description": "Complete all of the Orthen archaeology achievements.",
 				"BaseQuest": "Completionist achievements",
 				"Tasks": {
-					"~|Completionist achievements#Trimmed Completionist Cape|~ Mysteries - Orthen": "Diary",
-					"~|Completionist achievements#Trimmed Completionist Cape|~ Research - Orthen": "Diary"
+					"~|Completionist achievements#Master Quest Cape|~ Mysteries - Orthen": "Diary",
+					"~|Completionist achievements#Master Quest Cape|~ Research - Orthen": "Diary"
 				},
 				"Not F2P": true
 			},
@@ -122289,9 +122330,9 @@
 				"Description": "Complete all of the Senntisten archaeology achievements.",
 				"BaseQuest": "Completionist achievements",
 				"Tasks": {
-					"~|Completionist achievements#Trimmed Completionist Cape|~ Mysteries - Senntisten": "Diary",
-					"~|Completionist achievements#Trimmed Completionist Cape|~ Research - Senntisten": "Diary",
-					"~|Completionist achievements#Trimmed Completionist Cape|~ Pane in the Glass": "Diary"
+					"~|Completionist achievements#Master Quest Cape|~ Mysteries - Senntisten": "Diary",
+					"~|Completionist achievements#Master Quest Cape|~ Research - Senntisten": "Diary",
+					"~|Completionist achievements#Master Quest Cape|~ Pane in the Glass": "Diary"
 				},
 				"Not F2P": true
 			},
@@ -122305,10 +122346,9 @@
 					"Divination": 70
 				},
 				"Tasks": {
-					"~|Completionist achievements#Trimmed Completionist Cape|~ Mysteries - Stormguard Citadel": "Diary",
-					"~|Completionist achievements#Trimmed Completionist Cape|~ Research - Stormguard Citadel": "Diary",
-					"~|Completionist achievements#Trimmed Completionist Cape|~ Home is Where the God is": "Diary",
-					"~|Completionist achievements#Trimmed Completionist Cape|~ Research - Stormguard Citadel": "Diary"
+					"~|Completionist achievements#Master Quest Cape|~ Mysteries - Stormguard Citadel": "Diary",
+					"~|Completionist achievements#Master Quest Cape|~ Research - Stormguard Citadel": "Diary",
+					"~|Completionist achievements#Master Quest Cape|~ Home is Where the God is": "Diary"
 				},
 				"Not F2P": true
 			},
@@ -122317,8 +122357,8 @@
 				"Description": "Complete all of the Warforge archaeology achievements.",
 				"BaseQuest": "Completionist achievements",
 				"Tasks": {
-					"~|Completionist achievements#Trimmed Completionist Cape|~ Mysteries - Warforge": "Diary",
-					"~|Completionist achievements#Trimmed Completionist Cape|~ Research - Warforge": "Diary"
+					"~|Completionist achievements#Master Quest Cape|~ Mysteries - Warforge": "Diary",
+					"~|Completionist achievements#Master Quest Cape|~ Research - Warforge": "Diary"
 				},
 				"Not F2P": true
 			},
@@ -122445,7 +122485,7 @@
 				"Description": "Defeat all bosses at least once.",
 				"BaseQuest": "Completionist achievements",
 				"Monsters": [
-					"Giant mole",
+					"Giant Mole",
 					"Chaos Elemental",
 					"King Black Dragon",
 					"Queen Black Dragon",
@@ -122480,7 +122520,7 @@
 					"The Ambassador",
 					"Kree'arra",
 					"K'ril Tsutsaroth",
-					"General Graador",
+					"General Graardor",
 					"Commander Zilyana",
 					"Nex",
 					"Nex: Angel of Death",
@@ -122507,7 +122547,6 @@
 				"Description": "Unlock all relic powers at the monolith.",
 				"BaseQuest": "Completionist achievements",
 				"Items": [
-					"The Mortal Cup",
 					"Dharok's Memento",
 					"Aurelius's Mask",
 					"Eye of Het (broken)",
@@ -122644,7 +122683,7 @@
 					"~|Crocodile Tears|~ Complete the quest": "Quest",
 					"~|Our Man in the North|~ Complete the quest": "Quest",
 					"~|'Phite Club|~ Complete the quest": "Quest",
-					"~|Ichtlarin's Little Helper|~ Complete the quest": "Quest"
+					"~|Icthlarin's Little Helper|~ Complete the quest": "Quest"
 				},
 				"Not F2P": true
 			},
@@ -122652,7 +122691,7 @@
 				"Category": ["Comp achievements", "Trim achievements"],
 				"Description": "Find every scroll piece in Player Owned Ports.",
 				"BaseQuest": "Completionist achievements",
-				"Chunks": ["Player-Owned Ports"],
+				"Chunks": ["Player-Owned Port"],
 				"Not F2P": true
 			},
 			"~|Completionist achievements#Trimmed Completionist Cape|~ Scrolling with Power": {
@@ -122660,14 +122699,13 @@
 				"Description": "Unlock the Dungeoneering scroll traits.",
 				"BaseQuest": "Completionist achievements",
 				"Items": [
-					"Scroll of life", 
-					"Scroll of cleansing", 
-					"Scroll of proficiency", 
-					"Scroll of quick teleportation", 
-					"Scroll of efficiency", 
-					"Scroll of Daemonheim", 
-					"Scroll of dexterity", 
-					"Wild card"
+					"Scroll of life",
+					"Scroll of cleansing",
+					"Scroll of proficiency",
+					"Scroll of quick teleportation",
+					"Scroll of efficiency",
+					"Scroll of Daemonheim",
+					"Scroll of dexterity"
 				],
 				"Not F2P": true
 			},
@@ -122683,14 +122721,14 @@
 				"Description": "Obtain a selection of titles from Prifddinas.",
 				"BaseQuest": "Completionist achievements",
 				"Chunks": ["8757", "8501", "8500", "8756", "9012", "8755", "9011", "The Approach (Freneskae)"],
-				"Items": ["Crystal acorn", "Gas mask", "Mourner top", "Mourner trousers", "Mourner boots", "Mourner gloves", "Mourner cloak"],
+				"Items": ["Crystal acorn"],
 				"Tasks": {
 					"~|Plague's End|~ Complete the quest": "Quest",
 					"~|As a First Resort|~ Complete the quest": "Quest",
-					"~|Completionist achievements#Trimmed Completionist Cape|~ Elven Titles": "Diary",
-					"~|Completionist achievements#Trimmed Completionist Cape|~ Famous": "Diary",
+					"~|Completionist achievements#Completionist Cape|~ Elven Titles": "Diary",
+					"~|Completionist achievements#Completionist Cape|~ Famous": "Diary",
 					"~|Completionist achievements#Trimmed Completionist Cape|~ Who Will Be Her Lover?": "Diary",
-					"~|Completionist achievements#Trimmed Completionist Cape|~ Quest Cape ": "Diary"
+					"~|Completionist achievements#Completionist Cape|~ Quest Cape ": "Diary"
 				},
 				"Not F2P": true
 			},
@@ -122729,7 +122767,7 @@
 				"BaseQuest": "Completionist achievements",
 				"Chunks": ["13108", "13364"],
 				"Tasks": {
-					"Become a ~|archaeology guildmaster|~": "Archaeology"
+					"Become an ~|archaeology guildmaster|~": "Archaeology"
 				},
 				"Not F2P": true
 			},
@@ -122737,7 +122775,178 @@
 				"Category": ["Comp achievements", "Trim achievements"],
 				"Description": "Fully complete the slayer codex.",
 				"BaseQuest": "Completionist achievements",
-				"Items": ["Filled Ushabti[+]x170"],
+				"Items": [
+					"Ushabti (profane scabarite)",
+					"Ushabti (armoured phantom)",
+					"Ushabti (risen ghost)",
+					"Ushabti (bound skeleton)",
+					"Ushabti (fetid zombie)",
+					"Ushabti (abyssal lord)",
+					"Ushabti (abyssal beast)",
+					"Ushabti (abyssal savage)",
+					"Ushabti (Nodon)",
+					"Ushabti (cockroach)",
+					"Ushabti (liverwort)",
+					"Ushabti (luminous snaggler)",
+					"Ushabti (devil's snare)",
+					"Ushabti (lampenflora)",
+					"Ushabti (ripper dinosaur)",
+					"Ushabti (venomous dinosaur)",
+					"Ushabti (brutish dinosaur)",
+					"Ushabti (feral dinosaur)",
+					"Ushabti (revenant)",
+					"Ushabti (soulgazer)",
+					"Ushabti (seeker)",
+					"Ushabti (vinecrawler)",
+					"Ushabti (bulbous crawler)",
+					"Ushabti (moss golem)",
+					"Ushabti (imperial guard akh)",
+					"Ushabti (scarab akh)",
+					"Ushabti (crocodile akh)",
+					"Ushabti (gorilla akh)",
+					"Ushabti (feline akh)",
+					"Ushabti (salawa akh)",
+					"Ushabti (corrupted worker)",
+					"Ushabti (corrupted kalphite)",
+					"Ushabti (corrupted dust devil)",
+					"Ushabti (corrupted lizard)",
+					"Ushabti (corrupted scarab)",
+					"Ushabti (corrupted scorpion)",
+					"Ushabti (hydrix dragon)",
+					"Ushabti (onyx dragon)",
+					"Ushabti (dragonstone dragon)",
+					"Ushabti (nightmare)",
+					"Ushabti (chaos giant)",
+					"Ushabti (acheron mammmoth)",
+					"Ushabti (camel warrior)",
+					"Ushabti (ripper demon)",
+					"Ushabti (wyvern)",
+					"Ushabti (crystal shapeshifter)",
+					"Ushabti (rune dragon)",
+					"Ushabti (adamant dragon)",
+					"Ushabti (lava strykewyrm)",
+					"Ushabti (shadow creature)",
+					"Ushabti (edimmu)",
+					"Ushabti (tormented demon)",
+					"Ushabti (glacor)",
+					"Ushabti (kal'gerion demon)",
+					"Ushabti (nihil)",
+					"Ushabti (muspah)",
+					"Ushabti (celestial dragon)",
+					"Ushabti (airut)",
+					"Ushabti (pig)",
+					"Ushabti (ascension creature)",
+					"Ushabti (aviansie)",
+					"Ushabti (automaton)",
+					"Ushabti (grotworm)",
+					"Ushabti (gelatinous abomination)",
+					"Ushabti (vyrewatch)",
+					"Ushabti (mutated jadinko)",
+					"Ushabti (cyclops)",
+					"Ushabti (living rock creature)",
+					"Ushabti (ice strykewyrm)",
+					"Ushabti (desert strykewyrm)",
+					"Ushabti (jungle strykewyrm)",
+					"Ushabti (fungal mage)",
+					"Ushabti (grifolaroo)",
+					"Ushabti (grifolapine)",
+					"Ushabti (ganodermic beast)",
+					"Ushabti (aquanite)",
+					"Ushabti (mithril dragon)",
+					"Ushabti (warped terrorbird)",
+					"Ushabti (warped tortoise)",
+					"Ushabti (spirital mage)",
+					"Ushabti (spirital ranger)",
+					"Ushabti (spirital warrior)",
+					"Ushabti (waterfiend)",
+					"Ushabti (molanisk)",
+					"Ushabti (terror dog)",
+					"Ushabti (scabarite)",
+					"Ushabti (brine rat)",
+					"Ushabti (suqah)",
+					"Ushabti (gorak)",
+					"Ushabti (jungle horror)",
+					"Ushabti (cave horror)",
+					"Ushabti (ankou)",
+					"Ushabti (catablepon)",
+					"Ushabti (flesh crawler)",
+					"Ushabti (minotaur)",
+					"Ushabti (icefiend)",
+					"Ushabti (mutated zygomite)",
+					"Ushabti (killerwatt)",
+					"Ushabti (skeletal wyvern)",
+					"Ushabti (sea snake)",
+					"Ushabti (harpie bug swarm)",
+					"Ushabti (fever spider)",
+					"Ushabti (lizard)",
+					"Ushabti (mogre)",
+					"Ushabti (dark beast)",
+					"Ushabti (crocodile)",
+					"Ushabti (shade)",
+					"Ushabti (cave bug)",
+					"Ushabti (cave slime)",
+					"Ushabti (wall beast)",
+					"Ushabti (steel dragon)",
+					"Ushabti (iron dragon)",
+					"Ushabti (bronze dragon)",
+					"Ushabti (chaos dwarf)",
+					"Ushabti (elf)",
+					"Ushabti (otherworldly being)",
+					"Ushabti (earth warrior)",
+					"Ushabti (kalphite)",
+					"Ushabti (nechryael)",
+					"Ushabti (rock slug)",
+					"Ushabti (jelly)",
+					"Ushabti (dust devil)",
+					"Ushabti (bloodveld)",
+					"Ushabti (pyrefiend)",
+					"Ushabti (gargoyle)",
+					"Ushabti (kurask)",
+					"Ushabti (cockatrice)",
+					"Ushabti (basilisk)",
+					"Ushabti (abyssal demon)",
+					"Ushabti (aberrant spectre)",
+					"Ushabti (infernal mage)",
+					"Ushabti (crawling hand)",
+					"Ushabti (banshee)",
+					"Ushabti (cave crawler)",
+					"Ushabti (turoth)",
+					"Ushabti (dagannoth)",
+					"Ushabti (vampyre)",
+					"Ushabti (werewolf)",
+					"Ushabti (shadow warrior)",
+					"Ushabti (hellhound)",
+					"Ushabti (black demon)",
+					"Ushabti (greater demon)",
+					"Ushabti (lesser demon)",
+					"Ushabti (black dragon)",
+					"Ushabti (red dragon)",
+					"Ushabti (blue dragon)",
+					"Ushabti (green dragon)",
+					"Ushabti (ghoul)",
+					"Ushabti (dog)",
+					"Ushabti (hobgoblin)",
+					"Ushabti (ogre)",
+					"Ushabti (ice warrior)",
+					"Ushabti (troll)",
+					"Ushabti (moss giant)",
+					"Ushabti (fire giant)",
+					"Ushabti (ice giant)",
+					"Ushabti (hill giant)",
+					"Ushabti (bear)",
+					"Ushabti (ghost)",
+					"Ushabti (skeleton)",
+					"Ushabti (zombie)",
+					"Ushabti (wolf)",
+					"Ushabti (bat)",
+					"Ushabti (scorpion)",
+					"Ushabti (cow)",
+					"Ushabti (chicken)",
+					"Ushabti (spider)",
+					"Ushabti (rat)",
+					"Ushabti (goblin)",
+					"Ushabti (monkey)"
+				],
 				"Skills": {
 					"Slayer": 115
 				},
@@ -122875,7 +123084,7 @@
 					"~|Completionist achievements#Trimmed Completionist Cape|~ Who Will Be Her Lover?": "Diary",
 					"~|Completionist achievements#Trimmed Completionist Cape|~ Work on Your Artisan II": "Diary"
 				},
-				"Reward": "Completionist cape (t)",
+				"Reward": ["Completionist cape (t)"],
 				"ManualShow": true,
 				"Not F2P": true
 			}
@@ -123036,8 +123245,8 @@
 				"Category": ["Kili Knowledge"],
 				"Label": ["Necromancy progression"],
 				"Chunks": ["City of Um", "ScapeRune", "11064", "Fight Cave", "The Heart", "Necromantic Rune Temple", "Star Lodge"],
-				"Items": ["Pie dish", "Pot of flour", "Uncut onyx", "Greater necroplasm", "Crystal key"],
-				"Objects": ["Spinning wheel", "Cooking object[+]", "Archaeologist's workbench", "Cyrstal chest", "Impure essence"],
+				"Items": ["Pie dish", "Pot of flour", "Uncut onyx", "Greater necroplasm", "Crystal key", "Impure essence"],
+				"Objects": ["Spinning wheel", "Cooking object[+]", "Archaeologist's workbench", "Crystal chest"],
 				"Monsters": ["AnyDragon[+]"],
 				"Tasks": {
 					"Complete ~|Kili's Knowledge VI|~": "Extra",
@@ -124330,6 +124539,165 @@
 				},
 				"Items": ["Invoke Lord of Bones incantation codex"]
 			},
+			"(Necromancy) Unlock the ~|Conjure Skeleton Warrior|~ ability": {
+				"Category": ["Unlock Abilities"],
+				"Label": "Unlockable Abilities",
+				"Skills": {
+					"Necromancy": 2
+				},
+				"Chunks": ["City of Um"]
+			},
+			"(Necromancy) Unlock the ~|Command Skeleton Warrior|~ ability": {
+				"Category": ["Unlock Abilities"],
+				"Label": "Unlockable Abilities",
+				"Skills": {
+					"Necromancy": 20
+				},
+				"Chunks": ["City of Um"]
+			},
+			"(Necromancy) Unlock the ~|Conjure Vengeful Ghost|~ ability": {
+				"Category": ["Unlock Abilities"],
+				"Label": "Unlockable Abilities",
+				"Skills": {
+					"Necromancy": 40
+				},
+				"Chunks": ["City of Um"]
+			},
+			"(Necromancy) Unlock the ~|Conjure Putrid Zombie|~ ability": {
+				"Category": ["Unlock Abilities"],
+				"Label": "Unlockable Abilities",
+				"Skills": {
+					"Necromancy": 40
+				},
+				"Chunks": ["City of Um"]
+			},
+			"(Necromancy) Unlock the ~|Threads of Fate|~ invocation": {
+				"Category": ["Unlock Abilities"],
+				"Label": "Unlockable Abilities",
+				"Skills": {
+					"Necromancy": 44
+				},
+				"Chunks": ["City of Um"]
+			},
+			"(Necromancy) Unlock the ~|Command Vengeful Ghost|~ ability": {
+				"Category": ["Unlock Abilities"],
+				"Label": "Unlockable Abilities",
+				"Skills": {
+					"Necromancy": 60
+				},
+				"Chunks": ["City of Um"]
+			},
+			"(Necromancy) Unlock the ~|Command Putrid Zombie|~ ability": {
+				"Category": ["Unlock Abilities"],
+				"Label": "Unlockable Abilities",
+				"Skills": {
+					"Necromancy": 60
+				},
+				"Chunks": ["City of Um"]
+			},
+			"(Necromancy) Unlock the ~|Spectral Scythe|~ ability": {
+				"Category": ["Unlock Abilities"],
+				"Label": "Unlockable Abilities",
+				"Skills": {
+					"Necromancy": 62
+				},
+				"Chunks": ["City of Um"]
+			},
+			"(Necromancy) Unlock the ~|Greater Bone Shield|~ invocation": {
+				"Category": ["Unlock Abilities"],
+				"Label": "Unlockable Abilities",
+				"Skills": {
+					"Necromancy": 73
+				},
+				"Tasks": {
+					"~|Tomes of the Warlock|~ Complete the quest": "Quest"
+				},
+				"Chunks": ["City of Um"]
+			},
+			"(Necromancy) Unlock the ~|Spectral Scythe#Cast 2|~ ability": {
+				"Category": ["Unlock Abilities"],
+				"Label": "Unlockable Abilities",
+				"Skills": {
+					"Necromancy": 70
+				},
+				"Chunks": ["City of Um"]
+			},
+			"(Necromancy) Unlock the ~|Conjure Phantom Guardian|~ ability": {
+				"Category": ["Unlock Abilities"],
+				"Label": "Unlockable Abilities",
+				"Skills": {
+					"Necromancy": 70
+				},
+				"Chunks": ["City of Um"]
+			},
+			"(Necromancy) Unlock the ~|Life Transfer|~ invocation": {
+				"Category": ["Unlock Abilities"],
+				"Label": "Unlockable Abilities",
+				"Skills": {
+					"Necromancy": 76
+				},
+				"Tasks": {
+					"~|Tomes of the Warlock|~ Complete the quest": "Quest"
+				},
+				"Chunks": ["City of Um"]
+			},
+			"(Necromancy) Unlock the ~|Darkness|~ invocation": {
+				"Category": ["Unlock Abilities"],
+				"Label": "Unlockable Abilities",
+				"Skills": {
+					"Necromancy": 86
+				},
+				"Tasks": {
+					"~|Tomes of the Warlock|~ Complete the quest": "Quest"
+				},
+				"Chunks": ["City of Um"]
+			},
+			"(Necromancy) Unlock the ~|Spectral Scythe#Cast 3|~ ability": {
+				"Category": ["Unlock Abilities"],
+				"Label": "Unlockable Abilities",
+				"Skills": {
+					"Necromancy": 80
+				},
+				"Chunks": ["City of Um"]
+			},
+			"(Necromancy) Unlock the ~|Command Phantom Guardian|~ ability": {
+				"Category": ["Unlock Abilities"],
+				"Label": "Unlockable Abilities",
+				"Skills": {
+					"Necromancy": 80
+				},
+				"Chunks": ["City of Um"]
+			},
+			"(Necromancy) Unlock the ~|Invoke Death|~ invocation": {
+				"Category": ["Unlock Abilities"],
+				"Label": "Unlockable Abilities",
+				"Skills": {
+					"Necromancy": 80
+				},
+				"Tasks": {
+					"~|Tomes of the Warlock|~ Complete the quest": "Quest"
+				},
+				"Chunks": ["City of Um"]
+			},
+			"(Necromancy) Unlock the ~|Split Soul|~ invocation": {
+				"Category": ["Unlock Abilities"],
+				"Label": "Unlockable Abilities",
+				"Skills": {
+					"Necromancy": 92
+				},
+				"Tasks": {
+					"~|The Temple at Senntisten|~ Complete the quest": "Quest"
+				},
+				"Chunks": ["City of Um"]
+			},
+			"(Necromancy) Unlock the ~|Conjure Undead Army|~ invocation": {
+				"Category": ["Unlock Abilities"],
+				"Label": "Unlockable Abilities",
+				"Skills": {
+					"Necromancy": 99
+				},
+				"Chunks": ["City of Um"]
+			},
 			"(Ranged) Unlock the ~|Demoralise|~ ability": {
 				"Category": ["Unlock Abilities"],
 				"Label": "Unlockable Abilities",
@@ -124487,6 +124855,15 @@
 					"Prayer": 85
 				},
 				"Items": ["Divine Rage prayer codex"]
+			},
+			"Unlock the ~|Rapid Renewal|~ prayer": {
+				"Category": ["Unlock Prayers"],
+				"Label": "Unlockable Prayers",
+				"Skills": {
+					"Dungeoneering": 65,
+					"Prayer": 65
+				},
+				"Items": ["Scroll of renewal"]
 			},
 			"Unlock the ~|Leech Necromancy Attack|~ curse": {
 				"Category": ["Unlock Prayers"],
@@ -128495,7 +128872,7 @@
 				"Category": ["Collection Log", "Breeding Log"],
 				"Label": "Player-Owned Farm Breeding Log",
 				"Chunks": ["10548"],
-				"Items": ["AllZyogmites[+]"]
+				"Items": ["AllZygomites[+]"]
 			},
 			"(Cows) Breed a ~|kandarin cow|~ or bull": {
 				"Category": ["Collection Log", "Breeding Log"],
@@ -128633,7 +129010,7 @@
 				"Category": ["Collection Log", "Breeding Log"],
 				"Label": "Player-Owned Ranch Breeding Log",
 				"Chunks": ["14659"],
-				"Items": ["AllSalamander[+]"]
+				"Items": ["AllSalamanders[+]"]
 			},
 			"(Jadinkos) Breed an ~|amphibious jadinko|~": {
 				"Category": ["Collection Log", "Breeding Log"],
@@ -128965,7 +129342,7 @@
 				"Chunks": ["14659"],
 				"Items": ["AllPavosaurusRex[+]"]
 			},
-			"Start ~|player-owned ports|~ by getting a ports skill to level 90": {
+			"Start ~|Player-Owned Port|~ by getting a ports skill to level 90": {
 				"Chunks": ["Player-Owned Port"],
 				"Label": "Unlock Ports",
 				"Not F2P": true				
@@ -129881,25 +130258,25 @@
 				"Label": "Untracked Skilling Uniques",
 				"Items": ["Summoning renewal recipe fragment 4"]
 			},
-			"(Archaeology) Obtain ~|powerburt of opportunity recipe fragment 1|~": {
+			"(Archaeology) Obtain ~|powerburst of opportunity recipe fragment 1|~": {
 				"Category": ["Untracked Uniques", "Untracked Uniques Skilling"],
 				"Label": "Untracked Skilling Uniques",
-				"Items": ["Powerburt of opportunity recipe fragment 1"]
+				"Items": ["Powerburst of opportunity recipe fragment 1"]
 			},
-			"(Archaeology) Obtain ~|powerburt of opportunity recipe fragment 2|~": {
+			"(Archaeology) Obtain ~|powerburst of opportunity recipe fragment 2|~": {
 				"Category": ["Untracked Uniques", "Untracked Uniques Skilling"],
 				"Label": "Untracked Skilling Uniques",
-				"Items": ["Powerburt of opportunity recipe fragment 2"]
+				"Items": ["Powerburst of opportunity recipe fragment 2"]
 			},
-			"(Archaeology) Obtain ~|powerburt of opportunity recipe fragment 3|~": {
+			"(Archaeology) Obtain ~|powerburst of opportunity recipe fragment 3|~": {
 				"Category": ["Untracked Uniques", "Untracked Uniques Skilling"],
 				"Label": "Untracked Skilling Uniques",
-				"Items": ["Powerburt of opportunity recipe fragment 3"]
+				"Items": ["Powerburst of opportunity recipe fragment 3"]
 			},
-			"(Archaeology) Obtain ~|powerburt of opportunity recipe fragment 4|~": {
+			"(Archaeology) Obtain ~|powerburst of opportunity recipe fragment 4|~": {
 				"Category": ["Untracked Uniques", "Untracked Uniques Skilling"],
 				"Label": "Untracked Skilling Uniques",
-				"Items": ["Powerburt of opportunity recipe fragment 4"]
+				"Items": ["Powerburst of opportunity recipe fragment 4"]
 			},
 			"(Archaeology) Obtain ~|spirit attraction recipe fragment 1|~": {
 				"Category": ["Untracked Uniques", "Untracked Uniques Skilling"],
@@ -129969,22 +130346,22 @@
 			"(Empty Throne Room) Obtain the ~|letter signed 'Pontifex Madromurt'|~": {
 				"Category": ["Untracked Uniques", "Untracked Uniques Skilling"],
 				"Label": "Untracked Skilling Uniques",
-				"Chunks": ["Empty Throne Room"]
+				"Items": ["Senntisten scroll"]
 			},
 			"(Empty Throne Room) Obtain the ~|letter signed 'Pontifex Nabor'|~": {
 				"Category": ["Untracked Uniques", "Untracked Uniques Skilling"],
 				"Label": "Untracked Skilling Uniques",
-				"Chunks": ["Empty Throne Room"]
+				"Items": ["Senntisten scroll"]
 			},
 			"(Empty Throne Room) Obtain the ~|letter signed 'Pontifex Bilrach'|~": {
 				"Category": ["Untracked Uniques", "Untracked Uniques Skilling"],
 				"Label": "Untracked Skilling Uniques",
-				"Chunks": ["Empty Throne Room"]
+				"Items": ["Senntisten scroll"]
 			},
 			"(Empty Throne Room) Obtain the ~|damaged letter|~": {
 				"Category": ["Untracked Uniques", "Untracked Uniques Skilling"],
 				"Label": "Untracked Skilling Uniques",
-				"Chunks": ["Empty Throne Room"]
+				"Items": ["Senntisten scroll"]
 			},
 			"(Het's Oasis) Obtain a ~|piece of Het|~": {
 				"Category": ["Untracked Uniques", "Untracked Uniques Skilling"],
@@ -142125,7 +142502,9 @@
 				"UnlocksArea": true
 			},
 			"Howl's Workshop": {
-				"Items": ["Wingsuit v3", "Stormguard gerege"],
+				"Tasks": {
+					"Archaeology Mystery: ~|Howl's Floating Workshop|~ 1": "Quest"
+				},
 				"UnlocksArea": true
 			},
 			"Warforge Crucible": {
@@ -142483,7 +142862,7 @@
 			"Guthixian ruins": {
 				"UnlocksArea": true
 			},
-			"Naragi homeworld": {
+			"Naragun": {
 				"UnlocksArea": true
 			},
 			"Mr Mordaut's Office": {
@@ -142519,13 +142898,13 @@
 			},
 			"Xolo City": {
 				"Tasks": {
-					"Archaeology Mystery: ~|Fragmented Memories|~ Complete the mystery": "Quest"
+					"Gain entry to ~|Xolo City|~*": "Nonskill"
 				},
 				"UnlocksArea": true
 			},
 			"Moksha Ritual Site": {
 				"Tasks": {
-					"Archaeology Mystery: ~|Know Thy Measure|~ Complete the mystery": "Quest"
+					"Archaeology Mystery: ~|Know Thy Measure|~ 3": "Quest"
 				},
 				"UnlocksArea": true
 			},
@@ -142621,7 +143000,7 @@
 			"Guthixian Cache": {
 				"UnlocksArea": true
 			},
-			"Sunken tutorial island": {
+			"Sunken Tutorial Island": {
 				"Tasks": {
 					"~|Beneath Cursed Tides|~ 3": "Quest"
 				},
@@ -142852,6 +143231,12 @@
 			},
 			"Senntisten Asylum": {
 				"UnlocksArea": true
+			},
+			"Plague's End Areas": {
+				"UnlocksArea": true,
+				"Tasks":{
+					"~|Plague's End|~ 1": "Quest"	
+				}
 			},
 			"Paddlington": {
 				"UnlocksArea": true,
@@ -143488,7 +143873,7 @@
 				"Output": "Helm of Terror (inside)"
 			},
 			"Get the Helm of Terror (outside) from General Wartface*": {
-				"Items": ["Dorgeshuun spear", "Huzamogaarb chaos crown", "Saragorgak star crown", "Drogokishuun hook sword", "Horogothar cooking pot", "'Da Boss Man' sculpture"],
+				"Items": ["Dorgeshuun spear", "Huzamogaarb chaos crown", "Saragorgak star crown", "Drogokishuun hook sword", "Horogothgar cooking pot", "'Da Boss Man' sculpture"],
 				"NPCs": ["General Wartface"],
 				"Output": "Helm of Terror (outside)"
 			},
@@ -143497,9 +143882,9 @@
 				"Output": "Helm of Terror"
 			},
 			"Get the Mask of Aurelius from Aurelius*": {
-				"Items": ["Inquisitor's Memoirs (page 1)", "Inquisitor's Memoirs (page 2)", "Inquisitor's Memoirs (page 3)", "Inquisitor's Memoirs (page 4)", "Inquisitor's Memoirs (page 5)", "Inquisitor's Memoirs (page 6)", "Inquisitor's Memoirs (page 7)", "Inquisitor's Memoirs (page 8)"],
-				"NPCs": ["Aurelius"],
-				"Output": "Mask of Aurelius"
+				"Items": ["Inquisitor's Memoirs (page 1)", "Inquisitor's Memoirs (page 2)", "Inquisitor's Memoirs (page 3)", "Inquisitor's Memoirs (page 4)", "Inquisitor's Memoirs (page 6)", "Inquisitor's Memoirs (page 7)", "Inquisitor's Memoirs (page 8)"],
+				"Chunks": ["Senntisten"],
+				"Output": "Aurelius's Mask"
 			},
 			"Stuff a big bass*": {
 				"Items": ["Big bass"],
@@ -144496,23 +144881,23 @@
 			},
 			"Complete the archaeology collection 'Finery of the Inquisition'":{
 				"Items": ["Inquisitor's ceremonial armour", "Inquisitor's ceremonial mask", "Inquisitor's seal"],
-				"NPCs": ["Elbis"]
+				"NPCs": ["Eblis"]
 			},
 			"Complete the archaeology collection 'Religious Iconography'":{
 				"Items": ["Apex cap", "Infula robes", "Loarnab rod", "'The Serpent's Fall' carving"],
-				"NPCs": ["Elbis"]
+				"NPCs": ["Eblis"]
 			},
 			"Complete the archaeology collection 'Urns of the Empire'":{
 				"Items": ["Funerary urn of shadow", "Funerary urn of smoke", "Funerary urn of ice", "Funerary urn of blood", "Funerary urn of miasma"],
-				"NPCs": ["Elbis"]
+				"NPCs": ["Eblis"]
 			},
 			"Complete the archaeology collection 'Entertaining the Masses'":{
 				"Items": ["Decorative amphora", "Gladiator helmet", "Gladiator sword", "Model chariot"],
-				"NPCs": ["Elbis"]
+				"NPCs": ["Eblis"]
 			},
 			"Complete the archaeology collection 'Imperial Sorcery'":{
 				"Items": ["'Incite Fear' spell scroll", "Curse tablet", "Hand of the Ancients", "'Exsanguinate' spell scroll", "Necromantic focus", "'Smoke Cloud' spell scroll", "Ancient magic tablet", "'Animate Dead' spell scroll"],
-				"NPCs": ["Elbis"]
+				"NPCs": ["Eblis"]
 			},
 			"Complete the archaeology collection 'Red Rum Relics I'":{
 				"Items": ["Ork cleaver sword", "Ogre Kyzaj axe", "Beastkeeper helm", "'Nosorog!' sculpture"],
@@ -144728,7 +145113,7 @@
 				"NPCs": ["Velucia"]
 			},
 			"Complete the archaeology collection 'Museum - Zarosian VII'":{
-				"Items": ["Gladiator helmet", "Gladior sword", "Funerary urn of blood", "Funerary urn of miasma", "Model chariot", "'The Serpent's Fall' carving"],
+				"Items": ["Gladiator helmet", "Gladiator sword", "Funerary urn of blood", "Funerary urn of miasma", "Model chariot", "'The Serpent's Fall' carving"],
 				"NPCs": ["Velucia"]
 			},
 			"Complete the archaeology collection 'Museum - Bandosian I'":{
@@ -145689,7 +146074,7 @@
 				"Output": "Consecrated keris"
 			},
 			"Create a sated dimensional pouch*": {
-				"Items": ["Hugry hood", "Small pouch", "Medium pouch", "Large pouch", "Giant pouch", "Massive pouch", "AnyTalisman[+]"],
+				"Items": ["Hungry hood", "Small pouch", "Medium pouch", "Large pouch", "Giant pouch", "Massive pouch", "AnyTalisman[+]"],
 				"Output": "Sated dimensional pouch"
 			},
 			"Crafting to Your Own Rune*": {
@@ -145754,6 +146139,30 @@
 				},
 				"Output": "Human tooth"
 			},
+			"Obtain the Totem of Treasure base*": {
+				"NPCs": ["AncientZygomites[+]x20"],
+				"Output": "Totem of Treasure base"
+			},
+			"Obtain the Totem of Navigation middle*": {
+				"NPCs": ["AncientZygomites[+]x40"],
+				"Output": "Totem of Navigation middle"
+			},
+			"Obtain the Totem of Auras top*": {
+				"NPCs": ["AncientZygomites[+]x60"],
+				"Output": "Totem of Auras top"
+			},
+			"Obtain the Remototem top*": {
+				"Chunks": ["14916"],
+				"Skills": {
+					"Farming": 42,
+					"Construction": 45
+				},
+				"Output": "Remototem top"
+			},
+			"Obtain the Remototem middle*": {
+				"Chunks": ["AnachroniaRockChunks[+]"],
+				"Output": "Remototem middle"
+			},
 			"Assemble the Totem of Treasure": {
 				"Items": ["Totem of Treasure top", "Totem of Treasure middle", "Totem of Treasure base"],
 				"Output": "Totem of Treasure"
@@ -145794,13 +146203,88 @@
 				"Items": ["Holy aggroverload recipe fragment 1*", "Holy aggroverload recipe fragment 2*", "Holy aggroverload recipe fragment 3*", "Holy aggroverload recipe fragment 4*"],
 				"Output": "Holy aggroverload recipe"
 			},
-			"Assemble the powerburst of opporunity recipe": {
-				"Items": ["Powerburst of opporunity fragment 1*", "Powerburst of opporunity recipe fragment 2*", "Powerburst of opporunity recipe fragment 3*", "Powerburst of opporunity recipe fragment 4*"],
-				"Output": "Powerburst of opporunity recipe"
+			"Assemble the powerburst of opportunity recipe": {
+				"Items": ["Powerburst of opportunity recipe fragment 1*", "Powerburst of opportunity recipe fragment 2*", "Powerburst of opportunity recipe fragment 3*", "Powerburst of opportunity recipe fragment 4*"],
+				"Output": "Powerburst of opportunity recipe"
 			},
 			"Assemble the spirit attraction recipe": {
 				"Items": ["Spirit attraction recipe fragment 1*", "Spirit attraction recipe fragment 2*", "Archaeology potion recipe fragment 3*", "Spirit attraction recipe fragment 4*"],
 				"Output": "Spirit attraction recipe"
+			},
+			"~|Ritual of the Mahjarrat|~ requirements*": {
+				"Chunks": ["14646", "14902", "14638", "13613", "Lamistard's Tunnels", 
+					"11324", "Uzer Mastaba", "12854", "Chaos Temple Dungeon", "11575", "Sabbot's Cave", "11319", "11320", 
+					"13109", "12853", "11825", "Camdozaal", "12591", "13364", "12590", "12846", "13878", "Draynor Sewers", "11316", 
+					"14133", "12845", "11322", "11323", "13102", "Smoke Dungeon", "10037", "Shadow Dungeon", "Jaldraocht Pyramid", 
+					"13622", "11829", "11828", "13105", "13104", "12848", "Kalphite Nursery", "13365", "Senntisten Temple", "12596", 
+					"12086", "12850", "Dwarven Mine", "11570", "Melzar's Maze Basement", "12081", "12082", "12338", "11314", "11315", 
+					"Elvarg's Lair", "Lunar Isle Mine", "8253", "8508", "12589", "Enakhra's Temple", "Brimstail's cave", "10544", 
+					"9782", "9527", "9781", "FairyTaleI2[+]x5", "Zanaris", "11572", "11827", "12340", "Nature grotto", "10802", "8752", 
+					"Fairy Resistance Hideout", "Cosmic Entity plane", "Gorak Plane", "11317", "13107", "Witchaven Dungeon", "13110", 
+					"Edgeville Dungeon", "10289", "10553", "10806", "10552", "10808", "11064", "14391", "10548", "12083", "11062", 
+					"11830", "12342", "11573", "11574", "11828", "12597", "13872", "Ruins of Uzer", "Thammaron's Throne Room", "11823", 
+					"9526", "Grand Tree Mine", "10291", "10290", "Southern Ardougne sewer", "Ice Queen's lair", "11057", 
+					"Phoenix Gang Hideout", "13100", "13099", "Little Helper Pyramid", "13098", "11056", "11055", "11312", "11311", 
+					"Pothole Dungeon", "Asgarnian Ice Dungeon", "10804", "11053", "11309", "11565", "Viyeldi Caves", "12593", 
+					"Entrana Dungeon", "12849", "10297", "8763", "8252", "Air Rune Temple", "Fire Rune Temple", "Water Rune Temple", 
+					"Earth Rune Temple", "13106", "13620", "Paterdomus", "MortMyre[+]", "10033", "Gnome Village Dungeon", 
+					"Yewnock's cave", "9264", "Poison Waste Slayer Dungeon", "11569", "14647", "Braindeath Island", "10803", "11059", 
+					"11566", "11054", "11568", "Cairn Island Dungeon", "Witchaven Dungeon", "9780", "Mind Rune Temple", "The Skullery", 
+					"12339", "10810", "Erjolf's cave", "10811", "13359", "Mahjarrat Ritual Site Cavern", "Tears of Guthix cavern", 
+					"The Barrows", "Ghorrock Fortress Dungeon", "Temple of Ikov", "10034", "9779", "11576", "Troll Stronghold", 
+					"Taverley Dungeon", "12852", "SolusLocation[+]", "Dorgesh-Kaan mine", "Rune Essence mine", "10038", 
+					"Gnome Village Dungeon", "Glarial's Tomb", "Waterfall cave", "13108", "11826", "12084", "12343", 
+					"EnterTheAbyss3[+]x3", "Tunnel of Chaos"],
+				"Skills": {
+					"Agility": 77,
+					"Crafting": 76,
+					"Mining": 76,
+					"Prayer": 50,
+					"Farming": 65,
+					"Thieving": 66,
+					"Ranged": 64,
+					"Runecrafting": 50,
+					"Fletching": 50,
+					"Smithing": 65,
+					"Hunter": 55,
+					"Construction": 35,
+					"Cooking": 53,
+					"Magic": 75,
+					"Firemaking": 50,
+					"Woodcutting": 55,
+					"Slayer": 56,
+					"Strength": 64,
+					"Summoning": 41,
+					"Herblore": 65,
+					"Defence": 40,
+					"Fishing": 53
+				},
+				"Not F2P": true,
+				"NoBoost": true
+			},
+			"Gain entry to ~|Xolo City|~*": {
+				"Chunks": ["15683", "Observation Outpost", "16193", "16704", "15936"],
+				"Items": ["Small fishing net", "Rope", "Orgone*", "Carbon black*", "Compass rose*", "Dragon metal*"],
+				"Objects": ["Archaeologist's workbench"],
+				"Skills": {
+					"Archaeology": 108
+				},
+				"Tasks": {
+					"Become an ~|archaeology associate|~": "Archaeology"
+				},
+				"Not F2P": true
+			},
+			"Receive the rotten journal*": {
+				"Chunks": ["15407", "14638", "13366"],
+				"Output": "Rotten journal"
+			},
+			"Obtain the Holy Cithara*": {
+				"Chunks": ["Abbey of St. Elspeth Citharede Cellar"],
+				"Items": ["Ring of visibility", "Ghostspeak amulet", "SaradominEquipment[+]x6"],
+				"Tasks": {
+					"~|One Piercing Note|~ Complete the quest": "Quest"
+				},
+				"Output": ["Holy Cithara"]
 			}
 		}
 	},
@@ -149425,7 +149909,7 @@
 			"Connect": {
 				"9541": true
 			},
-			"Name": "Naragi homeworld"
+			"Name": "Naragun"
 		},
 		"8030": {
 			"Object": {
@@ -169394,7 +169878,8 @@
 				"Material cache (fossilised bone)": 3
 			},
 			"Monster": {
-				"Bat": 12
+				"Bat": 12,
+				"Skeletal horror": 1
 			},
 			"NPC": {
 				"Squire Fyre": 1,
@@ -171855,6 +172340,10 @@
 			"Quest": {
 				"Ritual of the Mahjarrat": "step"
 			},
+			"Spawn": {
+				"Pestilent journal": 1,
+				"Blasphemous journal": 1
+			},
 			"Nickname": "West Mos Le'Harmless Jungle"
 		},
 		"14641": {
@@ -172445,17 +172934,14 @@
 			"Nickname": "The Adventerous"
 		},
 		"14915": {
-			"1": {
-				"Object": {
-					"Bank chest": 1,
-					"Mystical tree": 1
-				},
-				"NPC": {
-					"Ben": 1,
-					"Scruffy zygomite": 3
-				}
+			"Object": {
+				"Bank chest": 1,
+				"Mystical tree": 1
 			},
-			"2": {},
+			"NPC": {
+				"Ben": 1,
+				"Scruffy zygomite": 3
+			},
 			"Nickname": "Dinosaur Farm Entrance"
 		},
 		"14916": {
@@ -173012,19 +173498,9 @@
 			"Nickname": "Anachronia Peninsula West Corner"
 		},
 		"15169": {
-			"1": {
-				"Object": {
-					"Flower": 1,
-					"Material cache (felt)": 4
-				},
-				"NPC": {
-					"Olivia (Ancient zygomite)": 1
-				}
-			},
-			"2": {
-				"NPC": {
-					"Mac (Ancient zygomite)": 1
-				}
+			"NPC": {
+				"Mac (Ancient zygomite)": 1,
+				"Olivia (Ancient zygomite)": 1
 			},
 			"Nickname": "Anachronia West Excavation Site"
 		},
@@ -173390,7 +173866,7 @@
 			},
 			"NPC": {
 				"Dee (Ancient zygomite)": 1,
-				"Mac (Ancient zygomite)": 1
+				"Frank (Ancient zygomite)": 1
 			},
 			"Nickname": "Anachronia Western Peninsula"
 		},
@@ -173415,7 +173891,7 @@
 			"Object": {
 				"Dragonkin statue": 1,
 				"Flower": 3,
-				"Light animica rock (Anachronia)": 3,
+				"Light animica rock": 3,
 				"Vines (Anachronia Agility Course)": 1
 			},
 			"NPC": {
@@ -173444,9 +173920,9 @@
 		},
 		"15428": {
 			"Object": {
-				"Adamantite rock (Anachronia)": 5,
+				"Adamantite rock": 5,
 				"Flower": 1,
-				"Luminite rock (Anachronia)": 4,
+				"Luminite rock": 4,
 				"Orthen teleportation device": 1
 			},
 			"NPC": {
@@ -174029,6 +174505,9 @@
 				"Noel (Ancient zygomite)": 1,
 				"Raj (Ancient zygomite)": 1
 			},
+			"Spawn": {
+				"Totem of Crystal middle": 1
+			},
 			"Quest": {
 				"Desperate Measures": "step"
 			},
@@ -174281,6 +174760,9 @@
 				"Grenwall (Anachronia)": 4,
 				"Morty (Ancient zygomite)": 1
 			},
+			"Spawn": {
+				"Totem of the Abyss base": 1
+			},
 			"Connect": {
 				"20": true
 			},
@@ -174361,6 +174843,9 @@
 		"16198": {
 			"Object": {
 				"Flower": 2
+			},
+			"NPC": {
+				"Juice (Ancient zygomite)": 1
 			},
 			"Monster": {
 				"Brutish dinosaur": 5,
@@ -174511,7 +174996,7 @@
 		},
 		"16448": {
 			"Object": {
-				"Dark animica rock (Anachronia)": 4,
+				"Dark animica rock": 4,
 				"Door": 1,
 				"Crashed star": 1
 			},
@@ -174923,6 +175408,9 @@
 				"Slayer Equipment": true,
 				"Slayer Rewards": true
 			},
+			"Spawn": {
+				"Totem of Navigation top": 1
+			},
 			"Connect": {
 				"19": true,
 				"22828": true
@@ -175270,6 +175758,9 @@
 			"NPC": {
 				"Diseased jadinko (Anachronia)": 3,
 				"Leonard (Ancient zygomite)": 1
+			},
+			"Spawn": {
+				"Totem of Intimidation top": 1
 			},
 			"Nickname": "Anachronia North-East Isles"
 		},
@@ -177932,7 +178423,7 @@
 				"Brother Brace": 1,
 				"Fish": 3
 			},
-			"Name": "Sunken tutorial island"
+			"Name": "Sunken Tutorial Island"
 		},
 		"20772": {
 			"Object": {
@@ -178097,7 +178588,7 @@
 				"Fish": 2,
 				"Chicken": 5
 			},
-			"Name": "Sunken tutorial island"
+			"Name": "Sunken Tutorial Island"
 		},
 		"21023": {
 			"Object": {
@@ -184634,7 +185125,7 @@
 				"Zamorakian hound master": 1,
 				"Zamorakian hunter": 1,
 				"Zamorakian ritual keeper": 1,
-				"Berserk Archaelogist": 1,
+				"Berserk Archaeologist": 1,
 				"Cerberus Juvinile": 1,
 				"Denizen of Infernus": 1,
 				"Desha, Guardian of the Hounds": 1,
@@ -187437,7 +187928,7 @@
 				"The World Wakes": "step"
 			}
 		},
-		"Naragi homeworld": {
+		"Naragun": {
 			"Object": {
 				"Skargaroth": 1,
 				"Temple ruins": 1,
@@ -188096,7 +188587,7 @@
 				"16994": true
 			}
 		},
-		"Sunken tutorial island": {
+		"Sunken Tutorial Island": {
 			"Object": {
 				"Bookcase": 13,
 				"Water barrel": 1,
@@ -189769,7 +190260,7 @@
 				"Piscatorian cottontail rabbit (unchecked)",
 				"Rellekkan cream rabbit (unchecked)"
 			],
-			"AllSalamander[+]": [
+			"AllSalamanders[+]": [
 				"Green salamander (unchecked)",
 				"Orange salamander (unchecked)",
 				"Red salamander (unchecked)",
@@ -189781,14 +190272,12 @@
 				"Scimitops blavum (unchecked)"
 			],
 			"AllSheep[+]": [
-				"White ram (unchecked)",
-				"White sheep (unchecked)",
-				"Black ram (unchecked)",
-				"Black sheep (unchecked)",
-				"Summerdown sheep (unchecked)",
-				"Springsheared sheep (unchecked)",
-				"Winterwold sheep (unchecked)",
-				"Fallfaced sheep (unchecked)"
+				"White ewe (unchecked)",
+				"Black ewe (unchecked)",
+				"Summerdown ewe (unchecked)",
+				"Springsheared ewe (unchecked)",
+				"Winterwold ewe (unchecked)",
+				"Fallfaced ewe (unchecked)"
 			],
 			"AllSpicatiApoterrasaurs[+]": [
 				"Spicati apoterrasaur (unchecked)",
@@ -189806,14 +190295,14 @@
 			],
 			"AllVaranusaurs[+]": [
 				"Feral dinosaur (unchecked)",
-				"Venemous dinosaur (unchecked)",
+				"Venomous dinosaur (unchecked)",
 				"Ripper dinosaur (unchecked)"
 			],
 			"AllYaks[+]": [
 				"Fremennik yak (unchecked)",
 				"Spirit yak (unchecked)"
 			],
-			"AllZyogmites[+]": [
+			"AllZygomites[+]": [
 				"Gloomshroom zygomite (unchecked)",
 				"Zanarian zygomite (unchecked)",
 				"Daemoncap zygomite (unchecked)",
@@ -192760,6 +193249,17 @@
 				"Sandstone (2kg)",
 				"Sandstone (5kg)"
 			],
+			"SaradominEquipment[+]": [
+				"Citharede hood", "Saradomin full helm", "Warpriest of Saradomin helm", "Relic helm of Saradomin", "Saradomin d'hide coif", "Saradomin mitre",
+				"Saradomin cloak", "Saradomin cape", "Warpriest of Saradomin cape",
+				"Citharede robe top", "Monk's robe (top)", "Saradomin platebody", "Warpriest of Saradomin cuirass", "Saradomin d'hide body", "Saradomin robe top",
+				"Citharede robe bottom", "Monk's robe (bottom)", "Saradomin plateskirt", "Saradomin platelegs", "Warpriest of Saradomin greaves", "Saradomin d'hide chaps", "Saradomin robe legs",
+				"Saradomin staff", "Saradomin mjolnir", "Saradomin godsword", "Saradomin sword", "Banner of Saradomin", "Saradomin chisel",
+				"Saradomin arrows",
+				"Sarradomin vambraces", "Warpriest of Saradomin gauntlets",
+				"Warpriest of Saradomin boots",
+				"Damaged book (Saradomin)"
+			],
 			"SaradominPotion[+]": [
 				"Saradomin brew (1)",
 				"Saradomin brew (2)",
@@ -193719,8 +194219,7 @@
 			],
 			"Wingsuit[+]": [
 				"Wingsuit v1",
-				"Wingsuit v2",
-				"Wingsuit v3"
+				"Wingsuit v2"
 			],
 			"WinterwoldSheep[+]": [
 				"Winterwold ewe (unchecked)",
@@ -194776,8 +195275,28 @@
 			"Air rune[+]": "Any air rune equivalent",
 			"AirTalisman[+]": "Any item that gives access to the air rune temple",
 			"AkrisaeArmour[+]": "Any piece of Akrisae's armour",
+			"AllArcaneApoterrasaurs[+]": "Any breedable arcane apoterrasaur",
+			"AllAsciatops[+]": "Any breedable asciatops",
+			"AllBagradaRex[+]": "Any breedable bagrada rex",
+			"AllBrutishDinosaurs[+]": "Any breedable brutish dinosaur",
 			"AllChickens[+]": "Any breedable chicken",
 			"AllChins[+]": "Any breedable chinchompa",
+			"AllCorbiculaRex[+]": "Any breedable corbicula rex",
+			"AllCows[+]": "Any breedable cow",
+			"AllDragons[+]": "Any breedable dragon",
+			"AllFrogs[+]": "Any breedable frog",
+			"AllJadinkos[+]": "Any breedable jadinko",
+			"AllMalletops[+]": "Any breedable malletops",
+			"AllOculiApoterrasaurs[+]": "Any breedable oculi apoterrasaur",
+			"AllPavosaurusRex[+]": "Any breedable pavosaurus rex",
+			"AllSalamanders[+]": "Any breedable salamander",
+			"AllScimitops[+]": "Any breedable scimitops",
+			"AllSheep[+]": "Any breedable sheep",
+			"AllSpicatiApoterrasaurs[+]": "Any breedable spicati apoterrasaur",
+			"AllSpiders[+]": "Any breedable spider",
+			"AllVaranusaurs[+]": "Any breedable varanusaur",
+			"AllYaks[+]": "Any breedable yak",
+			"AllZygomites[+]": "Any breedable zygomite",
 			"AllRabbits[+]": "Any breedable rabbit",
 			"AltSlayStaff[+]": "Any weapon that can replace a slayer's staff to cast slayer dart",
 			"AncientMagicRunes[+]": "Runes to cast a shadow spell",
@@ -195169,6 +195688,7 @@
 			"SacredOil[+]": "Any sacred oil vial",
 			"Salt[+]": "Any salt that can be used to kill Rock slugs",
 			"Sandstone[+]": "Any sandstone size",
+			"SaradominEquipment[+]": "Any piece of Saradomin-aligned equipment",
 			"SaradominPotion[+]": "Any Saradomin brew",
 			"Scabaras3BronzeEquipment[+]": "Any bronze equipment you may be asked for during 'Dealing with Scabaras'",
 			"Scabaras3PyramidPlunderLoot[+]": "Any pyramid plunder loot you may be asked for during 'Dealing with Scabaras'",
@@ -195382,6 +195902,7 @@
 		"chunksPlus": {
 			"10coin chest[+]": ["10291", "10547", "10553", "12109"],
 			"50coin chest[+]": ["10291", "10547"],
+			"AnachroniaRockChunk[+]": ["16709", "16448", "15426", "15425", "15428", "16195"],
 			"AnyMenaphosChunk[+]": ["12587", "12843", "12586", "12841"],
 			"AnyMenaphosCatLocation[+]": ["12330", "12587", "12843", "12841"],
 			"AnyTotemChunk[+]": ["15943", "15171", "16705"],
@@ -195455,6 +195976,7 @@
 			"PoisonWasteChunks[+]": ["8752", "9008"],
 			"Pose[+]": ["12853", "Keldagrim"],
 			"POR[+]": ["14915", "14916", "14660", "14659"],
+			"PrayerAltarChunks[+]": ["11828", "10290", "10806", "12854", "Underground Pass", "10806", "10035", "10291", "12850", "Sunken Tutorial Island", "11825", "11574", "11575", "13617", "12086", "11316", "Goblin Temple", "8757", "8755", "9265", "Jaldraocht Pyramid", "12331", "13622", "13098", "10803", "Nature Grotto", "War's Retreat", "Senntisten Temple", "God Wars Dungeon", "Kharid-et - Barracks excavation site", "14388", "12087", "11830", "12852", "12856", "11835", "Yanille Agility Dungeon", "9778", "9012", "11056", "11051", "Uzer Mastaba", "8508", "13613", "11829", "7995"],
 			"PVP[+]": ["8493", "9005", "9520", "11831", "11832", "11833", "11834", "11837", "12087", "12088", "12089", "12090", "12091", "12092", "12343", "12344", "12347", "12348", "12599", "12600", "12603", "12604", "12605", "12855", "12856", "12859", "13111", "13114", "13367", "13368", "13372", "Forinthry Dungeon", "Gamers' Grotto", "TzHaar City"],
 			"RitualSite[+]": ["City of Um", "Ungael ritual site"],
 			"RockCrabChunks[+]": ["10810", "10042"],
@@ -195494,6 +196016,7 @@
 		"chunksPlusNames": {
 			"10coin chest[+]": "Any chunk with a 10-coin chest",
 			"50coin chest[+]": "Any chunk with a 50-coin chest",
+			"AnachroniaRockChunk[+]": "Any chunk with an Anachronia rock in it",
 			"AnyMenaphosChunk[+]": "Any chunk inside Menaphos",
 			"AnyMenaphosCatLocation[+]": "Any Menaphos cat location",
 			"AnyTotemChunk[+]": "Any chunk with a totem hotspot",
@@ -195567,6 +196090,7 @@
 			"PoisonWasteChunks[+]": "Any chunk from which you can get swamp tar from the poison waste",
 			"Pose[+]": "Any chunk from which you can complete the strike a pose achievement",
 			"POR[+]": "Any chunk that is part of the player-owned ranch",
+			"PrayerAltarChunks[+]": "Any chunk with a prayer altar in it",
 			"PVP[+]": "Any chunk where you can attack other players (Wilderness or minigame)",
 			"RitualSite[+]": "Any ritual site",
 			"RockCrabChunks[+]": "The Fremennik coast and waterbirth island chunks that contain rock crabs",
@@ -196084,6 +196608,68 @@
 			"HAMMember[+]": "Anything that counts as a H.A.M. Member for 'Lost My Marbles'"
 		},
 		"npcsPlus": {
+			"AncientZygomites[+]": [
+				"Frank (Ancient zygomite)",
+				"Pete (Ancient zygomite)",
+				"Travis (Ancient zygomite)",
+				"Wayne (Ancient zygomite)",
+				"Beverly (Ancient zygomite)",
+				"Morty (Ancient zygomite)",
+				"Dabby (Ancient zygomite)",
+				"Pat (Ancient zygomite)",
+				"June (Ancient zygomite)",
+				"Stuart (Ancient zygomite)",
+				"Clay (Ancient zygomite)",
+				"Nate (Ancient zygomite)",
+				"Howard (Ancient zygomite)",
+				"Carter (Ancient zygomite)",
+				"Bernadette (Ancient zygomite)",
+				"Raj (Ancient zygomite)",
+				"Noel (Ancient zygomite)",
+				"James (Ancient zygomite)",
+				"Jerry (Ancient zygomite)",
+				"Abel (Ancient zygomite)",
+				"John (Ancient zygomite)",
+				"Charlie (Ancient zygomite)",
+				"Dennis (Ancient zygomite)",
+				"Rami (Ancient zygomite)",
+				"Bobby (Ancient zygomite)",
+				"Edd (Ancient zygomite)",
+				"Nero (Ancient zygomite)",
+				"Happy (Ancient zygomite)",
+				"Dank (Ancient zygomite)",
+				"Opie (Ancient zygomite)",
+				"Cricket (Ancient zygomite)",
+				"Olivia (Ancient zygomite)",
+				"Mac (Ancient zygomite)",
+				"Dee (Ancient zygomite)",
+				"Tig (Ancient zygomite)",
+				"Jenny (Ancient zygomite)",
+				"Juice (Ancient zygomite)",
+				"Jeremy (Ancient zygomite)",
+				"Leonard (Ancient zygomite)",
+				"Chibs (Ancient zygomite)",
+				"Tara (Ancient zygomite)",
+				"Gemma (Ancient zygomite)",
+				"Jax (Ancient zygomite)",
+				"Beth (Ancient zygomite)",
+				"Penny (Ancient zygomite)",
+				"Jessica (Ancient zygomite)",
+				"Taylor (Ancient zygomite)",
+				"Amy (Ancient zygomite)",
+				"Summer (Ancient zygomite)",
+				"Chris (Ancient zygomite)",
+				"Richard (Ancient zygomite)",
+				"Rick (Ancient zygomite)",
+				"Barry (Ancient zygomite)",
+				"Sheldon (Ancient zygomite)",
+				"Ruth (Ancient zygomite)",
+				"Dave (Ancient zygomite)",
+				"Eddy (Ancient zygomite)",
+				"Liam (Ancient zygomite)",
+				"Mary (Ancient zygomite)",
+				"Ed (Ancient zygomite)"
+			],
 			"Dyer[+]": ["Aggie", "Rana the dyer"],
 			"Gecko[+]": ["Gecko", "Baby gecko"],
 			"GodEmissaries[+]": ["Endwyr, Emissary of Seren", "Hannu, Emissary of V", "Holstein, Emissary of the Godless", "Julienne, Emissary of Saradomin", "Moldark, Emissary of Zamorak", "Murknose, Emissary of Bandos", "Relomia, Emissary of Sliske", "Soran, Emissary of Zaros", "Taw'Paak, Emissary of Armadyl"],
@@ -196099,6 +196685,7 @@
 			"CrystalToolNPC[+]": ["Ilfeen", "Eluned", "Islwyn", "Rhodri Dail"]
 		},
 		"npcsPlusNames": {
+			"AncientZygomites[+]": "Any ancient zygomite",
 			"Dyer[+]": "Access to either Rana or Aggie",
 			"Gecko[+]": "Any catchable gecko pet",
 			"GodEmissaries[+]": "Any God Emissary",
@@ -196189,7 +196776,7 @@
 				"Complete the archaeology collection 'Hat Hoarder'", 
 				"Complete the archaeology collection 'Magic Man'", 
 				"Complete the archaeology collection 'Knowledge is Power'", 
-				"Complete the archaeology collection 'Desperate for Artefacts'*"
+				"Complete the archaeology collection ~|'Desperate for Artefacts'|~*"
 			],
 			"AnyMystery[+]": [
 				"Archaeology Mystery: ~|Breaking the Seal|~ Complete the mystery", 
@@ -196230,7 +196817,7 @@
 				"Archaeology Mystery: ~|Decimation|~ Complete the mystery", 
 				"Archaeology Mystery: ~|The Forgotten Prisoner|~ Complete the mystery", 
 				"Archaeology Mystery: ~|Shadow Fall|~ Complete the mystery", 
-				"Archaeology Mystery: ~|The Vault of Shadows|~ Complete the mystery", 
+				"Archaeology Mystery: ~|The Vault of Shadows (mystery)|~ Complete the mystery", 
 				"Archaeology Mystery: ~|Fragmented Memories|~ Complete the mystery", 
 				"Archaeology Mystery: ~|Heart of the Forge|~ Complete the mystery", 
 				"Archaeology Mystery: ~|I Am Become Death|~ Complete the mystery", 
@@ -196365,7 +196952,7 @@
 				"Wield a ~|runic staff|~"
 			],
 			"MindAccess[+]": ["Access the mind rune temple with a talisman*", "Access the mind rune temple through the abyss*"],
-			"MissingMyMummyPartial[+]": ["~|Missing My Mummy|~ 5b", "~|Missing My Mummy|~ 5c", "~|Missing My Mummy|~ 5d1", "~|Missing My Mummy|~ 5d2", "~|Missing My Mummy|~ 5d3", "~|Missing My Mummy|~ 5e1", "~|Missing My Mummy|~ 5e2", "~|Missing My Mummy|~ 5e3", "~|Missing My Mummy|~ 5e4", "~|Missing My Mummy|~ 5f3a", "~|Missing My Mummy|~ 5f4b2", "~|Missing My Mummy|~ 5g3"],
+			"MissingMyMummyPartial[+]": ["~|Missing My Mummy|~ 5b", "~|Missing My Mummy|~ 5c", "~|Missing My Mummy|~ 5d1", "~|Missing My Mummy|~ 5d2", "~|Missing My Mummy|~ 5d3", "~|Missing My Mummy|~ 5e1", "~|Missing My Mummy|~ 5e2", "~|Missing My Mummy|~ 5e3", "~|Missing My Mummy|~ 5e4", "~|Missing My Mummy|~ 5f3a", "~|Missing My Mummy|~ 5f3b2", "~|Missing My Mummy|~ 5g3"],
 			"More Fletcher than Sumona[+]": ["Easy Desert tasks ~|More Fletcher than Sumona|~ (Arrows)*", "Easy Desert tasks ~|More Fletcher than Sumona|~ (Bolts)*"],
 			"NatureAccess[+]": ["Access the nature rune temple with a talisman*", "Access the nature rune temple through the abyss*"],
 			"RecipeSub[+]": ["~|Recipe for Disaster: Freeing the Mountain Dwarf|~ Complete the subquest", "~|Recipe for Disaster: Freeing the Goblin Generals|~ Complete the subquest", "~|Recipe for Disaster: Freeing Pirate Pete|~ Complete the subquest", "~|Recipe for Disaster: Freeing the Lumbridge Sage|~ Complete the subquest", "~|Recipe for Disaster: Freeing Evil Dave|~ Complete the subquest", "~|Recipe for Disaster: Freeing King Awowogei|~ Complete the subquest", "~|Recipe for Disaster: Freeing Sir Amik Varze|~ Complete the subquest", "~|Recipe for Disaster: Freeing Skrach Uglogwee|~ Complete the subquest"],
@@ -202362,6 +202949,14 @@
 		},
 		"Bedabin nomad fighter": {
 			"Bones": {
+				"1": "Always"
+			}
+		},
+		"Berserk Archaeologist": {
+			"Dungeoneering token": {
+				"5000": "Always"
+			},
+			"Archaeology Journal - H.F.A": {
 				"1": "Always"
 			}
 		},
@@ -241281,7 +241876,7 @@
 			"Miner's journal 5": {
 				"1": "1/100"
 			},
-			"The diary of Jebediah Omnis": {
+			"The Diary of Jebediah Omnis": {
 				"1": "1/100"
 			},
 			"Ripper claw": {
@@ -253259,7 +253854,7 @@
 		"Back to the Freezer": "10290, 10553, 13101, 10558, 10559, Killerwatt Plane",
 		"Battle of the Monolith": "13365, 13364",
 		"Battle of Forinthry": "13111, Prison (Fort Forinthry)",
-		"Beneath Cursed Tides": "12337, 12342, 11824, Sunken tutorial island",
+		"Beneath Cursed Tides": "12337, 12342, 11824, Sunken Tutorial Island",
 		"Beneath Scabaras' Sands": "12586, 13105, 13358, 13613, 13098, Grand Library of Menaphos, Uzer Mastaba, 13972, 12844, 12845, 12846, 12590, 12847, 13103, 13102, Scabarite Cavern",
 		"Between a Rock...": "Keldagrim, 12085, Dwarven Mine, Dwarven Tunnel, Arzinian gold mine",
 		"Big Chompy Bird Hunting": "10542, Rantz's cave",
@@ -253300,7 +253895,7 @@
 		"Death to the Dorgeshuun": "Dorgesh-Kaan mine, Lumbridge Cellar, 12850, H.A.M. Cave, H.A.M. store rooms, Tears of Guthix cavern, 112851, Watermill cellar",
 		"Defender of Varrock": "12854, 13109, 12853, Chaos Temple Dungeon, 11825, Camdozaal",
 		"Demon Slayer": "12854, 12852",
-		"Desert Treasure": "12591, 13364, 12590, 12846, 13878, Draynor sewers, 11316, 14133, 12845, 11322, 11323, 13102, Smoke Dungeon, 10037, Shadow Dungeon, Jaldraocht Pyramid",
+		"Desert Treasure": "12591, 13364, 12590, 12846, 13878, Draynor Sewers, 11316, 14133, 12845, 11322, 11323, 13102, Smoke Dungeon, 10037, Shadow Dungeon, Jaldraocht Pyramid",
 		"Desperate Creatures": "11575, 15426, 15171, 15172, 15940, 15939, 15683, 16449, 16193, 16451, 16708, 16964, 16195",
 		"Desperate Measures": "11575, 15939, 15684, 14916, 16709, 8761, 13356, 15683, 15941, 15172, 15428",
 		"Desperate Times": "11575, 8761, 10550, 13365, 12087, 11831, 12854, 8761",
@@ -253386,10 +253981,10 @@
 		"Kindred Spirits": "11574, 12338, 13881, 14131",
 		"King of the Dwarves": "Keldagrim, Lava Flow Mine, Barendir, Pretty Flower's Cave",
 		"King's Ransom": "10807, 10806, 11062, 11061, 10547, 12086",
-		"The Knight's Sword": "11828, 12854, 11825, Asgarnian Ice Dungeon,",
+		"The Knight's Sword": "11828, 12854, 11825, Asgarnian Ice Dungeon",
 		"Land of the Goblins": "Dorgesh-Kaan mine, Dorgesh-Kaan, Goblin Cave, 11571, Goblin Temple, 12338, 10549, Dorgesh-Kaan Agility Course",
 		"Legacy of Seergaze": "13622, Paterdomus, Columbarium, 13874, Burgh de Rott Myreque Hideout, Meiyerditch Myreque base, 14387, Meiyerditch Laboratories, 14386",
-		"Legends' Quest": "10804, 11053, 11309, 11565, Viyeldi caves",
+		"Legends' Quest": "10804, 11053, 11309, 11565, Viyeldi Caves",
 		"Let Them Eat Pie": "11573, 11318, 11574",
 		"The Light Within": "8756, Guthixian ruins, 8752, 9265, 8757, 8755, Waterfall cave, Tarddiad, 9268",
 		"The Lord of Vampyrium": "14385, 14641, Meiyerditch Myreque base, 14388, Burgh de Rott Myreque Hideout, Paterdomus, 12854",
@@ -253644,7 +254239,7 @@
 		"Decimation": "13361",
 		"The Forgotten Prisoner": "Kharid-et - Carcerem excavation site",
 		"Shadow Fall": "13361",
-		"The Vault of Shadows": "13361",
+		"The Vault of Shadows (mystery)": "13361",
 		"Fragmented Memories": "Moksha Ritual Site, 15936",
 		"Heart of the Forge": "9516",
 		"I Am Become Death": "15939",
@@ -254846,6 +255441,11 @@
 			"Skogre": {
 				"9775": [{
 					"~|Zogre Flesh Eaters|~ 1": "Quest"
+				}]
+			},
+			"Skeletal horror": {
+				"13366": [{
+					"~|Fur 'n Seek#Wish List|~ Complete the lore activity": "Quest"
 				}]
 			}
 		},
@@ -256625,7 +257225,7 @@
 			"Lucky Charm (Shadow Reef)": true,
 			"Lucky Charm (Zamorakian Undercity)": true,
 			"Sophanem slayer dungeon drop enhancer": true,
-			"Player-owned ports enhancer": true,
+			"Player-Owned Port enhancer": true,
 			"Vital spark drop enhancer": true,
 			"Shifting tombs reward enhancer": true,
 			"Death Lotus extract": true,
@@ -260875,7 +261475,7 @@
 				"Demonhide": "3/10",
 				"Third Age iron": "2/10",
 				"Imp mask (damaged)": "1/3",
-				"Less demon mask (damaged)": "1/3",
+				"Lesser demon mask (damaged)": "1/3",
 				"Greater demon mask (damaged)": "1/3",
 				"Cultist's diary page 1": "Uncommon",
 				"Cultist's diary page 2": "Uncommon",
@@ -261621,7 +262221,7 @@
 				"Lump of imcando metal": "Rare",
 				"Shard of imcando metal": "Rare",
 				"Slice of imcando metal": "Rare",
-				"Horogothar key": "Uncommon",
+				"Horogothgar key": "Uncommon",
 				"Tetracompass piece (left)": "1/1500",
 				"Tetracompass piece (right)": "1/1500",
 				"Tetracompass piece (dial)": "1/1500",
@@ -261685,7 +262285,7 @@
 				"Lump of imcando metal": "Rare",
 				"Shard of imcando metal": "Rare",
 				"Slice of imcando metal": "Rare",
-				"Horogothar key": "Uncommon",
+				"Horogothgar key": "Uncommon",
 				"Tetracompass piece (left)": "1/1500",
 				"Tetracompass piece (right)": "1/1500",
 				"Tetracompass piece (dial)": "1/1500",
@@ -261775,7 +262375,7 @@
 				"Lump of imcando metal": "Rare",
 				"Shard of imcando metal": "Rare",
 				"Slice of imcando metal": "Rare",
-				"Horogothar key": "Uncommon",
+				"Horogothgar key": "Uncommon",
 				"Tetracompass piece (left)": "1/1500",
 				"Tetracompass piece (right)": "1/1500",
 				"Tetracompass piece (dial)": "1/1500",
@@ -261834,7 +262434,7 @@
 				"Lump of imcando metal": "Rare",
 				"Shard of imcando metal": "Rare",
 				"Slice of imcando metal": "Rare",
-				"Horogothar key": "Uncommon",
+				"Horogothgar key": "Uncommon",
 				"Sealed clue scroll (hard)": "Rare",
 				"Tetracompass piece (left)": "1/1500",
 				"Tetracompass piece (right)": "1/1500",
@@ -262220,12 +262820,12 @@
 				"Tetracompass piece (needle)": "1/1500",
 				"Complete tome": "Varies"
 			},
-			"DragonkinRelinquary": {
+			"DragonkinReliquary": {
 				"Volcanic ash": "Common",
 				"Compass rose": "2.5/10",
 				"Dragon metal": "5/10",
 				"Goldrune": "2.5/10",
-				"Varaza (damaged)": "1/2",
+				"Vazara (damaged)": "1/2",
 				"Kilaya (damaged)": "1/2",
 				"Foothold": "Uncommon",
 				"On Varanusaurs": "Uncommon",
@@ -262309,7 +262909,7 @@
 				"Orthenglass": "3/10",
 				"Hellfire metal": "3/10",
 				"Leather scraps": "2/10",
-				"Hellfire haldie (damaged)": "1/3",
+				"Hellfire haladie (damaged)": "1/3",
 				"Hellfire katar (damaged)": "1/3",
 				"Hellfire zaghnal (damaged)": "1/3",
 				"Tetracompass piece (left)": "1/1500",
@@ -262901,7 +263501,7 @@
 				"Soapstone": "3/10",
 				"Malachite green": "3/10",
 				"Yu'biusk clay": "4/10",
-				"Horogothar cooking pot (damaged)": "1/2",
+				"Horogothgar cooking pot (damaged)": "1/2",
 				"'Da Boss Man' sculpture (damaged)": "1/2",
 				"Farewell to Kili": "Uncommon",
 				"Bertha": "Uncommon",
@@ -263178,7 +263778,7 @@
 				"Corbicula rex (unchecked)": "Rare",
 				"Corbicula gelum (unchecked)": "Rare",
 				"Corbicula malum (unchecked)": "Rare",
-				"Oculi apoterrasur (unchecked)": "Rare",
+				"Oculi apoterrasaur (unchecked)": "Rare",
 				"Oculi apoterrasaur oceanum (unchecked)": "Rare",
 				"Oculi apoterrasaur glacies (unchecked)": "Rare",
 				"Malletops (unchecked)": "Rare",
@@ -263582,7 +264182,7 @@
 				"Egg": "Always"
 			},
 			"BandosianBantanBreed": {
-				"Bandosian bantan hen (unchecked)": "Unknown"
+				"Bandosian bantam hen (unchecked)": "Unknown"
 			},
 			"VarrockianRedBreed": {
 				"Varrockian red hen (unchecked)": "Unknown"
@@ -264548,7 +265148,8 @@
 				"Compacted hides": "Uncommon",
 				"Crystal triskelion fragment 1": "Rare",
 				"Crystal triskelion fragment 2": "Rare",
-				"Crystal triskelion fragment 3": "Rare"
+				"Crystal triskelion fragment 3": "Rare",
+				"Hunter Mark": "Uncommon"
 			},
 			"Baby impling": {
 				"Chisel": {
@@ -266275,7 +266876,8 @@
 			"YellowSalamander": {
 				"Dinosaur rib bone": "1/1000",
 				"Reinforced dinosaur pelt": "1/1000",
-				"Compacted hides": "Uncommon"
+				"Compacted hides": "Uncommon",
+				"Hunter Mark": "Uncommon"
 			},
 			"Zombie impling": {
 				"Big bones": {
@@ -277001,7 +277603,7 @@
 				"Miner's journal 5": {
 					"1": "1/100"
 				},
-				"The diary of Jebediah Omnis": {
+				"The Diary of Jebediah Omnis": {
 					"1": "1/100"
 				},
 				"Ripper claw": {
