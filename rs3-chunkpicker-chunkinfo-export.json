@@ -31,6 +31,7 @@
 				"Chunks": ["9781"],
 				"Level": 85,
 				"Primary": true,
+				"Output": "Agile legs",
 				"Priority": 1
 			},
 			"Complete section D of the ~|Anachronia agility course|~": {
@@ -271,6 +272,7 @@
 					"~|Bar Crawl (miniquest)|~ Complete the miniquest": "Quest"
 				},
 				"Level": 90,
+				"Output": "Agile top",
 				"Primary": true,
 				"Priority": 1
 			},
@@ -318,6 +320,25 @@
 				},
 				"Priority": 3,
 				"NoPet": true
+			},
+			"Build the first tier of the spa in your ~|Anachronia base camp|~": {
+				"Chunks": ["15939"],
+				"Level": 40,
+				"Primary": false,
+				"Priority": 20
+			},
+			"Build the second tier of the spa in your ~|Anachronia base camp|~": {
+				"Chunks": ["15939"],
+				"Level": 70,
+				"Primary": false,
+				"Priority": 20
+			},
+			"Build the third tier of the spa in your ~|Anachronia base camp|~": {
+				"Chunks": ["15939"],
+				"Items": ["Essential oils*"],
+				"Level": 90,
+				"Primary": false,
+				"Priority": 20
 			},
 			"Cross the ~|boulder (God Wars Dungeon)|~": {
 				"Category": ["Shortcut"],
@@ -976,7 +997,7 @@
 			"Pickpocket a ~|Cave goblin|~ for quadruple loot": {
 				"Category": ["Multiple Pickpockets"],
 				"Level": 56,
-				"Monsters": ["Cave goblin"],
+				"Monsters": ["Cave goblin (Dorgesh-Kaan)"],
 				"Skills": {
 					"Thieving": 66
 				},
@@ -1198,6 +1219,17 @@
 				"Level": 74,
 				"Primary": false,
 				"Priority": 1,
+				"NoPet": true
+			},
+			"Cross the ~|rock (Poison Waste)|~": {
+				"Category": ["Shortcut"],
+				"Chunks": ["8752"],
+				"Level": 75,
+				"Tasks": {
+					"~|Plague's End|~ Complete the quest": "Quest"
+				},
+				"Primary": false,
+				"Priority": 20,
 				"NoPet": true
 			},
 			"Cross the hard ~|tunnel (Kalphite Hive)|~": {
@@ -1460,7 +1492,6 @@
 				"NoPet": true
 			},
 			"Barehand catch a ~|black warlock|~ in the Feldip Hills": {
-				"Chunks": ["FeldipHills[+]"],
 				"NPCs": ["Black warlock"],
 				"Level": 90,
 				"Skills": {
@@ -1472,7 +1503,7 @@
 				"NoPet": true
 			},
 			"Barehand catch a ~|black warlock|~ on Anachronia": {
-				"Chunks": ["BlackAnachronia[+]"],
+				"NPCs": ["Black warlock (Anachronia)"],
 				"Level": 90,
 				"Skills": {
 					"Hunter": 95
@@ -2400,8 +2431,10 @@
 				"Tasks": {
 					"Complete the ~|Archaeology tutorial|~": "Archaeology"
 				},
-				"Items": ["Giant pouch", "Abyssal thread"],
+				"NPCs": ["Isaura"],
+				"Items": ["Giant pouch", "Hookah pipe", "Opulent wine goblet", "Crest of Dagon", "'Disorder' painting", "Imp mask", "Lesser demon mask", "Greater demon mask", "Order of Dis robes", "Ritual dagger"],
 				"Level": 36,
+				"Ouput": "Threads of Fate",
 				"Primary": false,
 				"Priority": 8
 			},
@@ -6786,10 +6819,12 @@
 			},
 			"Create ~|The Subtle Blade|~": {
 				"Tasks": {
-					"Complete the ~|Archaeology tutorial|~": "Archaeology"
+					"Complete the ~|Archaeology tutorial|~": "Archaeology",
+					"~|The World Wakes|~ Complete the quest": "Quest"
 				},
-				"Items": ["Shard of the Blade", "Prototype godsword", "Historic components", "Base parts", "Timeworn components", "Vintage components"],
-				"Objects": ["Inventor's workbench", "Theoretical blueprint"],
+				"Items": ["Prototype godsword*", "Historic components*", "Base parts*", "Timeworn components*", "Vintage components*"],
+				"Objects": ["Inventor's workbench"],
+				"Chunks": ["Howl's Workshop", "10804"],
 				"Level": 112,
 				"Skills": {
 					"Invention": 111
@@ -7184,8 +7219,9 @@
 				"Tasks": {
 					"Complete the ~|Archaeology tutorial|~": "Archaeology"
 				},
-				"Items": ["Chuluu stone", "Quintessence", "Historic components", "Timeworn components", "Vintage components"],
-				"Objects": ["Inventor's workbench", "Theoretical blueprint"],
+				"Items": ["Chuluu stone*", "Quintessence*", "Historic components*", "Timeworn components*", "Vintage components*"],
+				"Objects": ["Inventor's workbench"],
+				"Chunks": ["Howl's Workshop"],
 				"Level": 118,
 				"Skills": {
 					"Invention": 108
@@ -8899,8 +8935,8 @@
 				"NoPet": true,
 				"NoBoost": true
 			},
-			"Wield a ~|primal|~ 2h sword": {
-				"Items": ["Primal 2h sword"],
+			"Wield a ~|primal weapon|~": {
+				"Items": ["PrimalWeapons"],
 				"Level": 99,
 				"Primary": false,
 				"Priority": 4,
@@ -19653,7 +19689,7 @@
 				"Priority": 1
 			},
 			"Craft an ~|orb of Armadyl|~": {
-				"Items": ["Shard of Armadyl*"],
+				"Items": ["Shards of Armadyl*"],
 				"Level": 77,
 				"Output": "Orb of Armadyl",
 				"Primary": true,
@@ -32137,7 +32173,7 @@
 			"Breed a ~|chocolate cow|~": {
 				"Category": ["Normal Farming"],
 				"Objects": ["Breeding paddock"],
-				"Items": ["Kandarin Cow (unchecked)"],
+				"Items": ["Kandarin cow (unchecked)"],
 				"Level": 49,
 				"Output": "ChocolateCowBreed",
 				"Primary": false,
@@ -32146,7 +32182,7 @@
 			"Breed a ~|strawberry cow|~": {
 				"Category": ["Normal Farming"],
 				"Objects": ["Breeding paddock"],
-				"Items": ["Kandarin Cow (unchecked)"],
+				"Items": ["Kandarin cow (unchecked)"],
 				"Level": 49,
 				"Output": "StrawberryCowBreed",
 				"Primary": false,
@@ -32155,7 +32191,7 @@
 			"Breed a ~|vanilla cow|~": {
 				"Category": ["Normal Farming"],
 				"Objects": ["Breeding paddock"],
-				"Items": ["Kandarin Cow (unchecked)"],
+				"Items": ["Kandarin cow (unchecked)"],
 				"Level": 49,
 				"Output": "VanillaCowBreed",
 				"Primary": false,
@@ -33253,7 +33289,7 @@
 			"Breed a ~|zanarian zygomite|~": {
 				"Category": ["Normal Farming"],
 				"Objects": ["Breeding paddock"],
-				"Items": ["ZanarianZygoParents"],
+				"Items": ["ZanarianZygoParents[+]"],
 				"Level": 81,
 				"Output": "ZanarianZygoBreed",
 				"Primary": false,
@@ -33262,7 +33298,7 @@
 			"Breed a ~|daemoncap zygomite|~": {
 				"Category": ["Normal Farming"],
 				"Objects": ["Breeding paddock"],
-				"Items": ["DaemonZygoParents"],
+				"Items": ["DaemonZygoParents[+]"],
 				"Level": 81,
 				"Output": "DaemonZygoBreed",
 				"Primary": false,
@@ -33271,7 +33307,7 @@
 			"Breed a ~|arcspore zygomite|~": {
 				"Category": ["Normal Farming"],
 				"Objects": ["Breeding paddock"],
-				"Items": ["ArcZygoParents"],
+				"Items": ["ArcZygoParents[+]"],
 				"Level": 81,
 				"Output": "ArcZygoBreed",
 				"Primary": false,
@@ -36947,7 +36983,10 @@
 				"Skills": {
 					"Fletching": 82
 				},
-				"Output": "Tempered fungal shaft",
+				"Tasks": {
+					"~|Extinction|~ Complete the quest": "Quest"
+				},
+				"Output": "Zygomite Hairstyling",
 				"Primary": true,
 				"Priority": 3
 			},
@@ -36956,6 +36995,9 @@
 				"Level": 87,
 				"Skills": {
 					"Farming": 1
+				},
+				"Tasks": {
+					"~|Extinction|~ Complete the quest": "Quest"
 				},
 				"Output": "EggSegg",
 				"Primary": true,
@@ -36966,6 +37008,9 @@
 				"Level": 95,
 				"Skills": {
 					"Agility": 1
+				},
+				"Tasks": {
+					"~|Extinction|~ Complete the quest": "Quest"
 				},
 				"Output": "Dinosaur 'propellant'",
 				"Primary": true,
@@ -43592,9 +43637,17 @@
 			},
 			"Catch a ~|golden warbler|~": {
 				"Items": ["Bird snare"],
-				"NPCs": ["Golden Warbler"],
+				"NPCs": ["Golden warbler"],
 				"Level": 5,
 				"Output": "GoldenWarbler",
+				"Primary": true,
+				"Priority": 1
+			},
+			"Catch a ~|golden warbler|~ on Anachronia": {
+				"Items": ["Bird snare"],
+				"NPCs": ["Golden warbler (Anachronia)"],
+				"Level": 5,
+				"Output": "GoldenWarblerAnachronia",
 				"Primary": true,
 				"Priority": 1
 			},
@@ -44078,7 +44131,7 @@
 				"Priority": 1
 			},
 			"Catch a ~|black warlock|~ with a net in the Feldip Hills": {
-				"Chunks": ["FeldipHills[+]"],
+				"NPCs": ["Black warlock"],
 				"Items": ["Butterfly jar", "ButterflyNet[+]"],
 				"NPCs": ["Black warlock"],
 				"Level": 45,
@@ -44087,7 +44140,7 @@
 				"Priority": 2
 			},
 			"Catch a ~|black warlock|~ with a net on Anachronia": {
-				"Chunks": ["BlackAnachronia[+]"],
+				"NPCs": ["Black warlock (Anachronia)"],
 				"Items": ["Butterfly jar", "ButterflyNet[+]"],
 				"Level": 45,
 				"Output": "BlackWarlockAnachronia",
@@ -44393,7 +44446,7 @@
 				"Priority": 3
 			},
 			"Catch a ~|pawya|~ in Tirannwn": {
-				"Chunks": ["Tirannwn[+]"],
+				"NPCs": ["Pawya"],
 				"Items": ["Box trap", "Papaya"],
 				"NPCs": ["Pawya"],
 				"Level": 66,
@@ -44402,7 +44455,7 @@
 				"Priority": 1
 			},
 			"Catch a ~|pawya|~ on Anachronia": {
-				"Chunks": ["PawyaAnachronia[+]"],
+				"NPCs": ["Pawya (Anachronia)"],
 				"Items": ["Box trap", "Papaya"],
 				"Level": 66,
 				"Output": "PawyaAnachronia",
@@ -44693,7 +44746,7 @@
 				"Priority": 3
 			},
 			"Catch a ~|grenwall|~ in Tirannwn": {
-				"Chunks": ["GrenwallTirannwn[+]"],
+				"NPCs": ["Grenwall"],
 				"Items": ["Box trap", "Raw pawya meat"],
 				"NPCs": ["Grenwall"],
 				"Level": 77,
@@ -44702,7 +44755,7 @@
 				"Priority": 1
 			},
 			"Catch a ~|grenwall|~ on Anachronia": {
-				"Chunks": ["GrenwallAnachronia[+]"],
+				"NPCs": ["Grenwall (Anachronia)"],
 				"Items": ["Box trap", "Raw pawya meat"],
 				"Level": 77,
 				"Output": "GrenwallAnachronia",
@@ -44844,10 +44897,9 @@
 			},
 			"Catch a ~|common jadinko|~ on Anachronia": {
 				"Items": ["Marasamaw plant"],
-				"NPCs": ["Common jadinko"],
-				"Chunks": ["CommonJadinkoAnachronia[+]"],
+				"NPCs": ["Common jadinko (Anachronia)"],
 				"Level": 80,
-				"Output": "CommonJadinko",
+				"Output": "CommonJadinkoAnachronia",
 				"Primary": true,
 				"Priority": 6
 			},
@@ -44883,10 +44935,9 @@
 			},
 			"Catch a ~|shadow jadinko|~ on Anachronia": {
 				"Items": ["Marasamaw plant"],
-				"NPCs": ["Shadow jadinko"],
-				"Chunks": ["16962"],
+				"NPCs": ["Shadow jadinko (Anachronia)"],
 				"Level": 81,
-				"Output": "ShadowJadinko",
+				"Output": "ShadowJadinkoAnachronia",
 				"Primary": true,
 				"Priority": 1
 			},
@@ -44917,10 +44968,9 @@
 			},
 			"Catch a ~|igneous jadinko|~ on Anachronia": {
 				"Items": ["Marasamaw plant"],
-				"NPCs": ["Igneous jadinko"],
-				"Chunks": ["IgneousJadinkoAnachronia[+]"],
+				"NPCs": ["Igneous jadinko (Anachronia)"],
 				"Level": 84,
-				"Output": "IgneousJadinko",
+				"Output": "IgneousJadinkoAnachronia",
 				"Primary": true,
 				"Priority": 1
 			},
@@ -44958,9 +45008,8 @@
 				"Priority": 3
 			},
 			"Catch a ~|cannibal jadinko|~ on Anachronia": {
-				"Items": ["Marasamaw plant"],
-				"NPCs": ["Cannibal jadinko"],
-				"Chunks": ["15430"],
+				"Items": ["Marasamaw plant", "JujuHunterPotion[+]"],
+				"NPCs": ["Cannibal jadinko (Anachronia)"],
 				"Level": 85,
 				"Output": "CannibalJadinko",
 				"Primary": true,
@@ -44975,11 +45024,10 @@
 				"Priority": 1
 			},
 			"Catch a ~|aquatic jadinko|~ on Anachronia": {
-				"Items": ["Marasamaw plant"],
-				"NPCs": ["Aquatic jadinko"],
-				"Chunks": ["AquaticJadinkoAnachronia[+]"],
+				"Items": ["Marasamaw plant", "JujuHunterPotion[+]"],
+				"NPCs": ["Aquatic jadinko (Anachronia)"],
 				"Level": 86,
-				"Output": "AquaticJadinko",
+				"Output": "AquaticJadinkoAnachronia",
 				"Primary": true,
 				"Priority": 2
 			},
@@ -45018,10 +45066,9 @@
 			},
 			"Catch a ~|amphibious jadinko|~ on Anachronia": {
 				"Items": ["Marasamaw plant"],
-				"NPCs": ["Amphibious jadinko"],
-				"Chunks": ["16196"],
+				"NPCs": ["Amphibious jadinko (Anachronia)"],
 				"Level": 87,
-				"Output": "AmphibiousJadinko",
+				"Output": "AmphibiousJadinkoAnachronia",
 				"Primary": true,
 				"Priority": 3
 			},
@@ -45037,19 +45084,17 @@
 			},
 			"Catch a ~|diseased jadinko|~ on Anachronia": {
 				"Items": ["Marasamaw plant"],
-				"NPCs": ["Diseased jadinko"],
-				"Chunks": ["DiseasedJadinkoAnachronia[+]"],
+				"NPCs": ["Diseased jadinko (Anachronia)"],
 				"Level": 88,
-				"Output": "DiseasedJadinko",
+				"Output": "DiseasedJadinkoAnachronia",
 				"Primary": true,
 				"Priority": 2
 			},
 			"Catch a ~|carrion jadinko|~ on Anachronia": {
 				"Items": ["Marasamaw plant"],
-				"NPCs": ["Carrion jadinko"],
-				"Chunks": ["CarrionJadinkoAnachronia[+]"],
+				"NPCs": ["Carrion jadinko (Anachronia)"],
 				"Level": 88,
-				"Output": "CarrionJadinko",
+				"Output": "CarrionJadinkoAnachronia",
 				"Primary": true,
 				"Priority": 3
 			},
@@ -45067,6 +45112,14 @@
 				"Output": "CrimsonSkillchompa",
 				"Primary": true,
 				"Priority": 1
+			},
+			"Catch a ~|camouflaged jadinko|~ on Anachronia": {
+				"Items": ["Marasamaw plant", "JujuHunterPotion[+]"],
+				"NPCs": ["Camouflaged jadinko (Anachronia)"],
+				"Level": 89,
+				"Output": "CamouflagedJadinkoAnachronia",
+				"Primary": true,
+				"Priority": 14
 			},
 			"Barehand catch a ~|snowy knight|~": {
 				"NPCs": ["Snowy knight"],
@@ -45153,6 +45206,7 @@
 			},
 			"Build the third tier of the hunter lodge in your ~|Anachronia base camp|~": {
 				"Chunks": ["15939"],
+				"Items": ["Reinforced dinosaur pelt*"],
 				"Level": 90,
 				"Primary": false,
 				"Priority": 12
@@ -45170,11 +45224,10 @@
 				"Priority": 13
 			},
 			"Catch a ~|draconic jadinko|~ on Anachronia": {
-				"Items": ["Marasamaw plant"],
-				"NPCs": ["Draconic jadinko"],
-				"Chunks": ["15682"],
+				"Items": ["Marasamaw plant", "JujuHunterPotion[+]"],
+				"NPCs": ["Draconic jadinko (Anachronia)"],
 				"Level": 90,
-				"Output": "DraconicJadinko",
+				"Output": "DraconicJadinkoAnachronia",
 				"Primary": true,
 				"Priority": 14
 			},
@@ -45288,7 +45341,6 @@
 				"Priority": 1
 			},
 			"Barehand catch a ~|black warlock|~ in the Feldip Hills": {
-				"Chunks": ["FeldipHills[+]"],
 				"NPCs": ["Black warlock"],
 				"Level": 95,
 				"Skills": {
@@ -45299,7 +45351,7 @@
 				"Priority": 1
 			},
 			"Barehand catch a ~|black warlock|~ on Anachronia": {
-				"Chunks": ["BlackAnachronia[+]"],
+				"NPCs": ["Black warlock (Anachronia)"],
 				"Level": 95,
 				"Skills": {
 					"Agility": 90
@@ -45747,7 +45799,35 @@
 				"Level": 2,
 				"Output": "Manufactured components",
 				"Primary": false,
-				"Priority": 114
+				"Priority": 115
+			},
+			"~|Disassemble|~ any item that gives Historic components": {
+				"Chunks": ["Invention Guild", "ArchDigSite[+]", "Howl's Workshop"],
+				"Level": 85,
+				"Output": "Historic components",
+				"Primary": false,
+				"Priority": 116
+			},
+			"~|Disassemble|~ any item that gives Classic components": {
+				"Chunks": ["Invention Guild", "ArchDigSite[+]", "Howl's Workshop"],
+				"Level": 85,
+				"Output": "Classic components",
+				"Primary": false,
+				"Priority": 117
+			},
+			"~|Disassemble|~ any item that gives Timeworn components": {
+				"Chunks": ["Invention Guild", "ArchDigSite[+]", "Howl's Workshop"],
+				"Level": 94,
+				"Output": "Timeworn components",
+				"Primary": false,
+				"Priority": 118
+			},
+			"~|Disassemble|~ any item that gives Vintage components": {
+				"Chunks": ["Invention Guild", "ArchDigSite[+]", "Howl's Workshop"],
+				"Level": 103,
+				"Output": "Vintage components",
+				"Primary": false,
+				"Priority": 116
 			},
 			"Turn junk into ~|refined components|~": {
 				"Items": ["Junk refiner"],
@@ -46917,7 +46997,8 @@
 					"Complete the ~|Archaeology tutorial|~": "Archaeology"
 				},
 				"Items": ["Chuluu stone*", "Quintessence*", "Historic components*", "Timeworn components*", "Vintage components*"],
-				"Objects": ["Inventor's workbench", "Theoretical blueprint"],
+				"Objects": ["Inventor's workbench"],
+				"Chunks": ["Howl's Workshop"],
 				"Level": 108,
 				"Skills": {
 					"Archaeology": 118
@@ -46944,10 +47025,12 @@
 			},
 			"Create ~|The Subtle Blade|~": {
 				"Tasks": {
-					"Complete the ~|Archaeology tutorial|~": "Archaeology"
+					"Complete the ~|Archaeology tutorial|~": "Archaeology",
+					"~|The World Wakes|~ Complete the quest": "Quest"
 				},
 				"Items": ["Shard of the Blade*", "Prototype godsword*", "Historic components*", "Base parts*", "Timeworn components*", "Vintage components*"],
-				"Objects": ["Inventor's workbench", "Theoretical blueprint"],
+				"Objects": ["Inventor's workbench"],
+				"Chunks": ["Howl's Workshop", "10804"],
 				"Level": 111,
 				"Skills": {
 					"Archaeology": 112
@@ -60720,6 +60803,15 @@
 				"Output": "Crawling hand",
 				"NoPet": true
 			},
+			"Slay a ~|crawling hand|~ in Burthorpe": {
+				"Level": 5,
+				"Monsters": ["Crawling hand (Burthorpe)"],
+				"Primary": false,
+				"Priority": 5,
+				"Source": "drop",
+				"Output": "Crawling hand (Burthrope)",
+				"NoPet": true
+			},
 			"Slay a ~|skeletal hand|~": {
 				"Level": 5,
 				"Monsters": ["Skeletal hand"],
@@ -60738,32 +60830,22 @@
 				"Output": "Zombie hand",
 				"NoPet": true
 			},
-			"Slay a ~|cave bug|~": {
+			"Slay a level 6 ~|cave bug|~": {
 				"Level": 7,
-				"Monsters": ["Cave bug"],
+				"Monsters": ["Cave bug#Level 6"],
 				"Primary": false,
 				"Priority": 1,
 				"Source": "drop",
-				"Output": "Cave bug (Burthorpe)",
+				"Output": "Cave bug#Level 6",
 				"NoPet": true
 			},
-			"Slay a level 12 ~|cave bug|~": {
-				"Chunks": ["Dorgesh-Kaan Agility Course", "Chaos Tunnels"],
+			"Slay a level 11 ~|cave bug|~": {
 				"Level": 7,
-				"Monsters": ["Cave bug"],
+				"Monsters": ["Cave bug#Level 11"],
 				"Primary": false,
 				"Priority": 2,
 				"Source": "drop",
-				"Output": "Cave bug",
-				"NoPet": true
-			},
-			"Slay a ~|cave bug (Burthorpe)|~": {
-				"Level": 7,
-				"Monsters": ["Cave bug (Burthorpe)"],
-				"Primary": false,
-				"Priority": 3,
-				"Source": "drop",
-				"Output": "Cave bug (Burthorpe)",
+				"Output": "Cave bug#Level 11",
 				"NoPet": true
 			},
 			"Slay a ~|cave crawler|~": {
@@ -60967,6 +61049,13 @@
 				"Priority": 3,
 				"Source": "drop",
 				"Output": "Sea Snake Young",
+				"NoPet": true
+			},
+			"Build the first tier of the slayer lodge in your ~|Anachronia base camp|~": {
+				"Chunks": ["15939"],
+				"Level": 40,
+				"Primary": false,
+				"Priority": 4,
 				"NoPet": true
 			},
 			"Slay a ~|night spider|~": {
@@ -61221,6 +61310,13 @@
 				"Priority": 2,
 				"Source": "drop",
 				"Output": "Kurask",
+				"NoPet": true
+			},
+			"Build the second tier of the slayer lodge in your ~|Anachronia base camp|~": {
+				"Chunks": ["15939"],
+				"Level": 70,
+				"Primary": false,
+				"Priority": 3,
 				"NoPet": true
 			},
 			"Slay a ~|seeker|~": {
@@ -61575,6 +61671,14 @@
 				"Priority": 6,
 				"Source": "drop",
 				"Output": "Feral Dinosaur",
+				"NoPet": true
+			},
+			"Build the third tier of the slayer lodge in your ~|Anachronia base camp|~": {
+				"Chunks": ["15939"],
+				"Items": ["Dinosaur tooth"],
+				"Level": 90,
+				"Primary": false,
+				"Priority": 7,
 				"NoPet": true
 			},
 			"Slay a ~|mutated jadinko male|~": {
@@ -67943,7 +68047,7 @@
 			},
 			"Pickpocket a ~|Cave goblin|~": {
 				"Level": 36,
-				"Monsters": ["Cave goblin"],
+				"Monsters": ["Cave goblin (Dorgesh-Kaan)"],
 				"Output": "Cave goblin",
 				"Primary": true,
 				"Priority": 1
@@ -68084,7 +68188,7 @@
 			"Pickpocket a ~|Cave goblin|~ for quadruple loot": {
 				"Category": ["Multiple Pickpockets"],
 				"Level": 66,
-				"Monsters": ["Cave goblin"],
+				"Monsters": ["Cave goblin (Dorgesh-Kaan)"],
 				"Skills": {
 					"Agility": 56
 				},
@@ -73552,7 +73656,7 @@
 			},
 			"~|Children of Mah|~ 1": {
 				"BaseQuest": "Children of Mah",
-				"Description": "Speak to Kharshai north of Rellekka",
+				"Description": "Speak to Kharshai north of Rellekka and be taken ot the Ritual Site instance",
 				"Chunks": ["10812"],
 				"Tasks": {
 					"~|Fate of the Gods|~ Complete the quest": "Quest",
@@ -73564,8 +73668,8 @@
 			},
 			"~|Children of Mah|~ 2": {
 				"BaseQuest": "Children of Mah",
-				"Description": "Investigate the Mahjarrat Ritual Site",
-				"Chunks": ["11580"],
+				"Description": "Harvest the memories near the entrance to the Empty Throne Room",
+				"Chunks": ["13365"],
 				"Tasks": {
 					"~|Children of Mah|~ 1": "Quest"
 				},
@@ -73573,8 +73677,8 @@
 			},
 			"~|Children of Mah|~ 3": {
 				"BaseQuest": "Children of Mah",
-				"Description": "Harvest the memories near the entrance to the Empty Throne Room",
-				"Chunks": ["13365"],
+				"Description": "Harvest the memories in the Empty Throne Room, then return to the Ritual Site by talking to Kharshai",
+				"Chunks": ["10812", "Empty Throne Room"],
 				"Tasks": {
 					"~|Children of Mah|~ 2": "Quest"
 				},
@@ -73582,8 +73686,8 @@
 			},
 			"~|Children of Mah|~ 4": {
 				"BaseQuest": "Children of Mah",
-				"Description": "Harvest the memories in the Empty Throne Room, then return to the ritual site",
-				"Chunks": ["11580", "Empty Throne Room"],
+				"Description": "Head to the World Gate, travel to Freneskae and head to the ritual site",
+				"Chunks": ["9268"],
 				"Tasks": {
 					"~|Children of Mah|~ 3": "Quest"
 				},
@@ -73591,19 +73695,10 @@
 			},
 			"~|Children of Mah|~ 5": {
 				"BaseQuest": "Children of Mah",
-				"Description": "Head to the World Gate, travel to Freneskae and head to the ritual site",
-				"Chunks": ["9268"],
-				"Tasks": {
-					"~|Children of Mah|~ 4": "Quest"
-				},
-				"Not F2P": true
-			},
-			"~|Children of Mah|~ 6": {
-				"BaseQuest": "Children of Mah",
 				"Description": "After the Ritual of Rejuvination, talk to Zaros",
 				"Chunks": ["9268"],
 				"Tasks": {
-					"~|Children of Mah|~ 5": "Quest"
+					"~|Children of Mah|~ 4": "Quest"
 				},
 				"Not F2P": true
 			},
@@ -73611,7 +73706,7 @@
 				"BaseQuest": "Children of Mah",
 				"Chunks": ["9268"],
 				"Tasks": {
-					"~|Children of Mah|~ 6": "Quest"
+					"~|Children of Mah|~ 5": "Quest"
 				},
 				"QuestPoints": 2,
 				"XpReward": {
@@ -100946,15 +101041,7 @@
 				"Description": "Speak to Radimus Erkle at the Legends' Guild",
 				"Chunks": ["10804"],
 				"Tasks": {
-					"~|Defender of Varrock|~ Complete the quest": "Quest",
-					"~|Dream Mentor|~ Complete the quest": "Quest",
-					"~|Legends' Quest|~ Complete the quest": "Quest",
-					"~|The Path of Glouphrie|~ Complete the quest": "Quest",
-					"~|Tears of Guthix|~ Complete the quest": "Quest",
-					"~|Wanted!|~ Complete the quest": "Quest",
-					"~|Shilo Village|~ Complete the quest": "Quest",
-					"~|Temple of Ikov|~ Complete the quest": "Quest",
-					"~|The Hunt for Surok (miniquest)|~ Complete the miniquest": "Quest"
+					"~|While Guthix Sleeps|~ requirements*": "Nonskill"
 				},
 				"Skills": {
 					"Agility": 25,
@@ -104657,15 +104744,10 @@
 				"Category": ["Show Diary Tasks"]
 			},
 			"~|Daemonheim Achievements#Medium|~ Totem Pole Position": {
-				"Description": "Enter the 6 resource dungeons with an entry requirement equal to or less than Dungeoneering level 35 within 6 minutes.",
-				"Chunks": ["Edgeville Dungeon", "Dwarven Mine", "Karamja Volcano Dungeon", "13881", "Waterfall cave"],
-				"Items": ["Rope"],
-				"Skills": {
-					"Dungeoneering": 35
-				},
+				"Description": "Enter the 6 resource dungeons with an entry requirement equal to or less than Dungeoneering level 35 within 6 minutes, or hand in 20 items in a single sinkhole.",
 				"Tasks": {
 					"~|Daemonheim Achievements#Easy|~ Complete the Easy Achievements": "Diary",
-					"~|Waterfall Quest|~ Complete the quest": "Quest"
+					"TotemPolePosition[+]": "Nonskill"
 				},
 				"BaseQuest": "Daemonheim Achievements",
 				"Category": ["Show Diary Tasks"]
@@ -105060,7 +105142,7 @@
 			},
 			"~|Desert Achievements#Easy|~ Fool's Gold": {
 				"Description": "Catch a golden warbler.",
-				"Chunks": ["13616"],
+				"NPCs": ["Golden warbler"],
 				"Items": ["Bird snare"],
 				"Skills": {
 					"Hunter": 5
@@ -107936,7 +108018,7 @@
 			},
 			"~|Lumbridge Achievements#Hard|~ Blast and Hellfire": {
 				"Description": "Cast Fire Blast at a training dummy near Lumbridge market.",
-				"Chunks": ["12850"],
+				"Chunks": ["12594"],
 				"Items": ["Air rune[+]", "Fire rune[+]"],
 				"Skills": {
 					"Magic": 59
@@ -108738,6 +108820,7 @@
 					"~|New Varrock Achievements#Easy|~ Ready, Deady, Cook": "Diary",
 					"~|New Varrock Achievements#Easy|~ Trade Parade": "Diary"
 				},
+				"Reward": ["Zemomarks"],
 				"BaseQuest": "New Varrock Achievements",
 				"Category": ["Show Diary Tasks"],
 				"ManualShow": true
@@ -108804,6 +108887,7 @@
 					"~|New Varrock Achievements#Medium|~ Scrying Game": "Diary",
 					"~|New Varrock Achievements#Medium|~ Tier Gear": "Diary"
 				},
+				"Reward": ["Zemomarks"],
 				"BaseQuest": "New Varrock Achievements",
 				"Category": ["Show Diary Tasks"],
 				"ManualShow": true
@@ -108874,6 +108958,7 @@
 					"~|New Varrock Achievements#Hard|~ Micro Brew": "Diary",
 					"~|New Varrock Achievements#Hard|~ Bank-Z": "Diary"
 				},
+				"Reward": ["Zemomarks"],
 				"BaseQuest": "New Varrock Achievements",
 				"Category": ["Show Diary Tasks"],
 				"ManualShow": true
@@ -108944,6 +109029,7 @@
 					"~|New Varrock Achievements#Elite|~ Moo-er of All Bombs": "Diary",
 					"~|New Varrock Achievements#Elite|~ Top Pick": "Diary"
 				},
+				"Reward": ["Zemomarks"],
 				"BaseQuest": "New Varrock Achievements",
 				"Category": ["Show Diary Tasks"],
 				"ManualShow": true
@@ -109707,7 +109793,7 @@
 			},
 			"~|Tirannwn Achievements#Medium|~ The Circle of Life": {
 				"Description": "Use Pawya meat in a grenwall trap.",
-				"Chunks": ["GrenwallTirannwn[+]"],
+				"NPCs": ["Grenwall"],
 				"Items": ["Box trap", "Raw pawya meat"],
 				"Skills": {
 					"Hunter": 77
@@ -110865,7 +110951,7 @@
 			"~|Underworld Achievements#Elite|~ Complete the Elite Achievements": {
 				"Chunks": ["City of Um"],
 				"Tasks": {
-					"~|Underworld Achievements#Hard|~ Complete the Medium Achievements": "Diary",
+					"~|Underworld Achievements#Hard|~ Complete the Hard Achievements": "Diary",
 					"~|Underworld Achievements#Elite|~ Undead to Rites": "Diary",
 					"~|Underworld Achievements#Elite|~ Down with the Disturbances": "Diary",
 					"~|Underworld Achievements#Elite|~ He's My Berry Pie": "Diary",
@@ -111907,7 +111993,7 @@
 			},
 			"~|Wilderness Achievements#Hard|~ I'm the King of the Wild!": {
 				"Description": "Defeat an instanced King Black Dragon after entering via the Wilderness artefact.",
-				"Chunks": ["Lava Maze Dungeon"],
+				"Chunks": ["Lava Maze Dungeon", "11836"],
 				"Tasks": {
 					"~|Wilderness Achievements#Medium|~ Complete the Medium Achievements": "Diary"
 				},
@@ -116720,7 +116806,7 @@
 				"Category": ["MQC achievements"],
 				"Description": "Earn 'the Annihilator' title by fighting all four nihil at once.",
 				"BaseQuest": "Completionist achievements",
-				"Chunks": ["The Pit (Freneskae)"],
+				"Chunks": ["Freneskae#The Pit"],
 				"Tasks": {
 					"~|Fate of the Gods|~ Complete the quest": "Quest"
 				},
@@ -117543,7 +117629,7 @@
 				"Category": ["MQC achievements"],
 				"Description": "Claim the one-time Divination XP from a distorted engrammeter.",
 				"BaseQuest": "Completionist achievements",
-				"Chunks": ["The Approach (Freneskae)"],
+				"Chunks": ["Freneskae#The Approach"],
 				"Tasks": {
 					"~|Mahjarrat Memories (miniquest)|~ Complete the miniquest": "Quest",
 					"~|Fate of the Gods|~ Complete the quest": "Quest"
@@ -119453,7 +119539,7 @@
 				"Category": ["MQC achievements"],
 				"Description": "Deposit Seren memoriam crystals (from the Approach of Freneskae), then search the Sanctum alcove.",
 				"BaseQuest": "Completionist achievements",
-				"Chunks": ["The Sanctum (Freneskae)", "The Approach (Freneskae)"],
+				"Chunks": ["Freneskae#The Sanctum", "Freneskae#The Approach"],
 				"Tasks": {
 					"~|Fate of the Gods|~ Complete the quest": "Quest"
 				},
@@ -119999,7 +120085,7 @@
 				"Category": ["MQC achievements"],
 				"Description": "Gather elder chronicle fragments in the Elder Halls of Freneskae.",
 				"BaseQuest": "Completionist achievements",
-				"Chunks": ["The Elder Halls (Freneskae)"],
+				"Chunks": ["Freneskae#The Elder Halls"],
 				"Tasks": {
 					"~|Fate of the Gods|~ Complete the quest": "Quest"
 				},
@@ -120108,7 +120194,7 @@
 				"Category": ["MQC achievements"],
 				"Description": "Deposit Zarosian memoriam crystals, then search the Sanctum alcove.",
 				"BaseQuest": "Completionist achievements",
-				"Chunks": ["The Sanctum (Freneskae)", "The Approach (Freneskae)", "The Pit (Freneskae)", "The Elder Halls (Freneskae)"],
+				"Chunks": ["Freneskae#The Sanctum", "Freneskae#The Approach", "Freneskae#The Pit", "Freneskae#The Elder Halls"],
 				"Tasks": {
 					"~|Fate of the Gods|~ Complete the quest": "Quest"
 				},
@@ -120513,7 +120599,7 @@
 				"Category": ["Comp achievements"],
 				"Description": "Earn 'the Annihilator' title by fighting all four nihil at once.",
 				"BaseQuest": "Completionist achievements",
-				"Chunks": ["The Pit (Freneskae)"],
+				"Chunks": ["Freneskae#The Pit"],
 				"Tasks": {
 					"~|Fate of the Gods|~ Complete the quest": "Quest"
 				},
@@ -120658,7 +120744,7 @@
 				"Category": ["Comp achievements"],
 				"Description": "Acquire knowledge from the listed ancient blueprints.",
 				"BaseQuest": "Completionist achievements",
-				"Items": ["'Ancient gizmos' blueprint", "'Ancient tools' blueprint", "Ancient 'XP Capacitor' blueprint"],
+				"Items": ["'Ancient gizmos' blueprint", "'Ancient tools' blueprint", "'XP Capacitor' blueprint"],
 				"Chunks": ["Howl's Workshop"],
 				"Skills": {
 					"Invention": 85,
@@ -121365,7 +121451,7 @@
 				"Category": ["Comp achievements"],
 				"Description": "Deposit Seren memoriam crystals (from the Approach of Freneskae), then search the Sanctum alcove.",
 				"BaseQuest": "Completionist achievements",
-				"Chunks": ["The Sanctum (Freneskae)", "The Approach (Freneskae)"],
+				"Chunks": ["Freneskae#The Sanctum", "Freneskae#The Approach"],
 				"Tasks": {
 					"~|Fate of the Gods|~ Complete the quest": "Quest"
 				},
@@ -121670,7 +121756,7 @@
 				"Category": ["Comp achievements"],
 				"Description": "Deposit Zarosian memoriam crystals, then search the Sanctum alcove.",
 				"BaseQuest": "Completionist achievements",
-				"Chunks": ["The Sanctum (Freneskae)", "The Approach (Freneskae)", "The Pit (Freneskae)", "The Elder Halls (Freneskae)"],
+				"Chunks": ["Freneskae#The Sanctum", "Freneskae#The Approach", "Freneskae#The Pit", "Freneskae#The Elder Halls"],
 				"Tasks": {
 					"~|Fate of the Gods|~ Complete the quest": "Quest"
 				},
@@ -122123,9 +122209,8 @@
 					"~|A Fairy Tale III - Battle at Ork's Rift|~ Complete the quest": "Quest",
 					"~|The Path of Glouphrie|~ Complete the quest": "Quest",
 					"~|Succession|~ Complete the quest": "Quest",
-					"~|Leap of Faith|~ 3": "Quest",
-					"~|Leap of Faith|~ 3": "Quest",
-					"Complete the ~|archaeology tutorial|~": "Archaeology",
+					"Archaeology Mystery: ~|Leap of Faith|~ 3": "Quest",
+					"Complete the ~|Archaeology tutorial|~": "Archaeology",
 					"Unlock ~|Invention|~": "Invention"
 				},
 				"Not F2P": true,
@@ -122164,6 +122249,9 @@
 				"Chunks": ["13626", "13882"],
 				"Skills": {
 					"Dungeoneering": 119
+				},
+				"Tasks": {
+					"All Daemonheim tasks": "Nonskill"
 				},
 				"Not F2P": true
 			},
@@ -122720,7 +122808,7 @@
 				"Category": ["Comp achievements", "Trim achievements"],
 				"Description": "Obtain a selection of titles from Prifddinas.",
 				"BaseQuest": "Completionist achievements",
-				"Chunks": ["8757", "8501", "8500", "8756", "9012", "8755", "9011", "The Approach (Freneskae)"],
+				"Chunks": ["8757", "8501", "8500", "8756", "9012", "8755", "9011", "Freneskae#The Approach"],
 				"Items": ["Crystal acorn"],
 				"Tasks": {
 					"~|Plague's End|~ Complete the quest": "Quest",
@@ -122817,7 +122905,7 @@
 					"Ushabti (dragonstone dragon)",
 					"Ushabti (nightmare)",
 					"Ushabti (chaos giant)",
-					"Ushabti (acheron mammmoth)",
+					"Ushabti (acheron mammoth)",
 					"Ushabti (camel warrior)",
 					"Ushabti (ripper demon)",
 					"Ushabti (wyvern)",
@@ -122855,9 +122943,9 @@
 					"Ushabti (mithril dragon)",
 					"Ushabti (warped terrorbird)",
 					"Ushabti (warped tortoise)",
-					"Ushabti (spirital mage)",
-					"Ushabti (spirital ranger)",
-					"Ushabti (spirital warrior)",
+					"Ushabti (spiritual mage)",
+					"Ushabti (spiritual ranger)",
+					"Ushabti (spiritual warrior)",
 					"Ushabti (waterfiend)",
 					"Ushabti (molanisk)",
 					"Ushabti (terror dog)",
@@ -130478,12 +130566,12 @@
 			"(Agility Outfit) Obtain an ~|agile top|~": {
 				"Category": ["Untracked Uniques", "Untracked Uniques Skilling"],
 				"Label": "Untracked Skilling Uniques",
-				"Chunks": ["10039"]
+				"Items": ["Agile top"]
 			},
 			"(Agility Outfit) Obtain ~|agile legs|~": {
 				"Category": ["Untracked Uniques", "Untracked Uniques Skilling"],
 				"Label": "Untracked Skilling Uniques",
-				"Chunks": ["9781"]
+				"Items": ["Agile legs"]
 			},
 			"(Special Logs) Obtain a ~|special teak log|~": {
 				"Category": ["Untracked Uniques", "Untracked Uniques Skilling"],
@@ -130639,25 +130727,25 @@
 				"Items": ["Kethsi outfit scroll"]
 			},
 			"(Rare Drop Table) Obtain a ~|shield left half|~": {
-				"Category": ["Untracked Uniques", "Untracked Uniques Combat"],
+				"Category": ["Untracked Uniques", "Untracked Uniques Combat", "RDT"],
 				"Label": "Untracked Combat Uniques",
 				"Items": ["Shield left half"],
 				"Not F2P": true
 			},
 			"(Rare Drop Table) Obtain a ~|dragon spear|~": {
-				"Category": ["Untracked Uniques", "Untracked Uniques Combat"],
+				"Category": ["Untracked Uniques", "Untracked Uniques Combat", "RDT"],
 				"Label": "Untracked Combat Uniques",
 				"Items": ["Dragon spear"],
 				"Not F2P": true
 			},
 			"(Rare Drop Table) Obtain a ~|Vecna skull|~": {
-				"Category": ["Untracked Uniques", "Untracked Uniques Combat"],
+				"Category": ["Untracked Uniques", "Untracked Uniques Combat", "RDT"],
 				"Label": "Untracked Combat Uniques",
 				"Items": ["Vecna skull"],
 				"Not F2P": true
 			},
 			"(Rare Drop Table) Obtain ~|Hazelmere's signet ring|~": {
-				"Category": ["Untracked Uniques", "Untracked Uniques Combat", "Hero Items"],
+				"Category": ["Untracked Uniques", "Untracked Uniques Combat", "Hero Items", "RDT"],
 				"Label": "Untracked Combat Uniques",
 				"Items": ["Hazelmere's signet ring"],
 				"Not F2P": true
@@ -136711,7 +136799,7 @@
 				"Category": ["Slayer Souls"],
 				"Label": "Slayer Codex",
 				"Items": ["Ushabti"],
-				"Monster": ["Cave bug"],
+				"Monster": ["CaveBug[+]"],
 				"Skills": {
 					"Slayer": 7
 				},
@@ -136778,15 +136866,15 @@
 				"Output": "Ushabti (fever spider)",
 				"Not F2P": true
 			},
-			"Collect a ~|harpy bug swarm|~ soul": {
+			"Collect a ~|harpie bug swarm|~ soul": {
 				"Category": ["Slayer Souls"],
 				"Label": "Slayer Codex",
 				"Items": ["Ushabti"],
-				"Monster": ["Harpy Bug Swarm"],
+				"Monster": ["Harpie Bug Swarm"],
 				"Skills": {
 					"Slayer": 33
 				},
-				"Output": "Ushabti (harpy bug swarm)",
+				"Output": "Ushabti (harpie bug swarm)",
 				"Not F2P": true
 			},
 			"Collect a ~|sea snake|~ soul": {
@@ -137391,6 +137479,17 @@
 					"Slayer": 1
 				},
 				"Output": "Ushabti (chaos giant)",
+				"Not F2P": true
+			},
+			"Collect a ~|nightmare|~ soul": {
+				"Category": ["Slayer Souls"],
+				"Label": "Slayer Codex",
+				"Items": ["Ushabti"],
+				"Monster": ["Nightmare"],
+				"Skills": {
+					"Slayer": 80
+				},
+				"Output": "Ushabti (nightmare)",
 				"Not F2P": true
 			},
 			"Collect a ~|dragonstone dragon|~ soul": {
@@ -138347,6 +138446,9 @@
 				"Chunks": ["13626", "13882"],
 				"Skills": {
 					"Dungeoneering": 119
+				},
+				"Tasks": {
+					"All Daemonheim tasks": "Nonskill"
 				},
 				"NoBoost": true
 			},
@@ -142266,7 +142368,10 @@
 				"UnlocksArea": true
 			},
 			"Lighthouse Dungeon": {
-				"UnlocksArea": true
+				"UnlocksArea": true,
+				"Tasks": {
+					"~|Horror from the Deep|~ 4": "Quest"
+				}
 			},
 			"Edgeville Dungeon": {
 				"Tasks": {
@@ -142493,7 +142598,10 @@
 				}
 			},
 			"Rellekka Hunter area dungeon": {
-				"UnlocksArea": true
+				"UnlocksArea": true,
+				"Tasks": {
+					"~|Glorious Memories|~ 6": "Quest"
+				}
 			},
 			"Stormguard Citadel": {
 				"Tasks": {
@@ -142908,7 +143016,7 @@
 				},
 				"UnlocksArea": true
 			},
-			"The Approach (Freneskae)": {
+			"Freneskae#The Approach": {
 				"Tasks": {
 					"~|Fate of the Gods|~ Complete the quest": "Quest"
 				},
@@ -142917,27 +143025,33 @@
 			"Invention Guild": {
 				"UnlocksArea": true
 			},
-			"The Sanctum (Freneskae)": {
+			"Freneskae#The Sanctum": {
 				"Tasks": {
 					"~|Fate of the Gods|~ Complete the quest": "Quest"
 				},
 				"UnlocksArea": true
 			},
-			"The Pit (Freneskae)": {
+			"Freneskae#The Pit": {
 				"Tasks": {
 					"~|Fate of the Gods|~ Complete the quest": "Quest"
 				},
 				"UnlocksArea": true
 			},
-			"The Cradle (Freneskae)": {
+			"Freneskae#The Cradle": {
 				"Tasks": {
 					"~|Fate of the Gods|~ Complete the quest": "Quest"
 				},
 				"UnlocksArea": true
 			},
-			"The Elder Halls (Freneskae)": {
+			"Freneskae#The Elder Halls": {
 				"Tasks": {
 					"~|Fate of the Gods|~ Complete the quest": "Quest"
+				},
+				"UnlocksArea": true
+			},
+			"Freneskae#The Ritual Site": {
+				"Tasks": {
+					"~|Children of Mah|~ Complete the quest": "Quest"
 				},
 				"UnlocksArea": true
 			},
@@ -143834,12 +143948,15 @@
 			},
 			"Get The Rings of Razulei from Dagon*": {
 				"Items": ["Hellfire katar"],
-				"NPCs": ["Dagon the Gatekeeper"],
+				"Chunks": ["Infernal Source"],
+				"Tasks": {
+					"Archaeology Mystery: ~|Dagon Bye|~ Complete the mystery": "Quest"
+				},
 				"Output": "The Rings of Razulei"
 			},
 			"Get Evil Bob's Catspaw from Bob*": {
 				"Items": ["Death mask", "CatspeakAmulet[+]"],
-				"NPCs": ["Bob"],
+				"Chunks": ["11575"],
 				"Output": "Evil Bob's Catspaw"
 			},
 			"Get the Kaladanda from Sharrigan*": {
@@ -144485,7 +144602,7 @@
 				"Monsters": ["Rogue"]
 			},
 			"(LHM) Pickpocket a cave goblin": {
-				"Monsters": ["Cave goblin"]
+				"Monsters": ["Cave goblin (Dorgesh-Kaan)"]
 			},
 			"Gather a bucket of wax*": {
 				"Items": ["Bucket", "Insect repellent"],
@@ -145961,6 +146078,9 @@
 				"Chunks": ["DemonFlashMobWilderness[+]"],
 				"Output": "Demon Flash Mob rewards (wilderness)"
 			},
+			"Find Hunter Marks": {
+				"Items": ["Hunter Mark"]
+			},
 			"Fletch Quest*": {
 				"Items": ["Off-hand primal crossbow Mk. 5", "Primal crossbow Mk. 5", "Eternal magic shortbow Mk. 5"]
 			},
@@ -146140,15 +146260,15 @@
 				"Output": "Human tooth"
 			},
 			"Obtain the Totem of Treasure base*": {
-				"NPCs": ["AncientZygomites[+]x20"],
+				"NPCs": ["AncientZygomites[+]"],
 				"Output": "Totem of Treasure base"
 			},
 			"Obtain the Totem of Navigation middle*": {
-				"NPCs": ["AncientZygomites[+]x40"],
+				"NPCs": ["AncientZygomites[+]"],
 				"Output": "Totem of Navigation middle"
 			},
 			"Obtain the Totem of Auras top*": {
-				"NPCs": ["AncientZygomites[+]x60"],
+				"NPCs": ["AncientZygomites[+]"],
 				"Output": "Totem of Auras top"
 			},
 			"Obtain the Remototem top*": {
@@ -146160,7 +146280,7 @@
 				"Output": "Remototem top"
 			},
 			"Obtain the Remototem middle*": {
-				"Chunks": ["AnachroniaRockChunks[+]"],
+				"Chunks": ["AnachroniaRockChunk[+]"],
 				"Output": "Remototem middle"
 			},
 			"Assemble the Totem of Treasure": {
@@ -146190,6 +146310,10 @@
 			"Assemble the Totem of Auras": {
 				"Items": ["Totem of Auras top", "Totem of Auras middle", "Totem of Auras base"],
 				"Output": "Totem of Auras"
+			},
+			"Assemble the Remototem": {
+				"Items": ["Remototem top", "Remototem middle", "Remototem base"],
+				"Output": "Remototem"
 			},
 			"Assemble the archaeology potion recipe": {
 				"Items": ["Archaeology potion recipe fragment 1*", "Archaeology potion recipe fragment 2*", "Archaeology potion recipe fragment 3*", "Archaeology potion recipe fragment 4*"],
@@ -146262,6 +146386,48 @@
 				"Not F2P": true,
 				"NoBoost": true
 			},
+			"~|While Guthix Sleeps|~ requirements*": {
+				"Chunks": [
+					"10804", "10806", "11310", "11575", "11319", "12087", 
+					"Tears of Guthix cavern", "12854", "13109", 
+					"12853", "Chaos Temple Dungeon", "11825", "Camdozaal", "Phoenix Gang Hideout", "12852", "12596", "11828", 
+					"Asgarnian Ice Dungeon", "11317", "13107", "Witchaven Dungeon", "13110", "Edgeville Dungeon", "13108", "12342", "Chaos Rune Temple",
+					"Lunar Isle Mine", "8253", "8508", "10297", "10553", "8763", "8252", "Air Rune Temple", "Fire Rune Temple", "Water Rune Temple", 
+					"Earth Rune Temple", "10806", "10552", "10808", "11064", "12593", "Entrana Dungeon", "12849", "11566", "11056", "11054", "11568", 
+					"Cairn Island Dungeon", "11055", "11312", "11311", "Pothole Dungeon", "10291", "Temple of Ikov", "10804", "11053", "11309", "11565", "Viyeldi Caves",
+					"11574", "Ice Queen's lair", "11316", "12082", "11057", "Phoenix Gang Hideout", "12596", "12086", "12850", "Dwarven Mine", "11570", "Melzar's Maze Basement", "12081", "12338", 
+					"11314", "11315", "Elvarg's Lair", "10033", "Gnome Village Dungeon", "Yewnock's cave", "9264", "10544", "Poison Waste Slayer Dungeon",
+					"Brimstail's cave", "9782", "9527", "9781", "11823", "9526", "Grand Tree Mine", "10038", "10037", "Glarial's Tomb", 
+					"Waterfall cave", "10034", "9779", "Tears of Guthix cavern", "11828", "Taverley Dungeon", "12852", "13878", "SolusLocation[+]",
+					"11062", "Dorgesh-Kaan mine", "Rune Essence mine", "12343", "EnterTheAbyss3[+]x3", "Tunnel of Chaos"
+				],
+				"Skills": {
+					"Agility": 51,
+					"Crafting": 61,
+					"Mining": 60,
+					"Prayer": 42,
+					"Farming": 65,
+					"Thieving": 60,
+					"Ranged": 47,
+					"Runecrafting": 35,
+					"Fletching": 25,
+					"Smithing": 54,
+					"Hunter": 55,
+					"Construction": 5,
+					"Cooking": 53,
+					"Magic": 75,
+					"Firemaking": 49,
+					"Woodcutting": 55,
+					"Slayer": 56,
+					"Strength": 60,
+					"Summoning": 23,
+					"Herblore": 65,
+					"Defence": 40,
+					"Fishing": 53
+				},
+				"Not F2P": true,
+				"NoBoost": true
+			},
 			"Gain entry to ~|Xolo City|~*": {
 				"Chunks": ["15683", "Observation Outpost", "16193", "16704", "15936"],
 				"Items": ["Small fishing net", "Rope", "Orgone*", "Carbon black*", "Compass rose*", "Dragon metal*"],
@@ -146285,6 +146451,92 @@
 					"~|One Piercing Note|~ Complete the quest": "Quest"
 				},
 				"Output": ["Holy Cithara"]
+			},
+			"Create hailfire boots*": {
+				"Items": ["Ragefire boots*", "Ragefire gland*"],
+				"Output": ["Hailfire boots"]
+			},
+			"Create emberkeen boots*": {
+				"Items": ["Steadfast boots*", "Steadfast scale*"],
+				"Output": ["Emberkeen boots"]
+			},
+			"Create flarefrost boots*": {
+				"Items": ["Glaiven boots*", "Glaiven wing-tip*"],
+				"Output": ["Flarefrost boots"]
+			},
+			"Create enhanced blast diffusion boots*": {
+				"Items": ["Blast diffusion boots*", "Shadow spike*"],
+				"Output": ["Enhanced blast diffusion boots"]
+			},
+			"Create enhanced fleeting boots*": {
+				"Items": ["Fleeting boots*", "Shadow spike*"],
+				"Output": ["Enhanced fleeting boots"]
+			},
+			"Create enhanced laceration boots*": {
+				"Items": ["Laceration boots*", "Shadow spike*"],
+				"Output": ["Enhanced laceration boots"]
+			},
+			"~|Totem Pole Position|~ resource dungeon way*": {
+				"Chunks": ["Edgeville Dungeon", "Dwarven Mine", "Karamja Volcano Dungeon", "13881", "Waterfall cave"],
+				"Items": ["Rope"],
+				"Skills": {
+					"Dungeoneering": 35
+				},
+				"Tasks": {
+					"~|Waterfall Quest|~ Complete the quest": "Quest"
+				}
+			},
+			"Totem Pole Position sinkhole way*": {
+				"Chunks": ["Sinkhole"]
+			},
+			"All Daemonheim tasks": {
+				"Tasks": {
+					"~|Daemonheim Achievements#Easy|~ Setting Up": "Diary",
+					"~|Daemonheim Achievements#Easy|~ It's Dangerous to go Alone": "Diary",
+					"~|Daemonheim Achievements#Easy|~ Kitchen Aid": "Diary",
+					"~|Daemonheim Achievements#Easy|~ The Lone Dungeoneer": "Diary",
+					"~|Daemonheim Achievements#Easy|~ Dere-licked": "Diary",
+					"~|Daemonheim Achievements#Easy|~ Take It From the Top": "Diary",
+					"~|Daemonheim Achievements#Easy|~ Change of a Dress": "Diary",
+					"~|Daemonheim Achievements#Easy|~ Gorajo Fandango": "Diary",
+					"~|Daemonheim Achievements#Easy|~ You're Not the Boss of Me": "Diary",
+					"~|Daemonheim Achievements#Easy|~ A Road Less Travelled": "Diary",
+					"~|Daemonheim Achievements#Easy|~ Invisible Ink": "Diary",
+					"~|Daemonheim Achievements#Easy|~ Untouchable": "Diary",
+					"~|Daemonheim Achievements#Easy|~ Fashion Victim": "Diary",
+					"~|Daemonheim Achievements#Easy|~ Sinking Fast": "Diary",
+					"~|Daemonheim Achievements#Easy|~ Tales of Old": "Diary",
+					"~|Daemonheim Achievements#Easy|~ A Flicker in Darkness": "Diary",
+					"~|Daemonheim Achievements#Medium|~ You Got Some Nice Drapes There": "Diary",
+					"~|Daemonheim Achievements#Medium|~ I Want It All": "Diary",
+					"~|Daemonheim Achievements#Medium|~ And I Want It Now": "Diary",
+					"~|Daemonheim Achievements#Medium|~ Marm's Armoury": "Diary",
+					"~|Daemonheim Achievements#Medium|~ Totem Pole Position": "Diary",
+					"~|Daemonheim Achievements#Medium|~ Nice to Meet You, Wall": "Diary",
+					"~|Daemonheim Achievements#Medium|~ 300": "Diary",
+					"~|Daemonheim Achievements#Medium|~ Drink Me": "Diary",
+					"~|Daemonheim Achievements#Medium|~ Spinal Trap": "Diary",
+					"~|Daemonheim Achievements#Medium|~ Cache Box": "Diary",
+					"~|Daemonheim Achievements#Medium|~ Up to the Gods": "Diary",
+					"~|Daemonheim Achievements#Hard|~ Occult Classic": "Diary",
+					"~|Daemonheim Achievements#Hard|~ Stacked": "Diary",
+					"~|Daemonheim Achievements#Hard|~ Kinprovements": "Diary",
+					"~|Daemonheim Achievements#Hard|~ Lawful Crafting": "Diary",
+					"~|Daemonheim Achievements#Hard|~ Thanks for the Memories": "Diary",
+					"~|Daemonheim Achievements#Hard|~ Healing Factor": "Diary",
+					"~|Daemonheim Achievements#Hard|~ Alcrabholic": "Diary",
+					"~|Daemonheim Achievements#Hard|~ Hoof Rot": "Diary",
+					"~|Daemonheim Achievements#Hard|~ A Prayer Opportunity": "Diary",
+					"~|Daemonheim Achievements#Hard|~ The Wanderer": "Diary",
+					"~|Daemonheim Achievements#Hard|~ Get Stuffed": "Diary",
+					"~|Daemonheim Achievements#Hard|~ Epic Epic": "Diary",
+					"~|Daemonheim Achievements#Elite|~ Any fin is Possible": "Diary",
+					"~|Daemonheim Achievements#Elite|~ Orbful": "Diary",
+					"~|Daemonheim Achievements#Elite|~ Top Hat": "Diary",
+					"~|Daemonheim Achievements#Elite|~ In the Darkness Bind Them": "Diary",
+					"~|Daemonheim Achievements#Elite|~ Pass the Port": "Diary",
+					"~|Daemonheim Achievements#Elite|~ Gulega-d to Rest": "Diary"
+				}
 			}
 		}
 	},
@@ -151415,8 +151667,8 @@
 		},
 		"8775": {
 			"Monster": {
-				"Crawling hand": 11,
-				"Cave bug": 11
+				"Crawling hand (Burthrope)": 11,
+				"Cave bug#Level 6": 11
 			},
 			"Name": "Burthorpe Slayer Cave"
 		},
@@ -152568,9 +152820,10 @@
 				"16230": true,
 				"16993": true,
 				"16994": true,
+				"9922": true,
 				"19038": true
 			},
-			"quest": {
+			"Quest": {
 				"Azzanadra's Quest": "step",
 				"Children of Mah": "step",
 				"Extinction": "step",
@@ -154945,7 +155198,8 @@
 			},
 			"Monster": {
 				"Nightmare": 9
-			}
+			},
+			"Name": "Freneskae#The Ritual Site"
 		},
 		"10025": {
 			"NPC": {
@@ -169893,7 +170147,7 @@
 			"Connect": {
 				"15176": true
 			},
-			"Quests": {
+			"Quest": {
 				"All Fired Up": "step",
 				"Broken Home": "first",
 				"Fur 'n Seek": "first",
@@ -173913,7 +174167,7 @@
 			},
 			"NPC": {
 				"Arcane apoterrasaur": 1,
-				"Golden warbler": 4,
+				"Golden warbler (Anachronia)": 4,
 				"Ruby harvest (Anachronia)": 7
 			},
 			"Nickname": "Arcane Apoterrasaur Hunting Ground"
@@ -174137,7 +174391,7 @@
 			},
 			"NPC": {
 				"Bagrada rex": 1,
-				"Draconic jadinko": 5,
+				"Draconic jadinko (Anachronia)": 5,
 				"Edd (Ancient zygomite)": 1,
 				"Happy (Ancient zygomite)": 1
 			},
@@ -174309,7 +174563,7 @@
 			"Connect": {
 				"9268": true
 			},
-			"Name": "The Approach (Freneskae)"
+			"Name": "Freneskae#The Approach"
 		},
 		"15714": {
 			"Object": {
@@ -174317,7 +174571,7 @@
 				"Rock formation": 2,
 				"Cliffside": 2
 			},
-			"Name": "The Approach (Freneskae)"
+			"Name": "Freneskae#The Approach"
 		},
 		"15716": {
 			"Object": {
@@ -174426,7 +174680,7 @@
 				"Flower": 3
 			},
 			"NPC": {
-				"Common jadinko": 9,
+				"Common jadinko (Anachronia)": 9,
 				"June (Ancient zygomite)": 1,
 				"Pat (Ancient zygomite)": 1,
 				"Nero (Ancient zygomite)": 1
@@ -174501,7 +174755,7 @@
 			},
 			"NPC": {
 				"Bernadette (Ancient zygomite)": 1,
-				"Camouflaged jadinko": 11,
+				"Camouflaged jadinko (Anachronia)": 11,
 				"Noel (Ancient zygomite)": 1,
 				"Raj (Ancient zygomite)": 1
 			},
@@ -174673,7 +174927,7 @@
 				"Stepping stone": 2,
 				"Cliffside": 4
 			},
-			"Name": "The Approach (Freneskae)"
+			"Name": "Freneskae#The Approach"
 		},
 		"15970": {
 			"Object": {
@@ -174687,7 +174941,7 @@
 				"Cliffside": 2,
 				"Slope": 1
 			},
-			"Name": "The Approach (Freneskae)"
+			"Name": "Freneskae#The Approach"
 		},
 		"15972": {
 			"Object": {
@@ -174819,7 +175073,7 @@
 				"Flower": 3
 			},
 			"NPC": {
-				"Amphibious jadinko (Anachrnoia)": 10,
+				"Amphibious jadinko (Anachronia)": 10,
 				"Clay (Ancient zygomite)": 1,
 				"Nate (Ancient zygomite)": 1,
 				"Stuart (Ancient zygomite)": 1
@@ -174916,13 +175170,13 @@
 				"Memoriam device": 1,
 				"Memoriam crystal": 1
 			},
-			"Name": "The Sanctum (Freneskae)"
+			"Name": "Freneskae#The Sanctum"
 		},
 		"16226": {
 			"Object": {
 				"Memoriam crystal": 1
 			},
-			"Name": "The Pit (Freneskae)"
+			"Name": "Freneskae#The Pit"
 		},
 		"16229": {
 			"Object": {
@@ -175491,8 +175745,8 @@
 			},
 			"NPC": {
 				"Chibs (Ancient zygomite)": 1,
-				"Diseased jadinko": 1,
-				"Golden warbler": 5
+				"Diseased jadinko (Anachronia)": 1,
+				"Golden warbler (Anachronia)": 5
 			},
 			"Quest": {
 				"Desperate Measures": "step"
@@ -175818,7 +176072,7 @@
 				"Memoriam crystal": 1,
 				"Ledge": 2
 			},
-			"Name": "The Cradle (Freneskae)"
+			"Name": "Freneskae#The Cradle"
 		},
 		"16994": {
 			"Object": {
@@ -175829,13 +176083,13 @@
 				"Elder wisp": 13,
 				"Enriched elder wisp": 2
 			},
-			"Name": "The Elder Halls (Freneskae)"
+			"Name": "Freneskae#The Elder Halls"
 		},
 		"16995": {
 			"Object": {
 				"Fragmented sphere": 1
 			},
-			"Name": "The Elder Halls (Freneskae)"
+			"Name": "Freneskae#The Elder Halls"
 		},
 		"16996": {
 			"Object": {
@@ -176113,13 +176367,13 @@
 			"Object": {
 				"Fragmented sphere": 1
 			},
-			"Name": "The Elder Halls (Freneskae)"
+			"Name": "Freneskae#The Elder Halls"
 		},
 		"17251": {
 			"Object": {
 				"Fragmented sphere": 1
 			},
-			"Name": "The Elder Halls (Freneskae)"
+			"Name": "Freneskae#The Elder Halls"
 		},
 		"17252": {
 			"Object": {
@@ -181481,7 +181735,8 @@
 				"Giant Rock Crab": 6,
 				"Big Wolf": 7,
 				"Dire Wolf": 7,
-				"Cave bug": 23,
+				"Cave bug#Level 6": 13,
+				"Cave bug#Level 11": 10,
 				"Shadow Hound": 40,
 				"Giant crypt spider": 3
 			},
@@ -181594,7 +181849,7 @@
                 "Merchant Yuri": 1,
                 "Merchant Zakia": 1,
                 "Zanik": 1,
-                "Cave goblin": 10,
+                "Cave goblin (Dorgesh-Kaan)": 10,
                 "Ur-meg": 1,
                 "Ur-lun": 1,
                 "Ur-pel": 1,
@@ -182836,9 +183091,6 @@
 			},
 			"Monster": {
 				"King Black Dragon": 1
-			},
-			"Connect": {
-				"12192": true
 			},
 			"Quest": {
 				"One of a Kind": "step"
@@ -184442,7 +184694,7 @@
 			},
 			"Monster": {
 				"Gelatinous abomination": 19,
-				"Crawling hand": 11,
+				"Crawling hand (Burthrope)": 11,
 				"Cave bug (Burthorpe)": 11
 			},
 			"Connect": {
@@ -187657,7 +187909,7 @@
 				"Cave crawler": 3,
 				"Big frog": 11,
 				"Cave slime": 17,
-				"Cave bug": 21,
+				"Cave bug#Level 6": 21,
 				"Rock slug": 5,
 				"Cave goblin": 4,
 				"Giant frog": 3,
@@ -188113,7 +188365,7 @@
 				"Fragmented Memories": "first"
 			}
 		},
-		"The Approach (Freneskae)": {
+		"Freneskae#The Approach": {
 			"Object": {
 				"Ledge": 4,
 				"Memoriam crystal": 12,
@@ -188148,7 +188400,7 @@
 				"11829": true
 			}
 		},
-		"The Sanctum (Freneskae)": {
+		"Freneskae#The Sanctum": {
 			"Object": {
 				"Opening": 2,
 				"Memoriam device": 1,
@@ -188158,7 +188410,7 @@
 				"9268": true
 			}
 		},
-		"The Pit (Freneskae)": {
+		"Freneskae#The Pit": {
 			"Object": {
 				"Memoriam crystal": 1
 			},
@@ -188166,7 +188418,7 @@
 				"9268": true
 			}
 		},
-		"The Cradle (Freneskae)": {
+		"Freneskae#The Cradle": {
 			"Object": {
 				"Memoriam crystal": 1,
 				"Ledge": 2
@@ -188175,7 +188427,7 @@
 				"9268": true
 			}
 		},
-		"The Elder Halls (Freneskae)": {
+		"Freneskae#The Elder Halls": {
 			"Object": {
 				"Fragmented sphere": 5,
 				"Rock face": 1
@@ -188463,7 +188715,8 @@
 				"Material cache (carbon black)": 3
 			},
 			"Monster": {
-				"Rune dragon": 20
+				"Rune dragon": 20,
+				"Elite rune dragon": 1
 			},
 			"Connect": {
 				"9268": true
@@ -189376,7 +189629,8 @@
 				"Giant frog": 3,
 				"Big frog": 13,
 				"Cave slime": 9,
-				"Cave bug": 15,
+				"Cave bug#Level 6": 5,
+				"Cave bug#Level 11": 10,
 				"Molanisk": 10
 			},
 			"NPC": {
@@ -189745,6 +189999,18 @@
 			},
 			"Connect": {
 				"11837": true
+			}
+		},
+		"Freneskae#The Ritual Site": {
+			"Object": {
+				"Lava crater": 1,
+				"Mahjarrat deathstone": 1
+			},
+			"Monster": {
+				"Nightmare": 9
+			},
+			"Connect": {
+				"9268": true
 			}
 		}
 	},
@@ -190211,10 +190477,9 @@
 			],
 			"AllCows[+]": [
 				"Kandarin cow (unchecked)",
-				"Cocolate cow (unchecked)",
+				"Chocolate cow (unchecked)",
 				"Strawberry cow (unchecked)",
-				"Vanilla cow (unchecked)",
-				"Bull (unchecked)"
+				"Vanilla cow (unchecked)"
 			],
 			"AllDragons[+]": [
 				"Green dragon (unchecked)",
@@ -190539,7 +190804,8 @@
 			"ArcZygoParents[+]": [
 				"Arcspore zygomite (unchecked)",
 				"Gloomshroom zygomite (unchecked)",
-				"Zanarian zygomite (unchecked)"
+				"Zanarian zygomite (unchecked)",
+				"Daemoncap zygomite (unchecked)"
 			],
 			"ArmadylArmour[+]": [
 				"Armadyl boots",
@@ -191267,7 +191533,7 @@
 			],
 			"DaemonZygoParents[+]": [
 				"Arcspore zygomite (unchecked)",
-				"Gloomshroom zygomite (unchecked)",
+				"Daemoncap zygomite (unchecked)",
 				"Zanarian zygomite (unchecked)"
 			],
 			"Dagon'haiRobes[+]": [
@@ -191575,44 +191841,6 @@
 				"Elder rune round shield + 4",
 				"Elder rune round shield + 5",
 				"Elder rune round shield"
-			],
-			"PrimalArmour[+]": [
-				"Primal armoured boots",
-				"Primal armoured boots + 1",
-				"Primal armoured boots + 2",
-				"Primal armoured boots + 3",
-				"Primal armoured boots + 4",
-				"Primal armoured boots + 5",
-				"Primal full helm",
-				"Primal full helm + 1",
-				"Primal full helm + 2",
-				"Primal full helm + 3",
-				"Primal full helm + 4",
-				"Primal full helm + 5",
-				"Primal gauntlets",
-				"Primal gauntlets + 1",
-				"Primal gauntlets + 2",
-				"Primal gauntlets + 3",
-				"Primal gauntlets + 4",
-				"Primal gauntlets + 5",
-				"Primal platebody",
-				"Primal platebody + 1",
-				"Primal platebody + 2",
-				"Primal platebody + 3",
-				"Primal platebody + 4",
-				"Primal platebody + 5",
-				"Primal platelegs",
-				"Primal platelegs + 1",
-				"Primal platelegs + 2",
-				"Primal platelegs + 3",
-				"Primal platelegs + 4",
-				"Primal platelegs + 5",
-				"Primal kiteshield",
-				"Primal kiteshield + 1",
-				"Primal kiteshield + 2",
-				"Primal kiteshield + 3",
-				"Primal kiteshield + 4",
-				"Primal kiteshield + 5" 
 			],
 			"ElderRuneWeapon[+]": [
 				"Elder rune 2h sword + 1",
@@ -192888,6 +193116,44 @@
 				"Prayer renewal (3)",
 				"Prayer renewal (4)"
 			],
+			"PrimalArmour[+]": [
+				"Primal armoured boots",
+				"Primal armoured boots + 1",
+				"Primal armoured boots + 2",
+				"Primal armoured boots + 3",
+				"Primal armoured boots + 4",
+				"Primal armoured boots + 5",
+				"Primal full helm",
+				"Primal full helm + 1",
+				"Primal full helm + 2",
+				"Primal full helm + 3",
+				"Primal full helm + 4",
+				"Primal full helm + 5",
+				"Primal gauntlets",
+				"Primal gauntlets + 1",
+				"Primal gauntlets + 2",
+				"Primal gauntlets + 3",
+				"Primal gauntlets + 4",
+				"Primal gauntlets + 5",
+				"Primal platebody",
+				"Primal platebody + 1",
+				"Primal platebody + 2",
+				"Primal platebody + 3",
+				"Primal platebody + 4",
+				"Primal platebody + 5",
+				"Primal platelegs",
+				"Primal platelegs + 1",
+				"Primal platelegs + 2",
+				"Primal platelegs + 3",
+				"Primal platelegs + 4",
+				"Primal platelegs + 5",
+				"Primal kiteshield",
+				"Primal kiteshield + 1",
+				"Primal kiteshield + 2",
+				"Primal kiteshield + 3",
+				"Primal kiteshield + 4",
+				"Primal kiteshield + 5" 
+			],
 			"PrimalFruit[+]": [
 				"Avocado",
 				"Carambola",
@@ -192897,6 +193163,27 @@
 				"Guarana",
 				"Lychee",
 				"Mango"
+			],
+			"PrimalWeapon[+]": [
+				"Primal 2h sword + 1",
+				"Primal 2h sword + 2",
+				"Primal 2h sword + 3",
+				"Primal 2h sword + 4",
+				"Primal 2h sword + 5",
+				"Primal 2h sword",
+				"Primal warhammer + 1",
+				"Primal warhammer + 2",
+				"Primal warhammer + 3",
+				"Primal warhammer + 4",
+				"Primal warhammer + 5",
+				"Primal warhammer",
+				"Primal off hand warhammer + 1",
+				"Primal off hand warhammer + 2",
+				"Primal off hand warhammer + 3",
+				"Primal off hand warhammer + 4",
+				"Primal off hand warhammer + 5",
+				"Primal off hand warhammer",
+				"Primal hatchet"
 			],
 			"PrimevalArmour[+]": [
 				"achto Primeval boots",
@@ -195133,7 +195420,7 @@
 				"Ushabti (dragonstone dragon)",
 				"Ushabti (nightmare)",
 				"Ushabti (chaos giant)",
-				"Ushabti (acheron mammmoth)",
+				"Ushabti (acheron mammoth)",
 				"Ushabti (camel warrior)",
 				"Ushabti (ripper demon)",
 				"Ushabti (wyvern)",
@@ -195171,9 +195458,9 @@
 				"Ushabti (mithril dragon)",
 				"Ushabti (warped terrorbird)",
 				"Ushabti (warped tortoise)",
-				"Ushabti (spirital mage)",
-				"Ushabti (spirital ranger)",
-				"Ushabti (spirital warrior)",
+				"Ushabti (spiritual mage)",
+				"Ushabti (spiritual ranger)",
+				"Ushabti (spiritual warrior)",
 				"Ushabti (waterfiend)",
 				"Ushabti (molanisk)",
 				"Ushabti (terror dog)",
@@ -195906,16 +196193,13 @@
 			"AnyMenaphosChunk[+]": ["12587", "12843", "12586", "12841"],
 			"AnyMenaphosCatLocation[+]": ["12330", "12587", "12843", "12841"],
 			"AnyTotemChunk[+]": ["15943", "15171", "16705"],
-			"AquaticJadinkoAnachronia[+]": ["15170", "16195"],
+			"ArchDigSite[+]": ["9516", "10549", "Star Lodge", "13361", "14898", "13626", "13882", "Senntisten", "Vault of Varanus", "Observation Outpost"],
 			"ArdougneGuardChunks[+]": ["10547", "10291", "10292"],
 			"Arrowhead chest[+]": ["10549", "10553"],
 			"Asgarnian safes[+]": ["11575", "11828", "12082", "12084", "12087"],
-			"BlackAnachronia[+]": ["15171", "16193", "16703", "16447", "16448"],
 			"CaptainsGnomeRestaurant[+]": ["13105", "Dwarven Tunnel"],
 			"CarpetChunks[+]": ["12591", "12844", "13100", "13104","13357", "13358", "13613", "13872"],
-			"CarrionJadinkoAnachronia[+]": ["15430", "16448"],
 			"ChaosTunnelEntrance[+]": ["12343", "12599", "12600", "12344", "12087"],
-			"CommonJadinkoAnachronia[+]": ["16964", "15938"],
 			"CoolStoryBroChunks[+]": ["9275", "9531"],
 			"CorruptedScarabs[+]": ["12587", "12843", "13098", "12586", "12585"],
 			"CropCircle[+]": ["9782", "10044", "10288", "10292", "11058", "11062", "11826", "11829", "12339", "12595", "12598", "12852", "14639"],
@@ -195927,7 +196211,6 @@
 			"CurseOfZaros4[+]": ["12337", "12086", "12084"],
 			"CurseOfZaros5[+]": ["13117", "13623", "Edgeville Dungeon"],
 			"DesertChunks[+]": ["12848", "12847", "12846", "12845", "12844", "13104", "13103", "13104", "13105", "13102", "13101", "13100", "13360", "13359", "13355", "13356", "13357", "13358", "13361", "13616", "13615", "13614", "13613", "13612", "13611", "13872", "13871", "13870", "12591", "12590", "12589", "12588", "12333", "12332", "12076", "12077", "12078"],
-			"DiseasedJadinkoAnachronia[+]": ["16965", "16709", "16194"],
 			"DressToImpressChunks[+]": ["10810", "Waterbirth Dungeon"],
 			"DwarfTunnelEntrance[+]": ["11574", "11062"],
 			"EasyGnomeRestaurant[+]": ["9526", "9527", "9525", "9781", "Brimstail's cave", "9780"],
@@ -195941,16 +196224,12 @@
 			"FaladorChunks[+]": ["11828", "12084"],
 			"FaladorGuardChunks[+]": ["11827", "11828", "12084"],
 			"FarmRaids[+]": ["12339", "12851", "12083", "11573"],
-			"FeldipHills[+]": ["10285", "10029"],
 			"ForestRaids[+]": ["11571", "12339", "12852", "12597"],
 			"Forinthry[+]": ["12089", "12090"],
 			"GloriousMemories2[+]": ["9275", "10044"],
-			"GrenwallAnachronia[+]": ["16193", "16197"],
-			"GrenwallTirannwn[+]": ["8754", "8753", "9010"],
 			"HardGnomeRestaurant[+]": ["12854", "11828", "10291", "11068", "11318", "13105", "13106", "Dwarven Tunnel", "11822", "11051", "11823", "10030", "10033", "10034", "10544", "11566", "10288", "12337", "Keldagrim", "13357"],
 			"HardHideyHoles[+]": ["12856", "10293", "10040", "13099", "12090", "11569", "11065", "11318", "11310"],
 			"HighwaymanChunks[+]": ["11571", "11827", "12083"],
-			"IgneousJadinkoAnachronia[+]": ["15684", "16704"],
 			"KalphiteHiveUnlock[+]": ["12848", "Dorgesh-Kaan Agility Course"],
 			"Kandarin safes[+]": ["10032", "10291", "10547", "10806"],
 			"Kharidian safes[+]": ["12329", "12330", "12585", "12843", "13105", "13358", "13613"],
@@ -195958,7 +196237,7 @@
 			"LumbridgeSwampChunks[+]": ["12849", "12593"],
 			"Lunar/Ancients[+]": ["8508", "Jaldraocht Pyramid"],
 			"MasterHideyHoles[+]": ["TzHaar City", "9524", "The Arc", "13623", "14646", "Grand Library of Menaphos", "11829", "9053", "12594", "12086", "8757"],
-			"TheMeasureChunks[+]": ["15939", "The Elder Halls (Freneskae)"],			
+			"TheMeasureChunks[+]": ["15939", "Freneskae#The Elder Halls"],			
 			"MagesGnomeRestaurant[+]": ["12337", "10288"],
 			"MediumHideyHoles[+]": ["13878", "13879", "12341", "11056", "9776", "10039", "9781", "10288", "9777", "10036", "13365", "11318", "13104"],
 			"MineRaids[+]": ["Burthorpe Mine", "11826", "12849", "12596"],
@@ -195970,9 +196249,7 @@
 			"MysteriousStatueChunks[+]": ["10806", "10292", "10546", "10801"],
 			"Naturerune chest[+]": ["10291", "10547", "10553"],
 			"Orthen[+]": ["15428", "16454", "16193", "16704"],
-			"PawyaAnachronia[+]": ["15170"],
 			"Pet shop[+]": ["10288", "11573"],
-			"Piscatoris[+]": ["9271", "9272"],
 			"PoisonWasteChunks[+]": ["8752", "9008"],
 			"Pose[+]": ["12853", "Keldagrim"],
 			"POR[+]": ["14915", "14916", "14660", "14659"],
@@ -195980,7 +196257,6 @@
 			"PVP[+]": ["8493", "9005", "9520", "11831", "11832", "11833", "11834", "11837", "12087", "12088", "12089", "12090", "12091", "12092", "12343", "12344", "12347", "12348", "12599", "12600", "12603", "12604", "12605", "12855", "12856", "12859", "13111", "13114", "13367", "13368", "13372", "Forinthry Dungeon", "Gamers' Grotto", "TzHaar City"],
 			"RitualSite[+]": ["City of Um", "Ungael ritual site"],
 			"RockCrabChunks[+]": ["10810", "10042"],
-			"RubyAnachronia[+]": ["15428", "15427", "15171", "15172"],
 			"RuneTemple[+]": ["Air Rune Temple", "Mind Rune Temple", "Water Rune Temple", "Earth Rune Temple", "Fire Rune Temple", "Body Rune Temple", "Cosmic Rune Temple", "Chaos Rune Temple", "8508", "Nature Rune Temple", "Law Rune Temple", "Death Rune Temple", "Blood Rune Temple", "Soul Rune Temple", "Time Rune Temple"],
 			"SeaweedChunks[+]": ["11313", "11056", "11055", "11054", "11822", "11310", "11823", "11568"],
 			"SeerChunk[+]": ["10806", "11062"],
@@ -195993,7 +196269,7 @@
 			"TaiBwoWannaiChunks[+]": ["11056", "11055"],
 			"Thievesguild[+]": ["Thieves' Guild after Caper 2", "Thieves' Guild Complete"],
 			"Tirannwn[+]": ["8754", "8753", "9010", "9009"],
-			"VibrantOrBetterWisps[+]": ["9516", "13879", "The Elder Halls (Freneskae)", "13619", "15159", "13097", "9007"],
+			"VibrantOrBetterWisps[+]": ["9516", "13879", "Freneskae#The Elder Halls", "13619", "15159", "13097", "9007"],
 			"WarbandsChunks[+]": ["12088", "13114", "12347"],
 			"WildernessBloodwoodTreeChunks[+]": ["12093", "12856", "13116"],
 			"WildernessDemonChunks[+]": ["13368", "13369", "12857", "12601", "12345", "12090", "13371", "13115", "12603", "12347", "11836", "12092", "12348", "12604", "12860", "13116", "13372", "12861", "12605", "12349", "12093", "Lava Maze Dungeon", "Forinthry Dungeon", "Edgeville Dungeon"],
@@ -196020,16 +196296,13 @@
 			"AnyMenaphosChunk[+]": "Any chunk inside Menaphos",
 			"AnyMenaphosCatLocation[+]": "Any Menaphos cat location",
 			"AnyTotemChunk[+]": "Any chunk with a totem hotspot",
-			"AquaticJadinkoAnachronia[+]": "Any chunk with aquatic jadinkos on Anachronia",
+			"ArchDigSite[+]": "Any archaeology dig site",
 			"ArdougneGuardChunks[+]": "Any chunks with guards in Ardougne",
 			"Arrowhead chest[+]": "Any chunk with a arrowhead chest",
 			"Asgarnian safes[+]": "Any chunk in Asgarnia with safes",
-			"BlackAnachronia[+]": "Any chunk with black warlocks on Anachronia",
 			"CaptainsGnomeRestaurant[+]": "Any chunk with a hard Gnome Restaurant delivery that accesses the gnome pilot loot table",
-			"CarrionJadinkoAnachronia[+]": "Any chunk with carrion jadinkos on Anachronia",
 			"CarpetChunks[+]": "Any chunks used for carpet rides",
 			"ChaosTunnelEntrance[+]": "Any Wilderness chunk from which you can enter the Chaos Tunnels",
-			"CommonJadinkoAnachronia[+]": "Any chunk with common jadinkos on Anachronia",
 			"CoolStoryBroChunks[+]": "Any chunk from which you can watch the Fremennik Isle tower guard shouting match",
 			"CorruptedScarabs[+]": "Any chunk in which Corrupted Scarabs spawn",
 			"CreatureOfFenkenstrain1[+]": "Any chunk where you can start 'Creature of Fenkenstrain'",
@@ -196041,7 +196314,6 @@
 			"CurseOfZaros4[+]": "wip",
 			"CurseOfZaros5[+]": "wip",
 			"DesertChunks[+]": "Any chunks that count as part of the Kharidian desert",
-			"DiseasedJadinkoAnachronia[+]": "Any chunk with diseased jadinkos on Anachronia",
 			"DressToImpressChunks[+]": "Any chunks outside of 10553 with NPCs that will use your Fremennik name",
 			"DwarfTunnelEntrance[+]": "Any chunk that has an entrance to the Dwarven Tunnel underneath White Wolf Mountain",
 			"EasyGnomeRestaurant[+]": "Any chunk with an easy Gnome Restaurant delivery person",
@@ -196055,16 +196327,12 @@
 			"FaladorChunks[+]": "Any chunks with a range in the Falador area",
 			"FaladorGuardChunks[+]": "Any chunks with guards in Falador",
 			"FarmRaids[+]": "Any farm chunk that gets raided by goblins",
-			"FeldipHills[+]": "Any chunk that is part of the Feldip hills hunting area",
 			"ForestRaids[+]": "Any forest chunk that gets raided by goblins",
 			"Forinthry[+]": "Any chunk that gives direct access to the Forinthry dungeon when having a connection to the dungeon",
 			"GloriousMemories2[+]": "Any chunk that has King Vargas or Mawnis Burowgar in it",
-			"GrenwallAnachronia[+]": "Any chunk with grenwalls on Anachronia",
-			"GrenwallTirannwn[+]": "Any chunk with grenwalls in Tirannwn",
 			"HardGnomeRestaurant[+]": "Any chunk with a hard Gnome Restaurant delivery person",
 			"HardHideyHoles[+]": "Any chunk with a hard hideyhole",
 			"HighwaymanChunks[+]": "Any chunks in the south of Falador area that contain highwaymen",
-			"IgneousJadinkoAnachronia[+]": "Any chunk with igneous jadinkos on Anachronia",
 			"KalphiteHiveUnlock[+]": "Any chunks that gives permanent Kalphite hive access",
 			"Kandarin safes[+]": "Any chunk in Kandarin with safes",
 			"Kharidian safes[+]": "Any chunk in the Kharidian desert with safes",
@@ -196084,9 +196352,7 @@
 			"MysteriousStatueChunks[+]": "Any chunk with a mysterious statue in it",
 			"Naturerune chest[+]": "Any chunk with a nature-rune chest",
 			"Orthen[+]": "Any chunk that is part of the Orthen digsite",
-			"PawyaAnachronia[+]": "Any chunk with pawyas on Anachronia",
 			"Pet shop[+]": "Any chunk with a pet shop",
-			"Piscatoris[+]": "Any chunk that is part of the Piscatoris hunter area",
 			"PoisonWasteChunks[+]": "Any chunk from which you can get swamp tar from the poison waste",
 			"Pose[+]": "Any chunk from which you can complete the strike a pose achievement",
 			"POR[+]": "Any chunk that is part of the player-owned ranch",
@@ -196094,7 +196360,6 @@
 			"PVP[+]": "Any chunk where you can attack other players (Wilderness or minigame)",
 			"RitualSite[+]": "Any ritual site",
 			"RockCrabChunks[+]": "The Fremennik coast and waterbirth island chunks that contain rock crabs",
-			"RubyAnachronia[+]": "Any chunk with ruby harvests on Anachronia",
 			"RuneTemple[+]": "Any Rune Temple",
 			"SeaweedChunks[+]": "Any chunk on Karamja with seaweed",
 			"SenntistenChunks[+]": "Any chunk that the Dig Site pendant can teleport to",
@@ -196394,6 +196659,10 @@
 				"Chaos dwarf hand cannoneer",
 				"Dwarf",
 				"Trade floor guard"
+			],
+			"Cave Bug Souls[+]": [
+				"Cave Bug#Level 6",
+				"Cave Bug#Level 11"
 			],
 			"Crocodile Souls[+]": [
 				"Crocodile",
@@ -196965,6 +197234,7 @@
 			"SoulUrnVI[+]": ["Fill the Soul Urn using greater communion rituals", "Fill the Soul Urn for Kili's Knowledge VI (combat)"],
 			"SoulUrnVII[+]": ["Fill the Soul Urn using powerful communion rituals", "Fill the Soul Urn for Kili's Knowledge VII (combat)"],
 			"TierGear[+]": ["Medium New Varrock tasks Tier Gear (Smithing)*", "Medium New Varrock tasks Tier Gear (Crafting)*"],
+			"TotemPolePosition[+]": ["Totem Pole Position sinkhole way*", "~|Totem Pole Position|~ resource dungeon way*"],
 			"TzHaarUnlock[+]": ["TzHaarcityunlockZan", "TzHaarcityunlockvol"],
 			"VarrockSewerAccess[+]": ["Access the Varrock sewers through the Varrock manhole*", "Access the Varrock sewer through the Edgeville dungeon*"],
 			"WaterAccess[+]": ["Access the water rune temple with a talisman*", "Access the water rune temple through the abyss*"],
@@ -197085,6 +197355,7 @@
 			"SoulUrnVI[+]": "Any way to fill soul urn VI",
 			"SoulUrnVII[+]": "Any way to fill soul urn VII",
 			"TierGear[+]": "Any subtask for Tier Gear",
+			"TotemPolePosition[+]": "Any way to complete Totem Pole Position",
 			"TzHaarUnlock[+]": "Any task that provides permanent access to the TzHaar City",
 			"VarrockSewerAccess[+]": "Any way to access the Varrock sewers",
 			"WaterAccess[+]": "Any way to access the water rune temple",
@@ -197262,8 +197533,8 @@
 				"Catablepon": true
 			},
 			"Cave bugs": {
-				"Cave bug": true,
-				"Cave bug (Burthorpe)": true
+				"Cave bug#Level 6": true,
+				"Cave bug#Level 11": true
 			},
 			"Cave crawlers": {
 				"Cave crawler": true,
@@ -197309,6 +197580,7 @@
 			},
 			"Crawling hands": {
 				"Crawling hand": true,
+				"Crawling hand (Burthrope)": true,
 				"Skeletal hand": true,
 				"Zombie hand": true
 			},
@@ -202429,9 +202701,6 @@
 			"Bones": {
 				"1": "Always"
 			},
-			"Key (Treasure Trails)": {
-				"1": "Always"
-			},
 			"Coins": {
 				"5": "Common",
 				"8": "Common",
@@ -206738,9 +207007,6 @@
 				"1": "Always"
 			},
 			"Raw chicken": {
-				"1": "Always"
-			},
-			"Key (Treasure Trails)": {
 				"1": "Always"
 			},
 			"Feather": {
@@ -213166,7 +213432,7 @@
 			"Draconic visage": {
 				"1": "1/512"
 			},
-			"Kethsi ring": {
+			"Kethsi ring (5)": {
 				"1": "1/512"
 			},
 			"Kethsi outfit scroll": {
@@ -220372,22 +220638,22 @@
 				"45-55": "Common"
 			},
 			"Dormant anima core helm": {
-				"1": "1/512"
+				"1": "1/256"
 			},
 			"Dormant anima core body": {
-				"1": "1/512"
+				"1": "1/256"
 			},
 			"Dormant anima core legs": {
-				"1": "1/512"
+				"1": "1/256"
 			},
 			"Shadow glaive": {
-				"1": "1/512"
+				"1": "1/256"
 			},
 			"Off-hand shadow glaive": {
-				"1": "1/512"
+				"1": "1/256"
 			},
 			"Crest of Sliske": {
-				"1": "1/512"
+				"1": "1/256"
 			},
 			"Sliskean essence": {
 				"1": "1/128"
@@ -220452,22 +220718,22 @@
 				"45-60": "Common"
 			},
 			"Dormant anima core helm": {
-				"1": "1/460"
+				"1": "1/230"
 			},
 			"Dormant anima core body": {
-				"1": "1/460"
+				"1": "1/230"
 			},
 			"Dormant anima core legs": {
-				"1": "1/460"
+				"1": "1/230"
 			},
 			"Shadow glaive": {
-				"1": "1/460"
+				"1": "1/230"
 			},
 			"Off-hand shadow glaive": {
-				"1": "1/460"
+				"1": "1/230"
 			},
 			"Crest of Sliske": {
-				"1": "1/460"
+				"1": "1/230"
 			},
 			"Sliskean essence": {
 				"1": "1/115"
@@ -220743,9 +221009,6 @@
 			"Bones": {
 				"1": "Always"
 			},
-			"Key (Treasure Trails)": {
-				"1": "Always"
-			},
 			"Coins": {
 				"1": "Common",
 				"4": "Common",
@@ -220954,9 +221217,6 @@
 			"Bones": {
 				"1": "Always"
 			},
-			"Key (Treasure Trails)": {
-				"1": "Always"
-			},
 			"Coins": {
 				"1": "Common",
 				"4": "Common",
@@ -221160,9 +221420,6 @@
 			"Bones": {
 				"1": "Always"
 			},
-			"Key (Treasure Trails)": {
-				"1": "Always"
-			},
 			"Coins": {
 				"1": "Common",
 				"4": "Common",
@@ -221284,9 +221541,6 @@
 		},
 		"Guard dog": {
 			"Bones": {
-				"1": "Always"
-			},
-			"Key (Treasure Trails)": {
 				"1": "Always"
 			}
 		},
@@ -221959,22 +222213,22 @@
 				"45-55": "Common"
 			},
 			"Dormant anima core helm": {
-				"1": "1/512"
+				"1": "1/256"
 			},
 			"Dormant anima core body": {
-				"1": "1/512"
+				"1": "1/256"
 			},
 			"Dormant anima core legs": {
-				"1": "1/512"
+				"1": "1/256"
 			},
 			"Wand of the Cywir elders": {
-				"1": "1/512"
+				"1": "1/256"
 			},
 			"Orb of the Cywir elders": {
-				"1": "1/512"
+				"1": "1/256"
 			},
 			"Crest of Seren": {
-				"1": "1/512"
+				"1": "1/256"
 			},
 			"Serenic essence": {
 				"1": "1/128"
@@ -222036,22 +222290,22 @@
 				"45-60": "Common"
 			},
 			"Dormant anima core helm": {
-				"1": "1/460"
+				"1": "1/230"
 			},
 			"Dormant anima core body": {
-				"1": "1/460"
+				"1": "1/230"
 			},
 			"Dormant anima core legs": {
-				"1": "1/460"
+				"1": "1/230"
 			},
 			"Wand of the Cywir elders": {
-				"1": "1/460"
+				"1": "1/230"
 			},
 			"Orb of the Cywir elders": {
-				"1": "1/460"
+				"1": "1/230"
 			},
 			"Crest of Seren": {
-				"1": "1/460"
+				"1": "1/230"
 			},
 			"Serenic essence": {
 				"1": "1/115"
@@ -230260,9 +230514,6 @@
 			"Bones": {
 				"1": "Always"
 			},
-			"Key (Treasure Trails)": {
-				"1": "Always"
-			},
 			"Coins": {
 				"3": "Common",
 				"5": "Common",
@@ -230413,9 +230664,6 @@
 		},
 		"Market Guard (Fremennik)": {
 			"Bones": {
-				"1": "Always"
-			},
-			"Key (Treasure Trails)": {
 				"1": "Always"
 			},
 			"Coins": {
@@ -230940,15 +231188,6 @@
 		"Monk": {
 			"Bones": {
 				"1": "Always"
-			},
-			"Key (Treasure Trails)": {
-				"1": "Always"
-			},
-			"Monk's robe (top)": {
-				"1": "Rare"
-			},
-			"Monk's robe (bottom)": {
-				"1": "Rare"
 			}
 		},
 		"Monk of Zamorak": {
@@ -230956,9 +231195,6 @@
 				"1": "Always"
 			},
 			"Golden key": {
-				"1": "Always"
-			},
-			"Key (Treasure Trails)": {
 				"1": "Always"
 			},
 			"Zamorak robe (top)": {
@@ -234600,9 +234836,6 @@
 			"Bones": {
 				"1": "Always"
 			},
-			"Key (Treasure Trails)": {
-				"1": "Always"
-			},
 			"Air rune": {
 				"10": "Common"
 			},
@@ -234732,9 +234965,6 @@
 		},
 		"Port Sarim guard": {
 			"Bones": {
-				"1": "Always"
-			},
-			"Key (Treasure Trails)": {
 				"1": "Always"
 			},
 			"Coins": {
@@ -237598,7 +237828,7 @@
 			"Sealed clue scroll (elite)": {
 				"1": "2/896"
 			},
-			"Kethsi ring": {
+			"Kethsi ring (5)": {
 				"1": "1/1024"
 			},
 			"Court summons": {
@@ -242489,9 +242719,6 @@
 			"Impious ashes": {
 				"1": "Always"
 			},
-			"Key (Treasure Trails)": {
-				"1": "Always"
-			},
 			"Staff": {
 				"1": "Common"
 			},
@@ -245785,22 +246012,22 @@
 				"150-250 (noted)": "Uncommon"
 			},
 			"Dormant anima core helm": {
-				"1": "1/512"
+				"1": "1/256"
 			},
 			"Dormant anima core body": {
-				"1": "1/512"
+				"1": "1/256"
 			},
 			"Dormant anima core legs": {
-				"1": "1/512"
+				"1": "1/256"
 			},
 			"Blade of Avaryss": {
-				"1": "1/512"
+				"1": "1/256"
 			},
 			"Blade of Nymora": {
-				"1": "1/512"
+				"1": "1/256"
 			},
 			"Crest of Zamorak": {
-				"1": "1/512"
+				"1": "1/256"
 			},
 			"Zamorakian essence": {
 				"1": "1/128"
@@ -245862,22 +246089,22 @@
 				"175-350 (noted)": "Uncommon"
 			},
 			"Dormant anima core helm": {
-				"1": "1/460"
+				"1": "1/230"
 			},
 			"Dormant anima core body": {
-				"1": "1/460"
+				"1": "1/230"
 			},
 			"Dormant anima core legs": {
-				"1": "1/460"
+				"1": "1/230"
 			},
 			"Blade of Avaryss": {
-				"1": "1/460"
+				"1": "1/230"
 			},
 			"Blade of Nymora": {
-				"1": "1/460"
+				"1": "1/230"
 			},
 			"Crest of Zamorak": {
-				"1": "1/460"
+				"1": "1/230"
 			},
 			"Zamorakian essence": {
 				"1": "1/115"
@@ -247994,19 +248221,19 @@
 				"150-250 (noted)": "Uncommon"
 			},
 			"Dormant anima core helm": {
-				"1": "1/512"
+				"1": "1/256"
 			},
 			"Dormant anima core body": {
-				"1": "1/512"
+				"1": "1/256"
 			},
 			"Dormant anima core legs": {
-				"1": "1/512"
+				"1": "1/256"
 			},
 			"Dragon Rider lance": {
-				"1": "1/512"
+				"1": "1/256"
 			},
 			"Crest of Zaros": {
-				"1": "1/512"
+				"1": "1/256"
 			},
 			"Zarosian essence": {
 				"1": "1/128"
@@ -248073,19 +248300,19 @@
 				"175-350 (noted)": "Uncommon"
 			},
 			"Dormant anima core helm": {
-				"1": "1/460"
+				"1": "1/230"
 			},
 			"Dormant anima core body": {
-				"1": "1/460"
+				"1": "1/230"
 			},
 			"Dormant anima core legs": {
-				"1": "1/460"
+				"1": "1/230"
 			},
 			"Dragon Rider lance": {
-				"1": "1/460"
+				"1": "1/230"
 			},
 			"Crest of Zaros": {
-				"1": "1/460"
+				"1": "1/230"
 			},
 			"Zarosian essence": {
 				"1": "1/115"
@@ -253872,7 +254099,7 @@
 		"Carnillean Rising": "10291, Claus' Kitchen",
 		"Catapult Construction": "8753, 12085, 12082",
 		"Chef's Assistant": "12597, 12084, 12597, 11573, 12850, 13110",
-		"Children of Mah": "10812, 11580, 13365, 11580, Empty Throne Room, 9268",
+		"Children of Mah": "10812, 13365, Empty Throne Room, 9268",
 		"The Chosen Commander": "Dorgesh-Kaan, Dorgesh-Kaan Agility Course, H.A.M. Cave, 10548, Sigmund's base, Tears of Guthix cavern, Dorgesh-Kaan mine, Bandos's throne room",
 		"City of Senntisten": "13356, 13364, 11827, 11575, 11828, Senntisten",
 		"Clock Tower": "10290, Clock Tower Dungeon",
@@ -254268,13 +254495,13 @@
 				"~|Desert Treasure|~ Complete the quest": "Quest"
 			}],
 			"Archer helm": [{
-				"~|Fremennik Trials|~ Complete the quest": "Quest"
+				"~|The Fremennik Trials|~ Complete the quest": "Quest"
 			}],
 			"Asylum surgeon's ring": [{
 				"Access members content": "Nonskill"
 			}],
 			"Berserker helm": [{
-				"~|Fremennik Trials|~ Complete the quest": "Quest"
+				"~|The Fremennik Trials|~ Complete the quest": "Quest"
 			}],
 			"Chicken egg (unchecked)^": [{
 				"~|Player-owned farm tutorial|~ Complete the tutorial": "Quest"
@@ -254361,7 +254588,7 @@
 				"RecipeSub[+]": "Quest"
 			}],
 			"Farseer helm": [{
-				"~|Fremennik Trials|~ Complete the quest": "Quest"
+				"~|The Fremennik Trials|~ Complete the quest": "Quest"
 			}],
 			"Frying pan": [{
 				"RecipeSub[+]x4": "Quest"
@@ -254481,10 +254708,10 @@
 				"Tier 2 luck or higher*": "Nonskill"
 			}],
 			"Rock-shell boots": [{
-				"~|Fremennik Trials|~ Complete the quest": "Quest"
+				"~|The Fremennik Trials|~ Complete the quest": "Quest"
 			}],
 			"Rock-shell gloves": [{
-				"~|Fremennik Trials|~ Complete the quest": "Quest"
+				"~|The Fremennik Trials|~ Complete the quest": "Quest"
 			}],
 			"Skewer": [{
 				"RecipeSub[+]x5": "Quest"
@@ -254538,7 +254765,7 @@
 				"Access members content": "Nonskill"
 			}],
 			"Warrior helm": [{
-				"~|Fremennik Trials|~ Complete the quest": "Quest"
+				"~|The Fremennik Trials|~ Complete the quest": "Quest"
 			}],
 			"Zuriel's staff^": [{
 				"Access members content": "Nonskill"
@@ -255464,6 +255691,11 @@
 				"13358": [{
 					"~|Smoking Kills|~ Complete the quest": "Quest"
 				}]
+			},
+			"Talent scout": {
+				"10039": [{
+					"~|Bar Crawl (miniquest)|~ Complete the miniquest": "Quest"
+				}]
 			}
 		},
 		"Objects": {
@@ -255697,9 +255929,25 @@
 				"12337": [{
 					"Access members content": "Nonskill"
 				}]
+			},
+			"Hunter Mark Shop": {
+				"15683": [{
+					"Find Hunter Marks": "Nonskill"
+				}]
+			},
+			"Oziach's Armour": {
+				"12086": [{
+					"~|Dragon Slayer|~ Complete the quest": "Quest"
+				}]
 			}
 		},
-		"Spawns": {}
+		"Spawns": {
+			"Papyrus": {
+				"10804": [{
+					"~|Legends' Quest|~ 1": "Quest"
+				}]
+			}
+		}
 	},
 	"mapOverlays": {},
 	"shopItems": {
@@ -264763,6 +265011,13 @@
 				"Sealed clue scroll (hard)": "Rare",
 				"Sealed clue scroll (elite)": "Rare"
 			},
+			"Zygomite Hairstyling": {
+				"Tempered fungal shaft": "Always",
+				"Gloomshroom zygomite (unchecked)": "Rare",				
+				"Zanarian zygomite (unchecked)": "Rare",				
+				"Daemoncap zygomite (unchecked)": "Rare",				
+				"Arcspore zygomite (unchecked)": "Rare"		
+			},
 			"EggSegg": {
 				"Sharp shell shards": "Always",
 				"Strange egg": "Very rare"
@@ -265114,6 +265369,12 @@
 				"Bones": "Always",
 				"Raw bird meat": "Always",
 				"Yellow feather": "Always"
+			},
+			"GoldenWarblerAnachronia": {
+				"Bones": "Always",
+				"Raw bird meat": "Always",
+				"Yellow feather": "Always",
+				"Hunter Mark": "Uncommon"
 			},
 			"FeldipWeasel": {
 				"Bones": "Always",
@@ -266023,6 +266284,33 @@
 				"Sunchoke seed": "38/3402",
 				"Common jadinko (unchecked)": "1/500"
 			},
+			"CommonJadinkoAnachronia": {
+				"Withered vine": "Always",
+				"Red blossom seed": "77/3402",
+				"Green blossom seed": "70/3402",
+				"Blue blossom seed": "82/3402",
+				"Erzille seed": "43/3402",
+				"Argway seed": "42/3402",
+				"Ugune seed": "39/3402",
+				"Shengo seed": "52/3402",
+				"Samaden seed": "38/3402",
+				"Lergberry seed": "91/3402",
+				"Kalferberry seed": "98/3402",
+				"Apple tree seed": "16/3402",
+				"Orange tree seed": "12/3402",
+				"Banana tree seed": "9/3402",
+				"Barberry seed": "45/3402",
+				"Butterfly flower seed": "45/3402",
+				"Fly trap seed": "47/3402",
+				"Godly grapevine seed": "7/3402",
+				"Potato cactus seed": "21/3402",
+				"Prickly pear seed": "45/3402",
+				"Reed seed": "29/3402",
+				"Snape grass seed": "34/3402",
+				"Sunchoke seed": "38/3402",
+				"Common jadinko (unchecked)": "1/500",
+				"Hunter Mark": "Uncommon"
+			},
 			"HastyWhirligig": {
 				"Hasty whirligig shell": "Always",
 				"Piece of Het": "Uncommon",
@@ -266057,6 +266345,33 @@
 				"Sunchoke seed": "10/500",
 				"Shadow jadinko (unchecked)": "1/500"
 			},
+			"ShadowJadinkoAnachronia": {
+				"Shadow vine": "Always",
+				"Red blossom seed": "31/3195",
+				"Green blossom seed": "32/3195",
+				"Blue blossom seed": "40/3195",
+				"Erzille seed": "25/3195",
+				"Argway seed": "17/3195",
+				"Ugune seed": "23/3195",
+				"Shengo seed": "16/3195",
+				"Samaden seed": "17/3195",
+				"Lergberry seed": "40/3195",
+				"Kalferberry seed": "43/3195",
+				"Apple tree seed": "8/3195",
+				"Orange tree seed": "8/3195",
+				"Banana tree seed": "9/3195",
+				"Barberry seed": "7/500",
+				"Butterfly flower seed": "8/500",
+				"Fly trap seed": "7/500",
+				"Godly grapevine seed": "5/500",
+				"Potato cactus seed": "1/500",
+				"Prickly pear seed": "12/500",
+				"Reed seed": "6/500",
+				"Snape grass seed": "5/500",
+				"Sunchoke seed": "10/500",
+				"Shadow jadinko (unchecked)": "1/500",
+				"Hunter Mark": "Uncommon"
+			},
 			"CharmSprite": {
 				"Gold charm slice": "Common",
 				"Green charm slice": "Common",
@@ -266083,6 +266398,22 @@
 				"Snape grass seed": "68/6793",
 				"Sunchoke seed": "85/6793",
 				"Igneous jadinko (unchecked)": "1/500"
+			},
+			"IgneousJadinkoAnachronia": {
+				"Marble vine": "Always",
+				"Lergberry seed": "206/6793",
+				"Kalferberry seed": "133/6793",
+				"Barberry seed": "90/6793",
+				"Butterfly flower seed": "92/6793",
+				"Fly trap seed": "105/6793",
+				"Godly grapevine seed": "44/6793",
+				"Potato cactus seed": "72/6793",
+				"Prickly pear seed": "100/6793",
+				"Reed seed": "57/6793",
+				"Snape grass seed": "68/6793",
+				"Sunchoke seed": "85/6793",
+				"Igneous jadinko (unchecked)": "1/500",
+				"Hunter Mark": "Uncommon"
 			},
 			"Ninja impling": {
 				"Snakeskin boots": {
@@ -266165,6 +266496,22 @@
 				"Sunchoke seed": "12/1312",
 				"Cannibal jadinko (unchecked)": "1/500"
 			},
+			"CannibalJadinkoAnachronia": {
+				"Plant teeth": "Always",
+				"Lergberry seed": "30/1312",
+				"Kalferberry seed": "34/1312",
+				"Barberry seed": "17/1312",
+				"Butterfly flower seed": "15/1312",
+				"Fly trap seed": "14/1312",
+				"Godly grapevine seed": "5/1312",
+				"Potato cactus seed": "15/1312",
+				"Prickly pear seed": "14/1312",
+				"Reed seed": "8/1312",
+				"Snape grass seed": "9/1312",
+				"Sunchoke seed": "12/1312",
+				"Cannibal jadinko (unchecked)": "1/500",
+				"Hunter Mark": "Uncommon"
+			},
 			"ArcaneApoterrasaur": {
 				"Raw arcane apoterrasaur meat": "Always",
 				"Dinosaur bones": "Always",
@@ -266199,6 +266546,9 @@
 				"Grimy avantoe": "Unknown",
 				"Compacted hides": "7/100",
 				"Arcane apoterrasaur (unchecked)": "1/65",
+				"Hunter Mark": {
+					"1": "Always"
+				},
 				"Skeka's hypnowand focus": {
 					"1": "1/1500"
 				},
@@ -266246,6 +266596,9 @@
 				"Grimy avantoe": "Common",
 				"Compacted hides": "7/100",
 				"Scimitops (unchecked)": "1/65",
+				"Hunter Mark": {
+					"1": "Always"
+				},
 				"Skeka's hypnowand focus": {
 					"1": "1/1500"
 				},
@@ -266293,6 +266646,9 @@
 				"Grimy avantoe": "Common",
 				"Compacted hides": "7/100",
 				"Bagrada rex (unchecked)": "1/65",
+				"Hunter Mark": {
+					"1": "Always"
+				},
 				"Skeka's hypnowand focus": {
 					"1": "1/1500"
 				},
@@ -266321,6 +266677,23 @@
 				"Snape grass seed": "18/2221",
 				"Sunchoke seed": "27/2221",
 				"Aquatic jadinko (unchecked)": "1/500"
+			},
+			"AquaticJadinkoAnachronia": {
+				"Aquatic vine": "Always",
+				"Red blossom seed": "49/2221",
+				"Green blossom seed": "30/2221",
+				"Blue blossom seed": "27/2221",
+				"Barberry seed": "28/2221",
+				"Butterfly flower seed": "32/2221",
+				"Fly trap seed": "33/2221",
+				"Godly grapevine seed": "5/2221",
+				"Potato cactus seed": "28/2221",
+				"Prickly pear seed": "21/2221",
+				"Reed seed": "28/2221",
+				"Snape grass seed": "18/2221",
+				"Sunchoke seed": "27/2221",
+				"Aquatic jadinko (unchecked)": "1/500",
+				"Hunter Mark": "Uncommon"
 			},
 			"Pirate impling": {
 				"Gold stone spirit": {
@@ -266460,9 +266833,26 @@
 				"Grimy dwarf weed": "3/100",
 				"Dinosaur rib bone": "1/1000",
 				"Reinforced dinosaur pelt": "1/1000",
-				"Compacted hides": "Uncommon"
+				"Compacted hides": "Uncommon",
+				"Hunter Mark": "Uncommon"
 			},
 			"AmphibiousJadinko": {
+				"Oily vine": "Always",
+				"Apple tree seed": "50/2046",
+				"Orange tree seed": "27/2046",
+				"Banana tree seed": "36/2046",
+				"Barberry seed": "35/2046",
+				"Butterfly flower seed": "30/2046",
+				"Fly trap seed": "24/2046",
+				"Godly grapevine seed": "11/2046",
+				"Potato cactus seed": "21/2046",
+				"Prickly pear seed": "21/2046",
+				"Reed seed": "18/2046",
+				"Snape grass seed": "18/2046",
+				"Sunchoke seed": "36/2046",
+				"Amphibious jadinko (unchecked)": "1/500"
+			},
+			"AmphibiousJadinkoAnachronia": {
 				"Oily vine": "Always",
 				"Apple tree seed": "50/2046",
 				"Orange tree seed": "27/2046",
@@ -266496,6 +266886,25 @@
 				"Sunchoke seed": "92/6360",
 				"Carrion jadinko (unchecked)": "1/500"
 			},
+			"CarrionJadinkoAnachronia": {
+				"Pungent vine": "Always",
+				"Erzille seed": "230/6360",
+				"Argway seed": "169/6360",
+				"Ugune seed": "167/6360",
+				"Shengo seed": "95/6360",
+				"Samaden seed": "80/6360",
+				"Barberry seed": "100/6360",
+				"Butterfly flower seed": "96/6360",
+				"Fly trap seed": "89/6360",
+				"Godly grapevine seed": "37/6360",
+				"Potato cactus seed": "58/6360",
+				"Prickly pear seed": "107/6360",
+				"Reed seed": "52/6360",
+				"Snape grass seed": "70/6360",
+				"Sunchoke seed": "92/6360",
+				"Carrion jadinko (unchecked)": "1/500",
+				"Hunter Mark": "Uncommon"
+			},
 			"DiseasedJadinko": {
 				"Corrupt vine": "Always",
 				"Red blossom seed": "119/15461",
@@ -266522,6 +266931,33 @@
 				"Sunchoke seed": "7/15461",
 				"Diseased jadinko (unchecked)": "1/500"
 			},
+			"DiseasedJadinkoAnachronia": {
+				"Corrupt vine": "Always",
+				"Red blossom seed": "119/15461",
+				"Green blossom seed": "104/15461",
+				"Blue blossom seed": "18/15461",
+				"Erzille seed": "113/15461",
+				"Argway seed": "92/15461",
+				"Ugune seed": "117/15461",
+				"Shengo seed": "82/15461",
+				"Samaden seed": "115/15461",
+				"Lergberry seed": "249/15461",
+				"Kalferberry seed": "207/15461",
+				"Apple tree seed": "24/15461",
+				"Orange tree seed": "12/15461",
+				"Banana tree seed": "34/15461",
+				"Barberry seed": "5/15461",
+				"Butterfly flower seed": "3/15461",
+				"Fly trap seed": "8/15461",
+				"Godly grapevine seed": "Unknown",
+				"Potato cactus seed": "5/15461",
+				"Prickly pear seed": "2/15461",
+				"Reed seed": "3/15461",
+				"Snape grass seed": "5/15461",
+				"Sunchoke seed": "7/15461",
+				"Diseased jadinko (unchecked)": "1/500",
+				"Hunter Mark": "Uncommon"
+			},
 			"CamouflagedJadinko": {
 				"Striped vine": "Always",
 				"Red blossom seed": "11/1805",
@@ -266547,6 +266983,33 @@
 				"Snape grass seed": "9/1805",
 				"Sunchoke seed": "23/1805",
 				"Camouflaged jadinko (unchecked)": "1/500"
+			},
+			"CamouflagedJadinkoAnachronia": {
+				"Striped vine": "Always",
+				"Red blossom seed": "11/1805",
+				"Green blossom seed": "6/1805",
+				"Blue blossom seed": "10/1805",
+				"Erzille seed": "6/1805",
+				"Argway seed": "7/1805",
+				"Ugune seed": "3/1805",
+				"Shengo seed": "7/1805",
+				"Samaden seed": "5/1805",
+				"Lergberry seed": "74/1805",
+				"Kalferberry seed": "42/1805",
+				"Apple tree seed": "2/1805",
+				"Orange tree seed": "2/1805",
+				"Banana tree seed": "2/1805",
+				"Barberry seed": "14/1805",
+				"Butterfly flower seed": "17/1805",
+				"Fly trap seed": "13/1805",
+				"Godly grapevine seed": "5/1805",
+				"Potato cactus seed": "8/1805",
+				"Prickly pear seed": "18/1805",
+				"Reed seed": "9/1805",
+				"Snape grass seed": "9/1805",
+				"Sunchoke seed": "23/1805",
+				"Camouflaged jadinko (unchecked)": "1/500",
+				"Hunter Mark": "Uncommon"
 			},
 			"Divine impling": {
 				"Luminous energy": {
@@ -266660,6 +267123,9 @@
 				"Dragon mattock": "1/101",
 				"Compacted hides": "7/100",
 				"Spicati apoterrasaur (unchecked)": "1/65",
+				"Hunter Mark": {
+					"1": "Always"
+				},
 				"Skeka's hypnowand focus": {
 					"1": "1/1500"
 				},
@@ -266689,6 +267155,24 @@
 				"Snape grass seed": "66/6343",
 				"Sunchoke seed": "100/6343",
 				"Draconic jadinko (unchecked)": "1/500"
+			},
+			"DraconicJadinko": {
+				"Erzille seed": "99/6343",
+				"Argway seed": "73/6343",
+				"Ugune seed": "85/6343",
+				"Shengo seed": "47/6343",
+				"Samaden seed": "35/6343",
+				"Barberry seed": "79/6343",
+				"Butterfly flower seed": "100/6343",
+				"Fly trap seed": "80/6343",
+				"Godly grapevine seed": "33/6343",
+				"Potato cactus seed": "72/6343",
+				"Prickly pear seed": "101/6343",
+				"Reed seed": "62/6343",
+				"Snape grass seed": "66/6343",
+				"Sunchoke seed": "100/6343",
+				"Draconic jadinko (unchecked)": "1/500",
+				"Hunter Mark": "Uncommon"
 			},
 			"TrapperOutfit": {
 				"Volcanic trapper head": "Always",
@@ -266860,6 +267344,9 @@
 				"Dragon mattock": "1/101",
 				"Compacted hides": "7/100",
 				"Asciatops (unchecked)": "1/65",
+				"Hunter Mark": {
+					"1": "Always"
+				},
 				"Skeka's hypnowand focus": {
 					"1": "1/1500"
 				},
@@ -267082,6 +267569,9 @@
 				"Dragon mattock": "1/101",
 				"Compacted hides": "7/100",
 				"Corbicula rex (unchecked)": "1/65",
+				"Hunter Mark": {
+					"1": "Always"
+				},
 				"Skeka's hypnowand focus": {
 					"1": "1/1500"
 				},
@@ -267227,6 +267717,9 @@
 				"Tribal fin": "1/1000",
 				"Golden dragonfruit seed": "Very rare",
 				"Oculi apoterrasaur (unchecked)": "1/65",
+				"Hunter Mark": {
+					"1": "Always"
+				},
 				"Skeka's hypnowand focus": {
 					"1": "1/1500"
 				},
@@ -267345,6 +267838,9 @@
 				"Volcanic fragments": "1/1000",
 				"Golden dragonfruit seed": "Very rare",
 				"Malletops (unchecked)": "1/65",
+				"Hunter Mark": {
+					"1": "Always"
+				},
 				"Skeka's hypnowand focus": {
 					"1": "1/1500"
 				},
@@ -267540,6 +268036,9 @@
 				"Superior long bone": "1/1000",
 				"Golden dragonfruit seed": "Very rare",
 				"Pavosaurus rex (unchecked)": "1/65",
+				"Hunter Mark": {
+					"1": "Always"
+				},
 				"Skeka's hypnowand focus": {
 					"1": "1/1500"
 				},
@@ -270444,39 +270943,40 @@
 					"1": "Very Rare"
 				}
 			},
-			"Cave bug (Burthorpe)": {
+			"Cave bug#Level 6": {
 				"Grimy guam": {
-					"1": "4/128"
+					"1": "16/128",
+					"1": "1/22.3"
 				},
 				"Grimy marrentill": {
-					"1": "3/128"
+					"1": "1/29.7"
 				},
 				"Grimy tarromin": {
-					"1": "2/128"
+					"1": "1/39.6"
 				},
 				"Grimy harralander": {
-					"1": "2/128"
+					"1": "1/50.9"
 				},
 				"Grimy ranarr": {
-					"1": "1/128"
+					"1": "1/64.8"
 				},
 				"Grimy irit": {
-					"1": "Unknown"
+					"1": "1/89"
 				},
 				"Grimy avantoe": {
-					"1": "1/128"
+					"1": "1/118.7"
 				},
 				"Grimy kwuarm": {
-					"1": "1/256"
+					"1": "1/142.5"
 				},
 				"Grimy cadantine": {
-					"1": "1/256"
+					"1": "1/178.1"
 				},
 				"Grimy lantadyme": {
-					"1": "1/256"
+					"1": "1/237.4"
 				},
 				"Grimy dwarf weed": {
-					"1": "Unknown"
+					"1": "1/237.4"
 				},
 				"Eye of newt": {
 					"1": "2/128"
@@ -270494,19 +270994,18 @@
 					"1": "2/128"
 				},
 				"Water rune": {
-					"1-16": "4/128",
-					"1-167": "2/128"
+					"8": "5/128"
 				},
 				"Earth rune": {
-					"1-16": "1/128",
-					"1-147": "2/128"
+					"6": "2/128"
 				},
 				"Nature rune": {
-					"1-8": "2/128"
+					"1": "5/128",
+					"2": "1/128"
 				},
 				"Coins": {
-					"3-8": "9/128",
-					"1-38": "29/128"
+					"3": "8/128",
+					"8": "3/128"
 				},
 				"Tinderbox": {
 					"1": "3/128"
@@ -270515,96 +271014,76 @@
 					"1": "1/128"
 				},
 				"White candle": {
-					"1": "4/128"
-				},
-				"Fire rune": {
-					"1-148": "5/128"
+					"1": "5/128"
 				},
 				"Tiny plated bronze salvage": {
-					"1": "Unknown"
+					"1": "1/128"
+				},
+				"Nothing": {
+					"1": "48/128"
 				}
 			},
-			"Cave bug": {
+			"Cave bug#Level 11": {
 				"Grimy guam": {
-					"1": "4/128"
+					"1": "4/25.6"
 				},
 				"Grimy marrentill": {
-					"1": "3/128"
+					"1": "1/34.1"
 				},
 				"Grimy tarromin": {
-					"1": "2/128"
+					"1": "1/45.5"
 				},
 				"Grimy harralander": {
-					"1": "2/128"
+					"1": "1/58.5"
 				},
 				"Grimy ranarr": {
-					"1": "1/128"
+					"1": "1/74.5"
 				},
 				"Grimy irit": {
-					"1": "Unknown"
+					"1": "1/102.4"
 				},
 				"Grimy avantoe": {
-					"1": "1/128"
+					"1": "1/136.5"
 				},
 				"Grimy kwuarm": {
-					"1": "1/256"
+					"1": "1/163.8"
 				},
 				"Grimy cadantine": {
-					"1": "1/256"
+					"1": "1/204.8"
 				},
 				"Grimy lantadyme": {
-					"1": "1/256"
+					"1": "1/273.1"
 				},
 				"Grimy dwarf weed": {
-					"1": "Unknown"
-				},
-				"Eye of newt": {
-					"1": "2/128"
-				},
-				"Limpwurt root": {
-					"1": "1/128"
-				},
-				"Snape grass": {
-					"1": "1/128"
-				},
-				"Red spiders' eggs": {
-					"1": "1/128"
-				},
-				"Unicorn horn dust": {
-					"1": "2/128"
+					"1": "1/273.1"
 				},
 				"Water rune": {
-					"1-16": "4/128",
-					"1-167": "2/128"
+					"1-16": "13/128",
+					"1-170": "2/128"
 				},
 				"Earth rune": {
-					"1-16": "1/128",
-					"1-147": "2/128"
+					"1-10": "15/128",
+					"1-170": "2/128"
 				},
-				"Nature rune": {
-					"1-8": "2/128"
+				"Fire rune": {
+					"1-20": "12/128",
+					"1-170": "2/128"
 				},
 				"Coins": {
-					"3-8": "9/128",
-					"1-38": "29/128"
+					"1-40": "14/128"
 				},
-				"Tinderbox": {
-					"1": "3/128"
-				},
-				"Candle lantern (empty)": {
+				"Nothing": {
 					"1": "1/128"
 				},
 				"White candle": {
 					"1": "4/128"
 				},
 				"Swamp weed": {
-					"1-8": "Common"
-				},
-				"Fire rune": {
-					"1-148": "5/128"
+					"1-4": "21/128",
+					"1-8": "21/128"
 				},
 				"Water battlestaff": {
-					"1": "Unknown"
+					"1": "1/128"
 				},
 				"Rare drop table": {
 					"1": "Very rare"
@@ -270613,10 +271092,7 @@
 					"1": "1/128"
 				},
 				"Tiny plated bronze salvage": {
-					"1": "Unknown"
-				},
-				"Starved ancient effigy": {
-					"1": "Very rare"
+					"1": "1/128"
 				}
 			},
 			"Cave crawler": {
@@ -271438,6 +271914,52 @@
 				},
 				"Hand bone": {
 					"1": "Uncommon"
+				},
+				"Crawling hand (item)": {
+					"1": "1/512"
+				},
+				"Starved ancient effigy": {
+					"1": "Very rare"
+				},
+				"Rare drop table": {
+					"1": "Rare"
+				}
+			},
+			"Crawling hand (Burthorpe)": {
+				"Bones": {
+					"1": "Always"
+				},
+				"Coins": {
+					"4": "3/128",
+					"5": "3/128",
+					"8": "3/128"
+				},
+				"Leather gloves": {
+					"1": "21/128"
+				},
+				"Gloves (grey)": {
+					"1": "2/128"
+				},
+				"Gloves (yellow)": {
+					"1": "2/128"
+				},
+				"Gloves (red)": {
+					"1": "2/128"
+				},
+				"Gloves (teal)": {
+					"1": "2/128"
+				},
+				"Gloves (purple)": {
+					"1": "2/128"
+				},
+				"Gold ring": {
+					"1": "3/128"
+				},
+				"Sapphire ring": {
+					"1": "2/128"
+				},
+				"Emerald ring": {
+					"1": "2/128"
 				},
 				"Crawling hand (item)": {
 					"1": "1/512"
@@ -281302,6 +281824,18 @@
 				"Primal 2h sword + 3": "Always",
 				"Primal 2h sword + 4": "Always",
 				"Primal 2h sword + 5": "Always",
+				"Primal warhammer ": "Always",
+				"Primal warhammer + 1": "Always",
+				"Primal warhammer + 2": "Always",
+				"Primal warhammer + 3": "Always",
+				"Primal warhammer + 4": "Always",
+				"Primal warhammer + 5": "Always",
+				"Primal off hand warhammer ": "Always",
+				"Primal off hand warhammer + 1": "Always",
+				"Primal off hand warhammer + 2": "Always",
+				"Primal off hand warhammer + 3": "Always",
+				"Primal off hand warhammer + 4": "Always",
+				"Primal off hand warhammer + 5": "Always",
 				"Primal armoured boots": "Always",
 				"Primal armoured boots + 1": "Always",
 				"Primal armoured boots + 2": "Always",
@@ -284535,7 +285069,7 @@
 				"First age cape": {
 					"1": "Always"
 				},
-				"First age bracemet": {
+				"First age bracelet": {
 					"1": "Always"
 				},
 				"First age ring": {
@@ -285248,11 +285782,12 @@
 	},
 	"slayerMonsters": {
 		"Gelatinous abomination": 1,
-		"Crawling Hand": 5,
+		"Crawling hand": 5,
+		"Crawling hand (Burthorpe)": 5,
 		"Skeletal hand": 5,
 		"Zombie hand": 5,
-		"Cave bug": 7,
-		"Cave bug (Burthorpe)": 7,
+		"Cave bug#Level 6": 7,
+		"Cave bug#Level 11": 7,
 		"Cave crawler": 10,
 		"Banshee": 15,
 		"Mighty banshee": 15,
@@ -327355,7 +327890,7 @@
 			"lp": 0,
 			"attack_range": 1,
 			"class": "melee",
-			"accuracy": 2178,
+			"accuracy": 2458,
 			"auto_damage": 2011.5
 		},
 		"Primal armoured boots": {
@@ -328141,6 +328676,246 @@
 			"charges": 10000,
 			"prayer": 0,
 			"accuracy": 0
+		},
+		"Primal warhammer": {
+			"ranged": 0,
+			"slot": "main hand weapon",
+			"prayer": 0,
+			"style": "crush",
+			"ability_damage": 816,
+			"magic": 0,
+			"strength": 0,
+			"armour": 0,
+			"requirements": {
+				"Attack": 99
+			},
+			"speed": 6,
+			"tier": 85,
+			"lp": 0,
+			"attack_range": 1,
+			"class": "melee",
+			"accuracy": 2178,
+			"auto_damage": 1266.5
+		},
+		"Primal warhammer + 1": {
+			"ranged": 0,
+			"slot": "main hand weapon",
+			"prayer": 0,
+			"style": "crush",
+			"ability_damage": 825.6,
+			"magic": 0,
+			"strength": 0,
+			"armour": 0,
+			"requirements": {
+				"Attack": 99
+			},
+			"speed": 6,
+			"tier": 86,
+			"lp": 0,
+			"attack_range": 1,
+			"class": "melee",
+			"accuracy": 2232,
+			"auto_damage": 1281.4
+		},
+		"Primal warhammer + 2": {
+			"ranged": 0,
+			"slot": "main hand weapon",
+			"prayer": 0,
+			"style": "crush",
+			"ability_damage": 835.2,
+			"magic": 0,
+			"strength": 0,
+			"armour": 0,
+			"requirements": {
+				"Attack": 99
+			},
+			"speed": 6,
+			"tier": 87,
+			"lp": 0,
+			"attack_range": 1,
+			"class": "melee",
+			"accuracy": 2287,
+			"auto_damage": 1296.3
+		},
+		"Primal warhammer + 3": {
+			"ranged": 0,
+			"slot": "main hand weapon",
+			"prayer": 0,
+			"style": "crush",
+			"ability_damage": 844.7,
+			"magic": 0,
+			"strength": 0,
+			"armour": 0,
+			"requirements": {
+				"Attack": 99
+			},
+			"speed": 6,
+			"tier": 88,
+			"lp": 0,
+			"attack_range": 1,
+			"class": "melee",
+			"accuracy": 2343,
+			"auto_damage": 1311
+		},
+		"Primal warhammer + 4": {
+			"ranged": 0,
+			"slot": "main hand weapon",
+			"prayer": 0,
+			"style": "crush",
+			"ability_damage": 854.4,
+			"magic": 0,
+			"strength": 0,
+			"armour": 0,
+			"requirements": {
+				"Attack": 99
+			},
+			"speed": 6,
+			"tier": 89,
+			"lp": 0,
+			"attack_range": 1,
+			"class": "melee",
+			"accuracy": 2400,
+			"auto_damage": 1326.1
+		},
+		"Primal warhammer + 5": {
+			"ranged": 0,
+			"slot": "main hand weapon",
+			"prayer": 0,
+			"style": "crush",
+			"ability_damage": 864,
+			"magic": 0,
+			"strength": 0,
+			"armour": 0,
+			"requirements": {
+				"Attack": 99
+			},
+			"speed": 6,
+			"tier": 90,
+			"lp": 0,
+			"attack_range": 1,
+			"class": "melee",
+			"accuracy": 2458,
+			"auto_damage": 1341
+		},
+		"Primal off hand warhammer": {
+			"ranged": 0,
+			"slot": "off-hand weapon",
+			"prayer": 0,
+			"style": "crush",
+			"ability_damage": 408,
+			"magic": 0,
+			"strength": 0,
+			"armour": 0,
+			"requirements": {
+				"Attack": 99
+			},
+			"speed": 6,
+			"tier": 85,
+			"lp": 0,
+			"attack_range": 1,
+			"class": "melee",
+			"accuracy": 2178,
+			"auto_damage": 633.2
+		},
+		"Primal off hand warhammer + 1": {
+			"ranged": 0,
+			"slot": "off-hand weapon",
+			"prayer": 0,
+			"style": "crush",
+			"ability_damage": 412.8,
+			"magic": 0,
+			"strength": 0,
+			"armour": 0,
+			"requirements": {
+				"Attack": 99
+			},
+			"speed": 6,
+			"tier": 86,
+			"lp": 0,
+			"attack_range": 1,
+			"class": "melee",
+			"accuracy": 2232,
+			"auto_damage": 640.7
+		},
+		"Primal off hand warhammer + 2": {
+			"ranged": 0,
+			"slot": "off-hand weapon",
+			"prayer": 0,
+			"style": "crush",
+			"ability_damage": 417.6,
+			"magic": 0,
+			"strength": 0,
+			"armour": 0,
+			"requirements": {
+				"Attack": 99
+			},
+			"speed": 6,
+			"tier": 87,
+			"lp": 0,
+			"attack_range": 1,
+			"class": "melee",
+			"accuracy": 2287,
+			"auto_damage": 648.1
+		},
+		"Primal off hand warhammer + 3": {
+			"ranged": 0,
+			"slot": "off-hand weapon",
+			"prayer": 0,
+			"style": "crush",
+			"ability_damage": 422.4,
+			"magic": 0,
+			"strength": 0,
+			"armour": 0,
+			"requirements": {
+				"Attack": 99
+			},
+			"speed": 6,
+			"tier": 88,
+			"lp": 0,
+			"attack_range": 1,
+			"class": "melee",
+			"accuracy": 2343,
+			"auto_damage": 655.6
+		},
+		"Primal off hand warhammer + 4": {
+			"ranged": 0,
+			"slot": "off-hand weapon",
+			"prayer": 0,
+			"style": "crush",
+			"ability_damage": 427.2,
+			"magic": 0,
+			"strength": 0,
+			"armour": 0,
+			"requirements": {
+				"Attack": 99
+			},
+			"speed": 6,
+			"tier": 89,
+			"lp": 0,
+			"attack_range": 1,
+			"class": "melee",
+			"accuracy": 2400,
+			"auto_damage": 663
+		},
+		"Primal off hand warhammer + 5": {
+			"ranged": 0,
+			"slot": "off-hand weapon",
+			"prayer": 0,
+			"style": "crush",
+			"ability_damage": 432,
+			"magic": 0,
+			"strength": 0,
+			"armour": 0,
+			"requirements": {
+				"Attack": 99
+			},
+			"speed": 6,
+			"tier": 90,
+			"lp": 0,
+			"attack_range": 1,
+			"class": "melee",
+			"accuracy": 2458,
+			"auto_damage": 670.5
 		},
 		"Primeval boots": {
 			"ranged": 0,
