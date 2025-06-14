@@ -33716,7 +33716,7 @@
 				"Items": ["Liverwort seed"],
 				"Objects": ["Fertile soil patch"],
 				"Level": 90,
-				"Output Object": "Liverwort",
+				"Output Object": "Liverworts",
 				"Primary": false,
 				"Priority": 7
 			},
@@ -34156,6 +34156,15 @@
 				"Output": "ForestDinoBreed",
 				"Primary": false,
 				"Priority": 6
+			},
+			"Grow a ~|starbloom flower|~": {
+				"Category": ["Normal Farming"],
+				"Items": ["Starbloom flower seed*", "Battlestaff"],
+				"Objects": ["Flower patch"],
+				"Level": 100,
+				"Output": "Starbloom flower",
+				"Primary": true,
+				"Priority": 7
 			},
 			"Plant a ~|ciku seedling|~": {
 				"Category": ["Normal Farming"],
@@ -51494,7 +51503,7 @@
 				"Category": ["Shooting Stars", "DnD Skilling"],
 				"Level": 70,
 				"Objects": ["Crashed star"],
-				"Output": "Stardust",
+				"Output": "Big star loot",
 				"Primary": true,
 				"Priority": 40,
 				"Not F2P": true
@@ -51503,7 +51512,7 @@
 				"Category": ["Shooting Stars", "DnD Skilling"],
 				"Level": 80,
 				"Objects": ["Crashed star"],
-				"Output": "Stardust",
+				"Output": "Big star loot",
 				"Primary": true,
 				"Priority": 40,
 				"Not F2P": true
@@ -51512,7 +51521,7 @@
 				"Category": ["Shooting Stars", "DnD Skilling"],
 				"Level": 90,
 				"Objects": ["Crashed star"],
-				"Output": "Stardust",
+				"Output": "Big star loot",
 				"Primary": true,
 				"Priority": 40,
 				"Not F2P": true
@@ -51521,7 +51530,7 @@
 				"Category": ["Shooting Stars", "DnD Skilling"],
 				"Level": 100,
 				"Objects": ["Crashed star"],
-				"Output": "Stardust",
+				"Output": "Big star loot",
 				"Primary": true,
 				"Priority": 40,
 				"Not F2P": true
@@ -118356,7 +118365,7 @@
 				"BaseQuest": "Completionist achievements",
 				"Chunks": ["13626", "13882"],
 				"Skills": {
-					"Dungeoneering": 118
+					"Dungeoneering": 113
 				},
 				"NoBoost": true,
 				"Not F2P": true
@@ -122863,178 +122872,176 @@
 				"Category": ["Comp achievements", "Trim achievements"],
 				"Description": "Fully complete the slayer codex.",
 				"BaseQuest": "Completionist achievements",
-				"Items": [
-					"Ushabti (profane scabarite)",
-					"Ushabti (armoured phantom)",
-					"Ushabti (risen ghost)",
-					"Ushabti (bound skeleton)",
-					"Ushabti (fetid zombie)",
-					"Ushabti (abyssal lord)",
-					"Ushabti (abyssal beast)",
-					"Ushabti (abyssal savage)",
-					"Ushabti (Nodon)",
-					"Ushabti (cockroach)",
-					"Ushabti (liverwort)",
-					"Ushabti (luminous snaggler)",
-					"Ushabti (devil's snare)",
-					"Ushabti (lampenflora)",
-					"Ushabti (ripper dinosaur)",
-					"Ushabti (venomous dinosaur)",
-					"Ushabti (brutish dinosaur)",
-					"Ushabti (feral dinosaur)",
-					"Ushabti (revenant)",
-					"Ushabti (soulgazer)",
-					"Ushabti (seeker)",
-					"Ushabti (vinecrawler)",
-					"Ushabti (bulbous crawler)",
-					"Ushabti (moss golem)",
-					"Ushabti (imperial guard akh)",
-					"Ushabti (scarab akh)",
-					"Ushabti (crocodile akh)",
-					"Ushabti (gorilla akh)",
-					"Ushabti (feline akh)",
-					"Ushabti (salawa akh)",
-					"Ushabti (corrupted worker)",
-					"Ushabti (corrupted kalphite)",
-					"Ushabti (corrupted dust devil)",
-					"Ushabti (corrupted lizard)",
-					"Ushabti (corrupted scarab)",
-					"Ushabti (corrupted scorpion)",
-					"Ushabti (hydrix dragon)",
-					"Ushabti (onyx dragon)",
-					"Ushabti (dragonstone dragon)",
-					"Ushabti (nightmare)",
-					"Ushabti (chaos giant)",
-					"Ushabti (acheron mammoth)",
-					"Ushabti (camel warrior)",
-					"Ushabti (ripper demon)",
-					"Ushabti (wyvern)",
-					"Ushabti (crystal shapeshifter)",
-					"Ushabti (rune dragon)",
-					"Ushabti (adamant dragon)",
-					"Ushabti (lava strykewyrm)",
-					"Ushabti (shadow creature)",
-					"Ushabti (edimmu)",
-					"Ushabti (tormented demon)",
-					"Ushabti (glacor)",
-					"Ushabti (kal'gerion demon)",
-					"Ushabti (nihil)",
-					"Ushabti (muspah)",
-					"Ushabti (celestial dragon)",
-					"Ushabti (airut)",
-					"Ushabti (pig)",
-					"Ushabti (ascension creature)",
-					"Ushabti (aviansie)",
-					"Ushabti (automaton)",
-					"Ushabti (grotworm)",
-					"Ushabti (gelatinous abomination)",
-					"Ushabti (vyrewatch)",
-					"Ushabti (mutated jadinko)",
-					"Ushabti (cyclops)",
-					"Ushabti (living rock creature)",
-					"Ushabti (ice strykewyrm)",
-					"Ushabti (desert strykewyrm)",
-					"Ushabti (jungle strykewyrm)",
-					"Ushabti (fungal mage)",
-					"Ushabti (grifolaroo)",
-					"Ushabti (grifolapine)",
-					"Ushabti (ganodermic beast)",
-					"Ushabti (aquanite)",
-					"Ushabti (mithril dragon)",
-					"Ushabti (warped terrorbird)",
-					"Ushabti (warped tortoise)",
-					"Ushabti (spiritual mage)",
-					"Ushabti (spiritual ranger)",
-					"Ushabti (spiritual warrior)",
-					"Ushabti (waterfiend)",
-					"Ushabti (molanisk)",
-					"Ushabti (terror dog)",
-					"Ushabti (scabarite)",
-					"Ushabti (brine rat)",
-					"Ushabti (suqah)",
-					"Ushabti (gorak)",
-					"Ushabti (jungle horror)",
-					"Ushabti (cave horror)",
-					"Ushabti (ankou)",
-					"Ushabti (catablepon)",
-					"Ushabti (flesh crawler)",
-					"Ushabti (minotaur)",
-					"Ushabti (icefiend)",
-					"Ushabti (mutated zygomite)",
-					"Ushabti (killerwatt)",
-					"Ushabti (skeletal wyvern)",
-					"Ushabti (sea snake)",
-					"Ushabti (harpie bug swarm)",
-					"Ushabti (fever spider)",
-					"Ushabti (lizard)",
-					"Ushabti (mogre)",
-					"Ushabti (dark beast)",
-					"Ushabti (crocodile)",
-					"Ushabti (shade)",
-					"Ushabti (cave bug)",
-					"Ushabti (cave slime)",
-					"Ushabti (wall beast)",
-					"Ushabti (steel dragon)",
-					"Ushabti (iron dragon)",
-					"Ushabti (bronze dragon)",
-					"Ushabti (chaos dwarf)",
-					"Ushabti (elf)",
-					"Ushabti (otherworldly being)",
-					"Ushabti (earth warrior)",
-					"Ushabti (kalphite)",
-					"Ushabti (nechryael)",
-					"Ushabti (rock slug)",
-					"Ushabti (jelly)",
-					"Ushabti (dust devil)",
-					"Ushabti (bloodveld)",
-					"Ushabti (pyrefiend)",
-					"Ushabti (gargoyle)",
-					"Ushabti (kurask)",
-					"Ushabti (cockatrice)",
-					"Ushabti (basilisk)",
-					"Ushabti (abyssal demon)",
-					"Ushabti (aberrant spectre)",
-					"Ushabti (infernal mage)",
-					"Ushabti (crawling hand)",
-					"Ushabti (banshee)",
-					"Ushabti (cave crawler)",
-					"Ushabti (turoth)",
-					"Ushabti (dagannoth)",
-					"Ushabti (vampyre)",
-					"Ushabti (werewolf)",
-					"Ushabti (shadow warrior)",
-					"Ushabti (hellhound)",
-					"Ushabti (black demon)",
-					"Ushabti (greater demon)",
-					"Ushabti (lesser demon)",
-					"Ushabti (black dragon)",
-					"Ushabti (red dragon)",
-					"Ushabti (blue dragon)",
-					"Ushabti (green dragon)",
-					"Ushabti (ghoul)",
-					"Ushabti (dog)",
-					"Ushabti (hobgoblin)",
-					"Ushabti (ogre)",
-					"Ushabti (ice warrior)",
-					"Ushabti (troll)",
-					"Ushabti (moss giant)",
-					"Ushabti (fire giant)",
-					"Ushabti (ice giant)",
-					"Ushabti (hill giant)",
-					"Ushabti (bear)",
-					"Ushabti (ghost)",
-					"Ushabti (skeleton)",
-					"Ushabti (zombie)",
-					"Ushabti (wolf)",
-					"Ushabti (bat)",
-					"Ushabti (scorpion)",
-					"Ushabti (cow)",
-					"Ushabti (chicken)",
-					"Ushabti (spider)",
-					"Ushabti (rat)",
-					"Ushabti (goblin)",
-					"Ushabti (monkey)"
-				],
+				"Items": ["Ushabti (profane scabarite)",
+				"Ushabti (armoured phantom)",
+				"Ushabti (risen ghost)",
+				"Ushabti (bound skeleton)",
+				"Ushabti (fetid zombie)",
+				"Ushabti (abyssal lord)",
+				"Ushabti (abyssal beast)",
+				"Ushabti (abyssal savage)",
+				"Ushabti (Nodon)",
+				"Ushabti (cockroach)",
+				"Ushabti (liverwort)",
+				"Ushabti (luminous snaggler)",
+				"Ushabti (devil's snare)",
+				"Ushabti (lampenflora)",
+				"Ushabti (ripper dinosaur)",
+				"Ushabti (venomous dinosaur)",
+				"Ushabti (brutish dinosaur)",
+				"Ushabti (feral dinosaur)",
+				"Ushabti (revenant)",
+				"Ushabti (soulgazer)",
+				"Ushabti (seeker)",
+				"Ushabti (vinecrawler)",
+				"Ushabti (bulbous crawler)",
+				"Ushabti (moss golem)",
+				"Ushabti (imperial guard akh)",
+				"Ushabti (scarab akh)",
+				"Ushabti (crocodile akh)",
+				"Ushabti (gorilla akh)",
+				"Ushabti (feline akh)",
+				"Ushabti (salawa akh)",
+				"Ushabti (corrupted worker)",
+				"Ushabti (corrupted kalphite)",
+				"Ushabti (corrupted dust devil)",
+				"Ushabti (corrupted lizard)",
+				"Ushabti (corrupted scarab)",
+				"Ushabti (corrupted scorpion)",
+				"Ushabti (hydrix dragon)",
+				"Ushabti (onyx dragon)",
+				"Ushabti (dragonstone dragon)",
+				"Ushabti (nightmare)",
+				"Ushabti (chaos giant)",
+				"Ushabti (acheron mammoth)",
+				"Ushabti (camel warrior)",
+				"Ushabti (ripper demon)",
+				"Ushabti (wyvern)",
+				"Ushabti (crystal shapeshifter)",
+				"Ushabti (rune dragon)",
+				"Ushabti (adamant dragon)",
+				"Ushabti (lava strykewyrm)",
+				"Ushabti (shadow creature)",
+				"Ushabti (edimmu)",
+				"Ushabti (tormented demon)",
+				"Ushabti (glacor)",
+				"Ushabti (kal'gerion demon)",
+				"Ushabti (nihil)",
+				"Ushabti (muspah)",
+				"Ushabti (celestial dragon)",
+				"Ushabti (airut)",
+				"Ushabti (pig)",
+				"Ushabti (ascension creature)",
+				"Ushabti (aviansie)",
+				"Ushabti (automaton)",
+				"Ushabti (grotworm)",
+				"Ushabti (gelatinous abomination)",
+				"Ushabti (vyrewatch)",
+				"Ushabti (mutated jadinko)",
+				"Ushabti (cyclops)",
+				"Ushabti (living rock creature)",
+				"Ushabti (ice strykewyrm)",
+				"Ushabti (desert strykewyrm)",
+				"Ushabti (jungle strykewyrm)",
+				"Ushabti (fungal mage)",
+				"Ushabti (grifolaroo)",
+				"Ushabti (grifolapine)",
+				"Ushabti (ganodermic beast)",
+				"Ushabti (aquanite)",
+				"Ushabti (mithril dragon)",
+				"Ushabti (warped terrorbird)",
+				"Ushabti (warped tortoise)",
+				"Ushabti (spiritual mage)",
+				"Ushabti (spiritual ranger)",
+				"Ushabti (spiritual warrior)",
+				"Ushabti (waterfiend)",
+				"Ushabti (molanisk)",
+				"Ushabti (terror dog)",
+				"Ushabti (scabarite)",
+				"Ushabti (brine rat)",
+				"Ushabti (suqah)",
+				"Ushabti (gorak)",
+				"Ushabti (jungle horror)",
+				"Ushabti (cave horror)",
+				"Ushabti (ankou)",
+				"Ushabti (catablepon)",
+				"Ushabti (flesh crawler)",
+				"Ushabti (minotaur)",
+				"Ushabti (icefiend)",
+				"Ushabti (mutated zygomite)",
+				"Ushabti (killerwatt)",
+				"Ushabti (skeletal wyvern)",
+				"Ushabti (sea snake)",
+				"Ushabti (harpie bug swarm)",
+				"Ushabti (fever spider)",
+				"Ushabti (lizard)",
+				"Ushabti (mogre)",
+				"Ushabti (dark beast)",
+				"Ushabti (crocodile)",
+				"Ushabti (shade)",
+				"Ushabti (cave bug)",
+				"Ushabti (cave slime)",
+				"Ushabti (wall beast)",
+				"Ushabti (steel dragon)",
+				"Ushabti (iron dragon)",
+				"Ushabti (bronze dragon)",
+				"Ushabti (dwarf)",
+				"Ushabti (elf)",
+				"Ushabti (otherworldly being)",
+				"Ushabti (earth warrior)",
+				"Ushabti (kalphite)",
+				"Ushabti (nechryael)",
+				"Ushabti (rock slug)",
+				"Ushabti (jelly)",
+				"Ushabti (dust devil)",
+				"Ushabti (bloodveld)",
+				"Ushabti (pyrefiend)",
+				"Ushabti (gargoyle)",
+				"Ushabti (kurask)",
+				"Ushabti (cockatrice)",
+				"Ushabti (basilisk)",
+				"Ushabti (abyssal demon)",
+				"Ushabti (aberrant spectre)",
+				"Ushabti (infernal mage)",
+				"Ushabti (crawling hand)",
+				"Ushabti (banshee)",
+				"Ushabti (cave crawler)",
+				"Ushabti (turoth)",
+				"Ushabti (dagannoth)",
+				"Ushabti (vampyre)",
+				"Ushabti (werewolf)",
+				"Ushabti (shadow warrior)",
+				"Ushabti (hellhound)",
+				"Ushabti (black demon)",
+				"Ushabti (greater demon)",
+				"Ushabti (lesser demon)",
+				"Ushabti (black dragon)",
+				"Ushabti (red dragon)",
+				"Ushabti (blue dragon)",
+				"Ushabti (green dragon)",
+				"Ushabti (ghoul)",
+				"Ushabti (dog)",
+				"Ushabti (hobgoblin)",
+				"Ushabti (ogre)",
+				"Ushabti (ice warrior)",
+				"Ushabti (troll)",
+				"Ushabti (moss giant)",
+				"Ushabti (fire giant)",
+				"Ushabti (ice giant)",
+				"Ushabti (hill giant)",
+				"Ushabti (bear)",
+				"Ushabti (ghost)",
+				"Ushabti (skeleton)",
+				"Ushabti (zombie)",
+				"Ushabti (wolf)",
+				"Ushabti (bat)",
+				"Ushabti (scorpion)",
+				"Ushabti (cow)",
+				"Ushabti (chicken)",
+				"Ushabti (spider)",
+				"Ushabti (rat)",
+				"Ushabti (goblin)",
+				"Ushabti (monkey)"],
 				"Skills": {
 					"Slayer": 115
 				},
@@ -137801,7 +137808,7 @@
 				"Category": ["Slayer Souls"],
 				"Label": "Slayer Codex",
 				"Items": ["Ushabti"],
-				"Monster": ["Liverwort"],
+				"Monster": ["Liverworts"],
 				"Skills": {
 					"Slayer": 110
 				},
@@ -146259,16 +146266,16 @@
 				},
 				"Output": "Human tooth"
 			},
-			"Obtain the Totem of Treasure base*": {
-				"NPCs": ["AncientZygomites[+]"],
+			"Obtain the Totem of Treasure base": {
+				"Items": ["AncientZygomites[+]x20"],
 				"Output": "Totem of Treasure base"
 			},
-			"Obtain the Totem of Navigation middle*": {
-				"NPCs": ["AncientZygomites[+]"],
+			"Obtain the Totem of Navigation middle": {
+				"Items": ["AncientZygomites[+]x40"],
 				"Output": "Totem of Navigation middle"
 			},
-			"Obtain the Totem of Auras top*": {
-				"NPCs": ["AncientZygomites[+]"],
+			"Obtain the Totem of Auras top": {
+				"Items": ["AncientZygomites[+]x60"],
 				"Output": "Totem of Auras top"
 			},
 			"Obtain the Remototem top*": {
@@ -146537,6 +146544,27 @@
 					"~|Daemonheim Achievements#Elite|~ Pass the Port": "Diary",
 					"~|Daemonheim Achievements#Elite|~ Gulega-d to Rest": "Diary"
 				}
+			},
+			"Rune dragon task": {
+				"NPCs": ["Rune Dragon Assignment[+]"]
+			},
+			"Celestial dragon task": {
+				"NPCs": ["Celestial Dragon Assignment[+]"]
+			},
+			"Abyssal demon task": {
+				"NPCs": ["Abyssal Demon Assignment[+]"]
+			},
+			"Raptor monsters task": {
+				"NPCs": ["Raptor monsters Assignment[+]"]
+			},
+			"Airut task": {
+				"NPCs": ["Airut Assignment[+]"]
+			},
+			"Order of Ascension task": {
+				"NPCs": ["Order of Ascension Assignment[+]"]
+			},
+			"Edimmu task": {
+				"NPCs": ["Edimmu Assignment[+]"]
 			}
 		}
 	},
@@ -173752,7 +173780,7 @@
 			"Nickname": "Anachronia Peninsula West Corner"
 		},
 		"15169": {
-			"NPC": {
+			"Spawn": {
 				"Mac (Ancient zygomite)": 1,
 				"Olivia (Ancient zygomite)": 1
 			},
@@ -173793,7 +173821,7 @@
 			"Monster": {
 				"Luminous snaggler": 8
 			},
-			"NPC": {
+			"Spawn": {
 				"Dennis (Ancient zygomite)": 1
 			},
 			"Quest": {
@@ -173806,7 +173834,7 @@
 			"Object": {
 				"Flower": 1
 			},
-			"NPC": {
+			"Spawn": {
 				"Charlie (Ancient zygomite)": 1
 			},
 			"Quest": {
@@ -174118,9 +174146,8 @@
 			"Object": {
 				"Flower": 2
 			},
-			"NPC": {
-				"Dee (Ancient zygomite)": 1,
-				"Frank (Ancient zygomite)": 1
+			"Spawn": {
+				"Dee (Ancient zygomite)": 1
 			},
 			"Nickname": "Anachronia Western Peninsula"
 		},
@@ -174133,8 +174160,10 @@
 				"Crashed star": 1
 			},
 			"NPC": {
-				"Frank (Ancient zygomite)": 1,
 				"Hermit crab (Anachronia)": 1
+			},
+			"Spawn": {
+				"Frank (Ancient zygomite)": 1
 			},
 			"Quest": {
 				"Helping Laniakea (miniquest)": "step"
@@ -174148,7 +174177,7 @@
 				"Light animica rock": 3,
 				"Vines (Anachronia Agility Course)": 1
 			},
-			"NPC": {
+			"Spawn": {
 				"Cricket (Ancient zygomite)": 1,
 				"Dank (Ancient zygomite)": 1,
 				"Opie (Ancient zygomite)": 1
@@ -174181,8 +174210,10 @@
 			},
 			"NPC": {
 				"Archaeologist": 3,
-				"Rami (Ancient zygomite)": 1,
 				"Ruby harvest (Anachronia)": 3
+			},
+			"Spawn": {
+				"Rami (Ancient zygomite)": 1
 			},
 			"Connect": {
 				"17": true
@@ -174203,9 +174234,11 @@
 				"Mysterious Ruins": 1
 			},
 			"NPC": {
+				"Cannibal jadinko (Anachronia)": 17
+			},
+			"Spawn": {
 				"Abel (Ancient zygomite)": 1,
-				"Cannibal jadinko (Anachronia)": 17,
-				"John (Ancient zygomite)": 1
+				"John (Ancient zygomite)": 1	
 			},
 			"Connect": {
 				"40": true
@@ -174363,7 +174396,7 @@
 			"Object": {
 				"Flower": 1
 			},
-			"NPC": {
+			"Spawn": {
 				"Tig (Ancient zygomite)": 1
 			},
 			"Nickname": "Anachronia Western Peninsula Tig"
@@ -174376,7 +174409,7 @@
 				"Cliff face (Anachronia Agility Course)": 1,
 				"Flower": 2
 			},
-			"NPC": {
+			"Spawn": {
 				"Pete (Ancient zygomite)": 1,
 				"Travis (Ancient zygomite)": 1
 			},
@@ -174391,7 +174424,9 @@
 			},
 			"NPC": {
 				"Bagrada rex": 1,
-				"Draconic jadinko (Anachronia)": 5,
+				"Draconic jadinko (Anachronia)": 5
+			},
+			"Spawn": {
 				"Edd (Ancient zygomite)": 1,
 				"Happy (Ancient zygomite)": 1
 			},
@@ -174403,17 +174438,19 @@
 				"Flower": 1,
 				"Spa pool": 1,
 				"Small obelisk (Anachronia)": 1,
-				"Temple wall (Anachronia Agility Course)": 1,
-				"Vines (Anachronia Agility Course)": 1
+				"Temple wall (Anachronia Agility Course)": 1
 			},
 			"NPC": {
 				"Alpheus": 1,
-				"Bobby (Ancient zygomite)": 1,
 				"Eliza": 1,
 				"Guard": 3,
 				"Irwinsson": 1,
 				"Rune store assistant": 1,
 				"Spa owner": 1
+			},
+			"Spawn": {
+				"Vines (Anachronia Agility Course)": 1,
+				"Bobby (Ancient zygomite)": 1
 			},
 			"Shop": {
 				"Hunter Mark Shop": true,
@@ -174459,7 +174496,7 @@
 			"Monster": {
 				"Venomous dinosaur": 9
 			},
-			"NPC": {
+			"Spawn": {
 				"James (Ancient zygomite)": 1,
 				"Jerry (Ancient zygomite)": 1
 			},
@@ -174654,8 +174691,10 @@
 				"Ruins (Anachronia Agility Course)": 1
 			},
 			"NPC": {
-				"Wayne (Ancient zygomite)": 1,
 				"Yellow salamander": 7
+			},
+			"Spawn": {
+				"Wayne (Ancient zygomite)": 1
 			},
 			"Quest": {
 				"Fragmented Memories": "step"
@@ -174670,8 +174709,10 @@
 				"Ruined column (Anachronia Agility Course)": 1
 			},
 			"NPC": {
-				"Beverly (Ancient zygomite)": 1,
 				"Scimitops": 1
+			},
+			"Spawn": {
+				"Beverly (Ancient zygomite)": 1
 			},
 			"Nickname": "Scimitops Hunting Ground"
 		},
@@ -174680,7 +174721,9 @@
 				"Flower": 3
 			},
 			"NPC": {
-				"Common jadinko (Anachronia)": 9,
+				"Common jadinko (Anachronia)": 9
+			},
+			"Spawn": {
 				"June (Ancient zygomite)": 1,
 				"Pat (Ancient zygomite)": 1,
 				"Nero (Ancient zygomite)": 1
@@ -174737,8 +174780,10 @@
 				"Flower": 1
 			},
 			"NPC": {
-				"Howard (Ancient zygomite)": 1,
 				"Malletops": 1
+			},
+			"Spawn": {
+				"Howard (Ancient zygomite)": 1
 			},
 			"Quest": {
 				"Desperate Creatures": "step"
@@ -174754,13 +174799,13 @@
 				"Ruined temple (Anachronia Agility Course": 3
 			},
 			"NPC": {
-				"Bernadette (Ancient zygomite)": 1,
-				"Camouflaged jadinko (Anachronia)": 11,
-				"Noel (Ancient zygomite)": 1,
-				"Raj (Ancient zygomite)": 1
+				"Camouflaged jadinko (Anachronia)": 11
 			},
 			"Spawn": {
-				"Totem of Crystal middle": 1
+				"Totem of Crystal middle": 1,
+				"Bernadette (Ancient zygomite)": 1,
+				"Noel (Ancient zygomite)": 1,
+				"Raj (Ancient zygomite)": 1
 			},
 			"Quest": {
 				"Desperate Measures": "step"
@@ -175011,11 +175056,11 @@
 			},
 			"NPC": {
 				"Black warlock": 3,
-				"Grenwall (Anachronia)": 4,
-				"Morty (Ancient zygomite)": 1
+				"Grenwall (Anachronia)": 4
 			},
 			"Spawn": {
-				"Totem of the Abyss base": 1
+				"Totem of the Abyss base": 1,
+				"Morty (Ancient zygomite)": 1
 			},
 			"Connect": {
 				"20": true
@@ -175031,14 +175076,16 @@
 			"Object": {
 				"Bait box": 1,
 				"Bait pad": 1,
-				"Flower": 1,
+				"Flower": 1,		
 				"Rock (Anachronia Agility Course)": 1,
 				"Root (Anachronia Agility Course)": 1
 			},
 			"NPC": {
-				"Dabby (Ancient zygomite)": 1,
 				"Diseased jadinko (Anachronia)": 8,
 				"Spicati apoterrasaur": 1
+			},
+			"Spawn": {
+				"Dabby (Ancient zygomite)": 1
 			},
 			"Nickname": "Spicati Apoterrasaur Hunting Ground"
 		},
@@ -175073,7 +175120,9 @@
 				"Flower": 3
 			},
 			"NPC": {
-				"Amphibious jadinko (Anachronia)": 10,
+				"Amphibious jadinko (Anachronia)": 10
+			},
+			"Spawn": {
 				"Clay (Ancient zygomite)": 1,
 				"Nate (Ancient zygomite)": 1,
 				"Stuart (Ancient zygomite)": 1
@@ -175089,8 +175138,10 @@
 			},
 			"NPC": {
 				"Grenwall (Anachronia)": 5,
-				"Jenny (Ancient zygomite)": 1,
 				"Pavosaurus rex": 1
+			},
+			"Spawn": {
+				"Jenny (Ancient zygomite)": 1
 			},
 			"Nickname": "Pavosaurus Rex Hunting Ground"
 		},
@@ -175098,12 +175149,13 @@
 			"Object": {
 				"Flower": 2
 			},
-			"NPC": {
-				"Juice (Ancient zygomite)": 1
-			},
 			"Monster": {
 				"Brutish dinosaur": 5,
 				"Feral Dinosaur": 6
+			},
+			"Spawn": {
+				"Juice (Ancient zygomite)": 1,
+				"Carter (Ancient zygomite)": 1
 			},
 			"Nickname": "Anachronia Brutish Dinosaurs"
 		},
@@ -175243,7 +175295,9 @@
 				"Flower": 1
 			},
 			"NPC": {
-				"Black warlock (Anachronia)": 3,
+				"Black warlock (Anachronia)": 3
+			},
+			"Spawn": {
 				"Liam (Ancient zygomite)": 1
 			},
 			"Nickname": "Anachronia South-West Cliffs"
@@ -175273,7 +175327,7 @@
 			"Monster": {
 				"Ripper dinosaur": 1
 			},
-			"NPC": {
+			"Spawn": {
 				"Barry (Ancient zygomite)": 1,
 				"Dave (Ancient zygomite)": 1,
 				"Eddy (Ancient zygomite)": 1
@@ -175297,7 +175351,9 @@
 				"Lampenflora": 11
 			},
 			"NPC": {
-				"Asciatops": 1,
+				"Asciatops": 1
+			},
+			"Spawn": {
 				"Chris (Ancient zygomite)": 1
 			},
 			"Nickname": "Asciatops Hunting Ground"
@@ -175309,7 +175365,9 @@
 			"NPC": {
 				"Golden poison frog": 4,
 				"Phantasmal poison frog": 5,
-				"Sky-blue poison frog": 6,
+				"Sky-blue poison frog": 6
+			},
+			"Spawn": {
 				"Richard (Ancient zygomite)": 1
 			},
 			"Quest": {
@@ -175636,7 +175694,7 @@
 			"Object": {
 				"Flower": 1
 			},
-			"NPC": {
+			"Spawn": {
 				"Mary (Ancient zygomite)": 1
 			},
 			"Quest": {
@@ -175655,15 +175713,15 @@
 			"NPC": {
 				"Archaeologist": 4,
 				"Igneous jadinko (Anachronia)": 4,
-				"Laniakea": 1,
-				"Ruth (Ancient zygomite)": 1
+				"Laniakea": 1
 			},
 			"Shop": {
 				"Slayer Equipment": true,
 				"Slayer Rewards": true
 			},
 			"Spawn": {
-				"Totem of Navigation top": 1
+				"Totem of Navigation top": 1,
+				"Ruth (Ancient zygomite)": 1
 			},
 			"Connect": {
 				"19": true,
@@ -175696,7 +175754,7 @@
 			"Monster": {
 				"Devil's snare": 3
 			},
-			"NPC": {
+			"Spawn": {
 				"Rick (Ancient zygomite)": 1,
 				"Taylor (Ancient zygomite)": 1
 			},
@@ -175711,8 +175769,10 @@
 				"Roots (Anachronia Agility Course)": 1
 			},
 			"NPC": {
+				"Corbicula rex": 1
+			},
+			"Spawn": {
 				"Beth (Ancient zygomite)": 1,
-				"Corbicula rex": 1,
 				"Jessica (Ancient zygomite)": 1,
 				"Summer (Ancient zygomite)": 1
 			},
@@ -175726,7 +175786,7 @@
 				"Roots (Anachronia Agility Course)": 2,
 				"Vines (Anachronia Agility Course)": 3
 			},
-			"NPC": {
+			"Spawn": {
 				"Gemma (Ancient zygomite)": 1,
 				"Jax (Ancient zygomite)": 1,
 				"Tara (Ancient zygomite)": 1
@@ -175744,9 +175804,11 @@
 				"Orichalcite rock": 5
 			},
 			"NPC": {
-				"Chibs (Ancient zygomite)": 1,
 				"Diseased jadinko (Anachronia)": 1,
 				"Golden warbler (Anachronia)": 5
+			},
+			"Spawn": {
+				"Chibs (Ancient zygomite)": 1
 			},
 			"Quest": {
 				"Desperate Measures": "step"
@@ -175757,7 +175819,7 @@
 			"Object": {
 				"Flower": 1
 			},
-			"NPC": {
+			"Spawn": {
 				"Jeremy (Ancient zygomite)": 1
 			},
 			"Nickname": "Anachronia North-East Coast"
@@ -175955,7 +176017,7 @@
 			"Object": {
 				"Flower": 1
 			},
-			"NPC": {
+			"Spawn": {
 				"Ed (Ancient zygomite)": 1
 			},
 			"Nickname": "Anachronia East Swamp Cliffs"
@@ -175967,7 +176029,7 @@
 			"Monster": {
 				"Devil's snare": 4
 			},
-			"NPC": {
+			"Spawn": {
 				"Amy (Ancient zygomite)": 1,
 				"Sheldon (Ancient zygomite)": 1
 			},
@@ -175988,7 +176050,7 @@
 				"Flower": 1,
 				"Sunken column (Anachronia Agility Course)": 1
 			},
-			"NPC": {
+			"Spawn": {
 				"Penny (Ancient zygomite)": 1
 			},
 			"Nickname": "Kingdra Counsil Meeting Pool"
@@ -176010,11 +176072,11 @@
 				"Rubble": 1
 			},
 			"NPC": {
-				"Diseased jadinko (Anachronia)": 3,
-				"Leonard (Ancient zygomite)": 1
+				"Diseased jadinko (Anachronia)": 3
 			},
 			"Spawn": {
-				"Totem of Intimidation top": 1
+				"Totem of Intimidation top": 1,
+				"Leonard (Ancient zygomite)": 1
 			},
 			"Nickname": "Anachronia North-East Isles"
 		},
@@ -190598,6 +190660,68 @@
 				"Vesta's longsword",
 				"Vesta's spear"
 			],
+			"AncientZygomites[+]": [
+				"Frank (Ancient zygomite)",
+				"Pete (Ancient zygomite)",
+				"Travis (Ancient zygomite)",
+				"Wayne (Ancient zygomite)",
+				"Beverly (Ancient zygomite)",
+				"Morty (Ancient zygomite)",
+				"Dabby (Ancient zygomite)",
+				"Pat (Ancient zygomite)",
+				"June (Ancient zygomite)",
+				"Stuart (Ancient zygomite)",
+				"Clay (Ancient zygomite)",
+				"Nate (Ancient zygomite)",
+				"Howard (Ancient zygomite)",
+				"Carter (Ancient zygomite)",
+				"Bernadette (Ancient zygomite)",
+				"Raj (Ancient zygomite)",
+				"Noel (Ancient zygomite)",
+				"James (Ancient zygomite)",
+				"Jerry (Ancient zygomite)",
+				"Abel (Ancient zygomite)",
+				"John (Ancient zygomite)",
+				"Charlie (Ancient zygomite)",
+				"Dennis (Ancient zygomite)",
+				"Rami (Ancient zygomite)",
+				"Bobby (Ancient zygomite)",
+				"Edd (Ancient zygomite)",
+				"Nero (Ancient zygomite)",
+				"Happy (Ancient zygomite)",
+				"Dank (Ancient zygomite)",
+				"Opie (Ancient zygomite)",
+				"Cricket (Ancient zygomite)",
+				"Olivia (Ancient zygomite)",
+				"Mac (Ancient zygomite)",
+				"Dee (Ancient zygomite)",
+				"Tig (Ancient zygomite)",
+				"Jenny (Ancient zygomite)",
+				"Juice (Ancient zygomite)",
+				"Jeremy (Ancient zygomite)",
+				"Leonard (Ancient zygomite)",
+				"Chibs (Ancient zygomite)",
+				"Tara (Ancient zygomite)",
+				"Gemma (Ancient zygomite)",
+				"Jax (Ancient zygomite)",
+				"Beth (Ancient zygomite)",
+				"Penny (Ancient zygomite)",
+				"Jessica (Ancient zygomite)",
+				"Taylor (Ancient zygomite)",
+				"Amy (Ancient zygomite)",
+				"Summer (Ancient zygomite)",
+				"Chris (Ancient zygomite)",
+				"Richard (Ancient zygomite)",
+				"Rick (Ancient zygomite)",
+				"Barry (Ancient zygomite)",
+				"Sheldon (Ancient zygomite)",
+				"Ruth (Ancient zygomite)",
+				"Dave (Ancient zygomite)",
+				"Eddy (Ancient zygomite)",
+				"Liam (Ancient zygomite)",
+				"Mary (Ancient zygomite)",
+				"Ed (Ancient zygomite)"
+			],
 			"AnimalStaff[+]": [
 				"Bat staff",
 				"Cat staff",
@@ -195284,7 +195408,7 @@
 			"AnyTotem[+]": [
 				"Totem of Treasure",
 				"Totem of Crystal",
-				"Totem fo Navigation",
+				"Totem of Navigation",
 				"Totem of the Abyss",
 				"Totem of Intimidation",
 				"Totem of Summoning",
@@ -195492,7 +195616,7 @@
 				"Ushabti (steel dragon)",
 				"Ushabti (iron dragon)",
 				"Ushabti (bronze dragon)",
-				"Ushabti (chaos dwarf)",
+				"Ushabti (dwarf)",
 				"Ushabti (elf)",
 				"Ushabti (otherworldly being)",
 				"Ushabti (earth warrior)",
@@ -195589,6 +195713,7 @@
 			"AncientMagicRunes[+]": "Runes to cast a shadow spell",
 			"AncientWarriorArmour[+]": "Any pieces of ancient warrior armour",
 			"AncientWarriorWeapon[+]": "Any ancient warrior weapon",
+			"AncientZygomites[+]": "Any ancient zygomite",
 			"AnimalStaff[+]": "Any animal staff",
 			"AntifirePotion[+]": "Any anti-fire potion",
 			"Antipoison+Potion[+]": "Any antipoison+ potion",
@@ -196877,68 +197002,6 @@
 			"HAMMember[+]": "Anything that counts as a H.A.M. Member for 'Lost My Marbles'"
 		},
 		"npcsPlus": {
-			"AncientZygomites[+]": [
-				"Frank (Ancient zygomite)",
-				"Pete (Ancient zygomite)",
-				"Travis (Ancient zygomite)",
-				"Wayne (Ancient zygomite)",
-				"Beverly (Ancient zygomite)",
-				"Morty (Ancient zygomite)",
-				"Dabby (Ancient zygomite)",
-				"Pat (Ancient zygomite)",
-				"June (Ancient zygomite)",
-				"Stuart (Ancient zygomite)",
-				"Clay (Ancient zygomite)",
-				"Nate (Ancient zygomite)",
-				"Howard (Ancient zygomite)",
-				"Carter (Ancient zygomite)",
-				"Bernadette (Ancient zygomite)",
-				"Raj (Ancient zygomite)",
-				"Noel (Ancient zygomite)",
-				"James (Ancient zygomite)",
-				"Jerry (Ancient zygomite)",
-				"Abel (Ancient zygomite)",
-				"John (Ancient zygomite)",
-				"Charlie (Ancient zygomite)",
-				"Dennis (Ancient zygomite)",
-				"Rami (Ancient zygomite)",
-				"Bobby (Ancient zygomite)",
-				"Edd (Ancient zygomite)",
-				"Nero (Ancient zygomite)",
-				"Happy (Ancient zygomite)",
-				"Dank (Ancient zygomite)",
-				"Opie (Ancient zygomite)",
-				"Cricket (Ancient zygomite)",
-				"Olivia (Ancient zygomite)",
-				"Mac (Ancient zygomite)",
-				"Dee (Ancient zygomite)",
-				"Tig (Ancient zygomite)",
-				"Jenny (Ancient zygomite)",
-				"Juice (Ancient zygomite)",
-				"Jeremy (Ancient zygomite)",
-				"Leonard (Ancient zygomite)",
-				"Chibs (Ancient zygomite)",
-				"Tara (Ancient zygomite)",
-				"Gemma (Ancient zygomite)",
-				"Jax (Ancient zygomite)",
-				"Beth (Ancient zygomite)",
-				"Penny (Ancient zygomite)",
-				"Jessica (Ancient zygomite)",
-				"Taylor (Ancient zygomite)",
-				"Amy (Ancient zygomite)",
-				"Summer (Ancient zygomite)",
-				"Chris (Ancient zygomite)",
-				"Richard (Ancient zygomite)",
-				"Rick (Ancient zygomite)",
-				"Barry (Ancient zygomite)",
-				"Sheldon (Ancient zygomite)",
-				"Ruth (Ancient zygomite)",
-				"Dave (Ancient zygomite)",
-				"Eddy (Ancient zygomite)",
-				"Liam (Ancient zygomite)",
-				"Mary (Ancient zygomite)",
-				"Ed (Ancient zygomite)"
-			],
 			"Dyer[+]": ["Aggie", "Rana the dyer"],
 			"Gecko[+]": ["Gecko", "Baby gecko"],
 			"GodEmissaries[+]": ["Endwyr, Emissary of Seren", "Hannu, Emissary of V", "Holstein, Emissary of the Godless", "Julienne, Emissary of Saradomin", "Moldark, Emissary of Zamorak", "Murknose, Emissary of Bandos", "Relomia, Emissary of Sliske", "Soran, Emissary of Zaros", "Taw'Paak, Emissary of Armadyl"],
@@ -196951,10 +197014,16 @@
 			"Tanner[+]": ["Tanner", "Ellis", "Sbott", "Tanya Hyde", "Leatherworker"],
 			"Wisp[+]": ["Pale wisp", "Cursed wisp"],
 			"SlayerPointMasters[+]": ["Jacquelyn", "Vannaka", "The Raptor#Fort Forinthry", "Mazchna", "Chaeldar", "Sumona", "Duradel", "Kuradal", "Morvran", "Laniakea", "Mandrith"],
-			"CrystalToolNPC[+]": ["Ilfeen", "Eluned", "Islwyn", "Rhodri Dail"]
+			"CrystalToolNPC[+]": ["Ilfeen", "Eluned", "Islwyn", "Rhodri Dail"],
+			"Rune Dragon Assignment[+]": ["The Raptor#Fort Forinthry", "Morvran", "Laniakea"],
+			"Celestial Dragon Assignment[+]": ["The Raptor#Fort Forinthry", "Morvran", "Laniakea", "Duradel", "Kuradal"],
+			"Abyssal Demon Assignment[+]": ["The Raptor#Fort Forinthry", "Morvran", "Laniakea", "Duradel", "Kuradal", "Sumona"],
+			"Raptor monsters Assignment[+]": ["Kuradal", "The Raptor#Fort Forinthry", "Morvran", "Laniakea"],
+			"Airut Assignment[+]": ["Morvran", "Laniakea", "Duradel", "Kuradal"],
+			"Order of Ascension Assignment[+]": ["The Raptor#Fort Forinthry", "Morvran", "Laniakea", "Duradel", "Kuradal"],
+			"Edimmu Assignment[+]": ["The Raptor#Fort Forinthry", "Morvran", "Laniakea", "Duradel", "Kuradal", "Vannaka", "Jacquelyn"]
 		},
 		"npcsPlusNames": {
-			"AncientZygomites[+]": "Any ancient zygomite",
 			"Dyer[+]": "Access to either Rana or Aggie",
 			"Gecko[+]": "Any catchable gecko pet",
 			"GodEmissaries[+]": "Any God Emissary",
@@ -208655,8 +208724,8 @@
 			"Dwarf weed seed": {
 				"1": "Common"
 			},
-			"Inert adrenaline crystal": {
-				"7-9 (noted)": "Common"
+			"Starbloom flower seed": {
+				"1-4": "1/25"
 			},
 			"Kwuarm seed": {
 				"1": "Common"
@@ -227764,32 +227833,24 @@
 			"Inert adrenaline crystal": {
 				"10": "Uncommon"
 			},
-			"Grimy torstol": {
-				"30 (noted)": "Uncommon"
-			},
-			"Grimy dwarf weed": {
-				"30 (noted)": "Uncommon"
-			},
-			"Grimy lantadyme": {
-				"30 (noted)": "Uncommon"
-			},
-			"Grimy snapdragon": {
-				"30 (noted)": "Uncommon"
-			},
-			"Grimy kwuarm": {
-				"30 (noted)": "Uncommon"
-			},
 			"Torstol seed": {
-				"10": "Uncommon"
-			},
-			"Lantadyme seed": {
-				"10": "Uncommon"
+				"5": "6/128",
+				"10": "5/128"
 			},
 			"Dwarf weed seed": {
-				"10": "Uncommon"
+				"5": "6/128",
+				"10": "5/128"
+			},
+			"Lantadyme seed": {
+				"5": "10/128",
+				"10": "10/128"
 			},
 			"Snapdragon seed": {
-				"10": "Uncommon"
+				"5": "5/128",
+				"10": "7/128"
+			},
+			"Starbloom flower seed": {
+				"5": "5/128"
 			},
 			"Magic seed": {
 				"5": "Uncommon"
@@ -227805,6 +227866,9 @@
 			},
 			"Banite stone spirit": {
 				"20": "Uncommon"
+			},
+			"Eternal magic wood spirit": {
+				"15": "4/128"
 			},
 			"Onyx bolts (e)": {
 				"200": "Rare"
@@ -255119,6 +255183,57 @@
 			}],
 			"Off-hand rubber chicken": [{
 				"Members Only": true
+			}],
+			"Raptor key part 1^": [{
+				"Raptor monsters task": "Nonskill"
+			}],
+			"Raptor key part 2^": [{
+				"Raptor monsters task": "Nonskill"
+			}],
+			"Raptor key part 3^": [{
+				"Raptor monsters task": "Nonskill"
+			}],
+			"Raptor key part 4^": [{
+				"Raptor monsters task": "Nonskill"
+			}],
+			"Ascension grips^": [{
+				"Order of Ascension task": "Nonskill"
+			}],
+			"Tuska mask top^": [{
+				"Airut task": "Nonskill"
+			}],
+			"Tuska mask headpiece^": [{
+				"Airut task": "Nonskill"
+			}],
+			"Tuska mask plate^": [{
+				"Airut task": "Nonskill"
+			}],
+			"Tuska mask lower tusks^": [{
+				"Airut task": "Nonskill"
+			}],
+			"Tuska mask upper tusks^": [{
+				"Airut task": "Nonskill"
+			}],
+			"Razorback gauntlets^": [{
+				"Airut task": "Nonskill"
+			}],
+			"Abyssal wand^": [{
+				"Abyssal demon task": "Nonskill"
+			}],
+			"Abyssal orb^": [{
+				"Abyssal demon task": "Nonskill"
+			}],
+			"Celestial Handwraps^Celestial dragon": [{
+				"Celestial dragon task": "Nonskill"
+			}],
+			"Steadfast scale^": [{
+				"Rune dragon task": "Nonskill"
+			}],
+			"Glaiven wing-tip^": [{
+				"Rune dragon task": "Nonskill"
+			}],
+			"Ragefire gland^": [{
+				"Rune dragon task": "Nonskill"
 			}]
 		},
 		"Monsters": {
@@ -255674,6 +255789,11 @@
 				"13366": [{
 					"~|Fur 'n Seek#Wish List|~ Complete the lore activity": "Quest"
 				}]
+			},
+			"Edimmu": {
+				"Edimmu resource dungeon": [{
+					"Edimmu task": "Nonskill"
+				}]
 			}
 		},
 		"NPCs": {
@@ -255690,6 +255810,16 @@
 			"Sumona": {
 				"13358": [{
 					"~|Smoking Kills|~ Complete the quest": "Quest"
+				}]
+			},
+			"Duradel": {
+				"11310": [{
+					"~|Shilo Village|~ Complete the quest": "Quest"
+				}]
+			},
+			"Lapalok": {
+				"11310": [{
+					"~|Shilo Village|~ Complete the quest": "Quest"
 				}]
 			},
 			"Talent scout": {
@@ -268318,6 +268448,14 @@
 				"Kings and Queens": "Rare",
 				"A Life in Colour": "Rare",
 				"A Massacrer of Moles": "Rare"
+			},
+			"Big star loot": {
+				"Stardust": {
+					"1": "Always"
+				},
+				"Starbloom flower seed": {
+					"1": "1/200"
+				}
 			}
 		},
 		"Necromancy": {
@@ -270773,6 +270911,9 @@
 				"Guarana seed": {
 					"1": "Uncommon"
 				},
+				"Starbloom flower seed": {
+					"1-3": "6/134"
+				},
 				"Morchella mushroom": {
 					"2 (noted)": "Common"
 				},
@@ -270844,8 +270985,8 @@
 				"Grimy dwarf weed": {
 					"4 (noted)": "common"
 				},
-				"Inert adrenaline crystal": {
-					"1 (noted)": "Uncommon"
+				"Starbloom flower seed": {
+					"1": "8/128"
 				},
 				"Rare drop table": {
 					"1": "Rare"
@@ -272527,6 +272668,9 @@
 				"Earth battlestaff": {
 					"2 (noted)": "Common"
 				},
+				"Starbloom flower seed": {
+					"1": "2/102"
+				},
 				"Blast diffusion boots": {
 					"1": "1/10000"
 				},
@@ -272875,6 +273019,9 @@
 				},
 				"Blood necklace shard": {
 					"1": "1/512"
+				},
+				"Edimmu (item)": {
+					"1": "1/25000"
 				},
 				"Sealed clue scroll (elite)": {
 					"1": "1/128"
@@ -273226,6 +273373,9 @@
 				},
 				"Papaya tree seed": {
 					"1": "3/256"
+				},
+				"Starbloom flower seed": {
+					"1": "1/101"
 				},
 				"Spirit seed": {
 					"1": "3/256"
@@ -275091,6 +275241,9 @@
 				"Fellstalk seed": {
 					"2-3": "Common"
 				},
+				"Starbloom flower seed": {
+					"1": "Uncommon"
+				},
 				"Blast diffusion boots": {
 					"1": "1/16000"
 				},
@@ -275858,6 +276011,9 @@
 				"Eternal magic wood spirit": {
 					"5-9": "Unknown"
 				},
+				"Starbloom flower seed": {
+					"1-3": "6/106"
+				},
 				"Blast diffusion boots": {
 					"1": "1/8000"
 				},
@@ -276059,6 +276215,9 @@
 				},
 				"Limpwurt root": {
 					"8-12 (noted)": "common"
+				},
+				"Starbloom flower seed": {
+					"1-2": "4/104"
 				},
 				"Blast diffusion boots": {
 					"1": "1/8000"
@@ -276493,6 +276652,9 @@
 				},
 				"Guarana seed": {
 					"1": "Uncommon"
+				},
+				"Starbloom flower seed": {
+					"1-4": "8/136"
 				},
 				"Blight bolts": {
 					"3-6": "common"
@@ -280643,6 +280805,9 @@
 				"Mud rune": {
 					"19-30": "common"
 				},
+				"Starbloom flower seed": {
+					"1-2": "4/132"
+				},
 				"Blight bolts": {
 					"3-6": "common"
 				},
@@ -282649,6 +282814,9 @@
 				"Fellstalk seed": {
 					"1": "Very rare"
 				},
+				"Starbloom flower seed": {
+					"1": "1/182"
+				},
 				"Morchella mushroom spore": {
 					"1": "Very rare"
 				},
@@ -282772,6 +282940,9 @@
 				},
 				"Potato cactus seed": {
 					"1": "Rare"
+				},
+				"Starbloom flower seed": {
+					"1": "1/64"
 				},
 				"Court summons": {
 					"1": "Very rare"
@@ -282905,6 +283076,9 @@
 				},
 				"Reed seed": {
 					"1": "Uncommon"
+				},
+				"Starbloom flower seed": {
+					"1": "1/120"
 				},
 				"Adamantite stone spirit": {
 					"1": "Rare"
