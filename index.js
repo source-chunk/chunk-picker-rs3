@@ -1363,6 +1363,10 @@ let notesOpen = false;
 let notesEditing = false;
 let newTasksOpen = false;
 let workerOut = 0;
+let workersOut = {
+    'current': false,
+    'future': false
+};
 let gotData = false;
 let questPointTotal = 0;
 let combatScoreTotal = 0;
@@ -1488,6 +1492,7 @@ let globalHighlightPixelArr = {};
 let doneInitDraw = false;
 let signInAttempts = 0;
 let expandChallengeStr = '';
+let chunkInfoOpen = false;
 let detailsStack = [];
 let touchTime = 0;
 let listOfTasksPlugin = [];
@@ -3350,7 +3355,8 @@ let calcCurrentChallengesCanvas = function(useOld, proceed, fromLoadData, inputT
         myWorker = new Worker("./worker.js?v=6.6.33");
         myWorker.onmessage = workerOnMessage;
         myWorker.postMessage(['current', tempChunks['unlocked'], rules, chunkInfo, skillNames, processingSkill, maybePrimary, combatSkills, monstersPlus, objectsPlus, chunksPlus, itemsPlus, mixPlus, npcsPlus, tasksPlus, tools, elementalRunes, manualTasks, completedChallenges, backlog, "1/" + rules['Rare Drop Amount'], universalPrimary, elementalStaves, rangedItems, boneItems, highestCurrent, dropTables, possibleAreas, randomLoot, magicTools, bossLogs, bossMonsters, minigameShops, manualEquipment, checkedChallenges, backloggedSources, altChallenges, manualMonsters, slayerLocked, passiveSkill, f2pSkills, assignedXpRewards, mid === diary2Tier, manualAreas, "1/" + rules['Secondary Primary Amount'], mid === manualAreasOnly, tempSections, maxSkill, userTasks, manualPrimary, updateLevel]);
-        workerOut = 1;
+        workersOut['current'] = true;
+        workerOut = Object.keys(workersOut).filter((key) => workersOut[key] !== false).length;
     }
 }
 
@@ -3688,9 +3694,9 @@ let workerOnMessage = function(e) {
         if (e.data[0] === 'current') {
             workerOut = 0;
         }
-        if (workerOut === 0) {
-            chunkInfo = e.data[3];
-            if (e.data[0] === 'future') {
+        chunkInfo = e.data[3];
+        if (e.data[0] === 'future') {
+            if (workersOut['future'] === infoLockedId) {
                 futureChunkData = e.data[2];
                 futureUnlockedSections = e.data[15];
                 futurePossibleAreas = {};
@@ -3701,113 +3707,117 @@ let workerOnMessage = function(e) {
                 expandChallengeStr = challengeStr;
                 $('.panel-challenges').html(challengeStr || 'None');
                 $('.expand').show();
-            } else if (e.data[0] === 'current') {
-                if (settings['newTasks'] && chunkJustRolled) {
-                    openNewTasksModal(calcFutureChallenges2(e.data[1], e.data[2]).replaceAll(", 'future'", ", ''").replaceAll('</span>,', '</span><br />') || 'None');
-                }
-                globalValids = e.data[1];
-                baseChunkData = e.data[2];
-                onlyInitialData = false;
-                highestCurrent = e.data[4];
-                questPointTotal = e.data[6];
-                highestOverall = e.data[7];
-                dropRatesGlobal = e.data[8];
-                questProgress = e.data[9];
-                diaryProgress = e.data[10];
-                skillQuestXp = e.data[11];
-                savedChunks = e.data[12];
-                dropTablesGlobal = e.data[13];
-                bestEquipmentAltsGlobal = e.data[14];
-                unlockedSections = e.data[15];
-                combatPointTotal = e.data[16];
-                highestOverallCompleted = e.data[17];
-                possibleAreas = {};
-                Object.keys(e.data[12]).filter(area => { return e.data[12][area] === true }).forEach((area) => {
-                    possibleAreas[area] = true;
-                });
-                tempChallengeArrSaved = e.data[5];
-                numClueTasks = {
-                    'easy': 0,
-                    'medium': 0,
-                    'hard': 0,
-                    'elite': 0,
-                    'master': 0
-                };
-                numClueTasksPossible = {
-                    'easy': 0,
-                    'medium': 0,
-                    'hard': 0,
-                    'elite': 0,
-                    'master': 0
-                };
-                possibleClueTasks = {
-                    'easy': [],
-                    'medium': [],
-                    'hard': [],
-                    'elite': [],
-                    'master': []
-                };
-                !!chunkInfo['challenges']['Nonskill'] && Object.keys(chunkInfo['challenges']['Nonskill']).filter(task => { return chunkInfo['challenges']['Nonskill'][task].hasOwnProperty('ClueTier') }).forEach((task) => {
-                    numClueTasks[chunkInfo['challenges']['Nonskill'][task]['ClueTier']]++;
-                    if (globalValids.hasOwnProperty('Nonskill') && globalValids['Nonskill'].hasOwnProperty(task)) {
-                        numClueTasksPossible[chunkInfo['challenges']['Nonskill'][task]['ClueTier']]++;
-                        possibleClueTasks[chunkInfo['challenges']['Nonskill'][task]['ClueTier']].push(task);
-                    }
-                });
-                starRegionsPossible = {
-                    "Asgarnia": 0,
-                    "Crandor and Karamja": 0,
-                    "Feldip Hills and the Isle of Souls": 0,
-                    "Fossil Island and Mos Le'Harmless": 0,
-                    "Fremennik Lands and Lunar Isle": 0,
-                    "Great Kourend": 0,
-                    "Kandarin": 0,
-                    "Kebos Lowlands": 0,
-                    "Kharidian Desert": 0,
-                    "Misthalin": 0,
-                    "Morytania": 0,
-                    "Piscatoris and the Gnome Stronghold": 0,
-                    "Tirannwn": 0,
-                    "Wilderness": 0
-                };
-                starRegions = {
-                    "Asgarnia": 0,
-                    "Crandor and Karamja": 0,
-                    "Feldip Hills and the Isle of Souls": 0,
-                    "Fossil Island and Mos Le'Harmless": 0,
-                    "Fremennik Lands and Lunar Isle": 0,
-                    "Great Kourend": 0,
-                    "Kandarin": 0,
-                    "Kebos Lowlands": 0,
-                    "Kharidian Desert": 0,
-                    "Misthalin": 0,
-                    "Morytania": 0,
-                    "Piscatoris and the Gnome Stronghold": 0,
-                    "Tirannwn": 0,
-                    "Wilderness": 0
-                };
-                !!chunkInfo['challenges']['Nonskill'] && Object.keys(chunkInfo['challenges']['Nonskill']).filter(task => { return chunkInfo['challenges']['Nonskill'][task].hasOwnProperty('StarRegion') }).forEach((task) => {
-                    starRegionsPossible[chunkInfo['challenges']['Nonskill'][task]['StarRegion']]++;
-                    if (globalValids.hasOwnProperty('Nonskill') && globalValids['Nonskill'].hasOwnProperty(task)) {
-                        starRegions[chunkInfo['challenges']['Nonskill'][task]['StarRegion']]++;
-                    }
-                });
-                if (!tempChunks['unlocked'] || Object.keys(tempChunks['unlocked']).length < 100) {
-                    calcCurrentChallenges2(e.data[5]);
-                } else {
-                    $('.panel-active.calculating > i').remove();
-                    $('.panel-active > .calculating').removeClass('outer-loading-bar').html(`<div class='noscroll display-button' onclick='calcCurrentChallenges2()'>Show New Tasks</div>`);
-                }
-                searchModalOpen && searchWithinChunks();
-                highestModalOpen && openHighest();
-                highest2ModalOpen && openHighest2();
-                manualAreasModalOpen && searchManualAreas();
-                chunkSectionsModalOpen && searchChunkSections();
-                addEquipmentModalOpen && searchAddEquipment();
-                checkSlayerLocked();
-                settings['autoWalkableRollable'] && chunkJustRolled && selectAllNeighborsCanvas();
-                chunkJustRolled = false;
             }
+            workersOut['future'] = false;
+            workerOut = Object.keys(workersOut).filter((key) => workersOut[key] !== false).length;
+        } else if (e.data[0] === 'current') {
+            workersOut['current'] = false;
+            workerOut = Object.keys(workersOut).filter((key) => workersOut[key] !== false).length;
+            if (settings['newTasks'] && chunkJustRolled) {
+                openNewTasksModal(calcFutureChallenges2(e.data[1], e.data[2]).replaceAll(", 'future'", ", ''").replaceAll('</span>,', '</span><br />') || 'None');
+            }
+            globalValids = e.data[1];
+            baseChunkData = e.data[2];
+            onlyInitialData = false;
+            highestCurrent = e.data[4];
+            questPointTotal = e.data[6];
+            highestOverall = e.data[7];
+            dropRatesGlobal = e.data[8];
+            questProgress = e.data[9];
+            diaryProgress = e.data[10];
+            skillQuestXp = e.data[11];
+            savedChunks = e.data[12];
+            dropTablesGlobal = e.data[13];
+            bestEquipmentAltsGlobal = e.data[14];
+            unlockedSections = e.data[15];
+            combatPointTotal = e.data[16];
+            highestOverallCompleted = e.data[17];
+            possibleAreas = {};
+            Object.keys(e.data[12]).filter(area => { return e.data[12][area] === true }).forEach((area) => {
+                possibleAreas[area] = true;
+            });
+            tempChallengeArrSaved = e.data[5];
+            numClueTasks = {
+                'easy': 0,
+                'medium': 0,
+                'hard': 0,
+                'elite': 0,
+                'master': 0
+            };
+            numClueTasksPossible = {
+                'easy': 0,
+                'medium': 0,
+                'hard': 0,
+                'elite': 0,
+                'master': 0
+            };
+            possibleClueTasks = {
+                'easy': [],
+                'medium': [],
+                'hard': [],
+                'elite': [],
+                'master': []
+            };
+            !!chunkInfo['challenges']['Nonskill'] && Object.keys(chunkInfo['challenges']['Nonskill']).filter(task => { return chunkInfo['challenges']['Nonskill'][task].hasOwnProperty('ClueTier') }).forEach((task) => {
+                numClueTasks[chunkInfo['challenges']['Nonskill'][task]['ClueTier']]++;
+                if (globalValids.hasOwnProperty('Nonskill') && globalValids['Nonskill'].hasOwnProperty(task)) {
+                    numClueTasksPossible[chunkInfo['challenges']['Nonskill'][task]['ClueTier']]++;
+                    possibleClueTasks[chunkInfo['challenges']['Nonskill'][task]['ClueTier']].push(task);
+                }
+            });
+            starRegionsPossible = {
+                "Asgarnia": 0,
+                "Crandor and Karamja": 0,
+                "Feldip Hills and the Isle of Souls": 0,
+                "Fossil Island and Mos Le'Harmless": 0,
+                "Fremennik Lands and Lunar Isle": 0,
+                "Great Kourend": 0,
+                "Kandarin": 0,
+                "Kebos Lowlands": 0,
+                "Kharidian Desert": 0,
+                "Misthalin": 0,
+                "Morytania": 0,
+                "Piscatoris and the Gnome Stronghold": 0,
+                "Tirannwn": 0,
+                "Wilderness": 0
+            };
+            starRegions = {
+                "Asgarnia": 0,
+                "Crandor and Karamja": 0,
+                "Feldip Hills and the Isle of Souls": 0,
+                "Fossil Island and Mos Le'Harmless": 0,
+                "Fremennik Lands and Lunar Isle": 0,
+                "Great Kourend": 0,
+                "Kandarin": 0,
+                "Kebos Lowlands": 0,
+                "Kharidian Desert": 0,
+                "Misthalin": 0,
+                "Morytania": 0,
+                "Piscatoris and the Gnome Stronghold": 0,
+                "Tirannwn": 0,
+                "Wilderness": 0
+            };
+            !!chunkInfo['challenges']['Nonskill'] && Object.keys(chunkInfo['challenges']['Nonskill']).filter(task => { return chunkInfo['challenges']['Nonskill'][task].hasOwnProperty('StarRegion') }).forEach((task) => {
+                starRegionsPossible[chunkInfo['challenges']['Nonskill'][task]['StarRegion']]++;
+                if (globalValids.hasOwnProperty('Nonskill') && globalValids['Nonskill'].hasOwnProperty(task)) {
+                    starRegions[chunkInfo['challenges']['Nonskill'][task]['StarRegion']]++;
+                }
+            });
+            if (!tempChunks['unlocked'] || Object.keys(tempChunks['unlocked']).length < 100) {
+                calcCurrentChallenges2(e.data[5]);
+            } else {
+                $('.panel-active.calculating > i').remove();
+                $('.panel-active > .calculating').removeClass('outer-loading-bar').html(`<div class='noscroll display-button' onclick='calcCurrentChallenges2()'>Show New Tasks</div>`);
+            }
+            searchModalOpen && searchWithinChunks();
+            highestModalOpen && openHighest();
+            highest2ModalOpen && openHighest2();
+            manualAreasModalOpen && searchManualAreas();
+            chunkSectionsModalOpen && searchChunkSections();
+            addEquipmentModalOpen && searchAddEquipment();
+            checkSlayerLocked();
+            settings['autoWalkableRollable'] && chunkJustRolled && selectAllNeighborsCanvas();
+            chunkJustRolled = false;
         }
     }
 }
@@ -5636,7 +5646,7 @@ let toggleInfoPanel = function(pnl) {
             infoPanelVis[pnl] ? $('.panel-' + pnl).addClass('visible') : $('.panel-' + pnl).removeClass('visible');
             infoPanelVis[pnl] ? $('.chunkinfo-sidebar-' + pnl).addClass('active') : $('.chunkinfo-sidebar-' + pnl).removeClass('active');
             $('.divider-title').text($('.chunkinfo-sidebar-' + pnl).text());
-            if (pnl === 'challenges' && infoPanelVis[pnl] && expandChallengeStr === '') {
+            if (pnl === 'challenges' && infoPanelVis[pnl] && expandChallengeStr === '' && chunkInfoOpen) {
                 $('.panel-challenges').html(`<div class="noscroll calculating"><i class="noscroll fa-solid fa-spinner fa-spin"></i></div>`);
                 $('.expand').hide();
                 expandChallengeStr = '';
@@ -6075,6 +6085,7 @@ let updateChunkInfo = function() {
         $('.panel-challenges').html(`<div class="noscroll calculating"><div class='noscroll display-button' onclick='calcFutureChallenges()'>Calculate Tasks</div></div>`);
         $('.expand').hide();
         expandChallengeStr = '';
+        chunkInfoOpen = true;
     }
 }
 
@@ -6273,7 +6284,6 @@ let checkPrimaryMethod = function(skill, valids, baseChunkData, wantMethods) {
 let calcCurrentChallenges2 = function(tempChallengeArr) {
     !tempChallengeArr && (tempChallengeArr = tempChallengeArrSaved);
     listOfTasksPlugin = setupCurrentChallenges(tempChallengeArr);
-    infoPanelVis['challenges'] && updateChunkInfo();
 };
 
 // Sets up data for displaying
@@ -6513,7 +6523,8 @@ let calcFutureChallenges = function() {
     myWorker2 = new Worker("./worker.js?v=6.6.33");
     myWorker2.onmessage = workerOnMessage;
     myWorker2.postMessage(['future', chunks, rules, chunkInfo, skillNames, processingSkill, maybePrimary, combatSkills, monstersPlus, objectsPlus, chunksPlus, itemsPlus, mixPlus, npcsPlus, tasksPlus, tools, elementalRunes, manualTasks, completedChallenges, backlog, "1/" + rules['Rare Drop Amount'], universalPrimary, elementalStaves, rangedItems, boneItems, highestCurrent, dropTables, possibleAreas, randomLoot, magicTools, bossLogs, bossMonsters, minigameShops, manualEquipment, checkedChallenges, backloggedSources, altChallenges, manualMonsters, slayerLocked, passiveSkill, f2pSkills, assignedXpRewards, mid === diary2Tier, manualAreas, "1/" + rules['Secondary Primary Amount'], mid === manualAreasOnly, tempSections, maxSkill, userTasks, manualPrimary, updateLevel]);
-    workerOut++;
+    workersOut['future'] = infoLockedId;
+    workerOut = Object.keys(workersOut).filter((key) => workersOut[key] !== false).length;
 }
 
 // Finds the future challenge in each skill given a possible new chunk 2
@@ -7889,6 +7900,7 @@ let addManualTask = function(challenge) {
         }
     });
     calcCurrentChallengesCanvas(true);
+    setData();
 }
 
 // Opens the manual complete tasks modal
@@ -8307,16 +8319,43 @@ let openSearchDetails = function(category, name, prevCategory, prevName) {
             } else if (baseChunkData[category][name][source].replaceAll('primary-', '').replaceAll('secondary-', '').replaceAll(/\*/g, '') === 'drop' && dropRatesGlobal.hasOwnProperty(source) && dropRatesGlobal[source].hasOwnProperty(name)) {
                 formattedSource += ` (${baseChunkData[category][name][source].replaceAll('primary-', '').replaceAll('secondary-', '').replaceAll(/\*/g, '')}, ${dropRatesGlobal[source][name]})`;
                 tempDroprate = dropRatesGlobal[source][name].split('/')[0] / dropRatesGlobal[source][name].split('/')[1];
-            } else if (baseChunkData[category][name][source].replaceAll('primary-', '').replaceAll('secondary-', '').replaceAll(/\*/g, '') === 'drop' && chunkInfo['challenges']['Slayer'].hasOwnProperty(source) && chunkInfo['challenges']['Slayer'][source].hasOwnProperty('Output') && chunkInfo['skillItems']['Slayer'].hasOwnProperty(chunkInfo['challenges']['Slayer'][source]['Output']) && chunkInfo['skillItems']['Slayer'][chunkInfo['challenges']['Slayer'][source]['Output']].hasOwnProperty(name)) {
-                let dropRate = isNaN(Object.values(chunkInfo['skillItems']['Slayer'][chunkInfo['challenges']['Slayer'][source]['Output']][name])[0]) ? Object.values(chunkInfo['skillItems']['Slayer'][chunkInfo['challenges']['Slayer'][source]['Output']][name])[0] : findFraction(parseFloat(Object.values(chunkInfo['skillItems']['Slayer'][chunkInfo['challenges']['Slayer'][source]['Output']][name])[0].split('/')[0].replaceAll('~', '')) / parseFloat(Object.values(chunkInfo['skillItems']['Slayer'][chunkInfo['challenges']['Slayer'][source]['Output']][name])[0].split('/')[1]));
-                formattedSource += ` (${baseChunkData[category][name][source].replaceAll('primary-', '').replaceAll('secondary-', '').replaceAll(/\*/g, '')}, ${dropRate})`;
-                formattedSource += `<span class='double-search-icon' onclick='openSearchDetails("monsters", "${encodeRFC5987ValueChars(source.split('|')[1].charAt(0).toUpperCase() + source.split('|')[1].slice(1))}", "${category}", "${encodeRFC5987ValueChars(name)}")'><i class="fa-solid fa-search"></i></span>`;
-                shouldRank = true;
-                tempDroprate = dropRate.split('/')[0] / dropRate.split('/')[1];
+            } else if (baseChunkData[category][name][source].replaceAll('primary-', '').replaceAll('secondary-', '').replaceAll(/\*/g, '') === 'drop' && chunkInfo['challenges']['Slayer'].hasOwnProperty(source) && chunkInfo['challenges']['Slayer'][source].hasOwnProperty('Output') && ((chunkInfo['skillItems']['Slayer'].hasOwnProperty(chunkInfo['challenges']['Slayer'][source]['Output']) && chunkInfo['skillItems']['Slayer'][chunkInfo['challenges']['Slayer'][source]['Output']].hasOwnProperty(name)) || (!!dropTablesGlobal[source.split('|')[1].charAt(0).toUpperCase() + source.split('|')[1].slice(1)] && !!dropTablesGlobal[source.split('|')[1].charAt(0).toUpperCase() + source.split('|')[1].slice(1)][name]))) {
+                let monster = source.split('|')[1].charAt(0).toUpperCase() + source.split('|')[1].slice(1);
+                if (!!dropTablesGlobal[monster] && !!dropTablesGlobal[monster][name]) {
+                    let tempFormattedSource;
+                    Object.keys(dropTablesGlobal[monster][name]).forEach((amount) => {
+                        tempFormattedSource = formattedSource;
+                        tempFormattedSource += ` (${baseChunkData[category][name][source].replaceAll('primary-', '').replaceAll('secondary-', '').replaceAll(/\*/g, '')}, qty: ${amount}, ${dropTablesGlobal[monster][name][amount]})`;
+                        tempFormattedSource += `<span class='double-search-icon' onclick='openSearchDetails("monsters", "${encodeRFC5987ValueChars(monster)}", "${category}", "${encodeRFC5987ValueChars(name)}")'><i class="fa-solid fa-search"></i></span>`;
+                        shouldRank = true;
+                        tempDroprate = dropTablesGlobal[monster][name][amount].split('/')[0] / dropTablesGlobal[monster][name][amount].split('/')[1];
+                        formattedSources.push(tempFormattedSource);
+                        rankings[tempFormattedSource] = {
+                            shouldRank,
+                            name: monster,
+                            droprate: tempDroprate,
+                        };
+                        alreadyPushed = true;
+                    });
+                } else {
+                    let dropRate = isNaN(Object.values(chunkInfo['skillItems']['Slayer'][chunkInfo['challenges']['Slayer'][source]['Output']][name])[0]) ? Object.values(chunkInfo['skillItems']['Slayer'][chunkInfo['challenges']['Slayer'][source]['Output']][name])[0] : findFraction(parseFloat(Object.values(chunkInfo['skillItems']['Slayer'][chunkInfo['challenges']['Slayer'][source]['Output']][name])[0].split('/')[0].replaceAll('~', '')) / parseFloat(Object.values(chunkInfo['skillItems']['Slayer'][chunkInfo['challenges']['Slayer'][source]['Output']][name])[0].split('/')[1]));
+                    formattedSource += ` (${baseChunkData[category][name][source].replaceAll('primary-', '').replaceAll('secondary-', '').replaceAll(/\*/g, '')}, ${dropRate})`;
+                    formattedSource += `<span class='double-search-icon' onclick='openSearchDetails("monsters", "${encodeRFC5987ValueChars(source.split('|')[1].charAt(0).toUpperCase() + source.split('|')[1].slice(1))}", "${category}", "${encodeRFC5987ValueChars(name)}")'><i class="fa-solid fa-search"></i></span>`;
+                    shouldRank = true;
+                    tempDroprate = dropRate.split('/')[0] / dropRate.split('/')[1];
+                }
             } else {
                 formattedSource += ` (${baseChunkData[category][name][source].replaceAll('primary-', '').replaceAll('secondary-', '').replaceAll(/\*/g, '')})`;
                 if (baseChunkData[category][name][source].replaceAll('primary-', '').replaceAll('secondary-', '').replaceAll(/\*/g, '') === 'shop') {
-                    formattedSource += `<span class='double-search-icon' onclick='openSearchDetails("shops", "${encodeRFC5987ValueChars(source)}", "${category}", "${encodeRFC5987ValueChars(name)}")'><i class="fa-solid fa-search"></i></span>`;
+                    let realSource = source;
+                    if (source.includes('|')) {
+                        realSource = source.split('|')[1].charAt(0).toUpperCase() + source.split('|')[1].slice(1);
+                    }
+                    if (baseChunkData['npcs'].hasOwnProperty(realSource)) {
+                        formattedSource += `<span class='double-search-icon' onclick='openSearchDetails("npcs", "${encodeRFC5987ValueChars(realSource)}", "${category}", "${encodeRFC5987ValueChars(name)}")'><i class="fa-solid fa-search"></i></span>`;
+                    } else {
+                        formattedSource += `<span class='double-search-icon' onclick='openSearchDetails("shops", "${encodeRFC5987ValueChars(realSource)}", "${category}", "${encodeRFC5987ValueChars(name)}")'><i class="fa-solid fa-search"></i></span>`;
+                    }
                     shouldRank = true;
                     tempDroprate = 1;
                 }
@@ -10062,6 +10101,7 @@ let selectOverlayClues = function(clueTier) {
         selectedOverlay = 'None';
     }
     showOverlays(true);
+    drawCanvas();
 }
 
 // Clears all overlay clues
@@ -10070,6 +10110,7 @@ let clearOverlayClues = function() {
         selectedOverlayClues[clueTier] = false;
     });
     showOverlays(true);
+    drawCanvas();
 }
 
 // Toggle overlay within chunks only
