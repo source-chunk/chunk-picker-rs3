@@ -40177,7 +40177,10 @@
 				"Skills": {
 					"Firemaking": 82
 				},
-				"Output": "Tempered fungal shaft",
+				"Tasks": {
+					"~|Extinction|~ Complete the quest": "Quest"
+				},
+				"Output": "Zygomite Hairstyling",
 				"Primary": true,
 				"Priority": 1
 			},
