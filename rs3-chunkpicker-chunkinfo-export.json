@@ -21455,7 +21455,7 @@
 				"Output": "PyreChew",
 				"Primary": true,
 				"Priority": 101
-			}
+			},
 			"Craft a ~|studded leather body|~": {
 				"Items": ["Leather body*", "Steel studs*"],
 				"Level": 41,
@@ -24825,7 +24825,7 @@
 				"Priority": 4
 			},
 			"Design, draft and craft a ~|masterwork magic robe top|~": {
-				"Items": ["Masterwork white cloth*", "Masterwork blue cloth*", "Ethereal pearlescent plate*", "Masterork thread*", "Stone of binding*"],
+				"Items": ["Masterwork white cloth*", "Masterwork blue cloth*", "Ethereal pearlescent plate*", "Masterwork thread*", "Stone of binding*"],
 				"Level": 110,
 				"Objects": ["Pattern table", "Drafting table", "Tailor's dummy"],
 				"Tasks": {
@@ -24836,7 +24836,7 @@
 				"Priority": 5
 			},
 			"Design, draft and craft a ~|masterwork magic robe bottom|~": {
-				"Items": ["Masterwork white cloth*", "Masterwork blue cloth*", "Ethereal pearlescent plate*", "Masterork thread*", "Stone of binding*"],
+				"Items": ["Masterwork white cloth*", "Masterwork blue cloth*", "Ethereal pearlescent plate*", "Masterwork thread*", "Stone of binding*"],
 				"Level": 110,
 				"Objects": ["Pattern table", "Drafting table", "Tailor's dummy"],
 				"Tasks": {
@@ -24847,7 +24847,7 @@
 				"Priority": 6
 			},
 			"Design, draft and craft a ~|masterwork magic boots|~": {
-				"Items": ["Masterwork white cloth*", "Masterwork blue cloth*", "Ethereal pearlescent plate*", "Lined pearlescent plate*", "Masterork thread*", "Stone of binding*"],
+				"Items": ["Masterwork white cloth*", "Masterwork blue cloth*", "Ethereal pearlescent plate*", "Lined pearlescent plate*", "Masterwork thread*", "Stone of binding*"],
 				"Level": 110,
 				"Objects": ["Pattern table", "Drafting table", "Tailor's dummy"],
 				"Tasks": {
@@ -24858,7 +24858,7 @@
 				"Priority": 7
 			},
 			"Design, draft and craft a ~|masterwork magic gloves|~": {
-				"Items": ["Masterwork white cloth*", "Masterwork blue cloth*", "Ethereal pearlescent plate*", "Lined pearlescent plate*", "Masterork thread*", "Stone of binding*"],
+				"Items": ["Masterwork white cloth*", "Masterwork blue cloth*", "Ethereal pearlescent plate*", "Lined pearlescent plate*", "Masterwork thread*", "Stone of binding*"],
 				"Level": 110,
 				"Objects": ["Pattern table", "Drafting table", "Tailor's dummy"],
 				"Tasks": {
@@ -24869,7 +24869,7 @@
 				"Priority": 8
 			},
 			"Design, draft and craft a ~|masterwork magic hat|~": {
-				"Items": ["Masterwork white cloth*", "Masterwork blue cloth*", "Masterwork green cloth*", "Masterork thread*", "Stone of binding*"],
+				"Items": ["Masterwork white cloth*", "Masterwork blue cloth*", "Masterwork green cloth*", "Masterwork thread*", "Stone of binding*"],
 				"Level": 110,
 				"Objects": ["Pattern table", "Drafting table", "Tailor's dummy"],
 				"Tasks": {
@@ -121243,7 +121243,7 @@
 				"Category": ["Comp achievements"],
 				"Description": "Solve a lockbox puzzle.",
 				"BaseQuest": "Completionist achievements",
-				"Items": ["Sealed clue scroll (master)"],
+				"Items": ["Lockbox puzzle"],
 				"Not F2P": true
 			},
 			"~|Completionist achievements#Completionist Cape|~ Bandos's Memories": {
@@ -121772,6 +121772,16 @@
 				},
 				"Not F2P": true
 			},
+			"~|Completionist achievements#Completionist Cape|~ It Should Have Been Called Ancestral": {
+				"Category": ["Comp achievements"],
+				"Description": "Unlock the ability to craft masterwork magic armour by making and upgrading to +5 a full set of starbloom armour.",
+				"BaseQuest": "Completionist achievements",
+				"Items": ["Starbloom hat + 5", "Starbloom robe top + 5", "Starbloom robe bottom + 5", "Starbloom gloves + 5", "Starbloom boots + 5"],
+				"Skills": {
+					"Crafting": 100
+				},
+				"Not F2P": true
+			},
 			"~|Completionist achievements#Completionist Cape|~ It Still Should Have Been Called Aetherium": {
 				"Category": ["Comp achievements"],
 				"Description": "Unlock the ability to smith masterwork swords by making and upgrading to +5 a full set of primal armour.",
@@ -122125,7 +122135,7 @@
 				"Category": ["Comp achievements"],
 				"Description": "Solve a puzzle box.",
 				"BaseQuest": "Completionist achievements",
-				"Items": ["Sealed clue scroll (hard)"],
+				"Items": ["Puzzle box"],
 				"Not F2P": true
 			},
 			"~|Completionist achievements#Completionist Cape|~ Stacks on Stacks": {
@@ -122244,12 +122254,12 @@
 				"Category": ["Comp achievements"],
 				"Description": "Solve a Towers puzzle.",
 				"BaseQuest": "Completionist achievements",
-				"Items": ["Sealed clue scroll (master)"],
+				"Items": ["Towers puzzle"],
 				"Not F2P": true
 			},
 			"~|Completionist achievements#Completionist Cape|~ Trip to the East": {
 				"Category": ["Comp achievements"],
-				"Description": "Complete each of the trio storylines from your Player Owned Port.",
+				"Description": "Complete one of the trio storylines from your Player Owned Port.",
 				"BaseQuest": "Completionist achievements",
 				"Tasks": {
 					"Trip to the East[+]": "Nonskill"
@@ -122331,7 +122341,7 @@
 				"Category": ["Comp achievements"],
 				"Description": "Solve a celtic knot.",
 				"BaseQuest": "Completionist achievements",
-				"Items": ["Sealed clue scroll (elite)"],
+				"Items": ["Celtic knot"],
 				"Not F2P": true
 			},
 			"~|Completionist achievements#Completionist Cape|~ Upgrading Waiko I": {
@@ -147253,7 +147263,7 @@
 					"Unlock ~|the memory|~ in the player-owned port": "Divination",
 					"Unlock ~|the exile|~ at the player-owned port": "Dungeoneering"
 				}
-			},
+			}
 		}
 	},
 	"chunks": {
@@ -190798,7 +190808,7 @@
 				"Porcelain clay rock": 6
 			},
 			"Connect": {
-				"14897": true
+				"14898": true
 			}
 		}
 	},
@@ -196266,7 +196276,6 @@
 				"Bane mattock",
 				"Elder rune mattock"
 			],
-			"ClueScroll[+]": ["Sealed clue scroll (easy)", "Sealed clue scroll (medium)", "Sealed clue scroll (hard)", "Sealed clue scroll (elite)"],
 			"Filled Ushabti[+]": [
 				"Ushabti (profane scabarite)",
 				"Ushabti (armoured phantom)",
@@ -197075,7 +197084,6 @@
 			"GoldenFishEggs[+]": "Any golden fish egg",
 			"HerbSeed[+]": "Any herb seed",
 			"Mattock[+]": "Any tier of matock",
-			"ClueScroll[+]": "Any sealed clue scroll",
 			"Filled Ushabti[+]": "Any ushabti that has a captured soul"
 		},
 		"chunksPlus": {
@@ -256392,7 +256400,7 @@
 				}]
 			},
 			"Osseous": {
-				"Lair of the Rew Matriarchs": [{
+				"Lair of the Rex Matriarchs": [{
 					"~|Osseous Rex|~ Complete the quest": "Quest"
 				}]
 			},
@@ -265345,7 +265353,7 @@
 				"Starbloom gloves + 3": "Always",
 				"Starbloom gloves + 4": "Always",
 				"Starbloom gloves + 5": "Always",
-				"Starbloom boots": "Always"
+				"Starbloom boots": "Always",
 				"Starbloom boots + 1": "Always",
 				"Starbloom boots + 2": "Always",
 				"Starbloom boots + 3": "Always",
