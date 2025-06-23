@@ -144036,11 +144036,8 @@
 			},
 			"Everlight Porcelain Clay Mine": {
 				"UnlocksArea": true,
-				"Skills": {
-					"Archaeology": 42
-				},
 				"Tasks": {
-					"Complete the ~|Archaeology tutorial|~": "Archaeology"
+					"Gain access to the ~|Everlight Dig Site|~": "Archaeology"
 				}
 			},
 			"Secondary effigies": {
