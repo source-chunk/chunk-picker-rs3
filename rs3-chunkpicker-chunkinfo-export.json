@@ -61019,6 +61019,18 @@
 				"NoPet": true,
 				"NoBoost": true
 			},
+			"Complete a slayer contract from ~|Markus|~": {
+				"Chunks": ["13623"],
+				"Level": 1,
+				"Primary": true,
+				"Priority": 1
+			},
+			"Complete a slayer contract from ~|Erskine|~": {
+				"Chunks": ["12343", "ErskineSlayerChunks[+]"],
+				"Level": 1,
+				"Primary": true,
+				"Priority": 1
+			},
 			"Receive a slayer assignment from ~|Turael|~": {
 				"Chunks": ["11575"],
 				"Level": 1,
@@ -165451,7 +165463,8 @@
 			},
 			"Monster": {
 				"Dark beast": 12,
-				"Lava strykewyrm": 12
+				"Lava strykewyrm": 12,
+				"Ice strykewyrm": 3
 			},
 			"NPC": {
 				"Mound": 12
@@ -175475,7 +175488,7 @@
 				"Gem Shop (Anachronia)": true,
 				"Slayer Equipment": true,
 				"Slayer Rewards": true,
-				"Survival Shop (Anachronia)": true,
+				"Survival Shop": true,
 				"Weapon Shop (Anachronia)": true
 			},
 			"Quest": {
@@ -181808,7 +181821,7 @@
 				"TzHaar-Ket": 38,
 				"TzHaar-Hur": 32
 			},
-			"Shops": {
+			"Shop": {
 				"TzHaar-Hur-Lek's Ore and Gem Store": true,
 				"TzHaar-Mej-Roh's Rune Store": true,
 				"TzHaar-Hur-Tel's Equipment Store": true
@@ -197119,6 +197132,7 @@
 			"EliteDungeons[+]": ["Temple of Aminishi", "Dragonkin Laboratory", "The Shadow Reef", "Zamorakian Undercity"],
 			"ElunedChunks[+]": ["8753", "9009"],
 			"EnterTheAbyss3[+]": ["12853", "12337", "10547", "Brimstail's cave", "10288"],
+			"ErskineSlayerChunks[+]": ["Forinthry Dungeon", "12601", "13116", "12345", "12093", "12347", "12349", "12603", "12605", "13371", "12858", "13369", "Edgeville Dungeon", "13115", "12857", "12090", "11835", "12091", "11836", "12091", "12347"],
 			"Everlight[+]": ["14899", "14898", "15154", "14897", "15153", "14641"],
 			"FairyTaleI2[+]": ["11574", "13105", "13362", "9265", "8755", "8757", "9012", "9781", "11062", "11317", "12596", "12854", "12850", "12083", "12082", "11060", "11058", "9777", "15942", "11828", "10547", "10548", "10290", "11056", "14391", "13622", "10300", "10551", "10288", "11570", "12851", "11821", "12587"],
 			"FaladorChunks[+]": ["11828", "12084"],
@@ -197222,6 +197236,7 @@
 			"EliteDungeons[+]": "Any chunk that gives access to an elite dungeon",
 			"ElunedChunks[+]": "Any chunks in Isafdar where Eluned may show up",
 			"EnterTheAbyss3[+]": "Any chunk with a rune essence mine teleport",
+			"ErskineSlayerChunks[+]": "Any chunk with a wilderness contract slayer monster",
 			"Everlight[+]": "Any chunk that is part of the Everlight digsite",
 			"FairyTaleI2[+]": "Any chunk that has a G.A.G. member in it",
 			"FaladorChunks[+]": "Any chunks with a range in the Falador area",
