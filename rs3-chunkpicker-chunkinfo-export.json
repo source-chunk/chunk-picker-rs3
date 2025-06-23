@@ -30836,10 +30836,11 @@
 				"Priority": 4
 			},
 			"Apply ~|compost|~ to a farming patch": {
-				"Items": ["Compost"],
+				"Items": ["Compost*"],
 				"Objects": ["FarmingPatch[+]"],
 				"Level": 1,
 				"Primary": false,
+				"Output": "Bucket",
 				"Priority": 5
 			},
 			"Fill ~|supercompost|~ from a bin": {
@@ -30851,10 +30852,11 @@
 				"Priority": 6
 			},
 			"Apply ~|supercompost|~ to a farming patch": {
-				"Items": ["Supercompost"],
+				"Items": ["Supercompost*"],
 				"Objects": ["FarmingPatch[+]"],
 				"Level": 1,
 				"Primary": false,
+				"Output": "Bucket",
 				"Priority": 7
 			},
 			"Fill ~|ultracompost|~ from a bin": {
@@ -30866,10 +30868,11 @@
 				"Priority": 8
 			},
 			"Apply ~|ultracompost|~ to a farming patch": {
-				"Items": ["Ultracompost"],
+				"Items": ["Ultracompost*"],
 				"Objects": ["FarmingPatch[+]"],
 				"Level": 1,
 				"Primary": false,
+				"Output": "Bucket",
 				"Priority": 9
 			},
 			"Grow a ~|potato|~": {
