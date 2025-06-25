@@ -61036,6 +61036,19 @@
 				"Output": "Basilisk",
 				"NoPet": true
 			},
+			"Slay a ~|basilisk|~ while on task": {
+				"Items": ["Mirror[+]"],
+				"Level": 40,
+				"Monsters": ["Basilisk"],
+				"Tasks": {
+					"Basilisk task": "Nonskill"
+				},
+				"Primary": false,
+				"Priority": 50,
+				"Source": "drop",
+				"Output": "Basilisk (task)",
+				"NoPet": true
+			},
 			"Slay a ~|terror dog|~": {
 				"Level": 40,
 				"Monsters": ["Terror dog"],
@@ -61178,6 +61191,19 @@
 				"Priority": 8,
 				"Source": "drop",
 				"Output": "Turoth",
+				"NoPet": true
+			},
+			"Slay a ~|turoth|~ while on task": {
+				"Items": ["BroadLeaf[+]"],
+				"Level": 55,
+				"Monsters": ["Turoth"],
+				"Tasks": {
+					"Turoth task": "Nonskill"
+				},
+				"Primary": false,
+				"Priority": 50,
+				"Source": "drop",
+				"Output": "Turoth (task)",
 				"NoPet": true
 			},
 			"Slay a ~|warped terrorbird|~": {
@@ -61324,6 +61350,19 @@
 				"Output": "Kurask",
 				"NoPet": true
 			},
+			"Slay a ~|kurask|~ while on task": {
+				"Items": ["BroadLeaf[+]"],
+				"Level": 70,
+				"Monsters": ["Kurask"],
+				"Tasks": {
+					"Kurask task": "Nonskill"
+				},
+				"Primary": false,
+				"Priority": 50,
+				"Source": "drop",
+				"Output": "Kurask (task)",
+				"NoPet": true
+			},
 			"Build the second tier of the slayer lodge in your ~|Anachronia base camp|~": {
 				"Chunks": ["15939"],
 				"Level": 70,
@@ -61356,6 +61395,18 @@
 				"Priority": 1,
 				"Source": "drop",
 				"Output": "Jungle strykewyrm",
+				"NoPet": true
+			},
+			"Slay a ~|jungle strykewyrm|~ while on task": {
+				"Level": 73,
+				"Monsters": ["Jungle strykewyrm"],
+				"Tasks": {
+					"Jungle strykewyrm task": "Nonskill"
+				},
+				"Primary": false,
+				"Priority": 50,
+				"Source": "drop",
+				"Output": "Jungle strykewyrm (task)",
 				"NoPet": true
 			},
 			"Slay a ~|gargoyle|~": {
@@ -61450,6 +61501,18 @@
 				"Output": "Desert strykewyrm",
 				"NoPet": true
 			},
+			"Slay a ~|desert strykewyrm|~ while on task": {
+				"Level": 77,
+				"Monsters": ["Desert strykewyrm"],
+				"Primary": false,
+				"Tasks": {
+					"Desert strykewyrm task": "Task"
+				},
+				"Priority": 50,
+				"Source": "drop",
+				"Output": "Desert strykewyrm",
+				"NoPet": true
+			},
 			"Slay an ~|aquanite|~": {
 				"Level": 78,
 				"Monsters": ["Aquanite"],
@@ -61466,6 +61529,18 @@
 				"Priority": 1,
 				"Source": "drop",
 				"Output": "Nightmare",
+				"NoPet": true
+			},
+			"Slay a ~|nightmare|~ while on task": {
+				"Level": 80,
+				"Monsters": ["Nightmare"],
+				"Tasks": {
+					"Nightmare task": "Nonskill"
+				},
+				"Primary": false,
+				"Priority": 1,
+				"Source": "drop",
+				"Output": "Nightmare (task)",
 				"NoPet": true
 			},
 			"Slay a ~|nechryael|~": {
@@ -61603,6 +61678,18 @@
 				"Output": "Profane Scabarite",
 				"NoPet": true
 			},
+			"Slay a ~|profane scabarite|~ while on task": {
+				"Level": 87,
+				"Monsters": ["Profane Scabarite"],
+				"Tasks": {
+					"Profane scabarite task": "Nonskill"
+				},
+				"Primary": false,
+				"Priority": 50,
+				"Source": "drop",
+				"Output": "Profane Scabarite (task)",
+				"NoPet": true
+			},
 			"Slay an ~|elite profane scabarite|~": {
 				"Level": 87,
 				"Monsters": ["Elite Profane Scabarite"],
@@ -61629,6 +61716,19 @@
 				"Priority": 2,
 				"Source": "drop",
 				"Output": "Corrupted scorpion",
+				"NoPet": true
+			},
+			"Slay a ~|corrupted scorpion|~ while on task": {
+				"Items": ["Feather of Ma'at"],
+				"Level": 88,
+				"Monsters": ["Corrupted scorpion"],
+				"Tasks": {
+					"Corrupted creature task": "Nonskill"
+				},
+				"Primary": false,
+				"Priority": 50,
+				"Source": "drop",
+				"Output": "Corrupted scorpion (task)",
 				"NoPet": true
 			},
 			"Slay an ~|anagami|~": {
@@ -61676,6 +61776,18 @@
 				"Output": "Devil's snare",
 				"NoPet": true
 			},
+			"Slay a ~|devil's snare|~ while on task": {
+				"Level": 90,
+				"Monsters": ["Devil's snare"],
+				"Tasks": {
+					"Vile bloom task": "Nonskill"
+				},
+				"Primary": false,
+				"Priority": 50,
+				"Source": "drop",
+				"Output": "Devil's snare (task)",
+				"NoPet": true
+			},
 			"Slay a ~|feral dinosaur|~": {
 				"Level": 90,
 				"Monsters": ["Feral Dinosaur"],
@@ -61683,6 +61795,18 @@
 				"Priority": 6,
 				"Source": "drop",
 				"Output": "Feral Dinosaur",
+				"NoPet": true
+			},
+			"Slay a ~|feral dinosaur|~ while on task": {
+				"Level": 90,
+				"Monsters": ["Feral Dinosaur"],
+				"Tasks": {
+					"Dinosaur task": "Nonskill"
+				},
+				"Primary": false,
+				"Priority": 51,
+				"Source": "drop",
+				"Output": "Feral Dinosaur (task)",
 				"NoPet": true
 			},
 			"Build the third tier of the slayer lodge in your ~|Anachronia base camp|~": {
@@ -61710,6 +61834,19 @@
 				"Priority": 2,
 				"Source": "drop",
 				"Output": "Corrupted scarab",
+				"NoPet": true
+			},
+			"Slay a ~|corrupted scarab|~ while on task": {
+				"Items": ["Feather of Ma'at"],
+				"Level": 91,
+				"Monsters": ["Corrupted scarab"],
+				"Tasks": {
+					"Corrupted creature task": "Nonskill"
+				},
+				"Primary": false,
+				"Priority": 50,
+				"Source": "drop",
+				"Output": "Corrupted scarab (task)",
 				"NoPet": true
 			},
 			"Slay an ~|airut|~": {
@@ -61785,6 +61922,19 @@
 				"Output": "Ice strykewyrm",
 				"NoPet": true
 			},
+			"Slay an ~|ice strykewyrm|~ while on task": {
+				"Items": ["FireCape[+]"],
+				"Level": 93,
+				"Monsters": ["Ice strykewyrm"],
+				"Tasks": {
+					"Ice strykewyrm task": "Nonskill"
+				},
+				"Primary": false,
+				"Priority": 50,
+				"Source": "drop",
+				"Output": "Ice strykewyrm (task)",
+				"NoPet": true
+			},
 			"Slay a ~|sakadagami|~": {
 				"Level": 93,
 				"Monsters": ["Sakadagami"],
@@ -61803,6 +61953,18 @@
 				"Output": "Lava strykewyrm",
 				"NoPet": true
 			},
+			"Slay a ~|lava strykewyrm|~ while on task": {
+				"Level": 94,
+				"Monsters": ["Lava strykewyrm"],
+				"Tasks": {
+					"Lava strykewyrm task": "Nonskill"
+				},
+				"Primary": false,
+				"Priority": 1,
+				"Source": "drop",
+				"Output": "Lava strykewyrm (task)",
+				"NoPet": true
+			},
 			"Slay a ~|corrupted lizard|~": {
 				"Items": ["Feather of Ma'at"],
 				"Level": 94,
@@ -61811,6 +61973,19 @@
 				"Priority": 2,
 				"Source": "drop",
 				"Output": "Corrupted lizard",
+				"NoPet": true
+			},
+			"Slay a ~|corrupted lizard|~ while on task": {
+				"Items": ["Feather of Ma'at"],
+				"Level": 94,
+				"Monsters": ["Corrupted lizard"],
+				"Tasks": {
+					"Corrupted creature task": "Nonskill"
+				},
+				"Primary": false,
+				"Priority": 50,
+				"Source": "drop",
+				"Output": "Corrupted lizard (task)",
 				"NoPet": true
 			},
 			"Slay a ~|dragonstone dragon|~": {
@@ -61822,6 +61997,18 @@
 				"Output": "Dragonstone dragon",
 				"NoPet": true
 			},
+			"Slay a ~|dragonstone dragon|~ while on task": {
+				"Level": 95,
+				"Monsters": ["Dragonstone dragon"],
+				"Tasks": {
+					"Gemstone dragon task": "Nonskill"
+				},
+				"Primary": false,
+				"Priority": 50,
+				"Source": "drop",
+				"Output": "Dragonstone dragon (task)",
+				"NoPet": true
+			},
 			"Slay a ~|luminous snaggler|~": {
 				"Level": 95,
 				"Monsters": ["Luminous snaggler"],
@@ -61829,6 +62016,18 @@
 				"Priority": 2,
 				"Source": "drop",
 				"Output": "Luminous snaggler",
+				"NoPet": true
+			},
+			"Slay a ~|luminous snaggler|~ while on task": {
+				"Level": 95,
+				"Monsters": ["Luminous snaggler"],
+				"Tasks": {
+					"Vile bloom task": "Nonskill"
+				},
+				"Primary": false,
+				"Priority": 51,
+				"Source": "drop",
+				"Output": "Luminous snaggler (task)",
 				"NoPet": true
 			},
 			"Slay a ~|ganodermic runt|~": {
@@ -61921,6 +62120,18 @@
 				"Output": "Wyvern",
 				"NoPet": true
 			},
+			"Slay a ~|wyvern|~ while on task": {
+				"Level": 96,
+				"Monsters": ["Wyvern"],
+				"Tasks": {
+					"Wyvern task": "Nonskill"
+				},
+				"Primary": false,
+				"Priority": 50,
+				"Source": "drop",
+				"Output": "Wyvern (task)",
+				"NoPet": true
+			},
 			"Slay a ~|Ripper Demon|~": {
 				"Level": 96,
 				"Monsters": ["Ripper Demon"],
@@ -61930,6 +62141,18 @@
 				"Output": "Ripper Demon",
 				"NoPet": true
 			},
+			"Slay a ~|Ripper Demon|~ while on task": {
+				"Level": 96,
+				"Monsters": ["Ripper Demon"],
+				"Tasks": {
+					"Ripper demon task": "Nonskill"
+				},
+				"Primary": false,
+				"Priority": 51,
+				"Source": "drop",
+				"Output": "Ripper Demon (task)",
+				"NoPet": true
+			},
 			"Slay a ~|Camel Warrior|~": {
 				"Level": 96,
 				"Monsters": ["Camel Warrior"],
@@ -61937,6 +62160,18 @@
 				"Priority": 4,
 				"Source": "drop",
 				"Output": "Camel Warrior",
+				"NoPet": true
+			},
+			"Slay a ~|Camel Warrior|~ while on task": {
+				"Level": 96,
+				"Monsters": ["Camel Warrior"],
+				"Tasks": {
+					"Camel warrior task": "Nonskill"
+				},
+				"Primary": false,
+				"Priority": 52,
+				"Source": "drop",
+				"Output": "Camel Warrior (task)",
 				"NoPet": true
 			},
 			"Slay an ~|Acheron mammoth|~": {
@@ -61958,6 +62193,19 @@
 				"Output": "Corrupted dust devil",
 				"NoPet": true
 			},
+			"Slay a ~|corrupted dust devil|~ while on task": {
+				"Items": ["DustMask[+]", "Feathers of Ma'at"],
+				"Level": 97,
+				"Monsters": ["Corrupted dust devil"],
+				"Tasks": {
+					"Corrupted creature task": "Nonskill"
+				},
+				"Primary": false,
+				"Priority": 1,
+				"Source": "drop",
+				"Output": "Corrupted dust devil (task)",
+				"NoPet": true
+			},
 			"Slay an ~|onyx dragon|~": {
 				"Level": 98,
 				"Monsters": ["Onyx dragon"],
@@ -61965,6 +62213,18 @@
 				"Priority": 1,
 				"Source": "drop",
 				"Output": "Onyx dragon",
+				"NoPet": true
+			},
+			"Slay an ~|onyx dragon|~ while on task": {
+				"Level": 98,
+				"Monsters": ["Onyx dragon"],
+				"Tasks": {
+					"Gemstone dragon task": "Nonskill"
+				},
+				"Primary": false,
+				"Priority": 50,
+				"Source": "drop",
+				"Output": "Onyx dragon (task)",
 				"NoPet": true
 			},
 			"Slay a ~|soulgazer|~": {
@@ -61985,6 +62245,18 @@
 				"Output": "Brutish dinosaur",
 				"NoPet": true
 			},
+			"Slay a ~|brutish dinosaur|~ while on task": {
+				"Level": 99,
+				"Monsters": ["Brutish Dinosaur"],
+				"Tasks": {
+					"Dinosaur task": "Nonskill"
+				},
+				"Primary": false,
+				"Priority": 50,
+				"Source": "drop",
+				"Output": "Brutish dinosaur (task)",
+				"NoPet": true
+			},
 			"Slay a ~|corrupted kalphite guardian|~": {
 				"Items": ["Feather of Ma'at"],
 				"Level": 100,
@@ -61993,6 +62265,19 @@
 				"Priority": 1,
 				"Source": "drop",
 				"Output": "Corrupted kalphite guardian",
+				"NoPet": true
+			},
+			"Slay a ~|corrupted kalphite guardian|~ while on task": {
+				"Items": ["Feather of Ma'at"],
+				"Level": 100,
+				"Monsters": ["Corrupted kalphite guardian"],
+				"Tasks": {
+					"Corrupted creature task": "Nonskill"
+				},
+				"Primary": false,
+				"Priority": 50,
+				"Source": "drop",
+				"Output": "Corrupted kalphite guardian (task)",
 				"NoPet": true
 			},
 			"Slay a ~|corrupted kalphite marauder|~": {
@@ -62005,6 +62290,19 @@
 				"Output": "Corrupted kalphite marauder",
 				"NoPet": true
 			},
+			"Slay a ~|corrupted kalphite marauder|~ while on task": {
+				"Items": ["Feather of Ma'at"],
+				"Level": 100,
+				"Monsters": ["Corrupted kalphite marauder"],
+				"Tasks": {
+					"Corrupted creature task": "Nonskill"
+				},
+				"Primary": false,
+				"Priority": 51,
+				"Source": "drop",
+				"Output": "Corrupted kalphite marauder (task)",
+				"NoPet": true
+			},
 			"Slay a ~|hydrix dragon|~": {
 				"Level": 101,
 				"Monsters": ["Hydrix dragon"],
@@ -62012,6 +62310,18 @@
 				"Priority": 1,
 				"Source": "drop",
 				"Output": "Hydrix dragon",
+				"NoPet": true
+			},
+			"Slay a ~|hydrix dragon|~ while on task": {
+				"Level": 101,
+				"Monsters": ["Hydrix dragon"],
+				"Tasks": {
+					"Gemstone dragon task": "Nonskill"
+				},
+				"Primary": false,
+				"Priority": 50,
+				"Source": "drop",
+				"Output": "Hydrix dragon (task)",
 				"NoPet": true
 			},
 			"Slay a ~|lampenflora|~": {
@@ -62023,6 +62333,18 @@
 				"Output": "Lampenflora",
 				"NoPet": true
 			},
+			"Slay a ~|lampenflora|~ while on task": {
+				"Level": 102,
+				"Monsters": ["Lampenflora"],
+				"Primary": false,
+				"Tasks": {
+					"Vile bloom task": "Nonskill"
+				},
+				"Priority": 50,
+				"Source": "drop",
+				"Output": "Lampenflora (task)",
+				"NoPet": true
+			},
 			"Slay a ~|corrupted worker|~": {
 				"Items": ["Feather of Ma'at"],
 				"Level": 103,
@@ -62031,6 +62353,19 @@
 				"Priority": 1,
 				"Source": "drop",
 				"Output": "Corrupted worker",
+				"NoPet": true
+			},
+			"Slay a ~|corrupted worker|~ while on task": {
+				"Items": ["Feather of Ma'at"],
+				"Level": 103,
+				"Monsters": ["Corrupted worker"],
+				"Tasks": {
+					"Corrupted creature task": "Nonskill"
+				},
+				"Primary": false,
+				"Priority": 50,
+				"Source": "drop",
+				"Output": "Corrupted worker (task)",
 				"NoPet": true
 			},
 			"Slay a ~|vinecrawler|~": {
@@ -62052,6 +62387,19 @@
 				"Output": "Salawa akh",
 				"NoPet": true
 			},
+			"Slay a ~|salawa akh|~ while on task": {
+				"Items": ["Feather of Ma'at"],
+				"Level": 105,
+				"Monsters": ["Salawa akh"],
+				"Tasks": {
+					"Soul devourer task": "Nonskill"
+				},
+				"Primary": false,
+				"Priority": 50,
+				"Source": "drop",
+				"Output": "Salawa akh (task)",
+				"NoPet": true
+			},
 			"Slay a ~|venomous dinosaur|~": {
 				"Level": 105,
 				"Monsters": ["Venomous dinosaur"],
@@ -62059,6 +62407,15 @@
 				"Priority": 2,
 				"Source": "drop",
 				"Output": "Venomous dinosaur",
+				"NoPet": true
+			},
+			"Slay a ~|venomous dinosaur|~ while on task": {
+				"Level": 105,
+				"Monsters": ["Venomous dinosaur"],
+				"Primary": false,
+				"Priority": 50,
+				"Source": "drop",
+				"Output": "Venomous dinosaur (task)",
 				"NoPet": true
 			},
 			"Slay a ~|bulbous crawler|~": {
@@ -62080,6 +62437,19 @@
 				"Output": "Feline akh",
 				"NoPet": true
 			},
+			"Slay a ~|feline akh|~ while on task": {
+				"Items": ["Feather of Ma'at"],
+				"Level": 107,
+				"Monsters": ["Feline akh"],
+				"Tasks": {
+					"Soul devourer task": "Nonskill"
+				},
+				"Primary": false,
+				"Priority": 50,
+				"Source": "drop",
+				"Output": "Feline akh (task)",
+				"NoPet": true
+			},
 			"Slay a ~|moss golem|~": {
 				"Level": 108,
 				"Monsters": ["Moss golem"],
@@ -62099,6 +62469,19 @@
 				"Output": "Scarab akh",
 				"NoPet": true
 			},
+			"Slay a ~|scarab akh|~ while on task": {
+				"Items": ["Feather of Ma'at"],
+				"Level": 109,
+				"Monsters": ["Scarab akh"],
+				"Tasks": {
+					"Soul devourer task": "Nonskill"
+				},
+				"Primary": false,
+				"Priority": 50,
+				"Source": "drop",
+				"Output": "Scarab akh (task)",
+				"NoPet": true
+			},
 			"Slay a ~|liverworts|~": {
 				"Level": 110,
 				"Monsters": ["Liverworts"],
@@ -62106,6 +62489,18 @@
 				"Priority": 1,
 				"Source": "drop",
 				"Output": "Liverworts",
+				"NoPet": true
+			},
+			"Slay a ~|liverworts|~ while on task": {
+				"Level": 110,
+				"Monsters": ["Liverworts"],
+				"Primary": false,
+				"Tasks": {
+					"Vile bloom task": "Nonskill"
+				},
+				"Priority": 51,
+				"Source": "drop",
+				"Output": "Liverworts (task)",
 				"NoPet": true
 			},
 			"Slay a ~|crocodile akh|~": {
@@ -62118,6 +62513,19 @@
 				"Output": "Crocodile akh",
 				"NoPet": true
 			},
+			"Slay a ~|crocodile akh|~ while on task": {
+				"Items": ["Feather of Ma'at"],
+				"Level": 111,
+				"Monsters": ["Crocodile akh"],
+				"Tasks": {
+					"Soul devourer task": "Nonskill"
+				},
+				"Primary": false,
+				"Priority": 1,
+				"Source": "drop",
+				"Output": "Crocodile akh (task)",
+				"NoPet": true
+			},
 			"Slay a ~|gorilla akh|~": {
 				"Items": ["Feather of Ma'at"],
 				"Level": 113,
@@ -62126,6 +62534,19 @@
 				"Priority": 1,
 				"Source": "drop",
 				"Output": "Gorilla akh",
+				"NoPet": true
+			},
+			"Slay a ~|gorilla akh|~ while on task": {
+				"Items": ["Feather of Ma'at"],
+				"Level": 113,
+				"Monsters": ["Gorilla akh"],
+				"Tasks": {
+					"Soul devourer task": "Nonskill"
+				},
+				"Primary": false,
+				"Priority": 1,
+				"Source": "drop",
+				"Output": "Gorilla akh (task)",
 				"NoPet": true
 			},
 			"Slay an ~|armoured phantom|~": {
@@ -62144,6 +62565,15 @@
 				"Priority": 1,
 				"Source": "drop",
 				"Output": "Ripper dinosaur",
+				"NoPet": true
+			},
+			"Slay a ~|ripper dinosaur|~ while on task": {
+				"Level": 114,
+				"Monsters": ["Ripper dinosaur"],
+				"Primary": false,
+				"Priority": 50,
+				"Source": "drop",
+				"Output": "Ripper dinosaur (task)",
 				"NoPet": true
 			},
 			"Slay ~|the magister|~": {
@@ -62166,6 +62596,19 @@
 				"Output": "Imperial warrior akh",
 				"NoPet": true
 			},
+			"Slay an ~|imperial warrior akh|~ while on task": {
+				"Items": ["Feather of Ma'at"],
+				"Level": 117,
+				"Monsters": ["Imperial warrior akh"],
+				"Tasks": {
+					"Soul devourer task": "Nonskill"
+				},
+				"Primary": false,
+				"Priority": 51,
+				"Source": "drop",
+				"Output": "Imperial warrior akh (task)",
+				"NoPet": true
+			},
 			"Slay an ~|imperial mage akh|~": {
 				"Items": ["Feather of Ma'at"],
 				"Level": 117,
@@ -62176,6 +62619,19 @@
 				"Output": "Imperial mage akh",
 				"NoPet": true
 			},
+			"Slay an ~|imperial mage akh|~ while on task": {
+				"Items": ["Feather of Ma'at"],
+				"Level": 117,
+				"Monsters": ["Imperial mage akh"],
+				"Tasks": {
+					"Soul devourer task": "Nonskill"
+				},
+				"Primary": false,
+				"Priority": 52,
+				"Source": "drop",
+				"Output": "Imperial mage akh (task)",
+				"NoPet": true
+			},
 			"Slay an ~|imperial ranger akh|~": {
 				"Items": ["Feather of Ma'at"],
 				"Level": 117,
@@ -62184,6 +62640,19 @@
 				"Priority": 3,
 				"Source": "drop",
 				"Output": "Imperial ranger akh",
+				"NoPet": true
+			},
+			"Slay an ~|imperial ranger akh|~ while on task": {
+				"Items": ["Feather of Ma'at"],
+				"Level": 117,
+				"Monsters": ["Imperial ranger akh"],
+				"Tasks": {
+					"Soul devourer task": "Nonskill"
+				},
+				"Primary": false,
+				"Priority": 53,
+				"Source": "drop",
+				"Output": "Imperial ranger akh (task)",
 				"NoPet": true
 			},
 			"Use the slayer lamp from ~|the world wakes|~ quest": {
@@ -83991,7 +84460,7 @@
 					"Crafting": 35,
 					"Agility": 15
 				},
-				"Task": {
+				"Tasks": {
 					"Gain access to Morytania": "Nonskill"
 				},
 				"Not F2P": true
@@ -146549,25 +147018,157 @@
 				}
 			},
 			"Rune dragon task": {
-				"NPCs": ["Rune Dragon Assignment[+]"]
+				"Tasks": {
+					"RaptorMorvranBetterMaster[+]": "Slayer"
+				},
+				"Not F2P": true
 			},
 			"Celestial dragon task": {
-				"NPCs": ["Celestial Dragon Assignment[+]"]
+				"Tasks": {
+					"RaptorDuradelBetterMaster[+]": "Slayer"
+				},
+				"Not F2P": true
 			},
 			"Abyssal demon task": {
-				"NPCs": ["Abyssal Demon Assignment[+]"]
+				"Tasks": {
+					"RaptorSumonaBetterMaster[+]": "Slayer"
+				},
+				"Not F2P": true
 			},
-			"Raptor monsters task": {
-				"NPCs": ["Raptor monsters Assignment[+]"]
+			"Wyvern task": {
+				"Tasks": {
+					"RaptorKuradalBetterMaster[+]": "Slayer"
+				},
+				"Not F2P": true
+			},
+			"Ripper demon task": {
+				"Tasks": {
+					"RaptorKuradalBetterMaster[+]": "Slayer"
+				},
+				"Not F2P": true
+			},
+			"Camel warrior task": {
+				"Tasks": {
+					"RaptorKuradalBetterMaster[+]": "Slayer"
+				},
+				"Not F2P": true
+			},
+			"Acheron mammoth task": {
+				"Tasks": {
+					"RaptorKuradalBetterMaster[+]": "Slayer"
+				},
+				"Not F2P": true
+			},
+			"Gemstone dragon task": {
+				"Tasks": {
+					"RaptorKuradalBetterMaster[+]": "Slayer"
+				},
+				"Not F2P": true
 			},
 			"Airut task": {
-				"NPCs": ["Airut Assignment[+]"]
+				"Tasks": {
+					"DuradelBetterMaster[+]": "Slayer"
+				},
+				"Not F2P": true
+			},
+			"Order of Ascension task": {
+				"Tasks": {
+					"DuradelBetterMaster[+]": "Slayer"
+				},
+				"Not F2P": true
+			},
+			"Ice strykewyrm task": {
+				"Tasks": {
+					"DuradelBetterMaster[+]": "Slayer"
+				},
+				"Not F2P": true
 			},
 			"Order of Ascension task": {
 				"NPCs": ["Order of Ascension Assignment[+]"]
 			},
 			"Edimmu task": {
-				"NPCs": ["Edimmu Assignment[+]"]
+				"Tasks": {
+					"EdimmuMaster[+]": "Slayer"
+				},
+				"Not F2P": true
+			},
+			"Jungle strykewyrm task": {
+				"Tasks": {
+					"ChaeldarBetterMaster[+]": "Slayer"
+				},
+				"Not F2P": true
+			},
+			"Basilisk task": {
+				"Tasks": {
+					"MazchnaChaeldarSumonaMaster[+]": "Slayer"
+				},
+				"Not F2P": true
+			},
+			"Turoth task": {
+				"Tasks": {
+					"MazchnaChaeldarSumonaMaster[+]": "Slayer"
+				},
+				"Not F2P": true
+			},
+			"Kurask task": {
+				"Tasks": {
+					"ChaeldarSumonaMaster[+]": "Slayer"
+				},
+				"Not F2P": true
+			},
+			"Desert strykewyrm task": {
+				"Tasks": {
+					"SumonaBetterMaster[+]": "Slayer"
+				},
+				"Not F2P": true
+			},
+			"Profane scabarite task": {
+				"Tasks": {
+					"SumonaBetterMaster[+]": "Slayer"
+				},
+				"Not F2P": true
+			},
+			"Corrupted creature task": {
+				"Tasks": {
+					"SumonaKuradalBetterMaster[+]": "Slayer"
+				},
+				"Not F2P": true
+			},
+			"Soul devourer task": {
+				"Tasks": {
+					"SumonaKuradalBetterMaster[+]": "Slayer"
+				},
+				"Not F2P": true
+			},
+			"Lost Grove creature task": {
+				"Tasks": {
+					"MorvranlBetterMaster[+]": "Slayer"
+				},
+				"Not F2P": true
+			},
+			"Dinosaur task": {
+				"Tasks": {
+					"Receive a slayer assignment from ~|Laniakea|~": "Slayer"
+				},
+				"Not F2P": true
+			},
+			"Vile bloom task": {
+				"Tasks": {
+					"Receive a slayer assignment from ~|Laniakea|~": "Slayer"
+				},
+				"Not F2P": true
+			},
+			"Nightmare task": {
+				"Tasks": {
+					"KuradalBetterMaster[+]": "Slayer"
+				},
+				"Not F2P": true
+			},
+			"Lava strykewyrm task": {
+				"Tasks": {
+					"KuradalBetterMaster[+]": "Slayer"
+				},
+				"Not F2P": true
 			}
 		}
 	},
@@ -196054,6 +196655,7 @@
 			"PowerfulCommunionBones[+]": "Any item that can be used in a powerful communion ritual",
 			"PrayerPotion[+]": "Any prayer potion",
 			"PrayerRenewalPotion[+]": "Any prayer renewal potion",
+			"PrimalArmour[+]": "Any piece of primal armour",
 			"PrimalFruit[+]": "Any fruit that can be used to make primal fruit pulp",
 			"PrimevalArmour[+]": "Any piece of primeval armour",
 			"ProfoundDecorativeArmour[+]": "Any piece of profound decorative armour",
@@ -197017,14 +197619,7 @@
 			"Tanner[+]": ["Tanner", "Ellis", "Sbott", "Tanya Hyde", "Leatherworker"],
 			"Wisp[+]": ["Pale wisp", "Cursed wisp"],
 			"SlayerPointMasters[+]": ["Jacquelyn", "Vannaka", "The Raptor#Fort Forinthry", "Mazchna", "Chaeldar", "Sumona", "Duradel", "Kuradal", "Morvran", "Laniakea", "Mandrith"],
-			"CrystalToolNPC[+]": ["Ilfeen", "Eluned", "Islwyn", "Rhodri Dail"],
-			"Rune Dragon Assignment[+]": ["The Raptor#Fort Forinthry", "Morvran", "Laniakea"],
-			"Celestial Dragon Assignment[+]": ["The Raptor#Fort Forinthry", "Morvran", "Laniakea", "Duradel", "Kuradal"],
-			"Abyssal Demon Assignment[+]": ["The Raptor#Fort Forinthry", "Morvran", "Laniakea", "Duradel", "Kuradal", "Sumona"],
-			"Raptor monsters Assignment[+]": ["Kuradal", "The Raptor#Fort Forinthry", "Morvran", "Laniakea"],
-			"Airut Assignment[+]": ["Morvran", "Laniakea", "Duradel", "Kuradal"],
-			"Order of Ascension Assignment[+]": ["The Raptor#Fort Forinthry", "Morvran", "Laniakea", "Duradel", "Kuradal"],
-			"Edimmu Assignment[+]": ["The Raptor#Fort Forinthry", "Morvran", "Laniakea", "Duradel", "Kuradal", "Vannaka", "Jacquelyn"]
+			"CrystalToolNPC[+]": ["Ilfeen", "Eluned", "Islwyn", "Rhodri Dail"]
 		},
 		"npcsPlusNames": {
 			"Dyer[+]": "Access to either Rana or Aggie",
@@ -197384,7 +197979,88 @@
 			"Access the Lumbridge Swamp caves[+]": ["Access the Lumbridge Swamp caves via Lumbridge Cellar", "Access the Lumbridge Swamp caves via 12953"],
 			"LesserEnsoulMaterial[+]": ["Ensoul a ~|lesser ensouled bar|~", "Ensoul ~|lesser ensouled cloth|~", "Ensoul ~|lesser ensouled thread|~"],
 			"EnsoulMaterial[+]": ["Ensoul an ~|ensouled bar|~", "Ensoul ~|ensouled cloth|~", "Ensoul ~|ensouled thread|~"],
-			"GreaterEnsoulMaterial[+]": ["Ensoul a ~|greater ensouled bar|~", "Ensoul ~|greater ensouled cloth|~", "Ensoul ~|greater ensouled thread|~"]
+			"GreaterEnsoulMaterial[+]": ["Ensoul a ~|greater ensouled bar|~", "Ensoul ~|greater ensouled cloth|~", "Ensoul ~|greater ensouled thread|~"],
+			"MorvranlBetterMaster[+]": [
+					"Receive a slayer assignment from ~|Morvran|~",
+					"Receive a slayer assignment from ~|Laniakea|~"
+			],
+			"KuradalBetterMaster[+]": [
+					"Receive a slayer assignment from ~|Kuradal|~",
+					"Receive a slayer assignment from ~|Morvran|~",
+					"Receive a slayer assignment from ~|Laniakea|~"
+			],
+			"DuradelBetterMaster[+]": [
+					"Receive a slayer assignment from ~|Duradel|~",
+					"Receive a slayer assignment from ~|Kuradal|~",
+					"Receive a slayer assignment from ~|Morvran|~",
+					"Receive a slayer assignment from ~|Laniakea|~"
+			],
+			"SumonaBetterMaster[+]": [
+					"Receive a slayer assignment from ~|Sumona|~",
+					"Receive a slayer assignment from ~|Duradel|~",
+					"Receive a slayer assignment from ~|Kuradal|~",
+					"Receive a slayer assignment from ~|Morvran|~",
+					"Receive a slayer assignment from ~|Laniakea|~"
+			],
+			"ChaeldarBetterMaster[+]": [
+					"Receive a slayer assignment from ~|Chaeldar|~",
+					"Receive a slayer assignment from ~|Sumona|~",
+					"Receive a slayer assignment from ~|Duradel|~",
+					"Receive a slayer assignment from ~|Kuradal|~",
+					"Receive a slayer assignment from ~|Morvran|~",
+					"Receive a slayer assignment from ~|Laniakea|~"
+			],
+			"RaptorMorvranBetterMaster[+]": [
+					"Receive a slayer assignment from ~|the Raptor|~",
+					"Receive a slayer assignment from ~|Morvran|~",
+					"Receive a slayer assignment from ~|Laniakea|~"
+			],
+			"RaptorKuradalBetterMaster[+]": [
+					"Receive a slayer assignment from ~|the Raptor|~",
+					"Receive a slayer assignment from ~|Kuradal|~",
+					"Receive a slayer assignment from ~|Morvran|~",
+					"Receive a slayer assignment from ~|Laniakea|~"
+			],
+			"RaptorDuradelBetterMaster[+]": [
+					"Receive a slayer assignment from ~|the Raptor|~",
+					"Receive a slayer assignment from ~|Duradel|~",
+					"Receive a slayer assignment from ~|Kuradal|~",
+					"Receive a slayer assignment from ~|Morvran|~",
+					"Receive a slayer assignment from ~|Laniakea|~"
+			],
+			"RaptorSumonaBetterMaster[+]": [
+					"Receive a slayer assignment from ~|The Raptor|~",
+					"Receive a slayer assignment from ~|Sumona|~",
+					"Receive a slayer assignment from ~|Duradel|~",
+					"Receive a slayer assignment from ~|Kuradal|~",
+					"Receive a slayer assignment from ~|Morvran|~",
+					"Receive a slayer assignment from ~|Laniakea|~"
+			],
+			"SumonaKuradalBetterMaster[+]": [
+					"Receive a slayer assignment from ~|Chaeldar|~",
+					"Receive a slayer assignment from ~|Sumona|~",
+					"Receive a slayer assignment from ~|Kuradal|~",
+					"Receive a slayer assignment from ~|Morvran|~",
+					"Receive a slayer assignment from ~|Laniakea|~"
+			],
+			"MazchnaChaeldarSumonaMaster[+]": [
+					"Receive a slayer assignment from ~|Mazchna|~",
+					"Receive a slayer assignment from ~|Chaeldar|~",
+					"Receive a slayer assignment from ~|Sumona|~"
+			],
+			"ChaeldarSumonaMaster[+]": [
+					"Receive a slayer assignment from ~|Chaeldar|~",
+					"Receive a slayer assignment from ~|Sumona|~"
+			],
+			"EdimmuMaster[+]": [
+					"Receive a slayer assignment from ~|Jacquelyn|~",
+					"Receive a slayer assignment from ~|The Raptor|~",
+					"Receive a slayer assignment from ~|Vannaka|~",
+					"Receive a slayer assignment from ~|Duradel|~",
+					"Receive a slayer assignment from ~|Kuradal|~",
+					"Receive a slayer assignment from ~|Morvran|~",
+					"Receive a slayer assignment from ~|Laniakea|~"
+			]
 		},
 		"tasksPlusNames": {
 			"A Taste of the Exotic[+]": "Any subtasks for A Taste of the Exotic",
@@ -255188,16 +255864,16 @@
 				"Members Only": true
 			}],
 			"Raptor key part 1^": [{
-				"Raptor monsters task": "Nonskill"
+				"Wyvern task": "Nonskill"
 			}],
 			"Raptor key part 2^": [{
-				"Raptor monsters task": "Nonskill"
+				"Ripper demon task": "Nonskill"
 			}],
 			"Raptor key part 3^": [{
-				"Raptor monsters task": "Nonskill"
+				"Camel warrior task": "Nonskill"
 			}],
 			"Raptor key part 4^": [{
-				"Raptor monsters task": "Nonskill"
+				"Acheron mammoth task": "Nonskill"
 			}],
 			"Ascension grips^": [{
 				"Order of Ascension task": "Nonskill"
@@ -255237,6 +255913,12 @@
 			}],
 			"Ragefire gland^": [{
 				"Rune dragon task": "Nonskill"
+			}],
+			"Bone fragments^": [{
+				"Receive a slayer assignment from ~|the Raptor|~": "Slayer"
+			}],
+			"Corrupted gem^": [{
+				"Corrupted creature task": "Nonskill"
 			}]
 		},
 		"Monsters": {
@@ -260388,7 +261070,7 @@
 			"Learn how to deliver killing blows quicker": true,
 			"Learn how to craft Slayer helmets": true,
 			"Learn how to fuse rings to full Slayer helmets": true,
-			"Learn new technique to attack ice strykeworms": true,
+			"Learn new technique to attack ice strykewyrms": true,
 			"Learn how to attach the bonecrusher to your toolbelt": true,
 			"Learn how to attach herbicide to your toolbelt": true,
 			"Learn how to attach seedicide to your toolbelt": true,
@@ -270421,6 +271103,11 @@
 					"1": "Very rare"
 				}
 			},
+			"Basilisk (task)": {
+				"Basilisk boots": {
+					"1": "1/360"
+				}
+			},
 			"Bladed muspah": {
 				"Elder energy": {
 					"5": "Always"
@@ -270879,6 +271566,23 @@
 					"1": "1/750"
 				}
 			},
+			"Brutish dinosaur (task)": {
+				"Blowpipe fins": {
+					"1": "1/6000"
+				},
+				"Blowpipe feather": {
+					"1": "1/6000"
+				},
+				"Bone blowpipe": {
+					"1": "1/6000"
+				},
+				"Blowpipe chitin": {
+					"1": "1/6000"
+				},
+				"Laceration boots": {
+					"1": "1/2000"
+				}
+			},
 			"Bulbous crawler": {
 				"Coins": {
 					"3647-17426": "Common"
@@ -271011,6 +271715,17 @@
 				},
 				"Sealed clue scroll (elite)": {
 					"1": "2/896"
+				}
+			},
+			"Camel Warrior (task)": {
+				"Bone fragments": {
+					"1": "Unknown"
+				},
+				"Raptor key part 3": {
+					"1": "1/256"
+				},
+				"Camel staff": {
+					"1": "1/2000"
 				}
 			},
 			"Capsarius": {
@@ -271669,6 +272384,20 @@
 					"1": "Rare"
 				}
 			},
+			"Corrupted dust devil (task)": {
+				"Key to the Crossing": {
+					"1": "1/75"
+				},
+				"Vital spark": {
+					"2": "1/75"
+				},
+				"Corrupted gem": {
+					"1": "1/5000"
+				},
+				"Khopesh of the Kharidian": {
+					"1": "1/8000"
+				}
+			},
 			"Corrupted kalphite guardian": {
 				"Goat horn dust": {
 					"4 (noted)": "Common"
@@ -271727,6 +272456,20 @@
 				},
 				"Khopesh of the Kharidian": {
 					"1": "1/15000"
+				}
+			},
+			"Corrupted kalphite guardian (task)": {
+				"Key to the Crossing": {
+					"1": "1/75"
+				},
+				"Vital spark": {
+					"2": "1/75"
+				},
+				"Corrupted gem": {
+					"1": "1/5000"
+				},
+				"Khopesh of the Kharidian": {
+					"1": "1/8000"
 				}
 			},
 			"Corrupted kalphite marauder": {
@@ -271789,6 +272532,20 @@
 					"1": "Very Rare"
 				}
 			},
+			"Corrupted kalphite marauder (task)": {
+				"Key to the Crossing": {
+					"1": "1/75"
+				},
+				"Vital spark": {
+					"2": "1/75"
+				},
+				"Corrupted gem": {
+					"1": "1/5000"
+				},
+				"Khopesh of the Kharidian": {
+					"1": "1/8000"
+				}
+			},
 			"Corrupted lizard": {
 				"Corrupted magic logs": {
 					"8 (noted)": "Common"
@@ -271843,6 +272600,20 @@
 				},
 				"Starved ancient effigy": {
 					"1": "Very rare"
+				}
+			},
+			"Corrupted lizard (task)": {
+				"Key to the Crossing": {
+					"1": "1/75"
+				},
+				"Vital spark": {
+					"2": "1/75"
+				},
+				"Corrupted gem": {
+					"1": "1/5000"
+				},
+				"Khopesh of the Kharidian": {
+					"1": "1/8000"
 				}
 			},
 			"Corrupted scarab": {
@@ -271902,6 +272673,20 @@
 				},
 				"The Magister's Journal 5": {
 					"1": "Rare"
+				}
+			},
+			"Corrupted scarab (task)": {
+				"Key to the Crossing": {
+					"1": "1/75"
+				},
+				"Vital spark": {
+					"2": "1/75"
+				},
+				"Corrupted gem": {
+					"1": "1/5000"
+				},
+				"Khopesh of the Kharidian": {
+					"1": "1/8000"
 				}
 			},
 			"Corrupted scorpion": {
@@ -271964,6 +272749,20 @@
 					"1": "Very Rare"
 				}
 			},
+			"Corrupted scorpion (task)": {
+				"Key to the Crossing": {
+					"1": "1/75"
+				},
+				"Vital spark": {
+					"2": "1/75"
+				},
+				"Corrupted gem": {
+					"1": "1/5000"
+				},
+				"Khopesh of the Kharidian": {
+					"1": "1/8000"
+				}
+			},
 			"Corrupted worker": {
 				"Coins": {
 					"2500": "66/128",
@@ -272018,6 +272817,20 @@
 				},
 				"The Magister's Journal 5": {
 					"1": "Rare"
+				}
+			},
+			"Corrupted worker (task)": {
+				"Key to the Crossing": {
+					"1": "1/75"
+				},
+				"Vital spark": {
+					"2": "1/75"
+				},
+				"Corrupted gem": {
+					"1": "1/5000"
+				},
+				"Khopesh of the Kharidian": {
+					"1": "1/8000"
 				}
 			},
 			"Crawling hand": {
@@ -272169,6 +272982,20 @@
 				},
 				"The Magister's Journal 5": {
 					"1": "Rare"
+				}
+			},
+			"Crocodile akh (task)": {
+				"Key to the Crossing": {
+					"1": "1/75"
+				},
+				"Vital spark": {
+					"2": "1/75"
+				},
+				"Corrupted gem": {
+					"1": "1/5000"
+				},
+				"Khopesh of the Kharidian": {
+					"1": "1/8000"
 				}
 			},
 			"Crystal Shapeshifter": {
@@ -272497,7 +273324,7 @@
 					"1": "Uncommon"
 				},
 				"Focus sight": {
-					"1": "Rare"
+					"1": "512"
 				},
 				"Cadantine seed": {
 					"1": "Common"
@@ -272634,6 +273461,11 @@
 					"1": "3/1280"
 				}
 			},
+			"Desert strykewyrm (task)": {
+				"Focus sight": {
+					"1": "256"
+				}
+			},
 			"Devil's snare": {
 				"Coins": {
 					"10000-30000": "Common"
@@ -272723,6 +273555,11 @@
 					"1": "1/17500"
 				}
 			},
+			"Devil's snare (task)": {
+				"Blast diffusion boots": {
+					"1": "1/2500"
+				}
+			},
 			"Dragonstone dragon": {
 				"Hardened dragon bones": {
 					"1": "Always"
@@ -272773,6 +273610,14 @@
 				},
 				"Draconic visage": {
 					"1": "1/10000"
+				}
+			},
+			"Dragonstone dragon (task)": {
+				"Gemstone gauntlets": {
+					"1": "1/2000"
+				},
+				"Gemstone boots": {
+					"1": "1/2000"
 				}
 			},
 			"Dust devil": {
@@ -273174,6 +274019,20 @@
 					"1": "1/256"
 				}
 			},
+			"Feline akh (task)": {
+				"Key to the Crossing": {
+					"1": "1/75"
+				},
+				"Vital spark": {
+					"2": "1/75"
+				},
+				"Corrupted gem": {
+					"1": "1/5000"
+				},
+				"Khopesh of the Kharidian": {
+					"1": "1/8000"
+				}
+			},
 			"Feral Dinosaur": {
 				"Dinosaur bones": {
 					"1": "Always",
@@ -273256,6 +274115,23 @@
 				},
 				"Feral dinosaur (unchecked)": {
 					"1": "1/750"
+				}
+			},
+			"Feral Dinosaur (task)": {
+				"Blowpipe fins": {
+					"1": "1/6000"
+				},
+				"Blowpipe feather": {
+					"1": "1/6000"
+				},
+				"Bone blowpipe": {
+					"1": "1/6000"
+				},
+				"Blowpipe chitin": {
+					"1": "1/6000"
+				},
+				"Laceration boots": {
+					"1": "1/3000"
 				}
 			},
 			"Fever spider": {
@@ -273865,6 +274741,20 @@
 					"1": "Very rare"
 				}
 			},
+			"Gorilla akh (task)": {
+				"Key to the Crossing": {
+					"1": "1/75"
+				},
+				"Vital spark": {
+					"2": "1/75"
+				},
+				"Corrupted gem": {
+					"1": "1/5000"
+				},
+				"Khopesh of the Kharidian": {
+					"1": "1/8000"
+				}
+			},
 			"Grifolapine": {
 				"Bones": {
 					"1": "Always"
@@ -274221,6 +275111,11 @@
 					"1": "1/10000"
 				}
 			},
+			"Hydrix dragon (task)": {
+				"Gemstone hauberk": {
+					"1": "1/1000"
+				}
+			},
 			"Ice nihil": {
 				"Coins": {
 					"7358": "Common",
@@ -274275,7 +275170,7 @@
 					"1": "Rare"
 				},
 				"Staff of light": {
-					"1": "1/512"
+					"1": "1/2000"
 				},
 				"Coins": {
 					"200": "Common",
@@ -274456,6 +275351,11 @@
 					"1": "Very rare"
 				}
 			},
+			"Ice strykewyrm (task)": {
+				"Staff of light": {
+					"1": "1/512"
+				}
+			},
 			"Imperial mage akh": {
 				"Coins": {
 					"3000-5000": "Common"
@@ -274518,6 +275418,20 @@
 				},
 				"Sealed clue scroll (elite)": {
 					"1": "1/256"
+				}
+			},
+			"Imperial mage akh (task)": {
+				"Key to the Crossing": {
+					"1": "1/75"
+				},
+				"Vital spark": {
+					"2": "1/75"
+				},
+				"Corrupted gem": {
+					"1": "1/5000"
+				},
+				"Khopesh of the Kharidian": {
+					"1": "1/8000"
 				}
 			},
 			"Imperial ranger akh": {
@@ -274585,6 +275499,20 @@
 					"1": "1/256"
 				}
 			},
+			"Imperial ranger akh (task)": {
+				"Key to the Crossing": {
+					"1": "1/75"
+				},
+				"Vital spark": {
+					"2": "1/75"
+				},
+				"Corrupted gem": {
+					"1": "1/5000"
+				},
+				"Khopesh of the Kharidian": {
+					"1": "1/8000"
+				}
+			},
 			"Imperial warrior akh": {
 				"Coins": {
 					"3000": "Common",
@@ -274648,6 +275576,20 @@
 				},
 				"Sealed clue scroll (elite)": {
 					"1": "1/256"
+				}
+			},
+			"Imperial warrior akh (task)": {
+				"Key to the Crossing": {
+					"1": "1/75"
+				},
+				"Vital spark": {
+					"2": "1/75"
+				},
+				"Corrupted gem": {
+					"1": "1/5000"
+				},
+				"Khopesh of the Kharidian": {
+					"1": "1/8000"
 				}
 			},
 			"Infernal Mage": {
@@ -275025,6 +275967,11 @@
 					"1": "Very rare"
 				}
 			},
+			"Jungle strykewyrm (task)": {
+				"Hexcrest": {
+					"1": "1/256"
+				}
+			},
 			"Killerwatt": {
 				"Impious ashes": {
 					"1": "Always"
@@ -275204,6 +276151,11 @@
 					"1": "Very rare"
 				}
 			},
+			"Kurask (task)": {
+				"Kurask boots": {
+					"1": "1/360"
+				}
+			},
 			"Lampenflora": {
 				"Coins": {
 					"12459-22295": "Common"
@@ -275294,6 +276246,11 @@
 				},
 				"Skeka's hypnowand base": {
 					"1": "1/25000"
+				}
+			},
+			"Lampenflora (task)": {
+				"Blast diffusion boots": {
+					"1": "1/4000"
 				}
 			},
 			"Lava strykewyrm": {
@@ -275396,6 +276353,17 @@
 				},
 				"Starved ancient effigy": {
 					"1": "Very rare"
+				}
+			},
+			"Lava strykewyrm (task)": {
+				"Wyrm spike": {
+					"1": "1/6128"
+				},
+				"Wyrm heart": {
+					"1": "1/6128"
+				},
+				"Wyrm scalp": {
+					"1": "1/6128"
 				}
 			},
 			"Legio Primus": {
@@ -276066,6 +277034,11 @@
 					"1": "1/14000"
 				}
 			},
+			"Liverworts (task)": {
+				"Blast diffusion boots": {
+					"1": "1/2000"
+				}
+			},
 			"Lizard": {
 				"Big bones": {
 					"1": "Always"
@@ -276269,6 +277242,11 @@
 				},
 				"Skeka's hypnowand base": {
 					"1": "1/14000"
+				}
+			},
+			"Luminous snaggler (task)": {
+				"Blast diffusion boots": {
+					"1": "1/2000"
 				}
 			},
 			"Mighty banshee": {
@@ -278035,6 +279013,14 @@
 					"1": "1/10000"
 				}
 			},
+			"Onyx dragon (task)": {
+				"Gemstone helm": {
+					"1": "1/2000"
+				},
+				"Gemstone greaves": {
+					"1": "1/2000"
+				}
+			},
 			"Profane Scabarite": {
 				"Carapace": {
 					"1": "Always"
@@ -278052,7 +279038,7 @@
 					"1": "15/100"
 				},
 				"Spectral lens": {
-					"1": "1/512"
+					"1": "1/4096"
 				},
 				"Jade amulet": {
 					"1": "Common"
@@ -278104,6 +279090,11 @@
 				},
 				"Rare drop table": {
 					"1": "Rare"
+				}
+			},
+			"Profane Scabarite (task)": {
+				"Spectral lens": {
+					"1": "1/512"
 				}
 			},
 			"Pyrefiend": {
@@ -278303,6 +279294,17 @@
 					"1": "1/30000"
 				}
 			},
+			"Ripper Demon (task)": {
+				"Ripper claw": {
+					"1": "1/2000"
+				},
+				"Off-hand ripper claw": {
+					"1": "1/2000"
+				},
+				"Parasitic orb": {
+					"1": "1/15000"
+				}
+			},
 			"Ripper dinosaur": {
 				"Dinosaur bones": {
 					"1": "Always"
@@ -278384,6 +279386,23 @@
 				},
 				"Ripper dinosaur (unchecked)": {
 					"1": "1/750"
+				}
+			},
+			"Ripper dinosaur (task)": {
+				"Blowpipe fins": {
+					"1": "1/6000"
+				},
+				"Blowpipe feather": {
+					"1": "1/6000"
+				},
+				"Bone blowpipe": {
+					"1": "1/6000"
+				},
+				"Blowpipe chitin": {
+					"1": "1/6000"
+				},
+				"Laceration boots": {
+					"1": "1/2000"
 				}
 			},
 			"Rock slug": {
@@ -278800,6 +279819,20 @@
 					"1": "Rare"
 				}
 			},
+			"Salawa akh (task)": {
+				"Key to the Crossing": {
+					"1": "1/75"
+				},
+				"Vital spark": {
+					"2": "1/75"
+				},
+				"Corrupted gem": {
+					"1": "1/5000"
+				},
+				"Khopesh of the Kharidian": {
+					"1": "1/8000"
+				}
+			},
 			"Scarab akh": {
 				"Coins": {
 					"2500": "Common",
@@ -278854,6 +279887,20 @@
 				},
 				"The Magister's Journal 5": {
 					"1": "Rare"
+				}
+			},
+			"Scarab akh (task)": {
+				"Key to the Crossing": {
+					"1": "1/75"
+				},
+				"Vital spark": {
+					"2": "1/75"
+				},
+				"Corrupted gem": {
+					"1": "1/5000"
+				},
+				"Khopesh of the Kharidian": {
+					"1": "1/8000"
 				}
 			},
 			"Scutarius": {
@@ -280622,6 +281669,11 @@
 					"1": "Very rare"
 				}
 			},
+			"Turoth (task)": {
+				"Turoth boots": {
+					"1": "1/360"
+				}
+			},
 			"Unspeakable horror": {
 				"Big bones": {
 					"1": "Always",
@@ -280769,6 +281821,23 @@
 				},
 				"Venomous dinosaur (unchecked)": {
 					"1": "1/750"
+				}
+			},
+			"Venomous dinosaur (task)": {
+				"Blowpipe fins": {
+					"1": "1/6000"
+				},
+				"Blowpipe feather": {
+					"1": "1/6000"
+				},
+				"Bone blowpipe": {
+					"1": "1/6000"
+				},
+				"Blowpipe chitin": {
+					"1": "1/6000"
+				},
+				"Laceration boots": {
+					"1": "1/4000"
 				}
 			},
 			"Vinecrawler": {
@@ -281124,6 +282193,14 @@
 				},
 				"Draconic visage": {
 					"1": "1/10000"
+				}
+			},
+			"Wyvern (task)": {
+				"Raptor key part 1": {
+					"1": "1/256"
+				},
+				"Wyvern crossbow": {
+					"1": "1/2000"
 				}
 			},
 			"Zombie hand": {
