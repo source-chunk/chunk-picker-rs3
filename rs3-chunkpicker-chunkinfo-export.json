@@ -144036,11 +144036,8 @@
 			},
 			"Everlight Porcelain Clay Mine": {
 				"UnlocksArea": true,
-				"Skills": {
-					"Archaeology": 42
-				},
 				"Tasks": {
-					"Complete the ~|Archaeology tutorial|~": "Archaeology"
+					"Gain access to the ~|Everlight Dig Site|~": "Archaeology"
 				}
 			},
 			"Secondary effigies": {
@@ -146959,7 +146956,7 @@
 				"Items": ["AncientZygomites[+]x60"],
 				"Output": "Totem of Auras top"
 			},
-			"Obtain the Remototem top*": {
+			"Obtain the ~|Remototem top|~*": {
 				"Chunks": ["14916"],
 				"Skills": {
 					"Farming": 42,
