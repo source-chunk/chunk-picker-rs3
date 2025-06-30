@@ -11797,6 +11797,9 @@
 				"Skills": {
 					"Farming": 17
 				},
+				"Tasks": {
+					"~|Player-owned farm tutorial|~ Complete the tutorial": "Quest"
+				},
 				"Output Object": "Small animal pen",
 				"Primary": false,
 				"Priority": 9
@@ -11807,6 +11810,9 @@
 				"Level": 20,
 				"Skills": {
 					"Farming": 28
+				},
+				"Tasks": {
+					"~|Player-owned farm tutorial|~ Complete the tutorial": "Quest"
 				},
 				"Output Object": "Small animal pen",
 				"Primary": false,
@@ -12624,6 +12630,9 @@
 				"Skills": {
 					"Farming": 35
 				},
+				"Tasks": {
+					"~|Player-owned farm tutorial|~ Complete the tutorial": "Quest"
+				},
 				"Output Object": "Medium animal pen",
 				"Primary": false,
 				"Priority": 11
@@ -12634,6 +12643,9 @@
 				"Level": 40,
 				"Skills": {
 					"Farming": 64
+				},
+				"Tasks": {
+					"~|Player-owned farm tutorial|~ Complete the tutorial": "Quest"
 				},
 				"Output Object": "Medium animal pen",
 				"Primary": false,
@@ -13002,9 +13014,12 @@
 				"Priority": 6
 			},
 			"Build a small dinosaur pen in your ~|player-owned ranch|~": {
-				"Chunks": ["POR[+]"],
-				"Items": ["Wood*", "Vines*", "Stone*"],
+				"Chunks": ["14916"],
 				"Level": 45,
+				"Tasks": {
+					"Unlock the Anachronia Base Camp": "Nonskill",
+					"~|Player-owned farm tutorial|~ Complete the tutorial": "Quest"
+				},
 				"Skills": {
 					"Farming": 42
 				},
@@ -13589,6 +13604,20 @@
 				"Items": ["Acadia frame*", "Stone wall segment*"],
 				"Level": 55,
 				"Primary": true,
+				"Priority": 7
+			},
+			"Build a dinosaur breeding pen in your ~|player-owned ranch|~": {
+				"Chunks": ["14659"],
+				"Level": 55,
+				"Tasks": {
+					"Unlock the Anachronia Base Camp": "Nonskill",
+					"~|Player-owned farm tutorial|~ Complete the tutorial": "Quest"
+				},
+				"Skills": {
+					"Farming": 42
+				},
+				"Output Object": "Dinosaur breeding pen",
+				"Primary": false,
 				"Priority": 7
 			},
 			"Build a ~|fancy teak dresser|~": {
@@ -15151,11 +15180,14 @@
 				"Priority": 8
 			},
 			"Build a medium dinosaur pen in your ~|player-owned ranch|~": {
-				"Chunks": ["POR[+]"],
-				"Items": ["Wood*", "Vines*", "Stone*"],
+				"Chunks": ["14916"],
 				"Level": 80,
 				"Skills": {
 					"Farming": 76
+				},
+				"Tasks": {
+					"Unlock the Anachronia Base Camp": "Nonskill",
+					"~|Player-owned farm tutorial|~ Complete the tutorial": "Quest"
 				},
 				"Output Object": "Medium dinosaur pen",
 				"Primary": false,
@@ -15608,22 +15640,28 @@
 				"Priority": 6
 			},
 			"Build a large dinosaur pen in your ~|player-owned ranch|~": {
-				"Chunks": ["POR[+]"],
-				"Items": ["Wood*", "Vines*", "Stone*"],
+				"Chunks": ["14660"],
 				"Level": 90,
 				"Skills": {
 					"Farming": 98
+				},
+				"Tasks": {
+					"Unlock the Anachronia Base Camp": "Nonskill",
+					"~|Player-owned farm tutorial|~ Complete the tutorial": "Quest"
 				},
 				"Output Object": "Large dinosaur pen",
 				"Primary": false,
 				"Priority": 7
 			},
 			"Build a second large dinosaur pen in your ~|player-owned ranch|~": {
-				"Chunks": ["POR[+]"],
-				"Items": ["Wood*", "Vines*", "Stone*"],
+				"Chunks": ["14659"],
 				"Level": 90,
 				"Skills": {
 					"Farming": 104
+				},
+				"Tasks": {
+					"Unlock the Anachronia Base Camp": "Nonskill",
+					"~|Player-owned farm tutorial|~ Complete the tutorial": "Quest"
 				},
 				"Output Object": "Large dinosaur pen",
 				"Primary": false,
@@ -24751,7 +24789,7 @@
 			},
 			"Cast a ~|platinum anklet|~": {
 				"Items": ["Dragonstone*", "Platinum bar*"],
-				"Level": 104,
+				"Level": 109,
 				"Output": "Platinum anklet",
 				"Objects": ["CraftingFurnace[+]"],
 				"Primary": true,
@@ -31629,6 +31667,9 @@
 				"Skills": {
 					"Construction": 20
 				},
+				"Tasks": {
+					"~|Player-owned farm tutorial|~ Complete the tutorial": "Quest"
+				},
 				"Output Object": "Small animal pen",
 				"Primary": false,
 				"Priority": 1
@@ -31953,6 +31994,9 @@
 				"Skills": {
 					"Construction": 20
 				},
+				"Tasks": {
+					"~|Player-owned farm tutorial|~ Complete the tutorial": "Quest"
+				},
 				"Output Object": "Small animal pen",
 				"Primary": false,
 				"Priority": 2
@@ -32157,6 +32201,9 @@
 				"Level": 35,
 				"Skills": {
 					"Construction": 40
+				},
+				"Tasks": {
+					"~|Player-owned farm tutorial|~ Complete the tutorial": "Quest"
 				},
 				"Output Object": "Medium animal pen",
 				"Primary": false,
@@ -32408,17 +32455,6 @@
 				"Primary": false,
 				"Priority": 1
 			},
-			"Build a small dinosaur pen in your ~|player-owned ranch|~": {
-				"Chunks": ["POR[+]"],
-				"Items": ["Wood", "Vines", "Stone"],
-				"Level": 42,
-				"Skills": {
-					"Construction": 45
-				},
-				"Output Object": "Small dinosaur pen",
-				"Primary": false,
-				"Priority": 1
-			},
 			"Raise a ~|common green frog|~": {
 				"Category": ["Normal Farming"],
 				"Objects": ["Small dinosaur pen"],
@@ -32497,6 +32533,34 @@
 				"Objects": ["Evil tree"],
 				"Primary": true,
 				"Priority": 13
+			},
+			"Build a small dinosaur pen in your ~|player-owned ranch|~": {
+				"Chunks": ["14916"],
+				"Level": 42,
+				"Skills": {
+					"Construction": 45
+				},
+				"Tasks": {
+					"Unlock the Anachronia Base Camp": "Nonskill",
+					"~|Player-owned farm tutorial|~ Complete the tutorial": "Quest"
+				},
+				"Output Object": "Small dinosaur pen",
+				"Primary": false,
+				"Priority": 14
+			},
+			"Build a dinosaur breeding pen in your ~|player-owned ranch|~": {
+				"Chunks": ["14659"],
+				"Level": 42,
+				"Tasks": {
+					"Unlock the Anachronia Base Camp": "Nonskill",
+					"~|Player-owned farm tutorial|~ Complete the tutorial": "Quest"
+				},
+				"Skills": {
+					"Construction": 55
+				},
+				"Output Object": "Dinosaur breeding pen",
+				"Primary": false,
+				"Priority": 15
 			},
 			"Grow a ~|grimy irit|~": {
 				"Category": ["Normal Farming"],
@@ -32580,6 +32644,9 @@
 				"Level": 49,
 				"Skills": {
 					"Construction": 60
+				},
+				"Tasks": {
+					"~|Player-owned farm tutorial|~ Complete the tutorial": "Quest"
 				},
 				"Output Object": "Large animal pen",
 				"Primary": false,
@@ -33039,6 +33106,9 @@
 				"Skills": {
 					"Construction": 40
 				},
+				"Tasks": {
+					"~|Player-owned farm tutorial|~ Complete the tutorial": "Quest"
+				},
 				"Output Object": "Medium animal pen",
 				"Primary": false,
 				"Priority": 1
@@ -33249,6 +33319,9 @@
 				"Skills": {
 					"Construction": 60
 				},
+				"Tasks": {
+					"~|Player-owned farm tutorial|~ Complete the tutorial": "Quest"
+				},
 				"Output Object": "Large animal pen",
 				"Primary": false,
 				"Priority": 1
@@ -33410,11 +33483,14 @@
 				"Priority": 5
 			},
 			"Build a medium dinosaur pen in your ~|player-owned ranch|~": {
-				"Chunks": ["POR[+]"],
-				"Items": ["Wood", "Vines", "Stone"],
+				"Chunks": ["14916"],
 				"Level": 76,
 				"Skills": {
 					"Construction": 80
+				},
+				"Tasks": {
+					"Unlock the Anachronia Base Camp": "Nonskill",
+					"~|Player-owned farm tutorial|~ Complete the tutorial": "Quest"
 				},
 				"Output Object": "Medium dinosaur pen",
 				"Primary": false,
@@ -34481,11 +34557,14 @@
 				"Priority": 7
 			},
 			"Build a large dinosaur pen in your ~|player-owned ranch|~": {
-				"Chunks": ["POR[+]"],
-				"Items": ["Wood", "Vines", "Stone"],
+				"Chunks": ["14660"],
 				"Level": 98,
 				"Skills": {
 					"Construction": 90
+				},
+				"Tasks": {
+					"Unlock the Anachronia Base Camp": "Nonskill",
+					"~|Player-owned farm tutorial|~ Complete the tutorial": "Quest"
 				},
 				"Output Object": "Large dinosaur pen",
 				"Primary": false,
@@ -34733,11 +34812,14 @@
 				"Priority": 1
 			},
 			"Build a second large dinosaur pen in your ~|player-owned ranch|~": {
-				"Chunks": ["POR[+]"],
-				"Items": ["Wood", "Vines", "Stone"],
+				"Chunks": ["14659"],
 				"Level": 104,
 				"Skills": {
 					"Construction": 90
+				},
+				"Tasks": {
+					"Unlock the Anachronia Base Camp": "Nonskill",
+					"~|Player-owned farm tutorial|~ Complete the tutorial": "Quest"
 				},
 				"Output Object": "Large dinosaur pen",
 				"Primary": false,
@@ -37869,7 +37951,7 @@
 			"Catch a ~|raw trout|~": {
 				"Items": ["Feather[+]*"],
 				"Level": 20,
-				"Objects": ["Fishing spot (lure, bait))"],
+				"Objects": ["Fishing spot (lure, bait)"],
 				"Primary": true,
 				"Output": "Raw trout",
 				"Priority": 1
@@ -37877,7 +37959,7 @@
 			"Catch ~|golden trout eggs|~": {
 				"Items": ["Feather[+]*"],
 				"Level": 20,
-				"Objects": ["Fishing spot (lure, bait))"],
+				"Objects": ["Fishing spot (lure, bait)"],
 				"Primary": true,
 				"Output": "Golden trout eggs",
 				"Priority": 2
@@ -37893,7 +37975,7 @@
 			"Catch a ~|raw pike|~": {
 				"Items": ["Fishing bait*"],
 				"Level": 25,
-				"Objects": ["Fishing spot (lure, bait))"],
+				"Objects": ["Fishing spot (lure, bait)"],
 				"Primary": true,
 				"Output": "Raw pike",
 				"Priority": 1
@@ -37925,7 +38007,7 @@
 			"Catch a ~|raw salmon|~": {
 				"Items": ["Feather[+]*"],
 				"Level": 30,
-				"Objects": ["Fishing spot (lure, bait))"],
+				"Objects": ["Fishing spot (lure, bait)"],
 				"Primary": true,
 				"Output": "Raw salmon",
 				"Priority": 1
@@ -37933,7 +38015,7 @@
 			"Catch ~|golden salmon eggs|~": {
 				"Items": ["Feather[+]*"],
 				"Level": 30,
-				"Objects": ["Fishing spot (lure, bait))"],
+				"Objects": ["Fishing spot (lure, bait)"],
 				"Primary": true,
 				"Output": "Golden salmon eggs",
 				"Priority": 2
@@ -37969,7 +38051,7 @@
 			"Catch a ~|raw rainbow fish|~": {
 				"Items": ["Stripy feathers"],
 				"Level": 38,
-				"Objects": ["Fishing spot (lure, bait))"],
+				"Objects": ["Fishing spot (lure, bait)"],
 				"Primary": true,
 				"Output": "Raw rainbow fish",
 				"Priority": 1
@@ -37977,7 +38059,7 @@
 			"Catch ~|golden rainbow fish eggs|~": {
 				"Items": ["Stripy feathers"],
 				"Level": 38,
-				"Objects": ["Fishing spot (lure, bait))"],
+				"Objects": ["Fishing spot (lure, bait)"],
 				"Primary": true,
 				"Output": "Golden rainbow fish eggs",
 				"Priority": 2
@@ -61378,7 +61460,7 @@
 			},
 			"Finish the Stryke the Wyrm ~|Wilderness Flash Event|~": {
 				"Category": ["DnD Skilling", "DnD Flash Events", "DnD"],
-				"Chunks": ["12343"],
+				"Chunks": ["12603"],
 				"Level": 1,
 				"Primary": true,
 				"Priority": 14
@@ -77997,9 +78079,12 @@
 			"~|Desperate Measures|~ 1": {
 				"BaseQuest": "Desperate Measures",
 				"Description": "Speak to Seren at Burthorpe Castle",
-				"Chunks": ["11575", "15939"],
+				"Chunks": ["11575"],
 				"Tasks": {
 					"~|Desperate Times|~ Complete the quest": "Quest"
+				},
+				"Tasks": {
+					"Unlock the Anachronia Base Camp": "Nonskill"
 				},
 				"Skills": {
 					"Agility": 50,
@@ -122731,7 +122816,9 @@
 				"Category": ["Comp achievements"],
 				"Description": "Fully upgrade the Town Hall in the base camp on Anachronia.",
 				"BaseQuest": "Completionist achievements",
-				"Chunks": ["15683", "15939"],
+				"Tasks": {
+					"Unlock the Anachronia Base Camp": "Nonskill"
+				},
 				"Not F2P": true
 			},
 			"~|Completionist achievements#Completionist Cape|~ Towering Over Us All": {
@@ -123461,7 +123548,9 @@
 				"Category": ["Comp achievements", "Trim achievements"],
 				"Description": "Fully upgrade the base camp on Anachronia.",
 				"BaseQuest": "Completionist achievements",
-				"Chunks": ["15683", "15939"],
+				"Tasks": {
+					"Unlock the Anachronia Base Camp": "Nonskill"
+				},
 				"Items": ["Essential oils", "Reinforced dinosaur pelt", "Dinosaur tooth", "Dinosaur rib bone"],
 				"Skills": {
 					"Agility": 90,
@@ -123796,7 +123885,9 @@
 				"Category": ["Comp achievements", "Trim achievements"],
 				"Description": "Build the Remote Totem Charging Point in the base camp on Anachronia.",
 				"BaseQuest": "Completionist achievements",
-				"Chunks": ["15683", "15939"],
+				"Tasks": {
+					"Unlock the Anachronia Base Camp": "Nonskill"
+				},
 				"Items": ["Remototem"],
 				"Skills": {
 					"Farming": 42,
@@ -124320,7 +124411,9 @@
 			"Complete the ~|Gotta Go Fast|~ achievement": {
 				"Category": ["Achievement", "Misc achievements"],
 				"Label": "Achievement",
-				"Chunks": ["15683", "15939"]
+				"Tasks": {
+					"Unlock the Anachronia Base Camp": "Nonskill"
+				},
 			},
 			"Complete the ~|Sole to Soul|~ achievement": {
 				"Category": ["Achievement", "Misc achievements"],
@@ -126358,35 +126451,10 @@
 				"Label": "Slayer Collection Log",
 				"Items": ["Hexcrest"]
 			},
-			"(Feldip Hills) Obtain an ~|Ascension Keystone Primus|~": {
+			"(Feldip Hills) Obtain an ~|Ascension Keystone|~": {
 				"Category": ["Collection Log", "Slayer Collection Log"],
 				"Label": "Slayer Collection Log",
-				"Items": ["Ascension Keystone Primus"]
-			},
-			"(Feldip Hills) Obtain an ~|Ascension Keystone Secundus|~": {
-				"Category": ["Collection Log", "Slayer Collection Log"],
-				"Label": "Slayer Collection Log",
-				"Items": ["Ascension Keystone Secundus"]
-			},
-			"(Feldip Hills) Obtain an ~|Ascension Keystone Tertius|~": {
-				"Category": ["Collection Log", "Slayer Collection Log"],
-				"Label": "Slayer Collection Log",
-				"Items": ["Ascension Keystone Tertius"]
-			},
-			"(Feldip Hills) Obtain an ~|Ascension Keystone Quartus|~": {
-				"Category": ["Collection Log", "Slayer Collection Log"],
-				"Label": "Slayer Collection Log",
-				"Items": ["Ascension Keystone Quartus"]
-			},
-			"(Feldip Hills) Obtain an ~|Ascension Keystone Quintus|~": {
-				"Category": ["Collection Log", "Slayer Collection Log"],
-				"Label": "Slayer Collection Log",
-				"Items": ["Ascension Keystone Quintus"]
-			},
-			"(Feldip Hills) Obtain an ~|Ascension Keystone Sextus|~": {
-				"Category": ["Collection Log", "Slayer Collection Log"],
-				"Label": "Slayer Collection Log",
-				"Items": ["Ascension Keystone Sextus"]
+				"Items": ["Ascension Keystone"]
 			},
 			"(Feldip Hills) Obtain ~|ascension grips|~": {
 				"Category": ["Collection Log", "Slayer Collection Log"],
@@ -147876,6 +147944,9 @@
 					"Unlock ~|the memory|~ in the player-owned port": "Divination",
 					"Unlock ~|the exile|~ at the player-owned port": "Dungeoneering"
 				}
+			},
+			"Unlock the Anachronia Base Camp": {
+				"Chunks": ["15683", "15939"]
 			}
 		}
 	},
@@ -153456,7 +153527,7 @@
 				"Fire remains": 1,
 				"Tree": 144,
 				"Guards": 1,
-				"Fishing spot (lure, bait))": 5
+				"Fishing spot (lure, bait)": 5
 			},
 			"NPC": {
 				"Butterfly": 20,
@@ -154914,7 +154985,7 @@
 				"Tree": 41,
 				"Magic tree": 1,
 				"Stile": 1,
-				"Fishing spot (lure, bait))": 7,
+				"Fishing spot (lure, bait)": 7,
 				"Elder tree": 1,
 				"Evil tree": 1
 			},
@@ -155726,7 +155797,7 @@
 				"Tree": 34,
 				"Dead tree": 9,
 				"Water barrel": 1,
-				"Fishing spot (lure, bait))": 5,
+				"Fishing spot (lure, bait)": 5,
 				"Fruit tree patch": 1
 			},
 			"Monster": {
@@ -156995,7 +157066,7 @@
 				"Ardougne": 1,
 				"Tree Gnome Stronghold": 1,
 				"Stile": 1,
-				"Fishing spot (lure, bait))": 6
+				"Fishing spot (lure, bait)": 6
 			},
 			"Monster": {
 				"Moss giant": 4
@@ -158123,7 +158194,7 @@
 				"Oak": 8,
 				"Tree": 10,
 				"Dead tree": 19,
-				"Fishing spot (lure, bait))": 2
+				"Fishing spot (lure, bait)": 2
 			},
 			"Monster": {
 				"Farmer": 2,
@@ -159307,7 +159378,7 @@
 				"Small obelisk": 1,
 				"Oak": 18,
 				"Tree": 52,
-				"Fishing spot (lure, bait))": 2
+				"Fishing spot (lure, bait)": 2
 			},
 			"Monster": {
 				"Wolf": 3,
@@ -159546,7 +159617,7 @@
 				"Wheat": 60,
 				"Oak": 14,
 				"Tree": 43,
-				"Fishing spot (lure, bait))": 3
+				"Fishing spot (lure, bait)": 3
 			},
 			"NPC": {
 				"Sheep": 10,
@@ -160242,7 +160313,7 @@
 				"Tree": 7,
 				"Maple tree": 22,
 				"Dead tree": 38,
-				"Fishing spot (lure, bait))": 4
+				"Fishing spot (lure, bait)": 4
 			},
 			"Monster": {
 				"Chicken": 3,
@@ -160295,7 +160366,7 @@
 				"Tree": 72,
 				"Maple tree": 9,
 				"Dead tree": 19,
-				"Fishing spot (lure, bait))": 2,
+				"Fishing spot (lure, bait)": 2,
 				"Fishing spot (crayfish)": 2,
 				"Evil tree": 1
 			},
@@ -162295,7 +162366,7 @@
 				"Oak": 7,
 				"Tree": 27,
 				"Furnace": 1,
-				"Fishing spot (lure, bait))": 4,
+				"Fishing spot (lure, bait)": 4,
 				"Fishing spot (small fishing net, bait)": 4
 			},
 			"Monster": {
@@ -166974,7 +167045,7 @@
 				"Coal rock": 4,
 				"Barbarian anvil": 1,
 				"Barbarian forge": 1,
-				"Fishing spot (lure, bait))": 2,
+				"Fishing spot (lure, bait)": 2,
 				"Elder tree": 1,
 				"Canoe station": 1
 			},
@@ -168815,7 +168886,7 @@
 				"Anvil": 1,
 				"Forge": 1,
 				"Furnace": 1,
-				"Fishing spot (lure, bait))": 5,
+				"Fishing spot (lure, bait)": 5,
 				"Canoe station": 1,
 				"Vegetable stall": 2,
 				"Fishing spot (crayfish)": 5,
@@ -171722,7 +171793,7 @@
 		"13461": {
 			"Object": {
 				"Fire": 1,
-				"Fishing spot (lure, bait))": 7
+				"Fishing spot (lure, bait)": 7
 			},
 			"NPC": {
 				"Nirrie": 1,
@@ -176423,8 +176494,8 @@
 		},
 		"16195": {
 			"Object": {
-				"Fishing spot (Lure/Bait)": 2,
-				"Fishing spot (Cage/Harpoon)": 3,
+				"Fishing spot (lure, bait)": 2,
+				"Fishing spot (cage, harpoon)": 3,
 				"Red vine blossom": 1,
 				"Teleportation device": 1,
 				"Crashed star": 1
@@ -187146,7 +187217,7 @@
 				"Wheat": 60,
 				"Oak": 14,
 				"Tree": 43,
-				"Fishing spot (lure, bait))": 3,
+				"Fishing spot (lure, bait)": 3,
 				"Dead tree": 99
 			},
 			"NPC": {
@@ -188742,7 +188813,7 @@
 		"Water Ravine Dungeon": {
 			"Object": {
 				"Fire": 1,
-				"Fishing spot (lure, bait))": 7,
+				"Fishing spot (lure, bait)": 7,
 				"Cave exit": 1
 			},
 			"NPC": {
@@ -256050,14 +256121,8 @@
 			"Berserker helm": [{
 				"~|The Fremennik Trials|~ Complete the quest": "Quest"
 			}],
-			"Chicken egg (unchecked)^": [{
-				"~|Player-owned farm tutorial|~ Complete the tutorial": "Quest"
-			}],
 			"Cleaver": [{
 				"~|Recipe for Disaster: Defeating the Culinaromancer|~ Complete the subquest": "Quest"
-			}],
-			"Common brown rabbit (unchecked)^": [{
-				"~|Player-owned farm tutorial|~ Complete the tutorial": "Quest"
 			}],
 			"Court summons^": [{
 				"~|King's Ransom|~ Complete the quest": "Quest"
@@ -256247,9 +256312,6 @@
 			}],
 			"Prayer potion (2)^Barrows": [{
 				"Tier 2 luck or higher*": "Nonskill"
-			}],
-			"Rellekkan cream rabbit (unchecked)^": [{
-				"~|Player-owned farm tutorial|~ Complete the tutorial": "Quest"
 			}],
 			"Restore potion (2)^Barrows": [{
 				"Tier 2 luck or higher*": "Nonskill"
@@ -256723,6 +256785,181 @@
 			}],
 			"Corrupted gem^": [{
 				"Corrupted creature task": "Nonskill"
+			}]
+			"Chicken egg (unchecked)^": [{
+				"~|Player-owned farm tutorial|~ Complete the tutorial": "Quest"
+			}],
+			"Common brown rabbit (unchecked)^": [{
+				"~|Player-owned farm tutorial|~ Complete the tutorial": "Quest"
+			}],
+			"Rellekkan cream rabbit (unchecked)^": [{
+				"~|Player-owned farm tutorial|~ Complete the tutorial": "Quest"
+			}],
+			"Piscatorian cottontail rabbit (unchecked)^": [{
+				"~|Player-owned farm tutorial|~ Complete the tutorial": "Quest"
+			}],
+			"Grey chinchompa (unchecked)^": [{
+				"~|Player-owned farm tutorial|~ Complete the tutorial": "Quest"
+			}],
+			"Carnivorous chinchompa (unchecked)^": [{
+				"~|Player-owned farm tutorial|~ Complete the tutorial": "Quest"
+			}],
+			"Cobalt chinchompa (unchecked)^": [{
+				"~|Player-owned farm tutorial|~ Complete the tutorial": "Quest"
+			}],
+			"Viridian chinchompa (unchecked)^": [{
+				"~|Player-owned farm tutorial|~ Complete the tutorial": "Quest"
+			}],
+			"Azure chinchompa (unchecked)^": [{
+				"~|Player-owned farm tutorial|~ Complete the tutorial": "Quest"
+			}],
+			"Crimson chinchompa (unchecked)^": [{
+				"~|Player-owned farm tutorial|~ Complete the tutorial": "Quest"
+			}],
+			"Crystal chinchompa (unchecked)^": [{
+				"~|Player-owned farm tutorial|~ Complete the tutorial": "Quest"
+			}],
+			"Spider egg (unchecked)^": [{
+				"~|Player-owned farm tutorial|~ Complete the tutorial": "Quest"
+			}],
+			"Araxyte spider (unchecked)^": [{
+				"~|Player-owned farm tutorial|~ Complete the tutorial": "Quest"
+			}],
+			"Fremennik yak (unchecked)^": [{
+				"~|Player-owned farm tutorial|~ Complete the tutorial": "Quest"
+			}],
+			"Spirit yak (unchecked)^": [{
+				"~|Player-owned farm tutorial|~ Complete the tutorial": "Quest"
+			}],
+			"Gloomshroom zygomite (unchecked)^": [{
+				"~|Player-owned farm tutorial|~ Complete the tutorial": "Quest"
+			}],
+			"Green dragon egg (unchecked)^": [{
+				"~|Player-owned farm tutorial|~ Complete the tutorial": "Quest"
+			}],
+			"Blue dragon egg (unchecked)^": [{
+				"~|Player-owned farm tutorial|~ Complete the tutorial": "Quest"
+			}],
+			"Red dragon egg (unchecked)^": [{
+				"~|Player-owned farm tutorial|~ Complete the tutorial": "Quest"
+			}],
+			"Black dragon egg (unchecked)^": [{
+				"~|Player-owned farm tutorial|~ Complete the tutorial": "Quest"
+			}],
+			"Amphibious jadinko (unchecked)^": [{
+				"Unlock the Anachronia Base Camp": "Nonskill"
+			}, {
+				"~|Player-owned farm tutorial|~ Complete the tutorial": "Quest"
+			}],
+			"Aquatic jadinko (unchecked)^": [{
+				"Unlock the Anachronia Base Camp": "Nonskill"
+			}, {
+				"~|Player-owned farm tutorial|~ Complete the tutorial": "Quest"
+			}],
+			"Camouflaged jadinko (unchecked)^": [{
+				"Unlock the Anachronia Base Camp": "Nonskill"
+			}, {
+				"~|Player-owned farm tutorial|~ Complete the tutorial": "Quest"
+			}],
+			"Cannibal jadinko (unchecked)^": [{
+				"Unlock the Anachronia Base Camp": "Nonskill"
+			}, {
+				"~|Player-owned farm tutorial|~ Complete the tutorial": "Quest"
+			}],
+			"Carrion jadinko (unchecked)^": [{
+				"Unlock the Anachronia Base Camp": "Nonskill"
+			}, {
+				"~|Player-owned farm tutorial|~ Complete the tutorial": "Quest"
+			}],
+			"Common jadinko (unchecked)^": [{
+				"Unlock the Anachronia Base Camp": "Nonskill"
+			}, {
+				"~|Player-owned farm tutorial|~ Complete the tutorial": "Quest"
+			}],
+			"Diseased jadinko (unchecked)^": [{
+				"Unlock the Anachronia Base Camp": "Nonskill"
+			}, {
+				"~|Player-owned farm tutorial|~ Complete the tutorial": "Quest"
+			}],
+			"Draconic jadinko (unchecked)^": [{
+				"Unlock the Anachronia Base Camp": "Nonskill"
+			}, {
+				"~|Player-owned farm tutorial|~ Complete the tutorial": "Quest"
+			}],
+			"Igneous jadinko (unchecked)^": [{
+				"Unlock the Anachronia Base Camp": "Nonskill"
+			}, {
+				"~|Player-owned farm tutorial|~ Complete the tutorial": "Quest"
+			}],
+			"Shadow jadinko (unchecked)^": [{
+				"Unlock the Anachronia Base Camp": "Nonskill"
+			}, {
+				"~|Player-owned farm tutorial|~ Complete the tutorial": "Quest"
+			}],
+			"Feral dinosaur (unchecked)^": [{
+				"Unlock the Anachronia Base Camp": "Nonskill"
+			}, {
+				"~|Player-owned farm tutorial|~ Complete the tutorial": "Quest"
+			}],
+			"Venomous dinosaur (unchecked)^": [{
+				"Unlock the Anachronia Base Camp": "Nonskill"
+			}, {
+				"~|Player-owned farm tutorial|~ Complete the tutorial": "Quest"
+			}],
+			"Ripper dinosaur (unchecked)^": [{
+				"Unlock the Anachronia Base Camp": "Nonskill"
+			}, {
+				"~|Player-owned farm tutorial|~ Complete the tutorial": "Quest"
+			}],
+			"Brutish dinosaur (unchecked)^": [{
+				"Unlock the Anachronia Base Camp": "Nonskill"
+			}, {
+				"~|Player-owned farm tutorial|~ Complete the tutorial": "Quest"
+			}],
+			"Arcane apoterrasaur (unchecked)^": [{
+				"Unlock the Anachronia Base Camp": "Nonskill"
+			}, {
+				"~|Player-owned farm tutorial|~ Complete the tutorial": "Quest"
+			}],
+			"Spicati apoterrasaur (unchecked)^": [{
+				"Unlock the Anachronia Base Camp": "Nonskill"
+			}, {
+				"~|Player-owned farm tutorial|~ Complete the tutorial": "Quest"
+			}],
+			"Oculi apoterrasaur (unchecked)^": [{
+				"Unlock the Anachronia Base Camp": "Nonskill"
+			}, {
+				"~|Player-owned farm tutorial|~ Complete the tutorial": "Quest"
+			}],
+			"Scimitops (unchecked)^": [{
+				"Unlock the Anachronia Base Camp": "Nonskill"
+			}, {
+				"~|Player-owned farm tutorial|~ Complete the tutorial": "Quest"
+			}],
+			"Asciatops (unchecked)^": [{
+				"Unlock the Anachronia Base Camp": "Nonskill"
+			}, {
+				"~|Player-owned farm tutorial|~ Complete the tutorial": "Quest"
+			}],
+			"Malletops (unchecked)^": [{
+				"Unlock the Anachronia Base Camp": "Nonskill"
+			}, {
+				"~|Player-owned farm tutorial|~ Complete the tutorial": "Quest"
+			}],
+			"Bagrada rex (unchecked)^": [{
+				"Unlock the Anachronia Base Camp": "Nonskill"
+			}, {
+				"~|Player-owned farm tutorial|~ Complete the tutorial": "Quest"
+			}],
+			"Corbicula rex (unchecked)^": [{
+				"Unlock the Anachronia Base Camp": "Nonskill"
+			}, {
+				"~|Player-owned farm tutorial|~ Complete the tutorial": "Quest"
+			}],
+			"Pavosaurus rex (unchecked)^": [{
+				"Unlock the Anachronia Base Camp": "Nonskill"
+			}, {
+				"~|Player-owned farm tutorial|~ Complete the tutorial": "Quest"
 			}]
 		},
 		"Monsters": {
@@ -257652,6 +257889,18 @@
 			"Oziach's Armour": {
 				"12086": [{
 					"~|Dragon Slayer|~ Complete the quest": "Quest"
+				}]
+			},
+			"Farmers' Market": {
+				"10548": [{
+					"~|Player-owned farm tutorial|~ Complete the tutorial": "Quest"
+				}]
+			},
+			"Farmers' Market (Aanachronia)": {
+				"14916": [{
+					"Unlock the Anachronia Base Camp": "Nonskill"
+				}, {
+					"~|Player-owned farm tutorial|~ Complete the tutorial": "Quest"
 				}]
 			}
 		},
@@ -272716,23 +272965,8 @@
 				"Ascension grips": {
 					"1": "1/2056"
 				},
-				"Ascension Keystone Primus": {
-					"1": "1/384"
-				},
-				"Ascension Keystone Secundus": {
-					"1": "1/384"
-				},
-				"Ascension Keystone Tertius": {
-					"1": "1/384"
-				},
-				"Ascension Keystone Quartus": {
-					"1": "1/384"
-				},
-				"Ascension Keystone Quintus": {
-					"1": "1/384"
-				},
-				"Ascension Keystone Sextus": {
-					"1": "1/384"
+				"Ascension Keystone": {
+					"1": "1/64"
 				},
 				"Starved ancient effigy": {
 					"1": "Very Rare"
@@ -275596,23 +275830,8 @@
 				"Ascension grips": {
 					"1": "1/2056"
 				},
-				"Ascension Keystone Primus": {
-					"1": "1/384"
-				},
-				"Ascension Keystone Secundus": {
-					"1": "1/384"
-				},
-				"Ascension Keystone Tertius": {
-					"1": "1/384"
-				},
-				"Ascension Keystone Quartus": {
-					"1": "1/384"
-				},
-				"Ascension Keystone Quintus": {
-					"1": "1/384"
-				},
-				"Ascension Keystone Sextus": {
-					"1": "1/384"
+				"Ascension Keystone": {
+					"1": "1/64"
 				},
 				"Starved ancient effigy": {
 					"1": "Very rare"
@@ -277364,23 +277583,8 @@
 				"Inert adrenaline crystal": {
 					"1 (noted)": "Unknown"
 				},
-				"Ascension Keystone Primus": {
-					"1": "1/384"
-				},
-				"Ascension Keystone Secundus": {
-					"1": "1/384"
-				},
-				"Ascension Keystone Tertius": {
-					"1": "1/384"
-				},
-				"Ascension Keystone Quartus": {
-					"1": "1/384"
-				},
-				"Ascension Keystone Quintus": {
-					"1": "1/384"
-				},
-				"Ascension Keystone Sextus": {
-					"1": "1/384"
+				"Ascension Keystone": {
+					"1": "1/64"
 				},
 				"Ascension grips": {
 					"1": "1/2056"
@@ -277460,23 +277664,8 @@
 				"Inert adrenaline crystal": {
 					"1 (noted)": "Unknown"
 				},
-				"Ascension Keystone Primus": {
-					"1": "1/384"
-				},
-				"Ascension Keystone Secundus": {
-					"1": "1/384"
-				},
-				"Ascension Keystone Tertius": {
-					"1": "1/384"
-				},
-				"Ascension Keystone Quartus": {
-					"1": "1/384"
-				},
-				"Ascension Keystone Quintus": {
-					"1": "1/384"
-				},
-				"Ascension Keystone Sextus": {
-					"1": "1/384"
+				"Ascension Keystone": {
+					"1": "1/64"
 				},
 				"Ascension grips": {
 					"1": "1/2056"
@@ -277556,23 +277745,8 @@
 				"Inert adrenaline crystal": {
 					"1 (noted)": "Unknown"
 				},
-				"Ascension Keystone Primus": {
-					"1": "1/384"
-				},
-				"Ascension Keystone Secundus": {
-					"1": "1/384"
-				},
-				"Ascension Keystone Tertius": {
-					"1": "1/384"
-				},
-				"Ascension Keystone Quartus": {
-					"1": "1/384"
-				},
-				"Ascension Keystone Quintus": {
-					"1": "1/384"
-				},
-				"Ascension Keystone Sextus": {
-					"1": "1/384"
+				"Ascension Keystone": {
+					"1": "1/64"
 				},
 				"Ascension grips": {
 					"1": "1/2056"
@@ -277652,23 +277826,8 @@
 				"Inert adrenaline crystal": {
 					"1 (noted)": "Unknown"
 				},
-				"Ascension Keystone Primus": {
-					"1": "1/384"
-				},
-				"Ascension Keystone Secundus": {
-					"1": "1/384"
-				},
-				"Ascension Keystone Tertius": {
-					"1": "1/384"
-				},
-				"Ascension Keystone Quartus": {
-					"1": "1/384"
-				},
-				"Ascension Keystone Quintus": {
-					"1": "1/384"
-				},
-				"Ascension Keystone Sextus": {
-					"1": "1/384"
+				"Ascension Keystone": {
+					"1": "1/64"
 				},
 				"Ascension grips": {
 					"1": "1/2056"
@@ -277748,23 +277907,8 @@
 				"Inert adrenaline crystal": {
 					"1 (noted)": "Unknown"
 				},
-				"Ascension Keystone Primus": {
-					"1": "1/384"
-				},
-				"Ascension Keystone Secundus": {
-					"1": "1/384"
-				},
-				"Ascension Keystone Tertius": {
-					"1": "1/384"
-				},
-				"Ascension Keystone Quartus": {
-					"1": "1/384"
-				},
-				"Ascension Keystone Quintus": {
-					"1": "1/384"
-				},
-				"Ascension Keystone Sextus": {
-					"1": "1/384"
+				"Ascension Keystone": {
+					"1": "1/64"
 				},
 				"Ascension grips": {
 					"1": "1/2056"
@@ -277841,26 +277985,8 @@
 				"Onyx bolt tips": {
 					"1-11": "Uncommon"
 				},
-				"Inert adrenaline crystal": {
-					"1 (noted)": "Unknown"
-				},
-				"Ascension Keystone Primus": {
-					"1": "1/384"
-				},
-				"Ascension Keystone Secundus": {
-					"1": "1/384"
-				},
-				"Ascension Keystone Tertius": {
-					"1": "1/384"
-				},
-				"Ascension Keystone Quartus": {
-					"1": "1/384"
-				},
-				"Ascension Keystone Quintus": {
-					"1": "1/384"
-				},
-				"Ascension Keystone Sextus": {
-					"1": "1/384"
+				"Ascension Keystone": {
+					"1": "1/64"
 				},
 				"Ascension grips": {
 					"1": "1/2056"
@@ -280537,23 +280663,8 @@
 				"Ascension grips": {
 					"1": "1/2056"
 				},
-				"Ascension Keystone Primus": {
-					"1": "1/384"
-				},
-				"Ascension Keystone Secundus": {
-					"1": "1/384"
-				},
-				"Ascension Keystone Tertius": {
-					"1": "1/384"
-				},
-				"Ascension Keystone Quartus": {
-					"1": "1/384"
-				},
-				"Ascension Keystone Quintus": {
-					"1": "1/384"
-				},
-				"Ascension Keystone Sextus": {
-					"1": "1/384"
+				"Ascension Keystone": {
+					"1": "1/64"
 				},
 				"Starved ancient effigy": {
 					"1": "Very Rare"
@@ -280900,23 +281011,8 @@
 				"Ascension grips": {
 					"1": "1/2056"
 				},
-				"Ascension Keystone Primus": {
-					"1": "1/300"
-				},
-				"Ascension Keystone Secundus": {
-					"1": "1/300"
-				},
-				"Ascension Keystone Tertius": {
-					"1": "1/300"
-				},
-				"Ascension Keystone Quartus": {
-					"1": "1/300"
-				},
-				"Ascension Keystone Quintus": {
-					"1": "1/300"
-				},
-				"Ascension Keystone Sextus": {
-					"1": "1/300"
+				"Ascension Keystone": {
+					"1": "1/50"
 				}
 			},
 			"Sea Snake Hatchling": {
