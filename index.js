@@ -120,6 +120,11 @@ let backlogContextMenuSkill = null;                                             
 let backlogContextMenuChallengeOld = null;                                       // Challenge saved of backlog ellipsis old
 let backlogContextMenuSkillOld = null;                                           // Skill saved of backlog ellipsis old
 
+let trainingMethodsContextMenuChallenge = null;                                  // Challenge saved of training methods ellipsis
+let trainingMethodsContextMenuSkill = null;                                      // Skill saved of training methods ellipsis
+let trainingMethodsContextMenuChallengeOld = null;                               // Challenge saved of training methods ellipsis old
+let trainingMethodsContextMenuSkillOld = null;                                   // Skill saved of training methods ellipsis old
+
 let manualPrimary = {};
 let manualPrimarySkill;
 
@@ -1343,6 +1348,7 @@ let statsErrorModalOpen = false;
 let searchModalOpen = false;
 let searchDetailsModalOpen = false;
 let highestModalOpen = false;
+let bisUpgradesModalOpen = false;
 let highest2ModalOpen = false;
 let methodsModalOpen = false;
 let completeModalOpen = false;
@@ -1377,6 +1383,7 @@ let gotData = false;
 let questPointTotal = 0;
 let combatScoreTotal = 0;
 let highestOverallCompleted = {};
+let bisUpgrades = {};
 let oldChallengeArr = {};
 let futureChunkData = {};
 let futureUnlockedSections = {};
@@ -1515,7 +1522,7 @@ let topbarElements = {
     'Sandbox Mode': `<div><span class='noscroll' onclick="enableTestMode()"><i class="gosandbox fa-solid fa-flask" title='Sandbox Mode'></i></span></div>`,
 };
 
-let currentVersion = '6.6.34.1';
+let currentVersion = '6.6.38.1';
 let patchNotesVersion = '6.4.0';
 let updateLevel = 'difference';
 
@@ -1659,7 +1666,7 @@ mapImg.addEventListener("load", e => {
         centerCanvas('quick');
     }
 });
-mapImg.src = "runescape_world_map.png?v=6.6.34.1";
+mapImg.src = "runescape_world_map.png?v=6.6.38.1";
 
 // Rounded rectangle
 CanvasRenderingContext2D.prototype.roundRect = function (x, y, w, h, r) {
@@ -2109,6 +2116,9 @@ document.body.addEventListener('mousedown', function (event) {
     } else if (addEquipmentModalOpen) {
         rect = $('#myModal15 .modal-content')[0].getBoundingClientRect();
         hasSet = true;
+    } else if (bisUpgradesModalOpen) {
+        rect = $('#myModal50 .modal-content')[0].getBoundingClientRect();
+        hasSet = true;
     } else if (highestModalOpen) {
         rect = $('#myModal12 .modal-content')[0].getBoundingClientRect();
         hasSet = true;
@@ -2222,6 +2232,9 @@ document.body.addEventListener('mouseup', function (event) {
     } else if (addEquipmentModalOpen) {
         rect = $('#myModal15 .modal-content')[0].getBoundingClientRect();
         hasSet = true;
+    } else if (bisUpgradesModalOpen) {
+        rect = $('#myModal50 .modal-content')[0].getBoundingClientRect();
+        hasSet = true;
     } else if (highestModalOpen) {
         rect = $('#myModal12 .modal-content')[0].getBoundingClientRect();
         hasSet = true;
@@ -2299,7 +2312,8 @@ document.body.addEventListener('mouseup', function (event) {
     if (hasSet && !(event.clientX >= rect.left && event.clientX <= rect.right && event.clientY >= rect.top && event.clientY <= rect.bottom) && (modalOutsideTime + 100 < Date.now()) && readyToExitModal && event.target.nodeName.toLowerCase() !== 'option' && !event.target.classList.contains('context-menu-item')) {
         manualModalOpen && !detailsModalOpen && closeManualAdd();
         highest2ModalOpen && !detailsModalOpen && !methodsModalOpen && !questStepsModalOpen && !slayerMasterInfoModalOpen && !slayerLockedModalOpen && !doableClueStepsModalOpen && !clueChunksModalOpen && !passiveSkillModalOpen && closeHighest2();
-        highestModalOpen && !addEquipmentModalOpen && !searchDetailsModalOpen && !detailsModalOpen && closeHighest();
+        highestModalOpen && !addEquipmentModalOpen && !searchDetailsModalOpen && !detailsModalOpen && !bisUpgradesModalOpen && closeHighest();
+        bisUpgradesModalOpen && !searchDetailsModalOpen && !detailsModalOpen && closeBisUpgrades();
         questStepsModalOpen && !detailsModalOpen && closeQuestSteps();
         methodsModalOpen && !detailsModalOpen && closeMethods();
         searchModalOpen && !searchDetailsModalOpen && !detailsModalOpen && closeSearch();
@@ -3358,7 +3372,7 @@ let calcCurrentChallengesCanvas = function(useOld, proceed, fromLoadData, inputT
         setCalculating('.panel-active', useOld);
         setCurrentChallenges(['No tasks currently backlogged.'], ['No tasks currently completed.'], true, true);
         myWorker.terminate();
-        myWorker = new Worker("./worker.js?v=6.6.34.1");
+        myWorker = new Worker("./worker.js?v=6.6.38.1");
         myWorker.onmessage = workerOnMessage;
         myWorker.postMessage(['current', tempChunks['unlocked'], rules, chunkInfo, skillNames, processingSkill, maybePrimary, combatSkills, monstersPlus, objectsPlus, chunksPlus, itemsPlus, mixPlus, npcsPlus, tasksPlus, tools, elementalRunes, manualTasks, completedChallenges, backlog, "1/" + rules['Rare Drop Amount'], universalPrimary, elementalStaves, rangedItems, boneItems, highestCurrent, dropTables, possibleAreas, randomLoot, magicTools, bossLogs, bossMonsters, minigameShops, manualEquipment, checkedChallenges, backloggedSources, altChallenges, manualMonsters, slayerLocked, passiveSkill, f2pSkills, assignedXpRewards, mid === diary2Tier, manualAreas, "1/" + rules['Secondary Primary Amount'], mid === manualAreasOnly, tempSections, maxSkill, userTasks, manualPrimary, updateLevel]);
         workersOut['current'] = true;
@@ -3662,8 +3676,8 @@ $(document).ready(function() {
 // ------------------------------------------------------------
 
 // Recieve message from worker
-let myWorker = new Worker("./worker.js?v=6.6.34.1");
-let myWorker2 = new Worker("./worker.js?v=6.6.34.1");
+let myWorker = new Worker("./worker.js?v=6.6.38.1");
+let myWorker2 = new Worker("./worker.js?v=6.6.38.1");
 let workerOnMessage = function(e) {
     if (e.data[0] === 'reload') {
         window.location.reload();
@@ -3738,6 +3752,7 @@ let workerOnMessage = function(e) {
             unlockedSections = e.data[15];
             combatPointTotal = e.data[16];
             highestOverallCompleted = e.data[17];
+            bisUpgrades = e.data[18];
             possibleAreas = {};
             Object.keys(e.data[12]).filter(area => { return e.data[12][area] === true }).forEach((area) => {
                 possibleAreas[area] = true;
@@ -3821,6 +3836,7 @@ let workerOnMessage = function(e) {
             manualAreasModalOpen && searchManualAreas();
             chunkSectionsModalOpen && searchChunkSections();
             addEquipmentModalOpen && searchAddEquipment();
+            bisUpgradesModalOpen && closeBisUpgrades();
             checkSlayerLocked();
             settings['autoWalkableRollable'] && chunkJustRolled && selectAllNeighborsCanvas();
             chunkJustRolled = false;
@@ -4230,13 +4246,14 @@ $(document).on({
             if (questStepsModalOpen && !detailsModalOpen) { closeQuestSteps(); modalJustClosed = true; }
             if (methodsModalOpen && !detailsModalOpen) { closeMethods(); modalJustClosed = true; }
             if (searchModalOpen && !searchDetailsModalOpen && !detailsModalOpen) { closeSearch(); modalJustClosed = true; }
-            if (detailsModalOpen && !searchDetailsModalOpen) { closeChallengeDetails(); modalJustClosed = true; }
             if (rulesModalOpen && !presetWarningModalOpen) { closeRules(); modalJustClosed = true; }
             if (settingsModalOpen && !mapIntroOpen) { closeSettings(); modalJustClosed = true; }
             if (randomListModalOpen) { closeRandomList(); modalJustClosed = true; }
             if (statsErrorModalOpen) { closeStatsError(); modalJustClosed = true; }
+            if (highestModalOpen && !addEquipmentModalOpen && !searchDetailsModalOpen && !detailsModalOpen && !bisUpgradesModalOpen) { closeHighest(); modalJustClosed = true; }
+            if (detailsModalOpen && !searchDetailsModalOpen) { closeChallengeDetails(); modalJustClosed = true; }
             if (searchDetailsModalOpen) { closeSearchDetails(); modalJustClosed = true; }
-            if (highestModalOpen && !addEquipmentModalOpen) { closeHighest(); modalJustClosed = true; }
+            if (bisUpgradesModalOpen && !addEquipmentModalOpen) { closeBisUpgrades(); modalJustClosed = true; }
             if (completeModalOpen) { closeComplete(); modalJustClosed = true; }
             if (addEquipmentModalOpen) { closeAddEquipment(); modalJustClosed = true; }
             if (stickerModalOpen) { closeSticker(); modalJustClosed = true; }
@@ -6526,7 +6543,7 @@ let calcFutureChallenges = function() {
     }
     tempSections = combineJSONs(tempSections, manualSections);
     myWorker2.terminate();
-    myWorker2 = new Worker("./worker.js?v=6.6.34.1");
+    myWorker2 = new Worker("./worker.js?v=6.6.38.1");
     myWorker2.onmessage = workerOnMessage;
     myWorker2.postMessage(['future', chunks, rules, chunkInfo, skillNames, processingSkill, maybePrimary, combatSkills, monstersPlus, objectsPlus, chunksPlus, itemsPlus, mixPlus, npcsPlus, tasksPlus, tools, elementalRunes, manualTasks, completedChallenges, backlog, "1/" + rules['Rare Drop Amount'], universalPrimary, elementalStaves, rangedItems, boneItems, highestCurrent, dropTables, possibleAreas, randomLoot, magicTools, bossLogs, bossMonsters, minigameShops, manualEquipment, checkedChallenges, backloggedSources, altChallenges, manualMonsters, slayerLocked, passiveSkill, f2pSkills, assignedXpRewards, mid === diary2Tier, manualAreas, "1/" + rules['Secondary Primary Amount'], mid === manualAreasOnly, tempSections, maxSkill, userTasks, manualPrimary, updateLevel]);
     workersOut['future'] = infoLockedId;
@@ -8264,6 +8281,7 @@ let openSearchDetails = function(category, name, prevCategory, prevName) {
     searchDetailsParams = [category, name, prevCategory, prevName];
     name = decodeQueryParam(name);
     searchDetailsModalOpen = true;
+    $('#searchdetails-sorter-dropdown').val(searchDetailSortBy);
     if (prevCategory && prevName) {
         $('.searchdetails-back').show().html(`<i class="fa-solid fa-arrow-left noscrollhard" onclick="openSearchDetails('${prevCategory}', '${prevName}')"></i>`);
     } else {
@@ -8313,7 +8331,7 @@ let openSearchDetails = function(category, name, prevCategory, prevName) {
                     tempFormattedSource += ` (${baseChunkData[category][name][source].replaceAll('primary-', '').replaceAll('secondary-', '').replaceAll(/\*/g, '')}, qty: ${amount}, ${dropTablesGlobal[source][name][amount]})`;
                     tempFormattedSource += `<span class='double-search-icon' onclick='openSearchDetails("monsters", "${encodeRFC5987ValueChars(source)}", "${category}", "${encodeRFC5987ValueChars(name)}")'><i class="fa-solid fa-search"></i></span>`;
                     shouldRank = true;
-                    tempDroprate = dropTablesGlobal[source][name][amount].split('/')[0] / dropTablesGlobal[source][name][amount].split('/')[1];
+                    tempDroprate = dropTablesGlobal[source][name][amount].split('/')[0].replaceAll(',', '') / dropTablesGlobal[source][name][amount].split('/')[1].replaceAll(',', '');
                     formattedSources.push(tempFormattedSource);
                     rankings[tempFormattedSource] = {
                         shouldRank,
@@ -8324,7 +8342,7 @@ let openSearchDetails = function(category, name, prevCategory, prevName) {
                 });
             } else if (baseChunkData[category][name][source].replaceAll('primary-', '').replaceAll('secondary-', '').replaceAll(/\*/g, '') === 'drop' && dropRatesGlobal.hasOwnProperty(source) && dropRatesGlobal[source].hasOwnProperty(name)) {
                 formattedSource += ` (${baseChunkData[category][name][source].replaceAll('primary-', '').replaceAll('secondary-', '').replaceAll(/\*/g, '')}, ${dropRatesGlobal[source][name]})`;
-                tempDroprate = dropRatesGlobal[source][name].split('/')[0] / dropRatesGlobal[source][name].split('/')[1];
+                tempDroprate = dropRatesGlobal[source][name].split('/')[0].replaceAll(',', '') / dropRatesGlobal[source][name].split('/')[1].replaceAll(',', '');
             } else if (baseChunkData[category][name][source].replaceAll('primary-', '').replaceAll('secondary-', '').replaceAll(/\*/g, '') === 'drop' && chunkInfo['challenges']['Slayer'].hasOwnProperty(source) && chunkInfo['challenges']['Slayer'][source].hasOwnProperty('Output') && ((chunkInfo['skillItems']['Slayer'].hasOwnProperty(chunkInfo['challenges']['Slayer'][source]['Output']) && chunkInfo['skillItems']['Slayer'][chunkInfo['challenges']['Slayer'][source]['Output']].hasOwnProperty(name)) || (!!dropTablesGlobal[source.split('|')[1].charAt(0).toUpperCase() + source.split('|')[1].slice(1)] && !!dropTablesGlobal[source.split('|')[1].charAt(0).toUpperCase() + source.split('|')[1].slice(1)][name]))) {
                 let monster = source.split('|')[1].charAt(0).toUpperCase() + source.split('|')[1].slice(1);
                 if (!!dropTablesGlobal[monster] && !!dropTablesGlobal[monster][name]) {
@@ -8334,7 +8352,7 @@ let openSearchDetails = function(category, name, prevCategory, prevName) {
                         tempFormattedSource += ` (${baseChunkData[category][name][source].replaceAll('primary-', '').replaceAll('secondary-', '').replaceAll(/\*/g, '')}, qty: ${amount}, ${dropTablesGlobal[monster][name][amount]})`;
                         tempFormattedSource += `<span class='double-search-icon' onclick='openSearchDetails("monsters", "${encodeRFC5987ValueChars(monster)}", "${category}", "${encodeRFC5987ValueChars(name)}")'><i class="fa-solid fa-search"></i></span>`;
                         shouldRank = true;
-                        tempDroprate = dropTablesGlobal[monster][name][amount].split('/')[0] / dropTablesGlobal[monster][name][amount].split('/')[1];
+                        tempDroprate = dropTablesGlobal[monster][name][amount].split('/')[0].replaceAll(',', '') / dropTablesGlobal[monster][name][amount].split('/')[1].replaceAll(',', '');
                         formattedSources.push(tempFormattedSource);
                         rankings[tempFormattedSource] = {
                             shouldRank,
@@ -8348,7 +8366,7 @@ let openSearchDetails = function(category, name, prevCategory, prevName) {
                     formattedSource += ` (${baseChunkData[category][name][source].replaceAll('primary-', '').replaceAll('secondary-', '').replaceAll(/\*/g, '')}, ${dropRate})`;
                     formattedSource += `<span class='double-search-icon' onclick='openSearchDetails("monsters", "${encodeRFC5987ValueChars(source.split('|')[1].charAt(0).toUpperCase() + source.split('|')[1].slice(1))}", "${category}", "${encodeRFC5987ValueChars(name)}")'><i class="fa-solid fa-search"></i></span>`;
                     shouldRank = true;
-                    tempDroprate = dropRate.split('/')[0] / dropRate.split('/')[1];
+                    tempDroprate = dropRate.split('/')[0].replaceAll(',', '') / dropRate.split('/')[1].replaceAll(',', '');
                 }
             } else {
                 formattedSource += ` (${baseChunkData[category][name][source].replaceAll('primary-', '').replaceAll('secondary-', '').replaceAll(/\*/g, '')})`;
@@ -8436,13 +8454,13 @@ let openHighest = function() {
             $('.highest-data').append(`<div class='noscroll style-body ${combatStyle.replaceAll(' ', '_')}-body'><div class='highest-subtitle noscroll'>${combatStyle}${combatStyle === 'Prayer' ? ` <span class="prayer-bonus">(<img class='noscroll slot-icon' src='./resources/Prayer_combat.png' /> +<span class="prayer-bonus-inner">${prayerBonus}</span>)</span>` : ''}${(testMode || !(viewOnly || inEntry || locked)) && combatStyle !== 'Skills' && combatStyle !== 'Slayer' ? `<div class='noscroll'><span class='noscroll addEquipment' onclick='addEquipment()'>Add additional equipment</span></div>` : ''}<div class='show-completed-btn noscroll'><input type="checkbox" onclick="changeBiSFilterBy()" ${filterByObtainedBiS ? 'checked' : ''} />Only show already obtained items</div></div></div>`);
             slots.forEach((slot) => {
                 if (highestOverallLocal.hasOwnProperty(combatStyle.replaceAll(' ', '_') + '-' + slot.toLowerCase()) && highestOverallLocal[combatStyle.replaceAll(' ', '_') + '-' + slot.toLowerCase()] !== 'N/A') {
-                    $(`.${combatStyle.replaceAll(' ', '_')}-body`).append(`<div class='noscroll row'><span class='noscroll item-pic'><img class='noscroll slot-icon' src='./resources/Clean_slot.png' title='${slot}' /><img class='noscroll' src="./resources/equipment_icons/${highestOverallLocal[combatStyle.replaceAll(' ', '_') + '-' + slot.toLowerCase()].replaceAll(/ /g, '_')}.png" onError='this.onerror=null;this.src="./resources/${slot.replaceAll(/ /g, '_')}_slot.png"' /><img class='noscroll slot-icon hidden-slot-icon' src='./resources/${slot.replaceAll(/ /g, '_')}_slot.png' title='${slot}' /></span><span class='noscroll slot-text'><a class='link' href="${"https://runescape.wiki/w/" + encodeURI(highestOverallLocal[combatStyle.replaceAll(' ', '_') + '-' + slot.toLowerCase()])}" target="_blank">${highestOverallLocal[combatStyle.replaceAll(' ', '_') + '-' + slot.toLowerCase()]}</a></span><span class='double-search-icon' onclick='openSearchDetails("items", "${encodeRFC5987ValueChars(highestOverallLocal[combatStyle.replaceAll(' ', '_') + '-' + slot.toLowerCase()])}")'><i class="fa-solid fa-search"></i></span></div>`);
+                    $(`.${combatStyle.replaceAll(' ', '_')}-body`).append(`<div class='noscroll row'><span class='noscroll item-pic'><img class='noscroll slot-icon' src='./resources/Clean_slot.png' title='${slot}' /><img class='noscroll' src="./resources/equipment_icons/${highestOverallLocal[combatStyle.replaceAll(' ', '_') + '-' + slot.toLowerCase()].replaceAll(/ /g, '_')}.png" onError='this.onerror=null;this.src="./resources/${slot}_slot.png"' /><img class='noscroll slot-icon hidden-slot-icon' src='./resources/${slot}_slot.png' title='${slot}' /></span><span class='noscroll slot-text'><a class='link' href="${"https://runescape.wiki/w/" + encodeURI(highestOverallLocal[combatStyle.replaceAll(' ', '_') + '-' + slot.toLowerCase()])}" target="_blank">${highestOverallLocal[combatStyle.replaceAll(' ', '_') + '-' + slot.toLowerCase()]}</a></span><span class='double-bis-icon-container'>${filterByObtainedBiS && bisUpgrades.hasOwnProperty(combatStyle.replaceAll(' ', '_') + '-' + slot.toLowerCase()) ? `<span class='bis-upgrades noscroll' onclick='openBisUpgrades("${combatStyle.replaceAll(' ', '_') + '-' + slot.toLowerCase()}")' title='Slot Upgrade Chart'><i class="fa-solid fa-arrow-trend-up"></i></span>` : ''}<span class='bis-search noscroll' onclick='openSearchDetails("items", "${encodeRFC5987ValueChars(highestOverallLocal[combatStyle.replaceAll(' ', '_') + '-' + slot.toLowerCase()])}")'><i class="fa-solid fa-search"></i></span></span></div>`);
                     !!chunkInfo['equipment'][highestOverallLocal[combatStyle.replaceAll(' ', '_') + '-' + slot.toLowerCase()]] && (prayerBonus += chunkInfo['equipment'][highestOverallLocal[combatStyle.replaceAll(' ', '_') + '-' + slot.toLowerCase()]]['prayer']);
                 } else if (highestOverallLocal.hasOwnProperty(combatStyle.replaceAll(' ', '_') + '-' + slot.toLowerCase()) && highestOverallLocal[combatStyle.replaceAll(' ', '_') + '-' + slot.toLowerCase()] === 'N/A') {
-                    $(`.${combatStyle.replaceAll(' ', '_')}-body`).append(`<div class='noscroll row'><img class='noscroll slot-icon' src='./resources/${slot.replaceAll(' ', '_')}_slot.png' title='${slot}' /><span class='noscroll slot-text'>${highestOverallLocal[combatStyle.replaceAll(' ', '_') + '-' + slot.toLowerCase()]}</span></div>`);
+                    $(`.${combatStyle.replaceAll(' ', '_')}-body`).append(`<div class='noscroll row'><img class='noscroll slot-icon' src='./resources/${slot.replaceAll(' ', '_')}_slot.png' title='${slot}' /><span class='noscroll slot-text'>${highestOverallLocal[combatStyle.replaceAll(' ', '_') + '-' + slot.toLowerCase()]}</span><span class='double-bis-icon-container'>${filterByObtainedBiS && bisUpgrades.hasOwnProperty(combatStyle.replaceAll(' ', '_') + '-' + slot.toLowerCase()) ? `<span class='bis-upgrades noscroll' onclick='openBisUpgrades("${combatStyle.replaceAll(' ', '_') + '-' + slot.toLowerCase()}")' title='Slot Upgrade Chart'><i class="fa-solid fa-arrow-trend-up"></i></span>` : ''}</span></div>`);
                     !!chunkInfo['equipment'][highestOverallLocal[combatStyle.replaceAll(' ', '_') + '-' + slot.toLowerCase()]] && (prayerBonus += chunkInfo['equipment'][highestOverallLocal[combatStyle.replaceAll(' ', '_') + '-' + slot.toLowerCase()]]['prayer']);
                 } else if (slot !== 'Ammo (2h)') {
-                    $(`.${combatStyle.replaceAll(' ', '_')}-body`).append(`<div class='noscroll row'><img class='noscroll slot-icon' src='./resources/${slot.replaceAll(' ', '_')}_slot.png' title='${slot}' /><span class='noscroll slot-text'>None</span></div>`);
+                    $(`.${combatStyle.replaceAll(' ', '_')}-body`).append(`<div class='noscroll row'><img class='noscroll slot-icon' src='./resources/${slot.replaceAll(' ', '_')}_slot.png' title='${slot}' /><span class='noscroll slot-text'>None</span><span class='double-bis-icon-container'>${filterByObtainedBiS && bisUpgrades.hasOwnProperty(combatStyle.replaceAll(' ', '_') + '-' + slot.toLowerCase()) ? `<span class='bis-upgrades noscroll' onclick='openBisUpgrades("${combatStyle.replaceAll(' ', '_') + '-' + slot.toLowerCase()}")' title='Slot Upgrade Chart'><i class="fa-solid fa-arrow-trend-up"></i></span>` : ''}</span></div>`);
                     !!chunkInfo['equipment'][highestOverallLocal[combatStyle.replaceAll(' ', '_') + '-' + slot.toLowerCase()]] && (prayerBonus += chunkInfo['equipment'][highestOverallLocal[combatStyle.replaceAll(' ', '_') + '-' + slot.toLowerCase()]]['prayer']);
                 }
             });
@@ -8466,6 +8484,21 @@ let openHighest = function() {
 let changeBiSFilterBy = function() {
     filterByObtainedBiS = !filterByObtainedBiS;
     openHighest();
+}
+
+// Opens the bis upgrades modal
+let openBisUpgrades = function(key) {
+    bisUpgradesModalOpen = true;
+    $('.bis-upgrades-data').empty();
+    $('.bis-upgrades-slot-name').text(`[${key.replaceAll('_', ' ').replaceAll('-', ' ')}]`);
+    let slot = key.split('-')[1];
+    bisUpgrades[key].forEach((equip, i) => {
+        $(`.bis-upgrades-data`).append(`<div class='noscroll row'><span class='noscroll item-pic'><img class='noscroll slot-icon' src='./resources/Clean_slot.png' title="${equip}" /><img class='noscroll' src="./resources/equipment_icons/${equip.replaceAll(/ /g, '_')}.png" onError='this.onerror=null;this.src="./resources/${slot}_slot.png"' title="${equip}" /></span><span class='noscroll slot-text'><a class='link' href="${"https://oldschool.runescape.wiki/w/" + encodeURI(equip)}" target="_blank">${equip}</a></span><span class='double-search-icon' onclick='openSearchDetails("items", "${encodeRFC5987ValueChars(equip)}")'><i class="fa-solid fa-search"></i></span></div>`);
+        (i < (bisUpgrades[key].length - 1)) && $(`.bis-upgrades-data`).append(`<div class='noscroll arrow-row' title='Upgrades to'><i class="fa-solid fa-angles-up"></i></div>`);
+    });
+    $('#myModal50').show();
+    modalOutsideTime = Date.now();
+    document.getElementById('bis-upgrades-data').scrollTop = 0;
 }
 
 // Opens the highest2 modal
@@ -8695,7 +8728,7 @@ let checkSlayerLocked = function() {
             }
         });
         let slayerMethods = checkPrimaryMethod('Slayer', globalValids, baseChunkData, true);
-        if (Object.keys(slayerMethods).filter((name) => !name.includes('Receive a slayer assignment from ')).length > 0) {
+        if (Object.keys(slayerMethods).filter((name) => !name.includes('Receive a slayer assignment from ') && name !== 'Passive Leveling' && name !== 'Quest Xp Rewards').length > 0) {
             unlockSlayer();
             return;
         }
@@ -9243,7 +9276,7 @@ let viewPrimaryMethodsOrTasks = function(skill, showTasks) {
         $('.methods-topbar').html(`<i class="manual-close pic fa-solid fa-times noscrollhard" onclick="closeMethods()"></i>`);
         let methods = checkPrimaryMethod(skill, globalValids, baseChunkData, true);
         Object.keys(methods).sort(function(a, b) { return methods[a] - methods[b] }).forEach((method) => {
-            $('.methods-data').append(`<div class='noscroll skill-method'><span>[${methods[method]}]: ${method.includes('~') ? `${method.replaceAll('*', '').split('~')[0]}<a class='link noscroll' href="${"https://runescape.wiki/w/" + encodeForUrl((method.replaceAll('*', '').split('|')[1]))}" target="_blank">${method.replaceAll('*', '').split('~')[1].split('|').join('')}</a>${method.replaceAll('*', '').split('~')[2]}` : `${method.replaceAll('~', '').replaceAll('|', '').replaceAll('*', '')}`} ${chunkInfo['challenges'][skill].hasOwnProperty(method) ? `<span class='noscroll details-info' onclick="showDetails('${encodeRFC5987ValueChars(method)}', '${skill}', '')"><i class="challenge-icon fa-solid fa-info-circle noscroll"></i></span></span>` : ''}</div>`);
+            $('.methods-data').append(`<div class='noscroll skill-method'><span>[${methods[method]}]: ${method.includes('~') ? `${method.replaceAll('*', '').split('~')[0]}<a class='link noscroll' href="${"https://runescape.wiki/w/" + encodeForUrl((method.replaceAll('*', '').split('|')[1]))}" target="_blank">${method.replaceAll('*', '').split('~')[1].split('|').join('')}</a>${method.replaceAll('*', '').split('~')[2]}` : `${method.replaceAll('~', '').replaceAll('|', '').replaceAll('*', '')}`} ${chunkInfo['challenges'][skill].hasOwnProperty(method) ? `<span class='noscroll details-info' onclick="showDetails('${encodeRFC5987ValueChars(method)}', '${skill}', '')"><i class="challenge-icon fa-solid fa-info-circle noscroll"></i></span><span class="burger noscroll${!testMode && (viewOnly || inEntry || locked) ? ' hidden-burger' : ''}" onclick="openTrainingMethodsContextMenu('${encodeRFC5987ValueChars(method)}', '${skill}')"><i class="fa-solid fa-sliders-h noscroll"></i></span></span>` : ''}</div>`);
         });
     }
     $('#myModal13').show();
@@ -9368,6 +9401,13 @@ let closeHighest = function() {
     $('#myModal12').hide();
 }
 
+// Closes the bis upgrades modal
+let closeBisUpgrades = function() {
+    bisUpgradesModalOpen = false;
+    modalOutsideTime = Date.now();
+    $('#myModal50').hide();
+}
+
 // Closes the highest modal
 let closeHighest2 = function() {
     highest2ModalOpen = false;
@@ -9377,6 +9417,7 @@ let closeHighest2 = function() {
 
 // Closes the methods modal
 let closeMethods = function() {
+    $(".trainingmethods-context-menu").hide(100);
     methodsModalOpen = false;
     modalOutsideTime = Date.now();
     $('#myModal13').hide();
@@ -9743,7 +9784,7 @@ let openQuestFilterContextMenu = function() {
     });
 }
 
-// Opens the context menu for filtering quests
+// Opens the context menu for manual primary
 let openManualPrimaryContextMenu = function(skill) {
     manualPrimarySkill = skill;
     let dims = getBrowserDim();
@@ -9754,6 +9795,21 @@ let openManualPrimaryContextMenu = function(skill) {
         top: y + "px",
         left: x + "px"
     });
+}
+
+// Opens the context menu for training methods
+let openTrainingMethodsContextMenu = function(challenge, skill) {
+    if (trainingMethodsContextMenuChallengeOld !== challenge) {
+        trainingMethodsContextMenuChallenge = challenge;
+        trainingMethodsContextMenuSkill = skill;
+        let dims = getBrowserDim();
+        let x = event.pageX + $(".trainingmethods-context-menu").width() + 5 > dims['w'] ? dims['w'] - $(".trainingmethods-context-menu").width() - 5 : event.pageX - 5;
+        let y = event.pageY + $(".trainingmethods-context-menu").height() + 5 > dims['h'] ? dims['h'] - $(".trainingmethods-context-menu").height() - 5 : event.pageY - 5;
+        $(".trainingmethods-context-menu").finish().toggle(100).css({
+            top: y + "px",
+            left: x + "px"
+        });
+    }
 }
 
 // Goes back to previous details window
@@ -10792,6 +10848,15 @@ let switchManualPrimaryContext = function(opt) {
         calcCurrentChallengesCanvas(true);
     }
     $(".primarymethods-context-menu").hide(100);
+}
+
+// Selects correct manual primary context menu item
+let switchTrainingMethodsContext = function(opt) {
+    if (opt !== 'cancel') {
+        backlogChallenge(trainingMethodsContextMenuChallenge, trainingMethodsContextMenuSkill);
+        viewPrimaryMethodsOrTasks(trainingMethodsContextMenuSkill, false);
+    }
+    $(".trainingmethods-context-menu").hide(100);
 }
 
 // Sends a challenge to the backlog

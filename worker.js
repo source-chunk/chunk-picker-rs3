@@ -200,6 +200,7 @@ let tempChunkData = {};
 let craftedBisOverride = {};
 let bisOverrideMinLevel = {};
 let didRestart = false;
+let bisUpgrades = {};
 
 onmessage = function(e) {
     try {
@@ -351,6 +352,31 @@ onmessage = function(e) {
             }
         }
         let highestOverallCompleted = calcBIS(true);
+        let bisUpgradesOutput = {};
+        Object.keys(highestOverall).filter((key) => !!bisUpgrades[key] && Object.keys(bisUpgrades[key]).length > 1 && highestOverall[key] !== 'N/A').forEach((key) => {
+            let upgradesArr = Object.keys(bisUpgrades[key]).sort((equipA, equipB) => bisUpgrades[key][equipB] - bisUpgrades[key][equipA]).filter((equip) => (!bisUpgrades[key][highestOverallCompleted[key]] || bisUpgrades[key][equip] >= bisUpgrades[key][highestOverallCompleted[key]]) && (!bisUpgrades[key][highestOverall[key]] || bisUpgrades[key][equip] < bisUpgrades[key][highestOverall[key]]));
+            let takenNums = {};
+            let removeElements = [];
+            upgradesArr.forEach((equip) => {
+                if (!takenNums.hasOwnProperty(bisUpgrades[key][equip])) {
+                    takenNums[bisUpgrades[key][equip]] = true;
+                } else {
+                    removeElements.push(equip);
+                }
+            });
+            removeElements.forEach((equip) => {
+                upgradesArr.splice(upgradesArr.indexOf(equip), 1);
+            });
+            if (upgradesArr.length > 1) {
+                if (!bisUpgradesOutput[key]) {
+                    bisUpgradesOutput[key] = [];
+                }
+                bisUpgradesOutput[key].push(highestOverall[key]);
+                upgradesArr.forEach((equip) => {
+                    bisUpgradesOutput[key].push(equip);
+                });
+            }
+        });
         type === 'current' && postMessage('100%');
         //console.log(globalValids);
 
@@ -360,7 +386,7 @@ onmessage = function(e) {
         //console.log(nonValids);
         //console.log(baseChunkData);
 
-        postMessage([type, globalValids, baseChunkData, chunkInfo, highestCurrent, tempChallengeArr, type === 'current' ? questPointTotal : 1, highestOverall, type === 'current' ? dropRatesGlobal : {}, questProgress, diaryProgress, skillQuestXp, chunks, type === 'current' ? dropTablesGlobal : {}, bestEquipmentAltsGlobal, unlockedSections, type === 'current' ? combatScoreTotal : 0, highestOverallCompleted]);
+        postMessage([type, globalValids, baseChunkData, chunkInfo, highestCurrent, tempChallengeArr, type === 'current' ? questPointTotal : 1, highestOverall, type === 'current' ? dropRatesGlobal : {}, questProgress, diaryProgress, skillQuestXp, chunks, type === 'current' ? dropTablesGlobal : {}, bestEquipmentAltsGlobal, unlockedSections, type === 'current' ? combatScoreTotal : 0, highestOverallCompleted, bisUpgradesOutput]);
     } catch (err) {
         postMessage(['error', err]);
     }
@@ -1861,7 +1887,7 @@ let calcChallenges = function(chunks, baseChunkData) {
             if (chunkInfo['challenges']['Nonskill'][task].hasOwnProperty('SkillsNeeded')) {
                 let tempValidNeeded = true;
                 Object.keys(chunkInfo['challenges']['Nonskill'][task]['SkillsNeeded']).some(taskSkill => {
-                    if ((!checkPrimaryMethod(taskSkill, newValids, baseChunkData) || (taskSkill === 'Slayer' && (!!slayerLocked && chunkInfo['challenges']['Nonskill'][task]['SkillsNeeded'][taskSkill] > slayerLocked['level']))) && !(!!passiveSkill && passiveSkill.hasOwnProperty(taskSkill) && passiveSkill[taskSkill] > 1 && chunkInfo['challenges']['Nonskill'][task]['SkillsNeeded'][taskSkill] <= passiveSkill[taskSkill])) {
+                    if ((!checkPrimaryMethod(taskSkill, newValids, baseChunkData) || (taskSkill === 'Slayer' && (!!slayerLocked && chunkInfo['challenges']['Nonskill'][task]['SkillsNeeded'][taskSkill] > slayerLocked['level'])) || (!!maxSkill && maxSkill.hasOwnProperty(taskSkill) && chunkInfo['challenges']['Nonskill'][task]['SkillsNeeded'][taskSkill] > maxSkill[taskSkill])) && !(!!passiveSkill && passiveSkill.hasOwnProperty(taskSkill) && passiveSkill[taskSkill] > 1 && chunkInfo['challenges']['Nonskill'][task]['SkillsNeeded'][taskSkill] <= passiveSkill[taskSkill])) {
                         tempValidNeeded = false;
                         return true;
                     }
@@ -2516,7 +2542,7 @@ let calcChallenges = function(chunks, baseChunkData) {
                                 !!itemsPlus[item.replaceAll(/\*/g, '')] && itemsPlus[item.replaceAll(/\*/g, '')].forEach((plus) => {
                                     !!baseChunkData['items'][plus] && Object.keys(baseChunkData['items'][plus]).forEach((source) => {
                                         if (baseChunkData['items'][plus][source] === 'secondary-drop') {
-                                            if (!!dropRatesGlobal[source] &&  !!dropRatesGlobal[source][plus] && !isNaN(dropRatesGlobal[source][plus].split('/')[0]) && ((parseFloat(dropRatesGlobal[source][plus].split('/')[0].replaceAll(',', '')) / parseFloat(dropRatesGlobal[source][plus].split('/')[1].replaceAll(',', ''))) > lowestPlusRate)) {
+                                            if (!!dropRatesGlobal[source] && !!dropRatesGlobal[source][plus] && !isNaN(dropRatesGlobal[source][plus].split('/')[0]) && ((parseFloat(dropRatesGlobal[source][plus].split('/')[0].replaceAll(',', '')) / parseFloat(dropRatesGlobal[source][plus].split('/')[1].replaceAll(',', ''))) > lowestPlusRate)) {
                                                 lowestPlusRate = parseFloat(dropRatesGlobal[source][plus].split('/')[0].replaceAll(',', '')) / parseFloat(dropRatesGlobal[source][plus].split('/')[1].replaceAll(',', ''));
                                             }
                                         } else if (baseChunkData['items'][plus][source].split('-').length > 1 && !!chunkInfo['challenges'][baseChunkData['items'][plus][source].split('-')[1]] && !!chunkInfo['challenges'][baseChunkData['items'][plus][source].split('-')[1]][source] && !!chunkInfo['challenges'][baseChunkData['items'][plus][source].split('-')[1]][source].hasOwnProperty('highestDropRate')) {
@@ -4794,6 +4820,12 @@ let calcBIS = function(completedOnly) {
             if (validWearable) {
                 if (skill === 'Melee' && (chunkInfo['equipment'][equip].class === 'melee' || chunkInfo['equipment'][equip].class === 'hybrid' || chunkInfo['equipment'][equip].class === 'all' || chunkInfo['equipment'][equip].class === 'none')) {
                     if (chunkInfo['equipment'][equip].speed > 0) {
+                        if (!completedOnly && ((chunkInfo['equipment'][equip].accuracy > 0 && chunkInfo['equipment'][equip].ability_damage > 0) || equip === 'Unarmed')) {
+                            if (!bisUpgrades[skill.replaceAll(' ', '_') + '-' + chunkInfo['equipment'][equip].slot]) {
+                                bisUpgrades[skill.replaceAll(' ', '_') + '-' + chunkInfo['equipment'][equip].slot] = {};
+                            }
+                            bisUpgrades[skill.replaceAll(' ', '_') + '-' + chunkInfo['equipment'][equip].slot][equip] = chunkInfo['equipment'][equip].accuracy + chunkInfo['equipment'][equip].ability_damage;
+                        }
                         if ((!bestEquipment[chunkInfo['equipment'][equip].slot] || ((chunkInfo['equipment'][equip].accuracy + chunkInfo['equipment'][equip].ability_damage) > (chunkInfo['equipment'][bestEquipment[chunkInfo['equipment'][equip].slot]].accuracy + chunkInfo['equipment'][bestEquipment[chunkInfo['equipment'][equip].slot]].ability_damage))) && ((chunkInfo['equipment'][equip].accuracy > 0 && chunkInfo['equipment'][equip].ability_damage > 0) || equip === 'Unarmed')) {
                             let tempTempValid = false;
                             Object.keys(baseChunkData['items'][equip]).filter(source => !baseChunkData['items'][equip][source].includes('-') || !chunkInfo['challenges'][baseChunkData['items'][equip][source].split('-')[1]] || !chunkInfo['challenges'][baseChunkData['items'][equip][source].split('-')[1]][source] || (!chunkInfo['challenges'][baseChunkData['items'][equip][source].split('-')[1]][source]['ProcessingSource'] && !processingSkill[baseChunkData['items'][equip][source].split('-')[1]]) || rules['Wield Crafted Items'] || baseChunkData['items'][equip][source].split('-')[1] === 'Slayer' || (chunkInfo['challenges'].hasOwnProperty(baseChunkData['items'][equip][source].split('-')[1]) && chunkInfo['challenges'][baseChunkData['items'][equip][source].split('-')[1]].hasOwnProperty(source) && chunkInfo['challenges'][baseChunkData['items'][equip][source].split('-')[1]][source].hasOwnProperty('NoXp'))).length > 0 && (tempTempValid = true);
@@ -4823,6 +4855,12 @@ let calcBIS = function(completedOnly) {
                         }
                     } else {
                         if (chunkInfo['equipment'][equip].strength >= 0) {
+                            if (!completedOnly) {
+                                if (!bisUpgrades[skill.replaceAll(' ', '_') + '-' + chunkInfo['equipment'][equip].slot]) {
+                                    bisUpgrades[skill.replaceAll(' ', '_') + '-' + chunkInfo['equipment'][equip].slot] = {};
+                                }
+                                bisUpgrades[skill.replaceAll(' ', '_') + '-' + chunkInfo['equipment'][equip].slot][equip] = (100000 * chunkInfo['equipment'][equip].strength) + (1000 * chunkInfo['equipment'][equip].armour) + (chunkInfo['equipment'][equip].lp);
+                            }
                             if (!bestEquipment[chunkInfo['equipment'][equip].slot] || (chunkInfo['equipment'][equip].strength > chunkInfo['equipment'][bestEquipment[chunkInfo['equipment'][equip].slot]].strength)) {
                                 let tempTempValid = false;
                                 Object.keys(baseChunkData['items'][equip]).filter(source => !baseChunkData['items'][equip][source].includes('-') || !chunkInfo['challenges'][baseChunkData['items'][equip][source].split('-')[1]] || !chunkInfo['challenges'][baseChunkData['items'][equip][source].split('-')[1]][source] || (!chunkInfo['challenges'][baseChunkData['items'][equip][source].split('-')[1]][source]['ProcessingSource'] && !processingSkill[baseChunkData['items'][equip][source].split('-')[1]]) || rules['Wield Crafted Items'] || baseChunkData['items'][equip][source].split('-')[1] === 'Slayer' || (chunkInfo['challenges'].hasOwnProperty(baseChunkData['items'][equip][source].split('-')[1]) && chunkInfo['challenges'][baseChunkData['items'][equip][source].split('-')[1]].hasOwnProperty(source) && chunkInfo['challenges'][baseChunkData['items'][equip][source].split('-')[1]][source].hasOwnProperty('NoXp'))).length > 0 && (tempTempValid = true);
@@ -4861,6 +4899,12 @@ let calcBIS = function(completedOnly) {
                     }
                 } else if (skill === 'Stab' && (chunkInfo['equipment'][equip].class === 'melee' || chunkInfo['equipment'][equip].class === 'hybrid' || chunkInfo['equipment'][equip].class === 'all' || chunkInfo['equipment'][equip].class === 'none')) {
                     if (chunkInfo['equipment'][equip].speed > 0) {
+                        if (!completedOnly && chunkInfo['equipment'][equip].style === 'stab' && (chunkInfo['equipment'][equip].accuracy > 0 && chunkInfo['equipment'][equip].ability_damage > 0)) {
+                            if (!bisUpgrades[skill.replaceAll(' ', '_') + '-' + chunkInfo['equipment'][equip].slot]) {
+                                bisUpgrades[skill.replaceAll(' ', '_') + '-' + chunkInfo['equipment'][equip].slot] = {};
+                            }
+                            bisUpgrades[skill.replaceAll(' ', '_') + '-' + chunkInfo['equipment'][equip].slot][equip] = chunkInfo['equipment'][equip].accuracy + chunkInfo['equipment'][equip].ability_damage;
+                        }
                         if (chunkInfo['equipment'][equip].style === 'stab' && (!bestEquipment[chunkInfo['equipment'][equip].slot] || ((chunkInfo['equipment'][equip].accuracy + chunkInfo['equipment'][equip].ability_damage) > (chunkInfo['equipment'][bestEquipment[chunkInfo['equipment'][equip].slot]].accuracy + chunkInfo['equipment'][bestEquipment[chunkInfo['equipment'][equip].slot]].ability_damage))) && (chunkInfo['equipment'][equip].accuracy > 0 && chunkInfo['equipment'][equip].ability_damage > 0)) {
                             let tempTempValid = false;
                             Object.keys(baseChunkData['items'][equip]).filter(source => !baseChunkData['items'][equip][source].includes('-') || !chunkInfo['challenges'][baseChunkData['items'][equip][source].split('-')[1]] || !chunkInfo['challenges'][baseChunkData['items'][equip][source].split('-')[1]][source] || (!chunkInfo['challenges'][baseChunkData['items'][equip][source].split('-')[1]][source]['ProcessingSource'] && !processingSkill[baseChunkData['items'][equip][source].split('-')[1]]) || rules['Wield Crafted Items'] || baseChunkData['items'][equip][source].split('-')[1] === 'Slayer' || (chunkInfo['challenges'].hasOwnProperty(baseChunkData['items'][equip][source].split('-')[1]) && chunkInfo['challenges'][baseChunkData['items'][equip][source].split('-')[1]].hasOwnProperty(source) && chunkInfo['challenges'][baseChunkData['items'][equip][source].split('-')[1]][source].hasOwnProperty('NoXp'))).length > 0 && (tempTempValid = true);
@@ -4881,6 +4925,12 @@ let calcBIS = function(completedOnly) {
                         }
                     } else {
                         if (chunkInfo['equipment'][equip].strength >= 0) {
+                            if (!completedOnly) {
+                                if (!bisUpgrades[skill.replaceAll(' ', '_') + '-' + chunkInfo['equipment'][equip].slot]) {
+                                    bisUpgrades[skill.replaceAll(' ', '_') + '-' + chunkInfo['equipment'][equip].slot] = {};
+                                }
+                                bisUpgrades[skill.replaceAll(' ', '_') + '-' + chunkInfo['equipment'][equip].slot][equip] = (100000 * chunkInfo['equipment'][equip].strength) + (1000 * chunkInfo['equipment'][equip].armour) + (chunkInfo['equipment'][equip].lp);
+                            }
                             if (!bestEquipment[chunkInfo['equipment'][equip].slot] || (chunkInfo['equipment'][equip].strength > chunkInfo['equipment'][bestEquipment[chunkInfo['equipment'][equip].slot]].strength)) {
                                 let tempTempValid = false;
                                 Object.keys(baseChunkData['items'][equip]).filter(source => !baseChunkData['items'][equip][source].includes('-') || !chunkInfo['challenges'][baseChunkData['items'][equip][source].split('-')[1]] || !chunkInfo['challenges'][baseChunkData['items'][equip][source].split('-')[1]][source] || (!chunkInfo['challenges'][baseChunkData['items'][equip][source].split('-')[1]][source]['ProcessingSource'] && !processingSkill[baseChunkData['items'][equip][source].split('-')[1]]) || rules['Wield Crafted Items'] || baseChunkData['items'][equip][source].split('-')[1] === 'Slayer' || (chunkInfo['challenges'].hasOwnProperty(baseChunkData['items'][equip][source].split('-')[1]) && chunkInfo['challenges'][baseChunkData['items'][equip][source].split('-')[1]].hasOwnProperty(source) && chunkInfo['challenges'][baseChunkData['items'][equip][source].split('-')[1]][source].hasOwnProperty('NoXp'))).length > 0 && (tempTempValid = true);
@@ -4919,6 +4969,12 @@ let calcBIS = function(completedOnly) {
                     }
                 } else if (skill === 'Slash' && (chunkInfo['equipment'][equip].class === 'melee' || chunkInfo['equipment'][equip].class === 'hybrid' || chunkInfo['equipment'][equip].class === 'all' || chunkInfo['equipment'][equip].class === 'none')) {
                     if (chunkInfo['equipment'][equip].speed > 0) {
+                        if (!completedOnly && chunkInfo['equipment'][equip].style === 'slash' && (chunkInfo['equipment'][equip].accuracy > 0 && chunkInfo['equipment'][equip].ability_damage > 0)) {
+                            if (!bisUpgrades[skill.replaceAll(' ', '_') + '-' + chunkInfo['equipment'][equip].slot]) {
+                                bisUpgrades[skill.replaceAll(' ', '_') + '-' + chunkInfo['equipment'][equip].slot] = {};
+                            }
+                            bisUpgrades[skill.replaceAll(' ', '_') + '-' + chunkInfo['equipment'][equip].slot][equip] = chunkInfo['equipment'][equip].accuracy + chunkInfo['equipment'][equip].ability_damage;
+                        }
                         if (chunkInfo['equipment'][equip].style === 'slash' && (!bestEquipment[chunkInfo['equipment'][equip].slot] || ((chunkInfo['equipment'][equip].accuracy + chunkInfo['equipment'][equip].ability_damage) > (chunkInfo['equipment'][bestEquipment[chunkInfo['equipment'][equip].slot]].accuracy + chunkInfo['equipment'][bestEquipment[chunkInfo['equipment'][equip].slot]].ability_damage))) && (chunkInfo['equipment'][equip].accuracy > 0 && chunkInfo['equipment'][equip].ability_damage > 0)) {
                             let tempTempValid = false;
                             Object.keys(baseChunkData['items'][equip]).filter(source => !baseChunkData['items'][equip][source].includes('-') || !chunkInfo['challenges'][baseChunkData['items'][equip][source].split('-')[1]] || !chunkInfo['challenges'][baseChunkData['items'][equip][source].split('-')[1]][source] || (!chunkInfo['challenges'][baseChunkData['items'][equip][source].split('-')[1]][source]['ProcessingSource'] && !processingSkill[baseChunkData['items'][equip][source].split('-')[1]]) || rules['Wield Crafted Items'] || baseChunkData['items'][equip][source].split('-')[1] === 'Slayer' || (chunkInfo['challenges'].hasOwnProperty(baseChunkData['items'][equip][source].split('-')[1]) && chunkInfo['challenges'][baseChunkData['items'][equip][source].split('-')[1]].hasOwnProperty(source) && chunkInfo['challenges'][baseChunkData['items'][equip][source].split('-')[1]][source].hasOwnProperty('NoXp'))).length > 0 && (tempTempValid = true);
@@ -4948,6 +5004,12 @@ let calcBIS = function(completedOnly) {
                         }
                     } else {
                         if (chunkInfo['equipment'][equip].strength >= 0) {
+                            if (!completedOnly) {
+                                if (!bisUpgrades[skill.replaceAll(' ', '_') + '-' + chunkInfo['equipment'][equip].slot]) {
+                                    bisUpgrades[skill.replaceAll(' ', '_') + '-' + chunkInfo['equipment'][equip].slot] = {};
+                                }
+                                bisUpgrades[skill.replaceAll(' ', '_') + '-' + chunkInfo['equipment'][equip].slot][equip] = (100000 * chunkInfo['equipment'][equip].strength) + (1000 * chunkInfo['equipment'][equip].armour) + (chunkInfo['equipment'][equip].lp);
+                            }
                             if (!bestEquipment[chunkInfo['equipment'][equip].slot] || (chunkInfo['equipment'][equip].strength > chunkInfo['equipment'][bestEquipment[chunkInfo['equipment'][equip].slot]].strength)) {
                                 let tempTempValid = false;
                                 Object.keys(baseChunkData['items'][equip]).filter(source => !baseChunkData['items'][equip][source].includes('-') || !chunkInfo['challenges'][baseChunkData['items'][equip][source].split('-')[1]] || !chunkInfo['challenges'][baseChunkData['items'][equip][source].split('-')[1]][source] || (!chunkInfo['challenges'][baseChunkData['items'][equip][source].split('-')[1]][source]['ProcessingSource'] && !processingSkill[baseChunkData['items'][equip][source].split('-')[1]]) || rules['Wield Crafted Items'] || baseChunkData['items'][equip][source].split('-')[1] === 'Slayer' || (chunkInfo['challenges'].hasOwnProperty(baseChunkData['items'][equip][source].split('-')[1]) && chunkInfo['challenges'][baseChunkData['items'][equip][source].split('-')[1]].hasOwnProperty(source) && chunkInfo['challenges'][baseChunkData['items'][equip][source].split('-')[1]][source].hasOwnProperty('NoXp'))).length > 0 && (tempTempValid = true);
@@ -4986,6 +5048,12 @@ let calcBIS = function(completedOnly) {
                     }
                 } else if (skill === 'Crush' && (chunkInfo['equipment'][equip].class === 'melee' || chunkInfo['equipment'][equip].class === 'hybrid' || chunkInfo['equipment'][equip].class === 'all' || chunkInfo['equipment'][equip].class === 'none')) {
                     if (chunkInfo['equipment'][equip].speed > 0) {
+                        if (!completedOnly && chunkInfo['equipment'][equip].style === 'crush' && (chunkInfo['equipment'][equip].accuracy > 0 && chunkInfo['equipment'][equip].ability_damage > 0)) {
+                            if (!bisUpgrades[skill.replaceAll(' ', '_') + '-' + chunkInfo['equipment'][equip].slot]) {
+                                bisUpgrades[skill.replaceAll(' ', '_') + '-' + chunkInfo['equipment'][equip].slot] = {};
+                            }
+                            bisUpgrades[skill.replaceAll(' ', '_') + '-' + chunkInfo['equipment'][equip].slot][equip] = chunkInfo['equipment'][equip].accuracy + chunkInfo['equipment'][equip].ability_damage;
+                        }
                         if (chunkInfo['equipment'][equip].style === 'crush' && (!bestEquipment[chunkInfo['equipment'][equip].slot] || ((chunkInfo['equipment'][equip].accuracy + chunkInfo['equipment'][equip].ability_damage) > (chunkInfo['equipment'][bestEquipment[chunkInfo['equipment'][equip].slot]].accuracy + chunkInfo['equipment'][bestEquipment[chunkInfo['equipment'][equip].slot]].ability_damage))) && (chunkInfo['equipment'][equip].accuracy > 0 && chunkInfo['equipment'][equip].ability_damage > 0)) {
                             let tempTempValid = false;
                             Object.keys(baseChunkData['items'][equip]).filter(source => !baseChunkData['items'][equip][source].includes('-') || !chunkInfo['challenges'][baseChunkData['items'][equip][source].split('-')[1]] || !chunkInfo['challenges'][baseChunkData['items'][equip][source].split('-')[1]][source] || (!chunkInfo['challenges'][baseChunkData['items'][equip][source].split('-')[1]][source]['ProcessingSource'] && !processingSkill[baseChunkData['items'][equip][source].split('-')[1]]) || rules['Wield Crafted Items'] || baseChunkData['items'][equip][source].split('-')[1] === 'Slayer' || (chunkInfo['challenges'].hasOwnProperty(baseChunkData['items'][equip][source].split('-')[1]) && chunkInfo['challenges'][baseChunkData['items'][equip][source].split('-')[1]].hasOwnProperty(source) && chunkInfo['challenges'][baseChunkData['items'][equip][source].split('-')[1]][source].hasOwnProperty('NoXp'))).length > 0 && (tempTempValid = true);
@@ -5006,6 +5074,12 @@ let calcBIS = function(completedOnly) {
                         }
                     } else {
                         if (chunkInfo['equipment'][equip].strength >= 0) {
+                            if (!completedOnly) {
+                                if (!bisUpgrades[skill.replaceAll(' ', '_') + '-' + chunkInfo['equipment'][equip].slot]) {
+                                    bisUpgrades[skill.replaceAll(' ', '_') + '-' + chunkInfo['equipment'][equip].slot] = {};
+                                }
+                                bisUpgrades[skill.replaceAll(' ', '_') + '-' + chunkInfo['equipment'][equip].slot][equip] = (100000 * chunkInfo['equipment'][equip].strength) + (1000 * chunkInfo['equipment'][equip].armour) + (chunkInfo['equipment'][equip].lp);
+                            }
                             if (!bestEquipment[chunkInfo['equipment'][equip].slot] || (chunkInfo['equipment'][equip].strength > chunkInfo['equipment'][bestEquipment[chunkInfo['equipment'][equip].slot]].strength)) {
                                 let tempTempValid = false;
                                 Object.keys(baseChunkData['items'][equip]).filter(source => !baseChunkData['items'][equip][source].includes('-') || !chunkInfo['challenges'][baseChunkData['items'][equip][source].split('-')[1]] || !chunkInfo['challenges'][baseChunkData['items'][equip][source].split('-')[1]][source] || (!chunkInfo['challenges'][baseChunkData['items'][equip][source].split('-')[1]][source]['ProcessingSource'] && !processingSkill[baseChunkData['items'][equip][source].split('-')[1]]) || rules['Wield Crafted Items'] || baseChunkData['items'][equip][source].split('-')[1] === 'Slayer' || (chunkInfo['challenges'].hasOwnProperty(baseChunkData['items'][equip][source].split('-')[1]) && chunkInfo['challenges'][baseChunkData['items'][equip][source].split('-')[1]].hasOwnProperty(source) && chunkInfo['challenges'][baseChunkData['items'][equip][source].split('-')[1]][source].hasOwnProperty('NoXp'))).length > 0 && (tempTempValid = true);
@@ -5093,6 +5167,12 @@ let calcBIS = function(completedOnly) {
                             }
                         });
                         if (!(Object.keys(chunkInfo['codeItems']['ammoTools']).filter(ammo => { return chunkInfo['codeItems']['ammoTools'][ammo].hasOwnProperty(equip) }).length > 0) || bestAmmo !== null || (Object.keys(chunkInfo['codeItems']['ammoTools']).filter(ammo => { return chunkInfo['codeItems']['ammoTools'][ammo].hasOwnProperty(equip) }).length === 1 && Object.keys(chunkInfo['codeItems']['ammoTools']).filter(ammo => { return chunkInfo['codeItems']['ammoTools'][ammo].hasOwnProperty(equip) })[0] === 'No ammo')) {
+                            if (!completedOnly && (chunkInfo['equipment'][equip].accuracy > 0 && chunkInfo['equipment'][equip].ability_damage > 0)) {
+                                if (!bisUpgrades[skill.replaceAll(' ', '_') + '-' + chunkInfo['equipment'][equip].slot]) {
+                                    bisUpgrades[skill.replaceAll(' ', '_') + '-' + chunkInfo['equipment'][equip].slot] = {};
+                                }
+                                bisUpgrades[skill.replaceAll(' ', '_') + '-' + chunkInfo['equipment'][equip].slot][equip] = chunkInfo['equipment'][equip].accuracy + chunkInfo['equipment'][equip].ability_damage + (!!bestAmmo ? chunkInfo['equipment'][bestAmmo].ability_damage : 0);
+                            }
                             if ((!bestEquipment[chunkInfo['equipment'][equip].slot] || ((chunkInfo['equipment'][equip].accuracy + chunkInfo['equipment'][equip].ability_damage + (!!bestAmmo ? chunkInfo['equipment'][bestAmmo].ability_damage : 0)) > (chunkInfo['equipment'][bestEquipment[chunkInfo['equipment'][equip].slot]].accuracy + chunkInfo['equipment'][bestEquipment[chunkInfo['equipment'][equip].slot]].ability_damage + (!!bestAmmoSaved[chunkInfo['equipment'][equip].slot] ? chunkInfo['equipment'][bestAmmoSaved[chunkInfo['equipment'][equip].slot]].ability_damage : 0)))) && chunkInfo['equipment'][equip].ability_damage > 0) {
                                 let tempTempValid = false;
                                 Object.keys(baseChunkData['items'][equip]).filter(source => !baseChunkData['items'][equip][source].includes('-') || !chunkInfo['challenges'][baseChunkData['items'][equip][source].split('-')[1]] || !chunkInfo['challenges'][baseChunkData['items'][equip][source].split('-')[1]][source] || (!chunkInfo['challenges'][baseChunkData['items'][equip][source].split('-')[1]][source]['ProcessingSource'] && !processingSkill[baseChunkData['items'][equip][source].split('-')[1]]) || rules['Wield Crafted Items'] || baseChunkData['items'][equip][source].split('-')[1] === 'Slayer' || (chunkInfo['challenges'].hasOwnProperty(baseChunkData['items'][equip][source].split('-')[1]) && chunkInfo['challenges'][baseChunkData['items'][equip][source].split('-')[1]].hasOwnProperty(source) && chunkInfo['challenges'][baseChunkData['items'][equip][source].split('-')[1]][source].hasOwnProperty('NoXp'))).length > 0 && (tempTempValid = true);
@@ -5137,6 +5217,12 @@ let calcBIS = function(completedOnly) {
                         }
                     } else {
                         if (chunkInfo['equipment'][equip].ranged >= 0 && chunkInfo['equipment'][equip].slot !== 'ammo') {
+                            if (!completedOnly) {
+                                if (!bisUpgrades[skill.replaceAll(' ', '_') + '-' + chunkInfo['equipment'][equip].slot]) {
+                                    bisUpgrades[skill.replaceAll(' ', '_') + '-' + chunkInfo['equipment'][equip].slot] = {};
+                                }
+                                bisUpgrades[skill.replaceAll(' ', '_') + '-' + chunkInfo['equipment'][equip].slot][equip] = (100000 * chunkInfo['equipment'][equip].ranged) + (1000 * chunkInfo['equipment'][equip].armour) + (chunkInfo['equipment'][equip].lp);
+                            }
                             if (!bestEquipment[chunkInfo['equipment'][equip].slot] || (chunkInfo['equipment'][equip].ranged > chunkInfo['equipment'][bestEquipment[chunkInfo['equipment'][equip].slot]].ranged)) {
                                 let tempTempValid = false;
                                 Object.keys(baseChunkData['items'][equip]).filter(source => !baseChunkData['items'][equip][source].includes('-') || !chunkInfo['challenges'][baseChunkData['items'][equip][source].split('-')[1]] || !chunkInfo['challenges'][baseChunkData['items'][equip][source].split('-')[1]][source] || (!chunkInfo['challenges'][baseChunkData['items'][equip][source].split('-')[1]][source]['ProcessingSource'] && !processingSkill[baseChunkData['items'][equip][source].split('-')[1]]) || rules['Wield Crafted Items'] || baseChunkData['items'][equip][source].split('-')[1] === 'Slayer' || (chunkInfo['challenges'].hasOwnProperty(baseChunkData['items'][equip][source].split('-')[1]) && chunkInfo['challenges'][baseChunkData['items'][equip][source].split('-')[1]].hasOwnProperty(source) && chunkInfo['challenges'][baseChunkData['items'][equip][source].split('-')[1]][source].hasOwnProperty('NoXp'))).length > 0 && (tempTempValid = true);
@@ -5175,6 +5261,12 @@ let calcBIS = function(completedOnly) {
                     }
                 } else if (skill === 'Magic' && (chunkInfo['equipment'][equip].class === 'magic' || chunkInfo['equipment'][equip].class === 'hybrid' || chunkInfo['equipment'][equip].class === 'all' || chunkInfo['equipment'][equip].class === 'none')) {
                     if (chunkInfo['equipment'][equip].speed > 0) {
+                        if (!completedOnly && (chunkInfo['equipment'][equip].accuracy > 0 && chunkInfo['equipment'][equip].ability_damage > 0)) {
+                            if (!bisUpgrades[skill.replaceAll(' ', '_') + '-' + chunkInfo['equipment'][equip].slot]) {
+                                bisUpgrades[skill.replaceAll(' ', '_') + '-' + chunkInfo['equipment'][equip].slot] = {};
+                            }
+                            bisUpgrades[skill.replaceAll(' ', '_') + '-' + chunkInfo['equipment'][equip].slot][equip] = chunkInfo['equipment'][equip].accuracy + chunkInfo['equipment'][equip].ability_damage;
+                        }
                         if ((!bestEquipment[chunkInfo['equipment'][equip].slot] || ((chunkInfo['equipment'][equip].accuracy + chunkInfo['equipment'][equip].ability_damage) > (chunkInfo['equipment'][bestEquipment[chunkInfo['equipment'][equip].slot]].accuracy + chunkInfo['equipment'][bestEquipment[chunkInfo['equipment'][equip].slot]].ability_damage))) && ((chunkInfo['equipment'][equip].accuracy > 0 && chunkInfo['equipment'][equip].ability_damage > 0) || equip === 'Unarmed')) {
                             let tempTempValid = false;
                             Object.keys(baseChunkData['items'][equip]).filter(source => !baseChunkData['items'][equip][source].includes('-') || !chunkInfo['challenges'][baseChunkData['items'][equip][source].split('-')[1]] || !chunkInfo['challenges'][baseChunkData['items'][equip][source].split('-')[1]][source] || (!chunkInfo['challenges'][baseChunkData['items'][equip][source].split('-')[1]][source]['ProcessingSource'] && !processingSkill[baseChunkData['items'][equip][source].split('-')[1]]) || rules['Wield Crafted Items'] || baseChunkData['items'][equip][source].split('-')[1] === 'Slayer' || (chunkInfo['challenges'].hasOwnProperty(baseChunkData['items'][equip][source].split('-')[1]) && chunkInfo['challenges'][baseChunkData['items'][equip][source].split('-')[1]].hasOwnProperty(source) && chunkInfo['challenges'][baseChunkData['items'][equip][source].split('-')[1]][source].hasOwnProperty('NoXp'))).length > 0 && (tempTempValid = true);
@@ -5195,6 +5287,12 @@ let calcBIS = function(completedOnly) {
                         }
                     } else {
                         if (chunkInfo['equipment'][equip].magic >= 0) {
+                            if (!completedOnly) {
+                                if (!bisUpgrades[skill.replaceAll(' ', '_') + '-' + chunkInfo['equipment'][equip].slot]) {
+                                    bisUpgrades[skill.replaceAll(' ', '_') + '-' + chunkInfo['equipment'][equip].slot] = {};
+                                }
+                                bisUpgrades[skill.replaceAll(' ', '_') + '-' + chunkInfo['equipment'][equip].slot][equip] = (100000 * chunkInfo['equipment'][equip].magic) + (1000 * chunkInfo['equipment'][equip].armour) + (chunkInfo['equipment'][equip].lp);
+                            }
                             if (!bestEquipment[chunkInfo['equipment'][equip].slot] || (chunkInfo['equipment'][equip].magic > chunkInfo['equipment'][bestEquipment[chunkInfo['equipment'][equip].slot]].magic)) {
                                 let tempTempValid = false;
                                 Object.keys(baseChunkData['items'][equip]).filter(source => !baseChunkData['items'][equip][source].includes('-') || !chunkInfo['challenges'][baseChunkData['items'][equip][source].split('-')[1]] || !chunkInfo['challenges'][baseChunkData['items'][equip][source].split('-')[1]][source] || (!chunkInfo['challenges'][baseChunkData['items'][equip][source].split('-')[1]][source]['ProcessingSource'] && !processingSkill[baseChunkData['items'][equip][source].split('-')[1]]) || rules['Wield Crafted Items'] || baseChunkData['items'][equip][source].split('-')[1] === 'Slayer' || (chunkInfo['challenges'].hasOwnProperty(baseChunkData['items'][equip][source].split('-')[1]) && chunkInfo['challenges'][baseChunkData['items'][equip][source].split('-')[1]].hasOwnProperty(source) && chunkInfo['challenges'][baseChunkData['items'][equip][source].split('-')[1]][source].hasOwnProperty('NoXp'))).length > 0 && (tempTempValid = true);
@@ -5233,6 +5331,12 @@ let calcBIS = function(completedOnly) {
                     }
                 } else if (skill === 'Necromancy' && (chunkInfo['equipment'][equip].class === 'necromancy' || chunkInfo['equipment'][equip].class === 'hybrid' || chunkInfo['equipment'][equip].class === 'all' || chunkInfo['equipment'][equip].class === 'none')) {
                     if (chunkInfo['equipment'][equip].speed > 0) {
+                        if (!completedOnly && (chunkInfo['equipment'][equip].accuracy > 0 && chunkInfo['equipment'][equip].damage > 0)) {
+                            if (!bisUpgrades[skill.replaceAll(' ', '_') + '-' + chunkInfo['equipment'][equip].slot]) {
+                                bisUpgrades[skill.replaceAll(' ', '_') + '-' + chunkInfo['equipment'][equip].slot] = {};
+                            }
+                            bisUpgrades[skill.replaceAll(' ', '_') + '-' + chunkInfo['equipment'][equip].slot][equip] = chunkInfo['equipment'][equip].accuracy + chunkInfo['equipment'][equip].damage;
+                        }
                         if ((!bestEquipment[chunkInfo['equipment'][equip].slot] || ((chunkInfo['equipment'][equip].accuracy + chunkInfo['equipment'][equip].damage) > (chunkInfo['equipment'][bestEquipment[chunkInfo['equipment'][equip].slot]].accuracy + chunkInfo['equipment'][bestEquipment[chunkInfo['equipment'][equip].slot]].damage))) && ((chunkInfo['equipment'][equip].accuracy > 0 && chunkInfo['equipment'][equip].damage > 0) || equip === 'Unarmed')) {
                             let tempTempValid = false;
                             Object.keys(baseChunkData['items'][equip]).filter(source => !baseChunkData['items'][equip][source].includes('-') || !chunkInfo['challenges'][baseChunkData['items'][equip][source].split('-')[1]] || !chunkInfo['challenges'][baseChunkData['items'][equip][source].split('-')[1]][source] || (!chunkInfo['challenges'][baseChunkData['items'][equip][source].split('-')[1]][source]['ProcessingSource'] && !processingSkill[baseChunkData['items'][equip][source].split('-')[1]]) || rules['Wield Crafted Items'] || baseChunkData['items'][equip][source].split('-')[1] === 'Slayer' || (chunkInfo['challenges'].hasOwnProperty(baseChunkData['items'][equip][source].split('-')[1]) && chunkInfo['challenges'][baseChunkData['items'][equip][source].split('-')[1]].hasOwnProperty(source) && chunkInfo['challenges'][baseChunkData['items'][equip][source].split('-')[1]][source].hasOwnProperty('NoXp'))).length > 0 && (tempTempValid = true);
@@ -5253,6 +5357,12 @@ let calcBIS = function(completedOnly) {
                         }
                     } else {
                         if ((chunkInfo['equipment'][equip].necromancy || 0) >= 0) {
+                            if (!completedOnly) {
+                                if (!bisUpgrades[skill.replaceAll(' ', '_') + '-' + chunkInfo['equipment'][equip].slot]) {
+                                    bisUpgrades[skill.replaceAll(' ', '_') + '-' + chunkInfo['equipment'][equip].slot] = {};
+                                }
+                                bisUpgrades[skill.replaceAll(' ', '_') + '-' + chunkInfo['equipment'][equip].slot][equip] = (100000 * (chunkInfo['equipment'][equip].necromancy || 0)) + (1000 * chunkInfo['equipment'][equip].armour) + (chunkInfo['equipment'][equip].lp);
+                            }
                             if (!bestEquipment[chunkInfo['equipment'][equip].slot] || ((chunkInfo['equipment'][equip].necromancy || 0) > (chunkInfo['equipment'][bestEquipment[chunkInfo['equipment'][equip].slot]].necromancy || 0))) {
                                 let tempTempValid = false;
                                 Object.keys(baseChunkData['items'][equip]).filter(source => !baseChunkData['items'][equip][source].includes('-') || !chunkInfo['challenges'][baseChunkData['items'][equip][source].split('-')[1]] || !chunkInfo['challenges'][baseChunkData['items'][equip][source].split('-')[1]][source] || (!chunkInfo['challenges'][baseChunkData['items'][equip][source].split('-')[1]][source]['ProcessingSource'] && !processingSkill[baseChunkData['items'][equip][source].split('-')[1]]) || rules['Wield Crafted Items'] || baseChunkData['items'][equip][source].split('-')[1] === 'Slayer' || (chunkInfo['challenges'].hasOwnProperty(baseChunkData['items'][equip][source].split('-')[1]) && chunkInfo['challenges'][baseChunkData['items'][equip][source].split('-')[1]].hasOwnProperty(source) && chunkInfo['challenges'][baseChunkData['items'][equip][source].split('-')[1]][source].hasOwnProperty('NoXp'))).length > 0 && (tempTempValid = true);
@@ -5291,6 +5401,12 @@ let calcBIS = function(completedOnly) {
                     }
                 } else if (skill === 'Prayer') {
                     if (chunkInfo['equipment'][equip].prayer > 0) {
+                        if (!completedOnly) {
+                            if (!bisUpgrades[skill.replaceAll(' ', '_') + '-' + chunkInfo['equipment'][equip].slot]) {
+                                bisUpgrades[skill.replaceAll(' ', '_') + '-' + chunkInfo['equipment'][equip].slot] = {};
+                            }
+                            bisUpgrades[skill.replaceAll(' ', '_') + '-' + chunkInfo['equipment'][equip].slot][equip] = chunkInfo['equipment'][equip].prayer;
+                        }
                         if (!bestEquipment[chunkInfo['equipment'][equip].slot] || (chunkInfo['equipment'][equip].prayer > chunkInfo['equipment'][bestEquipment[chunkInfo['equipment'][equip].slot]].prayer)) {
                             let tempTempValid = false;
                             Object.keys(baseChunkData['items'][equip]).filter(source => !baseChunkData['items'][equip][source].includes('-') || !chunkInfo['challenges'][baseChunkData['items'][equip][source].split('-')[1]] || !chunkInfo['challenges'][baseChunkData['items'][equip][source].split('-')[1]][source] || (!chunkInfo['challenges'][baseChunkData['items'][equip][source].split('-')[1]][source]['ProcessingSource'] && !processingSkill[baseChunkData['items'][equip][source].split('-')[1]]) || rules['Wield Crafted Items'] || baseChunkData['items'][equip][source].split('-')[1] === 'Slayer' || (chunkInfo['challenges'].hasOwnProperty(baseChunkData['items'][equip][source].split('-')[1]) && chunkInfo['challenges'][baseChunkData['items'][equip][source].split('-')[1]].hasOwnProperty(source) && chunkInfo['challenges'][baseChunkData['items'][equip][source].split('-')[1]][source].hasOwnProperty('NoXp'))).length > 0 && (tempTempValid = true);
@@ -5314,6 +5430,12 @@ let calcBIS = function(completedOnly) {
                     }
                 } else if (skill === 'Melee Tank' && (chunkInfo['equipment'][equip].class === 'melee' || chunkInfo['equipment'][equip].class === 'hybrid' || chunkInfo['equipment'][equip].class === 'all' || chunkInfo['equipment'][equip].class === 'none')) {
                     if (chunkInfo['equipment'][equip].strength >= 0 && (chunkInfo['equipment'][equip].armour + chunkInfo['equipment'][equip].lp) > 0) {
+                        if (!completedOnly) {
+                            if (!bisUpgrades[skill.replaceAll(' ', '_') + '-' + chunkInfo['equipment'][equip].slot]) {
+                                bisUpgrades[skill.replaceAll(' ', '_') + '-' + chunkInfo['equipment'][equip].slot] = {};
+                            }
+                            bisUpgrades[skill.replaceAll(' ', '_') + '-' + chunkInfo['equipment'][equip].slot][equip] = (1000 * chunkInfo['equipment'][equip].armour) + (chunkInfo['equipment'][equip].lp);
+                        }
                         if (!bestEquipment[chunkInfo['equipment'][equip].slot] || (chunkInfo['equipment'][equip].armour > chunkInfo['equipment'][bestEquipment[chunkInfo['equipment'][equip].slot]].armour)) {
                             let tempTempValid = false;
                             Object.keys(baseChunkData['items'][equip]).filter(source => !baseChunkData['items'][equip][source].includes('-') || !chunkInfo['challenges'][baseChunkData['items'][equip][source].split('-')[1]] || !chunkInfo['challenges'][baseChunkData['items'][equip][source].split('-')[1]][source] || (!chunkInfo['challenges'][baseChunkData['items'][equip][source].split('-')[1]][source]['ProcessingSource'] && !processingSkill[baseChunkData['items'][equip][source].split('-')[1]]) || rules['Wield Crafted Items'] || baseChunkData['items'][equip][source].split('-')[1] === 'Slayer' || (chunkInfo['challenges'].hasOwnProperty(baseChunkData['items'][equip][source].split('-')[1]) && chunkInfo['challenges'][baseChunkData['items'][equip][source].split('-')[1]].hasOwnProperty(source) && chunkInfo['challenges'][baseChunkData['items'][equip][source].split('-')[1]][source].hasOwnProperty('NoXp'))).length > 0 && (tempTempValid = true);
@@ -5342,7 +5464,13 @@ let calcBIS = function(completedOnly) {
                         }
                     }
                 } else if (skill === 'Ranged Tank' && (chunkInfo['equipment'][equip].class === 'ranged' || chunkInfo['equipment'][equip].class === 'hybrid' || chunkInfo['equipment'][equip].class === 'all' || chunkInfo['equipment'][equip].class === 'none')) {
-                    if (chunkInfo['equipment'][equip].strength >= 0 && (chunkInfo['equipment'][equip].armour + chunkInfo['equipment'][equip].lp) > 0) {
+                    if (chunkInfo['equipment'][equip].ranged >= 0 && (chunkInfo['equipment'][equip].armour + chunkInfo['equipment'][equip].lp) > 0) {
+                        if (!completedOnly) {
+                            if (!bisUpgrades[skill.replaceAll(' ', '_') + '-' + chunkInfo['equipment'][equip].slot]) {
+                                bisUpgrades[skill.replaceAll(' ', '_') + '-' + chunkInfo['equipment'][equip].slot] = {};
+                            }
+                            bisUpgrades[skill.replaceAll(' ', '_') + '-' + chunkInfo['equipment'][equip].slot][equip] = (1000 * chunkInfo['equipment'][equip].armour) + (chunkInfo['equipment'][equip].lp);
+                        }
                         if (!bestEquipment[chunkInfo['equipment'][equip].slot] || (chunkInfo['equipment'][equip].armour > chunkInfo['equipment'][bestEquipment[chunkInfo['equipment'][equip].slot]].armour)) {
                             let tempTempValid = false;
                             Object.keys(baseChunkData['items'][equip]).filter(source => !baseChunkData['items'][equip][source].includes('-') || !chunkInfo['challenges'][baseChunkData['items'][equip][source].split('-')[1]] || !chunkInfo['challenges'][baseChunkData['items'][equip][source].split('-')[1]][source] || (!chunkInfo['challenges'][baseChunkData['items'][equip][source].split('-')[1]][source]['ProcessingSource'] && !processingSkill[baseChunkData['items'][equip][source].split('-')[1]]) || rules['Wield Crafted Items'] || baseChunkData['items'][equip][source].split('-')[1] === 'Slayer' || (chunkInfo['challenges'].hasOwnProperty(baseChunkData['items'][equip][source].split('-')[1]) && chunkInfo['challenges'][baseChunkData['items'][equip][source].split('-')[1]].hasOwnProperty(source) && chunkInfo['challenges'][baseChunkData['items'][equip][source].split('-')[1]][source].hasOwnProperty('NoXp'))).length > 0 && (tempTempValid = true);
@@ -5371,7 +5499,13 @@ let calcBIS = function(completedOnly) {
                         }
                     }
                 } else if (skill === 'Magic Tank' && (chunkInfo['equipment'][equip].class === 'magic' || chunkInfo['equipment'][equip].class === 'hybrid' || chunkInfo['equipment'][equip].class === 'all' || chunkInfo['equipment'][equip].class === 'none')) {
-                    if (chunkInfo['equipment'][equip].strength >= 0 && (chunkInfo['equipment'][equip].armour + chunkInfo['equipment'][equip].lp) > 0) {
+                    if (chunkInfo['equipment'][equip].magic >= 0 && (chunkInfo['equipment'][equip].armour + chunkInfo['equipment'][equip].lp) > 0) {
+                        if (!completedOnly) {
+                            if (!bisUpgrades[skill.replaceAll(' ', '_') + '-' + chunkInfo['equipment'][equip].slot]) {
+                                bisUpgrades[skill.replaceAll(' ', '_') + '-' + chunkInfo['equipment'][equip].slot] = {};
+                            }
+                            bisUpgrades[skill.replaceAll(' ', '_') + '-' + chunkInfo['equipment'][equip].slot][equip] = (1000 * chunkInfo['equipment'][equip].armour) + (chunkInfo['equipment'][equip].lp);
+                        }
                         if (!bestEquipment[chunkInfo['equipment'][equip].slot] || (chunkInfo['equipment'][equip].armour > chunkInfo['equipment'][bestEquipment[chunkInfo['equipment'][equip].slot]].armour)) {
                             let tempTempValid = false;
                             Object.keys(baseChunkData['items'][equip]).filter(source => !baseChunkData['items'][equip][source].includes('-') || !chunkInfo['challenges'][baseChunkData['items'][equip][source].split('-')[1]] || !chunkInfo['challenges'][baseChunkData['items'][equip][source].split('-')[1]][source] || (!chunkInfo['challenges'][baseChunkData['items'][equip][source].split('-')[1]][source]['ProcessingSource'] && !processingSkill[baseChunkData['items'][equip][source].split('-')[1]]) || rules['Wield Crafted Items'] || baseChunkData['items'][equip][source].split('-')[1] === 'Slayer' || (chunkInfo['challenges'].hasOwnProperty(baseChunkData['items'][equip][source].split('-')[1]) && chunkInfo['challenges'][baseChunkData['items'][equip][source].split('-')[1]].hasOwnProperty(source) && chunkInfo['challenges'][baseChunkData['items'][equip][source].split('-')[1]][source].hasOwnProperty('NoXp'))).length > 0 && (tempTempValid = true);
@@ -5401,6 +5535,12 @@ let calcBIS = function(completedOnly) {
                     }
                 } else if (skill === 'Necromancy Tank' && (chunkInfo['equipment'][equip].class === 'necromancy' || chunkInfo['equipment'][equip].class === 'hybrid' || chunkInfo['equipment'][equip].class === 'all' || chunkInfo['equipment'][equip].class === 'none')) {
                     if ((chunkInfo['equipment'][equip].necromancy || 0) >= 0 && (chunkInfo['equipment'][equip].armour + chunkInfo['equipment'][equip].lp) > 0) {
+                        if (!completedOnly) {
+                            if (!bisUpgrades[skill.replaceAll(' ', '_') + '-' + chunkInfo['equipment'][equip].slot]) {
+                                bisUpgrades[skill.replaceAll(' ', '_') + '-' + chunkInfo['equipment'][equip].slot] = {};
+                            }
+                            bisUpgrades[skill.replaceAll(' ', '_') + '-' + chunkInfo['equipment'][equip].slot][equip] = (1000 * chunkInfo['equipment'][equip].armour) + (chunkInfo['equipment'][equip].lp);
+                        }
                         if (!bestEquipment[chunkInfo['equipment'][equip].slot] || (chunkInfo['equipment'][equip].armour > chunkInfo['equipment'][bestEquipment[chunkInfo['equipment'][equip].slot]].armour)) {
                             let tempTempValid = false;
                             Object.keys(baseChunkData['items'][equip]).filter(source => !baseChunkData['items'][equip][source].includes('-') || !chunkInfo['challenges'][baseChunkData['items'][equip][source].split('-')[1]] || !chunkInfo['challenges'][baseChunkData['items'][equip][source].split('-')[1]][source] || (!chunkInfo['challenges'][baseChunkData['items'][equip][source].split('-')[1]][source]['ProcessingSource'] && !processingSkill[baseChunkData['items'][equip][source].split('-')[1]]) || rules['Wield Crafted Items'] || baseChunkData['items'][equip][source].split('-')[1] === 'Slayer' || (chunkInfo['challenges'].hasOwnProperty(baseChunkData['items'][equip][source].split('-')[1]) && chunkInfo['challenges'][baseChunkData['items'][equip][source].split('-')[1]].hasOwnProperty(source) && chunkInfo['challenges'][baseChunkData['items'][equip][source].split('-')[1]][source].hasOwnProperty('NoXp'))).length > 0 && (tempTempValid = true);
@@ -5430,6 +5570,12 @@ let calcBIS = function(completedOnly) {
                     }
                 } else if (skill === 'Weight Reducing') {
                     if (chunkInfo['equipment'][equip].hasOwnProperty('weight')) {
+                        if (!completedOnly) {
+                            if (!bisUpgrades[skill.replaceAll(' ', '_') + '-' + chunkInfo['equipment'][equip].slot]) {
+                                bisUpgrades[skill.replaceAll(' ', '_') + '-' + chunkInfo['equipment'][equip].slot] = {};
+                            }
+                            bisUpgrades[skill.replaceAll(' ', '_') + '-' + chunkInfo['equipment'][equip].slot][equip] = (-1 * chunkInfo['equipment'][equip].weight);
+                        }
                         if (!bestEquipment[chunkInfo['equipment'][equip].slot] || (chunkInfo['equipment'][equip].weight < chunkInfo['equipment'][bestEquipment[chunkInfo['equipment'][equip].slot]].weight)) {
                             let tempTempValid = false;
                             Object.keys(baseChunkData['items'][equip]).filter(source => !baseChunkData['items'][equip][source].includes('-') || !chunkInfo['challenges'][baseChunkData['items'][equip][source].split('-')[1]] || !chunkInfo['challenges'][baseChunkData['items'][equip][source].split('-')[1]][source] || (!chunkInfo['challenges'][baseChunkData['items'][equip][source].split('-')[1]][source]['ProcessingSource'] && !processingSkill[baseChunkData['items'][equip][source].split('-')[1]]) || rules['Wield Crafted Items'] || baseChunkData['items'][equip][source].split('-')[1] === 'Slayer' || (chunkInfo['challenges'].hasOwnProperty(baseChunkData['items'][equip][source].split('-')[1]) && chunkInfo['challenges'][baseChunkData['items'][equip][source].split('-')[1]].hasOwnProperty(source) && chunkInfo['challenges'][baseChunkData['items'][equip][source].split('-')[1]][source].hasOwnProperty('NoXp'))).length > 0 && (tempTempValid = true);
@@ -8555,6 +8701,7 @@ let calcBIS = function(completedOnly) {
         Object.keys(resultingAdditions).forEach((slot) => {
             bestEquipment[slot] = resultingAdditions[slot];
             delete bestEquipmentAlts[slot];
+            delete bisUpgrades[skill.replaceAll(' ', '_') + '-' + slot];
         }); */
         rules['Show Best in Slot 1H and 2H'] && !!savedWeaponBis && Object.keys(savedWeaponBis).filter(slot => !!savedWeaponBis[slot]).forEach((slot) => {
             if (slot === 'ammo (2h)' && !savedWeaponBis['ammo']) {
@@ -8570,11 +8717,17 @@ let calcBIS = function(completedOnly) {
             if (slot === '2h weapon' && !rules['Show Best in Slot 1H and 2H']) {
                 highestOverallLocal[skill.replaceAll(' ', '_') + '-main hand weapon'] = bestEquipment[slot];
                 highestOverallLocal[skill.replaceAll(' ', '_') + '-off-hand weapon'] = 'N/A';
+                if (!completedOnly) {
+                    bisUpgrades[skill.replaceAll(' ', '_') + '-weapon'] = {...bisUpgrades[skill.replaceAll(' ', '_') + '-weapon'], ...bisUpgrades[skill.replaceAll(' ', '_') + '-' + slot]};
+                }
             } else {
                 highestOverallLocal[skill.replaceAll(' ', '_') + '-' + slot] = bestEquipment[slot];
             }
             if (slot === 'off-hand' && !rules['Show Best in Slot Shield']) {
                 highestOverallLocal[skill.replaceAll(' ', '_') + '-off-hand weapon'] = bestEquipment[slot];
+                if (!completedOnly) {
+                    bisUpgrades[skill.replaceAll(' ', '_') + '-off-hand weapon'] = {...bisUpgrades[skill.replaceAll(' ', '_') + '-off-hand weapon'], ...bisUpgrades[skill.replaceAll(' ', '_') + '-' + slot]};
+                }
             } else {
                 highestOverallLocal[skill.replaceAll(' ', '_') + '-' + slot] = bestEquipment[slot];
             }
