@@ -462,6 +462,7 @@ let rules = {
 	"MQC achievements": false,
 	"Misc achievements": false,
 	"Kili Knowledge": false,
+	"Slayer Contracts": false,
 };                                                                              // List of rules and their on/off state
 
 let ruleNames = {
@@ -583,7 +584,8 @@ let ruleNames = {
 	"MQC achievements": "Must complete Master Quest Cape achievements<span class='rule-asterisk noscroll'>*</span>",
 	"Misc achievements": "WIP- Must complete other achievements, excluding level-up achievements.",
 	"Hunter Marks Slayer": "Using Hunter Marks to buy Slayer experience lamps counts as primary training<span class='rule-asterisk noscroll'>*</span>",
-	"Kili Knowledge": "Must complete Kili Knowledge when possible"
+	"Kili Knowledge": "Must complete Kili Knowledge when possible",
+	"Slayer Contracts": "Completing Slayer contracts off-task counts as a primary training method"
 };                                                                              // List of rule definitions
 
 let rulePresets = {
@@ -612,7 +614,8 @@ let rulePresets = {
         "Unlock Prayers": true,
 		"Material Blueprints": true,
 		"Achievement": true,
-		"Kili Knowledge": true
+		"Kili Knowledge": true,
+		"Slayer Contracts": true,
     },
     "Xtreme Chunker": {
         "Skillcape": true,
@@ -689,7 +692,8 @@ let rulePresets = {
 		"Trim achievements": true,
 		"MQC achievements": true,
 		"Hunter Marks Slayer": true,
-		"Kili Knowledge": true
+		"Kili Knowledge": true,
+		"Slayer Contracts": true
     },
     "Supreme Chunker": {
         "Skillcape": true,
@@ -780,7 +784,8 @@ let rulePresets = {
 		"MQC achievements": true,
 		"Secondary Effigies": true,
 		"Hunter Marks Slayer": true,
-		"Kili Knowledge": true
+		"Kili Knowledge": true,
+		"Slayer Contracts": true
     }
 };                                                                              // List of rules that are part of each preset
 
@@ -884,7 +889,8 @@ let ruleStructure = {
     },
     "Slayer": {
         "Slayer Equipment": true,
-		"Hunter Marks Slayer": true
+		"Hunter Marks Slayer": true,
+		"Slayer Contracts": true
     },
     "Smithing": {
         "Smithing by Smelting": true

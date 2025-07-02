@@ -32493,7 +32493,7 @@
 			},
 			"Breed a ~|common green frog|~": {
 				"Category": ["Normal Farming"],
-				"Objects": ["Breeding paddock"],
+				"Objects": ["Dinosaur breeding pen"],
 				"Items": ["VariantFrog[+]"],
 				"Level": 42,
 				"Output": "GreenFrogBreed",
@@ -32502,7 +32502,7 @@
 			},
 			"Breed a ~|phantasmal poison frog|~": {
 				"Category": ["Normal Farming"],
-				"Objects": ["Breeding paddock"],
+				"Objects": ["Dinosaur breeding pen"],
 				"Items": ["Common green frog (unchecked)"],
 				"Level": 42,
 				"Output": "PhantasmalFrogBreed",
@@ -32511,7 +32511,7 @@
 			},
 			"Breed a ~|sky-blue poison frog|~": {
 				"Category": ["Normal Farming"],
-				"Objects": ["Breeding paddock"],
+				"Objects": ["Dinosaur breeding pen"],
 				"Items": ["Common green frog (unchecked)"],
 				"Level": 42,
 				"Output": "SkyblueFrogBreed",
@@ -32520,7 +32520,7 @@
 			},
 			"Breed a ~|golden poison frog|~": {
 				"Category": ["Normal Farming"],
-				"Objects": ["Breeding paddock"],
+				"Objects": ["Dinosaur breeding pen"],
 				"Items": ["Common green frog (unchecked)"],
 				"Level": 42,
 				"Output": "GoldenFrogBreed",
@@ -33588,7 +33588,7 @@
 			},
 			"Breed a ~|common jadinko|~": {
 				"Category": ["Normal Farming"],
-				"Objects": ["Breeding paddock"],
+				"Objects": ["Dinosaur breeding pen"],
 				"Items": ["VariantJadinko[+]"],
 				"Level": 76,
 				"Output": "CommonJadinkoBreed",
@@ -33597,7 +33597,7 @@
 			},
 			"Breed an ~|amphibious jadinko|~": {
 				"Category": ["Normal Farming"],
-				"Objects": ["Breeding paddock"],
+				"Objects": ["Dinosaur breeding pen"],
 				"Items": ["Common jadinko (unchecked)"],
 				"Level": 76,
 				"Output": "AmphibiousJadinkoBreed",
@@ -33606,7 +33606,7 @@
 			},
 			"Breed an ~|aquatic jadinko|~": {
 				"Category": ["Normal Farming"],
-				"Objects": ["Breeding paddock"],
+				"Objects": ["Dinosaur breeding pen"],
 				"Items": ["Common jadinko (unchecked)"],
 				"Level": 76,
 				"Output": "AquaticJadinkoBreed",
@@ -33615,7 +33615,7 @@
 			},
 			"Breed a ~|camouflaged jadinko|~": {
 				"Category": ["Normal Farming"],
-				"Objects": ["Breeding paddock"],
+				"Objects": ["Dinosaur breeding pen"],
 				"Items": ["Common jadinko (unchecked)"],
 				"Level": 76,
 				"Output": "CamouflagedJadinkoBreed",
@@ -33624,7 +33624,7 @@
 			},
 			"Breed a ~|cannibal jadinko|~": {
 				"Category": ["Normal Farming"],
-				"Objects": ["Breeding paddock"],
+				"Objects": ["Dinosaur breeding pen"],
 				"Items": ["Common jadinko (unchecked)"],
 				"Level": 76,
 				"Output": "CannibalJadinkoBreed",
@@ -33633,7 +33633,7 @@
 			},
 			"Breed a ~|carrion jadinko|~": {
 				"Category": ["Normal Farming"],
-				"Objects": ["Breeding paddock"],
+				"Objects": ["Dinosaur breeding pen"],
 				"Items": ["Common jadinko (unchecked)"],
 				"Level": 76,
 				"Output": "CarrionJadinkoBreed",
@@ -33642,7 +33642,7 @@
 			},
 			"Breed a ~|diseased jadinko|~": {
 				"Category": ["Normal Farming"],
-				"Objects": ["Breeding paddock"],
+				"Objects": ["Dinosaur breeding pen"],
 				"Items": ["Common jadinko (unchecked)"],
 				"Level": 76,
 				"Output": "DiseasedJadinkoBreed",
@@ -33651,7 +33651,7 @@
 			},
 			"Breed a ~|draconic jadinko|~": {
 				"Category": ["Normal Farming"],
-				"Objects": ["Breeding paddock"],
+				"Objects": ["Dinosaur breeding pen"],
 				"Items": ["Common jadinko (unchecked)"],
 				"Level": 76,
 				"Output": "DraconicJadinkoBreed",
@@ -33660,7 +33660,7 @@
 			},
 			"Breed an ~|igneous jadinko|~": {
 				"Category": ["Normal Farming"],
-				"Objects": ["Breeding paddock"],
+				"Objects": ["Dinosaur breeding pen"],
 				"Items": ["Common jadinko (unchecked)"],
 				"Level": 76,
 				"Output": "IgneousJadinkoBreed",
@@ -33669,7 +33669,7 @@
 			},
 			"Breed a ~|shadow jadinko|~": {
 				"Category": ["Normal Farming"],
-				"Objects": ["Breeding paddock"],
+				"Objects": ["Dinosaur breeding pen"],
 				"Items": ["Common jadinko (unchecked)"],
 				"Level": 76,
 				"Output": "ShadowJadinkoBreed",
@@ -34498,7 +34498,7 @@
 			},
 			"Breed a ~|feral dinosaur|~": {
 				"Category": ["Normal Farming"],
-				"Objects": ["Breeding paddock"],
+				"Objects": ["Dinosaur breeding pen"],
 				"Items": ["VariantVaranusaur[+]"],
 				"Level": 97,
 				"Output": "FeralDinosaurBreed",
@@ -34507,7 +34507,7 @@
 			},
 			"Breed a ~|venomous dinosaur|~": {
 				"Category": ["Normal Farming"],
-				"Objects": ["Breeding paddock"],
+				"Objects": ["Dinosaur breeding pen"],
 				"Items": ["Feral dinosaur (unchecked)"],
 				"Level": 97,
 				"Output": "VenomousDinosaurBreed",
@@ -34516,7 +34516,7 @@
 			},
 			"Breed a ~|ripper dinosaur|~": {
 				"Category": ["Normal Farming"],
-				"Objects": ["Breeding paddock"],
+				"Objects": ["Dinosaur breeding pen"],
 				"Items": ["VariantVaranusaur[+]"],
 				"Level": 97,
 				"Output": "RipperDinosaurBreed",
@@ -34599,7 +34599,7 @@
 			},
 			"Breed an ~|arcane apoterrasaur|~": {
 				"Category": ["Normal Farming"],
-				"Objects": ["Breeding paddock"],
+				"Objects": ["Dinosaur breeding pen"],
 				"Items": ["VariantApoterrasaur[+]"],
 				"Level": 98,
 				"Output": "ArcaneApoterrasaurBreed",
@@ -34608,7 +34608,7 @@
 			},
 			"Breed an ~|arcane apoterrasaur natura|~": {
 				"Category": ["Normal Farming"],
-				"Objects": ["Breeding paddock"],
+				"Objects": ["Dinosaur breeding pen"],
 				"Items": ["Arcane apoterrasaur (unchecked)"],
 				"Level": 98,
 				"Output": "ApoterrasaurNaturaBreed",
@@ -34617,7 +34617,7 @@
 			},
 			"Breed an ~|arcane apoterrasaur iratum|~": {
 				"Category": ["Normal Farming"],
-				"Objects": ["Breeding paddock"],
+				"Objects": ["Dinosaur breeding pen"],
 				"Items": ["Arcane apoterrasaur (unchecked)"],
 				"Level": 98,
 				"Output": "ApoterrasaurIratumBreed",
@@ -34671,7 +34671,7 @@
 			},
 			"Breed a ~|brutish dinosaur|~": {
 				"Category": ["Normal Farming"],
-				"Objects": ["Breeding paddock"],
+				"Objects": ["Dinosaur breeding pen"],
 				"Items": ["VariantBrutishDino[+]"],
 				"Level": 100,
 				"Output": "BrutishDinoBreed",
@@ -34680,7 +34680,7 @@
 			},
 			"Breed a ~|beach dinosaur|~": {
 				"Category": ["Normal Farming"],
-				"Objects": ["Breeding paddock"],
+				"Objects": ["Dinosaur breeding pen"],
 				"Items": ["Brutish dinosaur (unchecked)"],
 				"Level": 100,
 				"Output": "BeachDinoBreed",
@@ -34689,7 +34689,7 @@
 			},
 			"Breed a ~|forest dinosaur|~": {
 				"Category": ["Normal Farming"],
-				"Objects": ["Breeding paddock"],
+				"Objects": ["Dinosaur breeding pen"],
 				"Items": ["Brutish dinosaur (unchecked)"],
 				"Level": 100,
 				"Output": "ForestDinoBreed",
@@ -34768,7 +34768,7 @@
 			},
 			"Breed a ~|green salamander|~": {
 				"Category": ["Normal Farming"],
-				"Objects": ["Breeding paddock"],
+				"Objects": ["Dinosaur breeding pen"],
 				"Items": ["VariantSalamander[+]"],
 				"Level": 102,
 				"Output": "GreenSalamanderBreed",
@@ -34777,7 +34777,7 @@
 			},
 			"Breed an ~|orange salamander|~": {
 				"Category": ["Normal Farming"],
-				"Objects": ["Breeding paddock"],
+				"Objects": ["Dinosaur breeding pen"],
 				"Items": ["Green salamander (unchecked)"],
 				"Level": 102,
 				"Output": "OrangeSalamanderBreed",
@@ -34786,7 +34786,7 @@
 			},
 			"Breed a ~|red salamander|~": {
 				"Category": ["Normal Farming"],
-				"Objects": ["Breeding paddock"],
+				"Objects": ["Dinosaur breeding pen"],
 				"Items": ["Green salamander (unchecked)"],
 				"Level": 102,
 				"Output": "RedSalamanderBreed",
@@ -34795,7 +34795,7 @@
 			},
 			"Breed a ~|black salamander|~": {
 				"Category": ["Normal Farming"],
-				"Objects": ["Breeding paddock"],
+				"Objects": ["Dinosaur breeding pen"],
 				"Items": ["Green salamander (unchecked)"],
 				"Level": 102,
 				"Output": "BlackSalamanderBreed",
@@ -34854,7 +34854,7 @@
 			},
 			"Breed a ~|scimitops|~": {
 				"Category": ["Normal Farming"],
-				"Objects": ["Breeding paddock"],
+				"Objects": ["Dinosaur breeding pen"],
 				"Items": ["VariantScimitops[+]"],
 				"Level": 104,
 				"Output": "ScimitopsBreed",
@@ -34863,7 +34863,7 @@
 			},
 			"Breed a ~|scimitops palus|~": {
 				"Category": ["Normal Farming"],
-				"Objects": ["Breeding paddock"],
+				"Objects": ["Dinosaur breeding pen"],
 				"Items": ["Scimitops (unchecked)"],
 				"Level": 104,
 				"Output": "ScimitopsPalusBreed",
@@ -34872,7 +34872,7 @@
 			},
 			"Breed a ~|scimitops blavum|~": {
 				"Category": ["Normal Farming"],
-				"Objects": ["Breeding paddock"],
+				"Objects": ["Dinosaur breeding pen"],
 				"Items": ["Scimitops (unchecked)"],
 				"Level": 104,
 				"Output": "ScimitopsBlavumBreed",
@@ -34917,7 +34917,7 @@
 			},
 			"Breed a ~|bagrada rex|~": {
 				"Category": ["Normal Farming"],
-				"Objects": ["Breeding paddock"],
+				"Objects": ["Dinosaur breeding pen"],
 				"Items": ["VariantBagrada[+]"],
 				"Level": 106,
 				"Output": "BagradaRexBreed",
@@ -34926,7 +34926,7 @@
 			},
 			"Breed a ~|bagrada nemus|~": {
 				"Category": ["Normal Farming"],
-				"Objects": ["Breeding paddock"],
+				"Objects": ["Dinosaur breeding pen"],
 				"Items": ["Bagrada rex (unchecked)"],
 				"Level": 106,
 				"Output": "BagradaNemusBreed",
@@ -34935,7 +34935,7 @@
 			},
 			"Breed a ~|bagrada purpura|~": {
 				"Category": ["Normal Farming"],
-				"Objects": ["Breeding paddock"],
+				"Objects": ["Dinosaur breeding pen"],
 				"Items": ["Bagrada rex (unchecked)"],
 				"Level": 106,
 				"Output": "BagradaPurpuraBreed",
@@ -34996,7 +34996,7 @@
 			},
 			"Breed a ~|spicati apoterrasaur|~": {
 				"Category": ["Normal Farming"],
-				"Objects": ["Breeding paddock"],
+				"Objects": ["Dinosaur breeding pen"],
 				"Items": ["VariantSpicatiApoterrasaur[+]"],
 				"Level": 108,
 				"Output": "SpicatiApoterrasaurBreed",
@@ -35005,7 +35005,7 @@
 			},
 			"Breed a ~|spicati apoterrasaur tilia|~": {
 				"Category": ["Normal Farming"],
-				"Objects": ["Breeding paddock"],
+				"Objects": ["Dinosaur breeding pen"],
 				"Items": ["Spicati apoterrasaur (unchecked)"],
 				"Level": 108,
 				"Output": "ApoterrasaurTiliaBreed",
@@ -35014,7 +35014,7 @@
 			},
 			"Breed a ~|spicati apoterrasaur purpura|~": {
 				"Category": ["Normal Farming"],
-				"Objects": ["Breeding paddock"],
+				"Objects": ["Dinosaur breeding pen"],
 				"Items": ["Spicati apoterrasaur (unchecked)"],
 				"Level": 108,
 				"Output": "ApoterrasaurPurpuraBreed",
@@ -35059,7 +35059,7 @@
 			},
 			"Breed an ~|asciatops|~": {
 				"Category": ["Normal Farming"],
-				"Objects": ["Breeding paddock"],
+				"Objects": ["Dinosaur breeding pen"],
 				"Items": ["VariantAsciatops[+]"],
 				"Level": 110,
 				"Output": "AsciatopsBreed",
@@ -35068,7 +35068,7 @@
 			},
 			"Breed an ~|asciatops acta|~": {
 				"Category": ["Normal Farming"],
-				"Objects": ["Breeding paddock"],
+				"Objects": ["Dinosaur breeding pen"],
 				"Items": ["Asciatops (unchecked)"],
 				"Level": 110,
 				"Output": "AsciatopsActaBreed",
@@ -35077,7 +35077,7 @@
 			},
 			"Breed an ~|asciatops aurum|~": {
 				"Category": ["Normal Farming"],
-				"Objects": ["Breeding paddock"],
+				"Objects": ["Dinosaur breeding pen"],
 				"Items": ["Asciatops (unchecked)"],
 				"Level": 110,
 				"Output": "AsciatopsAurumBreed",
@@ -35122,7 +35122,7 @@
 			},
 			"Breed a ~|corbicula rex|~": {
 				"Category": ["Normal Farming"],
-				"Objects": ["Breeding paddock"],
+				"Objects": ["Dinosaur breeding pen"],
 				"Items": ["VariantCorbicula[+]"],
 				"Level": 112,
 				"Output": "CorbiculaRexBreed",
@@ -35131,7 +35131,7 @@
 			},
 			"Breed a ~|corbicula gelum|~": {
 				"Category": ["Normal Farming"],
-				"Objects": ["Breeding paddock"],
+				"Objects": ["Dinosaur breeding pen"],
 				"Items": ["Corbicula rex (unchecked)"],
 				"Level": 112,
 				"Output": "CorbiculaGelumBreed",
@@ -35140,7 +35140,7 @@
 			},
 			"Breed a ~|corbicula malum|~": {
 				"Category": ["Normal Farming"],
-				"Objects": ["Breeding paddock"],
+				"Objects": ["Dinosaur breeding pen"],
 				"Items": ["Corbicula rex (unchecked)"],
 				"Level": 112,
 				"Output": "CorbiculaMalumBreed",
@@ -35201,7 +35201,7 @@
 			},
 			"Breed an ~|oculi apoterrasaur|~": {
 				"Category": ["Normal Farming"],
-				"Objects": ["Breeding paddock"],
+				"Objects": ["Dinosaur breeding pen"],
 				"Items": ["VariantOculiApoterrasaur[+]"],
 				"Level": 115,
 				"Output": "OculiApoterrasaurBreed",
@@ -35210,7 +35210,7 @@
 			},
 			"Breed an ~|oculi apoterrasaur oceanum|~": {
 				"Category": ["Normal Farming"],
-				"Objects": ["Breeding paddock"],
+				"Objects": ["Dinosaur breeding pen"],
 				"Items": ["Oculi apoterrasaur (unchecked)"],
 				"Level": 115,
 				"Output": "ApoterrasaurOceanumBreed",
@@ -35219,7 +35219,7 @@
 			},
 			"Breed an ~|oculi apoterrasaur glacies|~": {
 				"Category": ["Normal Farming"],
-				"Objects": ["Breeding paddock"],
+				"Objects": ["Dinosaur breeding pen"],
 				"Items": ["Oculi apoterrasaur (unchecked)"],
 				"Level": 115,
 				"Output": "ApoterrasaurGlaciesBreed",
@@ -35264,7 +35264,7 @@
 			},
 			"Breed a ~|malletops|~": {
 				"Category": ["Normal Farming"],
-				"Objects": ["Breeding paddock"],
+				"Objects": ["Dinosaur breeding pen"],
 				"Items": ["VariantMalletops[+]"],
 				"Level": 117,
 				"Output": "MalletopsBreed",
@@ -35273,7 +35273,7 @@
 			},
 			"Breed a ~|malletops palus|~": {
 				"Category": ["Normal Farming"],
-				"Objects": ["Breeding paddock"],
+				"Objects": ["Dinosaur breeding pen"],
 				"Items": ["Malletops (unchecked)"],
 				"Level": 117,
 				"Output": "MalletopsPalusBreed",
@@ -35282,7 +35282,7 @@
 			},
 			"Breed a ~|malletops purpura|~": {
 				"Category": ["Normal Farming"],
-				"Objects": ["Breeding paddock"],
+				"Objects": ["Dinosaur breeding pen"],
 				"Items": ["Malletops (unchecked)"],
 				"Level": 117,
 				"Output": "MalletopsPurpuraBreed",
@@ -35318,7 +35318,7 @@
 			},
 			"Breed a ~|pavosaurus rex|~": {
 				"Category": ["Normal Farming"],
-				"Objects": ["Breeding paddock"],
+				"Objects": ["Dinosaur breeding pen"],
 				"Items": ["VariantPavosaurus[+]"],
 				"Level": 118,
 				"Output": "PavosaurusRexBreed",
@@ -35327,7 +35327,7 @@
 			},
 			"Breed a ~|pavosaurus nemus|~": {
 				"Category": ["Normal Farming"],
-				"Objects": ["Breeding paddock"],
+				"Objects": ["Dinosaur breeding pen"],
 				"Items": ["Pavosaurus rex (unchecked)"],
 				"Level": 118,
 				"Output": "PavosaurusNemusBreed",
@@ -35336,7 +35336,7 @@
 			},
 			"Breed a ~|pavosaurus desertum|~": {
 				"Category": ["Normal Farming"],
-				"Objects": ["Breeding paddock"],
+				"Objects": ["Dinosaur breeding pen"],
 				"Items": ["Pavosaurus rex (unchecked)"],
 				"Level": 118,
 				"Output": "PavosaurusDesertumBreed",
@@ -61105,12 +61105,14 @@
 				"NoBoost": true
 			},
 			"Complete a slayer contract from ~|Markus|~": {
+				"Category": ["Slayer Contracts"],
 				"Chunks": ["13623"],
 				"Level": 5,
 				"Primary": true,
 				"Priority": 1
 			},
 			"Complete a slayer contract from ~|Erskine|~": {
+				"Category": ["Slayer Contracts"],
 				"Chunks": ["12343", "ErskineSlayerChunks[+]"],
 				"Level": 1,
 				"Primary": true,
@@ -61480,7 +61482,7 @@
 				"Priority": 12
 			},
 			"Complete an ~|abyssal slayer contract|~ ": {
-				"Category": ["DnD Skilling"],
+				"Category": ["DnD Skilling", "Slayer Contracts"],
 				"Items": ["Abyssal Slayer Contract"],
 				"Level": 1,
 				"Primary": true,
@@ -106338,7 +106340,7 @@
 			},
 			"~|Desert Achievements#Easy|~ Fool's Gold": {
 				"Description": "Catch a golden warbler.",
-				"NPCs": ["Golden warbler"],
+				"NPCs": ["GoldenWarbler[+]"],
 				"Items": ["Bird snare"],
 				"Skills": {
 					"Hunter": 5
@@ -122926,7 +122928,7 @@
 				"Not F2P": true
 			},
 			"~|Completionist achievements#Completionist Cape|~ Walking the Reef": {
-				"Category": ["Comp achievements"],
+				"Category": ["Comp achievements", "Ports Scrolls"],
 				"Description": "Find all reefwalker's cape scroll pieces in Player Owned Ports.",
 				"BaseQuest": "Completionist achievements",
 				"Chunks": ["Player-Owned Port"],
@@ -123990,7 +123992,7 @@
 				"Not F2P": true
 			},
 			"~|Completionist achievements#Trimmed Completionist Cape|~ Scrolling in the Deep": {
-				"Category": ["Comp achievements", "Trim achievements"],
+				"Category": ["Comp achievements", "Trim achievements", "Ports Scrolls"],
 				"Description": "Find every scroll piece in Player Owned Ports.",
 				"BaseQuest": "Completionist achievements",
 				"Chunks": ["Player-Owned Port"],
@@ -124413,7 +124415,7 @@
 				"Label": "Achievement",
 				"Tasks": {
 					"Unlock the Anachronia Base Camp": "Nonskill"
-				},
+				}
 			},
 			"Complete the ~|Sole to Soul|~ achievement": {
 				"Category": ["Achievement", "Misc achievements"],
@@ -132175,6 +132177,26 @@
 				"Category": ["Untracked Uniques", "Untracked Uniques Combat", "Pets"],
 				"Label": "Untracked Combat Uniques",
 				"Items": ["Tetch"]
+			},
+			"(Ghost Hunter Outfit) Obtain ~|ghost hunter goggles|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Combat"],
+				"Label": "Untracked Combat Uniques",
+				"Items": ["Ghost hunter goggles"]
+			},
+			"(Ghost Hunter Outfit) Obtain ~|ghost hunter body|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Combat"],
+				"Label": "Untracked Combat Uniques",
+				"Items": ["Ghost hunter body"]
+			},
+			"(Ghost Hunter Outfit) Obtain ~|ghost hunter legs|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Combat"],
+				"Label": "Untracked Combat Uniques",
+				"Items": ["Ghost hunter legs"]
+			},
+			"(Ghost Hunter Outfit) Obtain ~|ghost hunter backback|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Combat"],
+				"Label": "Untracked Combat Uniques",
+				"Items": ["Ghost hunter backback"]
 			},
 			"(Temple of Aminishi) Obtain a ~|tetsu sword upgrade kit|~": {
 				"Category": ["Untracked Uniques", "Untracked Uniques Combat"],
@@ -198478,7 +198500,8 @@
 			"Tanner[+]": ["Tanner", "Ellis", "Sbott", "Tanya Hyde", "Leatherworker"],
 			"Wisp[+]": ["Pale wisp", "Cursed wisp"],
 			"SlayerPointMasters[+]": ["Jacquelyn", "Vannaka", "The Raptor#Fort Forinthry", "Mazchna", "Chaeldar", "Sumona", "Duradel", "Kuradal", "Morvran", "Laniakea", "Mandrith"],
-			"CrystalToolNPC[+]": ["Ilfeen", "Eluned", "Islwyn", "Rhodri Dail"]
+			"CrystalToolNPC[+]": ["Ilfeen", "Eluned", "Islwyn", "Rhodri Dail"],
+			"GoldenWarbler[+]": ["Golden warbler", "Golden warbler (Anachronia)"]
 		},
 		"npcsPlusNames": {
 			"Dyer[+]": "Access to either Rana or Aggie",
@@ -198492,7 +198515,8 @@
 			"StrengthMaster[+]": "Sloane or his replacement",
 			"Tanner[+]": "Any hide tanner",
 			"Wisp[+]": "Any level 1 wisp",
-			"SlayerPointMasters[+]": "Any slayer master that may award you Slayer Points"
+			"SlayerPointMasters[+]": "Any slayer master that may award you Slayer Points",
+			"GoldenWarbler[+]": "Any golden warbler variant"
 		},
 		"tasksPlus": {
 			"A Taste of the Exotic[+]": ["Hard Ardougne tasks ~|A Taste of the Exotic|~ (Coconut)*", "Hard Ardougne tasks ~|A Taste of the Exotic|~ (Papaya)*"],
@@ -256785,7 +256809,7 @@
 			}],
 			"Corrupted gem^": [{
 				"Corrupted creature task": "Nonskill"
-			}]
+			}],
 			"Chicken egg (unchecked)^": [{
 				"~|Player-owned farm tutorial|~ Complete the tutorial": "Quest"
 			}],
@@ -257896,7 +257920,7 @@
 					"~|Player-owned farm tutorial|~ Complete the tutorial": "Quest"
 				}]
 			},
-			"Farmers' Market (Aanachronia)": {
+			"Farmers' Market (Anachronia)": {
 				"14916": [{
 					"Unlock the Anachronia Base Camp": "Nonskill"
 				}, {
