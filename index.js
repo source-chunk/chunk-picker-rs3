@@ -2,14 +2,11 @@
  * Created by Source Chunk
  * Revision of an idea by Amehzyn
  * With help from Slay to Stay for chunk Ids and Amehzyn for smoother zooming/url decoding
- * 02/19/2024
  */
 
 let onMobile = false;                                                           // Is user on a mobile device
 let viewOnly = false;                                                           // View only mode active
 let isPicking = false;                                                          // Has the user just rolled 2 chunks and is currently picking
-let autoSelectNeighbors = false;                                                // Toggle state for select neighbors button
-let autoRemoveSelected = false;                                                 // Toggle state for remove selected button
 let showChunkIds = false;                                                       // Toggle state for show chunk ids button
 let clicked = false;                                                            // Is mouse being held down
 let screenshotMode = false;                                                     // Is screenshot mode on
@@ -514,8 +511,8 @@ let ruleNames = {
     "Shortcut Task": "Allow Agility shortcuts to count as an Agility skill task",
     "Shortcut": "Allow Agility shortcuts to count as a primary method for training Agility",
     "Wield Crafted Items": "Crafted items (e.g. bows, metal armour/weapons, etc.) can be wielded as part of chunks tasks (as BiS gear, wielding requirements, training methods, etc.)<span class='rule-asterisk noscroll'>*</span>",
-    "Wield Crafted Items Override": "Require higher level processing skill tasks if the resulting item would be a BiS (may require longer calculation times)",
-    "Multi Step Processing": "Allow higher level processing of resources to enable other processing tasks<span class='rule-asterisk noscroll'>*</span>",
+    "Wield Crafted Items Override": "Require higher level processing skill tasks if the resulting item would be a BiS (may require longer calculation times)<span class='wieldCraftedItemsOverrideRuleTooltip'></span>",
+    "Multi Step Processing": `Allow higher level processing of resources to enable other processing tasks <span class='rule-asterisk noscroll'>*</span><span class='multiStepProcessingRuleTooltip'></span>`,
     "Puro-Puro": "Allow implings in underground areas (Puro-Puro, City of Um, etc.) & their drops to count towards chunk tasks",
     "Extra implings": "Include implings that have non-guaranteed spawns as chunk tasks",
     "Wandering implings": "Allow implings that randomly wander the world & their drops to count towards chunk tasks <span class='rule-asterisk noscroll'>†</span>",
@@ -964,6 +961,11 @@ let taskGeneratingRules = {
     "All Shops": true,
 };                                                                              // List of rule that generate tasks
 
+let ruleTooltips = [
+    'multiStepProcessingRuleTooltip',
+    'wieldCraftedItemsOverrideRuleTooltip'
+];
+
 let settings = {
     "highvis": false,
     "neighbors": true,
@@ -992,6 +994,7 @@ let settings = {
     "shiftUnlock": false,
     "rollWarning": false,
     "unlockedBorderColor": '#FF0000',
+    "chunkNeighboursOptions": { "neighbors": true, "walkableRollable": true, "autoWalkableRollable": false, "remove": false },
     "defaultChunkinfo": 'monsters',
     "taskSearchbar": false,
 };                                                                              // Current state of all settings
@@ -1033,6 +1036,9 @@ let settingStructure = {
         "roll2": true,
         "unpick": true,
         "randomStartAlways": true
+    },
+    "Chunk Neighbours Options": {
+        "chunkNeighboursOptions": true
     },
     "Chunk Neighbours": {
         "neighbors": ["walkableRollable", "autoWalkableRollable"],
@@ -1516,12 +1522,12 @@ let topbarElements = {
     'Sandbox Mode': `<div><span class='noscroll' onclick="enableTestMode()"><i class="gosandbox fa-solid fa-flask" title='Sandbox Mode'></i></span></div>`,
 };
 
-let currentVersion = '6.6.38.1';
+let currentVersion = '6.7.0';
 let patchNotesVersion = '6.4.0';
 let updateLevel = 'difference';
 
 // Patreon Test Server Data
-let onTestServer = false;
+let onTestServer = true;
 let patreonMaps = {
     'test': true, // testing
     'temp': true, // testing
@@ -1624,7 +1630,7 @@ let wildySlayerChunks = ['11835', '11836', '12090', '12091', '12345', '12347', '
 let hintTexts = [
     "Join the ClanChat: 'Chunksters'!",
     "Join the Chunk Chat Discord!",
-    "Celebrating over 4 years of Chunk Picking!",
+    "Celebrating over 5 years of Chunk Picking!",
     "Check out our OSRS Sister-site!",
     "Now with Custom Themes!"
 ];
@@ -1660,7 +1666,7 @@ mapImg.addEventListener("load", e => {
         centerCanvas('quick');
     }
 });
-mapImg.src = "runescape_world_map.png?v=6.6.38.1";
+mapImg.src = "runescape_world_map.png?v=6.7.0";
 
 // Rounded rectangle
 CanvasRenderingContext2D.prototype.roundRect = function (x, y, w, h, r) {
@@ -2713,8 +2719,8 @@ let handleMouseUp = function(e) {
                     delete recentChunks[otherChunkId.toString()];
                 });
                 delete tempChunks['potential'];
-                autoSelectNeighbors && selectNeighborsCanvas(parseInt(chunkId));
-                if (autoRemoveSelected) {
+                settings['chunkNeighboursOptions']['neighbors'] && selectNeighborsCanvas(parseInt(chunkId));
+                if (settings['chunkNeighboursOptions']['remove']) {
                     tempSelectedChunks = [];
                     !!tempChunks['selected'] && Object.keys(tempChunks['selected']).forEach((otherChunkId) => {
                         delete tempChunks['selected'][otherChunkId];
@@ -3061,11 +3067,11 @@ let pickCanvas = function(both, override) {
             tempChunks['unlocked'][el[rand]] = el[rand];
             recentChunks[el[rand]] = el[rand];
             scrollToChunkCanvas(el[rand]);
-            autoSelectNeighbors && !didRandomStart && selectNeighborsCanvas(parseInt(el[rand]));
+            settings['chunkNeighboursOptions']['neighbors'] && !didRandomStart && selectNeighborsCanvas(parseInt(el[rand]));
             setRecentRoll(el[rand]);
             chunkJustRolled = true;
         }
-        if (autoRemoveSelected) {
+        if (settings['chunkNeighboursOptions']['remove']) {
             tempSelectedChunks = [];
             !!tempChunks['selected'] && Object.keys(tempChunks['selected']).forEach((chunkId) => {
                 delete tempChunks['selected'][chunkId];
@@ -3179,8 +3185,8 @@ let pickCanvas = function(both, override) {
     if (!el[rand]) {
         return;
     }
-    autoSelectNeighbors && !didRandomStart && selectNeighborsCanvas(parseInt(el[rand]));
-    if (autoRemoveSelected) {
+    settings['chunkNeighboursOptions']['neighbors'] && !didRandomStart && selectNeighborsCanvas(parseInt(el[rand]));
+    if (settings['chunkNeighboursOptions']['remove']) {
         tempSelectedChunks = [];
         !!tempChunks['selected'] && Object.keys(tempChunks['selected']).forEach((chunkId) => {
             delete tempChunks['selected'][chunkId];
@@ -3366,7 +3372,7 @@ let calcCurrentChallengesCanvas = function(useOld, proceed, fromLoadData, inputT
         setCalculating('.panel-active', useOld);
         setCurrentChallenges(['No tasks currently backlogged.'], ['No tasks currently completed.'], true, true);
         myWorker.terminate();
-        myWorker = new Worker("./worker.js?v=6.6.38.1");
+        myWorker = new Worker("./worker.js?v=6.7.0");
         myWorker.onmessage = workerOnMessage;
         myWorker.postMessage(['current', tempChunks['unlocked'], rules, chunkInfo, skillNames, processingSkill, maybePrimary, combatSkills, monstersPlus, objectsPlus, chunksPlus, itemsPlus, mixPlus, npcsPlus, tasksPlus, tools, elementalRunes, manualTasks, completedChallenges, backlog, "1/" + rules['Rare Drop Amount'], universalPrimary, elementalStaves, rangedItems, boneItems, highestCurrent, dropTables, possibleAreas, randomLoot, magicTools, bossLogs, bossMonsters, minigameShops, manualEquipment, checkedChallenges, backloggedSources, altChallenges, manualMonsters, slayerLocked, passiveSkill, f2pSkills, assignedXpRewards, mid === diary2Tier, manualAreas, "1/" + rules['Secondary Primary Amount'], mid === manualAreasOnly, tempSections, maxSkill, userTasks, manualPrimary, updateLevel]);
         workersOut['current'] = true;
@@ -3670,8 +3676,8 @@ $(document).ready(function() {
 // ------------------------------------------------------------
 
 // Recieve message from worker
-let myWorker = new Worker("./worker.js?v=6.6.38.1");
-let myWorker2 = new Worker("./worker.js?v=6.6.38.1");
+let myWorker = new Worker("./worker.js?v=6.7.0");
+let myWorker2 = new Worker("./worker.js?v=6.7.0");
 let workerOnMessage = function(e) {
     if (e.data[0] === 'reload') {
         window.location.reload();
@@ -4283,24 +4289,6 @@ $(document).on({
 // Button Functions
 
 // ----------------------------------------------------------
-
-// Toggle functionality for if neighbors are to be selected on chunk pick
-let toggleNeighbors = function(value, extra) {
-    if (locked && extra !== 'startup') {
-        return;
-    }
-    autoSelectNeighbors = value;
-    extra !== 'startup' && !locked && setData();
-}
-
-// Toggle functionality for if other selected chunks are set to unlocked after chunk pick
-let toggleRemove = function(value, extra) {
-    if (locked && extra !== 'startup') {
-        return;
-    }
-    autoRemoveSelected = value;
-    extra !== 'startup' && !locked && setData();
-}
 
 // Toggle functionality for showing chunk ids
 let toggleIds = function(value) {
@@ -5674,7 +5662,7 @@ let toggleInfoPanel = function(pnl) {
                 $('.expand').hide();
             }
             if (pnl === 'quests' && infoPanelVis[pnl]) {
-                $('.help').show();
+                $('.help').html(`${tooltip.generate('questHelpTooltip', '<i class="fa-solid fa-question-circle question-help"></i>', 'questHelpTooltip', onMobile ? 'left' : 'right')}`).show();
             } else {
                 $('.help').hide();
             }
@@ -6537,7 +6525,7 @@ let calcFutureChallenges = function() {
     }
     tempSections = combineJSONs(tempSections, manualSections);
     myWorker2.terminate();
-    myWorker2 = new Worker("./worker.js?v=6.6.38.1");
+    myWorker2 = new Worker("./worker.js?v=6.7.0");
     myWorker2.onmessage = workerOnMessage;
     myWorker2.postMessage(['future', chunks, rules, chunkInfo, skillNames, processingSkill, maybePrimary, combatSkills, monstersPlus, objectsPlus, chunksPlus, itemsPlus, mixPlus, npcsPlus, tasksPlus, tools, elementalRunes, manualTasks, completedChallenges, backlog, "1/" + rules['Rare Drop Amount'], universalPrimary, elementalStaves, rangedItems, boneItems, highestCurrent, dropTables, possibleAreas, randomLoot, magicTools, bossLogs, bossMonsters, minigameShops, manualEquipment, checkedChallenges, backloggedSources, altChallenges, manualMonsters, slayerLocked, passiveSkill, f2pSkills, assignedXpRewards, mid === diary2Tier, manualAreas, "1/" + rules['Secondary Primary Amount'], mid === manualAreasOnly, tempSections, maxSkill, userTasks, manualPrimary, updateLevel]);
     workersOut['future'] = infoLockedId;
@@ -7291,6 +7279,7 @@ let openChunkSectionPicker = async function(chunkId, calculateAfter) {
             }
         });
         $('#chunk-section-picker-selectall-btn').prop('checked', Object.keys(selectedSections).filter(num => selectedSections[num]).length === Object.keys(sectionUrls).length);
+        $('.section-help').html(`${tooltip.generate('sectionHelpTooltip', '<i class="fa-solid fa-question-circle question-help"></i>', 'sectionHelpTooltip', onMobile ? 'bottom' : 'right', '350px')}`);
         $('#myModal43').show();
         modalOutsideTime = Date.now();
     }
@@ -8160,6 +8149,7 @@ let openSearch = function() {
     if (!inEntry && !importMenuOpen && !manualModalOpen && !detailsModalOpen && !notesModalOpen && !highscoreMenuOpen && !helpMenuOpen) {
         onMobile && hideMobileMenu();
         searchModalOpen = true;
+        $('.help2').html(`${tooltip.generate('searchTermsTooltips', '<span>~</span>', 'searchTermsTooltips', onMobile ? 'bottom' : 'right')}`);
         $('#myModal10').show();
         modalOutsideTime = Date.now();
         $('#searchChunks').val('').focus();
@@ -8487,7 +8477,7 @@ let openBisUpgrades = function(key) {
     $('.bis-upgrades-slot-name').text(`[${key.replaceAll('_', ' ').replaceAll('-', ' ')}]`);
     let slot = key.split('-')[1];
     bisUpgrades[key].forEach((equip, i) => {
-        $(`.bis-upgrades-data`).append(`<div class='noscroll row'><span class='noscroll item-pic'><img class='noscroll slot-icon' src='./resources/Clean_slot.png' title="${equip}" /><img class='noscroll' src="./resources/equipment_icons/${equip.replaceAll(/ /g, '_')}.png" onError='this.onerror=null;this.src="./resources/${slot}_slot.png"' title="${equip}" /></span><span class='noscroll slot-text'><a class='link' href="${"https://oldschool.runescape.wiki/w/" + encodeURI(equip)}" target="_blank">${equip}</a></span><span class='double-search-icon' onclick='openSearchDetails("items", "${encodeRFC5987ValueChars(equip)}")'><i class="fa-solid fa-search"></i></span></div>`);
+        $(`.bis-upgrades-data`).append(`<div class='noscroll row'><span class='noscroll item-pic'><img class='noscroll slot-icon' src='./resources/Clean_slot.png' title="${equip}" /><img class='noscroll' src="./resources/equipment_icons/${equip.replaceAll(/ /g, '_')}.png" onError='this.onerror=null;this.src="./resources/${slot}_slot.png"' title="${equip}" /></span><span class='noscroll slot-text'><a class='link' href="${"https://runescape.wiki/w/" + encodeURI(equip)}" target="_blank">${equip}</a></span><span class='double-search-icon' onclick='openSearchDetails("items", "${encodeRFC5987ValueChars(equip)}")'><i class="fa-solid fa-search"></i></span></div>`);
         (i < (bisUpgrades[key].length - 1)) && $(`.bis-upgrades-data`).append(`<div class='noscroll arrow-row' title='Upgrades to'><i class="fa-solid fa-angles-up"></i></div>`);
     });
     $('#myModal50').show();
@@ -8561,7 +8551,8 @@ let openHighest2 = function(notScrollTop) {
                 }
             } else if (combatStyle === 'Quests') {
                 $(`.${combatStyle.replaceAll(' ', '_')}-body`).append(`<div class='noscroll qps'>Quest Points: ${questPointTotal}<i class="noscroll fa-solid fa-filter" title="Filter" onclick="openQuestFilterContextMenu()"></i></div>`);
-                $(`.${combatStyle.replaceAll(' ', '_')}-body`).append(`<div class="quest-question-outer"><span class="quest-question">What do the colors indicate? <i class="fa-solid fa-question-circle"></i><span class="tooltiptext"><div>Quests in <span style="color:green">green</span> indicate a quest that you can complete within your chunks.</div><hr /><div>Quests in <span style="color:yellow">yellow</span> indicate a quest that can be started, but not completed within your chunks.</div><hr /><div>Quests in <span style="color:grey">grey</span> indicate a quest that cannot be started yet.</div></span></span></div>`);
+                let tooltipBase = `<span class="quest-question">What do the colors indicate? <i class="fa-solid fa-question-circle question-help"></i></span>`;
+                $(`.${combatStyle.replaceAll(' ', '_')}-body`).append(`<div class="quest-question-outer">${tooltip.generate('questsColorTooltip', tooltipBase, 'questsColorTooltip', onMobile ? 'bottom' : 'right')}</div>`);
                 Object.keys(chunkInfo['quests']).filter(quest => { return quest === 'break' || quest === 'break2' || quest === 'break3' || questFilterType === 'all' || (questFilterType === 'complete' && questProgress.hasOwnProperty(quest) && (questProgress[quest] === 'Complete the quest')) || (questFilterType === 'incomplete' && questProgress.hasOwnProperty(quest) && Array.isArray(questProgress[quest])) || (questFilterType === 'unstarted' && !questProgress.hasOwnProperty(quest)) }).forEach((quest) => {
                     if (quest === 'break' || quest === 'break2' || quest === 'break3') {
                         $(`.${combatStyle.replaceAll(' ', '_')}-body`).append(`<hr class='noscroll' />`);
@@ -8574,7 +8565,8 @@ let openHighest2 = function(notScrollTop) {
                 }
             } else if (combatStyle === 'Diaries') {
                 rules['Combat Mastery achievements'] && rules['Achievement'] && $(`.${combatStyle.replaceAll(' ', '_')}-body`).append(`<div class='noscroll cps'>Combat Achievement Points: ${combatPointTotal}</div>`);
-                $(`.${combatStyle.replaceAll(' ', '_')}-body`).append(`<div class="diary-question-outer"><span class="diary-question">What do the colors indicate? <i class="fas fa-question-circle"></i><span class="tooltiptext"><div>Diary tiers in <span style="color:green">green</span> indicate a diary that you can complete within your chunks.</div><hr /><div>Diary tiers in <span style="color:yellow">yellow</span> indicate a diary that can be started, but not completed within your chunks.</div><hr /><div>Diary tiers in <span style="color:grey">grey</span> indicate a diary that cannot be started yet.</div></span></span></div>`);
+                let tooltipBase = `<span class="diary-question">What do the colors indicate? <i class="fa-solid fa-question-circle question-help"></i></span>`;
+                $(`.${combatStyle.replaceAll(' ', '_')}-body`).append(`<div class="diary-question-outer">${tooltip.generate('diariesColorTooltip', tooltipBase, 'diariesColorTooltip', onMobile ? 'bottom' : 'right')}</div>`);
                 Object.keys(chunkInfo['diaries']).forEach((diary) => {
                     $(`.${combatStyle.replaceAll(' ', '_')}-body`).append(`<div class='noscroll row ${diary.replaceAll(' ', '_').replaceAll("'", '')}'><span class='noscroll outer-diary-text'>${diary.replaceAll(/~/g, '').replaceAll(/\|/g, '')}</div>`);
                     chunkInfo['diaries'][diary].split(', ').forEach((tier) => {
@@ -8850,6 +8842,8 @@ let openSlayerMasterInfo = function(master) {
     slayerMasterInfoModalOpen = true;
     $('.slayermasterinfo-data').empty();
     $('.slayermasterinfo-title').text(master);
+    let tooltipBase = `<span class="slayermasterinfo-question">What do the colors indicate? <i class="fa-solid fa-question-circle question-help"></i></span>`;
+    $('.slayermasterinfo-subtitle').html(`${tooltip.generate('slayerColorTooltip', tooltipBase, 'slayerColorTooltip', onMobile ? 'bottom' : 'right')}`);
     Object.keys(assignableSlayerTasks[master]).forEach((monster) => {
         if (monster.includes(' - ')) {
             $('.slayermasterinfo-data').append(`<div class="noscroll results ${assignableSlayerTasks[master][monster]}"><a class='noscroll link' href='https://runescape.wiki/w/Slayer_task/${monster.split(' - ')[0]}' target='_blank'>${monster.split(' - ')[0]}</a> - <a class='noscroll link' href="https://runescape.wiki/w/${encodeForUrl(monster.split(' - ')[1])}" target='_blank'>${monster.split(' - ')[1]}</a></div>`);
@@ -10586,6 +10580,10 @@ let showRules = function(isPage2) {
         document.getElementById('rules-data').scrollTop = 0;
         $('.rules-names').scrollTop(0);
         $('.rules-content .panel').scrollTop(0);
+        ruleTooltips.forEach((tooltipTargetSelector) => {
+            let tooltipTarget = onMobile ? $(`.rules-data > div:not(.rules-content) .${tooltipTargetSelector}`) : $(`.rules-data > .rules-content .${tooltipTargetSelector}`);
+            tooltipTarget.html(tooltip.generate(tooltipTargetSelector, '<i class="fa-solid fa-question-circle question-help"></i>', tooltipTargetSelector, onMobile ? 'bottom' : 'right'));
+        });
         $('#myModal4').show();
         modalOutsideTime = Date.now();
     }
@@ -10608,7 +10606,7 @@ let showSettings = function(keepSettingsClosed) {
             } else if (setting === 'startingChunk') {
                 $('.' + category.replaceAll(/ /g, '_') + '-category').append(`<div class="setting ${setting.replaceAll(' ', '_').replace(/[!"#$%&'()*+,.\/:;<=>?@\[\\\]\^\`{|}~]/g, '').toLowerCase() + '-setting'} noscroll"><span class='noscroll'>` + settingNames[setting] + `: ${settings[setting]}<i class="fa-solid fa-edit noscroll change-starting-chunk" title="Change Starting Chunk" onclick="openMapIntroModal(${true})"></i></span></div>`);
             } else if (setting === 'theme') {
-                $('.' + category.replaceAll(/ /g, '_') + '-category').append(`<div class="setting ${setting.replaceAll(' ', '_').replace(/[!"#$%&'()*+,.\/:;<=>?@\[\\\]\^\`{|}~]/g, '').toLowerCase() + '-setting'} noscroll"><div class='noscroll theme-header'>Theme:</div><button class='theme-button light' onclick="toggleTheme('light')">Light</button><button class='theme-button dark' onclick="toggleTheme('dark')">Dark</button><button class='theme-button terminal' onclick="toggleTheme('terminal')">Terminal</button><button class='theme-button neon' onclick="toggleTheme('neon')">Neon</button><button class='theme-button pumpkin' onclick="toggleTheme('pumpkin')">Pumpkin</button><button class='theme-button mono' onclick="toggleTheme('mono')">Mono</button><button class='theme-button winter' onclick="toggleTheme('winter')">Winter</button><button class='theme-button autumn' onclick="toggleTheme('autumn')">Autumn</button></div>`);
+                $('.' + category.replaceAll(/ /g, '_') + '-category').append(`<div class="setting ${setting.replaceAll(' ', '_').replace(/[!"#$%&'()*+,.\/:;<=>?@\[\\\]\^\`{|}~]/g, '').toLowerCase() + '-setting'} noscroll"><div class='noscroll theme-header'>Theme:</div><span class='theme-button-container'><button class='theme-button light' onclick="toggleTheme('light')">Light</button><button class='theme-button dark' onclick="toggleTheme('dark')">Dark</button><button class='theme-button terminal' onclick="toggleTheme('terminal')">Terminal</button><button class='theme-button neon' onclick="toggleTheme('neon')">Neon</button><button class='theme-button pumpkin' onclick="toggleTheme('pumpkin')">Pumpkin</button><button class='theme-button mono' onclick="toggleTheme('mono')">Mono</button><button class='theme-button winter' onclick="toggleTheme('winter')">Winter</button><button class='theme-button autumn' onclick="toggleTheme('autumn')">Autumn</button></span></div>`);
             } else if (setting === 'rollingChunksOptions') {
                 const outputHtml = `
                     <div class="setting">
@@ -10623,6 +10621,26 @@ let showSettings = function(keepSettingsClosed) {
                     </div>
                 `;
                 $('.' + category.replaceAll(/ /g, '_') + '-category').append(outputHtml);
+            } else if (setting === 'chunkNeighboursOptions') {
+                let tooltipBase = `<span class="neighbors-question"><i class="fa-solid fa-question-circle question-help"></i></span>`;
+                const outputHtml = `
+                    <div class="setting">
+                        <p class='noscroll rolling-chunk-options-p'>The options below are specifically for what behavior occurs when a new chunk is rolled. If none of the options below are selected, no aditional actions will occur after rolling a chunk.</p>
+                        <div class='noscroll theme-header'>After rolling a chunk:</div>
+                        <div class="neighbors-outer">
+                            <div class="setting neighbors-inner neighbors-inner-1">
+                                <div class="${setting.replaceAll(' ', '_').replace(/[!"#$%&'()*+,.\/:;<=>?@\[\\\]\^\`{|}~]/g, '').toLowerCase() + '-neighbors-setting subsetting'} noscroll"><label class="checkbox noscroll ${(viewOnly || inEntry || locked) ? "checkbox--disabled" : ''}"><span class="checkbox__input noscroll"><input type="checkbox" name="checkbox" ${settings[setting]['neighbors'] ? "checked" : ''} class='noscroll' onclick="checkOffNeighbourOption('neighbors')" ${(viewOnly || inEntry || locked) ? "disabled" : ''} /><span class="checkbox__control noscroll"><svg viewBox='0 0 24 24' aria-hidden="true" focusable="false"><path fill='none' stroke='currentColor' stroke-width='3' d='M1.73 12.91l6.37 6.37L22.79 4.59' /></svg></span></span><span class="radio__label noscroll">...mark chunks neighbouring/adjacent to the rolled chunk as rollable</span></label></div>
+                                <div class="setting ${setting.replaceAll(' ', '_').replace(/[!"#$%&'()*+,.\/:;<=>?@\[\\\]\^\`{|}~]/g, '').toLowerCase() + '-walkableRollable-setting subsetting'} noscroll"><label class="checkbox noscroll ${(viewOnly || inEntry || locked) ? "checkbox--disabled" : ''}"><span class="checkbox__input noscroll"><input type="checkbox" name="checkbox" ${settings[setting]['walkableRollable'] ? "checked" : ''} class='noscroll' onclick="checkOffNeighbourOption('walkableRollable')" ${(viewOnly || inEntry || locked) ? "disabled" : ''} /><span class="checkbox__control noscroll"><svg viewBox='0 0 24 24' aria-hidden="true" focusable="false"><path fill='none' stroke='currentColor' stroke-width='3' d='M1.73 12.91l6.37 6.37L22.79 4.59' /></svg></span></span><span class="radio__label noscroll">Only include chunks that have some walkable area</span></label></div>
+                                <div class="setting ${setting.replaceAll(' ', '_').replace(/[!"#$%&'()*+,.\/:;<=>?@\[\\\]\^\`{|}~]/g, '').toLowerCase() + '-autoWalkableRollable-setting subsetting'} noscroll"><label class="checkbox noscroll ${(viewOnly || inEntry || locked) ? "checkbox--disabled" : ''}"><span class="checkbox__input noscroll"><input type="checkbox" name="checkbox" ${settings[setting]['autoWalkableRollable'] ? "checked" : ''} class='noscroll' onclick="checkOffNeighbourOption('autoWalkableRollable')" ${(viewOnly || inEntry || locked) ? "disabled" : ''} /><span class="checkbox__control noscroll"><svg viewBox='0 0 24 24' aria-hidden="true" focusable="false"><path fill='none' stroke='currentColor' stroke-width='3' d='M1.73 12.91l6.37 6.37L22.79 4.59' /></svg></span></span><span class="radio__label noscroll">Across the whole map, mark any actually accessible chunks neighbouring any of my unlocked chunks as rollable${tooltip.generate('neighborsTooltip', tooltipBase, 'neighborsTooltip', onMobile ? 'bottom' : 'right')}</span></label></div>
+                            </div>
+                            <div class="setting neighbors-inner neighbors-inner-2">
+                                <div class="${setting.replaceAll(' ', '_').replace(/[!"#$%&'()*+,.\/:;<=>?@\[\\\]\^\`{|}~]/g, '').toLowerCase() + '-remove-setting subsetting'} noscroll"><label class="checkbox noscroll ${(viewOnly || inEntry || locked) ? "checkbox--disabled" : ''}"><span class="checkbox__input noscroll"><input type="checkbox" name="checkbox" ${settings[setting]['remove'] ? "checked" : ''} class='noscroll' onclick="checkOffNeighbourOption('remove')" ${(viewOnly || inEntry || locked) ? "disabled" : ''} /><span class="checkbox__control noscroll"><svg viewBox='0 0 24 24' aria-hidden="true" focusable="false"><path fill='none' stroke='currentColor' stroke-width='3' d='M1.73 12.91l6.37 6.37L22.79 4.59' /></svg></span></span><span class="radio__label noscroll">...remove all rollable chunk markings from my map</span></label></div>
+                            </div>
+                        </div>
+                    </div>
+                `;
+                $('.' + category.replaceAll(/ /g, '_') + '-category').append(outputHtml);
+                handleNeighboursDisabling();
             } else {
                 $('.' + category.replaceAll(/ /g, '_') + '-category').append(`<div class="setting ${setting.replaceAll(' ', '_').replace(/[!"#$%&'()*+,.\/:;<=>?@\[\\\]\^\`{|}~]/g, '').toLowerCase() + '-setting'} noscroll"><label class="checkbox noscroll ${(viewOnly || inEntry || locked || settingStructure[category][setting] === false) ? "checkbox--disabled" : ''}"><span class="checkbox__input noscroll"><input type="checkbox" name="checkbox" ${settings[setting] ? "checked" : ''} class='noscroll' onclick="checkOffSettings()" ${(viewOnly || inEntry || locked || settingStructure[category][setting] === false) ? "disabled" : ''}><span class="checkbox__control noscroll"><svg viewBox='0 0 24 24' aria-hidden="true" focusable="false"><path fill='none' stroke='currentColor' stroke-width='3' d='M1.73 12.91l6.37 6.37L22.79 4.59' /></svg></span></span><span class="radio__label noscroll">${settingNames[setting]}</span></label></div>`);
             }
@@ -10645,6 +10663,45 @@ let showSettings = function(keepSettingsClosed) {
 // Checks off rolling option by name
 let checkOffRollingOption = function(inputName) {
     settings['rollingChunksOptions'][inputName] = $(`.rollingchunksoptions-${inputName}-setting input`).prop('checked');
+    setData();
+}
+
+// Checks off neighbour option by name
+let checkOffNeighbourOption = function(inputName) {
+    settings['chunkNeighboursOptions'][inputName] = $(`.chunkneighboursoptions-${inputName}-setting input`).prop('checked');
+    if (inputName === 'neighbors' && !settings['chunkNeighboursOptions'][inputName]) {
+        $(`.neighbors-inner-1 .setting input`).prop('checked', false);
+        settings['chunkNeighboursOptions']['walkableRollable'] = false;
+        settings['chunkNeighboursOptions']['autoWalkableRollable'] = false;
+    }
+    handleNeighboursDisabling();
+    setData();
+}
+
+// Helper function to handle disabling parts of the neighbours settings
+let handleNeighboursDisabling = function() {
+    if (settings['chunkNeighboursOptions']['remove'] && !settings['chunkNeighboursOptions']['neighbors']) {
+        $(`.neighbors-inner-1`).addClass('disabled-neighbors');
+        $(`.neighbors-inner-1 input`).prop('disabled', true);
+    } else {
+        $(`.neighbors-inner-1`).removeClass('disabled-neighbors');
+        $(`.neighbors-inner-1 input`).prop('disabled', false);
+    }
+    if (settings['chunkNeighboursOptions']['neighbors']) {
+        $(`.neighbors-inner-2`).addClass('disabled-neighbors');
+        $(`.neighbors-inner-2 input`).prop('disabled', true);
+        $(`.neighbors-inner-1 .setting`).removeClass('disabled-neighbors');
+        $(`.neighbors-inner-1 .setting input`).prop('disabled', false);
+    } else {
+        $(`.neighbors-inner-2`).removeClass('disabled-neighbors');
+        $(`.neighbors-inner-2 input`).prop('disabled', false);
+        $(`.neighbors-inner-1 .setting input`).prop('disabled', true);
+        if (!settings['chunkNeighboursOptions']['remove']) {
+            $(`.neighbors-inner-1 .setting`).addClass('disabled-neighbors');
+        } else {
+            $(`.neighbors-inner-1 .setting`).removeClass('disabled-neighbors');
+        }
+    }
 }
 
 // Changes the active challenges color
@@ -11210,8 +11267,6 @@ let checkOffSettings = function(didRedo, startup) {
     toggleIds(settings['ids']);
     toggleVisibility(settings['highvis']);
     toggleTheme(settings['theme']);
-    toggleNeighbors(settings['neighbors'], startup);
-    toggleRemove(settings['remove'], startup);
     toggleRoll2(settings['roll2'], startup);
     toggleUnpick(settings['unpick'], startup);
     toggleRecent(settings['recent'], startup);
@@ -11681,14 +11736,21 @@ let loadData = async function(startup) {
             settingsTemp['info'] = true;
         }
 
+        if (!settingsTemp.hasOwnProperty('chunkNeighboursOptions') && settingsTemp.hasOwnProperty('neighbors')) {
+            settingsTemp['chunkNeighboursOptions'] = {
+                "neighbors": settingsTemp['neighbors'],
+                "walkableRollable": settingsTemp['walkableRollable'],
+                "autoWalkableRollable": settingsTemp['autoWalkableRollable'],
+                "remove": settingsTemp['remove']
+            };
+        }
+
         Object.keys(settingsTemp).forEach((setting) => {
             settings[setting] = settingsTemp[setting];
         });
         toggleIds(settings['ids']);
         toggleVisibility(settings['highvis']);
         toggleTheme(settings['theme']);
-        toggleNeighbors(settings['neighbors'], 'startup');
-        toggleRemove(settings['remove'], 'startup');
         toggleRoll2(settings['roll2'], 'startup');
         toggleUnpick(settings['unpick'], 'startup');
         toggleRecent(settings['recent'], 'startup');
@@ -12181,7 +12243,7 @@ let setData = function() {
                     recentFancyRollTime,
                     userTasks: encodeObject(userTasks, true),
                     manualPrimary: encodeObject(manualPrimary, true),
-                    settings: { 'neighbors': autoSelectNeighbors, 'walkableRollable': settings['walkableRollable'], 'autoWalkableRollable': settings['autoWalkableRollable'], 'remove': autoRemoveSelected, 'roll2': roll2On, 'unpick': unpickOn, 'randomStartAlways': settings['randomStartAlways'], 'recent': recentOn, 'cinematicRoll': settings['cinematicRoll'], 'highscoreEnabled': false, 'chunkTasks': chunkTasksOn, 'topButtons': topButtonsOn, 'completedTaskColor': settings['completedTaskColor'], 'defaultStickerColor': settings['defaultStickerColor'], 'unlockedBorderColor': settings['unlockedBorderColor'], 'completedTaskStrikethrough': settings['completedTaskStrikethrough'], 'taskSidebar': settings['taskSidebar'], 'allTasks': settings['allTasks'], 'startingChunk': settings['startingChunk'], 'numTasksPercent': settings['numTasksPercent'], 'help': !(!helpMenuOpen && !helpMenuOpenSoon), 'patchNotes': (!patchNotesOpen && !patchNotesOpenSoon) ? patchNotesVersion : settings['patchNotes'], 'mapIntro': !mapIntroOpen && !mapIntroOpenSoon, 'theme': theme, 'newTasks': settings['newTasks'], 'hideChecked': settings['hideChecked'], 'shiftUnlock': settings['shiftUnlock'], rollWarning: settings['rollWarning'], info: chunkInfoOn, 'defaultChunkinfo': settings['defaultChunkinfo'], 'taskSearchbar': settings['taskSearchbar'] }, //TEMP (highscore not enabled)
+                    settings: { 'chunkNeighboursOptions': settings['chunkNeighboursOptions'], 'roll2': roll2On, 'unpick': unpickOn, 'randomStartAlways': settings['randomStartAlways'], 'recent': recentOn, 'cinematicRoll': settings['cinematicRoll'], 'highscoreEnabled': false, 'chunkTasks': chunkTasksOn, 'topButtons': topButtonsOn, 'completedTaskColor': settings['completedTaskColor'], 'defaultStickerColor': settings['defaultStickerColor'], 'unlockedBorderColor': settings['unlockedBorderColor'], 'completedTaskStrikethrough': settings['completedTaskStrikethrough'], 'taskSidebar': settings['taskSidebar'], 'allTasks': settings['allTasks'], 'startingChunk': settings['startingChunk'], 'numTasksPercent': settings['numTasksPercent'], 'help': !(!helpMenuOpen && !helpMenuOpenSoon), 'patchNotes': (!patchNotesOpen && !patchNotesOpenSoon) ? patchNotesVersion : settings['patchNotes'], 'mapIntro': !mapIntroOpen && !mapIntroOpenSoon, 'theme': theme, 'newTasks': settings['newTasks'], 'hideChecked': settings['hideChecked'], 'shiftUnlock': settings['shiftUnlock'], rollWarning: settings['rollWarning'], info: chunkInfoOn, 'defaultChunkinfo': settings['defaultChunkinfo'], 'taskSearchbar': settings['taskSearchbar'] }, //TEMP (highscore not enabled)
                     chunkinfo: { checkedChallenges: encodeObject(checkedChallenges, true), completedChallenges: encodeObject(completedChallenges, true), backlog: encodeObject(backlog, true), possibleAreas: encodeObject(possibleAreas, true), manualTasks: encodeObject(manualTasks, true), manualEquipment: encodeObject(manualEquipment, true), backloggedSources: encodeObject(backloggedSources, true), altChallenges: encodeObject(altChallenges, true), manualMonsters: encodeObject(manualMonsters, true), slayerLocked: encodeObject(slayerLocked, true), passiveSkill: encodeObject(passiveSkill, true), maxSkill: encodeObject(maxSkill, true), oldSavedChallengeArr: encodeObject(oldSavedChallengeArr, true), assignedXpRewards: encodeObject(assignedXpRewards, true), manualAreas: encodeObject(manualAreas, true), manualSections: encodeObject(manualSections, true), prevValueLevelInput: encodeObject(prevValueLevelInput, true), checkedAllTasks: encodeObject(checkedAllTasks, true) },
                     chunks: { unlocked: unlockedJson, selected: selectedJson, potential: potentialJson, blacklisted: blacklistedJson, stickered, stickeredNotes: encodeObject(stickeredNotes, true), stickeredColors },
                 };
@@ -12248,7 +12310,7 @@ let setData = function() {
                 recentFancyRollTime,
                 userTasks: encodeObject(userTasks, true),
                 manualPrimary: encodeObject(manualPrimary, true),
-                settings: { 'neighbors': autoSelectNeighbors, 'walkableRollable': settings['walkableRollable'], 'autoWalkableRollable': settings['autoWalkableRollable'], 'remove': autoRemoveSelected, 'roll2': roll2On, 'unpick': unpickOn, 'randomStartAlways': settings['randomStartAlways'], 'recent': recentOn, 'cinematicRoll': settings['cinematicRoll'], 'highscoreEnabled': false, 'chunkTasks': chunkTasksOn, 'topButtons': topButtonsOn, 'completedTaskColor': settings['completedTaskColor'], 'defaultStickerColor': settings['defaultStickerColor'], 'unlockedBorderColor': settings['unlockedBorderColor'], 'completedTaskStrikethrough': settings['completedTaskStrikethrough'], 'taskSidebar': settings['taskSidebar'], 'allTasks': settings['allTasks'], 'startingChunk': settings['startingChunk'], 'numTasksPercent': settings['numTasksPercent'], 'help': !(!helpMenuOpen && !helpMenuOpenSoon), 'patchNotes': (!patchNotesOpen && !patchNotesOpenSoon) ? patchNotesVersion : settings['patchNotes'], 'mapIntro': !mapIntroOpen && !mapIntroOpenSoon, 'theme': theme, 'newTasks': settings['newTasks'], 'hideChecked': settings['hideChecked'], 'shiftUnlock': settings['shiftUnlock'], rollWarning: settings['rollWarning'], info: chunkInfoOn, 'defaultChunkinfo': settings['defaultChunkinfo'], 'taskSearchbar': settings['taskSearchbar'] }, //TEMP (highscore not enabled)
+                settings: { 'chunkNeighboursOptions': settings['chunkNeighboursOptions'], 'roll2': roll2On, 'unpick': unpickOn, 'randomStartAlways': settings['randomStartAlways'], 'recent': recentOn, 'cinematicRoll': settings['cinematicRoll'], 'highscoreEnabled': false, 'chunkTasks': chunkTasksOn, 'topButtons': topButtonsOn, 'completedTaskColor': settings['completedTaskColor'], 'defaultStickerColor': settings['defaultStickerColor'], 'unlockedBorderColor': settings['unlockedBorderColor'], 'completedTaskStrikethrough': settings['completedTaskStrikethrough'], 'taskSidebar': settings['taskSidebar'], 'allTasks': settings['allTasks'], 'startingChunk': settings['startingChunk'], 'numTasksPercent': settings['numTasksPercent'], 'help': !(!helpMenuOpen && !helpMenuOpenSoon), 'patchNotes': (!patchNotesOpen && !patchNotesOpenSoon) ? patchNotesVersion : settings['patchNotes'], 'mapIntro': !mapIntroOpen && !mapIntroOpenSoon, 'theme': theme, 'newTasks': settings['newTasks'], 'hideChecked': settings['hideChecked'], 'shiftUnlock': settings['shiftUnlock'], rollWarning: settings['rollWarning'], info: chunkInfoOn, 'defaultChunkinfo': settings['defaultChunkinfo'], 'taskSearchbar': settings['taskSearchbar'] }, //TEMP (highscore not enabled)
                 chunkinfo: { checkedChallenges: encodeObject(checkedChallenges, true), completedChallenges: encodeObject(completedChallenges, true), backlog: encodeObject(backlog, true), possibleAreas: encodeObject(possibleAreas, true), manualTasks: encodeObject(manualTasks, true), manualEquipment: encodeObject(manualEquipment, true), backloggedSources: encodeObject(backloggedSources, true), altChallenges: encodeObject(altChallenges, true), manualMonsters: encodeObject(manualMonsters, true), slayerLocked: encodeObject(slayerLocked, true), passiveSkill: encodeObject(passiveSkill, true), maxSkill: encodeObject(maxSkill, true), oldSavedChallengeArr: encodeObject(oldSavedChallengeArr, true), assignedXpRewards: encodeObject(assignedXpRewards, true), manualAreas: encodeObject(manualAreas, true), manualSections: encodeObject(manualSections, true), prevValueLevelInput: encodeObject(prevValueLevelInput, true), checkedAllTasks: encodeObject(checkedAllTasks, true) },
                 chunks: { unlocked: unlockedJson, selected: selectedJson, potential: potentialJson, blacklisted: blacklistedJson, stickered, stickeredNotes: encodeObject(stickeredNotes, true), stickeredColors },
             };
