@@ -2072,7 +2072,7 @@ input#searchPlayerMaps {
 
 .theme-button-container {
   display: grid !important;
-  grid-template-columns: repeat(4, 20%);
+  grid-template-columns: repeat(5, 20%);
 }
 
 .setting .theme-button {
@@ -2160,6 +2160,14 @@ input#searchPlayerMaps {
     color: rgb(154, 15, 55);
 }
 
+.setting .theme-button.voyage {
+    color: rgb(167, 217, 239);
+    background-color: rgb(5, 20, 26);
+}
+
+.setting .theme-button.voyage:hover {
+    color: rgb(34, 182, 255);
+}
 
 .disabled-neighbors {
     filter: brightness(0.5);
