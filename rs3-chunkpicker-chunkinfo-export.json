@@ -16166,7 +16166,7 @@
 				"Primary": true,
 				"Priority": 9
 			},
-			"Make a ~|sinew|~": {
+			"Make ~|sinew|~": {
 				"Category": ["Token"],
 				"Items": ["SinewMeat[+]*"],
 				"Objects": ["Cooking range[+]"],
@@ -24885,7 +24885,7 @@
 				"Priority": 6
 			},
 			"Design, draft and craft a ~|masterwork magic boots|~": {
-				"Items": ["Masterwork white cloth*", "Masterwork blue cloth*", "Ethereal pearlescent plate*", "Lined pearlescent plate*", "Masterwork thread*", "Stone of binding*"],
+				"Items": ["Masterwork white cloth*", "Masterwork blue cloth*", "Ethereal pearlescent plate*", "Masterwork thread*", "Stone of binding*"],
 				"Level": 110,
 				"Objects": ["Pattern table", "Drafting table", "Tailor's dummy"],
 				"Tasks": {
@@ -24896,7 +24896,7 @@
 				"Priority": 7
 			},
 			"Design, draft and craft a ~|masterwork magic gloves|~": {
-				"Items": ["Masterwork white cloth*", "Masterwork blue cloth*", "Ethereal pearlescent plate*", "Lined pearlescent plate*", "Masterwork thread*", "Stone of binding*"],
+				"Items": ["Masterwork white cloth*", "Masterwork blue cloth*", "Ethereal pearlescent plate*", "Masterwork thread*", "Stone of binding*"],
 				"Level": 110,
 				"Objects": ["Pattern table", "Drafting table", "Tailor's dummy"],
 				"Tasks": {
@@ -24907,7 +24907,7 @@
 				"Priority": 8
 			},
 			"Design, draft and craft a ~|masterwork magic hat|~": {
-				"Items": ["Masterwork white cloth*", "Masterwork blue cloth*", "Masterwork green cloth*", "Masterwork thread*", "Stone of binding*"],
+				"Items": ["Masterwork white cloth*", "Masterwork blue cloth*", "Masterwork green cloth*", "Ethereal pearlescent plate*", "Masterwork thread*", "Stone of binding*"],
 				"Level": 110,
 				"Objects": ["Pattern table", "Drafting table", "Tailor's dummy"],
 				"Tasks": {
@@ -41209,6 +41209,7 @@
 		},
 		"Herblore": {
 			"Clean a ~|grimy guam|~": {
+				"Category": ["Cleaning Herbs Primary"],
 				"Items": ["Grimy guam*"],
 				"Level": 1,
 				"Output": "Clean guam",
@@ -41396,6 +41397,7 @@
 				"Priority": 5
 			},
 			"Clean a ~|grimy rogue's purse|~": {
+				"Category": ["Cleaning Herbs Primary"],
 				"Level": 3,
 				"Items": ["Grimy rogue's purse"],
 				"Tasks": {
@@ -41406,6 +41408,7 @@
 				"Priority": 2
 			},
 			"Clean a ~|grimy snake weed|~": {
+				"Category": ["Cleaning Herbs Primary"],
 				"Level": 3,
 				"Items": ["Grimy snake weed"],
 				"Tasks": {
@@ -41456,6 +41459,7 @@
 				"Priority": 1
 			},
 			"Clean a ~|grimy tarromin|~": {
+				"Category": ["Cleaning Herbs Primary"],
 				"Items": ["Grimy tarromin*"],
 				"Level": 5,
 				"Output": "Clean tarromin",
@@ -41533,6 +41537,7 @@
 				"Priority": 1
 			},
 			"Clean a ~|grimy marrentill|~": {
+				"Category": ["Cleaning Herbs Primary"],
 				"Items": ["Grimy marrentill*"],
 				"Level": 9,
 				"Output": "Clean marrentill",
@@ -41686,6 +41691,7 @@
 				"Priority": 1
 			},
 			"Clean a ~|grimy harralander|~": {
+				"Category": ["Cleaning Herbs Primary"],
 				"Items": ["Grimy harralander*"],
 				"Level": 20,
 				"Output": "Clean harralander",
@@ -41755,6 +41761,7 @@
 				"Priority": 1
 			},
 			"Clean a ~|grimy ranarr|~": {
+				"Category": ["Cleaning Herbs Primary"],
 				"Items": ["Grimy ranarr*"],
 				"Level": 25,
 				"Output": "Clean ranarr",
@@ -41794,6 +41801,7 @@
 				"Priority": 1
 			},
 			"Clean a ~|grimy toadflax|~": {
+				"Category": ["Cleaning Herbs Primary"],
 				"Items": ["Grimy toadflax*"],
 				"Level": 30,
 				"Output": "Clean toadflax",
@@ -41844,6 +41852,7 @@
 				"Priority": 2
 			},
 			"Clean a ~|grimy spirit weed|~": {
+				"Category": ["Cleaning Herbs Primary"],
 				"Items": ["Grimy spirit weed*"],
 				"Level": 35,
 				"Output": "Clean spirit weed",
@@ -41928,6 +41937,7 @@
 				"Priority": 5
 			},
 			"Clean a ~|grimy irit|~": {
+				"Category": ["Cleaning Herbs Primary"],
 				"Items": ["Grimy irit*"],
 				"Level": 40,
 				"Output": "Clean irit",
@@ -41953,6 +41963,7 @@
 				"Priority": 4
 			},
 			"Clean a ~|grimy wergali|~": {
+				"Category": ["Cleaning Herbs Primary"],
 				"Items": ["Grimy wergali*"],
 				"Level": 41,
 				"Output": "Clean wergali",
@@ -42047,6 +42058,7 @@
 				"Priority": 1
 			},
 			"Clean a ~|grimy avantoe|~": {
+				"Category": ["Cleaning Herbs Primary"],
 				"Items": ["Grimy avantoe*"],
 				"Level": 48,
 				"Output": "Clean avantoe",
@@ -42192,22 +42204,23 @@
 				"Priority": 2
 			},
 			"Clean a ~|grimy erzille|~": {
+				"Category": ["Cleaning Herbs Primary"],
 				"Items": ["Grimy erzille*"],
 				"Level": 54,
 				"Output": "Clean erzille",
 				"Primary": true,
 				"Priority": 1
 			},
-			"Mix an ~|erzille potion (unf)|~": {
+			"Mix an ~|erzille potion (unfinished)|~": {
 				"Category": ["Token"],
 				"Items": ["Clean erzille*", "Juju vial of water"],
 				"Level": 54,
-				"Output": "Erzille potion (unf)",
+				"Output": "Erzille potion (unfinished)",
 				"Primary": true,
 				"Priority": 2
 			},
 			"Mix a ~|juju hunter potion|~": {
-				"Items": ["Erzille potion (unf)*", "Corrupt vine*"],
+				"Items": ["Erzille potion (unfinished)*", "Corrupt vine*"],
 				"Level": 54,
 				"Output": "Juju hunter potion (3)",
 				"Primary": true,
@@ -42221,6 +42234,7 @@
 				"Priority": 7
 			},
 			"Clean a ~|grimy kwuarm|~": {
+				"Category": ["Cleaning Herbs Primary"],
 				"Items": ["Grimy kwuarm*"],
 				"Level": 54,
 				"Output": "Clean kwuarm",
@@ -42264,6 +42278,7 @@
 				"Priority": 5
 			},
 			"Clean a ~|grimy ugune|~": {
+				"Category": ["Cleaning Herbs Primary"],
 				"Items": ["Grimy ugune*"],
 				"Level": 55,
 				"Output": "Clean ugune",
@@ -42285,6 +42300,7 @@
 				"Priority": 4
 			},
 			"Clean a ~|grimy argway|~": {
+				"Category": ["Cleaning Herbs Primary"],
 				"Items": ["Grimy argway*"],
 				"Level": 56,
 				"Output": "Clean argway",
@@ -42301,16 +42317,16 @@
 				"Primary": true,
 				"Priority": 2
 			},
-			"Mix ~|magic essence (unf)|~": {
+			"Mix ~|magic essence (unfinished)|~": {
 				"Category": ["Token"],
 				"Items": ["Star flower*", "Vial of water"],
 				"Level": 57,
-				"Output": "Magic essence (unf)",
+				"Output": "magic essence (unfinished)",
 				"Primary": true,
 				"Priority": 1
 			},
 			"Mix ~|magic essence|~": {
-				"Items": ["Magic essence (unf)*", "Gorak claw powder*"],
+				"Items": ["magic essence (unfinished)*", "Gorak claw powder*"],
 				"Level": 57,
 				"Output": "Magic essence (3)",
 				"Primary": true,
@@ -42324,6 +42340,7 @@
 				"Priority": 8
 			},
 			"Clean a ~|grimy shengo|~": {
+				"Category": ["Cleaning Herbs Primary"],
 				"Items": ["Grimy shengo*"],
 				"Level": 57,
 				"Output": "Clean shengo",
@@ -42331,6 +42348,7 @@
 				"Priority": 3
 			},
 			"Clean a ~|grimy bloodweed|~": {
+				"Category": ["Cleaning Herbs Primary"],
 				"Items": ["Grimy bloodweed*"],
 				"Level": 57,
 				"Output": "Clean bloodweed",
@@ -42374,6 +42392,7 @@
 				"Priority": 4
 			},
 			"Clean a ~|grimy samaden|~": {
+				"Category": ["Cleaning Herbs Primary"],
 				"Items": ["Grimy samaden*"],
 				"Level": 58,
 				"Output": "Clean samaden",
@@ -42390,16 +42409,16 @@
 				"Primary": true,
 				"Priority": 3
 			},
-			"Mix an ~|argway potion (unf)|~": {
+			"Mix an ~|argway potion (unfinished)|~": {
 				"Category": ["Token"],
 				"Items": ["Clean argway*", "Juju vial of water"],
 				"Level": 59,
-				"Output": "Argway potion (unf)",
+				"Output": "Argway potion (unfinished)",
 				"Primary": true,
 				"Priority": 1
 			},
 			"Mix a ~|scentless potion|~": {
-				"Items": ["Argway potion (unf)*", "Shadow vine*"],
+				"Items": ["Argway potion (unfinished)*", "Shadow vine*"],
 				"Level": 59,
 				"Output": "Scentless potion (3)",
 				"Primary": true,
@@ -42413,6 +42432,7 @@
 				"Priority": 7
 			},
 			"Clean a ~|grimy snapdragon|~": {
+				"Category": ["Cleaning Herbs Primary"],
 				"Items": ["Grimy snapdragon*"],
 				"Level": 59,
 				"Output": "Clean snapdragon",
@@ -42488,16 +42508,16 @@
 				"Primary": true,
 				"Priority": 2
 			},
-			"Mix an ~|ugune potion (unf)|~": {
+			"Mix an ~|ugune potion (unfinished)|~": {
 				"Category": ["Token"],
 				"Items": ["Clean ugune*", "Juju vial of water"],
 				"Level": 64,
-				"Output": "Ugune potion (unf)",
+				"Output": "Ugune potion (unfinished)",
 				"Primary": true,
 				"Priority": 1
 			},
 			"Mix a ~|juju farming potion|~": {
-				"Items": ["Ugune potion (unf)*", "Marble vine*"],
+				"Items": ["Ugune potion (unfinished)*", "Marble vine*"],
 				"Level": 64,
 				"Output": "Juju farming potion (3)",
 				"Primary": true,
@@ -42541,6 +42561,7 @@
 				"Priority": 3
 			},
 			"Clean a ~|grimy cadantine|~": {
+				"Category": ["Cleaning Herbs Primary"],
 				"Items": ["Grimy cadantine*"],
 				"Level": 65,
 				"Output": "Clean cadantine",
@@ -42583,16 +42604,16 @@
 				"Primary": true,
 				"Priority": 2
 			},
-			"Mix a ~|shengo potion (unf)|~": {
+			"Mix a ~|shengo potion (unfinished)|~": {
 				"Category": ["Token"],
 				"Items": ["Clean shengo*", "Juju vial of water"],
 				"Level": 67,
-				"Output": "Shengo potion (unf)",
+				"Output": "Shengo potion (unfinished)",
 				"Primary": true,
 				"Priority": 1
 			},
 			"Mix a ~|juju cooking potion|~": {
-				"Items": ["Shengo potion (unf)*", "Plant teeth*"],
+				"Items": ["Shengo potion (unfinished)*", "Plant teeth*"],
 				"Level": 67,
 				"Output": "Juju cooking potion (3)",
 				"Primary": true,
@@ -42606,6 +42627,7 @@
 				"Priority": 6
 			},
 			"Clean a ~|grimy lantadyme|~": {
+				"Category": ["Cleaning Herbs Primary"],
 				"Items": ["Grimy lantadyme*"],
 				"Level": 67,
 				"Output": "Clean lantadyme",
@@ -42630,15 +42652,15 @@
 				"Primary": true,
 				"Priority": 5
 			},
-			"Mix an ~|antipoison+ (unf)|~": {
+			"Mix an ~|antipoison+ (unfinished)|~": {
 				"Items": ["Coconut milk*", "Clean toadflax*"],
 				"Level": 68,
-				"Output": "Antipoison+ (unf)",
+				"Output": "antipoison+ (unfinished)",
 				"Primary": true,
 				"Priority": 1
 			},
 			"Mix an ~|antipoison+|~": {
-				"Items": ["Antipoison+ (unf)*", "Yew roots*"],
+				"Items": ["antipoison+ (unfinished)*", "Yew roots*"],
 				"Level": 68,
 				"Output": "Antipoison+ (4)",
 				"Primary": true,
@@ -42666,7 +42688,7 @@
 				"Priority": 2
 			},
 			"Mix a ~|juju fishing potion|~": {
-				"Items": ["Shengo potion (unf)*", "Aquatic vine*"],
+				"Items": ["Shengo potion (unfinished)*", "Aquatic vine*"],
 				"Level": 70,
 				"Output": "Juju fishing potion (3)",
 				"Primary": true,
@@ -42680,6 +42702,7 @@
 				"Priority": 8
 			},
 			"Clean a ~|grimy dwarf weed|~": {
+				"Category": ["Cleaning Herbs Primary"],
 				"Items": ["Grimy dwarf weed*"],
 				"Level": 70,
 				"Output": "Clean dwarf weed",
@@ -42717,16 +42740,16 @@
 				"Primary": true,
 				"Priority": 7
 			},
-			"Mix an ~|samaden potion (unf)|~": {
+			"Mix an ~|samaden potion (unfinished)|~": {
 				"Category": ["Token"],
 				"Items": ["Clean samaden*", "Juju vial of water"],
 				"Level": 71,
-				"Output": "Samaden potion (unf)",
+				"Output": "Samaden potion (unfinished)",
 				"Primary": true,
 				"Priority": 1
 			},
 			"Mix a ~|juju woodcutting potion|~": {
-				"Items": ["Samaden potion (unf)*", "Oily vine*"],
+				"Items": ["Samaden potion (unfinished)*", "Oily vine*"],
 				"Level": 71,
 				"Output": "Juju woodcutting potion (3)",
 				"Primary": true,
@@ -42770,15 +42793,15 @@
 				"Primary": true,
 				"Priority": 2
 			},
-			"Mix a ~|weapon poison+ (unf)|~": {
+			"Mix a ~|weapon poison+ (unfinished)|~": {
 				"Items": ["Coconut milk*", "Cactus spine*"],
 				"Level": 73,
-				"Output": "Weapon poison+ (unf)",
+				"Output": "weapon poison+ (unfinished)",
 				"Primary": true,
 				"Priority": 1
 			},
 			"Mix a ~|weapon poison+|~": {
-				"Items": ["Weapon poison+ (unf)*", "Red spiders' eggs*"],
+				"Items": ["weapon poison+ (unfinished)*", "Red spiders' eggs*"],
 				"Level": 73,
 				"Output": "Weapon poison+ (3)",
 				"Primary": true,
@@ -42792,7 +42815,7 @@
 				"Priority": 3
 			},
 			"Mix a ~|juju mining potion|~": {
-				"Items": ["Samaden potion (unf)*", "Draconic vine*"],
+				"Items": ["Samaden potion (unfinished)*", "Draconic vine*"],
 				"Level": 74,
 				"Output": "Juju mining potion (3)",
 				"Primary": true,
@@ -42823,7 +42846,7 @@
 				"Priority": 3
 			},
 			"Mix a ~|Saradomin's blessing|~": {
-				"Items": ["Samaden potion (unf)*", "Saradomin vine*"],
+				"Items": ["Samaden potion (unfinished)*", "Saradomin vine*"],
 				"Level": 75,
 				"Output": "Saradomin's blessing (3)",
 				"Primary": true,
@@ -42837,7 +42860,7 @@
 				"Priority": 12
 			},
 			"Mix a ~|Guthix's gift|~": {
-				"Items": ["Samaden potion (unf)*", "Guthix vine*"],
+				"Items": ["Samaden potion (unfinished)*", "Guthix vine*"],
 				"Level": 75,
 				"Output": "Guthix's gift (3)",
 				"Primary": true,
@@ -42851,7 +42874,7 @@
 				"Priority": 13
 			},
 			"Mix a ~|Zamorak's favour|~": {
-				"Items": ["Samaden potion (unf)*", "Zamorak vine*"],
+				"Items": ["Samaden potion (unfinished)*", "Zamorak vine*"],
 				"Level": 75,
 				"Output": "Zamorak's favour (3)",
 				"Primary": true,
@@ -42865,6 +42888,7 @@
 				"Priority": 14
 			},
 			"Clean a ~|grimy torstol|~": {
+				"Category": ["Cleaning Herbs Primary"],
 				"Items": ["Grimy torstol*"],
 				"Level": 75,
 				"Output": "Clean torstol",
@@ -42984,6 +43008,7 @@
 				"Priority": 8
 			},
 			"Clean a ~|grimy arbuck|~": {
+				"Category": ["Cleaning Herbs Primary"],
 				"Items": ["Grimy arbuck*"],
 				"Level": 77,
 				"Output": "Clean arbuck",
@@ -43047,15 +43072,15 @@
 				"Primary": true,
 				"Priority": 4
 			},
-			"Mix an ~|antipoison++ (unf)|~": {
+			"Mix an ~|antipoison++ (unfinished)|~": {
 				"Items": ["Coconut milk*", "Clean irit*"],
 				"Level": 79,
-				"Output": "Antipoison++ (unf)",
+				"Output": "Antipoison++ (unfinished)",
 				"Primary": true,
 				"Priority": 1
 			},
 			"Mix an ~|antipoison++|~": {
-				"Items": ["Antipoison++ (unf)*", "Magic roots*"],
+				"Items": ["Antipoison++ (unfinished)*", "Magic roots*"],
 				"Level": 79,
 				"Output": "Antipoison++ (4)",
 				"Primary": true,
@@ -43149,15 +43174,15 @@
 				"Primary": true,
 				"Priority": 2
 			},
-			"Mix a ~|weapon poison++ (unf)|~": {
+			"Mix a ~|weapon poison++ (unfinished)|~": {
 				"Items": ["Coconut milk*", "Cave nightshade*"],
 				"Level": 82,
-				"Output": "Weapon poison++ (unf)",
+				"Output": "Weapon poison++ (unfinished)",
 				"Primary": true,
 				"Priority": 1
 			},
 			"Mix a ~|weapon poison++|~": {
-				"Items": ["Weapon poison++ (unf)*", "Poison ivy berries*"],
+				"Items": ["Weapon poison++ (unfinished)*", "Poison ivy berries*"],
 				"Level": 82,
 				"Output": "Weapon poison++ (3)",
 				"Primary": true,
@@ -43432,6 +43457,7 @@
 				"Priority": 1
 			},
 			"Clean a ~|grimy fellstalk|~": {
+				"Category": ["Cleaning Herbs Primary"],
 				"Items": ["Grimy fellstalk*"],
 				"Level": 91,
 				"Output": "Clean fellstalk",
@@ -44181,6 +44207,15 @@
 			"Finish the Butterfly Swarm ~|Wilderness Flash Event|~": {
 				"Category": ["DnD Skilling", "DnD Flash Events", "DnD"],
 				"Chunks": ["12600"],
+				"Level": 1,
+				"Primary": true,
+				"Priority": 18
+			},
+			"Catch a ~|Hell-Rat|~": {
+				"NPCs": ["Hell-Rat"],
+				"Tasks": {
+					"~|Evil Dave's Big Day Out|~ Complete the quest": "Quest"
+				},
 				"Level": 1,
 				"Primary": true,
 				"Priority": 18
@@ -65577,10 +65612,11 @@
 			},
 			"Repair the climbing pegs in burthorpe to reach the ~|Beacon Network|~ beacon": {
 				"Chunks": ["11575"],
-				"Items": ["Iron bar"],
+				"Items": ["Iron bar*"],
 				"Level": 56,
 				"Primary": false,
-				"Priority": 1
+				"Priority": 1,
+				"Not F2P": true
 			},
 			"Buy the ~|Smithing cape|~": {
 				"Category": ["Skillcape"],
@@ -134002,12 +134038,12 @@
 			"(Artisans' Workshop) Obtain any ~|iron ceremonial sword|~": {
 				"Category": ["Untracked Uniques", "Untracked Uniques Minigames"],
 				"Label": "Untracked Minigame Uniques",
-				"Items": ["Ceremonial sword"]
+				"Items": ["Ceremonial sword", "Steel bar"]
 			},
 			"(Artisans' Workshop) Obtain any ~|off-hand iron ceremonial sword|~": {
 				"Category": ["Untracked Uniques", "Untracked Uniques Minigames"],
 				"Label": "Untracked Minigame Uniques",
-				"Items": ["Ceremonial sword"]
+				"Items": ["Ceremonial sword", "Steel bar"]
 			},
 			"(Artisans' Workshop) Obtain any ~|steel ceremonial sword|~": {
 				"Category": ["Untracked Uniques", "Untracked Uniques Minigames"],
@@ -144428,7 +144464,10 @@
 				"UnlocksArea": true
 			},
 			"Orthen Oubliette": {
-				"UnlocksArea": true
+				"UnlocksArea": true,
+				"Tasks": {
+					"~|Raksha, the Shadow Colossus|~ 1": "Quest"
+				}
 			},
 			"Herby Werby": {
 				"UnlocksArea": true
@@ -147969,6 +148008,10 @@
 			},
 			"Unlock the Anachronia Base Camp": {
 				"Chunks": ["15683", "15939"]
+			},
+			"Open an oyster": {
+				"Items": ["Oyster"],
+				"Output": "Oyster loot"
 			}
 		}
 	},
@@ -176740,9 +176783,6 @@
 				"Black warlock (Anachronia)": 7,
 				"Carrion jadinko (Anachronia)": 7
 			},
-			"Connect": {
-				"22828": true
-			},
 			"Nickname": "Anachronia Swamp Mine"
 		},
 		"16449": {
@@ -177161,8 +177201,8 @@
 		},
 		"16705": {
 			"Object": {
-				"Fishing spot (Cage/Harpoon)": 2,
-				"Fishing spot (Net/Harpoon)": 3,
+				"Fishing spot (cage, harpoon)": 2,
+				"Fishing spot (net, harpoon)": 3,
 				"Totem pedestal": 1
 			},
 			"Monster": {
@@ -190943,8 +190983,7 @@
 				"Raksha, the Shadow Colossus": 1
 			},
 			"Connect": {
-				"16704": true,
-				"16448": true
+				"16704": true
 			},
 			"Quest": {
 				"Raksha, the Shadow Colossus": "step"
@@ -194593,8 +194632,8 @@
 				"Overload (4)"
 			],
 			"OysterPearl[+]": [
-				"Oyster Pearl",
-				"Oyster Pearls"
+				"Oyster pearl",
+				"Oyster pearls"
 			],
 			"PathfinderArmour[+]": [
 				"Amulet of potency",
@@ -198030,7 +198069,7 @@
 			"Tier3Grove[+]": ["Elder tree"],
 			"RangersWorkroom[+]": ["Spinning wheel", "Fletching workbench"],
 			"Tier1Workshop[+]": ["Furnace", "Anvil", "Forge"],
-			"Tree[+]": ["Tree", "Burnt tree", "Dead tree (Timbo)", "Dead tree covered in snow", "Dead tree", "Dying tree", "Evergreen", "Jungle Bush", "Jungle tree", "Swamp tree", "Palm tree (choppable)"],
+			"Tree[+]": ["Tree", "Burnt tree", "Dead tree (Timbo)", "Dead tree covered in snow", "Dead tree", "Dying tree", "Evergreen", "Jungle Bush", "Jungle Tree", "Swamp tree", "Palm tree (choppable)"],
 			"WaterSource[+]": ["Sink", "Fountain", "Waterpump", "Water barrel", "Well", "Large Geyser", "Water trough", "Water pump"]
 		},
 		"objectsPlusNames": {
@@ -198918,7 +198957,7 @@
 					"Receive a slayer assignment from ~|Laniakea|~"
 			],
 			"RaptorSumonaBetterMaster[+]": [
-					"Receive a slayer assignment from ~|The Raptor|~",
+					"Receive a slayer assignment from ~|the Raptor|~",
 					"Receive a slayer assignment from ~|Sumona|~",
 					"Receive a slayer assignment from ~|Duradel|~",
 					"Receive a slayer assignment from ~|Kuradal|~",
@@ -198943,7 +198982,7 @@
 			],
 			"EdimmuMaster[+]": [
 					"Receive a slayer assignment from ~|Jacquelyn|~",
-					"Receive a slayer assignment from ~|The Raptor|~",
+					"Receive a slayer assignment from ~|the Raptor|~",
 					"Receive a slayer assignment from ~|Vannaka|~",
 					"Receive a slayer assignment from ~|Duradel|~",
 					"Receive a slayer assignment from ~|Kuradal|~",
@@ -233559,76 +233598,81 @@
 				"1": "Always"
 			},
 			"Chargebow": {
-				"1": "Uncommon"
+				"1": "1/200"
 			},
 			"Bronze bolts": {
-				"4-11": "Uncommon"
+				"2-12": "27/128"
 			},
 			"Staff of air": {
-				"1": "Rare"
+				"1": "1/200"
 			},
 			"Tiny plated bronze salvage": {
-				"1": "Rare"
+				"1": "2/128"
 			},
 			"Water rune": {
-				"6": "Uncommon"
+				"6": "2/128"
 			},
 			"Earth rune": {
-				"5": "Uncommon"
+				"5": "2/128"
 			},
 			"Mind rune": {
-				"9": "Rare"
+				"9": "2/128"
 			},
 			"Grimy guam": {
-				"1": "Common"
+				"1": "1/39.4"
 			},
 			"Grimy marrentill": {
-				"1": "Uncommon"
+				"1": "1/52.5"
 			},
 			"Grimy tarromin": {
-				"1": "Uncommon"
+				"1": "1/70"
 			},
 			"Grimy harralander": {
-				"1": "Uncommon"
-			},
-			"Grimy irit": {
-				"1": "Uncommon"
-			},
-			"Grimy avantoe": {
-				"1": "Uncommon"
-			},
-			"Grimy kwuarm": {
-				"1": "Rare"
-			},
-			"Grimy cadantine": {
-				"1": "Rare"
+				"1": "1/90"
 			},
 			"Grimy ranarr": {
-				"1": "Rare"
+				"1": "1/114.6"
+			},
+			"Grimy irit": {
+				"1": "1/157.5"
+			},
+			"Grimy avantoe": {
+				"1": "1/210.1"
+			},
+			"Grimy kwuarm": {
+				"1": "1/252.1"
+			},
+			"Grimy cadantine": {
+				"1": "1/315.1"
 			},
 			"Grimy lantadyme": {
-				"1": "Rare"
+				"1": "1/420.1"
 			},
 			"Grimy dwarf weed": {
-				"1": "Rare"
+				"1": "1/420.1"
 			},
 			"Coins": {
-				"5": "Common",
-				"10": "Common",
-				"15": "Common",
-				"25": "Common"
+				"5": "12/128",
+				"15": "4/128",
+				"25": "1/128"
 			},
 			"Rope": {
-				"1": "Common"
+				"1": "40/128"
 			},
 			"Copper stone spirit": {
-				"1": "Common"
+				"1": "2/128"
 			},
 			"Cabbage": {
-				"1": "Uncommon"
+				"1": "1/128"
 			},
 			"Knife": {
-				"1": "Rare"
+				"1": "1/128"
+			},
+			"Fishing bait": {
+				"1": "6/128"
+			},
+			"Nothing": {
+				"1": "13/128"
 			},
 			"Undercooked mystery meat": {
 				"1": "Uncommon"
@@ -256984,6 +257028,9 @@
 				"Unlock the Anachronia Base Camp": "Nonskill"
 			}, {
 				"~|Player-owned farm tutorial|~ Complete the tutorial": "Quest"
+			}],
+			"Rat's tail": [{
+				"~|Witch's Potion|~ 1": "Quest"
 			}]
 		},
 		"Monsters": {
@@ -285990,59 +286037,56 @@
 				}
 			},
 			"Seed stall": {
-				"Hammerstone seed": {
-					"1": "76/600"
-				},
-				"Marigold seed": {
-					"1": "73/600"
-				},
-				"Barley seed": {
-					"1": "66/600"
+				"Potato seed": {
+					"1": "58/600"
 				},
 				"Onion seed": {
 					"1": "58/600"
 				},
-				"Potato seed": {
-					"1": "58/600"
-				},
-				"Asgarnian seed": {
-					"1": "46/600"
-				},
 				"Cabbage seed": {
 					"1": "46/600"
-				},
-				"Yanillian seed": {
-					"1": "32/600"
-				},
-				"Jute seed": {
-					"1": "29/600"
-				},
-				"Sweetcorn seed": {
-					"1": "22/600"
-				},
-				"Rosemary seed": {
-					"1": "22/600"
 				},
 				"Tomato seed": {
 					"1": "18/600"
 				},
-				"Nasturtium seed": {
-					"1": "15/600"
+				"Sweetcorn seed": {
+					"1": "22/600"
 				},
-				"Krandorian seed": {
-					"1": "14/600"
-				},
-				"Strawberry seed": {
+				"Starwberry seed": {
 					"1": "13/600"
 				},
 				"Watermelon seed": {
 					"1": "8/600"
 				},
+				"Barley seed": {
+					"1": "66/600"
+				},
+				"Hammerstone seed": {
+					"1": "76/600"
+				},
+				"Asgarnian seed": {
+					"1": "46/600"
+				},
+				"Jute seed": {
+					"1": "29/600"
+				},
+				"Yanillian seed": {
+					"1": "32/600"
+				},
+				"Krandorian seed": {
+					"1": "14/600"
+				},
 				"Wildblood seed": {
 					"1": "4/600"
 				},
-				"Dwellberry seed": {
-					"1": "2/600"
+				"Marigold seed": {
+					"1": "73/600"
+				},
+				"Rosemary seed": {
+					"1": "22/600"
+				},
+				"Nasturtium seed": {
+					"1": "15/600"
 				}
 			},
 			"Fish stall": {
@@ -288073,6 +288117,14 @@
 			"Wisps of the Grove rewards": {
 				"Vinny": {
 					"1": "1/100"
+				}
+			},
+			"Oyster loot": {
+				"Oyster pearl": {
+					"1": "7/10"
+				},
+				"Empty oyster": {
+					"1": "3/10"
 				}
 			}
 		}

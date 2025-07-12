@@ -426,7 +426,8 @@ let rules = {
     "Boosting": false,
 	"Token": false,
 	"Master skillcape": false,
-	"Cleaning herbs": false,
+	"Cleaning Herbs": false,
+	"Cleaning Herbs Primary": false,
 	"Vinesweeper": false,
 	"Ogleroot": false,
 	"Gnomeball": false,
@@ -468,6 +469,7 @@ let rules = {
 	"Misc achievements": false,
 	"Kili Knowledge": false,
 	"Slayer Contracts": false,
+	"Partial Products": false
 };                                                                              // List of rules and their on/off state
 
 let ruleNames = {
@@ -554,7 +556,8 @@ let ruleNames = {
 	"Boosting": "Allow skill boosts to be considered for skill tasks",
     "Token": "Allow token xp drops to count as a primary training method<span class='rule-asterisk noscroll'>†</span>",
 	"Master skillcape": "Must obtain master skillcapes for all skills<span class='rule-asterisk noscroll'>†</span>",
-	"Cleaning Herbs": "Cleaning grimy herbs/making (unf) potions can count as chunk tasks",
+	"Cleaning Herbs": "Cleaning grimy herbs/making unfinished potions can count as chunk tasks",
+	"Cleaning Herbs Primary": "Cleaning herbs counts as a primary training method",
 	"Vinesweeper": "Allow Vinesweeper to count as primary training for training Farming<span class='rule-asterisk noscroll'>*</span>",
 	"Ogleroot": "Allow Vinesweeper to count as primary training for training Hunter",
 	"Gnomeball": "Allow playing gnomeball to count as a primary training method for Agility and Ranged<span class='rule-asterisk noscroll'>*</span>",
@@ -590,7 +593,8 @@ let ruleNames = {
 	"Misc achievements": "WIP- Must complete other achievements, excluding level-up achievements.",
 	"Hunter Marks Slayer": "Using Hunter Marks to buy Slayer experience lamps counts as primary training<span class='rule-asterisk noscroll'>*</span>",
 	"Kili Knowledge": "Must complete Kili Knowledge when possible",
-	"Slayer Contracts": "Completing Slayer contracts off-task counts as a primary training method"
+	"Slayer Contracts": "Completing Slayer contracts off-task counts as a primary training method",
+	"Partial Products": "Require making of partial or unfinished products as a skill task"
 };                                                                              // List of rule definitions
 
 let rulePresets = {
@@ -621,6 +625,8 @@ let rulePresets = {
 		"Achievement": true,
 		"Kili Knowledge": true,
 		"Slayer Contracts": true,
+		"Cleaning Herbs Primary": true,
+		"Partial Products": true
     },
     "Xtreme Chunker": {
         "Skillcape": true,
@@ -698,7 +704,9 @@ let rulePresets = {
 		"MQC achievements": true,
 		"Hunter Marks Slayer": true,
 		"Kili Knowledge": true,
-		"Slayer Contracts": true
+		"Slayer Contracts": true,
+		"Cleaning Herbs Primary": true,
+		"Partial Products": true
     },
     "Supreme Chunker": {
         "Skillcape": true,
@@ -790,7 +798,9 @@ let rulePresets = {
 		"Secondary Effigies": true,
 		"Hunter Marks Slayer": true,
 		"Kili Knowledge": true,
-		"Slayer Contracts": true
+		"Slayer Contracts": true,
+		"Cleaning Herbs Primary": true,
+		"Partial Products": true
     }
 };                                                                              // List of rules that are part of each preset
 
@@ -840,7 +850,8 @@ let ruleStructure = {
 		"DnD Skilling": ["Shooting Stars"],
 		"Menaphos Events": true,
 		"Uncharted": true,
-		"Multiple Pickpockets": true
+		"Multiple Pickpockets": true,
+		"Partial Products": true
     },
     "Agility": {
         "Shortcut": true,
@@ -866,7 +877,8 @@ let ruleStructure = {
 		"Vinesweeper": true
     },
     "Herblore": {
-		"Cleaning Herbs": true
+		"Cleaning Herbs": true,
+		"Cleaning Herbs Primary": true
     },
     "Hunter": {
 		"Puro-Puro": ["Extra implings"],
@@ -929,7 +941,7 @@ let subRuleDefault = {
     "Show Diary Tasks": false,
     "Show Best in Slot Tasks": false,
     "Collection Log": true,
-	"Untracked Uniques": false,
+	"Untracked Uniques": true,
     "Puro-Puro": false,
     "Spells": false,
     "Every Drop": false,
@@ -1085,7 +1097,7 @@ let maybePrimary = [
     "Shortcut",
     "InsidePOH Primary",
 	"Token",
-	"Cleaning herbs"
+	"Cleaning Herbs Primary"
 ];                                                                              // Methods that are only primary if their respective rule is checked
 
 const regionNames = [];
@@ -11935,6 +11947,14 @@ let loadData = async function(startup) {
         if (!rulesTemp.hasOwnProperty('Cleaning Herbs')) {
             rulesTemp['Cleaning Herbs'] = true;
         }
+		
+		if (!rulesTemp.hasOwnProperty('Cleaning Herbs Primary')) {
+            rulesTemp['Cleaning Herbs Primary'] = true;
+        }
+		
+		if (!rulesTemp.hasOwnProperty('Slayer Contracts')) {
+            rulesTemp['Slayer Contracts'] = true;
+        }
 
         if (rulesTemp['Secondary Primary'] && !rulesTemp.hasOwnProperty('Secondary Primary Amount')) {
             rulesTemp['Secondary Primary Amount'] = "0";
@@ -11951,7 +11971,7 @@ let loadData = async function(startup) {
         }
 
         if (!rulesTemp.hasOwnProperty('Partial Products')) {
-            rulesTemp['Partial Products'] = rulesTemp.hasOwnProperty('Highest Level') ? rulesTemp['Highest Level'] : false;
+            rulesTemp['Partial Products'] = true;
         }
 
         if (!rulesTemp.hasOwnProperty('Additional Money Unlockables')) {
