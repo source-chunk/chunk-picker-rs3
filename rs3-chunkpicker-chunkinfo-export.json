@@ -2470,7 +2470,7 @@
 				"Priority": 2,
 				"NoBoost": true
 			},
-			"Complete the 'Mysterious Monolith: Existence' ~|research|~": {
+			"Complete the ~|Mysterious Monolith: Existence|~ research": {
 				"Tasks": {
 					"Become an ~|archaeology assistant|~": "Archaeology"
 				},
@@ -2480,7 +2480,7 @@
 				"Priority": 3,
 				"NoBoost": true
 			},
-			"Complete the 'Starry Eyed' ~|research|~": {
+			"Complete the ~|Starry Eyed|~ research": {
 				"Tasks": {
 					"Become an ~|archaeology assistant|~": "Archaeology"
 				},
@@ -2491,7 +2491,7 @@
 				"Priority": 4,
 				"NoBoost": true
 			},
-			"Complete the 'The Dark Underbelly' ~|research|~": {
+			"Complete the ~|The Dark Underbelly|~ research": {
 				"Tasks": {
 					"Become an ~|archaeology assistant|~": "Archaeology"
 				},
@@ -2502,7 +2502,7 @@
 				"Priority": 5,
 				"NoBoost": true
 			},
-			"Complete the 'Demon Door' ~|research|~": {
+			"Complete the ~|Demon Door|~ research": {
 				"Tasks": {
 					"Become an ~|archaeology assistant|~": "Archaeology"
 				},
@@ -2513,7 +2513,7 @@
 				"Priority": 6,
 				"NoBoost": true
 			},
-			"Complete the 'Proving Grounds' ~|research|~": {
+			"Complete the ~|Proving Grounds|~ research": {
 				"Tasks": {
 					"Become an ~|archaeology assistant|~": "Archaeology"
 				},
@@ -2524,7 +2524,7 @@
 				"Priority": 7,
 				"NoBoost": true
 			},
-			"Complete the 'Abandon All Hope' ~|research|~": {
+			"Complete the ~|Abandon All Hope|~ research": {
 				"Tasks": {
 					"Become an ~|archaeology assistant|~": "Archaeology"
 				},
@@ -2674,7 +2674,7 @@
 				"Primary": true,
 				"Priority": 11
 			},
-			"Complete the 'Lions and Unicorns and Centaurs, Oh My!' ~|research|~": {
+			"Complete the ~|Lions and Unicorns and Centaurs, Oh My!|~ research": {
 				"Tasks": {
 					"Become an ~|archaeology assistant|~": "Archaeology"
 				},
@@ -2763,7 +2763,7 @@
 				"Primary": true,
 				"Priority": 3
 			},
-			"Complete the 'Cell, a Door' ~|research|~": {
+			"Complete the ~|Cell, a Door|~ research": {
 				"Tasks": {
 					"Become an ~|archaeology assistant|~": "Archaeology"
 				},
@@ -2966,7 +2966,7 @@
 				"Primary": false,
 				"Priority": 11
 			},
-			"Complete the 'Ode to a Midsummer Morning' ~|research|~": {
+			"Complete the ~|Ode to a Midsummer Morning|~ research": {
 				"Tasks": {
 					"Become an ~|archaeology assistant|~": "Archaeology"
 				},
@@ -3112,7 +3112,7 @@
 				"Primary": false,
 				"Priority": 7
 			},
-			"Complete the 'Lockdown' ~|research|~": {
+			"Complete the ~|Lockdown|~ research": {
 				"Tasks": {
 					"Become an ~|archaeology assistant|~": "Archaeology"
 				},
@@ -3206,7 +3206,7 @@
 				"Priority": 7,
 				"NoBoost": true
 			},
-			"Complete the 'The Hidden Chamber' ~|research|~": {
+			"Complete the ~|The Hidden Chamber|~ research": {
 				"Tasks": {
 					"Become an ~|archaeology assistant|~": "Archaeology"
 				},
@@ -3356,7 +3356,7 @@
 				"Primary": true,
 				"Priority": 4
 			},
-			"Complete the 'Prime Real Estate' ~|research|~": {
+			"Complete the ~|Prime Real Estate|~ research": {
 				"Tasks": {
 					"Become an ~|archaeology assistant|~": "Archaeology"
 				},
@@ -3367,7 +3367,7 @@
 				"Priority": 5,
 				"NoBoost": true
 			},
-			"Complete the 'Complete the Pattern, Solve the Puzzle' ~|research|~": {
+			"Complete the ~|Complete the Pattern, Solve the Puzzle|~ research": {
 				"Tasks": {
 					"Become an ~|archaeology assistant|~": "Archaeology"
 				},
@@ -3496,7 +3496,7 @@
 				"Primary": true,
 				"Priority": 4
 			},
-			"Complete the 'Are You Not Entertained?' ~|research|~": {
+			"Complete the ~|Are You Not Entertained?|~ research": {
 				"Tasks": {
 					"Become an ~|archaeology assistant|~": "Archaeology"
 				},
@@ -3550,7 +3550,7 @@
 				"Primary": true,
 				"Priority": 4
 			},
-			"Complete the 'Crossing that Bridge' ~|research|~": {
+			"Complete the ~|Crossing that Bridge|~ research": {
 				"Tasks": {
 					"Become an ~|archaeology assistant|~": "Archaeology"
 				},
@@ -3634,7 +3634,7 @@
 				"Primary": false,
 				"Priority": 6
 			},
-			"Complete the 'Who Dis?' ~|research|~": {
+			"Complete the ~|Who Dis?|~ research": {
 				"Tasks": {
 					"Become an ~|archaeology assistant|~": "Archaeology"
 				},
@@ -3645,7 +3645,7 @@
 				"Priority": 7,
 				"NoBoost": true
 			},
-			"Complete the 'Deeper and Down' ~|research|~": {
+			"Complete the ~|Deeper and Down|~ research": {
 				"Tasks": {
 					"Become an ~|archaeology assistant|~": "Archaeology"
 				},
@@ -3699,7 +3699,7 @@
 				"Primary": true,
 				"Priority": 4
 			},
-			"Complete the 'Stadio Ga Ga' ~|research|~": {
+			"Complete the ~|Stadio Ga Ga|~ research": {
 				"Tasks": {
 					"Become an ~|archaeology assistant|~": "Archaeology"
 				},
@@ -3850,7 +3850,7 @@
 				"Primary": false,
 				"Priority": 10
 			},
-			"Complete the 'Mysterious Monolith: Architecture' ~|research|~": {
+			"Complete the ~|Mysterious Monolith: Architecture|~ research": {
 				"Tasks": {
 					"Become an ~|archaeology assistant|~": "Archaeology"
 				},
@@ -3860,7 +3860,7 @@
 				"Priority": 11,
 				"NoBoost": true
 			},
-			"Complete the 'Ikovian Tragedy' ~|research|~": {
+			"Complete the ~|Ikovian Tragedy|~ research": {
 				"Tasks": {
 					"Become an ~|archaeology assistant|~": "Archaeology"
 				},
@@ -3871,7 +3871,7 @@
 				"Priority": 12,
 				"NoBoost": true
 			},
-			"Complete the 'Let Sleeping Kin Lie' ~|research|~": {
+			"Complete the ~|Let Sleeping Kin Lie|~ research": {
 				"Tasks": {
 					"Become an ~|archaeology assistant|~": "Archaeology"
 				},
@@ -3935,7 +3935,7 @@
 				"Primary": true,
 				"Priority": 4
 			},
-			"Complete the 'Home, Sweet Home' ~|research|~": {
+			"Complete the ~|Home, Sweet Home|~ research": {
 				"Tasks": {
 					"Become an ~|archaeology assistant|~": "Archaeology"
 				},
@@ -4082,7 +4082,7 @@
 				"Primary": false,
 				"Priority": 5
 			},
-			"Complete the 'Imposing Stature' ~|research|~": {
+			"Complete the ~|Imposing Stature|~ research": {
 				"Tasks": {
 					"Become an ~|archaeology assistant|~": "Archaeology"
 				},
@@ -4489,7 +4489,7 @@
 				"Primary": true,
 				"Priority": 8
 			},
-			"Complete the 'Rest at the New Frontier' ~|research|~": {
+			"Complete the ~|Rest at the New Frontier|~ research": {
 				"Tasks": {
 					"Become an ~|archaeology assistant|~": "Archaeology"
 				},
@@ -4732,7 +4732,7 @@
 				"Primary": false,
 				"Priority": 20
 			},
-			"Complete the 'Deer-ly Departed' ~|research|~": {
+			"Complete the ~|Deer-ly Departed|~ research": {
 				"Tasks": {
 					"Become an ~|archaeology assistant|~": "Archaeology"
 				},
@@ -4803,7 +4803,7 @@
 				"Primary": false,
 				"Priority": 6
 			},
-			"Complete the 'Melting Point' ~|research|~": {
+			"Complete the ~|Melting Point|~ research": {
 				"Tasks": {
 					"Become an ~|archaeology assistant|~": "Archaeology"
 				},
@@ -4864,7 +4864,7 @@
 				"Primary": false,
 				"Priority": 4
 			},
-			"Complete the 'Like Clockwork' ~|research|~": {
+			"Complete the ~|Like Clockwork|~ research": {
 				"Tasks": {
 					"Become an ~|archaeology assistant|~": "Archaeology"
 				},
@@ -4949,7 +4949,7 @@
 				"Primary": true,
 				"Priority": 3
 			},
-			"Complete the 'Requiescat in Pace' ~|research|~": {
+			"Complete the ~|Requiescat in Pace|~ research": {
 				"Tasks": {
 					"Become an ~|archaeology assistant|~": "Archaeology"
 				},
@@ -4960,7 +4960,7 @@
 				"Priority": 4,
 				"NoBoost": true
 			},
-			"Complete the 'Nom-Nom-Nom-Nom' ~|research|~": {
+			"Complete the ~|Nom-Nom-Nom-Nom|~ research": {
 				"Tasks": {
 					"Become an ~|archaeology assistant|~": "Archaeology",
 					"~|Tomes of the Warlock|~ 5": "Quest"
@@ -5155,7 +5155,7 @@
 				"Priority": 10,
 				"NoBoost": true
 			},
-			"Complete the 'Mysterious Monolith: Symbology' ~|research|~": {
+			"Complete the ~|Mysterious Monolith: Symbology|~ research": {
 				"Tasks": {
 					"Become an ~|archaeology assistant|~": "Archaeology"
 				},
@@ -5173,7 +5173,7 @@
 				"Primary": false,
 				"Priority": 12
 			},
-			"Complete the 'Incomplete Portal Network I' ~|research|~": {
+			"Complete the ~|Incomplete Portal Network I|~ research": {
 				"Tasks": {
 					"Become an ~|archaeology assistant|~": "Archaeology"
 				},
@@ -5197,7 +5197,7 @@
 				"Primary": false,
 				"Priority": 14
 			},
-			"Complete the 'Incomplete Portal Network II' ~|research|~": {
+			"Complete the ~|Incomplete Portal Network II|~ research": {
 				"Tasks": {
 					"Become an ~|archaeology assistant|~": "Archaeology"
 				},
@@ -5221,7 +5221,7 @@
 				"Primary": false,
 				"Priority": 16
 			},
-			"Complete the 'Incomplete Portal Network III' ~|research|~": {
+			"Complete the ~|Incomplete Portal Network III|~ research": {
 				"Tasks": {
 					"Become an ~|archaeology assistant|~": "Archaeology"
 				},
@@ -5378,7 +5378,7 @@
 				"Primary": true,
 				"Priority": 3
 			},
-			"Complete the 'Ground of the Polis' ~|research|~": {
+			"Complete the ~|Ground of the Polis|~ research": {
 				"Tasks": {
 					"Become an ~|archaeology assistant|~": "Archaeology"
 				},
@@ -5521,7 +5521,7 @@
 				"Priority": 4,
 				"NoBoost": true
 			},
-			"Complete the 'Night and Day' ~|research|~": {
+			"Complete the ~|Night and Day|~ research": {
 				"Tasks": {
 					"Become an ~|archaeology assistant|~": "Archaeology"
 				},
@@ -5533,7 +5533,7 @@
 				"Priority": 5,
 				"NoBoost": true
 			},
-			"Complete the 'Back to the Drawing Board' ~|research|~": {
+			"Complete the ~|Back to the Drawing Board|~ research": {
 				"Tasks": {
 					"Become an ~|archaeology assistant|~": "Archaeology"
 				},
@@ -5638,7 +5638,7 @@
 				"Primary": false,
 				"Priority": 6
 			},
-			"Complete the 'Northside' ~|research|~": {
+			"Complete the ~|Northside|~ research": {
 				"Tasks": {
 					"Become an ~|archaeology assistant|~": "Archaeology"
 				},
@@ -5649,7 +5649,7 @@
 				"Priority": 7,
 				"NoBoost": true
 			},
-			"Complete the 'Dwarven Forge' ~|research|~": {
+			"Complete the ~|Dwarven Forge|~ research": {
 				"Tasks": {
 					"Become an ~|archaeology assistant|~": "Archaeology"
 				},
@@ -5768,7 +5768,7 @@
 				"Primary": false,
 				"Priority": 9
 			},
-			"Complete the 'The Aetherium Giant' ~|research|~": {
+			"Complete the ~|The Aetherium Giant|~ research": {
 				"Tasks": {
 					"Become an ~|archaeology assistant|~": "Archaeology"
 				},
@@ -5780,7 +5780,7 @@
 				"Priority": 10,
 				"NoBoost": true
 			},
-			"Complete the 'Hell Mouths' ~|research|~": {
+			"Complete the ~|Hell Mouths|~ research": {
 				"Tasks": {
 					"Become an ~|archaeology assistant|~": "Archaeology"
 				},
@@ -5867,7 +5867,7 @@
 				"Priority": 13,
 				"NoBoost": true
 			},
-			"Complete the 'Philosophy' ~|research|~": {
+			"Complete the ~|Philosophy|~ research": {
 				"Tasks": {
 					"Become an ~|archaeology assistant|~": "Archaeology"
 				},
@@ -5878,7 +5878,7 @@
 				"Priority": 14,
 				"NoBoost": true
 			},
-			"Complete the 'Writings of the Walls: Kharid-et' ~|research|~": {
+			"Complete the ~|Writings of the Walls: Kharid-et|~ research": {
 				"Tasks": {
 					"Become an ~|archaeology assistant|~": "Archaeology"
 				},
@@ -5890,7 +5890,7 @@
 				"Priority": 15,
 				"NoBoost": true
 			},
-			"Complete the 'Writings of the Walls: Infernal Source' ~|research|~": {
+			"Complete the ~|Writings of the Walls: Infernal Source|~ research": {
 				"Tasks": {
 					"Become an ~|archaeology assistant|~": "Archaeology"
 				},
@@ -5902,7 +5902,7 @@
 				"Priority": 16,
 				"NoBoost": true
 			},
-			"Complete the 'Writings of the Walls: Everlight' ~|research|~": {
+			"Complete the ~|Writings of the Walls: Everlight|~ research": {
 				"Tasks": {
 					"Become an ~|archaeology assistant|~": "Archaeology"
 				},
@@ -5914,7 +5914,7 @@
 				"Priority": 17,
 				"NoBoost": true
 			},
-			"Complete the 'Writings of the Walls: Stormguard' ~|research|~": {
+			"Complete the ~|Writings of the Walls: Stormguard|~ research": {
 				"Tasks": {
 					"Become an ~|archaeology assistant|~": "Archaeology"
 				},
@@ -5926,7 +5926,7 @@
 				"Priority": 18,
 				"NoBoost": true
 			},
-			"Complete the 'Writings of the Walls: Warforge' ~|research|~": {
+			"Complete the ~|Writings of the Walls: Warforge|~ research": {
 				"Tasks": {
 					"Become an ~|archaeology assistant|~": "Archaeology"
 				},
@@ -5938,7 +5938,7 @@
 				"Priority": 19,
 				"NoBoost": true
 			},
-			"Complete the 'Breath of Fire' ~|research|~": {
+			"Complete the ~|Breath of Fire|~ research": {
 				"Tasks": {
 					"Become an ~|archaeology assistant|~": "Archaeology"
 				},
@@ -6054,7 +6054,7 @@
 				"Primary": true,
 				"Priority": 9
 			},
-			"Complete the 'Too Many Bones' ~|research|~": {
+			"Complete the ~|Too Many Bones|~ research": {
 				"Tasks": {
 					"Become an ~|archaeology assistant|~": "Archaeology"
 				},
@@ -6065,7 +6065,7 @@
 				"Priority": 10,
 				"NoBoost": true
 			},
-			"Complete the 'Power Behind the Throne' ~|research|~": {
+			"Complete the ~|Power Behind the Throne|~ research": {
 				"Tasks": {
 					"Become an ~|archaeology assistant|~": "Archaeology"
 				},
@@ -6076,7 +6076,7 @@
 				"Priority": 11,
 				"NoBoost": true
 			},
-			"Complete the 'Where There's Smoke...' ~|research|~": {
+			"Complete the ~|Where There's Smoke...|~ research": {
 				"Chunks": ["Kharid-et - Barracks excavation site"],
 				"Tasks": {
 					"Become an ~|archaeology assistant|~": "Archaeology"
@@ -6119,7 +6119,7 @@
 				"Primary": true,
 				"Priority": 3
 			},
-			"Complete the 'Necropsy' ~|research|~": {
+			"Complete the ~|Necropsy|~ research": {
 				"Tasks": {
 					"Become an ~|archaeology assistant|~": "Archaeology"
 				},
@@ -6274,7 +6274,7 @@
 				"Primary": true,
 				"Priority": 6
 			},
-			"Complete the 'On the Threshold of the Mind' ~|research|~": {
+			"Complete the ~|On the Threshold of the Mind|~ research": {
 				"Tasks": {
 					"Become an ~|archaeology assistant|~": "Archaeology"
 				},
@@ -6443,7 +6443,7 @@
 				"Primary": false,
 				"Priority": 6
 			},
-			"Complete the 'Battle of the Optimatoi' ~|research|~": {
+			"Complete the ~|Battle of the Optimatoi|~ research": {
 				"Tasks": {
 					"Become an ~|archaeology assistant|~": "Archaeology"
 				},
@@ -6540,7 +6540,7 @@
 				"Primary": true,
 				"Priority": 4
 			},
-			"Complete the 'Shadow Play' ~|research|~": {
+			"Complete the ~|Shadow Play|~ research": {
 				"Tasks": {
 					"Become an ~|archaeology assistant|~": "Archaeology"
 				},
@@ -6624,7 +6624,7 @@
 				"Primary": false,
 				"Priority": 4
 			},
-			"Complete the 'Mind Your Head' ~|research|~": {
+			"Complete the ~|Mind Your Head|~ research": {
 				"Tasks": {
 					"Become an ~|archaeology assistant|~": "Archaeology"
 				},
@@ -6667,7 +6667,7 @@
 				"Primary": true,
 				"Priority": 3
 			},
-			"Complete the 'Making Sense of Sense' ~|research|~": {
+			"Complete the ~|Making Sense of Sense|~ research": {
 				"Tasks": {
 					"Become an ~|archaeology assistant|~": "Archaeology"
 				},
@@ -6906,7 +6906,7 @@
 				"Primary": true,
 				"Priority": 6
 			},
-			"Complete the 'Thought Process' ~|research|~": {
+			"Complete the ~|Thought Process|~ research": {
 				"Tasks": {
 					"Become an ~|archaeology assistant|~": "Archaeology"
 				},
@@ -7248,7 +7248,7 @@
 				"Primary": false,
 				"Priority": 11
 			},
-			"Complete the 'Howling Man' ~|research|~": {
+			"Complete the ~|Howling Man|~ research": {
 				"Tasks": {
 					"Become an ~|archaeology assistant|~": "Archaeology"
 				},
@@ -7342,7 +7342,7 @@
 				"Primary": false,
 				"Priority": 8
 			},
-			"Complete the 'Big High War Chest' ~|research|~": {
+			"Complete the ~|Big High War Chest|~ research": {
 				"Tasks": {
 					"Become an ~|archaeology assistant|~": "Archaeology"
 				},
@@ -7385,7 +7385,7 @@
 				"Primary": true,
 				"Priority": 6
 			},
-			"Complete the 'Xolo Dorado' ~|research|~": {
+			"Complete the ~|Xolo Dorado|~ research": {
 				"Tasks": {
 					"Become an ~|archaeology assistant|~": "Archaeology"
 				},
@@ -45106,12 +45106,20 @@
 				"Primary": true,
 				"Priority": 1
 			},
-			"Catch a ~|ghost impling|~ in Um": {
+			"Catch a ~|ghost impling|~": {
 				"Chunks": ["City of Um"],
 				"Level": 68,
 				"Output": "Ghost impling",
 				"Primary": true,
 				"Priority": 2
+			},
+			"Catch a ~|ghost impling|~ in a jar": {
+				"Chunks": ["City of Um"],
+				"Items": ["Impling jar*"],
+				"Level": 68,
+				"Output": "Ghost impling jar",
+				"Primary": true,
+				"Priority": 3
 			},
 			"Catch a ~|dashing kebbit|~": {
 				"NPCs": ["Matthias", "Dashing kebbit"],
@@ -53729,6 +53737,15 @@
 				"Primary": true,
 				"Priority": 1
 			},
+			"Unlock ~|Austin's Place|~": {
+				"Chunks": ["City of Um"],
+				"Items": ["Ghost impling jar*"],
+				"Level": 68,
+				"Primary": false,
+				"Priority": 1,
+				"NoPet": true,
+				"NoBoost": true
+			},
 			"Draw a ~|Protection II|~ glyph": {
 				"Chunks": ["RitualSite[+]"],
 				"Items": ["Ectoplasm", "Regular ghostly ink", "Basic ghostly ink"],
@@ -61538,7 +61555,7 @@
 				"Primary": false,
 				"Priority": 5,
 				"Source": "drop",
-				"Output": "Crawling hand (Burthrope)",
+				"Output": "Crawling hand (Burthorpe)",
 				"NoPet": true
 			},
 			"Slay a ~|skeletal hand|~": {
@@ -104136,7 +104153,7 @@
 				"Items": ["Ancient vis"],
 				"Tasks": {
 					"Archaeology Mystery: ~|Teleport Node On|~ 1": "Quest",
-					"Complete the 'Incomplete Portal Network I' ~|research|~": "Archaeology"
+					"Complete the ~|Incomplete Portal Network I|~ research": "Archaeology"
 				},
 				"Skills": {
 					"Runecrafting": 70,
@@ -104151,7 +104168,7 @@
 				"Items": ["Orthenglass"],
 				"Tasks": {
 					"Archaeology Mystery: ~|Teleport Node On|~ 2": "Quest",
-					"Complete the 'Incomplete Portal Network II' ~|research|~": "Archaeology",
+					"Complete the ~|Incomplete Portal Network II|~ research": "Archaeology",
 					"Archaeology Mystery: ~|Know Thy Measure|~ Complete the mystery": "Quest"
 				},
 				"Skills": {
@@ -104167,7 +104184,7 @@
 				"Items": ["Quintessence"],
 				"Tasks": {
 					"Archaeology Mystery: ~|Teleport Node On|~ 3": "Quest",
-					"Complete the 'Incomplete Portal Network III' ~|research|~": "Archaeology"
+					"Complete the ~|Incomplete Portal Network III|~ research": "Archaeology"
 				},
 				"Skills": {
 					"Divination": 70,
@@ -104980,7 +104997,7 @@
 					"~|Twilight of the Gods|~ Complete the quest": "Quest",
 					"Archaeology Mystery: ~|A New Form|~ Complete the mystery": "Quest",
 					"Archaeology Mystery: ~|A New Home|~ Complete the mystery": "Quest",
-					"Complete the 'Thought Process' ~|research|~": "Archaeology"
+					"Complete the ~|Thought Process|~ research": "Archaeology"
 				},
 				"Not F2P": true
 			},
@@ -120469,11 +120486,11 @@
 				"Description": "Complete all of the Daemonheim research.",
 				"BaseQuest": "Completionist achievements",
 				"Tasks": {
-					"Complete the 'Imposing Stature' ~|research|~": "Archaeology",
-					"Complete the 'Rest at the New Frontier' ~|research|~": "Archaeology",
-					"Complete the 'On the Threshold of the Mind' ~|research|~": "Archaeology",
-					"Complete the 'Making Sense of Sense' ~|research|~": "Archaeology",
-					"Complete the 'Thought Process' ~|research|~": "Archaeology"
+					"Complete the ~|Imposing Stature|~ research": "Archaeology",
+					"Complete the ~|Rest at the New Frontier|~ research": "Archaeology",
+					"Complete the ~|On the Threshold of the Mind|~ research": "Archaeology",
+					"Complete the ~|Making Sense of Sense|~ research": "Archaeology",
+					"Complete the ~|Thought Process|~ research": "Archaeology"
 				},
 				"Not F2P": true
 			},
@@ -120482,13 +120499,13 @@
 				"Description": "Complete all of the Everlight research.",
 				"BaseQuest": "Completionist achievements",
 				"Tasks": {
-					"Complete the 'Lions and Unicorns and Centaurs, Oh My!' ~|research|~": "Archaeology",
-					"Complete the 'Ode to a Midsummer Morning' ~|research|~": "Archaeology",
-					"Complete the 'Stadio Ga Ga' ~|research|~": "Archaeology",
-					"Complete the 'Home, Sweet Home' ~|research|~": "Archaeology",
-					"Complete the 'Ground of the Polis' ~|research|~": "Archaeology",
-					"Complete the 'Battle of the Optimatoi' ~|research|~": "Archaeology",
-					"Complete the 'Like Clockwork' ~|research|~": "Archaeology"
+					"Complete the ~|Lions and Unicorns and Centaurs, Oh My!|~ research": "Archaeology",
+					"Complete the ~|Ode to a Midsummer Morning|~ research": "Archaeology",
+					"Complete the ~|Stadio Ga Ga|~ research": "Archaeology",
+					"Complete the ~|Home, Sweet Home|~ research": "Archaeology",
+					"Complete the ~|Ground of the Polis|~ research": "Archaeology",
+					"Complete the ~|Battle of the Optimatoi|~ research": "Archaeology",
+					"Complete the ~|Like Clockwork|~ research": "Archaeology"
 				},
 				"Not F2P": true
 			},
@@ -120497,15 +120514,15 @@
 				"Description": "Complete all of the Guild research.",
 				"BaseQuest": "Completionist achievements",
 				"Tasks": {
-					"Complete the 'Mysterious Monolith: Existence' ~|research|~": "Archaeology",
-					"Complete the 'Mysterious Monolith: Architecture' ~|research|~": "Archaeology",
-					"Complete the 'Mysterious Monolith: Symbology' ~|research|~": "Archaeology",
-					"Complete the 'Philosophy' ~|research|~": "Archaeology",
-					"Complete the 'Writings of the Walls: Kharid-et' ~|research|~": "Archaeology",
-					"Complete the 'Writings of the Walls: Infernal Source' ~|research|~": "Archaeology",
-					"Complete the 'Writings of the Walls: Everlight' ~|research|~": "Archaeology",
-					"Complete the 'Writings of the Walls: Stormguard' ~|research|~": "Archaeology",
-					"Complete the 'Writings of the Walls: Warforge' ~|research|~": "Archaeology"
+					"Complete the ~|Mysterious Monolith: Existence|~ research": "Archaeology",
+					"Complete the ~|Mysterious Monolith: Architecture|~ research": "Archaeology",
+					"Complete the ~|Mysterious Monolith: Symbology|~ research": "Archaeology",
+					"Complete the ~|Philosophy|~ research": "Archaeology",
+					"Complete the ~|Writings of the Walls: Kharid-et|~ research": "Archaeology",
+					"Complete the ~|Writings of the Walls: Infernal Source|~ research": "Archaeology",
+					"Complete the ~|Writings of the Walls: Everlight|~ research": "Archaeology",
+					"Complete the ~|Writings of the Walls: Stormguard|~ research": "Archaeology",
+					"Complete the ~|Writings of the Walls: Warforge|~ research": "Archaeology"
 				},
 				"Not F2P": true
 			},
@@ -120514,12 +120531,12 @@
 				"Description": "Complete all of the Infernal Source research.",
 				"BaseQuest": "Completionist achievements",
 				"Tasks": {
-					"Complete the 'Starry Eyed' ~|research|~": "Archaeology",
-					"Complete the 'The Dark Underbelly' ~|research|~": "Archaeology",
-					"Complete the 'Abandon All Hope' ~|research|~": "Archaeology",
-					"Complete the 'Deeper and Down' ~|research|~": "Archaeology",
-					"Complete the 'Who Dis?' ~|research|~": "Archaeology",
-					"Complete the 'Hell Mouths' ~|research|~": "Archaeology"
+					"Complete the ~|Starry Eyed|~ research": "Archaeology",
+					"Complete the ~|The Dark Underbelly|~ research": "Archaeology",
+					"Complete the ~|Abandon All Hope|~ research": "Archaeology",
+					"Complete the ~|Deeper and Down|~ research": "Archaeology",
+					"Complete the ~|Who Dis?|~ research": "Archaeology",
+					"Complete the ~|Hell Mouths|~ research": "Archaeology"
 				},
 				"Not F2P": true
 			},
@@ -120528,14 +120545,14 @@
 				"Description": "Complete all of the Kharid-et research.",
 				"BaseQuest": "Completionist achievements",
 				"Tasks": {
-					"Complete the 'Demon Door' ~|research|~": "Archaeology",
-					"Complete the 'Proving Grounds' ~|research|~": "Archaeology",
-					"Complete the 'Cell, a Door' ~|research|~": "Archaeology",
-					"Complete the 'Requiescat in Pace' ~|research|~": "Archaeology",
-					"Complete the 'Where There's Smoke...' ~|research|~": "Archaeology",
-					"Complete the 'Shadow Play' ~|research|~": "Archaeology",
-					"Complete the 'Lockdown' ~|research|~": "Archaeology",
-					"Complete the 'Nom-Nom-Nom-Nom' ~|research|~": "Archaeology"
+					"Complete the ~|Demon Door|~ research": "Archaeology",
+					"Complete the ~|Proving Grounds|~ research": "Archaeology",
+					"Complete the ~|Cell, a Door|~ research": "Archaeology",
+					"Complete the ~|Requiescat in Pace|~ research": "Archaeology",
+					"Complete the ~|Where There's Smoke...|~ research": "Archaeology",
+					"Complete the ~|Shadow Play|~ research": "Archaeology",
+					"Complete the ~|Lockdown|~ research": "Archaeology",
+					"Complete the ~|Nom-Nom-Nom-Nom|~ research": "Archaeology"
 				},
 				"Not F2P": true
 			},
@@ -120544,11 +120561,11 @@
 				"Description": "Complete all of the Orthen research.",
 				"BaseQuest": "Completionist achievements",
 				"Tasks": {
-					"Complete the 'Let Sleeping Kin Lie' ~|research|~": "Archaeology",
-					"Complete the 'Breath of Fire' ~|research|~": "Archaeology",
-					"Complete the 'Necropsy' ~|research|~": "Archaeology",
-					"Complete the 'Mind Your Head' ~|research|~": "Archaeology",
-					"Complete the 'Xolo Dorado' ~|research|~": "Archaeology"
+					"Complete the ~|Let Sleeping Kin Lie|~ research": "Archaeology",
+					"Complete the ~|Breath of Fire|~ research": "Archaeology",
+					"Complete the ~|Necropsy|~ research": "Archaeology",
+					"Complete the ~|Mind Your Head|~ research": "Archaeology",
+					"Complete the ~|Xolo Dorado|~ research": "Archaeology"
 				},
 				"Not F2P": true
 			},
@@ -120557,11 +120574,11 @@
 				"Description": "Complete all of the Senntisten research.",
 				"BaseQuest": "Completionist achievements",
 				"Tasks": {
-					"Complete the 'The Hidden Chamber' ~|research|~": "Archaeology",
-					"Complete the 'Prime Real Estate' ~|research|~": "Archaeology",
-					"Complete the 'Crossing that Bridge' ~|research|~": "Archaeology",
-					"Complete the 'Are You Not Entertained?' ~|research|~": "Archaeology",
-					"Complete the 'Complete the Pattern, Solve the Puzzle' ~|research|~": "Archaeology"
+					"Complete the ~|The Hidden Chamber|~ research": "Archaeology",
+					"Complete the ~|Prime Real Estate|~ research": "Archaeology",
+					"Complete the ~|Crossing that Bridge|~ research": "Archaeology",
+					"Complete the ~|Are You Not Entertained?|~ research": "Archaeology",
+					"Complete the ~|Complete the Pattern, Solve the Puzzle|~ research": "Archaeology"
 				},
 				"Not F2P": true
 			},
@@ -120570,12 +120587,12 @@
 				"Description": "Complete all of the Stormguard Citadel research.",
 				"BaseQuest": "Completionist achievements",
 				"Tasks": {
-					"Complete the 'Ikovian Tragedy' ~|research|~": "Archaeology",
-					"Complete the 'Deer-ly Departed' ~|research|~": "Archaeology",
-					"Complete the 'The Aetherium Giant' ~|research|~": "Archaeology",
-					"Complete the 'Night and Day' ~|research|~": "Archaeology",
-					"Complete the 'Howling Man' ~|research|~": "Archaeology",
-					"Complete the 'Back to the Drawing Board' ~|research|~": "Archaeology"
+					"Complete the ~|Ikovian Tragedy|~ research": "Archaeology",
+					"Complete the ~|Deer-ly Departed|~ research": "Archaeology",
+					"Complete the ~|The Aetherium Giant|~ research": "Archaeology",
+					"Complete the ~|Night and Day|~ research": "Archaeology",
+					"Complete the ~|Howling Man|~ research": "Archaeology",
+					"Complete the ~|Back to the Drawing Board|~ research": "Archaeology"
 				},
 				"Not F2P": true
 			},
@@ -120584,12 +120601,12 @@
 				"Description": "Complete all of the Warforge research.",
 				"BaseQuest": "Completionist achievements",
 				"Tasks": {
-					"Complete the 'Melting Point' ~|research|~": "Archaeology",
-					"Complete the 'Northside' ~|research|~": "Archaeology",
-					"Complete the 'Too Many Bones' ~|research|~": "Archaeology",
-					"Complete the 'Dwarven Forge' ~|research|~": "Archaeology",
-					"Complete the 'Big High War Chest' ~|research|~": "Archaeology",
-					"Complete the 'Power Behind the Throne' ~|research|~": "Archaeology"
+					"Complete the ~|Melting Point|~ research": "Archaeology",
+					"Complete the ~|Northside|~ research": "Archaeology",
+					"Complete the ~|Too Many Bones|~ research": "Archaeology",
+					"Complete the ~|Dwarven Forge|~ research": "Archaeology",
+					"Complete the ~|Big High War Chest|~ research": "Archaeology",
+					"Complete the ~|Power Behind the Throne|~ research": "Archaeology"
 				},
 				"Not F2P": true
 			},
@@ -120634,7 +120651,7 @@
 				"BaseQuest": "Completionist achievements",
 				"Chunks": ["10546"],
 				"Tasks": {
-					"Complete the 'Nom-Nom-Nom-Nom' ~|research|~": "Archaeology"
+					"Complete the ~|Nom-Nom-Nom-Nom|~ research": "Archaeology"
 				},
 				"Not F2P": true
 			},
@@ -142430,7 +142447,7 @@
 				"Items": ["Soul-in-a-box"],
 				"Not F2P": true
 			},
-			"Obtain a ~|soul-in-a-box|~": {
+			"Obtain an ~|urn enhancer|~": {
 				"Category": ["BIS Skilling"],
 				"Label": "BIS Skilling",
 				"Items": ["Urn enhancer"],
@@ -142446,6 +142463,42 @@
 				"Category": ["BIS Skilling"],
 				"Label": "BIS Skilling",
 				"Items": ["Divine-o-matic vacuum"],
+				"Not F2P": true
+			},
+			"Obtain the ~|ritualist's mask|~": {
+				"Category": ["BIS Skilling"],
+				"Label": "BIS Skilling",
+				"Items": ["Ritualist's mask"],
+				"Not F2P": true
+			},
+			"Obtain the ~|ritualist's robe top|~": {
+				"Category": ["BIS Skilling"],
+				"Label": "BIS Skilling",
+				"Items": ["Ritualist's robe top"],
+				"Not F2P": true
+			},
+			"Obtain the ~|ritualist's robe bottoms|~": {
+				"Category": ["BIS Skilling"],
+				"Label": "BIS Skilling",
+				"Items": ["Ritualist's robe bottoms"],
+				"Not F2P": true
+			},
+			"Obtain the ~|ritualist's gloves|~": {
+				"Category": ["BIS Skilling"],
+				"Label": "BIS Skilling",
+				"Items": ["Ritualist's gloves"],
+				"Not F2P": true
+			},
+			"Obtain the ~|ritualist's boots|~": {
+				"Category": ["BIS Skilling"],
+				"Label": "BIS Skilling",
+				"Items": ["Ritualist's boots"],
+				"Not F2P": true
+			},
+			"Obtain the ~|ritualist's mask add-on|~": {
+				"Category": ["BIS Skilling"],
+				"Label": "BIS Skilling",
+				"Items": ["Ritualist's mask add-on"],
 				"Not F2P": true
 			},
 			"Summon a ~|arctic bear|~": {
@@ -142698,6 +142751,462 @@
 				"Category": ["BIS Skilling", "BIS Skilling Consumables"],
 				"Label": "BIS Skilling",
 				"Items": ["Liquid patch bomb"],
+				"Not F2P": true
+			},
+			"Obtain a ~|exquisite cooking urn|~": {
+				"Category": ["BIS Skilling Consumables", "BIS Skilling"],
+				"Label": "BIS Skilling",
+				"Items": ["Exquisite cooking urn"],
+				"Priority": 1,
+				"Set": "BIS Cooking Urn",
+				"Not F2P": true
+			},
+			"Obtain a ~|decorated cooking urn|~": {
+				"Category": ["BIS Skilling Consumables", "BIS Skilling"],
+				"Label": "BIS Skilling",
+				"Items": ["Decorated cooking urn"],
+				"Priority": 2,
+				"Set": "BIS Cooking Urn",
+				"Not F2P": true
+			},
+			"Obtain a ~|strong cooking urn|~": {
+				"Category": ["BIS Skilling Consumables", "BIS Skilling"],
+				"Label": "BIS Skilling",
+				"Items": ["Strong cooking urn"],
+				"Priority": 3,
+				"Set": "BIS Cooking Urn",
+				"Not F2P": true
+			},
+			"Obtain a ~|plain cooking urn|~": {
+				"Category": ["BIS Skilling Consumables", "BIS Skilling"],
+				"Label": "BIS Skilling",
+				"Items": ["Plain cooking urn"],
+				"Priority": 4,
+				"Set": "BIS Cooking Urn",
+				"Not F2P": true
+			},
+			"Obtain a ~|fragile cooking urn|~": {
+				"Category": ["BIS Skilling Consumables", "BIS Skilling"],
+				"Label": "BIS Skilling",
+				"Items": ["Fragile cooking urn"],
+				"Priority": 5,
+				"Set": "BIS Cooking Urn",
+				"Not F2P": true
+			},
+			"Obtain a ~|cracked cooking urn|~": {
+				"Category": ["BIS Skilling Consumables", "BIS Skilling"],
+				"Label": "BIS Skilling",
+				"Items": ["Cracked cooking urn"],
+				"Priority": 6,
+				"Set": "BIS Cooking Urn",
+				"Not F2P": true
+			},
+			"Obtain a ~|exquisite divination urn|~": {
+				"Category": ["BIS Skilling Consumables", "BIS Skilling"],
+				"Label": "BIS Skilling",
+				"Items": ["Exquisite divination urn"],
+				"Priority": 1,
+				"Set": "BIS Divination Urn",
+				"Not F2P": true
+			},
+			"Obtain a ~|decorated divination urn|~": {
+				"Category": ["BIS Skilling Consumables", "BIS Skilling"],
+				"Label": "BIS Skilling",
+				"Items": ["Decorated divination urn"],
+				"Priority": 2,
+				"Set": "BIS Divination Urn",
+				"Not F2P": true
+			},
+			"Obtain a ~|strong divination urn|~": {
+				"Category": ["BIS Skilling Consumables", "BIS Skilling"],
+				"Label": "BIS Skilling",
+				"Items": ["Strong divination urn"],
+				"Priority": 3,
+				"Set": "BIS Divination Urn",
+				"Not F2P": true
+			},
+			"Obtain a ~|plain divination urn|~": {
+				"Category": ["BIS Skilling Consumables", "BIS Skilling"],
+				"Label": "BIS Skilling",
+				"Items": ["Plain divination urn"],
+				"Priority": 4,
+				"Set": "BIS Divination Urn",
+				"Not F2P": true
+			},
+			"Obtain a ~|fragile divination urn|~": {
+				"Category": ["BIS Skilling Consumables", "BIS Skilling"],
+				"Label": "BIS Skilling",
+				"Items": ["Fragile divination urn"],
+				"Priority": 5,
+				"Set": "BIS Divination Urn",
+				"Not F2P": true
+			},
+			"Obtain a ~|cracked divination urn|~": {
+				"Category": ["BIS Skilling Consumables", "BIS Skilling"],
+				"Label": "BIS Skilling",
+				"Items": ["Cracked divination urn"],
+				"Priority": 6,
+				"Set": "BIS Divination Urn",
+				"Not F2P": true
+			},
+			"Obtain a ~|exquisite farming urn|~": {
+				"Category": ["BIS Skilling Consumables", "BIS Skilling"],
+				"Label": "BIS Skilling",
+				"Items": ["Exquisite farming urn"],
+				"Priority": 1,
+				"Set": "BIS Farming Urn",
+				"Not F2P": true
+			},
+			"Obtain a ~|decorated farming urn|~": {
+				"Category": ["BIS Skilling Consumables", "BIS Skilling"],
+				"Label": "BIS Skilling",
+				"Items": ["Decorated farming urn"],
+				"Priority": 2,
+				"Set": "BIS Farming Urn",
+				"Not F2P": true
+			},
+			"Obtain a ~|strong farming urn|~": {
+				"Category": ["BIS Skilling Consumables", "BIS Skilling"],
+				"Label": "BIS Skilling",
+				"Items": ["Strong farming urn"],
+				"Priority": 3,
+				"Set": "BIS Farming Urn",
+				"Not F2P": true
+			},
+			"Obtain a ~|plain farming urn|~": {
+				"Category": ["BIS Skilling Consumables", "BIS Skilling"],
+				"Label": "BIS Skilling",
+				"Items": ["Plain farming urn"],
+				"Priority": 4,
+				"Set": "BIS Farming Urn",
+				"Not F2P": true
+			},
+			"Obtain a ~|fragile farming urn|~": {
+				"Category": ["BIS Skilling Consumables", "BIS Skilling"],
+				"Label": "BIS Skilling",
+				"Items": ["Fragile farming urn"],
+				"Priority": 5,
+				"Set": "BIS Farming Urn",
+				"Not F2P": true
+			},
+			"Obtain a ~|cracked farming urn|~": {
+				"Category": ["BIS Skilling Consumables", "BIS Skilling"],
+				"Label": "BIS Skilling",
+				"Items": ["Cracked farming urn"],
+				"Priority": 6,
+				"Set": "BIS Farming Urn",
+				"Not F2P": true
+			},
+			"Obtain a ~|exquisite fishing urn|~": {
+				"Category": ["BIS Skilling Consumables", "BIS Skilling"],
+				"Label": "BIS Skilling",
+				"Items": ["Exquisite fishing urn"],
+				"Priority": 1,
+				"Set": "BIS Fishing Urn",
+				"Not F2P": true
+			},
+			"Obtain a ~|decorated fishing urn|~": {
+				"Category": ["BIS Skilling Consumables", "BIS Skilling"],
+				"Label": "BIS Skilling",
+				"Items": ["Decorated fishing urn"],
+				"Priority": 2,
+				"Set": "BIS Fishing Urn",
+				"Not F2P": true
+			},
+			"Obtain a ~|strong fishing urn|~": {
+				"Category": ["BIS Skilling Consumables", "BIS Skilling"],
+				"Label": "BIS Skilling",
+				"Items": ["Strong fishing urn"],
+				"Priority": 3,
+				"Set": "BIS Fishing Urn",
+				"Not F2P": true
+			},
+			"Obtain a ~|plain fishing urn|~": {
+				"Category": ["BIS Skilling Consumables", "BIS Skilling"],
+				"Label": "BIS Skilling",
+				"Items": ["Plain fishing urn"],
+				"Priority": 4,
+				"Set": "BIS Fishing Urn",
+				"Not F2P": true
+			},
+			"Obtain a ~|fragile fishing urn|~": {
+				"Category": ["BIS Skilling Consumables", "BIS Skilling"],
+				"Label": "BIS Skilling",
+				"Items": ["Fragile fishing urn"],
+				"Priority": 5,
+				"Set": "BIS Fishing Urn",
+				"Not F2P": true
+			},
+			"Obtain a ~|cracked fishing urn|~": {
+				"Category": ["BIS Skilling Consumables", "BIS Skilling"],
+				"Label": "BIS Skilling",
+				"Items": ["Cracked fishing urn"],
+				"Priority": 6,
+				"Set": "BIS Fishing Urn",
+				"Not F2P": true
+			},
+			"Obtain a ~|exquisite hunter urn|~": {
+				"Category": ["BIS Skilling Consumables", "BIS Skilling"],
+				"Label": "BIS Skilling",
+				"Items": ["Exquisite hunter urn"],
+				"Priority": 1,
+				"Set": "BIS Hunter Urn",
+				"Not F2P": true
+			},
+			"Obtain a ~|decorated hunter urn|~": {
+				"Category": ["BIS Skilling Consumables", "BIS Skilling"],
+				"Label": "BIS Skilling",
+				"Items": ["Decorated hunter urn"],
+				"Priority": 2,
+				"Set": "BIS Hunter Urn",
+				"Not F2P": true
+			},
+			"Obtain a ~|strong hunter urn|~": {
+				"Category": ["BIS Skilling Consumables", "BIS Skilling"],
+				"Label": "BIS Skilling",
+				"Items": ["Strong hunter urn"],
+				"Priority": 3,
+				"Set": "BIS Hunter Urn",
+				"Not F2P": true
+			},
+			"Obtain a ~|plain hunter urn|~": {
+				"Category": ["BIS Skilling Consumables", "BIS Skilling"],
+				"Label": "BIS Skilling",
+				"Items": ["Plain hunter urn"],
+				"Priority": 4,
+				"Set": "BIS Hunter Urn",
+				"Not F2P": true
+			},
+			"Obtain a ~|fragile hunter urn|~": {
+				"Category": ["BIS Skilling Consumables", "BIS Skilling"],
+				"Label": "BIS Skilling",
+				"Items": ["Fragile hunter urn"],
+				"Priority": 5,
+				"Set": "BIS Hunter Urn",
+				"Not F2P": true
+			},
+			"Obtain a ~|cracked hunter urn|~": {
+				"Category": ["BIS Skilling Consumables", "BIS Skilling"],
+				"Label": "BIS Skilling",
+				"Items": ["Cracked hunter urn"],
+				"Priority": 6,
+				"Set": "BIS Hunter Urn",
+				"Not F2P": true
+			},
+			"Obtain a ~|exquisite mining urn|~": {
+				"Category": ["BIS Skilling Consumables", "BIS Skilling"],
+				"Label": "BIS Skilling",
+				"Items": ["Exquisite mining urn"],
+				"Priority": 1,
+				"Set": "BIS Mining Urn",
+				"Not F2P": true
+			},
+			"Obtain a ~|decorated mining urn|~": {
+				"Category": ["BIS Skilling Consumables", "BIS Skilling"],
+				"Label": "BIS Skilling",
+				"Items": ["Decorated mining urn"],
+				"Priority": 2,
+				"Set": "BIS Mining Urn",
+				"Not F2P": true
+			},
+			"Obtain a ~|strong mining urn|~": {
+				"Category": ["BIS Skilling Consumables", "BIS Skilling"],
+				"Label": "BIS Skilling",
+				"Items": ["Strong mining urn"],
+				"Priority": 3,
+				"Set": "BIS Mining Urn",
+				"Not F2P": true
+			},
+			"Obtain a ~|plain mining urn|~": {
+				"Category": ["BIS Skilling Consumables", "BIS Skilling"],
+				"Label": "BIS Skilling",
+				"Items": ["Plain mining urn"],
+				"Priority": 4,
+				"Set": "BIS Mining Urn",
+				"Not F2P": true
+			},
+			"Obtain a ~|fragile mining urn|~": {
+				"Category": ["BIS Skilling Consumables", "BIS Skilling"],
+				"Label": "BIS Skilling",
+				"Items": ["Fragile mining urn"],
+				"Priority": 5,
+				"Set": "BIS Mining Urn",
+				"Not F2P": true
+			},
+			"Obtain a ~|cracked mining urn|~": {
+				"Category": ["BIS Skilling Consumables", "BIS Skilling"],
+				"Label": "BIS Skilling",
+				"Items": ["Cracked mining urn"],
+				"Priority": 6,
+				"Set": "BIS Mining Urn",
+				"Not F2P": true
+			},
+			"Obtain an ~|impious urn|~": {
+				"Category": ["BIS Skilling Consumables", "BIS Skilling"],
+				"Label": "BIS Skilling",
+				"Items": ["Impious urn"],
+				"Priority": 1,
+				"Set": "BIS Prayer Urn",
+				"Not F2P": true
+			},
+			"Obtain an ~|accursed urn|~": {
+				"Category": ["BIS Skilling Consumables", "BIS Skilling"],
+				"Label": "BIS Skilling",
+				"Items": ["Accursed urn"],
+				"Priority": 2,
+				"Set": "BIS Prayer Urn",
+				"Not F2P": true
+			},
+			"Obtain an ~|infernal urn|~": {
+				"Category": ["BIS Skilling Consumables", "BIS Skilling"],
+				"Label": "BIS Skilling",
+				"Items": ["Infernal urn"],
+				"Priority": 3,
+				"Set": "BIS Prayer Urn",
+				"Not F2P": true
+			},
+			"Obtain a ~|exquisite runecrafting urn|~": {
+				"Category": ["BIS Skilling Consumables", "BIS Skilling"],
+				"Label": "BIS Skilling",
+				"Items": ["Exquisite runecrafting urn"],
+				"Priority": 1,
+				"Set": "BIS Runecrafting Urn",
+				"Not F2P": true
+			},
+			"Obtain a ~|decorated runecrafting urn|~": {
+				"Category": ["BIS Skilling Consumables", "BIS Skilling"],
+				"Label": "BIS Skilling",
+				"Items": ["Decorated runecrafting urn"],
+				"Priority": 2,
+				"Set": "BIS Runecrafting Urn",
+				"Not F2P": true
+			},
+			"Obtain a ~|strong runecrafting urn|~": {
+				"Category": ["BIS Skilling Consumables", "BIS Skilling"],
+				"Label": "BIS Skilling",
+				"Items": ["Strong runecrafting urn"],
+				"Priority": 3,
+				"Set": "BIS Runecrafting Urn",
+				"Not F2P": true
+			},
+			"Obtain a ~|plain runecrafting urn|~": {
+				"Category": ["BIS Skilling Consumables", "BIS Skilling"],
+				"Label": "BIS Skilling",
+				"Items": ["Plain runecrafting urn"],
+				"Priority": 4,
+				"Set": "BIS Runecrafting Urn",
+				"Not F2P": true
+			},
+			"Obtain a ~|fragile runecrafting urn|~": {
+				"Category": ["BIS Skilling Consumables", "BIS Skilling"],
+				"Label": "BIS Skilling",
+				"Items": ["Fragile runecrafting urn"],
+				"Priority": 5,
+				"Set": "BIS Runecrafting Urn",
+				"Not F2P": true
+			},
+			"Obtain a ~|cracked runecrafting urn|~": {
+				"Category": ["BIS Skilling Consumables", "BIS Skilling"],
+				"Label": "BIS Skilling",
+				"Items": ["Cracked runecrafting urn"],
+				"Priority": 6,
+				"Set": "BIS Cooking Urn",
+				"Not F2P": true
+			},
+			"Obtain a ~|exquisite smithing urn|~": {
+				"Category": ["BIS Skilling Consumables", "BIS Skilling"],
+				"Label": "BIS Skilling",
+				"Items": ["Exquisite smithing urn"],
+				"Priority": 1,
+				"Set": "BIS Smithing Urn",
+				"Not F2P": true
+			},
+			"Obtain a ~|decorated smithing urn|~": {
+				"Category": ["BIS Skilling Consumables", "BIS Skilling"],
+				"Label": "BIS Skilling",
+				"Items": ["Decorated smithing urn"],
+				"Priority": 2,
+				"Set": "BIS Smithing Urn",
+				"Not F2P": true
+			},
+			"Obtain a ~|strong smithing urn|~": {
+				"Category": ["BIS Skilling Consumables", "BIS Skilling"],
+				"Label": "BIS Skilling",
+				"Items": ["Strong smithing urn"],
+				"Priority": 3,
+				"Set": "BIS Smithing Urn",
+				"Not F2P": true
+			},
+			"Obtain a ~|plain smithing urn|~": {
+				"Category": ["BIS Skilling Consumables", "BIS Skilling"],
+				"Label": "BIS Skilling",
+				"Items": ["Plain smithing urn"],
+				"Priority": 4,
+				"Set": "BIS Smithing Urn",
+				"Not F2P": true
+			},
+			"Obtain a ~|fragile smithing urn|~": {
+				"Category": ["BIS Skilling Consumables", "BIS Skilling"],
+				"Label": "BIS Skilling",
+				"Items": ["Fragile smithing urn"],
+				"Priority": 5,
+				"Set": "BIS Smithing Urn",
+				"Not F2P": true
+			},
+			"Obtain a ~|cracked smithing urn|~": {
+				"Category": ["BIS Skilling Consumables", "BIS Skilling"],
+				"Label": "BIS Skilling",
+				"Items": ["Cracked smithing urn"],
+				"Priority": 6,
+				"Set": "BIS Smithing Urn",
+				"Not F2P": true
+			},
+			"Obtain a ~|exquisite woodcutting urn|~": {
+				"Category": ["BIS Skilling Consumables", "BIS Skilling"],
+				"Label": "BIS Skilling",
+				"Items": ["Exquisite woodcutting urn"],
+				"Priority": 1,
+				"Set": "BIS Woodcutting Urn",
+				"Not F2P": true
+			},
+			"Obtain a ~|decorated woodcutting urn|~": {
+				"Category": ["BIS Skilling Consumables", "BIS Skilling"],
+				"Label": "BIS Skilling",
+				"Items": ["Decorated woodcutting urn"],
+				"Priority": 2,
+				"Set": "BIS Woodcutting Urn",
+				"Not F2P": true
+			},
+			"Obtain a ~|strong woodcutting urn|~": {
+				"Category": ["BIS Skilling Consumables", "BIS Skilling"],
+				"Label": "BIS Skilling",
+				"Items": ["Strong woodcutting urn"],
+				"Priority": 3,
+				"Set": "BIS Woodcutting Urn",
+				"Not F2P": true
+			},
+			"Obtain a ~|plain woodcutting urn|~": {
+				"Category": ["BIS Skilling Consumables", "BIS Skilling"],
+				"Label": "BIS Skilling",
+				"Items": ["Plain woodcutting urn"],
+				"Priority": 4,
+				"Set": "BIS Woodcutting Urn",
+				"Not F2P": true
+			},
+			"Obtain a ~|fragile woodcutting urn|~": {
+				"Category": ["BIS Skilling Consumables", "BIS Skilling"],
+				"Label": "BIS Skilling",
+				"Items": ["Fragile woodcutting urn"],
+				"Priority": 5,
+				"Set": "BIS Woodcutting Urn",
+				"Not F2P": true
+			},
+			"Obtain a ~|cracked woodcutting urn|~": {
+				"Category": ["BIS Skilling Consumables", "BIS Skilling"],
+				"Label": "BIS Skilling",
+				"Items": ["Cracked woodcutting urn"],
+				"Priority": 6,
+				"Set": "BIS Woodcutting Urn",
 				"Not F2P": true
 			},
 			"Unlock the ~|Pouch Protector|~ relic power": {
@@ -153148,7 +153657,7 @@
 		},
 		"8775": {
 			"Monster": {
-				"Crawling hand (Burthrope)": 11,
+				"Crawling hand (Burthorpe)": 11,
 				"Cave bug#Level 6": 11
 			},
 			"Name": "Burthorpe Slayer Cave"
@@ -186221,7 +186730,7 @@
 			},
 			"Monster": {
 				"Gelatinous abomination": 19,
-				"Crawling hand (Burthrope)": 11,
+				"Crawling hand (Burthorpe)": 11,
 				"Cave bug (Burthorpe)": 11
 			},
 			"Connect": {
@@ -191245,7 +191754,8 @@
 			"Shop": {
 				"Buried Bargains": true,
 				"The Last Call": true,
-				"Soul Supplies": true
+				"Soul Supplies": true,
+				"Austin's Place": true
 			},
 			"Connect": {
 				"24": true,
@@ -199257,7 +199767,7 @@
 			},
 			"Crawling hands": {
 				"Crawling hand": true,
-				"Crawling hand (Burthrope)": true,
+				"Crawling hand (Burthorpe)": true,
 				"Skeletal hand": true,
 				"Zombie hand": true
 			},
@@ -202725,67 +203235,61 @@
 		},
 		"Arch-Glacor": {
 			"Banite stone spirit": {
-				"4-92": "Common"
+				"26-43": "48/200"
 			},
 			"Coins": {
-				"11301-278932": "Common"
+				"78750-131250": "60/200"
 			},
 			"Crushed nest": {
-				"4-91 (noted)": "Common"
+				"26-43 (noted)": "54/200"
 			},
 			"Crystal key": {
-				"2-36 (noted)": "Common"
-			},
-			"Glacor remnants": {
-				"33": "Varies",
-				"41": "Varies",
-				"500": "Varies",
-				"5-75": "Common"
+				"10-17 (noted)": "24/200"
 			},
 			"Hydrix bolt tips": {
-				"1-116": "Common"
+				"10-17": "36/200"
 			},
 			"Medium blunt orikalkum salvage": {
-				"1-21 (noted)": "Common"
+				"5-8 (noted)": "24/200"
 			},
 			"Spirit weed seed": {
-				"1-17": "Common"
+				"5-8": "48/200"
 			},
 			"Summoning focus": {
-				"1-31": "Common"
+				"5-8": "48/200"
 			},
 			"Uncut dragonstone": {
-				"2-34 (noted)": "Common"
+				"10-17 (noted)": "60/200"
 			},
 			"Water battlestaff": {
-				"2-34 (noted)": "Common"
+				"10-17 (noted)": "60/200"
 			},
 			"Water talisman": {
-				"3-55 (noted)": "Common"
+				"15-26 (noted)": "60/200"
 			},
 			"Onyx dust": {
-				"2-36": "Uncommon"
-			},
-			"Sirenic scale": {
-				"2-12": "Rare"
+				"10-17": "18/200"
 			},
 			"Crystal triskelion": {
-				"1": "Rare"
+				"1": "3/200"
+			},
+			"Glacor remnants": {
+				"35": "3/11.5"
 			},
 			"Dark nilas": {
-				"1": "Varies"
+				"1": "3/317"
 			},
 			"Leng artefact": {
-				"1": "1/500"
+				"1": "3/500"
 			},
 			"Scripture of Wen": {
-				"1": "1/500"
+				"1": "3/500"
 			},
 			"Uncut onyx": {
-				"1": "Very rare"
+				"1": "3/4000"
 			},
 			"Resonant anima of Wen": {
-				"20-150": "Common"
+				"30-50": "Always"
 			},
 			"Elder Trove (Wen,T1)": {
 				"1": "Common"
@@ -202797,19 +203301,22 @@
 				"1": "Common"
 			},
 			"Manuscript of Wen": {
-				"1": "Uncommon"
+				"1": "3/25"
 			},
 			"Sealed clue scroll (elite)": {
-				"1": "Uncommon"
+				"1": "3/100"
 			},
 			"Starved ancient effigy": {
-				"1": "1/128"
+				"1": "3/256"
+			},
+			"Chaos die reroll token": {
+				"1": "30/7500"
 			},
 			"Glacor core": {
-				"1": "1/3000"
+				"1": "3/3000"
 			},
 			"The Journal of Fell Arnessen": {
-				"1": "Common"
+				"1": "3/10"
 			}
 		},
 		"Arch-Glacor (Hard Mode)": {
@@ -202834,7 +203341,7 @@
 			"Medium blunt orikalkum salvage": {
 				"37-881": "Uncommon"
 			},
-			"Spirit weed seed": {
+			"Water rune": {
 				"5-147": "Common"
 			},
 			"Summoning focus": {
@@ -202852,17 +203359,17 @@
 			"Onyx dust": {
 				"79-1350": "Uncommon"
 			},
-			"Sirenic scale": {
+			"Cannonball": {
 				"1-29": "Uncommon"
 			},
 			"Dark nilas": {
 				"2-42": "1/100"
 			},
 			"Leng artefact": {
-				"1": "1/2390"
+				"1": "1/1725"
 			},
 			"Scripture of Wen": {
-				"1": "1/2390"
+				"1": "1/1725"
 			},
 			"Uncut onyx": {
 				"1-20": "Rare"
@@ -202874,10 +203381,10 @@
 				"2-33": "Common"
 			},
 			"Glacor core": {
-				"1": "1/1000"
+				"1": "3/1000"
 			},
 			"Frozen core of Leng": {
-				"1": "1/4780"
+				"1": "1/2732"
 			}
 		},
 		"Archaemastyx": {
@@ -216779,6 +217286,9 @@
 			"Grimy dwarf weed": {
 				"1": "Very rare"
 			},
+			"Spirit weed seed": {
+				"1": "Uncommon"
+			},
 			"Coins": {
 				"1-499": "Common"
 			},
@@ -222558,6 +223068,9 @@
 			},
 			"Grimy dwarf weed": {
 				"1": "1/900"
+			},
+			"Spirit weed seed": {
+				"1": "Uncommon"
 			},
 			"Acadia wood spirit": {
 				"4": "4/128"
@@ -229829,37 +230342,40 @@
 		},
 		"Kerapac, the bound": {
 			"Coins": {
-				"158753-249522": "Common"
+				"100000-150000": "30/100"
 			},
 			"Cannonball": {
-				"459-550": "Common"
+				"250-400": "24/100"
 			},
 			"Hydrix bolt tips": {
-				"30-40": "Common"
+				"30-40": "18/100"
 			},
 			"Large plated orikalkum salvage": {
-				"2-4 (noted)": "Common"
+				"1-2 (noted)": "24/100"
 			},
 			"Dragonkin bones": {
-				"20-30 (noted)": "Common"
+				"10-15 (noted)": "30/100"
 			},
-			"Inert adrenaline crystal": {
-				"8-12 (noted)": "Common"
+			"Super magic ptoion (3)": {
+				"4-8 (noted)": "24/100"
 			},
 			"Royal dragonhide": {
-				"94-115(noted)": "Common"
+				"75-90 (noted)": "30/100"
 			},
 			"Soul rune": {
-				"80-120": "Common"
+				"50-100": "27/100"
 			},
 			"Uncut dragonstone": {
-				"20-27(noted)": "Common"
+				"17-25 (noted)": "30/100"
 			},
 			"Light animica stone spirit": {
-				"41-57": "Common"
+				"30-40": "15/100"
+			},
+			"Primal stone spirit": {
+				"13-18": "15/100"
 			},
 			"Fire battlestaff": {
-				"30-61 (noted)": "Common"
+				"15-30 (noted)": "33/100"
 			},
 			"Kerapac's wrist wraps": {
 				"1": "3/768"
@@ -229882,17 +230398,17 @@
 			"Elder Trove (Jas,T3)": {
 				"1": "Common"
 			},
-			"Primal stone spirit": {
-				"25-35": "Common"
-			},
 			"Manuscript of Jas": {
-				"1": "Common"
+				"1-2": "1/10"
+			},
+			"Chaos die reroll token": {
+				"1": "10/3000"
 			},
 			"Sealed clue scroll (elite)": {
-				"1": "Uncommon"
+				"1": "1/100"
 			},
 			"Starved ancient effigy": {
-				"1": "1/128"
+				"1": "1/256"
 			},
 			"Kerapac's mask piece": {
 				"1": "1/3000"
@@ -229900,37 +230416,40 @@
 		},
 		"Kerapac, the bound (Hard Mode)": {
 			"Coins": {
-				"300000-600000": "Common"
+				"250000-400000": "30/100"
 			},
 			"Cannonball": {
-				"550-1200": "Common"
+				"450-900": "24/100"
 			},
 			"Hydrix bolt tips": {
-				"45-60": "Common"
+				"50-55": "18/100"
 			},
 			"Large plated orikalkum salvage": {
-				"5-8 (noted)": "Common"
+				"5-6 (noted)": "24/100"
 			},
 			"Dragonkin bones": {
-				"80-110 (noted)": "Common"
+				"40-70 (noted)": "30/100"
 			},
-			"Inert adrenaline crystal": {
-				"15-30 (noted)": "Common"
+			"Super magic potion (3)": {
+				"8-12 (noted)": "24/100"
 			},
 			"Royal dragonhide": {
-				"200-300 (noted)": "Common"
+				"75-90 (noted)": "30/100"
 			},
 			"Soul rune": {
-				"150-300": "Common"
+				"100-250": "27/100"
 			},
 			"Uncut dragonstone": {
-				"41-60 (noted)": "Common"
+				"30-52 (noted)": "30/100"
 			},
 			"Light animica stone spirit": {
-				"80-120": "Common"
+				"50-100": "15/100"
+			},
+			"Primal stone spirit": {
+				"20-32": "15/100"
 			},
 			"Fire battlestaff": {
-				"40-90 (noted)": "Common"
+				"27-72 (noted)": "33/100"
 			},
 			"Kerapac's wrist wraps": {
 				"1": "3/577"
@@ -229962,17 +230481,17 @@
 			"Elder Trove (Jas,T3)": {
 				"1": "Common"
 			},
-			"Primal stone spirit": {
-				"30-50": "Common"
-			},
 			"Manuscript of Jas": {
-				"1": "Common"
+				"1-2": "1/7"
 			},
 			"Sealed clue scroll (elite)": {
-				"1": "Uncommon"
+				"1": "1/100"
 			},
 			"Starved ancient effigy": {
-				"1": "1/128"
+				"1": "1/256"
+			},
+			"Chaos die reroll token": {
+				"1": "1/256"
 			},
 			"Kerapac's mask piece": {
 				"1": "1/1500"
@@ -232565,6 +233084,9 @@
 			"Dwarf weed seed": {
 				"1": "1/2048"
 			},
+			"Spirit weed seed": {
+				"1": "Uncommon"
+			},
 			"Torstol seed": {
 				"1": "1/4096"
 			},
@@ -233091,6 +233613,9 @@
 			},
 			"Torstol seed": {
 				"1": "Very rare"
+			},
+			"Spirit weed seed": {
+				"1": "Uncommon"
 			},
 			"Grimy guam": {
 				"1": "Common"
@@ -237027,74 +237552,65 @@
 			}
 		},
 		"Raksha, the Shadow Colossus": {
-			"Spirit weed seed": {
-				"5-10": "Common"
+			"Arbuck seed": {
+				"2-4": "6/100"
 			},
 			"Primal stone spirit": {
-				"15-22": "Common"
+				"15-22": "6/100"
 			},
-			"Golden dragonfruit seed": {
-				"5-10": "Common"
+			"Ciku seed": {
+				"2-3": "4/100"
 			},
 			"Small blunt rune salvage": {
-				"50 (noted)": "Common"
+				"15-22 (noted)": "10/100"
 			},
 			"Medium spiky orikalkum salvage": {
-				"12-18 (noted)": "Common"
+				"3-7 (noted)": "8/100"
 			},
 			"Huge plated orikalkum salvage": {
-				"10-15 (noted)": "Common"
+				"6-8 (noted)": "6/100"
 			},
 			"Black dragonhide": {
-				"200-300 (noted)": "Common"
+				"200-300 (noted)": "10/100"
 			},
 			"Onyx dust": {
-				"75-131": "Uncommon"
+				"25-33": "4/100"
 			},
 			"Dinosaur bones": {
-				"80-120 (noted)": "Common"
+				"60-100 (noted)": "10/100"
 			},
 			"Crystal key": {
-				"25-45 (noted)": "Common"
+				"10-14 (noted)": "10/100"
 			},
-			"Inert adrenaline crystal": {
-				"12-18 (noted)": "Common"
-			},
-			"Sirenic scale": {
-				"3": "Common"
+			"Catalytic anima stone": {
+				"40-60": "12/100"
 			},
 			"Soul rune": {
-				"125-175": "Common"
+				"125-175": "6/100"
 			},
 			"Dark animica stone spirit": {
-				"60-95": "Common"
+				"50-80": "8/100"
 			},
 			"Light animica stone spirit": {
-				"60-95": "Common"
-			},
-			"Laceration boots": {
-				"1": "1/200"
-			},
-			"Blast diffusion boots": {
-				"1": "1/200"
+				"50-80": "8/100"
 			},
 			"Fleeting boots": {
-				"1": "1/200"
+				"1": "1/130"
 			},
 			"Shadow spike": {
-				"1": "1/500"
+				"1": "1/325"
 			},
 			"Greater Ricochet ability codex": {
-				"1": "1/500"
+				"1": "1/325"
 			},
 			"Greater Chain ability codex": {
-				"1": "1/500"
+				"1": "1/325"
 			},
 			"Divert ability codex": {
-				"1": "1/500"
+				"1": "1/325"
 			},
 			"Broken shackle": {
-				"1": "Very rare"
+				"1": "1/1000"
 			}
 		},
 		"Ram": {
@@ -248153,9 +248669,8 @@
 				"24": "Common",
 				"36": "Common"
 			},
-			"Sirenic scale": {
-				"8": "Common",
-				"14": "Common"
+			"Elder wood spirit": {
+				"15-25": "Common"
 			},
 			"Wine of Saradomin": {
 				"28": "Common",
@@ -248227,9 +248742,8 @@
 				"24": "Common",
 				"36": "Common"
 			},
-			"Sirenic scale": {
-				"8": "Common",
-				"14": "Common"
+			"Elder wood spirit": {
+				"15-25": "Common"
 			},
 			"Wine of Saradomin": {
 				"28": "Common",
@@ -253592,49 +254106,46 @@
 		},
 		"Zamorak, Lord of Chaos": {
 			"Hydrix bolt tips": {
-				"80-120": "1/13"
+				"40-60": "1/13"
 			},
 			"Huge bladed rune salvage": {
-				"10-18": "1/13"
+				"5-8": "1/13"
 			},
 			"Accursed ashes": {
-				"25-30": "1/13"
+				"10-12": "1/13"
 			},
 			"Dark animica stone spirit": {
 				"60-70": "1/13"
 			},
 			"Onyx bolt tips": {
-				"120-180": "1/13"
+				"50-72": "1/13"
 			},
 			"Torstol seed": {
-				"3": "1/13"
+				"1-2": "1/13"
 			},
 			"Raw rocktail": {
 				"30-45": "1/13"
 			},
 			"Soul rune": {
-				"150-210": "1/13"
+				"100-150": "1/13"
 			},
 			"Small plated orikalkum salvage": {
-				"10-18": "1/13"
+				"5-8": "1/13"
 			},
 			"Infernus pyroclasts": {
-				"8-12": "1/13"
+				"2-5": "1/13"
 			},
 			"Dwarf weed seed": {
-				"7-10": "1/13"
-			},
-			"Lantadyme seed": {
-				"7-10": "1/13"
+				"3-4": "1/13"
 			},
 			"Blood rune": {
-				"200-300": "1/13"
+				"150-250": "1/13"
 			},
 			"Chaos relic (rare)": {
 				"1": "2/39"
 			},
-			"Uncut onyx": {
-				"1": "1/39"
+			"Chaos relic (uncommon)": {
+				"10-20": "1/13"
 			},
 			"Codex of lost knowledge": {
 				"1": "Varies"
@@ -254103,10 +254614,10 @@
 				"1": "4/1000"
 			},
 			"Invoke Lord of Bones incantation codex": {
-				"1": "1/300"
+				"1": "1/249"
 			},
 			"Vorkath's spike": {
-				"4-6": "1/50"
+				"4-6": "1/45"
 			},
 			"Vorkath Necromancy weapon override token": {
 				"1": "1/5000"
@@ -254180,13 +254691,13 @@
 				"1": "8/1000"
 			},
 			"Invoke Lord of Bones incantation codex": {
-				"1": "1/250"
+				"1": "1/150"
 			},
 			"Vorkath's spike": {
 				"6-9": "1/15"
 			},
 			"Vorkath's scale": {
-				"1": "1/250"
+				"1": "1/150"
 			},
 			"Vorkath Necromancy weapon override token": {
 				"1": "1/2500"
@@ -257748,6 +258259,11 @@
 					"Archaeology rewards": "Nonskill"
 				}]
 			},
+			"Austin's Place": {
+				"City of Um": [{
+					"Unlock ~|Austin's Place|~": "Necromancy"
+				}]
+			},
 			"Castle Wars Ticket Exchange": {
 				"9776": [{
 					"Castle Wars rewards": "Nonskill"
@@ -258365,6 +258881,14 @@
 			"Thin snail": true,
 			"Raw mackerel": true,
 			"Spade": true
+		},
+		"Austin's Place": {
+			"Ritualist's mask": true,
+			"Ritualist's robe top": true,
+			"Ritualist's robe bottoms": true,
+			"Ritualist's gloves": true,
+			"Ritualist's boots": true,
+			"Ritualist's mask add-on": true
 		},
 		"Authentic Throwing Weapons": {
 			"Bronze javelin": true,
@@ -271845,10 +272369,10 @@
 				"Avantoe seed": {
 					"2": "Common"
 				},
-				"Snapdragon seed": {
-					"1": "Common"
-				},
 				"Lantadyme seed": {
+					"1": "Uncommon"
+				},
+				"Spirit weed seed": {
 					"1": "Uncommon"
 				},
 				"Grimy avantoe": {
@@ -271934,11 +272458,11 @@
 				"Avantoe seed": {
 					"2": "2/25"
 				},
-				"Snapdragon seed": {
-					"1": "1/25"
-				},
 				"Lantadyme seed": {
 					"1": "1/50"
+				},
+				"Spirit weed seed": {
+					"1": "Uncommon"
 				},
 				"Grimy avantoe": {
 					"2 (noted)": "1/125"
@@ -272026,11 +272550,11 @@
 				"Avantoe seed": {
 					"2": "1/10"
 				},
-				"Snapdragon seed": {
-					"1": "1/20"
-				},
 				"Lantadyme seed": {
 					"1": "1/40"
+				},
+				"Spirit weed seed": {
+					"1": "Uncommon"
 				},
 				"Grimy avantoe": {
 					"2 (noted)": "1/10"
@@ -272758,6 +273282,9 @@
 				"Arbuck seed": {
 					"1": "Common"
 				},
+				"Spirit weed seed": {
+					"1": "Uncommon"
+				},
 				"Large plated adamant salvage": {
 					"1-2 (noted)": "Uncommon"
 				},
@@ -272772,6 +273299,9 @@
 				},
 				"Tombshroom spore": {
 					"2": "common"
+				},
+				"Inert adrenaline crystal": {
+					"1": "Uncommon"
 				},
 				"Blowpipe fins": {
 					"1": "1/20000"
@@ -272837,6 +273367,9 @@
 				},
 				"Laceration boots": {
 					"1": "1/2000"
+				},
+				"Sirenic scale": {
+					"1": "Uncommon"
 				}
 			},
 			"Bulbous crawler": {
@@ -273526,6 +274059,9 @@
 				},
 				"Watermelon seed": {
 					"2": "1/512"
+				},
+				"Spirit weed seed": {
+					"1": "Uncommon"
 				},
 				"Coins": {
 					"1": "10/128",
@@ -274603,6 +275139,9 @@
 				"Dwarf weed seed": {
 					"1": "Rare"
 				},
+				"Spirit weed seed": {
+					"1": "Uncommon"
+				},
 				"Maple seed": {
 					"1": "Very rare"
 				},
@@ -274799,6 +275338,9 @@
 			"Devil's snare (task)": {
 				"Blast diffusion boots": {
 					"1": "1/2500"
+				},
+				"Sirenic scale": {
+					"1": "Uncommon"
 				}
 			},
 			"Dragonstone dragon": {
@@ -274837,6 +275379,9 @@
 				"Rune bolts": {
 					"4": "10/128"
 				},
+				"Inert adrenaline crystal": {
+					"1": "Uncommon"
+				},
 				"Gemstone gauntlets": {
 					"1": "1/5000"
 				},
@@ -274859,6 +275404,9 @@
 				},
 				"Gemstone boots": {
 					"1": "1/2000"
+				},
+				"Spirit weed seed": {
+					"1": "Uncommon"
 				}
 			},
 			"Dust devil": {
@@ -275373,6 +275921,9 @@
 				},
 				"Laceration boots": {
 					"1": "1/3000"
+				},
+				"Sirenic scale": {
+					"1": "Uncommon"
 				}
 			},
 			"Fever spider": {
@@ -276324,6 +276875,9 @@
 				"Diamond ring": {
 					"1 (noted)": "Common"
 				},
+				"Inert adrenaline crystal": {
+					"1": "Uncommon"
+				},
 				"Gemstone hauberk": {
 					"1": "1/2500"
 				},
@@ -276340,6 +276894,9 @@
 			"Hydrix dragon (task)": {
 				"Gemstone hauberk": {
 					"1": "1/1000"
+				},
+				"Spirit weed seed": {
+					"1": "Uncommon"
 				}
 			},
 			"Ice nihil": {
@@ -276491,6 +277048,9 @@
 				},
 				"Tarromin seed": {
 					"1": "Rare"
+				},
+				"Spirit weed seed": {
+					"1": "Uncommon"
 				},
 				"Watermelon seed": {
 					"1": "Uncommon"
@@ -277080,6 +277640,9 @@
 				"Grimy kwuarm": {
 					"1-4 (noted)": "Rare"
 				},
+				"Spirit weed seed": {
+					"1": "Uncommon"
+				},
 				"Toadflax seed": {
 					"1": "Common"
 				},
@@ -277337,6 +277900,9 @@
 				"Torstol seed": {
 					"1": "1/1024"
 				},
+				"Spirit weed seed": {
+					"1": "Uncommon"
+				},
 				"Unfinished broad bolts": {
 					"50": "8/128"
 				},
@@ -277477,6 +278043,9 @@
 			"Lampenflora (task)": {
 				"Blast diffusion boots": {
 					"1": "1/4000"
+				},
+				"Sirenic scale": {
+					"1": "Uncommon"
 				}
 			},
 			"Lava strykewyrm": {
@@ -278118,6 +278687,9 @@
 				"Starbloom flower seed": {
 					"1-3": "6/106"
 				},
+				"Inert adrenaline crystal": {
+					"1": "Uncommon"
+				},
 				"Blast diffusion boots": {
 					"1": "1/8000"
 				},
@@ -278170,6 +278742,9 @@
 			"Liverworts (task)": {
 				"Blast diffusion boots": {
 					"1": "1/2000"
+				},
+				"Sirenic scale": {
+					"1": "Uncommon"
 				}
 			},
 			"Lizard": {
@@ -278380,6 +278955,9 @@
 			"Luminous snaggler (task)": {
 				"Blast diffusion boots": {
 					"1": "1/2000"
+				},
+				"Sirenic scale": {
+					"1": "Uncommon"
 				}
 			},
 			"Mighty banshee": {
@@ -280133,6 +280711,9 @@
 				"Dragonstone ring": {
 					"1": "Rare"
 				},
+				"Inert adrenaline crystal": {
+					"1": "Uncommon"
+				},
 				"Gemstone helm": {
 					"1": "1/5000"
 				},
@@ -280152,6 +280733,9 @@
 				},
 				"Gemstone greaves": {
 					"1": "1/2000"
+				},
+				"Spirit weed seed": {
+					"1": "Uncommon"
 				}
 			},
 			"Profane Scabarite": {
@@ -280539,6 +281123,9 @@
 				},
 				"Laceration boots": {
 					"1": "1/2000"
+				},
+				"Sirenic scale": {
+					"1": "Uncommon"
 				}
 			},
 			"Rock slug": {
@@ -282689,6 +283276,9 @@
 				"Dwarf weed seed": {
 					"1": "1/512"
 				},
+				"Spirit weed seed": {
+					"1": "Uncommon"
+				},
 				"Morchella mushroom spore": {
 					"3": "9/128"
 				},
@@ -282944,6 +283534,9 @@
 				},
 				"Laceration boots": {
 					"1": "1/4000"
+				},
+				"Sirenic scale": {
+					"1": "Uncommon"
 				}
 			},
 			"Vinecrawler": {
@@ -287996,16 +288589,16 @@
 					"40-60": "75/215"
 				},
 				"Bloodweed seed": {
-					"1-3": "75/215"
+					"1-2": "75/215"
 				},
 				"Infernal ashes": {
-					"30-50 (noted)": "75/215"
+					"20-40 (noted)": "75/215"
 				},
 				"Wyvern bones": {
-					"5-10 (noted)": "75/215"
+					"4-6 (noted)": "75/215"
 				},
 				"Muddy key": {
-					"3-4 (noted)": "75/215"
+					"2-3 (noted)": "75/215"
 				},
 				"Brilliant energy": {
 					"300-500": "75/215"
@@ -288021,14 +288614,20 @@
 				}
 			},
 			"Wilderness Flash Events rewards (special)": {
-				"Bakriminel bolts": {
+				"Runes": {
 					"75-125": "250/830"
 				},
+				"Magical thread": {
+					"1": "250/830"
+				},
 				"Magic logs": {
-					"250-300": "250/830"
+					"100-150": "250/830"
 				},
 				"Lucky charm (Zamorakian Undercity)": {
-					"1": "200/830"
+					"1": "100/830"
+				},
+				"Lucky charm (Dragonkin Laboratory)": {
+					"1": "100/830"
 				},
 				"Ruby chalice": {
 					"1": "150/830"
@@ -288088,16 +288687,7 @@
 					"1": "8/830"
 				},
 				"Dark onyx core": {
-					"1": "4/830"
-				},
-				"Annihilation": {
-					"1": "4/830"
-				},
-				"Decimation": {
-					"1": "4/830"
-				},
-				"Obliteration": {
-					"1": "4/830"
+					"1": "4/415"
 				}
 			},
 			"Wilderness Flash Events rewards (wyrm)": {
@@ -352984,7 +353574,7 @@
 			"auto_damage": 0
 		},
 		"Zorgoth's ring": {
-			"ranged": 25.2,
+			"ranged": 0,
 			"requirements": {},
 			"class": "necromancy",
 			"lp": 0,
@@ -352995,11 +353585,12 @@
 			"slot": "ring",
 			"strength": 0,
 			"magic": 0,
+			"necromancy": 25.2,
 			"prayer": 0,
 			"accuracy": 0
 		},
 		"Zorgoth's soul ring": {
-			"ranged": 30.4,
+			"ranged": 0,
 			"requirements": {
 				"Necromancy": 75
 			},
@@ -353012,7 +353603,8 @@
 			"slot": "ring",
 			"strength": 0,
 			"magic": 0,
-			"prayer": 0,
+			"necromancy": 30.4,
+			"prayer": 5,
 			"accuracy": 0
 		},
 		"Zuriel's hood": {

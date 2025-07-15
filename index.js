@@ -967,7 +967,11 @@ let taskGeneratingRules = {
     "Collection Log Clues": true,
     "Collection Log Minigames": true,
     "Collection Log Other": true,
-    "Untracked Uniques": true,
+	"Untracked Uniques Skilling": true, 
+	"Untracked Uniques Combat": true,
+	"Untracked Uniques Minigames": true,
+	"Untracked Uniques Daemonheim": true,
+	"Untracked Uniques Misc": true,
     "Pets": true,
     "Stuffables": true,
     "Every Drop": true,
@@ -976,7 +980,7 @@ let taskGeneratingRules = {
     "All Droptables": true,
     "Fill Stash": true,
     "Fill POH": true,
-    "All Shops": true,
+    "All Shops": true
 };                                                                              // List of rule that generate tasks
 
 let ruleTooltips = [
