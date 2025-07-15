@@ -13506,7 +13506,7 @@
   "(Ghost Hunter Outfit) Obtain ~|ghost hunter goggles|~": "t_52910",
   "(Ghost Hunter Outfit) Obtain ~|ghost hunter body|~": "t_52911",
   "(Ghost Hunter Outfit) Obtain ~|ghost hunter legs|~": "t_52912",
-  "(Ghost Hunter Outfit) Obtain ~|ghost hunter backback|~": "t_52913",
+  "(Ghost Hunter Outfit) Obtain ~|ghost hunter backpack|~": "t_53268",
   "(Temple of Aminishi) Obtain a ~|tetsu sword upgrade kit|~": "t_13468",
   "(Temple of Aminishi) Obtain a ~|seasinger weapon upgrade kit|~": "t_13469",
   "(Temple of Aminishi) Obtain ~|suspicious gunpowder|~": "t_13470",
@@ -53038,5 +53038,5 @@
   "Pizazz points: ~|Law rune|~": "t_52855",
   "Pizazz points: ~|Soul rune|~": "t_52856",
   "Pizazz points: ~|Blood rune|~": "t_52857",
-  "currentNextIndex": 53268
+  "currentNextIndex": 53269
 }

@@ -815,16 +815,6 @@ let ruleStructure = {
         "Show Best in Slot Tasks": ["Show Best in Slot Prayer Tasks", "Show Best in Slot Defensive Tasks", "Show Best in Slot Melee Style Tasks", "Show Best in Slot 1H and 2H", "Show Best in Slot Shield", "Consumable Primary BiS"],
 		"BIS Skilling": ["BIS Skilling Consumables", "BIS Skilling Relics", "Brawling Gloves"],
 	},
-	"Collections": {
-        "Collection Log": ["Boss Collection Log", "Slayer Collection Log", "Arc Log", "Breeding Log", "Dungeoneering Journals", "Slayer Souls"],
-		"Untracked Uniques": ["Untracked Uniques Skilling", "Untracked Uniques Combat", "Untracked Uniques Minigames", "Untracked Uniques Daemonheim", "Untracked Uniques Misc"],
-		"Ports Scrolls": true,
-		"Titles": true,
-		"Money Unlockables": true,
-		"Fill Costume Room": true,
-		"Ceremonial Swords": true,
-		"Pets": ["Skilling Pets"]
-	},
 	"Achievements": {
 		"Show Diary Tasks": ["Show Diary Tasks Complete", "Show Diary Tasks Any"],
 		"Combat Mastery achievements": ["Speed Killer Achievements", "Combat Master+"],
@@ -909,6 +899,16 @@ let ruleStructure = {
     "Smithing": {
         "Smithing by Smelting": true
     },
+	"Collections": {
+        "Collection Log": ["Boss Collection Log", "Slayer Collection Log", "Arc Log", "Breeding Log", "Dungeoneering Journals", "Slayer Souls"],
+		"Untracked Uniques": ["Untracked Uniques Skilling", "Untracked Uniques Combat", "Untracked Uniques Minigames", "Untracked Uniques Daemonheim", "Untracked Uniques Misc"],
+		"Ports Scrolls": true,
+		"Titles": true,
+		"Money Unlockables": true,
+		"Fill Costume Room": true,
+		"Ceremonial Swords": true,
+		"Pets": ["Skilling Pets"]
+	},
     "Item Sources": {
         "Boss": ["Hard Mode Bosses"],
 		"PVP": true,

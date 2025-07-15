@@ -132246,10 +132246,10 @@
 				"Label": "Untracked Combat Uniques",
 				"Items": ["Ghost hunter legs"]
 			},
-			"(Ghost Hunter Outfit) Obtain ~|ghost hunter backback|~": {
+			"(Ghost Hunter Outfit) Obtain ~|ghost hunter backpack|~": {
 				"Category": ["Untracked Uniques", "Untracked Uniques Combat"],
 				"Label": "Untracked Combat Uniques",
-				"Items": ["Ghost hunter backback"]
+				"Items": ["Ghost hunter backpack"]
 			},
 			"(Temple of Aminishi) Obtain a ~|tetsu sword upgrade kit|~": {
 				"Category": ["Untracked Uniques", "Untracked Uniques Combat"],
