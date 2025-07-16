@@ -590,8 +590,7 @@ let ruleNames = {
 	"Misc achievements": "WIP- Must complete other achievements, excluding level-up achievements.",
 	"Hunter Marks Slayer": "Using Hunter Marks to buy Slayer experience lamps counts as primary training<span class='rule-asterisk noscroll'>*</span>",
 	"Kili Knowledge": "Must complete Kili Knowledge when possible",
-	"Slayer Contracts": "Completing Slayer contracts off-task counts as a primary training method",
-	"Partial Products": "Require making of partial or unfinished products as a skill task"
+	"Slayer Contracts": "Completing Slayer contracts off-task counts as a primary training method"
 };                                                                              // List of rule definitions
 
 let rulePresets = {
