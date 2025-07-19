@@ -423,7 +423,8 @@ let rules = {
     "Boosting": false,
 	"Token": false,
 	"Master skillcape": false,
-	"Cleaning herbs": false,
+	"Cleaning Herbs": false,
+	"Cleaning Herbs Primary": false,
 	"Vinesweeper": false,
 	"Ogleroot": false,
 	"Gnomeball": false,
@@ -464,6 +465,8 @@ let rules = {
 	"MQC achievements": false,
 	"Misc achievements": false,
 	"Kili Knowledge": false,
+	"Slayer Contracts": false,
+	"Partial Products": false
 };                                                                              // List of rules and their on/off state
 
 let ruleNames = {
@@ -550,7 +553,8 @@ let ruleNames = {
 	"Boosting": "Allow skill boosts to be considered for skill tasks",
     "Token": "Allow token xp drops to count as a primary training method<span class='rule-asterisk noscroll'>†</span>",
 	"Master skillcape": "Must obtain master skillcapes for all skills<span class='rule-asterisk noscroll'>†</span>",
-	"Cleaning Herbs": "Cleaning grimy herbs/making (unf) potions can count as chunk tasks",
+	"Cleaning Herbs": "Cleaning grimy herbs/making unfinished potions can count as chunk tasks",
+	"Cleaning Herbs Primary": "Cleaning herbs counts as a primary training method",
 	"Vinesweeper": "Allow Vinesweeper to count as primary training for training Farming<span class='rule-asterisk noscroll'>*</span>",
 	"Ogleroot": "Allow Vinesweeper to count as primary training for training Hunter",
 	"Gnomeball": "Allow playing gnomeball to count as a primary training method for Agility and Ranged<span class='rule-asterisk noscroll'>*</span>",
@@ -585,7 +589,8 @@ let ruleNames = {
 	"MQC achievements": "Must complete Master Quest Cape achievements<span class='rule-asterisk noscroll'>*</span>",
 	"Misc achievements": "WIP- Must complete other achievements, excluding level-up achievements.",
 	"Hunter Marks Slayer": "Using Hunter Marks to buy Slayer experience lamps counts as primary training<span class='rule-asterisk noscroll'>*</span>",
-	"Kili Knowledge": "Must complete Kili Knowledge when possible"
+	"Kili Knowledge": "Must complete Kili Knowledge when possible",
+	"Slayer Contracts": "Completing Slayer contracts off-task counts as a primary training method"
 };                                                                              // List of rule definitions
 
 let rulePresets = {
@@ -614,7 +619,10 @@ let rulePresets = {
         "Unlock Prayers": true,
 		"Material Blueprints": true,
 		"Achievement": true,
-		"Kili Knowledge": true
+		"Kili Knowledge": true,
+		"Slayer Contracts": true,
+		"Cleaning Herbs Primary": true,
+		"Partial Products": true
     },
     "Xtreme Chunker": {
         "Skillcape": true,
@@ -691,7 +699,10 @@ let rulePresets = {
 		"Trim achievements": true,
 		"MQC achievements": true,
 		"Hunter Marks Slayer": true,
-		"Kili Knowledge": true
+		"Kili Knowledge": true,
+		"Slayer Contracts": true,
+		"Cleaning Herbs Primary": true,
+		"Partial Products": true
     },
     "Supreme Chunker": {
         "Skillcape": true,
@@ -782,7 +793,10 @@ let rulePresets = {
 		"MQC achievements": true,
 		"Secondary Effigies": true,
 		"Hunter Marks Slayer": true,
-		"Kili Knowledge": true
+		"Kili Knowledge": true,
+		"Slayer Contracts": true,
+		"Cleaning Herbs Primary": true,
+		"Partial Products": true
     }
 };                                                                              // List of rules that are part of each preset
 
@@ -799,16 +813,6 @@ let ruleStructure = {
         "Show Quest Tasks": ["Show Quest Tasks Complete"],
         "Show Best in Slot Tasks": ["Show Best in Slot Prayer Tasks", "Show Best in Slot Defensive Tasks", "Show Best in Slot Melee Style Tasks", "Show Best in Slot 1H and 2H", "Show Best in Slot Shield", "Consumable Primary BiS"],
 		"BIS Skilling": ["BIS Skilling Consumables", "BIS Skilling Relics", "Brawling Gloves"],
-	},
-	"Collections": {
-        "Collection Log": ["Boss Collection Log", "Slayer Collection Log", "Arc Log", "Breeding Log", "Dungeoneering Journals", "Slayer Souls"],
-		"Untracked Uniques": ["Untracked Uniques Skilling", "Untracked Uniques Combat", "Untracked Uniques Minigames", "Untracked Uniques Daemonheim", "Untracked Uniques Misc"],
-		"Ports Scrolls": true,
-		"Titles": true,
-		"Money Unlockables": true,
-		"Fill Costume Room": true,
-		"Ceremonial Swords": true,
-		"Pets": ["Skilling Pets"]
 	},
 	"Achievements": {
 		"Show Diary Tasks": ["Show Diary Tasks Complete", "Show Diary Tasks Any"],
@@ -832,7 +836,8 @@ let ruleStructure = {
 		"DnD Skilling": ["Shooting Stars"],
 		"Menaphos Events": true,
 		"Uncharted": true,
-		"Multiple Pickpockets": true
+		"Multiple Pickpockets": true,
+		"Partial Products": true
     },
     "Agility": {
         "Shortcut": true,
@@ -858,7 +863,8 @@ let ruleStructure = {
 		"Vinesweeper": true
     },
     "Herblore": {
-		"Cleaning Herbs": true
+		"Cleaning Herbs": true,
+		"Cleaning Herbs Primary": true
     },
     "Hunter": {
 		"Puro-Puro": ["Extra implings"],
@@ -886,11 +892,22 @@ let ruleStructure = {
     },
     "Slayer": {
         "Slayer Equipment": true,
-		"Hunter Marks Slayer": true
+		"Hunter Marks Slayer": true,
+		"Slayer Contracts": true
     },
     "Smithing": {
         "Smithing by Smelting": true
     },
+	"Collections": {
+        "Collection Log": ["Boss Collection Log", "Slayer Collection Log", "Arc Log", "Breeding Log", "Dungeoneering Journals", "Slayer Souls"],
+		"Untracked Uniques": ["Untracked Uniques Skilling", "Untracked Uniques Combat", "Untracked Uniques Minigames", "Untracked Uniques Daemonheim", "Untracked Uniques Misc"],
+		"Ports Scrolls": true,
+		"Titles": true,
+		"Money Unlockables": true,
+		"Fill Costume Room": true,
+		"Ceremonial Swords": true,
+		"Pets": ["Skilling Pets"]
+	},
     "Item Sources": {
         "Boss": ["Hard Mode Bosses"],
 		"PVP": true,
@@ -920,7 +937,7 @@ let subRuleDefault = {
     "Show Diary Tasks": false,
     "Show Best in Slot Tasks": false,
     "Collection Log": true,
-	"Untracked Uniques": false,
+	"Untracked Uniques": true,
     "Puro-Puro": false,
     "Spells": false,
     "Every Drop": false,
@@ -949,7 +966,11 @@ let taskGeneratingRules = {
     "Collection Log Clues": true,
     "Collection Log Minigames": true,
     "Collection Log Other": true,
-    "Untracked Uniques": true,
+	"Untracked Uniques Skilling": true, 
+	"Untracked Uniques Combat": true,
+	"Untracked Uniques Minigames": true,
+	"Untracked Uniques Daemonheim": true,
+	"Untracked Uniques Misc": true,
     "Pets": true,
     "Stuffables": true,
     "Every Drop": true,
@@ -958,7 +979,7 @@ let taskGeneratingRules = {
     "All Droptables": true,
     "Fill Stash": true,
     "Fill POH": true,
-    "All Shops": true,
+    "All Shops": true
 };                                                                              // List of rule that generate tasks
 
 let ruleTooltips = [
@@ -1073,7 +1094,7 @@ let maybePrimary = [
     "Shortcut",
     "InsidePOH Primary",
 	"Token",
-	"Cleaning herbs"
+	"Cleaning Herbs Primary"
 ];                                                                              // Methods that are only primary if their respective rule is checked
 
 const regionNames = [];
@@ -12178,6 +12199,14 @@ let loadData = async function(startup) {
         if (!rulesTemp.hasOwnProperty('Cleaning Herbs')) {
             rulesTemp['Cleaning Herbs'] = true;
         }
+		
+		if (!rulesTemp.hasOwnProperty('Cleaning Herbs Primary')) {
+            rulesTemp['Cleaning Herbs Primary'] = true;
+        }
+		
+		if (!rulesTemp.hasOwnProperty('Slayer Contracts')) {
+            rulesTemp['Slayer Contracts'] = true;
+        }
 
         if (rulesTemp['Secondary Primary'] && !rulesTemp.hasOwnProperty('Secondary Primary Amount')) {
             rulesTemp['Secondary Primary Amount'] = "0";
@@ -12194,7 +12223,7 @@ let loadData = async function(startup) {
         }
 
         if (!rulesTemp.hasOwnProperty('Partial Products')) {
-            rulesTemp['Partial Products'] = rulesTemp.hasOwnProperty('Highest Level') ? rulesTemp['Highest Level'] : false;
+            rulesTemp['Partial Products'] = true;
         }
 
         if (!rulesTemp.hasOwnProperty('Additional Money Unlockables')) {

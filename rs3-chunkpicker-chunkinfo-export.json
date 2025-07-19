@@ -2470,7 +2470,7 @@
 				"Priority": 2,
 				"NoBoost": true
 			},
-			"Complete the 'Mysterious Monolith: Existence' ~|research|~": {
+			"Complete the ~|Mysterious Monolith: Existence|~ research": {
 				"Tasks": {
 					"Become an ~|archaeology assistant|~": "Archaeology"
 				},
@@ -2480,7 +2480,7 @@
 				"Priority": 3,
 				"NoBoost": true
 			},
-			"Complete the 'Starry Eyed' ~|research|~": {
+			"Complete the ~|Starry Eyed|~ research": {
 				"Tasks": {
 					"Become an ~|archaeology assistant|~": "Archaeology"
 				},
@@ -2491,7 +2491,7 @@
 				"Priority": 4,
 				"NoBoost": true
 			},
-			"Complete the 'The Dark Underbelly' ~|research|~": {
+			"Complete the ~|The Dark Underbelly|~ research": {
 				"Tasks": {
 					"Become an ~|archaeology assistant|~": "Archaeology"
 				},
@@ -2502,7 +2502,7 @@
 				"Priority": 5,
 				"NoBoost": true
 			},
-			"Complete the 'Demon Door' ~|research|~": {
+			"Complete the ~|Demon Door|~ research": {
 				"Tasks": {
 					"Become an ~|archaeology assistant|~": "Archaeology"
 				},
@@ -2513,7 +2513,7 @@
 				"Priority": 6,
 				"NoBoost": true
 			},
-			"Complete the 'Proving Grounds' ~|research|~": {
+			"Complete the ~|Proving Grounds|~ research": {
 				"Tasks": {
 					"Become an ~|archaeology assistant|~": "Archaeology"
 				},
@@ -2524,7 +2524,7 @@
 				"Priority": 7,
 				"NoBoost": true
 			},
-			"Complete the 'Abandon All Hope' ~|research|~": {
+			"Complete the ~|Abandon All Hope|~ research": {
 				"Tasks": {
 					"Become an ~|archaeology assistant|~": "Archaeology"
 				},
@@ -2674,7 +2674,7 @@
 				"Primary": true,
 				"Priority": 11
 			},
-			"Complete the 'Lions and Unicorns and Centaurs, Oh My!' ~|research|~": {
+			"Complete the ~|Lions and Unicorns and Centaurs, Oh My!|~ research": {
 				"Tasks": {
 					"Become an ~|archaeology assistant|~": "Archaeology"
 				},
@@ -2763,7 +2763,7 @@
 				"Primary": true,
 				"Priority": 3
 			},
-			"Complete the 'Cell, a Door' ~|research|~": {
+			"Complete the ~|Cell, a Door|~ research": {
 				"Tasks": {
 					"Become an ~|archaeology assistant|~": "Archaeology"
 				},
@@ -2966,7 +2966,7 @@
 				"Primary": false,
 				"Priority": 11
 			},
-			"Complete the 'Ode to a Midsummer Morning' ~|research|~": {
+			"Complete the ~|Ode to a Midsummer Morning|~ research": {
 				"Tasks": {
 					"Become an ~|archaeology assistant|~": "Archaeology"
 				},
@@ -3112,7 +3112,7 @@
 				"Primary": false,
 				"Priority": 7
 			},
-			"Complete the 'Lockdown' ~|research|~": {
+			"Complete the ~|Lockdown|~ research": {
 				"Tasks": {
 					"Become an ~|archaeology assistant|~": "Archaeology"
 				},
@@ -3206,7 +3206,7 @@
 				"Priority": 7,
 				"NoBoost": true
 			},
-			"Complete the 'The Hidden Chamber' ~|research|~": {
+			"Complete the ~|The Hidden Chamber|~ research": {
 				"Tasks": {
 					"Become an ~|archaeology assistant|~": "Archaeology"
 				},
@@ -3356,7 +3356,7 @@
 				"Primary": true,
 				"Priority": 4
 			},
-			"Complete the 'Prime Real Estate' ~|research|~": {
+			"Complete the ~|Prime Real Estate|~ research": {
 				"Tasks": {
 					"Become an ~|archaeology assistant|~": "Archaeology"
 				},
@@ -3367,7 +3367,7 @@
 				"Priority": 5,
 				"NoBoost": true
 			},
-			"Complete the 'Complete the Pattern, Solve the Puzzle' ~|research|~": {
+			"Complete the ~|Complete the Pattern, Solve the Puzzle|~ research": {
 				"Tasks": {
 					"Become an ~|archaeology assistant|~": "Archaeology"
 				},
@@ -3496,7 +3496,7 @@
 				"Primary": true,
 				"Priority": 4
 			},
-			"Complete the 'Are You Not Entertained?' ~|research|~": {
+			"Complete the ~|Are You Not Entertained?|~ research": {
 				"Tasks": {
 					"Become an ~|archaeology assistant|~": "Archaeology"
 				},
@@ -3550,7 +3550,7 @@
 				"Primary": true,
 				"Priority": 4
 			},
-			"Complete the 'Crossing that Bridge' ~|research|~": {
+			"Complete the ~|Crossing that Bridge|~ research": {
 				"Tasks": {
 					"Become an ~|archaeology assistant|~": "Archaeology"
 				},
@@ -3634,7 +3634,7 @@
 				"Primary": false,
 				"Priority": 6
 			},
-			"Complete the 'Who Dis?' ~|research|~": {
+			"Complete the ~|Who Dis?|~ research": {
 				"Tasks": {
 					"Become an ~|archaeology assistant|~": "Archaeology"
 				},
@@ -3645,7 +3645,7 @@
 				"Priority": 7,
 				"NoBoost": true
 			},
-			"Complete the 'Deeper and Down' ~|research|~": {
+			"Complete the ~|Deeper and Down|~ research": {
 				"Tasks": {
 					"Become an ~|archaeology assistant|~": "Archaeology"
 				},
@@ -3699,7 +3699,7 @@
 				"Primary": true,
 				"Priority": 4
 			},
-			"Complete the 'Stadio Ga Ga' ~|research|~": {
+			"Complete the ~|Stadio Ga Ga|~ research": {
 				"Tasks": {
 					"Become an ~|archaeology assistant|~": "Archaeology"
 				},
@@ -3850,7 +3850,7 @@
 				"Primary": false,
 				"Priority": 10
 			},
-			"Complete the 'Mysterious Monolith: Architecture' ~|research|~": {
+			"Complete the ~|Mysterious Monolith: Architecture|~ research": {
 				"Tasks": {
 					"Become an ~|archaeology assistant|~": "Archaeology"
 				},
@@ -3860,7 +3860,7 @@
 				"Priority": 11,
 				"NoBoost": true
 			},
-			"Complete the 'Ikovian Tragedy' ~|research|~": {
+			"Complete the ~|Ikovian Tragedy|~ research": {
 				"Tasks": {
 					"Become an ~|archaeology assistant|~": "Archaeology"
 				},
@@ -3871,7 +3871,7 @@
 				"Priority": 12,
 				"NoBoost": true
 			},
-			"Complete the 'Let Sleeping Kin Lie' ~|research|~": {
+			"Complete the ~|Let Sleeping Kin Lie|~ research": {
 				"Tasks": {
 					"Become an ~|archaeology assistant|~": "Archaeology"
 				},
@@ -3935,7 +3935,7 @@
 				"Primary": true,
 				"Priority": 4
 			},
-			"Complete the 'Home, Sweet Home' ~|research|~": {
+			"Complete the ~|Home, Sweet Home|~ research": {
 				"Tasks": {
 					"Become an ~|archaeology assistant|~": "Archaeology"
 				},
@@ -4082,7 +4082,7 @@
 				"Primary": false,
 				"Priority": 5
 			},
-			"Complete the 'Imposing Stature' ~|research|~": {
+			"Complete the ~|Imposing Stature|~ research": {
 				"Tasks": {
 					"Become an ~|archaeology assistant|~": "Archaeology"
 				},
@@ -4489,7 +4489,7 @@
 				"Primary": true,
 				"Priority": 8
 			},
-			"Complete the 'Rest at the New Frontier' ~|research|~": {
+			"Complete the ~|Rest at the New Frontier|~ research": {
 				"Tasks": {
 					"Become an ~|archaeology assistant|~": "Archaeology"
 				},
@@ -4732,7 +4732,7 @@
 				"Primary": false,
 				"Priority": 20
 			},
-			"Complete the 'Deer-ly Departed' ~|research|~": {
+			"Complete the ~|Deer-ly Departed|~ research": {
 				"Tasks": {
 					"Become an ~|archaeology assistant|~": "Archaeology"
 				},
@@ -4803,7 +4803,7 @@
 				"Primary": false,
 				"Priority": 6
 			},
-			"Complete the 'Melting Point' ~|research|~": {
+			"Complete the ~|Melting Point|~ research": {
 				"Tasks": {
 					"Become an ~|archaeology assistant|~": "Archaeology"
 				},
@@ -4864,7 +4864,7 @@
 				"Primary": false,
 				"Priority": 4
 			},
-			"Complete the 'Like Clockwork' ~|research|~": {
+			"Complete the ~|Like Clockwork|~ research": {
 				"Tasks": {
 					"Become an ~|archaeology assistant|~": "Archaeology"
 				},
@@ -4949,7 +4949,7 @@
 				"Primary": true,
 				"Priority": 3
 			},
-			"Complete the 'Requiescat in Pace' ~|research|~": {
+			"Complete the ~|Requiescat in Pace|~ research": {
 				"Tasks": {
 					"Become an ~|archaeology assistant|~": "Archaeology"
 				},
@@ -4960,7 +4960,7 @@
 				"Priority": 4,
 				"NoBoost": true
 			},
-			"Complete the 'Nom-Nom-Nom-Nom' ~|research|~": {
+			"Complete the ~|Nom-Nom-Nom-Nom|~ research": {
 				"Tasks": {
 					"Become an ~|archaeology assistant|~": "Archaeology",
 					"~|Tomes of the Warlock|~ 5": "Quest"
@@ -5155,7 +5155,7 @@
 				"Priority": 10,
 				"NoBoost": true
 			},
-			"Complete the 'Mysterious Monolith: Symbology' ~|research|~": {
+			"Complete the ~|Mysterious Monolith: Symbology|~ research": {
 				"Tasks": {
 					"Become an ~|archaeology assistant|~": "Archaeology"
 				},
@@ -5173,7 +5173,7 @@
 				"Primary": false,
 				"Priority": 12
 			},
-			"Complete the 'Incomplete Portal Network I' ~|research|~": {
+			"Complete the ~|Incomplete Portal Network I|~ research": {
 				"Tasks": {
 					"Become an ~|archaeology assistant|~": "Archaeology"
 				},
@@ -5197,7 +5197,7 @@
 				"Primary": false,
 				"Priority": 14
 			},
-			"Complete the 'Incomplete Portal Network II' ~|research|~": {
+			"Complete the ~|Incomplete Portal Network II|~ research": {
 				"Tasks": {
 					"Become an ~|archaeology assistant|~": "Archaeology"
 				},
@@ -5221,7 +5221,7 @@
 				"Primary": false,
 				"Priority": 16
 			},
-			"Complete the 'Incomplete Portal Network III' ~|research|~": {
+			"Complete the ~|Incomplete Portal Network III|~ research": {
 				"Tasks": {
 					"Become an ~|archaeology assistant|~": "Archaeology"
 				},
@@ -5378,7 +5378,7 @@
 				"Primary": true,
 				"Priority": 3
 			},
-			"Complete the 'Ground of the Polis' ~|research|~": {
+			"Complete the ~|Ground of the Polis|~ research": {
 				"Tasks": {
 					"Become an ~|archaeology assistant|~": "Archaeology"
 				},
@@ -5521,7 +5521,7 @@
 				"Priority": 4,
 				"NoBoost": true
 			},
-			"Complete the 'Night and Day' ~|research|~": {
+			"Complete the ~|Night and Day|~ research": {
 				"Tasks": {
 					"Become an ~|archaeology assistant|~": "Archaeology"
 				},
@@ -5533,7 +5533,7 @@
 				"Priority": 5,
 				"NoBoost": true
 			},
-			"Complete the 'Back to the Drawing Board' ~|research|~": {
+			"Complete the ~|Back to the Drawing Board|~ research": {
 				"Tasks": {
 					"Become an ~|archaeology assistant|~": "Archaeology"
 				},
@@ -5638,7 +5638,7 @@
 				"Primary": false,
 				"Priority": 6
 			},
-			"Complete the 'Northside' ~|research|~": {
+			"Complete the ~|Northside|~ research": {
 				"Tasks": {
 					"Become an ~|archaeology assistant|~": "Archaeology"
 				},
@@ -5649,7 +5649,7 @@
 				"Priority": 7,
 				"NoBoost": true
 			},
-			"Complete the 'Dwarven Forge' ~|research|~": {
+			"Complete the ~|Dwarven Forge|~ research": {
 				"Tasks": {
 					"Become an ~|archaeology assistant|~": "Archaeology"
 				},
@@ -5768,7 +5768,7 @@
 				"Primary": false,
 				"Priority": 9
 			},
-			"Complete the 'The Aetherium Giant' ~|research|~": {
+			"Complete the ~|The Aetherium Giant|~ research": {
 				"Tasks": {
 					"Become an ~|archaeology assistant|~": "Archaeology"
 				},
@@ -5780,7 +5780,7 @@
 				"Priority": 10,
 				"NoBoost": true
 			},
-			"Complete the 'Hell Mouths' ~|research|~": {
+			"Complete the ~|Hell Mouths|~ research": {
 				"Tasks": {
 					"Become an ~|archaeology assistant|~": "Archaeology"
 				},
@@ -5867,7 +5867,7 @@
 				"Priority": 13,
 				"NoBoost": true
 			},
-			"Complete the 'Philosophy' ~|research|~": {
+			"Complete the ~|Philosophy|~ research": {
 				"Tasks": {
 					"Become an ~|archaeology assistant|~": "Archaeology"
 				},
@@ -5878,7 +5878,7 @@
 				"Priority": 14,
 				"NoBoost": true
 			},
-			"Complete the 'Writings of the Walls: Kharid-et' ~|research|~": {
+			"Complete the ~|Writings of the Walls: Kharid-et|~ research": {
 				"Tasks": {
 					"Become an ~|archaeology assistant|~": "Archaeology"
 				},
@@ -5890,7 +5890,7 @@
 				"Priority": 15,
 				"NoBoost": true
 			},
-			"Complete the 'Writings of the Walls: Infernal Source' ~|research|~": {
+			"Complete the ~|Writings of the Walls: Infernal Source|~ research": {
 				"Tasks": {
 					"Become an ~|archaeology assistant|~": "Archaeology"
 				},
@@ -5902,7 +5902,7 @@
 				"Priority": 16,
 				"NoBoost": true
 			},
-			"Complete the 'Writings of the Walls: Everlight' ~|research|~": {
+			"Complete the ~|Writings of the Walls: Everlight|~ research": {
 				"Tasks": {
 					"Become an ~|archaeology assistant|~": "Archaeology"
 				},
@@ -5914,7 +5914,7 @@
 				"Priority": 17,
 				"NoBoost": true
 			},
-			"Complete the 'Writings of the Walls: Stormguard' ~|research|~": {
+			"Complete the ~|Writings of the Walls: Stormguard|~ research": {
 				"Tasks": {
 					"Become an ~|archaeology assistant|~": "Archaeology"
 				},
@@ -5926,7 +5926,7 @@
 				"Priority": 18,
 				"NoBoost": true
 			},
-			"Complete the 'Writings of the Walls: Warforge' ~|research|~": {
+			"Complete the ~|Writings of the Walls: Warforge|~ research": {
 				"Tasks": {
 					"Become an ~|archaeology assistant|~": "Archaeology"
 				},
@@ -5938,7 +5938,7 @@
 				"Priority": 19,
 				"NoBoost": true
 			},
-			"Complete the 'Breath of Fire' ~|research|~": {
+			"Complete the ~|Breath of Fire|~ research": {
 				"Tasks": {
 					"Become an ~|archaeology assistant|~": "Archaeology"
 				},
@@ -6054,7 +6054,7 @@
 				"Primary": true,
 				"Priority": 9
 			},
-			"Complete the 'Too Many Bones' ~|research|~": {
+			"Complete the ~|Too Many Bones|~ research": {
 				"Tasks": {
 					"Become an ~|archaeology assistant|~": "Archaeology"
 				},
@@ -6065,7 +6065,7 @@
 				"Priority": 10,
 				"NoBoost": true
 			},
-			"Complete the 'Power Behind the Throne' ~|research|~": {
+			"Complete the ~|Power Behind the Throne|~ research": {
 				"Tasks": {
 					"Become an ~|archaeology assistant|~": "Archaeology"
 				},
@@ -6076,7 +6076,7 @@
 				"Priority": 11,
 				"NoBoost": true
 			},
-			"Complete the 'Where There's Smoke...' ~|research|~": {
+			"Complete the ~|Where There's Smoke...|~ research": {
 				"Chunks": ["Kharid-et - Barracks excavation site"],
 				"Tasks": {
 					"Become an ~|archaeology assistant|~": "Archaeology"
@@ -6119,7 +6119,7 @@
 				"Primary": true,
 				"Priority": 3
 			},
-			"Complete the 'Necropsy' ~|research|~": {
+			"Complete the ~|Necropsy|~ research": {
 				"Tasks": {
 					"Become an ~|archaeology assistant|~": "Archaeology"
 				},
@@ -6274,7 +6274,7 @@
 				"Primary": true,
 				"Priority": 6
 			},
-			"Complete the 'On the Threshold of the Mind' ~|research|~": {
+			"Complete the ~|On the Threshold of the Mind|~ research": {
 				"Tasks": {
 					"Become an ~|archaeology assistant|~": "Archaeology"
 				},
@@ -6443,7 +6443,7 @@
 				"Primary": false,
 				"Priority": 6
 			},
-			"Complete the 'Battle of the Optimatoi' ~|research|~": {
+			"Complete the ~|Battle of the Optimatoi|~ research": {
 				"Tasks": {
 					"Become an ~|archaeology assistant|~": "Archaeology"
 				},
@@ -6540,7 +6540,7 @@
 				"Primary": true,
 				"Priority": 4
 			},
-			"Complete the 'Shadow Play' ~|research|~": {
+			"Complete the ~|Shadow Play|~ research": {
 				"Tasks": {
 					"Become an ~|archaeology assistant|~": "Archaeology"
 				},
@@ -6624,7 +6624,7 @@
 				"Primary": false,
 				"Priority": 4
 			},
-			"Complete the 'Mind Your Head' ~|research|~": {
+			"Complete the ~|Mind Your Head|~ research": {
 				"Tasks": {
 					"Become an ~|archaeology assistant|~": "Archaeology"
 				},
@@ -6667,7 +6667,7 @@
 				"Primary": true,
 				"Priority": 3
 			},
-			"Complete the 'Making Sense of Sense' ~|research|~": {
+			"Complete the ~|Making Sense of Sense|~ research": {
 				"Tasks": {
 					"Become an ~|archaeology assistant|~": "Archaeology"
 				},
@@ -6906,7 +6906,7 @@
 				"Primary": true,
 				"Priority": 6
 			},
-			"Complete the 'Thought Process' ~|research|~": {
+			"Complete the ~|Thought Process|~ research": {
 				"Tasks": {
 					"Become an ~|archaeology assistant|~": "Archaeology"
 				},
@@ -7248,7 +7248,7 @@
 				"Primary": false,
 				"Priority": 11
 			},
-			"Complete the 'Howling Man' ~|research|~": {
+			"Complete the ~|Howling Man|~ research": {
 				"Tasks": {
 					"Become an ~|archaeology assistant|~": "Archaeology"
 				},
@@ -7342,7 +7342,7 @@
 				"Primary": false,
 				"Priority": 8
 			},
-			"Complete the 'Big High War Chest' ~|research|~": {
+			"Complete the ~|Big High War Chest|~ research": {
 				"Tasks": {
 					"Become an ~|archaeology assistant|~": "Archaeology"
 				},
@@ -7385,7 +7385,7 @@
 				"Primary": true,
 				"Priority": 6
 			},
-			"Complete the 'Xolo Dorado' ~|research|~": {
+			"Complete the ~|Xolo Dorado|~ research": {
 				"Tasks": {
 					"Become an ~|archaeology assistant|~": "Archaeology"
 				},
@@ -11797,6 +11797,9 @@
 				"Skills": {
 					"Farming": 17
 				},
+				"Tasks": {
+					"~|Player-owned farm tutorial|~ Complete the tutorial": "Quest"
+				},
 				"Output Object": "Small animal pen",
 				"Primary": false,
 				"Priority": 9
@@ -11807,6 +11810,9 @@
 				"Level": 20,
 				"Skills": {
 					"Farming": 28
+				},
+				"Tasks": {
+					"~|Player-owned farm tutorial|~ Complete the tutorial": "Quest"
 				},
 				"Output Object": "Small animal pen",
 				"Primary": false,
@@ -12624,6 +12630,9 @@
 				"Skills": {
 					"Farming": 35
 				},
+				"Tasks": {
+					"~|Player-owned farm tutorial|~ Complete the tutorial": "Quest"
+				},
 				"Output Object": "Medium animal pen",
 				"Primary": false,
 				"Priority": 11
@@ -12634,6 +12643,9 @@
 				"Level": 40,
 				"Skills": {
 					"Farming": 64
+				},
+				"Tasks": {
+					"~|Player-owned farm tutorial|~ Complete the tutorial": "Quest"
 				},
 				"Output Object": "Medium animal pen",
 				"Primary": false,
@@ -13002,9 +13014,12 @@
 				"Priority": 6
 			},
 			"Build a small dinosaur pen in your ~|player-owned ranch|~": {
-				"Chunks": ["POR[+]"],
-				"Items": ["Wood*", "Vines*", "Stone*"],
+				"Chunks": ["14916"],
 				"Level": 45,
+				"Tasks": {
+					"Unlock the Anachronia Base Camp": "Nonskill",
+					"~|Player-owned farm tutorial|~ Complete the tutorial": "Quest"
+				},
 				"Skills": {
 					"Farming": 42
 				},
@@ -13589,6 +13604,20 @@
 				"Items": ["Acadia frame*", "Stone wall segment*"],
 				"Level": 55,
 				"Primary": true,
+				"Priority": 7
+			},
+			"Build a dinosaur breeding pen in your ~|player-owned ranch|~": {
+				"Chunks": ["14659"],
+				"Level": 55,
+				"Tasks": {
+					"Unlock the Anachronia Base Camp": "Nonskill",
+					"~|Player-owned farm tutorial|~ Complete the tutorial": "Quest"
+				},
+				"Skills": {
+					"Farming": 42
+				},
+				"Output Object": "Dinosaur breeding pen",
+				"Primary": false,
 				"Priority": 7
 			},
 			"Build a ~|fancy teak dresser|~": {
@@ -15151,11 +15180,14 @@
 				"Priority": 8
 			},
 			"Build a medium dinosaur pen in your ~|player-owned ranch|~": {
-				"Chunks": ["POR[+]"],
-				"Items": ["Wood*", "Vines*", "Stone*"],
+				"Chunks": ["14916"],
 				"Level": 80,
 				"Skills": {
 					"Farming": 76
+				},
+				"Tasks": {
+					"Unlock the Anachronia Base Camp": "Nonskill",
+					"~|Player-owned farm tutorial|~ Complete the tutorial": "Quest"
 				},
 				"Output Object": "Medium dinosaur pen",
 				"Primary": false,
@@ -15608,22 +15640,28 @@
 				"Priority": 6
 			},
 			"Build a large dinosaur pen in your ~|player-owned ranch|~": {
-				"Chunks": ["POR[+]"],
-				"Items": ["Wood*", "Vines*", "Stone*"],
+				"Chunks": ["14660"],
 				"Level": 90,
 				"Skills": {
 					"Farming": 98
+				},
+				"Tasks": {
+					"Unlock the Anachronia Base Camp": "Nonskill",
+					"~|Player-owned farm tutorial|~ Complete the tutorial": "Quest"
 				},
 				"Output Object": "Large dinosaur pen",
 				"Primary": false,
 				"Priority": 7
 			},
 			"Build a second large dinosaur pen in your ~|player-owned ranch|~": {
-				"Chunks": ["POR[+]"],
-				"Items": ["Wood*", "Vines*", "Stone*"],
+				"Chunks": ["14659"],
 				"Level": 90,
 				"Skills": {
 					"Farming": 104
+				},
+				"Tasks": {
+					"Unlock the Anachronia Base Camp": "Nonskill",
+					"~|Player-owned farm tutorial|~ Complete the tutorial": "Quest"
 				},
 				"Output Object": "Large dinosaur pen",
 				"Primary": false,
@@ -16128,7 +16166,7 @@
 				"Primary": true,
 				"Priority": 9
 			},
-			"Make a ~|sinew|~": {
+			"Make ~|sinew|~": {
 				"Category": ["Token"],
 				"Items": ["SinewMeat[+]*"],
 				"Objects": ["Cooking range[+]"],
@@ -24751,7 +24789,7 @@
 			},
 			"Cast a ~|platinum anklet|~": {
 				"Items": ["Dragonstone*", "Platinum bar*"],
-				"Level": 104,
+				"Level": 109,
 				"Output": "Platinum anklet",
 				"Objects": ["CraftingFurnace[+]"],
 				"Primary": true,
@@ -24847,7 +24885,7 @@
 				"Priority": 6
 			},
 			"Design, draft and craft a ~|masterwork magic boots|~": {
-				"Items": ["Masterwork white cloth*", "Masterwork blue cloth*", "Ethereal pearlescent plate*", "Lined pearlescent plate*", "Masterwork thread*", "Stone of binding*"],
+				"Items": ["Masterwork white cloth*", "Masterwork blue cloth*", "Ethereal pearlescent plate*", "Masterwork thread*", "Stone of binding*"],
 				"Level": 110,
 				"Objects": ["Pattern table", "Drafting table", "Tailor's dummy"],
 				"Tasks": {
@@ -24858,7 +24896,7 @@
 				"Priority": 7
 			},
 			"Design, draft and craft a ~|masterwork magic gloves|~": {
-				"Items": ["Masterwork white cloth*", "Masterwork blue cloth*", "Ethereal pearlescent plate*", "Lined pearlescent plate*", "Masterwork thread*", "Stone of binding*"],
+				"Items": ["Masterwork white cloth*", "Masterwork blue cloth*", "Ethereal pearlescent plate*", "Masterwork thread*", "Stone of binding*"],
 				"Level": 110,
 				"Objects": ["Pattern table", "Drafting table", "Tailor's dummy"],
 				"Tasks": {
@@ -24869,7 +24907,7 @@
 				"Priority": 8
 			},
 			"Design, draft and craft a ~|masterwork magic hat|~": {
-				"Items": ["Masterwork white cloth*", "Masterwork blue cloth*", "Masterwork green cloth*", "Masterwork thread*", "Stone of binding*"],
+				"Items": ["Masterwork white cloth*", "Masterwork blue cloth*", "Masterwork green cloth*", "Ethereal pearlescent plate*", "Masterwork thread*", "Stone of binding*"],
 				"Level": 110,
 				"Objects": ["Pattern table", "Drafting table", "Tailor's dummy"],
 				"Tasks": {
@@ -31629,6 +31667,9 @@
 				"Skills": {
 					"Construction": 20
 				},
+				"Tasks": {
+					"~|Player-owned farm tutorial|~ Complete the tutorial": "Quest"
+				},
 				"Output Object": "Small animal pen",
 				"Primary": false,
 				"Priority": 1
@@ -31953,6 +31994,9 @@
 				"Skills": {
 					"Construction": 20
 				},
+				"Tasks": {
+					"~|Player-owned farm tutorial|~ Complete the tutorial": "Quest"
+				},
 				"Output Object": "Small animal pen",
 				"Primary": false,
 				"Priority": 2
@@ -32157,6 +32201,9 @@
 				"Level": 35,
 				"Skills": {
 					"Construction": 40
+				},
+				"Tasks": {
+					"~|Player-owned farm tutorial|~ Complete the tutorial": "Quest"
 				},
 				"Output Object": "Medium animal pen",
 				"Primary": false,
@@ -32408,17 +32455,6 @@
 				"Primary": false,
 				"Priority": 1
 			},
-			"Build a small dinosaur pen in your ~|player-owned ranch|~": {
-				"Chunks": ["POR[+]"],
-				"Items": ["Wood", "Vines", "Stone"],
-				"Level": 42,
-				"Skills": {
-					"Construction": 45
-				},
-				"Output Object": "Small dinosaur pen",
-				"Primary": false,
-				"Priority": 1
-			},
 			"Raise a ~|common green frog|~": {
 				"Category": ["Normal Farming"],
 				"Objects": ["Small dinosaur pen"],
@@ -32457,7 +32493,7 @@
 			},
 			"Breed a ~|common green frog|~": {
 				"Category": ["Normal Farming"],
-				"Objects": ["Breeding paddock"],
+				"Objects": ["Dinosaur breeding pen"],
 				"Items": ["VariantFrog[+]"],
 				"Level": 42,
 				"Output": "GreenFrogBreed",
@@ -32466,7 +32502,7 @@
 			},
 			"Breed a ~|phantasmal poison frog|~": {
 				"Category": ["Normal Farming"],
-				"Objects": ["Breeding paddock"],
+				"Objects": ["Dinosaur breeding pen"],
 				"Items": ["Common green frog (unchecked)"],
 				"Level": 42,
 				"Output": "PhantasmalFrogBreed",
@@ -32475,7 +32511,7 @@
 			},
 			"Breed a ~|sky-blue poison frog|~": {
 				"Category": ["Normal Farming"],
-				"Objects": ["Breeding paddock"],
+				"Objects": ["Dinosaur breeding pen"],
 				"Items": ["Common green frog (unchecked)"],
 				"Level": 42,
 				"Output": "SkyblueFrogBreed",
@@ -32484,7 +32520,7 @@
 			},
 			"Breed a ~|golden poison frog|~": {
 				"Category": ["Normal Farming"],
-				"Objects": ["Breeding paddock"],
+				"Objects": ["Dinosaur breeding pen"],
 				"Items": ["Common green frog (unchecked)"],
 				"Level": 42,
 				"Output": "GoldenFrogBreed",
@@ -32497,6 +32533,34 @@
 				"Objects": ["Evil tree"],
 				"Primary": true,
 				"Priority": 13
+			},
+			"Build a small dinosaur pen in your ~|player-owned ranch|~": {
+				"Chunks": ["14916"],
+				"Level": 42,
+				"Skills": {
+					"Construction": 45
+				},
+				"Tasks": {
+					"Unlock the Anachronia Base Camp": "Nonskill",
+					"~|Player-owned farm tutorial|~ Complete the tutorial": "Quest"
+				},
+				"Output Object": "Small dinosaur pen",
+				"Primary": false,
+				"Priority": 14
+			},
+			"Build a dinosaur breeding pen in your ~|player-owned ranch|~": {
+				"Chunks": ["14659"],
+				"Level": 42,
+				"Tasks": {
+					"Unlock the Anachronia Base Camp": "Nonskill",
+					"~|Player-owned farm tutorial|~ Complete the tutorial": "Quest"
+				},
+				"Skills": {
+					"Construction": 55
+				},
+				"Output Object": "Dinosaur breeding pen",
+				"Primary": false,
+				"Priority": 15
 			},
 			"Grow a ~|grimy irit|~": {
 				"Category": ["Normal Farming"],
@@ -32580,6 +32644,9 @@
 				"Level": 49,
 				"Skills": {
 					"Construction": 60
+				},
+				"Tasks": {
+					"~|Player-owned farm tutorial|~ Complete the tutorial": "Quest"
 				},
 				"Output Object": "Large animal pen",
 				"Primary": false,
@@ -33039,6 +33106,9 @@
 				"Skills": {
 					"Construction": 40
 				},
+				"Tasks": {
+					"~|Player-owned farm tutorial|~ Complete the tutorial": "Quest"
+				},
 				"Output Object": "Medium animal pen",
 				"Primary": false,
 				"Priority": 1
@@ -33249,6 +33319,9 @@
 				"Skills": {
 					"Construction": 60
 				},
+				"Tasks": {
+					"~|Player-owned farm tutorial|~ Complete the tutorial": "Quest"
+				},
 				"Output Object": "Large animal pen",
 				"Primary": false,
 				"Priority": 1
@@ -33410,11 +33483,14 @@
 				"Priority": 5
 			},
 			"Build a medium dinosaur pen in your ~|player-owned ranch|~": {
-				"Chunks": ["POR[+]"],
-				"Items": ["Wood", "Vines", "Stone"],
+				"Chunks": ["14916"],
 				"Level": 76,
 				"Skills": {
 					"Construction": 80
+				},
+				"Tasks": {
+					"Unlock the Anachronia Base Camp": "Nonskill",
+					"~|Player-owned farm tutorial|~ Complete the tutorial": "Quest"
 				},
 				"Output Object": "Medium dinosaur pen",
 				"Primary": false,
@@ -33512,7 +33588,7 @@
 			},
 			"Breed a ~|common jadinko|~": {
 				"Category": ["Normal Farming"],
-				"Objects": ["Breeding paddock"],
+				"Objects": ["Dinosaur breeding pen"],
 				"Items": ["VariantJadinko[+]"],
 				"Level": 76,
 				"Output": "CommonJadinkoBreed",
@@ -33521,7 +33597,7 @@
 			},
 			"Breed an ~|amphibious jadinko|~": {
 				"Category": ["Normal Farming"],
-				"Objects": ["Breeding paddock"],
+				"Objects": ["Dinosaur breeding pen"],
 				"Items": ["Common jadinko (unchecked)"],
 				"Level": 76,
 				"Output": "AmphibiousJadinkoBreed",
@@ -33530,7 +33606,7 @@
 			},
 			"Breed an ~|aquatic jadinko|~": {
 				"Category": ["Normal Farming"],
-				"Objects": ["Breeding paddock"],
+				"Objects": ["Dinosaur breeding pen"],
 				"Items": ["Common jadinko (unchecked)"],
 				"Level": 76,
 				"Output": "AquaticJadinkoBreed",
@@ -33539,7 +33615,7 @@
 			},
 			"Breed a ~|camouflaged jadinko|~": {
 				"Category": ["Normal Farming"],
-				"Objects": ["Breeding paddock"],
+				"Objects": ["Dinosaur breeding pen"],
 				"Items": ["Common jadinko (unchecked)"],
 				"Level": 76,
 				"Output": "CamouflagedJadinkoBreed",
@@ -33548,7 +33624,7 @@
 			},
 			"Breed a ~|cannibal jadinko|~": {
 				"Category": ["Normal Farming"],
-				"Objects": ["Breeding paddock"],
+				"Objects": ["Dinosaur breeding pen"],
 				"Items": ["Common jadinko (unchecked)"],
 				"Level": 76,
 				"Output": "CannibalJadinkoBreed",
@@ -33557,7 +33633,7 @@
 			},
 			"Breed a ~|carrion jadinko|~": {
 				"Category": ["Normal Farming"],
-				"Objects": ["Breeding paddock"],
+				"Objects": ["Dinosaur breeding pen"],
 				"Items": ["Common jadinko (unchecked)"],
 				"Level": 76,
 				"Output": "CarrionJadinkoBreed",
@@ -33566,7 +33642,7 @@
 			},
 			"Breed a ~|diseased jadinko|~": {
 				"Category": ["Normal Farming"],
-				"Objects": ["Breeding paddock"],
+				"Objects": ["Dinosaur breeding pen"],
 				"Items": ["Common jadinko (unchecked)"],
 				"Level": 76,
 				"Output": "DiseasedJadinkoBreed",
@@ -33575,7 +33651,7 @@
 			},
 			"Breed a ~|draconic jadinko|~": {
 				"Category": ["Normal Farming"],
-				"Objects": ["Breeding paddock"],
+				"Objects": ["Dinosaur breeding pen"],
 				"Items": ["Common jadinko (unchecked)"],
 				"Level": 76,
 				"Output": "DraconicJadinkoBreed",
@@ -33584,7 +33660,7 @@
 			},
 			"Breed an ~|igneous jadinko|~": {
 				"Category": ["Normal Farming"],
-				"Objects": ["Breeding paddock"],
+				"Objects": ["Dinosaur breeding pen"],
 				"Items": ["Common jadinko (unchecked)"],
 				"Level": 76,
 				"Output": "IgneousJadinkoBreed",
@@ -33593,7 +33669,7 @@
 			},
 			"Breed a ~|shadow jadinko|~": {
 				"Category": ["Normal Farming"],
-				"Objects": ["Breeding paddock"],
+				"Objects": ["Dinosaur breeding pen"],
 				"Items": ["Common jadinko (unchecked)"],
 				"Level": 76,
 				"Output": "ShadowJadinkoBreed",
@@ -34422,7 +34498,7 @@
 			},
 			"Breed a ~|feral dinosaur|~": {
 				"Category": ["Normal Farming"],
-				"Objects": ["Breeding paddock"],
+				"Objects": ["Dinosaur breeding pen"],
 				"Items": ["VariantVaranusaur[+]"],
 				"Level": 97,
 				"Output": "FeralDinosaurBreed",
@@ -34431,7 +34507,7 @@
 			},
 			"Breed a ~|venomous dinosaur|~": {
 				"Category": ["Normal Farming"],
-				"Objects": ["Breeding paddock"],
+				"Objects": ["Dinosaur breeding pen"],
 				"Items": ["Feral dinosaur (unchecked)"],
 				"Level": 97,
 				"Output": "VenomousDinosaurBreed",
@@ -34440,7 +34516,7 @@
 			},
 			"Breed a ~|ripper dinosaur|~": {
 				"Category": ["Normal Farming"],
-				"Objects": ["Breeding paddock"],
+				"Objects": ["Dinosaur breeding pen"],
 				"Items": ["VariantVaranusaur[+]"],
 				"Level": 97,
 				"Output": "RipperDinosaurBreed",
@@ -34481,11 +34557,14 @@
 				"Priority": 7
 			},
 			"Build a large dinosaur pen in your ~|player-owned ranch|~": {
-				"Chunks": ["POR[+]"],
-				"Items": ["Wood", "Vines", "Stone"],
+				"Chunks": ["14660"],
 				"Level": 98,
 				"Skills": {
 					"Construction": 90
+				},
+				"Tasks": {
+					"Unlock the Anachronia Base Camp": "Nonskill",
+					"~|Player-owned farm tutorial|~ Complete the tutorial": "Quest"
 				},
 				"Output Object": "Large dinosaur pen",
 				"Primary": false,
@@ -34520,7 +34599,7 @@
 			},
 			"Breed an ~|arcane apoterrasaur|~": {
 				"Category": ["Normal Farming"],
-				"Objects": ["Breeding paddock"],
+				"Objects": ["Dinosaur breeding pen"],
 				"Items": ["VariantApoterrasaur[+]"],
 				"Level": 98,
 				"Output": "ArcaneApoterrasaurBreed",
@@ -34529,7 +34608,7 @@
 			},
 			"Breed an ~|arcane apoterrasaur natura|~": {
 				"Category": ["Normal Farming"],
-				"Objects": ["Breeding paddock"],
+				"Objects": ["Dinosaur breeding pen"],
 				"Items": ["Arcane apoterrasaur (unchecked)"],
 				"Level": 98,
 				"Output": "ApoterrasaurNaturaBreed",
@@ -34538,7 +34617,7 @@
 			},
 			"Breed an ~|arcane apoterrasaur iratum|~": {
 				"Category": ["Normal Farming"],
-				"Objects": ["Breeding paddock"],
+				"Objects": ["Dinosaur breeding pen"],
 				"Items": ["Arcane apoterrasaur (unchecked)"],
 				"Level": 98,
 				"Output": "ApoterrasaurIratumBreed",
@@ -34592,7 +34671,7 @@
 			},
 			"Breed a ~|brutish dinosaur|~": {
 				"Category": ["Normal Farming"],
-				"Objects": ["Breeding paddock"],
+				"Objects": ["Dinosaur breeding pen"],
 				"Items": ["VariantBrutishDino[+]"],
 				"Level": 100,
 				"Output": "BrutishDinoBreed",
@@ -34601,7 +34680,7 @@
 			},
 			"Breed a ~|beach dinosaur|~": {
 				"Category": ["Normal Farming"],
-				"Objects": ["Breeding paddock"],
+				"Objects": ["Dinosaur breeding pen"],
 				"Items": ["Brutish dinosaur (unchecked)"],
 				"Level": 100,
 				"Output": "BeachDinoBreed",
@@ -34610,7 +34689,7 @@
 			},
 			"Breed a ~|forest dinosaur|~": {
 				"Category": ["Normal Farming"],
-				"Objects": ["Breeding paddock"],
+				"Objects": ["Dinosaur breeding pen"],
 				"Items": ["Brutish dinosaur (unchecked)"],
 				"Level": 100,
 				"Output": "ForestDinoBreed",
@@ -34689,7 +34768,7 @@
 			},
 			"Breed a ~|green salamander|~": {
 				"Category": ["Normal Farming"],
-				"Objects": ["Breeding paddock"],
+				"Objects": ["Dinosaur breeding pen"],
 				"Items": ["VariantSalamander[+]"],
 				"Level": 102,
 				"Output": "GreenSalamanderBreed",
@@ -34698,7 +34777,7 @@
 			},
 			"Breed an ~|orange salamander|~": {
 				"Category": ["Normal Farming"],
-				"Objects": ["Breeding paddock"],
+				"Objects": ["Dinosaur breeding pen"],
 				"Items": ["Green salamander (unchecked)"],
 				"Level": 102,
 				"Output": "OrangeSalamanderBreed",
@@ -34707,7 +34786,7 @@
 			},
 			"Breed a ~|red salamander|~": {
 				"Category": ["Normal Farming"],
-				"Objects": ["Breeding paddock"],
+				"Objects": ["Dinosaur breeding pen"],
 				"Items": ["Green salamander (unchecked)"],
 				"Level": 102,
 				"Output": "RedSalamanderBreed",
@@ -34716,7 +34795,7 @@
 			},
 			"Breed a ~|black salamander|~": {
 				"Category": ["Normal Farming"],
-				"Objects": ["Breeding paddock"],
+				"Objects": ["Dinosaur breeding pen"],
 				"Items": ["Green salamander (unchecked)"],
 				"Level": 102,
 				"Output": "BlackSalamanderBreed",
@@ -34733,11 +34812,14 @@
 				"Priority": 1
 			},
 			"Build a second large dinosaur pen in your ~|player-owned ranch|~": {
-				"Chunks": ["POR[+]"],
-				"Items": ["Wood", "Vines", "Stone"],
+				"Chunks": ["14659"],
 				"Level": 104,
 				"Skills": {
 					"Construction": 90
+				},
+				"Tasks": {
+					"Unlock the Anachronia Base Camp": "Nonskill",
+					"~|Player-owned farm tutorial|~ Complete the tutorial": "Quest"
 				},
 				"Output Object": "Large dinosaur pen",
 				"Primary": false,
@@ -34772,7 +34854,7 @@
 			},
 			"Breed a ~|scimitops|~": {
 				"Category": ["Normal Farming"],
-				"Objects": ["Breeding paddock"],
+				"Objects": ["Dinosaur breeding pen"],
 				"Items": ["VariantScimitops[+]"],
 				"Level": 104,
 				"Output": "ScimitopsBreed",
@@ -34781,7 +34863,7 @@
 			},
 			"Breed a ~|scimitops palus|~": {
 				"Category": ["Normal Farming"],
-				"Objects": ["Breeding paddock"],
+				"Objects": ["Dinosaur breeding pen"],
 				"Items": ["Scimitops (unchecked)"],
 				"Level": 104,
 				"Output": "ScimitopsPalusBreed",
@@ -34790,7 +34872,7 @@
 			},
 			"Breed a ~|scimitops blavum|~": {
 				"Category": ["Normal Farming"],
-				"Objects": ["Breeding paddock"],
+				"Objects": ["Dinosaur breeding pen"],
 				"Items": ["Scimitops (unchecked)"],
 				"Level": 104,
 				"Output": "ScimitopsBlavumBreed",
@@ -34835,7 +34917,7 @@
 			},
 			"Breed a ~|bagrada rex|~": {
 				"Category": ["Normal Farming"],
-				"Objects": ["Breeding paddock"],
+				"Objects": ["Dinosaur breeding pen"],
 				"Items": ["VariantBagrada[+]"],
 				"Level": 106,
 				"Output": "BagradaRexBreed",
@@ -34844,7 +34926,7 @@
 			},
 			"Breed a ~|bagrada nemus|~": {
 				"Category": ["Normal Farming"],
-				"Objects": ["Breeding paddock"],
+				"Objects": ["Dinosaur breeding pen"],
 				"Items": ["Bagrada rex (unchecked)"],
 				"Level": 106,
 				"Output": "BagradaNemusBreed",
@@ -34853,7 +34935,7 @@
 			},
 			"Breed a ~|bagrada purpura|~": {
 				"Category": ["Normal Farming"],
-				"Objects": ["Breeding paddock"],
+				"Objects": ["Dinosaur breeding pen"],
 				"Items": ["Bagrada rex (unchecked)"],
 				"Level": 106,
 				"Output": "BagradaPurpuraBreed",
@@ -34914,7 +34996,7 @@
 			},
 			"Breed a ~|spicati apoterrasaur|~": {
 				"Category": ["Normal Farming"],
-				"Objects": ["Breeding paddock"],
+				"Objects": ["Dinosaur breeding pen"],
 				"Items": ["VariantSpicatiApoterrasaur[+]"],
 				"Level": 108,
 				"Output": "SpicatiApoterrasaurBreed",
@@ -34923,7 +35005,7 @@
 			},
 			"Breed a ~|spicati apoterrasaur tilia|~": {
 				"Category": ["Normal Farming"],
-				"Objects": ["Breeding paddock"],
+				"Objects": ["Dinosaur breeding pen"],
 				"Items": ["Spicati apoterrasaur (unchecked)"],
 				"Level": 108,
 				"Output": "ApoterrasaurTiliaBreed",
@@ -34932,7 +35014,7 @@
 			},
 			"Breed a ~|spicati apoterrasaur purpura|~": {
 				"Category": ["Normal Farming"],
-				"Objects": ["Breeding paddock"],
+				"Objects": ["Dinosaur breeding pen"],
 				"Items": ["Spicati apoterrasaur (unchecked)"],
 				"Level": 108,
 				"Output": "ApoterrasaurPurpuraBreed",
@@ -34977,7 +35059,7 @@
 			},
 			"Breed an ~|asciatops|~": {
 				"Category": ["Normal Farming"],
-				"Objects": ["Breeding paddock"],
+				"Objects": ["Dinosaur breeding pen"],
 				"Items": ["VariantAsciatops[+]"],
 				"Level": 110,
 				"Output": "AsciatopsBreed",
@@ -34986,7 +35068,7 @@
 			},
 			"Breed an ~|asciatops acta|~": {
 				"Category": ["Normal Farming"],
-				"Objects": ["Breeding paddock"],
+				"Objects": ["Dinosaur breeding pen"],
 				"Items": ["Asciatops (unchecked)"],
 				"Level": 110,
 				"Output": "AsciatopsActaBreed",
@@ -34995,7 +35077,7 @@
 			},
 			"Breed an ~|asciatops aurum|~": {
 				"Category": ["Normal Farming"],
-				"Objects": ["Breeding paddock"],
+				"Objects": ["Dinosaur breeding pen"],
 				"Items": ["Asciatops (unchecked)"],
 				"Level": 110,
 				"Output": "AsciatopsAurumBreed",
@@ -35040,7 +35122,7 @@
 			},
 			"Breed a ~|corbicula rex|~": {
 				"Category": ["Normal Farming"],
-				"Objects": ["Breeding paddock"],
+				"Objects": ["Dinosaur breeding pen"],
 				"Items": ["VariantCorbicula[+]"],
 				"Level": 112,
 				"Output": "CorbiculaRexBreed",
@@ -35049,7 +35131,7 @@
 			},
 			"Breed a ~|corbicula gelum|~": {
 				"Category": ["Normal Farming"],
-				"Objects": ["Breeding paddock"],
+				"Objects": ["Dinosaur breeding pen"],
 				"Items": ["Corbicula rex (unchecked)"],
 				"Level": 112,
 				"Output": "CorbiculaGelumBreed",
@@ -35058,7 +35140,7 @@
 			},
 			"Breed a ~|corbicula malum|~": {
 				"Category": ["Normal Farming"],
-				"Objects": ["Breeding paddock"],
+				"Objects": ["Dinosaur breeding pen"],
 				"Items": ["Corbicula rex (unchecked)"],
 				"Level": 112,
 				"Output": "CorbiculaMalumBreed",
@@ -35119,7 +35201,7 @@
 			},
 			"Breed an ~|oculi apoterrasaur|~": {
 				"Category": ["Normal Farming"],
-				"Objects": ["Breeding paddock"],
+				"Objects": ["Dinosaur breeding pen"],
 				"Items": ["VariantOculiApoterrasaur[+]"],
 				"Level": 115,
 				"Output": "OculiApoterrasaurBreed",
@@ -35128,7 +35210,7 @@
 			},
 			"Breed an ~|oculi apoterrasaur oceanum|~": {
 				"Category": ["Normal Farming"],
-				"Objects": ["Breeding paddock"],
+				"Objects": ["Dinosaur breeding pen"],
 				"Items": ["Oculi apoterrasaur (unchecked)"],
 				"Level": 115,
 				"Output": "ApoterrasaurOceanumBreed",
@@ -35137,7 +35219,7 @@
 			},
 			"Breed an ~|oculi apoterrasaur glacies|~": {
 				"Category": ["Normal Farming"],
-				"Objects": ["Breeding paddock"],
+				"Objects": ["Dinosaur breeding pen"],
 				"Items": ["Oculi apoterrasaur (unchecked)"],
 				"Level": 115,
 				"Output": "ApoterrasaurGlaciesBreed",
@@ -35182,7 +35264,7 @@
 			},
 			"Breed a ~|malletops|~": {
 				"Category": ["Normal Farming"],
-				"Objects": ["Breeding paddock"],
+				"Objects": ["Dinosaur breeding pen"],
 				"Items": ["VariantMalletops[+]"],
 				"Level": 117,
 				"Output": "MalletopsBreed",
@@ -35191,7 +35273,7 @@
 			},
 			"Breed a ~|malletops palus|~": {
 				"Category": ["Normal Farming"],
-				"Objects": ["Breeding paddock"],
+				"Objects": ["Dinosaur breeding pen"],
 				"Items": ["Malletops (unchecked)"],
 				"Level": 117,
 				"Output": "MalletopsPalusBreed",
@@ -35200,7 +35282,7 @@
 			},
 			"Breed a ~|malletops purpura|~": {
 				"Category": ["Normal Farming"],
-				"Objects": ["Breeding paddock"],
+				"Objects": ["Dinosaur breeding pen"],
 				"Items": ["Malletops (unchecked)"],
 				"Level": 117,
 				"Output": "MalletopsPurpuraBreed",
@@ -35236,7 +35318,7 @@
 			},
 			"Breed a ~|pavosaurus rex|~": {
 				"Category": ["Normal Farming"],
-				"Objects": ["Breeding paddock"],
+				"Objects": ["Dinosaur breeding pen"],
 				"Items": ["VariantPavosaurus[+]"],
 				"Level": 118,
 				"Output": "PavosaurusRexBreed",
@@ -35245,7 +35327,7 @@
 			},
 			"Breed a ~|pavosaurus nemus|~": {
 				"Category": ["Normal Farming"],
-				"Objects": ["Breeding paddock"],
+				"Objects": ["Dinosaur breeding pen"],
 				"Items": ["Pavosaurus rex (unchecked)"],
 				"Level": 118,
 				"Output": "PavosaurusNemusBreed",
@@ -35254,7 +35336,7 @@
 			},
 			"Breed a ~|pavosaurus desertum|~": {
 				"Category": ["Normal Farming"],
-				"Objects": ["Breeding paddock"],
+				"Objects": ["Dinosaur breeding pen"],
 				"Items": ["Pavosaurus rex (unchecked)"],
 				"Level": 118,
 				"Output": "PavosaurusDesertumBreed",
@@ -37869,7 +37951,7 @@
 			"Catch a ~|raw trout|~": {
 				"Items": ["Feather[+]*"],
 				"Level": 20,
-				"Objects": ["Fishing spot (lure, bait))"],
+				"Objects": ["Fishing spot (lure, bait)"],
 				"Primary": true,
 				"Output": "Raw trout",
 				"Priority": 1
@@ -37877,7 +37959,7 @@
 			"Catch ~|golden trout eggs|~": {
 				"Items": ["Feather[+]*"],
 				"Level": 20,
-				"Objects": ["Fishing spot (lure, bait))"],
+				"Objects": ["Fishing spot (lure, bait)"],
 				"Primary": true,
 				"Output": "Golden trout eggs",
 				"Priority": 2
@@ -37893,7 +37975,7 @@
 			"Catch a ~|raw pike|~": {
 				"Items": ["Fishing bait*"],
 				"Level": 25,
-				"Objects": ["Fishing spot (lure, bait))"],
+				"Objects": ["Fishing spot (lure, bait)"],
 				"Primary": true,
 				"Output": "Raw pike",
 				"Priority": 1
@@ -37925,7 +38007,7 @@
 			"Catch a ~|raw salmon|~": {
 				"Items": ["Feather[+]*"],
 				"Level": 30,
-				"Objects": ["Fishing spot (lure, bait))"],
+				"Objects": ["Fishing spot (lure, bait)"],
 				"Primary": true,
 				"Output": "Raw salmon",
 				"Priority": 1
@@ -37933,7 +38015,7 @@
 			"Catch ~|golden salmon eggs|~": {
 				"Items": ["Feather[+]*"],
 				"Level": 30,
-				"Objects": ["Fishing spot (lure, bait))"],
+				"Objects": ["Fishing spot (lure, bait)"],
 				"Primary": true,
 				"Output": "Golden salmon eggs",
 				"Priority": 2
@@ -37969,7 +38051,7 @@
 			"Catch a ~|raw rainbow fish|~": {
 				"Items": ["Stripy feathers"],
 				"Level": 38,
-				"Objects": ["Fishing spot (lure, bait))"],
+				"Objects": ["Fishing spot (lure, bait)"],
 				"Primary": true,
 				"Output": "Raw rainbow fish",
 				"Priority": 1
@@ -37977,7 +38059,7 @@
 			"Catch ~|golden rainbow fish eggs|~": {
 				"Items": ["Stripy feathers"],
 				"Level": 38,
-				"Objects": ["Fishing spot (lure, bait))"],
+				"Objects": ["Fishing spot (lure, bait)"],
 				"Primary": true,
 				"Output": "Golden rainbow fish eggs",
 				"Priority": 2
@@ -41127,6 +41209,7 @@
 		},
 		"Herblore": {
 			"Clean a ~|grimy guam|~": {
+				"Category": ["Cleaning Herbs Primary"],
 				"Items": ["Grimy guam*"],
 				"Level": 1,
 				"Output": "Clean guam",
@@ -41314,6 +41397,7 @@
 				"Priority": 5
 			},
 			"Clean a ~|grimy rogue's purse|~": {
+				"Category": ["Cleaning Herbs Primary"],
 				"Level": 3,
 				"Items": ["Grimy rogue's purse"],
 				"Tasks": {
@@ -41324,6 +41408,7 @@
 				"Priority": 2
 			},
 			"Clean a ~|grimy snake weed|~": {
+				"Category": ["Cleaning Herbs Primary"],
 				"Level": 3,
 				"Items": ["Grimy snake weed"],
 				"Tasks": {
@@ -41374,6 +41459,7 @@
 				"Priority": 1
 			},
 			"Clean a ~|grimy tarromin|~": {
+				"Category": ["Cleaning Herbs Primary"],
 				"Items": ["Grimy tarromin*"],
 				"Level": 5,
 				"Output": "Clean tarromin",
@@ -41451,6 +41537,7 @@
 				"Priority": 1
 			},
 			"Clean a ~|grimy marrentill|~": {
+				"Category": ["Cleaning Herbs Primary"],
 				"Items": ["Grimy marrentill*"],
 				"Level": 9,
 				"Output": "Clean marrentill",
@@ -41604,6 +41691,7 @@
 				"Priority": 1
 			},
 			"Clean a ~|grimy harralander|~": {
+				"Category": ["Cleaning Herbs Primary"],
 				"Items": ["Grimy harralander*"],
 				"Level": 20,
 				"Output": "Clean harralander",
@@ -41673,6 +41761,7 @@
 				"Priority": 1
 			},
 			"Clean a ~|grimy ranarr|~": {
+				"Category": ["Cleaning Herbs Primary"],
 				"Items": ["Grimy ranarr*"],
 				"Level": 25,
 				"Output": "Clean ranarr",
@@ -41712,6 +41801,7 @@
 				"Priority": 1
 			},
 			"Clean a ~|grimy toadflax|~": {
+				"Category": ["Cleaning Herbs Primary"],
 				"Items": ["Grimy toadflax*"],
 				"Level": 30,
 				"Output": "Clean toadflax",
@@ -41762,6 +41852,7 @@
 				"Priority": 2
 			},
 			"Clean a ~|grimy spirit weed|~": {
+				"Category": ["Cleaning Herbs Primary"],
 				"Items": ["Grimy spirit weed*"],
 				"Level": 35,
 				"Output": "Clean spirit weed",
@@ -41846,6 +41937,7 @@
 				"Priority": 5
 			},
 			"Clean a ~|grimy irit|~": {
+				"Category": ["Cleaning Herbs Primary"],
 				"Items": ["Grimy irit*"],
 				"Level": 40,
 				"Output": "Clean irit",
@@ -41871,6 +41963,7 @@
 				"Priority": 4
 			},
 			"Clean a ~|grimy wergali|~": {
+				"Category": ["Cleaning Herbs Primary"],
 				"Items": ["Grimy wergali*"],
 				"Level": 41,
 				"Output": "Clean wergali",
@@ -41965,6 +42058,7 @@
 				"Priority": 1
 			},
 			"Clean a ~|grimy avantoe|~": {
+				"Category": ["Cleaning Herbs Primary"],
 				"Items": ["Grimy avantoe*"],
 				"Level": 48,
 				"Output": "Clean avantoe",
@@ -42110,22 +42204,23 @@
 				"Priority": 2
 			},
 			"Clean a ~|grimy erzille|~": {
+				"Category": ["Cleaning Herbs Primary"],
 				"Items": ["Grimy erzille*"],
 				"Level": 54,
 				"Output": "Clean erzille",
 				"Primary": true,
 				"Priority": 1
 			},
-			"Mix an ~|erzille potion (unf)|~": {
+			"Mix an ~|erzille potion (unfinished)|~": {
 				"Category": ["Token"],
 				"Items": ["Clean erzille*", "Juju vial of water"],
 				"Level": 54,
-				"Output": "Erzille potion (unf)",
+				"Output": "Erzille potion (unfinished)",
 				"Primary": true,
 				"Priority": 2
 			},
 			"Mix a ~|juju hunter potion|~": {
-				"Items": ["Erzille potion (unf)*", "Corrupt vine*"],
+				"Items": ["Erzille potion (unfinished)*", "Corrupt vine*"],
 				"Level": 54,
 				"Output": "Juju hunter potion (3)",
 				"Primary": true,
@@ -42139,6 +42234,7 @@
 				"Priority": 7
 			},
 			"Clean a ~|grimy kwuarm|~": {
+				"Category": ["Cleaning Herbs Primary"],
 				"Items": ["Grimy kwuarm*"],
 				"Level": 54,
 				"Output": "Clean kwuarm",
@@ -42182,6 +42278,7 @@
 				"Priority": 5
 			},
 			"Clean a ~|grimy ugune|~": {
+				"Category": ["Cleaning Herbs Primary"],
 				"Items": ["Grimy ugune*"],
 				"Level": 55,
 				"Output": "Clean ugune",
@@ -42203,6 +42300,7 @@
 				"Priority": 4
 			},
 			"Clean a ~|grimy argway|~": {
+				"Category": ["Cleaning Herbs Primary"],
 				"Items": ["Grimy argway*"],
 				"Level": 56,
 				"Output": "Clean argway",
@@ -42219,16 +42317,16 @@
 				"Primary": true,
 				"Priority": 2
 			},
-			"Mix ~|magic essence (unf)|~": {
+			"Mix ~|magic essence (unfinished)|~": {
 				"Category": ["Token"],
 				"Items": ["Star flower*", "Vial of water"],
 				"Level": 57,
-				"Output": "Magic essence (unf)",
+				"Output": "magic essence (unfinished)",
 				"Primary": true,
 				"Priority": 1
 			},
 			"Mix ~|magic essence|~": {
-				"Items": ["Magic essence (unf)*", "Gorak claw powder*"],
+				"Items": ["magic essence (unfinished)*", "Gorak claw powder*"],
 				"Level": 57,
 				"Output": "Magic essence (3)",
 				"Primary": true,
@@ -42242,6 +42340,7 @@
 				"Priority": 8
 			},
 			"Clean a ~|grimy shengo|~": {
+				"Category": ["Cleaning Herbs Primary"],
 				"Items": ["Grimy shengo*"],
 				"Level": 57,
 				"Output": "Clean shengo",
@@ -42249,6 +42348,7 @@
 				"Priority": 3
 			},
 			"Clean a ~|grimy bloodweed|~": {
+				"Category": ["Cleaning Herbs Primary"],
 				"Items": ["Grimy bloodweed*"],
 				"Level": 57,
 				"Output": "Clean bloodweed",
@@ -42292,6 +42392,7 @@
 				"Priority": 4
 			},
 			"Clean a ~|grimy samaden|~": {
+				"Category": ["Cleaning Herbs Primary"],
 				"Items": ["Grimy samaden*"],
 				"Level": 58,
 				"Output": "Clean samaden",
@@ -42308,16 +42409,16 @@
 				"Primary": true,
 				"Priority": 3
 			},
-			"Mix an ~|argway potion (unf)|~": {
+			"Mix an ~|argway potion (unfinished)|~": {
 				"Category": ["Token"],
 				"Items": ["Clean argway*", "Juju vial of water"],
 				"Level": 59,
-				"Output": "Argway potion (unf)",
+				"Output": "Argway potion (unfinished)",
 				"Primary": true,
 				"Priority": 1
 			},
 			"Mix a ~|scentless potion|~": {
-				"Items": ["Argway potion (unf)*", "Shadow vine*"],
+				"Items": ["Argway potion (unfinished)*", "Shadow vine*"],
 				"Level": 59,
 				"Output": "Scentless potion (3)",
 				"Primary": true,
@@ -42331,6 +42432,7 @@
 				"Priority": 7
 			},
 			"Clean a ~|grimy snapdragon|~": {
+				"Category": ["Cleaning Herbs Primary"],
 				"Items": ["Grimy snapdragon*"],
 				"Level": 59,
 				"Output": "Clean snapdragon",
@@ -42406,16 +42508,16 @@
 				"Primary": true,
 				"Priority": 2
 			},
-			"Mix an ~|ugune potion (unf)|~": {
+			"Mix an ~|ugune potion (unfinished)|~": {
 				"Category": ["Token"],
 				"Items": ["Clean ugune*", "Juju vial of water"],
 				"Level": 64,
-				"Output": "Ugune potion (unf)",
+				"Output": "Ugune potion (unfinished)",
 				"Primary": true,
 				"Priority": 1
 			},
 			"Mix a ~|juju farming potion|~": {
-				"Items": ["Ugune potion (unf)*", "Marble vine*"],
+				"Items": ["Ugune potion (unfinished)*", "Marble vine*"],
 				"Level": 64,
 				"Output": "Juju farming potion (3)",
 				"Primary": true,
@@ -42459,6 +42561,7 @@
 				"Priority": 3
 			},
 			"Clean a ~|grimy cadantine|~": {
+				"Category": ["Cleaning Herbs Primary"],
 				"Items": ["Grimy cadantine*"],
 				"Level": 65,
 				"Output": "Clean cadantine",
@@ -42501,16 +42604,16 @@
 				"Primary": true,
 				"Priority": 2
 			},
-			"Mix a ~|shengo potion (unf)|~": {
+			"Mix a ~|shengo potion (unfinished)|~": {
 				"Category": ["Token"],
 				"Items": ["Clean shengo*", "Juju vial of water"],
 				"Level": 67,
-				"Output": "Shengo potion (unf)",
+				"Output": "Shengo potion (unfinished)",
 				"Primary": true,
 				"Priority": 1
 			},
 			"Mix a ~|juju cooking potion|~": {
-				"Items": ["Shengo potion (unf)*", "Plant teeth*"],
+				"Items": ["Shengo potion (unfinished)*", "Plant teeth*"],
 				"Level": 67,
 				"Output": "Juju cooking potion (3)",
 				"Primary": true,
@@ -42524,6 +42627,7 @@
 				"Priority": 6
 			},
 			"Clean a ~|grimy lantadyme|~": {
+				"Category": ["Cleaning Herbs Primary"],
 				"Items": ["Grimy lantadyme*"],
 				"Level": 67,
 				"Output": "Clean lantadyme",
@@ -42548,15 +42652,15 @@
 				"Primary": true,
 				"Priority": 5
 			},
-			"Mix an ~|antipoison+ (unf)|~": {
+			"Mix an ~|antipoison+ (unfinished)|~": {
 				"Items": ["Coconut milk*", "Clean toadflax*"],
 				"Level": 68,
-				"Output": "Antipoison+ (unf)",
+				"Output": "antipoison+ (unfinished)",
 				"Primary": true,
 				"Priority": 1
 			},
 			"Mix an ~|antipoison+|~": {
-				"Items": ["Antipoison+ (unf)*", "Yew roots*"],
+				"Items": ["antipoison+ (unfinished)*", "Yew roots*"],
 				"Level": 68,
 				"Output": "Antipoison+ (4)",
 				"Primary": true,
@@ -42584,7 +42688,7 @@
 				"Priority": 2
 			},
 			"Mix a ~|juju fishing potion|~": {
-				"Items": ["Shengo potion (unf)*", "Aquatic vine*"],
+				"Items": ["Shengo potion (unfinished)*", "Aquatic vine*"],
 				"Level": 70,
 				"Output": "Juju fishing potion (3)",
 				"Primary": true,
@@ -42598,6 +42702,7 @@
 				"Priority": 8
 			},
 			"Clean a ~|grimy dwarf weed|~": {
+				"Category": ["Cleaning Herbs Primary"],
 				"Items": ["Grimy dwarf weed*"],
 				"Level": 70,
 				"Output": "Clean dwarf weed",
@@ -42635,16 +42740,16 @@
 				"Primary": true,
 				"Priority": 7
 			},
-			"Mix an ~|samaden potion (unf)|~": {
+			"Mix an ~|samaden potion (unfinished)|~": {
 				"Category": ["Token"],
 				"Items": ["Clean samaden*", "Juju vial of water"],
 				"Level": 71,
-				"Output": "Samaden potion (unf)",
+				"Output": "Samaden potion (unfinished)",
 				"Primary": true,
 				"Priority": 1
 			},
 			"Mix a ~|juju woodcutting potion|~": {
-				"Items": ["Samaden potion (unf)*", "Oily vine*"],
+				"Items": ["Samaden potion (unfinished)*", "Oily vine*"],
 				"Level": 71,
 				"Output": "Juju woodcutting potion (3)",
 				"Primary": true,
@@ -42688,15 +42793,15 @@
 				"Primary": true,
 				"Priority": 2
 			},
-			"Mix a ~|weapon poison+ (unf)|~": {
+			"Mix a ~|weapon poison+ (unfinished)|~": {
 				"Items": ["Coconut milk*", "Cactus spine*"],
 				"Level": 73,
-				"Output": "Weapon poison+ (unf)",
+				"Output": "weapon poison+ (unfinished)",
 				"Primary": true,
 				"Priority": 1
 			},
 			"Mix a ~|weapon poison+|~": {
-				"Items": ["Weapon poison+ (unf)*", "Red spiders' eggs*"],
+				"Items": ["weapon poison+ (unfinished)*", "Red spiders' eggs*"],
 				"Level": 73,
 				"Output": "Weapon poison+ (3)",
 				"Primary": true,
@@ -42710,7 +42815,7 @@
 				"Priority": 3
 			},
 			"Mix a ~|juju mining potion|~": {
-				"Items": ["Samaden potion (unf)*", "Draconic vine*"],
+				"Items": ["Samaden potion (unfinished)*", "Draconic vine*"],
 				"Level": 74,
 				"Output": "Juju mining potion (3)",
 				"Primary": true,
@@ -42741,7 +42846,7 @@
 				"Priority": 3
 			},
 			"Mix a ~|Saradomin's blessing|~": {
-				"Items": ["Samaden potion (unf)*", "Saradomin vine*"],
+				"Items": ["Samaden potion (unfinished)*", "Saradomin vine*"],
 				"Level": 75,
 				"Output": "Saradomin's blessing (3)",
 				"Primary": true,
@@ -42755,7 +42860,7 @@
 				"Priority": 12
 			},
 			"Mix a ~|Guthix's gift|~": {
-				"Items": ["Samaden potion (unf)*", "Guthix vine*"],
+				"Items": ["Samaden potion (unfinished)*", "Guthix vine*"],
 				"Level": 75,
 				"Output": "Guthix's gift (3)",
 				"Primary": true,
@@ -42769,7 +42874,7 @@
 				"Priority": 13
 			},
 			"Mix a ~|Zamorak's favour|~": {
-				"Items": ["Samaden potion (unf)*", "Zamorak vine*"],
+				"Items": ["Samaden potion (unfinished)*", "Zamorak vine*"],
 				"Level": 75,
 				"Output": "Zamorak's favour (3)",
 				"Primary": true,
@@ -42783,6 +42888,7 @@
 				"Priority": 14
 			},
 			"Clean a ~|grimy torstol|~": {
+				"Category": ["Cleaning Herbs Primary"],
 				"Items": ["Grimy torstol*"],
 				"Level": 75,
 				"Output": "Clean torstol",
@@ -42902,6 +43008,7 @@
 				"Priority": 8
 			},
 			"Clean a ~|grimy arbuck|~": {
+				"Category": ["Cleaning Herbs Primary"],
 				"Items": ["Grimy arbuck*"],
 				"Level": 77,
 				"Output": "Clean arbuck",
@@ -42965,15 +43072,15 @@
 				"Primary": true,
 				"Priority": 4
 			},
-			"Mix an ~|antipoison++ (unf)|~": {
+			"Mix an ~|antipoison++ (unfinished)|~": {
 				"Items": ["Coconut milk*", "Clean irit*"],
 				"Level": 79,
-				"Output": "Antipoison++ (unf)",
+				"Output": "Antipoison++ (unfinished)",
 				"Primary": true,
 				"Priority": 1
 			},
 			"Mix an ~|antipoison++|~": {
-				"Items": ["Antipoison++ (unf)*", "Magic roots*"],
+				"Items": ["Antipoison++ (unfinished)*", "Magic roots*"],
 				"Level": 79,
 				"Output": "Antipoison++ (4)",
 				"Primary": true,
@@ -43067,15 +43174,15 @@
 				"Primary": true,
 				"Priority": 2
 			},
-			"Mix a ~|weapon poison++ (unf)|~": {
+			"Mix a ~|weapon poison++ (unfinished)|~": {
 				"Items": ["Coconut milk*", "Cave nightshade*"],
 				"Level": 82,
-				"Output": "Weapon poison++ (unf)",
+				"Output": "Weapon poison++ (unfinished)",
 				"Primary": true,
 				"Priority": 1
 			},
 			"Mix a ~|weapon poison++|~": {
-				"Items": ["Weapon poison++ (unf)*", "Poison ivy berries*"],
+				"Items": ["Weapon poison++ (unfinished)*", "Poison ivy berries*"],
 				"Level": 82,
 				"Output": "Weapon poison++ (3)",
 				"Primary": true,
@@ -43350,6 +43457,7 @@
 				"Priority": 1
 			},
 			"Clean a ~|grimy fellstalk|~": {
+				"Category": ["Cleaning Herbs Primary"],
 				"Items": ["Grimy fellstalk*"],
 				"Level": 91,
 				"Output": "Clean fellstalk",
@@ -44099,6 +44207,15 @@
 			"Finish the Butterfly Swarm ~|Wilderness Flash Event|~": {
 				"Category": ["DnD Skilling", "DnD Flash Events", "DnD"],
 				"Chunks": ["12600"],
+				"Level": 1,
+				"Primary": true,
+				"Priority": 18
+			},
+			"Catch a ~|Hell-Rat|~": {
+				"NPCs": ["Hell-Rat"],
+				"Tasks": {
+					"~|Evil Dave's Big Day Out|~ Complete the quest": "Quest"
+				},
 				"Level": 1,
 				"Primary": true,
 				"Priority": 18
@@ -44989,12 +45106,20 @@
 				"Primary": true,
 				"Priority": 1
 			},
-			"Catch a ~|ghost impling|~ in Um": {
+			"Catch a ~|ghost impling|~": {
 				"Chunks": ["City of Um"],
 				"Level": 68,
 				"Output": "Ghost impling",
 				"Primary": true,
 				"Priority": 2
+			},
+			"Catch a ~|ghost impling|~ in a jar": {
+				"Chunks": ["City of Um"],
+				"Items": ["Impling jar*"],
+				"Level": 68,
+				"Output": "Ghost impling jar",
+				"Primary": true,
+				"Priority": 3
 			},
 			"Catch a ~|dashing kebbit|~": {
 				"NPCs": ["Matthias", "Dashing kebbit"],
@@ -53612,6 +53737,15 @@
 				"Primary": true,
 				"Priority": 1
 			},
+			"Unlock ~|Austin's Place|~": {
+				"Chunks": ["City of Um"],
+				"Items": ["Ghost impling jar*"],
+				"Level": 68,
+				"Primary": false,
+				"Priority": 1,
+				"NoPet": true,
+				"NoBoost": true
+			},
 			"Draw a ~|Protection II|~ glyph": {
 				"Chunks": ["RitualSite[+]"],
 				"Items": ["Ectoplasm", "Regular ghostly ink", "Basic ghostly ink"],
@@ -61023,12 +61157,14 @@
 				"NoBoost": true
 			},
 			"Complete a slayer contract from ~|Markus|~": {
+				"Category": ["Slayer Contracts"],
 				"Chunks": ["13623"],
 				"Level": 5,
 				"Primary": true,
 				"Priority": 1
 			},
 			"Complete a slayer contract from ~|Erskine|~": {
+				"Category": ["Slayer Contracts"],
 				"Chunks": ["12343", "ErskineSlayerChunks[+]"],
 				"Level": 1,
 				"Primary": true,
@@ -61378,7 +61514,7 @@
 			},
 			"Finish the Stryke the Wyrm ~|Wilderness Flash Event|~": {
 				"Category": ["DnD Skilling", "DnD Flash Events", "DnD"],
-				"Chunks": ["12343"],
+				"Chunks": ["12603"],
 				"Level": 1,
 				"Primary": true,
 				"Priority": 14
@@ -61398,7 +61534,7 @@
 				"Priority": 12
 			},
 			"Complete an ~|abyssal slayer contract|~ ": {
-				"Category": ["DnD Skilling"],
+				"Category": ["DnD Skilling", "Slayer Contracts"],
 				"Items": ["Abyssal Slayer Contract"],
 				"Level": 1,
 				"Primary": true,
@@ -61419,7 +61555,7 @@
 				"Primary": false,
 				"Priority": 5,
 				"Source": "drop",
-				"Output": "Crawling hand (Burthrope)",
+				"Output": "Crawling hand (Burthorpe)",
 				"NoPet": true
 			},
 			"Slay a ~|skeletal hand|~": {
@@ -61634,6 +61770,19 @@
 				"Output": "Basilisk",
 				"NoPet": true
 			},
+			"Slay a ~|basilisk|~ while on task": {
+				"Items": ["Mirror[+]"],
+				"Level": 40,
+				"Monsters": ["Basilisk"],
+				"Tasks": {
+					"Basilisk task": "Nonskill"
+				},
+				"Primary": false,
+				"Priority": 50,
+				"Source": "drop",
+				"Output": "Basilisk (task)",
+				"NoPet": true
+			},
 			"Slay a ~|terror dog|~": {
 				"Level": 40,
 				"Monsters": ["Terror dog"],
@@ -61776,6 +61925,19 @@
 				"Priority": 8,
 				"Source": "drop",
 				"Output": "Turoth",
+				"NoPet": true
+			},
+			"Slay a ~|turoth|~ while on task": {
+				"Items": ["BroadLeaf[+]"],
+				"Level": 55,
+				"Monsters": ["Turoth"],
+				"Tasks": {
+					"Turoth task": "Nonskill"
+				},
+				"Primary": false,
+				"Priority": 50,
+				"Source": "drop",
+				"Output": "Turoth (task)",
 				"NoPet": true
 			},
 			"Slay a ~|warped terrorbird|~": {
@@ -61922,6 +62084,19 @@
 				"Output": "Kurask",
 				"NoPet": true
 			},
+			"Slay a ~|kurask|~ while on task": {
+				"Items": ["BroadLeaf[+]"],
+				"Level": 70,
+				"Monsters": ["Kurask"],
+				"Tasks": {
+					"Kurask task": "Nonskill"
+				},
+				"Primary": false,
+				"Priority": 50,
+				"Source": "drop",
+				"Output": "Kurask (task)",
+				"NoPet": true
+			},
 			"Build the second tier of the slayer lodge in your ~|Anachronia base camp|~": {
 				"Chunks": ["15939"],
 				"Level": 70,
@@ -61954,6 +62129,18 @@
 				"Priority": 1,
 				"Source": "drop",
 				"Output": "Jungle strykewyrm",
+				"NoPet": true
+			},
+			"Slay a ~|jungle strykewyrm|~ while on task": {
+				"Level": 73,
+				"Monsters": ["Jungle strykewyrm"],
+				"Tasks": {
+					"Jungle strykewyrm task": "Nonskill"
+				},
+				"Primary": false,
+				"Priority": 50,
+				"Source": "drop",
+				"Output": "Jungle strykewyrm (task)",
 				"NoPet": true
 			},
 			"Slay a ~|gargoyle|~": {
@@ -62048,6 +62235,18 @@
 				"Output": "Desert strykewyrm",
 				"NoPet": true
 			},
+			"Slay a ~|desert strykewyrm|~ while on task": {
+				"Level": 77,
+				"Monsters": ["Desert strykewyrm"],
+				"Primary": false,
+				"Tasks": {
+					"Desert strykewyrm task": "Task"
+				},
+				"Priority": 50,
+				"Source": "drop",
+				"Output": "Desert strykewyrm",
+				"NoPet": true
+			},
 			"Slay an ~|aquanite|~": {
 				"Level": 78,
 				"Monsters": ["Aquanite"],
@@ -62064,6 +62263,18 @@
 				"Priority": 1,
 				"Source": "drop",
 				"Output": "Nightmare",
+				"NoPet": true
+			},
+			"Slay a ~|nightmare|~ while on task": {
+				"Level": 80,
+				"Monsters": ["Nightmare"],
+				"Tasks": {
+					"Nightmare task": "Nonskill"
+				},
+				"Primary": false,
+				"Priority": 1,
+				"Source": "drop",
+				"Output": "Nightmare (task)",
 				"NoPet": true
 			},
 			"Slay a ~|nechryael|~": {
@@ -62201,6 +62412,18 @@
 				"Output": "Profane Scabarite",
 				"NoPet": true
 			},
+			"Slay a ~|profane scabarite|~ while on task": {
+				"Level": 87,
+				"Monsters": ["Profane Scabarite"],
+				"Tasks": {
+					"Profane scabarite task": "Nonskill"
+				},
+				"Primary": false,
+				"Priority": 50,
+				"Source": "drop",
+				"Output": "Profane Scabarite (task)",
+				"NoPet": true
+			},
 			"Slay an ~|elite profane scabarite|~": {
 				"Level": 87,
 				"Monsters": ["Elite Profane Scabarite"],
@@ -62227,6 +62450,19 @@
 				"Priority": 2,
 				"Source": "drop",
 				"Output": "Corrupted scorpion",
+				"NoPet": true
+			},
+			"Slay a ~|corrupted scorpion|~ while on task": {
+				"Items": ["Feather of Ma'at"],
+				"Level": 88,
+				"Monsters": ["Corrupted scorpion"],
+				"Tasks": {
+					"Corrupted creature task": "Nonskill"
+				},
+				"Primary": false,
+				"Priority": 50,
+				"Source": "drop",
+				"Output": "Corrupted scorpion (task)",
 				"NoPet": true
 			},
 			"Slay an ~|anagami|~": {
@@ -62274,6 +62510,18 @@
 				"Output": "Devil's snare",
 				"NoPet": true
 			},
+			"Slay a ~|devil's snare|~ while on task": {
+				"Level": 90,
+				"Monsters": ["Devil's snare"],
+				"Tasks": {
+					"Vile bloom task": "Nonskill"
+				},
+				"Primary": false,
+				"Priority": 50,
+				"Source": "drop",
+				"Output": "Devil's snare (task)",
+				"NoPet": true
+			},
 			"Slay a ~|feral dinosaur|~": {
 				"Level": 90,
 				"Monsters": ["Feral Dinosaur"],
@@ -62281,6 +62529,18 @@
 				"Priority": 6,
 				"Source": "drop",
 				"Output": "Feral Dinosaur",
+				"NoPet": true
+			},
+			"Slay a ~|feral dinosaur|~ while on task": {
+				"Level": 90,
+				"Monsters": ["Feral Dinosaur"],
+				"Tasks": {
+					"Dinosaur task": "Nonskill"
+				},
+				"Primary": false,
+				"Priority": 51,
+				"Source": "drop",
+				"Output": "Feral Dinosaur (task)",
 				"NoPet": true
 			},
 			"Build the third tier of the slayer lodge in your ~|Anachronia base camp|~": {
@@ -62308,6 +62568,19 @@
 				"Priority": 2,
 				"Source": "drop",
 				"Output": "Corrupted scarab",
+				"NoPet": true
+			},
+			"Slay a ~|corrupted scarab|~ while on task": {
+				"Items": ["Feather of Ma'at"],
+				"Level": 91,
+				"Monsters": ["Corrupted scarab"],
+				"Tasks": {
+					"Corrupted creature task": "Nonskill"
+				},
+				"Primary": false,
+				"Priority": 50,
+				"Source": "drop",
+				"Output": "Corrupted scarab (task)",
 				"NoPet": true
 			},
 			"Slay an ~|airut|~": {
@@ -62383,6 +62656,19 @@
 				"Output": "Ice strykewyrm",
 				"NoPet": true
 			},
+			"Slay an ~|ice strykewyrm|~ while on task": {
+				"Items": ["FireCape[+]"],
+				"Level": 93,
+				"Monsters": ["Ice strykewyrm"],
+				"Tasks": {
+					"Ice strykewyrm task": "Nonskill"
+				},
+				"Primary": false,
+				"Priority": 50,
+				"Source": "drop",
+				"Output": "Ice strykewyrm (task)",
+				"NoPet": true
+			},
 			"Slay a ~|sakadagami|~": {
 				"Level": 93,
 				"Monsters": ["Sakadagami"],
@@ -62401,6 +62687,18 @@
 				"Output": "Lava strykewyrm",
 				"NoPet": true
 			},
+			"Slay a ~|lava strykewyrm|~ while on task": {
+				"Level": 94,
+				"Monsters": ["Lava strykewyrm"],
+				"Tasks": {
+					"Lava strykewyrm task": "Nonskill"
+				},
+				"Primary": false,
+				"Priority": 1,
+				"Source": "drop",
+				"Output": "Lava strykewyrm (task)",
+				"NoPet": true
+			},
 			"Slay a ~|corrupted lizard|~": {
 				"Items": ["Feather of Ma'at"],
 				"Level": 94,
@@ -62409,6 +62707,19 @@
 				"Priority": 2,
 				"Source": "drop",
 				"Output": "Corrupted lizard",
+				"NoPet": true
+			},
+			"Slay a ~|corrupted lizard|~ while on task": {
+				"Items": ["Feather of Ma'at"],
+				"Level": 94,
+				"Monsters": ["Corrupted lizard"],
+				"Tasks": {
+					"Corrupted creature task": "Nonskill"
+				},
+				"Primary": false,
+				"Priority": 50,
+				"Source": "drop",
+				"Output": "Corrupted lizard (task)",
 				"NoPet": true
 			},
 			"Slay a ~|dragonstone dragon|~": {
@@ -62420,6 +62731,18 @@
 				"Output": "Dragonstone dragon",
 				"NoPet": true
 			},
+			"Slay a ~|dragonstone dragon|~ while on task": {
+				"Level": 95,
+				"Monsters": ["Dragonstone dragon"],
+				"Tasks": {
+					"Gemstone dragon task": "Nonskill"
+				},
+				"Primary": false,
+				"Priority": 50,
+				"Source": "drop",
+				"Output": "Dragonstone dragon (task)",
+				"NoPet": true
+			},
 			"Slay a ~|luminous snaggler|~": {
 				"Level": 95,
 				"Monsters": ["Luminous snaggler"],
@@ -62427,6 +62750,18 @@
 				"Priority": 2,
 				"Source": "drop",
 				"Output": "Luminous snaggler",
+				"NoPet": true
+			},
+			"Slay a ~|luminous snaggler|~ while on task": {
+				"Level": 95,
+				"Monsters": ["Luminous snaggler"],
+				"Tasks": {
+					"Vile bloom task": "Nonskill"
+				},
+				"Primary": false,
+				"Priority": 51,
+				"Source": "drop",
+				"Output": "Luminous snaggler (task)",
 				"NoPet": true
 			},
 			"Slay a ~|ganodermic runt|~": {
@@ -62519,6 +62854,18 @@
 				"Output": "Wyvern",
 				"NoPet": true
 			},
+			"Slay a ~|wyvern|~ while on task": {
+				"Level": 96,
+				"Monsters": ["Wyvern"],
+				"Tasks": {
+					"Wyvern task": "Nonskill"
+				},
+				"Primary": false,
+				"Priority": 50,
+				"Source": "drop",
+				"Output": "Wyvern (task)",
+				"NoPet": true
+			},
 			"Slay a ~|Ripper Demon|~": {
 				"Level": 96,
 				"Monsters": ["Ripper Demon"],
@@ -62528,6 +62875,18 @@
 				"Output": "Ripper Demon",
 				"NoPet": true
 			},
+			"Slay a ~|Ripper Demon|~ while on task": {
+				"Level": 96,
+				"Monsters": ["Ripper Demon"],
+				"Tasks": {
+					"Ripper demon task": "Nonskill"
+				},
+				"Primary": false,
+				"Priority": 51,
+				"Source": "drop",
+				"Output": "Ripper Demon (task)",
+				"NoPet": true
+			},
 			"Slay a ~|Camel Warrior|~": {
 				"Level": 96,
 				"Monsters": ["Camel Warrior"],
@@ -62535,6 +62894,18 @@
 				"Priority": 4,
 				"Source": "drop",
 				"Output": "Camel Warrior",
+				"NoPet": true
+			},
+			"Slay a ~|Camel Warrior|~ while on task": {
+				"Level": 96,
+				"Monsters": ["Camel Warrior"],
+				"Tasks": {
+					"Camel warrior task": "Nonskill"
+				},
+				"Primary": false,
+				"Priority": 52,
+				"Source": "drop",
+				"Output": "Camel Warrior (task)",
 				"NoPet": true
 			},
 			"Slay an ~|Acheron mammoth|~": {
@@ -62556,6 +62927,19 @@
 				"Output": "Corrupted dust devil",
 				"NoPet": true
 			},
+			"Slay a ~|corrupted dust devil|~ while on task": {
+				"Items": ["DustMask[+]", "Feathers of Ma'at"],
+				"Level": 97,
+				"Monsters": ["Corrupted dust devil"],
+				"Tasks": {
+					"Corrupted creature task": "Nonskill"
+				},
+				"Primary": false,
+				"Priority": 1,
+				"Source": "drop",
+				"Output": "Corrupted dust devil (task)",
+				"NoPet": true
+			},
 			"Slay an ~|onyx dragon|~": {
 				"Level": 98,
 				"Monsters": ["Onyx dragon"],
@@ -62563,6 +62947,18 @@
 				"Priority": 1,
 				"Source": "drop",
 				"Output": "Onyx dragon",
+				"NoPet": true
+			},
+			"Slay an ~|onyx dragon|~ while on task": {
+				"Level": 98,
+				"Monsters": ["Onyx dragon"],
+				"Tasks": {
+					"Gemstone dragon task": "Nonskill"
+				},
+				"Primary": false,
+				"Priority": 50,
+				"Source": "drop",
+				"Output": "Onyx dragon (task)",
 				"NoPet": true
 			},
 			"Slay a ~|soulgazer|~": {
@@ -62583,6 +62979,18 @@
 				"Output": "Brutish dinosaur",
 				"NoPet": true
 			},
+			"Slay a ~|brutish dinosaur|~ while on task": {
+				"Level": 99,
+				"Monsters": ["Brutish Dinosaur"],
+				"Tasks": {
+					"Dinosaur task": "Nonskill"
+				},
+				"Primary": false,
+				"Priority": 50,
+				"Source": "drop",
+				"Output": "Brutish dinosaur (task)",
+				"NoPet": true
+			},
 			"Slay a ~|corrupted kalphite guardian|~": {
 				"Items": ["Feather of Ma'at"],
 				"Level": 100,
@@ -62591,6 +62999,19 @@
 				"Priority": 1,
 				"Source": "drop",
 				"Output": "Corrupted kalphite guardian",
+				"NoPet": true
+			},
+			"Slay a ~|corrupted kalphite guardian|~ while on task": {
+				"Items": ["Feather of Ma'at"],
+				"Level": 100,
+				"Monsters": ["Corrupted kalphite guardian"],
+				"Tasks": {
+					"Corrupted creature task": "Nonskill"
+				},
+				"Primary": false,
+				"Priority": 50,
+				"Source": "drop",
+				"Output": "Corrupted kalphite guardian (task)",
 				"NoPet": true
 			},
 			"Slay a ~|corrupted kalphite marauder|~": {
@@ -62603,6 +63024,19 @@
 				"Output": "Corrupted kalphite marauder",
 				"NoPet": true
 			},
+			"Slay a ~|corrupted kalphite marauder|~ while on task": {
+				"Items": ["Feather of Ma'at"],
+				"Level": 100,
+				"Monsters": ["Corrupted kalphite marauder"],
+				"Tasks": {
+					"Corrupted creature task": "Nonskill"
+				},
+				"Primary": false,
+				"Priority": 51,
+				"Source": "drop",
+				"Output": "Corrupted kalphite marauder (task)",
+				"NoPet": true
+			},
 			"Slay a ~|hydrix dragon|~": {
 				"Level": 101,
 				"Monsters": ["Hydrix dragon"],
@@ -62610,6 +63044,18 @@
 				"Priority": 1,
 				"Source": "drop",
 				"Output": "Hydrix dragon",
+				"NoPet": true
+			},
+			"Slay a ~|hydrix dragon|~ while on task": {
+				"Level": 101,
+				"Monsters": ["Hydrix dragon"],
+				"Tasks": {
+					"Gemstone dragon task": "Nonskill"
+				},
+				"Primary": false,
+				"Priority": 50,
+				"Source": "drop",
+				"Output": "Hydrix dragon (task)",
 				"NoPet": true
 			},
 			"Slay a ~|lampenflora|~": {
@@ -62621,6 +63067,18 @@
 				"Output": "Lampenflora",
 				"NoPet": true
 			},
+			"Slay a ~|lampenflora|~ while on task": {
+				"Level": 102,
+				"Monsters": ["Lampenflora"],
+				"Primary": false,
+				"Tasks": {
+					"Vile bloom task": "Nonskill"
+				},
+				"Priority": 50,
+				"Source": "drop",
+				"Output": "Lampenflora (task)",
+				"NoPet": true
+			},
 			"Slay a ~|corrupted worker|~": {
 				"Items": ["Feather of Ma'at"],
 				"Level": 103,
@@ -62629,6 +63087,19 @@
 				"Priority": 1,
 				"Source": "drop",
 				"Output": "Corrupted worker",
+				"NoPet": true
+			},
+			"Slay a ~|corrupted worker|~ while on task": {
+				"Items": ["Feather of Ma'at"],
+				"Level": 103,
+				"Monsters": ["Corrupted worker"],
+				"Tasks": {
+					"Corrupted creature task": "Nonskill"
+				},
+				"Primary": false,
+				"Priority": 50,
+				"Source": "drop",
+				"Output": "Corrupted worker (task)",
 				"NoPet": true
 			},
 			"Slay a ~|vinecrawler|~": {
@@ -62650,6 +63121,19 @@
 				"Output": "Salawa akh",
 				"NoPet": true
 			},
+			"Slay a ~|salawa akh|~ while on task": {
+				"Items": ["Feather of Ma'at"],
+				"Level": 105,
+				"Monsters": ["Salawa akh"],
+				"Tasks": {
+					"Soul devourer task": "Nonskill"
+				},
+				"Primary": false,
+				"Priority": 50,
+				"Source": "drop",
+				"Output": "Salawa akh (task)",
+				"NoPet": true
+			},
 			"Slay a ~|venomous dinosaur|~": {
 				"Level": 105,
 				"Monsters": ["Venomous dinosaur"],
@@ -62657,6 +63141,15 @@
 				"Priority": 2,
 				"Source": "drop",
 				"Output": "Venomous dinosaur",
+				"NoPet": true
+			},
+			"Slay a ~|venomous dinosaur|~ while on task": {
+				"Level": 105,
+				"Monsters": ["Venomous dinosaur"],
+				"Primary": false,
+				"Priority": 50,
+				"Source": "drop",
+				"Output": "Venomous dinosaur (task)",
 				"NoPet": true
 			},
 			"Slay a ~|bulbous crawler|~": {
@@ -62678,6 +63171,19 @@
 				"Output": "Feline akh",
 				"NoPet": true
 			},
+			"Slay a ~|feline akh|~ while on task": {
+				"Items": ["Feather of Ma'at"],
+				"Level": 107,
+				"Monsters": ["Feline akh"],
+				"Tasks": {
+					"Soul devourer task": "Nonskill"
+				},
+				"Primary": false,
+				"Priority": 50,
+				"Source": "drop",
+				"Output": "Feline akh (task)",
+				"NoPet": true
+			},
 			"Slay a ~|moss golem|~": {
 				"Level": 108,
 				"Monsters": ["Moss golem"],
@@ -62697,6 +63203,19 @@
 				"Output": "Scarab akh",
 				"NoPet": true
 			},
+			"Slay a ~|scarab akh|~ while on task": {
+				"Items": ["Feather of Ma'at"],
+				"Level": 109,
+				"Monsters": ["Scarab akh"],
+				"Tasks": {
+					"Soul devourer task": "Nonskill"
+				},
+				"Primary": false,
+				"Priority": 50,
+				"Source": "drop",
+				"Output": "Scarab akh (task)",
+				"NoPet": true
+			},
 			"Slay a ~|liverworts|~": {
 				"Level": 110,
 				"Monsters": ["Liverworts"],
@@ -62704,6 +63223,18 @@
 				"Priority": 1,
 				"Source": "drop",
 				"Output": "Liverworts",
+				"NoPet": true
+			},
+			"Slay a ~|liverworts|~ while on task": {
+				"Level": 110,
+				"Monsters": ["Liverworts"],
+				"Primary": false,
+				"Tasks": {
+					"Vile bloom task": "Nonskill"
+				},
+				"Priority": 51,
+				"Source": "drop",
+				"Output": "Liverworts (task)",
 				"NoPet": true
 			},
 			"Slay a ~|crocodile akh|~": {
@@ -62716,6 +63247,19 @@
 				"Output": "Crocodile akh",
 				"NoPet": true
 			},
+			"Slay a ~|crocodile akh|~ while on task": {
+				"Items": ["Feather of Ma'at"],
+				"Level": 111,
+				"Monsters": ["Crocodile akh"],
+				"Tasks": {
+					"Soul devourer task": "Nonskill"
+				},
+				"Primary": false,
+				"Priority": 1,
+				"Source": "drop",
+				"Output": "Crocodile akh (task)",
+				"NoPet": true
+			},
 			"Slay a ~|gorilla akh|~": {
 				"Items": ["Feather of Ma'at"],
 				"Level": 113,
@@ -62724,6 +63268,19 @@
 				"Priority": 1,
 				"Source": "drop",
 				"Output": "Gorilla akh",
+				"NoPet": true
+			},
+			"Slay a ~|gorilla akh|~ while on task": {
+				"Items": ["Feather of Ma'at"],
+				"Level": 113,
+				"Monsters": ["Gorilla akh"],
+				"Tasks": {
+					"Soul devourer task": "Nonskill"
+				},
+				"Primary": false,
+				"Priority": 1,
+				"Source": "drop",
+				"Output": "Gorilla akh (task)",
 				"NoPet": true
 			},
 			"Slay an ~|armoured phantom|~": {
@@ -62742,6 +63299,15 @@
 				"Priority": 1,
 				"Source": "drop",
 				"Output": "Ripper dinosaur",
+				"NoPet": true
+			},
+			"Slay a ~|ripper dinosaur|~ while on task": {
+				"Level": 114,
+				"Monsters": ["Ripper dinosaur"],
+				"Primary": false,
+				"Priority": 50,
+				"Source": "drop",
+				"Output": "Ripper dinosaur (task)",
 				"NoPet": true
 			},
 			"Slay ~|the magister|~": {
@@ -62764,6 +63330,19 @@
 				"Output": "Imperial warrior akh",
 				"NoPet": true
 			},
+			"Slay an ~|imperial warrior akh|~ while on task": {
+				"Items": ["Feather of Ma'at"],
+				"Level": 117,
+				"Monsters": ["Imperial warrior akh"],
+				"Tasks": {
+					"Soul devourer task": "Nonskill"
+				},
+				"Primary": false,
+				"Priority": 51,
+				"Source": "drop",
+				"Output": "Imperial warrior akh (task)",
+				"NoPet": true
+			},
 			"Slay an ~|imperial mage akh|~": {
 				"Items": ["Feather of Ma'at"],
 				"Level": 117,
@@ -62774,6 +63353,19 @@
 				"Output": "Imperial mage akh",
 				"NoPet": true
 			},
+			"Slay an ~|imperial mage akh|~ while on task": {
+				"Items": ["Feather of Ma'at"],
+				"Level": 117,
+				"Monsters": ["Imperial mage akh"],
+				"Tasks": {
+					"Soul devourer task": "Nonskill"
+				},
+				"Primary": false,
+				"Priority": 52,
+				"Source": "drop",
+				"Output": "Imperial mage akh (task)",
+				"NoPet": true
+			},
 			"Slay an ~|imperial ranger akh|~": {
 				"Items": ["Feather of Ma'at"],
 				"Level": 117,
@@ -62782,6 +63374,19 @@
 				"Priority": 3,
 				"Source": "drop",
 				"Output": "Imperial ranger akh",
+				"NoPet": true
+			},
+			"Slay an ~|imperial ranger akh|~ while on task": {
+				"Items": ["Feather of Ma'at"],
+				"Level": 117,
+				"Monsters": ["Imperial ranger akh"],
+				"Tasks": {
+					"Soul devourer task": "Nonskill"
+				},
+				"Primary": false,
+				"Priority": 53,
+				"Source": "drop",
+				"Output": "Imperial ranger akh (task)",
 				"NoPet": true
 			},
 			"Use the slayer lamp from ~|the world wakes|~ quest": {
@@ -65024,10 +65629,11 @@
 			},
 			"Repair the climbing pegs in burthorpe to reach the ~|Beacon Network|~ beacon": {
 				"Chunks": ["11575"],
-				"Items": ["Iron bar"],
+				"Items": ["Iron bar*"],
 				"Level": 56,
 				"Primary": false,
-				"Priority": 1
+				"Priority": 1,
+				"Not F2P": true
 			},
 			"Buy the ~|Smithing cape|~": {
 				"Category": ["Skillcape"],
@@ -77528,9 +78134,12 @@
 			"~|Desperate Measures|~ 1": {
 				"BaseQuest": "Desperate Measures",
 				"Description": "Speak to Seren at Burthorpe Castle",
-				"Chunks": ["11575", "15939"],
+				"Chunks": ["11575"],
 				"Tasks": {
 					"~|Desperate Times|~ Complete the quest": "Quest"
+				},
+				"Tasks": {
+					"Unlock the Anachronia Base Camp": "Nonskill"
 				},
 				"Skills": {
 					"Agility": 50,
@@ -84621,7 +85230,7 @@
 					"Crafting": 35,
 					"Agility": 15
 				},
-				"Task": {
+				"Tasks": {
 					"Gain access to Morytania": "Nonskill"
 				},
 				"Not F2P": true
@@ -103544,7 +104153,7 @@
 				"Items": ["Ancient vis"],
 				"Tasks": {
 					"Archaeology Mystery: ~|Teleport Node On|~ 1": "Quest",
-					"Complete the 'Incomplete Portal Network I' ~|research|~": "Archaeology"
+					"Complete the ~|Incomplete Portal Network I|~ research": "Archaeology"
 				},
 				"Skills": {
 					"Runecrafting": 70,
@@ -103559,7 +104168,7 @@
 				"Items": ["Orthenglass"],
 				"Tasks": {
 					"Archaeology Mystery: ~|Teleport Node On|~ 2": "Quest",
-					"Complete the 'Incomplete Portal Network II' ~|research|~": "Archaeology",
+					"Complete the ~|Incomplete Portal Network II|~ research": "Archaeology",
 					"Archaeology Mystery: ~|Know Thy Measure|~ Complete the mystery": "Quest"
 				},
 				"Skills": {
@@ -103575,7 +104184,7 @@
 				"Items": ["Quintessence"],
 				"Tasks": {
 					"Archaeology Mystery: ~|Teleport Node On|~ 3": "Quest",
-					"Complete the 'Incomplete Portal Network III' ~|research|~": "Archaeology"
+					"Complete the ~|Incomplete Portal Network III|~ research": "Archaeology"
 				},
 				"Skills": {
 					"Divination": 70,
@@ -104388,7 +104997,7 @@
 					"~|Twilight of the Gods|~ Complete the quest": "Quest",
 					"Archaeology Mystery: ~|A New Form|~ Complete the mystery": "Quest",
 					"Archaeology Mystery: ~|A New Home|~ Complete the mystery": "Quest",
-					"Complete the 'Thought Process' ~|research|~": "Archaeology"
+					"Complete the ~|Thought Process|~ research": "Archaeology"
 				},
 				"Not F2P": true
 			},
@@ -105784,7 +106393,7 @@
 			},
 			"~|Desert Achievements#Easy|~ Fool's Gold": {
 				"Description": "Catch a golden warbler.",
-				"NPCs": ["Golden warbler"],
+				"NPCs": ["GoldenWarbler[+]"],
 				"Items": ["Bird snare"],
 				"Skills": {
 					"Hunter": 5
@@ -119877,11 +120486,11 @@
 				"Description": "Complete all of the Daemonheim research.",
 				"BaseQuest": "Completionist achievements",
 				"Tasks": {
-					"Complete the 'Imposing Stature' ~|research|~": "Archaeology",
-					"Complete the 'Rest at the New Frontier' ~|research|~": "Archaeology",
-					"Complete the 'On the Threshold of the Mind' ~|research|~": "Archaeology",
-					"Complete the 'Making Sense of Sense' ~|research|~": "Archaeology",
-					"Complete the 'Thought Process' ~|research|~": "Archaeology"
+					"Complete the ~|Imposing Stature|~ research": "Archaeology",
+					"Complete the ~|Rest at the New Frontier|~ research": "Archaeology",
+					"Complete the ~|On the Threshold of the Mind|~ research": "Archaeology",
+					"Complete the ~|Making Sense of Sense|~ research": "Archaeology",
+					"Complete the ~|Thought Process|~ research": "Archaeology"
 				},
 				"Not F2P": true
 			},
@@ -119890,13 +120499,13 @@
 				"Description": "Complete all of the Everlight research.",
 				"BaseQuest": "Completionist achievements",
 				"Tasks": {
-					"Complete the 'Lions and Unicorns and Centaurs, Oh My!' ~|research|~": "Archaeology",
-					"Complete the 'Ode to a Midsummer Morning' ~|research|~": "Archaeology",
-					"Complete the 'Stadio Ga Ga' ~|research|~": "Archaeology",
-					"Complete the 'Home, Sweet Home' ~|research|~": "Archaeology",
-					"Complete the 'Ground of the Polis' ~|research|~": "Archaeology",
-					"Complete the 'Battle of the Optimatoi' ~|research|~": "Archaeology",
-					"Complete the 'Like Clockwork' ~|research|~": "Archaeology"
+					"Complete the ~|Lions and Unicorns and Centaurs, Oh My!|~ research": "Archaeology",
+					"Complete the ~|Ode to a Midsummer Morning|~ research": "Archaeology",
+					"Complete the ~|Stadio Ga Ga|~ research": "Archaeology",
+					"Complete the ~|Home, Sweet Home|~ research": "Archaeology",
+					"Complete the ~|Ground of the Polis|~ research": "Archaeology",
+					"Complete the ~|Battle of the Optimatoi|~ research": "Archaeology",
+					"Complete the ~|Like Clockwork|~ research": "Archaeology"
 				},
 				"Not F2P": true
 			},
@@ -119905,15 +120514,15 @@
 				"Description": "Complete all of the Guild research.",
 				"BaseQuest": "Completionist achievements",
 				"Tasks": {
-					"Complete the 'Mysterious Monolith: Existence' ~|research|~": "Archaeology",
-					"Complete the 'Mysterious Monolith: Architecture' ~|research|~": "Archaeology",
-					"Complete the 'Mysterious Monolith: Symbology' ~|research|~": "Archaeology",
-					"Complete the 'Philosophy' ~|research|~": "Archaeology",
-					"Complete the 'Writings of the Walls: Kharid-et' ~|research|~": "Archaeology",
-					"Complete the 'Writings of the Walls: Infernal Source' ~|research|~": "Archaeology",
-					"Complete the 'Writings of the Walls: Everlight' ~|research|~": "Archaeology",
-					"Complete the 'Writings of the Walls: Stormguard' ~|research|~": "Archaeology",
-					"Complete the 'Writings of the Walls: Warforge' ~|research|~": "Archaeology"
+					"Complete the ~|Mysterious Monolith: Existence|~ research": "Archaeology",
+					"Complete the ~|Mysterious Monolith: Architecture|~ research": "Archaeology",
+					"Complete the ~|Mysterious Monolith: Symbology|~ research": "Archaeology",
+					"Complete the ~|Philosophy|~ research": "Archaeology",
+					"Complete the ~|Writings of the Walls: Kharid-et|~ research": "Archaeology",
+					"Complete the ~|Writings of the Walls: Infernal Source|~ research": "Archaeology",
+					"Complete the ~|Writings of the Walls: Everlight|~ research": "Archaeology",
+					"Complete the ~|Writings of the Walls: Stormguard|~ research": "Archaeology",
+					"Complete the ~|Writings of the Walls: Warforge|~ research": "Archaeology"
 				},
 				"Not F2P": true
 			},
@@ -119922,12 +120531,12 @@
 				"Description": "Complete all of the Infernal Source research.",
 				"BaseQuest": "Completionist achievements",
 				"Tasks": {
-					"Complete the 'Starry Eyed' ~|research|~": "Archaeology",
-					"Complete the 'The Dark Underbelly' ~|research|~": "Archaeology",
-					"Complete the 'Abandon All Hope' ~|research|~": "Archaeology",
-					"Complete the 'Deeper and Down' ~|research|~": "Archaeology",
-					"Complete the 'Who Dis?' ~|research|~": "Archaeology",
-					"Complete the 'Hell Mouths' ~|research|~": "Archaeology"
+					"Complete the ~|Starry Eyed|~ research": "Archaeology",
+					"Complete the ~|The Dark Underbelly|~ research": "Archaeology",
+					"Complete the ~|Abandon All Hope|~ research": "Archaeology",
+					"Complete the ~|Deeper and Down|~ research": "Archaeology",
+					"Complete the ~|Who Dis?|~ research": "Archaeology",
+					"Complete the ~|Hell Mouths|~ research": "Archaeology"
 				},
 				"Not F2P": true
 			},
@@ -119936,14 +120545,14 @@
 				"Description": "Complete all of the Kharid-et research.",
 				"BaseQuest": "Completionist achievements",
 				"Tasks": {
-					"Complete the 'Demon Door' ~|research|~": "Archaeology",
-					"Complete the 'Proving Grounds' ~|research|~": "Archaeology",
-					"Complete the 'Cell, a Door' ~|research|~": "Archaeology",
-					"Complete the 'Requiescat in Pace' ~|research|~": "Archaeology",
-					"Complete the 'Where There's Smoke...' ~|research|~": "Archaeology",
-					"Complete the 'Shadow Play' ~|research|~": "Archaeology",
-					"Complete the 'Lockdown' ~|research|~": "Archaeology",
-					"Complete the 'Nom-Nom-Nom-Nom' ~|research|~": "Archaeology"
+					"Complete the ~|Demon Door|~ research": "Archaeology",
+					"Complete the ~|Proving Grounds|~ research": "Archaeology",
+					"Complete the ~|Cell, a Door|~ research": "Archaeology",
+					"Complete the ~|Requiescat in Pace|~ research": "Archaeology",
+					"Complete the ~|Where There's Smoke...|~ research": "Archaeology",
+					"Complete the ~|Shadow Play|~ research": "Archaeology",
+					"Complete the ~|Lockdown|~ research": "Archaeology",
+					"Complete the ~|Nom-Nom-Nom-Nom|~ research": "Archaeology"
 				},
 				"Not F2P": true
 			},
@@ -119952,11 +120561,11 @@
 				"Description": "Complete all of the Orthen research.",
 				"BaseQuest": "Completionist achievements",
 				"Tasks": {
-					"Complete the 'Let Sleeping Kin Lie' ~|research|~": "Archaeology",
-					"Complete the 'Breath of Fire' ~|research|~": "Archaeology",
-					"Complete the 'Necropsy' ~|research|~": "Archaeology",
-					"Complete the 'Mind Your Head' ~|research|~": "Archaeology",
-					"Complete the 'Xolo Dorado' ~|research|~": "Archaeology"
+					"Complete the ~|Let Sleeping Kin Lie|~ research": "Archaeology",
+					"Complete the ~|Breath of Fire|~ research": "Archaeology",
+					"Complete the ~|Necropsy|~ research": "Archaeology",
+					"Complete the ~|Mind Your Head|~ research": "Archaeology",
+					"Complete the ~|Xolo Dorado|~ research": "Archaeology"
 				},
 				"Not F2P": true
 			},
@@ -119965,11 +120574,11 @@
 				"Description": "Complete all of the Senntisten research.",
 				"BaseQuest": "Completionist achievements",
 				"Tasks": {
-					"Complete the 'The Hidden Chamber' ~|research|~": "Archaeology",
-					"Complete the 'Prime Real Estate' ~|research|~": "Archaeology",
-					"Complete the 'Crossing that Bridge' ~|research|~": "Archaeology",
-					"Complete the 'Are You Not Entertained?' ~|research|~": "Archaeology",
-					"Complete the 'Complete the Pattern, Solve the Puzzle' ~|research|~": "Archaeology"
+					"Complete the ~|The Hidden Chamber|~ research": "Archaeology",
+					"Complete the ~|Prime Real Estate|~ research": "Archaeology",
+					"Complete the ~|Crossing that Bridge|~ research": "Archaeology",
+					"Complete the ~|Are You Not Entertained?|~ research": "Archaeology",
+					"Complete the ~|Complete the Pattern, Solve the Puzzle|~ research": "Archaeology"
 				},
 				"Not F2P": true
 			},
@@ -119978,12 +120587,12 @@
 				"Description": "Complete all of the Stormguard Citadel research.",
 				"BaseQuest": "Completionist achievements",
 				"Tasks": {
-					"Complete the 'Ikovian Tragedy' ~|research|~": "Archaeology",
-					"Complete the 'Deer-ly Departed' ~|research|~": "Archaeology",
-					"Complete the 'The Aetherium Giant' ~|research|~": "Archaeology",
-					"Complete the 'Night and Day' ~|research|~": "Archaeology",
-					"Complete the 'Howling Man' ~|research|~": "Archaeology",
-					"Complete the 'Back to the Drawing Board' ~|research|~": "Archaeology"
+					"Complete the ~|Ikovian Tragedy|~ research": "Archaeology",
+					"Complete the ~|Deer-ly Departed|~ research": "Archaeology",
+					"Complete the ~|The Aetherium Giant|~ research": "Archaeology",
+					"Complete the ~|Night and Day|~ research": "Archaeology",
+					"Complete the ~|Howling Man|~ research": "Archaeology",
+					"Complete the ~|Back to the Drawing Board|~ research": "Archaeology"
 				},
 				"Not F2P": true
 			},
@@ -119992,12 +120601,12 @@
 				"Description": "Complete all of the Warforge research.",
 				"BaseQuest": "Completionist achievements",
 				"Tasks": {
-					"Complete the 'Melting Point' ~|research|~": "Archaeology",
-					"Complete the 'Northside' ~|research|~": "Archaeology",
-					"Complete the 'Too Many Bones' ~|research|~": "Archaeology",
-					"Complete the 'Dwarven Forge' ~|research|~": "Archaeology",
-					"Complete the 'Big High War Chest' ~|research|~": "Archaeology",
-					"Complete the 'Power Behind the Throne' ~|research|~": "Archaeology"
+					"Complete the ~|Melting Point|~ research": "Archaeology",
+					"Complete the ~|Northside|~ research": "Archaeology",
+					"Complete the ~|Too Many Bones|~ research": "Archaeology",
+					"Complete the ~|Dwarven Forge|~ research": "Archaeology",
+					"Complete the ~|Big High War Chest|~ research": "Archaeology",
+					"Complete the ~|Power Behind the Throne|~ research": "Archaeology"
 				},
 				"Not F2P": true
 			},
@@ -120042,7 +120651,7 @@
 				"BaseQuest": "Completionist achievements",
 				"Chunks": ["10546"],
 				"Tasks": {
-					"Complete the 'Nom-Nom-Nom-Nom' ~|research|~": "Archaeology"
+					"Complete the ~|Nom-Nom-Nom-Nom|~ research": "Archaeology"
 				},
 				"Not F2P": true
 			},
@@ -122262,7 +122871,9 @@
 				"Category": ["Comp achievements"],
 				"Description": "Fully upgrade the Town Hall in the base camp on Anachronia.",
 				"BaseQuest": "Completionist achievements",
-				"Chunks": ["15683", "15939"],
+				"Tasks": {
+					"Unlock the Anachronia Base Camp": "Nonskill"
+				},
 				"Not F2P": true
 			},
 			"~|Completionist achievements#Completionist Cape|~ Towering Over Us All": {
@@ -122370,7 +122981,7 @@
 				"Not F2P": true
 			},
 			"~|Completionist achievements#Completionist Cape|~ Walking the Reef": {
-				"Category": ["Comp achievements"],
+				"Category": ["Comp achievements", "Ports Scrolls"],
 				"Description": "Find all reefwalker's cape scroll pieces in Player Owned Ports.",
 				"BaseQuest": "Completionist achievements",
 				"Chunks": ["Player-Owned Port"],
@@ -122992,7 +123603,9 @@
 				"Category": ["Comp achievements", "Trim achievements"],
 				"Description": "Fully upgrade the base camp on Anachronia.",
 				"BaseQuest": "Completionist achievements",
-				"Chunks": ["15683", "15939"],
+				"Tasks": {
+					"Unlock the Anachronia Base Camp": "Nonskill"
+				},
 				"Items": ["Essential oils", "Reinforced dinosaur pelt", "Dinosaur tooth", "Dinosaur rib bone"],
 				"Skills": {
 					"Agility": 90,
@@ -123327,7 +123940,9 @@
 				"Category": ["Comp achievements", "Trim achievements"],
 				"Description": "Build the Remote Totem Charging Point in the base camp on Anachronia.",
 				"BaseQuest": "Completionist achievements",
-				"Chunks": ["15683", "15939"],
+				"Tasks": {
+					"Unlock the Anachronia Base Camp": "Nonskill"
+				},
 				"Items": ["Remototem"],
 				"Skills": {
 					"Farming": 42,
@@ -123430,7 +124045,7 @@
 				"Not F2P": true
 			},
 			"~|Completionist achievements#Trimmed Completionist Cape|~ Scrolling in the Deep": {
-				"Category": ["Comp achievements", "Trim achievements"],
+				"Category": ["Comp achievements", "Trim achievements", "Ports Scrolls"],
 				"Description": "Find every scroll piece in Player Owned Ports.",
 				"BaseQuest": "Completionist achievements",
 				"Chunks": ["Player-Owned Port"],
@@ -123851,7 +124466,9 @@
 			"Complete the ~|Gotta Go Fast|~ achievement": {
 				"Category": ["Achievement", "Misc achievements"],
 				"Label": "Achievement",
-				"Chunks": ["15683", "15939"]
+				"Tasks": {
+					"Unlock the Anachronia Base Camp": "Nonskill"
+				}
 			},
 			"Complete the ~|Sole to Soul|~ achievement": {
 				"Category": ["Achievement", "Misc achievements"],
@@ -125889,35 +126506,10 @@
 				"Label": "Slayer Collection Log",
 				"Items": ["Hexcrest"]
 			},
-			"(Feldip Hills) Obtain an ~|Ascension Keystone Primus|~": {
+			"(Feldip Hills) Obtain an ~|Ascension Keystone|~": {
 				"Category": ["Collection Log", "Slayer Collection Log"],
 				"Label": "Slayer Collection Log",
-				"Items": ["Ascension Keystone Primus"]
-			},
-			"(Feldip Hills) Obtain an ~|Ascension Keystone Secundus|~": {
-				"Category": ["Collection Log", "Slayer Collection Log"],
-				"Label": "Slayer Collection Log",
-				"Items": ["Ascension Keystone Secundus"]
-			},
-			"(Feldip Hills) Obtain an ~|Ascension Keystone Tertius|~": {
-				"Category": ["Collection Log", "Slayer Collection Log"],
-				"Label": "Slayer Collection Log",
-				"Items": ["Ascension Keystone Tertius"]
-			},
-			"(Feldip Hills) Obtain an ~|Ascension Keystone Quartus|~": {
-				"Category": ["Collection Log", "Slayer Collection Log"],
-				"Label": "Slayer Collection Log",
-				"Items": ["Ascension Keystone Quartus"]
-			},
-			"(Feldip Hills) Obtain an ~|Ascension Keystone Quintus|~": {
-				"Category": ["Collection Log", "Slayer Collection Log"],
-				"Label": "Slayer Collection Log",
-				"Items": ["Ascension Keystone Quintus"]
-			},
-			"(Feldip Hills) Obtain an ~|Ascension Keystone Sextus|~": {
-				"Category": ["Collection Log", "Slayer Collection Log"],
-				"Label": "Slayer Collection Log",
-				"Items": ["Ascension Keystone Sextus"]
+				"Items": ["Ascension Keystone"]
 			},
 			"(Feldip Hills) Obtain ~|ascension grips|~": {
 				"Category": ["Collection Log", "Slayer Collection Log"],
@@ -131639,6 +132231,26 @@
 				"Label": "Untracked Combat Uniques",
 				"Items": ["Tetch"]
 			},
+			"(Ghost Hunter Outfit) Obtain ~|ghost hunter goggles|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Combat"],
+				"Label": "Untracked Combat Uniques",
+				"Items": ["Ghost hunter goggles"]
+			},
+			"(Ghost Hunter Outfit) Obtain ~|ghost hunter body|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Combat"],
+				"Label": "Untracked Combat Uniques",
+				"Items": ["Ghost hunter body"]
+			},
+			"(Ghost Hunter Outfit) Obtain ~|ghost hunter legs|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Combat"],
+				"Label": "Untracked Combat Uniques",
+				"Items": ["Ghost hunter legs"]
+			},
+			"(Ghost Hunter Outfit) Obtain ~|ghost hunter backpack|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Combat"],
+				"Label": "Untracked Combat Uniques",
+				"Items": ["Ghost hunter backpack"]
+			},
 			"(Temple of Aminishi) Obtain a ~|tetsu sword upgrade kit|~": {
 				"Category": ["Untracked Uniques", "Untracked Uniques Combat"],
 				"Label": "Untracked Combat Uniques",
@@ -133443,12 +134055,12 @@
 			"(Artisans' Workshop) Obtain any ~|iron ceremonial sword|~": {
 				"Category": ["Untracked Uniques", "Untracked Uniques Minigames"],
 				"Label": "Untracked Minigame Uniques",
-				"Items": ["Ceremonial sword"]
+				"Items": ["Ceremonial sword", "Steel bar"]
 			},
 			"(Artisans' Workshop) Obtain any ~|off-hand iron ceremonial sword|~": {
 				"Category": ["Untracked Uniques", "Untracked Uniques Minigames"],
 				"Label": "Untracked Minigame Uniques",
-				"Items": ["Ceremonial sword"]
+				"Items": ["Ceremonial sword", "Steel bar"]
 			},
 			"(Artisans' Workshop) Obtain any ~|steel ceremonial sword|~": {
 				"Category": ["Untracked Uniques", "Untracked Uniques Minigames"],
@@ -141835,7 +142447,7 @@
 				"Items": ["Soul-in-a-box"],
 				"Not F2P": true
 			},
-			"Obtain a ~|soul-in-a-box|~": {
+			"Obtain an ~|urn enhancer|~": {
 				"Category": ["BIS Skilling"],
 				"Label": "BIS Skilling",
 				"Items": ["Urn enhancer"],
@@ -141851,6 +142463,42 @@
 				"Category": ["BIS Skilling"],
 				"Label": "BIS Skilling",
 				"Items": ["Divine-o-matic vacuum"],
+				"Not F2P": true
+			},
+			"Obtain the ~|ritualist's mask|~": {
+				"Category": ["BIS Skilling"],
+				"Label": "BIS Skilling",
+				"Items": ["Ritualist's mask"],
+				"Not F2P": true
+			},
+			"Obtain the ~|ritualist's robe top|~": {
+				"Category": ["BIS Skilling"],
+				"Label": "BIS Skilling",
+				"Items": ["Ritualist's robe top"],
+				"Not F2P": true
+			},
+			"Obtain the ~|ritualist's robe bottoms|~": {
+				"Category": ["BIS Skilling"],
+				"Label": "BIS Skilling",
+				"Items": ["Ritualist's robe bottoms"],
+				"Not F2P": true
+			},
+			"Obtain the ~|ritualist's gloves|~": {
+				"Category": ["BIS Skilling"],
+				"Label": "BIS Skilling",
+				"Items": ["Ritualist's gloves"],
+				"Not F2P": true
+			},
+			"Obtain the ~|ritualist's boots|~": {
+				"Category": ["BIS Skilling"],
+				"Label": "BIS Skilling",
+				"Items": ["Ritualist's boots"],
+				"Not F2P": true
+			},
+			"Obtain the ~|ritualist's mask add-on|~": {
+				"Category": ["BIS Skilling"],
+				"Label": "BIS Skilling",
+				"Items": ["Ritualist's mask add-on"],
 				"Not F2P": true
 			},
 			"Summon a ~|arctic bear|~": {
@@ -142103,6 +142751,462 @@
 				"Category": ["BIS Skilling", "BIS Skilling Consumables"],
 				"Label": "BIS Skilling",
 				"Items": ["Liquid patch bomb"],
+				"Not F2P": true
+			},
+			"Obtain a ~|exquisite cooking urn|~": {
+				"Category": ["BIS Skilling Consumables", "BIS Skilling"],
+				"Label": "BIS Skilling",
+				"Items": ["Exquisite cooking urn"],
+				"Priority": 1,
+				"Set": "BIS Cooking Urn",
+				"Not F2P": true
+			},
+			"Obtain a ~|decorated cooking urn|~": {
+				"Category": ["BIS Skilling Consumables", "BIS Skilling"],
+				"Label": "BIS Skilling",
+				"Items": ["Decorated cooking urn"],
+				"Priority": 2,
+				"Set": "BIS Cooking Urn",
+				"Not F2P": true
+			},
+			"Obtain a ~|strong cooking urn|~": {
+				"Category": ["BIS Skilling Consumables", "BIS Skilling"],
+				"Label": "BIS Skilling",
+				"Items": ["Strong cooking urn"],
+				"Priority": 3,
+				"Set": "BIS Cooking Urn",
+				"Not F2P": true
+			},
+			"Obtain a ~|plain cooking urn|~": {
+				"Category": ["BIS Skilling Consumables", "BIS Skilling"],
+				"Label": "BIS Skilling",
+				"Items": ["Plain cooking urn"],
+				"Priority": 4,
+				"Set": "BIS Cooking Urn",
+				"Not F2P": true
+			},
+			"Obtain a ~|fragile cooking urn|~": {
+				"Category": ["BIS Skilling Consumables", "BIS Skilling"],
+				"Label": "BIS Skilling",
+				"Items": ["Fragile cooking urn"],
+				"Priority": 5,
+				"Set": "BIS Cooking Urn",
+				"Not F2P": true
+			},
+			"Obtain a ~|cracked cooking urn|~": {
+				"Category": ["BIS Skilling Consumables", "BIS Skilling"],
+				"Label": "BIS Skilling",
+				"Items": ["Cracked cooking urn"],
+				"Priority": 6,
+				"Set": "BIS Cooking Urn",
+				"Not F2P": true
+			},
+			"Obtain a ~|exquisite divination urn|~": {
+				"Category": ["BIS Skilling Consumables", "BIS Skilling"],
+				"Label": "BIS Skilling",
+				"Items": ["Exquisite divination urn"],
+				"Priority": 1,
+				"Set": "BIS Divination Urn",
+				"Not F2P": true
+			},
+			"Obtain a ~|decorated divination urn|~": {
+				"Category": ["BIS Skilling Consumables", "BIS Skilling"],
+				"Label": "BIS Skilling",
+				"Items": ["Decorated divination urn"],
+				"Priority": 2,
+				"Set": "BIS Divination Urn",
+				"Not F2P": true
+			},
+			"Obtain a ~|strong divination urn|~": {
+				"Category": ["BIS Skilling Consumables", "BIS Skilling"],
+				"Label": "BIS Skilling",
+				"Items": ["Strong divination urn"],
+				"Priority": 3,
+				"Set": "BIS Divination Urn",
+				"Not F2P": true
+			},
+			"Obtain a ~|plain divination urn|~": {
+				"Category": ["BIS Skilling Consumables", "BIS Skilling"],
+				"Label": "BIS Skilling",
+				"Items": ["Plain divination urn"],
+				"Priority": 4,
+				"Set": "BIS Divination Urn",
+				"Not F2P": true
+			},
+			"Obtain a ~|fragile divination urn|~": {
+				"Category": ["BIS Skilling Consumables", "BIS Skilling"],
+				"Label": "BIS Skilling",
+				"Items": ["Fragile divination urn"],
+				"Priority": 5,
+				"Set": "BIS Divination Urn",
+				"Not F2P": true
+			},
+			"Obtain a ~|cracked divination urn|~": {
+				"Category": ["BIS Skilling Consumables", "BIS Skilling"],
+				"Label": "BIS Skilling",
+				"Items": ["Cracked divination urn"],
+				"Priority": 6,
+				"Set": "BIS Divination Urn",
+				"Not F2P": true
+			},
+			"Obtain a ~|exquisite farming urn|~": {
+				"Category": ["BIS Skilling Consumables", "BIS Skilling"],
+				"Label": "BIS Skilling",
+				"Items": ["Exquisite farming urn"],
+				"Priority": 1,
+				"Set": "BIS Farming Urn",
+				"Not F2P": true
+			},
+			"Obtain a ~|decorated farming urn|~": {
+				"Category": ["BIS Skilling Consumables", "BIS Skilling"],
+				"Label": "BIS Skilling",
+				"Items": ["Decorated farming urn"],
+				"Priority": 2,
+				"Set": "BIS Farming Urn",
+				"Not F2P": true
+			},
+			"Obtain a ~|strong farming urn|~": {
+				"Category": ["BIS Skilling Consumables", "BIS Skilling"],
+				"Label": "BIS Skilling",
+				"Items": ["Strong farming urn"],
+				"Priority": 3,
+				"Set": "BIS Farming Urn",
+				"Not F2P": true
+			},
+			"Obtain a ~|plain farming urn|~": {
+				"Category": ["BIS Skilling Consumables", "BIS Skilling"],
+				"Label": "BIS Skilling",
+				"Items": ["Plain farming urn"],
+				"Priority": 4,
+				"Set": "BIS Farming Urn",
+				"Not F2P": true
+			},
+			"Obtain a ~|fragile farming urn|~": {
+				"Category": ["BIS Skilling Consumables", "BIS Skilling"],
+				"Label": "BIS Skilling",
+				"Items": ["Fragile farming urn"],
+				"Priority": 5,
+				"Set": "BIS Farming Urn",
+				"Not F2P": true
+			},
+			"Obtain a ~|cracked farming urn|~": {
+				"Category": ["BIS Skilling Consumables", "BIS Skilling"],
+				"Label": "BIS Skilling",
+				"Items": ["Cracked farming urn"],
+				"Priority": 6,
+				"Set": "BIS Farming Urn",
+				"Not F2P": true
+			},
+			"Obtain a ~|exquisite fishing urn|~": {
+				"Category": ["BIS Skilling Consumables", "BIS Skilling"],
+				"Label": "BIS Skilling",
+				"Items": ["Exquisite fishing urn"],
+				"Priority": 1,
+				"Set": "BIS Fishing Urn",
+				"Not F2P": true
+			},
+			"Obtain a ~|decorated fishing urn|~": {
+				"Category": ["BIS Skilling Consumables", "BIS Skilling"],
+				"Label": "BIS Skilling",
+				"Items": ["Decorated fishing urn"],
+				"Priority": 2,
+				"Set": "BIS Fishing Urn",
+				"Not F2P": true
+			},
+			"Obtain a ~|strong fishing urn|~": {
+				"Category": ["BIS Skilling Consumables", "BIS Skilling"],
+				"Label": "BIS Skilling",
+				"Items": ["Strong fishing urn"],
+				"Priority": 3,
+				"Set": "BIS Fishing Urn",
+				"Not F2P": true
+			},
+			"Obtain a ~|plain fishing urn|~": {
+				"Category": ["BIS Skilling Consumables", "BIS Skilling"],
+				"Label": "BIS Skilling",
+				"Items": ["Plain fishing urn"],
+				"Priority": 4,
+				"Set": "BIS Fishing Urn",
+				"Not F2P": true
+			},
+			"Obtain a ~|fragile fishing urn|~": {
+				"Category": ["BIS Skilling Consumables", "BIS Skilling"],
+				"Label": "BIS Skilling",
+				"Items": ["Fragile fishing urn"],
+				"Priority": 5,
+				"Set": "BIS Fishing Urn",
+				"Not F2P": true
+			},
+			"Obtain a ~|cracked fishing urn|~": {
+				"Category": ["BIS Skilling Consumables", "BIS Skilling"],
+				"Label": "BIS Skilling",
+				"Items": ["Cracked fishing urn"],
+				"Priority": 6,
+				"Set": "BIS Fishing Urn",
+				"Not F2P": true
+			},
+			"Obtain a ~|exquisite hunter urn|~": {
+				"Category": ["BIS Skilling Consumables", "BIS Skilling"],
+				"Label": "BIS Skilling",
+				"Items": ["Exquisite hunter urn"],
+				"Priority": 1,
+				"Set": "BIS Hunter Urn",
+				"Not F2P": true
+			},
+			"Obtain a ~|decorated hunter urn|~": {
+				"Category": ["BIS Skilling Consumables", "BIS Skilling"],
+				"Label": "BIS Skilling",
+				"Items": ["Decorated hunter urn"],
+				"Priority": 2,
+				"Set": "BIS Hunter Urn",
+				"Not F2P": true
+			},
+			"Obtain a ~|strong hunter urn|~": {
+				"Category": ["BIS Skilling Consumables", "BIS Skilling"],
+				"Label": "BIS Skilling",
+				"Items": ["Strong hunter urn"],
+				"Priority": 3,
+				"Set": "BIS Hunter Urn",
+				"Not F2P": true
+			},
+			"Obtain a ~|plain hunter urn|~": {
+				"Category": ["BIS Skilling Consumables", "BIS Skilling"],
+				"Label": "BIS Skilling",
+				"Items": ["Plain hunter urn"],
+				"Priority": 4,
+				"Set": "BIS Hunter Urn",
+				"Not F2P": true
+			},
+			"Obtain a ~|fragile hunter urn|~": {
+				"Category": ["BIS Skilling Consumables", "BIS Skilling"],
+				"Label": "BIS Skilling",
+				"Items": ["Fragile hunter urn"],
+				"Priority": 5,
+				"Set": "BIS Hunter Urn",
+				"Not F2P": true
+			},
+			"Obtain a ~|cracked hunter urn|~": {
+				"Category": ["BIS Skilling Consumables", "BIS Skilling"],
+				"Label": "BIS Skilling",
+				"Items": ["Cracked hunter urn"],
+				"Priority": 6,
+				"Set": "BIS Hunter Urn",
+				"Not F2P": true
+			},
+			"Obtain a ~|exquisite mining urn|~": {
+				"Category": ["BIS Skilling Consumables", "BIS Skilling"],
+				"Label": "BIS Skilling",
+				"Items": ["Exquisite mining urn"],
+				"Priority": 1,
+				"Set": "BIS Mining Urn",
+				"Not F2P": true
+			},
+			"Obtain a ~|decorated mining urn|~": {
+				"Category": ["BIS Skilling Consumables", "BIS Skilling"],
+				"Label": "BIS Skilling",
+				"Items": ["Decorated mining urn"],
+				"Priority": 2,
+				"Set": "BIS Mining Urn",
+				"Not F2P": true
+			},
+			"Obtain a ~|strong mining urn|~": {
+				"Category": ["BIS Skilling Consumables", "BIS Skilling"],
+				"Label": "BIS Skilling",
+				"Items": ["Strong mining urn"],
+				"Priority": 3,
+				"Set": "BIS Mining Urn",
+				"Not F2P": true
+			},
+			"Obtain a ~|plain mining urn|~": {
+				"Category": ["BIS Skilling Consumables", "BIS Skilling"],
+				"Label": "BIS Skilling",
+				"Items": ["Plain mining urn"],
+				"Priority": 4,
+				"Set": "BIS Mining Urn",
+				"Not F2P": true
+			},
+			"Obtain a ~|fragile mining urn|~": {
+				"Category": ["BIS Skilling Consumables", "BIS Skilling"],
+				"Label": "BIS Skilling",
+				"Items": ["Fragile mining urn"],
+				"Priority": 5,
+				"Set": "BIS Mining Urn",
+				"Not F2P": true
+			},
+			"Obtain a ~|cracked mining urn|~": {
+				"Category": ["BIS Skilling Consumables", "BIS Skilling"],
+				"Label": "BIS Skilling",
+				"Items": ["Cracked mining urn"],
+				"Priority": 6,
+				"Set": "BIS Mining Urn",
+				"Not F2P": true
+			},
+			"Obtain an ~|impious urn|~": {
+				"Category": ["BIS Skilling Consumables", "BIS Skilling"],
+				"Label": "BIS Skilling",
+				"Items": ["Impious urn"],
+				"Priority": 1,
+				"Set": "BIS Prayer Urn",
+				"Not F2P": true
+			},
+			"Obtain an ~|accursed urn|~": {
+				"Category": ["BIS Skilling Consumables", "BIS Skilling"],
+				"Label": "BIS Skilling",
+				"Items": ["Accursed urn"],
+				"Priority": 2,
+				"Set": "BIS Prayer Urn",
+				"Not F2P": true
+			},
+			"Obtain an ~|infernal urn|~": {
+				"Category": ["BIS Skilling Consumables", "BIS Skilling"],
+				"Label": "BIS Skilling",
+				"Items": ["Infernal urn"],
+				"Priority": 3,
+				"Set": "BIS Prayer Urn",
+				"Not F2P": true
+			},
+			"Obtain a ~|exquisite runecrafting urn|~": {
+				"Category": ["BIS Skilling Consumables", "BIS Skilling"],
+				"Label": "BIS Skilling",
+				"Items": ["Exquisite runecrafting urn"],
+				"Priority": 1,
+				"Set": "BIS Runecrafting Urn",
+				"Not F2P": true
+			},
+			"Obtain a ~|decorated runecrafting urn|~": {
+				"Category": ["BIS Skilling Consumables", "BIS Skilling"],
+				"Label": "BIS Skilling",
+				"Items": ["Decorated runecrafting urn"],
+				"Priority": 2,
+				"Set": "BIS Runecrafting Urn",
+				"Not F2P": true
+			},
+			"Obtain a ~|strong runecrafting urn|~": {
+				"Category": ["BIS Skilling Consumables", "BIS Skilling"],
+				"Label": "BIS Skilling",
+				"Items": ["Strong runecrafting urn"],
+				"Priority": 3,
+				"Set": "BIS Runecrafting Urn",
+				"Not F2P": true
+			},
+			"Obtain a ~|plain runecrafting urn|~": {
+				"Category": ["BIS Skilling Consumables", "BIS Skilling"],
+				"Label": "BIS Skilling",
+				"Items": ["Plain runecrafting urn"],
+				"Priority": 4,
+				"Set": "BIS Runecrafting Urn",
+				"Not F2P": true
+			},
+			"Obtain a ~|fragile runecrafting urn|~": {
+				"Category": ["BIS Skilling Consumables", "BIS Skilling"],
+				"Label": "BIS Skilling",
+				"Items": ["Fragile runecrafting urn"],
+				"Priority": 5,
+				"Set": "BIS Runecrafting Urn",
+				"Not F2P": true
+			},
+			"Obtain a ~|cracked runecrafting urn|~": {
+				"Category": ["BIS Skilling Consumables", "BIS Skilling"],
+				"Label": "BIS Skilling",
+				"Items": ["Cracked runecrafting urn"],
+				"Priority": 6,
+				"Set": "BIS Cooking Urn",
+				"Not F2P": true
+			},
+			"Obtain a ~|exquisite smithing urn|~": {
+				"Category": ["BIS Skilling Consumables", "BIS Skilling"],
+				"Label": "BIS Skilling",
+				"Items": ["Exquisite smithing urn"],
+				"Priority": 1,
+				"Set": "BIS Smithing Urn",
+				"Not F2P": true
+			},
+			"Obtain a ~|decorated smithing urn|~": {
+				"Category": ["BIS Skilling Consumables", "BIS Skilling"],
+				"Label": "BIS Skilling",
+				"Items": ["Decorated smithing urn"],
+				"Priority": 2,
+				"Set": "BIS Smithing Urn",
+				"Not F2P": true
+			},
+			"Obtain a ~|strong smithing urn|~": {
+				"Category": ["BIS Skilling Consumables", "BIS Skilling"],
+				"Label": "BIS Skilling",
+				"Items": ["Strong smithing urn"],
+				"Priority": 3,
+				"Set": "BIS Smithing Urn",
+				"Not F2P": true
+			},
+			"Obtain a ~|plain smithing urn|~": {
+				"Category": ["BIS Skilling Consumables", "BIS Skilling"],
+				"Label": "BIS Skilling",
+				"Items": ["Plain smithing urn"],
+				"Priority": 4,
+				"Set": "BIS Smithing Urn",
+				"Not F2P": true
+			},
+			"Obtain a ~|fragile smithing urn|~": {
+				"Category": ["BIS Skilling Consumables", "BIS Skilling"],
+				"Label": "BIS Skilling",
+				"Items": ["Fragile smithing urn"],
+				"Priority": 5,
+				"Set": "BIS Smithing Urn",
+				"Not F2P": true
+			},
+			"Obtain a ~|cracked smithing urn|~": {
+				"Category": ["BIS Skilling Consumables", "BIS Skilling"],
+				"Label": "BIS Skilling",
+				"Items": ["Cracked smithing urn"],
+				"Priority": 6,
+				"Set": "BIS Smithing Urn",
+				"Not F2P": true
+			},
+			"Obtain a ~|exquisite woodcutting urn|~": {
+				"Category": ["BIS Skilling Consumables", "BIS Skilling"],
+				"Label": "BIS Skilling",
+				"Items": ["Exquisite woodcutting urn"],
+				"Priority": 1,
+				"Set": "BIS Woodcutting Urn",
+				"Not F2P": true
+			},
+			"Obtain a ~|decorated woodcutting urn|~": {
+				"Category": ["BIS Skilling Consumables", "BIS Skilling"],
+				"Label": "BIS Skilling",
+				"Items": ["Decorated woodcutting urn"],
+				"Priority": 2,
+				"Set": "BIS Woodcutting Urn",
+				"Not F2P": true
+			},
+			"Obtain a ~|strong woodcutting urn|~": {
+				"Category": ["BIS Skilling Consumables", "BIS Skilling"],
+				"Label": "BIS Skilling",
+				"Items": ["Strong woodcutting urn"],
+				"Priority": 3,
+				"Set": "BIS Woodcutting Urn",
+				"Not F2P": true
+			},
+			"Obtain a ~|plain woodcutting urn|~": {
+				"Category": ["BIS Skilling Consumables", "BIS Skilling"],
+				"Label": "BIS Skilling",
+				"Items": ["Plain woodcutting urn"],
+				"Priority": 4,
+				"Set": "BIS Woodcutting Urn",
+				"Not F2P": true
+			},
+			"Obtain a ~|fragile woodcutting urn|~": {
+				"Category": ["BIS Skilling Consumables", "BIS Skilling"],
+				"Label": "BIS Skilling",
+				"Items": ["Fragile woodcutting urn"],
+				"Priority": 5,
+				"Set": "BIS Woodcutting Urn",
+				"Not F2P": true
+			},
+			"Obtain a ~|cracked woodcutting urn|~": {
+				"Category": ["BIS Skilling Consumables", "BIS Skilling"],
+				"Label": "BIS Skilling",
+				"Items": ["Cracked woodcutting urn"],
+				"Priority": 6,
+				"Set": "BIS Woodcutting Urn",
 				"Not F2P": true
 			},
 			"Unlock the ~|Pouch Protector|~ relic power": {
@@ -143869,7 +144973,10 @@
 				"UnlocksArea": true
 			},
 			"Orthen Oubliette": {
-				"UnlocksArea": true
+				"UnlocksArea": true,
+				"Tasks": {
+					"~|Raksha, the Shadow Colossus|~ 1": "Quest"
+				}
 			},
 			"Herby Werby": {
 				"UnlocksArea": true
@@ -147224,25 +148331,157 @@
 				}
 			},
 			"Rune dragon task": {
-				"NPCs": ["Rune Dragon Assignment[+]"]
+				"Tasks": {
+					"RaptorMorvranBetterMaster[+]": "Slayer"
+				},
+				"Not F2P": true
 			},
 			"Celestial dragon task": {
-				"NPCs": ["Celestial Dragon Assignment[+]"]
+				"Tasks": {
+					"RaptorDuradelBetterMaster[+]": "Slayer"
+				},
+				"Not F2P": true
 			},
 			"Abyssal demon task": {
-				"NPCs": ["Abyssal Demon Assignment[+]"]
+				"Tasks": {
+					"RaptorSumonaBetterMaster[+]": "Slayer"
+				},
+				"Not F2P": true
 			},
-			"Raptor monsters task": {
-				"NPCs": ["Raptor monsters Assignment[+]"]
+			"Wyvern task": {
+				"Tasks": {
+					"RaptorKuradalBetterMaster[+]": "Slayer"
+				},
+				"Not F2P": true
+			},
+			"Ripper demon task": {
+				"Tasks": {
+					"RaptorKuradalBetterMaster[+]": "Slayer"
+				},
+				"Not F2P": true
+			},
+			"Camel warrior task": {
+				"Tasks": {
+					"RaptorKuradalBetterMaster[+]": "Slayer"
+				},
+				"Not F2P": true
+			},
+			"Acheron mammoth task": {
+				"Tasks": {
+					"RaptorKuradalBetterMaster[+]": "Slayer"
+				},
+				"Not F2P": true
+			},
+			"Gemstone dragon task": {
+				"Tasks": {
+					"RaptorKuradalBetterMaster[+]": "Slayer"
+				},
+				"Not F2P": true
 			},
 			"Airut task": {
-				"NPCs": ["Airut Assignment[+]"]
+				"Tasks": {
+					"DuradelBetterMaster[+]": "Slayer"
+				},
+				"Not F2P": true
+			},
+			"Order of Ascension task": {
+				"Tasks": {
+					"DuradelBetterMaster[+]": "Slayer"
+				},
+				"Not F2P": true
+			},
+			"Ice strykewyrm task": {
+				"Tasks": {
+					"DuradelBetterMaster[+]": "Slayer"
+				},
+				"Not F2P": true
 			},
 			"Order of Ascension task": {
 				"NPCs": ["Order of Ascension Assignment[+]"]
 			},
 			"Edimmu task": {
-				"NPCs": ["Edimmu Assignment[+]"]
+				"Tasks": {
+					"EdimmuMaster[+]": "Slayer"
+				},
+				"Not F2P": true
+			},
+			"Jungle strykewyrm task": {
+				"Tasks": {
+					"ChaeldarBetterMaster[+]": "Slayer"
+				},
+				"Not F2P": true
+			},
+			"Basilisk task": {
+				"Tasks": {
+					"MazchnaChaeldarSumonaMaster[+]": "Slayer"
+				},
+				"Not F2P": true
+			},
+			"Turoth task": {
+				"Tasks": {
+					"MazchnaChaeldarSumonaMaster[+]": "Slayer"
+				},
+				"Not F2P": true
+			},
+			"Kurask task": {
+				"Tasks": {
+					"ChaeldarSumonaMaster[+]": "Slayer"
+				},
+				"Not F2P": true
+			},
+			"Desert strykewyrm task": {
+				"Tasks": {
+					"SumonaBetterMaster[+]": "Slayer"
+				},
+				"Not F2P": true
+			},
+			"Profane scabarite task": {
+				"Tasks": {
+					"SumonaBetterMaster[+]": "Slayer"
+				},
+				"Not F2P": true
+			},
+			"Corrupted creature task": {
+				"Tasks": {
+					"SumonaKuradalBetterMaster[+]": "Slayer"
+				},
+				"Not F2P": true
+			},
+			"Soul devourer task": {
+				"Tasks": {
+					"SumonaKuradalBetterMaster[+]": "Slayer"
+				},
+				"Not F2P": true
+			},
+			"Lost Grove creature task": {
+				"Tasks": {
+					"MorvranlBetterMaster[+]": "Slayer"
+				},
+				"Not F2P": true
+			},
+			"Dinosaur task": {
+				"Tasks": {
+					"Receive a slayer assignment from ~|Laniakea|~": "Slayer"
+				},
+				"Not F2P": true
+			},
+			"Vile bloom task": {
+				"Tasks": {
+					"Receive a slayer assignment from ~|Laniakea|~": "Slayer"
+				},
+				"Not F2P": true
+			},
+			"Nightmare task": {
+				"Tasks": {
+					"KuradalBetterMaster[+]": "Slayer"
+				},
+				"Not F2P": true
+			},
+			"Lava strykewyrm task": {
+				"Tasks": {
+					"KuradalBetterMaster[+]": "Slayer"
+				},
+				"Not F2P": true
 			},
 			"Complete Trip to the East#Quin": {
 				"Chunks": ["Player-Owned Port"],
@@ -147275,6 +148514,13 @@
 					"Unlock ~|the memory|~ in the player-owned port": "Divination",
 					"Unlock ~|the exile|~ at the player-owned port": "Dungeoneering"
 				}
+			},
+			"Unlock the Anachronia Base Camp": {
+				"Chunks": ["15683", "15939"]
+			},
+			"Open an oyster": {
+				"Items": ["Oyster"],
+				"Output": "Oyster loot"
 			}
 		}
 	},
@@ -152411,7 +153657,7 @@
 		},
 		"8775": {
 			"Monster": {
-				"Crawling hand (Burthrope)": 11,
+				"Crawling hand (Burthorpe)": 11,
 				"Cave bug#Level 6": 11
 			},
 			"Name": "Burthorpe Slayer Cave"
@@ -152855,7 +154101,7 @@
 				"Fire remains": 1,
 				"Tree": 144,
 				"Guards": 1,
-				"Fishing spot (lure, bait))": 5
+				"Fishing spot (lure, bait)": 5
 			},
 			"NPC": {
 				"Butterfly": 20,
@@ -154313,7 +155559,7 @@
 				"Tree": 41,
 				"Magic tree": 1,
 				"Stile": 1,
-				"Fishing spot (lure, bait))": 7,
+				"Fishing spot (lure, bait)": 7,
 				"Elder tree": 1,
 				"Evil tree": 1
 			},
@@ -155125,7 +156371,7 @@
 				"Tree": 34,
 				"Dead tree": 9,
 				"Water barrel": 1,
-				"Fishing spot (lure, bait))": 5,
+				"Fishing spot (lure, bait)": 5,
 				"Fruit tree patch": 1
 			},
 			"Monster": {
@@ -156394,7 +157640,7 @@
 				"Ardougne": 1,
 				"Tree Gnome Stronghold": 1,
 				"Stile": 1,
-				"Fishing spot (lure, bait))": 6
+				"Fishing spot (lure, bait)": 6
 			},
 			"Monster": {
 				"Moss giant": 4
@@ -157522,7 +158768,7 @@
 				"Oak": 8,
 				"Tree": 10,
 				"Dead tree": 19,
-				"Fishing spot (lure, bait))": 2
+				"Fishing spot (lure, bait)": 2
 			},
 			"Monster": {
 				"Farmer": 2,
@@ -158706,7 +159952,7 @@
 				"Small obelisk": 1,
 				"Oak": 18,
 				"Tree": 52,
-				"Fishing spot (lure, bait))": 2
+				"Fishing spot (lure, bait)": 2
 			},
 			"Monster": {
 				"Wolf": 3,
@@ -158945,7 +160191,7 @@
 				"Wheat": 60,
 				"Oak": 14,
 				"Tree": 43,
-				"Fishing spot (lure, bait))": 3
+				"Fishing spot (lure, bait)": 3
 			},
 			"NPC": {
 				"Sheep": 10,
@@ -159641,7 +160887,7 @@
 				"Tree": 7,
 				"Maple tree": 22,
 				"Dead tree": 38,
-				"Fishing spot (lure, bait))": 4
+				"Fishing spot (lure, bait)": 4
 			},
 			"Monster": {
 				"Chicken": 3,
@@ -159694,7 +160940,7 @@
 				"Tree": 72,
 				"Maple tree": 9,
 				"Dead tree": 19,
-				"Fishing spot (lure, bait))": 2,
+				"Fishing spot (lure, bait)": 2,
 				"Fishing spot (crayfish)": 2,
 				"Evil tree": 1
 			},
@@ -161694,7 +162940,7 @@
 				"Oak": 7,
 				"Tree": 27,
 				"Furnace": 1,
-				"Fishing spot (lure, bait))": 4,
+				"Fishing spot (lure, bait)": 4,
 				"Fishing spot (small fishing net, bait)": 4
 			},
 			"Monster": {
@@ -166373,7 +167619,7 @@
 				"Coal rock": 4,
 				"Barbarian anvil": 1,
 				"Barbarian forge": 1,
-				"Fishing spot (lure, bait))": 2,
+				"Fishing spot (lure, bait)": 2,
 				"Elder tree": 1,
 				"Canoe station": 1
 			},
@@ -168214,7 +169460,7 @@
 				"Anvil": 1,
 				"Forge": 1,
 				"Furnace": 1,
-				"Fishing spot (lure, bait))": 5,
+				"Fishing spot (lure, bait)": 5,
 				"Canoe station": 1,
 				"Vegetable stall": 2,
 				"Fishing spot (crayfish)": 5,
@@ -171121,7 +172367,7 @@
 		"13461": {
 			"Object": {
 				"Fire": 1,
-				"Fishing spot (lure, bait))": 7
+				"Fishing spot (lure, bait)": 7
 			},
 			"NPC": {
 				"Nirrie": 1,
@@ -175822,8 +177068,8 @@
 		},
 		"16195": {
 			"Object": {
-				"Fishing spot (Lure/Bait)": 2,
-				"Fishing spot (Cage/Harpoon)": 3,
+				"Fishing spot (lure, bait)": 2,
+				"Fishing spot (cage, harpoon)": 3,
 				"Red vine blossom": 1,
 				"Teleportation device": 1,
 				"Crashed star": 1
@@ -176045,9 +177291,6 @@
 			"NPC": {
 				"Black warlock (Anachronia)": 7,
 				"Carrion jadinko (Anachronia)": 7
-			},
-			"Connect": {
-				"22828": true
 			},
 			"Nickname": "Anachronia Swamp Mine"
 		},
@@ -176467,8 +177710,8 @@
 		},
 		"16705": {
 			"Object": {
-				"Fishing spot (Cage/Harpoon)": 2,
-				"Fishing spot (Net/Harpoon)": 3,
+				"Fishing spot (cage, harpoon)": 2,
+				"Fishing spot (net, harpoon)": 3,
 				"Totem pedestal": 1
 			},
 			"Monster": {
@@ -185487,7 +186730,7 @@
 			},
 			"Monster": {
 				"Gelatinous abomination": 19,
-				"Crawling hand (Burthrope)": 11,
+				"Crawling hand (Burthorpe)": 11,
 				"Cave bug (Burthorpe)": 11
 			},
 			"Connect": {
@@ -186545,7 +187788,7 @@
 				"Wheat": 60,
 				"Oak": 14,
 				"Tree": 43,
-				"Fishing spot (lure, bait))": 3,
+				"Fishing spot (lure, bait)": 3,
 				"Dead tree": 99
 			},
 			"NPC": {
@@ -188141,7 +189384,7 @@
 		"Water Ravine Dungeon": {
 			"Object": {
 				"Fire": 1,
-				"Fishing spot (lure, bait))": 7,
+				"Fishing spot (lure, bait)": 7,
 				"Cave exit": 1
 			},
 			"NPC": {
@@ -190249,8 +191492,7 @@
 				"Raksha, the Shadow Colossus": 1
 			},
 			"Connect": {
-				"16704": true,
-				"16448": true
+				"16704": true
 			},
 			"Quest": {
 				"Raksha, the Shadow Colossus": "step"
@@ -190512,7 +191754,8 @@
 			"Shop": {
 				"Buried Bargains": true,
 				"The Last Call": true,
-				"Soul Supplies": true
+				"Soul Supplies": true,
+				"Austin's Place": true
 			},
 			"Connect": {
 				"24": true,
@@ -193899,8 +195142,8 @@
 				"Overload (4)"
 			],
 			"OysterPearl[+]": [
-				"Oyster Pearl",
-				"Oyster Pearls"
+				"Oyster pearl",
+				"Oyster pearls"
 			],
 			"PathfinderArmour[+]": [
 				"Amulet of potency",
@@ -196839,6 +198082,7 @@
 			"PowerfulCommunionBones[+]": "Any item that can be used in a powerful communion ritual",
 			"PrayerPotion[+]": "Any prayer potion",
 			"PrayerRenewalPotion[+]": "Any prayer renewal potion",
+			"PrimalArmour[+]": "Any piece of primal armour",
 			"PrimalFruit[+]": "Any fruit that can be used to make primal fruit pulp",
 			"PrimevalArmour[+]": "Any piece of primeval armour",
 			"ProfoundDecorativeArmour[+]": "Any piece of profound decorative armour",
@@ -197335,7 +198579,7 @@
 			"Tier3Grove[+]": ["Elder tree"],
 			"RangersWorkroom[+]": ["Spinning wheel", "Fletching workbench"],
 			"Tier1Workshop[+]": ["Furnace", "Anvil", "Forge"],
-			"Tree[+]": ["Tree", "Burnt tree", "Dead tree (Timbo)", "Dead tree covered in snow", "Dead tree", "Dying tree", "Evergreen", "Jungle Bush", "Jungle tree", "Swamp tree", "Palm tree (choppable)"],
+			"Tree[+]": ["Tree", "Burnt tree", "Dead tree (Timbo)", "Dead tree covered in snow", "Dead tree", "Dying tree", "Evergreen", "Jungle Bush", "Jungle Tree", "Swamp tree", "Palm tree (choppable)"],
 			"WaterSource[+]": ["Sink", "Fountain", "Waterpump", "Water barrel", "Well", "Large Geyser", "Water trough", "Water pump"]
 		},
 		"objectsPlusNames": {
@@ -197806,13 +199050,7 @@
 			"Wisp[+]": ["Pale wisp", "Cursed wisp"],
 			"SlayerPointMasters[+]": ["Jacquelyn", "Vannaka", "The Raptor#Fort Forinthry", "Mazchna", "Chaeldar", "Sumona", "Duradel", "Kuradal", "Morvran", "Laniakea", "Mandrith"],
 			"CrystalToolNPC[+]": ["Ilfeen", "Eluned", "Islwyn", "Rhodri Dail"],
-			"Rune Dragon Assignment[+]": ["The Raptor#Fort Forinthry", "Morvran", "Laniakea"],
-			"Celestial Dragon Assignment[+]": ["The Raptor#Fort Forinthry", "Morvran", "Laniakea", "Duradel", "Kuradal"],
-			"Abyssal Demon Assignment[+]": ["The Raptor#Fort Forinthry", "Morvran", "Laniakea", "Duradel", "Kuradal", "Sumona"],
-			"Raptor monsters Assignment[+]": ["Kuradal", "The Raptor#Fort Forinthry", "Morvran", "Laniakea"],
-			"Airut Assignment[+]": ["Morvran", "Laniakea", "Duradel", "Kuradal"],
-			"Order of Ascension Assignment[+]": ["The Raptor#Fort Forinthry", "Morvran", "Laniakea", "Duradel", "Kuradal"],
-			"Edimmu Assignment[+]": ["The Raptor#Fort Forinthry", "Morvran", "Laniakea", "Duradel", "Kuradal", "Vannaka", "Jacquelyn"]
+			"GoldenWarbler[+]": ["Golden warbler", "Golden warbler (Anachronia)"]
 		},
 		"npcsPlusNames": {
 			"Dyer[+]": "Access to either Rana or Aggie",
@@ -197826,7 +199064,8 @@
 			"StrengthMaster[+]": "Sloane or his replacement",
 			"Tanner[+]": "Any hide tanner",
 			"Wisp[+]": "Any level 1 wisp",
-			"SlayerPointMasters[+]": "Any slayer master that may award you Slayer Points"
+			"SlayerPointMasters[+]": "Any slayer master that may award you Slayer Points",
+			"GoldenWarbler[+]": "Any golden warbler variant"
 		},
 		"tasksPlus": {
 			"A Taste of the Exotic[+]": ["Hard Ardougne tasks ~|A Taste of the Exotic|~ (Coconut)*", "Hard Ardougne tasks ~|A Taste of the Exotic|~ (Papaya)*"],
@@ -198178,7 +199417,88 @@
 			"Access the Lumbridge Swamp caves[+]": ["Access the Lumbridge Swamp caves via Lumbridge Cellar", "Access the Lumbridge Swamp caves via 12953"],
 			"LesserEnsoulMaterial[+]": ["Ensoul a ~|lesser ensouled bar|~", "Ensoul ~|lesser ensouled cloth|~", "Ensoul ~|lesser ensouled thread|~"],
 			"EnsoulMaterial[+]": ["Ensoul an ~|ensouled bar|~", "Ensoul ~|ensouled cloth|~", "Ensoul ~|ensouled thread|~"],
-			"GreaterEnsoulMaterial[+]": ["Ensoul a ~|greater ensouled bar|~", "Ensoul ~|greater ensouled cloth|~", "Ensoul ~|greater ensouled thread|~"]
+			"GreaterEnsoulMaterial[+]": ["Ensoul a ~|greater ensouled bar|~", "Ensoul ~|greater ensouled cloth|~", "Ensoul ~|greater ensouled thread|~"],
+			"MorvranlBetterMaster[+]": [
+					"Receive a slayer assignment from ~|Morvran|~",
+					"Receive a slayer assignment from ~|Laniakea|~"
+			],
+			"KuradalBetterMaster[+]": [
+					"Receive a slayer assignment from ~|Kuradal|~",
+					"Receive a slayer assignment from ~|Morvran|~",
+					"Receive a slayer assignment from ~|Laniakea|~"
+			],
+			"DuradelBetterMaster[+]": [
+					"Receive a slayer assignment from ~|Duradel|~",
+					"Receive a slayer assignment from ~|Kuradal|~",
+					"Receive a slayer assignment from ~|Morvran|~",
+					"Receive a slayer assignment from ~|Laniakea|~"
+			],
+			"SumonaBetterMaster[+]": [
+					"Receive a slayer assignment from ~|Sumona|~",
+					"Receive a slayer assignment from ~|Duradel|~",
+					"Receive a slayer assignment from ~|Kuradal|~",
+					"Receive a slayer assignment from ~|Morvran|~",
+					"Receive a slayer assignment from ~|Laniakea|~"
+			],
+			"ChaeldarBetterMaster[+]": [
+					"Receive a slayer assignment from ~|Chaeldar|~",
+					"Receive a slayer assignment from ~|Sumona|~",
+					"Receive a slayer assignment from ~|Duradel|~",
+					"Receive a slayer assignment from ~|Kuradal|~",
+					"Receive a slayer assignment from ~|Morvran|~",
+					"Receive a slayer assignment from ~|Laniakea|~"
+			],
+			"RaptorMorvranBetterMaster[+]": [
+					"Receive a slayer assignment from ~|the Raptor|~",
+					"Receive a slayer assignment from ~|Morvran|~",
+					"Receive a slayer assignment from ~|Laniakea|~"
+			],
+			"RaptorKuradalBetterMaster[+]": [
+					"Receive a slayer assignment from ~|the Raptor|~",
+					"Receive a slayer assignment from ~|Kuradal|~",
+					"Receive a slayer assignment from ~|Morvran|~",
+					"Receive a slayer assignment from ~|Laniakea|~"
+			],
+			"RaptorDuradelBetterMaster[+]": [
+					"Receive a slayer assignment from ~|the Raptor|~",
+					"Receive a slayer assignment from ~|Duradel|~",
+					"Receive a slayer assignment from ~|Kuradal|~",
+					"Receive a slayer assignment from ~|Morvran|~",
+					"Receive a slayer assignment from ~|Laniakea|~"
+			],
+			"RaptorSumonaBetterMaster[+]": [
+					"Receive a slayer assignment from ~|the Raptor|~",
+					"Receive a slayer assignment from ~|Sumona|~",
+					"Receive a slayer assignment from ~|Duradel|~",
+					"Receive a slayer assignment from ~|Kuradal|~",
+					"Receive a slayer assignment from ~|Morvran|~",
+					"Receive a slayer assignment from ~|Laniakea|~"
+			],
+			"SumonaKuradalBetterMaster[+]": [
+					"Receive a slayer assignment from ~|Chaeldar|~",
+					"Receive a slayer assignment from ~|Sumona|~",
+					"Receive a slayer assignment from ~|Kuradal|~",
+					"Receive a slayer assignment from ~|Morvran|~",
+					"Receive a slayer assignment from ~|Laniakea|~"
+			],
+			"MazchnaChaeldarSumonaMaster[+]": [
+					"Receive a slayer assignment from ~|Mazchna|~",
+					"Receive a slayer assignment from ~|Chaeldar|~",
+					"Receive a slayer assignment from ~|Sumona|~"
+			],
+			"ChaeldarSumonaMaster[+]": [
+					"Receive a slayer assignment from ~|Chaeldar|~",
+					"Receive a slayer assignment from ~|Sumona|~"
+			],
+			"EdimmuMaster[+]": [
+					"Receive a slayer assignment from ~|Jacquelyn|~",
+					"Receive a slayer assignment from ~|the Raptor|~",
+					"Receive a slayer assignment from ~|Vannaka|~",
+					"Receive a slayer assignment from ~|Duradel|~",
+					"Receive a slayer assignment from ~|Kuradal|~",
+					"Receive a slayer assignment from ~|Morvran|~",
+					"Receive a slayer assignment from ~|Laniakea|~"
+			]
 		},
 		"tasksPlusNames": {
 			"A Taste of the Exotic[+]": "Any subtasks for A Taste of the Exotic",
@@ -198447,7 +199767,7 @@
 			},
 			"Crawling hands": {
 				"Crawling hand": true,
-				"Crawling hand (Burthrope)": true,
+				"Crawling hand (Burthorpe)": true,
 				"Skeletal hand": true,
 				"Zombie hand": true
 			},
@@ -201915,67 +203235,61 @@
 		},
 		"Arch-Glacor": {
 			"Banite stone spirit": {
-				"4-92": "Common"
+				"26-43": "48/200"
 			},
 			"Coins": {
-				"11301-278932": "Common"
+				"78750-131250": "60/200"
 			},
 			"Crushed nest": {
-				"4-91 (noted)": "Common"
+				"26-43 (noted)": "54/200"
 			},
 			"Crystal key": {
-				"2-36 (noted)": "Common"
-			},
-			"Glacor remnants": {
-				"33": "Varies",
-				"41": "Varies",
-				"500": "Varies",
-				"5-75": "Common"
+				"10-17 (noted)": "24/200"
 			},
 			"Hydrix bolt tips": {
-				"1-116": "Common"
+				"10-17": "36/200"
 			},
 			"Medium blunt orikalkum salvage": {
-				"1-21 (noted)": "Common"
+				"5-8 (noted)": "24/200"
 			},
 			"Spirit weed seed": {
-				"1-17": "Common"
+				"5-8": "48/200"
 			},
 			"Summoning focus": {
-				"1-31": "Common"
+				"5-8": "48/200"
 			},
 			"Uncut dragonstone": {
-				"2-34 (noted)": "Common"
+				"10-17 (noted)": "60/200"
 			},
 			"Water battlestaff": {
-				"2-34 (noted)": "Common"
+				"10-17 (noted)": "60/200"
 			},
 			"Water talisman": {
-				"3-55 (noted)": "Common"
+				"15-26 (noted)": "60/200"
 			},
 			"Onyx dust": {
-				"2-36": "Uncommon"
-			},
-			"Sirenic scale": {
-				"2-12": "Rare"
+				"10-17": "18/200"
 			},
 			"Crystal triskelion": {
-				"1": "Rare"
+				"1": "3/200"
+			},
+			"Glacor remnants": {
+				"35": "3/11.5"
 			},
 			"Dark nilas": {
-				"1": "Varies"
+				"1": "3/317"
 			},
 			"Leng artefact": {
-				"1": "1/500"
+				"1": "3/500"
 			},
 			"Scripture of Wen": {
-				"1": "1/500"
+				"1": "3/500"
 			},
 			"Uncut onyx": {
-				"1": "Very rare"
+				"1": "3/4000"
 			},
 			"Resonant anima of Wen": {
-				"20-150": "Common"
+				"30-50": "Always"
 			},
 			"Elder Trove (Wen,T1)": {
 				"1": "Common"
@@ -201987,19 +203301,22 @@
 				"1": "Common"
 			},
 			"Manuscript of Wen": {
-				"1": "Uncommon"
+				"1": "3/25"
 			},
 			"Sealed clue scroll (elite)": {
-				"1": "Uncommon"
+				"1": "3/100"
 			},
 			"Starved ancient effigy": {
-				"1": "1/128"
+				"1": "3/256"
+			},
+			"Chaos die reroll token": {
+				"1": "30/7500"
 			},
 			"Glacor core": {
-				"1": "1/3000"
+				"1": "3/3000"
 			},
 			"The Journal of Fell Arnessen": {
-				"1": "Common"
+				"1": "3/10"
 			}
 		},
 		"Arch-Glacor (Hard Mode)": {
@@ -202024,7 +203341,7 @@
 			"Medium blunt orikalkum salvage": {
 				"37-881": "Uncommon"
 			},
-			"Spirit weed seed": {
+			"Water rune": {
 				"5-147": "Common"
 			},
 			"Summoning focus": {
@@ -202042,17 +203359,17 @@
 			"Onyx dust": {
 				"79-1350": "Uncommon"
 			},
-			"Sirenic scale": {
+			"Cannonball": {
 				"1-29": "Uncommon"
 			},
 			"Dark nilas": {
 				"2-42": "1/100"
 			},
 			"Leng artefact": {
-				"1": "1/2390"
+				"1": "1/1725"
 			},
 			"Scripture of Wen": {
-				"1": "1/2390"
+				"1": "1/1725"
 			},
 			"Uncut onyx": {
 				"1-20": "Rare"
@@ -202064,10 +203381,10 @@
 				"2-33": "Common"
 			},
 			"Glacor core": {
-				"1": "1/1000"
+				"1": "3/1000"
 			},
 			"Frozen core of Leng": {
-				"1": "1/4780"
+				"1": "1/2732"
 			}
 		},
 		"Archaemastyx": {
@@ -204603,19 +205920,18 @@
 				"1": "Always"
 			},
 			"Coins": {
-				"1": "53/128",
-				"6": "53/128",
-				"12": "53/128",
-				"35": "53/128",
-				"58": "53/128",
-				"80": "53/128"
+				"1": "4/128",
+				"6": "11/128",
+				"12": "9/128",
+				"35": "21/128",
+				"58": "10/128",
+				"80": "2/128"
 			},
 			"Earth rune": {
 				"10": "3/128"
 			},
 			"Mind rune": {
-				"2": "1/256",
-				"9": "1/256"
+				"2": "1/256"
 			},
 			"Body rune": {
 				"9": "3/128"
@@ -204624,8 +205940,7 @@
 				"7": "1/128"
 			},
 			"Chaos rune": {
-				"4": "4/128",
-				"6": "4/128"
+				"6": "3/128"
 			},
 			"Law rune": {
 				"3": "2/128"
@@ -204637,7 +205952,7 @@
 				"3": "4/128"
 			},
 			"Black sword": {
-				"1": "2/128"
+				"1": "1/128"
 			},
 			"Off-hand black sword": {
 				"1": "1/128"
@@ -204682,65 +205997,64 @@
 				"1": "Uncommon"
 			},
 			"Potato seed": {
-				"4": "6/128"
+				"4": "1/19.3"
 			},
 			"Onion seed": {
-				"4": "5/128"
+				"4": "1/25.7"
 			},
 			"Cabbage seed": {
-				"4": "3/128"
+				"4": "1/38.6"
 			},
 			"Tomato seed": {
-				"3": "2/128"
+				"3": "1/77.2"
 			},
 			"Sweetcorn seed": {
-				"3": "1/128"
+				"3": "1/154.5"
 			},
 			"Strawberry seed": {
-				"2": "1/256",
-				"3": "1/256"
+				"2": "1/309.1"
 			},
 			"Watermelon seed": {
-				"2": "1/512"
+				"2": "1/646.4"
 			},
 			"Grimy guam": {
-				"1": "2/128"
+				"1": "1/170.7"
 			},
 			"Grimy tarromin": {
-				"1": "1/128"
+				"1": "1/303.4"
 			},
 			"Grimy marrentill": {
-				"1": "2/128"
+				"1": "1/227.6"
 			},
 			"Grimy harralander": {
-				"1": "1/128"
+				"1": "1/390.1"
 			},
 			"Grimy ranarr": {
-				"1": "1/256"
+				"1": "1/496.5"
 			},
 			"Grimy irit": {
-				"1": "1/256"
+				"1": "1/682.7"
 			},
 			"Grimy avantoe": {
-				"1": "1/256"
+				"1": "1/910.2"
 			},
 			"Grimy kwuarm": {
-				"1": "1/512"
+				"1": "1/1092.3"
 			},
 			"Grimy cadantine": {
-				"1": "1/512"
+				"1": "1/1365.3"
 			},
 			"Grimy lantadyme": {
-				"1": "1/512"
+				"1": "1/1820.4"
 			},
 			"Grimy dwarf weed": {
-				"1": "1/512"
+				"1": "1/1820.4"
 			},
 			"Bloodstained note": {
 				"1": "Rare"
 			},
 			"Starved ancient effigy": {
-				"1": "1/55555"
+				"1": "1/200000"
 			}
 		},
 		"Black Knight (Heart of Gielinor)": {
@@ -215969,6 +217283,9 @@
 			"Grimy dwarf weed": {
 				"1": "Very rare"
 			},
+			"Spirit weed seed": {
+				"1": "Uncommon"
+			},
 			"Coins": {
 				"1-499": "Common"
 			},
@@ -221748,6 +223065,9 @@
 			},
 			"Grimy dwarf weed": {
 				"1": "1/900"
+			},
+			"Spirit weed seed": {
+				"1": "Uncommon"
 			},
 			"Acadia wood spirit": {
 				"4": "4/128"
@@ -229019,37 +230339,40 @@
 		},
 		"Kerapac, the bound": {
 			"Coins": {
-				"158753-249522": "Common"
+				"100000-150000": "30/100"
 			},
 			"Cannonball": {
-				"459-550": "Common"
+				"250-400": "24/100"
 			},
 			"Hydrix bolt tips": {
-				"30-40": "Common"
+				"30-40": "18/100"
 			},
 			"Large plated orikalkum salvage": {
-				"2-4 (noted)": "Common"
+				"1-2 (noted)": "24/100"
 			},
 			"Dragonkin bones": {
-				"20-30 (noted)": "Common"
+				"10-15 (noted)": "30/100"
 			},
-			"Inert adrenaline crystal": {
-				"8-12 (noted)": "Common"
+			"Super magic ptoion (3)": {
+				"4-8 (noted)": "24/100"
 			},
 			"Royal dragonhide": {
-				"94-115(noted)": "Common"
+				"75-90 (noted)": "30/100"
 			},
 			"Soul rune": {
-				"80-120": "Common"
+				"50-100": "27/100"
 			},
 			"Uncut dragonstone": {
-				"20-27(noted)": "Common"
+				"17-25 (noted)": "30/100"
 			},
 			"Light animica stone spirit": {
-				"41-57": "Common"
+				"30-40": "15/100"
+			},
+			"Primal stone spirit": {
+				"13-18": "15/100"
 			},
 			"Fire battlestaff": {
-				"30-61 (noted)": "Common"
+				"15-30 (noted)": "33/100"
 			},
 			"Kerapac's wrist wraps": {
 				"1": "3/768"
@@ -229072,17 +230395,17 @@
 			"Elder Trove (Jas,T3)": {
 				"1": "Common"
 			},
-			"Primal stone spirit": {
-				"25-35": "Common"
-			},
 			"Manuscript of Jas": {
-				"1": "Common"
+				"1-2": "1/10"
+			},
+			"Chaos die reroll token": {
+				"1": "10/3000"
 			},
 			"Sealed clue scroll (elite)": {
-				"1": "Uncommon"
+				"1": "1/100"
 			},
 			"Starved ancient effigy": {
-				"1": "1/128"
+				"1": "1/256"
 			},
 			"Kerapac's mask piece": {
 				"1": "1/3000"
@@ -229090,37 +230413,40 @@
 		},
 		"Kerapac, the bound (Hard Mode)": {
 			"Coins": {
-				"300000-600000": "Common"
+				"250000-400000": "30/100"
 			},
 			"Cannonball": {
-				"550-1200": "Common"
+				"450-900": "24/100"
 			},
 			"Hydrix bolt tips": {
-				"45-60": "Common"
+				"50-55": "18/100"
 			},
 			"Large plated orikalkum salvage": {
-				"5-8 (noted)": "Common"
+				"5-6 (noted)": "24/100"
 			},
 			"Dragonkin bones": {
-				"80-110 (noted)": "Common"
+				"40-70 (noted)": "30/100"
 			},
-			"Inert adrenaline crystal": {
-				"15-30 (noted)": "Common"
+			"Super magic potion (3)": {
+				"8-12 (noted)": "24/100"
 			},
 			"Royal dragonhide": {
-				"200-300 (noted)": "Common"
+				"75-90 (noted)": "30/100"
 			},
 			"Soul rune": {
-				"150-300": "Common"
+				"100-250": "27/100"
 			},
 			"Uncut dragonstone": {
-				"41-60 (noted)": "Common"
+				"30-52 (noted)": "30/100"
 			},
 			"Light animica stone spirit": {
-				"80-120": "Common"
+				"50-100": "15/100"
+			},
+			"Primal stone spirit": {
+				"20-32": "15/100"
 			},
 			"Fire battlestaff": {
-				"40-90 (noted)": "Common"
+				"27-72 (noted)": "33/100"
 			},
 			"Kerapac's wrist wraps": {
 				"1": "3/577"
@@ -229152,17 +230478,17 @@
 			"Elder Trove (Jas,T3)": {
 				"1": "Common"
 			},
-			"Primal stone spirit": {
-				"30-50": "Common"
-			},
 			"Manuscript of Jas": {
-				"1": "Common"
+				"1-2": "1/7"
 			},
 			"Sealed clue scroll (elite)": {
-				"1": "Uncommon"
+				"1": "1/100"
 			},
 			"Starved ancient effigy": {
-				"1": "1/128"
+				"1": "1/256"
+			},
+			"Chaos die reroll token": {
+				"1": "1/256"
 			},
 			"Kerapac's mask piece": {
 				"1": "1/1500"
@@ -231755,6 +233081,9 @@
 			"Dwarf weed seed": {
 				"1": "1/2048"
 			},
+			"Spirit weed seed": {
+				"1": "Uncommon"
+			},
 			"Torstol seed": {
 				"1": "1/4096"
 			},
@@ -232282,6 +233611,9 @@
 			"Torstol seed": {
 				"1": "Very rare"
 			},
+			"Spirit weed seed": {
+				"1": "Uncommon"
+			},
 			"Grimy guam": {
 				"1": "Common"
 			},
@@ -232788,76 +234120,81 @@
 				"1": "Always"
 			},
 			"Chargebow": {
-				"1": "Uncommon"
+				"1": "1/200"
 			},
 			"Bronze bolts": {
-				"4-11": "Uncommon"
+				"2-12": "27/128"
 			},
 			"Staff of air": {
-				"1": "Rare"
+				"1": "1/200"
 			},
 			"Tiny plated bronze salvage": {
-				"1": "Rare"
+				"1": "2/128"
 			},
 			"Water rune": {
-				"6": "Uncommon"
+				"6": "2/128"
 			},
 			"Earth rune": {
-				"5": "Uncommon"
+				"5": "2/128"
 			},
 			"Mind rune": {
-				"9": "Rare"
+				"9": "2/128"
 			},
 			"Grimy guam": {
-				"1": "Common"
+				"1": "1/39.4"
 			},
 			"Grimy marrentill": {
-				"1": "Uncommon"
+				"1": "1/52.5"
 			},
 			"Grimy tarromin": {
-				"1": "Uncommon"
+				"1": "1/70"
 			},
 			"Grimy harralander": {
-				"1": "Uncommon"
-			},
-			"Grimy irit": {
-				"1": "Uncommon"
-			},
-			"Grimy avantoe": {
-				"1": "Uncommon"
-			},
-			"Grimy kwuarm": {
-				"1": "Rare"
-			},
-			"Grimy cadantine": {
-				"1": "Rare"
+				"1": "1/90"
 			},
 			"Grimy ranarr": {
-				"1": "Rare"
+				"1": "1/114.6"
+			},
+			"Grimy irit": {
+				"1": "1/157.5"
+			},
+			"Grimy avantoe": {
+				"1": "1/210.1"
+			},
+			"Grimy kwuarm": {
+				"1": "1/252.1"
+			},
+			"Grimy cadantine": {
+				"1": "1/315.1"
 			},
 			"Grimy lantadyme": {
-				"1": "Rare"
+				"1": "1/420.1"
 			},
 			"Grimy dwarf weed": {
-				"1": "Rare"
+				"1": "1/420.1"
 			},
 			"Coins": {
-				"5": "Common",
-				"10": "Common",
-				"15": "Common",
-				"25": "Common"
+				"5": "12/128",
+				"15": "4/128",
+				"25": "1/128"
 			},
 			"Rope": {
-				"1": "Common"
+				"1": "40/128"
 			},
 			"Copper stone spirit": {
-				"1": "Common"
+				"1": "2/128"
 			},
 			"Cabbage": {
-				"1": "Uncommon"
+				"1": "1/128"
 			},
 			"Knife": {
-				"1": "Rare"
+				"1": "1/128"
+			},
+			"Fishing bait": {
+				"1": "6/128"
+			},
+			"Nothing": {
+				"1": "13/128"
 			},
 			"Undercooked mystery meat": {
 				"1": "Uncommon"
@@ -236212,74 +237549,65 @@
 			}
 		},
 		"Raksha, the Shadow Colossus": {
-			"Spirit weed seed": {
-				"5-10": "Common"
+			"Arbuck seed": {
+				"2-4": "6/100"
 			},
 			"Primal stone spirit": {
-				"15-22": "Common"
+				"15-22": "6/100"
 			},
-			"Golden dragonfruit seed": {
-				"5-10": "Common"
+			"Ciku seed": {
+				"2-3": "4/100"
 			},
 			"Small blunt rune salvage": {
-				"50 (noted)": "Common"
+				"15-22 (noted)": "10/100"
 			},
 			"Medium spiky orikalkum salvage": {
-				"12-18 (noted)": "Common"
+				"3-7 (noted)": "8/100"
 			},
 			"Huge plated orikalkum salvage": {
-				"10-15 (noted)": "Common"
+				"6-8 (noted)": "6/100"
 			},
 			"Black dragonhide": {
-				"200-300 (noted)": "Common"
+				"200-300 (noted)": "10/100"
 			},
 			"Onyx dust": {
-				"75-131": "Uncommon"
+				"25-33": "4/100"
 			},
 			"Dinosaur bones": {
-				"80-120 (noted)": "Common"
+				"60-100 (noted)": "10/100"
 			},
 			"Crystal key": {
-				"25-45 (noted)": "Common"
+				"10-14 (noted)": "10/100"
 			},
-			"Inert adrenaline crystal": {
-				"12-18 (noted)": "Common"
-			},
-			"Sirenic scale": {
-				"3": "Common"
+			"Catalytic anima stone": {
+				"40-60": "12/100"
 			},
 			"Soul rune": {
-				"125-175": "Common"
+				"125-175": "6/100"
 			},
 			"Dark animica stone spirit": {
-				"60-95": "Common"
+				"50-80": "8/100"
 			},
 			"Light animica stone spirit": {
-				"60-95": "Common"
-			},
-			"Laceration boots": {
-				"1": "1/200"
-			},
-			"Blast diffusion boots": {
-				"1": "1/200"
+				"50-80": "8/100"
 			},
 			"Fleeting boots": {
-				"1": "1/200"
+				"1": "1/130"
 			},
 			"Shadow spike": {
-				"1": "1/500"
+				"1": "1/325"
 			},
 			"Greater Ricochet ability codex": {
-				"1": "1/500"
+				"1": "1/325"
 			},
 			"Greater Chain ability codex": {
-				"1": "1/500"
+				"1": "1/325"
 			},
 			"Divert ability codex": {
-				"1": "1/500"
+				"1": "1/325"
 			},
 			"Broken shackle": {
-				"1": "Very rare"
+				"1": "1/1000"
 			}
 		},
 		"Ram": {
@@ -247338,9 +248666,8 @@
 				"24": "Common",
 				"36": "Common"
 			},
-			"Sirenic scale": {
-				"8": "Common",
-				"14": "Common"
+			"Elder wood spirit": {
+				"15-25": "Common"
 			},
 			"Wine of Saradomin": {
 				"28": "Common",
@@ -247412,9 +248739,8 @@
 				"24": "Common",
 				"36": "Common"
 			},
-			"Sirenic scale": {
-				"8": "Common",
-				"14": "Common"
+			"Elder wood spirit": {
+				"15-25": "Common"
 			},
 			"Wine of Saradomin": {
 				"28": "Common",
@@ -252777,49 +254103,46 @@
 		},
 		"Zamorak, Lord of Chaos": {
 			"Hydrix bolt tips": {
-				"80-120": "1/13"
+				"40-60": "1/13"
 			},
 			"Huge bladed rune salvage": {
-				"10-18": "1/13"
+				"5-8": "1/13"
 			},
 			"Accursed ashes": {
-				"25-30": "1/13"
+				"10-12": "1/13"
 			},
 			"Dark animica stone spirit": {
 				"60-70": "1/13"
 			},
 			"Onyx bolt tips": {
-				"120-180": "1/13"
+				"50-72": "1/13"
 			},
 			"Torstol seed": {
-				"3": "1/13"
+				"1-2": "1/13"
 			},
 			"Raw rocktail": {
 				"30-45": "1/13"
 			},
 			"Soul rune": {
-				"150-210": "1/13"
+				"100-150": "1/13"
 			},
 			"Small plated orikalkum salvage": {
-				"10-18": "1/13"
+				"5-8": "1/13"
 			},
 			"Infernus pyroclasts": {
-				"8-12": "1/13"
+				"2-5": "1/13"
 			},
 			"Dwarf weed seed": {
-				"7-10": "1/13"
-			},
-			"Lantadyme seed": {
-				"7-10": "1/13"
+				"3-4": "1/13"
 			},
 			"Blood rune": {
-				"200-300": "1/13"
+				"150-250": "1/13"
 			},
 			"Chaos relic (rare)": {
 				"1": "2/39"
 			},
-			"Uncut onyx": {
-				"1": "1/39"
+			"Chaos relic (uncommon)": {
+				"10-20": "1/13"
 			},
 			"Codex of lost knowledge": {
 				"1": "Varies"
@@ -253288,10 +254611,10 @@
 				"1": "4/1000"
 			},
 			"Invoke Lord of Bones incantation codex": {
-				"1": "1/300"
+				"1": "1/249"
 			},
 			"Vorkath's spike": {
-				"4-6": "1/50"
+				"4-6": "1/45"
 			},
 			"Vorkath Necromancy weapon override token": {
 				"1": "1/5000"
@@ -253365,13 +254688,13 @@
 				"1": "8/1000"
 			},
 			"Invoke Lord of Bones incantation codex": {
-				"1": "1/250"
+				"1": "1/150"
 			},
 			"Vorkath's spike": {
 				"6-9": "1/15"
 			},
 			"Vorkath's scale": {
-				"1": "1/250"
+				"1": "1/150"
 			},
 			"Vorkath Necromancy weapon override token": {
 				"1": "1/2500"
@@ -255374,14 +256697,8 @@
 			"Berserker helm": [{
 				"~|The Fremennik Trials|~ Complete the quest": "Quest"
 			}],
-			"Chicken egg (unchecked)^": [{
-				"~|Player-owned farm tutorial|~ Complete the tutorial": "Quest"
-			}],
 			"Cleaver": [{
 				"~|Recipe for Disaster: Defeating the Culinaromancer|~ Complete the subquest": "Quest"
-			}],
-			"Common brown rabbit (unchecked)^": [{
-				"~|Player-owned farm tutorial|~ Complete the tutorial": "Quest"
 			}],
 			"Court summons^": [{
 				"~|King's Ransom|~ Complete the quest": "Quest"
@@ -255571,9 +256888,6 @@
 			}],
 			"Prayer potion (2)^Barrows": [{
 				"Tier 2 luck or higher*": "Nonskill"
-			}],
-			"Rellekkan cream rabbit (unchecked)^": [{
-				"~|Player-owned farm tutorial|~ Complete the tutorial": "Quest"
 			}],
 			"Restore potion (2)^Barrows": [{
 				"Tier 2 luck or higher*": "Nonskill"
@@ -255992,16 +257306,16 @@
 				"Members Only": true
 			}],
 			"Raptor key part 1^": [{
-				"Raptor monsters task": "Nonskill"
+				"Wyvern task": "Nonskill"
 			}],
 			"Raptor key part 2^": [{
-				"Raptor monsters task": "Nonskill"
+				"Ripper demon task": "Nonskill"
 			}],
 			"Raptor key part 3^": [{
-				"Raptor monsters task": "Nonskill"
+				"Camel warrior task": "Nonskill"
 			}],
 			"Raptor key part 4^": [{
-				"Raptor monsters task": "Nonskill"
+				"Acheron mammoth task": "Nonskill"
 			}],
 			"Ascension grips^": [{
 				"Order of Ascension task": "Nonskill"
@@ -256041,6 +257355,190 @@
 			}],
 			"Ragefire gland^": [{
 				"Rune dragon task": "Nonskill"
+			}],
+			"Bone fragments^": [{
+				"Receive a slayer assignment from ~|the Raptor|~": "Slayer"
+			}],
+			"Corrupted gem^": [{
+				"Corrupted creature task": "Nonskill"
+			}],
+			"Chicken egg (unchecked)^": [{
+				"~|Player-owned farm tutorial|~ Complete the tutorial": "Quest"
+			}],
+			"Common brown rabbit (unchecked)^": [{
+				"~|Player-owned farm tutorial|~ Complete the tutorial": "Quest"
+			}],
+			"Rellekkan cream rabbit (unchecked)^": [{
+				"~|Player-owned farm tutorial|~ Complete the tutorial": "Quest"
+			}],
+			"Piscatorian cottontail rabbit (unchecked)^": [{
+				"~|Player-owned farm tutorial|~ Complete the tutorial": "Quest"
+			}],
+			"Grey chinchompa (unchecked)^": [{
+				"~|Player-owned farm tutorial|~ Complete the tutorial": "Quest"
+			}],
+			"Carnivorous chinchompa (unchecked)^": [{
+				"~|Player-owned farm tutorial|~ Complete the tutorial": "Quest"
+			}],
+			"Cobalt chinchompa (unchecked)^": [{
+				"~|Player-owned farm tutorial|~ Complete the tutorial": "Quest"
+			}],
+			"Viridian chinchompa (unchecked)^": [{
+				"~|Player-owned farm tutorial|~ Complete the tutorial": "Quest"
+			}],
+			"Azure chinchompa (unchecked)^": [{
+				"~|Player-owned farm tutorial|~ Complete the tutorial": "Quest"
+			}],
+			"Crimson chinchompa (unchecked)^": [{
+				"~|Player-owned farm tutorial|~ Complete the tutorial": "Quest"
+			}],
+			"Crystal chinchompa (unchecked)^": [{
+				"~|Player-owned farm tutorial|~ Complete the tutorial": "Quest"
+			}],
+			"Spider egg (unchecked)^": [{
+				"~|Player-owned farm tutorial|~ Complete the tutorial": "Quest"
+			}],
+			"Araxyte spider (unchecked)^": [{
+				"~|Player-owned farm tutorial|~ Complete the tutorial": "Quest"
+			}],
+			"Fremennik yak (unchecked)^": [{
+				"~|Player-owned farm tutorial|~ Complete the tutorial": "Quest"
+			}],
+			"Spirit yak (unchecked)^": [{
+				"~|Player-owned farm tutorial|~ Complete the tutorial": "Quest"
+			}],
+			"Gloomshroom zygomite (unchecked)^": [{
+				"~|Player-owned farm tutorial|~ Complete the tutorial": "Quest"
+			}],
+			"Green dragon egg (unchecked)^": [{
+				"~|Player-owned farm tutorial|~ Complete the tutorial": "Quest"
+			}],
+			"Blue dragon egg (unchecked)^": [{
+				"~|Player-owned farm tutorial|~ Complete the tutorial": "Quest"
+			}],
+			"Red dragon egg (unchecked)^": [{
+				"~|Player-owned farm tutorial|~ Complete the tutorial": "Quest"
+			}],
+			"Black dragon egg (unchecked)^": [{
+				"~|Player-owned farm tutorial|~ Complete the tutorial": "Quest"
+			}],
+			"Amphibious jadinko (unchecked)^": [{
+				"Unlock the Anachronia Base Camp": "Nonskill"
+			}, {
+				"~|Player-owned farm tutorial|~ Complete the tutorial": "Quest"
+			}],
+			"Aquatic jadinko (unchecked)^": [{
+				"Unlock the Anachronia Base Camp": "Nonskill"
+			}, {
+				"~|Player-owned farm tutorial|~ Complete the tutorial": "Quest"
+			}],
+			"Camouflaged jadinko (unchecked)^": [{
+				"Unlock the Anachronia Base Camp": "Nonskill"
+			}, {
+				"~|Player-owned farm tutorial|~ Complete the tutorial": "Quest"
+			}],
+			"Cannibal jadinko (unchecked)^": [{
+				"Unlock the Anachronia Base Camp": "Nonskill"
+			}, {
+				"~|Player-owned farm tutorial|~ Complete the tutorial": "Quest"
+			}],
+			"Carrion jadinko (unchecked)^": [{
+				"Unlock the Anachronia Base Camp": "Nonskill"
+			}, {
+				"~|Player-owned farm tutorial|~ Complete the tutorial": "Quest"
+			}],
+			"Common jadinko (unchecked)^": [{
+				"Unlock the Anachronia Base Camp": "Nonskill"
+			}, {
+				"~|Player-owned farm tutorial|~ Complete the tutorial": "Quest"
+			}],
+			"Diseased jadinko (unchecked)^": [{
+				"Unlock the Anachronia Base Camp": "Nonskill"
+			}, {
+				"~|Player-owned farm tutorial|~ Complete the tutorial": "Quest"
+			}],
+			"Draconic jadinko (unchecked)^": [{
+				"Unlock the Anachronia Base Camp": "Nonskill"
+			}, {
+				"~|Player-owned farm tutorial|~ Complete the tutorial": "Quest"
+			}],
+			"Igneous jadinko (unchecked)^": [{
+				"Unlock the Anachronia Base Camp": "Nonskill"
+			}, {
+				"~|Player-owned farm tutorial|~ Complete the tutorial": "Quest"
+			}],
+			"Shadow jadinko (unchecked)^": [{
+				"Unlock the Anachronia Base Camp": "Nonskill"
+			}, {
+				"~|Player-owned farm tutorial|~ Complete the tutorial": "Quest"
+			}],
+			"Feral dinosaur (unchecked)^": [{
+				"Unlock the Anachronia Base Camp": "Nonskill"
+			}, {
+				"~|Player-owned farm tutorial|~ Complete the tutorial": "Quest"
+			}],
+			"Venomous dinosaur (unchecked)^": [{
+				"Unlock the Anachronia Base Camp": "Nonskill"
+			}, {
+				"~|Player-owned farm tutorial|~ Complete the tutorial": "Quest"
+			}],
+			"Ripper dinosaur (unchecked)^": [{
+				"Unlock the Anachronia Base Camp": "Nonskill"
+			}, {
+				"~|Player-owned farm tutorial|~ Complete the tutorial": "Quest"
+			}],
+			"Brutish dinosaur (unchecked)^": [{
+				"Unlock the Anachronia Base Camp": "Nonskill"
+			}, {
+				"~|Player-owned farm tutorial|~ Complete the tutorial": "Quest"
+			}],
+			"Arcane apoterrasaur (unchecked)^": [{
+				"Unlock the Anachronia Base Camp": "Nonskill"
+			}, {
+				"~|Player-owned farm tutorial|~ Complete the tutorial": "Quest"
+			}],
+			"Spicati apoterrasaur (unchecked)^": [{
+				"Unlock the Anachronia Base Camp": "Nonskill"
+			}, {
+				"~|Player-owned farm tutorial|~ Complete the tutorial": "Quest"
+			}],
+			"Oculi apoterrasaur (unchecked)^": [{
+				"Unlock the Anachronia Base Camp": "Nonskill"
+			}, {
+				"~|Player-owned farm tutorial|~ Complete the tutorial": "Quest"
+			}],
+			"Scimitops (unchecked)^": [{
+				"Unlock the Anachronia Base Camp": "Nonskill"
+			}, {
+				"~|Player-owned farm tutorial|~ Complete the tutorial": "Quest"
+			}],
+			"Asciatops (unchecked)^": [{
+				"Unlock the Anachronia Base Camp": "Nonskill"
+			}, {
+				"~|Player-owned farm tutorial|~ Complete the tutorial": "Quest"
+			}],
+			"Malletops (unchecked)^": [{
+				"Unlock the Anachronia Base Camp": "Nonskill"
+			}, {
+				"~|Player-owned farm tutorial|~ Complete the tutorial": "Quest"
+			}],
+			"Bagrada rex (unchecked)^": [{
+				"Unlock the Anachronia Base Camp": "Nonskill"
+			}, {
+				"~|Player-owned farm tutorial|~ Complete the tutorial": "Quest"
+			}],
+			"Corbicula rex (unchecked)^": [{
+				"Unlock the Anachronia Base Camp": "Nonskill"
+			}, {
+				"~|Player-owned farm tutorial|~ Complete the tutorial": "Quest"
+			}],
+			"Pavosaurus rex (unchecked)^": [{
+				"Unlock the Anachronia Base Camp": "Nonskill"
+			}, {
+				"~|Player-owned farm tutorial|~ Complete the tutorial": "Quest"
+			}],
+			"Rat's tail": [{
+				"~|Witch's Potion|~ 1": "Quest"
 			}]
 		},
 		"Monsters": {
@@ -256758,6 +258256,11 @@
 					"Archaeology rewards": "Nonskill"
 				}]
 			},
+			"Austin's Place": {
+				"City of Um": [{
+					"Unlock ~|Austin's Place|~": "Necromancy"
+				}]
+			},
 			"Castle Wars Ticket Exchange": {
 				"9776": [{
 					"Castle Wars rewards": "Nonskill"
@@ -256970,6 +258473,18 @@
 			"Oziach's Armour": {
 				"12086": [{
 					"~|Dragon Slayer|~ Complete the quest": "Quest"
+				}]
+			},
+			"Farmers' Market": {
+				"10548": [{
+					"~|Player-owned farm tutorial|~ Complete the tutorial": "Quest"
+				}]
+			},
+			"Farmers' Market (Anachronia)": {
+				"14916": [{
+					"Unlock the Anachronia Base Camp": "Nonskill"
+				}, {
+					"~|Player-owned farm tutorial|~ Complete the tutorial": "Quest"
 				}]
 			}
 		},
@@ -257363,6 +258878,14 @@
 			"Thin snail": true,
 			"Raw mackerel": true,
 			"Spade": true
+		},
+		"Austin's Place": {
+			"Ritualist's mask": true,
+			"Ritualist's robe top": true,
+			"Ritualist's robe bottoms": true,
+			"Ritualist's gloves": true,
+			"Ritualist's boots": true,
+			"Ritualist's mask add-on": true
 		},
 		"Authentic Throwing Weapons": {
 			"Bronze javelin": true,
@@ -261292,7 +262815,7 @@
 			"Learn how to deliver killing blows quicker": true,
 			"Learn how to craft Slayer helmets": true,
 			"Learn how to fuse rings to full Slayer helmets": true,
-			"Learn new technique to attack ice strykeworms": true,
+			"Learn new technique to attack ice strykewyrms": true,
 			"Learn how to attach the bonecrusher to your toolbelt": true,
 			"Learn how to attach herbicide to your toolbelt": true,
 			"Learn how to attach seedicide to your toolbelt": true,
@@ -270843,10 +272366,10 @@
 				"Avantoe seed": {
 					"2": "Common"
 				},
-				"Snapdragon seed": {
-					"1": "Common"
-				},
 				"Lantadyme seed": {
+					"1": "Uncommon"
+				},
+				"Spirit weed seed": {
 					"1": "Uncommon"
 				},
 				"Grimy avantoe": {
@@ -270932,11 +272455,11 @@
 				"Avantoe seed": {
 					"2": "2/25"
 				},
-				"Snapdragon seed": {
-					"1": "1/25"
-				},
 				"Lantadyme seed": {
 					"1": "1/50"
+				},
+				"Spirit weed seed": {
+					"1": "Uncommon"
 				},
 				"Grimy avantoe": {
 					"2 (noted)": "1/125"
@@ -271024,11 +272547,11 @@
 				"Avantoe seed": {
 					"2": "1/10"
 				},
-				"Snapdragon seed": {
-					"1": "1/20"
-				},
 				"Lantadyme seed": {
 					"1": "1/40"
+				},
+				"Spirit weed seed": {
+					"1": "Uncommon"
 				},
 				"Grimy avantoe": {
 					"2 (noted)": "1/10"
@@ -271355,6 +272878,11 @@
 				},
 				"Starved ancient effigy": {
 					"1": "Very rare"
+				}
+			},
+			"Basilisk (task)": {
+				"Basilisk boots": {
+					"1": "1/360"
 				}
 			},
 			"Bladed muspah": {
@@ -271751,6 +273279,9 @@
 				"Arbuck seed": {
 					"1": "Common"
 				},
+				"Spirit weed seed": {
+					"1": "Uncommon"
+				},
 				"Large plated adamant salvage": {
 					"1-2 (noted)": "Uncommon"
 				},
@@ -271765,6 +273296,9 @@
 				},
 				"Tombshroom spore": {
 					"2": "common"
+				},
+				"Inert adrenaline crystal": {
+					"1": "Uncommon"
 				},
 				"Blowpipe fins": {
 					"1": "1/20000"
@@ -271813,6 +273347,26 @@
 				},
 				"Brutish dinosaur (unchecked)": {
 					"1": "1/750"
+				}
+			},
+			"Brutish dinosaur (task)": {
+				"Blowpipe fins": {
+					"1": "1/6000"
+				},
+				"Blowpipe feather": {
+					"1": "1/6000"
+				},
+				"Bone blowpipe": {
+					"1": "1/6000"
+				},
+				"Blowpipe chitin": {
+					"1": "1/6000"
+				},
+				"Laceration boots": {
+					"1": "1/2000"
+				},
+				"Sirenic scale": {
+					"1": "Uncommon"
 				}
 			},
 			"Bulbous crawler": {
@@ -271949,6 +273503,17 @@
 					"1": "2/896"
 				}
 			},
+			"Camel Warrior (task)": {
+				"Bone fragments": {
+					"1": "Unknown"
+				},
+				"Raptor key part 3": {
+					"1": "1/256"
+				},
+				"Camel staff": {
+					"1": "1/2000"
+				}
+			},
 			"Capsarius": {
 				"Ascension fragment": {
 					"8-12": "Always"
@@ -272001,23 +273566,8 @@
 				"Ascension grips": {
 					"1": "1/2056"
 				},
-				"Ascension Keystone Primus": {
-					"1": "1/384"
-				},
-				"Ascension Keystone Secundus": {
-					"1": "1/384"
-				},
-				"Ascension Keystone Tertius": {
-					"1": "1/384"
-				},
-				"Ascension Keystone Quartus": {
-					"1": "1/384"
-				},
-				"Ascension Keystone Quintus": {
-					"1": "1/384"
-				},
-				"Ascension Keystone Sextus": {
-					"1": "1/384"
+				"Ascension Keystone": {
+					"1": "1/64"
 				},
 				"Starved ancient effigy": {
 					"1": "Very Rare"
@@ -272507,6 +274057,9 @@
 				"Watermelon seed": {
 					"2": "1/512"
 				},
+				"Spirit weed seed": {
+					"1": "Uncommon"
+				},
 				"Coins": {
 					"1": "10/128",
 					"5": "10/128",
@@ -272605,6 +274158,20 @@
 					"1": "Rare"
 				}
 			},
+			"Corrupted dust devil (task)": {
+				"Key to the Crossing": {
+					"1": "1/75"
+				},
+				"Vital spark": {
+					"2": "1/75"
+				},
+				"Corrupted gem": {
+					"1": "1/5000"
+				},
+				"Khopesh of the Kharidian": {
+					"1": "1/8000"
+				}
+			},
 			"Corrupted kalphite guardian": {
 				"Goat horn dust": {
 					"4 (noted)": "Common"
@@ -272663,6 +274230,20 @@
 				},
 				"Khopesh of the Kharidian": {
 					"1": "1/15000"
+				}
+			},
+			"Corrupted kalphite guardian (task)": {
+				"Key to the Crossing": {
+					"1": "1/75"
+				},
+				"Vital spark": {
+					"2": "1/75"
+				},
+				"Corrupted gem": {
+					"1": "1/5000"
+				},
+				"Khopesh of the Kharidian": {
+					"1": "1/8000"
 				}
 			},
 			"Corrupted kalphite marauder": {
@@ -272725,6 +274306,20 @@
 					"1": "Very Rare"
 				}
 			},
+			"Corrupted kalphite marauder (task)": {
+				"Key to the Crossing": {
+					"1": "1/75"
+				},
+				"Vital spark": {
+					"2": "1/75"
+				},
+				"Corrupted gem": {
+					"1": "1/5000"
+				},
+				"Khopesh of the Kharidian": {
+					"1": "1/8000"
+				}
+			},
 			"Corrupted lizard": {
 				"Corrupted magic logs": {
 					"8 (noted)": "Common"
@@ -272779,6 +274374,20 @@
 				},
 				"Starved ancient effigy": {
 					"1": "Very rare"
+				}
+			},
+			"Corrupted lizard (task)": {
+				"Key to the Crossing": {
+					"1": "1/75"
+				},
+				"Vital spark": {
+					"2": "1/75"
+				},
+				"Corrupted gem": {
+					"1": "1/5000"
+				},
+				"Khopesh of the Kharidian": {
+					"1": "1/8000"
 				}
 			},
 			"Corrupted scarab": {
@@ -272838,6 +274447,20 @@
 				},
 				"The Magister's Journal 5": {
 					"1": "Rare"
+				}
+			},
+			"Corrupted scarab (task)": {
+				"Key to the Crossing": {
+					"1": "1/75"
+				},
+				"Vital spark": {
+					"2": "1/75"
+				},
+				"Corrupted gem": {
+					"1": "1/5000"
+				},
+				"Khopesh of the Kharidian": {
+					"1": "1/8000"
 				}
 			},
 			"Corrupted scorpion": {
@@ -272900,6 +274523,20 @@
 					"1": "Very Rare"
 				}
 			},
+			"Corrupted scorpion (task)": {
+				"Key to the Crossing": {
+					"1": "1/75"
+				},
+				"Vital spark": {
+					"2": "1/75"
+				},
+				"Corrupted gem": {
+					"1": "1/5000"
+				},
+				"Khopesh of the Kharidian": {
+					"1": "1/8000"
+				}
+			},
 			"Corrupted worker": {
 				"Coins": {
 					"2500": "66/128",
@@ -272954,6 +274591,20 @@
 				},
 				"The Magister's Journal 5": {
 					"1": "Rare"
+				}
+			},
+			"Corrupted worker (task)": {
+				"Key to the Crossing": {
+					"1": "1/75"
+				},
+				"Vital spark": {
+					"2": "1/75"
+				},
+				"Corrupted gem": {
+					"1": "1/5000"
+				},
+				"Khopesh of the Kharidian": {
+					"1": "1/8000"
 				}
 			},
 			"Crawling hand": {
@@ -273105,6 +274756,20 @@
 				},
 				"The Magister's Journal 5": {
 					"1": "Rare"
+				}
+			},
+			"Crocodile akh (task)": {
+				"Key to the Crossing": {
+					"1": "1/75"
+				},
+				"Vital spark": {
+					"2": "1/75"
+				},
+				"Corrupted gem": {
+					"1": "1/5000"
+				},
+				"Khopesh of the Kharidian": {
+					"1": "1/8000"
 				}
 			},
 			"Crystal Shapeshifter": {
@@ -273433,7 +275098,7 @@
 					"1": "Uncommon"
 				},
 				"Focus sight": {
-					"1": "Rare"
+					"1": "512"
 				},
 				"Cadantine seed": {
 					"1": "Common"
@@ -273470,6 +275135,9 @@
 				},
 				"Dwarf weed seed": {
 					"1": "Rare"
+				},
+				"Spirit weed seed": {
+					"1": "Uncommon"
 				},
 				"Maple seed": {
 					"1": "Very rare"
@@ -273570,6 +275238,11 @@
 					"1": "3/1280"
 				}
 			},
+			"Desert strykewyrm (task)": {
+				"Focus sight": {
+					"1": "256"
+				}
+			},
 			"Devil's snare": {
 				"Coins": {
 					"10000-30000": "Common"
@@ -273659,6 +275332,14 @@
 					"1": "1/17500"
 				}
 			},
+			"Devil's snare (task)": {
+				"Blast diffusion boots": {
+					"1": "1/2500"
+				},
+				"Sirenic scale": {
+					"1": "Uncommon"
+				}
+			},
 			"Dragonstone dragon": {
 				"Hardened dragon bones": {
 					"1": "Always"
@@ -273695,6 +275376,9 @@
 				"Rune bolts": {
 					"4": "10/128"
 				},
+				"Inert adrenaline crystal": {
+					"1": "Uncommon"
+				},
 				"Gemstone gauntlets": {
 					"1": "1/5000"
 				},
@@ -273709,6 +275393,17 @@
 				},
 				"Draconic visage": {
 					"1": "1/10000"
+				}
+			},
+			"Dragonstone dragon (task)": {
+				"Gemstone gauntlets": {
+					"1": "1/2000"
+				},
+				"Gemstone boots": {
+					"1": "1/2000"
+				},
+				"Spirit weed seed": {
+					"1": "Uncommon"
 				}
 			},
 			"Dust devil": {
@@ -274110,6 +275805,20 @@
 					"1": "1/256"
 				}
 			},
+			"Feline akh (task)": {
+				"Key to the Crossing": {
+					"1": "1/75"
+				},
+				"Vital spark": {
+					"2": "1/75"
+				},
+				"Corrupted gem": {
+					"1": "1/5000"
+				},
+				"Khopesh of the Kharidian": {
+					"1": "1/8000"
+				}
+			},
 			"Feral Dinosaur": {
 				"Dinosaur bones": {
 					"1": "Always",
@@ -274192,6 +275901,26 @@
 				},
 				"Feral dinosaur (unchecked)": {
 					"1": "1/750"
+				}
+			},
+			"Feral Dinosaur (task)": {
+				"Blowpipe fins": {
+					"1": "1/6000"
+				},
+				"Blowpipe feather": {
+					"1": "1/6000"
+				},
+				"Bone blowpipe": {
+					"1": "1/6000"
+				},
+				"Blowpipe chitin": {
+					"1": "1/6000"
+				},
+				"Laceration boots": {
+					"1": "1/3000"
+				},
+				"Sirenic scale": {
+					"1": "Uncommon"
 				}
 			},
 			"Fever spider": {
@@ -274720,23 +276449,8 @@
 				"Ascension grips": {
 					"1": "1/2056"
 				},
-				"Ascension Keystone Primus": {
-					"1": "1/384"
-				},
-				"Ascension Keystone Secundus": {
-					"1": "1/384"
-				},
-				"Ascension Keystone Tertius": {
-					"1": "1/384"
-				},
-				"Ascension Keystone Quartus": {
-					"1": "1/384"
-				},
-				"Ascension Keystone Quintus": {
-					"1": "1/384"
-				},
-				"Ascension Keystone Sextus": {
-					"1": "1/384"
+				"Ascension Keystone": {
+					"1": "1/64"
 				},
 				"Starved ancient effigy": {
 					"1": "Very rare"
@@ -274799,6 +276513,20 @@
 				},
 				"Starved ancient effigy": {
 					"1": "Very rare"
+				}
+			},
+			"Gorilla akh (task)": {
+				"Key to the Crossing": {
+					"1": "1/75"
+				},
+				"Vital spark": {
+					"2": "1/75"
+				},
+				"Corrupted gem": {
+					"1": "1/5000"
+				},
+				"Khopesh of the Kharidian": {
+					"1": "1/8000"
 				}
 			},
 			"Grifolapine": {
@@ -275144,6 +276872,9 @@
 				"Diamond ring": {
 					"1 (noted)": "Common"
 				},
+				"Inert adrenaline crystal": {
+					"1": "Uncommon"
+				},
 				"Gemstone hauberk": {
 					"1": "1/2500"
 				},
@@ -275155,6 +276886,14 @@
 				},
 				"Draconic visage": {
 					"1": "1/10000"
+				}
+			},
+			"Hydrix dragon (task)": {
+				"Gemstone hauberk": {
+					"1": "1/1000"
+				},
+				"Spirit weed seed": {
+					"1": "Uncommon"
 				}
 			},
 			"Ice nihil": {
@@ -275211,7 +276950,7 @@
 					"1": "Rare"
 				},
 				"Staff of light": {
-					"1": "1/512"
+					"1": "1/2000"
 				},
 				"Coins": {
 					"200": "Common",
@@ -275307,6 +277046,9 @@
 				"Tarromin seed": {
 					"1": "Rare"
 				},
+				"Spirit weed seed": {
+					"1": "Uncommon"
+				},
 				"Watermelon seed": {
 					"1": "Uncommon"
 				},
@@ -275392,6 +277134,11 @@
 					"1": "Very rare"
 				}
 			},
+			"Ice strykewyrm (task)": {
+				"Staff of light": {
+					"1": "1/512"
+				}
+			},
 			"Imperial mage akh": {
 				"Coins": {
 					"3000-5000": "Common"
@@ -275454,6 +277201,20 @@
 				},
 				"Sealed clue scroll (elite)": {
 					"1": "1/256"
+				}
+			},
+			"Imperial mage akh (task)": {
+				"Key to the Crossing": {
+					"1": "1/75"
+				},
+				"Vital spark": {
+					"2": "1/75"
+				},
+				"Corrupted gem": {
+					"1": "1/5000"
+				},
+				"Khopesh of the Kharidian": {
+					"1": "1/8000"
 				}
 			},
 			"Imperial ranger akh": {
@@ -275521,6 +277282,20 @@
 					"1": "1/256"
 				}
 			},
+			"Imperial ranger akh (task)": {
+				"Key to the Crossing": {
+					"1": "1/75"
+				},
+				"Vital spark": {
+					"2": "1/75"
+				},
+				"Corrupted gem": {
+					"1": "1/5000"
+				},
+				"Khopesh of the Kharidian": {
+					"1": "1/8000"
+				}
+			},
 			"Imperial warrior akh": {
 				"Coins": {
 					"3000": "Common",
@@ -275584,6 +277359,20 @@
 				},
 				"Sealed clue scroll (elite)": {
 					"1": "1/256"
+				}
+			},
+			"Imperial warrior akh (task)": {
+				"Key to the Crossing": {
+					"1": "1/75"
+				},
+				"Vital spark": {
+					"2": "1/75"
+				},
+				"Corrupted gem": {
+					"1": "1/5000"
+				},
+				"Khopesh of the Kharidian": {
+					"1": "1/8000"
 				}
 			},
 			"Infernal Mage": {
@@ -275848,6 +277637,9 @@
 				"Grimy kwuarm": {
 					"1-4 (noted)": "Rare"
 				},
+				"Spirit weed seed": {
+					"1": "Uncommon"
+				},
 				"Toadflax seed": {
 					"1": "Common"
 				},
@@ -275959,6 +277751,11 @@
 				},
 				"Court summons": {
 					"1": "Very rare"
+				}
+			},
+			"Jungle strykewyrm (task)": {
+				"Hexcrest": {
+					"1": "1/256"
 				}
 			},
 			"Killerwatt": {
@@ -276100,6 +277897,9 @@
 				"Torstol seed": {
 					"1": "1/1024"
 				},
+				"Spirit weed seed": {
+					"1": "Uncommon"
+				},
 				"Unfinished broad bolts": {
 					"50": "8/128"
 				},
@@ -276138,6 +277938,11 @@
 				},
 				"Starved ancient effigy": {
 					"1": "Very rare"
+				}
+			},
+			"Kurask (task)": {
+				"Kurask boots": {
+					"1": "1/360"
 				}
 			},
 			"Lampenflora": {
@@ -276230,6 +278035,14 @@
 				},
 				"Skeka's hypnowand base": {
 					"1": "1/25000"
+				}
+			},
+			"Lampenflora (task)": {
+				"Blast diffusion boots": {
+					"1": "1/4000"
+				},
+				"Sirenic scale": {
+					"1": "Uncommon"
 				}
 			},
 			"Lava strykewyrm": {
@@ -276334,6 +278147,17 @@
 					"1": "Very rare"
 				}
 			},
+			"Lava strykewyrm (task)": {
+				"Wyrm spike": {
+					"1": "1/6128"
+				},
+				"Wyrm heart": {
+					"1": "1/6128"
+				},
+				"Wyrm scalp": {
+					"1": "1/6128"
+				}
+			},
 			"Legio Primus": {
 				"Ascension shard": {
 					"16-26": "Always"
@@ -276396,23 +278220,8 @@
 				"Inert adrenaline crystal": {
 					"1 (noted)": "Unknown"
 				},
-				"Ascension Keystone Primus": {
-					"1": "1/384"
-				},
-				"Ascension Keystone Secundus": {
-					"1": "1/384"
-				},
-				"Ascension Keystone Tertius": {
-					"1": "1/384"
-				},
-				"Ascension Keystone Quartus": {
-					"1": "1/384"
-				},
-				"Ascension Keystone Quintus": {
-					"1": "1/384"
-				},
-				"Ascension Keystone Sextus": {
-					"1": "1/384"
+				"Ascension Keystone": {
+					"1": "1/64"
 				},
 				"Ascension grips": {
 					"1": "1/2056"
@@ -276492,23 +278301,8 @@
 				"Inert adrenaline crystal": {
 					"1 (noted)": "Unknown"
 				},
-				"Ascension Keystone Primus": {
-					"1": "1/384"
-				},
-				"Ascension Keystone Secundus": {
-					"1": "1/384"
-				},
-				"Ascension Keystone Tertius": {
-					"1": "1/384"
-				},
-				"Ascension Keystone Quartus": {
-					"1": "1/384"
-				},
-				"Ascension Keystone Quintus": {
-					"1": "1/384"
-				},
-				"Ascension Keystone Sextus": {
-					"1": "1/384"
+				"Ascension Keystone": {
+					"1": "1/64"
 				},
 				"Ascension grips": {
 					"1": "1/2056"
@@ -276588,23 +278382,8 @@
 				"Inert adrenaline crystal": {
 					"1 (noted)": "Unknown"
 				},
-				"Ascension Keystone Primus": {
-					"1": "1/384"
-				},
-				"Ascension Keystone Secundus": {
-					"1": "1/384"
-				},
-				"Ascension Keystone Tertius": {
-					"1": "1/384"
-				},
-				"Ascension Keystone Quartus": {
-					"1": "1/384"
-				},
-				"Ascension Keystone Quintus": {
-					"1": "1/384"
-				},
-				"Ascension Keystone Sextus": {
-					"1": "1/384"
+				"Ascension Keystone": {
+					"1": "1/64"
 				},
 				"Ascension grips": {
 					"1": "1/2056"
@@ -276684,23 +278463,8 @@
 				"Inert adrenaline crystal": {
 					"1 (noted)": "Unknown"
 				},
-				"Ascension Keystone Primus": {
-					"1": "1/384"
-				},
-				"Ascension Keystone Secundus": {
-					"1": "1/384"
-				},
-				"Ascension Keystone Tertius": {
-					"1": "1/384"
-				},
-				"Ascension Keystone Quartus": {
-					"1": "1/384"
-				},
-				"Ascension Keystone Quintus": {
-					"1": "1/384"
-				},
-				"Ascension Keystone Sextus": {
-					"1": "1/384"
+				"Ascension Keystone": {
+					"1": "1/64"
 				},
 				"Ascension grips": {
 					"1": "1/2056"
@@ -276780,23 +278544,8 @@
 				"Inert adrenaline crystal": {
 					"1 (noted)": "Unknown"
 				},
-				"Ascension Keystone Primus": {
-					"1": "1/384"
-				},
-				"Ascension Keystone Secundus": {
-					"1": "1/384"
-				},
-				"Ascension Keystone Tertius": {
-					"1": "1/384"
-				},
-				"Ascension Keystone Quartus": {
-					"1": "1/384"
-				},
-				"Ascension Keystone Quintus": {
-					"1": "1/384"
-				},
-				"Ascension Keystone Sextus": {
-					"1": "1/384"
+				"Ascension Keystone": {
+					"1": "1/64"
 				},
 				"Ascension grips": {
 					"1": "1/2056"
@@ -276873,26 +278622,8 @@
 				"Onyx bolt tips": {
 					"1-11": "Uncommon"
 				},
-				"Inert adrenaline crystal": {
-					"1 (noted)": "Unknown"
-				},
-				"Ascension Keystone Primus": {
-					"1": "1/384"
-				},
-				"Ascension Keystone Secundus": {
-					"1": "1/384"
-				},
-				"Ascension Keystone Tertius": {
-					"1": "1/384"
-				},
-				"Ascension Keystone Quartus": {
-					"1": "1/384"
-				},
-				"Ascension Keystone Quintus": {
-					"1": "1/384"
-				},
-				"Ascension Keystone Sextus": {
-					"1": "1/384"
+				"Ascension Keystone": {
+					"1": "1/64"
 				},
 				"Ascension grips": {
 					"1": "1/2056"
@@ -276953,6 +278684,9 @@
 				"Starbloom flower seed": {
 					"1-3": "6/106"
 				},
+				"Inert adrenaline crystal": {
+					"1": "Uncommon"
+				},
 				"Blast diffusion boots": {
 					"1": "1/8000"
 				},
@@ -277000,6 +278734,14 @@
 				},
 				"Skeka's hypnowand base": {
 					"1": "1/14000"
+				}
+			},
+			"Liverworts (task)": {
+				"Blast diffusion boots": {
+					"1": "1/2000"
+				},
+				"Sirenic scale": {
+					"1": "Uncommon"
 				}
 			},
 			"Lizard": {
@@ -277205,6 +278947,14 @@
 				},
 				"Skeka's hypnowand base": {
 					"1": "1/14000"
+				}
+			},
+			"Luminous snaggler (task)": {
+				"Blast diffusion boots": {
+					"1": "1/2000"
+				},
+				"Sirenic scale": {
+					"1": "Uncommon"
 				}
 			},
 			"Mighty banshee": {
@@ -278958,6 +280708,9 @@
 				"Dragonstone ring": {
 					"1": "Rare"
 				},
+				"Inert adrenaline crystal": {
+					"1": "Uncommon"
+				},
 				"Gemstone helm": {
 					"1": "1/5000"
 				},
@@ -278969,6 +280722,17 @@
 				},
 				"Draconic visage": {
 					"1": "1/10000"
+				}
+			},
+			"Onyx dragon (task)": {
+				"Gemstone helm": {
+					"1": "1/2000"
+				},
+				"Gemstone greaves": {
+					"1": "1/2000"
+				},
+				"Spirit weed seed": {
+					"1": "Uncommon"
 				}
 			},
 			"Profane Scabarite": {
@@ -278988,7 +280752,7 @@
 					"1": "15/100"
 				},
 				"Spectral lens": {
-					"1": "1/512"
+					"1": "1/4096"
 				},
 				"Jade amulet": {
 					"1": "Common"
@@ -279040,6 +280804,11 @@
 				},
 				"Rare drop table": {
 					"1": "Rare"
+				}
+			},
+			"Profane Scabarite (task)": {
+				"Spectral lens": {
+					"1": "1/512"
 				}
 			},
 			"Pyrefiend": {
@@ -279239,6 +281008,17 @@
 					"1": "1/30000"
 				}
 			},
+			"Ripper Demon (task)": {
+				"Ripper claw": {
+					"1": "1/2000"
+				},
+				"Off-hand ripper claw": {
+					"1": "1/2000"
+				},
+				"Parasitic orb": {
+					"1": "1/15000"
+				}
+			},
 			"Ripper dinosaur": {
 				"Dinosaur bones": {
 					"1": "Always"
@@ -279323,6 +281103,26 @@
 				},
 				"Ripper dinosaur (unchecked)": {
 					"1": "1/750"
+				}
+			},
+			"Ripper dinosaur (task)": {
+				"Blowpipe fins": {
+					"1": "1/6000"
+				},
+				"Blowpipe feather": {
+					"1": "1/6000"
+				},
+				"Bone blowpipe": {
+					"1": "1/6000"
+				},
+				"Blowpipe chitin": {
+					"1": "1/6000"
+				},
+				"Laceration boots": {
+					"1": "1/2000"
+				},
+				"Sirenic scale": {
+					"1": "Uncommon"
 				}
 			},
 			"Rock slug": {
@@ -279518,23 +281318,8 @@
 				"Ascension grips": {
 					"1": "1/2056"
 				},
-				"Ascension Keystone Primus": {
-					"1": "1/384"
-				},
-				"Ascension Keystone Secundus": {
-					"1": "1/384"
-				},
-				"Ascension Keystone Tertius": {
-					"1": "1/384"
-				},
-				"Ascension Keystone Quartus": {
-					"1": "1/384"
-				},
-				"Ascension Keystone Quintus": {
-					"1": "1/384"
-				},
-				"Ascension Keystone Sextus": {
-					"1": "1/384"
+				"Ascension Keystone": {
+					"1": "1/64"
 				},
 				"Starved ancient effigy": {
 					"1": "Very Rare"
@@ -279739,6 +281524,20 @@
 					"1": "Rare"
 				}
 			},
+			"Salawa akh (task)": {
+				"Key to the Crossing": {
+					"1": "1/75"
+				},
+				"Vital spark": {
+					"2": "1/75"
+				},
+				"Corrupted gem": {
+					"1": "1/5000"
+				},
+				"Khopesh of the Kharidian": {
+					"1": "1/8000"
+				}
+			},
 			"Scarab akh": {
 				"Coins": {
 					"2500": "Common",
@@ -279793,6 +281592,20 @@
 				},
 				"The Magister's Journal 5": {
 					"1": "Rare"
+				}
+			},
+			"Scarab akh (task)": {
+				"Key to the Crossing": {
+					"1": "1/75"
+				},
+				"Vital spark": {
+					"2": "1/75"
+				},
+				"Corrupted gem": {
+					"1": "1/5000"
+				},
+				"Khopesh of the Kharidian": {
+					"1": "1/8000"
 				}
 			},
 			"Scutarius": {
@@ -279853,23 +281666,8 @@
 				"Ascension grips": {
 					"1": "1/2056"
 				},
-				"Ascension Keystone Primus": {
-					"1": "1/300"
-				},
-				"Ascension Keystone Secundus": {
-					"1": "1/300"
-				},
-				"Ascension Keystone Tertius": {
-					"1": "1/300"
-				},
-				"Ascension Keystone Quartus": {
-					"1": "1/300"
-				},
-				"Ascension Keystone Quintus": {
-					"1": "1/300"
-				},
-				"Ascension Keystone Sextus": {
-					"1": "1/300"
+				"Ascension Keystone": {
+					"1": "1/50"
 				}
 			},
 			"Sea Snake Hatchling": {
@@ -281475,6 +283273,9 @@
 				"Dwarf weed seed": {
 					"1": "1/512"
 				},
+				"Spirit weed seed": {
+					"1": "Uncommon"
+				},
 				"Morchella mushroom spore": {
 					"3": "9/128"
 				},
@@ -281559,6 +283360,11 @@
 				},
 				"Starved ancient effigy": {
 					"1": "Very rare"
+				}
+			},
+			"Turoth (task)": {
+				"Turoth boots": {
+					"1": "1/360"
 				}
 			},
 			"Unspeakable horror": {
@@ -281708,6 +283514,26 @@
 				},
 				"Venomous dinosaur (unchecked)": {
 					"1": "1/750"
+				}
+			},
+			"Venomous dinosaur (task)": {
+				"Blowpipe fins": {
+					"1": "1/6000"
+				},
+				"Blowpipe feather": {
+					"1": "1/6000"
+				},
+				"Bone blowpipe": {
+					"1": "1/6000"
+				},
+				"Blowpipe chitin": {
+					"1": "1/6000"
+				},
+				"Laceration boots": {
+					"1": "1/4000"
+				},
+				"Sirenic scale": {
+					"1": "Uncommon"
 				}
 			},
 			"Vinecrawler": {
@@ -282063,6 +283889,14 @@
 				},
 				"Draconic visage": {
 					"1": "1/10000"
+				}
+			},
+			"Wyvern (task)": {
+				"Raptor key part 1": {
+					"1": "1/256"
+				},
+				"Wyvern crossbow": {
+					"1": "1/2000"
 				}
 			},
 			"Zombie hand": {
@@ -284793,59 +286627,56 @@
 				}
 			},
 			"Seed stall": {
-				"Hammerstone seed": {
-					"1": "76/600"
-				},
-				"Marigold seed": {
-					"1": "73/600"
-				},
-				"Barley seed": {
-					"1": "66/600"
+				"Potato seed": {
+					"1": "58/600"
 				},
 				"Onion seed": {
 					"1": "58/600"
 				},
-				"Potato seed": {
-					"1": "58/600"
-				},
-				"Asgarnian seed": {
-					"1": "46/600"
-				},
 				"Cabbage seed": {
 					"1": "46/600"
-				},
-				"Yanillian seed": {
-					"1": "32/600"
-				},
-				"Jute seed": {
-					"1": "29/600"
-				},
-				"Sweetcorn seed": {
-					"1": "22/600"
-				},
-				"Rosemary seed": {
-					"1": "22/600"
 				},
 				"Tomato seed": {
 					"1": "18/600"
 				},
-				"Nasturtium seed": {
-					"1": "15/600"
+				"Sweetcorn seed": {
+					"1": "22/600"
 				},
-				"Krandorian seed": {
-					"1": "14/600"
-				},
-				"Strawberry seed": {
+				"Starwberry seed": {
 					"1": "13/600"
 				},
 				"Watermelon seed": {
 					"1": "8/600"
 				},
+				"Barley seed": {
+					"1": "66/600"
+				},
+				"Hammerstone seed": {
+					"1": "76/600"
+				},
+				"Asgarnian seed": {
+					"1": "46/600"
+				},
+				"Jute seed": {
+					"1": "29/600"
+				},
+				"Yanillian seed": {
+					"1": "32/600"
+				},
+				"Krandorian seed": {
+					"1": "14/600"
+				},
 				"Wildblood seed": {
 					"1": "4/600"
 				},
-				"Dwellberry seed": {
-					"1": "2/600"
+				"Marigold seed": {
+					"1": "73/600"
+				},
+				"Rosemary seed": {
+					"1": "22/600"
+				},
+				"Nasturtium seed": {
+					"1": "15/600"
 				}
 			},
 			"Fish stall": {
@@ -286755,16 +288586,16 @@
 					"40-60": "75/215"
 				},
 				"Bloodweed seed": {
-					"1-3": "75/215"
+					"1-2": "75/215"
 				},
 				"Infernal ashes": {
-					"30-50 (noted)": "75/215"
+					"20-40 (noted)": "75/215"
 				},
 				"Wyvern bones": {
-					"5-10 (noted)": "75/215"
+					"4-6 (noted)": "75/215"
 				},
 				"Muddy key": {
-					"3-4 (noted)": "75/215"
+					"2-3 (noted)": "75/215"
 				},
 				"Brilliant energy": {
 					"300-500": "75/215"
@@ -286780,14 +288611,20 @@
 				}
 			},
 			"Wilderness Flash Events rewards (special)": {
-				"Bakriminel bolts": {
+				"Runes": {
 					"75-125": "250/830"
 				},
+				"Magical thread": {
+					"1": "250/830"
+				},
 				"Magic logs": {
-					"250-300": "250/830"
+					"100-150": "250/830"
 				},
 				"Lucky charm (Zamorakian Undercity)": {
-					"1": "200/830"
+					"1": "100/830"
+				},
+				"Lucky charm (Dragonkin Laboratory)": {
+					"1": "100/830"
 				},
 				"Ruby chalice": {
 					"1": "150/830"
@@ -286847,16 +288684,7 @@
 					"1": "8/830"
 				},
 				"Dark onyx core": {
-					"1": "4/830"
-				},
-				"Annihilation": {
-					"1": "4/830"
-				},
-				"Decimation": {
-					"1": "4/830"
-				},
-				"Obliteration": {
-					"1": "4/830"
+					"1": "4/415"
 				}
 			},
 			"Wilderness Flash Events rewards (wyrm)": {
@@ -286876,6 +288704,14 @@
 			"Wisps of the Grove rewards": {
 				"Vinny": {
 					"1": "1/100"
+				}
+			},
+			"Oyster loot": {
+				"Oyster pearl": {
+					"1": "7/10"
+				},
+				"Empty oyster": {
+					"1": "3/10"
 				}
 			}
 		}
@@ -351735,7 +353571,7 @@
 			"auto_damage": 0
 		},
 		"Zorgoth's ring": {
-			"ranged": 25.2,
+			"ranged": 0,
 			"requirements": {},
 			"class": "necromancy",
 			"lp": 0,
@@ -351746,11 +353582,12 @@
 			"slot": "ring",
 			"strength": 0,
 			"magic": 0,
+			"necromancy": 25.2,
 			"prayer": 0,
 			"accuracy": 0
 		},
 		"Zorgoth's soul ring": {
-			"ranged": 30.4,
+			"ranged": 0,
 			"requirements": {
 				"Necromancy": 75
 			},
@@ -351763,7 +353600,8 @@
 			"slot": "ring",
 			"strength": 0,
 			"magic": 0,
-			"prayer": 0,
+			"necromancy": 30.4,
+			"prayer": 5,
 			"accuracy": 0
 		},
 		"Zuriel's hood": {
