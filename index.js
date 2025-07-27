@@ -1531,7 +1531,7 @@ let topbarElements = {
     'Sandbox Mode': `<div><span class='noscroll' onclick="enableTestMode()"><i class="gosandbox fa-solid fa-flask" title='Sandbox Mode'></i></span></div>`,
 };
 
-let currentVersion = '6.8.3';
+let currentVersion = '6.8.4';
 let patchNotesVersion = '6.4.0';
 let updateLevel = 'difference';
 
@@ -1677,7 +1677,7 @@ mapImg.addEventListener("load", e => {
         centerCanvas('quick');
     }
 });
-mapImg.src = "runescape_world_map.png?v=6.8.3";
+mapImg.src = "runescape_world_map.png?v=6.8.4";
 
 // Rounded rectangle
 CanvasRenderingContext2D.prototype.roundRect = function (x, y, w, h, r) {
@@ -2795,7 +2795,7 @@ let handleMouseUp = function(e) {
 
 // Sets all neighbors of recently unlocked chunk to selected
 let selectNeighborsCanvas = function(chunkId) {
-    if (settings['autoWalkableRollable']) {
+    if (settings['chunkNeighboursOptions']['autoWalkableRollable']) {
         return;
     }
     let ops = ['-x', '+x', '-y', '+y'];
@@ -2806,7 +2806,7 @@ let selectNeighborsCanvas = function(chunkId) {
         } else {
             newChunkId = chunkId + ((i - 3) * 2 + 1);
         }
-        if (checkIfGray(newChunkId) && (!settings['walkableRollable'] || chunkInfo['walkableChunksF2P'].includes(newChunkId.toString()) || (!rules['F2P'] && chunkInfo['walkableChunks'].includes(newChunkId.toString())))) {
+        if (checkIfGray(newChunkId) && (!settings['chunkNeighboursOptions']['walkableRollable'] || chunkInfo['walkableChunksF2P'].includes(newChunkId.toString()) || (!rules['F2P'] && chunkInfo['walkableChunks'].includes(newChunkId.toString())))) {
             tempSelectedChunks.push(newChunkId.toString());
             if (!tempChunks['selected']) {
                 tempChunks['selected'] = {};
@@ -3401,7 +3401,7 @@ let calcCurrentChallengesCanvas = function(useOld, proceed, fromLoadData, inputT
         setCalculating('.panel-active', useOld);
         setCurrentChallenges(['No tasks currently backlogged.'], ['No tasks currently completed.'], true, true);
         myWorker.terminate();
-        myWorker = new Worker("./worker.js?v=6.8.3");
+        myWorker = new Worker("./worker.js?v=6.8.4");
         myWorker.onmessage = workerOnMessage;
         myWorker.postMessage(['current', tempChunks['unlocked'], rules, chunkInfo, skillNames, processingSkill, maybePrimary, combatSkills, monstersPlus, objectsPlus, chunksPlus, itemsPlus, mixPlus, npcsPlus, tasksPlus, tools, elementalRunes, manualTasks, completedChallenges, backlog, "1/" + rules['Rare Drop Amount'], universalPrimary, elementalStaves, rangedItems, boneItems, highestCurrent, dropTables, possibleAreas, randomLoot, magicTools, bossLogs, bossMonsters, minigameShops, manualEquipment, checkedChallenges, backloggedSources, altChallenges, manualMonsters, slayerLocked, passiveSkill, f2pSkills, assignedXpRewards, mid === diary2Tier, manualAreas, "1/" + rules['Secondary Primary Amount'], mid === manualAreasOnly, tempSections, maxSkill, userTasks, manualPrimary, updateLevel]);
         workersOut['current'] = true;
@@ -3705,8 +3705,8 @@ $(document).ready(function() {
 // ------------------------------------------------------------
 
 // Recieve message from worker
-let myWorker = new Worker("./worker.js?v=6.8.3");
-let myWorker2 = new Worker("./worker.js?v=6.8.3");
+let myWorker = new Worker("./worker.js?v=6.8.4");
+let myWorker2 = new Worker("./worker.js?v=6.8.4");
 let workerOnMessage = function(e) {
     if (e.data[0] === 'reload') {
         window.location.reload();
@@ -3868,7 +3868,7 @@ let workerOnMessage = function(e) {
             addEquipmentModalOpen && searchAddEquipment();
             bisUpgradesModalOpen && closeBisUpgrades();
             checkSlayerLocked();
-            settings['autoWalkableRollable'] && chunkJustRolled && selectAllNeighborsCanvas();
+            settings['chunkNeighboursOptions']['autoWalkableRollable'] && chunkJustRolled && selectAllNeighborsCanvas();
             chunkJustRolled = false;
         }
     }
@@ -6732,7 +6732,7 @@ let calcFutureChallenges = function() {
     }
     tempSections = combineJSONs(tempSections, manualSections);
     myWorker2.terminate();
-    myWorker2 = new Worker("./worker.js?v=6.8.3");
+    myWorker2 = new Worker("./worker.js?v=6.8.4");
     myWorker2.onmessage = workerOnMessage;
     myWorker2.postMessage(['future', chunks, rules, chunkInfo, skillNames, processingSkill, maybePrimary, combatSkills, monstersPlus, objectsPlus, chunksPlus, itemsPlus, mixPlus, npcsPlus, tasksPlus, tools, elementalRunes, manualTasks, completedChallenges, backlog, "1/" + rules['Rare Drop Amount'], universalPrimary, elementalStaves, rangedItems, boneItems, highestCurrent, dropTables, possibleAreas, randomLoot, magicTools, bossLogs, bossMonsters, minigameShops, manualEquipment, checkedChallenges, backloggedSources, altChallenges, manualMonsters, slayerLocked, passiveSkill, f2pSkills, assignedXpRewards, mid === diary2Tier, manualAreas, "1/" + rules['Secondary Primary Amount'], mid === manualAreasOnly, tempSections, maxSkill, userTasks, manualPrimary, updateLevel]);
     workersOut['future'] = infoLockedId;
