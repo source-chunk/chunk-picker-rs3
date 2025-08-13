@@ -3045,6 +3045,13 @@ let calcChallenges = function(chunks, baseChunkData) {
                                 [name + '--' + skill]: skill
                             }
                         }
+                        chunkInfo['challenges'][skill][name] = {
+                            ...chunkInfo['challenges'][skill][name],
+                            'Tasks': {
+                                ...chunkInfo['challenges'][skill][name]['Tasks'],
+                                [name + '--' + subSkill]: subSkill
+                            }
+                        }
                     } else {
                         if (!newValids.hasOwnProperty(subSkill)) {
                             newValids[subSkill] = {};
@@ -3055,6 +3062,13 @@ let calcChallenges = function(chunks, baseChunkData) {
                             'Level': chunkInfo['challenges'][skill][name]['Skills'][subSkill],
                             'Tasks': {
                                 [name + '--' + skill]: skill
+                            }
+                        }
+                        chunkInfo['challenges'][skill][name] = {
+                            ...chunkInfo['challenges'][skill][name],
+                            'Tasks': {
+                                ...chunkInfo['challenges'][skill][name]['Tasks'],
+                                [name + '--' + subSkill]: subSkill
                             }
                         }
                     }
