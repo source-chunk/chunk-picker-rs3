@@ -8931,7 +8931,15 @@
 				"Items": ["Dark Sliver of Leng"],
 				"Level": 95,
 				"Primary": false,
-				"Priority": 1,
+				"Priority": 2,
+				"NoPet": true,
+				"NoBoost": true
+			},
+			"Wield ~|Tumeken's Light|~": {
+				"Items": ["Tumeken's Light"],
+				"Level": 95,
+				"Primary": false,
+				"Priority": 3,
 				"NoPet": true,
 				"NoBoost": true
 			},
@@ -11816,7 +11824,7 @@
 			},
 			"Build a second small pen in your ~|player-owned farm|~": {
 				"Chunks": ["10548"],
-				"Items": ["Oak plank*", "SteelNails[+]*"],
+				"Items": ["PlankOakUp[+]*", "SteelNails[+]*"],
 				"Level": 20,
 				"Skills": {
 					"Farming": 28
@@ -12635,7 +12643,7 @@
 			},
 			"Build a medium pen in your ~|player-owned farm|~": {
 				"Chunks": ["10548"],
-				"Items": ["Teak plank*", "MithrilNails[+]*"],
+				"Items": ["PlankTeakUp[+]*", "MithrilNails[+]*"],
 				"Level": 40,
 				"Skills": {
 					"Farming": 35
@@ -12649,7 +12657,7 @@
 			},
 			"Build a second medium pen in your ~|player-owned farm|~": {
 				"Chunks": ["10548"],
-				"Items": ["Teak plank*", "MithrilNails[+]*"],
+				"Items": ["PlankTeakUp[+]**", "MithrilNails[+]*"],
 				"Level": 40,
 				"Skills": {
 					"Farming": 64
@@ -13905,7 +13913,7 @@
 			},
 			"Build a large pen in your ~|player-owned farm|~": {
 				"Chunks": ["10548"],
-				"Items": ["Mahogany plank*", "Rune nails*"],
+				"Items": ["PlankMahoganyUp[+]*", "Rune nails*"],
 				"Level": 60,
 				"Skills": {
 					"Farming": 49
@@ -13916,7 +13924,7 @@
 			},
 			"Build a second large pen in your ~|player-owned farm|~": {
 				"Chunks": ["10548"],
-				"Items": ["Mahogany plank*", "Rune nails*"],
+				"Items": ["PlankMahoganyUp[+]*", "Rune nails*"],
 				"Level": 60,
 				"Skills": {
 					"Farming": 71
@@ -19994,6 +20002,7 @@
 				"Tasks": {
 					"~|Barbarian Training|~ 2a5": "Quest"
 				},
+				"Output": "Mangled bones loot",
 				"Primary": true,
 				"Priority": 100
 			},
@@ -20007,7 +20016,7 @@
 				"Tasks": {
 					"~|Barbarian Training|~ 2a5": "Quest"
 				},
-				"Output": "PyreChew",
+				"Output": "Chewed bones loot",
 				"Primary": true,
 				"Priority": 101
 			},
@@ -20020,6 +20029,7 @@
 				"Tasks": {
 					"~|Barbarian Training|~ 2a5": "Quest"
 				},
+				"Output": "Mangled bones loot",
 				"Primary": true,
 				"Priority": 102
 			},
@@ -20033,7 +20043,7 @@
 				"Tasks": {
 					"~|Barbarian Training|~ 2a5": "Quest"
 				},
-				"Output": "PyreChew",
+				"Output": "Chewed bones loot",
 				"Primary": true,
 				"Priority": 103
 			},
@@ -20742,6 +20752,7 @@
 				"Tasks": {
 					"~|Barbarian Training|~ 2a5": "Quest"
 				},
+				"Output": "Mangled bones loot",
 				"Primary": true,
 				"Priority": 8
 			},
@@ -20755,7 +20766,7 @@
 				"Tasks": {
 					"~|Barbarian Training|~ 2a5": "Quest"
 				},
-				"Output": "PyreChew",
+				"Output": "Chewed bones loot",
 				"Primary": true,
 				"Priority": 9
 			},
@@ -21487,6 +21498,7 @@
 				"Tasks": {
 					"~|Barbarian Training|~ 2a5": "Quest"
 				},
+				"Output": "Mangled bones loot",
 				"Primary": true,
 				"Priority": 100
 			},
@@ -21500,7 +21512,7 @@
 				"Tasks": {
 					"~|Barbarian Training|~ 2a5": "Quest"
 				},
-				"Output": "PyreChew",
+				"Output": "Chewed bones loot",
 				"Primary": true,
 				"Priority": 101
 			},
@@ -21693,6 +21705,7 @@
 				"Tasks": {
 					"~|Barbarian Training|~ 2a5": "Quest"
 				},
+				"Output": "Mangled bones loot",
 				"Primary": true,
 				"Priority": 6
 			},
@@ -21706,7 +21719,7 @@
 				"Tasks": {
 					"~|Barbarian Training|~ 2a5": "Quest"
 				},
-				"Output": "PyreChew",
+				"Output": "Chewed bones loot",
 				"Primary": true,
 				"Priority": 7
 			},
@@ -21965,6 +21978,7 @@
 				"Tasks": {
 					"~|Barbarian Training|~ 2a5": "Quest"
 				},
+				"Output": "Mangled bones loot",
 				"Primary": true,
 				"Priority": 100
 			},
@@ -21978,7 +21992,7 @@
 				"Tasks": {
 					"~|Barbarian Training|~ 2a5": "Quest"
 				},
-				"Output": "PyreChew",
+				"Output": "Chewed bones loot",
 				"Primary": true,
 				"Priority": 101
 			},
@@ -22187,6 +22201,7 @@
 				"Tasks": {
 					"~|Barbarian Training|~ 2a5": "Quest"
 				},
+				"Output": "Mangled bones loot",
 				"Primary": true,
 				"Priority": 17
 			},
@@ -22200,7 +22215,7 @@
 				"Tasks": {
 					"~|Barbarian Training|~ 2a5": "Quest"
 				},
-				"Output": "PyreChew",
+				"Output": "Chewed bones loot",
 				"Primary": true,
 				"Priority": 18
 			},
@@ -22438,6 +22453,7 @@
 				"Tasks": {
 					"~|Barbarian Training|~ 2a5": "Quest"
 				},
+				"Output": "Mangled bones loot",
 				"Primary": true,
 				"Priority": 98
 			},
@@ -22451,7 +22467,7 @@
 				"Tasks": {
 					"~|Barbarian Training|~ 2a5": "Quest"
 				},
-				"Output": "PyreChew",
+				"Output": "Chewed bones loot",
 				"Primary": true,
 				"Priority": 99
 			},
@@ -22769,6 +22785,7 @@
 				"Tasks": {
 					"~|Barbarian Training|~ 2a5": "Quest"
 				},
+				"Output": "Mangled bones loot",
 				"Primary": true,
 				"Priority": 1
 			},
@@ -22782,7 +22799,7 @@
 				"Tasks": {
 					"~|Barbarian Training|~ 2a5": "Quest"
 				},
-				"Output": "PyreChew",
+				"Output": "Chewed bones loot",
 				"Primary": true,
 				"Priority": 2
 			},
@@ -22834,6 +22851,7 @@
 				"Tasks": {
 					"~|Barbarian Training|~ 2a5": "Quest"
 				},
+				"Output": "Mangled bones loot",
 				"Primary": true,
 				"Priority": 100
 			},
@@ -22847,7 +22865,7 @@
 				"Tasks": {
 					"~|Barbarian Training|~ 2a5": "Quest"
 				},
-				"Output": "PyreChew",
+				"Output": "Chewed bones loot",
 				"Primary": true,
 				"Priority": 101
 			},
@@ -23638,6 +23656,7 @@
 				"Tasks": {
 					"~|Barbarian Training|~ 2a5": "Quest"
 				},
+				"Output": "Mangled bones loot",
 				"Primary": true,
 				"Priority": 22
 			},
@@ -23651,7 +23670,7 @@
 				"Tasks": {
 					"~|Barbarian Training|~ 2a5": "Quest"
 				},
-				"Output": "PyreChew",
+				"Output": "Chewed bones loot",
 				"Primary": true,
 				"Priority": 23
 			},
@@ -24489,6 +24508,7 @@
 				"Tasks": {
 					"~|Barbarian Training|~ 2a5": "Quest"
 				},
+				"Output": "Mangled bones loot",
 				"Primary": true,
 				"Priority": 100
 			},
@@ -24502,7 +24522,7 @@
 				"Tasks": {
 					"~|Barbarian Training|~ 2a5": "Quest"
 				},
-				"Output": "PyreChew",
+				"Output": "Chewed bones loot",
 				"Primary": true,
 				"Priority": 101
 			},
@@ -26175,8 +26195,8 @@
 				"NoPet": true,
 				"NoBoost": true
 			},
-			"Wear the ~|helm of neitiznot|~": {
-				"Items": ["Helm of neitiznot"],
+			"Wear the ~|helm of Neitiznot|~": {
+				"Items": ["Helm of Neitiznot"],
 				"Level": 55,
 				"Primary": false,
 				"Priority": 6,
@@ -27764,6 +27784,17 @@
 				"Level": 95,
 				"Primary": false,
 				"Priority": 1,
+				"NoPet": true,
+				"NoBoost": true
+			},
+			"Wear a piece of ~|Tumeken's resplendence equipment|~": {
+				"Items": ["Tumeken's resplendence[+]"],
+				"Level": 95,
+				"Primary": false,
+				"Skills": {
+					"Magic": 95
+				},
+				"Priority": 2,
 				"NoPet": true,
 				"NoBoost": true
 			},
@@ -31999,7 +32030,7 @@
 			},
 			"Build a second small pen in your ~|player-owned farm|~": {
 				"Chunks": ["10548"],
-				"Items": ["Oak plank", "SteelNails[+]"],
+				"Items": ["PlankOakUp[+]*", "SteelNails[+]*"],
 				"Level": 28,
 				"Skills": {
 					"Construction": 20
@@ -32207,7 +32238,7 @@
 			},
 			"Build a medium pen in your ~|player-owned farm|~": {
 				"Chunks": ["10548"],
-				"Items": ["Teak plank", "MithrilNails[+]"],
+				"Items": ["PlankTeakUp[+]*", "MithrilNails[+]*"],
 				"Level": 35,
 				"Skills": {
 					"Construction": 40
@@ -32650,7 +32681,7 @@
 			},
 			"Build a large pen in your ~|player-owned farm|~": {
 				"Chunks": ["10548"],
-				"Items": ["Mahogany plank", "Rune nails"],
+				"Items": ["PlankMahoganyUp[+]*", "Rune nails*"],
 				"Level": 49,
 				"Skills": {
 					"Construction": 60
@@ -33111,7 +33142,7 @@
 			},
 			"Build a second medium pen in your ~|player-owned farm|~": {
 				"Chunks": ["10548"],
-				"Items": ["Teak plank", "MithrilNails[+]"],
+				"Items": ["PlankTeakUp[+]*", "MithrilNails[+]*"],
 				"Level": 64,
 				"Skills": {
 					"Construction": 40
@@ -33324,7 +33355,7 @@
 			},
 			"Build a second large pen in your ~|player-owned farm|~": {
 				"Chunks": ["10548"],
-				"Items": ["Mahogany plank", "Rune nails"],
+				"Items": ["PlankMahoganyUp[+]*", "Rune nails*"],
 				"Level": 71,
 				"Skills": {
 					"Construction": 60
@@ -35688,6 +35719,7 @@
 				"Tasks": {
 					"~|Barbarian Training|~ 2a5": "Quest"
 				},
+				"Output": "Mangled bones loot",
 				"Primary": true,
 				"Priority": 1
 			},
@@ -35700,6 +35732,7 @@
 				"Tasks": {
 					"~|Barbarian Training|~ 2a5": "Quest"
 				},
+				"Output": "Mangled bones loot",
 				"Primary": true,
 				"Priority": 2
 			},
@@ -35712,7 +35745,7 @@
 				"Tasks": {
 					"~|Barbarian Training|~ 2a5": "Quest"
 				},
-				"Output": "PyreChew",
+				"Output": "Chewed bones loot",
 				"Primary": true,
 				"Priority": 3
 			},
@@ -35725,7 +35758,7 @@
 				"Tasks": {
 					"~|Barbarian Training|~ 2a5": "Quest"
 				},
-				"Output": "PyreChew",
+				"Output": "Chewed bones loot",
 				"Primary": true,
 				"Priority": 4
 			},
@@ -35896,6 +35929,7 @@
 				"Tasks": {
 					"~|Barbarian Training|~ 2a5": "Quest"
 				},
+				"Output": "Mangled bones loot",
 				"Primary": true,
 				"Priority": 2
 			},
@@ -35908,7 +35942,7 @@
 				"Tasks": {
 					"~|Barbarian Training|~ 2a5": "Quest"
 				},
-				"Output": "PyreChew",
+				"Output": "Chewed bones loot",
 				"Primary": true,
 				"Priority": 3
 			},
@@ -36116,6 +36150,7 @@
 				"Tasks": {
 					"~|Barbarian Training|~ 2a5": "Quest"
 				},
+				"Output": "Mangled bones loot",
 				"Primary": true,
 				"Priority": 6
 			},
@@ -36128,7 +36163,7 @@
 				"Tasks": {
 					"~|Barbarian Training|~ 2a5": "Quest"
 				},
-				"Output": "PyreChew",
+				"Output": "Chewed bones loot",
 				"Primary": true,
 				"Priority": 7
 			},
@@ -36235,6 +36270,7 @@
 				"Tasks": {
 					"~|Barbarian Training|~ 2a5": "Quest"
 				},
+				"Output": "Mangled bones loot",
 				"Primary": true,
 				"Priority": 4
 			},
@@ -36247,7 +36283,7 @@
 				"Tasks": {
 					"~|Barbarian Training|~ 2a5": "Quest"
 				},
-				"Output": "PyreChew",
+				"Output": "Chewed bones loot",
 				"Primary": true,
 				"Priority": 5
 			},
@@ -36477,6 +36513,7 @@
 				"Tasks": {
 					"~|Barbarian Training|~ 2a5": "Quest"
 				},
+				"Output": "Mangled bones loot",
 				"Primary": true,
 				"Priority": 2
 			},
@@ -36489,7 +36526,7 @@
 				"Tasks": {
 					"~|Barbarian Training|~ 2a5": "Quest"
 				},
-				"Output": "PyreChew",
+				"Output": "Chewed bones loot",
 				"Primary": true,
 				"Priority": 3
 			},
@@ -36580,6 +36617,7 @@
 				"Tasks": {
 					"~|Barbarian Training|~ 2a5": "Quest"
 				},
+				"Output": "Mangled bones loot",
 				"Primary": true,
 				"Priority": 7
 			},
@@ -36592,7 +36630,7 @@
 				"Tasks": {
 					"~|Barbarian Training|~ 2a5": "Quest"
 				},
-				"Output": "PyreChew",
+				"Output": "Chewed bones loot",
 				"Primary": true,
 				"Priority": 8
 			},
@@ -36664,6 +36702,7 @@
 				"Tasks": {
 					"~|Barbarian Training|~ 2a5": "Quest"
 				},
+				"Output": "Mangled bones loot",
 				"Primary": true,
 				"Priority": 4
 			},
@@ -36676,7 +36715,7 @@
 				"Tasks": {
 					"~|Barbarian Training|~ 2a5": "Quest"
 				},
-				"Output": "PyreChew",
+				"Output": "Chewed bones loot",
 				"Primary": true,
 				"Priority": 5
 			},
@@ -36904,6 +36943,7 @@
 				"Tasks": {
 					"~|Barbarian Training|~ 2a5": "Quest"
 				},
+				"Output": "Mangled bones loot",
 				"Primary": true,
 				"Priority": 1
 			},
@@ -36916,7 +36956,7 @@
 				"Tasks": {
 					"~|Barbarian Training|~ 2a5": "Quest"
 				},
-				"Output": "PyreChew",
+				"Output": "Chewed bones loot",
 				"Primary": true,
 				"Priority": 2
 			},
@@ -36952,6 +36992,7 @@
 				"Tasks": {
 					"~|Barbarian Training|~ 2a5": "Quest"
 				},
+				"Output": "Mangled bones loot",
 				"Primary": true,
 				"Priority": 2
 			},
@@ -36964,7 +37005,7 @@
 				"Tasks": {
 					"~|Barbarian Training|~ 2a5": "Quest"
 				},
-				"Output": "PyreChew",
+				"Output": "Chewed bones loot",
 				"Primary": true,
 				"Priority": 3
 			},
@@ -37215,6 +37256,7 @@
 				"Tasks": {
 					"~|Barbarian Training|~ 2a5": "Quest"
 				},
+				"Output": "Mangled bones loot",
 				"Primary": true,
 				"Priority": 1
 			},
@@ -37227,7 +37269,7 @@
 				"Tasks": {
 					"~|Barbarian Training|~ 2a5": "Quest"
 				},
-				"Output": "PyreChew",
+				"Output": "Chewed bones loot",
 				"Primary": true,
 				"Priority": 2
 			},
@@ -37494,6 +37536,7 @@
 				"Tasks": {
 					"~|Barbarian Training|~ 2a5": "Quest"
 				},
+				"Output": "Mangled bones loot",
 				"Primary": true,
 				"Priority": 2
 			},
@@ -37506,7 +37549,7 @@
 				"Tasks": {
 					"~|Barbarian Training|~ 2a5": "Quest"
 				},
-				"Output": "PyreChew",
+				"Output": "Chewed bones loot",
 				"Primary": true,
 				"Priority": 3
 			},
@@ -41367,6 +41410,21 @@
 				"Output": "Ground miasma rune",
 				"Primary": true,
 				"Priority": 20
+			},
+			"Grind ~|anchovy paste|~": {
+				"Category": ["Token"],
+				"Items": ["Anchovies*"],
+				"Level": 1,
+				"Output": "Anchovy paste",
+				"Primary": true,
+				"Priority": 21
+			},
+			"Make ~|imp repellent|~": {
+				"Items": ["Anchovy paste*", "FlowersAll[+]*"],
+				"Level": 1,
+				"Output": "Imp repellent",
+				"Primary": true,
+				"Priority": 22
 			},
 			"Sprinkle ~|neem oil|~ on polypore creatures": {
 				"Items": ["Neem oil"],
@@ -48059,7 +48117,6 @@
 				"NoBoost": true
 			},
 			"Cast ~|air strike|~": {
-				"Category": ["Spells"],
 				"Items": ["Air rune[+]*"],
 				"Level": 1,
 				"Tasks": {
@@ -48069,7 +48126,6 @@
 				"Priority": 2
 			},
 			"Cast ~|confuse|~": {
-				"Category": ["Spells"],
 				"Items": ["Mind rune*"],
 				"Level": 1,
 				"Primary": true,
@@ -51794,6 +51850,17 @@
 				"NoPet": true,
 				"NoBoost": true
 			},
+			"Wear a piece of ~|Tumeken's resplendence equipment|~": {
+				"Items": ["Tumeken's resplendence[+]"],
+				"Level": 95,
+				"Primary": false,
+				"Skills": {
+					"Defence": 95
+				},
+				"Priority": 8,
+				"NoPet": true,
+				"NoBoost": true
+			},
 			"Cast ~|Ghorrock teleport|~": {
 				"Category": ["Spells", "Combat and Teleport Spells"],
 				"Items": ["Law rune*", "Water rune[+]*"],
@@ -54024,11 +54091,11 @@
 				"Output": "Ensouled spectral lens",
 				"Priority": 12
 			},
-			"Unlock and cast the ~|Command Phantom Guardian|~ ability": {
-				"Chunks": ["City of Um"],
-				"Level": 60,
+			"Equip ~|The Devourer's Nexus|~": {
+				"Items": ["The Devourer's Nexus"],
+				"Level": 80,
 				"Primary": false,
-				"Priority": 12,
+				"Priority": 13,
 				"NoPet": true,
 				"NoBoost": true
 			},
@@ -54253,6 +54320,14 @@
 				"NoPet": true,
 				"NoBoost": true
 			},
+			"Equip the ~|Devourer's Guard|~": {
+				"Items": ["Devourer's Guard"],
+				"Level": 95,
+				"Primary": false,
+				"Priority": 4,
+				"NoPet": true,
+				"NoBoost": true
+			},
 			"Perform a ~|powerful essence ritual|~": {
 				"Chunks": ["RitualSite[+]"],
 				"Items": ["RitualLightSource[+]", "Powerful ghostly ink*", "Regular ghostly ink*", "Greater ghostly ink*", "Pure essence"],
@@ -54262,7 +54337,7 @@
 				},
 				"Primary": true,
 				"Output": "EssenceRitual",
-				"Priority": 4
+				"Priority": 100
 			},
 			"Perform a ~|manifest ectoplasm|~ ritual": {
 				"Chunks": ["RitualSite[+]"],
@@ -54270,21 +54345,21 @@
 				"Level": 95,
 				"Primary": true,
 				"Output": "Ectoplasm",
-				"Priority": 4
+				"Priority": 101
 			},
 			"Draw a ~|Change III|~ glyph": {
 				"Chunks": ["RitualSite[+]"],
 				"Items": ["Powerful ghostly ink", "Greater ghostly ink"],
 				"Level": 95,
 				"Primary": true,
-				"Priority": 5
+				"Priority": 102
 			},
 			"Draw an ~|Attraction II|~ glyph": {
 				"Chunks": ["RitualSite[+]"],
 				"Items": ["Ectoplasm", "Powerful ghostly ink", "Greater ghostly ink"],
 				"Level": 95,
 				"Primary": true,
-				"Priority": 6
+				"Priority": 103
 			},
 			"Buy the ~|Necromancy cape|~": {
 				"Category": ["Skillcape"],
@@ -54293,14 +54368,6 @@
 				"Level": 99,
 				"Primary": false,
 				"Priority": 1,
-				"NoPet": true,
-				"NoBoost": true
-			},
-			"Unlock and cast the ~|Conjure Undead Army|~ ability": {
-				"Chunks": ["City of Um"],
-				"Level": 99,
-				"Primary": false,
-				"Priority": 2,
 				"NoPet": true,
 				"NoBoost": true
 			},
@@ -80538,6 +80605,135 @@
 				"Chunks": ["10291"],
 				"Not F2P": true
 			},
+			"~|Eclipse of the Heart|~ 1": {
+				"BaseQuest": "Eclipse of the Heart",
+				"Description": "Speak with Leela inside the Menaphos Throne Room",
+				"Chunks": ["12586"],
+				"Tasks": {
+					"~|Pharaoh's Folly|~ Complete the quest": "Quest"
+				},
+				"Skills": {
+					"Agility": 65,
+					"Necromancy": 90
+				},
+				"Not F2P": true,
+				"NoBoost": true
+			},
+			"~|Eclipse of the Heart|~ 2": {
+				"BaseQuest": "Eclipse of the Heart",
+				"Description": "Help Ozan convince the citizens of Sophanem",
+				"Chunks": ["13098"],
+				"Items": ["Cat"],
+				"Tasks": {
+					"~|Eclipse of the Heart|~ 1": "Quest"
+				},
+				"Not F2P": true
+			},
+			"~|Eclipse of the Heart|~ 3": {
+				"BaseQuest": "Eclipse of the Heart",
+				"Description": "Seek Scabaras at the Temple of Isolation",
+				"Chunks": ["Temple of Isolation"],
+				"Tasks": {
+					"~|Eclipse of the Heart|~ 2": "Quest"
+				},
+				"Not F2P": true
+			},
+			"~|Eclipse of the Heart|~ 4": {
+				"BaseQuest": "Eclipse of the Heart",
+				"Description": "Earn the blessings of Het and Crondis",
+				"Chunks": ["13362"],
+				"Tasks": {
+					"~|Eclipse of the Heart|~ 3": "Quest"
+				},
+				"Not F2P": true
+			},
+			"~|Eclipse of the Heart|~ 5": {
+				"BaseQuest": "Eclipse of the Heart",
+				"Description": "Speak to the wise monkeys and Apmeken at the monkey colony",
+				"Chunks": ["12846"],
+				"Items": ["Monkeyspeak amulet"],
+				"Tasks": {
+					"~|Eclipse of the Heart|~ 4": "Quest"
+				},
+				"Not F2P": true
+			},
+			"~|Eclipse of the Heart|~ 6": {
+				"BaseQuest": "Eclipse of the Heart",
+				"Description": "Take Apmeken out for choc ice",
+				"Chunks": ["13613"],
+				"Tasks": {
+					"~|Eclipse of the Heart|~ 5": "Quest"
+				},
+				"Not F2P": true
+			},
+			"~|Eclipse of the Heart|~ 7": {
+				"BaseQuest": "Eclipse of the Heart",
+				"Description": "Return to the monkey colony and put Mizaru, Iwazaru and Kikazaru to rest",
+				"Chunks": ["12846"],
+				"Tasks": {
+					"~|Eclipse of the Heart|~ 6": "Quest"
+				},
+				"Not F2P": true
+			},
+			"~|Eclipse of the Heart|~ 8": {
+				"BaseQuest": "Eclipse of the Heart",
+				"Description": "Return to Scabaras and retrieve Tumeken's fragments",
+				"Chunks": ["Temple of Isolation"],
+				"Tasks": {
+					"~|Eclipse of the Heart|~ 7": "Quest"
+				},
+				"Not F2P": true
+			},
+			"~|Eclipse of the Heart|~ 9": {
+				"BaseQuest": "Eclipse of the Heart",
+				"Description": "Speak to Leela and the demigods at the grand pyramid",
+				"Chunks": ["12586"],
+				"Tasks": {
+					"~|Eclipse of the Heart|~ 8": "Quest"
+				},
+				"Not F2P": true
+			},
+			"~|Eclipse of the Heart|~ 10": {
+				"BaseQuest": "Eclipse of the Heart",
+				"Description": "Purify the soul beacon",
+				"Chunks": ["Ungael ritual site"],
+				
+				"Tasks": {
+					"~|Eclipse of the Heart|~ 9": "Quest"
+				},
+				"Not F2P": true
+			},
+			"~|Eclipse of the Heart|~ 11": {
+				"BaseQuest": "Eclipse of the Heart",
+				"Description": "Perform a powerful ritual of severance",
+				"Chunks": ["City of Um"],
+				"Items": ["Powerful ghostly ink", "Greater ghostly ink", "Regular ghostly ink", "RitualLightSource[+]"],
+				"Tasks": {
+					"~|Eclipse of the Heart|~ 10": "Quest"
+				},
+				"Not F2P": true
+			},
+			"~|Eclipse of the Heart|~ 12": {
+				"BaseQuest": "Eclipse of the Heart",
+				"Description": "Fight Amascut and finish up the quest. Meow!",
+				"Chunks": ["12586"],
+				"Tasks": {
+					"~|Eclipse of the Heart|~ 11": "Quest"
+				},
+				"Not F2P": true
+			},
+			"~|Eclipse of the Heart|~ Complete the quest": {
+				"Tasks": {
+					"~|Eclipse of the Heart|~ 12": "Quest"
+				},
+				"QuestPoints": 3,
+				"XpReward": {
+					"Anyx4": 250000
+				},
+				"BaseQuest": "Eclipse of the Heart",
+				"Chunks": ["12586"],
+				"Not F2P": true
+			},
 			"~|The Elder Kiln|~ 1": {
 				"BaseQuest": "The Elder Kiln",
 				"Description": "Speak to TzHaar-Mej-Jeh by the birthing pool in TzHaar City, then speak to the Ga'al, then speak to Mej-Ak",
@@ -82876,7 +83072,7 @@
 					"Strength|Attack|Defence|Constitutionx2": 10000
 				},
 				"BaseQuest": "The Fremennik Isles",
-				"Reward": ["Helm of neitiznot"],
+				"Reward": ["Helm of Neitiznot"],
 				"Chunks": ["9275"],
 				"Not F2P": true
 			},
@@ -127711,6 +127907,61 @@
 				"Label": "Slayer Collection Log",
 				"Items": ["Bone fragments"]
 			},
+			"(Amascut, the Devourer) Obtain the ~|Devourer's Guard|~": {
+				"Category": ["Collection Log", "Boss Collection Log"],
+				"Label": "Boss Collection Log",
+				"Items": ["Devourer's Guard"]
+			},
+			"(Amascut, the Devourer) Obtain ~|The Devourer's Nexus|~": {
+				"Category": ["Collection Log", "Boss Collection Log"],
+				"Label": "Boss Collection Log",
+				"Items": ["The Devourer's Nexus"]
+			},
+			"(Amascut, the Devourer) Obtain ~|Tumeken's Light|~": {
+				"Category": ["Collection Log", "Boss Collection Log"],
+				"Label": "Boss Collection Log",
+				"Items": ["Tumeken's Light"]
+			},
+			"(Amascut, the Devourer) Obtain a ~|mask of Tumeken's resplendence|~": {
+				"Category": ["Collection Log", "Boss Collection Log"],
+				"Label": "Boss Collection Log",
+				"Items": ["Mask of Tumeken's resplendence"]
+			},
+			"(Amascut, the Devourer) Obtain a ~|robe top of Tumeken's resplendence|~": {
+				"Category": ["Collection Log", "Boss Collection Log"],
+				"Label": "Boss Collection Log",
+				"Items": ["Robe top of Tumeken's resplendence"]
+			},
+			"(Amascut, the Devourer) Obtain a ~|robe bottom of Tumeken's resplendence|~": {
+				"Category": ["Collection Log", "Boss Collection Log"],
+				"Label": "Boss Collection Log",
+				"Items": ["Robe bottom of Tumeken's resplendence"]
+			},
+			"(Amascut, the Devourer) Obtain ~|gloves of Tumeken's resplendence|~": {
+				"Category": ["Collection Log", "Boss Collection Log"],
+				"Label": "Boss Collection Log",
+				"Items": ["Gloves of Tumeken's resplendence"]
+			},
+			"(Amascut, the Devourer) Obtain ~|boots of Tumeken's resplendence|~": {
+				"Category": ["Collection Log", "Boss Collection Log"],
+				"Label": "Boss Collection Log",
+				"Items": ["Boots of Tumeken's resplendence"]
+			},
+			"(Amascut, the Devourer) Obtain the ~|Memoirs of the Devourer|~": {
+				"Category": ["Collection Log", "Boss Collection Log"],
+				"Label": "Boss Collection Log",
+				"Items": ["Memoirs of the Devourer"]
+			},
+			"(Amascut, the Devourer) Obtain a ~|shard of Genesis Essence|~": {
+				"Category": ["Collection Log", "Boss Collection Log"],
+				"Label": "Boss Collection Log",
+				"Items": ["Shard of Genesis Essence"]
+			},
+			"(Amascut, the Devourer) Obtain ~|Amaskitty|~": {
+				"Category": ["Collection Log", "Boss Collection Log"],
+				"Label": "Boss Collection Log",
+				"Items": ["Amascut's promise"]
+			},
 			"(Araxxi) Obtain a ~|spider leg top|~": {
 				"Category": ["Collection Log", "Boss Collection Log"],
 				"Label": "Boss Collection Log",
@@ -139307,35 +139558,62 @@
 				"NPCs": ["Ghost cat"]
 			},
 			"Obtain ~|Richie|~ and his partyhat": {
-				"Category": ["Money Unlockables", "Pets"],
+				"Category": ["Permanent Unlockables", "Pets"],
 				"Label": "Pets",
 				"Chunks": ["12598"]
 			},
-			"Unlock the ~|ornate gravestone|~": {
-				"Category": ["Money Unlockables"],
-				"Label": "Permanent Unlockables",
-				"Tasks": {
-					"~|The Restless Ghost|~ Complete the quest": "Quest"
-				}
-			},
-			"Unlock the ~|Angel of Death|~ gravestone": {
-				"Category": ["Money Unlockables"],
-				"Label": "Permanent Unlockables",
-				"Tasks": {
-					"~|The Giant Dwarf|~ Complete the quest": "Quest"
-				}
-			},
-			"Unlock the ~|Royal dwarven gravestone|~": {
-				"Category": ["Money Unlockables"],
-				"Label": "Permanent Unlockables",
-				"Tasks": {
-					"~|King of the Dwarves|~ Complete the quest": "Quest"
-				}
-			},
 			"Unlock all ~|Dundee's Crocodile Upgrades|~": {
-				"Category": ["Money Unlockables"],
+				"Category": ["Permanent Unlockables"],
 				"Label": "Permanent Unlockables",
 				"Chunks": ["13362"],
+				"Not F2P": true
+			},
+			"~|Innate Mastery|~: Ek-ZekKil": {
+				"Category": ["Permanent Unlockables"],
+				"Label": "Permanent Unlockables",
+				"Items": ["Shard of Genesis Essence", "Ek-Zekkil"],
+				"Not F2P": true
+			},
+			"~|Innate Mastery|~: Dark Shard of Leng and Dark Sliver of Leng": {
+				"Category": ["Permanent Unlockables"],
+				"Label": "Permanent Unlockables",
+				"Items": ["Shard of Genesis Essence", "Dark Shard of Leng"],
+				"Not F2P": true
+			},
+			"~|Innate Mastery|~: Tumeken's Light": {
+				"Category": ["Permanent Unlockables"],
+				"Label": "Permanent Unlockables",
+				"Items": ["Shard of Genesis Essence", "Tumeken's Light"],
+				"Not F2P": true
+			},
+			"~|Innate Mastery|~: Bow of the Last Guardian": {
+				"Category": ["Permanent Unlockables"],
+				"Label": "Permanent Unlockables",
+				"Items": ["Shard of Genesis Essence", "Bow of the Last Guardian"],
+				"Not F2P": true
+			},
+			"~|Innate Mastery|~: Fractured Staff of Armadyl": {
+				"Category": ["Permanent Unlockables"],
+				"Label": "Permanent Unlockables",
+				"Items": ["Shard of Genesis Essence", "Fractured Staff of Armadyl"],
+				"Not F2P": true
+			},
+			"~|Innate Mastery|~: Roar of Awakening and Ode to Deceit": {
+				"Category": ["Permanent Unlockables"],
+				"Label": "Permanent Unlockables",
+				"Items": ["Shard of Genesis Essence", "Roar of Awakening"],
+				"Not F2P": true
+			},
+			"~|Innate Mastery|~: Omni guard and Soulbound lantern": {
+				"Category": ["Permanent Unlockables"],
+				"Label": "Permanent Unlockables",
+				"Items": ["Shard of Genesis Essence", "Omni guard"],
+				"Not F2P": true
+			},
+			"~|Innate Mastery|~: Devourer's Guard": {
+				"Category": ["Permanent Unlockables"],
+				"Label": "Permanent Unlockables",
+				"Items": ["Shard of Genesis Essence", "Devourer's Guard"],
 				"Not F2P": true
 			},
 			"Obtain ~|the Castaway|~ title": {
@@ -148629,6 +148907,48 @@
 			},
 			"Obtain a medium clue scroll": {
 				"Items": ["Sealed clue scroll (medium)"]
+			},
+			"Make anchovy oil*": {
+				"Items": ["Anchovy paste*", "Vial*"],
+				"Chunks": ["11570"],
+				"Output": "Anchovy oil"
+			},
+			"Make an impling jar*": {
+				"Items": ["Imp repellent*", "Butterfly jar*"],
+				"Chunks": ["11570"],
+				"Output": "Impling jar"
+			},
+			"Crystal chest loot*": {
+				"Items": ["Crystal key*"],
+				"Objects": ["Crystal chest"],
+				"Chunks": ["11573"],
+				"Output": "Crystal chest"
+			},
+			"Elven crystal chest loot*": {
+				"Items": ["Crystal key*"],
+				"Objects": ["Crystal chest"],
+				"Chunks": ["8755"],
+				"Output": "Crystal chest (Priffdinas)"
+			},
+			"Triskelion loot*": {
+				"Items": ["Crystal triskelion*"],
+				"Objects": ["Rock face"],
+				"Chunks": ["11064"],
+				"Output": "Triskelion treasures"
+			},
+			"Columbarium key loot*": {
+				"Items": ["Columbarium key*"],
+				"Tasks": {
+					"~|Legacy of Seergaze|~ Complete the quest": "Quest"
+				},
+				"Output": "Wooden Recess"
+			},
+			"Shiny columbarium key loot*": {
+				"Items": ["Shiny columbarium key*"],
+				"Tasks": {
+					"~|Legacy of Seergaze|~ Complete the quest": "Quest"
+				},
+				"Output": "Wooden Recess (shiny)"
 			}
 		}
 	},
@@ -168387,7 +168707,8 @@
 				"Succession": "step",
 				"Tomes of the Warlock": "step",
 				"Beneath Scabaras' Sands": "first",
-				"Pharaoh's Folly": "step"
+				"Pharaoh's Folly": "step",
+				"Eclipse of the Heart": "first"
 			},
 			"Nickname": "Menaphos Pyramid"
 		},
@@ -169441,7 +169762,8 @@
 			"Quest": {
 				"Desert Treasure": "step",
 				"Do No Evil": "step",
-				"Beneath Scabaras' Sands": "step"
+				"Beneath Scabaras' Sands": "step",
+				"Eclipse of the Heart": "step"
 			},
 			"Nickname": "Bandit Camp Lodestone"
 		},
@@ -170642,7 +170964,8 @@
 				"Dealing with Scabaras": "first",
 				"Icthlarin's Little Helper": "step",
 				"Beneath Scabaras' Sands": "step",
-				"Pharaoh's Folly": "step"
+				"Pharaoh's Folly": "step",
+				"Eclipse of the Hearth": "step"
 			},
 			"Nickname": "Sophanem Temple"
 		},
@@ -172101,7 +172424,8 @@
 			},
 			"Quest": {
 				"Benedict's World Tour (miniquest)": "step",
-				"Eye of Het I": "step"
+				"Eye of Het I": "step",
+				"Eclipse of the Heart": "step"
 			},
 			"Nickname": "Het's Oasis"
 		},
@@ -172614,7 +172938,8 @@
 				"Mahjarrat Memories (miniquest)": "step",
 				"Spirits of the Elid": "first",
 				"The Temple at Senntisten": "first",
-				"Beneath Scabaras' Sands": "step"
+				"Beneath Scabaras' Sands": "step",
+				"Eclipse of the Heart": "step"
 			},
 			"Nickname": "Nardah"
 		},
@@ -191865,7 +192190,8 @@
 				"Housing of Parliament": "first",
 				"Requiem for a Dragon": "step",
 				"Soul Searching": "first",
-				"Ode of the Devourer": "step"
+				"Ode of the Devourer": "step",
+				"Eclipse of the Heart": "step"
 			},
 			"Shop": {
 				"Buried Bargains": true,
@@ -191936,6 +192262,9 @@
 		"Ungael ritual site": {
 			"Object": {
 				"Platform (rituals)": 1
+			},
+			"Quest": {
+				"Eclipse of the Heart": "step"
 			},
 			"Connect": {
 				"9278": true
@@ -192113,6 +192442,9 @@
 		"Temple of Isolation": {
 			"Monster": {
 				"Elite Profane Scabarite": 10
+			},
+			"Quest": {
+				"Eclipse of the Heart": "step"
 			},
 			"Connect": {
 				"35": true
@@ -192917,7 +193249,7 @@
 				"Draconic energy": "1/402@1",
 				"Shadowy egg": "1/50000@1"
 			},
-			"ZamorakianUndercityCharmDropTable+": {
+			"ZamorakianUndercityLuckyDropTable+": {
 				"Crystal chaos": "1/200@1",
 				"Living remnants": "1/200@1",
 				"Zamorakian sigil": "1/200@1",
@@ -192927,6 +193259,49 @@
 				"Onyx dust": "1/64@20-40",
 				"Sirenic scale": "1/80@1-3",
 				"Hydrix bolt tips": "1/160@40-60"
+			},
+			"ZamorakianUndercityAlchablesDropTable+": {
+				"Chaos relic (common)": "170/200@1", 
+				"Chaos relic (uncommon)": "29/200@1", 
+				"Chaos relic (rare)": "1/200@1",
+				"Huge bladed rune salvage": "1/32@1-61",
+				"Large blunt rune salvage": "1/16@1-40",
+				"Small plated mithril salvage": "1/16@1-40"
+			},
+			"ZamorakianUndercitySuppliesDropTable+": {
+				"Super attack (1)": "1/5@1-9",
+				"Super strength (1)": "1/5@1-9",
+				"Super defence (1)": "1/5@1-9",
+				"Super magic potion (1)": "1/5@1-9",
+				"Super ranging potion (1)": "1/5@1-9"
+			},
+			"ZamorakianUndercitySkillingDropTable+": {
+				"Grimy dwarf weed": "1/16@1 (noted)",
+				"Grimy lantadyme": "1/16@1 (noted)",
+				"Grimy marrentill": "1/16@1 (noted)",
+				"Grimy toadflax": "1/16@1 (noted)",
+				"Grimy torstol": "1/16@1 (noted)",
+				"Dragon scale dust": "1/16@1-10",
+				"Infernus pyroclasts": "1/16@1-4",
+				"Loop half of a key": "1/16@1-6",
+				"Tooth half of a key": "1/16@1-6",
+				"Dark animica stone spirit": "1/16@15",
+				"Phasmatite stone spirit": "1/16@10",
+				"Phasmatite stone spirit": "1/16@30",
+				"Plank": "1/16@10-26 (noted)",
+				"Wine of Zamorak": "1/16@1-5",
+				"Alchemist's key": "1/32@1-5",
+				"Ciku seed": "1/256@1-5"
+			},
+			"ZamorakianUndercityRunesDropTable+": {
+				"Astral rune": "1/8@1-100",
+				"Blood rune": "1/8@1-100",
+				"Death rune": "1/8@1-100",
+				"Fire rune": "1/8@1-100",
+				"Water rune": "1/8@1-100",
+				"Smoke rune": "1/8@1-100",
+				"Soul rune": "1/8@1-100",
+				"Steam rune": "1/8@1-100"
 			},
 			"UniveralArchaeologyDrops+": {
 				"Tetracompass piece (left)": "1/1500@1",
@@ -193651,6 +194026,8 @@
 				"Dark Shard of Leng",
 				"Dark Sliver of Leng",
 				"Omni guard",
+				"Devourer's Guard",
+				"Tumeken's Light",
 				"Roar of Awakening",
 				"Torag's hammer",
 				"Dharok's greataxe",
@@ -194798,6 +195175,7 @@
 				"Frog-leather chaps"
 			],
 			"Flowers[+]": ["Flowers (pastel)", "Red flowers", "Blue flowers", "Yellow flowers", "Purple flowers", "Orange flowers", "Flowers (mixed)", "White flowers", "Black flowers"],
+			"FlowersAll[+]": ["Flowers (pastel)", "Red flowers", "Blue flowers", "Yellow flowers", "Purple flowers", "Orange flowers", "Flowers (mixed)", "White flowers", "Black flowers", "Marigolds", "Nasturtiums", "Rosemary"],
 			"FSOAWeaponPiece[+]": [
 				"Fractured Armadyl symbol",
 				"Fractured stabilisation gem",
@@ -195812,6 +196190,9 @@
 			],
 			"PirateClothing[+]": ["Pirate bandana (white)", "Pirate bandana (red)" ,"Pirate bandana (blue)" ,"Pirate bandana (brown)" ,"Pirate bandana (grey)" ,"Pirate bandana (orange)" ,"Pirate bandana (purple)", "Pirate shirt (white)", "Pirate shirt (red)" ,"Pirate shirt (blue)" ,"Pirate shirt (brown)" ,"Pirate shirt (grey)" ,"Pirate shirt (orange)" ,"Pirate shirt (purple)", "Pirate leggings (white)", "Pirate leggings (red)" ,"Pirate leggings (blue)" ,"Pirate leggings (brown)" ,"Pirate leggings (grey)" ,"Pirate leggings (orange)" ,"Pirate leggings (purple)", "Pirate boots", "Eyepatch", "Pirate's hat", "Pirate hook (left)"],
 			"Plank[+]": ["Plank", "Oak plank", "Teak plank", "Mahogany plank"],
+			"PlankOakUp[+]": ["Oak plank", "Willow plank", "Teak plank", "Maple plank", "Acadia plank", "Mahogany plank", "Yew plank", "Magic plank", "Elder plank"],
+			"PlankTeakUp[+]": ["Teak plank", "Maple plank", "Acadia plank", "Mahogany plank", "Yew plank", "Magic plank", "Elder plank"],
+			"PlankMahoganyUp[+]": ["Mahogany plank", "Yew plank", "Magic plank", "Elder plank"],
 			"PolarCamo[+]": [
 				"Polar camo legs",
 				"Polar camo top"
@@ -196981,6 +197362,13 @@
 				"Trimmed masterwork melee helm",
 				"Trimmed masterwork melee platebody",
 				"Trimmed masterwork melee platelegs"
+			],
+			"Tumeken's resplendence[+]": [
+				"Mask of Tumeken's resplendence",
+				"Robe top of Tumeken's resplendence",
+				"Robe bottom of Tumeken's resplendence",
+				"Boots of Tumeken's resplendence",
+				"Gloves of Tumeken's resplendence"
 			],
 			"Undeaddragonhide[+]": [
 				"Undead dragonhide body",
@@ -198558,7 +198946,8 @@
 			"FremennikHelm[+]": "Any fremennik helmet",
 			"FremennikIlsesOres[+]": "Any ore that can be used to complete the Fremennik Isles quest",
 			"FrogLeatherArmour[+]": "Any piece of frog-leather armour",
-			"Flowers[+]": "Any type of flowers",
+			"Flowers[+]": "Any type of wieldable flowers",
+			"FlowersAll[+]": "Any type of flower",
 			"FruitTreeSeed[+]": "Any fruit tree seed that can be grown at the brimhaven fruit tree patch",
 			"FSOAWeaponPiece[+]": "Any piece of the fractured Staff of Armadyl",
 			"FungalArmour[+]": "Any piece of fungal armour",
@@ -198701,7 +199090,10 @@
 			"Pigpouch[+]": "Any pouch that can be used to make bacon blast scrolls",
 			"PineappleRing[+]": "Any pineapple item that can be used to top pizza",
 			"PirateClothing[+]": "Any piece of pirate clothing",
-            "Plank[+]": "Any type of plank",
+            "Plank[+]": "Any type of POH-usable plank",
+			"PlankOakUp[+]": "Oak planks or better",
+			"PlankTeakUp[+]": "Teak planks or better",
+			"PlankMahoganyUp[+]": "Mahogany planks or better",
 			"PolarCamo[+]": "Any piece of the polar camo outfit",
 			"PoorDivine[+]": "Any divine location that can be used to make a poor locator",
 			"Potion[+]": "Any potion that can be emptied to create a vial",
@@ -202814,6 +203206,115 @@
 				"1": "2/512"
 			}
 		},
+		"Amascut, the Devourer": {
+			"Extreme attack (2)": {
+				"3-9": "Common"
+			},
+			"Extreme strength (2)": {
+				"3-9": "Common"
+			},
+			"Extreme defence (2)": {
+				"3-9": "Common"
+			},
+			"Extreme ranging (2)": {
+				"3-9": "Common"
+			},
+			"Extreme magic (2)": {
+				"3-9": "Common"
+			},
+			"Extreme necromancy (2)": {
+				"3-9": "Common"
+			},
+			"Necrotic anima stone": {
+				"40-160": "Common"
+			},
+			"Blood rune": {
+				"300-1000": "Common"
+			},
+			"Soul rune": {
+				"200-600": "Common"
+			},
+			"Death rune": {
+				"500-900": "Common"
+			},
+			"Luminous energy": {
+				"750-1700": "Common"
+			},
+			"Feather of Ma'at": {
+				"80-240": "Common"
+			},
+			"Water rune": {
+				"320": "Common"
+			},
+			"Wine of Saradomin": {
+				"4-16": "Rare"
+			},
+			"Wine of Guthix": {
+				"4-16": "Rare"
+			},
+			"Key to the Crossing": {
+				"1-3": "Rare"
+			},
+			"Manuscript of Amascut": {
+				"1-5": "Rare"
+			},
+			"Vital spark": {
+				"1-5": "Uncommon",
+				"25": "Rare",
+				"50": "Rare"
+			},
+			"Small spiky orikalkum salvage": {
+				"5-40": "Common"
+			},
+			"Medium plated orikalkum salvage": {
+				"5-30": "Common"
+			},
+			"Huge plated rune salvage": {
+				"5-40": "Common"
+			},
+			"Large spiky orikalkum salvage": {
+				"5-30": "Common"
+			},
+			"Devourer's Guard": {
+				"1": "Very rare"
+			},
+			"The Devourer's Nexus": {
+				"1": "Very rare"
+			},
+			"Tumeken's Light": {
+				"1": "Very rare"
+			},
+			"Mask of Tumeken's resplendence": {
+				"1": "Very rare"
+			},
+			"Robe top of Tumeken's resplendence": {
+				"1": "Very rare"
+			},
+			"Robe bottom of Tumeken's resplendence": {
+				"1": "Very rare"
+			},
+			"Gloves of Tumeken's resplendence": {
+				"1": "Very rare"
+			},
+			"Boots of Tumeken's resplendence": {
+				"1": "Very rare"
+			},
+			"Cursed Amascut sand": {
+				"1": "Rare"
+			},
+			"Memoirs of the Devourer": {
+				"1": "Always"
+			},
+			"Amascut's promise": {
+				"1": "Very rare"
+			},
+			"Shard of Genesis Essence": {
+				"1": "Rare"
+			},
+			"Devourer aura (Amascut)": {
+				"1": "Always"
+			}
+		},
 		"Anagami (Temple of Aminishi)": {
 			"TempleOfAminishiAlchablesDropTable+": {
 				"1": "500/1000"
@@ -206112,6 +206613,21 @@
 			"Dungeoneering token": {
 				"500": "Always",
 				"5000": "Always"
+			},
+			"ZamorakianUndercityLuckyDropTable+": {
+				"1": "2.5/100"
+			},
+			"ZamorakianUndercityAlchablesDropTable+": {
+				"1": "2/5"
+			},
+			"ZamorakianUndercityRunesDropTable+": {
+				"1": "1/4"
+			},
+			"ZamorakianUndercitySkillingDropTable+": {
+				"1": "1/5"
+			},
+			"ZamorakianUndercitySuppliesDropTable+": {
+				"1": "3/20"
 			},
 			"Sliver of pain": {
 				"4-6": "1/100"
@@ -209445,6 +209961,21 @@
 				"500": "Always",
 				"5000": "Always"
 			},
+			"ZamorakianUndercityLuckyDropTable+": {
+				"1": "2.5/100"
+			},
+			"ZamorakianUndercityAlchablesDropTable+": {
+				"1": "2/5"
+			},
+			"ZamorakianUndercityRunesDropTable+": {
+				"1": "1/4"
+			},
+			"ZamorakianUndercitySkillingDropTable+": {
+				"1": "1/5"
+			},
+			"ZamorakianUndercitySuppliesDropTable+": {
+				"1": "3/20"
+			},
 			"Sliver of pain": {
 				"4-6": "1/300"
 			},
@@ -209453,9 +209984,6 @@
 			},
 			"Sliver of strength": {
 				"4-6": "1/300"
-			},
-			"Alchable": {
-				"1": "99/100"
 			},
 			"Sealed clue scroll (elite)": {
 				"1": "1/12"
@@ -210404,43 +210932,103 @@
 		"Chaos witch": {
 			"Burnt bones": {
 				"1": "Always"
+			},
+			"ZamorakianUndercityAlchablesDropTable+": {
+				"1": "2/5"
+			},
+			"ZamorakianUndercityRunesDropTable+": {
+				"1": "1/4"
+			},
+			"ZamorakianUndercitySkillingDropTable+": {
+				"1": "1/5"
+			},
+			"ZamorakianUndercitySuppliesDropTable+": {
+				"1": "3/20"
 			}
 		},
 		"Chaos witch apprentice": {
 			"Burnt bones": {
 				"1": "Always"
+			},
+			"ZamorakianUndercityAlchablesDropTable+": {
+				"1": "2/5"
+			},
+			"ZamorakianUndercityRunesDropTable+": {
+				"1": "1/4"
+			},
+			"ZamorakianUndercitySkillingDropTable+": {
+				"1": "1/5"
+			},
+			"ZamorakianUndercitySuppliesDropTable+": {
+				"1": "3/20"
 			}
 		},
 		"Chaos witch channeler": {
 			"Burnt bones": {
 				"1": "Always"
 			},
-			"Spirit sapphire": {
-				"1": "1/400"
+			"ZamorakianUndercityAlchablesDropTable+": {
+				"1": "2/5"
 			},
-			"Spirit emerald": {
-				"1": "1/667"
+			"ZamorakianUndercityRunesDropTable+": {
+				"1": "1/4"
 			},
-			"Spirit ruby": {
-				"1": "1/1000"
+			"ZamorakianUndercitySkillingDropTable+": {
+				"1": "1/5"
 			},
-			"RareDropTable+": {
-				"1": "Unknown"
+			"ZamorakianUndercitySuppliesDropTable+": {
+				"1": "3/20"
 			}
 		},
 		"Chaos witch lifeweaver": {
 			"Burnt bones": {
 				"1": "Always"
+			},
+			"ZamorakianUndercityAlchablesDropTable+": {
+				"1": "2/5"
+			},
+			"ZamorakianUndercityRunesDropTable+": {
+				"1": "1/4"
+			},
+			"ZamorakianUndercitySkillingDropTable+": {
+				"1": "1/5"
+			},
+			"ZamorakianUndercitySuppliesDropTable+": {
+				"1": "3/20"
 			}
 		},
 		"Chaos witch magus": {
 			"Burnt bones": {
 				"1": "Always"
+			},
+			"ZamorakianUndercityAlchablesDropTable+": {
+				"1": "2/5"
+			},
+			"ZamorakianUndercityRunesDropTable+": {
+				"1": "1/4"
+			},
+			"ZamorakianUndercitySkillingDropTable+": {
+				"1": "1/5"
+			},
+			"ZamorakianUndercitySuppliesDropTable+": {
+				"1": "3/20"
 			}
 		},
 		"Chaos witch mender": {
 			"Burnt bones": {
 				"1": "Always"
+			},
+			"ZamorakianUndercityAlchablesDropTable+": {
+				"1": "2/5"
+			},
+			"ZamorakianUndercityRunesDropTable+": {
+				"1": "1/4"
+			},
+			"ZamorakianUndercitySkillingDropTable+": {
+				"1": "1/5"
+			},
+			"ZamorakianUndercitySuppliesDropTable+": {
+				"1": "3/20"
 			}
 		},
 		"Chicken": {
@@ -214031,16 +214619,52 @@
 		"Dark wizard (The Zamorakian Undercity)": {
 			"Burnt bones": {
 				"1": "Always"
+			},
+			"ZamorakianUndercityAlchablesDropTable+": {
+				"1": "2/5"
+			},
+			"ZamorakianUndercityRunesDropTable+": {
+				"1": "1/4"
+			},
+			"ZamorakianUndercitySkillingDropTable+": {
+				"1": "1/5"
+			},
+			"ZamorakianUndercitySuppliesDropTable+": {
+				"1": "3/20"
 			}
 		},
 		"Dark wizard elder": {
 			"Burnt bones": {
 				"1": "Always"
+			},
+			"ZamorakianUndercityAlchablesDropTable+": {
+				"1": "2/5"
+			},
+			"ZamorakianUndercityRunesDropTable+": {
+				"1": "1/4"
+			},
+			"ZamorakianUndercitySkillingDropTable+": {
+				"1": "1/5"
+			},
+			"ZamorakianUndercitySuppliesDropTable+": {
+				"1": "3/20"
 			}
 		},
 		"Dark wizard master": {
 			"Burnt bones": {
 				"1": "Always"
+			},
+			"ZamorakianUndercityAlchablesDropTable+": {
+				"1": "2/5"
+			},
+			"ZamorakianUndercityRunesDropTable+": {
+				"1": "1/4"
+			},
+			"ZamorakianUndercitySkillingDropTable+": {
+				"1": "1/5"
+			},
+			"ZamorakianUndercitySuppliesDropTable+": {
+				"1": "3/20"
 			}
 		},
 		"Deadly red spider": {
@@ -214511,6 +215135,21 @@
 			"Accursed ashes": {
 				"12 (noted)": "49/50"
 			},
+			"ZamorakianUndercityLuckyDropTable+": {
+				"1": "2.5/100"
+			},
+			"ZamorakianUndercityAlchablesDropTable+": {
+				"1": "2/5"
+			},
+			"ZamorakianUndercityRunesDropTable+": {
+				"1": "1/4"
+			},
+			"ZamorakianUndercitySkillingDropTable+": {
+				"1": "1/5"
+			},
+			"ZamorakianUndercitySuppliesDropTable+": {
+				"1": "3/20"
+			},
 			"Sliver of pain": {
 				"4-6": "19/1000"
 			},
@@ -214555,6 +215194,21 @@
 			"Dungeoneering token": {
 				"500": "Always",
 				"5000": "Always"
+			},
+			"ZamorakianUndercityLuckyDropTable+": {
+				"1": "2.5/100"
+			},
+			"ZamorakianUndercityAlchablesDropTable+": {
+				"1": "2/5"
+			},
+			"ZamorakianUndercityRunesDropTable+": {
+				"1": "1/4"
+			},
+			"ZamorakianUndercitySkillingDropTable+": {
+				"1": "1/5"
+			},
+			"ZamorakianUndercitySuppliesDropTable+": {
+				"1": "3/20"
 			},
 			"Sliver of pain": {
 				"4-6": "9/1000"
@@ -216698,6 +217352,21 @@
 			"Dungeoneering token": {
 				"500": "Always",
 				"5000": "Always"
+			},
+			"ZamorakianUndercityLuckyDropTable+": {
+				"1": "2.5/100"
+			},
+			"ZamorakianUndercityAlchablesDropTable+": {
+				"1": "2/5"
+			},
+			"ZamorakianUndercityRunesDropTable+": {
+				"1": "1/4"
+			},
+			"ZamorakianUndercitySkillingDropTable+": {
+				"1": "1/5"
+			},
+			"ZamorakianUndercitySuppliesDropTable+": {
+				"1": "3/20"
 			},
 			"Sliver of pain": {
 				"4-6": "1/100"
@@ -223018,16 +223687,52 @@
 		"Greater demon pyromancer": {
 			"Accursed ashes": {
 				"1": "Always"
+			},
+			"ZamorakianUndercityAlchablesDropTable+": {
+				"1": "2/5"
+			},
+			"ZamorakianUndercityRunesDropTable+": {
+				"1": "1/4"
+			},
+			"ZamorakianUndercitySkillingDropTable+": {
+				"1": "1/5"
+			},
+			"ZamorakianUndercitySuppliesDropTable+": {
+				"1": "3/20"
 			}
 		},
 		"Greater demon sage": {
 			"Accursed ashes": {
 				"1": "Always"
+			},
+			"ZamorakianUndercityAlchablesDropTable+": {
+				"1": "2/5"
+			},
+			"ZamorakianUndercityRunesDropTable+": {
+				"1": "1/4"
+			},
+			"ZamorakianUndercitySkillingDropTable+": {
+				"1": "1/5"
+			},
+			"ZamorakianUndercitySuppliesDropTable+": {
+				"1": "3/20"
 			}
 		},
 		"Greater demon savage": {
 			"Accursed ashes": {
 				"1": "Always"
+			},
+			"ZamorakianUndercityAlchablesDropTable+": {
+				"1": "2/5"
+			},
+			"ZamorakianUndercityRunesDropTable+": {
+				"1": "1/4"
+			},
+			"ZamorakianUndercitySkillingDropTable+": {
+				"1": "1/5"
+			},
+			"ZamorakianUndercitySuppliesDropTable+": {
+				"1": "3/20"
 			}
 		},
 		"Greater reborn mage": {
@@ -224898,16 +225603,61 @@
 		"Hellhound (The Zamorakian Undercity)": {
 			"Bones": {
 				"1": "Always"
+			},
+			"ZamorakianUndercityLuckyDropTable+": {
+				"1": "2.5/100"
+			},
+			"ZamorakianUndercityAlchablesDropTable+": {
+				"1": "2/5"
+			},
+			"ZamorakianUndercityRunesDropTable+": {
+				"1": "1/4"
+			},
+			"ZamorakianUndercitySkillingDropTable+": {
+				"1": "1/5"
+			},
+			"ZamorakianUndercitySuppliesDropTable+": {
+				"1": "3/20"
 			}
 		},
 		"Hellhound Alpha": {
 			"Bones": {
 				"1": "Always"
+			},
+			"ZamorakianUndercityLuckyDropTable+": {
+				"1": "2.5/100"
+			},
+			"ZamorakianUndercityAlchablesDropTable+": {
+				"1": "2/5"
+			},
+			"ZamorakianUndercityRunesDropTable+": {
+				"1": "1/4"
+			},
+			"ZamorakianUndercitySkillingDropTable+": {
+				"1": "1/5"
+			},
+			"ZamorakianUndercitySuppliesDropTable+": {
+				"1": "3/20"
 			}
 		},
 		"Hellhound Hunter": {
 			"Bones": {
 				"1": "Always"
+			},
+			"ZamorakianUndercityLuckyDropTable+": {
+				"1": "2.5/100"
+			},
+			"ZamorakianUndercityAlchablesDropTable+": {
+				"1": "2/5"
+			},
+			"ZamorakianUndercityRunesDropTable+": {
+				"1": "1/4"
+			},
+			"ZamorakianUndercitySkillingDropTable+": {
+				"1": "1/5"
+			},
+			"ZamorakianUndercitySuppliesDropTable+": {
+				"1": "3/20"
 			}
 		},
 		"Helwyr": {
@@ -232794,6 +233544,21 @@
 			"Soul rune": {
 				"15": "99/100"
 			},
+			"ZamorakianUndercityLuckyDropTable+": {
+				"1": "2.5/100"
+			},
+			"ZamorakianUndercityAlchablesDropTable+": {
+				"1": "2/5"
+			},
+			"ZamorakianUndercityRunesDropTable+": {
+				"1": "1/4"
+			},
+			"ZamorakianUndercitySkillingDropTable+": {
+				"1": "1/5"
+			},
+			"ZamorakianUndercitySuppliesDropTable+": {
+				"1": "3/20"
+			},
 			"Sliver of pain": {
 				"4-6": "9/1000"
 			},
@@ -232814,6 +233579,21 @@
 			"Dungeoneering token": {
 				"500": "Always",
 				"5000": "Always"
+			},
+			"ZamorakianUndercityLuckyDropTable+": {
+				"1": "2.5/100"
+			},
+			"ZamorakianUndercityAlchablesDropTable+": {
+				"1": "2/5"
+			},
+			"ZamorakianUndercityRunesDropTable+": {
+				"1": "1/4"
+			},
+			"ZamorakianUndercitySkillingDropTable+": {
+				"1": "1/5"
+			},
+			"ZamorakianUndercitySuppliesDropTable+": {
+				"1": "3/20"
 			},
 			"Sliver of pain": {
 				"4-6": "1/100"
@@ -237171,6 +237951,18 @@
 			},
 			"Fire rune": {
 				"20-48": "Always"
+			},
+			"ZamorakianUndercityAlchablesDropTable+": {
+				"1": "2/5"
+			},
+			"ZamorakianUndercityRunesDropTable+": {
+				"1": "1/4"
+			},
+			"ZamorakianUndercitySkillingDropTable+": {
+				"1": "1/5"
+			},
+			"ZamorakianUndercitySuppliesDropTable+": {
+				"1": "3/20"
 			}
 		},
 		"Queen Black Dragon": {
@@ -239829,6 +240621,18 @@
 		"Seething Pyrefiend": {
 			"Impious ashes": {
 				"1": "Always"
+			},
+			"ZamorakianUndercityAlchablesDropTable+": {
+				"1": "2/5"
+			},
+			"ZamorakianUndercityRunesDropTable+": {
+				"1": "1/4"
+			},
+			"ZamorakianUndercitySkillingDropTable+": {
+				"1": "1/5"
+			},
+			"ZamorakianUndercitySuppliesDropTable+": {
+				"1": "3/20"
 			}
 		},
 		"Seiryu the Azure Serpent": {
@@ -243217,6 +244021,21 @@
 				"500": "Always",
 				"5000": "Always"
 			},
+			"ZamorakianUndercityLuckyDropTable+": {
+				"1": "2.5/100"
+			},
+			"ZamorakianUndercityAlchablesDropTable+": {
+				"1": "2/5"
+			},
+			"ZamorakianUndercityRunesDropTable+": {
+				"1": "1/4"
+			},
+			"ZamorakianUndercitySkillingDropTable+": {
+				"1": "1/5"
+			},
+			"ZamorakianUndercitySuppliesDropTable+": {
+				"1": "3/20"
+			},
 			"Sliver of pain": {
 				"4-6": "1/100"
 			},
@@ -245645,6 +246464,18 @@
 		"Torrential Waterfiend": {
 			"Impious ashes": {
 				"1": "Always"
+			},
+			"ZamorakianUndercityAlchablesDropTable+": {
+				"1": "2/5"
+			},
+			"ZamorakianUndercityRunesDropTable+": {
+				"1": "1/4"
+			},
+			"ZamorakianUndercitySkillingDropTable+": {
+				"1": "1/5"
+			},
+			"ZamorakianUndercitySuppliesDropTable+": {
+				"1": "3/20"
 			}
 		},
 		"Tortoise": {
@@ -249536,11 +250367,35 @@
 		"War priest of chaos": {
 			"Burnt bones": {
 				"1": "Always"
+			},
+			"ZamorakianUndercityAlchablesDropTable+": {
+				"1": "2/5"
+			},
+			"ZamorakianUndercityRunesDropTable+": {
+				"1": "1/4"
+			},
+			"ZamorakianUndercitySkillingDropTable+": {
+				"1": "1/5"
+			},
+			"ZamorakianUndercitySuppliesDropTable+": {
+				"1": "3/20"
 			}
 		},
 		"War priestess of chaos": {
 			"Burnt bones": {
 				"1": "Always"
+			},
+			"ZamorakianUndercityAlchablesDropTable+": {
+				"1": "2/5"
+			},
+			"ZamorakianUndercityRunesDropTable+": {
+				"1": "1/4"
+			},
+			"ZamorakianUndercitySkillingDropTable+": {
+				"1": "1/5"
+			},
+			"ZamorakianUndercitySuppliesDropTable+": {
+				"1": "3/20"
 			}
 		},
 		"Warped bat": {
@@ -250280,6 +251135,18 @@
 		"Waterfiend (The Zamorakian Undercity)": {
 			"Impious ashes": {
 				"1": "Always"
+			},
+			"ZamorakianUndercityAlchablesDropTable+": {
+				"1": "2/5"
+			},
+			"ZamorakianUndercityRunesDropTable+": {
+				"1": "1/4"
+			},
+			"ZamorakianUndercitySkillingDropTable+": {
+				"1": "1/5"
+			},
+			"ZamorakianUndercitySuppliesDropTable+": {
+				"1": "3/20"
 			},
 			"Water rune": {
 				"20-48": "Always"
@@ -252499,21 +253366,72 @@
 		"Zamorakian cultist": {
 			"Burnt bones": {
 				"1": "Always"
+			},
+			"ZamorakianUndercityLuckyDropTable+": {
+				"1": "2.5/100"
+			},
+			"ZamorakianUndercityAlchablesDropTable+": {
+				"1": "2/5"
+			},
+			"ZamorakianUndercityRunesDropTable+": {
+				"1": "1/4"
+			},
+			"ZamorakianUndercitySkillingDropTable+": {
+				"1": "1/5"
+			},
+			"ZamorakianUndercitySuppliesDropTable+": {
+				"1": "3/20"
 			}
 		},
 		"Zamorakian hound master": {
 			"Bones": {
 				"1": "Always"
+			},
+			"ZamorakianUndercityAlchablesDropTable+": {
+				"1": "2/5"
+			},
+			"ZamorakianUndercityRunesDropTable+": {
+				"1": "1/4"
+			},
+			"ZamorakianUndercitySkillingDropTable+": {
+				"1": "1/5"
+			},
+			"ZamorakianUndercitySuppliesDropTable+": {
+				"1": "3/20"
 			}
 		},
 		"Zamorakian hunter": {
 			"Bones": {
 				"1": "Always"
+			},
+			"ZamorakianUndercityAlchablesDropTable+": {
+				"1": "2/5"
+			},
+			"ZamorakianUndercityRunesDropTable+": {
+				"1": "1/4"
+			},
+			"ZamorakianUndercitySkillingDropTable+": {
+				"1": "1/5"
+			},
+			"ZamorakianUndercitySuppliesDropTable+": {
+				"1": "3/20"
 			}
 		},
 		"Zamorakian ritual keeper": {
 			"Burnt bones": {
 				"1": "Always"
+			},
+			"ZamorakianUndercityAlchablesDropTable+": {
+				"1": "2/5"
+			},
+			"ZamorakianUndercityRunesDropTable+": {
+				"1": "1/4"
+			},
+			"ZamorakianUndercitySkillingDropTable+": {
+				"1": "1/5"
+			},
+			"ZamorakianUndercitySuppliesDropTable+": {
+				"1": "3/20"
 			}
 		},
 		"Zamorakian sniper (Heart of Gielinor)": {
@@ -254031,6 +254949,7 @@
 		"Dwarf Cannon": "10294, 10038, 10293, Goblin Cave, 12085",
 		"Eadgar's Ruse": "11573, Eadgar's Cave, Troll Stronghold, 10291, 11577",
 		"Eagles' Peak": "10291, 9270, Eagles' Peak Eyrie, 13109",
+		"Eclipse of the Heart": "12586, 13098, Temple of Isolation, 13362, 12846, 13613, Ungael ritual site, City of Um",
 		"The Elder Kiln": "TzHaar City, Fight Kiln",
 		"Elemental Workshop I": "10806, Elemental Workshop First Floor",
 		"Elemental Workshop II": "13364, Elemental Workshop First Floor, Elemental Workshop Second Floor, Elemental Workshop Third Floor First Hallway",
@@ -255283,6 +256202,12 @@
 			}],
 			"WildernessDropTable+^": [{
 				"RDT rule": "Nonskill"
+			}],
+			"Shard of Genesis Essence^Amascut, the Devourer": [{
+				"Hard Mode Bosses": "Nonskill"
+			}],
+			"Devourer aura (Amascut)": [{
+				"Hard Mode Bosses": "Nonskill"
 			}]
 		},
 		"Monsters": {
@@ -267449,78 +268374,182 @@
 			}
 		},
 		"Crafting": {
-			"Pyrechew": {
+			"Chewed bones loot": {
 				"Death rune": {
-					"1": "Common"
+					"8-15": "18/128"
 				},
 				"Blood rune": {
-					"1": "Common"
+					"4-7": "10/128"
 				},
 				"Prayer mix (2)": {
-					"1": "Common"
+					"1": "4/128"
 				},
 				"Prayer mix (1)": {
-					"1": "Common"
+					"1": "4/128"
 				},
 				"Ranarr potion (unfinished)": {
-					"1": "Common"
-				},
-				"Super antipoison mix (1)": {
-					"1": "Common"
+					"1": "8/128"
 				},
 				"Super antipoison mix (2)": {
-					"1": "Common"
+					"1": "4/128"
+				},
+				"Super strength mix (2)": {
+					"1": "4/128"
 				},
 				"Super strength mix (1)": {
-					"1": "Common"
+					"1": "4/128"
 				},
 				"Mithril grapple": {
-					"1": "Common"
+					"2": "6/128"
 				},
 				"Silver bolts": {
-					"1": "Common"
+					"5": "6/128"
 				},
 				"Rune arrow": {
-					"1": "Common"
+					"10": "6/128"
 				},
 				"Adamant dart": {
-					"1": "Common"
+					"20": "6/128"
 				},
 				"Diamond": {
-					"1": "Uncommon"
+					"2 (noted)": "8/128"
 				},
 				"Super attack mix (2)": {
-					"1": "Uncommon"
+					"1": "4/128"
 				},
 				"Super attack mix (1)": {
-					"1": "Uncommon"
+					"1": "4/128"
 				},
 				"Super defence mix (2)": {
-					"1": "Uncommon"
+					"1": "4/128"
 				},
 				"Super defence mix (1)": {
-					"1": "Uncommon"
+					"1": "4/128"
 				},
 				"Antifire mix (2)": {
-					"1": "Uncommon"
+					"1": "4/128"
 				},
 				"Antifire mix (1)": {
-					"1": "Uncommon"
+					"1": "4/128"
 				},
 				"Rune bolts": {
-					"1": "Uncommon"
+					"10": "6/128"
 				},
 				"Adamant knife": {
-					"1": "Uncommon"
-				},
-				"Big bones": {
-					"1": "Rare"
+					"20": "6/128"
 				},
 				"Fishing mix (2)": {
-					"1": "Rare"
+					"1": "4/128"
 				},
 				"Dragon full helm": {
-					"1": "1/250"
+					"1": "1/256"
+				}
+			},
+			"Mangled bones loot": {
+				"Mithril hasta": {
+					"1": "2/128"
+				},
+				"Adamant knife": {
+					"20": "2/128"
+				},
+				"Off-hand adamant knife": {
+					"20": "2/128"
+				},
+				"Adamant dart": {
+					"20": "2/128"
+				},
+				"Off-hand adamant dart": {
+					"20": "2/128"
+				},
+				"Death rune": {
+					"5-9": "8/128"
+				},
+				"Rune arrow": {
+					"10": "4/128"
+				},
+				"Rune bolts": {
+					"10": "4/128"
+				},
+				"Prayer mix (1)": {
+					"1": "16/128"
+				},
+				"Prayer mix (2)": {
+					"1": "8/128"
+				},
+				"Antifire mix (1)": {
+					"1": "4/128"
+				},
+				"Antifire mix (2)": {
+					"1": "4/128"
+				},
+				"Super defence mix (2)": {
+					"1": "3/128"
+				},
+				"Super defence mix (1)": {
+					"1": "2/128"
+				},
+				"Super attack mix (2)": {
+					"1": "3/128"
+				},
+				"Super attack mix (1)": {
+					"1": "2/128"
+				},
+				"Super strength mix (2)": {
+					"1": "2/128"
+				},
+				"Super strength mix (1)": {
+					"1": "2/128"
+				},
+				"Fishing mix (2)": {
+					"1": "1/128"
+				},
+				"Super antipoison mix (2)": {
+					"1": "1/128"
+				},
+				"Coal stone spirit": {
+					"2": "2/128"
+				},
+				"Mithril stone spirit": {
+					"2": "2/128"
+				},
+				"Adamantite stone spirit": {
+					"1": "1/128"
+				},
+				"Runite stone spirit": {
+					"1": "1/128"
+				},
+				"Tiny blunt mithril salvage": {
+					"1": "5/128"
+				},
+				"Tiny blunt adamant salvage": {
+					"1": "4/128"
+				},
+				"Tiny spiky mithril salvage": {
+					"1": "2/128"
+				},
+				"Tiny spiky adamant salvage": {
+					"1": "1/128"
+				},
+				"Tiny blunt rune salvage": {
+					"1": "1/128"
+				},
+				"Big bones": {
+					"10 (noted)": "7/128"
+				},
+				"Shark": {
+					"3": "6/128"
+				},
+				"Ranarr seed": {
+					"1": "5/128"
+				},
+				"Yew logs": {
+					"3": "1/128"
+				},
+				"HerbDropTable+": {
+					"1": "10/128"
+				},
+				"GemDropTable+": {
+					"1": "8/128"
 				}
 			},
 			"Dream of Iaia loot": {
@@ -268991,7 +270020,184 @@
 			}
 		},
 		"Firemaking": {
-			"LoarRemains": {
+			"Chewed bones loot": {
+				"Death rune": {
+					"8-15": "18/128"
+				},
+				"Blood rune": {
+					"4-7": "10/128"
+				},
+				"Prayer mix (2)": {
+					"1": "4/128"
+				},
+				"Prayer mix (1)": {
+					"1": "4/128"
+				},
+				"Ranarr potion (unfinished)": {
+					"1": "8/128"
+				},
+				"Super antipoison mix (2)": {
+					"1": "4/128"
+				},
+				"Super strength mix (2)": {
+					"1": "4/128"
+				},
+				"Super strength mix (1)": {
+					"1": "4/128"
+				},
+				"Mithril grapple": {
+					"2": "6/128"
+				},
+				"Silver bolts": {
+					"5": "6/128"
+				},
+				"Rune arrow": {
+					"10": "6/128"
+				},
+				"Adamant dart": {
+					"20": "6/128"
+				},
+				"Diamond": {
+					"2 (noted)": "8/128"
+				},
+				"Super attack mix (2)": {
+					"1": "4/128"
+				},
+				"Super attack mix (1)": {
+					"1": "4/128"
+				},
+				"Super defence mix (2)": {
+					"1": "4/128"
+				},
+				"Super defence mix (1)": {
+					"1": "4/128"
+				},
+				"Antifire mix (2)": {
+					"1": "4/128"
+				},
+				"Antifire mix (1)": {
+					"1": "4/128"
+				},
+				"Rune bolts": {
+					"10": "6/128"
+				},
+				"Adamant knife": {
+					"20": "6/128"
+				},
+				"Fishing mix (2)": {
+					"1": "4/128"
+				},
+				"Dragon full helm": {
+					"1": "1/256"
+				}
+			},
+			"Mangled bones loot": {
+				"Mithril hasta": {
+					"1": "2/128"
+				},
+				"Adamant knife": {
+					"20": "2/128"
+				},
+				"Off-hand adamant knife": {
+					"20": "2/128"
+				},
+				"Adamant dart": {
+					"20": "2/128"
+				},
+				"Off-hand adamant dart": {
+					"20": "2/128"
+				},
+				"Death rune": {
+					"5-9": "8/128"
+				},
+				"Rune arrow": {
+					"10": "4/128"
+				},
+				"Rune bolts": {
+					"10": "4/128"
+				},
+				"Prayer mix (1)": {
+					"1": "16/128"
+				},
+				"Prayer mix (2)": {
+					"1": "8/128"
+				},
+				"Antifire mix (1)": {
+					"1": "4/128"
+				},
+				"Antifire mix (2)": {
+					"1": "4/128"
+				},
+				"Super defence mix (2)": {
+					"1": "3/128"
+				},
+				"Super defence mix (1)": {
+					"1": "2/128"
+				},
+				"Super attack mix (2)": {
+					"1": "3/128"
+				},
+				"Super attack mix (1)": {
+					"1": "2/128"
+				},
+				"Super strength mix (2)": {
+					"1": "2/128"
+				},
+				"Super strength mix (1)": {
+					"1": "2/128"
+				},
+				"Fishing mix (2)": {
+					"1": "1/128"
+				},
+				"Super antipoison mix (2)": {
+					"1": "1/128"
+				},
+				"Coal stone spirit": {
+					"2": "2/128"
+				},
+				"Mithril stone spirit": {
+					"2": "2/128"
+				},
+				"Adamantite stone spirit": {
+					"1": "1/128"
+				},
+				"Runite stone spirit": {
+					"1": "1/128"
+				},
+				"Tiny blunt mithril salvage": {
+					"1": "5/128"
+				},
+				"Tiny blunt adamant salvage": {
+					"1": "4/128"
+				},
+				"Tiny spiky mithril salvage": {
+					"1": "2/128"
+				},
+				"Tiny spiky adamant salvage": {
+					"1": "1/128"
+				},
+				"Tiny blunt rune salvage": {
+					"1": "1/128"
+				},
+				"Big bones": {
+					"10 (noted)": "7/128"
+				},
+				"Shark": {
+					"3": "6/128"
+				},
+				"Ranarr seed": {
+					"1": "5/128"
+				},
+				"Yew logs": {
+					"3": "1/128"
+				},
+				"HerbDropTable+": {
+					"1": "10/128"
+				},
+				"GemDropTable+": {
+					"1": "8/128"
+				}
+			},"LoarRemains": {
 				"Coins": {
 					"200-210": "Common"
 				},
@@ -271099,205 +272305,202 @@
 					"1": "Common"
 				},
 				"Pouch": {
-					"25": "Common"
+					"25": "1/2"
 				},
 				"Cockatrice egg": {
-					"1": "Rare"
+					"1": "1/130"
 				},
 				"Saratrice egg": {
-					"1": "Rare"
+					"1": "1/130"
 				},
 				"Vulatrice egg": {
-					"1": "Rare"
+					"1": "1/130"
 				},
 				"Zamatrice egg": {
-					"1": "Rare"
+					"1": "1/130"
 				},
 				"Pengatrice egg": {
-					"1": "Rare"
+					"1": "1/130"
 				},
 				"Guthatrice egg": {
-					"1": "Rare"
+					"1": "1/130"
 				},
 				"Coraxatrice egg": {
-					"1": "Rare"
+					"1": "1/130"
 				},
 				"Bronze bar": {
-					"6 (noted)": "Uncommon"
+					"6 (noted)": "1/130"
 				},
 				"Iron ingot": {
-					"5 (noted)": "Uncommon"
+					"5 (noted)": "1/130"
 				},
 				"Iron bar": {
-					"5 (noted)": "Uncommon"
+					"5 (noted)": "1/130"
 				},
 				"Steel bar": {
-					"2 (noted)": "Uncommon"
+					"2 (noted)": "1/130"
 				},
 				"Mithril bar": {
-					"1": "Uncommon"
+					"1": "1/130"
 				},
 				"Adamant bar": {
-					"1": "Uncommon"
+					"1": "1/130"
 				},
 				"Rune bar": {
-					"1": "Uncommon"
+					"1": "1/130"
 				},
 				"Steel ingot": {
-					"2-5 (noted)": "Uncommon"
+					"2-5 (noted)": "1/130"
 				},
 				"Bronze claws": {
-					"6-9 (noted)": "Uncommon"
+					"6-9 (noted)": "1/130"
 				},
 				"Gold ring": {
-					"6-10 (noted)": "Uncommon"
+					"6-10 (noted)": "1/130"
 				},
 				"Raw rat meat": {
-					"25 (noted)": "Uncommon"
+					"25 (noted)": "1/130"
 				},
 				"Raw chicken": {
-					"12-15 (noted": "Uncommon"
+					"9-15 (noted": "1/130"
 				},
 				"Raw bird meat": {
-					"5 (noted)": "Uncommon",
-					"7 (noted)": "Uncommon"
+					"5-9 (noted)": "1/130"
 				},
 				"Raw rabbit": {
-					"5-9 (noted)": "Uncommon"
+					"5-9 (noted)": "1/130"
 				},
 				"Raw beef": {
-					"11 (noted)": "Uncommon"
+					"11 (noted)": "1/130"
 				},
 				"Thin snail": {
-					"5 (noted)": "Uncommon"
+					"5 (noted)": "1/130"
 				},
 				"Larupia fur": {
-					"1": "Uncommon"
+					"1": "1/130"
 				},
 				"Kyatt fur": {
-					"1": "Uncommon"
+					"1": "1/130"
 				},
 				"Graahk fur": {
-					"1": "Uncommon"
+					"1": "1/130"
 				},
 				"Yak-hide": {
-					"5-8 (noted)": "Uncommon"
+					"5-9 (noted)": "1/130"
 				},
 				"Dagannoth hide": {
-					"1": "Uncommon"
+					"1": "1/130"
 				},
 				"Tortoise shell": {
-					"1": "Uncommon"
+					"1": "1/130"
 				},
 				"Spider carcass": {
-					"1": "Uncommon"
+					"1": "1/130"
 				},
 				"Proboscis": {
-					"1": "Uncommon"
+					"1": "1/130"
 				},
 				"Wolf bones": {
-					"3 (noted)": "Uncommon"
+					"3 (noted)": "1/130"
 				},
 				"Unicorn horn": {
-					"1": "Uncommon"
+					"1": "1/130"
 				},
 				"Green salamander": {
-					"1": "Uncommon"
+					"1": "1/130"
 				},
 				"Swamp toad": {
-					"5 (noted)": "Uncommon"
+					"5 (noted)": "1/130"
 				},
 				"Honeycomb": {
-					"10 (noted)": "Uncommon"
+					"10 (noted)": "1/130"
 				},
 				"Pot of flour": {
-					"14-28 (noted)": "Uncommon"
+					"11-19 (noted)": "1/130"
 				},
 				"Compost": {
-					"12 (noted)": "Uncommon",
-					"14 (noted)": "Uncommon"
+					"11-19 (noted)": "1/130"
 				},
 				"Marigolds": {
-					"1": "Uncommon"
+					"1": "1/130"
 				},
 				"Evil turnip seed": {
-					"1-4": "Uncommon"
+					"1-4": "1/130"
 				},
 				"Evil turnip": {
-					"1": "Uncommon"
+					"1": "1/130"
 				},
 				"Carved evil turnip": {
-					"1": "Uncommon"
+					"1": "1/130"
 				},
 				"Willow logs": {
-					"32-70 (noted)": "Uncommon"
+					"30-70 (noted)": "1/130"
 				},
 				"Willow branch": {
-					"2 (noted)": "Uncommon"
+					"2 (noted)": "1/130"
 				},
 				"Banana": {
-					"17-24 (noted)": "Uncommon"
+					"17-24 (noted)": "1/130"
 				},
 				"Bagged plant 1": {
-					"2 (noted)": "Uncommon"
+					"2 (noted)": "1/130"
 				},
 				"Potato cactus": {
-					"1": "Uncommon"
+					"1": "1/130"
 				},
 				"Red flowers": {
-					"1": "Uncommon"
+					"1": "1/130"
 				},
 				"Ruby harvest": {
-					"2 (noted)": "Uncommon",
-					"4 (noted": "Uncommon"
+					"2 (noted)": "1/130"
 				},
 				"Clean guam": {
-					"4 (noted)": "Uncommon"
+					"4 (noted)": "1/130"
 				},
 				"Tinderbox": {
-					"10-26 (noted)": "Uncommon"
+					"10-26 (noted)": "1/130"
 				},
 				"Harpoon": {
-					"9-14 (noted)": "Uncommon"
+					"9-14 (noted)": "1/130"
 				},
 				"Fishbowl": {
-					"5 (noted)": "Uncommon"
+					"5 (noted)": "1/130"
 				},
 				"Granite (500g)": {
-					"5 (noted)": "Uncommon"
+					"5 (noted)": "1/130"
 				},
 				"Fire talisman": {
-					"1": "Uncommon"
+					"1": "1/130"
 				},
 				"Air talisman": {
-					"4 (noted)": "Uncommon"
+					"4 (noted)": "1/130"
 				},
 				"Water orb": {
-					"2 (noted)": "Uncommon"
+					"2 (noted)": "1/130"
 				},
 				"Goat horn dust": {
-					"2 (noted)": "Uncommon"
+					"2 (noted)": "1/130"
 				},
 				"Chinchompa": {
-					"4": "Uncommon"
+					"4": "1/130"
 				},
 				"Polar kebbit fur": {
-					"1": "Uncommon"
+					"1": "1/130"
 				},
 				"Raw shark": {
-					"1": "Uncommon"
+					"1": "1/130"
 				},
 				"Water talisman": {
-					"1-2 (noted)": "Uncommon"
+					"1-2 (noted)": "1/130"
 				},
 				"Earth talisman": {
-					"1-2 (noted)": "Uncommon"
+					"1-2 (noted)": "1/130"
 				},
 				"Bucket of sand": {
-					"10 (noted)": "Uncommon"
+					"10 (noted)": "1/130"
 				},
 				"Vampyre dust": {
-					"1": "Uncommon"
+					"1": "1/130"
 				}
 			},
 			"SabreKyatt": {
@@ -271480,31 +272683,28 @@
 			},
 			"Ghost impling": {
 				"Broken memento": {
-					"2-4": "Common"
+					"2-4": "21/256"
 				},
 				"Ectoplasm": {
-					"12-47": "Common"
+					"12-24": "144/256"
 				},
 				"Fragile memento": {
-					"1-2": "Common"
+					"1-2": "15/256"
 				},
 				"Regular ghostly ink": {
-					"2-7": "Common"
+					"2-7": "32/256"
 				},
 				"Regular ritual candle": {
-					"2-12": "Common"
+					"2-12": "32/256"
 				},
 				"Greater ghostly ink": {
-					"1-3": "Uncommon"
+					"1-3": "4/256"
 				},
 				"Greater ritual candle": {
-					"1": "Uncommon"
+					"1": "4/256"
 				},
 				"Spirit memento": {
-					"1": "Uncommon"
-				},
-				"Uncut moonstone": {
-					"1": "Rare"
+					"1": "2/256"
 				}
 			},
 			"DashingKebbit": {
@@ -272434,116 +273634,57 @@
 				}
 			},
 			"Pirate impling": {
-				"Gold stone spirit": {
-					"15": "Common"
+				"Piece of eight": {
+					"5-30": "1/101"
 				},
-				"Pirate shirt (red)": {
-					"1": "Common"
+				"Left eyepatch": {
+					"1": "4/101"
 				},
-				"Pirate shirt (blue)": {
-					"1": "Common"
+				"Coins": {
+					"20000-25000": "1/16.8",
+					"10000-15000": "1/8.42",
+					"50000-10000": "1/5.61"
 				},
-				"Pirate shirt (purple)": {
-					"1": "Common"
+				"The Stuff": {
+					"1": "1/5.61"
 				},
-				"Pirate shirt (brown)": {
-					"1": "Common"
+				"Shark": {
+					"10 (noted)": "1/8.42"
 				},
-				"Pirate shirt (grey)": {
-					"1": "Common"
+				"Raw shark": {
+					"8 (noted)": "1/8.42"
 				},
-				"Pirate shirt (white)": {
-					"1": "Common"
-				},
-				"Pirate shirt (orange)": {
-					"1": "Common"
-				},
-				"Pirate leggings (red)": {
-					"1": "Common"
-				},
-				"Pirate leggings (blue)": {
-					"1": "Common"
-				},
-				"Pirate leggings (purple)": {
-					"1": "Common"
-				},
-				"Pirate leggings (brown)": {
-					"1": "Common"
-				},
-				"Pirate leggings (grey)": {
-					"1": "Common"
-				},
-				"Pirate leggings (white)": {
-					"1": "Common"
-				},
-				"Pirate leggings (orange)": {
-					"1": "Common"
-				},
-				"Pirate bandana (red)": {
-					"1": "Common"
-				},
-				"Pirate bandana (blue)": {
-					"1": "Common"
-				},
-				"Pirate bandana (purple)": {
-					"1": "Common"
-				},
-				"Pirate bandana (brown)": {
-					"1": "Common"
-				},
-				"Pirate bandana (grey)": {
-					"1": "Common"
-				},
-				"Pirate bandana (white)": {
-					"1": "Common"
-				},
-				"Pirate bandana (orange)": {
-					"1": "Common"
-				},
-				"Bandana and eyepatch (red)": {
-					"1": "Common"
-				},
-				"Bandana and eyepatch (blue)": {
-					"1": "Common"
-				},
-				"Bandana and eyepatch (brown)": {
-					"1": "Common"
-				},
-				"Bandana and eyepatch (grey)": {
-					"1": "Common"
-				},
-				"Pirate boots": {
-					"1": "Uncommon"
-				},
-				"Pieces of eight": {
-					"1-5": "Very rare"
+				"Agility Arena ticket": {
+					"10-25": "1/5.61"
 				}
 			},
 			"Pirate impling (post quest)": {
-				"Raw shark": {
-					"8 (noted)": "Common",
-					"27 (noted)": "Common"
-				},
-				"Shark": {
-					"10-11 (noted)": "Common"
-				},
-				"Agility Arena ticket": {
-					"10-27": "Common"
-				},
-				"Coins": {
-					"5000-25000": "Common"
-				},
-				"The Stuff": {
-					"1-2": "Common"
+				"Piece of eight": {
+					"5-30": "1/101"
 				},
 				"Left eyepatch": {
-					"1": "Uncommon"
+					"1": "4/101"
 				},
-				"Pieces of eight": {
-					"5-30": "Uncommon"
+				"Coins": {
+					"22000-27500": "1/16.8",
+					"11000-16500": "1/8.42",
+					"55000-11000": "1/5.61"
+				},
+				"The Stuff": {
+					"1": "1/6.23",
+					"2": "1/56.1"
+				},
+				"Shark": {
+					"11 (noted)": "1/8.42"
+				},
+				"Raw shark": {
+					"8 (noted)": "1/8.42"
+				},
+				"Agility Arena ticket": {
+					"11-27": "1/5.61"
 				},
 				"Pirate hook (right)": {
-					"1": "Rare"
+					"1": "1/1000"
 				}
 			},
 			"Grenwall": {
@@ -273125,71 +274266,29 @@
 					"50-150": "25/101"
 				},
 				"Elder charm": {
-					"1": "Common",
-					"5": "Common"
+					"1": "25/101",
+					"5": "5/101"
 				},
 				"Sign of life": {
-					"1": "Uncommon"
+					"1": "1/101"
 				},
 				"Sign of death": {
-					"1": "Uncommon"
-				},
-				"Sign of the porter I": {
-					"1": "Uncommon"
-				},
-				"Sign of the porter II": {
-					"1": "Uncommon"
-				},
-				"Sign of the porter III": {
-					"1": "Uncommon"
-				},
-				"Sign of the porter IV": {
-					"1": "Uncommon"
-				},
-				"Sign of the porter V": {
-					"1": "Uncommon"
+					"1": "1/101"
 				},
 				"Sign of the porter VI": {
-					"1": "Uncommon"
+					"1": "15/101"
 				},
 				"Portent of life": {
-					"1": "Uncommon"
+					"1": "1/101"
 				},
 				"Portent of death": {
-					"1": "Uncommon"
-				},
-				"Portent of restoration I": {
-					"1": "Uncommon"
-				},
-				"Portent of restoration II": {
-					"1": "Uncommon"
-				},
-				"Portent of restoration III": {
-					"1": "Uncommon"
-				},
-				"Portent of restoration IV": {
-					"1": "Uncommon"
-				},
-				"Portent of restoration V": {
-					"1": "Uncommon"
-				},
-				"Portent of restoration VI": {
-					"1": "Uncommon"
-				},
-				"Portent of restoration VII": {
-					"1": "Uncommon"
-				},
-				"Portent of restoration VIII": {
-					"1": "Uncommon"
-				},
-				"Portent of restoration IX": {
-					"1": "Uncommon"
+					"1": "1/101"
 				},
 				"Portent of restoration X": {
-					"1": "Uncommon"
+					"1": "15/101"
 				},
 				"Nightmare muspah pouch": {
-					"1": "Rare"
+					"1": "1/101"
 				}
 			},
 			"SpicatiApoterrasaur": {
@@ -273826,31 +274925,31 @@
 			},
 			"Zombie impling": {
 				"Big bones": {
-					"5-15 (noted)": "Common"
+					"5-15 (noted)": "10/30"
 				},
 				"Baby dragon bones": {
-					"2-6 (noted)": "Common"
+					"2-6 (noted)": "15/30"
 				},
 				"Dragon bones": {
-					"3 (noted)": "Uncommon"
+					"3 (noted)": "1/30"
 				},
 				"Wyvern bones": {
-					"3 (noted)": "Uncommon"
+					"3 (noted)": "1/30"
 				},
 				"Curved bone": {
-					"1": "Rare"
+					"1": "1/30"
 				},
 				"Long bone": {
-					"1": "Rare"
+					"1": "1/30"
 				},
 				"Fayr bone": {
-					"3": "Rare"
+					"3 (noted)": "1/91"
 				},
 				"Raugr bone": {
-					"2": "Rare"
+					"2 (noted)": "1/91"
 				},
 				"Ourg bone": {
-					"1": "Rare"
+					"1 (noted)": "1/91"
 				},
 				"Monkey skull": {
 					"1": "1/3000"
@@ -273891,30 +274990,30 @@
 			},
 			"Oily bakami": {
 				"Raw seerfish": {
-					"6-12 (noted)": "Common"
+					"6-12 (noted)": "2/8"
 				},
 				"Raw tarpon": {
-					"9-18 (noted)": "Common"
+					"9-18 (noted)": "2/8"
 				},
 				"Wushanko fishing bait": {
-					"10": "Common"
+					"10": "2/8"
 				},
 				"Fish oil": {
-					"1-3": "Common"
+					"1-3": "1/8"
 				},
 				"Raw sillago": {
-					"3-5 (noted)": "Uncommon"
+					"3-6 (noted)": "1/8"
 				}
 			},
 			"Bundling bakami": {
 				"Bamboo": {
-					"5-10 (noted)": "Common"
+					"5-10 (noted)": "1/3"
 				},
 				"Driftwood": {
-					"3-7 (noted)": "Common"
+					"3-7 (noted)": "1/3"
 				},
 				"Bundle of bamboo": {
-					"1-2": "Common"
+					"1-2": "1/3"
 				}
 			},
 			"Salty bakami": {
@@ -273924,90 +275023,84 @@
 			},
 			"Stalking bakami": {
 				"Shell chippings": {
-					"4-10": "Common"
+					"4-10": "1/2"
 				},
 				"Tortle shell bowl": {
-					"1-2": "Common"
+					"1-2": "1/2"
 				}
 			},
 			"Foraging bakami": {
 				"Rumberry": {
-					"3-6": "Common"
+					"3-6": "1/4"
 				},
 				"Exuberry seed": {
-					"1": "Common"
+					"1": "1/4"
 				},
 				"Exuberry": {
-					"3-7": "Common"
+					"3-7": "1/4"
 				},
 				"Rumberry seed": {
-					"1": "Common"
+					"1": "1/4"
 				}
 			},
 			"Ancestral bakami": {
 				"Positive energy": {
-					"20-40": "Common"
+					"20-40": "1/2"
 				},
 				"Negative energy": {
-					"20-40": "Common"
-				},
-				"Ancestral energy": {
-					"10-20": "Uncommon"
+					"20-40": "1/2"
 				}
 			},
 			"Murderous bakami": {
 				"Sapphire amulet": {
-					"4-6 (noted)": "Common"
+					"4-6 (noted)": "1/17"
 				},
 				"Sapphire bracelet": {
-					"7 (noted)": "Common"
+					"7 (noted)": "1/17"
 				},
 				"Ring of recoil": {
-					"4-6 (noted)": "Common"
+					"4-6 (noted)": "1/17"
 				},
 				"Magic potion (2)": {
-					"2-3 (noted)": "Common"
+					"2-3 (noted)": "1/17"
 				},
 				"Spirit dragon charm": {
-					"11-15": "Common"
+					"10-15": "4/17"
 				},
 				"Magic stock": {
-					"10-13 (noted)": "Common"
+					"10-13 (noted)": "1/17"
 				},
 				"Tiny spiky mithril salvage": {
-					"3-6 (noted)": "Common"
+					"3-6 (noted)": "2/17"
 				},
 				"Weapon poison+ (2)": {
-					"2 (noted)": "Common"
+					"2 (noted)": "1/17"
 				},
 				"Water battlestaff": {
 					"3-6 (noted)": "Uncommon"
 				},
 				"Water talisman": {
-					"4-8 (noted)": "Uncommon"
-				},
-				"Small plated mithril salvage": {
-					"3-5 (noted)": "Uncommon"
+					"4-8 (noted)": "1/17"
 				},
 				"Medium plated mithril salvage": {
-					"3-5 (noted)": "Uncommon"
+					"3-5 (noted)": "1/17"
 				},
 				"Unpowered orb": {
-					"4-8 (noted)": "Uncommon"
+					"4-8 (noted)": "1/17"
 				},
 				"Water orb": {
-					"5-6 (noted)": "Uncommon"
+					"5-6 (noted)": "1/17"
 				}
 			},
 			"Fortunate bakami": {
 				"Arc gumbo": {
-					"1-3 (noted)": "Common"
+					"1-3 (noted)": "1/4"
 				},
 				"Uncooked arc gumbo": {
-					"1-3 (noted)": "Common"
+					"1-3 (noted)": "1/4"
 				},
 				"Chimes": {
-					"25-100": "Common"
+					"25-100": "2/4"
 				}
 			},
 			"CorbiculaRex": {
@@ -274151,88 +275244,88 @@
 			},
 			"Kingly impling": {
 				"Uncut diamond": {
-					"15-35 (noted)": "Common"
+					"15-35 (noted)": "1/28"
 				},
 				"Amulet of glory": {
-					"3-11 (noted)": "Common"
+					"3 (noted)": "1/28"
 				},
 				"Dragonstone amulet": {
-					"3 (noted)": "Common"
+					"3 (noted)": "1/28"
 				},
 				"Crystal key": {
-					"2 (noted)": "Common"
+					"2 (noted)": "1/28"
 				},
 				"Royal amulet": {
-					"1": "Uncommon"
+					"1": "1/28"
 				},
 				"Royal crown": {
-					"1": "Uncommon"
+					"1": "1/28"
 				},
 				"Royal leggings": {
-					"1": "Uncommon"
+					"1": "1/28"
 				},
 				"Royal shirt": {
-					"1": "Uncommon"
+					"1": "1/28"
 				},
 				"Royal sceptre": {
-					"1": "Uncommon"
+					"1": "2/28"
 				},
 				"Dragon arrow": {
-					"40-240": "Uncommon"
+					"50-150": "2/28"
 				},
 				"Dragon arrowheads": {
-					"50-148": "Uncommon"
+					"50-150": "2/28"
 				},
 				"Dragon bolt tips": {
-					"55-70": "Uncommon"
+					"50-70": "1/28"
 				},
 				"Dragon dart": {
-					"182-319": "Uncommon"
+					"175-325": "1/28"
 				},
 				"Dragon dart tip": {
-					"70-293": "Uncommon"
+					"100-300": "1/28"
 				},
 				"Dragon longsword": {
-					"1": "Uncommon"
+					"2 (noted)": "1/28"
 				},
 				"Dragon spear": {
-					"1": "Uncommon"
+					"1": "1/50.4"
 				},
 				"Uncut dragonstone": {
-					"5 (noted)": "Uncommon"
+					"5 (noted)": "1/28"
 				},
 				"Dragonstone": {
-					"6 (noted)": "Uncommon"
+					"6 (noted)": "2/28"
 				},
 				"Dragon bolts": {
-					"40-70": "Uncommon"
+					"40-60": "2/28"
 				},
 				"Onyx bolts": {
-					"41-60": "Uncommon"
+					"40-60": "2/28"
 				},
 				"Runite stone spirit": {
-					"10": "Uncommon"
+					"10": "1/28"
 				},
 				"Onyx bolt tips": {
-					"1-75": "Rare"
+					"30-75": "1/28"
 				},
 				"Dragon 2h sword": {
-					"1": "Very rare"
+					"1": "1/202"
 				},
 				"Shield left half": {
-					"1": "Very rare"
+					"1": "1/101"
 				},
 				"Uncut onyx": {
-					"1": "Very rare"
+					"1": "1/1008"
 				},
 				"Crystal triskelion fragment 1": {
-					"1": "Very rare"
+					"1": "1/100"
 				},
 				"Crystal triskelion fragment 2": {
-					"1": "Very rare"
+					"1": "1/100"
 				},
 				"Crystal triskelion fragment 3": {
-					"1": "Very rare"
+					"1": "1/100"
 				}
 
 			},
@@ -274544,150 +275637,147 @@
 			},
 			"Oily orokami": {
 				"Fish oil": {
-					"1-3": "Common"
+					"1-3": "1/8"
 				},
 				"Wobbegong oil": {
-					"1-3": "Common"
+					"1-3": "9/80"
 				},
 				"Raw seerfish": {
-					"6-12 (noted)": "Common"
+					"6-12 (noted)": "2/8"
 				},
 				"Raw tarpon": {
-					"9-18 (noted)": "Common"
+					"9-18 (noted)": "2/8"
 				},
 				"Raw sillago": {
-					"3-6 (noted)": "Common"
+					"3-6 (noted)": "1/8"
 				},
 				"Raw wobbegong": {
-					"2-4 (noted)": "Common"
+					"2-4 (noted)": "1/8"
 				},
 				"Ikuchi orokami mask": {
-					"1": "1/100"
+					"1": "1/80"
 				}
 			},
 			"Bundling orokami": {
 				"Driftwood": {
-					"3-7 (noted)": "Common"
+					"3-7 (noted)": "1/3"
 				},
 				"Bundle of bamboo": {
-					"1-2": "Common"
+					"1-2": "1/3"
 				},
 				"Golden bamboo": {
-					"2-5 (noted)": "Common"
+					"2-5 (noted)": "22/69"
 				},
 				"Kodama orokami mask": {
-					"1": "1/92"
+					"1": "1/69"
 				}
 			},
 			"Salty orokami": {
 				"Area salt": {
-					"5-8": "Common"
+					"5-8": "3916/4050"
 				},
 				"Akkorokamui orokami maks": {
 					"1": "1/90"
 				},
 				"Golden idol": {
-					"1": "Very rare"
+					"1": "1/45"
 				}
 			},
 			"Stalking orokami": {
 				"Shiny hsell chippings": {
-					"4-12": "Common"
+					"4-12": "1/2"
 				},
 				"Shiny tortle shell bowl": {
-					"2-4": "Common"
+					"2-4": "20/42"
 				},
 				"Karasu orokami mask": {
-					"1": "1/84"
+					"1": "2/84"
 				}
 			},
 			"Foraging orokami": {
 				"Rumberry seed": {
-					"1": "Common"
+					"1": "1/4"
 				},
 				"Exuberry seed": {
-					"1": "Common"
+					"1": "1/4"
 				},
 				"Blushroom": {
-					"5-11": "Common"
+					"5-11": "38/160"
 				},
 				"Wushroom": {
-					"5-11": "Common"
+					"5-11": "38/160"
 				},
 				"Akateko orokami mask": {
-					"1": "1/80"
+					"1": "1/40"
 				}
 			},
 			"Ancestral orokami": {
 				"Ancestral energy": {
-					"20-40": "Common"
+					"20-40": "35/36"
 				},
 				"Nue orokami mask": {
-					"1": "1/72"
+					"1": "2/72"
 				}
 			},
 			"Murderous orokami": {
 				"Sapphire amulet": {
-					"4-6 (noted)": "Common"
+					"4-6 (noted)": "1/17"
 				},
 				"Sapphire bracelet": {
-					"5-7 (noted)": "Common"
+					"5-7 (noted)": "1/17"
 				},
 				"Ring of recoil": {
-					"4-6 (noted)": "Common"
+					"4-6 (noted)": "1/17"
 				},
 				"Magic potion (2)": {
-					"2 (noted)": "Common"
+					"2 (noted)": "1/17"
 				},
 				"Spirit dragon charm": {
-					"10-15": "Common"
+					"10-15": "4/17"
 				},
 				"Magic stock": {
-					"10-14 (noted)": "Common"
+					"10-14 (noted)": "1/17"
 				},
 				"Unpowered orb": {
-					"5-8 (noted)": "Common"
+					"5-8 (noted)": "1/17"
 				},
 				"Water talisman": {
-					"4-8 (noted)": "Common"
+					"4-8 (noted)": "1/17"
 				},
 				"Weapon poison+ (2)": {
-					"2 (noted)": "Common"
+					"2 (noted)": "1/17"
 				},
 				"Medium plated adamant salvage": {
-					"8-9 (noted)": "Uncommon"
-				},
-				"Small plated adamant salvage": {
-					"6 (noted)": "Uncommon"
+					"8-9 (noted)": "1/17"
 				},
 				"Tiny spiky adamant salvage": {
-					"6-10 (noted)": "Uncommon"
+					"6-10 (noted)": "2/17"
 				},
 				"Water battlestaff": {
-					"3-4 (noted)": "Uncommon"
+					"3-4 (noted)": "1/17"
 				},
 				"Water orb": {
-					"4-6 (noted)": "Uncommon"
+					"4-6 (noted)": "1/17"
 				},
 				"Shinigami orokami mask": {
-					"1": "1/60"
+					"1": "1/51"
 				}
 			},
 			"Fortunate orokami": {
 				"Shark soup": {
-					"1-3 (noted)": "Common"
+					"1-3 (noted)": "1/4"
 				},
 				"Uncooked shark soup": {
-					"1-3 (noted)": "Common"
+					"1-3 (noted)": "1/4"
 				},
 				"Taijitu": {
-					"1-2": "Common"
+					"1-2": "7/32"
 				},
 				"Chimes": {
-					"53-124": "Common"
+					"50-125": "1/4"
 				},
 				"Oni orokami mask": {
-					"1": "1/64"
+					"1": "1/32"
 				}
 			},
 			"PavosaurusRex": {
@@ -293772,30 +294862,30 @@
 			},
 			"Vegetable stall": {
 				"Raw potato": {
-					"1": "705/2347"
+					"1": "1/3"
 				},
 				"Onion": {
-					"1": "449/2347"
+					"1": "1/5"
 				},
 				"Cabbage": {
-					"1": "475/2347"
+					"1": "1/5"
 				},
 				"Tomato": {
-					"1": "494/2347"
+					"1": "1/5"
 				},
 				"Garlic": {
-					"1": "224/2347"
+					"1": "1/10"
 				}
 			},
 			"Bakery stall": {
 				"Cake": {
-					"1": "13/20"
+					"1": "1/4"
 				},
 				"Bread": {
-					"1": "5/20"
+					"1": "1/2"
 				},
 				"Chocolate slice": {
-					"1": "2/20"
+					"1": "1/10"
 				}
 			},
 			"General stall": {
@@ -293822,39 +294912,39 @@
 			},
 			"Wine stall": {
 				"Jug": {
-					"1": "56/140"
+					"1": "1/3"
 				},
 				"Jug of water": {
-					"1": "25/140"
+					"1": "1/5"
 				},
 				"Grapes": {
-					"1": "23/140"
+					"1": "1/6"
 				},
 				"Jug of wine": {
-					"1": "22/140"
+					"1": "1/6"
 				},
 				"Bottle of wine": {
-					"1": "14/140"
+					"1": "1/10"
 				}
 			},
 			"Draynor wine stall": {
 				"Jug of wine": {
-					"1": "257/1058"
+					"1": "1/5"
 				},
 				"Grapes": {
-					"1": "372/1058"
+					"1": "1/3"
 				},
 				"Jug of water": {
-					"1": "416/1058"
+					"1": "1/3"
 				},
 				"Wine of Guthix": {
-					"1": "6/1058"
+					"1": "1/256"
 				},
 				"Wine of Saradomin": {
-					"1": "4/1058"
+					"1": "1/256"
 				},
 				"Wine of Zamorak": {
-					"1": "3/1058"
+					"1": "1/256"
 				}
 			},
 			"Seed stall": {
@@ -294012,10 +295102,10 @@
 			},
 			"Scimitar stall": {
 				"Iron scimitar": {
-					"1": "Common"
+					"1": "2/3"
 				},
 				"Steel scimitar": {
-					"1": "Common"
+					"1": "1/3"
 				}
 			},
 			"Gem stall": {
@@ -296009,6 +297099,874 @@
 				},
 				"Empty oyster": {
 					"1": "3/10"
+				}
+			},
+			"Crystal chest": {
+				"Uncut dragonstone": {
+					"1" :"Always"
+				},
+				"Dragonstone helm": {
+					"1": "1/34005"
+				},
+				"Dragonstone hauberk": {
+					"1": "1/34005"
+				},
+				"Dragonstone greaves": {
+					"1": "1/34005"
+				},
+				"Dragonstone gauntlets": {
+					"1": "1/34005"
+				},
+				"Dragonstone boots": {
+					"1": "1/34005"
+				},
+				"Lantadyme seed": {
+					"2" :"600/6801"
+				},
+				"Law rune": {
+					"50": "600/6801"
+				},
+				"Chaos rune": {
+					"50": "600/6801"
+				},
+				"Cosmic rune": {
+					"50": "600/6801"
+				},
+				"Death rune": {
+					"50": "600/6801"
+				},
+				"Nature rune": {
+					"50": "600/6801"
+				},
+				"Body rune": {
+					"50": "600/6801"
+				},
+				"Mind rune": {
+					"200": "600/6801"
+				},
+				"Eart rune": {
+					"200": "600/6801"
+				},
+				"Air rune": {
+					"200": "600/6801"
+				},
+				"Water rune": {
+					"200": "600/6801"
+				},
+				"Fire rune": {
+					"200": "600/6801"
+				},
+				"Coins": {
+					"15000": "10000/6801"
+				},
+				"Tooth half of a key": {
+					"1": "500/6801"
+				},
+				"Loop half of a key": {
+					"1": "500/6801"
+				},
+				"Coal stone spirit": {
+					"150": "600/6801"
+				},
+				"Iron stone spirit": {
+					"200": "600/6801"
+				},
+				"Uncut ruby": {
+					"3": "600/6801"
+				},
+				"Uncut diamond": {
+					"3": "600/6801"
+				},
+				"Grimy torstol": {
+					"2": "600/6801"
+				},
+				"Runite stone spirit": {
+					"3": "600/6801"
+				},
+				"Large plated rune salvage": {
+					"1": "600/6801"
+				},
+				"Huge plated rune salvage": {
+					"1": "400/6801"
+				},
+				"Calquat tree seed": {
+					"1": "1/25"
+				},
+				"Papaya tree seed": {
+					"1": "1/25"
+				},
+				"Palm tree seed": {
+					"1": "1/125"
+				}
+			},
+			"Crystal chest (Priffdinas)": {
+				"Uncut dragonstone": {
+					"1" :"Always"
+				},
+				"Dragonstone helm": {
+					"1": "1/34005"
+				},
+				"Dragonstone hauberk": {
+					"1": "1/34005"
+				},
+				"Dragonstone greaves": {
+					"1": "1/34005"
+				},
+				"Dragonstone gauntlets": {
+					"1": "1/34005"
+				},
+				"Dragonstone boots": {
+					"1": "1/34005"
+				},
+				"Yew seed": {
+					"1": "1/50"
+				},
+				"Papaya tree seed": {
+					"1": "1/21.4"
+				},
+				"Elder seed": {
+					"1": "1/150"
+				},
+				"Tooth half of a key": {
+					"1": "600/6801"
+				},
+				"Loop half of a key": {
+					"1": "600/6801"
+				},
+				"Crystal motherlode shard": {
+					"1": "1/17002"
+				},
+				"Dwarf weed seed": {
+					"1": "1/68"
+				},
+				"Torstol seed": {
+					"2": "1/17"
+				},
+				"Orichalcite stone spirit": {
+					"3": "700/6801"
+				},
+				"Drakolith stone spirit": {
+					"3": "700/6801"
+				},
+				"Corrupted ore": {
+					"50": "700/6801"
+				},
+				"Huge bladed rune salvage": {
+					"1": "400/6801"
+				},
+				"Medium plated rune salvage": {
+					"1": "600/6801"
+				},
+				"Large plated rune salvage": {
+					"1": "1300/6801"
+				},
+				"Runite stone spirute": {
+					"5": "600/6801"
+				},
+				"Fire talisman": {
+					"5": "500/6801"
+				},
+				"Water talisman": {
+					"1": "500/6801"
+				},
+				"Uncut ruby": {
+					"3": "600/6801"
+				},
+				"Uncut diamond": {
+					"3": "600/6801"
+				},
+				"Grimy lantadyme": {
+					"5": "500/6801"
+				},
+				"Crystal tree blossom": {
+					"1": "500/6801"
+				}
+			},
+			"Triskelion treasures": {
+				"Sealed clue scroll (elite)": {
+					"1": "99/100"
+				},
+				"Sealed clue scroll (master)": {
+					"1": "1/100"
+				},
+				"Uncut dragonstone": {
+					"5": "Always"
+				},
+				"Starved effigy": {
+					"1": "1/64"
+				},
+				"Dragonstone helm": {
+					"1": "1/4535"
+				},
+				"Dragonstone hauberk": {
+					"1": "1/4535"
+				},
+				"Dragonstone greaves": {
+					"1": "1/4535"
+				},
+				"Dragonstone gauntlets": {
+					"1": "1/4535"
+				},
+				"Dragonstone boots": {
+					"1": "1/4535"
+				},
+				"Lantadyme seed": {
+					"3": "100/907"
+				},
+				"Dwarf weed seed": {
+					"3": "100/907"
+				},
+				"Torstol seed": {
+					"3": "100/907"
+				},
+				"Carambola seed": {
+					"2": "6/907"
+				},
+				"Golden dragonfruit seed": {
+					"2": "6/907"
+				},
+				"Calquat tree seed": {
+					"3": "94/907"
+				},
+				"Papaya tree seed": {
+					"3": "94/907"
+				},
+				"Palm tree seed": {
+					"3": "94/907"
+				},
+				"Dragon pickaxe": {
+					"1": "3/1814"
+				},
+				"Dragon hatchet": {
+					"1": "3/1814"
+				},
+				"Magic logs": {
+					"125 (noted)": "100/907"
+				},
+				"Crystal key": {
+					"1": "100/2721"
+				},
+				"Tooth half of a key": {
+					"2": "100/2721"
+				},
+				"Loop half of a key": {
+					"2": "100/2721"
+				},
+				"Yew seed": {
+					"1": "100/907"
+				},
+				"Magic seed": {
+					"1": "100/907"
+				},
+				"Banite stone spirit": {
+					"15": "100/907"
+				},
+				"Primal stone spirit": {
+					"15": "100/907"
+				},
+				"Light animica stone spirit": {
+					"5": "100/907"
+				},
+				"Dark animica stone spirit": {
+					"5": "100/907"
+				},
+				"Grimy torstol": {
+					"10 (noted)": "100/907"
+				},
+				"Grimy snapdragon": {
+					"15 (noted)": "100/907"
+				},
+				"Grimy lantadyme": {
+					"10 (noted)": "100/907"
+				},
+				"Grimy dwarf weed": {
+					"10 (noted)": "100/907"
+				},
+				"Grimy avantoe": {
+					"15 (noted)": "100/907"
+				},
+				"Uncut onyx": {
+					"1": "3/907"
+				},
+				"Crystal triskelion fragment 1": {
+					"1": "100/907"
+				},
+				"Crystal triskelion fragment 2": {
+					"1": "100/907"
+				},
+				"Crystal triskelion fragment 3": {
+					"1": "100/907"
+				},
+				"Sinister key": {
+					"1": "100/907"
+				},
+				"Uncut diamond": {
+					"15 (noted)": "100/907"
+				},
+				"Uncut ruby": {
+					"15 (noted)": "100/907"
+				},
+				"Crimson charm": {
+					"100": "100/907"
+				},
+				"Blue charm": {
+					"80": "100/907"
+				}
+			},
+			"Wooden Recess": {
+				"Black full helm (g)": {
+					"1": "1/8800"
+				},
+				"Black full helm (t)": {
+					"1": "1/8800"
+				},
+				"Black platebody (g)": {
+					"1": "1/8800"
+				},
+				"Black platebody (t)": {
+					"1": "1/8800"
+				},
+				"Black platelegs (g)": {
+					"1": "1/8800"
+				},
+				"Black platelegs (t)": {
+					"1": "1/8800"
+				},
+				"Black plateskirt (g)": {
+					"1": "1/8800"
+				},
+				"Black plateskirt (t)": {
+					"1": "1/8800"
+				},
+				"Black kiteshield (g)": {
+					"1": "1/8800"
+				},
+				"Black kiteshield (t)": {
+					"1": "1/8800"
+				},
+				"Saradomin page 1": {
+					"1": "1/8800"
+				},
+				"Saradomin page 2": {
+					"1": "1/8800"
+				},
+				"Saradomin page 3": {
+					"1": "1/8800"
+				},
+				"Saradomin page 4": {
+					"1": "1/8800"
+				},
+				"Zamorak page 1": {
+					"1": "1/8800"
+				},
+				"Zamorak page 2": {
+					"1": "1/8800"
+				},
+				"Zamorak page 3": {
+					"1": "1/8800"
+				},
+				"Zamorak page 4": {
+					"1": "1/8800"
+				},
+				"Guthix page 1": {
+					"1": "1/8800"
+				},
+				"Guthix page 2": {
+					"1": "1/8800"
+				},
+				"Guthix page 3": {
+					"1": "1/8800"
+				},
+				"Guthix page 4": {
+					"1": "1/8800"
+				},
+				"Adamant full helm (g)": {
+					"1": "1/17600"
+				},
+				"Adamant full helm (t)": {
+					"1": "1/17600"
+				},
+				"Adamant platebody (g)": {
+					"1": "1/17600"
+				},
+				"Adamant platebody (t)": {
+					"1": "1/17600"
+				},
+				"Adamant platelegs (g)": {
+					"1": "1/17600"
+				},
+				"Adamant platelegs (t)": {
+					"1": "1/17600"
+				},
+				"Adamant plateskirt (g)": {
+					"1": "1/17600"
+				},
+				"Adamant plateskirt (t)": {
+					"1": "1/17600"
+				},
+				"Adamant kiteshield (g)": {
+					"1": "1/17600"
+				},
+				"Adamant kiteshield (t)": {
+					"1": "1/17600"
+				},
+				"Rune full helm (g)": {
+					"1": "1/30000"
+				},
+				"Rune full helm (t)": {
+					"1": "1/30000"
+				},
+				"Rune platebody (g)": {
+					"1": "1/30000"
+				},
+				"Rune platebody (t)": {
+					"1": "1/30000"
+				},
+				"Rune platelegs (g)": {
+					"1": "1/30000"
+				},
+				"Rune platelegs (t)": {
+					"1": "1/30000"
+				},
+				"Rune plateskirt (g)": {
+					"1": "1/30000"
+				},
+				"Rune plateskirt (t)": {
+					"1": "1/30000"
+				},
+				"Rune kiteshield (g)": {
+					"1": "1/30000"
+				},
+				"Rune kiteshield (t)": {
+					"1": "1/30000"
+				},
+				"Rune full helm (Saradomin)": {
+					"1": "1/30000"
+				},
+				"Rune platebody (Saradomin)": {
+					"1": "1/30000"
+				},
+				"Rune platelegs (Saradomin)": {
+					"1": "1/30000"
+				},
+				"Rune plateskirt (Saradomin)": {
+					"1": "1/30000"
+				},
+				"Rune kiteshield (Saradomin)": {
+					"1": "1/30000"
+				},
+				"Rune full helm (Zamorak)": {
+					"1": "1/30000"
+				},
+				"Rune platebody (Zamorak)": {
+					"1": "1/30000"
+				},
+				"Rune platelegs (Zamorak)": {
+					"1": "1/30000"
+				},
+				"Rune plateskirt (Zamorak)": {
+					"1": "1/30000"
+				},
+				"Rune kiteshield (Zamorak)": {
+					"1": "1/30000"
+				},
+				"Rune full helm (Guthix)": {
+					"1": "1/30000"
+				},
+				"Rune platebody (Guthix)": {
+					"1": "1/30000"
+				},
+				"Rune platelegs (Guthix)": {
+					"1": "1/30000"
+				},
+				"Rune plateskirt (Guthix)": {
+					"1": "1/30000"
+				},
+				"Rune kiteshield (Guthix)": {
+					"1": "1/30000"
+				},
+				"Dragon spear": {
+					"1": "2/329"
+				},
+				"Blood rune": {
+					"20": "9/329"
+				},
+				"Rune arrow": {
+					"50": "12/329"
+				},
+				"Grimy ranarr": {
+					"2 (noted)": "9/329"
+				},
+				"Grimy toadflax": {
+					"2 (noted)": "9/329"
+				},
+				"Grimy irit": {
+					"2 (noted)": "9/329"
+				},
+				"Grimy avantoe": {
+					"2 (noted)": "9/329"
+				},
+				"Grimy kwuarm": {
+					"2 (noted)": "9/329"
+				},
+				"Grimy snapdragon": {
+					"2 (noted)": "9/329"
+				},
+				"Grimy cadantine": {
+					"2 (noted)": "9/329"
+				},
+				"Grimy lantadyme": {
+					"2 (noted)": "9/329"
+				},
+				"Grimy dwarf weed": {
+					"2 (noted)": "9/329"
+				},
+				"Grimy torstol": {
+					"2 (noted)": "9/329"
+				},
+				"Watermelon seed": {
+					"8": "9/329"
+				},
+				"Limpwurt seed": {
+					"8": "9/329"
+				},
+				"Snape grass seed": {
+					"8": "9/329"
+				},
+				"Lantadyme seed": {
+					"8": "6/329"
+				},
+				"Dwarf weed seed": {
+					"8": "6/329"
+				},
+				"Torstol seed": {
+					"8": "6/329"
+				},
+				"Uncut sapphire": {
+					"4 (noted)": "9/329"
+				},
+				"Uncut emerald": {
+					"4 (noted)": "9/329"
+				},
+				"Uncut ruby": {
+					"4 (noted)": "9/329"
+				},
+				"Uncut diamond": {
+					"4 (noted)": "9/329"
+				},
+				"Silver stone spirit": {
+					"20": "12/329"
+				},
+				"Gold stone spirit": {
+					"20": "12/329"
+				},
+				"Adamantite stone spirit": {
+					"8": "9/329"
+				},
+				"Runite stone spirit": {
+					"1": "6/329"
+				},
+				"Tiny plated rune salvage": {
+					"1": "6/329"
+				},
+				"Tiny spiky rune salvage": {
+					"1": "12/329"
+				},
+				"Medium spiky rune salvage": {
+					"1": "12/329"
+				},
+				"Large plated rune salvage": {
+					"1": "6/329"
+				},
+				"Blood talisman": {
+					"1": "21/329"
+				},
+				"Coins": {
+					"4500-5500": "9/329"
+				},
+				"Limpwurt root": {
+					"8 (noted)": "9/329"
+				},
+				"Red spiders' eggs": {
+					"8 (noted)": "9/329"
+				},
+				"Tooth half of a key": {
+					"1 (noted)": "6/329"
+				},
+				"Loop half of a key": {
+					"1 (noted)": "6/329"
+				},
+				"Gold charm": {
+					"1": "79/1000"
+				},
+				"Green charm": {
+					"1": "39.5/1000"
+				},
+				"Crimson charm": {
+					"1": "39.5/1000"
+				},
+				"Blue charm": {
+					"1": "55.3/1000"
+				}
+			},
+			"Wooden Recess (shiny)": {
+				"Black full helm (g)": {
+					"1": "1/7920"
+				},
+				"Black full helm (t)": {
+					"1": "1/7920"
+				},
+				"Black platebody (g)": {
+					"1": "1/7920"
+				},
+				"Black platebody (t)": {
+					"1": "1/7920"
+				},
+				"Black platelegs (g)": {
+					"1": "1/7920"
+				},
+				"Black platelegs (t)": {
+					"1": "1/7920"
+				},
+				"Black plateskirt (g)": {
+					"1": "1/7920"
+				},
+				"Black plateskirt (t)": {
+					"1": "1/7920"
+				},
+				"Black kiteshield (g)": {
+					"1": "1/7920"
+				},
+				"Black kiteshield (t)": {
+					"1": "1/7920"
+				},
+				"Saradomin page 1": {
+					"1": "1/7920"
+				},
+				"Saradomin page 2": {
+					"1": "1/7920"
+				},
+				"Saradomin page 3": {
+					"1": "1/7920"
+				},
+				"Saradomin page 4": {
+					"1": "1/7920"
+				},
+				"Zamorak page 1": {
+					"1": "1/7920"
+				},
+				"Zamorak page 2": {
+					"1": "1/7920"
+				},
+				"Zamorak page 3": {
+					"1": "1/7920"
+				},
+				"Zamorak page 4": {
+					"1": "1/7920"
+				},
+				"Guthix page 1": {
+					"1": "1/7920"
+				},
+				"Guthix page 2": {
+					"1": "1/7920"
+				},
+				"Guthix page 3": {
+					"1": "1/7920"
+				},
+				"Guthix page 4": {
+					"1": "1/7920"
+				},
+				"Adamant full helm (g)": {
+					"1": "1/15840"
+				},
+				"Adamant full helm (t)": {
+					"1": "1/15840"
+				},
+				"Adamant platebody (g)": {
+					"1": "1/15840"
+				},
+				"Adamant platebody (t)": {
+					"1": "1/15840"
+				},
+				"Adamant platelegs (g)": {
+					"1": "1/15840"
+				},
+				"Adamant platelegs (t)": {
+					"1": "1/15840"
+				},
+				"Adamant plateskirt (g)": {
+					"1": "1/15840"
+				},
+				"Adamant plateskirt (t)": {
+					"1": "1/15840"
+				},
+				"Adamant kiteshield (g)": {
+					"1": "1/15840"
+				},
+				"Adamant kiteshield (t)": {
+					"1": "1/15840"
+				},
+				"Rune full helm (g)": {
+					"1": "1/27000"
+				},
+				"Rune full helm (t)": {
+					"1": "1/27000"
+				},
+				"Rune platebody (g)": {
+					"1": "1/27000"
+				},
+				"Rune platebody (t)": {
+					"1": "1/27000"
+				},
+				"Rune platelegs (g)": {
+					"1": "1/27000"
+				},
+				"Rune platelegs (t)": {
+					"1": "1/27000"
+				},
+				"Rune plateskirt (g)": {
+					"1": "1/27000"
+				},
+				"Rune plateskirt (t)": {
+					"1": "1/27000"
+				},
+				"Rune kiteshield (g)": {
+					"1": "1/27000"
+				},
+				"Rune kiteshield (t)": {
+					"1": "1/27000"
+				},
+				"Rune full helm (Saradomin)": {
+					"1": "1/27000"
+				},
+				"Rune platebody (Saradomin)": {
+					"1": "1/27000"
+				},
+				"Rune platelegs (Saradomin)": {
+					"1": "1/27000"
+				},
+				"Rune plateskirt (Saradomin)": {
+					"1": "1/27000"
+				},
+				"Rune kiteshield (Saradomin)": {
+					"1": "1/27000"
+				},
+				"Rune full helm (Zamorak)": {
+					"1": "1/27000"
+				},
+				"Rune platebody (Zamorak)": {
+					"1": "1/27000"
+				},
+				"Rune platelegs (Zamorak)": {
+					"1": "1/27000"
+				},
+				"Rune plateskirt (Zamorak)": {
+					"1": "1/27000"
+				},
+				"Rune kiteshield (Zamorak)": {
+					"1": "1/27000"
+				},
+				"Rune full helm (Guthix)": {
+					"1": "1/27000"
+				},
+				"Rune platebody (Guthix)": {
+					"1": "1/27000"
+				},
+				"Rune platelegs (Guthix)": {
+					"1": "1/27000"
+				},
+				"Rune plateskirt (Guthix)": {
+					"1": "1/27000"
+				},
+				"Rune kiteshield (Guthix)": {
+					"1": "1/27000"
+				},
+				"Dragon spear": {
+					"1": "2/200"
+				},
+				"Blood rune": {
+					"20": "9/200"
+				},
+				"Rune arrow": {
+					"50": "12/200"
+				},
+				"Grimy toadflax": {
+					"2 (noted)": "9/200"
+				},
+				"Grimy avantoe": {
+					"2 (noted)": "9/200"
+				},
+				"Grimy kwuarm": {
+					"2 (noted)": "9/200"
+				},
+				"Grimy snapdragon": {
+					"2 (noted)": "9/200"
+				},
+				"Grimy lantadyme": {
+					"2 (noted)": "9/200"
+				},
+				"Grimy dwarf weed": {
+					"2 (noted)": "9/200"
+				},
+				"Grimy torstol": {
+					"2 (noted)": "9/200"
+				},
+				"Watermelon seed": {
+					"8": "9/200"
+				},
+				"Snape grass seed": {
+					"8": "9/200"
+				},
+				"Lantadyme seed": {
+					"8": "6/200"
+				},
+				"Dwarf weed seed": {
+					"8": "6/200"
+				},
+				"Uncut ruby": {
+					"4 (noted)": "9/200"
+				},
+				"Uncut diamond": {
+					"4 (noted)": "9/200"
+				},
+				"Adamantite stone spirit": {
+					"8": "9/200"
+				},
+				"Runite stone spirit": {
+					"1": "6/200"
+				},
+				"Tiny plated rune salvage": {
+					"1": "6/200"
+				},
+				"Medium spiky rune salvage": {
+					"1": "12/200"
+				},
+				"Large plated rune salvage": {
+					"1": "6/200"
+				},
+				"Limpwurt root": {
+					"8 (noted)": "9/200"
+				},
+				"Red spiders' eggs": {
+					"8 (noted)": "9/200"
+				},
+				"Tooth half of a key": {
+					"1 (noted)": "6/200"
+				},
+				"Loop half of a key": {
+					"1 (noted)": "6/200"
+				},
+				"Gold charm": {
+					"1": "79/1000"
+				},
+				"Green charm": {
+					"1": "39.5/1000"
+				},
+				"Crimson charm": {
+					"1": "39.5/1000"
+				},
+				"Blue charm": {
+					"1": "55.3/1000"
 				}
 			}
 		}
@@ -308285,6 +310243,26 @@
 			"prayer": 1,
 			"accuracy": 0
 		},
+		"Boots of Tumeken's resplendence": {
+			"formatted_name": "boots of Tumeken's resplendence",
+			"ranged": 0,
+			"requirements": {
+				"Defence": 95,
+				"Magic": 95
+			},
+			"class": "magic",
+			"lp": 0,
+			"tier": 95,
+			"speed": 0,
+			"damage": 0,
+			"type": "Power armour",
+			"armour": 122.9,
+			"slot": "feet",
+			"strength": 0,
+			"magic": 16,
+			"prayer": 0,
+			"accuracy": 0
+		},
 		"Bouquet": {
 			"ranged": 0,
 			"slot": "main hand weapon",
@@ -311596,6 +313574,7 @@
 			"accuracy": 150
 		},
 		"Crown of the First Necromancer": {
+			"formatted_name": "crown of the First Necromancer",
 			"ranged": 0,
 			"requirements": {
 				"Defence": 95,
@@ -314185,7 +316164,7 @@
 				"Necromancy": 1
 			},
 			"damage": 96,
-			"speed": 7,
+			"speed": 3,
 			"tier": 10,
 			"lp": 0,
 			"attack_range": 6,
@@ -314205,7 +316184,7 @@
 				"Necromancy": 20
 			},
 			"damage": 192,
-			"speed": 7,
+			"speed": 3,
 			"tier": 20,
 			"lp": 0,
 			"attack_range": 6,
@@ -314225,7 +316204,7 @@
 				"Necromancy": 30
 			},
 			"damage": 288,
-			"speed": 7,
+			"speed": 3,
 			"tier": 0,
 			"lp": 30,
 			"attack_range": 6,
@@ -314245,7 +316224,7 @@
 				"Necromancy": 40
 			},
 			"damage": 384,
-			"speed": 7,
+			"speed": 3,
 			"tier": 40,
 			"lp": 0,
 			"attack_range": 6,
@@ -314265,7 +316244,7 @@
 				"Necromancy": 50
 			},
 			"damage": 480,
-			"speed": 7,
+			"speed": 3,
 			"tier": 50,
 			"lp": 0,
 			"attack_range": 6,
@@ -314285,7 +316264,7 @@
 				"Necromancy": 60
 			},
 			"damage": 576,
-			"speed": 7,
+			"speed": 3,
 			"tier": 60,
 			"lp": 0,
 			"attack_range": 6,
@@ -314305,7 +316284,7 @@
 				"Necromancy": 70
 			},
 			"damage": 672,
-			"speed": 7,
+			"speed": 3,
 			"tier": 70,
 			"lp": 0,
 			"attack_range": 6,
@@ -314325,7 +316304,7 @@
 				"Necromancy": 80
 			},
 			"damage": 768,
-			"speed": 7,
+			"speed": 3,
 			"tier": 80,
 			"lp": 0,
 			"attack_range": 6,
@@ -314345,7 +316324,7 @@
 				"Necromancy": 90
 			},
 			"damage": 864,
-			"speed": 7,
+			"speed": 3,
 			"tier": 90,
 			"lp": 0,
 			"attack_range": 6,
@@ -314696,6 +316675,46 @@
 			"class": "melee",
 			"accuracy": 316,
 			"auto_damage": 245
+		},
+		"Devourer's Guard": {
+			"formatted_name": "Devourer's Guard",
+			"ranged": 0,
+			"slot": "main hand weapon",
+			"prayer": 0,
+			"style": "necromancy",
+			"ability_damage": 0,
+			"magic": 0,
+			"strength": 0,
+			"armour": 0,
+			"requirements": {
+				"Necromancy": 95
+			},
+			"damage": 912,
+			"speed": 3,
+			"tier": 95,
+			"lp": 0,
+			"attack_range": 6,
+			"class": "necromancy",
+			"accuracy": 2765
+		},
+		"The Devourer's Nexus": {
+			"formatted_name": "The Devourer's Nexus",
+			"ranged": 0,
+			"requirements": {
+				"Necromancy": 80
+			},
+			"class": "necromancy",
+			"lp": 0,
+			"tier": 80,
+			"speed": 0,
+			"armour": 0,
+			"slot": "ammo",
+			"strength": 0,
+			"magic": 0,
+			"ability_damage": 0,
+			"prayer": 0,
+			"accuracy": 0,
+			"auto_damage": 0
 		},
 		"Dharok's greataxe": {
 			"ranged": 0,
@@ -320561,6 +322580,7 @@
 			"accuracy": 0
 		},
 		"Foot wraps of the First Necromancer": {
+			"formatted_name": "foot wraps of the First Necromancer",
 			"ranged": 0,
 			"requirements": {
 				"Defence": 95,
@@ -320581,6 +322601,7 @@
 			"accuracy": 0
 		},
 		"Fractured Staff of Armadyl": {
+			"formatted_name": "fractured Staff of Armadyl",
 			"ranged": 0,
 			"strength": 0,
 			"prayer": 0,
@@ -321620,6 +323641,26 @@
 			"strength": 0,
 			"magic": 11,
 			"prayer": 1,
+			"accuracy": 0
+		},
+		"Gloves of Tumeken's resplendence": {
+			"formatted_name": "gloves of Tumeken's resplendence",
+			"ranged": 0,
+			"requirements": {
+				"Defence": 95,
+				"Magic": 95
+			},
+			"class": "magic",
+			"lp": 0,
+			"tier": 95,
+			"speed": 0,
+			"damage": 0,
+			"type": "Power armour",
+			"armour": 122.9,
+			"slot": "hands",
+			"strength": 0,
+			"magic": 16,
+			"prayer": 0,
 			"accuracy": 0
 		},
 		"Goblin cower shield": {
@@ -322857,6 +324898,7 @@
 			"accuracy": 0
 		},
 		"Guthix's Book of Balance": {
+			"formatted_name": "Guthix's Book of Balance",
 			"ranged": 5,
 			"requirements": {
 				"Prayer": 30
@@ -322935,6 +324977,7 @@
 			"auto_damage": 956.3
 		},
 		"Hand wrap of the First Necromancer": {
+			"formatted_name": "hand wraps of the First Necromancer",
 			"ranged": 0,
 			"requirements": {
 				"Defence": 95,
@@ -323539,7 +325582,8 @@
 			"prayer": 0,
 			"accuracy": 0
 		},
-		"Helm of neitiznot": {
+		"Helm of Neitiznot": {
+			"formatted_name": "Helm of Neitiznot",
 			"ranged": 0,
 			"requirements": {
 				"Defence": 55
@@ -328885,6 +330929,26 @@
 			"prayer": 0,
 			"accuracy": 0
 		},
+		"Mask of Tumeken's resplendence": {
+			"formatted_name": "mask of Tumeken's resplendence",
+			"ranged": 0,
+			"requirements": {
+				"Defence": 95,
+				"Magic": 95
+			},
+			"class": "magic",
+			"lp": 0,
+			"tier": 95,
+			"speed": 0,
+			"damage": 0,
+			"type": "Power armour",
+			"armour": 491.6,
+			"slot": "head",
+			"strength": 0,
+			"magic": 25,
+			"prayer": 0,
+			"accuracy": 0
+		},
 		"Master clan cape": {
 			"ranged": 3,
 			"requirements": {},
@@ -333753,7 +335817,7 @@
 				"Attack": 90
 			},
 			"type": "Halberd",
-			"speed": 5,
+			"speed": 6,
 			"tier": 90,
 			"lp": 0,
 			"attack_range": 2,
@@ -334055,6 +336119,7 @@
 			"accuracy": 0
 		},
 		"Ode to Deceit": {
+			"formatted_name": "Ode to Deceit",
 			"ranged": 0,
 			"slot": "off-hand weapon",
 			"prayer": 0,
@@ -336312,7 +338377,7 @@
 				"Necromancy": 95
 			},
 			"damage": 912,
-			"speed": 7,
+			"speed": 3,
 			"tier": 95,
 			"lp": 0,
 			"attack_range": 6,
@@ -341011,6 +343076,7 @@
 			"auto_damage": 816
 		},
 		"Roar of Awakening": {
+			"formatted_name": "Roar of Awakening",
 			"ranged": 0,
 			"slot": "main hand weapon",
 			"prayer": 0,
@@ -341031,6 +343097,7 @@
 			"auto_damage": 0
 		},
 		"Robe top of the First Necromancer": {
+			"formatted_name": "robe top of the First Necromancer",
 			"ranged": 0,
 			"requirements": {
 				"Defence": 95,
@@ -341051,6 +343118,7 @@
 			"accuracy": 0
 		},
 		"Robe bottom of the First Necromancer": {
+			"formatted_name": "robe bottom of the First Necromancer",
 			"ranged": 0,
 			"requirements": {
 				"Defence": 95,
@@ -341067,6 +343135,46 @@
 			"strength": 0,
 			"magic": 0,
 			"necromancy": 32,
+			"prayer": 0,
+			"accuracy": 0
+		},
+		"Robe top of Tumeken's resplendence": {
+			"formatted_name": "robe top of Tumeken's resplendence",
+			"ranged": 0,
+			"requirements": {
+				"Defence": 95,
+				"Magic": 95
+			},
+			"class": "magic",
+			"lp": 0,
+			"tier": 95,
+			"speed": 0,
+			"damage": 0,
+			"type": "Power armour",
+			"armour": 565.3,
+			"slot": "torso",
+			"strength": 0,
+			"magic": 37,
+			"prayer": 0,
+			"accuracy": 0
+		},
+		"Robe bottom of Tumeken's resplendence": {
+			"formatted_name": "robe bottom of Tumeken's resplendence",
+			"ranged": 0,
+			"requirements": {
+				"Defence": 95,
+				"Magic": 95
+			},
+			"class": "magic",
+			"lp": 0,
+			"tier": 95,
+			"speed": 0,
+			"damage": 0,
+			"type": "Power armour",
+			"armour": 540.7,
+			"slot": "torso",
+			"strength": 0,
+			"magic": 32,
 			"prayer": 0,
 			"accuracy": 0
 		},
@@ -348181,7 +350289,7 @@
 			"class": "necromancy",
 			"lp": 0,
 			"tier": 10,
-			"speed": 7,
+			"speed": 3,
 			"damage": 96,
 			"type": "necromancy",
 			"armour": 0,
@@ -348200,7 +350308,7 @@
 			"class": "necromancy",
 			"lp": 0,
 			"tier": 20,
-			"speed": 7,
+			"speed": 3,
 			"damage": 192,
 			"type": "necromancy",
 			"armour": 0,
@@ -348219,7 +350327,7 @@
 			"class": "necromancy",
 			"lp": 0,
 			"tier": 30,
-			"speed": 7,
+			"speed": 3,
 			"damage": 288,
 			"type": "necromancy",
 			"armour": 0,
@@ -348238,7 +350346,7 @@
 			"class": "necromancy",
 			"lp": 0,
 			"tier": 40,
-			"speed": 7,
+			"speed": 3,
 			"damage": 384,
 			"type": "necromancy",
 			"armour": 0,
@@ -348257,7 +350365,7 @@
 			"class": "necromancy",
 			"lp": 0,
 			"tier": 50,
-			"speed": 7,
+			"speed": 3,
 			"damage": 480,
 			"type": "necromancy",
 			"armour": 0,
@@ -348276,7 +350384,7 @@
 			"class": "necromancy",
 			"lp": 0,
 			"tier": 60,
-			"speed": 7,
+			"speed": 3,
 			"damage": 576,
 			"type": "necromancy",
 			"armour": 0,
@@ -348295,7 +350403,7 @@
 			"class": "necromancy",
 			"lp": 0,
 			"tier": 70,
-			"speed": 7,
+			"speed": 3,
 			"damage": 672,
 			"type": "necromancy",
 			"armour": 0,
@@ -348314,7 +350422,7 @@
 			"class": "necromancy",
 			"lp": 0,
 			"tier": 80,
-			"speed": 7,
+			"speed": 3,
 			"damage": 768,
 			"type": "necromancy",
 			"armour": 0,
@@ -348333,7 +350441,7 @@
 			"class": "necromancy",
 			"lp": 0,
 			"tier": 90,
-			"speed": 7,
+			"speed": 3,
 			"damage": 864,
 			"type": "necromancy",
 			"armour": 0,
@@ -348666,7 +350774,7 @@
 			"class": "necromancy",
 			"lp": 0,
 			"tier": 95,
-			"speed": 7,
+			"speed": 3,
 			"damage": 912,
 			"type": "necromancy",
 			"armour": 0,
@@ -357129,6 +359237,28 @@
 			"accuracy": 110,
 			"auto_damage": 14.9
 		},
+		"Tumeken's Light": {
+			"formatted_name": "Tumeken's Light",
+			"ranged": 0,
+			"slot": "2h weapon",
+			"prayer": 0,
+			"style": "slash",
+			"ability_damage": 1368,
+			"magic": 0,
+			"strength": 0,
+			"armour": 0,
+			"requirements": {
+				"Attack": 95
+			},
+			"type": "Halberd",
+			"speed": 6,
+			"tier": 95,
+			"lp": 0,
+			"attack_range": 2,
+			"class": "melee",
+			"accuracy": 2765,
+			"auto_damage": 2123.3
+		},
 		"Turoth boots": {
 			"ranged": 7.8,
 			"requirements": {
@@ -360855,7 +362985,7 @@
 			"requirements": {
 				"Necromancy": 80
 			},
-			"class": "ranged",
+			"class": "necromancy",
 			"lp": 0,
 			"tier": 80,
 			"speed": 0,

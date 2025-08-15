@@ -411,7 +411,7 @@ let rules = {
     "HigherLander": false,
     "Secondary MTA": false,
     "Skilling Pets": false,
-    "Money Unlockables": false,
+    "Permanent Unlockables": false,
     "Prayers": false,
     "All Droptables": false,
     "All Droptables Nest": false,
@@ -521,7 +521,7 @@ let ruleNames = {
     "Wandering implings": "Allow implings that randomly wander the world & their drops to count towards chunk tasks <span class='rule-asterisk noscroll'>†</span>",
 	"Farming Primary": "Farming products (herbs, vegetables, etc.) can count as primary item sources for chunk tasks<span class='rule-asterisk noscroll'>*</span>",
     "Secondary Primary": "Allow secondary training methods with drops/methods more common than 1/X (not inclusive, set to 0 to include all drops) to count as primary training methods (e.g. allow a 1/50 drop for a bronze bar be your required way to train Smithing)<span class='rule-asterisk noscroll'>*</span>",
-    "RDT": "Allow items from the Rare Drop Table and the Gem Drop Table to count towards chunk tasks",
+    "RDT": "Allow items from the Rare Drop Table, the Gem Drop Table and the Wilderness Drop Table to count towards chunk tasks",
     "Untracked Uniques": "Must obtain extra unique items that are untracked on the collection logs (does nothing by itself)",
     "Untracked Uniques Skilling": "Must obtain untracked uniques obtained from skilling (e.g. Big shark, Golden fish egg, etc.)<span class='rule-asterisk noscroll'>*</span>",
     "Untracked Uniques Combat": "Must obtain untracked uniques obtained from combat (e.g. Abomination cape, Champion scrolls, etc.)<span class='rule-asterisk noscroll'>*</span>",
@@ -542,7 +542,7 @@ let ruleNames = {
     "HigherLander": "Accessing the intermediate and veteran landers for Pest Control are required tasks (only novice lander is required otherwise)",
     "Secondary MTA": "Allow MTA to be required with secondary sources of nature/law/cosmic runes",
     "Skilling Pets": "Require skilling pets be obtained as soon as the relevant skill is trainable<span class='rule-asterisk noscroll'>†</span>",
-    "Money Unlockables": "Require permanently unlockable options be unlocked (angelic gravestone, additional bank space, infinitely charged lyre, etc.)<span class='rule-asterisk noscroll'>†</span>",
+    "Permanent Unlockables": "WIP - Require permanently unlockable options be unlocked (innate mastery, rope racks, etc.)<span class='rule-asterisk noscroll'>*</span>",
     "Prayers": "Must be able to activate all prayers possible<span class='rule-asterisk noscroll'>†</span>",
     "All Droptables": "Must obtain every drop from every unique monster's droptable (duplicates included, all quantities)<span class='rule-asterisk noscroll'>†</span>",
     "All Droptables Nest": "Must include every drop from bird nests<span class='rule-asterisk noscroll'>†</span>",
@@ -590,7 +590,8 @@ let ruleNames = {
 	"Misc achievements": "WIP- Must complete other achievements, excluding level-up achievements.",
 	"Hunter Marks Slayer": "Using Hunter Marks to buy Slayer experience lamps counts as primary training<span class='rule-asterisk noscroll'>*</span>",
 	"Kili Knowledge": "Must complete Kili Knowledge when possible",
-	"Slayer Contracts": "Completing Slayer contracts off-task counts as a primary training method"
+	"Slayer Contracts": "Completing Slayer contracts off-task counts as a primary training method",
+	"Partial Products": "WIP - Creating partial products counts as a skilling task<span class='partialProductsRuleTooltip'></span>"
 };                                                                              // List of rule definitions
 
 let rulePresets = {
@@ -702,7 +703,8 @@ let rulePresets = {
 		"Kili Knowledge": true,
 		"Slayer Contracts": true,
 		"Cleaning Herbs Primary": true,
-		"Partial Products": true
+		"Partial Products": true,
+		"Permanent Unlockables": true
     },
     "Supreme Chunker": {
         "Skillcape": true,
@@ -759,7 +761,7 @@ let rulePresets = {
         "Combat and Teleport Spells": true,
         "Skilling Pets": true,
         "Primary Spawns": true,
-        "Money Unlockables": true,
+        "Permanent Unlockables": true,
         "Prayers": true,
         "All Droptables": ["All Droptables Nest"],
 		"Token": true,
@@ -836,8 +838,7 @@ let ruleStructure = {
 		"DnD Skilling": ["Shooting Stars"],
 		"Menaphos Events": true,
 		"Uncharted": true,
-		"Multiple Pickpockets": true,
-		"Partial Products": true
+		"Multiple Pickpockets": true
     },
     "Agility": {
         "Shortcut": true,
@@ -903,7 +904,7 @@ let ruleStructure = {
 		"Untracked Uniques": ["Untracked Uniques Skilling", "Untracked Uniques Combat", "Untracked Uniques Minigames", "Untracked Uniques Daemonheim", "Untracked Uniques Misc"],
 		"Ports Scrolls": true,
 		"Titles": true,
-		"Money Unlockables": true,
+		"Permanent Unlockables": true,
 		"Fill Costume Room": true,
 		"Ceremonial Swords": true,
 		"Pets": ["Skilling Pets"]
