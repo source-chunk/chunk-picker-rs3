@@ -133402,10 +133402,16 @@
 				"Items": ["Manuscript of Ful"],
 				"Not F2P": true
 			},
-			"(Untracked Boss) Obtain the ~|devourer aura|~": {
+			"(Untracked Boss) Obtain the ~|devourer aura (Sanctum of Rebirth)|~": {
 				"Category": ["Untracked Uniques", "Untracked Uniques Combat"],
 				"Label": "Untracked Combat Uniques",
-				"Items": ["Devourer aura"],
+				"Items": ["Devourer aura (Sanctum of Rebirth)"],
+				"Not F2P": true
+			},
+			"(Untracked Boss) Obtain the ~|devourer aura (Amascut)|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Combat"],
+				"Label": "Untracked Combat Uniques",
+				"Items": ["Devourer aura (Amascut)"],
 				"Not F2P": true
 			},
 			"(Untracked Boss) Obtain a ~|sinister key|~": {
@@ -234447,12 +234453,6 @@
 			"Green charm": {
 				"1": "102.281/1000"
 			},
-			"Crimson charm": {
-				"1": "0"
-			},
-			"Blue charm": {
-				"1": "0"
-			},
 			"Starved ancient effigy": {
 				"1": "1/2812500"
 			},
@@ -235194,7 +235194,7 @@
 			"Shard of Genesis Essence": {
 				"1": "1/80"
 			},
-			"Devourer aura": {
+			"Devourer aura (Sanctum of Rebirth)": {
 				"1": "Always"
 			}
 		},
@@ -237570,15 +237570,6 @@
 			},
 			"Gold charm": {
 				"1": "9.953/1000"
-			},
-			"Green charm": {
-				"1": "0"
-			},
-			"Crimson charm": {
-				"1": "0"
-			},
-			"Blue charm": {
-				"1": "0"
 			}
 		},
 		"Pirate": {
@@ -263632,9 +263623,7 @@
 			},
 			"PraesidioRemains": {
 				"Ancient gravel": {
-					"1": {
 					"1": "3/20"
-				}
 				},
 				"Third Age iron": {
 					"1": "2/10"
@@ -267216,9 +267205,7 @@
 			},
 			"WarTableDebris": {
 				"Ancient gravel": {
-					"1": {
 					"1": "3/20"
-				}
 				},
 				"Ancient vis": {
 					"1": "2/10"
@@ -281441,9 +281428,6 @@
 				"Green charm": {
 					"2": "20/100"
 				},
-				"Crimson charm": {
-					"2": "0"
-				},
 				"Blue charm": {
 					"2": "10/100"
 				},
@@ -282098,15 +282082,6 @@
 				},
 				"Gold charm": {
 					"1": "391.231/1000"
-				},
-				"Green charm": {
-					"1": "0"
-				},
-				"Crimson charm": {
-					"1": "0"
-				},
-				"Blue charm": {
-					"1": "0"
 				},
 				"Starved ancient effigy": {
 					"1": "1/45000000"
@@ -286171,9 +286146,6 @@
 				},
 				"Green charm": {
 					"2": "20/100"
-				},
-				"Crimson charm": {
-					"2": "0"
 				},
 				"Blue charm": {
 					"2": "10/100"
@@ -321498,7 +321470,7 @@
 			},
 			"armour": 0,
 			"damage": 0,
-			"speed": 3,
+			"speed": 4,
 			"tier": 90,
 			"lp": 0,
 			"attack_range": 8,
@@ -336131,7 +336103,7 @@
 			"requirements": {
 				"Magic": 95
 			},
-			"speed": 3,
+			"speed": 4,
 			"tier": 95,
 			"lp": 0,
 			"attack_range": 8,
@@ -343172,7 +343144,7 @@
 			"damage": 0,
 			"type": "Power armour",
 			"armour": 540.7,
-			"slot": "torso",
+			"slot": "legs",
 			"strength": 0,
 			"magic": 32,
 			"prayer": 0,
