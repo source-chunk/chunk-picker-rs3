@@ -1397,6 +1397,7 @@ let questPointTotal = 0;
 let combatScoreTotal = 0;
 let highestOverallCompleted = {};
 let bisUpgrades = {};
+let globalValidsBoosts = {};
 let oldChallengeArr = {};
 let futureChunkData = {};
 let futureUnlockedSections = {};
@@ -1535,7 +1536,7 @@ let topbarElements = {
     'Sandbox Mode': `<div><span class='noscroll' onclick="enableTestMode()"><i class="gosandbox fa-solid fa-flask" title='Sandbox Mode'></i></span></div>`,
 };
 
-let currentVersion = '6.8.1';
+let currentVersion = '6.8.16';
 let patchNotesVersion = '6.4.0';
 let updateLevel = 'difference';
 
@@ -1589,6 +1590,7 @@ let tempChunks = {};
 let tempSelectedChunks = [];
 let recentChunks = {};
 let animCount = 0;
+let isAnimating = false;
 let removedRecent = 0;
 let controlChunk = 0;
 let stickerChunk = 0;
@@ -1638,6 +1640,8 @@ let searchActiveTasksFocused = false;
 let removeCanvasDarkness = false;
 let tasksMap = {};
 let tasksMapReverse = {};
+let editingSlayerLock = false;
+let tempSlayerLocked = null;
 let lastRegain = 0;
 let lastUpdated = 0;
 let wildySlayerChunks = ['11835', '11836', '12090', '12091', '12345', '12347', '12601', '12605', '12857', '12858', '13115', '13116', '13368', 'Edgeville Dungeon', 'Forinthry Dungeon'];
@@ -1681,7 +1685,7 @@ mapImg.addEventListener("load", e => {
         centerCanvas('quick');
     }
 });
-mapImg.src = "runescape_world_map.png?v=6.8.1";
+mapImg.src = "runescape_world_map.png?v=6.8.16";
 
 // Rounded rectangle
 CanvasRenderingContext2D.prototype.roundRect = function (x, y, w, h, r) {
@@ -1741,6 +1745,23 @@ let getLines = function(ctx, text, maxWidth) {
     }
     lines.push(currentLine);
     return lines;
+}
+
+// Runs canvas animation frames
+let runAnim = function() {
+    isAnimating = true;
+    animCount++;
+
+    let interval = setInterval(function() {
+        if (animCount % 100 !== 0) {
+            animCount++;
+            drawCanvas();
+        } else {
+            isAnimating = false;
+            clearInterval(interval);
+            drawCanvas();
+        }
+    }, 10);
 }
 
 // Canvas animation
@@ -1861,6 +1882,24 @@ let drawCanvas = function() {
             }
         }
     }
+
+    // Slayer overlay
+    ctx.save();
+    !!chunkInfo['mapOverlays'] && selectedOverlay === 'Locked Slayer Task|Slayer task' && !!chunkInfo['mapOverlays'][selectedOverlay] && !!slayerLocked && slayerLocked.hasOwnProperty('monster') && !!chunkInfo['codeItems']['slayerTaskChunks'][slayerLocked.monster] && chunkInfo['codeItems']['slayerTaskChunks'][slayerLocked.monster].forEach((chunkId) => {
+        let {x, y} = convertToXY(chunkId);
+        if (highVisibilityMode) {
+            ctx.fillStyle = 'rgba(255, 0, 0, 0.25)';
+        } else if (hoveredChunk === chunkId) {
+            ctx.fillStyle = 'rgba(255, 0, 0, 0.25)';
+        } else {
+            ctx.fillStyle = 'rgba(255, 0, 0, 0.33)';
+        }
+        ctx.strokeStyle = 'rgba(170, 0, 0, 1)';
+        ctx.fillRect(dragTotalX + (totalZoom * (x * imgW / rowSize)), dragTotalY + (totalZoom * (y * imgH / (fullSize / rowSize))), totalZoom * (imgW / rowSize), totalZoom * (imgH / (fullSize / rowSize)));
+        ctx.strokeRect(dragTotalX + (totalZoom * (x * imgW / rowSize)), dragTotalY + (totalZoom * (y * imgH / (fullSize / rowSize))), totalZoom * (imgW / rowSize), totalZoom * (imgH / (fullSize / rowSize)));
+        ctx.drawImage(osrsStickers['slayer'], (dragTotalX + (totalZoom * ((x + 0.2) * imgW / rowSize))), dragTotalY + (totalZoom * ((y + 0.2) * imgH / (fullSize / rowSize))), (totalZoom * (imgW / rowSize)) * (0.6), (totalZoom * (imgW / rowSize)) * (0.6));
+    });
+    ctx.restore();
 
     // Locked chunk
     if (infoLockedId !== -1) {
@@ -1986,7 +2025,7 @@ let drawCanvas = function() {
 
     // Overlays
     ctx.save();
-    !!chunkInfo['mapOverlays'] && selectedOverlay !== 'None' && !!chunkInfo['mapOverlays'][selectedOverlay] && chunkInfo['mapOverlays'][selectedOverlay].forEach((overlayEl, i) => {
+    !!chunkInfo['mapOverlays'] && selectedOverlay !== 'None' && selectedOverlay !== 'Locked Slayer Task|Slayer task' && !!chunkInfo['mapOverlays'][selectedOverlay] && chunkInfo['mapOverlays'][selectedOverlay].forEach((overlayEl, i) => {
         if ((selectedOverlay !== 'Clues' || selectedOverlayClues[overlayEl.type]) && (selectedOverlayIds.length === 0 || i !== selectedOverlayId) && overlayEl.x >= 1024 && overlayEl.x <= 3967 && overlayEl.y >= 2496 && overlayEl.y <= 4159 && (!unlockedOverlayOnly || (!!tempChunks['unlocked'] && tempChunks['unlocked'].hasOwnProperty(convertToChunkNum(Math.floor((overlayEl.x - 1024)/64), (fullSize / rowSize) - Math.floor((overlayEl.y - 2496)/64) - 1))))) {
             ctx.textAlign = 'center';
             ctx.font = '900 ' + 36 + 'px "Font Awesome 6 Free"';
@@ -2008,7 +2047,7 @@ let drawCanvas = function() {
     ctx.restore();
 
     ctx.save();
-    if (!!chunkInfo['mapOverlays'] && selectedOverlay !== 'None' && !!chunkInfo['mapOverlays'][selectedOverlay] && selectedOverlayIds.length !== 0) {
+    if (!!chunkInfo['mapOverlays'] && selectedOverlay !== 'None' && selectedOverlay !== 'Locked Slayer Task|Slayer task' && !!chunkInfo['mapOverlays'][selectedOverlay] && selectedOverlayIds.length !== 0) {
         let overlayEl = chunkInfo['mapOverlays'][selectedOverlay][selectedOverlayId];
         ctx.textAlign = 'center';
         ctx.font = '900 ' + 36 + 'px "Font Awesome 6 Free"';
@@ -2089,7 +2128,7 @@ let drawCanvas = function() {
     ctx.restore();
 
 
-    if (selectedOverlay !== 'None') {
+    if (selectedOverlay !== 'None' && selectedOverlay !== 'Locked Slayer Task|Slayer task') {
         $('#canvas').css('cursor', (hoveredOverlayIds.length !== 0 && !isHoveringOverlayMenu) || isHoveringClose || isHoveringLeft || isHoveringRight ? 'pointer' : 'auto');
     }
 
@@ -2097,7 +2136,9 @@ let drawCanvas = function() {
         manualMouseMoveCheck = false;
         handleMouseMove(manualMouseMoveCheck);
     }
-    animCount++;
+    if (!isAnimating && !!recentChunks && Object.keys(recentChunks).length > 0 && !onMobile) {
+        runAnim();
+    }
 }
 
 // Listen for click events on body for clicking out of modals
@@ -2471,7 +2512,7 @@ let handleMouseMove = function(e) {
         isHoveringOverlayMenu = overlayMenuLocation.length === 4 && currentX >= overlayMenuLocation[0] && currentY >= overlayMenuLocation[1] && currentX <= overlayMenuLocation[2] && currentY <= overlayMenuLocation[3];
 
         // Overlay hover
-        if (!!chunkInfo['mapOverlays'] && selectedOverlay !== 'None' && !!chunkInfo['mapOverlays'][selectedOverlay] && false) { // Not implemented
+        if (!!chunkInfo['mapOverlays'] && selectedOverlay !== 'None' && selectedOverlay !== 'Locked Slayer Task|Slayer task' && !!chunkInfo['mapOverlays'][selectedOverlay] && false) { // Not implemented
             hoveredOverlayIds = [];
             let lowestDistance = 100;
             e.target.id === 'canvas' && chunkInfo['mapOverlays'][selectedOverlay].forEach((overlayEl, i) => {
@@ -2781,7 +2822,7 @@ let handleMouseUp = function(e) {
 
 // Sets all neighbors of recently unlocked chunk to selected
 let selectNeighborsCanvas = function(chunkId) {
-    if (settings['autoWalkableRollable']) {
+    if (settings['chunkNeighboursOptions']['autoWalkableRollable']) {
         return;
     }
     let ops = ['-x', '+x', '-y', '+y'];
@@ -2792,7 +2833,7 @@ let selectNeighborsCanvas = function(chunkId) {
         } else {
             newChunkId = chunkId + ((i - 3) * 2 + 1);
         }
-        if (checkIfGray(newChunkId) && (!settings['walkableRollable'] || chunkInfo['walkableChunksF2P'].includes(newChunkId.toString()) || (!rules['F2P'] && chunkInfo['walkableChunks'].includes(newChunkId.toString())))) {
+        if (checkIfGray(newChunkId) && (!settings['chunkNeighboursOptions']['walkableRollable'] || chunkInfo['walkableChunksF2P'].includes(newChunkId.toString()) || (!rules['F2P'] && chunkInfo['walkableChunks'].includes(newChunkId.toString())))) {
             tempSelectedChunks.push(newChunkId.toString());
             if (!tempChunks['selected']) {
                 tempChunks['selected'] = {};
@@ -2818,7 +2859,20 @@ let selectAllNeighborsCanvas = function() {
             }
             if (checkIfGray(newChunkId) && (!rules['F2P'] || chunkInfo['walkableChunksF2P'].includes(newChunkId.toString()))) {
                 !!chunkInfo['sections'][newChunkId] && Object.keys(chunkInfo['sections'][newChunkId]).forEach((section) => {
-                    !!chunkInfo['sections'][newChunkId][section] && chunkInfo['sections'][newChunkId][section].forEach((connection) => {
+                    !!chunkInfo['sections'][newChunkId][section] && chunkInfo['sections'][newChunkId][section].some((connection) => {
+                        let sectionStr = section === '0' ? '' : `-${section}`;
+                        if (chunkInfo['sectionsLimits'].hasOwnProperty(`${newChunkId}${sectionStr} to ${connection}`)) {
+                            let valid = true;
+                            chunkInfo['sectionsLimits'][`${newChunkId}${sectionStr} to ${connection}`].hasOwnProperty('Tasks') && Object.keys(chunkInfo['sectionsLimits'][`${newChunkId}${sectionStr} to ${connection}`]['Tasks']).some(subTask => {
+                                if (!globalValids.hasOwnProperty(chunkInfo['sectionsLimits'][`${newChunkId}${sectionStr} to ${connection}`]['Tasks'][subTask]) || !globalValids[chunkInfo['sectionsLimits'][`${newChunkId}${sectionStr} to ${connection}`]['Tasks'][subTask]].hasOwnProperty(subTask)) {
+                                    valid = false;
+                                    return true;
+                                }
+                            });
+                            if (!valid) {
+                                return true;
+                            }
+                        }
                         let connectionChunk = connection;
                         let connectionSection;
                         if (connection.includes('-')) {
@@ -3387,7 +3441,7 @@ let calcCurrentChallengesCanvas = function(useOld, proceed, fromLoadData, inputT
         setCalculating('.panel-active', useOld);
         setCurrentChallenges(['No tasks currently backlogged.'], ['No tasks currently completed.'], true, true);
         myWorker.terminate();
-        myWorker = new Worker("./worker.js?v=6.8.1");
+        myWorker = new Worker("./worker.js?v=6.8.16");
         myWorker.onmessage = workerOnMessage;
         myWorker.postMessage(['current', tempChunks['unlocked'], rules, chunkInfo, skillNames, processingSkill, maybePrimary, combatSkills, monstersPlus, objectsPlus, chunksPlus, itemsPlus, mixPlus, npcsPlus, tasksPlus, tools, elementalRunes, manualTasks, completedChallenges, backlog, "1/" + rules['Rare Drop Amount'], universalPrimary, elementalStaves, rangedItems, boneItems, highestCurrent, dropTables, possibleAreas, randomLoot, magicTools, bossLogs, bossMonsters, minigameShops, manualEquipment, checkedChallenges, backloggedSources, altChallenges, manualMonsters, slayerLocked, passiveSkill, f2pSkills, assignedXpRewards, mid === diary2Tier, manualAreas, "1/" + rules['Secondary Primary Amount'], mid === manualAreasOnly, tempSections, maxSkill, userTasks, manualPrimary, updateLevel]);
         workersOut['current'] = true;
@@ -3691,8 +3745,8 @@ $(document).ready(function() {
 // ------------------------------------------------------------
 
 // Recieve message from worker
-let myWorker = new Worker("./worker.js?v=6.8.1");
-let myWorker2 = new Worker("./worker.js?v=6.8.1");
+let myWorker = new Worker("./worker.js?v=6.8.16");
+let myWorker2 = new Worker("./worker.js?v=6.8.16");
 let workerOnMessage = function(e) {
     if (e.data[0] === 'reload') {
         window.location.reload();
@@ -3768,7 +3822,7 @@ let workerOnMessage = function(e) {
             combatPointTotal = e.data[16];
             highestOverallCompleted = e.data[17];
             bisUpgrades = e.data[18];
-            bankMemoryFormat = e.data[19];
+            globalValidsBoosts = e.data[19];
             possibleAreas = {};
             Object.keys(e.data[12]).filter(area => { return e.data[12][area] === true }).forEach((area) => {
                 possibleAreas[area] = true;
@@ -3854,7 +3908,7 @@ let workerOnMessage = function(e) {
             addEquipmentModalOpen && searchAddEquipment();
             bisUpgradesModalOpen && closeBisUpgrades();
             checkSlayerLocked();
-            settings['autoWalkableRollable'] && chunkJustRolled && selectAllNeighborsCanvas();
+            settings['chunkNeighboursOptions']['autoWalkableRollable'] && chunkJustRolled && selectAllNeighborsCanvas();
             chunkJustRolled = false;
         }
     }
@@ -6121,6 +6175,7 @@ let updateChunkInfo = function() {
             clueStr.length > 0 && (clueStr = clueStr.substring(0, clueStr.length - 2));
         }
         $('.infoid-content').html((!!chunkInfo['chunks'][id] && !!chunkInfo['chunks'][id]['Nickname']) ? (chunkInfo['chunks'][id]['Nickname'] + ' (' + id + ')') : decodeQueryParam(id));
+        $('.infoid').css({'fontSize': $('.infoid-content').height() > 50 ? 'min(2vw, 20px)' : ''});
         $('.panel-monsters').html(monsterStr || 'None');
         $('.panel-npcs').html(npcStr || 'None');
         $('.panel-spawns').html(spawnStr || 'None');
@@ -6351,13 +6406,14 @@ let setupCurrentChallenges = function(tempChallengeArr, noDisplay, noClear) {
         rules['Show Skill Tasks'] && challengeArr.push(`<div class="marker marker-skill noscroll" onclick="expandActive('skill')"><i class="expand-button fa-solid ${activeSubTabs['skill'] ? 'fa-caret-down' : 'fa-caret-right'} noscroll"></i><span class="noscroll">Skill Tasks</span></div>`);
         rules['Show Skill Tasks'] && Object.keys(tempChallengeArr).sort().forEach((skill) => {
             let skillTask = tempChallengeArr[skill];
-            let hasAlts = Object.keys(globalValids[skill]).filter(chal => globalValids[skill][chal] === globalValids[skill][skillTask] && chal !== skillTask && (!backlog.hasOwnProperty(skill) || !backlog[skill].hasOwnProperty(chal))).length > 0;
             let boost = 0;
             if (!!tempChallengeArr[skill] && tempChallengeArr[skill].match(/\{[0-9]+\}/g)) {
                 skillTask = tempChallengeArr[skill].replaceAll(/\{[0-9]+\}/g, '');
                 boost = tempChallengeArr[skill].match(/\{[0-9]+\}/g)[0].match(/\d+/)[0];
             }
-            if (!!skillTask && (!backlog[skill] || (!backlog[skill].hasOwnProperty(skillTask) && !backlog[skill].hasOwnProperty(skillTask.replaceAll('#', '/')))) && (!completedChallenges[skill] || (!completedChallenges[skill][skillTask] && !completedChallenges[skill][skillTask.replaceAll('#', '/')]))) {
+            let hasAlts = Object.keys(globalValids[skill]).filter(chal => (globalValids[skill][chal] - (globalValidsBoosts.hasOwnProperty(skill) && globalValidsBoosts[skill].hasOwnProperty(chal) ? globalValidsBoosts[skill][chal] : 0)) === (globalValids[skill][skillTask] - (globalValidsBoosts.hasOwnProperty(skill) && globalValidsBoosts[skill].hasOwnProperty(skillTask) ? globalValidsBoosts[skill][skillTask] : 0)) && chal !== skillTask && (!backlog.hasOwnProperty(skill) || !backlog[skill].hasOwnProperty(chal))).length > 0;
+            skill === 'Slayer' && console.log(globalValidsBoosts, Object.keys(globalValids[skill]).filter(chal => (globalValids[skill][chal] - (globalValidsBoosts.hasOwnProperty(skill) && globalValidsBoosts[skill].hasOwnProperty(chal) ? globalValidsBoosts[skill][chal] : 0)) === (globalValids[skill][skillTask] - (globalValidsBoosts.hasOwnProperty(skill) && globalValidsBoosts[skill].hasOwnProperty(skillTask) ? globalValidsBoosts[skill][skillTask] : 0)) && chal !== skillTask && (!backlog.hasOwnProperty(skill) || !backlog[skill].hasOwnProperty(chal))));
+            if (!!skillTask && (!backlog[skill] || (!backlog[skill].hasOwnProperty(skillTask) && !backlog[skill].hasOwnProperty(skillTask.replaceAll('#', '/')))) && (!completedChallenges[skill] || (!completedChallenges[skill][skillTask] && !completedChallenges[skill][skillTask.replaceAll('#', '/')])) && (!altChallenges[skill] || !altChallenges[skill].hasOwnProperty(chunkInfo['challenges'][skill][skillTask]['Level']) || !completedChallenges[skill] || (!completedChallenges[skill][altChallenges[skill][chunkInfo['challenges'][skill][skillTask]['Level']]] && !completedChallenges[skill][altChallenges[skill][chunkInfo['challenges'][skill][skillTask]['Level']].replaceAll('#', '/')]))) {
                 if (!!skillTask && !!altChallenges[skill] && altChallenges[skill].hasOwnProperty(chunkInfo['challenges'][skill][skillTask]['Level']) && globalValids.hasOwnProperty(skill) && globalValids[skill].hasOwnProperty(altChallenges[skill][chunkInfo['challenges'][skill][skillTask]['Level']]) && globalValids[skill][altChallenges[skill][chunkInfo['challenges'][skill][skillTask]['Level']]] === chunkInfo['challenges'][skill][skillTask]['Level'] && (!backlog.hasOwnProperty(skill) || !backlog[skill].hasOwnProperty(altChallenges[skill][chunkInfo['challenges'][skill][skillTask]['Level']])) && !!altChallenges[skill][chunkInfo['challenges'][skill][skillTask]['Level']]) {
                     challengeArr.push(`<div class="challenge skill-challenge noscroll clickable ${skill + '-challenge'} ${(!!checkedChallenges[skill] && !!checkedChallenges[skill][altChallenges[skill][chunkInfo['challenges'][skill][skillTask]['Level']]]) && 'hide-backlog'} ${!activeSubTabs['skill'] ? 'stay-hidden' : ''}" onclick="showDetails('${encodeRFC5987ValueChars(altChallenges[skill][chunkInfo['challenges'][skill][skillTask]['Level']])}', '${skill}', 'current')"><label class="checkbox noscroll ${(!testMode && (viewOnly || inEntry || locked)) ? "checkbox--disabled" : ''}"><span class="checkbox__input noscroll"><input type="checkbox" name="checkbox" ${(!!checkedChallenges[skill] && !!checkedChallenges[skill][altChallenges[skill][chunkInfo['challenges'][skill][skillTask]['Level']]]) ? "checked" : ''} class='noscroll' onclick="checkOffChallenge('${skill}', '${encodeRFC5987ValueChars(altChallenges[skill][chunkInfo['challenges'][skill][skillTask]['Level']])}')" ${(!testMode && (viewOnly || inEntry || locked)) ? "disabled" : ''}><span class="checkbox__control noscroll"><svg viewBox='0 0 24 24' aria-hidden="true" focusable="false"><path fill='none' stroke='currentColor' stroke-width='3' d='M1.73 12.91l6.37 6.37L22.79 4.59' /></svg></span></span><span class="radio__label noscroll"><b class="noscroll">[${(boost > 0 ? (((chunkInfo['challenges'][skill][altChallenges[skill][chunkInfo['challenges'][skill][skillTask]['Level']]]['Level'] - boost) <= 0 ? 1 : (chunkInfo['challenges'][skill][altChallenges[skill][chunkInfo['challenges'][skill][skillTask]['Level']]]['Level'] - boost)) + '] (+' + boost + ')') : chunkInfo['challenges'][skill][altChallenges[skill][chunkInfo['challenges'][skill][skillTask]['Level']]]['Level'] + ']')} <span class="inner noscroll">${skill}</b>: ${decodeQueryParam(altChallenges[skill][chunkInfo['challenges'][skill][skillTask]['Level']].split('~')[0])}<a class='link noscroll' href="${"https://runescape.wiki/w/" + encodeForUrl((altChallenges[skill][chunkInfo['challenges'][skill][skillTask]['Level']].split('|')[1]))}" target="_blank">${decodeQueryParam(altChallenges[skill][chunkInfo['challenges'][skill][skillTask]['Level']].split('~')[1].split('|').join(''))}</a>${decodeQueryParam(altChallenges[skill][chunkInfo['challenges'][skill][skillTask]['Level']].split('~')[2])}</span></span></label> <span class="burger noscroll${!testMode && (viewOnly || inEntry || locked) ? ' hidden-burger' : ''}" onclick="openActiveContextMenu('${encodeRFC5987ValueChars(altChallenges[skill][chunkInfo['challenges'][skill][skillTask]['Level']])}', '${skill}', ${hasAlts})"><i class="fa-solid fa-sliders-h noscroll">${hasAlts ? `<i class="fa-solid fa-star burger-star noscroll"></i>` : ''}</i></span></div>`);
                     listOfTasks.push({ [altChallenges[skill][chunkInfo['challenges'][skill][skillTask]['Level']]]: skill, prefix: `[${(boost > 0 ? (((chunkInfo['challenges'][skill][altChallenges[skill][chunkInfo['challenges'][skill][skillTask]['Level']]]['Level'] - boost) <= 0 ? 1 : (chunkInfo['challenges'][skill][altChallenges[skill][chunkInfo['challenges'][skill][skillTask]['Level']]]['Level'] - boost)) + '] (+' + boost + ')') : chunkInfo['challenges'][skill][altChallenges[skill][chunkInfo['challenges'][skill][skillTask]['Level']]]['Level'] + ']')} ${skill}:` });
@@ -6718,7 +6774,7 @@ let calcFutureChallenges = function() {
     }
     tempSections = combineJSONs(tempSections, manualSections);
     myWorker2.terminate();
-    myWorker2 = new Worker("./worker.js?v=6.8.1");
+    myWorker2 = new Worker("./worker.js?v=6.8.16");
     myWorker2.onmessage = workerOnMessage;
     myWorker2.postMessage(['future', chunks, rules, chunkInfo, skillNames, processingSkill, maybePrimary, combatSkills, monstersPlus, objectsPlus, chunksPlus, itemsPlus, mixPlus, npcsPlus, tasksPlus, tools, elementalRunes, manualTasks, completedChallenges, backlog, "1/" + rules['Rare Drop Amount'], universalPrimary, elementalStaves, rangedItems, boneItems, highestCurrent, dropTables, possibleAreas, randomLoot, magicTools, bossLogs, bossMonsters, minigameShops, manualEquipment, checkedChallenges, backloggedSources, altChallenges, manualMonsters, slayerLocked, passiveSkill, f2pSkills, assignedXpRewards, mid === diary2Tier, manualAreas, "1/" + rules['Secondary Primary Amount'], mid === manualAreasOnly, tempSections, maxSkill, userTasks, manualPrimary, updateLevel]);
     workersOut['future'] = infoLockedId;
@@ -7834,55 +7890,54 @@ let removeFriend = function(friendMid, friendName) {
     openFriendsList();
 }
 
-// Opens the add locked slayer task modal
-let openSlayerLocked = function() {
-    slayerLockedModalOpen = true;
-    $('#slayer-locked-input').val(!!slayerLocked && slayerLocked.hasOwnProperty('level') ? slayerLocked['level'] : '');
-    $('#slayer-locked-data').html('<div><div class="slayer-locked-cancel" onclick="addSlayerLocked(true)">Cancel</div><div class="slayer-locked-proceed disabled" onclick="addSlayerLocked()">Lock Slayer</div></div>');
-    $('#slayer-locked-dropdown').empty().append(`<option value='${'Select a task'}'>${'Select a task'}</option>`);
-    $('#slayer-locked-dropdown').append(`<option value="${'Manually Locked'}">${"Manually Locked"}</option>`);
-    Object.keys(slayerTasks).forEach((task) => {
-        $('#slayer-locked-dropdown').append(`<option ${!!slayerLocked && slayerLocked.hasOwnProperty('monster') && slayerLocked['monster'] === task ? 'selected' : ''} value="${task}">${task}</option>`);
-    });
-    $('#myModal22').show();
+// Toggles the slayerLock editing interface
+let toggleEditSlayerLock = function() {
+    editingSlayerLock = !editingSlayerLock;
+    if (editingSlayerLock) {
+        tempSlayerLocked = slayerLocked;
+    }
+    openHighest2();
 }
 
-// Triggers onchange of slayer locked selection to validate submit button
+// Triggers onchange of slayer locked selection to validate slayerLocked value
 let slayerLockedChange = function() {
-    let val = $('#slayer-locked-dropdown').val();
-    let val2 = $('#slayer-locked-input').val();
-    if (val !== 'Select a task') {
-        if (!!val2 && !isNaN(parseInt(val2)) && parseInt(val2) >= 0 && parseInt(val2) <= 120 && parseInt(val2) % 1 === 0) {
-            $('.slayer-locked-proceed').removeClass('disabled');
+    let isSlayerLocked = $('#slayer-locked-dropdown').val() === 'locked';
+    let slayerLockedLevel = $('#slayer-locked-level-input').val();
+    let slayerLockedTask = $('#slayer-locked-task-dropdown').val();
+    let doNotUpdate = false;
+    let doRefresh = (tempSlayerLocked !== null) !== isSlayerLocked;
+    if (isSlayerLocked) {
+        tempSlayerLocked = {};
+        tempSlayerLocked['monster'] = slayerLockedTask;
+        tempSlayerLocked['level'] = slayerLockedLevel;
+        if (slayerLockedTask !== 'Select a task' && !!slayerLockedLevel && !isNaN(parseInt(slayerLockedLevel)) && parseInt(slayerLockedLevel) >= 0 && parseInt(slayerLockedLevel) <= 120 && parseInt(slayerLockedLevel) % 1 === 0) {
+            slayerLocked = {};
+            slayerLocked['monster'] = slayerLockedTask;
+            slayerLocked['level'] = slayerLockedLevel;
         } else {
-            $('.slayer-locked-proceed').addClass('disabled');
+            if (slayerLockedTask === 'Select a task') {
+                slayerLocked = null;
+            } else {
+                doNotUpdate = true;
+            }
         }
     } else {
-        $('.slayer-locked-proceed').addClass('disabled');
+        tempSlayerLocked = null;
+        slayerLocked = null;
     }
+    if (!doNotUpdate) {
+        calcCurrentChallengesCanvas(true);
+        setData();
+    }
+    doRefresh && openHighest2();
 }
 
-// Submits picked slayer task/level if one is chosen, then closes modal either way
-let addSlayerLocked = function(close) {
-    if (close) {
-        $('#myModal22').hide();
-        slayerLockedModalOpen = false;
-    } else {
-        let task = $('#slayer-locked-dropdown').val();
-        let level = !!$('#slayer-locked-input').val() ? parseInt($('#slayer-locked-input').val()) : NaN;
-        if (task !== 'Select a task' && !isNaN(level) && level >= 0 && level <= 120 && level % 1 === 0) {
-            if (task !== '') {
-                slayerLocked = {};
-                slayerLocked['monster'] = task;
-                slayerLocked['level'] = level;
-                calcCurrentChallengesCanvas(true);
-                setData();
-                openHighest2();
-            }
-            $('#myModal22').hide();
-            slayerLockedModalOpen = false;
-        }
-    }
+// Shows the slayer lock monster on map
+let showSlayerLockOnMap = function() {
+    highest2ModalOpen && closeHighest2();
+    selectedOverlay = 'Locked Slayer Task|Slayer task';
+    clearOverlayClues(true);
+    $('#map-marker-btn').addClass('notice-me');
 }
 
 // Opens the outer manual modal
@@ -8508,7 +8563,7 @@ let openSearchDetails = function(category, name, prevCategory, prevName) {
                     tempFormattedSource += ` (${baseChunkData[category][name][source].replaceAll('primary-', '').replaceAll('secondary-', '').replaceAll(/\*/g, '')}, qty: ${amount}, ${dropTablesGlobal[source][name][amount]})`;
                     tempFormattedSource += `<span class='double-search-icon' onclick='openSearchDetails("monsters", "${encodeRFC5987ValueChars(source)}", "${category}", "${encodeRFC5987ValueChars(name)}")'><i class="fa-solid fa-search"></i></span>`;
                     shouldRank = true;
-                    tempDroprate = dropTablesGlobal[source][name][amount].split('/')[0].replaceAll(',', '') / dropTablesGlobal[source][name][amount].split('/')[1].replaceAll(',', '');
+                    tempDroprate = dropTablesGlobal[source][name][amount].includes('/') ? dropTablesGlobal[source][name][amount].split('/')[0].replaceAll(',', '') / dropTablesGlobal[source][name][amount].split('/')[1].replaceAll(',', '') : (dropTablesGlobal[source][name][amount] === 'Always' ? 1 : 1/999999999999999);
                     formattedSources.push(tempFormattedSource);
                     rankings[tempFormattedSource] = {
                         shouldRank,
@@ -8519,7 +8574,7 @@ let openSearchDetails = function(category, name, prevCategory, prevName) {
                 });
             } else if (baseChunkData[category][name][source].replaceAll('primary-', '').replaceAll('secondary-', '').replaceAll(/\*/g, '') === 'drop' && dropRatesGlobal.hasOwnProperty(source) && dropRatesGlobal[source].hasOwnProperty(name)) {
                 formattedSource += ` (${baseChunkData[category][name][source].replaceAll('primary-', '').replaceAll('secondary-', '').replaceAll(/\*/g, '')}, ${dropRatesGlobal[source][name]})`;
-                tempDroprate = dropRatesGlobal[source][name].split('/')[0].replaceAll(',', '') / dropRatesGlobal[source][name].split('/')[1].replaceAll(',', '');
+                tempDroprate = dropRatesGlobal[source][name].includes('/') ? dropRatesGlobal[source][name].split('/')[0].replaceAll(',', '') / dropRatesGlobal[source][name].split('/')[1].replaceAll(',', '') : (dropRatesGlobal[source][name] === 'Always' ? 1 : 1/999999999999999);
             } else if (baseChunkData[category][name][source].replaceAll('primary-', '').replaceAll('secondary-', '').replaceAll(/\*/g, '') === 'drop' && chunkInfo['challenges']['Slayer'].hasOwnProperty(source) && chunkInfo['challenges']['Slayer'][source].hasOwnProperty('Output') && ((chunkInfo['skillItems']['Slayer'].hasOwnProperty(chunkInfo['challenges']['Slayer'][source]['Output']) && chunkInfo['skillItems']['Slayer'][chunkInfo['challenges']['Slayer'][source]['Output']].hasOwnProperty(name)) || (!!dropTablesGlobal[source.split('|')[1].charAt(0).toUpperCase() + source.split('|')[1].slice(1)] && !!dropTablesGlobal[source.split('|')[1].charAt(0).toUpperCase() + source.split('|')[1].slice(1)][name]))) {
                 let monster = source.split('|')[1].charAt(0).toUpperCase() + source.split('|')[1].slice(1);
                 if (!!dropTablesGlobal[monster] && !!dropTablesGlobal[monster][name]) {
@@ -8529,7 +8584,7 @@ let openSearchDetails = function(category, name, prevCategory, prevName) {
                         tempFormattedSource += ` (${baseChunkData[category][name][source].replaceAll('primary-', '').replaceAll('secondary-', '').replaceAll(/\*/g, '')}, qty: ${amount}, ${dropTablesGlobal[monster][name][amount]})`;
                         tempFormattedSource += `<span class='double-search-icon' onclick='openSearchDetails("monsters", "${encodeRFC5987ValueChars(monster)}", "${category}", "${encodeRFC5987ValueChars(name)}")'><i class="fa-solid fa-search"></i></span>`;
                         shouldRank = true;
-                        tempDroprate = dropTablesGlobal[monster][name][amount].split('/')[0].replaceAll(',', '') / dropTablesGlobal[monster][name][amount].split('/')[1].replaceAll(',', '');
+                        tempDroprate = dropTablesGlobal[monster][name][amount].includes('/') ? dropTablesGlobal[monster][name][amount].split('/')[0].replaceAll(',', '') / dropTablesGlobal[monster][name][amount].split('/')[1].replaceAll(',', '') : (dropTablesGlobal[monster][name][amount] === 'Always' ? 1 : 1/999999999999999);
                         formattedSources.push(tempFormattedSource);
                         rankings[tempFormattedSource] = {
                             shouldRank,
@@ -8543,7 +8598,7 @@ let openSearchDetails = function(category, name, prevCategory, prevName) {
                     formattedSource += ` (${baseChunkData[category][name][source].replaceAll('primary-', '').replaceAll('secondary-', '').replaceAll(/\*/g, '')}, ${dropRate})`;
                     formattedSource += `<span class='double-search-icon' onclick='openSearchDetails("monsters", "${encodeRFC5987ValueChars(source.split('|')[1].charAt(0).toUpperCase() + source.split('|')[1].slice(1))}", "${category}", "${encodeRFC5987ValueChars(name)}")'><i class="fa-solid fa-search"></i></span>`;
                     shouldRank = true;
-                    tempDroprate = dropRate.split('/')[0].replaceAll(',', '') / dropRate.split('/')[1].replaceAll(',', '');
+                    tempDroprate = dropRate.includes('/') ? dropRate.split('/')[0].replaceAll(',', '') / dropRate.split('/')[1].replaceAll(',', '') : (dropRate === 'Always' ? 1 : 1/999999999999999);
                 }
             } else {
                 formattedSource += ` (${baseChunkData[category][name][source].replaceAll('primary-', '').replaceAll('secondary-', '').replaceAll(/\*/g, '')})`;
@@ -8719,12 +8774,27 @@ let openHighest2 = function(notScrollTop) {
                 (testMode || !(viewOnly || inEntry || locked)) ? $(`.skill-button, .skill-button2, .button2-table-header`).addClass('extra-gear-room') : $(`.skill-button, .skill-button2, .button2-table-header`).removeClass('extra-gear-room');
                 settings['allTasks'] && $(`.skill-button`).removeClass('extra-gear-room');
             } else if (combatStyle === 'Slayer') {
-                $(`.${combatStyle.replaceAll(' ', '_')}-body`).append(`<div class='noscroll slayer-header'>Slayer is currently <b class='noscroll slayer-locked-status ${!!slayerLocked ? 'red' : 'green'}'>${!!slayerLocked ? '<i class="fa-solid fa-lock"></i>' : '<i class="fa-solid fa-unlock"></i>'} ${!!slayerLocked ? 'LOCKED' : 'UNLOCKED'}</b> ${!!slayerLocked ? '(' + `<a class='noscroll' href='${"https://runescape.wiki/w/" + encodeURI(slayerLocked['monster'].replace(/[!'()*]/g, escape))}' target='_blank'>${slayerLocked['monster'].replaceAll(/~/g, '').replaceAll(/\|/g, '')}</a>` + ')' : ''} ${!!slayerLocked ? ' at Level ' + slayerLocked['level'] : ''}</div>`);
-                (testMode || !(viewOnly || inEntry || locked)) && !!slayerLocked && $(`.${combatStyle.replaceAll(' ', '_')}-body`).append(`<div class='noscroll slayer-unlock-container'><span class='noscroll slayer-unlock-button' onclick='unlockSlayer()'><i class="fa-solid fa-unlock"></i>Manually Unlock</span></div>`);
-                (testMode || !(viewOnly || inEntry || locked)) && $(`.${combatStyle.replaceAll(' ', '_')}-body`).append(`<div class='noscroll slayer-lock-container'><span class='noscroll slayer-lock-button' onclick='openSlayerLocked()'>${!!slayerLocked ? '<i class="fa-solid fa-edit"></i>' : '<i class="fa-solid fa-lock"></i>'}${!!slayerLocked ? 'Change Locked Monster' : 'Lock Slayer'}</span></div>`);
-                $(`.${combatStyle.replaceAll(' ', '_')}-body`).append(`<hr class='noscroll'>`);
-                $(`.${combatStyle.replaceAll(' ', '_')}-body`).append(`<div class='noscroll slayer-task-calc-title'>Slayer Task Calculator</div>`);
-                $(`.${combatStyle.replaceAll(' ', '_')}-body`).append(`<div class='noscroll slayer-calc-container'><span class="noscroll"><span class="noscroll combat-level-label">Combat Level:</span> <input class="noscroll combat-level-input" value="${prevValueLevelInput['Combat']}" /></span><span class="noscroll"><span class="noscroll combat-level-label">Slayer Level:</span> <input class="noscroll slayer-level-input" value="${prevValueLevelInput['Slayer']}" /></span><button class="noscroll calc-slayer-tasks-button" onclick="calculateSlayerTasks()">Calculate Doable Tasks</button></div>`);
+                $(`.${combatStyle.replaceAll(' ', '_')}-body`).append(`<div class='slayer-section slayer-section-1'></div>`);
+                let tooltipBase = `<span class="slayerlock-question">Slayer Locking <i class="fa-solid fa-question-circle question-help"></i></span>`;
+                $(`.${combatStyle.replaceAll(' ', '_')}-body .slayer-section-1`).append(`<div class="slayer-locking-title">${tooltip.generate('slayerLockingTooltip', tooltipBase, 'slayerLockingTooltip', onMobile ? 'bottom' : 'right')}</div>`);
+                if (editingSlayerLock) {
+                    $(`.${combatStyle.replaceAll(' ', '_')}-body .slayer-section-1`).append(`<div class='noscroll slayer-header'>Slayer is currently <span id="slayer-locked-dropdown-container" class="slayer-locked-dropdown-container noscroll" onchange="slayerLockedChange()"><select id="slayer-locked-dropdown"><option ${!!tempSlayerLocked ? 'selected' : ''} value="locked">Locked</option><option ${!tempSlayerLocked ? 'selected' : ''} value="unlocked">Unlocked</option></select></span></div>`);
+                    !!tempSlayerLocked && $(`.${combatStyle.replaceAll(' ', '_')}-body .slayer-section-1`).append(`<div class='slayer-locking-data slayer-locking-level'><b>Slayer Level:</b> <input id="slayer-locked-level-input" type="number" min="1" max="99" onchange="slayerLockedChange()" value="${tempSlayerLocked['level'] || 1}"/></span></div>`);
+                    !!tempSlayerLocked && $(`.${combatStyle.replaceAll(' ', '_')}-body .slayer-section-1`).append(`<div class='slayer-locking-data slayer-locking-task'><b>Task:</b> <span id="slayer-locked-dropdown-container" class="slayer-locked-dropdown-container noscroll" onchange="slayerLockedChange()"><select id="slayer-locked-task-dropdown"></select></span></div>`);
+                    ['Select a task', 'Manually Locked', ...Object.keys(slayerTasks)].forEach((task) => {
+                        $('#slayer-locked-task-dropdown').append(`<option ${!!tempSlayerLocked && tempSlayerLocked.hasOwnProperty('monster') && tempSlayerLocked['monster'] === task ? 'selected' : ''} value="${task}">${task}</option>`);
+                    });
+                    $(`.${combatStyle.replaceAll(' ', '_')}-body .slayer-section-1`).append(`<div class='noscroll slayer-lock-container'><span class='noscroll slayer-lock-button' onclick='toggleEditSlayerLock()'><i class="fa-solid fa-circle-check"></i>Done Editing</span></div>`);
+                } else {
+                    $(`.${combatStyle.replaceAll(' ', '_')}-body .slayer-section-1`).append(`<div class='noscroll slayer-header'>Slayer is currently <b class='noscroll slayer-locked-status ${!!slayerLocked ? 'red' : 'green'}'>${!!slayerLocked ? '<i class="fa-solid fa-lock"></i>' : '<i class="fa-solid fa-unlock"></i>'} ${!!slayerLocked ? 'LOCKED' : 'UNLOCKED'}</b></div>`);
+                    !!slayerLocked && $(`.${combatStyle.replaceAll(' ', '_')}-body .slayer-section-1`).append(`<div class='slayer-locking-data slayer-locking-level'><b>Slayer Level:</b> <span>${slayerLocked['level']}</span></span></div>`);
+                    !!slayerLocked && $(`.${combatStyle.replaceAll(' ', '_')}-body .slayer-section-1`).append(`<div class='slayer-locking-data slayer-locking-task'><b>Task:</b> <span><a class='noscroll' href='${"https://runescape.wiki/w/Slayer_task/" + encodeURI(slayerLocked['monster'].replace(/[!'()*]/g, escape))}' target='_blank'>${slayerLocked['monster'].replaceAll(/~/g, '').replaceAll(/\|/g, '')}</a></span> <span class='noscroll slayer-lock-map' onclick='showSlayerLockOnMap()'><i class="fa-solid fa-map" title="Show on map"></i></span></div>`);
+                    (testMode || !(viewOnly || inEntry || locked)) && $(`.${combatStyle.replaceAll(' ', '_')}-body .slayer-section-1`).append(`<div class='noscroll slayer-lock-container'><span class='noscroll slayer-lock-button' onclick='toggleEditSlayerLock()'><i class="fa-solid fa-edit"></i>Edit Slayer Lock</span></div>`);
+                }
+                $(`.${combatStyle.replaceAll(' ', '_')}-body`).append(`<hr class='slayer-section-split noscroll'>`);
+                $(`.${combatStyle.replaceAll(' ', '_')}-body`).append(`<div class='slayer-section slayer-section-2'></div>`);
+                $(`.${combatStyle.replaceAll(' ', '_')}-body .slayer-section-2`).append(`<div class='noscroll slayer-task-calc-title'>Slayer Task Calculator</div>`);
+                $(`.${combatStyle.replaceAll(' ', '_')}-body .slayer-section-2`).append(`<div class='noscroll slayer-calc-container'><span class="noscroll"><span class="noscroll combat-level-label">Combat Level:</span> <input class="noscroll combat-level-input" value="${prevValueLevelInput['Combat']}" /></span><span class="noscroll"><span class="noscroll combat-level-label">Slayer Level:</span> <input class="noscroll slayer-level-input" value="${prevValueLevelInput['Slayer']}" /></span><button class="noscroll calc-slayer-tasks-button" onclick="calculateSlayerTasks()">Calculate Doable Tasks</button></div>`);
                 $('.combat-level-input').on('input', function(e) {
                     if (!e.target.value.match(/^[0-9]*$/i)) {
                         $(this).val(prevValueLevelInput['Combat']);
@@ -8939,7 +9009,7 @@ let calculateSlayerTasks = function() {
         'Laniakea': 'Receive a slayer assignment from ~|Laniakea|~'
     };
     $(`.Slayer-body .row, .Slayer-body .slayer-table-wrapper`).remove();
-    $(`.Slayer-body`).append(`<div class='noscroll slayer-table-wrapper'></div>`);
+    $(`.Slayer-body .slayer-section-2`).append(`<div class='noscroll slayer-table-wrapper'></div>`);
     $(`.Slayer-body .slayer-table-wrapper`).append(`<div class='noscroll row row-header'><span class='noscroll master-table-header'>Slayer Master</span><span class='noscroll tasks-table-header'>Possible Tasks</span><span class='noscroll info-table-header'>Info</span></div>`);
     prevValueLevelInput['Combat'] = ((prevValueLevelInput['Combat'] || 3) > 138) ? 138 : (((prevValueLevelInput['Combat'] || 3) < 3) ? 3 : (prevValueLevelInput['Combat'] || 3));
     prevValueLevelInput['Slayer'] = ((prevValueLevelInput['Slayer'] || 1) > 120) ? 120 : (((prevValueLevelInput['Slayer'] || 1) < 1) ? 1 : (prevValueLevelInput['Slayer'] || 1));
@@ -9603,6 +9673,7 @@ let closeHighest2 = function() {
     highest2ModalOpen = false;
     modalOutsideTime = Date.now();
     $('#myModal12_2').hide();
+    editingSlayerLock = false;
 }
 
 // Closes the methods modal
@@ -10361,11 +10432,11 @@ let selectOverlayClues = function(clueTier) {
 }
 
 // Clears all overlay clues
-let clearOverlayClues = function() {
+let clearOverlayClues = function(justClear) {
     Object.keys(selectedOverlayClues).forEach((clueTier) => {
         selectedOverlayClues[clueTier] = false;
     });
-    showOverlays(true);
+    !justClear && showOverlays(true);
     drawCanvas();
 }
 
@@ -10378,6 +10449,7 @@ let changeOverlayFilterBy = function() {
 // Shows overlay options
 let showOverlays = function(fromHelper) {
     if (!inEntry && !importMenuOpen && !manualModalOpen && !detailsModalOpen && !notesModalOpen && !highscoreMenuOpen && !helpMenuOpen) {
+        $('#map-marker-btn').hasClass('notice-me') && $('#map-marker-btn').removeClass('notice-me');
         onMobile && hideMobileMenu();
         overlaysModalOpen = true;
         $('#overlays-data').empty();
@@ -10397,6 +10469,9 @@ let showOverlays = function(fromHelper) {
                 clueTiers.forEach((clueTier) => {
                     $('#overlays-data').append(`<div class="overlay noscroll ${clueTier.replaceAll(' ', '_') + '-overlay'} sub-overlay-entry"><label class="checkbox noscroll"><span class="checkbox__input noscroll"><input type="checkbox" name="checkbox" ${selectedOverlayClues[clueTier] ? "checked" : ''} class='noscroll' onclick="selectedOverlay='${overlay}'; selectOverlayClues('${clueTier}'); drawCanvas();"><span class="checkbox__control noscroll"><svg viewBox='0 0 24 24' aria-hidden="true" focusable="false"><path fill='currentColor' stroke='currentColor' d='M 12 12 m -7.5 0 a 7.5 7.5 90 1 0 15 0 a 7.5 7.5 90 1 0 -15 0' /></svg></span></span><span class="checkbox__label noscroll">${overlay === 'None' ? overlay : `<a class='link noscroll' href="${"https://runescape.wiki/w/" + encodeForUrl(`${clueTier} ${overlay.toLowerCase()}`)}" target="_blank">${clueTier} ${overlay}</a>`}</span></label></div>`);
                 });
+            } else if (overlay === 'Locked Slayer Task') {
+                let tooltipBase = `<span class="neighbors-question"><i class="fa-solid fa-question-circle question-help"></i></span>`;
+                $('#overlays-data').append(`<div class="overlay noscroll ${overlay.replaceAll(' ', '_') + '-overlay'}"><label class="radio noscroll"><span class="radio__input noscroll"><input type="radio" name="radio" ${(selectedOverlay === overlayText) ? "checked" : ''} class='noscroll' onclick="selectedOverlay='${overlayText}'; clearOverlayClues();"><span class="radio__control noscroll"><svg viewBox='0 0 24 24' aria-hidden="true" focusable="false"><path fill='currentColor' stroke='currentColor' d='M 12 12 m -7.5 0 a 7.5 7.5 90 1 0 15 0 a 7.5 7.5 90 1 0 -15 0' /></svg></span></span><span class="radio__label noscroll">${overlay === 'None' ? overlay : `<a class='link noscroll' href="${"https://runescape.wiki/w/" + encodeForUrl(overlayLink)}" target="_blank">${overlay}</a>`}${tooltip.generate('slayerOverlayTooltip', tooltipBase, 'slayerOverlayTooltip', onMobile ? 'bottom' : 'right')}</span></label></div>`);
             } else {
                 $('#overlays-data').append(`<div class="overlay noscroll ${overlay.replaceAll(' ', '_') + '-overlay'}"><label class="radio noscroll"><span class="radio__input noscroll"><input type="radio" name="radio" ${(selectedOverlay === overlayText) ? "checked" : ''} class='noscroll' onclick="selectedOverlay='${overlayText}'; clearOverlayClues(); drawCanvas();"><span class="radio__control noscroll"><svg viewBox='0 0 24 24' aria-hidden="true" focusable="false"><path fill='currentColor' stroke='currentColor' d='M 12 12 m -7.5 0 a 7.5 7.5 90 1 0 15 0 a 7.5 7.5 90 1 0 -15 0' /></svg></span></span><span class="radio__label noscroll">${overlay === 'None' ? overlay : `<a class='link noscroll' href="${"https://runescape.wiki/w/" + encodeForUrl(overlayLink)}" target="_blank">${overlay}</a>`}</span></label></div>`);
             }
