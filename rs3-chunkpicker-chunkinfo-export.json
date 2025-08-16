@@ -68922,9 +68922,6 @@
 				"Items": ["Green dragon egg"],
 				"Level": 99,
 				"Chunks": ["Pet shop[+]"],
-				"Tasks": {
-					"(General drops) Obtain a ~|green dragon egg|~": "Summoning"
-				},
 				"Primary": false,
 				"Priority": 6,
 				"NoPet": true,
@@ -68934,9 +68931,6 @@
 				"Items": ["Blue dragon egg"],
 				"Level": 99,
 				"Chunks": ["Pet shop[+]"],
-				"Tasks": {
-					"(General drops) Obtain a ~|blue dragon egg|~": "Summoning"
-				},
 				"Primary": false,
 				"Priority": 7,
 				"NoPet": true,
@@ -68946,9 +68940,6 @@
 				"Items": ["Red dragon egg"],
 				"Level": 99,
 				"Chunks": ["Pet shop[+]"],
-				"Tasks": {
-					"(General drops) Obtain a ~|red dragon egg|~": "Summoning"
-				},
 				"Primary": false,
 				"Priority": 8,
 				"NoPet": true,
@@ -68958,43 +68949,16 @@
 				"Items": ["Black dragon egg"],
 				"Level": 99,
 				"Chunks": ["Pet shop[+]"],
-				"Tasks": {
-					"(General drops) Obtain a ~|black dragon egg|~": "Summoning"
-				},
 				"Primary": false,
 				"Priority": 9,
 				"NoPet": true,
 				"NoBoost": true
 			},
-			"(General drops) Obtain a ~|green dragon egg|~": {
-				"Items": ["Green dragon egg"],
+			"Unlock the ability to get ~|dragon egg|~ drops": {
+				"Monsters": ["DragonEggDroppers[+]"],
 				"Level": 99,
 				"Primary": false,
-				"Priority": 10,
-				"NoPet": true,
-				"NoBoost": true
-			},
-			"(General drops) Obtain a ~|blue dragon egg|~": {
-				"Items": ["Blue dragon egg"],
-				"Level": 99,
-				"Primary": false,
-				"Priority": 11,
-				"NoPet": true,
-				"NoBoost": true
-			},
-			"(General drops) Obtain a ~|red dragon egg|~": {
-				"Items": ["Red dragon egg"],
-				"Level": 99,
-				"Primary": false,
-				"Priority": 12,
-				"NoPet": true,
-				"NoBoost": true
-			},
-			"(General drops) Obtain a ~|black dragon egg|~": {
-				"Items": ["Black dragon egg"],
-				"Level": 99,
-				"Primary": false,
-				"Priority": 13,
+				"Priority": 100000,
 				"NoPet": true,
 				"NoBoost": true
 			},
@@ -127130,7 +127094,8 @@
 			"(Keldagrim) Obtain a ~|dragon pickaxe|~": {
 				"Category": ["Collection Log", "Slayer Collection Log"],
 				"Label": "Slayer Collection Log",
-				"Items": ["Dragon pickaxe"]
+				"Items": ["Dragon pickaxe"],
+				"Monsters": ["Chaos dwarf (Chaos Dwarf Battlefield)"]
 			},
 			"(Kharidian Desert) Obtain a ~|focus sight|~": {
 				"Category": ["Collection Log", "Slayer Collection Log"],
@@ -127817,17 +127782,20 @@
 			"(General drops) Obtain a ~|crystal triskelion fragment 1|~": {
 				"Category": ["Collection Log", "Slayer Collection Log"],
 				"Label": "Slayer Collection Log",
-				"Items": ["Crystal triskelion fragment 1"]
+				"Items": ["Crystal triskelion fragment 1"],
+				"Monsters": ["TriskDropSources[+]"]
 			},
 			"(General drops) Obtain a ~|crystal triskelion fragment 2|~": {
 				"Category": ["Collection Log", "Slayer Collection Log"],
 				"Label": "Slayer Collection Log",
-				"Items": ["Crystal triskelion fragment 2"]
+				"Items": ["Crystal triskelion fragment 2"],
+				"Monsters": ["TriskDropSources[+]"]
 			},
 			"(General drops) Obtain a ~|crystal triskelion fragment 3|~": {
 				"Category": ["Collection Log", "Slayer Collection Log"],
 				"Label": "Slayer Collection Log",
-				"Items": ["Crystal triskelion fragment 3"]
+				"Items": ["Crystal triskelion fragment 3"],
+				"Monsters": ["TriskDropSources[+]"]
 			},
 			"(General drops) Obtain a ~|starved ancient effigy|~": {
 				"Category": ["Collection Log", "Slayer Collection Log"],
@@ -127858,34 +127826,22 @@
 			"(General drops) Obtain a ~|red dragon egg|~": {
 				"Category": ["Collection Log", "Slayer Collection Log"],
 				"Label": "Slayer Collection Log",
-				"Items": ["Red dragon egg"],
-				"Skills": {
-					"Summoning": 99
-				}
+				"Items": ["Red dragon egg"]
 			},
 			"(General drops) Obtain a ~|blue dragon egg|~": {
 				"Category": ["Collection Log", "Slayer Collection Log"],
 				"Label": "Slayer Collection Log",
-				"Items": ["Blue dragon egg"],
-				"Skills": {
-					"Summoning": 99
-				}
+				"Items": ["Blue dragon egg"]
 			},
 			"(General drops) Obtain a ~|green dragon egg|~": {
 				"Category": ["Collection Log", "Slayer Collection Log"],
 				"Label": "Slayer Collection Log",
-				"Items": ["Green dragon egg"],
-				"Skills": {
-					"Summoning": 99
-				}
+				"Items": ["Green dragon egg"]
 			},
 			"(General drops) Obtain a ~|black dragon egg|~": {
 				"Category": ["Collection Log", "Slayer Collection Log"],
 				"Label": "Slayer Collection Log",
-				"Items": ["Black dragon egg"],
-				"Skills": {
-					"Summoning": 99
-				}
+				"Items": ["Black dragon egg"]
 			},
 			"(General drops) Obtain an ~|ectoplasmator|~": {
 				"Category": ["Collection Log", "Slayer Collection Log"],
@@ -148925,24 +148881,28 @@
 				"Output": "Impling jar"
 			},
 			"Crystal chest loot*": {
+				"Category": ["Crystal chests"],
 				"Items": ["Crystal key*"],
 				"Objects": ["Crystal chest"],
 				"Chunks": ["11573"],
 				"Output": "Crystal chest"
 			},
 			"Elven crystal chest loot*": {
+				"Category": ["Crystal chests"],
 				"Items": ["Crystal key*"],
 				"Objects": ["Crystal chest"],
 				"Chunks": ["8755"],
 				"Output": "Crystal chest (Priffdinas)"
 			},
 			"Triskelion loot*": {
+				"Category": ["Crystal chests"],
 				"Items": ["Crystal triskelion*"],
 				"Objects": ["Rock face"],
 				"Chunks": ["11064"],
 				"Output": "Triskelion treasures"
 			},
 			"Columbarium key loot*": {
+				"Category": ["Crystal chests"],
 				"Items": ["Columbarium key*"],
 				"Tasks": {
 					"~|Legacy of Seergaze|~ Complete the quest": "Quest"
@@ -148950,11 +148910,27 @@
 				"Output": "Wooden Recess"
 			},
 			"Shiny columbarium key loot*": {
+				"Category": ["Crystal chests"],
 				"Items": ["Shiny columbarium key*"],
 				"Tasks": {
 					"~|Legacy of Seergaze|~ Complete the quest": "Quest"
 				},
 				"Output": "Wooden Recess (shiny)"
+			},
+			"Temple of Aminishi rare loot*": {
+				"Items": ["Lucky charm (Temple of Aminishi)"],
+				"Chunks": ["Temple of Aminishi"],
+				"Output": "Lucky charm (Temple of Aminishi) loot"
+			},
+			"Dragonkin Laboratory rare loot*": {
+				"Items": ["Lucky charm (Dragonkin Laboratory)"],
+				"Chunks": ["Dragonkin Laboratory"],
+				"Output": "Lucky charm (Dragonkin Laboratory) loot"
+			},
+			"Shadow Reef rare loot*": {
+				"Items": ["Lucky charm (Shadow Reef)"],
+				"Chunks": ["The Shadow Reef"],
+				"Output": "Lucky charm (Shadow Reef) loot"
 			}
 		}
 	},
@@ -193176,18 +193152,6 @@
 				"Logs": "1/6.7@1",
 				"Raw swordfish": "1/2.86@1"
 			},
-			"TempleOfAminishiLuckyCharmDropTable+": {
-				"Onyx dust": "1/2.3@1-5",
-				"Onyx dust": "1/2.3@10-14",
-				"Death lotus extract": "1/50@1",
-				"Tetsu sword upgrade kit": "1/240@1",
-				"Seasinger weapon upgrade kit": "1/240@1",
-				"Sirenic scale": "1/4.7@1",
-				"Ancient scale": "1/200@1",
-				"Steadfast scale": "1/200@1",
-				"Sealed clue scroll (elite)": "1/4@1",
-				"Sealed clue scroll (master)": "1/400@1"
-			},
 			"DragonkinLaboratoryAlchablesDropTable+": {
 				"Laboratory relic (common)": "170/200@1",
 				"Laboratory relic (uncommon)": "29/200@1",
@@ -193204,18 +193168,6 @@
 				"Prayer potion (1)": "1/20@1",
 				"Logs": "1/2.5@1",
 				"Raw swordfish": "1/2@1"
-			},
-			"DragonkinLaboratoryLuckyCharmDropTable+": {
-				"Lucky dragonkin coin": "1/50000@1",
-				"Draconic energy": "1/204@1",
-				"Glaiven wing-tip": "1/33@1",
-				"Draconic visage": "1/18@1",
-				"Dragonfire ash": "1/6@1",
-				"Sealed clue scroll (elite)": "1/10@1",
-				"Sealed clue scroll (master)": "1/1000@1",
-				"Onyx dust": "1/5@10-14",
-				"Onyx dust": "1/2@1-5",
-				"Mysterious egg": "1/12500@1-5"
 			},
 			"ShadowReefAlchablesDropTable+": {
 				"Reef relic (common)": "Always@1",
@@ -193239,21 +193191,6 @@
 				"Huge spiky rune salvage": "1/400@35-55 (noted)",
 				"Logs": "1/6.7@1",
 				"Raw swordfish": "1/2.86@1"
-			},
-			"ShadowReefLuckyCharmDropTable+": {
-				"Onyx dust": "1/2@1-11",
-				"Onyx dust": "1/5@10-20",
-				"Darting shadow": "1/6@1",
-				"Sealed clue scroll (elite)": "1/4@1",
-				"Sealed clue scroll (master)": "1/400@1",
-				"Ragefire gland": "1/40@1",
-				"Oak casket": "1/50@1",
-				"Teak casket": "1/100@1",
-				"Mahogany casket": "1/200@1",
-				"Coins": "1/200@1000000-6000000",
-				"Ancient scale": "1/402@1",
-				"Draconic energy": "1/402@1",
-				"Shadowy egg": "1/50000@1"
 			},
 			"ZamorakianUndercityLuckyDropTable+": {
 				"Crystal chaos": "1/200@1",
@@ -198858,7 +198795,7 @@
 			"CookingGuildEntryItem[+]": "Any item that gives access to the Cooking guild",
 			"CookingPotion[+]": "Any cooking potion",
 			"CopperOrTin[+]": "A Copper or Tin rock",
-			"CorruptDragonArmour[+]": "Any piece of corrupt draogn armour",
+			"CorruptDragonArmour[+]": "Any piece of corrupt dragon armour",
 			"CorruptDragonWeapon[+]": "Any corrupt dragon melee weapon",
 			"CorruptMeleeWeapon[+]": "Any corrupt ancient warrior melee weapon",
 			"CorruptMorriganArmour[+]": "Any piece of corrupt Morrigan's armour",
@@ -199657,6 +199594,48 @@
 			"Warrior[+]": ["Al Kharid warrior", "Warrior woman"],
 			"Goblin[+]": ["Goblin#Drop table 1", "Goblin#Drop table 2", "Goblin (Goblin Village)", "Goblin (God Wars Dungeon)"],
 			"Skeleton[+]": ["Skeleton#Armed", "Skeleton#Unarmed"],
+			"DragonEggDroppers[+]": ["Green dragon", "Blue dragon", "Red dragon", "Black dragon"],
+			"TriskDropSources[+]": [
+				"Abyssal beast",
+				"Abyssal demon",
+				"Abyssal lord",
+				"Abyssal savage",
+				"Araxxi",
+				"Arch-Glacor",
+				"Blissful shadow",
+				"Cadarn magus",
+				"Cadarn ragner",
+				"Cadarn worker",
+				"Croesus",
+				"Dark beast",
+				"Edimmu",
+				"Ganodermic beast",
+				"The Gate of Elidinis",
+				"Ice strykewyrm",
+				"Iorwerth guard",
+				"Iorwerth scout",
+				"Kerapac, the bound",
+				"Kerapac, the bound (Hard Mode)",
+				"Lava strykewyrm",
+				"Legio Primus",
+				"Legio Secundus",
+				"Legio Tertius",
+				"Legio Quartus",
+				"Legio Quintus",
+				"Legio Sextus",
+				"Manifest shadow",
+				"Mutated jadinko baby",
+				"Mutated jadinko guard",
+				"Mutated jadinko male",
+				"Seeker",
+				"Skeletal horror",
+				"Solak, Guardian of the Grove",
+				"Soulgazer",
+				"The Magister",
+				"Truthful shadow",
+				"Vorago",
+				"Vorago (Hard Mode)"
+			],
 			"Monkey Souls[+]": [
 				"Monkey",
 				"Monkey Archer",
@@ -200025,6 +200004,8 @@
 			"Warrior[+]": "Anything that counts as a warrior for 'Lost My Marbles'",
 			"Goblin[+]": "Any type of common goblin",
 			"Skeleton[+]": "Any type of common skeleton",
+			"TriskDropSources[+]": "Any monster source for triskelion fragments",
+			"DragonEggDroppers[+]": "Any dragon that rops a Summoning dragon egg",
 			"Monkey Souls[+]": "Any monkey variant that may fill an ushabti",
 			"Goblin Souls[+]": "Any goblin variant that may fill an ushabti",
 			"Rat Souls[+]": "Any rat variant that may fill an ushabti",
@@ -219110,6 +219091,17 @@
 		"Foal (white)": {
 			"Bones": {
 				"1": "Always"
+			}
+		},
+		"Fox": {
+			"Bones": {
+				"1": "Always"
+			},
+			"Raw chicken": {
+				"1": "Uncommon"
+			},
+			"Fox pelt": {
+				"1": "1/4"
 			}
 		},
 		"Freidir": {
@@ -256141,7 +256133,7 @@
 				"~|Player-owned farm tutorial|~ Complete the tutorial": "Quest"
 			}],
 			"Rat's tail^": [{
-				"~|Witch's Potion|~ 1": "Quest"
+				"~|Witch's Potion (miniquest)|~ 1": "Quest"
 			}],
 			"Elder Trove (Jas, T1)^": [{
 				"~|Azzanadra's Quest|~ Complete the quest": "Quest"
@@ -256185,20 +256177,26 @@
 			"Key (Treasure Trails)^": [{
 				"Obtain a medium clue scroll": "Nonskill"
 			}],
-			"RareDropTable+^": [{
-				"RDT rule": "Nonskill"
-			}],
-			"GemDropTable+^": [{
-				"RDT rule": "Nonskill"
-			}],
-			"WildernessDropTable+^": [{
-				"RDT rule": "Nonskill"
-			}],
 			"Shard of Genesis Essence^Amascut, the Devourer": [{
 				"Hard Mode Bosses": "Nonskill"
 			}],
 			"Devourer aura (Amascut)": [{
 				"Hard Mode Bosses": "Nonskill"
+			}],
+			"Green dragon egg^": [{
+				"Unlock the ability to get ~|dragon egg|~ drops": "Summoning"
+			}],
+			"Blue dragon egg^": [{
+				"Unlock the ability to get ~|dragon egg|~ drops": "Summoning"
+			}],
+			"Red dragon egg^": [{
+				"Unlock the ability to get ~|dragon egg|~ drops": "Summoning"
+			}],
+			"Black dragon egg^": [{
+				"Unlock the ability to get ~|dragon egg|~ drops": "Summoning"
+			}],
+			"Ferocious ring (5)^": [{
+				"Receive a slayer assignment from ~|Kuradal|~": "Slayer"
 			}]
 		},
 		"Monsters": {
@@ -256663,7 +256661,7 @@
 				}]
 			},
 			"TzKal-Zuk (Hard Mode)": {
-				"Senntisten": [{
+				"Senntisten sewers": [{
 					"Hard Mode Bosses": "Nonskill"
 				}]
 			},
@@ -297939,6 +297937,111 @@
 				},
 				"Blue charm": {
 					"1": "55.3/1000"
+				}
+			},
+			"Lucky charm (Temple of Aminishi) loot": {
+				"Onyx dust": {
+					"1-5":"1/2.3"
+				},
+				"Onyx dust": {
+					"10-14":"1/2.3"
+				},
+				"Death lotus extract": {
+					"1":"1/50"
+				},
+				"Tetsu sword upgrade kit": {
+					"1":"1/240"
+				},
+				"Seasinger weapon upgrade kit": {
+					"1":"1/240"
+				},
+				"Sirenic scale": {
+					"1":"1/4.7"
+				},
+				"Ancient scale": {
+					"1":"1/200"
+				},
+				"Steadfast scale": {
+					"1":"1/200"
+				},
+				"Sealed clue scroll (elite)": {
+					"1":"1/4"
+				},
+				"Sealed clue scroll (master)": {
+					"1":"1/400"
+				}
+			},
+			"Lucky charm (Dragonkin Laboratory) loot": {
+				"Lucky dragonkin coin": {
+					"1":"1/50000"
+				},
+				"Draconic energy": {
+					"1":"1/204"
+				},
+				"Glaiven wing-tip": {
+					"1":"1/33"
+				},
+				"Draconic visage": {
+					"1":"1/18"
+				},
+				"Dragonfire ash": {
+					"1":"1/6"
+				},
+				"Sealed clue scroll (elite)": {
+					"1":"1/10"
+				},
+				"Sealed clue scroll (master)": {
+					"1":"1/1000"
+				},
+				"Onyx dust": {
+					"10-14":"1/5"
+				},
+				"Onyx dust": {
+					"1-5":"1/2"
+				},
+				"Mysterious egg": {
+					"1-5":"1/12500"
+				}
+			},
+			"Lucky charm (Shadow Reef) loot": {
+				"Onyx dust": {
+					"1-11":"1/2"
+				},
+				"Onyx dust": {
+					"10-20":"1/5"
+				},
+				"Darting shadow": {
+					"1":"1/6"
+				},
+				"Sealed clue scroll (elite)": {
+					"1":"1/4"
+				},
+				"Sealed clue scroll (master)": {
+					"1":"1/400"
+				},
+				"Ragefire gland": {
+					"1":"1/40"
+				},
+				"Oak casket": {
+					"1":"1/50"
+				},
+				"Teak casket": {
+					"1":"1/100"
+				},
+				"Mahogany casket": {
+					"1":"1/200"
+				},
+				"Coins": {
+					"1000000-6000000":"1/200"
+				},
+				"Ancient scale": {
+					"1":"1/402"
+				},
+				"Draconic energy": {
+					"1":"1/402"
+				},
+				"Shadowy egg": {
+					"1": "1/50000"
 				}
 			}
 		}
