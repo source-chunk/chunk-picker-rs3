@@ -9,8 +9,20 @@
 
     gtag('config', 'G-8P0V9GSFJ2');
   </script>
-  <link rel="stylesheet" href="./index.css?v=6.3.3.1" />
+  <link rel="stylesheet" href="./index.css?v=6.8.16" />
+  <meta charset="UTF-8">
+  <meta name="description" content="The Chunk Picker RS3 is an all-in-one companion tool to the Runescape 3 unofficial gamemode: OneChunkMan. The site allows you to randomly roll chunks, get chunk tasks, and track and share your progress with others.">
+  <meta name="author" content="Source Chunk">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+  <meta property="og:url" content="https://source-chunk.github.io/chunk-picker-rs3/">
+  <meta property="og:image" content="./source-chunk-avatar.png">
+  <meta property="og:description" content="The Chunk Picker RS3 is an all-in-one companion tool to the Runescape 3 unofficial gamemode: OneChunkMan. The site allows you to randomly roll chunks, get chunk tasks, and track and share your progress with others.">
+  <meta property="og:title" content="Chunk Picker RS3">
+  <meta name="twitter:card" content="summary">
+  <meta property="og:url" content="https://source-chunk.github.io/chunk-picker-rs3/">
+  <meta name="twitter:title" content="Chunk Picker RS3">
+  <meta name="twitter:description" content="The Chunk Picker RS3 is an all-in-one companion tool to the Runescape 3 unofficial gamemode: OneChunkMan. The site allows you to randomly roll chunks, get chunk tasks, and track and share your progress with others.">
+  <meta name="twitter:image" content="./source-chunk-avatar.png">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/lodash@4.17.10/lodash.min.js"></script>
@@ -18,6 +30,7 @@
   <script src="https://www.gstatic.com/firebasejs/6.6.0/firebase-auth.js"></script>
   <script src="https://www.gstatic.com/firebasejs/6.6.0/firebase-database.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/dompurify/3.0.3/purify.min.js"></script>
   <script>
     var firebaseConfig = {
       apiKey: "AIzaSyAiqvRtnf0N2y9DC-uuNXudsc7xNoDRryI",
@@ -32,7 +45,7 @@
   </script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
   <title>Chunk Picker RS3</title>
-  <link id="favicon-link" rel="shortcut icon" href="./resources/favicons/favicon-default.png" />
+  <link id="favicon-link" rel="icon" href="./resources/favicons/favicon-default.png" />
   <link href="https://fonts.googleapis.com/css?family=Roboto:400,600,300" rel="stylesheet" type="text/css">
   <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed:400,600,300" rel="stylesheet" type="text/css">
   <link href="resources/fontawesome/css/fontawesome.css" rel="stylesheet">
@@ -43,16 +56,17 @@
 <span style="font-family: Roboto Condensed; visibility: hidden">Roboto Condensed</span>
 
 <img class='background-img' draggable='false' src='./Background-chunk.PNG' />
-<img id='mapImg' style="display:none" src='./runescape_world_map.png?v=6.3.3.1' />
+<img id='mapImg' style="display:none" src='./runescape_world_map.png?v=6.8.16' />
 
 <div class='loading'><div class='loading-inner'></div><div class='loading-hint-1'>Chunk Picker RS3</div><div class='loading-hint-2'></div></div>
 
 <div class='body' data-role="page" ondragstart="() => {return false;}" ondrop="() => {return false;}">
-  <script src="./index.js?v=6.3.3.1"></script>
+  <script src="./tooltip.js?v=6.8.16"></script>
+  <script src="./index.js?v=6.8.16"></script>
   <ul class='active-context-menu'>
     <li onclick="switchActiveContext(event, 'backlog')">Backlog</li>
     <li onclick="switchActiveContext(event, 'backlog note')">Backlog Options</li>
-    <li onclick="switchActiveContext(event, 'alternatives')">Alternatives</li>
+    <li class="active-context-menu-alternatives" onclick="switchActiveContext(event, 'alternatives')">Alternatives<span class="alteratives-star"><i class="fa-solid fa-star noscroll"></i></span></li>
     <li onclick="switchActiveContext(event, 'details')">Details</li>
   </ul>
   <ul class='backlog-context-menu'>
@@ -66,9 +80,18 @@
     <li onclick="switchQuestFilterContext('incomplete')">Show In Progress</li>
     <li onclick="switchQuestFilterContext('unstarted')">Show Not Started</li>
   </ul>
+  <ul class='primarymethods-context-menu'>
+    <li class='context-menu-item primarymethods-enable-opt' onclick="switchManualPrimaryContext('toggle')">Enable manual Primary training for this skill</li>
+    <li class='context-menu-item' onclick="switchManualPrimaryContext('cancel')">Cancel</li>
+  </ul>
+  <ul class='trainingmethods-context-menu'>
+    <li class='context-menu-item trainingmethods-enable-opt' onclick="switchTrainingMethodsContext('backlog')">Backlog this training method</li>
+    <li class='context-menu-item' onclick="switchTrainingMethodsContext('cancel')">Cancel</li>
+  </ul>
   <div class='escape-hint'>Press escape to exit screenshot mode</div>
-  <div class='test-hint'><b><i class="fas fa-exclamation-triangle"></i> Sandbox Mode <i class="fas fa-exclamation-triangle"></i></b><span class='subtext'>All changes made inside sandbox mode are temporary</span></div>
-  <div class='mobile-chunk-hint'><b><i class="fas fa-exclamation-triangle"></i> Tap a Chunk <i class="fas fa-exclamation-triangle"></i></b><span class='subtext'>Then select an action</span></div>
+  <div class='test-hint'><b><i class="fa-solid fa-exclamation-triangle"></i> Sandbox Mode <i class="fa-solid fa-exclamation-triangle"></i></b><span class='subtext'>All changes made inside sandbox mode are temporary</span></div>
+  <div class='mobile-chunk-hint'><b><i class="fa-solid fa-exclamation-triangle"></i> Tap a Chunk <i class="fa-solid fa-exclamation-triangle"></i></b><span class='subtext'>Then select an action</span></div>
+  <span class="tooltiptext custom-tooltiptext"></span>
   <div class='topnav'>
     <div>
       <a href='?about' target="_blank" class="about-button" title='About Me'>
@@ -79,26 +102,28 @@
     </div>
     <div><a href='./'><span class="gohome" title='Home'>Chunk Picker RS3</span></a></div>
     <div class='toptitle2-outer'><span class='toptitle2'>---</span></div>
-    <!--<div><span><i class="help-button fas fa-question" onclick='helpFunc()' title='Help'></i></span></div>-->
-    <span class='topbar-item'><div><i class="settings fas fa-cog" onclick='settingsMenu()' title='Settings'></i></div></span>
+    <span class='topbar-item'><div><i class="settings fa-solid fa-cog" onclick='settingsMenu()' title='Settings'></i></div></span>
+    <span class='topbar-item topbar-item-6'></span>
     <span class='topbar-item topbar-item-5'></span>
-    <span class='topbar-item topbar-item-4'></span>
     <span class='topbar-item'><div><a
       href='https://discord.gg/kXRgpxnBxu'
-      target='_blank'><i class="godiscord fab fa-discord" title='Join the Discord'></i></a></div></span>
+      target='_blank'><i class="godiscord fa-brands fa-discord" title='Join the Discord'></i></a></div></span>
+    <span class='topbar-item topbar-item-3'></span>
     <span class='topbar-item topbar-item-2'></span>
-    <span class='topbar-item topbar-item-1'></span>
     <span class='topbar-item'><div><a
       href='https://www.patreon.com/bePatron?u=56906793'
-      target='_blank'><i class="gopatreon fab fa-patreon" title='Support me on Patreon'></i></a></div></span>
-    <div><span onclick='openSearch()'><i class="gosearch fas fa-search" title='Search My Chunks'></i></span></div>
+      target='_blank'><i class="gopatreon fa-brands fa-patreon" title='Support me on Patreon'></i></a></div></span>
+    <span class='topbar-item'><div><a
+      href='https://github.com/source-chunk/chunk-picker-v2/wiki/Help'
+      target='_blank'><i class="gohelp fa-solid fa-circle-question" title='Help'></i></a></div></span>
+    <div><span onclick='openSearch()'><i class="gosearch fa-solid fa-search" title='Search My Chunks'></i></span></div>
     <div><span
       class='noscroll'
-      onclick="openMobileTasks()"><i class="gomobiletasks fas fa-tasks" title='Tasks'></i></span></div>
+      onclick="openMobileTasks()"><i class="gomobiletasks fa-solid fa-tasks" title='Tasks'></i></span></div>
   </div>
   <div id="myModal" class="modal">
     <div class="modal-content noscroll">
-      <i class="manual-close pic fas fa-times noscrollhard" onclick="closeManualAdd()"></i>
+      <i class="manual-close pic fa-solid fa-times noscrollhard" onclick="closeManualAdd()"></i>
       <div class='challenge-title'>
         <input type="text" placeholder="Filter tasks..." id="searchManual" class="noscrollhard"
           oninput="searchManualTasks()" autocomplete="off" />
@@ -119,14 +144,14 @@
   </div>
   <div id="myModal12_2" class="modal">
     <div class="modal-content noscroll">
-      <i class="manual-close pic fas fa-times noscrollhard" onclick="closeHighest2()"></i>
+      <i class="manual-close pic fa-solid fa-times noscrollhard" onclick="closeHighest2()"></i>
       <div id="highest2-title" class="highest2-title noscroll"></div>
       <div id="highest2-data" class="highest2-data noscroll"></div>
     </div>
   </div>
   <div id="myModal25" class="modal">
     <div class="modal-content noscroll">
-      <i class="manual-close pic fas fa-times noscrollhard" onclick="closeQuestSteps()"></i>
+      <i class="manual-close pic fa-solid fa-times noscrollhard" onclick="closeQuestSteps()"></i>
       <div id="quest-steps-title" class="quest-steps-title noscroll">Quest Steps</div>
       <div id="quest-steps-data" class="quest-steps-data noscroll"></div>
     </div>
@@ -143,103 +168,113 @@
   </div>
   <div id="myModal4" class="modal">
     <div class="modal-content noscroll">
-      <i class="manual-close pic fas fa-times noscrollhard" onclick="closeRules()"></i>
+      <i class="manual-close pic fa-solid fa-times noscrollhard" onclick="closeRules()"></i>
       <div id="rules-title" class="rules-title noscroll">Chunk Rules</div>
       <div id="rules-subtitle" class="rules-subtitle noscroll">Pick and choose how you want to shape *your* <b>Chunk Experience</b>. Select rules to define what tasks you want to see, how those tasks are generated, and other special rulings.</div>
       <div id="rules-data" class="rules-data noscroll">
         <div id="rules-subdata" class="rules-subdata noscroll"></div>
         <div id='rulesvisibletasks' class='accordion' onclick="toggleRulesPanel('visibletasks')"><span class='exp'><i
-          class="acc pic fas fa-plus"></i></span><span class="accordion-title">Visible Tasks</span></div>
+          class="acc pic fa-solid fa-plus"></i></span><span class="accordion-title">Visible Tasks</span></div>
         <div class="panel panel-visibletasks"></div>
+		    <div id='rulescollections' class='accordion' onclick="toggleRulesPanel('collections')"><span class='exp'><i
+          class="acc pic fa-solid fa-plus"></i></span><span class="accordion-title">Collections</span></div>
+        <div class="panel panel-collections"></div>
+		    <div id='rulesachievements' class='accordion' onclick="toggleRulesPanel('achievements')"><span class='exp'><i
+          class="acc pic fas fa-plus"></i></span><span class="accordion-title">Achievements</span></div>
+        <div class="panel panel-achievements"></div>
         <div id='rulesoverallskill' class='accordion' onclick="toggleRulesPanel('overallskill')"><span class='exp'><i
-          class="acc pic fas fa-plus"></i></span><span class="accordion-title">Overall Skill</span></div>
+          class="acc pic fa-solid fa-plus"></i></span><span class="accordion-title">Overall Skill</span></div>
         <div class="panel panel-overallskill"></div>
         <div id='rulesagility' class='accordion' onclick="toggleRulesPanel('agility')"><span class='exp'><i
-          class="acc pic fas fa-plus"></i></span><span class="accordion-title">Agility</span></div>
+          class="acc pic fa-solid fa-plus"></i></span><span class="accordion-title">Agility</span></div>
         <div class="panel panel-agility"></div>
         <div id='rulescombat' class='accordion' onclick="toggleRulesPanel('combat')"><span class='exp'><i
-          class="acc pic fas fa-plus"></i></span><span class="accordion-title">Combat</span></div>
+          class="acc pic fa-solid fa-plus"></i></span><span class="accordion-title">Combat</span></div>
         <div class="panel panel-combat"></div>
         <div id='rulesconstruction' class='accordion' onclick="toggleRulesPanel('construction')"><span class='exp'><i
-          class="acc pic fas fa-plus"></i></span><span class="accordion-title">Construction</span></div>
+          class="acc pic fa-solid fa-plus"></i></span><span class="accordion-title">Construction</span></div>
         <div class="panel panel-construction"></div>
         <div id='rulesfarming' class='accordion' onclick="toggleRulesPanel('farming')"><span class='exp'><i
-          class="acc pic fas fa-plus"></i></span><span class="accordion-title">Farming</span></div>
+          class="acc pic fa-solid fa-plus"></i></span><span class="accordion-title">Farming</span></div>
         <div class="panel panel-farming"></div>
-        <div id='rulesfishing' class='accordion' onclick="toggleRulesPanel('fishing')"><span class='exp'><i
-          class="acc pic fas fa-plus"></i></span><span class="accordion-title">Fishing</span></div>
-        <div class="panel panel-fishing"></div>
         <div id='rulesherblore' class='accordion' onclick="toggleRulesPanel('herblore')"><span class='exp'><i
-          class="acc pic fas fa-plus"></i></span><span class="accordion-title">Herblore</span></div>
+          class="acc pic fa-solid fa-plus"></i></span><span class="accordion-title">Herblore</span></div>
         <div class="panel panel-herblore"></div>
         <div id='ruleshunter' class='accordion' onclick="toggleRulesPanel('hunter')"><span class='exp'><i
-          class="acc pic fas fa-plus"></i></span><span class="accordion-title">Hunter</span></div>
+          class="acc pic fa-solid fa-plus"></i></span><span class="accordion-title">Hunter</span></div>
         <div class="panel panel-hunter"></div>
+		    <div id='rulesinvention' class='accordion' onclick="toggleRulesPanel('invention')"><span class='exp'><i
+          class="acc pic fa-solid fa-plus"></i></span><span class="accordion-title">Invention</span></div>
+        <div class="panel panel-invention"></div>
         <div id='rulesmagic' class='accordion' onclick="toggleRulesPanel('magic')"><span class='exp'><i
-          class="acc pic fas fa-plus"></i></span><span class="accordion-title">Magic</span></div>
+          class="acc pic fa-solid fa-plus"></i></span><span class="accordion-title">Magic</span></div>
         <div class="panel panel-magic"></div>
+		<div id='rulesnecromancy' class='accordion' onclick="toggleRulesPanel('necromancy')"><span class='exp'><i
+          class="acc pic fa-solid fa-plus"></i></span><span class="accordion-title">Necromancy</span></div>
+        <div class="panel panel-necromancy"></div>
         <div id='rulesprayer' class='accordion' onclick="toggleRulesPanel('prayer')"><span class='exp'><i
-          class="acc pic fas fa-plus"></i></span><span class="accordion-title">Prayer</span></div>
+          class="acc pic fa-solid fa-plus"></i></span><span class="accordion-title">Prayer</span></div>
         <div class="panel panel-prayer"></div>
         <div id='rulesranged' class='accordion' onclick="toggleRulesPanel('ranged')"><span class='exp'><i
-          class="acc pic fas fa-plus"></i></span><span class="accordion-title">Ranged</span></div>
+          class="acc pic fa-solid fa-plus"></i></span><span class="accordion-title">Ranged</span></div>
         <div class="panel panel-ranged"></div>
         <div id='rulesrunecraft' class='accordion' onclick="toggleRulesPanel('runecrafting')"><span class='exp'><i
-          class="acc pic fas fa-plus"></i></span><span class="accordion-title">Runecrafting</span></div>
+          class="acc pic fa-solid fa-plus"></i></span><span class="accordion-title">Runecrafting</span></div>
         <div class="panel panel-runecrafting"></div>
         <div id='rulesslayer' class='accordion' onclick="toggleRulesPanel('slayer')"><span class='exp'><i
-          class="acc pic fas fa-plus"></i></span><span class="accordion-title">Slayer</span></div>
+          class="acc pic fa-solid fa-plus"></i></span><span class="accordion-title">Slayer</span></div>
         <div class="panel panel-slayer"></div>
         <div id='rulessmithing' class='accordion' onclick="toggleRulesPanel('smithing')"><span class='exp'><i
-          class="acc pic fas fa-plus"></i></span><span class="accordion-title">Smithing</span></div>
+          class="acc pic fa-solid fa-plus"></i></span><span class="accordion-title">Smithing</span></div>
         <div class="panel panel-smithing"></div>
-        <div id='rulesthieving' class='accordion' onclick="toggleRulesPanel('thieving')"><span class='exp'><i
-          class="acc pic fas fa-plus"></i></span><span class="accordion-title">Thieving</span></div>
-        <div class="panel panel-thieving"></div>
         <div id='rulesitemsources' class='accordion' onclick="toggleRulesPanel('itemsources')"><span class='exp'><i
-          class="acc pic fas fa-plus"></i></span><span class="accordion-title">Item Sources</span></div>
+          class="acc pic fa-solid fa-plus"></i></span><span class="accordion-title">Item Sources</span></div>
         <div class="panel panel-itemsources"></div>
         <div id='rulesmiscellaneous' class='accordion' onclick="toggleRulesPanel('miscellaneous')"><span class='exp'><i
-          class="acc pic fas fa-plus"></i></span><span class="accordion-title">Miscellaneous</span></div>
+          class="acc pic fa-solid fa-plus"></i></span><span class="accordion-title">Miscellaneous</span></div>
         <div class="panel panel-miscellaneous"></div>
         <div class="panel panel-search"></div>
         <div class="rules-names">
           <div id='rulesvisibletasks' class='accordion-sidebar' onclick="toggleRulesPanel('visibletasks')"><span class="accordion-title">Visible Tasks</span></div>
+          <div id='rulescollections' class='accordion-sidebar' onclick="toggleRulesPanel('collections')"><span class="accordion-title">Collections</span></div>
+          <div id='rulesachievements' class='accordion-sidebar' onclick="toggleRulesPanel('achievements')"><span class="accordion-title">Achievements</span></div>
           <div id='rulesoverallskill' class='accordion-sidebar' onclick="toggleRulesPanel('overallskill')"><span class="accordion-title">Overall Skill</span></div>
           <div id='rulesagility' class='accordion-sidebar' onclick="toggleRulesPanel('agility')"><span class="accordion-title">Agility</span></div>
           <div id='rulescombat' class='accordion-sidebar' onclick="toggleRulesPanel('combat')"><span class="accordion-title">Combat</span></div>
           <div id='rulesconstruction' class='accordion-sidebar' onclick="toggleRulesPanel('construction')"><span class="accordion-title">Construction</span></div>
           <div id='rulesfarming' class='accordion-sidebar' onclick="toggleRulesPanel('farming')"><span class="accordion-title">Farming</span></div>
-          <div id='rulesfishing' class='accordion-sidebar' onclick="toggleRulesPanel('fishing')"><span class="accordion-title">Fishing</span></div>
           <div id='rulesherblore' class='accordion-sidebar' onclick="toggleRulesPanel('herblore')"><span class="accordion-title">Herblore</span></div>
           <div id='ruleshunter' class='accordion-sidebar' onclick="toggleRulesPanel('hunter')"><span class="accordion-title">Hunter</span></div>
+          <div id='rulesinvention' class='accordion-sidebar' onclick="toggleRulesPanel('invention')"><span class="accordion-title">Invention</span></div>
           <div id='rulesmagic' class='accordion-sidebar' onclick="toggleRulesPanel('magic')"><span class="accordion-title">Magic</span></div>
-          <div id='rulesprayer' class='accordion-sidebar' onclick="toggleRulesPanel('prayer')"><span class="accordion-title">Prayer</span></div>
+          <div id='rulesnecromancy' class='accordion-sidebar' onclick="toggleRulesPanel('necromancy')"><span class="accordion-title">Necromancy</span></div>
+		  <div id='rulesprayer' class='accordion-sidebar' onclick="toggleRulesPanel('prayer')"><span class="accordion-title">Prayer</span></div>
           <div id='rulesranged' class='accordion-sidebar' onclick="toggleRulesPanel('ranged')"><span class="accordion-title">Ranged</span></div>
           <div id='rulesrunecrafting' class='accordion-sidebar' onclick="toggleRulesPanel('runecrafting')"><span class="accordion-title">Runecrafting</span></div>
           <div id='rulesslayer' class='accordion-sidebar' onclick="toggleRulesPanel('slayer')"><span class="accordion-title">Slayer</span></div>
           <div id='rulessmithing' class='accordion-sidebar' onclick="toggleRulesPanel('smithing')"><span class="accordion-title">Smithing</span></div>
-          <div id='rulesthieving' class='accordion-sidebar' onclick="toggleRulesPanel('thieving')"><span class="accordion-title">Thieving</span></div>
           <div id='rulesitemsources' class='accordion-sidebar' onclick="toggleRulesPanel('itemsources')"><span class="accordion-title">Item Sources</span></div>
           <div id='rulesmiscellaneous' class='accordion-sidebar' onclick="toggleRulesPanel('miscellaneous')"><span class="accordion-title">Miscellaneous</span></div>
         </div>
         <div class="rules-content">
           <div class="panel panel-visibletasks"></div>
+          <div class="panel panel-collections"></div>
+          <div class="panel panel-achievements"></div>
           <div class="panel panel-overallskill"></div>
           <div class="panel panel-agility"></div>
           <div class="panel panel-combat"></div>
           <div class="panel panel-construction"></div>
           <div class="panel panel-farming"></div>
-          <div class="panel panel-fishing"></div>
           <div class="panel panel-herblore"></div>
           <div class="panel panel-hunter"></div>
+          <div class="panel panel-invention"></div>
           <div class="panel panel-magic"></div>
+          <div class="panel panel-necromancy"></div>
           <div class="panel panel-prayer"></div>
           <div class="panel panel-ranged"></div>
           <div class="panel panel-runecrafting"></div>
           <div class="panel panel-slayer"></div>
           <div class="panel panel-smithing"></div>
-          <div class="panel panel-thieving"></div>
           <div class="panel panel-itemsources"></div>
           <div class="panel panel-miscellaneous"></div>
         </div>
@@ -254,32 +289,17 @@
       <div id="preset-data" class="preset-data noscroll"></div>
     </div>
   </div>
-  <div id="myModal6" class="modal">
-    <div class="modal-content noscroll">
-      <div id="random-title" class="random-title noscroll">Add Random Event & Other Loot</div>
-      <div id="random-subtitle" class="random-subtitle noscroll">Select the loot recieved from a random event/bird nest/mining gem/RareDropTable/GemDropTable and confirm to add the item into the calculation of chunk tasks.</div>
-      <div id="random-dropdown-container" class="random-dropdown-container noscroll" onchange="randomChange()"><select id="random-dropdown"></select></div>
-      <div id="random-data" class="random-data noscroll"></div>
-    </div>
-  </div>
   <div id="myModal7" class="modal">
     <div class="modal-content noscroll">
-      <i class="manual-close pic fas fa-times noscrollhard" onclick="closeSettings()"></i>
+      <i class="manual-close pic fa-solid fa-times noscrollhard" onclick="closeSettings()"></i>
       <div id="settings-title" class="settings-title noscroll">Settings</div>
       <div id="settings-data" class="settings-data noscroll"></div>
-    </div>
-  </div>
-  <div id="myModal8" class="modal">
-    <div class="modal-content noscroll">
-      <i class="manual-close pic fas fa-times noscrollhard" onclick="closeRandomList()"></i>
-      <div id="randomlist-title" class="randomlist-title noscroll">Added Items</div>
-      <div id="randomlist-data" class="randomlist-data noscroll"></div>
     </div>
   </div>
   <div id="myModal9" class="modal">
     <div class="modal-content noscroll">
       <div id="statserror-title" class="statserror-title noscroll">Username already on Chunk Stats</div>
-      <div id="statserror-subtitle" class="statserror-subtitle noscroll">This username is already in use on Chunk Stats. If this is a mistake, please contact <i class='noscroll hover-copy' onclick="navigator.clipboard.writeText('whitecatblack')">whitecatblack  <i class="fas fa-copy noscroll"></i></i> on Discord.</div>
+      <div id="statserror-subtitle" class="statserror-subtitle noscroll">This username is already in use on Chunk Stats. If this is a mistake, please contact <i class='noscroll hover-copy' onclick="navigator.clipboard.writeText('whitecatblack')">whitecatblack  <i class="fa-solid fa-copy noscroll"></i></i> on Discord.</div>
       <div id="statserror-footer" class="statserror-footer noscroll">
         <button id='submit-statserror-button' class='modal-button' onclick='closeStatsError()'>Okay</button>
       </div>
@@ -287,10 +307,10 @@
   </div>
   <div id="myModal10" class="modal">
     <div class="modal-content noscroll">
-      <i class="manual-close pic fas fa-times noscrollhard" onclick="closeSearch()"></i>
+      <i class="manual-close pic fa-solid fa-times noscrollhard" onclick="closeSearch()"></i>
       <div id="searchchunks-title" class="searchchunks-title noscroll">Search within your chunks</div>
       <div id="searchchunks-subtitle" class="searchchunks-subtitle noscroll">Search for items, npcs, monsters, objects, and shops to see where you have access to each within your unlocked chunks. <span
-        class='help help2'>~<span class="tooltiptext">~food, ~items, ~monsters, ~npcs, ~objects, ~shops</span></span></div>
+        class='help2'></span></div>
       <div id="searchchunks-searchcontainer" class="searchchunks-searchcontainer noscroll">
         <input type="text" placeholder="Search name..." id="searchChunks" class="noscrollhard"
           oninput="searchWithinChunks()" autocomplete="off" />
@@ -301,15 +321,22 @@
   </div>
   <div id="myModal12" class="modal">
     <div class="modal-content noscroll">
-      <i class="manual-close pic fas fa-times noscrollhard" onclick="closeHighest()"></i>
+      <i class="manual-close pic fa-solid fa-times noscrollhard" onclick="closeHighest()"></i>
       <div id="highest-title" class="highest-title noscroll"></div>
       <div id="highest-data" class="highest-data noscroll"></div>
+    </div>
+  </div>
+  <div id="myModal50" class="modal">
+    <div class="modal-content noscroll">
+      <div id="bis-upgrades-title" class="bis-upgrades-title noscroll"><span class="bis-upgrades-slot-name"></span> Slot Upgrade Chart</div>
+      <i class="manual-close pic fa-solid fa-times noscrollhard" onclick="closeBisUpgrades()"></i>
+      <div id="bis-upgrades-data" class="bis-upgrades-data noscroll"></div>
     </div>
   </div>
   <div id="myModal13" class="modal">
     <div class="modal-content noscroll">
       <div class="methods-topbar topbar noscroll">
-        <i class="manual-close pic fas fa-times noscrollhard" onclick="closeMethods()"></i>
+        <i class="manual-close pic fa-solid fa-times noscrollhard" onclick="closeMethods()"></i>
       </div>
       <div id="methods-data" class="methods-data noscroll"></div>
     </div>
@@ -318,7 +345,7 @@
     <div class="modal-content noscroll">
       <span class="details-back"></span>
       <div class="topbar noscroll">
-        <i class="manual-close pic fas fa-times noscrollhard" onclick="closeChallengeDetails()"></i>
+        <i class="manual-close pic fa-solid fa-times noscrollhard" onclick="closeChallengeDetails()"></i>
       </div>
       <div id="details-title" class="details-title noscroll"></div>
       <div id="details-data" class="details-data noscroll"></div>
@@ -327,14 +354,21 @@
   <div id="myModal11" class="modal">
     <div class="modal-content noscroll">
       <span class="searchdetails-back"></span>
-      <i class="manual-close pic fas fa-times noscrollhard" onclick="closeSearchDetails()"></i>
+      <i class="manual-close pic fa-solid fa-times noscrollhard" onclick="closeSearchDetails()"></i>
       <div id="searchdetails-title" class="searchdetails-title noscroll"></div>
+      <div id="searchdetails-sorter" class="searchdetails-sorter noscroll">
+        Sort by
+        <select id="searchdetails-sorter-dropdown" onchange="searchDetailsSorterChange()">
+          <option value='Alphabetical'>Alphabetical</option>
+          <option value='Droprate'>Droprate</option>
+        </select>
+      </div>
       <div id="searchdetails-data" class="searchdetails-data noscroll"></div>
     </div>
   </div>
   <div id="myModal14" class="modal">
     <div class="modal-content noscroll">
-      <i class="manual-close pic fas fa-times noscrollhard" onclick="closeComplete()"></i>
+      <i class="manual-close pic fa-solid fa-times noscrollhard" onclick="closeComplete()"></i>
       <div id="complete-title" class="complete-title noscroll">Are you sure?</div>
       <div id="complete-data" class="complete-data noscroll">Completing these tasks will remove them from the Active Chunk Tasks tab and move them to the Completed Tasks tab. They can be un-completed from there if needed.</div>
       <div id="complete-footer" class="complete-footer noscroll">
@@ -344,7 +378,7 @@
   </div>
   <div id="myModal15" class="modal">
     <div class="modal-content noscroll">
-      <i class="manual-close pic fas fa-times noscrollhard" onclick="closeAddEquipment()"></i>
+      <i class="manual-close pic fa-solid fa-times noscrollhard" onclick="closeAddEquipment()"></i>
       <div id="add-equipment-title" class="add-equipment-title noscroll">Add Miscellaneous BiS Equipment</div>
       <div id="add-equipment-subtitle" class="add-equipment-subtitle noscroll">Select the miscellaneous equipment obtained from various untracked sources (clue scrolls, quest rewards, crafted/smithed, etc.) to add it to your unlocked items. <b>(Adding equipment like this is not required and is for adding items that outrank your "standard" BiS gear)</b></div>
       <div id="add-equipment-searchcontainer" class="add-equipment-searchcontainer noscroll">
@@ -376,7 +410,7 @@
   </div>
   <div id="myModal17" class="modal">
     <div class="modal-content noscroll">
-      <i class="manual-close pic fas fa-times noscrollhard" onclick="closeBacklogSources()"></i>
+      <i class="manual-close pic fa-solid fa-times noscrollhard" onclick="closeBacklogSources()"></i>
       <div id="backlog-sources-title" class="backlog-sources-title noscroll">Backlog Sources</div>
       <div id="backlog-sources-subtitle" class="backlog-sources-subtitle noscroll">Select the monster/object/shop/etc. you want to backlog from within your unlocked chunks.</div>
       <div id="backlog-sources-searchcontainer" class="backlog-sources-searchcontainer noscroll">
@@ -389,7 +423,7 @@
   </div>
   <div id="myModal18" class="modal">
     <div class="modal-content noscroll">
-      <i class="manual-close pic fas fa-times noscrollhard" onclick="closeChunkHistory()"></i>
+      <i class="manual-close pic fa-solid fa-times noscrollhard" onclick="closeChunkHistory()"></i>
       <div id="chunkhistory-title" class="chunkhistory-title noscroll">Chunk-roll History</div>
       <div id="chunkhistory-subtitle" class="chunkhistory-subtitle noscroll">Explore the entire list of your previously rolled chunks. Useful for helping track the order your map unlocked in or remember what chunks you unlocked last week.</div>
       <div id="chunkhistory-data" class="chunkhistory-data noscroll">
@@ -404,7 +438,7 @@
   <div id="myModal19" class="modal">
     <div class="modal-content noscroll">
       <div class="topbar noscroll">
-        <i class="manual-close pic fas fa-times noscrollhard" onclick="closeChallengeAlts()"></i>
+        <i class="manual-close pic fa-solid fa-times noscrollhard" onclick="closeChallengeAlts()"></i>
       </div>
       <div id="alts-title" class="alts-title noscroll">Alternatives</div>
       <div id="alts-data" class="alts-data noscroll"></div>
@@ -413,24 +447,24 @@
   <div id="myModal20" class="modal">
     <div class="modal-content noscroll">
       <div class="topbar noscroll">
-        <i class="manual-close pic fas fa-times noscrollhard" onclick="closeOuterAdd()"></i>
+        <i class="manual-close pic fa-solid fa-times noscrollhard" onclick="closeOuterAdd()"></i>
       </div>
       <div id="add-title" class="add-title noscroll">Manually Add:</div>
       <div id="add-data" class="add-data noscroll">
         <div class="add-item"><span class="open-manual" onclick="openManualAdd()">Tasks</span>
         </div>
-        <div class="add-item"><span class="open-monsters" onclick="openMonstersAdd()">Items/Monsters/NPCs/Objects</span>
+        <div class="add-item"><span class="open-monsters" onclick="openMonstersAdd()">Items/Monsters/NPCs/Objects/Shops</span>
         </div>
-        <div class="add-item"><span class="open-random" onclick="openRandomAdd()">Random Event & Other Loot</span>
+        <div class="add-item"><span class="open-usertasks" onclick="openUserTasks()">Custom User-Inputted Tasks</span>
         </div>
       </div>
     </div>
   </div>
   <div id="myModal21" class="modal">
     <div class="modal-content noscroll">
-      <i class="manual-close pic fas fa-times noscrollhard" onclick="closeMonstersAdd()"></i>
+      <i class="manual-close pic fa-solid fa-times noscrollhard" onclick="closeMonstersAdd()"></i>
       <div id="monsters-title" class="monsters-title noscroll">Manually Add Stuff</div>
-      <div id="monsters-subtitle" class="monsters-subtitle noscroll">Select the Item/Monster/NPC/Object you want to add to your chunks. Useful if your rules allow you to lure monsters/npcs from other chunks into your own, or to add items gained from clue scrolls or wandering implings.</div>
+      <div id="monsters-subtitle" class="monsters-subtitle noscroll">Select the Item/Monster/NPC/Object/Shop you want to add to your chunks. Useful if your rules allow you to lure monsters/npcs from other chunks into your own, or to add items gained from clue scrolls or wandering implings.</div>
       <div id="monsters-searchcontainer" class="monsters-searchcontainer noscroll">
         <input type="text" placeholder="Search..." id="searchMonsters" class="noscrollhard"
           oninput="searchMonsters()" autocomplete="off" />
@@ -439,18 +473,9 @@
       <div id="monsters-data" class="monsters-data noscroll"></div>
     </div>
   </div>
-  <div id="myModal22" class="modal">
-    <div class="modal-content noscroll">
-      <div id="slayer-locked-title" class="slayer-locked-title noscroll">Select Slayer Task</div>
-      <div id="slayer-locked-subtitle" class="slayer-locked-subtitle noscroll">Select the Slayer task that locks your Slayer progress and enter your current Slayer level. You won't be shown Slayer tasks higher than your current Slayer level until you're able to train Slayer again.</div>
-      <div id="slayer-locked-dropdown-container" class="slayer-locked-dropdown-container noscroll" onchange="slayerLockedChange()"><select id="slayer-locked-dropdown"></select></div>
-      <div id="slayer-locked-input-container" class="slayer-locked-input-container noscroll">Current Slayer Level: <input id="slayer-locked-input" type="number" min="1" max="120" oninput="slayerLockedChange()"/></div>
-      <div id="slayer-locked-data" class="slayer-locked-data noscroll"></div>
-    </div>
-  </div>
   <div id="myModal23" class="modal">
     <img class='background-img-23' draggable="false" src='./Background-chunk.PNG' />
-    <div class='roll-chunk-spinner'><i class="noscroll fas fa-spinner fa-spin"></i></div>
+    <div class='roll-chunk-spinner'><i class="noscroll fa-solid fa-spinner fa-spin"></i></div>
     <div class="modal-content noscroll">
       <div id="roll-chunk-title" class="roll-chunk-title noscroll">Rolling your next chunk...</div>
       <div id="roll-chunk-subtitle" class="roll-chunk-subtitle noscroll"></div>
@@ -470,20 +495,31 @@
   <div id="myModal24" class="modal">
     <div class="modal-content noscroll">
       <div id="patch-notes-title" class="patch-notes-title noscroll">Patch Notes</div>
-      <div id="patch-notes-subtitle" class="patch-notes-subtitle noscroll">08/14/2024 (6.3.0)</div>
+      <div id="patch-notes-subtitle" class="patch-notes-subtitle noscroll">August 28, 2024 (6.4.0)</div>
       <div id="patch-notes-data" class="patch-notes-data noscroll">
+        <div><i>Note that not every update to the Chunk Picker has a corresponding Patch Notes entry. Check out the <a class='noscroll link' href='https://github.com/source-chunk/chunk-picker-rs3/commits/gh-pages/' target='_blank'>Github Repository</a> to see when the Chunk Picker was last updated.</i></div>
+        <br />
         <h2 class='noscroll'>Major Changes & New Features</h2>
         <ul class='noscroll'>
-          <li class='noscroll'><b>Group Map Support</b> - Ever try to watch your friend roll their next chunk on their chunk picker map, but it doesn't update until you reload the page? Playing a group-ironman chunk account with others and using the same map? With today's update, the chunk picker map will now stay updated in realtime with any changes happening on the map, including what others are doing!</li>
-          <li class='noscroll'><b>Patch Notes Archive</b> - There now exists an archive of all previous patch notes! They'll always be linked at the bottom of the current patch notes, or you can find it at <a href='?patch-notes' target="_blank">https://source-chunk.github.io/chunk-picker-rs3/?patch-notes</a></li>
-          <li class='noscroll'><b>Mobile Chunk Info</b> - Support has now been added for checking chunk info, blacklisting chunks, and adding stickers to chunks on mobile! Just load up the site on your mobile device, open the mobile-menu, tap the 'Select Chunk for Action' button, and tap the chunk you want to interact with!</li>
-          <li class='noscroll'><b>Customizable Topbar</b> - The topbar (that toolbar-looking-thing at the top of every map) now has support for customizing which actions are displayed on it! Open the settings dropdown and click on the 'Customize Topbar' option to get started!</li>
+          <li class='noscroll'><b>Custom User-Inputted Tasks</b> - Added a way to add your own custom Skill and Other tasks to the Chunk Picker. Perfect for people who require specific levels that aren't related to any specific task before moving on from a chunk. Add a custom task by clicking the 'Manually Add To My Chunks' button below your active tasks, then selecting 'Custom User-Inputted Tasks'.</li>
+          <li class='noscroll'><b>Manually Enabled Primary Training</b> - Added a way to turn on Primary training for a given skill. Good if you just want to see all tasks for a skill, even if you don't have a 'valid' way to train the skill yet. Enable it via the cogs icon next to the skill in the Activity Info window.</li>
         </ul>
         <h2 class='noscroll'>Other Changes & Bug Fixes</h2>
         <ul class='noscroll'>
-          <li class='noscroll'>Added a link to the quest steps window on tasks for completing a quest</li>
+          <li class='noscroll'>Added the ability to choose a custom color for the border of your unlocked chunks! Currently it's the thick red line on your map, but now you can choose any color via the Settings window</li>
+          <li class='noscroll'>Added the ability to sort the Search Details window either by alphabetical (default) or by droprate</li>
+          <li class='noscroll'>Added a 're-enter password' field when creating a new map or changing an existing map's password</li>
+          <li class='noscroll'>Added the ability to manually add a shop to your chunks</li>
+          <li class='noscroll'>Added a 'lock' and 'unlock' icon to the potential options for chunk stickers (hold Ctrl and hover a chunk, then click the tag icon)</li>
+          <li class='noscroll'>Changed the way fancy rolling works when viewing someone else's map (now it waits to reveal the rolled chunk)</li>
+          <li class='noscroll'>Changed the wording on the Crafted BiS rule to clarify other cases where it matters</li>
+          <li class='noscroll'>Changed the way some BiS tasks are shown, to account for capitalization in the items (NOTE: this may cause you to be shown BiS tasks you have already completed previously; just check them off again if so)</li>
+          <li class='noscroll'>Fixed a bug with alternative BiS tasks</li>
+          <li class='noscroll'>Fixed an issue where the map could be scrolled too far when centering on a recently rolled chunk</li>
+          <li class='noscroll'>Fixed being able to click through the loading screen</li>
+          <li class='noscroll'>Fixed an issue with nonskill tasks and Slayer-locking</li>
         </ul>
-        <h3 class='noscroll'>* <i>Some features will require more work to be fully operational.</i> <br />As always, if you experience any issues with your map or anything wrong related to this update, please contact me on Discord at <i class='noscroll hover-copy' onclick="navigator.clipboard.writeText('whitecatblack')">whitecatblack  <i class="fas fa-copy noscroll"></i></i> or submit a bug report <a class='noscroll link' href='https://docs.google.com/forms/d/e/1FAIpQLSc-stwx0VaJHm79LoYQG0rEogzaJ56XHnQtovr2GIX-sZXzaA/viewform' target='_blank'>here</a>.</h3>
+        <h3 class='noscroll'>* <i>Some features will require more work to be fully operational.</i> <br />As always, if you experience any issues with your map or anything wrong related to this update, please contact me on Discord at <i class='noscroll hover-copy' onclick="navigator.clipboard.writeText('whitecatblack')">whitecatblack  <i class="fa-solid fa-copy noscroll"></i></i> or submit a bug report <a class='noscroll link' href='https://docs.google.com/forms/d/e/1FAIpQLSdw8Eg-NvwPCAX3zxTSJPKtnSFUxDlrqkKGrrTc3pzbYkvCRg/viewform' target='_blank'>here</a>.</h3>
         <h4><a href='?patch-notes' target="_blank">Patch Notes Archive</a></h4>
       </div>
       <div id="patch-notes-footer" class="patch-notes-footer noscroll">
@@ -493,7 +529,7 @@
   </div>
   <div id="myModal26" class="modal">
     <div class="modal-content noscroll">
-      <i class="manual-close pic fas fa-times noscrollhard" onclick="closeFriendsList()"></i>
+      <i class="manual-close pic fa-solid fa-times noscrollhard" onclick="closeFriendsList()"></i>
       <div id="friends-list-title" class="friends-list-title noscroll">Friends List</div>
       <div id="friends-list-subtitle" class="friends-list-subtitle noscroll">Keep track of your friend's chunk progress! Save other chunk maps here for quick access to them, perfect for keeping tabs on friends or content creators.</div>
       <div id="friends-list-data" class="friends-list-data noscroll"></div>
@@ -518,9 +554,9 @@
     <div class="modal-content noscroll">
       <div id="passive-skill-title" class="passive-skill-title noscroll">Edit Passive Leveling/Highest Task</div>
       <div id="passive-skill-subtitle" class="passive-skill-subtitle noscroll">Enter the level passively reached in <span class='noscroll passive-skill-name'></span> (through lamps/Tears of Guthix/quest rewards/etc). Defining a passive skill this way will show Chunk Tasks for the skill up to your passively trained level, and will show Tasks for higher levels if you unlock a consistent training method.</div>
-      <div id="passive-skill-input-container" class="passive-skill-input-container noscroll">Current <span class='noscroll passive-skill-name'></span> Level: <input id="passive-skill-input" type="number" min="0" max="120" oninput="passiveLockedChange()"/></div>
+      <div id="passive-skill-input-container" class="passive-skill-input-container noscroll">Current <span class='noscroll passive-skill-name'></span> Level: <input id="passive-skill-input" type="number" min="0" max="120" oninput="passiveLockedChange()" autocomplete="off"/></div>
       <div id="passive-skill-subtitle2" class="passive-skill-subtitle2 noscroll"><b class="noscroll">[Meme Grind Limiter]</b> Use this to set a maximum level for tasks in <span class='noscroll passive-skill-name'></span>. Useful to turn meme grinds into a reasonable challenge without backlogging them. Entering a number lower than 120 will artificially stop the Chunk Picker from showing skill tasks for this skill above the inputted level.</div>
-      <div id="passive-skill-input-container2" class="passive-skill-input-container2 noscroll">Highest <span class='noscroll passive-skill-name'></span> task allowed: <input id="max-skill-input" type="number" min="0" max="120" oninput="passiveLockedChange()"/></div>
+      <div id="passive-skill-input-container2" class="passive-skill-input-container2 noscroll">Highest <span class='noscroll passive-skill-name'></span> task allowed: <input id="max-skill-input" type="number" min="0" max="120" oninput="passiveLockedChange()" autocomplete="off"/></div>
       <div id="passive-skill-data" class="passive-skill-data noscroll"></div>
     </div>
   </div>
@@ -572,6 +608,8 @@
           <div id="intro-data-subtitle" class="intro-data-subtitle noscroll">Don't worry too much about your decisions, you can always change these settings via the settings menu in the top-right of the screen.</div>
         </div>
         <div id="intro-data-2" class="intro-data-2 noscroll">
+          <div id="intro-data-subtitle" class="intro-data-subtitle noscroll">Feeling overwhelmed, or not quite sure how to set up your map? <b>Check out the <a href='https://github.com/source-chunk/chunk-picker-v2/wiki/Getting-Started' target='_blank'>Getting Started Guide!</a></b></div>
+          <hr />
           <div id="intro-data-title" class="intro-data-title noscroll">Starting Chunk</div>
           <div id="intro-data-subtitle" class="intro-data-subtitle noscroll">
             <div id="intro-data-subtitle" class="intro-data-subtitle noscroll">Enter in the chunk ID of your starting chunk. (4 or 5 digits long)</div>
@@ -609,20 +647,21 @@
           <span><input class="changeManualAreasFilterBy" type="checkbox" onclick="changeManualAreasFilterBy()" />Show unlocked only</span>
           <span class="changeManualAreasFilterBy2-container"><input class="changeManualAreasFilterBy2" type="checkbox" onclick="changeManualAreasFilterBy2()" />Show locked only</span>
       </div>
-      <i class="manual-close pic fas fa-times noscrollhard" onclick="closeManualAreas()"></i>
+      <i class="manual-close pic fa-solid fa-times noscrollhard" onclick="closeManualAreas()"></i>
       <div id="manual-areas-data" class="manual-areas-data noscroll"></div>
     </div>
   </div>
   <div id="myModal32" class="modal">
     <div class="modal-content noscroll">
-      <i class="manual-close pic fas fa-times noscrollhard" onclick="closeSlayerMasterInfo()"></i>
+      <i class="manual-close pic fa-solid fa-times noscrollhard" onclick="closeSlayerMasterInfo()"></i>
       <div id="slayermasterinfo-title" class="slayermasterinfo-title noscroll"></div>
+      <div id="slayermasterinfo-subtitle" class="slayermasterinfo-subtitle noscroll"></div>
       <div id="slayermasterinfo-data" class="slayermasterinfo-data noscroll"></div>
     </div>
   </div>
   <div id="myModal33" class="modal">
     <div class="modal-content noscroll">
-      <i class="manual-close pic fas fa-times noscrollhard" onclick="closeDoableClueSteps()"></i>
+      <i class="manual-close pic fa-solid fa-times noscrollhard" onclick="closeDoableClueSteps()"></i>
       <div id="doablecluesteps-title" class="doablecluesteps-title noscroll"></div>
       <div id="doablecluesteps-subtitle" class="doablecluesteps-subtitle noscroll"></div>
       <div id="doablecluesteps-data" class="doablecluesteps-data noscroll"></div>
@@ -630,7 +669,7 @@
   </div>
   <div id="myModal34" class="modal">
     <div class="modal-content noscroll">
-      <i class="manual-close pic fas fa-times noscrollhard" onclick="closeClueChunks()"></i>
+      <i class="manual-close pic fa-solid fa-times noscrollhard" onclick="closeClueChunks()"></i>
       <div id="cluechunks-title" class="cluechunks-title noscroll"></div>
       <div id="cluechunks-subtitle" class="cluechunks-subtitle noscroll"></div>
       <div id="cluechunks-data" class="cluechunks-data noscroll"></div>
@@ -638,7 +677,7 @@
   </div>
   <div id="myModal35" class="modal">
     <div class="modal-content noscroll">
-      <i class="manual-close pic fas fa-times noscrollhard" onclick="closeChunkNotes()"></i>
+      <i class="manual-close pic fa-solid fa-times noscrollhard" onclick="closeChunkNotes()"></i>
       <div id="chunk-notes-title" class="chunk-notes-title noscroll">Notes <span class="markdown-sub-title">Supports <a href='https://www.markdownguide.org/basic-syntax/' target='_blank'>Markdown</a></span></div>
       <div id="chunk-notes-data" class="chunk-notes-data noscroll">
         <textarea placeholder="Add notes here..."></textarea>
@@ -659,15 +698,18 @@
   </div>
   <div id="myModal38" class="modal">
     <div class="modal-content noscroll">
-      <i class="manual-close pic fas fa-times noscrollhard" onclick="closeClipboard()"></i>
+      <i class="manual-close pic fa-solid fa-times noscrollhard" onclick="closeClipboard()"></i>
       <div id="clipboard-title" class="clipboard-title noscroll">Copy to clipboard:</div>
       <div id="clipboard-data" class="clipboard-data noscroll"><button id='chunks-clipboard-button' class='modal-button' onclick='exportFunc("chunks")'>Chunks</button><button id='tasks-clipboard-button' class='modal-button' onclick='exportFunc("tasks")'>Tasks</button><button id='rules-clipboard-button' class='modal-button' onclick='exportFunc("rules")'>Rules</button></div>
+      <div id="clipboard-title2" class="clipboard-title noscroll">Other Actions:</div>
+      <div id="clipboard-data-2" class="clipboard-data-2 noscroll"><button id='plugin-clipboard-button' class='modal-button' onclick='exportFunc("plugin")'>Refresh Tasks</button></div>
+      <div id="clipboard-data-3" class="clipboard-data-3 noscroll"><button id='assign-clipboard-button' class='modal-button' onclick='exportFunc("assign")'>Assign Numbers to Neighboring Chunks</button></div>
     </div>
   </div>
   <div id="myModal39" class="modal">
     <div class="modal-content noscroll">
       <div class="topbar noscroll">
-        <i class="manual-close pic fas fa-times noscrollhard" onclick="closeOverlays()"></i>
+        <i class="manual-close pic fa-solid fa-times noscrollhard" onclick="closeOverlays()"></i>
       </div>
       <div id="overlays-title" class="overlays-title noscroll"><span class="overlays-title-span">Map Overlays</span><span class="overlays-title-checkbox"><input type="checkbox" onclick="changeOverlayFilterBy()" />Within unlocked chunks only</span></div>
       <div id="overlays-data" class="overlays-data noscroll"></div>
@@ -694,7 +736,7 @@
         <input type="text" placeholder="Filter..." id="searchChunkSections" class="noscrollhard"
           oninput="searchChunkSections()" autocomplete="new-password" />
       </div>
-      <i class="manual-close pic fas fa-times noscrollhard" onclick="closeChunkSections()"></i>
+      <i class="manual-close pic fa-solid fa-times noscrollhard" onclick="closeChunkSections()"></i>
       <div id="chunk-sections-data" class="chunk-sections-data noscroll"></div>
     </div>
   </div>
@@ -703,18 +745,20 @@
       <div id="chunk-section-picker-title" class="chunk-section-picker-title noscroll">Select Chunk Sections</div>
       <div id="chunk-section-picker-subtitle" class="chunk-section-picker-subtitle noscroll">
         Select the sections of the chunk you currently have access to. This helps the website be *much* more accurate at generating correct chunk tasks.
-        <span class="section-help noscroll">
-          <i class="fas fa-info-circle"></i>
-          <span class="tooltiptext"><i><b>What are Chunk Sections?</b></i> Chunk Sections are the little pieces that make up a whole chunk, for when a chunk is not fully continous. When a fence or river cuts through a chunk and prevents you from being able to access parts of it, that's a Chunk Section. Indicating what parts of a chunk you have access to helps the Chunk Task calculation be as accurate as it can be, not giving you tasks for things in your chunk you can't access.<br /><br />The website automatically figures out what parts of all your chunks you have access to, but sometimes it will get stuck and ask you to indicate what parts of a chunk you can access. <b>It is not necessary for you to manually do this for every chunk, only if the website asks you for help or if you need to correct something it got wrong.</b></b></span>
-        </span>
+        <span class="section-help noscroll"></span>
       </div>
       <div id="chunk-section-picker-data" class="chunk-section-picker-data noscroll">
         <div class="chunk-section-picker-chunk-id noscroll"></div>
-          <div class="chunk-section-picker-container">
-            <canvas id='chunk-section-picker-canvas' width="128" height="128"></canvas>
+        <div class="chunk-section-picker-block-outer">
+          <div class="chunk-section-picker-block">
+            <div class="chunk-section-picker-container">
+              <div class='chunk-section-canvas-spinner'><i class="noscroll fa-solid fa-spinner fa-spin"></i></div>
+              <canvas id='chunk-section-picker-canvas' width="128" height="128"></canvas>
+            </div>
+            <div><input id="chunk-section-picker-selectall-btn" type="checkbox" onclick="selectAllChunkSections()">I have access to the entire chunk</input></div>
           </div>
-          <div><input id="chunk-section-picker-selectall-btn" type="checkbox" onclick="selectAllChunkSections()">I have access to the entire chunk</input></div>
-          <div class="chunk-section-picker-btns"></div>
+          <div class="chunk-section-picker-block chunk-section-picker-btns"></div>
+        </div>
       </div>
       <div id="chunk-section-picker-footer" class="chunk-section-picker-footer noscroll">
         <button id='save-chunk-section-picker-button' class='modal-button' onclick='saveChunkSectionPicker()'>Save</button>
@@ -747,12 +791,37 @@
   </div>
   <div id="myModal46" class="modal">
     <div class="modal-content noscroll">
-      <i class="manual-close pic fas fa-times noscrollhard" onclick="closeCustomizeTopbar()"></i>
+      <i class="manual-close pic fa-solid fa-times noscrollhard" onclick="closeCustomizeTopbar()"></i>
       <div id="cutomize-topbar-title" class="cutomize-topbar-title noscroll">Customize Topbar</div>
       <div id="cutomize-topbar-subtitle" class="cutomize-topbar-subtitle noscroll">Customize which icons appear in the topbar at the top-right of your map. All other icons will instead appear in the cog-wheel dropdown menu.</div>
       <div id="cutomize-topbar-data" class="cutomize-topbar-data noscroll">
         <div id="cutomize-topbar-data-inner" class="cutomize-topbar-data-inner noscroll"></div>
       </div>
+    </div>
+  </div>
+  <div id="myModal47" class="modal">
+    <div class="modal-content noscroll">
+      <div id="usertasks-title" class="usertasks-title noscroll">Create A Custom Task</div>
+      <div id="usertasks-subtitle" class="usertasks-subtitle noscroll">Add a custom task to your map by defining the task type, the name of the task, and (if applicable) the skill and level of the task. Skill tasks will show in the Skill Tasks section of your Active Tasks if they are the highest level task for that skill, and Other tasks will always show in the Other Tasks section of your Active Tasks.</div>
+      <div id="usertasks-body" class="usertasks-body noscroll">
+        <div id="usertasks-dropdown-container" class="usertasks-dropdown-container noscroll" onchange="userTasksSkillChange()"><div>Skill:</div><select id="usertasks-skill-dropdown"></select></div>
+        <div id="usertasks-level-input" class="usertasks-level-input noscroll"><div>Skill Level:</div><input class='usertasks-input' onchange="userTasksLevelChange()" type="number" value="1" min="1" max="99" disabled /></div>
+        <div id="usertasks-name-input" class="usertasks-name-input noscroll"><div>Task Name:</div><input class='usertasks-input' oninput="userTasksNameChange()" placeholder='Task Name' autocomplete="off" /></div>
+      </div>
+      <div id="usertasks-data" class="usertasks-data noscroll"></div>
+    </div>
+  </div>
+  <div id="myModal48" class="modal">
+    <div class="modal-content noscroll">
+      <i class="manual-close pic fa-solid fa-times noscrollhard" onclick="closeUserTasksList()"></i>
+      <div id="usertasks-list-data" class="usertasks-list-data noscroll"></div>
+    </div>
+  </div>
+  <div id="myModal49" class="modal">
+    <div class="modal-content noscroll">
+      <div id="usertasks-delete-title" class="usertasks-delete-title noscroll">Delete the custom task?</div>
+      <div id="usertasks-delete-subtitle" class="usertasks-delete-subtitle noscroll">This action is not reversable.<div class="preset-warn"><b>Are you sure you wish to proceed?</b></div></div>
+      <div id="usertasks-delete-data" class="usertasks-delete-data noscroll"><div><div class="usertasks-delete-cancel" onclick="cancelUserTaskDelete()">Cancel</div><div class="usertasks-delete-proceed" onclick="deleteUserTask()">Yes, proceed</div></div></div>
     </div>
   </div>
   <div id='entry-menu'>
@@ -771,11 +840,14 @@
         <hr class='hr right' />
         <button id='proceed' class='button' onclick='proceed()'>Proceed to view-only map</button>
       </div>
+      <div class='entry-content-2'>
+        <div><b>Check out the <a href='https://github.com/source-chunk/chunk-picker-v2/wiki' target='_blank'>Chunk Picker V2 Wiki</a></b> for a ton of info, including a <a href='https://github.com/source-chunk/chunk-picker-v2/wiki/Getting-Started' target='_blank'>Getting Started Guide</a>, an <a href='https://github.com/source-chunk/chunk-picker-v2/wiki/FAQ' target='_blank'>FAQ</a>, and a growing <a href='https://github.com/source-chunk/chunk-picker-v2/wiki/Features' target='_blank'>Feature Documentation</a> list! (Most things will still apply to the RS3 site, too!)</div>
+      </div>
     </div>
   </div>
   <div id='import-menu'>
     <div class='import-content'>
-      <span class='exit' onclick='exitImportMenu()'><i class="fas fa-times"></i></span>
+      <span class='exit' onclick='exitImportMenu()'><i class="fa-solid fa-times"></i></span>
       <div class='block'>
         <div class='title'>Import from URL</div>
       </div>
@@ -795,7 +867,7 @@
   </div>
   <div id='highscore-menu'>
     <div class='highscore-content'>
-      <span class='exit' onclick='exitHighscoreMenu()'><i class="fas fa-times"></i></span>
+      <span class='exit' onclick='exitHighscoreMenu()'><i class="fa-solid fa-times"></i></span>
       <div class='block'>
         <div class='title'>Opt-in to Chunk Stats</div>
       </div>
@@ -810,7 +882,7 @@
   </div>
   <div id='highscore-menu2'>
     <div class='highscore-content'>
-      <span class='exit' onclick='exitHighscoreMenu2()'><i class="fas fa-times"></i></span>
+      <span class='exit' onclick='exitHighscoreMenu2()'><i class="fa-solid fa-times"></i></span>
       <div class='block'>
         <div class='title'>Chunk Stats</div>
       </div>
@@ -854,8 +926,8 @@
   </div>
   <div class='menu5'>
     <div class='icon-lock'>
-      <i class="lock-closed fas fa-lock" onclick='unlock()'></i>
-      <i class="lock-opened fas fa-unlock-alt"></i>
+      <i class="lock-closed fa-solid fa-lock" onclick='unlock()'></i>
+      <i class="lock-opened fa-solid fa-unlock-alt"></i>
     </div>
     <div class='lock-box'>
       <div class='inner-lock'>
@@ -880,72 +952,72 @@
     onmouseout="document.body.style.overflow='auto';">
     <div class='infocontent text'>
       <div class='infostartup'><span><b>Chunk Info</b>: Right click a chunk to find out more information about
-          it!</span><i class="panel-close pic fas fa-times" onclick="hideChunkInfo()"></i></div>
-      <div class='infoid'><b><span class='infoid-content'></span></b><i class="panel-close pic fas fa-times"
+          it!</span><i class="panel-close pic fa-solid fa-times" onclick="hideChunkInfo()"></i></div>
+      <div class='infoid'><b><span class='infoid-content'></span></b><i class="panel-close pic fa-solid fa-times"
           onclick="hideChunkInfo()"></i></div>
-      <div id='infomonsters' class='accordion' onclick="toggleInfoPanel('monsters')"><span class='exp'><i
-            class="acc pic fas fa-plus"></i></span><span class="accordion-title">Monsters</span></div>
-      <div class="panel panel-monsters"></div>
-      <div id='infonpcs' class='accordion' onclick="toggleInfoPanel('npcs')"><span class='exp'><i
-            class="acc pic fas fa-plus"></i></span><span class="accordion-title">NPCs</span></div>
-      <div class="panel panel-npcs"></div>
-      <div id='infospawns' class='accordion' onclick="toggleInfoPanel('spawns')"><span class='exp'><i
-            class="acc pic fas fa-plus"></i></span><span class="accordion-title">Item spawns</span></div>
-      <div class="panel panel-spawns"></div>
-      <div id='infoshops' class='accordion' onclick="toggleInfoPanel('shops')"><span class='exp'><i
-            class="acc pic fas fa-plus"></i></span><span class="accordion-title">Shops</span></div>
-      <div class="panel panel-shops"></div>
-      <div id='infofeatures' class='accordion' onclick="toggleInfoPanel('features')"><span class='exp'><i
-            class="acc pic fas fa-plus"></i></span><span class="accordion-title">Features</span></div>
-      <div class="panel panel-features"></div>
-      <div id='infoquests' class='accordion' onclick="toggleInfoPanel('quests')"><span class='exp'><i
-            class="acc pic fas fa-plus"></i></span><span class="accordion-title">Quest progression <span
-            class='help'>?<span class="tooltiptext">Quests in <b>bold</b> indicate the quest is started in this
-              chunk.</span></span></span></div>
-      <div class="panel panel-quests"></div>
-      <div id='infoclues' class='accordion' onclick="toggleInfoPanel('clues')"><span class='exp'><i
-            class="acc pic fas fa-plus"></i></span><span class="accordion-title">Clue steps</span></div>
-      <div class="panel panel-clues"></div>
-      <div id='infoconnections' class='accordion' onclick="toggleInfoPanel('connections')"><span class='exp'><i
-            class="acc pic fas fa-plus"></i></span><span class="accordion-title">Connected areas</span></div>
-      <div class="panel panel-connections"></div>
-      <div id='infochallenges' class='accordion' onclick="toggleInfoPanel('challenges')"><span class='exp'><i
-            class="acc pic fas fa-plus"></i></span><span class="accordion-title">Potential chunk
-              tasks <span class='expand' title='Expand' onclick='expandFutureChallenges(event)'><i class="fas fa-expand-alt"></i></span></div>
-      <div class="panel panel-challenges"></div>
+      <div id="chunkinfo-sidebar-container">
+        <div class="chunkinfo-sidebar-monsters" onclick="toggleInfoPanel('monsters')">Monsters</div>
+        <div class="chunkinfo-sidebar-npcs" onclick="toggleInfoPanel('npcs')">NPCs</div>
+        <div class="chunkinfo-sidebar-spawns" onclick="toggleInfoPanel('spawns')">Item spawns</div>
+        <div class="chunkinfo-sidebar-shops" onclick="toggleInfoPanel('shops')">Shops</div>
+        <div class="chunkinfo-sidebar-features" onclick="toggleInfoPanel('features')">Features</div>
+        <div class="chunkinfo-sidebar-quests" onclick="toggleInfoPanel('quests')">Quest progression</div>
+        <div class="chunkinfo-sidebar-clues" onclick="toggleInfoPanel('clues')">Clue steps</div>
+        <div class="chunkinfo-sidebar-connections" onclick="toggleInfoPanel('connections')">Connected areas</div>
+        <div class="chunkinfo-sidebar-challenges" onclick="toggleInfoPanel('challenges')">Possible tasks</div>
+      </div>
+      <div class="chunkinfo-divider">
+        <span class='sidebar-hide' title='Hide sidebar' onclick='hideSidebar()'><i class="fa-solid fa-chevron-left"></i></span>
+        <span class='divider-title'></span>
+        <span class='help'></span>
+        <span class='expand' title='Expand' onclick='expandFutureChallenges(event)'><i class="fa-solid fa-expand-alt"></i></span>
+      </div>
+      <div id="chunkinfo-main-container">
+        <div class="panel panel-monsters visible"></div>
+        <div class="panel panel-npcs"></div>
+        <div class="panel panel-spawns"></div>
+        <div class="panel panel-shops"></div>
+        <div class="panel panel-features"></div>
+        <div class="panel panel-quests"></div>
+        <div class="panel panel-clues"></div>
+        <div class="panel panel-connections"></div>
+        <div class="panel panel-challenges"></div>
+      </div>
       <div class='infocontribute'><i>Information wrong or missing? Submit feedback <a
-            href='https://docs.google.com/forms/d/e/1FAIpQLSc-stwx0VaJHm79LoYQG0rEogzaJ56XHnQtovr2GIX-sZXzaA/viewform'
+            href='https://docs.google.com/forms/d/e/1FAIpQLSdw8Eg-NvwPCAX3zxTSJPKtnSFUxDlrqkKGrrTc3pzbYkvCRg/viewform'
             target='_blank'><b>here</b></a>.</i></div>
     </div>
   </div>
   <div class='menu9'>
     <div class='challengecontent text'>
       <div id='challengesactive' class='accordion' onclick="toggleChallengesPanel('active')"><span class='exp'><i
-            class="acc pic fas fa-plus"></i></span><span class="accordion-title">Active Chunk
-          Tasks</span><span class='num-tasks'></span><span class='tasks-checkmark' onclick="toggleHideCompletedTasks(event)"><i class="acc pic fas fa-eye"></i></span></span></div>
-      <div class="panel panel-active noscroll calculating"><i class="fas fa-spinner fa-spin"></i></div>
+            class="acc pic fa-solid fa-plus"></i></span><span class="accordion-title">Active Chunk
+          Tasks</span><span class='num-tasks'></span><span class='tasks-checkmark' onclick="toggleHideCompletedTasks(event)"><i class="acc pic fa-solid fa-eye"></i></span></span></div>
+      <div class="panel panel-active noscroll calculating"><i class="fa-solid fa-spinner fa-spin"></i></div>
       <div id='challengesareas' class='accordion' onclick="toggleChallengesPanel('areas')"><span class='exp'><i
-            class="acc pic fas fa-plus"></i></span><span class="accordion-title">Accessible Areas</span></div>
+            class="acc pic fa-solid fa-plus"></i></span><span class="accordion-title">Accessible Areas</span></div>
             <div class="panel panel-areas noscroll"><span class="noscroll areas-tab-text">Accessible Areas and Chunk Sections are now handled automatically by the website! If need be, you can manually add/remove <span class="noscroll open-manual-areas" onclick="openManualAreas()">areas</span> or <span class="noscroll open-chunk-sections" onclick="openChunkSections()">sections</span> if the website gets it wrong.</span></div>
       <div id='challengesbacklog' class='accordion' onclick="toggleChallengesPanel('backlog')"><span class='exp'><i
-            class="acc pic fas fa-plus"></i></span><span class="accordion-title">Backlog</span></div>
+            class="acc pic fa-solid fa-plus"></i></span><span class="accordion-title">Backlog</span></div>
       <div class="panel panel-backlog noscroll">None</div>
       <div id='challengescompleted' class='accordion' onclick="toggleChallengesPanel('completed')"><span class='exp'><i
-            class="acc pic fas fa-plus"></i></span><span class="accordion-title">Completed Tasks</span>
+            class="acc pic fa-solid fa-plus"></i></span><span class="accordion-title">Completed Tasks</span>
       </div>
       <div class="panel panel-completed noscroll">None</div>
-      <div class="open-rules-container"><span class="open-rules" onclick="showRules()"><i class="fas fa-edit"></i>Chunk Rules</span>
+      <div class="open-rules-container"><span class="open-rules" onclick="showRules()"><i class="fa-solid fa-edit"></i>Chunk Rules</span>
       </div>
-      <div class="open-manual-outer-container"><span class="open-manual-outer" onclick="openManualAddOuter()"><i class="fas fa-plus-circle"></i>Manually Add To My Chunks</span>
+      <div class="open-manual-outer-container"><span class="open-manual-outer" onclick="openManualAddOuter()"><i class="fa-solid fa-plus-circle"></i>Manually Add To My Chunks</span>
       </div>
-      <div class="open-complete-container"><span class="open-complete" onclick="openManualComplete()"><i class="fas fa-check-square"></i>Manually Complete Tasks</span>
+      <div class="open-complete-container"><span class="open-complete" onclick="openManualComplete()"><i class="fa-solid fa-check-square"></i>Manually Complete Tasks</span>
+      </div>
+      <div class="open-checkoff-container"><span class="open-checkoff" onclick="submitCheckoffTasks()"><i class="fa-solid fa-circle-check"></i>Check-off All Active Tasks</span>
       </div>
     </div>
   </div>
   <div class='menu10'>
     <div>
       <div class='questcontent text'>
-        <div class='questname'><b><span class='questname-content'></span></b><i class="panel-close pic fas fa-times"
+        <div class='questname'><b><span class='questname-content'></span></b><i class="panel-close pic fa-solid fa-times"
             onclick="toggleQuestInfo()"></i></div>
         <div class="highlightAllQuest"><span onclick="highlightAllQuestCanvas()">Highlight all</span></div>
         <div class="panel panel-questdata visible">None</div>
@@ -953,12 +1025,12 @@
     </div>
   </div>
   <div class='menu11'>
-    <div id='map-marker-btn' class='map-marker-btn noscroll' title="Overlays" onclick="showOverlays()"><i class="fas fa-map-marker-alt"></i></div>
+    <div id='map-marker-btn' class='map-marker-btn noscroll' title="Overlays" onclick="showOverlays()"><i class="fa-solid fa-map-marker-alt"></i></div>
   </div>
   <div class='menu12'>
-    <div id='mobile-zoomin-btn' class='mobile-zoomin-btn noscroll' title="Zoom In" onclick="handleMobileZoom(1)"><i class="fas fa-search-plus"></i></div>
-    <div id='mobile-zoomout-btn' class='mobile-zoomout-btn noscroll' title="Zoom Out" onclick="handleMobileZoom(-1)"><i class="fas fa-search-minus"></i></div>
-    <div id='mobile-menu-btn' class='mobile-menu-btn noscroll' title="Options" onclick="showMobileMenu()"><i class="fas fa-ellipsis-h"></i></div>
+    <div id='mobile-zoomin-btn' class='mobile-zoomin-btn noscroll' title="Zoom In" onclick="handleMobileZoom(1)"><i class="fa-solid fa-search-plus"></i></div>
+    <div id='mobile-zoomout-btn' class='mobile-zoomout-btn noscroll' title="Zoom Out" onclick="handleMobileZoom(-1)"><i class="fa-solid fa-search-minus"></i></div>
+    <div id='mobile-menu-btn' class='mobile-menu-btn noscroll' title="Options" onclick="showMobileMenu()"><i class="fa-solid fa-ellipsis-h"></i></div>
   </div>
   <div class='menu13'>
     <div>
@@ -969,16 +1041,18 @@
       <div class='mobile-item noscroll open-manual-outer-container' onclick="openManualAddOuter()">Manually Add To My Chunks</div>
       <div class='mobile-item noscroll' onclick="showOverlays()">Show Overlays</div>
       <div class='mobile-item noscroll' onclick="enterMobileChunkMode()">Select Chunk for Action</div>
-      <div class='mobile-item noscroll' onclick="openClipboard()">Export to Clipboard</div>
+      <div class='mobile-item noscroll' onclick="openClipboard()">Miscellaneous Actions</div>
       <div class='mobile-item noscroll' onclick="showChunkHistory()">Chunk-roll History</div>
       <div class='mobile-item noscroll friendslist' onclick="openFriendsList()">Friends list</div>
       <div class='mobile-item noscroll' onclick="enableScreenshotMode()">Screenshot mode</div>
       <div class='mobile-item noscroll' onclick="enableTestMode()">Sandbox mode</div>
+      <div class='mobile-item noscroll open-checkoff-container' onclick="submitCheckoffTasks()">Check-off All Active Tasks</div>
       <div class='mobile-item noscroll' onclick="openChunkNotesModal()">Notes</div>
       <div class='mobile-item noscroll patchnotes-mobile' onclick="openPatchNotesModal(true)">Patch Notes</div>
-      <a href='https://www.patreon.com/bePatron?u=56906793' target='_blank'><div class='mobile-item noscroll'>Support me on Patreon<i class="external-link-icon fas fa-external-link-alt"></i></div></a>
-      <a href='https://discord.gg/kXRgpxnBxu' target='_blank'><div class='mobile-item noscroll'>Join the Discord<i class="external-link-icon fas fa-external-link-alt"></i></div></a>
-      <a href='https://docs.google.com/forms/d/e/1FAIpQLSc-stwx0VaJHm79LoYQG0rEogzaJ56XHnQtovr2GIX-sZXzaA/viewform' target='_blank'><div class='mobile-item noscroll'>Report a Bug<i class="external-link-icon fas fa-external-link-alt"></i></div></a>
+      <a href='https://github.com/source-chunk/chunk-picker-v2/wiki/Help' target='_blank'><div class='mobile-item noscroll'>Help<i class="external-link-icon fa-solid fa-external-link-alt"></i></div></a>
+      <a href='https://www.patreon.com/bePatron?u=56906793' target='_blank'><div class='mobile-item noscroll'>Support me on Patreon<i class="external-link-icon fa-solid fa-external-link-alt"></i></div></a>
+      <a href='https://discord.gg/kXRgpxnBxu' target='_blank'><div class='mobile-item noscroll'>Join the Discord<i class="external-link-icon fa-solid fa-external-link-alt"></i></div></a>
+      <a href='https://docs.google.com/forms/d/e/1FAIpQLSdw8Eg-NvwPCAX3zxTSJPKtnSFUxDlrqkKGrrTc3pzbYkvCRg/viewform' target='_blank'><div class='mobile-item noscroll'>Report a Bug<i class="external-link-icon fa-solid fa-external-link-alt"></i></div></a>
       <div class='mobile-item noscroll settingstoggle' onclick="showSettings()">Settings</div>
       <div class='mobile-item mobile-item-cancel noscroll' onclick="hideMobileMenu()">Cancel</div>
     </div>
@@ -992,27 +1066,27 @@
       <div class='mobile-item mobile-item-cancel noscroll' onclick="hideMobileChunkMenu(true)">Cancel</div>
     </div>
   </div>
-  <div class='hiddenInfo' onclick='showChunkInfo()'><i class="pic fas fa-plus"></i></div>
+  <div class='hiddenInfo' onclick='showChunkInfo()'><i class="pic fa-solid fa-plus"></i></div>
   <div class="canvasDiv">
     <canvas id="canvas" width=1000 height=500></canvas>
   </div>
   <div class='settings-menu'>
-    <div class='item import' onclick="importFunc()">Import from URL<i class="pic fas fa-upload"></i></div>
-    <div class='item export' onclick="openClipboard()">Export to clipboard<i class="pic fas fa-download"></i></div>
+    <div class='item import' onclick="importFunc()">Import from URL<i class="pic fa-solid fa-upload"></i></div>
+    <div class='item export' onclick="openClipboard()">Miscellaneous Actions<i class="pic fa-solid fa-tools"></i></div>
     <a class='none' href='?change-password'>
-      <div class='item'>Change Password<i class="pic fas fa-pen"></i></div>
+      <div class='item'>Change Password<i class="pic fa-solid fa-pen"></i></div>
     </a>
-    <a href='https://docs.google.com/forms/d/e/1FAIpQLSc-stwx0VaJHm79LoYQG0rEogzaJ56XHnQtovr2GIX-sZXzaA/viewform' target='_blank' onclick='settingsMenu()'>
-      <div class='item dropdown-item-report-a-bug'>Report a Bug<i class="pic fas fa-bug"></i></div>
+    <a href='https://docs.google.com/forms/d/e/1FAIpQLSdw8Eg-NvwPCAX3zxTSJPKtnSFUxDlrqkKGrrTc3pzbYkvCRg/viewform' target='_blank' onclick='settingsMenu()'>
+      <div class='item dropdown-item-report-a-bug'>Report a Bug<i class="pic fa-solid fa-bug"></i></div>
     </a>
-    <div class='item dropdown-item-map-notes' onclick="openChunkNotesModal(); settingsMenu();">Notes<i class="pic fas fa-sticky-note"></i></div>
-    <div class='item dropdown-item-patch-notes' onclick="openPatchNotesModal(); settingsMenu();">Patch Notes<i class="pic fas fa-file-alt"></i></div>
-    <div class='item dropdown-item-chunk-roll-history' onclick="showChunkHistory(); settingsMenu();">Chunk-roll history<i class="pic fas fa-history"></i></div>
-    <div class='item dropdown-item-customize-topbar' onclick="openCustomizeTopbar()">Customize Topbar<i class="pic fas fa-cogs"></i></div>
-    <div class='item friendslist' onclick="openFriendsList()">Friends list<i class="pic fas fa-user-friends"></i></div>
-    <div class='item dropdown-item-screenshot-mode' onclick="enableScreenshotMode(); settingsMenu();">Screenshot mode<i class="pic fas fa-camera"></i></div>
-    <div class='item dropdown-item-sandbox-mode' onclick="enableTestMode(); settingsMenu();">Sandbox mode<i class="pic fas fa-flask"></i><br /></div>
-    <div class='item settingstoggle' onclick="showSettings()">Settings<i class="pic fas fa-cog"></i></div>
+    <div class='item dropdown-item-map-notes' onclick="openChunkNotesModal(); settingsMenu();">Notes<i class="pic fa-solid fa-sticky-note"></i></div>
+    <div class='item dropdown-item-patch-notes' onclick="openPatchNotesModal(); settingsMenu();">Patch Notes<i class="pic fa-solid fa-file-alt"></i></div>
+    <div class='item dropdown-item-chunk-roll-history' onclick="showChunkHistory(); settingsMenu();">Chunk-roll history<i class="pic fa-solid fa-history"></i></div>
+    <div class='item dropdown-item-customize-topbar' onclick="openCustomizeTopbar()">Customize Topbar<i class="pic fa-solid fa-cogs"></i></div>
+    <div class='item friendslist' onclick="openFriendsList()">Friends list<i class="pic fa-solid fa-user-friends"></i></div>
+    <div class='item dropdown-item-screenshot-mode' onclick="enableScreenshotMode(); settingsMenu();">Screenshot mode<i class="pic fa-solid fa-camera"></i></div>
+    <div class='item dropdown-item-sandbox-mode' onclick="enableTestMode(); settingsMenu();">Sandbox mode<i class="pic fa-solid fa-flask"></i><br /></div>
+    <div class='item settingstoggle' onclick="showSettings()">Settings<i class="pic fa-solid fa-cog"></i></div>
   </div>
 </div>
 
@@ -1063,14 +1137,16 @@
 <div id='home-menu'>
   <div id='page2a' class='content2a' style="display:none">
     <div class='block'>
-      <div class='title back' onclick='prevPage("create2")'><i class="fas fa-long-arrow-alt-left"></i></div>
+      <div class='title back' onclick='prevPage("create2")'><i class="fa-solid fa-long-arrow-alt-left"></i></div>
       <div class='home text'>Create a map password</div>
       <p class='p desc'>
         Your map password will allow you to roll new chunks and make changes to your map, and give you the ability to share
         your map with others without allowing them to edit it.
       </p>
       <br />
-      <span class='password-line'><input class='pin new' placeholder='Password' type='password' /><span class='show-eye' onclick="toggleChangePinCreateVis()"><i class="change-pin-eye0 fas fa-eye"></i></span></span>
+      <span class='password-line'><input class='pin new' placeholder='Password' type='password' /><span class='show-eye' onclick="toggleChangePinCreateVis()"><i class="change-pin-eye0 fa-solid fa-eye"></i></span></span>
+      <div class='home text'>Re-type Password</div>
+      <span class='password-line'><input class='pin2 new' placeholder='Re-type Password' type='password' /><span class='show-eye' onclick="toggleChangePinConfirmCreateVis()"><i class="change-pin-eye02 fa-solid fa-eye"></i></span></span>
       <p class='password-reqs'>
         <b>Passwords must be between 4 and 16 letters long, and can consist of uppercase letters, lowercase letters, numbers, and special characters.</b>
       </p>
@@ -1088,7 +1164,7 @@
   </div>
   <div id='page2b' class='content2b' style="display:none">
     <div class='block'>
-      <div class='title back' onclick='prevPage("mid")'><i class="fas fa-long-arrow-alt-left"></i></div>
+      <div class='title back' onclick='prevPage("mid")'><i class="fa-solid fa-long-arrow-alt-left"></i></div>
     </div>
     <div class='home text2'>Map ID:</div>
     <input class='mid' spellcheck='false' placeholder='Map ID' />
@@ -1106,10 +1182,12 @@
     <input class='mid-old' spellcheck='false' placeholder='Map ID' />
     <div class='mid-err'>Map ID does not exist.</div>
     <div class='home text2'>Old password:</div>
-    <span class='password-line'><input class='pin old2 first' placeholder='Password' type='password' /><span class='show-eye' onclick="toggleChangePinVis()"><i class="change-pin-eye1 fas fa-eye"></i></span></span>
+    <span class='password-line'><input class='pin old2 first' placeholder='Password' type='password' /><span class='show-eye' onclick="toggleChangePinVis()"><i class="change-pin-eye1 fa-solid fa-eye"></i></span></span>
     <div class='pin-err'>Password is incorrect.</div>
     <div class='home text2'>New password:</div>
-    <span class='password-line'><input class='pin old2 second' placeholder='Password' type='password' /><span class='show-eye' onclick="toggleChangePinNewVis()"><i class="change-pin-eye2 fas fa-eye"></i></span></span>
+    <span class='password-line'><input class='pin old2 second' placeholder='Password' type='password' /><span class='show-eye' onclick="toggleChangePinNewVis()"><i class="change-pin-eye2 fa-solid fa-eye"></i></span></span>
+    <div class='home text2'>Re-type new password:</div>
+    <span class='password-line'><input class='pin old2 third' placeholder='Re-type Password' type='password' /><span class='show-eye' onclick="toggleChangePin2NewVis()"><i class="change-pin-eye3 fa-solid fa-eye"></i></span></span>
     <p class='password-reqs'>
       <b>Passwords must be between 4 and 16 letters long, and can consist of uppercase letters, lowercase letters, numbers, and special characters.</b>
     </p>
@@ -1132,7 +1210,7 @@
         <h2>Contact</h2>
       </u>
       <p><b>Need to contact me about something?</b></p>
-      <p>Message me on <b>Discord</b> at <i class='noscroll hover-copy' onclick="navigator.clipboard.writeText('whitecatblack')">whitecatblack  <i class="fas fa-copy noscroll"></i></i> (preferred).</p>
+      <p>Message me on <b>Discord</b> at <i class='noscroll hover-copy' onclick="navigator.clipboard.writeText('whitecatblack')">whitecatblack  <i class="fa-solid fa-copy noscroll"></i></i> (preferred).</p>
       <div>Don't have a Discord? You should get one and join the <b><a href="https://discord.gg/dg6wubYS8e"
             target='_blank'>OneChunkMan Discord Server</a></b> and talk to everyone there!</div>
       <p>You can also email me at <a href="mailto:duosource.iron@gmail.com">duosource.iron@gmail.com</a></p>
@@ -1155,6 +1233,30 @@
       <div class='title'>Patch Notes Archive</div>
     </div>
     <div class='inner-content9'>
+      <div class='patch-notes-section'>
+        <h1>v6.4.0</h1>
+        <h3>August 28, 2024</h3>
+        <h2 class='noscroll'>Major Changes & New Features</h2>
+        <ul class='noscroll'>
+          <li class='noscroll'><b>Custom User-Inputted Tasks</b> - Added a way to add your own custom Skill and Other tasks to the Chunk Picker. Perfect for people who require specific levels that aren't related to any specific task before moving on from a chunk. Add a custom task by clicking the 'Manually Add To My Chunks' button below your active tasks, then selecting 'Custom User-Inputted Tasks'.</li>
+          <li class='noscroll'><b>Manually Enabled Primary Training</b> - Added a way to turn on Primary training for a given skill. Good if you just want to see all tasks for a skill, even if you don't have a 'valid' way to train the skill yet. Enable it via the cogs icon next to the skill in the Activity Info window.</li>
+        </ul>
+        <h2 class='noscroll'>Other Changes & Bug Fixes</h2>
+        <ul class='noscroll'>
+          <li class='noscroll'>Added the ability to choose a custom color for the border of your unlocked chunks! Currently it's the thick red line on your map, but now you can choose any color via the Settings window</li>
+          <li class='noscroll'>Added the ability to sort the Search Details window either by alphabetical (default) or by droprate</li>
+          <li class='noscroll'>Added a 're-enter password' field when creating a new map or changing an existing map's password</li>
+          <li class='noscroll'>Added the ability to manually add a shop to your chunks</li>
+          <li class='noscroll'>Added a 'lock' and 'unlock' icon to the potential options for chunk stickers (hold Ctrl and hover a chunk, then click the tag icon)</li>
+          <li class='noscroll'>Changed the way fancy rolling works when viewing someone else's map (now it waits to reveal the rolled chunk)</li>
+          <li class='noscroll'>Changed the wording on the Crafted BiS rule to clarify other cases where it matters</li>
+          <li class='noscroll'>Changed the way some BiS tasks are shown, to account for capitalization in the items (NOTE: this may cause you to be shown BiS tasks you have already completed previously; just check them off again if so)</li>
+          <li class='noscroll'>Fixed a bug with alternative BiS tasks</li>
+          <li class='noscroll'>Fixed an issue where the map could be scrolled too far when centering on a recently rolled chunk</li>
+          <li class='noscroll'>Fixed being able to click through the loading screen</li>
+          <li class='noscroll'>Fixed an issue with nonskill tasks and Slayer-locking</li>
+        </ul>
+      </div>
       <div class='patch-notes-section'>
         <h1>v6.3.0</h1>
         <h3>August 12, 2024</h3>
@@ -1257,7 +1359,7 @@
         <h3>January 11, 2023</h3>
         <h2 class='noscroll'>Major Changes & New Features</h2>
         <ul class='noscroll'>
-          <li class='noscroll'>No major changes this week. <a class='link' href='https://docs.google.com/forms/d/e/1FAIpQLSc-stwx0VaJHm79LoYQG0rEogzaJ56XHnQtovr2GIX-sZXzaA/viewform' target='_blank'>Let me know if you have any suggestions for a new feature!</a></li>
+          <li class='noscroll'>No major changes this week. <a class='link' href='https://docs.google.com/forms/d/e/1FAIpQLSdw8Eg-NvwPCAX3zxTSJPKtnSFUxDlrqkKGrrTc3pzbYkvCRg/viewform' target='_blank'>Let me know if you have any suggestions for a new feature!</a></li>
         </ul>
         <h2 class='noscroll'>Other Changes & Bug Fixes</h2>
         <ul class='noscroll'>
@@ -1847,6 +1949,27 @@
       <div class='patch-notes-section'>
         <h3>September 14, 2019</h3>
         The BETA of the brand new Chunk Picker website is up and running, please give it a go and let me know what I can fix or improve/change to make things better before release. Website: https://source-chunk.github.io/chunk-picker-v2/
+      </div>
+    </div>
+  </div>
+</div>
+
+<div id='a404-menu' style="display:none">
+  <div id='page11' class='content11'>
+    <div>
+      <div class='title'>404 - Page not found</div>
+    </div>
+    <div>
+      <div class='a404-body'>
+        <p>No map or special page found at url: <b>/?<span class='a404-address'></span></b></p>
+        <hr />
+        <h4>You may be interested in these pages:</h4>
+        <div class='a404-sub-body'>
+          <div><b><a class='noscroll link' href='./'>/ (home)</a></b> - The homepage</div>
+          <div><b><a class='noscroll link' href='?about'>/?about</a></b> - A page about the developer of the website</div>
+          <div><b><a class='noscroll link' href='?patch-notes'>/?patch-notes</a></b> - An archive of past patch notes for the website</div>
+          <div><b><a class='noscroll link' href='?change-password'>/?change-password</a></b> - A page to change the password to your map</div>
+        </div>
       </div>
     </div>
   </div>
