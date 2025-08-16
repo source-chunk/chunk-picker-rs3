@@ -118755,6 +118755,17 @@
 					"~|One Piercing Note|~ Complete the quest": "Quest"
 				}
 			},
+			"~|Completionist achievements#Master Quest Cape|~ Centaur of Attention": {
+				"Category": ["MQC achievements"],
+				"Description": "Read the book ecquired from Roberta outside the Everlight porcelain clay mine.",
+				"BaseQuest": "Completionist achievements",
+				"Chunks": ["14898"],
+				"Items": ["Porcelain clay"],
+				"Skills": {
+					"Archaeology": "42",
+					"Mining": "102"
+				}
+			},
 			"~|Completionist achievements#Master Quest Cape|~ Challenge Maria": {
 				"Category": ["MQC achievements"],
 				"Description": "Complete Maria's additional challenges and unlock all chests in the Gulvas mansion.",
@@ -120168,6 +120179,16 @@
 				"Items": ["The End of Gara-Dul"],
 				"Not F2P": true
 			},
+			"~|Completionist achievements#Master Quest Cape|~ Memoirs of the Devourer": {
+				"Category": ["MQC achievements"],
+				"Description": "Read the Memoirs of the Devourer from Amascut, the Devourer.",
+				"BaseQuest": "Completionist achievements",
+				"Items": ["Memoirs of the Devourer"],
+				"Tasks": {
+					"~|Eclipse of the Heart|~ Complete the quest": "Quest"
+				},
+				"Not F2P": true
+			},
 			"~|Completionist achievements#Master Quest Cape|~ Memories of Guthix ": {
 				"Category": ["MQC achievements"],
 				"Description": "Attune and hand all engrams in to the Memorial to Guthix.",
@@ -120689,7 +120710,7 @@
 				"Category": ["MQC achievements"],
 				"Description": "Complete all quests to obtain the quest cape.",
 				"BaseQuest": "Completionist achievements",
-				"QuestPointsNeeded": 459,
+				"QuestPointsNeeded": 462,
 				"Tasks": {
 					"~|Aftermath|~ Complete the quest": "Quest",
 					"~|Battle of the Monolith|~ Complete the quest": "Quest",
@@ -121775,6 +121796,7 @@
 					"~|Completionist achievements#Master Quest Cape|~ Castaways of the Arc": "Diary",
 					"~|Completionist achievements#Master Quest Cape|~ Caving into the Gains": "Diary",
 					"~|Completionist achievements#Master Quest Cape|~ Cecilia, I'm Begging You, Please...": "Diary",
+					"~|Completionist achievements#Master Quest Cape|~ Centaur of Attention": "Diary",
 					"~|Completionist achievements#Master Quest Cape|~ Challenge Maria": "Diary",
 					"~|Completionist achievements#Master Quest Cape|~ Challenging Chat": "Diary",
 					"~|Completionist achievements#Master Quest Cape|~ Chilling with Arrav": "Diary",
@@ -121892,6 +121914,7 @@
 					"~|Completionist achievements#Master Quest Cape|~ Master Bogreman": "Diary",
 					"~|Completionist achievements#Master Quest Cape|~ Measure of Old": "Diary",
 					"~|Completionist achievements#Master Quest Cape|~ Meeting your Idols": "Diary",
+					"~|Completionist achievements#Master Quest Cape|~ Memoirs of the Devourer": "Diary",
 					"~|Completionist achievements#Master Quest Cape|~ Memories of Guthix ": "Diary",
 					"~|Completionist achievements#Master Quest Cape|~ Message from the Abyss": "Diary",
 					"~|Completionist achievements#Master Quest Cape|~ Met Het Yet?": "Diary",
@@ -122814,7 +122837,7 @@
 				"Category": ["Comp achievements"],
 				"Description": "Unlock all music tracks.",
 				"BaseQuest": "Completionist achievements",
-				"QuestPointsNeeded": 459,
+				"QuestPointsNeeded": 462,
 				"Tasks": {
 					"~|Completionist achievements#Completionist Cape|~ Mysteries - Stormguard Citadel": "Diary",
 					"~|Completionist achievements#Completionist Cape|~ Mysteries - Warforge": "Diary",
@@ -122958,7 +122981,7 @@
 				"Category": ["Comp achievements"],
 				"Description": "Complete all quests to obtain the quest cape.",
 				"BaseQuest": "Completionist achievements",
-				"QuestPointsNeeded": 459,
+				"QuestPointsNeeded": 462,
 				"Tasks": {
 					"~|Aftermath|~ Complete the quest": "Quest",
 					"~|Battle of the Monolith|~ Complete the quest": "Quest",
@@ -123689,6 +123712,21 @@
 				"BaseQuest": "Completionist achievements",
 				"Monsters": ["Vorago"],
 				"Not F2P": true
+			},
+			"~|Completionist achievements#Trimmed Completionist Cape|~ Finished unpacking!": {
+				"Category": ["Comp achievements", "Trim achievements"],
+				"Description": "Access the fourth room in the Sunken Pyramid.",
+				"BaseQuest": "Completionist achievements",
+				"Chunks": ["12073"],
+				"NPCs": ["SlayerPointMasters[+]"],
+				"Skills": {
+					"Slayer": 99
+				},
+				"Tasks": {
+					"~|Eclipse of the Heart|~ Complete the quest": "Quest"
+				},
+				"Not F2P": true,
+				"NoBoost": true
 			},
 			"~|Completionist achievements#Trimmed Completionist Cape|~ Get Tooled Up": {
 				"Category": ["Comp achievements", "Trim achievements"],
@@ -124658,6 +124696,7 @@
 					"~|Completionist achievements#Trimmed Completionist Cape|~ Elder Wisdom": "Diary",
 					"~|Completionist achievements#Trimmed Completionist Cape|~ Ferocious Upgrade": "Diary",
 					"~|Completionist achievements#Trimmed Completionist Cape|~ Finish Him!": "Diary",
+					"~|Completionist achievements#Trimmed Completionist Cape|~ Finished unpacking!": "Diary",
 					"~|Completionist achievements#Trimmed Completionist Cape|~ Get Tooled Up": "Diary",
 					"~|Completionist achievements#Trimmed Completionist Cape|~ Globetrotter ": "Diary",
 					"~|Completionist achievements#Trimmed Completionist Cape|~ God of the Grind": "Diary",

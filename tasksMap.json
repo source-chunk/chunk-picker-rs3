@@ -11753,6 +11753,7 @@
   "~|Completionist achievements#Master Quest Cape|~ Castaways of the Arc": "t_11686",
   "~|Completionist achievements#Master Quest Cape|~ Caving into the Gains": "t_11687",
   "~|Completionist achievements#Master Quest Cape|~ Cecilia, I'm Begging You, Please...": "t_11688",
+  "~|Completionist achievements#Master Quest Cape|~ Centaur of Attention": "t_111326",
   "~|Completionist achievements#Master Quest Cape|~ Challenge Maria": "t_11689",
   "~|Completionist achievements#Master Quest Cape|~ Challenging Chat": "t_11690",
   "~|Completionist achievements#Master Quest Cape|~ Chilling with Arrav": "t_11691",
@@ -11870,6 +11871,7 @@
   "~|Completionist achievements#Master Quest Cape|~ Master Bogreman": "t_11803",
   "~|Completionist achievements#Master Quest Cape|~ Measure of Old": "t_11804",
   "~|Completionist achievements#Master Quest Cape|~ Meeting your Idols": "t_11805",
+  "~|Completionist achievements#Master Quest Cape|~ Memoirs of the Devourer": "t_111327",
   "~|Completionist achievements#Master Quest Cape|~ Memories of Guthix ": "t_11806",
   "~|Completionist achievements#Master Quest Cape|~ Message from the Abyss": "t_11807",
   "~|Completionist achievements#Master Quest Cape|~ Met Het Yet?": "t_11808",
@@ -12119,6 +12121,7 @@
   "~|Completionist achievements#Trimmed Completionist Cape|~ Elder Wisdom": "t_12052",
   "~|Completionist achievements#Trimmed Completionist Cape|~ Ferocious Upgrade": "t_12053",
   "~|Completionist achievements#Trimmed Completionist Cape|~ Finish Him!": "t_12054",
+  "~|Completionist achievements#Trimmed Completionist Cape|~ Finished unpacking!": "t_111328",
   "~|Completionist achievements#Trimmed Completionist Cape|~ Get Tooled Up": "t_12055",
   "~|Completionist achievements#Trimmed Completionist Cape|~ Globetrotter ": "t_12056",
   "~|Completionist achievements#Trimmed Completionist Cape|~ God of the Grind": "t_12057",
@@ -87523,5 +87526,5 @@
   "Pizazz points: ~|Law rune|~": "t_52855",
   "Pizazz points: ~|Soul rune|~": "t_52856",
   "Pizazz points: ~|Blood rune|~": "t_52857",
-  "currentNextIndex": 111326
+  "currentNextIndex": 111329
 }
