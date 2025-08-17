@@ -62209,13 +62209,13 @@
 				"Output": "Seeker",
 				"NoPet": true
 			},
-			"Slay a ~|Skeletal wyvern|~": {
+			"Slay a ~|Skeletal Wyvern|~": {
 				"Level": 72,
-				"Monsters": ["Skeletal wyvern"],
+				"Monsters": ["Skeletal Wyvern"],
 				"Primary": false,
 				"Priority": 1,
 				"Source": "drop",
-				"Output": "Skeletal wyvern",
+				"Output": "Skeletal Wyvern",
 				"NoPet": true
 			},
 			"Slay a ~|jungle strykewyrm|~": {
@@ -71494,7 +71494,7 @@
 				"Priority": 16
 			},
 			"Craft a ~|fremennik round shield|~": {
-				"Items": ["Artic pine logs", "Bronze nails", "Rope"],
+				"Items": ["Artic pine logs*", "Bronze nails*", "Rope*"],
 				"Level": 54,
 				"Output": "Fremennik round shield",
 				"Skills": {
@@ -90299,8 +90299,7 @@
 			"~|Missing My Mummy|~ 5f2": {
 				"BaseQuest": "Missing My Mummy",
 				"Description": "Give Ali Morrisane any sq'irkjuice",
-				"Chunks": ["13106"],
-				"Items": ["Sq'irkjuice[+]"],
+				"Chunks": ["13106", "Sorceress' Garden"],
 				"Tasks": {
 					"~|Missing My Mummy|~ 5f1": "Quest"
 				},
@@ -102827,7 +102826,7 @@
 			"~|While Guthix Sleeps|~ 24": {
 				"BaseQuest": "While Guthix Sleeps",
 				"Description": "Enter the cell and teleport to Surok's hideout, then teleport to Lucien's camp",
-				"Items": ["Dagon'hai hat", "Dagon'hai robe top", "Dagon'hai robe bottom", "Law rune", "Death rune"],
+				"Items": ["Law rune", "Death rune"],
 				"Chunks": ["11579", "11828"],
 				"Tasks": {
 					"~|While Guthix Sleeps|~ 23": "Quest"
@@ -102856,7 +102855,6 @@
 				"BaseQuest": "While Guthix Sleeps",
 				"Description": "Speak to Movario by the Tears of Guthix",
 				"Chunks": ["Tears of Guthix cavern"],
-				"Items": ["Dagon'hai hat", "Dagon'hai robe top", "Dagon'hai robe bottom"],
 				"Tasks": {
 					"~|While Guthix Sleeps|~ 26": "Quest"
 				},
@@ -105153,7 +105151,7 @@
 				"Items": ["Lingam stone"],
 				"Tasks": {
 					"Archaeology Mystery: ~|Mysterious City|~ 1": "Quest",
-					"Gain entry to ~|Xolo City|~*": "Nonskill"
+					"Gain entry to ~|Xolo City|~": "Nonskill"
 				},
 				"Not F2P": true
 			},
@@ -107622,7 +107620,7 @@
 				"Category": ["Show Diary Tasks"]
 			},
 			"~|Falador Achievements#Hard|~ Why Oh Wyvern": {
-				"Description": "Kill a Skeletal wyvern in the Asgarnian Ice Dungeon.",
+				"Description": "Kill a Skeletal Wyvern in the Asgarnian Ice Dungeon.",
 				"Chunks": ["Asgarnian Ice Dungeon"],
 				"Skills": {
 					"Slayer": 72
@@ -124546,7 +124544,7 @@
 				"Ushabti (icefiend)",
 				"Ushabti (mutated zygomite)",
 				"Ushabti (killerwatt)",
-				"Ushabti (skeletal wyvern)",
+				"Ushabti (Skeletal Wyvern)",
 				"Ushabti (sea snake)",
 				"Ushabti (harpie bug swarm)",
 				"Ushabti (fever spider)",
@@ -132216,99 +132214,86 @@
 			"(Champion Scrolls) Obtain the ~|imp champion's scroll|~": {
 				"Category": ["Untracked Uniques", "Untracked Uniques Combat"],
 				"Label": "Untracked Combat Uniques",
-				"Chunks": ["Champions' Arena"],
 				"Items": ["Imp Champion's scroll"],
 				"Not F2P": true
 			},
 			"(Champion Scrolls) Obtain the ~|goblin champion's scroll|~": {
 				"Category": ["Untracked Uniques", "Untracked Uniques Combat"],
 				"Label": "Untracked Combat Uniques",
-				"Chunks": ["Champions' Arena"],
 				"Items": ["Goblin Champion's scroll"],
 				"Not F2P": true
 			},
 			"(Champion Scrolls) Obtain the ~|skeleton champion's scroll|~": {
 				"Category": ["Untracked Uniques", "Untracked Uniques Combat"],
 				"Label": "Untracked Combat Uniques",
-				"Chunks": ["Champions' Arena"],
 				"Items": ["Skeleton Champion's scroll"],
 				"Not F2P": true
 			},
 			"(Champion Scrolls) Obtain the ~|zombie champion's scroll|~": {
 				"Category": ["Untracked Uniques", "Untracked Uniques Combat"],
 				"Label": "Untracked Combat Uniques",
-				"Chunks": ["Champions' Arena"],
 				"Items": ["Zombie Champion's scroll"],
 				"Not F2P": true
 			},
 			"(Champion Scrolls) Obtain the ~|hobgoblin champion's scroll|~": {
 				"Category": ["Untracked Uniques", "Untracked Uniques Combat"],
 				"Label": "Untracked Combat Uniques",
-				"Chunks": ["Champions' Arena"],
 				"Items": ["Hobgoblin Champion's scroll"],
 				"Not F2P": true
 			},
 			"(Champion Scrolls) Obtain the ~|giant champion's scroll|~": {
 				"Category": ["Untracked Uniques", "Untracked Uniques Combat"],
 				"Label": "Untracked Combat Uniques",
-				"Chunks": ["Champions' Arena"],
 				"Items": ["Giant Champion's scroll"],
 				"Not F2P": true
 			},
 			"(Champion Scrolls) Obtain the ~|banshee champion's scroll|~": {
 				"Category": ["Untracked Uniques", "Untracked Uniques Combat"],
 				"Label": "Untracked Combat Uniques",
-				"Chunks": ["Champions' Arena"],
 				"Items": ["Banshee Champion's scroll"],
 				"Not F2P": true
 			},
 			"(Champion Scrolls) Obtain the ~|ghoul champion's scroll|~": {
 				"Category": ["Untracked Uniques", "Untracked Uniques Combat"],
 				"Label": "Untracked Combat Uniques",
-				"Chunks": ["Champions' Arena"],
 				"Items": ["Ghoul Champion's scroll"],
 				"Not F2P": true
 			},
 			"(Champion Scrolls) Obtain the ~|earth warrior champion's scroll|~": {
 				"Category": ["Untracked Uniques", "Untracked Uniques Combat"],
 				"Label": "Untracked Combat Uniques",
-				"Chunks": ["Champions' Arena"],
 				"Items": ["Earth Warrior Champion's scroll"],
 				"Not F2P": true
 			},
 			"(Champion Scrolls) Obtain the ~|abberant spectre champion's scroll|~": {
 				"Category": ["Untracked Uniques", "Untracked Uniques Combat"],
 				"Label": "Untracked Combat Uniques",
-				"Chunks": ["Champions' Arena"],
 				"Items": ["Aberrant Spectre Champion's scroll"],
 				"Not F2P": true
 			},
 			"(Champion Scrolls) Obtain the ~|jogre champion's scroll|~": {
 				"Category": ["Untracked Uniques", "Untracked Uniques Combat"],
 				"Champion ScrollsLabel": "Untracked Combat Uniques",
-				"Chunks": ["Champions' Arena"],
 				"Items": ["Jogre Champion's scroll"],
 				"Not F2P": true
 			},
 			"(Champion Scrolls) Obtain the ~|mummy champion's scroll|~": {
 				"Category": ["Untracked Uniques", "Untracked Uniques Combat"],
 				"Label": "Untracked Combat Uniques",
-				"Chunks": ["Champions' Arena"],
 				"Items": ["Mummy Champion's scroll"],
 				"Not F2P": true
 			},
 			"(Champion Scrolls) Obtain the ~|lesser demon champion's scroll|~": {
 				"Category": ["Untracked Uniques", "Untracked Uniques Combat"],
 				"Label": "Untracked Combat Uniques",
-				"Chunks": ["Champions' Arena"],
 				"Items": ["Lesser Demon Champion's scroll"],
 				"Not F2P": true
 			},
 			"(Champion Scrolls) Obtain the ~|calling beeds|~": {
 				"Category": ["Untracked Uniques", "Untracked Uniques Combat"],
 				"Label": "Untracked Combat Uniques",
-				"Chunks": ["Champions' Arena"],
 				"Items": ["ChampionScrolls[+]"],
+				"Chunks": ["Champions' Arena"],
 				"Not F2P": true
 			},
 			"(Kethsi) Unlock the Helmet piece of the ~|Kethsi (override)|~": {
@@ -138524,7 +138509,7 @@
 				"Output": "Ushabti (sea snake)",
 				"Not F2P": true
 			},
-			"Collect a ~|skeletal wyvern|~ soul": {
+			"Collect a ~|Skeletal Wyvern|~ soul": {
 				"Category": ["Slayer Souls"],
 				"Label": "Slayer Codex",
 				"Items": ["Ushabti"],
@@ -138532,7 +138517,7 @@
 				"Skills": {
 					"Slayer": 72
 				},
-				"Output": "Ushabti (skeletal wyvern)",
+				"Output": "Ushabti (Skeletal Wyvern)",
 				"Not F2P": true
 			},
 			"Collect a ~|killerwatt|~ soul": {
@@ -145161,7 +145146,7 @@
 			},
 			"Xolo City": {
 				"Tasks": {
-					"Gain entry to ~|Xolo City|~*": "Nonskill"
+					"Gain entry to ~|Xolo City|~": "Nonskill"
 				},
 				"UnlocksArea": true
 			},
@@ -148604,7 +148589,7 @@
 				"Not F2P": true,
 				"NoBoost": true
 			},
-			"Gain entry to ~|Xolo City|~*": {
+			"Gain entry to ~|Xolo City|~": {
 				"Chunks": ["15683", "Observation Outpost", "16193", "16704", "15936"],
 				"Items": ["Small fishing net", "Rope", "Orgone*", "Carbon black*", "Compass rose*", "Dragon metal*"],
 				"Objects": ["Archaeologist's workbench"],
@@ -159134,8 +159119,6 @@
 				"Wolf": 2,
 				"Scorpion": 3,
 				"Pit Scorpion": 4,
-				"Jogre": 1,
-				"Cyclops": 1,
 				"Snake": 5,
 				"Penguin": 3,
 				"Monkey": 5
@@ -167476,7 +167459,7 @@
 			},
 			"Monster": {
 				"Ice warrior": 11,
-				"Skeletal wyvern": 8,
+				"Skeletal Wyvern": 8,
 				"Ice giant": 3,
 				"Hobgoblin": 7
 			},
@@ -184288,7 +184271,7 @@
                 "Mugger": 4,
                 "Pirate": 9,
 				"Ice warrior": 11,
-                "Skeletal wyvern": 8,
+                "Skeletal Wyvern": 8,
                 "Ice giant": 3,
                 "Hobgoblin#Armed": 1,
                 "Hobgoblin#Unarmed": 6
@@ -198627,7 +198610,7 @@
 				"Ushabti (icefiend)",
 				"Ushabti (mutated zygomite)",
 				"Ushabti (killerwatt)",
-				"Ushabti (skeletal wyvern)",
+				"Ushabti (Skeletal Wyvern)",
 				"Ushabti (sea snake)",
 				"Ushabti (harpie bug swarm)",
 				"Ushabti (fever spider)",
@@ -201475,8 +201458,8 @@
 			"Shadow warriors": {
 				"Shadow warrior": true
 			},
-			"Skeletal wyverns": {
-				"Skeletal wyverns": true
+			"Skeletal Wyverns": {
+				"Skeletal Wyverns": true
 			},
 			"Skeletons": {
 				"Skeleton warrior": true,
@@ -201518,7 +201501,7 @@
 				"Skeleton (HoG)": true,
 				"Huge skeleton": true,
 				"Bossy McBossFace's First mate": true,
-				"Skeletal wyvern": true,
+				"Skeletal Wyvern": true,
 				"Bound skeleton": true
 			},
 			"Soul devourers": {
@@ -201692,7 +201675,7 @@
 				"Risen ghost": true,
 				"Riyl shade": true,
 				"Shade": true,
-				"Skeletal wyvern": true,
+				"Skeletal Wyvern": true,
 				"Skeleton mage": true,
 				"Skeleton": true,
 				"Skeleton (Tarn's Lair)#Low Level": true,
@@ -214387,6 +214370,77 @@
 		"Dagannoth sentinel": {
 			"Dagannoth bones": {
 				"1": "Always"
+			}
+		},
+		"Dagon'hai Monk": {
+			"Bones": {
+				"1": "Always"
+			},
+			"Dagon'hai hat": {
+				"1": "1/1536"
+			},
+			"Dagon'hai robe top": {
+				"1": "1/1536"
+			},
+			"Dagon'hai robe bottom": {
+				"1": "1/1536"
+			},
+			"Coins": {
+				"1": "17/128",
+				"2": "16/128",
+				"4": "9/128",
+				"29": "3/128",
+				"30": "9/1536",
+				"60-80": "3/128",
+				"80-100": "11/128"
+			},
+			"Black wizard hat": {
+				"1": "4/128"
+			},
+			"Black wizard robe top": {
+				"1": "3/128"
+			},
+			"Staff": {
+				"1": "4/128"
+			},
+			"Air rune": {
+				"10": "3/128",
+				"18": "2/128"
+			},
+			"Water rune": {
+				"10": "3/128",
+				"18": "2/128"
+			},
+			"Fire rune": {
+				"10": "3/128",
+				"18": "2/128"
+			},
+			"Cosmic rune": {
+				"2": "1/128"
+			},
+			"Chaos rune": {
+				"4": "6/128"
+			},
+			"Nature rune": {
+				"4": "7/128"
+			},
+			"Law rune": {
+				"3": "1/128"
+			},
+			"Blood rune": {
+				"2": "2/128"
+			},
+			"Medium plated mithril salvage": {
+				"1": "5/128"
+			},
+			"Water talisman": {
+				"1": "2/128"
+			},
+			"Fire talisman": {
+				"1": "2/128"
+			},
+			"Elegant note": {
+				"1": "1/25"
 			}
 		},
 		"Dark beast (elite)": {
@@ -280423,7 +280477,7 @@
 					"1": "2/128"
 				}
 			},
-			"Crawling hand#Burthopre": {
+			"Crawling hand#Burthorpe": {
 				"Bones": {
 					"1": "Always"
 				},
@@ -295600,7 +295654,7 @@
 				"Sealed clue scroll (elite)": {
 					"1": "1/128"
 				},
-				"Sealed clue scroll (Master)": {
+				"Sealed clue scroll (master)": {
 					"1": "1/1280"
 				},
 				"Pilfer points": {
@@ -364030,7 +364084,7 @@
 			"Scabarites": {
 				"Weight": 10
 			},
-			"Skeletal wyverns": {
+			"Skeletal Wyverns": {
 				"Level": 72,
 				"Weight": 5
 			},
@@ -364245,7 +364299,7 @@
 				"Level": 96,
 				"Weight": 8
 			},
-			"Skeleton wyverns": {
+			"Skeletal Wyverns": {
 				"Level": 72,
 				"Weight": 5
 			},
