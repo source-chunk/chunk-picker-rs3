@@ -65837,7 +65837,7 @@
 				"Tasks": {
 					"Complete the ~|Archaeology tutorial|~": "Archaeology"
 				},
-				"Items": ["Wingsuit v1 (damaged)*", "Samite Silk*", "Stormguard steel*", "Armadylean yellow*", "Leather scraps*"],
+				"Items": ["Wingsuit v1 (damaged)*", "Samite silk*", "Stormguard steel*", "Armadylean yellow*", "Leather scraps*"],
 				"Objects": ["Archaeologist's workbench"],
 				"Level": 40,
 				"Skills": {
