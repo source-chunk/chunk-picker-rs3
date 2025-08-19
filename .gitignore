@@ -5,3 +5,6 @@ chunkpickerrs3-firebase-adminsdk-k3gn6-f6003a024a.json
 package-lock.json
 package.json
 save_file.json
+/functions
+.firebaserc
+firebase.json
