@@ -1536,7 +1536,7 @@ let topbarElements = {
     'Sandbox Mode': `<div><span class='noscroll' onclick="enableTestMode()"><i class="gosandbox fa-solid fa-flask" title='Sandbox Mode'></i></span></div>`,
 };
 
-let currentVersion = '6.8.20';
+let currentVersion = '6.8.18';
 let patchNotesVersion = '6.4.0';
 let updateLevel = 'difference';
 
@@ -1683,7 +1683,7 @@ mapImg.addEventListener("load", e => {
         centerCanvas('quick');
     }
 });
-mapImg.src = "runescape_world_map.png?v=6.8.20";
+mapImg.src = "runescape_world_map.png?v=6.8.18";
 
 // Rounded rectangle
 CanvasRenderingContext2D.prototype.roundRect = function (x, y, w, h, r) {
@@ -3066,8 +3066,14 @@ let setRecentRoll = function(chunkId) {
         let timeNow = new Date().getTime();
         setSnap['chunkOrder'] = { ...setSnap['chunkOrder'], [timeNow]: parseInt(chunkId) };
         myRef.child('recentFancyRollTime').set(recentFancyRollTime);
-        const setRoll = firebase.functions().httpsCallable('setRoll');
-        setRoll({ mapCode: mid, chunkId: parseInt(chunkId) });
+        myRef.child('chunkOrder').child(timeNow).set(parseInt(chunkId), (error) => {
+            if (error) {
+                regainConnectivity(() => {
+                    myRef.child('recentFancyRollTime').set(recentFancyRollTime);
+                    myRef.child('chunkOrder').child(timeNow).set(parseInt(chunkId));
+                });
+            }
+        });
     }
     chunkOrder[new Date().getTime()] = parseInt(chunkId);
     let chunkOrderArr = Object.keys(chunkOrder).sort().reverse();
@@ -3434,7 +3440,7 @@ let calcCurrentChallengesCanvas = function(useOld, proceed, fromLoadData, inputT
         setCalculating('.panel-active', useOld);
         setCurrentChallenges(['No tasks currently backlogged.'], ['No tasks currently completed.'], true, true);
         myWorker.terminate();
-        myWorker = new Worker("./worker.js?v=6.8.20");
+        myWorker = new Worker("./worker.js?v=6.8.18");
         myWorker.onmessage = workerOnMessage;
         myWorker.postMessage(['current', tempChunks['unlocked'], rules, chunkInfo, skillNames, processingSkill, maybePrimary, combatSkills, monstersPlus, objectsPlus, chunksPlus, itemsPlus, mixPlus, npcsPlus, tasksPlus, tools, elementalRunes, manualTasks, completedChallenges, backlog, "1/" + rules['Rare Drop Amount'], universalPrimary, elementalStaves, rangedItems, boneItems, highestCurrent, dropTables, possibleAreas, randomLoot, magicTools, bossLogs, bossMonsters, minigameShops, manualEquipment, checkedChallenges, backloggedSources, altChallenges, manualMonsters, slayerLocked, passiveSkill, f2pSkills, assignedXpRewards, mid === diary2Tier, manualAreas, "1/" + rules['Secondary Primary Amount'], mid === manualAreasOnly, tempSections, maxSkill, userTasks, manualPrimary, updateLevel]);
         workersOut['current'] = true;
@@ -3738,8 +3744,8 @@ $(document).ready(function() {
 // ------------------------------------------------------------
 
 // Recieve message from worker
-let myWorker = new Worker("./worker.js?v=6.8.20");
-let myWorker2 = new Worker("./worker.js?v=6.8.20");
+let myWorker = new Worker("./worker.js?v=6.8.18");
+let myWorker2 = new Worker("./worker.js?v=6.8.18");
 let workerOnMessage = function(e) {
     if (e.data[0] === 'reload') {
         window.location.reload();
@@ -4897,7 +4903,6 @@ let checkPin = function() {
 let unlockEntry = function() {
     savedPin = $('.pin.entry').val();
     $('#unlock-entry').prop('disabled', true).html('<i class="spin fa-solid fa-spinner"></i>');
-    firebase.auth().setPersistence(firebase.auth.Auth.Persistence.NONE);
     firebase.auth().fetchSignInMethodsForEmail('sourcechunk+' + mid + '@yandex.com').then((methods) => {
         if (signInAttempts > 15) {
             setTimeout(function() {
@@ -5103,7 +5108,6 @@ let accessMap = function() {
             });
         }
         if ($('.pin.old').val()) {
-            firebase.auth().setPersistence(firebase.auth.Auth.Persistence.NONE);
             firebase.auth().fetchSignInMethodsForEmail('sourcechunk+' + mid + '@yandex.com').then((methods) => {
                 myRef = firebase.database().ref('maps/' + mid);
                 if (!!methods && methods.length > 0) {
@@ -6768,7 +6772,7 @@ let calcFutureChallenges = function() {
     }
     tempSections = combineJSONs(tempSections, manualSections);
     myWorker2.terminate();
-    myWorker2 = new Worker("./worker.js?v=6.8.20");
+    myWorker2 = new Worker("./worker.js?v=6.8.18");
     myWorker2.onmessage = workerOnMessage;
     myWorker2.postMessage(['future', chunks, rules, chunkInfo, skillNames, processingSkill, maybePrimary, combatSkills, monstersPlus, objectsPlus, chunksPlus, itemsPlus, mixPlus, npcsPlus, tasksPlus, tools, elementalRunes, manualTasks, completedChallenges, backlog, "1/" + rules['Rare Drop Amount'], universalPrimary, elementalStaves, rangedItems, boneItems, highestCurrent, dropTables, possibleAreas, randomLoot, magicTools, bossLogs, bossMonsters, minigameShops, manualEquipment, checkedChallenges, backloggedSources, altChallenges, manualMonsters, slayerLocked, passiveSkill, f2pSkills, assignedXpRewards, mid === diary2Tier, manualAreas, "1/" + rules['Secondary Primary Amount'], mid === manualAreasOnly, tempSections, maxSkill, userTasks, manualPrimary, updateLevel]);
     workersOut['future'] = infoLockedId;
@@ -12609,8 +12613,6 @@ let setData = function() {
             stickeredColors
         },
     };
-    let databaseObject = JSON.parse(JSON.stringify(setSnap));
-    delete databaseObject['chunkOrder'];
     if (firebase.auth().currentUser) {
         myRef.child('test').set(null, (error) => {
             if (error) {
@@ -12619,12 +12621,12 @@ let setData = function() {
                     return;
                 });
             } else {
-                myRef.update({...databaseObject});
+                myRef.update({...setSnap});
             }
         });
     } else {
         firebase.auth().signInWithEmailAndPassword('sourcechunk+' + mid + '@yandex.com', savedPin + mid).then(function() {
-            myRef.update({...databaseObject});
+            myRef.update({...setSnap});
         }).catch(function(error) { console.error(error) });
     }
 }
@@ -12653,7 +12655,6 @@ let rollMID = function(count) {
             rollCount++;
         }
         mid = charSet;
-        firebase.auth().setPersistence(firebase.auth.Auth.Persistence.NONE);
         firebase.auth().fetchSignInMethodsForEmail('sourcechunk+' + mid + '@yandex.com').then(providers => {
             if (providers.length === 0) {
                 firebase.auth().createUserWithEmailAndPassword('sourcechunk+' + mid + '@yandex.com', savedPin + mid).then((userCredential) => {
@@ -12718,7 +12719,6 @@ let checkIfGoodFriend = function() {
 // Changes the lock state if pin is correct, otherwise displays error
 let changeLocked = function() {
     $('#lock-unlock').prop('disabled', true).html('<i class="spin fa-solid fa-spinner"></i>');
-    firebase.auth().setPersistence(firebase.auth.Auth.Persistence.NONE);
     firebase.auth().fetchSignInMethodsForEmail('sourcechunk+' + mid + '@yandex.com').then((methods) => {
         if (!!methods && methods.length > 0) {
             setTimeout(function() {
