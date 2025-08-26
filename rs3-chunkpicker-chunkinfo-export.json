@@ -164284,7 +164284,6 @@
 			},
 			"Shop": {
 				"Karamja General Store": true,
-				"Trader Stan's Trading Post": true,
 				"Karamja Wines, Spirits, and Beers": true
 			},
 			"Quest": {
@@ -177974,7 +177973,7 @@
 		"16705": {
 			"Object": {
 				"Fishing spot (cage, harpoon)": 2,
-				"Fishing spot (net, harpoon)": 3,
+				"Fishing spot (big fishing net, harpoon)": 3,
 				"Totem pedestal": 1
 			},
 			"Monster": {
