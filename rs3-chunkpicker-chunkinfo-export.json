@@ -13,13 +13,6 @@
 				"Primary": true,
 				"Priority": 2
 			},
-			"Move between islands in ~|Anima Islands|~": {
-				"Category": ["DnD Skilling"],
-				"Chunks": ["12335"],
-				"Level": 1,
-				"Primary": true,
-				"Priority": 10
-			},
 			"Read an agility tome from ~|Temple Trekking|~": {
 				"Category": ["DnD Skilling"],
 				"Chunks": ["Temple Trekking Routes"],
@@ -11287,13 +11280,6 @@
 				"Level": 1,
 				"Primary": true,
 				"Priority": 23
-			},
-			"Construct pylons in ~|Anima Islands|~": {
-				"Category": ["DnD Skilling"],
-				"Chunks": ["12335"],
-				"Level": 1,
-				"Primary": true,
-				"Priority": 24
 			},
 			"Construct a ~|God Statue|~": {
 				"Category": ["DnD Skilling"],
@@ -28122,13 +28108,6 @@
 				"Primary": true,
 				"Priority": 12
 			},
-			"Free a lost soul, or charge a gatestone, in ~|Anima Islands|~": {
-				"Category": ["DnD Skilling"],
-				"Chunks": ["12335"],
-				"Level": 1,
-				"Primary": true,
-				"Priority": 13
-			},
 			"Finish the Displaced Energy ~|Wilderness Flash Event|~": {
 				"Category": ["DnD Skilling", "DnD Flash Events", "DnD"],
 				"Chunks": ["11832"],
@@ -29919,13 +29898,6 @@
 				"Primary": true,
 				"Priority": 2
 			},
-			"Chip off a gatestone in ~|Anima Islands|~": {
-				"Category": ["DnD Skilling"],
-				"Chunks": ["12335"],
-				"Level": 1,
-				"Primary": true,
-				"Priority": 4
-			},
 			"Participate in a ~|sinkhole|~": {
 				"Category": ["DnD Skilling"],
 				"Chunks": ["Sinkhole", "13625"],
@@ -31504,13 +31476,6 @@
 				"Level": 1,
 				"Primary": true,
 				"Priority": 61
-			},
-			"Harvest a flower seed in ~|Anima Islands|~": {
-				"Category": ["DnD Skilling"],
-				"Chunks": ["12335"],
-				"Level": 1,
-				"Primary": true,
-				"Priority": 24
 			},
 			"Finish the Surprising Seedlings ~|Wilderness Flash Event|~": {
 				"Category": ["DnD Skilling", "DnD Flash Events", "DnD"],
@@ -35617,13 +35582,6 @@
 				"Level": 1,
 				"Primary": true,
 				"Priority": 12
-			},
-			"Light holy fire in ~|Anima Islands|~": {
-				"Category": ["DnD Skilling"],
-				"Chunks": ["12335"],
-				"Level": 1,
-				"Primary": true,
-				"Priority": 13
 			},
 			"Light ballista ammunition in ~|Troll Invasion|~": {
 				"Category": ["DnD Skilling"],
@@ -41502,13 +41460,6 @@
 				"Primary": true,
 				"Priority": 6
 			},
-			"Nurture roots in ~|Anima Islands|~": {
-				"Category": ["DnD Skilling"],
-				"Chunks": ["12335"],
-				"Level": 1,
-				"Primary": true,
-				"Priority": 21
-			},
 			"Partake in ~|Herby Werby|~": {
 				"Category": ["DnD Skilling"],
 				"Chunks": ["Herby Werby"],
@@ -44264,13 +44215,6 @@
 				"Level": 1,
 				"Primary": true,
 				"Priority": 16
-			},
-			"Lure sentient lightning in ~|Anima Islands|~": {
-				"Category": ["DnD Skilling"],
-				"Chunks": ["12335"],
-				"Level": 1,
-				"Primary": true,
-				"Priority": 17
 			},
 			"Finish the Butterfly Swarm ~|Wilderness Flash Event|~": {
 				"Category": ["DnD Skilling", "DnD Flash Events", "DnD"],
@@ -51248,7 +51192,7 @@
 				"Category": ["Spells"],
 				"Items": ["Cosmic rune*", "Fire rune[+]*", "Earth rune[+]*", "Alchemical onyx ring*"],
 				"Level": 87,
-				"Output": "Luck of the dwarves",
+				"Output": "Luck of the Dwarves",
 				"Primary": true,
 				"Priority": 5
 			},
@@ -51256,7 +51200,7 @@
 				"Category": ["Spells"],
 				"Items": ["Cosmic rune*", "Fire rune[+]*", "Earth rune[+]*", "Alchemical onyx necklace*"],
 				"Level": 87,
-				"Output": "Grace of the elves",
+				"Output": "Grace of the Elves",
 				"Primary": true,
 				"Priority": 6
 			},
@@ -56024,13 +55968,6 @@
 				"Level": 1,
 				"Primary": true,
 				"Priority": 57
-			},
-			"Guide a tormented soul in ~|Anima Islands|~": {
-				"Category": ["DnD Skilling"],
-				"Chunks": ["12335"],
-				"Level": 1,
-				"Primary": true,
-				"Priority": 68
 			},
 			"Pray at a ~|God Statue|~": {
 				"Category": ["DnD Skilling"],
@@ -61931,6 +61868,27 @@
 				"Output": "Fever spider",
 				"NoPet": true
 			},
+			"Slay a ~|beastmaster's hound|~": {
+				"Level": 43,
+				"Monsters": ["Beastmaster's hound"],
+				"Primary": false,
+				"Priority": 1,
+				"Source": "drop",
+				"Output": "Beastmaster's hound",
+				"NoPet": true
+			},
+			"Slay a ~|beastmaster's hound|~ while on task": {
+				"Level": 43,
+				"Monsters": ["Beastmaster's hound"],
+				"Tasks": {
+					"Beastmaster's hound task": "Nonskill"
+				},
+				"Primary": false,
+				"Priority": 2,
+				"Source": "drop",
+				"Output": "Beastmaster's hound (task)",
+				"NoPet": true
+			},
 			"Slay an ~|infernal mage|~": {
 				"Level": 45,
 				"Monsters": ["Infernal Mage"],
@@ -62698,6 +62656,18 @@
 				"Priority": 1,
 				"Source": "drop",
 				"Output": "Airut",
+				"NoPet": true
+			},
+			"Slay an ~|airut|~ while on task": {
+				"Level": 92,
+				"Monsters": ["Airut"],
+				"Tasks": {
+					"Airut task": "Nonskill"
+				},
+				"Primary": false,
+				"Priority": 1,
+				"Source": "drop",
+				"Output": "Airut (task)",
 				"NoPet": true
 			},
 			"Slay a ~|Nodon hunter|~": {
@@ -71471,13 +71441,6 @@
 				"Output": "Magic logs (noted)",
 				"Primary": true,
 				"Priority": 3
-			},
-			"Cut overgrown remnants in ~|Anima Islands|~": {
-				"Category": ["DnD Skilling"],
-				"Chunks": ["12335"],
-				"Level": 1,
-				"Primary": true,
-				"Priority": 14
 			},
 			"Finish the Phase 2 Evil Bloodwood Tree ~|Wilderness Flash Event|~": {
 				"Category": ["DnD Skilling", "DnD Flash Events", "DnD"],
@@ -92439,7 +92402,7 @@
 				"XpReward": {
 					"Prayer": 250
 				},
-				"Reward": ["Citharede hood", "Citharede robe top", "Citharede robe bottom", "Citharede symbol"]
+				"Reward": ["Citharede hood", "Citharede robe top", "Citharede robe bottom", "Citharede symbol", "Sacrifice ability", "Devotion ability", "Transfigure ability"]
 			},
 			"~|One Small Favour|~ 1": {
 				"BaseQuest": "One Small Favour",
@@ -124031,7 +123994,7 @@
 				"Category": ["Comp achievements", "Trim achievements"],
 				"Description": "Unlock the Mazcab Teleport spell.",
 				"BaseQuest": "Completionist achievements",
-				"Items": ["Mazcab ability codex"],
+				"Items": ["Mazcab teleport codex"],
 				"Not F2P": true
 			},
 			"~|Completionist achievements#Trimmed Completionist Cape|~ Memorialised More Than Once": {
@@ -124446,176 +124409,7 @@
 				"Category": ["Comp achievements", "Trim achievements"],
 				"Description": "Fully complete the slayer codex.",
 				"BaseQuest": "Completionist achievements",
-				"Items": ["Ushabti (profane scabarite)",
-				"Ushabti (armoured phantom)",
-				"Ushabti (risen ghost)",
-				"Ushabti (bound skeleton)",
-				"Ushabti (fetid zombie)",
-				"Ushabti (abyssal lord)",
-				"Ushabti (abyssal beast)",
-				"Ushabti (abyssal savage)",
-				"Ushabti (Nodon)",
-				"Ushabti (cockroach)",
-				"Ushabti (liverwort)",
-				"Ushabti (luminous snaggler)",
-				"Ushabti (devil's snare)",
-				"Ushabti (lampenflora)",
-				"Ushabti (ripper dinosaur)",
-				"Ushabti (venomous dinosaur)",
-				"Ushabti (brutish dinosaur)",
-				"Ushabti (feral dinosaur)",
-				"Ushabti (revenant)",
-				"Ushabti (soulgazer)",
-				"Ushabti (seeker)",
-				"Ushabti (vinecrawler)",
-				"Ushabti (bulbous crawler)",
-				"Ushabti (moss golem)",
-				"Ushabti (imperial guard akh)",
-				"Ushabti (scarab akh)",
-				"Ushabti (crocodile akh)",
-				"Ushabti (gorilla akh)",
-				"Ushabti (feline akh)",
-				"Ushabti (salawa akh)",
-				"Ushabti (corrupted worker)",
-				"Ushabti (corrupted kalphite)",
-				"Ushabti (corrupted dust devil)",
-				"Ushabti (corrupted lizard)",
-				"Ushabti (corrupted scarab)",
-				"Ushabti (corrupted scorpion)",
-				"Ushabti (hydrix dragon)",
-				"Ushabti (onyx dragon)",
-				"Ushabti (dragonstone dragon)",
-				"Ushabti (nightmare)",
-				"Ushabti (chaos giant)",
-				"Ushabti (acheron mammoth)",
-				"Ushabti (camel warrior)",
-				"Ushabti (ripper demon)",
-				"Ushabti (wyvern)",
-				"Ushabti (crystal shapeshifter)",
-				"Ushabti (rune dragon)",
-				"Ushabti (adamant dragon)",
-				"Ushabti (lava strykewyrm)",
-				"Ushabti (shadow creature)",
-				"Ushabti (edimmu)",
-				"Ushabti (tormented demon)",
-				"Ushabti (glacor)",
-				"Ushabti (kal'gerion demon)",
-				"Ushabti (nihil)",
-				"Ushabti (muspah)",
-				"Ushabti (celestial dragon)",
-				"Ushabti (airut)",
-				"Ushabti (pig)",
-				"Ushabti (ascension creature)",
-				"Ushabti (aviansie)",
-				"Ushabti (automaton)",
-				"Ushabti (grotworm)",
-				"Ushabti (gelatinous abomination)",
-				"Ushabti (vyrewatch)",
-				"Ushabti (mutated jadinko)",
-				"Ushabti (cyclops)",
-				"Ushabti (living rock creature)",
-				"Ushabti (ice strykewyrm)",
-				"Ushabti (desert strykewyrm)",
-				"Ushabti (jungle strykewyrm)",
-				"Ushabti (fungal mage)",
-				"Ushabti (grifolaroo)",
-				"Ushabti (grifolapine)",
-				"Ushabti (ganodermic beast)",
-				"Ushabti (aquanite)",
-				"Ushabti (mithril dragon)",
-				"Ushabti (warped terrorbird)",
-				"Ushabti (warped tortoise)",
-				"Ushabti (spiritual mage)",
-				"Ushabti (spiritual ranger)",
-				"Ushabti (spiritual warrior)",
-				"Ushabti (waterfiend)",
-				"Ushabti (molanisk)",
-				"Ushabti (terror dog)",
-				"Ushabti (scabarite)",
-				"Ushabti (brine rat)",
-				"Ushabti (suqah)",
-				"Ushabti (gorak)",
-				"Ushabti (jungle horror)",
-				"Ushabti (cave horror)",
-				"Ushabti (ankou)",
-				"Ushabti (catablepon)",
-				"Ushabti (flesh crawler)",
-				"Ushabti (minotaur)",
-				"Ushabti (icefiend)",
-				"Ushabti (mutated zygomite)",
-				"Ushabti (killerwatt)",
-				"Ushabti (Skeletal Wyvern)",
-				"Ushabti (sea snake)",
-				"Ushabti (harpie bug swarm)",
-				"Ushabti (fever spider)",
-				"Ushabti (lizard)",
-				"Ushabti (mogre)",
-				"Ushabti (dark beast)",
-				"Ushabti (crocodile)",
-				"Ushabti (shade)",
-				"Ushabti (cave bug)",
-				"Ushabti (cave slime)",
-				"Ushabti (wall beast)",
-				"Ushabti (steel dragon)",
-				"Ushabti (iron dragon)",
-				"Ushabti (bronze dragon)",
-				"Ushabti (dwarf)",
-				"Ushabti (elf)",
-				"Ushabti (otherworldly being)",
-				"Ushabti (earth warrior)",
-				"Ushabti (kalphite)",
-				"Ushabti (nechryael)",
-				"Ushabti (rock slug)",
-				"Ushabti (jelly)",
-				"Ushabti (dust devil)",
-				"Ushabti (bloodveld)",
-				"Ushabti (pyrefiend)",
-				"Ushabti (gargoyle)",
-				"Ushabti (kurask)",
-				"Ushabti (cockatrice)",
-				"Ushabti (basilisk)",
-				"Ushabti (abyssal demon)",
-				"Ushabti (aberrant spectre)",
-				"Ushabti (infernal mage)",
-				"Ushabti (crawling hand)",
-				"Ushabti (banshee)",
-				"Ushabti (cave crawler)",
-				"Ushabti (turoth)",
-				"Ushabti (dagannoth)",
-				"Ushabti (vampyre)",
-				"Ushabti (werewolf)",
-				"Ushabti (shadow warrior)",
-				"Ushabti (hellhound)",
-				"Ushabti (black demon)",
-				"Ushabti (greater demon)",
-				"Ushabti (lesser demon)",
-				"Ushabti (black dragon)",
-				"Ushabti (red dragon)",
-				"Ushabti (blue dragon)",
-				"Ushabti (green dragon)",
-				"Ushabti (ghoul)",
-				"Ushabti (dog)",
-				"Ushabti (hobgoblin)",
-				"Ushabti (ogre)",
-				"Ushabti (ice warrior)",
-				"Ushabti (troll)",
-				"Ushabti (moss giant)",
-				"Ushabti (fire giant)",
-				"Ushabti (ice giant)",
-				"Ushabti (hill giant)",
-				"Ushabti (bear)",
-				"Ushabti (ghost)",
-				"Ushabti (skeleton)",
-				"Ushabti (zombie)",
-				"Ushabti (wolf)",
-				"Ushabti (bat)",
-				"Ushabti (scorpion)",
-				"Ushabti (cow)",
-				"Ushabti (chicken)",
-				"Ushabti (spider)",
-				"Ushabti (rat)",
-				"Ushabti (goblin)",
-				"Ushabti (monkey)"],
+				"Items": ["Filled Ushabti[+]x172"],
 				"Skills": {
 					"Slayer": 115
 				},
@@ -125993,7 +125787,7 @@
 				"Skills": {
 					"Constitution": 50
 				},
-				"Items": ["Tuska's Wrath ability"]
+				"Items": ["Tuska's Wrath ability codex"]
 			},
 			"(Constitution) Unlock the ~|Storm Shards|~ and Shatter abilities": {
 				"Category": ["Unlock Abilities"],
@@ -126001,7 +125795,7 @@
 				"Skills": {
 					"Constitution": 70
 				},
-				"Items": ["Mazcab ability codex"]
+				"Items": ["Storm Shards and Shatter ability codex"]
 			},
 			"(Constitution) Unlock the ~|Guthix's Blessing|~ ability": {
 				"Category": ["Unlock Abilities"],
@@ -126027,7 +125821,7 @@
 				"Skills": {
 					"Constitution": 90
 				},
-				"Items": ["Mazcab ability codex"]
+				"Items": ["Onslaught ability codex"]
 			},
 			"(Constitution) Unlock the ~|Ice Asylum|~ ability": {
 				"Category": ["Unlock Abilities"],
@@ -126106,7 +125900,7 @@
 				"Skills": {
 					"Magic": 70
 				},
-				"Items": ["Mazcab ability codex"]
+				"Items": ["Corruption Blast ability codex"]
 			},	
 			"(Magic) Unlock the ~|Smoke Tendrils|~ ability": {
 				"Category": ["Unlock Abilities"],
@@ -126423,7 +126217,7 @@
 				"Skills": {
 					"Ranged": 70
 				},
-				"Items": ["Mazcab ability codex"]
+				"Items": ["Corruption Shot ability codex"]
 			},
 			"(Ranged) Unlock the ~|Shadow Tendrils|~ ability": {
 				"Category": ["Unlock Abilities"],
@@ -127564,6 +127358,11 @@
 				"Category": ["Collection Log", "Slayer Collection Log"],
 				"Label": "Slayer Collection Log",
 				"Items": ["Kethsi outfit scroll"]
+			},
+			"(Other Worlds) Obtain a ~|Tuska's Wrath ability codex|~": {
+				"Category": ["Collection Log", "Slayer Collection Log"],
+				"Label": "Slayer Collection Log",
+				"Items": ["Tuska's Wrath ability codex"]
 			},
 			"(Senntisten) Obtain a ~|dwarf multicannon upgrade kit|~": {
 				"Category": ["Collection Log", "Slayer Collection Log"],
@@ -129452,7 +129251,8 @@
 			"(Liberation of Mazcab) Obtain the ~|Mazcab ability codex|~": {
 				"Category": ["Collection Log", "Boss Collection Log"],
 				"Label": "Boss Collection Log",
-				"Items": ["Mazcab ability codex"]
+				"Items": ["Mazcab ability codex"],
+				"Monsters": ["Beastmaster Durzag"]
 			},
 			"(Liberation of Mazcab) Obtain ~|Lil' Tuzzy|~": {
 				"Category": ["Collection Log", "Boss Collection Log", "Pets"],
@@ -132583,6 +132383,121 @@
 				"Category": ["Untracked Uniques", "Untracked Uniques Combat"],
 				"Label": "Untracked Combat Uniques",
 				"Items": ["Ghost hunter backpack"]
+			},
+			"(Mazcab) Obtain a ~|warpriest of Tuska helm|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Minigames"],
+				"Label": "Untracked Combat Uniques",
+				"Items": ["Warpriest of Tuska helm"]
+			},
+			"(Mazcab) Obtain a ~|warpriest of Tuska cuirass|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Combat"],
+				"Label": "Untracked Combat Uniques",
+				"Items": ["Warpriest of Tuska cuirass"]
+			},
+			"(Mazcab) Obtain ~|warpriest of Tuska robe legs|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Combat"],
+				"Label": "Untracked Combat Uniques",
+				"Items": ["Warpriest of Tuska robe legs"]
+			},
+			"(Mazcab) Obtain ~|warpriest of Tuska gauntlets|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Combat"],
+				"Label": "Untracked Combat Uniques",
+				"Items": ["Warpriest of Tuska gauntlets"]
+			},
+			"(Mazcab) Obtain ~|warpriest of Tuska boots|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Combat"],
+				"Label": "Untracked Combat Uniques",
+				"Items": ["Warpriest of Tuska boots"]
+			},
+			"(Mazcab) Obtain a ~|warpriest of Tuska cape|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Combat"],
+				"Label": "Untracked Combat Uniques",
+				"Items": ["Warpriest of Tuska cape"]
+			},
+			"(Mazcab) Obtain a ~|Tuska (Saradomin) spear|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Combat"],
+				"Label": "Untracked Combat Uniques",
+				"Items": ["Saradomin Spear override"]
+			},
+			"(Mazcab) Obtain a ~|Tuska (Armadyl) spear|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Combat"],
+				"Label": "Untracked Combat Uniques",
+				"Items": ["Armadyl Spear override"]
+			},
+			"(Mazcab) Obtain a ~|Tuska (Zamorak) spear|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Combat"],
+				"Label": "Untracked Combat Uniques",
+				"Items": ["Zamorak Spear override"]
+			},
+			"(Mazcab) Obtain a ~|Tuska (Godless) spear|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Combat"],
+				"Label": "Untracked Combat Uniques",
+				"Items": ["Godless Spear override"]
+			},
+			"(Mazcab) Obtain a ~|calibration device|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Combat"],
+				"Label": "Untracked Combat Uniques",
+				"Items": ["Calibration Device"]
+			},
+			"(War's Retreat) Obtain the ~|vampyrism aura|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Combat"],
+				"Label": "Untracked Combat Uniques",
+				"Chunks": ["War's Retreat"],
+				"Monsters": ["AnyBoss[+]"]
+			},
+			"(War's Retreat) Obtain the ~|dark magic aura|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Combat"],
+				"Label": "Untracked Combat Uniques",
+				"Chunks": ["War's Retreat"],
+				"Monsters": ["AnyBoss[+]"]
+			},
+			"(War's Retreat) Obtain the ~|berserker aura|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Combat"],
+				"Label": "Untracked Combat Uniques",
+				"Chunks": ["War's Retreat"],
+				"Monsters": ["AnyBoss[+]"]
+			},
+			"(War's Retreat) Obtain the ~|reckless aura|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Combat"],
+				"Label": "Untracked Combat Uniques",
+				"Chunks": ["War's Retreat"],
+				"Monsters": ["AnyBoss[+]"]
+			},
+			"(War's Retreat) Obtain the ~|maniacal aura|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Combat"],
+				"Label": "Untracked Combat Uniques",
+				"Chunks": ["War's Retreat"],
+				"Monsters": ["AnyBoss[+]"]
+			},
+			"(Soul Reaper) Obtain ~|death notes|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Combat"],
+				"Label": "Untracked Combat Uniques",
+				"Chunks": ["Death's Office"],
+				"Monsters": ["AnyBoss[+]"]
+			},
+			"(Soul Reaper) Obtain an ~|incomplete hydrix|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Combat"],
+				"Label": "Untracked Combat Uniques",
+				"Chunks": ["Death's Office"],
+				"Monsters": ["AnyBoss[+]"]
+			},
+			"(Soul Reaper) Obtain the ~|mahjarrat aura|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Combat"],
+				"Label": "Untracked Combat Uniques",
+				"Chunks": ["Death's Office"],
+				"Monsters": ["AnyBoss[+]"]
+			},
+			"(Soul Reaper) Obtain the ~|Death Scythe|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Combat"],
+				"Label": "Untracked Combat Uniques",
+				"Chunks": ["Death's Office"],
+				"Monsters": ["AnyBoss[+]"]
+			},
+			"(Soul Reaper) Obtain ~|Tiny Death|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Combat", "Pets"],
+				"Label": "Untracked Combat Uniques",
+				"Chunks": ["Death's Office"],
+				"Monsters": ["AnyBoss[+]"]
 			},
 			"(Temple of Aminishi) Obtain a ~|tetsu sword upgrade kit|~": {
 				"Category": ["Untracked Uniques", "Untracked Uniques Combat"],
@@ -135924,61 +135839,6 @@
 				"Label": "Untracked Minigame Uniques",
 				"Chunks": ["Player-Owned Port"]
 			},
-			"(Anima Islands) Obtain a ~|warpriest of Tuska helm|~": {
-				"Category": ["Untracked Uniques", "Untracked Uniques Minigames"],
-				"Label": "Untracked Minigame Uniques",
-				"Items": ["Warpriest of Tuska helm"]
-			},
-			"(Anima Islands) Obtain a ~|warpriest of Tuska cuirass|~": {
-				"Category": ["Untracked Uniques", "Untracked Uniques Minigames"],
-				"Label": "Untracked Minigame Uniques",
-				"Items": ["Warpriest of Tuska cuirass"]
-			},
-			"(Anima Islands) Obtain ~|warpriest of Tuska robe legs|~": {
-				"Category": ["Untracked Uniques", "Untracked Uniques Minigames"],
-				"Label": "Untracked Minigame Uniques",
-				"Items": ["Warpriest of Tuska robe legs"]
-			},
-			"(Anima Islands) Obtain ~|warpriest of Tuska gauntlets|~": {
-				"Category": ["Untracked Uniques", "Untracked Uniques Minigames"],
-				"Label": "Untracked Minigame Uniques",
-				"Items": ["Warpriest of Tuska gauntlets"]
-			},
-			"(Anima Islands) Obtain ~|warpriest of Tuska boots|~": {
-				"Category": ["Untracked Uniques", "Untracked Uniques Minigames"],
-				"Label": "Untracked Minigame Uniques",
-				"Items": ["Warpriest of Tuska boots"]
-			},
-			"(Anima Islands) Obtain a ~|warpriest of Tuska cape|~": {
-				"Category": ["Untracked Uniques", "Untracked Uniques Minigames"],
-				"Label": "Untracked Minigame Uniques",
-				"Items": ["Warpriest of Tuska cape"]
-			},
-			"(Anima Islands) Obtain a ~|Tuska (Saradomin) spear|~": {
-				"Category": ["Untracked Uniques", "Untracked Uniques Minigames"],
-				"Label": "Untracked Minigame Uniques",
-				"Items": ["Saradomin Spear override"]
-			},
-			"(Anima Islands) Obtain a ~|Tuska (Armadyl) spear|~": {
-				"Category": ["Untracked Uniques", "Untracked Uniques Minigames"],
-				"Label": "Untracked Minigame Uniques",
-				"Items": ["Armadyl Spear override"]
-			},
-			"(Anima Islands) Obtain a ~|Tuska (Zamorak) spear|~": {
-				"Category": ["Untracked Uniques", "Untracked Uniques Minigames"],
-				"Label": "Untracked Minigame Uniques",
-				"Items": ["Zamorak Spear override"]
-			},
-			"(Anima Islands) Obtain a ~|Tuska (Godless) spear|~": {
-				"Category": ["Untracked Uniques", "Untracked Uniques Minigames"],
-				"Label": "Untracked Minigame Uniques",
-				"Items": ["Godless Spear override"]
-			},
-			"(Anima Islands) Obtain a ~|calibration device|~": {
-				"Category": ["Untracked Uniques", "Untracked Uniques Minigames"],
-				"Label": "Untracked Minigame Uniques",
-				"Items": ["Calibration device"]
-			},
 			"(Fish Flingers) Obtain a ~|fishing hat|~": {
 				"Category": ["Untracked Uniques", "Untracked Uniques Minigames"],
 				"Label": "Untracked Minigame Uniques",
@@ -136935,66 +136795,6 @@
 				"Category": ["Untracked Uniques", "Untracked Uniques Misc"],
 				"Label": "Untracked Misc Uniques",
 				"Monsters": ["Chompy bird"]
-			},
-			"(War's Retreat) Obtain the ~|vampyrism aura|~": {
-				"Category": ["Untracked Uniques", "Untracked Uniques Misc"],
-				"Label": "Untracked Misc Uniques",
-				"Chunks": ["War's Retreat"],
-				"Monsters": ["AnyBoss[+]"]
-			},
-			"(War's Retreat) Obtain the ~|dark magic aura|~": {
-				"Category": ["Untracked Uniques", "Untracked Uniques Misc"],
-				"Label": "Untracked Misc Uniques",
-				"Chunks": ["War's Retreat"],
-				"Monsters": ["AnyBoss[+]"]
-			},
-			"(War's Retreat) Obtain the ~|berserker aura|~": {
-				"Category": ["Untracked Uniques", "Untracked Uniques Misc"],
-				"Label": "Untracked Misc Uniques",
-				"Chunks": ["War's Retreat"],
-				"Monsters": ["AnyBoss[+]"]
-			},
-			"(War's Retreat) Obtain the ~|reckless aura|~": {
-				"Category": ["Untracked Uniques", "Untracked Uniques Misc"],
-				"Label": "Untracked Misc Uniques",
-				"Chunks": ["War's Retreat"],
-				"Monsters": ["AnyBoss[+]"]
-			},
-			"(War's Retreat) Obtain the ~|maniacal aura|~": {
-				"Category": ["Untracked Uniques", "Untracked Uniques Misc"],
-				"Label": "Untracked Misc Uniques",
-				"Chunks": ["War's Retreat"],
-				"Monsters": ["AnyBoss[+]"]
-			},
-			"(Soul Reaper) Obtain ~|death notes|~": {
-				"Category": ["Untracked Uniques", "Untracked Uniques Misc"],
-				"Label": "Untracked Misc Uniques",
-				"Chunks": ["Death's Office"],
-				"Monsters": ["AnyBoss[+]"]
-			},
-			"(Soul Reaper) Obtain an ~|incomplete hydrix|~": {
-				"Category": ["Untracked Uniques", "Untracked Uniques Misc"],
-				"Label": "Untracked Misc Uniques",
-				"Chunks": ["Death's Office"],
-				"Monsters": ["AnyBoss[+]"]
-			},
-			"(Soul Reaper) Obtain the ~|mahjarrat aura|~": {
-				"Category": ["Untracked Uniques", "Untracked Uniques Misc"],
-				"Label": "Untracked Misc Uniques",
-				"Chunks": ["Death's Office"],
-				"Monsters": ["AnyBoss[+]"]
-			},
-			"(Soul Reaper) Obtain the ~|Death Scythe|~": {
-				"Category": ["Untracked Uniques", "Untracked Uniques Misc"],
-				"Label": "Untracked Misc Uniques",
-				"Chunks": ["Death's Office"],
-				"Monsters": ["AnyBoss[+]"]
-			},
-			"(Soul Reaper) Obtain ~|Tiny Death|~": {
-				"Category": ["Untracked Uniques", "Untracked Uniques Misc", "Pets"],
-				"Label": "Untracked Misc Uniques",
-				"Chunks": ["Death's Office"],
-				"Monsters": ["AnyBoss[+]"]
 			},
 			"(Dig Site Finds) Obtain ~|pottery|~": {
 				"Category": ["Untracked Uniques", "Untracked Uniques Misc"],
@@ -138043,7 +137843,7 @@
 				"Category": ["Slayer Souls"],
 				"Label": "Slayer Codex",
 				"Items": ["Ushabti"],
-				"Monster": ["Ghoul Souls[+]"],
+				"Monster": ["Ghoul"],
 				"Output": "Ushabti (ghoul)",
 				"Not F2P": true
 			},
@@ -139534,6 +139334,22 @@
 					"Slayer": 87
 				},
 				"Output": "Ushabti (profane scabarite)",
+				"Not F2P": true
+			},
+			"Collect a ~|ravenous ghoul|~ soul": {
+				"Category": ["Slayer Souls"],
+				"Label": "Slayer Codex",
+				"Items": ["Ushabti"],
+				"Monster": ["Ravenous ghoul"],
+				"Output": "Ushabti (ravenous ghoul)",
+				"Not F2P": true
+			},
+			"Collect a ~|beastmaster's hound|~ soul": {
+				"Category": ["Slayer Souls"],
+				"Label": "Slayer Codex",
+				"Items": ["Ushabti"],
+				"Monster": ["Beastmaster's hound"],
+				"Output": "Ushabti (beastmaster's hound)",
 				"Not F2P": true
 			},
 			"Obtain ~|Remy|~": {
@@ -145244,7 +145060,6 @@
 				"UnlocksArea": true
 			},
 			"Mazcab": {
-				"Chunks": ["12334"],
 				"UnlocksArea": true
 			},
 			"Ripper Demon cave": {
@@ -145516,7 +145331,7 @@
 			"Senntisten sewers": {
 				"UnlocksArea": true
 			},
-			"Secondary effigies": {
+			"Universal tertiary": {
 				"Category": ["Secondary Effigies"]
 			},
 			"Obtain duck food*": {
@@ -148130,12 +147945,6 @@
 				"Output": "The Pit rewards",
 				"Not F2P": true
 			},
-			"Anima Islands titles*": {
-				"Category": ["DnD"],
-				"Chunks": ["12335"],
-				"Output": "Anima Islands rewards",
-				"Not F2P": true
-			},
 			"Circus rewards*": {
 				"Category": ["DnD"],
 				"Chunks": ["Balthazar Beauregard's Big Top Bonanza"],
@@ -148753,6 +148562,12 @@
 				},
 				"Not F2P": true
 			},
+			"Beastmaster's hound task": {
+				"Tasks": {
+					"MazchnaChaeldarSumonaMaster[+]": "Slayer"
+				},
+				"Not F2P": true
+			},
 			"Order of Ascension task": {
 				"Tasks": {
 					"DuradelBetterMaster[+]": "Slayer"
@@ -148955,6 +148770,34 @@
 				"Items": ["Lucky charm (Shadow Reef)"],
 				"Chunks": ["The Shadow Reef"],
 				"Output": "Lucky charm (Shadow Reef) loot"
+			},
+			"Obtain teci*": {
+				"Items": ["Teci"]
+			},
+			"Imbue a ring of fortune*": {
+				"Items": ["Ring of fortune", "Teci"],
+				"Chunks": ["Mazcab"],
+				"Output": "Ring of fortune (i)"
+			},
+			"Imbue a luck of the dwarves*": {
+				"Items": ["Luck of the dwarves", "Teci"],
+				"Chunks": ["Mazcab"],
+				"Output": "Luck of the dwarves (i)"
+			},
+			"Imbue a Hazelmere's signet ring*": {
+				"Items": ["Hazelmere's signet ring", "Teci"],
+				"Chunks": ["Mazcab"],
+				"Output": "Hazelmere's signet ring (i)"
+			},
+			"Imbue a ring of death*": {
+				"Items": ["Ring of death", "Teci"],
+				"Chunks": ["Mazcab"],
+				"Output": "Ring of death (i)"
+			},
+			"Imbue a ssylum surgeon's ring*": {
+				"Items": ["Asylum surgeon's ring", "Teci"],
+				"Chunks": ["Mazcab"],
+				"Output": "Asylum surgeon's ring (i)"
 			}
 		}
 	},
@@ -149119,24 +148962,6 @@
 		"271": {
 			"Object": {
 				"Portal": 1
-			}
-		},
-		"1287": {
-			"Object": {
-				"Bank chest": 1,
-				"Space": 2
-			},
-			"NPC": {
-				"Scopulus": 1,
-				"Moia": 1,
-				"Kamiee": 1,
-				"Bree": 1,
-				"Wizard Chambers": 1,
-				"Parasite": 16
-			},
-			"Shop": {
-				"Tuska Comes/Rewards": true,
-				"Anima Islands Rewards": true
 			}
 		},
 		"1288": {
@@ -166544,10 +166369,10 @@
 			"Nickname": "Sunken Pyramid"
 		},
 		"12076": {
-			"Nickname": "South-West Desert Peninsula"
+			"Nickname": "Goebie Settlement Corner"
 		},
 		"12077": {
-			"Nickname": "North-West Desert Peninsula"
+			"Nickname": "West of Goebie Settlement"
 		},
 		"12078": {
 			"Object": {
@@ -167681,41 +167506,32 @@
 			"Nickname": "Menaphos Worker District Beach"
 		},
 		"12332": {
-			"Nickname": "Peninsula Entrance"
-		},
-		"12333": {
-			"Nickname": "Tuska's Head"
-		},
-		"12334": {
+			"Quest": {
+				"Call of the Ancestors": "first"
+			},
 			"Object": {
 				"World window": 1
-			},
-			"Connect": {
-				"17164": true
-			},
-			"Nickname": "Tuska's Back South"
-		},
-		"12335": {
-			"Object": {
-				"Bank chest": 1,
-				"Water": 2,
-				"Magical barrier": 1,
-				"Crashed star": 1
 			},
 			"NPC": {
 				"Wizard Chambers": 1,
 				"Scopulus": 1,
 				"Garlandia": 1,
 				"Kara-Meir": 1,
-				"Tunks": 1
+				"Tunks": 1,
+				"Acca Gielinor": 1,
+				"Goebie": 4,
+				"Malcolm": 1
 			},
-			"Quest": {
-				"Call of the Ancestors": "first"
+			"Connect": {
+				"17164": true
 			},
-			"Shop": {
-				"Anima Islands Rewards": true
-			},
-			"Nickname": "Tuska's Back North"
+			"Nickname": "Goebie Settlement"
+		},
+		"12333": {
+			"Nickname": "North of Goebie Settlement"
+		},
+		"12335": {
+			"Nickname": "RIP Anima Islands"
 		},
 		"12336": {
 			"Nickname": "South of Wizard Tower"
@@ -172871,12 +172687,6 @@
 			"Monster": {
 				"Dried zombie": 9,
 				"Skeleton (Ullek)": 11
-			},
-			"NPC": {
-				"Goebie": 4,
-				"Acca Gielinor": 1,
-				"Tunks": 1,
-				"Malcolm": 1
 			},
 			"Connect": {
 				"13712": true,
@@ -191282,12 +191092,13 @@
 			},
 			"Monster": {
 				"Airut": 20,
+				"Beastmaster's hound": 15,
 				"Beastmaster Durzag": 1,
 				"Yakamaru": 1
 			},
 			"Connect": {
 				"7503": true,
-				"12334": true
+				"12332": true
 			},
 			"Quest": {
 				"Benedict's World Tour (miniquest)": "step",
@@ -198512,6 +198323,8 @@
 				"Elder rune mattock"
 			],
 			"Filled Ushabti[+]": [
+				"Ushabti (beastmaster's hound)",
+				"Ushabti (ravenous ghoul)",
 				"Ushabti (profane scabarite)",
 				"Ushabti (armoured phantom)",
 				"Ushabti (risen ghost)",
@@ -199787,10 +199600,6 @@
 				"Shadow Hound",
 				"Wild dog"
 			],
-			"Ghoul Souls[+]": [
-				"Ghoul",
-				"Ravenous ghoul"
-			],
 			"Hellhound Souls[+]": [
 				"Hellhound",
 				"Hellhound (God Wars Dungeon)",
@@ -200042,7 +199851,6 @@
 			"Troll Souls[+]": "Any troll variant that may fill an ushabti",
 			"Ogre Souls[+]": "Any ogre variant that may fill an ushabti",
 			"Dog Souls[+]": "Any dog variant that may fill an ushabti",
-			"Ghoul Souls[+]": "Any ghoul variant that may fill an ushabti",
 			"Hellhound Souls[+]": "Any hellhound variant that may fill an ushabti",
 			"Werewolf Souls[+]": "Any werewolf variant that may fill an ushabti",
 			"Vampyre Souls[+]": "Any (feral) vampyre variant that may fill an ushabti",
@@ -200705,6 +200513,9 @@
 				"Grizzly bear cub": true,
 				"Grizzly bear": true,
 				"Angry bear": true
+			},
+			"Beastmaster's hounds": {
+				"Beastmaster's hound": true
 			},
 			"Birds": {
 				"Pekin": true,
@@ -201870,8 +201681,7 @@
 			"Reward Shop (Soul Wars)": true,
 			"Shattered Worlds Reward Shop":true,
 			"Artisans' Workshop Reward Shop": true,
-			"The Effigy Incubator Reward Shop": true,
-			"Anima Islands Rewards": true
+			"The Effigy Incubator Reward Shop": true
 		},
 		"boostItems": {
 			"Agility": {
@@ -205397,15 +205207,6 @@
 			"Frozen key piece (Armadyl)": {
 				"1": "1/25"
 			},
-			"Sacrifice ability": {
-				"1": "1/128"
-			},
-			"Devotion ability": {
-				"1": "1/128"
-			},
-			"Transfigure ability": {
-				"1": "1/128"
-			},
 			"Bone fragments": {
 				"1": "1/150"
 			},
@@ -207826,7 +207627,7 @@
 				"5000": "Always"
 			},
 			"Greater Barge ability codex": {
-				"1": "10/1000"
+				"1": "1/83"
 			},
 			"Draconic energy": {
 				"4-8": "505/1000",
@@ -213509,15 +213310,6 @@
 			},
 			"Starved ancient effigy": {
 				"1": "Very rare"
-			},
-			"Sacrifice ability": {
-				"1": "1/128"
-			},
-			"Devotion ability": {
-				"1": "1/128"
-			},
-			"Transfigure ability": {
-				"1": "1/128"
 			},
 			"GemDropTable+": {
 				"1": "2/100"
@@ -219952,15 +219744,6 @@
 			"Warpriest of Bandos cape": {
 				"1": "1/128"
 			},
-			"Sacrifice ability": {
-				"1": "1/128"
-			},
-			"Devotion ability": {
-				"1": "1/128"
-			},
-			"Transfigure ability": {
-				"1": "1/128"
-			},
 			"Spirit sapphire": {
 				"1": "5/2000"
 			},
@@ -220100,15 +219883,6 @@
 				"1": "1/128"
 			},
 			"Warpriest of Bandos cape": {
-				"1": "1/128"
-			},
-			"Sacrifice ability": {
-				"1": "1/128"
-			},
-			"Devotion ability": {
-				"1": "1/128"
-			},
-			"Transfigure ability": {
 				"1": "1/128"
 			},
 			"Spirit sapphire": {
@@ -222729,15 +222503,6 @@
 				"1": "1/768"
 			},
 			"Sealed clue scroll (easy)": {
-				"1": "1/128"
-			},
-			"Sacrifice ability": {
-				"1": "1/128"
-			},
-			"Devotion ability": {
-				"1": "1/128"
-			},
-			"Transfigure ability": {
 				"1": "1/128"
 			},
 			"Goblin Champion's scroll": {
@@ -226489,15 +226254,6 @@
 			"Starved ancient effigy": {
 				"1": "1/22222"
 			},
-			"Sacrifice ability": {
-				"1": "1/128"
-			},
-			"Devotion ability": {
-				"1": "1/128"
-			},
-			"Transfigure ability": {
-				"1": "1/128"
-			},
 			"Mimic kill token": {
 				"1": "1/9909"
 			},
@@ -229449,15 +229205,6 @@
 			"Starved ancient effigy": {
 				"1": "1/24337"
 			},
-			"Sacrifice ability": {
-				"1": "1/128"
-			},
-			"Devotion ability": {
-				"1": "1/128"
-			},
-			"Transfigure ability": {
-				"1": "1/128"
-			},
 			"Mimic kill token": {
 				"1": "1/9914"
 			},
@@ -231388,15 +231135,6 @@
 			"Armadyl's Assault": {
 				"1": "1/64"
 			},
-			"Sacrifice ability": {
-				"1": "128"
-			},
-			"Devotion ability": {
-				"1": "128"
-			},
-			"Transfigure ability": {
-				"1": "128"
-			},
 			"Giant feather": {
 				"1": "1/5000"
 			},
@@ -231542,15 +231280,6 @@
 			},
 			"Armadyl's Assault": {
 				"1": "1/64"
-			},
-			"Sacrifice ability": {
-				"1": "Rare"
-			},
-			"Devotion ability": {
-				"1": "Rare"
-			},
-			"Transfigure ability": {
-				"1": "Rare"
 			},
 			"Giant feather": {
 				"1": "1/1000"
@@ -236380,15 +236109,6 @@
 			"Frozen key piece (Bandos)": {
 				"1": "1/25"
 			},
-			"Sacrifice ability": {
-				"1": "1/128"
-			},
-			"Devotion ability": {
-				"1": "1/128"
-			},
-			"Transfigure ability": {
-				"1": "1/128"
-			},
 			"UncommonSeedDropTable+": {
 				"1": "19/128"
 			}
@@ -236963,15 +236683,6 @@
 				"1": "1/128"
 			},
 			"Sealed clue scroll (easy)": {
-				"1": "1/128"
-			},
-			"Sacrifice ability": {
-				"1": "1/128"
-			},
-			"Devotion ability": {
-				"1": "1/128"
-			},
-			"Transfigure ability": {
 				"1": "1/128"
 			},
 			"Frozen key piece (Bandos)": {
@@ -255909,7 +255620,19 @@
 				"Unlock the ~|Sunken Pyramid|~": "Slayer"
 			}],
 			"Starved ancient effigy^": [{
-				"Effigies": "Nonskill"
+				"Universal tertiary": "Nonskill"
+			}],
+			"Mimic kill token^": [{
+				"Universal tertiary": "Nonskill"
+			}],
+			"Spirit sapphire^": [{
+				"Universal tertiary": "Nonskill"
+			}],
+			"Spirit emerald^": [{
+				"Universal tertiary": "Nonskill"
+			}],
+			"Spirit ruby^": [{
+				"Universal tertiary": "Nonskill"
 			}],
 			"Goliath gloves^": [{
 				"~|Nomad's Requiem|~ Complete the quest": "Quest"
@@ -257148,7 +256871,7 @@
 			},
 			"Raid Rewards": {
 				"Mazcab": [{
-					"Group Content enabled": "Nonskill"
+					"Obtain teci*": "Nonskill"
 				}]
 			},
 			"Reward Shop (Soul Wars)": {
@@ -257468,27 +257191,6 @@
 			"Attuned crystal legs": true,
 			"Attuned crystal gloves": true,
 			"Attuned crystal boots": true
-		},
-		"Anima Islands Rewards":{
-			"Warpriest of Tuska gauntlets": true,
-			"Warpriest of Tuska boots": true,
-			"Warpriest of Tuska cuirass": true,
-			"Warpriest of Tuska robe legs": true,
-			"Warpriest of Tuska helm": true,
-			"Warpriest of Tuska cape": true,
-			"Saradomin Spear override": true,
-			"Armadyl Spear override": true,
-			"Zamorak Spear override": true,
-			"Godless Spear override": true,
-			"Calibration Device": true,
-			"Sacrifice ability": true,
-			"Devotion ability": true,
-			"Transfigure ability": true,
-			"Tuska's Wrath ability": true,
-			"Tuska emote tier 1": true,
-			"Tuska emote tier 2": true,
-			"Tuska emote tier 3": true,
-			"Tuska storm teleport": true
 		},
 		"Archaeology Guild Shop": {
 			"Archaeological soil box": true,
@@ -260968,7 +260670,21 @@
 			"Onslaught ability codex": true,
 			"Mazcab teleport codex": true,
 			"Mazcab ability codex": true,
-			"Liberation of Mazcab reroll token": true
+			"Tuska's Wrath ability codex": true,
+			"Liberation of Mazcab reroll token": true,
+			"Saradomin Spear override": true,
+			"Armadyl Spear override": true,
+			"Zamorak Spear override": true,
+			"Godless Spear override": true,
+			"Calibration Device": true,
+			"Tuska emote tier 1": true,
+			"Tuska emote tier 2": true,
+			"Tuska emote tier 3": true,
+			"Tuska storm teleport": true,
+			"'the Powerful' title": true,
+			"'the Boundless' title": true,
+			"'the Virtuous' title": true,
+			"'the Eternal' title": true
 		},
 		"Ranael's Super Skirt Store": {
 			"Bronze plateskirt": true,
@@ -272759,7 +272475,7 @@
 					"2-4": "21/256"
 				},
 				"Ectoplasm": {
-					"12-24": "144/256"
+					"12-24": "140/256"
 				},
 				"Fragile memento": {
 					"1-2": "15/256"
@@ -272777,7 +272493,10 @@
 					"1": "4/256"
 				},
 				"Spirit memento": {
-					"1": "2/256"
+					"1": "4/256"
+				},
+				"Uncut moonstone": {
+					"1": "4/256"
 				}
 			},
 			"DashingKebbit": {
@@ -277582,6 +277301,9 @@
 				"Razorback gauntlets": {
 					"1": "1/2056"
 				},
+				"Tuska's Wrath ability codex": {
+					"1": "1/1000"
+				},
 				"Grimy irit": {
 					"4 (noted)": "12/400"
 				},
@@ -277630,6 +277352,24 @@
 				"Ferocious ring (5)": {
 					"1": "1/80"
 				},
+				"Warpriest of Tuska gauntlets": {
+					"1": "Rare"
+				},
+				"Warpriest of Tuska boots": {
+					"1": "Rare"
+				},
+				"Warpriest of Tuska cuirass": {
+					"1": "Rare"
+				},
+				"Warpriest of Tuska robe legs": {
+					"1": "Rare"
+				},
+				"Warpriest of Tuska helm": {
+					"1": "Rare"
+				},
+				"Warpriest of Tuska cape": {
+					"1": "Rare"
+				},
 				"Gold charm": {
 					"1": "25.478/1000"
 				},
@@ -277662,6 +277402,11 @@
 				},
 				"RareDropTable+": {
 					"1": "1/150"
+				}
+			},
+			"Airut (task)": {
+				"Tuska's Wrath ability codex": {
+					"1": "1/400"
 				}
 			},
 			"Anagami": {
@@ -278396,6 +278141,88 @@
 			"Basilisk (task)": {
 				"Basilisk boots": {
 					"1": "1/360"
+				}
+			},
+			"Beastmaster's hound": {
+				"Tuska's Wrath ability codex": {
+					"1": "1/1000"
+				},
+				"Cooked eeligator": {
+					"2": "Common"
+				},
+				"Potato cactus": {
+					"1": "Common"
+				},
+				"Coins": {
+					"1100-1400": "Common"
+				},
+				"Adamantite stone spirit": {
+					"2": "Common"
+				},
+				"Luminite stone spirit": {
+					"3": "Common"
+				},
+				"Medium plated mithril salvage": {
+					"1": "Common"
+				},
+				"Small blunt adamant salvage": {
+					"1": "Common"
+				},
+				"Small plated adamant salvage": {
+					"1": "Common"
+				},
+				"Guam seed": {
+					"2": "Common"
+				},
+				"Harralander seed": {
+					"1": "Common"
+				},
+				"Ranarr seed": {
+					"1": "Common"
+				},
+				"Teci": {
+					"2-5": "Very rare"
+				},
+				"Goebie burial charm": {
+					"1": "Very rare"
+				},
+				"Warpriest of Tuska gauntlets": {
+					"1": "Rare"
+				},
+				"Warpriest of Tuska boots": {
+					"1": "Rare"
+				},
+				"Warpriest of Tuska cuirass": {
+					"1": "Rare"
+				},
+				"Warpriest of Tuska robe legs": {
+					"1": "Rare"
+				},
+				"Warpriest of Tuska helm": {
+					"1": "Rare"
+				},
+				"Warpriest of Tuska cape": {
+					"1": "Rare"
+				},
+				"Starved ancient effigy": {
+					"1": "1/38927"
+				},
+				"Mimic kill token": {
+					"1": "1/9932"
+				},
+				"Spirit sapphire": {
+					"1": "1/400"
+				},
+				"Spirit emerald": {
+					"1": "1/667"
+				},
+				"Spirit ruby": {
+					"1": "1/1000"
+				}
+			},
+			"Beastmaster's hound (task)": {
+				"Tuska's Wrath ability codex": {
+					"1": "1/400"
 				}
 			},
 			"Bladed muspah": {
@@ -288201,15 +288028,6 @@
 				"Warpriest of Bandos cape": {
 					"1": "1/768"
 				},
-				"Sacrifice ability": {
-					"1": "1/128"
-				},
-				"Devotion ability": {
-					"1": "1/128"
-				},
-				"Transfigure ability": {
-					"1": "1/128"
-				},
 				"Frozen key piece (Zamorak)": {
 					"1": "1/25"
 				},
@@ -288363,15 +288181,6 @@
 				},
 				"Warpriest of Bandos cape": {
 					"1": "1/768"
-				},
-				"Sacrifice ability": {
-					"1": "1/128"
-				},
-				"Devotion ability": {
-					"1": "1/128"
-				},
-				"Transfigure ability": {
-					"1": "1/128"
 				},
 				"Frozen key piece (Zamorak)": {
 					"1": "1/25"
@@ -288529,15 +288338,6 @@
 				},
 				"Warpriest of Bandos cape": {
 					"1": "1/768"
-				},
-				"Sacrifice ability": {
-					"1": "1/128"
-				},
-				"Devotion ability": {
-					"1": "1/128"
-				},
-				"Transfigure ability": {
-					"1": "1/128"
 				},
 				"Frozen key piece (Zamorak)": {
 					"1": "1/25"
@@ -296725,20 +296525,6 @@
 				},
 				"Blood rune": {
 					"1": "1/2"
-				}
-			},
-			"Anima Islands rewards": {
-				"'The Powerful' title": {
-					"1": "Very rare"
-				},
-				"'The Virtuous' title": {
-					"1": "Very rare"
-				},
-				"'The Eternal' title": {
-					"1": "Very rare"
-				},
-				"'The Boundless' title": {
-					"1": "Very rare"
 				}
 			},
 			"Circus rewards": {
@@ -363558,6 +363344,10 @@
 				"Level": 40,
 				"Weight": 15
 			},
+			"Beastmaster's hounds": {
+				"Level": 43,
+				"Weight": 10
+			},
 			"Bloodveld": {
 				"Level": 50,
 				"Weight": 15
@@ -363676,6 +363466,10 @@
 			"Basilisks": {
 				"Level": 40,
 				"Weight": 15
+			},
+			"Beastmaster's hounds": {
+				"Level": 43,
+				"Weight": 10
 			},
 			"Bloodveld": {
 				"Level": 50,
@@ -363817,6 +363611,10 @@
 			"Basilisks": {
 				"Level": 40,
 				"Weight": 15
+			},
+			"Beastmaster's hounds": {
+				"Level": 43,
+				"Weight": 10
 			},
 			"Black demons": {
 				"Weight": 10
