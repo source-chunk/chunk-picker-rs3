@@ -148798,6 +148798,10 @@
 				"Items": ["Asylum surgeon's ring", "Teci"],
 				"Chunks": ["Mazcab"],
 				"Output": "Asylum surgeon's ring (i)"
+			},
+			"Pick a cabbage*": {
+				"Objects": ["Cabbage"],
+				"Output": "Cabbage"
 			}
 		}
 	},
