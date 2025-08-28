@@ -19979,6 +19979,14 @@
 				"Primary": true,
 				"Priority": 2
 			},
+			"Craft a ~|lapis lazuli ring|~": {
+				"Items": ["Silver bar*", "Lapis lazuli gem*"],
+				"Objects": ["CraftingFurnace[+]"],
+				"Level": 11,
+				"Output": "Lapis lazuli ring",
+				"Primary": true,
+				"Priority": 3
+			},
 			"Create a ~|pyre ship|~": {
 				"Items": ["Logs*", "Mangled bones*"],
 				"Level": 11,

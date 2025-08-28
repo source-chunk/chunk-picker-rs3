@@ -2077,6 +2077,7 @@
   "Craft a ~|wooden cat|~": "t_2075",
   "Craft ~|leather vambraces|~": "t_2076",
   "Craft ~|imphide boots|~": "t_2077",
+  "Craft a ~|lapis lazuli ring|~": "t_111428",
   "Create a ~|pyre ship|~": "t_2078",
   "Create a ~|pyre ship|~ using chewed bones": "t_2079",
   "Create an achey ~|pyre ship|~": "t_2080",
@@ -87546,5 +87547,5 @@
   "Pizazz points: ~|Law rune|~": "t_52855",
   "Pizazz points: ~|Soul rune|~": "t_52856",
   "Pizazz points: ~|Blood rune|~": "t_52857",
-  "currentNextIndex": 111428
+  "currentNextIndex": 111429
 }
