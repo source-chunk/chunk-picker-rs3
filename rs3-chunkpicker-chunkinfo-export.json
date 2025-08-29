@@ -14,7 +14,7 @@
 				"Priority": 2
 			},
 			"Read an agility tome from ~|Temple Trekking|~": {
-				"Category": ["DnD Skilling"],
+				"Category": ["DnD"],
 				"Chunks": ["Temple Trekking Routes"],
 				"Level": 1,
 				"Primary": true,
@@ -11275,14 +11275,14 @@
 				"Priority": 22
 			},
 			"Repair walls in ~|Troll Invasion|~": {
-				"Category": ["DnD Skilling"],
+				"Category": ["DnD"],
 				"Chunks": ["11319"],
 				"Level": 1,
 				"Primary": true,
 				"Priority": 23
 			},
 			"Construct a ~|God Statue|~": {
-				"Category": ["DnD Skilling"],
+				"Category": ["DnD", "Not Daily DnD"],
 				"NPCs": ["Copernicus Glyph"],
 				"Level": 1,
 				"Primary": true,
@@ -19616,7 +19616,6 @@
 				"Priority": 102
 			},
 			"Complete a run through ~|Shifting Tombs|~": {
-				"Category": ["DnD Skilling"],
 				"Chunks": ["Shifting Tombs"],
 				"Tasks": {
 					"Enter a tier one ~|Shifting Tombs|~": "Agility"
@@ -19636,7 +19635,7 @@
 				"Priority": 104
 			},
 			"Repair barricades in ~|Troll Invasion|~": {
-				"Category": ["DnD Skilling"],
+				"Category": ["DnD"],
 				"Chunks": ["11319"],
 				"Level": 1,
 				"Primary": true,
@@ -28117,14 +28116,13 @@
 				"Priority": 12
 			},
 			"Finish the Displaced Energy ~|Wilderness Flash Event|~": {
-				"Category": ["DnD Skilling", "DnD Flash Events", "DnD"],
+				"Category": ["DnD", "DnD Flash Events"],
 				"Chunks": ["11832"],
 				"Level": 1,
 				"Primary": true,
 				"Priority": 14
 			},
 			"Complete a run through ~|Shifting Tombs|~": {
-				"Category": ["DnD Skilling"],
 				"Chunks": ["Shifting Tombs"],
 				"Tasks": {
 					"Enter a tier one ~|Shifting Tombs|~": "Agility"
@@ -28874,7 +28872,7 @@
 				"Priority": 5
 			},
 			"Complete a ~|Guthixian cache|~": {
-				"Category": ["DnD Skilling"],
+				"Category": ["DnD"],
 				"Objects": ["Energy rift"],
 				"Level": 1,
 				"Primary": true,
@@ -29028,7 +29026,7 @@
 				"Priority": 4
 			},
 			"Subdue an ~|enraged automaton|~": {
-				"Category": ["DnD Skilling"],
+				"Category": ["DnD"],
 				"Objects": ["Energy rift"],
 				"Level": 85,
 				"Primary": false,
@@ -29391,7 +29389,7 @@
 				"Priority": 4
 			},
 			"Convert an ~|ancient memory|~": {
-				"Category": ["DnD Skilling"],
+				"Category": ["DnD"],
 				"Objects": ["Energy rift"],
 				"Tasks": {
 					"~|Children of Mah|~ Complete the quest": "Quest"
@@ -29907,7 +29905,7 @@
 				"Priority": 2
 			},
 			"Participate in a ~|sinkhole|~": {
-				"Category": ["DnD Skilling"],
+				"Category": ["DnD"],
 				"Chunks": ["Sinkhole", "13625"],
 				"Level": 1,
 				"Output": "Dungeoneering token",
@@ -30944,7 +30942,7 @@
 				"Priority": 10
 			},
 			"Nurture a ~|normal evil tree|~ sapling": {
-				"Category": ["DnD Skilling"],
+				"Category": ["DnD"],
 				"Objects": ["Evil tree"],
 				"Level": 1,
 				"Primary": true,
@@ -31486,21 +31484,21 @@
 				"Priority": 61
 			},
 			"Finish the Surprising Seedlings ~|Wilderness Flash Event|~": {
-				"Category": ["DnD Skilling", "DnD Flash Events", "DnD"],
+				"Category": ["DnD", "DnD Flash Events"],
 				"Chunks": ["12600"],
 				"Level": 1,
 				"Primary": true,
 				"Priority": 25
 			},
 			"Finish the Phase 1 Evil Bloodwood Tree ~|Wilderness Flash Event|~": {
-				"Category": ["DnD Skilling", "DnD Flash Events", "DnD"],
+				"Category": ["DnD", "DnD Flash Events"],
 				"Chunks": ["12344"],
 				"Level": 1,
 				"Primary": true,
 				"Priority": 26
 			},
 			"Harvest seaweed for the ~|Giant Oyster|~": {
-				"Category": ["DnD Skilling"],
+				"Category": ["DnD", "Not Daily DnD"],
 				"Chunks": ["Sunken Tutorial Island"],
 				"Level": 1,
 				"Primary": true,
@@ -32542,7 +32540,7 @@
 				"Priority": 12
 			},
 			"Nurture an ~|evil tree (elder)|~": {
-				"Category": ["DnD Skilling"],
+				"Category": ["DnD"],
 				"Level": 42,
 				"Objects": ["Evil tree"],
 				"Primary": true,
@@ -35554,7 +35552,7 @@
 				"Priority": 7
 			},
 			"Burn an ~|evil tree (normal)|~": {
-				"Category": ["DnD Skilling"],
+				"Category": ["DnD"],
 				"Level": 1,
 				"Objects": ["Evil tree"],
 				"Primary": true,
@@ -35592,28 +35590,28 @@
 				"Priority": 12
 			},
 			"Light ballista ammunition in ~|Troll Invasion|~": {
-				"Category": ["DnD Skilling"],
+				"Category": ["DnD"],
 				"Chunks": ["11319"],
 				"Level": 1,
 				"Primary": true,
 				"Priority": 14
 			},
 			"Finish the Phase 3 Evil Bloodwood Tree ~|Wilderness Flash Event|~": {
-				"Category": ["DnD Skilling", "DnD Flash Events", "DnD"],
+				"Category": ["DnD", "DnD Flash Events"],
 				"Chunks": ["12344"],
 				"Level": 1,
 				"Primary": true,
 				"Priority": 15
 			},
 			"Partake in ~|Herby Werby|~": {
-				"Category": ["DnD Skilling"],
+				"Category": ["DnD", "Not Daily DnD"],
 				"Chunks": ["Herby Werby"],
 				"Level": 1,
 				"Primary": true,
 				"Priority": 16
 			},
 			"Read a firemaking tome from ~|Temple Trekking|~": {
-				"Category": ["DnD Skilling"],
+				"Category": ["DnD"],
 				"Chunks": ["Temple Trekking Routes"],
 				"Level": 1,
 				"Primary": true,
@@ -35750,7 +35748,7 @@
 				"Priority": 2
 			},
 			"Burn an ~|evil oak tree|~": {
-				"Category": ["DnD Skilling"],
+				"Category": ["DnD"],
 				"Level": 15,
 				"Objects": ["Evil tree"],
 				"Primary": true,
@@ -35934,7 +35932,7 @@
 				"Priority": 2
 			},
 			"Burn an ~|evil willow tree|~": {
-				"Category": ["DnD Skilling"],
+				"Category": ["DnD"],
 				"Level": 30,
 				"Objects": ["Evil tree"],
 				"Primary": true,
@@ -36221,7 +36219,7 @@
 				"Priority": 2
 			},
 			"Burn an ~|evil maple tree|~": {
-				"Category": ["DnD Skilling"],
+				"Category": ["DnD"],
 				"Level": 45,
 				"Objects": ["Evil tree"],
 				"Primary": true,
@@ -36653,7 +36651,7 @@
 				"Priority": 2
 			},
 			"Burn an ~|evil yew tree|~": {
-				"Category": ["DnD Skilling"],
+				"Category": ["DnD"],
 				"Level": 60,
 				"Objects": ["Evil tree"],
 				"Primary": true,
@@ -37007,7 +37005,7 @@
 				"Priority": 2
 			},
 			"Burn an ~|evil magic tree|~": {
-				"Category": ["DnD Skilling"],
+				"Category": ["DnD"],
 				"Level": 75,
 				"Objects": ["Evil tree"],
 				"Primary": true,
@@ -37274,7 +37272,7 @@
 				"Priority": 2
 			},
 			"Burn an ~|evil elder tree|~": {
-				"Category": ["DnD Skilling"],
+				"Category": ["DnD"],
 				"Level": 90,
 				"Objects": ["Evil tree"],
 				"Primary": true,
@@ -37896,21 +37894,21 @@
 				"Priority": 13
 			},
 			"Compete in ~|Fish Flingers|~": {
-				"Category": ["DnD Skilling"],
+				"Category": ["DnD"],
 				"Chunks": ["10295"],
 				"Level": 1,
 				"Primary": true,
 				"Priority": 14
 			},
 			"Fish for sea cucumber for the ~|Giant Oyster|~": {
-				"Category": ["DnD Skilling"],
+				"Category": ["DnD", "Not Daily DnD"],
 				"Chunks": ["Sunken Tutorial Island"],
 				"Level": 1,
 				"Primary": true,
 				"Priority": 22
 			},
 			"Read a fishing tome from ~|Temple Trekking|~": {
-				"Category": ["DnD Skilling"],
+				"Category": ["DnD"],
 				"Chunks": ["Temple Trekking Routes"],
 				"Level": 1,
 				"Primary": true,
@@ -41469,7 +41467,7 @@
 				"Priority": 6
 			},
 			"Partake in ~|Herby Werby|~": {
-				"Category": ["DnD Skilling"],
+				"Category": ["DnD", "Not Daily DnD"],
 				"Chunks": ["Herby Werby"],
 				"Level": 1,
 				"Primary": true,
@@ -44123,7 +44121,7 @@
 				"Priority": 4
 			},
 			"Catch a ~|red soporith moth|~": {
-				"Category": ["DnD Skilling"],
+				"Category": ["DnD"],
 				"Items": ["Protea flower", "Moth jar"],
 				"NPCs": ["Red soporith moth"],
 				"Level": 1,
@@ -44225,7 +44223,7 @@
 				"Priority": 16
 			},
 			"Finish the Butterfly Swarm ~|Wilderness Flash Event|~": {
-				"Category": ["DnD Skilling", "DnD Flash Events", "DnD"],
+				"Category": ["DnD", "DnD Flash Events"],
 				"Chunks": ["12600"],
 				"Level": 1,
 				"Primary": true,
@@ -44341,7 +44339,7 @@
 				"Priority": 1
 			},
 			"Catch a ~|orange soporith moth|~": {
-				"Category": ["DnD Skilling"],
+				"Category": ["DnD"],
 				"Items": ["Protea flower", "Moth jar"],
 				"NPCs": ["Orange soporith moth"],
 				"Level": 13,
@@ -44462,7 +44460,7 @@
 				"Priority": 1
 			},
 			"Catch a ~|yellow soporith moth|~": {
-				"Category": ["DnD Skilling"],
+				"Category": ["DnD"],
 				"Items": ["Protea flower", "Moth jar"],
 				"NPCs": ["Yellow soporith moth"],
 				"Level": 26,
@@ -44683,7 +44681,7 @@
 				"Priority": 2
 			},
 			"Catch a ~|green soporith moth|~": {
-				"Category": ["DnD Skilling"],
+				"Category": ["DnD"],
 				"Items": ["Protea flower", "Moth jar"],
 				"NPCs": ["Green soporith moth"],
 				"Level": 39,
@@ -44904,7 +44902,7 @@
 				"Priority": 1
 			},
 			"Catch a ~|blue soporith moth|~": {
-				"Category": ["DnD Skilling"],
+				"Category": ["DnD"],
 				"Items": ["Protea flower", "Moth jar"],
 				"NPCs": ["Blue soporith moth"],
 				"Level": 52,
@@ -45063,7 +45061,7 @@
 				"Priority": 2
 			},
 			"Catch a ~|purple soporith moth|~": {
-				"Category": ["DnD Skilling"],
+				"Category": ["DnD"],
 				"Items": ["Protea flower", "Moth jar"],
 				"NPCs": ["Purple soporith moth"],
 				"Level": 65,
@@ -45437,7 +45435,7 @@
 				"Priority": 2
 			},
 			"Catch a ~|grey soporith moth|~": {
-				"Category": ["DnD Skilling"],
+				"Category": ["DnD"],
 				"Items": ["Protea flower", "Moth jar"],
 				"NPCs": ["Grey soporith moth"],
 				"Level": 78,
@@ -45947,7 +45945,7 @@
 				"Priority": 2
 			},
 			"Catch a ~|black soporith moth|~": {
-				"Category": ["DnD Skilling"],
+				"Category": ["DnD"],
 				"Items": ["Protea flower", "Moth jar"],
 				"NPCs": ["Black soporith moth"],
 				"Level": 91,
@@ -52138,7 +52136,7 @@
 		},
 		"Mining": {
 			"Mine a size 1 ~|crashed star|~": {
-				"Category": ["Shooting Stars", "DnD Skilling"],
+				"Category": ["Shooting Stars", "DnD"],
 				"Level": 10,
 				"Objects": ["Crashed star"],
 				"Output": "Stardust",
@@ -52146,7 +52144,7 @@
 				"Priority": 40
 			},
 			"Mine a size 2 ~|crashed star|~": {
-				"Category": ["Shooting Stars", "DnD Skilling"],
+				"Category": ["Shooting Stars", "DnD"],
 				"Level": 20,
 				"Objects": ["Crashed star"],
 				"Output": "Stardust",
@@ -52154,7 +52152,7 @@
 				"Priority": 40
 			},
 			"Mine a size 3 ~|crashed star|~": {
-				"Category": ["Shooting Stars", "DnD Skilling"],
+				"Category": ["Shooting Stars", "DnD"],
 				"Level": 30,
 				"Objects": ["Crashed star"],
 				"Output": "Stardust",
@@ -52162,7 +52160,7 @@
 				"Priority": 40
 			},
 			"Mine a size 4 ~|crashed star|~": {
-				"Category": ["Shooting Stars", "DnD Skilling"],
+				"Category": ["Shooting Stars", "DnD"],
 				"Level": 40,
 				"Objects": ["Crashed star"],
 				"Output": "Stardust",
@@ -52170,7 +52168,7 @@
 				"Priority": 40
 			},
 			"Mine a size 5 ~|crashed star|~": {
-				"Category": ["Shooting Stars", "DnD Skilling"],
+				"Category": ["Shooting Stars", "DnD"],
 				"Level": 50,
 				"Objects": ["Crashed star"],
 				"Output": "Stardust",
@@ -52178,7 +52176,7 @@
 				"Priority": 40
 			},
 			"Mine a size 6 ~|crashed star|~": {
-				"Category": ["Shooting Stars", "DnD Skilling"],
+				"Category": ["Shooting Stars", "DnD"],
 				"Level": 60,
 				"Objects": ["Crashed star"],
 				"Output": "Stardust",
@@ -52187,7 +52185,7 @@
 				"Not F2P": true
 			},
 			"Mine a size 7 ~|crashed star|~": {
-				"Category": ["Shooting Stars", "DnD Skilling"],
+				"Category": ["Shooting Stars", "DnD"],
 				"Level": 70,
 				"Objects": ["Crashed star"],
 				"Output": "Big star loot",
@@ -52196,7 +52194,7 @@
 				"Not F2P": true
 			},
 			"Mine a size 8 ~|crashed star|~": {
-				"Category": ["Shooting Stars", "DnD Skilling"],
+				"Category": ["Shooting Stars", "DnD"],
 				"Level": 80,
 				"Objects": ["Crashed star"],
 				"Output": "Big star loot",
@@ -52205,7 +52203,7 @@
 				"Not F2P": true
 			},
 			"Mine a size 9 ~|crashed star|~": {
-				"Category": ["Shooting Stars", "DnD Skilling"],
+				"Category": ["Shooting Stars", "DnD"],
 				"Level": 90,
 				"Objects": ["Crashed star"],
 				"Output": "Big star loot",
@@ -52214,7 +52212,7 @@
 				"Not F2P": true
 			},
 			"Mine a size 10 ~|crashed star|~": {
-				"Category": ["Shooting Stars", "DnD Skilling"],
+				"Category": ["Shooting Stars", "DnD"],
 				"Level": 100,
 				"Objects": ["Crashed star"],
 				"Output": "Big star loot",
@@ -52431,21 +52429,21 @@
 				"Priority": 10
 			},
 			"Finish the Unnatural Outcrop ~|Wilderness Flash Event|~": {
-				"Category": ["DnD Skilling", "DnD Flash Events", "DnD"],
+				"Category": ["DnD", "DnD Flash Events"],
 				"Chunks": ["12343"],
 				"Level": 1,
 				"Primary": true,
 				"Priority": 11
 			},
 			"Finish the Infernal Star ~|Wilderness Flash Event|~": {
-				"Category": ["DnD Skilling", "DnD Flash Events", "DnD"],
+				"Category": ["DnD", "DnD Flash Events"],
 				"Chunks": ["12856"],
 				"Level": 1,
 				"Primary": true,
 				"Priority": 11
 			},
 			"Read a mining tome from ~|Temple Trekking|~": {
-				"Category": ["DnD Skilling"],
+				"Category": ["DnD"],
 				"Chunks": ["Temple Trekking Routes"],
 				"Level": 1,
 				"Primary": true,
@@ -55978,28 +55976,27 @@
 				"Priority": 57
 			},
 			"Pray at a ~|God Statue|~": {
-				"Category": ["DnD Skilling"],
+				"Category": ["DnD", "Not Daily DnD"],
 				"NPCs": ["Copernicus Glyph"],
 				"Level": 1,
 				"Primary": true,
 				"Priority": 69
 			},
 			"Finish the Lost Souls ~|Wilderness Flash Event|~": {
-				"Category": ["DnD Skilling", "DnD Flash Events", "DnD"],
+				"Category": ["DnD", "DnD Flash Events"],
 				"Chunks": ["11834"],
 				"Level": 1,
 				"Primary": true,
 				"Priority": 70
 			},
 			"Spend Zeal from ~|Soul Wars|~": {
-				"Category": ["DnD Skilling"],
+				"Category": ["DnD", "Group Content"],
 				"Chunks": ["8748", "8493", "8749", "9005"],
 				"Level": 1,
 				"Primary": true,
 				"Priority": 71
 			},
 			"Complete a run through ~|Shifting Tombs|~": {
-				"Category": ["DnD Skilling"],
 				"Chunks": ["Shifting Tombs"],
 				"Tasks": {
 					"Enter a tier one ~|Shifting Tombs|~": "Agility"
@@ -60371,7 +60368,6 @@
 				"Priority": 18
 			},
 			"Complete a run through ~|Shifting Tombs|~": {
-				"Category": ["DnD Skilling"],
 				"Chunks": ["Shifting Tombs"],
 				"Tasks": {
 					"Enter a tier one ~|Shifting Tombs|~": "Agility"
@@ -61538,35 +61534,35 @@
 				"NoPet": true
 			},
 			"Defeat fanatics after building a ~|God Statue|~": {
-				"Category": ["DnD Skilling"],
+				"Category": ["DnD", "Not Daily DnD"],
 				"NPCs": ["Copernicus Glyph"],
 				"Level": 1,
 				"Primary": true,
 				"Priority": 13
 			},
 			"Finish the Stryke the Wyrm ~|Wilderness Flash Event|~": {
-				"Category": ["DnD Skilling", "DnD Flash Events", "DnD"],
+				"Category": ["DnD", "DnD Flash Events"],
 				"Chunks": ["12603"],
 				"Level": 1,
 				"Primary": true,
 				"Priority": 14
 			},
 			"Read a slayer tome from ~|Temple Trekking|~": {
-				"Category": ["DnD Skilling"],
+				"Category": ["DnD"],
 				"Chunks": ["Temple Trekking Routes"],
 				"Level": 1,
 				"Primary": true,
 				"Priority": 15
 			},
 			"Spend Zeal from ~|Soul Wars|~": {
-				"Category": ["DnD Skilling"],
+				"Category": ["DnD", "Group Content"],
 				"Chunks": ["8748", "8493", "8749", "9005"],
 				"Level": 1,
 				"Primary": true,
 				"Priority": 12
 			},
 			"Complete an ~|abyssal slayer contract|~ ": {
-				"Category": ["DnD Skilling", "Slayer Contracts"],
+				"Category": ["DnD", "Slayer Contracts"],
 				"Items": ["Abyssal Slayer Contract"],
 				"Level": 1,
 				"Primary": true,
@@ -70587,7 +70583,7 @@
 				"Priority": 10
 			},
 			"Read a thieving tome from ~|Temple Trekking|~": {
-				"Category": ["DnD Skilling"],
+				"Category": ["DnD"],
 				"Chunks": ["Temple Trekking Routes"],
 				"Level": 1,
 				"Primary": true,
@@ -70913,7 +70909,7 @@
 				"Priority": 2
 			},
 			"Chop an ~|evil tree (elder)|~": {
-				"Category": ["DnD Skilling"],
+				"Category": ["DnD"],
 				"Level": 90,
 				"Objects": ["Evil tree"],
 				"Output": "Elder tree+",
@@ -71362,7 +71358,7 @@
 				"Priority": 12
 			},
 			"Chop an ~|evil tree (normal)|~": {
-				"Category": ["DnD Skilling"],
+				"Category": ["DnD"],
 				"Level": 1,
 				"Objects": ["Evil tree"],
 				"Output": "Logs",
@@ -71383,7 +71379,7 @@
 				"Priority": 2
 			},
 			"Chop an ~|evil tree (oak)|~": {
-				"Category": ["DnD Skilling"],
+				"Category": ["DnD"],
 				"Level": 15,
 				"Objects": ["Evil tree"],
 				"Output": "Oak logs (noted)",
@@ -71398,7 +71394,7 @@
 				"Priority": 2
 			},
 			"Chop an ~|evil tree (willow)|~": {
-				"Category": ["DnD Skilling"],
+				"Category": ["DnD"],
 				"Level": 30,
 				"Objects": ["Evil tree"],
 				"Output": "Willow logs (noted)",
@@ -71413,7 +71409,7 @@
 				"Priority": 2
 			},
 			"Chop an ~|evil tree (maple)|~": {
-				"Category": ["DnD Skilling"],
+				"Category": ["DnD"],
 				"Level": 45,
 				"Objects": ["Evil tree"],
 				"Output": "Maple logs (noted)",
@@ -71428,7 +71424,7 @@
 				"Priority": 2
 			},
 			"Chop an ~|evil tree (yew)|~": {
-				"Category": ["DnD Skilling"],
+				"Category": ["DnD"],
 				"Level": 60,
 				"Objects": ["Evil tree"],
 				"Output": "Yew logs (noted)",
@@ -71443,7 +71439,7 @@
 				"Priority": 2
 			},
 			"Chop an ~|evil tree (magic)|~": {
-				"Category": ["DnD Skilling"],
+				"Category": ["DnD"],
 				"Level": 75,
 				"Objects": ["Evil tree"],
 				"Output": "Magic logs (noted)",
@@ -71451,14 +71447,14 @@
 				"Priority": 3
 			},
 			"Finish the Phase 2 Evil Bloodwood Tree ~|Wilderness Flash Event|~": {
-				"Category": ["DnD Skilling", "DnD Flash Events", "DnD"],
+				"Category": ["DnD", "DnD Flash Events"],
 				"Chunks": ["12344"],
 				"Level": 1,
 				"Primary": true,
 				"Priority": 15
 			},
 			"Read a woodcutting tome from ~|Temple Trekking|~": {
-				"Category": ["DnD Skilling"],
+				"Category": ["DnD"],
 				"Chunks": ["Temple Trekking Routes"],
 				"Level": 1,
 				"Primary": true,
@@ -147936,13 +147932,13 @@
 				"Not F2P": true
 			},
 			"Familiarisation rewards*": {
-				"Category": ["DnD"],
+				"Category": ["DnD", "Not Daily DnD"],
 				"Objects": ["Small obelisk"],
 				"Output": "Familiarisation rewards",
 				"Not F2P": true
 			},
 			"God Statue rewards*": {
-				"Category": ["DnD"],
+				"Category": ["DnD", "Not Daily DnD"],
 				"NPCs": ["Copernicus Glyph"],
 				"Output": "Sculpting chisel",
 				"Not F2P": true
@@ -147954,7 +147950,7 @@
 				"Not F2P": true
 			},
 			"Circus rewards*": {
-				"Category": ["DnD"],
+				"Category": ["DnD", "Not Daily DnD"],
 				"Chunks": ["Balthazar Beauregard's Big Top Bonanza"],
 				"Output": "Circus rewards",
 				"Not F2P": true
@@ -147984,7 +147980,7 @@
 				"Category": ["DnD Flash Events", "DnD"]
 			},
 			"Memory of Nomad rewards*": {
-				"Category": ["DnD"],
+				"Category": ["DnD", "Not Daily DnD"],
 				"Chunks": ["Death's Office"],
 				"Tasks": {
 					"~|Nomad's Elegy|~ Complete the quest": "Quest"
@@ -147993,13 +147989,13 @@
 				"Not F2P": true
 			},
 			"Penguin Hide and Seek rewards*": {
-				"Category": ["DnD"],
+				"Category": ["DnD", "Not Daily DnD"],
 				"Chunks": ["10291"],
 				"Output": "Penguin Hide and Seek rewards",
 				"Not F2P": true
 			},
 			"Phoenix rewards*": {
-				"Category": ["DnD"],
+				"Category": ["DnD", "Not Daily DnD"],
 				"Chunks": ["Phoenix's Lair"],
 				"Tasks": {
 					"~|In Pyre Need|~ Complete the quest": "Quest"
@@ -148008,7 +148004,7 @@
 				"Not F2P": true
 			},
 			"Rush of Blood rewards*": {
-				"Category": ["DnD"],
+				"Category": ["DnD", "Not Daily DnD"],
 				"Chunks": ["8755"],
 				"Tasks": {
 					"~|Plague's End|~ Complete the quest": "Quest"
@@ -148035,7 +148031,7 @@
 				"Not F2P": true
 			},
 			"Wisps of the Grove rewards*": {
-				"Category": ["DnD"],
+				"Category": ["DnD", "Not Daily DnD"],
 				"Chunks": ["7728", "7729"],
 				"Output": "Wisps of the Grove rewards",
 				"Not F2P": true
