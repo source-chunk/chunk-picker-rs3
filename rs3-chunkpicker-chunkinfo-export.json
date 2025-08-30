@@ -132077,7 +132077,7 @@
 			},
 			"(Champion Scrolls) Obtain the ~|jogre champion's scroll|~": {
 				"Category": ["Untracked Uniques", "Untracked Uniques Combat"],
-				"Champion ScrollsLabel": "Untracked Combat Uniques",
+				"Label": "Untracked Combat Uniques",
 				"Items": ["Jogre Champion's scroll"],
 				"Not F2P": true
 			},
