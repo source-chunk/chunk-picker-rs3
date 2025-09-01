@@ -1388,6 +1388,8 @@ let customizeTopbarModalOpen = false;
 let notesOpen = false;
 let notesEditing = false;
 let newTasksOpen = false;
+let questChunksModalOpen = false;
+let questChunksQuestTasks = [];
 let workerOut = 0;
 let workersOut = {
     'current': false,
@@ -1537,7 +1539,7 @@ let topbarElements = {
     'Sandbox Mode': `<div><span class='noscroll' onclick="enableTestMode()"><i class="gosandbox fa-solid fa-flask" title='Sandbox Mode'></i></span></div>`,
 };
 
-let currentVersion = '6.8.23';
+let currentVersion = '6.8.24';
 let patchNotesVersion = '6.4.0';
 let updateLevel = 'difference';
 
@@ -1684,7 +1686,7 @@ mapImg.addEventListener("load", e => {
         centerCanvas('quick');
     }
 });
-mapImg.src = "runescape_world_map.png?v=6.8.23";
+mapImg.src = "runescape_world_map.png?v=6.8.24";
 
 // Rounded rectangle
 CanvasRenderingContext2D.prototype.roundRect = function (x, y, w, h, r) {
@@ -3067,14 +3069,8 @@ let setRecentRoll = function(chunkId) {
         let timeNow = new Date().getTime();
         setSnap['chunkOrder'] = { ...setSnap['chunkOrder'], [timeNow]: parseInt(chunkId) };
         myRef.child('recentFancyRollTime').set(recentFancyRollTime);
-        myRef.child('chunkOrder').child(timeNow).set(parseInt(chunkId), (error) => {
-            if (error) {
-                regainConnectivity(() => {
-                    myRef.child('recentFancyRollTime').set(recentFancyRollTime);
-                    myRef.child('chunkOrder').child(timeNow).set(parseInt(chunkId));
-                });
-            }
-        });
+        const setRoll = firebase.functions().httpsCallable('setRoll');
+        setRoll({ mapCode: mid, chunkId: parseInt(chunkId) });
     }
     chunkOrder[new Date().getTime()] = parseInt(chunkId);
     let chunkOrderArr = Object.keys(chunkOrder).sort().reverse();
@@ -3441,7 +3437,7 @@ let calcCurrentChallengesCanvas = function(useOld, proceed, fromLoadData, inputT
         setCalculating('.panel-active', useOld);
         setCurrentChallenges(['No tasks currently backlogged.'], ['No tasks currently completed.'], true, true);
         myWorker.terminate();
-        myWorker = new Worker("./worker.js?v=6.8.23");
+        myWorker = new Worker("./worker.js?v=6.8.24");
         myWorker.onmessage = workerOnMessage;
         myWorker.postMessage(['current', tempChunks['unlocked'], rules, chunkInfo, skillNames, processingSkill, maybePrimary, combatSkills, monstersPlus, objectsPlus, chunksPlus, itemsPlus, mixPlus, npcsPlus, tasksPlus, tools, elementalRunes, manualTasks, completedChallenges, backlog, "1/" + rules['Rare Drop Amount'], universalPrimary, elementalStaves, rangedItems, boneItems, highestCurrent, dropTables, possibleAreas, randomLoot, magicTools, bossLogs, bossMonsters, minigameShops, manualEquipment, checkedChallenges, backloggedSources, altChallenges, manualMonsters, slayerLocked, passiveSkill, f2pSkills, assignedXpRewards, mid === diary2Tier, manualAreas, "1/" + rules['Secondary Primary Amount'], mid === manualAreasOnly, tempSections, maxSkill, userTasks, manualPrimary, updateLevel]);
         workersOut['current'] = true;
@@ -3745,8 +3741,8 @@ $(document).ready(function() {
 // ------------------------------------------------------------
 
 // Recieve message from worker
-let myWorker = new Worker("./worker.js?v=6.8.23");
-let myWorker2 = new Worker("./worker.js?v=6.8.23");
+let myWorker = new Worker("./worker.js?v=6.8.24");
+let myWorker2 = new Worker("./worker.js?v=6.8.24");
 let workerOnMessage = function(e) {
     if (e.data[0] === 'reload') {
         window.location.reload();
@@ -3908,6 +3904,7 @@ let workerOnMessage = function(e) {
             addEquipmentModalOpen && searchAddEquipment();
             bisUpgradesModalOpen && closeBisUpgrades();
             checkSlayerLocked();
+            (testMode || !(viewOnly || inEntry || locked)) && checkQuestChunks();
             settings['chunkNeighboursOptions']['autoWalkableRollable'] && chunkJustRolled && selectAllNeighborsCanvas();
             chunkJustRolled = false;
         }
@@ -4904,6 +4901,7 @@ let checkPin = function() {
 let unlockEntry = function() {
     savedPin = $('.pin.entry').val();
     $('#unlock-entry').prop('disabled', true).html('<i class="spin fa-solid fa-spinner"></i>');
+    firebase.auth().setPersistence(firebase.auth.Auth.Persistence.NONE);
     firebase.auth().fetchSignInMethodsForEmail('sourcechunk+' + mid + '@yandex.com').then((methods) => {
         if (signInAttempts > 15) {
             setTimeout(function() {
@@ -5109,6 +5107,7 @@ let accessMap = function() {
             });
         }
         if ($('.pin.old').val()) {
+            firebase.auth().setPersistence(firebase.auth.Auth.Persistence.NONE);
             firebase.auth().fetchSignInMethodsForEmail('sourcechunk+' + mid + '@yandex.com').then((methods) => {
                 myRef = firebase.database().ref('maps/' + mid);
                 if (!!methods && methods.length > 0) {
@@ -6773,7 +6772,7 @@ let calcFutureChallenges = function() {
     }
     tempSections = combineJSONs(tempSections, manualSections);
     myWorker2.terminate();
-    myWorker2 = new Worker("./worker.js?v=6.8.23");
+    myWorker2 = new Worker("./worker.js?v=6.8.24");
     myWorker2.onmessage = workerOnMessage;
     myWorker2.postMessage(['future', chunks, rules, chunkInfo, skillNames, processingSkill, maybePrimary, combatSkills, monstersPlus, objectsPlus, chunksPlus, itemsPlus, mixPlus, npcsPlus, tasksPlus, tools, elementalRunes, manualTasks, completedChallenges, backlog, "1/" + rules['Rare Drop Amount'], universalPrimary, elementalStaves, rangedItems, boneItems, highestCurrent, dropTables, possibleAreas, randomLoot, magicTools, bossLogs, bossMonsters, minigameShops, manualEquipment, checkedChallenges, backloggedSources, altChallenges, manualMonsters, slayerLocked, passiveSkill, f2pSkills, assignedXpRewards, mid === diary2Tier, manualAreas, "1/" + rules['Secondary Primary Amount'], mid === manualAreasOnly, tempSections, maxSkill, userTasks, manualPrimary, updateLevel]);
     workersOut['future'] = infoLockedId;
@@ -8976,7 +8975,7 @@ let checkSlayerLocked = function() {
             }
         });
         let slayerMethods = checkPrimaryMethod('Slayer', globalValids, baseChunkData, true);
-        if (Object.keys(slayerMethods).filter((name) => !name.includes('Receive a slayer assignment from ') && name !== 'Passive Leveling' && name !== 'Quest Xp Rewards').length > 0) {
+        if (Object.keys(slayerMethods).filter((name) => !name.includes('Receive a Slayer assignment from ') && name !== 'Passive Leveling' && name !== 'Quest Xp Rewards' && name !== 'Manually added skill').length > 0) {
             unlockSlayer();
             return;
         }
@@ -8989,6 +8988,69 @@ let checkSlayerLocked = function() {
             });
         }*/ // TEMP (no wilderness slayer master programmed)
     }
+}
+
+// Submits questchunks modal
+let addQuestChunk = function(close) {
+    if (close) {
+        $('#myModal51').hide();
+        questChunksModalOpen = false;
+        questChunksQuestTasks = [];
+    } else {
+        if (questChunksQuestTasks.length > 0) {
+            if (!manualTasks) {
+                manualTasks = {};
+            }
+            if (!manualTasks['Quest']) {
+                manualTasks['Quest'] = {};
+            }
+            questChunksQuestTasks.forEach((quest) => {
+                manualTasks['Quest'][quest] = true;
+            });
+            calcCurrentChallengesCanvas(true, true);
+            setData();
+        }
+        $('#myModal51').hide();
+        questChunksModalOpen = false;
+    }
+}
+
+// Checks if any unlocked chunks/sections are in questSections and their respective quest isn't completed/completable
+let checkQuestChunks = function() {
+    !!tempChunks['unlocked'] && Object.keys(tempChunks['unlocked']).filter((chunk) => chunkInfo['questSections'].hasOwnProperty(chunk) || unlockedSections.hasOwnProperty(chunk)).some((chunk) => {
+        let questInvalid = false;
+        let missingQuests = [];
+        let chunkSection;
+        if (chunkInfo['questSections'].hasOwnProperty(chunk)) {
+            missingQuests = chunkInfo['questSections'][chunk].filter((quest) => !globalValids.hasOwnProperty('Quest') || !globalValids['Quest'].hasOwnProperty(quest) || (backlog.hasOwnProperty('Quest') && backlog['Quest'].hasOwnProperty(quest)));
+            if (missingQuests.length > 0) {
+                questInvalid = true;
+            }
+        } else if (unlockedSections.hasOwnProperty(chunk)) {
+            Object.keys(unlockedSections[chunk]).filter((section) => unlockedSections[chunk][section] && chunkInfo['questSections'].hasOwnProperty(chunk + '-' + section)).some((section) => {
+                missingQuests = chunkInfo['questSections'][chunk + '-' + section].filter((quest) => !globalValids.hasOwnProperty('Quest') || !globalValids['Quest'].hasOwnProperty(quest) || (backlog.hasOwnProperty('Quest') && backlog['Quest'].hasOwnProperty(quest)));
+                if (missingQuests.length > 0) {
+                    questInvalid = true;
+                    chunkSection = section;
+                    return true;
+                }
+            });
+        }
+        if (questInvalid) {
+            questChunksModalOpen = true;
+            questChunksQuestTasks = [];
+            let chunkName = chunkInfo['chunks'][chunk].hasOwnProperty('Nickname') ? `${chunkInfo['chunks'][chunk]['Nickname']} (${chunk}${!!chunkSection ? ` - Section ${chunkSection}` : ''})` : `${chunk}${!!chunkSection ? ` - Section ${chunkSection}` : ''}`;
+            $('#questchunks-body-inner').empty();
+            $('#questchunks-body-inner').append(`<div class="questchunks-prerow noscroll">${chunkName}</div>`);
+            missingQuests.forEach((quest) => {
+                $('#questchunks-body-inner').append(`<div class="questchunks-row noscroll">${quest.split('|~').join(':').split('~|').join('')}</div>`);
+                questChunksQuestTasks.push(quest);
+            });
+            $('#questchunks-data').html('<div><div class="questchunks-cancel" onclick="addQuestChunk(true)">Exit</div><div class="questchunks-proceed" onclick="addQuestChunk()">Yes, add quest(s) to my map</div></div>');
+            $('#myModal51').show();
+            return true;
+        }
+    });
 }
 
 // Calculated doable vs assignable slayer tasks from all reachable slayer masters
@@ -9023,7 +9085,7 @@ let calculateSlayerTasks = function() {
         if (!assignableSlayerTasks[master]) {
             assignableSlayerTasks[master] = {};
         }
-        Object.keys(chunkInfo['slayerMasterTasks'][master]).forEach((monster) => {
+        Object.keys(chunkInfo['slayerMasterTasks'][master]).sort().forEach((monster) => {
             let monsterDetails = chunkInfo['slayerMasterTasks'][master][monster];
             let isDoable = true;
             let isAssignable = true;
@@ -11945,7 +12007,7 @@ let loadData = async function(startup) {
             questLastStep['~|' + chunkInfo['challenges']['Quest'][name]['BaseQuest'] + '|~ Complete the quest'] = name;
         }
     });
-    myRef.child('chunkOrder').on('value', function(snap) {
+    myRef.child('chunkOrder').once('value', function(snap) {
         let shouldScroll = setSnap.hasOwnProperty('chunkOrder');
         let snapDiff = preloadHelper(snap, 'chunkOrder');
         if (snapDiff === false) return;
@@ -11977,7 +12039,7 @@ let loadData = async function(startup) {
             $('#recentChunksTitle > b').text(Math.max(Math.floor((new Date().getTime() - chunkOrderArr[0]) / (1000 * 3600 * 24)), 0) + ' days since last roll');
         }
     });
-    myRef.child('settings').on('value', function(snap) {
+    myRef.child('settings').once('value', function(snap) {
         let snapDiff = preloadHelper(snap, 'settings');
         if (snapDiff === false) return;
         let settingsTemp = snap.val();
@@ -12050,12 +12112,12 @@ let loadData = async function(startup) {
         toggleTaskSearchbar(settings['taskSearchbar'], 'startup');
         settings['hideChecked'] ? $(`.tasks-checkmark`).show() : $(`.tasks-checkmark`).hide();
     });
-    myRef.child('recent').on('value', function(snap) {
+    myRef.child('recent').once('value', function(snap) {
         let snapDiff = preloadHelper(snap, 'recent');
         if (snapDiff === false) return;
         recent = decodeObject(snap.val()) || [];
     });
-    myRef.child('topbarSelection').on('value', function(snap) {
+    myRef.child('topbarSelection').once('value', function(snap) {
         let snapDiff = preloadHelper(snap, 'topbarSelection');
         topbarSelection = snap.val() || ['Help', 'Patreon', 'Map Notes', 'Patch Notes', 'Discord', 'Report a Bug', 'Chunk-roll History', 'Settings'];
         if (topbarSelection.length === 7) {
@@ -12064,33 +12126,33 @@ let loadData = async function(startup) {
         manageTopbar();
         if (snapDiff === false) return;
     });
-    myRef.child('friends').on('value', function(snap) {
+    myRef.child('friends').once('value', function(snap) {
         let snapDiff = preloadHelper(snap, 'friends');
         if (snapDiff === false) return;
         friends = decodeObject(snap.val()) || {};
     });
-    myRef.child('friendsAlt').on('value', function(snap) {
+    myRef.child('friendsAlt').once('value', function(snap) {
         let snapDiff = preloadHelper(snap, 'friendsAlt');
         if (snapDiff === false) return;
         friendsAlt = decodeObject(snap.val()) || {};
     });
-    myRef.child('chunkNotes').on('value', function(snap) {
+    myRef.child('chunkNotes').once('value', function(snap) {
         let snapDiff = preloadHelper(snap, 'chunkNotes');
         if (snapDiff === false) return;
         chunkNotes = decodeObject(snap.val()) || null;
     });
-    myRef.child('userTasks').on('value', function(snap) {
+    myRef.child('userTasks').once('value', function(snap) {
         let snapDiff = preloadHelper(snap, 'userTasks');
         if (snapDiff === false) return;
         userTasks = decodeObject(snap.val()) || {};
         loadUserTasks();
     });
-    myRef.child('manualPrimary').on('value', function(snap) {
+    myRef.child('manualPrimary').once('value', function(snap) {
         let snapDiff = preloadHelper(snap, 'manualPrimary');
         if (snapDiff === false) return;
         manualPrimary = decodeObject(snap.val()) || {};
     });
-    myRef.child('chunks').on('value', function(snap) {
+    myRef.child('chunks').once('value', function(snap) {
         let snapDiff = preloadHelper(snap, 'chunks');
         if (snapDiff === false) return;
         let chunks = decodeObject(snap.val());
@@ -12132,7 +12194,7 @@ let loadData = async function(startup) {
         }
         setUpSelected();
     });
-    myRef.child('recentFancyRollTime').on('value', function(snap) {
+    myRef.child('recentFancyRollTime').once('value', function(snap) {
         if (snap.val() === 0) {
             recentFancyRollTime = 0;
         }
@@ -12152,79 +12214,79 @@ let loadData = async function(startup) {
             loadData();
         }
     });
-    myRef.child('chunkinfo/checkedChallenges').on('value', function(snap) {
+    myRef.child('chunkinfo/checkedChallenges').once('value', function(snap) {
         let snapDiff = preloadHelper(snap, 'chunkinfo/checkedChallenges');
         if (snapDiff === false) return;
         checkedChallenges = !!snap.val() ? decodeObject(snap.val()) : {};
         !initialLoaded && chunkTasksOn && setupCurrentChallengesFromSaved();
     });
-    myRef.child('chunkinfo/completedChallenges').on('value', function(snap) {
+    myRef.child('chunkinfo/completedChallenges').once('value', function(snap) {
         let snapDiff = preloadHelper(snap, 'chunkinfo/completedChallenges');
         if (snapDiff === false) return;
         completedChallenges = !!snap.val() ? decodeObject(snap.val()) : {};
     });
-    myRef.child('chunkinfo/backlog').on('value', function(snap) {
+    myRef.child('chunkinfo/backlog').once('value', function(snap) {
         let snapDiff = preloadHelper(snap, 'chunkinfo/backlog');
         if (snapDiff === false) return;
         backlog = !!snap.val() ? decodeObject(snap.val()) : {};
     });
-    myRef.child('chunkinfo/possibleAreas').on('value', function(snap) {
+    myRef.child('chunkinfo/possibleAreas').once('value', function(snap) {
         let snapDiff = preloadHelper(snap, 'chunkinfo/possibleAreas');
         if (snapDiff === false) return;
         possibleAreas = !!snap.val() ? decodeObject(snap.val()) : {};
     });
-    myRef.child('chunkinfo/manualAreas').on('value', function(snap) {
+    myRef.child('chunkinfo/manualAreas').once('value', function(snap) {
         let snapDiff = preloadHelper(snap, 'chunkinfo/manualAreas');
         if (snapDiff === false) return;
         manualAreas = !!snap.val() ? decodeObject(snap.val()) : {};
     });
-    myRef.child('chunkinfo/manualTasks').on('value', function(snap) {
+    myRef.child('chunkinfo/manualTasks').once('value', function(snap) {
         let snapDiff = preloadHelper(snap, 'chunkinfo/manualTasks');
         if (snapDiff === false) return;
         manualTasks = !!snap.val() ? decodeObject(snap.val()) : {};
     });
-    myRef.child('chunkinfo/manualEquipment').on('value', function(snap) {
+    myRef.child('chunkinfo/manualEquipment').once('value', function(snap) {
         let snapDiff = preloadHelper(snap, 'chunkinfo/manualEquipment');
         if (snapDiff === false) return;
         manualEquipment = !!snap.val() ? decodeObject(snap.val()) : {};
     });
-    myRef.child('chunkinfo/manualSections').on('value', function(snap) {
+    myRef.child('chunkinfo/manualSections').once('value', function(snap) {
         let snapDiff = preloadHelper(snap, 'chunkinfo/manualSections');
         if (snapDiff === false) return;
         manualSections = !!snap.val() ? decodeObject(snap.val()) : {};
     });
-    myRef.child('chunkinfo/backloggedSources').on('value', function(snap) {
+    myRef.child('chunkinfo/backloggedSources').once('value', function(snap) {
         let snapDiff = preloadHelper(snap, 'chunkinfo/backloggedSources');
         if (snapDiff === false) return;
         backloggedSources = !!snap.val() ? decodeObject(snap.val()) : {};
     });
-    myRef.child('chunkinfo/altChallenges').on('value', function(snap) {
+    myRef.child('chunkinfo/altChallenges').once('value', function(snap) {
         let snapDiff = preloadHelper(snap, 'chunkinfo/altChallenges');
         if (snapDiff === false) return;
         altChallenges = !!snap.val() ? decodeObject(snap.val()) : {};
     });
-    myRef.child('chunkinfo/manualMonsters').on('value', function(snap) {
+    myRef.child('chunkinfo/manualMonsters').once('value', function(snap) {
         let snapDiff = preloadHelper(snap, 'chunkinfo/manualMonsters');
         if (snapDiff === false) return;
         manualMonsters = decodeObject(snap.val()) || {};
-        myRef.child('randomLoot').on('value', function(snap) {
+        myRef.child('randomLoot').once('value', function(snap) {
             let snapDiff = preloadHelper(snap, 'randomLoot');
             if (snapDiff === false) return;
             manualMonsters = manualMonsterCombiner(manualMonsters, decodeObject(snap.val()));
             randomLoot = {};
         });
     });
-    myRef.child('chunkinfo/slayerLocked').on('value', function(snap) {
+    myRef.child('chunkinfo/slayerLocked').once('value', function(snap) {
         let snapDiff = preloadHelper(snap, 'chunkinfo/slayerLocked');
         if (snapDiff === false) return;
         slayerLocked = !!snap.val() ? decodeObject(snap.val()) : null;
     });
-    myRef.child('chunkinfo/passiveSkill').on('value', function(snap) {
+    myRef.child('chunkinfo/passiveSkill').once('value', function(snap) {
         let snapDiff = preloadHelper(snap, 'chunkinfo/passiveSkill');
         if (snapDiff === false) return;
         passiveSkill = !!snap.val() ? decodeObject(snap.val()) : null;
     });
-    myRef.child('chunkinfo/maxSkill').on('value', function(snap) {
+    myRef.child('chunkinfo/maxSkill').once('value', function(snap) {
         let snapDiff = preloadHelper(snap, 'chunkinfo/maxSkill');
         if (snapDiff === false) return;
         maxSkill = !!snap.val() ? decodeObject(snap.val()) : null;
@@ -12234,7 +12296,7 @@ let loadData = async function(startup) {
         if (snapDiff === false) return;
         prevValueLevelInput = !!snap.val() ? decodeObject(snap.val()) : {'Combat': 3, 'Slayer': 1, 'ignoreCombatLevel': false, 'krystiliaSlayerCreatures': false, 'ClueSteps': 0};
     });
-    myRef.child('chunkinfo/checkedAllTasks').on('value', function(snap) {
+    myRef.child('chunkinfo/checkedAllTasks').once('value', function(snap) {
         let snapDiff = preloadHelper(snap, 'chunkinfo/checkedAllTasks');
         if (snapDiff === false) return;
         checkedAllTasks = !!snap.val() ? decodeObject(snap.val()) : {};
@@ -12247,12 +12309,12 @@ let loadData = async function(startup) {
             !initialLoaded && chunkTasksOn && setupCurrentChallengesFromSaved();
         }
     });
-    myRef.child('chunkinfo/assignedXpRewards').on('value', function(snap) {
+    myRef.child('chunkinfo/assignedXpRewards').once('value', function(snap) {
         let snapDiff = preloadHelper(snap, 'chunkinfo/assignedXpRewards');
         if (snapDiff === false) return;
         assignedXpRewards = !!snap.val() ? decodeObject(snap.val()) : {};
     });
-    myRef.child('rules').on('value', function(snap) {
+    myRef.child('rules').once('value', function(snap) {
         let snapDiff = preloadHelper(snap, 'rules');
         if (snapDiff === false) return;
         let rulesTemp = snap.val() || {};
@@ -12614,6 +12676,8 @@ let setData = function() {
             stickeredColors
         },
     };
+    let databaseObject = JSON.parse(JSON.stringify(setSnap));
+    delete databaseObject['chunkOrder'];
     if (firebase.auth().currentUser) {
         myRef.child('test').set(null, (error) => {
             if (error) {
@@ -12622,12 +12686,12 @@ let setData = function() {
                     return;
                 });
             } else {
-                myRef.update({...setSnap});
+                myRef.update({...databaseObject});
             }
         });
     } else {
         firebase.auth().signInWithEmailAndPassword('sourcechunk+' + mid + '@yandex.com', savedPin + mid).then(function() {
-            myRef.update({...setSnap});
+            myRef.update({...databaseObject});
         }).catch(function(error) { console.error(error) });
     }
 }
@@ -12656,6 +12720,7 @@ let rollMID = function(count) {
             rollCount++;
         }
         mid = charSet;
+        firebase.auth().setPersistence(firebase.auth.Auth.Persistence.NONE);
         firebase.auth().fetchSignInMethodsForEmail('sourcechunk+' + mid + '@yandex.com').then(providers => {
             if (providers.length === 0) {
                 firebase.auth().createUserWithEmailAndPassword('sourcechunk+' + mid + '@yandex.com', savedPin + mid).then((userCredential) => {
@@ -12720,6 +12785,7 @@ let checkIfGoodFriend = function() {
 // Changes the lock state if pin is correct, otherwise displays error
 let changeLocked = function() {
     $('#lock-unlock').prop('disabled', true).html('<i class="spin fa-solid fa-spinner"></i>');
+    firebase.auth().setPersistence(firebase.auth.Auth.Persistence.NONE);
     firebase.auth().fetchSignInMethodsForEmail('sourcechunk+' + mid + '@yandex.com').then((methods) => {
         if (!!methods && methods.length > 0) {
             setTimeout(function() {
