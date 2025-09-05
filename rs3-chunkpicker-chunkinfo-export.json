@@ -52041,7 +52041,7 @@
 				"NoPet": true,
 				"NoBoost": true
 			},
-			"Obtain the ~|archmage|~ title": {
+			"Obtain the ~|Archmage|~ title": {
 				"Category": ["Titles"],
 				"Chunks": ["12337"],
 				"Level": 99,
@@ -60769,7 +60769,7 @@
 				},
 				"Priority": 1
 			},
-			"Obtain the ~|archmage|~ title": {
+			"Obtain the ~|Archmage|~ title": {
 				"Category": ["Titles"],
 				"Chunks": ["12337"],
 				"Level": 99,
