@@ -8789,6 +8789,9 @@ let calcBIS = function(completedOnly) {
             bestEquipment[slot] = resultingAdditions[slot];
             delete bestEquipmentAlts[slot];
             delete bisUpgrades[skill.replaceAll(' ', '_') + '-' + slot];
+            if (!rules['Show Best in Slot 1H and 2H'] && slot === '2h') {
+                delete bestEquipment['weapon'];
+            }
         }); */
         rules['Show Best in Slot 1H and 2H'] && !!savedWeaponBis && Object.keys(savedWeaponBis).filter(slot => !!savedWeaponBis[slot]).forEach((slot) => {
             if (slot === 'ammo (2h)' && !savedWeaponBis['ammo']) {
