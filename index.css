@@ -809,58 +809,6 @@ button.menu2 {
     cursor: not-allowed;
 }
 
-.username {
-    margin-top: 25px;
-    font-size: 2vw;
-    border: solid;
-    border-width: 1px;
-}
-
-#highscoreoptin {
-    border: 2px solid rgb(50, 50, 150);
-    background-color: var(--colorLink);
-    color: white;
-    margin-bottom: 20px;
-    margin-top: 20px;
-    height: 4vw;
-    display: inline-flex;
-    align-items: center;
-    justify-content: space-around;
-    line-height: .75vw;
-}
-
-#highscoreoptin:hover {
-    background-color: rgb(75, 75, 225);
-}
-
-#highscoreoptin:disabled {
-    border: 2px solid var(--color8);
-    background-color: rgb(225, 225, 225);
-    color: var(--colorText);
-    cursor: not-allowed;
-}
-
-#populateButton {
-    text-decoration: none;
-}
-
-#highscoreoptin2 {
-    border: 2px solid rgb(50, 50, 150);
-    background-color: var(--colorLink);
-    color: white;
-    margin-bottom: 20px;
-    margin-top: 20px;
-    height: 4vw;
-    display: inline-flex;
-    align-items: center;
-    justify-content: space-around;
-    line-height: .75vw;
-}
-
-#highscoreoptin2:hover {
-    background-color: rgb(75, 75, 225);
-}
-
 .highest {
     background-color: rgb(255, 50, 150);
     width: min(8vw, 125px);
@@ -2774,7 +2722,7 @@ input#searchPlayerMaps {
     padding: 8px;
 }
 
-#myModal43.mobile .section-help {
+#chunkSectionPickerModal.mobile .section-help {
     display: none;
 }
 
@@ -3006,20 +2954,20 @@ label .tooltip-base-el:active {
     -webkit-box-sizing: border-box;
 }
 
-#myModal2 > .modal-content.noscroll {
+#challengeDetailsModal > .modal-content.noscroll {
     height: 42%;
 }
 
-#myModal3 > .modal-content.noscroll {
+#backlogNotesModal > .modal-content.noscroll {
     height: 55%;
     width: 35%;
 }
 
-#myModal4:not(.mobile) {
+#rulesModal:not(.mobile) {
     padding-top:16vh !important;
 }
 
-#myModal4 > .modal-content {
+#rulesModal > .modal-content {
     height: 60%;
     width: 55%;
     background-color: var(--color1);
@@ -3030,163 +2978,157 @@ label .tooltip-base-el:active {
     height: 25%;
 }
 
-#myModal > .modal-content {
+#manualTasksModal > .modal-content {
     height: 60%;
     width: 45%;
 }
 
-#myModal48 > .modal-content {
+#userTasksListModal > .modal-content {
     height: 60%;
     width: 45%;
 }
 
-#myModal8 > .modal-content {
-    height: 25%;
-    width: 25%;
-    margin-top: 1.5%;
-}
-
-#myModal10 > .modal-content {
+#searchModal > .modal-content {
     height: 50%;
     width: 35%;
 }
 
-#myModal11 > .modal-content {
+#searchDetailsModal > .modal-content {
     margin-top: -2.5%;
     width: 30%;
     height: 40%;
 }
 
-#myModal12 > .modal-content {
+#highestModal > .modal-content {
     height: 67%;
     width: 45%;
     margin-top: -5%;
 }
 
-#myModal50 > .modal-content {
+#slotUpgradeModal > .modal-content {
     height: 85%;
     width: 45%;
     margin-top: -10%;
 }
 
-#myModal12_2 > .modal-content {
+#highest2Modal > .modal-content {
     height: 67%;
     width: 45%;
     margin-top: -5%;
 }
 
-#myModal13 > .modal-content {
+#methodsModal > .modal-content {
     height: 55%;
     width: 35%;
     margin-top: -2.5%;
 }
 
-#myModal14 > .modal-content {
+#manualCompleteModal > .modal-content {
     height: 25%;
     width: 25%;
     margin-top: 1.5%;
 }
 
-#myModal15 > .modal-content {
+#addEquipmentModal > .modal-content {
     height: 60%;
     width: 40%;
     margin-top: -2.5%;
 }
 
-#myModal16 > .modal-content {
+#stickerModal > .modal-content {
     height: 50%;
     width: 35%;
 }
 
-#myModal30 > .modal-content {
+#xpRewardModal > .modal-content {
     height: 40%;
     width: 35%;
 }
 
-#myModal29 > .modal-content {
+#introModal > .modal-content {
     height: 66%;
     width: 35%;
     margin-top: -2.5%;
 }
 
-#myModal17 > .modal-content {
+#backlogSourcesModal > .modal-content {
     height: 60%;
     width: 40%;
     margin-top: -2.5%;
 }
 
-#myModal18:not(.mobile), #myModal46:not(.mobile) {
+#chunkHistoryModal:not(.mobile), #customizeTopbarModal :not(.mobile) {
     padding-top: 16vh !important;
 }
 
-#myModal18 > .modal-content, #myModal46 > .modal-content {
+#chunkHistoryModal > .modal-content, #customizeTopbarModal  > .modal-content {
     height: 60%;
     width: 45%;
     background-color: var(--color1);
     color: var(--colorText);
 }
 
-#myModal18 > .modal-content:not(.mobile), #myModal46 > .modal-content:not(.mobile) {
+#chunkHistoryModal > .modal-content:not(.mobile), #customizeTopbarModal  > .modal-content:not(.mobile) {
     min-width: 650px;
 }
 
-#myModal26:not(.mobile) {
+#friendsListModal:not(.mobile) {
     padding-top: 16vh !important;
 }
 
-#myModal26 > .modal-content {
+#friendsListModal > .modal-content {
     height: 60%;
     width: 45%;
     background-color: var(--color1);
     color: var(--colorText);
 }
 
-#myModal21 > .modal-content {
+#manuallyAddStuffModal > .modal-content {
     height: 60%;
     width: 40%;
     margin-top: -2.5%;
 }
 
-#myModal23 > .modal-content {
+#fancyRollModal > .modal-content {
     height: 70%;
     width: 40%;
     margin-top: -5%;
 }
 
-#myModal31 > .modal-content {
+#manualAreasModal > .modal-content {
     height: 60%;
     width: 45%;
     background-color: var(--color1);
     color: var(--colorText);
 }
 
-#myModal42 > .modal-content {
+#chunkSectionsModal > .modal-content {
     height: 60%;
     width: 45%;
     background-color: var(--color1);
     color: var(--colorText);
 }
 
-#myModal43 > .modal-content {
+#chunkSectionPickerModal > .modal-content {
     height: 60%;
     width: 45%;
     background-color: var(--color1);
     color: var(--colorText);
 }
 
-#myModal32 > .modal-content {
+#slayerMasterInfoModal > .modal-content {
     margin-top: -4.5%;
     width: 30%;
     height: 65%;
 }
 
-#myModal33 > .modal-content {
+#doableClueStepsModal > .modal-content {
     margin-top: -4.5%;
     width: 40%;
     height: 65%;
 }
 
-#myModal34 > .modal-content {
+#clueChunksModal > .modal-content {
     margin-top: -4.5%;
     width: 40%;
     height: 65%;
@@ -4472,7 +4414,7 @@ input#searchChunkSections {
     background-color: rgb(15, 150, 15);
 }
 
-#myModal4 > .modal-content {
+#rulesModal > .modal-content {
     max-width: 750px;
 }
 
@@ -4631,68 +4573,51 @@ input#searchChunkSections {
     margin: 10px;
 }
 
-#myModal7 > .modal-content {
+#settingsModal > .modal-content {
     height: 60%;
     width: 55%;
     background-color: var(--color1);
     max-width: 750px;
 }
 
-#myModal37 > .modal-content {
+#missingQuestModal > .modal-content {
     max-width: 400px;
     height: 35%;
 }
 
-#myModal51 > .modal-content {
-    max-width: 400px;
-    height: 35%;
-}
-
-#myModal38 > .modal-content {
-    height: 40%;
+#miscellaneousActionsModal > .modal-content {
+    height: 45%;
     width: 25%;
-    margin-top: 1.5%;
 }
 
-#myModal28 > .modal-content {
+#passiveLevelModal > .modal-content {
     max-width: 450px;
     height: 52%;
     overflow-y: auto;
 }
 
-#myModal5 > .modal-content {
+#rulesPresetModal > .modal-content {
     max-width: 400px;
 }
 
 
-#myModal49 > .modal-content {
+#deleteUserTaskWarningModal > .modal-content {
     max-width: 400px;
 }
 
-#myModal45 > .modal-content {
+#rulesImportModal > .modal-content {
     max-width: 400px;
     height: 35%;
 }
 
-
-#myModal47 > .modal-content {
+#userTaskModal > .modal-content {
     height: 60%;
     width: 40%;
     margin-top: -5%;
 }
 
-#myModal40 > .modal-content {
+#exitSandboxWarningModal > .modal-content {
     max-width: 400px;
-}
-
-#myModal6 > .modal-content {
-    max-width: 400px;
-}
-
-#myModal9 > .modal-content {
-    height: 25%;
-    width: 25%;
-    margin-top: 1.5%;
 }
 
 .preset-title {
@@ -6233,19 +6158,19 @@ input#searchChunks {
     font-size: min(10vw, 36px);
     font-weight: bold;
     padding-top: 0px;
-    max-height: 15%;
-    min-height: 15%;
+    max-height: 10%;
+    min-height: 10%;
     line-height: 5.5vh;
     text-align: center;
     background-color: var(--color1);
 }
 
-.clipboard-data, .clipboard-data-2, .clipboard-data-3 {
+.clipboard-data, .clipboard-data-2, .clipboard-data-3, .clipboard-data-5 {
     margin: 0px 15px;
     font-size: 2vh;
     display: flex;
     align-items: center;
-    height: 20%;
+    height: 18%;
     justify-content: center;
     position: relative;
 }
@@ -6351,6 +6276,29 @@ input#searchChunks {
 #plugin-clipboard-button:disabled, #assign-clipboard-button:disabled {
     background-color: gray;
     cursor: not-allowed;
+}
+
+#fullmap-clipboard-button {
+    background-color: rgb(195, 195, 0);
+    width: 250px;
+    font-size: 2.7vh;
+    color: white;
+    border-width: 1px 1px 1px 1px;
+    border-style: solid;
+    border-color: black;
+    outline: none;
+    -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    margin: 10px;
+}
+
+#fullmap-clipboard-button:hover {
+    background-color: rgb(165, 165, 0);
+}
+
+#clipboard-data-5 {
+    margin-top: 10px;
 }
 
 .modal-content.mobile .style-button {
@@ -6463,7 +6411,7 @@ input#searchChunks {
     background-color: var(--color2);
 }
 
-#myModal12.mobile .row, #myModal50.mobile .row {
+#highestModal.mobile .row, #slotUpgradeModal.mobile .row {
     width: 85%;
 }
 
@@ -7875,19 +7823,19 @@ input#searchMonsters {
     background-color: rgb(80, 80, 80);
 }
 
-#myModal35 > .modal-content {
+#chunkNotesModal > .modal-content {
     height: 70%;
     width: 40%;
     margin-top: -5%;
 }
 
-#myModal36 > .modal-content {
+#newTasksModal > .modal-content {
     height: 40%;
     width: 40%;
     margin-top: -5%;
 }
 
-#myModal24 > .modal-content {
+#patchNotesModal > .modal-content {
     height: 70%;
     width: 40%;
     margin-top: -5%;
@@ -7903,7 +7851,7 @@ input#searchMonsters {
     color: var(--colorLink);
 }
 
-#myModal25 > .modal-content {
+#questStepsModal > .modal-content {
     height: 67%;
     width: 45%;
     margin-top: -5%;
@@ -8876,7 +8824,7 @@ input#searchMonsters {
     width: 95%;
 }
 
-#myModal4 > .modal-content.mobile {
+#rulesModal > .modal-content.mobile {
     width: 95%;
 }
 
