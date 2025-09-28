@@ -28208,7 +28208,7 @@
 			"Harvest a ~|luminous wisp|~": {
 				"NPCs": ["Luminous wisp"],
 				"Level": 90,
-				"Output": "Luminous energy",
+				"Output": "Luminous wisp loot",
 				"Primary": true,
 				"Priority": 1
 			},
@@ -36311,6 +36311,7 @@
 				"Level": 47,
 				"Output": "Ashes",
 				"Output Object": "Player fire",
+				"Output": "Acadia log burning",
 				"Primary": true,
 				"Priority": 6
 			},
@@ -38166,6 +38167,14 @@
 				"Primary": true,
 				"Output": "Raw desert sole",
 				"Priority": 1
+			},
+			"Fish at a ~|fishing spot (Menaphos)|~": {
+				"Items": ["Fishing bait"],
+				"Level": 52,
+				"Objects": ["Fishing spot (Menaphos)"],
+				"Primary": true,
+				"Output": "Menaphos fishing",
+				"Priority": 1000
 			},
 			"Catch a ~|raw lava eel|~": {
 				"Items": ["Oily fishing rod", "Fishing bait"],
@@ -52647,7 +52656,7 @@
 				"Level": 50,
 				"Objects": ["Mineral deposit"],
 				"Primary": true,
-				"Output": "Sandstone",
+				"Output": "Mineral Deposit",
 				"Priority": 3
 			},
 			"Access the ~|mining guild|~": {
@@ -70776,7 +70785,15 @@
 				"Output": "Acadia logs",
 				"Primary": true,
 				"Priority": 1
-			},	
+			},
+			"Cut an ~|acadia tree|~ in Menaphos": {
+				"Level": 50,
+				"Objects": ["Acadia tree"],
+				"Chunks": ["12586"],
+				"Output": "Acadia Menaphos woodcutting",
+				"Primary": true,
+				"Priority": 1
+			},
 			"Cut ~|mahogany logs|~": {
 				"Level": 60,
 				"Objects": ["Mahogany"],
@@ -125766,6 +125783,250 @@
 				"NPCs": ["Flipper McGraw"],
 				"Items": ["ArcFish[+]"]
 			},
+			"Find a ~|Menaphite honey bee in amber|~": {
+				"Category": ["Menaphos Log"],
+				"Label": "Menaphos Journal",
+				"Items": ["Menaphite honey bee in amber"]
+			},
+			"Find a ~|pygmy giant scarab in amber|~": {
+				"Category": ["Menaphos Log"],
+				"Label": "Menaphos Journal",
+				"Items": ["Pygmy giant scarab in amber"]
+			},
+			"Find a ~|desert locust in amber|~": {
+				"Category": ["Menaphos Log"],
+				"Label": "Menaphos Journal",
+				"Items": ["Desert locust in amber"]
+			},
+			"Find a ~|kalphite wanderer in amber|~": {
+				"Category": ["Menaphos Log"],
+				"Label": "Menaphos Journal",
+				"Items": ["Kalphite wanderer in amber"]
+			},
+			"Find a ~|hornless unicornfly in amber|~": {
+				"Category": ["Menaphos Log"],
+				"Label": "Menaphos Journal",
+				"Items": ["Hornless unicornfly in amber"]
+			},
+			"Find a ~|fly dragon in amber|~": {
+				"Category": ["Menaphos Log"],
+				"Label": "Menaphos Journal",
+				"Items": ["Fly dragon in amber"]
+			},
+			"Find a ~|fruit fly in amber|~": {
+				"Category": ["Menaphos Log"],
+				"Label": "Menaphos Journal",
+				"Items": ["Fruit fly in amber"]
+			},
+			"Find a ~|Menaphite honey bee|~": {
+				"Category": ["Menaphos Log"],
+				"Label": "Menaphos Journal",
+				"Items": ["Menaphite honey bee"]
+			},
+			"Find a ~|pygmy giant scarab|~": {
+				"Category": ["Menaphos Log"],
+				"Label": "Menaphos Journal",
+				"Items": ["Pygmy giant scarab"]
+			},
+			"Find a ~|desert locust|~": {
+				"Category": ["Menaphos Log"],
+				"Label": "Menaphos Journal",
+				"Items": ["Desert locust"]
+			},
+			"Find a ~|kalphite wanderer|~": {
+				"Category": ["Menaphos Log"],
+				"Label": "Menaphos Journal",
+				"Items": ["Kalphite wanderer"]
+			},
+			"Find a ~|hornless unicornfly|~": {
+				"Category": ["Menaphos Log"],
+				"Label": "Menaphos Journal",
+				"Items": ["Hornless unicornfly"]
+			},
+			"Find a ~|fly dragon|~": {
+				"Category": ["Menaphos Log"],
+				"Label": "Menaphos Journal",
+				"Items": ["Fly dragon"]
+			},
+			"Find a ~|fruit fly|~": {
+				"Category": ["Menaphos Log"],
+				"Label": "Menaphos Journal",
+				"Items": ["Fruit fly"]
+			},
+			"Find ~|phenakite|~": {
+				"Category": ["Menaphos Log"],
+				"Label": "Menaphos Journal",
+				"Items": ["Phenakite"]
+			},
+			"Find ~|menaphyrite|~": {
+				"Category": ["Menaphos Log"],
+				"Label": "Menaphos Journal",
+				"Items": ["Menaphyrite"]
+			},
+			"Find ~|waikonite|~": {
+				"Category": ["Menaphos Log"],
+				"Label": "Menaphos Journal",
+				"Items": ["Waikonite"]
+			},
+			"Find ~|corundum|~": {
+				"Category": ["Menaphos Log"],
+				"Label": "Menaphos Journal",
+				"Items": ["Corundum"]
+			},
+			"Find ~|wavecrest opal|~": {
+				"Category": ["Menaphos Log"],
+				"Label": "Menaphos Journal",
+				"Items": ["Wavecrest opal"]
+			},
+			"Find ~|maw coral|~": {
+				"Category": ["Menaphos Log"],
+				"Label": "Menaphos Journal",
+				"Items": ["Maw coral"]
+			},
+			"Find ~|crondite|~": {
+				"Category": ["Menaphos Log"],
+				"Label": "Menaphos Journal",
+				"Items": ["Crondite"]
+			},
+			"Find ~|alaeite|~": {
+				"Category": ["Menaphos Log"],
+				"Label": "Menaphos Journal",
+				"Chunks": ["12548"]
+			},
+			"Find a ~|hetite stone|~": {
+				"Category": ["Menaphos Log"],
+				"Label": "Menaphos Journal",
+				"Chunks": ["Sophanem Slayer Dungeon"],
+				"Tasks": {
+					"Corrupted creature task": "Nonskill"
+				}
+			},
+			"Find a ~|Aminishi miststone|~": {
+				"Category": ["Menaphos Log"],
+				"Label": "Menaphos Journal",
+				"Items": ["Spices"],
+				"NPCs": ["Aminishi gem trader"]
+			},
+			"Find ~|hauyne|~": {
+				"Category": ["Menaphos Log"],
+				"Label": "Menaphos Journal",
+				"Tasks": {
+					"~|The Jack of Spades|~ Complete the quest": "Quest"
+				}
+			},
+			"Find a ~|scabarite crystal|~": {
+				"Category": ["Menaphos Log"],
+				"Label": "Menaphos Journal",
+				"Chunks": ["12587"]
+			},
+			"Find ~|Tuai Leit sparkle|~": {
+				"Category": ["Menaphos Log"],
+				"Label": "Menaphos Journal",
+				"Items": ["Bamboo"],
+				"NPCs": ["Tual Leit gem trader"]
+			},
+			"Find ~|idocrase|~": {
+				"Category": ["Menaphos Log"],
+				"Label": "Menaphos Journal",
+				"Tasks": {
+					"~|The Jack of Spades|~ Complete the quest": "Quest"
+				}
+			},
+			"Find ~|Apmeken amethyst|~": {
+				"Category": ["Menaphos Log"],
+				"Label": "Menaphos Journal",
+				"Chunks": ["12587"]
+			},
+			"Find ~|umesco arpos|~": {
+				"Category": ["Menaphos Log"],
+				"Label": "Menaphos Journal",
+				"Items": ["Umesco arpos"]
+			},
+			"Pet ~|Anukat|~": {
+				"Category": ["Menaphos Log"],
+				"Label": "Menaphos Journal",
+				"Chunks": ["12586"]
+			},
+			"Pet ~|Bestopet|~": {
+				"Category": ["Menaphos Log"],
+				"Label": "Menaphos Journal",
+				"Chunks": ["Shifting Tombs"]
+			},
+			"Pet ~|Oedipuss|~": {
+				"Category": ["Menaphos Log"],
+				"Label": "Menaphos Journal",
+				"Chunks": ["12585"]
+			},
+			"Pet ~|Hetepheres|~": {
+				"Category": ["Menaphos Log"],
+				"Label": "Menaphos Journal",
+				"Chunks": ["AnyMenaphosCatLocation[+]"]
+			},
+			"Pet ~|Lucifurr|~": {
+				"Category": ["Menaphos Log"],
+				"Label": "Menaphos Journal",
+				"Chunks": ["AnyMenaphosCatLocation[+]"]
+			},
+			"Pet ~|Jennifurr|~": {
+				"Category": ["Menaphos Log"],
+				"Label": "Menaphos Journal",
+				"Chunks": ["Pyramid Plunder"]
+			},
+			"Pet ~|Katarina|~": {
+				"Category": ["Menaphos Log"],
+				"Label": "Menaphos Journal",
+				"Chunks": ["Sophanem Slayer Dungeon"]
+			},
+			"Pet ~|Shebit|~": {
+				"Category": ["Menaphos Log"],
+				"Label": "Menaphos Journal",
+				"Chunks": ["12587"]
+			},
+			"Pet ~|Oedipuss|~": {
+				"Category": ["Menaphos Log"],
+				"Label": "Menaphos Journal",
+				"Chunks": ["12585"]
+			},
+			"Pet ~|Takhuit|~": {
+				"Category": ["Menaphos Log"],
+				"Label": "Menaphos Journal",
+				"Chunks": ["AnyMenaphosCatLocation[+]"]
+			},
+			"Pet ~|Catsanova|~": {
+				"Category": ["Menaphos Log"],
+				"Label": "Menaphos Journal",
+				"Chunks": ["12843"]
+			},
+			"Pet ~|The Postcat|~": {
+				"Category": ["Menaphos Log"],
+				"Label": "Menaphos Journal",
+				"Chunks": ["12588"]
+			},
+			"Pet ~|Fenekh|~": {
+				"Category": ["Menaphos Log"],
+				"Label": "Menaphos Journal",
+				"Chunks": ["AnyMenaphosCatLocation[+]"]
+			},
+			"Pet ~|Tefimhet|~": {
+				"Category": ["Menaphos Log"],
+				"Label": "Menaphos Journal",
+				"Chunks": ["Soul Altar"]
+			},
+			"Pet ~|Nodjmet|~": {
+				"Category": ["Menaphos Log"],
+				"Label": "Menaphos Journal",
+				"Chunks": ["AnyMenaphosCatLocation[+]"]
+			},
+			"Pet ~|Blanchy|~": {
+				"Category": ["Menaphos Log"],
+				"Label": "Menaphos Journal",
+				"Chunks": ["AnyMenaphosCatLocation[+]"]
+			},
+			"Pet ~|Qat|~": {
+				"Category": ["Menaphos Log"],
+				"Label": "Menaphos Journal",
+				"Chunks": ["12330"]
+			},
 			"(Agility) Unlock the ~|Dive|~ ability": {
 				"Category": ["Unlock Abilities"],
 				"Label": "Unlockable Abilities",
@@ -125797,7 +126058,8 @@
 				"Skills": {
 					"Constitution": 50
 				},
-				"Items": ["Tuska's Wrath ability codex"]
+				"Items": ["Tuska's Wrath ability codex"],
+				"NoBoost": true
 			},
 			"(Constitution) Unlock the ~|Storm Shards|~ and Shatter abilities": {
 				"Category": ["Unlock Abilities"],
@@ -125805,7 +126067,8 @@
 				"Skills": {
 					"Constitution": 70
 				},
-				"Items": ["Storm Shards and Shatter ability codex"]
+				"Items": ["Storm Shards and Shatter ability codex"],
+				"NoBoost": true
 			},
 			"(Constitution) Unlock the ~|Guthix's Blessing|~ ability": {
 				"Category": ["Unlock Abilities"],
@@ -125823,7 +126086,8 @@
 				"Skills": {
 					"Constitution": 85
 				},
-				"Items": ["Reprisal ability codex"]
+				"Items": ["Reprisal ability codex"],
+				"NoBoost": true
 			},
 			"(Constitution) Unlock the ~|Onslaught|~ ability": {
 				"Category": ["Unlock Abilities"],
@@ -125831,7 +126095,8 @@
 				"Skills": {
 					"Constitution": 90
 				},
-				"Items": ["Onslaught ability codex"]
+				"Items": ["Onslaught ability codex"],
+				"NoBoost": true
 			},
 			"(Constitution) Unlock the ~|Ice Asylum|~ ability": {
 				"Category": ["Unlock Abilities"],
@@ -125839,12 +126104,14 @@
 				"Skills": {
 					"Constituiton": 91
 				},
-				"Items": ["Codex Ultimatus"]
+				"Items": ["Codex Ultimatus"],
+				"NoBoost": true
 			},
 			"(Defence) Unlock the ~|Devotion|~ ability": {
 				"Category": ["Unlock Abilities"],
 				"Label": "Unlockable Abilities",
-				"Items": ["Devotion ability"]
+				"Items": ["Devotion ability"],
+				"NoBoost": true
 			},
 			"(Defence) Unlock the ~|Divert|~ ability": {
 				"Category": ["Unlock Abilities"],
@@ -125852,7 +126119,8 @@
 				"Skills": {
 					"Defence": 48
 				},
-				"Items": ["Divert ability codex"]
+				"Items": ["Divert ability codex"],
+				"NoBoost": true
 			},
 			"(Defence) Unlock the ~|Natural Instinct|~ ability": {
 				"Category": ["Unlock Abilities"],
@@ -125870,7 +126138,8 @@
 				"Skills": {
 					"Magic": 10
 				},
-				"Items": ["Scare Tactics"]
+				"Items": ["Scare Tactics"],
+				"NoBoost": true
 			},
 			"(Magic) Unlock the ~|Greater Concentrated Blast|~ ability": {
 				"Category": ["Unlock Abilities"],
@@ -125878,7 +126147,8 @@
 				"Skills": {
 					"Magic": 12
 				},
-				"Items": ["Greater Concentrated blast ability codex"]
+				"Items": ["Greater Concentrated blast ability codex"],
+				"NoBoost": true
 			},
 			"(Magic) Unlock the ~|Horror|~ ability": {
 				"Category": ["Unlock Abilities"],
@@ -125886,7 +126156,8 @@
 				"Skills": {
 					"Magic": 15
 				},
-				"Items": ["Scare Tactics"]
+				"Items": ["Scare Tactics"],
+				"NoBoost": true
 			},
 			"(Magic) Unlock the ~|Greater Chain|~ ability": {
 				"Category": ["Unlock Abilities"],
@@ -125894,7 +126165,8 @@
 				"Skills": {
 					"Magic": 45
 				},
-				"Items": ["Greater Chain ability codex"]
+				"Items": ["Greater Chain ability codex"],
+				"NoBoost": true
 			},
 			"(Magic) Unlock the ~|Magma Tempest|~ ability": {
 				"Category": ["Unlock Abilities"],
@@ -125902,7 +126174,8 @@
 				"Skills": {
 					"Magic": 66
 				},
-				"Items": ["Magma Tempest ability codex"]
+				"Items": ["Magma Tempest ability codex"],
+				"NoBoost": true
 			},
 			"(Magic) Unlock the ~|Corruption Blast|~ ability": {
 				"Category": ["Unlock Abilities"],
@@ -125910,7 +126183,8 @@
 				"Skills": {
 					"Magic": 70
 				},
-				"Items": ["Corruption Blast ability codex"]
+				"Items": ["Corruption Blast ability codex"],
+				"NoBoost": true
 			},	
 			"(Magic) Unlock the ~|Smoke Tendrils|~ ability": {
 				"Category": ["Unlock Abilities"],
@@ -125918,7 +126192,8 @@
 				"Skills": {
 					"Magic": 75
 				},
-				"Items": ["Codex Ultimatus"]
+				"Items": ["Codex Ultimatus"],
+				"NoBoost": true
 			},
 			"(Magic) Unlock the ~|Greater Sonic Wave|~ ability": {
 				"Category": ["Unlock Abilities"],
@@ -125926,7 +126201,8 @@
 				"Skills": {
 					"Magic": 75
 				},
-				"Items": ["Greater Sonic Wave ability codex"]
+				"Items": ["Greater Sonic Wave ability codex"],
+				"NoBoost": true
 			},
 			"(Magic) Unlock the ~|Sunshine|~ ability": {
 				"Category": ["Unlock Abilities"],
@@ -125947,7 +126223,8 @@
 				"Tasks": {
 					"~|The World Wakes|~ Complete the quest": "Quest"
 				},
-				"Items": ["Greater Deaths' Swiftness ability codex"]
+				"Items": ["Greater Deaths' Swiftness ability codex"],
+				"NoBoost": true
 			},
 			"(Melee) Unlock the ~|Greater Fury|~ ability": {
 				"Category": ["Unlock Abilities"],
@@ -125955,7 +126232,8 @@
 				"Skills": {
 					"Strength": 24
 				},
-				"Items": ["Greater Fury ability codex"]
+				"Items": ["Greater Fury ability codex"],
+				"NoBoost": true
 			},
 			"(Melee) Unlock the ~|Greater Barge|~ ability": {
 				"Category": ["Unlock Abilities"],
@@ -125963,7 +126241,8 @@
 				"Skills": {
 					"Attack": 30
 				},
-				"Items": ["Greater Barge ability codex"]
+				"Items": ["Greater Barge ability codex"],
+				"NoBoost": true
 			},
 			"(Melee) Unlock the ~|Greater Flurry|~ ability": {
 				"Category": ["Unlock Abilities"],
@@ -125971,7 +126250,8 @@
 				"Skills": {
 					"Attack": 37
 				},
-				"Items": ["Greater Flurry ability codex"]
+				"Items": ["Greater Flurry ability codex"],
+				"NoBoost": true
 			},
 			"(Melee) Unlock the ~|Bladed Dive|~ ability": {
 				"Category": ["Unlock Abilities"],
@@ -125979,7 +126259,8 @@
 				"Skills": {
 					"Melee": 65
 				},
-				"Items": ["Bladed Dive ability"]
+				"Items": ["Bladed Dive ability"],
+				"NoBoost": true
 			},
 			"(Melee) Unlock the ~|Blood Tendrils|~ ability": {
 				"Category": ["Unlock Abilities"],
@@ -125987,7 +126268,8 @@
 				"Skills": {
 					"Attack": 75
 				},
-				"Items": ["Codex Ultimatus"]
+				"Items": ["Codex Ultimatus"],
+				"NoBoost": true
 			},
 			"(Melee) Unlock the ~|Balanced Strike|~ ability": {
 				"Category": ["Unlock Abilities"],
@@ -126005,7 +126287,8 @@
 				"Skills": {
 					"Strength": 92
 				},
-				"Items": ["Chaos Roar ability codex"]
+				"Items": ["Chaos Roar ability codex"],
+				"NoBoost": true
 			},
 			"(Necromancy) Unlock the ~|Invoke Lord of Bones|~ incantation": {
 				"Category": ["Unlock Abilities"],
@@ -126013,7 +126296,8 @@
 				"Skills": {
 					"Necromancy": 75
 				},
-				"Items": ["Invoke Lord of Bones incantation codex"]
+				"Items": ["Invoke Lord of Bones incantation codex"],
+				"NoBoost": true
 			},
 			"(Necromancy) Unlock the ~|Conjure Skeleton Warrior|~ ability": {
 				"Category": ["Unlock Abilities"],
@@ -126021,7 +126305,8 @@
 				"Skills": {
 					"Necromancy": 2
 				},
-				"Chunks": ["City of Um"]
+				"Chunks": ["City of Um"],
+				"NoBoost": true
 			},
 			"(Necromancy) Unlock the ~|Command Skeleton Warrior|~ ability": {
 				"Category": ["Unlock Abilities"],
@@ -126029,7 +126314,8 @@
 				"Skills": {
 					"Necromancy": 20
 				},
-				"Chunks": ["City of Um"]
+				"Chunks": ["City of Um"],
+				"NoBoost": true
 			},
 			"(Necromancy) Unlock the ~|Conjure Vengeful Ghost|~ ability": {
 				"Category": ["Unlock Abilities"],
@@ -126040,7 +126326,8 @@
 				"Tasks": {
 					"~|Rune Mythos|~ Complete the quest": "Quest"
 				},
-				"Chunks": ["City of Um"]
+				"Chunks": ["City of Um"],
+				"NoBoost": true
 			},
 			"(Necromancy) Unlock the ~|Conjure Putrid Zombie|~ ability": {
 				"Category": ["Unlock Abilities"],
@@ -126051,7 +126338,8 @@
 				"Tasks": {
 					"~|Rune Mythos|~ Complete the quest": "Quest"
 				},
-				"Chunks": ["City of Um"]
+				"Chunks": ["City of Um"],
+				"NoBoost": true
 			},
 			"(Necromancy) Unlock the ~|Threads of Fate|~ incantation": {
 				"Category": ["Unlock Abilities"],
@@ -126062,7 +126350,8 @@
 				"Tasks": {
 					"~|Rune Mythos|~ Complete the quest": "Quest"
 				},
-				"Chunks": ["City of Um"]
+				"Chunks": ["City of Um"],
+				"NoBoost": true
 			},
 			"(Necromancy) Unlock the ~|Command Vengeful Ghost|~ ability": {
 				"Category": ["Unlock Abilities"],
@@ -126073,7 +126362,8 @@
 				"Tasks": {
 					"~|Rune Mythos|~ Complete the quest": "Quest"
 				},
-				"Chunks": ["City of Um"]
+				"Chunks": ["City of Um"],
+				"NoBoost": true
 			},
 			"(Necromancy) Unlock the ~|Command Putrid Zombie|~ ability": {
 				"Category": ["Unlock Abilities"],
@@ -126084,7 +126374,8 @@
 				"Tasks": {
 					"~|Rune Mythos|~ Complete the quest": "Quest"
 				},
-				"Chunks": ["City of Um"]
+				"Chunks": ["City of Um"],
+				"NoBoost": true
 			},
 			"(Necromancy) Unlock the ~|Spectral Scythe|~ ability": {
 				"Category": ["Unlock Abilities"],
@@ -126092,7 +126383,8 @@
 				"Skills": {
 					"Necromancy": 62
 				},
-				"Chunks": ["City of Um"]
+				"Chunks": ["City of Um"],
+				"NoBoost": true
 			},
 			"(Necromancy) Unlock the ~|Greater Bone Shield|~ incantation": {
 				"Category": ["Unlock Abilities"],
@@ -126100,7 +126392,8 @@
 				"Skills": {
 					"Necromancy": 73
 				},
-				"Chunks": ["City of Um"]
+				"Chunks": ["City of Um"],
+				"NoBoost": true
 			},
 			"(Necromancy) Unlock the ~|Spectral Scythe#Cast 2|~ ability": {
 				"Category": ["Unlock Abilities"],
@@ -126108,7 +126401,8 @@
 				"Skills": {
 					"Necromancy": 70
 				},
-				"Chunks": ["City of Um"]
+				"Chunks": ["City of Um"],
+				"NoBoost": true
 			},
 			"(Necromancy) Unlock the ~|Conjure Phantom Guardian|~ ability": {
 				"Category": ["Unlock Abilities"],
@@ -126116,7 +126410,8 @@
 				"Skills": {
 					"Necromancy": 70
 				},
-				"Chunks": ["City of Um"]
+				"Chunks": ["City of Um"],
+				"NoBoost": true
 			},
 			"(Necromancy) Unlock the ~|Life Transfer|~ incantation": {
 				"Category": ["Unlock Abilities"],
@@ -126127,7 +126422,8 @@
 				"Tasks": {
 					"~|Tomes of the Warlock|~ Complete the quest": "Quest"
 				},
-				"Chunks": ["City of Um"]
+				"Chunks": ["City of Um"],
+				"NoBoost": true
 			},
 			"(Necromancy) Unlock the ~|Darkness|~ incantation": {
 				"Category": ["Unlock Abilities"],
@@ -126138,7 +126434,8 @@
 				"Tasks": {
 					"~|Tomes of the Warlock|~ Complete the quest": "Quest"
 				},
-				"Chunks": ["City of Um"]
+				"Chunks": ["City of Um"],
+				"NoBoost": true
 			},
 			"(Necromancy) Unlock the ~|Spectral Scythe#Cast 3|~ ability": {
 				"Category": ["Unlock Abilities"],
@@ -126149,7 +126446,8 @@
 				"Tasks": {
 					"~|Rune Mythos|~ Complete the quest": "Quest"
 				},
-				"Chunks": ["City of Um"]
+				"Chunks": ["City of Um"],
+				"NoBoost": true
 			},
 			"(Necromancy) Unlock the ~|Command Phantom Guardian|~ ability": {
 				"Category": ["Unlock Abilities"],
@@ -126157,7 +126455,8 @@
 				"Skills": {
 					"Necromancy": 80
 				},
-				"Chunks": ["City of Um"]
+				"Chunks": ["City of Um"],
+				"NoBoost": true
 			},
 			"(Necromancy) Unlock the ~|Invoke Death|~ incantation": {
 				"Category": ["Unlock Abilities"],
@@ -126168,7 +126467,8 @@
 				"Tasks": {
 					"~|Tomes of the Warlock|~ Complete the quest": "Quest"
 				},
-				"Chunks": ["City of Um"]
+				"Chunks": ["City of Um"],
+				"NoBoost": true
 			},
 			"(Necromancy) Unlock the ~|Split Soul|~ incantation": {
 				"Category": ["Unlock Abilities"],
@@ -126179,7 +126479,8 @@
 				"Tasks": {
 					"~|The Temple at Senntisten|~ Complete the quest": "Quest"
 				},
-				"Chunks": ["City of Um"]
+				"Chunks": ["City of Um"],
+				"NoBoost": true
 			},
 			"(Necromancy) Unlock the ~|Conjure Undead Army|~ incantation": {
 				"Category": ["Unlock Abilities"],
@@ -126187,7 +126488,8 @@
 				"Skills": {
 					"Necromancy": 99
 				},
-				"Chunks": ["City of Um"]
+				"Chunks": ["City of Um"],
+				"NoBoost": true
 			},
 			"(Ranged) Unlock the ~|Demoralise|~ ability": {
 				"Category": ["Unlock Abilities"],
@@ -126195,7 +126497,8 @@
 				"Skills": {
 					"Ranged": 10
 				},
-				"Items": ["Scare Tactics"]
+				"Items": ["Scare Tactics"],
+				"NoBoost": true
 			},
 			"(Ranged) Unlock the ~|Rout|~ ability": {
 				"Category": ["Unlock Abilities"],
@@ -126203,7 +126506,8 @@
 				"Skills": {
 					"Ranged": 15
 				},
-				"Items": ["Scare Tactics"]
+				"Items": ["Scare Tactics"],
+				"NoBoost": true
 			},
 			"(Ranged) Unlock the ~|Greater Ricochet|~ ability": {
 				"Category": ["Unlock Abilities"],
@@ -126211,7 +126515,8 @@
 				"Skills": {
 					"Ranged": 45
 				},
-				"Items": ["Greater Ricochet ability codex"]
+				"Items": ["Greater Ricochet ability codex"],
+				"NoBoost": true
 			},
 			"(Ranged) Unlock the ~|Salt the Wound|~ and Greater Dazing Shot abilities": {
 				"Category": ["Unlock Abilities"],
@@ -126219,7 +126524,8 @@
 				"Skills": {
 					"Ranged": 60
 				},
-				"Items": ["Salt the Wound ability"]
+				"Items": ["Salt the Wound ability"],
+				"NoBoost": true
 			},
 			"(Ranged) Unlock the ~|Corruption Shot|~ ability": {
 				"Category": ["Unlock Abilities"],
@@ -126227,7 +126533,8 @@
 				"Skills": {
 					"Ranged": 70
 				},
-				"Items": ["Corruption Shot ability codex"]
+				"Items": ["Corruption Shot ability codex"],
+				"NoBoost": true
 			},
 			"(Ranged) Unlock the ~|Shadow Tendrils|~ ability": {
 				"Category": ["Unlock Abilities"],
@@ -126235,7 +126542,8 @@
 				"Skills": {
 					"Ranged": 75
 				},
-				"Items": ["Codex Ultimatus"]
+				"Items": ["Codex Ultimatus"],
+				"NoBoost": true
 			},
 			"(Ranged) Unlock the ~|Death's Swiftness|~ ability": {
 				"Category": ["Unlock Abilities"],
@@ -126256,7 +126564,8 @@
 				"Tasks": {
 					"~|The World Wakes|~ Complete the quest": "Quest"
 				},
-				"Items": ["Greater Deaths' Swiftness ability codex"]
+				"Items": ["Greater Deaths' Swiftness ability codex"],
+				"NoBoost": true
 			},
 			"(Sigil) Unlock the ~|Slayer's Insight|~ ability": {
 				"Category": ["Unlock Abilities", "Sigil Abilities"],
@@ -126304,7 +126613,8 @@
 				"Skills": {
 					"Magic": 55
 				},
-				"Items": ["Golden Touch codex"]
+				"Items": ["Golden Touch codex"],
+				"NoBoost": true
 			},
 			"Unlock the ~|Knight Waves training ground|~ prayers": {
 				"Category": ["Unlock Prayers"],
@@ -150329,6 +150639,9 @@
 			},
 			"Zuk fight requirement": {
 				"Monsters": ["TzKal-Zuk"]
+			},
+			"Menaphos VIP Area": {
+				"Chunks": ["12586"]
 			}
 		}
 	},
@@ -195614,7 +195927,7 @@
 				"Off-hand black scimitar",
 				"Off-hand black sword",
 				"Off-hand black warhammer",
-				"Steel scimitar"
+				"Black scimitar"
 			],
 			"BlisterwoodWeapon[+]": [
 				"Blisterwood polearm",
@@ -257855,6 +258168,9 @@
 			}],
 			"Grimy fellstalk^": [{
 				"Members only": "Nonskill"
+			}],
+			"Phenakite^": [{
+				"Menaphos VIP Area": "Nonskill"
 			}]
 		},
 		"Monsters": {
@@ -270761,6 +271077,17 @@
 				"Staff of Armadyl's fractured shaft": {
 					"1": "Always"
 				}
+			},
+			"Luminous wisp loot": {
+				"Luminous energy": {
+					"3": "Always"
+				},
+				"Fly dragon": {
+					"1": "1/800"
+				},
+				"Fruit fly": {
+					"1": "1/800"
+				}
 			}
 		},
 		"Dungeoneering": {
@@ -272386,6 +272713,14 @@
 				"Strange egg": {
 					"1": "Very rare"
 				}
+			},
+			"Acadia log burning": {
+				"Fruit fly in amber": {
+					"1": "1/800"
+				},
+				"Menaphite honey bee": {
+					"1": "1/800"
+				}
 			}
 		},
 		"Fishing": {
@@ -272796,6 +273131,23 @@
 				},
 				"A Massacrer of Moles": {
 					"1": "Rare"
+				}
+			},
+			"Menaphos fishing": {
+				"Wavecrest opal": {
+					"1": "1/3000"
+				},
+				"Maw coral": {
+					"1": "1/3000"
+				},
+				"Desert locust in amber": {
+					"1": "1/3000"
+				},
+				"Clicker kalphite in amber": {
+					"1": "1/3000"
+				},
+				"Slimy egg": {
+					"1": "1/3000"
 				}
 			}
 		},
@@ -278336,6 +278688,35 @@
 				},
 				"Starbloom flower seed": {
 					"1": "1/200"
+				}
+			},
+			"Mineral Deposit": {
+				"Sandstone (10kg)": {
+					"1": "1/4"
+				}, 
+				"Sandstone (5kg)": {
+					"1": "1/4"
+				}, 
+				"Sandstone (2kg)": {
+					"1": "1/4"
+				}, 
+				"Sandstone (1kg)": {
+					"1": "1/4"
+				},
+				"Crondite": {
+					"1": "1/3000"
+				},
+				"Phenakite": {
+					"1": "1/3000"
+				},
+				"Umesco arpos": {
+					"1": "1/3000"
+				},
+				"Menaphite honey bee in amber": {
+					"1": "1/3000"
+				},
+				"Pygmy giant scarab in amber": {
+					"1": "1/3000"
 				}
 			}
 		},
@@ -297679,6 +298060,9 @@
 				},
 				"Off-hand khopesh of the Kharidian": {
 					"1": "1/800"
+				},
+				"Corundum": {
+					"1": "1/750"
 				}
 			}	
 		},
@@ -297781,6 +298165,17 @@
 				},
 				"A Massacrer of Moles": {
 					"1": "Rare"
+				}
+			},
+			"Acadia Menaphos woodcutting": {
+				"Desert locust": {
+					"1": "1/800"
+				},
+				"Kalphite wanderer": {
+					"1": "1/800"
+				},
+				"Hornless unicornfly": {
+					"1": "1/800"
 				}
 			}
 		},
@@ -298251,6 +298646,9 @@
 				},
 				"Black ibis boots": {
 					"1": "Always"
+				},
+				"Menaphyrite": {
+					"1": "1/100"
 				}
 			},
 			"Familiarisation rewards": {
