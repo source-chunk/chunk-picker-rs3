@@ -12346,6 +12346,7 @@ let loadData = async function(startup) {
             rulesTemp['Untracked Uniques Skilling'] = rulesTemp.hasOwnProperty('Untracked Uniques') ? rulesTemp['Untracked Uniques'] : false;
         }
 		
+		
 		if (!rulesTemp.hasOwnProperty('Untracked Uniques Combat')) {
             rulesTemp['Untracked Uniques Combat'] = rulesTemp.hasOwnProperty('Untracked Uniques') ? rulesTemp['Untracked Uniques'] : false;
         }
@@ -12357,6 +12358,10 @@ let loadData = async function(startup) {
 		if (!rulesTemp.hasOwnProperty('Untracked Uniques Misc')) {
             rulesTemp['Untracked Uniques Misc'] = rulesTemp.hasOwnProperty('Untracked Uniques') ? rulesTemp['Untracked Uniques'] : false;
 		}
+		
+		if (!rulesTemp.hasOwnProperty('Menaphos Log')) {
+            rulesTemp['Menaphos Log'] = rulesTemp.hasOwnProperty('Arc Log') ? rulesTemp['Arc Log'] : false;
+        }
 		
 		if (!rulesTemp.hasOwnProperty('Misc achievements')) {
             rulesTemp['Misc achievements'] = rulesTemp.hasOwnProperty('Achievement') ? rulesTemp['Achievement'] : false;

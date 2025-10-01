@@ -125891,7 +125891,7 @@
 			"Find ~|alaeite|~": {
 				"Category": ["Menaphos Log"],
 				"Label": "Menaphos Journal",
-				"Chunks": ["12548"]
+				"Chunks": ["12584"]
 			},
 			"Find a ~|hetite stone|~": {
 				"Category": ["Menaphos Log"],
@@ -125901,7 +125901,7 @@
 					"Corrupted creature task": "Nonskill"
 				}
 			},
-			"Find a ~|Aminishi miststone|~": {
+			"Find an ~|Aminishi miststone|~": {
 				"Category": ["Menaphos Log"],
 				"Label": "Menaphos Journal",
 				"Items": ["Spices"],
@@ -140833,7 +140833,7 @@
 				}
 			},
 			"Obtain the ~|Sandy (title)|~": {
-				"Category": ["Titles"],
+				"Category": ["Titles", "Menaphos Log"],
 				"Label": "Titles",
 				"Chunks": [
 					"13097",
@@ -141528,7 +141528,7 @@
 				]
 			},
 			"Obtain the ~|Salty|~ title": {
-				"Category": ["Titles"],
+				"Category": ["Titles", "Arc Log"],
 				"Label": "Titles",
 				"Chunks": ["The Arc", "12082"],
 				"Items": ["Bonecrusher", "Raw seerfish", "Raw tarpon", "Raw sillago", "Raw wobbegong"],

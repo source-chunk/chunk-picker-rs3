@@ -12337,7 +12337,7 @@
   "Find ~|crondite|~": "t_111590",
   "Find ~|alaeite|~": "t_111591",
   "Find a ~|hetite stone|~": "t_111592",
-  "Find a ~|Aminishi miststone|~": "t_111593",
+  "Find an ~|Aminishi miststone|~": "t_111618",
   "Find ~|hauyne|~": "t_111594",
   "Find a ~|scabarite crystal|~": "t_111595",
   "Find ~|Tuai Leit sparkle|~": "t_111596",
@@ -87735,5 +87735,5 @@
   "Pizazz points: ~|Law rune|~": "t_52855",
   "Pizazz points: ~|Soul rune|~": "t_52856",
   "Pizazz points: ~|Blood rune|~": "t_52857",
-  "currentNextIndex": 111618
+  "currentNextIndex": 111619
 }
