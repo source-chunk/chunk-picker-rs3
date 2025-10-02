@@ -8277,7 +8277,8 @@
 				"Primary": false,
 				"Priority": 2,
 				"NoPet": true,
-				"NoBoost": true
+				"NoBoost": true,
+				"Not F2P": true
 			},
 			"Wield ~|Dharok's greataxe|~": {
 				"Items": ["Dharok's greataxe"],
@@ -18372,7 +18373,8 @@
 				"Level": 58,
 				"Output": "Pitta dough",
 				"Primary": true,
-				"Priority": 1
+				"Priority": 1,
+				"Not F2P": true
 			},
 			"Make a ~|pitta dough|~ from a water source": {
 				"Category": ["Token"],
@@ -18381,7 +18383,8 @@
 				"Level": 58,
 				"Output": "Pitta dough",
 				"Primary": true,
-				"Priority": 2
+				"Priority": 2,
+				"Not F2P": true
 			},
 			"Bake ~|pitta bread|~": {
 				"Items": ["Pitta dough*"],
@@ -21817,9 +21820,10 @@
 			},
 			"Decorate a ~|heraldic banner|~": {
 				"Objects": ["Banner easel"],
-				"Items": ["Plank*", "Bolts of cloth*"],
+				"Items": ["Plank*", "Bolt of cloth*"],
 				"Level": 48,
 				"Primary": false,
+				"Output": "Banner (Fairy)",
 				"Priority": 4
 			},
 			"Craft a ~|strong smithing urn (unfired)|~": {
@@ -28204,7 +28208,7 @@
 			"Harvest a ~|luminous wisp|~": {
 				"NPCs": ["Luminous wisp"],
 				"Level": 90,
-				"Output": "Luminous energy",
+				"Output": "Luminous wisp loot",
 				"Primary": true,
 				"Priority": 1
 			},
@@ -36307,6 +36311,7 @@
 				"Level": 47,
 				"Output": "Ashes",
 				"Output Object": "Player fire",
+				"Output": "Acadia log burning",
 				"Primary": true,
 				"Priority": 6
 			},
@@ -38162,6 +38167,14 @@
 				"Primary": true,
 				"Output": "Raw desert sole",
 				"Priority": 1
+			},
+			"Fish at a ~|fishing spot (Menaphos)|~": {
+				"Items": ["Fishing bait"],
+				"Level": 52,
+				"Objects": ["Fishing spot (Menaphos)"],
+				"Primary": true,
+				"Output": "Menaphos fishing",
+				"Priority": 1000
 			},
 			"Catch a ~|raw lava eel|~": {
 				"Items": ["Oily fishing rod", "Fishing bait"],
@@ -50262,7 +50275,8 @@
 				"Items": ["Nature rune*"],
 				"Level": 79,
 				"Primary": true,
-				"Priority": 1
+				"Priority": 1,
+				"Not F2P": true
 			},
 			"Cast ~|tele-group Khazard|~": {
 				"Category": ["Spells", "Combat and Teleport Spells"],
@@ -52036,7 +52050,7 @@
 				"NoPet": true,
 				"NoBoost": true
 			},
-			"Obtain the ~|archmage|~ title": {
+			"Obtain the ~|Archmage|~ title": {
 				"Category": ["Titles"],
 				"Chunks": ["12337"],
 				"Level": 99,
@@ -52642,7 +52656,7 @@
 				"Level": 50,
 				"Objects": ["Mineral deposit"],
 				"Primary": true,
-				"Output": "Sandstone",
+				"Output": "Mineral Deposit",
 				"Priority": 3
 			},
 			"Access the ~|mining guild|~": {
@@ -60764,7 +60778,7 @@
 				},
 				"Priority": 1
 			},
-			"Obtain the ~|archmage|~ title": {
+			"Obtain the ~|Archmage|~ title": {
 				"Category": ["Titles"],
 				"Chunks": ["12337"],
 				"Level": 99,
@@ -66356,7 +66370,8 @@
 				"Primary": false,
 				"Priority": 1,
 				"NoPet": true,
-				"NoBoost": true
+				"NoBoost": true,
+				"Not F2P": true
 			},
 			"Wield ~|Torag's hammers|~": {
 				"Items": ["Torag's hammer"],
@@ -70770,7 +70785,15 @@
 				"Output": "Acadia logs",
 				"Primary": true,
 				"Priority": 1
-			},	
+			},
+			"Cut an ~|acadia tree|~ in Menaphos": {
+				"Level": 50,
+				"Objects": ["Acadia tree"],
+				"Chunks": ["12586"],
+				"Output": "Acadia Menaphos woodcutting",
+				"Primary": true,
+				"Priority": 1
+			},
 			"Cut ~|mahogany logs|~": {
 				"Level": 60,
 				"Objects": ["Mahogany"],
@@ -121927,7 +121950,7 @@
 					"~|Completionist achievements#Master Quest Cape|~ Power of Three Spirits": "Diary",
 					"~|Completionist achievements#Master Quest Cape|~ Pulling on the Threads": "Diary",
 					"~|Completionist achievements#Master Quest Cape|~ Pure Newbstalgia": "Diary",
-					"~|Completionist achievements#Master Quest Cape|~ Quest Cape ": "Diary",
+					"~|Completionist achievements#Master Quest Cape|~ Quest Cape": "Diary",
 					"~|Completionist achievements#Master Quest Cape|~ Quiet But Deadly Lore": "Diary",
 					"~|Completionist achievements#Master Quest Cape|~ Red Sky All the Time, Shepherds Confused": "Diary",
 					"~|Completionist achievements#Master Quest Cape|~ Redistribution of knowledge": "Diary",
@@ -124363,7 +124386,7 @@
 					"~|Completionist achievements#Completionist Cape|~ Elven Titles": "Diary",
 					"~|Completionist achievements#Completionist Cape|~ Famous": "Diary",
 					"~|Completionist achievements#Trimmed Completionist Cape|~ Who Will Be Her Lover?": "Diary",
-					"~|Completionist achievements#Completionist Cape|~ Quest Cape ": "Diary"
+					"~|Completionist achievements#Completionist Cape|~ Quest Cape": "Diary"
 				},
 				"Not F2P": true
 			},
@@ -125760,6 +125783,250 @@
 				"NPCs": ["Flipper McGraw"],
 				"Items": ["ArcFish[+]"]
 			},
+			"Find a ~|Menaphite honey bee in amber|~": {
+				"Category": ["Menaphos Log"],
+				"Label": "Menaphos Journal",
+				"Items": ["Menaphite honey bee in amber"]
+			},
+			"Find a ~|pygmy giant scarab in amber|~": {
+				"Category": ["Menaphos Log"],
+				"Label": "Menaphos Journal",
+				"Items": ["Pygmy giant scarab in amber"]
+			},
+			"Find a ~|desert locust in amber|~": {
+				"Category": ["Menaphos Log"],
+				"Label": "Menaphos Journal",
+				"Items": ["Desert locust in amber"]
+			},
+			"Find a ~|kalphite wanderer in amber|~": {
+				"Category": ["Menaphos Log"],
+				"Label": "Menaphos Journal",
+				"Items": ["Kalphite wanderer in amber"]
+			},
+			"Find a ~|hornless unicornfly in amber|~": {
+				"Category": ["Menaphos Log"],
+				"Label": "Menaphos Journal",
+				"Items": ["Hornless unicornfly in amber"]
+			},
+			"Find a ~|fly dragon in amber|~": {
+				"Category": ["Menaphos Log"],
+				"Label": "Menaphos Journal",
+				"Items": ["Fly dragon in amber"]
+			},
+			"Find a ~|fruit fly in amber|~": {
+				"Category": ["Menaphos Log"],
+				"Label": "Menaphos Journal",
+				"Items": ["Fruit fly in amber"]
+			},
+			"Find a ~|Menaphite honey bee|~": {
+				"Category": ["Menaphos Log"],
+				"Label": "Menaphos Journal",
+				"Items": ["Menaphite honey bee"]
+			},
+			"Find a ~|pygmy giant scarab|~": {
+				"Category": ["Menaphos Log"],
+				"Label": "Menaphos Journal",
+				"Items": ["Pygmy giant scarab"]
+			},
+			"Find a ~|desert locust|~": {
+				"Category": ["Menaphos Log"],
+				"Label": "Menaphos Journal",
+				"Items": ["Desert locust"]
+			},
+			"Find a ~|kalphite wanderer|~": {
+				"Category": ["Menaphos Log"],
+				"Label": "Menaphos Journal",
+				"Items": ["Kalphite wanderer"]
+			},
+			"Find a ~|hornless unicornfly|~": {
+				"Category": ["Menaphos Log"],
+				"Label": "Menaphos Journal",
+				"Items": ["Hornless unicornfly"]
+			},
+			"Find a ~|fly dragon|~": {
+				"Category": ["Menaphos Log"],
+				"Label": "Menaphos Journal",
+				"Items": ["Fly dragon"]
+			},
+			"Find a ~|fruit fly|~": {
+				"Category": ["Menaphos Log"],
+				"Label": "Menaphos Journal",
+				"Items": ["Fruit fly"]
+			},
+			"Find ~|phenakite|~": {
+				"Category": ["Menaphos Log"],
+				"Label": "Menaphos Journal",
+				"Items": ["Phenakite"]
+			},
+			"Find ~|menaphyrite|~": {
+				"Category": ["Menaphos Log"],
+				"Label": "Menaphos Journal",
+				"Items": ["Menaphyrite"]
+			},
+			"Find ~|waikonite|~": {
+				"Category": ["Menaphos Log"],
+				"Label": "Menaphos Journal",
+				"Items": ["Waikonite"]
+			},
+			"Find ~|corundum|~": {
+				"Category": ["Menaphos Log"],
+				"Label": "Menaphos Journal",
+				"Items": ["Corundum"]
+			},
+			"Find ~|wavecrest opal|~": {
+				"Category": ["Menaphos Log"],
+				"Label": "Menaphos Journal",
+				"Items": ["Wavecrest opal"]
+			},
+			"Find ~|maw coral|~": {
+				"Category": ["Menaphos Log"],
+				"Label": "Menaphos Journal",
+				"Items": ["Maw coral"]
+			},
+			"Find ~|crondite|~": {
+				"Category": ["Menaphos Log"],
+				"Label": "Menaphos Journal",
+				"Items": ["Crondite"]
+			},
+			"Find ~|alaeite|~": {
+				"Category": ["Menaphos Log"],
+				"Label": "Menaphos Journal",
+				"Chunks": ["12584"]
+			},
+			"Find a ~|hetite stone|~": {
+				"Category": ["Menaphos Log"],
+				"Label": "Menaphos Journal",
+				"Chunks": ["Sophanem Slayer Dungeon"],
+				"Tasks": {
+					"Corrupted creature task": "Nonskill"
+				}
+			},
+			"Find an ~|Aminishi miststone|~": {
+				"Category": ["Menaphos Log"],
+				"Label": "Menaphos Journal",
+				"Items": ["Spices"],
+				"NPCs": ["Aminishi gem trader"]
+			},
+			"Find ~|hauyne|~": {
+				"Category": ["Menaphos Log"],
+				"Label": "Menaphos Journal",
+				"Tasks": {
+					"~|The Jack of Spades|~ Complete the quest": "Quest"
+				}
+			},
+			"Find a ~|scabarite crystal|~": {
+				"Category": ["Menaphos Log"],
+				"Label": "Menaphos Journal",
+				"Chunks": ["12587"]
+			},
+			"Find ~|Tuai Leit sparkle|~": {
+				"Category": ["Menaphos Log"],
+				"Label": "Menaphos Journal",
+				"Items": ["Bamboo"],
+				"NPCs": ["Tual Leit gem trader"]
+			},
+			"Find ~|idocrase|~": {
+				"Category": ["Menaphos Log"],
+				"Label": "Menaphos Journal",
+				"Tasks": {
+					"~|The Jack of Spades|~ Complete the quest": "Quest"
+				}
+			},
+			"Find ~|Apmeken amethyst|~": {
+				"Category": ["Menaphos Log"],
+				"Label": "Menaphos Journal",
+				"Chunks": ["12587"]
+			},
+			"Find ~|umesco arpos|~": {
+				"Category": ["Menaphos Log"],
+				"Label": "Menaphos Journal",
+				"Items": ["Umesco arpos"]
+			},
+			"Pet ~|Anukat|~": {
+				"Category": ["Menaphos Log"],
+				"Label": "Menaphos Journal",
+				"Chunks": ["12586"]
+			},
+			"Pet ~|Bestopet|~": {
+				"Category": ["Menaphos Log"],
+				"Label": "Menaphos Journal",
+				"Chunks": ["Shifting Tombs"]
+			},
+			"Pet ~|Oedipuss|~": {
+				"Category": ["Menaphos Log"],
+				"Label": "Menaphos Journal",
+				"Chunks": ["12585"]
+			},
+			"Pet ~|Hetepheres|~": {
+				"Category": ["Menaphos Log"],
+				"Label": "Menaphos Journal",
+				"Chunks": ["AnyMenaphosCatLocation[+]"]
+			},
+			"Pet ~|Lucifurr|~": {
+				"Category": ["Menaphos Log"],
+				"Label": "Menaphos Journal",
+				"Chunks": ["AnyMenaphosCatLocation[+]"]
+			},
+			"Pet ~|Jennifurr|~": {
+				"Category": ["Menaphos Log"],
+				"Label": "Menaphos Journal",
+				"Chunks": ["Pyramid Plunder"]
+			},
+			"Pet ~|Katarina|~": {
+				"Category": ["Menaphos Log"],
+				"Label": "Menaphos Journal",
+				"Chunks": ["Sophanem Slayer Dungeon"]
+			},
+			"Pet ~|Shebit|~": {
+				"Category": ["Menaphos Log"],
+				"Label": "Menaphos Journal",
+				"Chunks": ["12587"]
+			},
+			"Pet ~|Oedipuss|~": {
+				"Category": ["Menaphos Log"],
+				"Label": "Menaphos Journal",
+				"Chunks": ["12585"]
+			},
+			"Pet ~|Takhuit|~": {
+				"Category": ["Menaphos Log"],
+				"Label": "Menaphos Journal",
+				"Chunks": ["AnyMenaphosCatLocation[+]"]
+			},
+			"Pet ~|Catsanova|~": {
+				"Category": ["Menaphos Log"],
+				"Label": "Menaphos Journal",
+				"Chunks": ["12843"]
+			},
+			"Pet ~|The Postcat|~": {
+				"Category": ["Menaphos Log"],
+				"Label": "Menaphos Journal",
+				"Chunks": ["12588"]
+			},
+			"Pet ~|Fenekh|~": {
+				"Category": ["Menaphos Log"],
+				"Label": "Menaphos Journal",
+				"Chunks": ["AnyMenaphosCatLocation[+]"]
+			},
+			"Pet ~|Tefimhet|~": {
+				"Category": ["Menaphos Log"],
+				"Label": "Menaphos Journal",
+				"Chunks": ["Soul Altar"]
+			},
+			"Pet ~|Nodjmet|~": {
+				"Category": ["Menaphos Log"],
+				"Label": "Menaphos Journal",
+				"Chunks": ["AnyMenaphosCatLocation[+]"]
+			},
+			"Pet ~|Blanchy|~": {
+				"Category": ["Menaphos Log"],
+				"Label": "Menaphos Journal",
+				"Chunks": ["AnyMenaphosCatLocation[+]"]
+			},
+			"Pet ~|Qat|~": {
+				"Category": ["Menaphos Log"],
+				"Label": "Menaphos Journal",
+				"Chunks": ["12330"]
+			},
 			"(Agility) Unlock the ~|Dive|~ ability": {
 				"Category": ["Unlock Abilities"],
 				"Label": "Unlockable Abilities",
@@ -125791,7 +126058,8 @@
 				"Skills": {
 					"Constitution": 50
 				},
-				"Items": ["Tuska's Wrath ability codex"]
+				"Items": ["Tuska's Wrath ability codex"],
+				"NoBoost": true
 			},
 			"(Constitution) Unlock the ~|Storm Shards|~ and Shatter abilities": {
 				"Category": ["Unlock Abilities"],
@@ -125799,7 +126067,8 @@
 				"Skills": {
 					"Constitution": 70
 				},
-				"Items": ["Storm Shards and Shatter ability codex"]
+				"Items": ["Storm Shards and Shatter ability codex"],
+				"NoBoost": true
 			},
 			"(Constitution) Unlock the ~|Guthix's Blessing|~ ability": {
 				"Category": ["Unlock Abilities"],
@@ -125817,7 +126086,8 @@
 				"Skills": {
 					"Constitution": 85
 				},
-				"Items": ["Reprisal ability codex"]
+				"Items": ["Reprisal ability codex"],
+				"NoBoost": true
 			},
 			"(Constitution) Unlock the ~|Onslaught|~ ability": {
 				"Category": ["Unlock Abilities"],
@@ -125825,7 +126095,8 @@
 				"Skills": {
 					"Constitution": 90
 				},
-				"Items": ["Onslaught ability codex"]
+				"Items": ["Onslaught ability codex"],
+				"NoBoost": true
 			},
 			"(Constitution) Unlock the ~|Ice Asylum|~ ability": {
 				"Category": ["Unlock Abilities"],
@@ -125833,12 +126104,14 @@
 				"Skills": {
 					"Constituiton": 91
 				},
-				"Items": ["Codex Ultimatus"]
+				"Items": ["Codex Ultimatus"],
+				"NoBoost": true
 			},
 			"(Defence) Unlock the ~|Devotion|~ ability": {
 				"Category": ["Unlock Abilities"],
 				"Label": "Unlockable Abilities",
-				"Items": ["Devotion ability"]
+				"Items": ["Devotion ability"],
+				"NoBoost": true
 			},
 			"(Defence) Unlock the ~|Divert|~ ability": {
 				"Category": ["Unlock Abilities"],
@@ -125846,7 +126119,8 @@
 				"Skills": {
 					"Defence": 48
 				},
-				"Items": ["Divert ability codex"]
+				"Items": ["Divert ability codex"],
+				"NoBoost": true
 			},
 			"(Defence) Unlock the ~|Natural Instinct|~ ability": {
 				"Category": ["Unlock Abilities"],
@@ -125864,7 +126138,8 @@
 				"Skills": {
 					"Magic": 10
 				},
-				"Items": ["Scare Tactics"]
+				"Items": ["Scare Tactics"],
+				"NoBoost": true
 			},
 			"(Magic) Unlock the ~|Greater Concentrated Blast|~ ability": {
 				"Category": ["Unlock Abilities"],
@@ -125872,7 +126147,8 @@
 				"Skills": {
 					"Magic": 12
 				},
-				"Items": ["Greater Concentrated blast ability codex"]
+				"Items": ["Greater Concentrated blast ability codex"],
+				"NoBoost": true
 			},
 			"(Magic) Unlock the ~|Horror|~ ability": {
 				"Category": ["Unlock Abilities"],
@@ -125880,7 +126156,8 @@
 				"Skills": {
 					"Magic": 15
 				},
-				"Items": ["Scare Tactics"]
+				"Items": ["Scare Tactics"],
+				"NoBoost": true
 			},
 			"(Magic) Unlock the ~|Greater Chain|~ ability": {
 				"Category": ["Unlock Abilities"],
@@ -125888,7 +126165,8 @@
 				"Skills": {
 					"Magic": 45
 				},
-				"Items": ["Greater Chain ability codex"]
+				"Items": ["Greater Chain ability codex"],
+				"NoBoost": true
 			},
 			"(Magic) Unlock the ~|Magma Tempest|~ ability": {
 				"Category": ["Unlock Abilities"],
@@ -125896,7 +126174,8 @@
 				"Skills": {
 					"Magic": 66
 				},
-				"Items": ["Magma Tempest ability codex"]
+				"Items": ["Magma Tempest ability codex"],
+				"NoBoost": true
 			},
 			"(Magic) Unlock the ~|Corruption Blast|~ ability": {
 				"Category": ["Unlock Abilities"],
@@ -125904,7 +126183,8 @@
 				"Skills": {
 					"Magic": 70
 				},
-				"Items": ["Corruption Blast ability codex"]
+				"Items": ["Corruption Blast ability codex"],
+				"NoBoost": true
 			},	
 			"(Magic) Unlock the ~|Smoke Tendrils|~ ability": {
 				"Category": ["Unlock Abilities"],
@@ -125912,7 +126192,8 @@
 				"Skills": {
 					"Magic": 75
 				},
-				"Items": ["Codex Ultimatus"]
+				"Items": ["Codex Ultimatus"],
+				"NoBoost": true
 			},
 			"(Magic) Unlock the ~|Greater Sonic Wave|~ ability": {
 				"Category": ["Unlock Abilities"],
@@ -125920,7 +126201,8 @@
 				"Skills": {
 					"Magic": 75
 				},
-				"Items": ["Greater Sonic Wave ability codex"]
+				"Items": ["Greater Sonic Wave ability codex"],
+				"NoBoost": true
 			},
 			"(Magic) Unlock the ~|Sunshine|~ ability": {
 				"Category": ["Unlock Abilities"],
@@ -125941,7 +126223,8 @@
 				"Tasks": {
 					"~|The World Wakes|~ Complete the quest": "Quest"
 				},
-				"Items": ["Greater Deaths' Swiftness ability codex"]
+				"Items": ["Greater Deaths' Swiftness ability codex"],
+				"NoBoost": true
 			},
 			"(Melee) Unlock the ~|Greater Fury|~ ability": {
 				"Category": ["Unlock Abilities"],
@@ -125949,7 +126232,8 @@
 				"Skills": {
 					"Strength": 24
 				},
-				"Items": ["Greater Fury ability codex"]
+				"Items": ["Greater Fury ability codex"],
+				"NoBoost": true
 			},
 			"(Melee) Unlock the ~|Greater Barge|~ ability": {
 				"Category": ["Unlock Abilities"],
@@ -125957,7 +126241,8 @@
 				"Skills": {
 					"Attack": 30
 				},
-				"Items": ["Greater Barge ability codex"]
+				"Items": ["Greater Barge ability codex"],
+				"NoBoost": true
 			},
 			"(Melee) Unlock the ~|Greater Flurry|~ ability": {
 				"Category": ["Unlock Abilities"],
@@ -125965,7 +126250,8 @@
 				"Skills": {
 					"Attack": 37
 				},
-				"Items": ["Greater Flurry ability codex"]
+				"Items": ["Greater Flurry ability codex"],
+				"NoBoost": true
 			},
 			"(Melee) Unlock the ~|Bladed Dive|~ ability": {
 				"Category": ["Unlock Abilities"],
@@ -125973,7 +126259,8 @@
 				"Skills": {
 					"Melee": 65
 				},
-				"Items": ["Bladed Dive ability"]
+				"Items": ["Bladed Dive ability"],
+				"NoBoost": true
 			},
 			"(Melee) Unlock the ~|Blood Tendrils|~ ability": {
 				"Category": ["Unlock Abilities"],
@@ -125981,7 +126268,8 @@
 				"Skills": {
 					"Attack": 75
 				},
-				"Items": ["Codex Ultimatus"]
+				"Items": ["Codex Ultimatus"],
+				"NoBoost": true
 			},
 			"(Melee) Unlock the ~|Balanced Strike|~ ability": {
 				"Category": ["Unlock Abilities"],
@@ -125999,7 +126287,8 @@
 				"Skills": {
 					"Strength": 92
 				},
-				"Items": ["Chaos Roar ability codex"]
+				"Items": ["Chaos Roar ability codex"],
+				"NoBoost": true
 			},
 			"(Necromancy) Unlock the ~|Invoke Lord of Bones|~ incantation": {
 				"Category": ["Unlock Abilities"],
@@ -126007,7 +126296,8 @@
 				"Skills": {
 					"Necromancy": 75
 				},
-				"Items": ["Invoke Lord of Bones incantation codex"]
+				"Items": ["Invoke Lord of Bones incantation codex"],
+				"NoBoost": true
 			},
 			"(Necromancy) Unlock the ~|Conjure Skeleton Warrior|~ ability": {
 				"Category": ["Unlock Abilities"],
@@ -126015,7 +126305,8 @@
 				"Skills": {
 					"Necromancy": 2
 				},
-				"Chunks": ["City of Um"]
+				"Chunks": ["City of Um"],
+				"NoBoost": true
 			},
 			"(Necromancy) Unlock the ~|Command Skeleton Warrior|~ ability": {
 				"Category": ["Unlock Abilities"],
@@ -126023,7 +126314,8 @@
 				"Skills": {
 					"Necromancy": 20
 				},
-				"Chunks": ["City of Um"]
+				"Chunks": ["City of Um"],
+				"NoBoost": true
 			},
 			"(Necromancy) Unlock the ~|Conjure Vengeful Ghost|~ ability": {
 				"Category": ["Unlock Abilities"],
@@ -126034,7 +126326,8 @@
 				"Tasks": {
 					"~|Rune Mythos|~ Complete the quest": "Quest"
 				},
-				"Chunks": ["City of Um"]
+				"Chunks": ["City of Um"],
+				"NoBoost": true
 			},
 			"(Necromancy) Unlock the ~|Conjure Putrid Zombie|~ ability": {
 				"Category": ["Unlock Abilities"],
@@ -126045,7 +126338,8 @@
 				"Tasks": {
 					"~|Rune Mythos|~ Complete the quest": "Quest"
 				},
-				"Chunks": ["City of Um"]
+				"Chunks": ["City of Um"],
+				"NoBoost": true
 			},
 			"(Necromancy) Unlock the ~|Threads of Fate|~ incantation": {
 				"Category": ["Unlock Abilities"],
@@ -126056,7 +126350,8 @@
 				"Tasks": {
 					"~|Rune Mythos|~ Complete the quest": "Quest"
 				},
-				"Chunks": ["City of Um"]
+				"Chunks": ["City of Um"],
+				"NoBoost": true
 			},
 			"(Necromancy) Unlock the ~|Command Vengeful Ghost|~ ability": {
 				"Category": ["Unlock Abilities"],
@@ -126067,7 +126362,8 @@
 				"Tasks": {
 					"~|Rune Mythos|~ Complete the quest": "Quest"
 				},
-				"Chunks": ["City of Um"]
+				"Chunks": ["City of Um"],
+				"NoBoost": true
 			},
 			"(Necromancy) Unlock the ~|Command Putrid Zombie|~ ability": {
 				"Category": ["Unlock Abilities"],
@@ -126078,7 +126374,8 @@
 				"Tasks": {
 					"~|Rune Mythos|~ Complete the quest": "Quest"
 				},
-				"Chunks": ["City of Um"]
+				"Chunks": ["City of Um"],
+				"NoBoost": true
 			},
 			"(Necromancy) Unlock the ~|Spectral Scythe|~ ability": {
 				"Category": ["Unlock Abilities"],
@@ -126086,7 +126383,8 @@
 				"Skills": {
 					"Necromancy": 62
 				},
-				"Chunks": ["City of Um"]
+				"Chunks": ["City of Um"],
+				"NoBoost": true
 			},
 			"(Necromancy) Unlock the ~|Greater Bone Shield|~ incantation": {
 				"Category": ["Unlock Abilities"],
@@ -126094,7 +126392,8 @@
 				"Skills": {
 					"Necromancy": 73
 				},
-				"Chunks": ["City of Um"]
+				"Chunks": ["City of Um"],
+				"NoBoost": true
 			},
 			"(Necromancy) Unlock the ~|Spectral Scythe#Cast 2|~ ability": {
 				"Category": ["Unlock Abilities"],
@@ -126102,7 +126401,8 @@
 				"Skills": {
 					"Necromancy": 70
 				},
-				"Chunks": ["City of Um"]
+				"Chunks": ["City of Um"],
+				"NoBoost": true
 			},
 			"(Necromancy) Unlock the ~|Conjure Phantom Guardian|~ ability": {
 				"Category": ["Unlock Abilities"],
@@ -126110,7 +126410,8 @@
 				"Skills": {
 					"Necromancy": 70
 				},
-				"Chunks": ["City of Um"]
+				"Chunks": ["City of Um"],
+				"NoBoost": true
 			},
 			"(Necromancy) Unlock the ~|Life Transfer|~ incantation": {
 				"Category": ["Unlock Abilities"],
@@ -126121,7 +126422,8 @@
 				"Tasks": {
 					"~|Tomes of the Warlock|~ Complete the quest": "Quest"
 				},
-				"Chunks": ["City of Um"]
+				"Chunks": ["City of Um"],
+				"NoBoost": true
 			},
 			"(Necromancy) Unlock the ~|Darkness|~ incantation": {
 				"Category": ["Unlock Abilities"],
@@ -126132,7 +126434,8 @@
 				"Tasks": {
 					"~|Tomes of the Warlock|~ Complete the quest": "Quest"
 				},
-				"Chunks": ["City of Um"]
+				"Chunks": ["City of Um"],
+				"NoBoost": true
 			},
 			"(Necromancy) Unlock the ~|Spectral Scythe#Cast 3|~ ability": {
 				"Category": ["Unlock Abilities"],
@@ -126143,7 +126446,8 @@
 				"Tasks": {
 					"~|Rune Mythos|~ Complete the quest": "Quest"
 				},
-				"Chunks": ["City of Um"]
+				"Chunks": ["City of Um"],
+				"NoBoost": true
 			},
 			"(Necromancy) Unlock the ~|Command Phantom Guardian|~ ability": {
 				"Category": ["Unlock Abilities"],
@@ -126151,7 +126455,8 @@
 				"Skills": {
 					"Necromancy": 80
 				},
-				"Chunks": ["City of Um"]
+				"Chunks": ["City of Um"],
+				"NoBoost": true
 			},
 			"(Necromancy) Unlock the ~|Invoke Death|~ incantation": {
 				"Category": ["Unlock Abilities"],
@@ -126162,7 +126467,8 @@
 				"Tasks": {
 					"~|Tomes of the Warlock|~ Complete the quest": "Quest"
 				},
-				"Chunks": ["City of Um"]
+				"Chunks": ["City of Um"],
+				"NoBoost": true
 			},
 			"(Necromancy) Unlock the ~|Split Soul|~ incantation": {
 				"Category": ["Unlock Abilities"],
@@ -126173,7 +126479,8 @@
 				"Tasks": {
 					"~|The Temple at Senntisten|~ Complete the quest": "Quest"
 				},
-				"Chunks": ["City of Um"]
+				"Chunks": ["City of Um"],
+				"NoBoost": true
 			},
 			"(Necromancy) Unlock the ~|Conjure Undead Army|~ incantation": {
 				"Category": ["Unlock Abilities"],
@@ -126181,7 +126488,8 @@
 				"Skills": {
 					"Necromancy": 99
 				},
-				"Chunks": ["City of Um"]
+				"Chunks": ["City of Um"],
+				"NoBoost": true
 			},
 			"(Ranged) Unlock the ~|Demoralise|~ ability": {
 				"Category": ["Unlock Abilities"],
@@ -126189,7 +126497,8 @@
 				"Skills": {
 					"Ranged": 10
 				},
-				"Items": ["Scare Tactics"]
+				"Items": ["Scare Tactics"],
+				"NoBoost": true
 			},
 			"(Ranged) Unlock the ~|Rout|~ ability": {
 				"Category": ["Unlock Abilities"],
@@ -126197,7 +126506,8 @@
 				"Skills": {
 					"Ranged": 15
 				},
-				"Items": ["Scare Tactics"]
+				"Items": ["Scare Tactics"],
+				"NoBoost": true
 			},
 			"(Ranged) Unlock the ~|Greater Ricochet|~ ability": {
 				"Category": ["Unlock Abilities"],
@@ -126205,7 +126515,8 @@
 				"Skills": {
 					"Ranged": 45
 				},
-				"Items": ["Greater Ricochet ability codex"]
+				"Items": ["Greater Ricochet ability codex"],
+				"NoBoost": true
 			},
 			"(Ranged) Unlock the ~|Salt the Wound|~ and Greater Dazing Shot abilities": {
 				"Category": ["Unlock Abilities"],
@@ -126213,7 +126524,8 @@
 				"Skills": {
 					"Ranged": 60
 				},
-				"Items": ["Salt the Wound ability"]
+				"Items": ["Salt the Wound ability"],
+				"NoBoost": true
 			},
 			"(Ranged) Unlock the ~|Corruption Shot|~ ability": {
 				"Category": ["Unlock Abilities"],
@@ -126221,7 +126533,8 @@
 				"Skills": {
 					"Ranged": 70
 				},
-				"Items": ["Corruption Shot ability codex"]
+				"Items": ["Corruption Shot ability codex"],
+				"NoBoost": true
 			},
 			"(Ranged) Unlock the ~|Shadow Tendrils|~ ability": {
 				"Category": ["Unlock Abilities"],
@@ -126229,7 +126542,8 @@
 				"Skills": {
 					"Ranged": 75
 				},
-				"Items": ["Codex Ultimatus"]
+				"Items": ["Codex Ultimatus"],
+				"NoBoost": true
 			},
 			"(Ranged) Unlock the ~|Death's Swiftness|~ ability": {
 				"Category": ["Unlock Abilities"],
@@ -126250,7 +126564,8 @@
 				"Tasks": {
 					"~|The World Wakes|~ Complete the quest": "Quest"
 				},
-				"Items": ["Greater Deaths' Swiftness ability codex"]
+				"Items": ["Greater Deaths' Swiftness ability codex"],
+				"NoBoost": true
 			},
 			"(Sigil) Unlock the ~|Slayer's Insight|~ ability": {
 				"Category": ["Unlock Abilities", "Sigil Abilities"],
@@ -126298,7 +126613,8 @@
 				"Skills": {
 					"Magic": 55
 				},
-				"Items": ["Golden Touch codex"]
+				"Items": ["Golden Touch codex"],
+				"NoBoost": true
 			},
 			"Unlock the ~|Knight Waves training ground|~ prayers": {
 				"Category": ["Unlock Prayers"],
@@ -139453,11 +139769,11 @@
 				"Chunks": ["Champions' Arena"],
 				"Items": ["ChampionScrolls[+]x13"]		
 			},
-			"Obtain ~|the breaktaker|~ title": {
+			"Obtain ~|the Breaktaker|~ title": {
 				"Category": ["Titles"],
 				"Label": "Titles"
 			},
-			"Obtain the ~|archmage|~ title": {	
+			"Obtain the ~|Archmage|~ title": {	
 				"Category": ["Titles"],
 				"Label": "Titles",
 				"Chunks": ["12337"],
@@ -139759,7 +140075,21 @@
 			"Obtain the ~|Portmaster|~ title": {
 				"Category": ["Titles"],
 				"Label": "Titles",
-				"Chunks": ["Player-Owned Port"]
+				"Chunks": ["Player-Owned Port"],
+				"Skills": {
+					"Agility": 90,
+					"Construction": 90,
+					"Cooking": 90,
+					"Divination": 90,
+					"Dungeoneering": 90,
+					"Fishing": 90,
+					"Herblore": 90,
+					"Hunter": 90,
+					"Prayer": 90,
+					"Runecrafting": 90,
+					"Slayer": 90,
+					"Thieving": 90
+				}
 			},
 			"Obtain the ~|the Powerful|~ title": {
 				"Category": ["Titles"],
@@ -139863,11 +140193,6 @@
 				"Label": "Titles",
 				"Items": ["Honorary Druid"]
 			},
-			"Obtain the ~|the Master Farmer|~ title": {
-				"Category": ["Titles"],
-				"Label": "Titles",
-				"Items": ["'The Master Farmer' title"]
-			},
 			"Obtain the ~|of the Ruination|~ title": {
 				"Category": ["Titles"],
 				"Label": "Titles",
@@ -139919,6 +140244,1507 @@
 					"All Daemonheim tasks": "Nonskill"
 				},
 				"NoBoost": true
+			},
+			"Obtain the ~|the Archaeology Assistant|~ title": {
+				"Category": ["Titles"],
+				"Label": "Titles",
+				"Tasks": {
+					"Become an ~|archaeology assistant|~": "Archaeology"
+				}
+			},
+			"Obtain the ~|the Archaeology Associate|~ title": {
+				"Category": ["Titles"],
+				"Label": "Titles",
+				"Tasks": {
+					"Become an ~|archaeology associate|~": "Archaeology"
+				}
+			},
+			"Obtain the ~|the Archaeology Guildmaster|~ title": {
+				"Category": ["Titles"],
+				"Label": "Titles",
+				"Tasks": {
+					"Become an ~|archaeology guildmaster|~": "Archaeology"
+				}
+			},
+			"Obtain the ~|the Archaeology Intern|~ title": {
+				"Category": ["Titles"],
+				"Label": "Titles",
+				"Tasks": {
+					"Become an ~|archaeology Intern|~": "Archaeology"
+				}
+			},
+			"Obtain the ~|the Archaeology Professor|~ title": {
+				"Category": ["Titles"],
+				"Label": "Titles",
+				"Tasks": {
+					"Become an ~|archaeology professor|~": "Archaeology"
+				}
+			},
+			"Obtain the ~|Armadylean Expert (title)|~": {
+				"Category": ["Titles"],
+				"Label": "Titles",
+				"Items": [
+					"Ikovian gerege",
+					"Toy glider",
+					"Toy war golem",
+					"Avian song-egg player",
+					"Keshik drum",
+					"Morin khuur",
+					"Aviansie dreamcoat",
+					"Ceremonial plume",
+					"Peacocking parasol",
+					"Hawkeye lens multi-vision scope",
+					"Talon-3 razor wing",
+					"Prototype gravimeter",
+					"Songbird recorder",
+					"Dayguard shield",
+					"Stormguard gerege",
+					"Golem heart",
+					"Golem instruction",
+					"Blackfire lance", 
+					"Nightguard shield", 
+					"Flat cap", 
+					"Night owl flight goggles", 
+					"Prototype godbow", 
+					"Prototype godstaff", 
+					"Prototype godsword", 
+					"Chuluu stone", 
+					"Quintessence counter", 
+					"Spherical astrolabe"
+				]
+			},
+			"Obtain the ~|Bandosian Expert (title)|~": {
+				"Category": ["Titles"],
+				"Label": "Titles",
+				"Items": [
+					"Ekeleshuun blinder mask",
+					"Narogoshuun 'Hob-da-Gob' ball",
+					"Rekeshuun war tether",
+					"Ogre Kyzaj axe",
+					"Ork cleaver sword",
+					"Thorobshuun battle standard",
+					"Yurkolgokh stink grenade",
+					"High priest crozier",
+					"High priest mitre",
+					"High priest orb",
+					"Beastkeeper helm",
+					"Idithuun horn ring",
+					"'Nosorog!' sculpture",
+					"Ourg megahitter",
+					"Ourg tower/goblin cower shield",
+					"Garagorshuun anchor",
+					"Dorgeshuun spear",
+					"'Forged in War' sculpture",
+					"Huzamogaarb chaos crown",
+					"Saragorgak star crown",
+					"Drogokishuun hook sword",
+					"Hobgoblin mansticker",
+					"Kal-i-kra chieftan crown",
+					"Kal-i-kra mace",
+					"Kal-i-kra warhorn",
+					"'Da Boss Man' sculpture",
+					"Horogothgar cooking pot"
+				]
+			},
+			"Obtain the ~|Dragonkin Expert (title)|~": {
+				"Category": ["Titles"],
+				"Label": "Titles",
+				"Items": [
+					"Pasaha",
+					"Ritual bell",
+					"Kilaya",
+					"Vazara",
+					"Death mask",
+					"Dragonkin calendar",
+					"Dragonkin staff",
+					"Dragon scalpel",
+					"Protective goggles",
+					"Dragon burner",
+					"Orthenglass flask",
+					"Meditation pipe",
+					"Personal totem",
+					"Singing bowl",
+					"Lingam stone",
+					"Master control",
+					"Xolo hard hat",
+					"Xolo pickaxe",
+					"Xolo shield",
+					"Xolo spear",
+					"Gold dish",
+					"'Raksha' idol",
+					"Castle gatestone",
+					"Engraved ring of kinship",
+					"Exploratory totem",
+					"Excavator portal mine",
+					"Storage totem",
+					"Plant seed satchel",
+					"Snuff box",
+					"Spent summoning charm",
+					"'Friendship bracelet'",
+					"Homely totem",
+					"Projection attuner",
+					"Golden projection 'needle'",
+					"Comfort gatestone",
+					"Halak's cube",
+					"Portable portal generator",
+					"Warped trinket"
+				]
+			},
+			"Obtain the ~|Saradominist Expert (title)|~": {
+				"Category": ["Titles"],
+				"Label": "Titles",
+				"Items": [
+					"'Frying pan'",
+					"Hallowed lantern",
+					"Ceremonial unicorn ornament",
+					"Ceremonial unicorn saddle",
+					"Everlight harp",
+					"Everlight trumpet",
+					"Everlight violin",
+					"Folded-arm figurine (female)",
+					"Folded-arm figurine (male)",
+					"Dominion discus",
+					"Dominion javelin",
+					"Dominion pelte shield",
+					"Bronze Dominion medal",
+					"Silver Dominion medal",
+					"Dominion torch",
+					"Decorative vase",
+					"Kantharos cup",
+					"Patera bowl",
+					"Dominarian device",
+					"Fishing trident",
+					"Amphora",
+					"Rod of Asclepius",
+					"Kopis dagger",
+					"Xiphos short sword",
+					"'The Pride of Padosan' painting",
+					"'Hallowed Be the Everlight' painting",
+					"'The Lord of Light' painting",
+					"'The Enlightened Soul' scroll",
+					"'The Eudoxian Elements' tablet",
+					"Doru spear",
+					"Kontos lance"
+				]
+			},
+			"Obtain the ~|Zamorakian Expert (title)|~": {
+				"Category": ["Titles"],
+				"Label": "Titles",
+				"Items": [
+					"Hookah pipe",
+					"Opulent wine goblet",
+					"Crest of Dagon",
+					"'Disorder' painting",
+					"Imp mask",
+					"Lesser demon mask",
+					"Greater demon mask",
+					"Order of Dis robes",
+					"Ritual dagger",
+					"Branding iron",
+					"Manacles",
+					"'The Lake of Fire' painting",
+					"'Lust' metal sculpture",
+					"Chaos star",
+					"Spiked dog collar",
+					"Larupia trophy",
+					"Lion trophy",
+					"She-wolf trophy",
+					"'Torment' metal sculpture",
+					"'Pandemonium' tapestry",
+					"Hellfire haladie",
+					"Hellfire katar",
+					"Hellfire zaghnal",
+					"'Possession' metal sculpture",
+					"Trishula",
+					"Tsutsaroth piercing",
+					"Chaos Elemental trophy",
+					"Virius trophy",
+					"Tsutsaroth helm",
+					"Tsutsaroth pauldron",
+					"Tsutsaroth urumi"
+				]
+			},
+			"Obtain the ~|Zarosian Expert (title)|~": {
+				"Category": ["Titles"],
+				"Label": "Titles",
+				"Items": [
+					"Venator dagger",
+					"Venator light crossbow",
+					"Primis Elementis standard",
+					"Legionary gladius",
+					"Legionary square shield",
+					"Zaros effigy",
+					"Zarosian training dummy",
+					"Legatus Maximus figurine",
+					"'Solem in Umbra' painting",
+					"Ancient timepiece",
+					"Legatus pendant",
+					"'Incite Fear' spell scroll",
+					"Pontifex signet ring",
+					"Ceremonial mace",
+					"Pontifex Maximus figurine",
+					"'Consensus ad Idem' painting",
+					"Pontifex censer",
+					"Pontifex crozier",
+					"Pontifex mitre",
+					"'Exsanguinate' spell scroll",
+					"Necromantic focus",
+					"Zarosian ewer",
+					"Zarosian stein",
+					"'Smoke Cloud' spell scroll",
+					"Vigorem vial",
+					"Ancient magic tablet",
+					"'Animate Dead' spell scroll",
+					"Portable phylactery",
+					"Praetorian hood",
+					"Praetorian robes",
+					"Praetorian staff",
+					"Ancient globe",
+					"Battle plans",
+					"'Prima Legio' painting",
+					"Apex cap",
+					"Curse tablet",
+					"Funerary urn of shadow",
+					"Infula robes",
+					"Funerary urn of smoke",
+					"Hand of the Ancients",
+					"Decorative amphora",
+					"Funerary urn of ice",
+					"Loarnab rod",
+					"Inquisitor's ceremonial armour",
+					"Inquisitor's ceremonial mask",
+					"Inquisitor's seal",
+					"Gladiator helmet",
+					"Gladiator sword",
+					"Funerary urn of blood",
+					"Funerary urn of miasma",
+					"Model chariot",
+					"'The Serpent's Fall' carving"
+				]
+			},
+			"Obtain the ~|Friend of the Owls|~ title": {
+				"Category": ["Titles"],
+				"Label": "Titles",
+				"Chunks": ["City of Um"],
+				"Skills": {
+					"Necromancy": 120
+				},
+				"Tasks": {
+					"~|Housing of Parliament|~ Complete the quest": "Quest"
+				},
+				"NoBoost": true
+			},
+			"Obtain the ~|the Master|~ title": {
+				"Category": ["Titles", "Group Content"],
+				"Label": "Titles",
+				"Monsters": ["AnyBoss[+]"]
+			},
+			"Obtain the ~|of Guthix|~ title": {
+				"Category": ["Titles"],
+				"Label": "Titles",
+				"Chunks": ["Guthixian ruins"],
+				"Objects": ["Energy rift"],
+				"Tasks": {
+					"~|The World Wakes|~ Complete the quest": "Quest"
+				}
+			},
+			"Obtain the ~|the Billionaire|~ title": {
+				"Category": ["Titles", "Money Unlockables"],
+				"Label": "Titles",
+				"Chunks": ["Deep Sea Fishing Hub"]
+			},
+			"Obtain the ~|the Charitable|~ title": {
+				"Category": ["Titles", "Money Unlockables"],
+				"Label": "Titles",
+				"Chunks": ["Deep Sea Fishing Hub"]
+			},
+			"Obtain the ~|the Generous|~ title": {
+				"Category": ["Titles", "Money Unlockables"],
+				"Label": "Titles",
+				"Chunks": ["Deep Sea Fishing Hub"]
+			},
+			"Obtain the ~|the Millionaire|~ title": {
+				"Category": ["Titles", "Money Unlockables"],
+				"Label": "Titles",
+				"Chunks": ["Deep Sea Fishing Hub"]
+			},
+			"Obtain the ~|the Wishful|~ title": {
+				"Category": ["Titles", "Money Unlockables"],
+				"Label": "Titles",
+				"Chunks": ["Deep Sea Fishing Hub"]
+			},
+			"Obtain the base ~|God/Goddess of Destruction|~ title": {
+				"Category": ["Titles"],
+				"Label": "Titles",
+				"Monsters": ["Amascut, the Devourer"]
+			},
+			"Obtain the bronze ~|God/Goddess of Destruction|~ title": {
+				"Category": ["Titles"],
+				"Label": "Titles",
+				"Monsters": ["Amascut, the Devourer"]
+			},
+			"Obtain the silver ~|God/Goddess of Destruction|~ title": {
+				"Category": ["Titles"],
+				"Label": "Titles",
+				"Monsters": ["Amascut, the Devourer"]
+			},
+			"Obtain the gold ~|God/Goddess of Destruction|~ title": {
+				"Category": ["Titles"],
+				"Label": "Titles",
+				"Monsters": ["Amascut, the Devourer"]
+			},
+			"Obtain the base ~|the Warden|~ title": {
+				"Category": ["Titles"],
+				"Label": "Titles",
+				"Monsters": ["Telos, the Warden"]
+			},
+			"Obtain the bronze ~|the Warden|~ title": {
+				"Category": ["Titles"],
+				"Label": "Titles",
+				"Monsters": ["Telos, the Warden"]
+			},
+			"Obtain the silver ~|the Warden|~ title": {
+				"Category": ["Titles"],
+				"Label": "Titles",
+				"Monsters": ["Telos, the Warden"]
+			},
+			"Obtain the gold ~|the Warden|~ title": {
+				"Category": ["Titles"],
+				"Label": "Titles",
+				"Monsters": ["Telos, the Warden"]
+			},
+			"Obtain the base ~|the Iceborn|~ title": {
+				"Category": ["Titles"],
+				"Label": "Titles",
+				"Monsters": ["Arch-Glacor (Hard Mode)"]
+			},
+			"Obtain the bronze ~|the Iceborn|~ title": {
+				"Category": ["Titles"],
+				"Label": "Titles",
+				"Monsters": ["Arch-Glacor (Hard Mode)"]
+			},
+			"Obtain the silver ~|the Iceborn|~ title": {
+				"Category": ["Titles"],
+				"Label": "Titles",
+				"Monsters": ["Arch-Glacor (Hard Mode)"]
+			},
+			"Obtain the gold ~|the Iceborn|~ title": {
+				"Category": ["Titles"],
+				"Label": "Titles",
+				"Monsters": ["Arch-Glacor (Hard Mode)"]
+			},
+			"Obtain the base ~|Wrath of Chaos|~ title": {
+				"Category": ["Titles"],
+				"Label": "Titles",
+				"Monsters": ["Zamorak, Lord of Chaos"]
+			},
+			"Obtain the base ~|Lord/Lady of Chaos|~ title": {
+				"Category": ["Titles", "Group Content"],
+				"Label": "Titles",
+				"Monsters": ["Zamorak, Lord of Chaos"]
+			},
+			"Obtain the bronze ~|Wrath of Chaos|~ title": {
+				"Category": ["Titles"],
+				"Label": "Titles",
+				"Monsters": ["Zamorak, Lord of Chaos"]
+			},
+			"Obtain the bronze ~|Lord/Lady of Chaos|~ title": {
+				"Category": ["Titles", "Group Content"],
+				"Label": "Titles",
+				"Monsters": ["Zamorak, Lord of Chaos"]
+			},
+			"Obtain the silver ~|Wrath of Chaos|~ title": {
+				"Category": ["Titles"],
+				"Label": "Titles",
+				"Monsters": ["Zamorak, Lord of Chaos"]
+			},
+			"Obtain the silver ~|Lord/Lady of Chaos|~ title": {
+				"Category": ["Titles", "Group Content"],
+				"Label": "Titles",
+				"Monsters": ["Zamorak, Lord of Chaos"]
+			},
+			"Obtain the gold ~|Wrath of Chaos|~ title": {
+				"Category": ["Titles"],
+				"Label": "Titles",
+				"Monsters": ["Zamorak, Lord of Chaos"]
+			},
+			"Obtain the gold ~|Lord/Lady of Chaos|~ title": {
+				"Category": ["Titles", "Group Content"],
+				"Label": "Titles",
+				"Monsters": ["Zamorak, Lord of Chaos"]
+			},
+			"Obtain the ~|Pastkeeper|~ title": {
+				"Category": ["Titles"],
+				"Label": "Titles",
+				"Chunks": ["Dream of Iaia"]
+			},
+			"Obtain the ~|the Spellbound|~ title": {
+				"Category": ["Titles"],
+				"Label": "Titles",
+				"Chunks": ["Senntisten"],
+				"Items": ["Bones to Peaches spell", "Law rune*", "Nature rune*", "Fire rune[+]*", "Air rune[+]*"],
+				"Skills": {
+					"Magic": 60,
+					"Smithing": 80
+				},
+				"Tasks": {
+					"~|The Brink of Extinction|~ Complete the quest": "Quest"
+				}
+			},
+			"Obtain the ~|the Elite|~ title": {
+				"Category": ["Titles"],
+				"Label": "Titles",
+				"Chunks": ["Senntisten"],
+				"Items": ["Air rune[+]*", "Law rune*", "Black mask"],
+				"Monsters": [
+					"The Sanctum Guardian", "Masuta the Ascended", "Seiryu the Azure Serpent",
+					"Astellarn", "Verak Lith", "Black Stone Dragon", "Araxxor",
+					"Crassian Leviathan", "Taraket the Necromancer", "The Ambassador"
+				],
+				"Skills": {
+					"Magic": 33
+				},
+				"Tasks": {
+					"~|The Temple at Senntisten|~ Complete the quest": "Quest"
+				}
+			},
+			"Obtain the ~|the Very Good Farmer|~ title": {
+				"Category": ["Titles"],
+				"Label": "Titles",
+				"Chunks": ["10548"],
+				"Skills": {
+					"Farming": 17
+				}
+			},
+			"Obtain the ~|the Archivist|~ title": {
+				"Category": ["Titles"],
+				"Label": "Titles",
+				"Chunks": ["Hall of Memories"],
+				"Skills": {
+					"Divination": 95
+				}
+			},
+			"Obtain the ~|the Venerated|~ title": {
+				"Category": ["Titles"],
+				"Label": "Titles",
+				"Chunks": ["The Heart"]
+			},
+			"Obtain the ~|Stakemaster|~ title": {
+				"Category": ["Titles"],
+				"Label": "Titles",
+				"Chunks": ["13362"]
+			},
+			"Obtain the ~|Steakmaster|~ title": {
+				"Category": ["Titles"],
+				"Label": "Titles",
+				"Items": ["Cooked meat", "Crocspeak amulet"],
+				"Chunks": ["13362"]
+			},
+			"Obtain the ~|the Profound|~ title": {
+				"Category": ["Titles"],
+				"Label": "Titles",
+				"Items": ["Profound decorative helm", "Profound decorative platebody", "Profound decorative platelegs", "Profound decorative shield", "Profound decorative sword"]
+			},
+			"Obtain the ~|Professor|~ title": {
+				"Category": ["Titles"],
+				"Label": "Titles",
+				"Objects": ["Inventor's workbench"],
+				"Skills": {
+					"Invention": 95
+				}
+			},
+			"Obtain the ~|the Time Warped|~ title": {
+				"Category": ["Titles"],
+				"Label": "Titles",
+				"Monsters": ["Kerapac, the bound (Hard Mode)"]
+			},
+			"Obtain the ~|Echo of|~ title": {
+				"Category": ["Titles"],
+				"Label": "Titles",
+				"Monsters": ["Kerapac, the bound (Hard Mode)"]
+			},
+			"Obtain the ~|the Daredevil|~ title": {
+				"Category": ["Titles"],
+				"Label": "Titles",
+				"Monsters": ["Beastmaster Durzag", "Yakamaru"]
+			},
+			"Obtain the gold ~|the Daredevil|~ title": {
+				"Category": ["Titles"],
+				"Label": "Titles",
+				"Monsters": ["Beastmaster Durzag", "Yakamaru"]
+			},
+			"Obtain the ~|Pontifex (title)|~ title": {
+				"Category": ["Titles"],
+				"Label": "Titles",
+				"Tasks": {
+					"~|Mahjarrat Memories (miniquest)|~ Complete the miniquest": "Quest"
+				}
+			},
+			"Obtain the ~|Legatus (title)|~ title": {
+				"Category": ["Titles"],
+				"Label": "Titles",
+				"Tasks": {
+					"~|Mahjarrat Memories (miniquest)|~ Complete the miniquest": "Quest"
+				}
+			},
+			"Obtain the ~|the Reputable|~ title": {
+				"Category": ["Titles"],
+				"Label": "Titles",
+				"Chunks": ["Mazcab"]
+			},
+			"Obtain the ~|of the Goebies|~ title": {
+				"Category": ["Titles"],
+				"Label": "Titles",
+				"Chunks": ["Mazcab"]
+			},
+			"Obtain the ~|of the Imperial District|~ title": {
+				"Category": ["Titles"],
+				"Label": "Titles",
+				"Tasks": {
+					"~|The Jack of Spades|~ Complete the quest": "Quest"
+				}
+			},
+			"Obtain the ~|of the Merchant District|~ title": {
+				"Category": ["Titles"],
+				"Label": "Titles",
+				"Tasks": {
+					"~|The Jack of Spades|~ Complete the quest": "Quest"
+				}
+			},
+			"Obtain the ~|of the Port District|~ title": {
+				"Category": ["Titles"],
+				"Label": "Titles",
+				"Tasks": {
+					"~|The Jack of Spades|~ Complete the quest": "Quest"
+				}
+			},
+			"Obtain the ~|of the Worker District|~ title": {
+				"Category": ["Titles"],
+				"Label": "Titles",
+				"Tasks": {
+					"~|The Jack of Spades|~ Complete the quest": "Quest"
+				}
+			},
+			"Obtain the ~|of Menaphos|~ title": {
+				"Category": ["Titles"],
+				"Label": "Titles",
+				"Tasks": {
+					"~|The Jack of Spades|~ Complete the quest": "Quest"
+				}
+			},
+			"Obtain the ~|Sandy (title)|~": {
+				"Category": ["Titles", "Menaphos Log"],
+				"Label": "Titles",
+				"Chunks": [
+					"13097",
+					"12586",
+					"12843",
+					"Shifting Tombs",
+					"12585",
+					"AnyMenaphosCatLocation[+]",
+					"Pyramid Plunder",
+					"Sophanem Slayer Dungeon",
+					"12587",
+					"Soul Altar",
+					"12588",
+					"12330",
+					"Player-Owned Port",
+					"12584",
+					"12841"
+				],
+				"Skills": {
+					"Woodcutting": 90,
+					"Mining": 50,
+					"Firemaking": 47,
+					"Hunter": 73,
+					"Divination": 90,
+					"Thieving": 86,
+					"Fishing": 52,
+					"Agility": 50,
+					"Construction": 50,
+					"Dungeoneering": 50,
+					"Slayer": 88
+				},
+				"Tasks": {
+					"~|The Jack of Spades|~ Complete the quest": "Quest",
+					"~|Crocodile Tears|~ Complete the quest": "Quest",
+					"~|Our Man in the North|~ Complete the quest": "Quest",
+					"~|'Phite Club|~ Complete the quest": "Quest",
+					"~|Icthlarin's Little Helper|~ Complete the quest": "Quest"
+				}
+			},
+			"Obtain the ~|the Final Praesul|~ title": {
+				"Category": ["Titles"],
+				"Label": "Titles",
+				"Monsters": ["Nex, Angel of Death"]
+			},
+			"Obtain the ~|the Angel of Death|~ title": {
+				"Category": ["Titles"],
+				"Label": "Titles",
+				"Monsters": ["Nex, Angel of Death"]
+			},
+			"Obtain the ~|Engineer (title)|~": {
+				"Category": ["Titles"],
+				"Label": "Titles",
+				"Chunks": ["Senntisten"],
+				"Items": ["Siege engine parts"],
+				"Tasks": {
+					"Construction": 90
+				}
+			},
+			"Obtain the ~|Grandpa/Grandma|~ title": {
+				"Category": ["Titles"],
+				"Label": "Titles",
+				"Items": ["Farm deeds (+titles)"]
+			},
+			"Obtain the ~|Granny|~ title": {
+				"Category": ["Titles"],
+				"Label": "Titles",
+				"Items": ["Farm deeds (+titles)"]
+			},
+			"Obtain the ~|the Master Farmer|~ title": {
+				"Category": ["Titles"],
+				"Label": "Titles",
+				"Items": ["Farm deeds (+titles)"]
+			},
+			"Obtain the ~|Old Mc|~ title": {
+				"Category": ["Titles"],
+				"Label": "Titles",
+				"Items": ["Farm deeds (+titles)"]
+			},
+			"Obtain the ~|Potterington|~ title": {
+				"Category": ["Titles"],
+				"Label": "Titles",
+				"Items": ["Farm deeds (+titles)"]
+			},
+			"Obtain the ~|of the Amlodd|~ title": {
+				"Category": ["Titles"],
+				"Label": "Titles",
+				"Items": ["Light creautre pouch", "Light Creature scroll (Enlightenment)"],
+				"Chunks": ["8500"],
+				"Tasks": {
+					"Summoning": 88
+				}
+			},
+			"Obtain the ~|of the Cadarn|~ title": {
+				"Category": ["Titles"],
+				"Label": "Titles",
+				"Chunks": ["9012"]
+			},
+			"Obtain the ~|of the Amlodd|~ title": {
+				"Category": ["Titles"],
+				"Label": "Titles",
+				"Items": ["Light creautre pouch", "Light Creature scroll (Enlightenment)"],
+				"Chunks": ["8500"],
+				"Tasks": {
+					"Summoning": 88
+				}
+			},
+			"Obtain the ~|the Challenged|~ title": {
+				"Category": ["Titles"],
+				"Label": "Titles",
+				"Items": ["Banana*", "Mine boots", "Mime top", "Mime mask", "Mime gloves", "Mime legs", "Banner (Fairy)"],
+				"Chunks": ["Prifddinas[+]"]
+			},
+			"Obtain the ~|the Coedensworn|~ title": {
+				"Category": ["Titles"],
+				"Label": "Titles",
+				"Items": ["Nature rune*", "Earth rune[+]*", "Splitbark wand", "Splitbark shield", "Splitbark guantlets", "Splitbark legs", "Splitbark boots", "Splitbark body", "Tribal mask (orange)"],
+				"Chunks": ["8756"]
+			},
+			"Obtain the ~|the Corrupted|~ title": {
+				"Category": ["Titles"],
+				"Label": "Titles",
+				"Items": ["Corrupted ore"],
+				"Chunks": ["8756"]
+			},
+			"Obtain the ~|of the Crwys|~ title": {
+				"Category": ["Titles"],
+				"Label": "Titles",
+				"Items": ["Elder seed*", "Plant pot*"],
+				"Chunks": ["9012"]
+			},
+			"Obtain the ~|Dark Elf|~ title": {
+				"Category": ["Titles"],
+				"Label": "Titles",
+				"Chunks": ["8756", "8755"]
+			},
+			"Obtain the ~|Dark Lord (title)|~": {
+				"Category": ["Titles"],
+				"Label": "Titles",
+				"Chunks": ["8757", "8501", "8500", "8756", "9012", "8755", "9011", "Freneskae#The Approach"],
+				"Items": ["Crystal acorn", "Golden rock (Shattered Heart)"],
+				"Monsters": [
+					"Araxxi",
+					"Giant mole (Hard Mode)",
+					"Dagannoth Prime",
+					"Dagannoth Rex",
+					"Dagannoth Supreme",
+					"Queen Black Dragon",
+					"Commander Zilyana",
+					"Kree'arra",
+					"K'ril Tsutsaroth",
+					"General Graardor",
+					"Kalphite Queen",
+					"King Black Dragon",
+					"Dark beast"
+				],
+				"Skills": {
+					"Mining": 89,
+					"Slayer": 90,
+					"Farming": 90,
+					"Agility": 77,
+					"Crafting": 89,
+					"Summoning": 88,
+					"Divination": 71,
+					"Constitution": 70,
+					"Strength": 70
+				},
+				"QuestPointsNeeded": 462,
+				"Tasks": {
+					"~|Plague's End|~ Complete the quest": "Quest",
+					"~|As a First Resort|~ Complete the quest": "Quest",
+					"~|Completionist achievements#Trimmed Completionist Cape|~ Who Will Be Her Lover?": "Diary",
+					"~|Completionist achievements#Completionist Cape|~ Quest Cape": "Diary",
+					"~|Aftermath|~ Complete the quest": "Quest",
+					"~|Battle of the Monolith|~ Complete the quest": "Quest",
+					"~|Desperate Creatures|~ Complete the quest": "Quest",
+					"~|Eye of Het I|~ Complete the quest": "Quest",
+					"~|Eye of Het II|~ Complete the quest": "Quest",
+					"~|Raksha, the Shadow Colossus|~ Complete the quest": "Quest",
+					"~|Sins of the Father|~ Complete the quest": "Quest",
+					"~|The Vault of Shadows|~ Complete the quest": "Quest"
+				}
+			},
+			"Obtain the ~|the Elfborne|~ title": {
+				"Category": ["Titles"],
+				"Label": "Titles",
+				"Items": ["Bacon mound", "Chocolate bar", "Bread"],
+				"Chunks": ["8756"]
+			},
+			"Obtain the ~|the Elven|~ title": {
+				"Category": ["Titles"],
+				"Label": "Titles",
+				"Chunks": ["8500", "8755", "9012", "8757"]
+			},
+			"Obtain the ~|The Famous|~ title": {
+				"Category": ["Titles"],
+				"Label": "Titles",
+				"Chunks": ["8755"],
+				"Monsters": [
+					"Araxxi",
+					"Giant mole (Hard Mode)",
+					"Dagannoth Prime",
+					"Dagannoth Rex",
+					"Dagannoth Supreme",
+					"Queen Black Dragon",
+					"Commander Zilyana",
+					"Kree'arra",
+					"K'ril Tsutsaroth",
+					"General Graardor",
+					"Kalphite Queen",
+					"King Black Dragon"
+				],
+				"Skills": {
+					"Constitution": 70,
+					"Strength": 70
+				},
+				"Tasks": {
+					"~|Plague's End|~ Complete the quest": "Quest"
+				}
+			},
+			"Obtain the ~|the Fractured|~ title": {
+				"Category": ["Titles"],
+				"Label": "Titles",
+				"Items": ["DivinationEnergy[+]"],
+				"Chunks": ["8756"]
+			},
+			"Obtain the ~|of the Hefin|~ title": {
+				"Category": ["Titles"],
+				"Label": "Titles",
+				"Chunks": ["8757"],
+				"Skills": {
+					"Agility": 75
+				}
+			},
+			"Obtain the ~|Hunter/Huntress|~ title": {
+				"Category": ["Titles"],
+				"Label": "Titles",
+				"Items": ["Larupia hat", "Larupia top", "Larupia legs", "Hunters' crossbow", "Long kebbit bolts", "Strung rabbit foot", "Teasing stick"],
+				"Chunks": ["8500", "8755", "9012", "8757"]
+			},
+			"Obtain the ~|of the Iorwerth|~ title": {
+				"Category": ["Titles"],
+				"Label": "Titles",
+				"Monsters": ["Dark beast"],
+				"Tasks": {
+					"Receive a slayer assignment from ~|Morvran|~": "Slayer"
+				}
+			},
+			"Obtain the ~|of the Ithel|~ title": {
+				"Category": ["Titles"],
+				"Label": "Titles",
+				"Items": ["Crystal glass"],
+				"Skills": {
+					"Crafting": 89
+				},
+				"Tasks": {
+					"~|As a First Resort|~ Complete the quest": "Quest"
+				}
+			},
+			"Obtain the ~|Lord of the Wait|~ title": {
+				"Category": ["Titles"],
+				"Label": "Titles",
+				"Chunks": ["8757", "8756"],
+				"Skills": {
+					"Prayer": 90
+				}
+			},
+			"Obtain the ~|Lorehound (title)|~": {
+				"Category": ["Titles"],
+				"Label": "Titles",
+				"Chunks": ["8757", "9013", "8500", "8756", "9012", "8755", "9011"],
+				"Items": ["BushSeed[+]", "FruitTreeSeed[+]", "Plant pot", "Harmony moss seed", "Bucket", "Perfect juju farming potion (3)"],
+				"Skills": {
+					"Agility": 77,
+					"Farming": 75
+				},
+				"Tasks": {
+					"~|Plague's End|~ Complete the quest": "Quest",
+					"~|Fate of the Gods|~ Complete the quest": "Quest",
+					"~|A Fairy Tale II - Cure a Queen|~ 2": "Quest"
+				},
+				"QuestPointsNeeded": 462
+			},
+			"Obtain the ~|the Meandering|~ title": {
+				"Category": ["Titles"],
+				"Label": "Titles",
+				"Chunks": ["8757"],
+				"Skills": {
+					"Agility": 75
+				}
+			},
+			"Obtain the ~|of the Meilyr|~ title": {
+				"Category": ["Titles"],
+				"Label": "Titles",
+				"Chunks": ["8757"],
+				"Items": ["Harmony moss seed"],
+				"Skills": {
+					"Farming": 75
+				}
+			},
+			"Obtain the ~|the Mourner|~ title": {
+				"Category": ["Titles"],
+				"Label": "Titles",
+				"NPCs": ["Lady Ithel"],
+				"Items": ["Gas mask", "Mourner top", "Mourner trousers", "Mourner boots", "Mourner gloves", "Mourner cloak"]
+			},
+			"Obtain the ~|of the Naragi|~ title": {
+				"Category": ["Titles"],
+				"Label": "Titles",
+				"Chunks": ["8756"],
+				"Items": ["Crystal acorn"],
+				"Skills": {
+					"Farming": 94
+				}
+			},
+			"Obtain the ~|the Ravensworn|~ title": {
+				"Category": ["Titles"],
+				"Label": "Titles",
+				"Chunks": ["8756", "9012", "8755"]
+			},
+			"Obtain the ~|Sneaky|~ title": {
+				"Category": ["Titles"],
+				"Label": "Titles",
+				"Chunks": ["8500", "8757", "9012", "8755"],
+				"Items": ["Ninja impling jar"],
+				"Skills": {
+					"Thieving": 98
+				}
+			},
+			"Obtain the ~|the Statuesque|~ title": {
+				"Category": ["Titles"],
+				"Label": "Titles",
+				"Chunks": ["8756"],
+				"Items": ["Golden rock (Shattered Heart)"]
+			},
+			"Obtain the ~|the Stupendous|~ title": {
+				"Category": ["Titles"],
+				"Label": "Titles",
+				"Chunks": ["Priffdinas[+]"],
+				"Items": ["Bowl of water", "Cooked meat", "Raw potato", "Mud pie"]
+			},
+			"Obtain the ~|Sweet Tooth|~ title": {
+				"Category": ["Titles"],
+				"Label": "Titles",
+				"Chunks": ["Priffdinas[+]"],
+				"Items": ["Chocolate cake", "Chocolate bar", "Chocchip crunchies", "Chocolate bomb", "Choc ice", "Cake", "Summer pie", "Redberry pie", "Apple pie", "Fruit batta"]
+			},
+			"Obtain the ~|Sword Artist|~ title": {
+				"Category": ["Titles"],
+				"Label": "Titles",
+				"Chunks": ["8757", "11828", "11571"],
+				"Items": ["Black longsword", "Adamant off hand longsword"]
+			},
+			"Obtain the ~|of Tarddiad|~ title": {
+				"Category": ["Titles"],
+				"Label": "Titles",
+				"Chunks": ["8757", "8500", "8755", "9012"]
+			},
+			"Obtain the ~|of the Trahaearn|~ title": {
+				"Category": ["Titles"],
+				"Label": "Titles",
+				"Chunks": ["8755"],
+				"Items": ["Corrupted ore"]
+			},
+			"Obtain the ~|the Troublesome|~ title": {
+				"Category": ["Titles"],
+				"Label": "Titles",
+				"Chunks": ["9012", "8757"],
+				"Items": ["Cooking apple", "Chocolate bar"]
+			},
+			"Obtain the glorious ~|the Ravensworn|~ title": {
+				"Category": ["Titles"],
+				"Label": "Titles",
+				"Items": ["Cheese wheel"],
+				"Chunks": ["8756", "9012", "8755", "12349"],
+				"Tasks": {
+					"~|Succession|~ Complete the quest": "Quest"
+				}
+			},
+			"Obtain the ~|the One That Speaks|~ title": {
+				"Category": ["Titles"],
+				"Label": "Titles",
+				"Monsters": ["Raksha, the Shadow Colossus"]
+			},
+			"Obtain the ~|the Shadow Colossus|~ title": {
+				"Category": ["Titles"],
+				"Label": "Titles",
+				"Monsters": ["Raksha, the Shadow Colossus"]
+			},
+			"Obtain the ~|Necrolord/lady|~ title": {
+				"Category": ["Titles"],
+				"Label": "Titles",
+				"Tasks": {
+					"~|Remains of the Necrolord|~ Complete the quest": "Quest"
+				}
+			},
+			"Obtain the ~|Nakatra's Lament|~ title": {
+				"Category": ["Titles"],
+				"Label": "Titles",
+				"Monsters": ["Nakatra, Devourer Eternal (Hard Mode)", "Vermyx, Brood Mother (Hard Mode)", "Kezalam, the Wanderer (Hard Mode)"]
+			},
+			"Obtain the ~|Stargazer (title)|~": {
+				"Category": ["Titles"],
+				"Label": "Titles",
+				"Items": ["Stargazer (title)"]
+			},
+			"Obtain the gold ~|Slayer Master (title)|~": {
+				"Category": ["Titles"],
+				"Label": "Titles",
+				"Chunks": ["8755"],
+				"Items": ["Filled Ushabti[+]x172"],
+				"Skills": {
+					"Slayer": 95,
+					"Dungeoneering": 90
+				},
+				"Tasks": {
+					"~|The Branches of Darkmeyer|~ Complete the quest": "Quest",
+					"~|The Chosen Commander|~ Complete the quest": "Quest",
+					"~|Fate of the Gods|~ Complete the quest": "Quest",
+					"~|One of a Kind|~ Complete the quest": "Quest",
+					"~|The Firemaker's Curse|~ Complete the quest": "Quest",
+					"~|Ritual of the Mahjarrat|~ Complete the quest": "Quest",
+					"~|The Void Stares Back|~ Complete the quest": "Quest",
+					"~|The World Wakes|~ Complete the quest": "Quest"
+				}
+			},
+			"Obtain the ~|Erethdor's Bane|~ title": {
+				"Category": ["Titles"],
+				"Label": "Titles",
+				"Monsters": ["Solak, Guardian of the Grove"]
+			},
+			"Obtain the ~|the Blightbound|~ title": {
+				"Category": ["Titles"],
+				"Label": "Titles",
+				"Monsters": ["Solak, Guardian of the Grove"]
+			},
+			"Obtain the ~|Final Boss|~ title": {
+				"Category": ["Titles"],
+				"Label": "Titles",
+				"Monsters": [
+					"Amascut, the Devourer",
+					"Giant mole",
+					"Chaos Elemental",
+					"King Black Dragon",
+					"Queen Black Dragon",
+					"Corporeal Beast",
+					"Dagannoth Rex",
+					"Orikalka",
+					"Osseous",
+					"Barrows",
+					"TzTok-Jad",
+					"Har-Aken",
+					"The Magister",
+					"Araxxi",
+					"Legio Primus",
+					"Raksha, the Shadow Colossus",
+					"Barrows: Rise of the Six",
+					"Zemouregal & Vorkath",
+					"The Gate of Elidinis",
+					"Solak, Guardian of the Grove",
+					"Vorago",
+					"Kalphite King",
+					"Kalphite Queen",
+					"Hermod, the Spirit of War",
+					"Rasial, the First Necromancer",
+					"The Sanctum Guardian",
+					"Masuta the Ascended",
+					"Seiryu the Azure Serpent",
+					"Astellarn",
+					"Verak Lith",
+					"Black Stone Dragon",
+					"Crassian Leviathan",
+					"Taraket the Necromancer",
+					"The Ambassador",
+					"Kree'arra",
+					"K'ril Tsutsaroth",
+					"General Graardor",
+					"Commander Zilyana",
+					"Nex",
+					"Nex: Angel of Death",
+					"Helwyr",
+					"Gregorovic",
+					"Twin Furies",
+					"Vindicta",
+					"Telos, the Warden",
+					"Arch-Glacor",
+					"Croesus",
+					"Kerapac, the bound",
+					"TzKal-Zuk",
+					"Zamorak, Lord of Chaos",
+					"Vermyx, Brood Mother",
+					"Kezalam, the Wanderer",
+					"Nakatra, Devourer Eternal",
+					"Beastmaster Durzag",
+					"Yakamaru"
+				]
+			},
+			"Obtain the ~|Insane Final Boss|~ title": {
+				"Category": ["Titles", "Pets"],
+				"Label": "Titles",
+				"Monsters": [
+					"Amascut, the Devourer",
+					"Giant mole",
+					"Giant mole (Hard Mode)",
+					"Chaos Elemental",
+					"King Black Dragon",
+					"Queen Black Dragon",
+					"Corporeal Beast",
+					"Dagannoth Rex",
+					"Orikalka",
+					"Osseous",
+					"Barrows",
+					"TzTok-Jad",
+					"Har-Aken",
+					"The Magister",
+					"Araxxi",
+					"Legio Primus",
+					"Raksha, the Shadow Colossus",
+					"Barrows: Rise of the Six",
+					"Zemouregal & Vorkath",
+					"Zemouregal & Vorkath (Hard Mode)",
+					"The Gate of Elidinis",
+					"Solak, Guardian of the Grove",
+					"Vorago",
+					"Vorago (Hard Mode)",
+					"Kalphite King",
+					"Kalphite Queen",
+					"Hermod, the Spirit of War",
+					"Rasial, the First Necromancer",
+					"The Sanctum Guardian",
+					"Masuta the Ascended",
+					"Seiryu the Azure Serpent",
+					"Astellarn",
+					"Verak Lith",
+					"Black Stone Dragon",
+					"Crassian Leviathan",
+					"Taraket the Necromancer",
+					"The Ambassador",
+					"Kree'arra",
+					"Kree'arra (Hard Mode)",
+					"K'ril Tsutsaroth",
+					"K'ril Tsutsaroth (Hard Mode)",
+					"General Graardor",
+					"General Graardor (Hard Mode)",
+					"Commander Zilyana",
+					"Commander Zilyana (Hard Mode)",
+					"Nex",
+					"Nex: Angel of Death",
+					"Helwyr",
+					"Helwyr (Hard Mode)",
+					"Gregorovic",
+					"Gregorovic (Hard Mode)",
+					"Twin Furies",
+					"Twin Furies (Hard Mode)",
+					"Vindicta (Hard Mode)",
+					"Vindicta",
+					"Telos, the Warden",
+					"Arch-Glacor",
+					"Arch-Glacor (Hard Mode)",
+					"Croesus",
+					"Kerapac, the bound",
+					"Kerapac, the bound (Hard Mode)",
+					"TzKal-Zuk",
+					"TzKal-Zuk (Hard Mode)",
+					"Zamorak, Lord of Chaos",
+					"Vermyx, Brood Mother",
+					"Vermyx, Brood Mother (Hard Mode)",
+					"Kezalam, the Wanderer",
+					"Kezalam, the Wanderer (Hard Mode)",
+					"Nakatra, Devourer Eternal",
+					"Nakatra, Devourer Eternal (Hard Mode)",
+					"Beastmaster Durzag",
+					"Yakamaru"
+				],
+				"Items": [
+					"King black dragon scale",
+					"Kalphite egg",
+					"Shrivelled dagannoth claw",
+					"Dagannoth egg",
+					"Dagannoth scale",
+					"Ribs of chaos",
+					"Rotten fang",
+					"Giant feather",
+					"Auburn lock",
+					"Decaying tooth",
+					"Severed hoof",
+					"Blood-soaked feather",
+					"Blood tentacle",
+					"Corporeal bone",
+					"Volcanic shard",
+					"Queen Black Dragon scale",
+					"Kalphite claw",
+					"Corrupted Ascension signet I",
+					"Corrupted Ascension signet II",
+					"Corrupted Ascension signet III",
+					"Corrupted Ascension signet IV",
+					"Corrupted Ascension signet V",
+					"Corrupted Ascension signet VI",
+					"Ancient summoning stone",
+					"Ancient artefact",
+					"Araxyte egg",
+					"Durzag's helmet",
+					"Yakamaru's helmet",
+					"Faceless mask",
+					"Twisted antler",
+					"Avaryss' braid",
+					"Nymora's braid",
+					"Imbued blade slice",
+					"Glimmering scale",
+					"Telos' tendril",
+					"Soul fragment",
+					"Imbued bark shard",
+					"Chipped black stone crystal",
+					"Inert black stone crystal",
+					"Umbral urn",
+					"Broken shackle",
+					"Pristine Bagrada rex egg",
+					"Pristine Pavosaurus rex egg",
+					"Pristine Corbicula rex egg",
+					"Kerapac's mask piece",
+					"Glacor core",
+					"Croesus' enriched root",
+					"TzKal-Zuk's armour piece",
+					"Jewels of Zamorak",
+					"Hermod's armour spike",
+					"Miso's collar",
+					"Vorkath's claw",
+					"Calcified heart",
+					"Nefthys' Tooth",
+					"Fragment of the Gate",
+					"Amascut's promise"
+				]
+			},
+			"Obtain the ~|the Reaper|~ title": {
+				"Category": ["Titles"],
+				"Label": "Titles",
+				"Monsters": [
+					"Amascut, the Devourer",
+					"Giant mole",
+					"Chaos Elemental",
+					"King Black Dragon",
+					"Queen Black Dragon",
+					"Corporeal Beast",
+					"Dagannoth Rex",
+					"Orikalka",
+					"Osseous",
+					"Barrows",
+					"TzTok-Jad",
+					"Har-Aken",
+					"The Magister",
+					"Araxxi",
+					"Legio Primus",
+					"Raksha, the Shadow Colossus",
+					"Barrows: Rise of the Six",
+					"Zemouregal & Vorkath",
+					"The Gate of Elidinis",
+					"Solak, Guardian of the Grove",
+					"Vorago",
+					"Kalphite King",
+					"Kalphite Queen",
+					"Hermod, the Spirit of War",
+					"Rasial, the First Necromancer",
+					"The Sanctum Guardian",
+					"Masuta the Ascended",
+					"Seiryu the Azure Serpent",
+					"Astellarn",
+					"Verak Lith",
+					"Black Stone Dragon",
+					"Crassian Leviathan",
+					"Taraket the Necromancer",
+					"The Ambassador",
+					"Kree'arra",
+					"K'ril Tsutsaroth",
+					"General Graardor",
+					"Commander Zilyana",
+					"Nex",
+					"Nex: Angel of Death",
+					"Helwyr",
+					"Gregorovic",
+					"Twin Furies",
+					"Vindicta",
+					"Telos, the Warden",
+					"Arch-Glacor",
+					"Croesus",
+					"Kerapac, the bound",
+					"TzKal-Zuk",
+					"Zamorak, Lord of Chaos",
+					"Vermyx, Brood Mother",
+					"Kezalam, the Wanderer",
+					"Nakatra, Devourer Eternal",
+					"Beastmaster Durzag",
+					"Yakamaru"
+				]
+			},
+			"Obtain the ~|Salty|~ title": {
+				"Category": ["Titles", "Arc Log"],
+				"Label": "Titles",
+				"Chunks": ["The Arc", "12082"],
+				"Items": ["Bonecrusher", "Raw seerfish", "Raw tarpon", "Raw sillago", "Raw wobbegong"],
+				"Skills": {
+					"Farming": 94,
+					"Hunter": 95,
+					"Agility": 90,
+					"Divination": 90,
+					"Dungeoneering": 25
+				},
+				"Tasks": {
+					"~|Impressing the Locals|~ Complete the quest": "Quest"
+				}
+			},
+			"Obtain the ~|The Deceiver|~ title": {
+				"Category": ["Titles"],
+				"Label": "Titles",
+				"Items": ["Demonic title scroll (the deceiver)"]
+			},
+			"Obtain the ~|the Tool|~ title": {
+				"Items": [
+					"Enhanced grappling hook",
+					"Master thief's lockpick",
+					"Master thief's stethoscope",
+					"Insect repellent",
+					"Steel key ring",
+					"Bolt mould",
+					"Holy mould",
+					"Unholy mould",
+					"Sickle mould",
+					"Chain link mould",
+					"Magic watering can",
+					"Rock hammer",
+					"Salt shaker",
+					"Ice shaker",
+					"Fungicide shaker",
+					"Explosive shaker",
+					"Slayer bell",
+					"Crystal chime",
+					"Ouroboros pouch",
+					"Bonecrusher",
+					"Seedicide",
+					"Charming imp",
+					"Herbicide",
+					"Advanced gold accumulator",
+					"Mattock[+]",
+					"Legatus pendant",
+					"Pontifex signet ring",
+					"Chaos star",
+					"Ikovian gerege",
+					"Stormguard gerege",
+					"Wingsuit v1",
+					"'Friendship bracelet'"
+				],
+				"Skills": {
+					"Archaeology": 95,
+					"Dungeoneering": 60,
+					"Fletching": 54,
+					"Prayer": 21,
+					"Slayer": 57,
+					"Summoning": 21,
+					"Thieving": 62
+				},
+				"Tasks": {
+					"~|Lost Her Marbles (miniquest)|~ Complete the miniquest": "Quest",
+					"~|One Small Favour|~ Complete the quest": "Quest",
+					"~|Dwarf Cannon|~ Complete the quest": "Quest",
+					"~|Legacy of Seergaze|~ 10": "Quest",
+					"~|A Fairy Tale III - Battle at Ork's Rift|~ Complete the quest": "Quest",
+					"~|The Path of Glouphrie|~ Complete the quest": "Quest",
+					"~|Succession|~ Complete the quest": "Quest",
+					"Archaeology Mystery: ~|Leap of Faith|~ 3": "Quest",
+					"Complete the ~|Archaeology tutorial|~": "Archaeology"
+				}
+			},
+			"Obtain the ~|Tourist of Um (title)|~": {
+				"Category": ["Titles"],
+				"Label": "Titles",
+				"Chunks": ["City of Um"],
+				"Skills": {
+					"Necromancy": 65
+				}
+			},
+			"Obtain the red and violet ~|Duchess|~ title": {
+				"Category": ["Titles"],
+				"Label": "Titles",
+				"Chunks": ["9279"],
+				"Tasks": {
+					"~|Ancient Awakening|~ Complete the quest": "Quest"
+				}
+			},
+			"Obtain the red and violet ~|Duke (title)|~": {
+				"Category": ["Titles"],
+				"Label": "Titles",
+				"Chunks": ["9279"],
+				"Tasks": {
+					"~|Ancient Awakening|~ Complete the quest": "Quest"
+				}
+			},
+			"Obtain the red and violet ~|Dux|~ title": {
+				"Category": ["Titles"],
+				"Label": "Titles",
+				"Chunks": ["9279"],
+				"Tasks": {
+					"~|Ancient Awakening|~ Complete the quest": "Quest"
+				}
+			},
+			"Obtain the ~|the Defeater|~ title": {
+				"Category": ["Titles"],
+				"Label": "Titles",
+				"Monsters": ["Vorago (Hard Mode)"]
+			},
+			"Obtain the bronze ~|the Defeater|~ title": {
+				"Category": ["Titles"],
+				"Label": "Titles",
+				"Monsters": ["Vorago (Hard Mode)"]
+			},
+			"Obtain the silver ~|the Defeater|~ title": {
+				"Category": ["Titles"],
+				"Label": "Titles",
+				"Monsters": ["Vorago (Hard Mode)"]
+			},
+			"Obtain the gold ~|the Defeater|~ title": {
+				"Category": ["Titles"],
+				"Label": "Titles",
+				"Monsters": ["Vorago (Hard Mode)"]
+			},
+			"Obtain the ~|the Earthshaker|~ title": {
+				"Category": ["Titles"],
+				"Label": "Titles",
+				"Monsters": ["Vorago (Hard Mode)"]
+			},
+			"Obtain the ~|the Bad Omen|~ title": {
+				"Category": ["Titles"],
+				"Label": "Titles",
+				"Monsters": ["Vorago (Hard Mode)"]
+			},
+			"Obtain the ~|the Defeater|~ title": {
+				"Category": ["Titles"],
+				"Label": "Titles",
+				"Monsters": ["Vorago (Hard Mode)"]
+			},
+			"Obtain the ~|Attacker|~ title": {
+				"Category": ["Titles", "Minigames"],
+				"Label": "Titles",
+				"Chunks": ["10039"]
+			},
+			"Obtain the ~|Collector|~ title": {
+				"Category": ["Titles", "Minigames"],
+				"Label": "Titles",
+				"Chunks": ["10039"]
+			},
+			"Obtain the ~|Defender|~ title": {
+				"Category": ["Titles", "Minigames"],
+				"Label": "Titles",
+				"Chunks": ["10039"]
+			},
+			"Obtain the ~|Healer|~ title": {
+				"Category": ["Titles", "Minigames"],
+				"Label": "Titles",
+				"Chunks": ["10039"]
+			},
+			"Obtain the ~|Supreme Attacker|~ title": {
+				"Category": ["Titles", "Minigames", "Group Content"],
+				"Label": "Titles",
+				"Chunks": ["10039"]
+			},
+			"Obtain the ~|Supreme Collector|~ title": {
+				"Category": ["Titles", "Minigames", "Group Content"],
+				"Label": "Titles",
+				"Chunks": ["10039"]
+			},
+			"Obtain the ~|Supreme Defender|~ title": {
+				"Category": ["Titles", "Minigames", "Group Content"],
+				"Label": "Titles",
+				"Chunks": ["10039"]
+			},
+			"Obtain the ~|Supreme Healer|~ title": {
+				"Category": ["Titles", "Minigames", "Group Content"],
+				"Label": "Titles",
+				"Chunks": ["10039"]
+			},
+			"Obtain the ~|the Penance Slayer|~ title": {
+				"Category": ["Titles", "Minigames", "Group Content"],
+				"Label": "Titles",
+				"Chunks": ["10039"]
+			},
+			"Obtain the ~|the Distracted|~ title": {
+				"Category": ["Titles", "DnD"],
+				"Label": "Titles",
+				"NPCs": ["Cornelius Glyph"],
+				"Objects": ["Small obelisk", "Evil tree", "Crashed star"],
+				"Chunks": ["11319", "Effigy Incubator", "Balthazar Beauregard's Big Top Bonanza", "Player-Owned Port", "10291", "8755", "Tears of Guthix cavern", "13366",
+					"Chaos Tunnels", "Chinchompa cave", "10295", "Guthixian Cache", "Phoenix's Lair", "Champions' Aerna", "Sinkhole", "Runecrafting Guild", "10806"],
+				"Tasks": {
+					"~|A Shadow over Ashdale|~ Complete the quest": "Quest",
+					"~|Sins of the Father|~ Complete the quest": "Quest",
+					"~|In Pyre Need|~ Complete the quest": "Quest",
+					"~|Fur 'n' Seek#Wish List|~ Complete the lore activity": "Quest",
+					"~|The Hunt for Surok (miniquest)|~ Complete the miniquest": "Quest",
+					"~|King's Ransom|~ Complete the quest": "Quest"
+				}
+			},
+			"Obtain the ~|the Annihilator|~ title": {
+				"Category": ["Titles"],
+				"Label": "Titles",
+				"Tasks": {
+					"~|Fate of the Gods|~ Complete the quest": "Quest"
+				}
+			},
+			"Obtain the ~|Vyrelord/Vyrelady|~ title": {
+				"Category": ["Titles"],
+				"Label": "Titles",
+				"Tasks": {
+					"~|The Branches of Darkmeyer|~ Complete the quest": "Quest"
+				}
 			},
 			"Obtain a ~|dwarven army axe|~": {
 				"Category": ["BIS Skilling"],
@@ -143531,7 +145357,10 @@
 				"Chunks": ["11316", "12849"]
 			},
 			"Troll Stronghold": {
-				"UnlocksArea": true
+				"UnlocksArea": true,
+				"Tasks": {
+					"~|Troll Stronghold|~ 2": "Quest"
+				}
 			},
 			"Tolna's Rift": {
 				"UnlocksArea": true,
@@ -145064,7 +146893,8 @@
 				"UnlocksArea": true
 			},
 			"Mazcab": {
-				"UnlocksArea": true
+				"UnlocksArea": true,
+				"Chunks": ["12332"]
 			},
 			"Ripper Demon cave": {
 				"UnlocksArea": true,
@@ -145336,7 +147166,7 @@
 				"UnlocksArea": true
 			},
 			"Universal tertiary": {
-				"Category": ["Secondary Effigies"]
+				"Category": ["Universal Tertiary"]
 			},
 			"Obtain duck food*": {
 				"Chunks": ["11828"],
@@ -146690,7 +148520,7 @@
 			"Champions Guild Questpoints": {
 				"QuestPointsNeeded": 33
 			},
-			"Members Only": {
+			"Members only": {
 				"Not F2P": true
 			},
 			"Access Daemonheim Rewards": {
@@ -148806,6 +150636,12 @@
 			"Pick a cabbage*": {
 				"Objects": ["Cabbage"],
 				"Output": "Cabbage"
+			},
+			"Zuk fight requirement": {
+				"Monsters": ["TzKal-Zuk"]
+			},
+			"Menaphos VIP Area": {
+				"Chunks": ["12586"]
 			}
 		}
 	},
@@ -194091,7 +195927,7 @@
 				"Off-hand black scimitar",
 				"Off-hand black sword",
 				"Off-hand black warhammer",
-				"Steel scimitar"
+				"Black scimitar"
 			],
 			"BlisterwoodWeapon[+]": [
 				"Blisterwood polearm",
@@ -199215,6 +201051,7 @@
 			"Pose[+]": ["12853", "Keldagrim"],
 			"POR[+]": ["14915", "14916", "14660", "14659"],
 			"PrayerAltarChunks[+]": ["11828", "10290", "10806", "12854", "Underground Pass", "10806", "10035", "10291", "12850", "Sunken Tutorial Island", "11825", "11574", "11575", "13617", "12086", "11316", "Goblin Temple", "8757", "8755", "9265", "Jaldraocht Pyramid", "12331", "13622", "13098", "10803", "Nature Grotto", "War's Retreat", "Senntisten Temple", "God Wars Dungeon", "Kharid-et - Barracks excavation site", "14388", "12087", "11830", "12852", "12856", "11835", "Yanille Agility Dungeon", "9778", "9012", "11056", "11051", "Uzer Mastaba", "8508", "13613", "11829", "7995"],
+			"Priffdinas[+]": ["8501", "8500", "8499", "8757", "8756", "8755", "9013", "9012", "9011"],
 			"PVP[+]": ["8493", "9005", "9520", "11831", "11832", "11833", "11834", "11837", "12087", "12088", "12089", "12090", "12091", "12092", "12343", "12344", "12347", "12348", "12599", "12600", "12603", "12604", "12605", "12855", "12856", "12859", "13111", "13114", "13367", "13368", "13372", "Forinthry Dungeon", "Gamers' Grotto", "TzHaar City"],
 			"RitualSite[+]": ["City of Um", "Ungael ritual site"],
 			"RockCrabChunks[+]": ["10810", "10042"],
@@ -199320,6 +201157,7 @@
 			"Pose[+]": "Any chunk from which you can complete the strike a pose achievement",
 			"POR[+]": "Any chunk that is part of the player-owned ranch",
 			"PrayerAltarChunks[+]": "Any chunk with a prayer altar in it",
+			"Prifddinas[+]": "Any Prifddinas chunk",
 			"PVP[+]": "Any chunk where you can attack other players (Wilderness or minigame)",
 			"RitualSite[+]": "Any ritual site",
 			"RockCrabChunks[+]": "The Fremennik coast and waterbirth island chunks that contain rock crabs",
@@ -255718,8 +257556,8 @@
 			"Left skull half^Ankou": [{
 				"Stronghold drops": "Nonskill"
 			}],
-			"Off-hand rubber chicken": [{
-				"Members Only": true
+			"Off-hand rubber chicken^": [{
+				"Members only": true
 			}],
 			"Raptor key part 1^": [{
 				"Wyvern task": "Nonskill"
@@ -256018,6 +257856,321 @@
 			}],
 			"Ferocious ring (5)^": [{
 				"Receive a slayer assignment from ~|Kuradal|~": "Slayer"
+			}],
+			"Gold charm^": [{
+				"Members only": "Nonskill"
+			}],
+			"Green charm^": [{
+				"Members only": "Nonskill"
+			}],
+			"Crimson charm^": [{
+				"Members only": "Nonskill"
+			}],
+			"Blue charm^": [{
+				"Members only": "Nonskill"
+			}],
+			"Cabbage seed^": [{
+				"Members only": "Nonskill"
+			}],
+			"Tomato seed^": [{
+				"Members only": "Nonskill"
+			}],
+			"Sweetcorn seed^": [{
+				"Members only": "Nonskill"
+			}],
+			"Strawberry seed^": [{
+				"Members only": "Nonskill"
+			}],
+			"Watermelon seed^": [{
+				"Members only": "Nonskill"
+			}],
+			"Snape grass seed^": [{
+				"Members only": "Nonskill"
+			}],
+			"Sunchoke seed^": [{
+				"Members only": "Nonskill"
+			}],
+			"Fly trap seed^": [{
+				"Members only": "Nonskill"
+			}],
+			"Rosemary seed^": [{
+				"Members only": "Nonskill"
+			}],
+			"Nasturtium seed^": [{
+				"Members only": "Nonskill"
+			}],
+			"Woad seed^": [{
+				"Members only": "Nonskill"
+			}],
+			"Limpwurt seed^": [{
+				"Members only": "Nonskill"
+			}],
+			"White lily seed^": [{
+				"Members only": "Nonskill"
+			}],
+			"Butterfly flower seed^": [{
+				"Members only": "Nonskill"
+			}],
+			"Starbloom flower seed^": [{
+				"Members only": "Nonskill"
+			}],
+			"Guam seed^": [{
+				"Members only": "Nonskill"
+			}],
+			"Marrentill seed^": [{
+				"Members only": "Nonskill"
+			}],
+			"Tarromin seed^": [{
+				"Members only": "Nonskill"
+			}],
+			"Harralander seed^": [{
+				"Members only": "Nonskill"
+			}],
+			"Ranarr seed^": [{
+				"Members only": "Nonskill"
+			}],
+			"Spirit weed seed^": [{
+				"Members only": "Nonskill"
+			}],
+			"Toadflax seed^": [{
+				"Members only": "Nonskill"
+			}],
+			"Irit seed^": [{
+				"Members only": "Nonskill"
+			}],
+			"Wergali seed^": [{
+				"Members only": "Nonskill"
+			}],
+			"Avantoe seed^": [{
+				"Members only": "Nonskill"
+			}],
+			"Kwuarm seed^": [{
+				"Members only": "Nonskill"
+			}],
+			"Bloodweed seed^": [{
+				"Members only": "Nonskill"
+			}],
+			"Snapdragon seed^": [{
+				"Members only": "Nonskill"
+			}],
+			"Cadantine seed^": [{
+				"Members only": "Nonskill"
+			}],
+			"Lantadyme seed^": [{
+				"Members only": "Nonskill"
+			}],
+			"Arbuck seed^": [{
+				"Members only": "Nonskill"
+			}],
+			"Dwarf weed seed^": [{
+				"Members only": "Nonskill"
+			}],
+			"Torstol seed^": [{
+				"Members only": "Nonskill"
+			}],
+			"Fellstalk seed^": [{
+				"Members only": "Nonskill"
+			}],
+			"Asgarnian seed^": [{
+				"Members only": "Nonskill"
+			}],
+			"Jute seed^": [{
+				"Members only": "Nonskill"
+			}],
+			"Yanillian seed^": [{
+				"Members only": "Nonskill"
+			}],
+			"Krandorian seed^": [{
+				"Members only": "Nonskill"
+			}],
+			"Wildblood seed^": [{
+				"Members only": "Nonskill"
+			}],
+			"Grapevine seed^": [{
+				"Members only": "Nonskill"
+			}],
+			"Reed seed^": [{
+				"Members only": "Nonskill"
+			}],
+			"Godly grapevine seed^": [{
+				"Members only": "Nonskill"
+			}],
+			"Redberry seed^": [{
+				"Members only": "Nonskill"
+			}],
+			"Cadavaberry seed^": [{
+				"Members only": "Nonskill"
+			}],
+			"Dwellberry seed^": [{
+				"Members only": "Nonskill"
+			}],
+			"Jangerberry seed^": [{
+				"Members only": "Nonskill"
+			}],
+			"Whiteberry seed^": [{
+				"Members only": "Nonskill"
+			}],
+			"Poison ivy seed^": [{
+				"Members only": "Nonskill"
+			}],
+			"Barberry seed^": [{
+				"Members only": "Nonskill"
+			}],
+			"Avocado seed^": [{
+				"Members only": "Nonskill"
+			}],
+			"Mango seed^": [{
+				"Members only": "Nonskill"
+			}],
+			"Lychee seed^": [{
+				"Members only": "Nonskill"
+			}],
+			"Acorn^": [{
+				"Members only": "Nonskill"
+			}],
+			"Willow seed^": [{
+				"Members only": "Nonskill"
+			}],
+			"Maple seed^": [{
+				"Members only": "Nonskill"
+			}],
+			"Yew seed^": [{
+				"Members only": "Nonskill"
+			}],
+			"Magic seed^": [{
+				"Members only": "Nonskill"
+			}],
+			"Apple tree seed^": [{
+				"Members only": "Nonskill"
+			}],
+			"Banana tree seed^": [{
+				"Members only": "Nonskill"
+			}],
+			"Orange tree seed^": [{
+				"Members only": "Nonskill"
+			}],
+			"Curry tree seed^": [{
+				"Members only": "Nonskill"
+			}],
+			"Pineapple seed^": [{
+				"Members only": "Nonskill"
+			}],
+			"Papaya tree seed^": [{
+				"Members only": "Nonskill"
+			}],
+			"Palm tree seed^": [{
+				"Members only": "Nonskill"
+			}],
+			"Ciku seed^": [{
+				"Members only": "Nonskill"
+			}],
+			"Guarana seed^": [{
+				"Members only": "Nonskill"
+			}],
+			"Carambola seed^": [{
+				"Members only": "Nonskill"
+			}],
+			"Cactus seed^": [{
+				"Members only": "Nonskill"
+			}],
+			"Prickly pear seed^": [{
+				"Members only": "Nonskill"
+			}],
+			"Potato cactus seed^": [{
+				"Members only": "Nonskill"
+			}],
+			"Dragonfruit seed^": [{
+				"Members only": "Nonskill"
+			}],
+			"Golden dragonfruit seed^": [{
+				"Members only": "Nonskill"
+			}],
+			"Bittercap mushroom spore^": [{
+				"Members only": "Nonskill"
+			}],
+			"Morchella mushroom spore^": [{
+				"Members only": "Nonskill"
+			}],
+			"Stinkshroom spore^": [{
+				"Members only": "Nonskill"
+			}],
+			"Tombshroom spore^": [{
+				"Members only": "Nonskill"
+			}],
+			"Evil turnip seed^": [{
+				"Members only": "Nonskill"
+			}],
+			"Cave nightshade seed^": [{
+				"Members only": "Nonskill"
+			}],
+			"Calquat tree seed^": [{
+				"Members only": "Nonskill"
+			}],
+			"Spirit seed^": [{
+				"Members only": "Nonskill"
+			}],
+			"Elder seed^": [{
+				"Members only": "Nonskill"
+			}],
+			"Grimy guam^": [{
+				"Members only": "Nonskill"
+			}],
+			"Grimy marrentill^": [{
+				"Members only": "Nonskill"
+			}],
+			"Grimy tarromin^": [{
+				"Members only": "Nonskill"
+			}],
+			"Grimy harralander^": [{
+				"Members only": "Nonskill"
+			}],
+			"Grimy ranarr^": [{
+				"Members only": "Nonskill"
+			}],
+			"Grimy spirit weed^": [{
+				"Members only": "Nonskill"
+			}],
+			"Grimy toadflax^": [{
+				"Members only": "Nonskill"
+			}],
+			"Grimy irit^": [{
+				"Members only": "Nonskill"
+			}],
+			"Grimy wergali^": [{
+				"Members only": "Nonskill"
+			}],
+			"Grimy avantoe^": [{
+				"Members only": "Nonskill"
+			}],
+			"Grimy kwuarm^": [{
+				"Members only": "Nonskill"
+			}],
+			"Grimy bloodweed^": [{
+				"Members only": "Nonskill"
+			}],
+			"Grimy snapdragon^": [{
+				"Members only": "Nonskill"
+			}],
+			"Grimy cadantine^": [{
+				"Members only": "Nonskill"
+			}],
+			"Grimy lantadyme^": [{
+				"Members only": "Nonskill"
+			}],
+			"Grimy arbuck^": [{
+				"Members only": "Nonskill"
+			}],
+			"Grimy dwarf weed^": [{
+				"Members only": "Nonskill"
+			}],
+			"Grimy torstol^": [{
+				"Members only": "Nonskill"
+			}],
+			"Grimy fellstalk^": [{
+				"Members only": "Nonskill"
+			}],
+			"Phenakite^": [{
+				"Menaphos VIP Area": "Nonskill"
 			}]
 		},
 		"Monsters": {
@@ -256608,6 +258761,86 @@
 				"11834": [{
 					"Unlock ~|frozen floors|~": "Dungeoneering"
 				}]
+			},
+			"TzekHaar-Kih (TzKal-Zuk)": {
+				"Senntisten sewers": [{
+					"Zuk fight requirement": "Nonskill"
+				}]
+			},
+			"TzekHaar-Hur (TzKal-Zuk)": {
+				"Senntisten sewers": [{
+					"Zuk fight requirement": "Nonskill"
+				}]
+			},
+			"TzekHaar-Xil (TzKal-Zuk)": {
+				"Senntisten sewers": [{
+					"Zuk fight requirement": "Nonskill"
+				}]
+			},
+			"TzekHaar-Mej (TzKal-Zuk)": {
+				"Senntisten sewers": [{
+					"Zuk fight requirement": "Nonskill"
+				}]
+			},
+			"TzekHaar-Yt-MejKot": {
+				"Senntisten sewers": [{
+					"Zuk fight requirement": "Nonskill"
+				}]
+			},
+			"TzekHaar-Tok-Xil": {
+				"Senntisten sewers": [{
+					"Zuk fight requirement": "Nonskill"
+				}]
+			},
+			"TzekHaar-Ket-Zek": {
+				"Senntisten sewers": [{
+					"Zuk fight requirement": "Nonskill"
+				}]
+			},
+			"Igneous TzekHaar-Hur": {
+				"Senntisten sewers": [{
+					"Zuk fight requirement": "Nonskill"
+				}]
+			},
+			"Igneous TzekHaar-Xil": {
+				"Senntisten sewers": [{
+					"Zuk fight requirement": "Nonskill"
+				}]
+			},
+			"Igneous TzekHaar-Mej": {
+				"Senntisten sewers": [{
+					"Zuk fight requirement": "Nonskill"
+				}]
+			},
+			"Volatile TzekHaar-Hur": {
+				"Senntisten sewers": [{
+					"Zuk fight requirement": "Nonskill"
+				}]
+			},
+			"Unbreakable TzekHaar-Ket": {
+				"Senntisten sewers": [{
+					"Zuk fight requirement": "Nonskill"
+				}]
+			},
+			"TzekHaar-Jad": {
+				"Senntisten sewers": [{
+					"Zuk fight requirement": "Nonskill"
+				}]
+			},
+			"TzekHaar-Aken": {
+				"Senntisten sewers": [{
+					"Zuk fight requirement": "Nonskill"
+				}]
+			},
+			"Cyclops": {
+				"11319": [{
+					"Members only": "Nonskill"
+				}]
+			},
+			"Rooster": {
+				"11319": [{
+					"Members only": "Nonskill"
+				}]
 			}
 		},
 		"NPCs": {
@@ -256794,12 +259027,12 @@
 				"8757": [{
 					"Access Daemonheim Rewards": "Nonskill"
 				}, {
-					"Members Only": "Nonskill"
+					"Members only": "Nonskill"
 				}],
 				"13625": [{
 					"Access Daemonheim Rewards": "Nonskill"
 				}, {
-					"Members Only": "Nonskill"
+					"Members only": "Nonskill"
 				}]
 			},
 			"Daemonheim Rewards (F2P)": {
@@ -256942,6 +259175,21 @@
 			"Vigr's Warhammers (BotD)": {
 				"Keldagrim": [{
 					"~|Birthright of the Dwarves|~ Complete the quest": "Quest"
+				}]
+			},
+			"Warriors' Guild Armoury": {
+				"11319": [{
+					"Gain access to the ~|Warriors' Guild|~": "Attack"
+				}]
+			},
+			"Warriors' Guild Food Shop": {
+				"11319": [{
+					"Gain access to the ~|Warriors' Guild|~": "Attack"
+				}]
+			},
+			"Warriors' Guild Potion Shop": {
+				"11319": [{
+					"Gain access to the ~|Warriors' Guild|~": "Attack"
 				}]
 			},
 			"White Knight Master Armoury": {
@@ -268829,6 +271077,17 @@
 				"Staff of Armadyl's fractured shaft": {
 					"1": "Always"
 				}
+			},
+			"Luminous wisp loot": {
+				"Luminous energy": {
+					"3": "Always"
+				},
+				"Fly dragon": {
+					"1": "1/800"
+				},
+				"Fruit fly": {
+					"1": "1/800"
+				}
 			}
 		},
 		"Dungeoneering": {
@@ -270454,6 +272713,14 @@
 				"Strange egg": {
 					"1": "Very rare"
 				}
+			},
+			"Acadia log burning": {
+				"Fruit fly in amber": {
+					"1": "1/800"
+				},
+				"Menaphite honey bee": {
+					"1": "1/800"
+				}
 			}
 		},
 		"Fishing": {
@@ -270864,6 +273131,23 @@
 				},
 				"A Massacrer of Moles": {
 					"1": "Rare"
+				}
+			},
+			"Menaphos fishing": {
+				"Wavecrest opal": {
+					"1": "1/3000"
+				},
+				"Maw coral": {
+					"1": "1/3000"
+				},
+				"Desert locust in amber": {
+					"1": "1/3000"
+				},
+				"Clicker kalphite in amber": {
+					"1": "1/3000"
+				},
+				"Slimy egg": {
+					"1": "1/3000"
 				}
 			}
 		},
@@ -276404,6 +278688,35 @@
 				},
 				"Starbloom flower seed": {
 					"1": "1/200"
+				}
+			},
+			"Mineral Deposit": {
+				"Sandstone (10kg)": {
+					"1": "1/4"
+				}, 
+				"Sandstone (5kg)": {
+					"1": "1/4"
+				}, 
+				"Sandstone (2kg)": {
+					"1": "1/4"
+				}, 
+				"Sandstone (1kg)": {
+					"1": "1/4"
+				},
+				"Crondite": {
+					"1": "1/3000"
+				},
+				"Phenakite": {
+					"1": "1/3000"
+				},
+				"Umesco arpos": {
+					"1": "1/3000"
+				},
+				"Menaphite honey bee in amber": {
+					"1": "1/3000"
+				},
+				"Pygmy giant scarab in amber": {
+					"1": "1/3000"
 				}
 			}
 		},
@@ -295747,6 +298060,9 @@
 				},
 				"Off-hand khopesh of the Kharidian": {
 					"1": "1/800"
+				},
+				"Corundum": {
+					"1": "1/750"
 				}
 			}	
 		},
@@ -295849,6 +298165,17 @@
 				},
 				"A Massacrer of Moles": {
 					"1": "Rare"
+				}
+			},
+			"Acadia Menaphos woodcutting": {
+				"Desert locust": {
+					"1": "1/800"
+				},
+				"Kalphite wanderer": {
+					"1": "1/800"
+				},
+				"Hornless unicornfly": {
+					"1": "1/800"
 				}
 			}
 		},
@@ -296319,6 +298646,9 @@
 				},
 				"Black ibis boots": {
 					"1": "Always"
+				},
+				"Menaphyrite": {
+					"1": "1/100"
 				}
 			},
 			"Familiarisation rewards": {
