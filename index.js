@@ -376,6 +376,7 @@ let rules = {
     "Collection Log": false,
 	"Boss Collection Log": false,
 	"Slayer Collection Log": false,
+	"Archaeology Collections": false,
 	"Universal Tertiary": false,
 	"Breeding Log": false,
     "Minigame": false,
@@ -508,6 +509,7 @@ let ruleNames = {
     "Collection Log": "Must obtain items from collection logs (Does nothing on its own)",
 	"Boss Collection Log": "Must obtain items from the boss collection log<span class='rule-asterisk noscroll'>*</span>",
 	"Slayer Collection Log": "Must obtain items from the slayer collection log<span class='rule-asterisk noscroll'>*</span>",
+	"Archaeology Collections": "Must fill out all Archaeology collections<span class='rule-asterisk noscroll'>*</span>",
 	"Universal Tertiary": "Allow universal tertiary drops (mimic tokens, effigies, spirit gems) to count towards chunk tasks<span class='rule-asterisk noscroll'>†</span>",
 	"Breeding Log": "Must fill out the Player-Owned Farm and Player-Owned Ranch breeding logs<span class='rule-asterisk noscroll'>*</span>",
     "Minigame": "Allow items obtained from minigame rewards to count towards chunk tasks",
@@ -662,6 +664,7 @@ let rulePresets = {
         "Collection Log": true,
 		"Boss Collection Log": true,
 		"Slayer Collection Log": true,
+		"Archaeology Collections": true,
 		"Breeding Log": true,
         "Untracked Uniques": true,
         "Untracked Uniques Skilling": true,
@@ -746,6 +749,7 @@ let rulePresets = {
         "Collection Log": true,
 		"Boss Collection Log": true,
 		"Slayer Collection Log": true,
+		"Archaeology Collections": true,
 		"Breeding Log": true,
         "Untracked Uniques": true,
 		"Untracked Uniques Skilling": true,
@@ -843,7 +847,8 @@ let ruleStructure = {
 		"Token": true,
 		"Menaphos Events": true,
 		"Uncharted": true,
-		"Multiple Pickpockets": true
+		"Multiple Pickpockets": true,
+		"Partial Products": true
     },
     "Agility": {
         "Shortcut": true,
@@ -910,6 +915,7 @@ let ruleStructure = {
 	"Collections": {
         "Collection Log": ["Boss Collection Log", "Slayer Collection Log", "Arc Log", "Menaphos Log", "Breeding Log", "Dungeoneering Journals", "Slayer Souls"],
 		"Untracked Uniques": ["Untracked Uniques Skilling", "Untracked Uniques Combat", "Untracked Uniques Minigames", "Untracked Uniques Daemonheim", "Untracked Uniques Misc"],
+		"Archaeology Collections": true,
 		"Ports Scrolls": true,
 		"Titles": true,
 		"Permanent Unlockables": true,
