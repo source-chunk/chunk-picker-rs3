@@ -8604,7 +8604,6 @@
 				"Skills": {
 					"Dungeoneering": 80
 				},
-				"Not F2P": true,
 				"Primary": false,
 				"Priority": 2,
 				"NoPet": true,
@@ -18343,7 +18342,6 @@
 				"Output": "Bass",
 				"Primary": true,
 				"Priority": 1,
-				"Not F2P": true,
 				"Not F2P": true
 			},
 			"Brew ~|Moonlight mead|~": {
@@ -18411,7 +18409,6 @@
 				"Output": "Part fish pie 1",
 				"Primary": true,
 				"Priority": 1,
-				"Not F2P": true,
 				"Not F2P": true
 			},
 			"Make a ~|part fish pie 2|~": {
@@ -18420,7 +18417,6 @@
 				"Output": "Part fish pie 2",
 				"Primary": true,
 				"Priority": 2,
-				"Not F2P": true,
 				"Not F2P": true
 			},
 			"Make a ~|raw fish pie|~": {
@@ -18429,7 +18425,6 @@
 				"Output": "Raw fish pie",
 				"Primary": true,
 				"Priority": 3,
-				"Not F2P": true,
 				"Not F2P": true
 			},
 			"Bake a ~|fish pie|~": {
@@ -18439,7 +18434,6 @@
 				"Output": "Fish pie",
 				"Primary": true,
 				"Priority": 4,
-				"Not F2P": true,
 				"Not F2P": true
 			},
 			"Cast ~|bake pie|~ on a raw fish pie": {
@@ -21777,48 +21771,42 @@
 				"Level": 40,
 				"Output": "Green dragonhide vambraces",
 				"Primary": true,
-				"Priority": 1,
-				"Not F2P": true
+				"Priority": 1
 			},
 			"Craft ~|green dragonhide boots|~": {
 				"Items": ["Green dragon leather*", "Thread*"],
 				"Level": 40,
 				"Output": "Green dragonhide boots",
 				"Primary": true,
-				"Priority": 2,
-				"Not F2P": true
+				"Priority": 2
 			},
 			"Craft ~|green dragonhide chaps|~": {
 				"Items": ["Green dragon leather*", "Thread*"],
 				"Level": 40,
 				"Output": "Green dragonhide chaps",
 				"Primary": true,
-				"Priority": 3,
-				"Not F2P": true
+				"Priority": 3
 			},
 			"Craft a ~|green dragonhide coif|~": {
 				"Items": ["Green dragon leather*", "Thread*"],
 				"Level": 40,
 				"Output": "Green dragonhide coif",
 				"Primary": true,
-				"Priority": 4,
-				"Not F2P": true
+				"Priority": 4
 			},
 			"Craft a ~|green dragonhide body|~": {
 				"Items": ["Green dragon leather*", "Thread*"],
 				"Level": 40,
 				"Output": "Green dragonhide body",
 				"Primary": true,
-				"Priority": 5,
-				"Not F2P": true
+				"Priority": 5
 			},
 			"Craft a ~|green dragonhide shield|~": {
 				"Items": ["Green dragon leather*", "Thread*"],
 				"Level": 40,
 				"Output": "Green dragonhide shield",
 				"Primary": true,
-				"Priority": 6,
-				"Not F2P": true
+				"Priority": 6
 			},
 			"Craft a ~|plain farming urn (unfired)|~": {
 				"Items": ["Soft clay*"],
@@ -22237,48 +22225,42 @@
 				"Level": 50,
 				"Output": "Blue dragonhide vambraces",
 				"Primary": true,
-				"Priority": 1,
-				"Not F2P": true
+				"Priority": 1
 			},
 			"Craft ~|blue dragonhide boots|~": {
 				"Items": ["Blue dragon leather*", "Thread*"],
 				"Level": 50,
 				"Output": "Blue dragonhide boots",
 				"Primary": true,
-				"Priority": 2,
-				"Not F2P": true
+				"Priority": 2
 			},
 			"Craft ~|blue dragonhide chaps|~": {
 				"Items": ["Blue dragon leather*", "Thread*"],
 				"Level": 50,
 				"Output": "Blue dragonhide chaps",
 				"Primary": true,
-				"Priority": 3,
-				"Not F2P": true
+				"Priority": 3
 			},
 			"Craft a ~|blue dragonhide coif|~": {
 				"Items": ["Blue dragon leather*", "Thread*"],
 				"Level": 50,
 				"Output": "Blue dragonhide coif",
 				"Primary": true,
-				"Priority": 4,
-				"Not F2P": true
+				"Priority": 4
 			},
 			"Craft a ~|blue dragonhide body|~": {
 				"Items": ["Blue dragonhide leather*", "Thread*"],
 				"Level": 50,
 				"Output": "Blue dragonhide body",
 				"Primary": true,
-				"Priority": 5,
-				"Not F2P": true
+				"Priority": 5
 			},
 			"Craft a ~|blue dragonhide shield|~": {
 				"Items": ["Blue dragonhide leather*", "Thread*"],
 				"Level": 50,
 				"Output": "Blue dragonhide shield",
 				"Primary": true,
-				"Priority": 6,
-				"Not F2P": true
+				"Priority": 6
 			},
 			"Craft ~|mystic gloves|~": {
 				"Items": ["Mystic cloth*", "Thread*"],
@@ -24298,6 +24280,14 @@
 				"Output": "Moonstone amulet",
 				"Primary": true,
 				"Priority": 37,
+				"Not F2P": true
+			},
+			"Crush some ~|meteorite dust|~": {
+				"Level": 85,
+				"Objects": ["Meteorite chunk"],
+				"Primary": true,
+				"Output": "Meteorite dust",
+				"Priority": 38,
 				"Not F2P": true
 			},
 			"Blow a ~|empty light orb|~": {
@@ -28923,7 +28913,8 @@
 				"Chunks": ["11832"],
 				"Level": 1,
 				"Primary": true,
-				"Priority": 14
+				"Priority": 14,
+				"Not F2P": true
 			},
 			"Complete a run through ~|Shifting Tombs|~": {
 				"Chunks": ["Shifting Tombs"],
@@ -30433,17 +30424,11 @@
 				"Primary": false,
 				"Priority": 9
 			},
-			"Equip a ~|superior energy-gathering scrimshaw|~": {
-				"Items": ["Superior energy-gathering scrimshaw"],
-				"Level": 80,
-				"Primary": false,
-				"Priority": 10
-			},
 			"Wield a ~|memory dowser|~": {
 				"Items": ["Memory dowser"],
 				"Level": 80,
 				"Primary": false,
-				"Priority": 11
+				"Priority": 10
 			},
 			"Harvest ~|radiant memories|~": {
 				"NPCs": ["Radiant memories"],
@@ -31277,7 +31262,6 @@
 				"Level": 71,
 				"Primary": true,
 				"Priority": 1,
-				"Not F2P": true,
 				"Not F2P": true
 			},
 			"Wear ~|mercenary's gloves|~": {
@@ -31396,7 +31380,6 @@
 					"Ranged": 80
 				},
 				"Primary": false,
-				"Not F2P": true,
 				"Priority": 9,
 				"Not F2P": true
 			},
@@ -31406,7 +31389,6 @@
 				"Skills": {
 					"Ranged": 80
 				},
-				"Not F2P": true,
 				"Primary": false,
 				"Priority": 10,
 				"Not F2P": true
@@ -31568,7 +31550,6 @@
 				"NPCs": ["Rewards trader"],
 				"Primary": false,
 				"Priority": 1,
-				"Not F2P": true,
 				"Not F2P": true
 			},
 			"Enter the ~|Edimmu resource dungeon|~": {
@@ -32343,14 +32324,16 @@
 				"Chunks": ["12600"],
 				"Level": 1,
 				"Primary": true,
-				"Priority": 25
+				"Priority": 25,
+				"Not F2P": true
 			},
 			"Finish the Phase 1 Evil Bloodwood Tree ~|Wilderness Flash Event|~": {
 				"Category": ["DnD", "DnD Flash Events"],
 				"Chunks": ["12344"],
 				"Level": 1,
 				"Primary": true,
-				"Priority": 26
+				"Priority": 26,
+				"Not F2P": true
 			},
 			"Harvest seaweed for the ~|Giant Oyster|~": {
 				"Category": ["DnD", "Not Daily DnD"],
@@ -36456,7 +36439,8 @@
 				"Chunks": ["12344"],
 				"Level": 1,
 				"Primary": true,
-				"Priority": 15
+				"Priority": 15,
+				"Not F2P": true
 			},
 			"Partake in ~|Herby Werby|~": {
 				"Category": ["DnD", "Not Daily DnD"],
@@ -37160,7 +37144,6 @@
 			"Light a fire using ~|acadia logs|~": {
 				"Items": ["Acadia logs*"],
 				"Level": 47,
-				"Output": "Ashes",
 				"Output Object": "Player fire",
 				"Output": "Acadia log burning",
 				"Primary": true,
@@ -45200,7 +45183,8 @@
 				"Chunks": ["12600"],
 				"Level": 1,
 				"Primary": true,
-				"Priority": 18
+				"Priority": 18,
+				"Not F2P": true
 			},
 			"Catch a ~|Hell-Rat|~": {
 				"NPCs": ["Hell-Rat"],
@@ -45336,7 +45320,6 @@
 			"Catch a ~|ruby harvest|~ with a net in Piscatoris": {
 				"NPCs": ["Ruby harvest"],
 				"Items": ["Butterfly jar", "ButterflyNet[+]"],
-				"NPCs": ["Ruby harvest"],
 				"Level": 15,
 				"Output": "RubyHarvest",
 				"Primary": true,
@@ -45736,7 +45719,6 @@
 			"Catch a ~|black warlock|~ with a net in the Feldip Hills": {
 				"NPCs": ["Black warlock"],
 				"Items": ["Butterfly jar", "ButterflyNet[+]"],
-				"NPCs": ["Black warlock"],
 				"Level": 45,
 				"Output": "BlackWarlock",
 				"Primary": true,
@@ -46051,7 +46033,6 @@
 			"Catch a ~|pawya|~ in Tirannwn": {
 				"NPCs": ["Pawya"],
 				"Items": ["Box trap", "Papaya"],
-				"NPCs": ["Pawya"],
 				"Level": 66,
 				"Output": "Pawya",
 				"Primary": true,
@@ -46359,7 +46340,6 @@
 			"Catch a ~|grenwall|~ in Tirannwn": {
 				"NPCs": ["Grenwall"],
 				"Items": ["Box trap", "Raw pawya meat"],
-				"NPCs": ["Grenwall"],
 				"Level": 77,
 				"Output": "Grenwall",
 				"Primary": true,
@@ -47947,7 +47927,7 @@
 				"Output": "Lab coat top",
 				"Priority": 1
 			},
-			"Create a ~|lab coat top|~": {
+			"Create a ~|lab coat legs|~": {
 				"Items": ["Fine cloth*", "Deflecting parts*", "Cover parts*", "Dextrous components*"],
 				"Objects": ["Inventor's workbench"],
 				"Level": 69,
@@ -53533,14 +53513,16 @@
 				"Chunks": ["12343"],
 				"Level": 1,
 				"Primary": true,
-				"Priority": 11
+				"Priority": 11,
+				"Not F2P": true
 			},
 			"Finish the Infernal Star ~|Wilderness Flash Event|~": {
 				"Category": ["DnD", "DnD Flash Events"],
 				"Chunks": ["12856"],
 				"Level": 1,
 				"Primary": true,
-				"Priority": 11
+				"Priority": 11,
+				"Not F2P": true
 			},
 			"Read a mining tome from ~|Temple Trekking|~": {
 				"Category": ["DnD"],
@@ -53874,6 +53856,17 @@
 				"Objects": ["Crystal-flecked sandstone (rock)"],
 				"Primary": true,
 				"Output": "Crystal-flecked sandstone (ore)",
+				"Priority": 1,
+				"Not F2P": true
+			},
+			"Mine a ~|meteorite (Zolarea)|~": {
+				"Level": 85,
+				"Objects": ["Meteorite (Zolarea)"],
+				"Tasks": {
+					"~|Stellar Born|~ Complete the quest": "Quest"
+				},
+				"Primary": true,
+				"Output": "Meteorite chunk",
 				"Priority": 1,
 				"Not F2P": true
 			},
@@ -57366,7 +57359,8 @@
 					"Agility": 60
 				},
 				"Not Equip": true,
-				"Priority": 1
+				"Priority": 1,
+				"Not F2P": true
 			},
 			"Complete a lap of the ~|Dorgesh-Kaan agility course|~ grapple route": {
 				"Chunks": ["Dorgesh-Kaan Agility Course"],
@@ -57378,7 +57372,8 @@
 					"Agility": 80
 				},
 				"Not Equip": true,
-				"Priority": 1
+				"Priority": 1,
+				"Not F2P": true
 			},
 			"Play a game of ~|Gnome ball|~": {
 				"Category": ["Gnomeball"],
@@ -57402,7 +57397,8 @@
 				},
 				"Not Equip": true,
 				"Priority": 1,
-				"NoPet": true
+				"NoPet": true,
+				"Not F2P": true
 			},
 			"Cross the ~|wall (Falador)|~": {
 				"Category": ["Shortcut"],
@@ -57416,7 +57412,8 @@
 				},
 				"Not Equip": true,
 				"Priority": 1,
-				"NoPet": true
+				"NoPet": true,
+				"Not F2P": true
 			},
 			"Cross the ~|rocks (Catherby)|~": {
 				"Category": ["Shortcut"],
@@ -57430,7 +57427,8 @@
 				},
 				"Not Equip": true,
 				"Priority": 1,
-				"NoPet": true
+				"NoPet": true,
+				"Not F2P": true
 			},
 			"Cross the ~|grapple column|~": {
 				"Category": ["Shortcut"],
@@ -57444,7 +57442,8 @@
 				},
 				"Not Equip": true,
 				"Priority": 1,
-				"NoPet": true
+				"NoPet": true,
+				"Not F2P": true
 			},
 			"Cross the ~|wall (Yanille)|~": {
 				"Category": ["Shortcut"],
@@ -57458,7 +57457,8 @@
 				},
 				"Not Equip": true,
 				"Priority": 1,
-				"NoPet": true
+				"NoPet": true,
+				"Not F2P": true
 			},
 			"Cross the ~|strong tree (Karamja)|~": {
 				"Category": ["Shortcut"],
@@ -57472,7 +57472,8 @@
 				},
 				"Not Equip": true,
 				"Priority": 1,
-				"NoPet": true
+				"NoPet": true,
+				"Not F2P": true
 			},
 			"Equip a ~|feather headdress (blue)|~": {
 				"Items": ["Feather headdress (blue)"],
@@ -57483,7 +57484,8 @@
 				},
 				"Priority": 1,
 				"NoPet": true,
-				"NoBoost": true
+				"NoBoost": true,
+				"Not F2P": true
 			},
 			"Equip a ~|feather headdress (orange)|~": {
 				"Items": ["Feather headdress (orange)"],
@@ -57494,7 +57496,8 @@
 				},
 				"Priority": 2,
 				"NoPet": true,
-				"NoBoost": true
+				"NoBoost": true,
+				"Not F2P": true
 			},
 			"Equip a ~|feather headdress (red)|~": {
 				"Items": ["Feather headdress (red)"],
@@ -57505,7 +57508,8 @@
 				},
 				"Priority": 3,
 				"NoPet": true,
-				"NoBoost": true
+				"NoBoost": true,
+				"Not F2P": true
 			},
 			"Equip a ~|feather headdress (stripy)|~": {
 				"Items": ["Feather headdress (stripy)"],
@@ -57516,7 +57520,8 @@
 				},
 				"Priority": 4,
 				"NoPet": true,
-				"NoBoost": true
+				"NoBoost": true,
+				"Not F2P": true
 			},
 			"Equip a ~|feather headdress (yellow)|~": {
 				"Items": ["Feather headdress (yellow)"],
@@ -57527,7 +57532,8 @@
 				},
 				"Priority": 5,
 				"NoPet": true,
-				"NoBoost": true
+				"NoBoost": true,
+				"Not F2P": true
 			},
 			"Equip a ~|full slayer helmet|~": {
 				"Items": ["Full slayer helmet"],
@@ -57540,7 +57546,8 @@
 				},
 				"Priority": 6,
 				"NoPet": true,
-				"NoBoost": true
+				"NoBoost": true,
+				"Not F2P": true
 			},
 			"Equip a ~|reinforced slayer helmet|~": {
 				"Items": ["Reinforced slayer helmet"],
@@ -57553,7 +57560,8 @@
 				},
 				"Priority": 7,
 				"NoPet": true,
-				"NoBoost": true
+				"NoBoost": true,
+				"Not F2P": true
 			},
 			"Equip a ~|strong slayer helmet|~": {
 				"Items": ["Strong slayer helmet"],
@@ -57566,7 +57574,8 @@
 				},
 				"Priority": 8,
 				"NoPet": true,
-				"NoBoost": true
+				"NoBoost": true,
+				"Not F2P": true
 			},
 			"Equip a ~|mighty slayer helmet|~": {
 				"Items": ["Mighty slayer helmet"],
@@ -57579,7 +57588,8 @@
 				},
 				"Priority": 9,
 				"NoPet": true,
-				"NoBoost": true
+				"NoBoost": true,
+				"Not F2P": true
 			},
 			"Equip a ~|corrupted slayer helmet|~": {
 				"Items": ["Corrupter slayer helmet"],
@@ -57592,7 +57602,8 @@
 				},
 				"Priority": 10,
 				"NoPet": true,
-				"NoBoost": true
+				"NoBoost": true,
+				"Not F2P": true
 			},
 			"Equip a ~|focus sight|~": {
 				"Items": ["Focus sight"],
@@ -57603,7 +57614,8 @@
 				},
 				"Priority": 11,
 				"NoPet": true,
-				"NoBoost": true
+				"NoBoost": true,
+				"Not F2P": true
 			},
 			"Equip a piece of ~|void knight equipment|~": {
 				"Items": ["Voidequipment[+]"],
@@ -57619,7 +57631,8 @@
 				},
 				"Priority": 1,
 				"NoPet": true,
-				"NoBoost": true
+				"NoBoost": true,
+				"Not F2P": true
 			},
 			"Equip a ~|broad arrow|~": {
 				"Items": ["Broad arrow"],
@@ -57630,7 +57643,8 @@
 					"Slayer": 55
 				},
 				"NoPet": true,
-				"NoBoost": true
+				"NoBoost": true,
+				"Not F2P": true
 			},
 			"Equip a ~|broad bolt|~": {
 				"Items": ["Broad-tipped bolts"],
@@ -57641,7 +57655,8 @@
 					"Slayer": 55
 				},
 				"NoPet": true,
-				"NoBoost": true
+				"NoBoost": true,
+				"Not F2P": true
 			},
 			"Wield a ~|shortbow|~": {
 				"Items": ["Shortbow"],
@@ -57837,7 +57852,8 @@
 				"Primary": false,
 				"Priority": 2,
 				"NoPet": true,
-				"NoBoost": true
+				"NoBoost": true,
+				"Not F2P": true
 			},
 			"Equip a ~|bronze brutal|~": {
 				"Items": ["Bronze brutal"],
@@ -57845,7 +57861,8 @@
 				"Primary": false,
 				"Priority": 3,
 				"NoPet": true,
-				"NoBoost": true
+				"NoBoost": true,
+				"Not F2P": true
 			},
 			"Wield an ~|oak shortbow|~": {
 				"Items": ["Oak shortbow"],
@@ -57960,7 +57977,8 @@
 				"Primary": false,
 				"Priority": 15,
 				"NoPet": true,
-				"NoBoost": true
+				"NoBoost": true,
+				"Not F2P": true
 			},
 			"Equip an ~|iron bolt|~": {
 				"Items": ["Iron bolts"],
@@ -57984,7 +58002,8 @@
 				"Primary": false,
 				"Priority": 2,
 				"NoPet": true,
-				"NoBoost": true
+				"NoBoost": true,
+				"Not F2P": true
 			},
 			"Wield a ~|blurite crossbow|~": {
 				"Items": ["Blurite crossbow"],
@@ -58115,7 +58134,8 @@
 				"Primary": false,
 				"Priority": 25,
 				"NoPet": true,
-				"NoBoost": true
+				"NoBoost": true,
+				"Not F2P": true
 			},
 			"Wield a ~|corrupt Morrigan's throwing axe|~": {
 				"Items": ["Corrupt Morrigan's throwing axe"],
@@ -58123,7 +58143,8 @@
 				"Primary": false,
 				"Priority": 26,
 				"NoPet": true,
-				"NoBoost": true
+				"NoBoost": true,
+				"Not F2P": true
 			},
 			"Equip a ~|steel arrow|~": {
 				"Items": ["Steel arrow"],
@@ -58163,7 +58184,8 @@
 				"Primary": false,
 				"Priority": 31,
 				"NoPet": true,
-				"NoBoost": true
+				"NoBoost": true,
+				"Not F2P": true
 			},
 			"Equip a ~|mithril brutal|~": {
 				"Items": ["Mithril brutal"],
@@ -58171,7 +58193,8 @@
 				"Primary": false,
 				"Priority": 1,
 				"NoPet": true,
-				"NoBoost": true
+				"NoBoost": true,
+				"Not F2P": true
 			},
 			"Wield a ~|black crossbow|~": {
 				"Items": ["Black crossbow"],
@@ -58179,7 +58202,8 @@
 				"Primary": false,
 				"Priority": 1,
 				"NoPet": true,
-				"NoBoost": true
+				"NoBoost": true,
+				"Not F2P": true
 			},
 			"Wield an ~|off-hand black crossbow|~": {
 				"Items": ["Off-hand black crossbow"],
@@ -58187,7 +58211,8 @@
 				"Primary": false,
 				"Priority": 2,
 				"NoPet": true,
-				"NoBoost": true
+				"NoBoost": true,
+				"Not F2P": true
 			},
 			"Wield a ~|black 2h crossbow|~": {
 				"Items": ["Black 2h crossbow"],
@@ -58195,7 +58220,8 @@
 				"Primary": false,
 				"Priority": 3,
 				"NoPet": true,
-				"NoBoost": true
+				"NoBoost": true,
+				"Not F2P": true
 			},
 			"Wield a ~|black dart|~": {
 				"Items": ["Black dart"],
@@ -58238,7 +58264,8 @@
 				},
 				"Priority": 8,
 				"NoPet": true,
-				"NoBoost": true
+				"NoBoost": true,
+				"Not F2P": true
 			},
 			"Equip a ~|jade bolt|~": {
 				"Items": ["Jade bolts"],
@@ -58270,7 +58297,8 @@
 				"Primary": false,
 				"Priority": 1,
 				"NoPet": true,
-				"NoBoost": true
+				"NoBoost": true,
+				"Not F2P": true
 			},
 			"Equip a ~|bone bolt|~": {
 				"Items": ["Bone bolts"],
@@ -58278,7 +58306,8 @@
 				"Primary": false,
 				"Priority": 2,
 				"NoPet": true,
-				"NoBoost": true
+				"NoBoost": true,
+				"Not F2P": true
 			},
 			"Wield a ~|maple shortbow|~": {
 				"Items": ["Maple shortbow"],
@@ -58294,7 +58323,8 @@
 				"Primary": false,
 				"Priority": 2,
 				"NoPet": true,
-				"NoBoost": true
+				"NoBoost": true,
+				"Not F2P": true
 			},
 			"Wield a ~|maple shieldbow|~": {
 				"Items": ["Maple shieldbow"],
@@ -58313,7 +58343,8 @@
 				"Primary": false,
 				"Priority": 4,
 				"NoPet": true,
-				"NoBoost": true
+				"NoBoost": true,
+				"Not F2P": true
 			},
 			"Wield a ~|mithril crossbow|~": {
 				"Items": ["Mithril crossbow"],
@@ -58345,7 +58376,8 @@
 				"Primary": false,
 				"Priority": 8,
 				"NoPet": true,
-				"NoBoost": true
+				"NoBoost": true,
+				"Not F2P": true
 			},
 			"Wield a ~|mithril dart|~": {
 				"Items": ["Mithril dart"],
@@ -58409,7 +58441,8 @@
 				"Primary": false,
 				"Priority": 16,
 				"NoPet": true,
-				"NoBoost": true
+				"NoBoost": true,
+				"Not F2P": true
 			},
 			"Wear a ~|farsight quick shot necklace|~": {
 				"Items": ["Farsight quick shot necklace"],
@@ -58436,7 +58469,8 @@
 				"Primary": false,
 				"Priority": 19,
 				"NoPet": true,
-				"NoBoost": true
+				"NoBoost": true,
+				"Not F2P": true
 			},
 			"Equip a ~|mithril bolt|~": {
 				"Items": ["Mithril bolts"],
@@ -58460,7 +58494,8 @@
 				"Primary": false,
 				"Priority": 22,
 				"NoPet": true,
-				"NoBoost": true
+				"NoBoost": true,
+				"Not F2P": true
 			},
 			"Equip ~|guam tar|~": {
 				"Items": ["Guam tar"],
@@ -58468,7 +58503,8 @@
 				"Primary": false,
 				"Priority": 23,
 				"NoPet": true,
-				"NoBoost": true
+				"NoBoost": true,
+				"Not F2P": true
 			},
 			"Equip an ~|adamant brutal|~": {
 				"Items": ["Adamant brutal"],
@@ -58476,7 +58512,8 @@
 				"Primary": false,
 				"Priority": 1,
 				"NoPet": true,
-				"NoBoost": true
+				"NoBoost": true,
+				"Not F2P": true
 			},
 			"Equip an ~|enchanted jade bolt|~": {
 				"Items": ["Jade bolts (e)"],
@@ -58599,7 +58636,8 @@
 				"Primary": false,
 				"Priority": 14,
 				"NoPet": true,
-				"NoBoost": true
+				"NoBoost": true,
+				"Not F2P": true
 			},
 			"Equip a piece of ~|elite Robin Hood armour|~": {
 				"Items": ["EliteRobinHoodArmour[+]"],
@@ -58610,7 +58648,8 @@
 				},
 				"Priority": 15,
 				"NoPet": true,
-				"NoBoost": true
+				"NoBoost": true,
+				"Not F2P": true
 			},
 			"Equip an ~|adamant arrow|~": {
 				"Items": ["Adamant arrow"],
@@ -58642,7 +58681,8 @@
 				"Primary": false,
 				"Priority": 19,
 				"NoPet": true,
-				"NoBoost": true
+				"NoBoost": true,
+				"Not F2P": true
 			},
 			"Equip an ~|ice arrow|~": {
 				"Items": ["Ice arrows"],
@@ -58658,7 +58698,8 @@
 				"Primary": false,
 				"Priority": 1,
 				"NoPet": true,
-				"NoBoost": true
+				"NoBoost": true,
+				"Not F2P": true
 			},
 			"Wield a ~|maple shieldbow (sighted)|~": {
 				"Items": ["Maple shieldbow (sighted)"],
@@ -58678,7 +58719,8 @@
 				"Primary": false,
 				"Priority": 2,
 				"NoPet": true,
-				"NoBoost": true
+				"NoBoost": true,
+				"Not F2P": true
 			},
 			"Wield ~|Zanik's crossbow|~": {
 				"Items": ["Zanik's crossbow"],
@@ -58686,7 +58728,8 @@
 				"Primary": false,
 				"Priority": 1,
 				"NoPet": true,
-				"NoBoost": true
+				"NoBoost": true,
+				"Not F2P": true
 			},
 			"Wield a ~|magic shortbow|~": {
 				"Items": ["Magic shortbow"],
@@ -58702,7 +58745,8 @@
 				"Primary": false,
 				"Priority": 4,
 				"NoPet": true,
-				"NoBoost": true
+				"NoBoost": true,
+				"Not F2P": true
 			},
 			"Wield a ~|magic shieldbow|~": {
 				"Items": ["Magic shieldbow"],
@@ -58721,7 +58765,8 @@
 				"Primary": false,
 				"Priority": 6,
 				"NoPet": true,
-				"NoBoost": true
+				"NoBoost": true,
+				"Not F2P": true
 			},
 			"Wield a ~|hunters' crossbow|~": {
 				"Items": ["Hunters' Crossbow"],
@@ -58729,7 +58774,8 @@
 				"Primary": false,
 				"Priority": 7,
 				"NoPet": true,
-				"NoBoost": true
+				"NoBoost": true,
+				"Not F2P": true
 			},
 			"Wield a ~|rune crossbow|~": {
 				"Items": ["Rune crossbow"],
@@ -58761,7 +58807,8 @@
 				"Primary": false,
 				"Priority": 11,
 				"NoPet": true,
-				"NoBoost": true
+				"NoBoost": true,
+				"Not F2P": true
 			},
 			"Wield a ~|rune dart|~": {
 				"Items": ["Rune dart"],
@@ -58825,7 +58872,8 @@
 				"Primary": false,
 				"Priority": 19,
 				"NoPet": true,
-				"NoBoost": true
+				"NoBoost": true,
+				"Not F2P": true
 			},
 			"Wield ~|holy water|~": {
 				"Items": ["Holy water"],
@@ -58833,7 +58881,8 @@
 				"Primary": false,
 				"Priority": 20,
 				"NoPet": true,
-				"NoBoost": true
+				"NoBoost": true,
+				"Not F2P": true
 			},
 			"Equip a piece of ~|sacred clay ranged equipment|~": {
 				"Items": ["RangedSacredClay[+]"],
@@ -58863,7 +58912,8 @@
 				},
 				"Priority": 23,
 				"NoPet": true,
-				"NoBoost": true
+				"NoBoost": true,
+				"Not F2P": true
 			},
 			"Wield a ~|hardened ranger hat|~": {
 				"Items": ["Hardened ranger hat"],
@@ -58874,7 +58924,8 @@
 				},
 				"Priority": 24,
 				"NoPet": true,
-				"NoBoost": true
+				"NoBoost": true,
+				"Not F2P": true
 			},
 			"Wield an ~|Ava's accumulator|~": {
 				"Items": ["Ava's accumulator"],
@@ -58882,7 +58933,8 @@
 				"Primary": false,
 				"Priority": 25,
 				"NoPet": true,
-				"NoBoost": true
+				"NoBoost": true,
+				"Not F2P": true
 			},
 			"Wield an ~|Ava's alerter|~": {
 				"Items": ["Ava's alerter"],
@@ -58890,7 +58942,8 @@
 				"Primary": false,
 				"Priority": 26,
 				"NoPet": true,
-				"NoBoost": true
+				"NoBoost": true,
+				"Not F2P": true
 			},
 			"Wear a ~|farsight snap shot necklace|~": {
 				"Items": ["Farsight snap shot necklace"],
@@ -58914,7 +58967,8 @@
 				"Primary": false,
 				"Priority": 29,
 				"NoPet": true,
-				"NoBoost": true
+				"NoBoost": true,
+				"Not F2P": true
 			},
 			"Equip a ~|Guthix arrow|~": {
 				"Items": ["Guthix arrows"],
@@ -58922,7 +58976,8 @@
 				"Primary": false,
 				"Priority": 30,
 				"NoPet": true,
-				"NoBoost": true
+				"NoBoost": true,
+				"Not F2P": true
 			},
 			"Equip a ~|Zamorak arrow|~": {
 				"Items": ["Zamorak arrows"],
@@ -58930,7 +58985,8 @@
 				"Primary": false,
 				"Priority": 31,
 				"NoPet": true,
-				"NoBoost": true
+				"NoBoost": true,
+				"Not F2P": true
 			},
 			"Equip a ~|fragment arrow|~": {
 				"Items": ["Fragment arrows"],
@@ -58938,7 +58994,8 @@
 				"Primary": false,
 				"Priority": 32,
 				"NoPet": true,
-				"NoBoost": true
+				"NoBoost": true,
+				"Not F2P": true
 			},
 			"Equip a ~|rune bolt|~": {
 				"Items": ["Rune bolts"],
@@ -58962,7 +59019,8 @@
 				"Primary": false,
 				"Priority": 35,
 				"NoPet": true,
-				"NoBoost": true
+				"NoBoost": true,
+				"Not F2P": true
 			},
 			"Equip a ~|fragment bolt|~": {
 				"Items": ["Fragment bolts"],
@@ -58970,7 +59028,8 @@
 				"Primary": false,
 				"Priority": 36,
 				"NoPet": true,
-				"NoBoost": true
+				"NoBoost": true,
+				"Not F2P": true
 			},
 			"Equip an ~|emerald bolt|~": {
 				"Items": ["Emerald bolts"],
@@ -58994,7 +59053,8 @@
 				"Primary": false,
 				"Priority": 39,
 				"NoPet": true,
-				"NoBoost": true
+				"NoBoost": true,
+				"Not F2P": true
 			},
 			"Equip ~|marrentill tar|~": {
 				"Items": ["Marrentill tar"],
@@ -59002,7 +59062,8 @@
 				"Primary": false,
 				"Priority": 40,
 				"NoPet": true,
-				"NoBoost": true
+				"NoBoost": true,
+				"Not F2P": true
 			},
 			"Wield a ~|gravite chargebow|~": {
 				"Items": ["Gravite chargebow"],
@@ -59033,7 +59094,8 @@
 				"Primary": false,
 				"Priority": 3,
 				"NoPet": true,
-				"NoBoost": true
+				"NoBoost": true,
+				"Not F2P": true
 			},
 			"Wield a ~|Guthix bow|~": {
 				"Items": ["Guthix bow"],
@@ -59041,7 +59103,8 @@
 				"Primary": false,
 				"Priority": 4,
 				"NoPet": true,
-				"NoBoost": true
+				"NoBoost": true,
+				"Not F2P": true
 			},
 			"Wield a ~|Zamorak bow|~": {
 				"Items": ["Zamorak bow"],
@@ -59049,7 +59112,8 @@
 				"Primary": false,
 				"Priority": 5,
 				"NoPet": true,
-				"NoBoost": true
+				"NoBoost": true,
+				"Not F2P": true
 			},
 			"Wield a ~|red chinchompa|~": {
 				"Items": ["Red chinchompa"],
@@ -59057,7 +59121,8 @@
 				"Primary": false,
 				"Priority": 6,
 				"NoPet": true,
-				"NoBoost": true
+				"NoBoost": true,
+				"Not F2P": true
 			},
 			"Wield an ~|elder shortbow|~": {
 				"Items": ["Elder shortbow"],
@@ -59065,7 +59130,8 @@
 				"Primary": false,
 				"Priority": 2,
 				"NoPet": true,
-				"NoBoost": true
+				"NoBoost": true,
+				"Not F2P": true
 			},
 			"Wield an ~|elder shieldbow|~": {
 				"Items": ["Elder shieldbow"],
@@ -59076,7 +59142,8 @@
 				},
 				"Priority": 3,
 				"NoPet": true,
-				"NoBoost": true
+				"NoBoost": true,
+				"Not F2P": true
 			},
 			"Wield a ~|demon slayer crossbow|~": {
 				"Items": ["Demon slayer crossbow"],
@@ -59084,7 +59151,8 @@
 				"Primary": false,
 				"Priority": 4,
 				"NoPet": true,
-				"NoBoost": true
+				"NoBoost": true,
+				"Not F2P": true
 			},
 			"Wield an ~|off-hand demon slayer crossbow|~": {
 				"Items": ["Off-hand demon slayer crossbow"],
@@ -59092,7 +59160,8 @@
 				"Primary": false,
 				"Priority": 5,
 				"NoPet": true,
-				"NoBoost": true
+				"NoBoost": true,
+				"Not F2P": true
 			},
 			"Wield a ~|dragon crossbow|~": {
 				"Items": ["Dragon crossbow"],
@@ -59100,7 +59169,8 @@
 				"Primary": false,
 				"Priority": 6,
 				"NoPet": true,
-				"NoBoost": true
+				"NoBoost": true,
+				"Not F2P": true
 			},
 			"Wield an ~|off-hand dragon crossbow|~": {
 				"Items": ["Off-hand dragon crossbow"],
@@ -59108,7 +59178,8 @@
 				"Primary": false,
 				"Priority": 7,
 				"NoPet": true,
-				"NoBoost": true
+				"NoBoost": true,
+				"Not F2P": true
 			},
 			"Wield a ~|dragon 2h crossbow|~": {
 				"Items": ["Dragon 2h crossbow"],
@@ -59116,7 +59187,8 @@
 				"Primary": false,
 				"Priority": 8,
 				"NoPet": true,
-				"NoBoost": true
+				"NoBoost": true,
+				"Not F2P": true
 			},
 			"Wield a ~|red salamander|~": {
 				"Items": ["Red salamander"],
@@ -59124,7 +59196,8 @@
 				"Primary": false,
 				"Priority": 9,
 				"NoPet": true,
-				"NoBoost": true
+				"NoBoost": true,
+				"Not F2P": true
 			},
 			"Wield a ~|dragon dart|~": {
 				"Items": ["Dragon dart"],
@@ -59132,7 +59205,8 @@
 				"Primary": false,
 				"Priority": 10,
 				"NoPet": true,
-				"NoBoost": true
+				"NoBoost": true,
+				"Not F2P": true
 			},
 			"Wield an ~|off-hand dragon dart|~": {
 				"Items": ["Off-hand dragon dart"],
@@ -59140,7 +59214,8 @@
 				"Primary": false,
 				"Priority": 11,
 				"NoPet": true,
-				"NoBoost": true
+				"NoBoost": true,
+				"Not F2P": true
 			},
 			"Wield a ~|dragon throwing axe|~": {
 				"Items": ["Dragon throwing axe"],
@@ -59148,7 +59223,8 @@
 				"Primary": false,
 				"Priority": 12,
 				"NoPet": true,
-				"NoBoost": true
+				"NoBoost": true,
+				"Not F2P": true
 			},
 			"Wield an ~|off-hand dragon throwing axe|~": {
 				"Items": ["Off-hand dragon throwing axe"],
@@ -59156,7 +59232,8 @@
 				"Primary": false,
 				"Priority": 13,
 				"NoPet": true,
-				"NoBoost": true
+				"NoBoost": true,
+				"Not F2P": true
 			},
 			"Wield a ~|dragon knife|~": {
 				"Items": ["Dragon knife"],
@@ -59164,7 +59241,8 @@
 				"Primary": false,
 				"Priority": 14,
 				"NoPet": true,
-				"NoBoost": true
+				"NoBoost": true,
+				"Not F2P": true
 			},
 			"Wield an ~|off-hand dragon knife|~": {
 				"Items": ["Off-hand dragon knife"],
@@ -59172,7 +59250,8 @@
 				"Primary": false,
 				"Priority": 15,
 				"NoPet": true,
-				"NoBoost": true
+				"NoBoost": true,
+				"Not F2P": true
 			},
 			"Wield a ~|toktz-xil-ul|~": {
 				"Items": ["Toktz-xil-ul"],
@@ -59180,7 +59259,8 @@
 				"Primary": false,
 				"Priority": 16,
 				"NoPet": true,
-				"NoBoost": true
+				"NoBoost": true,
+				"Not F2P": true
 			},
 			"Equip a piece of ~|demon slayer equipment|~": {
 				"Items": ["Demon Slayer[+]"],
@@ -59191,7 +59271,8 @@
 				},
 				"Priority": 17,
 				"NoPet": true,
-				"NoBoost": true
+				"NoBoost": true,
+				"Not F2P": true
 			},
 			"Equip a ~|dragon arrow|~": {
 				"Items": ["Dragon arrow"],
@@ -59199,7 +59280,8 @@
 				"Primary": false,
 				"Priority": 19,
 				"NoPet": true,
-				"NoBoost": true
+				"NoBoost": true,
+				"Not F2P": true
 			},
 			"Equip an ~|abyssalbane arrow|~": {
 				"Items": ["Abyssalbane arrow"],
@@ -59207,7 +59289,8 @@
 				"Primary": false,
 				"Priority": 20,
 				"NoPet": true,
-				"NoBoost": true
+				"NoBoost": true,
+				"Not F2P": true
 			},
 			"Equip a ~|basiliskbane arrow|~": {
 				"Items": ["Basiliskbane arrow"],
@@ -59215,7 +59298,8 @@
 				"Primary": false,
 				"Priority": 21,
 				"NoPet": true,
-				"NoBoost": true
+				"NoBoost": true,
+				"Not F2P": true
 			},
 			"Equip a ~|dragonbane arrow|~": {
 				"Items": ["Dragonbane arrow"],
@@ -59223,7 +59307,8 @@
 				"Primary": false,
 				"Priority": 22,
 				"NoPet": true,
-				"NoBoost": true
+				"NoBoost": true,
+				"Not F2P": true
 			},
 			"Equip a ~|wallasalkibane arrow|~": {
 				"Items": ["Wallasalkibane arrow"],
@@ -59231,7 +59316,8 @@
 				"Primary": false,
 				"Priority": 23,
 				"NoPet": true,
-				"NoBoost": true
+				"NoBoost": true,
+				"Not F2P": true
 			},
 			"Equip a ~|diamond bolt|~": {
 				"Items": ["Diamond bolts"],
@@ -59239,7 +59325,8 @@
 				"Primary": false,
 				"Priority": 24,
 				"NoPet": true,
-				"NoBoost": true
+				"NoBoost": true,
+				"Not F2P": true
 			},
 			"Equip a ~|dragon bolt|~": {
 				"Items": ["Dragon bolts"],
@@ -59247,7 +59334,8 @@
 				"Primary": false,
 				"Priority": 25,
 				"NoPet": true,
-				"NoBoost": true
+				"NoBoost": true,
+				"Not F2P": true
 			},
 			"Equip an ~|enchanted emerald bolt|~": {
 				"Items": ["Emerald bolts (e)"],
@@ -59255,7 +59343,8 @@
 				"Primary": false,
 				"Priority": 26,
 				"NoPet": true,
-				"NoBoost": true
+				"NoBoost": true,
+				"Not F2P": true
 			},
 			"Equip an ~|enchanted ruby bolt|~": {
 				"Items": ["Ruby bolts (e)"],
@@ -59263,7 +59352,8 @@
 				"Primary": false,
 				"Priority": 27,
 				"NoPet": true,
-				"NoBoost": true
+				"NoBoost": true,
+				"Not F2P": true
 			},
 			"Equip an ~|abyssalbane bolt|~": {
 				"Items": ["Abyssalbane bolts"],
@@ -59271,7 +59361,8 @@
 				"Primary": false,
 				"Priority": 28,
 				"NoPet": true,
-				"NoBoost": true
+				"NoBoost": true,
+				"Not F2P": true
 			},
 			"Equip a ~|basiliskbane bolt|~": {
 				"Items": ["Basiliskbane bolts"],
@@ -59279,7 +59370,8 @@
 				"Primary": false,
 				"Priority": 29,
 				"NoPet": true,
-				"NoBoost": true
+				"NoBoost": true,
+				"Not F2P": true
 			},
 			"Equip a ~|dragonbane bolt|~": {
 				"Items": ["Dragonbane bolts"],
@@ -59287,7 +59379,8 @@
 				"Primary": false,
 				"Priority": 30,
 				"NoPet": true,
-				"NoBoost": true
+				"NoBoost": true,
+				"Not F2P": true
 			},
 			"Equip a ~|wallasalkibane bolt|~": {
 				"Items": ["Wallasalkibane bolts"],
@@ -59295,7 +59388,8 @@
 				"Primary": false,
 				"Priority": 31,
 				"NoPet": true,
-				"NoBoost": true
+				"NoBoost": true,
+				"Not F2P": true
 			},
 			"Equip ~|tarromin tar|~": {
 				"Items": ["Tarromin tar"],
@@ -59303,7 +59397,8 @@
 				"Primary": false,
 				"Priority": 32,
 				"NoPet": true,
-				"NoBoost": true
+				"NoBoost": true,
+				"Not F2P": true
 			},
 			"Wield an ~|elder shieldbow (sighted)|~": {
 				"Items": ["Elder shieldbow (sighted)"],
@@ -59315,7 +59410,8 @@
 				},
 				"Priority": 1,
 				"NoPet": true,
-				"NoBoost": true
+				"NoBoost": true,
+				"Not F2P": true
 			},
 			"Equip a piece of ~|third age ranger equipment|~": {
 				"Items": ["ThirdAgeRangedArmour[+]"],
@@ -59326,7 +59422,8 @@
 				},
 				"Priority": 2,
 				"NoPet": true,
-				"NoBoost": true
+				"NoBoost": true,
+				"Not F2P": true
 			},
 			"Wield a ~|crystal bow|~": {
 				"Items": ["Crystal bow"],
@@ -59337,7 +59434,8 @@
 				},
 				"Priority": 1,
 				"NoPet": true,
-				"NoBoost": true
+				"NoBoost": true,
+				"Not F2P": true
 			},
 			"Wield a ~|dark bow|~": {
 				"Items": ["Dark bow"],
@@ -59348,7 +59446,8 @@
 				},
 				"Priority": 2,
 				"NoPet": true,
-				"NoBoost": true
+				"NoBoost": true,
+				"Not F2P": true
 			},
 			"Wield ~|Karil's pistol crossbow|~": {
 				"Items": ["Karil's pistol crossbow"],
@@ -59356,7 +59455,8 @@
 				"Primary": false,
 				"Priority": 3,
 				"NoPet": true,
-				"NoBoost": true
+				"NoBoost": true,
+				"Not F2P": true
 			},
 			"Wield ~|Karil's off-hand pistol crossbow|~": {
 				"Items": ["Karil's off-hand pistol crossbow"],
@@ -59364,7 +59464,8 @@
 				"Primary": false,
 				"Priority": 4,
 				"NoPet": true,
-				"NoBoost": true
+				"NoBoost": true,
+				"Not F2P": true
 			},
 			"Wield ~|Karil's crossbow|~": {
 				"Items": ["Karil's crossbow"],
@@ -59372,7 +59473,8 @@
 				"Primary": false,
 				"Priority": 5,
 				"NoPet": true,
-				"NoBoost": true
+				"NoBoost": true,
+				"Not F2P": true
 			},
 			"Wield a ~|blisterwood stake-thrower crossbow|~": {
 				"Items": ["Blisterwood stake-thrower crossbow"],
@@ -59380,7 +59482,8 @@
 				"Primary": false,
 				"Priority": 6,
 				"NoPet": true,
-				"NoBoost": true
+				"NoBoost": true,
+				"Not F2P": true
 			},
 			"Wield a ~|black salamander|~": {
 				"Items": ["Black salamander"],
@@ -59388,7 +59491,8 @@
 				"Primary": false,
 				"Priority": 7,
 				"NoPet": true,
-				"NoBoost": true
+				"NoBoost": true,
+				"Not F2P": true
 			},
 			"Wield a ~|blisterwood stake|~": {
 				"Items": ["Blisterwood stake"],
@@ -59396,7 +59500,8 @@
 				"Primary": false,
 				"Priority": 8,
 				"NoPet": true,
-				"NoBoost": true
+				"NoBoost": true,
+				"Not F2P": true
 			},
 			"Wield an ~|off-hand blisterwood stake|~": {
 				"Items": ["Off-hand blisterwood stake"],
@@ -59404,7 +59509,8 @@
 				"Primary": false,
 				"Priority": 9,
 				"NoPet": true,
-				"NoBoost": true
+				"NoBoost": true,
+				"Not F2P": true
 			},
 			"Wield a ~|crystal chakram|~": {
 				"Items": ["Crystal chakram"],
@@ -59415,7 +59521,8 @@
 				},
 				"Priority": 10,
 				"NoPet": true,
-				"NoBoost": true
+				"NoBoost": true,
+				"Not F2P": true
 			},
 			"Wield an ~|off-hand crystal chakram|~": {
 				"Items": ["Off-hand crystal chakram"],
@@ -59426,7 +59533,8 @@
 				},
 				"Priority": 11,
 				"NoPet": true,
-				"NoBoost": true
+				"NoBoost": true,
+				"Not F2P": true
 			},
 			"Equip a piece of ~|Karil the Tainted's equipment|~": {
 				"Items": ["KarilArmour[+]"],
@@ -59434,7 +59542,8 @@
 				"Primary": false,
 				"Priority": 12,
 				"NoPet": true,
-				"NoBoost": true
+				"NoBoost": true,
+				"Not F2P": true
 			},
 			"Equip ~|Saradomin's murmur|~": {
 				"Items": ["Saradomin's murmur"],
@@ -59442,7 +59551,8 @@
 				"Primary": false,
 				"Priority": 13,
 				"NoPet": true,
-				"NoBoost": true
+				"NoBoost": true,
+				"Not F2P": true
 			},
 			"Wield a ~|tainted repriser|~": {
 				"Items": ["Tainted repriser"],
@@ -59453,7 +59563,8 @@
 				},
 				"Priority": 14,
 				"NoPet": true,
-				"NoBoost": true
+				"NoBoost": true,
+				"Not F2P": true
 			},
 			"Equip a ~|dark arrow|~": {
 				"Items": ["Dark arrow"],
@@ -59461,7 +59572,8 @@
 				"Primary": false,
 				"Priority": 16,
 				"NoPet": true,
-				"NoBoost": true
+				"NoBoost": true,
+				"Not F2P": true
 			},
 			"Equip a ~|bolt rack|~": {
 				"Items": ["Bolt rack"],
@@ -59469,7 +59581,8 @@
 				"Primary": false,
 				"Priority": 17,
 				"NoPet": true,
-				"NoBoost": true
+				"NoBoost": true,
+				"Not F2P": true
 			},
 			"Equip an ~|onyx bolt|~": {
 				"Items": ["Onyx bolts"],
@@ -59477,7 +59590,8 @@
 				"Primary": false,
 				"Priority": 18,
 				"NoPet": true,
-				"NoBoost": true
+				"NoBoost": true,
+				"Not F2P": true
 			},
 			"Equip an ~|enchanted diamond bolt|~": {
 				"Items": ["Diamond bolts (e)"],
@@ -59485,7 +59599,8 @@
 				"Primary": false,
 				"Priority": 19,
 				"NoPet": true,
-				"NoBoost": true
+				"NoBoost": true,
+				"Not F2P": true
 			},
 			"Equip an ~|enchanted dragon bolt|~": {
 				"Items": ["Dragon bolts (e)"],
@@ -59493,7 +59608,8 @@
 				"Primary": false,
 				"Priority": 20,
 				"NoPet": true,
-				"NoBoost": true
+				"NoBoost": true,
+				"Not F2P": true
 			},
 			"Equip ~|harralander tar|~": {
 				"Items": ["Harralander tar"],
@@ -59501,7 +59617,8 @@
 				"Primary": false,
 				"Priority": 21,
 				"NoPet": true,
-				"NoBoost": true
+				"NoBoost": true,
+				"Not F2P": true
 			},
 			"Wield a ~|sagaie|~": {
 				"Items": ["Sagaie"],
@@ -59509,7 +59626,8 @@
 				"Primary": false,
 				"Priority": 1,
 				"NoPet": true,
-				"NoBoost": true
+				"NoBoost": true,
+				"Not F2P": true
 			},
 			"Equip ~|mercenary's gloves|~": {
 				"Items": ["Mercenary's gloves"],
@@ -59530,7 +59648,8 @@
 				"Primary": false,
 				"Priority": 1,
 				"NoPet": true,
-				"NoBoost": true
+				"NoBoost": true,
+				"Not F2P": true
 			},
 			"Wield an ~|off-hand Armadyl crossbow|~": {
 				"Items": ["Off-hand Armardyl crossbow"],
@@ -59538,7 +59657,8 @@
 				"Primary": false,
 				"Priority": 2,
 				"NoPet": true,
-				"NoBoost": true
+				"NoBoost": true,
+				"Not F2P": true
 			},
 			"Wield a ~|hand cannon|~": {
 				"Items": ["Hand cannon"],
@@ -59549,7 +59669,8 @@
 				"Primary": false,
 				"Priority": 3,
 				"NoPet": true,
-				"NoBoost": true
+				"NoBoost": true,
+				"Not F2P": true
 			},
 			"Wield a ~|vanquish (ranged)|~": {
 				"Items": ["Vanquish (ranged)"],
@@ -59557,7 +59678,8 @@
 				"Primary": false,
 				"Priority": 4,
 				"NoPet": true,
-				"NoBoost": true
+				"NoBoost": true,
+				"Not F2P": true
 			},
 			"Wield a ~|mechanised chinchompa|~": {
 				"Items": ["Mechanised chinchompa"],
@@ -59565,7 +59687,8 @@
 				"Primary": false,
 				"Priority": 5,
 				"NoPet": true,
-				"NoBoost": true
+				"NoBoost": true,
+				"Not F2P": true
 			},
 			"Equip a ~|hand cannon shot|~": {
 				"Items": ["Hand cannon shot"],
@@ -59573,7 +59696,8 @@
 				"Primary": false,
 				"Priority": 7,
 				"NoPet": true,
-				"NoBoost": true
+				"NoBoost": true,
+				"Not F2P": true
 			},
 			"Unlock and use the ~|Eclipsed Soul|~ prayer": {
 				"Items": ["Eclipsed Soul prayer codex"],
@@ -59587,7 +59711,8 @@
 				},
 				"Priority": 8,
 				"NoPet": true,
-				"NoBoost": true
+				"NoBoost": true,
+				"Not F2P": true
 			},
 			"Wield a ~|bolas|~": {
 				"Items": ["Bolas"],
@@ -59595,7 +59720,8 @@
 				"Primary": false,
 				"Priority": 1,
 				"NoPet": true,
-				"NoBoost": true
+				"NoBoost": true,
+				"Not F2P": true
 			},
 			"Wield the ~|Sunspear (ranged)|~": {
 				"Items": ["Sunspear (ranged)"],
@@ -59603,7 +59729,8 @@
 				"Primary": false,
 				"Priority": 1,
 				"NoPet": true,
-				"NoBoost": true
+				"NoBoost": true,
+				"Not F2P": true
 			},
 			"Wield ~|Morrigan's javelin|~": {
 				"Items": ["Morrigan's javelin"],
@@ -59611,7 +59738,8 @@
 				"Primary": false,
 				"Priority": 2,
 				"NoPet": true,
-				"NoBoost": true
+				"NoBoost": true,
+				"Not F2P": true
 			},
 			"Wield ~|Morrigan's throwing axe|~": {
 				"Items": ["Morrigan's throwing axe"],
@@ -59619,7 +59747,8 @@
 				"Primary": false,
 				"Priority": 3,
 				"NoPet": true,
-				"NoBoost": true
+				"NoBoost": true,
+				"Not F2P": true
 			},
 			"Wield a ~|hexhunter bow|~": {
 				"Items": ["Hexhunter bow"],
@@ -59627,7 +59756,8 @@
 				"Primary": false,
 				"Priority": 18,
 				"NoPet": true,
-				"NoBoost": true
+				"NoBoost": true,
+				"Not F2P": true
 			},
 			"Wield a ~|second-Age bow|~": {
 				"Items": ["Second-Age bow"],
@@ -59635,7 +59765,8 @@
 				"Primary": false,
 				"Priority": 2,
 				"NoPet": true,
-				"NoBoost": true
+				"NoBoost": true,
+				"Not F2P": true
 			},
 			"Wield a ~|Zaryte bow|~": {
 				"Items": ["Zaryte bow"],
@@ -59643,7 +59774,8 @@
 				"Primary": false,
 				"Priority": 3,
 				"NoPet": true,
-				"NoBoost": true
+				"NoBoost": true,
+				"Not F2P": true
 			},
 			"Wield a ~|chaotic crossbow|~": {
 				"Items": ["Chaotic crossbow"],
@@ -59652,10 +59784,10 @@
 					"Dungeoneering": 80
 				},
 				"Primary": false,
-				"Not F2P": true,
 				"Priority": 4,
 				"NoPet": true,
-				"NoBoost": true
+				"NoBoost": true,
+				"Not F2P": true
 			},
 			"Wield an ~|off-hand chaotic crossbow|~": {
 				"Items": ["Off-hand chaotic crossbow"],
@@ -59663,11 +59795,11 @@
 				"Skills": {
 					"Dungeoneering": 80
 				},
-				"Not F2P": true,
 				"Primary": false,
 				"Priority": 5,
 				"NoPet": true,
-				"NoBoost": true
+				"NoBoost": true,
+				"Not F2P": true
 			},
 			"Wield a ~|royal crossbow|~": {
 				"Items": ["Royal crossbow"],
@@ -59675,7 +59807,8 @@
 				"Primary": false,
 				"Priority": 6,
 				"NoPet": true,
-				"NoBoost": true
+				"NoBoost": true,
+				"Not F2P": true
 			},
 			"Wield an ~|attuned crystal chakram|~": {
 				"Items": ["Attuned crystal chakram"],
@@ -59686,7 +59819,8 @@
 				},
 				"Priority": 7,
 				"NoPet": true,
-				"NoBoost": true
+				"NoBoost": true,
+				"Not F2P": true
 			},
 			"Wield an ~|off-hand attuned crystal chakram|~": {
 				"Items": ["Off-hand attuned crystal chakram"],
@@ -59697,7 +59831,8 @@
 				},
 				"Priority": 8,
 				"NoPet": true,
-				"NoBoost": true
+				"NoBoost": true,
+				"Not F2P": true
 			},
 			"Wield an ~|attuned crystal deflector|~": {
 				"Items": ["Attuned crystal deflector"],
@@ -59708,7 +59843,8 @@
 				},
 				"Priority": 9,
 				"NoPet": true,
-				"NoBoost": true
+				"NoBoost": true,
+				"Not F2P": true
 			},
 			"Equip ~|Swift gloves|~": {
 				"Items": ["Swift gloves"],
@@ -59719,7 +59855,8 @@
 				},
 				"Priority": 10,
 				"NoPet": true,
-				"NoBoost": true
+				"NoBoost": true,
+				"Not F2P": true
 			},
 			"Equip a ~|farsight blood necklace|~": {
 				"Items": ["Farsight blood necklace"],
@@ -59738,7 +59875,8 @@
 				},
 				"Priority": 12,
 				"NoPet": true,
-				"NoBoost": true
+				"NoBoost": true,
+				"Not F2P": true
 			},
 			"Wield an ~|ancient repriser|~": {
 				"Items": ["Ancient repriser"],
@@ -59749,7 +59887,8 @@
 				},
 				"Priority": 13,
 				"NoPet": true,
-				"NoBoost": true
+				"NoBoost": true,
+				"Not F2P": true
 			},
 			"Equip a ~|stalker arrow|~": {
 				"Items": ["Stalker arrow"],
@@ -59757,7 +59896,8 @@
 				"Primary": false,
 				"Priority": 14,
 				"NoPet": true,
-				"NoBoost": true
+				"NoBoost": true,
+				"Not F2P": true
 			},
 			"Equip a ~|barkriminel bolt|~": {
 				"Items": ["Barkriminel bolts"],
@@ -59765,7 +59905,8 @@
 				"Primary": false,
 				"Priority": 15,
 				"NoPet": true,
-				"NoBoost": true
+				"NoBoost": true,
+				"Not F2P": true
 			},
 			"Equip a ~|royal bolt|~": {
 				"Items": ["Royal bolts"],
@@ -59773,7 +59914,8 @@
 				"Primary": false,
 				"Priority": 16,
 				"NoPet": true,
-				"NoBoost": true
+				"NoBoost": true,
+				"Not F2P": true
 			},
 			"Equip an ~|enchanted onyx bolt|~": {
 				"Items": ["Onyx bolts (e)"],
@@ -59781,7 +59923,8 @@
 				"Primary": false,
 				"Priority": 17,
 				"NoPet": true,
-				"NoBoost": true
+				"NoBoost": true,
+				"Not F2P": true
 			},
 			"Enter Zamorak's Rampart in ~|the Heart of Gielinor|~": {
 				"Chunks": ["The Heart"],
@@ -59789,7 +59932,8 @@
 				"Primary": false,
 				"Priority": 19,
 				"NoPet": true,
-				"NoBoost": true
+				"NoBoost": true,
+				"Not F2P": true
 			},
 			"Equip a ~|superior scrimshaw of cruelty|~": {
 				"Items": ["Superior scrimshaw of cruelty"],
@@ -59797,7 +59941,8 @@
 				"Primary": false,
 				"Priority": 20,
 				"NoPet": true,
-				"NoBoost": true
+				"NoBoost": true,
+				"Not F2P": true
 			},
 			"Wield a ~|shadow glaive|~": {
 				"Items": ["Shadow glaive"],
@@ -59805,7 +59950,8 @@
 				"Primary": false,
 				"Priority": 1,
 				"NoPet": true,
-				"NoBoost": true
+				"NoBoost": true,
+				"Not F2P": true
 			},
 			"Wield an ~|off-hand shadow glaive|~": {
 				"Items": ["Off-hand shadow glaive"],
@@ -59813,7 +59959,8 @@
 				"Primary": false,
 				"Priority": 2,
 				"NoPet": true,
-				"NoBoost": true
+				"NoBoost": true,
+				"Not F2P": true
 			},
 			"Wield a ~|wyvern crossbow|~": {
 				"Items": ["Wyvern crossbow"],
@@ -59821,7 +59968,8 @@
 				"Primary": false,
 				"Priority": 3,
 				"NoPet": true,
-				"NoBoost": true
+				"NoBoost": true,
+				"Not F2P": true
 			},
 			"Wield a ~|strykebow|~": {
 				"Items": ["Strykebow"],
@@ -59829,7 +59977,8 @@
 				"Primary": false,
 				"Priority": 4,
 				"NoPet": true,
-				"NoBoost": true
+				"NoBoost": true,
+				"Not F2P": true
 			},
 			"Wield a ~|Death Lotus dart|~": {
 				"Items": ["Death Lotus dart"],
@@ -59837,7 +59986,8 @@
 				"Primary": false,
 				"Priority": 5,
 				"NoPet": true,
-				"NoBoost": true
+				"NoBoost": true,
+				"Not F2P": true
 			},
 			"Wield an ~|off-hand Death Lotus dart|~": {
 				"Items": ["Off-hand Death Lotus dart"],
@@ -59845,7 +59995,8 @@
 				"Primary": false,
 				"Priority": 6,
 				"NoPet": true,
-				"NoBoost": true
+				"NoBoost": true,
+				"Not F2P": true
 			},
 			"Equip a ~|wild arrow|~": {
 				"Items": ["Wild arrow"],
@@ -59853,7 +60004,8 @@
 				"Primary": false,
 				"Priority": 8,
 				"NoPet": true,
-				"NoBoost": true
+				"NoBoost": true,
+				"Not F2P": true
 			},
 			"Equip a ~|wyvern spine|~": {
 				"Items": ["Wyvern spines"],
@@ -59861,7 +60013,8 @@
 				"Primary": false,
 				"Priority": 9,
 				"NoPet": true,
-				"NoBoost": true
+				"NoBoost": true,
+				"Not F2P": true
 			},
 			"Use the ~|Death's Swiftness|~ ability": {
 				"Chunks": ["Guthixian ruins"],
@@ -59869,7 +60022,8 @@
 				"Primary": false,
 				"Priority": 7,
 				"NoPet": true,
-				"NoBoost": true
+				"NoBoost": true,
+				"Not F2P": true
 			},
 			"Use the ~|greater Death's Swiftness|~ ability": {
 				"Items": ["Greater Death's Swiftness ability codex"],
@@ -59880,7 +60034,8 @@
 				"Primary": false,
 				"Priority": 8,
 				"NoPet": true,
-				"NoBoost": true
+				"NoBoost": true,
+				"Not F2P": true
 			},
 			"Equip a ~|superior scrimshaw of ranging|~": {
 				"Items": ["Superior scrimshaw of ranging"],
@@ -59888,7 +60043,8 @@
 				"Primary": false,
 				"Priority": 9,
 				"NoPet": true,
-				"NoBoost": true
+				"NoBoost": true,
+				"Not F2P": true
 			},
 			"Unlock and use the ~|Divine Rage|~ prayer": {
 				"Items": ["Divine Rage prayer codex"],
@@ -59902,7 +60058,8 @@
 				"Primary": false,
 				"Priority": 10,
 				"NoPet": true,
-				"NoBoost": true
+				"NoBoost": true,
+				"Not F2P": true
 			},
 			"Wield ~|Decimation|~": {
 				"Items": ["Decimation"],
@@ -59910,7 +60067,8 @@
 				"Primary": false,
 				"Priority": 1,
 				"NoPet": true,
-				"NoBoost": true
+				"NoBoost": true,
+				"Not F2P": true
 			},
 			"Wield an ~|upgraded bone blowpipe|~": {
 				"Items": ["Upgraded bone blowpipe"],
@@ -59918,7 +60076,8 @@
 				"Primary": false,
 				"Priority": 2,
 				"NoPet": true,
-				"NoBoost": true
+				"NoBoost": true,
+				"Not F2P": true
 			},
 			"Wield an ~|elite Death Lotus dart|~": {
 				"Items": ["Elite Death Lotus dart"],
@@ -59926,7 +60085,8 @@
 				"Primary": false,
 				"Priority": 1,
 				"NoPet": true,
-				"NoBoost": true
+				"NoBoost": true,
+				"Not F2P": true
 			},
 			"Wield an ~|off-hand elite Death Lotus dart|~": {
 				"Items": ["Off-hand elite Death Lotus dart"],
@@ -59934,7 +60094,8 @@
 				"Primary": false,
 				"Priority": 2,
 				"NoPet": true,
-				"NoBoost": true
+				"NoBoost": true,
+				"Not F2P": true
 			},
 			"Wield a ~|superior Morrigan's javelin|~": {
 				"Items": ["Superior Morrigan's javelin"],
@@ -59942,7 +60103,8 @@
 				"Primary": false,
 				"Priority": 3,
 				"NoPet": true,
-				"NoBoost": true
+				"NoBoost": true,
+				"Not F2P": true
 			},
 			"Wield a ~|superior Morrigan's throwing axe|~": {
 				"Items": ["Superior Morrigan's throwing axe"],
@@ -59950,7 +60112,8 @@
 				"Primary": false,
 				"Priority": 4,
 				"NoPet": true,
-				"NoBoost": true
+				"NoBoost": true,
+				"Not F2P": true
 			},
 			"Wield a ~|noxious longbow|~": {
 				"Items": ["Noxious longbow"],
@@ -59958,7 +60121,8 @@
 				"Primary": false,
 				"Priority": 1,
 				"NoPet": true,
-				"NoBoost": true
+				"NoBoost": true,
+				"Not F2P": true
 			},
 			"Wield a ~|hellfire bow|~": {
 				"Items": ["Hellfire bow"],
@@ -59966,7 +60130,8 @@
 				"Primary": false,
 				"Priority": 2,
 				"NoPet": true,
-				"NoBoost": true
+				"NoBoost": true,
+				"Not F2P": true
 			},
 			"Wield an ~|ascension crossbow|~": {
 				"Items": ["Ascension crossbow"],
@@ -59974,7 +60139,8 @@
 				"Primary": false,
 				"Priority": 3,
 				"NoPet": true,
-				"NoBoost": true
+				"NoBoost": true,
+				"Not F2P": true
 			},
 			"Wield an ~|off-hand ascension crossbow|~": {
 				"Items": ["Off-hand ascension crossbow"],
@@ -59982,7 +60148,8 @@
 				"Primary": false,
 				"Priority": 4,
 				"NoPet": true,
-				"NoBoost": true
+				"NoBoost": true,
+				"Not F2P": true
 			},
 			"Wield a ~|dominion crossbow|~": {
 				"Items": ["Dominion crossbow"],
@@ -59990,7 +60157,8 @@
 				"Primary": false,
 				"Priority": 5,
 				"NoPet": true,
-				"NoBoost": true
+				"NoBoost": true,
+				"Not F2P": true
 			},
 			"Wield a ~|kalphite repriser|~": {
 				"Items": ["Kalphite repriser"],
@@ -60001,7 +60169,8 @@
 				},
 				"Priority": 6,
 				"NoPet": true,
-				"NoBoost": true
+				"NoBoost": true,
+				"Not F2P": true
 			},
 			"Equip an ~|araxyte arrow|~": {
 				"Items": ["Araxyte arrow"],
@@ -60009,7 +60178,8 @@
 				"Primary": false,
 				"Priority": 7,
 				"NoPet": true,
-				"NoBoost": true
+				"NoBoost": true,
+				"Not F2P": true
 			},
 			"Equip an ~|ascension bolt|~": {
 				"Items": ["Ascension bolts"],
@@ -60017,7 +60187,8 @@
 				"Primary": false,
 				"Priority": 8,
 				"NoPet": true,
-				"NoBoost": true
+				"NoBoost": true,
+				"Not F2P": true
 			},
 			"Equip an ~|ascendri bolt|~": {
 				"Items": ["Ascendri bolts"],
@@ -60025,7 +60196,8 @@
 				"Primary": false,
 				"Priority": 9,
 				"NoPet": true,
-				"NoBoost": true
+				"NoBoost": true,
+				"Not F2P": true
 			},
 			"Equip a ~|saphhire barkriminel bolt|~": {
 				"Items": ["Sapphire barkriminel bolts"],
@@ -60033,7 +60205,8 @@
 				"Primary": false,
 				"Priority": 10,
 				"NoPet": true,
-				"NoBoost": true
+				"NoBoost": true,
+				"Not F2P": true
 			},
 			"Equip a ~|ruby barkriminel bolt|~": {
 				"Items": ["Ruby barkriminel bolts"],
@@ -60041,7 +60214,8 @@
 				"Primary": false,
 				"Priority": 11,
 				"NoPet": true,
-				"NoBoost": true
+				"NoBoost": true,
+				"Not F2P": true
 			},
 			"Equip a ~|red topaz barkriminel bolt|~": {
 				"Items": ["Red topaz barkriminel bolts"],
@@ -60049,7 +60223,8 @@
 				"Primary": false,
 				"Priority": 12,
 				"NoPet": true,
-				"NoBoost": true
+				"NoBoost": true,
+				"Not F2P": true
 			},
 			"Equip a ~|pearl barkriminel bolt|~": {
 				"Items": ["Pearl barkriminel bolts"],
@@ -60057,7 +60232,8 @@
 				"Primary": false,
 				"Priority": 13,
 				"NoPet": true,
-				"NoBoost": true
+				"NoBoost": true,
+				"Not F2P": true
 			},
 			"Equip an ~|opal barkriminel bolt|~": {
 				"Items": ["Opal barkriminel bolts"],
@@ -60065,7 +60241,8 @@
 				"Primary": false,
 				"Priority": 14,
 				"NoPet": true,
-				"NoBoost": true
+				"NoBoost": true,
+				"Not F2P": true
 			},
 			"Equip an ~|onyx barkriminel bolt|~": {
 				"Items": ["Onyx barkriminel bolts"],
@@ -60073,7 +60250,8 @@
 				"Primary": false,
 				"Priority": 15,
 				"NoPet": true,
-				"NoBoost": true
+				"NoBoost": true,
+				"Not F2P": true
 			},
 			"Equip a ~|jade barkriminel bolt|~": {
 				"Items": ["Jade barkriminel bolts"],
@@ -60081,7 +60259,8 @@
 				"Primary": false,
 				"Priority": 16,
 				"NoPet": true,
-				"NoBoost": true
+				"NoBoost": true,
+				"Not F2P": true
 			},
 			"Equip a ~|hydrix barkriminel bolt|~": {
 				"Items": ["Hydrix barkriminel bolts"],
@@ -60089,7 +60268,8 @@
 				"Primary": false,
 				"Priority": 17,
 				"NoPet": true,
-				"NoBoost": true
+				"NoBoost": true,
+				"Not F2P": true
 			},
 			"Equip an ~|emerald barkriminel bolt|~": {
 				"Items": ["Emerald barkriminel bolts"],
@@ -60097,7 +60277,8 @@
 				"Primary": false,
 				"Priority": 18,
 				"NoPet": true,
-				"NoBoost": true
+				"NoBoost": true,
+				"Not F2P": true
 			},
 			"Equip a ~|dragonstone barkriminel bolt|~": {
 				"Items": ["Dragonstone barkriminel bolts"],
@@ -60105,7 +60286,8 @@
 				"Primary": false,
 				"Priority": 19,
 				"NoPet": true,
-				"NoBoost": true
+				"NoBoost": true,
+				"Not F2P": true
 			},
 			"Equip a ~|diamond barkriminel bolt|~": {
 				"Items": ["Diamond barkriminel bolts"],
@@ -60113,7 +60295,8 @@
 				"Primary": false,
 				"Priority": 20,
 				"NoPet": true,
-				"NoBoost": true
+				"NoBoost": true,
+				"Not F2P": true
 			},
 			"Make a ~|Milestone cape (90)|~": {
 				"Category": ["Skillcape"],
@@ -60153,7 +60336,8 @@
 				},
 				"Priority": 21,
 				"NoPet": true,
-				"NoBoost": true
+				"NoBoost": true,
+				"Not F2P": true
 			},
 			"Wield a ~|Seren godbow|~": {
 				"Items": ["Seren godbow"],
@@ -60161,7 +60345,8 @@
 				"Primary": false,
 				"Priority": 1,
 				"NoPet": true,
-				"NoBoost": true
+				"NoBoost": true,
+				"Not F2P": true
 			},
 			"Wield a ~|blightbound crossbow|~": {
 				"Items": ["Blightbound crossbow"],
@@ -60169,7 +60354,8 @@
 				"Primary": false,
 				"Priority": 2,
 				"NoPet": true,
-				"NoBoost": true
+				"NoBoost": true,
+				"Not F2P": true
 			},
 			"Wield an ~|off-hand blightbound crossbow|~": {
 				"Items": ["Off-hand blightbound crossbow"],
@@ -60177,7 +60363,8 @@
 				"Primary": false,
 				"Priority": 3,
 				"NoPet": true,
-				"NoBoost": true
+				"NoBoost": true,
+				"Not F2P": true
 			},
 			"Wield an ~|eldritch crossbow|~": {
 				"Items": ["Eldritch crossbow"],
@@ -60185,7 +60372,8 @@
 				"Primary": false,
 				"Priority": 4,
 				"NoPet": true,
-				"NoBoost": true
+				"NoBoost": true,
+				"Not F2P": true
 			},
 			"Equip a ~|black stone arrow|~": {
 				"Items": ["Black stone arrows"],
@@ -60193,7 +60381,8 @@
 				"Primary": false,
 				"Priority": 5,
 				"NoPet": true,
-				"NoBoost": true
+				"NoBoost": true,
+				"Not F2P": true
 			},
 			"Equip a ~|blight bolt|~": {
 				"Items": ["Blight bolts"],
@@ -60201,7 +60390,8 @@
 				"Primary": false,
 				"Priority": 6,
 				"NoPet": true,
-				"NoBoost": true
+				"NoBoost": true,
+				"Not F2P": true
 			},
 			"Equip a ~|deathspore arrow|~": {
 				"Items": ["Deathspore arrows"],
@@ -60209,7 +60399,8 @@
 				"Primary": false,
 				"Priority": 1,
 				"NoPet": true,
-				"NoBoost": true
+				"NoBoost": true,
+				"Not F2P": true
 			},
 			"Equip a ~|splintering arrow|~": {
 				"Items": ["Splintering arrow"],
@@ -60217,7 +60408,8 @@
 				"Primary": false,
 				"Priority": 2,
 				"NoPet": true,
-				"NoBoost": true
+				"NoBoost": true,
+				"Not F2P": true
 			},
 			"Wield the ~|bow of the Last Guardian|~": {
 				"Items": ["Bow of the Last Guardian"],
@@ -60225,7 +60417,8 @@
 				"Primary": false,
 				"Priority": 3,
 				"NoPet": true,
-				"NoBoost": true
+				"NoBoost": true,
+				"Not F2P": true
 			},
 			"Equip an ~|enchanted saphhire barkriminel bolt|~": {
 				"Items": ["Sapphire barkriminel bolts (e)"],
@@ -60233,7 +60426,8 @@
 				"Primary": false,
 				"Priority": 2,
 				"NoPet": true,
-				"NoBoost": true
+				"NoBoost": true,
+				"Not F2P": true
 			},
 			"Equip an ~|enchanted ruby barkriminel bolt|~": {
 				"Items": ["Ruby barkriminel bolts (e)"],
@@ -60241,7 +60435,8 @@
 				"Primary": false,
 				"Priority": 3,
 				"NoPet": true,
-				"NoBoost": true
+				"NoBoost": true,
+				"Not F2P": true
 			},
 			"Equip an ~|enchanted red topaz barkriminel bolt|~": {
 				"Items": ["Red topaz barkriminel bolts (e)"],
@@ -60249,7 +60444,8 @@
 				"Primary": false,
 				"Priority": 4,
 				"NoPet": true,
-				"NoBoost": true
+				"NoBoost": true,
+				"Not F2P": true
 			},
 			"Equip an ~|enchanted pearl barkriminel bolt|~": {
 				"Items": ["Pearl barkriminel bolts (e)"],
@@ -60257,7 +60453,8 @@
 				"Primary": false,
 				"Priority": 5,
 				"NoPet": true,
-				"NoBoost": true
+				"NoBoost": true,
+				"Not F2P": true
 			},
 			"Equip an ~|enchanted opal barkriminel bolt|~": {
 				"Items": ["Opal barkriminel bolts (e)"],
@@ -60265,7 +60462,8 @@
 				"Primary": false,
 				"Priority": 6,
 				"NoPet": true,
-				"NoBoost": true
+				"NoBoost": true,
+				"Not F2P": true
 			},
 			"Equip an ~|enchanted onyx barkriminel bolt|~": {
 				"Items": ["Onyx barkriminel bolts (e)"],
@@ -60273,7 +60471,8 @@
 				"Primary": false,
 				"Priority": 7,
 				"NoPet": true,
-				"NoBoost": true
+				"NoBoost": true,
+				"Not F2P": true
 			},
 			"Equip an ~|enchanted jade barkriminel bolt|~": {
 				"Items": ["Jade barkriminel bolts (e)"],
@@ -60281,7 +60480,8 @@
 				"Primary": false,
 				"Priority": 8,
 				"NoPet": true,
-				"NoBoost": true
+				"NoBoost": true,
+				"Not F2P": true
 			},
 			"Equip an ~|enchanted hydrix barkriminel bolt|~": {
 				"Items": ["Hydrix barkriminel bolts (e)"],
@@ -60289,7 +60489,8 @@
 				"Primary": false,
 				"Priority": 9,
 				"NoPet": true,
-				"NoBoost": true
+				"NoBoost": true,
+				"Not F2P": true
 			},
 			"Equip an ~|enchanted emerald barkriminel bolt|~": {
 				"Items": ["Emerald barkriminel bolts (e)"],
@@ -60297,7 +60498,8 @@
 				"Primary": false,
 				"Priority": 10,
 				"NoPet": true,
-				"NoBoost": true
+				"NoBoost": true,
+				"Not F2P": true
 			},
 			"Equip an ~|enchanted dragonstone barkriminel bolt|~": {
 				"Items": ["Dragonstone barkriminel bolts (e)"],
@@ -60305,7 +60507,8 @@
 				"Primary": false,
 				"Priority": 11,
 				"NoPet": true,
-				"NoBoost": true
+				"NoBoost": true,
+				"Not F2P": true
 			},
 			"Equip an ~|enchanted diamond barkriminel bolt|~": {
 				"Items": ["Diamond barkriminel bolts (e)"],
@@ -60313,7 +60516,8 @@
 				"Primary": false,
 				"Priority": 12,
 				"NoPet": true,
-				"NoBoost": true
+				"NoBoost": true,
+				"Not F2P": true
 			},
 			"Wield a ~|sagittarian|~ ranged weapon or arrows": {
 				"Category": ["Daemonheim tasks"],
@@ -60324,7 +60528,8 @@
 				"Primary": false,
 				"Priority": 15,
 				"NoPet": true,
-				"NoBoost": true
+				"NoBoost": true,
+				"Not F2P": true
 			},
 			"Wield ~|primal knives (Dungeoneering)|~": {
 				"Category": ["Daemonheim tasks"],
@@ -60335,7 +60540,8 @@
 				"Primary": false,
 				"Priority": 16,
 				"NoPet": true,
-				"NoBoost": true
+				"NoBoost": true,
+				"Not F2P": true
 			},
 			"Unlock and use the ~|greater dazing shot|~ ability": {
 				"Chunks": ["12592"],
@@ -60343,7 +60549,8 @@
 				"Primary": false,
 				"Priority": 1,
 				"NoPet": true,
-				"NoBoost": true
+				"NoBoost": true,
+				"Not F2P": true
 			},
 			"Unlock and use the ~|demoralise|~ ability": {
 				"Items": ["Scare Tactics"],
@@ -60351,7 +60558,8 @@
 				"Primary": false,
 				"Priority": 13,
 				"NoPet": true,
-				"NoBoost": true
+				"NoBoost": true,
+				"Not F2P": true
 			},
 			"Unlock and use the ~|rout|~ ability": {
 				"Items": ["Scare Tactics"],
@@ -60359,7 +60567,8 @@
 				"Primary": false,
 				"Priority": 1,
 				"NoPet": true,
-				"NoBoost": true
+				"NoBoost": true,
+				"Not F2P": true
 			},
 			"Unlock and use the ~|greater ricochet|~ ability": {
 				"Items": ["Greater Richochet ability codex"],
@@ -60367,16 +60576,17 @@
 				"Primary": false,
 				"Priority": 3,
 				"NoPet": true,
-				"NoBoost": true
+				"NoBoost": true,
+				"Not F2P": true
 			},
 			"Unlock and use the ~|Salt the Wound|~ ability": {
 				"Items": ["Salt the Wound ability"],
 				"Level": 65,
 				"Primary": false,
 				"Priority": 18,
-				"Not F2P": true,
 				"NoPet": true,
-				"NoBoost": true
+				"NoBoost": true,
+				"Not F2P": true
 			},
 			"Unlock and use the ~|corruption shot|~ ability": {
 				"Items": ["Corruption Shot Ability Codex"],
@@ -60384,7 +60594,8 @@
 				"Primary": false,
 				"Priority": 15,
 				"NoPet": true,
-				"NoBoost": true
+				"NoBoost": true,
+				"Not F2P": true
 			},
 			"Unlock and use the ~|shadow tendrils|~ ability": {
 				"Items": ["Codex Ultimatus"],
@@ -60392,7 +60603,8 @@
 				"Primary": false,
 				"Priority": 6,
 				"NoPet": true,
-				"NoBoost": true
+				"NoBoost": true,
+				"Not F2P": true
 			},
 			"Wield a ~|sagittarian shortbow|~ in Daemonheim": {
 			    "Category": ["Daemonheim tasks"],
@@ -60402,7 +60614,8 @@
 			    "Level": 99,
 			    "Primary": false,
 			    "NoPet": true,
-			    "Priority": 10000
+			    "Priority": 10000,
+				"Not F2P": true
 			},
 			"Equip a ~|primal arrow|~": {
 				"Items": ["Primal arrow"],
@@ -60410,7 +60623,8 @@
 				"Primary": false,
 				"Priority": 14,
 				"NoPet": true,
-				"NoBoost": true
+				"NoBoost": true,
+				"Not F2P": true
 			},
 			"Equip a ~|primal bolt|~": {
 				"Items": ["Primal arrow"],
@@ -60418,7 +60632,8 @@
 				"Primary": false,
 				"Priority": 14,
 				"NoPet": true,
-				"NoBoost": true
+				"NoBoost": true,
+				"Not F2P": true
 			},
 			"Buy the ~|Ranged cape|~": {
 				"Category": ["Skillcape"],
@@ -60428,7 +60643,8 @@
 				"Primary": true,
 				"Priority": 13,
 				"NoPet": true,
-				"NoBoost": true
+				"NoBoost": true,
+				"Not F2P": true
 			},
 			"Buy the ~|Ranged master cape|~": {
 				"Category": ["Master skillcape"],
@@ -60438,7 +60654,8 @@
 				"Primary": false,
 				"Priority": 3,
 				"NoPet": true,
-				"NoBoost": true
+				"NoBoost": true,
+				"Not F2P": true
 			},
 			"Buy the ~|Max cape|~": {
 				"Tasks": {
@@ -60480,7 +60697,8 @@
 				},
 				"Priority": 1,
 				"NoPet": true,
-				"NoBoost": true
+				"NoBoost": true,
+				"Not F2P": true
 			},
 			"Create the ~|blurite keystone|~": {
 				"Tasks": {
@@ -60524,7 +60742,8 @@
 				},
 				"Priority": 2,
 				"NoPet": true,
-				"NoBoost": true
+				"NoBoost": true,
+				"Not F2P": true
 			},
 			"Buy the ~|Master max cape|~": {
 				"Tasks": {
@@ -60565,7 +60784,8 @@
 				},
 				"Priority": 1,
 				"NoPet": true,
-				"NoBoost": true
+				"NoBoost": true,
+				"Not F2P": true
 			}
 		},
 		"Runecrafting": {
@@ -60638,7 +60858,20 @@
 				"Level": 1,
 				"Output": "Ourania Runes",
 				"Primary": true,
-				"Priority": 9
+				"Priority": 9,
+				"Not F2P": true
+			},
+			"Craft a ~|spirit rune|~": {
+				"Items": ["Impure essence"],
+				"Chunks": ["Necromantic Rune Temple"],
+				"Level": 1,
+				"Tasks": {
+					"~|Rune Mythos|~ Complete the quest": "Quest"
+				},
+				"Output": "Spirit rune",
+				"Primary": true,
+				"Priority": 18,
+				"Not F2P": true
 			},
 			"Obtain ~|magical thread|~ by runecrafting through the abyss": {
 				"Chunks": ["RuneTemple[+]", "The Abyss"],
@@ -60646,15 +60879,8 @@
 				"Level": 1,
 				"Output": "Magical thread",
 				"Primary": false,
-				"Priority": 40
-			},
-			"Obtain ~|Ilme's thread|~ by runecrafting through altar running": {
-				"Chunks": ["RuneTemple[+]"],
-				"Items": ["RuneEssence[+]*"],
-				"Level": 1,
-				"Output": "Ilme's thread",
-				"Primary": false,
-				"Priority": 40
+				"Priority": 40,
+				"Not F2P": true
 			},
 			"Craft ~|water runes|~ at the water rune temple": {
 				"Chunks": ["Water Rune Temple"],
@@ -60682,7 +60908,8 @@
 				"Items": ["Wicked hood"],
 				"Level": 5,
 				"Primary": false,
-				"Priority": 4
+				"Priority": 4,
+				"Not F2P": true
 			},
 			"Craft ~|mist runes|~ at the air rune temple": {
 				"Chunks": ["Air Rune Temple"],
@@ -60690,7 +60917,8 @@
 				"Level": 6,
 				"Output": "Mist rune",
 				"Primary": true,
-				"Priority": 1
+				"Priority": 1,
+				"Not F2P": true
 			},
 			"Craft ~|mist runes|~ at the water rune temple": {
 				"Chunks": ["Water Rune Temple"],
@@ -60698,7 +60926,8 @@
 				"Level": 6,
 				"Output": "Mist rune",
 				"Primary": true,
-				"Priority": 2
+				"Priority": 2,
+				"Not F2P": true
 			},
 			"Craft ~|earth runes|~ at the earth rune temple": {
 				"Chunks": ["Earth Rune Temple"],
@@ -60740,7 +60969,8 @@
 				"Level": 10,
 				"Output": "Dust rune",
 				"Primary": true,
-				"Priority": 2
+				"Priority": 2,
+				"Not F2P": true
 			},
 			"Craft ~|dust runes|~ at the earth rune temple": {
 				"Chunks": ["Earth Rune Temple"],
@@ -60748,7 +60978,8 @@
 				"Level": 10,
 				"Output": "Dust rune",
 				"Primary": true,
-				"Priority": 3
+				"Priority": 3,
+				"Not F2P": true
 			},
 			"Craft ~|mud runes|~ at the earth rune temple": {
 				"Chunks": ["Earth Rune Temple"],
@@ -60756,7 +60987,8 @@
 				"Level": 13,
 				"Output": "Mud rune",
 				"Primary": true,
-				"Priority": 1
+				"Priority": 1,
+				"Not F2P": true
 			},
 			"Craft ~|mud runes|~ at the water rune temple": {
 				"Chunks": ["Water Rune Temple"],
@@ -60764,7 +60996,8 @@
 				"Level": 13,
 				"Output": "Mud rune",
 				"Primary": true,
-				"Priority": 2
+				"Priority": 2,
+				"Not F2P": true
 			},
 			"Craft ~|fire runes|~ at the fire rune temple": {
 				"Chunks": ["Fire Rune Temple"],
@@ -60800,7 +61033,8 @@
 				"Level": 15,
 				"Output": "Smoke rune",
 				"Primary": true,
-				"Priority": 2
+				"Priority": 2,
+				"Not F2P": true
 			},
 			"Craft ~|smoke runes|~ at the air rune temple": {
 				"Chunks": ["Air Rune Temple"],
@@ -60808,7 +61042,8 @@
 				"Level": 15,
 				"Output": "Smoke rune",
 				"Primary": true,
-				"Priority": 3
+				"Priority": 3,
+				"Not F2P": true
 			},
 			"Siphon earth and water runes from ~|vines|~": {
 				"Chunks": ["The Runespan"],
@@ -60822,7 +61057,8 @@
 				"Level": 19,
 				"Output": "Steam rune",
 				"Primary": true,
-				"Priority": 1
+				"Priority": 1,
+				"Not F2P": true
 			},
 			"Craft ~|steam runes|~ at the fire rune temple": {
 				"Chunks": ["Fire Rune Temple"],
@@ -60830,7 +61066,8 @@
 				"Level": 19,
 				"Output": "Steam rune",
 				"Primary": true,
-				"Priority": 2
+				"Priority": 2,
+				"Not F2P": true
 			},
 			"Craft ~|body runes|~ at the body rune temple": {
 				"Chunks": ["Body Rune Temple"],
@@ -60860,13 +61097,26 @@
 				"Primary": false,
 				"Priority": 4
 			},
+			"Craft a ~|bone rune|~": {
+				"Items": ["Impure essence"],
+				"Chunks": ["Necromantic Rune Temple"],
+				"Level": 20,
+				"Tasks": {
+					"~|Rune Mythos|~ Complete the quest": "Quest"
+				},
+				"Output": "Bone rune",
+				"Primary": true,
+				"Priority": 7,
+				"Not F2P": true
+			},
 			"Craft ~|lava runes|~ at the earth rune temple": {
 				"Chunks": ["Earth Rune Temple"],
 				"Items": ["Pure essence*", "Fire rune*", "Fire talisman*"],
 				"Level": 23,
 				"Output": "Lava rune",
 				"Primary": true,
-				"Priority": 1
+				"Priority": 1,
+				"Not F2P": true
 			},
 			"Craft ~|lava runes|~ at the fire rune temple": {
 				"Chunks": ["Fire Rune Temple"],
@@ -60874,7 +61124,8 @@
 				"Level": 23,
 				"Output": "Lava rune",
 				"Primary": true,
-				"Priority": 2
+				"Priority": 2,
+				"Not F2P": true
 			},
 			"Cross a ~|conjuration platform|~": {
 				"Chunks": ["The Runespan"],
@@ -60886,7 +61137,8 @@
 				"Items": ["RuneEssence[+]", "Medium pouch"],
 				"Level": 25,
 				"Primary": false,
-				"Priority": 2
+				"Priority": 2,
+				"Not F2P": true
 			},
 			"Siphon air and fire runes from ~|fire storms|~": {
 				"Chunks": ["The Runespan"],
@@ -60900,7 +61152,8 @@
 				"Level": 27,
 				"Output": "Cosmic rune",
 				"Primary": true,
-				"Priority": 2
+				"Priority": 2,
+				"Not F2P": true
 			},
 			"Create a ~|cosmic tiara|~ at the cosmic rune temple": {
 				"Chunks": ["Cosmic Rune Temple"],
@@ -60908,7 +61161,8 @@
 				"Level": 27,
 				"Output": "Cosmic tiara",
 				"Primary": true,
-				"Priority": 3
+				"Priority": 3,
+				"Not F2P": true
 			},
 			"Siphon cosmic runes from ~|cosmic esshounds|~": {
 				"Chunks": ["The Runespan"],
@@ -60938,7 +61192,8 @@
 				"Level": 30,
 				"Primary": false,
 				"NoBoost": true,
-				"Priority": 3
+				"Priority": 3,
+				"Not F2P": true
 			},
 			"Wield a ~|lesser runic staff|~": {
 				"Items": ["Lesser runic staff"],
@@ -60947,7 +61202,8 @@
 				"Skills": {
 					"Magic": 30
 				},
-				"Priority": 4
+				"Priority": 4,
+				"Not F2P": true
 			},
 			"Climb the ~|vine ladder|~": {
 				"Chunks": ["The Runespan"],
@@ -60961,7 +61217,8 @@
 				"Level": 35,
 				"Output": "Chaos rune",
 				"Primary": true,
-				"Priority": 1
+				"Priority": 1,
+				"Not F2P": true
 			},
 			"Create a ~|chaos tiara|~ at the chaos rune temple": {
 				"Chunks": ["Chaos Rune Temple"],
@@ -60969,7 +61226,8 @@
 				"Level": 35,
 				"Output": "Chaos tiara",
 				"Primary": true,
-				"Priority": 2
+				"Priority": 2,
+				"Not F2P": true
 			},
 			"Siphon chaos runes from ~|chaotic clouds|~": {
 				"Chunks": ["The Runespan"],
@@ -60982,7 +61240,8 @@
 				"Chunks": ["The Runespan"],
 				"Level": 35,
 				"Primary": false,
-				"Priority": 4
+				"Priority": 4,
+				"Not F2P": true
 			},
 			"Create a ~|cosmic bar|~": {
 				"Chunks": ["Elemental Workshop Third Floor Second Hallway"],
@@ -60990,7 +61249,8 @@
 				"Level": 39,
 				"Output": "Cosmic bar",
 				"Primary": false,
-				"Priority": 1
+				"Priority": 1,
+				"Not F2P": true
 			},
 			"Craft ~|astral runes|~ at the astral altar": {
 				"Chunks": ["8508"],
@@ -60998,13 +61258,15 @@
 				"Level": 40,
 				"Output": "Astral rune",
 				"Primary": true,
-				"Priority": 1
+				"Priority": 1,
+				"Not F2P": true
 			},
 			"Siphon cosmic and astral runes from ~|nebulae|~": {
 				"Chunks": ["The Runespan"],
 				"Level": 40,
 				"Primary": true,
-				"Priority": 2
+				"Priority": 2,
+				"Not F2P": true
 			},
 			"Craft a ~|flesh rune|~": {
 				"Items": ["Impure essence"],
@@ -61015,7 +61277,8 @@
 				},
 				"Output": "Flesh rune",
 				"Primary": true,
-				"Priority": 3
+				"Priority": 3,
+				"Not F2P": true
 			},
 			"Craft ~|nature runes|~ at the nature rune temple": {
 				"Chunks": ["Nature Rune Temple"],
@@ -61023,7 +61286,8 @@
 				"Level": 44,
 				"Output": "Nature rune",
 				"Primary": true,
-				"Priority": 1
+				"Priority": 1,
+				"Not F2P": true
 			},
 			"Create a ~|nature tiara|~ at the nature rune temple": {
 				"Chunks": ["Nature Rune Temple"],
@@ -61031,7 +61295,8 @@
 				"Level": 44,
 				"Output": "Nature tiara",
 				"Primary": true,
-				"Priority": 2
+				"Priority": 2,
+				"Not F2P": true
 			},
 			"Siphon nature runes from ~|shifters|~": {
 				"Chunks": ["The Runespan"],
@@ -61057,7 +61322,8 @@
 				"Items": ["RuneEssence[+]*", "Large pouch"],
 				"Level": 50,
 				"Primary": false,
-				"Priority": 2
+				"Priority": 2,
+				"Not F2P": true
 			},
 			"Enter the ~|runespan|~ via the high-level entrance": {
 				"Chunks": ["12337"],
@@ -61077,7 +61343,8 @@
 				"Items": ["RunecraftRobe[+]"],
 				"Level": 50,
 				"Primary": false,
-				"Priority": 5
+				"Priority": 5,
+				"Not F2P": true
 			},
 			"Craft ~|law runes|~ at the law rune temple": {
 				"Chunks": ["Law Rune Temple"],
@@ -61085,7 +61352,8 @@
 				"Level": 54,
 				"Output": "Law rune",
 				"Primary": true,
-				"Priority": 1
+				"Priority": 1,
+				"Not F2P": true
 			},
 			"Create a ~|law tiara|~ at the law rune temple": {
 				"Chunks": ["Law Rune Temple"],
@@ -61093,7 +61361,8 @@
 				"Level": 54,
 				"Output": "Law tiara",
 				"Primary": true,
-				"Priority": 2
+				"Priority": 2,
+				"Not F2P": true
 			},
 			"Siphon law runes from ~|jumpers|~": {
 				"Chunks": ["The Runespan"],
@@ -61106,7 +61375,8 @@
 				"Items": ["Wicked legs"],
 				"Level": 55,
 				"Primary": false,
-				"Priority": 1
+				"Priority": 1,
+				"Not F2P": true
 			},
 			"Cross a ~|comet platform|~": {
 				"Chunks": ["The Runespan"],
@@ -61122,7 +61392,8 @@
 				"Skills": {
 					"Magic": 50
 				},
-				"Priority": 1
+				"Priority": 1,
+				"Not F2P": true
 			},
 			"Craft a ~|miasma rune|~": {
 				"Items": ["Impure essence"],
@@ -61133,7 +61404,8 @@
 				},
 				"Output": "Miasma rune",
 				"Primary": true,
-				"Priority": 2
+				"Priority": 2,
+				"Not F2P": true
 			},
 			"Craft ~|death runes|~ at the death rune temple": {
 				"Chunks": ["Death Rune Temple"],
@@ -61141,7 +61413,8 @@
 				"Level": 65,
 				"Output": "Death rune",
 				"Primary": true,
-				"Priority": 1
+				"Priority": 1,
+				"Not F2P": true
 			},
 			"Create a ~|death tiara|~ at the death rune temple": {
 				"Chunks": ["Death Rune Temple"],
@@ -61149,7 +61422,8 @@
 				"Level": 65,
 				"Output": "Death tiara",
 				"Primary": true,
-				"Priority": 2
+				"Priority": 2,
+				"Not F2P": true
 			},
 			"Siphon death runes from ~|piles of skulls|~": {
 				"Chunks": ["The Runespan"],
@@ -61170,7 +61444,8 @@
 				"Level": 65,
 				"Output": "Arch-Glacor's Adornment",
 				"Primary": true,
-				"Priority": 5
+				"Priority": 5,
+				"Not F2P": true
 			},
 			"Climb the ~|bone ladder|~": {
 				"Chunks": ["The Runespan"],
@@ -61187,13 +61462,15 @@
 					"Dungeoneering": 70,
 					"Magic": 70
 				},
-				"Priority": 1
+				"Priority": 1,
+				"Not F2P": true
 			},
 			"Wield a ~|binding rod|~": {
 				"Items": ["Binding rod"],
 				"Level": 71,
 				"Primary": false,
-				"Priority": 1
+				"Priority": 1,
+				"Not F2P": true
 			},
 			"Craft ~|Armadyl runes|~ at the air rune temple": {
 				"Chunks": ["Air Rune Temple"],
@@ -61201,13 +61478,15 @@
 				"Level": 72,
 				"Output": "Armadyl rune",
 				"Primary": true,
-				"Priority": 1
+				"Priority": 1,
+				"Not F2P": true
 			},
 			"Store essence in a ~|giant pouch|~": {
 				"Items": ["RuneEssence[+]*", "Giant pouch"],
 				"Level": 75,
 				"Primary": false,
-				"Priority": 1
+				"Priority": 1,
+				"Not F2P": true
 			},
 			"Craft ~|blood runes|~ at the blood rune temple": {
 				"Chunks": ["Blood Rune Temple"],
@@ -61215,7 +61494,8 @@
 				"Level": 77,
 				"Output": "Blood rune",
 				"Primary": true,
-				"Priority": 1
+				"Priority": 1,
+				"Not F2P": true
 			},
 			"Create a ~|blood tiara|~ at the blood rune temple": {
 				"Chunks": ["Blood Rune Temple"],
@@ -61223,7 +61503,8 @@
 				"Level": 77,
 				"Output": "Blood tiara",
 				"Primary": true,
-				"Priority": 2
+				"Priority": 2,
+				"Not F2P": true
 			},
 			"Siphon blood runes from ~|blood pools|~": {
 				"Chunks": ["The Runespan"],
@@ -61243,7 +61524,8 @@
 				"Items": ["Wicked robe top"],
 				"Level": 80,
 				"Primary": false,
-				"Priority": 1
+				"Priority": 1,
+				"Not F2P": true
 			},
 			"Create the ~|infinity ethereal outfit|~": {
 				"Objects": ["Inventor's workbench"],
@@ -61253,33 +61535,38 @@
 				},
 				"Primary": false,
 				"Output": "EtherealOutfit",
-				"Priority": 2
+				"Priority": 2,
+				"Not F2P": true
 			},
 			"Create the ~|Ur-Glacor's Adornment|~": {
 				"Items": ["Glacor remnants*", "Dark nilas*", "Arch-Glacor's Adornment*"],
 				"Level": 80,
 				"Output": "Ur-Glacor's Adornment",
 				"Primary": true,
-				"Priority": 3
+				"Priority": 3,
+				"Not F2P": true
 			},
 			"Wield a ~|runic attuner|~": {
 				"Items": ["Runic attuner"],
 				"Level": 80,
 				"Primary": false,
-				"Priority": 4
+				"Priority": 4,
+				"Not F2P": true
 			},
 			"Create an ~|enchantment of afflicition|~": {
 				"Items": ["Sliver of pain*", "Onyx*", "Necromantic focus*"],
 				"Level": 80,
 				"Output": "Enchantment of afflicition",
 				"Primary": true,
-				"Priority": 5
+				"Priority": 5,
+				"Not F2P": true
 			},
 			"Wield a ~|crystal binding rod|~": {
 				"Items": ["Crystal binding rod"],
 				"Level": 81,
 				"Primary": false,
-				"Priority": 1
+				"Priority": 1,
+				"Not F2P": true
 			},
 			"Siphon death and blood runes from ~|bloody skulls|~": {
 				"Chunks": ["The Runespan"],
@@ -61299,7 +61586,8 @@
 				"Items": ["RuneEssence[+]*", "Massive pouch"],
 				"Level": 90,
 				"Primary": false,
-				"Priority": 1
+				"Priority": 1,
+				"Not F2P": true
 			},
 			"Wield a ~|greater runic staff|~": {
 				"Items": ["Greater runic staff"],
@@ -61308,7 +61596,8 @@
 				"Skills": {
 					"Magic": 75
 				},
-				"Priority": 2
+				"Priority": 2,
+				"Not F2P": true
 			},
 			"Siphon soul runes from ~|living souls|~": {
 				"Chunks": ["The Runespan"],
@@ -61322,14 +61611,16 @@
 				"Chunks": ["Player-Owned Port"],
 				"Level": 90,
 				"Primary": false,
-				"Priority": 4
+				"Priority": 4,
+				"Not F2P": true
 			},
 			"Craft a ~|chaos-infused moonstone (unimbued)|~": {
 				"Items": ["Chaotic essence*", "Moonstone*"],
 				"Level": 90,
 				"Output": "Chaos-infused moonstone (unimbued)",
 				"Primary": true,
-				"Priority": 5
+				"Priority": 5,
+				"Not F2P": true
 			},
 			"Craft a ~|pearlescent substrate (unimbued)|~": {
 				"Items": ["Tectonic essence*", "Praesulic essence (magic)*", "Pearls*"],
@@ -61339,7 +61630,8 @@
 				},
 				"Output": "Pearlescent substrate (unimbued)",
 				"Primary": true,
-				"Priority": 5
+				"Priority": 5,
+				"Not F2P": true
 			},
 			"Craft ~|sea singer robes|~": {
 				"Items": ["Chi*"],
@@ -61347,21 +61639,24 @@
 				"Objects": ["Port workshop"],
 				"Output": "SeaSingerRobes",
 				"Primary": true,
-				"Priority": 6
+				"Priority": 6,
+				"Not F2P": true
 			},
 			"Craft a ~|tectonic mask|~": {
 				"Items": ["Tectonic energy*", "Stone of binding*"],
 				"Level": 91,
 				"Output": "Tectonic mask",
 				"Primary": true,
-				"Priority": 1
+				"Priority": 1,
+				"Not F2P": true
 			},
 			"Craft an ~|elite tectonic mask|~": {
 				"Items": ["Tectonic mask*", "Stone of binding*", "Praesulic essence (magic)*", "Draconic energy*"],
 				"Level": 91,
 				"Output": "Elite tectonic mask",
 				"Primary": true,
-				"Priority": 2
+				"Priority": 2,
+				"Not F2P": true
 			},
 			"Craft a ~|seasinger kiba|~": {
 				"Items": ["Chi*", "Koi scales*", "Gemstone kaseki*"],
@@ -61369,7 +61664,8 @@
 				"Objects": ["Port workshop"],
 				"Output": "Seasinger kiba",
 				"Primary": true,
-				"Priority": 1
+				"Priority": 1,
+				"Not F2P": true
 			},
 			"Craft a ~|seasinger makigai|~": {
 				"Items": ["Chi*", "Koi scales*", "Gemstone kaseki*"],
@@ -61377,35 +61673,40 @@
 				"Objects": ["Port workshop"],
 				"Output": "Seasinger makigai",
 				"Primary": true,
-				"Priority": 2
+				"Priority": 2,
+				"Not F2P": true
 			},
 			"Craft a ~|tectonic robe bottom|~": {
 				"Items": ["Tectonic energy*", "Stone of binding*"],
 				"Level": 92,
 				"Output": "Tectonic robe bottom",
 				"Primary": true,
-				"Priority": 3
+				"Priority": 3,
+				"Not F2P": true
 			},
 			"Craft an ~|elite tectonic robe bottom|~": {
 				"Items": ["Tectonic robe bottom*", "Stone of binding*", "Praesulic essence (magic)*", "Draconic energy*"],
 				"Level": 92,
 				"Output": "Elite tectonic robe bottom",
 				"Primary": true,
-				"Priority": 4
+				"Priority": 4,
+				"Not F2P": true
 			},
 			"Craft a ~|tectonic robe top|~": {
 				"Items": ["Tectonic energy*", "Stone of binding*"],
 				"Level": 93,
 				"Output": "Tectonic robe top",
 				"Primary": true,
-				"Priority": 1
+				"Priority": 1,
+				"Not F2P": true
 			},
 			"Craft an ~|elite tectonic robe top|~": {
 				"Items": ["Tectonic robe top*", "Stone of binding*", "Praesulic essence (magic)*", "Draconic energy*"],
 				"Level": 93,
 				"Output": "Elite tectonic robe top",
 				"Primary": true,
-				"Priority": 4
+				"Priority": 4,
+				"Not F2P": true
 			},
 			"Assemble a ~|Inquisitor staff|~": {
 				"Items": ["Praetorian staff*", "Inquisitor's staff ornament*", "Inquisitor's staff rod*", "Inquisitor's staff censer*"],
@@ -61415,7 +61716,8 @@
 				"Skills": {
 					"Crafting": 1
 				},
-				"Priority": 2
+				"Priority": 2,
+				"Not F2P": true
 			},
 			"Wear ~|blood runecrafting gloves|~": {
 				"Items": ["Blood runecrafting gloves"],
@@ -61487,7 +61789,8 @@
 				"Level": 1,
 				"Output": "Strong runecrafting urn",
 				"Primary": true,
-				"Priority": 15
+				"Priority": 15,
+				"Not F2P": true
 			},
 			"Complete a ~|decorated runecrafting urn|~": {
 				"Category": ["Token"],
@@ -61495,7 +61798,8 @@
 				"Level": 1,
 				"Output": "Decorated runecrafting urn",
 				"Primary": true,
-				"Priority": 16
+				"Priority": 16,
+				"Not F2P": true
 			},
 			"Complete an ~|exquisite runecrafting urn|~": {
 				"Category": ["Token"],
@@ -61503,7 +61807,8 @@
 				"Level": 1,
 				"Output": "Exquisite runecrafting urn",
 				"Primary": true,
-				"Priority": 16
+				"Priority": 16,
+				"Not F2P": true
 			},
 			"Train runecrafting in ~|Daemonheim|~": {
 				"Category": ["Daemonheim training"],
@@ -61514,17 +61819,6 @@
 				"Primary": true,
 				"Priority": 17
 			},
-			"Craft a ~|spirit rune|~": {
-				"Items": ["Impure essence"],
-				"Chunks": ["Necromantic Rune Temple"],
-				"Level": 1,
-				"Tasks": {
-					"~|Rune Mythos|~ Complete the quest": "Quest"
-				},
-				"Output": "Spirit rune",
-				"Primary": true,
-				"Priority": 18
-			},
 			"Complete a run through ~|Shifting Tombs|~": {
 				"Chunks": ["Shifting Tombs"],
 				"Tasks": {
@@ -61532,7 +61826,8 @@
 				},
 				"Level": 1,
 				"Primary": true,
-				"Priority": 19
+				"Priority": 19,
+				"Not F2P": true
 			},
 			"Craft an ~|imphide book|~": {
 				"Items": ["Imphide*", "Thread*"],
@@ -61573,17 +61868,6 @@
 				},
 				"Primary": false,
 				"Priority": 6
-			},
-			"Craft a ~|bone rune|~": {
-				"Items": ["Impure essence"],
-				"Chunks": ["Necromantic Rune Temple"],
-				"Level": 20,
-				"Tasks": {
-					"~|Rune Mythos|~ Complete the quest": "Quest"
-				},
-				"Output": "Bone rune",
-				"Primary": true,
-				"Priority": 7
 			},
 			"Craft a ~|batwing book|~": {
 				"Items": ["Batwing*", "Thread*"],
@@ -61630,7 +61914,8 @@
 				"Level": 50,
 				"Output": "Glacor's Adornment",
 				"Primary": true,
-				"Priority": 8
+				"Priority": 8,
+				"Not F2P": true
 			},
 			"Steal from engraved sarcaphogus in the eighth room in ~|pyramid plunder|~": {
 				"Chunks": ["Pyramid Plunder"],
@@ -61640,7 +61925,8 @@
 				},
 				"Output": "Sceptre of the gods",
 				"Primary": false,
-				"Priority": 2
+				"Priority": 2,
+				"Not F2P": true
 			},
 			"Buy the ~|Runecrafting cape|~": {
 				"Category": ["Skillcape"],
@@ -61649,7 +61935,8 @@
 				"Output": "Runecrafting cape",
 				"Primary": true,
 				"NoBoost": true,
-				"Priority": 2
+				"Priority": 2,
+				"Not F2P": true
 			},
 			"Imbue a ~|spiritbloom orb|~": {
 				"Category": ["Daemonheim tasks"],
@@ -61658,7 +61945,8 @@
 				},
 				"Level": 99,
 				"Primary": false,
-				"Priority": 4
+				"Priority": 4,
+				"Not F2P": true
 			},
 			"Imbue a ~|grave creeper wand|~": {
 				"Category": ["Daemonheim tasks"],
@@ -61667,7 +61955,8 @@
 				},
 				"Level": 99,
 				"Primary": false,
-				"Priority": 5
+				"Priority": 5,
+				"Not F2P": true
 			},
 			"Imbue a ~|grave creeper staff|~": {
 				"Category": ["Daemonheim tasks"],
@@ -61676,7 +61965,8 @@
 				},
 				"Level": 99,
 				"Primary": false,
-				"Priority": 6
+				"Priority": 6,
+				"Not F2P": true
 			},
 			"Extract ~|praesulic essence (magic)|~ from Virtus armour": {
 				"Items": ["Virtus[+]*"],
@@ -61684,7 +61974,8 @@
 				"Objects": ["Dragonkin anvil"],
 				"Output": "Praesulic essence (magic)",
 				"Primary": true,
-				"Priority": 7
+				"Priority": 7,
+				"Not F2P": true
 			},
 			"Extract ~|tectonic essence|~ from tectonic armour": {
 				"Items": ["TectonicArmour[+]*"],
@@ -61692,7 +61983,8 @@
 				"Objects": ["Dragonkin anvil"],
 				"Output": "Tectonic essence",
 				"Primary": true,
-				"Priority": 8
+				"Priority": 8,
+				"Not F2P": true
 			},
 			"Extract ~|melodic essence|~ from Cywir weapons": {
 				"Items": ["Wand of the Cywir elders*"],
@@ -61703,7 +61995,8 @@
 				"Objects": ["Dragonkin anvil"],
 				"Output": "Melodic essence",
 				"Primary": true,
-				"Priority": 32
+				"Priority": 32,
+				"Not F2P": true
 			},
 			"Extract ~|binding essence|~ from seismic weapons": {
 				"Items": ["Seismic wand*"],
@@ -61714,7 +62007,8 @@
 				"Objects": ["Dragonkin anvil"],
 				"Output": "Binding essence",
 				"Primary": true,
-				"Priority": 33
+				"Priority": 33,
+				"Not F2P": true
 			},
 			"Extract ~|crystalline essence|~ from attuned crystal magic weapons": {
 				"Chunks": ["8500"],
@@ -61726,7 +62020,8 @@
 				"Objects": ["Dragonkin anvil"],
 				"Output": "Crystalline essence",
 				"Primary": true,
-				"Priority": 34
+				"Priority": 34,
+				"Not F2P": true
 			},
 			"Buy the ~|Runecrafting master cape|~": {
 				"Category": ["Master skillcape"],
@@ -61735,7 +62030,8 @@
 				"Output": "Runecrafting master cape",
 				"Primary": false,
 				"NoBoost": true,
-				"Priority": 3
+				"Priority": 3,
+				"Not F2P": true
 			},
 			"Activate the ~|Orthen teleportation device|~ at the Observation Outpost": {
 				"Tasks": {
@@ -61841,7 +62137,8 @@
 					"Thieving": 90,
 					"Woodcutting": 90
 				},
-				"Priority": 10
+				"Priority": 10,
+				"Not F2P": true
 			},
 			"Craft a ~|noxious sapphire (unimbued)|~": {
 				"Items": ["Sapphire*", "Noxious essence*"],
@@ -61861,25 +62158,29 @@
 				"Items": ["Starved ancient effigy (runecrafting/summoning)"],
 				"Level": 91,
 				"Primary": false,
-				"Priority": 3
+				"Priority": 3,
+				"Not F2P": true
 			},
 			"Feed a ~|nourished ancient effigy|~ with runecrafting": {
 				"Items": ["Starved ancient effigy (runecrafting/summoning)"],
 				"Level": 93,
 				"Primary": false,
-				"Priority": 3
+				"Priority": 3,
+				"Not F2P": true
 			},
 			"Feed a ~|sated ancient effigy|~ with runecrafting": {
 				"Items": ["Starved ancient effigy (runecrafting/summoning)"],
 				"Level": 95,
 				"Primary": false,
-				"Priority": 3
+				"Priority": 3,
+				"Not F2P": true
 			},
 			"Feed a ~|gorged ancient effigy|~ with runecrafting": {
 				"Items": ["Starved ancient effigy (runecrafting/summoning)"],
 				"Level": 97,
 				"Primary": false,
-				"Priority": 1
+				"Priority": 1,
+				"Not F2P": true
 			},
 			"Buy the ~|Max cape|~": {
 				"Tasks": {
@@ -61920,7 +62221,8 @@
 					"Thieving": 99,
 					"Woodcutting": 99
 				},
-				"Priority": 1
+				"Priority": 1,
+				"Not F2P": true
 			},
 			"Obtain the ~|Archmage|~ title": {
 				"Category": ["Titles"],
@@ -61938,7 +62240,8 @@
 				"Level": 100,
 				"Primary": false,
 				"NoBoost": true,
-				"Priority": 1
+				"Priority": 1,
+				"Not F2P": true
 			},
 			"Craft a ~|time rune|~": {
 				"Chunks": ["Time Rune Temple"],
@@ -61947,7 +62250,8 @@
 				"Output": "Time rune",
 				"Primary": true,
 				"NoBoost": true,
-				"Priority": 2
+				"Priority": 2,
+				"Not F2P": true
 			},
 			"Craft an ~|eternal magic wand (meagre)|~": {
 				"Chunks": ["RuneTemple[+]"],
@@ -61955,7 +62259,8 @@
 				"Level": 100,
 				"Output": "Eternal magic wand (meagre)",
 				"Primary": true,
-				"Priority": 3
+				"Priority": 3,
+				"Not F2P": true
 			},
 			"Craft an ~|eternal magic orb (meagre)|~": {
 				"Chunks": ["RuneTemple[+]"],
@@ -61963,7 +62268,8 @@
 				"Level": 100,
 				"Output": "Eternal magic orb (meagre)",
 				"Primary": true,
-				"Priority": 4
+				"Priority": 4,
+				"Not F2P": true
 			},
 			"Craft an ~|eternal magic wand (saturated)|~": {
 				"Chunks": ["RuneTemple[+]"],
@@ -61987,7 +62293,8 @@
 				"Level": 104,
 				"Output": "Eternal magic staff (meagre)",
 				"Primary": true,
-				"Priority": 1
+				"Priority": 1,
+				"Not F2P": true
 			},
 			"Craft an ~|eternal magic staff (saturated)|~": {
 				"Chunks": ["RuneTemple[+]"],
@@ -62002,7 +62309,17 @@
 				"Level": 105,
 				"Primary": true,
 				"NoBoost": true,
-				"Priority": 1
+				"Priority": 1,
+				"Not F2P": true
+			},
+			"Obtain ~|Ilme's thread|~ by runecrafting through altar running": {
+				"Chunks": ["RuneTemple[+]"],
+				"Items": ["RuneEssence[+]*"],
+				"Level": 105,
+				"Output": "Ilme's thread",
+				"Primary": false,
+				"Priority": 40,
+				"Not F2P": true
 			},
 			"Create a ~|shielded pouch exterior|~": {
 				"Chunks": ["RuneTemple[+]"],
@@ -62010,7 +62327,8 @@
 				"Level": 105,
 				"Output": "Shielded pouch exterior",
 				"Primary": true,
-				"Priority": 2
+				"Priority": 2,
+				"Not F2P": true
 			},
 			"Create an ~|expansive pouch cord|~": {
 				"Chunks": ["RuneTemple[+]"],
@@ -62018,7 +62336,8 @@
 				"Level": 105,
 				"Output": "Expansive pouch cord",
 				"Primary": true,
-				"Priority": 3
+				"Priority": 3,
+				"Not F2P": true
 			},
 			"Create a ~|sealed expansive pouch|~": {
 				"Chunks": ["RuneTemple[+]"],
@@ -62026,7 +62345,8 @@
 				"Level": 105,
 				"Output": "Sealed expansive pouch",
 				"Primary": true,
-				"Priority": 4
+				"Priority": 4,
+				"Not F2P": true
 			},
 			"Obtain an ~|abyssal runic synapse|~ by runecrafting through the abyss": {
 				"Chunks": ["RuneTemple[+]", "The Abyss"],
@@ -62037,7 +62357,8 @@
 				},
 				"Output": "Abyssal runic synapse",
 				"Primary": false,
-				"Priority": 1
+				"Priority": 1,
+				"Not F2P": true
 			},
 			"Imbue an ~|imbued masterwork runic conduit|~": {
 				"Chunks": ["RuneTemple[+]"],
@@ -62048,7 +62369,8 @@
 				},
 				"Output": "Imbued masterwork runic conduit",
 				"Primary": true,
-				"Priority": 2
+				"Priority": 2,
+				"Not F2P": true
 			},
 			"Craft a ~|masterwork focus housing|~": {
 				"Chunks": ["RuneTemple[+]"],
@@ -62059,7 +62381,8 @@
 				},
 				"Output": "Masterwork focus housing",
 				"Primary": true,
-				"Priority": 3
+				"Priority": 3,
+				"Not F2P": true
 			},
 			"Imbue a ~|runic imbued diamond|~": {
 				"Chunks": ["RuneTemple[+]"],
@@ -62070,7 +62393,8 @@
 				},
 				"Output": "Runic imbued diamond",
 				"Primary": true,
-				"Priority": 4
+				"Priority": 4,
+				"Not F2P": true
 			},
 			"Imbue an ~|elemental diamond|~": {
 				"Chunks": ["Air Rune Temple", "Water Rune Temple", "Earth Rune Temple", "Fire Rune Temple"],
@@ -62081,7 +62405,8 @@
 				},
 				"Output": "Elemental diamond",
 				"Primary": true,
-				"Priority": 5
+				"Priority": 5,
+				"Not F2P": true
 			},
 			"Imbue a ~|catalysed elemental diamond|~": {
 				"Chunks": ["Mind Rune Temple", "Body Rune Temple", "Cosmic Rune Temple", "Chaos Rune Temple", "Nature Rune Temple", "Law Rune Temple", "Death Rune Temple", "Blood Rune Temple", "Soul Rune Temple", "8508", "Time Rune Temple"],
@@ -62092,7 +62417,8 @@
 				},
 				"Output": "Catalysed elemental diamond",
 				"Primary": true,
-				"Priority": 6
+				"Priority": 6,
+				"Not F2P": true
 			},
 			"Create a ~|housed masterwork focus|~": {
 				"Chunks": ["RuneTemple[+]"],
@@ -62103,7 +62429,8 @@
 				},
 				"Output": "Housed masterwork focus",
 				"Primary": true,
-				"Priority": 7
+				"Priority": 7,
+				"Not F2P": true
 			},
 			"Create a ~|masterwork staff focus|~": {
 				"Chunks": ["RuneTemple[+]"],
@@ -62114,7 +62441,8 @@
 				},
 				"Output": "Masterwork staff focus",
 				"Primary": true,
-				"Priority": 8
+				"Priority": 8,
+				"Not F2P": true
 			},
 			"Create an ~|unwrapped masterwork staff grip|~": {
 				"Chunks": ["RuneTemple[+]"],
@@ -62125,7 +62453,8 @@
 				},
 				"Output": "Unwrapped masterwork staff grip",
 				"Primary": true,
-				"Priority": 9
+				"Priority": 9,
+				"Not F2P": true
 			},
 			"Craft a ~|volatile runic brick|~": {
 				"Chunks": ["RuneTemple[+]"],
@@ -62136,7 +62465,8 @@
 				},
 				"Output": "Volatile runic brick",
 				"Primary": true,
-				"Priority": 10
+				"Priority": 10,
+				"Not F2P": true
 			},
 			"Craft a ~|masterwork staff handle|~": {
 				"Chunks": ["RuneTemple[+]"],
@@ -62147,7 +62477,8 @@
 				},
 				"Output": "Masterwork staff handle",
 				"Primary": true,
-				"Priority": 11
+				"Priority": 11,
+				"Not F2P": true
 			},
 			"Craft a ~|masterwork staff|~": {
 				"Chunks": ["RuneTemple[+]"],
@@ -62158,7 +62489,8 @@
 				},
 				"Output": "Masterwork staff",
 				"Primary": true,
-				"Priority": 12
+				"Priority": 12,
+				"Not F2P": true
 			},
 			"Create the ~|blurite keystone|~": {
 				"Tasks": {
@@ -62201,7 +62533,8 @@
 					"Thieving": 120,
 					"Woodcutting": 120
 				},
-				"Priority": 2
+				"Priority": 2,
+				"Not F2P": true
 			},
 			"Buy the ~|Master max cape|~": {
 				"Tasks": {
@@ -62241,7 +62574,8 @@
 					"Thieving": 120,
 					"Woodcutting": 120
 				},
-				"Priority": 1
+				"Priority": 1,
+				"Not F2P": true
 			}
 		},
 		"Slayer": {
@@ -62270,7 +62604,8 @@
 				},
 				"Priority": 1,
 				"NoPet": true,
-				"NoBoost": true
+				"NoBoost": true,
+				"Not F2P": true
 			},
 			"Obtain a ~|minitrice|~": {
 				"Items": ["Cockatrice head"],
@@ -62703,7 +63038,8 @@
 				"Chunks": ["12603"],
 				"Level": 1,
 				"Primary": true,
-				"Priority": 14
+				"Priority": 14,
+				"Not F2P": true
 			},
 			"Read a slayer tome from ~|Temple Trekking|~": {
 				"Category": ["DnD"],
@@ -65521,7 +65857,8 @@
 				"Objects": ["Elemental furnace"],
 				"Output": "Elemental bar",
 				"Primary": true,
-				"Priority": 9
+				"Priority": 9,
+				"Not F2P": true
 			},
 			"Forge a ~|crane claw|~": {
 				"Items": ["Elemental bar*", "Crane schematic"],
@@ -66264,7 +66601,8 @@
 					"Invention": 1
 				},
 				"Primary": false,
-				"Priority": 21
+				"Priority": 21,
+				"Not F2P": true
 			},
 			"Forge the ~|godsword blade|~": {
 				"Items": ["Godsword shard 1*", "Godsword shard 2*", "Godsword shard 3*"],
@@ -66427,7 +66765,8 @@
 					"Thieving": 90,
 					"Woodcutting": 90
 				},
-				"Priority": 10
+				"Priority": 10,
+				"Not F2P": true
 			},
 			"Forge the ~|Pickaxe of Earth and Song|~": {
 				"Items": ["Dragon pickaxe*", "Harmonic dust*", "Redberry pie*"],
@@ -66762,7 +67101,7 @@
 				"Primary": true,
 				"Priority": 32
 			},
-			"Extract ~|binding essence|~ from Cywir weapons": {
+			"Extract ~|binding essence|~ from seismic weapons": {
 				"Items": ["Seismic wand*"],
 				"Level": 99,
 				"Skills": {
@@ -66932,6 +67271,18 @@
 				"Output": "Skull lantern (tier 90)",
 				"Priority": 8
 			},
+			"Cast a ~|meteorite cannonball|~": {
+				"Level": 85,
+				"Items": ["Meteorite dust*", "Cannonball*"],
+				"Objects": ["Furnace[+]"],
+				"Tasks": {
+					"~|Dwarf Cannon|~ Complete the quest": "Quest"
+				},
+				"Output": "Meteorite cannonball",
+				"Priority": 38,
+				"Primary": true,
+				"Not F2P": true
+			},
 			"Repair the ~|Beacon Network|~ beacon near the Wilderness temple (smithing)": {
 				"Chunks": ["11835"],
 				"Items": ["Iron bar"],
@@ -66954,7 +67305,8 @@
 				"Output": "Smithing cape",
 				"Primary": false,
 				"NoBoost": true,
-				"Priority": 22
+				"Priority": 22,
+				"Not F2P": true
 			},
 			"Buy the ~|Smithing master cape|~": {
 				"Category": ["Master skillcape"],
@@ -66963,7 +67315,8 @@
 				"Output": "Smithing master cape",
 				"Primary": false,
 				"NoBoost": true,
-				"Priority": 3
+				"Priority": 3,
+				"Not F2P": true
 			},
 			"Restore a ~|Wingsuit v1|~": {
 				"Tasks": {
@@ -66986,7 +67339,8 @@
 				"Skills": {
 					"Dungeoneering": 70
 				},
-				"Priority": 5
+				"Priority": 5,
+				"Not F2P": true
 			},
 			"Forge the ~|royal crossbow|~ in dragonfire": {
 				"Items": ["Royal crossbow (unforged)"],
@@ -67003,7 +67357,8 @@
 					"Dungeoneering": 55
 				},
 				"Primary": false,
-				"Priority": 1
+				"Priority": 1,
+				"Not F2P": true
 			},
 			"Smith a ~|death gaurd (tier 60)|~": {
 				"Objects": ["Soul forge"],
@@ -67090,7 +67445,8 @@
 					"Thieving": 99,
 					"Woodcutting": 99
 				},
-				"Priority": 1
+				"Priority": 1,
+				"Not F2P": true
 			},
 			"Forge the ~|Pickaxe of Life and Death|~": {
 				"Items": [
@@ -67249,7 +67605,8 @@
 					"Thieving": 120,
 					"Woodcutting": 120
 				},
-				"Priority": 2
+				"Priority": 2,
+				"Not F2P": true
 			},
 			"Buy the ~|Master max cape|~": {
 				"Tasks": {
@@ -67289,7 +67646,8 @@
 					"Thieving": 120,
 					"Woodcutting": 120
 				},
-				"Priority": 1
+				"Priority": 1,
+				"Not F2P": true
 			}
 		},
 		"Strength": {
@@ -67388,7 +67746,8 @@
 				},
 				"Not Equip": true,
 				"Priority": 1,
-				"NoPet": true
+				"NoPet": true,
+				"Not F2P": true
 			},
 			"Cross the ~|rocks (Catherby)|~": {
 				"Category": ["Shortcut"],
@@ -67399,6 +67758,9 @@
 				"Skills": {
 					"Agility": 32,
 					"Ranged": 35
+				},
+				"Tasks": {
+					"~|Fishing Contest|~ Complete the quest": "Quest"
 				},
 				"Not Equip": true,
 				"Priority": 1,
@@ -67443,7 +67805,8 @@
 				},
 				"Not Equip": true,
 				"Priority": 1,
-				"NoBoost": true
+				"NoBoost": true,
+				"Not F2P": true
 			},
 			"Cross the ~|boulder (God Wars Dungeon)|~": {
 				"Category": ["Shortcut"],
@@ -67659,7 +68022,8 @@
 				},
 				"Priority": 1,
 				"NoPet": true,
-				"NoBoost": true
+				"NoBoost": true,
+				"Not F2P": true
 			},
 			"Equip a ~|Slayer helmet|~": {
 				"Items": ["Slayer helmet"],
@@ -67670,7 +68034,8 @@
 				},
 				"Priority": 2,
 				"NoPet": true,
-				"NoBoost": true
+				"NoBoost": true,
+				"Not F2P": true
 			},
 			"Equip a ~|full slayer helmet|~": {
 				"Items": ["Full slayer helmet"],
@@ -67683,7 +68048,8 @@
 				},
 				"Priority": 3,
 				"NoPet": true,
-				"NoBoost": true
+				"NoBoost": true,
+				"Not F2P": true
 			},
 			"Equip a ~|reinforced slayer helmet|~": {
 				"Items": ["Reinforced slayer helmet"],
@@ -67696,7 +68062,8 @@
 				},
 				"Priority": 4,
 				"NoPet": true,
-				"NoBoost": true
+				"NoBoost": true,
+				"Not F2P": true
 			},
 			"Equip a ~|strong slayer helmet|~": {
 				"Items": ["Strong slayer helmet"],
@@ -67709,7 +68076,8 @@
 				},
 				"Priority": 5,
 				"NoPet": true,
-				"NoBoost": true
+				"NoBoost": true,
+				"Not F2P": true
 			},
 			"Equip a ~|mighty slayer helmet|~": {
 				"Items": ["Mighty slayer helmet"],
@@ -67722,7 +68090,8 @@
 				},
 				"Priority": 6,
 				"NoPet": true,
-				"NoBoost": true
+				"NoBoost": true,
+				"Not F2P": true
 			},
 			"Equip a ~|corrupted slayer helmet|~": {
 				"Items": ["Corrupter slayer helmet"],
@@ -67735,7 +68104,8 @@
 				},
 				"Priority": 7,
 				"NoPet": true,
-				"NoBoost": true
+				"NoBoost": true,
+				"Not F2P": true
 			},
 			"Equip ~|void knight equipment|~": {
 				"Items": ["Voidequipment[+]"],
@@ -67751,7 +68121,8 @@
 				},
 				"Priority": 1,
 				"NoPet": true,
-				"NoBoost": true
+				"NoBoost": true,
+				"Not F2P": true
 			},
 			"Equip ~|granite equipment|~": {
 				"Items": ["GraniteArmour[+]"],
@@ -67762,7 +68133,8 @@
 				},
 				"Priority": 3,
 				"NoPet": true,
-				"NoBoost": true
+				"NoBoost": true,
+				"Not F2P": true
 			},
 			"Catch a ~|raw tuna|~ barehanded": {
 				"Chunks": ["10038"],
@@ -67876,7 +68248,8 @@
 				"Primary": true,
 				"Priority": 2,
 				"NoPet": true,
-				"NoBoost": true
+				"NoBoost": true,
+				"Not F2P": true
 			},
 			"Wield a ~|Primal maul (Dungeoneering)|~": {
 				"Category": ["Daemonheim tasks"],
@@ -67887,7 +68260,8 @@
 				"Primary": false,
 				"Priority": 4,
 				"NoPet": true,
-				"NoBoost": true
+				"NoBoost": true,
+				"Not F2P": true
 			},
 			"Buy the ~|Strength master cape|~": {
 				"Category": ["Master skillcape"],
@@ -67897,7 +68271,8 @@
 				"Primary": false,
 				"Priority": 3,
 				"NoPet": true,
-				"NoBoost": true
+				"NoBoost": true,
+				"Not F2P": true
 			},
 			"Grow a ~|sunchoke|~": {
 				"Items": ["Sunchoke seed"],
@@ -68002,7 +68377,8 @@
 				},
 				"Priority": 2,
 				"NoPet": true,
-				"NoBoost": true
+				"NoBoost": true,
+				"Not F2P": true
 			},
 			"Buy the ~|Master max cape|~": {
 				"Tasks": {
@@ -68043,7 +68419,8 @@
 				},
 				"Priority": 1,
 				"NoPet": true,
-				"NoBoost": true
+				"NoBoost": true,
+				"Not F2P": true
 			}
 		},
 		"Summoning": {
@@ -72080,7 +72457,8 @@
 				"Objects": ["Evil tree"],
 				"Output": "Elder tree+",
 				"Primary": true,
-				"Priority": 3
+				"Priority": 3,
+				"Not F2P": true
 			},
 			"Make a ~|Milestone cape (90)|~": {
 				"Category": ["Skillcape"],
@@ -72356,6 +72734,9 @@
 				"Level": 10,
 				"Objects": ["Light jungle"],
 				"Output": "Thatch spar (light)",
+				"Tasks": {
+					"~|Jungle Potion|~ Complete the quest": "Quest"
+				},
 				"Primary": true,
 				"Priority": 4
 			},
@@ -72363,6 +72744,9 @@
 				"Level": 20,
 				"Objects": ["Medium jungle"],
 				"Output": "Thatch spar (medium)",
+				"Tasks": {
+					"~|Jungle Potion|~ Complete the quest": "Quest"
+				},
 				"Primary": true,
 				"Priority": 1
 			},
@@ -72370,6 +72754,9 @@
 				"Level": 35,
 				"Objects": ["Dense jungle"],
 				"Output": "Thatch spar (dense)",
+				"Tasks": {
+					"~|Jungle Potion|~ Complete the quest": "Quest"
+				},
 				"Primary": true,
 				"Priority": 2
 			},			
@@ -72602,7 +72989,8 @@
 				"Level": 75,
 				"Output": "Magic logs",
 				"Primary": false,
-				"Priority": 2
+				"Priority": 2,
+				"Not F2P": true
 			},
 			"Chop an ~|evil tree (magic)|~": {
 				"Category": ["DnD"],
@@ -72610,14 +72998,16 @@
 				"Objects": ["Evil tree"],
 				"Output": "Magic logs (noted)",
 				"Primary": true,
-				"Priority": 3
+				"Priority": 3,
+				"Not F2P": true
 			},
 			"Finish the Phase 2 Evil Bloodwood Tree ~|Wilderness Flash Event|~": {
 				"Category": ["DnD", "DnD Flash Events"],
 				"Chunks": ["12344"],
 				"Level": 1,
 				"Primary": true,
-				"Priority": 15
+				"Priority": 15,
+				"Not F2P": true
 			},
 			"Read a woodcutting tome from ~|Temple Trekking|~": {
 				"Category": ["DnD"],
@@ -72640,25 +73030,29 @@
 				"Items": ["Starved ancient effigy (fetching/woodcutting)"],
 				"Level": 91,
 				"Primary": false,
-				"Priority": 1
+				"Priority": 1,
+				"Not F2P": true
 			},
 			"Feed a ~|nourished ancient effigy|~ with woodcutting": {
 				"Items": ["Starved ancient effigy (fetching/woodcutting)"],
 				"Level": 93,
 				"Primary": false,
-				"Priority": 1
+				"Priority": 1,
+				"Not F2P": true
 			},
 			"Feed a ~|sated ancient effigy|~ with woodcutting": {
 				"Items": ["Starved ancient effigy (fetching/woodcutting)"],
 				"Level": 95,
 				"Primary": false,
-				"Priority": 1
+				"Priority": 1,
+				"Not F2P": true
 			},
 			"Feed a ~|gorged ancient effigy|~ with woodcutting": {
 				"Items": ["Starved ancient effigy (fetching/woodcutting)"],
 				"Level": 97,
 				"Primary": false,
-				"Priority": 2
+				"Priority": 2,
+				"Not F2P": true
 			},
 			"Buy the ~|Woodcutting cape|~": {
 				"Category": ["Skillcape"],
@@ -72667,7 +73061,8 @@
 				"Output": "Woodcutting cape",
 				"Primary": true,
 				"NoBoost": true,
-				"Priority": 2
+				"Priority": 2,
+				"Not F2P": true
 			},
 			"Chop with a ~|primal hatchet (Dungeoneering)|~": {
 				"Category": ["Daemonheim tasks"],
@@ -72676,7 +73071,8 @@
 				},
 				"Level": 99,
 				"Primary": false,
-				"Priority": 4
+				"Priority": 4,
+				"Not F2P": true
 			},
 			"Buy the ~|Woodcutting master cape|~": {
 				"Category": ["Master skillcape"],
@@ -72685,7 +73081,8 @@
 				"Output": "Woodcutting master cape",
 				"Primary": false,
 				"NoBoost": true,
-				"Priority": 3
+				"Priority": 3,
+				"Not F2P": true
 			},
 			"Buy the ~|Max cape|~": {
 				"Tasks": {
@@ -72726,7 +73123,8 @@
 					"Summoning": 99,
 					"Thieving": 99
 				},
-				"Priority": 1
+				"Priority": 1,
+				"Not F2P": true
 			},
 			"Create the ~|blurite keystone|~": {
 				"Tasks": {
@@ -72769,7 +73167,8 @@
 					"Summoning": 120,
 					"Thieving": 120
 				},
-				"Priority": 2
+				"Priority": 2,
+				"Not F2P": true
 			},
 			"Buy the ~|Master max cape|~": {
 				"Tasks": {
@@ -72809,7 +73208,8 @@
 					"Summoning": 120,
 					"Thieving": 120
 				},
-				"Priority": 1
+				"Priority": 1,
+				"Not F2P": true
 			}
 		},
 		"Quest": {
@@ -79413,9 +79813,7 @@
 				"Description": "Speak to Seren at Burthorpe Castle",
 				"Chunks": ["11575"],
 				"Tasks": {
-					"~|Desperate Times|~ Complete the quest": "Quest"
-				},
-				"Tasks": {
+					"~|Desperate Times|~ Complete the quest": "Quest",
 					"Unlock the Anachronia Base Camp": "Nonskill"
 				},
 				"Skills": {
@@ -99725,6 +100123,90 @@
 				"Reward": ["Chimes", "Taijitu"],
 				"Not F2P": true
 			},
+			"~|Stellar Born|~ 1": {
+				"BaseQuest": "Stellar Born",
+				"Description": "Investigate and mine the crashed star in Piscatoris, then speak to Zoob",
+				"Chunks": ["9017"],
+				"Tasks": {
+					"~|Observatory Quest|~ Complete the quest": "Quest",
+					"Archaeology Mystery: ~|Wing Out|~ Complete the mystery": "Quest"
+				},
+				"Skills": {
+					"Mining": 70,
+					"Divination": 70
+				},
+				"Not F2P": true,
+				"NoBoost": true
+			},
+			"~|Stellar Born|~ 2": {
+				"BaseQuest": "Stellar Born",
+				"Description": "Speak to Wizard Rosalina at the Wizards' Tower",
+				"Chunks": ["12337"],
+				"Tasks": {
+					"~|Stellar Born|~ 1": "Quest"
+				},
+				"Not F2P": true
+			},
+			"~|Stellar Born|~ 3": {
+				"BaseQuest": "Stellar Born",
+				"Description": "Speak to Wizard Rosalina and Zoob back in Piscatoris and perform the ritual",
+				"Chunks": ["9017"],
+				"Items": ["Comsic rune", "Astral rune", "Premade Wizard Blizzard"],
+				"Tasks": {
+					"~|Stellar Born|~ 2": "Quest"
+				},
+				"Not F2P": true
+			},
+			"~|Stellar Born|~ 4": {
+				"BaseQuest": "Stellar Born",
+				"Description": "Speak to Wizard Chambers at the Goebie encampment",
+				"Chunks": ["12332"],
+				"Tasks": {
+					"~|Stellar Born|~ 3": "Quest"
+				},
+				"Not F2P": true
+			},
+			"~|Stellar Born|~ 5": {
+				"BaseQuest": "Stellar Born",
+				"Description": "Speak to the Wizards and Zoob in Piscatoris and perform the ritual again",
+				"Chunks": ["9017"],
+				"Tasks": {
+					"~|Stellar Born|~ 4": "Quest"
+				},
+				"Not F2P": true
+			},
+			"~|Stellar Born|~ 6": {
+				"BaseQuest": "Stellar Born",
+				"Description": "Enter Zolarea and help out the star sprites",
+				"Chunks": ["Zolarea"],
+				"Tasks": {
+					"~|Stellar Born|~ 5": "Quest"
+				},
+				"Not F2P": true
+			},
+			"~|Stellar Born|~ 7": {
+				"BaseQuest": "Stellar Born",
+				"Description": "Finish up the quest by speaking to Wizard Chambers",
+				"Chunks": ["9017"],
+				"Tasks": {
+					"~|Stellar Born|~ 6": "Quest"
+				},
+				"Not F2P": true
+			},
+			"~|Stellar Born|~ Complete the quest": {
+				"BaseQuest": "Stellar Born",
+				"Chunks": ["9017"],
+				"Tasks": {
+					"~|Stellar Born|~ 7": "Quest"
+				},
+				"QuestPoints": 2,
+				"XpReward": {
+					"Divination": 30000,
+					"Mining": 30000
+				},
+				"Reward": ["Magical meteorite chunk"],
+				"Not F2P": true
+			},
 			"~|Stolen Hearts|~ 1": {
 				"BaseQuest": "Stolen Hearts",
 				"Description": "Speak to Ozan in Draynor Village",
@@ -119380,7 +119862,7 @@
 				"Chunks": ["Underground Pass", "13879", "13358", "13105", "Baba Yaga's House"],
 				"Tasks": {
 					"~|Swept Away|~ Complete the quest": "Quest",
-					"~|Swept Away|~ Complete the quest": "Quest"
+					"~|Diamond in the Rough|~ Complete the quest": "Quest"
 				},
 				"Skills": {
 					"Magic": 93
@@ -119790,8 +120272,7 @@
 					"Firemaking": 50,
 					"Magic": 50,
 					"Fletching": 50,
-					"Woodcutting": 50,
-					"Magic": 50
+					"Woodcutting": 50
 				},
 				"Tasks": {
 					"~|Gower Quest|~ Complete the quest": "Quest"
@@ -121113,8 +121594,8 @@
 				"Items": ["Oak plank*", "Steel bar*", "Teak plank*", "Mithril bar*", "Nails[+]*"],
 				"Skills": {
 					"Construction": 84,
-					"Construction": 84,
-					"Construction": 84
+					"Crafting": 84,
+					"Summoning": 84
 				},
 				"Tasks": {
 					"~|Bringing Home the Bacon|~ Complete the quest": "Quest"
@@ -121841,7 +122322,7 @@
 				"Category": ["MQC achievements"],
 				"Description": "Complete all quests to obtain the quest cape.",
 				"BaseQuest": "Completionist achievements",
-				"QuestPointsNeeded": 462,
+				"QuestPointsNeeded": 464,
 				"Tasks": {
 					"~|Aftermath|~ Complete the quest": "Quest",
 					"~|Battle of the Monolith|~ Complete the quest": "Quest",
@@ -123968,7 +124449,7 @@
 				"Category": ["Comp achievements"],
 				"Description": "Unlock all music tracks.",
 				"BaseQuest": "Completionist achievements",
-				"QuestPointsNeeded": 462,
+				"QuestPointsNeeded": 464,
 				"Tasks": {
 					"~|Completionist achievements#Completionist Cape|~ Mysteries - Stormguard Citadel": "Diary",
 					"~|Completionist achievements#Completionist Cape|~ Mysteries - Warforge": "Diary",
@@ -124112,7 +124593,7 @@
 				"Category": ["Comp achievements"],
 				"Description": "Complete all quests to obtain the quest cape.",
 				"BaseQuest": "Completionist achievements",
-				"QuestPointsNeeded": 462,
+				"QuestPointsNeeded": 464,
 				"Tasks": {
 					"~|Aftermath|~ Complete the quest": "Quest",
 					"~|Battle of the Monolith|~ Complete the quest": "Quest",
@@ -126929,112 +127410,113 @@
 			"Find a ~|Menaphite honey bee in amber|~": {
 				"Category": ["Menaphos Log"],
 				"Label": "Menaphos Journal",
-				"Items": ["Menaphite honey bee in amber"]
+				"Items": ["Menaphite honey bee in amber", "Menaphos journal"]
 			},
 			"Find a ~|pygmy giant scarab in amber|~": {
 				"Category": ["Menaphos Log"],
 				"Label": "Menaphos Journal",
-				"Items": ["Pygmy giant scarab in amber"]
+				"Items": ["Pygmy giant scarab in amber", "Menaphos journal"]
 			},
 			"Find a ~|desert locust in amber|~": {
 				"Category": ["Menaphos Log"],
 				"Label": "Menaphos Journal",
-				"Items": ["Desert locust in amber"]
+				"Items": ["Desert locust in amber", "Menaphos journal"]
 			},
 			"Find a ~|kalphite wanderer in amber|~": {
 				"Category": ["Menaphos Log"],
 				"Label": "Menaphos Journal",
-				"Items": ["Kalphite wanderer in amber"]
+				"Items": ["Kalphite wanderer in amber", "Menaphos journal"]
 			},
 			"Find a ~|hornless unicornfly in amber|~": {
 				"Category": ["Menaphos Log"],
 				"Label": "Menaphos Journal",
-				"Items": ["Hornless unicornfly in amber"]
+				"Items": ["Hornless unicornfly in amber", "Menaphos journal"]
 			},
 			"Find a ~|fly dragon in amber|~": {
 				"Category": ["Menaphos Log"],
 				"Label": "Menaphos Journal",
-				"Items": ["Fly dragon in amber"]
+				"Items": ["Fly dragon in amber", "Menaphos journal"]
 			},
 			"Find a ~|fruit fly in amber|~": {
 				"Category": ["Menaphos Log"],
 				"Label": "Menaphos Journal",
-				"Items": ["Fruit fly in amber"]
+				"Items": ["Fruit fly in amber", "Menaphos journal"]
 			},
 			"Find a ~|Menaphite honey bee|~": {
 				"Category": ["Menaphos Log"],
 				"Label": "Menaphos Journal",
-				"Items": ["Menaphite honey bee"]
+				"Items": ["Menaphite honey bee", "Menaphos journal"]
 			},
 			"Find a ~|pygmy giant scarab|~": {
 				"Category": ["Menaphos Log"],
 				"Label": "Menaphos Journal",
-				"Items": ["Pygmy giant scarab"]
+				"Items": ["Pygmy giant scarab", "Menaphos journal"]
 			},
 			"Find a ~|desert locust|~": {
 				"Category": ["Menaphos Log"],
 				"Label": "Menaphos Journal",
-				"Items": ["Desert locust"]
+				"Items": ["Desert locust", "Menaphos journal"]
 			},
 			"Find a ~|kalphite wanderer|~": {
 				"Category": ["Menaphos Log"],
 				"Label": "Menaphos Journal",
-				"Items": ["Kalphite wanderer"]
+				"Items": ["Kalphite wanderer", "Menaphos journal"]
 			},
 			"Find a ~|hornless unicornfly|~": {
 				"Category": ["Menaphos Log"],
 				"Label": "Menaphos Journal",
-				"Items": ["Hornless unicornfly"]
+				"Items": ["Hornless unicornfly", "Menaphos journal"]
 			},
 			"Find a ~|fly dragon|~": {
 				"Category": ["Menaphos Log"],
 				"Label": "Menaphos Journal",
-				"Items": ["Fly dragon"]
+				"Items": ["Fly dragon", "Menaphos journal"]
 			},
 			"Find a ~|fruit fly|~": {
 				"Category": ["Menaphos Log"],
 				"Label": "Menaphos Journal",
-				"Items": ["Fruit fly"]
+				"Items": ["Fruit fly", "Menaphos journal"]
 			},
 			"Find ~|phenakite|~": {
 				"Category": ["Menaphos Log"],
 				"Label": "Menaphos Journal",
-				"Items": ["Phenakite"]
+				"Items": ["Phenakite", "Menaphos journal"]
 			},
 			"Find ~|menaphyrite|~": {
 				"Category": ["Menaphos Log"],
 				"Label": "Menaphos Journal",
-				"Items": ["Menaphyrite"]
+				"Items": ["Menaphyrite", "Menaphos journal"]
 			},
 			"Find ~|waikonite|~": {
 				"Category": ["Menaphos Log"],
 				"Label": "Menaphos Journal",
-				"Items": ["Waikonite"]
+				"Items": ["Waikonite", "Menaphos journal"]
 			},
 			"Find ~|corundum|~": {
 				"Category": ["Menaphos Log"],
 				"Label": "Menaphos Journal",
-				"Items": ["Corundum"]
+				"Items": ["Corundum", "Menaphos journal"]
 			},
 			"Find ~|wavecrest opal|~": {
 				"Category": ["Menaphos Log"],
 				"Label": "Menaphos Journal",
-				"Items": ["Wavecrest opal"]
+				"Items": ["Wavecrest opal", "Menaphos journal"]
 			},
 			"Find ~|maw coral|~": {
 				"Category": ["Menaphos Log"],
 				"Label": "Menaphos Journal",
-				"Items": ["Maw coral"]
+				"Items": ["Maw coral", "Menaphos journal"]
 			},
 			"Find ~|crondite|~": {
 				"Category": ["Menaphos Log"],
 				"Label": "Menaphos Journal",
-				"Items": ["Crondite"]
+				"Items": ["Crondite", "Menaphos journal"]
 			},
 			"Find ~|alaeite|~": {
 				"Category": ["Menaphos Log"],
 				"Label": "Menaphos Journal",
-				"Chunks": ["12584"]
+				"Chunks": ["12584"],
+				"Items": ["Menaphos journal"]
 			},
 			"Find a ~|hetite stone|~": {
 				"Category": ["Menaphos Log"],
@@ -127042,12 +127524,13 @@
 				"Chunks": ["Sophanem Slayer Dungeon"],
 				"Tasks": {
 					"Corrupted creature task": "Nonskill"
-				}
+				},
+				"Items": ["Menaphos journal"]
 			},
 			"Find an ~|Aminishi miststone|~": {
 				"Category": ["Menaphos Log"],
 				"Label": "Menaphos Journal",
-				"Items": ["Spices"],
+				"Items": ["Spices", "Menaphos journal"],
 				"NPCs": ["Aminishi gem trader"]
 			},
 			"Find ~|hauyne|~": {
@@ -127055,17 +127538,19 @@
 				"Label": "Menaphos Journal",
 				"Tasks": {
 					"~|The Jack of Spades|~ Complete the quest": "Quest"
-				}
+				},
+				"Items": ["Menaphos journal"]
 			},
 			"Find a ~|scabarite crystal|~": {
 				"Category": ["Menaphos Log"],
 				"Label": "Menaphos Journal",
-				"Chunks": ["12587"]
+				"Chunks": ["12587"],
+				"Items": ["Menaphos journal"]
 			},
 			"Find ~|Tuai Leit sparkle|~": {
 				"Category": ["Menaphos Log"],
 				"Label": "Menaphos Journal",
-				"Items": ["Bamboo"],
+				"Items": ["Bamboo", "Menaphos journal"],
 				"NPCs": ["Tual Leit gem trader"]
 			},
 			"Find ~|idocrase|~": {
@@ -127073,102 +127558,115 @@
 				"Label": "Menaphos Journal",
 				"Tasks": {
 					"~|The Jack of Spades|~ Complete the quest": "Quest"
-				}
+				},
+				"Items": ["Menaphos journal"]
 			},
 			"Find ~|Apmeken amethyst|~": {
 				"Category": ["Menaphos Log"],
 				"Label": "Menaphos Journal",
-				"Chunks": ["12587"]
+				"Chunks": ["12587"],
+				"Items": ["Menaphos journal"]
 			},
 			"Find ~|umesco arpos|~": {
 				"Category": ["Menaphos Log"],
 				"Label": "Menaphos Journal",
-				"Items": ["Umesco arpos"]
+				"Items": ["Umesco arpos", "Menaphos journal"]
 			},
 			"Pet ~|Anukat|~": {
 				"Category": ["Menaphos Log"],
 				"Label": "Menaphos Journal",
-				"Chunks": ["12586"]
+				"Chunks": ["12586"],
+				"Items": ["Menaphos journal"]
 			},
 			"Pet ~|Bestopet|~": {
 				"Category": ["Menaphos Log"],
 				"Label": "Menaphos Journal",
-				"Chunks": ["Shifting Tombs"]
+				"Chunks": ["Shifting Tombs"],
+				"Items": ["Menaphos journal"]
 			},
 			"Pet ~|Oedipuss|~": {
 				"Category": ["Menaphos Log"],
 				"Label": "Menaphos Journal",
-				"Chunks": ["12585"]
+				"Chunks": ["12585"],
+				"Items": ["Menaphos journal"]
 			},
 			"Pet ~|Hetepheres|~": {
 				"Category": ["Menaphos Log"],
 				"Label": "Menaphos Journal",
-				"Chunks": ["AnyMenaphosCatLocation[+]"]
+				"Chunks": ["AnyMenaphosCatLocation[+]"],
+				"Items": ["Menaphos journal"]
 			},
 			"Pet ~|Lucifurr|~": {
 				"Category": ["Menaphos Log"],
 				"Label": "Menaphos Journal",
-				"Chunks": ["AnyMenaphosCatLocation[+]"]
+				"Chunks": ["AnyMenaphosCatLocation[+]"],
+				"Items": ["Menaphos journal"]
 			},
 			"Pet ~|Jennifurr|~": {
 				"Category": ["Menaphos Log"],
 				"Label": "Menaphos Journal",
-				"Chunks": ["Pyramid Plunder"]
+				"Chunks": ["Pyramid Plunder"],
+				"Items": ["Menaphos journal"]
 			},
 			"Pet ~|Katarina|~": {
 				"Category": ["Menaphos Log"],
 				"Label": "Menaphos Journal",
-				"Chunks": ["Sophanem Slayer Dungeon"]
+				"Chunks": ["Sophanem Slayer Dungeon"],
+				"Items": ["Menaphos journal"]
 			},
 			"Pet ~|Shebit|~": {
 				"Category": ["Menaphos Log"],
 				"Label": "Menaphos Journal",
-				"Chunks": ["12587"]
-			},
-			"Pet ~|Oedipuss|~": {
-				"Category": ["Menaphos Log"],
-				"Label": "Menaphos Journal",
-				"Chunks": ["12585"]
+				"Chunks": ["12587"],
+				"Items": ["Menaphos journal"]
 			},
 			"Pet ~|Takhuit|~": {
 				"Category": ["Menaphos Log"],
 				"Label": "Menaphos Journal",
-				"Chunks": ["AnyMenaphosCatLocation[+]"]
+				"Chunks": ["AnyMenaphosCatLocation[+]"],
+				"Items": ["Menaphos journal"]
 			},
 			"Pet ~|Catsanova|~": {
 				"Category": ["Menaphos Log"],
 				"Label": "Menaphos Journal",
-				"Chunks": ["12843"]
+				"Chunks": ["12843"],
+				"Items": ["Menaphos journal"]
 			},
 			"Pet ~|The Postcat|~": {
 				"Category": ["Menaphos Log"],
 				"Label": "Menaphos Journal",
-				"Chunks": ["12588"]
+				"Chunks": ["12588"],
+				"Items": ["Menaphos journal"]
 			},
 			"Pet ~|Fenekh|~": {
 				"Category": ["Menaphos Log"],
 				"Label": "Menaphos Journal",
-				"Chunks": ["AnyMenaphosCatLocation[+]"]
+				"Chunks": ["AnyMenaphosCatLocation[+]"],
+				"Items": ["Menaphos journal"]
 			},
 			"Pet ~|Tefimhet|~": {
 				"Category": ["Menaphos Log"],
 				"Label": "Menaphos Journal",
-				"Chunks": ["Soul Altar"]
+				"Chunks": ["Soul Altar"],
+				"Items": ["Menaphos journal"]
 			},
 			"Pet ~|Nodjmet|~": {
 				"Category": ["Menaphos Log"],
 				"Label": "Menaphos Journal",
-				"Chunks": ["AnyMenaphosCatLocation[+]"]
+				"Chunks": ["AnyMenaphosCatLocation[+]"],
+				"Items": ["Menaphos journal"]
 			},
 			"Pet ~|Blanchy|~": {
 				"Category": ["Menaphos Log"],
 				"Label": "Menaphos Journal",
-				"Chunks": ["AnyMenaphosCatLocation[+]"]
+				"Chunks": ["AnyMenaphosCatLocation[+]"],
+				"Items": ["Menaphos journal"]
 			},
 			"Pet ~|Qat|~": {
 				"Category": ["Menaphos Log"],
 				"Label": "Menaphos Journal",
-				"Chunks": ["12330"]
+				"Chunks": ["12330"],
+				"Items": ["Menaphos journal"]
 			},
 			"(Agility) Unlock the ~|Dive|~ ability": {
 				"Category": ["Unlock Abilities"],
@@ -131875,7 +132373,7 @@
 				"Chunks": ["10548"],
 				"Items": ["Spirit yak (unchecked)"]
 			},
-			"(Yaks) Breed a ~|fremennik yak|~": {
+			"(Yaks) Breed a ~|sacred yak|~": {
 				"Category": ["Collection Log", "Breeding Log"],
 				"Label": "Player-Owned Farm Breeding Log",
 				"Chunks": ["10548"],
@@ -132271,11 +132769,11 @@
 				"Chunks": ["14659"],
 				"Items": ["Corbicula malum (unchecked)"]
 			},
-			"(Corbicula Rex) Breed a ~|corbicula rex|~": {
+			"(Corbicula Rex) Breed a ~|corbicula lucidum|~": {
 				"Category": ["Collection Log", "Breeding Log"],
 				"Label": "Player-Owned Ranch Breeding Log",
 				"Chunks": ["14659"],
-				"Items": ["Corbicula rex (unchecked)"]
+				"Items": ["AllCorbiculaRex[+]"]
 			},
 			"(Pavosaurus Rex) Breed a ~|pavosaurus rex|~": {
 				"Category": ["Collection Log", "Breeding Log"],
@@ -132768,22 +133266,22 @@
 				"Items": ["Kings and Queens"],
 				"Not F2P": true
 			},
-			"(Priffdinas) Obtain a ~|crystal weapon seed|~": {
+			"(Priffdinas Skilling) Obtain a ~|crystal weapon seed|~": {
 				"Category": ["Untracked Uniques", "Untracked Uniques Skilling"],
 				"Label": "Untracked Skilling Uniques",
 				"Items": ["Crystal weapon seed"]
 			},
-			"(Priffdinas) Obtain a ~|crystal armour seed|~": {
+			"(Priffdinas Skilling) Obtain a ~|crystal armour seed|~": {
 				"Category": ["Untracked Uniques", "Untracked Uniques Skilling"],
 				"Label": "Untracked Skilling Uniques",
 				"Items": ["Crystal armour seed"]
 			},
-			"(Priffdinas) Obtain a ~|crystal tool seed|~": {
+			"(Priffdinas Skilling) Obtain a ~|crystal tool seed|~": {
 				"Category": ["Untracked Uniques", "Untracked Uniques Skilling"],
 				"Label": "Untracked Skilling Uniques",
 				"Items": ["Crystal tool seed"]
 			},
-			"(Priffdinas) Obtain a ~|crystal acorn|~": {
+			"(Priffdinas Skilling) Obtain a ~|crystal acorn|~": {
 				"Category": ["Untracked Uniques", "Untracked Uniques Skilling"],
 				"Label": "Untracked Skilling Uniques",
 				"Items": ["Crystal acorn"]
@@ -133147,15 +133645,14 @@
 				"Category": ["Untracked Uniques", "Untracked Uniques Skilling"],
 				"Label": "Untracked Skilling Uniques",
 				"Chunks": ["14897", "14989"],
-				"Items": ["White marble"],
+				"Items": ["White marble", "Hallowed lantern"],
 				"Skills": {
 					"Construction": 40,
 					"Archaeology": 105
 				},
 				"Tasks": {
 					"Archaeology Mystery: ~|The Everlight|~ Complete the mystery": "Quest"
-				},
-				"Items": ["Hallowed lantern"]
+				}
 			},
 			"(Archaeology) Obtain ~|holy aggroverload recipe fragment 1|~": {
 				"Category": ["Untracked Uniques", "Untracked Uniques Skilling"],
@@ -134438,7 +134935,7 @@
 				"Label": "Untracked Combat Uniques",
 				"Items": ["Truthful shadow core"]
 			},
-			"(Priffdinas) Obtain a ~|crystal weapon seed|~": {
+			"(Priffdinas Combat) Obtain a ~|crystal weapon seed|~": {
 				"Category": ["Untracked Uniques", "Untracked Uniques Combat"],
 				"Label": "Untracked Combat Uniques",
 				"Items": ["Crystal weapon seed"]
@@ -134448,12 +134945,12 @@
 				"Label": "Untracked Combat Uniques",
 				"Items": ["Crystal armour seed"]
 			},
-			"(Priffdinas) Obtain a ~|crystal tool seed|~": {
+			"(Priffdinas Combat) Obtain a ~|crystal tool seed|~": {
 				"Category": ["Untracked Uniques", "Untracked Uniques Combat"],
 				"Label": "Untracked Combat Uniques",
 				"Items": ["Crystal tool seed"]
 			},
-			"(Priffdinas) Obtain a ~|crystal acorn|~": {
+			"(Priffdinas Combat) Obtain a ~|crystal acorn|~": {
 				"Category": ["Untracked Uniques", "Untracked Uniques Combat"],
 				"Label": "Untracked Combat Uniques",
 				"Items": ["Crystal acorn"]
@@ -137602,10 +138099,10 @@
 				"Label": "Untracked Minigame Uniques",
 				"Items": ["Firemaker's trousers"]
 			},
-			"(Balthazar Beauregard's Big Top Bonanza) Obtain a ~|firemaker's tabard|~": {
+			"(Balthazar Beauregard's Big Top Bonanza) Obtain a ~|firemaker's skirt|~": {
 				"Category": ["Untracked Uniques", "Untracked Uniques Minigames"],
 				"Label": "Untracked Minigame Uniques",
-				"Items": ["Firemaker's tabard"]
+				"Items": ["Firemaker's skirt"]
 			},
 			"(Balthazar Beauregard's Big Top Bonanza) Obtain a ~|clown hat|~": {
 				"Category": ["Untracked Uniques", "Untracked Uniques Minigames"],
@@ -138055,7 +138552,6 @@
 			},
 			"(Misc.) Obtain the ~|Stone of Jas ball|~": {
 				"Category": ["Untracked Uniques", "Untracked Uniques Misc"],
-				"Label": "Untracked Uniques",
 				"Label": "Untracked Misc Uniques",
 				"Objects": ["Bank[+]"]
 			},
@@ -138568,15 +139064,6 @@
 				"Chunks": ["13626", "13882"],
 				"Requirements": {
 					"Dungeoneering": 35
-				},
-				"Not F2P": true
-			},
-			"(Sagittarian Equipment) Obtain a ~|sagittarian arrow|~": {
-				"Category": ["Untracked Uniques", "Untracked Uniques Daemonheim"],
-				"Label": "Daemonheim Uniques",
-				"Chunks": ["13626", "13882"],
-				"Requirements": {
-					"Dungeoneering": 1
 				},
 				"Not F2P": true
 			},
@@ -142085,15 +142572,6 @@
 				"Label": "Titles",
 				"Items": ["Farm deeds (+titles)"]
 			},
-			"Obtain the ~|of the Amlodd|~ title": {
-				"Category": ["Titles"],
-				"Label": "Titles",
-				"Items": ["Light creautre pouch", "Light Creature scroll (Enlightenment)"],
-				"Chunks": ["8500"],
-				"Tasks": {
-					"Summoning": 88
-				}
-			},
 			"Obtain the ~|of the Cadarn|~ title": {
 				"Category": ["Titles"],
 				"Label": "Titles",
@@ -142168,7 +142646,7 @@
 					"Constitution": 70,
 					"Strength": 70
 				},
-				"QuestPointsNeeded": 462,
+				"QuestPointsNeeded": 464,
 				"Tasks": {
 					"~|Plague's End|~ Complete the quest": "Quest",
 					"~|As a First Resort|~ Complete the quest": "Quest",
@@ -142830,11 +143308,6 @@
 				"Monsters": ["Vorago (Hard Mode)"]
 			},
 			"Obtain the ~|the Bad Omen|~ title": {
-				"Category": ["Titles"],
-				"Label": "Titles",
-				"Monsters": ["Vorago (Hard Mode)"]
-			},
-			"Obtain the ~|the Defeater|~ title": {
 				"Category": ["Titles"],
 				"Label": "Titles",
 				"Monsters": ["Vorago (Hard Mode)"]
@@ -144108,12 +144581,6 @@
 				"Items": ["Fishing boots"],
 				"Not F2P": true
 			},
-			"Obtain a ~|fishing hat|~": {
-				"Category": ["BIS Skilling"],
-				"Label": "BIS Skilling",
-				"Items": ["Fishing hat"],
-				"Not F2P": true
-			},
 			"Obtain the ~|champion's tacklebox|~": {
 				"Category": ["BIS Skilling"],
 				"Label": "BIS Skilling",
@@ -144528,12 +144995,6 @@
 				"Category": ["BIS Skilling"],
 				"Label": "BIS Skilling",
 				"Items": ["Infinity ethereal feet"],
-				"Not F2P": true
-			},
-			"Obtain the ~|infinity ethereal head|~": {
-				"Category": ["BIS Skilling"],
-				"Label": "BIS Skilling",
-				"Items": ["Infinity ethereal head"],
 				"Not F2P": true
 			},
 			"Obtain a ~|small pouch|~": {
@@ -146816,12 +147277,6 @@
 				"Items": ["Meditation pipe", "Personal totem", "Singing bowl", "Lingam stone", "Master control"],
 				"NPCs": ["Velucia"]
 			},
-			"(Velucia) Complete ~|Museum - Dragonkin IV|~":{
-				"Category": ["Archaeology Collections"],
-				"Label": "Archaeology Collections",
-				"Items": ["Xolo hard hat", "Xolo pickaxe", "Xolo shield", "Xolo spear", "Gold dish", "'Raksha' idol"],
-				"NPCs": ["Velucia"]
-			},
 			"(Velucia) Complete ~|Museum - Dragonkin IV|~": {
 				"Category": ["Archaeology Collections"],
 				"Label": "Archaeology Collections",
@@ -148791,6 +149246,12 @@
 			"Senntisten sewers": {
 				"UnlocksArea": true
 			},
+			"Zolarea": {
+				"Tasks": {
+					"~|Stellar Born|~ 5": "Quest"
+				},
+				"UnlocksArea": true
+			},
 			"Universal tertiary": {
 				"Category": ["Universal Tertiary"]
 			},
@@ -150602,10 +151063,6 @@
 				"Items": ["Meditation pipe", "Personal totem", "Singing bowl", "Lingam stone", "Master control"],
 				"NPCs": ["Velucia"]
 			},
-			"Complete the archaeology collection 'Museum - Dragonkin IV'":{
-				"Items": ["Xolo hard hat", "Xolo pickaxe", "Xolo shield", "Xolo spear", "Gold dish", "'Raksha' idol"],
-				"NPCs": ["Velucia"]
-			},
 			"Complete the archaeology collection 'Museum - Dragonkin IV'": {
 			    "Items": ["Xolo hard hat", "Xolo pickaxe", "Xolo shield", "Xolo spear", "Gold dish", "'Raksha' idol"],
 			    "NPCs": ["Velucia"]
@@ -152040,9 +152497,6 @@
 				},
 				"Not F2P": true
 			},
-			"Order of Ascension task": {
-				"NPCs": ["Order of Ascension Assignment[+]"]
-			},
 			"Edimmu task": {
 				"Tasks": {
 					"EdimmuMaster[+]": "Slayer"
@@ -152268,6 +152722,13 @@
 			},
 			"Menaphos VIP Area": {
 				"Chunks": ["12586"]
+			},
+			"Obtain the Menaphos journal": {
+				"Chunks": ["12843"],
+				"Tasks": {
+					"~|The Jack of Spades|~ Complete the quest": "Quest"
+				},
+				"Output": "Menaphos journal"
 			}
 		}
 	},
@@ -152406,6 +152867,9 @@
 		},
 		"45": {
 			"Name": "Senntisten sewers"
+		},
+		"46": {
+			"Name": "Zolarea"
 		},
 		"258": {
 			"Spawn": {
@@ -156175,7 +156639,6 @@
 				"Yew": 1,
 				"Tree": 1,
 				"Bookcase": 3,
-				"Cooking range": 1,
 				"Catacombs": 1,
 				"Clan Cup plaque": 1,
 				"Al Kharid": 1,
@@ -158032,7 +158495,13 @@
 				"Dead tree": 2,
 				"Evergreen": 32
 			},
-			"Nickname": "West of fishing colony"
+			"Quest": {
+				"Stellar Born": "first"
+			},
+			"Connect": {
+				"46": true
+			},
+			"Nickname": "Zoob crash site"
 		},
 		"9029": {
 			"Object": {
@@ -170976,7 +171445,8 @@
 		},
 		"12332": {
 			"Quest": {
-				"Call of the Ancestors": "first"
+				"Call of the Ancestors": "first",
+				"Stellar Born": "step"
 			},
 			"Object": {
 				"World window": 1
@@ -171080,7 +171550,8 @@
 				"Rune Memories": "step",
 				"Rune Mysteries": "first",
 				"Tomes of the Warlock": "step",
-				"Duck Quest": "step"
+				"Duck Quest": "step",
+				"Stellar Born": "step"
 			},
 			"Nickname": "Wizard tower"
 		},
@@ -175682,8 +176153,7 @@
 				"The Cult of Orcus": "first",
 				"Decimation": "first",
 				"Shadow Fall": "first",
-				"Tomes of the Warlock": "step",
-				"The Vault of Shadows": "first"
+				"Tomes of the Warlock": "step"
 			},
 			"Nickname": "Kharid-et Digsite"
 		},
@@ -181123,9 +181593,6 @@
 			},
 			"NPC": {
 				"Archaeologist": 2
-			},
-			"Connect": {
-				"Observation Outpost": true
 			},
 			"Connect": {
 				"18": true
@@ -195825,6 +196292,32 @@
 			"Connect": {
 				"6941": true
 			}
+		},
+		"Zolarea": {
+			"NPC": {
+				"Blip": 1,
+				"Bop": 1,
+				"Eetee": 1,
+				"Fuz": 1,
+				"Glorp": 1,
+				"Nuub": 1,
+				"Rox": 1,
+				"Zig": 1,
+				"Zag": 1,
+				"Zoob": 1,
+				"Zorb": 1
+			},
+			"Object": {
+				"Flower patch": 1,
+				"Meteorite (Zolarea)": 6,
+				"Bank chest": 1
+			},
+			"Quest": {
+				"Stellar Born": "step"
+			},
+			"Connect": {
+				"9017": true
+			}
 		}
 	},
 	"codeItems": {
@@ -196532,7 +197025,6 @@
 				"Tooth half of a key": "1/16@1-6",
 				"Dark animica stone spirit": "1/16@15",
 				"Phasmatite stone spirit": "1/16@10",
-				"Phasmatite stone spirit": "1/16@30",
 				"Plank": "1/16@10-26 (noted)",
 				"Wine of Zamorak": "1/16@1-5",
 				"Alchemist's key": "1/32@1-5",
@@ -201716,18 +202208,6 @@
 				"Mango seed",
 				"Lychee seed"
 			],
-			"FruitTreeSeed[+]": [
-				"Apple tree seed",
-				"Banana tree seed",
-				"Orange tree seed",
-				"Curry tree seed",
-				"Pineapple seed",
-				"Papaya tree seed",
-				"Palm tree seed",
-				"Ciku seed",
-				"Guarana seed",
-				"Carambola seed"
-			],
 			"RogueTrader2c2[+]": [
 				"Red dye",
 				"Orange dye",
@@ -201741,7 +202221,6 @@
 				"Bear fur",
 				"Wool"
 			],
-			"ConstructionMetalBar[+]": ["Iron bar", "Steel bar", "Mithril bar", "Adamant bar"],
 			"GoldenFishEggs[+]": [
 				"Golden trout eggs", 
 				"Golden salmon eggs", 
@@ -202600,9 +203079,7 @@
 			"ManufacturedComps[+]": "Any source for manufactured components",
 			"AnyTotem[+]": "Any complete totem",
 			"BushSeed[+]": "Any bush seed",
-			"FruitTreeSeed[+]": "Any fruit tree seed",
 			"RogueTrader2c2[+]": "Any dye or animal hide for Rogue Trader",
-			"ConstructionMetalBar[+]": "Any metal bar that can be used in Construction",
 			"GoldenFishEggs[+]": "Any golden fish egg",
 			"HerbSeed[+]": "Any herb seed",
 			"Mattock[+]": "Any tier of matock",
@@ -204250,7 +204727,6 @@
 				"Mourner (Mourner Tunnels)": true,
 				"Elf warrior#Elf Camp": true,
 				"Elf warrior#Lletya": true,
-				"Mourner (Mourner Tunnels)": true,
 				"Seren archer": true,
 				"Seren mage": true,
 				"Seren warrior": true,
@@ -209815,19 +210291,6 @@
 				"1": "Always"
 			}
 		},
-		"Berserk Archaeologist": {
-			"Dungeoneering token": {
-				"5000": "Always"
-			},
-			"Archaeology Journal - H.F.A": {
-				"1": "Always"
-			}
-		},
-		"Bedabin nomad fighter": {
-			"Bones": {
-				"1": "Always"
-			}
-		},
 		"Berry": {
 			"Big bones": {
 				"1": "Always"
@@ -215184,7 +215647,7 @@
 			"Sealed clue scroll (elite)": {
 				"1": "495/128000"
 			},
-			"Sealed clue scroll (elite)": {
+			"Sealed clue scroll (master)": {
 				"1": "5/1280000"
 			},
 			"Starved ancient effigy": {
@@ -215777,50 +216240,6 @@
 			},
 			"Blue charm": {
 				"1": "0.498/1000"
-			},
-			"Mimic kill token": {
-				"1": "1/9998"
-			},
-			"Spirit sapphire": {
-				"1": "1/400"
-			},
-			"Spirit emerald": {
-				"1": "1/667"
-			},
-			"Spirit ruby": {
-				"1": "1/1000"
-			}
-		},
-		"Cow": {
-			"Bones": {
-				"1": "Always"
-			},
-			"Cowhide": {
-				"1": "Always"
-			},
-			"Raw beef": {
-				"1": "Always"
-			},
-			"Coins": {
-				"3-15": "Always"
-			},
-			"Gold charm": {
-				"1": "9.953/1000"
-			},
-			"Green charm": {
-				"1": "39.813/1000"
-			},
-			"Crimson charm": {
-				"1": "2.488/1000"
-			},
-			"Blue charm": {
-				"1": "0.498/1000"
-			},
-			"Staff of air": {
-				"1": "1/200"
-			},
-			"Chargebow": {
-				"1": "1/200"
 			},
 			"Mimic kill token": {
 				"1": "1/9998"
@@ -218507,14 +218926,6 @@
 			},
 			"Snake spine": {
 				"1": "Uncommon"
-			}
-		},
-		"Desert wolf": {
-			"Wolf bones": {
-				"1": "Always"
-			},
-			"Raw wolf meat": {
-				"1": "Always"
 			}
 		},
 		"Desert wolf": {
@@ -224586,7 +224997,7 @@
 				"18500-23500": "12/128"
 			},
 			"Uncut diamond": {
-				"6 (noted)": "Unknown"
+				"6 (noted)": "8/128"
 			},
 			"Red dragonhide": {
 				"3 (noted)": "6/128"
@@ -224644,9 +225055,6 @@
 			},
 			"Limpwurt root": {
 				"10 (noted)": "12/128"
-			},
-			"Uncut diamond": {
-				"6": "8/128"
 			},
 			"Grapes": {
 				"8 (noted)": "12/128"
@@ -228780,9 +229188,6 @@
 			},
 			"Ferocious ring (5)": {
 				"1": "1/240"
-			},
-			"Bone fragments": {
-				"1": "1/150"
 			},
 			"Bone fragments": {
 				"1": "1/150"
@@ -258373,6 +258778,7 @@
 		"Spirit of Summer": "12854",
 		"The Spirit of War": "City of Um, Rasial's Citadel",
 		"Spirits of the Elid": "13613, Water Ravine Dungeon, Elid Genie Cave",
+		"Stellar Born": "9017, 12337, 12332, Zolarea",
 		"Stolen Hearts": "12338, The Skullery, 12339, 13105",
 		"Succession": "11828, 13365, 12586, 13367, 12858, 12093, 12349",
 		"Summer's End": "12854, 12859, Spirit Realm Summer's Farm",
@@ -258712,9 +259118,6 @@
 			"Corrupt Morrigan's throwing axe^": [{
 				"Access members content": "Nonskill"
 			}],
-			"Court summons^": [{
-				"~|King's Ransom|~ Complete the quest": "Quest"
-			}],
 			"Rolling pin": [{
 				"RecipeSub[+]x6": "Quest"
 			}],
@@ -258774,9 +259177,6 @@
 			}],
 			"Spork": [{
 				"RecipeSub[+]x2": "Quest"
-			}],
-			"Starved ancient effigy^": [{
-				"Access members content": "Nonskill"
 			}],
 			"Super defence (2)^Barrows": [{
 				"Tier 2 luck or higher*": "Nonskill"
@@ -258851,9 +259251,6 @@
 				"Champions Guild Questpoints": "Nonskill"
 			}],
 			"Skeleton Champion's scroll^": [{
-				"Champions Guild Questpoints": "Nonskill"
-			}],
-			"Zombie Champion's scroll^": [{
 				"Champions Guild Questpoints": "Nonskill"
 			}],
 			"Hobgoblin Champion's scroll^": [{
@@ -259456,9 +259853,6 @@
 			"Elder Trove (Bik, T3)^": [{
 				"~|Azzanadra's Quest|~ Complete the quest": "Quest"
 			}],
-			"Undercooked mystery meat^": [{
-				"~|Broken Home|~ Complete the quest": "Quest"
-			}],
 			"Key (Treasure Trails)^": [{
 				"Obtain a medium clue scroll": "Nonskill"
 			}],
@@ -259818,6 +260212,9 @@
 			}],
 			"Phalaks's experiment log": [{
 				"~|Hero's Welcome|~ Complete the quest": "Quest"
+			}],
+			"Butterfly net^": [{
+				"Members only": "Nonskill"
 			}]
 		},
 		"Monsters": {
@@ -260616,6 +261013,11 @@
 			"Sand pit": {
 				"11571": [{
 					"Enter the ~|Crafting Guild|~": "Crafting"
+				}]
+			},
+			"Flower patch": {
+				"Zolarea": [{
+					"~|Stellar Born|~ Complete the quest": "Quest"
 				}]
 			}
 		},
@@ -278186,7 +278588,7 @@
 					"1": "1/500"
 				}
 			},
-			"DraconicJadinko": {
+			"DraconicJadinkoAnachronia": {
 				"Erzille seed": {
 					"1": "99/6343"
 				},
@@ -288833,17 +289235,6 @@
 					"1": "1/100"
 				}
 			},
-			"Moss golem": {
-				"Torn grimoire page": {
-					"1": "1/512"
-				},
-				"Cinderbane gloves": {
-					"1": "1/1500"
-				},
-				"Ancient elven ritual shard": {
-					"1": "1/1500"
-				}
-			},
 			"Mutated bloodveld": {
 				"Big bones": {
 					"1": "Always"
@@ -295096,9 +295487,6 @@
 					"1": "Always"
 				},
 				"Steel warhammer + 1": {
-					"1": "Always"
-				},
-				"Steel studs": {
 					"1": "Always"
 				}
 			},
@@ -302071,26 +302459,7 @@
 		"Imperial ranger akh": 117
 	},
 	"sections": {
-		"14915": {
-			"1": ["14916"],
-			"2": ["14916"]
-		},
-		"14916": {
-			"0": ["14915-1", "14915-2"]
-		},
-		"15168": {
-			"0": ["15169-1"]
-		},
-		"15169": {
-			"1": ["15168", "15170", "15425"],
-			"2": ["15168"]
-		},
-		"15170": {
-			"0": ["14915-1", "15169-1"]
-		},
-		"15168": {
-			"0": ["15169-1", "15169-2"]
-		}
+		
 	},
 	"sectionsLimits": {},
 	"searchTerms": {
@@ -324497,7 +324866,7 @@
 			"prayer": 0,
 			"accuracy": 0
 		},
-		"Dracolich hauberk": {
+		"Elite dracolich hauberk": {
 			"ranged": 36,
 			"requirements": {
 				"Defence": 92
@@ -324515,7 +324884,7 @@
 			"prayer": 3,
 			"accuracy": 0
 		},
-		"Dracolich boots": {
+		"Elite dracolich boots": {
 			"ranged": 15,
 			"requirements": {
 				"Defence": 92
@@ -324533,7 +324902,7 @@
 			"prayer": 1,
 			"accuracy": 0
 		},
-		"Dracolich chaps": {
+		"Elite dracolich chaps": {
 			"ranged": 31,
 			"requirements": {
 				"Defence": 92
@@ -324551,7 +324920,7 @@
 			"prayer": 2,
 			"accuracy": 0
 		},
-		"Dracolich coif": {
+		"Elite dracolich coif": {
 			"ranged": 24,
 			"requirements": {
 				"Defence": 92
@@ -324569,7 +324938,7 @@
 			"prayer": 2,
 			"accuracy": 0
 		},
-		"Dracolich vambraces": {
+		"Elite dracolich vambraces": {
 			"ranged": 15,
 			"requirements": {
 				"Defence": 92
