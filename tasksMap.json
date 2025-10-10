@@ -77815,6 +77815,9 @@
   "Moss golem: ~|Distraction & Diversion reset token (weekly)|~ (1) (1/102,400)": "t_111840",
   "Moss golem: ~|Distraction & Diversion reset token (monthly)|~ (1) (1/102,400)": "t_111841",
   "Moss golem: ~|Vecna skull|~ (1) (1/1,040,000)": "t_111842",
+  "Moss golem (task): ~|Torn grimoire page|~ (1) (1/512)": "t_111843",
+  "Moss golem (task): ~|Cinderbane gloves|~ (1) (1/1,500)": "t_111844",
+  "Moss golem (task): ~|Ancient elven ritual shard|~ (1) (1/1,500)": "t_111845",
   "Mutated bloodveld: ~|Big bones|~ (1) (Always)": "t_45468",
   "Mutated bloodveld: ~|Black boots|~ (1) (1/10.67)": "t_105737",
   "Mutated bloodveld: ~|Grimy kwuarm|~ (2) (Common)": "t_105738",
@@ -87912,5 +87915,5 @@
   "Pizazz points: ~|Law rune|~": "t_52855",
   "Pizazz points: ~|Soul rune|~": "t_52856",
   "Pizazz points: ~|Blood rune|~": "t_52857",
-  "currentNextIndex": 111843
+  "currentNextIndex": 111846
 }
