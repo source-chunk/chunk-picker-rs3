@@ -134403,61 +134403,71 @@
 				"Category": ["Untracked Uniques", "Untracked Uniques Combat"],
 				"Label": "Untracked Combat Uniques",
 				"Chunks": ["War's Retreat"],
-				"Monsters": ["AnyBoss[+]"]
+				"Monsters": ["AnyBoss[+]"],
+				"Not F2P": true
 			},
 			"(War's Retreat) Obtain the ~|dark magic aura|~": {
 				"Category": ["Untracked Uniques", "Untracked Uniques Combat"],
 				"Label": "Untracked Combat Uniques",
 				"Chunks": ["War's Retreat"],
-				"Monsters": ["AnyBoss[+]"]
+				"Monsters": ["AnyBoss[+]"],
+				"Not F2P": true
 			},
 			"(War's Retreat) Obtain the ~|berserker aura|~": {
 				"Category": ["Untracked Uniques", "Untracked Uniques Combat"],
 				"Label": "Untracked Combat Uniques",
 				"Chunks": ["War's Retreat"],
-				"Monsters": ["AnyBoss[+]"]
+				"Monsters": ["AnyBoss[+]"],
+				"Not F2P": true
 			},
 			"(War's Retreat) Obtain the ~|reckless aura|~": {
 				"Category": ["Untracked Uniques", "Untracked Uniques Combat"],
 				"Label": "Untracked Combat Uniques",
 				"Chunks": ["War's Retreat"],
-				"Monsters": ["AnyBoss[+]"]
+				"Monsters": ["AnyBoss[+]"],
+				"Not F2P": true
 			},
 			"(War's Retreat) Obtain the ~|maniacal aura|~": {
 				"Category": ["Untracked Uniques", "Untracked Uniques Combat"],
 				"Label": "Untracked Combat Uniques",
 				"Chunks": ["War's Retreat"],
-				"Monsters": ["AnyBoss[+]"]
+				"Monsters": ["AnyBoss[+]"],
+				"Not F2P": true
 			},
 			"(Soul Reaper) Obtain ~|death notes|~": {
 				"Category": ["Untracked Uniques", "Untracked Uniques Combat"],
 				"Label": "Untracked Combat Uniques",
 				"Chunks": ["Death's Office"],
-				"Monsters": ["AnyBoss[+]"]
+				"Monsters": ["AnyBoss[+]"],
+				"Not F2P": true
 			},
 			"(Soul Reaper) Obtain an ~|incomplete hydrix|~": {
 				"Category": ["Untracked Uniques", "Untracked Uniques Combat"],
 				"Label": "Untracked Combat Uniques",
 				"Chunks": ["Death's Office"],
-				"Monsters": ["AnyBoss[+]"]
+				"Monsters": ["AnyBoss[+]"],
+				"Not F2P": true
 			},
 			"(Soul Reaper) Obtain the ~|mahjarrat aura|~": {
 				"Category": ["Untracked Uniques", "Untracked Uniques Combat"],
 				"Label": "Untracked Combat Uniques",
 				"Chunks": ["Death's Office"],
-				"Monsters": ["AnyBoss[+]"]
+				"Monsters": ["AnyBoss[+]"],
+				"Not F2P": true
 			},
 			"(Soul Reaper) Obtain the ~|Death Scythe|~": {
 				"Category": ["Untracked Uniques", "Untracked Uniques Combat"],
 				"Label": "Untracked Combat Uniques",
 				"Chunks": ["Death's Office"],
-				"Monsters": ["AnyBoss[+]"]
+				"Monsters": ["AnyBoss[+]"],
+				"Not F2P": true
 			},
 			"(Soul Reaper) Obtain ~|Tiny Death|~": {
 				"Category": ["Untracked Uniques", "Untracked Uniques Combat", "Pets"],
 				"Label": "Untracked Combat Uniques",
 				"Chunks": ["Death's Office"],
-				"Monsters": ["AnyBoss[+]"]
+				"Monsters": ["AnyBoss[+]"],
+				"Not F2P": true
 			},
 			"(Temple of Aminishi) Obtain a ~|tetsu sword upgrade kit|~": {
 				"Category": ["Untracked Uniques", "Untracked Uniques Combat"],
@@ -141310,7 +141320,7 @@
 				"NPCs": ["Ghost cat"]
 			},
 			"Obtain ~|Richie|~ and his partyhat": {
-				"Category": ["Permanent Unlockables", "Pets"],
+				"Category": ["Money Unlockables", "Pets"],
 				"Label": "Pets",
 				"Chunks": ["12598"]
 			},
@@ -141368,6 +141378,504 @@
 				"Items": ["Shard of Genesis Essence", "Devourer's Guard"],
 				"Not F2P": true
 			},
+			"Unlock the ability to craft the ~|Book of Death|~": {
+				"Category": ["Permanent Unlockables"],
+				"Label": "Permanent Unlockables",
+				"Chunks": ["Death's Office"],
+				"Monsters": ["AnyBoss[+]"]
+			},
+			"Unlock the Reaper's choice from ~|Death's Store|~": {
+				"Category": ["Permanent Unlockables"],
+				"Label": "Permanent Unlockables",
+				"Chunks": ["Death's Office"],
+				"Monsters": ["AnyBoss[+]"]
+			},
+			"Unlock the ~|rainbow loot beam|~": {
+				"Category": ["Permanent Unlockables"],
+				"Label": "Permanent Unlockables",
+				"Chunks": ["Death's Office"],
+				"Monsters": ["AnyBoss[+]"]
+			},
+			"Unlock the ~|grave loot beam|~": {
+				"Category": ["Permanent Unlockables"],
+				"Label": "Permanent Unlockables",
+				"Chunks": ["Death's Office"],
+				"Monsters": ["AnyBoss[+]"]
+			},
+			"Unlock the bonfire booster from ~|Death's Store|~": {
+				"Category": ["Permanent Unlockables"],
+				"Label": "Permanent Unlockables",
+				"Chunks": ["Death's Office"],
+				"Monsters": ["AnyBoss[+]"]
+			},
+			"Unlock the instance cost discount from ~|Death's Store|~": {
+				"Category": ["Permanent Unlockables"],
+				"Label": "Permanent Unlockables",
+				"Chunks": ["Death's Office"],
+				"Monsters": ["AnyBoss[+]"]
+			},
+			"Unlock the ability to buy further Reaper tasks from ~|Death's Store|~": {
+				"Category": ["Permanent Unlockables"],
+				"Label": "Permanent Unlockables",
+				"Chunks": ["Death's Office"],
+				"Monsters": ["AnyBoss[+]"]
+			},
+			"Unlock the Reaper Scroll from ~|Death's Store|~": {
+				"Category": ["Permanent Unlockables"],
+				"Label": "Permanent Unlockables",
+				"Chunks": ["Death's Office"],
+				"Monsters": ["AnyBoss[+]"]
+			},
+			"Unlock Death's Support from ~|Death's Store|~": {
+				"Category": ["Permanent Unlockables"],
+				"Label": "Permanent Unlockables",
+				"Chunks": ["Death's Office"],
+				"Monsters": ["AnyBoss[+]"]
+			},
+			"Unlock ability to overcharge your ~|ring of death|~": {
+				"Category": ["Permanent Unlockables"],
+				"Label": "Permanent Unlockables",
+				"Chunks": ["Death's Office"],
+				"Monsters": ["AnyBoss[+]"]
+			},
+			"Unlock the ~|Enchanted Notepaper (blueprint)|~": {
+				"Category": ["Permanent Unlockables"],
+				"Label": "Permanent Unlockables",
+				"Items": ["Notepaper nlueprint", "Dungeoneering token*"]
+			},
+			"Unlock the ~|Dungeoneering outfit piece (blueprint)|~": {
+				"Category": ["Permanent Unlockables"],
+				"Label": "Permanent Unlockables",
+				"Items": ["Elite Dungeoneering outfit blueprint", "Dungeoneering token*"]
+			},
+			"Unlock the ~|Daemonheim skill door boost|~": {
+				"Category": ["Permanent Unlockables"],
+				"Label": "Permanent Unlockables",
+				"Items": ["Daemonheim skill door boost", "Dungeoneering token*"]
+			},
+			"Unlock the ability to create a ~|superior scrimshaw of aggression|~": {
+				"Category": ["Permanent Unlockables"],
+				"Label": "Permanent Unlockables",
+				"Items": ["Scrimshaw of aggression+ scroll", "Dungeoneering token*"]
+			},
+			"Unlock the ability to create a ~|superior scrimshaw of sacrifice|~": {
+				"Category": ["Permanent Unlockables"],
+				"Label": "Permanent Unlockables",
+				"Items": ["Scrimshaw of sacrifice+ scroll", "Dungeoneering token*"]
+			},
+			"Unlock the ability to create a ~|superior scrimshaw of corruption|~": {
+				"Category": ["Permanent Unlockables"],
+				"Label": "Permanent Unlockables",
+				"Items": ["Scrimshaw of corruption+ scroll", "Dungeoneering token*"]
+			},
+			"Unlock the ability to fletch a ~|black stone arrows|~": {
+				"Category": ["Permanent Unlockables"],
+				"Label": "Permanent Unlockables",
+				"Items": ["Recipe: Black stone arrows", "Dungeoneering token*"]
+			},
+			"Unlock the ~|Elite Dungeon chest upgrade|~": {
+				"Category": ["Permanent Unlockables"],
+				"Label": "Permanent Unlockables",
+				"Items": ["Elite dungeon chest upgrade", "Dungeoneering token*"]
+			},
+			"Unlock the ~|Demon Slayer ability codex blueprint|~": {
+				"Category": ["Permanent Unlockables"],
+				"Label": "Permanent Unlockables",
+				"Items": ["Demon Slayer ability codex blueprint", "Dungeoneering token*"]
+			},
+			"Unlock the ~|Dragon Slayer ability codex blueprint|~": {
+				"Category": ["Permanent Unlockables"],
+				"Label": "Permanent Unlockables",
+				"Items": ["Dragon Slayer ability codex blueprint", "Dungeoneering token*"]
+			},
+			"Unlock the ~|Undead Slayer ability codex blueprint|~": {
+				"Category": ["Permanent Unlockables"],
+				"Label": "Permanent Unlockables",
+				"Items": ["Undead Slayer ability codex blueprint", "Dungeoneering token*"]
+			},
+			"Unlock all 4 tiers of Plant Power from ~|Sydekix's Shop of Balance|~": {
+				"Category": ["Permanent Unlockables"],
+				"Label": "Permanent Unlockables",
+				"Items": ["HerbSeed[+]", "Plant Power (Tier 4)"],
+				"Skills": {
+					"Farming": 110
+				}
+			},
+			"Unlock Bountiful Harvest from ~|Sydekix's Shop of Balance|~": {
+				"Category": ["Permanent Unlockables"],
+				"Label": "Permanent Unlockables",
+				"Items": ["HerbSeed[+]", "Bountiful Harvest"]
+			},
+			"Unlock Speedy Growth from ~|Sydekix's Shop of Balance|~": {
+				"Category": ["Permanent Unlockables"],
+				"Label": "Permanent Unlockables",
+				"Items": ["HerbSeed[+]", "Speedy Growth"]
+			},
+			"Unlock Quick-cense from ~|Sydekix's Shop of Balance|~": {
+				"Category": ["Permanent Unlockables"],
+				"Label": "Permanent Unlockables",
+				"Items": ["HerbSeed[+]", "Quick-cense"]
+			},
+			"Unlock Makes-cense from ~|Sydekix's Shop of Balance|~": {
+				"Category": ["Permanent Unlockables"],
+				"Label": "Permanent Unlockables",
+				"Items": ["HerbSeed[+]", "Makes-cense"]
+			},
+			"Unlock Buckets All the Way Down from ~|Sydekix's Shop of Balance|~": {
+				"Category": ["Permanent Unlockables"],
+				"Label": "Permanent Unlockables",
+				"Items": ["HerbSeed[+]", "Buckets All the Way Down"]
+			},
+			"Unlock the benefits from a Tier 3 ~|Workshop (Fort Forinthry)|~": {
+				"Category": ["Permanent Unlockables"],
+				"Label": "Permanent Unlockables",
+				"Items": ["Logs*", "Teak logs*", "Yew logs*", "Limestone brick*"],
+				"Tasks": {
+					"~|New Foundations|~ Complete the quest": "Quest"
+				},
+				"Skills": {
+					"Construction": 75
+				}
+			},
+			"Unlock the benefits from a Tier 3 ~|Town Hall (Fort Forinthry)|~": {
+				"Category": ["Permanent Unlockables"],
+				"Label": "Permanent Unlockables",
+				"Items": ["Oak logs*", "Maple logs*", "Magic logs*", "Limestone brick*"],
+				"Tasks": {
+					"~|New Foundations|~ Complete the quest": "Quest"
+				},
+				"Skills": {
+					"Construction": 80
+				}
+			},
+			"Unlock the benefits from a Tier 3 ~|Chapel (Fort Forinthry)|~": {
+				"Category": ["Permanent Unlockables"],
+				"Label": "Permanent Unlockables",
+				"Items": ["Oak logs*", "Acadia logs*", "Elder logs*", "Limestone brick*"],
+				"Tasks": {
+					"~|New Foundations|~ Complete the quest": "Quest"
+				},
+				"Skills": {
+					"Construction": 90
+				}
+			},
+			"Unlock the benefits from a Tier 3 ~|Command Centre|~ in Fort Forinthry": {
+				"Category": ["Permanent Unlockables"],
+				"Label": "Permanent Unlockables",
+				"Items": ["Willow logs*", "Yew logs*", "Elder logs*", "Limestone brick*"],
+				"Tasks": {
+					"~|New Foundations|~ Complete the quest": "Quest"
+				},
+				"Skills": {
+					"Construction": 99
+				}
+			},
+			"Unlock the benefits from a Tier 3 ~|Kitchen (Fort Forinthry)|~": {
+				"Category": ["Permanent Unlockables"],
+				"Label": "Permanent Unlockables",
+				"Items": ["Willow logs*", "Acadia logs*", "Magic logs*", "Limestone brick*"],
+				"Tasks": {
+					"~|Murder on the Border|~ Complete the quest": "Quest"
+				},
+				"Skills": {
+					"Construction": 85
+				}
+			},
+			"Unlock the benefits from a Tier 3 ~|Guardhouse|~ in Fort Forinthry": {
+				"Category": ["Permanent Unlockables"],
+				"Label": "Permanent Unlockables",
+				"Items": ["Maple logs*", "Mahogany logs*", "Elder logs*", "Limestone brick*"],
+				"Tasks": {
+					"~|Unwelcome Guests|~ Complete the quest": "Quest"
+				},
+				"Skills": {
+					"Construction": 95
+				}
+			},
+			"Unlock the benefits from a Tier 3 ~|Grove|~ in Fort Forinthry": {
+				"Category": ["Permanent Unlockables"],
+				"Label": "Permanent Unlockables",
+				"Items": ["Logs*", "Teak logs*", "Mahogany logs*", "Limestone brick*"],
+				"Tasks": {
+					"~|Unwelcome Guests|~ Complete the quest": "Quest"
+				},
+				"Skills": {
+					"Construction": 60
+				}
+			},
+			"Unlock the benefits from a Tier 3 ~|Ranger's Workroom|~ in Fort Forinthry": {
+				"Category": ["Permanent Unlockables"],
+				"Label": "Permanent Unlockables",
+				"Items": ["Acadia logs*", "Mahogany logs*", "Magic logs*", "Limestone brick*"],
+				"Tasks": {
+					"~|Dead and Buried|~ Complete the quest": "Quest"
+				},
+				"Skills": {
+					"Construction": 90
+				}
+			},
+			"Unlock the benefits from a Tier 3 ~|Botanist's Workbench|~ in Fort Forinthry": {
+				"Category": ["Permanent Unlockables"],
+				"Label": "Permanent Unlockables",
+				"Items": ["Acadia logs*", "Yew logs*", "Elder logs*", "Limestone brick*"],
+				"Tasks": {
+					"~|Ancient Awakening|~ Complete the quest": "Quest"
+				},
+				"Skills": {
+					"Construction": 92
+				}
+			},
+			"Unlock the ~|Fort Forinthry lodestone|~": {
+				"Category": ["Permanent Unlockables"],
+				"Label": "Permanent Unlockables",
+				"Items": ["Limestone brick*"],
+				"Tasks": {
+					"~|New Foundations|~ Complete the quest": "Quest"
+				}
+			},
+			"Unlock the ~|slayer helmet stand|~": {
+				"Category": ["Permanent Unlockables"],
+				"Label": "Permanent Unlockables",
+				"Chunks": ["15939"],
+				"Items": ["Dinosaur tooth"],
+				"Skills": {
+					"Slayer": 90
+				}
+			},
+			"Unlock the ~|skillcape rack|~": {
+				"Category": ["Permanent Unlockables"],
+				"Label": "Permanent Unlockables",
+				"Chunks": ["15939"],
+				"Items": ["Dinosaur rib bone"],
+				"Skills": {
+					"Construction": 90
+				}
+			},
+			"Unlock the ~|Slayer Trophy (Zombie)|~": {
+				"Category": ["Permanent Unlockables"],
+				"Label": "Permanent Unlockables",
+				"Chunks": ["13111"],
+				"Tasks": {
+					"~|Unwelcome Guests|~ Complete the quest": "Quest"
+				},
+				"Skills": {
+					"Slayer": 30
+				}
+			},
+			"Unlock the ~|Slayer Trophy (Skeleton)|~": {
+				"Category": ["Permanent Unlockables"],
+				"Label": "Permanent Unlockables",
+				"Chunks": ["13111"],
+				"Tasks": {
+					"~|Unwelcome Guests|~ Complete the quest": "Quest"
+				},
+				"Skills": {
+					"Slayer": 50
+				}
+			},
+			"Unlock the ~|Slayer Trophy (Phantom)|~": {
+				"Category": ["Permanent Unlockables"],
+				"Label": "Permanent Unlockables",
+				"Chunks": ["13111"],
+				"Tasks": {
+					"~|Unwelcome Guests|~ Complete the quest": "Quest"
+				},
+				"Skills": {
+					"Slayer": 90
+				}
+			},
+			"Unlock the ~|spirit cape|~ passive effect": {
+				"Category": ["Permanent Unlockables"],
+				"Label": "Permanent Unlockables",
+				"Items": ["Spirit cape", "Dungeoneering token"],
+				"Skills": {
+					"Defence": 50,
+					"Summoning": 50,
+					"Dungeoneering": 50
+				}
+			},
+			"Unlock the ~|enchantment of savagery|~": {
+				"Category": ["Permanent Unlockables"],
+				"Label": "Permanent Unlockables",
+				"Items": ["Enchantment of savagery"]
+			},
+			"Unlock the ~|enchantment of agony|~": {
+				"Category": ["Permanent Unlockables"],
+				"Label": "Permanent Unlockables",
+				"Items": ["Enchantment of agony"]
+			},
+			"Unlock the ~|enchantment of heroism|~": {
+				"Category": ["Permanent Unlockables"],
+				"Label": "Permanent Unlockables",
+				"Items": ["Enchantment of heroism"]
+			},
+			"Unlock the ~|enchantment of dispelling|~": {
+				"Category": ["Permanent Unlockables"],
+				"Label": "Permanent Unlockables",
+				"Items": ["Enchantment of dispelling"]
+			},
+			"Unlock the ~|enchantment of dread|~": {
+				"Category": ["Permanent Unlockables"],
+				"Label": "Permanent Unlockables",
+				"Items": ["Enchantment of dread"]
+			},
+			"Unlock the ~|enchantment of shadows|~": {
+				"Category": ["Permanent Unlockables"],
+				"Label": "Permanent Unlockables",
+				"Items": ["Enchantment of shadows"]
+			},
+			"Unlock the ~|enchantment of affliction|~": {
+				"Category": ["Permanent Unlockables"],
+				"Label": "Permanent Unlockables",
+				"Items": ["Enchantment of affliction"]
+			},
+			"Unlock the ~|enchantment of flames|~": {
+				"Category": ["Permanent Unlockables"],
+				"Label": "Permanent Unlockables",
+				"Items": ["Enchantment of flames"]
+			},
+			"Unlock the ~|enchantment of metaphysics|~": {
+				"Category": ["Permanent Unlockables"],
+				"Label": "Permanent Unlockables",
+				"Items": ["Enchantment of metaphysics"]
+			},
+			"Unlock the ~|'ancient gizmos' blueprint|~": {
+				"Category": ["Permanent Unlockables"],
+				"Label": "Permanent Unlockables",
+				"Items": ["'Ancient gizmos' blueprint"]
+			},
+			"Unlock the ~|'ancient tools' blueprint|~": {
+				"Category": ["Permanent Unlockables"],
+				"Label": "Permanent Unlockables",
+				"Items": ["'Ancient tools' blueprint"]
+			},
+			"Unlock the ~|'XP Capacitor' blueprint|~": {
+				"Category": ["Permanent Unlockables"],
+				"Label": "Permanent Unlockables",
+				"Items": ["'XP Capacitor' blueprint"]
+			},
+			"Unlock the ability to mix an ~|archaeology potion|~": {
+				"Category": ["Permanent Unlockables"],
+				"Label": "Permanent Unlockables",
+				"Items": ["Archaeology potion recipe"]
+			},
+			"Unlock the ability to mix an ~|holy aggroverload|~": {
+				"Category": ["Permanent Unlockables"],
+				"Label": "Permanent Unlockables",
+				"Items": ["Holy aggroverload recipe"]
+			},
+			"Unlock the ability to mix an ~|powerburst of opportunity|~": {
+				"Category": ["Permanent Unlockables"],
+				"Label": "Permanent Unlockables",
+				"Items": ["Powerburst of opportunity recipe"]
+			},
+			"Unlock the ability to mix an ~|spirit attraction potion|~": {
+				"Category": ["Permanent Unlockables"],
+				"Label": "Permanent Unlockables",
+				"Items": ["Spirit attraction recipe"]
+			},
+			"Unlock the ability to mix an ~|summoning renewal|~": {
+				"Category": ["Permanent Unlockables"],
+				"Label": "Permanent Unlockables",
+				"Items": ["Summoning renewal recipe"]
+			},
+			"Upgrade your ~|soil box|~ once": {
+				"Category": ["Permanent Unlockables"],
+				"Label": "Permanent Unlockables",
+				"Tasks": {
+					"Become an ~|archaeology assistant|~": "Archaeology"
+				}
+			},
+			"Upgrade your ~|material storage|~ once": {
+				"Category": ["Permanent Unlockables"],
+				"Label": "Permanent Unlockables",
+				"Tasks": {
+					"Become an ~|archaeology assistant|~": "Archaeology"
+				}
+			},
+			"Upgrade your ~|mattock precision|~ once": {
+				"Category": ["Permanent Unlockables"],
+				"Label": "Permanent Unlockables",
+				"Tasks": {
+					"Become an ~|archaeology assistant|~": "Archaeology"
+				}
+			},
+			"Upgrade your ~|soil box|~ twice": {
+				"Category": ["Permanent Unlockables"],
+				"Label": "Permanent Unlockables",
+				"Tasks": {
+					"Become an ~|archaeology associate|~": "Archaeology"
+				}
+			},
+			"Upgrade your ~|material storage|~ twice": {
+				"Category": ["Permanent Unlockables"],
+				"Label": "Permanent Unlockables",
+				"Tasks": {
+					"Become an ~|archaeology associate|~": "Archaeology"
+				}
+			},
+			"Upgrade your ~|mattock precision|~ twice": {
+				"Category": ["Permanent Unlockables"],
+				"Label": "Permanent Unlockables",
+				"Tasks": {
+					"Become an ~|archaeology associate|~": "Archaeology"
+				}
+			},
+			"Unlock the ~|auto-screener v1.080 (blueprint)|~": {
+				"Category": ["Permanent Unlockables"],
+				"Label": "Permanent Unlockables",
+				"Tasks": {
+					"Become an ~|archaeology associate|~": "Archaeology"
+				}
+			},
+			"Upgrade your ~|soil box|~ thrice": {
+				"Category": ["Permanent Unlockables"],
+				"Label": "Permanent Unlockables",
+				"Tasks": {
+					"Become an ~|archaeology professor|~": "Archaeology"
+				}
+			},
+			"Upgrade your ~|material storage|~ thrice": {
+				"Category": ["Permanent Unlockables"],
+				"Label": "Permanent Unlockables",
+				"Tasks": {
+					"Become an ~|archaeology professor|~": "Archaeology"
+				}
+			},
+			"Upgrade your ~|mattock precision|~ thrice": {
+				"Category": ["Permanent Unlockables"],
+				"Label": "Permanent Unlockables",
+				"Tasks": {
+					"Become an ~|archaeology professor|~": "Archaeology"
+				}
+			},
+			"Unlock an additional ~|relic|~ preset": {
+				"Category": ["Permanent Unlockables"],
+				"Label": "Permanent Unlockables",
+				"Tasks": {
+					"Become an ~|archaeology professor|~": "Archaeology"
+				}
+			},
+			"Upgrade your ~|mattock precision|~ for a fourth and final time": {
+				"Category": ["Permanent Unlockables"],
+				"Label": "Permanent Unlockables",
+				"Tasks": {
+					"Become an ~|archaeology guildmaster|~": "Archaeology"
+				}
+			},
+			"Upgrade all buildings in your ~|Player-Owned Port|~": {
+				"Category": ["Permanent Unlockables", "DnD"],
+				"Label": "Permanent Unlockables",
+				"Chunks": ["Player-Owned Port"]
+			},
+			"Get all ship upgrades in your ~|Player-Owned Port|~": {
+				"Category": ["Permanent Unlockables", "DnD"],
+				"Label": "Permanent Unlockables",
+				"Chunks": ["Player-Owned Port"]
+			},
+			
+			
+			
 			"Obtain ~|the Castaway|~ title": {
 				"Category": ["Arc Log", "Titles"],
 				"Label": "Titles",
@@ -265742,7 +266250,7 @@
 			"Bountiful Harvest": true,
 			"Speedy Growth": true,
 			"Quick-cense": true,
-			"Everlasting Incense": true,
+			"Makes-cense": true,
 			"Buckets All the Way Down": true,
 			"Farmer's hat": true,
 			"Farmer's jacket": true,
