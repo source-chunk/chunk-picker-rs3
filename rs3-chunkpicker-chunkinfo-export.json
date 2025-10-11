@@ -141526,6 +141526,28 @@
 				"Label": "Permanent Unlockables",
 				"Items": ["HerbSeed[+]", "Buckets All the Way Down"]
 			},
+			"Unlock the benefits from a Tier 1 ~|Workshop (Fort Forinthry)|~": {
+				"Category": ["Permanent Unlockables"],
+				"Label": "Permanent Unlockables",
+				"Items": ["Logs*", "Limestone brick*"],
+				"Tasks": {
+					"~|New Foundations|~ Complete the quest": "Quest"
+				},
+				"Skills": {
+					"Construction": 1
+				}
+			},
+			"Unlock the benefits from a Tier 2 ~|Workshop (Fort Forinthry)|~": {
+				"Category": ["Permanent Unlockables"],
+				"Label": "Permanent Unlockables",
+				"Items": ["Logs*", "Teak logs*", "Limestone brick*"],
+				"Tasks": {
+					"~|New Foundations|~ Complete the quest": "Quest"
+				},
+				"Skills": {
+					"Construction": 35
+				}
+			},
 			"Unlock the benefits from a Tier 3 ~|Workshop (Fort Forinthry)|~": {
 				"Category": ["Permanent Unlockables"],
 				"Label": "Permanent Unlockables",
@@ -141535,6 +141557,28 @@
 				},
 				"Skills": {
 					"Construction": 75
+				}
+			},
+			"Unlock the benefits from a Tier 1 ~|Town Hall (Fort Forinthry)|~": {
+				"Category": ["Permanent Unlockables"],
+				"Label": "Permanent Unlockables",
+				"Items": ["Oak logs*", "Limestone brick*"],
+				"Tasks": {
+					"~|New Foundations|~ Complete the quest": "Quest"
+				},
+				"Skills": {
+					"Construction": 10
+				}
+			},
+			"Unlock the benefits from a Tier 2 ~|Town Hall (Fort Forinthry)|~": {
+				"Category": ["Permanent Unlockables"],
+				"Label": "Permanent Unlockables",
+				"Items": ["Oak logs*", "Maple logs*", "Limestone brick*"],
+				"Tasks": {
+					"~|New Foundations|~ Complete the quest": "Quest"
+				},
+				"Skills": {
+					"Construction": 45
 				}
 			},
 			"Unlock the benefits from a Tier 3 ~|Town Hall (Fort Forinthry)|~": {
@@ -141548,6 +141592,28 @@
 					"Construction": 80
 				}
 			},
+			"Unlock the benefits from a Tier 1 ~|Chapel (Fort Forinthry)|~": {
+				"Category": ["Permanent Unlockables"],
+				"Label": "Permanent Unlockables",
+				"Items": ["Oak logs*", "Limestone brick*"],
+				"Tasks": {
+					"~|New Foundations|~ Complete the quest": "Quest"
+				},
+				"Skills": {
+					"Construction": 15
+				}
+			},
+			"Unlock the benefits from a Tier 2 ~|Chapel (Fort Forinthry)|~": {
+				"Category": ["Permanent Unlockables"],
+				"Label": "Permanent Unlockables",
+				"Items": ["Oak logs*", "Acadia logs*", "Limestone brick*"],
+				"Tasks": {
+					"~|New Foundations|~ Complete the quest": "Quest"
+				},
+				"Skills": {
+					"Construction": 55
+				}
+			},
 			"Unlock the benefits from a Tier 3 ~|Chapel (Fort Forinthry)|~": {
 				"Category": ["Permanent Unlockables"],
 				"Label": "Permanent Unlockables",
@@ -141557,6 +141623,28 @@
 				},
 				"Skills": {
 					"Construction": 90
+				}
+			},
+			"Unlock the benefits from a Tier 1 ~|Command Centre|~ in Fort Forinthry": {
+				"Category": ["Permanent Unlockables"],
+				"Label": "Permanent Unlockables",
+				"Items": ["Willow logs*", "Limestone brick*"],
+				"Tasks": {
+					"~|New Foundations|~ Complete the quest": "Quest"
+				},
+				"Skills": {
+					"Construction": 25
+				}
+			},
+			"Unlock the benefits from a Tier 2 ~|Command Centre|~ in Fort Forinthry": {
+				"Category": ["Permanent Unlockables"],
+				"Label": "Permanent Unlockables",
+				"Items": ["Willow logs*", "Yew logs*", "Limestone brick*"],
+				"Tasks": {
+					"~|New Foundations|~ Complete the quest": "Quest"
+				},
+				"Skills": {
+					"Construction": 70
 				}
 			},
 			"Unlock the benefits from a Tier 3 ~|Command Centre|~ in Fort Forinthry": {
@@ -141570,6 +141658,28 @@
 					"Construction": 99
 				}
 			},
+			"Unlock the benefits from a Tier 1 ~|Kitchen (Fort Forinthry)|~": {
+				"Category": ["Permanent Unlockables"],
+				"Label": "Permanent Unlockables",
+				"Items": ["Willow logs*", "Limestone brick*"],
+				"Tasks": {
+					"~|Murder on the Border|~ Complete the quest": "Quest"
+				},
+				"Skills": {
+					"Construction": 2
+				}
+			},
+			"Unlock the benefits from a Tier 2 ~|Kitchen (Fort Forinthry)|~": {
+				"Category": ["Permanent Unlockables"],
+				"Label": "Permanent Unlockables",
+				"Items": ["Willow logs*", "Acadia logs*", "Limestone brick*"],
+				"Tasks": {
+					"~|Murder on the Border|~ Complete the quest": "Quest"
+				},
+				"Skills": {
+					"Construction": 50
+				}
+			},
 			"Unlock the benefits from a Tier 3 ~|Kitchen (Fort Forinthry)|~": {
 				"Category": ["Permanent Unlockables"],
 				"Label": "Permanent Unlockables",
@@ -141579,6 +141689,28 @@
 				},
 				"Skills": {
 					"Construction": 85
+				}
+			},
+			"Unlock the benefits from a Tier 1 ~|Guardhouse|~ in Fort Forinthry": {
+				"Category": ["Permanent Unlockables"],
+				"Label": "Permanent Unlockables",
+				"Items": ["Maple logs*", "Limestone brick*"],
+				"Tasks": {
+					"~|Unwelcome Guests|~ Complete the quest": "Quest"
+				},
+				"Skills": {
+					"Construction": 40
+				}
+			},
+			"Unlock the benefits from a Tier 2 ~|Guardhouse|~ in Fort Forinthry": {
+				"Category": ["Permanent Unlockables"],
+				"Label": "Permanent Unlockables",
+				"Items": ["Maple logs*", "Mahogany logs*", "Limestone brick*"],
+				"Tasks": {
+					"~|Unwelcome Guests|~ Complete the quest": "Quest"
+				},
+				"Skills": {
+					"Construction": 65
 				}
 			},
 			"Unlock the benefits from a Tier 3 ~|Guardhouse|~ in Fort Forinthry": {
@@ -141592,6 +141724,28 @@
 					"Construction": 95
 				}
 			},
+			"Unlock the benefits from a Tier 1 ~|Grove|~ in Fort Forinthry": {
+				"Category": ["Permanent Unlockables"],
+				"Label": "Permanent Unlockables",
+				"Items": ["Logs*", "Limestone brick*"],
+				"Tasks": {
+					"~|Unwelcome Guests|~ Complete the quest": "Quest"
+				},
+				"Skills": {
+					"Construction": 50
+				}
+			},
+			"Unlock the benefits from a Tier 2 ~|Grove|~ in Fort Forinthry": {
+				"Category": ["Permanent Unlockables"],
+				"Label": "Permanent Unlockables",
+				"Items": ["Logs*", "Teak logs*", "Limestone brick*"],
+				"Tasks": {
+					"~|Unwelcome Guests|~ Complete the quest": "Quest"
+				},
+				"Skills": {
+					"Construction": 50
+				}
+			},
 			"Unlock the benefits from a Tier 3 ~|Grove|~ in Fort Forinthry": {
 				"Category": ["Permanent Unlockables"],
 				"Label": "Permanent Unlockables",
@@ -141603,6 +141757,28 @@
 					"Construction": 60
 				}
 			},
+			"Unlock the benefits from a Tier 1 ~|Ranger's Workroom|~ in Fort Forinthry": {
+				"Category": ["Permanent Unlockables"],
+				"Label": "Permanent Unlockables",
+				"Items": ["Acadia logs*", "Limestone brick*"],
+				"Tasks": {
+					"~|Dead and Buried|~ Complete the quest": "Quest"
+				},
+				"Skills": {
+					"Construction": 50
+				}
+			},
+			"Unlock the benefits from a Tier 2 ~|Ranger's Workroom|~ in Fort Forinthry": {
+				"Category": ["Permanent Unlockables"],
+				"Label": "Permanent Unlockables",
+				"Items": ["Acadia logs*", "Mahogany logs*", "Limestone brick*"],
+				"Tasks": {
+					"~|Dead and Buried|~ Complete the quest": "Quest"
+				},
+				"Skills": {
+					"Construction": 65
+				}
+			},
 			"Unlock the benefits from a Tier 3 ~|Ranger's Workroom|~ in Fort Forinthry": {
 				"Category": ["Permanent Unlockables"],
 				"Label": "Permanent Unlockables",
@@ -141612,6 +141788,27 @@
 				},
 				"Skills": {
 					"Construction": 90
+				}
+			},"Unlock the benefits from a Tier 1 ~|Botanist's Workbench|~ in Fort Forinthry": {
+				"Category": ["Permanent Unlockables"],
+				"Label": "Permanent Unlockables",
+				"Items": ["Acadia logs*", "Limestone brick*"],
+				"Tasks": {
+					"~|Ancient Awakening|~ Complete the quest": "Quest"
+				},
+				"Skills": {
+					"Construction": 54
+				}
+			},
+			"Unlock the benefits from a Tier 2 ~|Botanist's Workbench|~ in Fort Forinthry": {
+				"Category": ["Permanent Unlockables"],
+				"Label": "Permanent Unlockables",
+				"Items": ["Acadia logs*", "Yew logs*", "Limestone brick*"],
+				"Tasks": {
+					"~|Ancient Awakening|~ Complete the quest": "Quest"
+				},
+				"Skills": {
+					"Construction": 78
 				}
 			},
 			"Unlock the benefits from a Tier 3 ~|Botanist's Workbench|~ in Fort Forinthry": {
@@ -141876,12 +142073,14 @@
 			"Unlock the use of ~|ferocious rings|~ in Morvran's dungeon": {
 				"Category": ["Permanent Unlockables"],
 				"Label": "Permanent Unlockables",
-				"NPCs": ["SlayerPointMasters[+]"]
+				"NPCs": ["SlayerPointMasters[+]"],
+				"Not F2P": true
 			},
 			"Learn how to craft ~|rings of slaying|~": {
 				"Category": ["Permanent Unlockables"],
 				"Label": "Permanent Unlockables",
-				"NPCs": ["SlayerPointMasters[+]"]
+				"NPCs": ["SlayerPointMasters[+]"],
+				"Not F2P": true
 			},
 			"Learn how to fletch ~|broad bolts|~ and arrows": {
 				"Category": ["Permanent Unlockables"],
@@ -141889,12 +142088,14 @@
 				"NPCs": ["SlayerPointMasters[+]"],
 				"Tasks": {
 					"~|Smoking Kills|~ Complete the quest": "Quest"
-				}
+				},
+				"Not F2P": true
 			},
 			"Learn how to deliver killing blows quicker from a ~|Slayer Master|~": {
 				"Category": ["Permanent Unlockables"],
 				"Label": "Permanent Unlockables",
-				"NPCs": ["SlayerPointMasters[+]"]
+				"NPCs": ["SlayerPointMasters[+]"],
+				"Not F2P": true
 			},
 			"Learn how to craft ~|rings of slaying|~": {
 				"Category": ["Permanent Unlockables"],
@@ -141902,7 +142103,8 @@
 				"NPCs": ["SlayerPointMasters[+]"],
 				"Tasks": {
 					"~|Smoking Kills|~ Complete the quest": "Quest"
-				}
+				},
+				"Not F2P": true
 			},
 			"Learn how to craft a ~|slayer helmet|~": {
 				"Category": ["Permanent Unlockables"],
@@ -141910,47 +142112,55 @@
 				"NPCs": ["SlayerPointMasters[+]"],
 				"Tasks": {
 					"~|Smoking Kills|~ Complete the quest": "Quest"
-				}
+				},
+				"Not F2P": true
 			},
 			"Learn how to how to attack ~|ice stykewyrms|~ without a fire cape": {
 				"Category": ["Permanent Unlockables"],
 				"Label": "Permanent Unlockables",
-				"NPCs": ["SlayerPointMasters[+]"]
+				"NPCs": ["SlayerPointMasters[+]"],
+				"Not F2P": true
 			},
 			"Learn how to how to attach a ~|bonecrusher|~ to your rool belt": {
 				"Category": ["Permanent Unlockables"],
 				"Label": "Permanent Unlockables",
 				"NPCs": ["SlayerPointMasters[+]"],
-				"Items": ["Bonecrusher"]
+				"Items": ["Bonecrusher"],
+				"Not F2P": true
 			},
 			"Learn how to how to attach a ~|herbicide|~ to your rool belt": {
 				"Category": ["Permanent Unlockables"],
 				"Label": "Permanent Unlockables",
 				"NPCs": ["SlayerPointMasters[+]"],
-				"Items": ["Herbicide"]
+				"Items": ["Herbicide"],
+				"Not F2P": true
 			},
 			"Learn how to how to attach a ~|seedicide|~ to your rool belt": {
 				"Category": ["Permanent Unlockables"],
 				"Label": "Permanent Unlockables",
 				"NPCs": ["SlayerPointMasters[+]"],
-				"Items": ["Seedicide"]
+				"Items": ["Seedicide"],
+				"Not F2P": true
 			},
 			"Learn how to how to attach a ~|charming imp|~ to your rool belt": {
 				"Category": ["Permanent Unlockables"],
 				"Label": "Permanent Unlockables",
 				"NPCs": ["SlayerPointMasters[+]"],
-				"Items": ["Charming imp"]
+				"Items": ["Charming imp"],
+				"Not F2P": true
 			},
 			"Learn how to how to attach a ~|gold accumulator|~ to your rool belt": {
 				"Category": ["Permanent Unlockables"],
 				"Label": "Permanent Unlockables",
 				"NPCs": ["SlayerPointMasters[+]"],
-				"Items": ["Gold accumulator"]
+				"Items": ["Gold accumulator"],
+				"Not F2P": true
 			},
 			"Learn how to how to move souls in the ~|Sunken Pyramid|~": {
 				"Category": ["Permanent Unlockables"],
 				"Label": "Permanent Unlockables",
-				"NPCs": ["SlayerPointMasters[+]"]
+				"NPCs": ["SlayerPointMasters[+]"],
+				"Not F2P": true
 			},
 			"Unlock the ~|high-level Runespan portal|~": {
 				"Category": ["Permanent Unlockables"],
@@ -141958,7 +142168,8 @@
 				"Chunks": ["12337"],
 				"Skills": {
 					"Runecrafting": 66
-				}
+				},
+				"Not F2P": true
 			},
 			"Unlock and fully upgrade the ~|storm barn|~": {
 				"Category": ["Permanent Unlockables"],
@@ -142145,12 +142356,292 @@
 			"Unlock all 5 ~|Ceremonial Swordsmith|~ upgrades": {
 				"Category": ["Permanent Unlockables"],
 				"Label": "Permanent Unlockables",
-				"Chunks": ["12084"]
+				"Chunks": ["12084"],
+				"Not F2P": true
 			},
 			"Unlock all three ~|dwarf multicannon|~ upgrades": {
 				"Category": ["Permanent Unlockables"],
 				"Label": "Permanent Unlockables",
-				"Chunks": ["12084"]
+				"Chunks": ["12084"],
+				"Not F2P": true
+			},
+			"Unlock access to the ~|Contraband Yak Produce|~ shop": {
+				"Category": ["Permanent Unlockables"],
+				"Label": "Permanent Unlockables",
+				"NPCs": ["Vanligga Gastfrihet"],
+				"Tasks": {
+					"~|The Fremennik Isles|~ Complete the quest": "Quest"
+				},
+				"Not F2P": true
+			},
+			"Unlock access to the portals inside the ~|Stronghold of Security|~": {
+				"Category": ["Permanent Unlockables"],
+				"Label": "Permanent Unlockables",
+				"Chunks": ["Stronghold of Security"]
+			},
+			"Unlock the ~|balloon transport system|~ route to the Crafting Guild": {
+				"Category": ["Permanent Unlockables"],
+				"Label": "Permanent Unlockables",
+				"Chunks": ["11571-1"],
+				"Tasks": {
+					"Use the ~|Balloon transport system|~ to travel to the Crafting Guild": "Firemaking"
+				},
+				"Not F2P": true
+			},
+			"Unlock the ~|balloon transport system|~ route to the south of Fort Forinthry": {
+				"Category": ["Permanent Unlockables"],
+				"Label": "Permanent Unlockables",
+				"Chunks": ["13110-1"],
+				"Tasks": {
+					"Use the ~|Balloon transport system|~ to travel to Varrock": "Firemaking"
+				},
+				"Not F2P": true
+			},
+			"Unlock the ~|hot air balloon|~ to Castle Wars": {
+				"Category": ["Permanent Unlockables"],
+				"Label": "Permanent Unlockables",
+				"Chunks": ["9776"],
+				"Tasks": {
+					"Use the ~|Balloon transport system|~ to travel to Castle Wars": "Firemaking"
+				},
+				"Not F2P": true
+			},
+			"Unlock the ~|balloon transport system|~ route to the Grand Tree": {
+				"Category": ["Permanent Unlockables"],
+				"Label": "Permanent Unlockables",
+				"Chunks": ["9782"],
+				"Tasks": {
+					"Use the ~|Balloon transport system|~ to travel to the Grand Tree": "Firemaking"
+				},
+				"Not F2P": true
+			},
+			"Build the grapple hidey-hole from the ~|wall (Falador)|~": {
+				"Category": ["Permanent Unlockables"],
+				"Label": "Permanent Unlockables",
+				"Chunks": ["11929"],
+				"Items": ["Plank*", "Bronze crossbow*", "Mithril grapple*", "Steel nails*"],
+				"Skills": {
+					"Construction": 29,
+					"Agility": 11,
+					"Strength": 37,
+					"Ranged": 19
+				},
+				"Not F2P": true
+			},
+			"Build the grapple hidey-hole from the ~|wall (Yanille)|~": {
+				"Category": ["Permanent Unlockables"],
+				"Label": "Permanent Unlockables",
+				"Chunks": ["10032"],
+				"Items": ["Plank*", "Bronze crossbow*", "Mithril grapple*", "Steel nails*"],
+				"Skills": {
+					"Construction": 31,
+					"Agility": 39,
+					"Strength": 38,
+					"Ranged": 21
+				},
+				"Not F2P": true
+			},
+			"Build the grapple hidey-hole from the ~|rocks (Catherby)|~": {
+				"Category": ["Permanent Unlockables"],
+				"Label": "Permanent Unlockables",
+				"Chunks": ["11317"],
+				"Items": ["Oak plank*", "Iron crossbow*", "Mithril grapple*"],
+				"Skills": {
+					"Construction": 45,
+					"Agility": 32,
+					"Strength": 35,
+					"Ranged": 35
+				},
+				"Not F2P": true
+			},
+			"Build the grapple hidey-hole from the ~|convenient rock (Lumbridge/Al Kharid)|~": {
+				"Category": ["Permanent Unlockables"],
+				"Label": "Permanent Unlockables",
+				"Chunks": ["12849"],
+				"Items": ["Oak plank*", "Steel crossbow*", "Mithril grapple*"],
+				"Skills": {
+					"Construction": 47,
+					"Agility": 8,
+					"Strength": 19,
+					"Ranged": 37
+				},
+				"Not F2P": true
+			},
+			"Build the grapple hidey-hole from the ~|convenient rock (Catherby)|~": {
+				"Category": ["Permanent Unlockables"],
+				"Label": "Permanent Unlockables",
+				"Chunks": ["11317"],
+				"Items": ["Teak plank*", "Mithril crossbow*", "Mithril grapple*"],
+				"Skills": {
+					"Construction": 49,
+					"Agility": 36,
+					"Strength": 22,
+					"Ranged": 39
+				},
+				"Not F2P": true
+			},
+			"Build the grapple hidey-hole from the north ~|convenient rock (Karamja)|~": {
+				"Category": ["Permanent Unlockables"],
+				"Label": "Permanent Unlockables",
+				"Chunks": ["11569"],
+				"Items": ["Mahogany plank*", "Mithril crossbow*", "Mithril grapple*"],
+				"Skills": {
+					"Construction": 52,
+					"Agility":53,
+					"Strength": 21,
+					"Ranged": 42
+				},
+				"Not F2P": true
+			},
+			"Build the grapple hidey-hole from the south ~|convenient rock (Karamja)|~": {
+				"Category": ["Permanent Unlockables"],
+				"Label": "Permanent Unlockables",
+				"Chunks": ["11568"],
+				"Items": ["Mahogany plank*", "Mithril crossbow*", "Mithril grapple*"],
+				"Skills": {
+					"Construction": 52,
+					"Agility":53,
+					"Strength": 21,
+					"Ranged": 42
+				},
+				"Not F2P": true
+			},
+			"Build the grapple hidey-hole from the ~|convenient rock (Priffdinas Waterfall)|~": {
+				"Category": ["Permanent Unlockables"],
+				"Label": "Permanent Unlockables",
+				"Chunks": ["9013"],
+				"Items": ["Teak plank*", "Rune crossbow*", "Mithril grapple*"],
+				"Skills": {
+					"Construction": 75,
+					"Agility": 90,
+					"Strength": 90,
+					"Ranged": 90
+				},
+				"Not F2P": true
+			},
+			"Unlock the ~|Orthen teleportation device|~ at the Crypt of Varanus": {
+				"Category": ["Permanent Unlockables"],
+				"Label": "Permanent Unlockables",
+				"Tasks": {
+					"Become an ~|archaeology associate|~": "Archaeology"
+				},
+				"Chunks": ["15428"],
+				"Skills": {
+					"Archaeology": 70
+				}
+			},
+			"Unlock the ~|Orthen teleportation device|~ at the Observation Outpost": {
+				"Category": ["Permanent Unlockables"],
+				"Label": "Permanent Unlockables",
+				"Tasks": {
+					"Complete the ~|Incomplete Portal Network I|~ research": "Archaeology"
+				},
+				"Chunks": ["16454"],
+				"Items": ["Ancient vis"],
+				"Skills": {
+					"Runecrafting": 70,
+					"Archaeology": 90
+				}
+			},
+			"Unlock the ~|Orthen teleportation device|~ at the Moksha ritual site": {
+				"Category": ["Permanent Unlockables"],
+				"Label": "Permanent Unlockables",
+				"Tasks": {
+					"Complete the ~|Incomplete Portal Network II|~ research": "Archaeology"
+				},
+				"Chunks": ["16193"],
+				"Items": ["Orthenglass"],
+				"Skills": {
+					"Crafting": 70,
+					"Archaeology": 90
+				}
+			},
+			"Unlock the ~|Orthen teleportation device|~ at the Xolo city": {
+				"Category": ["Permanent Unlockables"],
+				"Label": "Permanent Unlockables",
+				"Tasks": {
+					"Complete the ~|Incomplete Portal Network III|~ research": "Archaeology"
+				},
+				"Chunks": ["16704"],
+				"Items": ["Quintessence"],
+				"Skills": {
+					"Divination": 70,
+					"Archaeology": 90
+				}
+			},
+			"Activate all of the ~|Stormguard portals|~": {
+				"Category": ["Permanent Unlockables"],
+				"Label": "Permanent Unlockables",
+				"Chunks": ["Stormguard Citadel"],
+				"Items": ["Quintessence", "Wingsuit v2"],
+				"Skills": {
+					"Divination": 70
+				}
+			},
+			"Power all of the ~|shadow anchors|~": {
+				"Category": ["Permanent Unlockables"],
+				"Label": "Permanent Unlockables",
+				"Chunks": ["Kharid-et - Barracks excavation site"],
+				"Items": ["Pylon battery"]
+			},
+			"Fully repair the ~|Statue of Hebe|~": {
+				"Category": ["Permanent Unlockables"],
+				"Label": "Permanent Unlockables",
+				"Tasks": {
+					"Complete the ~|Archaeology tutorial|~": "Archaeology"
+				},
+				"Items": ["White marble", "Hallowed lantern"],
+				"Objects": ["Statue of Hebe"],
+				"Skills": {
+					"Construction": 40,
+					"Archaeology": 42
+				}
+			},
+			"Fully repair the ~|Statue of Mesomedes|~": {
+				"Category": ["Permanent Unlockables"],
+				"Label": "Permanent Unlockables",
+				"Tasks": {
+					"Complete the ~|Archaeology tutorial|~": "Archaeology"
+				},
+				"Items": ["White marble", "Everlight harp"],
+				"Objects": ["Statue of Mesomedes"],
+
+				"Skills": {
+					"Construction": 40,
+					"Archaeology": 40
+				}
+			},
+			"Fully repair the ~|Statue of Padosan|~": {
+				"Category": ["Permanent Unlockables"],
+				"Label": "Permanent Unlockables",
+				"Tasks": {
+					"Complete the ~|Archaeology tutorial|~": "Archaeology"
+				},
+				"Items": ["White marble", "Dominion torch"],
+				"Objects": ["Statue of Padosan"],
+				"Skills": {
+					"Construction": 40,
+					"Archaeology": 69
+				}
+			},
+			"Fully repair the ~|Statue of Tromple|~": {
+				"Category": ["Permanent Unlockables"],
+				"Label": "Permanent Unlockables",
+				"Tasks": {
+					"Complete the ~|Archaeology tutorial|~": "Archaeology"
+				},
+				"Items": ["White marble", "Rod of Asclepius"],
+				"Objects": ["Statue of Tromple"],
+				"Skills": {
+					"Construction": 40,
+					"Archaeology": 92
+				}
+			},
+			"Fully repair the ~|Statue of Het|~": {
+				"Category": ["Permanent Unlockables"],
+				"Label": "Permanent Unlockables",
+				"Items": ["Piece of Het"],
+				"Chunks": ["13362"]
 			},
 			"Obtain ~|the Castaway|~ title": {
 				"Category": ["Arc Log", "Titles"],
