@@ -548,7 +548,7 @@ let ruleNames = {
     "HigherLander": "Accessing the intermediate and veteran landers for Pest Control are required tasks (only novice lander is required otherwise)",
     "Secondary MTA": "Allow MTA to be required with secondary sources of nature/law/cosmic runes",
     "Skilling Pets": "Require skilling pets be obtained as soon as the relevant skill is trainable<span class='rule-asterisk noscroll'>†</span>",
-    "Permanent Unlockables": "WIP - Require permanently unlockable options be unlocked (innate mastery, rope racks, etc.)<span class='rule-asterisk noscroll'>*</span>",
+    "Permanent Unlockables": "Require permanently unlockable options be unlocked (innate mastery, rope racks, etc.)<span class='rule-asterisk noscroll'>*</span>",
     "Prayers": "Must be able to activate all prayers possible<span class='rule-asterisk noscroll'>†</span>",
     "All Droptables": "Must obtain every drop from every unique monster's droptable (duplicates included, all quantities)<span class='rule-asterisk noscroll'>†</span>",
     "All Droptables Nest": "Must include every drop from bird nests<span class='rule-asterisk noscroll'>†</span>",
@@ -12353,9 +12353,9 @@ let loadData = async function(startup) {
             rulesTemp['Partial Products'] = true;
         }
 
-        if (!rulesTemp.hasOwnProperty('Additional Money Unlockables')) {
-            rulesTemp['Additional Money Unlockables'] = rulesTemp.hasOwnProperty('Money Unlockables') ? rulesTemp['Money Unlockables'] : false;
-        }
+        /*if (!rulesTemp.hasOwnProperty('Additional Unlockables')) {
+            rulesTemp['Additional Unlockables'] = rulesTemp.hasOwnProperty('Permanent Unlockables') ? rulesTemp['Permanent Unlockables'] : false;
+        }*/
 
         if (!rulesTemp.hasOwnProperty('Boss Level')) {
             rulesTemp['Boss Level'] = rulesTemp.hasOwnProperty('Boss') ? rulesTemp['Boss'] : false;

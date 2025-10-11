@@ -141873,9 +141873,285 @@
 				"Label": "Permanent Unlockables",
 				"Chunks": ["Player-Owned Port"]
 			},
-			
-			
-			
+			"Unlock the use of ~|ferocious rings|~ in Morvran's dungeon": {
+				"Category": ["Permanent Unlockables"],
+				"Label": "Permanent Unlockables",
+				"NPCs": ["SlayerPointMasters[+]"]
+			},
+			"Learn how to craft ~|rings of slaying|~": {
+				"Category": ["Permanent Unlockables"],
+				"Label": "Permanent Unlockables",
+				"NPCs": ["SlayerPointMasters[+]"]
+			},
+			"Learn how to fletch ~|broad bolts|~ and arrows": {
+				"Category": ["Permanent Unlockables"],
+				"Label": "Permanent Unlockables",
+				"NPCs": ["SlayerPointMasters[+]"],
+				"Tasks": {
+					"~|Smoking Kills|~ Complete the quest": "Quest"
+				}
+			},
+			"Learn how to deliver killing blows quicker from a ~|Slayer Master|~": {
+				"Category": ["Permanent Unlockables"],
+				"Label": "Permanent Unlockables",
+				"NPCs": ["SlayerPointMasters[+]"]
+			},
+			"Learn how to craft ~|rings of slaying|~": {
+				"Category": ["Permanent Unlockables"],
+				"Label": "Permanent Unlockables",
+				"NPCs": ["SlayerPointMasters[+]"],
+				"Tasks": {
+					"~|Smoking Kills|~ Complete the quest": "Quest"
+				}
+			},
+			"Learn how to craft a ~|slayer helmet|~": {
+				"Category": ["Permanent Unlockables"],
+				"Label": "Permanent Unlockables",
+				"NPCs": ["SlayerPointMasters[+]"],
+				"Tasks": {
+					"~|Smoking Kills|~ Complete the quest": "Quest"
+				}
+			},
+			"Learn how to how to attack ~|ice stykewyrms|~ without a fire cape": {
+				"Category": ["Permanent Unlockables"],
+				"Label": "Permanent Unlockables",
+				"NPCs": ["SlayerPointMasters[+]"]
+			},
+			"Learn how to how to attach a ~|bonecrusher|~ to your rool belt": {
+				"Category": ["Permanent Unlockables"],
+				"Label": "Permanent Unlockables",
+				"NPCs": ["SlayerPointMasters[+]"],
+				"Items": ["Bonecrusher"]
+			},
+			"Learn how to how to attach a ~|herbicide|~ to your rool belt": {
+				"Category": ["Permanent Unlockables"],
+				"Label": "Permanent Unlockables",
+				"NPCs": ["SlayerPointMasters[+]"],
+				"Items": ["Herbicide"]
+			},
+			"Learn how to how to attach a ~|seedicide|~ to your rool belt": {
+				"Category": ["Permanent Unlockables"],
+				"Label": "Permanent Unlockables",
+				"NPCs": ["SlayerPointMasters[+]"],
+				"Items": ["Seedicide"]
+			},
+			"Learn how to how to attach a ~|charming imp|~ to your rool belt": {
+				"Category": ["Permanent Unlockables"],
+				"Label": "Permanent Unlockables",
+				"NPCs": ["SlayerPointMasters[+]"],
+				"Items": ["Charming imp"]
+			},
+			"Learn how to how to attach a ~|gold accumulator|~ to your rool belt": {
+				"Category": ["Permanent Unlockables"],
+				"Label": "Permanent Unlockables",
+				"NPCs": ["SlayerPointMasters[+]"],
+				"Items": ["Gold accumulator"]
+			},
+			"Learn how to how to move souls in the ~|Sunken Pyramid|~": {
+				"Category": ["Permanent Unlockables"],
+				"Label": "Permanent Unlockables",
+				"NPCs": ["SlayerPointMasters[+]"]
+			},
+			"Unlock the ~|high-level Runespan portal|~": {
+				"Category": ["Permanent Unlockables"],
+				"Label": "Permanent Unlockables",
+				"Chunks": ["12337"],
+				"Skills": {
+					"Runecrafting": 66
+				}
+			},
+			"Unlock and fully upgrade the ~|storm barn|~": {
+				"Category": ["Permanent Unlockables"],
+				"Label": "Permanent Unlockables",
+				"Chunks": ["10548"]
+			},
+			"Unlock the ability for animals in your ~|Player-Owned Farm|~ to breed in small pens": {
+				"Category": ["Permanent Unlockables"],
+				"Label": "Permanent Unlockables",
+				"Chunks": ["10548"]
+			},
+			"Unlock the ability for animals in your ~|Player-Owned Farm|~ to breed in medium pens": {
+				"Category": ["Permanent Unlockables"],
+				"Label": "Permanent Unlockables",
+				"Chunks": ["10548"]
+			},
+			"Unlock the ability for animals in your ~|Player-Owned Farm|~ to breed in large pens": {
+				"Category": ["Permanent Unlockables"],
+				"Label": "Permanent Unlockables",
+				"Chunks": ["10548"]
+			},
+			"Unlock all boosts to multiple traits for animals in your ~|Player-Owned Farm|~": {
+				"Category": ["Permanent Unlockables"],
+				"Label": "Permanent Unlockables",
+				"Chunks": ["10548"]
+			},
+			"Unlock noted porduce in your ~|Player-Owned Farm|~": {
+				"Category": ["Permanent Unlockables"],
+				"Label": "Permanent Unlockables",
+				"Chunks": ["10548"]
+			},
+			"Unlock the ~|seasonaliser wheel|~": {
+				"Category": ["Permanent Unlockables"],
+				"Label": "Permanent Unlockables",
+				"Chunks": ["10548"]
+			},
+			"Unlock all farmhands at your ~|Player-Owned Farm|~": {
+				"Category": ["Permanent Unlockables"],
+				"Label": "Permanent Unlockables",
+				"Chunks": ["10548"]
+			},
+			"Upgrade the ~|seedicide|~": {
+				"Category": ["Permanent Unlockables"],
+				"Label": "Permanent Unlockables",
+				"Chunks": ["10548"]
+			},
+			"Upgrade the ~|herbicide|~": {
+				"Category": ["Permanent Unlockables"],
+				"Label": "Permanent Unlockables",
+				"Chunks": ["10548"]
+			},
+			"Unlock the ability for animals in the ~|Ranch out of Time|~ to breed in small pens": {
+				"Category": ["Permanent Unlockables"],
+				"Label": "Permanent Unlockables",
+				"Chunks": ["14916", "10548"]
+			},
+			"Unlock the ability for animals in the ~|Ranch out of Time|~ to breed in medium pens": {
+				"Category": ["Permanent Unlockables"],
+				"Label": "Permanent Unlockables",
+				"Chunks": ["14916", "10548"]
+			},
+			"Unlock the ability for animals in the ~|Ranch out of Time|~ to breed in large pens": {
+				"Category": ["Permanent Unlockables"],
+				"Label": "Permanent Unlockables",
+				"Chunks": ["14916", "10548"]
+			},
+			"Unlock all ammenities in ~|War's Retreat|~": {
+				"Category": ["Permanent Unlockables"],
+				"Label": "Permanent Unlockables",
+				"Chunks": ["War's Retreat"],
+				"Monsters": ["AnyBoss[+]"]
+			},
+			"Upgrade the campfire in ~|War's Retreat|~ to oak": {
+				"Category": ["Permanent Unlockables"],
+				"Label": "Permanent Unlockables",
+				"Chunks": ["War's Retreat"],
+				"Monsters": ["AnyBoss[+]"],
+				"Items": ["Oak logs"]
+			},
+			"Upgrade the campfire in ~|War's Retreat|~ to willow": {
+				"Category": ["Permanent Unlockables"],
+				"Label": "Permanent Unlockables",
+				"Chunks": ["War's Retreat"],
+				"Monsters": ["AnyBoss[+]"],
+				"Items": ["Willow logs"]
+			},
+			"Upgrade the campfire in ~|War's Retreat|~ to maple": {
+				"Category": ["Permanent Unlockables"],
+				"Label": "Permanent Unlockables",
+				"Chunks": ["War's Retreat"],
+				"Monsters": ["AnyBoss[+]"],
+				"Items": ["Maple logs"]
+			},
+			"Upgrade the campfire in ~|War's Retreat|~ to yew": {
+				"Category": ["Permanent Unlockables"],
+				"Label": "Permanent Unlockables",
+				"Chunks": ["War's Retreat"],
+				"Monsters": ["AnyBoss[+]"],
+				"Items": ["Yew logs"]
+			},
+			"Upgrade the campfire in ~|War's Retreat|~ to magic": {
+				"Category": ["Permanent Unlockables"],
+				"Label": "Permanent Unlockables",
+				"Chunks": ["War's Retreat"],
+				"Monsters": ["AnyBoss[+]"],
+				"Items": ["Magic logs"]
+			},
+			"Upgrade the campfire in ~|War's Retreat|~ to elder": {
+				"Category": ["Permanent Unlockables"],
+				"Label": "Permanent Unlockables",
+				"Chunks": ["War's Retreat"],
+				"Monsters": ["AnyBoss[+]"],
+				"Items": ["Elder logs"]
+			},
+			"Upgrade the campfire in ~|War's Retreat|~ to eternal magic": {
+				"Category": ["Permanent Unlockables"],
+				"Label": "Permanent Unlockables",
+				"Chunks": ["War's Retreat"],
+				"Monsters": ["AnyBoss[+]"],
+				"Items": ["Eternal magic logs"]
+			},
+			"Build a ~|rope rack|~ at Eagles' Peak": {
+				"Category": ["Permanent Unlockables"],
+				"Label": "Permanent Unlockables",
+				"Chunks": ["Eagles' Peak Eyrie"],
+				"Items": ["Plank*", "Rope*", "Steel nails*"]
+			},
+			"Build a ~|rope rack|~ at Baxtorian Falls": {
+				"Category": ["Permanent Unlockables"],
+				"Label": "Permanent Unlockables",
+				"Chunks": ["10038"],
+				"Items": ["Oak plank*", "Rope*"]
+			},
+			"Build a ~|rope rack|~ at the jade vine maze": {
+				"Category": ["Permanent Unlockables"],
+				"Label": "Permanent Unlockables",
+				"Chunks": ["11566"],
+				"Tasks": {
+					"~|Back to my Roots|~ Complete the quest": "Quest"
+				},
+				"Items": ["Oak plank*", "Rope*"]
+			},
+			"Build a ~|rope rack|~ at the Feldip Hills": {
+				"Category": ["Permanent Unlockables"],
+				"Label": "Permanent Unlockables",
+				"Chunks": ["Jungle Eagles' Eyrie"],
+				"Items": ["Teak plank*", "Rope*"]
+			},
+			"Unlock all of the ~|Livid Farm|~ spells": {
+				"Category": ["Permanent Unlockables"],
+				"Label": "Permanent Unlockables",
+				"Chunks": ["8253"],
+				"Skills": {
+					"Construction": 50,
+					"Crafting": 60,
+					"Farming": 60,
+					"Magic": 70,
+					"Agility": 60
+				},
+				"Tasks": {
+					"~|Lunar Diplomacy|~ Complete the quest": "Quest"
+				}
+			},
+			"Unlock the ~|Bones to Peaches|~ spell": {
+				"Category": ["Permanent Unlockables"],
+				"Label": "Permanent Unlockables",
+				"Items": ["Bones to Peaches spell"]
+			},
+			"Unlock the ability to make ~|ancient teleport tablets|~": {
+				"Category": ["Permanent Unlockables"],
+				"Label": "Permanent Unlockables",
+				"Items": ["Unlock Ancient Teleport Tablets"]
+			},
+			"Unlock both quick repair upgrades at the ~|Artisan's Workshop|~": {
+				"Category": ["Permanent Unlockables"],
+				"Label": "Permanent Unlockables",
+				"Chunks": ["12084"]
+			},
+			"Unlock all 5 ~|Solemn Smith|~ upgrades": {
+				"Category": ["Permanent Unlockables"],
+				"Label": "Permanent Unlockables",
+				"Chunks": ["12084"]
+			},
+			"Unlock all 5 ~|Ceremonial Swordsmith|~ upgrades": {
+				"Category": ["Permanent Unlockables"],
+				"Label": "Permanent Unlockables",
+				"Chunks": ["12084"]
+			},
+			"Unlock all three ~|dwarf multicannon|~ upgrades": {
+				"Category": ["Permanent Unlockables"],
+				"Label": "Permanent Unlockables",
+				"Chunks": ["12084"]
+			},
 			"Obtain ~|the Castaway|~ title": {
 				"Category": ["Arc Log", "Titles"],
 				"Label": "Titles",
