@@ -8,3 +8,4 @@ save_file.json
 /functions
 .firebaserc
 firebase.json
+run local.bat

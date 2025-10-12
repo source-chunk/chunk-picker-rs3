@@ -142171,40 +142171,61 @@
 				},
 				"Not F2P": true
 			},
+			"Build both small pens in your ~|Player-Owned Farm|~": {
+				"Category": ["Permanent Unlockables"],
+				"Label": "Permanent Unlockables",
+				"Tasks": {
+					"Build a second small pen in your ~|player-owned farm|~": "Farming"
+				}
+			},
+			"Build both medium pens in your ~|Player-Owned Farm|~": {
+				"Category": ["Permanent Unlockables"],
+				"Label": "Permanent Unlockables",
+				"Tasks": {
+					"Build a second medium pen in your ~|player-owned farm|~": "Farming"
+				}
+			},
+			"Build both large pens in your ~|Player-Owned Farm|~": {
+				"Category": ["Permanent Unlockables"],
+				"Label": "Permanent Unlockables",
+				"Tasks": {
+					"Build a second large pen in your ~|player-owned farm|~": "Farming"
+				}
+			},
 			"Unlock and fully upgrade the ~|storm barn|~": {
 				"Category": ["Permanent Unlockables"],
 				"Label": "Permanent Unlockables",
-				"Chunks": ["10548"]
+				"Items": ["Storm barn deeds", "Storm barn extension 1 (+15 spaces)", "Storm barn extension 2 (+30 spaces)"]
 			},
 			"Unlock the ability for animals in your ~|Player-Owned Farm|~ to breed in small pens": {
 				"Category": ["Permanent Unlockables"],
 				"Label": "Permanent Unlockables",
-				"Chunks": ["10548"]
+				"Items": ["Animals can now breed in small pens"]
 			},
 			"Unlock the ability for animals in your ~|Player-Owned Farm|~ to breed in medium pens": {
 				"Category": ["Permanent Unlockables"],
 				"Label": "Permanent Unlockables",
-				"Chunks": ["10548"]
+				"Items": ["Animals can now breed in medium pens"]
 			},
 			"Unlock the ability for animals in your ~|Player-Owned Farm|~ to breed in large pens": {
 				"Category": ["Permanent Unlockables"],
 				"Label": "Permanent Unlockables",
-				"Chunks": ["10548"]
+				"Items": ["Animals can now breed in large pens"]
 			},
 			"Unlock all boosts to multiple traits for animals in your ~|Player-Owned Farm|~": {
 				"Category": ["Permanent Unlockables"],
 				"Label": "Permanent Unlockables",
-				"Chunks": ["10548"]
+				"Items": ["Multiple trait boost (large)", "Multiple trait boost (medium)", "Multiple trait boost (small)"]
 			},
-			"Unlock noted porduce in your ~|Player-Owned Farm|~": {
+			"Unlock noted produce in your ~|Player-Owned Farm|~": {
 				"Category": ["Permanent Unlockables"],
 				"Label": "Permanent Unlockables",
-				"Chunks": ["10548"]
+				"Items": ["Noted produce"]
 			},
 			"Unlock the ~|seasonaliser wheel|~": {
 				"Category": ["Permanent Unlockables"],
 				"Label": "Permanent Unlockables",
-				"Chunks": ["10548"]
+				"Items": ["Seasonaliser wheel"]
 			},
 			"Unlock all farmhands at your ~|Player-Owned Farm|~": {
 				"Category": ["Permanent Unlockables"],
@@ -142214,27 +142235,55 @@
 			"Upgrade the ~|seedicide|~": {
 				"Category": ["Permanent Unlockables"],
 				"Label": "Permanent Unlockables",
-				"Chunks": ["10548"]
+				"Items": ["Seedicide collector upgrade"]
 			},
 			"Upgrade the ~|herbicide|~": {
 				"Category": ["Permanent Unlockables"],
 				"Label": "Permanent Unlockables",
-				"Chunks": ["10548"]
+				"Items": ["Herbicide collector upgrade"]
+			},
+			"Build a small dinosaur pen in the ~|Ranch out of Time|~": {
+				"Category": ["Permanent Unlockables"],
+				"Label": "Permanent Unlockables",
+				"Tasks": {
+					"Build a small dinosaur pen in your ~|player-owned ranch|~": "Farming"
+				}
+			},
+			"Build a medium dinosaur pen in the ~|Ranch out of Time|~": {
+				"Category": ["Permanent Unlockables"],
+				"Label": "Permanent Unlockables",
+				"Tasks": {
+					"Build a medium dinosaur pen in your ~|player-owned ranch|~": "Farming"
+				}
+			},
+			"Build both large dinosaur pens in the ~|Ranch out of Time|~": {
+				"Category": ["Permanent Unlockables"],
+				"Label": "Permanent Unlockables",
+				"Tasks": {
+					"Build a second large dinosaur pen in your ~|player-owned ranch|~": "Farming"
+				}
+			},
+			"Build a dinosaur breeding pen in the ~|Ranch out of Time|~": {
+				"Category": ["Permanent Unlockables"],
+				"Label": "Permanent Unlockables",
+				"Tasks": {
+					"Build a dinosaur breeding pen in your ~|player-owned ranch|~": "Farming"
+				}
 			},
 			"Unlock the ability for animals in the ~|Ranch out of Time|~ to breed in small pens": {
 				"Category": ["Permanent Unlockables"],
 				"Label": "Permanent Unlockables",
-				"Chunks": ["14916", "10548"]
+				"Items": ["Animals can now breed in small dinosaur pens"]
 			},
 			"Unlock the ability for animals in the ~|Ranch out of Time|~ to breed in medium pens": {
 				"Category": ["Permanent Unlockables"],
 				"Label": "Permanent Unlockables",
-				"Chunks": ["14916", "10548"]
+				"Items": ["Animals can now breed in medium dinosaur pens"]
 			},
 			"Unlock the ability for animals in the ~|Ranch out of Time|~ to breed in large pens": {
 				"Category": ["Permanent Unlockables"],
 				"Label": "Permanent Unlockables",
-				"Chunks": ["14916", "10548"]
+				"Items": ["Animals can now breed in large dinosaur pens"]
 			},
 			"Unlock all ammenities in ~|War's Retreat|~": {
 				"Category": ["Permanent Unlockables"],
@@ -142247,49 +142296,49 @@
 				"Label": "Permanent Unlockables",
 				"Chunks": ["War's Retreat"],
 				"Monsters": ["AnyBoss[+]"],
-				"Items": ["Oak logs"]
+				"Items": ["Oak logs*"]
 			},
 			"Upgrade the campfire in ~|War's Retreat|~ to willow": {
 				"Category": ["Permanent Unlockables"],
 				"Label": "Permanent Unlockables",
 				"Chunks": ["War's Retreat"],
 				"Monsters": ["AnyBoss[+]"],
-				"Items": ["Willow logs"]
+				"Items": ["Oak logs*", "Willow logs*"]
 			},
 			"Upgrade the campfire in ~|War's Retreat|~ to maple": {
 				"Category": ["Permanent Unlockables"],
 				"Label": "Permanent Unlockables",
 				"Chunks": ["War's Retreat"],
 				"Monsters": ["AnyBoss[+]"],
-				"Items": ["Maple logs"]
+				"Items": ["Oak logs*", "Willow logs*", "Maple logs*"]
 			},
 			"Upgrade the campfire in ~|War's Retreat|~ to yew": {
 				"Category": ["Permanent Unlockables"],
 				"Label": "Permanent Unlockables",
 				"Chunks": ["War's Retreat"],
 				"Monsters": ["AnyBoss[+]"],
-				"Items": ["Yew logs"]
+				"Items": ["Oak logs*", "Willow logs*", "Maple logs*", "Yew logs*"]
 			},
 			"Upgrade the campfire in ~|War's Retreat|~ to magic": {
 				"Category": ["Permanent Unlockables"],
 				"Label": "Permanent Unlockables",
 				"Chunks": ["War's Retreat"],
 				"Monsters": ["AnyBoss[+]"],
-				"Items": ["Magic logs"]
+				"Items": ["Oak logs*", "Willow logs*", "Maple logs*", "Yew logs*", "Magic logs*"]
 			},
 			"Upgrade the campfire in ~|War's Retreat|~ to elder": {
 				"Category": ["Permanent Unlockables"],
 				"Label": "Permanent Unlockables",
 				"Chunks": ["War's Retreat"],
 				"Monsters": ["AnyBoss[+]"],
-				"Items": ["Elder logs"]
+				"Items": ["Oak logs*", "Willow logs*", "Maple logs*", "Yew logs*", "Magic logs*", "Elder logs*"]
 			},
 			"Upgrade the campfire in ~|War's Retreat|~ to eternal magic": {
 				"Category": ["Permanent Unlockables"],
 				"Label": "Permanent Unlockables",
 				"Chunks": ["War's Retreat"],
 				"Monsters": ["AnyBoss[+]"],
-				"Items": ["Eternal magic logs"]
+				"Items": ["Oak logs*", "Willow logs*", "Maple logs*", "Yew logs*", "Magic logs*", "Elder logs*", "Eternal magic logs*"]
 			},
 			"Build a ~|rope rack|~ at Eagles' Peak": {
 				"Category": ["Permanent Unlockables"],
@@ -142642,6 +142691,102 @@
 				"Label": "Permanent Unlockables",
 				"Items": ["Piece of Het"],
 				"Chunks": ["13362"]
+			},
+			"Upgrade ~|Zorgoth's soul ring|~": {
+				"Category": ["Permanent Unlockables"],
+				"Label": "Permanent Unlockables",
+				"Tasks": {
+					"Upgrade ~|Zorgoth's soul ring|~": "Quest"
+				}
+			},
+			"Unlock the ~|ring of vigour|~ passive effect": {
+				"Category": ["Permanent Unlockables"],
+				"Label": "Permanent Unlockables",
+				"Chunks": ["Dream of Iaia"],
+				"Tasks": {
+					"~|Extinction|~ Complete the quest": "Quest"
+				}
+			},
+			"Unlock ~|Spirit Pact I|~": {
+				"Category": ["Permanent Unlockables"],
+				"Label": "Permanent Unlockables",
+				"Skills": {
+					"Necromancy": 60
+				},
+				"Tasks": {
+					"~|Rune Mythos|~ Complete the quest": "Quest"
+				},
+				"Chunks": ["City of Um"]
+			},
+			"Unlock ~|Spirit Pact II|~": {
+				"Category": ["Permanent Unlockables"],
+				"Label": "Permanent Unlockables",
+				"Skills": {
+					"Necromancy": 70
+				},
+				"Tasks": {
+					"Unlock ~|Spirit Pact I|~": "Extra"
+				},
+				"Chunks": ["City of Um"]
+			},
+			"Unlock ~|Spirit Pact III|~": {
+				"Category": ["Permanent Unlockables"],
+				"Label": "Permanent Unlockables",
+				"Skills": {
+					"Necromancy": 80
+				},
+				"Tasks": {
+					"Unlock ~|Spirit Pact II|~": "Extra"
+				},
+				"Chunks": ["City of Um"]
+			},
+			"Obtain the Jas Front benefits from charging a ~|pontifex shadow ring|~": {
+				"Category": ["Permanent Unlockables"],
+				"Label": "Permanent Unlockables",
+				"Items": ["Pontifex shadow ring*", "Resonant anima of Jas"],
+				"Tasks": {
+					"~|Azzanadra's Quest|~ Complete the quest": "Quest"
+				}
+			},
+			"Obtain the Wen Front benefits from charging a ~|pontifex shadow ring|~": {
+				"Category": ["Permanent Unlockables"],
+				"Label": "Permanent Unlockables",
+				"Items": ["Pontifex shadow ring*", "Resonant anima of Wen"],
+				"Tasks": {
+					"~|Azzanadra's Quest|~ Complete the quest": "Quest"
+				}
+			},
+			"Obtain the Bik Front benefits from charging a ~|pontifex shadow ring|~": {
+				"Category": ["Permanent Unlockables"],
+				"Label": "Permanent Unlockables",
+				"Items": ["Pontifex shadow ring*", "Resonant anima of Bik"],
+				"Tasks": {
+					"~|Azzanadra's Quest|~ Complete the quest": "Quest"
+				}
+			},
+			"Obtain the Ful Front benefits from charging a ~|pontifex shadow ring|~": {
+				"Category": ["Permanent Unlockables"],
+				"Label": "Permanent Unlockables",
+				"Items": ["Pontifex shadow ring*", "Resonant anima of Ful"],
+				"Tasks": {
+					"~|Azzanadra's Quest|~ Complete the quest": "Quest"
+				}
+			},
+			"Overcharge a ~|pontifex shadow ring|~": {
+				"Category": ["Permanent Unlockables"],
+				"Label": "Permanent Unlockables",
+				"Items": ["Pontifex shadow ring*", "Resonant anima of Jas", "Resonant anima of Wen", "Resonant anima of Bik", "Resonant anima of Ful"],
+				"Tasks": {
+					"~|Azzanadra's Quest|~ Complete the quest": "Quest"
+				}
+			},
+			"Enrich a ~|pontifex shadow ring|~": {
+				"Category": ["Permanent Unlockables"],
+				"Label": "Permanent Unlockables",
+				"Items": ["Pontifex shadow ring*"],
+				"Tasks": {
+					"~|Extinction|~ Complete the quest": "Quest"
+				}
 			},
 			"Obtain ~|the Castaway|~ title": {
 				"Category": ["Arc Log", "Titles"],
