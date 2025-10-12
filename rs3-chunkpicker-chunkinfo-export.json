@@ -22611,9 +22611,9 @@
 			"Craft a ~|slayer helmet|~": {
 				"Items": ["Spiny helmet*", "Face mask*", "Earmuffs*", "Nose peg*", "Black mask*"],
 				"Level": 55,
-				"NPCs": ["SlayerPointMasters[+]"],
 				"Tasks": {
-					"~|Smoking Kills|~ Complete the quest": "Quest"
+					"~|Smoking Kills|~ Complete the quest": "Quest",
+					"SlayerPointMasters[+]": "Slayer"
 				},
 				"Output": "Slayer helmet",
 				"Primary": true,
@@ -22623,9 +22623,9 @@
 			"Craft a ~|full slayer helmet|~": {
 				"Items": ["Slayer helmet*", "Hexcrest*", "Focus sight*"],
 				"Level": 55,
-				"NPCs": ["SlayerPointMasters[+]"],
 				"Tasks": {
-					"~|Smoking Kills|~ Complete the quest": "Quest"
+					"~|Smoking Kills|~ Complete the quest": "Quest",
+					"SlayerPointMasters[+]": "Slayer"
 				},
 				"Output": "Full slayer helmet",
 				"Primary": true,
@@ -22635,9 +22635,9 @@
 			"Craft a ~|mighty slayer helmet|~": {
 				"Items": ["Full slayer helmet*"],
 				"Level": 55,
-				"NPCs": ["SlayerPointMasters[+]"],
 				"Tasks": {
-					"~|Smoking Kills|~ Complete the quest": "Quest"
+					"~|Smoking Kills|~ Complete the quest": "Quest",
+					"SlayerPointMasters[+]": "Slayer"
 				},
 				"Output": "Mighty slayer helmet",
 				"Primary": true,
@@ -22647,9 +22647,9 @@
 			"Craft a ~|corrupted slayer helmet|~": {
 				"Items": ["Mighty slayer helmet*", "Corrupted gem*"],
 				"Level": 55,
-				"NPCs": ["SlayerPointMasters[+]"],
 				"Tasks": {
-					"~|Smoking Kills|~ Complete the quest": "Quest"
+					"~|Smoking Kills|~ Complete the quest": "Quest",
+					"SlayerPointMasters[+]": "Slayer"
 				},
 				"Output": "Corrupted slayer helmet",
 				"Primary": true,
@@ -125330,12 +125330,12 @@
 				"Description": "Access the fourth room in the Sunken Pyramid.",
 				"BaseQuest": "Completionist achievements",
 				"Chunks": ["12073"],
-				"NPCs": ["SlayerPointMasters[+]"],
 				"Skills": {
 					"Slayer": 99
 				},
 				"Tasks": {
-					"~|Eclipse of the Heart|~ Complete the quest": "Quest"
+					"~|Eclipse of the Heart|~ Complete the quest": "Quest",
+					"SlayerPointMasters[+]": "Slayer"
 				},
 				"Not F2P": true,
 				"NoBoost": true
@@ -126018,9 +126018,9 @@
 				"Category": ["Comp achievements", "Trim achievements"],
 				"Description": "Unlock the ability to craft all Slayer items.",
 				"BaseQuest": "Completionist achievements",
-				"NPCs": ["SlayerPointMasters[+]"],
 				"Tasks": {
-					"~|Smoking Kills|~ Complete the quest": "Quest"
+					"~|Smoking Kills|~ Complete the quest": "Quest",
+					"SlayerPointMasters[+]": "Slayer"
 				},
 				"Not F2P": true
 			},
@@ -142073,36 +142073,42 @@
 			"Unlock the use of ~|ferocious rings|~ in Morvran's dungeon": {
 				"Category": ["Permanent Unlockables"],
 				"Label": "Permanent Unlockables",
-				"NPCs": ["SlayerPointMasters[+]"],
+				"Tasks": {
+					"SlayerPointMasters[+]": "Slayer"
+				},
 				"Not F2P": true
 			},
 			"Learn how to craft ~|rings of slaying|~": {
 				"Category": ["Permanent Unlockables"],
 				"Label": "Permanent Unlockables",
-				"NPCs": ["SlayerPointMasters[+]"],
+				"Tasks": {
+					"SlayerPointMasters[+]": "Slayer"
+				},
 				"Not F2P": true
 			},
 			"Learn how to fletch ~|broad bolts|~ and arrows": {
 				"Category": ["Permanent Unlockables"],
 				"Label": "Permanent Unlockables",
-				"NPCs": ["SlayerPointMasters[+]"],
 				"Tasks": {
-					"~|Smoking Kills|~ Complete the quest": "Quest"
+					"~|Smoking Kills|~ Complete the quest": "Quest",
+					"SlayerPointMasters[+]": "Slayer"
 				},
 				"Not F2P": true
 			},
 			"Learn how to deliver killing blows quicker from a ~|Slayer Master|~": {
 				"Category": ["Permanent Unlockables"],
 				"Label": "Permanent Unlockables",
-				"NPCs": ["SlayerPointMasters[+]"],
+				"Tasks": {
+					"SlayerPointMasters[+]": "Slayer"
+				},
 				"Not F2P": true
 			},
 			"Learn how to craft ~|rings of slaying|~": {
 				"Category": ["Permanent Unlockables"],
 				"Label": "Permanent Unlockables",
-				"NPCs": ["SlayerPointMasters[+]"],
 				"Tasks": {
-					"~|Smoking Kills|~ Complete the quest": "Quest"
+					"~|Smoking Kills|~ Complete the quest": "Quest",
+					"SlayerPointMasters[+]": "Slayer"
 				},
 				"Not F2P": true
 			},
@@ -142118,48 +142124,62 @@
 			"Learn how to how to attack ~|ice stykewyrms|~ without a fire cape": {
 				"Category": ["Permanent Unlockables"],
 				"Label": "Permanent Unlockables",
-				"NPCs": ["SlayerPointMasters[+]"],
+				"Tasks": {
+					"SlayerPointMasters[+]": "Slayer"
+				},
 				"Not F2P": true
 			},
 			"Learn how to how to attach a ~|bonecrusher|~ to your rool belt": {
 				"Category": ["Permanent Unlockables"],
 				"Label": "Permanent Unlockables",
-				"NPCs": ["SlayerPointMasters[+]"],
+				"Tasks": {
+					"SlayerPointMasters[+]": "Slayer"
+				},
 				"Items": ["Bonecrusher"],
 				"Not F2P": true
 			},
 			"Learn how to how to attach a ~|herbicide|~ to your rool belt": {
 				"Category": ["Permanent Unlockables"],
 				"Label": "Permanent Unlockables",
-				"NPCs": ["SlayerPointMasters[+]"],
+				"Tasks": {
+					"SlayerPointMasters[+]": "Slayer"
+				},
 				"Items": ["Herbicide"],
 				"Not F2P": true
 			},
 			"Learn how to how to attach a ~|seedicide|~ to your rool belt": {
 				"Category": ["Permanent Unlockables"],
 				"Label": "Permanent Unlockables",
-				"NPCs": ["SlayerPointMasters[+]"],
+				"Tasks": {
+					"SlayerPointMasters[+]": "Slayer"
+				},
 				"Items": ["Seedicide"],
 				"Not F2P": true
 			},
 			"Learn how to how to attach a ~|charming imp|~ to your rool belt": {
 				"Category": ["Permanent Unlockables"],
 				"Label": "Permanent Unlockables",
-				"NPCs": ["SlayerPointMasters[+]"],
+				"Tasks": {
+					"SlayerPointMasters[+]": "Slayer"
+				},
 				"Items": ["Charming imp"],
 				"Not F2P": true
 			},
 			"Learn how to how to attach a ~|gold accumulator|~ to your rool belt": {
 				"Category": ["Permanent Unlockables"],
 				"Label": "Permanent Unlockables",
-				"NPCs": ["SlayerPointMasters[+]"],
+				"Tasks": {
+					"SlayerPointMasters[+]": "Slayer"
+				},
 				"Items": ["Gold accumulator"],
 				"Not F2P": true
 			},
 			"Learn how to how to move souls in the ~|Sunken Pyramid|~": {
 				"Category": ["Permanent Unlockables"],
 				"Label": "Permanent Unlockables",
-				"NPCs": ["SlayerPointMasters[+]"],
+				"Tasks": {
+					"SlayerPointMasters[+]": "Slayer"
+				},
 				"Not F2P": true
 			},
 			"Unlock the ~|high-level Runespan portal|~": {
@@ -205270,7 +205290,6 @@
 			"StrengthMaster[+]": ["Sloane", "Yadech Strongarm"],
 			"Tanner[+]": ["Tanner", "Ellis", "Sbott", "Tanya Hyde", "Leatherworker"],
 			"Wisp[+]": ["Pale wisp", "Cursed wisp"],
-			"SlayerPointMasters[+]": ["Jacquelyn", "Vannaka", "The Raptor#Fort Forinthry", "Mazchna", "Chaeldar", "Sumona", "Duradel", "Kuradal", "Morvran", "Laniakea", "Mandrith"],
 			"CrystalToolNPC[+]": ["Ilfeen", "Eluned", "Islwyn", "Rhodri Dail"],
 			"GoldenWarbler[+]": ["Golden warbler", "Golden warbler (Anachronia)"]
 		},
@@ -205286,7 +205305,6 @@
 			"StrengthMaster[+]": "Sloane or his replacement",
 			"Tanner[+]": "Any hide tanner",
 			"Wisp[+]": "Any level 1 wisp",
-			"SlayerPointMasters[+]": "Any slayer master that may award you Slayer Points",
 			"GoldenWarbler[+]": "Any golden warbler variant"
 		},
 		"tasksPlus": {
@@ -205548,6 +205566,19 @@
 			"RecipeSub[+]": ["~|Recipe for Disaster: Freeing the Mountain Dwarf|~ Complete the subquest", "~|Recipe for Disaster: Freeing the Goblin Generals|~ Complete the subquest", "~|Recipe for Disaster: Freeing Pirate Pete|~ Complete the subquest", "~|Recipe for Disaster: Freeing the Lumbridge Sage|~ Complete the subquest", "~|Recipe for Disaster: Freeing Evil Dave|~ Complete the subquest", "~|Recipe for Disaster: Freeing King Awowogei|~ Complete the subquest", "~|Recipe for Disaster: Freeing Sir Amik Varze|~ Complete the subquest", "~|Recipe for Disaster: Freeing Skrach Uglogwee|~ Complete the subquest"],
 			"RuneMechanics3a1[+]": ["~|Rune Mechanics|~ 3a1a", "~|Rune Mechanics|~ 3a1b"],
 			"Setting Up[+]": ["Easy Daemonheim tasks ~|Setting Up|~ (Crafting)*", "Easy Daemonheim tasks ~|Setting Up|~ (Smithing)*"],
+			"SlayerPointMasters[+]": [
+					"Receive a slayer assignment from ~|Jacquelyn|~",
+					"Receive a slayer assignment from ~|the Raptor|~",
+					"Receive a slayer assignment from ~|Vannaka|~",
+					"Receive a slayer assignment from ~|Mazchna|~",
+					"Receive a slayer assignment from ~|Chaeldar|~",
+					"Receive a slayer assignment from ~|Sumona|~",
+					"Receive a slayer assignment from ~|Duradel|~",
+					"Receive a slayer assignment from ~|Kuradal|~",
+					"Receive a slayer assignment from ~|Morvran|~",
+					"Receive a slayer assignment from ~|Laniakea|~",
+					"Receive a slayer assignment from ~|Mandrith|~"
+			],			
 			"SoulUrnI[+]": ["Fill the Soul Urn using lesser communion rituals", "Fill the Soul Urn for Kili's Knowledge I (combat)"],
 			"SoulUrnII[+]": ["Fill the Soul Urn using lesser communion rituals", "Fill the Soul Urn for Kili's Knowledge II (combat)"],
 			"SoulUrnIII[+]": ["Fill the Soul Urn using lesser communion rituals", "Fill the Soul Urn for Kili's Knowledge III (combat)"],
@@ -205756,6 +205787,7 @@
 			"RecipeSub[+]": "Any of the Recipe for Disaster subquests aside from Another Cook's Quest",
 			"RuneMechanics3a1[+]": "Craft steam runes through either the fire altar or the water altar",
 			"Setting Up[+]": "Any subtask for Setting Up",
+			"SlayerPointMasters[+]": "Any slayer master that may award you Slayer Points",
 			"SoulUrnI[+]": "Any way to fill soul urn I",
 			"SoulUrnII[+]": "Any way to fill soul urn II",
 			"SoulUrnIII[+]": "Any way to fill soul urn III",
