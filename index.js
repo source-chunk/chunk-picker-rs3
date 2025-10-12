@@ -470,6 +470,7 @@ let rules = {
 	"Kili Knowledge": false,
 	"Slayer Contracts": false,
 	"Partial Products": false
+	"Timegated": false
 };                                                                              // List of rules and their on/off state
 
 let ruleNames = {
@@ -579,7 +580,7 @@ let ruleNames = {
 	"Group Content": "Require content that is intended to be completed in a group<span class='rule-asterisk noscroll'>†</span>",
 	"Full Healing": "Require Constitution levels to fully heal from different foods",
 	"Unlock Abilities": "Must unlock all reward-locked abilities, including Necromancy incantations",
-	"Sigil Abilities": "Also include Sigil abilities (e.g. Aggression, Golden Touch, etc.)<span class='rule-asterisk noscroll'>*</span>",
+	"Sigil Abilities": "Also include Sigil abilities (Aggression, Golden Touch, etc.)<span class='rule-asterisk noscroll'>*</span>",
 	"Unlock Prayers": "Must unlock all reward-locked prayers",
 	"PVP": "Require tasks that can only be completed by engaging in PvP<span class='rule-asterisk noscroll'>†</span>",
 	"PvM Relics": "WIP - Must obtain all best-in-slot/quality-of-life Archaeology Relics for combat",
@@ -597,7 +598,8 @@ let ruleNames = {
 	"Hunter Marks Slayer": "Using Hunter Marks to buy Slayer experience lamps counts as primary training<span class='rule-asterisk noscroll'>*</span>",
 	"Kili Knowledge": "Must complete Kili Knowledge when possible",
 	"Slayer Contracts": "Completing Slayer contracts off-task counts as a primary training method",
-	"Partial Products": "WIP - Creating partial products counts as a skilling task<span class='partialProductsRuleTooltip'></span>"
+	"Partial Products": "WIP - Creating partial products counts as a skilling task<span class='partialProductsRuleTooltip'></span>",
+	"Timegated": "Must complete tasks that require consistent engagement with a time-gated activity across multiple weeks (Player-Owned Port, Player-Owned Farm, etc.)<span class='rule-asterisk noscroll'>*</span>"
 };                                                                              // List of rule definitions
 
 let rulePresets = {
@@ -712,6 +714,7 @@ let rulePresets = {
 		"Cleaning Herbs Primary": true,
 		"Partial Products": true,
 		"Permanent Unlockables": true
+		"Timegated": true
     },
     "Supreme Chunker": {
         "Skillcape": true,
@@ -808,6 +811,7 @@ let rulePresets = {
 		"Slayer Contracts": true,
 		"Cleaning Herbs Primary": true,
 		"Partial Products": true
+		"Timegated": true
     }
 };                                                                              // List of rules that are part of each preset
 
@@ -918,7 +922,6 @@ let ruleStructure = {
 		"Archaeology Collections": true,
 		"Ports Scrolls": true,
 		"Titles": true,
-		"Permanent Unlockables": true,
 		"Fill Costume Room": true,
 		"Ceremonial Swords": true,
 		"Pets": ["Skilling Pets"]
@@ -938,12 +941,14 @@ let ruleStructure = {
     },
     "Miscellaneous": {
         "Hero Items": true,
+		"Permanent Unlockables": true,
 		"Kill X": ["Kill X Boss"],
         "Fill Stash": true,
         "Manually Complete Tasks": true,
         "Skiller": true,
         "F2P": true,
-		"Group Content": true
+		"Group Content": true,
+		"Timegated": true
     }
 };                                                                              // Structure of rules
 

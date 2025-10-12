@@ -120914,7 +120914,7 @@
 				"Not F2P": true
 			},
 			"~|Completionist achievements#Master Quest Cape|~ Eastern Adventurer": {
-				"Category": ["MQC achievements"],
+				"Category": ["MQC achievements", "Timegated"],
 				"Description": "Complete all storylines in your Player Owned Port.",
 				"BaseQuest": "Completionist achievements",
 				"Chunks": ["Player-Owned Port"],
@@ -121044,7 +121044,7 @@
 				"Not F2P": true
 			},
 			"~|Completionist achievements#Master Quest Cape|~ Following In The Footsteps": {
-				"Category": ["MQC achievements"],
+				"Category": ["MQC achievements", "Timegated"],
 				"Description": "Find out the outcome of the research continued by Vicendithas.",
 				"BaseQuest": "Completionist achievements",
 				"Chunks": ["Effigy Incubator"],
@@ -123008,7 +123008,7 @@
 				"Not F2P": true
 			},
 			"~|Completionist achievements#Master Quest Cape|~ To Dream, Perchance to Keep": {
-				"Category": ["MQC achievements"],
+				"Category": ["MQC achievements", "Timegated"],
 				"Description": "Help Pastkeeper Sharrigan to remember all stories within the 'Dream of Iaia'.",
 				"BaseQuest": "Completionist achievements",
 				"Chunks": ["Dream of Iaia"],
@@ -125284,7 +125284,7 @@
 				"Not F2P": true
 			},
 			"~|Completionist achievements#Trimmed Completionist Cape|~ Eastern Explorer": {
-				"Category": ["Comp achievements", "Trim achievements"],
+				"Category": ["Comp achievements", "Trim achievements", "Timegated"],
 				"Description": "Explore the Eastern Lands as far as the Shield from your port.",
 				"BaseQuest": "Completionist achievements",
 				"Chunks": ["Player-Owned Port"],
@@ -125421,7 +125421,7 @@
 				"Not F2P": true
 			},
 			"~|Completionist achievements#Trimmed Completionist Cape|~ Granny's Favourite Farmer": {
-				"Category": ["Comp achievements", "Trim achievements"],
+				"Category": ["Comp achievements", "Trim achievements", "Timegated"],
 				"Description": "Gain max reputation with the Farming Guild.",
 				"BaseQuest": "Completionist achievements",
 				"Chunks": ["10548"],
@@ -125517,7 +125517,7 @@
 				"Not F2P": true
 			},
 			"~|Completionist achievements#Trimmed Completionist Cape|~ Master Angler": {
-				"Category": ["Comp achievements", "Trim achievements"],
+				"Category": ["Comp achievements", "Trim achievements", "Timegated"],
 				"Description": "Purchase the champion's tackle box from the Fish Flingers fisherman.",
 				"BaseQuest": "Completionist achievements",
 				"Items": ["Champion's tackle box"],
@@ -125691,7 +125691,7 @@
 				"Not F2P": true
 			},
 			"~|Completionist achievements#Trimmed Completionist Cape|~ My Goebie Homies": {
-				"Category": ["Comp achievements", "Trim achievements"],
+				"Category": ["Comp achievements", "Trim achievements", "Timegated"],
 				"Description": "Obtain maximum reputation with the goebies on Mazcab.",
 				"BaseQuest": "Completionist achievements",
 				"Chunks": ["Mazcab"],
@@ -133785,12 +133785,12 @@
 				"Items": ["Seedicide"]
 			},
 			"(Player-Owned Farm) Obtain the ~|left banana of knowledge|~": {
-				"Category": ["Untracked Uniques", "Untracked Uniques Skilling"],
+				"Category": ["Untracked Uniques", "Untracked Uniques Skilling", "Timegated"],
 				"Label": "Untracked Skilling Uniques",
 				"Items": ["Left banana of knowledge"]
 			},
 			"(Player-Owned Farm) Obtain the ~|right banana of knowledge|~": {
-				"Category": ["Untracked Uniques", "Untracked Uniques Skilling"],
+				"Category": ["Untracked Uniques", "Untracked Uniques Skilling", "Timegated"],
 				"Label": "Untracked Skilling Uniques",
 				"Items": ["Right banana of knowledge"]
 			},
@@ -137790,22 +137790,22 @@
 				"Items": ["Farmer's boots"]
 			},
 			"(Player-Owned Port) Obtain a ~|mask of gu|~": {
-				"Category": ["Untracked Uniques", "Untracked Uniques Minigames"],
+				"Category": ["Untracked Uniques", "Untracked Uniques Minigames", "Timegated"],
 				"Label": "Untracked Minigame Uniques",
 				"Chunks": ["Player-Owned Port"]
 			},
 			"(Player-Owned Port) Obtain a ~|gu uwagi|~": {
-				"Category": ["Untracked Uniques", "Untracked Uniques Minigames"],
+				"Category": ["Untracked Uniques", "Untracked Uniques Minigames", "Timegated"],
 				"Label": "Untracked Minigame Uniques",
 				"Chunks": ["Player-Owned Port"]
 			},
 			"(Player-Owned Port) Obtain a ~|gu hakama|~": {
-				"Category": ["Untracked Uniques", "Untracked Uniques Minigames"],
+				"Category": ["Untracked Uniques", "Untracked Uniques Minigames", "Timegated"],
 				"Label": "Untracked Minigame Uniques",
 				"Chunks": ["Player-Owned Port"]
 			},
 			"(Player-Owned Port) Obtain ~|The Way of Gu|~": {
-				"Category": ["Untracked Uniques", "Untracked Uniques Minigames"],
+				"Category": ["Untracked Uniques", "Untracked Uniques Minigames", "Timegated"],
 				"Label": "Untracked Minigame Uniques",
 				"Chunks": ["Player-Owned Port"]
 			},
@@ -142129,7 +142129,7 @@
 				},
 				"Not F2P": true
 			},
-			"Learn how to how to attach a ~|bonecrusher|~ to your rool belt": {
+			"Learn how to how to attach a ~|bonecrusher|~ to your tool belt": {
 				"Category": ["Permanent Unlockables"],
 				"Label": "Permanent Unlockables",
 				"Tasks": {
@@ -142138,7 +142138,7 @@
 				"Items": ["Bonecrusher"],
 				"Not F2P": true
 			},
-			"Learn how to how to attach a ~|herbicide|~ to your rool belt": {
+			"Learn how to how to attach a ~|herbicide|~ to your tool belt": {
 				"Category": ["Permanent Unlockables"],
 				"Label": "Permanent Unlockables",
 				"Tasks": {
@@ -142147,7 +142147,7 @@
 				"Items": ["Herbicide"],
 				"Not F2P": true
 			},
-			"Learn how to how to attach a ~|seedicide|~ to your rool belt": {
+			"Learn how to how to attach a ~|seedicide|~ to your tool belt": {
 				"Category": ["Permanent Unlockables"],
 				"Label": "Permanent Unlockables",
 				"Tasks": {
@@ -142156,7 +142156,7 @@
 				"Items": ["Seedicide"],
 				"Not F2P": true
 			},
-			"Learn how to how to attach a ~|charming imp|~ to your rool belt": {
+			"Learn how to how to attach a ~|charming imp|~ to your tool belt": {
 				"Category": ["Permanent Unlockables"],
 				"Label": "Permanent Unlockables",
 				"Tasks": {
@@ -142165,7 +142165,7 @@
 				"Items": ["Charming imp"],
 				"Not F2P": true
 			},
-			"Learn how to how to attach a ~|gold accumulator|~ to your rool belt": {
+			"Learn how to how to attach a ~|gold accumulator|~ to your tool belt": {
 				"Category": ["Permanent Unlockables"],
 				"Label": "Permanent Unlockables",
 				"Tasks": {
@@ -142808,6 +142808,32 @@
 					"~|Extinction|~ Complete the quest": "Quest"
 				}
 			},
+			"Max out ~|reputation (Mazcab)|~": {
+				"Category": ["Permanent Unlockables", "Timegated"],
+				"Label": "Permanent Unlockables",
+				"Chunks": ["Mazcab"],
+				"Not F2P": true
+			},
+			"Max out ~|farming reputation|~": {
+				"Category": ["Permanent Unlockables", "Timegated"],
+				"Label": "Permanent Unlockables",
+				"Chunks": ["10548"],
+				"Not F2P": true
+			},
+			"Max out ~|reputation (Heart of Gielinor)|~ with four factions": {
+				"Category": ["Permanent Unlockables"],
+				"Label": "Permanent Unlockables",
+				"Chunks": ["The Heart"],
+				"Not F2P": true
+			},
+			"Max out ~|reputation (Menaphos)|~ with all four factions": {
+				"Category": ["Permanent Unlockables"],
+				"Label": "Permanent Unlockables",
+				"Tasks": {
+					"~|The Jack of Spades|~ Complete the quest": "Quest"
+				},
+				"Not F2P": true
+			},
 			"Obtain ~|the Castaway|~ title": {
 				"Category": ["Arc Log", "Titles"],
 				"Label": "Titles",
@@ -143108,42 +143134,42 @@
 				"Items": ["'Abyss Diver' title"]
 			},
 			"Obtain the ~|The Cabin Boy/Girl|~ title": {
-				"Category": ["Titles"],
+				"Category": ["Titles", "Timegated"],
 				"Label": "Titles",
 				"Chunks": ["Player-Owned Port"]
 			},
 			"Obtain the ~|Bo'son|~ title": {
-				"Category": ["Titles"],
+				"Category": ["Titles", "Timegated"],
 				"Label": "Titles",
 				"Chunks": ["Player-Owned Port"]
 			},
 			"Obtain the ~|First Mate|~ title": {
-				"Category": ["Titles"],
+				"Category": ["Titles", "Timegated"],
 				"Label": "Titles",
 				"Chunks": ["Player-Owned Port"]
 			},
 			"Obtain the ~|Cap'n|~ title": {
-				"Category": ["Titles"],
+				"Category": ["Titles", "Timegated"],
 				"Label": "Titles",
 				"Chunks": ["Player-Owned Port"]
 			},
 			"Obtain the ~|Commodore|~ title": {
-				"Category": ["Titles"],
+				"Category": ["Titles", "Timegated"],
 				"Label": "Titles",
 				"Chunks": ["Player-Owned Port"]
 			},
 			"Obtain the ~|Admiral|~ title": {
-				"Category": ["Titles"],
+				"Category": ["Titles", "Timegated"],
 				"Label": "Titles",
 				"Chunks": ["Player-Owned Port"]
 			},
 			"Obtain the ~|Admiral of the Fleet|~ title": {
-				"Category": ["Titles"],
+				"Category": ["Titles", "Timegated"],
 				"Label": "Titles",
 				"Chunks": ["Player-Owned Port"]
 			},
 			"Obtain the ~|Portmaster|~ title": {
-				"Category": ["Titles"],
+				"Category": ["Titles", "Timegated"],
 				"Label": "Titles",
 				"Chunks": ["Player-Owned Port"],
 				"Skills": {
@@ -143779,7 +143805,7 @@
 				}
 			},
 			"Obtain the ~|the Very Good Farmer|~ title": {
-				"Category": ["Titles"],
+				"Category": ["Titles", "Timegated"],
 				"Label": "Titles",
 				"Chunks": ["10548"],
 				"Skills": {
@@ -143858,12 +143884,12 @@
 				}
 			},
 			"Obtain the ~|the Reputable|~ title": {
-				"Category": ["Titles"],
+				"Category": ["Titles", "Timegated"],
 				"Label": "Titles",
 				"Chunks": ["Mazcab"]
 			},
 			"Obtain the ~|of the Goebies|~ title": {
-				"Category": ["Titles"],
+				"Category": ["Titles", "Timegated"],
 				"Label": "Titles",
 				"Chunks": ["Mazcab"]
 			},
@@ -149350,6 +149376,7 @@
 				"UnlocksArea": true
 			},
 			"Balthazar Beauregard's Big Top Bonanza": {
+				"Category": ["Timegated"],
 				"UnlocksArea": true
 			},
 			"Pyramid Plunder": {
@@ -153134,6 +153161,9 @@
 			},
 			"Group Content enabled": {
 				"Category": ["Group Content"]
+			},
+			"Timegated content enabled": {
+				"Category": ["Timegated"]
 			},
 			"Receive a Dwarven army axe from Major Rancour*": {
 				"Chunks": ["11575"],
@@ -261720,6 +261750,8 @@
 			"Beastmaster Durzag": {
 				"Mazcab": [{
 					"Group Content enabled": "Nonskill"
+				}, {
+					"Timegated content enabled": "Nonskill"
 				}]
 			},
 			"Black Stone Dragon": {
@@ -262172,6 +262204,8 @@
 			"Yakamaru": {
 				"Mazcab": [{
 					"Group Content enabled": "Nonskill"
+				}, {
+					"Timegated content enabled": "Nonskill"
 				}]
 			},
 			"Zamorak, Lord of Chaos": {
@@ -262723,9 +262757,16 @@
 					"~|Dragon Slayer|~ Complete the quest": "Quest"
 				}]
 			},
+			"Sidekix's Shop of Balance": {
+				"13107": [{
+					"Timegated content enabled": "Nonskill"
+				}]
+			},
 			"Farmers' Market": {
 				"10548": [{
 					"~|Player-owned farm tutorial|~ Complete the tutorial": "Quest"
+				}, {
+					"Timegated content enabled": "Nonskill"
 				}]
 			},
 			"Farmers' Market (Anachronia)": {
@@ -262733,6 +262774,8 @@
 					"Unlock the Anachronia Base Camp": "Nonskill"
 				}, {
 					"~|Player-owned farm tutorial|~ Complete the tutorial": "Quest"
+				}, {
+					"Timegated content enabled": "Nonskill"
 				}]
 			},
 			"Urist's Crafting Supplies": {
