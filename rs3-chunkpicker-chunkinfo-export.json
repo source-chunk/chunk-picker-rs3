@@ -124777,7 +124777,7 @@
 				"Not F2P": true
 			},
 			"~|Completionist achievements#Completionist Cape|~ Top Town Hall": {
-				"Category": ["Comp achievements"],
+				"Category": ["Comp achievements", "Timegated"],
 				"Description": "Fully upgrade the Town Hall in the base camp on Anachronia.",
 				"BaseQuest": "Completionist achievements",
 				"Tasks": {
@@ -125524,7 +125524,7 @@
 				"Not F2P": true
 			},
 			"~|Completionist achievements#Trimmed Completionist Cape|~ Master Builder": {
-				"Category": ["Comp achievements", "Trim achievements"],
+				"Category": ["Comp achievements", "Trim achievements", "Timegated"],
 				"Description": "Fully upgrade the base camp on Anachronia.",
 				"BaseQuest": "Completionist achievements",
 				"Tasks": {
@@ -134435,35 +134435,35 @@
 				"Not F2P": true
 			},
 			"(Soul Reaper) Obtain ~|death notes|~": {
-				"Category": ["Untracked Uniques", "Untracked Uniques Combat"],
+				"Category": ["Untracked Uniques", "Untracked Uniques Combat", "Timegated"],
 				"Label": "Untracked Combat Uniques",
 				"Chunks": ["Death's Office"],
 				"Monsters": ["AnyBoss[+]"],
 				"Not F2P": true
 			},
 			"(Soul Reaper) Obtain an ~|incomplete hydrix|~": {
-				"Category": ["Untracked Uniques", "Untracked Uniques Combat"],
+				"Category": ["Untracked Uniques", "Untracked Uniques Combat", "Timegated"],
 				"Label": "Untracked Combat Uniques",
 				"Chunks": ["Death's Office"],
 				"Monsters": ["AnyBoss[+]"],
 				"Not F2P": true
 			},
 			"(Soul Reaper) Obtain the ~|mahjarrat aura|~": {
-				"Category": ["Untracked Uniques", "Untracked Uniques Combat"],
+				"Category": ["Untracked Uniques", "Untracked Uniques Combat", "Timegated"],
 				"Label": "Untracked Combat Uniques",
 				"Chunks": ["Death's Office"],
 				"Monsters": ["AnyBoss[+]"],
 				"Not F2P": true
 			},
 			"(Soul Reaper) Obtain the ~|Death Scythe|~": {
-				"Category": ["Untracked Uniques", "Untracked Uniques Combat"],
+				"Category": ["Untracked Uniques", "Untracked Uniques Combat", "Timegated"],
 				"Label": "Untracked Combat Uniques",
 				"Chunks": ["Death's Office"],
 				"Monsters": ["AnyBoss[+]"],
 				"Not F2P": true
 			},
 			"(Soul Reaper) Obtain ~|Tiny Death|~": {
-				"Category": ["Untracked Uniques", "Untracked Uniques Combat", "Pets"],
+				"Category": ["Untracked Uniques", "Untracked Uniques Combat", "Pets", "Timegated"],
 				"Label": "Untracked Combat Uniques",
 				"Chunks": ["Death's Office"],
 				"Monsters": ["AnyBoss[+]"],
@@ -141379,61 +141379,61 @@
 				"Not F2P": true
 			},
 			"Unlock the ability to craft the ~|Book of Death|~": {
-				"Category": ["Permanent Unlockables"],
+				"Category": ["Permanent Unlockables", "Timegated"],
 				"Label": "Permanent Unlockables",
 				"Chunks": ["Death's Office"],
 				"Monsters": ["AnyBoss[+]"]
 			},
 			"Unlock the Reaper's choice from ~|Death's Store|~": {
-				"Category": ["Permanent Unlockables"],
+				"Category": ["Permanent Unlockables", "Timegated"],
 				"Label": "Permanent Unlockables",
 				"Chunks": ["Death's Office"],
 				"Monsters": ["AnyBoss[+]"]
 			},
 			"Unlock the ~|rainbow loot beam|~": {
-				"Category": ["Permanent Unlockables"],
+				"Category": ["Permanent Unlockables", "Timegated"],
 				"Label": "Permanent Unlockables",
 				"Chunks": ["Death's Office"],
 				"Monsters": ["AnyBoss[+]"]
 			},
 			"Unlock the ~|grave loot beam|~": {
-				"Category": ["Permanent Unlockables"],
+				"Category": ["Permanent Unlockables", "Timegated"],
 				"Label": "Permanent Unlockables",
 				"Chunks": ["Death's Office"],
 				"Monsters": ["AnyBoss[+]"]
 			},
 			"Unlock the bonfire booster from ~|Death's Store|~": {
-				"Category": ["Permanent Unlockables"],
+				"Category": ["Permanent Unlockables", "Timegated"],
 				"Label": "Permanent Unlockables",
 				"Chunks": ["Death's Office"],
 				"Monsters": ["AnyBoss[+]"]
 			},
 			"Unlock the instance cost discount from ~|Death's Store|~": {
-				"Category": ["Permanent Unlockables"],
+				"Category": ["Permanent Unlockables", "Timegated"],
 				"Label": "Permanent Unlockables",
 				"Chunks": ["Death's Office"],
 				"Monsters": ["AnyBoss[+]"]
 			},
 			"Unlock the ability to buy further Reaper tasks from ~|Death's Store|~": {
-				"Category": ["Permanent Unlockables"],
+				"Category": ["Permanent Unlockables", "Timegated"],
 				"Label": "Permanent Unlockables",
 				"Chunks": ["Death's Office"],
 				"Monsters": ["AnyBoss[+]"]
 			},
 			"Unlock the Reaper Scroll from ~|Death's Store|~": {
-				"Category": ["Permanent Unlockables"],
+				"Category": ["Permanent Unlockables", "Timegated"],
 				"Label": "Permanent Unlockables",
 				"Chunks": ["Death's Office"],
 				"Monsters": ["AnyBoss[+]"]
 			},
 			"Unlock Death's Support from ~|Death's Store|~": {
-				"Category": ["Permanent Unlockables"],
+				"Category": ["Permanent Unlockables", "Timegated"],
 				"Label": "Permanent Unlockables",
 				"Chunks": ["Death's Office"],
 				"Monsters": ["AnyBoss[+]"]
 			},
 			"Unlock ability to overcharge your ~|ring of death|~": {
-				"Category": ["Permanent Unlockables"],
+				"Category": ["Permanent Unlockables", "Timegated"],
 				"Label": "Permanent Unlockables",
 				"Chunks": ["Death's Office"],
 				"Monsters": ["AnyBoss[+]"]
@@ -141831,7 +141831,7 @@
 				}
 			},
 			"Unlock the ~|slayer helmet stand|~": {
-				"Category": ["Permanent Unlockables"],
+				"Category": ["Permanent Unlockables", "Timegated"],
 				"Label": "Permanent Unlockables",
 				"Chunks": ["15939"],
 				"Items": ["Dinosaur tooth"],
@@ -141840,7 +141840,7 @@
 				}
 			},
 			"Unlock the ~|skillcape rack|~": {
-				"Category": ["Permanent Unlockables"],
+				"Category": ["Permanent Unlockables", "Timegated"],
 				"Label": "Permanent Unlockables",
 				"Chunks": ["15939"],
 				"Items": ["Dinosaur rib bone"],
