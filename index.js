@@ -469,7 +469,7 @@ let rules = {
 	"Misc achievements": false,
 	"Kili Knowledge": false,
 	"Slayer Contracts": false,
-	"Partial Products": false
+	"Partial Products": false,
 	"Timegated": false
 };                                                                              // List of rules and their on/off state
 
@@ -713,7 +713,7 @@ let rulePresets = {
 		"Slayer Contracts": true,
 		"Cleaning Herbs Primary": true,
 		"Partial Products": true,
-		"Permanent Unlockables": true
+		"Permanent Unlockables": true,
 		"Timegated": true
     },
     "Supreme Chunker": {
@@ -810,7 +810,7 @@ let rulePresets = {
 		"Kili Knowledge": true,
 		"Slayer Contracts": true,
 		"Cleaning Herbs Primary": true,
-		"Partial Products": true
+		"Partial Products": true,
 		"Timegated": true
     }
 };                                                                              // List of rules that are part of each preset
@@ -851,8 +851,7 @@ let ruleStructure = {
 		"Token": true,
 		"Menaphos Events": true,
 		"Uncharted": true,
-		"Multiple Pickpockets": true,
-		"Partial Products": true
+		"Multiple Pickpockets": true
     },
     "Agility": {
         "Shortcut": true,
@@ -1604,8 +1603,6 @@ let moveAmountY = 0;
 let tempChunks = {};
 let tempSelectedChunks = [];
 let recentChunks = {};
-let animCount = 0;
-let isAnimating = false;
 let removedRecent = 0;
 let controlChunk = 0;
 let stickerChunk = 0;
@@ -2180,9 +2177,6 @@ let drawCanvas = function(ctxIn = ctx) {
     if (manualMouseMoveCheck) {
         manualMouseMoveCheck = false;
         handleMouseMove(manualMouseMoveCheck);
-    }
-    if (!isAnimating && !!recentChunks && Object.keys(recentChunks).length > 0 && !onMobile) {
-        runAnim();
     }
 }
 
@@ -2960,9 +2954,9 @@ let openRollChunkCanvas = async function(el, rand, sNum, rand2, sNum2, isUnpick)
         roll2Text = 'Roll 2';
         mid === roll5Mid && (roll2Text = 'Roll 5');
     }
-    $('.pick-preloading').html(pickText).addClass('pick').removeClass('pick-preloading').attr('disabled', false);
-    $('.roll2-preloading').html(roll2Text).addClass('roll2').removeClass('roll2-preloading').attr('disabled', false);
-    $('.unpick-preloading').html('Unpick Chunk').addClass('unpick').removeClass('unpick-preloading').attr('disabled', false);
+    $('.pick-preloading').text(pickText).addClass('pick').removeClass('pick-preloading').attr('disabled', false);
+    $('.roll2-preloading').text(roll2Text).addClass('roll2').removeClass('roll2-preloading').attr('disabled', false);
+    $('.unpick-preloading').text('Unpick Chunk').addClass('unpick').removeClass('unpick-preloading').attr('disabled', false);
     rollChunkModalOpen = true;
     $('.roll-chunk-title').text(isUnpick ? 'Unpicking your next chunk...' : 'Rolling your next chunk...');
     $('.roll-chunk-subtitle').text('');
@@ -3114,7 +3108,9 @@ let setRecentRoll = function(chunkId) {
             if (innerCount === 0 || chunkOrder[chunkOrderArr[innerCount]] !== chunkOrder[chunkOrderArr[innerCount - 1]] || chunkOrderArr[innerCount - 1] - chunkOrderArr[innerCount] > 10000) {
                 let tempDate = new Date();
                 tempDate.setTime(chunkOrderArr[innerCount]);
-                $('#recentChunks' + count).html('<span class="time">' + tempDate.toDateString().split(' ')[1] + ' ' + tempDate.toDateString().split(' ')[2] + ': </span><span class="chunk' + (chunkOrder[chunkOrderArr[innerCount]] ? '' : 'none') + '" onclick="recentChunkCanvas(recentChunks' + count + ')">' + chunkOrder[chunkOrderArr[innerCount]] + '</span>');
+                $('#recentChunks' + count).html('<span class="time"></span><span class="chunk' + (DOMPurify.sanitize(chunkOrder[chunkOrderArr[innerCount]], { ALLOWED_TAGS: [], ALLOWED_ATTR: [] }) ? '' : 'none') + '" onclick="recentChunkCanvas(recentChunks' + count + ')"></span>');
+                $('#recentChunks' + count + ' .time').text(tempDate.toDateString().split(' ')[1] + ' ' + tempDate.toDateString().split(' ')[2] + ': ');
+                $('#recentChunks' + count + ' .chunk').text(chunkOrder[chunkOrderArr[innerCount]]);
                 notFound = false;
             }
             innerCount++;
@@ -3438,7 +3434,7 @@ let calcCurrentChallengesCanvas = function(useOld, proceed, fromLoadData, inputT
     unlockedSections = combineJSONs(unlockedSections, findConnectedSections({...tempChunks['unlocked'], ...manualAreas} || {}, {...unlockedSections, ...tempSections}));
     let sectionsValid = true;
     !!tempChunks['unlocked'] && Object.keys(tempChunks['unlocked']).some((chunk) => {
-        if (!unlockedSections.hasOwnProperty(chunk) && chunkInfo['sections'].hasOwnProperty(chunk) && Object.keys(chunkInfo['sections'][chunk]).filter((section) => section !== "0").length > 0) {
+        if ((!unlockedSections.hasOwnProperty(chunk) || Object.keys(unlockedSections[chunk]).filter((section) => unlockedSections[chunk][section]).length === 0) && chunkInfo['sections'].hasOwnProperty(chunk) && Object.keys(chunkInfo['sections'][chunk]).filter((section) => section !== "0").length > 0) {
             if (fromLoadData) {
                 calcCurrentChallengesCanvas(useOld);
                 sectionsValid = false;
@@ -4465,7 +4461,7 @@ let importFromURL = function() {
             calcCurrentChallengesCanvas();
             setTimeout(function() {
                 $('#import-menu').css('opacity', 1);
-                $('#import2').prop('disabled', true).html('Unlock');
+                $('#import2').prop('disabled', true).text('Unlock');
                 $('.url').val('');
                 importMenuOpen = false;
             }, 500);
@@ -4484,7 +4480,7 @@ let exitImportMenu = function() {
     $('#import-menu').css({ 'opacity': 0 }).hide();
     setTimeout(function() {
         $('#import-menu').css('opacity', 1);
-        $('#import2').prop('disabled', true).html('Unlock');
+        $('#import2').prop('disabled', true).text('Unlock');
         $('.url').val('');
         $('.url').removeClass('wrong');
         $('.url-err').css('visibility', 'hidden');
@@ -4842,7 +4838,7 @@ let unlockEntry = function() {
         if (signInAttempts > 15) {
             setTimeout(function() {
                 $('.pin.entry').addClass('animated shake wrong').select();
-                $('#unlock-entry').prop('disabled', true).html('Unlock');
+                $('#unlock-entry').prop('disabled', true).text('Unlock');
                 signInAttempts++;
                 setTimeout(function() {
                     $('.pin.entry').removeClass('animated shake');
@@ -4874,7 +4870,7 @@ let unlockEntry = function() {
                         $('.open-manual-outer-container').animate({ 'opacity': 1 });
                         $('.dropdown-item-customize-topbar').animate({ 'opacity': 1 });
                         rules['Manually Complete Tasks'] && $('.open-complete-container').animate({ 'opacity': 1 });
-                        $('#unlock-entry').prop('disabled', false).html('Unlock');
+                        $('#unlock-entry').prop('disabled', false).text('Unlock');
                         locked = false;
                         inEntry = false;
                         helpMenuOpenSoon && helpFunc();
@@ -4885,7 +4881,7 @@ let unlockEntry = function() {
                     }, 500);
                 }).catch((error) => {
                     $('.pin.entry').addClass('animated shake wrong').select();
-                    $('#unlock-entry').prop('disabled', true).html('Unlock');
+                    $('#unlock-entry').prop('disabled', true).text('Unlock');
                     console.error('Incorrect map password');
                     signInAttempts++;
                 });
@@ -4930,7 +4926,7 @@ let unlockEntry = function() {
                                 $('.open-manual-outer-container').animate({ 'opacity': 1 });
                                 $('.dropdown-item-customize-topbar').animate({ 'opacity': 1 });
                                 rules['Manually Complete Tasks'] && $('.open-complete-container').animate({ 'opacity': 1 });
-                                $('#unlock-entry').prop('disabled', false).html('Unlock');
+                                $('#unlock-entry').prop('disabled', false).text('Unlock');
                                 locked = false;
                                 inEntry = false;
                                 helpMenuOpenSoon && helpFunc();
@@ -4940,7 +4936,7 @@ let unlockEntry = function() {
                             }, 500);
                         }).catch((error) => {
                             $('.pin.entry').addClass('animated shake wrong').select();
-                            $('#unlock-entry').prop('disabled', true).html('Unlock');
+                            $('#unlock-entry').prop('disabled', true).text('Unlock');
                             console.error('Incorrect map password');
                             signInAttempts++;
                         });
@@ -4951,7 +4947,7 @@ let unlockEntry = function() {
                 } else {
                     setTimeout(function() {
                         $('.pin.entry').addClass('animated shake wrong').select();
-                        $('#unlock-entry').prop('disabled', true).html('Unlock');
+                        $('#unlock-entry').prop('disabled', true).text('Unlock');
                         setTimeout(function() {
                             $('.pin.entry').removeClass('animated shake');
                         }, 500);
@@ -4969,7 +4965,7 @@ let proceed = function() {
     setTimeout(function() {
         $('#entry-menu').css('opacity', 1).hide();
         !viewOnly ? $('.lock-closed').animate({ 'opacity': 1 }) : $('.lock-closed').hide();
-        $('#unlock-entry').prop('disabled', false).html('Unlock');
+        $('#unlock-entry').prop('disabled', false).text('Unlock');
         locked = true;
         inEntry = false;
     }, 500);
@@ -8676,7 +8672,7 @@ let openHighest = function() {
                 }
             });
             if (combatStyle === 'Prayer') {
-                $('.Prayer-body .prayer-bonus-inner').html(prayerBonus);
+                $('.Prayer-body .prayer-bonus-inner').text(prayerBonus);
             }
         });
         if (highestTab === undefined || !combatStyles.includes(highestTab.replaceAll('_', ' '))) {
@@ -9616,7 +9612,7 @@ let checkOffAllTask = function(skill, task) {
     let completedNum = checkedAllTasks.hasOwnProperty(skill) ? Math.min(Object.keys(checkedAllTasks[skill]).filter(task => globalValids[skill].hasOwnProperty(task) && (!backlog.hasOwnProperty(skill) || !backlog[skill].hasOwnProperty(task))).length, Object.keys(globalValids[skill]).filter(task => !backlog.hasOwnProperty(skill) || !backlog[skill].hasOwnProperty(task)).length) : 0;
     $('.methods-topbar').html(`${skill} Tasks <span class='noscroll ${Object.keys(globalValids[skill]).filter(task => !backlog.hasOwnProperty(skill) || !backlog[skill].hasOwnProperty(task)).length > completedNum ? 'yellow' : 'green'}'>(${completedNum}/${Object.keys(globalValids[skill]).filter(task => !backlog.hasOwnProperty(skill) || !backlog[skill].hasOwnProperty(task)).length})</span><i class="manual-close pic fa-solid fa-times noscrollhard" onclick="closeMethods()"></i>`);
     $(`.${skill}-tasks-button`).removeClass('yellow green').addClass(Object.keys(globalValids[skill]).filter(task => !backlog.hasOwnProperty(skill) || !backlog[skill].hasOwnProperty(task)).length > completedNum ? 'yellow' : 'green');
-    $(`.${skill}-tasks-button > span`).html(`(${completedNum}/${Object.keys(globalValids[skill]).filter(task => !backlog.hasOwnProperty(skill) || !backlog[skill].hasOwnProperty(task)).length})`);
+    $(`.${skill}-tasks-button > span`).text(`(${completedNum}/${Object.keys(globalValids[skill]).filter(task => !backlog.hasOwnProperty(skill) || !backlog[skill].hasOwnProperty(task)).length})`);
     setData();
 }
 
@@ -10089,7 +10085,7 @@ let openQuestFilterContextMenu = function() {
 let openManualPrimaryContextMenu = function(skill) {
     manualPrimarySkill = skill;
     let dims = getBrowserDim();
-    $('.primarymethods-enable-opt').html(`${manualPrimary[skill] ? 'Disable' : 'Enable'} manual Primary training for ${skill}`);
+    $('.primarymethods-enable-opt').text(`${manualPrimary[skill] ? 'Disable' : 'Enable'} manual Primary training for ${skill}`);
     let x = event.pageX + $(".primarymethods-context-menu").width() + 5 > dims['w'] ? dims['w'] - $(".primarymethods-context-menu").width() - 5 : event.pageX - 5;
     let y = event.pageY + $(".primarymethods-context-menu").height() + 5 > dims['h'] ? dims['h'] - $(".primarymethods-context-menu").height() - 5 : event.pageY - 5;
     $(".primarymethods-context-menu").finish().toggle(100).css({
@@ -11762,7 +11758,7 @@ let checkMID = function(mid) {
         $('html, body').addClass('a404');
         $('.a404-address').text(window.location.href.split('?')[1]);
         document.title = '404 - Chunk Picker V2';
-    } else if (mid) {
+    } else if (mid && !['.', '#', '$', '[', ']'].some((char) => mid.includes(char))) {
         if (mid.split('-')[1] === 'view') {
             mid = mid.split('-')[0];
             viewOnly = true;
@@ -11806,6 +11802,8 @@ let checkMID = function(mid) {
             }
             setupMap();
         });
+    } else if (mid) {
+        window.location.replace(window.location.href.split('?')[0] + '?' + mid.toLowerCase().replace(/\.|\#|$|\[|\]/g, '') + (viewOnly ? '-view' : ''));
     } else {
         atHome = true;
         $('.menu, .menu2, .menu3, .menu4, .menu5, .menu6, .menu7, .menu8, .menu9, .menu10, .menu11, .settings-menu, .topnav, #beta, .hiddenInfo, #entry-menu, #highscore-menu, #highscore-menu2, #import-menu, #help-menu, .canvasDiv, .gomobiletasks, .menu12, .menu13, .menu14').hide();
@@ -12011,7 +12009,9 @@ let loadData = async function(startup) {
                 if (innerCount === 0 || chunkOrder[chunkOrderArr[innerCount]] !== chunkOrder[chunkOrderArr[innerCount - 1]] || chunkOrderArr[innerCount - 1] - chunkOrderArr[innerCount] > 10000) {
                     let tempDate = new Date();
                     tempDate.setTime(chunkOrderArr[innerCount]);
-                    $('#recentChunks' + count).html('<span class="time">' + tempDate.toDateString().split(' ')[1] + ' ' + tempDate.toDateString().split(' ')[2] + ': </span><span class="chunk' + (chunkOrder[chunkOrderArr[innerCount]] ? '' : 'none') + '" onclick="recentChunkCanvas(recentChunks' + count + ')">' + chunkOrder[chunkOrderArr[innerCount]] + '</span>');
+                    $('#recentChunks' + count).html('<span class="time"></span><span class="chunk' + (DOMPurify.sanitize(chunkOrder[chunkOrderArr[innerCount]], { ALLOWED_TAGS: [], ALLOWED_ATTR: [] }) ? '' : 'none') + '" onclick="recentChunkCanvas(recentChunks' + count + ')"></span>');
+                    $('#recentChunks' + count + ' .time').text(tempDate.toDateString().split(' ')[1] + ' ' + tempDate.toDateString().split(' ')[2] + ': ');
+                    $('#recentChunks' + count + ' .chunk').text(chunkOrder[chunkOrderArr[innerCount]]);
                     notFound = false;
                 }
                 innerCount++;
@@ -12394,7 +12394,6 @@ let loadData = async function(startup) {
             rulesTemp['Untracked Uniques Skilling'] = rulesTemp.hasOwnProperty('Untracked Uniques') ? rulesTemp['Untracked Uniques'] : false;
         }
 		
-		
 		if (!rulesTemp.hasOwnProperty('Untracked Uniques Combat')) {
             rulesTemp['Untracked Uniques Combat'] = rulesTemp.hasOwnProperty('Untracked Uniques') ? rulesTemp['Untracked Uniques'] : false;
         }
@@ -12738,7 +12737,7 @@ let rollMID = function(count) {
                     rollMID(rollMidCount + 1);
                 } else {
                     $('#newmid').text('ERROR').css('color', 'red');
-                    $('.maybe-error-text').css('font-size', 16).css('color', 'red').html('An error has occurred. This error has been reported to the developers. Please contact <u>whitecatblack</u> on Discord for more information.');
+                    $('.maybe-error-text').css('font-size', 16).css('color', 'red').text('An error has occurred. This error has been reported to the developers. Please contact <u>whitecatblack</u> on Discord for more information.');
                     $('.link-outer').hide();
                     console.error('Error: Unable to generate untaken mapId.');
                     logError('Error: Unable to generate untaken mapId.');
@@ -12806,7 +12805,7 @@ let changeLocked = function() {
                         $('.open-manual-outer-container').animate({ 'opacity': 1 });
                         $('.dropdown-item-customize-topbar').animate({ 'opacity': 1 });
                         rules['Manually Complete Tasks'] && $('.open-complete-container').animate({ 'opacity': 1 });
-                        $('#lock-unlock').prop('disabled', false).html('Unlock');
+                        $('#lock-unlock').prop('disabled', false).text('Unlock');
                         locked = false;
                         helpMenuOpenSoon && helpFunc();
                         patchNotesOpenSoon && openPatchNotesModal();
@@ -12816,7 +12815,7 @@ let changeLocked = function() {
                     }, 500);
                 }).catch((error) => {
                     $('.lock-pin').addClass('animated shake wrong').select();
-                    $('#lock-unlock').prop('disabled', true).html('Unlock');
+                    $('#lock-unlock').prop('disabled', true).text('Unlock');
                 });
                 setTimeout(function() {
                     $('.lock-pin').removeClass('animated shake');
@@ -12858,7 +12857,7 @@ let changeLocked = function() {
                                 $('.open-manual-outer-container').animate({ 'opacity': 1 });
                                 $('.dropdown-item-customize-topbar').animate({ 'opacity': 1 });
                                 rules['Manually Complete Tasks'] && $('.open-complete-container').animate({ 'opacity': 1 });
-                                $('#lock-unlock').prop('disabled', false).html('Unlock');
+                                $('#lock-unlock').prop('disabled', false).text('Unlock');
                                 locked = false;
                                 helpMenuOpenSoon && helpFunc();
                                 patchNotesOpenSoon && openPatchNotesModal();
@@ -12868,7 +12867,7 @@ let changeLocked = function() {
                             }, 500);
                         }).catch((error) => {
                             $('.lock-pin').addClass('animated shake wrong').select();
-                            $('#lock-unlock').prop('disabled', true).html('Unlock');
+                            $('#lock-unlock').prop('disabled', true).text('Unlock');
                         });
                     }, 1000);
                     setTimeout(function() {
@@ -12877,7 +12876,7 @@ let changeLocked = function() {
                 } else {
                     setTimeout(function() {
                         $('.lock-pin').addClass('animated shake wrong').select();
-                        $('#lock-unlock').prop('disabled', true).html('Unlock');
+                        $('#lock-unlock').prop('disabled', true).text('Unlock');
                         setTimeout(function() {
                             $('.lock-pin').removeClass('animated shake');
                         }, 500);
@@ -12895,7 +12894,7 @@ let closePinBox = function() {
     setTimeout(function() {
         $('.lock-box').css('opacity', 1).hide();
         $('.lock-' + (locked ? 'closed' : 'opened')).animate({ 'opacity': 1 });
-        $('#lock-unlock').prop('disabled', false).html('Unlock');
+        $('#lock-unlock').prop('disabled', false).text('Unlock');
         lockBoxOpen = false;
     }, 500);
 }
