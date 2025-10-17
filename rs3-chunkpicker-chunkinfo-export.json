@@ -132807,12 +132807,14 @@
 			"(Skilling Pets) Obtain ~|Dojo Mojo|~": {
 				"Category": ["Pets", "Skilling Pets"],
 				"Label": "Skilling Pets",
-				"Items": ["Dojo Mojo"]
+				"Items": ["Dojo Mojo"],
+				"Not F2P": true
 			},
 			"(Skilling Pets) Obtain ~|Archie|~": {
 				"Category": ["Pets", "Skilling Pets"],
 				"Label": "Skilling Pets",
-				"Items": ["Archie"]
+				"Items": ["Archie"],
+				"Not F2P": true
 			},
 			"(Skilling Pets) Obtain ~|Sifu|~": {
 				"Category": ["Pets", "Skilling Pets"],
@@ -132827,7 +132829,8 @@
 			"(Skilling Pets) Obtain ~|Baby Yaga's House|~": {
 				"Category": ["Pets", "Skilling Pets"],
 				"Label": "Skilling Pets",
-				"Items": ["Baby Yaga's House"]
+				"Items": ["Baby Yaga's House"],
+				"Not F2P": true
 			},
 			"(Skilling Pets) Obtain ~|Ramsay|~": {
 				"Category": ["Pets", "Skilling Pets"],
@@ -132847,7 +132850,8 @@
 			"(Skilling Pets) Obtain ~|Willow|~": {
 				"Category": ["Pets", "Skilling Pets"],
 				"Label": "Skilling Pets",
-				"Items": ["Willow"]
+				"Items": ["Willow"],
+				"Not F2P": true
 			},
 			"(Skilling Pets) Obtain ~|Gordie|~": {
 				"Category": ["Pets", "Skilling Pets"],
@@ -132857,7 +132861,8 @@
 			"(Skilling Pets) Obtain ~|Brains|~": {
 				"Category": ["Pets", "Skilling Pets"],
 				"Label": "Skilling Pets",
-				"Items": ["Brains"]
+				"Items": ["Brains"],
+				"Not F2P": true
 			},
 			"(Skilling Pets) Obtain ~|Bernie|~": {
 				"Category": ["Pets", "Skilling Pets"],
@@ -132877,17 +132882,20 @@
 			"(Skilling Pets) Obtain ~|Herbert|~": {
 				"Category": ["Pets", "Skilling Pets"],
 				"Label": "Skilling Pets",
-				"Items": ["Herbert"]
+				"Items": ["Herbert"],
+				"Not F2P": true
 			},
 			"(Skilling Pets) Obtain ~|Ace|~": {
 				"Category": ["Pets", "Skilling Pets"],
 				"Label": "Skilling Pets",
-				"Items": ["Ace"]
+				"Items": ["Ace"],
+				"Not F2P": true
 			},
 			"(Skilling Pets) Obtain ~|Malcolm|~": {
 				"Category": ["Pets", "Skilling Pets"],
 				"Label": "Skilling Pets",
-				"Items": ["Malcolm"]
+				"Items": ["Malcolm"],
+				"Not F2P": true
 			},
 			"(Skilling Pets) Obtain ~|Newton|~": {
 				"Category": ["Pets", "Skilling Pets"],
@@ -132902,12 +132910,14 @@
 			"(Skilling Pets) Obtain ~|Omen|~": {
 				"Category": ["Pets", "Skilling Pets"],
 				"Label": "Skilling Pets",
-				"Items": ["Omen"]
+				"Items": ["Omen"],
+				"Not F2P": true
 			},
 			"(Skilling Pets) Obtain ~|Ghostly|~": {
 				"Category": ["Pets", "Skilling Pets"],
 				"Label": "Skilling Pets",
-				"Items": ["Ghostly"]
+				"Items": ["Ghostly"],
+				"Not F2P": true
 			},
 			"(Skilling Pets) Obtain ~|Sparky|~": {
 				"Category": ["Pets", "Skilling Pets"],
@@ -132922,12 +132932,14 @@
 			"(Skilling Pets) Obtain ~|Crabbe|~": {
 				"Category": ["Pets", "Skilling Pets"],
 				"Label": "Skilling Pets",
-				"Items": ["Crabbe"]
+				"Items": ["Crabbe"],
+				"Not F2P": true
 			},
 			"(Skilling Pets) Obtain ~|Shamini|~": {
 				"Category": ["Pets", "Skilling Pets"],
 				"Label": "Skilling Pets",
-				"Items": ["Shamini"]
+				"Items": ["Shamini"],
+				"Not F2P": true
 			},
 			"(Skilling Pets) Obtain ~|Smithy|~": {
 				"Category": ["Pets", "Skilling Pets"],
@@ -132942,7 +132954,8 @@
 			"(Skilling Pets) Obtain ~|Ralph|~": {
 				"Category": ["Pets", "Skilling Pets"],
 				"Label": "Skilling Pets",
-				"Items": ["Ralph"]
+				"Items": ["Ralph"],
+				"Not F2P": true
 			},
 			"(Skilling Pets) Obtain ~|Woody|~": {
 				"Category": ["Pets", "Skilling Pets"],
