@@ -3404,11 +3404,7 @@ let calcChallengesWork = function(chunks, baseChunkData, oldTempItemSkill) {
     loadUserTasks();
 
     let tempSkills;
-    if (rules['F2P'] && rules['Skiller']) {
-        tempSkills = [...f2pSkills.filter(x => !combatSkills.includes(x) && x !== 'Combat' && x !== 'Slayer'), 'Nonskill', 'Quest', 'Diary', 'Extra'];
-    } else if (rules['F2P']) {
-        tempSkills = [...f2pSkills, 'Nonskill', 'Quest', 'Diary', 'Extra'];
-    } else if (rules['Skiller']) {
+    if (rules['Skiller']) {
         tempSkills = [...skillNames.filter(x => !combatSkills.includes(x) && x !== 'Combat' && x !== 'Slayer'), 'Nonskill', 'Quest', 'Diary', 'Extra'];
     } else {
         tempSkills = [...skillNames, 'Nonskill', 'Quest', 'Diary', 'Extra'];
@@ -3467,6 +3463,18 @@ let calcChallengesWork = function(chunks, baseChunkData, oldTempItemSkill) {
                 nonValids[name] = wrongThings;
                 return;
             }
+			if((skill == "Archaeology" || skill == "Necormancy") && chunkInfo['challenges'][skill][name]['Level'] > 20 && rules['F2P']) {
+				validChallenge = false;
+                wrongThings.push('F2P');
+                nonValids[name] = wrongThings;
+                return;
+			}
+			else if(!f2pSkills.includes(skill) && chunkInfo['challenges'][skill][name]['Level'] > 5 && rules['F2P']) {
+				validChallenge = false;
+                wrongThings.push('F2P');
+                nonValids[name] = wrongThings;
+                return;
+			}
             if (chunkInfo['challenges'][skill][name].hasOwnProperty('Not Skiller') && rules['Skiller']) {
                 validChallenge = false;
                 wrongThings.push('Skiller');
