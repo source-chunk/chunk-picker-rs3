@@ -7011,7 +7011,8 @@
 				"Level": 115,
 				"Output": "Spear of Annihilation with shaft",
 				"Primary": true,
-				"Priority": 5
+				"Priority": 5,
+				"Partial": true
 			},
 			"Create the ~|Spear of Annihilation with shaft + spokes|~": {
 				"Tasks": {
@@ -7022,7 +7023,8 @@
 				"Level": 115,
 				"Output": "Spear of Annihilation with shaft + spokes",
 				"Primary": true,
-				"Priority": 6
+				"Priority": 6,
+				"Partial": true
 			},
 			"Create the ~|Spear of Annihilation|~": {
 				"Tasks": {
@@ -9262,7 +9264,7 @@
 				}
 			},
 			"Receive a slayer assignment from ~|Jacquelyn|~": {
-				"Chunks": ["12850"],
+				"NPCs": ["Jacquelyn"],
 				"Level": 3,
 				"Primary": true,
 				"Priority": 2,
@@ -9272,7 +9274,7 @@
 				"Not F2P": true
 			},
 			"Receive a slayer assignment from ~|Vannaka|~": {
-				"Chunks": ["Edgeville Dungeon"],
+				"NPCs": ["Vannaka"],
 				"Level": 30,
 				"Primary": true,
 				"Priority": 1,
@@ -9282,7 +9284,7 @@
 				"Not F2P": true
 			},
 			"Receive a slayer assignment from ~|the Raptor|~": {
-				"Chunks": ["13111"],
+				"NPCs": ["The Raptor#Fort Forinthry"],
 				"Level": 35,
 				"Primary": true,
 				"Priority": 1,
@@ -9295,7 +9297,7 @@
 				"Not F2P": true
 			},
 			"Receive a slayer assignment from ~|Mazchna|~": {
-				"Chunks": ["13878"],
+				"NPCs": ["Mazchna"],
 				"Level": 50,
 				"Primary": true,
 				"Priority": 1,
@@ -9305,7 +9307,7 @@
 				"Not F2P": true
 			},
 			"Receive a slayer assignment from ~|Chaeldar|~": {
-				"Chunks": ["Zanaris"],
+				"NPCs": ["Chaeldar"],
 				"Level": 75,
 				"Primary": true,
 				"Priority": 1,
@@ -9315,7 +9317,7 @@
 				"Not F2P": true
 			},
 			"Receive a slayer assignment from ~|Sumona|~": {
-				"Chunks": ["13358"],
+				"NPCs": ["Sumona"],
 				"Level": 90,
 				"Tasks": {
 					"~|Smoking Kills|~ Complete the quest": "Quest"
@@ -9328,7 +9330,7 @@
 				"Not F2P": true
 			},
 			"Receive a slayer assignment from ~|Duradel|~": {
-				"Chunks": ["11310"],
+				"NPCs": ["Duradel"],
 				"Level": 100,
 				"Primary": true,
 				"Priority": 1,
@@ -9338,7 +9340,7 @@
 				"Not F2P": true
 			},
 			"Receive a slayer assignment from ~|Kuradal|~": {
-				"Chunks": ["Ancient Cavern"],
+				"NPCs": ["Kuradal"],
 				"Level": 110,
 				"Primary": true,
 				"Priority": 1,
@@ -9348,7 +9350,7 @@
 				"Not F2P": true
 			},
 			"Receive a slayer assignment from ~|Morvran|~": {
-				"Chunks": ["8755"],
+				"NPCs": ["Morvran"],
 				"Level": 120,
 				"Primary": true,
 				"Priority": 1,
@@ -9358,7 +9360,7 @@
 				"Not F2P": true
 			},
 			"Receive a slayer bounty from ~|Mandrith|~": {
-				"Chunks": ["12093"],
+				"NPCs": ["Mandrith"],
 				"Level": 120,
 				"Primary": true,
 				"Priority": 2,
@@ -9368,7 +9370,7 @@
 				"Not F2P": true
 			},
 			"Receive a slayer assignment from ~|Laniakea|~": {
-				"Chunks": ["15939"],
+				"NPCs": ["Laniakea"],
 				"Level": 120,
 				"Primary": true,
 				"Priority": 3,
@@ -11961,7 +11963,7 @@
 			},
 			"Build a second small pen in your ~|player-owned farm|~": {
 				"Chunks": ["10548"],
-				"Items": ["PlankOakUp[+]*", "SteelNails[+]*"],
+				"Items": ["PlankOakUp[+]*", "SteelNails[+]*", "Small pen deed II"],
 				"Level": 20,
 				"Skills": {
 					"Farming": 28
@@ -12780,7 +12782,7 @@
 			},
 			"Build a medium pen in your ~|player-owned farm|~": {
 				"Chunks": ["10548"],
-				"Items": ["PlankTeakUp[+]*", "MithrilNails[+]*"],
+				"Items": ["PlankTeakUp[+]*", "MithrilNails[+]*", "Medium pen deed I"],
 				"Level": 40,
 				"Skills": {
 					"Farming": 35
@@ -12794,7 +12796,7 @@
 			},
 			"Build a second medium pen in your ~|player-owned farm|~": {
 				"Chunks": ["10548"],
-				"Items": ["PlankTeakUp[+]**", "MithrilNails[+]*"],
+				"Items": ["PlankTeakUp[+]**", "MithrilNails[+]*", "Medium pen deed II"],
 				"Level": 40,
 				"Skills": {
 					"Farming": 64
@@ -13170,6 +13172,7 @@
 			},
 			"Build a small dinosaur pen in your ~|player-owned ranch|~": {
 				"Chunks": ["14916"],
+				"Items": ["Small dinosaur pen deed"],
 				"Level": 45,
 				"Tasks": {
 					"Unlock the Anachronia Base Camp": "Nonskill",
@@ -13763,6 +13766,7 @@
 			},
 			"Build a dinosaur breeding pen in your ~|player-owned ranch|~": {
 				"Chunks": ["14659"],
+				"Items": ["Dinosaur breeding pen deed I"],
 				"Level": 55,
 				"Tasks": {
 					"Unlock the Anachronia Base Camp": "Nonskill",
@@ -14050,7 +14054,7 @@
 			},
 			"Build a large pen in your ~|player-owned farm|~": {
 				"Chunks": ["10548"],
-				"Items": ["PlankMahoganyUp[+]*", "Rune nails*"],
+				"Items": ["PlankMahoganyUp[+]*", "Rune nails*", "Large pen deed I"],
 				"Level": 60,
 				"Skills": {
 					"Farming": 49
@@ -14061,7 +14065,7 @@
 			},
 			"Build a second large pen in your ~|player-owned farm|~": {
 				"Chunks": ["10548"],
-				"Items": ["PlankMahoganyUp[+]*", "Rune nails*"],
+				"Items": ["PlankMahoganyUp[+]*", "Rune nails*", "Large pen deed II"],
 				"Level": 60,
 				"Skills": {
 					"Farming": 71
@@ -15336,6 +15340,7 @@
 			},
 			"Build a medium dinosaur pen in your ~|player-owned ranch|~": {
 				"Chunks": ["14916"],
+				"Items": ["Medium dinosaur pen deed"],
 				"Level": 80,
 				"Skills": {
 					"Farming": 76
@@ -15796,6 +15801,7 @@
 			},
 			"Build a large dinosaur pen in your ~|player-owned ranch|~": {
 				"Chunks": ["14660"],
+				"Items": ["Large dinosaur pen deed I"],
 				"Level": 90,
 				"Skills": {
 					"Farming": 98
@@ -15810,6 +15816,7 @@
 			},
 			"Build a second large dinosaur pen in your ~|player-owned ranch|~": {
 				"Chunks": ["14659"],
+				"Items": ["Large dinosaur pen deed II"],
 				"Level": 90,
 				"Skills": {
 					"Farming": 104
@@ -16279,7 +16286,8 @@
 				"Level": 1,
 				"Output": "Ground crab meat",
 				"Primary": true,
-				"Priority": 4
+				"Priority": 4,
+				"Partial": true
 			},
 			"Cook ~|cooked ugthanki meat|~": {
 				"Items": ["Raw ugthanki meat*"],
@@ -16329,7 +16337,8 @@
 				"Level": 1,
 				"Output": "Sinew",
 				"Primary": true,
-				"Priority": 10
+				"Priority": 10,
+				"Partial": true
 			},
 			"Cook ~|shrimps|~": {
 				"Items": ["Raw shrimps*"],
@@ -16402,7 +16411,8 @@
 				"Output": "Raw swamp paste",
 				"Primary": true,
 				"Priority": 19,
-				"Not F2P": true
+				"Not F2P": true,
+				"Partial": true
 			},
 			"Cook ~|swamp paste|~": {
 				"Items": ["Raw swamp paste*"],
@@ -16419,7 +16429,8 @@
 				"Level": 1,
 				"Output": "Bread dough",
 				"Primary": true,
-				"Priority": 21
+				"Priority": 21,
+				"Partial": true
 			},
 			"Make ~|bread dough|~ from a water source": {
 				"Category": ["Token"],
@@ -16428,7 +16439,8 @@
 				"Level": 1,
 				"Output": "Bread dough",
 				"Primary": true,
-				"Priority": 22
+				"Priority": 22,
+				"Partial": true
 			},
 			"Bake ~|bread|~": {
 				"Items": ["Bread dough*"],
@@ -16447,7 +16459,8 @@
 				"Level": 1,
 				"Output": "Breadcrumbs",
 				"Primary": true,
-				"Priority": 24
+				"Priority": 24,
+				"Partial": true
 			},
 			"Cook a ~|karambwanji|~": {
 				"Items": ["Raw karambwanji*"],
@@ -16473,7 +16486,8 @@
 				"Level": 1,
 				"Output": "Pie shell",
 				"Primary": true,
-				"Priority": 27
+				"Priority": 27,
+				"Partial": true
 			},
 			"Make ~|chopped onion|~": {
 				"Items": ["Bowl", "Onion*"],
@@ -16481,7 +16495,8 @@
 				"Output": "Chopped onion",
 				"Primary": true,
 				"Priority": 28,
-				"Not F2P": true
+				"Not F2P": true,
+				"Partial": true
 			},
 			"Make ~|chopped tomato|~": {
 				"Items": ["Bowl", "Tomato*"],
@@ -16489,7 +16504,8 @@
 				"Output": "Chopped tomato",
 				"Primary": true,
 				"Priority": 29,
-				"Not F2P": true
+				"Not F2P": true,
+				"Partial": true
 			},
 			"Make ~|spicy tomato|~": {
 				"Items": ["Chopped tomato*", "Spice[+]*"],
@@ -16497,7 +16513,8 @@
 				"Output": "Spicy tomato",
 				"Primary": true,
 				"Priority": 30,
-				"Not F2P": true
+				"Not F2P": true,
+				"Partial": true
 			},
 			"Make ~|chopped garlic|~": {
 				"Items": ["Bowl", "Garlic*"],
@@ -16505,7 +16522,8 @@
 				"Output": "Chopped garlic",
 				"Primary": true,
 				"Priority": 31,
-				"Not F2P": true
+				"Not F2P": true,
+				"Partial": true
 			},
 			"Make ~|chopped tuna|~": {
 				"Items": ["Bowl", "Tuna*"],
@@ -16521,7 +16539,8 @@
 				"Output": "Nettle-water",
 				"Primary": true,
 				"Priority": 33,
-				"Not F2P": true
+				"Not F2P": true,
+				"Partial": true
 			},
 			"Make ~|sliced mushrooms|~": {
 				"Items": ["Bowl", "Bittercap mushroom*"],
@@ -16537,7 +16556,8 @@
 				"Output": "Uncooked eggs",
 				"Primary": true,
 				"Priority": 34,
-				"Not F2P": true
+				"Not F2P": true,
+				"Partial": true
 			},
 			"Make ~|onion & tomato|~": {
 				"Items": ["Chopped onion*", "Tomato*"],
@@ -16545,7 +16565,8 @@
 				"Output": "Onion & tomato",
 				"Primary": true,
 				"Priority": 35,
-				"Not F2P": true
+				"Not F2P": true,
+				"Partial": true
 			},
 			"Make a ~|kebab mix|~": {
 				"Items": ["Onion & tomato*", "Ugthanki meat*"],
@@ -16553,7 +16574,8 @@
 				"Output": "Kebab mix",
 				"Primary": true,
 				"Priority": 36,
-				"Not F2P": true
+				"Not F2P": true,
+				"Partial": true
 			},
 			"Make an ~|ugthanki kebab|~": {
 				"Items": ["Pitta bread*", "Kebab mix*"],
@@ -16577,7 +16599,8 @@
 				"Level": 1,
 				"Output": "Pineapple chunks",
 				"Primary": true,
-				"Priority": 39
+				"Priority": 39,
+				"Partial": true
 			},
 			"Cut ~|lemon slices|~": {
 				"Category": ["Token"],
@@ -16585,7 +16608,8 @@
 				"Level": 1,
 				"Output": "Lemon slices",
 				"Primary": true,
-				"Priority": 40
+				"Priority": 40,
+				"Partial": true
 			},
 			"Cut ~|lemon chunks|~": {
 				"Category": ["Token"],
@@ -16593,7 +16617,8 @@
 				"Level": 1,
 				"Output": "Lemon chunks",
 				"Primary": true,
-				"Priority": 41
+				"Priority": 41,
+				"Partial": true
 			},
 			"Cut ~|orange slices|~": {
 				"Category": ["Token"],
@@ -16601,7 +16626,8 @@
 				"Level": 1,
 				"Output": "Orange slices",
 				"Primary": true,
-				"Priority": 42
+				"Priority": 42,
+				"Partial": true
 			},
 			"Cut ~|orange chunks|~": {
 				"Category": ["Token"],
@@ -16609,7 +16635,8 @@
 				"Level": 1,
 				"Output": "Orange chunks",
 				"Primary": true,
-				"Priority": 43
+				"Priority": 43,
+				"Partial": true
 			},
 			"Cut ~|lime slices|~": {
 				"Category": ["Token"],
@@ -16617,7 +16644,8 @@
 				"Level": 1,
 				"Output": "Lime slices",
 				"Primary": true,
-				"Priority": 44
+				"Priority": 44,
+				"Partial": true
 			},
 			"Cut ~|lime chunks|~": {
 				"Category": ["Token"],
@@ -16625,7 +16653,8 @@
 				"Level": 1,
 				"Output": "Lime chunks",
 				"Primary": true,
-				"Priority": 45
+				"Priority": 45,
+				"Partial": true
 			},
 			"Grind ~|chocolate dust|~": {
 				"Category": ["Token"],
@@ -16633,14 +16662,16 @@
 				"Level": 1,
 				"Output": "Chocolate dust",
 				"Primary": true,
-				"Priority": 46
+				"Priority": 46,
+				"Partial": true
 			},
 			"Make a ~|strange potato|~": {
 				"Items": ["Baked potato*", "Juju cooking potion (1)*"],
 				"Level": 1,
-				"Output": "Chocolate dust",
+				"Output": "Strange potato",
 				"Primary": true,
-				"Priority": 47
+				"Priority": 47,
+				"Partial": true
 			},
 			"Grind ~|ground cod|~": {
 				"Category": ["Token"],
@@ -16648,7 +16679,8 @@
 				"Level": 1,
 				"Output": "Ground cod",
 				"Primary": true,
-				"Priority": 48
+				"Priority": 48,
+				"Partial": true
 			},
 			"Grind ~|ground kelp|~": {
 				"Category": ["Token"],
@@ -16656,7 +16688,8 @@
 				"Level": 1,
 				"Output": "Ground kelp",
 				"Primary": true,
-				"Priority": 49
+				"Priority": 49,
+				"Partial": true
 			},
 			"Make ~|soda ash|~": {
 				"Category": ["Token"],
@@ -16666,7 +16699,8 @@
 				"Output": "Soda ash",
 				"Primary": true,
 				"Priority": 50,
-				"Not F2P": true
+				"Not F2P": true,
+				"Partial": true
 			},
 			"Cut ~|sliced banana|~": {
 				"Category": ["Token"],
@@ -16674,7 +16708,8 @@
 				"Level": 1,
 				"Output": "Sliced banana",
 				"Primary": true,
-				"Priority": 51
+				"Priority": 51,
+				"Partial": true
 			},
 			"Cut a ~|watermelon slice|~": {
 				"Category": ["Token"],
@@ -16682,7 +16717,8 @@
 				"Level": 1,
 				"Output": "Watermelon slice",
 				"Primary": true,
-				"Priority": 52
+				"Priority": 52,
+				"Partial": true
 			},
 			"Cut a ~|coconut (open)|~": {
 				"Category": ["Token"],
@@ -16690,7 +16726,8 @@
 				"Level": 1,
 				"Output": "Coconut (open)",
 				"Primary": true,
-				"Priority": 53
+				"Priority": 53,
+				"Partial": true
 			},
 			"Fill a ~|pot of flour|~": {
 				"Category": ["Token"],
@@ -16699,7 +16736,8 @@
 				"Level": 1,
 				"Output": "Pot of flour",
 				"Primary": true,
-				"Priority": 54
+				"Priority": 54,
+				"Partial": true
 			},
 			"Grind ~|ground seaweed|~": {
 				"Category": ["Token"],
@@ -16707,7 +16745,8 @@
 				"Level": 1,
 				"Output": "Ground seaweed",
 				"Primary": true,
-				"Priority": 55
+				"Priority": 55,
+				"Partial": true
 			},
 			"Grind ~|ground guam|~": {
 				"Category": ["Token"],
@@ -16716,7 +16755,8 @@
 				"Output": "Ground guam",
 				"Primary": true,
 				"Priority": 56,
-				"Not F2P": true
+				"Not F2P": true,
+				"Partial": true
 			},
 			"Make ~|winter sq'irkjuice|~": {
 				"Category": ["Token"],
@@ -16851,7 +16891,8 @@
 				"Level": 1,
 				"Output": "Barley malt",
 				"Primary": true,
-				"Priority": 71
+				"Priority": 71,
+				"Partial": true
 			},
 			"Make a ~|cup of tea (clay)|~": {
 				"Items": ["Tea leaves", "Clay cup"],
@@ -16907,7 +16948,8 @@
 				"Output": "Mixed blast",
 				"Primary": false,
 				"Priority": 1,
-				"Not F2P": true
+				"Not F2P": true,
+				"Partial": true
 			},
 			"Make a ~|Fruit Blast|~": {
 				"Items": ["Mixed blast*", "Lemon slices*", "Cocktail glass"],
@@ -16945,7 +16987,8 @@
 				"Output": "Mixed punch",
 				"Primary": false,
 				"Priority": 3,
-				"Not F2P": true
+				"Not F2P": true,
+				"Partial": true
 			},
 			"Make a ~|Pineapple Punch|~": {
 				"Items": ["Mixed punch*", "Orange slices*", "Lime chunks*", "Pineapple chunk*s", "Cocktail glass"],
@@ -16961,7 +17004,8 @@
 				"Output": "Spicy sauce",
 				"Primary": true,
 				"Priority": 1,
-				"Not F2P": true
+				"Not F2P": true,
+				"Partial": true
 			},
 			"Make ~|chilli con carne|~": {
 				"Items": ["Spicy sauce*", "CookedMeat[+]*"],
@@ -16977,7 +17021,8 @@
 				"Level": 10,
 				"Output": "Pastry dough",
 				"Primary": true,
-				"Priority": 1
+				"Priority": 1,
+				"Partial": true
 			},
 			"Make ~|pastry dough|~ from a water source": {
 				"Category": ["Token"],
@@ -16986,14 +17031,16 @@
 				"Level": 10,
 				"Output": "Pastry dough",
 				"Primary": true,
-				"Priority": 2
+				"Priority": 2,
+				"Partial": true
 			},
 			"Make an ~|uncooked berry pie|~": {
 				"Items": ["Pie shell*", "Redberries*"],
 				"Level": 10,
 				"Output": "Uncooked berry pie",
 				"Primary": true,
-				"Priority": 3
+				"Priority": 3,
+				"Partial": true
 			},
 			"Bake a ~|redberry pie|~": {
 				"Items": ["Uncooked berry pie*"],
@@ -17024,7 +17071,8 @@
 				"Level": 10,
 				"Output": "Raw crunchies",
 				"Primary": false,
-				"Priority": 6
+				"Priority": 6,
+				"Partial": true
 			},
 			"Bake ~|half baked crunchies|~": {
 				"Items": ["Raw crunchies*"],
@@ -17033,7 +17081,8 @@
 				"Output": "Half baked crunchy",
 				"Primary": true,
 				"Priority": 7,
-				"Not F2P": true
+				"Not F2P": true,
+				"Partial": true
 			},
 			"Make ~|half made toad crunchies|~": {
 				"Items": ["Half baked crunchy*", "Toad's legs*", "Gnome spice*"],
@@ -17041,7 +17090,8 @@
 				"Output": "Half made toad crunchy",
 				"Primary": false,
 				"Priority": 8,
-				"Not F2P": true
+				"Not F2P": true,
+				"Partial": true
 			},
 			"Bake ~|unfinished toad crunchies|~": {
 				"Items": ["Half made toad crunchy*"],
@@ -17050,7 +17100,8 @@
 				"Output": "Unfinished toad crunchy",
 				"Primary": true,
 				"Priority": 9,
-				"Not F2P": true
+				"Not F2P": true,
+				"Partial": true
 			},
 			"Finish ~|toad crunchies|~": {
 				"Items": ["Unfinished toad crunchy*", "Equa leaves*"],
@@ -17075,7 +17126,8 @@
 				"Output": "Skewered bird meat",
 				"Primary": false,
 				"Priority": 1,
-				"Not F2P": true
+				"Not F2P": true,
+				"Partial": true
 			},
 			"Roast ~|roast bird meat|~": {
 				"Items": ["Skewered bird meat*"],
@@ -17095,7 +17147,8 @@
 				"Output": "Half made spicy crunchy",
 				"Primary": false,
 				"Priority": 1,
-				"Not F2P": true
+				"Not F2P": true,
+				"Partial": true
 			},
 			"Bake ~|unfinished spicy crunchies|~": {
 				"Items": ["Half made spicy crunchy*"],
@@ -17104,7 +17157,8 @@
 				"Output": "Unfinished spicy crunchy",
 				"Primary": true,
 				"Priority": 2,
-				"Not F2P": true
+				"Not F2P": true,
+				"Partial": true
 			},
 			"Finish ~|spicy crunchies|~": {
 				"Items": ["Unfinished spicy crunchy*", "Gnome spice*"],
@@ -17139,7 +17193,8 @@
 				"Output": "Apple mush",
 				"Primary": false,
 				"Priority": 1,
-				"Not F2P": true
+				"Not F2P": true,
+				"Partial": true
 			},
 			"Brew ~|cider|~": {
 				"Items": ["Apple mush*", "Ale yeast*", "Beer glass"],
@@ -17156,7 +17211,8 @@
 				"Output": "Half made worm crunchy",
 				"Primary": false,
 				"Priority": 3,
-				"Not F2P": true
+				"Not F2P": true,
+				"Partial": true
 			},
 			"Bake ~|unfinished worm crunchies|~": {
 				"Items": ["Half made worm crunchy*"],
@@ -17165,7 +17221,8 @@
 				"Output": "Unfinished worm crunchy",
 				"Primary": true,
 				"Priority": 4,
-				"Not F2P": true
+				"Not F2P": true,
+				"Partial": true
 			},
 			"Finish ~|worm crunchies|~": {
 				"Items": ["Unfinished worm crunchy*", "Gnome spice*"],
@@ -17212,7 +17269,8 @@
 				"Output": "Skewered rabbit",
 				"Primary": false,
 				"Priority": 1,
-				"Not F2P": true
+				"Not F2P": true,
+				"Partial": true
 			},
 			"Roast a ~|roast rabbit|~": {
 				"Items": ["Skewered rabbit*"],
@@ -17233,7 +17291,8 @@
 				"Output": "Spider on a stick (raw)",
 				"Primary": false,
 				"Priority": 3,
-				"Not F2P": true
+				"Not F2P": true,
+				"Partial": true
 			},
 			"Cook a ~|spider on a stick|~": {
 				"Items": ["Spider on a stick (raw)*"],
@@ -17250,7 +17309,8 @@
 				"Output": "Half made choc chip crunchy",
 				"Primary": false,
 				"Priority": 5,
-				"Not F2P": true
+				"Not F2P": true,
+				"Partial": true
 			},
 			"Bake ~|unfinished choc chip crunchies|~": {
 				"Items": ["Half made choc chip crunchy*"],
@@ -17259,7 +17319,8 @@
 				"Output": "Unfinished choc chip crunchy",
 				"Primary": true,
 				"Priority": 6,
-				"Not F2P": true
+				"Not F2P": true,
+				"Partial": true
 			},
 			"Finish ~|chocchip crunchies|~": {
 				"Items": ["Unfinished choc chip crunchy*", "Chocolate dust*"],
@@ -17276,7 +17337,8 @@
 				"Output": "Spider on a shaft (raw)",
 				"Primary": false,
 				"Priority": 8,
-				"Not F2P": true
+				"Not F2P": true,
+				"Partial": true
 			},
 			"Cook a ~|spider on a shaft|~": {
 				"Items": ["Spider on a shaft (raw)*"],
@@ -17302,7 +17364,8 @@
 				"Output": "Mixed blizzard",
 				"Primary": false,
 				"Priority": 1,
-				"Not F2P": true
+				"Not F2P": true,
+				"Partial": true
 			},
 			"Make a ~|Wizard Blizzard|~": {
 				"Items": ["Mixed blizzard*", "Lime slices*", "Pineapple chunks*", "Cocktail glass"],
@@ -17343,7 +17406,8 @@
 				"Level": 20,
 				"Output": "Uncooked meat pie",
 				"Primary": true,
-				"Priority": 2
+				"Priority": 2,
+				"Partial": true
 			},
 			"Bake a ~|meat pie|~": {
 				"Items": ["Uncooked meat pie*"],
@@ -17446,7 +17510,8 @@
 				"Output": "Mixed sgg",
 				"Primary": false,
 				"Priority": 15,
-				"Not F2P": true
+				"Not F2P": true,
+				"Partial": true
 			},
 			"Make a ~|Short Green Guy|~": {
 				"Items": ["Mixed sgg*", "Lime slices*", "Equa leaves*", "Cocktail glass"],
@@ -17480,7 +17545,8 @@
 				"Output": "Skewered beast",
 				"Primary": false,
 				"Priority": 3,
-				"Not F2P": true
+				"Not F2P": true,
+				"Partial": true
 			},
 			"Roast ~|roast beast meat|~": {
 				"Items": ["Skewered beast*"],
@@ -17535,7 +17601,8 @@
 				"Level": 24,
 				"Output": "Raw bacon stack",
 				"Primary": true,
-				"Priority": 3
+				"Priority": 3,
+				"Partial": true
 			},
 			"Fry a ~|bacon stack|~": {
 				"Items": ["Raw bacon stack*"],
@@ -17559,14 +17626,16 @@
 				"Level": 25,
 				"Output": "Incomplete stew (potato)",
 				"Primary": true,
-				"Priority": 2
+				"Priority": 2,
+				"Partial": true
 			},
 			"Cook an ~|uncooked stew|~": {
 				"Items": ["Incomplete stew (potato)*", "CookedChicken[+]*"],
 				"Level": 25,
 				"Output": "Uncooked stew",
 				"Primary": true,
-				"Priority": 3
+				"Priority": 3,
+				"Partial": true
 			},
 			"Cook a ~|stew|~": {
 				"Items": ["Uncooked stew*"],
@@ -17582,7 +17651,8 @@
 				"Level": 25,
 				"Output": "Raw batta",
 				"Primary": false,
-				"Priority": 1
+				"Priority": 1,
+				"Partial": true
 			},
 			"Bake a ~|half baked batta|~": {
 				"Items": ["Raw batta*"],
@@ -17590,14 +17660,16 @@
 				"Level": 25,
 				"Output": "Half baked batta",
 				"Primary": true,
-				"Priority": 2
+				"Priority": 2,
+				"Partial": true
 			},
 			"Make a ~|half made fruit batta|~": {
 				"Items": ["Half baked batta*", "Lime chunks*", "Orange chunks*", "Pineapple chunks*", "Equa leaves*"],
 				"Level": 25,
 				"Output": "Half made fruit batta",
 				"Primary": false,
-				"Priority": 3
+				"Priority": 3,
+				"Partial": true
 			},
 			"Bake a ~|unfinished fruit batta|~": {
 				"Items": ["Half made fruit batta*"],
@@ -17605,7 +17677,8 @@
 				"Level": 25,
 				"Output": "Unfinished fruit batta",
 				"Primary": true,
-				"Priority": 4
+				"Priority": 4,
+				"Partial": true
 			},
 			"Finish a ~|fruit batta|~": {
 				"Items": ["Unfinished fruit batta*", "Gnome spice*"],
@@ -17619,7 +17692,8 @@
 				"Level": 26,
 				"Output": "Half made toad batta",
 				"Primary": false,
-				"Priority": 1
+				"Priority": 1,
+				"Partial": true
 			},
 			"Bake a ~|toad batta|~": {
 				"Items": ["Half made toad batta*"],
@@ -17634,7 +17708,8 @@
 				"Level": 27,
 				"Output": "Half made worm batta",
 				"Primary": false,
-				"Priority": 1
+				"Priority": 1,
+				"Partial": true
 			},
 			"Bake a ~|unfinished worm batta|~": {
 				"Items": ["Half made worm batta*"],
@@ -17642,7 +17717,8 @@
 				"Level": 27,
 				"Output": "Unfinished worm batta",
 				"Primary": true,
-				"Priority": 2
+				"Priority": 2,
+				"Partial": true
 			},
 			"Finish a ~|worm batta|~": {
 				"Items": ["Unfinished worm batta*", "Equa leaves*"],
@@ -17672,7 +17748,8 @@
 				"Level": 28,
 				"Output": "Half made veg batta",
 				"Primary": false,
-				"Priority": 3
+				"Priority": 3,
+				"Partial": true
 			},
 			"Bake a ~|unfinished veg batta|~": {
 				"Items": ["Half made veg batta*"],
@@ -17680,7 +17757,8 @@
 				"Level": 28,
 				"Output": "Unfinished veg batta",
 				"Primary": true,
-				"Priority": 4
+				"Priority": 4,
+				"Partial": true
 			},
 			"Finish a ~|vegetable batta|~": {
 				"Items": ["Unfinished veg batta*", "Equa leaves*"],
@@ -17703,7 +17781,8 @@
 				"Output": "Part mud pie 1",
 				"Primary": true,
 				"Priority": 2,
-				"Not F2P": true
+				"Not F2P": true,
+				"Partial": true
 			},
 			"Make a ~|part mud pie 2|~": {
 				"Items": ["Part mud pie 1*", "Bucket of water"],
@@ -17711,7 +17790,8 @@
 				"Output": "Part mud pie 2",
 				"Primary": true,
 				"Priority": 3,
-				"Not F2P": true
+				"Not F2P": true,
+				"Partial": true
 			},
 			"Make a ~|raw mud pie|~": {
 				"Items": ["Part mud pie 2*", "Clay*"],
@@ -17719,7 +17799,8 @@
 				"Output": "Raw mud pie",
 				"Primary": true,
 				"Priority": 4,
-				"Not F2P": true
+				"Not F2P": true,
+				"Partial": true
 			},
 			"Bake a ~|mud pie|~": {
 				"Items": ["Raw mud pie*"],
@@ -17749,7 +17830,8 @@
 				"Level": 29,
 				"Output": "Half made cheese and tom batta",
 				"Primary": false,
-				"Priority": 7
+				"Priority": 7,
+				"Partial": true
 			},
 			"Bake a ~|unfinished cheese and tom batta|~": {
 				"Items": ["Half made cheese and tom batta*"],
@@ -17757,7 +17839,8 @@
 				"Level": 29,
 				"Output": "Unfinished cheese and tom batta",
 				"Primary": true,
-				"Priority": 8
+				"Priority": 8,
+				"Partial": true
 			},
 			"Finish a ~|cheese+tom batta|~": {
 				"Items": ["Unfinished cheese and tom batta*", "Equa leaves*"],
@@ -17790,7 +17873,8 @@
 				"Level": 30,
 				"Output": "Uncooked apple pie",
 				"Primary": true,
-				"Priority": 2
+				"Priority": 2,
+				"Partial": true
 			},
 			"Bake an ~|apple pie|~": {
 				"Items": ["Uncooked apple pie*"],
@@ -17829,7 +17913,8 @@
 				"Level": 30,
 				"Output": "Skewered chompy",
 				"Primary": false,
-				"Priority": 6
+				"Priority": 6,
+				"Partial": true
 			},
 			"Roast a ~|cooked chompy|~ on a fire": {
 				"Items": ["Skewered chompy*"],
@@ -17856,7 +17941,8 @@
 				"Level": 30,
 				"Output": "Raw gnomebowl",
 				"Primary": false,
-				"Priority": 9
+				"Priority": 9,
+				"Partial": true
 			},
 			"Bake a ~|half baked bowl|~": {
 				"Items": ["Raw gnomebowl*"],
@@ -17864,14 +17950,16 @@
 				"Level": 30,
 				"Output": "Half baked bowl",
 				"Primary": true,
-				"Priority": 10
+				"Priority": 10,
+				"Partial": true
 			},
 			"Make a ~|half made worm bowl|~": {
 				"Items": ["Half baked bowl*", "King worm*", "Gnome spice*", "Onion*"],
 				"Level": 30,
 				"Output": "Half made worm bowl",
 				"Primary": false,
-				"Priority": 11
+				"Priority": 11,
+				"Partial": true
 			},
 			"Bake a ~|unfinished worm bowl|~": {
 				"Items": ["Half made worm bowl*"],
@@ -17879,7 +17967,8 @@
 				"Level": 30,
 				"Output": "Unfinished worm bowl",
 				"Primary": false,
-				"Priority": 12
+				"Priority": 12,
+				"Partial": true
 			},
 			"Finish a ~|worm hole|~": {
 				"Items": ["Unfinished worm bowl*", "Equa leaves*"],
@@ -17893,7 +17982,8 @@
 				"Level": 31,
 				"Output": "Raw fishcake",
 				"Primary": true,
-				"Priority": 1
+				"Priority": 1,
+				"Partial": true
 			},
 			"Bake a ~|cooked fishcake|~": {
 				"Items": ["Raw fishcake*"],
@@ -17928,7 +18018,8 @@
 				"Level": 32,
 				"Output": "Cream cheese",
 				"Primary": true,
-				"Priority": 3
+				"Priority": 3,
+				"Partial": true
 			},
 			"Make a ~|cheesecake|~": {
 				"Items": ["Biscuits*", "Cream cheese*", "Pot of cream*", "Cake tin"],
@@ -17943,21 +18034,24 @@
 				"Level": 32,
 				"Output": "Mixed dragon (shaker)",
 				"Primary": false,
-				"Priority": 5
+				"Priority": 5,
+				"Partial": true
 			},
 			"Make a ~|mixed dragon (poured)|~": {
 				"Items": ["Mixed dragon (shaker)*", "Cocktail glass"],
 				"Level": 32,
 				"Output": "Mixed dragon (poured)",
 				"Primary": false,
-				"Priority": 6
+				"Priority": 6,
+				"Partial": true
 			},
 			"Garnish a ~|mixed dragon (garnished)|~": {
 				"Items": ["Mixed dragon (poured)*", "Pineapple chunks*", "Pot of cream*"],
 				"Level": 32,
 				"Output": "Mixed dragon (garnished)",
 				"Primary": false,
-				"Priority": 7
+				"Priority": 7,
+				"Partial": true
 			},
 			"Finish a ~|Drunk Dragon|~": {
 				"Items": ["Mixed dragon (garnished)*"],
@@ -17972,14 +18066,16 @@
 				"Level": 33,
 				"Output": "Mixed saturday (shaker)",
 				"Primary": false,
-				"Priority": 1
+				"Priority": 1,
+				"Partial": true
 			},
 			"Make a ~|mixed saturday (poured)|~": {
 				"Items": ["Mixed saturday (shaker)*", "Cocktail glass"],
 				"Level": 33,
 				"Output": "Mixed saturday (poured)",
 				"Primary": false,
-				"Priority": 2
+				"Priority": 2,
+				"Partial": true
 			},
 			"Heat a ~|mixed saturday (heated)|~": {
 				"Items": ["Mixed saturday (poured)*"],
@@ -17987,7 +18083,8 @@
 				"Level": 33,
 				"Output": "Mixed saturday (heated)",
 				"Primary": false,
-				"Priority": 3
+				"Priority": 3,
+				"Partial": true
 			},
 			"Finish a ~|Chocolate Saturday|~": {
 				"Items": ["Mixed saturday (heated)*", "Chocolate dust*", "Pot of cream*"],
@@ -18002,7 +18099,8 @@
 				"Output": "Part garden pie 1",
 				"Primary": true,
 				"Priority": 1,
-				"Not F2P": true
+				"Not F2P": true,
+				"Partial": true
 			},
 			"Make a ~|part garden pie 2|~": {
 				"Items": ["Part garden pie 1*", "Onion*"],
@@ -18010,7 +18108,8 @@
 				"Output": "Part garden pie 2",
 				"Primary": true,
 				"Priority": 2,
-				"Not F2P": true
+				"Not F2P": true,
+				"Partial": true
 			},
 			"Make a ~|raw garden pie|~": {
 				"Items": ["Part garden pie 2*", "Cabbage*"],
@@ -18018,7 +18117,8 @@
 				"Output": "Raw garden pie",
 				"Primary": true,
 				"Priority": 3,
-				"Not F2P": true
+				"Not F2P": true,
+				"Partial": true
 			},
 			"Bake a ~|garden pie|~": {
 				"Items": ["Raw garden pie*"],
@@ -18049,7 +18149,8 @@
 				"Output": "Raw bacon pile",
 				"Primary": true,
 				"Priority": 6,
-				"Not F2P": true
+				"Not F2P": true,
+				"Partial": true
 			},
 			"Fry a ~|bacon pile|~": {
 				"Items": ["Raw bacon pile*"],
@@ -18074,7 +18175,8 @@
 				"Level": 35,
 				"Output": "Pizza base",
 				"Primary": true,
-				"Priority": 1
+				"Priority": 1,
+				"Partial": true
 			},
 			"Make a ~|pizza base|~ from a water source": {
 				"Category": ["Token"],
@@ -18083,21 +18185,24 @@
 				"Level": 35,
 				"Output": "Pizza base",
 				"Primary": true,
-				"Priority": 2
+				"Priority": 2,
+				"Partial": true
 			},
 			"Make an ~|incomplete pizza|~": {
 				"Items": ["Pizza base*", "Tomato*"],
 				"Level": 35,
 				"Output": "Incomplete pizza",
 				"Primary": true,
-				"Priority": 3
+				"Priority": 3,
+				"Partial": true
 			},
 			"Make an ~|uncooked pizza|~": {
 				"Items": ["Incomplete pizza*", "Cheese*"],
 				"Level": 35,
 				"Output": "Uncooked pizza",
 				"Primary": true,
-				"Priority": 4
+				"Priority": 4,
+				"Partial": true
 			},
 			"Cook a ~|plain pizza|~": {
 				"Items": ["Uncooked pizza*"],
@@ -18127,7 +18232,8 @@
 				"Level": 35,
 				"Output": "Half made veg bowl",
 				"Primary": false,
-				"Priority": 8
+				"Priority": 8,
+				"Partial": true
 			},
 			"Bake a ~|unfinished veg bowl|~": {
 				"Items": ["Half made veg bowl*"],
@@ -18135,7 +18241,8 @@
 				"Level": 35,
 				"Output": "Unfinished veg bowl",
 				"Primary": false,
-				"Priority": 9
+				"Priority": 9,
+				"Partial": true
 			},
 			"Finish a ~|veg ball|~": {
 				"Items": ["Unfinished veg bowl*", "Equa leaves*"],
@@ -18152,14 +18259,16 @@
 				"Output": "Vanilla cream cheese",
 				"Primary": true,
 				"Priority": 11,
-				"Not F2P": true
+				"Not F2P": true,
+				"Partial": true
 			},
 			"Mix a ~|mixed blurberry special|~": {
 				"Items": ["Cocktail shaker", "Brandy*", "Vodka*", "Gin*", "Lemon*", "Orange*"],
 				"Level": 37,
 				"Output": "Mixed blurberry special",
 				"Primary": false,
-				"Priority": 1
+				"Priority": 1,
+				"Partial": true
 			},
 			"Make a ~|Blurberry Special|~": {
 				"Items": ["Mixed blurberry special*", "Lime slices*", "Lemon chunks*", "Orange chunks*", "Equa leaves*", "Cocktail glass"],
@@ -18244,7 +18353,8 @@
 				"Level": 40,
 				"Output": "Uncooked cake",
 				"Primary": true,
-				"Priority": 2
+				"Priority": 2,
+				"Partial": true
 			},
 			"Bake a ~|cake|~": {
 				"Items": ["Uncooked cake*"],
@@ -18262,14 +18372,16 @@
 				"Output": "Chocolate cream cheese",
 				"Primary": true,
 				"Priority": 4,
-				"Not F2P": true
+				"Not F2P": true,
+				"Partial": true
 			},
 			"Make a ~|half made toad bowl|~": {
 				"Items": ["Half baked bowl*", "Toad's legs*", "Gnome spice*", "Dwellberries*", "Equa leaves*", "Cheese*"],
 				"Level": 40,
 				"Output": "Half made veg bowl",
 				"Primary": false,
-				"Priority": 5
+				"Priority": 5,
+				"Partial": true
 			},
 			"Bake ~|tangled toads' legs|~": {
 				"Items": ["Half made toad bowl*"],
@@ -18309,7 +18421,8 @@
 				"Level": 42,
 				"Output": "Half made choc bowl",
 				"Primary": false,
-				"Priority": 2
+				"Priority": 2,
+				"Partial": true
 			},
 			"Bake a ~|unfinished choc bowl|~": {
 				"Items": ["Half made choc bowl*"],
@@ -18317,7 +18430,8 @@
 				"Level": 42,
 				"Output": "Unfinished choc bowl",
 				"Primary": false,
-				"Priority": 3
+				"Priority": 3,
+				"Partial": true
 			},
 			"Finish a ~|chocolate bomb|~": {
 				"Items": ["Unfinished choc bowl*", "Pot of cream*", "Chocolate dust*"],
@@ -18358,7 +18472,8 @@
 				"Output": "Raw bacon heap",
 				"Primary": true,
 				"Priority": 2,
-				"Not F2P": true
+				"Not F2P": true,
+				"Partial": true
 			},
 			"Fry a ~|bacon heap|~": {
 				"Items": ["Raw bacon heap*"],
@@ -18392,7 +18507,8 @@
 				"Output": "Strawberry cream cheese",
 				"Primary": true,
 				"Priority": 3,
-				"Not F2P": true
+				"Not F2P": true,
+				"Partial": true
 			},
 			"Cook ~|fried mushrooms|~": {
 				"Items": ["Sliced mushrooms*"],
@@ -18409,7 +18525,8 @@
 				"Output": "Part fish pie 1",
 				"Primary": true,
 				"Priority": 1,
-				"Not F2P": true
+				"Not F2P": true,
+				"Partial": true
 			},
 			"Make a ~|part fish pie 2|~": {
 				"Items": ["Part fish pie 1*", "Cod*"],
@@ -18417,7 +18534,8 @@
 				"Output": "Part fish pie 2",
 				"Primary": true,
 				"Priority": 2,
-				"Not F2P": true
+				"Not F2P": true,
+				"Partial": true
 			},
 			"Make a ~|raw fish pie|~": {
 				"Items": ["Part fish pie 2*", "Raw potato*"],
@@ -18425,7 +18543,8 @@
 				"Output": "Raw fish pie",
 				"Primary": true,
 				"Priority": 3,
-				"Not F2P": true
+				"Not F2P": true,
+				"Partial": true
 			},
 			"Bake a ~|fish pie|~": {
 				"Items": ["Raw fish pie*"],
@@ -18515,7 +18634,8 @@
 				"Level": 50,
 				"Output": "Wrapped oomlie",
 				"Primary": true,
-				"Priority": 1
+				"Priority": 1,
+				"Partial": true
 			},
 			"Cooked a ~|cooked oomlie wrap|~": {
 				"Items": ["Wrapped oomlie*"],
@@ -18577,7 +18697,8 @@
 				"Output": "Raw bacon mound",
 				"Primary": true,
 				"Priority": 2,
-				"Not F2P": true
+				"Not F2P": true,
+				"Partial": true
 			},
 			"Fry a ~|bacon mound|~": {
 				"Items": ["Raw bacon mound*"],
@@ -18629,7 +18750,8 @@
 				"Output": "Pitta dough",
 				"Primary": true,
 				"Priority": 1,
-				"Not F2P": true
+				"Not F2P": true,
+				"Partial": true
 			},
 			"Make a ~|pitta dough|~ from a water source": {
 				"Category": ["Token"],
@@ -18639,7 +18761,8 @@
 				"Output": "Pitta dough",
 				"Primary": true,
 				"Priority": 2,
-				"Not F2P": true
+				"Not F2P": true,
+				"Partial": true
 			},
 			"Bake ~|pitta bread|~": {
 				"Items": ["Pitta dough*"],
@@ -18648,7 +18771,8 @@
 				"Output": "Pitta bread",
 				"Primary": true,
 				"Priority": 3,
-				"Not F2P": true
+				"Not F2P": true,
+				"Partial": true
 			},
 			"Brew ~|Slayer's respite|~": {
 				"Items": ["Wildblood hops*", "Ale yeast*", "Bucket of water", "Barley malt*", "Beer glass"],
@@ -18665,7 +18789,8 @@
 				"Output": "Uncooked curry",
 				"Primary": true,
 				"Priority": 1,
-				"Not F2P": true
+				"Not F2P": true,
+				"Partial": true
 			},
 			"Cook a ~|curry|~": {
 				"Items": ["Uncooked curry*"],
@@ -18750,7 +18875,8 @@
 				"Output": "Part admiral pie 1",
 				"Primary": true,
 				"Priority": 1,
-				"Not F2P": true
+				"Not F2P": true,
+				"Partial": true
 			},
 			"Make a ~|part admiral pie 2|~": {
 				"Items": ["Part admiral pie 1*", "Tuna*"],
@@ -18758,7 +18884,8 @@
 				"Output": "Part admiral pie 2",
 				"Primary": true,
 				"Priority": 2,
-				"Not F2P": true
+				"Not F2P": true,
+				"Partial": true
 			},
 			"Make a ~|raw admiral pie|~": {
 				"Items": ["Part admiral pie 2*", "Raw potato*"],
@@ -18766,7 +18893,8 @@
 				"Output": "Raw admiral pie",
 				"Primary": true,
 				"Priority": 3,
-				"Not F2P": true
+				"Not F2P": true,
+				"Partial": true
 			},
 			"Bake an ~|admiral pie|~": {
 				"Items": ["Raw admiral pie*"],
@@ -18813,7 +18941,8 @@
 				"Level": 74,
 				"Output": "Uncooked pork pie",
 				"Primary": true,
-				"Priority": 1
+				"Priority": 1,
+				"Partial": true
 			},
 			"Bake a ~|pork pie|~": {
 				"Items": ["Uncooked pork pie*"],
@@ -18862,7 +18991,8 @@
 				"Level": 80,
 				"Output": "Raw timber fungus soup",
 				"Primary": true,
-				"Priority": 2
+				"Priority": 2,
+				"Partial": true
 			},
 			"Cook ~|timber fungus soup|~": {
 				"Items": ["Raw timber fungus soup*"],
@@ -18878,7 +19008,8 @@
 				"Level": 80,
 				"Output": "Raw calcified fungus soup",
 				"Primary": true,
-				"Priority": 4
+				"Priority": 4,
+				"Partial": true
 			},
 			"Cook ~|calcified fungus soup|~": {
 				"Items": ["Raw calcified fungus soup*"],
@@ -18894,7 +19025,8 @@
 				"Level": 80,
 				"Output": "Raw fungal spore soup",
 				"Primary": true,
-				"Priority": 6
+				"Priority": 6,
+				"Partial": true
 			},
 			"Cook ~|fungal spore soup|~": {
 				"Items": ["Raw fungal spore soup*"],
@@ -18910,7 +19042,8 @@
 				"Level": 80,
 				"Output": "Raw fungal algae soup",
 				"Primary": true,
-				"Priority": 8
+				"Priority": 8,
+				"Partial": true
 			},
 			"Cook ~|fungal algae soup|~": {
 				"Items": ["Raw fungal algae soup*"],
@@ -18982,7 +19115,8 @@
 				"Output": "Part wild pie 1",
 				"Primary": true,
 				"Priority": 1,
-				"Not F2P": true
+				"Not F2P": true,
+				"Partial": true
 			},
 			"Make a ~|part wild pie 2|~": {
 				"Items": ["Part wild pie 1*", "Raw chompy*"],
@@ -18990,7 +19124,8 @@
 				"Output": "Part wild pie 2",
 				"Primary": true,
 				"Priority": 2,
-				"Not F2P": true
+				"Not F2P": true,
+				"Partial": true
 			},
 			"Make a ~|raw wild pie|~": {
 				"Items": ["Part wild pie 2*", "Raw rabbit*"],
@@ -18998,7 +19133,8 @@
 				"Output": "Raw wild pie",
 				"Primary": true,
 				"Priority": 3,
-				"Not F2P": true
+				"Not F2P": true,
+				"Partial": true
 			},
 			"Bake a ~|wild pie|~": {
 				"Items": ["Raw wild pie*"],
@@ -19090,14 +19226,16 @@
 				},
 				"Output": "Primal fruit pulp",
 				"Primary": true,
-				"Priority": 2
+				"Priority": 2,
+				"Partial": true
 			},
 			"Make a ~|raw wilder pie|~": {
 				"Items": ["Raw wild pie*", "Crushed dragonstone*"],
 				"Level": 90,
 				"Output": "Raw wilder pie",
 				"Primary": true,
-				"Priority": 3
+				"Priority": 3,
+				"Partial": true
 			},
 			"Bake a ~|wilder pie|~": {
 				"Items": ["Raw wilder pie*"],
@@ -19236,7 +19374,8 @@
 				"Level": 94,
 				"Output": "Uncooked arc gumbo",
 				"Primary": true,
-				"Priority": 1
+				"Priority": 1,
+				"Partial": true
 			},
 			"Cook ~|arc gumbo|~": {
 				"Items": ["Uncooked arc gumbo*"],
@@ -19252,7 +19391,8 @@
 				"Output": "Part summer pie 1",
 				"Primary": true,
 				"Priority": 1,
-				"Not F2P": true
+				"Not F2P": true,
+				"Partial": true
 			},
 			"Make a ~|part summer pie 2|~": {
 				"Items": ["Part summer pie 1*", "Watermelon*"],
@@ -19260,7 +19400,8 @@
 				"Output": "Part summer pie 2",
 				"Primary": true,
 				"Priority": 2,
-				"Not F2P": true
+				"Not F2P": true,
+				"Partial": true
 			},
 			"Make a ~|raw summer pie|~": {
 				"Items": ["Part summer pie 2*", "Cooking apple*"],
@@ -19268,7 +19409,8 @@
 				"Output": "Raw summer pie",
 				"Primary": true,
 				"Priority": 3,
-				"Not F2P": true
+				"Not F2P": true,
+				"Partial": true
 			},
 			"Bake a ~|summer pie|~": {
 				"Items": ["Raw summer pie*"],
@@ -19354,7 +19496,8 @@
 				"Level": 96,
 				"Output": "Uncooked shark soup",
 				"Primary": true,
-				"Priority": 2
+				"Priority": 2,
+				"Partial": true
 			},
 			"Cook ~|shark soup|~": {
 				"Items": ["Uncooked shark soup*"],
@@ -19606,7 +19749,8 @@
 				"Objects": ["Spinning wheel"],
 				"Output": "Ball of wool",
 				"Primary": true,
-				"Priority": 6
+				"Priority": 6,
+				"Partial": true
 			},
 			"Weave a ~|strip of cloth|~": {
 				"Items": ["Ball of wool*"],
@@ -19614,7 +19758,8 @@
 				"Objects": ["Loom"],
 				"Output": "Strip of cloth",
 				"Primary": true,
-				"Priority": 7
+				"Priority": 7,
+				"Partial": true
 			},
 			"Spin a ~|ball of black wool|~": {
 				"Items": ["Black wool*"],
@@ -19622,7 +19767,8 @@
 				"Objects": ["Spinning wheel"],
 				"Output": "Ball of black wool",
 				"Primary": true,
-				"Priority": 8
+				"Priority": 8,
+				"Partial": true
 			},
 			"Weave a ~|strip of black cloth|~": {
 				"Items": ["Ball of black wool*"],
@@ -19630,7 +19776,8 @@
 				"Objects": ["Loom"],
 				"Output": "Strip of black cloth",
 				"Primary": true,
-				"Priority": 9
+				"Priority": 9,
+				"Partial": true
 			},
 			"Craft ~|wizard gloves|~": {
 				"Items": ["Strip of cloth*", "Thread*"],
@@ -19764,7 +19911,8 @@
 				"Level": 1,
 				"Output": "Soft clay",
 				"Primary": true,
-				"Priority": 27
+				"Priority": 27,
+				"Partial": true
 			},
 			"Create ~|soft clay|~ with a watersource": {
 				"Category": ["Token"],
@@ -19773,7 +19921,8 @@
 				"Output": "Soft clay",
 				"Objects": ["WaterSource[+]"],
 				"Primary": true,
-				"Priority": 28
+				"Priority": 28,
+				"Partial": true
 			},
 			"Craft a ~|pot (unfired)|~": {
 				"Items": ["Soft clay*"],
@@ -19781,7 +19930,8 @@
 				"Output": "Pot (unfired)",
 				"Objects": ["Potter's wheel"],
 				"Primary": true,
-				"Priority": 29
+				"Priority": 29,
+				"Partial": true
 			},
 			"Fire an ~|empty pot|~": {
 				"Items": ["Pot (unfired)*"],
@@ -19798,7 +19948,8 @@
 				"Objects": ["CraftingFurnace[+]"],
 				"Primary": true,
 				"Priority": 31,
-				"Not F2P": true
+				"Not F2P": true,
+				"Partial": true
 			},
 			"Blow a ~|beer glass|~" : {
 				"Items": ["Molten glass*"],
@@ -19837,14 +19988,16 @@
 				"Level": 1,
 				"Output": "Bowstring",
 				"Primary": true,
-				"Priority": 36
+				"Priority": 36,
+				"Partial": true
 			},
 			"Craft an ~|unfinished wooden brooch|~": {
 				"Items": ["Wooden knot*"],
 				"Level": 1,
 				"Output": "Unfinished wooden brooch",
 				"Primary": true,
-				"Priority": 37
+				"Priority": 37,
+				"Partial": true
 			},
 			"Craft a ~|lapis lazuli brooch|~": {
 				"Items": ["Unfinished wooden brooch*", "Lapis lazuli gem*"],
@@ -19867,7 +20020,8 @@
 				"Output": "Pure essence fragments",
 				"Primary": true,
 				"Priority": 100,
-				"Not F2P": true
+				"Not F2P": true,
+				"Partial": true
 			},
 			"Assemble a ~|Inquisitor staff|~": {
 				"Items": ["Praetorian staff*", "Inquisitor's staff ornament*", "Inquisitor's staff rod*", "Inquisitor's staff censer*"],
@@ -19943,7 +20097,8 @@
 				"Output": "Cracked mining urn (unfired)",
 				"Objects": ["Potter's wheel"],
 				"Primary": true,
-				"Priority": 1
+				"Priority": 1,
+				"Partial": true
 			},
 			"Fire a ~|cracked mining urn (no rune)|~": {
 				"Items": ["Cracked mining urn (unfired)*"],
@@ -19951,7 +20106,8 @@
 				"Output": "Cracked mining urn (no rune)",
 				"Objects": ["Pottery oven"],
 				"Primary": true,
-				"Priority": 2
+				"Priority": 2,
+				"Partial": true
 			},
 			"Craft a ~|cracked cooking urn (unfired)|~": {
 				"Items": ["Soft clay*"],
@@ -19959,7 +20115,8 @@
 				"Output": "Cracked cooking urn (unfired)",
 				"Objects": ["Potter's wheel"],
 				"Primary": true,
-				"Priority": 3
+				"Priority": 3,
+				"Partial": true
 			},
 			"Fire a ~|cracked cooking urn (no rune)|~": {
 				"Items": ["Cracked cooking urn (unfired)*"],
@@ -19967,7 +20124,8 @@
 				"Output": "Cracked cooking urn (no rune)",
 				"Objects": ["Pottery oven"],
 				"Primary": true,
-				"Priority": 4
+				"Priority": 4,
+				"Partial": true
 			},
 			"Craft a ~|cracked fishing urn (unfired)|~": {
 				"Items": ["Soft clay*"],
@@ -19975,7 +20133,8 @@
 				"Output": "Cracked fishing urn (unfired)",
 				"Objects": ["Potter's wheel"],
 				"Primary": true,
-				"Priority": 5
+				"Priority": 5,
+				"Partial": true
 			},
 			"Fire a ~|cracked fishing urn (no rune)|~": {
 				"Items": ["Cracked fishing urn (unfired)*"],
@@ -19983,7 +20142,8 @@
 				"Output": "Cracked fishing urn (no rune)",
 				"Objects": ["Pottery oven"],
 				"Primary": true,
-				"Priority": 6
+				"Priority": 6,
+				"Partial": true
 			},
 			"Craft a ~|impious urn (unfired)|~": {
 				"Items": ["Soft clay*"],
@@ -19991,7 +20151,8 @@
 				"Output": "Impious urn (unfired)",
 				"Objects": ["Potter's wheel"],
 				"Primary": true,
-				"Priority": 7
+				"Priority": 7,
+				"Partial": true
 			},
 			"Fire a ~|impious urn (no rune)|~": {
 				"Items": ["Impious urn (unfired)*"],
@@ -19999,7 +20160,8 @@
 				"Output": "Impious urn (no rune)",
 				"Objects": ["Pottery oven"],
 				"Primary": true,
-				"Priority": 8
+				"Priority": 8,
+				"Partial": true
 			},
 			"Craft a ~|cracked divination urn (unfired)|~": {
 				"Items": ["Soft clay*"],
@@ -20008,7 +20170,8 @@
 				"Objects": ["Potter's wheel"],
 				"Primary": true,
 				"Priority": 1,
-				"Not F2P": true
+				"Not F2P": true,
+				"Partial": true
 			},
 			"Fire a ~|cracked divination urn (no rune)|~": {
 				"Items": ["Cracked divination urn (unf*)"],
@@ -20017,7 +20180,8 @@
 				"Objects": ["Pottery oven"],
 				"Primary": true,
 				"Priority": 2,
-				"Not F2P": true
+				"Not F2P": true,
+				"Partial": true
 			},
 			"Craft a ~|cracked hunter urn (unfired)|~": {
 				"Items": ["Soft clay*"],
@@ -20025,7 +20189,8 @@
 				"Output": "Cracked hunter urn (unfired)",
 				"Objects": ["Potter's wheel"],
 				"Primary": true,
-				"Priority": 3
+				"Priority": 3,
+				"Partial": true
 			},
 			"Fire a ~|cracked hunter urn (no rune)|~": {
 				"Items": ["Cracked hunter urn (unfired)*"],
@@ -20033,7 +20198,8 @@
 				"Output": "Cracked hunter urn (no rune)",
 				"Objects": ["Pottery oven"],
 				"Primary": true,
-				"Priority": 4
+				"Priority": 4,
+				"Partial": true
 			},
 			"Polish some ~|buttons|~": {
 				"Items": ["Buttons*"],
@@ -20048,7 +20214,8 @@
 				"Level": 4,
 				"Output": "Clay ring (unfired)",
 				"Primary": true,
-				"Priority": 1
+				"Priority": 1,
+				"Partial": true
 			},
 			"Fire a ~|clay ring|~": {
 				"Items": ["Clay ring (unfired)*"],
@@ -20064,7 +20231,8 @@
 				"Output": "Cracked runecrafting urn (unfired)",
 				"Objects": ["Potter's wheel"],
 				"Primary": true,
-				"Priority": 3
+				"Priority": 3,
+				"Partial": true
 			},
 			"Fire a ~|cracked runecrafting urn (no rune)|~": {
 				"Items": ["Cracked runecrafting urn (unfired)*"],
@@ -20072,7 +20240,8 @@
 				"Output": "Cracked runecrafting urn (no rune)",
 				"Objects": ["Pottery oven"],
 				"Primary": true,
-				"Priority": 4
+				"Priority": 4,
+				"Partial": true
 			},
 			"Craft a ~|cracked smithing urn (unfired)|~": {
 				"Items": ["Soft clay*"],
@@ -20080,7 +20249,8 @@
 				"Output": "Cracked smithing urn (unfired)",
 				"Objects": ["Potter's wheel"],
 				"Primary": true,
-				"Priority": 5
+				"Priority": 5,
+				"Partial": true
 			},
 			"Fire a ~|cracked smithing urn (no rune)|~": {
 				"Items": ["Cracked smithing urn (unfired)*"],
@@ -20088,7 +20258,8 @@
 				"Output": "Cracked smithing urn (no rune)",
 				"Objects": ["Pottery oven"],
 				"Primary": true,
-				"Priority": 6
+				"Priority": 6,
+				"Partial": true
 			},
 			"Craft a ~|cracked woodcutting urn (unfired)|~": {
 				"Items": ["Soft clay*"],
@@ -20096,7 +20267,8 @@
 				"Output": "Cracked woodcutting urn (unfired)",
 				"Objects": ["Potter's wheel"],
 				"Primary": true,
-				"Priority": 7
+				"Priority": 7,
+				"Partial": true
 			},
 			"Fire a ~|cracked woodcutting urn (no rune)|~": {
 				"Items": ["Cracked woodcutting urn (unfired)*"],
@@ -20104,7 +20276,8 @@
 				"Output": "Cracked woodcutting urn (no rune)",
 				"Objects": ["Pottery oven"],
 				"Primary": true,
-				"Priority": 8
+				"Priority": 8,
+				"Partial": true
 			},
 			"Blow a ~|candle latern|~": {
 				"Items": ["Molten glass*"],
@@ -20121,7 +20294,8 @@
 				"Objects": ["Potter's wheel"],
 				"Primary": true,
 				"Priority": 1,
-				"Not F2P": true
+				"Not F2P": true,
+				"Partial": true
 			},
 			"Fire a ~|cracked farming urn (no rune)|~": {
 				"Items": ["Cracked farming urn (unfired)*"],
@@ -20130,7 +20304,8 @@
 				"Objects": ["Pottery oven"],
 				"Primary": true,
 				"Priority": 2,
-				"Not F2P": true
+				"Not F2P": true,
+				"Partial": true
 			},
 			"Craft a ~|gold ring|~": {
 				"Items": ["Gold bar*"],
@@ -20154,7 +20329,8 @@
 				"Output": "Pie dish (unfired)",
 				"Objects": ["Potter's wheel"],
 				"Primary": true,
-				"Priority": 1
+				"Priority": 1,
+				"Partial": true
 			},
 			"Fire a ~|pie dish|~": {
 				"Items": ["Pie dish (unfired)*"],
@@ -20178,7 +20354,8 @@
 				"Output": "Bowl (unfired)",
 				"Objects": ["Potter's wheel"],
 				"Primary": true,
-				"Priority": 1
+				"Priority": 1,
+				"Partial": true
 			},
 			"Fire a ~|bowl|~": {
 				"Items": ["Bowl (unfired)*"],
@@ -20194,7 +20371,8 @@
 				"Output": "Gold amulet(unstrung)",
 				"Objects": ["CraftingFurnace[+]"],
 				"Primary": true,
-				"Priority": 3
+				"Priority": 3,
+				"Partial": true
 			},
 			"String a ~|gold amulet|~": {
 				"Items": ["Gold amulet (unstrung)*", "Ball of wool*"],
@@ -20210,7 +20388,8 @@
 				"Output": "Clockwork",
 				"Primary": true,
 				"Priority": 5,
-				"Not F2P": true
+				"Not F2P": true,
+				"Partial": true
 			},
 			"Craft ~|imphide gloves|~": {
 				"Items": ["Imphide*", "Thread*"],
@@ -20225,7 +20404,8 @@
 				"Level": 10,
 				"Output": "Crossbow string",
 				"Primary": true,
-				"Priority": 2
+				"Priority": 2,
+				"Partial": true
 			},
 			"Craft a ~|toy horsey|~": {
 				"Objects": ["Crafting table 1"],
@@ -20338,7 +20518,8 @@
 				"Output": "Fragile cooking urn (unfired)",
 				"Objects": ["Potter's wheel"],
 				"Primary": true,
-				"Priority": 2
+				"Priority": 2,
+				"Partial": true
 			},
 			"Fire a ~|fragile cooking urn (no rune)|~": {
 				"Items": ["Fragile cooking urn (unfired)*"],
@@ -20346,7 +20527,8 @@
 				"Output": "Fragile cooking urn (no rune)",
 				"Objects": ["Pottery oven"],
 				"Primary": true,
-				"Priority": 3
+				"Priority": 3,
+				"Partial": true
 			},
 			"Blow an ~|oil lamp|~": {
 				"Items": ["Molten glass*"],
@@ -20509,7 +20691,8 @@
 				"Output": "Fragile fishing urn (unfired)",
 				"Objects": ["Potter's wheel"],
 				"Primary": true,
-				"Priority": 12
+				"Priority": 12,
+				"Partial": true
 			},
 			"Fire a ~|fragile fishing urn (no rune)|~": {
 				"Items": ["Fragile fishing urn (unfired)*"],
@@ -20517,7 +20700,8 @@
 				"Output": "Fragile fishing urn (no rune)",
 				"Objects": ["Pottery oven"],
 				"Primary": true,
-				"Priority": 13
+				"Priority": 13,
+				"Partial": true
 			},
 			"Craft a ~|fragile woodcutting urn (unfired)|~": {
 				"Items": ["Soft clay*"],
@@ -20525,7 +20709,8 @@
 				"Output": "Fragile woodcutting urn (unfired)",
 				"Objects": ["Potter's wheel"],
 				"Primary": true,
-				"Priority": 14
+				"Priority": 14,
+				"Partial": true
 			},
 			"Fire a ~|fragile woodcutting urn (no rune)|~": {
 				"Items": ["Fragile woodcutting urn (unfired)*"],
@@ -20533,7 +20718,8 @@
 				"Output": "Fragile woodcutting urn (no rune)",
 				"Objects": ["Pottery oven"],
 				"Primary": true,
-				"Priority": 15
+				"Priority": 15,
+				"Partial": true
 			},
 			"Craft a ~|crab helmet|~": {
 				"Items": ["Fresh crab shell*"],
@@ -20634,7 +20820,8 @@
 				"Objects": ["Potter's wheel"],
 				"Primary": true,
 				"Priority": 3,
-				"Not F2P": true
+				"Not F2P": true,
+				"Partial": true
 			},
 			"Fire a ~|fragile divination urn (no rune)|~": {
 				"Items": ["Fragile divination urn (unfired)*"],
@@ -20643,7 +20830,8 @@
 				"Objects": ["Pottery oven"],
 				"Primary": true,
 				"Priority": 4,
-				"Not F2P": true
+				"Not F2P": true,
+				"Partial": true
 			},
 			"Craft an ~|unstrung symbol|~": {
 				"Items": ["Silver bar*", "Holy mould*"],
@@ -20651,7 +20839,8 @@
 				"Output": "Unstrung symbol",
 				"Objects": ["CraftingFurnace[+]"],
 				"Primary": true,
-				"Priority": 5
+				"Priority": 5,
+				"Partial": true
 			},
 			"Craft an ~|unblessed symbol|~": {
 				"Items": ["Unstrung symbol*", "Ball of wool*"],
@@ -20706,7 +20895,8 @@
 				"Objects": ["Potter's wheel"],
 				"Primary": true,
 				"Priority": 2,
-				"Not F2P": true
+				"Not F2P": true,
+				"Partial": true
 			},
 			"Fire a ~|fragile hunter urn (no rune)|~": {
 				"Items": ["Fragile hunter urn (unfired)*"],
@@ -20715,7 +20905,8 @@
 				"Objects": ["Pottery oven"],
 				"Primary": true,
 				"Priority": 3,
-				"Not F2P": true
+				"Not F2P": true,
+				"Partial": true
 			},
 			"Craft a ~|fragile mining urn (unfired)|~": {
 				"Items": ["Soft clay*"],
@@ -20723,7 +20914,8 @@
 				"Output": "Fragile mining urn (unfired)",
 				"Objects": ["Potter's wheel"],
 				"Primary": true,
-				"Priority": 4
+				"Priority": 4,
+				"Partial": true
 			},
 			"Fire a ~|fragile mining urn (no rune)|~": {
 				"Items": ["Fragile mining urn (unfired)*"],
@@ -20731,7 +20923,8 @@
 				"Output": "Fragile mining urn (no rune)",
 				"Objects": ["Pottery oven"],
 				"Primary": true,
-				"Priority": 5
+				"Priority": 5,
+				"Partial": true
 			},
 			"Craft a ~|fragile smithing urn (unfired)|~": {
 				"Items": ["Soft clay*"],
@@ -20739,7 +20932,8 @@
 				"Output": "Fragile smithing urn (unfired)",
 				"Objects": ["Potter's wheel"],
 				"Primary": true,
-				"Priority": 6
+				"Priority": 6,
+				"Partial": true
 			},
 			"Fire a ~|fragile smithing urn (no rune)|~": {
 				"Items": ["Fragile smithing urn (unfired)*"],
@@ -20747,7 +20941,8 @@
 				"Output": "Fragile smithing urn (no rune)",
 				"Objects": ["Pottery oven"],
 				"Primary": true,
-				"Priority": 7
+				"Priority": 7,
+				"Partial": true
 			},
 			"Craft an ~|unstrung emblem|~": {
 				"Items": ["Silver bar*", "Unholy mould*"],
@@ -20756,7 +20951,8 @@
 				"Objects": ["CraftingFurnace[+]"],
 				"Primary": true,
 				"Priority": 8,
-				"Not F2P": true
+				"Not F2P": true,
+				"Partial": true
 			},
 			"Craft an ~|unpowered symbol|~": {
 				"Items": ["Unstrung emblem*", "Ball of wool*"],
@@ -20773,7 +20969,8 @@
 				"Objects": ["Potter's wheel"],
 				"Primary": true,
 				"Priority": 1,
-				"Not F2P": true
+				"Not F2P": true,
+				"Partial": true
 			},
 			"Fire a ~|fragile farming urn (no rune)|~": {
 				"Items": ["Fragile farming urn (unfired)*"],
@@ -20782,7 +20979,8 @@
 				"Objects": ["Pottery oven"],
 				"Primary": true,
 				"Priority": 2,
-				"Not F2P": true
+				"Not F2P": true,
+				"Partial": true
 			},
 			"Craft a ~|fragile runecrafting urn (unfired)|~": {
 				"Items": ["Soft clay*"],
@@ -20790,7 +20988,8 @@
 				"Output": "Fragile runecrafting urn (unfired)",
 				"Objects": ["Potter's wheel"],
 				"Primary": true,
-				"Priority": 3
+				"Priority": 3,
+				"Partial": true
 			},
 			"Fire a ~|fragile runecrafting urn (no rune)|~": {
 				"Items": ["Fragile runecrafting urn (unfired)*"],
@@ -20798,7 +20997,8 @@
 				"Output": "Fragile runecrafting urn (no rune)",
 				"Objects": ["Pottery oven"],
 				"Primary": true,
-				"Priority": 4
+				"Priority": 4,
+				"Partial": true
 			},
 			"Craft a ~|silver sickle|~": {
 				"Items": ["Silver bar*", "Sickle mould*"],
@@ -20832,7 +21032,8 @@
 				"Objects": ["Potter's wheel"],
 				"Primary": true,
 				"Priority": 2,
-				"Not F2P": true
+				"Not F2P": true,
+				"Partial": true
 			},
 			"Fire a ~|plant pot|~": {
 				"Items": ["Unfired plant pot*"],
@@ -20879,7 +21080,8 @@
 				"Level": 20,
 				"Output": "Extra fine sand",
 				"Primary": true,
-				"Priority": 5
+				"Priority": 5,
+				"Partial": true
 			},
 			"Craft ~|spider silk boots|~": {
 				"Items": ["Spider silk*", "Thread*"],
@@ -20895,7 +21097,8 @@
 				"Objects": ["CraftingFurnace[+]"],
 				"Primary": true,
 				"Priority": 2,
-				"Not F2P": true
+				"Not F2P": true,
+				"Partial": true
 			},
 			"Craft an ~|empty sack|~": {
 				"Items": ["Jute fibre*"],
@@ -20974,7 +21177,8 @@
 				"Output": "Sapphire amulet (unstrung)",
 				"Objects": ["CraftingFurnace[+]"],
 				"Primary": true,
-				"Priority": 2
+				"Priority": 2,
+				"Partial": true
 			},
 			"String a ~|sapphire amulet|~": {
 				"Items": ["Sapphire amulet (unstrung)*", "Ball of wool*"],
@@ -21025,7 +21229,8 @@
 				"Objects": ["Potter's wheel"],
 				"Primary": true,
 				"Priority": 5,
-				"Not F2P": true
+				"Not F2P": true,
+				"Partial": true
 			},
 			"Fire a ~|pot lid|~": {
 				"Items": ["Unfired pot lid*"],
@@ -21188,7 +21393,8 @@
 				"Output": "Accursed urn (unfired)",
 				"Objects": ["Potter's wheel"],
 				"Primary": true,
-				"Priority": 3
+				"Priority": 3,
+				"Partial": true
 			},
 			"Fire an ~|accursed urn (no rune)|~": {
 				"Items": ["Accrused urn (unfired)*"],
@@ -21196,7 +21402,8 @@
 				"Output": "Accursed urn (no rune)",
 				"Objects": ["Pottery oven"],
 				"Primary": true,
-				"Priority": 4
+				"Priority": 4,
+				"Partial": true
 			},
 			"Craft an ~|oil lantern (empty)|~": {
 				"Items": ["Oil lantern frame*", "Oil lamp (empty)"],
@@ -21342,7 +21549,8 @@
 				"Output": "Emerald amulet (unstrung)",
 				"Objects": ["CraftingFurnace[+]"],
 				"Primary": true,
-				"Priority": 3
+				"Priority": 3,
+				"Partial": true
 			},
 			"String an ~|emerald amulet|~": {
 				"Items": ["Emerald amulet (unstrung)*", "Ball of wool*"],
@@ -21412,7 +21620,8 @@
 				"Output": "Plain mining urn (unfired)",
 				"Objects": ["Potter's wheel"],
 				"Primary": true,
-				"Priority": 8
+				"Priority": 8,
+				"Partial": true
 			},
 			"Fire a ~|plain mining urn (no rune)|~": {
 				"Items": ["Plain mining urn (unfired)*"],
@@ -21420,7 +21629,8 @@
 				"Output": "Plain mining urn (no rune)",
 				"Objects": ["Pottery oven"],
 				"Primary": true,
-				"Priority": 9
+				"Priority": 9,
+				"Partial": true
 			},
 			"Craft a ~|topaz necklace|~": {
 				"Items": ["Red topaz*", "Silver bar*"],
@@ -21451,7 +21661,8 @@
 				"Output": "Plain runecrafting urn (unfired)",
 				"Objects": ["Potter's wheel"],
 				"Primary": true,
-				"Priority": 3
+				"Priority": 3,
+				"Partial": true
 			},
 			"Fire a ~|plain runecrafting urn (no rune)|~": {
 				"Items": ["Plain runecrafting urn (unfired)*"],
@@ -21459,7 +21670,8 @@
 				"Output": "Plain runecrafting urn (no rune)",
 				"Objects": ["Pottery oven"],
 				"Primary": true,
-				"Priority": 4
+				"Priority": 4,
+				"Partial": true
 			},
 			"Blow a ~|vial|~": {
 				"Items": ["Molten glass*"],
@@ -21492,7 +21704,8 @@
 				"Objects": ["Potter's wheel"],
 				"Primary": true,
 				"Priority": 2,
-				"Not F2P": true
+				"Not F2P": true,
+				"Partial": true
 			},
 			"Fire a ~|plain hunter urn (no rune)|~": {
 				"Items": ["Plain hunter urn (unfired)*"],
@@ -21501,7 +21714,8 @@
 				"Objects": ["Pottery oven"],
 				"Primary": true,
 				"Priority": 3,
-				"Not F2P": true
+				"Not F2P": true,
+				"Partial": true
 			},
 			"Cut a ~|ruby|~": {
 				"Items": ["Uncut ruby*"],
@@ -21517,7 +21731,8 @@
 				"Objects": ["CraftingFurnace[+]"],
 				"Primary": true,
 				"Priority": 5,
-				"Not F2P": true
+				"Not F2P": true,
+				"Partial": true
 			},
 			"String a ~|jade amulet|~": {
 				"Items": ["Jade amulet (unstrung)*", "Ball of wool*"],
@@ -21555,7 +21770,8 @@
 				"Output": "Plain smithing urn (unfired)",
 				"Objects": ["Potter's wheel"],
 				"Primary": true,
-				"Priority": 3
+				"Priority": 3,
+				"Partial": true
 			},
 			"Fire a ~|plain smithing urn (no rune)|~": {
 				"Items": ["Plain smithing urn (unfired)*"],
@@ -21563,7 +21779,8 @@
 				"Output": "Plain smithing urn (no rune)",
 				"Objects": ["Pottery oven"],
 				"Primary": true,
-				"Priority": 4
+				"Priority": 4,
+				"Partial": true
 			},
 			"Craft a ~|broodoo shield (blue)|~": {
 				"Items": ["Tribal mask (blue)*", "Snakeskin*", "Nails[+]*"],
@@ -21678,7 +21895,8 @@
 				"Output": "Plain cooking urn (unfired)",
 				"Objects": ["Potter's wheel"],
 				"Primary": true,
-				"Priority": 4
+				"Priority": 4,
+				"Partial": true
 			},
 			"Fire a ~|plain cooking urn (no rune)|~": {
 				"Items": ["Plain cooking urn (unfired)*"],
@@ -21686,7 +21904,8 @@
 				"Output": "Plain cooking urn (no rune)",
 				"Objects": ["Pottery oven"],
 				"Primary": true,
-				"Priority": 5
+				"Priority": 5,
+				"Partial": true
 			},
 			"Craft a ~|batwing wand|~": {
 				"Items": ["Batwing*", "Thread*", "Logs*"],
@@ -21738,7 +21957,8 @@
 				"Objects": ["Potter's wheel"],
 				"Primary": true,
 				"Priority": 3,
-				"Not F2P": true
+				"Not F2P": true,
+				"Partial": true
 			},
 			"Fire a ~|plain divination urn (no rune)|~": {
 				"Items": ["Plain divination urn (unfired)*"],
@@ -21747,7 +21967,8 @@
 				"Objects": ["Pottery oven"],
 				"Primary": true,
 				"Priority": 4,
-				"Not F2P": true
+				"Not F2P": true,
+				"Partial": true
 			},
 			"Craft a ~|topaz bracelet|~": {
 				"Items": ["Red topaz*", "Silver bar*"],
@@ -21815,7 +22036,8 @@
 				"Objects": ["Potter's wheel"],
 				"Primary": true,
 				"Priority": 7,
-				"Not F2P": true
+				"Not F2P": true,
+				"Partial": true
 			},
 			"Fire a ~|plain farming urn (no rune)|~": {
 				"Items": ["Plain farming urn (unfired)*"],
@@ -21824,7 +22046,8 @@
 				"Objects": ["Pottery oven"],
 				"Primary": true,
 				"Priority": 8,
-				"Not F2P": true
+				"Not F2P": true,
+				"Partial": true
 			},
 			"Craft a ~|ruby necklace|~": {
 				"Chunks": ["Ruby*", "Gold bar*"],
@@ -21882,7 +22105,8 @@
 				"Output": "Plain fishing urn (unfired)",
 				"Objects": ["Potter's wheel"],
 				"Primary": true,
-				"Priority": 2
+				"Priority": 2,
+				"Partial": true
 			},
 			"Fire a ~|plain fishing urn (no rune)|~": {
 				"Items": ["Plain fishing urn (unfired)*"],
@@ -21890,7 +22114,8 @@
 				"Output": "Plain fishing urn (no rune)",
 				"Objects": ["Pottery oven"],
 				"Primary": true,
-				"Priority": 3
+				"Priority": 3,
+				"Partial": true
 			},
 			"Craft ~|studded leather gloves|~": {
 				"Items": ["Leather gloves*", "Steel studs*"],
@@ -21990,7 +22215,8 @@
 				"Output": "Plain woodcutting urn (unfired)",
 				"Objects": ["Potter's wheel"],
 				"Primary": true,
-				"Priority": 2
+				"Priority": 2,
+				"Partial": true
 			},
 			"Fire a ~|plain woodcutting urn (no rune)|~": {
 				"Items": ["Plain woodcutting urn (unfired)*"],
@@ -21998,7 +22224,8 @@
 				"Output": "Plain woodcutting urn (no rune)",
 				"Objects": ["Pottery oven"],
 				"Primary": true,
-				"Priority": 3
+				"Priority": 3,
+				"Partial": true
 			},
 			"Upgrade the ~|spirit pig machine|~ to (tier 2)": {
 				"Items": ["Oak plank", "Steel bar", "Nails[+]"],
@@ -22036,7 +22263,8 @@
 				"Objects": ["CraftingFurnace[+]"],
 				"Primary": true,
 				"Priority": 3,
-				"Not F2P": true
+				"Not F2P": true,
+				"Partial": true
 			},
 			"String a ~|topaz amulet|~": {
 				"Items": ["Topaz amulet (unstrung)*", "Ball of wool*"],
@@ -22156,7 +22384,8 @@
 				"Output": "Unpowered Orb",
 				"Primary": true,
 				"Priority": 2,
-				"Not F2P": true
+				"Not F2P": true,
+				"Partial": true
 			},
 			"Craft ~|snakeskin vambraces|~": {
 				"Items": ["Snakeskin*", "Thread*"],
@@ -22178,7 +22407,8 @@
 				"Output": "Strong mining urn (unfired)",
 				"Objects": ["Potter's wheel"],
 				"Primary": true,
-				"Priority": 2
+				"Priority": 2,
+				"Partial": true
 			},
 			"Fire a ~|strong mining urn (no rune)|~": {
 				"Items": ["Strong mining urn (unfired)*"],
@@ -22186,7 +22416,8 @@
 				"Output": "Strong mining urn (no rune)",
 				"Objects": ["Pottery oven"],
 				"Primary": true,
-				"Priority": 3
+				"Priority": 3,
+				"Partial": true
 			},
 			"Decorate a ~|heraldic banner|~": {
 				"Objects": ["Banner easel"],
@@ -22202,7 +22433,8 @@
 				"Output": "Strong smithing urn (unfired)",
 				"Objects": ["Potter's wheel"],
 				"Primary": true,
-				"Priority": 1
+				"Priority": 1,
+				"Partial": true
 			},
 			"Fire a ~|strong smithing urn (no rune)|~": {
 				"Items": ["Strong smithing urn (unfired)*"],
@@ -22210,7 +22442,8 @@
 				"Output": "Strong smithing urn (no rune)",
 				"Objects": ["Pottery oven"],
 				"Primary": true,
-				"Priority": 2
+				"Priority": 2,
+				"Partial": true
 			},
 			"Blow a ~|lantern lens|~": {
 				"Items": ["Molten glass*"],
@@ -22218,7 +22451,8 @@
 				"Output": "Lantern lens",
 				"Primary": true,
 				"Priority": 3,
-				"Not F2P": true
+				"Not F2P": true,
+				"Partial": true
 			},
 			"Craft ~|blue dragonhide vambraces|~": {
 				"Items": ["Blue dragon leather*", "Thread*"],
@@ -22275,7 +22509,8 @@
 				"Output": "Ruby amulet (unstrung)",
 				"Objects": ["CraftingFurnace[+]"],
 				"Primary": true,
-				"Priority": 8
+				"Priority": 8,
+				"Partial": true
 			},
 			"String a ~|ruby amulet|~": {
 				"Items": ["Ruby amulet (unstrung)*", "Ball of wool*"],
@@ -22290,7 +22525,8 @@
 				"Output": "Blessed molten glass",
 				"Primary": true,
 				"Priority": 10,
-				"Not F2P": true
+				"Not F2P": true,
+				"Partial": true
 			},
 			"Craft ~|snakeskin chaps|~": {
 				"Items": ["Snakeskin*", "Thread*"],
@@ -22313,7 +22549,8 @@
 				"Objects": ["Potter's wheel"],
 				"Primary": true,
 				"Priority": 3,
-				"Not F2P": true
+				"Not F2P": true,
+				"Partial": true
 			},
 			"Fire a ~|strong cooking urn (no rune)|~": {
 				"Items": ["Strong cooking urn (unfired)*"],
@@ -22322,7 +22559,8 @@
 				"Objects": ["Pottery oven"],
 				"Primary": true,
 				"Priority": 4,
-				"Not F2P": true
+				"Not F2P": true,
+				"Partial": true
 			},
 			"Craft a ~|strong runecrafting urn (unfired)|~": {
 				"Items": ["Soft clay*"],
@@ -22331,7 +22569,8 @@
 				"Objects": ["Potter's wheel"],
 				"Primary": true,
 				"Priority": 1,
-				"Not F2P": true
+				"Not F2P": true,
+				"Partial": true
 			},
 			"Fire a ~|strong runecrafting urn (no rune)|~": {
 				"Items": ["Strong runecrafting urn (unfired)*"],
@@ -22340,7 +22579,8 @@
 				"Objects": ["Pottery oven"],
 				"Primary": true,
 				"Priority": 2,
-				"Not F2P": true
+				"Not F2P": true,
+				"Partial": true
 			},
 			"Create an arctic pine ~|pyre ship|~": {
 				"Items": ["Arctic pine logs*", "Mangled bones*"],
@@ -22392,7 +22632,8 @@
 				"Objects": ["Potter's wheel"],
 				"Primary": true,
 				"Priority": 3,
-				"Not F2P": true
+				"Not F2P": true,
+				"Partial": true
 			},
 			"Fire a ~|strong fishing urn (no rune)|~": {
 				"Items": ["Strong fishing urn (unfired)*"],
@@ -22401,7 +22642,8 @@
 				"Objects": ["Pottery oven"],
 				"Primary": true,
 				"Priority": 4,
-				"Not F2P": true
+				"Not F2P": true,
+				"Partial": true
 			},
 			"Craft a ~|mystic robe bottom|~": {
 				"Items": ["Mystic cloth*", "Thread*"],
@@ -22568,7 +22810,8 @@
 				"Objects": ["Potter's wheel"],
 				"Primary": true,
 				"Priority": 15,
-				"Not F2P": true
+				"Not F2P": true,
+				"Partial": true
 			},
 			"Fire a ~|strong hunter urn (no rune)|~": {
 				"Items": ["Strong hunter urn (unfired)*"],
@@ -22577,7 +22820,8 @@
 				"Objects": ["Pottery oven"],
 				"Primary": true,
 				"Priority": 16,
-				"Not F2P": true
+				"Not F2P": true,
+				"Partial": true
 			},
 			"Create a maple ~|pyre ship|~": {
 				"Items": ["Maple logs*", "Mangled bones*"],
@@ -22684,7 +22928,8 @@
 				"Objects": ["Potter's wheel"],
 				"Primary": true,
 				"Priority": 3,
-				"Not F2P": true
+				"Not F2P": true,
+				"Partial": true
 			},
 			"Fire a ~|strong divination urn (no rune)|~": {
 				"Items": ["Strong divination urn (unfired)*"],
@@ -22693,7 +22938,8 @@
 				"Objects": ["Pottery oven"],
 				"Primary": true,
 				"Priority": 4,
-				"Not F2P": true
+				"Not F2P": true,
+				"Partial": true
 			},
 			"Craft a ~|diamond necklace|~": {
 				"Items": ["Diamond*", "Gold bar*"],
@@ -22738,7 +22984,8 @@
 				"Objects": ["Potter's wheel"],
 				"Primary": true,
 				"Priority": 2,
-				"Not F2P": true
+				"Not F2P": true,
+				"Partial": true
 			},
 			"Fire a ~|strong farming urn (no rune)|~": {
 				"Items": ["Strong farming urn (unfired)*"],
@@ -22747,7 +22994,8 @@
 				"Objects": ["Pottery oven"],
 				"Primary": true,
 				"Priority": 3,
-				"Not F2P": true
+				"Not F2P": true,
+				"Partial": true
 			},
 			"Craft an ~|earth battlestaff|~": {
 				"Items": ["Battlestaff*", "Earth orb*"],
@@ -22979,7 +23227,8 @@
 				"Objects": ["Potter's wheel"],
 				"Primary": true,
 				"Priority": 1,
-				"Not F2P": true
+				"Not F2P": true,
+				"Partial": true
 			},
 			"Fire a ~|strong woodcutting urn (no rune)|~": {
 				"Items": ["Strong woodcutting urn (unfired)*"],
@@ -22988,7 +23237,8 @@
 				"Objects": ["Pottery oven"],
 				"Primary": true,
 				"Priority": 2,
-				"Not F2P": true
+				"Not F2P": true,
+				"Partial": true
 			},
 			"Craft an ~|infernal urn (unfired)|~": {
 				"Items": ["Soft clay*"],
@@ -22997,7 +23247,8 @@
 				"Objects": ["Potter's wheel"],
 				"Primary": true,
 				"Priority": 1,
-				"Not F2P": true
+				"Not F2P": true,
+				"Partial": true
 			},
 			"Fire an ~|infernal urn (no rune)|~": {
 				"Items": ["Infernal urn (unfired)*"],
@@ -23006,7 +23257,8 @@
 				"Objects": ["Pottery oven"],
 				"Primary": true,
 				"Priority": 2,
-				"Not F2P": true
+				"Not F2P": true,
+				"Partial": true
 			},
 			"Craft a ~|fire battlestaff|~": {
 				"Items": ["Battlestaff*", "Fire orb*"],
@@ -23231,7 +23483,8 @@
 				"Output": "Diamond amulet (unstrung)",
 				"Objects": ["CraftingFurnace[+]"],
 				"Primary": true,
-				"Priority": 1
+				"Priority": 1,
+				"Partial": true
 			},
 			"String a ~|diamond amulet|~": {
 				"Items": ["Diamond amulet (unstrung)*", "Ball of wool*"],
@@ -23250,7 +23503,8 @@
 				"Objects": ["CraftingFurnace[+]"],
 				"Primary": true,
 				"Priority": 3,
-				"Not F2P": true
+				"Not F2P": true,
+				"Partial": true
 			},
 			"Activate the ~|Orthen teleportation device|~ at the Moksha ritual site": {
 				"Tasks": {
@@ -23562,7 +23816,8 @@
 				"Objects": ["Potter's wheel"],
 				"Primary": true,
 				"Priority": 1,
-				"Not F2P": true
+				"Not F2P": true,
+				"Partial": true
 			},
 			"Fire a ~|decorated fishing urn (no rune)|~": {
 				"Items": ["Decorated fishing urn (unfired)*"],
@@ -23571,7 +23826,8 @@
 				"Objects": ["Pottery oven"],
 				"Primary": true,
 				"Priority": 2,
-				"Not F2P": true
+				"Not F2P": true,
+				"Partial": true
 			},
 			"Craft a ~|decorated woodcutting urn (unfired)|~": {
 				"Items": ["Soft clay*"],
@@ -23580,7 +23836,8 @@
 				"Objects": ["Potter's wheel"],
 				"Primary": true,
 				"Priority": 3,
-				"Not F2P": true
+				"Not F2P": true,
+				"Partial": true
 			},
 			"Fire a ~|decorated woodcutting urn (no rune)|~": {
 				"Items": ["Decorated woodcutting urn (unfired)*"],
@@ -23589,7 +23846,8 @@
 				"Objects": ["Pottery oven"],
 				"Primary": true,
 				"Priority": 4,
-				"Not F2P": true
+				"Not F2P": true,
+				"Partial": true
 			},
 			"Craft a ~|decorated runecrafting urn (unfired)|~": {
 				"Items": ["Soft clay*"],
@@ -23598,7 +23856,8 @@
 				"Objects": ["Potter's wheel"],
 				"Primary": true,
 				"Priority": 1,
-				"Not F2P": true
+				"Not F2P": true,
+				"Partial": true
 			},
 			"Fire a ~|decorated runecrafting urn (no rune)|~": {
 				"Items": ["Decorated runecrafting (unf)*"],
@@ -23607,7 +23866,8 @@
 				"Objects": ["Pottery oven"],
 				"Primary": true,
 				"Priority": 2,
-				"Not F2P": true
+				"Not F2P": true,
+				"Partial": true
 			},
 			"Craft a ~|moonstone necklace|~": {
 				"Items": ["Moonstone*", "Ensouled bar"],
@@ -23643,7 +23903,8 @@
 				"Objects": ["Potter's wheel"],
 				"Primary": true,
 				"Priority": 1,
-				"Not F2P": true
+				"Not F2P": true,
+				"Partial": true
 			},
 			"Fire a ~|decorated mining urn (no rune)|~": {
 				"Items": ["Decorated mining urn (unfired)*"],
@@ -23652,7 +23913,8 @@
 				"Objects": ["Pottery oven"],
 				"Primary": true,
 				"Priority": 2,
-				"Not F2P": true
+				"Not F2P": true,
+				"Partial": true
 			},
 			"Craft a ~|feather headdress (blue)|~": {
 				"Items": ["Studded leather coif*", "Blue feather*"],
@@ -23701,7 +23963,8 @@
 				"Objects": ["Potter's wheel"],
 				"Primary": true,
 				"Priority": 6,
-				"Not F2P": true
+				"Not F2P": true,
+				"Partial": true
 			},
 			"Fire a ~|decorated hunter urn (no rune)|~": {
 				"Items": ["Decorated hunter urn (unfired)*"],
@@ -23710,7 +23973,8 @@
 				"Objects": ["Pottery oven"],
 				"Primary": true,
 				"Priority": 7,
-				"Not F2P": true
+				"Not F2P": true,
+				"Partial": true
 			},
 			"Cut a ~|hydrix|~": {
 				"Items": ["Uncut hydrix*"],
@@ -23747,7 +24011,8 @@
 				"Objects": ["Potter's wheel"],
 				"Primary": true,
 				"Priority": 1,
-				"Not F2P": true
+				"Not F2P": true,
+				"Partial": true
 			},
 			"Fire a ~|decorated smithing urn (no rune)|~": {
 				"Items": ["Decorated smithing urn (unfired)*"],
@@ -23756,7 +24021,8 @@
 				"Objects": ["Pottery oven"],
 				"Primary": true,
 				"Priority": 2,
-				"Not F2P": true
+				"Not F2P": true,
+				"Partial": true
 			},
 			"Craft a ~|dragonstone amulet (unstrung)|~": {
 				"Items": ["Dragonstone*", "Gold bar*"],
@@ -23765,7 +24031,8 @@
 				"Objects": ["CraftingFurnace[+]"],
 				"Primary": true,
 				"Priority": 3,
-				"Not F2P": true
+				"Not F2P": true,
+				"Partial": true
 			},
 			"String a ~|dragonstone amulet|~": {
 				"Items": ["Dragonstone amulet (unstrung)*", "Ball of wool*"],
@@ -23793,7 +24060,8 @@
 				"Output": "Blessed molten glass (azure)",
 				"Primary": true,
 				"Priority": 6,
-				"Not F2P": true
+				"Not F2P": true,
+				"Partial": true
 			},
 			"Craft ~|blessed molten glass (golden)|~": {
 				"Items": ["Blessed molten glass*", "Hydrix bolt tips*", "Gold stone spirit*", "Luminite stone spirit*"],
@@ -23801,7 +24069,8 @@
 				"Output": "Blessed molten glass (golden)",
 				"Primary": true,
 				"Priority": 7,
-				"Not F2P": true
+				"Not F2P": true,
+				"Partial": true
 			},
 			"Cast a ~|cured rod of pure essence|~": {
 				"Objects": ["CraftingFurnace[+]"],
@@ -23810,7 +24079,8 @@
 				"Primary": true,
 				"Output": "Cured rod of pure essence",
 				"Priority": 8,
-				"Not F2P": true
+				"Not F2P": true,
+				"Partial": true
 			},
 			"Carve a ~|carved rod of pure essence|~": {
 				"Objects": ["CraftingFurnace[+]"],
@@ -23819,7 +24089,8 @@
 				"Primary": true,
 				"Output": "Carved rod of pure essence",
 				"Priority": 9,
-				"Not F2P": true
+				"Not F2P": true,
+				"Partial": true
 			},
 			"Create a ~|crystal binding rod|~": {
 				"Objects": ["Inventor's workbench"],
@@ -23876,7 +24147,8 @@
 				"Objects": ["Potter's wheel"],
 				"Primary": true,
 				"Priority": 1,
-				"Not F2P": true
+				"Not F2P": true,
+				"Partial": true
 			},
 			"Fire a ~|decorated cooking urn (no rune)|~": {
 				"Items": ["Decorated cooking urn (unfired)*"],
@@ -23885,7 +24157,8 @@
 				"Objects": ["Pottery oven"],
 				"Primary": true,
 				"Priority": 2,
-				"Not F2P": true
+				"Not F2P": true,
+				"Partial": true
 			},
 			"Craft a ~|decorated divination urn (unfired)|~": {
 				"Items": ["Soft clay*"],
@@ -23894,7 +24167,8 @@
 				"Objects": ["Potter's wheel"],
 				"Primary": true,
 				"Priority": 1,
-				"Not F2P": true
+				"Not F2P": true,
+				"Partial": true
 			},
 			"Fire a ~|decorated divination urn (no rune)|~": {
 				"Items": ["Decorated divination urn (unfired)*"],
@@ -23903,7 +24177,8 @@
 				"Objects": ["Pottery oven"],
 				"Primary": true,
 				"Priority": 2,
-				"Not F2P": true
+				"Not F2P": true,
+				"Partial": true
 			},
 			"Craft an ~|oynx necklace|~": {
 				"Items": ["Onyx*", "Gold bar*"],
@@ -23921,7 +24196,8 @@
 				"Objects": ["Potter's wheel"],
 				"Primary": true,
 				"Priority": 1,
-				"Not F2P": true
+				"Not F2P": true,
+				"Partial": true
 			},
 			"Fire a ~|decorated farming urn (no rune)|~": {
 				"Items": ["Decorated farming urn (unfired)*"],
@@ -23930,7 +24206,8 @@
 				"Objects": ["Pottery oven"],
 				"Primary": true,
 				"Priority": 2,
-				"Not F2P": true
+				"Not F2P": true,
+				"Partial": true
 			},
 			"Craft an ~|oynx bracelet|~": {
 				"Items": ["Onyx*", "Gold bar*"],
@@ -24269,7 +24546,8 @@
 				"Output": "Moonstone amulet (unstrung)",
 				"Primary": true,
 				"Priority": 36,
-				"Not F2P": true
+				"Not F2P": true,
+				"Partial": true
 			},
 			"String a ~|moonstone amulet|~": {
 				"Items": ["Moonstone amulet (unstrung)*", "Ball of wool"],
@@ -24288,7 +24566,8 @@
 				"Primary": true,
 				"Output": "Meteorite dust",
 				"Priority": 38,
-				"Not F2P": true
+				"Not F2P": true,
+				"Partial": true
 			},
 			"Blow a ~|empty light orb|~": {
 				"Items": ["Molten glass*"],
@@ -24328,7 +24607,8 @@
 				"Output": "Crystal flask",
 				"Primary": true,
 				"Priority": 3,
-				"Not F2P": true
+				"Not F2P": true,
+				"Partial": true
 			},
 			"Create an ~|upgraded bone blowpipe|~": {
 				"Items": ["Blowpipe chitin*", "Blowpipe feather*", "Blowpipe fins*", "Bone blowpipe*"],
@@ -24351,7 +24631,8 @@
 				"Output": "Glorious silvthril chain",
 				"Primary": true,
 				"Priority": 1,
-				"Not F2P": true
+				"Not F2P": true,
+				"Partial": true
 			},
 			"Craft a ~|blessed flask shell|~": {
 				"Items": ["Blessed molten glass (azure)*", "Blessed molten glass (golden)*", "Necrite stone spirit*", "Phasmatite stone spirit*", "Alaea sea salt*", "Harmonic dust*"],
@@ -24359,7 +24640,8 @@
 				"Output": "Blessed flask shell",
 				"Primary": true,
 				"Priority": 2,
-				"Not F2P": true
+				"Not F2P": true,
+				"Partial": true
 			},
 			"Craft a ~|faceted chaos-infused moonstone|~": {
 				"Items": ["Chaos-infused moonstone*"],
@@ -24367,7 +24649,8 @@
 				"Output": "Faceted chaos-infused moonstone",
 				"Primary": true,
 				"Priority": 3,
-				"Not F2P": true
+				"Not F2P": true,
+				"Partial": true
 			},
 			"Craft an ~|oynx amulet (unstrung)|~": {
 				"Items": ["Onyx*", "Gold bar*"],
@@ -24376,7 +24659,8 @@
 				"Objects": ["CraftingFurnace[+]"],
 				"Primary": true,
 				"Priority": 4,
-				"Not F2P": true
+				"Not F2P": true,
+				"Partial": true
 			},
 			"String an ~|oynx amulet|~": {
 				"Items": ["Onyx amulet (unstrung)*", "Ball of wool*"],
@@ -24642,7 +24926,8 @@
 				"Output": "Dyed undead dragon leather",
 				"Primary": true,
 				"Priority": 102,
-				"Not F2P": true
+				"Not F2P": true,
+				"Partial": true
 			},
 			"Craft ~|eternal magic glue|~": {
 				"Items": ["Eternal magic sap*", "Ground mud runes*", "Ground miasma rune*"],
@@ -24653,7 +24938,8 @@
 				"Primary": true,
 				"Output": "Eternal magic glue",
 				"Priority": 103,
-				"Not F2P": true
+				"Not F2P": true,
+				"Partial": true
 			},
 			"Facet a ~|faceted noxious sapphire|~": {
 				"Items": ["Noxious sapphire*"],
@@ -24661,7 +24947,8 @@
 				"Output": "Faceted noxious sapphire",
 				"Primary": true,
 				"Priority": 104,
-				"Not F2P": true
+				"Not F2P": true,
+				"Partial": true
 			},
 			"Facet a ~|faceted ascended sapphire|~": {
 				"Items": ["Ascended sapphire*"],
@@ -24669,7 +24956,8 @@
 				"Output": "Faceted ascended sapphire",
 				"Primary": true,
 				"Priority": 105,
-				"Not F2P": true
+				"Not F2P": true,
+				"Partial": true
 			},
 			"Craft a ~|bucket of vis wax|~": {
 				"Items": ["Bucket of wax*"],
@@ -24681,14 +24969,16 @@
 				"Output": "Bucket of vis wax",
 				"Primary": true,
 				"Priority": 106,
-				"Not F2P": true
+				"Not F2P": true,
+				"Partial": true
 			},
 			"Craft a ~|wrapped masterwork sword grip|~": {
 				"Items": ["Dyed undead dragon leather*", "Unwrapped masterwork sword grip*"],
 				"Level": 90,
 				"Output": "Wrapped masterwork sword grip",
 				"Primary": true,
-				"Priority": 107
+				"Priority": 107,
+				"Partial": true
 			},
 			"Craft a ~|masterwork runic conduit|~": {
 				"Category": ["Token"],
@@ -24696,28 +24986,32 @@
 				"Level": 90,
 				"Output": "Masterwork runic conduit",
 				"Primary": true,
-				"Priority": 108
+				"Priority": 108,
+				"Partial": true
 			},
 			"Craft a ~|smoothed catalysed elemental diamond|~": {
 				"Items": ["Catalysed elemental diamond*"],
 				"Level": 90,
 				"Output": "Smoothed catalysed elemental diamond",
 				"Primary": true,
-				"Priority": 109
+				"Priority": 109,
+				"Partial": true
 			},
 			"Craft an ~|unhoused masterwork focus|~": {
 				"Items": ["Smoothed catalysed elemental diamond*", "Volatile runic brick*"],
 				"Level": 90,
 				"Output": "Unhoused masterwork focus",
 				"Primary": true,
-				"Priority": 110
+				"Priority": 110,
+				"Partial": true
 			},
 			"Craft a ~|wrapped masterwork staff grip|~": {
 				"Items": ["Unwrapped masterwork staff grip*", "Dyed undead dragon leather*"],
 				"Level": 90,
 				"Output": "Wrapped masterwork staff grip",
 				"Primary": true,
-				"Priority": 111
+				"Priority": 111,
+				"Partial": true
 			},
 			"Craft a ~|sirenic mask|~": {
 				"Items": ["Sirenic scale*", "Algarum Thread*"],
@@ -25004,7 +25298,8 @@
 				"Output": "Hydrix amulet (unstrung)",
 				"Objects": ["CraftingFurnace[+]"],
 				"Primary": true,
-				"Priority": 1
+				"Priority": 1,
+				"Partial": true
 			},
 			"String a ~|hydrix amulet|~": {
 				"Items": ["Hydrix amulet (unstrung)*", "Ball of wool*"],
@@ -25043,7 +25338,8 @@
 				"Output": "Praesulic essence (ranged)",
 				"Primary": true,
 				"Priority": 5,
-				"Not F2P": true
+				"Not F2P": true,
+				"Partial": true
 			},
 			"Create an elder ~|pyre ship|~": {
 				"Items": ["Elder logs*", "Mangled bones*"],
@@ -25131,7 +25427,8 @@
 				"Output": "Starbloom thread",
 				"Primary": true,
 				"Priority": 1,
-				"Not F2P": true
+				"Not F2P": true,
+				"Partial": true
 			},
 			"Weave ~|starbloom cloth|~": {
 				"Items": ["Starbloom thread*"],
@@ -25139,7 +25436,8 @@
 				"Objects": ["Loom"],
 				"Output": "Starbloom cloth",
 				"Primary": true,
-				"Priority": 2
+				"Priority": 2,
+				"Partial": true
 			},
 			"Design, draft and craft a piece of ~|starbloom equipment|~": {
 				"Items": ["Starbloom cloth*"],
@@ -25156,7 +25454,8 @@
 				"Output": "Soft porcelain clay",
 				"Primary": true,
 				"Priority": 4,
-				"Not F2P": true
+				"Not F2P": true,
+				"Partial": true
 			},
 			"Create ~|soft porcelain clay|~ with a watersource": {
 				"Category": ["Token"],
@@ -25166,7 +25465,8 @@
 				"Objects": ["WaterSource[+]"],
 				"Primary": true,
 				"Priority": 5,
-				"Not F2P": true
+				"Not F2P": true,
+				"Partial": true
 			},
 			"Craft an ~|exquisite mining urn (unfired)|~": {
 				"Items": ["Soft porcelain clay*"],
@@ -25174,7 +25474,8 @@
 				"Output": "Exquisite mining urn (unfired)",
 				"Objects": ["Potter's wheel"],
 				"Primary": true,
-				"Priority": 1
+				"Priority": 1,
+				"Partial": true
 			},
 			"Craft an ~|exquisite mining urn (no gem)|~": {
 				"Items": ["Exquisite mining urn (unfired)*"],
@@ -25182,14 +25483,16 @@
 				"Output": "Exquisite mining urn (no gem)",
 				"Objects": ["Pottery oven"],
 				"Primary": true,
-				"Priority": 2
+				"Priority": 2,
+				"Partial": true
 			},
 			"Craft an ~|exquisite mining urn (no rune)|~": {
 				"Items": ["Exquisite mining urn (no gem)*", "Jade*"],
 				"Level": 102,
 				"Output": "Exquisite mining urn (no rune)",
 				"Primary": true,
-				"Priority": 3
+				"Priority": 3,
+				"Partial": true
 			},
 			"Craft an ~|exquisite cooking urn (unfired)|~": {
 				"Items": ["Soft porcelain clay*"],
@@ -25197,7 +25500,8 @@
 				"Output": "Exquisite cooking urn (unfired)",
 				"Objects": ["Potter's wheel"],
 				"Primary": true,
-				"Priority": 1
+				"Priority": 1,
+				"Partial": true
 			},
 			"Craft an ~|exquisite cooking urn (no gem)|~": {
 				"Items": ["Exquisite cooking urn (unfired)*"],
@@ -25205,14 +25509,16 @@
 				"Output": "Exquisite cooking urn (no gem)",
 				"Objects": ["Pottery oven"],
 				"Primary": true,
-				"Priority": 2
+				"Priority": 2,
+				"Partial": true
 			},
 			"Craft an ~|exquisite cooking urn (no rune)|~": {
 				"Items": ["Exquisite cooking urn (no gem)*", "Red topaz*"],
 				"Level": 103,
 				"Output": "Exquisite cooking urn (no rune)",
 				"Primary": true,
-				"Priority": 3
+				"Priority": 3,
+				"Partial": true
 			},
 			"Cast a ~|platinum ring|~": {
 				"Items": ["Dragonstone*", "Platinum bar*"],
@@ -25229,7 +25535,8 @@
 				"Output": "Exquisite fishing urn (unfired)",
 				"Objects": ["Potter's wheel"],
 				"Primary": true,
-				"Priority": 2
+				"Priority": 2,
+				"Partial": true
 			},
 			"Craft an ~|exquisite fishing urn (no gem)|~": {
 				"Items": ["Exquisite fishing urn (unfired)*"],
@@ -25237,14 +25544,16 @@
 				"Output": "Exquisite fishing urn (no gem)",
 				"Objects": ["Pottery oven"],
 				"Primary": true,
-				"Priority": 3
+				"Priority": 3,
+				"Partial": true
 			},
 			"Craft an ~|exquisite fishing urn (no rune)|~": {
 				"Items": ["Exquisite fishing urn (no gem)*", "Sapphire*"],
 				"Level": 104,
 				"Output": "Exquisite fishing urn (no rune)",
 				"Primary": true,
-				"Priority": 4
+				"Priority": 4,
+				"Partial": true
 			},
 			"Cast a ~|platinum necklace|~": {
 				"Items": ["Dragonstone*", "Platinum bar*"],
@@ -25261,7 +25570,8 @@
 				"Output": "Exquisite smithing urn (unfired)",
 				"Objects": ["Potter's wheel"],
 				"Primary": true,
-				"Priority": 2
+				"Priority": 2,
+				"Partial": true
 			},
 			"Craft an ~|exquisite smithing urn (no gem)|~": {
 				"Items": ["Exquisite smithing urn (unfired)*"],
@@ -25269,14 +25579,16 @@
 				"Output": "Exquisite smithing urn (no gem)",
 				"Objects": ["Pottery oven"],
 				"Primary": true,
-				"Priority": 3
+				"Priority": 3,
+				"Partial": true
 			},
 			"Craft an ~|exquisite smithing urn (no rune)|~": {
 				"Items": ["Exquisite smithing urn (no gem)*", "Ruby*"],
 				"Level": 105,
 				"Output": "Exquisite smithing urn (no rune)",
 				"Primary": true,
-				"Priority": 4
+				"Priority": 4,
+				"Partial": true
 			},
 			"Cast a ~|platinum bracelet|~": {
 				"Items": ["Dragonstone*", "Platinum bar*"],
@@ -25293,7 +25605,8 @@
 				"Output": "Exquisite woodcutting urn (unfired)",
 				"Objects": ["Potter's wheel"],
 				"Primary": true,
-				"Priority": 2
+				"Priority": 2,
+				"Partial": true
 			},
 			"Craft an ~|exquisite woodcutting urn (no gem)|~": {
 				"Items": ["Exquisite woodcutting urn (unfired)*"],
@@ -25301,14 +25614,16 @@
 				"Output": "Exquisite woodcutting urn (no gem)",
 				"Objects": ["Pottery oven"],
 				"Primary": true,
-				"Priority": 3
+				"Priority": 3,
+				"Partial": true
 			},
 			"Craft an ~|exquisite woodcutting urn (no rune)|~": {
 				"Items": ["Exquisite woodcutting urn (no gem)*", "Diamond*"],
 				"Level": 106,
 				"Output": "Exquisite woodcutting urn (no rune)",
 				"Primary": true,
-				"Priority": 4
+				"Priority": 4,
+				"Partial": true
 			},
 			"Craft an ~|exquisite runecrafting urn (unfired)|~": {
 				"Items": ["Soft porcelain clay*"],
@@ -25316,7 +25631,8 @@
 				"Output": "Exquisite runecrafting urn (unfired)",
 				"Objects": ["Potter's wheel"],
 				"Primary": true,
-				"Priority": 1
+				"Priority": 1,
+				"Partial": true
 			},
 			"Craft an ~|exquisite runecrafting urn (no gem)|~": {
 				"Items": ["Exquisite runecrafting urn (unfired)*"],
@@ -25324,14 +25640,16 @@
 				"Output": "Exquisite runecrafting urn (no gem)",
 				"Objects": ["Pottery oven"],
 				"Primary": true,
-				"Priority": 2
+				"Priority": 2,
+				"Partial": true
 			},
 			"Craft an ~|exquisite runecrafting urn (no rune)|~": {
 				"Items": ["Exquisite runecrafting urn (no gem)*", "Dragonstone*"],
 				"Level": 107,
 				"Output": "Exquisite runecrafting urn (no rune)",
 				"Primary": true,
-				"Priority": 3
+				"Priority": 3,
+				"Partial": true
 			},
 			"Cast a ~|platinum amulet (unstrung)|~": {
 				"Items": ["Dragonstone*", "Platinum bar*"],
@@ -25340,7 +25658,8 @@
 				"Objects": ["CraftingFurnace[+]"],
 				"Primary": true,
 				"Priority": 4,
-				"Not F2P": true
+				"Not F2P": true,
+				"Partial": true
 			},
 			"String a ~|platinum amulet|~": {
 				"Items": ["Ball of wool*", "Platinum amulet (unstrung)*"],
@@ -25355,7 +25674,8 @@
 				"Output": "Exquisite divination urn (unfired)",
 				"Objects": ["Potter's wheel"],
 				"Primary": true,
-				"Priority": 3
+				"Priority": 3,
+				"Partial": true
 			},
 			"Craft an ~|exquisite divination urn (no gem)|~": {
 				"Items": ["Exquisite divination urn (unfired)*"],
@@ -25363,14 +25683,16 @@
 				"Output": "Exquisite divination urn (no gem)",
 				"Objects": ["Pottery oven"],
 				"Primary": true,
-				"Priority": 4
+				"Priority": 4,
+				"Partial": true
 			},
 			"Craft an ~|exquisite divination urn (no rune)|~": {
 				"Items": ["Exquisite divination urn (no gem)*", "Dragonstone*"],
 				"Level": 108,
 				"Output": "Exquisite divination urn (no rune)",
 				"Primary": true,
-				"Priority": 5
+				"Priority": 5,
+				"Partial": true
 			},
 			"Cast a ~|platinum anklet|~": {
 				"Items": ["Dragonstone*", "Platinum bar*"],
@@ -25387,7 +25709,8 @@
 				"Output": "Exquisite hunter urn (unfired)",
 				"Objects": ["Potter's wheel"],
 				"Primary": true,
-				"Priority": 2
+				"Priority": 2,
+				"Partial": true
 			},
 			"Craft an ~|exquisite hunter urn (no gem)|~": {
 				"Items": ["Exquisite hunter urn (unfired)*"],
@@ -25395,14 +25718,16 @@
 				"Output": "Exquisite hunter urn (no gem)",
 				"Objects": ["Pottery oven"],
 				"Primary": true,
-				"Priority": 3
+				"Priority": 3,
+				"Partial": true
 			},
 			"Craft an ~|exquisite hunter urn (no rune)|~": {
 				"Items": ["Exquisite hunter urn (no gem)*", "Opal*"],
 				"Level": 109,
 				"Output": "Exquisite hunter urn (no rune)",
 				"Primary": true,
-				"Priority": 4
+				"Priority": 4,
+				"Partial": true
 			},
 			"Weave ~|masterwork white cloth|~": {
 				"Items": ["Starbloom cloth*", "Croesus flakes*"],
@@ -25413,7 +25738,8 @@
 				},
 				"Output": "Masterwork white cloth",
 				"Primary": true,
-				"Priority": 1
+				"Priority": 1,
+				"Partial": true
 			},
 			"Weave ~|masterwork blue cloth|~": {
 				"Items": ["Strip of cloth*", "Imphide*", "Spider silk*", "Batwing*", "Mystic cloth*", "Fine cloth*", "Bark*"],
@@ -25425,7 +25751,8 @@
 				"Output": "Masterwork blue cloth",
 				"Primary": true,
 				"Priority": 2,
-				"Not F2P": true
+				"Not F2P": true,
+				"Partial": true
 			},
 			"Weave ~|masterwork green cloth|~": {
 				"Items": ["Starbloom cloth*", "Fungal flake*", "Grifolic flake*", "Ganodermic flake*"],
@@ -25436,7 +25763,8 @@
 				},
 				"Output": "Masterwork green cloth",
 				"Primary": true,
-				"Priority": 3
+				"Priority": 3,
+				"Partial": true
 			},
 			"Spin ~|masterwork thread|~": {
 				"Items": ["Thread*", "Fallfaced wool*", "Springsheared wool*", "Summerdown wool*", "Winterwold wool*"],
@@ -25448,7 +25776,8 @@
 				"Output": "Masterwork thread",
 				"Primary": true,
 				"Priority": 4,
-				"Not F2P": true
+				"Not F2P": true,
+				"Partial": true
 			},
 			"Design, draft and craft a ~|masterwork magic robe top|~": {
 				"Items": ["Masterwork white cloth*", "Masterwork blue cloth*", "Ethereal pearlescent plate*", "Masterwork thread*", "Stone of binding*"],
@@ -25513,7 +25842,8 @@
 				},
 				"Output": "Lined pearlescent plate",
 				"Primary": true,
-				"Priority": 10
+				"Priority": 10,
+				"Partial": true
 			},
 			"Craft an ~|exquisite farming urn (unfired)|~": {
 				"Items": ["Soft porcelain clay*"],
@@ -25521,7 +25851,8 @@
 				"Output": "Exquisite farming urn (unfired)",
 				"Objects": ["Potter's wheel"],
 				"Primary": true,
-				"Priority": 11
+				"Priority": 11,
+				"Partial": true
 			},
 			"Craft an ~|exquisite farming urn (no gem)|~": {
 				"Items": ["Exquisite farming urn (unfired)*"],
@@ -25529,14 +25860,16 @@
 				"Output": "Exquisite farming urn (no gem)",
 				"Objects": ["Pottery oven"],
 				"Primary": true,
-				"Priority": 12
+				"Priority": 12,
+				"Partial": true
 			},
 			"Craft an ~|exquisite farming urn (no rune)|~": {
 				"Items": ["Exquisite farming urn (no gem)*", "Emerald*"],
 				"Level": 110,
 				"Output": "Exquisite farming urn (no rune)",
 				"Primary": true,
-				"Priority": 13
+				"Priority": 13,
+				"Partial": true
 			},
 			"Buy the ~|Crafting master cape|~": {
 				"Category": ["Master skillcape"],
@@ -32839,7 +33172,7 @@
 			},
 			"Build a second small pen in your ~|player-owned farm|~": {
 				"Chunks": ["10548"],
-				"Items": ["PlankOakUp[+]*", "SteelNails[+]*"],
+				"Items": ["PlankOakUp[+]*", "SteelNails[+]*", "Small pen deed II"],
 				"Level": 28,
 				"Skills": {
 					"Construction": 20
@@ -33047,7 +33380,7 @@
 			},
 			"Build a medium pen in your ~|player-owned farm|~": {
 				"Chunks": ["10548"],
-				"Items": ["PlankTeakUp[+]*", "MithrilNails[+]*"],
+				"Items": ["PlankTeakUp[+]*", "MithrilNails[+]*", "Medium pen deed I"],
 				"Level": 35,
 				"Skills": {
 					"Construction": 40
@@ -33386,6 +33719,7 @@
 			},
 			"Build a small dinosaur pen in your ~|player-owned ranch|~": {
 				"Chunks": ["14916"],
+				"Items": ["Small dinosaur pen deed"],
 				"Level": 42,
 				"Skills": {
 					"Construction": 45
@@ -33400,6 +33734,7 @@
 			},
 			"Build a dinosaur breeding pen in your ~|player-owned ranch|~": {
 				"Chunks": ["14659"],
+				"Items": ["Dinosaur breeding pen deed I"],
 				"Level": 42,
 				"Tasks": {
 					"Unlock the Anachronia Base Camp": "Nonskill",
@@ -33490,7 +33825,7 @@
 			},
 			"Build a large pen in your ~|player-owned farm|~": {
 				"Chunks": ["10548"],
-				"Items": ["PlankMahoganyUp[+]*", "Rune nails*"],
+				"Items": ["PlankMahoganyUp[+]*", "Rune nails*", "Large pen deed I"],
 				"Level": 49,
 				"Skills": {
 					"Construction": 60
@@ -33951,7 +34286,7 @@
 			},
 			"Build a second medium pen in your ~|player-owned farm|~": {
 				"Chunks": ["10548"],
-				"Items": ["PlankTeakUp[+]*", "MithrilNails[+]*"],
+				"Items": ["PlankTeakUp[+]*", "MithrilNails[+]*", "Medium pen deed II"],
 				"Level": 64,
 				"Skills": {
 					"Construction": 40
@@ -34164,7 +34499,7 @@
 			},
 			"Build a second large pen in your ~|player-owned farm|~": {
 				"Chunks": ["10548"],
-				"Items": ["PlankMahoganyUp[+]*", "Rune nails*"],
+				"Items": ["PlankMahoganyUp[+]*", "Rune nails*", "Large pen deed II"],
 				"Level": 71,
 				"Skills": {
 					"Construction": 60
@@ -34334,6 +34669,7 @@
 			},
 			"Build a medium dinosaur pen in your ~|player-owned ranch|~": {
 				"Chunks": ["14916"],
+				"Items": ["Medium dinosaur pen deed"],
 				"Level": 76,
 				"Skills": {
 					"Construction": 80
@@ -35408,6 +35744,7 @@
 			},
 			"Build a large dinosaur pen in your ~|player-owned ranch|~": {
 				"Chunks": ["14660"],
+				"Items": ["Large dinosaur pen deed I"],
 				"Level": 98,
 				"Skills": {
 					"Construction": 90
@@ -35663,6 +36000,7 @@
 			},
 			"Build a second large dinosaur pen in your ~|player-owned ranch|~": {
 				"Chunks": ["14659"],
+				"Items": ["Large dinosaur pen deed II"],
 				"Level": 104,
 				"Skills": {
 					"Construction": 90
@@ -36370,7 +36708,8 @@
 				"Level": 1,
 				"Output": "Wooden incense sticks",
 				"Primary": true,
-				"Priority": 5
+				"Priority": 5,
+				"Partial": true
 			},
 			"Craft ~|impious incense sticks|~": {
 				"Items": ["Wooden incense sticks*", "Impious ashes*"],
@@ -36380,7 +36719,8 @@
 				},
 				"Output": "Impious incense sticks",
 				"Primary": true,
-				"Priority": 6
+				"Priority": 6,
+				"Partial": true
 			},
 			"Craft ~|guam incense sticks|~": {
 				"Items": ["Impious incense sticks*", "Clean guam*"],
@@ -36667,7 +37007,8 @@
 				"Level": 20,
 				"Output": "Oak incense sticks",
 				"Primary": true,
-				"Priority": 8
+				"Priority": 8,
+				"Partial": true
 			},
 			"Craft ~|impious oak incense sticks|~": {
 				"Items": ["Oak incense sticks*", "Impious ashes*"],
@@ -36677,7 +37018,8 @@
 				},
 				"Output": "Impious oak incense sticks",
 				"Primary": true,
-				"Priority": 9
+				"Priority": 9,
+				"Partial": true
 			},
 			"Craft ~|harralander incense sticks|~": {
 				"Items": ["Impious oak incense sticks*", "Clean harralander*"],
@@ -36782,7 +37124,8 @@
 				"Level": 30,
 				"Output": "Willow incense sticks",
 				"Primary": true,
-				"Priority": 4
+				"Priority": 4,
+				"Partial": true
 			},
 			"Craft ~|impious willow incense sticks|~": {
 				"Items": ["Willow incense sticks*", "Impious ashes*"],
@@ -36792,7 +37135,8 @@
 				},
 				"Output": "Impious willow incense sticks",
 				"Primary": true,
-				"Priority": 5
+				"Priority": 5,
+				"Partial": true
 			},
 			"Craft ~|toadflax incense sticks|~": {
 				"Items": ["Impious willow incense sticks*", "Clean toadflax*"],
@@ -36975,7 +37319,8 @@
 				"Level": 40,
 				"Output": "Maple incense sticks",
 				"Primary": true,
-				"Priority": 8
+				"Priority": 8,
+				"Partial": true
 			},
 			"Craft ~|accursed maple incense sticks|~": {
 				"Items": ["Maple incense sticks*", "Accursed ashes*"],
@@ -36985,7 +37330,8 @@
 				},
 				"Output": "Accursed maple incense sticks",
 				"Primary": true,
-				"Priority": 9
+				"Priority": 9,
+				"Partial": true
 			},
 			"Craft ~|irit incense sticks|~": {
 				"Items": ["Accursed maple incense sticks*", "Clean irit*"],
@@ -37167,7 +37513,8 @@
 				"Level": 48,
 				"Output": "Acadia incense sticks",
 				"Primary": true,
-				"Priority": 1
+				"Priority": 1,
+				"Partial": true
 			},
 			"Craft ~|accursed acadia incense sticks|~": {
 				"Items": ["Acadia incense sticks*", "Accursed ashes*"],
@@ -37177,7 +37524,8 @@
 				},
 				"Output": "Accursed acadia incense sticks",
 				"Primary": true,
-				"Priority": 2
+				"Priority": 2,
+				"Partial": true
 			},
 			"Craft ~|avantoe incense sticks|~": {
 				"Items": ["Accursed acadia incense sticks*", "Clean avantoe*"],
@@ -37701,7 +38049,8 @@
 				"Level": 65,
 				"Output": "Yew incense sticks",
 				"Primary": true,
-				"Priority": 8
+				"Priority": 8,
+				"Partial": true
 			},
 			"Craft ~|infernal yew incense sticks|~": {
 				"Items": ["Yew incense sticks*", "Infernal ashes*"],
@@ -37711,7 +38060,8 @@
 				},
 				"Output": "Infernal yew incense sticks",
 				"Primary": true,
-				"Priority": 9
+				"Priority": 9,
+				"Partial": true
 			},
 			"Craft ~|cadantine incense sticks|~": {
 				"Items": ["Infernal yew incense sticks*", "Clean cadantine*"],
@@ -37855,7 +38205,8 @@
 				"Level": 75,
 				"Output": "Magic incense sticks",
 				"Primary": true,
-				"Priority": 4
+				"Priority": 4,
+				"Partial": true
 			},
 			"Craft ~|infernal magic incense sticks|~": {
 				"Items": ["Magic incense sticks*", "Infernal ashes*"],
@@ -37865,7 +38216,8 @@
 				},
 				"Output": "Infernal magic incense sticks",
 				"Primary": true,
-				"Priority": 5
+				"Priority": 5,
+				"Partial": true
 			},
 			"Craft ~|torstol incense sticks|~": {
 				"Items": ["Infernal magic incense sticks*", "Clean torstol*"],
@@ -38631,7 +38983,8 @@
 					"Agility": 30,
 					"Strength": 30
 				},
-				"Priority": 2
+				"Priority": 2,
+				"Not F2P": true
 			},
 			"Catch a ~|leaping sturgeon|~": {
 				"Items": ["Barbarian bait[+]*"],
@@ -38661,7 +39014,8 @@
 					"Agility": 45,
 					"Strength": 45
 				},
-				"Priority": 2
+				"Priority": 2,
+				"Not F2P": true
 			},
 			"Catch a ~|raw shrimp|~": {
 				"Level": 1,
@@ -38830,7 +39184,8 @@
 				"Objects": ["Fishing spot (lure, bait)"],
 				"Primary": true,
 				"Output": "Golden trout eggs",
-				"Priority": 2
+				"Priority": 2,
+				"Not F2P": true
 			},
 			"Catch a ~|raw cod|~": {
 				"Level": 23,
@@ -38888,7 +39243,8 @@
 				"Objects": ["Fishing spot (lure, bait)"],
 				"Primary": true,
 				"Output": "Golden salmon eggs",
-				"Priority": 2
+				"Priority": 2,
+				"Not F2P": true
 			},
 			"Catch a ~|frog spawn|~": {
 				"Level": 33,
@@ -38910,7 +39266,8 @@
 				"Objects": ["Fishing spot (cage, harpoon)"],
 				"Primary": true,
 				"Output": "Golden tuna eggs",
-				"Priority": 2
+				"Priority": 2,
+				"Not F2P": true
 			},
 			"Catch a ~|raw tuna|~ in the Piscatoris fishing colony": {
 				"Level": 35,
@@ -38934,7 +39291,8 @@
 				"Objects": ["Fishing spot (lure, bait)"],
 				"Primary": true,
 				"Output": "Golden rainbow fish eggs",
-				"Priority": 2
+				"Priority": 2,
+				"Not F2P": true
 			},
 			"Catch a ~|raw cave eel|~": {
 				"Items": ["Fishing bait"],
@@ -38964,7 +39322,8 @@
 				"Objects": ["Fishing spot (cage, harpoon)"],
 				"Primary": true,
 				"Output": "Golden lobster eggs",
-				"Priority": 2
+				"Priority": 2,
+				"Not F2P": true
 			},
 			"Catch a ~|raw bass|~": {
 				"Level": 46,
@@ -39002,6 +39361,7 @@
 				"Primary": true,
 				"Output": "Golden swordfish eggs",
 				"Priority": 3,
+				"Not F2P": true,
 				"Not F2P": true
 			},
 			"Catch a ~|raw swordfish|~ in the Piscatoris fishing colony": {
@@ -39041,7 +39401,8 @@
 				"Objects": ["Fishing spot (lava)"],
 				"Primary": true,
 				"Output": "Golden lava eel eggs",
-				"Priority": 2
+				"Priority": 2,
+				"Not F2P": true
 			},
 			"Catch a ~|raw catfish|~": {
 				"Items": ["Fishing bait"],
@@ -39063,7 +39424,8 @@
 				"Objects": ["Fishing spot (Piscatoris Fishing Colony)"],
 				"Primary": true,
 				"Output": "Golden monkfish eggs",
-				"Priority": 2
+				"Priority": 2,
+				"Not F2P": true
 			},
 			"Catch a ~|raw karambwan|~": {
 				"Items": ["Karambwan vessel"],
@@ -39144,7 +39506,8 @@
 				"Objects": ["Fishing spot (big fishing net, harpoon)"],
 				"Primary": true,
 				"Output": "Golden shark eggs",
-				"Priority": 4
+				"Priority": 4,
+				"Not F2P": true
 			},
 			"Catch a ~|raw sea turtle|~": {
 				"Items": ["Sea turtle bait"],
@@ -39210,7 +39573,8 @@
 				"Objects": ["Cavefish shoal"],
 				"Primary": true,
 				"Output": "Golden cavefish eggs",
-				"Priority": 2
+				"Priority": 2,
+				"Not F2P": true
 			},
 			"Catch ~|fungal algae|~": {
 				"Objects": ["Colonised Varrock guard"],
@@ -39233,7 +39597,8 @@
 				"Objects": ["Rocktail shoal"],
 				"Primary": true,
 				"Output": "Golden rocktail eggs",
-				"Priority": 2
+				"Priority": 2,
+				"Not F2P": true
 			},
 			"Catch a ~|raw tarpon|~": {
 				"Items": ["Wushanko fishing bait"],
@@ -39761,14 +40126,16 @@
 				"Level": 1,
 				"Output": "Arrow shaft",
 				"Primary": true,
-				"Priority": 1
+				"Priority": 1,
+				"Partial": true
 			},
 			"Feather ~|headless arrows|~": {
 				"Items": ["ArrowShafts[+]*", "Feather[+]*"],
 				"Level": 1,
 				"Output": "Headless arrow",
 				"Primary": true,
-				"Priority": 2
+				"Priority": 2,
+				"Partial": true
 			},
 			"Tip ~|bronze arrows|~": {
 				"Items": ["Headless arrow*", "Bronze arrowheads*"],
@@ -39777,15 +40144,16 @@
 				"Primary": true,
 				"Priority": 3
 			},
-			"Fletch a ~|shortbow (u)|~": {
+			"Fletch a ~|shortbow (unstrung)|~": {
 				"Items": ["Logs*"],
 				"Level": 1,
-				"Output": "Shortbow (u)",
+				"Output": "Shortbow (unstrung)",
 				"Primary": true,
-				"Priority": 4
+				"Priority": 4,
+				"Partial": true
 			},
 			"String a ~|shortbow|~": {
-				"Items": ["Shortbow (u)*", "Bowstring*"],
+				"Items": ["Shortbow (unstrung)*", "Bowstring*"],
 				"Level": 1,
 				"Output": "Shortbow",
 				"Primary": true,
@@ -39813,7 +40181,8 @@
 				"Output": "Ogre arrow shaft",
 				"Primary": true,
 				"Priority": 1,
-				"Not F2P": true
+				"Not F2P": true,
+				"Partial": true
 			},
 			"Feather ~|flighted ogre arrows|~": {
 				"Items": ["Ogre arrow shaft*", "Feather[+]*"],
@@ -39821,7 +40190,8 @@
 				"Output": "Flighted ogre arrow",
 				"Primary": true,
 				"Priority": 2,
-				"Not F2P": true
+				"Not F2P": true,
+				"Partial": true
 			},
 			"Fletch ~|wolf bone arrowheads|~": {
 				"Items": ["Wolf bones*"],
@@ -39832,7 +40202,8 @@
 				"Output": "Wolf bone arrowheads",
 				"Primary": true,
 				"Priority": 3,
-				"Not F2P": true
+				"Not F2P": true,
+				"Partial": true
 			},
 			"Tip ~|ogre arrows|~": {
 				"Items": ["Wolf bone arrowheads*", "Flighted ogre arrow*"],
@@ -39862,45 +40233,48 @@
 				"Level": 9,
 				"Output": "Wooden stock",
 				"Primary": true,
-				"Priority": 2
+				"Priority": 2,
+				"Partial": true
 			},
-			"Fletch a ~|bronze crossbow (u)|~": {
+			"Fletch a ~|bronze crossbow (unstrung)|~": {
 				"Items": ["Wooden stock*", "Bronze limbs*"],
 				"Level": 9,
-				"Output": "Bronze crossbow (u)",
+				"Output": "Bronze crossbow (unstrung)",
 				"Primary": true,
-				"Priority": 3
+				"Priority": 3,
+				"Partial": true
 			},
 			"String a ~|bronze crossbow|~": {
-				"Items": ["Bronze crossbow (u)*", "Crossbow string*"],
+				"Items": ["Bronze crossbow (unstrung)*", "Crossbow string*"],
 				"Level": 9,
 				"Output": "Bronze crossbow",
 				"Primary": true,
 				"Priority": 4
 			},
 			"String a ~|bronze 2h crossbow|~": {
-				"Items": ["Bronze crossbow (u)*", "Crossbow string*"],
+				"Items": ["Bronze crossbow (unstrung)*", "Crossbow string*"],
 				"Level": 9,
 				"Output": "Bronze 2h crossbow",
 				"Primary": true,
 				"Priority": 5
 			},
 			"String an ~|off-hand bronze crossbow|~": {
-				"Items": ["Bronze crossbow (u)*", "Crossbow string*"],
+				"Items": ["Bronze crossbow (unstrung)*", "Crossbow string*"],
 				"Level": 9,
 				"Output": "Off-hand bronze crossbow",
 				"Primary": true,
 				"Priority": 6
 			},
-			"Fletch a ~|shieldbow (u)|~": {
+			"Fletch a ~|shieldbow (unstrung)|~": {
 				"Items": ["Logs*"],
 				"Level": 10,
-				"Output": "Shieldbow (u)",
+				"Output": "Shieldbow (unstrung)",
 				"Primary": true,
-				"Priority": 1
+				"Priority": 1,
+				"Partial": true
 			},
 			"String a ~|shieldbow|~": {
-				"Items": ["Shieldbow (u)*", "Bowstring*"],
+				"Items": ["Shieldbow (unstrung)*", "Bowstring*"],
 				"Level": 10,
 				"Output": "Shieldbow",
 				"Primary": true,
@@ -39918,7 +40292,8 @@
 				"Level": 11,
 				"Output": "Opal bolt tips",
 				"Primary": true,
-				"Priority": 1
+				"Priority": 1,
+				"Partial": true
 			},
 			"Tip ~|opal bolts|~": {
 				"Items": ["Opal tips*", "Bronze bolts*"],
@@ -39946,7 +40321,8 @@
 				"Level": 15,
 				"Output": "Arrow shaft",
 				"Primary": true,
-				"Priority": 1
+				"Priority": 1,
+				"Partial": true
 			},
 			"Tip ~|iron arrows|~": {
 				"Items": ["Headless arrow*", "Iron arrowheads*"],
@@ -39963,15 +40339,15 @@
 				"Priority": 1,
 				"Not F2P": true
 			},
-			"Fletch an ~|oak shortbow (u)|~": {
+			"Fletch an ~|oak shortbow (unstrung)|~": {
 				"Items": ["Oak logs*"],
 				"Level": 20,
-				"Output": "Oak shortbow (u)",
+				"Output": "Oak shortbow (unstrung)",
 				"Primary": true,
 				"Priority": 1
 			},
 			"String an ~|oak shortbow|~": {
-				"Items": ["Oak shortbow (u)*", "Bowstring*"],
+				"Items": ["Oak shortbow (unstrung)*", "Bowstring*"],
 				"Level": 20,
 				"Output": "Oak shortbow",
 				"Primary": true,
@@ -40010,45 +40386,48 @@
 				"Level": 24,
 				"Output": "Oak stock",
 				"Primary": true,
-				"Priority": 2
+				"Priority": 2,
+				"Partial": true
 			},
-			"Fletch a ~|blurite crossbow (u)|~": {
+			"Fletch a ~|blurite crossbow (unstrung)|~": {
 				"Items": ["Oak stock*", "Blurite limbs*"],
 				"Level": 24,
-				"Output": "Blurite crossbow (u)",
+				"Output": "Blurite crossbow (unstrung)",
 				"Primary": true,
-				"Priority": 3
+				"Priority": 3,
+				"Partial": true
 			},
 			"String a ~|blurite crossbow|~": {
-				"Items": ["Blurite crossbow (u)*", "Crossbow string*"],
+				"Items": ["Blurite crossbow (unstrung)*", "Crossbow string*"],
 				"Level": 24,
 				"Output": "Blurite crossbow",
 				"Primary": true,
 				"Priority": 4
 			},
 			"String a ~|blurite 2h crossbow|~": {
-				"Items": ["Blurite crossbow (u)*", "Crossbow string*"],
+				"Items": ["Blurite crossbow (unstrung)*", "Crossbow string*"],
 				"Level": 24,
 				"Output": "Blurite 2h crossbow",
 				"Primary": true,
 				"Priority": 5
 			},
 			"String an ~|off-hand blurite crossbow|~": {
-				"Items": ["Blurite crossbow (u)*", "Crossbow string*"],
+				"Items": ["Blurite crossbow (unstrung)*", "Crossbow string*"],
 				"Level": 24,
 				"Output": "Off-hand blurite crossbow",
 				"Primary": true,
 				"Priority": 6
 			},
-			"Fletch an ~|oak shieldbow (u)|~": {
+			"Fletch an ~|oak shieldbow (unstrung)|~": {
 				"Items": ["Oak logs*"],
 				"Level": 25,
-				"Output": "Oak shieldbow (u)",
+				"Output": "Oak shieldbow (unstrung)",
 				"Primary": true,
-				"Priority": 1
+				"Priority": 1,
+				"Partial": true
 			},
 			"String an ~|oak shieldbow|~": {
-				"Items": ["Oak shieldbow (u)*", "Bowstring*"],
+				"Items": ["Oak shieldbow (unstrung)*", "Bowstring*"],
 				"Level": 25,
 				"Output": "Oak shieldbow",
 				"Primary": true,
@@ -40059,7 +40438,8 @@
 				"Level": 26,
 				"Output": "Jade bolt tips",
 				"Primary": true,
-				"Priority": 1
+				"Priority": 1,
+				"Partial": true
 			},
 			"Tip ~|jade bolts|~": {
 				"Items": ["Blurite bolts*", "Jade bolt tips*"],
@@ -40073,7 +40453,8 @@
 				"Level": 30,
 				"Output": "Arrow shaft",
 				"Primary": true,
-				"Priority": 1
+				"Priority": 1,
+				"Partial": true
 			},
 			"Tip ~|steel arrows|~": {
 				"Items": ["Headless arrow*", "Steel arrowheads*"],
@@ -40088,7 +40469,8 @@
 				"Output": "Unstrung comp bow",
 				"Primary": true,
 				"Priority": 3,
-				"Not F2P": true
+				"Not F2P": true,
+				"Partial": true
 			},
 			"String a ~|comp ogre bow|~": {
 				"Items": ["Unstrung comp bow*", "Bowstring*"],
@@ -40121,15 +40503,16 @@
 				"Priority": 1,
 				"Not F2P": true
 			},
-			"Fletch a ~|willow shortbow (u)|~": {
+			"Fletch a ~|willow shortbow (unstrung)|~": {
 				"Items": ["Willow logs*"],
 				"Level": 35,
-				"Output": "Willow shortbow (u)",
+				"Output": "Willow shortbow (unstrung)",
 				"Primary": true,
-				"Priority": 1
+				"Priority": 1,
+				"Partial": true
 			},
 			"String a ~|willow shortbow|~": {
-				"Items": ["Willow shortbow (u)*", "Bowstring*"],
+				"Items": ["Willow shortbow (unstrung)*", "Bowstring*"],
 				"Level": 35,
 				"Output": "Willow shortbow",
 				"Primary": true,
@@ -40168,45 +40551,48 @@
 				"Level": 39,
 				"Output": "Willow stock",
 				"Primary": true,
-				"Priority": 2
+				"Priority": 2,
+				"Partial": true
 			},
-			"Fletch a ~|iron crossbow (u)|~": {
+			"Fletch a ~|iron crossbow (unstrung)|~": {
 				"Items": ["Willow stock*", "Iron limbs*"],
 				"Level": 39,
-				"Output": "Iron crossbow (u)",
+				"Output": "Iron crossbow (unstrung)",
 				"Primary": true,
-				"Priority": 3
+				"Priority": 3,
+				"Partial": true
 			},
 			"String a ~|iron crossbow|~": {
-				"Items": ["Iron crossbow (u)*", "Crossbow string*"],
+				"Items": ["Iron crossbow (unstrung)*", "Crossbow string*"],
 				"Level": 39,
 				"Output": "Iron crossbow",
 				"Primary": true,
 				"Priority": 4
 			},
 			"String a ~|iron 2h crossbow|~": {
-				"Items": ["Iron crossbow (u)*", "Crossbow string*"],
+				"Items": ["Iron crossbow (unstrung)*", "Crossbow string*"],
 				"Level": 39,
 				"Output": "Iron 2h crossbow",
 				"Primary": true,
 				"Priority": 5
 			},
 			"String an ~|off-hand iron crossbow|~": {
-				"Items": ["Iron crossbow (u)*", "Crossbow string*"],
+				"Items": ["Iron crossbow (unstrung)*", "Crossbow string*"],
 				"Level": 39,
 				"Output": "Off-hand iron crossbow",
 				"Primary": true,
 				"Priority": 6
 			},
-			"Fletch a ~|willow shieldbow (u)|~": {
+			"Fletch a ~|willow shieldbow (unstrung)|~": {
 				"Items": ["Willow logs*"],
 				"Level": 40,
-				"Output": "Willow shieldbow (u)",
+				"Output": "Willow shieldbow (unstrung)",
 				"Primary": true,
-				"Priority": 1
+				"Priority": 1,
+				"Partial": true
 			},
 			"String a ~|willow shieldbow|~": {
-				"Items": ["Willow shieldbow (u)*", "Bowstring*"],
+				"Items": ["Willow shieldbow (unstrung)*", "Bowstring*"],
 				"Level": 40,
 				"Output": "Willow shieldbow",
 				"Primary": true,
@@ -40224,7 +40610,8 @@
 				"Level": 41,
 				"Output": "Pearl bolt tips",
 				"Primary": true,
-				"Priority": 1
+				"Priority": 1,
+				"Partial": true
 			},
 			"Tip ~|pearl bolts|~": {
 				"Items": ["Iron bolts*", "Pearl bolt tips*"],
@@ -40252,14 +40639,16 @@
 				"Level": 45,
 				"Output": "Arrow shaft",
 				"Primary": true,
-				"Priority": 2
+				"Priority": 2,
+				"Partial": true
 			},
 			"Fletch ~|arrow shafts|~ using acadia logs": {
 				"Items": ["Acadia logs*"],
 				"Level": 45,
 				"Output": "Arrow shaft",
 				"Primary": true,
-				"Priority": 3
+				"Priority": 3,
+				"Partial": true
 			},
 			"Feather ~|steel bolts|~": {
 				"Items": ["Steel bolts (unf)*", "Feather[+]*"],
@@ -40273,31 +40662,33 @@
 				"Level": 46,
 				"Output": "Teak stock",
 				"Primary": true,
-				"Priority": 2
+				"Priority": 2,
+				"Partial": true
 			},
-			"Fletch a ~|steel crossbow (u)|~": {
+			"Fletch a ~|steel crossbow (unstrung)|~": {
 				"Items": ["Teak stock*", "Steel limbs*"],
 				"Level": 46,
-				"Output": "Steel crossbow (u)",
+				"Output": "Steel crossbow (unstrung)",
 				"Primary": true,
-				"Priority": 3
+				"Priority": 3,
+				"Partial": true
 			},
 			"String a ~|steel crossbow|~": {
-				"Items": ["Steel crossbow (u)*", "Crossbow string*"],
+				"Items": ["Steel crossbow (unstrung)*", "Crossbow string*"],
 				"Level": 46,
 				"Output": "Steel crossbow",
 				"Primary": true,
 				"Priority": 4
 			},
 			"String a ~|steel 2h crossbow|~": {
-				"Items": ["Steel crossbow (u)*", "Crossbow string*"],
+				"Items": ["Steel crossbow (unstrung)*", "Crossbow string*"],
 				"Level": 46,
 				"Output": "Steel 2h crossbow",
 				"Primary": true,
 				"Priority": 5
 			},
 			"String an ~|off-hand steel crossbow|~": {
-				"Items": ["Steel crossbow (u)*", "Crossbow string*"],
+				"Items": ["Steel crossbow (unstrung)*", "Crossbow string*"],
 				"Level": 39,
 				"Output": "Off-hand steel crossbow",
 				"Primary": true,
@@ -40308,7 +40699,8 @@
 				"Level": 48,
 				"Output": "Topaz bolt tips",
 				"Primary": true,
-				"Priority": 1
+				"Priority": 1,
+				"Partial": true
 			},
 			"Tip ~|topaz bolts|~": {
 				"Items": ["Steel bolts*", "Topaz bolt tips*"],
@@ -40325,15 +40717,16 @@
 				"Priority": 1,
 				"Not F2P": true
 			},
-			"Fletch a ~|maple shortbow (u)|~": {
+			"Fletch a ~|maple shortbow (unstrung)|~": {
 				"Items": ["Maple logs*"],
 				"Level": 50,
-				"Output": "Maple shortbow (u)",
+				"Output": "Maple shortbow (unstrung)",
 				"Primary": true,
-				"Priority": 1
+				"Priority": 1,
+				"Partial": true
 			},
 			"String a ~|maple shortbow|~": {
-				"Items": ["Maple shortbow (u)*", "Bowstring*"],
+				"Items": ["Maple shortbow (unstrung)*", "Bowstring*"],
 				"Level": 50,
 				"Output": "Maple shortbow",
 				"Primary": true,
@@ -40391,31 +40784,33 @@
 				"Level": 54,
 				"Output": "Maple stock",
 				"Primary": true,
-				"Priority": 2
+				"Priority": 2,
+				"Partial": true
 			},
-			"Fletch a ~|mithril crossbow (u)|~": {
+			"Fletch a ~|mithril crossbow (unstrung)|~": {
 				"Items": ["Maple stock*", "Mithril limbs*"],
 				"Level": 54,
-				"Output": "Mithril crossbow (u)",
+				"Output": "Mithril crossbow (unstrung)",
 				"Primary": true,
-				"Priority": 3
+				"Priority": 3,
+				"Partial": true
 			},
 			"String a ~|mithril crossbow|~": {
-				"Items": ["Mithril crossbow (u)*", "Crossbow string*"],
+				"Items": ["Mithril crossbow (unstrung)*", "Crossbow string*"],
 				"Level": 54,
 				"Output": "Mithril crossbow",
 				"Primary": true,
 				"Priority": 4
 			},
 			"String a ~|mithril 2h crossbow|~": {
-				"Items": ["Mithril crossbow (u)*", "Crossbow string*"],
+				"Items": ["Mithril crossbow (unstrung)*", "Crossbow string*"],
 				"Level": 54,
 				"Output": "Mithril 2h crossbow",
 				"Primary": true,
 				"Priority": 5
 			},
 			"String an ~|off-hand mithril crossbow|~": {
-				"Items": ["Mithril crossbow (u)*", "Crossbow string*"],
+				"Items": ["Mithril crossbow (unstrung)*", "Crossbow string*"],
 				"Level": 54,
 				"Output": "Off-hand mithril crossbow",
 				"Primary": true,
@@ -40428,15 +40823,16 @@
 				"Primary": true,
 				"Priority": 7
 			},
-			"Fletch a ~|maple shieldbow (u)|~": {
+			"Fletch a ~|maple shieldbow (unstrung)|~": {
 				"Items": ["Maple logs*"],
 				"Level": 55,
-				"Output": "Maple shieldbow (u)",
+				"Output": "Maple shieldbow (unstrung)",
 				"Primary": true,
-				"Priority": 1
+				"Priority": 1,
+				"Partial": true
 			},
 			"String a ~|maple shieldbow|~": {
-				"Items": ["Maple shortbow (u)*", "Bowstring*"],
+				"Items": ["Maple shortbow (unstrung)*", "Bowstring*"],
 				"Level": 55,
 				"Output": "Maple shieldbow",
 				"Primary": true,
@@ -40458,7 +40854,8 @@
 				"Level": 56,
 				"Output": "Sapphire bolt tips",
 				"Primary": true,
-				"Priority": 1
+				"Priority": 1,
+				"Partial": true
 			},
 			"Tip ~|sapphire bolts|~": {
 				"Items": ["Mithril bolts*", "Sapphire bolt tips*"],
@@ -40472,7 +40869,8 @@
 				"Level": 58,
 				"Output": "Emerald bolt tips",
 				"Primary": true,
-				"Priority": 1
+				"Priority": 1,
+				"Partial": true
 			},
 			"Tip ~|emerald bolts|~": {
 				"Items": ["Mithril bolts*", "Emerald bolt tips*"],
@@ -40486,21 +40884,24 @@
 				"Level": 59,
 				"Output": "Mithril grapple (unf)",
 				"Primary": true,
-				"Priority": 1
+				"Priority": 1,
+				"Partial": true
 			},
 			"Fletch a ~|mithril grapple|~": {
 				"Items": ["Mithril grapple (unf)", "Rope"],
 				"Level": 59,
 				"Output": "Mithril grapple",
 				"Primary": true,
-				"Priority": 2
+				"Priority": 2,
+				"Partial": true
 			},
 			"Fletch ~|arrow shafts|~ using yew logs": {
 				"Items": ["Yew logs*"],
 				"Level": 60,
 				"Output": "Arrow shaft",
 				"Primary": true,
-				"Priority": 1
+				"Priority": 1,
+				"Partial": true
 			},
 			"Tip ~|adamant arrows|~": {
 				"Items": ["Headless arrow*", "Adamant arrowheads*"],
@@ -40545,31 +40946,33 @@
 				"Level": 61,
 				"Output": "Mahogany stock",
 				"Primary": true,
-				"Priority": 2
+				"Priority": 2,
+				"Partial": true
 			},
-			"Fletch a ~|adamant crossbow (u)|~": {
+			"Fletch a ~|adamant crossbow (unstrung)|~": {
 				"Items": ["Mahogany stock*", "Adamant limbs*"],
 				"Level": 61,
-				"Output": "Adamant crossbow (u)",
+				"Output": "Adamant crossbow (unstrung)",
 				"Primary": true,
-				"Priority": 3
+				"Priority": 3,
+				"Partial": true
 			},
 			"String a ~|adamant crossbow|~": {
-				"Items": ["Adamant crossbow (u)*", "Crossbow string*"],
+				"Items": ["Adamant crossbow (unstrung)*", "Crossbow string*"],
 				"Level": 61,
 				"Output": "Adamant crossbow",
 				"Primary": true,
 				"Priority": 4
 			},
 			"String a ~|adamant 2h crossbow|~": {
-				"Items": ["Adamant crossbow (u)*", "Crossbow string*"],
+				"Items": ["Adamant crossbow (unstrung)*", "Crossbow string*"],
 				"Level": 61,
 				"Output": "Adamant 2h crossbow",
 				"Primary": true,
 				"Priority": 5
 			},
 			"String an ~|off-hand adamant crossbow|~": {
-				"Items": ["Adamant crossbow (u)*", "Crossbow string*"],
+				"Items": ["Adamant crossbow (unstrung)*", "Crossbow string*"],
 				"Level": 61,
 				"Output": "Off-hand adamant crossbow",
 				"Primary": true,
@@ -40588,7 +40991,8 @@
 				"Level": 63,
 				"Output": "Ruby bolt tips",
 				"Primary": true,
-				"Priority": 1
+				"Priority": 1,
+				"Partial": true
 			},
 			"Tip ~|ruby bolts|~": {
 				"Items": ["Adamant bolts*", "Ruby bolt tips*"],
@@ -40597,15 +41001,16 @@
 				"Primary": true,
 				"Priority": 2
 			},
-			"Fletch a ~|yew shortbow (u)|~": {
+			"Fletch a ~|yew shortbow (unstrung)|~": {
 				"Items": ["Yew logs*"],
 				"Level": 65,
-				"Output": "Yew shortbow (u)",
+				"Output": "Yew shortbow (unstrung)",
 				"Primary": true,
-				"Priority": 1
+				"Priority": 1,
+				"Partial": true
 			},
 			"String a ~|yew shortbow|~": {
-				"Items": ["Yew shortbow (u)*", "Bowstring*"],
+				"Items": ["Yew shortbow (unstrung)*", "Bowstring*"],
 				"Level": 65,
 				"Output": "Yew shortbow",
 				"Primary": true,
@@ -40616,7 +41021,8 @@
 				"Level": 65,
 				"Output": "Diamond bolt tips",
 				"Primary": true,
-				"Priority": 3
+				"Priority": 3,
+				"Partial": true
 			},
 			"Tip ~|diamond bolts|~": {
 				"Items": ["Adamant bolts*", "Diamond bolt tips*"],
@@ -40651,45 +41057,48 @@
 				"Level": 69,
 				"Output": "Yew stock",
 				"Primary": true,
-				"Priority": 2
+				"Priority": 2,
+				"Partial": true
 			},
-			"Fletch a ~|runite crossbow (u)|~": {
+			"Fletch a ~|runite crossbow (unstrung)|~": {
 				"Items": ["Yew stock*", "Rune limbs*"],
 				"Level": 69,
-				"Output": "Runite crossbow (u)",
+				"Output": "Runite crossbow (unstrung)",
 				"Primary": true,
-				"Priority": 3
+				"Priority": 3,
+				"Partial": true
 			},
 			"String a ~|rune crossbow|~": {
-				"Items": ["Runite crossbow (u)*", "Crossbow string*"],
+				"Items": ["Runite crossbow (unstrung)*", "Crossbow string*"],
 				"Level": 69,
 				"Output": "Rune crossbow",
 				"Primary": true,
 				"Priority": 4
 			},
 			"String a ~|rune 2h crossbow|~": {
-				"Items": ["Runite crossbow (u)*", "Crossbow string*"],
+				"Items": ["Runite crossbow (unstrung)*", "Crossbow string*"],
 				"Level": 69,
 				"Output": "Rune 2h crossbow",
 				"Primary": true,
 				"Priority": 5
 			},
 			"String an ~|off-hand rune crossbow|~": {
-				"Items": ["Runite crossbow (u)*", "Crossbow string*"],
+				"Items": ["Runite crossbow (unstrung)*", "Crossbow string*"],
 				"Level": 69,
 				"Output": "Off-hand rune crossbow",
 				"Primary": true,
 				"Priority": 6
 			},
-			"Fletch a ~|yew shieldbow (u)|~": {
+			"Fletch a ~|yew shieldbow (unstrung)|~": {
 				"Items": ["Yew logs*"],
 				"Level": 70,
-				"Output": "Yew shieldbow (u)",
+				"Output": "Yew shieldbow (unstrung)",
 				"Primary": true,
-				"Priority": 1
+				"Priority": 1,
+				"Partial": true
 			},
 			"String a ~|yew shieldbow|~": {
-				"Items": ["Yew shieldbow (u)*", "Bowstring*"],
+				"Items": ["Yew shieldbow (unstrung)*", "Bowstring*"],
 				"Level": 70,
 				"Output": "Yew shieldbow",
 				"Primary": true,
@@ -40701,18 +41110,20 @@
 				"Output": "Blisterwood stock",
 				"Primary": true,
 				"Priority": 3,
-				"Not F2P": true
+				"Not F2P": true,
+				"Partial": true
 			},
-			"Fletch a ~|blisterwood stake-thrower crossbow (u)|~": {
+			"Fletch a ~|blisterwood stake-thrower crossbow (unstrung)|~": {
 				"Items": ["Blisterwood stock*", "Silvthril limbs*"],
 				"Level": 70,
-				"Output": "Blisterwood stake-thrower crossbow (u)",
+				"Output": "Blisterwood stake-thrower crossbow (unstrung)",
 				"Primary": true,
 				"Priority": 4,
-				"Not F2P": true
+				"Not F2P": true,
+				"Partial": true
 			},
 			"String a ~|blisterwood stake-thrower crossbow|~": {
-				"Items": ["Blisterwood stake-thrower crossbow (u)*", "Crossbow string*"],
+				"Items": ["Blisterwood stake-thrower crossbow (unstrung)*", "Crossbow string*"],
 				"Level": 70,
 				"Output": "Blisterwood stake-thrower crossbow",
 				"Primary": true,
@@ -40797,7 +41208,8 @@
 				"Output": "Dragon bolt tips",
 				"Primary": true,
 				"Priority": 1,
-				"Not F2P": true
+				"Not F2P": true,
+				"Partial": true
 			},
 			"Tip ~|dragon bolts|~": {
 				"Items": ["Rune bolts*", "Dragon bolt tips*"],
@@ -40813,7 +41225,8 @@
 				"Output": "Onyx bolt tips",
 				"Primary": true,
 				"Priority": 1,
-				"Not F2P": true
+				"Not F2P": true,
+				"Partial": true
 			},
 			"Tip ~|onyx bolts|~": {
 				"Items": ["Rune bolts*", "Onyx bolt tips*"],
@@ -40828,7 +41241,8 @@
 				"Level": 75,
 				"Output": "Arrow shaft",
 				"Primary": true,
-				"Priority": 1
+				"Priority": 1,
+				"Partial": true
 			},
 			"Tip ~|rune arrows|~": {
 				"Items": ["Headless arrow*", "Rune arrowheads*"],
@@ -40881,15 +41295,16 @@
 				"Priority": 1,
 				"Not F2P": true
 			},
-			"Fletch a ~|magic shortbow (u)|~": {
+			"Fletch a ~|magic shortbow (unstrung)|~": {
 				"Items": ["Magic logs*"],
 				"Level": 80,
-				"Output": "Magic shortbow (u)",
+				"Output": "Magic shortbow (unstrung)",
 				"Primary": true,
-				"Priority": 1
+				"Priority": 1,
+				"Partial": true
 			},
 			"String a ~|magic shortbow|~": {
-				"Items": ["Magic shortbow (u)*", "Bowstring*"],
+				"Items": ["Magic shortbow (unstrung)*", "Bowstring*"],
 				"Level": 80,
 				"Output": "Magic shortbow",
 				"Primary": true,
@@ -40929,7 +41344,8 @@
 				"Output": "Hydrix bolt tips",
 				"Primary": true,
 				"Priority": 7,
-				"Not F2P": true
+				"Not F2P": true,
+				"Partial": true
 			},
 			"Tip ~|hydrix bolts|~": {
 				"Items": ["Ascension bolts*", "Hydrix bolt tips*"],
@@ -40991,7 +41407,8 @@
 				"Output": "Sagaie shaft",
 				"Primary":  false,
 				"Priority": 2,
-				"Not F2P": true
+				"Not F2P": true,
+				"Partial": true
 			},
 			"Fletch a ~|sagaie|~": {
 				"Items": ["Sagaie shaft*", "Mutated vine*"],
@@ -41001,15 +41418,16 @@
 				"Priority": 3,
 				"Not F2P": true
 			},
-			"Fletch a ~|magic shieldbow (u)|~": {
+			"Fletch a ~|magic shieldbow (unstrung)|~": {
 				"Items": ["Magic logs*"],
 				"Level": 85,
-				"Output": "Magic shieldbow (u)",
+				"Output": "Magic shieldbow (unstrung)",
 				"Primary": true,
-				"Priority": 1
+				"Priority": 1,
+				"Partial": true
 			},
 			"String a ~|magic shieldbow|~": {
-				"Items": ["Magic shieldbow (u)*", "Bowstring*"],
+				"Items": ["Magic shieldbow (unstrung)*", "Bowstring*"],
 				"Level": 85,
 				"Output": "Magic shieldbow",
 				"Primary": true,
@@ -41108,7 +41526,8 @@
 				"Level": 90,
 				"Output": "Arrow shaft",
 				"Primary": true,
-				"Priority": 1
+				"Priority": 1,
+				"Partial": true
 			},
 			"Fletch ~|elder arrow shafts|~": {
 				"Items": ["Elder logs*"],
@@ -41116,7 +41535,8 @@
 				"Output": "Elder arrow shaft",
 				"Primary": true,
 				"Priority": 2,
-				"Not F2P": true
+				"Not F2P": true,
+				"Partial": true
 			},
 			"Feather ~|elder headless arrows|~": {
 				"Items": ["Elder logs*", "Feather[+]*"],
@@ -41211,18 +41631,20 @@
 				"Output": "Elder headless arrow",
 				"Primary": true,
 				"Priority": 17,
-				"Not F2P": true
+				"Not F2P": true,
+				"Partial": true
 			},
-			"Fletch an ~|elder shortbow (u)|~": {
+			"Fletch an ~|elder shortbow (unstrung)|~": {
 				"Items": ["Elder logs*"],
 				"Level": 90,
-				"Output": "Elder shortbow (u)",
+				"Output": "Elder shortbow (unstrung)",
 				"Primary": true,
 				"Priority": 14,
-				"Not F2P": true
+				"Not F2P": true,
+				"Partial": true
 			},
 			"String an ~|elder shortbow|~": {
-				"Items": ["Elder shortbow (u)*", "Bowstring*"],
+				"Items": ["Elder shortbow (unstrung)*", "Bowstring*"],
 				"Level": 90,
 				"Output": "Elder shortbow",
 				"Primary": true,
@@ -41296,7 +41718,8 @@
 				"Level": 92,
 				"Output": "Magic stock",
 				"Primary": true,
-				"Priority": 1
+				"Priority": 1,
+				"Partial": true
 			},
 			"Create a ~|scrimshaw of vampyrism|~": {
 				"Items": ["Ancient bones*"],
@@ -41398,7 +41821,8 @@
 				"Level": 93,
 				"Output": "Bakriminel bolt shafts",
 				"Primary": true,
-				"Priority": 1
+				"Priority": 1,
+				"Partial": true
 			},
 			"Tip ~|bakriminel bolts|~": {
 				"Items": ["Bakriminel bolt shafts*", "Bakriminel bolt tips*"],
@@ -41414,29 +41838,30 @@
 				"Primary": true,
 				"Priority": 3
 			},
-			"Fletch a ~|dragon crossbow (u)|~": {
+			"Fletch a ~|dragon crossbow (unstrung)|~": {
 				"Items": ["Magic stock*", "Dragon limbs*"],
 				"Level": 94,
-				"Output": "Dragon crossbow (u)",
+				"Output": "Dragon crossbow (unstrung)",
 				"Primary": true,
-				"Priority": 1
+				"Priority": 1,
+				"Partial": true
 			},
 			"String a ~|dragon crossbow|~": {
-				"Items": ["Dragon crossbow (u)*", "Crossbow string*"],
+				"Items": ["Dragon crossbow (unstrung)*", "Crossbow string*"],
 				"Level": 94,
 				"Output": "Rune crossbow",
 				"Primary": true,
 				"Priority": 2
 			},
 			"String a ~|dragon 2h crossbow|~": {
-				"Items": ["Dragon crossbow (u)*", "Crossbow string*"],
+				"Items": ["Dragon crossbow (unstrung)*", "Crossbow string*"],
 				"Level": 94,
 				"Output": "Rune 2h crossbow",
 				"Primary": true,
 				"Priority": 3
 			},
 			"String an ~|off-hand dragon crossbow|~": {
-				"Items": ["Dragon crossbow (u)*", "Crossbow string*"],
+				"Items": ["Dragon crossbow (unstrung)*", "Crossbow string*"],
 				"Level": 94,
 				"Output": "Off-hand dragon crossbow",
 				"Primary": true,
@@ -41511,16 +41936,17 @@
 				"Primary": true,
 				"Priority": 8
 			},
-			"Fletch an ~|elder shieldbow (u)|~": {
+			"Fletch an ~|elder shieldbow (unstrung)|~": {
 				"Items": ["Elder logs*"],
 				"Level": 95,
-				"Output": "Elder shieldbow (u)",
+				"Output": "Elder shieldbow (unstrung)",
 				"Primary": true,
 				"Priority": 9,
-				"Not F2P": true
+				"Not F2P": true,
+				"Partial": true
 			},
 			"String an ~|elder shieldbow|~": {
-				"Items": ["Elder shieldbow (u)*", "Bowstring*"],
+				"Items": ["Elder shieldbow (unstrung)*", "Bowstring*"],
 				"Level": 95,
 				"Output": "Elder shieldbow",
 				"Primary": true,
@@ -41696,14 +42122,16 @@
 				"Level": 82,
 				"Output": "Fungal bowstring",
 				"Primary": true,
-				"Priority": 2
+				"Priority": 2,
+				"Partial": true
 			},
 			"Fletch ~|headless dinarrow|~": {
 				"Items": ["Tempered fungal shaft*", "Dinosaur 'propellant'*"],
 				"Level": 95,
 				"Output": "Headless dinarrow",
 				"Primary": true,
-				"Priority": 16
+				"Priority": 16,
+				"Partial": true
 			},
 			"Tip ~|dinarrow|~": {
 				"Items": ["Headless dinarrow*", "Sharp shell shards*"],
@@ -41801,14 +42229,16 @@
 				"Level": 100,
 				"Output": "Eternal magic shaft",
 				"Primary": true,
-				"Priority": 2
+				"Priority": 2,
+				"Partial": true
 			},
 			"Feather a ~|eternal magic headless shaft|~": {
 				"Items": ["Eternal magic shaft*", "Feather[+]*"],
 				"Level": 100,
 				"Output": "Eternal magic headless shaft",
 				"Primary": true,
-				"Priority": 3
+				"Priority": 3,
+				"Partial": true
 			},
 			"Tip a ~|primal arrow|~": {
 				"Items": ["Eternal magic headless shaft*", "Primal arrowheads*"],
@@ -41822,7 +42252,8 @@
 				"Level": 100,
 				"Output": "Eternal magic shortbow (unstrung)",
 				"Primary": true,
-				"Priority": 5
+				"Priority": 5,
+				"Partial": true
 			},
 			"String an ~|eternal magic shortbow|~": {
 				"Items": ["Eternal magic shortbow (unstrung)*", "Bowstring*"],
@@ -41844,35 +42275,40 @@
 				"Level": 100,
 				"Output": "Eternal magic wand (inert)",
 				"Primary": true,
-				"Priority": 8
+				"Priority": 8,
+				"Partial": true
 			},
 			"Fletch an ~|eternal magic orb (inert)|~": {
 				"Items": ["Eternal magic logs*"],
 				"Level": 100,
 				"Output": "Eternal magic orb (inert)",
 				"Primary": true,
-				"Priority": 9
+				"Priority": 9,
+				"Partial": true
 			},
 			"Fletch an ~|eternal magic staff (inert)|~": {
 				"Items": ["Eternal magic logs*"],
 				"Level": 100,
 				"Output": "Eternal magic staff (inert)",
 				"Primary": true,
-				"Priority": 10
+				"Priority": 10,
+				"Partial": true
 			},
 			"Fletch an ~|eternal magic stock|~": {
 				"Items": ["Eternal magic logs*"],
 				"Level": 103,
 				"Output": "Eternal magic stock",
 				"Primary": true,
-				"Priority": 1
+				"Priority": 1,
+				"Partial": true
 			},
 			"Fletch a ~|primal crossbow (unstrung)|~": {
 				"Items": ["Eternal magic logs*"],
 				"Level": 103,
 				"Output": "Primal crossbow (unstrung)",
 				"Primary": true,
-				"Priority": 2
+				"Priority": 2,
+				"Partial": true
 			},
 			"String a ~|primal crossbow|~": {
 				"Items": ["Primal crossbow (unstrung)*", "Crossbow string*"],
@@ -41889,15 +42325,8 @@
 				"Primary": true,
 				"Priority": 4
 			},
-			"Fletch a ~|off-hand primal crossbow (unstrung)|~": {
-				"Items": ["Eternal magic logs*"],
-				"Level": 103,
-				"Output": "Off-hand primal crossbow (unstrung)",
-				"Primary": true,
-				"Priority": 5
-			},
 			"String a ~|off-hand primal crossbow|~": {
-				"Items": ["Off-hand primal crossbow (unstrung)*", "Crossbow string*"],
+				"Items": ["Primal crossbow (unstrung)*", "Crossbow string*"],
 				"Level": 103,
 				"Output": "Off-hand primal crossbow",
 				"Primary": true,
@@ -41926,7 +42355,8 @@
 				"Level": 110,
 				"Output": "Wood shavings",
 				"Primary": true,
-				"Priority": 1
+				"Priority": 1,
+				"Partial": true
 			},
 			"Shave off ~|oak shavings|~": {
 				"Items": ["Oak logs*"],
@@ -41936,7 +42366,8 @@
 				"Level": 110,
 				"Output": "Oak shavings",
 				"Primary": true,
-				"Priority": 2
+				"Priority": 2,
+				"Partial": true
 			},
 			"Shave off ~|willow shavings|~": {
 				"Items": ["Willow logs*"],
@@ -41946,7 +42377,8 @@
 				"Level": 110,
 				"Output": "Willow shavings",
 				"Primary": true,
-				"Priority": 3
+				"Priority": 3,
+				"Partial": true
 			},
 			"Shave off ~|teak shavings|~": {
 				"Items": ["Teak logs*"],
@@ -41956,7 +42388,8 @@
 				"Level": 110,
 				"Output": "Teak shavings",
 				"Primary": true,
-				"Priority": 4
+				"Priority": 4,
+				"Partial": true
 			},
 			"Shave off ~|maple shavings|~": {
 				"Items": ["Maple logs*"],
@@ -41966,7 +42399,8 @@
 				"Level": 110,
 				"Output": "Maple shavings",
 				"Primary": true,
-				"Priority": 5
+				"Priority": 5,
+				"Partial": true
 			},
 			"Shave off ~|acadia shavings|~": {
 				"Items": ["Acadia logs*"],
@@ -41976,7 +42410,8 @@
 				"Level": 110,
 				"Output": "Acadia shavings",
 				"Primary": true,
-				"Priority": 6
+				"Priority": 6,
+				"Partial": true
 			},
 			"Shave off ~|mahogany shavings|~": {
 				"Items": ["Mahogany logs*"],
@@ -41986,7 +42421,8 @@
 				"Level": 110,
 				"Output": "Mahogany shavings",
 				"Primary": true,
-				"Priority": 7
+				"Priority": 7,
+				"Partial": true
 			},
 			"Shave off ~|yew shavings|~": {
 				"Items": ["Yew logs*"],
@@ -41996,7 +42432,8 @@
 				"Level": 110,
 				"Output": "Yew shavings",
 				"Primary": true,
-				"Priority": 8
+				"Priority": 8,
+				"Partial": true
 			},
 			"Shave off ~|magic shavings|~": {
 				"Items": ["Magic logs*"],
@@ -42006,7 +42443,8 @@
 				"Level": 110,
 				"Output": "Magic shavings",
 				"Primary": true,
-				"Priority": 9
+				"Priority": 9,
+				"Partial": true
 			},
 			"Shave off ~|elder shavings|~": {
 				"Items": ["Elder logs*"],
@@ -42016,7 +42454,8 @@
 				"Level": 110,
 				"Output": "Elder shavings",
 				"Primary": true,
-				"Priority": 10
+				"Priority": 10,
+				"Partial": true
 			},
 			"Shave off ~|eternal magic shavings|~": {
 				"Items": ["Eternal magic logs*"],
@@ -42026,7 +42465,8 @@
 				"Level": 110,
 				"Output": "Eternal magic shavings",
 				"Primary": true,
-				"Priority": 11
+				"Priority": 11,
+				"Partial": true
 			},
 			"Fletch a ~|waxed masterwork string|~": {
 				"Items": ["Bucket of vis wax*", "Magic string*"],
@@ -42036,7 +42476,8 @@
 				"Level": 110,
 				"Output": "Waxed masterwork string",
 				"Primary": true,
-				"Priority": 12
+				"Priority": 12,
+				"Partial": true
 			},
 			"Fletch a ~|hollowed masterwork bow limb|~": {
 				"Items": ["Perfect eternal magic branch*"],
@@ -42046,7 +42487,8 @@
 				"Level": 110,
 				"Output": "Hollowed masterwork bow limb",
 				"Primary": true,
-				"Priority": 13
+				"Priority": 13,
+				"Partial": true
 			},
 			"Complete the ~|masterwork bow|~": {
 				"Items": [
@@ -42565,14 +43007,14 @@
 				"Priority": 1
 			},
 			"Mix a ~|necormancy potion|~": {
-				"Items": ["Marentill potion (unfinished)*", "Cadava berries*"],
+				"Items": ["Marrentill potion (unfinished)*", "Cadava berries*"],
 				"Level": 11,
 				"Output": "Necromancy potion (3)",
 				"Primary": true,
 				"Priority": 2
 			},
 			"Mix a ~|necromancy potion|~ from scratch": {
-				"Items": ["Grimy marentill*", "Vial of water", "Cadava berries*"],
+				"Items": ["Grimy marrentill*", "Vial of water", "Cadava berries*"],
 				"Level": 11,
 				"Output": "Necromancy potion (3)",
 				"Primary": true,
@@ -56490,7 +56932,8 @@
 				"Level": 20,
 				"Output": "Blessed sand",
 				"Primary": true,
-				"Priority": 2
+				"Priority": 2,
+				"Partial": true
 			},
 			"Craft ~|impious incense sticks|~": {
 				"Items": ["Wooden incense sticks", "Impious ashes"],
@@ -56500,7 +56943,8 @@
 				},
 				"Output": "Impious incense sticks",
 				"Primary": true,
-				"Priority": 1
+				"Priority": 1,
+				"Partial": true
 			},
 			"Burn Loar remains using ~|pyre logs|~": {
 				"Items": ["Loar remains", "Pyre logs"],
@@ -56554,7 +56998,8 @@
 				},
 				"Output": "Impious oak incense sticks",
 				"Primary": true,
-				"Priority": 6
+				"Priority": 6,
+				"Partial": true
 			},
 			"Craft ~|impious willow incense sticks|~": {
 				"Items": ["Willow incense sticks", "Impious ashes"],
@@ -56564,7 +57009,8 @@
 				},
 				"Output": "Impious willow incense sticks",
 				"Primary": true,
-				"Priority": 7
+				"Priority": 7,
+				"Partial": true
 			},
 			"Burn Loar remains using ~|willow pyre logs|~": {
 				"Items": ["Loar remains", "Willow pyre logs"],
@@ -56651,7 +57097,8 @@
 				},
 				"Output": "Accursed maple incense sticks",
 				"Primary": true,
-				"Priority": 15
+				"Priority": 15,
+				"Partial": true
 			},
 			"Burn Loar remains using ~|arctic pyre logs|~": {
 				"Items": ["Loar remains", "Arctic pyre logs"],
@@ -56705,7 +57152,8 @@
 				},
 				"Output": "Accursed acadia incense sticks",
 				"Primary": true,
-				"Priority": 20
+				"Priority": 20,
+				"Partial": true
 			},
 			"Burn Loar remains using ~|maple pyre logs|~": {
 				"Items": ["Loar remains", "Maple pyre logs"],
@@ -56913,7 +57361,8 @@
 				},
 				"Output": "Infernal yew incense sticks",
 				"Primary": true,
-				"Priority": 39
+				"Priority": 39,
+				"Partial": true
 			},
 			"Craft ~|infernal magic incense sticks|~": {
 				"Items": ["Magic incense sticks", "Infernal ashes"],
@@ -56923,7 +57372,8 @@
 				},
 				"Output": "Infernal magic incense sticks",
 				"Primary": true,
-				"Priority": 40
+				"Priority": 40,
+				"Partial": true
 			},
 			"Light the ~|Beacon Network|~ beacon near the Edgeville Monastery": {
 				"Chunks": ["12086"],
@@ -60880,7 +61330,8 @@
 				"Output": "Magical thread",
 				"Primary": false,
 				"Priority": 40,
-				"Not F2P": true
+				"Not F2P": true,
+				"Partial": true
 			},
 			"Craft ~|water runes|~ at the water rune temple": {
 				"Chunks": ["Water Rune Temple"],
@@ -61171,7 +61622,7 @@
 				"Priority": 4,
 				"Not F2P": true
 			},
-			"wield a ~|magical blastbox|~": {
+			"Wield a ~|magical blastbox|~": {
 				"Items": ["Magical blastbox"],
 				"Level": 30,
 				"Primary": false,
@@ -61250,7 +61701,8 @@
 				"Output": "Cosmic bar",
 				"Primary": false,
 				"Priority": 1,
-				"Not F2P": true
+				"Not F2P": true,
+				"Partial": true
 			},
 			"Craft ~|astral runes|~ at the astral altar": {
 				"Chunks": ["8508"],
@@ -61975,7 +62427,8 @@
 				"Output": "Praesulic essence (magic)",
 				"Primary": true,
 				"Priority": 7,
-				"Not F2P": true
+				"Not F2P": true,
+				"Partial": true
 			},
 			"Extract ~|tectonic essence|~ from tectonic armour": {
 				"Items": ["TectonicArmour[+]*"],
@@ -61984,7 +62437,8 @@
 				"Output": "Tectonic essence",
 				"Primary": true,
 				"Priority": 8,
-				"Not F2P": true
+				"Not F2P": true,
+				"Partial": true
 			},
 			"Extract ~|melodic essence|~ from Cywir weapons": {
 				"Items": ["Wand of the Cywir elders*"],
@@ -61996,7 +62450,8 @@
 				"Output": "Melodic essence",
 				"Primary": true,
 				"Priority": 32,
-				"Not F2P": true
+				"Not F2P": true,
+				"Partial": true
 			},
 			"Extract ~|binding essence|~ from seismic weapons": {
 				"Items": ["Seismic wand*"],
@@ -62008,7 +62463,8 @@
 				"Output": "Binding essence",
 				"Primary": true,
 				"Priority": 33,
-				"Not F2P": true
+				"Not F2P": true,
+				"Partial": true
 			},
 			"Extract ~|crystalline essence|~ from attuned crystal magic weapons": {
 				"Chunks": ["8500"],
@@ -62021,7 +62477,8 @@
 				"Output": "Crystalline essence",
 				"Primary": true,
 				"Priority": 34,
-				"Not F2P": true
+				"Not F2P": true,
+				"Partial": true
 			},
 			"Buy the ~|Runecrafting master cape|~": {
 				"Category": ["Master skillcape"],
@@ -62145,14 +62602,16 @@
 				"Level": 90,
 				"Output": "Noxious sapphire (unimbued)",
 				"Primary": true,
-				"Priority": 11
+				"Priority": 11,
+				"Partial": true
 			},
 			"Craft a ~|ascended sapphire (unimbued)|~": {
 				"Items": ["Sapphire*", "Ascended essence*"],
 				"Level": 90,
 				"Output": "Ascended sapphire (unimbued)",
 				"Primary": true,
-				"Priority": 12
+				"Priority": 12,
+				"Partial": true
 			},
 			"Feed a ~|starved ancient effigy|~ with runecrafting": {
 				"Items": ["Starved ancient effigy (runecrafting/summoning)"],
@@ -62310,7 +62769,8 @@
 				"Primary": true,
 				"NoBoost": true,
 				"Priority": 1,
-				"Not F2P": true
+				"Not F2P": true,
+				"Partial": true
 			},
 			"Obtain ~|Ilme's thread|~ by runecrafting through altar running": {
 				"Chunks": ["RuneTemple[+]"],
@@ -62319,7 +62779,8 @@
 				"Output": "Ilme's thread",
 				"Primary": false,
 				"Priority": 40,
-				"Not F2P": true
+				"Not F2P": true,
+				"Partial": true
 			},
 			"Create a ~|shielded pouch exterior|~": {
 				"Chunks": ["RuneTemple[+]"],
@@ -62328,7 +62789,8 @@
 				"Output": "Shielded pouch exterior",
 				"Primary": true,
 				"Priority": 2,
-				"Not F2P": true
+				"Not F2P": true,
+				"Partial": true
 			},
 			"Create an ~|expansive pouch cord|~": {
 				"Chunks": ["RuneTemple[+]"],
@@ -62337,7 +62799,8 @@
 				"Output": "Expansive pouch cord",
 				"Primary": true,
 				"Priority": 3,
-				"Not F2P": true
+				"Not F2P": true,
+				"Partial": true
 			},
 			"Create a ~|sealed expansive pouch|~": {
 				"Chunks": ["RuneTemple[+]"],
@@ -62346,7 +62809,8 @@
 				"Output": "Sealed expansive pouch",
 				"Primary": true,
 				"Priority": 4,
-				"Not F2P": true
+				"Not F2P": true,
+				"Partial": true
 			},
 			"Obtain an ~|abyssal runic synapse|~ by runecrafting through the abyss": {
 				"Chunks": ["RuneTemple[+]", "The Abyss"],
@@ -62358,7 +62822,8 @@
 				"Output": "Abyssal runic synapse",
 				"Primary": false,
 				"Priority": 1,
-				"Not F2P": true
+				"Not F2P": true,
+				"Partial": true
 			},
 			"Imbue an ~|imbued masterwork runic conduit|~": {
 				"Chunks": ["RuneTemple[+]"],
@@ -62370,7 +62835,8 @@
 				"Output": "Imbued masterwork runic conduit",
 				"Primary": true,
 				"Priority": 2,
-				"Not F2P": true
+				"Not F2P": true,
+				"Partial": true
 			},
 			"Craft a ~|masterwork focus housing|~": {
 				"Chunks": ["RuneTemple[+]"],
@@ -62382,7 +62848,8 @@
 				"Output": "Masterwork focus housing",
 				"Primary": true,
 				"Priority": 3,
-				"Not F2P": true
+				"Not F2P": true,
+				"Partial": true
 			},
 			"Imbue a ~|runic imbued diamond|~": {
 				"Chunks": ["RuneTemple[+]"],
@@ -62394,7 +62861,8 @@
 				"Output": "Runic imbued diamond",
 				"Primary": true,
 				"Priority": 4,
-				"Not F2P": true
+				"Not F2P": true,
+				"Partial": true
 			},
 			"Imbue an ~|elemental diamond|~": {
 				"Chunks": ["Air Rune Temple", "Water Rune Temple", "Earth Rune Temple", "Fire Rune Temple"],
@@ -62406,7 +62874,8 @@
 				"Output": "Elemental diamond",
 				"Primary": true,
 				"Priority": 5,
-				"Not F2P": true
+				"Not F2P": true,
+				"Partial": true
 			},
 			"Imbue a ~|catalysed elemental diamond|~": {
 				"Chunks": ["Mind Rune Temple", "Body Rune Temple", "Cosmic Rune Temple", "Chaos Rune Temple", "Nature Rune Temple", "Law Rune Temple", "Death Rune Temple", "Blood Rune Temple", "Soul Rune Temple", "8508", "Time Rune Temple"],
@@ -62418,7 +62887,8 @@
 				"Output": "Catalysed elemental diamond",
 				"Primary": true,
 				"Priority": 6,
-				"Not F2P": true
+				"Not F2P": true,
+				"Partial": true
 			},
 			"Create a ~|housed masterwork focus|~": {
 				"Chunks": ["RuneTemple[+]"],
@@ -62430,7 +62900,8 @@
 				"Output": "Housed masterwork focus",
 				"Primary": true,
 				"Priority": 7,
-				"Not F2P": true
+				"Not F2P": true,
+				"Partial": true
 			},
 			"Create a ~|masterwork staff focus|~": {
 				"Chunks": ["RuneTemple[+]"],
@@ -62442,7 +62913,8 @@
 				"Output": "Masterwork staff focus",
 				"Primary": true,
 				"Priority": 8,
-				"Not F2P": true
+				"Not F2P": true,
+				"Partial": true
 			},
 			"Create an ~|unwrapped masterwork staff grip|~": {
 				"Chunks": ["RuneTemple[+]"],
@@ -62454,7 +62926,8 @@
 				"Output": "Unwrapped masterwork staff grip",
 				"Primary": true,
 				"Priority": 9,
-				"Not F2P": true
+				"Not F2P": true,
+				"Partial": true
 			},
 			"Craft a ~|volatile runic brick|~": {
 				"Chunks": ["RuneTemple[+]"],
@@ -62466,7 +62939,8 @@
 				"Output": "Volatile runic brick",
 				"Primary": true,
 				"Priority": 10,
-				"Not F2P": true
+				"Not F2P": true,
+				"Partial": true
 			},
 			"Craft a ~|masterwork staff handle|~": {
 				"Chunks": ["RuneTemple[+]"],
@@ -62478,7 +62952,8 @@
 				"Output": "Masterwork staff handle",
 				"Primary": true,
 				"Priority": 11,
-				"Not F2P": true
+				"Not F2P": true,
+				"Partial": true
 			},
 			"Craft a ~|masterwork staff|~": {
 				"Chunks": ["RuneTemple[+]"],
@@ -62692,7 +63167,7 @@
 				"Priority": 1
 			},
 			"Receive a slayer assignment from ~|Turael|~": {
-				"Chunks": ["11575"],
+				"NPCs": ["Turael"],
 				"Level": 1,
 				"Primary": true,
 				"Priority": 1,
@@ -62701,7 +63176,7 @@
 				}
 			},
 			"Receive a slayer assignment from ~|Jacquelyn|~": {
-				"Chunks": ["12850"],
+				"NPCs": ["Jacquelyn"],
 				"Level": 1,
 				"Primary": true,
 				"Priority": 2,
@@ -62710,7 +63185,7 @@
 				}
 			},
 			"Receive a slayer assignment from ~|Vannaka|~": {
-				"Chunks": ["Edgeville Dungeon"],
+				"NPCs": ["Vannaka"],
 				"Level": 1,
 				"Primary": true,
 				"Priority": 3,
@@ -62719,7 +63194,7 @@
 				}
 			},
 			"Receive a slayer assignment from ~|the Raptor|~": {
-				"Chunks": ["13111", "13367"],
+				"NPCs": ["The Raptor#Fort Forinthry"],
 				"Level": 1,
 				"Primary": true,
 				"Priority": 14,
@@ -62731,7 +63206,7 @@
 				}
 			},
 			"Receive a slayer assignment from ~|Mazchna|~": {
-				"Chunks": ["13878"],
+				"NPCs": ["Mazchna"],
 				"Level": 1,
 				"Primary": true,
 				"Priority": 4,
@@ -62740,7 +63215,7 @@
 				}
 			},
 			"Receive a slayer assignment from ~|Chaeldar|~": {
-				"Chunks": ["Zanaris"],
+				"NPCs": ["Chaeldar"],
 				"Level": 1,
 				"Primary": true,
 				"Priority": 5,
@@ -62749,7 +63224,7 @@
 				}
 			},
 			"Receive a slayer assignment from ~|Sumona|~": {
-				"Chunks": ["13358"],
+				"NPCs": ["Sumona"],
 				"Level": 35,
 				"Tasks": {
 					"~|Smoking Kills|~ Complete the quest": "Quest"
@@ -62761,7 +63236,7 @@
 				}
 			},
 			"Receive a slayer assignment from ~|Duradel|~": {
-				"Chunks": ["11310"],
+				"NPCs": ["Duradel"],
 				"Level": 50,
 				"Primary": true,
 				"Priority": 1,
@@ -62770,7 +63245,7 @@
 				}
 			},
 			"Receive a slayer assignment from ~|Kuradal|~": {
-				"Chunks": ["Ancient Cavern"],
+				"NPCs": ["Kuradal"],
 				"Level": 75,
 				"Primary": true,
 				"Priority": 1,
@@ -62779,7 +63254,7 @@
 				}
 			},
 			"Receive a slayer assignment from ~|Morvran|~": {
-				"Chunks": ["8755"],
+				"NPCs": ["Morvran"],
 				"Level": 85,
 				"Primary": true,
 				"Priority": 2,
@@ -62788,7 +63263,7 @@
 				}
 			},
 			"Receive a slayer assignment from ~|Mandrith|~": {
-				"Chunks": ["12093"],
+				"NPCs": ["Mandrith"],
 				"Level": 95,
 				"Primary": true,
 				"Priority": 3,
@@ -62797,7 +63272,7 @@
 				}
 			},
 			"Receive a slayer assignment from ~|Laniakea|~": {
-				"Chunks": ["15939"],
+				"NPCs": ["Laniakea"],
 				"Level": 90,
 				"Primary": true,
 				"Priority": 1,
@@ -65676,7 +66151,8 @@
 				},
 				"Primary": true,
 				"Output": "Lesser unensouled bar",
-				"Priority": 10
+				"Priority": 10,
+				"Partial": true
 			},
 			"Smelt an ~|unensouled bar|~": {
 				"Category": ["Token"],
@@ -65691,7 +66167,8 @@
 				},
 				"Primary": true,
 				"Output": "Unensouled bar",
-				"Priority": 11
+				"Priority": 11,
+				"Partial": true
 			},
 			"Smelt a ~|greater unensouled bar|~": {
 				"Category": ["Token"],
@@ -65706,7 +66183,8 @@
 				},
 				"Primary": true,
 				"Output": "Greater unensouled bar",
-				"Priority": 12
+				"Priority": 12,
+				"Partial": true
 			},
 			"Forge a ~|bronze hasta|~": {
 				"Items": ["Bronze bar*", "Logs*"],
@@ -65744,7 +66222,8 @@
 				},
 				"Output": "Bronze dart tip",
 				"Primary": true,
-				"Priority": 3
+				"Priority": 3,
+				"Partial": true
 			},
 			"Forge ~|iron|~": {
 				"Items": ["Iron bar*"],
@@ -65817,7 +66296,8 @@
 				},
 				"Output": "Iron dart tip",
 				"Primary": true,
-				"Priority": 4
+				"Priority": 4,
+				"Partial": true
 			},
 			"Forge ~|steel|~": {
 				"Items": ["Steel bar*"],
@@ -65858,7 +66338,8 @@
 				"Output": "Elemental bar",
 				"Primary": true,
 				"Priority": 9,
-				"Not F2P": true
+				"Not F2P": true,
+				"Partial": true
 			},
 			"Forge a ~|crane claw|~": {
 				"Items": ["Elemental bar*", "Crane schematic"],
@@ -65866,7 +66347,8 @@
 				"Objects": ["Elemental anvil"],
 				"Output": "Crane claw",
 				"Primary": true,
-				"Priority": 10
+				"Priority": 10,
+				"Partial": true
 			},
 			"Forge an ~|elemental shield|~": {
 				"Items": ["Elemental bar*"],
@@ -65885,7 +66367,8 @@
 				},
 				"Output": "Steel dart tip",
 				"Primary": true,
-				"Priority": 12
+				"Priority": 12,
+				"Partial": true
 			},
 			"Smith a ~|death gaurd (tier 30)|~": {
 				"Objects": ["Soul forge"],
@@ -65957,7 +66440,8 @@
 				"Objects": ["Forge", "Anvil[+]"],
 				"Output": "Masterwork rivets",
 				"Primary": true,
-				"Priority": 2
+				"Priority": 2,
+				"Partial": true
 			},
 			"Forge ~|mithril|~": {
 				"Items": ["Mithril bar*"],
@@ -66027,7 +66511,8 @@
 				},
 				"Output": "Mithril dart tip",
 				"Primary": true,
-				"Priority": 9
+				"Priority": 9,
+				"Partial": true
 			},
 			"Forge an ~|elemental helmet|~": {
 				"Items": ["Elemental bar*"],
@@ -66174,7 +66659,8 @@
 				},
 				"Output": "Adamant dart tip",
 				"Primary": true,
-				"Priority": 7
+				"Priority": 7,
+				"Partial": true
 			},
 			"Forge an ~|elemental boots|~": {
 				"Items": ["Elemental bar*"],
@@ -66322,7 +66808,8 @@
 				},
 				"Output": "Rune dart tip",
 				"Primary": true,
-				"Priority": 7
+				"Priority": 7,
+				"Partial": true
 			},
 			"Forge ~|orikalkum|~": {
 				"Items": ["Orikalkum bar*"],
@@ -66609,7 +67096,8 @@
 				"Objects": ["Forge", "Anvil[+]"],
 				"Level": 80,
 				"primary": true,
-				"Priority": 22
+				"Priority": 22,
+				"Partial": true
 			},
 			"Create an ~|enchantment of savagery|~": {
 				"Items": ["Sliver of pain*", "Glorious bar*", "Ork cleaver sword*"],
@@ -66686,7 +67174,8 @@
 				"Objects": ["Forge", "Anvil[+]"],
 				"Output": "Pearlescent plate",
 				"Primary": true,
-				"Priority": 2
+				"Priority": 2,
+				"Partial": true
 			},
 			"Forge a ~|dragonfire deflector|~": {
 				"Items": ["Draconic visage*", "Anti-dragon shield*"],
@@ -66805,7 +67294,8 @@
 				},
 				"Output": "Masterwork focus bracket",
 				"Primary": false,
-				"Priority": 13
+				"Priority": 13,
+				"Partial": true
 			},
 			"Forge a ~|grounded masterwork staff base|~": {
 				"Items": ["Gold bar*", "Volatile runic brick*", "Crystalline essence*"],
@@ -66816,7 +67306,8 @@
 				},
 				"Output": "Grounded masterwork staff base",
 				"Primary": false,
-				"Priority": 14
+				"Priority": 14,
+				"Partial": true
 			},
 			"Forge ~|tetsu weapons|~": {
 				"Items": ["Plate*", "Pearl*", "Tengu tsuba*"],
@@ -66832,7 +67323,8 @@
 				"Objects": ["Furnace[+]"],
 				"Output": "Concentrated alloy bar",
 				"Primary": true,
-				"Priority": 3
+				"Priority": 3,
+				"Partial": true
 			},
 			"Forge ~|masterwork melee armour trim|~": {
 				"Items": ["Elder rune bar*", "Malevolent essence*", "Praesulic essence (melee)*"],
@@ -66840,7 +67332,8 @@
 				"Objects": ["Forge", "Anvil[+]"],
 				"Output": "Masterwork melee armour trim",
 				"Primary": true,
-				"Priority": 4
+				"Priority": 4,
+				"Partial": true
 			},
 			"Forge ~|masterwork sword trim|~": {
 				"Items": ["Elder rune bar*", "Kalphite essence*", "Demonic essence*"],
@@ -66848,7 +67341,8 @@
 				"Objects": ["Forge", "Anvil[+]"],
 				"Output": "Masterwork sword trim",
 				"Primary": true,
-				"Priority": 14
+				"Priority": 14,
+				"Partial": true
 			},
 			"Forge ~|armour spikes (alloy)|~ from a concentrated alloy bar": {
 				"Items": ["Armour spikes*", "Concentrated alloy bar*"],
@@ -66864,7 +67358,8 @@
 				"Objects": ["Furnace[+]"],
 				"Output": "Glorious bar",
 				"Primary": true,
-				"Priority": 6
+				"Priority": 6,
+				"Partial": true
 			},
 			"Forge ~|armour spikes (alloy)|~": {
 				"Items": ["Armour spikes*", "Bronze bar*", "Iron bar*", "Steel bar*", "Mithril bar*", "Adamant bar*", "Rune bar*", "Orikalkum bar*", "Necronium bar*", "Bane bar*", "Elder rune bar*"],
@@ -66880,7 +67375,8 @@
 				"Objects": ["Furnace[+]"],
 				"Output": "Glorious bar",
 				"Primary": true,
-				"Priority": 25
+				"Priority": 25,
+				"Partial": true
 			},
 			"Smelt a ~|glorious bar|~ from an enriched alloy bar": {
 				"Items": ["Enriched alloy bar*"],
@@ -66888,7 +67384,8 @@
 				"Objects": ["Furnace[+]"],
 				"Output": "Glorious bar",
 				"Primary": true,
-				"Priority": 7
+				"Priority": 7,
+				"Partial": true
 			},
 			"Smelt a ~|primed glorious bar|~ from an glorious bar": {
 				"Items": ["Glorious bar*", "Primal bar*"],
@@ -66896,7 +67393,8 @@
 				"Objects": ["Furnace[+]"],
 				"Output": "Primed glorious bar",
 				"Primary": true,
-				"Priority": 1
+				"Priority": 1,
+				"Partial": true
 			},
 			"Forge a ~|glorious bar|~ from an immaculate alloy bar": {
 				"Items": ["Immaculate alloy bar*"],
@@ -66904,7 +67402,8 @@
 				"Objects": ["Forge", "Anvil[+]"],
 				"Output": "Glorious bar",
 				"Primary": true,
-				"Priority": 8
+				"Priority": 8,
+				"Partial": true
 			},
 			"Forge a ~|masterwork sword pommel|~": {
 				"Items": ["Primed glorious bar*", "Gold bar*"],
@@ -66912,7 +67411,8 @@
 				"Objects": ["Forge", "Anvil[+]"],
 				"Output": "Masterwork sword pommel",
 				"Primary": true,
-				"Priority": 2
+				"Priority": 2,
+				"Partial": true
 			},
 			"Forge a ~|masterwork sword quillon|~": {
 				"Items": ["Primed glorious bar*", "Gold bar*"],
@@ -66920,7 +67420,8 @@
 				"Objects": ["Forge", "Anvil[+]"],
 				"Output": "Masterwork sword quillon",
 				"Primary": true,
-				"Priority": 3
+				"Priority": 3,
+				"Partial": true
 			},
 			"Forge a ~|unfinished masterwork blade|~": {
 				"Items": ["Primed glorious bar*"],
@@ -66928,7 +67429,8 @@
 				"Objects": ["Forge", "Anvil[+]"],
 				"Output": "Unfinished masterwork blade",
 				"Primary": true,
-				"Priority": 4
+				"Priority": 4,
+				"Partial": true
 			},
 			"Forge a ~|masterwork cross guard center piece|~": {
 				"Items": ["Primed glorious bar*", "Gold bar*", "Faceted chaos-infused moonstone*"],
@@ -66936,7 +67438,8 @@
 				"Objects": ["Forge", "Anvil[+]"],
 				"Output": "Masterwork cross guard center piece",
 				"Primary": true,
-				"Priority": 6
+				"Priority": 6,
+				"Partial": true
 			},
 			"Forge a ~|masterwork sword cross guard|~": {
 				"Items": ["Masterwork cross guard center piece*", "Masterwork sword quillon*"],
@@ -66944,7 +67447,8 @@
 				"Objects": ["Forge", "Anvil[+]"],
 				"Output": "Masterwork sword cross guard",
 				"Primary": true,
-				"Priority": 7
+				"Priority": 7,
+				"Partial": true
 			},
 			"Forge a ~|unwrapped masterwork sword grip|~": {
 				"Items": ["Primed glorious bar*", "Gold bar*"],
@@ -66952,7 +67456,8 @@
 				"Objects": ["Forge", "Anvil[+]"],
 				"Output": "Unrapped masterwork sword grip",
 				"Primary": true,
-				"Priority": 8
+				"Priority": 8,
+				"Partial": true
 			},
 			"Forge a ~|masterwork sword hilt|~": {
 				"Items": ["Masterwork sword pommel*", "Masterwork sword cross guard*", "Wrapped masterwork sword grip*"],
@@ -66960,7 +67465,8 @@
 				"Objects": ["Forge", "Anvil[+]"],
 				"Output": "Masterwork sword hilt",
 				"Primary": true,
-				"Priority": 9
+				"Priority": 9,
+				"Partial": true
 			},
 			"Forge a ~|shaped masterwork blade|~": {
 				"Items": ["Unfinished masterwork blade*"],
@@ -66968,7 +67474,8 @@
 				"Objects": ["Forge", "Anvil[+]"],
 				"Output": "Unfinished masterwork blade",
 				"Primary": true,
-				"Priority": 10
+				"Priority": 10,
+				"Partial": true
 			},
 			"Forge a ~|unsharpened masterwork blade|~": {
 				"Items": ["Shaped masterwork blade*", "Masterwork sword trim*"],
@@ -66976,7 +67483,8 @@
 				"Objects": ["Forge", "Anvil[+]"],
 				"Output": "Unsharpened masterwork blade",
 				"Primary": true,
-				"Priority": 11
+				"Priority": 11,
+				"Partial": true
 			},
 			"Forge a ~|sharpened masterwork blade|~": {
 				"Items": ["Unsharpened masterwork blade*", "Masterwork sword trim*"],
@@ -66984,7 +67492,8 @@
 				"Objects": ["Forge", "Anvil[+]"],
 				"Output": "Unsharpened masterwork blade",
 				"Primary": true,
-				"Priority": 12
+				"Priority": 12,
+				"Partial": true
 			},
 			"Forge a ~|masterwork 2h sword|~": {
 				"Items": ["Masterwork sword hilt*", " Sharpened masterwork blade*"],
@@ -67000,7 +67509,8 @@
 				"Objects": ["Forge", "Anvil[+]"],
 				"Output": "Glorious bar",
 				"Primary": true,
-				"Priority": 9
+				"Priority": 9,
+				"Partial": true
 			},
 			"Forge the ~|prepared masterwork Spear of Annihilation|~": {
 				"Items": ["Spear of Annihilation*", "Masterwork melee armour trim*", "Glorious bar*"],
@@ -67008,7 +67518,8 @@
 				"Objects": ["Forge", "Anvil[+]"],
 				"Output": "Prepared masterwork Spear of Annihilation",
 				"Primary": true,
-				"Priority": 10
+				"Priority": 10,
+				"Partial": true
 			},
 			"Forge the ~|masterwork Spear of Annihilation|~": {
 				"Items": ["Prepared masterwork Spear of Annihilation*", "Masterwork melee armour trim*", "Glorious bar*", "Masterwork rivets*"],
@@ -67024,7 +67535,8 @@
 				"Objects": ["Forge", "Anvil[+]"],
 				"Output": "Curved masterwork plate",
 				"Primary": true,
-				"Priority": 13
+				"Priority": 13,
+				"Partial": true
 			},
 			"Forge a ~|lined masterwork melee armour piece|~ from a glorious bar": {
 				"Items": ["Glorious bar*", "Leather*"],
@@ -67032,7 +67544,8 @@
 				"Objects": ["Forge", "Anvil[+]"],
 				"Output": "Lined masterwork melee armour piece",
 				"Primary": true,
-				"Priority": 26
+				"Priority": 26,
+				"Partial": true
 			},
 			"Extract ~|malevolent essence|~ from malevolent armour": {
 				"Items": ["MalevolentArmour[+]*"],
@@ -67040,7 +67553,8 @@
 				"Objects": ["Dragonkin anvil"],
 				"Output": "Malevolent essence",
 				"Primary": true,
-				"Priority": 27
+				"Priority": 27,
+				"Partial": true
 			},
 			"Extract ~|praesulic essence (melee)|~ from Torva armour": {
 				"Items": ["Torva[+]*"],
@@ -67048,7 +67562,8 @@
 				"Objects": ["Dragonkin anvil"],
 				"Output": "Praesulic essence (melee)",
 				"Primary": true,
-				"Priority": 27
+				"Priority": 27,
+				"Partial": true
 			},
 			"Extract ~|kalphite essence|~ from Drygore weapons": {
 				"Items": ["DrygoreWeapon[+]*"],
@@ -67056,7 +67571,8 @@
 				"Objects": ["Dragonkin anvil"],
 				"Output": "Kalphite essence",
 				"Primary": true,
-				"Priority": 28
+				"Priority": 28,
+				"Partial": true
 			},
 			"Extract ~|chaotic essence|~ from Chaotic weapons": {
 				"Items": ["ChaoticWeapon[+]*"],
@@ -67064,7 +67580,8 @@
 				"Objects": ["Dragonkin anvil"],
 				"Output": "Chaotic essence",
 				"Primary": true,
-				"Priority": 29
+				"Priority": 29,
+				"Partial": true
 			},
 			"Extract ~|demonic essence|~ from Fury weapons": {
 				"Items": ["FuryBlade[+]*"],
@@ -67072,7 +67589,8 @@
 				"Objects": ["Dragonkin anvil"],
 				"Output": "Demonic essence",
 				"Primary": true,
-				"Priority": 29
+				"Priority": 29,
+				"Partial": true
 			},
 			"Extract ~|noxious essence|~ from Noxious weapons": {
 				"Items": ["NoxWeapons[+]*"],
@@ -67080,7 +67598,8 @@
 				"Objects": ["Dragonkin anvil"],
 				"Output": "Noxious essence",
 				"Primary": true,
-				"Priority": 30
+				"Priority": 30,
+				"Partial": true
 			},
 			"Extract ~|ascended essence|~ from Ascenscion weapons": {
 				"Items": ["Ascensions[+]*"],
@@ -67088,7 +67607,8 @@
 				"Objects": ["Dragonkin anvil"],
 				"Output": "Ascended essence",
 				"Primary": true,
-				"Priority": 31
+				"Priority": 31,
+				"Partial": true
 			},
 			"Extract ~|melodic essence|~ from Cywir weapons": {
 				"Items": ["Wand of the Cywir elders*"],
@@ -67099,7 +67619,8 @@
 				"Objects": ["Dragonkin anvil"],
 				"Output": "Melodic essence",
 				"Primary": true,
-				"Priority": 32
+				"Priority": 32,
+				"Partial": true
 			},
 			"Extract ~|binding essence|~ from seismic weapons": {
 				"Items": ["Seismic wand*"],
@@ -67110,7 +67631,8 @@
 				"Objects": ["Dragonkin anvil"],
 				"Output": "Binding essence",
 				"Primary": true,
-				"Priority": 33
+				"Priority": 33,
+				"Partial": true
 			},
 			"Extract ~|crystalline essence|~ from attuned crystal magic weapons": {
 				"Chunks": ["8500"],
@@ -67122,7 +67644,8 @@
 				"Objects": ["Dragonkin anvil"],
 				"Output": "Crystalline essence",
 				"Primary": true,
-				"Priority": 34
+				"Priority": 34,
+				"Partial": true
 			},
 			"Forge an ~|Orthen furnace core|~": {
 				"Tasks": {
@@ -67144,7 +67667,8 @@
 				"Objects": ["Forge", "Anvil[+]"],
 				"Output": "Untempered masterwork melee armour piece",
 				"Primary": true,
-				"Priority": 15
+				"Priority": 15,
+				"Partial": true
 			},
 			"Forge a ~|masterwork melee armour piece|~": {
 				"Items": ["Untempered masterwork melee armour piece*"],
@@ -67152,7 +67676,8 @@
 				"Objects": ["Forge", "Anvil[+]"],
 				"Output": "Masterwork melee armour piece",
 				"Primary": true,
-				"Priority": 16
+				"Priority": 16,
+				"Partial": true
 			},
 			"Forge a ~|lined masterwork melee armour piece|~": {
 				"Items": ["Masterwork melee armour piece*", "Leather*"],
@@ -67160,11 +67685,16 @@
 				"Objects": ["Forge", "Anvil[+]"],
 				"Output": "Lined masterwork melee armour piece",
 				"Primary": true,
-				"Priority": 17
+				"Priority": 17,
+				"Partial": true
 			},
 			"Finish ~|masterwork|~": {
-				"Items": ["Lined masterwork melee armour piece*", "Masterwork rivets*"],
+				"Category": ["Multi Step Processing"],
+				"Items": ["Tin ore*", "Copper ore*", "Iron ore*", "Coal*", "Mithril ore*", "Adamantite ore*", "Runite ore*", "Luminite*", "Orichalcite ore*", "Drakolith*", "Necrite ore*", "Phasmatite*", "Banite ore*", "Light animica*", "Dark animica*", "Steel bar*", "Leather*"],
 				"Level": 99,
+				"Tasks": {
+					"It Should Have Been Called Aetherium*": "Nonskill"
+				},
 				"Objects": ["Forge", "Anvil[+]"],
 				"Output": "MasterworkGear",
 				"Primary": true,
@@ -141489,7 +142019,10 @@
 			"Unlock the ~|Elite Dungeon chest upgrade|~": {
 				"Category": ["Permanent Unlockables"],
 				"Label": "Permanent Unlockables",
-				"Items": ["Elite dungeon chest upgrade", "Dungeoneering token*"]
+				"Items": ["Elite dungeon chest upgrade", "Dungeoneering token*"],
+				"Tasks": {
+					"~|Impressing the Locals|~ Complete the quest": "Quest"
+				}
 			},
 			"Unlock the ~|Demon Slayer ability codex blueprint|~": {
 				"Category": ["Permanent Unlockables"],
@@ -142074,12 +142607,12 @@
 				}
 			},
 			"Upgrade all buildings in your ~|Player-Owned Port|~": {
-				"Category": ["Permanent Unlockables", "DnD"],
+				"Category": ["Permanent Unlockables", "DnD", "Timegated"],
 				"Label": "Permanent Unlockables",
 				"Chunks": ["Player-Owned Port"]
 			},
 			"Get all ship upgrades in your ~|Player-Owned Port|~": {
-				"Category": ["Permanent Unlockables", "DnD"],
+				"Category": ["Permanent Unlockables", "DnD", "Timegated"],
 				"Label": "Permanent Unlockables",
 				"Chunks": ["Player-Owned Port"]
 			},
@@ -142263,7 +142796,7 @@
 			"Unlock all farmhands at your ~|Player-Owned Farm|~": {
 				"Category": ["Permanent Unlockables"],
 				"Label": "Permanent Unlockables",
-				"Chunks": ["10548"]
+				"Items": ["Farmhands"]
 			},
 			"Upgrade the ~|seedicide|~": {
 				"Category": ["Permanent Unlockables"],
@@ -142377,13 +142910,19 @@
 				"Category": ["Permanent Unlockables"],
 				"Label": "Permanent Unlockables",
 				"Chunks": ["Eagles' Peak Eyrie"],
-				"Items": ["Plank*", "Rope*", "Steel nails*"]
+				"Items": ["Plank*", "Rope*", "Steel nails*"],
+				"Skills": {
+					"Construction": 18
+				}
 			},
 			"Build a ~|rope rack|~ at Baxtorian Falls": {
 				"Category": ["Permanent Unlockables"],
 				"Label": "Permanent Unlockables",
 				"Chunks": ["10038"],
-				"Items": ["Oak plank*", "Rope*"]
+				"Items": ["Oak plank*", "Rope*"],
+				"Skills": {
+					"Construction": 24
+				}
 			},
 			"Build a ~|rope rack|~ at the jade vine maze": {
 				"Category": ["Permanent Unlockables"],
@@ -142392,13 +142931,19 @@
 				"Tasks": {
 					"~|Back to my Roots|~ Complete the quest": "Quest"
 				},
-				"Items": ["Oak plank*", "Rope*"]
+				"Items": ["Oak plank*", "Rope*"],
+				"Skills": {
+					"Construction": 28
+				}
 			},
 			"Build a ~|rope rack|~ at the Feldip Hills": {
 				"Category": ["Permanent Unlockables"],
 				"Label": "Permanent Unlockables",
 				"Chunks": ["Jungle Eagles' Eyrie"],
-				"Items": ["Teak plank*", "Rope*"]
+				"Items": ["Teak plank*", "Rope*"],
+				"Skills": {
+					"Construction": 38
+				}
 			},
 			"Unlock all of the ~|Livid Farm|~ spells": {
 				"Category": ["Permanent Unlockables"],
@@ -150670,6 +151215,7 @@
 				"UnlocksArea": true
 			},
 			"Sinkhole": {
+				"Not F2P": true,
 				"UnlocksArea": true
 			},
 			"Effigy Incubator": {
@@ -152092,9 +152638,6 @@
 			},
 			"Access Daemonheim Rewards": {
 				"Items": ["Dungeoneering token"]
-			},
-			"Access members content": {
-				"Not F2P": true
 			},
 			"TzHaarcityunlockZan": {
 				"Tasks": {
@@ -170885,7 +171428,6 @@
 			},
 			"NPC": {
 				"Wizard Myrtle": 1,
-				"Vannaka": 1,
 				"Master Chef": 1,
 				"Survival expert": 1,
 				"Magic instructor": 1,
@@ -172994,7 +173536,6 @@
 				"Xenia": 1,
 				"Kipple": 1,
 				"Wizard Myrtle": 1,
-				"Vannaka": 1,
 				"Wizard Rinsit": 1,
 				"Wizard Rosalina": 1
 			},
@@ -191289,7 +191830,7 @@
 				"Rope": 1
 			},
 			"Monster": {
-				"Mountain troll": 7
+				"Mountain troll (well)": 7
 			},
 			"Connect": {
 				"11317": true
@@ -192964,7 +193505,8 @@
 				"Earth obelisk": 1
 			},
 			"NPC": {
-				"Mysterious ghost": 1
+				"Mysterious ghost": 1,
+				"Vanakka": 1
 			},
 			"Quest": {
 				"Family Crest": "step"
@@ -196592,7 +197134,6 @@
 				"Fish": 5,
 				"Wizard Terrova": 1,
 				"Chicken": 5,
-				"Vannaka": 1,
 				"Mining instructor": 1,
 				"Giant sea rat": 13
 			},
@@ -196751,7 +197292,6 @@
 				"Lana": 1,
 				"Bill": 1,
 				"Mirrorback spider": 1,
-				"Vannaka": 1,
 				"Cormorant": 1,
 				"Crimson swift": 1,
 				"Cerulean twitch": 1,
@@ -223420,34 +223960,34 @@
 				"2": "1/128"
 			},
 			"Bronze arrow": {
-				"7": "3/128"
+				"7 (F2P)": "3/128"
 			},
 			"Bronze bolts": {
-				"2-12": "22/128"
+				"2-12 (F2P)": "22/128"
 			},
 			"Tiny plated bronze salvage": {
-				"1": "2/128"
+				"1 (F2P)": "2/128"
 			},
 			"Tiny spiky iron salvage": {
-				"1": "1/128"
+				"1 (F2P)": "1/128"
 			},
 			"Coins": {
 				"3": "38/128",
-				"5": "9/128",
-				"15": "4/128",
+				"5 (F2P)": "9/128",
+				"15 (F2P)": "4/128",
 				"25": "1/128"
 			},
 			"Fishing bait": {
 				"1": "5/128"
 			},
 			"Copper stone spirit": {
-				"1": "2/128"
+				"1 (F2P)": "2/128"
 			},
 			"Earth talisman": {
 				"1": "2/128"
 			},
 			"Cabbage": {
-				"1": "1/128"
+				"1 (F2P)": "1/128"
 			},
 			"Undercooked mystery meat": {
 				"1": "1/20"
@@ -258650,6 +259190,207 @@
 				"1": "4/126"
 			}
 		},
+				"Zemouregal & Vorkath (Story Mode)": {
+			"Congealed blood": {
+				"28-42": "75/1000"
+			},
+			"Coins": {
+				"56000-84000": "75/1000"
+			},
+			"Catalytic anima stone": {
+				"36-54": "75/1000"
+			},
+			"Dragon scale dust": {
+				"16-24": "50/1000"
+			},
+			"Bloodweed seed": {
+				"2": "20/1000"
+			},
+			"Frost dragon bones": {
+				"3": "75/1000"
+			},
+			"Banite stone spirit": {
+				"12-18": "50/1000"
+			},
+			"Cannonball": {
+				"68-102": "75/1000"
+			},
+			"Large blunt rune salvage": {
+				"4": "40/1000"
+			},
+			"Small plated necronium salvage": {
+				"1": "30/1000"
+			},
+			"Dragon bolt tips": {
+				"52-78": "75/1000"
+			},
+			"Undead dragonhide": {
+				"4-6": "115/1000"
+			},
+			"Blue dragonhide": {
+				"20-30": "75/1000"
+			},
+			"Avantoe seed": {
+				"3": "40/1000"
+			},
+			"Fellstalk seed": {
+				"3": "40/1000"
+			},
+			"Ghostly essence": {
+				"22-33": "25/1000"
+			},
+			"Elder wood spirit": {
+				"3": "45/1000"
+			},
+			"Black stone heart": {
+				"1": "4/1000"
+			},
+			"Onyx dust": {
+				"17-25": "15/1000"
+			},
+			"Draconic visage": {
+				"1": "1/1000"
+			}
+		},
+		"Zemouregal & Vorkath": {
+			"Invoke Lord of Bones incantation codex": {
+				"1": "1/249"
+			},
+			"Vorkath's spike": {
+				"4-7": "1/45"
+			},
+			"Congealed blood": {
+				"28-42": "75/1000"
+			},
+			"Coins": {
+				"56000-84000": "75/1000"
+			},
+			"Catalytic anima stone": {
+				"36-54": "75/1000"
+			},
+			"Dragon scale dust": {
+				"16-24": "50/1000"
+			},
+			"Bloodweed seed": {
+				"2": "20/1000"
+			},
+			"Frost dragon bones": {
+				"3": "75/1000"
+			},
+			"Banite stone spirit": {
+				"12-18": "50/1000"
+			},
+			"Cannonball": {
+				"68-102": "75/1000"
+			},
+			"Large blunt rune salvage": {
+				"4": "40/1000"
+			},
+			"Small plated necronium salvage": {
+				"1": "30/1000"
+			},
+			"Dragon bolt tips": {
+				"52-78": "75/1000"
+			},
+			"Undead dragonhide": {
+				"4-6": "115/1000"
+			},
+			"Blue dragonhide": {
+				"20-30": "75/1000"
+			},
+			"Avantoe seed": {
+				"3": "40/1000"
+			},
+			"Fellstalk seed": {
+				"3": "40/1000"
+			},
+			"Ghostly essence": {
+				"22-33": "25/1000"
+			},
+			"Elder wood spirit": {
+				"3": "45/1000"
+			},
+			"Black stone heart": {
+				"1": "4/1000"
+			},
+			"Onyx dust": {
+				"17-25": "15/1000"
+			},
+			"Draconic visage": {
+				"1": "1/1000"
+			}
+		},
+		"Zemouregal & Vorkath (Hard Mode)": {
+			"Invoke Lord of Bones incantation codex": {
+				"1": "1/150"
+			},
+			"Vorkath's spike": {
+				"6-9": "1/15"
+			},
+			"Vorkath's scale": {
+				"1": "1/150"
+			},
+			"Congealed blood": {
+				"84-126": "75/1000"
+			},
+			"Coins": {
+				"168000-252000": "75/1000"
+			},
+			"Catalytic anima stone": {
+				"108-162": "75/1000"
+			},
+			"Dragon scale dust": {
+				"48-72": "50/1000"
+			},
+			"Bloodweed seed": {
+				"4-6": "20/1000"
+			},
+			"Frost dragon bones": {
+				"8-12": "75/1000"
+			},
+			"Banite stone spirit": {
+				"12-18": "50/1000"
+			},
+			"Cannonball": {
+				"204-306": "75/1000"
+			},
+			"Large blunt rune salvage": {
+				"9-13": "40/1000"
+			},
+			"Small plated necronium salvage": {
+				"3": "30/1000"
+			},
+			"Dragon bolt tips": {
+				"52-78": "75/1000"
+			},
+			"Undead dragonhide": {
+				"9-13": "115/1000"
+			},
+			"Blue dragonhide": {
+				"60-90": "75/1000"
+			},
+			"Avantoe seed": {
+				"7-10": "35/1000"
+			},
+			"Fellstalk seed": {
+				"7-10": "35/1000"
+			},
+			"Ghostly essence": {
+				"67-100": "25/1000"
+			},
+			"Elder wood spirit": {
+				"8-12": "40/1000"
+			},
+			"Black stone heart": {
+				"1": "10/1000"
+			},
+			"Onyx dust": {
+				"60-90": "20/1000"
+			},
+			"Draconic visage": {
+				"1": "1/1000"
+			}
+		},
 		"Zogre": {
 			"Ogre coffin key": {
 				"1": "Always"
@@ -260120,7 +260861,7 @@
 		"A Fairy Tale I - Growing Pains": "12338, FairyTaleI2[+]x5, Zanaris, 11572, 11827, 12340, Nature grotto",
 		"A Fairy Tale II - Cure a Queen": "12338, Zanaris, 10802, 8752, Fairy Resistance Hideout, Cosmic Entity plane, Gorak Plane",
 		"A Fairy Tale III - Battle at Ork's Rift": "Sparse Plane, Fairy Resistance Hideout, 14893, Enchanted Valley, 10794, Shredflesh's Cave, Ork's Rift, 12338",
-		"Family Crest": "13109, 11317, 13107, Dwarven Mine, Witchaven Dungeon, 13110, Edgeville Dungeon",
+		"Family Crest": "13109, 12597, 13107, Dwarven Mine, Witchaven Dungeon, 13110, Edgeville Dungeon",
 		"Fate of the Gods": "9268",
 		"The Feud": "13106, 13358",
 		"Fight Arena": "10289",
@@ -260458,7 +261199,7 @@
 				"~|The Fremennik Trials|~ Complete the quest": "Quest"
 			}],
 			"Asylum surgeon's ring": [{
-				"Access members content": "Nonskill"
+				"Members only": "Nonskill"
 			}],
 			"Berserker helm": [{
 				"~|The Fremennik Trials|~ Complete the quest": "Quest"
@@ -260518,7 +261259,7 @@
 				"~|Lost City|~ Complete the quest": "Quest"
 			}],
 			"Dragon helm^": [{
-				"Access members content": "Nonskill"
+				"Members only": "Nonskill"
 			}],
 			"Dragon longsword": [{
 				"~|Lost City|~ Complete the quest": "Quest"
@@ -260533,10 +261274,10 @@
 				"~|Heroes' Quest|~ Complete the quest": "Quest"
 			}],
 			"Dragon Rider boots^": [{
-				"Access members content": "Nonskill"
+				"Members only": "Nonskill"
 			}],
 			"Dragon Rider gloves^": [{
-				"Access members content": "Nonskill"
+				"Members only": "Nonskill"
 			}],
 			"Egg whisk": [{
 				"RecipeSub[+]": "Quest"
@@ -260569,10 +261310,10 @@
 				"~|Kindred spirits|~ Complete the quest": "Quest"
 			}],
 			"Long bone^": [{
-				"Access members content": "Nonskill"
+				"Members only": "Nonskill"
 			}],
 			"Curved bone^": [{
-				"Access members content": "Nonskill"
+				"Members only": "Nonskill"
 			}],
 			"Meat tenderiser": [{
 				"RecipeSub[+]x8": "Quest"
@@ -260584,34 +261325,34 @@
 				"Monk's drops": "Nonskill"
 			}],
 			"Morrigan's coif^": [{
-				"Access members content": "Nonskill"
+				"Members only": "Nonskill"
 			}],
 			"Morrigan's leather chaps^": [{
-				"Access members content": "Nonskill"
+				"Members only": "Nonskill"
 			}],
 			"Morrigan's leather body^": [{
-				"Access members content": "Nonskill"
+				"Members only": "Nonskill"
 			}],
 			"Morrigan's javelin^": [{
-				"Access members content": "Nonskill"
+				"Members only": "Nonskill"
 			}],
 			"Morrigan's throwing axe^": [{
-				"Access members content": "Nonskill"
+				"Members only": "Nonskill"
 			}],
 			"Corrupt Morrigan's coif^": [{
-				"Access members content": "Nonskill"
+				"Members only": "Nonskill"
 			}],
 			"Corrupt Morrigan's leather chaps^": [{
-				"Access members content": "Nonskill"
+				"Members only": "Nonskill"
 			}],
 			"Corrupt Morrigan's leather body^": [{
-				"Access members content": "Nonskill"
+				"Members only": "Nonskill"
 			}],
 			"Corrupt Morrigan's javelin^": [{
-				"Access members content": "Nonskill"
+				"Members only": "Nonskill"
 			}],
 			"Corrupt Morrigan's throwing axe^": [{
-				"Access members content": "Nonskill"
+				"Members only": "Nonskill"
 			}],
 			"Rolling pin": [{
 				"RecipeSub[+]x6": "Quest"
@@ -260620,28 +261361,28 @@
 				"Tier 2 luck or higher*": "Nonskill"
 			}],
 			"Statius's full helm^": [{
-				"Access members content": "Nonskill"
+				"Members only": "Nonskill"
 			}],
 			"Statius's platebody^": [{
-				"Access members content": "Nonskill"
+				"Members only": "Nonskill"
 			}],
 			"Statius's platelegs^": [{
-				"Access members content": "Nonskill"
+				"Members only": "Nonskill"
 			}],
 			"Statius's warhammer^": [{
-				"Access members content": "Nonskill"
+				"Members only": "Nonskill"
 			}],
 			"Corrupt Statius's full helm^": [{
-				"Access members content": "Nonskill"
+				"Members only": "Nonskill"
 			}],
 			"Corrupt Statius's platebody^": [{
-				"Access members content": "Nonskill"
+				"Members only": "Nonskill"
 			}],
 			"Corrupt Statius's platelegs^": [{
-				"Access members content": "Nonskill"
+				"Members only": "Nonskill"
 			}],
 			"Corrupt Statius's warhammer^": [{
-				"Access members content": "Nonskill"
+				"Members only": "Nonskill"
 			}],
 			"TokHaar-Kal-Mor^": [{
 				"~|Necromancy!|~ Complete the quest": "Quest"
@@ -260665,7 +261406,7 @@
 				"RecipeSub[+]x5": "Quest"
 			}],
 			"Slayer's staff^": [{
-				"Access members content": "Nonskill"
+				"Members only": "Nonskill"
 			}],
 			"Spatula": [{
 				"RecipeSub[+]x3": "Quest"
@@ -260683,58 +261424,58 @@
 				"~|Broken Home|~ Complete the quest": "Quest"
 			}],
 			"Unlit bug lantern^": [{
-				"Access members content": "Nonskill"
+				"Members only": "Nonskill"
 			}],
 			"Vesta's spear^": [{
-				"Access members content": "Nonskill"
+				"Members only": "Nonskill"
 			}],
 			"Vesta's plateskirt^": [{
-				"Access members content": "Nonskill"
+				"Members only": "Nonskill"
 			}],
 			"Vesta's chainbody^": [{
-				"Access members content": "Nonskill"
+				"Members only": "Nonskill"
 			}],
 			"Vesta's longsword^": [{
-				"Access members content": "Nonskill"
+				"Members only": "Nonskill"
 			}],
 			"Corrupt Vesta's spear^": [{
-				"Access members content": "Nonskill"
+				"Members only": "Nonskill"
 			}],
 			"Corrupt Vesta's plateskirt^": [{
-				"Access members content": "Nonskill"
+				"Members only": "Nonskill"
 			}],
 			"Corrupt Vesta's chainbody^": [{
-				"Access members content": "Nonskill"
+				"Members only": "Nonskill"
 			}],
 			"Corrupt Vesta's longsword^": [{
-				"Access members content": "Nonskill"
+				"Members only": "Nonskill"
 			}],
 			"Warrior helm": [{
 				"~|The Fremennik Trials|~ Complete the quest": "Quest"
 			}],
 			"Zuriel's staff^": [{
-				"Access members content": "Nonskill"
+				"Members only": "Nonskill"
 			}],
 			"Zuriel's hood^": [{
-				"Access members content": "Nonskill"
+				"Members only": "Nonskill"
 			}],
 			"Zuriel's robe bottom^": [{
-				"Access members content": "Nonskill"
+				"Members only": "Nonskill"
 			}],
 			"Zuriel's robe top^": [{
-				"Access members content": "Nonskill"
+				"Members only": "Nonskill"
 			}],
 			"Corrupt Zuriel's staff^": [{
-				"Access members content": "Nonskill"
+				"Members only": "Nonskill"
 			}],
 			"Corrupt Zuriel's hood^": [{
-				"Access members content": "Nonskill"
+				"Members only": "Nonskill"
 			}],
 			"Corrupt Zuriel's robe bottom^": [{
-				"Access members content": "Nonskill"
+				"Members only": "Nonskill"
 			}],
 			"Corrupt Zuriel's robe top^": [{
-				"Access members content": "Nonskill"
+				"Members only": "Nonskill"
 			}],
 			"Imp Champion's scroll^": [{
 				"Champions Guild Questpoints": "Nonskill"
@@ -261710,6 +262451,45 @@
 			}],
 			"Butterfly net^": [{
 				"Members only": "Nonskill"
+			}],
+			"Crawling hand (item)^": [{
+				"Members only": "Nonskill"
+			}],
+			"Sealed clue scroll (easy)^": [{
+				"Members only": "Nonskill"
+			}],
+			"Sealed clue scroll (medium)^": [{
+				"Members only": "Nonskill"
+			}],
+			"Sealed clue scroll (hard)^": [{
+				"Members only": "Nonskill"
+			}],
+			"Sealed clue scroll (elite)^": [{
+				"Members only": "Nonskill"
+			}],
+			"Sealed clue scroll (master)^": [{
+				"Members only": "Nonskill"
+			}],
+			"Gardening boots^": [{
+				"Members only": "Nonskill"
+			}],
+			"Secateurs^Farmer": [{
+				"Members only": "Nonskill"
+			}],
+			"Rake^Farmer": [{
+				"Members only": "Nonskill"
+			}],
+			"Seed dibber^Farmer": [{
+				"Members only": "Nonskill"
+			}],
+			"Watering can^Farmer": [{
+				"Members only": "Nonskill"
+			}],
+			"Onion seed^Farmer": [{
+				"Members only": "Nonskill"
+			}],
+			"Potato seed^Farmer": [{
+				"Members only": "Nonskill"
 			}]
 		},
 		"Monsters": {
@@ -261890,7 +262670,7 @@
 			},
 			"Glacor": {
 				"11836": [{
-					"Access members content": "Nonskill"
+					"Members only": "Nonskill"
 				}]
 			},
 			"Goblin Raider": {
@@ -261930,18 +262710,18 @@
 			},
 			"Greater demon ash lord": {
 				"11836": [{
-					"Access members content": "Nonskill"
+					"Members only": "Nonskill"
 				}],
 				"13371": [{
-					"Access members content": "Nonskill"
+					"Members only": "Nonskill"
 				}],
 				"13372": [{
-					"Access members content": "Nonskill"
+					"Members only": "Nonskill"
 				}]
 			},
 			"Greater demon berserker": {
 				"11836": [{
-					"Access members content": "Nonskill"
+					"Members only": "Nonskill"
 				}]
 			},
 			"Gregorovic (Hard Mode)": {
@@ -261996,7 +262776,7 @@
 			},
 			"Ice giant": {
 				"11318": [{
-					"Access members content": "Nonskill"
+					"Members only": "Nonskill"
 				}]
 			},
 			"Ice spider": {
@@ -262006,7 +262786,7 @@
 			},
 			"Ice warrior": {
 				"11318": [{
-					"Access members content": "Nonskill"
+					"Members only": "Nonskill"
 				}]
 			},
 			"Jail guard": {
@@ -262028,7 +262808,7 @@
 			},
 			"Kal'gerion demon": {
 				"13116": [{
-					"Access members content": "Nonskill"
+					"Members only": "Nonskill"
 				}]
 			},
 			"Kalphite King": {
@@ -262122,17 +262902,17 @@
 			},
 			"Rogue": {
 				"13117": [{
-					"Access members content": "Nonskill"
+					"Members only": "Nonskill"
 				}]
 			},
 			"Rogue Captain": {
 				"13117": [{
-					"Access members content": "Nonskill"
+					"Members only": "Nonskill"
 				}]
 			},
 			"Rogue Enforcer": {
 				"13117": [{
-					"Access members content": "Nonskill"
+					"Members only": "Nonskill"
 				}]
 			},
 			"Scorpion": {
@@ -262518,6 +263298,21 @@
 				"Zolarea": [{
 					"~|Stellar Born|~ Complete the quest": "Quest"
 				}]
+			},
+			"Fishing spot (cage, harpoon)": {
+				"11317": [{
+					"Members only": "Nonskill"
+				}]
+			},
+			"Fishing spot (small fishing net, bait)": {
+				"11317": [{
+					"Members only": "Nonskill"
+				}]
+			},
+			"Fruit tree patch": {
+				"11317": [{
+					"Members only": "Nonskill"
+				}]
 			}
 		},
 		"Shops": {
@@ -262632,7 +263427,7 @@
 			},
 			"Mage Arena Staves": {
 				"10057": [{
-					"Access members content": "Nonskill"
+					"Members only": "Nonskill"
 				}]
 			},
 			"Marvellous Mysticism": {
@@ -262687,7 +263482,7 @@
 			},
 			"Slayer Equipment": {
 				"12342": [{
-					"Access members content": "Nonskill"
+					"Members only": "Nonskill"
 				}],
 				"13358": [{
 					"~|Ichtlarin's Little Helper|~ Complete the quest": "Quest"
@@ -262697,7 +263492,7 @@
 			},
 			"Slayer Equipment (Burthorpe)": {
 				"11575": [{
-					"Access members content": "Nonskill"
+					"Members only": "Nonskill"
 				}]
 			},
 			"Stealing Creation Reward Shop": {
@@ -262707,7 +263502,7 @@
 			},
 			"Trader Stan's Trading Post": {
 				"12081": [{
-					"Access members content": "Nonskill"
+					"Members only": "Nonskill"
 				}]
 			},
 			"Valaine's Shop of Champions": {
@@ -262742,12 +263537,12 @@
 			},
 			"Wizard Finix's Runecrafting Shop": {
 				"12337": [{
-					"Access members content": "Nonskill"
+					"Members only": "Nonskill"
 				}]
 			},
 			"Wizard Korvak's Pouch Shop": {
 				"Runecrafting Guild": [{
-					"Access members content": "Nonskill"
+					"Members only": "Nonskill"
 				}]
 			},
 			"Summoning Supplies (Wishing well)": {
@@ -262757,7 +263552,7 @@
 			},
 			"Wizard Rinsit's Runecrafting Shop": {
 				"12337": [{
-					"Access members content": "Nonskill"
+					"Members only": "Nonskill"
 				}]
 			},
 			"Hunter Mark Shop": {
@@ -262773,6 +263568,11 @@
 			"Sidekix's Shop of Balance": {
 				"13107": [{
 					"Timegated content enabled": "Nonskill"
+				}]
+			},
+			"Farming supplies": {
+				"11317": [{
+					"Members only": "Nonskill"
 				}]
 			},
 			"Farmers' Market": {
@@ -262794,6 +263594,16 @@
 			"Urist's Crafting Supplies": {
 				"12853": [{
 					"~|From Tiny Acorns (miniquest)|~ Complete the miniquest": "Quest"
+				}]
+			},
+			"Harry's Fishing Shop": {
+				"11317": [{
+					"Members only": "Nonskill"
+				}]
+			},
+			"Hickton's Archery Emporium": {
+				"11317": [{
+					"Members only": "Nonskill"
 				}]
 			}
 		},
@@ -264435,7 +265245,8 @@
 			"Farm deeds (+titles)": true,
 			"Status icons": true,
 			"Harvest potion": true,
-			"Anachronia Dinosaur Farm teleport": true
+			"Anachronia Dinosaur Farm teleport": true,
+			"Farmhands": true
 		},
 		"Farmers' Market (Anachronia)": {
 			"Small dinosaur pen deed": true,
