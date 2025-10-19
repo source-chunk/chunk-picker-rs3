@@ -16829,6 +16829,9 @@
 				"Category": ["Token"],
 				"Items": ["Cracked cooking urn (no rune)*", "Fire rune*"],
 				"Level": 1,
+				"Skills": {
+					"Crafting": 1
+				},
 				"Output": "Cracked cooking urn",
 				"Primary": true,
 				"Priority": 64
@@ -16837,6 +16840,9 @@
 				"Category": ["Token"],
 				"Items": ["Fragile cooking urn (no rune)*", "Fire rune*"],
 				"Level": 1,
+				"Skills": {
+					"Crafting": 12
+				},
 				"Output": "Fragile cooking urn",
 				"Primary": true,
 				"Priority": 65
@@ -16845,6 +16851,9 @@
 				"Category": ["Token"],
 				"Items": ["Plain cooking urn (no rune)*", "Fire rune*"],
 				"Level": 1,
+				"Skills": {
+					"Crafting": 36
+				},
 				"Output": "Plain cooking urn",
 				"Primary": true,
 				"Priority": 66
@@ -16853,6 +16862,9 @@
 				"Category": ["Token"],
 				"Items": ["Strong cooking urn (no rune)*", "Fire rune*"],
 				"Level": 1,
+				"Skills": {
+					"Crafting": 51
+				},
 				"Output": "Strong cooking urn",
 				"Primary": true,
 				"Priority": 67,
@@ -16862,6 +16874,9 @@
 				"Category": ["Token"],
 				"Items": ["Decorated cooking urn (no rune)*", "Fire rune*"],
 				"Level": 1,
+				"Skills": {
+					"Crafting": 81
+				},
 				"Output": "Decorated cooking urn",
 				"Primary": true,
 				"Priority": 68,
@@ -16871,6 +16886,9 @@
 				"Category": ["Token"],
 				"Items": ["Exquisite cooking urn (no rune)*", "Fire rune*"],
 				"Level": 1,
+				"Skills": {
+					"Crafting": 103
+				},
 				"Output": "Exquisite cooking urn",
 				"Primary": true,
 				"Priority": 69,
@@ -20102,16 +20120,26 @@
 			},
 			"Fire a ~|cracked mining urn (no rune)|~": {
 				"Items": ["Cracked mining urn (unfired)*"],
-				"Level": 2,
+				"Level": 1,
 				"Output": "Cracked mining urn (no rune)",
 				"Objects": ["Pottery oven"],
 				"Primary": true,
 				"Priority": 2,
 				"Partial": true
 			},
+			"Complete a ~|cracked mining urn|~": {
+				"Items": ["Cracked mining urn (no rune)*", "Earth rune*"],
+				"Level": 1,
+				"Skills": {
+					"Mining": 1
+				},
+				"Output": "Cracked mining urn",
+				"Primary": true,
+				"Priority": 2
+			},
 			"Craft a ~|cracked cooking urn (unfired)|~": {
 				"Items": ["Soft clay*"],
-				"Level": 2,
+				"Level": 1,
 				"Output": "Cracked cooking urn (unfired)",
 				"Objects": ["Potter's wheel"],
 				"Primary": true,
@@ -20120,48 +20148,78 @@
 			},
 			"Fire a ~|cracked cooking urn (no rune)|~": {
 				"Items": ["Cracked cooking urn (unfired)*"],
-				"Level": 2,
+				"Level": 1,
 				"Output": "Cracked cooking urn (no rune)",
 				"Objects": ["Pottery oven"],
 				"Primary": true,
 				"Priority": 4,
 				"Partial": true
 			},
+			"Complete a ~|cracked cooking urn|~": {
+				"Items": ["Cracked cooking urn (no rune)*", "Fire rune*"],
+				"Level": 1,
+				"Skills": {
+					"Cooking": 1
+				},
+				"Output": "Cracked cooking urn",
+				"Primary": true,
+				"Priority": 5
+			},
 			"Craft a ~|cracked fishing urn (unfired)|~": {
 				"Items": ["Soft clay*"],
-				"Level": 2,
+				"Level": 1,
 				"Output": "Cracked fishing urn (unfired)",
 				"Objects": ["Potter's wheel"],
-				"Primary": true,
-				"Priority": 5,
-				"Partial": true
-			},
-			"Fire a ~|cracked fishing urn (no rune)|~": {
-				"Items": ["Cracked fishing urn (unfired)*"],
-				"Level": 2,
-				"Output": "Cracked fishing urn (no rune)",
-				"Objects": ["Pottery oven"],
 				"Primary": true,
 				"Priority": 6,
 				"Partial": true
 			},
-			"Craft a ~|impious urn (unfired)|~": {
-				"Items": ["Soft clay*"],
-				"Level": 2,
-				"Output": "Impious urn (unfired)",
-				"Objects": ["Potter's wheel"],
+			"Fire a ~|cracked fishing urn (no rune)|~": {
+				"Items": ["Cracked fishing urn (unfired)*"],
+				"Level": 1,
+				"Output": "Cracked fishing urn (no rune)",
+				"Objects": ["Pottery oven"],
 				"Primary": true,
 				"Priority": 7,
 				"Partial": true
 			},
-			"Fire a ~|impious urn (no rune)|~": {
+			"Complete a ~|cracked fishing urn|~": {
+				"Items": ["Cracked fishing urn (no rune)*", "Water rune*"],
+				"Level": 1,
+				"Skills": {
+					"Fishing": 1
+				},
+				"Output": "Cracked fishing urn",
+				"Primary": true,
+				"Priority": 8
+			},
+			"Craft an ~|impious urn (unfired)|~": {
+				"Items": ["Soft clay*"],
+				"Level": 1,
+				"Output": "Impious urn (unfired)",
+				"Objects": ["Potter's wheel"],
+				"Primary": true,
+				"Priority": 9,
+				"Partial": true
+			},
+			"Fire an ~|impious urn (no rune)|~": {
 				"Items": ["Impious urn (unfired)*"],
-				"Level": 2,
+				"Level": 1,
 				"Output": "Impious urn (no rune)",
 				"Objects": ["Pottery oven"],
 				"Primary": true,
-				"Priority": 8,
+				"Priority": 10,
 				"Partial": true
+			},
+			"Complete an ~|impious urn|~": {
+				"Items": ["Impious urn (no rune)*", "Air rune*"],
+				"Level": 1,
+				"Skills": {
+					"Prayer": 1
+				},
+				"Output": "Impious urn",
+				"Primary": true,
+				"Priority": 11
 			},
 			"Craft a ~|cracked divination urn (unfired)|~": {
 				"Items": ["Soft clay*"],
@@ -20183,6 +20241,16 @@
 				"Not F2P": true,
 				"Partial": true
 			},
+			"Complete a ~|cracked divination urn|~": {
+				"Items": ["Cracked divination urn (no rune)*", "Mind rune*"],
+				"Level": 3,
+				"Skills": {
+					"Divination": 1
+				},
+				"Output": "Cracked divination urn",
+				"Primary": true,
+				"Priority": 2
+			},
 			"Craft a ~|cracked hunter urn (unfired)|~": {
 				"Items": ["Soft clay*"],
 				"Level": 3,
@@ -20200,6 +20268,16 @@
 				"Primary": true,
 				"Priority": 4,
 				"Partial": true
+			},
+			"Complete a ~|cracked hunter urn|~": {
+				"Items": ["Cracked hunter urn (no rune)*", "Mud rune*"],
+				"Level": 3,
+				"Skills": {
+					"Hunter": 1
+				},
+				"Output": "Cracked hunter urn",
+				"Primary": true,
+				"Priority": 2
 			},
 			"Polish some ~|buttons|~": {
 				"Items": ["Buttons*"],
@@ -20240,8 +20318,17 @@
 				"Output": "Cracked runecrafting urn (no rune)",
 				"Objects": ["Pottery oven"],
 				"Primary": true,
-				"Priority": 4,
-				"Partial": true
+				"Priority": 4
+			},
+			"Complete a ~|cracked runecrafting urn|~": {
+				"Items": ["Cracked runecrafting urn (no rune)*", "Pure essence*"],
+				"Level": 4,
+				"Skills": {
+					"Runecrafting": 1
+				},
+				"Output": "Cracked runecrafting urn",
+				"Primary": true,
+				"Priority": 2
 			},
 			"Craft a ~|cracked smithing urn (unfired)|~": {
 				"Items": ["Soft clay*"],
@@ -20261,6 +20348,16 @@
 				"Priority": 6,
 				"Partial": true
 			},
+			"Complete a ~|cracked smithing urn|~": {
+				"Items": ["Cracked smithing urn (no rune)*", "Fire rune*"],
+				"Level": 4,
+				"Skills": {
+					"Smithing": 1
+				},
+				"Output": "Cracked smithing urn",
+				"Primary": true,
+				"Priority": 2
+			},
 			"Craft a ~|cracked woodcutting urn (unfired)|~": {
 				"Items": ["Soft clay*"],
 				"Level": 4,
@@ -20278,6 +20375,16 @@
 				"Primary": true,
 				"Priority": 8,
 				"Partial": true
+			},
+			"Complete a ~|cracked woodcutting urn|~": {
+				"Items": ["Cracked woodcutting urn (no rune)*", "Earth rune*"],
+				"Level": 2,
+				"Skills": {
+					"Woodcutting": 1
+				},
+				"Output": "Cracked woodcutting urn",
+				"Primary": true,
+				"Priority": 2
 			},
 			"Blow a ~|candle latern|~": {
 				"Items": ["Molten glass*"],
@@ -20306,6 +20413,16 @@
 				"Priority": 2,
 				"Not F2P": true,
 				"Partial": true
+			},
+			"Complete a ~|cracked farming urn|~": {
+				"Items": ["Cracked farming urn (no rune)*", "Nature rune*"],
+				"Level": 5,
+				"Skills": {
+					"Farming": 1
+				},
+				"Output": "Cracked farming urn",
+				"Primary": true,
+				"Priority": 2
 			},
 			"Craft a ~|gold ring|~": {
 				"Items": ["Gold bar*"],
@@ -20530,6 +20647,16 @@
 				"Priority": 3,
 				"Partial": true
 			},
+			"Complete a ~|fragile cooking urn|~": {
+				"Items": ["Fragile cooking urn (no rune)*", "Fire rune*"],
+				"Level": 12,
+				"Skills": {
+					"Cooking": 1
+				},
+				"Output": "Fragile cooking urn",
+				"Primary": true,
+				"Priority": 3
+			},
 			"Blow an ~|oil lamp|~": {
 				"Items": ["Molten glass*"],
 				"Level": 12,
@@ -20703,6 +20830,16 @@
 				"Priority": 13,
 				"Partial": true
 			},
+			"Complete a ~|fragile fishing urn|~": {
+				"Items": ["Fragile fishing urn (no rune)*", "Water rune*"],
+				"Level": 15,
+				"Skills": {
+					"Fishing": 1
+				},
+				"Output": "Fragile fishing urn",
+				"Primary": true,
+				"Priority": 14
+			},
 			"Craft a ~|fragile woodcutting urn (unfired)|~": {
 				"Items": ["Soft clay*"],
 				"Level": 15,
@@ -20720,6 +20857,16 @@
 				"Primary": true,
 				"Priority": 15,
 				"Partial": true
+			},
+			"Complete a ~|fragile woodcutting urn|~": {
+				"Items": ["Fragile woodcutting urn (no rune)*", "Earth rune*"],
+				"Level": 15,
+				"Skills": {
+					"Woodcutting": 1
+				},
+				"Output": "Fragile woodcutting urn",
+				"Primary": true,
+				"Priority": 15
 			},
 			"Craft a ~|crab helmet|~": {
 				"Items": ["Fresh crab shell*"],
@@ -20833,6 +20980,16 @@
 				"Not F2P": true,
 				"Partial": true
 			},
+			"Complete a ~|fragile divination urn|~": {
+				"Items": ["Fragile divination urn (no rune)*", "Mind rune*"],
+				"Level": 16,
+				"Skills": {
+					"Divination": 1
+				},
+				"Output": "Fragile divination urn",
+				"Primary": true,
+				"Priority": 4
+			},
 			"Craft an ~|unstrung symbol|~": {
 				"Items": ["Silver bar*", "Holy mould*"],
 				"Level": 16,
@@ -20908,6 +21065,16 @@
 				"Not F2P": true,
 				"Partial": true
 			},
+			"Complete a ~|fragile hunter urn|~": {
+				"Items": ["Fragile hunter urn (no rune)*", "Mud rune*"],
+				"Level": 17,
+				"Skills": {
+					"Hunter": 1
+				},
+				"Output": "Fragile hunter urn",
+				"Primary": true,
+				"Priority": 4
+			},
 			"Craft a ~|fragile mining urn (unfired)|~": {
 				"Items": ["Soft clay*"],
 				"Level": 17,
@@ -20926,6 +21093,16 @@
 				"Priority": 5,
 				"Partial": true
 			},
+			"Complete a ~|fragile mining urn|~": {
+				"Items": ["Fragile mining urn (no rune)*", "Earth rune*"],
+				"Level": 17,
+				"Skills": {
+					"Mining": 1
+				},
+				"Output": "Fragile mining urn",
+				"Primary": true,
+				"Priority": 6
+			},
 			"Craft a ~|fragile smithing urn (unfired)|~": {
 				"Items": ["Soft clay*"],
 				"Level": 17,
@@ -20943,6 +21120,16 @@
 				"Primary": true,
 				"Priority": 7,
 				"Partial": true
+			},
+			"Complete a ~|fragile smithing urn|~": {
+				"Items": ["Fragile smithing urn (no rune)*", "Fire rune*"],
+				"Level": 17,
+				"Skills": {
+					"Smithing": 1
+				},
+				"Output": "Fragile smithing urn",
+				"Primary": true,
+				"Priority": 8
 			},
 			"Craft an ~|unstrung emblem|~": {
 				"Items": ["Silver bar*", "Unholy mould*"],
@@ -20982,6 +21169,16 @@
 				"Not F2P": true,
 				"Partial": true
 			},
+			"Complete a ~|fragile farming urn|~": {
+				"Items": ["Fragile farming urn (no rune)*", "Nature rune*"],
+				"Level": 18,
+				"Skills": {
+					"Farming": 1
+				},
+				"Output": "Fragile farming urn",
+				"Primary": true,
+				"Priority": 3
+			},
 			"Craft a ~|fragile runecrafting urn (unfired)|~": {
 				"Items": ["Soft clay*"],
 				"Level": 18,
@@ -20999,6 +21196,16 @@
 				"Primary": true,
 				"Priority": 4,
 				"Partial": true
+			},
+			"Complete a ~|fragile runecrafting urn|~": {
+				"Items": ["Fragile runecrafting urn (no rune)*", "Pure essence*"],
+				"Level": 18,
+				"Skills": {
+					"Runecrafting": 1
+				},
+				"Output": "Fragile runecrafting urn",
+				"Primary": true,
+				"Priority": 5
 			},
 			"Craft a ~|silver sickle|~": {
 				"Items": ["Silver bar*", "Sickle mould*"],
@@ -21405,6 +21612,16 @@
 				"Priority": 4,
 				"Partial": true
 			},
+			"Complete an ~|accursed urn|~": {
+				"Items": ["Accursed urn (no rune)*", "Air rune*"],
+				"Level": 26,
+				"Skills": {
+					"Prayer": 1
+				},
+				"Output": "Accursed urn",
+				"Primary": true,
+				"Priority": 5
+			},
 			"Craft an ~|oil lantern (empty)|~": {
 				"Items": ["Oil lantern frame*", "Oil lamp (empty)"],
 				"Level": 26,
@@ -21632,6 +21849,16 @@
 				"Priority": 9,
 				"Partial": true
 			},
+			"Complete a ~|plain cooking urn|~": {
+				"Items": ["Plain cooking urn (no rune)*", "Earth rune*"],
+				"Level": 32,
+				"Skills": {
+					"Mining": 1
+				},
+				"Output": "Plain cooking urn",
+				"Primary": true,
+				"Priority": 10
+			},
 			"Craft a ~|topaz necklace|~": {
 				"Items": ["Red topaz*", "Silver bar*"],
 				"Level": 32,
@@ -21672,6 +21899,16 @@
 				"Primary": true,
 				"Priority": 4,
 				"Partial": true
+			},
+			"Complete a ~|plain runecrafting urn|~": {
+				"Items": ["Plain runecrafting urn (no rune)*", "Pure essence*"],
+				"Level": 33,
+				"Skills": {
+					"Runecrafting": 1
+				},
+				"Output": "Plain runecrafting urn",
+				"Primary": true,
+				"Priority": 5
 			},
 			"Blow a ~|vial|~": {
 				"Items": ["Molten glass*"],
@@ -21716,6 +21953,16 @@
 				"Priority": 3,
 				"Not F2P": true,
 				"Partial": true
+			},
+			"Complete a ~|plain hunter urn|~": {
+				"Items": ["Plain hunter urn (no rune)*", "Mud rune*"],
+				"Level": 34,
+				"Skills": {
+					"Hunter": 1
+				},
+				"Output": "Plain hunter urn",
+				"Primary": true,
+				"Priority": 4
 			},
 			"Cut a ~|ruby|~": {
 				"Items": ["Uncut ruby*"],
@@ -21781,6 +22028,16 @@
 				"Primary": true,
 				"Priority": 4,
 				"Partial": true
+			},
+			"Complete a ~|plain smithing urn|~": {
+				"Items": ["Plain smithing urn (no rune)*", "Fire rune*"],
+				"Level": 35,
+				"Skills": {
+					"Smithing": 1
+				},
+				"Output": "Plain smithing urn",
+				"Primary": true,
+				"Priority": 5
 			},
 			"Craft a ~|broodoo shield (blue)|~": {
 				"Items": ["Tribal mask (blue)*", "Snakeskin*", "Nails[+]*"],
@@ -21907,6 +22164,16 @@
 				"Priority": 5,
 				"Partial": true
 			},
+			"Complete a ~|plain cooking urn|~": {
+				"Items": ["Plain cooking urn (no rune)*", "Fire rune*"],
+				"Level": 36,
+				"Skills": {
+					"Cooking": 1
+				},
+				"Output": "Plain cooking urn",
+				"Primary": true,
+				"Priority": 6
+			},
 			"Craft a ~|batwing wand|~": {
 				"Items": ["Batwing*", "Thread*", "Logs*"],
 				"Level": 37,
@@ -21969,6 +22236,16 @@
 				"Priority": 4,
 				"Not F2P": true,
 				"Partial": true
+			},
+			"Complete a ~|plain divination urn|~": {
+				"Items": ["Plain divination urn (no rune)*", "Mind rune*"],
+				"Level": 38,
+				"Skills": {
+					"Divination": 1
+				},
+				"Output": "Plain divination urn",
+				"Primary": true,
+				"Priority": 2
 			},
 			"Craft a ~|topaz bracelet|~": {
 				"Items": ["Red topaz*", "Silver bar*"],
@@ -22049,6 +22326,16 @@
 				"Not F2P": true,
 				"Partial": true
 			},
+			"Complete a ~|plain farming urn|~": {
+				"Items": ["Plain farming urn (no rune)*", "Nature rune*"],
+				"Level": 40,
+				"Skills": {
+					"Farming": 1
+				},
+				"Output": "Plain farming urn",
+				"Primary": true,
+				"Priority": 9
+			},
 			"Craft a ~|ruby necklace|~": {
 				"Chunks": ["Ruby*", "Gold bar*"],
 				"Level": 40,
@@ -22116,6 +22403,16 @@
 				"Primary": true,
 				"Priority": 3,
 				"Partial": true
+			},
+			"Complete a ~|plain fishing urn|~": {
+				"Items": ["Plain fishing urn (no rune)*", "Water rune*"],
+				"Level": 41,
+				"Skills": {
+					"Fishing": 1
+				},
+				"Output": "Plain fishing urn",
+				"Primary": true,
+				"Priority": 4
 			},
 			"Craft ~|studded leather gloves|~": {
 				"Items": ["Leather gloves*", "Steel studs*"],
@@ -22226,6 +22523,16 @@
 				"Primary": true,
 				"Priority": 3,
 				"Partial": true
+			},
+			"Complete a ~|plain woodcutting urn|~": {
+				"Items": ["Plain woodcutting urn (no rune)*", "Earth rune*"],
+				"Level": 44,
+				"Skills": {
+					"Woodcutting": 1
+				},
+				"Output": "Plain woodcutting urn",
+				"Primary": true,
+				"Priority": 4
 			},
 			"Upgrade the ~|spirit pig machine|~ to (tier 2)": {
 				"Items": ["Oak plank", "Steel bar", "Nails[+]"],
@@ -22419,6 +22726,16 @@
 				"Priority": 3,
 				"Partial": true
 			},
+			"Complete a ~|strong mining urn|~": {
+				"Items": ["Strong mining urn (no rune)*", "Earth rune*"],
+				"Level": 48,
+				"Skills": {
+					"Mining": 1
+				},
+				"Output": "Strong mining urn",
+				"Primary": true,
+				"Priority": 4
+			},
 			"Decorate a ~|heraldic banner|~": {
 				"Objects": ["Banner easel"],
 				"Items": ["Plank*", "Bolt of cloth*"],
@@ -22444,6 +22761,16 @@
 				"Primary": true,
 				"Priority": 2,
 				"Partial": true
+			},
+			"Complete a ~|strong smithing urn|~": {
+				"Items": ["Strong smithing urn (no rune)*", "Fire rune*"],
+				"Level": 49,
+				"Skills": {
+					"Smithing": 1
+				},
+				"Output": "Strong smithing urn",
+				"Primary": true,
+				"Priority": 3
 			},
 			"Blow a ~|lantern lens|~": {
 				"Items": ["Molten glass*"],
@@ -22562,6 +22889,16 @@
 				"Not F2P": true,
 				"Partial": true
 			},
+			"Complete a ~|strong cooking urn|~": {
+				"Items": ["Strong cooking urn (no rune)*", "Fire rune*"],
+				"Level": 51,
+				"Skills": {
+					"Cooking": 1
+				},
+				"Output": "Strong cooking urn",
+				"Primary": true,
+				"Priority": 5
+			},
 			"Craft a ~|strong runecrafting urn (unfired)|~": {
 				"Items": ["Soft clay*"],
 				"Level": 52,
@@ -22581,6 +22918,16 @@
 				"Priority": 2,
 				"Not F2P": true,
 				"Partial": true
+			},
+			"Complete a ~|strong runecrafting urn|~": {
+				"Items": ["Strong runecrafting urn (no rune)*", "Pure essence*"],
+				"Level": 52,
+				"Skills": {
+					"Runecrafting": 1
+				},
+				"Output": "Strong runecrafting urn",
+				"Primary": true,
+				"Priority": 4
 			},
 			"Create an arctic pine ~|pyre ship|~": {
 				"Items": ["Arctic pine logs*", "Mangled bones*"],
@@ -22644,6 +22991,16 @@
 				"Priority": 4,
 				"Not F2P": true,
 				"Partial": true
+			},
+			"Complete a ~|strong fishing urn|~": {
+				"Items": ["Strong fishing urn (no rune)*", "Water rune*"],
+				"Level": 53,
+				"Skills": {
+					"Fishing": 1
+				},
+				"Output": "Strong fishing urn",
+				"Primary": true,
+				"Priority": 6
 			},
 			"Craft a ~|mystic robe bottom|~": {
 				"Items": ["Mystic cloth*", "Thread*"],
@@ -22823,6 +23180,16 @@
 				"Not F2P": true,
 				"Partial": true
 			},
+			"Complete a ~|strong hunter urn|~": {
+				"Items": ["Strong hunter urn (no rune)*", "Earth rune*"],
+				"Level": 55,
+				"Skills": {
+					"Hunter": 1
+				},
+				"Output": "Strong hunter urn",
+				"Primary": true,
+				"Priority": 17
+			},
 			"Create a maple ~|pyre ship|~": {
 				"Items": ["Maple logs*", "Mangled bones*"],
 				"Level": 55,
@@ -22941,6 +23308,16 @@
 				"Not F2P": true,
 				"Partial": true
 			},
+			"Complete a ~|strong divination urn|~": {
+				"Items": ["Strong divination urn (no rune)*", "Mind rune*"],
+				"Level": 56,
+				"Skills": {
+					"Divination": 1
+				},
+				"Output": "Strong divination urn",
+				"Primary": true,
+				"Priority": 5
+			},
 			"Craft a ~|diamond necklace|~": {
 				"Items": ["Diamond*", "Gold bar*"],
 				"Level": 56,
@@ -22996,6 +23373,16 @@
 				"Priority": 3,
 				"Not F2P": true,
 				"Partial": true
+			},
+			"Complete a ~|strong farming urn|~": {
+				"Items": ["Strong farming urn (no rune)*", "Nature rune*"],
+				"Level": 58,
+				"Skills": {
+					"Farming": 1
+				},
+				"Output": "Strong farming urn",
+				"Primary": true,
+				"Priority": 4
 			},
 			"Craft an ~|earth battlestaff|~": {
 				"Items": ["Battlestaff*", "Earth orb*"],
@@ -23240,6 +23627,16 @@
 				"Not F2P": true,
 				"Partial": true
 			},
+			"Complete a ~|strong woodcutting urn|~": {
+				"Items": ["Strong woodcutting urn (no rune)*", "Earth rune*"],
+				"Level": 61,
+				"Skills": {
+					"Woddcutting": 1
+				},
+				"Output": "Strong woodcutting urn",
+				"Primary": true,
+				"Priority": 4
+			},
 			"Craft an ~|infernal urn (unfired)|~": {
 				"Items": ["Soft clay*"],
 				"Level": 62,
@@ -23259,6 +23656,16 @@
 				"Priority": 2,
 				"Not F2P": true,
 				"Partial": true
+			},
+			"Complete an ~|infernal urn|~": {
+				"Items": ["Infernal urn (no rune)*", "Air rune*"],
+				"Level": 62,
+				"Skills": {
+					"Prayer": 1
+				},
+				"Output": "Infernal urn",
+				"Primary": true,
+				"Priority": 3
 			},
 			"Craft a ~|fire battlestaff|~": {
 				"Items": ["Battlestaff*", "Fire orb*"],
@@ -23829,6 +24236,16 @@
 				"Not F2P": true,
 				"Partial": true
 			},
+			"Complete a ~|decorated fishing urn|~": {
+				"Items": ["Decorated fishing urn (no rune)*", "Water rune*"],
+				"Level": 76,
+				"Skills": {
+					"Fishing": 1
+				},
+				"Output": "Decorated fishing urn",
+				"Primary": true,
+				"Priority": 3
+			},
 			"Craft a ~|decorated woodcutting urn (unfired)|~": {
 				"Items": ["Soft clay*"],
 				"Level": 76,
@@ -23849,6 +24266,16 @@
 				"Not F2P": true,
 				"Partial": true
 			},
+			"Complete a ~|decorated woddcutting urn|~": {
+				"Items": ["Decorated woddcutting urn (no rune)*", "Earth rune*"],
+				"Level": 76,
+				"Skills": {
+					"Woodcutting": 1
+				},
+				"Output": "Decorated woddcutting urn",
+				"Primary": true,
+				"Priority": 5
+			},
 			"Craft a ~|decorated runecrafting urn (unfired)|~": {
 				"Items": ["Soft clay*"],
 				"Level": 77,
@@ -23868,6 +24295,16 @@
 				"Priority": 2,
 				"Not F2P": true,
 				"Partial": true
+			},
+			"Complete a ~|decorated runecrafting urn|~": {
+				"Items": ["Decorated runecrafting urn (no rune)*", "Pure essence*"],
+				"Level": 77,
+				"Skills": {
+					"Runecrafting": 1
+				},
+				"Output": "Decorated runecrafting urn",
+				"Primary": true,
+				"Priority": 4
 			},
 			"Craft a ~|moonstone necklace|~": {
 				"Items": ["Moonstone*", "Ensouled bar"],
@@ -23915,6 +24352,16 @@
 				"Priority": 2,
 				"Not F2P": true,
 				"Partial": true
+			},
+			"Complete a ~|decorated mining urn|~": {
+				"Items": ["Decorated mining urn (no rune)*", "Earth rune*"],
+				"Level": 78,
+				"Skills": {
+					"Mining": 1
+				},
+				"Output": "Decorated mining urn",
+				"Primary": true,
+				"Priority": 3
 			},
 			"Craft a ~|feather headdress (blue)|~": {
 				"Items": ["Studded leather coif*", "Blue feather*"],
@@ -23976,6 +24423,16 @@
 				"Not F2P": true,
 				"Partial": true
 			},
+			"Complete a ~|decorated hunter urn|~": {
+				"Items": ["Decorated hunter urn (no rune)*", "Mud rune*"],
+				"Level": 79,
+				"Skills": {
+					"Hunter": 1
+				},
+				"Output": "Decorated hunter urn",
+				"Primary": true,
+				"Priority": 8
+			},
 			"Cut a ~|hydrix|~": {
 				"Items": ["Uncut hydrix*"],
 				"Level": 79,
@@ -24023,6 +24480,16 @@
 				"Priority": 2,
 				"Not F2P": true,
 				"Partial": true
+			},
+			"Complete a ~|decorated smithing urn|~": {
+				"Items": ["Decorated smithing urn (no rune)*", "Fire rune*"],
+				"Level": 80,
+				"Skills": {
+					"Smithing": 1
+				},
+				"Output": "Decorated smithing urn",
+				"Primary": true,
+				"Priority": 3
 			},
 			"Craft a ~|dragonstone amulet (unstrung)|~": {
 				"Items": ["Dragonstone*", "Gold bar*"],
@@ -24160,6 +24627,16 @@
 				"Not F2P": true,
 				"Partial": true
 			},
+			"Complete a ~|decorated cooking urn|~": {
+				"Items": ["Decorated cooking urn (no rune)*", "Fire rune*"],
+				"Level": 81,
+				"Skills": {
+					"Cooking": 1
+				},
+				"Output": "Decorated cooking urn",
+				"Primary": true,
+				"Priority": 3
+			},
 			"Craft a ~|decorated divination urn (unfired)|~": {
 				"Items": ["Soft clay*"],
 				"Level": 82,
@@ -24179,6 +24656,16 @@
 				"Priority": 2,
 				"Not F2P": true,
 				"Partial": true
+			},
+			"Complete a ~|decorated divination urn|~": {
+				"Items": ["Decorated divination urn (no rune)*", "Mind rune*"],
+				"Level": 82,
+				"Skills": {
+					"Divination": 1
+				},
+				"Output": "Decorated divination urn",
+				"Primary": true,
+				"Priority": 3
 			},
 			"Craft an ~|oynx necklace|~": {
 				"Items": ["Onyx*", "Gold bar*"],
@@ -24208,6 +24695,16 @@
 				"Priority": 2,
 				"Not F2P": true,
 				"Partial": true
+			},
+			"Complete a ~|decorated farming urn|~": {
+				"Items": ["Decorated farming urn (no rune)*", "Nature rune*"],
+				"Level": 84,
+				"Skills": {
+					"Farming": 1
+				},
+				"Output": "Decorated farming urn",
+				"Primary": true,
+				"Priority": 3
 			},
 			"Craft an ~|oynx bracelet|~": {
 				"Items": ["Onyx*", "Gold bar*"],
@@ -25494,6 +25991,16 @@
 				"Priority": 3,
 				"Partial": true
 			},
+			"Complete a ~|exquisite mining urn|~": {
+				"Items": ["Exquisite mining urn (no rune)*", "Earth rune*"],
+				"Level": 102,
+				"Skills": {
+					"Mining": 1
+				},
+				"Output": "Exquisite mining urn",
+				"Primary": true,
+				"Priority": 4
+			},
 			"Craft an ~|exquisite cooking urn (unfired)|~": {
 				"Items": ["Soft porcelain clay*"],
 				"Level": 103,
@@ -25519,6 +26026,16 @@
 				"Primary": true,
 				"Priority": 3,
 				"Partial": true
+			},
+			"Complete a ~|exquisite cooking urn|~": {
+				"Items": ["Exquisite cooking urn (no rune)*", "Fire rune*"],
+				"Level": 102,
+				"Skills": {
+					"Cooking": 1
+				},
+				"Output": "Exquisite cooking urn",
+				"Primary": true,
+				"Priority": 4
 			},
 			"Cast a ~|platinum ring|~": {
 				"Items": ["Dragonstone*", "Platinum bar*"],
@@ -25555,6 +26072,16 @@
 				"Priority": 4,
 				"Partial": true
 			},
+			"Complete a ~|exquisite fishing urn|~": {
+				"Items": ["Exquisite fishing urn (no rune)*", "Water rune*"],
+				"Level": 104,
+				"Skills": {
+					"Fishing": 1
+				},
+				"Output": "Exquisite fishing urn",
+				"Primary": true,
+				"Priority": 4
+			},
 			"Cast a ~|platinum necklace|~": {
 				"Items": ["Dragonstone*", "Platinum bar*"],
 				"Level": 105,
@@ -25589,6 +26116,16 @@
 				"Primary": true,
 				"Priority": 4,
 				"Partial": true
+			},
+			"Complete a ~|exquisite smithing urn|~": {
+				"Items": ["Exquisite smithing urn (no rune)*", "Fire rune*"],
+				"Level": 105,
+				"Skills": {
+					"Smithing": 1
+				},
+				"Output": "Exquisite smithing urn",
+				"Primary": true,
+				"Priority": 4
 			},
 			"Cast a ~|platinum bracelet|~": {
 				"Items": ["Dragonstone*", "Platinum bar*"],
@@ -25625,6 +26162,16 @@
 				"Priority": 4,
 				"Partial": true
 			},
+			"Complete a ~|exquisite woodcutting urn|~": {
+				"Items": ["Exquisite woodcutting urn (no rune)*", "Earth rune*"],
+				"Level": 106,
+				"Skills": {
+					"Woodcutting": 1
+				},
+				"Output": "Exquisite woodcutting urn",
+				"Primary": true,
+				"Priority": 5
+			},
 			"Craft an ~|exquisite runecrafting urn (unfired)|~": {
 				"Items": ["Soft porcelain clay*"],
 				"Level": 107,
@@ -25650,6 +26197,16 @@
 				"Primary": true,
 				"Priority": 3,
 				"Partial": true
+			},
+			"Complete a ~|exquisite runecrafting urn|~": {
+				"Items": ["Exquisite runecrafting urn (no rune)*", "Pure essence*"],
+				"Level": 107,
+				"Skills": {
+					"Runecrafting": 1
+				},
+				"Output": "Exquisite runecrafting urn",
+				"Primary": true,
+				"Priority": 4
 			},
 			"Cast a ~|platinum amulet (unstrung)|~": {
 				"Items": ["Dragonstone*", "Platinum bar*"],
@@ -25694,6 +26251,16 @@
 				"Priority": 5,
 				"Partial": true
 			},
+			"Complete a ~|exquisite divination urn|~": {
+				"Items": ["Exquisite divination urn (no rune)*", "Mind rune*"],
+				"Level": 108,
+				"Skills": {
+					"Divination": 1
+				},
+				"Output": "Exquisite divination urn",
+				"Primary": true,
+				"Priority": 4
+			},
 			"Cast a ~|platinum anklet|~": {
 				"Items": ["Dragonstone*", "Platinum bar*"],
 				"Level": 109,
@@ -25728,6 +26295,16 @@
 				"Primary": true,
 				"Priority": 4,
 				"Partial": true
+			},
+			"Complete a ~|exquisite hunter urn|~": {
+				"Items": ["Exquisite hunter urn (no rune)*", "Mud rune*"],
+				"Level": 109,
+				"Skills": {
+					"Hunter": 1
+				},
+				"Output": "Exquisite hunter urn",
+				"Primary": true,
+				"Priority": 5
 			},
 			"Weave ~|masterwork white cloth|~": {
 				"Items": ["Starbloom cloth*", "Croesus flakes*"],
@@ -25870,6 +26447,16 @@
 				"Primary": true,
 				"Priority": 13,
 				"Partial": true
+			},
+			"Complete a ~|exquisite farming urn|~": {
+				"Items": ["Exquisite farming urn (no rune)*", "Nature rune*"],
+				"Level": 110,
+				"Skills": {
+					"Farming": 1
+				},
+				"Output": "Exquisite farming urn",
+				"Primary": true,
+				"Priority": 14
 			},
 			"Buy the ~|Crafting master cape|~": {
 				"Category": ["Master skillcape"],
@@ -29188,6 +29775,9 @@
 				"Category": ["Token"],
 				"Items": ["Cracked divination urn (no rune)*", "Mind rune*"],
 				"Level": 1,
+				"Skills": {
+					"Crafting": 3
+				},
 				"Output": "Cracked divination urn",
 				"Primary": true,
 				"Priority": 6
@@ -29196,6 +29786,9 @@
 				"Category": ["Token"],
 				"Items": ["Fragile divination urn (no rune)*", "Mind rune*"],
 				"Level": 1,
+				"Skills": {
+					"Crafting": 16
+				},
 				"Output": "Fragile divination urn",
 				"Primary": true,
 				"Priority": 7
@@ -29204,6 +29797,9 @@
 				"Category": ["Token"],
 				"Items": ["Plain divination urn (no rune)*", "Mind rune*"],
 				"Level": 1,
+				"Skills": {
+					"Crafting": 38
+				},
 				"Output": "Plain divination urn",
 				"Primary": true,
 				"Priority": 8
@@ -29212,6 +29808,9 @@
 				"Category": ["Token"],
 				"Items": ["Strong divination urn (no rune)*", "Mind rune*"],
 				"Level": 1,
+				"Skills": {
+					"Crafting": 56
+				},
 				"Output": "Strong divination urn",
 				"Primary": true,
 				"Priority": 9
@@ -29220,6 +29819,9 @@
 				"Category": ["Token"],
 				"Items": ["Decorated divination urn (no rune)*", "Mind rune*"],
 				"Level": 1,
+				"Skills": {
+					"Crafting": 82
+				},
 				"Output": "Decorated divination urn",
 				"Primary": true,
 				"Priority": 10
@@ -29228,6 +29830,9 @@
 				"Category": ["Token"],
 				"Items": ["Exquisite divination urn (no rune)*", "Mind rune*"],
 				"Level": 1,
+				"Skills": {
+					"Crafting": 108
+				},
 				"Output": "Exquisite divination urn",
 				"Primary": true,
 				"Priority": 10
@@ -32599,6 +33204,9 @@
 				"Category": ["Token"],
 				"Items": ["Cracked farming urn (no rune)*", "Nature rune*"],
 				"Level": 1,
+				"Skills": {
+					"Crafting": 5
+				},
 				"Output": "Cracked farming urn",
 				"Primary": true,
 				"Priority": 55
@@ -32607,6 +33215,9 @@
 				"Category": ["Token"],
 				"Items": ["Fragile farming urn (no rune)*", "Nature rune*"],
 				"Level": 1,
+				"Skills": {
+					"Crafting": 18
+				},
 				"Output": "Fragile farming urn",
 				"Primary": true,
 				"Priority": 56
@@ -32615,6 +33226,9 @@
 				"Category": ["Token"],
 				"Items": ["Plain farming urn (no rune)*", "Nature rune*"],
 				"Level": 1,
+				"Skills": {
+					"Crafting": 40
+				},
 				"Output": "Plain farming urn",
 				"Primary": true,
 				"Priority": 57
@@ -32623,6 +33237,9 @@
 				"Category": ["Token"],
 				"Items": ["Strong farming urn (no rune)*", "Nature rune*"],
 				"Level": 1,
+				"Skills": {
+					"Crafting": 58
+				},
 				"Output": "Strong farming urn",
 				"Primary": true,
 				"Priority": 58
@@ -32631,6 +33248,9 @@
 				"Category": ["Token"],
 				"Items": ["Decorated farming urn (no rune)*", "Nature rune*"],
 				"Level": 1,
+				"Skills": {
+					"Crafting": 84
+				},
 				"Output": "Decorated farming urn",
 				"Primary": true,
 				"Priority": 59
@@ -32639,6 +33259,9 @@
 				"Category": ["Token"],
 				"Items": ["Exquisite farming urn (no rune)*", "Nature rune*"],
 				"Level": 1,
+				"Skills": {
+					"Crafting": 110
+				},
 				"Output": "Exquisite farming urn",
 				"Primary": true,
 				"Priority": 60
@@ -39043,6 +39666,9 @@
 				"Category": ["Token"],
 				"Items": ["Cracked fishing urn (no rune)*", "Water rune*"],
 				"Level": 1,
+				"Skills": {
+					"Crafting": 1
+				},
 				"Output": "Cracked fishing urn",
 				"Primary": true,
 				"Priority": 8
@@ -39051,6 +39677,9 @@
 				"Category": ["Token"],
 				"Items": ["Fragile fishing urn (no rune)*", "Water rune*"],
 				"Level": 1,
+				"Skills": {
+					"Crafting": 15
+				},
 				"Output": "Fragile fishing urn",
 				"Primary": true,
 				"Priority": 9
@@ -39059,6 +39688,9 @@
 				"Category": ["Token"],
 				"Items": ["Plain fishing urn (no rune)*", "Water rune*"],
 				"Level": 1,
+				"Skills": {
+					"Crafting": 41
+				},
 				"Output": "Plain fishing urn",
 				"Primary": true,
 				"Priority": 10
@@ -39067,6 +39699,9 @@
 				"Category": ["Token"],
 				"Items": ["Strong fishing urn (no rune)*", "Water rune*"],
 				"Level": 1,
+				"Skills": {
+					"Crafting": 53
+				},
 				"Output": "Strong fishing urn",
 				"Primary": true,
 				"Priority": 11
@@ -39075,6 +39710,9 @@
 				"Category": ["Token"],
 				"Items": ["Decorated fishing urn (no rune)*", "Water rune*"],
 				"Level": 1,
+				"Skills": {
+					"Crafting": 76
+				},
 				"Output": "Decorated fishing urn",
 				"Primary": true,
 				"Priority": 12
@@ -39083,6 +39721,9 @@
 				"Category": ["Token"],
 				"Items": ["Exquisite fishing urn (no rune)*", "Water rune*"],
 				"Level": 1,
+				"Skills": {
+					"Crafting": 104
+				},
 				"Output": "Exquisite fishing urn",
 				"Primary": true,
 				"Priority": 13
@@ -45554,6 +46195,9 @@
 				"Category": ["Token"],
 				"Items": ["Cracked hunter urn (no rune)*", "Mud rune*"],
 				"Level": 1,
+				"Skills": {
+					"Crafting": 3
+				},
 				"Output": "Cracked hunter urn",
 				"Primary": true,
 				"Priority": 10
@@ -45562,6 +46206,9 @@
 				"Category": ["Token"],
 				"Items": ["Fragile hunter urn (no rune)*", "Mud rune*"],
 				"Level": 1,
+				"Skills": {
+					"Crafting": 17
+				},
 				"Output": "Fragile hunter urn",
 				"Primary": true,
 				"Priority": 11,
@@ -45571,6 +46218,9 @@
 				"Category": ["Token"],
 				"Items": ["Plain hunter urn (no rune)*", "Mud rune*"],
 				"Level": 1,
+				"Skills": {
+					"Crafting": 34
+				},
 				"Output": "Plain hunter urn",
 				"Primary": true,
 				"Priority": 12,
@@ -45580,6 +46230,9 @@
 				"Category": ["Token"],
 				"Items": ["Strong hunter urn (no rune)*", "Mud rune*"],
 				"Level": 1,
+				"Skills": {
+					"Crafting": 55
+				},
 				"Output": "Strong hunter urn",
 				"Primary": true,
 				"Priority": 13,
@@ -45589,6 +46242,9 @@
 				"Category": ["Token"],
 				"Items": ["Decorated hunter urn (no rune)*", "Mud rune*"],
 				"Level": 1,
+				"Skills": {
+					"Crafting": 79
+				},
 				"Output": "Decorated hunter urn",
 				"Primary": true,
 				"Priority": 14,
@@ -45598,6 +46254,9 @@
 				"Category": ["Token"],
 				"Items": ["Exquisite hunter urn (no rune)*", "Mud rune*"],
 				"Level": 1,
+				"Skills": {
+					"Crafting": 109
+				},
 				"Output": "Exquisite hunter urn",
 				"Primary": true,
 				"Priority": 14,
@@ -54548,6 +55207,9 @@
 				"Category": ["Token"],
 				"Items": ["Cracked mining urn (no rune)*", "Earth rune*"],
 				"Level": 1,
+				"Skills": {
+					"Crafting": 1
+				},
 				"Output": "Cracked mining urn",
 				"Primary": true,
 				"Priority": 12
@@ -54556,6 +55218,9 @@
 				"Category": ["Token"],
 				"Items": ["Fragile mining urn (no rune)*", "Earth rune*"],
 				"Level": 1,
+				"Skills": {
+					"Crafting": 17
+				},
 				"Output": "Fragile mining urn",
 				"Primary": true,
 				"Priority": 13
@@ -54564,6 +55229,9 @@
 				"Category": ["Token"],
 				"Items": ["Plain mining urn (no rune)*", "Earth rune*"],
 				"Level": 1,
+				"Skills": {
+					"Crafting": 32
+				},
 				"Output": "Plain mining urn",
 				"Primary": true,
 				"Priority": 14
@@ -54572,6 +55240,9 @@
 				"Category": ["Token"],
 				"Items": ["Strong mining urn (no rune)*", "Earth rune*"],
 				"Level": 1,
+				"Skills": {
+					"Crafting": 48
+				},
 				"Output": "Strong mining urn",
 				"Primary": true,
 				"Priority": 15
@@ -54580,6 +55251,9 @@
 				"Category": ["Token"],
 				"Items": ["Decorated mining urn (no rune)*", "Earth rune*"],
 				"Level": 1,
+				"Skills": {
+					"Crafting": 78
+				},
 				"Output": "Decorated mining urn",
 				"Primary": true,
 				"Priority": 16
@@ -54588,6 +55262,9 @@
 				"Category": ["Token"],
 				"Items": ["Exquisite mining urn (no rune)*", "Earth rune*"],
 				"Level": 1,
+				"Skills": {
+					"Crafting": 102
+				},
 				"Output": "Exquisite mining urn",
 				"Primary": true,
 				"Priority": 17
@@ -57531,26 +58208,35 @@
 				"Primary": true,
 				"Priority": 53
 			},
-			"Complete a ~|impious urn|~": {
+			"Complete an ~|impious urn|~": {
 				"Category": ["Token"],
 				"Items": ["Impious urn (no rune)*", "Air rune*"],
 				"Level": 1,
+				"Skills": {
+					"Crafting": 1
+				},
 				"Output": "Impious urn",
 				"Primary": true,
 				"Priority": 54
 			},
-			"Complete a ~|accursed urn|~": {
+			"Complete an ~|accursed urn|~": {
 				"Category": ["Token"],
 				"Items": ["Accursed urn (no rune)*", "Air rune*"],
 				"Level": 1,
+				"Skills": {
+					"Crafting": 26
+				},
 				"Output": "Accursed urn",
 				"Primary": true,
 				"Priority": 55
 			},
-			"Complete a ~|infernal urn|~": {
+			"Complete an ~|infernal urn|~": {
 				"Category": ["Token"],
 				"Items": ["Infernal urn (no rune)*", "Air rune*"],
 				"Level": 1,
+				"Skills": {
+					"Crafting": 62
+				},
 				"Output": "Infernal urn",
 				"Primary": true,
 				"Priority": 56
@@ -62215,6 +62901,9 @@
 				"Category": ["Token"],
 				"Items": ["Cracked runecrafting urn (no rune)*", "Pure essence*"],
 				"Level": 1,
+				"Skills": {
+					"Crafting": 4
+				},
 				"Output": "Cracked runecrafting urn",
 				"Primary": true,
 				"Priority": 12
@@ -62223,6 +62912,9 @@
 				"Category": ["Token"],
 				"Items": ["Fragile runecrafting urn (no rune)*", "Pure essence*"],
 				"Level": 1,
+				"Skills": {
+					"Crafting": 18
+				},
 				"Output": "Fragile runecrafting urn",
 				"Primary": true,
 				"Priority": 13
@@ -62231,6 +62923,9 @@
 				"Category": ["Token"],
 				"Items": ["Plain runecrafting urn (no rune)*", "Pure essence*"],
 				"Level": 1,
+				"Skills": {
+					"Crafting": 33
+				},
 				"Output": "Plain runecrafting urn",
 				"Primary": true,
 				"Priority": 14
@@ -62239,6 +62934,9 @@
 				"Category": ["Token"],
 				"Items": ["Strong runecrafting urn (no rune)*", "Pure essence*"],
 				"Level": 1,
+				"Skills": {
+					"Crafting": 52
+				},
 				"Output": "Strong runecrafting urn",
 				"Primary": true,
 				"Priority": 15,
@@ -62248,6 +62946,9 @@
 				"Category": ["Token"],
 				"Items": ["Decorated runecrafting urn (no rune)*", "Pure essence*"],
 				"Level": 1,
+				"Skills": {
+					"Crafting": 77
+				},
 				"Output": "Decorated runecrafting urn",
 				"Primary": true,
 				"Priority": 16,
@@ -62257,6 +62958,9 @@
 				"Category": ["Token"],
 				"Items": ["Exquisite runecrafting urn (no rune)*", "Pure essence*"],
 				"Level": 1,
+				"Skills": {
+					"Crafting": 107
+				},
 				"Output": "Exquisite runecrafting urn",
 				"Primary": true,
 				"Priority": 16,
@@ -66071,6 +66775,9 @@
 				"Category": ["Token"],
 				"Items": ["Cracked smithing urn (no rune)*", "Fire rune*"],
 				"Level": 1,
+				"Skills": {
+					"Crafting": 4
+				},
 				"Output": "Cracked smithing urn",
 				"Primary": true,
 				"Priority": 4
@@ -66079,6 +66786,9 @@
 				"Category": ["Token"],
 				"Items": ["Fragile smithing urn (no rune)*", "Fire rune*"],
 				"Level": 1,
+				"Skills": {
+					"Crafting": 17
+				},
 				"Output": "Fragile smithing urn",
 				"Primary": true,
 				"Priority": 5
@@ -66087,6 +66797,9 @@
 				"Category": ["Token"],
 				"Items": ["Plain smithing urn (no rune)*", "Fire rune*"],
 				"Level": 1,
+				"Skills": {
+					"Crafting": 35
+				},
 				"Output": "Plain smithing urn",
 				"Primary": true,
 				"Priority": 6
@@ -66095,6 +66808,9 @@
 				"Category": ["Token"],
 				"Items": ["Strong smithing urn (no rune)*", "Fire rune*"],
 				"Level": 1,
+				"Skills": {
+					"Crafting": 49
+				},
 				"Output": "Strong smithing urn",
 				"Primary": true,
 				"Priority": 7
@@ -66103,6 +66819,9 @@
 				"Category": ["Token"],
 				"Items": ["Decorated smithing urn (no rune)*", "Fire rune*"],
 				"Level": 1,
+				"Skills": {
+					"Crafting": 80
+				},
 				"Output": "Decorated smithing urn",
 				"Primary": true,
 				"Priority": 8
@@ -66111,6 +66830,9 @@
 				"Category": ["Token"],
 				"Items": ["Exquisite smithing urn (no rune)*", "Fire rune*"],
 				"Level": 1,
+				"Skills": {
+					"Crafting": 105
+				},
 				"Output": "Exquisite smithing urn",
 				"Primary": true,
 				"Priority": 9
@@ -73387,6 +74109,9 @@
 				"Category": ["Token"],
 				"Items": ["Cracked woodcutting urn (no rune)*", "Earth rune*"],
 				"Level": 1,
+				"Skills": {
+					"Crafting": 4
+				},
 				"Output": "Cracked woodcutting urn",
 				"Primary": true,
 				"Priority": 7
@@ -73395,6 +74120,9 @@
 				"Category": ["Token"],
 				"Items": ["Fragile woodcutting urn (no rune)*", "Earth rune*"],
 				"Level": 1,
+				"Skills": {
+					"Crafting": 15
+				},
 				"Output": "Fragile woodcutting urn",
 				"Primary": true,
 				"Priority": 8
@@ -73403,6 +74131,9 @@
 				"Category": ["Token"],
 				"Items": ["Plain woodcutting urn (no rune)*", "Earth rune*"],
 				"Level": 1,
+				"Skills": {
+					"Crafting": 44
+				},
 				"Output": "Plain woodcutting urn",
 				"Primary": true,
 				"Priority": 9
@@ -73411,6 +74142,9 @@
 				"Category": ["Token"],
 				"Items": ["Strong woodcutting urn (no rune)*", "Earth rune*"],
 				"Level": 1,
+				"Skills": {
+					"Crafting": 61
+				},
 				"Output": "Strong woodcutting urn",
 				"Primary": true,
 				"Priority": 10
@@ -73419,6 +74153,9 @@
 				"Category": ["Token"],
 				"Items": ["Decorated woodcutting urn (no rune)*", "Earth rune*"],
 				"Level": 1,
+				"Skills": {
+					"Crafting": 76
+				},
 				"Output": "Decorated woodcutting urn",
 				"Primary": true,
 				"Priority": 11
@@ -73427,6 +74164,9 @@
 				"Category": ["Token"],
 				"Items": ["Exquisite woodcutting urn (no rune)*", "Earth rune*"],
 				"Level": 1,
+				"Skills": {
+					"Crafting": 106
+				},
 				"Output": "Exquisite woodcutting urn",
 				"Primary": true,
 				"Priority": 12
