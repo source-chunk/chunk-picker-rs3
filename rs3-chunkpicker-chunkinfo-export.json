@@ -21849,13 +21849,13 @@
 				"Priority": 9,
 				"Partial": true
 			},
-			"Complete a ~|plain cooking urn|~": {
-				"Items": ["Plain cooking urn (no rune)*", "Earth rune*"],
+			"Complete a ~|plain mining urn|~": {
+				"Items": ["Plain mining urn (no rune)*", "Earth rune*"],
 				"Level": 32,
 				"Skills": {
 					"Mining": 1
 				},
-				"Output": "Plain cooking urn",
+				"Output": "Plain mining urn",
 				"Primary": true,
 				"Priority": 10
 			},
