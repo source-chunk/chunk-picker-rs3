@@ -469,7 +469,7 @@ let rules = {
 	"Misc achievements": false,
 	"Kili Knowledge": false,
 	"Slayer Contracts": false,
-	"Partial Products": false,
+	"Hide Partial Products": false,
 	"Timegated": false
 };                                                                              // List of rules and their on/off state
 
@@ -598,7 +598,7 @@ let ruleNames = {
 	"Hunter Marks Slayer": "Using Hunter Marks to buy Slayer experience lamps counts as primary training<span class='rule-asterisk noscroll'>*</span>",
 	"Kili Knowledge": "Must complete Kili Knowledge when possible",
 	"Slayer Contracts": "Completing Slayer contracts off-task counts as a primary training method",
-	"Partial Products": "WIP - Creating partial products counts as a skilling task<span class='partialProductsRuleTooltip'></span>",
+	"Hide Partial Products": "Exclude partial and unfinished products as a skilling task<span class='partialProductsRuleTooltip'></span>",
 	"Timegated": "Must complete tasks that require consistent engagement with a time-gated activity across multiple weeks (Player-Owned Port, Player-Owned Farm, etc.)<span class='rule-asterisk noscroll'>*</span>"
 };                                                                              // List of rule definitions
 
@@ -630,8 +630,7 @@ let rulePresets = {
 		"Achievement": true,
 		"Kili Knowledge": true,
 		"Slayer Contracts": true,
-		"Cleaning Herbs Primary": true,
-		"Partial Products": true
+		"Cleaning Herbs Primary": true
     },
     "Xtreme Chunker": {
         "Skillcape": true,
@@ -712,7 +711,6 @@ let rulePresets = {
 		"Kili Knowledge": true,
 		"Slayer Contracts": true,
 		"Cleaning Herbs Primary": true,
-		"Partial Products": true,
 		"Permanent Unlockables": true,
 		"Timegated": true
     },
@@ -810,7 +808,6 @@ let rulePresets = {
 		"Kili Knowledge": true,
 		"Slayer Contracts": true,
 		"Cleaning Herbs Primary": true,
-		"Partial Products": true,
 		"Timegated": true
     }
 };                                                                              // List of rules that are part of each preset
@@ -839,7 +836,7 @@ let ruleStructure = {
     "Overall Skill": {
         "Skillcape": ["Master skillcape"],
         "Highest Level": true,
-        "Multi Step Processing": true,
+        "Multi Step Processing": ["Hide Partial Products"],
         "Wield Crafted Items": ["Wield Crafted Items Override"],
         "Secondary Primary": true,
         "Quest Skill Reqs": true,
@@ -1003,7 +1000,8 @@ let taskGeneratingRules = {
 
 let ruleTooltips = [
     'multiStepProcessingRuleTooltip',
-    'wieldCraftedItemsOverrideRuleTooltip'
+    'wieldCraftedItemsOverrideRuleTooltip',
+	'partialProductsRuleTooltip'
 ];
 
 let settings = {
@@ -12354,8 +12352,8 @@ let loadData = async function(startup) {
             rulesTemp['Forestry'] = true;
         }
 
-        if (!rulesTemp.hasOwnProperty('Partial Products')) {
-            rulesTemp['Partial Products'] = true;
+        if (!rulesTemp.hasOwnProperty('Hide Partial Products')) {
+            rulesTemp['Hide Partial Products'] = false;
         }
 
         /*if (!rulesTemp.hasOwnProperty('Additional Unlockables')) {

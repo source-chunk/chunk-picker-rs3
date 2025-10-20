@@ -3558,6 +3558,9 @@ let calcChallengesWork = function(chunks, baseChunkData, oldTempItemSkill) {
                     return true;
                 }
             });
+			if (rules['Hide Partial Products'] && chunkInfo['challenges'][skill][name]['Partial'] && chunkInfo['challenges'][skill][name]['Level'] > 1) {
+                chunkInfo['challenges'][skill][name]['NeverShow'] = true;
+            }
 			if (!rules['Cleaning Herbs'] && (name.includes('Clean a') || name.includes('(unf)') || name.includes('(unfinished)')) && skill === 'Herblore' && chunkInfo['challenges'][skill][name]['Level'] > 1) {
                 chunkInfo['challenges'][skill][name]['NeverShow'] = true;
             }
