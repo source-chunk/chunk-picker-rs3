@@ -83952,7 +83952,7 @@
 			"~|Enchanted Key|~ 3": {
 				"BaseQuest": "Enchanted Key",
 				"Description": "Follow the enchanted key after Meeting History",
-				"Chunks": ["9526", "13104", "10801", "12599", "11311", "10029", "13355", "12090", "13369", "11576", "12861"],
+				"Chunks": ["9526", "13104", "10801", "12599", "11311", "10029", "13355", "12090", "13369", "11320", "12861"],
 				"Items": ["Spade"],
 				"Tasks": {
 					"~|Enchanted Key|~ 2": "Quest",
@@ -170156,6 +170156,7 @@
 				"Bucket": 2
 			},
 			"Quest": {
+				"Enchanted Key": "step",
 				"Death Plateau": "step",
 				"My Arm's Big Adventure": "step"
 			},
@@ -171476,7 +171477,6 @@
 				"11676": true
 			},
 			"Quest": {
-				"Enchanted Key": "step",
 				"Troll Romance": "step",
 				"Troll Stronghold": "step"
 			},
@@ -261519,7 +261519,7 @@
 		"Elemental Workshop III": "10806, Elemental Workshop First Floor, Elemental Workshop Third Floor, Elemental Workshop Third Floor Second Hallway",
 		"Elemental Workshop IV": "10805, 10806, Elemental Workshop First Floor, Elemental Workshop Third Floor Second Hallway",
 		"Enakhra's Lament": "12589, Enakhra's Temple",
-		"Enchanted Key": "10808, 10290, 12081, 9524, 9781, 12085, 11827, 12593, 13106, 13364, 12859, 9526, 13104, 10801, 12599, 11311, 10029, 13355, 12090, 13369, 11576, 12861",
+		"Enchanted Key": "10808, 10290, 12081, 9524, 9781, 12085, 11827, 12593, 13106, 13364, 12859, 9526, 13104, 10801, 12599, 11311, 10029, 13355, 12090, 13369, 11320, 12861",
 		"Enlightened Journey": "11060, 11573",
 		"Ernest the Chicken": "12340",
 		"Evil Dave's Big Day Out": "12342, 12598, 11571, 11828, 13104, 13103",
