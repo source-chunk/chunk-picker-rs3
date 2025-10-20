@@ -113526,7 +113526,8 @@
 					"Fishing": 16
 				},
 				"BaseQuest": "Seers' Village Achievements",
-				"Category": ["Show Diary Tasks"]
+				"Category": ["Show Diary Tasks"],
+				"Not F2P": true
 			},
 			"~|Seers' Village Achievements#Easy|~ Complete the Easy Achievements": {
 				"Chunks": ["10806"],
@@ -113692,7 +113693,8 @@
 					"~|Seers' Village Achievements#Easy|~ Complete the Easy Achievements": "Diary"
 				},
 				"BaseQuest": "Seers' Village Achievements",
-				"Category": ["Show Diary Tasks"]
+				"Category": ["Show Diary Tasks"],
+				"Not F2P": true
 			},
 			"~|Seers' Village Achievements#Medium|~ Complete the Medium Achievements": {
 				"Chunks": ["10294"],
@@ -113816,7 +113818,8 @@
 					"~|Seers' Village Achievements#Medium|~ Complete the Medium Achievements": "Diary"
 				},
 				"BaseQuest": "Seers' Village Achievements",
-				"Category": ["Show Diary Tasks"]
+				"Category": ["Show Diary Tasks"],
+				"Not F2P": true
 			},
 			"~|Seers' Village Achievements#Hard|~ Gonna Need a Bigger Range": {
 				"Description": "Cook five sharks on the range north of Catherby bank using the cooking gauntlets.",
@@ -264039,6 +264042,11 @@
 			"Flower patch": {
 				"Zolarea": [{
 					"~|Stellar Born|~ Complete the quest": "Quest"
+				}]
+			},
+			"Fishing spot (big fishing net, harpoon)": {
+				"11317": [{
+					"Members only": "Nonskill"
 				}]
 			},
 			"Fishing spot (cage, harpoon)": {
