@@ -160656,7 +160656,7 @@
 						"Within the Light": "first"
 					}
 				},
-				"2": { },
+				"2": {},
 				"3": {
 					"Object": {
 						"Dead tree": 14
@@ -160762,7 +160762,7 @@
 						"The Light Within": "step"
 					}
 				},
-				"2": { }
+				"2": {}
 			},
 			"Nickname": "World gate"
 		},
@@ -160874,7 +160874,7 @@
 						"36": true
 					}
 				},
-				"2": { }
+				"2": {}
 			},
 			"Nickname": "Piscatoris Mine"
 		},
@@ -161611,7 +161611,7 @@
 						"Swamp toad": 5
 					}
 				},
-				"3": { }
+				"3": {}
 			},
 			"Nickname": "Brimstail's cave"
 		},
@@ -161623,7 +161623,8 @@
 						"Oak": 14,
 						"Tree": 52,
 						"Stile": 1,
-						"Crystal tree": 1
+						"Crystal tree": 1,
+						"Elder tree": 1
 					},
 					"Monster": {
 						"Gnome": 7,
@@ -162578,7 +162579,7 @@
 						"Tree": 1
 					}
 				},
-				"3": { }
+				"3": {}
 			},
 			"Nickname": "Ouriana Altar"
 		},
@@ -163568,100 +163569,134 @@
 			"Nickname": "Gu'Tanoth"
 		},
 		"10032": {
-			"Object": {
-				"Bookcase": 1,
-				"Sink": 1,
-				"Fountain": 1,
-				"Ropeswing": 1,
-				"Cooking range": 1,
-				"Fire": 2,
-				"Lever": 1,
-				"Bush": 5,
-				"Sandpit": 1,
-				"Portal": 1,
-				"Trellis": 1,
-				"Oak": 14,
-				"Tree": 31,
-				"Evil tree": 1
-			},
-			"Monster": {
-				"Watchman": 4,
-				"Soldier": 16,
-				"Ogre": 14,
-				"Tower guard": 5,
-				"Colonel Radick": 1
-			},
-			"NPC": {
-				"Bartender": 1,
-				"Og": 1,
-				"Grew": 1,
-				"Watchtower Wizard": 1,
-				"Bert": 1,
-				"Guard Captain": 1,
-				"Wizard": 3,
-				"Musician": 1,
-				"Herald": 1
-			},
-			"Connect": {
-				"7503": true,
-				"9541": true
-			},
-			"Spawn": {
-				"Bones": 9,
-				"White candle (lit)": 1
-			},
-			"Quest": {
-				"Bar Crawl (miniquest)": "step",
-				"God Emissaries Combat": "step",
-				"The Hand in the Sand": "first",
-				"Watchtower": "first",
-				"Zogre Flesh Eaters": "step"
+			"Sections": {
+				"1": {
+					"Object": {
+						"Bookcase": 1,
+						"Sink": 1,
+						"Ropeswing": 1,
+						"Cooking range": 1,
+						"Fire": 2,
+						"Sandpit": 1,
+						"Portal": 1,
+						"Oak": 13,
+						"Tree": 15,
+						"Evil tree": 1
+					},
+					"Monster": {
+						"Soldier": 16,
+						"Ogre": 14,
+						"Tower guard": 1,
+						"Colonel Radick": 1
+					},
+					"NPC": {
+						"Bartender": 1,
+						"Og": 1,
+						"Grew": 1,
+						"Bert": 1,
+						"Guard Captain": 1,
+						"Musician": 1
+					},
+					"Spawn": {
+						"Bones": 9
+					},
+					"Quest": {
+						"Bar Crawl (miniquest)": "step",
+						"God Emissaries Combat": "step",
+						"The Hand in the Sand": "first",
+						"Zogre Flesh Eaters": "step"
+					},
+					"Connect": {
+						"7503": true,
+						"9541": true
+					}
+				},
+				"2": {
+					"Object": {
+						"Fountain": 1,
+						"Lever": 1,
+						"Bush": 5,
+						"Trellis": 1,
+						"Oak": 1,
+						"Tree": 15
+					},
+					"Monster": {
+						"Watchman": 4,
+						"Tower guard": 4
+					},
+					"NPC": {
+						"Watchtower Wizard": 1,
+						"Wizard": 3
+					},
+					"Spawn": {
+						"White candle (lit)": 1,
+						"Jangerberries": 1
+					},
+					"Quest": {
+						"Watchtower": "first"
+					}
+				}
 			},
 			"Nickname": "West Yanille"
 		},
 		"10033": {
-			"Object": {
-				"Loose Railing": 1,
-				"Oak": 4,
-				"Tree": 15,
-				"Spirit tree": 1
-			},
-			"Monster": {
-				"Rat": 9,
-				"Spider": 9,
-				"Gnome": 6,
-				"Giant rat": 2,
-				"Wolf": 2,
-				"Black bear": 1,
-				"Hill Giant": 3,
-				"Terrorbird": 2,
-				"Ogre": 1,
-				"Goblin#Drop table 2": 6,
-				"Goblin#Drop table 1": 4
-			},
-			"NPC": {
-				"Butterfly": 2,
-				"King Bolren": 1,
-				"Bolkoy": 1,
-				"Remsai": 1,
-				"Elkoy": 2,
-				"Local Gnome": 4,
-				"Kalron": 1,
-				"Golrie": 1,
-				"Golrana": 2,
-				"Evil creature": 1,
-				"Bolrie": 1
-			},
-			"Connect": {
-				"10133": true
-			},
-			"Shop": {
-				"Bolkoy's Village Shop": true
-			},
-			"Quest": {
-				"The Path of Glouphrie": "first",
-				"The Prisoner of Glouphrie": "step",
-				"Tree Gnome Village": "first"
+			"Sections": {
+				"1": {
+					"Object": {
+						"Loose Railing": 1,
+						"Oak": 3,
+						"Tree": 13,
+						"Spirit tree": 1
+					},
+					"Monster": {
+						"Rat": 9,
+						"Spider": 9,
+						"Gnome": 6,
+						"Giant rat": 2,
+						"Wolf": 2,
+						"Black bear": 1,
+						"Hill Giant": 3,
+						"Terrorbird": 2,
+						"Ogre": 1,
+						"Goblin#Drop table 2": 6,
+						"Goblin#Drop table 1": 4
+					},
+					"NPC": {
+						"Butterfly": 2,
+						"King Bolren": 1,
+						"Bolkoy": 1,
+						"Remsai": 1,
+						"Elkoy": 2,
+						"Local Gnome": 4,
+						"Kalron": 1,
+						"Golrie": 1,
+						"Golrana": 2,
+						"Evil creature": 1,
+						"Bolrie": 1
+					},
+					"Shop": {
+						"Bolkoy's Village Shop": true
+					},
+					"Quest": {
+						"The Path of Glouphrie": "first",
+						"The Prisoner of Glouphrie": "step",
+						"Tree Gnome Village": "first"
+					},
+					"Connect": {
+						"10133": true
+					}
+				},
+				"2": {
+					"Object": {
+						"Tree": 2
+					}
+				},
+				"3": {},
+				"4": {
+					"Object": {
+						"Oak": 1
+					}
+				}
 			},
 			"Nickname": "Tree Gnome Village"
 		},
@@ -163705,190 +163740,255 @@
 			"Nickname": "Khazard Battlefield"
 		},
 		"10035": {
-			"Object": {
-				"Closed chest": 4,
-				"Box": 1,
-				"Crate": 13,
-				"Watchtower fence": 1,
-				"Barrel": 1,
-				"Manhole": 2,
-				"Fire": 1,
-				"Drawers": 23,
-				"Cooking range": 1,
-				"Sink": 1,
-				"Waterpump": 2,
-				"Sacks": 5,
-				"Boxes": 2,
-				"Altar": 1,
-				"Dead tree": 60
-			},
-			"Monster": {
-				"Ghost": 2,
-				"Knight of Ardougne": 26,
-				"Man (West Ardougne, attackable)": 1,
-				"Woman (West Ardougne)": 11,
-				"Zombie#Level 12": 2,
-				"Zombie#Level 29": 3
-			},
-			"NPC": {
-				"Kilron": 1,
-				"Omart": 1,
-				"Child": 4,
-				"Priest": 1,
-				"Knight of Ardougne": 8,
-				"Nurse Sarah": 3,
-				"Bravek": 1,
-				"Clerk": 1,
-				"Head mourner": 1,
-				"Recruiter": 1,
-				"Jethick": 3,
-				"Man": 2,
-				"Carla": 2,
-				"Ted Rehnison": 2,
-				"Martha Rehnison": 2,
-				"Elena": 2,
-				"Koftik": 2
-			},
-			"Connect": {
-				"8008": true,
-				"10136": true
-			},
-			"Spawn": {
-				"Chisel": 1,
-				"Knife": 1
-			},
-			"Quest": {
-				"Biohazard": "step",
-				"Mourning's End Part I": "step",
-				"Plague City": "step",
-				"Plague's End": "step"
+			"Sections": {
+				"1": {
+					"Object": {
+						"Closed chest": 4,
+						"Box": 1,
+						"Crate": 13,
+						"Barrel": 1,
+						"Manhole": 2,
+						"Fire": 1,
+						"Drawers": 23,
+						"Cooking range": 1,
+						"Sink": 1,
+						"Waterpump": 2,
+						"Sacks": 5,
+						"Boxes": 2,
+						"Altar": 1,
+						"Dead tree": 52
+					},
+					"Monster": {
+						"Ghost": 2,
+						"Knight of Ardougne": 26,
+						"Man (West Ardougne, attackable)": 1,
+						"Woman (West Ardougne)": 11,
+						"Zombie#Level 12": 2,
+						"Zombie#Level 29": 3
+					},
+					"NPC": {
+						"Kilron": 1,
+						"Child": 4,
+						"Priest": 1,
+						"Knight of Ardougne": 8,
+						"Nurse Sarah": 3,
+						"Bravek": 1,
+						"Clerk": 1,
+						"Head mourner": 1,
+						"Recruiter": 1,
+						"Jethick": 3,
+						"Man": 2,
+						"Carla": 2,
+						"Ted Rehnison": 2,
+						"Martha Rehnison": 2,
+						"Elena": 2,
+						"Koftik": 2
+					},
+					"Spawn": {
+						"Chisel": 1,
+						"Knife": 1
+					},
+					"Quest": {
+						"Biohazard": "step",
+						"Mourning's End Part I": "step",
+						"Plague City": "step",
+						"Plague's End": "step"
+					},
+					"Connect": {
+						"8008": true,
+						"10136": true
+					}
+				},
+				"2": {
+					"Object": {
+						"Dead tree": 8
+					}
+				},
+				"3": {},
+				"4": {
+					"Object": {
+						"Watchtower fence": 1,
+						"Dead tree": 60
+					},
+					"NPC": {
+						"Omart": 1
+					}
+				}
 			},
 			"Nickname": "West Ardougne"
 		},
 		"10036": {
-			"Object": {
-				"Dead tree": 8,
-				"Fence": 1,
-				"Loose railing": 1,
-				"Small obelisk": 1,
-				"Drawers": 1,
-				"Sacks": 1,
-				"Willow": 3,
-				"Oak": 17,
-				"Tree": 32,
-				"Anvil": 2,
-				"Forge": 1
-			},
-			"Monster": {
-				"Rat": 15,
-				"Knight of Ardougne": 4,
-				"Ogre": 8,
-				"Demon Boss": 1
-			},
-			"NPC": {
-				"Guard": 14,
-				"Shopkeeper (Combat Training Camp)": 1,
-				"Knight of Ardougne": 1,
-				"Ted Rehnison": 1,
-				"Martha Rehnison": 1,
-				"Billy Rehnison": 1,
-				"Milli Rehnison": 1,
-				"Philipe Carnillean": 1
-			},
-			"Spawn": {
-				"Beer": 3,
-				"Rotten apple": 1
-			},
-			"Shop": {
-				"King Lathas's Armoury": true
-			},
-			"Quest": {
-				"Biohazard": "step",
-				"Mourning's End Part I": "step",
-				"Plague City": "step",
-				"Plague's End": "step"
+			"Sections": {
+				"1": {
+					"Object": {
+						"Dead tree": 3,
+						"Loose railing": 1,
+						"Small obelisk": 1,
+						"Willow": 3,
+						"Oak": 17,
+						"Tree": 32
+					},
+					"Monster": {
+						"Ogre": 8,
+						"Demon Boss": 1
+					},
+					"NPC": {
+						"Guard": 14,
+						"Shopkeeper (Combat Training Camp)": 1,
+						"Philipe Carnillean": 1
+					},
+					"Spawn": {
+						"Beer": 3
+					},
+					"Shop": {
+						"King Lathas's Armoury": true
+					}
+				},
+				"2": {
+					"Object": {
+						"Dead tree": 5,
+						"Fence": 1,
+						"Drawers": 1,
+						"Sacks": 1,
+						"Anvil": 2,
+						"Forge": 1
+					},
+					"Monster": {
+						"Rat": 15,
+						"Knight of Ardougne": 4
+					},
+					"NPC": {
+						"Knight of Ardougne": 1,
+						"Ted Rehnison": 1,
+						"Martha Rehnison": 1,
+						"Billy Rehnison": 1,
+						"Milli Rehnison": 1
+					},
+					"Spawn": {
+						"Rotten apple": 1
+					},
+					"Quest": {
+						"Biohazard": "step",
+						"Mourning's End Part I": "step",
+						"Plague City": "step",
+						"Plague's End": "step"
+					}
+				},
+				"3": {}
 			},
 			"Nickname": "Combat Training Camp"
 		},
 		"10037": {
-			"Object": {
-				"Hay bales": 1,
-				"Haystack": 1,
-				"Bookcase": 4,
-				"Glarial's tombstone": 1,
-				"Fireplace": 1,
-				"Fire": 1,
-				"Oak": 17,
-				"Tree": 18,
-				"Baxtorian Falls": 1,
-				"Fishing Guild": 1,
-				"Ardougne": 1,
-				"Tree Gnome Stronghold": 1,
-				"Stile": 1,
-				"Fishing spot (lure, bait)": 6
-			},
-			"Monster": {
-				"Moss giant": 4
-			},
-			"NPC": {
-				"Butterfly": 1,
-				"Hadley": 1,
-				"Gerald": 1,
-				"Rasolo": 1,
-				"Mysterious ghost": 1
-			},
-			"Shop": {
-				"Rasolo the Wandering Merchant": true
-			},
-			"Connect": {
-				"10137": true,
-				"10575": true
-			},
-			"Quest": {
-				"The Curse of Zaros (miniquest)": "first",
-				"Desert Treasure": "step",
-				"Waterfall Quest": "step"
+			"Sections": {
+				"1": {
+					"Object": {
+						"Hay bales": 1,
+						"Haystack": 1,
+						"Bookcase": 4,
+						"Glarial's tombstone": 1,
+						"Fireplace": 1,
+						"Fire": 1,
+						"Oak": 17,
+						"Tree": 18,
+						"Stile": 1,
+						"Fishing spot (lure, bait)": 6
+					},
+					"Monster": {
+						"Moss giant": 4
+					},
+					"NPC": {
+						"Butterfly": 1,
+						"Hadley": 1,
+						"Gerald": 1,
+						"Rasolo": 1,
+						"Mysterious ghost": 1
+					},
+					"Shop": {
+						"Rasolo the Wandering Merchant": true
+					},
+					"Connect": {
+						"10137": true,
+						"10575": true
+					},
+					"Quest": {
+						"The Curse of Zaros (miniquest)": "first",
+						"Desert Treasure": "step",
+						"Waterfall Quest": "step"
+					}
+				},
+				"2": {
+					"Object": {
+						"Stile": 1
+					}
+				},
+				"3": {
+					"Object": {
+						"Yew": 1
+					}
+				}
 			},
 			"Nickname": "Glarial's Tomb"
 		},
 		"10038": {
-			"Object": {
-				"Closed chest": 1,
-				"Bookcase": 1,
-				"Dead tree": 4,
-				"Log raft": 1,
-				"Rock": 1,
-				"Barrel": 1,
-				"Fireplace": 1,
-				"River": 3,
-				"Railing": 25,
-				"Pyre site": 6,
-				"Oak": 5,
-				"Yew": 1,
-				"Tree": 21,
-				"Boxes": 1,
-				"Whirlpool": 1,
-				"Barbarian anvil": 1,
-				"Barbarian forge": 1,
-				"Fishing spot (barbarian)": 5
-			},
-			"NPC": {
-				"Almera": 1,
-				"Hudon": 1,
-				"Otto Godblessed": 1,
-				"Fisherman": 1
-			},
-			"Monster": {
-				"Guard (dwarf)": 2
-			},
-			"Connect": {
-				"6995": true,
-				"10394": true
-			},
-			"Quest": {
-				"Barbarian Training": "first",
-				"Dwarf Cannon": "step",
-				"Waterfall Quest": "first"
+			"Sections": {
+				"1": {
+					"Object": {
+						"Closed chest": 1,
+						"Bookcase": 1,
+						"Dead tree": 3,
+						"Log raft": 1,
+						"Barrel": 1,
+						"Fireplace": 1,
+						"Railing": 25,
+						"Pyre site": 1,
+						"Oak": 2,
+						"Tree": 15,
+						"Boxes": 1
+					},
+					"NPC": {
+						"Almera": 1,
+						"Hudon": 1
+					},
+					"Monster": {
+						"Guard (dwarf)": 2
+					},
+					"Quest": {
+						"Barbarian Training": "first",
+						"Dwarf Cannon": "step",
+						"Waterfall Quest": "first"
+					},
+					"Connect": {
+						"10394": true
+					}
+				},
+				"2": {
+					"Object": {
+						"Pyre site": 5,
+						"Yew": 1,
+						"Tree": 5,
+						"Whirlpool": 1,
+						"Barbarian anvil": 1,
+						"Barbarian forge": 1,
+						"Fishing spot (barbarian)": 5
+					},
+					"NPC": {
+						"Otto Godblessed": 1,
+						"Fisherman": 1
+					},
+					"Quest": {
+						"Barbarian Training": "first"
+					},
+					"Connect": {
+						"6995": true
+					}
+				},
+				"3": {
+					"Object": {
+						"Dead tree": 1,
+						"Tree": 1,
+						"Oak": 1
+					}
+				}
 			},
 			"Nickname": "Baxtorian Falls"
 		},
@@ -163982,27 +164082,39 @@
 			"Nickname": "Lighthouse"
 		},
 		"10042": {
-			"Object": {
-				"Tree": 3
-			},
-			"NPC": {
-				"Rocks": 19,
-				"Jarvald": 1,
-				"Askeladden": 1,
-				"Bardur": 1
-			},
-			"Monster": {
-				"Hobgoblin#Unarmed": 2,
-				"Rock crab": 19
-			},
-			"Spawn": {
-				"Snape grass": 27
-			},
-			"Connect": {
-				"7748": true
-			},
-			"Quest": {
-				"Blood Runs Deep": "step"
+			"Sections": {
+				"1": {
+					"NPC": {
+						"Rocks": 19,
+						"Jarvald": 1,
+						"Askeladden": 1,
+						"Bardur": 1
+					},
+					"Monster": {
+						"Hobgoblin#Unarmed": 2,
+						"Rock crab": 19
+					},
+					"Spawn": {
+						"Snape grass": 27
+					},
+					"Quest": {
+						"Blood Runs Deep": "step"
+					},
+					"Connect": {
+						"7748": true
+					}
+				},
+				"2": {
+					"Object": {
+						"Tree": 3
+					},
+					"NPC": {
+						"Askeladden": 1
+					},
+					"Connect": {
+						"7748": true
+					}
+				}
 			},
 			"Nickname": "Waterbirth island"
 		},
@@ -164010,75 +164122,88 @@
 			"Nickname": "Miscellenia South Coast"
 		},
 		"10044": {
-			"Object": {
-				"Potato": 73,
-				"Cabbage": 80,
-				"Dead tree": 2,
-				"Fireplace": 1,
-				"Fire": 4,
-				"Crate": 12,
-				"Maple tree": 13,
-				"Fish stall": 2,
-				"Veg stall": 1,
-				"Wheat": 176,
-				"Evergreen": 19,
-				"Etceteria": 1,
-				"Rellekka (by boat)": 1,
-				"Miscellania Castle": 1,
-				"Water barrel": 1,
-				"Coal rock": 6,
-				"Anvil": 1,
-				"Forge": 1,
-				"Crashed star": 1
-			},
-			"Monster": {
-				"Penguin": 8,
-				"Ragnar": 1,
-				"Einar": 1,
-				"Alrik": 1,
-				"Thorhild": 1,
-				"Halla": 1,
-				"Rannveig": 1,
-				"Thora": 1,
-				"Valgerd": 1,
-				"Skraeling": 2,
-				"Broddi": 1,
-				"Ragnvald": 1,
-				"Chicken": 8,
-				"Rooster": 1,
-				"Rabbit": 4
-			},
-			"NPC": {
-				"Prince Brand": 1,
-				"Princess Astrid": 1,
-				"King Vargas": 2,
-				"Guard": 3,
-				"Advisor Ghrim": 1,
-				"Derrik": 1,
-				"Farmer": 1,
-				"Flower Girl": 1,
-				"Fishmonger": 1,
-				"Greengrocer": 1,
-				"Lumberjack Leif": 1,
-				"Miner Magnus": 1,
-				"Gardener Gunnhild": 1,
-				"Musician": 1,
-				"Queen Sigrid": 1
-			},
-			"Connect": {
-				"9541": true,
-				"10144": true,
-				"10307": true
-			},
-			"Shop": {
-				"Flower Girl": true,
-				"Island Fishmonger": true,
-				"Greengrocer of Miscellania": true
-			},
-			"Quest": {
-				"Glorious Memories": "step",
-				"Royal Trouble": "first",
-				"Throne of Miscellania": "first"
+			"Sections": {
+				"1": {
+					"Object": {
+						"Potato": 73,
+						"Cabbage": 80,
+						"Dead tree": 2,
+						"Fairy ring": 1,
+						"Fireplace": 1,
+						"Fire": 4,
+						"Crate": 12,
+						"Maple tree": 13,
+						"Fish stall": 2,
+						"Veg stall": 1,
+						"Wheat": 176,
+						"Evergreen": 19,
+						"Etceteria": 1,
+						"Rellekka (by boat)": 1,
+						"Miscellania Castle": 1,
+						"Water barrel": 1,
+						"Coal rock": 6,
+						"Anvil": 1,
+						"Forge": 1,
+						"Crashed star": 1
+					},
+					"Monster": {
+						"Penguin": 8,
+						"Ragnar": 1,
+						"Einar": 1,
+						"Alrik": 1,
+						"Thorhild": 1,
+						"Halla": 1,
+						"Rannveig": 1,
+						"Thora": 1,
+						"Valgerd": 1,
+						"Skraeling": 2,
+						"Broddi": 1,
+						"Ragnvald": 1,
+						"Chicken": 8,
+						"Rooster": 1,
+						"Rabbit": 4
+					},
+					"NPC": {
+						"Prince Brand": 1,
+						"Princess Astrid": 1,
+						"King Vargas": 2,
+						"Guard": 3,
+						"Advisor Ghrim": 1,
+						"Derrik": 1,
+						"Farmer": 1,
+						"Flower Girl": 1,
+						"Fishmonger": 1,
+						"Greengrocer": 1,
+						"Lumberjack Leif": 1,
+						"Miner Magnus": 1,
+						"Gardener Gunnhild": 1,
+						"Musician": 1,
+						"Queen Sigrid": 1
+					},
+					"Shop": {
+						"Flower Girl": true,
+						"Island Fishmonger": true,
+						"Greengrocer of Miscellania": true
+					},
+					"Quest": {
+						"Glorious Memories": "step",
+						"Royal Trouble": "first",
+						"Throne of Miscellania": "first"
+					},
+					"Connect": {
+						"9541": true,
+						"10144": true,
+						"10307": true
+					}
+				},
+				"2": {
+					"Object": {
+						"Fairy ring": 1
+					},
+					"Connect": {
+						"9541": true
+					}
+				}
 			},
 			"Nickname": "Miscellania"
 		},
@@ -164515,46 +164640,63 @@
 			}
 		},
 		"10284": {
-			"Object": {
-				"Boulder": 6,
-				"Rocks": 26,
-				"Achey tree": 1,
-				"Rock passage": 1,
-				"Fire": 2,
-				"Crate": 5,
-				"Eucalyptus tree": 4,
-				"Red sandstone (rock)": 1,
-				"Robust glass machine": 1
-			},
-			"NPC": {
-				"Teplin Macagan": 1,
-				"Wimpy bird": 6,
-				"Diseased kebbit": 4,
-				"Flying bugs": 2,
-				"Seegud": 1,
-				"Chargurr": 1,
-				"Snurgh": 1,
-				"Muggh": 1,
-				"Trader Crewmember": 2,
-				"Glum": 1,
-				"Patrick": 1,
-				"Penelope": 1,
-				"Peter": 1,
-				"Peanut": 1,
-				"Kringk": 2,
-				"Thump": 2,
-				"Hairdryer": 2,
-				"Rutmir Arnhold": 1,
-				"Snarrk": 1,
-				"I'rk": 1,
-				"Grubb": 1,
-				"Grunther": 1
-			},
-			"Shop": {
-				"Trader Stan's Trading Post": true
-			},
-			"Quest": {
-				"As a First Resort": "step"
+			"Sections": {
+				"1": {
+					"Object": {
+						"Boulder": 2,
+						"Rocks": 26,
+						"Achey tree": 1,
+						"Rock passage": 1,
+						"Fire": 2,
+						"Crate": 5,
+						"Robust glass machine": 1
+					},
+					"NPC": {
+						"Teplin Macagan": 1,
+						"Diseased kebbit": 2,
+						"Flying bugs": 2,
+						"Seegud": 1,
+						"Chargurr": 1,
+						"Snurgh": 1,
+						"Muggh": 1,
+						"Trader Crewmember": 2,
+						"Glum": 1,
+						"Patrick": 1,
+						"Penelope": 1,
+						"Peter": 1,
+						"Peanut": 1,
+						"Kringk": 2,
+						"Thump": 2,
+						"Hairdryer": 2,
+						"Rutmir Arnhold": 1,
+						"Snarrk": 1,
+						"I'rk": 1,
+						"Grubb": 1,
+						"Grunther": 1
+					},
+					"Shop": {
+						"Trader Stan's Trading Post": true
+					},
+					"Quest": {
+						"As a First Resort": "step"
+					}
+				},
+				"2": {
+					"Object": {
+						"Rock passage": 1,
+						"Red sandstone (rock)": 1
+					}
+				},
+				"3": {
+					"Object": {
+						"Boulder": 4,
+						"Eucalyptus tree": 4
+					},
+					"NPC": {
+						"Wimpy bird": 6,
+						"Diseased kebbit": 4
+					}
+				}
 			},
 			"Nickname": "East Oo'glog"
 		},
@@ -164607,134 +164749,164 @@
 			"Nickname": "East Feldip Hills"
 		},
 		"10287": {
-			"Object": {
-				"Fire": 3,
-				"Chest": 1,
-				"Broken Bridge": 2,
-				"Willow": 5,
-				"Oak": 4,
-				"Tree": 23,
-				"Dead tree": 35,
-				"Elder tree": 1,
-				"Crystal tree": 1
-			},
-			"Monster": {
-				"Unicorn": 2,
-				"Black bear": 1,
-				"Ogre": 6,
-				"Dwarf": 4,
-				"Gorad": 1
-			},
-			"NPC": {
-				"Ogre cook": 1,
-				"Toban": 1,
-				"Vigr": 1,
-				"Brendt": 1,
-				"Grundt": 1,
-				"Klaas": 1
-			},
-			"Connect": {
-				"10131": true
-			},
-			"Spawn": {
-				"Bones": 6,
-				"Rope": 1,
-				"Broken arrow": 2
-			},
-			"Quest": {
-				"Watchtower": "step"
+			"Sections": {
+				"1": {
+					"Object": {
+						"Broken Bridge": 2,
+						"Willow": 5,
+						"Oak": 4,
+						"Tree": 22,
+						"Dead tree": 14,
+						"Elder tree": 1,
+						"Crystal tree": 1
+					},
+					"Monster": {
+						"Unicorn": 2,
+						"Black bear": 1,
+						"Ogre": 2,
+						"Dwarf": 4
+					},
+					"NPC": {
+						"Ogre cook": 1,
+						"Vigr": 1,
+						"Brendt": 1,
+						"Grundt": 1,
+						"Klaas": 1
+					},
+					"Spawn": {
+						"Bones": 2,
+						"Broken arrow": 2
+					},
+					"Connect": {
+						"10131": true
+					}
+				},
+				"2": {
+					"Object": {
+						"Fire": 3,
+						"Chest": 1,
+						"Tree": 1,
+						"Dead tree": 21
+					},
+					"Monster": {
+						"Ogre": 4,
+						"Gorad": 1
+					},
+					"NPC": {
+						"Toban": 1
+					},
+					"Spawn": {
+						"Bones": 4,
+						"Rope": 1
+					},
+					"Quest": {
+						"Watchtower": "step"
+					}
+				}
 			},
 			"Nickname": "Gu'Tanoth Island"
 		},
 		"10288": {
-			"Object": {
-				"Drawers": 2,
-				"Closed chest": 1,
-				"Bookcase": 5,
-				"Piano": 1,
-				"Web": 4,
-				"Cage": 3,
-				"Magic Portal": 6,
-				"Bank booth": 3,
-				"Climbing rocks": 1,
-				"Fireplace": 1,
-				"Cooking pot": 1,
-				"Cooking range": 1,
-				"Bush": 8,
-				"Crate": 5,
-				"Bell": 1,
-				"Cupboard": 1,
-				"Dairy cow": 1,
-				"Bank deposit box": 1,
-				"Crates": 1,
-				"Dairy churn": 1,
-				"Wheat": 30,
-				"Oak": 11,
-				"Tree": 33,
-				"Dead tree": 10,
-				"Port Khazard, Ardougne": 1,
-				"Inventor's workbench": 2,
-				"Anvil": 2,
-				"Forge": 2,
-				"Ivy": 6,
-				"Hops patch": 1,
-				"Evil tree": 1,
-				"Crashed star": 1
-			},
-			"Monster": {
-				"Man": 2,
-				"Wizard": 8,
-				"Soldier": 10,
-				"Cow": 4,
-				"Imp": 8
-			},
-			"NPC": {
-				"Magic Store owner": 1,
-				"Wizard Distentor": 1,
-				"Banker": 3,
-				"Frenita": 1,
-				"Robe Store owner": 1,
-				"Zavistic Rarve": 1,
-				"Selena": 1,
-				"Tramp": 1,
-				"Professor Imblewyn": 1,
-				"Aleck": 1,
-				"Leon": 1,
-				"Pet shop owner (Yanille)": 1,
-				"Dalmatian": 1,
-				"Bulldog": 1,
-				"Tool leprechaun": 1,
-				"Pillory guard": 1
-			},
-			"Connect": {
-				"6473": true,
-				"10131": true,
-				"10307": true,
-				"10388": true,
-				"11595": true,
-				"36": true
-			},
-			"Spawn": {
-				"Vial": 2,
-				"Jug of water": 1,
-				"Cup of tea (Zogre Flesh Eaters)": 1
-			},
-			"Shop": {
-				"Aleck's Hunter Emporium": true,
-				"Frenita's Cookery Shop": true,
-				"Hunters' crossbow": true,
-				"Magic Guild Store - Runes and Staves": true,
-				"Magic Guild Store - Mystic Robes": true,
-				"Farming Supplies": true,
-				"Pet shop": true
-			},
-			"Quest": {
-				"Birthright of the Dwarves": "step",
-				"The Hand in the Sand": "step",
-				"One Foot in the Grave (miniquest)": "first",
-				"Swan Song": "step",
-				"Tomes of the Warlock": "step",
-				"Zogre Flesh Eaters": "step"
+			"Sections": {
+				"1": {
+					"Object": {
+						"Drawers": 2,
+						"Closed chest": 1,
+						"Bookcase": 5,
+						"Piano": 1,
+						"Web": 4,
+						"Cage": 3,
+						"Magic Portal": 6,
+						"Bank booth": 3,
+						"Climbing rocks": 1,
+						"Fireplace": 1,
+						"Cooking pot": 1,
+						"Cooking range": 1,
+						"Bush": 8,
+						"Crate": 5,
+						"Bell": 1,
+						"Cupboard": 1,
+						"Dairy cow": 1,
+						"Bank deposit box": 1,
+						"Crates": 1,
+						"Dairy churn": 1,
+						"Wheat": 30,
+						"Oak": 11,
+						"Tree": 33,
+						"Dead tree": 10,
+						"Inventor's workbench": 2,
+						"Anvil": 2,
+						"Forge": 2,
+						"Ivy": 6,
+						"Hops patch": 1,
+						"Evil tree": 1,
+						"Crashed star": 1
+					},
+					"Monster": {
+						"Man": 2,
+						"Wizard": 8,
+						"Cow": 4,
+						"Imp": 8
+					},
+					"NPC": {
+						"Magic Store owner": 1,
+						"Wizard Distentor": 1,
+						"Banker": 3,
+						"Frenita": 1,
+						"Robe Store owner": 1,
+						"Zavistic Rarve": 1,
+						"Selena": 1,
+						"Tramp": 1,
+						"Professor Imblewyn": 1,
+						"Aleck": 1,
+						"Leon": 1,
+						"Pet shop owner (Yanille)": 1,
+						"Dalmatian": 1,
+						"Bulldog": 1,
+						"Tool leprechaun": 1,
+						"Pillory guard": 1
+					},
+					"Spawn": {
+						"Vial": 2,
+						"Jug of water": 1,
+						"Cup of tea (Zogre Flesh Eaters)": 1
+					},
+					"Shop": {
+						"Aleck's Hunter Emporium": true,
+						"Frenita's Cookery Shop": true,
+						"Hunters' crossbow": true,
+						"Magic Guild Store - Runes and Staves": true,
+						"Magic Guild Store - Mystic Robes": true,
+						"Farming Supplies": true,
+						"Pet shop": true
+					},
+					"Quest": {
+						"Birthright of the Dwarves": "step",
+						"The Hand in the Sand": "step",
+						"One Foot in the Grave (miniquest)": "first",
+						"Swan Song": "step",
+						"Tomes of the Warlock": "step",
+						"Zogre Flesh Eaters": "step"
+					},
+					"Connect": {
+						"6473": true,
+						"10307": true,
+						"10388": true,
+						"11595": true,
+						"36": true
+					}
+				},
+				"2": {
+					"Monster": {
+						"Soldier (Yanille)": 4
+					}
+				},
+				"3": {
+					"Monster": {
+						"Soldier (Yanille)": 6
+					}
+				},
+				"4": {}
 			},
 			"Nickname": "East Yanille"
 		},
@@ -165044,42 +165216,69 @@
 			"Nickname": "Fishing Guild"
 		},
 		"10294": {
-			"Object": {
-				"Closed chest": 2,
-				"Log balance": 2,
-				"Fireplace": 1,
-				"Boxes": 4,
-				"Railing": 15,
-				"Bookcase": 1,
-				"Willow": 21,
-				"Oak": 7,
-				"Tree": 24,
-				"Dead tree": 24,
-				"Coal rock": 13,
-				"Crashed star": 1
-			},
-			"Monster": {
-				"Rat": 3,
-				"Giant bat": 7,
-				"Guard (dwarf)": 2,
-				"Goblin#Drop table 2": 1
-			},
-			"NPC": {
-				"Captain Lawgof": 1,
-				"Galahad": 1,
-				"Stankers": 1,
-				"Dwarven Miner": 1
-			},
-			"Spawn": {
-				"Hammer": 1
-			},
-			"Shop": {
-				"Stankers' Bronze Pickaxes": true
-			},
-			"Quest": {
-				"Boric's Task I (miniquest)": "step",
-				"Dwarf Cannon": "first",
-				"Holy Grail": "step"
+			"Sections": {
+				"1": {
+					"Object": {
+						"Log balance": 1,
+						"Boxes": 4,
+						"Railing": 15,
+						"Willow": 12,
+						"Oak": 2,
+						"Tree": 24,
+						"Dead tree": 24,
+						"Coal rock": 13,
+						"Crashed star": 1
+					},
+					"Monster": {
+						"Giant bat": 7
+					},
+					"NPC": {
+						"Captain Lawgof": 1,
+						"Stankers": 1,
+						"Dwarven Miner": 1
+					},
+					"Spawn": {
+						"Hammer": 1
+					},
+					"Shop": {
+						"Stankers' Bronze Pickaxes": true
+					},
+					"Quest": {
+						"Boric's Task I (miniquest)": "step",
+						"Dwarf Cannon": "first"
+					}
+				},
+				"2": {
+					"Object": {
+						"Closed chest": 2,
+						"Log balance": 1,
+						"Fireplace": 1,
+						"Bookcase": 1,
+						"Willow": 7,
+						"Oak": 5,
+						"Tree": 12
+					},
+					"Monster": {
+						"Rat": 3
+					},
+					"NPC": {
+						"Galahad": 1
+					},
+					"Quest": {
+						"Holy Grail": "step"
+					}
+				},
+				"3": {
+					"Monster": {
+						"Guard (dwarf)": 1
+					}
+				},
+				"4": {
+					"Monster": {
+						"Guard (dwarf)": 1,
+						"Goblin#Drop table 2": 1
+					}
+				}
 			},
 			"Nickname": "Coal Truck Mine"
 		},
@@ -165116,24 +165315,29 @@
 			"Nickname": "Lighthouse Bridge"
 		},
 		"10297": {
-			"Object": {
-				"Pottery oven": 1,
-				"Spinning wheel": 1,
-				"Potter's wheel": 1,
-				"Fremennik Anvil": 3,
-				"Fremennik Forge": 2,
-				"Fremennik Furnace": 1
-			},
-			"Monster": {
-				"Warrior": 2
-			},
-			"NPC": {
-				"Jarvald": 1,
-				"Lokar Searunner": 1
-			},
-			"Quest": {
-				"Blood Runs Deep": "step",
-				"Lunar Diplomacy": "first"
+			"Sections": {
+				"1": {
+					"Object": {
+						"Pottery oven": 1,
+						"Spinning wheel": 1,
+						"Potter's wheel": 1,
+						"Fremennik Anvil": 3,
+						"Fremennik Forge": 2,
+						"Fremennik Furnace": 1
+					},
+					"Monster": {
+						"Warrior": 2
+					},
+					"NPC": {
+						"Jarvald": 1,
+						"Lokar Searunner": 1
+					},
+					"Quest": {
+						"Blood Runs Deep": "step",
+						"Lunar Diplomacy": "first"
+					}
+				},
+				"2": {}
 			},
 			"Nickname": "West Rellekka"
 		},
@@ -165717,7 +165921,11 @@
 			"Nickname": "Rantz' Cave"
 		},
 		"10543": {
-			"Nickname": "Fake 1 Tile Corner"
+			"Sections": {
+				"1": {},
+				"2": {}
+			},
+			"Nickname": "The Infamous One Tile Yanille Corner"
 		},
 		"10544": {
 			"Object": {
@@ -165788,142 +165996,164 @@
 			"Nickname": "Port Khazard"
 		},
 		"10546": {
-			"Object": {
-				"Drawers": 1,
-				"Bookcase": 2,
-				"Lowland heather": 18,
-				"Pressure machine": 1,
-				"Crate": 10,
-				"Plant": 10,
-				"Willow": 13,
-				"Oak": 12,
-				"Tree": 30
-			},
-			"Monster": {
-				"Invrigar the Necromancer": 1,
-				"Necromancer": 1,
-				"Imp": 9
-			},
-			"NPC": {
-				"Irwin Feaselbaum": 1,
-				"Bonafido": 1,
-				"'Black-eye'": 1,
-				"'No fingers'": 1,
-				"'Gummy'": 1,
-				"Effigy": 1,
-				"Homunculus": 2,
-				"'Transmute' The Alchemist": 1,
-				"'Currency' The Alchemist": 1,
-				"'The Guns'": 1
-			},
-			"Connect": {
-				"9541": true,
-				"12100": true
-			},
-			"Quest": {
-				"Deadliest Catch": "step",
-				"Tower of Life": "first"
+			"Sections": {
+				"1": {
+					"Object": {
+						"Drawers": 1,
+						"Bookcase": 2,
+						"Lowland heather": 18,
+						"Pressure machine": 1,
+						"Crate": 10,
+						"Plant": 10,
+						"Willow": 13,
+						"Oak": 12,
+						"Tree": 30
+					},
+					"Monster": {
+						"Invrigar the Necromancer": 1,
+						"Necromancer": 1,
+						"Imp": 9
+					},
+					"NPC": {
+						"Irwin Feaselbaum": 1,
+						"Bonafido": 1,
+						"'Black-eye'": 1,
+						"'No fingers'": 1,
+						"'Gummy'": 1,
+						"Effigy": 1,
+						"Homunculus": 2,
+						"'Transmute' The Alchemist": 1,
+						"'Currency' The Alchemist": 1,
+						"'The Guns'": 1
+					},
+					"Connect": {
+						"9541": true,
+						"12100": true
+					},
+					"Quest": {
+						"Deadliest Catch": "step",
+						"Tower of Life": "first"
+					}
+				},
+				"2": {},
+				"3": {}
 			},
 			"Nickname": "Tower of Life"
 		},
 		"10547": {
-			"Object": {
-				"Manhole": 1,
-				"Gangplank": 2,
-				"Chest": 4,
-				"Crate": 22,
-				"Silver stall": 1,
-				"Silk stall": 2,
-				"Bakery stall": 2,
-				"Gem stall": 1,
-				"Spice stall": 1,
-				"Fur stall": 1,
-				"Drawers": 14,
-				"Sink": 2,
-				"Cooking range": 1,
-				"Fountain": 2,
-				"Sacks": 4,
-				"Boxes": 1,
-				"Bank booth": 3,
-				"Bank deposit box": 1,
-				"Oak": 6,
-				"Tree": 13,
-				"Bar": 1,
-				"Cookie": 1,
-				"Geoff": 1,
-				"Vault access lever": 1,
-				"Ornate cuckoo clock": 1,
-				"Dead tree": 10,
-				"Jade vine patch": 1
-			},
-			"Monster": {
-				"Warrior woman": 2,
-				"Hero": 3,
-				"Knight of Ardougne": 4,
-				"Guard (Ardougne)": 7,
-				"Unicorn": 2,
-				"Guard dog": 4,
-				"Grizzly bear": 2,
-				"Paladin": 2
-			},
-			"NPC": {
-				"Captain Barnaby": 2,
-				"Banker": 3,
-				"Silver merchant": 1,
-				"Gem merchant": 1,
-				"Baker": 1,
-				"Spice seller": 1,
-				"Fur trader (East Ardougne)": 1,
-				"Silk merchant": 1,
-				"Zenesha": 1,
-				"RPDT employee": 3,
-				"Wizard Cromperty": 2,
-				"Horacio": 1,
-				"Estate agent": 1,
-				"My Arm": 1,
-				"Town crier": 1,
-				"Tool leprechaun": 1,
-				"Marion": 1,
-				"Guard": 1,
-				"Registrar": 1,
-				"Sandwich lady": 1,
-				"Sparky": 1
-			},
-			"Connect": {
-				"6473": true,
-				"9541": true,
-				"10647": true,
-				"11595": true
-			},
-			"Spawn": {
-				"Hammer": 1,
-				"Iron mace": 1,
-				"Chisel": 1,
-				"Guide book": 1,
-				"Garlic": 1
-			},
-			"Shop": {
-				"Bakery stall": true,
-				"The Poison Arrow": true,
-				"Sandwich Lady Bakery": true,
-				"Ardougne Fur stall": true,
-				"Ardougne Gem stall": true,
-				"Ardougne Silver stall": true,
-				"Ardougne Spice stall": true,
-				"Zenesha's Platebody Shop": true,
-				"Estate Agents Shop": true
-			},
-			"Quest": {
-				"Back to my Roots": "first",
-				"Bringing Home the Bacon": "step",
-				"Dishonour among Thieves": "step",
-				"God Emissaries Skilling": "step",
-				"A Guild of Our Own (miniquest)": "step",
-				"King's Ransom": "step",
-				"Making History": "step",
-				"My Arm's Big Adventure": "step",
-				"One Small Favour": "step",
-				"Tribal Totem": "step"
+			"Sections": {
+				"1": {
+					"Object": {
+						"Manhole": 1,
+						"Gangplank": 2,
+						"Chest": 4,
+						"Crate": 22,
+						"Silver stall": 1,
+						"Silk stall": 2,
+						"Bakery stall": 2,
+						"Gem stall": 1,
+						"Spice stall": 1,
+						"Fur stall": 1,
+						"Drawers": 14,
+						"Sink": 2,
+						"Cooking range": 1,
+						"Fountain": 2,
+						"Sacks": 4,
+						"Boxes": 1,
+						"Bank booth": 3,
+						"Bank deposit box": 1,
+						"Oak": 6,
+						"Tree": 12,
+						"Bar": 1,
+						"Cookie": 1,
+						"Geoff": 1,
+						"Vault access lever": 1,
+						"Ornate cuckoo clock": 1,
+						"Jade vine patch": 1
+					},
+					"Monster": {
+						"Warrior woman": 2,
+						"Hero": 3,
+						"Knight of Ardougne": 4,
+						"Guard (Ardougne)": 7,
+						"Guard dog": 4,
+						"Paladin": 2
+					},
+					"NPC": {
+						"Captain Barnaby": 2,
+						"Banker": 3,
+						"Silver merchant": 1,
+						"Gem merchant": 1,
+						"Baker": 1,
+						"Spice seller": 1,
+						"Fur trader (East Ardougne)": 1,
+						"Silk merchant": 1,
+						"Zenesha": 1,
+						"RPDT employee": 3,
+						"Wizard Cromperty": 2,
+						"Horacio": 1,
+						"Estate agent": 1,
+						"Town crier": 1,
+						"Tool leprechaun": 1,
+						"Marion": 1,
+						"Guard": 1,
+						"Registrar": 1,
+						"Sandwich lady": 1,
+						"Sparky": 1
+					},
+					"Spawn": {
+						"Hammer": 1,
+						"Iron mace": 1,
+						"Chisel": 1,
+						"Guide book": 1,
+						"Garlic": 1
+					},
+					"Shop": {
+						"Bakery stall": true,
+						"The Poison Arrow": true,
+						"Sandwich Lady Bakery": true,
+						"Ardougne Fur stall": true,
+						"Ardougne Gem stall": true,
+						"Ardougne Silver stall": true,
+						"Ardougne Spice stall": true,
+						"Zenesha's Platebody Shop": true,
+						"Estate Agents Shop": true
+					},
+					"Quest": {
+						"Back to my Roots": "first",
+						"Bringing Home the Bacon": "step",
+						"Dishonour among Thieves": "step",
+						"God Emissaries Skilling": "step",
+						"A Guild of Our Own (miniquest)": "step",
+						"King's Ransom": "step",
+						"Making History": "step",
+						"My Arm's Big Adventure": "step",
+						"One Small Favour": "step",
+						"Tribal Totem": "step"
+					},
+					"Connect": {
+						"6473": true,
+						"10647": true,
+						"11595": true
+					}
+				},
+				"2": {
+					"Monster": {
+						"Grizzly bear": 2
+					}
+				},
+				"3": {
+					"Object": {
+						"Fiary ring": 1,
+						"Tree": 2
+					},
+					"Monster": {
+						"Unicorn": 2
+					},
+					"Connect": {
+						"9541": true
+					}
+				}
 			},
 			"Nickname": "Ardougne Market"
 		},
@@ -166107,54 +166337,72 @@
 			"Nickname": "McGrubor's Wood"
 		},
 		"10551": {
-			"Object": {
-				"Oak": 3,
-				"Tree": 19,
-				"Maple tree": 25,
-				"Dead tree": 7,
-				"Water barrel": 1,
-				"Hops patch": 1
-			},
-			"NPC": {
-				"Rhonen": 1,
-				"Tool leprechaun": 2,
-				"Musician": 1
-			},
-			"Connect": {
-				"6473": true
-			},
-			"Shop": {
-				"farming supplies": true
+			"Sections": {
+				"1": {
+					"Object": {
+						"Oak": 3,
+						"Tree": 19,
+						"Maple tree": 25,
+						"Dead tree": 7,
+						"Water barrel": 1,
+						"Hops patch": 1
+					},
+					"NPC": {
+						"Rhonen": 1,
+						"Tool leprechaun": 2,
+						"Musician": 1
+					},
+					"Shop": {
+						"Farming Supplies": true
+					},
+					"Connect": {
+						"6473": true
+					}
+				},
+				"2": {}
 			},
 			"Nickname": "Fremennik Road"
 		},
 		"10552": {
-			"Object": {
-				"Dead tree": 41,
-				"Flax": 9,
-				"Strange altar": 1,
-				"Portal": 1,
-				"Small obelisk": 1,
-				"Oak": 18,
-				"Tree": 52,
-				"Fishing spot (lure, bait)": 2
-			},
-			"Monster": {
-				"Wolf": 3,
-				"Fox": 6,
-				"Fenris wolf": 6
-			},
-			"NPC": {
-				"Council workman": 1,
-				"Town Guard": 2
-			},
-			"Connect": {
-				"7503": true,
-				"9541": true
-			},
-			"Quest": {
-				"The Fremennik Trials": "step",
-				"Koschei's Troubles (miniquest)": "step"
+			"Sections": {
+				"1": {
+					"Object": {
+						"Dead tree": 41,
+						"Flax": 9,
+						"Strange altar": 1,
+						"Portal": 1,
+						"Small obelisk": 1,
+						"Oak": 18,
+						"Tree": 26,
+						"Evergreen": 26
+					},
+					"Monster": {
+						"Wolf": 1,
+						"Fox": 6,
+						"Fenris wolf": 6
+					},
+					"NPC": {
+						"Council workman": 1,
+						"Town Guard": 2
+					},
+					"Connect": {
+						"7503": true,
+						"9541": true
+					},
+					"Quest": {
+						"The Fremennik Trials": "step",
+						"Koschei's Troubles (miniquest)": "step"
+					}
+				},
+				"2": {
+					"Object": {
+						"Tree": 1,
+						"Fishing spot (crayfish)": 4
+					},
+					"Monster": {
+						"Wolf": 2
+					}
+				}
 			},
 			"Nickname": "Fremennik Province"
 		},
@@ -166710,59 +166958,102 @@
 			}
 		},
 		"10794": {
-			"Object": {
-				"Jungle Tree": 13,
-				"Pineapple Plant": 1,
-				"Monkeybars": 1,
-				"Mango tree": 1,
-				"Fairy ring": 1,
-				"Mahogany": 2,
-				"Skull slope": 1,
-				"Fishing spot (big fishing net, harpoon)": 1
-			},
-			"Monster": {
-				"Bird": 5,
-				"Jungle spider": 7,
-				"Snake": 5
-			},
-			"Connect": {
-				"9541": true
-			},
-			"Spawn": {
-				"Plank": 2
-			},
-			"Quest": {
-				"A Fairy Tale III - Battle at Ork's Rift": "step",
-				"Monkey Madness": "step",
-				"Recipe for Disaster: Freeing King Awowogei": "step"
+					"Object": {
+						"Jungle Tree": 13,
+						"Pineapple Plant": 1,
+						"Monkeybars": 1,
+						"Mango tree": 1,
+						"Fairy ring": 1,
+						"Mahogany": 2,
+						"Skull slope": 1,
+						"Fishing spot (big fishing net, harpoon)": 1
+					},
+					
+					
+			
+			"Sections": {
+				"1": {
+					"Object": {
+						"Jungle Tree": 12,
+						"Pineapple Plant": 1,
+						"Mahogany": 2,
+						"Fishing spot (big fishing net, harpoon)": 1
+					},
+					"Monster": {
+						"Bird": 5,
+						"Jungle spider": 7,
+						"Snake": 5
+					},
+					"Spawn": {
+						"Plank": 2
+					},
+					"Quest": {
+						"Monkey Madness": "step"
+					}
+				},
+				"2": {
+					"Object": {
+						"Jungle Tree": 1
+					}
+				},
+				"3": {
+					"Object": {
+						"Mango tree": 1,
+						"Fairy ring": 1
+					},
+					"Connect": {
+						"9541": true
+					},
+					"Quest": {
+						"A Fairy Tale III - Battle at Ork's Rift": "step"
+					}
+				},
+				"4": {
+					"Object": {
+						"Monkeybars": 1,
+						"Skull slope": 1
+					}
+				},
+				"5": {}
 			},
 			"Nickname": "West Ape Atoll"
 		},
 		"10795": {
-			"Object": {
-				"Crate": 2,
-				"Banana Tree": 14,
-				"Jungle Tree": 15,
-				"Pineapple Plant": 2,
-				"Crates": 1
-			},
-			"NPC": {
-				"Kruk": 1,
-				"Monkey Child": 1,
-				"The Monkey's Uncle": 1,
-				"The Monkey's Aunt": 1,
-				"Monkey knife fighter": 6
-			},
-			"Monster": {
-				"Monkey Archer": 12,
-				"Spider": 2,
-				"Bird": 3,
-				"Jungle spider": 5,
-				"Snake": 6
-			},
-			"Quest": {
-				"Monkey Madness": "step",
-				"Recipe for Disaster: Freeing King Awowogei": "step"
+			"Sections": {
+				"1": {
+					"Object": {
+						"Crate": 2,
+						"Banana Tree": 14,
+						"Jungle Tree": 14,
+						"Pineapple Plant": 2,
+						"Crates": 1
+					},
+					"NPC": {
+						"Kruk": 1,
+						"Monkey Child": 1,
+						"The Monkey's Uncle": 1,
+						"The Monkey's Aunt": 1,
+						"Monkey knife fighter": 6
+					},
+					"Monster": {
+						"Spider": 2,
+						"Bird": 3,
+						"Jungle spider": 5,
+						"Snake": 6
+					},
+					"Quest": {
+						"Monkey Madness": "step",
+						"Recipe for Disaster: Freeing King Awowogei": "step"
+					}
+				},
+				"2": {
+					"Object": {
+						"Jungle Tree": 1
+					},
+					"Monster": {
+						"Monkey Archer": 6
+					}
+				}
 			},
 			"Nickname": "Marim Entrance"
 		},
@@ -166791,28 +167082,47 @@
 			"Nickname": "Brimhaven Dungeon Entrance"
 		},
 		"10802": {
-			"Object": {
-				"Ropeswing": 2,
-				"Obelisk": 1,
-				"Gold rock": 5,
-				"Crashed star": 1
-			},
-			"Monster": {
-				"Poison Scorpion": 7,
-				"Moss giant": 5
-			},
-			"Connect": {
-				"9541": true,
-				"11081": true
-			},
-			"Spawn": {
-				"Cake": 2,
-				"Gold ore": 1
-			},
-			"Quest": {
-				"Boric's Task II (miniquest)": "step",
-				"A Fairy Tale II - Cure a Queen": "step",
-				"Holy Grail": "step"
+			"Sections": {
+				"1": {
+					"Object": {
+						"Ropeswing": 1,
+						"Obelisk": 1,
+						"Gold rock": 5,
+						"Crashed star": 1
+					},
+					"Monster": {
+						"Poison Scorpion": 7
+					},
+					"Spawn": {
+						"Gold ore": 1
+					},
+					"Quest": {
+						"Boric's Task II (miniquest)": "step",
+						"Holy Grail": "step"
+					},
+					"Connect": {
+						"11081": true
+					}
+				},
+				"2": {
+					"Object": {
+						"Ropeswing": 1
+					},
+					"Monster": {
+						"Moss giant": 5
+					},
+					"Spawn": {
+						"Cake": 2
+					}
+				},
+				"3": {
+					"Quest": {
+						"A Fairy Tale II - Cure a Queen": "step"
+					},
+					"Connect": {
+						"9541": true
+					}
+				}
 			},
 			"Nickname": "Horseshoe Mine"
 		},
@@ -166962,255 +167272,293 @@
 			"Nickname": "Sorcerer's Tower"
 		},
 		"10806": {
-			"Object": {
-				"Drawers": 4,
-				"Altar": 2,
-				"Fountain": 2,
-				"Dead tree": 8,
-				"Fireplace": 2,
-				"Cooking range": 1,
-				"Filing cabinet": 1,
-				"Bookcase": 7,
-				"Crate": 8,
-				"Closed chest": 11,
-				"Old bookshelf": 2,
-				"Bank booth": 6,
-				"Church organ": 1,
-				"Spinning wheel": 1,
-				"Sink": 1,
-				"Bank deposit box": 1,
-				"Willow": 6,
-				"Oak": 10,
-				"Yew": 3,
-				"Tree": 24,
-				"Maple tree": 9,
-				"Inventor's workbench": 2,
-				"Anvil": 2,
-				"Forge": 1,
-				"Crystal tree": 1,
-				"Evil tree": 1
-			},
-			"Monster": {
-				"Man": 4,
-				"Woman": 5
-			},
-			"NPC": {
-				"Seer": 4,
-				"Banker": 6,
-				"Bartender": 1,
-				"Poison Salesman": 1,
-				"Idria": 1,
-				"Phantuwti Fanstuwi Farsight": 1,
-				"Estate agent": 2,
-				"Sin Seer": 1,
-				"Town crier": 1,
-				"Squire": 1,
-				"Guard": 2,
-				"Anna": 1,
-				"Clerk": 1,
-				"Barbarian": 1,
-				"Wizard": 1,
-				"Arresting officer": 1,
-				"Herald": 1
-			},
-			"Spawn": {
-				"Knife": 1,
-				"Garlic": 1
-			},
-			"Connect": {
-				"7234": true,
-				"10906": true,
-				"14167": true
-			},
-			"Shop": {
-				"Estate Agents Shop": true
-			},
-			"Quest": {
-				"Bar Crawl (miniquest)": "step",
-				"Elemental Workshop I": "first",
-				"Elemental Workshop III": "first",
-				"Elemental Workshop IV": "step",
-				"The Fremennik Trials": "step",
-				"The General's Shadow (miniquest)": "step",
-				"King's Ransom": "step",
-				"Merlin's Crystal": "step",
-				"Murder Mystery": "step",
-				"One Small Favour": "step",
-				"Scorpion Catcher": "step",
-				"While Guthix Sleeps": "step"
+			"Sections": {
+				"1": {
+					"Object": {
+						"Drawers": 4,
+						"Altar": 1,
+						"Dead tree": 8,
+						"Fireplace": 2,
+						"Cooking range": 1,
+						"Filing cabinet": 1,
+						"Bookcase": 7,
+						"Crate": 8,
+						"Closed chest": 10,
+						"Old bookshelf": 2,
+						"Bank booth": 6,
+						"Church organ": 1,
+						"Spinning wheel": 1,
+						"Sink": 1,
+						"Bank deposit box": 1,
+						"Willow": 6,
+						"Oak": 10,
+						"Yew": 3,
+						"Tree": 24,
+						"Maple tree": 9,
+						"Inventor's workbench": 2,
+						"Anvil": 2,
+						"Forge": 1,
+						"Crystal tree": 1,
+						"Evil tree": 1
+					},
+					"Monster": {
+						"Man": 4,
+						"Woman": 5
+					},
+					"NPC": {
+						"Seer": 4,
+						"Banker": 6,
+						"Bartender": 1,
+						"Poison Salesman": 1,
+						"Idria": 1,
+						"Phantuwti Fanstuwi Farsight": 1,
+						"Estate agent": 2,
+						"Sin Seer": 1,
+						"Town crier": 1,
+						"Guard": 2,
+						"Anna": 1,
+						"Clerk": 1,
+						"Barbarian": 1,
+						"Wizard": 1,
+						"Arresting officer": 1
+					},
+					"Spawn": {
+						"Knife": 1,
+						"Garlic": 1
+					},
+					"Shop": {
+						"Estate Agents Shop": true
+					},
+					"Quest": {
+						"Bar Crawl (miniquest)": "step",
+						"Elemental Workshop I": "first",
+						"Elemental Workshop III": "first",
+						"Elemental Workshop IV": "step",
+						"The Fremennik Trials": "step",
+						"The General's Shadow (miniquest)": "step",
+						"Murder Mystery": "step",
+						"One Small Favour": "step",
+						"Scorpion Catcher": "step",
+						"While Guthix Sleeps": "step"
+					},
+					"Connect": {
+						"7234": true,
+						"10906": true,
+						"14167": true
+					}
+				},
+				"2": {
+					"Object": {
+						"Altar": 1,
+						"Fountain": 2,
+						"Closed chest": 1
+					},
+					"NPC": {
+						"Squire": 1
+					},
+					"Quest": {
+						"King's Ransom": "step",
+						"Merlin's Crystal": "step"
+					}
+				}
 			},
 			"Nickname": "Seers' Village"
 		},
 		"10807": {
-			"Object": {
-				"Potato": 5,
-				"Wheat": 13,
-				"Cabbage": 4,
-				"Sinclair family fountain": 1,
-				"Sinclair family crest": 1,
-				"Anna's barrel": 1,
-				"Bob's barrel": 1,
-				"Carol's barrel": 1,
-				"David's barrel": 1,
-				"Elizabeth's barrel": 1,
-				"Frank's barrel": 1,
-				"Sacks": 2,
-				"Fireplace": 1,
-				"Sinclair mansion drain": 1,
-				"Dairy cow": 1,
-				"Bookcase": 6,
-				"Drawers": 8,
-				"Dairy churn": 1,
-				"Sink": 1,
-				"Cooking range": 1,
-				"Spiders' nest": 1,
-				"Sinclair family compost heap": 1,
-				"Sinclair family beehive": 1,
-				"Barrel of flour": 1,
-				"Willow": 6,
-				"Oak": 1,
-				"Tree": 7,
-				"Maple tree": 22,
-				"Dead tree": 38,
-				"Fishing spot (lure, bait)": 4
-			},
-			"Monster": {
-				"Chicken": 3,
-				"Rat": 5,
-				"Cow": 1,
-				"Wolf": 2,
-				"Highwayman": 2
-			},
-			"NPC": {
-				"Donovan the Family Handyman": 1,
-				"Pierre": 1,
-				"Hobbes": 1,
-				"Louisa": 1,
-				"Mary": 1,
-				"Stanford": 1,
-				"Guard": 3,
-				"Gossip": 1,
-				"Sinclair Guard dog": 1,
-				"Anna": 1,
-				"Bob": 1,
-				"Carol": 1,
-				"David": 1,
-				"Elizabeth": 1,
-				"Frank": 1,
-				"Milk seller": 1
-			},
-			"Connect": {
-				"9541": true
-			},
-			"Spawn": {
-				"Pungent pot": 1,
-				"Criminal's dagger": 1,
-				"Address form": 1,
-				"Scrap paper": 1
-			},
-			"Shop": {
-				"The Milk Shop": true
-			},
-			"Quest": {
-				"King's Ransom": "first",
-				"Murder Mystery": "first"
+			"Sections": {
+				"1": {
+					"Object": {
+						"Potato": 5,
+						"Wheat": 13,
+						"Cabbage": 4,
+						"Sinclair family fountain": 1,
+						"Sinclair family crest": 1,
+						"Anna's barrel": 1,
+						"Bob's barrel": 1,
+						"Carol's barrel": 1,
+						"David's barrel": 1,
+						"Elizabeth's barrel": 1,
+						"Frank's barrel": 1,
+						"Sacks": 2,
+						"Fireplace": 1,
+						"Sinclair mansion drain": 1,
+						"Dairy cow": 1,
+						"Bookcase": 6,
+						"Drawers": 8,
+						"Dairy churn": 1,
+						"Sink": 1,
+						"Cooking range": 1,
+						"Spiders' nest": 1,
+						"Sinclair family compost heap": 1,
+						"Sinclair family beehive": 1,
+						"Barrel of flour": 1,
+						"Willow": 6,
+						"Oak": 1,
+						"Tree": 7,
+						"Maple tree": 22,
+						"Dead tree": 38,
+						"Fishing spot (lure, bait)": 4
+					},
+					"NPC": {
+						"Donovan the Family Handyman": 1,
+						"Pierre": 1,
+						"Hobbes": 1,
+						"Louisa": 1,
+						"Mary": 1,
+						"Stanford": 1,
+						"Guard": 3,
+						"Gossip": 1,
+						"Sinclair Guard dog": 1,
+						"Anna": 1,
+						"Bob": 1,
+						"Carol": 1,
+						"David": 1,
+						"Elizabeth": 1,
+						"Frank": 1,
+						"Milk seller": 1
+					},
+					"Spawn": {
+						"Pungent pot": 1,
+						"Criminal's dagger": 1,
+						"Address form": 1,
+						"Scrap paper": 1
+					},
+					"Shop": {
+						"The Milk Shop": true
+					},
+					"Quest": {
+						"King's Ransom": "first",
+						"Murder Mystery": "first"
+					},
+					"Connect": {
+						"9541": true
+					}
+				},
+				"2": {
+					"Monster": {
+						"Highwayman": 1
+					}
+				}
 			},
 			"Nickname": "Sinclair Mansion"
 		},
 		"10808": {
-			"Object": {
-				"Swaying tree": 1,
-				"Log balance": 3,
-				"Oak": 15,
-				"Tree": 72,
-				"Maple tree": 9,
-				"Dead tree": 19,
-				"Fishing spot (lure, bait)": 2,
-				"Fishing spot (crayfish)": 2,
-				"Evil tree": 1
-			},
-			"Monster": {
-				"Unicorn": 2,
-				"Grizzly bear": 2,
-				"Fox": 4,
-				"Bunny": 8,
-				"Bear cub": 8,
-				"Foal (white)": 3
-			},
-			"NPC": {
-				"General Khazard": 1
-			},
-			"Spawn": {
-				"Doogle leaves": 13
-			},
-			"Quest": {
-				"Enchanted Key": "first",
-				"The Fremennik Trials": "step",
-				"The General's Shadow (miniquest)": "first"
+			"Sections": {
+				"1": {
+					"Object": {
+						"Swaying tree": 1,
+						"Log balance": 1,
+						"Oak": 15,
+						"Tree": 36,
+						"Evergreen": 36,
+						"Maple tree": 9,
+						"Dead tree": 19,
+						"Evil tree": 1
+					},
+					"Monster": {
+						"Unicorn": 2,
+						"Grizzly bear": 2,
+						"Fox": 4,
+						"Bunny": 8,
+						"Bear cub": 8,
+						"Foal (white)": 3
+					},
+					"NPC": {
+						"General Khazard": 1
+					},
+					"Spawn": {
+						"Doogle leaves": 13
+					},
+					"Quest": {
+						"Enchanted Key": "first",
+						"The Fremennik Trials": "step",
+						"The General's Shadow (miniquest)": "first"
+					}
+				},
+				"2": {
+					"Object": {
+						"Swaying tree": 1,
+						"Log balance": 3,
+						"Maple tree": 9,
+						"Fishing spot (crayfish)": 2,
+						"Evil tree": 1
+					}
+				}
 			},
 			"Nickname": "Fremennik Forest"
 		},
 		"10809": {
-			"Object": {
-				"Oak": 10,
-				"Tree": 27,
-				"Dead tree": 29,
-				"Iron rock": 5,
-				"Crashed star": 1
-			},
-			"Monster": {
-				"Black unicorn": 2,
-				"Foal (black)": 4
-			},
-			"NPC": {
-				"Svidi": 1,
-				"Herald": 1
-			},
-			"Quest": {
-				"Mountain Daughter": "step"
+			"Sections": {
+				"1": {
+					"Object": {
+						"Oak": 10,
+						"Tree": 14,
+						"Evergreen": 12,
+						"Dead tree": 29,
+						"Iron rock": 5,
+						"Crashed star": 1
+					},
+					"Monster": {
+						"Black unicorn": 2,
+						"Foal (black)": 4
+					},
+					"NPC": {
+						"Svidi": 1
+					},
+					"Quest": {
+						"Mountain Daughter": "step"
+					}
+				},
+				"2": {},
+				"3": {}
 			},
 			"Nickname": "Fremennik Mine"
 		},
 		"10810": {
-			"Object": {
-				"Tunnel": 1,
-				"Spade": 1,
-				"Windswept tree": 1,
-				"Boulder": 6,
-				"Boat": 1,
-				"Cave opening": 1,
-				"Fremennik ship": 1
-			},
-			"NPC": {
-				"Rocks": 14,
-				"Gull": 6,
-				"Olaf Hradson": 1,
-				"Cerulean twitch": 8,
-				"Sabre-toothed kebbit": 8,
-				"Erjolf": 1,
-				"Larry": 2,
-				"Seal": 8,
-				"Ping": 1,
-				"Pong": 1
-			},
-			"Monster": {
-				"Rock crab": 14
-			},
-			"Connect": {
-				"9541": true,
-				"10910": true,
-				"11166": true,
-				"13654": true,
-				"33": true
-			},
-			"Spawn": {
-				"Seaweed": 9
-			},
-			"Quest": {
-				"Cold War": "step",
-				"Olaf's Quest": "first",
-				"Some Like It Cold": "step",
-				"The Tale of the Muspah": "first"
+			"Sections": {
+				"1": {
+					"Object": {
+						"Tunnel": 1,
+						"Spade": 1,
+						"Windswept tree": 1,
+						"Boulder": 6,
+						"Boat": 1,
+						"Cave opening": 1,
+						"Fremennik ship": 1
+					},
+					"NPC": {
+						"Rocks": 14,
+						"Gull": 6,
+						"Olaf Hradson": 1,
+						"Cerulean twitch": 8,
+						"Sabre-toothed kebbit": 8,
+						"Erjolf": 1,
+						"Larry": 2,
+						"Seal": 8,
+						"Ping": 1,
+						"Pong": 1
+					},
+					"Monster": {
+						"Rock crab": 14
+					},
+					"Connect": {
+						"9541": true,
+						"10910": true,
+						"11166": true,
+						"13654": true,
+						"33": true
+					},
+					"Spawn": {
+						"Seaweed": 9
+					},
+					"Quest": {
+						"Cold War": "step",
+						"Olaf's Quest": "first",
+						"Some Like It Cold": "step",
+						"The Tale of the Muspah": "first"
+					}
+				},
+				"2": {}
 			},
 			"Nickname": "Rellekka Peninsula"
 		},
@@ -167747,7 +168095,8 @@
 				"12373": true
 			},
 			"Quest": {
-				"Monkey Madness": "step"
+				"Monkey Madness": "step",
+				"Recipe for Disaster: Freeing King Awowogei": "step"
 			},
 			"Nickname": "East Ape Atoll"
 		},
@@ -172287,10 +172636,10 @@
 			"Nickname": "Sunken Pyramid"
 		},
 		"12076": {
-			"Nickname": "Goebie Settlement Corner"
+			"Nickname": "West of Goebie Settlement"
 		},
 		"12077": {
-			"Nickname": "West of Goebie Settlement"
+			"Nickname": "Goebie Settlement Corner"
 		},
 		"12078": {
 			"Object": {

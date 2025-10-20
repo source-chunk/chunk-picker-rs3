@@ -19235,10 +19235,10 @@
   "Kill X ~|Ogre chieftain|~": "t_18600",
   "Kill X ~|City guard|~": "t_18601",
   "Kill X ~|Enclave guard|~": "t_18602",
-  "Kill X ~|Watchman|~": "t_18603",
   "Kill X ~|Soldier|~": "t_18604",
   "Kill X ~|Tower guard|~": "t_18605",
   "Kill X ~|Colonel Radick|~": "t_18606",
+  "Kill X ~|Watchman|~": "t_18603",
   "Kill X ~|Goblin#Drop table 1|~": "t_53300",
   "Kill X ~|Khazard commander|~": "t_18608",
   "Kill X ~|Gnome troop#Battlefield of Khazard|~": "t_53301",
@@ -19264,6 +19264,7 @@
   "Kill X ~|The Shaikahan|~": "t_18627",
   "Kill X ~|TzHaar-Hur|~": "t_18628",
   "Kill X ~|Gorad|~": "t_18629",
+  "Kill X ~|Soldier (Yanille)|~": "t_112081",
   "Kill X ~|Khazard Guard|~": "t_18630",
   "Kill X ~|Monk (Ardougne)|~": "t_53304",
   "Kill X ~|Warrior woman|~": "t_18632",
@@ -88145,5 +88146,5 @@
   "Pizazz points: ~|Law rune|~": "t_52855",
   "Pizazz points: ~|Soul rune|~": "t_52856",
   "Pizazz points: ~|Blood rune|~": "t_52857",
-  "currentNextIndex": 112081
+  "currentNextIndex": 112082
 }
