@@ -630,8 +630,7 @@ let rulePresets = {
 		"Achievement": true,
 		"Kili Knowledge": true,
 		"Slayer Contracts": true,
-		"Cleaning Herbs Primary": true,
-		"Hide Partial Products": true
+		"Cleaning Herbs Primary": true
     },
     "Xtreme Chunker": {
         "Skillcape": true,
@@ -712,7 +711,6 @@ let rulePresets = {
 		"Kili Knowledge": true,
 		"Slayer Contracts": true,
 		"Cleaning Herbs Primary": true,
-		"Hide Partial Products": true,
 		"Permanent Unlockables": true,
 		"Timegated": true
     },
@@ -810,7 +808,6 @@ let rulePresets = {
 		"Kili Knowledge": true,
 		"Slayer Contracts": true,
 		"Cleaning Herbs Primary": true,
-		"Hide Partial Products": true,
 		"Timegated": true
     }
 };                                                                              // List of rules that are part of each preset
@@ -1003,7 +1000,8 @@ let taskGeneratingRules = {
 
 let ruleTooltips = [
     'multiStepProcessingRuleTooltip',
-    'wieldCraftedItemsOverrideRuleTooltip'
+    'wieldCraftedItemsOverrideRuleTooltip',
+	'partialProductsRuleTooltip'
 ];
 
 let settings = {
