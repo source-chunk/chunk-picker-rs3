@@ -170086,14 +170086,26 @@
 			"Nickname": "Zemouregal's Fort"
 		},
 		"11325": {
-			"Object": {
-				"Dead tree": 44,
-				"Canoe": 1,
-				"Cavern": 1,
-				"Dead tree covered in snow": 10
-			},
-			"Connect": {
-				"11425": true
+			"Sections": {
+				"1": {
+					"Object": {
+						"Dead tree": 4,
+						"Canoe": 1,
+						"Cavern": 1,
+						"Dead tree covered in snow": 1
+					},
+					"Connect": {
+						"11425": true
+					}
+				},
+				"2": {
+					"Object": {
+						"Dead tree": 16,
+						"Canoe": 1,
+						"Cavern": 1,
+						"Dead tree covered in snow": 9
+					}
+				}
 			},
 			"Nickname": "Ritual Site Coast"
 		},
@@ -177974,50 +177986,65 @@
 			"Name": "Chaos Temple Dungeon"
 		},
 		"13097": {
-			"Object": {
-				"Energy rift": 1,
-				"Palm tree": 10,
-				"Rockodile": 5
-			},
-			"NPC": {
-				"Luminous wisp": 13,
-				"Enriched luminous wisp": 1,
-				"Plover bird": 16,
-				"Portmaster Kags": 1
-			},
-			"Quest": {
-				"Pharaoh's Folly": "step"
-			},
-			"Connect": {
-				"8809": true,
-				"23130": true
+			"Sections": {
+				"1": {
+					"Object": {
+						"Energy rift": 1,
+						"Palm tree": 10,
+						"Rockodile": 5
+					},
+					"NPC": {
+						"Luminous wisp": 13,
+						"Enriched luminous wisp": 1,
+						"Plover bird": 16
+					},
+					"Quest": {
+						"Pharaoh's Folly": "step"
+					},
+					"Connect": {
+						"23130": true
+					}
+				},
+				"2": {
+					"NPC": {
+						"Portmaster Kags": 1
+					},
+					"Connect": {
+						"8809": true
+					}
+				}
 			},
 			"Nickname": "South of Sophanem"
 		},
 		"13098": {
-			"Object": {
-				"Altar": 1,
-				"Palm tree": 1
-			},
-			"NPC": {
-				"High Priest": 1,
-				"Priest": 4,
-				"Maisa": 1,
-				"Menaphite guard (Sophanem Slayer Dungeon)": 1
-			},
-			"Connect": {
-				"9578": true
-			},
-			"Shop": {
-				"Sophanem Slayer Supplies": true
-			},
-			"Quest": {
-				"Contact!": "first",
-				"Dealing with Scabaras": "first",
-				"Icthlarin's Little Helper": "step",
-				"Beneath Scabaras' Sands": "step",
-				"Pharaoh's Folly": "step",
-				"Eclipse of the Hearth": "step"
+			"Sections": {
+				"1": {
+					"Object": {
+						"Altar": 1,
+						"Palm tree": 1
+					},
+					"NPC": {
+						"High Priest": 1,
+						"Priest": 4,
+						"Maisa": 1,
+						"Menaphite guard (Sophanem Slayer Dungeon)": 1
+					},
+					"Connect": {
+						"9578": true
+					},
+					"Shop": {
+						"Sophanem Slayer Supplies": true
+					},
+					"Quest": {
+						"Contact!": "first",
+						"Dealing with Scabaras": "first",
+						"Icthlarin's Little Helper": "step",
+						"Beneath Scabaras' Sands": "step",
+						"Pharaoh's Folly": "step",
+						"Eclipse of the Heart": "step"
+					}
+				},
+				"2": {}
 			},
 			"Nickname": "Sophanem Temple"
 		},
@@ -178138,22 +178165,34 @@
 			"Nickname": "T.A.R.D.I.S. Site"
 		},
 		"13102": {
-			"Object": {
-				"Kharidian cactus (healthy)": 4,
-				"Smokey well": 1,
-				"Light animica rock": 8
-			},
-			"Monster": {
-				"Desert snake": 10,
-				"Bandit": 5
-			},
-			"Connect": {
-				"12946": true,
-				"35": true
-			},
-			"Quest": {
-				"Desert Treasure": "step",
-				"Beneath Scabaras' Sands": "step"
+			"Sections": {
+				"1": {
+					"Object": {
+						"Kharidian cactus (healthy)": 4,
+						"Smokey well": 1,
+						"Light animica rock": 8
+					},
+					"Monster": {
+						"Desert snake": 10,
+						"Bandit": 5
+					},
+					"Quest": {
+						"Desert Treasure": "step"
+					},
+					"Connect": {
+						"12946": true
+					}
+				},
+				"2": {},
+				"3": {},
+				"4": {
+					"Quest": {
+						"Beneath Scabaras' Sands": "step"
+					},
+					"Connect": {
+						"35": true
+					}
+				}
 			},
 			"Nickname": "Tumeken's Remnant"
 		},
@@ -178201,39 +178240,49 @@
 			"Nickname": "The Desert Mining Camp"
 		},
 		"13104": {
-			"Object": {
-				"Kharidian cactus (healthy)": 4,
-				"Shantay chest": 1,
-				"Shantay Pass": 3,
-				"Small obelisk": 1,
-				"Danger sign": 2
+			"Sections": {
+				"1": {},
+				"2": {
+					"Object": {
+						"Shantay chest": 1
+					},
+					"NPC": {
+						"Shantay": 1
+					},
+					"Monster": {
+						"Shantay guard": 2
+					},
+					"Shop": {
+						"Shantay Pass Shop": true
+					},
+					"Quest": {
+						"Evil Dave's Big Day Out": "step"
+					}
+				},
+				"3": {
+					"Object": {
+						"Kharidian cactus (healthy)": 4,
+						"Shantay Pass": 3,
+						"Small obelisk": 1,
+						"Danger sign": 2
+					},
+					"NPC": {
+						"Shantay": 1
+					},
+					"Monster": {
+						"Shantay guard": 2,
+						"Desert wolf": 4,
+						"Ugthanki": 8
+					},
+					"Quest": {
+						"Diamond in the Rough": "step",
+						"Evil Dave's Big Day Out": "step",
+						"The General's Shadow (miniquest)": "step",
+						"The Tourist Trap": "first"
+					}
+				}
 			},
-			"NPC": {
-				"Shantay": 1,
-				"Rug merchant": 1,
-				"Monkey": 1,
-				"Irena": 2,
-				"Scout": 1,
-				"Ana": 1,
-				"Musician": 1,
-				"Ozan": 2
-			},
-			"Monster": {
-				"Shantay guard": 2,
-				"Desert wolf": 4,
-				"Ugthanki": 8
-			},
-			"Shop": {
-				"Shantay Pass Shop": true
-			},
-			"Quest": {
-				"Diamond in the Rough": "step",
-				"Enchanted Key": "step",
-				"Evil Dave's Big Day Out": "step",
-				"The General's Shadow (miniquest)": "step",
-				"The Tourist Trap": "first"
-			},
-			"Nickname": "Shantay pass"
+			"Nickname": "Shantay Pass"
 		},
 		"13105": {
 			"Object": {
@@ -178327,298 +178376,366 @@
 				"Pharaoh's Folly": "step",
 				"Rogue Trader": "step"
 			},
+			
 			"Nickname": "Al Kharid"
 		},
 		"13106": {
-			"Object": {
-				"Dead tree": 4,
-				"Mysterious ruins": 1,
-				"Small obelisk": 1,
-				"Tree": 5,
-				"Cooking range": 1,
-				"Boxes": 2,
-				"Scoreboard": 1,
-				"Cactus patch": 1,
-				"Acadia tree": 3
-			},
-			"Monster": {
-				"Man": 2,
-				"Rat": 1
-			},
-			"NPC": {
-				"A'abla": 1,
-				"Silk trader": 1,
-				"Gem trader": 1,
-				"Mubariz": 1,
-				"Ali Morrisane": 1,
-				"Elly the Camel": 1,
-				"Ollie the Camel": 1,
-				"Cam the Camel": 1,
-				"Alice the Camel": 1,
-				"Estocada": 1,
-				"Captain Dalbur": 1,
-				"Tool leprechaun": 1,
-				"Musician": 1,
-				"Faruq": 1,
-				"Ayesha": 1,
-				"Calm imp": 1,
-				"Jabari": 1,
-				"Jaraah": 1,
-				"Zeid the Tailor": 1,
-				"Surgeon General Tafani": 1
-			},
-			"Connect": {
-				"6473": true,
-				"10315": true,
-				"14167": true
-			},
-			"Shop": {
-				"Farming supplies": true,
-				"Faruq's Tools for Games": true,
-				"Ali's Discount Wares": true,
-				"Gem Trader stall": true
-			},
-			"Quest": {
-				"Do No Evil": "step",
-				"Enchanted Key": "step",
-				"Eye of Het I": "first",
-				"Eye of Het II": "first",
-				"The Feud": "first",
-				"God Emissaries Combat": "step",
-				"God Emissaries Exploration": "step",
-				"Imp Catcher": "step",
-				"Missing My Mummy": "step",
-				"Restoring Senliten": "step",
-				"Our Man in the North": "step",
-				"Ode of the Devourer": "step",
-				"Rogue Trader": "first"
+			"Sections": {
+				"1": {
+					"Object": {
+						"Dead tree": 4,
+						"Mysterious ruins": 1,
+						"Small obelisk": 1,
+						"Tree": 5,
+						"Cooking range": 1,
+						"Boxes": 2,
+						"Scoreboard": 1,
+						"Cactus patch": 1,
+						"Acadia tree": 3
+					},
+					"Monster": {
+						"Man": 2,
+						"Rat": 1
+					},
+					"NPC": {
+						"A'abla": 1,
+						"Silk trader": 1,
+						"Gem trader": 1,
+						"Mubariz": 1,
+						"Ali Morrisane": 1,
+						"Elly the Camel": 1,
+						"Ollie the Camel": 1,
+						"Cam the Camel": 1,
+						"Alice the Camel": 1,
+						"Estocada": 1,
+						"Captain Dalbur": 1,
+						"Tool leprechaun": 1,
+						"Musician": 1,
+						"Faruq": 1,
+						"Ayesha": 1,
+						"Calm imp": 1,
+						"Jabari": 1,
+						"Jaraah": 1,
+						"Zeid the Tailor": 1,
+						"Surgeon General Tafani": 1
+					},
+					"Connect": {
+						"6473": true,
+						"10315": true,
+						"14167": true
+					},
+					"Shop": {
+						"Farming supplies": true,
+						"Faruq's Tools for Games": true,
+						"Ali's Discount Wares": true,
+						"Gem Trader stall": true
+					},
+					"Quest": {
+						"Do No Evil": "step",
+						"Enchanted Key": "step",
+						"Eye of Het I": "first",
+						"Eye of Het II": "first",
+						"The Feud": "first",
+						"God Emissaries Combat": "step",
+						"God Emissaries Exploration": "step",
+						"Imp Catcher": "step",
+						"Missing My Mummy": "step",
+						"Restoring Senliten": "step",
+						"Our Man in the North": "step",
+						"Ode of the Devourer": "step",
+						"Rogue Trader": "first"
+					}
+				},
+				"2": {}
 			},
 			"Nickname": "North Al Kharid"
 		},
 		"13107": {
-			"Object": {
-				"Potato": 5,
-				"Tree": 1,
-				"Rocks": 1,
-				"Common gem rock": 3,
-				"Silver rock": 6,
-				"Uncommon gem rock": 4,
-				"Gold rock": 4,
-				"Herb patch": 1,
-				"Bonfire": 1,
-				"Crashed star": 1
-			},
-			"NPC": {
-				"Camel": 1,
-				"Avan": 1,
-				"Waseem the Leaflet Dropper": 1,
-				"Crux Eqal Druid": 2,
-				"Crux Eqal Knight": 1,
-				"Polletix": 1,
-				"Sydekix": 1,
-				"Nhitpyx": 1,
-				"Ghostistix": 1
-			},
-			"Monster": {
-				"Scorpion": 9,
-				"Imp": 1,
-				"Demon Boss": 1
-			},
-			"Shop": {
-				"Sydekix's Shop of Balance": true
-			},
-			"Connect": {
-				"4678": true,
-				"6473": true,
-				"36": true
-			},
-			"Spawn": {
-				"Fire rune": 1,
-				"Water rune": 1
-			},
-			"Quest": {
-				"Boric's Task II (miniquest)": "step",
-				"Civil War III (miniquest)": "step",
-				"Family Crest": "step",
-				"Missing My Mummy": "step",
-				"Restoring Senliten": "step"
+			"Sections": {
+				"1": {
+					"Object": {
+						"Potato": 5,
+						"Tree": 1,
+						"Rocks": 1,
+						"Common gem rock": 3,
+						"Silver rock": 6,
+						"Uncommon gem rock": 4,
+						"Gold rock": 4,
+						"Herb patch": 1,
+						"Bonfire": 1,
+						"Crashed star": 1
+					},
+					"NPC": {
+						"Camel": 1,
+						"Avan": 1,
+						"Waseem the Leaflet Dropper": 1,
+						"Crux Eqal Druid": 2,
+						"Crux Eqal Knight": 1,
+						"Polletix": 1,
+						"Sydekix": 1,
+						"Nhitpyx": 1,
+						"Ghostistix": 1
+					},
+					"Monster": {
+						"Scorpion": 9,
+						"Imp": 1,
+						"Demon Boss": 1
+					},
+					"Shop": {
+						"Sydekix's Shop of Balance": true
+					},
+					"Connect": {
+						"4678": true,
+						"6473": true,
+						"36": true
+					},
+					"Spawn": {
+						"Fire rune": 1,
+						"Water rune": 1
+					},
+					"Quest": {
+						"Boric's Task II (miniquest)": "step",
+						"Civil War III (miniquest)": "step",
+						"Family Crest": "step",
+						"Missing My Mummy": "step",
+						"Restoring Senliten": "step"
+					}
+				},
+				"2": {
+					"Object": {
+						"Tree": 1
+					}
+				},
+				"3": {
+					"Object": {
+						"Potato": 5
+					}
+				},
+				"4": {}
 			},
 			"Nickname": "Al Kharid Mine"
 		},
 		"13108": {
-			"Object": {
-				"Dead tree": 1,
-				"Bookcase": 4,
-				"Drawers": 2,
-				"Broken cart": 1,
-				"Cadava bush": 3,
-				"Redberry bush": 2,
-				"Willow": 2,
-				"Oak": 3,
-				"Tree": 12,
-				"Copper rock": 2,
-				"Tin rock": 1,
-				"Mithril rock": 3,
-				"Adamantite rock": 2,
-				"Dig sites map": 1,
-				"Crashed star": 1
-			},
-			"Monster": {
-				"Unicorn": 2,
-				"Black bear": 1,
-				"Giant rat": 15,
-				"Goblin#Drop table 2": 1
-			},
-			"NPC": {
-				"Da Vinci": 1,
-				"Chancy": 1,
-				"Hops": 1,
-				"Guidor's wife": 1,
-				"Guidor": 1,
-				"Rat Burgiss": 1,
-				"Musician": 1,
-				"Stray dog": 1,
-				"Bright wisp": 3,
-				"Enriched bright wisp": 1,
-				"Drew": 1,
-				"Matty Ock": 1,
-				"Ezreal": 1,
-				"Acting Guildmaster Reiniger": 1
-			},
-			"Spawn": {
-				"Cup of tea": 2
-			},
-			"Shop": {
-				"Archaeology Guild Shop": true,
-				"Matty Ock's Mattock Shop": true
-			},
-			"Quest": {
-				"Biohazard": "step",
-				"Once Upon a Time in Gielinor: Fortunes": "step",
-				"Rat Catchers": "step",
-				"Twilight of the Gods": "step",
-				"What Lies Below": "first",
-				"What's Mine is Yours": "step",
-				"Secrets of the Monolith": "first",
-				"Requiem for a Dragon": "step"
+			"Sections": {
+				"1": {
+					"Object": {
+						"Dead tree": 1,
+						"Broken cart": 1,
+						"Cadava bush": 3,
+						"Redberry bush": 2,
+						"Willow": 2,
+						"Oak": 3,
+						"Tree": 12,
+						"Copper rock": 2,
+						"Tin rock": 1,
+						"Mithril rock": 3,
+						"Adamantite rock": 2,
+						"Crashed star": 1
+					},
+					"Monster": {
+						"Unicorn": 2,
+						"Black bear": 1,
+						"Giant rat": 13,
+						"Goblin#Drop table 2": 1
+					},
+					"NPC": {
+						"Rat Burgiss": 1,
+						"Musician": 1,
+						"Bright wisp": 3,
+						"Enriched bright wisp": 1
+					},
+					"Quest": {
+						"Biohazard": "step",
+						"Once Upon a Time in Gielinor: Fortunes": "step",
+						"Rat Catchers": "step",
+						"Twilight of the Gods": "step",
+						"What Lies Below": "first",
+						"What's Mine is Yours": "step",
+						"Secrets of the Monolith": "first",
+						"Requiem for a Dragon": "step"
+					}
+				},
+				"2": {
+					"Object": {
+						"Bookcase": 4,
+						"Drawers": 2
+					},
+					"Monster": {
+						"Giant rat": 2
+					},
+					"NPC": {
+						"Da Vinci": 1,
+						"Chancy": 1,
+						"Hops": 1,
+						"Guidor's wife": 1,
+						"Guidor": 1,
+						"Stray dog": 1
+					},
+					"Quest": {
+						"Biohazard": "step"
+					}
+				},
+				"3": {
+					"Object": {
+						"Dig sites map": 1
+					},
+					"NPC": {
+						"Drew": 1,
+						"Matty Ock": 1,
+						"Ezreal": 1,
+						"Acting Guildmaster Reiniger": 1
+					},
+					"Spawn": {
+						"Cup of tea": 2
+					},
+					"Shop": {
+						"Archaeology Guild Shop": true,
+						"Matty Ock's Mattock Shop": true
+					},
+					"Quest": {
+						"Secrets of the Monolith": "first"
+					}
+				}
 			},
 			"Nickname": "Varrock South-East Mine"
 		},
 		"13109": {
-			"Object": {
-				"Tea stall": 1,
-				"Dead tree": 8,
-				"Rift": 24,
-				"Closed chest": 1,
-				"Drawers": 2,
-				"Map": 3,
-				"Dig Site specimen rocks": 1,
-				"Display case": 7,
-				"Young tree": 2,
-				"Oak": 11,
-				"Tree": 35,
-				"Well": 1,
-				"Energy rift": 1,
-				"Evil tree": 1
-			},
-			"NPC": {
-				"Fancy-dress shop owner": 1,
-				"Tea seller": 1,
-				"Dimintheis": 1,
-				"Bartender": 1,
-				"Tolna": 1,
-				"Pox": 1,
-				"Hooknosed Jack": 1,
-				"Launa": 1,
-				"Captain Errdo": 1,
-				"Historian Minas": 1,
-				"Sinco Doar": 1,
-				"Tinse Torpe": 1,
-				"Baby squirrel": 5,
-				"Baby raccoon": 4,
-				"Baby Raccoon": 2,
-				"Musician": 1,
-				"Bright wisp": 10,
-				"Myself": 1,
-				"A memory": 1
-			},
-			"Monster": {
-				"Guard (Varrock)": 4
-			},
-			"Connect": {
-				"13209": true,
-				"23130": true
-			},
-			"Spawn": {
-				"Jug": 1,
-				"Cup of tea": 1
-			},
-			"Shop": {
-				"Fancy Clothes Store": true,
-				"Ye Olde Tea Shoppe": true
-			},
-			"Quest": {
-				"Defender of Varrock": "step",
-				"Eagles' Peak": "step",
-				"Family Crest": "first",
-				"Rat Catchers": "step",
-				"A Soul's Bane": "first",
-				"Tales of Nomad (miniquest)": "step"
+			"Sections": {
+				"1": {
+					"Object": {
+						"Tea stall": 1,
+						"Dead tree": 8,
+						"Rift": 24,
+						"Closed chest": 1,
+						"Young tree": 2,
+						"Oak": 11,
+						"Tree": 35,
+						"Energy rift": 1,
+						"Evil tree": 1
+					},
+					"NPC": {
+						"Tea seller": 1,
+						"Tolna": 1,
+						"Launa": 1,
+						"Captain Errdo": 1,
+						"Baby squirrel": 5,
+						"Baby raccoon": 4,
+						"Baby Raccoon": 2,
+						"Musician": 1,
+						"Bright wisp": 10
+					},
+					"Monster": {
+						"Guard (Varrock)": 4
+					},
+					"Spawn": {
+						"Jug": 1,
+						"Cup of tea": 1
+					},
+					"Shop": {
+						"Ye Olde Tea Shoppe": true
+					},
+					"Quest": {
+						"A Soul's Bane": "first",
+						"Tales of Nomad (miniquest)": "step"
+					},
+					"Connect": {
+						"13209": true,
+						"23130": true
+					}
+				},
+				"2": {
+					"Object": {
+						"Drawers": 2,
+						"Well": 1
+					},
+					"NPC": {
+						"Fancy-dress shop owner": 1,
+						"Dimintheis": 1,
+						"Bartender": 1,
+						"Pox": 1,
+						"Hooknosed Jack": 1
+					},
+					"Shop": {
+						"Fancy Clothes Store": true
+					},
+					"Quest": {
+						"Defender of Varrock": "step",
+						"Eagles' Peak": "step",
+						"Family Crest": "first",
+						"Rat Catchers": "step"
+					}
+				},
+				"3": {
+					"Object": {
+						"Map": 3,
+						"Dig Site specimen rocks": 1
+					},
+					"NPC": {
+						"Historian Minas": 1,
+						"Sinco Doar": 1,
+						"Tinse Torpe": 1
+					}
+				}
 			},
 			"Nickname": "Varrock East Gate"
 		},
 		"13110": {
-			"Object": {
-				"Dead tree": 2,
-				"Mysterious ruins": 1,
-				"Barrel": 20,
-				"Crate": 28,
-				"Bookcase": 3,
-				"Dying tree": 7,
-				"Cooking range": 2,
-				"Drawers": 2,
-				"Fence": 1,
-				"Oak": 13,
-				"Yew": 3,
-				"Tree": 44,
-				"Archaeologist's workbench": 1
-			},
-			"Monster": {
-				"Man": 2,
-				"Woman": 2,
-				"Thief": 1,
-				"Black Knight": 1
-			},
-			"NPC": {
-				"Johnathon": 1,
-				"Bartender": 1,
-				"Fluffs": 1,
-				"Assistant Serf": 1,
-				"Anna Jones": 1,
-				"Cook": 1,
-				"Surok Magis": 1,
-				"Happy imp": 1,
-				"Movario": 1
-			},
-			"Connect": {
-				"10571": true,
-				"12625": true,
-				"14167": true
-			},
-			"Spawn": {
-				"Logs": 9,
-				"Thread": 1
-			},
-			"Quest": {
-				"Ancient Awakening": "step",
-				"Bar Crawl (miniquest)": "step",
-				"Chef's Assistant": "step",
-				"Family Crest": "step",
-				"God Emissaries Exploration": "step",
-				"The Hunt for Surok (miniquest)": "first",
-				"Imp Catcher": "step",
-				"Once Upon a Time in Gielinor: Flashback": "step",
-				"Twilight of the Gods": "step"
+			"Sections": {
+				"1": {
+					"Object": {
+						"Dead tree": 2,
+						"Mysterious ruins": 1,
+						"Barrel": 20,
+						"Crate": 28,
+						"Bookcase": 3,
+						"Dying tree": 7,
+						"Cooking range": 2,
+						"Drawers": 2,
+						"Fence": 1,
+						"Oak": 13,
+						"Yew": 3,
+						"Tree": 44,
+						"Archaeologist's workbench": 1
+					},
+					"Monster": {
+						"Man": 2,
+						"Woman": 2,
+						"Thief": 1,
+						"Black Knight": 1
+					},
+					"NPC": {
+						"Johnathon": 1,
+						"Bartender": 1,
+						"Fluffs": 1,
+						"Assistant Serf": 1,
+						"Anna Jones": 1,
+						"Cook": 1,
+						"Surok Magis": 1,
+						"Happy imp": 1,
+						"Movario": 1
+					},
+					"Connect": {
+						"10571": true,
+						"12625": true,
+						"14167": true
+					},
+					"Spawn": {
+						"Logs": 9,
+						"Thread": 1
+					},
+					"Quest": {
+						"Ancient Awakening": "step",
+						"Bar Crawl (miniquest)": "step",
+						"Chef's Assistant": "step",
+						"Family Crest": "step",
+						"God Emissaries Exploration": "step",
+						"The Hunt for Surok (miniquest)": "first",
+						"Imp Catcher": "step",
+						"Once Upon a Time in Gielinor: Flashback": "step",
+						"Twilight of the Gods": "step"
+					}
+				},
+				"2": {}
 			},
 			"Nickname": "Jolly Boar Inn"
 		},
@@ -178692,19 +178809,25 @@
 			"Nickname": "Fort Forinthry"
 		},
 		"13112": {
-			"NPC": {
-				"Will o' the wisp": 10
-			},
-			"Monster": {
-				"Fetid zombie": 10,
-				"Bound skeleton": 10,
-				"Demon Boss (Wilderness)": 1
-			},
-			"Connect": {
-				"22": true
-			},
-			"Quest": {
-				"Unwelcome Guests": "step"
+			
+			"Sections": {
+				"1": {
+					"NPC": {
+						"Will o' the wisp": 10
+					},
+					"Monster": {
+						"Fetid zombie": 10,
+						"Bound skeleton": 10,
+						"Demon Boss (Wilderness)": 1
+					},
+					"Connect": {
+						"22": true
+					},
+					"Quest": {
+						"Unwelcome Guests": "step"
+					}
+				},
+				"2": {}
 			},
 			"Nickname": "Old Crypt Entrance"
 		},
@@ -178791,7 +178914,11 @@
 			"Nickname": "Rogues' Castle"
 		},
 		"13118": {
-			"Nickname": "Rogues' Castle Coast"
+			"Sections": {
+				"1": {},
+				"2": {}
+			},
+			"Nickname": "North-West Wilderness Volcano Edge"
 		},
 		"13121": {
 			"Object": {
@@ -179207,276 +179334,357 @@
 			"Name": "War's Retreat"
 		},
 		"13354": {
-			"Object": {
-				"Stepping Stone": 1
-			},
-			"Monster": {
-				"Camel Warrior": 7
-			},
-			"Quest": {
-				"Crocodile Tears": "step"
+			"Sections": {
+				"1": {
+					"Object": {
+						"Stepping Stone": 1
+					},
+					"Monster": {
+						"Camel Warrior": 7
+					},
+					"Quest": {
+						"Crocodile Tears": "step"
+					}
+				},
+				"2": {}
 			},
 			"Nickname": "West Camel Warrior Island"
 		},
 		"13355": {
-			"Object": {
-				"Kharidian cactus (healthy)": 7,
-				"Small obelisk": 1,
-				"Stepping Stone": 1,
-				"Red sandstone (rock)": 1
-			},
-			"Monster": {
-				"Lizard": 9,
-				"Vulture": 3,
-				"Crocodile#Level 40": 11
-			},
-			"NPC": {
-				"Doorman": 2
-			},
-			"Quest": {
-				"Enchanted Key": "step",
-				"Heart of Stone": "step"
+			"Sections": {
+				"1": {
+					"Object": {
+						"Kharidian cactus (healthy)": 7,
+						"Small obelisk": 1,
+						"Stepping Stone": 1,
+						"Red sandstone (rock)": 1
+					},
+					"Monster": {
+						"Lizard": 9,
+						"Vulture": 3,
+						"Crocodile#Level 40": 11
+					},
+					"NPC": {
+						"Doorman": 2
+					},
+					"Quest": {
+						"Enchanted Key": "step",
+						"Heart of Stone": "step"
+					}
+				},
+				"2": {}
 			},
 			"Nickname": "Sophanem Red Sandstone"
 		},
 		"13356": {
-			"Object": {
-				"Kharidian cactus (healthy)": 2,
-				"Gap": 15,
-				"Ledge": 8,
-				"Plank": 4,
-				"Tome": 1,
-				"The Heart of Gielinor": 1
-			},
-			"NPC": {
-				"Simon Templeton": 1,
-				"Pyramid block": 2,
-				"Talent scout": 1,
-				"The Curator": 1,
-				"Trainee adventurer": 3
-			},
-			"Monster": {
-				"Vulture": 3,
-				"Mummy (Ullek)": 4
-			},
-			"Connect": {
-				"12908": true
-			},
-			"Quest": {
-				"Azzanadra's Quest": "step",
-				"City of Senntisten": "first",
-				"Crocodile Tears": "step",
-				"Curse of the Black Stone": "step",
-				"Dealing with Scabaras": "step",
-				"Desperate Measures": "step",
-				"Tales of the God Wars (miniquest)": "first"
+			"Sections": {
+				"1": {
+					"Object": {
+						"Kharidian cactus (healthy)": 2,
+						"Gap": 15,
+						"Ledge": 8,
+						"Plank": 4,
+						"Tome": 1,
+						"The Heart of Gielinor": 1
+					},
+					"NPC": {
+						"Simon Templeton": 1,
+						"Pyramid block": 2,
+						"Talent scout": 1,
+						"The Curator": 1,
+						"Trainee adventurer": 3
+					},
+					"Monster": {
+						"Vulture": 3
+					},
+					"Connect": {
+						"12908": true
+					},
+					"Quest": {
+						"Azzanadra's Quest": "step",
+						"City of Senntisten": "first",
+						"Crocodile Tears": "step",
+						"Curse of the Black Stone": "step",
+						"Dealing with Scabaras": "step",
+						"Desperate Measures": "step",
+						"Tales of the God Wars (miniquest)": "first"
+					}
+				},
+				"2": {
+					"Monster": {
+						"Mummy (Ullek)": 4
+					}
+				}
 			},
 			"Nickname": "Jaleustrophos"
 		},
 		"13357": {
-			"Object": {
-				"Crevice": 8
-			},
-			"Monster": {
-				"Jackal": 14
-			},
-			"NPC": {
-				"Rug merchant": 1,
-				"Monkey": 1,
-				"Wingstone": 1,
-				"Trainee adventurer": 11
-			},
-			"Connect": {
-				"12908": true,
-				"13457": true
-			},
-			"Quest": {
-				"Sliske's Endgame": "step"
+			"Sections": {
+				"1": {
+					"Object": {
+						"Crevice": 8
+					},
+					"Monster": {
+						"Jackal": 11
+					},
+					"NPC": {
+						"Rug merchant": 1,
+						"Monkey": 1,
+						"Wingstone": 1,
+						"Trainee adventurer": 11
+					},
+					"Connect": {
+						"12908": true,
+						"13457": true
+					},
+					"Quest": {
+						"Sliske's Endgame": "step"
+					}
+				},
+				"2": {
+					"Monster": {
+						"Jackal": 3
+					},
+					"NPC": {
+						"Rug merchant": 1,
+						"Monkey": 1
+					}
+				}
 			},
 			"Nickname": "Elid Genie Cave"
 		},
 		"13358": {
-			"Object": {
-				"Cupboard": 5,
-				"Kharidian cactus (healthy)": 11,
-				"Fountain": 1,
-				"Study desk": 1,
-				"Landscape": 1,
-				"Cactus": 1,
-				"Portal": 1,
-				"Small obelisk": 1,
-				"Well": 1,
-				"Steps": 2
-			},
-			"NPC": {
-				"Isma'il the Kebab seller": 1,
-				"Market seller": 1,
-				"Street urchin": 3,
-				"Hakeem the Mayor": 1,
-				"Maysa the Hag": 1,
-				"Badir the Snake Charmer": 1,
-				"Jasim the Camel": 2,
-				"Snake": 1,
-				"Blackjack seller": 1,
-				"Bandit Leader": 1,
-				"Cowardly Bandit": 1,
-				"Menaphite Leader": 1,
-				"Rashid the Operator": 1,
-				"Rug merchant": 1,
-				"Monkey": 1,
-				"Rana the dyer": 1,
-				"Aristarchus": 1,
-				"Sumona": 1,
-				"Ali Cat": 1,
-				"Jalal the Drunk": 1,
-				"Faisal the Barman": 1,
-				"Sami the Camel Man": 1
-			},
-			"Monster": {
-				"Desert snake": 4,
-				"Bandit": 9,
-				"Villager": 14,
-				"Menaphite Thug": 10
-			},
-			"Connect": {
-				"7503": true,
-				"13458": true
-			},
-			"Spawn": {
-				"Bucket": 2,
-				"Beer glass": 1
-			},
-			"Shop": {
-				"Snake charms": true,
-				"Blackjacks": true,
-				"The Asp & Snake Bar": true,
-				"Kebabs": true,
-				"Pollnivneach General Store": true,
-				"Slayer Equipment": true
-			},
-			"Quest": {
-				"The Feud": "step",
-				"My Arm's Big Adventure": "step",
-				"Our Man in the North": "step",
-				"Rat Catchers": "step",
-				"Smoking Kills": "first",
-				"Beneath Scabaras' Sands": "step",
-				"Pharaoh's Folly": "step",
-				"Rogue Trader": "step"
+			"Sections": {
+				"1": {
+					"Object": {
+						"Cupboard": 5,
+						"Kharidian cactus (healthy)": 11,
+						"Fountain": 1,
+						"Study desk": 1,
+						"Landscape": 1,
+						"Cactus": 1,
+						"Portal": 1,
+						"Small obelisk": 1,
+						"Well": 1,
+						"Steps": 2
+					},
+					"NPC": {
+						"Isma'il the Kebab seller": 1,
+						"Market seller": 1,
+						"Street urchin": 3,
+						"Hakeem the Mayor": 1,
+						"Maysa the Hag": 1,
+						"Badir the Snake Charmer": 1,
+						"Jasim the Camel": 2,
+						"Snake": 1,
+						"Blackjack seller": 1,
+						"Bandit Leader": 1,
+						"Cowardly Bandit": 1,
+						"Menaphite Leader": 1,
+						"Rashid the Operator": 1,
+						"Rug merchant": 1,
+						"Monkey": 1,
+						"Rana the dyer": 1,
+						"Aristarchus": 1,
+						"Sumona": 1,
+						"Ali Cat": 1,
+						"Jalal the Drunk": 1,
+						"Faisal the Barman": 1,
+						"Sami the Camel Man": 1
+					},
+					"Monster": {
+						"Desert snake": 4,
+						"Bandit": 9,
+						"Villager": 14,
+						"Menaphite Thug": 10
+					},
+					"Connect": {
+						"7503": true,
+						"13458": true
+					},
+					"Spawn": {
+						"Bucket": 2,
+						"Beer glass": 1
+					},
+					"Shop": {
+						"Snake charms": true,
+						"Blackjacks": true,
+						"The Asp & Snake Bar": true,
+						"Kebabs": true,
+						"Pollnivneach General Store": true,
+						"Slayer Equipment": true
+					},
+					"Quest": {
+						"The Feud": "step",
+						"My Arm's Big Adventure": "step",
+						"Our Man in the North": "step",
+						"Rat Catchers": "step",
+						"Smoking Kills": "first",
+						"Beneath Scabaras' Sands": "step",
+						"Pharaoh's Folly": "step",
+						"Rogue Trader": "step"
+					}
+				},
+				"2": {},
+				"3": {}
 			},
 			"Nickname": "Pollnivneach"
 		},
 		"13359": {
-			"Object": {
-				"Kharidian cactus (healthy)": 25
-			},
-			"Monster": {
-				"Lizard": 2,
-				"Desert lizard": 2,
-				"Small lizard": 4,
-				"Goat": 4
-			},
-			"NPC": {
-				"Ali the Wise": 1
-			},
-			"Quest": {
-				"The Tale of the Muspah": "step"
+			"Sections": {
+				"1": {
+					"Object": {
+						"Kharidian cactus (healthy)": 5
+					},
+					"Monster": {
+						"Goat": 4
+					},
+					"NPC": {
+						"Ali the Wise": 1
+					},
+					"Quest": {
+						"The Tale of the Muspah": "step"
+					}
+				},
+				"2": {
+					"Object": {
+						"Kharidian cactus (healthy)": 5
+					},
+					"Monster": {
+						"Goat": 4
+					}
+				}
 			},
 			"Nickname": "Muspah Statue"
 		},
 		"13360": {
-			"Object": {
-				"Kharidian cactus (healthy)": 19,
-				"Eye Symbol": 1
-			},
-			"NPC": {
-				"Desert Phoenix": 1
-			},
-			"Connect": {
-				"13460": true,
-				"13461": true,
-				"14948": true
-			},
-			"Spawn": {
-				"Shortbow": 1,
-				"Bronze arrow": 3
-			},
-			"Shops": {
-				"Dominion Tower Rewards": true
-			},
-			"Monster": {
-				"Dominion Tower Rewards": true
+			"Sections": {
+				"1": {
+					"Object": {
+						"Kharidian cactus (healthy)": 19,
+						"Eye Symbol": 1
+					},
+					"NPC": {
+						"Desert Phoenix": 1
+					},
+					"Connect": {
+						"13460": true,
+						"14948": true
+					},
+					"Spawn": {
+						"Shortbow": 1,
+						"Bronze arrow": 3
+					},
+					"Shops": {
+						"Dominion Tower Rewards": true
+					},
+					"Monster": {
+						"Dominion Tower Rewards": true
+					}
+				},
+				"2": {}
 			},
 			"Nickname": "Dominion Tower"
 		},
 		"13361": {
-			"Object": {
-				"Kharidian cactus (healthy)": 13,
-				"Dark Tunnel": 1,
-				"Archaeologist's workbench": 1,
-				"Bank chest": 1,
-				"Material cache (samite silk)": 6,
-				"Venator remains": 1,
-				"Legionary remains": 1,
-				"Fort debris": 1
-			},
-			"NPC": {
-				"Mound": 12,
-				"strykewyrm hunter": 1,
-				"Menaphite Smuggler": 1,
-				"Intern": 2,
-				"Farhad": 1,
-				"Dafi": 1,
-				"Munsim": 1,
-				"Archaeologist": 2,
-				"Dr Nabanik": 1
-			},
-			"Monster": {
-				"Desert strykewyrm": 12
-			},
-			"Connect": {
-				"2": true,
-				"20598": true
-			},
-			"Quest": {
-				"Aftermath": "step",
-				"The Vault of Shadows": "first",
-				"Breaking the Seal": "first",
-				"The Cult of Orcus": "first",
-				"Decimation": "first",
-				"Shadow Fall": "first",
-				"Tomes of the Warlock": "step"
+			"Sections": {
+				"1": {
+					"Object": {
+						"Archaeologist's workbench": 1,
+						"Bank chest": 1,
+						"Material cache (samite silk)": 2,
+						"Venator remains": 1,
+						"Legionary remains": 1,
+						"Fort debris": 1
+					},
+					"NPC": {
+						"Mound": 12,
+						"Strykewyrm hunter": 1,
+						"Menaphite Smuggler": 1,
+						"Intern": 2,
+						"Farhad": 1,
+						"Dafi": 1,
+						"Munsim": 1,
+						"Archaeologist": 2,
+						"Dr Nabanik": 1
+					},
+					"Monster": {
+						"Desert strykewyrm": 12
+					},
+					"Quest": {
+						"Aftermath": "step",
+						"The Vault of Shadows": "first",
+						"Breaking the Seal": "first",
+						"The Cult of Orcus": "first",
+						"Decimation": "first",
+						"Shadow Fall": "first",
+						"Tomes of the Warlock": "step"
+					},
+					"Connect": {
+						"2": true,
+						"20598": true
+					}
+				},
+				"2": {
+					"Object": {
+						"Kharidian cactus (healthy)": 13,
+						"Dark Tunnel": 1,
+						"Material cache (samite silk)": 4
+					},
+					"Connect": {
+						"20598": true
+					}
+				},
+				"3": {}
 			},
 			"Nickname": "Kharid-et Digsite"
 		},
 		"13362": {
-			"Object": {
-				"Bank chest": 2,
-				"Scoreboard": 1,
-				"Altar": 1,
-				"Material cache (samite silk)": 2,
-				"Cactus patch": 1,
-				"Rose bush": 1,
-				"Iris bush": 1,
-				"Hydrangea bush": 1,
-				"Hollyhock bush": 1
-			},
-			"NPC": {
-				"Zahwa": 1,
-				"Afrah": 1,
-				"Jabari": 1,
-				"Het": 1,
-				"Chito": 1,
-				"Frito": 1
-			},
-			"Connect": {
-				"4957": true,
-				"6473": true
-			},
-			"Quest": {
-				"Benedict's World Tour (miniquest)": "step",
-				"Eye of Het I": "step",
-				"Eclipse of the Heart": "step"
+			"Sections": {
+				"1": {
+					"Object": {
+						"Flower basket": 2,
+						"Rose bush": 1,
+						"Iris bush": 1
+					},
+					"NPC": {
+						"Zahwa": 1,
+						"Afrah": 1,
+						"Jabari": 1,
+						"Het": 1,
+						"Chito": 1,
+						"Frito": 1,
+						"Plain whirligig": 8
+					},
+					"Connect": {
+						"4957": true
+					},
+					"Quest": {
+						"Benedict's World Tour (miniquest)": "step",
+						"Eye of Het I": "step",
+						"Eclipse of the Heart": "step"
+					}
+				},
+				"2": {},
+				"3": {
+					"Object": {
+						"Hollyhock bush": 1,
+						"Cactus patch": 1
+					},
+					"Connect": {
+						"6473": true
+					}
+				},
+				"4": {
+					"Object": {
+						"Flower basket": 2,
+						"Material cache (samite silk)": 2,
+						"Hydrangea bush": 1
+					},
+					"NPC": {
+						"Plain whirligig": 8
+					}
+				}
 			},
 			"Nickname": "Het's Oasis"
 		},
@@ -179616,97 +179824,133 @@
 			"Nickname": "Digsite"
 		},
 		"13366": {
-			"Object": {
-				"Wish list": 2,
-				"Tree": 12,
-				"Bone stile": 2,
-				"Crate": 1,
-				"Chest": 1,
-				"Limestone mine": 1,
-				"Box": 1,
-				"Rock": 1,
-				"Bank deposit box": 1,
-				"Limestone rock": 4,
-				"Material cache (fossilised bone)": 3
-			},
-			"Monster": {
-				"Bat": 12,
-				"Skeletal horror": 1
-			},
-			"NPC": {
-				"Squire Fyre": 1,
-				"Odd Old Man": 1,
-				"Brother Samwell": 1,
-				"Icthlarin": 1,
-				"Death": 1,
-				"Maria": 1,
-				"Archaeologist": 1
-			},
-			"Connect": {
-				"15176": true
-			},
-			"Quest": {
-				"All Fired Up": "step",
-				"Broken Home": "first",
-				"Fur 'n Seek": "first",
-				"Fur 'n Seek#Wish List": "first",
-				"Missing, Presumed Death": "first",
-				"Rag and Bone Man": "first",
-				"Rag and Bone Man#Wish List": "first"
+			"Sections": {
+				"1": {
+					"Object": {
+						"Wish list": 2,
+						"Tree": 12,
+						"Bone stile": 2,
+						"Crate": 1,
+						"Chest": 1,
+						"Limestone mine": 1,
+						"Box": 1,
+						"Rock": 1,
+						"Bank deposit box": 1,
+						"Limestone rock": 4,
+						"Material cache (fossilised bone)": 3
+					},
+					"Monster": {
+						"Bat": 12,
+						"Skeletal horror": 1
+					},
+					"NPC": {
+						"Squire Fyre": 1,
+						"Odd Old Man": 1,
+						"Brother Samwell": 1,
+						"Icthlarin": 1,
+						"Death": 1,
+						"Maria": 1,
+						"Archaeologist": 1
+					},
+					"Connect": {
+						"15176": true
+					},
+					"Quest": {
+						"All Fired Up": "step",
+						"Broken Home": "first",
+						"Fur 'n Seek": "first",
+						"Fur 'n Seek#Wish List": "first",
+						"Missing, Presumed Death": "first",
+						"Rag and Bone Man": "first",
+						"Rag and Bone Man#Wish List": "first"
+					}
+				},
+				"2": {}
 			},
 			"Nickname": "Silvarea Pass"
 		},
 		"13367": {
-			"Object": {
-				"North-east wall": 1,
-				"East wall": 1,
-				"South-east wall": 1,
-				"Altar": 1,
-				"Chapel burner": 2
-			},
-			"Quest": {
-				"Ancient Awakening": "step",
-				"New Foundations": "step",
-				"Succession": "step"
+			"Sections": {
+				"1": {
+					"Quest": {
+						"New Foundations": "step"
+					}
+				},
+				"2": {
+					"Object": {
+						"North-east wall": 1,
+						"East wall": 1,
+						"South-east wall": 1
+					},
+					"Quest": {
+						"Ancient Awakening": "step"
+					}
+				},
+				"3": {
+					"Quest": {
+						"Succession": "step"
+					}
+				}
 			},
 			"Nickname": "East of Fort Forinthry"
 		},
 		"13368": {
-			"Monster": {
-				"Waterfiend": 9
-			},
-			"NPC": {
-				"Gull": 3,
-				"Rook": 1,
-				"Torsteg": 1,
-				"Hilda": 1,
-				"Lobster": 2
+			"Sections": {
+				"1": {
+					"Monster": {
+						"Waterfiend": 9
+					},
+					"NPC": {
+						"Gull": 3,
+						"Rook": 1,
+						"Torsteg": 1,
+						"Hilda": 1,
+						"Lobster": 2
+					}
+				},
+				"2": {}
 			},
 			"Nickname": "Daemonheim Entrance"
 		},
 		"13369": {
-			"Monster": {
-				"Green dragon": 11,
-				"Waterfiend": 4,
-				"Demon Boss (Wilderness)": 1
-			},
-			"Quest": {
-				"Enchanted Key": "step"
+			"Sections": {
+				"1": {
+					"Monster": {
+						"Green dragon": 11,
+						"Waterfiend": 4,
+						"Demon Boss (Wilderness)": 1
+					},
+					"Quest": {
+						"Enchanted Key": "step"
+					}
+				},
+				"2": {},
+				"3": {}
 			},
 			"Nickname": "East Green Dragons"
 		},
 		"13370": {
-			"Monster": {
-				"Soulgazer": 2,
-				"Crashed star": 1
-			},
-			"NPC": {
-				"Gull": 1,
-				"Charming moth": 12
-			},
-			"Spawn": {
-				"Bones": 1,
-				"Skull": 1
+			"Sections": {
+				"1": {
+					"Monster": {
+						"Soulgazer": 2
+					},
+					"NPC": {
+						"Gull": 1,
+						"Charming moth": 12
+					},
+					"Spawn": {
+						"Bones": 1,
+						"Skull": 1
+					}
+				},
+				"2": {
+					"Object": {
+						"Crashed star": 1,
+						"Zephyrium rock": 1
+					}
+				},
+				"3": {}
 			},
 			"Nickname": "Charming Moths"
 		},
@@ -179721,32 +179965,46 @@
 			"Nickname": "East Wilderness Fishing"
 		},
 		"13372": {
-			"Object": {
-				"Dragonkin Laboratory": 1
-			},
-			"NPC": {
-				"Edward": 1,
-				"Sif": 1,
-				"Bryll Thoksdottir": 1
-			},
-			"Monster": {
-				"Greater demon ash lord": 1
-			},
-			"Connect": {
-				"12865": true,
-				"20112": true
-			},
-			"Shop": {
-				"Elite Dungeon Reward Shop": true,
-				"Edward's Wilderness Cape Shop": true
+			"Sections": {
+				"1": {
+					"Object": {
+						"Dragonkin Laboratory": 1
+					},
+					"NPC": {
+						"Edward": 1,
+						"Sif": 1,
+						"Bryll Thoksdottir": 1
+					},
+					"Monster": {
+						"Greater demon ash lord": 1
+					},
+					"Connect": {
+						"12865": true,
+						"20112": true
+					},
+					"Shop": {
+						"Elite Dungeon Reward Shop": true,
+						"Edward's Wilderness Cape Shop": true
+					}
+				},
+				"2": {}
 			},
 			"Nickname": "Dragonkin Laboratory Entrance"
 		},
 		"13373": {
+			"Sections": {
+				"1": {},
+				"2": {},
+				"3": {}
+			},
 			"Nickname": "Wilderness Volcano"
 		},
 		"13374": {
-			"Nickname": "Wilderness Volcano North Coast"
+			"Sections": {
+				"1": {},
+				"2": {}
+			},
+			"Nickname": "North Wilderness Volcano Edge"
 		},
 		"13393": {
 			"Object": {
@@ -179915,13 +180173,18 @@
 			"Nickname": "Ullek Marsh"
 		},
 		"13612": {
-			"Monster": {
-				"Dried zombie": 9,
-				"Skeleton (Ullek)": 11
-			},
-			"Connect": {
-				"13712": true,
-				"13968": true
+			"Sections": {
+				"1": {},
+				"2": {
+					"Monster": {
+						"Dried zombie": 9,
+						"Skeleton (Ullek)": 11
+					},
+					"Connect": {
+						"13712": true,
+						"13968": true
+					}
+				}
 			},
 			"Nickname": "Ullek Plateau"
 		},
@@ -180032,120 +180295,156 @@
 			"Nickname": "Desert Hunter Area"
 		},
 		"13617": {
-			"Object": {
-				"Kharidian cactus (healthy)": 3,
-				"Cave": 1,
-				"Altar": 1,
-				"Statue of Saint Elspeth": 1,
-				"Cooking range": 1,
-				"Sink": 1,
-				"Crate": 1,
-				"Footlocker": 12,
-				"Drawers": 8,
-				"Cabbage": 12,
-				"Shelves": 20,
-				"Bookcase": 7,
-				"Clock mechanism": 1,
-				"Sack": 2,
-				"Sacks": 5
-			},
-			"NPC": {
-				"Musician": 2,
-				"Abbess Benita": 1,
-				"Sister Catherina": 3,
-				"Valerio": 2,
-				"Citharede Sister": 6,
-				"Organist": 1,
-				"Dancer": 2,
-				"Sister Cecilia": 2,
-				"Cecilia": 1,
-				"Sister Elena": 1,
-				"Feet": 1,
-				"Sister Debora": 1
-			},
-			"Connect": {
-				"13717": true,
-				"13973": true
-			},
-			"Spawn": {
-				"Lyric sheet": 1,
-				"Hymn book": 1
-			},
-			"Quest": {
-				"Curse of the Black Stone": "step",
-				"One Piercing Note": "first"
+			"Sections": {
+				"1": {
+					"Object": {
+						"Kharidian cactus (healthy)": 3,
+						"Cave": 1,
+						"Altar": 1,
+						"Statue of Saint Elspeth": 1,
+						"Cooking range": 1,
+						"Sink": 1,
+						"Crate": 1,
+						"Footlocker": 12,
+						"Drawers": 8,
+						"Cabbage": 12,
+						"Shelves": 20,
+						"Bookcase": 7,
+						"Clock mechanism": 1,
+						"Sack": 2,
+						"Sacks": 5
+					},
+					"NPC": {
+						"Musician": 2,
+						"Abbess Benita": 1,
+						"Sister Catherina": 3,
+						"Valerio": 2,
+						"Citharede Sister": 6,
+						"Organist": 1,
+						"Dancer": 2,
+						"Sister Cecilia": 2,
+						"Cecilia": 1,
+						"Sister Elena": 1,
+						"Feet": 1,
+						"Sister Debora": 1
+					},
+					"Spawn": {
+						"Lyric sheet": 1,
+						"Hymn book": 1
+					},
+					"Quest": {
+						"Curse of the Black Stone": "step",
+						"One Piercing Note": "first"
+					},
+					"Connect": {
+						"13973": true
+					}
+				},
+				"2": {
+					"Object": {
+						"Cave": 1
+					},
+					"Connect": {
+						"13717": true
+					}
+				}
 			},
 			"Nickname": "Abbey of St. Elspeth Citharede"
 		},
 		"13618": {
-			"Object": {
-				"Cart tunnel": 3,
-				"Mine cart": 1
-			},
-			"NPC": {
-				"Zealot": 1
-			},
-			"Connect": {
-				"11079": true,
-				"13718": true
-			},
-			"Quest": {
-				"Haunted Mine": "first"
+			"Sections": {
+				"1": {},
+				"2": {
+					"Object": {
+						"Cart tunnel": 3,
+						"Mine cart": 1
+					},
+					"NPC": {
+						"Zealot": 1
+					},
+					"Quest": {
+						"Haunted Mine": "first"
+					},
+					"Connect": {
+						"11079": true,
+						"13718": true
+					}
+				}
 			},
 			"Nickname": "Abandoned Mine"
 		},
 		"13619": {
-			"Object": {
-				"Swamp tree": 6,
-				"Energy rift": 1,
-				"Fishing spot (slimy eels)": 6
-			},
-			"NPC": {
-				"Will o' the wisp": 3,
-				"Bill Blakey": 1,
-				"Brilliant wisp": 13,
-				"Enriched brilliant wisp": 1
-			},
-			"Monster": {
-				"Myre Blamish Snail": 21,
-				"Ochre Blamish Snail": 10,
-				"Bark Blamish Snail": 5
-			},
-			"Connect": {
-				"9541": true,
-				"23130": true
-			},
-			"Spawn": {
-				"Swamp tar": 9
+			"Sections": {
+				"1": {
+					"Object": {
+						"Energy rift": 1
+					},
+					"NPC": {
+						"Brilliant wisp": 13,
+						"Enriched brilliant wisp": 1
+					},
+					"Connect": {
+						"9541": true,
+						"23130": true
+					}
+				},
+				"2": {
+					"Object": {
+						"Swamp tree": 6,
+						"Fishing spot (slimy eels)": 6
+					},
+					"NPC": {
+						"Will o' the wisp": 3,
+						"Bill Blakey": 1
+					},
+					"Monster": {
+						"Myre Blamish Snail": 21,
+						"Ochre Blamish Snail": 10,
+						"Bark Blamish Snail": 5
+					},
+					"Spawn": {
+						"Swamp tar": 9
+					}
+				},
+				"3": {}
 			},
 			"Nickname": "Path to Mort'ton"
 		},
 		"13620": {
-			"Object": {
-				"Bridge": 4,
-				"Stone": 3,
-				"Swamp tree": 7
-			},
-			"NPC": {
-				"Will o' the wisp": 13,
-				"Ghast": 34,
-				"Filliman Tarlock": 1
-			},
-			"Monster": {
-				"Myre Blamish Snail": 11,
-				"Ochre Blamish Snail": 4,
-				"Bark Blamish Snail": 1
-			},
-			"Connect": {
-				"9043": true,
-				"18517": true
-			},
-			"Spawn": {
-				"Swamp tar": 10,
-				"Washing bowl": 1
-			},
-			"Quest": {
-				"Nature Spirit": "first"
+			"Sections": {
+				"1": {
+					"Object": {
+						"Bridge": 4,
+						"Stone": 3,
+						"Swamp tree": 7
+					},
+					"NPC": {
+						"Will o' the wisp": 13,
+						"Ghast": 34,
+						"Filliman Tarlock": 1
+					},
+					"Monster": {
+						"Myre Blamish Snail": 11,
+						"Ochre Blamish Snail": 4,
+						"Bark Blamish Snail": 1
+					},
+					"Spawn": {
+						"Swamp tar": 10,
+						"Washing bowl": 1
+					},
+					"Quest": {
+						"Nature Spirit": "first"
+					},
+					"Connect": {
+						"9043": true
+					}
+				},
+				"2": {
+					"Connect": {
+						"18517": true
+					}
+				},
+				"3": {}
 			},
 			"Nickname": "Nature Grotto"
 		},
@@ -180277,86 +180576,108 @@
 			"Nickname": "Daemonheim Peninsula"
 		},
 		"13625": {
-			"Object": {
-				"Material cache (chaotic brimstone)": 3,
-				"Argonite rock": 5,
-				"Katagon rock": 5,
-				"Material cache (Eye of Dagon)": 3
-			},
-			"NPC": {
-				"Skaldrun": 1,
-				"Rewards trader": 1,
-				"Thok, Master of Dungeoneering": 1,
-				"Estrith": 1,
-				"Wiglaf": 1,
-				"Chicken": 2,
-				"Talsar": 1,
-				"Kerapac": 1,
-				"Gorajo hoardstalker": 1,
-				"Bryll Thoksdottir": 1,
-				"Archaeologist": 1
-			},
-			"Shop": {
-				"Elite Dungeon Reward Shop": true,
-				"Daemonheim Rewards": true,
-				"Daemonheim Rewards (F2P)": true
-			},
-			"Connect": {
-				"5140": true
-			},
-			"Quest": {
-				"Curse of the Black Stone": "first",
-				"Nadir (abridged saga)": "step",
-				"Nadir (unabridged saga)": "step",
-				"Remains of the Necrolord": "step",
-				"Thok It To 'Em (abridged saga)": "step",
-				"Thok It To 'Em (unabridged saga)": "step",
-				"Thok Your Block Off (abridged saga)": "step",
-				"Thok Your Block Off (unabridged saga)": "step",
-				"Three's Company (abridged saga)": "step",
-				"Three's Company (unabridged saga)": "step",
-				"Vengeance (abridged saga)": "step",
-				"Vengeance (unabridged saga)": "step",
-				"Mahjarrat Memories (miniquest)": "step",
-				"Plague's End": "step",
-				"A New Home": "first",
-				"A New Form": "first",
-				"A New Age": "first"
+			"Sections": {
+				"1": {
+					"Object": {
+						"Material cache (chaotic brimstone)": 3,
+						"Material cache (Eye of Dagon)": 3
+					},
+					"NPC": {
+						"Skaldrun": 1,
+						"Rewards trader": 1,
+						"Thok, Master of Dungeoneering": 1,
+						"Estrith": 1,
+						"Wiglaf": 1,
+						"Chicken": 2,
+						"Talsar": 1,
+						"Kerapac": 1,
+						"Gorajo hoardstalker": 1,
+						"Bryll Thoksdottir": 1,
+						"Archaeologist": 1
+					},
+					"Shop": {
+						"Elite Dungeon Reward Shop": true,
+						"Daemonheim Rewards": true,
+						"Daemonheim Rewards (F2P)": true
+					},
+					"Quest": {
+						"Curse of the Black Stone": "first",
+						"Nadir (abridged saga)": "step",
+						"Nadir (unabridged saga)": "step",
+						"Remains of the Necrolord": "step",
+						"Thok It To 'Em (abridged saga)": "step",
+						"Thok It To 'Em (unabridged saga)": "step",
+						"Thok Your Block Off (abridged saga)": "step",
+						"Thok Your Block Off (unabridged saga)": "step",
+						"Three's Company (abridged saga)": "step",
+						"Three's Company (unabridged saga)": "step",
+						"Vengeance (abridged saga)": "step",
+						"Vengeance (unabridged saga)": "step",
+						"Mahjarrat Memories (miniquest)": "step",
+						"Plague's End": "step",
+						"A New Home": "first",
+						"A New Form": "first",
+						"A New Age": "first"
+					}
+				},
+				"2": {
+					"Object": {
+						"Argonite rock": 5,
+						"Katagon rock": 5
+					},
+					"Quest": {
+						"Remains of the Necrolord": "step"
+					},
+					"Connect": {
+						"5140": true
+					}
+				}
 			},
 			"Nickname": "Daemonheim Fremennik Camp"
 		},
 		"13626": {
-		    "Object": {
-		        "Free-for-all barrier": 2,
-		        "Broken-stairs": 1,
-		        "Frozen barrier": 1,
-		        "Abandoned 1 barrier": 1,
-		        "Promethium rock": 5,
-				"Fractite rock": 5,
-		        "Furnished barrier": 1,
-				"Castle hall rubble": 3,
-				"Tunnelling equipment repository": 3,
-				"Botanical reserve": 3,
-				"Novite rock": 5,
-				"Zephyrium rock": 5
-		    },
-			"NPC": {
-				"Fremennik banker": 1,
-				"Dungeoneering tutor": 1,
-				"Cormorant": 1,
-				"Listless dead": 5
-			},
-			"Quest": {
-				"Nadir (abridged saga)": "step",
-				"Nadir (unabridged saga)": "step",
-				"Thok It To 'Em (abridged saga)": "step",
-				"Thok It To 'Em (unabridged saga)": "step",
-				"Thok Your Block Off (abridged saga)": "step",
-				"Thok Your Block Off (unabridged saga)": "step",
-				"Three's Company (abridged saga)": "step",
-				"Three's Company (unabridged saga)": "step",
-				"Vengeance (abridged saga)": "step",
-				"Vengeance (unabridged saga)": "step"
+			"Sections": {
+				"1": {
+					"Object": {
+						"Free-for-all barrier": 2,
+						"Broken-stairs": 1,
+						"Frozen barrier": 1,
+						"Abandoned 1 barrier": 1,
+						"Furnished barrier": 1,
+						"Castle hall rubble": 3,
+						"Tunnelling equipment repository": 3,
+						"Botanical reserve": 3
+					},
+					"NPC": {
+						"Fremennik banker": 1,
+						"Dungeoneering tutor": 1,
+						"Cormorant": 1
+					},
+					"Quest": {
+						"Nadir (abridged saga)": "step",
+						"Nadir (unabridged saga)": "step",
+						"Thok It To 'Em (abridged saga)": "step",
+						"Thok It To 'Em (unabridged saga)": "step",
+						"Thok Your Block Off (abridged saga)": "step",
+						"Thok Your Block Off (unabridged saga)": "step",
+						"Three's Company (abridged saga)": "step",
+						"Three's Company (unabridged saga)": "step",
+						"Vengeance (abridged saga)": "step",
+						"Vengeance (unabridged saga)": "step"
+					}
+				},
+				"2": {
+					"Object": {
+						"Promethium rock": 5,
+						"Fractite rock": 5,
+						"Zephyrium rock": 5
+					}
+				},
+				"3": {
+					"Object": {
+						"Novite rock": 5
+					}
+				}
 			},
 			"Nickname": "West Daemonheim Castle"
 		},
@@ -180613,242 +180934,321 @@
 			"Nickname": "Uzer"
 		},
 		"13873": {
-			"Object": {
-				"Necrite rock": 3,
-				"Platinum rock": 3,
-				"Fishing spot (big fishing net, harpoon)": 12
+			"Sections": {
+				"1": {
+					"Object": {
+						"Fishing spot (big fishing net, harpoon)": 12
+					}
+				},
+				"2": {
+					"Object": {
+						"Necrite rock": 3,
+						"Platinum rock": 3
+					}
+				}
 			},
 			"Nickname": "South Burgh de Rott"
 		},
 		"13874": {
-			"Object": {
-				"Open chest": 1,
-				"Broken down wall": 1,
-				"Rubble Pile": 1,
-				"Closed chest": 1,
-				"Low fence": 1,
-				"Well": 1,
-				"Small obelisk": 1,
-				"Swamp tree": 1,
-				"Crashed star": 1
-			},
-			"Monster": {
-				"Rat": 13,
-				"Feral vampyre": 6
-			},
-			"NPC": {
-				"Hiylik Myna": 1,
-				"Veliaf Hurtz": 1,
-				"Vampyre Juvinate": 2,
-				"Gadderanks": 1,
-				"Elisabeta": 1,
-				"Aurel": 1,
-				"Sorin": 1,
-				"Luscion": 1,
-				"Sergiu": 1,
-				"Radu": 1,
-				"Grigore": 1,
-				"Ileana": 1,
-				"Valeria": 1,
-				"Emilia": 1,
-				"Florin": 1,
-				"Catalina": 1,
-				"Ivan": 1,
-				"Teodor": 1,
-				"Calin": 1,
-				"Mihail": 1,
-				"Nicoleta": 1,
-				"Simona": 1,
-				"Vasile": 1,
-				"Razvan": 1,
-				"Luminata": 1,
-				"Cornelius": 2,
-				"Amelia": 1,
-				"Rory": 1,
-				"Ivan Strom": 1,
-				"Victor": 1,
-				"Helena": 1,
-				"Gabriela": 1,
-				"Smiddi Ryak": 1
-			},
-			"Connect": {
-				"9040": true,
-				"13974": true,
-				"30": true
-			},
-			"Spawn": {
-				"Hammer": 1,
-				"Empty pot": 1,
-				"Bucket": 1
-			},
-			"Shop": {
-				"Aurel's Supplies": true
-			},
-			"Quest": {
-				"In Aid of the Myreque": "step",
-				"Legacy of Seergaze": "step"
+			"Sections": {
+				"1": {
+					"Object": {
+						"Swamp tree": 1
+					}
+				},
+				"2": {
+					"Object": {
+						"Open chest": 1,
+						"Broken down wall": 1,
+						"Rubble Pile": 1,
+						"Closed chest": 1,
+						"Low fence": 1,
+						"Well": 1,
+						"Small obelisk": 1,
+						"Swamp tree": 1,
+						"Crashed star": 1
+					},
+					"Monster": {
+						"Rat": 13
+					},
+					"NPC": {
+						"Hiylik Myna": 1,
+						"Veliaf Hurtz": 1,
+						"Vampyre Juvinate": 2,
+						"Gadderanks": 1,
+						"Elisabeta": 1,
+						"Aurel": 1,
+						"Sorin": 1,
+						"Luscion": 1,
+						"Sergiu": 1,
+						"Radu": 1,
+						"Grigore": 1,
+						"Ileana": 1,
+						"Valeria": 1,
+						"Emilia": 1,
+						"Florin": 1,
+						"Catalina": 1,
+						"Ivan": 1,
+						"Teodor": 1,
+						"Calin": 1,
+						"Mihail": 1,
+						"Nicoleta": 1,
+						"Simona": 1,
+						"Vasile": 1,
+						"Razvan": 1,
+						"Luminata": 1,
+						"Cornelius": 2,
+						"Amelia": 1,
+						"Rory": 1,
+						"Ivan Strom": 1,
+						"Victor": 1,
+						"Helena": 1,
+						"Gabriela": 1,
+						"Smiddi Ryak": 1
+					},
+					"Connect": {
+						"9040": true,
+						"13974": true,
+						"30": true
+					},
+					"Spawn": {
+						"Hammer": 1,
+						"Empty pot": 1,
+						"Bucket": 1
+					},
+					"Shop": {
+						"Aurel's Supplies": true
+					},
+					"Quest": {
+						"In Aid of the Myreque": "step",
+						"Legacy of Seergaze": "step"
+					}
+				},
+				"3": {
+					"Monster": {
+						"Feral vampyre": 6
+					}
+				}
 			},
 			"Nickname": "Burgh de Rott"
 		},
 		"13875": {
-			"Object": {
-				"Dead tree": 4,
-				"Shelf": 1,
-				"Sink": 1,
-				"Broken Wall": 15,
-				"Funeral Pyre": 24,
-				"Swamp tree": 43,
-				"Flamtaer shrine": 1
-			},
-			"NPC": {
-				"Will o' the wisp": 14,
-				"Ulsquire Shauncy": 1,
-				"Razmire Keelgan": 1
-			},
-			"Monster": {
-				"Loar Shadow": 25,
-				"Afflicted": 29
-			},
-			"Connect": {
-				"13975": true
-			},
-			"Spawn": {
-				"Vial": 2,
-				"Smashed glass": 3
-			},
-			"Shop": {
-				"Razmire Builders' Merchants": true,
-				"Razmire General Store": true
-			},
-			"Quest": {
-				"Shades of Mort'ton": "first"
+			"Sections": {
+				"1": {					
+					"Object": {
+						"Dead tree": 4,
+						"Shelf": 1,
+						"Sink": 1,
+						"Broken Wall": 15,
+						"Funeral Pyre": 24,
+						"Swamp tree": 42,
+						"Flamtaer shrine": 1
+					},
+					"NPC": {
+						"Will o' the wisp": 14,
+						"Ulsquire Shauncy": 1,
+						"Razmire Keelgan": 1
+					},
+					"Monster": {
+						"Loar Shadow": 25,
+						"Afflicted": 29
+					},
+					"Connect": {
+						"13975": true
+					},
+					"Spawn": {
+						"Vial": 2,
+						"Smashed glass": 3
+					},
+					"Shop": {
+						"Razmire Builders' Merchants": true,
+						"Razmire General Store": true
+					},
+					"Quest": {
+						"Shades of Mort'ton": "first"
+					}
+				},
+				"2": {
+					"Object": {
+						"Swamp tree": 1
+					}
+				},
+				"3": {},
+				"4": {}
 			},
 			"Nickname": "Mort'ton"
 		},
 		"13876": {
-			"Object": {
-				"Swamp Boat": 1,
-				"Swamp tree": 5
-			},
-			"NPC": {
-				"Will o' the wisp": 7,
-				"Ghast": 59
-			},
-			"Monster": {
-				"Myre Blamish Snail": 11,
-				"Ochre Blamish Snail": 7,
-				"Bruise Blamish Snail": 2,
-				"Blood Blamish Snail": 1
-			},
-			"Spawn": {
-				"Swamp tar": 8
-			},
-			"Quest": {
-				"In Search of the Myreque": "step"
+			"Sections": {
+				"1": {
+					"Object": {
+						"Swamp Boat": 1,
+						"Swamp tree": 5
+					},
+					"NPC": {
+						"Will o' the wisp": 7,
+						"Ghast": 59
+					},
+					"Monster": {
+						"Myre Blamish Snail": 11,
+						"Ochre Blamish Snail": 7,
+						"Bruise Blamish Snail": 2,
+						"Blood Blamish Snail": 1
+					},
+					"Spawn": {
+						"Swamp tar": 8
+					},
+					"Quest": {
+						"In Search of the Myreque": "step"
+					}
+				},
+				"2": {
+					"NPC": {
+						"Will o' the wisp": 7,
+						"Ghast": 2
+					}
+				}
 			},
 			"Nickname": "The Hallows"
 		},
 		"13877": {
-			"Object": {
-				"Rope bridge": 4,
-				"Tree": 2,
-				"Swamp tree": 7,
-				"Fishing spot (slimy eels)": 5
-			},
-			"NPC": {
-				"Will o' the wisp": 9,
-				"Ghast": 45,
-				"Curpile Fyod": 1
-			},
-			"Monster": {
-				"Myre Blamish Snail": 26,
-				"Blood Blamish Snail": 3,
-				"Ochre Blamish Snail": 12,
-				"Bruise Blamish Snail": 3,
-				"Bark Blamish Snail": 4
-			},
-			"Connect": {
-				"9541": true,
-				"13977": true
-			},
-			"Spawn": {
-				"Swamp tar": 19
-			},
-			"Quest": {
-				"In Search of the Myreque": "step",
-				"The Lost Toys (miniquest)": "step"
+			"Sections": {
+				"1": {
+					"Object": {
+						"Swamp tree": 1,
+						"Fishing spot (slimy eels)": 5
+					},
+					"NPC": {
+						"Ghast": 20
+					},
+					"Monster": {
+						"Myre Blamish Snail": 15,
+						"Blood Blamish Snail": 1,
+						"Ochre Blamish Snail": 9,
+						"Bruise Blamish Snail": 2
+					},
+					"Connect": {
+						"9541": true
+					}
+				},
+				"2": {
+					"Object": {
+						"Rope bridge": 2,
+						"Tree": 1,
+						"Swamp tree": 4
+					},
+					"NPC": {
+						"Ghast": 5,
+						"Curpile Fyod": 1
+					},
+					"Monster": {
+						"Blood Blamish Snail": 2,
+						"Bruise Blamish Snail": 1,
+						"Bark Blamish Snail": 2
+					},
+					"Connect": {
+						"13977": true
+					},
+					"Quest": {
+						"In Search of the Myreque": "step",
+						"The Lost Toys (miniquest)": "step"
+					}
+				},
+				"3": {
+					"Object": {
+						"Rope bridge": 2,
+						"Tree": 1
+					},
+					"NPC": {
+						"Ghast": 20
+					},
+					"Monster": {
+						"Myre Blamish Snail": 11,
+						"Ochre Blamish Snail": 3,
+						"Bark Blamish Snail": 2
+					},
+					"Quest": {
+						"In Search of the Myreque": "step"
+					}
+				}
 			},
 			"Nickname": "Myreque Hideout"
 		},
 		"13878": {
-			"Object": {
-				"Crate": 8,
-				"Old Bookshelf": 2,
-				"Bank booth": 6,
-				"Nettles": 3,
-				"Crashed star": 1
-			},
-			"NPC": {
-				"Will o' the wisp": 45,
-				"Banker": 2,
-				"Rufus": 1,
-				"Barker": 1,
-				"Fidelio": 1,
-				"Sbott": 1,
-				"Roavar": 1,
-				"Malak": 1,
-				"Stranger": 1,
-				"Taxidermist": 1,
-				"Achtryn": 1,
-				"Mazchna": 1,
-				"Herald": 1,
-				"Lord Alexei Jovkai": 1
-			},
-			"Monster": {
-				"Boris": 1,
-				"Imre": 1,
-				"Yuri": 1,
-				"Joseph": 1,
-				"Nikolai": 1,
-				"Eduard": 1,
-				"Lev": 1,
-				"Georgy": 1,
-				"Svetlana": 1,
-				"Irina": 1,
-				"Alexis": 1,
-				"Milla": 1,
-				"Galina": 1,
-				"Sofiya": 1,
-				"Ksenia": 1,
-				"Yadviga": 1,
-				"Nikita": 1,
-				"Vera": 1,
-				"Zoja": 1,
-				"Liliya": 1,
-				"Jeroen": 1
-			},
-			"Connect": {
-				"13977": true
-			},
-			"Spawn": {
-				"Pickled brain": 1
-			},
-			"Shop": {
-				"Slayer Equipment": true,
-				"Barker's Haberdashery": true,
-				"General Store (Canifis)": true,
-				"Hair of the Dog": true,
-				"Rufus's Meat Emporium": true,
-				"Tanner": true
-			},
-			"Quest": {
-				"Creature of Fenkenstrain": "step",
-				"Desert Treasure": "step",
-				"The Great Brain Robbery": "step",
-				"In Search of the Myreque": "first",
-				"The Lost Toys (miniquest)": "first",
-				"Wanted!": "step",
-				"While Guthix Sleeps": "step"
+			"Sections": {
+				"1": {
+					"Object": {
+						"Crate": 8,
+						"Old Bookshelf": 2,
+						"Bank booth": 6,
+						"Nettles": 3,
+						"Crashed star": 1
+					},
+					"NPC": {
+						"Will o' the wisp": 45,
+						"Banker": 2,
+						"Rufus": 1,
+						"Barker": 1,
+						"Fidelio": 1,
+						"Sbott": 1,
+						"Roavar": 1,
+						"Malak": 1,
+						"Stranger": 1,
+						"Taxidermist": 1,
+						"Achtryn": 1,
+						"Mazchna": 1,
+						"Herald": 1,
+						"Lord Alexei Jovkai": 1
+					},
+					"Monster": {
+						"Boris": 1,
+						"Imre": 1,
+						"Yuri": 1,
+						"Joseph": 1,
+						"Nikolai": 1,
+						"Eduard": 1,
+						"Lev": 1,
+						"Georgy": 1,
+						"Svetlana": 1,
+						"Irina": 1,
+						"Alexis": 1,
+						"Milla": 1,
+						"Galina": 1,
+						"Sofiya": 1,
+						"Ksenia": 1,
+						"Yadviga": 1,
+						"Nikita": 1,
+						"Vera": 1,
+						"Zoja": 1,
+						"Liliya": 1,
+						"Jeroen": 1
+					},
+					"Connect": {
+						"13977": true
+					},
+					"Spawn": {
+						"Pickled brain": 1
+					},
+					"Shop": {
+						"Slayer Equipment": true,
+						"Barker's Haberdashery": true,
+						"General Store (Canifis)": true,
+						"Hair of the Dog": true,
+						"Rufus's Meat Emporium": true,
+						"Tanner": true
+					},
+					"Quest": {
+						"Creature of Fenkenstrain": "step",
+						"Desert Treasure": "step",
+						"The Great Brain Robbery": "step",
+						"In Search of the Myreque": "first",
+						"The Lost Toys (miniquest)": "first",
+						"Wanted!": "step",
+						"While Guthix Sleeps": "step"
+					}
+				},
+				"2": {},
+				"3": {}
 			},
 			"Nickname": "Canifis"
 		},
