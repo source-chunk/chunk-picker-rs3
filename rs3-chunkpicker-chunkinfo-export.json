@@ -90656,7 +90656,7 @@
 			"~|The Lost Toys (miniquest)|~ 2k": {
 				"BaseQuest": "The Lost Toys (miniquest)",
 				"Description": "Find Booboo",
-				"Chunks": ["14385"],
+				"Chunks": ["14641"],
 				"Tasks": {
 					"~|The Lost Toys (miniquest)|~ 1": "Quest"
 				},
@@ -181342,38 +181342,48 @@
 			"Nickname": "Daemonheim Docks"
 		},
 		"13882": {
-			"Object": {
-				"Abandoned 2 barrier": 1,
-				"Occult barrier": 1,
-				"Bathus rock": 5,
-				"Gorgonite rock": 5,
-				"Marmaros rock": 4,
-				"Warped barrier": 1,
-				"Communal space": 3
-			},
-			"Monster": {
-				"Dungeoneering monsters": 1
-			},
-			"NPC": {
-				"Gull": 1,
-				"Cormorant": 2,
-				"Listless dead": 2
-			},
-			"Quest": {
-				"Nadir (abridged saga)": "first",
-				"Nadir (unabridged saga)": "first",
-				"Remains of the Necrolord": "step",
-				"Thok It To 'Em (abridged saga)": "first",
-				"Thok It To 'Em (unabridged saga)": "first",
-				"Thok Your Block Off (abridged saga)": "first",
-				"Thok Your Block Off (unabridged saga)": "first",
-				"Three's Company (abridged saga)": "first",
-				"Three's Company (unabridged saga)": "first",
-				"Vengeance (abridged saga)": "first",
-				"Vengeance (unabridged saga)": "first"
-			},
-			"Connect": {
-				"34": true
+			"Sections": {
+				"1": {
+					"Object": {
+						"Abandoned 2 barrier": 1,
+						"Occult barrier": 1,
+						"Bathus rock": 5,
+						"Gorgonite rock": 5,
+						"Marmaros rock": 4,
+						"Warped barrier": 1,
+						"Communal space": 3
+					},
+					"Monster": {
+						"Dungeoneering monsters": 1
+					},
+					"NPC": {
+						"Gull": 1,
+						"Cormorant": 2
+					},
+					"Quest": {
+						"Nadir (abridged saga)": "first",
+						"Nadir (unabridged saga)": "first",
+						"Remains of the Necrolord": "step",
+						"Thok It To 'Em (abridged saga)": "first",
+						"Thok It To 'Em (unabridged saga)": "first",
+						"Thok Your Block Off (abridged saga)": "first",
+						"Thok Your Block Off (unabridged saga)": "first",
+						"Three's Company (abridged saga)": "first",
+						"Three's Company (unabridged saga)": "first",
+						"Vengeance (abridged saga)": "first",
+						"Vengeance (unabridged saga)": "first"
+					},
+					"Connect": {
+						"34": true
+					}
+				},
+				"2": {
+					"Object": {
+						"Bathus rock": 5,
+						"Gorgonite rock": 5,
+						"Marmaros rock": 4
+					}
+				}
 			},
 			"Nickname": "East Daemonheim Castle"
 		},
@@ -181581,20 +181591,27 @@
 			"Nickname": "Burgh de Rott Pier"
 		},
 		"14130": {
-			"Object": {
-				"Broken fence": 1,
-				"Swamp tree": 168
-			},
-			"Monster": {
-				"Vampyre Juvinate": 15,
-				"Vampyre Juvenile": 14,
-				"Vyrewatch": 19
-			},
-			"Spawn": {
-				"Bronze pickaxe": 1
-			},
-			"Quest": {
-				"In Aid of the Myreque": "step"
+			"Sections": {
+				"1": {
+					"Object": {
+						"Broken fence": 1,
+						"Swamp tree": 168
+					},
+					"Monster": {
+						"Vampyre Juvinate": 15,
+						"Vampyre Juvenile": 14,
+						"Vyrewatch": 19
+					},
+					"Spawn": {
+						"Bronze pickaxe": 1
+					},
+					"Quest": {
+						"In Aid of the Myreque": "step"
+					}
+				},
+				"2": {},
+				"3": {},
+				"4": {}
 			},
 			"Nickname": "East Burgh de Rott"
 		},
@@ -181631,39 +181648,57 @@
 			"Nickname": "The Barrows"
 		},
 		"14132": {
-			"Monster": {
-				"Vampyre Juvenile": 2
-			},
-			"NPC": {
-				"Lord Alexei Jovkai": 1
-			},
-			"Quest": {
-				"The Darkness of Hallowvale": "step",
-				"The Lost Toys (miniquest)": "step"
+			"Sections": {
+				"1": {
+					"Monster": {
+						"Vampyre Juvenile": 2
+					},
+					"NPC": {
+						"Lord Alexei Jovkai": 1
+					},
+					"Quest": {
+						"The Darkness of Hallowvale": "step",
+						"The Lost Toys (miniquest)": "step"
+					}
+				},
+				"2": {}
 			},
 			"Nickname": "Castle Drakan"
 		},
 		"14133": {
-			"Object": {
-				"Young tree": 12,
-				"Swamp tree": 3
-			},
-			"NPC": {
-				"Ghast": 5,
-				"Green salamander": 12
-			},
-			"Monster": {
-				"Myre Blamish Snail": 5,
-				"Blood Blamish Snail": 3,
-				"Ochre Blamish Snail": 2,
-				"Bruise Blamish Snail": 1,
-				"Bark Blamish Snail": 1
-			},
-			"Connect": {
-				"33": true
-			},
-			"Quest": {
-				"Desert Treasure": "step"
+			"Sections": {
+				"1": {
+					"Object": {
+						"Young tree": 12,
+						"Swamp tree": 3
+					},
+					"NPC": {
+						"Ghast": 4,
+						"Green salamander": 12
+					},
+					"Monster": {
+						"Myre Blamish Snail": 5,
+						"Blood Blamish Snail": 2,
+						"Ochre Blamish Snail": 2,
+						"Bruise Blamish Snail": 1,
+						"Bark Blamish Snail": 1
+					},
+					"Quest": {
+						"Desert Treasure": "step"
+					},
+					"Connect": {
+						"33": true
+					}
+				},
+				"2": {
+					"NPC": {
+						"Ghast": 1
+					},
+					"Monster": {
+						"Blood Blamish Snail": 1
+					}
+				},
+				"3": {}
 			},
 			"Nickname": "Morytania Graveyard"
 		},
@@ -182010,194 +182045,241 @@
 			"Nickname": "Mos Le'Harmless West Coast"
 		},
 		"14385": {
-			"Object": {
-				"Rock": 4,
-				"Boat": 2
-			},
-			"NPC": {
-				"Meiyerditch citizen": 8,
-				"A Meiyerditch child": 3,
-				"Rubbish": 1,
-				"Stray dog": 1,
-				"Cat": 1
-			},
-			"Monster": {
-				"Vampyre Juvenile": 4,
-				"Vyrewatch": 9
-			},
-			"Spawn": {
-				"Bucket": 2,
-				"Bucket of water": 2
-			},
-			"Quest": {
-				"The Darkness of Hallowvale": "step",
-				"The Lord of Vampyrium": "first",
-				"The Lost Toys (miniquest)": "step"
+			"Sections": {
+				"1": {
+					"Object": {
+						"Rock": 4,
+						"Boat": 2
+					},
+					"NPC": {
+						"Meiyerditch citizen": 8,
+						"A Meiyerditch child": 3,
+						"Rubbish": 1,
+						"Stray dog": 1,
+						"Cat": 1
+					},
+					"Monster": {
+						"Vampyre Juvenile": 4,
+						"Vyrewatch": 9
+					},
+					"Spawn": {
+						"Bucket": 2,
+						"Bucket of water": 2
+					},
+					"Quest": {
+						"The Darkness of Hallowvale": "step",
+						"The Lord of Vampyrium": "first"
+					}
+				},
+				"2": {}
 			},
 			"Nickname": "Meiyerditch Beach"
 		},
 		"14386": {
-			"Object": {
-				"Broken stairs": 2,
-				"Fireplace": 1,
-				"Barricade": 1,
-				"Rocky surface": 1,
-				"Pots": 1,
-				"Floorboards": 19,
-				"Tunnel": 1,
-				"Shelf": 8,
-				"Washing line": 2,
-				"Lookout point": 1
-			},
-			"Monster": {
-				"Vanescula Drakan": 1,
-				"Vyrewatch": 25
-			},
-			"NPC": {
-				"Vyrewatch": 4,
-				"Old Man Ral": 1,
-				"Trader Sven": 2,
-				"Meiyerditch citizen": 39,
-				"A Meiyerditch child": 12,
-				"Rubbish": 5,
-				"Stray dog": 5,
-				"Cat": 3,
-				"Mekritus A'hara": 2,
-				"Vertida Sefalatis": 1,
-				"Vampyre juvenile": 6,
-				"Vampyre juvinate": 6
-			},
-			"Connect": {
-				"14486": true
-			},
-			"Spawn": {
-				"Bucket": 10,
-				"Knife": 1,
-				"Bucket of water": 8
-			},
-			"Shop": {
-				"Trader Sven's Black Market Goods": true
-			},
-			"Quest": {
-				"The Branches of Darkmeyer": "step",
-				"The Darkness of Hallowvale": "step",
-				"Legacy of Seergaze": "step"
+			"Sections": {
+				"1": {
+					"Object": {
+						"Broken stairs": 2,
+						"Fireplace": 1,
+						"Barricade": 1,
+						"Rocky surface": 1,
+						"Pots": 1,
+						"Floorboards": 19,
+						"Tunnel": 1,
+						"Shelf": 8,
+						"Washing line": 2,
+						"Lookout point": 1
+					},
+					"Monster": {
+						"Vyrewatch": 25
+					},
+					"NPC": {
+						"Vyrewatch": 4,
+						"Old Man Ral": 1,
+						"Trader Sven": 2,
+						"Meiyerditch citizen": 39,
+						"A Meiyerditch child": 12,
+						"Rubbish": 5,
+						"Stray dog": 5,
+						"Cat": 3,
+						"Mekritus A'hara": 2,
+						"Vertida Sefalatis": 1,
+						"Vampyre juvenile": 6,
+						"Vampyre juvinate": 6
+					},
+					"Connect": {
+						"14486": true
+					},
+					"Spawn": {
+						"Bucket": 10,
+						"Knife": 1,
+						"Bucket of water": 8
+					},
+					"Shop": {
+						"Trader Sven's Black Market Goods": true
+					},
+					"Quest": {
+						"The Branches of Darkmeyer": "step",
+						"The Darkness of Hallowvale": "step",
+						"Legacy of Seergaze": "step"
+					}
+				},
+				"2": {},
+				"3": {}
 			},
 			"Nickname": "South Meiyerditch"
 		},
 		"14387": {
-			"Object": {
-				"Wooden beam": 1,
-				"Floorboards": 4,
-				"Trough": 1
-			},
-			"NPC": {
-				"Meiyerditch citizen": 47,
-				"A Meiyerditch child": 7,
-				"Rubbish": 5,
-				"Stray dog": 4,
-				"Cat": 4,
-				"Vyrewatch guard": 2,
-				"Captured Meiyerditch citizen": 14,
-				"Vertida Sefalatis": 1,
-				"Vyrewatch mine guard": 1
-			},
-			"Monster": {
-				"Vyrewatch": 25,
-				"Vyrelord": 2
-			},
-			"Spawn": {
-				"Bronze pickaxe": 1,
-				"Bucket": 6,
-				"Tinderbox": 1,
-				"Bucket of water": 10
-			},
-			"Connect": {
-				"14232": true
-			},
-			"Quest": {
-				"The Branches of Darkmeyer": "step",
-				"The Darkness of Hallowvale": "step",
-				"Legacy of Seergaze": "step"
+			"Sections": {
+				"1": {
+					"Object": {
+						"Wooden beam": 1,
+						"Floorboards": 4,
+						"Trough": 1
+					},
+					"NPC": {
+						"Meiyerditch citizen": 47,
+						"A Meiyerditch child": 7,
+						"Rubbish": 5,
+						"Stray dog": 4,
+						"Cat": 4,
+						"Vyrewatch guard": 2,
+						"Captured Meiyerditch citizen": 14,
+						"Vertida Sefalatis": 1,
+						"Vyrewatch mine guard": 1
+					},
+					"Monster": {
+						"Vyrewatch": 25
+					},
+					"Spawn": {
+						"Bronze pickaxe": 1,
+						"Bucket": 6,
+						"Tinderbox": 1,
+						"Bucket of water": 10
+					},
+					"Connect": {
+						"14232": true,
+						"9032": true
+					},
+					"Quest": {
+						"The Branches of Darkmeyer": "step",
+						"The Darkness of Hallowvale": "step",
+						"Legacy of Seergaze": "step"
+					}
+				},
+				"2": {
+					"Monster": {
+						"Vyrelord": 2
+					},
+					"NPC": {
+						"Vyrewatch guard": 2,
+						"Captured Meiyerditch citizen": 14
+					}
+				},
+				"3": {}
 			},
 			"Nickname": "North Meiyerditch"
 		},
 		"14388": {
-			"Object": {
-				"Grate": 2,
-				"Chest": 2,
-				"Water pump": 1,
-				"Vampyric Altar": 1,
-				"Darkmeyer Treasury": 1,
-				"Blisterwood tree": 1,
-				"Bloodwood tree": 1
-			},
-			"NPC": {
-				"Boris Barrington": 1,
-				"Vanescula Drakan": 2,
-				"Tithe master": 1,
-				"Safalaan": 1,
-				"Sarius Guile": 1,
-				"Grigan Kaninus": 1,
-				"Valentina Kaust": 1,
-				"Sentinel Gorthaur": 1,
-				"Sentinel Noctantine": 1,
-				"Sentinel Plaguemanst": 1,
-				"Sentinel Bloodmortis": 1,
-				"Arboretum guard": 2,
-				"Misdrievus Vakan": 1,
-				"Blood tither": 1,
-				"Ranis Drakan": 1,
-				"Darkmeyer blood trader": 1,
-				"Canifis settler": 1,
-				"Vanstrom Klause": 1,
-				"Harold": 1,
-				"'Deathly Hallows'": 1,
-				"'Vertigo von Cephalitis'": 1,
-				"'Mekky Graah'": 1,
-				"'Kill Fosho'": 1,
-				"'Venial Hurts'": 1,
-				"'I Vanstrom'": 1,
-				"'Rageguard Pain-fire'": 1,
-				"'Pygmalion Mardigras'": 1,
-				"Overwatch Mornid": 1,
-				"Vyrewatch": 3
-			},
-			"Monster": {
-				"Vanescula Drakan": 2,
-				"Vyrewatch (Darkmeyer)": 12,
-				"Vampyre Juvinate": 3,
-				"Vyrelady": 8,
-				"Vyrelord": 9,
-				"Ranis Drakan": 1
-			},
-			"Connect": {
-				"9032": true
-			},
-			"Quest": {
-				"The Branches of Darkmeyer": "step",
-				"The Darkness of Hallowvale": "step",
-				"The Lord of Vampyrium": "step"
+			"Sections": {
+				"1": {
+					"Object": {
+						"Vampyric Altar": 1,
+						"Darkmeyer Treasury": 1,
+						"Blisterwood tree": 1,
+						"Bloodwood tree": 1
+					},
+					"NPC": {
+						"Boris Barrington": 1,
+						"Vanescula Drakan": 2,
+						"Tithe master": 1,
+						"Safalaan": 1,
+						"Sarius Guile": 1,
+						"Grigan Kaninus": 1,
+						"Valentina Kaust": 1,
+						"Sentinel Gorthaur": 1,
+						"Sentinel Noctantine": 1,
+						"Sentinel Plaguemanst": 1,
+						"Sentinel Bloodmortis": 1,
+						"Arboretum guard": 2,
+						"Misdrievus Vakan": 1,
+						"Blood tither": 1,
+						"Ranis Drakan": 1,
+						"Darkmeyer blood trader": 1,
+						"Vanstrom Klause": 1,
+						"Harold": 1,
+						"'Deathly Hallows'": 1,
+						"'Vertigo von Cephalitis'": 1,
+						"'Mekky Graah'": 1,
+						"'Kill Fosho'": 1,
+						"'Venial Hurts'": 1,
+						"'I Vanstrom'": 1,
+						"'Rageguard Pain-fire'": 1,
+						"'Pygmalion Mardigras'": 1,
+						"Overwatch Mornid": 1,
+						"Vyrewatch": 3
+					},
+					"Monster": {
+						"Vyrewatch (Darkmeyer)": 11,
+						"Vyrelady": 8,
+						"Vyrelord": 9
+					},
+					"Quest": {
+						"The Branches of Darkmeyer": "step",
+						"The Darkness of Hallowvale": "step",
+						"The Lord of Vampyrium": "step"
+					}
+				},
+				"2": {
+					"Object": {
+						"Grate": 2,
+						"Chest": 2
+					},
+					"NPC": {
+						"Canifis settler": 1
+					},
+					"Monster": {
+						"Vyrewatch (Darkmeyer)": 1,
+						"Vampyre Juvinate": 3
+					},
+					"Quest": {
+						"The Branches of Darkmeyer": "step"
+					}
+				},
+				"3": {},
+				"4": {}
 			},
 			"Nickname": "Darkmeyer"
 		},
 		"14389": {
-			"Object": {
-				"Hollow tree": 27,
-				"Swamp": 1,
-				"Grave": 4,
-				"Swamp tree": 30,
-				"Pottery oven": 1,
-				"Potter's wheel": 2,
-				"Nettles": 3
-			},
-			"NPC": {
-				"Will o' the wisp": 2,
-				"Sentinel Draemus": 1
-			},
-			"Monster": {
-				"Vyrewatch": 8,
-				"Demon Boss": 1
+			"Sections": {
+				"1": {
+					"Object": {
+						"Hollow tree": 27,
+						"Swamp": 1,
+						"Grave": 4,
+						"Swamp tree": 30,
+						"Nettles": 3
+					},
+					"NPC": {
+						"Will o' the wisp": 2
+					},
+					"Monster": {
+						"Vyrewatch": 8
+					}
+				},
+				"2": {
+					"Object": {
+						"Pottery oven": 1,
+						"Potter's wheel": 2
+					},
+					"NPC": {
+						"Sentinel Draemus": 1
+					},
+					"Monster": {
+						"Demon Boss": 1
+					}
+				}
 			},
 			"Nickname": "South Haunted Woods"
 		},
@@ -182425,48 +182507,53 @@
 			"Nickname": "Pirate Pier"
 		},
 		"14638": {
-			"Object": {
-				"Bamboo Bookcase": 3,
-				"Gangplank": 2,
-				"Climbing Net": 1,
-				"Bank booth": 3,
-				"Rowboat": 1,
-				"Crashed star": 1
-			},
-			"Monster": {
-				"Rat": 3
-			},
-			"NPC": {
-				"Pirate": 54,
-				"Charley": 1,
-				"Smith": 1,
-				"Joe (Harpoon)": 1,
-				"Mama": 1,
-				"Mike": 1,
-				"Banker": 3,
-				"Bard Roberts": 1,
-				"Patchy": 1,
-				"Brother Tranquillity": 1,
-				"Stanky Morgan": 1,
-				"Flippers McGraw": 1,
-				"50 Ships Mufassah": 1,
-				"Brass Hand Harry": 1,
-				"Sir Tendeth": 1
-			},
-			"Shop": {
-				"'Two Feet' Charley's Fish Shop": true,
-				"The Other Inn": true,
-				"Smithing Smith's Shop": true,
-				"Harpoon Joe's House of 'Rum'": true,
-				"Dodgy Mike's Second-hand Clothing": true
-			},
-			"Quest": {
-				"Cabin Fever": "step",
-				"A Clockwork Syringe": "step",
-				"The Great Brain Robbery": "first",
-				"Pieces of Hate": "step",
-				"Ritual of the Mahjarrat": "step",
-				"Rocking Out": "step"
+			"Sections": {
+				"1": {
+					"Object": {
+						"Bamboo Bookcase": 3,
+						"Gangplank": 2,
+						"Climbing Net": 1,
+						"Bank booth": 3,
+						"Rowboat": 1,
+						"Crashed star": 1
+					},
+					"Monster": {
+						"Rat": 3
+					},
+					"NPC": {
+						"Pirate": 54,
+						"Charley": 1,
+						"Smith": 1,
+						"Joe (Harpoon)": 1,
+						"Mama": 1,
+						"Mike": 1,
+						"Banker": 3,
+						"Bard Roberts": 1,
+						"Patchy": 1,
+						"Brother Tranquillity": 1,
+						"Stanky Morgan": 1,
+						"Flippers McGraw": 1,
+						"50 Ships Mufassah": 1,
+						"Brass Hand Harry": 1,
+						"Sir Tendeth": 1
+					},
+					"Shop": {
+						"'Two Feet' Charley's Fish Shop": true,
+						"The Other Inn": true,
+						"Smithing Smith's Shop": true,
+						"Harpoon Joe's House of 'Rum'": true,
+						"Dodgy Mike's Second-hand Clothing": true
+					},
+					"Quest": {
+						"Cabin Fever": "step",
+						"A Clockwork Syringe": "step",
+						"The Great Brain Robbery": "first",
+						"Pieces of Hate": "step",
+						"Ritual of the Mahjarrat": "step",
+						"Rocking Out": "step"
+					}
+				},
+				"2": {}
 			},
 			"Nickname": "Pirate Base"
 		},
@@ -182497,40 +182584,55 @@
 			"Nickname": "West Mos Le'Harmless Jungle"
 		},
 		"14641": {
-			"Object": {
-				"Material cache (white marble)": 2,
-				"Cliff": 1,
-				"Statue of Tromple": 1
-			},
-			"NPC": {
-				"Safalaan": 1,
-				"Efaritay": 1
-			},
-			"Monster": {
-				"Seagull": 1
-			},
-			"Quest": {
-				"The Lord of Vampyrium": "step",
-				"Fallen Angels": "step"
+			"Sections": {
+				"1": {
+					"Object": {
+						"Cliff": 1
+					},
+					"NPC": {
+						"Safalaan": 1,
+						"Efaritay": 1
+					},
+					"Monster": {
+						"Seagull": 1
+					},
+					"Quest": {
+						"The Lord of Vampyrium": "step",
+						"Fallen Angels": "step",
+						"The Lost Toys (miniquest)": "step"
+					}
+				},
+				"2": {
+					"Object": {
+						"Material cache (white marble)": 2,
+						"Cliff": 1,
+						"Statue of Tromple": 1
+					}
+				}
 			},
 			"Nickname": "Icyene Graveyard"
 		},
 		"14642": {
-			"Object": {
-				"Bank chest": 1,
-				"Archaeologist's workbench": 1,
-				"Scaffold": 1
-			},
-			"NPC": {
-				"Archaeologist": 1,
-				"Vanescula Drakan": 1
-			},
-			"Quest": {
-				"Fallen Angels": "step",
-				"Queen of the Icyene": "first",
-				"Fall and Rise": "first",
-				"The Dour of Bable": "first",
-				"The Epic of Hebe": "first"
+			"Sections": {
+				"1": {
+					"Object": {
+						"Bank chest": 1,
+						"Archaeologist's workbench": 1,
+						"Scaffold": 1
+					},
+					"NPC": {
+						"Archaeologist": 1,
+						"Vanescula Drakan": 1
+					},
+					"Quest": {
+						"Fallen Angels": "step",
+						"Queen of the Icyene": "first",
+						"Fall and Rise": "first",
+						"The Dour of Bable": "first",
+						"The Epic of Hebe": "first"
+					}
+				},
+				"2": {}
 			},
 			"Nickname": "Everlight Camp"
 		},
@@ -182538,134 +182640,191 @@
 			"Nickname": "Sanguinesti woods"
 		},
 		"14644": {
-			"Object": {
-				"Chest": 6,
-				"Lever": 1,
-				"Cooking range": 1
-			},
-			"Monster": {
-				"Vyrewatch (Darkmeyer)": 9,
-				"Vampyre Juvinate": 16
-			},
-			"NPC": {
-				"Sanguinus Varnis": 1,
-				"Sentinel Mortshade": 1,
-				"Darkmeyer trader": 1,
-				"Canifis settler": 1
-			},
-			"Shop": {
-				"Trader's Goods": true
-			},
-			"Quest": {
-				"The Branches of Darkmeyer": "step"
+			"Sections": {
+				"1": {},
+				"2": {
+					"Object": {
+						"Chest": 6,
+						"Lever": 1,
+						"Cooking range": 1
+					},
+					"Monster": {
+						"Vyrewatch (Darkmeyer)": 9,
+						"Vampyre Juvinate": 16
+					},
+					"NPC": {
+						"Sanguinus Varnis": 1,
+						"Sentinel Mortshade": 1,
+						"Darkmeyer trader": 1,
+						"Canifis settler": 1
+					},
+					"Shop": {
+						"Trader's Goods": true
+					},
+					"Quest": {
+						"The Branches of Darkmeyer": "step"
+					}
+				},
+				"3": {
+					"Object": {
+						"Lever": 1
+					},
+					"Quest": {
+						"The Branches of Darkmeyer": "step"
+					}
+				}
 			},
 			"Nickname": "East Darkmeyer"
 		},
 		"14645": {
-			"Object": {
-				"Hollow tree": 2,
-				"Grave": 1,
-				"Swamp tree": 2,
-				"Furnace": 1,
-				"Cave": 1,
-				"Cocooned corpse": 1,
-				"Phasmatite rock": 3,
-				"Anvil": 1,
-				"Forge": 1
-			},
-			"Monster": {
-				"Leech": 3,
-				"Vanescula Drakan": 1,
-				"Vyrewatch": 5,
-				"Vyrewatch guard": 1,
-				"Viridian skillchompa": 14
-			},
-			"NPC": {
-				"Maria Gadderanks": 1
-			},
-			"Connect": {
-				"18018": true
+			"Sections": {
+				"1": {
+					"Object": {
+						"Hollow tree": 2,
+						"Grave": 1,
+						"Swamp tree": 2,
+						"Furnace": 1,
+						"Cave": 1,
+						"Cocooned corpse": 1,
+						"Phasmatite rock": 3,
+						"Anvil": 1,
+						"Forge": 1
+					},
+					"Monster": {
+						"Leech": 3,
+						"Viridian skillchompa": 14
+					},
+					"NPC": {
+						"Maria Gadderanks": 1
+					},
+					"Connect": {
+						"18018": true
+					}
+				},
+				"2": {
+					"Object": {
+						"Furnace": 1,
+						"Anvil": 1,
+						"Forge": 1
+					},
+					"Monster": {
+						"Vyrewatch": 5,
+						"Vyrewatch guard": 1
+					},
+					"NPC": {
+						"Maria Gadderanks": 1
+					}
+				}
 			},
 			"Nickname": "Araxyte Lair"
 		},
 		"14646": {
-			"Object": {
-				"Closed chest": 2,
-				"Cooking range": 1,
-				"Bank booth": 4,
-				"Coffin": 1,
-				"Ectofuntus": 1,
-				"Boxes": 5,
-				"Gangplank": 4,
-				"Swamp tree": 33,
-				"Furnace": 1
-			},
-			"NPC": {
-				"Velorina": 1,
-				"Necrovarus": 1,
-				"Ghost disciple": 3,
-				"Ak-Haranu": 1,
-				"Robin": 1,
-				"Ghost villager": 12,
-				"Ghost shopkeeper": 1,
-				"Ghost innkeeper": 1,
-				"Ghost banker": 4,
-				"Ghost sailor": 8,
-				"Ghost captain": 2,
-				"Ghost guard": 4,
-				"Melina": 1,
-				"Droalak": 1,
-				"Trader Crewmember": 2,
-				"Gravingas": 2,
-				"Pirate": 1,
-				"Philipe Carnillean": 1
-			},
-			"Monster": {
-				"Tortured soul (Port Phasmatys)": 2
-			},
-			"Connect": {
-				"12123": true,
-				"14746": true,
-				"14747": true
-			},
-			"Shop": {
-				"Ak-Haranu's Exotic Shop": true,
-				"Port Phasmatys General Store": true,
-				"Trader Stan's Trading Post": true
-			},
-			"Quest": {
-				"Cabin Fever": "first",
-				"Ghosts Ahoy": "first",
-				"Making History": "step",
-				"River of Blood": "step",
-				"Rocking Out": "first",
-				"Vessel of the Harbinger": "step"
+			"Sections": {
+				"1": {
+					"Object": {
+						"Closed chest": 2,
+						"Cooking range": 1,
+						"Bank booth": 4,
+						"Boxes": 5,
+						"Gangplank": 4,
+						"Swamp tree": 30,
+						"Furnace": 1
+					},
+					"NPC": {
+						"Velorina": 1,
+						"Ak-Haranu": 1,
+						"Robin": 1,
+						"Ghost villager": 12,
+						"Ghost shopkeeper": 1,
+						"Ghost innkeeper": 1,
+						"Ghost banker": 4,
+						"Ghost sailor": 8,
+						"Ghost captain": 2,
+						"Ghost guard": 4,
+						"Melina": 1,
+						"Droalak": 1,
+						"Trader Crewmember": 2,
+						"Pirate": 1,
+						"Philipe Carnillean": 1
+					},
+					"Shop": {
+						"Ak-Haranu's Exotic Shop": true,
+						"Port Phasmatys General Store": true,
+						"Trader Stan's Trading Post": true
+					},
+					"Quest": {
+						"Cabin Fever": "first",
+						"Ghosts Ahoy": "first",
+						"Making History": "step",
+						"River of Blood": "step",
+						"Rocking Out": "first"
+					},
+					"Connect": {
+						"14747": true
+					}
+				},
+				"2": {
+					"Object": {
+						"Coffin": 1,
+						"Ectofuntus": 1,
+						"Swamp tree": 3
+					},
+					"NPC": {
+						"Necrovarus": 1,
+						"Ghost disciple": 3
+					},
+					"Monster": {
+						"Tortured soul (Port Phasmatys)": 2
+					},
+					"Quest": {
+						"Ghosts Ahoy": "step",
+						"Vessel of the Harbinger": "step"
+					},
+					"Connect": {
+						"14746": true
+					}
+				},
+				"3": {}
 			},
 			"Nickname": "Port Phasmatys"
 		},
 		"14647": {
-			"Object": {
-				"Crate": 1,
-				"Hopper": 1,
-				"Bone grinder": 1,
-				"Bin": 1,
-				"Small obelisk": 1
-			},
-			"Monster": {
-				"Tortured soul (Port Phasmatys)": 6
-			},
-			"NPC": {
-				"Pirate Pete": 1,
-				"Shady ghost": 1
-			},
-			"Connect": {
-				"8527": true
-			},
-			"Quest": {
-				"Ghosts Ahoy": "step",
-				"River of Blood": "step",
-				"Rum Deal": "first",
-				"Vessel of the Harbinger": "step"
+			"Sections": {
+				"1": {
+					"Object": {
+						"Crate": 1,
+						"Hopper": 1,
+						"Bone grinder": 1,
+						"Bin": 1,
+						"Small obelisk": 1
+					},
+					"Monster": {
+						"Tortured soul (Port Phasmatys)": 6
+					},
+					"NPC": {
+						"Pirate Pete": 1,
+						"Shady ghost": 1
+					},
+					"Connect": {
+						"8527": true
+					},
+					"Quest": {
+						"Rum Deal": "first",
+						"Vessel of the Harbinger": "step"
+					}
+				},
+				"2": {},
+				"3": {
+					"Object": {
+						"Hopper": 1,
+						"Bone grinder": 1,
+						"Bin": 1
+					},
+					"Quest": {
+						"Ghosts Ahoy": "step",
+						"River of Blood": "step"
+					}
+				}
 			},
 			"Nickname": "Ectofuntus"
 		},
@@ -183057,16 +183216,21 @@
 			"Nickname": "Everlight Digsite Mass Grave"
 		},
 		"14899": {
-			"Object": {
-				"Materials cart": 1,
-				"Material cache (cobalt blue)": 2,
-				"Amphitheatre debris": 1,
-				"Ceramics studio debris": 1,
-				"Statue of Mesomedes": 1
-			},
-			"NPC": {
-				"Tarddiad Firefly": 17,
-				"Archaeologist": 1
+			"Sections": {
+				"1": {},
+				"2": {
+					"Object": {
+						"Materials cart": 1,
+						"Material cache (cobalt blue)": 2,
+						"Amphitheatre debris": 1,
+						"Ceramics studio debris": 1,
+						"Statue of Mesomedes": 1
+					},
+					"NPC": {
+						"Tarddiad Firefly": 17,
+						"Archaeologist": 1
+					}
+				}
 			},
 			"Nickname": "Everlight Digsite Amphitheater"
 		},
@@ -183087,13 +183251,18 @@
 			"Nickname": "The Adventerous"
 		},
 		"14915": {
-			"Object": {
-				"Bank chest": 1,
-				"Mystical tree": 1
-			},
-			"NPC": {
-				"Ben": 1,
-				"Scruffy zygomite": 3
+			"Sections": {
+				"1": {
+					"Object": {
+						"Bank chest": 1,
+						"Mystical tree": 1
+					},
+					"NPC": {
+						"Ben": 1,
+						"Scruffy zygomite": 3
+					}
+				},
+				"2": {}
 			},
 			"Nickname": "Dinosaur Farm Entrance"
 		},
@@ -183555,37 +183724,56 @@
 			"Nickname": "Trouble Brewing"
 		},
 		"15151": {
-			"Object": {
-				"Teak": 2,
-				"Deposit Box": 1,
-				"Mahogany": 2
-			},
-			"Monster": {
-				"Snake (Mos Le'Harmless)": 7,
-				"Monkey (Mos Le'Harmless)": 3,
-				"Jungle horror": 8
-			},
-			"NPC": {
-				"Crab": 18,
-				"San Fan": 1,
-				"Fancy Dan": 1,
-				"Honest Jimmy": 1,
-				"Stanley Limelight": 1
-			},
-			"Connect": {
-				"15251": true
-			},
-			"Spawn": {
-				"Seaweed": 4,
-				"Brewin' guide": 4,
-				"Edible seaweed": 5
-			},
-			"Shop": {
-				"Honest Jimmy's House of Stuff": true,
-				"Stanley Limelight Traders": true
-			},
-			"Quest": {
-				"Ritual of the Mahjarrat": "step"
+			
+			"Sections": {
+				"1": {
+					"Object": {
+						"Deposit Box": 1
+					},
+					"Monster": {
+						"Snake (Mos Le'Harmless)": 6,
+						"Monkey (Mos Le'Harmless)": 2,
+						"Jungle horror": 8
+					},
+					"NPC": {
+						"Crab": 13,
+						"San Fan": 1,
+						"Fancy Dan": 1,
+						"Honest Jimmy": 1,
+						"Stanley Limelight": 1
+					},
+					"Spawn": {
+						"Brewin' guide": 4
+					},
+					"Shop": {
+						"Honest Jimmy's House of Stuff": true,
+						"Stanley Limelight Traders": true
+					},
+					"Quest": {
+						"Ritual of the Mahjarrat": "step"
+					}
+				},
+				"2": {
+					"Object": {
+						"Teak": 2,
+						"Mahogany": 2
+					},
+					"Monster": {
+						"Snake (Mos Le'Harmless)": 1,
+						"Monkey (Mos Le'Harmless)": 1
+					},
+					"NPC": {
+						"Crab": 5
+					},
+					"Spawn": {
+						"Seaweed": 4,
+						"Brewin' guide": 4,
+						"Edible seaweed": 5
+					},
+					"Connect": {
+						"15251": true
+					}
+				}
 			},
 			"Nickname": "Trouble Brewing Lobby"
 		},
@@ -262646,7 +262834,7 @@
 		"Koschei's Troubles (miniquest)": "10553, 10552",
 		"Lair of Tarn Razorlor (miniquest)": "Lair of Tarn Razorlor (dungeon)",
 		"Lost Her Marbles (miniquest)": "Thieves' Guild after Caper 1, 12851",
-		"The Lost Toys (miniquest)": "13878, 13622, 14390, Araxyte lair, Paterdomus, 13877, Burgh de Rott Myreque Hideout, Meiyerditch Laboratories, Meiyerditch Mine, 14132, Cave (Burgh de Rott), 14385",
+		"The Lost Toys (miniquest)": "13878, 13622, 14390, Araxyte lair, Paterdomus, 13877, Burgh de Rott Myreque Hideout, Meiyerditch Laboratories, Meiyerditch Mine, 14132, Cave (Burgh de Rott), 14641",
 		"Mahjarrat Memories (miniquest)": "10553, VibrantOrBetterWisps[+], Enakhra's Temple, Jaldraocht Pyramid, 13626, Southern Ardougne sewer, Erjolf's cave, Lamistard's Tunnels, 12342, Senntisten Temple, 11580, 11581, Empyrean Citadel, 13613, Chaos Temple Dungeon",
 		"Mogre (lore activity)": "11825",
 		"Nadir (abridged saga)": "13626, 13882, 13625",
