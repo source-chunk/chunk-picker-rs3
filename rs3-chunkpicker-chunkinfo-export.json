@@ -87374,7 +87374,7 @@
 			"~|Helping Laniakea (miniquest)|~ 4": {
 				"BaseQuest": "Helping Laniakea (miniquest)",
 				"Description": "Catch a fugu at the strange fishing spot",
-				"Chunks": ["15173"],
+				"Chunks": ["15172"],
 				"Tasks": {
 					"~|Helping Laniakea (miniquest)|~ 3": "Quest"
 				},
@@ -183839,24 +183839,42 @@
 			"Nickname": "Anachronia Peninsula West Corner"
 		},
 		"15169": {
-			"Spawn": {
-				"Mac (Ancient zygomite)": 1,
-				"Olivia (Ancient zygomite)": 1
+			"Sections": {
+				"1": {
+					"Spawn": {
+						"Olivia (Ancient zygomite)": 1
+					}
+				},
+				"2": {
+					"Spawn": {
+						"Mac (Ancient zygomite)": 1
+					}
+				}
 			},
 			"Nickname": "Anachronia West Excavation Site"
 		},
 		"15170": {
-			"Object": {
-				"Damaged backpack": 1,
-				"Material cache (orgone)": 2,
-				"Message in a bottle": 1,
-				"Mystical tree": 1,
-				"Red vine blossom": 1
-			},
-			"NPC": {
-				"Aquatic jadinko (Anachronia)": 5,
-				"Bill": 1,
-				"Pawya (Anachronia)": 4
+			"Sections": {
+				"1": {
+					"Object": {
+						"Damaged backpack": 1,
+						"Message in a bottle": 1,
+						"Mystical tree": 1,
+						"Red vine blossom": 1
+					},
+					"NPC": {
+						"Aquatic jadinko (Anachronia)": 5,
+						"Bill": 1
+					}
+				},
+				"2": {
+					"Object": {
+						"Material cache (orgone)": 2
+					},
+					"NPC": {
+						"Pawya (Anachronia)": 4
+					}
+				}
 			},
 			"Nickname": "Anachronia West Beach"
 		},
@@ -183874,30 +183892,44 @@
 			"Nickname": "Anachronia Western Totem"
 		},
 		"15172": {
-			"Object": {
-				"Flower": 1
-			},
-			"Monster": {
-				"Luminous snaggler": 8
-			},
-			"Spawn": {
-				"Dennis (Ancient zygomite)": 1
-			},
-			"Quest": {
-				"Desperate Creatures": "step",
-				"Desperate Measures": "step"
+			"Sections": {
+				"1": {
+					"Monster": {
+						"Luminous snaggler": 8
+					}
+				},
+				"2": {
+					"Quest": {
+						"Desperate Measures": "step"
+					}
+				},
+				"3": {
+					"Spawn": {
+						"Dennis (Ancient zygomite)": 1
+					},
+					"Quest": {
+						"Desperate Creatures": "step"
+					}
+				},
+				"4": {
+					"Objects": {
+						"Strange fishing spot": 1
+					},
+					"Quest": {
+						"Helping Laniakea (miniquest)": "step"
+					}
+				}
 			},
 			"Nickname": "Anachronia Luminous Snagglers"
 		},
 		"15173": {
-			"Object": {
-				"Flower": 1
-			},
-			"Spawn": {
-				"Charlie (Ancient zygomite)": 1
-			},
-			"Quest": {
-				"Helping Laniakea (miniquest)": "step"
+			"Sections": {
+				"1": {},
+				"2": {
+					"Spawn": {
+						"Charlie (Ancient zygomite)": 1
+					}
+				}
 			},
 			"Nickname": "Anachronia North-Western Cliffs"
 		},
@@ -184230,33 +184262,51 @@
 			"Nickname": "Anachronia Stormbreaker Landing"
 		},
 		"15426": {
-			"Object": {
-				"Dragonkin statue": 1,
-				"Flower": 3,
-				"Light animica rock": 3,
-				"Vines (Anachronia Agility Course)": 1
-			},
-			"Spawn": {
-				"Cricket (Ancient zygomite)": 1,
-				"Dank (Ancient zygomite)": 1,
-				"Opie (Ancient zygomite)": 1
-			},
-			"Quest": {
-				"Desperate Creatures": "step"
+			"Sections": {
+				"1": {
+					"Object": {
+						"Dragonkin statue": 1,
+						"Light animica rock": 3,
+						"Vines (Anachronia Agility Course)": 1
+					},
+					"Spawn": {
+						"Dank (Ancient zygomite)": 1,
+						"Opie (Ancient zygomite)": 1
+					},
+					"Quest": {
+						"Desperate Creatures": "step"
+					}
+				},
+				"2": {},
+				"3": {},
+				"4": {
+					"Spawn": {
+						"Cricket (Ancient zygomite)": 1
+					}
+				}
 			},
 			"Nickname": "Anachronia South-West Mine"
 		},
 		"15427": {
-			"Object": {
-				"Bait box": 1,
-				"Bait pad": 1,
-				"Bank chest": 1,
-				"Root (Anachronia Agility Course)": 1
-			},
-			"NPC": {
-				"Arcane apoterrasaur": 1,
-				"Golden warbler (Anachronia)": 4,
-				"Ruby harvest (Anachronia)": 7
+			"Sections": {
+				"1": {
+					"Object": {
+						"Bait box": 1,
+						"Bait pad": 1,
+						"Bank chest": 1,
+						"Root (Anachronia Agility Course)": 1
+					},
+					"NPC": {
+						"Arcane apoterrasaur": 1,
+						"Golden warbler (Anachronia)": 4,
+						"Ruby harvest (Anachronia)": 7
+					}
+				},
+				"2": {
+					"Object": {
+						"Root (Anachronia Agility Course)": 1
+					}
+				}
 			},
 			"Nickname": "Arcane Apoterrasaur Hunting Ground"
 		},
@@ -184284,6 +184334,10 @@
 			"Nickname": "Crypt of Varanus"
 		},
 		"15429": {
+			"Sections": {
+				"1": {},
+				"2": {}
+			},
 			"Nickname": "West Anachronia Volcano Pass"
 		},
 		"15430": {
@@ -184464,64 +184518,110 @@
 			"Nickname": "Anachronia Southern Bay Entrance"
 		},
 		"15681": {
-			"Object": {
-				"Cliff face (Anachronia Agility Course)": 1,
-				"Flower": 2
-			},
-			"Spawn": {
-				"Pete (Ancient zygomite)": 1,
-				"Travis (Ancient zygomite)": 1
+			"Sections": {
+				"1": {
+					"Spawn": {
+						"Pete (Ancient zygomite)": 1
+					}
+				},
+				"2": {
+					"Object": {
+						"Cliff face (Anachronia Agility Course)": 1
+					}
+				},
+				"3": {
+					"Spawn": {
+						"Travis (Ancient zygomite)": 1
+					}
+				}
 			},
 			"Nickname": "Anachronia Agility Course Section B Start"
 		},
 		"15682": {
-			"Object": {
-				"Bait box": 1,
-				"Bait pad": 1,
-				"Cliff face (Anachronia Agility Course": 1,
-				"Tree (Anachronia Agility Course": 1
-			},
-			"NPC": {
-				"Bagrada rex": 1,
-				"Draconic jadinko (Anachronia)": 5
-			},
-			"Spawn": {
-				"Edd (Ancient zygomite)": 1,
-				"Happy (Ancient zygomite)": 1
+			"Sections": {
+				"1": {
+					"Object": {
+						"Bait box": 1,
+						"Bait pad": 1
+					},
+					"NPC": {
+						"Bagrada rex": 1,
+						"Draconic jadinko (Anachronia)": 5
+					},
+					"Spawn": {
+						"Edd (Ancient zygomite)": 1
+					}
+				},
+				"2": {
+					"Spawn": {
+						"Happy (Ancient zygomite)": 1
+					},
+					"Object": {
+						"Cliff face (Anachronia Agility Course": 1
+					}
+				},
+				"3": {
+					"Object": {
+						"Cliff face (Anachronia Agility Course": 1,
+						"Tree (Anachronia Agility Course": 1
+					}
+				}
 			},
 			"Nickname": "Bagrada Rex Hunting Ground"
 		},
 		"15683": {
-			"Object": {
-				"Cliff face (Anachronia Agility Course)": 2,
-				"Flower": 1,
-				"Spa pool": 1,
-				"Small obelisk (Anachronia)": 1,
-				"Temple wall (Anachronia Agility Course)": 1
-			},
-			"NPC": {
-				"Alpheus": 1,
-				"Eliza": 1,
-				"Guard": 3,
-				"Irwinsson": 1,
-				"Rune store assistant": 1,
-				"Spa owner": 1
-			},
-			"Spawn": {
-				"Vines (Anachronia Agility Course)": 1,
-				"Bobby (Ancient zygomite)": 1
-			},
-			"Shop": {
-				"Hunter Mark Shop": true,
-				"Hunter Supply Shop": true,
-				"Rune Shop (Anachronia)": true
-			},
-			"Quest": {
-				"Desperate Creatures": "step",
-				"Desperate Measures": "step",
-				"Extinction": "step",
-				"Father and Son (miniquest)": "first",
-				"Helping Laniakea (miniquest)": "step"
+			"Sections": {
+				"1": {
+					"Object": {
+						"Spa pool": 1,
+						"Small obelisk (Anachronia)": 1,
+						"Temple wall (Anachronia Agility Course)": 1
+					},
+					"NPC": {
+						"Alpheus": 1,
+						"Eliza": 1,
+						"Guard": 3,
+						"Irwinsson": 1,
+						"Rune store assistant": 1,
+						"Gem store assistant": 1
+					},
+					"Shop": {
+						"Hunter Mark Shop": true,
+						"Hunter Supply Shop": true,
+						"Rune Shop (Anachronia)": true,
+						"Gem Shop (Anachronia)": true
+					},
+					"Quest": {
+						"Desperate Creatures": "step",
+						"Desperate Measures": "step",
+						"Extinction": "step",
+						"Father and Son (miniquest)": "first",
+						"Helping Laniakea (miniquest)": "step"
+					}
+				},
+				"2": {
+					"Object": {
+						"Cliff face (Anachronia Agility Course)": 2,
+						"Vines (Anachronia Agility Course)": 1,
+						"Temple wall (Anachronia Agility Course)": 1
+					}
+				},
+				"3": {
+					"Object": {
+						"Vines (Anachronia Agility Course)": 1
+					}
+				},
+				"4": {
+					"Spawn": {
+						"Bobby (Ancient zygomite)": 1
+					}
+				},
+				"5": {},
+				"6": {
+					"Object": {
+						"Spa pool": 1
+					}
+				}
 			},
 			"Nickname": "Anachronia Base Camp Entrance"
 		},
@@ -184549,15 +184649,17 @@
 			"Nickname": "East Anachronia Volcano"
 		},
 		"15686": {
-			"Object": {
-				"Flower": 2
-			},
-			"Monster": {
-				"Venomous dinosaur": 9
-			},
-			"Spawn": {
-				"James (Ancient zygomite)": 1,
-				"Jerry (Ancient zygomite)": 1
+			"Sections": {
+				"1": {
+					"Monster": {
+						"Venomous dinosaur": 9
+					},
+					"Spawn": {
+						"James (Ancient zygomite)": 1,
+						"Jerry (Ancient zygomite)": 1
+					}
+				},
+				"2": {}
 			},
 			"Nickname": "North Anachronia Pass"
 		},
@@ -184761,74 +184863,98 @@
 			"Nickname": "Anachronia Yellow Salamander hunting Area"
 		},
 		"15937": {
-			"Object": {
-				"Bait box": 1,
-				"Bait pad": 1,
-				"Flower": 1,
-				"Ruined column (Anachronia Agility Course)": 1
-			},
-			"NPC": {
-				"Scimitops": 1
-			},
-			"Spawn": {
-				"Beverly (Ancient zygomite)": 1
+			"Sections": {
+				"1": {
+					"Object": {
+						"Bait box": 1,
+						"Bait pad": 1,
+						"Ruined column (Anachronia Agility Course)": 1
+					},
+					"NPC": {
+						"Scimitops": 1
+					},
+					"Spawn": {
+						"Beverly (Ancient zygomite)": 1
+					}
+				},
+				"2": {
+					"Object": {
+						"Ruined column (Anachronia Agility Course)": 1
+					}
+				}
 			},
 			"Nickname": "Scimitops Hunting Ground"
 		},
 		"15938": {
-			"Object": {
-				"Flower": 3
-			},
-			"NPC": {
-				"Common jadinko (Anachronia)": 9
-			},
-			"Spawn": {
-				"June (Ancient zygomite)": 1,
-				"Pat (Ancient zygomite)": 1,
-				"Nero (Ancient zygomite)": 1
+			"Sections": {
+				"1": {
+					"Spawn": {
+						"June (Ancient zygomite)": 1,
+						"Nero (Ancient zygomite)": 1
+					},
+					"NPC": {
+						"Common jadinko (Anachronia)": 5
+					}
+				},
+				"2": {
+					"NPC": {
+						"Common jadinko (Anachronia)": 4
+					}
+				},
+				"3": {
+					"Spawn": {
+						"Pat (Ancient zygomite)": 1
+					}
+				},
+				"4": {}
 			},
 			"Nickname": "West Common Jadinko Hunting Spot"
 		},
 		"15939": {
-			"Object": {
-				"Archaeologist's workbench": 1,
-				"Bait box": 1,
-				"Bait pad": 1,
-				"Bank chest": 1,
-				"Material storage container": 1,
-				"Orthen teleportation device": 1,
-				"Rex skeleton (incomplete)": 1,
-				"Study lectern": 1
-			},
-			"NPC": {
-				"Armour store assistant": 1,
-				"Gem store assistant": 1,
-				"General store assistant": 1,
-				"Giles": 1,
-				"Guard": 1,
-				"Laniakea": 1,
-				"Mr Mordaut": 1,
-				"Sharrigan": 1,
-				"Weapon store assistant": 1
-			},
-			"Shop": {
-				"Armour Shop (Anachronia)": true,
-				"Gem Shop (Anachronia)": true,
-				"Slayer Equipment": true,
-				"Slayer Rewards": true,
-				"Survival Shop": true,
-				"Weapon Shop (Anachronia)": true
-			},
-			"Quest": {
-				"Desperate Creatures": "step",
-				"Desperate Measures": "step",
-				"Helping Laniakea (miniquest)": "first",
-				"Sins of the Father": "first",
-				"Crypt o' Zoology": "first",
-				"Death Watch": "first",
-				"Free Your Mind": "first",
-				"I Am Become Death": "step",
-				"Osseous Rex": "first"
+			"Sections": {
+				"1": {
+					"Object": {
+						"Archaeologist's workbench": 1,
+						"Bait box": 1,
+						"Bank chest": 1,
+						"Material storage container": 1,
+						"Orthen teleportation device": 1,
+						"Rex skeleton (incomplete)": 1,
+						"Study lectern": 1
+					},
+					"NPC": {
+						"Armour store assistant": 1,
+						"General store assistant": 1,
+						"Giles": 1,
+						"Guard": 1,
+						"Laniakea": 1,
+						"Mr Mordaut": 1,
+						"Sharrigan": 1,
+						"Weapon store assistant": 1
+					},
+					"Shop": {
+						"Armour Shop (Anachronia)": true,
+						"Slayer Equipment": true,
+						"Slayer Rewards": true,
+						"Survival Shop": true,
+						"Weapon Shop (Anachronia)": true
+					},
+					"Quest": {
+						"Desperate Creatures": "step",
+						"Desperate Measures": "step",
+						"Helping Laniakea (miniquest)": "first",
+						"Sins of the Father": "first",
+						"Crypt o' Zoology": "first",
+						"Death Watch": "first",
+						"Free Your Mind": "first",
+						"I Am Become Death": "step",
+						"Osseous Rex": "first"
+					}
+				},
+				"2": {},
+				"3": {},
+				"4": {},
+				"5": {}
 			},
 			"Nickname": "Anachronia Base Camp"
 		},
@@ -184872,29 +184998,43 @@
 			"Nickname": "Camouflaged Jadinko Hunting Spot"
 		},
 		"15942": {
-			"Object": {
-				"Cactus patch": 1,
-				"Material cache (orthenglass)": 1
-			},
-			"Monster": {
-				"Feral Dinosaur": 2
-			},
-			"NPC": {
-				"Archaeologist": 1,
-				"Goob": 1,
-				"Tool leprechaun": 1
-			},
-			"Shop": {
-				"Farmer's Supplies": true
-			},
-			"Connect": {
-				"6473": true
+			"Sections": {
+				"1": {
+					"Object": {
+						"Cactus patch": 1
+					},
+					"NPC": {
+						"Goob": 1,
+						"Tool leprechaun": 1
+					},
+					"Shop": {
+						"Farmer's Supplies": true
+					},
+					"Connect": {
+						"6473": true
+					}
+				},
+				"2": {},
+				"3": {
+					"Object": {
+						"Material cache (orthenglass)": 1
+					},
+					"Monster": {
+						"Feral Dinosaur": 2
+					}
+				},
+				"4": {}
 			},
 			"Nickname": "Anachronia North Excavation Site"
 		},
 		"15943": {
-			"Object": {
-				"Totem pedestal": 1
+			"Sections": {
+				"1": {
+					"Object": {
+						"Totem pedestal": 1
+					}
+				},
+				"2": {}
 			},
 			"Nickname": "Anachronia Northern Totem"
 		},
@@ -185104,117 +185244,180 @@
 			"Name": "Clan Citadel"
 		},
 		"16192": {
+			"Sections": {
+				"1": {},
+				"2": {}
+			},
 			"Nickname": "Carrion Jadinko West Hunting Spot"
 		},
 		"16193": {
-			"Object": {
-				"Flower": 1,
-				"Rubble": 1,
-				"Ruins (Anachronia Agility Course)": 2,
-				"Vines (Anachronia Agility Course)": 2
-			},
-			"NPC": {
-				"Black warlock": 3,
-				"Grenwall (Anachronia)": 4
-			},
-			"Spawn": {
-				"Totem of the Abyss base": 1,
-				"Morty (Ancient zygomite)": 1
-			},
-			"Connect": {
-				"20": true
-			},
-			"Quest": {
-				"Desperate Creatures": "step",
-				"Teleport Node On": "step",
-				"Know Thy Measure": "step"
+			"Sections": {
+				"1": {},
+				"2": {},
+				"3": {
+					"Object": {
+						"Vines (Anachronia Agility Course)": 2
+					}
+				},
+				"4": {
+					"Object": {
+						"Flower": 1,
+						"Rubble": 1,
+						"Ruins (Anachronia Agility Course)": 1,
+						"Vines (Anachronia Agility Course)": 1
+					},
+					"NPC": {
+						"Black warlock": 3,
+						"Grenwall (Anachronia)": 4
+					},
+					"Spawn": {
+						"Totem of the Abyss base": 1,
+						"Morty (Ancient zygomite)": 1
+					},
+					"Connect": {
+						"20": true
+					},
+					"Quest": {
+						"Desperate Creatures": "step",
+						"Teleport Node On": "step",
+						"Know Thy Measure": "step"
+					}
+				},
+				"5": {
+					"Object": {
+						"Ruins (Anachronia Agility Course)": 1
+					}
+				}
 			},
 			"Nickname": "Moksha Ritual Site"
 		},
 		"16194": {
-			"Object": {
-				"Bait box": 1,
-				"Bait pad": 1,
-				"Flower": 1,		
-				"Rock (Anachronia Agility Course)": 1,
-				"Root (Anachronia Agility Course)": 1
-			},
-			"NPC": {
-				"Diseased jadinko (Anachronia)": 8,
-				"Spicati apoterrasaur": 1
-			},
-			"Spawn": {
-				"Dabby (Ancient zygomite)": 1
+			"Sections": {
+				"1": {
+					"Object": {
+						"Bait box": 1,
+						"Bait pad": 1,	
+						"Rock (Anachronia Agility Course)": 1,
+						"Root (Anachronia Agility Course)": 1
+					},
+					"NPC": {
+						"Diseased jadinko (Anachronia)": 8,
+						"Spicati apoterrasaur": 1
+					},
+					"Spawn": {
+						"Dabby (Ancient zygomite)": 1
+					}
+				},
+				"2": {
+					"Object": {
+						"Rock (Anachronia Agility Course)": 1
+					}
+				},
+				"3": {},
+				"4": {
+					"Object": {
+						"Root (Anachronia Agility Course)": 1
+					}
+				}
 			},
 			"Nickname": "Spicati Apoterrasaur Hunting Ground"
 		},
 		"16195": {
-			"Object": {
-				"Fishing spot (lure, bait)": 2,
-				"Fishing spot (cage, harpoon)": 3,
-				"Red vine blossom": 1,
-				"Teleportation device": 1,
-				"Crashed star": 1
-			},
-			"NPC": {
-				"Aquatic jadinko (Anachronia)": 5,
-				"Bruce": 1,
-				"Clint": 1,
-				"Natasha": 1,
-				"Scott": 1,
-				"Stan": 1,
-				"Steve": 1,
-				"Tony": 1
-			},
-			"Connect": {
-				"1": true
-			},
-			"Quest": {
-				"Desperate Creatures": "step"
+			"Sections": {
+				"1": {
+					"Object": {
+						"Fishing spot (lure, bait)": 2,
+						"Fishing spot (cage, harpoon)": 3,
+						"Red vine blossom": 1,
+						"Teleportation device": 1,
+						"Crashed star": 1
+					},
+					"NPC": {
+						"Aquatic jadinko (Anachronia)": 5,
+						"Bruce": 1,
+						"Clint": 1,
+						"Natasha": 1,
+						"Scott": 1,
+						"Stan": 1,
+						"Steve": 1,
+						"Tony": 1
+					},
+					"Connect": {
+						"1": true
+					},
+					"Quest": {
+						"Desperate Creatures": "step"
+					}
+				},
+				"2": {}
 			},
 			"Nickname": "Anachronia Spirit Grove"
 		},
 		"16196": {
-			"Object": {
-				"Flower": 3
-			},
-			"NPC": {
-				"Amphibious jadinko (Anachronia)": 10
-			},
-			"Spawn": {
-				"Clay (Ancient zygomite)": 1,
-				"Nate (Ancient zygomite)": 1,
-				"Stuart (Ancient zygomite)": 1
+			"Sections": {
+				"1": {
+					"NPC": {
+						"Amphibious jadinko (Anachronia)": 5
+					},
+					"Spawn": {
+						"Clay (Ancient zygomite)": 1,
+						"Nate (Ancient zygomite)": 1,
+						"Stuart (Ancient zygomite)": 1
+					}
+				},
+				"2": {
+					"NPC": {
+						"Amphibious jadinko (Anachronia)": 5
+					}
+				},
+				"3": {}
 			},
 			"Nickname": "Anachronia Spirit Grove River"
 		},
 		"16197": {
-			"Object": {
-				"Bait box": 1,
-				"Bait pad": 1,
-				"Flower": 1,
-				"Ruined temple (Anachronia Agility Course)": 5
-			},
-			"NPC": {
-				"Grenwall (Anachronia)": 5,
-				"Pavosaurus rex": 1
-			},
-			"Spawn": {
-				"Jenny (Ancient zygomite)": 1
+			"Sections": {
+				"1": {
+					"Object": {
+						"Bait box": 1,
+						"Bait pad": 1,
+						"Ruined temple (Anachronia Agility Course)": 5
+					},
+					"NPC": {
+						"Grenwall (Anachronia)": 5,
+						"Pavosaurus rex": 1
+					}
+				},
+				"2": {
+					"Spawn": {
+						"Jenny (Ancient zygomite)": 1
+					}
+				},
+				"3": {}
 			},
 			"Nickname": "Pavosaurus Rex Hunting Ground"
 		},
 		"16198": {
-			"Object": {
-				"Flower": 2
-			},
-			"Monster": {
-				"Brutish dinosaur": 5,
-				"Feral Dinosaur": 6
-			},
-			"Spawn": {
-				"Juice (Ancient zygomite)": 1,
-				"Carter (Ancient zygomite)": 1
+			"Sections": {
+				"1": {},
+				"2": {
+					"Monster": {
+						"Brutish dinosaur": 5
+					},
+					"Spawn": {
+						"Juice (Ancient zygomite)": 1
+					}
+				},
+				"3": {
+					"Monster": {
+						"Feral Dinosaur": 6
+					}
+				},
+				"4": {
+					"Spawn": {
+						"Carter (Ancient zygomite)": 1
+					}
+				},
+				"5": {}
 			},
 			"Nickname": "Anachronia Brutish Dinosaurs"
 		},
@@ -185350,67 +185553,108 @@
 			"Name": "Mazcab"
 		},
 		"16447": {
-			"Object": {
-				"Flower": 1
-			},
-			"NPC": {
-				"Black warlock (Anachronia)": 3
-			},
-			"Spawn": {
-				"Liam (Ancient zygomite)": 1
+			"Sections": {
+				"1": {
+					"NPC": {
+						"Black warlock (Anachronia)": 3
+					}
+				},
+				"2": {
+					"Spawn": {
+						"Liam (Ancient zygomite)": 1
+					}
+				}
 			},
 			"Nickname": "Anachronia South-West Cliffs"
 		},
 		"16448": {
-			"Object": {
-				"Dark animica rock": 4,
-				"Door": 1,
-				"Crashed star": 1
-			},
-			"Monster": {
-				"Devil's snare": 5
-			},
-			"NPC": {
-				"Black warlock (Anachronia)": 7,
-				"Carrion jadinko (Anachronia)": 7
+			"Sections": {
+				"1": {
+					"Object": {
+						"Dark animica rock": 4,
+						"Door": 1,
+						"Crashed star": 1
+					},
+					"Monster": {
+						"Devil's snare": 5
+					},
+					"NPC": {
+						"Black warlock (Anachronia)": 7,
+						"Carrion jadinko (Anachronia)": 7
+					}
+				},
+				"2": {
+					"Connect": {
+						"22828": true
+					}
+				}
 			},
 			"Nickname": "Anachronia Swamp Mine"
 		},
 		"16449": {
-			"Object": {
-				"Flower": 3
-			},
-			"Monster": {
-				"Ripper dinosaur": 1
-			},
-			"Spawn": {
-				"Barry (Ancient zygomite)": 1,
-				"Dave (Ancient zygomite)": 1,
-				"Eddy (Ancient zygomite)": 1
-			},
-			"Quest": {
-				"Desperate Creatures": "step"
+			"Sections": {
+				"1": {
+					"Monster": {
+						"Ripper dinosaur": 1
+					},
+					"Spawn": {
+						"Dave (Ancient zygomite)": 1
+					},
+					"Quest": {
+						"Desperate Creatures": "step"
+					}
+				},
+				"2": {
+					"Spawn": {
+						"Eddy (Ancient zygomite)": 1
+					}
+				},
+				"3": {
+					"Spawn": {
+						"Barry (Ancient zygomite)": 1
+					}
+				}
 			},
 			"Nickname": "Anachronia Swamp"
 		},
 		"16450": {
-			"Object": {
-				"Bait box": 1,
-				"Bait pad": 1,
-				"Block (Anachronia Agility Course)": 1,
-				"Bones (Anachronia Agility Course)": 1,
-				"Flower": 1,
-				"Ruins (Anachronia Agility Course)": 1,
-				"Vines (Anachronia Agility Course)": 1
-			},
-			"Monster": {
-				"Lampenflora": 11
-			},
-			"NPC": {
-				"Asciatops": 1
-			},
-			"Spawn": {
-				"Chris (Ancient zygomite)": 1
+			"Sections": {
+				"1": {
+					"Monster": {
+						"Lampenflora": 11
+					},
+					"NPC": {
+						"Asciatops": 1
+					},
+					"Object": {
+						"Bait box": 1,
+						"Bait pad": 1,
+						"Block (Anachronia Agility Course)": 1,
+						"Ruins (Anachronia Agility Course)": 1
+					}
+				},
+				"2": {
+					"Object": {
+						"Bones (Anachronia Agility Course)": 1
+					}
+				},
+				"3": {
+					"Object": {
+						"Bones (Anachronia Agility Course)": 1,
+						"Ruins (Anachronia Agility Course)": 1,
+						"Vines (Anachronia Agility Course)": 1
+					}
+				},
+				"4": {
+					"Spawn": {
+						"Chris (Ancient zygomite)": 1
+					}
+				},
+				"5": {
+					"Object": {
+						"Block (Anachronia Agility Course)": 1
+					}
+				}
 			},
 			"Nickname": "Asciatops Hunting Ground"
 		},
@@ -185432,15 +185676,21 @@
 			"Nickname": "Poison Frog Area"
 		},
 		"16452": {
-			"Object": {
-				"Bait box": 1,
-				"Bait pad": 1
-			},
-			"Monster": {
-				"Liverworts": 8
-			},
-			"NPC": {
-				"Oculi apoterrasaur": 1
+			"Sections": {
+				"1": {
+					"Object": {
+						"Bait box": 1,
+						"Bait pad": 1
+					},
+					"Monster": {
+						"Liverworts": 8
+					},
+					"NPC": {
+						"Oculi apoterrasaur": 1
+					}
+				},
+				"2": {},
+				"3": {}
 			},
 			"Nickname": "Oculi Apoterrasaur Hunting Ground"
 		},
@@ -185452,38 +185702,70 @@
 				"Spine (Anachronia Agility Course)": 1,
 				"Tree roots": 1
 			},
-			"NPC": {
-				"Ancient zygomite elder": 1
-			},
-			"Connect": {
-				"22310": true
-			},
-			"Shop": {
-				"Herby Werby Reward Shop": true
-			},
-			"Quest": {
-				"Helping Laniakea (miniquest)": "step"
+			
+			
+			
+			
+			
+			"Sections": {
+				"1": {},
+				"2": {
+					"Object": {
+						"Bones (Anachronia Agility Course)": 1,
+						"Cliff face (Anachronia Agility Course)": 1,
+						"Ruined temple (Anachronia Agility Course)": 1,
+						"Spine (Anachronia Agility Course)": 1,
+						"Tree roots": 1
+					},
+					"NPC": {
+						"Ancient zygomite elder": 1
+					},
+					"Shop": {
+						"Herby Werby Reward Shop": true
+					},
+					"Quest": {
+						"Helping Laniakea (miniquest)": "step"
+					},
+					"Connect": {
+						"22310": true
+					}
+				},
+				"3": {
+					"Object": {
+						"Ruined temple (Anachronia Agility Course)": 1
+					}
+				}
 			},
 			"Nickname": "Herby Werby Entrance"
 		},
 		"16454": {
-			"Object": {
-				"Door": 1,
-				"Orthen teleportation device": 1
-			},
-			"NPC": {
-				"Archaeologist": 2
-			},
-			"Connect": {
-				"18": true
-			},
-			"Quest": {
-				"Teleport Node On": "step"
+			
+			
+			
+			
+			"Sections": {
+				"1": {},
+				"2": {
+					"Object": {
+						"Door": 1,
+						"Orthen teleportation device": 1
+					},
+					"NPC": {
+						"Archaeologist": 2
+					},
+					"Connect": {
+						"18": true
+					},
+					"Quest": {
+						"Teleport Node On": "step"
+					}
+				},
+				"3": {}
 			},
 			"Nickname": "Observation Outpost"
 		},
 		"16455": {
-			"Nickname": "Observation Outpost Pass Corner"
+			"Nickname": "A Single Tile North of the Observation Outpost"
 		},
 		"16456": {
 			"Object": {
@@ -185756,115 +186038,191 @@
 			"Nickname": "Anachronia South-East Cliffs"
 		},
 		"16704": {
-			"Object": {
-				"Deposit box": 1,
-				"Door": 1,
-				"Dragonkin statue": 1,
-				"Flower": 1,
-				"Orthen telportation device": 1
-			},
-			"NPC": {
-				"Archaeologist": 4,
-				"Igneous jadinko (Anachronia)": 4,
-				"Laniakea": 1
-			},
-			"Shop": {
-				"Slayer Equipment": true,
-				"Slayer Rewards": true
-			},
-			"Spawn": {
-				"Totem of Navigation top": 1,
-				"Ruth (Ancient zygomite)": 1
-			},
-			"Connect": {
-				"19": true,
-				"22828": true
-			},
-			"Quest": {
-				"Raksha, the Shadow Colossus": "first",
-				"Teleport Node On": "step",
-				"Mysterious City": "first"
+			"Sections": {
+				"1": {
+					"Object": {
+						"Deposit box": 1,
+						"Door": 1,
+						"Dragonkin statue": 1,
+						"Orthen telportation device": 1
+					},
+					"NPC": {
+						"Archaeologist": 4,
+						"Igneous jadinko (Anachronia)": 4,
+						"Laniakea": 1
+					},
+					"Shop": {
+						"Slayer Equipment": true,
+						"Slayer Rewards": true
+					},
+					"Spawn": {
+						"Totem of Navigation top": 1,
+						"Ruth (Ancient zygomite)": 1
+					},
+					"Connect": {
+						"19": true
+					},
+					"Quest": {
+						"Raksha, the Shadow Colossus": "first",
+						"Teleport Node On": "step",
+						"Mysterious City": "first"
+					}
+				},
+				"2": {}
 			},
 			"Nickname": "Xolo City Ruins"
 		},
 		"16705": {
-			"Object": {
-				"Fishing spot (cage, harpoon)": 2,
-				"Fishing spot (big fishing net, harpoon)": 3,
-				"Totem pedestal": 1
-			},
-			"Monster": {
-				"Ripper dinosaurs": 5
+			"Sections": {
+				"1": {
+					"Object": {
+						"Fishing spot (cage, harpoon)": 2,
+						"Fishing spot (big fishing net, harpoon)": 3
+					},
+					"Monster": {
+						"Ripper dinosaurs": 5
+					}
+				},
+				"2": {
+					"Object": {
+						"Totem pedestal": 1
+					}
+				}
 			},
 			"Nickname": "Anachronia South-Eastern Totem"
 		},
 		"16706": {
-			"Object": {
-				"Flower": 1,
-				"Roots (Anachronia Agility Course)": 1,
-				"Vines (Anachronia Agility Course)": 2
-			},
-			"Monster": {
-				"Devil's snare": 3
-			},
-			"Spawn": {
-				"Rick (Ancient zygomite)": 1,
-				"Taylor (Ancient zygomite)": 1
+			"Sections": {
+				"1": {
+					"Object": {
+						"Vines (Anachronia Agility Course)": 1
+					},
+					"Spawn": {
+						"Rick (Ancient zygomite)": 1
+					}
+				},
+				"2": {
+					"Object": {
+						"Roots (Anachronia Agility Course)": 1,
+						"Vines (Anachronia Agility Course)": 1
+					},
+					"Spawn": {
+						"Taylor (Ancient zygomite)": 1
+					}
+				},
+				"3": {
+					"Monster": {
+						"Devil's snare": 3
+					}
+				}
 			},
 			"Nickname": "Anachronia Agility Course Section D Start"
 		},
 		"16707": {
-			"Object": {
-				"Bait box": 1,
-				"Bait pad": 1,
-				"Big block (Anachronia Agility Course)": 1,
-				"Flower": 3,
-				"Roots (Anachronia Agility Course)": 1
-			},
-			"NPC": {
-				"Corbicula rex": 1
-			},
-			"Spawn": {
-				"Beth (Ancient zygomite)": 1,
-				"Jessica (Ancient zygomite)": 1,
-				"Summer (Ancient zygomite)": 1
+			"Sections": {
+				"1": {
+					"Object": {
+						"Bait box": 1,
+						"Bait pad": 1
+					},
+					"NPC": {
+						"Corbicula rex": 1
+					},
+					"Spawn": {
+						"Beth (Ancient zygomite)": 1
+					}
+				},
+				"2": {},
+				"3": {},
+				"4": {},
+				"5": {},
+				"6": {},
+				"7": {
+					"Object": {
+						"Big block (Anachronia Agility Course)": 1,
+						"Roots (Anachronia Agility Course)": 1
+					},
+					"Spawn": {
+						"Jessica (Ancient zygomite)": 1
+					}
+				},
+				"8": {
+					"Object": {
+						"Big block (Anachronia Agility Course)": 1
+					},
+					"Spawn": {
+						"Summer (Ancient zygomite)": 1
+					}
+				},
+				"9": {}
 			},
 			"Nickname": "Corbicula Rex Hunting Ground"
 		},
 		"16708": {
-			"Object": {
-				"Fertile soil (patch)": 1,
-				"Flower": 3,
-				"Overgrown Idol (Anachronia)": 2,
-				"Roots (Anachronia Agility Course)": 2,
-				"Vines (Anachronia Agility Course)": 3
-			},
-			"Spawn": {
-				"Gemma (Ancient zygomite)": 1,
-				"Jax (Ancient zygomite)": 1,
-				"Tara (Ancient zygomite)": 1
-			},
-			"Quest": {
-				"Desperate Creatures": "step",
-				"Helping Laniakea (miniquest)": "step"
+			"Sections": {
+				"1": {
+					"Object": {
+						"Fertile soil (patch)": 1,
+						"Overgrown Idol (Anachronia)": 1
+					},
+					"Spawn": {
+						"Tara (Ancient zygomite)": 1
+					},
+					"Quest": {
+						"Desperate Creatures": "step",
+						"Helping Laniakea (miniquest)": "step"
+					}
+				},
+				"2": {
+					"Object": {
+						"Overgrown Idol (Anachronia)": 1,
+						"Roots (Anachronia Agility Course)": 1,
+						"Vines (Anachronia Agility Course)": 3
+					},
+					"Spawn": {
+						"Jax (Ancient zygomite)": 1
+					}
+				},
+				"3": {
+					"Object": {
+						"Vines (Anachronia Agility Course)": 1
+					},
+					"Spawn": {
+						"Gemma (Ancient zygomite)": 1
+					}
+				},
+				"4": {
+					"Object": {
+						"Roots (Anachronia Agility Course)": 1,
+						"Vines (Anachronia Agility Course)": 1
+					}
+				}
 			},
 			"Nickname": "Anachronia East River"
 		},
 		"16709": {
-			"Object": {
-				"Drakolith rock": 6,
-				"Flower": 1,
-				"Orichalcite rock": 5
-			},
-			"NPC": {
-				"Diseased jadinko (Anachronia)": 1,
-				"Golden warbler (Anachronia)": 5
-			},
-			"Spawn": {
-				"Chibs (Ancient zygomite)": 1
-			},
-			"Quest": {
-				"Desperate Measures": "step"
+			"Sections": {
+				"1": {
+					"Object": {
+						"Drakolith rock": 6,
+						"Orichalcite rock": 5
+					},
+					"NPC": {
+						"Golden warbler (Anachronia)": 5
+					},
+					"Spawn": {
+						"Chibs (Ancient zygomite)": 1
+					}
+				},
+				"2": {
+					"NPC": {
+						"Diseased jadinko (Anachronia)": 1
+					},
+					"Quest": {
+						"Desperate Measures": "step"
+					}
+				},
+				"3": {}
 			},
 			"Nickname": "Anachronia Canyon Mine"
 		},
@@ -186067,53 +186425,81 @@
 			"Name": "Clan Citadel"
 		},
 		"16960": {
-			"Object": {
-				"Flower": 1
-			},
-			"Spawn": {
-				"Ed (Ancient zygomite)": 1
+			"Sections": {
+				"1": {},
+				"2": {},
+				"3": {
+					"Spawn": {
+						"Ed (Ancient zygomite)": 1
+					}
+				}
 			},
 			"Nickname": "Anachronia East Swamp Cliffs"
 		},
 		"16961": {
-			"Object": {
-				"Flower": 2
-			},
-			"Monster": {
-				"Devil's snare": 4
-			},
-			"Spawn": {
-				"Amy (Ancient zygomite)": 1,
-				"Sheldon (Ancient zygomite)": 1
+			"Sections": {
+				"1": {
+					"Monster": {
+						"Devil's snare": 4
+					},
+					"Spawn": {
+						"Amy (Ancient zygomite)": 1
+					}
+				},
+				"2": {
+					"Spawn": {
+						"Sheldon (Ancient zygomite)": 1
+					}
+				}
 			},
 			"Nickname": "South Anachronia Isle"
 		},
 		"16962": {
-			"Monster": {
-				"Devil's snare": 2
-			},
-			"NPC": {
-				"Shadow jadinko (Anachronia)": 7
+			"Sections": {
+				"1": {
+					"NPC": {
+						"Shadow jadinko (Anachronia)": 7
+					}
+				},
+				"2": {
+					"Monster": {
+						"Devil's snare": 2
+					}
+				}
 			},
 			"Nickname": "Shadow Jadinko Hunting Spot"
 		},
 		"16963": {
-			"Object": {
-				"Dragonkin statue": 1,
-				"Flower": 1,
-				"Sunken column (Anachronia Agility Course)": 1
+			"Sections": {
+				"1": {
+					"Object": {
+						"Dragonkin statue": 1,
+						"Flower": 1,
+						"Sunken column (Anachronia Agility Course)": 1
+					},
+					"Spawn": {
+						"Penny (Ancient zygomite)": 1
+					}
+				},
+				"2": {
+					"Object": {
+						"Sunken column (Anachronia Agility Course)": 1
+					}
+				}
 			},
-			"Spawn": {
-				"Penny (Ancient zygomite)": 1
-			},
-			"Nickname": "Kingdra Counsil Meeting Pool"
+			"Nickname": "Kindra Counsil Meeting Pool"
 		},
 		"16964": {
-			"NPC": {
-				"Common jadinko (Anachronia)": 6
-			},
-			"Quest": {
-				"Desperate Creatures": "step"
+			"Sections": {
+				"1": {
+					"NPC": {
+						"Common jadinko (Anachronia)": 6
+					},
+					"Quest": {
+						"Desperate Creatures": "step"
+					}
+				},
+				"2": {}
 			},
 			"Name": "East Common Jadinko Hunting Spot"
 		},
@@ -262826,7 +263212,7 @@
 		"A Guild of Our Own (miniquest)": "Thieves' Guild after Caper 2, 10547, 12851",
 		"Harbinger (miniquest)": "The Arc",
 		"Head of the Family (miniquest)": "The Arc",
-		"Helping Laniakea (miniquest)": "15939, 15425, 15935, 16703, 15683, 16708, 16453, 15173",
+		"Helping Laniakea (miniquest)": "15939, 15425, 15935, 16703, 15683, 16708, 16453, 15172",
 		"Hopespear's Will (miniquest)": "Goblin Temple, Yu'biusk",
 		"The Hunt for Surok (miniquest)": "13110, Tunnel of Chaos",
 		"In Memory of the Myreque (miniquest)": "13879",
