@@ -27,6 +27,12 @@
 				"Output": "Agile legs",
 				"Priority": 1
 			},
+			"Cross an obstacle on the east side of the ~|Anachronia agility course|~": {
+				"Objects": ["EastAnachroniaObstacle[+]"],
+				"Level": 85,
+				"Primary": true,
+				"Priority": 3
+			},
 			"Complete section D of the ~|Anachronia agility course|~": {
 				"Chunks": ["16706", "16707", "16708", "16963"],
 				"Level": 85,
@@ -164,6 +170,12 @@
 				"Level": 30,
 				"Primary": true,
 				"Priority": 2
+			},
+			"Cross a beginner obstacle in the ~|Anachronia agility course|~": {
+				"Objects": ["BeginnerAnachroniaObstacle[+]"],
+				"Level": 30,
+				"Primary": true,
+				"Priority": 3
 			},
 			"Complete section A of the ~|Anachronia agility course|~": {
 				"Chunks": ["15426", "15427", "15682", "15683"],
@@ -531,12 +543,24 @@
 				"Primary": true,
 				"Priority": 9
 			},
+			"Cross a novice obstacle in the ~|Anachronia agility course|~": {
+				"Objects": ["NoviceAnachroniaObstacle[+]"],
+				"Level": 50,
+				"Primary": true,
+				"Priority": 3
+			},
 			"Complete section B of the ~|Anachronia agility course|~": {
 				"Chunks": ["15681", "15936", "15937", "16192", "16193"],
 				"Level": 50,
 				"Primary": true,
 				"Output": "AnachroniaCourse",
 				"Priority": 1
+			},
+			"Cross an advanced obstacle in the ~|Anachronia agility course|~": {
+				"Objects": ["AdvancedAnachroniaObstacle[+]"],
+				"Level": 30,
+				"Primary": true,
+				"Priority": 3
 			},
 			"Complete section C of the ~|Anachronia agility course|~": {
 				"Chunks": ["16193", "16194", "16450"],
@@ -621,6 +645,14 @@
 				"Level": 1,
 				"Primary": true,
 				"Priority": 6,
+				"NoPet": true
+			},
+			"Cross the Karamja wooden log ~|shortcut|~": {
+				"Category": ["Shortcut"],
+				"Objects": ["A wooden log"],
+				"Level": 1,
+				"Primary": true,
+				"Priority": 7,
 				"NoPet": true
 			},
 			"Cross the ~|crumbling wall (Falador)|~": {
@@ -709,6 +741,9 @@
 				"Category": ["Shortcut"],
 				"Chunks": ["9782"],
 				"Level": 19,
+				"Tasks": {
+					"~|The Grand Tree|~ Complete the quest": "Quest"
+				},
 				"Primary": false,
 				"Priority": 1,
 				"NoPet": true
@@ -809,6 +844,9 @@
 					"Strength": 35,
 					"Ranged": 35
 				},
+				"Tasks": {
+					"~|Fishing Contest|~ Complete the quest": "Quest"
+				},
 				"Priority": 1,
 				"NoPet": true
 			},
@@ -845,6 +883,9 @@
 				"Category": ["Shortcut"],
 				"Chunks": ["9782", "9783"],
 				"Level": 37,
+				"Tasks": {
+					"~|The Grand Tree|~ Complete the quest": "Quest"
+				},
 				"Primary": false,
 				"Priority": 1,
 				"NoPet": true
@@ -1210,6 +1251,9 @@
 				"Category": ["Shortcut"],
 				"Chunks": ["11310", "11311"],
 				"Level": 74,
+				"Tasks": {
+					"~|Karamja Achievements#Elite|~ Complete the Elite Achievements": "Diart"
+				},
 				"Primary": false,
 				"Priority": 1,
 				"NoPet": true
@@ -13008,6 +13052,13 @@
 				"Level": 42,
 				"Primary": false,
 				"Priority": 8
+			},
+			"Repair the ladder to the ~|Beacon Network|~ beacon near Death Plateau": {
+				"Chunks": ["11832-1"],
+				"Items": ["Plank*", "Nails[+]"],
+				"Level": 42,
+				"Primary": false,
+				"Priority": 9
 			},
 			"Build a ~|teak larder|~": {
 				"Category": ["InsidePOH Primary"],
@@ -57424,6 +57475,9 @@
 				"Skills": {
 					"Strength": 35,
 					"Agility": 32
+				},
+				"Tasks": {
+					"~|Fishing Contest|~ Complete the quest": "Quest"
 				},
 				"Not Equip": true,
 				"Priority": 1,
@@ -150732,6 +150786,804 @@
 				},
 				"UnlocksArea": true
 			},
+			"8753-2 to 9009-1": {
+				"Sections": ["8753-2", "9009-1"],
+				"Tasks": {
+					"~|Regicide|~ 7": "Quest"
+				},
+				"ConnectsSections": true,
+				"Not F2P": true
+			},
+			"8753-2 to 8753-3": {
+				"Sections": ["8753-2", "8753-3"],
+				"Tasks": {
+					"~|Regicide|~ 7": "Quest"
+				},
+				"ConnectsSections": true,
+				"Not F2P": true
+			},
+			"8754-1 to 8754-2": {
+				"Sections": ["8754-1", "8754-2"],
+				"Tasks": {
+					"~|Regicide|~ 7": "Quest"
+				},
+				"ConnectsSections": true,
+				"Not F2P": true
+			},
+			"8754-1 to 8754-3": {
+				"Sections": ["8754-1", "8754-3"],
+				"Tasks": {
+					"~|Regicide|~ 7": "Quest"
+				},
+				"ConnectsSections": true,
+				"Not F2P": true
+			},
+			"9010-2 to 9010-3": {
+				"Sections": ["9010-2", "9010-3"],
+				"Tasks": {
+					"~|Regicide|~ 7": "Quest"
+				},
+				"ConnectsSections": true,
+				"Not F2P": true
+			},
+			"9010-1 to 9010-2": {
+				"Sections": ["9010-1", "9010-2"],
+				"Tasks": {
+					"~|Regicide|~ 7": "Quest"
+				},
+				"ConnectsSections": true,
+				"Not F2P": true
+			},
+			"9010-1 to 9011-4": {
+				"Sections": ["9010-1", "9011-4"],
+				"Tasks": {
+					"~|Plague's End|~ Complete the quest": "Quest"
+				},
+				"ConnectsSections": true,
+				"Not F2P": true
+			},
+			"9012-1 to 9012-2": {
+				"Sections": ["9012-1", "9012-2"],
+				"Tasks": {
+					"Enter the Max Guild": "Nonskill"
+				},
+				"ConnectsSections": true,
+				"Not F2P": true
+			},
+			"9012-1 to 9268-2": {
+				"Sections": ["9012-1", "9268-2"],
+				"Tasks": {
+					"~|Plague's End|~ Complete the quest": "Quest"
+				},
+				"ConnectsSections": true,
+				"Not F2P": true
+			},
+			"9265-1 to 9265-3": {
+				"Sections": ["9265-1", "9265-3"],
+				"Tasks": {
+					"~|The Prisoner of Glouphrie|~ 4": "Quest"
+				},
+				"ConnectsSections": true,
+				"Not F2P": true
+			},
+			"9265-1 to 9265-2": {
+				"Sections": ["9265-1", "9265-2"],
+				"Tasks": {
+					"~|Mourning's End Part I|~ 1": "Quest"
+				},
+				"ConnectsSections": true,
+				"Not F2P": true
+			},
+			"9269 to 9525-1": {
+				"Sections": ["9269", "9525-1"],
+				"Tasks": {
+					"Cross a stile ~|shortcut|~": "Agility"
+				},
+				"ConnectsSections": true,
+				"Not F2P": true
+			},
+			"9524-1 to 9524-2": {
+				"Sections": ["9524-1", "9524-2"],
+				"Tasks": {
+					"~|Regicide|~ Complete the quest": "Quest"
+				},
+				"ConnectsSections": true,
+				"Not F2P": true
+			},
+			"9526-1 to 9526-2": {
+				"Sections": ["9526-1", "9526-2"],
+				"Tasks": {
+					"Cross the ~|stile (Tree Gnome Stronghold)|~": "Agility"
+				},
+				"ConnectsSections": true,
+				"Not F2P": true
+			},
+			"9778-1 to 9778-3": {
+				"Sections": ["9778-1", "9778-3"],
+				"Tasks": {
+					"~|The Prissoner of Glouphrie|~ 2": "Quest"
+				},
+				"ConnectsSections": true,
+				"Not F2P": true
+			},
+			"9781 to 10037-1": {
+				"Sections": ["9781", "10037-1"],
+				"Tasks": {
+					"Cross a stile ~|shortcut|~": "Agility"
+				},
+				"ConnectsSections": true,
+				"Not F2P": true
+			},
+			"9782-1 to 9782-2": {
+				"Sections": ["9782-1", "9782-2"],
+				"Tasks": {
+					"Cross the ~|rocks (Tree Gnome Stronghold)|~": "Agility"
+				},
+				"ConnectsSections": true,
+				"Not F2P": true
+			},
+			"9782-1 to 9783-1": {
+				"Sections": ["9782-1", "9783-1"],
+				"Tasks": {
+					"Cross the ~|tree (Tree Gnome Stronghold)|~": "Agility"
+				},
+				"ConnectsSections": true,
+				"Not F2P": true
+			},
+			"10035-1 to 10035-4": {
+				"Sections": ["10035-1", "10035-4"],
+				"Tasks": {
+					"~|Biohazard|~ Complete the quest": "Quest"
+				},
+				"ConnectsSections": true,
+				"Not F2P": true
+			},
+			"10284-1 to 10284-2": {
+				"Sections": ["10284-1", "10284-2"],
+				"Tasks": {
+					"Cross the ~|rock passage|~": "Agility"
+				},
+				"ConnectsSections": true,
+				"Not F2P": true
+			},
+			"10294-1 to 10294-2": {
+				"Sections": ["10294-1", "10294-2"],
+				"Tasks": {
+					"Cross the ~|log balance (Coal trucks)|~": "Agility"
+				},
+				"ConnectsSections": true,
+				"Not F2P": true
+			},
+			"10794-3 to 10794-4": {
+				"Sections": ["10794-3", "10794-4"],
+				"Items": ["Ninja monkey greegree (small)"],
+				"ConnectsSections": true,
+				"Not F2P": true
+			},
+			"10794-4 to 11050-2": {
+				"Sections": ["10794-4", "11050-2"],
+				"Tasks": {
+					"Complete a lap of the ~|Ape Atoll agility course|~": "Agility"
+				},
+				"ConnectsSections": true,
+				"Not F2P": true
+			},
+			"10794-4 to 11050-3": {
+				"Sections": ["10794-4", "11050-3"],
+				"Tasks": {
+					"Complete a lap of the ~|Ape Atoll agility course|~": "Agility"
+				},
+				"ConnectsSections": true,
+				"Not F2P": true
+			},
+			"10802-1 to 10802-2": {
+				"Sections": ["10802-1", "10802-2"],
+				"Tasks": {
+					"Cross the ~|ropeswing (Brimhaven)|~": "Agility"
+				},
+				"ConnectsSections": true,
+				"Not F2P": true
+			},
+			"10808-1 to 10808-2": {
+				"Sections": ["10808-1", "10808-2"],
+				"Tasks": {
+					"Cross the ~|log balance (Fremennik Province)|~": "Agility"
+				},
+				"ConnectsSections": true,
+				"Not F2P": true
+			},
+			"11050-2 to 11050-3": {
+				"Sections": ["11050-2", "11050-3"],
+				"Tasks": {
+					"Complete a lap of the ~|Ape Atoll agility course|~": "Agility"
+				},
+				"ConnectsSections": true,
+				"Not F2P": true
+			},
+			"11053-1 to 11053-2": {
+				"Sections": ["11053-1", "11053-2"],
+				"Tasks": {
+					"~|Legends' Quest|~ 1": "Quest"
+				},
+				"ConnectsSections": true,
+				"Not F2P": true
+			},
+			"11053-1 to 11053-3": {
+				"Sections": ["11053-1", "11053-3"],
+				"Tasks": {
+					"~|Legends' Quest|~ 1": "Quest"
+				},
+				"ConnectsSections": true,
+				"Not F2P": true
+			},
+			"11064-1 to 11320-2": {
+				"Sections": ["11064-1", "11320-2"],
+				"Tasks": {
+					"~|Troll Stronghold|~ 1": "Quest"
+				},
+				"ConnectsSections": true,
+				"Not F2P": true
+			},
+			"11065-1 to 11065-3": {
+				"Sections": ["11065-1", "11065-3"],
+				"Items": ["Rope"],
+				"ConnectsSections": true,
+				"Not F2P": true
+			},
+			"11067-1 to 11067-2": {
+				"Sections": ["11067-1", "11067-2"],
+				"Tasks": {
+					"~|Troll Romance|~ 3": "Quest"
+				},
+				"ConnectsSections": true,
+				"Not F2P": true
+			},
+			"11309-1 to 11309-2": {
+				"Sections": ["11309-1", "11309-2"],
+				"Tasks": {
+					"~|Legends' Quest|~ 1": "Quest"
+				},
+				"ConnectsSections": true,
+				"Not F2P": true
+			},
+			"11310-1 to 11311": {
+				"Sections": ["11310-1", "11311"],
+				"Tasks": {
+					"Cross the ~|tunnel (Shilo Village)|~": "Agility"
+				},
+				"ConnectsSections": true,
+				"Not F2P": true
+			},
+			"11310-1 to 11566-3": {
+				"Sections": ["11310-1", "11566-3"],
+				"Tasks": {
+					"~|Shilo Village|~ Complete the quest": "Quest"
+				},
+				"ConnectsSections": true,
+				"Not F2P": true
+			},
+			"11312 to 11313": {
+				"Sections": ["11312", "11313"],
+				"Tasks": {
+					"Cross the ~|strong tree (Karamja)|~": "Agility"
+				},
+				"ConnectsSections": true,
+				"Not F2P": true
+			},
+			"11317-1 to 11317-2": {
+				"Sections": ["11317-1", "11317-2"],
+				"Tasks": {
+					"Cross the ~|rocks (Catherby)|~": "Agility"
+				},
+				"ConnectsSections": true,
+				"Not F2P": true
+			},
+			"11320-1 to 11320-2": {
+				"Sections": ["11320-1", "11320-2"],
+				"Tasks": {
+					"~|Troll Stronghold|~ 1": "Quest"
+				},
+				"ConnectsSections": true,
+				"Not F2P": true
+			},
+			"11322-1 to 11322-2": {
+				"Sections": ["11322-1", "11322-2"],
+				"Tasks": {
+					"~|Desert Treasure|~ 7b1": "Quest"
+				},
+				"ConnectsSections": true,
+				"Not F2P": true
+			},
+			"11325-1 to 11325-2": {
+				"Sections": ["11325-1", "11325-2"],
+				"Tasks": {
+					"~|Ritual of the Mahjarrat|~ 10": "Quest"
+				},
+				"ConnectsSections": true,
+				"Not F2P": true
+			},
+			"11565-1 to 11565-3": {
+				"Sections": ["11565-1", "11565-3"],
+				"Tasks": {
+					"~|Legends' Quest|~ 1": "Quest"
+				},
+				"ConnectsSections": true,
+				"Not F2P": true
+			},
+			"11566-2 to 11566-3": {
+				"Sections": ["11566-2", "11566-3"],
+				"Tasks": {
+					"Cross the ~|stepping stones (Karamja)|~": "Agility"
+				},
+				"ConnectsSections": true,
+				"Not F2P": true
+			},
+			"11567-1 to 11567-2": {
+				"Sections": ["11567-1", "11567-2"],
+				"Tasks": {
+					"Access the Karamja wooden log ~|shortcut|~": "Agility"
+				},
+				"ConnectsSections": true,
+				"Not F2P": true
+			},
+			"11572-1 to 11572": {
+				"Sections": ["11572-1", "11572"],
+				"Tasks": {
+					"Cross the ~|crumbling wall (Falador)|~": "Agility"
+				},
+				"ConnectsSections": true,
+				"Not F2P": true
+			},
+			"11575-1 to 11575-2": {
+				"Sections": ["11575-1", "11575-2"],
+				"Tasks": {
+					"Repair the climbing pegs in burthorpe to reach the ~|Beacon Network|~ beacon": "Smithing"
+				},
+				"ConnectsSections": true,
+				"Not F2P": true
+			},
+			"11577-1 to 11577-2": {
+				"Sections": ["11577-1", "11577-2"],
+				"Tasks": {
+					"~|Troll Stronghold|~ 1": "Quest"
+				},
+				"ConnectsSections": true,
+				"Not F2P": true
+			},
+			"11577-1 to 11578-1": {
+				"Sections": ["11577-1", "11578-1"],
+				"Tasks": {
+					"GodWarsDungeonEntry[+]": "Nonskill"
+				},
+				"ConnectsSections": true,
+				"Not F2P": true
+			},
+			"11578-1 to 11578-3": {
+				"Sections": ["11578-1", "11578-3"],
+				"Tasks": {
+					"Cross the ~|rocky handholds (God Wars Dungeon/Wilderness)|~": "Agility"
+				},
+				"ConnectsSections": true,
+				"Not F2P": true
+			},
+			"11580 to 11581-1": {
+				"Sections": ["11580", "11581-1"],
+				"Tasks": {
+					"~|Ritual of the Mahjarrat|~ 9": "Quest"
+				},
+				"ConnectsSections": true,
+				"Not F2P": true
+			},
+			"11581-1 to 11581-2": {
+				"Sections": ["11581-1", "11581-2"],
+				"Tasks": {
+					"~|The Temple at Senntisten|~ 3": "Quest"
+				},
+				"ConnectsSections": true,
+				"Not F2P": true
+			},
+			"11581-1 to 11581-3": {
+				"Sections": ["11581-1", "11581-3"],
+				"Tasks": {
+					"~|The Temple at Senntisten|~ 3": "Quest"
+				},
+				"ConnectsSections": true,
+				"Not F2P": true
+			},
+			"11318-1 to 11319-5": {
+				"Sections": ["11318-1", "11319-5"],
+				"ConnectsSections": true,
+				"Not F2P": true
+			},
+			"11828 to 11829-3": {
+				"Sections": ["11828", "11829-3"],
+				"Tasks": {
+					"Cross the ~|wall (Falador)|~": "Agility"
+				},
+				"ConnectsSections": true,
+				"Not F2P": true
+			},
+			"11829-1 to 11829-3": {
+				"Sections": ["11829-1", "11829-3"],
+				"Tasks": {
+					"Cross the ~|wall (Falador)|~": "Agility"
+				},
+				"ConnectsSections": true,
+				"Not F2P": true
+			},
+			"11832-1 to 11832-2": {
+				"Sections": ["11832-1", "11832-2"],
+				"Tasks": {
+					"Repair the ladder to the ~|Beacon Network|~ beacon near Death Plateau": "Construction"
+				},
+				"ConnectsSections": true,
+				"Not F2P": true
+			},
+			"12340-1 to 12340-2": {
+				"Sections": ["12340-1", "12340-2"],
+				"Tasks": {
+					"Cross the ~|broken railing|~": "Agility"
+				},
+				"ConnectsSections": true,
+				"Not F2P": true
+			},
+			"12343-1 to 12343-2": {
+				"Sections": ["12343-1", "12343-2"],
+				"Tasks": {
+					"~|Wilderness Achievements#Hard|~ Complete the Hard Achievements": "Diary"
+				},
+				"ConnectsSections": true,
+				"Not F2P": true
+			},
+			"12603-1 to 12603-2": {
+				"Sections": ["12603-1", "12603-2"],
+				"Tasks": {
+					"Cross the ~|lava moat|~": "Agility"
+				},
+				"ConnectsSections": true,
+				"Not F2P": true
+			},
+			"12842 to 13098-1": {
+				"Sections": ["12842", "13098-1"],
+				"Tasks": {
+					"~|The Jack of Spades|~ Complete the quest": "Quest",
+					"~|Contact!|~ Complete the quest": "Quest"
+				},
+				"ConnectsSections": true,
+				"Not F2P": true
+			},
+			"12843-1 to 12844": {
+				"Sections": ["12843-1", "12844"],
+				"Tasks": {
+					"~|The Jack of Spades|~ 2": "Quest"
+				},
+				"ConnectsSections": true,
+				"Not F2P": true
+			},
+			"13099 to 13355-1": {
+				"Sections": ["13099", "13355-1"],
+				"Tasks": {
+					"~|Icthlarin's Little Helper|~ Complete the quest": "Quest"
+				},
+				"ConnectsSections": true,
+				"Not F2P": true
+			},
+			"13099 to 13100": {
+				"Sections": ["13099", "13100"],
+				"Tasks": {
+					"~|Icthlarin's Little Helper|~ Complete the quest": "Quest"
+				},
+				"ConnectsSections": true,
+				"Not F2P": true
+			},
+			"13104-1 to 13104-2": {
+				"Sections": ["13104-1", "13104-2"],
+				"ConnectsSections": true,
+				"Not F2P": true
+			},
+			"13356-1 to 13356-2": {
+				"Sections": ["13356-1", "13356-2"],
+				"Chunks": ["13611"],
+				"Items": ["Rope"],
+				"ConnectsSections": true,
+				"Not F2P": true
+			},
+			"13361-1 to 13361-2": {
+				"Sections": ["13361-1", "13361-2"],
+				"ConnectsSections": true,
+				"Not F2P": true
+			},
+			"13362-1 to 13362-2": {
+				"Sections": ["13362-1", "13362-2"],
+				"Tasks": {
+					"Complete a lap of the ~|Het's Oasis Agility Course|~": "Agility"
+				},
+				"ConnectsSections": true,
+				"Not F2P": true
+			},
+			"13621 to 13622": {
+				"Sections": ["13621", "13622"],
+				"Tasks": {
+					"~|Nature Spirit|~ 1": "Quest"
+				},
+				"ConnectsSections": true,
+				"Not F2P": true
+			},
+			"13874-1 to 13874-2": {
+				"Sections": ["13874-1", "13874-2"],
+				"Tasks": {
+					"~|In Aid of the Myreque|~ 2": "Quest"
+				},
+				"ConnectsSections": true,
+				"Not F2P": true
+			},
+			"13874-2 to 13874-3": {
+				"Sections": ["13874-2", "13874-3"],
+				"Tasks": {
+					"~|In Aid of the Myreque|~ 2": "Quest"
+				},
+				"ConnectsSections": true,
+				"Not F2P": true
+			},
+			"13877-2 to 13877-3": {
+				"Sections": ["13877-2", "13877-3"],
+				"Tasks": {
+					"~|In Search of the Myreque|~ 4": "Quest"
+				},
+				"ConnectsSections": true,
+				"Not F2P": true
+			},
+			"14387-1 to 14388-2": {
+				"Sections": ["14387-1", "14388-2"],
+				"Tasks": {
+					"~|The Branches of Darkmeyer|~ 5": "Quest"
+				},
+				"ConnectsSections": true,
+				"Not F2P": true
+			},
+			"14642-1 to 14989": {
+				"Sections": ["14642-1", "14989"],
+				"Tasks": {
+					"Gain access to the ~|Everlight Dig Site|~": "Archaeology"
+				},
+				"ConnectsSections": true,
+				"Not F2P": true
+			},
+			"14646-1 to 14646-2": {
+				"Sections": ["14646-1", "14646-2"],
+				"Items": ["Ecto-token"],
+				"ConnectsSections": true,
+				"Not F2P": true
+			},
+			"14646-1 to 14646-3": {
+				"Sections": ["14646-1", "14646-3"],
+				"Tasks": {
+					"Cross the ~|low wall (Port Phasmatys)|~": "Agility"
+				},
+				"ConnectsSections": true,
+				"Not F2P": true
+			},
+			"15426-1 to 15426-2": {
+				"Sections": ["15426-1", "15426-2"],
+				"Tasks": {
+					"Cross a beginner obstacle in the ~|Anachronia agility course|~": "Agility"
+				},
+				"ConnectsSections": true,
+				"Not F2P": true
+			},
+			"15246-3 to 15682-2": {
+				"Sections": ["15246-3", "15682-2"],
+				"Tasks": {
+					"Cross a beginner obstacle in the ~|Anachronia agility course|~": "Agility"
+				},
+				"ConnectsSections": true,
+				"Not F2P": true
+			},
+			"15427-2 to 15427-3": {
+				"Sections": ["15427-2", "15427-3"],
+				"Tasks": {
+					"Cross a beginner obstacle in the ~|Anachronia agility course|~": "Agility"
+				},
+				"ConnectsSections": true,
+				"Not F2P": true
+			},
+			"15681-2 to 15682-3": {
+				"Sections": ["15681-2", "15682-3"],
+				"Tasks": {
+					"Cross a beginner obstacle in the ~|Anachronia agility course|~": "Agility"
+				},
+				"ConnectsSections": true,
+				"Not F2P": true
+			},
+			"15681-2 to 15937-1": {
+				"Sections": ["15681-2", "15937-1"],
+				"Tasks": {
+					"Cross a novice obstacle in the ~|Anachronia agility course|~": "Agility"
+				},
+				"ConnectsSections": true,
+				"Not F2P": true
+			},
+			"15682-2 to 15682-3": {
+				"Sections": ["15681-2", "15682-3"],
+				"Tasks": {
+					"Cross a beginner obstacle in the ~|Anachronia agility course|~": "Agility"
+				},
+				"ConnectsSections": true,
+				"Not F2P": true
+			},
+			"15683-1 to 15683-2": {
+				"Sections": ["15681-1", "15682-2"],
+				"Tasks": {
+					"Cross a beginner obstacle in the ~|Anachronia agility course|~": "Agility"
+				},
+				"ConnectsSections": true,
+				"Not F2P": true
+			},
+			"15683-2 to 15683-3": {
+				"Sections": ["15683-2", "15683-3"],
+				"Tasks": {
+					"Cross a beginner obstacle in the ~|Anachronia agility course|~": "Agility"
+				},
+				"ConnectsSections": true,
+				"Not F2P": true
+			},
+			"15684 to 15941": {
+				"Sections": ["15684", "15941"],
+				"Tasks": {
+					"Cross a beginner obstacle in the ~|Anachronia agility course|~": "Agility"
+				},
+				"ConnectsSections": true,
+				"Not F2P": true
+			},
+			"15937-1 to 15937-2": {
+				"Sections": ["15937-1", "15937-2"],
+				"Tasks": {
+					"Cross a novice obstacle in the ~|Anachronia agility course|~": "Agility"
+				},
+				"ConnectsSections": true,
+				"Not F2P": true
+			},
+			"16193-1 to 16193-5": {
+				"Sections": ["16193-1", "16193-5"],
+				"Tasks": {
+					"Cross a novice obstacle in the ~|Anachronia agility course|~": "Agility"
+				},
+				"ConnectsSections": true,
+				"Not F2P": true
+			},
+			"16193-1 to 16193-3": {
+				"Sections": ["16193-1", "16193-3"],
+				"Tasks": {
+					"Cross an advanced obstacle in the ~|Anachronia agility course|~": "Agility"
+				},
+				"ConnectsSections": true,
+				"Not F2P": true
+			},
+			"16193-3 to 16194-4": {
+				"Sections": ["16193-3", "16194-4"],
+				"Tasks": {
+					"Cross an advanced obstacle in the ~|Anachronia agility course|~": "Agility"
+				},
+				"ConnectsSections": true,
+				"Not F2P": true
+			},
+			"16194-1 to 16194-4": {
+				"Sections": ["16194-1", "16194-4"],
+				"Tasks": {
+					"Cross an advanced obstacle in the ~|Anachronia agility course|~": "Agility"
+				},
+				"ConnectsSections": true,
+				"Not F2P": true
+			},
+			"16194-1 to 16194-2": {
+				"Sections": ["16194-1", "16194-2"],
+				"Tasks": {
+					"Cross an advanced obstacle in the ~|Anachronia agility course|~": "Agility"
+				},
+				"ConnectsSections": true,
+				"Not F2P": true
+			},
+			"16197-1 to 16453-2": {
+				"Sections": ["16197-1", "16453-2"],
+				"Tasks": {
+					"Cross a novice obstacle in the ~|Anachronia agility course|~": "Agility"
+				},
+				"ConnectsSections": true,
+				"Not F2P": true
+			},
+			"16450-2 to 16450-3": {
+				"Sections": ["16450-2", "16450-3"],
+				"Tasks": {
+					"Cross an advanced obstacle in the ~|Anachronia agility course|~": "Agility"
+				},
+				"ConnectsSections": true,
+				"Not F2P": true
+			},
+			"16450-1 to 16450-3": {
+				"Sections": ["16450-1", "16450-3"],
+				"Tasks": {
+					"Cross an advanced obstacle in the ~|Anachronia agility course|~": "Agility"
+				},
+				"ConnectsSections": true,
+				"Not F2P": true
+			},
+			"16450-1 to 16450-5": {
+				"Sections": ["16450-1", "16450-5"],
+				"Tasks": {
+					"Cross an advanced obstacle in the ~|Anachronia agility course|~": "Agility"
+				},
+				"ConnectsSections": true,
+				"Not F2P": true
+			},
+			"16453-2 to 16453-3": {
+				"Sections": ["16453-2", "16453-3"],
+				"Tasks": {
+					"Cross an advanced obstacle in the ~|Anachronia agility course|~": "Agility"
+				},
+				"ConnectsSections": true,
+				"Not F2P": true
+			},
+			"16706-1 to 16706-2": {
+				"Sections": ["16706-1", "16706-2"],
+				"Tasks": {
+					"Cross an obstacle on the east side of the ~|Anachronia agility course|~": "Agility"
+				},
+				"ConnectsSections": true,
+				"Not F2P": true
+			},
+			"16706-2 to 16707-7": {
+				"Sections": ["16706-2", "16707-7"],
+				"Tasks": {
+					"Cross an obstacle on the east side of the ~|Anachronia agility course|~": "Agility"
+				},
+				"ConnectsSections": true,
+				"Not F2P": true
+			},
+			"16707-7 to 16707-8": {
+				"Sections": ["16707-7", "16707-8"],
+				"Tasks": {
+					"Cross an obstacle on the east side of the ~|Anachronia agility course|~": "Agility"
+				},
+				"ConnectsSections": true,
+				"Not F2P": true
+			},
+			"16707-1 to 16708-4": {
+				"Sections": ["16707-1", "16708-4"],
+				"Tasks": {
+					"Cross an obstacle on the east side of the ~|Anachronia agility course|~": "Agility"
+				},
+				"ConnectsSections": true,
+				"Not F2P": true
+			},
+			"16708-2 to 16708-3": {
+				"Sections": ["16708-2", "16708-3"],
+				"Tasks": {
+					"Cross an advanced obstacle in the ~|Anachronia agility course|~": "Agility"
+				},
+				"ConnectsSections": true,
+				"Not F2P": true
+			},
+			"16708-2 to 16708-4": {
+				"Sections": ["16708-2", "16708-4"],
+				"Tasks": {
+					"Cross an obstacle on the east side of the ~|Anachronia agility course|~": "Agility"
+				},
+				"ConnectsSections": true,
+				"Not F2P": true
+			},
+			"Enter the Max Guild": {
+				"Items": ["AnySkillcape[+]"]
+			},
+			"Slide past the boulder leading up to the God Wars Dungeon": {
+				"Tasks": {
+					"Cross the ~|boulder (God Wars Dungeon)|~": "Agility"
+				}
+			},
+			"Lift the boulder leading up to the God Wars Dungeon": {
+				"Tasks": {
+					"Cross the ~|boulder (God Wars Dungeon)|~": "Strength"
+				}
+			},
 			"Universal tertiary": {
 				"Category": ["Universal Tertiary"]
 			},
@@ -176956,8 +177808,7 @@
 						"Woman": 6,
 						"Goblin (Lumbridge)": 28,
 						"Giant spider": 2,
-						"Lumbridge guardsman (Lumbridge Market)": 1,
-						"Cow": 5
+						"Lumbridge guardsman (Lumbridge Market)": 1
 					},
 					"Connect": {
 						"6473": true,
@@ -184327,7 +185178,7 @@
 						"Bait box": 1,
 						"Bait pad": 1,
 						"Bank chest": 1,
-						"Root (Anachronia Agility Course)": 1
+						"Root (Anachronia Agility Course)#Level 30": 1
 					},
 					"NPC": {
 						"Arcane apoterrasaur": 1,
@@ -184337,7 +185188,7 @@
 				},
 				"2": {
 					"Object": {
-						"Root (Anachronia Agility Course)": 1
+						"Root (Anachronia Agility Course)#Level 30": 1
 					}
 				},
 				"3": {},
@@ -184566,7 +185417,7 @@
 				},
 				"2": {
 					"Object": {
-						"Cliff face (Anachronia Agility Course)": 1
+						"Cliff face (Anachronia Agility Course)#Level 50": 1
 					}
 				},
 				"3": {
@@ -184642,7 +185493,7 @@
 				},
 				"2": {
 					"Object": {
-						"Cliff face (Anachronia Agility Course)": 2,
+						"Cliff face (Anachronia Agility Course)#Level 30": 2,
 						"Vines (Anachronia Agility Course)": 1,
 						"Temple wall (Anachronia Agility Course)": 1
 					}
@@ -184669,8 +185520,8 @@
 		"15684": {
 			"Object": {
 				"Cave entrance (Anachronia Agility Course)": 1,
-				"Cliff face (Anachronia Agility Course)": 2,
-				"Ruined temple (Anachronia Agility Course)": 1,
+				"Cliff face (Anachronia Agility Course)#Level 30": 2,
+				"Ruined temple (Anachronia Agility Course)#Level 30": 1,
 				"Skillcape rack": 1
 			},
 			"NPC": {
@@ -184889,8 +185740,8 @@
 			"Object": {
 				"Flower": 1,
 				"Plank (Anachronia Agility Course)": 1,
-				"Ruined temple (Anachronia Agility Course)": 1,
-				"Ruins (Anachronia Agility Course)": 1
+				"Ruined temple (Anachronia Agility Course)#Level 50": 1,
+				"Ruins (Anachronia Agility Course)#Level 50": 1
 			},
 			"NPC": {
 				"Yellow salamander": 7
@@ -185303,7 +186154,7 @@
 					"Object": {
 						"Flower": 1,
 						"Rubble": 1,
-						"Ruins (Anachronia Agility Course)": 1,
+						"Ruins (Anachronia Agility Course)#Level 50": 1,
 						"Vines (Anachronia Agility Course)": 1
 					},
 					"NPC": {
@@ -185332,7 +186183,7 @@
 				"4": {},
 				"5": {
 					"Object": {
-						"Ruins (Anachronia Agility Course)": 1
+						"Ruins (Anachronia Agility Course)#Level 50": 1
 					}
 				}
 			},
@@ -185345,7 +186196,7 @@
 						"Bait box": 1,
 						"Bait pad": 1,	
 						"Rock (Anachronia Agility Course)": 1,
-						"Root (Anachronia Agility Course)": 1
+						"Root (Anachronia Agility Course)#Level 70": 1
 					},
 					"NPC": {
 						"Diseased jadinko (Anachronia)": 8,
@@ -185363,7 +186214,7 @@
 				"3": {},
 				"4": {
 					"Object": {
-						"Root (Anachronia Agility Course)": 1
+						"Root (Anachronia Agility Course)#Level 70": 1
 					}
 				},
 				"5": {}
@@ -185429,7 +186280,7 @@
 					"Object": {
 						"Bait box": 1,
 						"Bait pad": 1,
-						"Ruined temple (Anachronia Agility Course)": 5
+						"Ruined temple (Anachronia Agility Course)#Level 50": 5
 					},
 					"NPC": {
 						"Grenwall (Anachronia)": 5,
@@ -185679,18 +186530,18 @@
 						"Bait box": 1,
 						"Bait pad": 1,
 						"Block (Anachronia Agility Course)": 1,
-						"Ruins (Anachronia Agility Course)": 1
+						"Ruins (Anachronia Agility Course)#Level 70": 1
 					}
 				},
 				"2": {
 					"Object": {
-						"Bones (Anachronia Agility Course)": 1
+						"Bones (Anachronia Agility Course)#Level 70": 1
 					}
 				},
 				"3": {
 					"Object": {
-						"Bones (Anachronia Agility Course)": 1,
-						"Ruins (Anachronia Agility Course)": 1,
+						"Bones (Anachronia Agility Course)#Level 70": 1,
+						"Ruins (Anachronia Agility Course)#Level 70": 1,
 						"Vines (Anachronia Agility Course)": 1
 					}
 				},
@@ -185744,25 +186595,13 @@
 			"Nickname": "Oculi Apoterrasaur Hunting Ground"
 		},
 		"16453": {
-			"Object": {
-				"Bones (Anachronia Agility Course)": 2,
-				"Cliff face (Anachronia Agility Course)": 1,
-				"Ruined temple (Anachronia Agility Course)": 1,
-				"Spine (Anachronia Agility Course)": 1,
-				"Tree roots": 1
-			},
-			
-			
-			
-			
-			
 			"Sections": {
 				"1": {},
 				"2": {
 					"Object": {
-						"Bones (Anachronia Agility Course)": 1,
-						"Cliff face (Anachronia Agility Course)": 1,
-						"Ruined temple (Anachronia Agility Course)": 1,
+						"Bones (Anachronia Agility Course)#Level 50": 1,
+						"Cliff face (Anachronia Agility Course)#Level 70": 1,
+						"Ruined temple (Anachronia Agility Course)#Level 70": 1,
 						"Spine (Anachronia Agility Course)": 1,
 						"Tree roots": 1
 					},
@@ -185781,7 +186620,7 @@
 				},
 				"3": {
 					"Object": {
-						"Ruined temple (Anachronia Agility Course)": 1
+						"Ruined temple (Anachronia Agility Course)#Level 70": 1
 					}
 				}
 			},
@@ -186152,7 +186991,7 @@
 				},
 				"2": {
 					"Object": {
-						"Roots (Anachronia Agility Course)": 1,
+						"Roots (Anachronia Agility Course)#Level 85": 1,
 						"Vines (Anachronia Agility Course)": 1
 					},
 					"Spawn": {
@@ -186189,7 +187028,7 @@
 				"7": {
 					"Object": {
 						"Big block (Anachronia Agility Course)": 1,
-						"Roots (Anachronia Agility Course)": 1
+						"Roots (Anachronia Agility Course)#Level 85": 1
 					},
 					"Spawn": {
 						"Jessica (Ancient zygomite)": 1
@@ -186225,7 +187064,7 @@
 				"2": {
 					"Object": {
 						"Overgrown Idol (Anachronia)": 1,
-						"Roots (Anachronia Agility Course)": 1,
+						"Roots (Anachronia Agility Course)#Level 70": 1,
 						"Vines (Anachronia Agility Course)": 3
 					},
 					"Spawn": {
@@ -186234,7 +187073,8 @@
 				},
 				"3": {
 					"Object": {
-						"Vines (Anachronia Agility Course)": 1
+						"Vines (Anachronia Agility Course)": 1,
+						"Roots (Anachronia Agility Course)#Level 70": 1
 					},
 					"Spawn": {
 						"Gemma (Ancient zygomite)": 1
@@ -186242,7 +187082,6 @@
 				},
 				"4": {
 					"Object": {
-						"Roots (Anachronia Agility Course)": 1,
 						"Vines (Anachronia Agility Course)": 1
 					}
 				}
@@ -201925,6 +202764,37 @@
 				"Sliced mushrooms (The Arc)"
 			],
 			"AnyPortalMaterial[+]": ["Teak plank", "Mahogany plank", "Marble block"],
+			"AnySkillcape[+]": [
+				"Attack cape",
+				"Constitution cape",
+				"Mining cape",
+				"Strength cape",
+				"Agility cape",
+				"Smithing cape",
+				"Defence cape",
+				"Herblore cape",
+				"Fishing cape",
+				"Ranged cape",
+				"Thieving cape",
+				"Cooking cape",
+				"Prayer cape",
+				"Crafting cape",
+				"Firemaking cape",
+				"Magic cape",
+				"Fletching cape",
+				"Woodcutting cape",
+				"Runecrafting cape",
+				"Slayer cape",
+				"Farming cape",
+				"Construction cape",
+				"Hunter cape",
+				"Summoning cape",
+				"Dungeoneering cape",
+				"Divination cape",
+				"Invention cape",
+				"Archaeology cape",
+				"Necromancy cape"
+			],
 			"AnySword[+]": ["Bronze sword", "Iron sword", "Steel sword", "Black sword", "White sword", "Mithril sword", "Adamant sword", "Rune sword", "Leaf-bladed sword", "Toktz-xil-ak", "Korasi's sword", "Khopesh of the Kharidian", "Khopesh of Tumeken", "Bronze longsword", "Iron longsword", "Steel longsword", "Corrupt Vesta's longsword", "Black longsword", "White longsword", "Mithril longsword", "Adamant longsword", "Rune longsword", "Gravite longsword", "Dragon longsword", "Corrupt dragon longsword", "Vesta's longsword", "Bane longsword", "Chaotic longsword", "Tetsu katana", "Dark ice shard", "Elite tetsu katana", "Elder rune longsword", "Drygore longsword", "Dark Shard of Leng", "Blurite sword", "Fremennik blade", "Bronze 2h sword", "Iron 2h sword", "Steel 2h sword", "Black 2h sword", "White 2h sword", "Mithril 2h sword", "Adamant 2h sword", "Rune 2h sword", "Gravite 2h sword", "Dragon 2h sword", "Saradomin sword", "Armadyl godsword", "Bandos godsword", "Saradomin godsword", "Zamorak godsword", "Zaros godsword", "Bane 2h sword", "Elder rune 2h sword", "Ek-ZekKil"],
 			"AnyTalisman[+]": [
 				"Air talisman",
@@ -206809,6 +207679,7 @@
 			"AnyMemento[+]": "Any memento",
 			"AnyMushroom[+]": "Any type of mushroom or fungus",
 			"AnyPortalMaterial[+]": "Any item that can be used to make a portal frame in your PoH",
+			"AnySkillcape[+]": "Any type of skillcape",
 			"AnySword[+]": "Any type of sword",
 			"AnyTalisman[+]": "Any runecrafting talisman",
 			"ArchaeologyDirt[+]": "Any variant of archaeology dirt",
@@ -207640,7 +208511,11 @@
 			"RangersWorkroom[+]": ["Spinning wheel", "Fletching workbench"],
 			"Tier1Workshop[+]": ["Furnace", "Anvil", "Forge"],
 			"Tree[+]": ["Tree", "Burnt tree", "Dead tree (Timbo)", "Dead tree covered in snow", "Dead tree", "Dying tree", "Evergreen", "Jungle Bush", "Jungle Tree", "Swamp tree", "Palm tree (choppable)"],
-			"WaterSource[+]": ["Sink", "Fountain", "Waterpump", "Water barrel", "Well", "Large Geyser", "Water trough", "Water pump"]
+			"WaterSource[+]": ["Sink", "Fountain", "Waterpump", "Water barrel", "Well", "Large Geyser", "Water trough", "Water pump"],
+			"EastAnachroniaObstacle[+]": ["Roots (Anachronia Agility Course)#Level 85", "Sunken column (Anachronia Agility Course)", "Big block (Anachronia Agility Course)"],
+			"BeginnerAnachroniaObstacle[+]": ["Temple wall (Anachronia Agility Course)", "Cliff face (Anachronia Agility Course)#Level 30", "Vines (Anachornia Agility Course)", "Root (Anachronia Agility Course)#Level 30", "Tree (Anachronia Agility Course)", "Ruined temple (Anachronia Agility Course)#Level 30", "Cave entrance (Anachronia Agility Course)"],
+			"NoviceAnachroniaObstacle[+]": ["Ruined temple (Anachronia Agility Course)#Level 50", "Bones (Anachronia Agility Course)#Level 50", "Spine (Anachronia Agility Course)", "Cliff face (Anachronia Agility Course)#Level 50", "Ruined column (Anachronia Agility Course)", "Plank (Anachronia Agility Course)", "Ruins (Anachronia Agility Course)#Level 50"],
+			"AdvancedAnachroniaObstacle[+]": ["Root (Anachronia Agility Course)#Level 70", "Rock (Anachronia Agility Course)", "Bones (Anachronia Agility Course)#Level 70", "Ruins (Anachronia Agility Course)#Level 70", "Block (Anachronia Agility Course)", "Cliff face (Anachronia Agility Course)#Level 70", "Ruined temple (Anachronia Agility Course)#Level 70", "Roots (Anachronia Agility Course)#Level 70"]
 		},
 		"objectsPlusNames": {
 			"Anvil[+]": "Any anvil you can forge on",
@@ -208320,6 +209195,7 @@
 			"EdgeDungeonAccess[+]": ["Access the Edgeville dungeon through Edgeville*", "Access the edgeville dungeon through the Varrock sewers*"],
 			"EmissarySkill1[+]": ["Emissary eggs", "Emissary bronze 2h swords"],
 			"FireAccess[+]": ["Access the fire rune temple with a talisman*", "Access the fire rune temple through the abyss*"],
+			"GodWarsDungeonEntry[+]": ["Slide past the boulder leading up to the God Wars Dungeon", "Lift the boulder leading up to the God Wars Dungeon"],
 			"HazeelCultFinal[+]": ["~|Hazeel Cult|~ 3a", "~|Hazeel Cult|~ 6b"],
 			"HeroesQuestCandlestick[+]": ["~|Heroes' Quest|~ 2c1d", "~|Heroes' Quest|~ 2c2d"],
 			"It Spoiled My View[+]": ["Hard Falador tasks ~|It Spoiled My View|~ (Yew)*", "Hard Falador tasks ~|It Spoiled My View|~ (Magic)*"],
@@ -308544,7 +309420,6 @@
 		},
 		"11318": {
 			"1": [
-				"11319-5",
 				"11574",
 				"11317-2"
 			],
@@ -308585,7 +309460,6 @@
 				"11320-1"
 			],
 			"5": [
-				"11318-1",
 				"11318-2"
 			]
 		},
@@ -310035,13 +310909,15 @@
 				"13353"
 			],
 			"2": [
-				"13610"
+				"13610",
+				"13355-1"
 			]
 		},
 		"13355": {
 			"1": [
 				"13356-1",
-				"13611"
+				"13611",
+				"13354-2"
 			],
 			"2": [
 				"13356-2"
@@ -310787,7 +311663,8 @@
 			"1": [
 				"14639",
 				"14637",
-				"14382"
+				"14382",
+				"14894"
 			],
 			"2": [
 				"14894"
@@ -310894,7 +311771,8 @@
 		"14894": {
 			"0": [
 				"14895",
-				"14638-2"
+				"14638-2",
+				"14638-1"
 			]
 		},
 		"14895": {

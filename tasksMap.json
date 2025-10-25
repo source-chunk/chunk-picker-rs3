@@ -3,6 +3,7 @@
   "Complete a lap of the ~|Gnome Stronghold agility course|~": "t_2",
   "Read an agility tome from ~|Temple Trekking|~": "t_4",
   "Complete a lap of the ~|advanced Gnome Stronghold agility course|~": "t_5",
+  "Cross an obstacle on the east side of the ~|Anachronia agility course|~": "t_112082",
   "Complete section D of the ~|Anachronia agility course|~": "t_6",
   "Complete the whole ~|Anachronia agility course|~": "t_7",
   "Cross the ~|rocks (Arandar advanced)|~": "t_8",
@@ -19,6 +20,7 @@
   "Complete a lap of ~|werewolf skullball|~": "t_19",
   "Complete a lap of the ~|agility pyramid|~": "t_20",
   "Complete a lap of the ~|penguin agility course|~": "t_21",
+  "Cross a beginner obstacle in the ~|Anachronia agility course|~": "t_112083",
   "Complete section A of the ~|Anachronia agility course|~": "t_22",
   "Complete section G of the ~|Anachronia agility course|~": "t_23",
   "Catch a ~|leaping trout|~": "t_24",
@@ -57,7 +59,9 @@
   "Pickpocket a ~|paladin|~ for triple loot": "t_57",
   "Pickpocket a ~|hero|~ for double loot": "t_58",
   "Enter the ~|Apmeken tomb|~": "t_59",
+  "Cross a novice obstacle in the ~|Anachronia agility course|~": "t_112084",
   "Complete section B of the ~|Anachronia agility course|~": "t_60",
+  "Cross an advanced obstacle in the ~|Anachronia agility course|~": "t_112085",
   "Complete section C of the ~|Anachronia agility course|~": "t_61",
   "Complete section E of the ~|Anachronia agility course|~": "t_62",
   "Complete section F of the ~|Anachronia agility course|~": "t_63",
@@ -67,6 +71,7 @@
   "Pickpocket a ~|warrior woman|~ for quadruple loot": "t_67",
   "Cross a stile ~|shortcut|~": "t_68",
   "Cross the ~|stepping stone (Lumbridge swamp caves)|~": "t_69",
+  "Cross the Karamja wooden log ~|shortcut|~": "t_112086",
   "Cross the ~|crumbling wall (Falador)|~": "t_70",
   "Cross the ~|strong tree (Lumbridge/Al Kharid)|~": "t_71",
   "Cross the ~|ropeswing (Brimhaven)|~": "t_72",
@@ -1257,6 +1262,7 @@
   "Build an ~|Excalibur (mounted)|~": "t_1256",
   "Build a ~|crystal ball|~": "t_1257",
   "Build a medium ~|hidey-hole|~": "t_1258",
+  "Repair the ladder to the ~|Beacon Network|~ beacon near Death Plateau": "t_112087",
   "Build a ~|teak larder|~": "t_1259",
   "Build an ~|alchemical chart|~": "t_1260",
   "Build a ~|carved teak bench|~": "t_1261",
@@ -88142,5 +88148,5 @@
   "Pizazz points: ~|Law rune|~": "t_52855",
   "Pizazz points: ~|Soul rune|~": "t_52856",
   "Pizazz points: ~|Blood rune|~": "t_52857",
-  "currentNextIndex": 112082
+  "currentNextIndex": 112088
 }
