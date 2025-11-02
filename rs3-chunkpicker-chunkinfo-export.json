@@ -72971,7 +72971,7 @@
 			"Steal from a ~|silver stall|~": {
 				"Level": 50,
 				"Objects": ["Silver stall"],
-				"Output": "Silver stone spirit",
+				"Output": "Silver ore",
 				"Primary": true,
 				"Priority": 1
 			},
@@ -116146,7 +116146,7 @@
 				"Category": ["Show Diary Tasks"]
 			},
 			"~|Varrock Achievements#Elite|~ Arborehole": {
-				"Description": "Chop down a magic tree in the Varrock Sewer resource dungeon.",
+				"Description": "Chop down a magic tree in the Varrock Sewers resource dungeon.",
 				"Chunks": ["Varrock Sewers resource dungeon"],
 				"Skills": {
 					"Woodcutting": 75
@@ -166294,7 +166294,8 @@
 						"Plague's End": "step"
 					}
 				},
-				"3": {}
+				"3": {},
+				"4": {}
 			},
 			"Nickname": "Combat Training Camp"
 		},
@@ -180995,7 +180996,7 @@
 						"Unicorn": 2,
 						"Black bear": 1,
 						"Giant rat": 13,
-						"Goblin#Drop table 2": 1
+						"Goblin#Drop table 1": 1
 					},
 					"NPC": {
 						"Rat Burgiss": 1,
@@ -195635,7 +195636,6 @@
 			},
 			"Shop": {
 				"Stanley Limelight Traders": true,
-				"Runecrafting Guild Rewards": true,
 				"Wizard Korvak's Pouch Shop": true
 			},
 			"Connect": {
@@ -267932,6 +267932,36 @@
 				"11319-1": [{
 					"Members only": "Nonskill"
 				}]
+			},
+			"Kraka": {
+				"11320-1": [{
+					"Members only": "Nonskill"
+				}]
+			},
+			"Mountain troll": {
+				"11320-1": [{
+					"Members only": "Nonskill"
+				}]
+			},
+			"Pee Hat": {
+				"11320-1": [{
+					"Members only": "Nonskill"
+				}]
+			},
+			"Rock": {
+				"11320-1": [{
+					"Members only": "Nonskill"
+				}]
+			},
+			"Stick": {
+				"11320-1": [{
+					"Members only": "Nonskill"
+				}]
+			},
+			"Thrower Troll": {
+				"11320-1": [{
+					"Members only": "Nonskill"
+				}]
 			}
 		},
 		"NPCs": {
@@ -268216,6 +268246,11 @@
 			"Legends' Guild Shop of Useful Items": {
 				"10804": [{
 					"~|Legends' Quest|~ Complete the quest": "Quest" 
+				}]
+			},
+			"The Lighthouse Store": {
+				"10040": [{
+					"~|Horror from the Deep|~ Complete the quest": "Quest"
 				}]
 			},
 			"Mage Arena Staves": {
@@ -310495,13 +310530,18 @@
 			"3": [
 				"9780-1",
 				"10037-3"
+			],
+			"4": [
+				"10037-1",
+				"10292"
 			]
 		},
 		"10037": {
 			"1": [
 				"10038-1",
 				"10293",
-				"10036-1"
+				"10036-1",
+				"10036-4"
 			],
 			"2": [
 				"9781"
@@ -310657,7 +310697,8 @@
 				"10293",
 				"10548",
 				"10291",
-				"10036-1"
+				"10036-1",
+				"10036-4"
 			]
 		},
 		"10293": {
