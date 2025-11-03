@@ -716,7 +716,7 @@
 			},
 			"Cross the ~|underwall tunnel (Yanille)|~": {
 				"Category": ["Shortcut"],
-				"Object": ["Underwall tunnel (Yanille)"],
+				"Objects": ["Underwall tunnel (Yanille)"],
 				"Level": 16,
 				"Primary": false,
 				"Priority": 1,
@@ -1055,7 +1055,7 @@
 			},
 			"Cross the ~|stile (Tree Gnome Stronghold)|~": {
 				"Category": ["Shortcut"],
-				"Object": ["Stile (Tree Gnome Stronghold)"],
+				"Objects": ["Stile (Tree Gnome Stronghold)"],
 				"Level": 61,
 				"Primary": true,
 				"Priority": 1,
@@ -18110,7 +18110,7 @@
 				"Primary": true,
 				"Priority": 8
 			},
-			"Gain access to the ~|Cooks' Guild|~": {
+			"Enter the ~|Cooks' Guild|~": {
 				"Items": ["CookingGuildEntryItem[+]"],
 				"Chunks": ["12597-1"],
 				"Level": 32,
@@ -40148,7 +40148,7 @@
 				"Primary": true,
 				"Priority": 3
 			},
-			"Enter the ~|fishing guild|~": {
+			"Enter the ~|Fishing Guild|~": {
 				"Chunks": ["10292"],
 				"Level": 68,
 				"Primary": true,
@@ -51718,6 +51718,12 @@
 				"Primary": true,
 				"Priority": 5
 			},
+			"Enter the ~|Wizards' Guild|~": {
+				"Chunks": ["10288-1"],
+				"Level": 66,
+				"Primary": true,
+				"Priority": 1000
+			},
 			"Cast ~|NPC contact|~": {
 				"Category": ["Spells"],
 				"Items": ["Cosmic rune*", "Astral rune*", "Air rune[+]*"],
@@ -59902,6 +59908,13 @@
 				"Priority": 20,
 				"NoPet": true,
 				"NoBoost": true
+			},
+			"Enter the ~|Ranging Guild|~": {
+				"Chunks": ["10549"],
+				"Level": 40,
+				"Primary": false,
+				"Priority": 1000,
+				"NoPet": true
 			},
 			"Equip a ~|rune brutal|~": {
 				"Items": ["Rune brutal"],
@@ -72197,6 +72210,9 @@
 				"Level": 20,
 				"Chunks": ["9775-1"],
 				"Output": "Ogre coffin",
+				"Tasks": {
+					"~|Zogre Flesh Eaters|~ 1": "Quest"
+				},
 				"Primary": true,
 				"Priority": 6
 			},
@@ -77815,7 +77831,7 @@
 				"Chunks": ["12597-1"],
 				"Tasks": {
 					"~|Cook's Assistant|~ Complete the quest": "Quest",
-					"Gain access to the ~|Cooks' Guild|~": "Cooking"
+					"Enter the ~|Cooks' Guild|~": "Cooking"
 				},
 				"Skills": {
 					"Cooking": 32
@@ -77854,7 +77870,7 @@
 				"Chunks": ["12597-1"],
 				"Tasks": {
 					"~|Chef's Assistant|~ 4": "Quest",
-					"Gain access to the ~|Cooks' Guild|~": "Cooking"
+					"Enter the ~|Cooks' Guild|~": "Cooking"
 				}
 			},
 			"~|Chef's Assistant|~ 6": {
@@ -77864,7 +77880,7 @@
 				"Items": ["Pot of flour", "Pat of butter"],
 				"Tasks": {
 					"~|Chef's Assistant|~ 5": "Quest",
-					"Gain access to the ~|Cooks' Guild|~": "Cooking"
+					"Enter the ~|Cooks' Guild|~": "Cooking"
 				}
 			},
 			"~|Chef's Assistant|~ 7": {
@@ -77874,7 +77890,7 @@
 				"Items": ["Cake tin"],
 				"Tasks": {
 					"~|Chef's Assistant|~ 6": "Quest",
-					"Gain access to the ~|Cooks' Guild|~": "Cooking"
+					"Enter the ~|Cooks' Guild|~": "Cooking"
 				}
 			},
 			"~|Chef's Assistant|~ 8a": {
@@ -77909,7 +77925,7 @@
 					"~|Chef's Assistant|~ 8a": "Quest",
 					"~|Chef's Assistant|~ 8b": "Quest",
 					"~|Chef's Assistant|~ 8c": "Quest",
-					"Gain access to the ~|Cooks' Guild|~": "Cooking"
+					"Enter the ~|Cooks' Guild|~": "Cooking"
 				}
 			},
 			"~|Chef's Assistant|~ Complete the quest": {
@@ -77917,7 +77933,7 @@
 				"Chunks": ["12597-1"],
 				"Tasks": {
 					"~|Chef's Assistant|~ 9": "Quest",
-					"Gain access to the ~|Cooks' Guild|~": "Cooking"
+					"Enter the ~|Cooks' Guild|~": "Cooking"
 				},
 				"QuestPoints": 1,
 				"XpReward": {
@@ -78449,7 +78465,7 @@
 			"~|A Clockwork Syringe|~ 6": {
 				"BaseQuest": "A Clockwork Syringe",
 				"Description": "Travel to Bloodsplatter Isle and destroy the factory",
-				"Chunks": ["Bloodsplatter Isle"],
+				"Chunks": ["14638-1"],
 				"Tasks": {
 					"~|A Clockwork Syringe|~ 5": "Quest"
 				},
@@ -110395,7 +110411,7 @@
 				"Description": "Craft a fruit basket using the loom at the farm north of Port Sarim.",
 				"Chunks": ["12083-1"],
 				"Items": ["Willow seed", "Plant pot", "WateringCan[+]"],
-				"Object": ["Tree patch"],
+				"Objects": ["Tree patch"],
 				"Skills": {
 					"Crafting": 36
 				},
@@ -112084,7 +112100,7 @@
 			},
 			"~|Lumbridge Achievements#Beginner|~ Hotpot": {
 				"Description": "Fire a pot in a Pottery oven.",
-				"Object": ["Pottery oven"],
+				"Objects": ["Pottery oven"],
 				"Items": ["Pot (unfired)"],
 				"BaseQuest": "Lumbridge Achievements",
 				"Category": ["Show Diary Tasks"]
@@ -112897,7 +112913,7 @@
 				"Description": "Start any ale brewing below the Green Ghost Inn.",
 				"Chunks": ["14646-1"],
 				"Items": ["Bucket of water", "Barley seed", "Ale yeast"],
-				"Object": ["Hops patch", "Cooking object[+]"],
+				"Objects": ["Hops patch", "Cooking object[+]"],
 				"Skills": {
 					"Cooking": 14
 				},
@@ -116013,7 +116029,7 @@
 				"Items": ["Wild pie"],
 				"Tasks": {
 					"~|Varrock Achievements#Medium|~ Complete the Medium Achievements": "Diary",
-					"Gain access to the ~|Cooks' Guild|~": "Cooking"
+					"Enter the ~|Cooks' Guild|~": "Cooking"
 				},
 				"BaseQuest": "Varrock Achievements",
 				"Category": ["Show Diary Tasks"]
@@ -116196,7 +116212,7 @@
 				},
 				"Tasks": {
 					"~|Varrock Achievements#Hard|~ Complete the Hard Achievements": "Diary",
-					"Gain access to the ~|Cooks' Guild|~": "Cooking"
+					"Enter the ~|Cooks' Guild|~": "Cooking"
 				},
 				"BaseQuest": "Varrock Achievements",
 				"Category": ["Show Diary Tasks"]
@@ -125527,7 +125543,7 @@
 				"Category": ["Comp achievements"],
 				"Description": "Unlock the ability to fletch masterwork bows by making and upgrading to Mk. 5 a full set of primal/eternal magic ranged weaponry.",
 				"BaseQuest": "Completionist achievements",
-				"Object": ["Fletching workbench"],
+				"Objects": ["Fletching workbench"],
 				"Items": ["Eternal magic shortbow Mk. 5", "Primal crossbow Mk. 5", "Off-hand primal crossbow Mk. 5"],
 				"Skills": {
 					"Fletching": 103,
@@ -128358,7 +128374,8 @@
 				"Chunks": ["10293"],
 				"Items": ["Blue dragonhide chaps", "Rune warhammer", "Elemental shield"],
 				"Tasks": {
-					"Build a hard ~|hidey-hole|~": "Construction"
+					"Build a hard ~|hidey-hole|~": "Construction",
+					"Enter the ~|Fishing Guild|~": "Fishing"
 				}
 			},
 			"~|hidey-hole|~: top of the Kandarin lighthouse": {
@@ -151081,6 +151098,9 @@
 				}
 			},
 			"Desert Mining Camp cave": {
+				"Tasks": {
+					"~|The Tourist Trap|~ 2": "Quest"
+				},
 				"UnlocksArea": true
 			},
 			"Temple of Light": {
@@ -151297,9 +151317,6 @@
 				"UnlocksArea": true
 			},
 			"Nature grotto": {
-				"UnlocksArea": true
-			},
-			"Bloodsplatter Isle": {
 				"UnlocksArea": true
 			},
 			"Lighthouse Dungeon": {
@@ -151758,7 +151775,9 @@
 				"UnlocksArea": true
 			},
 			"Ogre enclave": {
-				"Items": ["Cave nightshade"],
+				"Quest": {
+					"~|Watchtower|~ 12": "Quest"
+				},
 				"UnlocksArea": true
 			},
 			"Rashiliyia's tomb": {
@@ -152087,7 +152106,7 @@
 			},
 			"Deep Sea Fishing Hub": {
 				"Tasks": {
-					"Enter the ~|fishing guild|~": "Fishing"
+					"Enter the ~|Fishing Guild|~": "Fishing"
 				},
 				"UnlocksArea": true
 			},
@@ -184068,7 +184087,8 @@
 				"1": {
 					"Object": {
 						"Broken fence": 1,
-						"Swamp tree": 168
+						"Swamp tree": 168,
+						"Furnace": 1
 					},
 					"Monster": {
 						"Vampyre Juvinate": 15,
@@ -265575,7 +265595,7 @@
 		"The Chosen Commander": "Dorgesh-Kaan, Dorgesh-Kaan Agility Course, H.A.M. Cave, 10548, Sigmund's base, Tears of Guthix cavern, Dorgesh-Kaan mine, Bandos's throne room",
 		"City of Senntisten": "13356, 13364, 11827, 11575, 11828, Senntisten",
 		"Clock Tower": "10290, Clock Tower Dungeon",
-		"A Clockwork Syringe": "Player-owned house, 14902, 14638, Braindeath Island, Bloodsplatter Isle, 14638",
+		"A Clockwork Syringe": "Player-owned house, 14902, 14638, Braindeath Island, 14638",
 		"Cold War": "10291, 10810, 10558, Player-owned house, LarryChunks[+], 12595, 12851, Penguin outpost",
 		"Contact!": "13098, 13099, Sophanem Dungeon, 13105, 13100",
 		"Cook's Assistant": "12850, 12851, 12595",
@@ -267621,8 +267641,13 @@
 					"Group Content enabled": "Nonskill"
 				}]
 			},
+			"Man": {
+				"10293": [{
+					"Enter the ~|Fishing Guild|~": "Fishing"
+				}]
+			},
 			"Mithril dragon": {
-				"4422": [{
+				"Brimhaven Dungeon resource dungeon": [{
 					"~|Daemonheim Achievements#Elite|~ Complete the Elite Achievements": "Diary"
 				}]
 			},
@@ -267666,6 +267691,11 @@
 			"Rasial, the First Necromancer": {
 				"Rasial's Citadel": [{
 					"~|Alpha vs Omega|~ 2": "Quest"
+				}]
+			},
+			"Rat": {
+				"10293": [{
+					"Enter the ~|Fishing Guild|~": "Fishing"
 				}]
 			},
 			"Renegade Knight": {
@@ -267962,12 +267992,60 @@
 				"11320-1": [{
 					"Members only": "Nonskill"
 				}]
+			},
+			"City guard": {
+				"10031": [{
+					"~|Watchtower|~ 7": "Quest"
+				}]
+			},
+			"Enclave guard": {
+				"10031": [{
+					"~|Watchtower|~ 7": "Quest"
+				}]
+			},
+			"Ogre": {
+				"10031": [{
+					"~|Watchtower|~ 7": "Quest"
+				}],
+				"10036-1": [{
+					"~|Biohazard|~ Complete the quest": "Quest"
+				}]
+			},
+			"Ogre chieftan": {
+				"10031": [{
+					"~|Watchtower|~ 7": "Quest"
+				}]
+			},
+			"Wizard": {
+				"10288-1": [{
+					"Enter the ~|Wizards' Guild|~": "Magic"
+				}]
+			},
+			"Magic axe": {
+				"12605": [{
+					"Lockpick the door to the ~|magic axe hut|~": "Thieving"
+				}]
+			},
+			"Ghostly warrior": {
+				"Spirit Realm Magic Axe Hut": [{
+					"Lockpick the door to the ~|magic axe hut|~": "Thieving"
+				}]
+			},
+			"Guard (Desert Mining Camp)": {
+				"13103": [{
+					"~|The Tourist Trap|~ 2": "Quest"
+				}]
 			}
 		},
 		"NPCs": {
 			"Ghost cat": {	
 				"City of Um": [{
 					"~|Alpha vs Omega|~ Complete the quest": "Quest"
+				}]
+			},
+			"Leatherworker": {
+				"10549": [{
+					"Enter the ~|Ranging Guild|~": "Ranged"
 				}]
 			},
 			"The Raptor#Fort Forinthry": {	
@@ -268000,6 +268078,17 @@
 			"Cooking range": {
 				"12596-1": [{
 					"Champions Guild Questpoints": "Nonskill"
+				}],
+				"10293": [{
+					"Enter the ~|Fishing Guild|~": "Fishing"
+				}],
+				"12597-1": [{
+					"Enter the ~|Cooks' Guild|~": "Cooking"
+				}]
+			},
+			"Hopper": {
+				"12597-1": [{
+					"Enter the ~|Cooks' Guild|~": "Cooking"
 				}]
 			},
 			"Herb patch": {
@@ -268030,6 +268119,9 @@
 			"Diary churn": {
 				"11827": [{
 					"Enter the ~|Crafting Guild|~": "Crafting"
+				}],
+				"12597-1": [{
+					"Enter the ~|Cooks' Guild|~": "Cooking"
 				}]
 			},
 			"Crashed star": {
@@ -268090,6 +268182,9 @@
 			"Furnace": {
 				"11571-1": [{
 					"Enter the ~|Crafting Guild|~": "Crafting"
+				}],
+				"14130-1": [{
+					"~|In Aid of the Myreque|~ 7": "Quest"
 				}]
 			},
 			"Sand pit": {
@@ -268105,11 +268200,17 @@
 			"Fishing spot (big fishing net, harpoon)": {
 				"11317": [{
 					"Members only": "Nonskill"
+				}],
+				"10293": [{
+					"Enter the ~|Fishing Guild|~": "Fishing"
 				}]
 			},
 			"Fishing spot (cage, harpoon)": {
 				"11317": [{
 					"Members only": "Nonskill"
+				}],
+				"10293": [{
+					"Enter the ~|Fishing Guild|~": "Fishing"
 				}]
 			},
 			"Fishing spot (small fishing net, bait)": {
@@ -268136,9 +268237,84 @@
 				"10297": [{
 					"~|The Fremennik Trials|~ Complete the quest": "Quest"
 				}]
+			},
+			"Rock cake stall": {
+				"10031": [{
+					"~|Watchtower|~ 7": "Quest"
+				}]
+			},
+			"Fish stall": {
+				"10553": [{
+					"~|The Fremennik Trials|~ Complete the quest": "Quest"
+				}]
+			},
+			"Fur stall": {
+				"10553": [{
+					"~|The Fremennik Trials|~ Complete the quest": "Quest"
+				}]
+			},
+			"Tin rock": {
+				"13103": [{
+					"~|The Tourist Trap|~ 2": "Quest"
+				}]
+			},
+			"Copper rock": {
+				"13103": [{
+					"~|The Tourist Trap|~ 2": "Quest"
+				}]
+			},
+			"Iron rock": {
+				"13103": [{
+					"~|The Tourist Trap|~ 2": "Quest"
+				}]
+			},
+			"Coal rock": {
+				"13103": [{
+					"~|The Tourist Trap|~ 2": "Quest"
+				}]
+			},
+			"Mithril rock": {
+				"Desert Mining Camp cave": [{
+					"~|The Tourist Trap|~ 7": "Quest"
+				}]
+			},
+			"Adamantite rock": {
+				"Desert Mining Camp cave": [{
+					"~|The Tourist Trap|~ Complete the quest": "Quest"
+				}]
+			},
+			"Necrite rock": {
+				"Desert Mining Camp cave": [{
+					"~|The Tourist Trap|~ Complete the quest": "Quest"
+				}]
+			},
+			"Phasmatite rock": {
+				"Dwarven Mine resource dungeon": [{
+					"~|Daemonheim Achievements#Hard|~ Complete the Hard Achievements": "Diary"
+				}]
+			},
+			"Yew": {
+				"13880": [{
+					"~|Daemonheim Achievements#Medium|~ Complete the Medium Achievements": "Diary"
+				}]
+			},
+			"Teak": {
+				"11312": [{
+					"~|Jungle Potion|~ Complete the quest": "Quest"
+				}]
+			},
+			"Mahogany": {
+				"11312": [{
+					"~|Jungle Potion|~ Complete the quest": "Quest"
+				}]
 			}
 		},
 		"Shops": {
+			"Aaron's Archery Appendages": {
+				"10549": [{
+					"Enter the ~|Ranging Guild|~": "Ranged"
+				}]
+			},
 			"Ali's Discount Wares": {
 				"13106-1": [{
 					"~|The Feud|~ Complete the quest": "Quest"
@@ -268154,14 +268330,34 @@
 					"Archaeology rewards": "Nonskill"
 				}]
 			},
+			"Aurel's Supplies": {
+				"13874-2": [{
+					"~|In Aid of the Myreque|~ 5": "Quest"
+				}]
+			},
 			"Austin's Place": {
 				"City of Um": [{
 					"Unlock ~|Austin's Place|~": "Necromancy"
 				}]
 			},
+			"Authentic Throwing Weapons": {
+				"10549": [{
+					"Enter the ~|Ranging Guild|~": "Ranged"
+				}]
+			},
+			"Banana Store": {
+				"12846-2": [{
+					"~|Do No Evil|~ Complete the quest": "Quest"
+				}]
+			},
 			"Castle Wars Ticket Exchange": {
 				"9776": [{
 					"Castle Wars rewards": "Nonskill"
+				}]
+			},
+			"Chimp ice": {
+				"12846-2": [{
+					"~|Do No Evil|~ Complete the quest": "Quest"
 				}]
 			},
 			"Commendation Rewards": {
@@ -268201,6 +268397,16 @@
 					"Access Daemonheim Rewards": "Nonskill"
 				}]
 			},
+			"Dal's General Ogre Supplies": {
+				"10031": [{
+					"~|Watchtower|~ 7": "Quest"
+				}]
+			},
+			"Dargaud's Bows and Arrows": {
+				"10549": [{
+					"Enter the ~|Ranging Guild|~": "Ranged"
+				}]
+			},
 			"Dealga's Scimitar Emporium": {
 				"12853-1": [{
 					"~|Monkey Madness|~ Complete the quest": "Quest"
@@ -268228,14 +268434,100 @@
 					"Construction Contracts rewards": "Nonskill"
 				}]
 			},
+			"Farming supplies": {
+				"11317": [{
+					"Members only": "Nonskill"
+				}]
+			},
+			"Farmers' Market": {
+				"10548": [{
+					"~|Player-owned farm tutorial|~ Complete the tutorial": "Quest"
+				}, {
+					"Timegated content enabled": "Nonskill"
+				}]
+			},
+			"Farmers' Market (Anachronia)": {
+				"14916": [{
+					"Unlock the Anachronia Base Camp": "Nonskill"
+				}, {
+					"~|Player-owned farm tutorial|~ Complete the tutorial": "Quest"
+				}, {
+					"Timegated content enabled": "Nonskill"
+				}]
+			},
+			"Fishing Guild Shop": {
+				"10293": [{
+					"Enter the ~|Fishing Guild|~": "Fishing"
+				}]
+			},
+			"Fremennik Fishmonger": {
+				"10553": [{
+					"~|The Fremennik Trials|~ Complete the quest": "Quest"
+				}]
+			},
+			"Fremennik Fur Trader": {
+				"10553": [{
+					"~|The Fremennik Trials|~ Complete the quest": "Quest"
+				}]
+			},
+			"Gabooty's Tai Bwo Wannai Cooperative": {
+				"11055": [{
+					"~|Jungle Potion|~ Complete the quest": "Quest"
+				}]
+			},
+			"Gabooty's Tai Bwo Wannai Drinky Store": {
+				"11055": [{
+					"~|Jungle Potion|~ Complete the quest": "Quest"
+				}]
+			},
+			"Gem Store": {
+				"12846-2": [{
+					"~|Do No Evil|~ Complete the quest": "Quest"
+				}]
+			},
+			"General Store (Monkey colony)": {
+				"12846-2": [{
+					"~|Do No Evil|~ Complete the quest": "Quest"
+				}]
+			},
+			"Grud's Herblore stall": {
+				"10031": [{
+					"~|Watchtower|~ 7": "Quest"
+				}]
+			},
+			"Happy Heroes' H'Emporium": {
+				"11574": [{
+					"~|Heroes' Quest|~ Complete the quest": "Quest"
+				}]
+			},
+			"Harry's Fishing Shop": {
+				"11317": [{
+					"Members only": "Nonskill"
+				}]
+			},
+			"Hickton's Archery Emporium": {
+				"11317": [{
+					"Members only": "Nonskill"
+				}]
+			},
 			"Honest Jimmy's House of Stuff": {
 				"15151-1": [{
 					"Group Content enabled": "Nonskill"
 				}]
 			},
+			"Hunter Mark Shop": {
+				"15683-1": [{
+					"Find Hunter Marks": "Nonskill"
+				}]
+			},
 			"Initiate Temple Knight Armoury": {
 				"11828": [{
 					"~|Recruitment Drive|~ Complete the quest": "Quest"
+				}]
+			},
+			"King Lathas's Armoury": {
+				"10036-1": [{
+					"~|Biohazard|~ Complete the quest": "Quest" 
 				}]
 			},
 			"Legends' Guild General Store": {
@@ -268258,6 +268550,16 @@
 					"Members only": "Nonskill"
 				}]
 			},
+			"Magic Guild Store - Mystic Robes": {
+				"10288-1": [{
+					"Enter the ~|Wizards' Guild|~": "Magic"
+				}]
+			},
+			"Magic Guild Store - Runes and Staves": {
+				"10288-1": [{
+					"Enter the ~|Wizards' Guild|~": "Magic"
+				}]
+			},
 			"Marvellous Mysticism": {
 				"12596-1": [{
 					"Champions Guild Questpoints": "Nonskill"
@@ -268266,6 +268568,16 @@
 			"Minerva": {
 				"12084-2": [{
 					"Create the ~|blurite keystone|~": "Woodcutting"
+				}]
+			},
+			"Oziach's Armour": {
+				"12086": [{
+					"~|Dragon Slayer|~ Complete the quest": "Quest"
+				}]
+			},
+			"Pie Shop": {
+				"12597-1": [{
+					"Enter the ~|Cooks' Guild|~": "Cooking"
 				}]
 			},
 			"Proselyte Temple Knight Armoury": {
@@ -268281,6 +268593,16 @@
 			"Raid Rewards": {
 				"Mazcab": [{
 					"Obtain teci*": "Nonskill"
+				}]
+			},
+			"Ranging Guild Ticket Exchange": {
+				"10549": [{
+					"Enter the ~|Ranging Guild|~": "Ranged"
+				}]
+			},
+			"Rellekka Long Hall Bar": {
+				"10553": [{
+					"~|The Fremennik Trials|~ Complete the quest": "Quest"
 				}]
 			},
 			"Reward Shop (Soul Wars)": {
@@ -268301,6 +268623,16 @@
 			"Shattered Worlds Reward Shop": {
 				"12593": [{
 					"Shattered Worlds rewards*": "Nonskill" 
+				}]
+			},
+			"Sidekix's Shop of Balance": {
+				"13107-1": [{
+					"Timegated content enabled": "Nonskill"
+				}]
+			},
+			"Sigmund the Merchant": {
+				"10553": [{
+					"~|The Fremennik Trials|~ Complete the quest": "Quest"
 				}]
 			},
 			"Skulgrimen's Battle Gear": {
@@ -268328,9 +268660,34 @@
 					"Stealing Creation rewards": "Nonskill"
 				}]
 			},
+			"Summoning Supplies (Wishing well)": {
+				"Nature grotto": [{
+					"~|Nature Spirit|~ Complete the quest": "Quest"
+				}]
+			},
+			"Summoning Supplies (Bogrog)": {
+				"10031": [{
+					"~|Watchtower|~ 7": "Quest"
+				}]
+			},
+			"Tamayu's Spear stall": {
+				"11055": [{
+					"~|Tai Bwo Wannai Trio|~ Complete the quest": "Quest"
+				}]
+			},
+			"Tamayu's Karambwan stall": {
+				"11055": [{
+					"~|Tai Bwo Wannai Trio|~ Complete the quest": "Quest"
+				}]
+			},
 			"Trader Stan's Trading Post": {
 				"12081-2": [{
 					"Members only": "Nonskill"
+				}]
+			},
+			"Urist's Crafting Supplies": {
+				"12853-1": [{
+					"~|From Tiny Acorns (miniquest)|~ Complete the miniquest": "Quest"
 				}]
 			},
 			"Valaine's Shop of Champions": {
@@ -268373,65 +268730,19 @@
 					"Members only": "Nonskill"
 				}]
 			},
-			"Summoning Supplies (Wishing well)": {
-				"Nature grotto": [{
-					"~|Nature Spirit|~ Complete the quest": "Quest"
-				}]
-			},
 			"Wizard Rinsit's Runecrafting Shop": {
 				"12337-1": [{
 					"Members only": "Nonskill"
 				}]
 			},
-			"Hunter Mark Shop": {
-				"15683-1": [{
-					"Find Hunter Marks": "Nonskill"
+			"Yrsa's Accoutrements": {
+				"10553": [{
+					"~|The Fremennik Trials|~ Complete the quest": "Quest"
 				}]
 			},
-			"Oziach's Armour": {
-				"12086": [{
-					"~|Dragon Slayer|~ Complete the quest": "Quest"
-				}]
-			},
-			"Sidekix's Shop of Balance": {
-				"13107-1": [{
-					"Timegated content enabled": "Nonskill"
-				}]
-			},
-			"Farming supplies": {
-				"11317": [{
-					"Members only": "Nonskill"
-				}]
-			},
-			"Farmers' Market": {
-				"10548": [{
-					"~|Player-owned farm tutorial|~ Complete the tutorial": "Quest"
-				}, {
-					"Timegated content enabled": "Nonskill"
-				}]
-			},
-			"Farmers' Market (Anachronia)": {
-				"14916": [{
-					"Unlock the Anachronia Base Camp": "Nonskill"
-				}, {
-					"~|Player-owned farm tutorial|~ Complete the tutorial": "Quest"
-				}, {
-					"Timegated content enabled": "Nonskill"
-				}]
-			},
-			"Urist's Crafting Supplies": {
-				"12853-1": [{
-					"~|From Tiny Acorns (miniquest)|~ Complete the miniquest": "Quest"
-				}]
-			},
-			"Harry's Fishing Shop": {
-				"11317": [{
-					"Members only": "Nonskill"
-				}]
-			},
-			"Hickton's Archery Emporium": {
-				"11317": [{
-					"Members only": "Nonskill"
+			"Yrsa's Shoe Store": {
+				"10553": [{
+					"~|The Fremennik Trials|~ Complete the quest": "Quest"
 				}]
 			}
 		},
@@ -268439,11 +268750,94 @@
 			"Papyrus": {
 				"10804": [{
 					"~|Legends' Quest|~ 1": "Quest"
+				}],
+				"13103": [{
+					"~|The Tourist Trap|~ 2": "Quest"
 				}]
 			},
 			"Bucket": {
 				"11827": [{
 					"Enter the ~|Crafting Guild|~": "Crafting"
+				}]
+			},
+			"Big fishing net": {
+				"10293": [{
+					"Enter the ~|Fishing Guild|~": "Fishing"
+				}]
+			},
+			"Harpoon": {
+				"10293": [{
+					"Enter the ~|Fishing Guild|~": "Fishing"
+				}]
+			},
+			"Lobster pot": {
+				"10293": [{
+					"Enter the ~|Fishing Guild|~": "Fishing"
+				}]
+			},
+			"Bowl": {
+				"12597-1": [{
+					"Enter the ~|Cooks' Guild|~": "Cooking"
+				}]
+			},
+			"Bowl of water": {
+				"13103": [{
+					"~|The Tourist Trap|~ 2": "Quest"
+				}]
+			},
+			"Cake tin": {
+				"12597-1": [{
+					"Enter the ~|Cooks' Guild|~": "Cooking"
+				}]
+			},
+			"Chocolate bar": {
+				"12597-1": [{
+					"Enter the ~|Cooks' Guild|~": "Cooking"
+				}]
+			},
+			"Cooking apple": {
+				"12597-1": [{
+					"Enter the ~|Cooks' Guild|~": "Cooking"
+				}]
+			},
+			"Grapes": {
+				"12597-1": [{
+					"Enter the ~|Cooks' Guild|~": "Cooking"
+				}]
+			},
+			"Empty pot": {
+				"12597-1": [{
+					"Enter the ~|Cooks' Guild|~": "Cooking"
+				}]
+			},
+			"Jug": {
+				"12597-1": [{
+					"Enter the ~|Cooks' Guild|~": "Cooking"
+				}]
+			},
+			"Jug of wine": {
+				"13103": [{
+					"~|The Tourist Trap|~ 2": "Quest"
+				}]
+			},
+			"Iron dagger": {
+				"12582": [{
+					"~|Shield of Arrav|~ 7": "Quest"
+				}]
+			},
+			"Leather boots": {
+				"12582": [{
+					"~|Shield of Arrav|~ 7": "Quest"
+				}]
+			},
+			"Leather gloves": {
+				"12582": [{
+					"~|Shield of Arrav|~ 7": "Quest"
+				}]
+			},
+			"Phoenix crossbow": {
+				"12582": [{
+					"~|Shield of Arrav|~ 7": "Quest"
 				}]
 			}
 		}

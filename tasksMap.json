@@ -1822,7 +1822,7 @@
   "Make a ~|mixed dragon (poured)|~": "t_1817",
   "Garnish a ~|mixed dragon (garnished)|~": "t_1818",
   "Finish a ~|Drunk Dragon|~": "t_1819",
-  "Gain access to the ~|Cooks' Guild|~": "t_112088",
+  "Enter the ~|Cooks' Guild|~": "t_112110",
   "Mix a ~|mixed saturday (shaker)|~": "t_1820",
   "Make a ~|mixed saturday (poured)|~": "t_1821",
   "Heat a ~|mixed saturday (heated)|~": "t_1822",
@@ -3983,7 +3983,7 @@
   "Catch a ~|raw green blubber jellyfish|~": "t_3934",
   "Catch a ~|magnetic minnow|~": "t_3935",
   "Fish at a ~|swarm|~": "t_3936",
-  "Enter the ~|fishing guild|~": "t_3937",
+  "Enter the ~|Fishing Guild|~": "t_3937",
   "Catch a ~|raw beltfish|~": "t_3938",
   "Feed fish at the fishery in the ~|Dream of Iaia|~": "t_3939",
   "Catch a ~|raw shark|~": "t_3940",
@@ -5225,6 +5225,7 @@
   "Cast ~|vulnerability|~": "t_5179",
   "Cast ~|Kharyrll teleport|~": "t_5180",
   "Cast ~|monster examine|~": "t_5181",
+  "Enter the ~|Wizards' Guild|~": "t_112111",
   "Cast ~|NPC contact|~": "t_5182",
   "Cast ~|lvl-5 enchant|~ on a dragonstone ring": "t_5183",
   "Cast ~|lvl-5 enchant|~ on a dragonstone necklace": "t_5184",
@@ -5880,6 +5881,7 @@
   "Equip a ~|sapphire bolt|~": "t_5841",
   "Equip an ~|enchanted topaz bolt|~": "t_5842",
   "Equip an ~|ice arrow|~": "t_5843",
+  "Enter the ~|Ranging Guild|~": "t_112112",
   "Equip a ~|rune brutal|~": "t_5844",
   "Wield a ~|chinchompa|~": "t_5845",
   "Wield ~|Zanik's crossbow|~": "t_5846",
@@ -88199,5 +88201,5 @@
   "Pizazz points: ~|Law rune|~": "t_52855",
   "Pizazz points: ~|Soul rune|~": "t_52856",
   "Pizazz points: ~|Blood rune|~": "t_52857",
-  "currentNextIndex": 112110
+  "currentNextIndex": 112113
 }
