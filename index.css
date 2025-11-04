@@ -4280,10 +4280,10 @@ input#searchChunkSections {
 }
 
 .chunk-section-canvas-spinner {
-    font-size: 70px;
+    font-size: 60px;
     display: flex;
     position: absolute;
-    margin: 61px;
+    margin: 35px;
 }
 
 .chunk-section-picker-block-outer {

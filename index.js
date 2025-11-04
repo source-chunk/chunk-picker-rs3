@@ -7401,6 +7401,19 @@ let resetSectionVars = async function(chunkId) {
         imgSection.crossOrigin = 'anonymous';
         imgSection.src = sectionUrls[section];
         sectionImgs[section] = imgSection;
+        sectionImgs[section].onload = async function() {
+            document.body.offsetHeight;
+            await new Promise(resolve => setTimeout(resolve, 0));
+            if ('requestIdleCallback' in window) {
+                requestIdleCallback(() => {
+                    redrawSectionCanvas();
+                });
+            } else {
+                setTimeout(() => {
+                    redrawSectionCanvas();
+                }, 0);
+            }
+        }
         if (manualSections[chunkId] && manualSections[chunkId].hasOwnProperty(section)) {
             selectedSections[section] = manualSections[chunkId][section];
         }
@@ -7409,7 +7422,7 @@ let resetSectionVars = async function(chunkId) {
     sectionImgMain.crossOrigin = 'anonymous';
     sectionImgMain.src = sectionMainUrl;
     canvasSection = document.getElementById('chunk-section-picker-canvas');
-    contextSection = canvasSection.getContext('2d');
+    contextSection = canvasSection.getContext('2d', { willReadFrequently: true });
     $('.chunk-section-canvas-spinner').show();
     contextSection.clearRect(0, 0, canvasSection.width, canvasSection.height);
     sectionImgMain.onload = async function() {
@@ -7502,10 +7515,7 @@ let calculateSectionPixels = function(inputNum) {
         }
         contextSection.fillStyle = "rgba(0, 0, 0, 1)";
         contextSection.fillRect(0, 0, 128, 128);
-        let imgSection = new Image();
-        imgSection.crossOrigin = 'anonymous';
-        imgSection.src = sectionUrls[inputNum];
-        contextSection.drawImage(imgSection, 0, 0);
+        contextSection.drawImage(sectionImgs[inputNum], 0, 0);
         imageData = contextSection.getImageData(0, 0, 128, 128).data;
         for (let y = 0; y < 128; y++) {
             for (let x = 0; x < 128; x++) {
@@ -7526,10 +7536,10 @@ let calculateSectionPixels = function(inputNum) {
                             }
                         }
                     }
-                    if (j === 0 || j === 191) {
+                    if (j === 0 || j === 127) {
                         highlightPixelArr[j][k] = Math.floor((k % 6) / 3) === 0;
                     }
-                    if (k === 0 || k === 191) {
+                    if (k === 0 || k === 127) {
                         highlightPixelArr[j][k] = Math.floor((j % 6) / 3) === 0;
                     }
                 }
