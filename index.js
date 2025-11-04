@@ -1549,7 +1549,7 @@ let topbarElements = {
 };
 
 let currentVersion = '6.9.8.1';
-let patchNotesVersion = '6.9.0';
+let patchNotesVersion = '6.9.8.1';
 let updateLevel = 'difference';
 
 // Patreon Test Server Data
