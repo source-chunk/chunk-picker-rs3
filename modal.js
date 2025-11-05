@@ -306,21 +306,57 @@ const modalContents = {
     `,
     'patchNotesModal': `
         <div id="patch-notes-title" class="patch-notes-title noscroll">Patch Notes</div>
-        <div id="patch-notes-subtitle" class="patch-notes-subtitle noscroll">September 23, 2025 (6.9.0)</div>
+        <div id="patch-notes-subtitle" class="patch-notes-subtitle noscroll">November 4, 2025 (6.9.8.2)</div>
         <div id="patch-notes-data" class="patch-notes-data noscroll">
-            <div><i>Note that not every update to the Chunk Picker has a corresponding Patch Notes entry. Check out the <a class='noscroll link' href='https://github.com/source-chunk/chunk-picker-v2/commits/gh-pages/' target='_blank'>Github Repository</a> to see when the Chunk Picker was last updated.</i></div>
+            <div><i>Note that not every update to the Chunk Picker has a corresponding Patch Notes entry. Check out the <a class='noscroll link' href='https://github.com/source-chunk/chunk-picker-rs3/commits/gh-pages/' target='_blank'>Github Repository</a> to see when the Chunk Picker was last updated.</i></div>
             <br />
             <h2 class='noscroll'>Major Changes & New Features</h2>
             <ul class='noscroll'>
-                <li class='noscroll'><b>High-res Map Screenshots</b> - Newly added to the Chunk Picker is the ability to generate high resolution screenshots of your entire chunk map! This feature is great for sharing your map in image-form with others, especially for content creators. You can generate your map screenshot via the top-right cogwheel dropdown, then click 'Miscellaneous Actions', then download the image.</li>
-                <li class='noscroll'><b>Behind-the-scenes Modal Revamp</b> - The underlying code in control of the various modals in the Chunk Picker has been reworked to be more reusable and separated. If all goes well, there should be no noticable changes as a user for this one!</li>
-            </ul>
+                <li class='noscroll'><b>RS3 Chunk Sections</b> - Chunk Sections are the parts that make up a whole chunk, created by a river or fence separating a chunk into pieces. Now that we are able to determine not just what chunks you have access to, but what part of those chunks you have access to, we can much more accurately generate tasks and more! (This feature was a very big undertaking, and surely will have some issues. Report any you find using the Bug Report link in the top bar).<br /><img style="width: 50%;display: flex;margin: auto;" src="https://i.imgur.com/F9EbaUA.gif" /><br /><i style="display:block;text-align: center;">An example of Chunk Sections in chunk 16198</i></li>
+				<li class='noscroll'><b>Many new rules</b> - Many rules have been added or changed over the past couple months. Make sure to check out your Chunk Rules and toggle them on or off appropriately. A full list can be found below.</li>
+			</ul>
             <h2 class='noscroll'>Other Changes & Bug Fixes</h2>
             <ul class='noscroll'>
-                <li class='noscroll'>Added a missing shooting star location in Custodia</li>
-                <li class='noscroll'>Locked the leather gloves spawn in south varrock behind partial completion of Shield of Arrav</li>
+				<li class='noscroll'>Changed silver stalls to properly give silver ore instead of silver ore spirits.</li>
+                <li class='noscroll'>Removed Bloodsplatter Isle from the picker as you cannot return to it after A Clockwork Syringe.</li>
+                <li class='noscroll'>Removed the Runecrafting Guild Store as Ironman accounts cannot buy anything from it.</li>
+                <li class='noscroll'>Changed the drop table of a goblin near Varrock.</li>
+                <li class='noscroll'>Made the trolls on Death Plateau not show up for F2P pickers.</li>
+                <li class='noscroll'>Locked the facilities inside the Lighthouse behind the Horror from the Deep quest.</li>
+                <li class='noscroll'>Locked the facilities inside Gu'Thanoth behind partial completion of the Watchtower quest.</li>
+                <li class='noscroll'>Locked the facilities inside the Combat Training Camp behind the Biohazard quest.</li>
+                <li class='noscroll'>Locked the facilities inside Rellekka behind the The Fremennik Trials quest.</li>
+                <li class='noscroll'>Locked the Hardwood grove behind the Jungle Potion quest.</li>
+                <li class='noscroll'>Locked the facilities inside Tai Bwo Wannai behind the Jungle Potion quest.</li>
+                <li class='noscroll'>Locked the facilities inside the Heroes' Guild behind the Heroes' Quest.</li>
+                <li class='noscroll'>Locked the facilities inside the Monkey Colony behind the Do No Evil quest.</li>
+                <li class='noscroll'>Locked the facilities inside the Desert Mining Camp behind partial (or full) completion of the The Tourist Trap quest.</li>
+                <li class='noscroll'>Locked the facilities inside Burgh de Rott behind partial completion of the In Aid of the Myreque quest.</li>
+                <li class='noscroll'>Locked the facilities inside the Wizards' Guild behind a 66 Magic requirement.</li>
+                <li class='noscroll'>Locked the facilities inside the Fishing Guild behind a 68 Fishing requirement.</li>
+                <li class='noscroll'>Locked the facilities inside the Ranging Guild behind a 40 Ranged requirement.</li>
+                <li class='noscroll'>Locked the facilities inside the Crafting Guild behind a 40 Crafting requirement.</li>
+                <li class='noscroll'>Locked the facilities inside the Cooks' Guild behind a 32 Cooking requirement.</li>
+                <li class='noscroll'>Locked the facilities inside the Warriors' Guild behind a 65 Attack and 65 Strength requirement.</li>
+                <li class='noscroll'>Locked the facilities inside the Magic Axe Hut behind a 23 Thieving requirement, both in the real world and the Spirit Realm.</li>
+				<li class='noscroll'>Added a 'DnD' rule + subrules. You can find it in the "Overall Skill" section of the Chunk Rules. It is <i>on by default for Extremes and Supremes</i>.</li>
+				<li class='noscroll'>Added a 'Hide Partial Products' rule. You can find it in the "Overall Skilling" section of the Chunk Rules, as a subrule of the "Multi Step Processing" rule. It is <i><u>off</u> by default for everyone</i>.</li>
+				<li class='noscroll'>Added a 'Menaphos Events' rule. You can find it in the "Overall Skilling" section of the Chunk Rules. It is <i>on by default for Extremes and Supremes</i>.</li>
+                <li class='noscroll'>Added a 'Slayer Contracts' rule. You can find it in the "Slayer" section of the Chunk Rules. It is <i>on by default for all rulesets</i>.</li>
+                <li class='noscroll'>Added a 'Unlock Reward Abilities/Prayers' rule + subrules. You can find it in the "Combat" section of the Chunk Rules. It is <i>on by default for all rulesets</i>.</li>
+                <li class='noscroll'>Added 'Combat Mastery Achievements' rule. You can find it in the "Achievements" section of the Chunk Rules. It is <i><u>off</u> by default for all rulesets</i>.</li>
+                <li class='noscroll'>Added 'Completionist Achievements' rule. You can find it in the "Achievements" section of the Chunk Rules. It is <i>on by default for Extremes and Supremes</i>.</li>
+				<li class='noscroll'>Added a 'Collection Log' rule + subrules which cover all the in-game Logs (Breeding Log, Menaphos Log, etc.). You can find it in the "Collections" section of the Chunk Rules. It is <i>on by default for Extremes and Supremes</i>.</li>
+                <li class='noscroll'>Added a 'Slayer Souls' rule. You can find it in the "Collections" section of the Chunk Rules. It is <i>on by default for Extremes and Supremes</i>.</li>
+                <li class='noscroll'>Added a 'Titles' rule. You can find it in the "Collections" section of the Chunk Rules. It is <i>on by default for Extremes and Supremes</i>.</li>
+                <li class='noscroll'>Added an 'Untracked Unique' rule + subrules. You can find it in the "Collections" section of the Chunk Rules. It is <i>on by default for Extremes and Supremes</i>.</li>
+				<li class='noscroll'>Added a 'Permanent Unlocks' rule. You can find it in the "Misc" section of the Chunk Rules. It is <i>on by default for Extremes and Supremes</i>.</li>
+                <li class='noscroll'>Added a 'Timegated Content' rule specifically for long-term timegated content (like Ports or POF). You can find it in the "Misc" section of the Chunk Rules. It is <i>on by default for Extremes and Supremes</i>.</li>
+                <li class='noscroll'>Added a 'Hard Mode' rule. You can find it in the "Item Sources" section of the Chunk Rules. It is <i>on by default for everyone</i>.</li>
+                <li class='noscroll'>Added a 'Group Content' rule. You can find it in the "Item Sources" section of the Chunk Rules. It is <i>on by default only for Supremes</i>.</li>
+                <li class='noscroll'>The 'Token XP' rule is no longer part of the <i>default Extreme ruleset</i>. It remains part of the Supreme ruleset.</li>
             </ul>
-            <h3 class='noscroll'>As always, if you experience any issues with your map or anything wrong related to this update, please contact me on Discord at <i class='noscroll hover-copy' onclick="navigator.clipboard.writeText('whitecatblack')">whitecatblack  <i class="fa-solid fa-copy noscroll"></i></i> or submit a bug report <a class='noscroll link' href='https://docs.google.com/forms/d/e/1FAIpQLSdmSyeMPMjuDxPrDKQHbCjJe0bXQOUwPYvyTeY_mrF-UrtmCQ/viewform?usp=sf_link' target='_blank'>here</a>.</h3>
+            <h3 class='noscroll'>As always, if you experience any issues with your map or anything wrong related to this update, please contact me on Discord at <i class='noscroll hover-copy' onclick="navigator.clipboard.writeText('whitecatblack')">whitecatblack  <i class="fa-solid fa-copy noscroll"></i></i> or submit a bug report <a class='noscroll link' href='https://docs.google.com/forms/d/e/1FAIpQLSdw8Eg-NvwPCAX3zxTSJPKtnSFUxDlrqkKGrrTc3pzbYkvCRg/viewform?usp=sf_link' target='_blank'>here</a>.</h3>
             <h4><a href='?patch-notes' target="_blank">Patch Notes Archive</a></h4>
         </div>
         <div id="patch-notes-footer" class="patch-notes-footer noscroll">
