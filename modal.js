@@ -306,7 +306,7 @@ const modalContents = {
     `,
     'patchNotesModal': `
         <div id="patch-notes-title" class="patch-notes-title noscroll">Patch Notes</div>
-        <div id="patch-notes-subtitle" class="patch-notes-subtitle noscroll">November 4, 2025 (6.9.8.1)</div>
+        <div id="patch-notes-subtitle" class="patch-notes-subtitle noscroll">November 4, 2025 (6.9.8.2)</div>
         <div id="patch-notes-data" class="patch-notes-data noscroll">
             <div><i>Note that not every update to the Chunk Picker has a corresponding Patch Notes entry. Check out the <a class='noscroll link' href='https://github.com/source-chunk/chunk-picker-rs3/commits/gh-pages/' target='_blank'>Github Repository</a> to see when the Chunk Picker was last updated.</i></div>
             <br />
