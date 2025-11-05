@@ -101524,7 +101524,7 @@
 				"BaseQuest": "Stellar Born",
 				"Description": "Speak to Wizard Rosalina and Zoob back in Piscatoris and perform the ritual",
 				"Chunks": ["9017"],
-				"Items": ["Comsic rune", "Astral rune", "Premade Wizard Blizzard"],
+				"Items": ["Cosmic rune", "Astral rune", "Premade Wizard Blizzard"],
 				"Tasks": {
 					"~|Stellar Born|~ 2": "Quest"
 				},
