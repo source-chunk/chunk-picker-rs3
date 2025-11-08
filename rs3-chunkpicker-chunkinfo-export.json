@@ -1235,9 +1235,9 @@
 				"Priority": 1,
 				"NoPet": true
 			},
-			"Cross the ~|rock (Poison Waste)|~": {
+			"Cross the ~|rock (Poison Waste)|~ by fairy ring DLR": {
 				"Category": ["Shortcut"],
-				"Chunks": ["8752-1"],
+				"Objects": ["Rock (Poison Waste)"],
 				"Level": 75,
 				"Tasks": {
 					"~|Plague's End|~ Complete the quest": "Quest"
@@ -74376,8 +74376,9 @@
 				"Priority": 16
 			},
 			"Craft a ~|fremennik round shield|~": {
-				"Items": ["Artic pine logs*", "Bronze nails*", "Rope*"],
+				"Items": ["Arctic pine logs*", "Bronze nails*", "Rope*"],
 				"Level": 54,
+				"Objects": ["Woodcutting stump"],
 				"Output": "Fremennik round shield",
 				"Skills": {
 					"Crafting": 43
@@ -80602,7 +80603,7 @@
 					"~|The Knight's Sword|~ Complete the quest": "Quest",
 					"~|Family Crest|~ Complete the quest": "Quest",
 					"~|What Lies Below|~ Complete the quest": "Quest",
-					"Shield of Arrav kuddos": "Nonskill"
+					"Shield of Arrav kudos": "Nonskill"
 				},
 				"Skills": {
 					"Agility": 51,
@@ -84908,7 +84909,7 @@
 			"~|A Fairy Tale II - Cure a Queen|~ 4": {
 				"BaseQuest": "A Fairy Tale II - Cure a Queen",
 				"Description": "Travel to the second fairy ring (DLR) then to the third (DJQ)",
-				"Chunks": ["8752-1"],
+				"Chunks": ["8752-4"],
 				"Tasks": {
 					"~|A Fairy Tale II - Cure a Queen|~ 3": "Quest"
 				},
@@ -114220,7 +114221,7 @@
 			},
 			"~|Tirannwn Achievements#Easy|~ Fairy Liquid": {
 				"Description": "Teleport to the fairy ring in the Poison Waste.",
-				"Chunks": ["8752-1"],
+				"Chunks": ["8752-4"],
 				"Tasks": {
 					"~|A Fairy Tale II - Cure a Queen|~ 2": "Quest"
 				},
@@ -150513,8 +150514,7 @@
 				"UnlocksArea": true,
 				"Tasks": {
 					"~|Lost City|~ Complete the quest": "Quest"
-				},
-				"Chunks": ["11316", "12849"]
+				}
 			},
 			"Troll Stronghold": {
 				"UnlocksArea": true,
@@ -152339,6 +152339,54 @@
 				},
 				"UnlocksArea": true
 			},
+			"Zanaris to 8752-4": {
+				"Sections": ["Zanaris", "8752-4"],
+				"Tasks": {
+					"~|A Fairy Tale II - Cure a Queen|~ 2": "Quest"
+				},
+				"ConnectsSections": true,
+				"Not F2P": true
+			},
+			"Zanaris to 10044-2": {
+				"Sections": ["Zanaris", "10044-2"],
+				"Tasks": {
+					"~|A Fairy Tale II - Cure a Queen|~ 2": "Quest"
+				},
+				"ConnectsSections": true,
+				"Not F2P": true
+			},
+			"Zanaris to 10547-3": {
+				"Sections": ["Zanaris", "10547-3"],
+				"Tasks": {
+					"~|A Fairy Tale II - Cure a Queen|~ 2": "Quest"
+				},
+				"ConnectsSections": true,
+				"Not F2P": true
+			},
+			"Zanaris to 10802-3": {
+				"Sections": ["Zanaris", "10802-3"],
+				"Tasks": {
+					"~|A Fairy Tale II - Cure a Queen|~ 2": "Quest"
+				},
+				"ConnectsSections": true,
+				"Not F2P": true
+			},
+			"Zanaris to 12338-2": {
+				"Sections": ["Zanaris", "12338-2"],
+				"Tasks": {
+					"~|A Fairy Tale II - Cure a Queen|~ 2": "Quest"
+				},
+				"ConnectsSections": true,
+				"Not F2P": true
+			},
+			"8752-1 to 8752-4": {
+				"Sections": ["8752-1", "8752-4"],
+				"Tasks": {
+					"Cross the ~|rock (Poison Waste)|~ by fairy ring DLR": "Agility"
+				},
+				"ConnectsSections": true,
+				"Not F2P": true
+			},
 			"8753-2 to 9009-1": {
 				"Sections": ["8753-2", "9009-1"],
 				"Tasks": {
@@ -152537,10 +152585,26 @@
 				"ConnectsSections": true,
 				"Not F2P": true
 			},
+			"10803 to 11059-1": {
+				"Sections": ["10803", "11059-1"],
+				"Tasks": {
+					"~|Sea Slug|~ 1": "Quest"
+				},
+				"ConnectsSections": true,
+				"Not F2P": true
+			},
 			"10808-1 to 10808-2": {
 				"Sections": ["10808-1", "10808-2"],
 				"Tasks": {
 					"Cross the ~|log balance (Fremennik Province)|~": "Agility"
+				},
+				"ConnectsSections": true,
+				"Not F2P": true
+			},
+			"10811 to 11325-1": {
+				"Sections": ["10811", "11325-1"],
+				"Tasks": {
+					"~|The Tale of the Muspah|~ 6": "Quest"
 				},
 				"ConnectsSections": true,
 				"Not F2P": true
@@ -152659,6 +152723,14 @@
 				"Sections": ["11565-1", "11565-3"],
 				"Tasks": {
 					"~|Legends' Quest|~ 1": "Quest"
+				},
+				"ConnectsSections": true,
+				"Not F2P": true
+			},
+			"11566-1 to 11567-1": {
+				"Sections": ["11566-1", "11567-1"],
+				"Tasks": {
+					"~|Back to my Roots|~ 3": "Quest"
 				},
 				"ConnectsSections": true,
 				"Not F2P": true
@@ -152898,6 +152970,14 @@
 				"Sections": ["13877-2", "13877-3"],
 				"Tasks": {
 					"~|In Search of the Myreque|~ 4": "Quest"
+				},
+				"ConnectsSections": true,
+				"Not F2P": true
+			},
+			"14129 to 14385-1": {
+				"Sections": ["14129", "14385-1"],
+				"Tasks": {
+					"~|The Darkness of Hallowvale|~ 2": "Quest"
 				},
 				"ConnectsSections": true,
 				"Not F2P": true
@@ -156145,7 +156225,7 @@
 					"13622", "11829-1", "11828", "13105", "13104-2", "12848", "Kalphite Nursery", "13365", "Senntisten Temple", "12596-1", "12596-3", 
 					"12086", "12850-1", "Dwarven Mine", "11570", "Melzar's Maze Basement", "12081-1", "12082-1", "12338-1", "11314-1", "11314-2", "11315", 
 					"Elvarg's Lair", "Lunar Isle Mine", "8253-1", "8253-2", "8508", "12589", "Enakhra's Temple", "Brimstail's cave", "10544", 
-					"9782-1", "9527-3", "9781", "FairyTaleI2[+]x5", "Zanaris", "11572-1", "11827", "12340-1", "Nature grotto", "10802-1", "8752-1", "8752-2", "8752-3",
+					"9782-1", "9527-3", "9781", "FairyTaleI2[+]x5", "Zanaris", "11572-1", "11827", "12340-1", "Nature grotto", "10802-1", "8752-4", "8752-2", "8752-3",
 					"Fairy Resistance Hideout", "Cosmic Entity plane", "Gorak Plane", "11317-1", "13107-1", "Witchaven Dungeon", "13110-1", 
 					"Edgeville Dungeon", "10289", "10553", "10806-1", "10806-2", "10552-1", "10808-1", "11064-1", "14391", "10548", "12083-1", "11062-1", 
 					"11830-1", "12342-1", "11573", "11574", "11828", "12597-1", "13872", "Ruins of Uzer", "Thammaron's Throne Room", "11823", 
@@ -161469,11 +161549,8 @@
 		"8752": {
 			"Sections": {
 				"1": {
-					"Connect": {
-						"9541": true
-					},
-					"Quest": {
-						"A Fairy Tale II - Cure a Queen": "step"
+					"Object": {
+						"Rock (Poison Waste)": 1
 					}
 				},
 				"2": {
@@ -161492,6 +161569,17 @@
 					"Object": {
 						"Small obelisk": 1,
 						"Tree": 10
+					}
+				},
+				"4": {
+					"Object": {
+						"Rock (Poison Waste)": 1
+					},
+					"Connect": {
+						"9541": true
+					},
+					"Quest": {
+						"A Fairy Tale II - Cure a Queen": "step"
 					}
 				}
 			},
@@ -172269,10 +172357,8 @@
 						"One Small Favour": "step"
 					},
 					"Connect": {
+						"36": true,
 						"11419": true
-					},
-					"Connect": {
-						"36": true
 					}
 				},
 				"3": {
@@ -184761,8 +184847,9 @@
 						"Will o' the wisp": 2
 					},
 					"Monster": {
-						"Vyrewatch": 8
+						"Demon Boss": 1
 					}
+					
 				},
 				"2": {
 					"Object": {
@@ -184773,7 +184860,7 @@
 						"Sentinel Draemus": 1
 					},
 					"Monster": {
-						"Demon Boss": 1
+						"Vyrewatch": 8
 					}
 				}
 			},
@@ -209959,7 +210046,7 @@
 			"Naturerune chest[+]": ["10291", "10547-1", "10553"],
 			"Orthen[+]": ["15428-1", "16454-1", "16193-1", "16704-1"],
 			"Pet shop[+]": ["10288-1", "11573"],
-			"PoisonWasteChunks[+]": ["8752-1", "9008-1"],
+			"PoisonWasteChunks[+]": ["8752-1", "8752-4", "9008-1"],
 			"Pose[+]": ["12853-1", "Keldagrim"],
 			"PrayerAltarChunks[+]": ["11828", "10290", "10806-1", "12854", "Underground Pass", "10035-1", "10291", "12850-1", "Sunken Tutorial Island", "11825-1", "11574", "11575-1", "13617-1", "12086", "11316", "Goblin Temple", "8757", "8755", "9265-1", "Jaldraocht Pyramid", "12331-1", "13622", "13098-1", "10803", "Nature Grotto", "War's Retreat", "Senntisten Temple", "God Wars Dungeon", "Kharid-et - Barracks excavation site", "14388-1", "12087-3", "11830-1", "12852", "12856", "11835", "Yanille Agility Dungeon", "9778-1", "9012-1", "11056", "11051-1", "Uzer Mastaba", "8508", "13613", "11829-1", "7995"],
 			"Priffdinas[+]": ["8501-1", "8501-2", "8500", "8499-1", "8499-2", "8757", "8756-1", "8756-2", "8756-3", "8756-4", "8756-5", "8756-6", "8756-7", "8755", "9013", "9012-1", "9012-2", "9011-1", "9011-2", "9011-5"],
@@ -268821,22 +268908,22 @@
 				}]
 			},
 			"Iron dagger": {
-				"12582": [{
+				"12852": [{
 					"~|Shield of Arrav|~ 7": "Quest"
 				}]
 			},
 			"Leather boots": {
-				"12582": [{
+				"12852": [{
 					"~|Shield of Arrav|~ 7": "Quest"
 				}]
 			},
 			"Leather gloves": {
-				"12582": [{
+				"12852": [{
 					"~|Shield of Arrav|~ 7": "Quest"
 				}]
 			},
 			"Phoenix crossbow": {
-				"12582": [{
+				"12852": [{
 					"~|Shield of Arrav|~ 7": "Quest"
 				}]
 			}
@@ -306727,7 +306814,7 @@
 				"Sweetcorn seed": {
 					"1": "22/600"
 				},
-				"Starwberry seed": {
+				"Strawberry seed": {
 					"1": "13/600"
 				},
 				"Watermelon seed": {
@@ -310209,7 +310296,8 @@
 			"3": [
 				"8753-3",
 				"8496-1"
-			]
+			],
+			"4": []
 		},
 		"8753": {
 			"1": [
@@ -311801,7 +311889,6 @@
 		"11567": {
 			"1": [
 				"11568-1",
-				"11566-1",
 				"11311"
 			],
 			"2": [
@@ -312096,7 +312183,9 @@
 			]
 		},
 		"12073": {
-			"0": []
+			"0": [
+				"12329-4"
+			]
 		},
 		"12076": {
 			"0": [
@@ -312288,7 +312377,9 @@
 				"12585"
 			],
 			"4": [
-				"12585"
+				"12585",
+				"12073",
+				"13097-2"
 			]
 		},
 		"12330": {
@@ -312920,7 +313011,8 @@
 				"13098-1"
 			],
 			"2": [
-				"12841-2"
+				"12841-2",
+				"12329-4"
 			]
 		},
 		"13098": {
@@ -313257,7 +313349,7 @@
 				"13617-2"
 			]
 		},
-		"13662": {
+		"13362": {
 			"1": [
 				"13363",
 				"13618-2"
@@ -313557,7 +313649,7 @@
 		"13626": {
 			"1": [
 				"13882-1",
-				"13626-1"
+				"13625-1"
 			],
 			"2": [
 				"13627",
@@ -313622,12 +313714,12 @@
 		},
 		"13873": {
 			"1": [
-				"13872",
-				"13617-2"
-			],
-			"2": [
 				"13874-2",
 				"14129"
+			],
+			"2": [
+				"13872",
+				"13617-2"
 			]
 		},
 		"13874": {
@@ -313650,7 +313742,7 @@
 				"13876-1",
 				"14131",
 				"13874-1",
-				"13619-1"
+				"13619-2"
 			],
 			"2": [
 				"13876-2",
@@ -345726,6 +345818,46 @@
 			"class": "ranged",
 			"accuracy": 1486,
 			"auto_damage": 892.5
+		},
+		"Karil's off-hand pistol crossbow": {
+			"ranged": 0,
+			"strength": 0,
+			"prayer": 0,
+			"charges": 100000,
+			"style": "bolts",
+			"ability_damage": 336,
+			"magic": 0,
+			"slot": "off-hand weapon",
+			"requirements": {
+				"Ranged": 70
+			},
+			"armour": 0,
+			"speed": 3,
+			"tier": 70,
+			"lp": 0,
+			"attack_range": 7,
+			"class": "ranged",
+			"accuracy": 1486
+		},
+		"Karil's pistol crossbow": {
+			"ranged": 0,
+			"strength": 0,
+			"prayer": 0,
+			"charges": 100000,
+			"style": "bolts",
+			"ability_damage": 672,
+			"magic": 0,
+			"slot": "main-hand weapon",
+			"requirements": {
+				"Ranged": 70
+			},
+			"armour": 0,
+			"speed": 3,
+			"tier": 70,
+			"lp": 0,
+			"attack_range": 7,
+			"class": "ranged",
+			"accuracy": 1486
 		},
 		"Karil's skirt": {
 			"ranged": 0,
