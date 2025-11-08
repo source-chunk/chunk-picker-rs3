@@ -204,7 +204,7 @@ let readdedCraftedBisTasks = {};
 let didRestart = false;
 let bisUpgrades = {};
 let globalValidsBoosts = {};
-let unconnectedAreas = ['Zanaris', 'Puro-Puro'];
+let unconnectedAreas = ['Zanaris', 'Puro-Puro', 'Player-owned house', 'Player-Owned Port', 'Vinesweeper', 'Guthixian Cache', "Balthazar Beauregard's Big Top Bonanza", 'Sinkhole', 'Chinchompa cave'];
 
 onmessage = function(e) {
     try {

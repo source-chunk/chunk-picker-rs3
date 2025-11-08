@@ -13201,7 +13201,7 @@
 				"Primary": true,
 				"Priority": 6
 			},
-			"Build a small dinosaur pen in your ~|player-owned ranch|~": {
+			"Build a small dinosaur pen in your ~|Ranch out of Time|~": {
 				"Chunks": ["14916"],
 				"Items": ["Small dinosaur pen deed"],
 				"Level": 45,
@@ -13795,7 +13795,7 @@
 				"Primary": true,
 				"Priority": 7
 			},
-			"Build a dinosaur breeding pen in your ~|player-owned ranch|~": {
+			"Build a dinosaur breeding pen in your ~|Ranch out of Time|~": {
 				"Chunks": ["14659"],
 				"Items": ["Dinosaur breeding pen deed I"],
 				"Level": 55,
@@ -15369,7 +15369,7 @@
 				"Primary": true,
 				"Priority": 8
 			},
-			"Build a medium dinosaur pen in your ~|player-owned ranch|~": {
+			"Build a medium dinosaur pen in your ~|Ranch out of Time|~": {
 				"Chunks": ["14916"],
 				"Items": ["Medium dinosaur pen deed"],
 				"Level": 80,
@@ -15830,7 +15830,7 @@
 				"NoPet": true,
 				"Priority": 6
 			},
-			"Build a large dinosaur pen in your ~|player-owned ranch|~": {
+			"Build a large dinosaur pen in your ~|Ranch out of Time|~": {
 				"Chunks": ["14660"],
 				"Items": ["Large dinosaur pen deed I"],
 				"Level": 90,
@@ -15845,7 +15845,7 @@
 				"Primary": false,
 				"Priority": 7
 			},
-			"Build a second large dinosaur pen in your ~|player-owned ranch|~": {
+			"Build a second large dinosaur pen in your ~|Ranch out of Time|~": {
 				"Chunks": ["14659"],
 				"Items": ["Large dinosaur pen deed II"],
 				"Level": 90,
@@ -34382,7 +34382,7 @@
 				"Primary": true,
 				"Priority": 13
 			},
-			"Build a small dinosaur pen in your ~|player-owned ranch|~": {
+			"Build a small dinosaur pen in your ~|Ranch out of Time|~": {
 				"Chunks": ["14916"],
 				"Items": ["Small dinosaur pen deed"],
 				"Level": 42,
@@ -34397,7 +34397,7 @@
 				"Primary": false,
 				"Priority": 14
 			},
-			"Build a dinosaur breeding pen in your ~|player-owned ranch|~": {
+			"Build a dinosaur breeding pen in your ~|Ranch out of Time|~": {
 				"Chunks": ["14659"],
 				"Items": ["Dinosaur breeding pen deed I"],
 				"Level": 42,
@@ -35332,7 +35332,7 @@
 				"Primary": false,
 				"Priority": 5
 			},
-			"Build a medium dinosaur pen in your ~|player-owned ranch|~": {
+			"Build a medium dinosaur pen in your ~|Ranch out of Time|~": {
 				"Chunks": ["14916"],
 				"Items": ["Medium dinosaur pen deed"],
 				"Level": 76,
@@ -36407,7 +36407,7 @@
 				"Primary": false,
 				"Priority": 7
 			},
-			"Build a large dinosaur pen in your ~|player-owned ranch|~": {
+			"Build a large dinosaur pen in your ~|Ranch out of Time|~": {
 				"Chunks": ["14660"],
 				"Items": ["Large dinosaur pen deed I"],
 				"Level": 98,
@@ -36663,7 +36663,7 @@
 				"Primary": false,
 				"Priority": 1
 			},
-			"Build a second large dinosaur pen in your ~|player-owned ranch|~": {
+			"Build a second large dinosaur pen in your ~|Ranch out of Time|~": {
 				"Chunks": ["14659"],
 				"Items": ["Large dinosaur pen deed II"],
 				"Level": 104,
@@ -133852,391 +133852,391 @@
 			},
 			"(Frogs) Breed a ~|common green frog|~": {
 				"Category": ["Collection Log", "Breeding Log"],
-				"Label": "Player-Owned Ranch Breeding Log",
+				"Label": "Ranch out of Time Breeding Log",
 				"Chunks": ["14659"],
 				"Items": ["Common green frog (unchecked)"]
 			},
 			"(Frogs) Breed a ~|phantasmal poison frog|~": {
 				"Category": ["Collection Log", "Breeding Log"],
-				"Label": "Player-Owned Ranch Breeding Log",
+				"Label": "Ranch out of Time Breeding Log",
 				"Chunks": ["14659"],
 				"Items": ["Phantasmal poison frog (unchecked)"]
 			},
 			"(Frogs) Breed a ~|sky-blue poison frog|~": {
 				"Category": ["Collection Log", "Breeding Log"],
-				"Label": "Player-Owned Ranch Breeding Log",
+				"Label": "Ranch out of Time Breeding Log",
 				"Chunks": ["14659"],
 				"Items": ["Sky-blue poison frog (unchecked)"]
 			},
 			"(Frogs) Breed a ~|golden poison frog|~": {
 				"Category": ["Collection Log", "Breeding Log"],
-				"Label": "Player-Owned Ranch Breeding Log",
+				"Label": "Ranch out of Time Breeding Log",
 				"Chunks": ["14659"],
 				"Items": ["Golden poison frog (unchecked)"]
 			},
 			"(Frogs) Breed a ~|cactoad|~": {
 				"Category": ["Collection Log", "Breeding Log"],
-				"Label": "Player-Owned Ranch Breeding Log",
+				"Label": "Ranch out of Time Breeding Log",
 				"Chunks": ["14659"],
 				"Items": ["AllFrogs[+]"]
 			},
 			"(Salamanders) Breed a ~|green salamander|~": {
 				"Category": ["Collection Log", "Breeding Log"],
-				"Label": "Player-Owned Ranch Breeding Log",
+				"Label": "Ranch out of Time Breeding Log",
 				"Chunks": ["14659"],
 				"Items": ["Green salamander (unchecked)"]
 			},
 			"(Salamanders) Breed a ~|orange salamander|~": {
 				"Category": ["Collection Log", "Breeding Log"],
-				"Label": "Player-Owned Ranch Breeding Log",
+				"Label": "Ranch out of Time Breeding Log",
 				"Chunks": ["14659"],
 				"Items": ["Orange salamander (unchecked)"]
 			},
 			"(Salamanders) Breed a ~|red salamander|~": {
 				"Category": ["Collection Log", "Breeding Log"],
-				"Label": "Player-Owned Ranch Breeding Log",
+				"Label": "Ranch out of Time Breeding Log",
 				"Chunks": ["14659"],
 				"Items": ["Red salamander (unchecked)"]
 			},
 			"(Salamanders) Breed a ~|black salamander|~": {
 				"Category": ["Collection Log", "Breeding Log"],
-				"Label": "Player-Owned Ranch Breeding Log",
+				"Label": "Ranch out of Time Breeding Log",
 				"Chunks": ["14659"],
 				"Items": ["Black salamander (unchecked)"]
 			},
 			"(Salamanders) Breed a ~|wytchfire salamander|~": {
 				"Category": ["Collection Log", "Breeding Log"],
-				"Label": "Player-Owned Ranch Breeding Log",
+				"Label": "Ranch out of Time Breeding Log",
 				"Chunks": ["14659"],
 				"Items": ["AllSalamanders[+]"]
 			},
 			"(Jadinkos) Breed an ~|amphibious jadinko|~": {
 				"Category": ["Collection Log", "Breeding Log"],
-				"Label": "Player-Owned Ranch Breeding Log",
+				"Label": "Ranch out of Time Breeding Log",
 				"Chunks": ["14659"],
 				"Items": ["Amphibious jadinko (unchecked)"]
 			},
 			"(Jadinkos) Breed an ~|aquatic jadinko|~": {
 				"Category": ["Collection Log", "Breeding Log"],
-				"Label": "Player-Owned Ranch Breeding Log",
+				"Label": "Ranch out of Time Breeding Log",
 				"Chunks": ["14659"],
 				"Items": ["Aquatic jadinko (unchecked)"]
 			},
 			"(Jadinkos) Breed a ~|camouflaged jadinko|~": {
 				"Category": ["Collection Log", "Breeding Log"],
-				"Label": "Player-Owned Ranch Breeding Log",
+				"Label": "Ranch out of Time Breeding Log",
 				"Chunks": ["14659"],
 				"Items": ["Camouflaged jadinko (unchecked)"]
 			},
 			"(Jadinkos) Breed a ~|cannibal jadinko|~": {
 				"Category": ["Collection Log", "Breeding Log"],
-				"Label": "Player-Owned Ranch Breeding Log",
+				"Label": "Ranch out of Time Breeding Log",
 				"Chunks": ["14659"],
 				"Items": ["Cannibal jadinko (unchecked)"]
 			},
 			"(Jadinkos) Breed a ~|carrion jadinko|~": {
 				"Category": ["Collection Log", "Breeding Log"],
-				"Label": "Player-Owned Ranch Breeding Log",
+				"Label": "Ranch out of Time Breeding Log",
 				"Chunks": ["14659"],
 				"Items": ["Carrion jadinko (unchecked)"]
 			},
 			"(Jadinkos) Breed a ~|common jadinko|~": {
 				"Category": ["Collection Log", "Breeding Log"],
-				"Label": "Player-Owned Ranch Breeding Log",
+				"Label": "Ranch out of Time Breeding Log",
 				"Chunks": ["14659"],
 				"Items": ["Common jadinko (unchecked)"]
 			},
 			"(Jadinkos) Breed a ~|diseased jadinko|~": {
 				"Category": ["Collection Log", "Breeding Log"],
-				"Label": "Player-Owned Ranch Breeding Log",
+				"Label": "Ranch out of Time Breeding Log",
 				"Chunks": ["14659"],
 				"Items": ["Diseased jadinko (unchecked)"]
 			},
 			"(Jadinkos) Breed a ~|draconic jadinko|~": {
 				"Category": ["Collection Log", "Breeding Log"],
-				"Label": "Player-Owned Ranch Breeding Log",
+				"Label": "Ranch out of Time Breeding Log",
 				"Chunks": ["14659"],
 				"Items": ["Draconic jadinko (unchecked)"]
 			},
 			"(Jadinkos) Breed a ~|igneous jadinko|~": {
 				"Category": ["Collection Log", "Breeding Log"],
-				"Label": "Player-Owned Ranch Breeding Log",
+				"Label": "Ranch out of Time Breeding Log",
 				"Chunks": ["14659"],
 				"Items": ["Igneous jadinko (unchecked)"]
 			},
 			"(Jadinkos) Breed a ~|shadow jadinko|~": {
 				"Category": ["Collection Log", "Breeding Log"],
-				"Label": "Player-Owned Ranch Breeding Log",
+				"Label": "Ranch out of Time Breeding Log",
 				"Chunks": ["14659"],
 				"Items": ["Shadow jadinko (unchecked)"]
 			},
 			"(Jadinkos) Breed a ~|luminous jadinko|~": {
 				"Category": ["Collection Log", "Breeding Log"],
-				"Label": "Player-Owned Ranch Breeding Log",
+				"Label": "Ranch out of Time Breeding Log",
 				"Chunks": ["14659"],
 				"Items": ["AllJadinkos[+]"]
 			},
 			"(Varanusaurs) Breed a ~|feral dinosaur|~": {
 				"Category": ["Collection Log", "Breeding Log"],
-				"Label": "Player-Owned Ranch Breeding Log",
+				"Label": "Ranch out of Time Breeding Log",
 				"Chunks": ["14659"],
 				"Items": ["Feral dinosaur (unchecked)"]
 			},
 			"(Varanusaurs) Breed a ~|venemous dinosaur|~": {
 				"Category": ["Collection Log", "Breeding Log"],
-				"Label": "Player-Owned Ranch Breeding Log",
+				"Label": "Ranch out of Time Breeding Log",
 				"Chunks": ["14659"],
 				"Items": ["Venemous dinosaur (unchecked)"]
 			},
 			"(Varanusaurs) Breed a ~|ripper dinosaur|~": {
 				"Category": ["Collection Log", "Breeding Log"],
-				"Label": "Player-Owned Ranch Breeding Log",
+				"Label": "Ranch out of Time Breeding Log",
 				"Chunks": ["14659"],
 				"Items": ["Ripper dinosaur (unchecked)"]
 			},
 			"(Varanusaurs) Breed a ~|hypnotic dinosaur|~": {
 				"Category": ["Collection Log", "Breeding Log"],
-				"Label": "Player-Owned Ranch Breeding Log",
+				"Label": "Ranch out of Time Breeding Log",
 				"Chunks": ["14659"],
 				"Items": ["AllVaranusaurs[+]"]
 			},
 			"(Brutish Dinosaurs) Breed a ~|brutish dinosaur|~": {
 				"Category": ["Collection Log", "Breeding Log"],
-				"Label": "Player-Owned Ranch Breeding Log",
+				"Label": "Ranch out of Time Breeding Log",
 				"Chunks": ["14659"],
 				"Items": ["Brutish dinosaur (unchecked)"]
 			},
 			"(Brutish Dinosaurs) Breed a ~|beach dinosaur|~": {
 				"Category": ["Collection Log", "Breeding Log"],
-				"Label": "Player-Owned Ranch Breeding Log",
+				"Label": "Ranch out of Time Breeding Log",
 				"Chunks": ["14659"],
 				"Items": ["Beach dinosaur (unchecked)"]
 			},
 			"(Brutish Dinosaurs) Breed a ~|forest dinosaur|~": {
 				"Category": ["Collection Log", "Breeding Log"],
-				"Label": "Player-Owned Ranch Breeding Log",
+				"Label": "Ranch out of Time Breeding Log",
 				"Chunks": ["14659"],
 				"Items": ["Forest dinosaur (unchecked)"]
 			},
 			"(Brutish Dinosaurs) Breed a ~|magnificent dinosaur|~": {
 				"Category": ["Collection Log", "Breeding Log"],
-				"Label": "Player-Owned Ranch Breeding Log",
+				"Label": "Ranch out of Time Breeding Log",
 				"Chunks": ["14659"],
 				"Items": ["AllBrutishDinosaurs[+]"]
 			},
 			"(Arcane Apoterrasaurs) Breed a ~|arcane apoterrasaur|~": {
 				"Category": ["Collection Log", "Breeding Log"],
-				"Label": "Player-Owned Ranch Breeding Log",
+				"Label": "Ranch out of Time Breeding Log",
 				"Chunks": ["14659"],
 				"Items": ["Arcane apoterrasaur (unchecked)"]
 			},
 			"(Arcane Apoterrasaurs) Breed a ~|arcane apoterrasaur natura|~": {
 				"Category": ["Collection Log", "Breeding Log"],
-				"Label": "Player-Owned Ranch Breeding Log",
+				"Label": "Ranch out of Time Breeding Log",
 				"Chunks": ["14659"],
 				"Items": ["Arcane apoterrasaur natura (unchecked)"]
 			},
 			"(Arcane Apoterrasaurs) Breed a ~|arcane apoterrasaur iratum|~": {
 				"Category": ["Collection Log", "Breeding Log"],
-				"Label": "Player-Owned Ranch Breeding Log",
+				"Label": "Ranch out of Time Breeding Log",
 				"Chunks": ["14659"],
 				"Items": ["Arcane apoterrasaur iratum (unchecked)"]
 			},
 			"(Arcane Apoterrasaurs) Breed a ~|arcane apoterrasaur lucidum|~": {
 				"Category": ["Collection Log", "Breeding Log"],
-				"Label": "Player-Owned Ranch Breeding Log",
+				"Label": "Ranch out of Time Breeding Log",
 				"Chunks": ["14659"],
 				"Items": ["AllArcaneApoterrasaurs[+]"]
 			},
 			"(Spicati Apoterrasaurs) Breed a ~|spicati apoterrasaur|~": {
 				"Category": ["Collection Log", "Breeding Log"],
-				"Label": "Player-Owned Ranch Breeding Log",
+				"Label": "Ranch out of Time Breeding Log",
 				"Chunks": ["14659"],
 				"Items": ["Spicati apoterrasaur (unchecked)"]
 			},
 			"(Spicati Apoterrasaurs) Breed a ~|spicati apoterrasaur tilia|~": {
 				"Category": ["Collection Log", "Breeding Log"],
-				"Label": "Player-Owned Ranch Breeding Log",
+				"Label": "Ranch out of Time Breeding Log",
 				"Chunks": ["14659"],
 				"Items": ["Spicati apoterrasaur tilia (unchecked)"]
 			},
 			"(Spicati Apoterrasaurs) Breed a ~|spicati apoterrasaur purpura|~": {
 				"Category": ["Collection Log", "Breeding Log"],
-				"Label": "Player-Owned Ranch Breeding Log",
+				"Label": "Ranch out of Time Breeding Log",
 				"Chunks": ["14659"],
 				"Items": ["Spicati apoterrasaur purpura (unchecked)"]
 			},
 			"(Spicati Apoterrasaurs) Breed a ~|spicati apoterrasaur lucidum|~": {
 				"Category": ["Collection Log", "Breeding Log"],
-				"Label": "Player-Owned Ranch Breeding Log",
+				"Label": "Ranch out of Time Breeding Log",
 				"Chunks": ["14659"],
 				"Items": ["AllSpicatiApoterrasaurs[+]"]
 			},
 			"(Oculi Apoterrasaurs) Breed a ~|oculi apoterrasaur|~": {
 				"Category": ["Collection Log", "Breeding Log"],
-				"Label": "Player-Owned Ranch Breeding Log",
+				"Label": "Ranch out of Time Breeding Log",
 				"Chunks": ["14659"],
 				"Items": ["Oculi apoterrasaur (unchecked)"]
 			},
 			"(Oculi Apoterrasaurs) Breed a ~|oculi apoterrasaur oceanum|~": {
 				"Category": ["Collection Log", "Breeding Log"],
-				"Label": "Player-Owned Ranch Breeding Log",
+				"Label": "Ranch out of Time Breeding Log",
 				"Chunks": ["14659"],
 				"Items": ["Oculi apoterrasaur oceanum (unchecked)"]
 			},
 			"(Oculi Apoterrasaurs) Breed a ~|oculi apoterrasaur glacies|~": {
 				"Category": ["Collection Log", "Breeding Log"],
-				"Label": "Player-Owned Ranch Breeding Log",
+				"Label": "Ranch out of Time Breeding Log",
 				"Chunks": ["14659"],
 				"Items": ["Oculi apoterrasaur glacies (unchecked)"]
 			},
 			"(Oculi Apoterrasaurs) Breed a ~|oculi apoterrasaur lucidum|~": {
 				"Category": ["Collection Log", "Breeding Log"],
-				"Label": "Player-Owned Ranch Breeding Log",
+				"Label": "Ranch out of Time Breeding Log",
 				"Chunks": ["14659"],
 				"Items": ["AllOculiApoterrasaurs[+]"]
 			},
 			"(Scimitops) Breed a ~|scimitops|~": {
 				"Category": ["Collection Log", "Breeding Log"],
-				"Label": "Player-Owned Ranch Breeding Log",
+				"Label": "Ranch out of Time Breeding Log",
 				"Chunks": ["14659"],
 				"Items": ["Scimitops (unchecked)"]
 			},
 			"(Scimitops) Breed a ~|scimitops palus|~": {
 				"Category": ["Collection Log", "Breeding Log"],
-				"Label": "Player-Owned Ranch Breeding Log",
+				"Label": "Ranch out of Time Breeding Log",
 				"Chunks": ["14659"],
 				"Items": ["Scimitops palus (unchecked)"]
 			},
 			"(Scimitops) Breed a ~|scimitops blavum|~": {
 				"Category": ["Collection Log", "Breeding Log"],
-				"Label": "Player-Owned Ranch Breeding Log",
+				"Label": "Ranch out of Time Breeding Log",
 				"Chunks": ["14659"],
 				"Items": ["Scimitops blavum (unchecked)"]
 			},
 			"(Scimitops) Breed a ~|scimitops lucidum|~": {
 				"Category": ["Collection Log", "Breeding Log"],
-				"Label": "Player-Owned Ranch Breeding Log",
+				"Label": "Ranch out of Time Breeding Log",
 				"Chunks": ["14659"],
 				"Items": ["AllScimitops[+]"]
 			},
 			"(Asciatops) Breed a ~|asciatops|~": {
 				"Category": ["Collection Log", "Breeding Log"],
-				"Label": "Player-Owned Ranch Breeding Log",
+				"Label": "Ranch out of Time Breeding Log",
 				"Chunks": ["14659"],
 				"Items": ["Asciatops (unchecked)"]
 			},
 			"(Asciatops) Breed a ~|asciatops acta|~": {
 				"Category": ["Collection Log", "Breeding Log"],
-				"Label": "Player-Owned Ranch Breeding Log",
+				"Label": "Ranch out of Time Breeding Log",
 				"Chunks": ["14659"],
 				"Items": ["Asciatops acta (unchecked)"]
 			},
 			"(Asciatops) Breed a ~|asciatops aurum|~": {
 				"Category": ["Collection Log", "Breeding Log"],
-				"Label": "Player-Owned Ranch Breeding Log",
+				"Label": "Ranch out of Time Breeding Log",
 				"Chunks": ["14659"],
 				"Items": ["Asciatops aurum (unchecked)"]
 			},
 			"(Asciatops) Breed a ~|asciatops lucidum|~": {
 				"Category": ["Collection Log", "Breeding Log"],
-				"Label": "Player-Owned Ranch Breeding Log",
+				"Label": "Ranch out of Time Breeding Log",
 				"Chunks": ["14659"],
 				"Items": ["AllAsciatops[+]"]
 			},
 			"(Malletops) Breed a ~|malletops|~": {
 				"Category": ["Collection Log", "Breeding Log"],
-				"Label": "Player-Owned Ranch Breeding Log",
+				"Label": "Ranch out of Time Breeding Log",
 				"Chunks": ["14659"],
 				"Items": ["Malletops (unchecked)"]
 			},
 			"(Malletops) Breed a ~|malletops palus|~": {
 				"Category": ["Collection Log", "Breeding Log"],
-				"Label": "Player-Owned Ranch Breeding Log",
+				"Label": "Ranch out of Time Breeding Log",
 				"Chunks": ["14659"],
 				"Items": ["Malletops palus (unchecked)"]
 			},
 			"(Malletops) Breed a ~|malletops purpura|~": {
 				"Category": ["Collection Log", "Breeding Log"],
-				"Label": "Player-Owned Ranch Breeding Log",
+				"Label": "Ranch out of Time Breeding Log",
 				"Chunks": ["14659"],
 				"Items": ["Malletops purpura (unchecked)"]
 			},
 			"(Malletops) Breed a ~|malletops lucidum|~": {
 				"Category": ["Collection Log", "Breeding Log"],
-				"Label": "Player-Owned Ranch Breeding Log",
+				"Label": "Ranch out of Time Breeding Log",
 				"Chunks": ["14659"],
 				"Items": ["AllMalletops[+]"]
 			},
 			"(Bagrada Rex) Breed a ~|bagrada rex|~": {
 				"Category": ["Collection Log", "Breeding Log"],
-				"Label": "Player-Owned Ranch Breeding Log",
+				"Label": "Ranch out of Time Breeding Log",
 				"Chunks": ["14659"],
 				"Items": ["Bagrada rex (unchecked)"]
 			},
 			"(Bagrada Rex) Breed a ~|bagrada nemus|~": {
 				"Category": ["Collection Log", "Breeding Log"],
-				"Label": "Player-Owned Ranch Breeding Log",
+				"Label": "Ranch out of Time Breeding Log",
 				"Chunks": ["14659"],
 				"Items": ["Bagrada nemus (unchecked)"]
 			},
 			"(Bagrada Rex) Breed a ~|bagrada purpura|~": {
 				"Category": ["Collection Log", "Breeding Log"],
-				"Label": "Player-Owned Ranch Breeding Log",
+				"Label": "Ranch out of Time Breeding Log",
 				"Chunks": ["14659"],
 				"Items": ["Bagrada purpura (unchecked)"]
 			},
 			"(Bagrada Rex) Breed a ~|bagrada lucidum|~": {
 				"Category": ["Collection Log", "Breeding Log"],
-				"Label": "Player-Owned Ranch Breeding Log",
+				"Label": "Ranch out of Time Breeding Log",
 				"Chunks": ["14659"],
 				"Items": ["AllBagradaRex[+]"]
 			},
 			"(Corbicula Rex) Breed a ~|corbicula rex|~": {
 				"Category": ["Collection Log", "Breeding Log"],
-				"Label": "Player-Owned Ranch Breeding Log",
+				"Label": "Ranch out of Time Breeding Log",
 				"Chunks": ["14659"],
 				"Items": ["Corbicula rex (unchecked)"]
 			},
 			"(Corbicula Rex) Breed a ~|corbicula gelum|~": {
 				"Category": ["Collection Log", "Breeding Log"],
-				"Label": "Player-Owned Ranch Breeding Log",
+				"Label": "Ranch out of Time Breeding Log",
 				"Chunks": ["14659"],
 				"Items": ["Corbicula gelum (unchecked)"]
 			},
 			"(Corbicula Rex) Breed a ~|corbicula malum|~": {
 				"Category": ["Collection Log", "Breeding Log"],
-				"Label": "Player-Owned Ranch Breeding Log",
+				"Label": "Ranch out of Time Breeding Log",
 				"Chunks": ["14659"],
 				"Items": ["Corbicula malum (unchecked)"]
 			},
 			"(Corbicula Rex) Breed a ~|corbicula lucidum|~": {
 				"Category": ["Collection Log", "Breeding Log"],
-				"Label": "Player-Owned Ranch Breeding Log",
+				"Label": "Ranch out of Time Breeding Log",
 				"Chunks": ["14659"],
 				"Items": ["AllCorbiculaRex[+]"]
 			},
 			"(Pavosaurus Rex) Breed a ~|pavosaurus rex|~": {
 				"Category": ["Collection Log", "Breeding Log"],
-				"Label": "Player-Owned Ranch Breeding Log",
+				"Label": "Ranch out of Time Breeding Log",
 				"Chunks": ["14659"],
 				"Items": ["Pavosaurus rex (unchecked)"]
 			},
 			"(Pavosaurus Rex) Breed a ~|pavosaurus nemus|~": {
 				"Category": ["Collection Log", "Breeding Log"],
-				"Label": "Player-Owned Ranch Breeding Log",
+				"Label": "Ranch out of Time Breeding Log",
 				"Chunks": ["14659"],
 				"Items": ["Pavosaurus nemus (unchecked)"]
 			},
 			"(Pavosaurus Rex) Breed a ~|pavosaurus desertum|~": {
 				"Category": ["Collection Log", "Breeding Log"],
-				"Label": "Player-Owned Ranch Breeding Log",
+				"Label": "Ranch out of Time Breeding Log",
 				"Chunks": ["14659"],
 				"Items": ["Pavosaurus desertum (unchecked)"]
 			},
 			"(Pavosaurus Rex) Breed a ~|pavosaurus lucidum|~": {
 				"Category": ["Collection Log", "Breeding Log"],
-				"Label": "Player-Owned Ranch Breeding Log",
+				"Label": "Ranch out of Time Breeding Log",
 				"Chunks": ["14659"],
 				"Items": ["AllPavosaurusRex[+]"]
 			},
@@ -139246,22 +139246,34 @@
 			"(Player-Owned Port) Obtain a ~|mask of gu|~": {
 				"Category": ["Untracked Uniques", "Untracked Uniques Minigames", "Timegated"],
 				"Label": "Untracked Minigame Uniques",
-				"Chunks": ["Player-Owned Port"]
+				"Chunks": ["Player-Owned Port"],
+				"Tasks": {
+					"Unlock ~|the tengu|~ in the player-owned port": "Agility"
+				}
 			},
 			"(Player-Owned Port) Obtain a ~|gu uwagi|~": {
 				"Category": ["Untracked Uniques", "Untracked Uniques Minigames", "Timegated"],
 				"Label": "Untracked Minigame Uniques",
-				"Chunks": ["Player-Owned Port"]
+				"Chunks": ["Player-Owned Port"],
+				"Tasks": {
+					"Unlock ~|the tengu|~ in the player-owned port": "Agility"
+				}
 			},
 			"(Player-Owned Port) Obtain a ~|gu hakama|~": {
 				"Category": ["Untracked Uniques", "Untracked Uniques Minigames", "Timegated"],
 				"Label": "Untracked Minigame Uniques",
-				"Chunks": ["Player-Owned Port"]
+				"Chunks": ["Player-Owned Port"],
+				"Tasks": {
+					"Unlock ~|the tengu|~ in the player-owned port": "Agility"
+				}
 			},
 			"(Player-Owned Port) Obtain ~|The Way of Gu|~": {
 				"Category": ["Untracked Uniques", "Untracked Uniques Minigames", "Timegated"],
 				"Label": "Untracked Minigame Uniques",
-				"Chunks": ["Player-Owned Port"]
+				"Chunks": ["Player-Owned Port"],
+				"Tasks": {
+					"Unlock ~|the tengu|~ in the player-owned port": "Agility"
+				}
 			},
 			"(Fish Flingers) Obtain a ~|fishing hat|~": {
 				"Category": ["Untracked Uniques", "Untracked Uniques Minigames"],
@@ -143849,28 +143861,28 @@
 				"Category": ["Permanent Unlockables"],
 				"Label": "Permanent Unlockables",
 				"Tasks": {
-					"Build a small dinosaur pen in your ~|player-owned ranch|~": "Farming"
+					"Build a small dinosaur pen in your ~|Ranch out of Time|~": "Farming"
 				}
 			},
 			"Build a medium dinosaur pen in the ~|Ranch out of Time|~": {
 				"Category": ["Permanent Unlockables"],
 				"Label": "Permanent Unlockables",
 				"Tasks": {
-					"Build a medium dinosaur pen in your ~|player-owned ranch|~": "Farming"
+					"Build a medium dinosaur pen in your ~|Ranch out of Time|~": "Farming"
 				}
 			},
 			"Build both large dinosaur pens in the ~|Ranch out of Time|~": {
 				"Category": ["Permanent Unlockables"],
 				"Label": "Permanent Unlockables",
 				"Tasks": {
-					"Build a second large dinosaur pen in your ~|player-owned ranch|~": "Farming"
+					"Build a second large dinosaur pen in your ~|Ranch out of Time|~": "Farming"
 				}
 			},
 			"Build a dinosaur breeding pen in the ~|Ranch out of Time|~": {
 				"Category": ["Permanent Unlockables"],
 				"Label": "Permanent Unlockables",
 				"Tasks": {
-					"Build a dinosaur breeding pen in your ~|player-owned ranch|~": "Farming"
+					"Build a dinosaur breeding pen in your ~|Ranch out of Time|~": "Farming"
 				}
 			},
 			"Unlock the ability for animals in the ~|Ranch out of Time|~ to breed in small pens": {
@@ -153455,7 +153467,7 @@
 				"Chunks": ["12596-1"],
 				"NPCs": ["Duke Horacio"],
 				"Tasks": {
-					"~|Dragon Slayer|~ 1": "Quest"
+					"~|Dragon Slayer|~ 3": "Quest"
 				},
 				"Output": "Anti-dragon shield"
 			},
