@@ -14842,6 +14842,8 @@
   "Max out ~|farming reputation|~": "t_112023",
   "Max out ~|reputation (Heart of Gielinor)|~ with four factions": "t_112024",
   "Max out ~|reputation (Menaphos)|~ with all four factions": "t_112025",
+  "Build the north ~|flower baskets|~ at Het's Oasis": "t_112116",
+  "Build the south ~|flower baskets|~ at Het's Oasis": "t_112117",
   "Obtain ~|the Castaway|~ title": "t_14496",
   "Obtain the ~|of the Arc|~ title": "t_14497",
   "Obtain the ~|Champion of Champions|~ title": "t_14498",
@@ -88202,5 +88204,5 @@
   "Pizazz points: ~|Law rune|~": "t_52855",
   "Pizazz points: ~|Soul rune|~": "t_52856",
   "Pizazz points: ~|Blood rune|~": "t_52857",
-  "currentNextIndex": 112116
+  "currentNextIndex": 112118
 }

@@ -124291,8 +124291,7 @@
 				},
 				"Tasks": {
 					"~|Death Plateau|~ Complete the quest": "Quest"
-				},
-				"Not F2P": true
+				}
 			},
 			"~|Completionist achievements#Master Quest Cape|~ Tactless Analysis": {
 				"Category": ["MQC achievements"],
@@ -126189,8 +126188,7 @@
 				"Category": ["Comp achievements"],
 				"Description": "Unlock all non-cosmetic Hunter upgrades from Dundee's Shop.",
 				"BaseQuest": "Completionist achievements",
-				"Chunks": ["13363"],
-				"NPCs": ["HetCrocodile[+]"],
+				"NPCs": ["HetCrocodile[+]", "Plain whirligig"],
 				"Not F2P": true
 			},
 			"~|Completionist achievements#Completionist Cape|~ The Greatest Gift of All": {
@@ -127484,7 +127482,7 @@
 				"Category": ["Comp achievements", "Trim achievements"],
 				"Description": "Unlock all Hunter upgrades from Dundee's Shop.",
 				"BaseQuest": "Completionist achievements",
-				"NPCs": ["HetCrocodile[+]"],
+				"NPCs": ["HetCrocodile[+]", "Plain whirligig"],
 				"Not F2P": true
 			},
 			"~|Completionist achievements#Trimmed Completionist Cape|~ The Prodigal Spender": {
@@ -144443,6 +144441,30 @@
 				"Tasks": {
 					"~|The Jack of Spades|~ Complete the quest": "Quest"
 				},
+				"Not F2P": true
+			},
+			"Build the ~|water filtration system|~ at Het's Oasis": {
+				"Category": ["Permanent Unlockables"],
+				"Label": "Permanent Unlockables",
+				"Chunks": ["13362-1"],
+				"Items": ["Bronze bar*", "Silver bar*", "Bucket of sand*", "Big fishing net*"],
+				"Skills": {
+					"Construction": 20
+				},
+				"Not F2P": true
+			},
+			"Build the north ~|flower baskets|~ at Het's Oasis": {
+				"Category": ["Permanent Unlockables"],
+				"Label": "Permanent Unlockables",
+				"Chunks": ["13362-1"],
+				"Items": ["Steel nails*", "Teak plank*"],
+				"Not F2P": true
+			},
+			"Build the south ~|flower baskets|~ at Het's Oasis": {
+				"Category": ["Permanent Unlockables"],
+				"Label": "Permanent Unlockables",
+				"Chunks": ["13362-4"],
+				"Items": ["Steel nails*", "Teak plank*"],
 				"Not F2P": true
 			},
 			"Obtain ~|the Castaway|~ title": {
@@ -268454,6 +268476,11 @@
 					"Castle Wars rewards": "Nonskill"
 				}]
 			},
+			"Cabbage Facepunch Bonanza Rewards": {
+				"Gamers' Grotto": [{
+					"Members only": "Nonskill"
+				}]
+			},
 			"Chimp ice": {
 				"12846-2": [{
 					"~|Do No Evil|~ Complete the quest": "Quest"
@@ -313364,7 +313391,8 @@
 		"13362": {
 			"1": [
 				"13363",
-				"13618-2"
+				"13618-2",
+				"13106-1"
 			],
 			"2": [],
 			"3": [
@@ -334016,7 +334044,7 @@
 			"damage": 0,
 			"type": "Power armour",
 			"armour": 500.9,
-			"slot": "body",
+			"slot": "torso",
 			"strength": 0,
 			"magic": 0,
 			"prayer": 3,
@@ -337434,7 +337462,7 @@
 			"damage": 0,
 			"type": "Power armour",
 			"armour": 526,
-			"slot": "body",
+			"slot": "torso",
 			"strength": 0,
 			"magic": 0,
 			"prayer": 3,
@@ -357650,7 +357678,7 @@
 			"damage": 0,
 			"type": "Shield",
 			"armour": 435.6,
-			"slot": "off-hands",
+			"slot": "off-hand",
 			"strength": 0,
 			"magic": 0,
 			"charges": 10000,
@@ -357669,7 +357697,7 @@
 			"damage": 0,
 			"type": "Shield",
 			"armour": 446.4,
-			"slot": "off-hands",
+			"slot": "off-hand",
 			"strength": 0,
 			"magic": 0,
 			"charges": 10000,
@@ -357688,7 +357716,7 @@
 			"damage": 0,
 			"type": "Shield",
 			"armour": 457.4,
-			"slot": "off-hands",
+			"slot": "off-hand",
 			"strength": 0,
 			"magic": 0,
 			"charges": 10000,
@@ -357707,7 +357735,7 @@
 			"damage": 0,
 			"type": "Shield",
 			"armour": 468.6,
-			"slot": "off-hands",
+			"slot": "off-hand",
 			"strength": 0,
 			"magic": 0,
 			"charges": 10000,
@@ -357726,7 +357754,7 @@
 			"damage": 0,
 			"type": "Shield",
 			"armour": 480.0,
-			"slot": "off-hands",
+			"slot": "off-hand",
 			"strength": 0,
 			"magic": 0,
 			"charges": 10000,
@@ -357745,7 +357773,7 @@
 			"damage": 0,
 			"type": "Shield",
 			"armour": 491.6,
-			"slot": "off-hands",
+			"slot": "off-hand",
 			"strength": 0,
 			"magic": 0,
 			"charges": 10000,
@@ -357764,7 +357792,7 @@
 			"damage": 0,
 			"type": "Tank armour",
 			"armour": 500.9,
-			"slot": "Body",
+			"slot": "torso",
 			"strength": 0,
 			"magic": 0,
 			"charges": 10000,
@@ -357783,7 +357811,7 @@
 			"damage": 0,
 			"type": "Tank armour",
 			"armour": 513.3,
-			"slot": "Body",
+			"slot": "torso",
 			"strength": 0,
 			"magic": 0,
 			"charges": 10000,
@@ -357802,7 +357830,7 @@
 			"damage": 0,
 			"type": "Tank armour",
 			"armour": 526.0,
-			"slot": "Body",
+			"slot": "torso",
 			"strength": 0,
 			"magic": 0,
 			"charges": 10000,
@@ -357821,7 +357849,7 @@
 			"damage": 0,
 			"type": "Tank armour",
 			"armour": 538.8,
-			"slot": "Body",
+			"slot": "torso",
 			"strength": 0,
 			"magic": 0,
 			"charges": 10000,
@@ -357840,7 +357868,7 @@
 			"damage": 0,
 			"type": "Tank armour",
 			"armour": 552.0,
-			"slot": "Body",
+			"slot": "torso",
 			"strength": 0,
 			"magic": 0,
 			"charges": 10000,
@@ -357859,7 +357887,7 @@
 			"damage": 0,
 			"type": "Tank armour",
 			"armour": 565.3,
-			"slot": "Body",
+			"slot": "torso",
 			"strength": 0,
 			"magic": 0,
 			"charges": 10000,
@@ -357878,7 +357906,7 @@
 			"damage": 0,
 			"type": "Tank armour",
 			"armour": 479.1,
-			"slot": "Legs",
+			"slot": "legs",
 			"strength": 0,
 			"magic": 0,
 			"charges": 10000,
@@ -357897,7 +357925,7 @@
 			"damage": 0,
 			"type": "Tank armour",
 			"armour": 479.1,
-			"slot": "Legs",
+			"slot": "legs",
 			"strength": 0,
 			"magic": 0,
 			"charges": 10000,
@@ -357916,7 +357944,7 @@
 			"damage": 0,
 			"type": "Tank armour",
 			"armour": 503.1,
-			"slot": "Legs",
+			"slot": "legs",
 			"strength": 0,
 			"magic": 0,
 			"charges": 10000,
@@ -357935,7 +357963,7 @@
 			"damage": 0,
 			"type": "Tank armour",
 			"armour": 515.4,
-			"slot": "Legs",
+			"slot": "legs",
 			"strength": 0,
 			"magic": 0,
 			"charges": 10000,
@@ -357954,7 +357982,7 @@
 			"damage": 0,
 			"type": "Tank armour",
 			"armour": 528.0,
-			"slot": "Legs",
+			"slot": "legs",
 			"strength": 0,
 			"magic": 0,
 			"charges": 10000,
@@ -357973,7 +358001,7 @@
 			"damage": 0,
 			"type": "Tank armour",
 			"armour": 540.7,
-			"slot": "Legs",
+			"slot": "legs",
 			"strength": 0,
 			"magic": 0,
 			"charges": 10000,
@@ -376262,7 +376290,7 @@
 			"damage": 0,
 			"type": "Tank armour",
 			"armour": 389.6,
-			"slot": "body",
+			"slot": "torso",
 			"strength": 0,
 			"magic": 0,
 			"prayer": 0,
