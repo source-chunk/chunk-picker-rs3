@@ -22824,6 +22824,15 @@
 				"Not F2P": true,
 				"Partial": true
 			},
+			"Finish a ~|bullseye lantern (empty)|~": {
+				"Items": ["Bullseye lantern (frame)*", "Lantern lens*"],
+				"Level": 49,
+				"Output": "Bullseye lantern (empty)",
+				"Primary": true,
+				"Priority": 4,
+				"Not F2P": true,
+				"Partial": true
+			},
 			"Craft ~|blue dragonhide vambraces|~": {
 				"Items": ["Blue dragon leather*", "Thread*"],
 				"Level": 50,
@@ -124658,8 +124667,7 @@
 				"Chunks": ["Lumbridge Catacombs"],
 				"Tasks": {
 					"~|The Blood Pact|~ Complete the quest": "Quest"
-				},
-				"Not F2P": true
+				}
 			},
 			"~|Completionist achievements#Master Quest Cape|~ You Mistag This Brooch": {
 				"Category": ["MQC achievements"],
@@ -134529,7 +134537,7 @@
 			"(Big Game Hunter) Obtain a ~|dragon mattock|~": {
 				"Category": ["Uncharted", "Untracked Uniques", "Untracked Uniques Skilling"],
 				"Label": "Untracked Skilling Uniques",
-				"Items": ["Karasu orokami mask"]
+				"Items": ["Dragon mattock"]
 			},
 			"(Big Game Hunter) Obtain ~|compacted hides|~": {
 				"Category": ["Uncharted", "Untracked Uniques", "Untracked Uniques Skilling"],
@@ -156758,6 +156766,25 @@
 					"~|The Jack of Spades|~ Complete the quest": "Quest"
 				},
 				"Output": "Menaphos journal"
+			},
+			"Fill an oil lamp with oil": {
+				"Items": ["Oil lamp (empty)", "Swamp tar"],
+				"Chunks": ["11570"],
+				"Output": "Oil lamp (oil)"
+			},
+			"Fill an oil lantern with oil": {
+				"Items": ["Oil lantern (empty)", "Swamp tar"],
+				"Chunks": ["11570"],
+				"Output": "Oil lantern (oil)"
+			},
+			"Fill a bullseye lantern with oil": {
+				"Items": ["Bullseye lantern (empty)", "Swamp tar"],
+				"Chunks": ["11570"],
+				"Output": "Bullseye lantern (oil)"
+			},
+			"Eat a pie": {
+				"Items": ["Pie[+]"],
+				"Output": "Pie dish"
 			}
 		}
 	},
@@ -179556,6 +179583,7 @@
 					"Shop": {
 						"Bob's Brilliant Axes": true,
 						"Slayer Equipment": true,
+						"Slayer Equipment (F2P)": true,
 						"Lumbridge General Store": true
 					},
 					"Quest": {
@@ -206837,6 +206865,7 @@
 				"Pernix cowl",
 				"Pernix gloves"
 			],
+			"Pie[+]": ["Redberry pie", "Half a redberry pie", "Meat pie", "Apple pie", "Garden pie", "Fish pie", "Admiral pie", "Pork pie", "Wild pie", "Wilder pie", "Summer pie"],
 			"Pigpouch[+]": [
 				"Spirit pack pig pouch (tier 1)",
 				"Spirit pack pig pouch (tier 2)",
@@ -210089,7 +210118,7 @@
 			"RockCrabChunks[+]": ["10810-1", "10042-1"],
 			"RuneTemple[+]": ["Air Rune Temple", "Mind Rune Temple", "Water Rune Temple", "Earth Rune Temple", "Fire Rune Temple", "Body Rune Temple", "Cosmic Rune Temple", "Chaos Rune Temple", "8508", "Nature Rune Temple", "Law Rune Temple", "Death Rune Temple", "Blood Rune Temple", "Soul Rune Temple", "Time Rune Temple"],
 			"SeaweedChunks[+]": ["11313", "11056", "11055-1", "11054", "11822-1", "11310-1", "11823", "11568-2", "11568-1"],
-			"SeerChunk[+]": ["10806-1", "11062-1"],
+			"SeerChunk[+]": ["10806-1", "11062-1", "11061", "11317-1"],
 			"SeersVillageArea[+]": ["10806-1", "11061", "11062-1", "10805", "10549", "10550", "10551-1", "10807-1"],
 			"SenntistenChunks[+]": ["13364", "13365"],
 			"SlayerMasterChunks[+]": ["8755", "Ancient Cavern", "11310-1", "12342-1", "11575-1", "13111", "13878-1", "Zanaris", "12093", "12850-1", "16704-1"],
@@ -267703,6 +267732,11 @@
 					"Members only": "Nonskill"
 				}]
 			},
+			"Imp": {
+				"11570": [{
+					"~|Dragon Slayer|~ 5b1": "Quest"
+				}]
+			},
 			"Jail guard": {
 				"12338-1": [{
 					"~|Stolen Hearts|~ Complete the quest": "Quest"
@@ -267817,6 +267851,9 @@
 			"Rat": {
 				"10293": [{
 					"Enter the ~|Fishing Guild|~": "Fishing"
+				}],
+				"11570": [{
+					"~|Dragon Slayer|~ 5b1": "Quest"
 				}]
 			},
 			"Renegade Knight": {
@@ -267867,6 +267904,11 @@
 			"Skeleton#Armed": {
 				"Temple of Ikov": [{
 					"~|Temple of Ikov|~ 1": "Quest"
+				}]
+			},
+			"Skeleton (Melzar's Maze)": {
+				"11570": [{
+					"~|Dragon Slayer|~ 5b1": "Quest"
 				}]
 			},
 			"Taraket the Necromancer": {
@@ -267947,6 +267989,11 @@
 					"Hard Mode Bosses": "Nonskill"
 				}]
 			},
+			"Zombie rat": {
+				"11570": [{
+					"~|Dragon Slayer|~ 5b1": "Quest"
+				}]
+			},
 			"Broodoo victim": {
 				"11055-1": [{
 					"~|Jungle Potion|~ Complete the quest": "Quest"
@@ -268002,6 +268049,11 @@
 			"Ghost (Spirit of Summer)": {
 				"11834": [{
 					"~|Spirit of Summer|~ Complete the quest": "Quest"
+				}]
+			},
+			"Ghost (Melzar's Maze)": {
+				"11570": [{
+					"~|Dragon Slayer|~ 5b1": "Quest"
 				}]
 			},
 			"Dungeoneering monsters": {
@@ -268768,6 +268820,9 @@
 			},
 			"Slayer Equipment": {
 				"12342-1": [{
+					"Members only": "Nonskill"
+				}],
+				"12850-1": [{
 					"Members only": "Nonskill"
 				}],
 				"13358-1": [{

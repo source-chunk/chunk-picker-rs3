@@ -2334,6 +2334,7 @@
   "Fire a ~|strong smithing urn (no rune)|~": "t_2298",
   "Complete a ~|strong smithing urn|~": "t_6398",
   "Blow a ~|lantern lens|~": "t_2299",
+  "Finish a ~|bullseye lantern (empty)|~": "t_112118",
   "Craft ~|blue dragonhide vambraces|~": "t_2300",
   "Craft ~|blue dragonhide boots|~": "t_2301",
   "Craft ~|blue dragonhide chaps|~": "t_2302",
@@ -88204,5 +88205,5 @@
   "Pizazz points: ~|Law rune|~": "t_52855",
   "Pizazz points: ~|Soul rune|~": "t_52856",
   "Pizazz points: ~|Blood rune|~": "t_52857",
-  "currentNextIndex": 112118
+  "currentNextIndex": 112119
 }
