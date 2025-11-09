@@ -129571,7 +129571,7 @@
 				"Chunks": ["City of Um"],
 				"NoBoost": true
 			},
-			"(Necromancy) Unlock the ~|Conjure Undead Army|~ incantation": {
+			"(Necromancy) Unlock the ~|Conjure Undead Army|~ ability": {
 				"Category": ["Unlock Abilities"],
 				"Label": "Unlockable Abilities",
 				"Skills": {
