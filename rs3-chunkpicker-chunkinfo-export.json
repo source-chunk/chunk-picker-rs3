@@ -211064,7 +211064,7 @@
 				"Wield a ~|was|~", 
 				"Wield an ~|avernic book|~", 
 				"Wield an ~|avernic wand|~", 
-				"Wield a ~|Tower mindspike|~", 
+				"Wield a ~|tower mindspike|~", 
 				"Wield a ~|talisman staff|~", 
 				"Wield a ~|wizard book|~", 
 				"Wield an ~|elemental staff|~", 
@@ -232022,16 +232022,16 @@
 				"1": "1/2500"
 			},
 			"Coal stone spirit": {
-				"40": "16/128"
+				"40 (F2P)": "16/128"
 			},
 			"Nature rune": {
-				"40": "14/128"
+				"40 (F2P)": "14/128"
 			},
 			"Limpwurt root": {
-				"10 (noted)": "12/128"
+				"10 (noted) (F2P)": "12/128"
 			},
 			"Grapes": {
-				"8 (noted)": "12/128"
+				"8 (noted) (F2P)": "12/128"
 			}
 		},
 		"Giant mole (Hard Mode)": {
@@ -232105,19 +232105,19 @@
 				"1": "1/500"
 			},
 			"Coal stone spirit": {
-				"60": "16/128"
+				"60 (F2P)": "16/128"
 			},
 			"Nature rune": {
-				"60": "14/128"
+				"60 (F2P)": "14/128"
 			},
 			"Limpwurt root": {
-				"20 (noted)": "12/128"
+				"20 (noted) (F2P)": "12/128"
 			},
 			"Uncut diamond": {
-				"9": "8/128"
+				"9 (F2P)": "8/128"
 			},
 			"Grapes": {
-				"14 (noted)": "12/128"
+				"14 (noted) (F2P)": "12/128"
 			}
 		},
 		"Giant rat": {
@@ -266189,6 +266189,9 @@
 			"Dagon'hai robe top": [{
 				"~|The Hunt for Surok (miniquest)|~ Complete the quest": "Quest"
 			}],
+			"Dragon 2h sword^": [{
+				"Members only": "Nonskill"
+			}],
 			"Dragon battleaxe": [{
 				"~|Heroes' Quest|~ Complete the quest": "Quest"
 			}],
@@ -267432,6 +267435,18 @@
 				"Members only": "Nonskill"
 			}],
 			"Potato seed^Farmer": [{
+				"Members only": "Nonskill"
+			}],
+			"Red dragonhide^Giant mole": [{
+				"Members only": "Nonskill"
+			}],
+			"Red dragonhide^Giant mole (Hard Mode)": [{
+				"Members only": "Nonskill"
+			}],
+			"Blood rune^Giant mole (Hard Mode)": [{
+				"Members only": "Nonskill"
+			}],
+			"Ultra-growth potion^Giant mole (Hard Mode)": [{
 				"Members only": "Nonskill"
 			}]
 		},
