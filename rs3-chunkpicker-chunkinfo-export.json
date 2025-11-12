@@ -1235,9 +1235,9 @@
 				"Priority": 1,
 				"NoPet": true
 			},
-			"Cross the ~|rock (Poison Waste)|~": {
+			"Cross the ~|rock (Poison Waste)|~ by fairy ring DLR": {
 				"Category": ["Shortcut"],
-				"Chunks": ["8752-1"],
+				"Objects": ["Rock (Poison Waste)"],
 				"Level": 75,
 				"Tasks": {
 					"~|Plague's End|~ Complete the quest": "Quest"
@@ -13201,7 +13201,7 @@
 				"Primary": true,
 				"Priority": 6
 			},
-			"Build a small dinosaur pen in your ~|player-owned ranch|~": {
+			"Build a small dinosaur pen in your ~|Ranch out of Time|~": {
 				"Chunks": ["14916"],
 				"Items": ["Small dinosaur pen deed"],
 				"Level": 45,
@@ -13795,7 +13795,7 @@
 				"Primary": true,
 				"Priority": 7
 			},
-			"Build a dinosaur breeding pen in your ~|player-owned ranch|~": {
+			"Build a dinosaur breeding pen in your ~|Ranch out of Time|~": {
 				"Chunks": ["14659"],
 				"Items": ["Dinosaur breeding pen deed I"],
 				"Level": 55,
@@ -15369,7 +15369,7 @@
 				"Primary": true,
 				"Priority": 8
 			},
-			"Build a medium dinosaur pen in your ~|player-owned ranch|~": {
+			"Build a medium dinosaur pen in your ~|Ranch out of Time|~": {
 				"Chunks": ["14916"],
 				"Items": ["Medium dinosaur pen deed"],
 				"Level": 80,
@@ -15830,7 +15830,7 @@
 				"NoPet": true,
 				"Priority": 6
 			},
-			"Build a large dinosaur pen in your ~|player-owned ranch|~": {
+			"Build a large dinosaur pen in your ~|Ranch out of Time|~": {
 				"Chunks": ["14660"],
 				"Items": ["Large dinosaur pen deed I"],
 				"Level": 90,
@@ -15845,7 +15845,7 @@
 				"Primary": false,
 				"Priority": 7
 			},
-			"Build a second large dinosaur pen in your ~|player-owned ranch|~": {
+			"Build a second large dinosaur pen in your ~|Ranch out of Time|~": {
 				"Chunks": ["14659"],
 				"Items": ["Large dinosaur pen deed II"],
 				"Level": 90,
@@ -22821,6 +22821,15 @@
 				"Output": "Lantern lens",
 				"Primary": true,
 				"Priority": 3,
+				"Not F2P": true,
+				"Partial": true
+			},
+			"Finish a ~|bullseye lantern (empty)|~": {
+				"Items": ["Bullseye lantern (frame)*", "Lantern lens*"],
+				"Level": 49,
+				"Output": "Bullseye lantern (empty)",
+				"Primary": true,
+				"Priority": 4,
 				"Not F2P": true,
 				"Partial": true
 			},
@@ -34382,7 +34391,7 @@
 				"Primary": true,
 				"Priority": 13
 			},
-			"Build a small dinosaur pen in your ~|player-owned ranch|~": {
+			"Build a small dinosaur pen in your ~|Ranch out of Time|~": {
 				"Chunks": ["14916"],
 				"Items": ["Small dinosaur pen deed"],
 				"Level": 42,
@@ -34397,7 +34406,7 @@
 				"Primary": false,
 				"Priority": 14
 			},
-			"Build a dinosaur breeding pen in your ~|player-owned ranch|~": {
+			"Build a dinosaur breeding pen in your ~|Ranch out of Time|~": {
 				"Chunks": ["14659"],
 				"Items": ["Dinosaur breeding pen deed I"],
 				"Level": 42,
@@ -35332,7 +35341,7 @@
 				"Primary": false,
 				"Priority": 5
 			},
-			"Build a medium dinosaur pen in your ~|player-owned ranch|~": {
+			"Build a medium dinosaur pen in your ~|Ranch out of Time|~": {
 				"Chunks": ["14916"],
 				"Items": ["Medium dinosaur pen deed"],
 				"Level": 76,
@@ -36407,7 +36416,7 @@
 				"Primary": false,
 				"Priority": 7
 			},
-			"Build a large dinosaur pen in your ~|player-owned ranch|~": {
+			"Build a large dinosaur pen in your ~|Ranch out of Time|~": {
 				"Chunks": ["14660"],
 				"Items": ["Large dinosaur pen deed I"],
 				"Level": 98,
@@ -36663,7 +36672,7 @@
 				"Primary": false,
 				"Priority": 1
 			},
-			"Build a second large dinosaur pen in your ~|player-owned ranch|~": {
+			"Build a second large dinosaur pen in your ~|Ranch out of Time|~": {
 				"Chunks": ["14659"],
 				"Items": ["Large dinosaur pen deed II"],
 				"Level": 104,
@@ -74376,8 +74385,9 @@
 				"Priority": 16
 			},
 			"Craft a ~|fremennik round shield|~": {
-				"Items": ["Artic pine logs*", "Bronze nails*", "Rope*"],
+				"Items": ["Arctic pine logs*", "Bronze nails*", "Rope*"],
 				"Level": 54,
+				"Objects": ["Woodcutting stump"],
 				"Output": "Fremennik round shield",
 				"Skills": {
 					"Crafting": 43
@@ -80602,7 +80612,7 @@
 					"~|The Knight's Sword|~ Complete the quest": "Quest",
 					"~|Family Crest|~ Complete the quest": "Quest",
 					"~|What Lies Below|~ Complete the quest": "Quest",
-					"Shield of Arrav kuddos": "Nonskill"
+					"Shield of Arrav kudos": "Nonskill"
 				},
 				"Skills": {
 					"Agility": 51,
@@ -84908,7 +84918,7 @@
 			"~|A Fairy Tale II - Cure a Queen|~ 4": {
 				"BaseQuest": "A Fairy Tale II - Cure a Queen",
 				"Description": "Travel to the second fairy ring (DLR) then to the third (DJQ)",
-				"Chunks": ["8752-1"],
+				"Chunks": ["8752-4"],
 				"Tasks": {
 					"~|A Fairy Tale II - Cure a Queen|~ 3": "Quest"
 				},
@@ -114220,7 +114230,7 @@
 			},
 			"~|Tirannwn Achievements#Easy|~ Fairy Liquid": {
 				"Description": "Teleport to the fairy ring in the Poison Waste.",
-				"Chunks": ["8752-1"],
+				"Chunks": ["8752-4"],
 				"Tasks": {
 					"~|A Fairy Tale II - Cure a Queen|~ 2": "Quest"
 				},
@@ -124290,8 +124300,7 @@
 				},
 				"Tasks": {
 					"~|Death Plateau|~ Complete the quest": "Quest"
-				},
-				"Not F2P": true
+				}
 			},
 			"~|Completionist achievements#Master Quest Cape|~ Tactless Analysis": {
 				"Category": ["MQC achievements"],
@@ -124658,8 +124667,7 @@
 				"Chunks": ["Lumbridge Catacombs"],
 				"Tasks": {
 					"~|The Blood Pact|~ Complete the quest": "Quest"
-				},
-				"Not F2P": true
+				}
 			},
 			"~|Completionist achievements#Master Quest Cape|~ You Mistag This Brooch": {
 				"Category": ["MQC achievements"],
@@ -126188,8 +126196,7 @@
 				"Category": ["Comp achievements"],
 				"Description": "Unlock all non-cosmetic Hunter upgrades from Dundee's Shop.",
 				"BaseQuest": "Completionist achievements",
-				"Chunks": ["13363"],
-				"NPCs": ["HetCrocodile[+]"],
+				"NPCs": ["HetCrocodile[+]", "Plain whirligig"],
 				"Not F2P": true
 			},
 			"~|Completionist achievements#Completionist Cape|~ The Greatest Gift of All": {
@@ -127483,7 +127490,7 @@
 				"Category": ["Comp achievements", "Trim achievements"],
 				"Description": "Unlock all Hunter upgrades from Dundee's Shop.",
 				"BaseQuest": "Completionist achievements",
-				"NPCs": ["HetCrocodile[+]"],
+				"NPCs": ["HetCrocodile[+]", "Plain whirligig"],
 				"Not F2P": true
 			},
 			"~|Completionist achievements#Trimmed Completionist Cape|~ The Prodigal Spender": {
@@ -129564,7 +129571,7 @@
 				"Chunks": ["City of Um"],
 				"NoBoost": true
 			},
-			"(Necromancy) Unlock the ~|Conjure Undead Army|~ incantation": {
+			"(Necromancy) Unlock the ~|Conjure Undead Army|~ ability": {
 				"Category": ["Unlock Abilities"],
 				"Label": "Unlockable Abilities",
 				"Skills": {
@@ -133851,391 +133858,391 @@
 			},
 			"(Frogs) Breed a ~|common green frog|~": {
 				"Category": ["Collection Log", "Breeding Log"],
-				"Label": "Player-Owned Ranch Breeding Log",
+				"Label": "Ranch out of Time Breeding Log",
 				"Chunks": ["14659"],
 				"Items": ["Common green frog (unchecked)"]
 			},
 			"(Frogs) Breed a ~|phantasmal poison frog|~": {
 				"Category": ["Collection Log", "Breeding Log"],
-				"Label": "Player-Owned Ranch Breeding Log",
+				"Label": "Ranch out of Time Breeding Log",
 				"Chunks": ["14659"],
 				"Items": ["Phantasmal poison frog (unchecked)"]
 			},
 			"(Frogs) Breed a ~|sky-blue poison frog|~": {
 				"Category": ["Collection Log", "Breeding Log"],
-				"Label": "Player-Owned Ranch Breeding Log",
+				"Label": "Ranch out of Time Breeding Log",
 				"Chunks": ["14659"],
 				"Items": ["Sky-blue poison frog (unchecked)"]
 			},
 			"(Frogs) Breed a ~|golden poison frog|~": {
 				"Category": ["Collection Log", "Breeding Log"],
-				"Label": "Player-Owned Ranch Breeding Log",
+				"Label": "Ranch out of Time Breeding Log",
 				"Chunks": ["14659"],
 				"Items": ["Golden poison frog (unchecked)"]
 			},
 			"(Frogs) Breed a ~|cactoad|~": {
 				"Category": ["Collection Log", "Breeding Log"],
-				"Label": "Player-Owned Ranch Breeding Log",
+				"Label": "Ranch out of Time Breeding Log",
 				"Chunks": ["14659"],
 				"Items": ["AllFrogs[+]"]
 			},
 			"(Salamanders) Breed a ~|green salamander|~": {
 				"Category": ["Collection Log", "Breeding Log"],
-				"Label": "Player-Owned Ranch Breeding Log",
+				"Label": "Ranch out of Time Breeding Log",
 				"Chunks": ["14659"],
 				"Items": ["Green salamander (unchecked)"]
 			},
 			"(Salamanders) Breed a ~|orange salamander|~": {
 				"Category": ["Collection Log", "Breeding Log"],
-				"Label": "Player-Owned Ranch Breeding Log",
+				"Label": "Ranch out of Time Breeding Log",
 				"Chunks": ["14659"],
 				"Items": ["Orange salamander (unchecked)"]
 			},
 			"(Salamanders) Breed a ~|red salamander|~": {
 				"Category": ["Collection Log", "Breeding Log"],
-				"Label": "Player-Owned Ranch Breeding Log",
+				"Label": "Ranch out of Time Breeding Log",
 				"Chunks": ["14659"],
 				"Items": ["Red salamander (unchecked)"]
 			},
 			"(Salamanders) Breed a ~|black salamander|~": {
 				"Category": ["Collection Log", "Breeding Log"],
-				"Label": "Player-Owned Ranch Breeding Log",
+				"Label": "Ranch out of Time Breeding Log",
 				"Chunks": ["14659"],
 				"Items": ["Black salamander (unchecked)"]
 			},
 			"(Salamanders) Breed a ~|wytchfire salamander|~": {
 				"Category": ["Collection Log", "Breeding Log"],
-				"Label": "Player-Owned Ranch Breeding Log",
+				"Label": "Ranch out of Time Breeding Log",
 				"Chunks": ["14659"],
 				"Items": ["AllSalamanders[+]"]
 			},
 			"(Jadinkos) Breed an ~|amphibious jadinko|~": {
 				"Category": ["Collection Log", "Breeding Log"],
-				"Label": "Player-Owned Ranch Breeding Log",
+				"Label": "Ranch out of Time Breeding Log",
 				"Chunks": ["14659"],
 				"Items": ["Amphibious jadinko (unchecked)"]
 			},
 			"(Jadinkos) Breed an ~|aquatic jadinko|~": {
 				"Category": ["Collection Log", "Breeding Log"],
-				"Label": "Player-Owned Ranch Breeding Log",
+				"Label": "Ranch out of Time Breeding Log",
 				"Chunks": ["14659"],
 				"Items": ["Aquatic jadinko (unchecked)"]
 			},
 			"(Jadinkos) Breed a ~|camouflaged jadinko|~": {
 				"Category": ["Collection Log", "Breeding Log"],
-				"Label": "Player-Owned Ranch Breeding Log",
+				"Label": "Ranch out of Time Breeding Log",
 				"Chunks": ["14659"],
 				"Items": ["Camouflaged jadinko (unchecked)"]
 			},
 			"(Jadinkos) Breed a ~|cannibal jadinko|~": {
 				"Category": ["Collection Log", "Breeding Log"],
-				"Label": "Player-Owned Ranch Breeding Log",
+				"Label": "Ranch out of Time Breeding Log",
 				"Chunks": ["14659"],
 				"Items": ["Cannibal jadinko (unchecked)"]
 			},
 			"(Jadinkos) Breed a ~|carrion jadinko|~": {
 				"Category": ["Collection Log", "Breeding Log"],
-				"Label": "Player-Owned Ranch Breeding Log",
+				"Label": "Ranch out of Time Breeding Log",
 				"Chunks": ["14659"],
 				"Items": ["Carrion jadinko (unchecked)"]
 			},
 			"(Jadinkos) Breed a ~|common jadinko|~": {
 				"Category": ["Collection Log", "Breeding Log"],
-				"Label": "Player-Owned Ranch Breeding Log",
+				"Label": "Ranch out of Time Breeding Log",
 				"Chunks": ["14659"],
 				"Items": ["Common jadinko (unchecked)"]
 			},
 			"(Jadinkos) Breed a ~|diseased jadinko|~": {
 				"Category": ["Collection Log", "Breeding Log"],
-				"Label": "Player-Owned Ranch Breeding Log",
+				"Label": "Ranch out of Time Breeding Log",
 				"Chunks": ["14659"],
 				"Items": ["Diseased jadinko (unchecked)"]
 			},
 			"(Jadinkos) Breed a ~|draconic jadinko|~": {
 				"Category": ["Collection Log", "Breeding Log"],
-				"Label": "Player-Owned Ranch Breeding Log",
+				"Label": "Ranch out of Time Breeding Log",
 				"Chunks": ["14659"],
 				"Items": ["Draconic jadinko (unchecked)"]
 			},
 			"(Jadinkos) Breed a ~|igneous jadinko|~": {
 				"Category": ["Collection Log", "Breeding Log"],
-				"Label": "Player-Owned Ranch Breeding Log",
+				"Label": "Ranch out of Time Breeding Log",
 				"Chunks": ["14659"],
 				"Items": ["Igneous jadinko (unchecked)"]
 			},
 			"(Jadinkos) Breed a ~|shadow jadinko|~": {
 				"Category": ["Collection Log", "Breeding Log"],
-				"Label": "Player-Owned Ranch Breeding Log",
+				"Label": "Ranch out of Time Breeding Log",
 				"Chunks": ["14659"],
 				"Items": ["Shadow jadinko (unchecked)"]
 			},
 			"(Jadinkos) Breed a ~|luminous jadinko|~": {
 				"Category": ["Collection Log", "Breeding Log"],
-				"Label": "Player-Owned Ranch Breeding Log",
+				"Label": "Ranch out of Time Breeding Log",
 				"Chunks": ["14659"],
 				"Items": ["AllJadinkos[+]"]
 			},
 			"(Varanusaurs) Breed a ~|feral dinosaur|~": {
 				"Category": ["Collection Log", "Breeding Log"],
-				"Label": "Player-Owned Ranch Breeding Log",
+				"Label": "Ranch out of Time Breeding Log",
 				"Chunks": ["14659"],
 				"Items": ["Feral dinosaur (unchecked)"]
 			},
 			"(Varanusaurs) Breed a ~|venemous dinosaur|~": {
 				"Category": ["Collection Log", "Breeding Log"],
-				"Label": "Player-Owned Ranch Breeding Log",
+				"Label": "Ranch out of Time Breeding Log",
 				"Chunks": ["14659"],
 				"Items": ["Venemous dinosaur (unchecked)"]
 			},
 			"(Varanusaurs) Breed a ~|ripper dinosaur|~": {
 				"Category": ["Collection Log", "Breeding Log"],
-				"Label": "Player-Owned Ranch Breeding Log",
+				"Label": "Ranch out of Time Breeding Log",
 				"Chunks": ["14659"],
 				"Items": ["Ripper dinosaur (unchecked)"]
 			},
 			"(Varanusaurs) Breed a ~|hypnotic dinosaur|~": {
 				"Category": ["Collection Log", "Breeding Log"],
-				"Label": "Player-Owned Ranch Breeding Log",
+				"Label": "Ranch out of Time Breeding Log",
 				"Chunks": ["14659"],
 				"Items": ["AllVaranusaurs[+]"]
 			},
 			"(Brutish Dinosaurs) Breed a ~|brutish dinosaur|~": {
 				"Category": ["Collection Log", "Breeding Log"],
-				"Label": "Player-Owned Ranch Breeding Log",
+				"Label": "Ranch out of Time Breeding Log",
 				"Chunks": ["14659"],
 				"Items": ["Brutish dinosaur (unchecked)"]
 			},
 			"(Brutish Dinosaurs) Breed a ~|beach dinosaur|~": {
 				"Category": ["Collection Log", "Breeding Log"],
-				"Label": "Player-Owned Ranch Breeding Log",
+				"Label": "Ranch out of Time Breeding Log",
 				"Chunks": ["14659"],
 				"Items": ["Beach dinosaur (unchecked)"]
 			},
 			"(Brutish Dinosaurs) Breed a ~|forest dinosaur|~": {
 				"Category": ["Collection Log", "Breeding Log"],
-				"Label": "Player-Owned Ranch Breeding Log",
+				"Label": "Ranch out of Time Breeding Log",
 				"Chunks": ["14659"],
 				"Items": ["Forest dinosaur (unchecked)"]
 			},
 			"(Brutish Dinosaurs) Breed a ~|magnificent dinosaur|~": {
 				"Category": ["Collection Log", "Breeding Log"],
-				"Label": "Player-Owned Ranch Breeding Log",
+				"Label": "Ranch out of Time Breeding Log",
 				"Chunks": ["14659"],
 				"Items": ["AllBrutishDinosaurs[+]"]
 			},
 			"(Arcane Apoterrasaurs) Breed a ~|arcane apoterrasaur|~": {
 				"Category": ["Collection Log", "Breeding Log"],
-				"Label": "Player-Owned Ranch Breeding Log",
+				"Label": "Ranch out of Time Breeding Log",
 				"Chunks": ["14659"],
 				"Items": ["Arcane apoterrasaur (unchecked)"]
 			},
 			"(Arcane Apoterrasaurs) Breed a ~|arcane apoterrasaur natura|~": {
 				"Category": ["Collection Log", "Breeding Log"],
-				"Label": "Player-Owned Ranch Breeding Log",
+				"Label": "Ranch out of Time Breeding Log",
 				"Chunks": ["14659"],
 				"Items": ["Arcane apoterrasaur natura (unchecked)"]
 			},
 			"(Arcane Apoterrasaurs) Breed a ~|arcane apoterrasaur iratum|~": {
 				"Category": ["Collection Log", "Breeding Log"],
-				"Label": "Player-Owned Ranch Breeding Log",
+				"Label": "Ranch out of Time Breeding Log",
 				"Chunks": ["14659"],
 				"Items": ["Arcane apoterrasaur iratum (unchecked)"]
 			},
 			"(Arcane Apoterrasaurs) Breed a ~|arcane apoterrasaur lucidum|~": {
 				"Category": ["Collection Log", "Breeding Log"],
-				"Label": "Player-Owned Ranch Breeding Log",
+				"Label": "Ranch out of Time Breeding Log",
 				"Chunks": ["14659"],
 				"Items": ["AllArcaneApoterrasaurs[+]"]
 			},
 			"(Spicati Apoterrasaurs) Breed a ~|spicati apoterrasaur|~": {
 				"Category": ["Collection Log", "Breeding Log"],
-				"Label": "Player-Owned Ranch Breeding Log",
+				"Label": "Ranch out of Time Breeding Log",
 				"Chunks": ["14659"],
 				"Items": ["Spicati apoterrasaur (unchecked)"]
 			},
 			"(Spicati Apoterrasaurs) Breed a ~|spicati apoterrasaur tilia|~": {
 				"Category": ["Collection Log", "Breeding Log"],
-				"Label": "Player-Owned Ranch Breeding Log",
+				"Label": "Ranch out of Time Breeding Log",
 				"Chunks": ["14659"],
 				"Items": ["Spicati apoterrasaur tilia (unchecked)"]
 			},
 			"(Spicati Apoterrasaurs) Breed a ~|spicati apoterrasaur purpura|~": {
 				"Category": ["Collection Log", "Breeding Log"],
-				"Label": "Player-Owned Ranch Breeding Log",
+				"Label": "Ranch out of Time Breeding Log",
 				"Chunks": ["14659"],
 				"Items": ["Spicati apoterrasaur purpura (unchecked)"]
 			},
 			"(Spicati Apoterrasaurs) Breed a ~|spicati apoterrasaur lucidum|~": {
 				"Category": ["Collection Log", "Breeding Log"],
-				"Label": "Player-Owned Ranch Breeding Log",
+				"Label": "Ranch out of Time Breeding Log",
 				"Chunks": ["14659"],
 				"Items": ["AllSpicatiApoterrasaurs[+]"]
 			},
 			"(Oculi Apoterrasaurs) Breed a ~|oculi apoterrasaur|~": {
 				"Category": ["Collection Log", "Breeding Log"],
-				"Label": "Player-Owned Ranch Breeding Log",
+				"Label": "Ranch out of Time Breeding Log",
 				"Chunks": ["14659"],
 				"Items": ["Oculi apoterrasaur (unchecked)"]
 			},
 			"(Oculi Apoterrasaurs) Breed a ~|oculi apoterrasaur oceanum|~": {
 				"Category": ["Collection Log", "Breeding Log"],
-				"Label": "Player-Owned Ranch Breeding Log",
+				"Label": "Ranch out of Time Breeding Log",
 				"Chunks": ["14659"],
 				"Items": ["Oculi apoterrasaur oceanum (unchecked)"]
 			},
 			"(Oculi Apoterrasaurs) Breed a ~|oculi apoterrasaur glacies|~": {
 				"Category": ["Collection Log", "Breeding Log"],
-				"Label": "Player-Owned Ranch Breeding Log",
+				"Label": "Ranch out of Time Breeding Log",
 				"Chunks": ["14659"],
 				"Items": ["Oculi apoterrasaur glacies (unchecked)"]
 			},
 			"(Oculi Apoterrasaurs) Breed a ~|oculi apoterrasaur lucidum|~": {
 				"Category": ["Collection Log", "Breeding Log"],
-				"Label": "Player-Owned Ranch Breeding Log",
+				"Label": "Ranch out of Time Breeding Log",
 				"Chunks": ["14659"],
 				"Items": ["AllOculiApoterrasaurs[+]"]
 			},
 			"(Scimitops) Breed a ~|scimitops|~": {
 				"Category": ["Collection Log", "Breeding Log"],
-				"Label": "Player-Owned Ranch Breeding Log",
+				"Label": "Ranch out of Time Breeding Log",
 				"Chunks": ["14659"],
 				"Items": ["Scimitops (unchecked)"]
 			},
 			"(Scimitops) Breed a ~|scimitops palus|~": {
 				"Category": ["Collection Log", "Breeding Log"],
-				"Label": "Player-Owned Ranch Breeding Log",
+				"Label": "Ranch out of Time Breeding Log",
 				"Chunks": ["14659"],
 				"Items": ["Scimitops palus (unchecked)"]
 			},
 			"(Scimitops) Breed a ~|scimitops blavum|~": {
 				"Category": ["Collection Log", "Breeding Log"],
-				"Label": "Player-Owned Ranch Breeding Log",
+				"Label": "Ranch out of Time Breeding Log",
 				"Chunks": ["14659"],
 				"Items": ["Scimitops blavum (unchecked)"]
 			},
 			"(Scimitops) Breed a ~|scimitops lucidum|~": {
 				"Category": ["Collection Log", "Breeding Log"],
-				"Label": "Player-Owned Ranch Breeding Log",
+				"Label": "Ranch out of Time Breeding Log",
 				"Chunks": ["14659"],
 				"Items": ["AllScimitops[+]"]
 			},
 			"(Asciatops) Breed a ~|asciatops|~": {
 				"Category": ["Collection Log", "Breeding Log"],
-				"Label": "Player-Owned Ranch Breeding Log",
+				"Label": "Ranch out of Time Breeding Log",
 				"Chunks": ["14659"],
 				"Items": ["Asciatops (unchecked)"]
 			},
 			"(Asciatops) Breed a ~|asciatops acta|~": {
 				"Category": ["Collection Log", "Breeding Log"],
-				"Label": "Player-Owned Ranch Breeding Log",
+				"Label": "Ranch out of Time Breeding Log",
 				"Chunks": ["14659"],
 				"Items": ["Asciatops acta (unchecked)"]
 			},
 			"(Asciatops) Breed a ~|asciatops aurum|~": {
 				"Category": ["Collection Log", "Breeding Log"],
-				"Label": "Player-Owned Ranch Breeding Log",
+				"Label": "Ranch out of Time Breeding Log",
 				"Chunks": ["14659"],
 				"Items": ["Asciatops aurum (unchecked)"]
 			},
 			"(Asciatops) Breed a ~|asciatops lucidum|~": {
 				"Category": ["Collection Log", "Breeding Log"],
-				"Label": "Player-Owned Ranch Breeding Log",
+				"Label": "Ranch out of Time Breeding Log",
 				"Chunks": ["14659"],
 				"Items": ["AllAsciatops[+]"]
 			},
 			"(Malletops) Breed a ~|malletops|~": {
 				"Category": ["Collection Log", "Breeding Log"],
-				"Label": "Player-Owned Ranch Breeding Log",
+				"Label": "Ranch out of Time Breeding Log",
 				"Chunks": ["14659"],
 				"Items": ["Malletops (unchecked)"]
 			},
 			"(Malletops) Breed a ~|malletops palus|~": {
 				"Category": ["Collection Log", "Breeding Log"],
-				"Label": "Player-Owned Ranch Breeding Log",
+				"Label": "Ranch out of Time Breeding Log",
 				"Chunks": ["14659"],
 				"Items": ["Malletops palus (unchecked)"]
 			},
 			"(Malletops) Breed a ~|malletops purpura|~": {
 				"Category": ["Collection Log", "Breeding Log"],
-				"Label": "Player-Owned Ranch Breeding Log",
+				"Label": "Ranch out of Time Breeding Log",
 				"Chunks": ["14659"],
 				"Items": ["Malletops purpura (unchecked)"]
 			},
 			"(Malletops) Breed a ~|malletops lucidum|~": {
 				"Category": ["Collection Log", "Breeding Log"],
-				"Label": "Player-Owned Ranch Breeding Log",
+				"Label": "Ranch out of Time Breeding Log",
 				"Chunks": ["14659"],
 				"Items": ["AllMalletops[+]"]
 			},
 			"(Bagrada Rex) Breed a ~|bagrada rex|~": {
 				"Category": ["Collection Log", "Breeding Log"],
-				"Label": "Player-Owned Ranch Breeding Log",
+				"Label": "Ranch out of Time Breeding Log",
 				"Chunks": ["14659"],
 				"Items": ["Bagrada rex (unchecked)"]
 			},
 			"(Bagrada Rex) Breed a ~|bagrada nemus|~": {
 				"Category": ["Collection Log", "Breeding Log"],
-				"Label": "Player-Owned Ranch Breeding Log",
+				"Label": "Ranch out of Time Breeding Log",
 				"Chunks": ["14659"],
 				"Items": ["Bagrada nemus (unchecked)"]
 			},
 			"(Bagrada Rex) Breed a ~|bagrada purpura|~": {
 				"Category": ["Collection Log", "Breeding Log"],
-				"Label": "Player-Owned Ranch Breeding Log",
+				"Label": "Ranch out of Time Breeding Log",
 				"Chunks": ["14659"],
 				"Items": ["Bagrada purpura (unchecked)"]
 			},
 			"(Bagrada Rex) Breed a ~|bagrada lucidum|~": {
 				"Category": ["Collection Log", "Breeding Log"],
-				"Label": "Player-Owned Ranch Breeding Log",
+				"Label": "Ranch out of Time Breeding Log",
 				"Chunks": ["14659"],
 				"Items": ["AllBagradaRex[+]"]
 			},
 			"(Corbicula Rex) Breed a ~|corbicula rex|~": {
 				"Category": ["Collection Log", "Breeding Log"],
-				"Label": "Player-Owned Ranch Breeding Log",
+				"Label": "Ranch out of Time Breeding Log",
 				"Chunks": ["14659"],
 				"Items": ["Corbicula rex (unchecked)"]
 			},
 			"(Corbicula Rex) Breed a ~|corbicula gelum|~": {
 				"Category": ["Collection Log", "Breeding Log"],
-				"Label": "Player-Owned Ranch Breeding Log",
+				"Label": "Ranch out of Time Breeding Log",
 				"Chunks": ["14659"],
 				"Items": ["Corbicula gelum (unchecked)"]
 			},
 			"(Corbicula Rex) Breed a ~|corbicula malum|~": {
 				"Category": ["Collection Log", "Breeding Log"],
-				"Label": "Player-Owned Ranch Breeding Log",
+				"Label": "Ranch out of Time Breeding Log",
 				"Chunks": ["14659"],
 				"Items": ["Corbicula malum (unchecked)"]
 			},
 			"(Corbicula Rex) Breed a ~|corbicula lucidum|~": {
 				"Category": ["Collection Log", "Breeding Log"],
-				"Label": "Player-Owned Ranch Breeding Log",
+				"Label": "Ranch out of Time Breeding Log",
 				"Chunks": ["14659"],
 				"Items": ["AllCorbiculaRex[+]"]
 			},
 			"(Pavosaurus Rex) Breed a ~|pavosaurus rex|~": {
 				"Category": ["Collection Log", "Breeding Log"],
-				"Label": "Player-Owned Ranch Breeding Log",
+				"Label": "Ranch out of Time Breeding Log",
 				"Chunks": ["14659"],
 				"Items": ["Pavosaurus rex (unchecked)"]
 			},
 			"(Pavosaurus Rex) Breed a ~|pavosaurus nemus|~": {
 				"Category": ["Collection Log", "Breeding Log"],
-				"Label": "Player-Owned Ranch Breeding Log",
+				"Label": "Ranch out of Time Breeding Log",
 				"Chunks": ["14659"],
 				"Items": ["Pavosaurus nemus (unchecked)"]
 			},
 			"(Pavosaurus Rex) Breed a ~|pavosaurus desertum|~": {
 				"Category": ["Collection Log", "Breeding Log"],
-				"Label": "Player-Owned Ranch Breeding Log",
+				"Label": "Ranch out of Time Breeding Log",
 				"Chunks": ["14659"],
 				"Items": ["Pavosaurus desertum (unchecked)"]
 			},
 			"(Pavosaurus Rex) Breed a ~|pavosaurus lucidum|~": {
 				"Category": ["Collection Log", "Breeding Log"],
-				"Label": "Player-Owned Ranch Breeding Log",
+				"Label": "Ranch out of Time Breeding Log",
 				"Chunks": ["14659"],
 				"Items": ["AllPavosaurusRex[+]"]
 			},
@@ -134530,7 +134537,7 @@
 			"(Big Game Hunter) Obtain a ~|dragon mattock|~": {
 				"Category": ["Uncharted", "Untracked Uniques", "Untracked Uniques Skilling"],
 				"Label": "Untracked Skilling Uniques",
-				"Items": ["Karasu orokami mask"]
+				"Items": ["Dragon mattock"]
 			},
 			"(Big Game Hunter) Obtain ~|compacted hides|~": {
 				"Category": ["Uncharted", "Untracked Uniques", "Untracked Uniques Skilling"],
@@ -139245,22 +139252,34 @@
 			"(Player-Owned Port) Obtain a ~|mask of gu|~": {
 				"Category": ["Untracked Uniques", "Untracked Uniques Minigames", "Timegated"],
 				"Label": "Untracked Minigame Uniques",
-				"Chunks": ["Player-Owned Port"]
+				"Chunks": ["Player-Owned Port"],
+				"Tasks": {
+					"Unlock ~|the tengu|~ in the player-owned port": "Agility"
+				}
 			},
 			"(Player-Owned Port) Obtain a ~|gu uwagi|~": {
 				"Category": ["Untracked Uniques", "Untracked Uniques Minigames", "Timegated"],
 				"Label": "Untracked Minigame Uniques",
-				"Chunks": ["Player-Owned Port"]
+				"Chunks": ["Player-Owned Port"],
+				"Tasks": {
+					"Unlock ~|the tengu|~ in the player-owned port": "Agility"
+				}
 			},
 			"(Player-Owned Port) Obtain a ~|gu hakama|~": {
 				"Category": ["Untracked Uniques", "Untracked Uniques Minigames", "Timegated"],
 				"Label": "Untracked Minigame Uniques",
-				"Chunks": ["Player-Owned Port"]
+				"Chunks": ["Player-Owned Port"],
+				"Tasks": {
+					"Unlock ~|the tengu|~ in the player-owned port": "Agility"
+				}
 			},
 			"(Player-Owned Port) Obtain ~|The Way of Gu|~": {
 				"Category": ["Untracked Uniques", "Untracked Uniques Minigames", "Timegated"],
 				"Label": "Untracked Minigame Uniques",
-				"Chunks": ["Player-Owned Port"]
+				"Chunks": ["Player-Owned Port"],
+				"Tasks": {
+					"Unlock ~|the tengu|~ in the player-owned port": "Agility"
+				}
 			},
 			"(Fish Flingers) Obtain a ~|fishing hat|~": {
 				"Category": ["Untracked Uniques", "Untracked Uniques Minigames"],
@@ -143848,28 +143867,28 @@
 				"Category": ["Permanent Unlockables"],
 				"Label": "Permanent Unlockables",
 				"Tasks": {
-					"Build a small dinosaur pen in your ~|player-owned ranch|~": "Farming"
+					"Build a small dinosaur pen in your ~|Ranch out of Time|~": "Farming"
 				}
 			},
 			"Build a medium dinosaur pen in the ~|Ranch out of Time|~": {
 				"Category": ["Permanent Unlockables"],
 				"Label": "Permanent Unlockables",
 				"Tasks": {
-					"Build a medium dinosaur pen in your ~|player-owned ranch|~": "Farming"
+					"Build a medium dinosaur pen in your ~|Ranch out of Time|~": "Farming"
 				}
 			},
 			"Build both large dinosaur pens in the ~|Ranch out of Time|~": {
 				"Category": ["Permanent Unlockables"],
 				"Label": "Permanent Unlockables",
 				"Tasks": {
-					"Build a second large dinosaur pen in your ~|player-owned ranch|~": "Farming"
+					"Build a second large dinosaur pen in your ~|Ranch out of Time|~": "Farming"
 				}
 			},
 			"Build a dinosaur breeding pen in the ~|Ranch out of Time|~": {
 				"Category": ["Permanent Unlockables"],
 				"Label": "Permanent Unlockables",
 				"Tasks": {
-					"Build a dinosaur breeding pen in your ~|player-owned ranch|~": "Farming"
+					"Build a dinosaur breeding pen in your ~|Ranch out of Time|~": "Farming"
 				}
 			},
 			"Unlock the ability for animals in the ~|Ranch out of Time|~ to breed in small pens": {
@@ -144430,6 +144449,30 @@
 				"Tasks": {
 					"~|The Jack of Spades|~ Complete the quest": "Quest"
 				},
+				"Not F2P": true
+			},
+			"Build the ~|water filtration system|~ at Het's Oasis": {
+				"Category": ["Permanent Unlockables"],
+				"Label": "Permanent Unlockables",
+				"Chunks": ["13362-1"],
+				"Items": ["Bronze bar*", "Silver bar*", "Bucket of sand*", "Big fishing net*"],
+				"Skills": {
+					"Construction": 20
+				},
+				"Not F2P": true
+			},
+			"Build the north ~|flower baskets|~ at Het's Oasis": {
+				"Category": ["Permanent Unlockables"],
+				"Label": "Permanent Unlockables",
+				"Chunks": ["13362-1"],
+				"Items": ["Steel nails*", "Teak plank*"],
+				"Not F2P": true
+			},
+			"Build the south ~|flower baskets|~ at Het's Oasis": {
+				"Category": ["Permanent Unlockables"],
+				"Label": "Permanent Unlockables",
+				"Chunks": ["13362-4"],
+				"Items": ["Steel nails*", "Teak plank*"],
 				"Not F2P": true
 			},
 			"Obtain ~|the Castaway|~ title": {
@@ -150513,8 +150556,7 @@
 				"UnlocksArea": true,
 				"Tasks": {
 					"~|Lost City|~ Complete the quest": "Quest"
-				},
-				"Chunks": ["11316", "12849"]
+				}
 			},
 			"Troll Stronghold": {
 				"UnlocksArea": true,
@@ -152339,6 +152381,54 @@
 				},
 				"UnlocksArea": true
 			},
+			"Zanaris to 8752-4": {
+				"Sections": ["Zanaris", "8752-4"],
+				"Tasks": {
+					"~|A Fairy Tale II - Cure a Queen|~ 2": "Quest"
+				},
+				"ConnectsSections": true,
+				"Not F2P": true
+			},
+			"Zanaris to 10044-2": {
+				"Sections": ["Zanaris", "10044-2"],
+				"Tasks": {
+					"~|A Fairy Tale II - Cure a Queen|~ 2": "Quest"
+				},
+				"ConnectsSections": true,
+				"Not F2P": true
+			},
+			"Zanaris to 10547-3": {
+				"Sections": ["Zanaris", "10547-3"],
+				"Tasks": {
+					"~|A Fairy Tale II - Cure a Queen|~ 2": "Quest"
+				},
+				"ConnectsSections": true,
+				"Not F2P": true
+			},
+			"Zanaris to 10802-3": {
+				"Sections": ["Zanaris", "10802-3"],
+				"Tasks": {
+					"~|A Fairy Tale II - Cure a Queen|~ 2": "Quest"
+				},
+				"ConnectsSections": true,
+				"Not F2P": true
+			},
+			"Zanaris to 12338-2": {
+				"Sections": ["Zanaris", "12338-2"],
+				"Tasks": {
+					"~|A Fairy Tale II - Cure a Queen|~ 2": "Quest"
+				},
+				"ConnectsSections": true,
+				"Not F2P": true
+			},
+			"8752-1 to 8752-4": {
+				"Sections": ["8752-1", "8752-4"],
+				"Tasks": {
+					"Cross the ~|rock (Poison Waste)|~ by fairy ring DLR": "Agility"
+				},
+				"ConnectsSections": true,
+				"Not F2P": true
+			},
 			"8753-2 to 9009-1": {
 				"Sections": ["8753-2", "9009-1"],
 				"Tasks": {
@@ -152537,10 +152627,26 @@
 				"ConnectsSections": true,
 				"Not F2P": true
 			},
+			"10803 to 11059-1": {
+				"Sections": ["10803", "11059-1"],
+				"Tasks": {
+					"~|Sea Slug|~ 1": "Quest"
+				},
+				"ConnectsSections": true,
+				"Not F2P": true
+			},
 			"10808-1 to 10808-2": {
 				"Sections": ["10808-1", "10808-2"],
 				"Tasks": {
 					"Cross the ~|log balance (Fremennik Province)|~": "Agility"
+				},
+				"ConnectsSections": true,
+				"Not F2P": true
+			},
+			"10811 to 11325-1": {
+				"Sections": ["10811", "11325-1"],
+				"Tasks": {
+					"~|The Tale of the Muspah|~ 6": "Quest"
 				},
 				"ConnectsSections": true,
 				"Not F2P": true
@@ -152659,6 +152765,14 @@
 				"Sections": ["11565-1", "11565-3"],
 				"Tasks": {
 					"~|Legends' Quest|~ 1": "Quest"
+				},
+				"ConnectsSections": true,
+				"Not F2P": true
+			},
+			"11566-1 to 11567-1": {
+				"Sections": ["11566-1", "11567-1"],
+				"Tasks": {
+					"~|Back to my Roots|~ 3": "Quest"
 				},
 				"ConnectsSections": true,
 				"Not F2P": true
@@ -152898,6 +153012,14 @@
 				"Sections": ["13877-2", "13877-3"],
 				"Tasks": {
 					"~|In Search of the Myreque|~ 4": "Quest"
+				},
+				"ConnectsSections": true,
+				"Not F2P": true
+			},
+			"14129 to 14385-1": {
+				"Sections": ["14129", "14385-1"],
+				"Tasks": {
+					"~|The Darkness of Hallowvale|~ 2": "Quest"
 				},
 				"ConnectsSections": true,
 				"Not F2P": true
@@ -153375,7 +153497,7 @@
 				"Chunks": ["12596-1"],
 				"NPCs": ["Duke Horacio"],
 				"Tasks": {
-					"~|Dragon Slayer|~ 1": "Quest"
+					"~|Dragon Slayer|~ 3": "Quest"
 				},
 				"Output": "Anti-dragon shield"
 			},
@@ -156145,7 +156267,7 @@
 					"13622", "11829-1", "11828", "13105", "13104-2", "12848", "Kalphite Nursery", "13365", "Senntisten Temple", "12596-1", "12596-3", 
 					"12086", "12850-1", "Dwarven Mine", "11570", "Melzar's Maze Basement", "12081-1", "12082-1", "12338-1", "11314-1", "11314-2", "11315", 
 					"Elvarg's Lair", "Lunar Isle Mine", "8253-1", "8253-2", "8508", "12589", "Enakhra's Temple", "Brimstail's cave", "10544", 
-					"9782-1", "9527-3", "9781", "FairyTaleI2[+]x5", "Zanaris", "11572-1", "11827", "12340-1", "Nature grotto", "10802-1", "8752-1", "8752-2", "8752-3",
+					"9782-1", "9527-3", "9781", "FairyTaleI2[+]x5", "Zanaris", "11572-1", "11827", "12340-1", "Nature grotto", "10802-1", "8752-4", "8752-2", "8752-3",
 					"Fairy Resistance Hideout", "Cosmic Entity plane", "Gorak Plane", "11317-1", "13107-1", "Witchaven Dungeon", "13110-1", 
 					"Edgeville Dungeon", "10289", "10553", "10806-1", "10806-2", "10552-1", "10808-1", "11064-1", "14391", "10548", "12083-1", "11062-1", 
 					"11830-1", "12342-1", "11573", "11574", "11828", "12597-1", "13872", "Ruins of Uzer", "Thammaron's Throne Room", "11823", 
@@ -156644,6 +156766,25 @@
 					"~|The Jack of Spades|~ Complete the quest": "Quest"
 				},
 				"Output": "Menaphos journal"
+			},
+			"Fill an oil lamp with oil": {
+				"Items": ["Oil lamp (empty)", "Swamp tar"],
+				"Chunks": ["11570"],
+				"Output": "Oil lamp (oil)"
+			},
+			"Fill an oil lantern with oil": {
+				"Items": ["Oil lantern (empty)", "Swamp tar"],
+				"Chunks": ["11570"],
+				"Output": "Oil lantern (oil)"
+			},
+			"Fill a bullseye lantern with oil": {
+				"Items": ["Bullseye lantern (empty)", "Swamp tar"],
+				"Chunks": ["11570"],
+				"Output": "Bullseye lantern (oil)"
+			},
+			"Eat a pie": {
+				"Items": ["Pie[+]"],
+				"Output": "Pie dish"
 			}
 		}
 	},
@@ -161469,11 +161610,8 @@
 		"8752": {
 			"Sections": {
 				"1": {
-					"Connect": {
-						"9541": true
-					},
-					"Quest": {
-						"A Fairy Tale II - Cure a Queen": "step"
+					"Object": {
+						"Rock (Poison Waste)": 1
 					}
 				},
 				"2": {
@@ -161492,6 +161630,17 @@
 					"Object": {
 						"Small obelisk": 1,
 						"Tree": 10
+					}
+				},
+				"4": {
+					"Object": {
+						"Rock (Poison Waste)": 1
+					},
+					"Connect": {
+						"9541": true
+					},
+					"Quest": {
+						"A Fairy Tale II - Cure a Queen": "step"
 					}
 				}
 			},
@@ -172269,10 +172418,8 @@
 						"One Small Favour": "step"
 					},
 					"Connect": {
+						"36": true,
 						"11419": true
-					},
-					"Connect": {
-						"36": true
 					}
 				},
 				"3": {
@@ -179436,6 +179583,7 @@
 					"Shop": {
 						"Bob's Brilliant Axes": true,
 						"Slayer Equipment": true,
+						"Slayer Equipment (F2P)": true,
 						"Lumbridge General Store": true
 					},
 					"Quest": {
@@ -184761,8 +184909,9 @@
 						"Will o' the wisp": 2
 					},
 					"Monster": {
-						"Vyrewatch": 8
+						"Demon Boss": 1
 					}
+					
 				},
 				"2": {
 					"Object": {
@@ -184773,7 +184922,7 @@
 						"Sentinel Draemus": 1
 					},
 					"Monster": {
-						"Demon Boss": 1
+						"Vyrewatch": 8
 					}
 				}
 			},
@@ -206716,6 +206865,7 @@
 				"Pernix cowl",
 				"Pernix gloves"
 			],
+			"Pie[+]": ["Redberry pie", "Half a redberry pie", "Meat pie", "Apple pie", "Garden pie", "Fish pie", "Admiral pie", "Pork pie", "Wild pie", "Wilder pie", "Summer pie"],
 			"Pigpouch[+]": [
 				"Spirit pack pig pouch (tier 1)",
 				"Spirit pack pig pouch (tier 2)",
@@ -209959,7 +210109,7 @@
 			"Naturerune chest[+]": ["10291", "10547-1", "10553"],
 			"Orthen[+]": ["15428-1", "16454-1", "16193-1", "16704-1"],
 			"Pet shop[+]": ["10288-1", "11573"],
-			"PoisonWasteChunks[+]": ["8752-1", "9008-1"],
+			"PoisonWasteChunks[+]": ["8752-1", "8752-4", "9008-1"],
 			"Pose[+]": ["12853-1", "Keldagrim"],
 			"PrayerAltarChunks[+]": ["11828", "10290", "10806-1", "12854", "Underground Pass", "10035-1", "10291", "12850-1", "Sunken Tutorial Island", "11825-1", "11574", "11575-1", "13617-1", "12086", "11316", "Goblin Temple", "8757", "8755", "9265-1", "Jaldraocht Pyramid", "12331-1", "13622", "13098-1", "10803", "Nature Grotto", "War's Retreat", "Senntisten Temple", "God Wars Dungeon", "Kharid-et - Barracks excavation site", "14388-1", "12087-3", "11830-1", "12852", "12856", "11835", "Yanille Agility Dungeon", "9778-1", "9012-1", "11056", "11051-1", "Uzer Mastaba", "8508", "13613", "11829-1", "7995"],
 			"Priffdinas[+]": ["8501-1", "8501-2", "8500", "8499-1", "8499-2", "8757", "8756-1", "8756-2", "8756-3", "8756-4", "8756-5", "8756-6", "8756-7", "8755", "9013", "9012-1", "9012-2", "9011-1", "9011-2", "9011-5"],
@@ -209968,7 +210118,7 @@
 			"RockCrabChunks[+]": ["10810-1", "10042-1"],
 			"RuneTemple[+]": ["Air Rune Temple", "Mind Rune Temple", "Water Rune Temple", "Earth Rune Temple", "Fire Rune Temple", "Body Rune Temple", "Cosmic Rune Temple", "Chaos Rune Temple", "8508", "Nature Rune Temple", "Law Rune Temple", "Death Rune Temple", "Blood Rune Temple", "Soul Rune Temple", "Time Rune Temple"],
 			"SeaweedChunks[+]": ["11313", "11056", "11055-1", "11054", "11822-1", "11310-1", "11823", "11568-2", "11568-1"],
-			"SeerChunk[+]": ["10806-1", "11062-1"],
+			"SeerChunk[+]": ["10806-1", "11062-1", "11061", "11317-1"],
 			"SeersVillageArea[+]": ["10806-1", "11061", "11062-1", "10805", "10549", "10550", "10551-1", "10807-1"],
 			"SenntistenChunks[+]": ["13364", "13365"],
 			"SlayerMasterChunks[+]": ["8755", "Ancient Cavern", "11310-1", "12342-1", "11575-1", "13111", "13878-1", "Zanaris", "12093", "12850-1", "16704-1"],
@@ -210914,7 +211064,7 @@
 				"Wield a ~|was|~", 
 				"Wield an ~|avernic book|~", 
 				"Wield an ~|avernic wand|~", 
-				"Wield a ~|Tower mindspike|~", 
+				"Wield a ~|tower mindspike|~", 
 				"Wield a ~|talisman staff|~", 
 				"Wield a ~|wizard book|~", 
 				"Wield an ~|elemental staff|~", 
@@ -231872,16 +232022,16 @@
 				"1": "1/2500"
 			},
 			"Coal stone spirit": {
-				"40": "16/128"
+				"40 (F2P)": "16/128"
 			},
 			"Nature rune": {
-				"40": "14/128"
+				"40 (F2P)": "14/128"
 			},
 			"Limpwurt root": {
-				"10 (noted)": "12/128"
+				"10 (noted) (F2P)": "12/128"
 			},
 			"Grapes": {
-				"8 (noted)": "12/128"
+				"8 (noted) (F2P)": "12/128"
 			}
 		},
 		"Giant mole (Hard Mode)": {
@@ -231955,19 +232105,19 @@
 				"1": "1/500"
 			},
 			"Coal stone spirit": {
-				"60": "16/128"
+				"60 (F2P)": "16/128"
 			},
 			"Nature rune": {
-				"60": "14/128"
+				"60 (F2P)": "14/128"
 			},
 			"Limpwurt root": {
-				"20 (noted)": "12/128"
+				"20 (noted) (F2P)": "12/128"
 			},
 			"Uncut diamond": {
-				"9": "8/128"
+				"9 (F2P)": "8/128"
 			},
 			"Grapes": {
-				"14 (noted)": "12/128"
+				"14 (noted) (F2P)": "12/128"
 			}
 		},
 		"Giant rat": {
@@ -266039,6 +266189,9 @@
 			"Dagon'hai robe top": [{
 				"~|The Hunt for Surok (miniquest)|~ Complete the quest": "Quest"
 			}],
+			"Dragon 2h sword^": [{
+				"Members only": "Nonskill"
+			}],
 			"Dragon battleaxe": [{
 				"~|Heroes' Quest|~ Complete the quest": "Quest"
 			}],
@@ -267283,6 +267436,18 @@
 			}],
 			"Potato seed^Farmer": [{
 				"Members only": "Nonskill"
+			}],
+			"Red dragonhide^Giant mole": [{
+				"Members only": "Nonskill"
+			}],
+			"Red dragonhide^Giant mole (Hard Mode)": [{
+				"Members only": "Nonskill"
+			}],
+			"Blood rune^Giant mole (Hard Mode)": [{
+				"Members only": "Nonskill"
+			}],
+			"Ultra-growth potion^Giant mole (Hard Mode)": [{
+				"Members only": "Nonskill"
 			}]
 		},
 		"Monsters": {
@@ -267582,6 +267747,11 @@
 					"Members only": "Nonskill"
 				}]
 			},
+			"Imp": {
+				"11570": [{
+					"~|Dragon Slayer|~ 5b1": "Quest"
+				}]
+			},
 			"Jail guard": {
 				"12338-1": [{
 					"~|Stolen Hearts|~ Complete the quest": "Quest"
@@ -267696,6 +267866,9 @@
 			"Rat": {
 				"10293": [{
 					"Enter the ~|Fishing Guild|~": "Fishing"
+				}],
+				"11570": [{
+					"~|Dragon Slayer|~ 5b1": "Quest"
 				}]
 			},
 			"Renegade Knight": {
@@ -267746,6 +267919,11 @@
 			"Skeleton#Armed": {
 				"Temple of Ikov": [{
 					"~|Temple of Ikov|~ 1": "Quest"
+				}]
+			},
+			"Skeleton (Melzar's Maze)": {
+				"11570": [{
+					"~|Dragon Slayer|~ 5b1": "Quest"
 				}]
 			},
 			"Taraket the Necromancer": {
@@ -267826,6 +268004,11 @@
 					"Hard Mode Bosses": "Nonskill"
 				}]
 			},
+			"Zombie rat": {
+				"11570": [{
+					"~|Dragon Slayer|~ 5b1": "Quest"
+				}]
+			},
 			"Broodoo victim": {
 				"11055-1": [{
 					"~|Jungle Potion|~ Complete the quest": "Quest"
@@ -267881,6 +268064,11 @@
 			"Ghost (Spirit of Summer)": {
 				"11834": [{
 					"~|Spirit of Summer|~ Complete the quest": "Quest"
+				}]
+			},
+			"Ghost (Melzar's Maze)": {
+				"11570": [{
+					"~|Dragon Slayer|~ 5b1": "Quest"
 				}]
 			},
 			"Dungeoneering monsters": {
@@ -268355,6 +268543,11 @@
 					"Castle Wars rewards": "Nonskill"
 				}]
 			},
+			"Cabbage Facepunch Bonanza Rewards": {
+				"Gamers' Grotto": [{
+					"Members only": "Nonskill"
+				}]
+			},
 			"Chimp ice": {
 				"12846-2": [{
 					"~|Do No Evil|~ Complete the quest": "Quest"
@@ -268644,6 +268837,9 @@
 				"12342-1": [{
 					"Members only": "Nonskill"
 				}],
+				"12850-1": [{
+					"Members only": "Nonskill"
+				}],
 				"13358-1": [{
 					"~|Ichtlarin's Little Helper|~ Complete the quest": "Quest"
 				}, {
@@ -268821,22 +269017,22 @@
 				}]
 			},
 			"Iron dagger": {
-				"12582": [{
+				"12852": [{
 					"~|Shield of Arrav|~ 7": "Quest"
 				}]
 			},
 			"Leather boots": {
-				"12582": [{
+				"12852": [{
 					"~|Shield of Arrav|~ 7": "Quest"
 				}]
 			},
 			"Leather gloves": {
-				"12582": [{
+				"12852": [{
 					"~|Shield of Arrav|~ 7": "Quest"
 				}]
 			},
 			"Phoenix crossbow": {
-				"12582": [{
+				"12852": [{
 					"~|Shield of Arrav|~ 7": "Quest"
 				}]
 			}
@@ -306727,7 +306923,7 @@
 				"Sweetcorn seed": {
 					"1": "22/600"
 				},
-				"Starwberry seed": {
+				"Strawberry seed": {
 					"1": "13/600"
 				},
 				"Watermelon seed": {
@@ -310209,7 +310405,8 @@
 			"3": [
 				"8753-3",
 				"8496-1"
-			]
+			],
+			"4": []
 		},
 		"8753": {
 			"1": [
@@ -311801,7 +311998,6 @@
 		"11567": {
 			"1": [
 				"11568-1",
-				"11566-1",
 				"11311"
 			],
 			"2": [
@@ -312096,7 +312292,9 @@
 			]
 		},
 		"12073": {
-			"0": []
+			"0": [
+				"12329-4"
+			]
 		},
 		"12076": {
 			"0": [
@@ -312288,7 +312486,9 @@
 				"12585"
 			],
 			"4": [
-				"12585"
+				"12585",
+				"12073",
+				"13097-2"
 			]
 		},
 		"12330": {
@@ -312920,7 +313120,8 @@
 				"13098-1"
 			],
 			"2": [
-				"12841-2"
+				"12841-2",
+				"12329-4"
 			]
 		},
 		"13098": {
@@ -313257,10 +313458,11 @@
 				"13617-2"
 			]
 		},
-		"13662": {
+		"13362": {
 			"1": [
 				"13363",
-				"13618-2"
+				"13618-2",
+				"13106-1"
 			],
 			"2": [],
 			"3": [
@@ -313557,7 +313759,7 @@
 		"13626": {
 			"1": [
 				"13882-1",
-				"13626-1"
+				"13625-1"
 			],
 			"2": [
 				"13627",
@@ -313622,12 +313824,12 @@
 		},
 		"13873": {
 			"1": [
-				"13872",
-				"13617-2"
-			],
-			"2": [
 				"13874-2",
 				"14129"
+			],
+			"2": [
+				"13872",
+				"13617-2"
 			]
 		},
 		"13874": {
@@ -313650,7 +313852,7 @@
 				"13876-1",
 				"14131",
 				"13874-1",
-				"13619-1"
+				"13619-2"
 			],
 			"2": [
 				"13876-2",
@@ -333912,7 +334114,7 @@
 			"damage": 0,
 			"type": "Power armour",
 			"armour": 500.9,
-			"slot": "body",
+			"slot": "torso",
 			"strength": 0,
 			"magic": 0,
 			"prayer": 3,
@@ -337330,7 +337532,7 @@
 			"damage": 0,
 			"type": "Power armour",
 			"armour": 526,
-			"slot": "body",
+			"slot": "torso",
 			"strength": 0,
 			"magic": 0,
 			"prayer": 3,
@@ -345726,6 +345928,46 @@
 			"class": "ranged",
 			"accuracy": 1486,
 			"auto_damage": 892.5
+		},
+		"Karil's off-hand pistol crossbow": {
+			"ranged": 0,
+			"strength": 0,
+			"prayer": 0,
+			"charges": 100000,
+			"style": "bolts",
+			"ability_damage": 336,
+			"magic": 0,
+			"slot": "off-hand weapon",
+			"requirements": {
+				"Ranged": 70
+			},
+			"armour": 0,
+			"speed": 3,
+			"tier": 70,
+			"lp": 0,
+			"attack_range": 7,
+			"class": "ranged",
+			"accuracy": 1486
+		},
+		"Karil's pistol crossbow": {
+			"ranged": 0,
+			"strength": 0,
+			"prayer": 0,
+			"charges": 100000,
+			"style": "bolts",
+			"ability_damage": 672,
+			"magic": 0,
+			"slot": "main-hand weapon",
+			"requirements": {
+				"Ranged": 70
+			},
+			"armour": 0,
+			"speed": 3,
+			"tier": 70,
+			"lp": 0,
+			"attack_range": 7,
+			"class": "ranged",
+			"accuracy": 1486
 		},
 		"Karil's skirt": {
 			"ranged": 0,
@@ -357506,7 +357748,7 @@
 			"damage": 0,
 			"type": "Shield",
 			"armour": 435.6,
-			"slot": "off-hands",
+			"slot": "off-hand",
 			"strength": 0,
 			"magic": 0,
 			"charges": 10000,
@@ -357525,7 +357767,7 @@
 			"damage": 0,
 			"type": "Shield",
 			"armour": 446.4,
-			"slot": "off-hands",
+			"slot": "off-hand",
 			"strength": 0,
 			"magic": 0,
 			"charges": 10000,
@@ -357544,7 +357786,7 @@
 			"damage": 0,
 			"type": "Shield",
 			"armour": 457.4,
-			"slot": "off-hands",
+			"slot": "off-hand",
 			"strength": 0,
 			"magic": 0,
 			"charges": 10000,
@@ -357563,7 +357805,7 @@
 			"damage": 0,
 			"type": "Shield",
 			"armour": 468.6,
-			"slot": "off-hands",
+			"slot": "off-hand",
 			"strength": 0,
 			"magic": 0,
 			"charges": 10000,
@@ -357582,7 +357824,7 @@
 			"damage": 0,
 			"type": "Shield",
 			"armour": 480.0,
-			"slot": "off-hands",
+			"slot": "off-hand",
 			"strength": 0,
 			"magic": 0,
 			"charges": 10000,
@@ -357601,7 +357843,7 @@
 			"damage": 0,
 			"type": "Shield",
 			"armour": 491.6,
-			"slot": "off-hands",
+			"slot": "off-hand",
 			"strength": 0,
 			"magic": 0,
 			"charges": 10000,
@@ -357620,7 +357862,7 @@
 			"damage": 0,
 			"type": "Tank armour",
 			"armour": 500.9,
-			"slot": "Body",
+			"slot": "torso",
 			"strength": 0,
 			"magic": 0,
 			"charges": 10000,
@@ -357639,7 +357881,7 @@
 			"damage": 0,
 			"type": "Tank armour",
 			"armour": 513.3,
-			"slot": "Body",
+			"slot": "torso",
 			"strength": 0,
 			"magic": 0,
 			"charges": 10000,
@@ -357658,7 +357900,7 @@
 			"damage": 0,
 			"type": "Tank armour",
 			"armour": 526.0,
-			"slot": "Body",
+			"slot": "torso",
 			"strength": 0,
 			"magic": 0,
 			"charges": 10000,
@@ -357677,7 +357919,7 @@
 			"damage": 0,
 			"type": "Tank armour",
 			"armour": 538.8,
-			"slot": "Body",
+			"slot": "torso",
 			"strength": 0,
 			"magic": 0,
 			"charges": 10000,
@@ -357696,7 +357938,7 @@
 			"damage": 0,
 			"type": "Tank armour",
 			"armour": 552.0,
-			"slot": "Body",
+			"slot": "torso",
 			"strength": 0,
 			"magic": 0,
 			"charges": 10000,
@@ -357715,7 +357957,7 @@
 			"damage": 0,
 			"type": "Tank armour",
 			"armour": 565.3,
-			"slot": "Body",
+			"slot": "torso",
 			"strength": 0,
 			"magic": 0,
 			"charges": 10000,
@@ -357734,7 +357976,7 @@
 			"damage": 0,
 			"type": "Tank armour",
 			"armour": 479.1,
-			"slot": "Legs",
+			"slot": "legs",
 			"strength": 0,
 			"magic": 0,
 			"charges": 10000,
@@ -357753,7 +357995,7 @@
 			"damage": 0,
 			"type": "Tank armour",
 			"armour": 479.1,
-			"slot": "Legs",
+			"slot": "legs",
 			"strength": 0,
 			"magic": 0,
 			"charges": 10000,
@@ -357772,7 +358014,7 @@
 			"damage": 0,
 			"type": "Tank armour",
 			"armour": 503.1,
-			"slot": "Legs",
+			"slot": "legs",
 			"strength": 0,
 			"magic": 0,
 			"charges": 10000,
@@ -357791,7 +358033,7 @@
 			"damage": 0,
 			"type": "Tank armour",
 			"armour": 515.4,
-			"slot": "Legs",
+			"slot": "legs",
 			"strength": 0,
 			"magic": 0,
 			"charges": 10000,
@@ -357810,7 +358052,7 @@
 			"damage": 0,
 			"type": "Tank armour",
 			"armour": 528.0,
-			"slot": "Legs",
+			"slot": "legs",
 			"strength": 0,
 			"magic": 0,
 			"charges": 10000,
@@ -357829,7 +358071,7 @@
 			"damage": 0,
 			"type": "Tank armour",
 			"armour": 540.7,
-			"slot": "Legs",
+			"slot": "legs",
 			"strength": 0,
 			"magic": 0,
 			"charges": 10000,
@@ -376118,7 +376360,7 @@
 			"damage": 0,
 			"type": "Tank armour",
 			"armour": 389.6,
-			"slot": "body",
+			"slot": "torso",
 			"strength": 0,
 			"magic": 0,
 			"prayer": 0,
