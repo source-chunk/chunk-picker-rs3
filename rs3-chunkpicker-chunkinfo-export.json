@@ -31133,6 +31133,13 @@
 				"Primary": true,
 				"Priority": 3
 			},
+			"Transmute phasmatite to ~|banite ore|~": {
+				"Items": ["Radiant energy*", "Phasmatite*"],
+				"Level": 86,
+				"Output": "Banite ore",
+				"Primary": true,
+				"Priority": 3
+			},
 			"Transmute raw sea turtle to ~|raw cavefish|~": {
 				"Items": ["Radiant energy*", "Raw sea turtle*"],
 				"Level": 87,
@@ -121266,7 +121273,7 @@
 				},
 				"Not F2P": true
 			},
-			"~|Completionist achievements#Master Quest Cape|~ A Mini Shopment": {
+			"~|Completionist achievements#Master Quest Cape|~ A Mini Shipment": {
 				"Category": ["MQC achievements"],
 				"Description": "Loot the trunk in the Temple of Aminishi.",
 				"BaseQuest": "Completionist achievements",
@@ -122520,7 +122527,7 @@
 				"Not F2P": true
 			},
 			"~|Completionist achievements#Master Quest Cape|~ Friend of the Imcando": {
-				"Category": ["MQC achievements"],
+				"Category": ["MQC achievements", "Timegated"],
 				"Description": "Engage in all of Thalmund's conversations.",
 				"BaseQuest": "Completionist achievements",
 				"Chunks": ["City of Um"],
@@ -150815,8 +150822,7 @@
 				"UnlocksArea": true
 			},
 			"Witch's House Underground": {
-				"UnlocksArea": true,
-				"Not F2P": true
+				"UnlocksArea": true
 			},
 			"Grotworm Lair 1": {
 				"UnlocksArea": true
@@ -156785,6 +156791,15 @@
 			"Eat a pie": {
 				"Items": ["Pie[+]"],
 				"Output": "Pie dish"
+			},
+			"Obtain a dragon defender": {
+				"Items": ["Dragon defender"]
+			},
+			"Obtain a corrupted defender": {
+				"Items": ["Corruption sigil"]
+			},
+			"Obtain an ancient defender": {
+				"Items": ["Ancient emblem", "Chaotic splint"]
 			}
 		}
 	},
@@ -202177,34 +202192,9 @@
 				"Golden bamboo (tree)": 1
 			},
 			"NPC": {
-				"Gorajo hoardstalker": 1,
 				"Tortle": 24,
 				"Seasinger Umi": 8,
-				"Tarddiad Firefly": 77,
 				"Yulong": 1,
-				"Spider Queen": 1,
-				"Spider": 2,
-				"Bathtub": 1,
-				"Cocooned victim": 1,
-				"Dave": 1,
-				"Steve": 1,
-				"Pete": 1,
-				"Gavin": 1,
-				"Lana": 1,
-				"Bill": 1,
-				"Mirrorback spider": 1,
-				"Cormorant": 1,
-				"Crimson swift": 1,
-				"Cerulean twitch": 1,
-				"Golden warbler": 1,
-				"Copper longtail": 1,
-				"Puffin": 1,
-				"Wimpy bird": 1,
-				"Ibis": 1,
-				"Crow": 1,
-				"Mackers": 1,
-				"Lava hawk": 1,
-				"Mega ducklings": 1,
 				"Waiko islander": 56,
 				"Terri (fruit merchant)": 1,
 				"Ani (farming merchant)": 1,
@@ -202233,13 +202223,12 @@
 				"X-Runes": 1,
 				"Alder (bamboo merchant)": 1,
 				"Sensei Hakase": 1,
-				"Hari": 1,
 				"Name": 1,
 				"Cap'n Ekahi": 3,
 				"Yuehanxun the Dealer": 1,
 				"Archaeologist": 1,
 				"Sea Witch Kaula": 1,
-				"Ted": 1,
+				"Ted (Whale's Maw)": 1,
 				"Whale's Maw islander": 15,
 				"Ling (contracts)": 2,
 				"Bryll Thoksdottir": 2,
@@ -266348,6 +266337,45 @@
 			"Rock-shell gloves": [{
 				"~|The Fremennik Trials|~ Complete the quest": "Quest"
 			}],
+			"Rock-shell helm": [{
+				"~|The Fremennik Trials|~ Complete the quest": "Quest"
+			}],
+			"Rock-shell plate": [{
+				"~|The Fremennik Trials|~ Complete the quest": "Quest"
+			}],
+			"Rock-shell legs": [{
+				"~|The Fremennik Trials|~ Complete the quest": "Quest"
+			}],
+			"Spined boots": [{
+				"~|The Fremennik Trials|~ Complete the quest": "Quest"
+			}],
+			"Spined gloves": [{
+				"~|The Fremennik Trials|~ Complete the quest": "Quest"
+			}],
+			"Spined helm": [{
+				"~|The Fremennik Trials|~ Complete the quest": "Quest"
+			}],
+			"Spined body": [{
+				"~|The Fremennik Trials|~ Complete the quest": "Quest"
+			}],
+			"Spined chaps": [{
+				"~|The Fremennik Trials|~ Complete the quest": "Quest"
+			}],
+			"Skeletal helm": [{
+				"~|The Fremennik Trials|~ Complete the quest": "Quest"
+			}],
+			"Skeletal top": [{
+				"~|The Fremennik Trials|~ Complete the quest": "Quest"
+			}],
+			"Skeletal bottoms": [{
+				"~|The Fremennik Trials|~ Complete the quest": "Quest"
+			}],
+			"Skeletal gloves": [{
+				"~|The Fremennik Trials|~ Complete the quest": "Quest"
+			}],
+			"Skeletal boots": [{
+				"~|The Fremennik Trials|~ Complete the quest": "Quest"
+			}],
 			"Skewer": [{
 				"RecipeSub[+]x5": "Quest"
 			}],
@@ -267448,6 +267476,21 @@
 			}],
 			"Ultra-growth potion^Giant mole (Hard Mode)": [{
 				"Members only": "Nonskill"
+			}],
+			"Lady Grey's guitar^": [{
+				"~|That Old Black Magic|~ 2": "Quest"
+			}],
+			"Animated drumsticks^": [{
+				"~|That Old Black Magic|~ 3c1": "Quest"
+			}],
+			"Corruption sigil^": [{
+				"Obtain a dragon defender": "Nonskill"
+			}],
+			"Ancient emblem^": [{
+				"Obtain a corrupted defender": "Nonskill"
+			}],
+			"Perfect chitin^": [{
+				"Obtain an ancient defender": "Nonskill"
 			}]
 		},
 		"Monsters": {
@@ -267597,6 +267640,11 @@
 				}],
 				"11834": [{
 					"Flash Events enabled": "Nonskill"
+				}]
+			},
+			"Experiment No.2": {
+				"Witch's House Underground": [{
+					"~|Grim Tales|~ 2b1": "Quest"
 				}]
 			},
 			"General Graardor (Hard Mode)": {
@@ -311036,7 +311084,8 @@
 			"0": [
 				"10286",
 				"10029",
-				"9774"
+				"9774",
+				"10287-2"
 			]
 		},
 		"10031": {
@@ -311236,7 +311285,9 @@
 				"10286",
 				"10031"
 			],
-			"2": []
+			"2": [
+				"10030"
+			]
 		},
 		"10288": {
 			"1": [
