@@ -459,7 +459,7 @@ const modalContents = {
             <div id="intro-data-subtitle" class="intro-data-subtitle noscroll">
                 <div id="intro-data-subtitle" class="intro-data-subtitle noscroll">Enter in the chunk ID of your starting chunk. (4 or 5 digits long)</div>
                 <div id="intro-data-subtitle" class="intro-data-subtitle noscroll"><b class="noscroll">If you haven't decided on your starting chunk yet, you can enter 0000 instead to skip this step; you'll be reminded next time you log in to set it again.</b></div>
-                <div id="intro-data-subtitle" class="intro-data-subtitle noscroll">(The standard Burthorpe starting chunk is 11575)</div>
+                <div id="intro-data-subtitle" class="intro-data-subtitle noscroll">(The standard Lumbridge starting chunk is 12850)</div>
                 <input id="starting-chunk-input" class="noscroll" oninput="checkStartingChunkFormat()" placeholder="Chunk ID" autocomplete="off" />
                 <div id="intro-data-subtitle" class="intro-data-subtitle noscroll">If you ever need to change your starting chunk for whatever reason, you can do so via the settings menu in the top-right of the screen.</div>
             </div>
