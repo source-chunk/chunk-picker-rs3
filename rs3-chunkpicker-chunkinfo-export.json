@@ -267426,6 +267426,18 @@
 			"Ferocious ring (5)^": [{
 				"Receive a slayer assignment from ~|Kuradal|~": "Slayer"
 			}],
+			"Gold charm^Ankou": [{
+				"Members only": "Nonskill"
+			}],
+			"Gold charm^Catablepon": [{
+				"Members only": "Nonskill"
+			}],
+			"Gold charm^Scorpion": [{
+				"Members only": "Nonskill"
+			}],
+			"Gold charm^Skeleton#Unarmed": [{
+				"Members only": "Nonskill"
+			}],
 			"Green charm^": [{
 				"Members only": "Nonskill"
 			}],
@@ -267433,6 +267445,12 @@
 				"Members only": "Nonskill"
 			}],
 			"Blue charm^": [{
+				"Members only": "Nonskill"
+			}],
+			"Potato seed^Catablepon": [{
+				"Members only": "Nonskill"
+			}],
+			"Onion seed^Catablepon": [{
 				"Members only": "Nonskill"
 			}],
 			"Cabbage seed^": [{
@@ -267678,6 +267696,30 @@
 			"Elder seed^": [{
 				"Members only": "Nonskill"
 			}],
+			"Grimy guam^Ankou": [{
+				"Members only": "Nonskill"
+			}],
+			"Grimy guam^Catablepon": [{
+				"Members only": "Nonskill"
+			}],
+			"Grimy guam^Flesh Crawler": [{
+				"Members only": "Nonskill"
+			}],
+			"Grimy guam^Zombie (Stronghold of Security)": [{
+				"Members only": "Nonskill"
+			}],
+			"Grimy tarromin^Ankou": [{
+				"Members only": "Nonskill"
+			}],
+			"Grimy tarromin^Catablepon": [{
+				"Members only": "Nonskill"
+			}],
+			"Grimy tarromin^Flesh Crawler": [{
+				"Members only": "Nonskill"
+			}],
+			"Grimy tarromin^Zombie (Stronghold of Security)": [{
+				"Members only": "Nonskill"
+			}],
 			"Grimy marrentill^": [{
 				"Members only": "Nonskill"
 			}],
@@ -267813,6 +267855,18 @@
 			"Red dragonhide^Giant mole (Hard Mode)": [{
 				"Members only": "Nonskill"
 			}],
+			"Water rune^Minotaur": [{
+				"Members only": "Nonskill"
+			}],
+			"Eart rune^Minotaur": [{
+				"Members only": "Nonskill"
+			}],
+			"Chaos rune^Catablepon": [{
+				"Members only": "Nonskill"
+			}],
+			"Cosmic rune^Catablepon": [{
+				"Members only": "Nonskill"
+			}],
 			"Blood rune^": [{
 				"Members only": "Nonskill"
 			}],
@@ -267899,6 +267953,30 @@
 				"Members only": "Nonskill"
 			}],
 			"Tiny spiky bronze salvage^Hobgoblin#Unarmed": [{
+				"Members only": "Nonskill"
+			}],
+			"Bass^": [{
+				"Members only": "Nonskill"
+			}],
+			"Battlestaff^": [{
+				"Members only": "Nonskill"
+			}],
+			"Ghostly essence^": [{
+				"Members only": "Nonskill"
+			}],
+			"Deployable herb burner^": [{
+				"Members only": "Nonskill"
+			}],
+			"Black full helm^Catablepon": [{
+				"Members only": "Nonskill"
+			}],
+			"Tiny plated adamant salvage^Catablepon": [{
+				"Members only": "Nonskill"
+			}],
+			"Unlit torch^": [{
+				"Members only": "Nonskill"
+			}],
+			"Unicorn horn": [{
 				"Members only": "Nonskill"
 			}]
 		},
