@@ -1482,7 +1482,8 @@
 				"Primary": false,
 				"Priority": 3,
 				"NoBoost": true,
-				"NoPet": true
+				"NoPet": true,
+				"Not F2P": true
 			},
 			"Buy the ~|Agility master cape|~": {
 				"Category": ["Master skillcape"],
@@ -1492,7 +1493,8 @@
 				"Primary": false,
 				"Priority": 3,
 				"NoBoost": true,
-				"NoPet": true
+				"NoPet": true,
+				"Not F2P": true
 			},
 			"Catch a ~|charming moth|~": {
 				"NPCs": ["Charming moth"],
@@ -1670,7 +1672,8 @@
 				},
 				"Priority": 1,
 				"NoBoost": true,
-				"NoPet": true
+				"NoPet": true,
+				"Not F2P": true
 			},
 			"Make a ~|Milestone cape (90)|~": {
 				"Category": ["Skillcape"],
@@ -1710,7 +1713,8 @@
 				},
 				"Priority": 8,
 				"NoBoost": true,
-				"NoPet": true
+				"NoPet": true,
+				"Not F2P": true
 			},
 			"Create the ~|blurite keystone|~": {
 				"Tasks": {
@@ -1753,7 +1757,8 @@
 					"Woodcutting": 120
 				},
 				"Priority": 2,
-				"NoPet": true
+				"NoPet": true,
+				"Not F2P": true
 			},
 			"Buy the ~|Master max cape|~": {
 				"Tasks": {
@@ -1794,7 +1799,8 @@
 				},
 				"Priority": 1,
 				"NoBoost": true,
-				"NoPet": true
+				"NoPet": true,
+				"Not F2P": true
 			}
 		},
 		"Archaeology": {
@@ -5302,7 +5308,8 @@
 					"Thieving": 90,
 					"Woodcutting": 90
 				},
-				"Priority": 19
+				"Priority": 19,
+				"Not F2P": true
 			},
 			"Excavate ~|gravitron research debris|~": {
 				"Tasks": {
@@ -5976,7 +5983,8 @@
 				"Output": "Archaeology cape",
 				"Primary": false,
 				"Priority": 21,
-				"NoBoost": true
+				"NoBoost": true,
+				"Not F2P": true
 			},
 			"Excavate ~|Kyzaj champion's boudoir|~": {
 				"Tasks": {
@@ -7425,7 +7433,8 @@
 				"Output": "Archaeology master cape",
 				"Primary": false,
 				"NoBoost": true,
-				"Priority": 3
+				"Priority": 3,
+				"Not F2P": true
 			},
 			"Buy the ~|Max cape|~": {
 				"Tasks": {
@@ -7466,7 +7475,8 @@
 					"Thieving": 99,
 					"Woodcutting": 99
 				},
-				"Priority": 1
+				"Priority": 1,
+				"Not F2P": true
 			},
 			"Create the ~|blurite keystone|~": {
 				"Tasks": {
@@ -7509,7 +7519,8 @@
 					"Thieving": 120,
 					"Woodcutting": 120
 				},
-				"Priority": 2
+				"Priority": 2,
+				"Not F2P": true
 			},
 			"Buy the ~|Master max cape|~": {
 				"Tasks": {
@@ -7549,7 +7560,8 @@
 					"Thieving": 120,
 					"Woodcutting": 120
 				},
-				"Priority": 1
+				"Priority": 1,
+				"Not F2P": true
 			}
 		},
 		"Attack": {
@@ -10920,7 +10932,8 @@
 			        "Thieving": 90,
 			        "Woodcutting": 90
 			    },
-			    "Priority": 7
+			    "Priority": 7,
+				"Not F2P": true
 			},
 			"Unlock the ~|Ice Asylum|~ ability": {
 			    "Items": ["Codex Ultimatus"],
@@ -11089,7 +11102,8 @@
 			    "Primary": false,
 				"NoBoost": true,
 			    "NoPet": true,
-			    "Priority": 3
+			    "Priority": 3,
+				"Not F2P": true
 			},
 			"Buy the ~|Constitution master cape|~": {
 			    "Category": ["Master skillcape"],
@@ -11098,7 +11112,8 @@
 			    "Output": "Constitution master cape",
 			    "Primary": false,
 				"NoBoost": true,
-			    "Priority": 3
+			    "Priority": 3,
+				"Not F2P": true
 			},
 			"Get the full amount of healing from ~|sailfish soup|~": {
 			    "Category": ["Full Healing"],
@@ -11107,7 +11122,8 @@
 			    "Primary": false,
 			    "Not Equip": false,
 			    "NoPet": true,
-			    "Priority": 5
+			    "Priority": 5,
+				"Not F2P": true
 			},
 			"Buy the ~|Max cape|~": {
 				"Tasks": {
@@ -11149,7 +11165,8 @@
 					"Thieving": 99,
 					"Woodcutting": 99
 				},
-				"Priority": 1
+				"Priority": 1,
+				"Not F2P": true
 			},
 			"Create the ~|blurite keystone|~": {
 				"Tasks": {
@@ -11193,7 +11210,8 @@
 					"Thieving": 120,
 					"Woodcutting": 120
 				},
-				"Priority": 2
+				"Priority": 2,
+				"Not F2P": true
 			},
 			"Buy the ~|Master max cape|~": {
 				"Tasks": {
@@ -11234,7 +11252,8 @@
 					"Thieving": 120,
 					"Woodcutting": 120
 				},
-				"Priority": 1
+				"Priority": 1,
+				"Not F2P": true
 			}
 		},
 		"Construction": {
@@ -15919,7 +15938,8 @@
 					"Thieving": 90,
 					"Woodcutting": 90
 				},
-				"Priority": 11
+				"Priority": 11,
+				"Not F2P": true
 			},
 			"Make ~|elder planks|~ at the sawmill in Fort Forinthry": {
 				"Items": ["Elder logs*"],
@@ -19338,7 +19358,8 @@
 					"Thieving": 90,
 					"Woodcutting": 90
 				},
-				"Priority": 5
+				"Priority": 5,
+				"Not F2P": true
 			},
 			"Cook a ~|manta ray|~": {
 				"Items": ["Raw manta ray*"],
@@ -19586,7 +19607,8 @@
 				"Output": "Cooking cape",
 				"Primary": false,
 				"NoBoost": true,
-				"Priority": 4
+				"Priority": 4,
+				"Not F2P": true
 			},
 			"Buy the ~|Cooking master cape|~": {
 				"Category": ["Master skillcape"],
@@ -19595,10 +19617,11 @@
 				"Output": "Cooking master cape",
 				"Primary": false,
 				"NoBoost": true,
-				"Priority": 3
+				"Priority": 3,
+				"Not F2P": true
 			},
 			"Make a ~|primal starter|~": {
-				"Items": ["Raw oculi apoterrasaur meat*", "Rainbow sweetcorn*", "Cannonball cabbage*", "Sweet potato*", "Extreme cooking potion[+]*"],
+				"Items": ["Raw oculi apoterrasaur meat*", "Rainbow sweetcorn*", "Cannonball cabbage*", "Sweet potato*"],
 				"Objects": ["Cooking range[+]"],
 				"Level": 115,
 				"Output": "Primal starter",
@@ -19606,7 +19629,7 @@
 				"Priority": 6
 			},
 			"Make a ~|primal main course|~": {
-				"Items": ["Raw malletops meat*", "Raw pavosaurus rew meat*", "Red onion*", "Heirloom tomato*", "Extreme cooking potion[+]*"],
+				"Items": ["Raw malletops meat*", "Raw pavosaurus rew meat*", "Red onion*", "Heirloom tomato*"],
 				"Objects": ["Cooking range[+]"],
 				"Level": 115,
 				"Output": "Primal main course",
@@ -19614,7 +19637,7 @@
 				"Priority": 7
 			},
 			"Make a ~|primal dessert|~": {
-				"Items": ["White strawberry*", "Golden watermelon*", "Dragonfruit*", "Mango*", "Extreme cooking potion[+]*"],
+				"Items": ["White strawberry*", "Golden watermelon*", "Dragonfruit*", "Mango*"],
 				"Objects": ["Cooking range[+]"],
 				"Level": 115,
 				"Output": "Primal dessert",
@@ -19631,7 +19654,7 @@
 				"Priority": 9
 			},
 			"Make a ~|primal feast|~": {
-				"Items": ["Primal starter*", "Primal main course*", "Primal dessert*", "Extreme cooking potion[+]*"],
+				"Items": ["Primal starter*", "Primal main course*", "Primal dessert*"],
 				"Objects": ["Cooking range[+]"],
 				"Level": 115,
 				"Output": "Primal starter",
@@ -19677,7 +19700,8 @@
 					"Thieving": 99,
 					"Woodcutting": 99
 				},
-				"Priority": 1
+				"Priority": 1,
+				"Not F2P": true
 			},
 			"Create the ~|blurite keystone|~": {
 				"Tasks": {
@@ -19720,7 +19744,8 @@
 					"Thieving": 120,
 					"Woodcutting": 120
 				},
-				"Priority": 2
+				"Priority": 2,
+				"Not F2P": true
 			},
 			"Buy the ~|Master max cape|~": {
 				"Tasks": {
@@ -19760,7 +19785,8 @@
 					"Thieving": 120,
 					"Woodcutting": 120
 				},
-				"Priority": 1
+				"Priority": 1,
+				"Not F2P": true
 			}
 		},
 		"Crafting": {
@@ -25473,7 +25499,8 @@
 					"Thieving": 90,
 					"Woodcutting": 90
 				},
-				"Priority": 101
+				"Priority": 101,
+				"Not F2P": true
 			},
 			"Craft ~|dyed undead dragon leather|~": {
 				"Items": ["Brown dye*", "Undead dragon leather*"],
@@ -31128,6 +31155,13 @@
 			},
 			"Transmute necrite ore to ~|banite ore|~": {
 				"Items": ["Radiant energy*", "Necrite ore*"],
+				"Level": 86,
+				"Output": "Banite ore",
+				"Primary": true,
+				"Priority": 3
+			},
+			"Transmute phasmatite to ~|banite ore|~": {
+				"Items": ["Radiant energy*", "Phasmatite*"],
 				"Level": 86,
 				"Output": "Banite ore",
 				"Primary": true,
@@ -53825,7 +53859,8 @@
 				},
 				"Priority": 13,
 				"NoPet": true,
-				"NoBoost": true
+				"NoBoost": true,
+				"Not F2P": true
 			},
 			"Imbue a ~|noxious sapphire|~": {
 				"Items": ["Noxious sapphire (unimbued)*"],
@@ -54197,7 +54232,8 @@
 				"Primary": true,
 				"Priority": 4,
 				"NoPet": true,
-				"NoBoost": true
+				"NoBoost": true,
+				"Not F2P": true
 			},
 			"Wield a ~|celestial catalytic staff/wand|~": {
 				"Category": ["Daemonheim tasks"],
@@ -54242,7 +54278,8 @@
 				"Primary": false,
 				"Priority": 3,
 				"NoPet": true,
-				"NoBoost": true
+				"NoBoost": true,
+				"Not F2P": true
 			},
 			"Cast ~|Cure Plant|~ on a diseased farming patch": {
 				"Category": ["Spells"],
@@ -54312,7 +54349,8 @@
 				},
 				"Priority": 1,
 				"NoPet": true,
-				"NoBoost": true
+				"NoBoost": true,
+				"Not F2P": true
 			},
 			"Obtain the ~|Archmage|~ title": {
 				"Category": ["Titles"],
@@ -54324,7 +54362,8 @@
 				"Primary": false,
 				"Priority": 7,
 				"NoPet": true,
-				"NoBoost": true
+				"NoBoost": true,
+				"Not F2P": true
 			},
 			"Create the ~|blurite keystone|~": {
 				"Tasks": {
@@ -54368,7 +54407,8 @@
 				},
 				"Priority": 2,
 				"NoPet": true,
-				"NoBoost": true
+				"NoBoost": true,
+				"Not F2P": true
 			},
 			"Buy the ~|Master max cape|~": {
 				"Tasks": {
@@ -54409,7 +54449,8 @@
 				},
 				"Priority": 1,
 				"NoPet": true,
-				"NoBoost": true
+				"NoBoost": true,
+				"Not F2P": true
 			}
 		},
 		"Mining": {
@@ -55510,7 +55551,8 @@
 					"Thieving": 90,
 					"Woodcutting": 90
 				},
-				"Priority": 8
+				"Priority": 8,
+				"Not F2P": true
 			},
 			"Mine the rockslide to gain access to the ~|Ice Queen's Lair|~": {
 				"Chunks": ["11318-2"],
@@ -57605,7 +57647,8 @@
 				},
 				"Priority": 8,
 				"NoPet": true,
-				"NoBoost": true
+				"NoBoost": true,
+				"Not F2P": true
 			},
 			"Use the ~|superheat form|~ curse": {
 				"Level": 91,
@@ -83090,7 +83133,7 @@
 			"~|Duck Quest|~ 2": {
 				"BaseQuest": "Duck Quest",
 				"Description": "Follow the trail of debris and speak to Breadstix",
-				"Chunks": ["12338-1", "12337-2", "12593", "12850-1", "12851-2", "12595", "12596-1"],
+				"Chunks": ["12338-1", "12337-2", "12593", "12849", "12850-1", "12851-2", "12595", "12596-1"],
 				"Tasks": {
 					"~|Duck Quest|~ 1": "Quest"
 				}
@@ -91851,7 +91894,7 @@
 			"~|Lost City|~ 1": {
 				"BaseQuest": "Lost City",
 				"Description": "Talk to the Warrior in Lumbridge Swamp",
-				"Chunks": ["12593"],
+				"Chunks": ["12594"],
 				"Skills": {
 					"Crafting": 31,
 					"Woodcutting": 36
@@ -112075,9 +112118,9 @@
 				"BaseQuest": "Lumbridge Achievements",
 				"Category": ["Show Diary Tasks"]
 			},
-			"~|Lumbridge Achievements#Beginner|~ The Nexus Has You": {
-				"Description": "Visit Ysondria at the Nexus to find out more.",
-				"Chunks": ["12849"],
+			"~|Lumbridge Achievements#Beginner|~ Herald the Dawn": {
+				"Description": "Claim a herald cape from the herald of Lumbridge.",
+				"Chunks": ["12594"],
 				"BaseQuest": "Lumbridge Achievements",
 				"Category": ["Show Diary Tasks"]
 			},
@@ -112593,8 +112636,8 @@
 				"Category": ["Show Diary Tasks"]
 			},
 			"~|Lumbridge Achievements#Hard|~ Blast and Hellfire": {
-				"Description": "Cast Fire Blast at a training dummy near Lumbridge market.",
-				"Chunks": ["12594"],
+				"Description": "Cast Fire Blast at one of the goblins or giant spiders in the Lumbridge area (including the Lumbridge Catacombs and swamp).",
+				"Chunks": ["BlastAndHellfire[+]"],
 				"Items": ["Air rune[+]", "Fire rune[+]"],
 				"Skills": {
 					"Magic": 59
@@ -115539,7 +115582,7 @@
 			},
 			"~|Varrock Achievements#Easy|~ Strike a Pose": {
 				"Description": "Access Thessalia's Makeovers through Thessalia.",
-				"Chunks": ["Pose[+]"],
+				"Chunks": ["12853-1"],
 				"BaseQuest": "Varrock Achievements",
 				"Category": ["Show Diary Tasks"]
 			},
@@ -118769,6 +118812,14 @@
 				"ManualShow": true,
 				"CombatScoreNeeded": 654
 			},
+			"~|Combat Mastery achievements#Elite|~ Akh Away Quickly": {
+				"Category": ["Combat Mastery achievements", "Hard Mode Bosses"],
+				"Description": "Defeat Amascut, the Devourer in enrage mode without anyone taking damage from Gorilla Akh and without reflecting damage from Modest Crocodiles.",
+				"Monsters": ["Amascut, the Devourer"],
+				"BaseQuest": "Combat Mastery achievements",
+				"Not F2P": true,
+				"CombatScore": 4
+			},
 			"~|Combat Mastery achievements#Elite|~ All Natural": {
 				"Category": ["Combat Mastery achievements"],
 				"Description": "Defeat the Har-Aken without using any crystals within the fight.",
@@ -118781,6 +118832,14 @@
 				"Category": ["Combat Mastery achievements"],
 				"Description": "Defeat all four images of Yakamaru within ten seconds of one another.",
 				"Monsters": ["Yakamaru"],
+				"BaseQuest": "Combat Mastery achievements",
+				"Not F2P": true,
+				"CombatScore": 4
+			},
+			"~|Combat Mastery achievements#Elite|~ Amascut, the Devourer (EM) Elite Speed Killer": {
+				"Category": ["Combat Mastery achievements", "Hard Mode Bosses", "Speed Killer Achievements"],
+				"Description": "Defeat Amascut, the Devourer at 500% or higher enrage in less than 10:00.",
+				"Monsters": ["Amascut, the Devourer"],
 				"BaseQuest": "Combat Mastery achievements",
 				"Not F2P": true,
 				"CombatScore": 4
@@ -118942,6 +119001,14 @@
 				"Category": ["Combat Mastery achievements"],
 				"Description": "Defeat Vorago without anyone activating any of the magic and the explosive bombs during the 'The End' stage.",
 				"Monsters": ["Vorago"],
+				"BaseQuest": "Combat Mastery achievements",
+				"Not F2P": true,
+				"CombatScore": 4
+			},
+			"~|Combat Mastery achievements#Elite|~ Can't Stop Me Meow I": {
+				"Category": ["Combat Mastery achievements", "Hard Mode Bosses"],
+				"Description": "Defeat Amascut, the Devourer at 500% enrage.",
+				"Monsters": ["Amascut, the Devourer"],
 				"BaseQuest": "Combat Mastery achievements",
 				"Not F2P": true,
 				"CombatScore": 4
@@ -119131,6 +119198,14 @@
 				"Not F2P": true,
 				"CombatScore": 4
 			},
+			"~|Combat Mastery achievements#Elite|~ Four Times the Fun": {
+				"Category": ["Combat Mastery achievements"],
+				"Description": "Defeat Amascut, the Devourer after intercepting her attack on all four of the Menaphite altars at once in phase 5.",
+				"Monsters": ["Amascut, the Devourer"],
+				"BaseQuest": "Combat Mastery achievements",
+				"Not F2P": true,
+				"CombatScore": 4
+			},
 			"~|Combat Mastery achievements#Elite|~ Freeze Frame": {
 				"Category": ["Combat Mastery achievements"],
 				"Description": "Defeat Vorago without Vorago moving and without anyone moving during the 'Vitalis' stage",
@@ -119259,10 +119334,26 @@
 				"Not F2P": true,
 				"CombatScore": 4
 			},
+			"~|Combat Mastery achievements#Elite|~ I'm Feline It II": {
+				"Category": ["Combat Mastery achievements", "Hard Mode Bosses"],
+				"Description": "Defeat Amascut, the Devourer in enrage mode 10 times.",
+				"Monsters": ["Amascut, the Devourer"],
+				"BaseQuest": "Combat Mastery achievements",
+				"Not F2P": true,
+				"CombatScore": 4
+			},
 			"~|Combat Mastery achievements#Elite|~ In and Out": {
 				"Category": ["Combat Mastery achievements"],
 				"Description": "Defeat Kezalam, the Wanderer without being hit by her 'Sanctum Blast' attack.",
 				"Monsters": ["Kezalam, the Wanderer"],
+				"BaseQuest": "Combat Mastery achievements",
+				"Not F2P": true,
+				"CombatScore": 4
+			},
+			"~|Combat Mastery achievements#Elite|~ In a While, Crocodile": {
+				"Category": ["Combat Mastery achievements", "Hard Mode Bosses"],
+				"Description": "Defeat Amascut, the Devourer in enrage mode without anyone defeating any Modest crocodile demons.",
+				"Monsters": ["Amascut, the Devourer"],
 				"BaseQuest": "Combat Mastery achievements",
 				"Not F2P": true,
 				"CombatScore": 4
@@ -119511,10 +119602,26 @@
 				"Not F2P": true,
 				"CombatScore": 4
 			},
+			"~|Combat Mastery achievements#Elite|~ Menaphiting My Way Through This": {
+				"Category": ["Combat Mastery achievements", "Hard Mode Bosses"],
+				"Description": "Defeat Amascut, the Devourer in enrage mode without failing her 'Altar Strike' attack in phase 7.",
+				"Monsters": ["Amascut, the Devourer"],
+				"BaseQuest": "Combat Mastery achievements",
+				"Not F2P": true,
+				"CombatScore": 4
+			},
 			"~|Combat Mastery achievements#Elite|~ Minions Miss Me, Rasial Fears Me": {
 				"Category": ["Combat Mastery achievements"],
 				"Description": "Defeat Rasial, the First Necromancer without being hit by his minions.",
 				"Monsters": ["Rasial, the First Necromancer"],
+				"BaseQuest": "Combat Mastery achievements",
+				"Not F2P": true,
+				"CombatScore": 4
+			},
+			"~|Combat Mastery achievements#Elite|~ Missing Mandibles": {
+				"Category": ["Combat Mastery achievements", "Hard Mode Bosses"],
+				"Description": "Defeat Amascut, the Devourer in enrage mode without anyone allowing any Volatile scarab akh to spawn.",
+				"Monsters": ["Amascut, the Devourer"],
 				"BaseQuest": "Combat Mastery achievements",
 				"Not F2P": true,
 				"CombatScore": 4
@@ -119591,6 +119698,14 @@
 				"Not F2P": true,
 				"CombatScore": 4
 			},
+			"~|Combat Mastery achievements#Elite|~ No More Tears": {
+				"Category": ["Combat Mastery achievements", "Hard Mode Bosses"],
+				"Description": "Defeat Amascut, the Devourer in enrage mode without allowing any Engulfing shadow tears to explode.",
+				"Monsters": ["Amascut, the Devourer"],
+				"BaseQuest": "Combat Mastery achievements",
+				"Not F2P": true,
+				"CombatScore": 4
+			},
 			"~|Combat Mastery achievements#Elite|~ Not Mushroom to Move": {
 				"Category": ["Combat Mastery achievements"],
 				"Description": "Defeat Helwyr solo without moving.",
@@ -119647,6 +119762,14 @@
 				"Not F2P": true,
 				"CombatScore": 4
 			},
+			"~|Combat Mastery achievements#Elite|~ Protector of the Sun God": {
+				"Category": ["Combat Mastery achievements", "Hard Mode Bosses"],
+				"Description": "Defeat Amascut, the Devourer in enrage mode without allowing Tumeken to be damaged during phase 5.",
+				"Monsters": ["Amascut, the Devourer"],
+				"BaseQuest": "Combat Mastery achievements",
+				"Not F2P": true,
+				"CombatScore": 4
+			},
 			"~|Combat Mastery achievements#Elite|~ A Quest for Understanding": {
 				"Category": ["Combat Mastery achievements"],
 				"Description": "Defeat Astellarn while at least two pulsars are still active.",
@@ -119699,6 +119822,14 @@
 				"Category": ["Combat Mastery achievements", "Speed Killer Achievements"],
 				"Description": "Defeat the Sanctum Guardian solo in less than 01:30.",
 				"Monsters": ["The Sanctum Guardian"],
+				"BaseQuest": "Combat Mastery achievements",
+				"Not F2P": true,
+				"CombatScore": 4
+			},
+			"~|Combat Mastery achievements#Elite|~ Scabaras Would Be Proud": {
+				"Category": ["Combat Mastery achievements", "Hard Mode Bosses"],
+				"Description": "Defeat Amascut, the Devourer in enrage mode without stopping any Scarabs from spawning.",
+				"Monsters": ["Amascut, the Devourer"],
 				"BaseQuest": "Combat Mastery achievements",
 				"Not F2P": true,
 				"CombatScore": 4
@@ -119783,18 +119914,26 @@
 				"Not F2P": true,
 				"CombatScore": 4
 			},
-			"~|Combat Mastery achievements#Elite|~ Stuffed with Anima": {
-				"Category": ["Combat Mastery achievements"],
-				"Description": "Defeat Telos, the Warden at 100% or higher enrage after letting him reach a full anima bar in all 5 phases.",
-				"Monsters": ["Telos, the Warden"],
-				"BaseQuest": "Combat Mastery achievements",
-				"Not F2P": true,
-				"CombatScore": 4
-			},
 			"~|Combat Mastery achievements#Elite|~ Splittin' Souls and Smashin' Skulls II": {
 				"Category": ["Combat Mastery achievements"],
 				"Description": "Defeat Nakatra, Devourer Eternal in hard mode 10 times.",
 				"Monsters": ["Nakatra, Devourer Eternal"],
+				"BaseQuest": "Combat Mastery achievements",
+				"Not F2P": true,
+				"CombatScore": 4
+			},
+			"~|Combat Mastery achievements#Elite|~ Step aside, Scarab": {
+				"Category": ["Combat Mastery achievements", "Hard Mode Bosses"],
+				"Description": "Defeat Amascut, the Devourer in enrage mode without anyone taking damage form Volatile scarab akh and Exploding scarab akh.",
+				"Monsters": ["Amascut, the Devourer"],
+				"BaseQuest": "Combat Mastery achievements",
+				"Not F2P": true,
+				"CombatScore": 4
+			},
+			"~|Combat Mastery achievements#Elite|~ Stuffed with Anima": {
+				"Category": ["Combat Mastery achievements"],
+				"Description": "Defeat Telos, the Warden at 100% or higher enrage after letting him reach a full anima bar in all 5 phases.",
+				"Monsters": ["Telos, the Warden"],
 				"BaseQuest": "Combat Mastery achievements",
 				"Not F2P": true,
 				"CombatScore": 4
@@ -120095,6 +120234,14 @@
 				"Not F2P": true,
 				"CombatScore": 4
 			},
+			"~|Combat Mastery achievements#Elite|~ You Cat To Be Kitten Me Right Meow III": {
+				"Category": ["Combat Mastery achievements"],
+				"Description": "Defeat Amascut, the Devourer 25 times.",
+				"Monsters": ["Amascut, the Devourer"],
+				"BaseQuest": "Combat Mastery achievements",
+				"Not F2P": true,
+				"CombatScore": 4
+			},
 			"~|Combat Mastery achievements#Elite|~ You're Not Strong Enough": {
 				"Category": ["Combat Mastery achievements"],
 				"Description": "Defeat Nex, Angel of Death in a team of 7 or fewer without letting any Praesul mages gather their full strength.",
@@ -120164,7 +120311,31 @@
 				"BaseQuest": "Combat Mastery achievements",
 				"Not F2P": true,
 				"ManualShow": true,
-				"CombatScoreNeeded": 1342
+				"CombatScoreNeeded": 1394
+			},
+			"~|Combat Mastery achievements#Master|~ All Together, Now!": {
+				"Category": ["Combat Mastery achievements", "Hard Mode Bosses", "Combat Master+"],
+				"Description": "Defeat Amascut, the Devourer at 1000% or higher enrage while every player is hit by each 'Crushing Soul' attack.",
+				"Monsters": ["Amascut, the Devourer"],
+				"BaseQuest": "Combat Mastery achievements",
+				"Not F2P": true,
+				"CombatScore": 5
+			},
+			"~|Combat Mastery achievements#Master|~ Amascut, the Devourer (EM) (trio)": {
+				"Category": ["Combat Mastery achievements", "Hard Mode Bosses", "Combat Master+"],
+				"Description": "Defeat Amascut, the Devourer at 1000% or higher enrage in a team size of three or fewer.",
+				"Monsters": ["Amascut, the Devourer"],
+				"BaseQuest": "Combat Mastery achievements",
+				"Not F2P": true,
+				"CombatScore": 5
+			},
+			"~|Combat Mastery achievements#Master|~ Amascut, the Devourer (EM) Master Speed Killer": {
+				"Category": ["Combat Mastery achievements", "Hard Mode Bosses", "Speed Killer Achievements", "Combat Master+"],
+				"Description": "Defeat Amascut, the Devourer at 1000% or higher enrage in less than 07:51.",
+				"Monsters": ["Amascut, the Devourer"],
+				"BaseQuest": "Combat Mastery achievements",
+				"Not F2P": true,
+				"CombatScore": 5
 			},
 			"~|Combat Mastery achievements#Master|~ The Ambassador Master Speed Killer": {
 				"Category": ["Combat Mastery achievements", "Speed Killer Achievements", "Combat Master+"],
@@ -120286,6 +120457,14 @@
 				"Not F2P": true,
 				"CombatScore": 5
 			},
+			"~|Combat Mastery achievements#Master|~ Can't Stop Me Meow IV": {
+				"Category": ["Combat Mastery achievements", "Hard Mode Bosses", "Combat Master+"],
+				"Description": "Defeat Amascut, the Devourer at 2000% or enrage.",
+				"Monsters": ["Amascut, the Devourer"],
+				"BaseQuest": "Combat Mastery achievements",
+				"Not F2P": true,
+				"CombatScore": 5
+			},
 			"~|Combat Mastery achievements#Master|~ Champion of the Goebies": {
 				"Category": ["Combat Mastery achievements", "Combat Master+"],
 				"Description": "Complete the Liberation of Mazcab raid in a single run without anyone dying, leaving or banking while completing the listed achievements.",
@@ -120334,6 +120513,14 @@
 				"Category": ["Combat Mastery achievements", "Combat Master+"],
 				"Description": "Defeat Solak, Guardian of the Grove after defeating his Blight afflicted core in a single exposure.",
 				"Monsters": ["Solak, Guardian of the Grove"],
+				"BaseQuest": "Combat Mastery achievements",
+				"Not F2P": true,
+				"CombatScore": 5
+			},
+			"~|Combat Mastery achievements#Master|~ Dedicated Denial of Standing (here)": {
+				"Category": ["Combat Mastery achievements", "Hard Mode Bosses", "Combat Master+"],
+				"Description": "Defeat Amascut, the Devourer at 1000% or higher enrage without anyone being hit by her 'Empowered Soulfire', 'Devourer's Shockwave' and 'Devourer's Hieroglyphs' attacks.",
+				"Monsters": ["Amascut, the Devourer"],
 				"BaseQuest": "Combat Mastery achievements",
 				"Not F2P": true,
 				"CombatScore": 5
@@ -120650,6 +120837,14 @@
 				"Not F2P": true,
 				"CombatScore": 5
 			},
+			"~|Combat Mastery achievements#Master|~ In the Nick of Time": {
+				"Category": ["Combat Mastery achievements", "Hard Mode Bosses", "Combat Master+"],
+				"Description": "Defeat Amascut, the Devourer at 1000% or higher enrage after depositing each of Tumeken's fragments when Amascut has less than 3 seconds until she uses her 'Devourer's Destruction' attack.",
+				"Monsters": ["Amascut, the Devourer"],
+				"BaseQuest": "Combat Mastery achievements",
+				"Not F2P": true,
+				"CombatScore": 5
+			},
 			"~|Combat Mastery achievements#Master|~ I said E, not E!": {
 				"Category": ["Combat Mastery achievements", "Combat Master+"],
 				"Description": "Defeat Zamorak, Lord of Chaos at 750% or higher enrage after killing the incorrect rune in phase 7 without anyone dying.",
@@ -120742,6 +120937,22 @@
 				"Category": ["Combat Mastery achievements", "Speed Killer Achievements", "Combat Master+"],
 				"Description": "Defeat Telos, the Warden in less than 03:15.",
 				"Monsters": ["Telos, the Warden"],
+				"BaseQuest": "Combat Mastery achievements",
+				"Not F2P": true,
+				"CombatScore": 5
+			},
+			"~|Combat Mastery achievements#Master|~ There Cannot Be Light Without Shadows": {
+				"Category": ["Combat Mastery achievements", "Hard Mode Bosses", "Combat Master+"],
+				"Description": "Defeat Amascut, the Devourer at 1000% or higher enrage without damaging the Engulfing Shadow during phase 6.",
+				"Monsters": ["Amascut, the Devourer"],
+				"BaseQuest": "Combat Mastery achievements",
+				"Not F2P": true,
+				"CombatScore": 5
+			},
+			"~|Combat Mastery achievements#Master|~ This Might Be a Catastrophe": {
+				"Category": ["Combat Mastery achievements", "Hard Mode Bosses", "Combat Master+"],
+				"Description": "Defeat Amascut, the Devourer at 1000% or higher enrage after allowing her to enter phase 7 with 75% of her lifepoints remaining.",
+				"Monsters": ["Amascut, the Devourer"],
 				"BaseQuest": "Combat Mastery achievements",
 				"Not F2P": true,
 				"CombatScore": 5
@@ -120850,6 +121061,14 @@
 				"Not F2P": true,
 				"CombatScore": 5
 			},
+			"~|Combat Mastery achievements#Master|~ What Do You Mean I Could Make Multiple Trips?": {
+				"Category": ["Combat Mastery achievements", "Hard Mode Bosses", "Combat Master+"],
+				"Description": "Defeat Amascut, the Devourer at 1000% or higher enrage after charging all 4 Fragments of Tumeken at once in phase 5.",
+				"Monsters": ["Amascut, the Devourer"],
+				"BaseQuest": "Combat Mastery achievements",
+				"Not F2P": true,
+				"CombatScore": 5
+			},
 			"~|Combat Mastery achievements#Master|~ Working With Myself": {
 				"Category": ["Combat Mastery achievements", "Combat Master+"],
 				"Description": "Defeat Kerapac, the bound in har mode, solo without letting any of your echoes die.",
@@ -120862,6 +121081,14 @@
 				"Category": ["Combat Mastery achievements", "Speed Killer Achievements", "Combat Master+"],
 				"Description": "Defeat Yakamaru in less than 03:00.",
 				"Monsters": ["Yakamaru"],
+				"BaseQuest": "Combat Mastery achievements",
+				"Not F2P": true,
+				"CombatScore": 5
+			},
+			"~|Combat Mastery achievements#Master|~ You Shall Not Heal": {
+				"Category": ["Combat Mastery achievements", "Hard Mode Bosses", "Combat Master+"],
+				"Description": "Defeat Amascut, the Devourer at 1000% or higher enrage without allowing her to heal through 'Healing in Strength'.",
+				"Monsters": ["Amascut, the Devourer"],
 				"BaseQuest": "Combat Mastery achievements",
 				"Not F2P": true,
 				"CombatScore": 5
@@ -120897,6 +121124,46 @@
 				"BaseQuest": "Combat Mastery achievements",
 				"Not F2P": true,
 				"CombatScore": 5
+			},
+			"~|Combat Mastery achievements#Grandmaster|~ Amascut, the Devourer (EM) Grandmaster Speed Killer": {
+				"Category": ["Combat Mastery achievements", "Hard Mode Bosses", "Speed Killer Achievements", "Combat Master+"],
+				"Description": "Defeat Amascut, the Devourer at 2000% enrage ",
+				"Monsters": ["Amascut, the Devourer"],
+				"BaseQuest": "Combat Mastery achievements",
+				"Not F2P": true,
+				"CombatScore": 6
+			},
+			"~|Combat Mastery achievements#Grandmaster|~ Amascut, the Devourer (perfect)": {
+				"Category": ["Combat Mastery achievements", "Hard Mode Bosses", "Combat Master+"],
+				"Description": "Defeat Amascut, the Devourer at 2000% enrage while dealing with all of her attacks properly.",
+				"Monsters": ["Amascut, the Devourer"],
+				"Tasks": {
+					"~|Combat Mastery achievements#Elite|~ Step aside, Scarab": "Diary",
+					"~|Combat Mastery achievements#Elite|~ Akh Away Quickly": "Diary",
+					"~|Combat Mastery achievements#Elite|~ Protector of the Sun God": "Diary",
+					"~|Combat Mastery achievements#Elite|~ No More Tears": "Diary",
+					"~|Combat Mastery achievements#Elite|~ Menaphiting My Way Through This": "Diary",
+					"~|Combat Mastery achievements#Master|~ Dedicated Denial of Standing (here)": "Diary",
+					"~|Combat Mastery achievements#Master|~ What Do You Mean I Could Make Multiple Trips?": "Diary"
+				},
+				"BaseQuest": "Combat Mastery achievements",
+				"Not F2P": true,
+				"CombatScore": 6
+			},
+			"~|Combat Mastery achievements#Grandmaster|~ Amascut, the Devourer (unorthodox)": {
+				"Category": ["Combat Mastery achievements", "Hard Mode Bosses", "Combat Master+"],
+				"Description": "Defeat Amascut, the Devourer at 2000% enrage while dealing with all of her attacks in an unorthodox way.",
+				"Monsters": ["Amascut, the Devourer"],
+				"Tasks": {
+					"~|Combat Mastery achievements#Elite|~ Scarabas Would Be Proud": "Diary",
+					"~|Combat Mastery achievements#Elite|~ In a While, Crocodile": "Diary",
+					"~|Combat Mastery achievements#Master|~ In the Nick of Time": "Diary",
+					"~|Combat Mastery achievements#Master|~ There Cannot Be Light Without Shadows": "Diary",
+					"~|Combat Mastery achievements#Master|~ This Might Be a Catastrophe": "Diary"
+				},
+				"BaseQuest": "Combat Mastery achievements",
+				"Not F2P": true,
+				"CombatScore": 6
 			},
 			"~|Combat Mastery achievements#Grandmaster|~ The Ambassador Grandmaster Speed Killer": {
 				"Category": ["Combat Mastery achievements", "Speed Killer Achievements", "Combat Master+"],
@@ -120942,6 +121209,14 @@
 				"Category": ["Combat Mastery achievements", "Speed Killer Achievements", "Combat Master+"],
 				"Description": "Defeat the Black Stone Dragon solo in less than 01:45.",
 				"Monsters": ["Black Stone Dragon"],
+				"BaseQuest": "Combat Mastery achievements",
+				"Not F2P": true,
+				"CombatScore": 6
+			},
+			"~|Combat Mastery achievements#Grandmaster|~ Can't Stop Me Meow V": {
+				"Category": ["Combat Mastery achievements", "Hard Mode Bosses", "Combat Master+"],
+				"Description": "Defeat Amascut, the Devourer at 4000% enrage.",
+				"Monsters": ["Amascut, the Devourer"],
 				"BaseQuest": "Combat Mastery achievements",
 				"Not F2P": true,
 				"CombatScore": 6
@@ -121058,7 +121333,7 @@
 				"Not F2P": true,
 				"CombatScore": 6
 			},
-			"~|Combat Mastery achievements#Grandmaster|~ Raksha Mechanical (unorthodox)": {
+			"~|Combat Mastery achievements#Grandmaster|~ Raksha, the Shadow Colossus (unorthodox)": {
 				"Category": ["Combat Mastery achievements", "Combat Master+"],
 				"Description": "Defeat Raksha, the Shadow Colossus, solo while dealing with all his special attacks in an unorthodox way.",
 				"Monsters": ["Raksha, the Shadow Colossus"],
@@ -121266,7 +121541,7 @@
 				},
 				"Not F2P": true
 			},
-			"~|Completionist achievements#Master Quest Cape|~ A Mini Shopment": {
+			"~|Completionist achievements#Master Quest Cape|~ A Mini Shipment": {
 				"Category": ["MQC achievements"],
 				"Description": "Loot the trunk in the Temple of Aminishi.",
 				"BaseQuest": "Completionist achievements",
@@ -122520,7 +122795,7 @@
 				"Not F2P": true
 			},
 			"~|Completionist achievements#Master Quest Cape|~ Friend of the Imcando": {
-				"Category": ["MQC achievements"],
+				"Category": ["MQC achievements", "Timegated"],
 				"Description": "Engage in all of Thalmund's conversations.",
 				"BaseQuest": "Completionist achievements",
 				"Chunks": ["City of Um"],
@@ -126764,7 +127039,7 @@
 				"Category": ["Comp achievements", "Trim achievements"],
 				"Description": "Personally defeat Vorago with the Maul of Omens.",
 				"BaseQuest": "Completionist achievements",
-				"Monsters": ["Vorago"],
+				"Monsters": ["Borehole"],
 				"Not F2P": true
 			},
 			"~|Completionist achievements#Trimmed Completionist Cape|~ Finished unpacking!": {
@@ -127207,8 +127482,11 @@
 				"Category": ["Comp achievements", "Trim achievements"],
 				"Description": "Defeat all bosses at least once.",
 				"BaseQuest": "Completionist achievements",
+				"Chunks": ["7729-1", "12586", "14131", "Borehole", "Sanctum of Rebirth", "Zamorakian Undercity", "Temple of Aminishi", "The Shadow Reef", "Dragonkin Laboratory", "Exhiled Kalphite Hive", "Elder God Wars Dungeon", "Ancient Prison", "Mazcab"],
+				"Tasks": {
+					"~|Eclipse of the Heart|~ Complete the quest": "Quest"
+				},
 				"Monsters": [
-					"Amascut, the Devourer",
 					"Giant mole",
 					"Chaos Elemental",
 					"King Black Dragon",
@@ -127224,45 +127502,23 @@
 					"Araxxi",
 					"Legio Primus",
 					"Raksha, the Shadow Colossus",
-					"Barrows: Rise of the Six",
 					"Zemouregal & Vorkath",
 					"The Gate of Elidinis",
-					"Solak, Guardian of the Grove",
-					"Vorago",
-					"Kalphite King",
 					"Kalphite Queen",
 					"Hermod, the Spirit of War",
 					"Rasial, the First Necromancer",
-					"The Sanctum Guardian",
-					"Masuta the Ascended",
-					"Seiryu the Azure Serpent",
-					"Astellarn",
-					"Verak Lith",
-					"Black Stone Dragon",
-					"Crassian Leviathan",
-					"Taraket the Necromancer",
-					"The Ambassador",
 					"Kree'arra",
 					"K'ril Tsutsaroth",
 					"General Graardor",
 					"Commander Zilyana",
-					"Nex",
-					"Nex: Angel of Death",
 					"Helwyr",
 					"Gregorovic",
 					"Twin Furies",
 					"Vindicta",
 					"Telos, the Warden",
 					"Arch-Glacor",
-					"Croesus",
 					"Kerapac, the bound",
-					"TzKal-Zuk",
-					"Zamorak, Lord of Chaos",
-					"Vermyx, Brood Mother",
-					"Kezalam, the Wanderer",
-					"Nakatra, Devourer Eternal",
-					"Beastmaster Durzag",
-					"Yakamaru"
+					"TzKal-Zuk"
 				],
 				"Not F2P": true
 			},
@@ -129480,6 +129736,9 @@
 				"Label": "Unlockable Abilities",
 				"Skills": {
 					"Necromancy": 73
+				},
+				"Tasks": {
+					"~|Tomes of the Warlock|~ Complete the quest": "Quest"
 				},
 				"Chunks": ["City of Um"],
 				"NoBoost": true
@@ -135431,6 +135690,11 @@
 				"Label": "Untracked Skilling Uniques",
 				"Items": ["Hope Nibbler"]
 			},
+			"(Dungeoneering) Obtain the ~|Retro Primal Armour Set|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Skilling"],
+				"Label": "Untracked Skilling Uniques",
+				"Items": ["Retro primal armour set"]
+			},
 			"(Champion Scrolls) Obtain the ~|imp champion's scroll|~": {
 				"Category": ["Untracked Uniques", "Untracked Uniques Combat"],
 				"Label": "Untracked Combat Uniques",
@@ -137519,7 +137783,20 @@
 					"~|Combat Mastery achievements#Elite|~ Zamorak Elite Speed Killer": "Diary",
 					"~|Combat Mastery achievements#Elite|~ Zamo-whacked III": "Diary",
 					"~|Combat Mastery achievements#Elite|~ Zemouregal & Vorkath Elite Speed Killer": "Diary",
-					"~|Combat Mastery achievements#Elite|~ Zemouregal & Vorkath (HM) Elite Speed Killer": "Diary"
+					"~|Combat Mastery achievements#Elite|~ Zemouregal & Vorkath (HM) Elite Speed Killer": "Diary",
+					"~|Combat Mastery achievements#Elite|~ Akh Away Quickly": "Diary",
+					"~|Combat Mastery achievements#Elite|~ Amascut, the Devourer (EM) Elite Speed Killer": "Diary",
+					"~|Combat Mastery achievements#Elite|~ Can't Stop Me Meow I": "Diary",
+					"~|Combat Mastery achievements#Elite|~ Four Times the Fun": "Diary",
+					"~|Combat Mastery achievements#Elite|~ I'm Feline It II": "Diary",
+					"~|Combat Mastery achievements#Elite|~ In a While, Crocodile": "Diary",
+					"~|Combat Mastery achievements#Elite|~ Menaphiting My Way Through This": "Diary",
+					"~|Combat Mastery achievements#Elite|~ Missing Mandibles": "Diary",
+					"~|Combat Mastery achievements#Elite|~ No More Tears": "Diary",
+					"~|Combat Mastery achievements#Elite|~ Protector of the Sun God": "Diary",
+					"~|Combat Mastery achievements#Elite|~ Scabaras Would Be Proud": "Diary",
+					"~|Combat Mastery achievements#Elite|~ Step aside, Scarab": "Diary",
+					"~|Combat Mastery achievements#Elite|~ You Cat To Be Kitten Me Right Meow III": "Diary"
 				},
 				"Not F2P": true
 			},
@@ -137616,7 +137893,17 @@
 					"~|Combat Mastery achievements#Master|~ Zamorak Master Speed Killer": "Diary",
 					"~|Combat Mastery achievements#Master|~ You're coming home with me": "Diary",
 					"~|Combat Mastery achievements#Master|~ You. Shall. Not. Shield.": "Diary",
-					"~|Combat Mastery achievements#Master|~ Zemouregal & Vorkath (HM) Master Speed Killer": "Diary"
+					"~|Combat Mastery achievements#Master|~ Zemouregal & Vorkath (HM) Master Speed Killer": "Diary",
+					"~|Combat Mastery achievements#Master|~ All Together, Now!": "Diary",
+					"~|Combat Mastery achievements#Master|~ Amascut, the Devourer (EM) (trio)": "Diary",
+					"~|Combat Mastery achievements#Master|~ Amascut, the Devourer (EM) Master Speed Killer": "Diary",
+					"~|Combat Mastery achievements#Master|~ Can't Stop Me Meow IV": "Diary",
+					"~|Combat Mastery achievements#Master|~ Dedicated Denial of Standing (here)": "Diary",
+					"~|Combat Mastery achievements#Master|~ In the Nick of Time": "Diary",
+					"~|Combat Mastery achievements#Master|~ There Cannot Be Light Without Shadows": "Diary",
+					"~|Combat Mastery achievements#Master|~ This Might Be a Catastrophe": "Diary",
+					"~|Combat Mastery achievements#Master|~ What Do You Mean I Could Make Multiple Trips?": "Diary",
+					"~|Combat Mastery achievements#Master|~ You Shall Not Heal": "Diary"
 				},
 				"Not F2P": true
 			},
@@ -137630,6 +137917,7 @@
 					"~|Combat Mastery achievements#Grandmaster|~ Beastmaster Durzag Grandmaster Speed Killer": "Diary",
 					"~|Combat Mastery achievements#Grandmaster|~ Beastmaster Durzag (solo)": "Diary",
 					"~|Combat Mastery achievements#Grandmaster|~ Black Stone Dragon Grandmaster Speed Killer": "Diary",
+					"~|Combat Mastery achievements#Grandmaster|~ Can't Stop Me Meow V": "Diary",
 					"~|Combat Mastery achievements#Grandmaster|~ Can't touch this III": "Diary",
 					"~|Combat Mastery achievements#Grandmaster|~ Chill To The Bone II": "Diary",
 					"~|Combat Mastery achievements#Grandmaster|~ Kerapac (HM) Grandmaster Speed Killer": "Diary",
@@ -137644,7 +137932,7 @@
 					"~|Combat Mastery achievements#Grandmaster|~ Nex, Angel of Death (solo)": "Diary",
 					"~|Combat Mastery achievements#Grandmaster|~ Raksha Grandmaster Speed Killer": "Diary",
 					"~|Combat Mastery achievements#Grandmaster|~ Raksha, the Shadow Colossus (perfect)": "Diary",
-					"~|Combat Mastery achievements#Grandmaster|~ Raksha Mechanical (unorthodox)": "Diary",
+					"~|Combat Mastery achievements#Grandmaster|~ Raksha, the Shadow Colossus (unorthodox)": "Diary",
 					"~|Combat Mastery achievements#Grandmaster|~ Reclaiming their Anima": "Diary",
 					"~|Combat Mastery achievements#Grandmaster|~ Sanctum of Rebirth (perfect)": "Diary",
 					"~|Combat Mastery achievements#Grandmaster|~ Seiryu Grandmaster Speed Killer": "Diary",
@@ -137667,7 +137955,10 @@
 					"~|Combat Mastery achievements#Grandmaster|~ Zamehameha": "Diary",
 					"~|Combat Mastery achievements#Grandmaster|~ Zamorak Grandmaster Speed Killer": "Diary",
 					"~|Combat Mastery achievements#Grandmaster|~ Zamorak, Lord of Chaos (unorthodox)": "Diary",
-					"~|Combat Mastery achievements#Grandmaster|~ Zemouregal & Vorkath (HM) Grandmaster Speed Killer": "Diary"
+					"~|Combat Mastery achievements#Grandmaster|~ Zemouregal & Vorkath (HM) Grandmaster Speed Killer": "Diary",
+					"~|Combat Mastery achievements#Grandmaster|~ Amascut, the Devourer (EM) Grandmaster Speed Killer": "Diary",
+					"~|Combat Mastery achievements#Grandmaster|~ Amascut, the Devourer (perfect)": "Diary",
+					"~|Combat Mastery achievements#Grandmaster|~ Amascut, the Devourer (unorthodox)": "Diary"
 				},
 				"Not F2P": true
 			},
@@ -137739,252 +138030,252 @@
 			"(Artisans' Workshop) Obtain any ~|iron ceremonial sword|~": {
 				"Category": ["Untracked Uniques", "Untracked Uniques Minigames"],
 				"Label": "Untracked Minigame Uniques",
-				"Items": ["Ceremonial sword", "Steel bar"]
+				"Items": ["Ceremonial sword", "SteelOrMithril[+]"]
 			},
 			"(Artisans' Workshop) Obtain any ~|off-hand iron ceremonial sword|~": {
 				"Category": ["Untracked Uniques", "Untracked Uniques Minigames"],
 				"Label": "Untracked Minigame Uniques",
-				"Items": ["Ceremonial sword", "Steel bar"]
+				"Items": ["Ceremonial sword", "SteelOrMithril[+]"]
 			},
 			"(Artisans' Workshop) Obtain any ~|steel ceremonial sword|~": {
 				"Category": ["Untracked Uniques", "Untracked Uniques Minigames"],
 				"Label": "Untracked Minigame Uniques",
-				"Items": ["Ceremonial sword"]
+				"Items": ["Ceremonial sword", "AdamantOrRune[+]"]
 			},
 			"(Artisans' Workshop) Obtain any ~|off-hand steel ceremonial sword|~": {
 				"Category": ["Untracked Uniques", "Untracked Uniques Minigames"],
 				"Label": "Untracked Minigame Uniques",
-				"Items": ["Ceremonial sword"]
+				"Items": ["Ceremonial sword", "AdamantOrRune[+]"]
 			},
 			"(Artisans' Workshop) Obtain any ~|mithril ceremonial sword|~": {
 				"Category": ["Untracked Uniques", "Untracked Uniques Minigames"],
 				"Label": "Untracked Minigame Uniques",
-				"Items": ["Ceremonial sword"]
+				"Items": ["Ceremonial sword", "OrikalkumOrNecronium[+]"]
 			},
 			"(Artisans' Workshop) Obtain any ~|off-hand mithril ceremonial sword|~": {
 				"Category": ["Untracked Uniques", "Untracked Uniques Minigames"],
 				"Label": "Untracked Minigame Uniques",
-				"Items": ["Ceremonial sword"]
+				"Items": ["Ceremonial sword", "OrikalkumOrNecronium[+]"]
 			},
 			"(Artisans' Workshop) Obtain any ~|adamant ceremonial sword|~": {
 				"Category": ["Untracked Uniques", "Untracked Uniques Minigames"],
 				"Label": "Untracked Minigame Uniques",
-				"Items": ["Ceremonial sword"]
+				"Items": ["Ceremonial sword", "Bane bar"]
 			},
 			"(Artisans' Workshop) Obtain any ~|off-hand adamant ceremonial sword|~": {
 				"Category": ["Untracked Uniques", "Untracked Uniques Minigames"],
 				"Label": "Untracked Minigame Uniques",
-				"Items": ["Ceremonial sword"]
+				"Items": ["Ceremonial sword", "Bane bar"]
 			},
 			"(Artisans' Workshop) Obtain any ~|rune ceremonial sword|~": {
 				"Category": ["Untracked Uniques", "Untracked Uniques Minigames"],
 				"Label": "Untracked Minigame Uniques",
-				"Items": ["Ceremonial sword"]
+				"Items": ["Ceremonial sword", "Elder rune bar"]
 			},
 			"(Artisans' Workshop) Obtain any ~|off-hand rune ceremonial sword|~": {
 				"Category": ["Untracked Uniques", "Untracked Uniques Minigames"],
 				"Label": "Untracked Minigame Uniques",
-				"Items": ["Ceremonial sword"]
+				"Items": ["Ceremonial sword", "Elder rune bar"]
 			},
 			"Obtain an ~|iron ceremonial sword I|~": {
 				"Category": ["Ceremonial Swords"],
 				"Label": "All Ceremonial Swords",
-				"Items": ["Ceremonial sword"]
+				"Items": ["Ceremonial sword", "SteelOrMithril[+]"]
 			},
 			"Obtain an ~|off-hand iron ceremonial sword I|~": {
 				"Category": ["Ceremonial Swords"],
 				"Label": "All Ceremonial Swords",
-				"Items": ["Ceremonial sword"]
+				"Items": ["Ceremonial sword", "SteelOrMithril[+]"]
 			},
 			"Obtain an ~|iron ceremonial sword II|~": {
 				"Category": ["Ceremonial Swords"],
 				"Label": "All Ceremonial Swords",
-				"Items": ["Ceremonial sword"]
+				"Items": ["Ceremonial sword", "SteelOrMithril[+]"]
 			},
 			"Obtain an ~|off-hand iron ceremonial sword II|~": {
 				"Category": ["Ceremonial Swords"],
 				"Label": "All Ceremonial Swords",
-				"Items": ["Ceremonial sword"]
+				"Items": ["Ceremonial sword", "SteelOrMithril[+]"]
 			},
 			"Obtain an ~|iron ceremonial sword III|~": {
 				"Category": ["Ceremonial Swords"],
 				"Label": "All Ceremonial Swords",
-				"Items": ["Ceremonial sword"]
+				"Items": ["Ceremonial sword", "SteelOrMithril[+]"]
 			},
 			"Obtain an ~|off-hand iron ceremonial sword III|~": {
 				"Category": ["Ceremonial Swords"],
 				"Label": "All Ceremonial Swords",
-				"Items": ["Ceremonial sword"]
+				"Items": ["Ceremonial sword", "SteelOrMithril[+]"]
 			},
 			"Obtain an ~|iron ceremonial sword IV|~": {
 				"Category": ["Ceremonial Swords"],
 				"Label": "All Ceremonial Swords",
-				"Items": ["Ceremonial sword"]
+				"Items": ["Ceremonial sword", "SteelOrMithril[+]"]
 			},
 			"Obtain an ~|off-hand iron ceremonial sword IV|~": {
 				"Category": ["Ceremonial Swords"],
 				"Label": "All Ceremonial Swords",
-				"Items": ["Ceremonial sword"]
+				"Items": ["Ceremonial sword", "SteelOrMithril[+]"]
 			},
 			"Obtain an ~|iron ceremonial sword V|~": {
 				"Category": ["Ceremonial Swords"],
 				"Label": "All Ceremonial Swords",
-				"Items": ["Ceremonial sword"]
+				"Items": ["Ceremonial sword", "SteelOrMithril[+]"]
 			},
 			"Obtain an ~|off-hand iron ceremonial sword V|~": {
 				"Category": ["Ceremonial Swords"],
 				"Label": "All Ceremonial Swords",
-				"Items": ["Ceremonial sword"]
+				"Items": ["Ceremonial sword", "SteelOrMithril[+]"]
 			},
 			"Obtain an ~|steel ceremonial sword I|~": {
 				"Category": ["Ceremonial Swords"],
 				"Label": "All Ceremonial Swords",
-				"Items": ["Ceremonial sword"]
+				"Items": ["Ceremonial sword", "AdamantOrRune[+]"]
 			},
 			"Obtain an ~|off-hand steel ceremonial sword I|~": {
 				"Category": ["Ceremonial Swords"],
 				"Label": "All Ceremonial Swords",
-				"Items": ["Ceremonial sword"]
+				"Items": ["Ceremonial sword", "AdamantOrRune[+]"]
 			},
 			"Obtain an ~|steel ceremonial sword II|~": {
 				"Category": ["Ceremonial Swords"],
 				"Label": "All Ceremonial Swords",
-				"Items": ["Ceremonial sword"]
+				"Items": ["Ceremonial sword", "AdamantOrRune[+]"]
 			},
 			"Obtain an ~|off-hand steel ceremonial sword II|~": {
 				"Category": ["Ceremonial Swords"],
 				"Label": "All Ceremonial Swords",
-				"Items": ["Ceremonial sword"]
+				"Items": ["Ceremonial sword", "AdamantOrRune[+]"]
 			},
 			"Obtain an ~|steel ceremonial sword III|~": {
 				"Category": ["Ceremonial Swords"],
 				"Label": "All Ceremonial Swords",
-				"Items": ["Ceremonial sword"]
+				"Items": ["Ceremonial sword", "AdamantOrRune[+]"]
 			},
 			"Obtain an ~|off-hand steel ceremonial sword III|~": {
 				"Category": ["Ceremonial Swords"],
 				"Label": "All Ceremonial Swords",
-				"Items": ["Ceremonial sword"]
+				"Items": ["Ceremonial sword", "AdamantOrRune[+]"]
 			},
 			"Obtain an ~|steel ceremonial sword IV|~": {
 				"Category": ["Ceremonial Swords"],
 				"Label": "All Ceremonial Swords",
-				"Items": ["Ceremonial sword"]
+				"Items": ["Ceremonial sword", "AdamantOrRune[+]"]
 			},
 			"Obtain an ~|off-hand steel ceremonial sword IV|~": {
 				"Category": ["Ceremonial Swords"],
 				"Label": "All Ceremonial Swords",
-				"Items": ["Ceremonial sword"]
+				"Items": ["Ceremonial sword", "AdamantOrRune[+]"]
 			},
 			"Obtain an ~|steel ceremonial sword V|~": {
 				"Category": ["Ceremonial Swords"],
 				"Label": "All Ceremonial Swords",
-				"Items": ["Ceremonial sword"]
+				"Items": ["Ceremonial sword", "AdamantOrRune[+]"]
 			},
 			"Obtain an ~|off-hand steel ceremonial sword V|~": {
 				"Category": ["Ceremonial Swords"],
 				"Label": "All Ceremonial Swords",
-				"Items": ["Ceremonial sword"]
+				"Items": ["Ceremonial sword", "AdamantOrRune[+]"]
 			},
 			"Obtain an ~|mithril ceremonial sword I|~": {
 				"Category": ["Ceremonial Swords"],
 				"Label": "All Ceremonial Swords",
-				"Items": ["Ceremonial sword"]
+				"Items": ["Ceremonial sword", "OrikalkumOrNecronium[+]"]
 			},
 			"Obtain an ~|off-hand mithril ceremonial sword I|~": {
 				"Category": ["Ceremonial Swords"],
 				"Label": "All Ceremonial Swords",
-				"Items": ["Ceremonial sword"]
+				"Items": ["Ceremonial sword", "OrikalkumOrNecronium[+]"]
 			},
 			"Obtain an ~|mithril ceremonial sword II|~": {
 				"Category": ["Ceremonial Swords"],
 				"Label": "All Ceremonial Swords",
-				"Items": ["Ceremonial sword"]
+				"Items": ["Ceremonial sword", "OrikalkumOrNecronium[+]"]
 			},
 			"Obtain an ~|off-hand mithril ceremonial sword II|~": {
 				"Category": ["Ceremonial Swords"],
 				"Label": "All Ceremonial Swords",
-				"Items": ["Ceremonial sword"]
+				"Items": ["Ceremonial sword", "OrikalkumOrNecronium[+]"]
 			},
 			"Obtain an ~|mithril ceremonial sword III|~": {
 				"Category": ["Ceremonial Swords"],
 				"Label": "All Ceremonial Swords",
-				"Items": ["Ceremonial sword"]
+				"Items": ["Ceremonial sword", "OrikalkumOrNecronium[+]"]
 			},
 			"Obtain an ~|off-hand mithril ceremonial sword III|~": {
 				"Category": ["Ceremonial Swords"],
 				"Label": "All Ceremonial Swords",
-				"Items": ["Ceremonial sword"]
+				"Items": ["Ceremonial sword", "OrikalkumOrNecronium[+]"]
 			},
 			"Obtain an ~|mithril ceremonial sword IV|~": {
 				"Category": ["Ceremonial Swords"],
 				"Label": "All Ceremonial Swords",
-				"Items": ["Ceremonial sword"]
+				"Items": ["Ceremonial sword", "OrikalkumOrNecronium[+]"]
 			},
 			"Obtain an ~|off-hand mithril ceremonial sword IV|~": {
 				"Category": ["Ceremonial Swords"],
 				"Label": "All Ceremonial Swords",
-				"Items": ["Ceremonial sword"]
+				"Items": ["Ceremonial sword", "OrikalkumOrNecronium[+]"]
 			},
 			"Obtain an ~|mithril ceremonial sword V|~": {
 				"Category": ["Ceremonial Swords"],
 				"Label": "All Ceremonial Swords",
-				"Items": ["Ceremonial sword"]
+				"Items": ["Ceremonial sword", "OrikalkumOrNecronium[+]"]
 			},
 			"Obtain an ~|off-hand mithril ceremonial sword V|~": {
 				"Category": ["Ceremonial Swords"],
 				"Label": "All Ceremonial Swords",
-				"Items": ["Ceremonial sword"]
+				"Items": ["Ceremonial sword", "OrikalkumOrNecronium[+]"]
 			},
 			"Obtain an ~|adamant ceremonial sword I|~": {
 				"Category": ["Ceremonial Swords"],
 				"Label": "All Ceremonial Swords",
-				"Items": ["Ceremonial sword"]
+				"Items": ["Ceremonial sword", "Bane bar"]
 			},
 			"Obtain an ~|off-hand adamant ceremonial sword I|~": {
 				"Category": ["Ceremonial Swords"],
 				"Label": "All Ceremonial Swords",
-				"Items": ["Ceremonial sword"]
+				"Items": ["Ceremonial sword", "Bane bar"]
 			},
 			"Obtain an ~|adamant ceremonial sword II|~": {
 				"Category": ["Ceremonial Swords"],
 				"Label": "All Ceremonial Swords",
-				"Items": ["Ceremonial sword"]
+				"Items": ["Ceremonial sword", "Bane bar"]
 			},
 			"Obtain an ~|off-hand adamant ceremonial sword II|~": {
 				"Category": ["Ceremonial Swords"],
 				"Label": "All Ceremonial Swords",
-				"Items": ["Ceremonial sword"]
+				"Items": ["Ceremonial sword", "Bane bar"]
 			},
 			"Obtain an ~|adamant ceremonial sword III|~": {
 				"Category": ["Ceremonial Swords"],
 				"Label": "All Ceremonial Swords",
-				"Items": ["Ceremonial sword"]
+				"Items": ["Ceremonial sword", "Bane bar"]
 			},
 			"Obtain an ~|off-hand adamant ceremonial sword III|~": {
 				"Category": ["Ceremonial Swords"],
 				"Label": "All Ceremonial Swords",
-				"Items": ["Ceremonial sword"]
+				"Items": ["Ceremonial sword", "Bane bar"]
 			},
 			"Obtain an ~|adamant ceremonial sword IV|~": {
 				"Category": ["Ceremonial Swords"],
 				"Label": "All Ceremonial Swords",
-				"Items": ["Ceremonial sword"]
+				"Items": ["Ceremonial sword", "Bane bar"]
 			},
 			"Obtain an ~|off-hand adamant ceremonial sword IV|~": {
 				"Category": ["Ceremonial Swords"],
 				"Label": "All Ceremonial Swords",
-				"Items": ["Ceremonial sword"]
+				"Items": ["Ceremonial sword", "Bane bar"]
 			},
 			"Obtain an ~|adamant ceremonial sword V|~": {
 				"Category": ["Ceremonial Swords"],
 				"Label": "All Ceremonial Swords",
-				"Items": ["Ceremonial sword"]
+				"Items": ["Ceremonial sword", "Bane bar"]
 			},
 			"Obtain an ~|off-hand adamant ceremonial sword V|~": {
 				"Category": ["Ceremonial Swords"],
 				"Label": "All Ceremonial Swords",
-				"Items": ["Ceremonial sword"]
+				"Items": ["Ceremonial sword", "Bane bar"]
 			},
 			"Obtain an ~|rune ceremonial sword I|~": {
 				"Category": ["Ceremonial Swords"],
@@ -143094,6 +143385,11 @@
 				"Label": "Permanent Unlockables",
 				"Items": ["Undead Slayer ability codex blueprint", "Dungeoneering token*"]
 			},
+			"Unlock the ~|spirit cape|~ passive effect": {
+				"Category": ["Permanent Unlockables"],
+				"Label": "Permanent Unlockables",
+				"Items": ["Spirit cape"]
+			},
 			"Unlock all 4 tiers of Plant Power from ~|Sydekix's Shop of Balance|~": {
 				"Category": ["Permanent Unlockables"],
 				"Label": "Permanent Unlockables",
@@ -145505,12 +145801,42 @@
 			"Obtain the ~|the Time Warped|~ title": {
 				"Category": ["Titles"],
 				"Label": "Titles",
-				"Monsters": ["Kerapac, the bound (Hard Mode)"]
+				"Monsters": ["Kerapac, the bound (Hard Mode)"],
+				"Tasks": {
+					"~|Combat Mastery achievements#Grandmaster|~ Kerapac, the bound (perfect)": "Diary"
+				}
 			},
 			"Obtain the ~|Echo of|~ title": {
 				"Category": ["Titles"],
 				"Label": "Titles",
-				"Monsters": ["Kerapac, the bound (Hard Mode)"]
+				"Monsters": ["Kerapac, the bound (Hard Mode)"],
+				"Tasks": {
+					"~|Combat Mastery achievements#Grandmaster|~ Kerapac, the bound (unorthodox)": "Diary"
+				}
+			},
+			"Obtain the ~|the UnprEDICTable|~ title": {
+				"Category": ["Titles"],
+				"Label": "Titles",
+				"Monsters": ["Kerapac, the bound (Hard Mode)"],
+				"Tasks": {
+					"~|Combat Mastery achievements#Grandmaster|~ Zamorak, Lord of Chaos (unorthodox)": "Diary"
+				}
+			},
+			"Obtain the ~|the Devoured|~ title": {
+				"Category": ["Titles"],
+				"Label": "Titles",
+				"Monsters": ["Kerapac, the bound (Hard Mode)"],
+				"Tasks": {
+					"~|Combat Mastery achievements#Grandmaster|~ Amascut, the Devourer (unorthodox)": "Diary"
+				}
+			},
+			"Obtain the ~|Tumeken's Light|~ title": {
+				"Category": ["Titles"],
+				"Label": "Titles",
+				"Monsters": ["Kerapac, the bound (Hard Mode)"],
+				"Tasks": {
+					"~|Combat Mastery achievements#Grandmaster|~ Amascut, the Devourer (perfect)": "Diary"
+				}
 			},
 			"Obtain the ~|the Daredevil|~ title": {
 				"Category": ["Titles"],
@@ -145520,7 +145846,10 @@
 			"Obtain the gold ~|the Daredevil|~ title": {
 				"Category": ["Titles"],
 				"Label": "Titles",
-				"Monsters": ["Beastmaster Durzag", "Yakamaru"]
+				"Monsters": ["Beastmaster Durzag", "Yakamaru"],
+				"Tasks": {
+					"~|Combat Mastery achievements#Master|~ Champion of the Goebies": "Diary"
+				}
 			},
 			"Obtain the ~|Pontifex (title)|~ title": {
 				"Category": ["Titles"],
@@ -145628,12 +145957,18 @@
 			"Obtain the ~|the Final Praesul|~ title": {
 				"Category": ["Titles"],
 				"Label": "Titles",
-				"Monsters": ["Nex, Angel of Death"]
+				"Monsters": ["Nex, Angel of Death"],
+				"Tasks": {
+					"~|Combat Mastery achievements#Grandmaster|~ Nex, Angel of Death (perfect)": "Diary"
+				}
 			},
 			"Obtain the ~|the Angel of Death|~ title": {
 				"Category": ["Titles"],
 				"Label": "Titles",
-				"Monsters": ["Nex, Angel of Death"]
+				"Monsters": ["Nex, Angel of Death"],
+				"Tasks": {
+					"~|Combat Mastery achievements#Grandmaster|~ Nex, Angel of Death (unorthodox)": "Diary"
+				}
 			},
 			"Obtain the ~|Engineer (title)|~": {
 				"Category": ["Titles"],
@@ -145983,12 +146318,18 @@
 			"Obtain the ~|the One That Speaks|~ title": {
 				"Category": ["Titles"],
 				"Label": "Titles",
-				"Monsters": ["Raksha, the Shadow Colossus"]
+				"Monsters": ["Raksha, the Shadow Colossus"],
+				"Tasks": {
+					"~|Combat Mastery achievements#Grandmaster|~ Raksha, the Shadow Colossus (perfect)": "Diary"
+				}
 			},
 			"Obtain the ~|the Shadow Colossus|~ title": {
 				"Category": ["Titles"],
 				"Label": "Titles",
-				"Monsters": ["Raksha, the Shadow Colossus"]
+				"Monsters": ["Raksha, the Shadow Colossus"],
+				"Tasks": {
+					"~|Combat Mastery achievements#Grandmaster|~ Raksha, the Shadow Colossus (unorthodox)": "Diary"
+				}
 			},
 			"Obtain the ~|Necrolord/lady|~ title": {
 				"Category": ["Titles"],
@@ -146000,7 +146341,10 @@
 			"Obtain the ~|Nakatra's Lament|~ title": {
 				"Category": ["Titles"],
 				"Label": "Titles",
-				"Monsters": ["Nakatra, Devourer Eternal (Hard Mode)", "Vermyx, Brood Mother (Hard Mode)", "Kezalam, the Wanderer (Hard Mode)"]
+				"Monsters": ["Nakatra, Devourer Eternal (Hard Mode)", "Vermyx, Brood Mother (Hard Mode)", "Kezalam, the Wanderer (Hard Mode)"],
+				"Tasks": {
+					"~|Combat Mastery achievements#Grandmaster|~ Sanctum of Rebirth (perfect)": "Diary"
+				}
 			},
 			"Obtain the ~|Stargazer (title)|~": {
 				"Category": ["Titles"],
@@ -146030,12 +146374,18 @@
 			"Obtain the ~|Erethdor's Bane|~ title": {
 				"Category": ["Titles"],
 				"Label": "Titles",
-				"Monsters": ["Solak, Guardian of the Grove"]
+				"Monsters": ["Solak, Guardian of the Grove"],
+				"Tasks": {
+					"~|Combat Mastery achievements#Grandmaster|~ Solak, Guardian of the Grove (perfect)": "Diary"
+				}
 			},
 			"Obtain the ~|the Blightbound|~ title": {
 				"Category": ["Titles"],
 				"Label": "Titles",
-				"Monsters": ["Solak, Guardian of the Grove"]
+				"Monsters": ["Solak, Guardian of the Grove"],
+				"Tasks": {
+					"~|Combat Mastery achievements#Grandmaster|~ Solak, Guardian of the Grove (unorthodox)": "Diary"
+				}
 			},
 			"Obtain the ~|Final Boss|~ title": {
 				"Category": ["Titles"],
@@ -146237,8 +146587,11 @@
 			"Obtain the ~|the Reaper|~ title": {
 				"Category": ["Titles"],
 				"Label": "Titles",
+				"Chunks": ["7729-1", "12586", "14131", "Borehole", "Sanctum of Rebirth", "Zamorakian Undercity", "Temple of Aminishi", "The Shadow Reef", "Dragonkin Laboratory", "Exhiled Kalphite Hive", "Elder God Wars Dungeon", "Ancient Prison", "Mazcab"],
+				"Tasks": {
+					"~|Eclipse of the Heart|~ Complete the quest": "Quest"
+				},
 				"Monsters": [
-					"Amascut, the Devourer",
 					"Giant mole",
 					"Chaos Elemental",
 					"King Black Dragon",
@@ -146254,45 +146607,23 @@
 					"Araxxi",
 					"Legio Primus",
 					"Raksha, the Shadow Colossus",
-					"Barrows: Rise of the Six",
 					"Zemouregal & Vorkath",
 					"The Gate of Elidinis",
-					"Solak, Guardian of the Grove",
-					"Vorago",
-					"Kalphite King",
 					"Kalphite Queen",
 					"Hermod, the Spirit of War",
 					"Rasial, the First Necromancer",
-					"The Sanctum Guardian",
-					"Masuta the Ascended",
-					"Seiryu the Azure Serpent",
-					"Astellarn",
-					"Verak Lith",
-					"Black Stone Dragon",
-					"Crassian Leviathan",
-					"Taraket the Necromancer",
-					"The Ambassador",
 					"Kree'arra",
 					"K'ril Tsutsaroth",
 					"General Graardor",
 					"Commander Zilyana",
-					"Nex",
-					"Nex: Angel of Death",
 					"Helwyr",
 					"Gregorovic",
 					"Twin Furies",
 					"Vindicta",
 					"Telos, the Warden",
 					"Arch-Glacor",
-					"Croesus",
 					"Kerapac, the bound",
-					"TzKal-Zuk",
-					"Zamorak, Lord of Chaos",
-					"Vermyx, Brood Mother",
-					"Kezalam, the Wanderer",
-					"Nakatra, Devourer Eternal",
-					"Beastmaster Durzag",
-					"Yakamaru"
+					"TzKal-Zuk"
 				]
 			},
 			"Obtain the ~|Salty|~ title": {
@@ -146407,7 +146738,10 @@
 			"Obtain the ~|the Defeater|~ title": {
 				"Category": ["Titles"],
 				"Label": "Titles",
-				"Monsters": ["Vorago (Hard Mode)"]
+				"Chunks": ["Vorago (Hard Mode)"],
+				"Tasks": {
+					"~|Combat Mastery achievements#Elite|~ Smashing Success": "Diary"
+				}
 			},
 			"Obtain the bronze ~|the Defeater|~ title": {
 				"Category": ["Titles"],
@@ -146417,22 +146751,34 @@
 			"Obtain the silver ~|the Defeater|~ title": {
 				"Category": ["Titles"],
 				"Label": "Titles",
-				"Monsters": ["Vorago (Hard Mode)"]
+				"Monsters": ["Vorago (Hard Mode)"],
+				"Tasks": {
+					"~|Combat Mastery achievements#Master|~ Maul or Nothing": "Diary"
+				}
 			},
 			"Obtain the gold ~|the Defeater|~ title": {
-				"Category": ["Titles"],
+				"Category": ["Titles", "Combat Master+"],
 				"Label": "Titles",
-				"Monsters": ["Vorago (Hard Mode)"]
+				"Monsters": ["Vorago (Hard Mode)"],
+				"Tasks": {
+					"~|Combat Mastery achievements#Grandmaster|~ Maul and Brawl": "Diary"
+				}
 			},
 			"Obtain the ~|the Earthshaker|~ title": {
 				"Category": ["Titles"],
 				"Label": "Titles",
-				"Monsters": ["Vorago (Hard Mode)"]
+				"Monsters": ["Vorago (Hard Mode)"],
+				"Tasks": {
+					"~|Combat Mastery achievements#Grandmaster|~ Vorago (HM) (perfect)": "Diary"
+				}
 			},
 			"Obtain the ~|the Bad Omen|~ title": {
 				"Category": ["Titles"],
 				"Label": "Titles",
-				"Monsters": ["Vorago (Hard Mode)"]
+				"Monsters": ["Vorago (Hard Mode)"],
+				"Tasks": {
+					"~|Combat Mastery achievements#Grandmaster|~ Vorago (HM) (unorthodox)": "Diary"
+				}
 			},
 			"Obtain the ~|Attacker|~ title": {
 				"Category": ["Titles", "Minigames"],
@@ -150815,8 +151161,7 @@
 				"UnlocksArea": true
 			},
 			"Witch's House Underground": {
-				"UnlocksArea": true,
-				"Not F2P": true
+				"UnlocksArea": true
 			},
 			"Grotworm Lair 1": {
 				"UnlocksArea": true
@@ -150952,6 +151297,12 @@
 			},
 			"Sabbot's Cave": {
 				"UnlocksArea": true
+			},
+			"Sabbot's Tunnel": {
+				"UnlocksArea": true,
+				"Tasks": {
+					"~|Death Plateau|~ 4": "Quest"
+				}
 			},
 			"Mouse Hole": {
 				"UnlocksArea": true,
@@ -151516,6 +151867,9 @@
 				"UnlocksArea": true
 			},
 			"Melzar's Maze Basement": {
+				"Tasks": {
+					"~|Dragon Slayer|~ 5b1": "Quest"
+				},
 				"UnlocksArea": true
 			},
 			"Spirit Realm Rogues' Castle": {
@@ -152745,6 +153099,22 @@
 				"ConnectsSections": true,
 				"Not F2P": true
 			},
+			"11320-1 to 11320-4": {
+				"Sections": ["11320-1", "11320-4"],
+				"ConnectsSections": true,
+				"Tasks": {
+					"~|Death Plateau|~ Complete the quest": "Quest"
+				},
+				"Not F2P": true
+			},
+			"11320-1 to 11320-3": {
+				"Sections": ["11320-1", "11320-3"],
+				"ConnectsSections": true,
+				"Tasks": {
+					"~|Death Plateau|~ Complete the quest": "Quest"
+				},
+				"Not F2P": true
+			},
 			"11322-1 to 11322-2": {
 				"Sections": ["11322-1", "11322-2"],
 				"Tasks": {
@@ -152860,7 +153230,9 @@
 			"11318-1 to 11319-5": {
 				"Sections": ["11318-1", "11319-5"],
 				"ConnectsSections": true,
-				"Not F2P": true
+				"Tasks": {
+					"Members only": "Nonskill"
+				}
 			},
 			"11828 to 11829-3": {
 				"Sections": ["11828", "11829-3"],
@@ -155864,7 +156236,7 @@
 			},
 			"Shattered Worlds rewards*": {
 				"Category": ["Minigame"],
-				"Chunks": ["12592-1"],
+				"Chunks": ["10537"],
 				"Output": "Shattered Worlds rewards",
 				"Not F2P": true
 			},
@@ -156785,6 +157157,15 @@
 			"Eat a pie": {
 				"Items": ["Pie[+]"],
 				"Output": "Pie dish"
+			},
+			"Obtain a dragon defender": {
+				"Items": ["Dragon defender"]
+			},
+			"Obtain a corrupted defender": {
+				"Items": ["Corruption sigil"]
+			},
+			"Obtain an ancient defender": {
+				"Items": ["Ancient emblem", "Chaotic splint"]
 			}
 		}
 	},
@@ -158652,7 +159033,7 @@
 				"Crate": 1
 			},
 			"NPC": {
-				"Fisherman": 5,
+				"Fisherman": 4,
 				"Jeb": 1,
 				"Giant lobster": 2,
 				"Bailey": 1,
@@ -160223,8 +160604,7 @@
 			},
 			"NPC": {
 				"Alfrick the Planner": 1,
-				"Freya Lune": 1,
-				"Fisherman": 1
+				"Freya Lune": 1
 			},
 			"Connect": {
 				"5441": true
@@ -162718,7 +163098,6 @@
 				"Fishing spot (waterfall)": 7
 			},
 			"NPC": {
-				"Fisherman": 1,
 				"Mhistyll": 1
 			},
 			"Shop": {
@@ -163480,7 +163859,6 @@
 						"Devin Mendelberg": 1,
 						"George Laxmeister": 1,
 						"Ramara du Croissant": 1,
-						"Fisherman": 1,
 						"Philipe Carnillean": 1
 					},
 					"Monster": {
@@ -166561,8 +166939,7 @@
 						"Fishing spot (barbarian)": 5
 					},
 					"NPC": {
-						"Otto Godblessed": 1,
-						"Fisherman": 1
+						"Otto Godblessed": 1
 					},
 					"Quest": {
 						"Barbarian Training": "first"
@@ -168460,18 +168837,27 @@
 				"Commodore Tyr": 1,
 				"Captain Ethar": 1,
 				"Knight Dorian": 1,
-				"Stanley Limelight": 1
+				"Stanley Limelight": 1,
+				"Abyssal Knight Quartermaster": 1,
+				"Banker": 1,
+				"Kenton Decarte": 1,
+				"Abyssal Knight": 6
 			},
 			"Shop": {
 				"Void Knight Archery Store": true,
 				"Void Knight General Store": true,
 				"Void Knight Magic Store": true,
 				"Stanley Limelight Traders": true,
-				"Commendation Rewards": true
+				"Commendation Rewards": true,
+				"Shattered Worlds Reward Shop": true
 			},
 			"Quest": {
 				"Quiet Before the Swarm": "step",
 				"A Void Dance": "first"
+			},
+			"Connect": {
+				"12693": true,
+				"13899": true
 			},
 			"Nickname": "Void knights' Outpost"
 		},
@@ -169055,7 +169441,6 @@
 				"Guard": 2,
 				"Thora the Barkeep": 1,
 				"Yrsa": 1,
-				"Fisherman": 1,
 				"Skulgrimen": 1,
 				"Sailor": 1,
 				"Agnar": 1,
@@ -170043,7 +170428,6 @@
 						"Oak": 15,
 						"Tree": 36,
 						"Evergreen": 36,
-						"Maple tree": 9,
 						"Dead tree": 19,
 						"Evil tree": 1
 					},
@@ -170069,7 +170453,6 @@
 				},
 				"2": {
 					"Object": {
-						"Swaying tree": 1,
 						"Log balance (Fremennik Province)": 3,
 						"Maple tree": 9,
 						"Fishing spot (crayfish)": 2,
@@ -170137,8 +170520,7 @@
 						"9541": true,
 						"10910": true,
 						"11166": true,
-						"13654": true,
-						"33": true
+						"13654": true
 					},
 					"Spawn": {
 						"Seaweed": 9
@@ -170178,7 +170560,8 @@
 			},
 			"Connect": {
 				"10911": true,
-				"13636": true
+				"13636": true,
+				"33": true
 			},
 			"Shop": {
 				"Hunting Supplies": true
@@ -171625,7 +172008,6 @@
 			"NPC": {
 				"Grail Maiden": 4,
 				"Peasant": 5,
-				"Fisherman": 1,
 				"The Fisher King": 1
 			},
 			"Monster": {
@@ -172058,7 +172440,6 @@
 						"Fernahei": 1,
 						"Lapalok": 1,
 						"Duradel": 1,
-						"Fisherman": 1,
 						"Philipe Carnillean": 1
 					},
 					"Monster": {
@@ -172317,8 +172698,7 @@
 						"Harry": 1,
 						"Ellena": 1,
 						"Tool leprechaun": 1,
-						"Musician": 1,
-						"Fisherman": 1
+						"Musician": 1
 					},
 					"Spawn": {
 						"Jug of wine": 1,
@@ -172588,12 +172968,7 @@
 						"Bucket": 2
 					},
 					"Quest": {
-						"Death Plateau": "step",
-						"My Arm's Big Adventure": "step",
-						"Enchanted Key": "step"
-					},
-					"Connect": {
-						"13634": true
+						"My Arm's Big Adventure": "step"
 					}
 				},
 				"2": {
@@ -172601,7 +172976,22 @@
 						"Rocks": 2,
 						"Cliffside": 1
 					}
-				}
+				},
+				"3": {
+					"Object": {
+						"Rocks": 1,
+						"Cliffside": 1
+					},
+					"Quest": {
+						"Death Plateau": "step",
+						"Enchanted Key": "step"
+					},
+					"Connect": {
+						"13634": true
+					}
+				},
+				"4": {},
+				"5": {}
 			},
 			"Nickname": "Death Plateau"
 		},
@@ -175211,7 +175601,8 @@
 						"Flickering wisp": 13,
 						"Enriched flickering wisp": 1,
 						"Herald": 1,
-						"Stanley Limelight": 1
+						"Stanley Limelight": 1,
+						"Copernicus Glyph": 1
 					},
 					"Connect": {
 						"6493": true,
@@ -177206,7 +177597,6 @@
 						"Man": 1,
 						"Town crier": 1,
 						"Zenevivia": 1,
-						"Fisherman": 1,
 						"Leela": 3,
 						"Ozan": 2,
 						"Khnum": 2,
@@ -177214,6 +177604,7 @@
 						"Skulls mercenary": 2,
 						"Relomia, Emissary of Sliske": 1,
 						"Pigzilla": 1,
+						"Jambon": 1,
 						"Pale wisp": 13,
 						"Orla Fairweather": 1,
 						"Faizan Augour": 1,
@@ -177325,8 +177716,7 @@
 				"Evil Bob": 1,
 				"Mysterious Old Man": 1,
 				"Herald": 1,
-				"Black Knight sergeant": 1,
-				"Victor": 1
+				"Black Knight sergeant": 1
 			},
 			"Connect": {
 				"23": true,
@@ -177472,7 +177862,6 @@
 						"Hunding": 1,
 						"Sigurd": 1,
 						"Litara": 1,
-						"Fisherman": 1,
 						"Sanguine imp": 1,
 						"Relaxed imp": 1
 					},
@@ -177509,7 +177898,6 @@
 						"Hunding": 1,
 						"Sigurd": 1,
 						"Litara": 1,
-						"Fisherman": 1,
 						"Sanguine imp": 1,
 						"Relaxed imp": 1
 					},
@@ -178177,7 +178565,6 @@
 						"Crashed star": 1
 					},
 					"NPC": {
-						"Fisherman": 1,
 						"Shebit": 1,
 						"Grand Vizier Ehsan (Merchant)": 1,
 						"Batal (Worker)": 1,
@@ -178338,16 +178725,7 @@
 			"Nickname": "Bedadin Camp"
 		},
 		"12592": {
-			"Sections": {
-				"1": {
-					"Object": {
-						"Shattered Worlds portal": 1,
-						"Shattered Worlds challenger portal": 1
-					}
-				},
-				"2": {}
-			},
-			"Nickname": "Shattered Worlds Portals"
+			"Nickname": "Temple of Amascut"
 		},
 		"12593": {
 			"Object": {
@@ -178355,7 +178733,6 @@
 				"Mysterious ruins": 1,
 				"Swamp tree": 19,
 				"Dead tree": 4,
-				"Well": 1,
 				"Iron rock": 3,
 				"Coal rock": 3
 			},
@@ -178372,11 +178749,7 @@
 				"Wizard": 1,
 				"Sergeant Mossfists": 1,
 				"Sergeant Slimetoes": 1,
-				"Healthy imp": 1,
-				"Abyssal Knight Quartermaster": 1,
-				"Banker": 1,
-				"Kenton Decarte": 1,
-				"Abyssal Knight": 6
+				"Healthy imp": 1
 			},
 			"Connect": {
 				"12693": true,
@@ -178394,7 +178767,6 @@
 				"Enchanted Key": "step",
 				"God Emissaries Exploration": "step",
 				"Imp Catcher": "step",
-				"Lost City": "first",
 				"The Mighty Fall": "step",
 				"Duck Quest": "step"
 			},
@@ -178402,34 +178774,51 @@
 		},
 		"12594": {
 			"Object": {
-				"Tree": 4,
-				"Drawers": 2,
+				"Tree": 112,
+				"Oak": 8,
+				"Yew tree": 4,
 				"Bank chest": 1,
-				"Crates": 1,
-				"Tower": 1,
 				"Memorial fountain": 1,
-				"Anvil": 2,
-				"Forge": 2,
-				"Training dummy": 2
+				"Training dummy": 2,
+				"Well": 1,
+				"Tree patch": 1
 			},
 			"NPC": {
 				"Captain Harlan": 1,
 				"Hank": 1,
 				"Saradominist preacher": 1,
-				"Common brown rabbit": 11
+				"Fayeth": 1,
+				"Tool leprechaun": 1,
+				"Herald of Lumbridge": 1
 			},
 			"Monster": {
 				"Rabbit": 8,
-				"Duck": 1
+				"Squiggles": 1,
+				"Duck": 1,
+				"Giant spider": 8,
+				"Giant rat": 4,
+				"Goblin (Lumbridge)": 10,
+				"Mugger": 1,
+				"Rat": 4,
+				"Spider": 7,
+				"Unicorn": 1
 			},
 			"Shop": {
 				"Lumbridge Fishing Supplies": true
+			},
+			"Connect": {
+				"6473": true,
+				"12694": true
+			},
+			"Quest": {
+				"Lost City": "first"
 			},
 			"Nickname": "Lumbridge Crater"
 		},
 		"12595": {
 			"Object": {
 				"Cabbage": 45,
+				"Potato": 30,
 				"Hopper controls": 1,
 				"Dairy cow": 1,
 				"Wheat": 87,
@@ -179149,7 +179538,6 @@
 						"Fishing spot (Menaphos)": 2
 					},
 					"NPC": {
-						"Fisherman": 1,
 						"Quartermaster Gully": 1,
 						"Navigator Jemi": 1,
 						"Bosun Higgs": 1,
@@ -179417,11 +179805,6 @@
 				"Drawers": 1,
 				"Cooking range": 1,
 				"Catacombs": 1,
-				"Purification bowl (chaos)": 4,
-				"Purification bowl (battle)": 4,
-				"Purification bowl (order)": 4,
-				"Purification bowl (fealty)": 4,
-				"Nexus": 1,
 				"Copper rock": 3,
 				"Tin rock": 3,
 				"Clay rock": 2,
@@ -179431,19 +179814,15 @@
 			},
 			"NPC": {
 				"Father Urhney": 1,
-				"Fremennik warrior": 1,
 				"Ilona": 1,
 				"Wizard Ilona": 1,
-				"Fremennik shipmaster": 1,
-				"Fisherman": 1,
-				"Ysondria": 1,
-				"Wizard Chambers": 1,
 				"Xenia": 1
 			},
 			"Monster": {
 				"Giant rat": 8,
 				"Hollowtoof": 1,
-				"Goblin Raider": 1
+				"Goblin Raider": 1,
+				"Swamp frog": 6
 			},
 			"Connect": {
 				"9797": true,
@@ -179459,7 +179838,8 @@
 				"Buyers and Cellars": "step",
 				"Heart of Stone": "step",
 				"Lost City": "step",
-				"The Restless Ghost": "step"
+				"The Restless Ghost": "step",
+				"Duck Quest": "step"
 			},
 			"Nickname": "East Lumbridge Swamp"
 		},
@@ -179490,8 +179870,6 @@
 						"Bookcase": 2,
 						"Boxes": 1,
 						"Clan Cup plaque": 1,
-						"Bakery stall": 1,
-						"Wine stall": 1,
 						"Seed stall": 2,
 						"Crafting stall": 1,
 						"Bank chest": 1,
@@ -179502,7 +179880,6 @@
 						"Canoe station": 1,
 						"Vegetable stall": 2,
 						"Fishing spot (crayfish)": 5,
-						"Tree patch": 1,
 						"Iron Enclave portal": 1
 					},
 					"NPC": {
@@ -179520,8 +179897,6 @@
 						"Master Farmer": 1,
 						"Donie": 1,
 						"Lumbridge Sage": 1,
-						"Fayeth": 1,
-						"Tool leprechaun": 1,
 						"Barfy Bill": 1,
 						"Doomsayer": 1,
 						"Ducklings": 2,
@@ -179531,23 +179906,13 @@
 						"Roddeck": 1,
 						"Explorer Jack": 1,
 						"Chief Thief Robin": 1,
-						"Herald of Lumbridge": 1,
 						"Man": 5,
 						"Lumbridge guardsman": 2,
 						"Lumbridge guard dog": 1,
 						"Merchant": 2,
 						"Woman": 3,
-						"Saradominist Priest": 1,
-						"Saradominist Priestess": 1,
-						"Saradominist priest's daughter": 1,
-						"Guardsman Dante": 1,
-						"Guardsman Brawn": 1,
-						"Guardsman Pazel": 1,
-						"Guardsman DeShawn": 1,
-						"Guardsman Peale": 1,
 						"Herald": 1,
 						"Samuel LeBaux": 1,
-						"Jambon": 1,
 						"Fortuneteller": 1,
 						"Jacquelyn": 1,
 						"Guard": 1,
@@ -179564,8 +179929,6 @@
 						"Lumbridge guardsman (Lumbridge Market)": 1
 					},
 					"Connect": {
-						"6473": true,
-						"12694": true,
 						"13207": true
 					},
 					"Spawn": {
@@ -179658,8 +180021,7 @@
 						"Dwarf": 1,
 						"H.A.M. Member": 1,
 						"Drake": 1,
-						"Tool leprechaun": 2,
-						"Copernicus Glyph": 1
+						"Tool leprechaun": 2
 					},
 					"Spawn": {
 						"Bucket": 2,
@@ -179696,10 +180058,7 @@
 						"Goblin (Lumbridge)": 2
 					},
 					"NPC": {
-						"Fred the Farmer": 1,
-						"Copernicus Glyph": 1,
-						"Zamorakian herbalist": 2,
-						"Zamorakian herbalist's son": 1
+						"Fred the Farmer": 1
 					},
 					"Spawn": {
 						"Shears": 1,
@@ -179768,7 +180127,6 @@
 				"Spinning wheel": 1,
 				"Willow": 2,
 				"Oak": 16,
-				"Yew": 1,
 				"Tree": 8,
 				"Boxes": 1,
 				"Water barrel": 3,
@@ -185030,8 +185388,7 @@
 			"NPC": {
 				"Rock critter": 5,
 				"Cavefish shoal": 4,
-				"Rocktail shoal": 3,
-				"Fisherman": 1
+				"Rocktail shoal": 3
 			},
 			"Name": "Living Rock Caverns"
 		},
@@ -195112,7 +195469,6 @@
 			},
 			"NPC": {
 				"Rock critter": 8,
-				"Fisherman": 1,
 				"Farli": 1
 			},
 			"Connect": {
@@ -198919,7 +199275,6 @@
 				"King Percival": 1,
 				"Peasant": 10,
 				"Ducklings": 3,
-				"Fisherman": 1,
 				"The Fisher King": 1
 			},
 			"Monster": {
@@ -201012,7 +201367,6 @@
 			},
 			"Connect": {
 				"10835": true,
-				"12949": true,
 				"12951": true,
 				"13207": true
 			},
@@ -201050,7 +201404,8 @@
 			},
 			"Connect": {
 				"12850": true,
-				"13206": true
+				"13206": true,
+				"12949": true
 			},
 			"Quest": {
 				"Death to the Dorgeshuun": "step",
@@ -202177,34 +202532,9 @@
 				"Golden bamboo (tree)": 1
 			},
 			"NPC": {
-				"Gorajo hoardstalker": 1,
 				"Tortle": 24,
 				"Seasinger Umi": 8,
-				"Tarddiad Firefly": 77,
 				"Yulong": 1,
-				"Spider Queen": 1,
-				"Spider": 2,
-				"Bathtub": 1,
-				"Cocooned victim": 1,
-				"Dave": 1,
-				"Steve": 1,
-				"Pete": 1,
-				"Gavin": 1,
-				"Lana": 1,
-				"Bill": 1,
-				"Mirrorback spider": 1,
-				"Cormorant": 1,
-				"Crimson swift": 1,
-				"Cerulean twitch": 1,
-				"Golden warbler": 1,
-				"Copper longtail": 1,
-				"Puffin": 1,
-				"Wimpy bird": 1,
-				"Ibis": 1,
-				"Crow": 1,
-				"Mackers": 1,
-				"Lava hawk": 1,
-				"Mega ducklings": 1,
 				"Waiko islander": 56,
 				"Terri (fruit merchant)": 1,
 				"Ani (farming merchant)": 1,
@@ -202233,13 +202563,12 @@
 				"X-Runes": 1,
 				"Alder (bamboo merchant)": 1,
 				"Sensei Hakase": 1,
-				"Hari": 1,
 				"Name": 1,
 				"Cap'n Ekahi": 3,
 				"Yuehanxun the Dealer": 1,
 				"Archaeologist": 1,
 				"Sea Witch Kaula": 1,
-				"Ted": 1,
+				"Ted (Whale's Maw)": 1,
 				"Whale's Maw islander": 15,
 				"Ling (contracts)": 2,
 				"Bryll Thoksdottir": 2,
@@ -204048,6 +204377,7 @@
 				"Adamant square shield + 2",
 				"Adamant square shield"
 			],
+			"AdamantOrRune[+]": ["Adamant bar", "Rune bar"],
 			"Adamantpick[+]": [
 				"Adamant pickaxe + 1",
 				"Adamant pickaxe + 2",
@@ -205653,6 +205983,7 @@
 				"Elder rune round shield + 5",
 				"Elder rune round shield"
 			],
+			"ElderRuneOrPrimal[+]": ["Elder rune bar", "Primal bar"],
 			"ElderRuneWeapon[+]": [
 				"Elder rune 2h sword + 1",
 				"Elder rune 2h sword + 2",
@@ -206810,6 +207141,7 @@
 				"Orikalkum platelegs + 3",
 				"Orikalkum platelegs"
 			],
+			"OrikalkumOrNecronium[+]": ["Orikalkum bar", "Necronium bar"],
 			"Orikalkumpick[+]": [
 				"Orikalkum pickaxe + 1",
 				"Orikalkum pickaxe + 2",
@@ -207608,6 +207940,7 @@
 				"Rune nails",
 				"Steel nails"
 			],
+			"SteelOrMithril": ["Steel bar", "Mithril bar"],
 			"Steelpick[+]": [
 				"Steel pickaxe + 1",
 				"Steel pickaxe"
@@ -209404,6 +209737,7 @@
 		},
 		"itemsPlusNames": {
 			"AdamantArmour[+]": "Any adamant armour",
+			"AdamantOrRune[+]": "Adamant or rune bars",
 			"Adamantpick[+]": "Any adamant pickaxe",
 			"AdamantWeapon[+]": "Any adamant melee weapon",
 			"AdrenalinePotion[+]": "Any adrenaline potion",
@@ -209592,6 +209926,7 @@
 			"ElderOverloadPotion[+]": "Any elderoverload potion",
 			"Elderpick[+]": "Any elder rune pickaxe",
 			"ElderRuneArmour[+]": "Any piece of elder rune armour",
+			"ElderRuneOrPrimal[+]": "Elder rune or primal bars",
 			"ElderRuneWeapon[+]": "Any elder rune melee weapon",
 			"Elemental Staff[+]": "Any staff of element variant",
 			"ElementalBattlestaff[+]": "Any elemental battlestaff variant",
@@ -209763,6 +210098,7 @@
 			"Onslaught[+]": "Any codex that unlocks the onslaught abiltiy",
 			"Opal[+]": "Either a cut or an uncut opal",
             "OrikalkumArmour[+]": "Any piece of orikalkum armour",
+			"OrikalkumOrNecronium[+]": "Orikalkum or necronium bars",
 			"Orikalkumpick[+]": "Any orikalkum pickaxe",
 			"OrikalkumWeapon[+]": "Any orikalkum melee weapon",
 			"OverloadPotion[+]": "Any basic overload potion",
@@ -209873,6 +210209,7 @@
 			"StarbloomArmour[+]": "Any piece of starbloom armour",
 			"SteelArmour[+]": "Any piece of steel armour",
 			"SteelNails[+]": "Any nails that can be used to build the small pen in the POF",
+			"SteelOrMithril[+]": "Steel or mithril bars",
 			"Steelpick[+]": "Any steel pickaxe",
 			"SteelWeapon[+]": "Any steel melee weapon",
 			"Stole[+]": "Any god stole",
@@ -210055,6 +210392,7 @@
 			"ArdougneGuardChunks[+]": ["10547-1", "10291", "10292"],
 			"Arrowhead chest[+]": ["10549", "10553"],
 			"Asgarnian safes[+]": ["11575-1", "11828", "12082-1", "12084-1", "12087-3"],
+			"BlastAndHellfire[+]": ["12593", "12851", "12850", "Lumbridge Catacombs"],
 			"CaptainsGnomeRestaurant[+]": ["13105", "Dwarven Tunnel"],
 			"CarpetChunks[+]": ["12591", "12844", "13100", "13104-1","13357-2", "13358-1", "13613", "13872"],
 			"ChaosTunnelEntrance[+]": ["12343-1", "12599", "12600", "12344", "12087-1"],
@@ -210079,7 +210417,7 @@
 			"EnterTheAbyss3[+]": ["12853-1", "12337-1", "10547-1", "Brimstail's cave", "10288-1"],
 			"ErskineSlayerChunks[+]": ["Forinthry Dungeon", "12601", "13116", "12345", "12093", "12347-1", "12347-2", "12349", "12605", "13371", "12858", "13368-1", "13369-1", "Edgeville Dungeon", "13115", "12857", "12090", "11835", "12091-1", "12091-2", "11836"],
 			"Everlight[+]": ["14899-2", "14898", "15154", "14897", "15153", "14641-1"],
-			"FairyTaleI2[+]": ["11574", "13105", "13362-3", "9265-1", "8755", "8757", "9012-1", "9781", "11062-1", "11317-1", "12596-1", "12854", "12850-1", "12083-1", "12082-1", "11060-1", "11058", "9777-2", "15942-3", "11828", "10547-1", "10548", "10290", "11056", "14391", "13622", "10300", "10551-1", "10288-1", "11570", "12851-1", "11821-1", "12587-2"],
+			"FairyTaleI2[+]": ["11574", "13105", "13362-3", "9265-1", "8755", "8757", "9012-1", "9781", "11062-1", "11317-1", "12596-1", "12854", "12594", "12083-1", "12082-1", "11060-1", "11058", "9777-2", "15942-3", "11828", "10547-1", "10548", "10290", "11056", "14391", "13622", "10300", "10551-1", "10288-1", "11570", "12851-1", "11821-1", "12587-2"],
 			"FaladorChunks[+]": ["11828", "12084-1", "12084-2"],
 			"FaladorGuardChunks[+]": ["11827", "11828", "12084-1"],
 			"FarmRaids[+]": ["12339", "12851-1", "12083-1", "11573"],
@@ -210110,7 +210448,6 @@
 			"Orthen[+]": ["15428-1", "16454-1", "16193-1", "16704-1"],
 			"Pet shop[+]": ["10288-1", "11573"],
 			"PoisonWasteChunks[+]": ["8752-1", "8752-4", "9008-1"],
-			"Pose[+]": ["12853-1", "Keldagrim"],
 			"PrayerAltarChunks[+]": ["11828", "10290", "10806-1", "12854", "Underground Pass", "10035-1", "10291", "12850-1", "Sunken Tutorial Island", "11825-1", "11574", "11575-1", "13617-1", "12086", "11316", "Goblin Temple", "8757", "8755", "9265-1", "Jaldraocht Pyramid", "12331-1", "13622", "13098-1", "10803", "Nature Grotto", "War's Retreat", "Senntisten Temple", "God Wars Dungeon", "Kharid-et - Barracks excavation site", "14388-1", "12087-3", "11830-1", "12852", "12856", "11835", "Yanille Agility Dungeon", "9778-1", "9012-1", "11056", "11051-1", "Uzer Mastaba", "8508", "13613", "11829-1", "7995"],
 			"Priffdinas[+]": ["8501-1", "8501-2", "8500", "8499-1", "8499-2", "8757", "8756-1", "8756-2", "8756-3", "8756-4", "8756-5", "8756-6", "8756-7", "8755", "9013", "9012-1", "9012-2", "9011-1", "9011-2", "9011-5"],
 			"PVP[+]": ["8493", "9005", "9520", "11831-1", "11832-1", "11833-1", "11834", "11837", "12087-1", "12088", "12089", "12090", "12091-1", "12091-2", "12092-1", "12092-2", "12092-3", "12092-4", "12092-5", "12092-6", "12343-1", "12344", "12347-1", "12347-2", "12348-1", "12348-2", "12599", "12600", "12603-1", "12603-2", "12604-1", "12604-2", "12604-3", "12605", "12855", "12856", "12859-1", "12859-2", "13111", "13114", "13367-3", "13368-1", "13372-1", "13372-2", "Forinthry Dungeon", "Gamers' Grotto", "TzHaar City"],
@@ -210159,6 +210496,7 @@
 			"ArdougneGuardChunks[+]": "Any chunks with guards in Ardougne",
 			"Arrowhead chest[+]": "Any chunk with a arrowhead chest",
 			"Asgarnian safes[+]": "Any chunk in Asgarnia with safes",
+			"BlastAndHellfire[+]": "Any chunk where the Blast and Hellfire achievement may be completed",
 			"CaptainsGnomeRestaurant[+]": "Any chunk with a hard Gnome Restaurant delivery that accesses the gnome pilot loot table",
 			"CarpetChunks[+]": "Any chunks used for carpet rides",
 			"ChaosTunnelEntrance[+]": "Any Wilderness chunk from which you can enter the Chaos Tunnels",
@@ -210214,7 +210552,6 @@
 			"Orthen[+]": "Any chunk that is part of the Orthen digsite",
 			"Pet shop[+]": "Any chunk with a pet shop",
 			"PoisonWasteChunks[+]": "Any chunk from which you can get swamp tar from the poison waste",
-			"Pose[+]": "Any chunk from which you can complete the strike a pose achievement",
 			"PrayerAltarChunks[+]": "Any chunk with a prayer altar in it",
 			"Prifddinas[+]": "Any Prifddinas chunk",
 			"PVP[+]": "Any chunk where you can attack other players (Wilderness or minigame)",
@@ -213949,108 +214286,105 @@
 		},
 		"Amascut, the Devourer": {
 			"Extreme attack (2)": {
-				"3-9": "Common"
+				"3": "Common"
 			},
 			"Extreme strength (2)": {
-				"3-9": "Common"
+				"3": "Common"
 			},
 			"Extreme defence (2)": {
-				"3-9": "Common"
+				"3": "Common"
 			},
 			"Extreme ranging (2)": {
-				"3-9": "Common"
+				"3": "Common"
 			},
 			"Extreme magic (2)": {
-				"3-9": "Common"
+				"3": "Common"
 			},
 			"Extreme necromancy (2)": {
-				"3-9": "Common"
+				"3": "Common"
 			},
 			"Necrotic anima stone": {
-				"40-160": "Common"
+				"40-65": "Common"
 			},
 			"Blood rune": {
-				"300-1000": "Common"
+				"430-1400": "Common"
 			},
 			"Soul rune": {
-				"200-600": "Common"
+				"200-250": "Common"
 			},
 			"Death rune": {
-				"500-900": "Common"
+				"500-600": "Common"
 			},
 			"Luminous energy": {
-				"750-1700": "Common"
+				"600-680": "Common"
 			},
 			"Feather of Ma'at": {
-				"80-240": "Common"
-			},
-			"Water rune": {
-				"320": "Common"
+				"80-100": "Common"
 			},
 			"Wine of Saradomin": {
-				"4-16": "Rare"
+				"1-4": "Common"
 			},
 			"Wine of Guthix": {
-				"4-16": "Rare"
+				"1-4": "Common"
 			},
 			"Key to the Crossing": {
-				"1-3": "Rare"
+				"1": "Common"
 			},
 			"Manuscript of Amascut": {
-				"1-5": "Rare"
+				"1": "Common"
 			},
 			"Vital spark": {
-				"1-5": "Uncommon",
-				"25": "Rare",
-				"50": "Rare"
+				"1": "Common",
+				"25": "5/1000",
+				"50": "3/1000"
 			},
 			"Small spiky orikalkum salvage": {
-				"5-40": "Common"
+				"5-8": "Common"
 			},
 			"Medium plated orikalkum salvage": {
-				"5-30": "Common"
+				"5-6": "Common"
 			},
 			"Huge plated rune salvage": {
-				"5-40": "Common"
+				"5-8": "Common"
 			},
 			"Large spiky orikalkum salvage": {
-				"5-30": "Common"
+				"5-6": "Common"
 			},
 			"Devourer's Guard": {
-				"1": "Very rare"
+				"1": "1/4800"
 			},
 			"The Devourer's Nexus": {
-				"1": "Very rare"
+				"1": "1/750"
 			},
 			"Tumeken's Light": {
-				"1": "Very rare"
+				"1": "1/4800"
 			},
 			"Mask of Tumeken's resplendence": {
-				"1": "Very rare"
+				"1": "3/12000"
 			},
 			"Robe top of Tumeken's resplendence": {
-				"1": "Very rare"
+				"1": "3/12000"
 			},
 			"Robe bottom of Tumeken's resplendence": {
-				"1": "Very rare"
+				"1": "3/12000"
 			},
 			"Gloves of Tumeken's resplendence": {
-				"1": "Very rare"
+				"1": "3/12000"
 			},
 			"Boots of Tumeken's resplendence": {
-				"1": "Very rare"
+				"1": "3/12000"
 			},
 			"Cursed Amascut sand": {
-				"1": "Rare"
+				"1": "2/1000"
 			},
 			"Memoirs of the Devourer": {
 				"1": "Always"
 			},
 			"Amascut's promise": {
-				"1": "Very rare"
+				"1": "1/500"
 			},
 			"Shard of Genesis Essence": {
-				"1": "Rare"
+				"1": "1/280"
 			},
 			"Devourer aura (Amascut)": {
 				"1": "Always"
@@ -236999,14 +237333,6 @@
 				"5": "12/128",
 				"15": "34/128",
 				"28": "4/128",
-				"42": "3/128",
-				"62": "4/128"
-			},
-			"Trading sticks": {
-				"1": "1/128",
-				"5": "12/128",
-				"15": "16/128",
-				"28": "12/128",
 				"42": "3/128",
 				"62": "4/128"
 			},
@@ -265782,7 +266108,7 @@
 		"Dragon Slayer": "12596, 12086, 12850, Dwarven Mine, 11570, Melzar's Maze Basement, 12081, 12082, 12338, 11314, 11315, Elvarg's Lair",
 		"Dream Mentor": "Lunar Isle Mine, 8253, 8508",
 		"Druidic Ritual": "11574, 11573, Burthorpe Slayer Cave, 11572",
-		"Duck Quest": "12238, 12337, 12593, 12850, 12851, 12595, 12596, Paddlington",
+		"Duck Quest": "12238, 12337, 12593, 12849, 12850, 12851, 12595, 12596, Paddlington",
 		"Dwarf Cannon": "10294, 10038, 10293, Goblin Cave, 12085",
 		"Eadgar's Ruse": "11573, Eadgar's Cave, Troll Stronghold, 10291, 11577",
 		"Eagles' Peak": "10291, 9270, Eagles' Peak Eyrie, 13109",
@@ -265858,7 +266184,7 @@
 		"Let Them Eat Pie": "11573, 11318, 11574",
 		"The Light Within": "8756, Guthixian ruins, 8752, 9265, 8757, 8755, Waterfall cave, Tarddiad, 9268",
 		"The Lord of Vampyrium": "14385, 14641, Meiyerditch Myreque base, 14388, Burgh de Rott Myreque Hideout, Paterdomus, 12854",
-		"Lost City": "12593, Entrana Dungeon, 12849",
+		"Lost City": "12594, 12593, Entrana Dungeon, 12849",
 		"The Lost Tribe": "12850, Lumbridge Cellar, 12854, 11830, Dorgesh-Kaan mine, H.A.M. Cave",
 		"Love Story": "12595, 12338, 11826",
 		"Lunar Diplomacy": "10297, 10553, 8763, 8508, 8252, 8508, 8253, Air Rune Temple, Fire Rune Temple, Water Rune Temple, Earth Rune Temple, Lunar Isle Mine",
@@ -266346,6 +266672,45 @@
 				"~|The Fremennik Trials|~ Complete the quest": "Quest"
 			}],
 			"Rock-shell gloves": [{
+				"~|The Fremennik Trials|~ Complete the quest": "Quest"
+			}],
+			"Rock-shell helm": [{
+				"~|The Fremennik Trials|~ Complete the quest": "Quest"
+			}],
+			"Rock-shell plate": [{
+				"~|The Fremennik Trials|~ Complete the quest": "Quest"
+			}],
+			"Rock-shell legs": [{
+				"~|The Fremennik Trials|~ Complete the quest": "Quest"
+			}],
+			"Spined boots": [{
+				"~|The Fremennik Trials|~ Complete the quest": "Quest"
+			}],
+			"Spined gloves": [{
+				"~|The Fremennik Trials|~ Complete the quest": "Quest"
+			}],
+			"Spined helm": [{
+				"~|The Fremennik Trials|~ Complete the quest": "Quest"
+			}],
+			"Spined body": [{
+				"~|The Fremennik Trials|~ Complete the quest": "Quest"
+			}],
+			"Spined chaps": [{
+				"~|The Fremennik Trials|~ Complete the quest": "Quest"
+			}],
+			"Skeletal helm": [{
+				"~|The Fremennik Trials|~ Complete the quest": "Quest"
+			}],
+			"Skeletal top": [{
+				"~|The Fremennik Trials|~ Complete the quest": "Quest"
+			}],
+			"Skeletal bottoms": [{
+				"~|The Fremennik Trials|~ Complete the quest": "Quest"
+			}],
+			"Skeletal gloves": [{
+				"~|The Fremennik Trials|~ Complete the quest": "Quest"
+			}],
+			"Skeletal boots": [{
 				"~|The Fremennik Trials|~ Complete the quest": "Quest"
 			}],
 			"Skewer": [{
@@ -267059,6 +267424,18 @@
 			"Ferocious ring (5)^": [{
 				"Receive a slayer assignment from ~|Kuradal|~": "Slayer"
 			}],
+			"Gold charm^Ankou": [{
+				"Members only": "Nonskill"
+			}],
+			"Gold charm^Catablepon": [{
+				"Members only": "Nonskill"
+			}],
+			"Gold charm^Scorpion": [{
+				"Members only": "Nonskill"
+			}],
+			"Gold charm^Skeleton#Unarmed": [{
+				"Members only": "Nonskill"
+			}],
 			"Green charm^": [{
 				"Members only": "Nonskill"
 			}],
@@ -267066,6 +267443,12 @@
 				"Members only": "Nonskill"
 			}],
 			"Blue charm^": [{
+				"Members only": "Nonskill"
+			}],
+			"Potato seed^Catablepon": [{
+				"Members only": "Nonskill"
+			}],
+			"Onion seed^Catablepon": [{
 				"Members only": "Nonskill"
 			}],
 			"Cabbage seed^": [{
@@ -267311,6 +267694,30 @@
 			"Elder seed^": [{
 				"Members only": "Nonskill"
 			}],
+			"Grimy guam^Ankou": [{
+				"Members only": "Nonskill"
+			}],
+			"Grimy guam^Catablepon": [{
+				"Members only": "Nonskill"
+			}],
+			"Grimy guam^Flesh Crawler": [{
+				"Members only": "Nonskill"
+			}],
+			"Grimy guam^Zombie (Stronghold of Security)": [{
+				"Members only": "Nonskill"
+			}],
+			"Grimy tarromin^Ankou": [{
+				"Members only": "Nonskill"
+			}],
+			"Grimy tarromin^Catablepon": [{
+				"Members only": "Nonskill"
+			}],
+			"Grimy tarromin^Flesh Crawler": [{
+				"Members only": "Nonskill"
+			}],
+			"Grimy tarromin^Zombie (Stronghold of Security)": [{
+				"Members only": "Nonskill"
+			}],
 			"Grimy marrentill^": [{
 				"Members only": "Nonskill"
 			}],
@@ -267360,6 +267767,9 @@
 				"Members only": "Nonskill"
 			}],
 			"Grimy fellstalk^": [{
+				"Members only": "Nonskill"
+			}],
+			"Law talisman^": [{
 				"Members only": "Nonskill"
 			}],
 			"Dragon defender^": [{
@@ -267443,10 +267853,128 @@
 			"Red dragonhide^Giant mole (Hard Mode)": [{
 				"Members only": "Nonskill"
 			}],
-			"Blood rune^Giant mole (Hard Mode)": [{
+			"Water rune^Minotaur": [{
 				"Members only": "Nonskill"
 			}],
+			"Earth rune^Minotaur": [{
+				"Members only": "Nonskill"
+			}],
+			"Chaos rune^Catablepon": [{
+				"Members only": "Nonskill"
+			}],
+			"Cosmic rune^Catablepon": [{
+				"Members only": "Nonskill"
+			}],
+			"Blood rune^": [{
+				"Members only": "Nonskill"
+			}],
+			"Mole claw^Giant mole": [{
+				"Members only": "Nonskill"
+			}],
+			"Mole nose^Giant mole": [{
+				"Members only": "Nonskill"
+			}, {
+				"~|Falador Achievements#Elite|~ Complete the Elite Achievements": "Diary"
+			}],
 			"Ultra-growth potion^Giant mole (Hard Mode)": [{
+				"Members only": "Nonskill"
+			}],
+			"Mole claw^Giant mole (Hard Mode)": [{
+				"Members only": "Nonskill"
+			}, {
+				"~|Falador Achievements#Elite|~ Complete the Elite Achievements": "Diary"
+			}],
+			"Mole nose^Giant mole (Hard Mode)": [{
+				"Members only": "Nonskill"
+			}],
+			"Lady Grey's guitar^": [{
+				"~|That Old Black Magic|~ 2": "Quest"
+			}],
+			"Animated drumsticks^": [{
+				"~|That Old Black Magic|~ 3c1": "Quest"
+			}],
+			"Corruption sigil^": [{
+				"Obtain a dragon defender": "Nonskill"
+			}],
+			"Ancient emblem^": [{
+				"Obtain a corrupted defender": "Nonskill"
+			}],
+			"Perfect chitin^": [{
+				"Obtain an ancient defender": "Nonskill"
+			}],
+			"Bronze spear^": [{
+				"Members only": "Nonskill"
+			}],
+			"Iron spear^": [{
+				"Members only": "Nonskill"
+			}],
+			"Steel spear^": [{
+				"Members only": "Nonskill"
+			}],
+			"Mithril spear^": [{
+				"Members only": "Nonskill"
+			}],
+			"Adamant spear^": [{
+				"Members only": "Nonskill"
+			}],
+			"Bronze hasta^": [{
+				"Members only": "Nonskill"
+			}],
+			"Iron hasta^": [{
+				"Members only": "Nonskill"
+			}],
+			"Steel hasta^": [{
+				"Members only": "Nonskill"
+			}],
+			"Mithril hasta^": [{
+				"Members only": "Nonskill"
+			}],
+			"Adamant hasta^": [{
+				"Members only": "Nonskill"
+			}],
+			"Bronze halberd^": [{
+				"Members only": "Nonskill"
+			}],
+			"Iron halberd^": [{
+				"Members only": "Nonskill"
+			}],
+			"Steel halberd^": [{
+				"Members only": "Nonskill"
+			}],
+			"Mithril halberd^": [{
+				"Members only": "Nonskill"
+			}],
+			"Adamant halberd^": [{
+				"Members only": "Nonskill"
+			}],
+			"Toad's legs^": [{
+				"Members only": "Nonskill"
+			}],
+			"Tiny spiky bronze salvage^Hobgoblin#Unarmed": [{
+				"Members only": "Nonskill"
+			}],
+			"Bass^": [{
+				"Members only": "Nonskill"
+			}],
+			"Battlestaff^": [{
+				"Members only": "Nonskill"
+			}],
+			"Ghostly essence^": [{
+				"Members only": "Nonskill"
+			}],
+			"Deployable herb burner^": [{
+				"Members only": "Nonskill"
+			}],
+			"Black full helm^Catablepon": [{
+				"Members only": "Nonskill"
+			}],
+			"Tiny plated adamant salvage^Catablepon": [{
+				"Members only": "Nonskill"
+			}],
+			"Unlit torch^": [{
+				"Members only": "Nonskill"
+			}],
+			"Unicorn horn": [{
 				"Members only": "Nonskill"
 			}]
 		},
@@ -267597,6 +268125,11 @@
 				}],
 				"11834": [{
 					"Flash Events enabled": "Nonskill"
+				}]
+			},
+			"Experiment No.2": {
+				"Witch's House Underground": [{
+					"~|Grim Tales|~ 2b1": "Quest"
 				}]
 			},
 			"General Graardor (Hard Mode)": {
@@ -268385,6 +268918,11 @@
 					"~|Stellar Born|~ Complete the quest": "Quest"
 				}]
 			},
+			"Fire": {
+				"10553": [{
+					"~|The Fremennik Trials|~ Complete the quest": "Quest"
+				}]
+			},
 			"Fishing spot (big fishing net, harpoon)": {
 				"11317": [{
 					"Members only": "Nonskill"
@@ -268811,11 +269349,6 @@
 			"Scavvo's Rune Store": {
 				"12596-1": [{
 					"Champions Guild Questpoints": "Nonskill"
-				}]
-			},
-			"Shattered Worlds Reward Shop": {
-				"12593": [{
-					"Shattered Worlds rewards*": "Nonskill" 
 				}]
 			},
 			"Sidekix's Shop of Balance": {
@@ -270443,7 +270976,8 @@
 			"Hope Nibbler": true,
 			"Meilyr potion recipe": true,
 			"Scroll of quick teleportation": true,
-			"Scroll of gathering": true
+			"Scroll of gathering": true,
+			"Retro primal armour set": true
 		},
 		"Daemonheim Rewards (F2P)": {
 			"Gem bag": true,
@@ -311036,7 +311570,8 @@
 			"0": [
 				"10286",
 				"10029",
-				"9774"
+				"9774",
+				"10287-2"
 			]
 		},
 		"10031": {
@@ -311236,7 +311771,9 @@
 				"10286",
 				"10031"
 			],
-			"2": []
+			"2": [
+				"10030"
+			]
 		},
 		"10288": {
 			"1": [
@@ -311893,15 +312430,15 @@
 		},
 		"11319": {
 			"1": [
-				"11320-1",
+				"11320-4",
 				"11575-1"
 			],
 			"2": [
-				"11320-1",
+				"11320-4",
 				"11063-3"
 			],
 			"3": [
-				"11320-1"
+				"11320-3"
 			],
 			"4": [
 				"11320-1"
@@ -311913,19 +312450,27 @@
 		"11320": {
 			"1": [
 				"11576-2",
-				"11319-1",
-				"11319-2",
-				"11319-3",
 				"11319-4"
 			],
 			"2": [
 				"11576-1"
+			],
+			"3": [
+				"11319-3"
+			],
+			"4": [
+				"11319-1",
+				"11319-2"
+			],
+			"5": [
+				"11321-1"
 			]
 		},
 		"11321": {
 			"1": [
 				"11322-1",
-				"11577-1"
+				"11577-1",
+				"11320-5"
 			],
 			"2": [
 				"11065-2"
@@ -312742,10 +313287,7 @@
 			]
 		},
 		"12592": {
-			"1": [
-				"12593"
-			],
-			"2": [
+			"0": [
 				"12848"
 			]
 		},
@@ -312753,7 +313295,6 @@
 			"0": [
 				"12594",
 				"12849",
-				"12592-1",
 				"12337-2"
 			]
 		},
@@ -312971,7 +313512,7 @@
 			"0": [
 				"13104-1",
 				"12847",
-				"12592-2"
+				"12592"
 			]
 		},
 		"12849": {
