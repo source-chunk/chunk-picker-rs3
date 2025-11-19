@@ -129602,7 +129602,7 @@
 				"Category": ["Unlock Abilities"],
 				"Label": "Unlockable Abilities",
 				"Skills": {
-					"Melee": 65
+					"Attack": 65
 				},
 				"Items": ["Bladed Dive ability"],
 				"NoBoost": true
@@ -168855,11 +168855,7 @@
 				"Quiet Before the Swarm": "step",
 				"A Void Dance": "first"
 			},
-			"Connect": {
-				"12693": true,
-				"13899": true
-			},
-			"Nickname": "Void knights' Outpost"
+			"Nickname": "Void Knights' Outpost"
 		},
 		"10540": {
 			"Object": {
@@ -178758,9 +178754,6 @@
 			"Spawn": {
 				"Swamp tar": 7
 			},
-			"Shop": {
-				"Shattered Worlds Reward Shop": true
-			},
 			"Quest": {
 				"Another Slice of H.A.M.": "step",
 				"Boric's Task II (miniquest)": "step",
@@ -178813,7 +178806,7 @@
 			"Quest": {
 				"Lost City": "first"
 			},
-			"Nickname": "Lumbridge Crater"
+			"Nickname": "Lumbridge Forest"
 		},
 		"12595": {
 			"Object": {
@@ -267974,7 +267967,7 @@
 			"Unlit torch^": [{
 				"Members only": "Nonskill"
 			}],
-			"Unicorn horn": [{
+			"Unicorn horn^": [{
 				"Members only": "Nonskill"
 			}]
 		},
