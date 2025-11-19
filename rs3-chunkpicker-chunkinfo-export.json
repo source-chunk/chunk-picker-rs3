@@ -115582,7 +115582,7 @@
 			},
 			"~|Varrock Achievements#Easy|~ Strike a Pose": {
 				"Description": "Access Thessalia's Makeovers through Thessalia.",
-				"Chunks": ["Pose[+]"],
+				"Chunks": ["12853-1"],
 				"BaseQuest": "Varrock Achievements",
 				"Category": ["Show Diary Tasks"]
 			},
@@ -210448,7 +210448,6 @@
 			"Orthen[+]": ["15428-1", "16454-1", "16193-1", "16704-1"],
 			"Pet shop[+]": ["10288-1", "11573"],
 			"PoisonWasteChunks[+]": ["8752-1", "8752-4", "9008-1"],
-			"Pose[+]": ["12853-1", "Keldagrim"],
 			"PrayerAltarChunks[+]": ["11828", "10290", "10806-1", "12854", "Underground Pass", "10035-1", "10291", "12850-1", "Sunken Tutorial Island", "11825-1", "11574", "11575-1", "13617-1", "12086", "11316", "Goblin Temple", "8757", "8755", "9265-1", "Jaldraocht Pyramid", "12331-1", "13622", "13098-1", "10803", "Nature Grotto", "War's Retreat", "Senntisten Temple", "God Wars Dungeon", "Kharid-et - Barracks excavation site", "14388-1", "12087-3", "11830-1", "12852", "12856", "11835", "Yanille Agility Dungeon", "9778-1", "9012-1", "11056", "11051-1", "Uzer Mastaba", "8508", "13613", "11829-1", "7995"],
 			"Priffdinas[+]": ["8501-1", "8501-2", "8500", "8499-1", "8499-2", "8757", "8756-1", "8756-2", "8756-3", "8756-4", "8756-5", "8756-6", "8756-7", "8755", "9013", "9012-1", "9012-2", "9011-1", "9011-2", "9011-5"],
 			"PVP[+]": ["8493", "9005", "9520", "11831-1", "11832-1", "11833-1", "11834", "11837", "12087-1", "12088", "12089", "12090", "12091-1", "12091-2", "12092-1", "12092-2", "12092-3", "12092-4", "12092-5", "12092-6", "12343-1", "12344", "12347-1", "12347-2", "12348-1", "12348-2", "12599", "12600", "12603-1", "12603-2", "12604-1", "12604-2", "12604-3", "12605", "12855", "12856", "12859-1", "12859-2", "13111", "13114", "13367-3", "13368-1", "13372-1", "13372-2", "Forinthry Dungeon", "Gamers' Grotto", "TzHaar City"],
@@ -210553,7 +210552,6 @@
 			"Orthen[+]": "Any chunk that is part of the Orthen digsite",
 			"Pet shop[+]": "Any chunk with a pet shop",
 			"PoisonWasteChunks[+]": "Any chunk from which you can get swamp tar from the poison waste",
-			"Pose[+]": "Any chunk from which you can complete the strike a pose achievement",
 			"PrayerAltarChunks[+]": "Any chunk with a prayer altar in it",
 			"Prifddinas[+]": "Any Prifddinas chunk",
 			"PVP[+]": "Any chunk where you can attack other players (Wilderness or minigame)",
