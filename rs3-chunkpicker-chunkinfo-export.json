@@ -115386,7 +115386,7 @@
 				"Category": ["Show Diary Tasks"]
 			},
 			"~|Underworld Achievements#Hard|~ Necro Necronium": {
-				"Description": "Smith a necronium bar at the smithy in the City of Um",
+				"Description": "Smelt a necronium bar at the smithy in the City of Um",
 				"Chunks": ["City of Um"],
 				"Items": ["Necrite ore", "Phasmatite"],
 				"Tasks": {
@@ -126798,7 +126798,10 @@
 				"Category": ["Comp achievements", "Trim achievements"],
 				"Description": "Unlock the energy-gathering scrimshaw scroll from Waiko ports reward shop.",
 				"BaseQuest": "Completionist achievements",
-				"Chunks": ["The Arc"],
+				"Chunks": ["The Arc", "Player-Owned Ports"],
+				"Skills": {
+					"Divination": 80
+				},
 				"Tasks": {
 					"~|Impressing the Locals|~ Complete the quest": "Quest"
 				},
@@ -126919,7 +126922,10 @@
 				"Category": ["Comp achievements", "Trim achievements"],
 				"Description": "Unlock the memory-crushing scrimshaw scroll from the Waiko ports reward shop.",
 				"BaseQuest": "Completionist achievements",
-				"Chunks": ["The Arc"],
+				"Chunks": ["The Arc", "Player-Owned Ports"],
+				"Skills": {
+					"Divination": 80
+				},
 				"Tasks": {
 					"~|Impressing the Locals|~ Complete the quest": "Quest"
 				},
@@ -127383,7 +127389,10 @@
 				"Category": ["Comp achievements", "Trim achievements"],
 				"Description": "Unlock the death lotus gloves and boots scrolls from the Waiko reward shop.",
 				"BaseQuest": "Completionist achievements",
-				"Chunks": ["The Arc"],
+				"Chunks": ["The Arc", "Player-Owned Ports"],
+				"Skills": {
+					"Crafting": 90
+				},
 				"Tasks": {
 					"~|Impressing the Locals|~ Complete the quest": "Quest"
 				},
@@ -127393,7 +127402,10 @@
 				"Category": ["Comp achievements", "Trim achievements"],
 				"Description": "Unlock the seasinger gloves and boots scrolls from the Waiko reward shop.",
 				"BaseQuest": "Completionist achievements",
-				"Chunks": ["The Arc"],
+				"Chunks": ["The Arc", "Player-Owned Ports"],
+				"Skills": {
+					"Runecrafting": 90
+				},
 				"Tasks": {
 					"~|Impressing the Locals|~ Complete the quest": "Quest"
 				},
@@ -127403,7 +127415,10 @@
 				"Category": ["Comp achievements", "Trim achievements"],
 				"Description": "Unlock the tetsu gloves and boots scrolls from the Waiko reward shop.",
 				"BaseQuest": "Completionist achievements",
-				"Chunks": ["The Arc"],
+				"Chunks": ["The Arc", "Player-Owned Ports"],
+				"Skills": {
+					"Smithing": 90
+				},
 				"Tasks": {
 					"~|Impressing the Locals|~ Complete the quest": "Quest"
 				},
@@ -129602,7 +129617,7 @@
 				"Category": ["Unlock Abilities"],
 				"Label": "Unlockable Abilities",
 				"Skills": {
-					"Melee": 65
+					"Attack": 65
 				},
 				"Items": ["Bladed Dive ability"],
 				"NoBoost": true
@@ -168855,11 +168870,7 @@
 				"Quiet Before the Swarm": "step",
 				"A Void Dance": "first"
 			},
-			"Connect": {
-				"12693": true,
-				"13899": true
-			},
-			"Nickname": "Void knights' Outpost"
+			"Nickname": "Void Knights' Outpost"
 		},
 		"10540": {
 			"Object": {
@@ -178758,9 +178769,6 @@
 			"Spawn": {
 				"Swamp tar": 7
 			},
-			"Shop": {
-				"Shattered Worlds Reward Shop": true
-			},
 			"Quest": {
 				"Another Slice of H.A.M.": "step",
 				"Boric's Task II (miniquest)": "step",
@@ -178813,7 +178821,7 @@
 			"Quest": {
 				"Lost City": "first"
 			},
-			"Nickname": "Lumbridge Crater"
+			"Nickname": "Lumbridge Forest"
 		},
 		"12595": {
 			"Object": {
@@ -179922,8 +179930,8 @@
 						"Duck": 11,
 						"Rat": 8,
 						"Imp": 1,
-						"Man": 4,
-						"Woman": 6,
+						"Man": 1,
+						"Woman": 2,
 						"Goblin (Lumbridge)": 28,
 						"Giant spider": 2,
 						"Lumbridge guardsman (Lumbridge Market)": 1
@@ -181519,7 +181527,6 @@
 					},
 					"Monster": {
 						"Unicorn": 2,
-						"Black bear": 1,
 						"Giant rat": 13,
 						"Goblin#Drop table 1": 1
 					},
@@ -267974,7 +267981,7 @@
 			"Unlit torch^": [{
 				"Members only": "Nonskill"
 			}],
-			"Unicorn horn": [{
+			"Unicorn horn^": [{
 				"Members only": "Nonskill"
 			}]
 		},
@@ -309158,19 +309165,10 @@
 				"Lava rune": {
 					"1": "1/2"
 				},
-				"Cosmic rune": {
-					"1": "1/2"
-				},
 				"Chaos rune": {
 					"1": "1/2"
 				},
-				"Nature rune": {
-					"1": "1/2"
-				},
 				"Death rune": {
-					"1": "1/2"
-				},
-				"Law rune": {
 					"1": "1/2"
 				},
 				"Soul rune": {
