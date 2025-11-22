@@ -72312,16 +72312,24 @@
 				"Primary": false,
 				"Priority": 3
 			},
-			"Steal from a ~|10-coins chest|~": {
+			"Loot a ~|chest (10 coins)|~": {
 				"Level": 13,
-				"Chunks": ["10coin chest[+]"],
+				"Objects": ["Chest (10 coins)"],
 				"Output": "Coins",
 				"Primary": true,
 				"Priority": 1
 			},
-			"Lockpick the door to a ~|10-coins chest|~": {
+			"Unlock the ~|chest (10 coins)|~ in Rellekka": {
 				"Level": 13,
-				"Chunks": ["10547-1"],
+				"Items": ["Lockpick"],
+				"Objects": ["Chest (Rellekka)"],
+				"Output": "Coins",
+				"Primary": true,
+				"Priority": 1
+			},
+			"Unlock the ~|chest (10 coins)|~ door to Ross' house": {
+				"Level": 13,
+				"Chunks": ["10291"],
 				"Primary": true,
 				"Priority": 2
 			},
@@ -72342,9 +72350,9 @@
 				"Primary": true,
 				"Priority": 1000
 			},
-			"Lockpick the entrance to the ~|H.A.M. hideout|~": {
+			"Unlock the entrance to the ~|H.A.M. hideout|~": {
 				"Level": 15,
-				"Chunks": ["12850-1"],
+				"Objects": ["Trapdoor (H.A.M. Hideout)"],
 				"Primary": true,
 				"Priority": 3
 			},
@@ -72372,17 +72380,11 @@
 				"Primary": true,
 				"Priority": 1002
 			},
-			"Lockpick the door to a ~|nature-rune chest|~": {
+			"Unlock the ~|chest (10 coins)|~ door at Ardougne Market": {
 				"Level": 16,
 				"Chunks": ["10547-1"],
 				"Primary": true,
 				"Priority": 1
-			},
-			"Lockpick the door to an ~|Ardougne house|~": {
-				"Level": 16,
-				"Chunks": ["10547-1"],
-				"Primary": true,
-				"Priority": 2
 			},
 			"Pickpocket a ~|H.A.M. member (male)|~": {
 				"Level": 20,
@@ -72417,9 +72419,9 @@
 				"Primary": true,
 				"Priority": 1001
 			},
-			"Steal from an ~|ogre coffin|~": {
+			"Unlock an ~|ogre coffin|~": {
 				"Level": 20,
-				"Chunks": ["9775-1"],
+				"Objects": ["Ogre Coffin"],
 				"Output": "Ogre coffin",
 				"Tasks": {
 					"~|Zogre Flesh Eaters|~ 1": "Quest"
@@ -72457,14 +72459,15 @@
 				"Primary": true,
 				"Priority": 2
 			},
-			"Steal from a ~|chest (magic axe hut)|~": {
+			"Loot a ~|chest (magic axe hut)|~": {
 				"Level": 23,
-				"Chunks": ["12605"],
+				"Items": ["Lockpick"],
+				"Objects": ["Chest (Magic axe hut)"],
 				"Output": "Magic axe chest",
 				"Primary": true,
 				"Priority": 1
 			},
-			"Lockpick the door to the ~|magic axe hut|~": {
+			"Unlock door to the ~|magic axe hut|~": {
 				"Level": 23,
 				"Items": ["Lockpick"],
 				"Chunks": ["12605"],
@@ -72526,9 +72529,9 @@
 				"Primary": true,
 				"Priority": 1
 			},
-			"Steal from a ~|nature-rune chest|~": {
+			"Loot a ~|chest (nature runes)|~": {
 				"Level": 28,
-				"Chunks": ["Naturerune chest[+]"],
+				"Objects": ["Chest (nature runes)"],
 				"Output": "Nature rune",
 				"Primary": true,
 				"Priority": 1
@@ -72542,7 +72545,7 @@
 				"Primary": false,
 				"Priority": 1
 			},
-			"Lockpick the gate in the ~|Ardougne sewers|~": {
+			"Unlock the gate in the ~|Ardougne sewers|~": {
 				"Level": 31,
 				"Chunks": ["10647"],
 				"Primary": true,
@@ -72603,7 +72606,7 @@
 				"Primary": true,
 				"Priority": 1
 			},
-			"Lockpick the door to the ~|pirates' hideout|~": {
+			"Unlock the door to the ~|pirates' hideout|~": {
 				"Level": 39,
 				"Chunks": ["12093"],
 				"Primary": true,
@@ -72656,9 +72659,9 @@
 				"Primary": true,
 				"Priority": 2
 			},
-			"Steal from a ~|50-coin chest|~": {
+			"Loot a ~|chest (50 coins)|~": {
 				"Level": 43,
-				"Chunks": ["50coin chest[+]"],
+				"Objects": ["Chest (50 coins)"],
 				"Output": "Coins",
 				"Primary": true,
 				"Priority": 1
@@ -72723,16 +72726,16 @@
 				"Primary": true,
 				"Priority": 2
 			},
-			"Lockpick the door to the ~|chaos druid tower|~": {
+			"Unlock the door to the ~|chaos druid tower|~": {
 				"Level": 46,
 				"Chunks": ["10292"],
 				"Primary": true,
 				"Priority": 3
 			},
-			"Steal from an ~|arrowhead chest|~": {
+			"Loot a ~|chest (steel arrowheads)|~": {
 				"Items": ["Lockpick"],
 				"Level": 47,
-				"Chunks": ["Arrowhead chest[+]"],
+				"Objects": ["Chest (steel arrowheads)"],
 				"Output": "Steel arrowheads",
 				"Primary": true,
 				"Priority": 1
@@ -72744,19 +72747,26 @@
 				"Primary": true,
 				"Priority": 1
 			},
+			"Pickpocket an ~|archaeologist trainee|~": {
+				"Level": 50,
+				"NPCs": ["Archaeologist trainee"],
+				"Output": "Archaeologist trainee",
+				"Primary": true,
+				"Priority": 1
+			},
 			"Steal from a ~|silver stall|~": {
 				"Level": 50,
 				"Objects": ["Silver stall"],
 				"Output": "Silver ore",
 				"Primary": true,
-				"Priority": 1
+				"Priority": 2
 			},
 			"Steal from a ~|silver stall (Keldagrim)|~": {
 				"Level": 50,
 				"Objects": ["Silver stall (Keldagrim)"],
 				"Output": "Silver stone spirit",
 				"Primary": true,
-				"Priority": 2
+				"Priority": 3
 			},
 			"Enter a tier one ~|Shifting Tombs|~": {
 				"Chunks": ["8300"],
@@ -72768,7 +72778,7 @@
 				},
 				"Output": "Shifting Tombs loot",
 				"Primary": true,
-				"Priority": 3
+				"Priority": 4
 			},
 			"Pickpocket a ~|H.A.M. member (male)|~ for quadruple loot": {
 				"Category": ["Multiple Pickpockets"],
@@ -72788,26 +72798,26 @@
 				"Primary": true,
 				"Priority": 1
 			},
-			"Steal from a ~|chest (Dorgesh-Kaan)|~": {
+			"Loot a ~|chest (Dorgesh-Kaan)|~": {
 				"Level": 52,
 				"Items": ["Lockpick"],
-				"Chunks": ["Dorgesh-Kaan"],
+				"Objects": ["Chest (Dorgesh-Kaan)"],
 				"Output": "Average chest",
 				"Primary": true,
 				"Priority": 1
 			},
-			"Steal from a ~|chest (Oldak)|~": {
+			"Loot a ~|chest (Oldak)|~": {
 				"Level": 52,
 				"Items": ["Lockpick"],
-				"Chunks": ["Dorgesh-Kaan"],
+				"Objects": ["Chest (Oldak)"],
 				"Output": "Oldak chest",
 				"Primary": true,
 				"Priority": 2
 			},
-			"Steal from a ~|chest (Zanik)|~": {
+			"Loot a ~|chest (Zanik)|~": {
 				"Level": 52,
 				"Items": ["Lockpick"],
-				"Chunks": ["Dorgesh-Kaan"],
+				"Objects": ["Chest (Zanik)"],
 				"Output": "Zanik chest",
 				"Primary": true,
 				"Priority": 3
@@ -72845,14 +72855,15 @@
 				"Primary": false,
 				"Priority": 1000
 			},
-			"Steal from a ~|blood rune chest|~": {
+			"Loot a ~|chest (blood runes)|~": {
 				"Level": 59,
-				"Chunks": ["10547-1", "10292"],
+				"Objects": ["Chest (blood runes)"],
+				"Chunks": ["10292"],
 				"Output": "Blood rune",
 				"Primary": true,
 				"Priority": 1
 			},
-			"Lockpick the door to the paladin chest in ~|Ardougne castle|~": {
+			"Unlock the door to the paladin chest in ~|Ardougne castle|~": {
 				"Level": 61,
 				"Chunks": ["10291"],
 				"Primary": true,
@@ -72886,6 +72897,13 @@
 				"Primary": true,
 				"Priority": 1
 			},
+			"Pickpocket a ~|Wizards' Tower mage|~": {
+				"Level": 64,
+				"NPCs": ["Wizards' Tower mage"],
+				"Output": "Wizards' Tower mage",
+				"Primary": true,
+				"Priority": 1
+			},
 			"Pickpocket a ~|watchman|~": {
 				"Level": 65,
 				"Monsters": ["Watchman"],
@@ -72908,10 +72926,10 @@
 				"Primary": true,
 				"Priority": 3
 			},
-			"Steal from a ~|chest (rogues' castle)|~": {
+			"Loot a ~|chest (Rogues' Castle)|~": {
 				"Level": 65,
 				"Items": ["Lockpick"],
-				"Chunks": ["13117"],
+				"Objects": ["Chest (Rogues' Castle)"],
 				"Output": "Rogue chest",
 				"Primary": true,
 				"Priority": 4
@@ -72986,7 +73004,7 @@
 				"Primary": true,
 				"Priority": 1
 			},
-			"Steal from a ~|chest (Scabarite Cavern)|~": {
+			"Loot a ~|chest (Scabarite Cavern)|~": {
 				"Level": 70,
 				"Items": ["Lockpick"],
 				"Objects": ["Chest (Scabarite Cavern)"],
@@ -73028,22 +73046,31 @@
 				"Primary": false,
 				"Priority": 1000
 			},
+			"Loot a ~|chest (Dwarven Mine)|~": {
+				"Level": 71,
+				"Items": ["Lockpick"],
+				"Objects": ["Chest (Dwarven Mine)"],
+				"Output": "Chest (Dwarven Mine)",
+				"Primary": true,
+				"Priority": 1
+			},
 			"Steal from the sixth room in ~|pyramid plunder|~": {
 				"Chunks": ["Pyramid Plunder"],
 				"Level": 71,
 				"Output": "PyramidPlunder",
 				"Primary": true,
-				"Priority": 1
+				"Priority": 2
 			},
 			"Wield a ~|pickpocketing bag|~": {
 				"Items": ["Pickpocketing bag"],
 				"Level": 71,
 				"Primary": false,
-				"Priority": 2
+				"Priority": 3
 			},
-			"Steal from a paladin chest in ~|Ardougne castle|~": {
+			"Loot a ~|chest (Ardougne Castle)|~": {
 				"Level": 72,
-				"Chunks": ["10291", "10803"],
+				"Chunks": ["10803"],
+				"Objects": ["Chest (Ardougne Castle)"],
 				"Output": "Paladin chest",
 				"Primary": true,
 				"Priority": 1
@@ -73061,6 +73088,14 @@
 				"Output": "Gem stall",
 				"Primary": true,
 				"Priority": 2
+			},
+			"Loot a ~|chest (Chaos Druid Tower)|~": {
+				"Level": 75,
+				"Items": ["Lockpick"],
+				"Objects": ["Chest (Chaos Druid Tower)"],
+				"Output": "Chest (Chaos Druid Tower)",
+				"Primary": true,
+				"Priority": 3
 			},
 			"Complete the ~|flash powder factory|~ minigame": {
 				"Category": ["Minigame"],
@@ -73113,13 +73148,28 @@
 				"Primary": true,
 				"Priority": 1
 			},
-			"Steal from a ~|chest (Dorgesh-Kaan, gem)|~": {
+			"Loot a ~|chest (Wizards' Tower)|~": {
+				"Level": 77,
+				"Items": ["Lockpick"],
+				"Objects": ["Chest (Wizards' Tower)"],
+				"Output": "Chest (Wizards' Tower)",
+				"Primary": true,
+				"Priority": 1
+			},
+			"Loot a ~|chest (Dorgesh-Kaan, gem)|~": {
 				"Level": 78,
 				"Items": ["Lockpick"],
-				"Chunks": ["Dorgesh-Kaan"],
+				"Objects": ["Chest (Dorgesh-Kaan, gem)"],
 				"Output": "Rich chest",
 				"Primary": true,
 				"Priority": 1
+			},
+			"Pickpocket an ~|archaeologist|~": {
+				"Level": 64,
+				"NPCs": ["Archaeologist"],
+				"Output": "Archaeologist",
+				"Primary": true,
+				"Priority": 2
 			},
 			"Pickpocket a ~|hero|~": {
 				"Level": 80,
@@ -73151,7 +73201,7 @@
 				"Primary": false,
 				"Priority": 2
 			},
-			"Lockpick the door to the ~|Yanille agility dungeon|~": {
+			"Unlock the door to the ~|Yanille agility dungeon|~": {
 				"Level": 82,
 				"Items": ["Lockpick"],
 				"Chunks": ["10288-1"],
@@ -73226,6 +73276,14 @@
 				"Output": "Cyclops (Cyclosis)",
 				"Primary": true,
 				"Priority": 1
+			},
+			"Loot a ~|chest (White Knights' Castle)|~": {
+				"Level": 88,
+				"Items": ["Lockpick"],
+				"Objects": ["Chest (White Knights' Castle)"],
+				"Output": "Chest (White Knights' Castle)",
+				"Primary": true,
+				"Priority": 2
 			},
 			"Pickpocket a ~|Trader|~": {
 				"Level": 90,
@@ -73414,12 +73472,27 @@
 				"Primary": true,
 				"Priority": 2
 			},
+			"Loot a ~|chest (Keldagrim)|~": {
+				"Level": 94,
+				"Items": ["Lockpick"],
+				"Objects": ["Chest (Keldagrim)"],
+				"Output": "Chest (Keldagrim)",
+				"Primary": true,
+				"Priority": 3
+			},
 			"Pickpocket a ~|Trahaearn worker|~": {
 				"Level": 95,
 				"NPCs": ["Trahaearn worker"],
 				"Output": "Trahaearn worker",
 				"Primary": true,
 				"Priority": 1
+			},
+			"Complete a heist of ~|The Vault of Hereditas|~": {
+				"Level": 95,
+				"Chunks": ["The Vault of Hereditas"],
+				"Output": "The Vault of Hereditas loot",
+				"Primary": true,
+				"Priority": 2
 			},
 			"Feed a ~|sated ancient effigy|~ with thieving": {
 				"Items": ["Sated ancient effigy (construction/thieving)"],
@@ -73506,6 +73579,14 @@
 				"Primary": true,
 				"Priority": 1
 			},
+			"Loot a ~|chest (Black Knights' Castle)|~": {
+				"Level": 98,
+				"Items": ["Lockpick"],
+				"Objects": ["Chest (Black Knights' Castle)"],
+				"Output": "Chest (Black Knights' Castle)",
+				"Primary": true,
+				"Priority": 2
+			},
 			"Buy the ~|Thieving cape|~": {
 				"Category": ["Skillcape"],
 				"NPCs": ["Martin Thwait"],
@@ -73555,6 +73636,167 @@
 					"Woodcutting": 99
 				},
 				"Priority": 2
+			},
+			"Pickpocket a ~|vampyre tither|~": {
+				"Level": 100,
+				"NPCs": ["Vampyre tither"],
+				"Output": "Vampyre tither",
+				"Primary": true,
+				"Priority": 1
+			},
+			"Loot a ~|chest (Living Rock Caverns)|~": {
+				"Level": 101,
+				"Items": ["Lockpick"],
+				"Objects": ["Chest (Living Rock Caverns)"],
+				"Output": "Chest (Living Rock Caverns)",
+				"Primary": true,
+				"Priority": 1
+			},
+			"Pickpocket a ~|Goebie scavenger|~": {
+				"Level": 102,
+				"NPCs": ["Goebie scavenger"],
+				"Output": "Goebie scavenger",
+				"Primary": true,
+				"Priority": 1
+			},
+			"Loot a ~|chest (Priffdinas)|~": {
+				"Level": 103,
+				"Items": ["Lockpick"],
+				"Objects": ["Chest (Priffdinas)"],
+				"Output": "Chest (Priffdinas)",
+				"Primary": true,
+				"Priority": 1
+			},
+			"Pickpocket a ~|Menaphos market guard|~": {
+				"Level": 104,
+				"NPCs": ["Menaphos market guard"],
+				"Output": "Menaphos market guard",
+				"Primary": true,
+				"Priority": 1
+			},
+			"Pickpocket a ~|Wizards' Tower master mage|~": {
+				"Level": 106,
+				"NPCs": ["Wizards' Tower master mage"],
+				"Output": "Wizards' Tower master mage",
+				"Primary": true,
+				"Priority": 1
+			},
+			"Loot a ~|chest (Ourania Cave)|~": {
+				"Level": 107,
+				"Items": ["Lockpick"],
+				"Objects": ["Chest (Ourania Cave)"],
+				"Output": "Chest (Ourania Cave)",
+				"Primary": true,
+				"Priority": 1
+			},
+			"Steal from a ~|spirit stall|~": {
+				"Level": 107,
+				"Objects": ["Spirit stall"],
+				"Output": "Spirit stall",
+				"Primary": true,
+				"Priority": 2
+			},
+			"Pickpocket an ~|archaeology professor|~": {
+				"Level": 108,
+				"NPCs": ["Archaeology professor"],
+				"Output": "Archaeology professor",
+				"Primary": true,
+				"Priority": 1
+			},
+			"Loot a ~|chest (Wizards' Guild)|~": {
+				"Level": 110,
+				"Items": ["Lockpick"],
+				"Objects": ["Chest (Wizards' Guild)"],
+				"Output": "Chest (Wizards' Guild)",
+				"Primary": true,
+				"Priority": 1
+			},
+			"Pickpocket a ~|TzHaar-Hur trader|~": {
+				"Level": 111,
+				"NPCs": ["TzHaar-Hur trader"],
+				"Output": "TzHaar-Hur trader",
+				"Primary": true,
+				"Priority": 1
+			},
+			"Loot a ~|chest (City of Um)|~": {
+				"Level": 112,
+				"Items": ["Lockpick"],
+				"Objects": ["Chest (City of Um)"],
+				"Output": "Chest (City of Um)",
+				"Primary": true,
+				"Priority": 1
+			},
+			"Pickpocket a ~|fairy trader|~": {
+				"Level": 113,
+				"NPCs": ["Fairy trader"],
+				"Output": "Fairy trader",
+				"Primary": true,
+				"Priority": 1
+			},
+			"Steal from a ~|Zanaris Market seed stall|~": {
+				"Level": 114,
+				"Objects": ["Zanaris Market seed stall"],
+				"Output": "Zanaris Market seed stall",
+				"Primary": true,
+				"Priority": 1
+			},
+			"Steal from a ~|meat stall|~": {
+				"Level": 115,
+				"Objects": ["Meat stall"],
+				"Output": "Meat stall",
+				"Primary": true,
+				"Priority": 1
+			},
+			"Loot a ~|chest (Darkmeyer)|~": {
+				"Level": 116,
+				"Items": ["Lockpick"],
+				"Objects": ["Chest (Darkmeyer)"],
+				"Output": "Chest (Darkmeyer)",
+				"Primary": true,
+				"Priority": 1
+			},
+			"Steal from a ~|Zanaris Market trinket stall|~": {
+				"Level": 116,
+				"Objects": ["Zanaris Market trinket stall"],
+				"Output": "Zanaris Market trinket stall",
+				"Primary": true,
+				"Priority": 2
+			},
+			"Steal from a ~|Darkmeyer magic stall|~": {
+				"Level": 117,
+				"Objects": ["Darkmeyer magic stall"],
+				"Output": "Darkmeyer magic stall",
+				"Primary": true,
+				"Priority": 1
+			},
+			"Pickpocket a ~|vyrelord consumer|~ or a vyrelady consumer": {
+				"Level": 118,
+				"NPCs": ["Vyrelord consumer[+]"],
+				"Output": "Vyrelord consumer[+]",
+				"Primary": true,
+				"Priority": 1
+			},
+			"Loot a ~|chest (Rasial's Citadel)|~": {
+				"Level": 119,
+				"Items": ["Lockpick"],
+				"Objects": ["Chest (Rasial's Citadel)"],
+				"Output": "Chest (Rasial's Citadel)",
+				"Primary": true,
+				"Priority": 1
+			},
+			"Steal from a ~|potion stall|~": {
+				"Level": 119,
+				"Objects": ["Potion stall"],
+				"Output": "Potion stall",
+				"Primary": true,
+				"Priority": 1
+			},
+			"Complete a heist of ~|The Asuran Arsenal|~": {
+				"Level": 108,
+				"Chunks": ["The Asuran Arsenal"],
+				"Output": "The Asuran Arsenal loot",
+				"Primary": true,
+				"Priority": 1
 			},
 			"Buy the ~|Thieving master cape|~": {
 				"Category": ["Skillcape"],
@@ -126136,7 +126378,7 @@
 					"Smithing": 110,
 					"Strength": 99,
 					"Summoning": 99,
-					"Thieving": 99,
+					"Thieving": 120,
 					"Woodcutting": 110
 				},
 				"NoBoost": true,
@@ -167990,7 +168232,10 @@
 				"Lever": 1,
 				"Cupboard": 1,
 				"Watchtower fence": 8,
-				"Chest": 5,
+				"Chest": 3,
+				"Chest (10 coins)": 1,
+				"Chest (nature runes)": 1,
+				"Chest (Ardougne Castle)": 1,
 				"Rat trap": 1,
 				"Drawers": 20,
 				"Sink": 1,
@@ -169041,7 +169286,10 @@
 					"Object": {
 						"Manhole": 1,
 						"Gangplank": 2,
-						"Chest": 4,
+						"Chest": 1,
+						"Chest (10 coins)": 1,
+						"Chest (50 coins)": 1,
+						"Chest (nature runes)": 2,
 						"Crate": 22,
 						"Silver stall": 1,
 						"Silk stall": 2,
@@ -169225,7 +169473,7 @@
 				"Hay bale": 2,
 				"Closed chest": 2,
 				"Target": 5,
-				"Chest": 1,
+				"Chest (steel arrowheads)": 1,
 				"Cupboard": 1,
 				"Willow": 10,
 				"Oak": 15,
@@ -169406,7 +169654,10 @@
 				"Hay bale": 6,
 				"Potato": 7,
 				"Cabbage": 7,
-				"Chest": 6,
+				"Chest": 3,
+				"Chest (Rellekka)": 1,
+				"Chest (nature runes)": 1,
+				"Chest (steel arrowheads)": 1,
 				"Onion": 7,
 				"Boxes": 4,
 				"Pipe": 1,
@@ -176936,6 +177187,9 @@
 		"12093": {
 			"Object": {
 				"Closed chest": 4,
+				"Chest (10 coins)": 1,
+				"Chest (nature runes)": 1,
+				"Chest (50 coins)": 1,
 				"Crate": 4,
 				"Banite rock": 6,
 				"Anvil": 1,
@@ -178800,7 +179054,8 @@
 				"Memorial fountain": 1,
 				"Training dummy": 2,
 				"Well": 1,
-				"Tree patch": 1
+				"Tree patch": 1,
+				"Trapdoor (H.A.M. Hideout)": 1
 			},
 			"NPC": {
 				"Captain Harlan": 1,
@@ -178832,7 +179087,7 @@
 			"Quest": {
 				"Lost City": "first"
 			},
-			"Nickname": "Lumbridge Crater"
+			"Nickname": "Lumbridge Forest"
 		},
 		"12595": {
 			"Object": {
@@ -179243,7 +179498,7 @@
 		"12605": {
 			"Object": {
 				"Lever": 1,
-				"Chest": 3,
+				"Chest (Magic axe hut)": 2,
 				"Web": 1
 			},
 			"Monster": {
@@ -181894,7 +182149,7 @@
 		},
 		"13117": {
 			"Object": {
-				"Chest": 4,
+				"Chest (Rogues' Castle)": 4,
 				"Small obelisk": 1,
 				"Cooking range": 1
 			},
@@ -195406,7 +195661,10 @@
 			},
 			"Object": {
 				"Bookcase": 1,
-				"Chest": 23,
+				"Chest (Dorgesh-Kaan)": 10,
+				"Chest (Dorgesh-Kaan, gem)": 8,
+				"Chest (Zanik)": 1,
+				"Chest (Oldak)": 1,
 				"Bank booth": 6,
 				"Fountain": 4,
                 "Cooking range": 2,
@@ -197481,6 +197739,8 @@
 				"Mysterious ruins": 1,
 				"Crystal collector": 2,
 				"Closed chest": 9,
+				"Chest (50 coins)": 1,
+				"Chest (steel arrowheads)": 1,
 				"Pillar of Light": 5,
 				"Tunnel": 1,
 				"Rock": 1,
@@ -199569,7 +199829,8 @@
 		},
 		"Spirit Realm Magic Axe Hut": {
 			"Object": {
-				"Chest": 3
+				"Chest": 3,
+				"Chest (10 coins)": 1
 			},
 			"Monster": {
 				"Ghostly warrior": 9
@@ -200239,7 +200500,7 @@
 		},
 		"Chaos Druid Tower Dungeon": {
 			"Object": {
-				"Chest": 1,
+				"Chest (blood runes)": 1,
 				"Fire": 2
 			},
 			"Monster": {
@@ -210417,15 +210678,12 @@
 			"Filled Ushabti[+]": "Any ushabti that has a captured soul"
 		},
 		"chunksPlus": {
-			"10coin chest[+]": ["10291", "10547-1", "10553", "12109"],
-			"50coin chest[+]": ["10291", "10547-1"],
 			"AnachroniaRockChunk[+]": ["16709-1", "16448-1", "15426-1", "15425-1", "15428-1", "16195-1"],
 			"AnyMenaphosChunk[+]": ["12587-1", "12587-2", "12587-3", "12843-1", "12843-2", "12586", "12841-1", "12841-3"],
 			"AnyMenaphosCatLocation[+]": ["12330", "12587-1", "12843-1", "12841-1"],
 			"AnyTotemChunk[+]": ["15943-1", "15171", "16705-2"],
 			"ArchDigSite[+]": ["9516", "10549", "Star Lodge", "13361-1", "14898", "13626-1", "13882-1", "Senntisten", "Vault of Varanus", "Observation Outpost"],
 			"ArdougneGuardChunks[+]": ["10547-1", "10291", "10292"],
-			"Arrowhead chest[+]": ["10549", "10553"],
 			"Asgarnian safes[+]": ["11575-1", "11828", "12082-1", "12084-1", "12087-3"],
 			"BlastAndHellfire[+]": ["12593", "12851", "12850", "Lumbridge Catacombs"],
 			"CaptainsGnomeRestaurant[+]": ["13105", "Dwarven Tunnel"],
@@ -210479,7 +210737,6 @@
 			"MorytaniaChunks[+]": ["13623", "13621", "13620-1", "13620-2", "13619-2", "13879", "13878-1", "13878-2", "13878-3", "13877-1", "13877-2", "13877-3", "13876-1", "13876-2", "13875-1", "13875-2", "13875-3", "13875-4", "13874-1", "13874-2", "13874-3", "13873-1", "14135", "14134", "14133-1", "14133-2", "14133-3", "14131", "14130-1", "14130-2", "14130-3", "14130-4", "14129", "14391", "14390", "14389-1", "14647-1", "14646-2", "14646-3", "14645-1", "14644-1", "14643", "14642-1", "14642-2"],
 			"MournerChunks[+]": ["9266-2", "9267-1", "9523", "9524-2"],
 			"MysteriousStatueChunks[+]": ["10806-1", "10292", "10546-1", "10801"],
-			"Naturerune chest[+]": ["10291", "10547-1", "10553"],
 			"Orthen[+]": ["15428-1", "16454-1", "16193-1", "16704-1"],
 			"Pet shop[+]": ["10288-1", "11573"],
 			"PoisonWasteChunks[+]": ["8752-1", "8752-4", "9008-1"],
@@ -210521,15 +210778,12 @@
 			"YakAttackChunks[+]": ["9276", "9532-1", "9532-2"]
 		},
 		"chunksPlusNames": {
-			"10coin chest[+]": "Any chunk with a 10-coin chest",
-			"50coin chest[+]": "Any chunk with a 50-coin chest",
 			"AnachroniaRockChunk[+]": "Any chunk with an Anachronia rock in it",
 			"AnyMenaphosChunk[+]": "Any chunk inside Menaphos",
 			"AnyMenaphosCatLocation[+]": "Any Menaphos cat location",
 			"AnyTotemChunk[+]": "Any chunk with a totem hotspot",
 			"ArchDigSite[+]": "Any archaeology dig site",
 			"ArdougneGuardChunks[+]": "Any chunks with guards in Ardougne",
-			"Arrowhead chest[+]": "Any chunk with a arrowhead chest",
 			"Asgarnian safes[+]": "Any chunk in Asgarnia with safes",
 			"BlastAndHellfire[+]": "Any chunk where the Blast and Hellfire achievement may be completed",
 			"CaptainsGnomeRestaurant[+]": "Any chunk with a hard Gnome Restaurant delivery that accesses the gnome pilot loot table",
@@ -210583,7 +210837,6 @@
 			"MorytaniaChunks[+]": "Any chunks that count as part of Morytania",
 			"MournerChunks[+]": "Any chunk of the Arandar Pass",
 			"MysteriousStatueChunks[+]": "Any chunk with a mysterious statue in it",
-			"Naturerune chest[+]": "Any chunk with a nature-rune chest",
 			"Orthen[+]": "Any chunk that is part of the Orthen digsite",
 			"Pet shop[+]": "Any chunk with a pet shop",
 			"PoisonWasteChunks[+]": "Any chunk from which you can get swamp tar from the poison waste",
@@ -211184,7 +211437,8 @@
 			"Tanner[+]": ["Tanner", "Ellis", "Sbott", "Tanya Hyde", "Leatherworker"],
 			"Wisp[+]": ["Pale wisp", "Cursed wisp"],
 			"CrystalToolNPC[+]": ["Ilfeen", "Eluned", "Islwyn", "Rhodri Dail"],
-			"GoldenWarbler[+]": ["Golden warbler", "Golden warbler (Anachronia)"]
+			"GoldenWarbler[+]": ["Golden warbler", "Golden warbler (Anachronia)"],
+			"Vyrelord consumer[+]": ["Vyrelord consumer", "Vyrelady consumer"]
 		},
 		"npcsPlusNames": {
 			"Dyer[+]": "Access to either Rana or Aggie",
@@ -211198,7 +211452,8 @@
 			"StrengthMaster[+]": "Sloane or his replacement",
 			"Tanner[+]": "Any hide tanner",
 			"Wisp[+]": "Any level 1 wisp",
-			"GoldenWarbler[+]": "Any golden warbler variant"
+			"GoldenWarbler[+]": "Any golden warbler variant",
+			"Vyrelord consumer[+]": "A vyrelord or vyrelady consumer"
 		},
 		"tasksPlus": {
 			"A Taste of the Exotic[+]": ["Hard Ardougne tasks ~|A Taste of the Exotic|~ (Coconut)*", "Hard Ardougne tasks ~|A Taste of the Exotic|~ (Papaya)*"],
@@ -268842,6 +269097,14 @@
 					"Enter the ~|Cooks' Guild|~": "Cooking"
 				}]
 			},
+			"Chest (10 coins)": {
+				"10547-1": [{
+					"Unlock the ~|chest (10 coins)|~ door at Ardougne Market": "Thieving"
+				}],
+				"Spirit Realm Magic Axe Hut": [{
+					"Lockpick the door to the ~|magic axe hut|~": "Thieving"
+				}]
+			},
 			"Hopper": {
 				"12597-1": [{
 					"Enter the ~|Cooks' Guild|~": "Cooking"
@@ -308412,7 +308675,176 @@
 				"Corundum": {
 					"1": "1/750"
 				}
-			}	
+			},
+			"The Vault of Hereditas loot": {
+				"Gloomfire bow": {
+					"1": "1/5000"
+				},
+				"Legatus's emberstaff": {
+					"1": "1/5000"
+				},
+				"Misalionar's death mask": {
+					"1": "1/5000"
+				}
+			},
+			"The Asuran Arsenal loot": {
+				"Varanus's mercy": {
+					"1": "1/5000"
+				},
+				"Nodon spike harness": {
+					"1": "1/5000"
+				}
+			},
+			"Chest (Dwarven Mine)": {
+				"Placeholder": {
+					"1": "Always"
+				}
+			},
+			"Chest (Chaos Druid Tower)": {
+				"Placeholder": {
+					"1": "Always"
+				}
+			},
+			"Chest (Wizards' Tower)": {
+				"Placeholder": {
+					"1": "Always"
+				}
+			},
+			"Chest (White Knights' Castle)": {
+				"Placeholder": {
+					"1": "Always"
+				}
+			},
+			"Chest (Keldagrim)": {
+				"Placeholder": {
+					"1": "Always"
+				}
+			},
+			"Chest (Black Knights' Castle)": {
+				"Placeholder": {
+					"1": "Always"
+				}
+			},
+			"Chest (Living Rock Caverns)": {
+				"Placeholder": {
+					"1": "Always"
+				}
+			},
+			"Chest (Priffdinas)": {
+				"Placeholder": {
+					"1": "Always"
+				}
+			},
+			"Chest (Ourania Cave)": {
+				"Placeholder": {
+					"1": "Always"
+				}
+			},
+			"Chest (Wizards' Guild)": {
+				"Placeholder": {
+					"1": "Always"
+				}
+			},
+			"Chest (City of Um)": {
+				"Placeholder": {
+					"1": "Always"
+				}
+			},
+			"Chest (Darkmeyer)": {
+				"Placeholder": {
+					"1": "Always"
+				}
+			},
+			"Chest (Rasial's Citadel)": {
+				"Placeholder": {
+					"1": "Always"
+				}
+			},
+			"Spirit stall": {
+				"Placeholder": {
+					"1": "Always"
+				}
+			},
+			"Zanaris Market seed stall": {
+				"Placeholder": {
+					"1": "Always"
+				}
+			},
+			"Zanaris Market trinket stall": {
+				"Placeholder": {
+					"1": "Always"
+				}
+			},
+			"Meat stall": {
+				"Placeholder": {
+					"1": "Always"
+				}
+			},
+			"Darkmeyer magic stall": {
+				"Placeholder": {
+					"1": "Always"
+				}
+			},
+			"Potion stall": {
+				"Placeholder": {
+					"1": "Always"
+				}
+			},
+			"Archaeologist trainee": {
+				"Placeholder": {
+					"1": "Always"
+				}
+			},
+			"Wizards' Tower mage": {
+				"Placeholder": {
+					"1": "Always"
+				}
+			},
+			"Archaeologist": {
+				"Placeholder": {
+					"1": "Always"
+				}
+			},
+			"Vyrewatch tither": {
+				"Placeholder": {
+					"1": "Always"
+				}
+			},
+			"Goebie scavenger": {
+				"Placeholder": {
+					"1": "Always"
+				}
+			},
+			"Menaphos market guard": {
+				"Placeholder": {
+					"1": "Always"
+				}
+			},
+			"Wizards' Tower master mage": {
+				"Placeholder": {
+					"1": "Always"
+				}
+			},
+			"Archaeology professor": {
+				"Placeholder": {
+					"1": "Always"
+				}
+			},
+			"TzHaar-Hur trader": {
+				"Placeholder": {
+					"1": "Always"
+				}
+			},
+			"Fairy trader": {
+				"Placeholder": {
+					"1": "Always"
+				}
+			},
+			"Vyrelord consumer[+]": {
+				"Placeholder": {
+					"1": "Always"
+				}
+			}
 		},
 		"Woodcutting": {
 			"Overgrown idol": {
