@@ -72191,6 +72191,101 @@
 				"Primary": true,
 				"Priority": 4
 			},
+			"Pickpocket a ~|Dig Site workman|~": {
+				"NPCs": ["Dig Site workman"],
+				"Level": 1,
+				"Output": "DigSitePickpocket",
+				"Primary": true,
+				"Priority": 5
+			},
+			"Harvest a ~|winter sq'irk|~": {
+				"Chunks": ["Sorceress' Garden"],
+				"Level": 1,
+				"Skills": {
+					"Farming": 1
+				},
+				"Primary": true,
+				"Output": "Winter sq'irk",
+				"Priority": 6
+			},
+			"Harvest herbs from the ~|winter garden|~": {
+				"Chunks": ["Sorceress' Garden"],
+				"Level": 1,
+				"Skills": {
+					"Farming": 1
+				},
+				"Primary": true,
+				"Output": "WinterHerbs",
+				"Priority": 7
+			},
+			"Grow a ~|fly trap|~": {
+				"Items": ["Fly trap seed"],
+				"Objects": ["Allotment"],
+				"Level": 1,
+				"Skills": {
+					"Farming": 93
+				},
+				"Primary": true,
+				"Priority": 1000
+			},
+			"Train thieving in ~|Daemonheim|~": {
+				"Category": ["Daemonheim training"],
+				"Tasks": {
+					"Unlock ~|frozen floors|~": "Dungeoneering"
+				},
+				"Level": 1,
+				"Primary": true,
+				"Priority": 1001
+			},
+			"Read a thieving tome from ~|Temple Trekking|~": {
+				"Category": ["DnD"],
+				"Chunks": ["Temple Trekking Routes"],
+				"Level": 1,
+				"Primary": true,
+				"Priority": 1001
+			},	
+			"Steal from a ~|vegetable stall|~": {
+				"Level": 2,
+				"Objects": ["Vegetable stall"],
+				"Output": "Vegetable stall",
+				"Primary": true,
+				"Priority": 1
+			},
+			"Steal from a ~|bakery stall|~": {
+				"Level": 5,
+				"Objects": ["Bakery stall"],
+				"Output": "Bakery stall",
+				"Primary": true,
+				"Priority": 1
+			},
+			"Steal from a ~|tea stall|~": {
+				"Level": 5,
+				"Objects": ["Tea stall"],
+				"Output": "Cup of tea",
+				"Primary": true,
+				"Priority": 2
+			},
+			"Steal from a ~|crafting stall|~": {
+				"Level": 5,
+				"Objects": ["Crafting stall"],
+				"Output": "Crafting stall",
+				"Primary": true,
+				"Priority": 3
+			},
+			"Steal from ~|Ifaba's general store|~": {
+				"Level": 5,
+				"Objects": ["General stall"],
+				"Output": "General stall",
+				"Primary": true,
+				"Priority": 4
+			},
+			"Steal from ~|Solihib's food stall|~": {
+				"Level": 5,
+				"Objects": ["Food stall"],
+				"Output": "Banana",
+				"Primary": true,
+				"Priority": 5
+			},
 			"Pickpocket a ~|farmer|~": {
 				"Level": 10,
 				"Monsters": ["Farmer"],
@@ -72208,12 +72303,34 @@
 				"Primary": true,
 				"Priority": 1
 			},
+			"Wield an ~|oak blackjack (o)|~": {
+				"Items": ["Oak blackjack (o)"],
+				"Level": 10,
+				"Skills": {
+					"Attack": 10
+				},
+				"Primary": false,
+				"Priority": 3
+			},
+			"Steal from a ~|10-coins chest|~": {
+				"Level": 13,
+				"Chunks": ["10coin chest[+]"],
+				"Output": "Coins",
+				"Primary": true,
+				"Priority": 1
+			},
+			"Lockpick the door to a ~|10-coins chest|~": {
+				"Level": 13,
+				"Chunks": ["10547-1"],
+				"Primary": true,
+				"Priority": 2
+			},
 			"Pickpocket a ~|H.A.M. member (female)|~": {
 				"Level": 15,
 				"NPCs": ["H.A.M. member (female)"],
 				"Output": "Ham member",
 				"Primary": true,
-				"Priority": 2
+				"Priority": 1
 			},
 			"Pickpocket a ~|H.A.M. member (female)|~ after caper 2": {
 				"Level": 15,
@@ -72223,14 +72340,56 @@
 				"NPCs": ["H.A.M. member (female)"],
 				"Output": "Ham member (lhm)",
 				"Primary": true,
+				"Priority": 1000
+			},
+			"Lockpick the entrance to the ~|H.A.M. hideout|~": {
+				"Level": 15,
+				"Chunks": ["12850-1"],
+				"Primary": true,
+				"Priority": 3
+			},
+			"Steal from a ~|silk stall|~": {
+				"Level": 15,
+				"Objects": ["Silk stall"],
+				"Output": "Silk",
+				"Primary": true,
+				"Priority": 4
+			},
+			"Steal from a ~|rock cake stall|~": {
+				"Level": 15,
+				"Objects": ["Rock cake stall"],
+				"Output": "Rock cake",
+				"Primary": true,
+				"Priority": 1001
+			},
+			"Steal a ~|cowbell|~ from a dairy cow": {
+				"Level": 15,
+				"NPCs": ["Dairy cow"],
+				"Tasks": {
+					"~|Cold War|~ 1": "Quest"
+				},
+				"Output": "Cowbell",
+				"Primary": true,
+				"Priority": 1002
+			},
+			"Lockpick the door to a ~|nature-rune chest|~": {
+				"Level": 16,
+				"Chunks": ["10547-1"],
+				"Primary": true,
 				"Priority": 1
+			},
+			"Lockpick the door to an ~|Ardougne house|~": {
+				"Level": 16,
+				"Chunks": ["10547-1"],
+				"Primary": true,
+				"Priority": 2
 			},
 			"Pickpocket a ~|H.A.M. member (male)|~": {
 				"Level": 20,
 				"NPCs": ["H.A.M. member (male)"],
 				"Output": "Ham member",
 				"Primary": true,
-				"Priority": 4
+				"Priority": 1
 			},
 			"Pickpocket a ~|H.A.M. member (male)|~ after caper 2": {
 				"Level": 20,
@@ -72240,7 +72399,7 @@
 				"NPCs": ["H.A.M. member (male)"],
 				"Output": "Ham member (lhm)",
 				"Primary": true,
-				"Priority": 3
+				"Priority": 1000
 			},
 			"Pickpocket a ~|Guard (H.A.M.)|~": {
 				"Level": 20,
@@ -72256,7 +72415,7 @@
 				"Monsters": ["Guard (H.A.M.)"],
 				"Output": "Ham guard (lhm)",
 				"Primary": true,
-				"Priority": 1
+				"Priority": 1001
 			},
 			"Steal from an ~|ogre coffin|~": {
 				"Level": 20,
@@ -72266,7 +72425,7 @@
 					"~|Zogre Flesh Eaters|~ 1": "Quest"
 				},
 				"Primary": true,
-				"Priority": 6
+				"Priority": 3
 			},
 			"Wield an ~|willow blackjack (o)|~": {
 				"Items": ["Willow blackjack (o)"],
@@ -72275,7 +72434,7 @@
 					"Attack": 20
 				},
 				"Primary": false,
-				"Priority": 7
+				"Priority": 4
 			},
 			"Steal from the first room in ~|pyramid plunder|~": {
 				"Chunks": ["Pyramid Plunder"],
@@ -72283,6 +72442,34 @@
 				"Output": "PyramidPlunder",
 				"Primary": true,
 				"Priority": 1
+			},
+			"Steal from a ~|wine stall|~": {
+				"Level": 22,
+				"Objects": ["Wine stall"],
+				"Output": "Wine stall",
+				"Primary": true,
+				"Priority": 1
+			},
+			"Steal from the Draynor ~|wine stall|~": {
+				"Level": 22,
+				"Objects": ["Draynor wine stall"],
+				"Output": "Draynor wine stall",
+				"Primary": true,
+				"Priority": 2
+			},
+			"Steal from a ~|chest (magic axe hut)|~": {
+				"Level": 23,
+				"Chunks": ["12605"],
+				"Output": "Magic axe chest",
+				"Primary": true,
+				"Priority": 1
+			},
+			"Lockpick the door to the ~|magic axe hut|~": {
+				"Level": 23,
+				"Items": ["Lockpick"],
+				"Chunks": ["12605"],
+				"Primary": true,
+				"Priority": 2
 			},
 			"Pickpocket a ~|warrior woman|~": {
 				"Level": 25,
@@ -72297,6 +72484,63 @@
 				"Output": "Court summons",
 				"Primary": true,
 				"Priority": 2
+			},
+			"Crack a ~|wall safe|~": {
+				"Level": 25,
+				"Chunks": ["Rogues' Den"],
+				"Output": "WallSafe",
+				"Primary": true,
+				"Priority": 3
+			},
+			"Steal a feather from the ~|Desert Phoenix|~": {
+				"NPCs": ["Desert Phoenix"],
+				"Level": 25,
+				"Primary": true,
+				"Output": "Phoenix feather",
+				"Priority": 4
+			},
+			"Harvest a ~|spring sq'irk|~": {
+				"Chunks": ["Sorceress' Garden"],
+				"Level": 25,
+				"Skills": {
+					"Farming": 1
+				},
+				"Primary": true,
+				"Output": "Spring sq'irk",
+				"Priority": 1000
+			},
+			"Harvest herbs from the ~|sorceress' spring garden|~": {
+				"Chunks": ["Sorceress' Garden"],
+				"Level": 25,
+				"Skills": {
+					"Farming": 1
+				},
+				"Primary": true,
+				"Output": "SpringHerbs",
+				"Priority": 1001
+			},
+			"Steal from a ~|seed stall|~": {
+				"Level": 27,
+				"Objects": ["Seed stall"],
+				"Output": "Seed stall",
+				"Primary": true,
+				"Priority": 1
+			},
+			"Steal from a ~|nature-rune chest|~": {
+				"Level": 28,
+				"Chunks": ["Naturerune chest[+]"],
+				"Output": "Nature rune",
+				"Primary": true,
+				"Priority": 1
+			},
+			"Wield an ~|maple blackjack (o)|~": {
+				"Items": ["Maple blackjack (o)"],
+				"Level": 30,
+				"Skills": {
+					"Attack": 30
+				},
+				"Primary": false,
+				"Priority": 1
 			},
 			"Lockpick the gate in the ~|Ardougne sewers|~": {
 				"Level": 31,
@@ -72319,7 +72563,7 @@
 					"Agility": 21
 				},
 				"Primary": false,
-				"Priority": 3
+				"Priority": 1000
 			},
 			"Pickpocket a ~|woman|~ for quadruple loot": {
 				"Category": ["Multiple Pickpockets"],
@@ -72329,7 +72573,21 @@
 					"Agility": 21
 				},
 				"Primary": false,
-				"Priority": 4
+				"Priority": 1001
+			},
+			"Pickpocket a ~|rogue|~": {
+				"Level": 32,
+				"Monsters": ["Rogue"],
+				"Output": "Rogue",
+				"Primary": true,
+				"Priority": 1
+			},
+			"Steal from a ~|fur stall|~": {
+				"Level": 35,
+				"Objects": ["Fur stall"],
+				"Output": "Grey wolf fur",
+				"Primary": true,
+				"Priority": 1
 			},
 			"Pickpocket a ~|Cave goblin|~": {
 				"Level": 36,
@@ -72344,6 +72602,20 @@
 				"Output": "Master Farmer",
 				"Primary": true,
 				"Priority": 1
+			},
+			"Lockpick the door to the ~|pirates' hideout|~": {
+				"Level": 39,
+				"Chunks": ["12093"],
+				"Primary": true,
+				"Priority": 1
+			},
+			"Create a ~|chaos bar|~": {
+				"Chunks": ["Elemental Workshop Third Floor Second Hallway"],
+				"Items": ["Primed bar*", "Cosmic gloves"],
+				"Level": 39,
+				"Output": "Chaos bar",
+				"Primary": false,
+				"Priority": 1000
 			},
 			"Pickpocket a ~|guard|~": {
 				"Level": 40,
@@ -72361,12 +72633,33 @@
 				},
 				"Output": "Farmer",
 				"Primary": false,
-				"Priority": 2
+				"Priority": 1000
 			},	
+			"Steal from the third room in ~|pyramid plunder|~": {
+				"Chunks": ["Pyramid Plunder"],
+				"Level": 41,
+				"Output": "PyramidPlunder",
+				"Primary": true,
+				"Priority": 1
+			},
 			"Pickpocket a ~|Crux Eqal Druid|~": {
 				"NPCs": ["Crux Eqal Druid"],
 				"Level": 42,
 				"Output": "Crux Eqal Druid",
+				"Primary": true,
+				"Priority": 1
+			},
+			"Steal from a ~|fish stall|~": {
+				"Level": 42,
+				"Objects": ["Fish stall"],
+				"Output": "Fish stall",
+				"Primary": true,
+				"Priority": 2
+			},
+			"Steal from a ~|50-coin chest|~": {
+				"Level": 43,
+				"Chunks": ["50coin chest[+]"],
+				"Output": "Coins",
 				"Primary": true,
 				"Priority": 1
 			},
@@ -72393,7 +72686,7 @@
 				},
 				"Primary": true,
 				"Output": "Autumn sq'irk",
-				"Priority": 3
+				"Priority": 1000
 			},
 			"Harvest herbs from the ~|sorceress' autumn garden|~": {
 				"Chunks": ["Sorceress' Garden"],
@@ -72403,7 +72696,7 @@
 				},
 				"Primary": true,
 				"Output": "AutumnHerbs",
-				"Priority": 4
+				"Priority": 1001
 			},
 			"Pickpocket a ~|H.A.M. member (female)|~ for quadruple loot": {
 				"Category": ["Multiple Pickpockets"],
@@ -72414,7 +72707,7 @@
 					"Agility": 35
 				},
 				"Primary": false,
-				"Priority": 5
+				"Priority": 1002
 			},
 			"Pickpocket a ~|Menaphite marketeer|~": {
 				"Level": 46,
@@ -72422,6 +72715,102 @@
 				"Output": "Menaphos pickpocket",
 				"Primary": true,
 				"Priority": 1
+			},
+			"Steal from a ~|lamp stall|~": {
+				"Level": 46,
+				"Objects": ["Lamp stall"],
+				"Output": "Lamp stall",
+				"Primary": true,
+				"Priority": 2
+			},
+			"Lockpick the door to the ~|chaos druid tower|~": {
+				"Level": 46,
+				"Chunks": ["10292"],
+				"Primary": true,
+				"Priority": 3
+			},
+			"Steal from an ~|arrowhead chest|~": {
+				"Items": ["Lockpick"],
+				"Level": 47,
+				"Chunks": ["Arrowhead chest[+]"],
+				"Output": "Steel arrowheads",
+				"Primary": true,
+				"Priority": 1
+			},
+			"Steal from a ~|crossbow stall|~": {
+				"Level": 49,
+				"Objects": ["Crossbow stall"],
+				"Output": "Crossbow stall",
+				"Primary": true,
+				"Priority": 1
+			},
+			"Steal from a ~|silver stall|~": {
+				"Level": 50,
+				"Objects": ["Silver stall"],
+				"Output": "Silver ore",
+				"Primary": true,
+				"Priority": 1
+			},
+			"Steal from a ~|silver stall (Keldagrim)|~": {
+				"Level": 50,
+				"Objects": ["Silver stall (Keldagrim)"],
+				"Output": "Silver stone spirit",
+				"Primary": true,
+				"Priority": 2
+			},
+			"Enter a tier one ~|Shifting Tombs|~": {
+				"Chunks": ["8300"],
+				"Level": 50,
+				"Skills": {
+					"Agility": 50,
+					"Dungeoneering": 50,
+					"Construction": 50
+				},
+				"Output": "Shifting Tombs loot",
+				"Primary": true,
+				"Priority": 3
+			},
+			"Pickpocket a ~|H.A.M. member (male)|~ for quadruple loot": {
+				"Category": ["Multiple Pickpockets"],
+				"Level": 50,
+				"NPCs": ["H.A.M. member (male)"],
+				"Skills": {
+					"Agility": 40
+				},
+				"Output": "Ham member",
+				"Primary": false,
+				"Priority": 4
+			},
+			"Steal from the fourth room in ~|pyramid plunder|~": {
+				"Chunks": ["Pyramid Plunder"],
+				"Level": 51,
+				"Output": "PyramidPlunder",
+				"Primary": true,
+				"Priority": 1
+			},
+			"Steal from a ~|chest (Dorgesh-Kaan)|~": {
+				"Level": 52,
+				"Items": ["Lockpick"],
+				"Chunks": ["Dorgesh-Kaan"],
+				"Output": "Average chest",
+				"Primary": true,
+				"Priority": 1
+			},
+			"Steal from a ~|chest (Oldak)|~": {
+				"Level": 52,
+				"Items": ["Lockpick"],
+				"Chunks": ["Dorgesh-Kaan"],
+				"Output": "Oldak chest",
+				"Primary": true,
+				"Priority": 2
+			},
+			"Steal from a ~|chest (Zanik)|~": {
+				"Level": 52,
+				"Items": ["Lockpick"],
+				"Chunks": ["Dorgesh-Kaan"],
+				"Output": "Zanik chest",
+				"Primary": true,
+				"Priority": 3
 			},
 			"Pickpocket a ~|bandit (Kharidian Desert Bandit Camp)|~": {
 				"Level": 53,
@@ -72454,14 +72843,55 @@
 				},
 				"Output": "Court summons",
 				"Primary": false,
-				"Priority": 3
+				"Priority": 1000
+			},
+			"Steal from a ~|blood rune chest|~": {
+				"Level": 59,
+				"Chunks": ["10547-1", "10292"],
+				"Output": "Blood rune",
+				"Primary": true,
+				"Priority": 1
+			},
+			"Lockpick the door to the paladin chest in ~|Ardougne castle|~": {
+				"Level": 61,
+				"Chunks": ["10291"],
+				"Primary": true,
+				"Priority": 1
+			},
+			"Steal from the fifth room in ~|pyramid plunder|~": {
+				"Chunks": ["Pyramid Plunder"],
+				"Level": 61,
+				"Output": "PyramidPlunder",
+				"Primary": true,
+				"Priority": 2
+			},
+			"Pickpocket a ~|rogue enforcer|~": {
+				"Level": 62,
+				"Monsters": ["Rogue enforcer"],
+				"Output": "Rogue",
+				"Primary": true,
+				"Priority": 1
+			},
+			"Crack a ~|safe|~ in Misthalin": {
+				"Level": 62,
+				"Chunks": ["Misthalin safes[+]"],
+				"Output": "Safes low",
+				"Primary": true,
+				"Priority": 2
+			},
+			"Steal from ~|customs evidence files|~": {
+				"Level": 63,
+				"Objects": ["Cabinet (rocking)"],
+				"Output": "Customs evidence",
+				"Primary": true,
+				"Priority": 1
 			},
 			"Pickpocket a ~|watchman|~": {
 				"Level": 65,
 				"Monsters": ["Watchman"],
 				"Output": "Watchman",
 				"Primary": true,
-				"Priority": 2
+				"Priority": 1
 			},
 			"Pickpocket a ~|Menaphite thug|~": {
 				"Level": 65,
@@ -72469,7 +72899,56 @@
 				"Monsters": ["Menaphite thug"],
 				"Output": "Coins",
 				"Primary": true,
-				"Priority": 1
+				"Priority": 2
+			},
+			"Steal from a ~|spice stall|~": {
+				"Level": 65,
+				"Objects": ["Spice stall"],
+				"Output": "Spice",
+				"Primary": true,
+				"Priority": 3
+			},
+			"Steal from a ~|chest (rogues' castle)|~": {
+				"Level": 65,
+				"Items": ["Lockpick"],
+				"Chunks": ["13117"],
+				"Output": "Rogue chest",
+				"Primary": true,
+				"Priority": 4
+			},
+			"Steal from ~|Tutab's Magical Market|~": {
+				"Level": 65,
+				"Objects": ["Magic stall"],
+				"Output": "Magic stall",
+				"Primary": true,
+				"Priority": 100
+			},
+			"Steal from ~|Daga's Scimitar Smithy|~": {
+				"Level": 65,
+				"Objects": ["Scimitar stall"],
+				"Output": "Scimitar stall",
+				"Primary": true,
+				"Priority": 101
+			},
+			"Harvest a ~|summer sq'irk|~": {
+				"Chunks": ["Sorceress' Garden"],
+				"Level": 65,
+				"Skills": {
+					"Farming": 1
+				},
+				"Primary": true,
+				"Output": "Summer sq'irk",
+				"Priority": 1000
+			},
+			"Harvest herbs from the ~|sorceress' summer garden|~": {
+				"Chunks": ["Sorceress' Garden"],
+				"Level": 65,
+				"Skills": {
+					"Farming": 1
+				},
+				"Primary": true,
+				"Output": "SummerHerbs",
+				"Priority": 1001
 			},
 			"Pickpocket a ~|Cave goblin|~ for quadruple loot": {
 				"Category": ["Multiple Pickpockets"],
@@ -72480,7 +72959,7 @@
 				},
 				"Output": "Cave goblin",
 				"Primary": false,
-				"Priority": 1
+				"Priority": 1000
 			},
 			"Pickpocket a ~|master farmer|~ for quadruple loot": {
 				"Category": ["Multiple Pickpockets"],
@@ -72491,6 +72970,13 @@
 				},
 				"Output": "Master Farmer",
 				"Primary": false,
+				"Priority": 1000
+			},
+			"Crack a ~|safe|~ in the Kharidian Desert": {
+				"Level": 69,
+				"Chunks": ["Kharidian safes[+]"],
+				"Output": "Safes low",
+				"Primary": true,
 				"Priority": 1
 			},
 			"Pickpocket a ~|paladin|~": {
@@ -72500,12 +72986,13 @@
 				"Primary": true,
 				"Priority": 1
 			},
-			"Pickpocket a ~|monkey knife fighter|~": {
+			"Steal from a ~|chest (Scabarite Cavern)|~": {
 				"Level": 70,
-				"NPCs": ["Monkey knife fighter"],
-				"Output": "Monkey knife fighter",
+				"Items": ["Lockpick"],
+				"Objects": ["Chest (Scabarite Cavern)"],
+				"Output": "Chest (Scabarite Cavern)",
 				"Primary": true,
-				"Priority": 3
+				"Priority": 2
 			},
 			"Enter a tier two ~|Shifting Tombs|~": {
 				"Chunks": ["8300"],
@@ -72521,6 +73008,13 @@
 				},
 				"Primary": false,
 				"Output": "Shifting Tombs loot",
+				"Priority": 3
+			},
+			"Pickpocket a ~|monkey knife fighter|~": {
+				"Level": 70,
+				"NPCs": ["Monkey knife fighter"],
+				"Output": "Monkey knife fighter",
+				"Primary": true,
 				"Priority": 4
 			},
 			"Pickpocket a ~|guard|~ for quadruple loot": {
@@ -72532,7 +73026,27 @@
 				},
 				"Output": "Coins",
 				"Primary": false,
-				"Priority": 5
+				"Priority": 1000
+			},
+			"Steal from the sixth room in ~|pyramid plunder|~": {
+				"Chunks": ["Pyramid Plunder"],
+				"Level": 71,
+				"Output": "PyramidPlunder",
+				"Primary": true,
+				"Priority": 1
+			},
+			"Wield a ~|pickpocketing bag|~": {
+				"Items": ["Pickpocketing bag"],
+				"Level": 71,
+				"Primary": false,
+				"Priority": 2
+			},
+			"Steal from a paladin chest in ~|Ardougne castle|~": {
+				"Level": 72,
+				"Chunks": ["10291", "10803"],
+				"Output": "Paladin chest",
+				"Primary": true,
+				"Priority": 1
 			},
 			"Pickpocket a ~|gnome|~": {
 				"Level": 75,
@@ -72558,7 +73072,7 @@
 					"Herblore": 50
 				},
 				"Primary": true,
-				"Priority": 3
+				"Priority": 1000
 			},
 			"Get the pickpocket bonus from the ~|exoskeleton bracers|~": {
 				"Items": ["Exoskeleton bracers"],
@@ -72567,7 +73081,7 @@
 					"Hunter": 75
 				},
 				"Primary": false,
-				"Priority": 4
+				"Priority": 1001
 			},
 			"Pickpocket a ~|Fremennik citizen|~ for quadruple loot": {
 				"Category": ["Multiple Pickpockets"],
@@ -72578,7 +73092,7 @@
 				},
 				"Output": "Coins",
 				"Primary": false,
-				"Priority": 5
+				"Priority": 1002
 			},
 			"Pickpocket a ~|brigand|~ for quadruple loot": {
 				"Category": ["Multiple Pickpockets"],
@@ -72590,7 +73104,22 @@
 				},
 				"Output": "Coins",
 				"Primary": false,
-				"Priority": 6
+				"Priority": 1003
+			},
+			"Crack a ~|safe|~ in Asgarnia": {
+				"Level": 76,
+				"Chunks": ["Asgarnian safes[+]"],
+				"Output": "Safes low",
+				"Primary": true,
+				"Priority": 1
+			},
+			"Steal from a ~|chest (Dorgesh-Kaan, gem)|~": {
+				"Level": 78,
+				"Items": ["Lockpick"],
+				"Chunks": ["Dorgesh-Kaan"],
+				"Output": "Rich chest",
+				"Primary": true,
+				"Priority": 1
 			},
 			"Pickpocket a ~|hero|~": {
 				"Level": 80,
@@ -72607,7 +73136,27 @@
 				},
 				"Primary": false,
 				"Output": "CamouflageOutfit",
+				"Priority": 1000
+			},
+			"Steal from the seventh room in ~|pyramid plunder|~": {
+				"Chunks": ["Pyramid Plunder"],
+				"Level": 81,
+				"Output": "PyramidPlunder",
+				"Primary": true,
+				"Priority": 1
+			},
+			"Wield a ~|mushroomy pickpocketing bag|~": {
+				"Items": ["Mushroomy pickpocketing bag"],
+				"Level": 81,
+				"Primary": false,
 				"Priority": 2
+			},
+			"Lockpick the door to the ~|Yanille agility dungeon|~": {
+				"Level": 82,
+				"Items": ["Lockpick"],
+				"Chunks": ["10288-1"],
+				"Primary": true,
+				"Priority": 1
 			},
 			"Pickpocket a ~|Crux Eqal Knight|~": {
 				"NPCs": ["Crux Eqal Knight"],
@@ -72632,9 +73181,9 @@
 				},
 				"Output": "Bandit (Kharidian Desert Bandit Camp)",
 				"Primary": false,
-				"Priority": 3
+				"Priority": 1000
 			},
-			"Pickpocket a ~|elf|~": {
+			"Pickpocket an ~|elf|~": {
 				"Level": 85,
 				"NPCs": ["Elf"],
 				"Output": "Elf",
@@ -72651,7 +73200,7 @@
 				},
 				"Output": "Coins",
 				"Primary": false,
-				"Priority": 2
+				"Priority": 1000
 			},
 			"Pickpocket a ~|knight of Ardougne|~ for quadruple loot": {
 				"Category": ["Multiple Pickpockets"],
@@ -72662,31 +73211,36 @@
 				},
 				"Output": "Knight of Ardougne",
 				"Primary": false,
-				"Priority": 3
+				"Priority": 1001
+			},
+			"Pickpocket a ~|Waiko islander|~": {
+				"Level": 86,
+				"NPCs": ["Waiko islander"],
+				"Output": "Waiko islander",
+				"Primary": true,
+				"Priority": 1
+			},
+			"Pickpocket a ~|cyclops (Cyclosis)|~": {
+				"Level": 88,
+				"NPCs": ["Cyclops (Cyclosis)"],
+				"Output": "Cyclops (Cyclosis)",
+				"Primary": true,
+				"Priority": 1
 			},
 			"Pickpocket a ~|Trader|~": {
 				"Level": 90,
 				"NPCs": ["Trader"],
 				"Output": "Trader",
 				"Primary": true,
-				"Priority": 2
+				"Priority": 1
 			},
 			"Crack the ~|safe|~ in the rogues' castle": {
 				"Level": 90,
 				"Chunks": ["13117"],
 				"Output": "Safes high",
 				"Primary": true,
-				"Priority": 1
+				"Priority": 2
 			},
-			"Unlock ~|the convict|~ in the player-owned port": {
-				"Category": ["PortSkills"],
-				"Chunks": ["Player-Owned Port"],
-				"Level": 90,
-				"NoBoost": true,
-				"Primary": false,
-				"NoPet": true,
-				"Priority": 3
-			},			
 			"Enter a tier three ~|Shifting Tombs|~": {
 				"Chunks": ["8300"],
 				"Level": 90,
@@ -72701,14 +73255,23 @@
 				},
 				"Primary": false,
 				"Output": "Shifting Tombs loot",
-				"Priority": 4
+				"Priority": 3
 			},
 			"Sabotage a ~|siege engine|~": {
 				"Chunks": ["Senntisten"],
 				"Items": ["Siege engine parts"],
 				"Level": 90,
 				"Primary": true,
-				"Priority": 5
+				"Priority": 4
+			},
+			"Unlock ~|the convict|~ in the player-owned port": {
+				"Category": ["PortSkills"],
+				"Chunks": ["Player-Owned Port"],
+				"Level": 90,
+				"NoBoost": true,
+				"Primary": false,
+				"NoPet": true,
+				"Priority": 1000
 			},
 			"Open a level 90 chest in ~|Daemonheim|~": {
 				"Category": ["Daemonheim tasks"],
@@ -72717,7 +73280,7 @@
 				},
 				"Level": 90,
 				"Primary": false,
-				"Priority": 6
+				"Priority": 1001
 			},
 			"Pickpocket a ~|paladin|~ for triple loot": {
 				"Category": ["Multiple Pickpockets"],
@@ -72728,7 +73291,7 @@
 				},
 				"Output": "Paladin",
 				"Primary": false,
-				"Priority": 7
+				"Priority": 1002
 			},
 			"Pickpocket a ~|hero|~ for double loot": {
 				"Category": ["Multiple Pickpockets"],
@@ -72739,7 +73302,7 @@
 				},
 				"Output": "Hero",
 				"Primary": false,
-				"Priority": 8
+				"Priority": 1003
 			},
 			"Make a ~|Milestone cape (90)|~": {
 				"Category": ["Skillcape"],
@@ -72778,51 +73341,7 @@
 					"Summoning": 90,
 					"Woodcutting": 90
 				},
-				"Priority": 9
-			},
-			"Wield an ~|oak blackjack (o)|~": {
-				"Items": ["Oak blackjack (o)"],
-				"Level": 10,
-				"Skills": {
-					"Attack": 10
-				},
-				"Primary": false,
-				"Priority": 3
-			},
-			"Pickpocket a ~|rogue|~": {
-				"Level": 32,
-				"Monsters": ["Rogue"],
-				"Output": "Rogue",
-				"Primary": true,
-				"Priority": 1
-			},
-			"Pickpocket a ~|rogue enforcer|~": {
-				"Level": 62,
-				"Monsters": ["Rogue enforcer"],
-				"Output": "Rogue",
-				"Primary": true,
-				"Priority": 2
-			},
-			"Pickpocket a ~|rogue captain|~": {
-				"Level": 92,
-				"Monsters": ["Rogue captain"],
-				"Output": "Rogue captain",
-				"Primary": true,
-				"Priority": 2
-			},
-			"Pickpocket a ~|Waiko islander|~": {
-				"Level": 86,
-				"NPCs": ["Waiko islander"],
-				"Output": "Waiko islander",
-				"Primary": true,
-				"Priority": 1
-			},
-			"Pickpocket a ~|cyclops (Cyclosis)|~": {
-				"Level": 88,
-				"NPCs": ["Cyclops (Cyclosis)"],
-				"Output": "Cyclops (Cyclosis)",
-				"Primary": true,
-				"Priority": 1
+				"Priority": 1004
 			},
 			"Pickpocket a ~|Iorwerth worker|~": {
 				"Level": 91,
@@ -72831,12 +73350,42 @@
 				"Primary": true,
 				"Priority": 1
 			},
+			"Steal from the eighth room in ~|pyramid plunder|~": {
+				"Chunks": ["Pyramid Plunder"],
+				"Level": 91,
+				"Output": "PyramidPlunder",
+				"Primary": true,
+				"Priority": 2
+			},
+			"Steal from engraved sarcaphogus in the eighth room in ~|pyramid plunder|~": {
+				"Chunks": ["Pyramid Plunder"],
+				"Level": 91,
+				"Skills": {
+					"Runecrafting": 75
+				},
+				"Output": "Sceptre of the gods",
+				"Primary": true,
+				"Priority": 3
+			},
+			"Feed a ~|starved ancient effigy|~ with thieving": {
+				"Items": ["Starved ancient effigy (construction/thieving)"],
+				"Level": 91,
+				"Primary": false,
+				"Priority": 1000
+			},
+			"Pickpocket a ~|rogue captain|~": {
+				"Level": 92,
+				"Monsters": ["Rogue captain"],
+				"Output": "Rogue captain",
+				"Primary": true,
+				"Priority": 1
+			},
 			"Pickpocket a ~|Ithell worker|~": {
 				"Level": 92,
 				"NPCs": ["Ithell worker"],
 				"Output": "Ithell worker",
 				"Primary": true,
-				"Priority": 1
+				"Priority": 2
 			},
 			"Pickpocket a ~|Cadarn worker|~": {
 				"Level": 93,
@@ -72845,10 +73394,23 @@
 				"Primary": true,
 				"Priority": 1
 			},
+			"Feed a ~|nourished ancient effigy|~ with thieving": {
+				"Items": ["Nourished ancient effigy (construction/thieving)"],
+				"Level": 93,
+				"Primary": false,
+				"Priority": 1000
+			},
 			"Pickpocket a ~|Amlodd worker|~": {
 				"Level": 94,
 				"NPCs": ["Amlodd worker"],
 				"Output": "Amlodd worker",
+				"Primary": true,
+				"Priority": 1
+			},
+			"Crack the ~|safes|~ in Zanaris": {
+				"Level": 94,
+				"Chunks": ["Zanaris"],
+				"Output": "Safes high",
 				"Primary": true,
 				"Priority": 2
 			},
@@ -72863,7 +73425,7 @@
 				"Items": ["Sated ancient effigy (construction/thieving)"],
 				"Level": 95,
 				"Primary": false,
-				"Priority": 2
+				"Priority": 1000
 			},
 			"Pickpocket a ~|watchman|~ for quadruple loot": {
 				"Category": ["Multiple Pickpockets"],
@@ -72874,7 +73436,7 @@
 				},
 				"Output": "Watchman",
 				"Primary": false,
-				"Priority": 3
+				"Priority": 1001
 			},
 			"Pickpocket a ~|Menaphite thug|~ for quadruple loot": {
 				"Category": ["Multiple Pickpockets"],
@@ -72886,7 +73448,7 @@
 				},
 				"Output": "Coins",
 				"Primary": false,
-				"Priority": 4
+				"Priority": 1002
 			},
 			"Pickpocket a ~|gnome|~ for triple loot": {
 				"Category": ["Multiple Pickpockets"],
@@ -72897,9 +73459,9 @@
 				},
 				"Output": "Gnome",
 				"Primary": false,
-				"Priority": 5
+				"Priority": 1003
 			},
-			"Pickpocket a ~|elf|~ for double loot": {
+			"Pickpocket an ~|elf|~ for double loot": {
 				"Category": ["Multiple Pickpockets"],
 				"Level": 95,
 				"NPCs": ["Elf"],
@@ -72908,12 +73470,19 @@
 				},
 				"Output": "Elf",
 				"Primary": false,
-				"Priority": 6
+				"Priority": 1004
 			},
 			"Pickpocket a ~|Hefin worker|~": {
 				"Level": 96,
 				"NPCs": ["Hefin worker"],
 				"Output": "Hefin worker",
+				"Primary": true,
+				"Priority": 1
+			},
+			"Crack the ~|safes|~ in Zemouregal's fort": {
+				"Level": 96,
+				"Chunks": ["11324"],
+				"Output": "Safes high",
 				"Primary": true,
 				"Priority": 2
 			},
@@ -72924,479 +73493,17 @@
 				"Primary": true,
 				"Priority": 1
 			},
+			"Feed a ~|gorged ancient effigy|~ with thieving": {
+				"Items": ["Gorged ancient effigy (construction/thieving)"],
+				"Level": 97,
+				"Primary": false,
+				"Priority": 1000
+			},
 			"Pickpocket a ~|Meilyr worker|~": {
 				"Level": 98,
 				"NPCs": ["Meilyr worker"],
 				"Output": "Meilyr worker",
 				"Primary": true,
-				"Priority": 1
-			},
-			"Steal from a ~|vegetable stall|~": {
-				"Level": 2,
-				"Objects": ["Vegetable stall"],
-				"Output": "Vegetable stall",
-				"Primary": true,
-				"Priority": 1
-			},
-			"Steal from a ~|bakery stall|~": {
-				"Level": 5,
-				"Objects": ["Bakery stall"],
-				"Output": "Bakery stall",
-				"Primary": true,
-				"Priority": 1
-			},
-			"Steal from ~|Ifaba's general store|~": {
-				"Level": 5,
-				"Objects": ["General stall"],
-				"Output": "General stall",
-				"Primary": true,
-				"Priority": 4
-			},
-			"Steal from a ~|tea stall|~": {
-				"Level": 5,
-				"Objects": ["Tea stall"],
-				"Output": "Cup of tea",
-				"Primary": true,
-				"Priority": 2
-			},
-			"Steal from a ~|crafting stall|~": {
-				"Level": 5,
-				"Objects": ["Crafting stall"],
-				"Output": "Crafting stall",
-				"Primary": true,
-				"Priority": 3
-			},
-			"Steal from ~|Solihib's food stall|~": {
-				"Level": 5,
-				"Objects": ["Food stall"],
-				"Output": "Banana",
-				"Primary": true,
-				"Priority": 5
-			},
-			"Steal from a ~|rock cake stall|~": {
-				"Level": 15,
-				"Objects": ["Rock cake stall"],
-				"Output": "Rock cake",
-				"Primary": true,
-				"Priority": 3
-			},
-			"Steal from a ~|silk stall|~": {
-				"Level": 15,
-				"Objects": ["Silk stall"],
-				"Output": "Silk",
-				"Primary": true,
-				"Priority": 5
-			},
-			"Steal from a ~|wine stall|~": {
-				"Level": 22,
-				"Objects": ["Wine stall"],
-				"Output": "Wine stall",
-				"Primary": true,
-				"Priority": 2
-			},
-			"Steal from the Draynor ~|wine stall|~": {
-				"Level": 22,
-				"Objects": ["Draynor wine stall"],
-				"Output": "Draynor wine stall",
-				"Primary": true,
-				"Priority": 1
-			},
-			"Steal from a ~|seed stall|~": {
-				"Level": 27,
-				"Objects": ["Seed stall"],
-				"Output": "Seed stall",
-				"Primary": true,
-				"Priority": 1
-			},
-			"Steal from a ~|fur stall|~": {
-				"Level": 35,
-				"Objects": ["Fur stall"],
-				"Output": "Grey wolf fur",
-				"Primary": true,
-				"Priority": 1
-			},
-			"Steal from a ~|fish stall|~": {
-				"Level": 42,
-				"Objects": ["Fish stall"],
-				"Output": "Fish stall",
-				"Primary": true,
-				"Priority": 2
-			},
-			"Steal from a ~|lamp stall|~": {
-				"Level": 46,
-				"Objects": ["Lamp stall"],
-				"Output": "Lamp stall",
-				"Primary": true,
-				"Priority": 2
-			},
-			"Steal from a ~|crossbow stall|~": {
-				"Level": 49,
-				"Objects": ["Crossbow stall"],
-				"Output": "Crossbow stall",
-				"Primary": true,
-				"Priority": 1
-			},
-			"Steal from a ~|silver stall|~": {
-				"Level": 50,
-				"Objects": ["Silver stall"],
-				"Output": "Silver ore",
-				"Primary": true,
-				"Priority": 1
-			},
-			"Crack a ~|wall safe|~": {
-				"Level": 25,
-				"Chunks": ["Rogues' Den"],
-				"Output": "WallSafe",
-				"Primary": true,
-				"Priority": 2
-			},
-			"Enter a tier one ~|Shifting Tombs|~": {
-				"Chunks": ["8300"],
-				"Level": 50,
-				"Skills": {
-					"Agility": 50,
-					"Dungeoneering": 50,
-					"Construction": 50
-				},
-				"Output": "Shifting Tombs loot",
-				"Primary": true,
-				"Priority": 3
-			},
-			"Pickpocket a ~|H.A.M. member (male)|~ for quadruple loot": {
-				"Category": ["Multiple Pickpockets"],
-				"Level": 50,
-				"NPCs": ["H.A.M. member (male)"],
-				"Skills": {
-					"Agility": 40
-				},
-				"Output": "Ham member",
-				"Primary": false,
-				"Priority": 4
-			},
-			"Steal from ~|customs evidence files|~": {
-				"Level": 63,
-				"Objects": ["Cabinet (rocking)"],
-				"Output": "Customs evidence",
-				"Primary": true,
-				"Priority": 1
-			},
-			"Steal from ~|Tutab's Magical Market|~": {
-				"Level": 65,
-				"Objects": ["Magic stall"],
-				"Output": "Magic stall",
-				"Primary": true,
-				"Priority": 3
-			},
-			"Steal from ~|Daga's Scimitar Smithy|~": {
-				"Level": 65,
-				"Objects": ["Scimitar stall"],
-				"Output": "Scimitar stall",
-				"Primary": true,
-				"Priority": 4
-			},
-			"Steal from a ~|spice stall|~": {
-				"Level": 65,
-				"Objects": ["Spice stall"],
-				"Output": "Spice",
-				"Primary": true,
-				"Priority": 5
-			},
-			"Steal from a ~|10-coins chest|~": {
-				"Level": 13,
-				"Chunks": ["10coin chest[+]"],
-				"Output": "Coins",
-				"Primary": true,
-				"Priority": 2
-			},
-			"Steal from a ~|chest (magic axe hut)|~": {
-				"Level": 23,
-				"Chunks": ["12605"],
-				"Output": "Magic axe chest",
-				"Primary": true,
-				"Priority": 2
-			},
-			"Steal from a ~|nature-rune chest|~": {
-				"Level": 28,
-				"Chunks": ["Naturerune chest[+]"],
-				"Output": "Nature rune",
-				"Primary": true,
-				"Priority": 1
-			},
-			"Steal from a ~|50-coin chest|~": {
-				"Level": 43,
-				"Chunks": ["50coin chest[+]"],
-				"Output": "Coins",
-				"Primary": true,
-				"Priority": 1
-			},
-			"Steal from an ~|arrowhead chest|~": {
-				"Items": ["Lockpick"],
-				"Level": 47,
-				"Chunks": ["Arrowhead chest[+]"],
-				"Output": "Steel arrowheads",
-				"Primary": true,
-				"Priority": 1
-			},
-			"Steal from a ~|blood rune chest|~": {
-				"Level": 59,
-				"Chunks": ["10547-1", "10292"],
-				"Output": "Blood rune",
-				"Primary": true,
-				"Priority": 1
-			},
-			"Steal from a paladin chest in ~|Ardougne castle|~": {
-				"Level": 72,
-				"Chunks": ["10291", "10803"],
-				"Output": "Paladin chest",
-				"Primary": true,
-				"Priority": 1
-			},
-			"Steal from a ~|chest (rogues' castle)|~": {
-				"Level": 13,
-				"Items": ["Lockpick"],
-				"Chunks": ["13117"],
-				"Output": "Rogue chest",
-				"Primary": true,
-				"Priority": 1
-			},
-			"Steal from a ~|chest (Dorgesh-Kaan)|~": {
-				"Level": 52,
-				"Items": ["Lockpick"],
-				"Chunks": ["Dorgesh-Kaan"],
-				"Output": "Average chest",
-				"Primary": true,
-				"Priority": 1
-			},
-			"Steal from a ~|chest (Oldak)|~": {
-				"Level": 52,
-				"Items": ["Lockpick"],
-				"Chunks": ["Dorgesh-Kaan"],
-				"Output": "Oldak chest",
-				"Primary": true,
-				"Priority": 2
-			},
-			"Steal from a ~|chest (Zanik)|~": {
-				"Level": 52,
-				"Items": ["Lockpick"],
-				"Chunks": ["Dorgesh-Kaan"],
-				"Output": "Zanik chest",
-				"Primary": true,
-				"Priority": 3
-			},
-			"Steal from a ~|chest (Dorgesh-Kaan, gem)|~": {
-				"Level": 78,
-				"Items": ["Lockpick"],
-				"Chunks": ["Dorgesh-Kaan"],
-				"Output": "Rich chest",
-				"Primary": true,
-				"Priority": 1
-			},
-			"Steal from a ~|chest (Scabarite Cavern)|~": {
-				"Level": 70,
-				"Items": ["Lockpick"],
-				"Objects": ["Chest (Scabarite Cavern)"],
-				"Output": "Chest (Scabarite Cavern)",
-				"Primary": true,
-				"Priority": 2
-			},
-			"Lockpick the door to a ~|10-coins chest|~": {
-				"Level": 13,
-				"Chunks": ["10547-1"],
-				"Primary": true,
-				"Priority": 5
-			},
-			"Lockpick the door to a ~|nature-rune chest|~": {
-				"Level": 16,
-				"Chunks": ["10547-1"],
-				"Primary": true,
-				"Priority": 1
-			},
-			"Lockpick the door to an ~|Ardougne house|~": {
-				"Level": 16,
-				"Chunks": ["10547-1"],
-				"Primary": true,
-				"Priority": 2
-			},
-			"Lockpick the entrance to the ~|H.A.M. hideout|~": {
-				"Level": 15,
-				"Chunks": ["12850-1"],
-				"Primary": true,
-				"Priority": 4
-			},
-			"Steal a ~|cowbell|~ from a dairy cow": {
-				"Level": 15,
-				"NPCs": ["Dairy cow"],
-				"Tasks": {
-					"~|Cold War|~ 1": "Quest"
-				},
-				"Output": "Cowbell",
-				"Primary": true,
-				"Priority": 6
-			},
-			"Lockpick the door to the ~|magic axe hut|~": {
-				"Level": 23,
-				"Items": ["Lockpick"],
-				"Chunks": ["12605"],
-				"Primary": true,
-				"Priority": 1
-			},
-			"Lockpick the door to the ~|pirates' hideout|~": {
-				"Level": 39,
-				"Chunks": ["12093"],
-				"Primary": true,
-				"Priority": 1
-			},
-			"Create a ~|chaos bar|~": {
-				"Chunks": ["Elemental Workshop Third Floor Second Hallway"],
-				"Items": ["Primed bar*", "Cosmic gloves"],
-				"Level": 39,
-				"Output": "Chaos bar",
-				"Primary": false,
-				"Priority": 2
-			},
-			"Lockpick the door to the ~|chaos druid tower|~": {
-				"Level": 46,
-				"Chunks": ["10292"],
-				"Primary": true,
-				"Priority": 1
-			},
-			"Lockpick the door to the paladin chest in ~|Ardougne castle|~": {
-				"Level": 61,
-				"Chunks": ["10291"],
-				"Primary": true,
-				"Priority": 1
-			},
-			"Lockpick the door to the ~|Yanille agility dungeon|~": {
-				"Level": 82,
-				"Items": ["Lockpick"],
-				"Chunks": ["10288-1"],
-				"Primary": true,
-				"Priority": 1
-			},
-			"Steal from the third room in ~|pyramid plunder|~": {
-				"Chunks": ["Pyramid Plunder"],
-				"Level": 41,
-				"Output": "PyramidPlunder",
-				"Primary": true,
-				"Priority": 1
-			},
-			"Steal from the fourth room in ~|pyramid plunder|~": {
-				"Chunks": ["Pyramid Plunder"],
-				"Level": 51,
-				"Output": "PyramidPlunder",
-				"Primary": true,
-				"Priority": 1
-			},
-			"Steal from the fifth room in ~|pyramid plunder|~": {
-				"Chunks": ["Pyramid Plunder"],
-				"Level": 61,
-				"Output": "PyramidPlunder",
-				"Primary": true,
-				"Priority": 2
-			},
-			"Steal from the sixth room in ~|pyramid plunder|~": {
-				"Chunks": ["Pyramid Plunder"],
-				"Level": 71,
-				"Output": "PyramidPlunder",
-				"Primary": true,
-				"Priority": 1
-			},
-			"Steal from the seventh room in ~|pyramid plunder|~": {
-				"Chunks": ["Pyramid Plunder"],
-				"Level": 81,
-				"Output": "PyramidPlunder",
-				"Primary": true,
-				"Priority": 1
-			},
-			"Steal from the eighth room in ~|pyramid plunder|~": {
-				"Chunks": ["Pyramid Plunder"],
-				"Level": 91,
-				"Output": "PyramidPlunder",
-				"Primary": true,
-				"Priority": 3
-			},
-			"Steal from engraved sarcaphogus in the eighth room in ~|pyramid plunder|~": {
-				"Chunks": ["Pyramid Plunder"],
-				"Level": 91,
-				"Skills": {
-					"Runecrafting": 75
-				},
-				"Output": "Sceptre of the gods",
-				"Primary": true,
-				"Priority": 2
-			},
-			"Wield a ~|pickpocketing bag|~": {
-				"Items": ["Pickpocketing bag"],
-				"Level": 71,
-				"Primary": false,
-				"Priority": 2
-			},
-			"Wield a ~|mushroomy pickpocketing bag|~": {
-				"Items": ["Mushroomy pickpocketing bag"],
-				"Level": 81,
-				"Primary": false,
-				"Priority": 2
-			},
-			"Feed a ~|starved ancient effigy|~ with thieving": {
-				"Items": ["Starved ancient effigy (construction/thieving)"],
-				"Level": 91,
-				"Primary": false,
-				"Priority": 4
-			},
-			"Feed a ~|nourished ancient effigy|~ with thieving": {
-				"Items": ["Nourished ancient effigy (construction/thieving)"],
-				"Level": 93,
-				"Primary": false,
-				"Priority": 2
-			},
-			"Feed a ~|gorged ancient effigy|~ with thieving": {
-				"Items": ["Gorged ancient effigy (construction/thieving)"],
-				"Level": 97,
-				"Primary": false,
-				"Priority": 2
-			},
-			"Crack a ~|safe|~ in Misthalin": {
-				"Level": 62,
-				"Chunks": ["Misthalin safes[+]"],
-				"Output": "Safes low",
-				"Primary": true,
-				"Priority": 1
-			},
-			"Crack a ~|safe|~ in the Kharidian Desert": {
-				"Level": 69,
-				"Chunks": ["Kharidian safes[+]"],
-				"Output": "Safes low",
-				"Primary": true,
-				"Priority": 1
-			},
-			"Crack a ~|safe|~ in Asgarnia": {
-				"Level": 76,
-				"Chunks": ["Asgarnian safes[+]"],
-				"Output": "Safes low",
-				"Primary": true,
-				"Priority": 1
-			},
-			"Crack the ~|safes|~ in Zemouregal's fort": {
-				"Level": 96,
-				"Chunks": ["11324"],
-				"Output": "Safes high",
-				"Primary": true,
-				"Priority": 1
-			},
-			"Crack the ~|safes|~ in Zanaris": {
-				"Level": 94,
-				"Chunks": ["Zanaris"],
-				"Output": "Safes high",
-				"Primary": true,
-				"Priority": 1
-			},
-			"Wield an ~|maple blackjack (o)|~": {
-				"Items": ["Maple blackjack (o)"],
-				"Level": 30,
-				"Skills": {
-					"Attack": 30
-				},
-				"Primary": false,
 				"Priority": 1
 			},
 			"Buy the ~|Thieving cape|~": {
@@ -73406,116 +73513,7 @@
 				"Output": "Thieving cape",
 				"Primary": true,
 				"NoBoost": true,
-				"Priority": 2
-			},
-			"Buy the ~|Thieving master cape|~": {
-				"Category": ["Master skillcape"],
-				"NPCs": ["Martin Thwait"],
-				"Level": 120,
-				"Output": "Thieving master cape",
-				"Primary": false,
-				"NoBoost": true,
-				"Priority": 3
-			},
-			"Harvest a ~|winter sq'irk|~": {
-				"Chunks": ["Sorceress' Garden"],
-				"Level": 1,
-				"Skills": {
-					"Farming": 1
-				},
-				"Primary": true,
-				"Output": "Winter sq'irk",
-				"Priority": 6
-			},
-			"Harvest herbs from the ~|winter garden|~": {
-				"Chunks": ["Sorceress' Garden"],
-				"Level": 1,
-				"Skills": {
-					"Farming": 1
-				},
-				"Primary": true,
-				"Output": "WinterHerbs",
-				"Priority": 7
-			},
-			"Harvest a ~|spring sq'irk|~": {
-				"Chunks": ["Sorceress' Garden"],
-				"Level": 25,
-				"Skills": {
-					"Farming": 1
-				},
-				"Primary": true,
-				"Output": "Spring sq'irk",
-				"Priority": 3
-			},
-			"Harvest herbs from the ~|sorceress' spring garden|~": {
-				"Chunks": ["Sorceress' Garden"],
-				"Level": 25,
-				"Skills": {
-					"Farming": 1
-				},
-				"Primary": true,
-				"Output": "SpringHerbs",
-				"Priority": 4
-			},
-			"Steal a feather from the ~|Desert Phoenix|~": {
-				"NPCs": ["Desert Phoenix"],
-				"Level": 25,
-				"Primary": true,
-				"Output": "Phoenix feather",
-				"Priority": 5
-			},
-			"Harvest a ~|summer sq'irk|~": {
-				"Chunks": ["Sorceress' Garden"],
-				"Level": 65,
-				"Skills": {
-					"Farming": 1
-				},
-				"Primary": true,
-				"Output": "Summer sq'irk",
-				"Priority": 6
-			},
-			"Harvest herbs from the ~|sorceress' summer garden|~": {
-				"Chunks": ["Sorceress' Garden"],
-				"Level": 65,
-				"Skills": {
-					"Farming": 1
-				},
-				"Primary": true,
-				"Output": "SummerHerbs",
-				"Priority": 7
-			},
-			"Grow a ~|fly trap|~": {
-				"Items": ["Fly trap seed"],
-				"Objects": ["Allotment"],
-				"Level": 1,
-				"Skills": {
-					"Farming": 93
-				},
-				"Primary": true,
-				"Priority": 8
-			},
-			"Train thieving in ~|Daemonheim|~": {
-				"Category": ["Daemonheim training"],
-				"Tasks": {
-					"Unlock ~|frozen floors|~": "Dungeoneering"
-				},
-				"Level": 1,
-				"Primary": true,
-				"Priority": 9
-			},
-			"Pickpocket a ~|Dig Site workman|~": {
-				"NPCs": ["Dig Site workman"],
-				"Level": 1,
-				"Output": "DigSitePickpocket",
-				"Primary": true,
-				"Priority": 10
-			},
-			"Read a thieving tome from ~|Temple Trekking|~": {
-				"Category": ["DnD"],
-				"Chunks": ["Temple Trekking Routes"],
-				"Level": 1,
-				"Primary": true,
-				"Priority": 12
+				"Priority": 1
 			},
 			"Buy the ~|Max cape|~": {
 				"Tasks": {
@@ -73556,6 +73554,15 @@
 					"Summoning": 99,
 					"Woodcutting": 99
 				},
+				"Priority": 2
+			},
+			"Buy the ~|Thieving master cape|~": {
+				"Category": ["Skillcape"],
+				"NPCs": ["Martin Thwait"],
+				"Level": 120,
+				"Output": "Thieving master cape",
+				"Primary": false,
+				"NoBoost": true,
 				"Priority": 1
 			},
 			"Create the ~|blurite keystone|~": {
@@ -73599,7 +73606,7 @@
 					"Summoning": 120,
 					"Woodcutting": 120
 				},
-				"Priority": 2
+				"Priority": 1000
 			},
 			"Buy the ~|Master max cape|~": {
 				"Tasks": {
@@ -73639,7 +73646,7 @@
 					"Summoning": 120,
 					"Woodcutting": 120
 				},
-				"Priority": 1
+				"Priority": 1001
 			}
 		},
 		"Woodcutting": {
@@ -152735,6 +152742,12 @@
 				},
 				"UnlocksArea": true
 			},
+			"The Vault of Hereditas": {
+				"UnlocksArea": true
+			},
+			"The Asuran Arsenal": {
+				"UnlocksArea": true
+			},
 			"Zanaris to 8752-4": {
 				"Sections": ["Zanaris", "8752-4"],
 				"Tasks": {
@@ -157307,6 +157320,12 @@
 		},
 		"46": {
 			"Name": "Zolarea"
+		},
+		"47": {
+			"Name": "The Vault of Hereditas"
+		},
+		"48": {
+			"Name": "The Asuran Arsenal"
 		},
 		"258": {
 			"Spawn": {
@@ -194966,7 +194985,7 @@
                 "Well": 2,
                 "Gem stall": 1,
                 "Bakery stall": 1,
-                "Silver stall": 1,
+                "Silver stall (Keldagrim)": 1,
                 "Clothes stall": 1,
                 "Crafting stall": 1,
                 "Boxes": 30,
@@ -203570,6 +203589,22 @@
 			},
 			"Connect": {
 				"9017": true
+			}
+		},
+		"The Vault of Hereditas": {
+			"NPC": {
+				"Liara": 1
+			},
+			"Connect": {
+				"0000": true
+			}
+		},
+		"The Asuran Arsenal": {
+			"NPC": {
+				"Liara": 1
+			},
+			"Connect": {
+				"0000": true
 			}
 		}
 	},
