@@ -73861,7 +73861,7 @@
 			},
 			"Enter the ~|Vault of Hereditas|~": {
 				"Level": 95,
-				"Chunks": ["Kharid-Et - Barracks excavation site"],
+				"Chunks": ["Kharid-et - Barracks excavation site"],
 				"Output": "Vault of Hereditas loot",
 				"Primary": true,
 				"Priority": 2,
@@ -309756,7 +309756,7 @@
 				"Gloomfire bow": {
 					"1": "1/2000"
 				},
-				"Legatus's emberstaff": {
+				"Legatus's Emberstaff": {
 					"1": "1/2000"
 				},
 				"Misalionar's death mask": {
@@ -309822,7 +309822,7 @@
 				}
 			},
 			"Asuran Arsenal loot": {
-				"Varanus's mercy": {
+				"Varanus's Mercy": {
 					"1": "1/2000"
 				},
 				"Nodon spike harness": {

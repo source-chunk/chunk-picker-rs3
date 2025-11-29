@@ -22985,9 +22985,9 @@
   "Off-hand khopesh of the Kharidian": "t_22627",
   "Corundum": "t_111616",
   "Gloomfire bow": "t_112313",
-  "Legatus's emberstaff": "t_112314",
+  "Legatus's Emberstaff": "t_112314",
   "Misalionar's death mask": "t_112315",
-  "Varanus's mercy": "t_112316",
+  "Varanus's Mercy": "t_112316",
   "Nodon spike harness": "t_112317",
   "Time rune": "t_112318",
   "Medium bladed orikalkum salvage": "t_112319",
@@ -83688,7 +83688,7 @@
   "[Thieving] Shifting Tombs loot: ~|Off-hand khopesh of the Kharidian|~ (1) (1/800)": "t_47850",
   "[Thieving] Shifting Tombs loot: ~|Corundum|~ (1) (1/750)": "t_111617",
   "[Thieving] Vault of Hereditas loot: ~|Gloomfire bow|~ (1) (1/2,000)": "t_112641",
-  "[Thieving] Vault of Hereditas loot: ~|Legatus's emberstaff|~ (1) (1/2,000)": "t_112642",
+  "[Thieving] Vault of Hereditas loot: ~|Legatus's Emberstaff|~ (1) (1/2,000)": "t_114004",
   "[Thieving] Vault of Hereditas loot: ~|Misalionar's death mask|~ (1) (1/2,000)": "t_112643",
   "[Thieving] Vault of Hereditas loot: ~|Coins|~ (80000-120000) (Common)": "t_112644",
   "[Thieving] Vault of Hereditas loot: ~|Coins|~ (1150000-2000000) (Rare)": "t_112645",
@@ -83710,7 +83710,7 @@
   "[Thieving] Vault of Hereditas loot: ~|Radiant energy|~ (150-200) (Common)": "t_112661",
   "[Thieving] Vault of Hereditas loot: ~|Uncut ruby|~ (20-30) (Common)": "t_112662",
   "[Thieving] Vault of Hereditas loot: ~|Uncut diamond|~ (20-55) (Common)": "t_112663",
-  "[Thieving] Asuran Arsenal loot: ~|Varanus's mercy|~ (1) (1/2,000)": "t_112664",
+  "[Thieving] Asuran Arsenal loot: ~|Varanus's Mercy|~ (1) (1/2,000)": "t_114005",
   "[Thieving] Asuran Arsenal loot: ~|Nodon spike harness|~ (1) (1/2,000)": "t_112665",
   "[Thieving] Asuran Arsenal loot: ~|Coins|~ (100000-200000) (Common)": "t_112666",
   "[Thieving] Asuran Arsenal loot: ~|Coins|~ (1800000-3500000) (Rare)": "t_112667",
@@ -90017,5 +90017,5 @@
   "Pizazz points: ~|Death rune|~": "t_52854",
   "Pizazz points: ~|Soul rune|~": "t_52856",
   "Pizazz points: ~|Blood rune|~": "t_52857",
-  "currentNextIndex": 114004
+  "currentNextIndex": 114006
 }
