@@ -15,7 +15,7 @@
   "Rummage a ~|dead legionary|~ for double loot": "t_114009",
   "Pickpocket a ~|trainee archaeologist|~ for quadruple loot": "t_112235",
   "Pickpocket a ~|Wizards' Tower mage|~ for quadruple loot": "t_112236",
-  "Pickpocket an ~|archaeologist|~ for triple loot": "t_112237",
+  "Pickpocket an ~|archaeologist|~ for quadruple loot": "t_114368",
   "Squeeze through a ~|crevice (Asuran Arsenal)|~": "t_112238",
   "Access the ~|Brimhaven agility arena|~ low level obstacles": "t_14",
   "Access the ~|Brimhaven agility arena|~ medium level obstacles": "t_15",
@@ -90019,5 +90019,5 @@
   "Pizazz points: ~|Death rune|~": "t_52854",
   "Pizazz points: ~|Soul rune|~": "t_52856",
   "Pizazz points: ~|Blood rune|~": "t_52857",
-  "currentNextIndex": 114368
+  "currentNextIndex": 114369
 }

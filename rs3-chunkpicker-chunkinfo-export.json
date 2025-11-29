@@ -147,12 +147,12 @@
 				"Primary": false,
 				"Priority": 1000
 			},
-			"Pickpocket an ~|archaeologist|~ for triple loot": {
+			"Pickpocket an ~|archaeologist|~ for quadruple loot": {
 				"Category": ["Multiple Pickpockets"],
-				"Level": 87,
+				"Level": 98,
 				"NPCs": ["Archaeologist[+]"],
 				"Skills": {
-					"Thieving": 97
+					"Thieving": 108
 				},
 				"Primary": false,
 				"Priority": 1001
@@ -73921,16 +73921,6 @@
 				"Primary": false,
 				"Priority": 1000
 			},
-			"Pickpocket an ~|archaeologist|~ for triple loot": {
-				"Category": ["Multiple Pickpockets"],
-				"Level": 97,
-				"NPCs": ["Archaeologist[+]"],
-				"Skills": {
-					"Agility": 87
-				},
-				"Primary": false,
-				"Priority": 1001
-			},
 			"Pickpocket a ~|Meilyr worker|~": {
 				"Level": 98,
 				"NPCs": ["Meilyr worker"],
@@ -74192,6 +74182,16 @@
 				"Output": "Archaeology professor#Orthen",
 				"Primary": true,
 				"Priority": 108
+			},
+			"Pickpocket an ~|archaeologist|~ for quadruple loot": {
+				"Category": ["Multiple Pickpockets"],
+				"Level": 108,
+				"NPCs": ["Archaeologist[+]"],
+				"Skills": {
+					"Agility": 97
+				},
+				"Primary": false,
+				"Priority": 1000
 			},
 			"Loot a ~|chest (Wizards' Guild)|~": {
 				"Level": 110,
