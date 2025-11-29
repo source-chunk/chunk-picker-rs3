@@ -20685,6 +20685,15 @@
 				"Not F2P": true,
 				"Partial": true
 			},
+			"Craft a ~|pre-nature amulet|~": {
+				"Items": ["Magic string*", "Emerald amulet (unstrung)*"],
+				"Level": 8,
+				"Output": "Pre-nature amulet",
+				"Primary": true,
+				"Priority": 6,
+				"Not F2P": true,
+				"Partial": true
+			},
 			"Craft ~|imphide gloves|~": {
 				"Items": ["Imphide*", "Thread*"],
 				"Level": 10,
@@ -39995,6 +40004,12 @@
 				"Primary": true,
 				"Priority": 23
 			},
+			"Catch ~|fungal algae|~ in a Croesus encounter": {
+				"Chunks": ["Senntisten"],
+				"Level": 1,
+				"Primary": true,
+				"Priority": 25
+			},
 			"Catch a ~|raw shrimp|~ in the holy lake": {
 				"Level": 5,
 				"Objects": ["Fishing spot (karambwanji)"],
@@ -46565,6 +46580,13 @@
 				"Level": 1,
 				"Primary": true,
 				"Priority": 18,
+				"Not F2P": true
+			},
+			"Catch ~|fungal spores|~ in a Croesus encounter": {
+				"Chunks": ["Senntisten"],
+				"Level": 1,
+				"Primary": true,
+				"Priority": 19,
 				"Not F2P": true
 			},
 			"Catch a ~|common kebbit|~": {
@@ -54956,6 +54978,12 @@
 				"Level": 1,
 				"Primary": true,
 				"Priority": 12
+			},
+			"Mine ~|calcified fungus|~ in a Croesus encounter": {
+				"Chunks": ["Senntisten"],
+				"Level": 1,
+				"Primary": true,
+				"Priority": 13
 			},
 			"Mine an ~|iron rock|~": {
 				"Level": 10,
@@ -74321,7 +74349,13 @@
 				"Output": "Achey tree logs",
 				"Primary": true,
 				"Priority": 1
-			},	
+			},
+			"Cut ~|timber fungus|~ in a Croesus encounter": {
+				"Chunks": ["Senntisten"],
+				"Level": 1,
+				"Primary": true,
+				"Priority": 2
+			},
 			"Cut ~|oak logs|~": {
 				"Level": 10,
 				"Objects": ["Oak"],
@@ -129669,16 +129703,6 @@
 					"Harvest a ~|mushroom cluster|~ on an Uncharted Isle": "Farming"
 				}
 			},
-			"Obtain ~|the Fun Guy/Gal|~ title": {
-				"Category": ["Arc Log", "Titles"],
-				"Label": "Titles",
-				"Chunks": ["The Arc"],
-				"Tasks": {
-					"Harvest a ~|mushroom cluster|~ on The Islands That Once Were Turtles": "Farming",
-					"Harvest a ~|mushroom cluster|~ on Goshima": "Farming",
-					"Harvest a ~|mushroom cluster|~ on an Uncharted Isle": "Farming"
-				}
-			},
 			"Obtain the ~|Kami Spirits of the Arc|~ achievement": {
 				"Category": ["Arc Log", "Achievement"],
 				"Label": "Achievement",
@@ -135685,29 +135709,49 @@
 				"Items": ["Manuscript of Elidinis"],
 				"Not F2P": true
 			},
-			"(Croesus Front) Obtain ~|The Great Beast|~": {
+			"(Lore Books) Obtain ~|The Great Beast|~": {
 				"Category": ["Untracked Uniques", "Untracked Uniques Skilling"],
 				"Label": "Untracked Skilling Uniques",
 				"Items": ["The Great Beast"],
 				"Not F2P": true
 			},
-			"(Croesus Front) Obtain ~|A Life in Colour|~": {
+			"(Lore Books) Obtain ~|A Life in Colour|~": {
 				"Category": ["Untracked Uniques", "Untracked Uniques Skilling"],
 				"Label": "Untracked Skilling Uniques",
 				"Items": ["A Life in Colour"],
 				"Not F2P": true
 			},
-			"(Croesus Front) Obtain ~|The Massacrer of Moles|~": {
+			"(Lore Books) Obtain ~|The Massacrer of Moles|~": {
 				"Category": ["Untracked Uniques", "Untracked Uniques Skilling"],
 				"Label": "Untracked Skilling Uniques",
 				"Items": ["The Massacrer of Moles"],
 				"Not F2P": true
 			},
-			"(Croesus Front) Obtain ~|Kings and Queens|~": {
+			"(Lore Books) Obtain ~|Kings and Queens|~": {
 				"Category": ["Untracked Uniques", "Untracked Uniques Skilling"],
 				"Label": "Untracked Skilling Uniques",
 				"Items": ["Kings and Queens"],
 				"Not F2P": true
+			},
+			"(Lore Books) Obtain the ~|letter signed 'Pontifex Madromurt'|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Skilling"],
+				"Label": "Untracked Skilling Uniques",
+				"Items": ["Senntisten scroll"]
+			},
+			"(Lore Books) Obtain the ~|letter signed 'Pontifex Nabor'|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Skilling"],
+				"Label": "Untracked Skilling Uniques",
+				"Items": ["Senntisten scroll"]
+			},
+			"(Lore Books) Obtain the ~|letter signed 'Pontifex Bilrach'|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Skilling"],
+				"Label": "Untracked Skilling Uniques",
+				"Items": ["Senntisten scroll"]
+			},
+			"(Lore Books) Obtain the ~|damaged letter|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Skilling"],
+				"Label": "Untracked Skilling Uniques",
+				"Items": ["Senntisten scroll"]
 			},
 			"(Priffdinas Skilling) Obtain a ~|crystal weapon seed|~": {
 				"Category": ["Untracked Uniques", "Untracked Uniques Skilling"],
@@ -136241,26 +136285,6 @@
 				"Category": ["Untracked Uniques", "Untracked Uniques Skilling", "Pets"],
 				"Label": "Untracked Skilling Uniques",
 				"Items": ["Trevor"]
-			},
-			"(Empty Throne Room) Obtain the ~|letter signed 'Pontifex Madromurt'|~": {
-				"Category": ["Untracked Uniques", "Untracked Uniques Skilling"],
-				"Label": "Untracked Skilling Uniques",
-				"Items": ["Senntisten scroll"]
-			},
-			"(Empty Throne Room) Obtain the ~|letter signed 'Pontifex Nabor'|~": {
-				"Category": ["Untracked Uniques", "Untracked Uniques Skilling"],
-				"Label": "Untracked Skilling Uniques",
-				"Items": ["Senntisten scroll"]
-			},
-			"(Empty Throne Room) Obtain the ~|letter signed 'Pontifex Bilrach'|~": {
-				"Category": ["Untracked Uniques", "Untracked Uniques Skilling"],
-				"Label": "Untracked Skilling Uniques",
-				"Items": ["Senntisten scroll"]
-			},
-			"(Empty Throne Room) Obtain the ~|damaged letter|~": {
-				"Category": ["Untracked Uniques", "Untracked Uniques Skilling"],
-				"Label": "Untracked Skilling Uniques",
-				"Items": ["Senntisten scroll"]
 			},
 			"(Het's Oasis) Obtain a ~|piece of Het|~": {
 				"Category": ["Untracked Uniques", "Untracked Uniques Skilling"],
@@ -145512,12 +145536,39 @@
 					"Find ~|Salmon Ella|~": "Extra"
 				}
 			},
+			"Obtain ~|the Voyager|~ title": {
+				"Category": ["Arc Log", "Titles"],
+				"Label": "Titles",
+				"Chunks": ["The Arc"],
+				"Skills": {
+					"Farming": 94,
+					"Hunter": 95,
+					"Divination": 90
+				},
+				"Tasks": {
+					"Harvest a ~|mushroom cluster|~ on The Islands That Once Were Turtles": "Farming",
+					"Harvest a ~|mushroom cluster|~ on Goshima": "Farming",
+					"Harvest a ~|mushroom cluster|~ on an Uncharted Isle": "Farming",
+					"~|Final Destination (miniquest)|~ Complete the miniquest": "Quest",
+					"Obtain ~|the Castaway|~ title": "Extra"
+				}
+			},
 			"Obtain the ~|of the Arc|~ title": {
 				"Category": ["Arc Log", "Titles"],
 				"Label": "Titles",
 				"Chunks": ["The Arc"],
 				"Tasks": {
 					"~|Final Destination (miniquest)|~ Complete the miniquest": "Quest"
+				}
+			},
+			"Obtain ~|the Fun Guy/Gal|~ title": {
+				"Category": ["Arc Log", "Titles"],
+				"Label": "Titles",
+				"Chunks": ["The Arc"],
+				"Tasks": {
+					"Harvest a ~|mushroom cluster|~ on The Islands That Once Were Turtles": "Farming",
+					"Harvest a ~|mushroom cluster|~ on Goshima": "Farming",
+					"Harvest a ~|mushroom cluster|~ on an Uncharted Isle": "Farming"
 				}
 			},
 			"Obtain the ~|Champion of Champions|~ title": {
@@ -149703,6 +149754,12 @@
 				"Items": ["Farmer's hat add-on"],
 				"Not F2P": true
 			},
+			"Obtain an ~|amulet of nature|~": {
+				"Category": ["BIS Skilling"],
+				"Label": "BIS Skilling",
+				"Items": ["Amulet of nature"],
+				"Not F2P": true
+			},
 			"Obtain ~|constructor's gloves|~": {
 				"Category": ["BIS Skilling"],
 				"Label": "BIS Skilling",
@@ -150097,8 +150154,8 @@
 				"Not F2P": true
 			},
 			"Obtain a ~|crystal skillchompa|~": {
-				"Category": ["BIS Skilling"],
-				"Label": "BIS Skilling",
+				"Category": ["BIS Skilling Consumables", "BIS Skilling"],
+				"Label": "BIS Skilling Consumables",
 				"Items": ["Crystal skillchompa"],
 				"Requirements": {
 					"Fishing": 71,
@@ -150111,8 +150168,8 @@
 				"Set": "BIS Skillchompa"
 			},
 			"Obtain a ~|crimson skillchompa|~": {
-				"Category": ["BIS Skilling"],
-				"Label": "BIS Skilling",
+				"Category": ["BIS Skilling Consumables", "BIS Skilling"],
+				"Label": "BIS Skilling Consumables",
 				"Items": ["Crimson skillchompa"],
 				"Requirements": {
 					"Fishing": 61,
@@ -150125,8 +150182,8 @@
 				"Set": "BIS Skillchompa"
 			},
 			"Obtain an ~|azure skillchompa|~": {
-				"Category": ["BIS Skilling"],
-				"Label": "BIS Skilling",
+				"Category": ["BIS Skilling Consumables", "BIS Skilling"],
+				"Label": "BIS Skilling Consumables",
 				"Items": ["Azure skillchompa"],
 				"Requirements": {
 					"Fishing": 51,
@@ -150139,8 +150196,8 @@
 				"Set": "BIS Skillchompa"
 			},
 			"Obtain a ~|viridian skillchompa|~": {
-				"Category": ["BIS Skilling"],
-				"Label": "BIS Skilling",
+				"Category": ["BIS Skilling Consumables", "BIS Skilling"],
+				"Label": "BIS Skilling Consumables",
 				"Items": ["Viridian skillchompa"],
 				"Requirements": {
 					"Fishing": 41,
@@ -150153,8 +150210,8 @@
 				"Set": "BIS Skillchompa"
 			},
 			"Obtain a ~|cobalt skillchompa|~": {
-				"Category": ["BIS Skilling"],
-				"Label": "BIS Skilling",
+				"Category": ["BIS Skilling Consumables", "BIS Skilling"],
+				"Label": "BIS Skilling Consumables",
 				"Items": ["Cobalt skillchompa"],
 				"Priority": 5,
 				"Requirements": {
@@ -156991,6 +157048,7 @@
 			"~|Pizazz points|~*": {
 				"Category": ["Minigame"],
 				"NPCs": ["Rewards Guardian"],
+				"Items":["Law rune*", "Cosmic rune*", "Nature rune*", "Earth rune[+]", "Air rune[+]", "Water rune[+]", "Fire rune[+]"],
 				"Source": "shop",
 				"Output": "Pizazz points loot",
 				"Not F2P": true
