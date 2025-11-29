@@ -376,6 +376,7 @@ let rules = {
     "Collection Log": false,
 	"Boss Collection Log": false,
 	"Slayer Collection Log": false,
+	"Skilling Collection Log": false,
 	"Archaeology Collections": false,
 	"Universal Tertiary": false,
 	"Breeding Log": false,
@@ -510,6 +511,7 @@ let ruleNames = {
     "Collection Log": "Must obtain items from collection logs (Does nothing on its own)",
 	"Boss Collection Log": "Must obtain items from the boss collection log<span class='rule-asterisk noscroll'>*</span>",
 	"Slayer Collection Log": "Must obtain items from the slayer collection log<span class='rule-asterisk noscroll'>*</span>",
+	"Skilling Collection Log": "Must obtain items from the (hidden) skilling collection log<span class='rule-asterisk noscroll'>*</span>",
 	"Archaeology Collections": "Must fill out all Archaeology collections<span class='rule-asterisk noscroll'>*</span>",
 	"Universal Tertiary": "Allow universal tertiary drops (mimic tokens, effigies, spirit gems) to count towards chunk tasks<span class='rule-asterisk noscroll'>†</span>",
 	"Breeding Log": "Must fill out the Player-Owned Farm and Player-Owned Ranch breeding logs<span class='rule-asterisk noscroll'>*</span>",
@@ -665,6 +667,7 @@ let rulePresets = {
         "Collection Log": true,
 		"Boss Collection Log": true,
 		"Slayer Collection Log": true,
+		"Skilling Collection Log": true,
 		"Archaeology Collections": true,
 		"Breeding Log": true,
         "Untracked Uniques": true,
@@ -750,6 +753,7 @@ let rulePresets = {
         "Collection Log": true,
 		"Boss Collection Log": true,
 		"Slayer Collection Log": true,
+		"Skilling Collection Log": true,
 		"Archaeology Collections": true,
 		"Breeding Log": true,
         "Untracked Uniques": true,
@@ -913,7 +917,7 @@ let ruleStructure = {
         "Smithing by Smelting": true
     },
 	"Collections": {
-        "Collection Log": ["Boss Collection Log", "Slayer Collection Log", "Arc Log", "Menaphos Log", "Breeding Log", "Dungeoneering Journals", "Slayer Souls"],
+        "Collection Log": ["Boss Collection Log", "Slayer Collection Log", "Skilling Collection Log", "Arc Log", "Menaphos Log", "Breeding Log", "Dungeoneering Journals", "Slayer Souls"],
 		"Untracked Uniques": ["Untracked Uniques Skilling", "Untracked Uniques Combat", "Untracked Uniques Minigames", "Untracked Uniques Daemonheim", "Untracked Uniques Misc"],
 		"Archaeology Collections": true,
 		"Ports Scrolls": true,
@@ -12675,6 +12679,10 @@ let loadData = async function(startup) {
 
         if (!rulesTemp.hasOwnProperty('Boss Collection Log')) {
             rulesTemp['Boss Collection Log'] = rulesTemp.hasOwnProperty('Slayer Collection Log') ? rulesTemp['Slayer Collection Log'] : false;
+        }
+		
+		 if (!rulesTemp.hasOwnProperty('Skilling Collection Log')) {
+            rulesTemp['Skilling Collection Log'] = (rulesTemp.hasOwnProperty('Slayer Collection Log') || rulesTemp.hasOwnProperty('Untracked Uniques Skilling')) ? (rulesTemp['Slayer Collection Log'] || rulesTemp['Untracked Uniques Skilling']) : false;
         }
 		
 		if (!rulesTemp.hasOwnProperty('Untracked Uniques Skilling')) {

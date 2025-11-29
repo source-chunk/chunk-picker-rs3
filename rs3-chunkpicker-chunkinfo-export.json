@@ -107,6 +107,44 @@
 				"Priority": 9,
 				"NoPet": true
 			},
+			"Pickpocket a ~|trainee archaeologist|~ for quadruple loot": {
+				"Category": ["Multiple Pickpockets"],
+				"Level": 70,
+				"NPCs": ["Trainee archaeologist[+]"],
+				"Skills": {
+					"Thieving": 80
+				},
+				"Primary": false,
+				"Priority": 1001
+			},
+			"Pickpocket a ~|Wizards' Tower mage|~ for quadruple loot": {
+				"Category": ["Multiple Pickpockets"],
+				"Level": 84,
+				"NPCs": ["Wizards' Tower mage"],
+				"Skills": {
+					"Thieving": 94
+				},
+				"Primary": false,
+				"Priority": 1000
+			},
+			"Pickpocket an ~|archaeologist|~ for triple loot": {
+				"Category": ["Multiple Pickpockets"],
+				"Level": 87,
+				"NPCs": ["Archaeologist[+]"],
+				"Skills": {
+					"Thieving": 97
+				},
+				"Primary": false,
+				"Priority": 1001
+			},
+			"Squeeze through a ~|crevice (Asuran Arsenal)|~": {
+				"Category": ["Shortcut"],
+				"Objects": ["Crevice (Asuran Arsenal)"],
+				"Level": 85,
+				"Primary": true,
+				"Priority": 10,
+				"NoPet": true
+			},
 			"Access the ~|Brimhaven agility arena|~ low level obstacles": {
 				"Chunks": ["Brimhaven agility arena"],
 				"Level": 1,
@@ -677,6 +715,22 @@
 				"Priority": 1,
 				"NoPet": true
 			},
+			"Climb up ~|handholds (Asuran Arsenal)|~": {
+				"Category": ["Shortcut"],
+				"Objects": ["Handholds (Asuran Arsenal)"],
+				"Level": 1,
+				"Primary": true,
+				"Priority": 2,
+				"NoPet": true
+			},
+			"Climb down ~|dropdown (Asuran Arsenal)|~": {
+				"Category": ["Shortcut"],
+				"Objects": ["Dropdown (Asuran Arsenal)"],
+				"Level": 1,
+				"Primary": true,
+				"Priority": 3,
+				"NoPet": true
+			},
 			"Cross the ~|wall (Falador)|~": {
 				"Category": ["Shortcut"],
 				"Objects": ["Wall (Falador)"],
@@ -1196,6 +1250,14 @@
 				"Priority": 1,
 				"NoPet": true
 			},
+			"Squeeze through a ~|crevice (Vault of Hereditas)|~": {
+				"Category": ["Shortcut"],
+				"Objects": ["Crevice (Vault of Hereditas)"],
+				"Level": 72,
+				"Primary": true,
+				"Priority": 2,
+				"NoPet": true
+			},
 			"Cross the ~|gap (Polypore Dungeon)|~": {
 				"Category": ["Shortcut"],
 				"Chunks": ["Polypore Dungeon"],
@@ -1244,6 +1306,14 @@
 				},
 				"Primary": false,
 				"Priority": 20,
+				"NoPet": true
+			},
+			"Jump over ~|rubble (Asuran Arsenal)|~": {
+				"Category": ["Shortcut"],
+				"Objects": ["Rubble (Asuran Arsenal)"],
+				"Level": 75,
+				"Primary": true,
+				"Priority": 7,
 				"NoPet": true
 			},
 			"Cross the hard ~|tunnel (Kalphite Hive)|~": {
@@ -1604,6 +1674,14 @@
 				"Priority": 9,
 				"NoPet": true
 			},
+			"Jump a ~|low wall (Asuran Arsenal)|~": {
+				"Category": ["Shortcut"],
+				"Objects": ["Low wall (Asuran Arsenal)"],
+				"Level": 1,
+				"Primary": true,
+				"Priority": 10,
+				"NoPet": true
+			},
 			"Feed a ~|starved ancient effigy|~ with agility": {
 				"Items": ["Starved ancient effigy (agility/crafting)"],
 				"Level": 91,
@@ -1629,6 +1707,14 @@
 				"Items": ["Gorged ancient effigy (agility/crafting)"],
 				"Level": 97,
 				"Primary": false,
+				"Priority": 100,
+				"NoPet": true
+			},
+			"Swing across a ~|railing (Asuran Arsenal)|~": {
+				"Category": ["Shortcut"],
+				"Objects": ["Railing (Asuran Arsenal)"],
+				"Level": 97,
+				"Primary": true,
 				"Priority": 1,
 				"NoPet": true
 			},
@@ -8970,6 +9056,33 @@
 				"NoBoost": true,
 				"Not F2P": true
 			},
+			"Wield ~|Varanus's Mercy|~": {
+				"Items": ["Varanus's Mercy"],
+				"Level": 90,
+				"Primary": false,
+				"Priority": 8,
+				"NoPet": true,
+				"NoBoost": true,
+				"Not F2P": true
+			},
+			"Wield a ~|Nodon spike harness|~": {
+				"Items": ["Nodon spike harness"],
+				"Level": 90,
+				"Primary": false,
+				"Priority": 8,
+				"NoPet": true,
+				"NoBoost": true,
+				"Not F2P": true
+			},
+			"Wear an ~|am-zi|~": {
+				"Items": ["Am-zi"],
+				"Level": 90,
+				"Primary": false,
+				"Priority": 4,
+				"NoPet": true,
+				"NoBoost": true,
+				"Not F2P": true
+			},
 			"Make a ~|Milestone cape (90)|~": {
 				"Category": ["Skillcape"],
 				"Items": ["Balls of wool"],
@@ -9006,7 +9119,7 @@
 					"Thieving": 90,
 					"Woodcutting": 90
 				},
-				"Priority": 8,
+				"Priority": 1000,
 				"NoPet": true,
 				"NoBoost": true,
 				"Not F2P": true
@@ -19976,7 +20089,7 @@
 			"Craft a ~|wizard shield|~": {
 				"Items": ["Strip of cloth*", "Thread*"],
 				"Level": 1,
-				"Output": "Wizard book",
+				"Output": "Wizard shield",
 				"Primary": true,
 				"Priority": 25
 			},
@@ -26219,7 +26332,23 @@
 				"Output": "Platinum bracelet",
 				"Objects": ["CraftingFurnace[+]"],
 				"Primary": true,
-				"Priority": 4,
+				"Priority": 1,
+				"Not F2P": true
+			},
+			"Craft an ~|am-hej|~": {
+				"Items": ["Jal-tok-yt*", "Berserker necklace*"],
+				"Level": 106,
+				"Output": "Am-hej",
+				"Primary": true,
+				"Priority": 2,
+				"Not F2P": true
+			},
+			"Craft an ~|am-zi|~": {
+				"Items": ["Jal-tok-yt*", "Berserker necklace*"],
+				"Level": 106,
+				"Output": "Am-zi",
+				"Primary": true,
+				"Priority": 3,
 				"Not F2P": true
 			},
 			"Craft an ~|exquisite woodcutting urn (unfired)|~": {
@@ -26228,7 +26357,7 @@
 				"Output": "Exquisite woodcutting urn (unfired)",
 				"Objects": ["Potter's wheel"],
 				"Primary": true,
-				"Priority": 2,
+				"Priority": 100,
 				"Partial": true
 			},
 			"Craft an ~|exquisite woodcutting urn (no gem)|~": {
@@ -26237,7 +26366,7 @@
 				"Output": "Exquisite woodcutting urn (no gem)",
 				"Objects": ["Pottery oven"],
 				"Primary": true,
-				"Priority": 3,
+				"Priority": 101,
 				"Partial": true
 			},
 			"Craft an ~|exquisite woodcutting urn (no rune)|~": {
@@ -26245,7 +26374,7 @@
 				"Level": 106,
 				"Output": "Exquisite woodcutting urn (no rune)",
 				"Primary": true,
-				"Priority": 4,
+				"Priority": 102,
 				"Partial": true
 			},
 			"Complete a ~|exquisite woodcutting urn|~": {
@@ -26256,7 +26385,7 @@
 				},
 				"Output": "Exquisite woodcutting urn",
 				"Primary": true,
-				"Priority": 5
+				"Priority": 103
 			},
 			"Craft an ~|exquisite runecrafting urn (unfired)|~": {
 				"Items": ["Soft porcelain clay*"],
@@ -29519,6 +29648,17 @@
 				"NoBoost": true,
 				"Not F2P": true
 			},
+			"Equip ~|Misalionar's death mask|~": {
+				"Items": ["Misalionar's death mask"],
+				"Level": 90,
+				"Skills": {
+					"Necromancy": 95
+				},
+				"Primary": false,
+				"Priority": 30,
+				"NoPet": true,
+				"NoBoost": true
+			},
 			"Wear a piece of ~|trimmed masterwork melee armour|~": {
 				"Items": ["TrimmedmasterworkArmour[+]"],
 				"Level": 92,
@@ -29575,6 +29715,17 @@
 				"NoPet": true,
 				"NoBoost": true,
 				"Not F2P": true
+			},
+			"Equip the ~|robes of the First Necromancer|~": {
+				"Items": ["RasialArmour[+]"],
+				"Level": 95,
+				"Skills": {
+					"Necormancy": 95
+				},
+				"Primary": false,
+				"Priority": 3,
+				"NoPet": true,
+				"NoBoost": true
 			},
 			"Wear a piece of ~|primal armour|~": {
 				"Items": ["PrimalArmour[+]"],
@@ -30691,7 +30842,8 @@
 				"Objects": ["Energy rift"],
 				"Level": 1,
 				"Primary": true,
-				"Priority": 12
+				"Priority": 12,
+				"Not F2P": true
 			},
 			"Create a ~|divine herring bubble|~": {
 				"Items": ["Flickering energy*", "Raw herring*"],
@@ -31367,7 +31519,8 @@
 					"Smithing": 80
 				},
 				"Primary": false,
-				"Priority": 6
+				"Priority": 6,
+				"Not F2P": true
 			},
 			"Create the ~|elder divination outfit|~": {
 				"Objects": ["Inventor's workbench"],
@@ -48468,7 +48621,8 @@
 					"Smithing": 80
 				},
 				"Primary": false,
-				"Priority": 1
+				"Priority": 1,
+				"Not F2P": true
 			},
 			"Train invention by ~|disassembling|~": {
 				"Category": ["Token"],
@@ -48477,7 +48631,8 @@
 					"Unlock ~|Invention|~": "Invention"
 				},
 				"Primary": true,
-				"Priority": 2
+				"Priority": 2,
+				"Not F2P": true
 			},
 			"~|Disassemble|~ any item": {
 				"Level": 1,
@@ -48486,7 +48641,8 @@
 				},
 				"Output": "Invention Components",
 				"Primary": false,
-				"Priority": 3
+				"Priority": 3,
+				"Not F2P": true
 			},
 			"Train ~|Invention|~ using a augmented weapon": {
 				"Chunks": ["Invention Guild"],
@@ -48496,7 +48652,8 @@
 					"Unlock ~|Invention|~": "Invention"
 				},
 				"Primary": true,
-				"Priority": 4
+				"Priority": 4,
+				"Not F2P": true
 			},
 			"~|Disassemble|~ any item that gives Fungal components": {
 				"Items": ["FungalComps[+]"],
@@ -48504,7 +48661,8 @@
 				"Level": 2,
 				"Output": "Fungal components",
 				"Primary": false,
-				"Priority": 100
+				"Priority": 100,
+				"Not F2P": true
 			},
 			"~|Disassemble|~ any item that gives Seren components": {
 				"Items": ["SerenComps[+]"],
@@ -48512,7 +48670,8 @@
 				"Level": 2,
 				"Output": "Seren components",
 				"Primary": false,
-				"Priority": 103
+				"Priority": 103,
+				"Not F2P": true
 			},
 			"~|Disassemble|~ any item that gives Resilient components": {
 				"Items": ["ResilientComps[+]"],
@@ -48520,7 +48679,8 @@
 				"Level": 2,
 				"Output": "Resilient components",
 				"Primary": false,
-				"Priority": 104
+				"Priority": 104,
+				"Not F2P": true
 			},
 			"~|Disassemble|~ any item that gives Silent components": {
 				"Items": ["SilentComps[+]"],
@@ -48528,7 +48688,8 @@
 				"Level": 2,
 				"Output": "Silent components",
 				"Primary": false,
-				"Priority": 105
+				"Priority": 105,
+				"Not F2P": true
 			},
 			"~|Disassemble|~ any item that gives Rumbling components": {
 				"Items": ["RumblingComps[+]"],
@@ -48536,7 +48697,8 @@
 				"Level": 2,
 				"Output": "Rumbling components",
 				"Primary": false,
-				"Priority": 106
+				"Priority": 106,
+				"Not F2P": true
 			},
 			"~|Disassemble|~ any item that gives Shifting components": {
 				"Items": ["ShiftingComps[+]"],
@@ -48544,7 +48706,8 @@
 				"Level": 2,
 				"Output": "Shifting components",
 				"Primary": false,
-				"Priority": 107
+				"Priority": 107,
+				"Not F2P": true
 			},
 			"~|Disassemble|~ any item that gives Oceanic components": {
 				"Items": ["OceanicComps[+]"],
@@ -48552,7 +48715,8 @@
 				"Level": 2,
 				"Output": "Oceanic components",
 				"Primary": false,
-				"Priority": 108
+				"Priority": 108,
+				"Not F2P": true
 			},
 			"~|Disassemble|~ any item that gives Ascended components": {
 				"Items": ["AscendedComps[+]"],
@@ -48560,7 +48724,8 @@
 				"Level": 2,
 				"Output": "Ascended components",
 				"Primary": false,
-				"Priority": 109
+				"Priority": 109,
+				"Not F2P": true
 			},
 			"~|Disassemble|~ any item that gives Undead components": {
 				"Items": ["UndeadComps[+]"],
@@ -48568,7 +48733,8 @@
 				"Level": 2,
 				"Output": "Undead components",
 				"Primary": false,
-				"Priority": 110
+				"Priority": 110,
+				"Not F2P": true
 			},
 			"~|Disassemble|~ any item that gives Shadow components": {
 				"Items": ["ShadowComps[+]"],
@@ -48576,7 +48742,8 @@
 				"Level": 2,
 				"Output": "Shadow components",
 				"Primary": false,
-				"Priority": 111
+				"Priority": 111,
+				"Not F2P": true
 			},
 			"~|Disassemble|~ any item that gives Ilujankan components": {
 				"Items": ["IlujankanComps[+]"],
@@ -48584,7 +48751,8 @@
 				"Level": 2,
 				"Output": "Ilujankan components",
 				"Primary": false,
-				"Priority": 112
+				"Priority": 112,
+				"Not F2P": true
 			},
 			"~|Disassemble|~ any item that gives Cywir components": {
 				"Items": ["CywirComps[+]"],
@@ -48592,7 +48760,8 @@
 				"Level": 2,
 				"Output": "Cywir components",
 				"Primary": false,
-				"Priority": 113
+				"Priority": 113,
+				"Not F2P": true
 			},
 			"~|Disassemble|~ any item that gives Fortunate components": {
 				"Items": ["FortunateComps[+]"],
@@ -48600,7 +48769,8 @@
 				"Level": 2,
 				"Output": "Fortunate components",
 				"Primary": false,
-				"Priority": 114
+				"Priority": 114,
+				"Not F2P": true
 			},
 			"~|Disassemble|~ any item that gives Manufactured components": {
 				"Items": ["ManufacturedComps[+]"],
@@ -48608,35 +48778,40 @@
 				"Level": 2,
 				"Output": "Manufactured components",
 				"Primary": false,
-				"Priority": 115
+				"Priority": 115,
+				"Not F2P": true
 			},
 			"~|Disassemble|~ any item that gives Historic components": {
 				"Chunks": ["Invention Guild", "ArchDigSite[+]", "Howl's Workshop"],
 				"Level": 85,
 				"Output": "Historic components",
 				"Primary": false,
-				"Priority": 116
+				"Priority": 116,
+				"Not F2P": true
 			},
 			"~|Disassemble|~ any item that gives Classic components": {
 				"Chunks": ["Invention Guild", "ArchDigSite[+]", "Howl's Workshop"],
 				"Level": 85,
 				"Output": "Classic components",
 				"Primary": false,
-				"Priority": 117
+				"Priority": 117,
+				"Not F2P": true
 			},
 			"~|Disassemble|~ any item that gives Timeworn components": {
 				"Chunks": ["Invention Guild", "ArchDigSite[+]", "Howl's Workshop"],
 				"Level": 94,
 				"Output": "Timeworn components",
 				"Primary": false,
-				"Priority": 118
+				"Priority": 118,
+				"Not F2P": true
 			},
 			"~|Disassemble|~ any item that gives Vintage components": {
 				"Chunks": ["Invention Guild", "ArchDigSite[+]", "Howl's Workshop"],
 				"Level": 103,
 				"Output": "Vintage components",
 				"Primary": false,
-				"Priority": 116
+				"Priority": 116,
+				"Not F2P": true
 			},
 			"Turn junk into ~|refined components|~": {
 				"Items": ["Junk refiner"],
@@ -48644,7 +48819,8 @@
 				"Level": 1,
 				"Primary": true,
 				"Output": "Refined components",
-				"Priority": 100
+				"Priority": 100,
+				"Not F2P": true
 			},
 			"Create a ~|weapon gizmo shell|~": {
 				"Items": ["Blade parts*", "Crafted parts*", "Strong components*"],
@@ -48652,7 +48828,8 @@
 				"Level": 3,
 				"Primary": true,
 				"Output": "Weapon gizmo shell",
-				"Priority": 1
+				"Priority": 1,
+				"Not F2P": true
 			},
 			"Create a ~|divine charge|~": {
 				"Items": ["DivinationEnergy[+]*", "Simple parts*"],
@@ -48660,7 +48837,8 @@
 				"Level": 4,
 				"Primary": true,
 				"Output": "Divine charge",
-				"Priority": 1
+				"Priority": 1,
+				"Not F2P": true
 			},
 			"Create a ~|gizmo dissolver|~": {
 				"Items": ["Vial*", "Organic parts*", "Clear parts*"],
@@ -53814,12 +53992,48 @@
 				"NoPet": true,
 				"NoBoost": true
 			},
+			"Wield a ~|Legatus's Emberstaff|~": {
+				"Items": ["Legatus's Emberstaff"],
+				"Level": 90,
+				"Primary": false,
+				"Priority": 13,
+				"NoPet": true,
+				"NoBoost": true
+			},
 			"Imbue ~|chaos-infused moonstone|~": {
 				"Items": ["Chaos-infused moonstone (unimbued)*"],
 				"Level": 90,
 				"Output": "Chaos-infused moonstone",
 				"Primary": true,
-				"Priority": 13
+				"Priority": 1000
+			},
+			"Imbue a ~|noxious sapphire|~": {
+				"Items": ["Noxious sapphire (unimbued)*"],
+				"Level": 90,
+				"Output": "Noxious sapphire",
+				"Primary": true,
+				"Priority": 1001
+			},
+			"Imbue a ~|ascended sapphire|~": {
+				"Items": ["Ascended sapphire (unimbued)*"],
+				"Level": 90,
+				"Output": "Ascended sapphire",
+				"Primary": true,
+				"Priority": 1002
+			},
+			"Imbue a ~|pearlescent substrate|~": {
+				"Items": ["Pearlescent substrate (unimbued)*"],
+				"Level": 90,
+				"Output": "Pearlescent substrate",
+				"Primary": true,
+				"Priority": 1003
+			},
+			"Imbue an ~|ethereal pearlescent plate|~": {
+				"Items": ["Lined pearlescent plate*"],
+				"Level": 90,
+				"Output": "Ethereal pearlescent plate",
+				"Primary": true,
+				"Priority": 1004
 			},
 			"Make a ~|Milestone cape (90)|~": {
 				"Category": ["Skillcape"],
@@ -53857,38 +54071,10 @@
 					"Thieving": 90,
 					"Woodcutting": 90
 				},
-				"Priority": 13,
+				"Priority": 10000,
 				"NoPet": true,
 				"NoBoost": true,
 				"Not F2P": true
-			},
-			"Imbue a ~|noxious sapphire|~": {
-				"Items": ["Noxious sapphire (unimbued)*"],
-				"Level": 90,
-				"Output": "Noxious sapphire",
-				"Primary": true,
-				"Priority": 14
-			},
-			"Imbue a ~|ascended sapphire|~": {
-				"Items": ["Ascended sapphire (unimbued)*"],
-				"Level": 90,
-				"Output": "Ascended sapphire",
-				"Primary": true,
-				"Priority": 15
-			},
-			"Imbue a ~|pearlescent substrate|~": {
-				"Items": ["Pearlescent substrate (unimbued)*"],
-				"Level": 90,
-				"Output": "Pearlescent substrate",
-				"Primary": true,
-				"Priority": 16
-			},
-			"Imbue an ~|ethereal pearlescent plate|~": {
-				"Items": ["Lined pearlescent plate*"],
-				"Level": 90,
-				"Output": "Ethereal pearlescent plate",
-				"Primary": true,
-				"Priority": 17
 			},
 			"Cast ~|enchant bakriminel bolt (jade)|~": {
 				"Category": ["Spells"],
@@ -54794,7 +54980,7 @@
 			},
 			"Mine a ~|coal rock|~": {
 				"Level": 20,
-				"Objects": ["Coal rock"],
+				"Objects": ["Coal rock[+]"],
 				"Primary": true,
 				"Output": "Coal",
 				"Priority": 1
@@ -54927,7 +55113,7 @@
 			},
 			"Mine a ~|luminite rock|~": {
 				"Level": 40,
-				"Objects": ["Luminite rock"],
+				"Objects": ["Luminite rock[+]"],
 				"Primary": true,
 				"Output": "Luminite",
 				"Priority": 3
@@ -54994,7 +55180,7 @@
 			},
 			"Mine a ~|drakolith rock|~": {
 				"Level": 60,
-				"Objects": ["Drakolith rock"],
+				"Objects": ["Drakolith rock[+]"],
 				"Primary": true,
 				"Output": "Drakolith",
 				"Priority": 3,
@@ -55021,7 +55207,7 @@
 			},
 			"Mine a ~|phasmatite rock|~": {
 				"Level": 70,
-				"Objects": ["Phasmatite rock"],
+				"Objects": ["Phasmatite rock[+]"],
 				"Primary": true,
 				"Output": "Phasmatite",
 				"Priority": 2,
@@ -56673,6 +56859,17 @@
 				"Level": 95,
 				"Primary": false,
 				"Priority": 4,
+				"NoPet": true,
+				"NoBoost": true
+			},
+			"Equip ~|Misalionar's death mask|~": {
+				"Items": ["Misalionar's death mask"],
+				"Level": 95,
+				"Skills": {
+					"Defence": 90
+				},
+				"Primary": false,
+				"Priority": 5,
 				"NoPet": true,
 				"NoBoost": true
 			},
@@ -61574,6 +61771,15 @@
 				"NoBoost": true,
 				"Not F2P": true
 			},
+			"Wield a ~|gloomfire bow|~": {
+				"Items": ["gloomfire bow"],
+				"Level": 90,
+				"Primary": false,
+				"Priority": 21,
+				"NoPet": true,
+				"NoBoost": true,
+				"Not F2P": true
+			},
 			"Make a ~|Milestone cape (90)|~": {
 				"Category": ["Skillcape"],
 				"Items": ["Balls of wool"],
@@ -61610,7 +61816,7 @@
 					"Thieving": 90,
 					"Woodcutting": 90
 				},
-				"Priority": 21,
+				"Priority": 1000,
 				"NoPet": true,
 				"NoBoost": true,
 				"Not F2P": true
@@ -67305,7 +67511,8 @@
 				"Output": "Masterwork rivets",
 				"Primary": true,
 				"Priority": 2,
-				"Partial": true
+				"Partial": true,
+				"Not F2P": true
 			},
 			"Forge ~|mithril|~": {
 				"Items": ["Mithril bar*"],
@@ -69338,13 +69545,22 @@
 				"NoPet": true,
 				"NoBoost": true
 			},
+			"Wear an ~|am-hej|~": {
+				"Items": ["Am-hej"],
+				"Level": 90,
+				"Primary": false,
+				"Priority": 1,
+				"NoPet": true,
+				"NoBoost": true,
+				"Not F2P": true
+			},
 			"Keep the ~|big rock|~": {
 				"Level": 90,
 				"Tasks": {
 					"~|King of the Dwarves|~ Complete the quest": "Quest"
 				},
 				"Primary": false,
-				"Priority": 1,
+				"Priority": 2,
 				"NoPet": true,
 				"NoBoost": true
 			},
@@ -72191,13 +72407,6 @@
 				"Primary": true,
 				"Priority": 4
 			},
-			"Pickpocket a ~|Dig Site workman|~": {
-				"NPCs": ["Dig Site workman"],
-				"Level": 1,
-				"Output": "DigSitePickpocket",
-				"Primary": true,
-				"Priority": 5
-			},
 			"Harvest a ~|winter sq'irk|~": {
 				"Chunks": ["Sorceress' Garden"],
 				"Level": 1,
@@ -72502,6 +72711,13 @@
 				"Output": "Phoenix feather",
 				"Priority": 4
 			},
+			"Pickpocket a ~|Dig Site workman|~": {
+				"NPCs": ["Dig Site workman"],
+				"Level": 25,
+				"Output": "DigSitePickpocket",
+				"Primary": true,
+				"Priority": 5
+			},
 			"Harvest a ~|spring sq'irk|~": {
 				"Chunks": ["Sorceress' Garden"],
 				"Level": 25,
@@ -72747,26 +72963,82 @@
 				"Primary": true,
 				"Priority": 1
 			},
-			"Pickpocket an ~|archaeologist trainee|~": {
-				"Level": 50,
-				"NPCs": ["Archaeologist trainee"],
-				"Output": "Archaeologist trainee",
-				"Primary": true,
-				"Priority": 1
-			},
 			"Steal from a ~|silver stall|~": {
 				"Level": 50,
 				"Objects": ["Silver stall"],
 				"Output": "Silver ore",
 				"Primary": true,
-				"Priority": 2
+				"Priority": 1
 			},
 			"Steal from a ~|silver stall (Keldagrim)|~": {
 				"Level": 50,
 				"Objects": ["Silver stall (Keldagrim)"],
 				"Output": "Silver stone spirit",
 				"Primary": true,
-				"Priority": 3
+				"Priority": 2
+			},
+			"Pickpocket an ~|archaeologist trainee#Archaeology Campus|~": {
+				"Level": 50,
+				"NPCs": ["Archaeologist trainee#Archaeology Campus"],
+				"Output": "Archaeologist trainee#Archaeology Campus",
+				"Primary": true,
+				"Priority": 100
+			},
+			"Pickpocket an ~|archaeologist trainee#Kharid-et|~": {
+				"Level": 50,
+				"NPCs": ["Archaeologist trainee#Kharid-et"],
+				"Output": "Archaeologist trainee#Kharid-et",
+				"Primary": true,
+				"Priority": 101
+			},
+			"Pickpocket an ~|archaeologist trainee#Infernal Source|~": {
+				"Level": 50,
+				"NPCs": ["Archaeologist trainee#Infernal Source"],
+				"Output": "Archaeologist trainee#Infernal Source",
+				"Primary": true,
+				"Priority": 102
+			},
+			"Pickpocket an ~|archaeologist trainee#Everlight|~": {
+				"Level": 50,
+				"NPCs": ["Archaeologist trainee#Everlight"],
+				"Output": "Archaeologist trainee#Everlight",
+				"Primary": true,
+				"Priority": 103
+			},
+			"Pickpocket an ~|archaeologist trainee#Senntisten|~": {
+				"Level": 50,
+				"NPCs": ["Archaeologist trainee#Senntisten"],
+				"Output": "Archaeologist trainee#Senntisten",
+				"Primary": true,
+				"Priority": 104
+			},
+			"Pickpocket an ~|archaeologist trainee#Stormguard Citadel|~": {
+				"Level": 50,
+				"NPCs": ["Archaeologist trainee#Stormguard Citadel"],
+				"Output": "Archaeologist trainee#Stormguard Citadel",
+				"Primary": true,
+				"Priority": 105
+			},
+			"Pickpocket an ~|archaeologist trainee#Daemonheim|~": {
+				"Level": 50,
+				"NPCs": ["Archaeologist trainee#Daemonheim"],
+				"Output": "Archaeologist trainee#Daemonheim",
+				"Primary": true,
+				"Priority": 106
+			},
+			"Pickpocket an ~|archaeologist trainee#Warforge|~": {
+				"Level": 50,
+				"NPCs": ["Archaeologist trainee#Warforge"],
+				"Output": "Archaeologist trainee#Warforge",
+				"Primary": true,
+				"Priority": 107
+			},
+			"Pickpocket an ~|archaeologist trainee#Orthen|~": {
+				"Level": 50,
+				"NPCs": ["Archaeologist trainee#Orthen"],
+				"Output": "Archaeologist trainee#Orthen",
+				"Primary": true,
+				"Priority": 108
 			},
 			"Enter a tier one ~|Shifting Tombs|~": {
 				"Chunks": ["8300"],
@@ -72778,7 +73050,7 @@
 				},
 				"Output": "Shifting Tombs loot",
 				"Primary": true,
-				"Priority": 4
+				"Priority": 1000
 			},
 			"Pickpocket a ~|H.A.M. member (male)|~ for quadruple loot": {
 				"Category": ["Multiple Pickpockets"],
@@ -72789,7 +73061,7 @@
 				},
 				"Output": "Ham member",
 				"Primary": false,
-				"Priority": 4
+				"Priority": 1001
 			},
 			"Steal from the fourth room in ~|pyramid plunder|~": {
 				"Chunks": ["Pyramid Plunder"],
@@ -72855,9 +73127,9 @@
 				"Primary": false,
 				"Priority": 1000
 			},
-			"Loot a ~|chest (blood runes)|~": {
+			"Loot a ~|chest (Chaos Druid Tower Dungeon)|~": {
 				"Level": 59,
-				"Objects": ["Chest (blood runes)"],
+				"Objects": ["Chest (Chaos Druid Tower Dungeon)"],
 				"Chunks": ["10292"],
 				"Output": "Blood rune",
 				"Primary": true,
@@ -73046,11 +73318,10 @@
 				"Primary": false,
 				"Priority": 1000
 			},
-			"Loot a ~|chest (Dwarven Mine)|~": {
+			"Loot a ~|chest (Dwarven mines, Thieving)|~": {
 				"Level": 71,
-				"Items": ["Lockpick"],
-				"Objects": ["Chest (Dwarven Mine)"],
-				"Output": "Chest (Dwarven Mine)",
+				"Objects": ["Chest (Dwarven mines, Thieving)"],
+				"Output": "Chest (Dwarven mines, Thieving)",
 				"Primary": true,
 				"Priority": 1
 			},
@@ -73089,11 +73360,10 @@
 				"Primary": true,
 				"Priority": 2
 			},
-			"Loot a ~|chest (Chaos Druid Tower)|~": {
+			"Loot a ~|chest (Chaos Druid Tower, 75 Thieving)|~": {
 				"Level": 75,
-				"Items": ["Lockpick"],
-				"Objects": ["Chest (Chaos Druid Tower)"],
-				"Output": "Chest (Chaos Druid Tower)",
+				"Objects": ["Chest (Chaos Druid Tower, 75 Thieving)"],
+				"Output": "Chest (Chaos Druid Tower, 75 Thieving)",
 				"Primary": true,
 				"Priority": 3
 			},
@@ -73150,7 +73420,6 @@
 			},
 			"Loot a ~|chest (Wizards' Tower)|~": {
 				"Level": 77,
-				"Items": ["Lockpick"],
 				"Objects": ["Chest (Wizards' Tower)"],
 				"Output": "Chest (Wizards' Tower)",
 				"Primary": true,
@@ -73164,12 +73433,68 @@
 				"Primary": true,
 				"Priority": 1
 			},
-			"Pickpocket an ~|archaeologist|~": {
-				"Level": 64,
-				"NPCs": ["Archaeologist"],
-				"Output": "Archaeologist",
+			"Pickpocket an ~|archaeologist#Archaeology Campus|~": {
+				"Level": 78,
+				"NPCs": ["Archaeologist#Archaeology Campus"],
+				"Output": "Archaeologist#Archaeology Campus",
 				"Primary": true,
-				"Priority": 2
+				"Priority": 100
+			},
+			"Pickpocket an ~|archaeologist#Kharid-et|~": {
+				"Level": 78,
+				"NPCs": ["Archaeologist#Kharid-et"],
+				"Output": "Archaeologist#Kharid-et",
+				"Primary": true,
+				"Priority": 101
+			},
+			"Pickpocket an ~|archaeologist#Infernal Source|~": {
+				"Level": 78,
+				"NPCs": ["Archaeologist#Infernal Source"],
+				"Output": "Archaeologist#Infernal Source",
+				"Primary": true,
+				"Priority": 102
+			},
+			"Pickpocket an ~|archaeologist#Everlight|~": {
+				"Level": 78,
+				"NPCs": ["Archaeologist#Everlight"],
+				"Output": "Archaeologist#Everlight",
+				"Primary": true,
+				"Priority": 103
+			},
+			"Pickpocket an ~|archaeologist#Senntisten|~": {
+				"Level": 78,
+				"NPCs": ["Archaeologist#Senntisten"],
+				"Output": "Archaeologist#Senntisten",
+				"Primary": true,
+				"Priority": 104
+			},
+			"Pickpocket an ~|archaeologist#Stormguard Citadel|~": {
+				"Level": 78,
+				"NPCs": ["Archaeologist#Stormguard Citadel"],
+				"Output": "Archaeologist#Stormguard Citadel",
+				"Primary": true,
+				"Priority": 105
+			},
+			"Pickpocket an ~|archaeologist#Daemonheim|~": {
+				"Level": 78,
+				"NPCs": ["Archaeologist#Daemonheim"],
+				"Output": "Archaeologist#Daemonheim",
+				"Primary": true,
+				"Priority": 106
+			},
+			"Pickpocket an ~|archaeologist#Warforge|~": {
+				"Level": 78,
+				"NPCs": ["Archaeologist#Warforge"],
+				"Output": "Archaeologist#Warforge",
+				"Primary": true,
+				"Priority": 107
+			},
+			"Pickpocket an ~|archaeologist#Orthen|~": {
+				"Level": 78,
+				"NPCs": ["Archaeologist#Orthen"],
+				"Output": "Archaeologist#Orthen",
+				"Primary": true,
+				"Priority": 108
 			},
 			"Pickpocket a ~|hero|~": {
 				"Level": 80,
@@ -73187,6 +73512,16 @@
 				"Primary": false,
 				"Output": "CamouflageOutfit",
 				"Priority": 1000
+			},
+			"Pickpocket a ~|trainee archaeologist|~ for quadruple loot": {
+				"Category": ["Multiple Pickpockets"],
+				"Level": 80,
+				"NPCs": ["Trainee archaeologist[+]"],
+				"Skills": {
+					"Agility": 70
+				},
+				"Primary": false,
+				"Priority": 1001
 			},
 			"Steal from the seventh room in ~|pyramid plunder|~": {
 				"Chunks": ["Pyramid Plunder"],
@@ -73279,7 +73614,6 @@
 			},
 			"Loot a ~|chest (White Knights' Castle)|~": {
 				"Level": 88,
-				"Items": ["Lockpick"],
 				"Objects": ["Chest (White Knights' Castle)"],
 				"Output": "Chest (White Knights' Castle)",
 				"Primary": true,
@@ -73472,13 +73806,23 @@
 				"Primary": true,
 				"Priority": 2
 			},
-			"Loot a ~|chest (Keldagrim)|~": {
+			"Loot a ~|chest (Keldagrim, Thieving)|~": {
 				"Level": 94,
 				"Items": ["Lockpick"],
-				"Objects": ["Chest (Keldagrim)"],
-				"Output": "Chest (Keldagrim)",
+				"Objects": ["Chest (Keldagrim, Thieving)"],
+				"Output": "Chest (Keldagrim, Thieving)",
 				"Primary": true,
 				"Priority": 3
+			},
+			"Pickpocket a ~|Wizards' Tower mage|~ for quadruple loot": {
+				"Category": ["Multiple Pickpockets"],
+				"Level": 94,
+				"NPCs": ["Wizards' Tower mage"],
+				"Skills": {
+					"Agility": 84
+				},
+				"Primary": false,
+				"Priority": 1000
 			},
 			"Pickpocket a ~|Trahaearn worker|~": {
 				"Level": 95,
@@ -73487,12 +73831,13 @@
 				"Primary": true,
 				"Priority": 1
 			},
-			"Complete a heist of ~|The Vault of Hereditas|~": {
+			"Enter the ~|Vault of Hereditas|~": {
 				"Level": 95,
-				"Chunks": ["The Vault of Hereditas"],
-				"Output": "The Vault of Hereditas loot",
+				"Chunks": ["Kharid-Et - Barracks excavation site"],
+				"Output": "Vault of Hereditas loot",
 				"Primary": true,
-				"Priority": 2
+				"Priority": 2,
+				"NoBoost": true
 			},
 			"Feed a ~|sated ancient effigy|~ with thieving": {
 				"Items": ["Sated ancient effigy (construction/thieving)"],
@@ -73572,6 +73917,16 @@
 				"Primary": false,
 				"Priority": 1000
 			},
+			"Pickpocket an ~|archaeologist|~ for triple loot": {
+				"Category": ["Multiple Pickpockets"],
+				"Level": 97,
+				"NPCs": ["Archaeologist[+]"],
+				"Skills": {
+					"Agility": 87
+				},
+				"Primary": false,
+				"Priority": 1001
+			},
 			"Pickpocket a ~|Meilyr worker|~": {
 				"Level": 98,
 				"NPCs": ["Meilyr worker"],
@@ -73579,11 +73934,10 @@
 				"Primary": true,
 				"Priority": 1
 			},
-			"Loot a ~|chest (Black Knights' Castle)|~": {
+			"Loot a ~|chest (Black Knights' Fortress)|~": {
 				"Level": 98,
-				"Items": ["Lockpick"],
-				"Objects": ["Chest (Black Knights' Castle)"],
-				"Output": "Chest (Black Knights' Castle)",
+				"Objects": ["Chest (Black Knights' Fortress)"],
+				"Output": "Chest (Black Knights' Fortress)",
 				"Primary": true,
 				"Priority": 2
 			},
@@ -73646,9 +74000,14 @@
 			},
 			"Loot a ~|chest (Living Rock Caverns)|~": {
 				"Level": 101,
-				"Items": ["Lockpick"],
 				"Objects": ["Chest (Living Rock Caverns)"],
 				"Output": "Chest (Living Rock Caverns)",
+				"Primary": true,
+				"Priority": 1
+			},
+			"Crack a ~|safe (Vault of Hereditas)|~": {
+				"Level": 102,
+				"Objects": ["Safe (Vault of Hereditas)"],
 				"Primary": true,
 				"Priority": 1
 			},
@@ -73657,13 +74016,12 @@
 				"NPCs": ["Goebie scavenger"],
 				"Output": "Goebie scavenger",
 				"Primary": true,
-				"Priority": 1
+				"Priority": 2
 			},
-			"Loot a ~|chest (Priffdinas)|~": {
+			"Loot a ~|chest (Cadarn district)|~": {
 				"Level": 103,
-				"Items": ["Lockpick"],
-				"Objects": ["Chest (Priffdinas)"],
-				"Output": "Chest (Priffdinas)",
+				"Objects": ["Chest (Cadarn district)"],
+				"Output": "Chest (Cadarn district)",
 				"Primary": true,
 				"Priority": 1
 			},
@@ -73683,29 +74041,91 @@
 			},
 			"Loot a ~|chest (Ourania Cave)|~": {
 				"Level": 107,
-				"Items": ["Lockpick"],
 				"Objects": ["Chest (Ourania Cave)"],
 				"Output": "Chest (Ourania Cave)",
 				"Primary": true,
 				"Priority": 1
 			},
-			"Steal from a ~|spirit stall|~": {
+			"Steal from a ~|Zanaris Market spirit stall|~": {
 				"Level": 107,
-				"Objects": ["Spirit stall"],
-				"Output": "Spirit stall",
+				"Objects": ["Zanaris Market spirit stall"],
+				"Output": "Zanaris Market spirit stall",
 				"Primary": true,
 				"Priority": 2
 			},
-			"Pickpocket an ~|archaeology professor|~": {
+			"Enter the ~|Asuran Arsenal|~": {
 				"Level": 108,
-				"NPCs": ["Archaeology professor"],
-				"Output": "Archaeology professor",
+				"Chunks": ["16960-3"],
+				"Output": "Asuran Arsenal loot",
 				"Primary": true,
-				"Priority": 1
+				"Priority": 1,
+				"NoBoost": true
+			},
+			"Pickpocket an ~|archaeology professor#Archaeology Campus|~": {
+				"Level": 108,
+				"NPCs": ["Archaeology professor#Archaeology Campus"],
+				"Output": "Archaeology professor#Archaeology Campus",
+				"Primary": true,
+				"Priority": 100
+			},
+			"Pickpocket an ~|archaeology professor#Kharid-et|~": {
+				"Level": 108,
+				"NPCs": ["Archaeology professor#Kharid-et"],
+				"Output": "Archaeology professor#Kharid-et",
+				"Primary": true,
+				"Priority": 101
+			},
+			"Pickpocket an ~|archaeology professor#Infernal Source|~": {
+				"Level": 108,
+				"NPCs": ["Archaeology professor#Infernal Source"],
+				"Output": "Archaeology professor#Infernal Source",
+				"Primary": true,
+				"Priority": 102
+			},
+			"Pickpocket an ~|archaeology professor#Everlight|~": {
+				"Level": 108,
+				"NPCs": ["Archaeology professor#Everlight"],
+				"Output": "Archaeology professor#Everlight",
+				"Primary": true,
+				"Priority": 103
+			},
+			"Pickpocket an ~|archaeology professor#Senntisten|~": {
+				"Level": 108,
+				"NPCs": ["Archaeology professor#Senntisten"],
+				"Output": "Archaeology professor#Senntisten",
+				"Primary": true,
+				"Priority": 104
+			},
+			"Pickpocket an ~|archaeology professor#Stormguard Citadel|~": {
+				"Level": 108,
+				"NPCs": ["Archaeology professor#Stormguard Citadel"],
+				"Output": "Archaeology professor#Stormguard Citadel",
+				"Primary": true,
+				"Priority": 105
+			},
+			"Pickpocket an ~|archaeology professor#Daemonheim|~": {
+				"Level": 108,
+				"NPCs": ["Archaeology professor#Daemonheim"],
+				"Output": "Archaeology professor#Daemonheim",
+				"Primary": true,
+				"Priority": 106
+			},
+			"Pickpocket an ~|archaeology professor#Warforge|~": {
+				"Level": 108,
+				"NPCs": ["Archaeology professor#Warforge"],
+				"Output": "Archaeology professor#Warforge",
+				"Primary": true,
+				"Priority": 107
+			},
+			"Pickpocket an ~|archaeology professor#Orthen|~": {
+				"Level": 108,
+				"NPCs": ["Archaeology professor#Orthen"],
+				"Output": "Archaeology professor#Orthen",
+				"Primary": true,
+				"Priority": 108
 			},
 			"Loot a ~|chest (Wizards' Guild)|~": {
 				"Level": 110,
-				"Items": ["Lockpick"],
 				"Objects": ["Chest (Wizards' Guild)"],
 				"Output": "Chest (Wizards' Guild)",
 				"Primary": true,
@@ -73720,7 +74140,6 @@
 			},
 			"Loot a ~|chest (City of Um)|~": {
 				"Level": 112,
-				"Items": ["Lockpick"],
 				"Objects": ["Chest (City of Um)"],
 				"Output": "Chest (City of Um)",
 				"Primary": true,
@@ -73733,25 +74152,30 @@
 				"Primary": true,
 				"Priority": 1
 			},
+			"Crack a ~|safe (Asuran Arsenal)|~": {
+				"Level": 114,
+				"Objects": ["Safe (Asuran Arsenal)"],
+				"Primary": true,
+				"Priority": 1
+			},
 			"Steal from a ~|Zanaris Market seed stall|~": {
 				"Level": 114,
 				"Objects": ["Zanaris Market seed stall"],
 				"Output": "Zanaris Market seed stall",
 				"Primary": true,
-				"Priority": 1
+				"Priority": 2
 			},
-			"Steal from a ~|meat stall|~": {
+			"Steal from a ~|Darkmeyer meat stall|~": {
 				"Level": 115,
-				"Objects": ["Meat stall"],
-				"Output": "Meat stall",
+				"Objects": ["Darkmeyer meat stall"],
+				"Output": "Darkmeyer meat stall",
 				"Primary": true,
 				"Priority": 1
 			},
-			"Loot a ~|chest (Darkmeyer)|~": {
+			"Loot a ~|chest (Darkmeyer, Thieving)|~": {
 				"Level": 116,
-				"Items": ["Lockpick"],
-				"Objects": ["Chest (Darkmeyer)"],
-				"Output": "Chest (Darkmeyer)",
+				"Objects": ["Chest (Darkmeyer, Thieving)"],
+				"Output": "Chest (Darkmeyer, Thieving)",
 				"Primary": true,
 				"Priority": 1
 			},
@@ -73778,23 +74202,15 @@
 			},
 			"Loot a ~|chest (Rasial's Citadel)|~": {
 				"Level": 119,
-				"Items": ["Lockpick"],
 				"Objects": ["Chest (Rasial's Citadel)"],
 				"Output": "Chest (Rasial's Citadel)",
 				"Primary": true,
 				"Priority": 1
 			},
-			"Steal from a ~|potion stall|~": {
+			"Steal from a ~|Darkmeyer potion stall|~": {
 				"Level": 119,
-				"Objects": ["Potion stall"],
-				"Output": "Potion stall",
-				"Primary": true,
-				"Priority": 1
-			},
-			"Complete a heist of ~|The Asuran Arsenal|~": {
-				"Level": 108,
-				"Chunks": ["The Asuran Arsenal"],
-				"Output": "The Asuran Arsenal loot",
+				"Objects": ["Darkmeyer potion stall"],
+				"Output": "Darkmeyer potion stall",
 				"Primary": true,
 				"Priority": 1
 			},
@@ -105203,7 +105619,7 @@
 			},
 			"~|The Void Stares Back|~ 2": {
 				"BaseQuest": "The Void Stares Back",
-				"Description": "Speak to Commander Colby in the Black Knights' Castle and be teleported to the Taverley Dungeon",
+				"Description": "Speak to Commander Colby in the Black Knights' Fortress and be teleported to the Taverley Dungeon",
 				"Chunks": ["12087-3", "Taverley Dungeon"],
 				"Tasks": {
 					"~|The Void Stares Back|~ 1": "Quest"
@@ -110067,7 +110483,8 @@
 					"Magic": 7
 				},
 				"BaseQuest": "Desert Achievements",
-				"Category": ["Show Diary Tasks"]
+				"Category": ["Show Diary Tasks"],
+				"Not F2P": true
 			},
 			"~|Desert Achievements#Easy|~ I Like to Watch": {
 				"Description": "Attempt to spectate on a match at the Dominion Tower.",
@@ -110616,7 +111033,8 @@
 					"Construction": 16
 				},
 				"BaseQuest": "Falador Achievements",
-				"Category": ["Show Diary Tasks"]
+				"Category": ["Show Diary Tasks"],
+				"Not F2P": true
 			},
 			"~|Falador Achievements#Easy|~ Sniffing Out the Mole": {
 				"Description": "Enter the mole lair under Falador Park.",
@@ -110803,7 +111221,8 @@
 					"~|Falador Achievements#Easy|~ Complete the Easy Achievements": "Diary"
 				},
 				"BaseQuest": "Falador Achievements",
-				"Category": ["Show Diary Tasks"]
+				"Category": ["Show Diary Tasks"],
+				"Not F2P": true
 			},
 			"~|Falador Achievements#Medium|~ Stoic Sweetcorn Guardian": {
 				"Description": "Place a scarecrow to protect your sweetcorn in the patch north of Port Sarim.",
@@ -110904,7 +111323,8 @@
 					"~|Falador Achievements#Medium|~ Complete the Medium Achievements": "Diary"
 				},
 				"BaseQuest": "Falador Achievements",
-				"Category": ["Show Diary Tasks"]
+				"Category": ["Show Diary Tasks"],
+				"Not F2P": true
 			},
 			"~|Falador Achievements#Hard|~ Mass Production": {
 				"Description": "Craft 140 or more mind runes simultaneously without using pouches or familiars.",
@@ -130328,6 +130748,46 @@
 				},
 				"Items": ["Praesul codex"]
 			},
+			"(Heists) Obtain a ~|gloomfire bow|~": {
+				"Category": ["Collection Log", "Skilling Collection Log"],
+				"Label": "Skilling Collection Log",
+				"Items": ["Gloomfire bow"]
+			},
+			"(Heists) Obtain a ~|Legatus's Emberstaff|~": {
+				"Category": ["Collection Log", "Skilling Collection Log"],
+				"Label": "Skilling Collection Log",
+				"Items": ["Legatus's Emberstaff"]
+			},
+			"(Heists) Obtain ~|Misalionar's death mask|~": {
+				"Category": ["Collection Log", "Skilling Collection Log"],
+				"Label": "Skilling Collection Log",
+				"Items": ["Misalionar's death mask"]
+			},
+			"(Heists) Obtain ~|Varanus's Mercy|~": {
+				"Category": ["Collection Log", "Skilling Collection Log"],
+				"Label": "Skilling Collection Log",
+				"Items": ["Varanus's Mercy"]
+			},
+			"(Heists) Obtain a ~|Nodon spike harness|~": {
+				"Category": ["Collection Log", "Skilling Collection Log"],
+				"Label": "Skilling Collection Log",
+				"Items": ["Nodon spike harness"]
+			},
+			"(General Thieving) Obtain a ~|double ammo mould|~": {
+				"Category": ["Collection Log", "Skilling Collection Log"],
+				"Label": "Skilling Collection Log",
+				"Items": ["Double ammo mould"]
+			},
+			"(General Thieving) Obtain a ~|ring of Vitur|~": {
+				"Category": ["Collection Log", "Skilling Collection Log"],
+				"Label": "Skilling Collection Log",
+				"Items": ["Ring of Vitur"]
+			},
+			"(General Thieving) Obtain a ~|jal-tok-yt|~": {
+				"Category": ["Collection Log", "Skilling Collection Log"],
+				"Label": "Skilling Collection Log",
+				"Items": ["Jal-tok-yt"]
+			},
 			"(Asgarnia & Misthalin) Obtain a ~|goblin mail|~": {
 				"Category": ["Collection Log", "Slayer Collection Log"],
 				"Label": "Slayer Collection Log",
@@ -143642,7 +144102,7 @@
 			"Unlock all 4 tiers of Plant Power from ~|Sydekix's Shop of Balance|~": {
 				"Category": ["Permanent Unlockables"],
 				"Label": "Permanent Unlockables",
-				"Items": ["HerbSeed[+]", "Plant Power (Tier 4)"],
+				"Items": ["Plant Power (Tier 4)"],
 				"Skills": {
 					"Farming": 110
 				}
@@ -143650,27 +144110,27 @@
 			"Unlock Bountiful Harvest from ~|Sydekix's Shop of Balance|~": {
 				"Category": ["Permanent Unlockables"],
 				"Label": "Permanent Unlockables",
-				"Items": ["HerbSeed[+]", "Bountiful Harvest"]
+				"Items": ["Bountiful Harvest"]
 			},
 			"Unlock Speedy Growth from ~|Sydekix's Shop of Balance|~": {
 				"Category": ["Permanent Unlockables"],
 				"Label": "Permanent Unlockables",
-				"Items": ["HerbSeed[+]", "Speedy Growth"]
+				"Items": ["Speedy Growth"]
 			},
 			"Unlock Quick-cense from ~|Sydekix's Shop of Balance|~": {
 				"Category": ["Permanent Unlockables"],
 				"Label": "Permanent Unlockables",
-				"Items": ["HerbSeed[+]", "Quick-cense"]
+				"Items": ["Quick-cense"]
 			},
 			"Unlock Makes-cense from ~|Sydekix's Shop of Balance|~": {
 				"Category": ["Permanent Unlockables"],
 				"Label": "Permanent Unlockables",
-				"Items": ["HerbSeed[+]", "Makes-cense"]
+				"Items": ["Makes-cense"]
 			},
 			"Unlock Buckets All the Way Down from ~|Sydekix's Shop of Balance|~": {
 				"Category": ["Permanent Unlockables"],
 				"Label": "Permanent Unlockables",
-				"Items": ["HerbSeed[+]", "Buckets All the Way Down"]
+				"Items": ["Buckets All the Way Down"]
 			},
 			"Unlock the benefits from a Tier 1 ~|Workshop (Fort Forinthry)|~": {
 				"Category": ["Permanent Unlockables"],
@@ -146160,7 +146620,7 @@
 				}
 			},
 			"Obtain the ~|Sandy (title)|~": {
-				"Category": ["Titles", "Menaphos Log"],
+				"Category": ["Titles", "Menaphos Log", "Timegated"],
 				"Label": "Titles",
 				"Chunks": [
 					"13097-1",
@@ -146876,7 +147336,7 @@
 				]
 			},
 			"Obtain the ~|Salty|~ title": {
-				"Category": ["Titles", "Arc Log"],
+				"Category": ["Titles", "Arc Log", "Timegated"],
 				"Label": "Titles",
 				"Chunks": ["The Arc", "12082-1"],
 				"Items": ["Bonecrusher", "Raw seerfish", "Raw tarpon", "Raw sillago", "Raw wobbegong"],
@@ -148274,6 +148734,12 @@
 				"Items": ["Blacksmith's helmet add-on"],
 				"Not F2P": true
 			},
+			"Obtain the ~|double ammo mould|~": {
+				"Category": ["BIS Skilling"],
+				"Label": "BIS Skilling",
+				"Items": ["Double ammo mould"],
+				"Not F2P": true
+			},
 			"Obtain a ~|fishing hat|~": {
 				"Category": ["BIS Skilling"],
 				"Label": "BIS Skilling",
@@ -149109,6 +149575,12 @@
 				},
 				"Priority": 2,
 				"Set": "BIS Pickpocketing Bag",
+				"Not F2P": true
+			},
+			"Obtain the ~|ring of Vitur|~": {
+				"Category": ["BIS Skilling"],
+				"Label": "BIS Skilling",
+				"Items": ["Ring of Vitur"],
 				"Not F2P": true
 			},
 			"Obtain ~|magic secateurs|~": {
@@ -152984,11 +153456,17 @@
 				},
 				"UnlocksArea": true
 			},
-			"The Vault of Hereditas": {
-				"UnlocksArea": true
+			"Vault of Hereditas": {
+				"UnlocksArea": true,
+				"Tasks": {
+					"Enter the ~|Vault of Hereditas|~": "Thieving"
+				}
 			},
-			"The Asuran Arsenal": {
-				"UnlocksArea": true
+			"Asuran Arsenal": {
+				"UnlocksArea": true,
+				"Tasks": {
+					"Enter the ~|Asuran Arsenal|~": "Thieving"
+				}
 			},
 			"Zanaris to 8752-4": {
 				"Sections": ["Zanaris", "8752-4"],
@@ -157421,6 +157899,21 @@
 			},
 			"Obtain an ancient defender": {
 				"Items": ["Ancient emblem", "Chaotic splint"]
+			},
+			"Gain Crux Eqal favor": {
+				"Items": ["HerbSeed[+]"],
+				"Chunks": ["13107-1"],
+				"Not F2P": true
+			},
+			"Craft the visage of the First Necromancer": {
+				"Items": ["Crown of the First Necromancer", "Misalionar's death mask"],
+				"Output": "Visage of the First Necromancer"
+			},
+			"Access Zanaris Market": {
+				"Items": ["Diamond"]
+			},
+			"Enter the Kharid-et Chapel": {
+				"Items": ["Pontifex signet ring"]
 			}
 		}
 	},
@@ -157564,10 +158057,10 @@
 			"Name": "Zolarea"
 		},
 		"47": {
-			"Name": "The Vault of Hereditas"
+			"Name": "Vault of Hereditas"
 		},
 		"48": {
-			"Name": "The Asuran Arsenal"
+			"Name": "Asuran Arsenal"
 		},
 		"258": {
 			"Spawn": {
@@ -159747,7 +160240,7 @@
 			},
 			"NPC": {
 				"Rune guardian": 1,
-				"Archaeologist": 2
+				"Archaeologist (excavation sites)": 2
 			},
 			"Name": "Chamber of Shrines"
 		},
@@ -159908,7 +160401,7 @@
 				"Material cache (dragon metal)": 3
 			},
 			"NPC": {
-				"Archaeologist": 1
+				"Archaeologist (excavation sites)": 1
 			},
 			"Connect": {
 				"4929": true
@@ -160514,7 +161007,7 @@
 			},
 			"NPC": {
 				"Waiko islander": 6,
-				"Archaeologist": 1
+				"Archaeologist (excavation sites)": 1
 			},
 			"Name": "The Arc"
 		},
@@ -162536,6 +163029,9 @@
 					}
 				},
 				"6": {
+					"Object": {
+						"Chest (Cadarn district)": 1
+					},
 					"NPC": {
 						"Haf": 1
 					},
@@ -163300,7 +163796,8 @@
 						"Herb patch": 1,
 						"Bush patch": 1,
 						"Elder tree patch": 1,
-						"Fletching workbench": 1
+						"Fletching workbench": 1,
+						"Chest (Cadarn district)": 1
 					},
 					"Monster": {
 						"Cadarn ranger": 12,
@@ -163650,7 +164147,7 @@
 				"Imcando anvil": 1
 			},
 			"NPC": {
-				"Archaeologist": 1
+				"Archaeologist (excavation sites)": 1
 			}
 		},
 		"9075": {
@@ -163660,7 +164157,7 @@
 				"Gap": 1
 			},
 			"NPC": {
-				"Archaeologist": 1
+				"Archaeologist (excavation sites)": 1
 			}
 		},
 		"9078": {
@@ -164429,7 +164926,7 @@
 				"Urn": 1
 			},
 			"NPC": {
-				"Archaeologist": 1
+				"Archaeologist (excavation sites)": 1
 			}
 		},
 		"9330": {
@@ -164441,7 +164938,7 @@
 				"Material cache (vulcanised rubber)": 4
 			},
 			"NPC": {
-				"Archaeologist": 2,
+				"Archaeologist (excavation sites)": 2,
 				"Eel swarm": 2
 			}
 		},
@@ -164454,7 +164951,7 @@
 				"Tunnels exit": 1
 			},
 			"NPC": {
-				"Archaeologist": 1,
+				"Archaeologist (excavation sites)": 1,
 				"Cavefish shoal": 2
 			}
 		},
@@ -164622,7 +165119,7 @@
 				"Ogre": 2,
 				"Orge": 1,
 				"Ogre shaman": 1,
-				"Archaeologist": 1,
+				"Archaeologist (excavation sites)": 1,
 				"Zanik": 1
 			},
 			"Connect": {
@@ -165344,7 +165841,7 @@
 				"Gap": 1
 			},
 			"NPC": {
-				"Archaeologist": 2
+				"Archaeologist (excavation sites)": 2
 			}
 		},
 		"9584": {
@@ -165356,7 +165853,7 @@
 				"Gap": 1
 			},
 			"NPC": {
-				"Archaeologist": 1,
+				"Archaeologist (excavation sites)": 1,
 				"Taka'ara": 1
 			}
 		},
@@ -165368,7 +165865,7 @@
 				"Lift": 1
 			},
 			"NPC": {
-				"Archaeologist": 2
+				"Archaeologist (excavation sites)": 2
 			}
 		},
 		"9590": {
@@ -166399,7 +166896,7 @@
 				"Gap": 2
 			},
 			"NPC": {
-				"Archaeologist": 2
+				"Archaeologist (excavation sites)": 2
 			}
 		},
 		"9841": {
@@ -166439,7 +166936,7 @@
 				"Gap": 1
 			},
 			"NPC": {
-				"Archaeologist": 8,
+				"Archaeologist (excavation sites)": 8,
 				"Liam": 1,
 				"Ghost legionary": 6,
 				"Ghost praetorian": 1
@@ -166702,7 +167199,7 @@
 				"Hunting expert": 1,
 				"Nyriki Tapio": 1,
 				"Ocellus": 1,
-				"Archaeologist": 1
+				"Archaeologist (excavation sites)": 1
 			},
 			"Monster": {
 				"Carnivorous chinchompa": 23
@@ -168068,7 +168565,8 @@
 						"Hops patch": 1,
 						"Evil tree": 1,
 						"Crashed star": 1,
-						"Underwall tunnel (Yanille)": 1
+						"Underwall tunnel (Yanille)": 1,
+						"Chest (Wizards' Guild)": 3
 					},
 					"Monster": {
 						"Man": 2,
@@ -168355,7 +168853,8 @@
 				"Oak": 8,
 				"Tree": 10,
 				"Dead tree": 19,
-				"Fishing spot (lure, bait)": 2
+				"Fishing spot (lure, bait)": 2,
+				"Chest (Chaos Druid Tower, 75 Thieving)": 3
 			},
 			"Monster": {
 				"Farmer": 2,
@@ -168812,7 +169311,7 @@
 				"Tunnel": 1
 			},
 			"NPC": {
-				"Archaeologist": 1
+				"Archaeologist (excavation sites)": 1
 			}
 		},
 		"10355": {
@@ -168825,7 +169324,7 @@
 				"Sagittarius portal": 1
 			},
 			"NPC": {
-				"Archaeologist": 2,
+				"Archaeologist (excavation sites)": 2,
 				"Dagon the Gatekeeper": 1,
 				"Mephisto": 1
 			}
@@ -169511,8 +170010,9 @@
 				"Competition Judge": 1,
 				"Ticket Merchant": 2,
 				"Linza": 1,
-				"Archaeologist": 1,
-				"Gee'ka": 1
+				"Archaeologist (excavation sites)": 1,
+				"Gee'ka": 1,
+				"Trainee archaeologist#Stormguard Citadel": 3
 			},
 			"Connect": {
 				"11": true,
@@ -170002,7 +170502,7 @@
 				"Box of chalk": 2
 			},
 			"NPC": {
-				"Archaeologist": 3,
+				"Archaeologist (excavation sites)": 3,
 				"Mephisto": 1
 			}
 		},
@@ -170031,7 +170531,7 @@
 				"Pisces portal": 1
 			},
 			"NPC": {
-				"Archaeologist": 2,
+				"Archaeologist (excavation sites)": 2,
 				"Mephisto": 2
 			}
 		},
@@ -173926,7 +174426,7 @@
 				"Dwarven miner": 2,
 				"Dig Site worker": 3,
 				"Mine cart": 1,
-				"Archaeologist": 1
+				"Archaeologist (excavation sites)": 1
 			},
 			"Connect": {
 				"13365": true
@@ -175707,7 +176207,8 @@
 				"Furnace": 1,
 				"Sack of duck food": 1,
 				"Tree patch": 1,
-				"Wall (Falador)": 1
+				"Wall (Falador)": 1,
+				"Chest (White Knights' Castle)": 3
 			},
 			"Monster": {
 				"Guard (Falador)": 9,
@@ -176030,7 +176531,8 @@
 				},
 				"2": {
 					"Object": {
-						"Iron maiden": 1
+						"Iron maiden": 1,
+						"Chest (Black Knights' Fortress)": 3
 					},
 					"Monster": {
 						"Black Knight": 3
@@ -177748,7 +178250,8 @@
 						"Runecrafting Guild portal": 1,
 						"Low-level Runespan portal": 1,
 						"Rune chest": 1,
-						"Safe#Misthalin": 1
+						"Safe#Misthalin": 1,
+						"Chest (Wizards' Tower)": 3
 					},
 					"NPC": {
 						"Mysterious ghost": 1,
@@ -177774,7 +178277,9 @@
 						"Kipple": 1,
 						"Wizard Myrtle": 1,
 						"Wizard Rinsit": 1,
-						"Wizard Rosalina": 1
+						"Wizard Rosalina": 1,
+						"Wizards' Tower mage": 3,
+						"Wizards' Tower master mage": 3
 					},
 					"Monster": {
 						"Lesser demon (Wizards' Tower)": 1,
@@ -179896,7 +180401,8 @@
 						"Pia": 1,
 						"Menaphite beggar": 2,
 						"Azibo": 1,
-						"Qaseem": 1
+						"Qaseem": 1,
+						"Menaphos market guard": 3
 					},
 					"Connect": {
 						"8300": true
@@ -182864,8 +183370,9 @@
 						"Farhad": 1,
 						"Dafi": 1,
 						"Munsim": 1,
-						"Archaeologist": 2,
-						"Dr Nabanik": 1
+						"Archaeologist (excavation sites)": 2,
+						"Dr Nabanik": 1,
+						"Trainee archaeologist#Kharid-et": 3
 					},
 					"Monster": {
 						"Desert strykewyrm": 12
@@ -183011,7 +183518,9 @@
 				"Drew": 1,
 				"Easty": 1,
 				"Helen": 1,
-				"Head of Research": 1
+				"Head of Research": 1,
+				"Trainee archaeologist#Archaeology Campus": 3,
+				"Archaeology professor#Archaeology Campus": 3
 			},
 			"Spawn": {
 				"Panning tray": 1
@@ -183059,10 +183568,11 @@
 				"Dig Site winch operator": 2,
 				"Assassin": 1,
 				"Celia Diggory": 1,
-				"Archaeologist": 3,
+				"Archaeologist (excavation sites)": 3,
 				"Examiner": 1,
 				"Trainee": 1,
-				"Museum guard": 1
+				"Museum guard": 1,
+				"Archaeologist#Archaeology Campus": 3
 			},
 			"Connect": {
 				"6941": true,
@@ -183109,7 +183619,7 @@
 						"Icthlarin": 1,
 						"Death": 1,
 						"Maria": 1,
-						"Archaeologist": 1
+						"Archaeologist (excavation sites)": 1
 					},
 					"Connect": {
 						"15176": true
@@ -183826,7 +184336,7 @@
 			"NPC": {
 				"Mysterious ghost": 1,
 				"Markus": 1,
-				"Archaeologist": 2
+				"Archaeologist (excavation sites)": 2
 			},
 			"Connect": {
 				"4680": true,
@@ -183865,7 +184375,8 @@
 						"Kerapac": 1,
 						"Gorajo hoardstalker": 1,
 						"Bryll Thoksdottir": 1,
-						"Archaeologist": 1
+						"Archaeologist (excavation sites)": 1,
+						"Trainee archaeologist#Daemonheim": 3
 					},
 					"Shop": {
 						"Elite Dungeon Reward Shop": true,
@@ -183923,7 +184434,8 @@
 					"NPC": {
 						"Fremennik banker": 1,
 						"Dungeoneering tutor": 1,
-						"Cormorant": 1
+						"Cormorant": 1,
+						"Archaeologist#Daemonheim": 3
 					},
 					"Quest": {
 						"Nadir (abridged saga)": "step",
@@ -184904,7 +185416,7 @@
 				"Cyreg Paddlehorn": 1,
 				"Strange Old Man": 1,
 				"Dharok": 1,
-				"Archaeologist": 2
+				"Archaeologist (excavation sites)": 2
 			},
 			"Connect": {
 				"14231": true,
@@ -185462,7 +185974,11 @@
 						"Vampyric Altar": 1,
 						"Darkmeyer Treasury": 1,
 						"Blisterwood tree": 1,
-						"Bloodwood tree": 1
+						"Bloodwood tree": 1,
+						"Chest (Darkmeyer, Thieving)": 3,
+						"Darkmeyer meat stall": 1,
+						"Darkmeyer magic stall": 1,
+						"Darkmeyer potion stall": 1
 					},
 					"NPC": {
 						"Boris Barrington": 1,
@@ -185492,7 +186008,10 @@
 						"'Rageguard Pain-fire'": 1,
 						"'Pygmalion Mardigras'": 1,
 						"Overwatch Mornid": 1,
-						"Vyrewatch": 3
+						"Vyrewatch": 3,
+						"Vyrewatch tither": 1,
+						"Vyrelord consumer": 2,
+						"Vyrelady consumer": 2
 					},
 					"Monster": {
 						"Vyrewatch (Darkmeyer)": 11,
@@ -185551,7 +186070,8 @@
 						"Potter's wheel": 2
 					},
 					"NPC": {
-						"Sentinel Draemus": 1
+						"Sentinel Draemus": 1,
+						"Vyrewatch tither": 2
 					},
 					"Monster": {
 						"Vyrewatch": 8
@@ -185897,7 +186417,7 @@
 						"Scaffold": 1
 					},
 					"NPC": {
-						"Archaeologist": 1,
+						"Archaeologist (excavation sites)": 1,
 						"Vanescula Drakan": 1
 					},
 					"Quest": {
@@ -186459,7 +186979,7 @@
 			},
 			"NPC": {
 				"Tarddiad Firefly": 31,
-				"Archaeologist": 8
+				"Archaeologist (excavation sites)": 8
 			},
 			"Connect": {
 				"9": true
@@ -186485,7 +187005,8 @@
 			"NPC": {
 				"Tarddiad Firefly": 25,
 				"Trainee": 2,
-				"Archaeologist": 4
+				"Archaeologist (excavation sites)": 4,
+				"Trainee archaeologist#Everlight": 3
 			},
 			"Quest": {
 				"Fallen Angels": "first",
@@ -186509,7 +187030,7 @@
 					},
 					"NPC": {
 						"Tarddiad Firefly": 17,
-						"Archaeologist": 1
+						"Archaeologist (excavation sites)": 1
 					}
 				}
 			},
@@ -187068,7 +187589,9 @@
 			},
 			"NPC": {
 				"Tarddiad Firefly": 17,
-				"Archaeologist": 1
+				"Archaeologist (excavation sites)": 1,
+				"Archaeologist#Everlight": 3,
+				"Archaeology professor#Everlight": 3
 			},
 			"Nickname": "Everlight South Dominion Games Stadium"
 		},
@@ -187610,7 +188133,7 @@
 						"Orthen teleportation device": 1
 					},
 					"NPC": {
-						"Archaeologist": 3,
+						"Archaeologist (excavation sites)": 3,
 						"Ruby harvest (Anachronia)": 3
 					},
 					"Spawn": {
@@ -189043,7 +189566,7 @@
 						"Orthen teleportation device": 1
 					},
 					"NPC": {
-						"Archaeologist": 2
+						"Archaeologist (excavation sites)": 2
 					},
 					"Connect": {
 						"18": true
@@ -189339,7 +189862,7 @@
 						"Orthen telportation device": 1
 					},
 					"NPC": {
-						"Archaeologist": 4,
+						"Archaeologist (excavation sites)": 4,
 						"Igneous jadinko (Anachronia)": 4,
 						"Laniakea": 1
 					},
@@ -189349,7 +189872,8 @@
 					},
 					"Spawn": {
 						"Totem of Navigation top": 1,
-						"Ruth (Ancient zygomite)": 1
+						"Ruth (Ancient zygomite)": 1,
+						"Ed (Ancient zygomite)": 1
 					},
 					"Connect": {
 						"19": true
@@ -189721,8 +190245,8 @@
 				"1": {},
 				"2": {},
 				"3": {
-					"Spawn": {
-						"Ed (Ancient zygomite)": 1
+					"Connect": {
+						"48": true
 					}
 				}
 			},
@@ -193148,7 +193672,7 @@
 			"NPC": {
 				"Goob": 1,
 				"Tool leprechaun": 1,
-				"Archaeologist": 2
+				"Archaeologist (excavation sites)": 2
 			},
 			"Monster": {
 				"Feral Dinosaur": 2
@@ -194478,7 +195002,10 @@
 				"Hopper": 1,
 				"Fairy ring": 3,
 				"Sand pit": 1,
-				"Dairy Cow": 1
+				"Dairy Cow": 1,
+				"Zanaris Market spirit stall": 1,
+				"Zanaris Market seed stall": 1,
+				"Zanaris Market trinket stall": 1
 			},
 			"NPC": {
 				"Gatekeeper": 5,
@@ -194505,7 +195032,8 @@
 				"Blaec": 1,
 				"Co-ordinator": 1,
 				"Fairy Queen": 2,
-				"Tooth Fairy": 1
+				"Tooth Fairy": 1,
+				"Fairy trader": 3
 			},
 			"Connect": {
 				"6210": true,
@@ -194813,7 +195341,8 @@
 				"TzHaar-Mej-Kol": 2,
 				"TzHaar-Hur-Klag": 2,
 				"TzHaar-Mej-Lor": 1,
-				"Philipe Carnillean": 2
+				"Philipe Carnillean": 2,
+				"TzHaar-Hur trader": 5
 			},
 			"Monster": {
 				"TzHaar-Mej": 24,
@@ -195248,7 +195777,8 @@
                 "Valve": 1,
                 "Crossbow stall": 1,
                 "Coal rock": 6,
-				"Furnace": 1
+				"Furnace": 1,
+				"Chest (Keldagrim, Thieving)": 3
 			},
 			"NPC": {
 				"Dwarven Engineer": 1,
@@ -195738,7 +196268,8 @@
 				"Farli": 1,
 				"Rope": 1,
 				"Cavefish shoal": 13,
-				"Rocktail shoal": 6
+				"Rocktail shoal": 6,
+				"Chest (Living Rock Caverns)": 3
 			},
 			"Monster": {
 				"Living rock protector": 27,
@@ -196253,7 +196784,7 @@
 			},
 			"NPC": {
 				"Rune guardian": 1,
-				"Archaeologist": 2
+				"Archaeologist (excavation sites)": 2
 			},
 			"Connect": {
 				"6496": true,
@@ -198287,7 +198818,8 @@
 		"Ourania Cave": {
 			"Object": {
 				"Crack": 2,
-				"Runecrafting altar": 1
+				"Runecrafting altar": 1,
+				"Chest (Ourania Cave)": 3
 			},
 			"NPC": {
 				"Eniola": 1,
@@ -198503,6 +199035,9 @@
 			}
 		},
 		"Infernal Source": {
+			"NPC": {
+				"Archaeology professor#Infernal Source": 3
+			},
 			"Object": {
 				"Material cache (cadmium red)": 1,
 				"Material cache (chaotic brimstone)": 1,
@@ -198527,6 +199062,10 @@
 			}
 		},
 		"Star Lodge": {
+			"NPC": {
+				"Trainee archaeologist#Infernal Source": 3,
+				"Archaeologist#Infernal Source": 3
+			},
 			"Object": {
 				"Material cache (cadmium red)": 1,
 				"Lodge bar storage": 1,
@@ -199069,6 +199608,11 @@
 			}
 		},
 		"Senntisten": {
+			"NPC": {
+				"Trainee archaeologist#Senntisten": 3,
+				"Archaeologist#Senntisten": 3,
+				"Archaeology professor#Senntisten": 3
+			},
 			"Object": {
 				"Ministry remains": 1,
 				"Cathedral debris": 1,
@@ -199207,7 +199751,8 @@
 				"Tin rock": 5,
 				"Anvil": 2,
 				"Forge": 2,
-				"Train cart": 1
+				"Train cart": 1,
+				"Chest (Dwarven mines, Thieving)": 3
 			},
 			"Monster": {
 				"Dwarf": 41,
@@ -200107,6 +200652,10 @@
 			}
 		},
 		"Stormguard Citadel": {
+			"NPC": {
+				"Archaeologist#Stormguard Citadel": 3,
+				"Archaeology professor#Stormguard Citadel": 3
+			},
 			"Object": {
 				"Material cache (Stormguard steel)": 1,
 				"Material cache (Wings of War)": 1,
@@ -200150,6 +200699,9 @@
 			}
 		},
 		"Warforge Crucible": {
+			"NPC": {
+				"Trainee archaeologist#Warforge": 3
+			},
 			"Object": {
 				"Material cache (malachite green)": 1,
 				"Material cache (warforged bronze)": 1,
@@ -200169,6 +200721,10 @@
 			}
 		},
 		"Warforge Tunnels": {
+			"NPC": {
+				"Archaeologist#Warforge": 3,
+				"Archaeology professor#Warforge": 3
+			},
 			"Object": {
 				"Material cache (malachite green)": 1,
 				"Material cache (Mark of the Kyzaj)": 1,
@@ -200500,7 +201056,7 @@
 		},
 		"Chaos Druid Tower Dungeon": {
 			"Object": {
-				"Chest (blood runes)": 1,
+				"Chest (Chaos Druid Tower Dungeon)": 1,
 				"Fire": 2
 			},
 			"Monster": {
@@ -202102,6 +202658,9 @@
 			}
 		},
 		"Crypt of Varanus": {
+			"NPC": {
+				"Trainee archaeologist#Orthen": 3
+			},
 			"Object": {
 				"Material cache (compass rose)": 1,
 				"Material cache (felt)": 1,
@@ -202114,6 +202673,9 @@
 			}
 		},
 		"Observation Outpost": {
+			"NPC": {
+				"Archaeologist#Orthen": 3
+			},
 			"Object": {
 				"Material cache (felt)": 1,
 				"Material cache (dragon metal)": 1,
@@ -202147,6 +202709,9 @@
 			}
 		},
 		"Moksha Ritual Site": {
+			"NPC": {
+				"Archaeology professor#Orthen": 3
+			},
 			"Object": {
 				" Material cache (carbon black)": 1,
 				"Material cache (orgone)": 1,
@@ -202574,7 +203139,8 @@
 				"Ramen": 1,
 				"Tunks": 1,
 				"Lunch": 1,
-				"Peck": 1
+				"Peck": 1,
+				"Goebie scavenger": 5
 			},
 			"Object": {
 				"Stone fragment": 5,
@@ -202846,7 +203412,7 @@
 				"Name": 1,
 				"Cap'n Ekahi": 3,
 				"Yuehanxun the Dealer": 1,
-				"Archaeologist": 1,
+				"Archaeologist (excavation sites)": 1,
 				"Sea Witch Kaula": 1,
 				"Ted (Whale's Maw)": 1,
 				"Whale's Maw islander": 15,
@@ -202998,7 +203564,7 @@
 				"Dwarven miner": 2,
 				"Dig Site worker": 3,
 				"Mine cart": 1,
-				"Archaeologist": 1
+				"Archaeologist (excavation sites)": 1
 			},
 			"Connect": {
 				"13365": true
@@ -203156,6 +203722,11 @@
 			}
 		},
 		"Kharid-et - Barracks excavation site": {
+			"NPC": {
+				"Archaeologist#Kharid-et": 3,
+				"Archaeology professor#Kharid-et": 3,
+				"Liara": 1
+			},
 			"Object": {
 				"Material cache (Zarosian insignia)": 1,
 				"Material cache (imperial steel)": 1,
@@ -203173,7 +203744,8 @@
 			"Connect": {
 				"3": true,
 				"4": true,
-				"13361": true
+				"13361": true,
+				"47": true
 			},
 			"Quest": {
 				"Azzanadra's Quest": "step",
@@ -203459,7 +204031,8 @@
 				"Mushroom patch": 1,
 				"Platform (rituals)": 1,
 				"Fletching workbench": 1,
-				"Oven (City of Um)": 1
+				"Oven (City of Um)": 1,
+				"Chest (City of Um)": 3
 			},
 			"Quest": {
 				"Alpha vs Omega": "first",
@@ -203519,6 +204092,9 @@
 			"Monster": {
 				"Rasial, the First Necromancer": 1,
 				"Hermod, the Spirit of War": 1
+			},
+			"Object": {
+				"Chest (Rasial's Citadel)": 3
 			},
 			"Quest": {
 				"Alpha vs Omega": "step",
@@ -203645,6 +204221,9 @@
 			}
 		},
 		"Daemonheim - Depths excavation site": {
+			"NPC": {
+				"Archaeology professor#Daemonheim": 3
+			},
 			"Object": {
 				"Projection space": 3,
 				"Security booth": 3,
@@ -203852,20 +204431,44 @@
 				"9017": true
 			}
 		},
-		"The Vault of Hereditas": {
+		"Vault of Hereditas": {
 			"NPC": {
-				"Liara": 1
+				"Ghost legionary (Vault of Hereditas)": 3,
+				"Ghost praetorian (Vault of Hereditas)": 1
+			},
+			"Object": {
+				"Dead legionary": 7,
+				"Chest (Vault of Hereditas)": 7,
+				"Shadow chest": 7,
+				"Safe (Vault of Hereditas)": 8,
+				"Rare chest (Vault of Hereditas)": 1,
+				"Crevice (Vault of Hereditas)": 5
 			},
 			"Connect": {
-				"0000": true
+				"2": true
 			}
 		},
-		"The Asuran Arsenal": {
+		"Asuran Arsenal": {
 			"NPC": {
-				"Liara": 1
+				"The Keeper#Asuran Arsenal": 4
+			},
+			"Object": {
+				"Chest (Asuran Arsenal)": 8,
+				"Locked door (Asuran Arsenal)": 5,
+				"Lectern (Asuran Arsenal)": 1,
+				"Safe (Asuran Arsenal)": 7,
+				"System controls (Asuran Arsenal)": 1,
+				"Ornate chest (Asuran Arsenal)": 6,
+				"Rare chest (Asuran Arsenal)": 1,
+				"Low wall (Asuran Arsenal)": 1,
+				"Crevice (Asuran Arsenal)": 5,
+				"Handhold (Asuran Arsenal)": 3,
+				"Rubble (Asuran Arsenal)": 5,
+				"Dropdown (Asuran Arsenal)": 3,
+				"Railing (Asuran Arsenal)": 1
 			},
 			"Connect": {
-				"0000": true
+				"16960": true
 			}
 		}
 	},
@@ -204595,6 +205198,294 @@
 				"Tetracompass piece (dial)": "1/1500@1",
 				"Tetracompass piece (needle)": "1/1500@1",
 				"Complete tome": "1/42000@1"
+			},
+			"TetracompassTable+": {
+				"Tetracompass piece (left)": "1/1@1",
+				"Tetracompass piece (right)": "1/1@1",
+				"Tetracompass piece (dial)": "1/1@1",
+				"Tetracompass piece (needle)": "1/1@1"
+			},
+			"ArchaeologyBoostsTable+": {
+				"Hi-spec monocle": "1/4@1",
+				"Archaeologist's tea": "1/4@1",
+				"Tarpaulin sheet": "1/4@1",
+				"Material manual": "1/4@1"
+			},
+			"MaterialsTable#General+": {
+				"Animal furs": "1/10@1",
+				"Fossilised bone": "1/10@1",
+				"Goldrune": "1/10@1",
+				"Leather scraps": "1/10@1",
+				"Orthenglass": "1/10@1",
+				"Soapstone": "1/10@1",
+				"Samite silk": "1/10@1",
+				"Third Age iron": "1/10@1",
+				"Vellum": "1/10@1",
+				"White oak": "1/10@1"
+			},
+			"MaterialsTable#Zarosian+": {
+				"Tyrian purple": "1/5@1",
+				"Zarosian insignia": "1/5@1",
+				"Imperial steel": "1/5@1",
+				"Ancient vis": "1/5@1",
+				"Blood of Orcus": "1/5@1"
+			},
+			"MaterialsTable#Zamorakian+": {
+				"Cadmium red": "1/5@1",
+				"Chaotic brimstone": "1/5@1",
+				"Demonhide": "1/5@1",
+				"Eye of Dagon": "1/5@1",
+				"Hellfire metal": "1/5@1"
+			},
+			"MaterialsTable#Saradominist+": {
+				"Cobalt blue": "1/5@1",
+				"Everlight silvthril": "1/5@1",
+				"Keramos": "1/5@1",
+				"Star of Saradomin": "1/5@1",
+				"White marble": "1/5@1"
+			},
+			"MaterialsTable#Armadylean+": {
+				"Armadylean yellow": "1/5@1",
+				"Wings of War": "1/5@1",
+				"Stormguard steel": "1/5@1",
+				"Quintessence": "1/5@1",
+				"Aetherium alloy": "1/5@1"
+			},
+			"MaterialsTable#Bandosian+": {
+				"Malachite green": "1/5@1",
+				"Mark of the Kyzaj": "1/5@1",
+				"Vulcanised rubber": "1/5@1",
+				"Yu'biusk clay": "1/5@1",
+				"Warforged bronze": "1/5@1"
+			},
+			"MaterialsTable#Dragonkin+": {
+				"Carbon black": "1/5@1",
+				"Compass rose": "1/5@1",
+				"Felt": "1/5@1",
+				"Orgone": "1/5@1",
+				"Dragon metal": "1/5@1"
+			},
+			"ArtefactTable#Kharid-et+": {
+				"Venator dagger (damaged)": "1/34@1",
+				"Venator light crossbow (damaged)": "1/34@1",
+				"Legionary gladius (damaged)": "1/34@1",
+				"Legionary square shield (damaged)": "1/34@1",
+				"Primis Elementis standard (damaged)": "1/34@1",
+				"Zaros effigy (damaged)": "1/34@1",
+				"Zarosian training dummy (damaged)": "1/34@1",
+				"Legatus Maximus figurine (damaged)": "1/34@1",
+				"'Solem in Umbra' painting (damaged)": "1/34@1",
+				"Ancient timepiece (damaged)": "1/34@1",
+				"Legatus pendant (damaged)": "1/34@1",
+				"'Incite Fear' spell scroll (damaged)": "1/34@1",
+				"Pontifex signet ring (damaged)": "1/34@1",
+				"Ceremonial mace (damaged)": "1/34@1",
+				"Pontifex Maximus figurine (damaged)": "1/34@1",
+				"'Consensus ad Idem' painting (damaged)": "1/34@1",
+				"Pontifex censer (damaged)": "1/34@1",
+				"Pontifex crozier (damaged)": "1/34@1",
+				"Pontifex mitre (damaged)": "1/34@1",
+				"'Exsanguinate' spell scroll (damaged)": "1/34@1",
+				"Necromantic focus (damaged)": "1/34@1",
+				"Zarosian ewer (damaged)": "1/34@1",
+				"Zarosian stein (damaged)": "1/34@1",
+				"'Smoke Cloud' spell scroll (damaged)": "1/34@1",
+				"Vigorem vial (damaged)": "1/34@1",
+				"Ancient magic tablet (damaged)": "1/34@1",
+				"'Animate Dead' spell scroll (damaged)": "1/34@1",
+				"Portable phylactery (damaged)": "1/34@1",
+				"Praetorian hood (damaged)": "1/34@1",
+				"Praetorian robes (damaged)": "1/34@1",
+				"Praetorian staff (damaged)": "1/34@1",
+				"Ancient globe (damaged)": "1/34@1",
+				"Battle plans (damaged)": "1/34@1",
+				"'Prima Legio' paitning (damaged)": "1/34@1"
+			},
+			"ArtefactTable#InfernalSource+": {
+				"Hookah pipe (damaged)": "1/31@1",
+				"Opulent wine goblet (damaged)": "1/31@1",
+				"Crest of Dagon (damaged)": "1/31@1",
+				"'Disorder' painting (damaged)": "1/31@1",
+				"Imp mask (damaged)": "1/31@1",
+				"Lesser demon mask (damaged)": "1/31@1",
+				"Greater demon mask (damaged)": "1/31@1",
+				"Order of Dis robes (damaged)": "1/31@1",
+				"Ritual dagger (damaged)": "1/31@1",
+				"Branding iron (damaged)": "1/31@1",
+				"Manacles (damaged)": "1/31@1",
+				"'The Lake of Fire' painting (damaged)": "1/31@1",
+				"'Lust' metal sculpture (damaged)": "1/31@1",
+				"Chaos star (damaged)": "1/31@1",
+				"Spiked dog collar (damaged)": "1/31@1",
+				"Larupia trophy (damaged)": "1/31@1",
+				"Lion trophy (damaged)": "1/31@1",
+				"She-wolf trophy (damaged)": "1/31@1",
+				"'Torment' metal sculpture (damaged)": "1/31@1",
+				"'Pandemonium' tapestry (damaged)": "1/31@1",
+				"Hellfire haladie (damaged)": "1/31@1",
+				"Hellfire katar (damaged)": "1/31@1",
+				"Hellfire zaghnal (damaged)": "1/31@1",
+				"'Possession' metal sculpture (damaged)": "1/31@1",
+				"Trishula (damaged)": "1/31@1",
+				"Tsutsaroth piercing (damaged)": "1/31@1",
+				"Chaos Elemental trophy (damaged)": "1/31@1",
+				"Virius trophy (damaged)": "1/31@1",
+				"Tsutsaroth helm (damaged)": "1/31@1",
+				"Tsutsaroth pauldron (damaged)": "1/31@1",
+				"Tsutsaroth urumi (damaged)": "1/31@1"
+			},
+			"ArtefactTable#Everlight+": {
+				"'Frying pan' (damaged)": "1/31@1",
+				"Hallowed lantern (damaged)": "1/31@1",
+				"Ceremonial unicorn ornament (damaged)": "1/31@1",
+				"Ceremonial unicorn saddle (damaged)": "1/31@1",
+				"Everlight harp (damaged)": "1/31@1",
+				"Everlight trumpet (damaged)": "1/31@1",
+				"Everlight violin (damaged)": "1/31@1",
+				"Folded-arm figurine (female) (damaged)": "1/31@1",
+				"Folded-arm figurine (male) (damaged)": "1/31@1",
+				"Dominion discus (damaged)": "1/31@1",
+				"Dominion javelin (damaged)": "1/31@1",
+				"Dominion pelte shield (damaged)": "1/31@1",
+				"Bronze Dominion medal (damaged)": "1/31@1",
+				"Silver Dominion medal (damaged)": "1/31@1",
+				"Dominion torch (damaged)": "1/31@1",
+				"Decorative vase (damaged)": "1/31@1",
+				"Kantharos cup (damaged)": "1/31@1",
+				"Patera bowl (damaged)": "1/31@1",
+				"Dominarian device (damaged)": "1/31@1",
+				"Fishing trident (damaged)": "1/31@1",
+				"Amphora (damaged)": "1/31@1",
+				"Rod of Asclepius (damaged)": "1/31@1",
+				"Kopis dagger (damaged)": "1/31@1",
+				"Xiphos short sword (damaged)": "1/31@1",
+				"'Hallowed Be the Everlight' painting (damaged)": "1/31@1",
+				"'The Lord of Light' painting (damaged)": "1/31@1",
+				"'The Pride of Padosan' painting (damaged)": "1/31@1",
+				"'The Enlightened Soul' scroll (damaged)": "1/31@1",
+				"'The Eudoxian Elements' tablet (damaged)": "1/31@1",
+				"Doru spear (damaged)": "1/31@1",
+				"Kontos lance (damaged)": "1/31@1"
+			},
+			"ArtefactTable#Senntisten+": {
+				"Apex cap (damaged)": "1/18@1",
+				"Curse tablet (damaged)": "1/18@1",
+				"Funerary urn of shadow (damaged)": "1/18@1",
+				"Infula robes (damaged)": "1/18@1",
+				"Funerary urn of smoke (damaged)": "1/18@1",
+				"Hand of the Ancients (damaged)": "1/18@1",
+				"Decorative amphora (damaged)": "1/18@1",
+				"Funerary urn of ice (damaged)": "1/18@1",
+				"Loarnab rod (damaged)": "1/18@1",
+				"Inquisitor's ceremonial armour (damaged)": "1/18@1",
+				"Inquisitor's ceremonial mask (damaged)": "1/18@1",
+				"Inquisitor's seal (damaged)": "1/18@1",
+				"Gladiator helmet (damaged)": "1/18@1",
+				"Gladiator sword (damaged)": "1/18@1",
+				"Funerary urn of blood (damaged)": "1/18@1",
+				"Funerary urn of miasma (damaged)": "1/18@1",
+				"Model chariot (damaged)": "1/18@1",
+				"'The Serpent's Fall' carving (damaged)": "1/18@1"
+			},
+			"ArtefactTable#Stormguard+": {
+				"Ikovian gerege (damaged)": "1/27@1",
+				"Toy glider (damaged)": "1/27@1",
+				"Toy war golem (damaged)": "1/27@1",
+				"Avian song-egg player (damaged)": "1/27@1",
+				"Keshik drum (damaged)": "1/27@1",
+				"Morin khuur (damaged)": "1/27@1",
+				"Aviansie dreamcoat (damaged)": "1/27@1",
+				"Peacocking parasol (damaged)": "1/27@1",
+				"Ceremonial plume (damaged)": "1/27@1",
+				"Hawkeye lens multi-vision scope (damaged)": "1/27@1",
+				"Talon-3 razor wing (damaged)": "1/27@1",
+				"Prototype gravimeter (damaged)": "1/27@1",
+				"Songbird recorder (damaged)": "1/27@1",
+				"Dayguard shield (damaged)": "1/27@1",
+				"Stormguard gerege (damaged)": "1/27@1",
+				"Golem heart (damaged)": "1/27@1",
+				"Golem instruction (damaged)": "1/27@1",
+				"Blackfire lance (damaged)": "1/27@1",
+				"Nightguard shield (damaged)": "1/27@1",
+				"Flat cap (damaged)": "1/27@1",
+				"Night owl flight goggles (damaged)": "1/27@1",
+				"Prototype godbow (damaged)": "1/27@1",
+				"Prototype godstaff (damaged)": "1/27@1",
+				"Prototype godsword (damaged)": "1/27@1",
+				"Chuluu stone (damaged)": "1/27@1",
+				"Quintessence counter (damaged)": "1/27@1",
+				"Spherical astrolabe (damaged)": "1/27@1"
+			},
+			"ArtefactTable#Daemonheim+": {
+				"Castle gatestone (damaged)": "1/16@1",
+				"Engraved ring of kinship (damaged)": "1/16@1",
+				"Exploratory totem (damaged)": "1/16@1",
+				"Excavator portal mine (damaged)": "1/16@1",
+				"Storage totem (damaged)": "1/16@1",
+				"Plant seed satchel (damaged)": "1/16@1",
+				"Snuff box (damaged)": "1/16@1",
+				"Spent summoning charm (damaged)": "1/16@1",
+				"'Friendship bracelet' (damaged)": "1/16@1",
+				"Homely totem (damaged)": "1/16@1",
+				"Projection attuner (damaged)": "1/16@1",
+				"Golden projection 'needle' (damaged)": "1/16@1",
+				"Comfort gatestone (damaged)": "1/16@1",
+				"Halak's cube (damaged)": "1/16@1",
+				"Portable portal generator (damaged)": "1/16@1",
+				"Warped trinket (damaged)": "1/16@1"
+			},
+			"ArtefactTable#Warforge+": {
+				"Ekeleshuun blinder mask (damaged)": "1/27@1",
+				"Narogoshuun 'Hob-da-Gob' ball (damaged)": "1/27@1",
+				"Rekeshuun war tether (damaged)": "1/27@1",
+				"Ogre Kyzaj axe (damaged)": "1/27@1",
+				"Ork cleaver swword (damaged)": "1/27@1",
+				"Thorobshuun battle standard (damaged)": "1/27@1",
+				"Yurkolgokh stink grenade (damaged)": "1/27@1",
+				"High priest crozier (damaged)": "1/27@1",
+				"High priest mitre (damaged)": "1/27@1",
+				"High priest orb (damaged)": "1/27@1",
+				"Beastkeeper helm (damaged)": "1/27@1",
+				"Idithuun horn ring (damaged)": "1/27@1",
+				"'Nosorog!' sculpture (damaged)": "1/27@1",
+				"Ourg megahitter (damaged)": "1/27@1",
+				"Ourg tower/goblin cower shield (damaged)": "1/27@1",
+				"Garagorshuun anchor (damaged)": "1/27@1",
+				"'Forged in War' sculpture (damaged)": "1/27@1",
+				"Dorgeshuun spear (damaged)": "1/27@1",
+				"Huzamogaarb chaos crown (damaged)": "1/27@1",
+				"Saragorgak star crown (damaged)": "1/27@1",
+				"Drogokishuun hook sword (damaged)": "1/27@1",
+				"Hobgolbin mansticker (damaged)": "1/27@1",
+				"Kal-i-kra chieftan crown (damaged)": "1/27@1",
+				"Kal-i-kra mace (damaged)": "1/27@1",
+				"Kal-i-kra warhorn (damaged)": "1/27@1",
+				"'Da Boss Man' sculpture (damaged)": "1/27@1",
+				"Horogothgar cooking pot (damaged)": "1/27@1"
+			},
+			"ArtefactTable#Orthen+": {
+				"Pasaha (damaged)": "1/22@1",
+				"Ritual bell (damaged)": "1/22@1",
+				"Kilaya (damaged)": "1/22@1",
+				"Vazara (damaged)": "1/22@1",
+				"Death mask (damaged)": "1/22@1",
+				"Dragonkin calendar (damaged)": "1/22@1",
+				"Dragonkin stafff (damaged)": "1/22@1",
+				"Dragon scalpel (damaged)": "1/22@1",
+				"Protective goggles (damaged)": "1/22@1",
+				"Dragon burner (damaged)": "1/22@1",
+				"Orthengass flask (damaged)": "1/22@1",
+				"Meditation pipe (damaged)": "1/22@1",
+				"Personal totem (damaged)": "1/22@1",
+				"Singing bowl (damaged)": "1/22@1",
+				"Lingam stone (damaged)": "1/22@1",
+				"Master control (damaged)": "1/22@1",
+				"Xolo hard hat (damaged)": "1/22@1",
+				"Xolo pickaxe (damaged)": "1/22@1",
+				"Xolo shield (damaged)": "1/22@1",
+				"Xolo spear (damaged)": "1/22@1",
+				"Gold dish (damaged)": "1/22@1",
+				"'Raksha' idol (damaged)": "1/22@1"
 			}
 		},
 		"tools": {},
@@ -207684,7 +208575,7 @@
 				"Ranging potion (3)",
 				"Ranging potion (4)"
 			],
-			"RasialArmour[+]": ["Crown of the First Necromancer", "Robe top of the First Necromancer", "Robe bottom of the First Necromancer", "Hand wrap of the First Necromancer", "Foot wraps of the First Necromancer"],
+			"RasialArmour[+]": ["Crown of the First Necromancer", "Visage of the First Necromancer", "Robe top of the First Necromancer", "Robe bottom of the First Necromancer", "Hand wrap of the First Necromancer", "Foot wraps of the First Necromancer"],
 			"RasialWeapon[+]": ["Omni guard", "Soulbound lantern"],
 			"RawFish[+]": ["Raw shrimps", "Raw crayfish", "Raw minnow", "Raw karambwanji", "Raw sardine", "Raw herring", "Raw anchovies", "Raw mackerel", "Raw trout", "Raw cod", "Raw pike", "Slimy eel", "Raw salmon", "Raw tuna", "Raw rainbow fish", "Raw cave eel", "Raw lobster", "Raw bass", "Leaping trout", "Raw swordfish", "Raw desert sole", "Raw lava eel", "Leaping salmon", "Raw catfish", "Raw monkfish", "Raw karambwan", "Raw green blubber jellyfish", "Magnetic minnow", "Leaping sturgeon", "Raw beltfish", "Raw shark", "Raw sea turtle", "Raw great white shark", "Raw manta ray", "Raw cavefish", "Raw rocktail", "Raw tarpon", "Raw blue blubber jellyfish", "Raw seerfish", "Raw sillago", "Raw wobbegong", "Raw sailfish"],
 			"RawMeat[+]": [
@@ -210881,10 +211772,12 @@
 			"Anvil[+]": ["Anvil", "Tri-Anvil", "Fremennik Anvil"],
 			"AnyExcavationSpot[+]": ["Venator remains", "Legionary remains", "Castra debris", "Lodge bar storage", "Lodge art storage", "Administratum debris", "Cultist footlocker", "Sacrificial altar", "Prodromoi remains", "Dis dungeon debris", "Praesidio remains", "Monoceros remains", "Amphitheatre debris", "Ceramics studio debris", "Carcerem debris", "Ministry remains", "Stadio debris", "Cathedral debris", "Marketplace debris", "Inquisitor remains", "Infernal art", "Gladiator remains", "Citizen remains", "Shakroth remains", "Dominion Games podium", "Ikovian memorial", "Oikos studio debris", "Kharid-et chapel debris", "Gladiatorial goblin remains", "Keshik ger", "Animal trophies", "Pontifex remains", "Cricible stand debris", "Tailory debris", "Goblin dorm debris", "Oikos fishing hut remnants", "Weapons research debris", "Orcus altar", "Dis overspill", "Big High War God shrine", "Orthen rubble", "Varanusaur remains", "Gravitron research debris", "Acropolis debris", "Armarium debris", "Yu'biusk animal pen", "Keshik tower debris", "Dragonkin reliquary", "Goblin trainee remains", "Byzroth remains", "Destroyed golem", "Dragonkin coffin", "Icyene weapon rack", "Culinarum debris", "Kyzaj champion's boudoir", "Autopsy table", "Experiment workbench", "Keshik weapon rack", "Hellfire forge", "Warforge scrap pile", "Stockpiled art", "Aughra remains", "Ancient magick munitions", "Moksha device", "Bibliotheke debris", "Warforge weapon rack", "Flight research debris", "Atherium forge", "Xolo mine", "Praetorian remains", "Bandos's sanctum debris", "Tsutsaroth remains", "Optimatoi remains", "War table debris", "Howl's workshop debris", "Makeshift pie oven", "Xolo remains", "Saurthen debris"],
 			"Bank[+]": ["Bank", "Bank boat", "Bank booth", "Bank chest", "Banker"],
+			"Coal rock[+]": ["Coal rock", "Coal vein"],
 			"Cooking object[+]": ["Fire", "Cooking range", "Clay oven", "Campfire", "Fireplace", "Stove", "Cooking pot", "Sulphur pit", "Player fire", "Oven (City of Um)"],
 			"Cooking range[+]": ["Cooking range", "Stove", "Clay oven", "Oven (City of Um)"],
 			"CraftingFurnace[+]": ["Furnace", "Furnace (Dorgesh)", "Fremennik Furnace"],
 			"CurePatch[+]": ["Allotment", "Flower patch", "Herb patch", "Tree patch", "Fruit tree patch", "Hops patch", "Bush patch"],
+			"Drakolith rock[+]": ["Drakolith rock", "Drakolith vein"],
 			"FarmingPatch[+]": ["Allotment", "Flower patch", "Herb patch", "Potato patch", "Hops patch", "Bush patch", "Tree patch", "Fruit tree patch", "Mushroom patch", "Cactus patch", "Spirit tree patch", "Evil turnip patch", "Nightshade patch", "Calquat patch", "Elder tree patch", "Crystal tree patch", "Vine herb patch", "Vine bush patch", "Vine flower patch", "Fertile soil (patch)", "Money tree patch", "Jade vine patch"],
 			"Fire[+]": ["Fire", "Fireplace", "Player fire", "Campfire"],
 			"Fish[+]": ["Fishing spot (minnow)", "Fishing spot (crayfish)", "Fishing spot (small fishing net, bait)"],
@@ -210898,8 +211791,10 @@
 			"HeavyMetalNecronium[+]": ["Necrite rock", "Phasmatite rock"],
 			"HeavyMetalElderRune[+]": ["Light animica rock", "Dark animica rock"],
 			"HeavyMetalPrimal[+]": ["Argonite rock", "Bathus rock", "Fractite rock", "Gorgonite rock", "Katagon rock", "Kratonium rock", "Marmaros rock", "Novite rock", "Promethium rock", "Zephyrium rock"],
+			"Luminite rock[+]": ["Luminite rock", "Luminite vein"],
 			"Ore[+]": ["Copper rock", "Tin rock", "Common gem rock", "Feldip swamp rock", "Clay rock", "Rune essence rock"],
 			"PotatoPatch[+]": ["Allotment", "Potato patch"],
+			"Phasmatite rock[+]": ["Phasmatite rock", "Phasmatite vein"],
 			"SnowPile[+]": ["Snow pile", "Snow drift"],
 			"Tier1Grove[+]": ["Tree", "Oak"],
 			"Tier2Grove[+]": ["Willow", "Yew", "Ivy"],
@@ -210916,10 +211811,12 @@
 		"objectsPlusNames": {
 			"Anvil[+]": "Any anvil you can forge on",
 			"AnyExcavationSpot[+]": "Any excavation spot where relics can be found",
+			"Coal rock[+]": "A coal rock or a coal vein",
 			"Cooking object[+]": "Any object that counts for cooking",
 			"Cooking range[+]": "Any object that counts as a range for cooking",
 			"CraftingFurnace[+]": "Any furnace you can smelt jewelry in",
 			"CurePatch[+]": "Any patch that the cure spell can be cast on",
+			"Drakolith rock[+]": "A drakolith rock or a drakolith vein",
 			"FarmingPatch[+]": "Any farming patch",
 			"Fire[+]": "Any fire that can be cooked on",
 			"Fish[+]": "Any level 1 fishing spot",
@@ -210933,8 +211830,10 @@
 			"HeavyMetalNecronium[+]": "Any rock that may give the necronium entry for Boric's Book of Metal",
 			"HeavyMetalElderRune[+]": "Any rock that may give the elder rune entry for Boric's Book of Metal",
 			"HeavyMetalPrimal[+]": "Any rock that may give the primal entry for Boric's Book of Metal",
+			"Luminite rock[+]": "A luminite rock or a luminite vein",
 			"Ore[+]": "Any level 1 mining object",
 			"PotatoPatch[+]": "Any patch where potatoes can be planted",
+			"Phasmatite rock[+]": "A phasmatite rock or a phasmatite vein",
 			"SnowPile[+]": "Any object where a polar kebbit trace can be started",
 			"Tier1Grove[+]": "New trees accessible after building the tier 1 grove",
 			"Tier2Grove[+]": "New trees accessible after building the tier 2 grove",
@@ -211425,6 +212324,17 @@
 			"HAMMember[+]": "Anything that counts as a H.A.M. Member for 'Lost My Marbles'"
 		},
 		"npcsPlus": {
+			"Archaeologist[+]": [
+				"Archaeologist#Archaeology Campus",
+				"Archaeologist#Kharid-et",
+				"Archaeologist#Infernal Source",
+				"Archaeologist#Everlight",
+				"Archaeologist#Senntisten",
+				"Archaeologist#Stormguard Citadel",
+				"Archaeologist#Daemonheim",
+				"Archaeologist#Warforge",
+				"Archaeologist#Orthen"
+			],
 			"Dyer[+]": ["Aggie", "Rana the dyer"],
 			"Gecko[+]": ["Gecko", "Baby gecko"],
 			"GodEmissaries[+]": ["Endwyr, Emissary of Seren", "Hannu, Emissary of V", "Holstein, Emissary of the Godless", "Julienne, Emissary of Saradomin", "Moldark, Emissary of Zamorak", "Murknose, Emissary of Bandos", "Relomia, Emissary of Sliske", "Soran, Emissary of Zaros", "Taw'Paak, Emissary of Armadyl"],
@@ -211435,12 +212345,24 @@
 			"SawmillOperator[+]": ["Sawmill operator (Prifddinas)", "Plank maker"],
 			"StrengthMaster[+]": ["Sloane", "Yadech Strongarm"],
 			"Tanner[+]": ["Tanner", "Ellis", "Sbott", "Tanya Hyde", "Leatherworker"],
+			"Trainee archaeologist[+]": [
+				"Trainee archaeologist#Archaeology Campus",
+				"Trainee archaeologist#Kharid-et",
+				"Trainee archaeologist#Infernal Source",
+				"Trainee archaeologist#Everlight",
+				"Trainee archaeologist#Senntisten",
+				"Trainee archaeologist#Stormguard Citadel",
+				"Trainee archaeologist#Daemonheim",
+				"Trainee archaeologist#Warforge",
+				"Trainee archaeologist#Orthen"
+			],
 			"Wisp[+]": ["Pale wisp", "Cursed wisp"],
 			"CrystalToolNPC[+]": ["Ilfeen", "Eluned", "Islwyn", "Rhodri Dail"],
 			"GoldenWarbler[+]": ["Golden warbler", "Golden warbler (Anachronia)"],
 			"Vyrelord consumer[+]": ["Vyrelord consumer", "Vyrelady consumer"]
 		},
 		"npcsPlusNames": {
+			"Archaeologist[+]": "A pickpocketable archaeologist at any dig site",
 			"Dyer[+]": "Access to either Rana or Aggie",
 			"Gecko[+]": "Any catchable gecko pet",
 			"GodEmissaries[+]": "Any God Emissary",
@@ -211450,6 +212372,7 @@
 			"WildernessCapeSellers[+]": "Any wilderness cape seller",
 			"SawmillOperator[+]": "Any plank makers",
 			"StrengthMaster[+]": "Sloane or his replacement",
+			"Trainee archaeologist[+]": "A trainee archaeologist at any dig site",
 			"Tanner[+]": "Any hide tanner",
 			"Wisp[+]": "Any level 1 wisp",
 			"GoldenWarbler[+]": "Any golden warbler variant",
@@ -267417,7 +268340,7 @@
 				"Stronghold drops": "Nonskill"
 			}],
 			"Off-hand rubber chicken^": [{
-				"Members only": true
+				"Members only": "Nonskill"
 			}],
 			"Raptor key part 1^": [{
 				"Wyvern task": "Nonskill"
@@ -268374,47 +269297,75 @@
 			"Demon Boss": {
 				"10036-1": [{
 					"Flash Events enabled": "Nonskill"
+				}, {
+					"Members only": "Nonskill"
 				}],
 				"9008-1": [{
 					"Flash Events enabled": "Nonskill"
+				}, {
+					"Members only": "Nonskill"
 				}],
 				"10286": [{
 					"Flash Events enabled": "Nonskill"
+				}, {
+					"Members only": "Nonskill"
 				}],
 				"12086": [{
 					"Flash Events enabled": "Nonskill"
+				}, {
+					"Members only": "Nonskill"
 				}],
 				"12844": [{
 					"Flash Events enabled": "Nonskill"
+				}, {
+					"Members only": "Nonskill"
 				}],
 				"13616": [{
 					"Flash Events enabled": "Nonskill"
+				}, {
+					"Members only": "Nonskill"
 				}],
 				"13107-1": [{
 					"Flash Events enabled": "Nonskill"
+				}, {
+					"Members only": "Nonskill"
 				}],
 				"14389-1": [{
 					"Flash Events enabled": "Nonskill"
+				}, {
+					"Members only": "Nonskill"
 				}]
 			},
 			"Demon Boss (Wilderness)": {
 				"11832-1": [{
 					"Flash Events enabled": "Nonskill"
+				}, {
+					"Members only": "Nonskill"
 				}],
 				"13112-1": [{
 					"Flash Events enabled": "Nonskill"
+				}, {
+					"Members only": "Nonskill"
 				}],
 				"13369-1": [{
 					"Flash Events enabled": "Nonskill"
+				}, {
+					"Members only": "Nonskill"
 				}],
 				"12857": [{
 					"Flash Events enabled": "Nonskill"
+				}, {
+					"Members only": "Nonskill"
 				}],
 				"12858": [{
 					"Flash Events enabled": "Nonskill"
+				}, {
+					"Members only": "Nonskill"
 				}],
 				"11834": [{
 					"Flash Events enabled": "Nonskill"
+				}, {
+					"Members only": "Nonskill"
 				}]
 			},
 			"Experiment No.2": {
@@ -269046,9 +269997,37 @@
 				"13103": [{
 					"~|The Tourist Trap|~ 2": "Quest"
 				}]
+			},
+			"Brokeface": {
+				"11830": [{
+					"Members only": "Nonskill"
+				}]
+			},
+			"Lumpnose": {
+				"11830": [{
+					"Members only": "Nonskill"
+				}]
+			},
+			"Stinkears": {
+				"11830": [{
+					"Members only": "Nonskill"
+				}]
 			}
 		},
 		"NPCs": {
+			"Archaeology professor#Kharid-et": {
+				"Kharid-et - Barracks excavation site": [{
+					"Enter the Kharid-et Chapel": "Nonskill"
+				}],
+				"Stormguard Citadel": [{
+					"Archaeology Mystery: ~|Wing Out|~ 1": "Quest"
+				}]
+			},
+			"Fairy trader": {
+				"Zanaris": [{
+					"Access Zanaris Market": "Nonskill"
+				}]
+			},
 			"Ghost cat": {	
 				"City of Um": [{
 					"~|Alpha vs Omega|~ Complete the quest": "Quest"
@@ -269103,6 +270082,11 @@
 				}],
 				"Spirit Realm Magic Axe Hut": [{
 					"Lockpick the door to the ~|magic axe hut|~": "Thieving"
+				}]
+			},
+			"Chest (Wizards' Guild)": {
+				"10288": [{
+					"Enter the ~|Wizards' Guild|~": "Magic"
 				}]
 			},
 			"Hopper": {
@@ -269331,6 +270315,21 @@
 				"11312": [{
 					"~|Jungle Potion|~ Complete the quest": "Quest"
 				}]
+			},
+			"Zanaris Market spirit stall": {
+				"Zanaris": [{
+					"Access Zanaris Market": "Nonskill"
+				}]
+			},
+			"Zanaris Market seed stall": {
+				"Zanaris": [{
+					"Access Zanaris Market": "Nonskill"
+				}]
+			},
+			"Zanaris Market trinket stall": {
+				"Zanaris": [{
+					"Access Zanaris Market": "Nonskill"
+				}]
 			}
 		},
 		"Shops": {
@@ -269554,6 +270553,16 @@
 					"~|Recruitment Drive|~ Complete the quest": "Quest"
 				}]
 			},
+			"Irksol's Ruby Rings": {
+				"Zanaris": [{
+					"Access Zanaris Market": "Nonskill"
+				}]
+			},
+			"Jukat's Dragon Sword Shop": {
+				"Zanaris": [{
+					"Access Zanaris Market": "Nonskill"
+				}]
+			},
 			"King Lathas's Armoury": {
 				"10036-1": [{
 					"~|Biohazard|~ Complete the quest": "Quest" 
@@ -269649,11 +270658,6 @@
 					"Champions Guild Questpoints": "Nonskill"
 				}]
 			},
-			"Sidekix's Shop of Balance": {
-				"13107-1": [{
-					"Timegated content enabled": "Nonskill"
-				}]
-			},
 			"Sigmund the Merchant": {
 				"10553": [{
 					"~|The Fremennik Trials|~ Complete the quest": "Quest"
@@ -269695,6 +270699,13 @@
 			"Summoning Supplies (Bogrog)": {
 				"10031": [{
 					"~|Watchtower|~ 7": "Quest"
+				}]
+			},
+			"Sydekix's Shop of Balance": {
+				"13107-1": [{
+					"Timegated content enabled": "Nonskill"
+				}, {
+					"Gain Crux Eqal favor": "Nonskill"
 				}]
 			},
 			"Tamayu's Spear stall": {
@@ -308676,173 +309687,1542 @@
 					"1": "1/750"
 				}
 			},
-			"The Vault of Hereditas loot": {
+			"Vault of Hereditas loot": {
 				"Gloomfire bow": {
-					"1": "1/5000"
+					"1": "1/2000"
 				},
 				"Legatus's emberstaff": {
-					"1": "1/5000"
+					"1": "1/2000"
 				},
 				"Misalionar's death mask": {
-					"1": "1/5000"
+					"1": "1/2000"
+				},
+				"Coins": {
+					"80000-120000": "Common",
+					"1150000-2000000": "Rare"
+				},
+				"Huge bladed rune salvage": {
+					"1-34": "Rare"
+				},
+				"Water rune": {
+					"175-420": "Common"
+				},
+				"Soul rune": {
+					"45-100": "Common"
+				},
+				"Blood rune": {
+					"45-155": "Common"
+				},
+				"Smoke rune": {
+					"60-250": "Common"
+				},
+				"Necrotic anima stone": {
+					"10-35": "Common"
+				},
+				"Infernal ashes": {
+					"25-100": "Common"
+				},
+				"Dwarf weed seed": {
+					"1-15": "Common"
+				},
+				"Cadantine seed": {
+					"1-10": "Common"
+				},
+				"Grimy cadantine": {
+					"5-25": "Common"
+				},
+				"Grimy dwarf weed": {
+					"5-17": "Common"
+				},
+				"Onyx bolt tips": {
+					"25-70": "Common"
+				},
+				"Acadia wood spirit": {
+					"5-30": "Common"
+				},
+				"Large bladed rune salvage": {
+					"5-10": "Common"
+				},
+				"Ectoplasm": {
+					"20-85": "Common"
+				},
+				"Radiant energy": {
+					"150-200": "Common"
+				},
+				"Uncut ruby": {
+					"20-30": "Common"
+				},
+				"Uncut diamond": {
+					"20-55": "Common"
 				}
 			},
-			"The Asuran Arsenal loot": {
+			"Asuran Arsenal loot": {
 				"Varanus's mercy": {
-					"1": "1/5000"
+					"1": "1/2000"
 				},
 				"Nodon spike harness": {
-					"1": "1/5000"
+					"1": "1/2000"
+				},
+				"Coins": {
+					"100000-200000": "Common",
+					"1800000-3500000": "Rare"
+				},
+				"Time rune": {
+					"20-30": "Common"
+				},
+				"Dragon dart tip": {
+					"35": "Common"
+				},
+				"Dinosaur bones": {
+					"5-11": "Common"
+				},
+				"Dragonkin bones": {
+					"5-11": "Common"
+				},
+				"Small plated orikalkum salvage": {
+					"3-7": "Common"
+				},
+				"Medium bladed orikalkum salvage": {
+					"3-5": "Common"
+				},
+				"Uncut dragonstone": {
+					"10-20": "Common"
+				},
+				"Black dragonhide": {
+					"10-20": "Common"
+				},
+				"Elder wood spirit": {
+					"4-8": "Common"
+				},
+				"Hydrix bolt tips": {
+					"20-40": "Common"
+				},
+				"Grimy arbuck": {
+					"5-10": "Common"
+				},
+				"Grimy kwuarm": {
+					"5-10": "Common"
+				},
+				"Arbuck seed": {
+					"1-5": "Common"
+				},
+				"Kwuarm seed": {
+					"1-5": "Common"
+				},
+				"Luminous energy": {
+					"100-200": "Common"
+				},
+				"Large bladed orikalkum salvage": {
+					"15-25": "Rare"
 				}
 			},
-			"Chest (Dwarven Mine)": {
-				"Placeholder": {
-					"1": "Always"
+			"Chest (Dwarven mines, Thieving)": {
+				"Runite ore": {
+					"1": "Common"
+				},
+				"Luminite": {
+					"1": "Common"
+				},
+				"Runite stone spirit": {
+					"1-5": "Common"
+				},
+				"Luminite stone spirit": {
+					"1-5": "Common"
+				},
+				"Double ammo mould": {
+					"1": "1/500"
 				}
 			},
-			"Chest (Chaos Druid Tower)": {
-				"Placeholder": {
-					"1": "Always"
+			"Chest (Chaos Druid Tower, 75 Thieving)": {
+				"Grimy kwuarm": {
+					"1-3": "Common"
+				},
+				"Kwuarm seed": {
+					"1-3": "Common"
+				},
+				"Grimy snapdragon": {
+					"1-3": "Common"
+				},
+				"Snapdragon seed": {
+					"1-3": "Common"
+				},
+				"Grimy spirit weed": {
+					"1-3": "Common"
+				},
+				"Spirit weed seed": {
+					"1-3": "Common"
+				},
+				"Coins": {
+					"1500": "Common"
 				}
 			},
 			"Chest (Wizards' Tower)": {
-				"Placeholder": {
-					"1": "Always"
+				"Mist rune": {
+					"5": "Common"
+				},
+				"Dust rune": {
+					"5": "Common"
+				},
+				"Nature rune": {
+					"10": "Uncommon"
+				},
+				"Death rune": {
+					"10": "Uncommon"
 				}
 			},
 			"Chest (White Knights' Castle)": {
-				"Placeholder": {
-					"1": "Always"
+				"White full helm": {
+					"1": "Common"
+				},
+				"White platebody": {
+					"1": "Common"
+				},
+				"White platelegs": {
+					"1": "Common"
+				},
+				"White kiteshield": {
+					"1": "Common"
+				},
+				"White gauntlets": {
+					"1": "Common"
+				},
+				"White boots": {
+					"1": "Common"
 				}
 			},
-			"Chest (Keldagrim)": {
-				"Placeholder": {
-					"1": "Always"
+			"Chest (Keldagrim, Thieving)": {
+				"Orichalcite stone spirit": {
+					"3": "Common"
+				},
+				"Drakolith stone spirit": {
+					"2": "Common"
+				},
+				"Necrite stone spirit": {
+					"2": "Common"
+				},
+				"Phasmatite stone spirit": {
+					"3": "Common"
+				},
+				"Necronium bar": {
+					"1": "Common"
+				},
+				"Orikalkum bar": {
+					"1": "Common"
 				}
 			},
-			"Chest (Black Knights' Castle)": {
-				"Placeholder": {
-					"1": "Always"
+			"Chest (Black Knights' Fortress)": {
+				"Black battleaxe": {
+					"1": "Common"
+				},
+				"Black longsword": {
+					"1": "Common"
+				},
+				"Black warhammer": {
+					"1": "Common"
+				},
+				"Black 2h sword": {
+					"1": "Common"
+				},
+				"Black spear": {
+					"1": "Common"
+				},
+				"Black scimitar": {
+					"1": "Common"
+				},
+				"Black claw": {
+					"1": "Common"
+				},
+				"Black mace": {
+					"1": "Common"
 				}
 			},
 			"Chest (Living Rock Caverns)": {
-				"Placeholder": {
-					"1": "Always"
+				"Light animica": {
+					"1-3": "Common"
+				},
+				"Light animica stone spirit": {
+					"1-3": "Common"
+				},
+				"Dark animica": {
+					"1-3": "Common"
+				},
+				"Dark animica stone spirit": {
+					"1-3": "Common"
+				},
+				"Banite ore": {
+					"1-4": "Common"
+				},
+				"Banite stone spirit": {
+					"1-4": "Common"
 				}
 			},
-			"Chest (Priffdinas)": {
-				"Placeholder": {
-					"1": "Always"
+			"Chest (Cadarn district)": {
+				"Lantadyme seed": {
+					"1-2": "Common"
+				},
+				"Cadantine seed": {
+					"1-2": "Common"
+				},
+				"Torstol seed": {
+					"1-2": "Common"
+				},
+				"Dwarf weed seed": {
+					"1-2": "Common"
+				},
+				"Irit seed": {
+					"1-2": "Common"
+				},
+				"Avantoe seed": {
+					"1-2": "Common"
+				},
+				"Grimy dwarf weed": {
+					"1-3": "Common"
+				},
+				"Grimy lantadyme": {
+					"1-3": "Common"
+				},
+				"Grimy cadantine": {
+					"1-3": "Common"
+				},
+				"Coins": {
+					"2000": "Common"
+				},
+				"Crystal acorn": {
+					"1": "Rare"
 				}
 			},
 			"Chest (Ourania Cave)": {
-				"Placeholder": {
-					"1": "Always"
+				"Pure essence": {
+					"75 (noted)": "Common",
+					"1000 (noted)": "Rare"
+				},
+				"Cosmic rune": {
+					"10": "Common"
+				},
+				"Blood rune": {
+					"7-13": "Uncommon"
+				},
+				"Soul rune": {
+					"5-6": "Uncommon"
 				}
 			},
 			"Chest (Wizards' Guild)": {
-				"Placeholder": {
-					"1": "Always"
+				"Mystic cloth": {
+					"4 (noted)": "Common"
+				},
+				"Air orb": {
+					"5 (noted)": "Uncommon"
+				},
+				"Earth orb": {
+					"5 (noted)": "Uncommon"
+				},
+				"Fire orb": {
+					"5 (noted)": "Uncommon"
+				},
+				"Water orb": {
+					"5 (noted)": "Uncommon"
+				},
+				"Mystic hat": {
+					"1": "Uncommon"
+				},
+				"Mystic robe top": {
+					"1": "Uncommon"
+				},
+				"Mystic gloves": {
+					"1": "Uncommon"
+				},
+				"Mystic robe bottom": {
+					"1": "Uncommon"
+				},
+				"Mystic boots": {
+					"1": "Uncommon"
 				}
 			},
 			"Chest (City of Um)": {
-				"Placeholder": {
-					"1": "Always"
+				"Ashes": {
+					"5-15 (noted)": "Common"
+				},
+				"Bucket of slime": {
+					"3 (noted)": "Common"
+				},
+				"Ectoplasm": {
+					"5": "Common"
+				},
+				"Greater ghostly ink": {
+					"3": "Uncommon"
+				},
+				"Greater ritual candle": {
+					"1": "Uncommon"
+				},
+				"Powerful ghostly ink": {
+					"3": "Uncommon"
+				},
+				"Greater flaming skull": {
+					"1": "Uncommon"
 				}
 			},
-			"Chest (Darkmeyer)": {
-				"Placeholder": {
-					"1": "Always"
+			"Chest (Darkmeyer, Thieving)": {
+				"Ring of Vitur": {
+					"1": "Very rare"
+				},
+				"Coins": {
+					"5000-10500": "Common"
+				},
+				"Congealed blood": {
+					"10-20": "Common"
+				},
+				"Death rune": {
+					"10-20": "Common"
 				}
 			},
 			"Chest (Rasial's Citadel)": {
-				"Placeholder": {
-					"1": "Always"
+				"Impure essence": {
+					"20-60 (noted)": "Common"
+				},
+				"Bone rune": {
+					"25-35": "Common"
+				},
+				"Flesh rune": {
+					"10-20": "Common"
+				},
+				"Miasma rune": {
+					"5-15": "Common"
+				},
+				"Spirit rune": {
+					"35-45": "Common"
+				},
+				"Ghost impling jar": {
+					"1": "Rare"
 				}
 			},
-			"Spirit stall": {
-				"Placeholder": {
-					"1": "Always"
+			"Zanaris Market spirit stall": {
+				"Luminite stone spirit": {
+					"1-2": "Common"
+				},
+				"Adamantite stone spirit": {
+					"1-2": "Common"
+				},
+				"Banite stone spirit": {
+					"1": "Common"
+				},
+				"Light animica stone spirit": {
+					"1-3": "Uncommon"
+				},
+				"Dark animica stone spirit": {
+					"1-3": "Uncommon"
+				},
+				"Primal stone spirit": {
+					"2-4": "Uncommon"
+				},
+				"Luminite stone spirit": {
+					"1-2": "Uncommon"
+				},
+				"Willow wood spirit": {
+					"1-2": "Common"
+				},
+				"Teak wood spirit": {
+					"1-2": "Common"
+				},
+				"Magic wood spirit": {
+					"2-4": "Common"
+				},
+				"Elder wood spirit": {
+					"1-4": "Common"
+				},
+				"Eternal magic wood spirit": {
+					"1-3": "Uncommon"
 				}
 			},
 			"Zanaris Market seed stall": {
-				"Placeholder": {
-					"1": "Always"
+				"Spirit weed seed": {
+					"1": "Common"
+				},
+				"Bittercap mushroom spore": {
+					"1": "Common"
+				},
+				"Butterfly flower seed": {
+					"1": "Common"
+				},
+				"Dragonfruit seed": {
+					"1": "Common"
+				},
+				"Morchella mushroom spore": {
+					"1": "Common"
+				},
+				"Godly grapevine seed": {
+					"1": "Common"
+				},
+				"Strawberry seed": {
+					"1": "Common"
+				},
+				"Cave nightshade seed": {
+					"1": "Common"
+				},
+				"Stinkshroom spore": {
+					"1": "Common"
+				},
+				"Starbloom flower seed": {
+					"1": "Common"
+				},
+				"Tombshroom spore": {
+					"1": "Common"
+				},
+				"Spirit seed": {
+					"1": "Uncommon"
+				},
+				"Magic seed": {
+					"1": "Common"
+				},
+				"Fellstalk seed": {
+					"1": "Common"
+				},
+				"Golden dragonfruit seed": {
+					"1": "Common"
+				},
+				"Plant pot pack": {
+					"1": "Common"
+				},
+				"Elder seed": {
+					"1": "Common"
 				}
 			},
 			"Zanaris Market trinket stall": {
-				"Placeholder": {
-					"1": "Always"
+				"Onyx dust": {
+					"1": "Common"
+				},
+				"Dragon scale dust": {
+					"1": "Common"
+				},
+				"Unicorn horn dust": {
+					"1": "Common"
+				},
+				"White berries": {
+					"1": "Common"
+				},
+				"Potato cactus": {
+					"1": "Common"
+				},
+				"Morchella mushroom": {
+					"1": "Common"
+				},
+				"Uncut dragonstone": {
+					"1": "Common"
+				},
+				"Spirit weed incense sticks": {
+					"1": "Common"
+				},
+				"Kwuarm incense sticks": {
+					"1": "Common"
+				},
+				"Torstol incense sticks": {
+					"1": "Common"
+				},
+				"Crimson charm": {
+					"2": "Common"
+				},
+				"Blue charm": {
+					"2": "Common"
+				},
+				"Alchemical hydrix dust": {
+					"1": "Very rare"
 				}
 			},
-			"Meat stall": {
-				"Placeholder": {
-					"1": "Always"
+			"Darkmeyer meat stall": {
+				"Raw bear meat": {
+					"1": "Common"
+				},
+				"Raw beef": {
+					"1": "Common"
+				},
+				"Raw chicken": {
+					"1": "Common"
+				},
+				"Raw rat meat": {
+					"1": "Common"
+				},
+				"Meaty mush": {
+					"5-10": "Common"
+				},
+				"Congealed blood": {
+					"2-4": "Uncommon"
+				},
+				"Raw beef pack": {
+					"1": "Uncommon"
+				},
+				"Raw bird meat pack": {
+					"1": "Uncommon"
+				},
+				"Raw rabbit pack": {
+					"1": "Uncommon"
 				}
 			},
 			"Darkmeyer magic stall": {
-				"Placeholder": {
-					"1": "Always"
+				"Fire battlestaff": {
+					"1": "Common"
+				},
+				"Earth battlestaff": {
+					"1": "Common"
+				},
+				"Air battlestaff": {
+					"1": "Common"
+				},
+				"Water battlestaff": {
+					"1": "Common"
+				},
+				"Battlestaff": {
+					"2-4": "Common"
+				},
+				"Soul rune": {
+					"5-20": "Common"
+				},
+				"Blood rune": {
+					"10-20": "Common"
+				},
+				"Death rune": {
+					"10-25": "Common"
+				},
+				"Ring of Vitur": {
+					"1": "Very rare"
 				}
 			},
-			"Potion stall": {
-				"Placeholder": {
-					"1": "Always"
+			"Darkmeyer potion stall": {
+				"Extreme attack (1)": {
+					"1": "Common"
+				},
+				"Extreme strength (1)": {
+					"1": "Common"
+				},
+				"Extreme defence (1)": {
+					"1": "Common"
+				},
+				"Extreme magic (1)": {
+					"1": "Common"
+				},
+				"Extreme ranging (1)": {
+					"1": "Common"
+				},
+				"Extreme necromancy (1)": {
+					"1": "Common"
+				},
+				"Summoning potion (1)": {
+					"1": "Common"
+				},
+				"Super Zamorak brew (1)": {
+					"1": "Common"
+				},
+				"Spirit attraction potion (1)": {
+					"1": "Common"
+				},
+				"Aggression potion (1)": {
+					"1": "Common"
+				},
+				"Prayer renewal (1)": {
+					"1": "Common"
+				},
+				"Weapon poison+++ (1)": {
+					"1": "Common"
 				}
 			},
-			"Archaeologist trainee": {
-				"Placeholder": {
-					"1": "Always"
+			"Archaeologist trainee#Archaeology Campus": {
+				"Coins": {
+					"150": "1321/2000"
+				},
+				"Chronotes": {
+					"2-3": "350/2000"
+				},
+				"Ancient gravel": {
+					"1": "200/2000"
+				},
+				"MaterialsTable#General+": {
+					"1": "125/2000"
+				},
+				"TetracompassTable+": {
+					"1": "1/2000"
+				},
+				"ArchaeologyBoostsTable+": {
+					"1": "2/2000"
+				}
+			},
+			"Archaeologist trainee#Kharid-et": {
+				"Coins": {
+					"150": "1321/2000"
+				},
+				"Chronotes": {
+					"2-3": "350/2000"
+				},
+				"Ancient gravel": {
+					"1": "200/2000"
+				},
+				"MaterialsTable#Zarosian+": {
+					"1": "125/2000"
+				},
+				"ArtefactTable#Kharid-et+": {
+					"1": "1/2000"
+				},
+				"TetracompassTable+": {
+					"1": "1/2000"
+				},
+				"ArchaeologyBoostsTable+": {
+					"1": "2/2000"
+				}
+			},
+			"Archaeologist trainee#Infernal Source": {
+				"Coins": {
+					"150": "1321/2000"
+				},
+				"Chronotes": {
+					"2-3": "350/2000"
+				},
+				"Fiery brimstone": {
+					"1": "200/2000"
+				},
+				"MaterialsTable#Zamorakian+": {
+					"1": "125/2000"
+				},
+				"ArtefactTable#InfernalSource+": {
+					"1": "1/2000"
+				},
+				"TetracompassTable+": {
+					"1": "1/2000"
+				},
+				"ArchaeologyBoostsTable+": {
+					"1": "2/2000"
+				}
+			},
+			"Archaeologist trainee#Everlight": {
+				"Coins": {
+					"150": "1321/2000"
+				},
+				"Chronotes": {
+					"2-3": "350/2000"
+				},
+				"Saltwater mud": {
+					"1": "200/2000"
+				},
+				"MaterialsTable#Saradominist+": {
+					"1": "125/2000"
+				},
+				"ArtefactTable#Everlight+": {
+					"1": "1/2000"
+				},
+				"TetracompassTable+": {
+					"1": "1/2000"
+				},
+				"ArchaeologyBoostsTable+": {
+					"1": "2/2000"
+				}
+			},
+			"Archaeologist trainee#Senntisten": {
+				"Coins": {
+					"150": "1321/2000"
+				},
+				"Chronotes": {
+					"2-3": "350/2000"
+				},
+				"Ancient gravel": {
+					"1": "200/2000"
+				},
+				"MaterialsTable#Zarosian+": {
+					"1": "125/2000"
+				},
+				"ArtefactTable#Senntisten+": {
+					"1": "1/2000"
+				},
+				"TetracompassTable+": {
+					"1": "1/2000"
+				},
+				"ArchaeologyBoostsTable+": {
+					"1": "2/2000"
+				}
+			},
+			"Archaeologist trainee#Stormguard Citadel": {
+				"Coins": {
+					"150": "1321/2000"
+				},
+				"Chronotes": {
+					"2-3": "350/2000"
+				},
+				"Aerated sediment": {
+					"1": "200/2000"
+				},
+				"MaterialsTable#Armadylean+": {
+					"1": "125/2000"
+				},
+				"ArtefactTable#Stormguard+": {
+					"1": "1/2000"
+				},
+				"TetracompassTable+": {
+					"1": "1/2000"
+				},
+				"ArchaeologyBoostsTable+": {
+					"1": "2/2000"
+				}
+			},
+			"Archaeologist trainee#Daemonheim": {
+				"Coins": {
+					"150": "1321/2000"
+				},
+				"Chronotes": {
+					"2-3": "350/2000"
+				},
+				"Volcanic ash": {
+					"1": "200/2000"
+				},
+				"MaterialsTable#Dragonkin+": {
+					"1": "125/2000"
+				},
+				"ArtefactTable#Daemonheim+": {
+					"1": "1/2000"
+				},
+				"TetracompassTable+": {
+					"1": "1/2000"
+				},
+				"ArchaeologyBoostsTable+": {
+					"1": "2/2000"
+				}
+			},
+			"Archaeologist trainee#Warforge": {
+				"Coins": {
+					"150": "1321/2000"
+				},
+				"Chronotes": {
+					"2-3": "350/2000"
+				},
+				"Earthen clay": {
+					"1": "200/2000"
+				},
+				"MaterialsTable#Bandosian+": {
+					"1": "125/2000"
+				},
+				"ArtefactTable#Warforge+": {
+					"1": "1/2000"
+				},
+				"TetracompassTable+": {
+					"1": "1/2000"
+				},
+				"ArchaeologyBoostsTable+": {
+					"1": "2/2000"
+				}
+			},
+			"Archaeologist trainee#Orthen": {
+				"Coins": {
+					"150": "1321/2000"
+				},
+				"Chronotes": {
+					"2-3": "350/2000"
+				},
+				"Volcanic ash": {
+					"1": "200/2000"
+				},
+				"MaterialsTable#Dragonkin+": {
+					"1": "125/2000"
+				},
+				"ArtefactTable#Orthen+": {
+					"1": "1/2000"
+				},
+				"TetracompassTable+": {
+					"1": "1/2000"
+				},
+				"ArchaeologyBoostsTable+": {
+					"1": "2/2000"
 				}
 			},
 			"Wizards' Tower mage": {
-				"Placeholder": {
-					"1": "Always"
+				"Coins": {
+					"100": "320/1000"
+				},
+				"Chaos rune": {
+					"3": "125/1000"
+				},
+				"Nature rune": {
+					"3": "125/1000"
+				},
+				"Law rune": {
+					"3": "125/1000"
+				},
+				"Pure essence": {
+					"8-15 (noted)": "150/1000"
+				},
+				"Water talisman": {
+					"1": "10/1000"
+				},
+				"Earth talisman": {
+					"1": "10/1000"
+				},
+				"Fire talisman": {
+					"1": "10/1000"
+				},
+				"Body talisman": {
+					"1": "10/1000"
+				},
+				"Cosmic talisman": {
+					"1": "10/1000"
+				},
+				"Chaos talisman": {
+					"1": "10/1000"
+				},
+				"Nature talisman": {
+					"1": "10/1000"
+				},
+				"Law talisman": {
+					"1": "10/1000"
 				}
 			},
-			"Archaeologist": {
-				"Placeholder": {
-					"1": "Always"
+			"Archaeologist#Archaeology Campus": {
+				"Coins": {
+					"265": "1295/2000"
+				},
+				"Chronotes": {
+					"2-4": "350/2000"
+				},
+				"Ancient gravel": {
+					"1": "200/2000"
+				},
+				"MaterialsTable#General+": {
+					"1": "150/2000"
+				},
+				"TetracompassTable+": {
+					"1": "1/2000"
+				},
+				"ArchaeologyBoostsTable+": {
+					"1": "2/2000"
+				}
+			},
+			"Archaeologist#Kharid-et": {
+				"Coins": {
+					"265": "1295/2000"
+				},
+				"Chronotes": {
+					"2-4": "350/2000"
+				},
+				"Ancient gravel": {
+					"1": "200/2000"
+				},
+				"MaterialsTable#Zarosian+": {
+					"1": "150/2000"
+				},
+				"ArtefactTable#Kharid-et+": {
+					"1": "2/2000"
+				},
+				"TetracompassTable+": {
+					"1": "1/2000"
+				},
+				"ArchaeologyBoostsTable+": {
+					"1": "2/2000"
+				}
+			},
+			"Archaeologist#Infernal Source": {
+				"Coins": {
+					"265": "1295/2000"
+				},
+				"Chronotes": {
+					"2-4": "350/2000"
+				},
+				"Fiery brimstone": {
+					"1": "200/2000"
+				},
+				"MaterialsTable#Zamorakian+": {
+					"1": "150/2000"
+				},
+				"ArtefactTable#InfernalSource+": {
+					"1": "2/2000"
+				},
+				"TetracompassTable+": {
+					"1": "1/2000"
+				},
+				"ArchaeologyBoostsTable+": {
+					"1": "2/2000"
+				}
+			},
+			"Archaeologist#Everlight": {
+				"Coins": {
+					"265": "1295/2000"
+				},
+				"Chronotes": {
+					"2-4": "350/2000"
+				},
+				"Saltwater mud": {
+					"1": "200/2000"
+				},
+				"MaterialsTable#Saradominist+": {
+					"1": "150/2000"
+				},
+				"ArtefactTable#Everlight+": {
+					"1": "2/2000"
+				},
+				"TetracompassTable+": {
+					"1": "1/2000"
+				},
+				"ArchaeologyBoostsTable+": {
+					"1": "2/2000"
+				}
+			},
+			"Archaeologist#Senntisten": {
+				"Coins": {
+					"265": "1295/2000"
+				},
+				"Chronotes": {
+					"2-4": "350/2000"
+				},
+				"Ancient gravel": {
+					"1": "200/2000"
+				},
+				"MaterialsTable#Zarosian+": {
+					"1": "150/2000"
+				},
+				"ArtefactTable#Senntisten+": {
+					"1": "2/2000"
+				},
+				"TetracompassTable+": {
+					"1": "1/2000"
+				},
+				"ArchaeologyBoostsTable+": {
+					"1": "2/2000"
+				}
+			},
+			"Archaeologist#Stormguard Citadel": {
+				"Coins": {
+					"265": "1295/2000"
+				},
+				"Chronotes": {
+					"2-4": "350/2000"
+				},
+				"Aerated sediment": {
+					"1": "200/2000"
+				},
+				"MaterialsTable#Armadylean+": {
+					"1": "150/2000"
+				},
+				"ArtefactTable#Stormguard+": {
+					"1": "2/2000"
+				},
+				"TetracompassTable+": {
+					"1": "1/2000"
+				},
+				"ArchaeologyBoostsTable+": {
+					"1": "2/2000"
+				}
+			},
+			"Archaeologist#Daemonheim": {
+				"Coins": {
+					"265": "1295/2000"
+				},
+				"Chronotes": {
+					"2-4": "350/2000"
+				},
+				"Volcanic ash": {
+					"1": "200/2000"
+				},
+				"MaterialsTable#Dragonkin+": {
+					"1": "150/2000"
+				},
+				"ArtefactTable#Daemonheim+": {
+					"1": "2/2000"
+				},
+				"TetracompassTable+": {
+					"1": "1/2000"
+				},
+				"ArchaeologyBoostsTable+": {
+					"1": "2/2000"
+				}
+			},
+			"Archaeologist#Warforge": {
+				"Coins": {
+					"265": "1295/2000"
+				},
+				"Chronotes": {
+					"2-4": "350/2000"
+				},
+				"Earthen clay": {
+					"1": "200/2000"
+				},
+				"MaterialsTable#Bandosian+": {
+					"1": "150/2000"
+				},
+				"ArtefactTable#Warforge+": {
+					"1": "2/2000"
+				},
+				"TetracompassTable+": {
+					"1": "1/2000"
+				},
+				"ArchaeologyBoostsTable+": {
+					"1": "2/2000"
+				}
+			},
+			"Archaeologist#Orthen": {
+				"Coins": {
+					"265": "1295/2000"
+				},
+				"Chronotes": {
+					"2-4": "350/2000"
+				},
+				"Volcanic ash": {
+					"1": "200/2000"
+				},
+				"MaterialsTable#Dragonkin+": {
+					"1": "150/2000"
+				},
+				"ArtefactTable#Orthen+": {
+					"1": "2/2000"
+				},
+				"TetracompassTable+": {
+					"1": "1/2000"
+				},
+				"ArchaeologyBoostsTable+": {
+					"1": "2/2000"
 				}
 			},
 			"Vyrewatch tither": {
-				"Placeholder": {
-					"1": "Always"
+				"Coins": {
+					"750": "730/1000"
+				},
+				"Blood rune": {
+					"3": "65/1000"
+				},
+				"Death rune": {
+					"3": "65/1000"
+				},
+				"Congealed blood": {
+					"2-4": "75/1000"
+				},
+				"Uncut ruby": {
+					"1": "33/1000"
+				},
+				"Elder wood spirit": {
+					"1": "5/1000"
+				},
+				"Inert adrenaline crystal": {
+					"1": "10/1000"
+				},
+				"Tiny spiky rune salvage": {
+					"1": "10/1000"
+				},
+				"Small bladed orikalkum salvage": {
+					"1": "5/1000"
+				},
+				"Shiny columbarium key": {
+					"1": "2/1000"
 				}
 			},
 			"Goebie scavenger": {
-				"Placeholder": {
-					"1": "Always"
+				"Coins": {
+					"600": "428/2000"
+				},
+				"Cooked eeligator": {
+					"1": "250/2000"
+				},
+				"Teci": {
+					"1": "750/2000",
+					"2": "250/2000"
+				},
+				"Small goebie burial charm": {
+					"1": "4/2000"
+				},
+				"Goebie burial charm": {
+					"1": "3/2000"
+				},
+				"Large goebie burial charm": {
+					"1": "2/2000"
+				},
+				"Liberation of Mazcab reroll token": {
+					"1": "1/2000"
 				}
 			},
 			"Menaphos market guard": {
-				"Placeholder": {
-					"1": "Always"
+				"Coins": {
+					"650": "758/1000"
+				},
+				"Acadia wood spirit": {
+					"1": "50/1000"
+				},
+				"Waterskin (4)": {
+					"1": "50/1000"
+				},
+				"Potato cactus": {
+					"1": "5/1000"
+				},
+				"Large bladed adamant salvage": {
+					"1": "20/1000"
+				},
+				"Extra fine sand": {
+					"1": "100/1000"
+				},
+				"Vital spark": {
+					"1": "2/1000"
+				},
+				"Menaphite gift offering (small)": {
+					"1": "4/1000"
+				},
+				"Menaphite gift offering (medium)": {
+					"1": "2/1000"
+				},
+				"Sealed clue scroll (hard)": {
+					"1": "6/1000"
+				},
+				"Sealed clue scroll (elite)": {
+					"1": "495/100000"
+				},
+				"Sealed clue scroll (master)": {
+					"1": "5/100000"
+				},
+				"Hornless unicornfly in amber": {
+					"1": "1/1000"
+				},
+				"Kalphite wanderer in amber": {
+					"1": "1/1000"
 				}
 			},
 			"Wizards' Tower master mage": {
-				"Placeholder": {
-					"1": "Always"
+				"Pure essence": {
+					"20-30 (noted)": "225/3000"
+				},
+				"Cosmic rune": {
+					"2-3": "180/3000"
+				},
+				"Soul rune": {
+					"2-7": "150/3000"
+				},
+				"Astral rune": {
+					"2-4": "180/3000"
+				},
+				"Law rune": {
+					"2-4": "180/3000"
+				},
+				"Time rune": {
+					"1-4": "75/3000"
+				},
+				"Dust rune": {
+					"6-10": "225/3000"
+				},
+				"Steam rune": {
+					"6-10": "225/3000"
+				},
+				"Blood talisman": {
+					"1": "1/3000"
+				},
+				"Death talisman": {
+					"1": "1/3000"
+				},
+				"Soul talisman": {
+					"1": "1/3000"
+				},
+				"Coins": {
+					"800": "707/3000"
 				}
 			},
-			"Archaeology professor": {
-				"Placeholder": {
-					"1": "Always"
+			"Archaeology professor#Archaeology Campus": {
+				"Coins": {
+					"150": "736/1000"
+				},
+				"Chronotes": {
+					"2-3": "175/1000"
+				},
+				"Binding contract": {
+					"1": "10/1000"
+				},
+				"MaterialsTable#General+": {
+					"1": "1/1000"
+				},
+				"TetracompassTable+": {
+					"1": "1/1000"
+				},
+				"ArchaeologyBoostsTable+": {
+					"1": "1/1000"
+				}
+			},
+			"Archaeology professor#Kharid-et": {
+				"Coins": {
+					"150": "736/1000"
+				},
+				"Chronotes": {
+					"2-3": "175/1000"
+				},
+				"Binding contract": {
+					"1": "10/1000"
+				},
+				"MaterialsTable#Zarosian+": {
+					"1": "75/1000"
+				},
+				"ArtefactTable#Kharid-et+": {
+					"1": "1/1000"
+				},
+				"TetracompassTable+": {
+					"1": "1/1000"
+				},
+				"ArchaeologyBoostsTable+": {
+					"1": "1/1000"
+				}
+			},
+			"Archaeology professor#Infernal Source": {
+				"Coins": {
+					"150": "736/1000"
+				},
+				"Chronotes": {
+					"2-3": "175/1000"
+				},
+				"Binding contract": {
+					"1": "10/1000"
+				},
+				"MaterialsTable#Zamorakian+": {
+					"1": "75/1000"
+				},
+				"ArtefactTable#InfernalSource+": {
+					"1": "1/1000"
+				},
+				"TetracompassTable+": {
+					"1": "1/1000"
+				},
+				"ArchaeologyBoostsTable+": {
+					"1": "1/1000"
+				}
+			},
+			"Archaeology professor#Everlight": {
+				"Coins": {
+					"150": "736/1000"
+				},
+				"Chronotes": {
+					"2-3": "175/1000"
+				},
+				"Binding contract": {
+					"1": "10/1000"
+				},
+				"MaterialsTable#Saradominist+": {
+					"1": "75/1000"
+				},
+				"ArtefactTable#Everlight+": {
+					"1": "1/1000"
+				},
+				"TetracompassTable+": {
+					"1": "1/1000"
+				},
+				"ArchaeologyBoostsTable+": {
+					"1": "1/1000"
+				}
+			},
+			"Archaeology professor#Senntisten": {
+				"Coins": {
+					"150": "736/1000"
+				},
+				"Chronotes": {
+					"2-3": "175/1000"
+				},
+				"Binding contract": {
+					"1": "10/1000"
+				},
+				"MaterialsTable#Zarosian+": {
+					"1": "75/1000"
+				},
+				"ArtefactTable#Senntisten+": {
+					"1": "1/1000"
+				},
+				"TetracompassTable+": {
+					"1": "1/1000"
+				},
+				"ArchaeologyBoostsTable+": {
+					"1": "1/1000"
+				}
+			},
+			"Archaeology professor#Stormguard Citadel": {
+				"Coins": {
+					"150": "736/1000"
+				},
+				"Chronotes": {
+					"2-3": "175/1000"
+				},
+				"Binding contract": {
+					"1": "10/1000"
+				},
+				"MaterialsTable#Armadylean+": {
+					"1": "75/1000"
+				},
+				"ArtefactTable#Stormguard+": {
+					"1": "1/1000"
+				},
+				"TetracompassTable+": {
+					"1": "1/1000"
+				},
+				"ArchaeologyBoostsTable+": {
+					"1": "1/1000"
+				}
+			},
+			"Archaeology professor#Daemonheim": {
+				"Coins": {
+					"150": "736/1000"
+				},
+				"Chronotes": {
+					"2-3": "175/1000"
+				},
+				"Binding contract": {
+					"1": "10/1000"
+				},
+				"MaterialsTable#Dragonkin+": {
+					"1": "75/1000"
+				},
+				"ArtefactTable#Daemonheim+": {
+					"1": "1/1000"
+				},
+				"TetracompassTable+": {
+					"1": "1/1000"
+				},
+				"ArchaeologyBoostsTable+": {
+					"1": "1/1000"
+				}
+			},
+			"Archaeology professor#Warforge": {
+				"Coins": {
+					"150": "736/1000"
+				},
+				"Chronotes": {
+					"2-3": "175/1000"
+				},
+				"Binding contract": {
+					"1": "10/1000"
+				},
+				"MaterialsTable#Bandosian+": {
+					"1": "75/1000"
+				},
+				"ArtefactTable#Warforge+": {
+					"1": "1/1000"
+				},
+				"TetracompassTable+": {
+					"1": "1/1000"
+				},
+				"ArchaeologyBoostsTable+": {
+					"1": "1/1000"
+				}
+			},
+			"Archaeology professor#Orthen": {
+				"Coins": {
+					"150": "736/1000"
+				},
+				"Chronotes": {
+					"2-3": "175/1000"
+				},
+				"Binding contract": {
+					"1": "10/1000"
+				},
+				"MaterialsTable#Dragonkin+": {
+					"1": "75/1000"
+				},
+				"ArtefactTable#Orthen+": {
+					"1": "1/1000"
+				},
+				"TetracompassTable+": {
+					"1": "1/1000"
+				},
+				"ArchaeologyBoostsTable+": {
+					"1": "1/1000"
 				}
 			},
 			"TzHaar-Hur trader": {
-				"Placeholder": {
-					"1": "Always"
+				"Jal-tok-yt": {
+					"1": "Very rare"
+				},
+				"Tokkul": {
+					"8-25": "2339/3000"
+				},
+				"Uncut sapphire": {
+					"1": "150/3000"
+				},
+				"Uncut emerald": {
+					"1": "200/3000"
+				},
+				"Uncut ruby": {
+					"1": "150/3000"
+				},
+				"Uncut diamond": {
+					"1": "100/3000"
+				},
+				"Uncut onyx": {
+					"1": "1/3000"
+				},
+				"Onyx bolt tips": {
+					"1": "30/3000"
+				},
+				"Sealed clue scroll (medium)": {
+					"1": "30/3000"
 				}
 			},
 			"Fairy trader": {
-				"Placeholder": {
-					"1": "Always"
+				"Mahogany wood spirit": {
+					"1-3": "27/1000"
+				},
+				"Yew wood spirit": {
+					"1-3": "18/1000"
+				},
+				"Magic wood spirit": {
+					"1-3": "13/1000"
+				},
+				"Irit seed": {
+					"1": "9/1000"
+				},
+				"Godly grapevine seed": {
+					"1": "10/1000"
+				},
+				"Spirit weed seed": {
+					"1-3": "14/1000"
+				},
+				"Dwarf weed seed": {
+					"1-3": "14/1000"
+				},
+				"Starbloom flower seed": {
+					"1": "3/1000"
+				},
+				"Crimson charm": {
+					"2": "50/1000"
+				},
+				"Blue charm": {
+					"2": "50/1000"
+				},
+				"Coins": {
+					"800": "748/1000"
+				},
+				"Inert adrenalie crystal": {
+					"1": "5/1000"
+				},
+				"Dragon longsword": {
+					"1": "5/1000"
+				},
+				"Onyx dust": {
+					"1": "15/1000"
+				},
+				"Moonstone dust": {
+					"1": "15/1000"
 				}
 			},
 			"Vyrelord consumer[+]": {
-				"Placeholder": {
-					"1": "Always"
+				"Ring of Vitur": {
+					"1": "Very rare"
+				},
+				"Coins": {
+					"900": "708/1000"
+				},
+				"Blood rune": {
+					"3": "65/1000"
+				},
+				"Death rune": {
+					"3": "65/1000"
+				},
+				"Congealed blood": {
+					"2-4": "75/1000"
+				},
+				"Ruby necklace": {
+					"1": "50/1000"
+				},
+				"Necrite stone spirit": {
+					"1-2": "15/1000"
+				},
+				"Eternal magic wood spirit": {
+					"1-2": "5/1000"
+				},
+				"Shiny columbarium key": {
+					"1": "2/1000"
+				},
+				"Small spiky rune salvage": {
+					"1": "10/1000"
+				},
+				"Small bladed orikalkum salvage": {
+					"1": "5/1000"
 				}
 			}
 		},
@@ -320659,6 +323039,40 @@
 			"class": "melee",
 			"accuracy": 1486,
 			"auto_damage": 1564.5
+		},
+		"Am-hej": {
+			"ranged": 0,
+			"requirements": {
+				"Strength": 90
+			},
+			"class": "none",
+			"lp": 0,
+			"tier": 90,
+			"speed": 0,
+			"damage": 0,
+			"armour": 0,
+			"slot": "neck",
+			"strength": 52,
+			"magic": 0,
+			"prayer": 0,
+			"accuracy": 0
+		},
+		"Am-zi": {
+			"ranged": 0,
+			"requirements": {
+				"Attack": 90
+			},
+			"class": "none",
+			"lp": 0,
+			"tier": 90,
+			"speed": 0,
+			"damage": 0,
+			"armour": 0,
+			"slot": "neck",
+			"strength": 52,
+			"magic": 0,
+			"prayer": 0,
+			"accuracy": 0
 		},
 		"Amulet of accuracy": {
 			"ranged": 15.8,
@@ -341589,6 +344003,26 @@
 			"prayer": 0,
 			"accuracy": 0
 		},
+		"Gloomfire bow": {
+			"ranged": 0,
+			"strength": 0,
+			"prayer": 0,
+			"style": "arrows",
+			"ability_damage": 1296,
+			"magic": 0,
+			"slot": "2h weapon",
+			"requirements": {
+				"Ranged": 90
+			},
+			"armour": 0,
+			"speed": 5,
+			"tier": 90,
+			"lp": 0,
+			"attack_range": 9,
+			"class": "ranged",
+			"accuracy": 2458,
+			"auto_damage": 1147.5
+		},
 		"Gloves of subjugation": {
 			"ranged": 0,
 			"requirements": {
@@ -347535,6 +349969,27 @@
 			"prayer": 0,
 			"accuracy": 0
 		},
+		"Legatus's Emberstaff": {
+			"formatted_name": "Legatus's Emberstaff",
+			"ranged": 0,
+			"strength": 0,
+			"prayer": 0,
+			"style": "spell-casting",
+			"ability_damage": 1296,
+			"magic": 0,
+			"slot": "2h weapon",
+			"requirements": {
+				"Magic": 90
+			},
+			"armour": 0,
+			"damage": 0,
+			"speed": 5,
+			"tier": 90,
+			"lp": 0,
+			"attack_range": 8,
+			"class": "magic",
+			"accuracy": 2458
+		},
 		"Lesser runic staff": {
 			"ranged": 0,
 			"slot": "2h weapon",
@@ -349913,6 +352368,27 @@
 			"slot": "off-hand",
 			"strength": 0,
 			"magic": 0,
+			"prayer": 0,
+			"accuracy": 0
+		},
+		"Misalionar's death mask": {
+			"formatted_name": "Misalionar's death mask",
+			"ranged": 0,
+			"requirements": {
+				"Defence": 90,
+				"Necromancy": 95
+			},
+			"class": "necromancy",
+			"lp": 0,
+			"tier": 95,
+			"speed": 0,
+			"damage": 0,
+			"type": "Power armour",
+			"armour": 491.6,
+			"slot": "head",
+			"strength": 0,
+			"magic": 0,
+			"necromancy": 25,
 			"prayer": 0,
 			"accuracy": 0
 		},
@@ -353767,6 +356243,23 @@
 			"attack_range": 8,
 			"class": "magic",
 			"accuracy": 202
+		},
+		"Nodon spike harness": {
+			"ranged": 0,
+			"requirements": {
+				"Attack": 90
+			},
+			"class": "melee",
+			"lp": 0,
+			"tier": 0,
+			"speed": 0,
+			"damage": 0,
+			"armour": 0,
+			"slot": "ammo",
+			"strength": 24.1,
+			"magic": 0,
+			"prayer": 0,
+			"accuracy": 0
 		},
 		"Noose wand": {
 			"ranged": 0,
@@ -377646,6 +380139,27 @@
 			"accuracy": 1694,
 			"auto_damage": 1676.3
 		},
+		"Varanus's Mercy": {
+			"formatted_name": "Varanus's Mercy",
+			"ranged": 0,
+			"slot": "main hand weapon",
+			"prayer": 0,
+			"style": "stab",
+			"ability_damage": 864,
+			"magic": 0,
+			"strength": 0,
+			"armour": 0,
+			"requirements": {
+				"Attack": 90
+			},
+			"speed": 3,
+			"tier": 90,
+			"lp": 0,
+			"attack_range": 1,
+			"class": "melee",
+			"accuracy": 2458,
+			"auto_damage": 864
+		},
 		"Varrock armour 1": {
 			"ranged": 0,
 			"requirements": {},
@@ -378220,6 +380734,27 @@
 			"attack_range": 8,
 			"class": "magic",
 			"accuracy": 1924
+		},
+		"Visage of the First Necromancer": {
+			"formatted_name": "visage of the First Necromancer",
+			"ranged": 0,
+			"requirements": {
+				"Defence": 95,
+				"Necromancy": 95
+			},
+			"class": "necromancy",
+			"lp": 0,
+			"tier": 95,
+			"speed": 0,
+			"damage": 0,
+			"type": "Power armour",
+			"armour": 491.6,
+			"slot": "head",
+			"strength": 0,
+			"magic": 0,
+			"necromancy": 25,
+			"prayer": 0,
+			"accuracy": 0
 		},
 		"Void knight deflector": {
 			"ranged": 0,
