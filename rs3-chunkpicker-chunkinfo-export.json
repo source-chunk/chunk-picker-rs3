@@ -83,28 +83,48 @@
 				"Priority": 7,
 				"NoPet": true
 			},
-			"Pickpocket a ~|gnome|~ for triple loot": {
+			"Pickpocket a ~|Crux Eqal Knight|~ for triple loot": {
 				"Category": ["Multiple Pickpockets"],
-				"Level": 85,
-				"Monsters": ["Gnome[+]"],
+				"Level": 93,
+				"Monsters": ["Crux Eqal Knight"],
 				"Skills": {
-					"Thieving": 95
+					"Thieving": 103
 				},
-				"Output": "Gnome",
 				"Primary": false,
 				"Priority": 8,
 				"NoPet": true
 			},
-			"Pickpocket a ~|elf|~ for double loot": {
+			"Pickpocket a ~|gnome|~ for quadruple loot": {
 				"Category": ["Multiple Pickpockets"],
-				"Level": 85,
+				"Level": 95,
+				"Monsters": ["Gnome[+]"],
+				"Skills": {
+					"Thieving": 105
+				},
+				"Primary": false,
+				"Priority": 8,
+				"NoPet": true
+			},
+			"Pickpocket a ~|elf|~ for triple loot": {
+				"Category": ["Multiple Pickpockets"],
+				"Level": 95,
 				"NPCs": ["Elf"],
 				"Skills": {
-					"Thieving": 95
+					"Thieving": 105
 				},
-				"Output": "Elf",
 				"Primary": false,
 				"Priority": 9,
+				"NoPet": true
+			},
+			"Rummage a ~|dead legionary|~ for double loot": {
+				"Category": ["Multiple Pickpockets"],
+				"Level": 95,
+				"Chunks": ["Vault of Hereditas"],
+				"Skills": {
+					"Thieving": 105
+				},
+				"Primary": false,
+				"Priority": 10,
 				"NoPet": true
 			},
 			"Pickpocket a ~|trainee archaeologist|~ for quadruple loot": {
@@ -541,24 +561,24 @@
 				"Priority": 6,
 				"NoPet": true
 			},
-			"Pickpocket a ~|paladin|~ for triple loot": {
+			"Pickpocket a ~|paladin|~ for quadruple loot": {
 				"Category": ["Multiple Pickpockets"],
-				"Level": 80,
+				"Level": 90,
 				"Monsters": ["Paladin"],
 				"Skills": {
-					"Thieving": 90
+					"Thieving": 100
 				},
 				"Output": "Paladin",
 				"Primary": false,
 				"Priority": 7,
 				"NoPet": true
 			},
-			"Pickpocket a ~|hero|~ for double loot": {
+			"Pickpocket a ~|hero|~ for triple loot": {
 				"Category": ["Multiple Pickpockets"],
-				"Level": 80,
+				"Level": 90,
 				"Monsters": ["Hero"],
 				"Skills": {
-					"Thieving": 90
+					"Thieving": 100
 				},
 				"Output": "Hero",
 				"Primary": false,
@@ -73005,66 +73025,66 @@
 				"Primary": true,
 				"Priority": 2
 			},
-			"Pickpocket an ~|archaeologist trainee#Archaeology Campus|~": {
+			"Pickpocket a ~|trainee archaeologist#Archaeology Campus|~": {
 				"Level": 50,
-				"NPCs": ["Archaeologist trainee#Archaeology Campus"],
-				"Output": "Archaeologist trainee#Archaeology Campus",
+				"NPCs": ["Trainee archaeologist#Archaeology Campus"],
+				"Output": "Trainee archaeologist#Archaeology Campus",
 				"Primary": true,
 				"Priority": 100
 			},
-			"Pickpocket an ~|archaeologist trainee#Kharid-et|~": {
+			"Pickpocket a ~|trainee archaeologist#Kharid-et|~": {
 				"Level": 50,
-				"NPCs": ["Archaeologist trainee#Kharid-et"],
-				"Output": "Archaeologist trainee#Kharid-et",
+				"NPCs": ["Trainee archaeologist#Kharid-et"],
+				"Output": "Trainee archaeologist#Kharid-et",
 				"Primary": true,
 				"Priority": 101
 			},
-			"Pickpocket an ~|archaeologist trainee#Infernal Source|~": {
+			"Pickpocket a ~|trainee archaeologist#Infernal Source|~": {
 				"Level": 50,
-				"NPCs": ["Archaeologist trainee#Infernal Source"],
-				"Output": "Archaeologist trainee#Infernal Source",
+				"NPCs": ["Trainee archaeologist#Infernal Source"],
+				"Output": "Trainee archaeologist#Infernal Source",
 				"Primary": true,
 				"Priority": 102
 			},
-			"Pickpocket an ~|archaeologist trainee#Everlight|~": {
+			"Pickpocket a ~|trainee archaeologist#Everlight|~": {
 				"Level": 50,
-				"NPCs": ["Archaeologist trainee#Everlight"],
-				"Output": "Archaeologist trainee#Everlight",
+				"NPCs": ["Trainee archaeologist#Everlight"],
+				"Output": "Trainee archaeologist#Everlight",
 				"Primary": true,
 				"Priority": 103
 			},
-			"Pickpocket an ~|archaeologist trainee#Senntisten|~": {
+			"Pickpocket a ~|trainee archaeologist#Senntisten|~": {
 				"Level": 50,
-				"NPCs": ["Archaeologist trainee#Senntisten"],
-				"Output": "Archaeologist trainee#Senntisten",
+				"NPCs": ["Trainee archaeologist#Senntisten"],
+				"Output": "Trainee archaeologist#Senntisten",
 				"Primary": true,
 				"Priority": 104
 			},
-			"Pickpocket an ~|archaeologist trainee#Stormguard Citadel|~": {
+			"Pickpocket a ~|trainee archaeologist#Stormguard Citadel|~": {
 				"Level": 50,
-				"NPCs": ["Archaeologist trainee#Stormguard Citadel"],
-				"Output": "Archaeologist trainee#Stormguard Citadel",
+				"NPCs": ["Trainee archaeologist#Stormguard Citadel"],
+				"Output": "Trainee archaeologist#Stormguard Citadel",
 				"Primary": true,
 				"Priority": 105
 			},
-			"Pickpocket an ~|archaeologist trainee#Daemonheim|~": {
+			"Pickpocket a ~|trainee archaeologist#Daemonheim|~": {
 				"Level": 50,
-				"NPCs": ["Archaeologist trainee#Daemonheim"],
-				"Output": "Archaeologist trainee#Daemonheim",
+				"NPCs": ["Trainee archaeologist#Daemonheim"],
+				"Output": "Trainee archaeologist#Daemonheim",
 				"Primary": true,
 				"Priority": 106
 			},
-			"Pickpocket an ~|archaeologist trainee#Warforge|~": {
+			"Pickpocket a ~|trainee archaeologist#Warforge|~": {
 				"Level": 50,
-				"NPCs": ["Archaeologist trainee#Warforge"],
-				"Output": "Archaeologist trainee#Warforge",
+				"NPCs": ["Trainee archaeologist#Warforge"],
+				"Output": "Trainee archaeologist#Warforge",
 				"Primary": true,
 				"Priority": 107
 			},
-			"Pickpocket an ~|archaeologist trainee#Orthen|~": {
+			"Pickpocket a ~|trainee archaeologist#Orthen|~": {
 				"Level": 50,
-				"NPCs": ["Archaeologist trainee#Orthen"],
-				"Output": "Archaeologist trainee#Orthen",
+				"NPCs": ["Trainee archaeologist#Orthen"],
+				"Output": "Trainee archaeologist#Orthen",
 				"Primary": true,
 				"Priority": 108
 			},
@@ -73702,28 +73722,6 @@
 				"Primary": false,
 				"Priority": 1001
 			},
-			"Pickpocket a ~|paladin|~ for triple loot": {
-				"Category": ["Multiple Pickpockets"],
-				"Level": 90,
-				"Monsters": ["Paladin"],
-				"Skills": {
-					"Agility": 80
-				},
-				"Output": "Paladin",
-				"Primary": false,
-				"Priority": 1002
-			},
-			"Pickpocket a ~|hero|~ for double loot": {
-				"Category": ["Multiple Pickpockets"],
-				"Level": 90,
-				"Monsters": ["Hero"],
-				"Skills": {
-					"Agility": 80
-				},
-				"Output": "Hero",
-				"Primary": false,
-				"Priority": 1003
-			},
 			"Make a ~|Milestone cape (90)|~": {
 				"Category": ["Skillcape"],
 				"Items": ["Balls of wool"],
@@ -73896,28 +73894,6 @@
 				"Primary": false,
 				"Priority": 1002
 			},
-			"Pickpocket a ~|gnome|~ for triple loot": {
-				"Category": ["Multiple Pickpockets"],
-				"Level": 95,
-				"Monsters": ["Gnome[+]"],
-				"Skills": {
-					"Agility": 85
-				},
-				"Output": "Gnome",
-				"Primary": false,
-				"Priority": 1003
-			},
-			"Pickpocket an ~|elf|~ for double loot": {
-				"Category": ["Multiple Pickpockets"],
-				"Level": 95,
-				"NPCs": ["Elf"],
-				"Skills": {
-					"Agility": 85
-				},
-				"Output": "Elf",
-				"Primary": false,
-				"Priority": 1004
-			},
 			"Pickpocket a ~|Hefin worker|~": {
 				"Level": 96,
 				"NPCs": ["Hefin worker"],
@@ -74026,6 +74002,28 @@
 				"Primary": true,
 				"Priority": 1
 			},
+			"Pickpocket a ~|paladin|~ for quadruple loot": {
+				"Category": ["Multiple Pickpockets"],
+				"Level": 100,
+				"Monsters": ["Paladin"],
+				"Skills": {
+					"Agility": 90
+				},
+				"Output": "Paladin",
+				"Primary": false,
+				"Priority": 1000
+			},
+			"Pickpocket a ~|hero|~ for triple loot": {
+				"Category": ["Multiple Pickpockets"],
+				"Level": 100,
+				"Monsters": ["Hero"],
+				"Skills": {
+					"Agility": 90
+				},
+				"Output": "Hero",
+				"Primary": false,
+				"Priority": 1001
+			},
 			"Loot a ~|chest (Living Rock Caverns)|~": {
 				"Level": 101,
 				"Objects": ["Chest (Living Rock Caverns)"],
@@ -74053,12 +74051,55 @@
 				"Primary": true,
 				"Priority": 1
 			},
+			"Pickpocket a ~|Crux Eqal Knight|~ for triple loot": {
+				"Category": ["Multiple Pickpockets"],
+				"Level": 103,
+				"Monsters": ["Crux Eqal Knight"],
+				"Skills": {
+					"Agility": 93
+				},
+				"Output": "Crux Eqal Knight",
+				"Primary": false,
+				"Priority": 1000
+			},
 			"Pickpocket a ~|Menaphos market guard|~": {
 				"Level": 104,
 				"NPCs": ["Menaphos market guard"],
 				"Output": "Menaphos market guard",
 				"Primary": true,
 				"Priority": 1
+			},
+			"Rummage a ~|dead legionary|~ for double loot": {
+				"Category": ["Multiple Pickpockets"],
+				"Level": 105,
+				"Chunks": ["Vault of Hereditas"],
+				"Skills": {
+					"Agility": 95
+				},
+				"Primary": false,
+				"Priority": 1000
+			},
+			"Pickpocket a ~|gnome|~ for quadruple loot": {
+				"Category": ["Multiple Pickpockets"],
+				"Level": 105,
+				"Monsters": ["Gnome[+]"],
+				"Skills": {
+					"Agility": 95
+				},
+				"Output": "Gnome",
+				"Primary": false,
+				"Priority": 1001
+			},
+			"Pickpocket an ~|elf|~ for triple loot": {
+				"Category": ["Multiple Pickpockets"],
+				"Level": 105,
+				"NPCs": ["Elf"],
+				"Skills": {
+					"Agility": 95
+				},
+				"Output": "Elf",
+				"Primary": false,
+				"Priority": 1002
 			},
 			"Pickpocket a ~|Wizards' Tower master mage|~": {
 				"Level": 106,
@@ -310388,7 +310429,7 @@
 					"1": "Common"
 				}
 			},
-			"Archaeologist trainee#Archaeology Campus": {
+			"Trainee archaeologist#Archaeology Campus": {
 				"Coins": {
 					"150": "1321/2000"
 				},
@@ -310408,7 +310449,7 @@
 					"1": "2/2000"
 				}
 			},
-			"Archaeologist trainee#Kharid-et": {
+			"Trainee archaeologist#Kharid-et": {
 				"Coins": {
 					"150": "1321/2000"
 				},
@@ -310431,7 +310472,7 @@
 					"1": "2/2000"
 				}
 			},
-			"Archaeologist trainee#Infernal Source": {
+			"Trainee archaeologist#Infernal Source": {
 				"Coins": {
 					"150": "1321/2000"
 				},
@@ -310454,7 +310495,7 @@
 					"1": "2/2000"
 				}
 			},
-			"Archaeologist trainee#Everlight": {
+			"Trainee archaeologist#Everlight": {
 				"Coins": {
 					"150": "1321/2000"
 				},
@@ -310477,7 +310518,7 @@
 					"1": "2/2000"
 				}
 			},
-			"Archaeologist trainee#Senntisten": {
+			"Trainee archaeologist#Senntisten": {
 				"Coins": {
 					"150": "1321/2000"
 				},
@@ -310500,7 +310541,7 @@
 					"1": "2/2000"
 				}
 			},
-			"Archaeologist trainee#Stormguard Citadel": {
+			"Trainee archaeologist#Stormguard Citadel": {
 				"Coins": {
 					"150": "1321/2000"
 				},
@@ -310523,7 +310564,7 @@
 					"1": "2/2000"
 				}
 			},
-			"Archaeologist trainee#Daemonheim": {
+			"Trainee archaeologist#Daemonheim": {
 				"Coins": {
 					"150": "1321/2000"
 				},
@@ -310546,7 +310587,7 @@
 					"1": "2/2000"
 				}
 			},
-			"Archaeologist trainee#Warforge": {
+			"Trainee archaeologist#Warforge": {
 				"Coins": {
 					"150": "1321/2000"
 				},
@@ -310569,7 +310610,7 @@
 					"1": "2/2000"
 				}
 			},
-			"Archaeologist trainee#Orthen": {
+			"Trainee archaeologist#Orthen": {
 				"Coins": {
 					"150": "1321/2000"
 				},
