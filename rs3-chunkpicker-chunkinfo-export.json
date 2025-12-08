@@ -92275,7 +92275,7 @@
 					"~|Let Them Eat Pie|~ 1": "Quest"
 				}
 			},
-			"~|Let Them Eat Pie|~ 3a": {
+			"~|Let Them Eat Pie|~ 3": {
 				"BaseQuest": "Let Them Eat Pie",
 				"Description": "Stuff a raw potato down a kebbit hole",
 				"Chunks": ["11318-5"],
@@ -92284,37 +92284,36 @@
 					"~|Let Them Eat Pie|~ 2": "Quest"
 				}
 			},
-			"~|Let Them Eat Pie|~ 3b": {
+			"~|Let Them Eat Pie|~ 4": {
 				"BaseQuest": "Let Them Eat Pie",
 				"Description": "Bury a raw crayfish in the flax field",
 				"Chunks": ["11574"],
 				"Items": ["Raw crayfish"],
 				"Tasks": {
-					"~|Let Them Eat Pie|~ 2": "Quest"
-				}
-			},
-			"~|Let Them Eat Pie|~ 4": {
-				"BaseQuest": "Let Them Eat Pie",
-				"Description": "Give the items to Nails and cook the terrible pie",
-				"Chunks": ["11573"],
-				"Tasks": {
-					"~|Let Them Eat Pie|~ 3a": "Quest",
-					"~|Let Them Eat Pie|~ 3b": "Quest"
+					"~|Let Them Eat Pie|~ 3": "Quest"
 				}
 			},
 			"~|Let Them Eat Pie|~ 5": {
 				"BaseQuest": "Let Them Eat Pie",
-				"Description": "Steal the spices from Foppish Piere, then serve the pie to Rolo the Stout. Speak to Nails, then steal the seal, then speak to Nails again, then to Pierre, and finally to Niels",
+				"Description": "Give the items to Nails and cook the terrible pie",
 				"Chunks": ["11573"],
 				"Tasks": {
 					"~|Let Them Eat Pie|~ 4": "Quest"
+				}
+			},
+			"~|Let Them Eat Pie|~ 6": {
+				"BaseQuest": "Let Them Eat Pie",
+				"Description": "Steal the spices from Foppish Piere, then serve the pie to Rolo the Stout. Speak to Nails, then steal the seal, then speak to Nails again, then to Pierre, and finally to Niels",
+				"Chunks": ["11573"],
+				"Tasks": {
+					"~|Let Them Eat Pie|~ 5": "Quest"
 				}
 			},
 			"~|Let Them Eat Pie|~ Complete the quest": {
 				"BaseQuest": "Let Them Eat Pie",
 				"Chunks": ["11573"],
 				"Tasks": {
-					"~|Let Them Eat Pie|~ 5": "Quest"
+					"~|Let Them Eat Pie|~ 6": "Quest"
 				},
 				"QuestPoints": 1,
 				"XpReward": {
@@ -133950,7 +133949,7 @@
 				"Label": "Boss Collection Log",
 				"Items": ["Dragonbone upgrade kit"]
 			},
-			"(Queen Black Dragon) Obtain a ~|draconic visage|~ from the Queen Black Dragon": {
+			"(Queen Black Dragon) Obtain a ~|draconic visage|~": {
 				"Category": ["Collection Log", "Boss Collection Log"],
 				"Label": "Boss Collection Log",
 				"Items": ["Draconic visage"]
@@ -145511,7 +145510,7 @@
 				}
 			},
 			"Max out ~|reputation (Mazcab)|~": {
-				"Category": ["Permanent Unlockables", "Timegated"],
+				"Category": ["Permanent Unlockables"],
 				"Label": "Permanent Unlockables",
 				"Chunks": ["Mazcab"],
 				"Not F2P": true
@@ -151851,7 +151850,9 @@
 			},
 			"Keldagrim": {
 				"UnlocksArea": true,
-				"Chunks": ["Keldagrim entrance tunnel"]
+				"Tasks": {
+					"Access Keldagrim[+]": "Nonskill"
+				}
 			},
 			"Kalphite Nursery": {
 				"UnlocksArea": true,
@@ -158028,6 +158029,19 @@
 			},
 			"Enter the Kharid-et Chapel": {
 				"Items": ["Pontifex signet ring"]
+			},
+			"Obtain jungle sticks": {
+				"Items": ["Jungle sticks"]
+			},
+			"Access Keldagrim via quest": {
+				"Tasks": {
+					"~|The Giant Dwarf|~ 1": "Quest"
+				},
+				"Not F2P": true
+			},
+			"Access Keldagrim via entrance": {
+				"Chunks": ["Keldagrim entrance tunnel"],
+				"Not F2P": true
 			}
 		}
 	},
@@ -179972,8 +179986,9 @@
 						"Solomon's General Store": true,
 						"Treasure Trails Reward Shop": true
 					},
-					"connect": {
-						"10307": true
+					"Connect": {
+						"10307": true,
+						"11422": true
 					},
 					"Quest": {
 						"Evil Dave's Big Day Out": "step",
@@ -212486,6 +212501,7 @@
 		},
 		"tasksPlus": {
 			"A Taste of the Exotic[+]": ["Hard Ardougne tasks ~|A Taste of the Exotic|~ (Coconut)*", "Hard Ardougne tasks ~|A Taste of the Exotic|~ (Papaya)*"],
+			"Access Keldagrim[+]": ["Access Keldagrim via quest", "Access Keldagrim via entrance"],
 			"AirAccess[+]": ["Access the air rune temple with a talisman*", "Access the air rune temple through the abyss*"],
 			"AnyCollection[+]": [
 				"Complete the archaeology collection 'Anarchic Abstraction'", 
@@ -270414,12 +270430,12 @@
 			},
 			"Teak": {
 				"11312": [{
-					"~|Jungle Potion|~ Complete the quest": "Quest"
+					"Obtain jungle sticks": "Nonskill"
 				}]
 			},
 			"Mahogany": {
 				"11312": [{
-					"~|Jungle Potion|~ Complete the quest": "Quest"
+					"Obtain jungle sticks": "Nonskill"
 				}]
 			},
 			"Zanaris Market spirit stall": {
@@ -382720,7 +382736,7 @@
 			"prayer": 0,
 			"accuracy": 0
 		},
-		"Wizard hat (blue)": {
+		"Wizard hat": {
 			"ranged": 0,
 			"requirements": {},
 			"class": "magic",
