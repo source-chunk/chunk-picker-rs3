@@ -32074,6 +32074,13 @@
 				"Priority": 1,
 				"Not F2P": true
 			},
+			"Access the ~|Flesh-hatcher Mhekarnahz|~ dungeon": {
+				"Objects": ["Mysterious entrance (Flesh-hatcher Mhekarnahz)"],
+				"Level": 40,
+				"Primary": false,
+				"Priority": 2,
+				"Not F2P": true
+			},
 			"Wield a ~|maple shieldbow (sighted)|~": {
 				"Items": ["Maple shieldbow (sighted)"],
 				"Level": 45,
@@ -40324,6 +40331,14 @@
 				"Primary": true,
 				"Output": "Raw catfish",
 				"Priority": 1
+			},
+			"Use a ~|dragon harpoon|~": {
+				"Items": ["Dragon harpoon"],
+				"Objects": ["HarpoonFishingSpot[+]"],
+				"Level": 60,
+				"Primary": false,
+				"Priority": 2,
+				"Not F2P": true
 			},
 			"Catch a ~|raw monkfish|~": {
 				"Level": 62,
@@ -66809,7 +66824,7 @@
 				"Level": 65,
 				"Source": "drop",
 				"Skills": {
-					"hunter": 85
+					"Hunter": 85
 				},
 				"Output": "Asciatops",
 				"Primary": true,
@@ -117749,6 +117764,14 @@
 				"Not F2P": true,
 				"CombatScore": 2
 			},
+			"~|Combat Mastery achievements#Medium|~ Eye See You II": {
+				"Category": ["Combat Mastery achievements"],
+				"Description": "Defeat Flesh-hatcher Mhekarnahz 10 times.",
+				"Monsters": ["Flesh-hatcher Mhekarnahz"],
+				"BaseQuest": "Combat Mastery achievements",
+				"Not F2P": true,
+				"CombatScore": 2
+			},
 			"~|Combat Mastery achievements#Medium|~ Fast and Furious II": {
 				"Category": ["Combat Mastery achievements"],
 				"Description": "Defeat Avaryss and Nymora 10 times.",
@@ -128276,7 +128299,8 @@
 					"Telos, the Warden",
 					"Arch-Glacor",
 					"Kerapac, the bound",
-					"TzKal-Zuk"
+					"TzKal-Zuk",
+					"Flesh-hatcher Mhekarnahz"
 				],
 				"Not F2P": true
 			},
@@ -131045,7 +131069,8 @@
 			"(Daemonheim) Obtain a ~|hexhunter bow|~": {
 				"Category": ["Collection Log", "Slayer Collection Log"],
 				"Label": "Slayer Collection Log",
-				"Items": ["Hexhunter bow"]
+				"Items": ["Hexhunter bow"],
+				"Monsters": ["Soulgazer"]
 			},
 			"(Daemonheim) Obtain a ~|baby soulgazer|~": {
 				"Category": ["Collection Log", "Slayer Collection Log", "Pets"],
@@ -133005,6 +133030,21 @@
 				"Label": "Boss Pets",
 				"Chunks": ["The Arc", "13881"],
 				"Items": ["Inert black stone crystal"]
+			},
+			"(Flesh-hatcher Mhekarnahz) Obtain a ~|dragon harpoon|~": {
+				"Category": ["Collection Log", "Boss Collection Log"],
+				"Label": "Boss Collection Log",
+				"Items": ["Dragon harpoon"]
+			},
+			"(Flesh-hatcher Mhekarnahz) Obtain a ~|stalker's charm|~": {
+				"Category": ["Collection Log", "Boss Collection Log"],
+				"Label": "Boss Collection Log",
+				"Items": ["Stalker's charm"]
+			},
+			"(Flesh-hatcher Mhekarnahz) Obtain ~|Mhekarnahz's eye|~": {
+				"Category": ["Collection Log", "Boss Collection Log"],
+				"Label": "Boss Collection Log",
+				"Items": ["Mhekarnahz's eye"]
 			},
 			"(The Gate of Elidinis) Obtain a ~|runic attuner|~": {
 				"Category": ["Collection Log", "Boss Collection Log"],
@@ -137897,21 +137937,6 @@
 				"Label": "Untracked Combat Uniques",
 				"Items": ["Mask part 5"],
 				"Not F2P": true
-			},
-			"(Fremennik) Obtain a ~|Fremennik blade|~": {
-				"Category": ["Untracked Uniques", "Untracked Uniques Combat"],
-				"Label": "Untracked Combat Uniques",
-				"Items": ["Fremennik blade"]
-			},
-			"(Fremennik) Obtain a ~|Fremennik shield|~": {
-				"Category": ["Untracked Uniques", "Untracked Uniques Combat"],
-				"Label": "Untracked Combat Uniques",
-				"Items": ["Fremennik shield"]
-			},
-			"(Fremennik) Obtain a ~|Fremennik helm|~": {
-				"Category": ["Untracked Uniques", "Untracked Uniques Combat"],
-				"Label": "Untracked Combat Uniques",
-				"Items": ["Fremennik helm"]
 			},
 			"(Fremennik) Obtain ~|rock-shell gloves|~": {
 				"Category": ["Untracked Uniques", "Untracked Uniques Combat"],
@@ -147260,7 +147285,8 @@
 					"Kezalam, the Wanderer",
 					"Nakatra, Devourer Eternal",
 					"Beastmaster Durzag",
-					"Yakamaru"
+					"Yakamaru",
+					"Flesh-hatcher Mhekarnahz"
 				]
 			},
 			"Obtain the ~|Insane Final Boss|~ title": {
@@ -147338,7 +147364,8 @@
 					"Nakatra, Devourer Eternal",
 					"Nakatra, Devourer Eternal (Hard Mode)",
 					"Beastmaster Durzag",
-					"Yakamaru"
+					"Yakamaru",
+					"Flesh-hatcher Mhekarnahz"
 				],
 				"Items": [
 					"King black dragon scale",
@@ -147438,7 +147465,8 @@
 					"Telos, the Warden",
 					"Arch-Glacor",
 					"Kerapac, the bound",
-					"TzKal-Zuk"
+					"TzKal-Zuk",
+					"Flesh-hatcher Mhekarnahz"
 				]
 			},
 			"Obtain the ~|Salty|~ title": {
@@ -148910,6 +148938,14 @@
 				"Set": "BIS Tacklebox",
 				"Not F2P": true
 			},
+			"Obtain a ~|dragon harpoon|~": {
+				"Category": ["BIS Skilling"],
+				"Label": "BIS Skilling",
+				"Items": ["Dragon harpoon"],
+				"Priority": 1,
+				"Set": "BIS Harpoon",
+				"Not F2P": true
+			},
 			"Obtain ~|Tavia's fishing rod|~": {
 				"Category": ["BIS Skilling", "Hero Items"],
 				"Label": "BIS Skilling",
@@ -148926,10 +148962,10 @@
 				"Set": "BIS Fishing Rod",
 				"Not F2P": true
 			},
-			"Obtain an ~|enhanced fishing rod-o-matic|~": {
+			"Obtain a ~|crystal fishing rod|~": {
 				"Category": ["BIS Skilling"],
 				"Label": "BIS Skilling",
-				"Items": ["Enhanced fishing rod-o-matic"],
+				"Items": ["Crystal fishing rod"],
 				"Priority": 3,
 				"Set": "BIS Fishing Rod",
 				"Not F2P": true
@@ -183823,7 +183859,11 @@
 			"Sections": {
 				"1": {
 					"Monster": {
-						"Soulgazer": 2
+						"Soulgazer": 2,
+						"Flesh-hatcher Mhekarnahz": 1
+					},
+					"Object": {
+						"Mysterious entrance (Flesh-hatcher Mhekarnahz)": 1
 					},
 					"NPC": {
 						"Gull": 1,
@@ -207149,6 +207189,7 @@
 				"Dragon scimitar",
 				"Dragon spear",
 				"Dragon warhammer",
+				"Dragon harpoon",
 				"Off-hand dragon battleaxe",
 				"Off-hand dragon claw",
 				"Off-hand dragon dagger",
@@ -211904,6 +211945,7 @@
 			"Fish[+]": ["Fishing spot (minnow)", "Fishing spot (crayfish)", "Fishing spot (small fishing net, bait)"],
 			"Forge[+]": ["Forge", "Fremennik Forge"],
 			"Furnace[+]": ["Furnace", "Lava Furnace", "Fremennik Furnace"],
+			"HarpoonFishingSpot[+]": ["Fishing spot (cage, harpoon)", "Fishing spot (big fishing net, harpoon)"],
 			"Haystack[+]": ["Haystack", "Hay bale"],
 			"HeavyMetalMithril[+]": ["Mithril rock", "Coal rock", "Concentrated coal deposit"],
 			"HeavyMetalAdamant[+]": ["Adamantite rock", "Luminite rock"],
@@ -211943,6 +211985,7 @@
 			"Fish[+]": "Any level 1 fishing spot",
 			"Forge[+]": "Any forge that can heat smithing projects",
 			"Furnace[+]": "Any furnace that can smelt bars",
+			"HarpoonFishingSpot[+]": "Any fishing spot that requires a harpoon",
 			"Haystack[+]": "Any object that can fill an empty sack with hay",
 			"HeavyMetalMithril[+]": "Any rock that may give the mithril entry for Boric's Book of Metal",
 			"HeavyMetalAdamant[+]": "Any rock that may give the adamant entry for Boric's Book of Metal",
@@ -211964,7 +212007,7 @@
 			"WaterSource[+]": "Any object that can fill an item with water"
 		},
 		"monstersPlus": {
-			"AnyBoss[+]": ["Amascut, the Devourer","The Ambassador", "Araxxor", "Arch-Glacor", "Barrows", "Barrows: Rise of the Six", "Black stone dragon", "Chaos Elemental", "Commander Zilyana", "Croesus", "Dagannoth Kings", "The Gate of Elidinis", "General Graardor", "Giant mole", "Gregorovic", "Har-Aken", "Helwyr", "Hermod, the Spirit of War", "Kalphite Queen", "Kalphite King", "Kerapac, the bound", "King Black Dragon", "Kree'arra", "K'ril Tsutsaroth", "Legiones", "The Magister", "Nex", "Nex, Angel of Death", "Queen Black Dragon", "Raksha, the Shadow Colossus", "Rasial, the First Necromancer", "Rex Matriarchs", "Seiryu the Azure Serpent", "Solak, Guardian of the Grove", "Telos, the Warden", "Twin Furies", "TzKal-Zuk", "TzTok-Jad", "Vindicta", "Gorvek", "Vorago", "Zamorak, Lord of Chaos", "Osseous", "Vermyx, Brood Mother", "Kezalam, the Wanderer", "Nakatra, Devourer Eternal"],
+			"AnyBoss[+]": ["Amascut, the Devourer", "The Ambassador", "Araxxor", "Arch-Glacor", "Barrows", "Barrows: Rise of the Six", "Black stone dragon", "Chaos Elemental", "Commander Zilyana", "Croesus", "Flesh-hatcher Mhekarnahz", "Dagannoth Kings", "The Gate of Elidinis", "General Graardor", "Giant mole", "Gregorovic", "Har-Aken", "Helwyr", "Hermod, the Spirit of War", "Kalphite Queen", "Kalphite King", "Kerapac, the bound", "King Black Dragon", "Kree'arra", "K'ril Tsutsaroth", "Legiones", "The Magister", "Nex", "Nex, Angel of Death", "Queen Black Dragon", "Raksha, the Shadow Colossus", "Rasial, the First Necromancer", "Rex Matriarchs", "Seiryu the Azure Serpent", "Solak, Guardian of the Grove", "Telos, the Warden", "Twin Furies", "TzKal-Zuk", "TzTok-Jad", "Vindicta", "Gorvek", "Vorago", "Zamorak, Lord of Chaos", "Osseous", "Vermyx, Brood Mother", "Kezalam, the Wanderer", "Nakatra, Devourer Eternal"],
 			"AnyDemon[+]": ["Abyssal beast", "Abyssal demon", "Abyssal savage", "Balfrug Kreeyath", "Black demon", "Gargoyle", "Greater demon", "Greater demon ash lord", "Greater demon berserker", "Greater demon brute", "Greater demon pyromancer", "Greater demon sage", "Greater demon savage", "Imp", "Imp scavenger", "K'ril Tsutsaroth", "Kal'gerion demon", "Lesser demon", "Ripper Demon", "Tormented demon", "Tstanon Karlak", "Zakl'n Gritch"],
 			"AnyDragon[+]": ["Adamant dragon", "Astellarn", "Baby blue dragon", "Baby red dragon", "Black dragon", "Black stone dragon", "Blue dragon", "Bronze dragon", "Brutal green dragon", "Celestial dragon", "Dragonstone dragon", "Frost dragon", "Green dragon", "Hydrix dragon", "Iron dragon", "King Black Dragon", "Mithril dragon", "Nodon artificer", "Nodon guard", "Nodon hunter", "Onyx dragon", "Queen Black Dragon", "Rune dragon", "Steel dragon", "Verak Lith"],
 			"AnyUndead[+]": ["Aberrant spectre", "Ahrim the Blighted", "Akrisae the Doomed", "Animated spade", "Ankou", "Armoured phantom", "Armoured zombie", "Banshee", "Bloated monstrosity", "Bound skeleton", "Corpse archer", "Corpse carrier", "Corpse mage", "Corpse spider", "Crawling corpse torso", "Crawling hand", "Dharok the Wretched", "Dragith Nurn", "Edimmu", "Fetid zombie", "Ghast", "Ghost", "Ghostly troll bruiser", "Ghostly troll thrower", "Guthan the Infested", "Karil the Tainted", "Linza the Disgraced", "Magic axe", "Monkey Zombie", "Mummy (Jaldraocht Pyramid)", "Mummy (Ullek)", "Phantom sorcerer", "Phantom wizard", "Possessed pickaxe", "Revenant cyclops", "Revenant dark beast", "Revenant demon", "Revenant dragon", "Revenant goblin", "Revenant hellhound", "Revenant hobgoblin", "Revenant icefiend", "Revenant imp", "Revenant knight", "Revenant ork", "Revenant pyrefiend", "Revenant vampyre", "Revenant werewolf", "Risen ghost", "Shade", "Shadow warrior", "Skeletal Wyvern", "Skeletal hand", "Skeleton#Armed", "Skeleton#Unarmed", "Skeleton Mage", "Skeleton knight", "Skoblin", "Skogre", "Small scarab", "Spiritual mage", "Spiritual ranger", "Spiritual warrior", "Taraket the Necromancer", "Torag the Corrupted", "Tormented wraith", "Undead chicken", "Undead cow", "Undead pekin", "Undead troll", "Verac the Defiled", "Wight", "Wight ranger", "Zogre", "Zombie#Level 12", "Zombie#Level 22", "Zombie#Level 29", "Zombie hand", "Zombie knight", "Zombie pirate", "Zombie swab", "Zombie warrior"],
@@ -213229,7 +213272,8 @@
 				"Edimmu": true,
 				"Kal'gerion demon": true,
 				"Protomastyx": true,
-				"Soulgazer": true
+				"Soulgazer": true,
+				"Flesh-hatcher Mhekarnahz": true
 			},
 			"Cres' creations": {
 				"Automaton Guardian": true,
@@ -213945,7 +213989,8 @@
 			"Stalker creatures": {
 				"Seeker": true,
 				"Soulgazer": true,
-				"Veil-ripper Ozharakha": true
+				"Veil-ripper Ozharakha": true,
+				"Flesh-hatcher Mhekarnahz": true
 			},
 			"Steel dragons": {
 				"Steel dragon": true
@@ -214218,6 +214263,7 @@
 			"Chaos Elemental": true,
 			"Commander Zilyana": true,
 			"Croesus": true,
+			"Flesh-hatcher Mhekarnahz": true,
 			"Dagannoth Kings": true,
 			"The Gate of Elidinis": true,
 			"General Graardor": true,
@@ -231240,6 +231286,110 @@
 			},
 			"HerbDropTable+": {
 				"1": "35/100"
+			}
+		},
+		"Flesh-hatcher Mhekarnahz": {
+			"Dragon harpoon": {
+				"1": "1/100"
+			},
+			"Stalker's charm": {
+				"1": "1/100"
+			},
+			"Prayer potion (3)": {
+				"1-2": "Common"
+			},
+			"Swordfish": {
+				"3-12": "Common"
+			},
+			"Dragon longsword": {
+				"1": "Uncommon"
+			},
+			"Off-hand dragon longsword": {
+				"1": "Uncommon"
+			},
+			"Elder shortbow": {
+				"1": "Uncommon"
+			},
+			"Gold stone spirit": {
+				"12-25": "Common"
+			},
+			"Orichalcite stone spirit": {
+				"8-24": "Common"
+			},
+			"Necrite stone spirit": {
+				"6-10": "Common"
+			},
+			"Acadia wood spirit": {
+				"10-11": "Common"
+			},
+			"Mahogany wood spirit": {
+				"8-20": "Common"
+			},
+			"Spirit weed seed": {
+				"": "Common"
+			},
+			"Irit seed": {
+				"": "Common"
+			},
+			"Avantoe seed": {
+				"": "Common"
+			},
+			"Kwuarm seed": {
+				"": "Common"
+			},
+			"Cadantine seed": {
+				"": "Common"
+			},
+			"Small spiky adamant salvage": {
+				"2-4": "Common"
+			},
+			"Large bladed adamant salvage": {
+				"1": "Common"
+			},
+			"Medium blunt rune salvage": {
+				"1": "Common"
+			},
+			"Battlestaff": {
+				"2-4": "Common"
+			},
+			"Onyx bolt tips": {
+				"2": "Common"
+			},
+			"Fire talisman": {
+				"4-9": "Common"
+			},
+			"Dragon bolt tips": {
+				"15-50": "Common"
+			},
+			"Adamant arrowheads": {
+				"20-70": "Common"
+			},
+			"Elemental anima stones": {
+				"8-20": "Common"
+			},
+			"Bowstring": {
+				"7-23": "Common"
+			},
+			"Hexhunter bow": {
+				"1": "1/5000"
+			},
+			"Seeker's charm": {
+				"1": "Rare"
+			},
+			"Mhekarnahz's eye": {
+				"1": "Very rare"
+			},
+			"Gold charm": {
+				"8": "Common"
+			},
+			"Green charm": {
+				"6": "Common"
+			},
+			"Crimson charm": {
+				"6": "Common"
+			},
+			"Blue charm": {
+				"2": "Common"
 			}
 		},
 		"Flesh-Spoiler Haasghenahk": {
@@ -268003,6 +268153,15 @@
 			"Restore potion (2)^Barrows": [{
 				"Tier 2 luck or higher*": "Nonskill"
 			}],
+			"Fremennik blade": [{
+				"~|The Fremennik Trials|~ Complete the quest": "Quest"
+			}],
+			"Fremennik helm": [{
+				"~|The Fremennik Trials|~ Complete the quest": "Quest"
+			}],
+			"Fremennik shield": [{
+				"~|The Fremennik Trials|~ Complete the quest": "Quest"
+			}],
 			"Rock-shell boots": [{
 				"~|The Fremennik Trials|~ Complete the quest": "Quest"
 			}],
@@ -269493,6 +269652,11 @@
 			"Experiment No.2": {
 				"Witch's House Underground": [{
 					"~|Grim Tales|~ 2b1": "Quest"
+				}]
+			},
+			"Flesh-hatcher Mhekarnahz": {
+				"13370-1": [{
+					"Access the ~|Flesh-hatcher Mhekarnahz|~ dungeon": "Dungeoneering"
 				}]
 			},
 			"General Graardor (Hard Mode)": {
@@ -309920,16 +310084,19 @@
 					"20-40": "Common"
 				},
 				"Grimy arbuck": {
-					"5-10": "Common"
+					"5-10": "Uncommon"
 				},
 				"Grimy kwuarm": {
 					"5-10": "Common"
 				},
 				"Arbuck seed": {
-					"1-5": "Common"
+					"1-5": "Uncommon"
 				},
 				"Kwuarm seed": {
 					"1-5": "Common"
+				},
+				"Cannonball": {
+					"20-30": "Common"
 				},
 				"Luminous energy": {
 					"100-200": "Common"
@@ -323188,7 +323355,8 @@
 			"accuracy": 0
 		},
 		"Amulet of accuracy": {
-			"ranged": 15.8,
+			"ranged": 8.7,
+			"ranged_accuracy": 23,
 			"requirements": {},
 			"class": "none",
 			"lp": 0,
@@ -338345,6 +338513,27 @@
 			"class": "melee",
 			"accuracy": 1132,
 			"auto_damage": 1341
+		},
+		"Dragon harpoon": {
+			"ranged": 0,
+			"slot": "main hand weapon",
+			"prayer": 0,
+			"style": "stab",
+			"ability_damage": 71.3,
+			"magic": 0,
+			"strength": 0,
+			"armour": 0,
+			"requirements": {
+				"Attack": 60,
+				"Fishing": 60
+			},
+			"speed": 5,
+			"tier": 60,
+			"lp": 0,
+			"attack_range": 1,
+			"class": "melee",
+			"accuracy": 150,
+			"auto_damage": 91
 		},
 		"Dragon hasta": {
 			"ranged": 0,
@@ -372501,6 +372690,22 @@
 			"prayer": 0,
 			"accuracy": 0,
 			"auto_damage": 768
+		},
+		"Stalker's charm": {
+			"ranged": 21,
+			"ranged_accuracy": 84,
+			"requirements": {},
+			"class": "none",
+			"lp": 0,
+			"tier": 0,
+			"speed": 0,
+			"damage": 0,
+			"armour": 0,
+			"slot": "neck",
+			"strength": 0,
+			"magic": 0,
+			"prayer": 0,
+			"accuracy": 0
 		},
 		"Stalker's ring": {
 			"ranged": 30.4,
