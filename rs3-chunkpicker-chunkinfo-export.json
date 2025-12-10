@@ -20022,10 +20022,10 @@
 				"Primary": true,
 				"Priority": 13
 			},
-			"Craft a ~|wizard hat (blue)|~": {
+			"Craft a ~|wizard hat|~": {
 				"Items": ["Strip of cloth*", "Thread*"],
 				"Level": 1,
-				"Output": "Wizard hat (blue)",
+				"Output": "Wizard hat",
 				"Primary": true,
 				"Priority": 14
 			},
@@ -210070,7 +210070,7 @@
 				"Black wizard shield",
 				"Wizard boots",
 				"Wizard gloves",
-				"Wizard hat (blue)",
+				"Wizard hat",
 				"Wizard robe skirt",
 				"Wizard robe top",
 				"Wizard shield"
@@ -271754,7 +271754,7 @@
 			"Eye of newt": true,
 			"Wizard gloves": true,
 			"Wizard boots": true,
-			"Wizard hat (blue)": true,
+			"Wizard hat": true,
 			"Wizard robe top": true,
 			"Wizard robe skirt": true,
 			"Wizard wand": true,
@@ -272722,7 +272722,7 @@
 		},
 		"Fancy Clothes Store": {
 			"Chef's hat": true,
-			"Wizard hat (blue)": true,
+			"Wizard hat": true,
 			"Cape (yellow)": true,
 			"Grey wolf fur": true,
 			"Bear fur": true,
@@ -276451,7 +276451,7 @@
 			"Staff of fire": true,
 			"Wizard gloves": true,
 			"Wizard boots": true,
-			"Wizard hat (blue)": true,
+			"Wizard hat": true,
 			"Wizard robe top": true,
 			"Wizard robe skirt": true,
 			"Wizard wand": true,
@@ -276485,7 +276485,7 @@
 			"Fine cloth": true
 		},
 		"Zaff's Superior Spellcasting (New Varrock)": {
-			"Wizard hat (blue)": true,
+			"Wizard hat": true,
 			"Wizard robe top": true,
 			"Wizard robe skirt": true,
 			"Wizard wand": true,
