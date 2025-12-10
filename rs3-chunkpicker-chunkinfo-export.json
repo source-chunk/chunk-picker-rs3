@@ -102022,7 +102022,7 @@
 			"~|Song from the Depths|~ 3": {
 				"BaseQuest": "Song from the Depths",
 				"Description": "Dive into the the chasm",
-				"Chunks": ["Queen Black Dragon's stomach"],
+				"Chunks": ["Dreamer's Cave"],
 				"Tasks": {
 					"~|Song from the Depths|~ 2": "Quest"
 				}
@@ -152022,9 +152022,6 @@
 					"~|Bringing Home the Bacon|~ Complete the quest": "Quest"
 				}
 			},
-			"Queen Black Dragon's stomach": {
-				"UnlocksArea": true
-			},
 			"Dreamer's Cave": {
 				"UnlocksArea": true
 			},
@@ -152038,16 +152035,19 @@
 				"UnlocksArea": true
 			},
 			"Grotworm Lair 2": {
-				"UnlocksArea": true
+				"UnlocksArea": true,
+				"Not F2P": true
 			},
 			"Grotworm Lair 3": {
-				"UnlocksArea": true
+				"UnlocksArea": true,
+				"Not F2P": true
 			},
 			"Queen Black Dragon's lair": {
 				"Tasks": {
 					"Enter the ~|Queen Black Dragon|~ lair": "Summoning"
 				},
-				"UnlocksArea": true
+				"UnlocksArea": true,
+				"Not F2P": true
 			},
 			"Scabaras Tomb": {
 				"Tasks": {
@@ -196718,8 +196718,7 @@
 				"Opening": 6
 			},
 			"Monster": {
-				"Flying leech": 12,
-				"Grotworm": 16
+				"Flying leech": 12
 			},
 			"Connect": {
 				"4448": true
@@ -267762,7 +267761,7 @@
 		"The Slug Menace": "11828, 10803, Witchaven Dungeon, 9780, 11059, Air Rune Temple, Water Rune Temple, Fire Rune Temple, Earth Rune Temple, Mind Rune Temple",
 		"Smoking Kills": "13358, Tomb of Catolax, Pollnivneach Slayer Dungeon",
 		"Some Like It Cold": "10290, 10810, 10558, Penguin outpost, 10291",
-		"Song from the Depths": "11826, Dreamer's Cave, Queen Black Dragon's stomach",
+		"Song from the Depths": "11826, Dreamer's Cave",
 		"A Soul's Bane": "13109, Tolna's Rift",
 		"Soul Searching": "City of Um",
 		"Spirit of Summer": "12854",
