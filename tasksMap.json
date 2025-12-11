@@ -19896,6 +19896,7 @@
   "Kill X ~|Monkey (Mos Le'Harmless)|~": "t_53328",
   "Kill X ~|Giant mosquito|~": "t_19080",
   "Kill X ~|Jungle horror|~": "t_19081",
+  "Kill X ~|Seagull#Icyene graveyard|~": "t_114475",
   "Kill X ~|Viridian skillchompa|~": "t_19083",
   "Kill X ~|Vyrewatch guard|~": "t_19082",
   "Kill X ~|Tortured soul (Port Phasmatys)|~": "t_19084",
@@ -58769,6 +58770,8 @@
   "Seagull: ~|Feather|~ (10) (Always)": "t_36041",
   "Seagull: ~|Cornucopia|~ (1) (Very rare)": "t_36042",
   "Seagull: ~|Seagull wing|~ (1) (1/4)": "t_63468",
+  "Seagull#Icyene graveyard: ~|Bones|~ (1) (Always)": "t_114476",
+  "Seagull#Icyene graveyard: ~|Feather|~ (5) (Always)": "t_114477",
   "Seasinger priestess: ~|Rune arrow|~ (5-15) (1/7.11)": "t_63469",
   "Seasinger priestess: ~|Super attack (2)|~ (1 (noted)) (1/25.6)": "t_63470",
   "Seasinger priestess: ~|Super strength (2)|~ (1 (noted)) (1/25.6)": "t_63471",
@@ -90064,5 +90067,5 @@
   "Pizazz points: ~|Death rune|~": "t_52854",
   "Pizazz points: ~|Soul rune|~": "t_52856",
   "Pizazz points: ~|Blood rune|~": "t_52857",
-  "currentNextIndex": 114475
+  "currentNextIndex": 114478
 }

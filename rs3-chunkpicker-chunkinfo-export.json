@@ -186551,7 +186551,7 @@
 						"Efaritay": 1
 					},
 					"Monster": {
-						"Seagull": 1
+						"Seagull#Icyene graveyard": 1
 					},
 					"Quest": {
 						"The Lord of Vampyrium": "step",
@@ -252936,6 +252936,14 @@
 			},
 			"Seagull wing": {
 				"1": "1/4"
+			}
+		},
+		"Seagull#Icyene graveyard": {
+			"Bones": {
+				"1": "Always"
+			},
+			"Feather": {
+				"5": "Always"
 			}
 		},
 		"Seasinger priestess": {
