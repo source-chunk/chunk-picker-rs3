@@ -20022,10 +20022,10 @@
 				"Primary": true,
 				"Priority": 13
 			},
-			"Craft a ~|wizard hat (blue)|~": {
+			"Craft a ~|wizard hat|~": {
 				"Items": ["Strip of cloth*", "Thread*"],
 				"Level": 1,
-				"Output": "Wizard hat (blue)",
+				"Output": "Wizard hat",
 				"Primary": true,
 				"Priority": 14
 			},
@@ -32074,6 +32074,13 @@
 				"Priority": 1,
 				"Not F2P": true
 			},
+			"Access the ~|Flesh-hatcher Mhekarnahz|~ dungeon": {
+				"Objects": ["Mysterious entrance (Flesh-hatcher Mhekarnahz)"],
+				"Level": 40,
+				"Primary": false,
+				"Priority": 2,
+				"Not F2P": true
+			},
 			"Wield a ~|maple shieldbow (sighted)|~": {
 				"Items": ["Maple shieldbow (sighted)"],
 				"Level": 45,
@@ -40324,6 +40331,14 @@
 				"Primary": true,
 				"Output": "Raw catfish",
 				"Priority": 1
+			},
+			"Use a ~|dragon harpoon|~": {
+				"Items": ["Dragon harpoon"],
+				"Objects": ["HarpoonFishingSpot[+]"],
+				"Level": 60,
+				"Primary": false,
+				"Priority": 2,
+				"Not F2P": true
 			},
 			"Catch a ~|raw monkfish|~": {
 				"Level": 62,
@@ -66809,7 +66824,7 @@
 				"Level": 65,
 				"Source": "drop",
 				"Skills": {
-					"hunter": 85
+					"Hunter": 85
 				},
 				"Output": "Asciatops",
 				"Primary": true,
@@ -92275,7 +92290,7 @@
 					"~|Let Them Eat Pie|~ 1": "Quest"
 				}
 			},
-			"~|Let Them Eat Pie|~ 3a": {
+			"~|Let Them Eat Pie|~ 3": {
 				"BaseQuest": "Let Them Eat Pie",
 				"Description": "Stuff a raw potato down a kebbit hole",
 				"Chunks": ["11318-5"],
@@ -92284,37 +92299,36 @@
 					"~|Let Them Eat Pie|~ 2": "Quest"
 				}
 			},
-			"~|Let Them Eat Pie|~ 3b": {
+			"~|Let Them Eat Pie|~ 4": {
 				"BaseQuest": "Let Them Eat Pie",
 				"Description": "Bury a raw crayfish in the flax field",
 				"Chunks": ["11574"],
 				"Items": ["Raw crayfish"],
 				"Tasks": {
-					"~|Let Them Eat Pie|~ 2": "Quest"
-				}
-			},
-			"~|Let Them Eat Pie|~ 4": {
-				"BaseQuest": "Let Them Eat Pie",
-				"Description": "Give the items to Nails and cook the terrible pie",
-				"Chunks": ["11573"],
-				"Tasks": {
-					"~|Let Them Eat Pie|~ 3a": "Quest",
-					"~|Let Them Eat Pie|~ 3b": "Quest"
+					"~|Let Them Eat Pie|~ 3": "Quest"
 				}
 			},
 			"~|Let Them Eat Pie|~ 5": {
 				"BaseQuest": "Let Them Eat Pie",
-				"Description": "Steal the spices from Foppish Piere, then serve the pie to Rolo the Stout. Speak to Nails, then steal the seal, then speak to Nails again, then to Pierre, and finally to Niels",
+				"Description": "Give the items to Nails and cook the terrible pie",
 				"Chunks": ["11573"],
 				"Tasks": {
 					"~|Let Them Eat Pie|~ 4": "Quest"
+				}
+			},
+			"~|Let Them Eat Pie|~ 6": {
+				"BaseQuest": "Let Them Eat Pie",
+				"Description": "Steal the spices from Foppish Piere, then serve the pie to Rolo the Stout. Speak to Nails, then steal the seal, then speak to Nails again, then to Pierre, and finally to Niels",
+				"Chunks": ["11573"],
+				"Tasks": {
+					"~|Let Them Eat Pie|~ 5": "Quest"
 				}
 			},
 			"~|Let Them Eat Pie|~ Complete the quest": {
 				"BaseQuest": "Let Them Eat Pie",
 				"Chunks": ["11573"],
 				"Tasks": {
-					"~|Let Them Eat Pie|~ 5": "Quest"
+					"~|Let Them Eat Pie|~ 6": "Quest"
 				},
 				"QuestPoints": 1,
 				"XpReward": {
@@ -102008,7 +102022,7 @@
 			"~|Song from the Depths|~ 3": {
 				"BaseQuest": "Song from the Depths",
 				"Description": "Dive into the the chasm",
-				"Chunks": ["Queen Black Dragon's stomach"],
+				"Chunks": ["Dreamer's Cave"],
 				"Tasks": {
 					"~|Song from the Depths|~ 2": "Quest"
 				}
@@ -117750,6 +117764,14 @@
 				"Not F2P": true,
 				"CombatScore": 2
 			},
+			"~|Combat Mastery achievements#Medium|~ Eye See You II": {
+				"Category": ["Combat Mastery achievements"],
+				"Description": "Defeat Flesh-hatcher Mhekarnahz 10 times.",
+				"Monsters": ["Flesh-hatcher Mhekarnahz"],
+				"BaseQuest": "Combat Mastery achievements",
+				"Not F2P": true,
+				"CombatScore": 2
+			},
 			"~|Combat Mastery achievements#Medium|~ Fast and Furious II": {
 				"Category": ["Combat Mastery achievements"],
 				"Description": "Defeat Avaryss and Nymora 10 times.",
@@ -128277,7 +128299,8 @@
 					"Telos, the Warden",
 					"Arch-Glacor",
 					"Kerapac, the bound",
-					"TzKal-Zuk"
+					"TzKal-Zuk",
+					"Flesh-hatcher Mhekarnahz"
 				],
 				"Not F2P": true
 			},
@@ -131046,7 +131069,8 @@
 			"(Daemonheim) Obtain a ~|hexhunter bow|~": {
 				"Category": ["Collection Log", "Slayer Collection Log"],
 				"Label": "Slayer Collection Log",
-				"Items": ["Hexhunter bow"]
+				"Items": ["Hexhunter bow"],
+				"Monsters": ["Soulgazer"]
 			},
 			"(Daemonheim) Obtain a ~|baby soulgazer|~": {
 				"Category": ["Collection Log", "Slayer Collection Log", "Pets"],
@@ -133007,6 +133031,21 @@
 				"Chunks": ["The Arc", "13881"],
 				"Items": ["Inert black stone crystal"]
 			},
+			"(Flesh-hatcher Mhekarnahz) Obtain a ~|dragon harpoon|~": {
+				"Category": ["Collection Log", "Boss Collection Log"],
+				"Label": "Boss Collection Log",
+				"Items": ["Dragon harpoon"]
+			},
+			"(Flesh-hatcher Mhekarnahz) Obtain a ~|stalker's charm|~": {
+				"Category": ["Collection Log", "Boss Collection Log"],
+				"Label": "Boss Collection Log",
+				"Items": ["Stalker's charm"]
+			},
+			"(Flesh-hatcher Mhekarnahz) Obtain ~|Mhekarnahz's eye|~": {
+				"Category": ["Collection Log", "Boss Collection Log"],
+				"Label": "Boss Collection Log",
+				"Items": ["Mhekarnahz's eye"]
+			},
 			"(The Gate of Elidinis) Obtain a ~|runic attuner|~": {
 				"Category": ["Collection Log", "Boss Collection Log"],
 				"Label": "Boss Collection Log",
@@ -133950,7 +133989,7 @@
 				"Label": "Boss Collection Log",
 				"Items": ["Dragonbone upgrade kit"]
 			},
-			"(Queen Black Dragon) Obtain a ~|draconic visage|~ from the Queen Black Dragon": {
+			"(Queen Black Dragon) Obtain a ~|draconic visage|~": {
 				"Category": ["Collection Log", "Boss Collection Log"],
 				"Label": "Boss Collection Log",
 				"Items": ["Draconic visage"]
@@ -137898,21 +137937,6 @@
 				"Label": "Untracked Combat Uniques",
 				"Items": ["Mask part 5"],
 				"Not F2P": true
-			},
-			"(Fremennik) Obtain a ~|Fremennik blade|~": {
-				"Category": ["Untracked Uniques", "Untracked Uniques Combat"],
-				"Label": "Untracked Combat Uniques",
-				"Items": ["Fremennik blade"]
-			},
-			"(Fremennik) Obtain a ~|Fremennik shield|~": {
-				"Category": ["Untracked Uniques", "Untracked Uniques Combat"],
-				"Label": "Untracked Combat Uniques",
-				"Items": ["Fremennik shield"]
-			},
-			"(Fremennik) Obtain a ~|Fremennik helm|~": {
-				"Category": ["Untracked Uniques", "Untracked Uniques Combat"],
-				"Label": "Untracked Combat Uniques",
-				"Items": ["Fremennik helm"]
 			},
 			"(Fremennik) Obtain ~|rock-shell gloves|~": {
 				"Category": ["Untracked Uniques", "Untracked Uniques Combat"],
@@ -145511,7 +145535,7 @@
 				}
 			},
 			"Max out ~|reputation (Mazcab)|~": {
-				"Category": ["Permanent Unlockables", "Timegated"],
+				"Category": ["Permanent Unlockables"],
 				"Label": "Permanent Unlockables",
 				"Chunks": ["Mazcab"],
 				"Not F2P": true
@@ -147261,7 +147285,8 @@
 					"Kezalam, the Wanderer",
 					"Nakatra, Devourer Eternal",
 					"Beastmaster Durzag",
-					"Yakamaru"
+					"Yakamaru",
+					"Flesh-hatcher Mhekarnahz"
 				]
 			},
 			"Obtain the ~|Insane Final Boss|~ title": {
@@ -147339,7 +147364,8 @@
 					"Nakatra, Devourer Eternal",
 					"Nakatra, Devourer Eternal (Hard Mode)",
 					"Beastmaster Durzag",
-					"Yakamaru"
+					"Yakamaru",
+					"Flesh-hatcher Mhekarnahz"
 				],
 				"Items": [
 					"King black dragon scale",
@@ -147439,7 +147465,8 @@
 					"Telos, the Warden",
 					"Arch-Glacor",
 					"Kerapac, the bound",
-					"TzKal-Zuk"
+					"TzKal-Zuk",
+					"Flesh-hatcher Mhekarnahz"
 				]
 			},
 			"Obtain the ~|Salty|~ title": {
@@ -148911,6 +148938,14 @@
 				"Set": "BIS Tacklebox",
 				"Not F2P": true
 			},
+			"Obtain a ~|dragon harpoon|~": {
+				"Category": ["BIS Skilling"],
+				"Label": "BIS Skilling",
+				"Items": ["Dragon harpoon"],
+				"Priority": 1,
+				"Set": "BIS Harpoon",
+				"Not F2P": true
+			},
 			"Obtain ~|Tavia's fishing rod|~": {
 				"Category": ["BIS Skilling", "Hero Items"],
 				"Label": "BIS Skilling",
@@ -148927,10 +148962,10 @@
 				"Set": "BIS Fishing Rod",
 				"Not F2P": true
 			},
-			"Obtain an ~|enhanced fishing rod-o-matic|~": {
+			"Obtain a ~|crystal fishing rod|~": {
 				"Category": ["BIS Skilling"],
 				"Label": "BIS Skilling",
-				"Items": ["Enhanced fishing rod-o-matic"],
+				"Items": ["Crystal fishing rod"],
 				"Priority": 3,
 				"Set": "BIS Fishing Rod",
 				"Not F2P": true
@@ -151851,7 +151886,9 @@
 			},
 			"Keldagrim": {
 				"UnlocksArea": true,
-				"Chunks": ["Keldagrim entrance tunnel"]
+				"Tasks": {
+					"Access Keldagrim[+]": "Nonskill"
+				}
 			},
 			"Kalphite Nursery": {
 				"UnlocksArea": true,
@@ -151985,9 +152022,6 @@
 					"~|Bringing Home the Bacon|~ Complete the quest": "Quest"
 				}
 			},
-			"Queen Black Dragon's stomach": {
-				"UnlocksArea": true
-			},
 			"Dreamer's Cave": {
 				"UnlocksArea": true
 			},
@@ -152001,16 +152035,19 @@
 				"UnlocksArea": true
 			},
 			"Grotworm Lair 2": {
-				"UnlocksArea": true
+				"UnlocksArea": true,
+				"Not F2P": true
 			},
 			"Grotworm Lair 3": {
-				"UnlocksArea": true
+				"UnlocksArea": true,
+				"Not F2P": true
 			},
 			"Queen Black Dragon's lair": {
 				"Tasks": {
 					"Enter the ~|Queen Black Dragon|~ lair": "Summoning"
 				},
-				"UnlocksArea": true
+				"UnlocksArea": true,
+				"Not F2P": true
 			},
 			"Scabaras Tomb": {
 				"Tasks": {
@@ -158028,6 +158065,19 @@
 			},
 			"Enter the Kharid-et Chapel": {
 				"Items": ["Pontifex signet ring"]
+			},
+			"Obtain jungle sticks": {
+				"Items": ["Jungle sticks"]
+			},
+			"Access Keldagrim via quest": {
+				"Tasks": {
+					"~|The Giant Dwarf|~ 1": "Quest"
+				},
+				"Not F2P": true
+			},
+			"Access Keldagrim via entrance": {
+				"Chunks": ["Keldagrim entrance tunnel"],
+				"Not F2P": true
 			}
 		}
 	},
@@ -179972,8 +180022,9 @@
 						"Solomon's General Store": true,
 						"Treasure Trails Reward Shop": true
 					},
-					"connect": {
-						"10307": true
+					"Connect": {
+						"10307": true,
+						"11422": true
 					},
 					"Quest": {
 						"Evil Dave's Big Day Out": "step",
@@ -183808,7 +183859,11 @@
 			"Sections": {
 				"1": {
 					"Monster": {
-						"Soulgazer": 2
+						"Soulgazer": 2,
+						"Flesh-hatcher Mhekarnahz": 1
+					},
+					"Object": {
+						"Mysterious entrance (Flesh-hatcher Mhekarnahz)": 1
 					},
 					"NPC": {
 						"Gull": 1,
@@ -186496,7 +186551,7 @@
 						"Efaritay": 1
 					},
 					"Monster": {
-						"Seagull": 1
+						"Seagull#Icyene graveyard": 1
 					},
 					"Quest": {
 						"The Lord of Vampyrium": "step",
@@ -196663,8 +196718,7 @@
 				"Opening": 6
 			},
 			"Monster": {
-				"Flying leech": 12,
-				"Grotworm": 16
+				"Flying leech": 12
 			},
 			"Connect": {
 				"4448": true
@@ -207134,6 +207188,7 @@
 				"Dragon scimitar",
 				"Dragon spear",
 				"Dragon warhammer",
+				"Dragon harpoon",
 				"Off-hand dragon battleaxe",
 				"Off-hand dragon claw",
 				"Off-hand dragon dagger",
@@ -210015,7 +210070,7 @@
 				"Black wizard shield",
 				"Wizard boots",
 				"Wizard gloves",
-				"Wizard hat (blue)",
+				"Wizard hat",
 				"Wizard robe skirt",
 				"Wizard robe top",
 				"Wizard shield"
@@ -211889,6 +211944,7 @@
 			"Fish[+]": ["Fishing spot (minnow)", "Fishing spot (crayfish)", "Fishing spot (small fishing net, bait)"],
 			"Forge[+]": ["Forge", "Fremennik Forge"],
 			"Furnace[+]": ["Furnace", "Lava Furnace", "Fremennik Furnace"],
+			"HarpoonFishingSpot[+]": ["Fishing spot (cage, harpoon)", "Fishing spot (big fishing net, harpoon)"],
 			"Haystack[+]": ["Haystack", "Hay bale"],
 			"HeavyMetalMithril[+]": ["Mithril rock", "Coal rock", "Concentrated coal deposit"],
 			"HeavyMetalAdamant[+]": ["Adamantite rock", "Luminite rock"],
@@ -211928,6 +211984,7 @@
 			"Fish[+]": "Any level 1 fishing spot",
 			"Forge[+]": "Any forge that can heat smithing projects",
 			"Furnace[+]": "Any furnace that can smelt bars",
+			"HarpoonFishingSpot[+]": "Any fishing spot that requires a harpoon",
 			"Haystack[+]": "Any object that can fill an empty sack with hay",
 			"HeavyMetalMithril[+]": "Any rock that may give the mithril entry for Boric's Book of Metal",
 			"HeavyMetalAdamant[+]": "Any rock that may give the adamant entry for Boric's Book of Metal",
@@ -211949,7 +212006,7 @@
 			"WaterSource[+]": "Any object that can fill an item with water"
 		},
 		"monstersPlus": {
-			"AnyBoss[+]": ["Amascut, the Devourer","The Ambassador", "Araxxor", "Arch-Glacor", "Barrows", "Barrows: Rise of the Six", "Black stone dragon", "Chaos Elemental", "Commander Zilyana", "Croesus", "Dagannoth Kings", "The Gate of Elidinis", "General Graardor", "Giant mole", "Gregorovic", "Har-Aken", "Helwyr", "Hermod, the Spirit of War", "Kalphite Queen", "Kalphite King", "Kerapac, the bound", "King Black Dragon", "Kree'arra", "K'ril Tsutsaroth", "Legiones", "The Magister", "Nex", "Nex, Angel of Death", "Queen Black Dragon", "Raksha, the Shadow Colossus", "Rasial, the First Necromancer", "Rex Matriarchs", "Seiryu the Azure Serpent", "Solak, Guardian of the Grove", "Telos, the Warden", "Twin Furies", "TzKal-Zuk", "TzTok-Jad", "Vindicta", "Gorvek", "Vorago", "Zamorak, Lord of Chaos", "Osseous", "Vermyx, Brood Mother", "Kezalam, the Wanderer", "Nakatra, Devourer Eternal"],
+			"AnyBoss[+]": ["Amascut, the Devourer", "The Ambassador", "Araxxor", "Arch-Glacor", "Barrows", "Barrows: Rise of the Six", "Black stone dragon", "Chaos Elemental", "Commander Zilyana", "Croesus", "Flesh-hatcher Mhekarnahz", "Dagannoth Kings", "The Gate of Elidinis", "General Graardor", "Giant mole", "Gregorovic", "Har-Aken", "Helwyr", "Hermod, the Spirit of War", "Kalphite Queen", "Kalphite King", "Kerapac, the bound", "King Black Dragon", "Kree'arra", "K'ril Tsutsaroth", "Legiones", "The Magister", "Nex", "Nex, Angel of Death", "Queen Black Dragon", "Raksha, the Shadow Colossus", "Rasial, the First Necromancer", "Rex Matriarchs", "Seiryu the Azure Serpent", "Solak, Guardian of the Grove", "Telos, the Warden", "Twin Furies", "TzKal-Zuk", "TzTok-Jad", "Vindicta", "Gorvek", "Vorago", "Zamorak, Lord of Chaos", "Osseous", "Vermyx, Brood Mother", "Kezalam, the Wanderer", "Nakatra, Devourer Eternal"],
 			"AnyDemon[+]": ["Abyssal beast", "Abyssal demon", "Abyssal savage", "Balfrug Kreeyath", "Black demon", "Gargoyle", "Greater demon", "Greater demon ash lord", "Greater demon berserker", "Greater demon brute", "Greater demon pyromancer", "Greater demon sage", "Greater demon savage", "Imp", "Imp scavenger", "K'ril Tsutsaroth", "Kal'gerion demon", "Lesser demon", "Ripper Demon", "Tormented demon", "Tstanon Karlak", "Zakl'n Gritch"],
 			"AnyDragon[+]": ["Adamant dragon", "Astellarn", "Baby blue dragon", "Baby red dragon", "Black dragon", "Black stone dragon", "Blue dragon", "Bronze dragon", "Brutal green dragon", "Celestial dragon", "Dragonstone dragon", "Frost dragon", "Green dragon", "Hydrix dragon", "Iron dragon", "King Black Dragon", "Mithril dragon", "Nodon artificer", "Nodon guard", "Nodon hunter", "Onyx dragon", "Queen Black Dragon", "Rune dragon", "Steel dragon", "Verak Lith"],
 			"AnyUndead[+]": ["Aberrant spectre", "Ahrim the Blighted", "Akrisae the Doomed", "Animated spade", "Ankou", "Armoured phantom", "Armoured zombie", "Banshee", "Bloated monstrosity", "Bound skeleton", "Corpse archer", "Corpse carrier", "Corpse mage", "Corpse spider", "Crawling corpse torso", "Crawling hand", "Dharok the Wretched", "Dragith Nurn", "Edimmu", "Fetid zombie", "Ghast", "Ghost", "Ghostly troll bruiser", "Ghostly troll thrower", "Guthan the Infested", "Karil the Tainted", "Linza the Disgraced", "Magic axe", "Monkey Zombie", "Mummy (Jaldraocht Pyramid)", "Mummy (Ullek)", "Phantom sorcerer", "Phantom wizard", "Possessed pickaxe", "Revenant cyclops", "Revenant dark beast", "Revenant demon", "Revenant dragon", "Revenant goblin", "Revenant hellhound", "Revenant hobgoblin", "Revenant icefiend", "Revenant imp", "Revenant knight", "Revenant ork", "Revenant pyrefiend", "Revenant vampyre", "Revenant werewolf", "Risen ghost", "Shade", "Shadow warrior", "Skeletal Wyvern", "Skeletal hand", "Skeleton#Armed", "Skeleton#Unarmed", "Skeleton Mage", "Skeleton knight", "Skoblin", "Skogre", "Small scarab", "Spiritual mage", "Spiritual ranger", "Spiritual warrior", "Taraket the Necromancer", "Torag the Corrupted", "Tormented wraith", "Undead chicken", "Undead cow", "Undead pekin", "Undead troll", "Verac the Defiled", "Wight", "Wight ranger", "Zogre", "Zombie#Level 12", "Zombie#Level 22", "Zombie#Level 29", "Zombie hand", "Zombie knight", "Zombie pirate", "Zombie swab", "Zombie warrior"],
@@ -212486,6 +212543,7 @@
 		},
 		"tasksPlus": {
 			"A Taste of the Exotic[+]": ["Hard Ardougne tasks ~|A Taste of the Exotic|~ (Coconut)*", "Hard Ardougne tasks ~|A Taste of the Exotic|~ (Papaya)*"],
+			"Access Keldagrim[+]": ["Access Keldagrim via quest", "Access Keldagrim via entrance"],
 			"AirAccess[+]": ["Access the air rune temple with a talisman*", "Access the air rune temple through the abyss*"],
 			"AnyCollection[+]": [
 				"Complete the archaeology collection 'Anarchic Abstraction'", 
@@ -213213,7 +213271,8 @@
 				"Edimmu": true,
 				"Kal'gerion demon": true,
 				"Protomastyx": true,
-				"Soulgazer": true
+				"Soulgazer": true,
+				"Flesh-hatcher Mhekarnahz": true
 			},
 			"Cres' creations": {
 				"Automaton Guardian": true,
@@ -213929,7 +213988,8 @@
 			"Stalker creatures": {
 				"Seeker": true,
 				"Soulgazer": true,
-				"Veil-ripper Ozharakha": true
+				"Veil-ripper Ozharakha": true,
+				"Flesh-hatcher Mhekarnahz": true
 			},
 			"Steel dragons": {
 				"Steel dragon": true
@@ -214202,6 +214262,7 @@
 			"Chaos Elemental": true,
 			"Commander Zilyana": true,
 			"Croesus": true,
+			"Flesh-hatcher Mhekarnahz": true,
 			"Dagannoth Kings": true,
 			"The Gate of Elidinis": true,
 			"General Graardor": true,
@@ -231224,6 +231285,110 @@
 			},
 			"HerbDropTable+": {
 				"1": "35/100"
+			}
+		},
+		"Flesh-hatcher Mhekarnahz": {
+			"Dragon harpoon": {
+				"1": "1/100"
+			},
+			"Stalker's charm": {
+				"1": "1/100"
+			},
+			"Prayer potion (3)": {
+				"1-2": "Common"
+			},
+			"Swordfish": {
+				"3-12": "Common"
+			},
+			"Dragon longsword": {
+				"1": "Uncommon"
+			},
+			"Off-hand dragon longsword": {
+				"1": "Uncommon"
+			},
+			"Elder shortbow": {
+				"1": "Uncommon"
+			},
+			"Gold stone spirit": {
+				"12-25": "Common"
+			},
+			"Orichalcite stone spirit": {
+				"8-24": "Common"
+			},
+			"Necrite stone spirit": {
+				"6-10": "Common"
+			},
+			"Acadia wood spirit": {
+				"10-11": "Common"
+			},
+			"Mahogany wood spirit": {
+				"8-20": "Common"
+			},
+			"Spirit weed seed": {
+				"": "Common"
+			},
+			"Irit seed": {
+				"": "Common"
+			},
+			"Avantoe seed": {
+				"": "Common"
+			},
+			"Kwuarm seed": {
+				"": "Common"
+			},
+			"Cadantine seed": {
+				"": "Common"
+			},
+			"Small spiky adamant salvage": {
+				"2-4": "Common"
+			},
+			"Large bladed adamant salvage": {
+				"1": "Common"
+			},
+			"Medium blunt rune salvage": {
+				"1": "Common"
+			},
+			"Battlestaff": {
+				"2-4": "Common"
+			},
+			"Onyx bolt tips": {
+				"2": "Common"
+			},
+			"Fire talisman": {
+				"4-9": "Common"
+			},
+			"Dragon bolt tips": {
+				"15-50": "Common"
+			},
+			"Adamant arrowheads": {
+				"20-70": "Common"
+			},
+			"Elemental anima stones": {
+				"8-20": "Common"
+			},
+			"Bowstring": {
+				"7-23": "Common"
+			},
+			"Hexhunter bow": {
+				"1": "1/5000"
+			},
+			"Seeker's charm": {
+				"1": "Rare"
+			},
+			"Mhekarnahz's eye": {
+				"1": "Very rare"
+			},
+			"Gold charm": {
+				"8": "Common"
+			},
+			"Green charm": {
+				"6": "Common"
+			},
+			"Crimson charm": {
+				"6": "Common"
+			},
+			"Blue charm": {
+				"2": "Common"
 			}
 		},
 		"Flesh-Spoiler Haasghenahk": {
@@ -252773,6 +252938,14 @@
 				"1": "1/4"
 			}
 		},
+		"Seagull#Icyene graveyard": {
+			"Bones": {
+				"1": "Always"
+			},
+			"Feather": {
+				"5": "Always"
+			}
+		},
 		"Seasinger priestess": {
 			"Rune arrow": {
 				"5-15": "18/128"
@@ -267596,7 +267769,7 @@
 		"The Slug Menace": "11828, 10803, Witchaven Dungeon, 9780, 11059, Air Rune Temple, Water Rune Temple, Fire Rune Temple, Earth Rune Temple, Mind Rune Temple",
 		"Smoking Kills": "13358, Tomb of Catolax, Pollnivneach Slayer Dungeon",
 		"Some Like It Cold": "10290, 10810, 10558, Penguin outpost, 10291",
-		"Song from the Depths": "11826, Dreamer's Cave, Queen Black Dragon's stomach",
+		"Song from the Depths": "11826, Dreamer's Cave",
 		"A Soul's Bane": "13109, Tolna's Rift",
 		"Soul Searching": "City of Um",
 		"Spirit of Summer": "12854",
@@ -267986,6 +268159,15 @@
 			}],
 			"Restore potion (2)^Barrows": [{
 				"Tier 2 luck or higher*": "Nonskill"
+			}],
+			"Fremennik blade": [{
+				"~|The Fremennik Trials|~ Complete the quest": "Quest"
+			}],
+			"Fremennik helm": [{
+				"~|The Fremennik Trials|~ Complete the quest": "Quest"
+			}],
+			"Fremennik shield": [{
+				"~|The Fremennik Trials|~ Complete the quest": "Quest"
 			}],
 			"Rock-shell boots": [{
 				"~|The Fremennik Trials|~ Complete the quest": "Quest"
@@ -269479,6 +269661,11 @@
 					"~|Grim Tales|~ 2b1": "Quest"
 				}]
 			},
+			"Flesh-hatcher Mhekarnahz": {
+				"13370-1": [{
+					"Access the ~|Flesh-hatcher Mhekarnahz|~ dungeon": "Dungeoneering"
+				}]
+			},
 			"General Graardor (Hard Mode)": {
 				"God Wars Dungeon": [{
 					"Hard Mode Bosses": "Nonskill"
@@ -270414,12 +270601,12 @@
 			},
 			"Teak": {
 				"11312": [{
-					"~|Jungle Potion|~ Complete the quest": "Quest"
+					"Obtain jungle sticks": "Nonskill"
 				}]
 			},
 			"Mahogany": {
 				"11312": [{
-					"~|Jungle Potion|~ Complete the quest": "Quest"
+					"Obtain jungle sticks": "Nonskill"
 				}]
 			},
 			"Zanaris Market spirit stall": {
@@ -271575,7 +271762,7 @@
 			"Eye of newt": true,
 			"Wizard gloves": true,
 			"Wizard boots": true,
-			"Wizard hat (blue)": true,
+			"Wizard hat": true,
 			"Wizard robe top": true,
 			"Wizard robe skirt": true,
 			"Wizard wand": true,
@@ -272543,7 +272730,7 @@
 		},
 		"Fancy Clothes Store": {
 			"Chef's hat": true,
-			"Wizard hat (blue)": true,
+			"Wizard hat": true,
 			"Cape (yellow)": true,
 			"Grey wolf fur": true,
 			"Bear fur": true,
@@ -276272,7 +276459,7 @@
 			"Staff of fire": true,
 			"Wizard gloves": true,
 			"Wizard boots": true,
-			"Wizard hat (blue)": true,
+			"Wizard hat": true,
 			"Wizard robe top": true,
 			"Wizard robe skirt": true,
 			"Wizard wand": true,
@@ -276306,7 +276493,7 @@
 			"Fine cloth": true
 		},
 		"Zaff's Superior Spellcasting (New Varrock)": {
-			"Wizard hat (blue)": true,
+			"Wizard hat": true,
 			"Wizard robe top": true,
 			"Wizard robe skirt": true,
 			"Wizard wand": true,
@@ -309795,131 +309982,134 @@
 			},
 			"Vault of Hereditas loot": {
 				"Gloomfire bow": {
-					"1": "1/2000"
+					"1": "1/108"
 				},
 				"Legatus's Emberstaff": {
-					"1": "1/2000"
+					"1": "1/108"
 				},
 				"Misalionar's death mask": {
-					"1": "1/2000"
+					"1": "1/108"
 				},
 				"Coins": {
-					"80000-120000": "Common",
-					"1150000-2000000": "Rare"
+					"75000-125000": "73/1000",
+					"1000000-2000000": "5/1000"
 				},
 				"Huge bladed rune salvage": {
-					"1-34": "Rare"
-				},
-				"Water rune": {
-					"175-420": "Common"
-				},
-				"Soul rune": {
-					"45-100": "Common"
-				},
-				"Blood rune": {
-					"45-155": "Common"
-				},
-				"Smoke rune": {
-					"60-250": "Common"
-				},
-				"Necrotic anima stone": {
-					"10-35": "Common"
-				},
-				"Infernal ashes": {
-					"25-100": "Common"
-				},
-				"Dwarf weed seed": {
-					"1-15": "Common"
-				},
-				"Cadantine seed": {
-					"1-10": "Common"
-				},
-				"Grimy cadantine": {
-					"5-25": "Common"
-				},
-				"Grimy dwarf weed": {
-					"5-17": "Common"
-				},
-				"Onyx bolt tips": {
-					"25-70": "Common"
-				},
-				"Acadia wood spirit": {
-					"5-30": "Common"
+					"30-40": "2/1000"
 				},
 				"Large bladed rune salvage": {
-					"5-10": "Common"
+					"5-10": "75/1000"
 				},
-				"Ectoplasm": {
-					"20-85": "Common"
+				"Soul rune": {
+					"45-55": "55/1000"
+				},
+				"Blood rune": {
+					"45-55": "55/1000"
+				},
+				"Smoke rune": {
+					"63-87": "60/1000"
+				},
+				"Water rune": {
+					"175-225": "50/1000"
+				},
+				"Infernal ashes": {
+					"25-35": "50/1000"
+				},
+				"Acadia wood spirit": {
+					"5-10": "75/1000"
 				},
 				"Radiant energy": {
-					"150-200": "Common"
+					"150-200": "75/1000"
+				},
+				"Ectoplasm": {
+					"20-28": "50/1000"
+				},
+				"Necrotic anima stone": {
+					"12-18": "50/1000"
+				},
+				"Onyx bolt tips": {
+					"25-45": "75/1000"
 				},
 				"Uncut ruby": {
-					"20-30": "Common"
+					"20-30": "30/1000"
 				},
 				"Uncut diamond": {
-					"20-55": "Common"
+					"20-30": "30/1000"
+				},
+				"Grimy dwarf weed": {
+					"5-10": "50/1000"
+				},
+				"Grimy cadantine": {
+					"5-10": "50/1000"
+				},
+				"Cadantine seed": {
+					"1-5": "50/1000"
+				},
+				"Dwarf weed seed": {
+					"1-5": "50/1000"
 				}
 			},
 			"Asuran Arsenal loot": {
 				"Varanus's Mercy": {
-					"1": "1/2000"
+					"1": "1/90"
 				},
 				"Nodon spike harness": {
-					"1": "1/2000"
+					"1": "1/90"
 				},
 				"Coins": {
-					"100000-200000": "Common",
-					"1800000-3500000": "Rare"
-				},
-				"Time rune": {
-					"20-30": "Common"
-				},
-				"Dragon dart tip": {
-					"35": "Common"
-				},
-				"Dinosaur bones": {
-					"5-11": "Common"
-				},
-				"Dragonkin bones": {
-					"5-11": "Common"
-				},
-				"Small plated orikalkum salvage": {
-					"3-7": "Common"
-				},
-				"Medium bladed orikalkum salvage": {
-					"3-5": "Common"
-				},
-				"Uncut dragonstone": {
-					"10-20": "Common"
-				},
-				"Black dragonhide": {
-					"10-20": "Common"
-				},
-				"Elder wood spirit": {
-					"4-8": "Common"
-				},
-				"Hydrix bolt tips": {
-					"20-40": "Common"
-				},
-				"Grimy arbuck": {
-					"5-10": "Common"
-				},
-				"Grimy kwuarm": {
-					"5-10": "Common"
-				},
-				"Arbuck seed": {
-					"1-5": "Common"
-				},
-				"Kwuarm seed": {
-					"1-5": "Common"
-				},
-				"Luminous energy": {
-					"100-200": "Common"
+					"100000-200000": "69/1000",
+					"1500000-3500000": "5/1000"
 				},
 				"Large bladed orikalkum salvage": {
-					"15-25": "Rare"
+					"15-25": "1/1000"
+				},
+				"Medium bladed orikalkum salvage": {
+					"3-5": "30/1000"
+				},
+				"Small plated orikalkum salvage": {
+					"3-7": "30/1000"
+				},
+				"Dinosaur bones": {
+					"5-11": "75/1000"
+				},
+				"Dragonkin bones": {
+					"5-11": "75/1000"
+				},
+				"Time rune": {
+					"20-30": "50/1000"
+				},
+				"Elder wood spirit": {
+					"4-8": "75/1000"
+				},
+				"Luminous energy": {
+					"100-200": "75/1000"
+				},
+				"Black dragonhide": {
+					"10-20": "90/1000"
+				},
+				"Hydrix bolt tips": {
+					"20-40": "50/1000"
+				},
+				"Uncut dragonstone": {
+					"10-20": "50/1000"
+				},
+				"Dragon dart tip": {
+					"35": "100/1000"
+				},
+				"Arbuck seed": {
+					"1-4": "60/1000"
+				},
+				"Grimy arbuck": {
+					"5-10": "25/1000"
+				},
+				"Cannonball": {
+					"50-70": "40/1000"
+				},
+				"Kwuarm seed": {
+					"1-5": "50/1000"
+				},
+				"Grimy kwuarm": {
+					"5-10": "50/1000"
 				}
 			},
 			"Chest (Dwarven mines, Thieving)": {
@@ -309936,7 +310126,7 @@
 					"1-5": "Common"
 				},
 				"Double ammo mould": {
-					"1": "1/500"
+					"1": "1/125"
 				}
 			},
 			"Chest (Chaos Druid Tower, 75 Thieving)": {
@@ -310169,7 +310359,7 @@
 			},
 			"Chest (Darkmeyer, Thieving)": {
 				"Ring of Vitur": {
-					"1": "Very rare"
+					"1": "1/5000"
 				},
 				"Coins": {
 					"5000-10500": "Common"
@@ -310388,7 +310578,7 @@
 					"10-25": "Common"
 				},
 				"Ring of Vitur": {
-					"1": "Very rare"
+					"1": "1/10000"
 				}
 			},
 			"Darkmeyer potion stall": {
@@ -311222,7 +311412,7 @@
 			},
 			"TzHaar-Hur trader": {
 				"Jal-tok-yt": {
-					"1": "Very rare"
+					"1": "1/20000"
 				},
 				"Tokkul": {
 					"8-25": "2339/3000"
@@ -311298,7 +311488,7 @@
 			},
 			"Vyrelord consumer[+]": {
 				"Ring of Vitur": {
-					"1": "Very rare"
+					"1": "1/20000"
 				},
 				"Coins": {
 					"900": "708/1000"
@@ -323172,7 +323362,8 @@
 			"accuracy": 0
 		},
 		"Amulet of accuracy": {
-			"ranged": 15.8,
+			"ranged": 8.7,
+			"ranged_accuracy": 23,
 			"requirements": {},
 			"class": "none",
 			"lp": 0,
@@ -338329,6 +338520,27 @@
 			"class": "melee",
 			"accuracy": 1132,
 			"auto_damage": 1341
+		},
+		"Dragon harpoon": {
+			"ranged": 0,
+			"slot": "main hand weapon",
+			"prayer": 0,
+			"style": "stab",
+			"ability_damage": 71.3,
+			"magic": 0,
+			"strength": 0,
+			"armour": 0,
+			"requirements": {
+				"Attack": 60,
+				"Fishing": 60
+			},
+			"speed": 5,
+			"tier": 60,
+			"lp": 0,
+			"attack_range": 1,
+			"class": "melee",
+			"accuracy": 150,
+			"auto_damage": 91
 		},
 		"Dragon hasta": {
 			"ranged": 0,
@@ -372486,6 +372698,22 @@
 			"accuracy": 0,
 			"auto_damage": 768
 		},
+		"Stalker's charm": {
+			"ranged": 21,
+			"ranged_accuracy": 84,
+			"requirements": {},
+			"class": "none",
+			"lp": 0,
+			"tier": 0,
+			"speed": 0,
+			"damage": 0,
+			"armour": 0,
+			"slot": "neck",
+			"strength": 0,
+			"magic": 0,
+			"prayer": 0,
+			"accuracy": 0
+		},
 		"Stalker's ring": {
 			"ranged": 30.4,
 			"requirements": {},
@@ -382720,7 +382948,7 @@
 			"prayer": 0,
 			"accuracy": 0
 		},
-		"Wizard hat (blue)": {
+		"Wizard hat": {
 			"ranged": 0,
 			"requirements": {},
 			"class": "magic",

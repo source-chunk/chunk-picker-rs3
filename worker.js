@@ -5739,7 +5739,7 @@ let calcBIS = function(completedOnly) {
             }
             if (bestEquipment.hasOwnProperty('main hand weapon')) {
                 if (bestEquipment.hasOwnProperty('off-hand weapon')) {
-                    weaponShieldPower = ((chunkInfo['equipment'][bestEquipment['main hand weapon']].accuracy + chunkInfo['equipment'][bestEquipment['off-hand weapon']].accuracy) / 2) + (chunkInfo['equipment'][bestEquipment['main hand weapon']].ability_damage + chunkInfo['equipment'][bestEquipment['off-hand weapon']].ability_damage);
+                    weaponShieldPower = chunkInfo['equipment'][bestEquipment['main hand weapon']].accuracy + chunkInfo['equipment'][bestEquipment['main hand weapon']].ability_damage + chunkInfo['equipment'][bestEquipment['off-hand weapon']].ability_damage;
                 } else {
                     weaponShieldPower = chunkInfo['equipment'][bestEquipment['main hand weapon']].accuracy + chunkInfo['equipment'][bestEquipment['main hand weapon']].ability_damage;
                 }
