@@ -341847,7 +341847,7 @@
 			"prayer": 0,
 			"accuracy": 0
 		},
-		"Elite dracolich hauberk": {
+		"Elite Dracolich hauberk": {
 			"ranged": 36,
 			"requirements": {
 				"Defence": 92
@@ -341865,7 +341865,7 @@
 			"prayer": 3,
 			"accuracy": 0
 		},
-		"Elite dracolich boots": {
+		"Elite Dracolich boots": {
 			"ranged": 15,
 			"requirements": {
 				"Defence": 92
@@ -341883,7 +341883,7 @@
 			"prayer": 1,
 			"accuracy": 0
 		},
-		"Elite dracolich chaps": {
+		"Elite Dracolich chaps": {
 			"ranged": 31,
 			"requirements": {
 				"Defence": 92
@@ -341901,7 +341901,7 @@
 			"prayer": 2,
 			"accuracy": 0
 		},
-		"Elite dracolich coif": {
+		"Elite Dracolich coif": {
 			"ranged": 24,
 			"requirements": {
 				"Defence": 92
@@ -341919,7 +341919,7 @@
 			"prayer": 2,
 			"accuracy": 0
 		},
-		"Elite dracolich vambraces": {
+		"Elite Dracolich vambraces": {
 			"ranged": 15,
 			"requirements": {
 				"Defence": 92
