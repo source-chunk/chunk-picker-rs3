@@ -14297,7 +14297,7 @@
 				"Items": ["Mahogany frame*", "Stone wall segment*"],
 				"Level": 60,
 				"Output Object": "Tier3Grove[+]",
-				"Ouput": "Imcando hatchet fragment",
+				"Output": "Imcando hatchet fragment",
 				"Primary": true,
 				"Priority": 17
 			},
@@ -140974,11 +140974,6 @@
 				"Chunks": ["8500"],
 				"Items": ["Sculpting chisel"]
 			},
-			"(The Runespan) Obtain a ~|wicked hood|~": {
-				"Category": ["Untracked Uniques", "Untracked Uniques Minigames"],
-				"Label": "Untracked Minigame Uniques",
-				"Items": ["Wicked hood"]
-			},
 			"(The Runespan) Obtain a ~|wicked robe top|~": {
 				"Category": ["Untracked Uniques", "Untracked Uniques Minigames"],
 				"Label": "Untracked Minigame Uniques",
@@ -158257,6 +158252,10 @@
 			},
 			"Luck of the Dwarves": {
 				"Items": ["Luck of the Dwarves"]
+			},
+			"Obtain the wicked hood from Tam McGrubor": {
+				"NPCs": ["Tam McGrubor"],
+				"Output": ["Wicked hood"]
 			}
 		}
 	},
