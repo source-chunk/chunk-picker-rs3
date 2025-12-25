@@ -3261,7 +3261,7 @@ let calcChallenges = function(chunks, baseChunkData) {
         });
         globalValids = {...newValids};
         //console.log(i);
-    } while ((Object.keys(diff(valids, newValids) || {}).length !== 0 && i < 10) || i < 3);
+    } while ((Object.keys(diff(valids, newValids) || {}).length !== 0 && i < 15) || i < 3);
     valids = newValids;
     //console.log(baseChunkData);
     tempChunkData = baseChunkData;

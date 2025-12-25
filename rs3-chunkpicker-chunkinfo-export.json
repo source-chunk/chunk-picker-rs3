@@ -7533,7 +7533,7 @@
 				"NoBoost": true
 			},
 			"Buy the ~|Archaeology master cape|~": {
-				"Category": ["Skillcape"],
+				"Category": ["Master skillcape"],
 				"NPCs": ["Acting Guildmaster Reiniger"],
 				"Level": 120,
 				"Output": "Archaeology master cape",
@@ -14297,7 +14297,7 @@
 				"Items": ["Mahogany frame*", "Stone wall segment*"],
 				"Level": 60,
 				"Output Object": "Tier3Grove[+]",
-				"Ouput": "Imcando hatchet fragment",
+				"Output": "Imcando hatchet fragment",
 				"Primary": true,
 				"Priority": 17
 			},
@@ -24241,7 +24241,7 @@
 				"Priority": 2,
 				"Not F2P": true
 			},
-			"Craft an ~|oynx ring|~": {
+			"Craft an ~|onyx ring|~": {
 				"Items": ["Onyx*", "Gold bar*"],
 				"Level": 72,
 				"Output": "Onyx ring",
@@ -24735,7 +24735,7 @@
 				"Not F2P": true
 			},
 			"Create an ~|alchemical onyx|~": {
-				"Items": ["Oynx*", "Fortunate components*", "Refined components*", "Precious components*"],
+				"Items": ["Onyx*", "Fortunate components*", "Refined components*", "Precious components*"],
 				"Level": 80,
 				"Skills": {
 					"Invention": 107
@@ -24892,7 +24892,7 @@
 				"Primary": true,
 				"Priority": 3
 			},
-			"Craft an ~|oynx necklace|~": {
+			"Craft an ~|onyx necklace|~": {
 				"Items": ["Onyx*", "Gold bar*"],
 				"Level": 82,
 				"Output": "Onyx necklace",
@@ -24931,7 +24931,7 @@
 				"Primary": true,
 				"Priority": 3
 			},
-			"Craft an ~|oynx bracelet|~": {
+			"Craft an ~|onyx bracelet|~": {
 				"Items": ["Onyx*", "Gold bar*"],
 				"Level": 84,
 				"Output": "Onyx bracelet",
@@ -25375,7 +25375,7 @@
 				"Not F2P": true,
 				"Partial": true
 			},
-			"Craft an ~|oynx amulet (unstrung)|~": {
+			"Craft an ~|onyx amulet (unstrung)|~": {
 				"Items": ["Onyx*", "Gold bar*"],
 				"Level": 90,
 				"Output": "Onyx amulet (unstrung)",
@@ -25385,7 +25385,7 @@
 				"Not F2P": true,
 				"Partial": true
 			},
-			"String an ~|oynx amulet|~": {
+			"String an ~|onyx amulet|~": {
 				"Items": ["Onyx amulet (unstrung)*", "Ball of wool*"],
 				"Level": 90,
 				"Output": "Onyx amulet",
@@ -29677,17 +29677,6 @@
 				"NoBoost": true,
 				"Not F2P": true
 			},
-			"Equip ~|Misalionar's death mask|~": {
-				"Items": ["Misalionar's death mask"],
-				"Level": 90,
-				"Skills": {
-					"Necromancy": 95
-				},
-				"Primary": false,
-				"Priority": 30,
-				"NoPet": true,
-				"NoBoost": true
-			},
 			"Wear a piece of ~|trimmed masterwork melee armour|~": {
 				"Items": ["TrimmedmasterworkArmour[+]"],
 				"Level": 92,
@@ -32772,7 +32761,7 @@
 				"Not F2P": true
 			},
 			"Buy the ~|Dungeoneering master cape|~": {
-				"Category": ["Skillcape"],
+				"Category": ["Master skillcape"],
 				"NPCs": ["Thok, Master of Dungeoneering"],
 				"Level": 120,
 				"Output": "Dungeoneering master cape",
@@ -36447,7 +36436,7 @@
 			"Breed a ~|green dragon|~": {
 				"Category": ["Normal Farming"],
 				"Objects": ["Breeding paddock"],
-				"Items": ["VariantDragon[+]"],
+				"Items": ["GreenDragonEgg[+]"],
 				"Level": 92,
 				"Output": "GreenDragonBreed",
 				"Primary": false,
@@ -36456,7 +36445,7 @@
 			"Breed a ~|blue dragon|~": {
 				"Category": ["Normal Farming"],
 				"Objects": ["Breeding paddock"],
-				"Items": ["GreenDragonEgg[+]"],
+				"Items": ["GreenBlueDragonEgg[+]"],
 				"Level": 92,
 				"Output": "BlueDragonBreed",
 				"Primary": false,
@@ -36465,7 +36454,7 @@
 			"Breed a ~|red dragon|~": {
 				"Category": ["Normal Farming"],
 				"Objects": ["Breeding paddock"],
-				"Items": ["GreenDragonEgg[+]"],
+				"Items": ["BlueRedDragonEgg[+]"],
 				"Level": 92,
 				"Output": "RedDragonBreed",
 				"Primary": false,
@@ -36474,7 +36463,7 @@
 			"Breed a ~|black dragon|~": {
 				"Category": ["Normal Farming"],
 				"Objects": ["Breeding paddock"],
-				"Items": ["GreenDragonEgg[+]"],
+				"Items": ["RedBlackDragonEgg[+]"],
 				"Level": 92,
 				"Output": "BlackDragonBreed",
 				"Primary": false,
@@ -37438,7 +37427,7 @@
 				"Priority": 1
 			},
 			"Buy the ~|Farming master cape|~": {
-				"Category": ["Skillcape"],
+				"Category": ["Master skillcape"],
 				"NPCs": ["Martin the Master Gardener"],
 				"Level": 120,
 				"Output": "Farming master cape",
@@ -43696,7 +43685,7 @@
 				"Priority": 21
 			},
 			"Make ~|imp repellent|~": {
-				"Items": ["Anchovy paste*", "FlowersAll[+]*"],
+				"Items": ["Anchovy oil*", "FlowersAll[+]*"],
 				"Level": 1,
 				"Output": "Imp repellent",
 				"Primary": true,
@@ -46305,7 +46294,7 @@
 				"Priority": 1
 			},
 			"Buy the ~|Herblore master cape|~": {
-				"Category": ["Skillcape"],
+				"Category": ["Master skillcape"],
 				"NPCs": ["Kaqemeex"],
 				"Level": 120,
 				"Output": "Herblore master cape",
@@ -50022,7 +50011,7 @@
 				"Priority": 1
 			},
 			"Create an ~|alchemical onyx|~": {
-				"Items": ["Oynx*", "Fortunate components*", "Refined components*", "Precious components*"],
+				"Items": ["Onyx*", "Fortunate components*", "Refined components*", "Precious components*"],
 				"Level": 107,
 				"Output": "Alchemical onyx",
 				"Objects": ["Inventor's workbench"],
@@ -50161,7 +50150,7 @@
 				"Priority": 2
 			},
 			"Buy the ~|Invention master cape|~": {
-				"Category": ["Skillcape"],
+				"Category": ["Master skillcape"],
 				"NPCs": ["Doc"],
 				"Level": 120,
 				"Output": "Invention master cape",
@@ -50988,7 +50977,7 @@
 				"Level": 27,
 				"Output": "Emerald bolts (e)",
 				"Primary": true,
-				"Priority": 2,
+				"Priority": 11,
 				"Not F2P": true
 			},
 			"Cast ~|earth bolt|~": {
@@ -56925,17 +56914,6 @@
 				"NoPet": true,
 				"NoBoost": true
 			},
-			"Equip ~|Misalionar's death mask|~": {
-				"Items": ["Misalionar's death mask"],
-				"Level": 95,
-				"Skills": {
-					"Defence": 90
-				},
-				"Primary": false,
-				"Priority": 5,
-				"NoPet": true,
-				"NoBoost": true
-			},
 			"Perform a ~|powerful essence ritual|~": {
 				"Chunks": ["RitualSite[+]"],
 				"Items": ["RitualLightSource[+]", "Powerful ghostly ink*", "Regular ghostly ink*", "Greater ghostly ink*", "Pure essence"],
@@ -57050,7 +57028,7 @@
 				"Priority": 1
 			},
 			"Buy the ~|Necromancy master cape|~": {
-				"Category": ["Skillcape"],
+				"Category": ["Master skillcape"],
 				"Chunks": ["City of Um"],
 				"Output": "Necromancy master cape",
 				"Level": 120,
@@ -65857,7 +65835,7 @@
 				"Level": 94,
 				"Monsters": ["Lava strykewyrm"],
 				"Tasks": {
-					"Lava strykewyrm task": "Nonskill"
+					"Lava strykewyrm task[+]": "Nonskill"
 				},
 				"Primary": false,
 				"Priority": 1,
@@ -66024,7 +66002,7 @@
 				"Level": 96,
 				"Monsters": ["Wyvern"],
 				"Tasks": {
-					"Wyvern task": "Nonskill"
+					"Wyvern task[+]": "Nonskill"
 				},
 				"Primary": false,
 				"Priority": 50,
@@ -66045,7 +66023,7 @@
 				"Level": 96,
 				"Monsters": ["Ripper Demon"],
 				"Tasks": {
-					"Ripper demon task": "Nonskill"
+					"Ripper demon task[+]": "Nonskill"
 				},
 				"Primary": false,
 				"Priority": 51,
@@ -66119,7 +66097,7 @@
 				"Level": 98,
 				"Monsters": ["Onyx dragon"],
 				"Tasks": {
-					"Gemstone dragon task": "Nonskill"
+					"Onyx dragon task[+]": "Nonskill"
 				},
 				"Primary": false,
 				"Priority": 50,
@@ -66216,7 +66194,7 @@
 				"Level": 101,
 				"Monsters": ["Hydrix dragon"],
 				"Tasks": {
-					"Gemstone dragon task": "Nonskill"
+					"Hydrix dragon task[+]": "Nonskill"
 				},
 				"Primary": false,
 				"Priority": 50,
@@ -66692,7 +66670,7 @@
 				"Level": 105,
 				"Monsters": ["Abyssal beast"],
 				"Tasks": {
-					"Abyssal demon task": "Nonskill"
+					"Abyssal beast task[+]": "Nonskill"
 				},
 				"Primary": false,
 				"Priority": 3,
@@ -66713,7 +66691,7 @@
 				"Level": 115,
 				"Monsters": ["Abyssal lord"],
 				"Tasks": {
-					"Abyssal demon task": "Nonskill"
+					"Abyssal lord task[+]": "Nonskill"
 				},
 				"Primary": false,
 				"Priority": 2,
@@ -66761,10 +66739,10 @@
 				"NoBoost": true
 			},
 			"Buy the ~|Slayer master cape|~": {
-				"Category": ["Skillcape"],
+				"Category": ["Master skillcape"],
 				"NPCs": ["Kuradal"],
 				"Level": 120,
-				"Output": "Slayer cape",
+				"Output": "Slayer master cape",
 				"Primary": false,
 				"Priority": 3,
 				"NoPet": true,
@@ -73005,7 +72983,7 @@
 				"Primary": true,
 				"Priority": 2
 			},
-			"Unlock the door to the ~|chaos druid tower|~": {
+			"Lockpick the door to the ~|chaos druid tower|~": {
 				"Level": 46,
 				"Chunks": ["10292"],
 				"Primary": true,
@@ -74299,7 +74277,7 @@
 				"Priority": 1
 			},
 			"Buy the ~|Thieving master cape|~": {
-				"Category": ["Skillcape"],
+				"Category": ["Master skillcape"],
 				"NPCs": ["Martin Thwait"],
 				"Level": 120,
 				"Output": "Thieving master cape",
@@ -81222,7 +81200,7 @@
 			"~|Death Plateau|~ 5": {
 				"BaseQuest": "Death Plateau",
 				"Description": "Head to the Death Plateau through Sabbot's Tunnel and kill The Map",
-				"Chunks": ["11320-1"],
+				"Chunks": ["11320-3"],
 				"Tasks": {
 					"~|Death Plateau|~ 4": "Quest"
 				}
@@ -92292,18 +92270,18 @@
 			},
 			"~|Let Them Eat Pie|~ 3": {
 				"BaseQuest": "Let Them Eat Pie",
-				"Description": "Stuff a raw potato down a kebbit hole",
-				"Chunks": ["11318-5"],
-				"Items": ["Raw potato"],
+				"Description": "Bury a raw crayfish in the flax field",
+				"Chunks": ["11574"],
+				"Items": ["Raw crayfish"],
 				"Tasks": {
 					"~|Let Them Eat Pie|~ 2": "Quest"
 				}
 			},
 			"~|Let Them Eat Pie|~ 4": {
 				"BaseQuest": "Let Them Eat Pie",
-				"Description": "Bury a raw crayfish in the flax field",
-				"Chunks": ["11574"],
-				"Items": ["Raw crayfish"],
+				"Description": "Stuff a raw potato down a kebbit hole",
+				"Chunks": ["11318-5"],
+				"Items": ["Raw potato"],
 				"Tasks": {
 					"~|Let Them Eat Pie|~ 3": "Quest"
 				}
@@ -114719,7 +114697,7 @@
 			"~|Seers' Village Achievements#Hard|~ The Short of It": {
 				"Description": "String a magic shortbow in Seers' Village bank.",
 				"Chunks": ["10806-1"],
-				"Items": ["Magic shortbow (u)", "Bowstring"],
+				"Items": ["Magic shortbow (unstrung)", "Bowstring"],
 				"Skills": {
 					"Fletching": 80
 				},
@@ -127561,10 +127539,10 @@
 				"Not F2P": true
 			},
 			"~|Completionist achievements#Trimmed Completionist Cape|~ All Your Energies": {
-				"Category": ["Comp achievements", "Trim achievements"],
+				"Category": ["Comp achievements", "Trim achievements", "Timegated"],
 				"Description": "Unlock the energy-gathering scrimshaw scroll from Waiko ports reward shop.",
 				"BaseQuest": "Completionist achievements",
-				"Chunks": ["The Arc", "Player-Owned Ports"],
+				"Chunks": ["The Arc", "Player-Owned Port"],
 				"Skills": {
 					"Divination": 80
 				},
@@ -127685,10 +127663,10 @@
 				"Not F2P": true
 			},
 			"~|Completionist achievements#Trimmed Completionist Cape|~ Don't Crush My Memories": {
-				"Category": ["Comp achievements", "Trim achievements"],
+				"Category": ["Comp achievements", "Trim achievements", "Timegated"],
 				"Description": "Unlock the memory-crushing scrimshaw scroll from the Waiko ports reward shop.",
 				"BaseQuest": "Completionist achievements",
-				"Chunks": ["The Arc", "Player-Owned Ports"],
+				"Chunks": ["The Arc", "Player-Owned Port"],
 				"Skills": {
 					"Divination": 80
 				},
@@ -128152,10 +128130,10 @@
 				"Not F2P": true
 			},
 			"~|Completionist achievements#Trimmed Completionist Cape|~ Mitts and Waders - Death Lotus": {
-				"Category": ["Comp achievements", "Trim achievements"],
+				"Category": ["Comp achievements", "Trim achievements", "Timegated"],
 				"Description": "Unlock the death lotus gloves and boots scrolls from the Waiko reward shop.",
 				"BaseQuest": "Completionist achievements",
-				"Chunks": ["The Arc", "Player-Owned Ports"],
+				"Chunks": ["The Arc", "Player-Owned Port"],
 				"Skills": {
 					"Crafting": 90
 				},
@@ -128165,10 +128143,10 @@
 				"Not F2P": true
 			},
 			"~|Completionist achievements#Trimmed Completionist Cape|~ Mitts and Waders - Seasinger": {
-				"Category": ["Comp achievements", "Trim achievements"],
+				"Category": ["Comp achievements", "Trim achievements", "Timegated"],
 				"Description": "Unlock the seasinger gloves and boots scrolls from the Waiko reward shop.",
 				"BaseQuest": "Completionist achievements",
-				"Chunks": ["The Arc", "Player-Owned Ports"],
+				"Chunks": ["The Arc", "Player-Owned Port"],
 				"Skills": {
 					"Runecrafting": 90
 				},
@@ -128178,10 +128156,10 @@
 				"Not F2P": true
 			},
 			"~|Completionist achievements#Trimmed Completionist Cape|~ Mitts and Waders - Tetsu": {
-				"Category": ["Comp achievements", "Trim achievements"],
+				"Category": ["Comp achievements", "Trim achievements", "Timegated"],
 				"Description": "Unlock the tetsu gloves and boots scrolls from the Waiko reward shop.",
 				"BaseQuest": "Completionist achievements",
-				"Chunks": ["The Arc", "Player-Owned Ports"],
+				"Chunks": ["The Arc", "Player-Owned Port"],
 				"Skills": {
 					"Smithing": 90
 				},
@@ -130733,7 +130711,7 @@
 				"Skills": {
 					"Magic": 55
 				},
-				"Items": ["Golden Touch codex"],
+				"Items": ["Golden Touch ability codex"],
 				"NoBoost": true
 			},
 			"Unlock the ~|Knight Waves training ground|~ prayers": {
@@ -130956,15 +130934,15 @@
 				"Label": "Slayer Collection Log",
 				"Items": ["Bottom of sceptre"]
 			},
-			"(Asgarnia & Misthalin) Obtain a ~|shade robe (top)|~": {
+			"(Asgarnia & Misthalin) Obtain a ~|shade robe top|~": {
 				"Category": ["Collection Log", "Slayer Collection Log"],
 				"Label": "Slayer Collection Log",
-				"Items": ["Shade robe (top)"]
+				"Items": ["Shade robe top"]
 			},
-			"(Asgarnia & Misthalin) Obtain a ~|shade robe (bottom)|~": {
+			"(Asgarnia & Misthalin) Obtain a ~|shade robe bottom|~": {
 				"Category": ["Collection Log", "Slayer Collection Log"],
 				"Label": "Slayer Collection Log",
-				"Items": ["Shade robe (bottom)"]
+				"Items": ["Shade robe bottom"]
 			},
 			"(Asgarnia & Misthalin) Obtain a ~|bronze defender|~": {
 				"Category": ["Collection Log", "Slayer Collection Log"],
@@ -140996,11 +140974,6 @@
 				"Chunks": ["8500"],
 				"Items": ["Sculpting chisel"]
 			},
-			"(The Runespan) Obtain a ~|wicked hood|~": {
-				"Category": ["Untracked Uniques", "Untracked Uniques Minigames"],
-				"Label": "Untracked Minigame Uniques",
-				"Items": ["Wicked hood"]
-			},
 			"(The Runespan) Obtain a ~|wicked robe top|~": {
 				"Category": ["Untracked Uniques", "Untracked Uniques Minigames"],
 				"Label": "Untracked Minigame Uniques",
@@ -144026,6 +143999,118 @@
 				"Label": "Pets",
 				"Chunks": ["12598-1"]
 			},
+			"Unlock the ~|Revenant Pet#Dragon|~": {
+				"Category": ["Permanent Unlockables", "Pets"],
+				"Label": "Permanent Unlockables",
+				"Items": ["Revenant Spirit#Dragon"],
+				"Priority": 1,
+				"Set": "Revenant Pet",
+				"Not F2P": true
+			},
+			"Unlock the ~|Revenant Pet#Knight|~": {
+				"Category": ["Permanent Unlockables", "Pets"],
+				"Label": "Permanent Unlockables",
+				"Items": ["Revenant Spirit#Knight"],
+				"Priority": 2,
+				"Set": "Revenant Pet",
+				"Not F2P": true
+			},
+			"Unlock the ~|Revenant Pet#Dark beast|~": {
+				"Category": ["Permanent Unlockables", "Pets"],
+				"Label": "Permanent Unlockables",
+				"Items": ["Revenant Spirit#Dark beast"],
+				"Priority": 3,
+				"Set": "Revenant Pet",
+				"Not F2P": true
+			},
+			"Unlock the ~|Revenant Pet#Ork|~": {
+				"Category": ["Permanent Unlockables", "Pets"],
+				"Label": "Permanent Unlockables",
+				"Items": ["Revenant Spirit#Ork"],
+				"Priority": 4,
+				"Set": "Revenant Pet",
+				"Not F2P": true
+			},
+			"Unlock the ~|Revenant Pet#Demon|~": {
+				"Category": ["Permanent Unlockables", "Pets"],
+				"Label": "Permanent Unlockables",
+				"Items": ["Revenant Spirit#Demon"],
+				"Priority": 5,
+				"Set": "Revenant Pet",
+				"Not F2P": true
+			},
+			"Unlock the ~|Revenant Pet#Hellhound|~": {
+				"Category": ["Permanent Unlockables", "Pets"],
+				"Label": "Permanent Unlockables",
+				"Items": ["Revenant Spirit#Hellhound"],
+				"Priority": 6,
+				"Set": "Revenant Pet",
+				"Not F2P": true
+			},
+			"Unlock the ~|Revenant Pet#Cyclops|~": {
+				"Category": ["Permanent Unlockables", "Pets"],
+				"Label": "Permanent Unlockables",
+				"Items": ["Revenant Spirit#Cyclops"],
+				"Priority": 7,
+				"Set": "Revenant Pet",
+				"Not F2P": true
+			},
+			"Unlock the ~|Revenant Pet#Werewolf|~": {
+				"Category": ["Permanent Unlockables", "Pets"],
+				"Label": "Permanent Unlockables",
+				"Items": ["Revenant Spirit#Werewolf"],
+				"Priority": 8,
+				"Set": "Revenant Pet",
+				"Not F2P": true
+			},
+			"Unlock the ~|Revenant Pet#Vampyre|~": {
+				"Category": ["Permanent Unlockables", "Pets"],
+				"Label": "Permanent Unlockables",
+				"Items": ["Revenant Spirit#Vampyre"],
+				"Priority": 9,
+				"Set": "Revenant Pet",
+				"Not F2P": true
+			},
+			"Unlock the ~|Revenant Pet#Hobgoblin|~": {
+				"Category": ["Permanent Unlockables", "Pets"],
+				"Label": "Permanent Unlockables",
+				"Items": ["Revenant Spirit#Hobgoblin"],
+				"Priority": 10,
+				"Set": "Revenant Pet",
+				"Not F2P": true
+			},
+			"Unlock the ~|Revenant Pet#Pyrefiend|~": {
+				"Category": ["Permanent Unlockables", "Pets"],
+				"Label": "Permanent Unlockables",
+				"Items": ["Revenant Spirit#Pyrefiend"],
+				"Priority": 11,
+				"Set": "Revenant Pet",
+				"Not F2P": true
+			},
+			"Unlock the ~|Revenant Pet#Icefiend|~": {
+				"Category": ["Permanent Unlockables", "Pets"],
+				"Label": "Permanent Unlockables",
+				"Items": ["Revenant Spirit#Icefiend"],
+				"Priority": 12,
+				"Set": "Revenant Pet",
+				"Not F2P": true
+			},
+			"Unlock the ~|Revenant Pet#Goblin|~": {
+				"Category": ["Permanent Unlockables", "Pets"],
+				"Label": "Permanent Unlockables",
+				"Items": ["Revenant Spirit#Goblin"],
+				"Priority": 13,
+				"Set": "Revenant Pet",
+				"Not F2P": true
+			},
+			"Unlock the ~|Revenant Pet#Imp|~": {
+				"Category": ["Permanent Unlockables", "Pets"],
+				"Label": "Permanent Unlockables",
+				"Items": ["Revenant Spirit"],
+				"Priority": 14,
+				"Set": "Revenant Pet",
+				"Not F2P": true
+			},
 			"Unlock all ~|Dundee's Crocodile Upgrades|~": {
 				"Category": ["Permanent Unlockables"],
 				"Label": "Permanent Unlockables",
@@ -144972,6 +145057,15 @@
 				"Label": "Permanent Unlockables",
 				"Items": ["Herbicide collector upgrade"]
 			},
+			"Unlock the ~|master farmer outfit blueprint|~": {
+				"Category": ["Permanent Unlockables"],
+				"Label": "Permanent Unlockables",
+				"Items": ["Master farmer outfit blueprint"],
+				"SKills": {
+					"Invention": 20,
+					"Farming": 80
+				}
+			},
 			"Build a small dinosaur pen in the ~|Ranch out of Time|~": {
 				"Category": ["Permanent Unlockables"],
 				"Label": "Permanent Unlockables",
@@ -145583,6 +145677,20 @@
 				"Chunks": ["13362-4"],
 				"Items": ["Steel nails*", "Teak plank*"],
 				"Not F2P": true
+			},
+			"Unlock the ~|elite trapper outfit blueprint|~": {
+				"Category": ["Permanent Unlockables"],
+				"Label": "Permanent Unlockables",
+				"Items": ["Elite trapper outfit blueprint"],
+				"SKills": {
+					"Invention": 20,
+					"Hunter": 80
+				}
+			},
+			"Unlock ~|quick traps|~ from the Hunter Mark Shop": {
+				"Category": ["Permanent Unlockables"],
+				"Label": "Permanent Unlockables",
+				"Items": ["Quick traps"]
 			},
 			"Obtain ~|the Castaway|~ title": {
 				"Category": ["Arc Log", "Titles"],
@@ -153974,8 +154082,8 @@
 				"ConnectsSections": true,
 				"Not F2P": true
 			},
-			"11320-1 to 11320-2": {
-				"Sections": ["11320-1", "11320-2"],
+			"11320-3 to 11320-2": {
+				"Sections": ["11320-3", "11320-2"],
 				"Tasks": {
 					"~|Troll Stronghold|~ 1": "Quest"
 				},
@@ -154759,6 +154867,14 @@
 			"Craft the unsullied ability codex*": {
 				"Items": ["Vital spark"],
 				"Output": "Unsullied ability codex"
+			},
+			"Craft the Limitless ability codex*": {
+				"Items": ["Vital spark"],
+				"Output": "Limitless ability codex"
+			},
+			"Craft the Golden Touch ability codex*": {
+				"Items": ["Vital spark"],
+				"Output": "Golden Touch ability codex"
 			},
 			"Craft the superior skeletal helm*": {
 				"Items": ["Fremennik equipment patch", "Skeletal helm"],
@@ -157736,16 +157852,51 @@
 				},
 				"Not F2P": true
 			},
+			"Abyssal demon wilderness task": {
+				"Tasks": {
+					"Receive a slayer bounty from ~|Mandrith|~": "Slayer"
+				},
+				"Chunks": ["WildyAbyssalDemon[+]"],
+				"Not F2P": true
+			},
+			"Abyssal beast wilderness task": {
+				"Tasks": {
+					"Receive a slayer bounty from ~|Mandrith|~": "Slayer"
+				},
+				"Chunks": ["WildyAbyssalBeast[+]"],
+				"Not F2P": true
+			},
+			"Abyssal lord wilderness task": {
+				"Tasks": {
+					"Receive a slayer bounty from ~|Mandrith|~": "Slayer"
+				},
+				"Chunks": ["WildyAbyssalLord[+]"],
+				"Not F2P": true
+			},
 			"Wyvern task": {
 				"Tasks": {
 					"RaptorKuradalBetterMaster[+]": "Slayer"
 				},
 				"Not F2P": true
 			},
+			"Wyvern wilderness task": {
+				"Tasks": {
+					"Receive a slayer bounty from ~|Mandrith|~": "Slayer"
+				},
+				"Chunks": ["11836"],
+				"Not F2P": true
+			},
 			"Ripper demon task": {
 				"Tasks": {
 					"RaptorKuradalBetterMaster[+]": "Slayer"
 				},
+				"Not F2P": true
+			},
+			"Ripper demon wilderness task": {
+				"Tasks": {
+					"Receive a slayer bounty from ~|Mandrith|~": "Slayer"
+				},
+				"Chunks": ["WildyRipperDemon[+]"],
 				"Not F2P": true
 			},
 			"Camel warrior task": {
@@ -157764,6 +157915,20 @@
 				"Tasks": {
 					"RaptorKuradalBetterMaster[+]": "Slayer"
 				},
+				"Not F2P": true
+			},
+			"Onyx dragon wilderness task": {
+				"Tasks": {
+					"Receive a slayer bounty from ~|Mandrith|~": "Slayer"
+				},
+				"Chunks": ["WildyOnyxDragon[+]"],
+				"Not F2P": true
+			},
+			"Hydrix dragon wilderness task": {
+				"Tasks": {
+					"Receive a slayer bounty from ~|Mandrith|~": "Slayer"
+				},
+				"Chunks": ["WildyHydrixDragon[+]"],
 				"Not F2P": true
 			},
 			"Airut task": {
@@ -157871,6 +158036,12 @@
 			"Lava strykewyrm task": {
 				"Tasks": {
 					"KuradalBetterMaster[+]": "Slayer"
+				},
+				"Not F2P": true
+			},
+			"Lava strykewyrm wilderness task": {
+				"Tasks": {
+					"Receive a slayer bounty from ~|Mandrith|~": "Slayer"
 				},
 				"Not F2P": true
 			},
@@ -158078,6 +158249,13 @@
 			"Access Keldagrim via entrance": {
 				"Chunks": ["Keldagrim entrance tunnel"],
 				"Not F2P": true
+			},
+			"Luck of the Dwarves": {
+				"Items": ["Luck of the Dwarves"]
+			},
+			"Obtain the wicked hood from Tam McGrubor": {
+				"NPCs": ["Tam McGrubor"],
+				"Output": ["Wicked hood"]
 			}
 		}
 	},
@@ -165584,27 +165762,17 @@
 			"Nickname": "River Delta"
 		},
 		"9528": {
-			"Sections": {
-				"1": {
-					"Object": {
-						"Oak": 1,
-						"Tree": 9
-					}
-				},
-				"2": {
-					"Object": {
-						"Fire": 1,
-						"Stile": 1,
-						"Oak": 2,
-						"Tree": 1
-					},
-					"NPC": {
-						"Matthias": 1,
-						"Spotted kebbit": 7,
-						"Dark kebbit": 6,
-						"Dashing kebbit": 3
-					}
-				}
+			"Object": {
+				"Oak": 3,
+				"Tree": 10,
+				"Fire": 1,
+				"Stile": 1
+			},
+			"NPC": {
+				"Matthias": 1,
+				"Spotted kebbit": 7,
+				"Dark kebbit": 6,
+				"Dashing kebbit": 3
 			},
 			"Nickname": "Falconry area"
 		},
@@ -173640,7 +173808,7 @@
 						"Hickton's Archery Emporium": true
 					},
 					"Connect": {
-						"11417": true
+						"6473": true
 					}
 				},
 				"2": {
@@ -173664,7 +173832,7 @@
 						"Water obelisk": 1
 					},
 					"Connect": {
-						"6473": true
+						"11417": true
 					}
 				},
 				"4": {
@@ -173804,7 +173972,8 @@
 						"Brazier": 1
 					},
 					"Monster": {
-						"Cyclops": 12
+						"Cyclops": 12,
+						"Cyclossus": 1
 					},
 					"NPC": {
 						"Harrallak Menarous": 2,
@@ -203236,8 +203405,7 @@
 				"Material cache (carbon black)": 3
 			},
 			"Monster": {
-				"Rune dragon": 20,
-				"Elite rune dragon": 1
+				"Rune dragon": 20
 			},
 			"Connect": {
 				"9268": true
@@ -205646,6 +205814,111 @@
 				"Xolo spear (damaged)": "1/22@1",
 				"Gold dish (damaged)": "1/22@1",
 				"'Raksha' idol (damaged)": "1/22@1"
+			},
+			"AncientWarriorDropTable+": {
+				"Morrigan's javelin": "1/17@15-50",
+				"Morrigan's throwing axe": "1/17@15-50",
+				"Statius's warhammer": "1/17@1",
+				"Vesta's longsword": "1/17@1",
+				"Vesta's spear": "1/17@1",
+				"Zuriel's staff": "1/17@1",
+				"Morrigan's coif": "1/17@1",
+				"Morrigan's leather body": "1/17@1",
+				"Morrigan's leather chaps": "1/17@1",
+				"Statius's full helm": "1/17@1",
+				"Statius's platebody": "1/17@1",
+				"Statius's platelegs": "1/17@1",
+				"Vesta's chainbody": "1/17@1",
+				"Vesta's plateskirt": "1/17@1",
+				"Zuriel's hood": "1/17@1",
+				"Zuriel's robe top": "1/17@1",
+				"Zuriel's robe bottom": "1/17@1",
+				"Corrupt Morrigan's javelin": "1/17@15-50",
+				"Corrupt Morrigan's throwing axe": "1/17@15-50",
+				"Corrupt Statius's warhammer": "1/17@1",
+				"Corrupt Vesta's longsword": "1/17@1",
+				"Corrupt Vesta's spear": "1/17@1",
+				"Corrupt Zuriel's staff": "1/17@1",
+				"Corrupt Morrigan's coif": "1/17@1",
+				"Corrupt Morrigan's leather body": "1/17@1",
+				"Corrupt Morrigan's leather chaps": "1/17@1",
+				"Corrupt Statius's full helm": "1/17@1",
+				"Corrupt Statius's platebody": "1/17@1",
+				"Corrupt Statius's platelegs": "1/17@1",
+				"Corrupt Vesta's chainbody": "1/17@1",
+				"Corrupt Vesta's plateskirt": "1/17@1",
+				"Corrupt Zuriel's hood": "1/17@1",
+				"Corrupt Zuriel's robe top": "1/17@1",
+				"Corrupt Zuriel's robe bottom": "1/17@1"
+			},
+			"RevenantRareDrops+": {
+				"Ancient statuette": "1/1@1",
+				"Seren statuette": "1/1@1",
+				"Armadyl statuette": "1/1@1",
+				"Zamorak statuette": "1/1@1",
+				"Saradomin statuette": "1/1@1",
+				"Bandos statuette": "1/1@1",
+				"Brawling gloves (Agility)": "1/15@1",
+				"Brawling gloves (Cooking)": "1/15@1",
+				"Brawling gloves (Fishing)": "1/15@1",
+				"Brawling gloves (Firemaking)": "1/15@1",
+				"Brawling gloves (Hunter)": "2/15@1",
+				"Brawling gloves (Magic)": "1/15@1",
+				"Brawling gloves (Melee)": "1/15@1",
+				"Brawling gloves (Mining)": "1/15@1",
+				"Brawling gloves (Prayer)": "1/15@1",
+				"Brawling gloves (Ranged)": "1/15@1",
+				"Brawling gloves (Smithing)": "2/15@1",
+				"Brawling gloves (Thieving)": "1/15@1",
+				"Brawling gloves (Woodcutting)": "1/15@1"
+			},
+			"RevenantUncommonDrops+": {
+				"Ruby chalice": "1/1@1",
+				"Guthixian brazier": "1/1@1",
+				"Armadyl totem": "1/1@1",
+				"Zamorak medallion": "1/1@1",
+				"Saradomin carving": "1/1@1",
+				"Bandos scrimshaw": "1/1@1",
+				"Corrupt dragon battleaxe": "1/1@1",
+				"Corrupt dragon dagger": "1/1@1",
+				"Corrupt dragon longsword": "1/1@1",
+				"Corrupt dragon mace": "1/1@1",
+				"Corrupt dragon scimitar": "1/1@1",
+				"Corrupt dragon spear": "1/1@1",
+				"Corrupt dragon chainbody": "1/1@1",
+				"Corrupt dragon helm": "1/1@1",
+				"Corrupt dragon platelegs": "1/1@1",
+				"Corrupt dragon plateskirt": "1/1@1",
+				"Corrupt dragon sq shield": "1/1@1"
+			},
+			"RevenantCommonDrops+": {
+				"Saradomin amphora": "1/1@1",
+				"Ancient psaltery bridge": "1/1@1",
+				"Bronzed dragon claw": "1/1@1",
+				"Third age carafe": "1/1@1",
+				"Broken statue headdress": "1/1@1"
+			},
+			"RevenantSpiritDrops+": {
+				"Revenant Spirit": "1/1@1",
+				"Revenant Spirit#Goblin": "1/2@1",
+				"Revenant Spirit#Icefiend": "1/3@1",
+				"Revenant Spirit#Pyrefiend": "1/4@1",
+				"Revenant Spirit#Hobgoblin": "1/5@1",
+				"Revenant Spirit#Vampyre": "1/6@1",
+				"Revenant Spirit#Werewolf": "1/7@1",
+				"Revenant Spirit#Cyclops": "1/8@1",
+				"Revenant Spirit#Hellhound": "1/9@1",
+				"Revenant Spirit#Demon": "1/10@1",
+				"Revenant Spirit#Ork": "1/11@1",
+				"Revenant Spirit#Dark beast": "1/12@1",
+				"Revenant Spirit#Knight": "1/13@1",
+				"Revenant Spirit#Dragon": "1/14@1"
+			},
+			"EliteEdimmu+": {
+				"Edimmu (item)": "1/512@1"
+			},
+			"EliteRuneDragon+": {
+				"Kethsi outfit scroll": "1/144@1"
 			}
 		},
 		"tools": {},
@@ -206689,6 +206962,12 @@
 				"Blue dragon (unchecked)",
 				"Blue dragon egg (unchecked)"
 			],
+			"BlueRedDragonEgg[+]": [
+				"Red dragon (unchecked)",
+				"Red dragon egg (unchecked)",
+				"Blue dragon (unchecked)",
+				"Blue dragon egg (unchecked)"
+			],
 			"BlueDragonhideArmour[+]": [
 				"Blue dragonhide body",
 				"Blue dragonhide boots",
@@ -207416,7 +207695,7 @@
 				"Energy potion (4)"
 			],
 			"EverlightBuckler[+]": ["Prodromoi buckler", "Hetairoi buckler", "Psiloi buckler", "Optimatoi buckler"],
-			"EvilClothing[+]": ["Desert shirt", "Desert robe", "Cape (black)", "Fremennik cloak (black)", "Black dragonhide body", "Black dragonhide vambraces", "Black dragonhide chaps", "Black dragonhide boots", "Black wizard hat", "Black wizard robe top", "Black wizard robe skirt", "Black wizard gloves", "Black wizard boots", "Black full helm", "Black helm", "Black platebody", "Black chainbody", "Culinaromancer's gloves 5", "Black platelegs", "Black plateskirt", "Black boots", "Priest gown (top)", "Priest gown (bottom)", "Shade robe (top)", "Shade robe (bottom)", "Dark mystic hat", "Dark mystic robe top", "Dark mystic gloves", "Dark mystic robe bottom", "Dark mystic boots", "Ghostly hood", "Ghostly robe top", "Ghostly robe bottom", "Ghostly gloves", "Ghostly boots", "Ghostly cloak"],
+			"EvilClothing[+]": ["Desert shirt", "Desert robe", "Cape (black)", "Fremennik cloak (black)", "Black dragonhide body", "Black dragonhide vambraces", "Black dragonhide chaps", "Black dragonhide boots", "Black wizard hat", "Black wizard robe top", "Black wizard robe skirt", "Black wizard gloves", "Black wizard boots", "Black full helm", "Black helm", "Black platebody", "Black chainbody", "Culinaromancer's gloves 5", "Black platelegs", "Black plateskirt", "Black boots", "Priest gown (top)", "Priest gown (bottom)", "Shade robe top", "Shade robe bottom", "Dark mystic hat", "Dark mystic robe top", "Dark mystic gloves", "Dark mystic robe bottom", "Dark mystic boots", "Ghostly hood", "Ghostly robe top", "Ghostly robe bottom", "Ghostly gloves", "Ghostly boots", "Ghostly cloak"],
 			"ExtremeAttackPotion[+]": [
 				"Extreme attack (1)",
 				"Extreme attack (2)",
@@ -207719,6 +207998,12 @@
 			],
 			"GreaterCommunionBones[+]": ["Dragon bones", "Dagannoth bones", "Airut bones", "Ourg bones (General Graardor)", "Ourg bones", "Hardened dragon bones", "Dragonkin bones", "Spirit memento"],
 			"Greegree[+]": ["Monkey greegree", "Ninja monkey greegree (small)", "Ninja monkey greegree", "Zombie monkey greegree (small)", "Zombie monkey greegree", "Gorilla greegree", "Gorilla greegree (bearded)", "Gorilla greegree (ancient)"],
+			"GreenBlueDragonEgg[+]": [
+				"Green dragon (unchecked)",
+				"Green dragon egg (unchecked)",
+				"Blue dragon (unchecked)",
+				"Blue dragon egg (unchecked)"
+			],
 			"GreenDragonEgg[+]": [
 				"Green dragon (unchecked)",
 				"Green dragon egg (unchecked)"
@@ -208736,7 +209021,15 @@
 				"Ranging potion (3)",
 				"Ranging potion (4)"
 			],
-			"RasialArmour[+]": ["Crown of the First Necromancer", "Visage of the First Necromancer", "Robe top of the First Necromancer", "Robe bottom of the First Necromancer", "Hand wrap of the First Necromancer", "Foot wraps of the First Necromancer"],
+			"RasialArmour[+]": [
+				"Crown of the First Necromancer", 
+				"Misalionar's death mask", 
+				"Visage of the First Necromancer", 
+				"Robe top of the First Necromancer", 
+				"Robe bottom of the First Necromancer", 
+				"Hand wrap of the First Necromancer", 
+				"Foot wraps of the First Necromancer"
+			],
 			"RasialWeapon[+]": ["Omni guard", "Soulbound lantern"],
 			"RawFish[+]": ["Raw shrimps", "Raw crayfish", "Raw minnow", "Raw karambwanji", "Raw sardine", "Raw herring", "Raw anchovies", "Raw mackerel", "Raw trout", "Raw cod", "Raw pike", "Slimy eel", "Raw salmon", "Raw tuna", "Raw rainbow fish", "Raw cave eel", "Raw lobster", "Raw bass", "Leaping trout", "Raw swordfish", "Raw desert sole", "Raw lava eel", "Leaping salmon", "Raw catfish", "Raw monkfish", "Raw karambwan", "Raw green blubber jellyfish", "Magnetic minnow", "Leaping sturgeon", "Raw beltfish", "Raw shark", "Raw sea turtle", "Raw great white shark", "Raw manta ray", "Raw cavefish", "Raw rocktail", "Raw tarpon", "Raw blue blubber jellyfish", "Raw seerfish", "Raw sillago", "Raw wobbegong", "Raw sailfish"],
 			"RawMeat[+]": [
@@ -208746,6 +209039,12 @@
 				"Raw rat meat",
 				"Raw wolf meat",
 				"Raw yak meat"
+			],
+			"RedBlackDragonEgg[+]": [
+				"Black dragon (unchecked)",
+				"Black dragon egg (unchecked)",
+				"Red dragon (unchecked)",
+				"Red dragon egg (unchecked)"
 			],
 			"RedDragonEgg[+]": [
 				"Red dragon (unchecked)",
@@ -209816,14 +210115,6 @@
 				"Chocolate cow (unchecked)",
 				"Strawberry cow (unchecked)",
 				"Vanilla cow (unchecked)"
-			],
-			"VariantDragon[+]": [
-				"Black dragon (unchecked)",
-				"Black dragon egg (unchecked)",
-				"Blue dragon (unchecked)",
-				"Blue dragon egg (unchecked)",
-				"Red dragon (unchecked)",
-				"Red dragon egg (unchecked)"
 			],
 			"VariantEwe[+]": [
 				"Black ewe (unchecked)",
@@ -211177,6 +211468,7 @@
 			"BlisterwoodWeapon[+]": "Any blisterwood melee weapon",
 			"BlueCharmPouch[+]": "Any summoning pouch made using a blue charm",
 			"BlueDragonEgg[+]": "Any breedable blue dragon",
+			"BlueRedDragonEgg[+]": "Any breedable blue or red dragon",
 			"BlueDragonhideArmour[+]": "Any piece of blue dragonhide armour",
 			"BlurberrySpecial[+]": "Any type of Blurberry Special",
 			"BluriteWeapon[+]": "Any blurite melee weapon",
@@ -211343,6 +211635,7 @@
 			"GraviteWeapon[+]": "Any gravite melee weapon",
 			"GreaterCommunionBones[+]": "Any items that can be used for a greater communion ritual",
 			"Greegree[+]": "Any type of monkey greegree",
+			"GreenBlueDragonEgg[+]": "Any breedable green or blue dragon variant",
             "GreenDragonEgg[+]": "Any breedable green dragon variant",
 			"GreenDragonhideArmour[+]": "Any piece of green dragonhide armour",
 			"GrifolicArmour[+]": "Any piece of grifolic armour",
@@ -211483,6 +211776,7 @@
 			"RasialArmour[+]": "Any armour piece of the first necromancer",
 			"RasialWeapon[+]": "Any omni necromancy weapon",
 			"RawMeat[+]": "Any meat that can be used to make cooked meat",
+			"RedBlackDragonEgg[+]": "Any breedable red or black dragon variant",
 			"RedDragonEgg[+]": "Any breedable red dragon variant",
 			"RedDragonhideArmour[+]": "Any piece of red dragonhide armour",
 			"RefinedSerenAnimaCore[+]": "Any piece of refined Seren anima core armour",
@@ -211646,7 +211940,6 @@
 			"VariantChin[+]": "Any chinchompa variant",
 			"VariantCorbicula[+]": "Any corbicula variant",
 			"VariantCow[+]": "Any cow variant",
-			"VariantDragon[+]": "Any dragon variant",
 			"VariantEwe[+]": "Any ewe variant",
 			"VariantFrog[+]": "Any poison frog variant",
 			"VariantJadinko[+]": "Any jadinko variant",
@@ -212987,7 +213280,15 @@
 					"Receive a slayer assignment from ~|Kuradal|~",
 					"Receive a slayer assignment from ~|Morvran|~",
 					"Receive a slayer assignment from ~|Laniakea|~"
-			]
+			],
+			"Lava strykewyrm task[+]": ["Lava strykewyrm task", "Lava strykewyrm wilderness task"],
+			"Ripper demon task[+]": ["Ripper demon task", "Ripper demon wilderness task"],
+			"Onyx dragon task[+]": ["Gemstone dragon task", "Onyx dragon wilderness task"],
+			"Hydrix dragon task[+]": ["Gemstone dragon task", "Hydrix dragon wilderness task"],
+			"Abyssal demon task[+]": ["Abyssal demon task", "Abyssal demon wilderness task"],
+			"Abyssal beast task[+]": ["Abyssal demon task", "Abyssal beast wilderness task"],
+			"Abyssal lord task[+]": ["Abyssal demon task", "Abyssal lord wilderness task"],
+			"Wyvern task[+]": ["Wyvern task", "Wyvern wilderness task"]
 		},
 		"tasksPlusNames": {
 			"A Taste of the Exotic[+]": "Any subtasks for A Taste of the Exotic",
@@ -231370,7 +231671,7 @@
 				"7-23": "Common"
 			},
 			"Hexhunter bow": {
-				"1": "1/5000"
+				"1": "1/1000000"
 			},
 			"Seeker's charm": {
 				"1": "Rare"
@@ -251134,6 +251435,24 @@
 			},
 			"WildernessDropTable+": {
 				"1": "50/8333"
+			},
+			"RevenantSpiritDrops+": {
+				"1": "1/625"
+			},
+			"Bloodweed seed": {
+				"1": "1/342"
+			},
+			"AncientWarriorDropTable+": {
+				"1": "10/8571"
+			},
+			"RevenantRareDrops+": {
+				"1": "1/8571"
+			},
+			"RevenantUncommonDrops+": {
+				"1": "2/8571"
+			},
+			"RevenantCommonDrops+": {
+				"1": "3/8571"
 			}
 		},
 		"Revenant dark beast": {
@@ -251163,6 +251482,24 @@
 			},
 			"WildernessDropTable+": {
 				"1": "50/4464"
+			},
+			"RevenantSpiritDrops+": {
+				"1": "1/334"
+			},
+			"Bloodweed seed": {
+				"1": "1/240"
+			},
+			"AncientWarriorDropTable+": {
+				"1": "10/6000"
+			},
+			"RevenantRareDrops+": {
+				"1": "1/6000"
+			},
+			"RevenantUncommonDrops+": {
+				"1": "2/6000"
+			},
+			"RevenantCommonDrops+": {
+				"1": "3/6000"
 			}
 		},
 		"Revenant demon": {
@@ -251192,6 +251529,24 @@
 			},
 			"WildernessDropTable+": {
 				"1": "50/5952"
+			},
+			"RevenantSpiritDrops+": {
+				"1": "1/446"
+			},
+			"Bloodweed seed": {
+				"1": "1/266"
+			},
+			"AncientWarriorDropTable+": {
+				"1": "10/6666"
+			},
+			"RevenantRareDrops+": {
+				"1": "1/6666"
+			},
+			"RevenantUncommonDrops+": {
+				"1": "2/6666"
+			},
+			"RevenantCommonDrops+": {
+				"1": "3/6666"
 			}
 		},
 		"Revenant dragon": {
@@ -251221,6 +251576,71 @@
 			},
 			"WildernessDropTable+": {
 				"1": "50/3968"
+			},
+			"RevenantSpiritDrops+": {
+				"1": "1/297"
+			},
+			"Bloodweed seed": {
+				"1": "1/218"
+			},
+			"AncientWarriorDropTable+": {
+				"1": "10/5454"
+			},
+			"RevenantRareDrops+": {
+				"1": "1/5454"
+			},
+			"RevenantUncommonDrops+": {
+				"1": "2/5454"
+			},
+			"RevenantCommonDrops+": {
+				"1": "3/5454"
+			}
+		},
+		"Revenant goblin": {
+			"Limpwurt seed": {
+				"1": "1/96"
+			},
+			"Ghost hunter goggles": {
+				"1": "1/2000"
+			},
+			"Ghost hunter body": {
+				"1": "1/2000"
+			},
+			"Ghost hunter legs": {
+				"1": "1/2000"
+			},
+			"Ghost hunter backpack": {
+				"1": "1/2000"
+			},
+			"Ectoplasmator": {
+				"1": "1/1000"
+			},
+			"Deployable herb burner": {
+				"1": "1/1024"
+			},
+			"Cremation ability": {
+				"1": "1/1000"
+			},
+			"WildernessDropTable+": {
+				"1": "50/11363"
+			},
+			"RevenantSpiritDrops+": {
+				"1": "1/2343"
+			},
+			"Bloodweed seed": {
+				"1": "1/600"
+			},
+			"AncientWarriorDropTable+": {
+				"1": "10/15000"
+			},
+			"RevenantRareDrops+": {
+				"1": "1/15000"
+			},
+			"RevenantUncommonDrops+": {
+				"1": "2/15000"
+			},
+			"RevenantCommonDrops+": {
+				"1": "3/15000"
 			}
 		},
 		"Revenant hellhound": {
@@ -251250,6 +251670,24 @@
 			},
 			"WildernessDropTable+": {
 				"1": "50/7142"
+			},
+			"RevenantSpiritDrops+": {
+				"1": "1/535"
+			},
+			"Bloodweed seed": {
+				"1": "1/300"
+			},
+			"AncientWarriorDropTable+": {
+				"1": "10/7500"
+			},
+			"RevenantRareDrops+": {
+				"1": "1/7500"
+			},
+			"RevenantUncommonDrops+": {
+				"1": "2/7500"
+			},
+			"RevenantCommonDrops+": {
+				"1": "3/7500"
 			}
 		},
 		"Revenant hobgoblin": {
@@ -251279,6 +251717,24 @@
 			},
 			"WildernessDropTable+": {
 				"1": "50/11363"
+			},
+			"RevenantSpiritDrops+": {
+				"1": "1/852"
+			},
+			"Bloodweed seed": {
+				"1": "1/400"
+			},
+			"AncientWarriorDropTable+": {
+				"1": "10/10000"
+			},
+			"RevenantRareDrops+": {
+				"1": "1/10000"
+			},
+			"RevenantUncommonDrops+": {
+				"1": "2/10000"
+			},
+			"RevenantCommonDrops+": {
+				"1": "3/10000"
 			}
 		},
 		"Revenant icefiend": {
@@ -251308,6 +251764,24 @@
 			},
 			"WildernessDropTable+": {
 				"1": "50/13513"
+			},
+			"RevenantSpiritDrops+": {
+				"1": "1/1013"
+			},
+			"Bloodweed seed": {
+				"1": "1/400"
+			},
+			"AncientWarriorDropTable+": {
+				"1": "10/10000"
+			},
+			"RevenantRareDrops+": {
+				"1": "1/10000"
+			},
+			"RevenantUncommonDrops+": {
+				"1": "2/10000"
+			},
+			"RevenantCommonDrops+": {
+				"1": "3/10000"
 			}
 		},
 		"Revenant imp": {
@@ -251334,6 +251808,24 @@
 			},
 			"WildernessDropTable+": {
 				"1": "50/35714"
+			},
+			"RevenantSpiritDrops+": {
+				"1": "1/2678"
+			},
+			"Bloodweed seed": {
+				"1": "1/800"
+			},
+			"AncientWarriorDropTable+": {
+				"1": "10/20000"
+			},
+			"RevenantRareDrops+": {
+				"1": "1/20000"
+			},
+			"RevenantUncommonDrops+": {
+				"1": "2/20000"
+			},
+			"RevenantCommonDrops+": {
+				"1": "3/20000"
 			}
 		},
 		"Revenant knight": {
@@ -251363,6 +251855,24 @@
 			},
 			"WildernessDropTable+": {
 				"1": "50/4201"
+			},
+			"RevenantSpiritDrops+": {
+				"1": "1/315"
+			},
+			"Bloodweed seed": {
+				"1": "1/240"
+			},
+			"AncientWarriorDropTable+": {
+				"1": "10/6000"
+			},
+			"RevenantRareDrops+": {
+				"1": "1/6000"
+			},
+			"RevenantUncommonDrops+": {
+				"1": "2/6000"
+			},
+			"RevenantCommonDrops+": {
+				"1": "3/6000"
 			}
 		},
 		"Revenant ork": {
@@ -251392,6 +251902,24 @@
 			},
 			"WildernessDropTable+": {
 				"1": "50/5102"
+			},
+			"RevenantSpiritDrops+": {
+				"1": "1/382"
+			},
+			"Bloodweed seed": {
+				"1": "1/266"
+			},
+			"AncientWarriorDropTable+": {
+				"1": "10/6666"
+			},
+			"RevenantRareDrops+": {
+				"1": "1/6666"
+			},
+			"RevenantUncommonDrops+": {
+				"1": "2/6666"
+			},
+			"RevenantCommonDrops+": {
+				"1": "3/6666"
 			}
 		},
 		"Revenant pyrefiend": {
@@ -251421,6 +251949,24 @@
 			},
 			"WildernessDropTable+": {
 				"1": "50/12500"
+			},
+			"RevenantSpiritDrops+": {
+				"1": "1/937"
+			},
+			"Bloodweed seed": {
+				"1": "1/400"
+			},
+			"AncientWarriorDropTable+": {
+				"1": "10/10000"
+			},
+			"RevenantRareDrops+": {
+				"1": "1/10000"
+			},
+			"RevenantUncommonDrops+": {
+				"1": "2/10000"
+			},
+			"RevenantCommonDrops+": {
+				"1": "3/10000"
 			}
 		},
 		"Revenant vampyre": {
@@ -251450,6 +251996,24 @@
 			},
 			"WildernessDropTable+": {
 				"1": "50/10638"
+			},
+			"RevenantSpiritDrops+": {
+				"1": "1/797"
+			},
+			"Bloodweed seed": {
+				"1": "1/400"
+			},
+			"AncientWarriorDropTable+": {
+				"1": "10/10000"
+			},
+			"RevenantRareDrops+": {
+				"1": "1/10000"
+			},
+			"RevenantUncommonDrops+": {
+				"1": "2/10000"
+			},
+			"RevenantCommonDrops+": {
+				"1": "3/10000"
 			}
 		},
 		"Revenant werewolf": {
@@ -251479,6 +252043,24 @@
 			},
 			"WildernessDropTable+": {
 				"1": "50/9433"
+			},
+			"RevenantSpiritDrops+": {
+				"1": "1/707"
+			},
+			"Bloodweed seed": {
+				"1": "1/342"
+			},
+			"AncientWarriorDropTable+": {
+				"1": "10/8571"
+			},
+			"RevenantRareDrops+": {
+				"1": "1/8571"
+			},
+			"RevenantUncommonDrops+": {
+				"1": "2/8571"
+			},
+			"RevenantCommonDrops+": {
+				"1": "3/8571"
 			}
 		},
 		"River troll": {
@@ -252240,6 +252822,9 @@
 				"4": "51.8/1000"
 			},
 			"RareDropTable+": {
+				"1": "1/50"
+			},
+			"EliteRuneDragon+": {
 				"1": "1/50"
 			}
 		},
@@ -268052,6 +268637,9 @@
 			"Frying pan": [{
 				"RecipeSub[+]x4": "Quest"
 			}],
+			"Hazelmere's signet ring^": [{
+				"Luck of the Dwarves": "Nonskill"
+			}],
 			"Hungry hood^": [{
 				"Gain the ability to buy the ~|hungry hood|~": "Runecrafting"
 			}],
@@ -268237,6 +268825,9 @@
 			}],
 			"Unlit bug lantern^": [{
 				"Members only": "Nonskill"
+			}],
+			"Vecna skull^": [{
+				"Luck of the Dwarves": "Nonskill"
 			}],
 			"Vesta's spear^": [{
 				"Members only": "Nonskill"
@@ -268631,10 +269222,10 @@
 				"Members only": "Nonskill"
 			}],
 			"Raptor key part 1^": [{
-				"Wyvern task": "Nonskill"
+				"Wyvern task[+]": "Nonskill"
 			}],
 			"Raptor key part 2^": [{
-				"Ripper demon task": "Nonskill"
+				"Ripper demon task[+]": "Nonskill"
 			}],
 			"Raptor key part 3^": [{
 				"Camel warrior task": "Nonskill"
@@ -268664,10 +269255,10 @@
 				"Airut task": "Nonskill"
 			}],
 			"Abyssal wand^": [{
-				"Abyssal demon task": "Nonskill"
+				"Abyssal demon task[+]": "Nonskill"
 			}],
 			"Abyssal orb^": [{
-				"Abyssal demon task": "Nonskill"
+				"Abyssal demon task[+]": "Nonskill"
 			}],
 			"Celestial Handwraps^Celestial dragon": [{
 				"Celestial dragon task": "Nonskill"
@@ -295507,6 +296098,9 @@
 				},
 				"RareDropTable+": {
 					"1": "1/100"
+				},
+				"EliteEdimmu+": {
+					"1": "1/50"
 				}
 			},
 			"Elite Profane Scabarite": {
@@ -302081,10 +302675,10 @@
 					"2-5": "6/128"
 				},
 				"Hexhunter bow": {
-					"1": "1/1500000"
+					"1": "1/37500"
 				},
 				"Soulgazer's charm": {
-					"1": "1/750000"
+					"1": "1/18750"
 				},
 				"Sealed clue scroll (elite)": {
 					"1": "99/12800"
@@ -312277,11 +312871,14 @@
 				"Master wand": {
 					"1": "Always"
 				},
-				"Mage's book": {
+				"Mages' book": {
 					"1": "Always"
 				},
 				"Bones to Peaches spell": {
 					"1": "Always"
+				},
+				"Battlestaff": {
+					"1": "1/2"
 				},
 				"Mist rune": {
 					"1": "1/2"
@@ -314352,12 +314949,12 @@
 			"1": [
 				"9273-1",
 				"9273-2",
-				"9528-1",
+				"9528",
 				"9271-1",
 				"9016"
 			],
 			"2": [
-				"9528-2",
+				"9528",
 				"9271-2"
 			]
 		},
@@ -314481,7 +315078,7 @@
 		},
 		"9527": {
 			"1": [
-				"9528-1",
+				"9528",
 				"9271-1"
 			],
 			"2": [
@@ -314492,16 +315089,14 @@
 				"9526-1"
 			],
 			"4": [
-				"9528-2",
+				"9528",
 				"9271-2"
 			]
 		},
 		"9528": {
-			"1": [
+			"0": [
 				"9527-1",
-				"9272-1"
-			],
-			"2": [
+				"9272-1",
 				"9527-4",
 				"9272-2"
 			]
@@ -341251,7 +341846,7 @@
 			"prayer": 0,
 			"accuracy": 0
 		},
-		"Elite dracolich hauberk": {
+		"Elite Dracolich hauberk": {
 			"ranged": 36,
 			"requirements": {
 				"Defence": 92
@@ -341269,7 +341864,7 @@
 			"prayer": 3,
 			"accuracy": 0
 		},
-		"Elite dracolich boots": {
+		"Elite Dracolich boots": {
 			"ranged": 15,
 			"requirements": {
 				"Defence": 92
@@ -341287,7 +341882,7 @@
 			"prayer": 1,
 			"accuracy": 0
 		},
-		"Elite dracolich chaps": {
+		"Elite Dracolich chaps": {
 			"ranged": 31,
 			"requirements": {
 				"Defence": 92
@@ -341305,7 +341900,7 @@
 			"prayer": 2,
 			"accuracy": 0
 		},
-		"Elite dracolich coif": {
+		"Elite Dracolich coif": {
 			"ranged": 24,
 			"requirements": {
 				"Defence": 92
@@ -341323,7 +341918,7 @@
 			"prayer": 2,
 			"accuracy": 0
 		},
-		"Elite dracolich vambraces": {
+		"Elite Dracolich vambraces": {
 			"ranged": 15,
 			"requirements": {
 				"Defence": 92
@@ -370666,7 +371261,7 @@
 			"accuracy": 2577,
 			"auto_damage": 2056.2
 		},
-		"Shade robe (bottom)": {
+		"Shade robe bottom": {
 			"ranged": 0,
 			"requirements": {},
 			"class": "none",
@@ -370681,7 +371276,7 @@
 			"prayer": 4,
 			"accuracy": 0
 		},
-		"Shade robe (top)": {
+		"Shade robe top": {
 			"ranged": 0,
 			"requirements": {},
 			"class": "none",
@@ -382871,6 +383466,7 @@
 			"slot": "neck",
 			"strength": 0,
 			"magic": 0,
+			"magic_accuracy": 110,
 			"prayer": 1,
 			"accuracy": 0
 		},
