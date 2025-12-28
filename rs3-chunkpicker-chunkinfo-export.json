@@ -30857,7 +30857,7 @@
 			},
 			"Complete a ~|Guthixian cache|~": {
 				"Category": ["DnD"],
-				"Objects": ["Energy rift"],
+				"Chunks": ["Guthixian Cache"],
 				"Level": 1,
 				"Primary": true,
 				"Priority": 12,
@@ -31012,7 +31012,7 @@
 			},
 			"Subdue an ~|enraged automaton|~": {
 				"Category": ["DnD"],
-				"Objects": ["Energy rift"],
+				"Chunks": ["Guthixian Cache"],
 				"Level": 85,
 				"Primary": false,
 				"Priority": 5
@@ -31382,7 +31382,7 @@
 			},
 			"Convert an ~|ancient memory|~": {
 				"Category": ["DnD"],
-				"Objects": ["Energy rift"],
+				"Chunks": ["Guthixian Cache"],
 				"Tasks": {
 					"~|Children of Mah|~ Complete the quest": "Quest"
 				},
@@ -50011,12 +50011,16 @@
 				"Priority": 1
 			},
 			"Create an ~|alchemical onyx|~": {
-				"Items": ["Onyx*", "Fortunate components*", "Refined components*", "Precious components*"],
+				"Items": ["Onyx*", "Fortunate components", "Refined components*", "Precious components*"],
 				"Level": 107,
+				"Skills": {
+					"Crafting": 80
+				},
 				"Output": "Alchemical onyx",
 				"Objects": ["Inventor's workbench"],
 				"Primary": true,
-				"Priority": 1
+				"Priority": 1,
+				"Not F2P": true
 			},
 			"Build an ~|alchemiser mk. II|~": {
 				"Items": ["Fire battlestaff*", "Pious components*", "Imbued components*", "Spiritual parts*"],
@@ -110639,7 +110643,7 @@
 				"Category": ["Show Diary Tasks"]
 			},
 			"~|Desert Achievements#Medium|~ Away with the Kalphites": {
-				"Description": "Travel to the fairy ring near the Kalphite Lair.",
+				"Description": "Travel to the fairy ring near the Kalphite Hive.",
 				"Chunks": ["12848"],
 				"Tasks": {
 					"~|Desert Achievements#Easy|~ Complete the Easy Achievements": "Diary",
@@ -146016,7 +146020,7 @@
 			"Obtain the ~|the Abyssal Knight|~ title": {
 				"Category": ["Titles"],
 				"Label": "Titles",
-				"Items": ["'the Abyssal Knight' title"]
+				"Items": ["'The Abyssal Knight' title"]
 			},
 			"Obtain the ~|Animaniac|~ title": {
 				"Category": ["Titles"],
@@ -151990,7 +151994,9 @@
 			},
 			"Kalphite Hive": {
 				"UnlocksArea": true,
-				"Chunks": ["KalphiteHiveUnlock[+]"]
+				"Tasks": {
+					"Access Kalphite Hive[+]": "Nonskill"
+				}
 			},
 			"Keldagrim": {
 				"UnlocksArea": true,
@@ -155239,7 +155245,7 @@
 			},
 			"Get the Cres Framework from a Guthixian Cache*": {
 				"Items": ["Golem framework"],
-				"Objects": ["Energy rift"],
+				"Chunks": ["Guthixian Cache"],
 				"Output": "Cres Framework"
 			},
 			"Get The Rings of Razulei from Dagon*": {
@@ -158250,12 +158256,21 @@
 				"Chunks": ["Keldagrim entrance tunnel"],
 				"Not F2P": true
 			},
+			"Access Kalphite Hive via 12848": {
+				"Chunks": ["12848"],
+				"Items": ["Rope"],
+				"Not F2P": true
+			},
+			"Access Kalphite Hive via Dorgesh-Kaan Agility Course": {
+				"Chunks": ["Dorgesh-Kaan Agility Course"],
+				"Not F2P": true
+			},
 			"Luck of the Dwarves": {
 				"Items": ["Luck of the Dwarves"]
 			},
 			"Obtain the wicked hood from Tam McGrubor": {
 				"NPCs": ["Tam McGrubor"],
-				"Output": ["Wicked hood"]
+				"Output": "Wicked hood"
 			}
 		}
 	},
@@ -211059,11 +211074,6 @@
 				"Sanctum of rebirth relic (rare)"
 			],
 			"FortunateComps[+]": [
-				"Sealed clue scroll (easy)", 
-				"Sealed clue scroll (medium)", 
-				"Sealed clue scroll (hard)", 
-				"Sealed clue scroll (elite)", 
-				"Sealed clue scroll (master)", 
 				"Chaos relic (rare)", 
 				"Igneous stone", 
 				"Laboratory relic (rare)", 
@@ -211652,7 +211662,7 @@
 			"HolyOverloadPotion[+]": "Any holy overload potion",
 			"HunterPotion[+]": "Any hunter potion",
 			"Ice[+]": "Any ice item that can kill a desert lizard",
-			"ImpBead[+]": "Any imp beat that can be used for magic potions",
+			"ImpBead[+]": "Any imp bead that can be used for magic potions",
 			"ImphideRobes[+]": "Any piece of imphide robes",
 			"Incandescentboon[+]": "Any type of energy that can be used to create an incandescent boon",
 			"InferiorDivine[+]": "Any divine location that can be used to make an inferior locator",
@@ -212065,7 +212075,6 @@
 			"HardGnomeRestaurant[+]": ["12854", "11828", "10291", "11068", "11318-2", "13105", "13106-1", "Dwarven Tunnel", "11822-1", "11051-1", "11823", "10030", "10033-1", "10034", "10544", "11566-2", "10288-1", "12337-1", "Keldagrim", "13357-1"],
 			"HardHideyHoles[+]": ["12856", "10293", "10040", "13099", "12090", "11569-1", "11065-1", "11318-2", "11310-1"],
 			"HighwaymanChunks[+]": ["11571-1", "11827", "12083-1"],
-			"KalphiteHiveUnlock[+]": ["12848", "Dorgesh-Kaan Agility Course"],
 			"Kandarin safes[+]": ["10032-1", "10291", "10547-1", "10806-2"],
 			"Kharidian safes[+]": ["12329-1", "12330", "12585", "12843-1", "13105", "13358-1", "13613"],
 			"LarryChunks[+]": ["10810-1", "10291"],
@@ -212165,7 +212174,6 @@
 			"HardGnomeRestaurant[+]": "Any chunk with a hard Gnome Restaurant delivery person",
 			"HardHideyHoles[+]": "Any chunk with a hard hideyhole",
 			"HighwaymanChunks[+]": "Any chunks in the south of Falador area that contain highwaymen",
-			"KalphiteHiveUnlock[+]": "Any chunks that gives permanent Kalphite hive access",
 			"Kandarin safes[+]": "Any chunk in Kandarin with safes",
 			"Kharidian safes[+]": "Any chunk in the Kharidian desert with safes",
 			"LarryChunks[+]": "Any chunk Larry is in during Cold War",
@@ -212837,6 +212845,7 @@
 		"tasksPlus": {
 			"A Taste of the Exotic[+]": ["Hard Ardougne tasks ~|A Taste of the Exotic|~ (Coconut)*", "Hard Ardougne tasks ~|A Taste of the Exotic|~ (Papaya)*"],
 			"Access Keldagrim[+]": ["Access Keldagrim via quest", "Access Keldagrim via entrance"],
+			"Access Kalphite Hive[+]": ["Access Kalphite Hive via 12848", "Access Kalphite Hive via Dorgesh-Kaan Agility Course"],
 			"AirAccess[+]": ["Access the air rune temple with a talisman*", "Access the air rune temple through the abyss*"],
 			"AnyCollection[+]": [
 				"Complete the archaeology collection 'Anarchic Abstraction'", 

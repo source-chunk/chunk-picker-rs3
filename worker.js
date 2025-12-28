@@ -516,6 +516,7 @@ let calcChallenges = function(chunks, baseChunkData) {
     let tempItemSkill = {};
     let tempMultiStepSkill = {};
     let i = 0;
+	let time = Date.now();
     !!manualTasks && !!manualTasks['Quest'] && Object.keys(manualTasks['Quest']).forEach((name) => {
         let manualOff = false;
         let i = 0;
@@ -3261,6 +3262,10 @@ let calcChallenges = function(chunks, baseChunkData) {
         });
         globalValids = {...newValids};
         //console.log(i);
+		//console.log(`Cycle ${i} took ${Date.now() - time} ms`);
+		//time = Date.now();
+		//Object.values(diff(valids, newValids) || {}).forEach((e) => console.log(e));
+		
     } while ((Object.keys(diff(valids, newValids) || {}).length !== 0 && i < 15) || i < 3);
     valids = newValids;
     //console.log(baseChunkData);
