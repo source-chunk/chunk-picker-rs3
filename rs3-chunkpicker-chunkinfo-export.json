@@ -50011,7 +50011,7 @@
 				"Priority": 1
 			},
 			"Create an ~|alchemical onyx|~": {
-				"Items": ["Onyx*", "Fortunate components", "Refined components*", "Precious components*"],
+				"Items": ["Onyx*", "Fortunate components*", "Refined components*", "Precious components*"],
 				"Level": 107,
 				"Skills": {
 					"Crafting": 80
