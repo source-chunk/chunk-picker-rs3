@@ -46001,7 +46001,7 @@
 				"Priority": 2
 			},
 			"Mix an ~|overload|~": {
-				"Items": ["ExtremeAttackPotion[+]*", "ExtremeStrengthPotion[+]*", "ExtremeDefencePotion[+]*", "ExtremeMagicPotion[+]*", "ExtremeRangingPotion[+]*", "Extreme necromancy (3)*", "Clean torstol*"],
+				"Items": ["ExtremeAttackPotion[+]*", "ExtremeStrengthPotion[+]*", "ExtremeDefencePotion[+]*", "ExtremeMagicPotion[+]*", "ExtremeRangingPotion[+]*", "ExtremeNecromancyPotion[+]*", "Clean torstol*"],
 				"Level": 96,
 				"Output": "Overload (3)",
 				"Primary": true,
@@ -50579,7 +50579,7 @@
 				"Primary": true,
 				"Priority": 13
 			},
-			"Cast ~|enchant crossbow bolt (opal)|~": {
+			"Cast ~|Enchant Crossbow Bolt (Opal)|~": {
 				"Category": ["Spells"],
 				"Items": ["Cosmic rune*", "Air rune[+]*", "Opal bolts*"],
 				"Level": 4,
@@ -50606,7 +50606,7 @@
 				"NoPet": true,
 				"NoBoost": true
 			},
-			"Cast ~|enchant crossbow bolt (sapphire)|~": {
+			"Cast ~|Enchant Crossbow Bolt (Sapphire)|~": {
 				"Category": ["Spells"],
 				"Items": ["Cosmic rune*", "Mind rune*", "Water rune[+]*", "Sapphire bolts*"],
 				"Level": 7,
@@ -50751,7 +50751,7 @@
 				"Primary": true,
 				"Priority": 1
 			},
-			"Cast ~|enchant crossbow bolt (jade)|~": {
+			"Cast ~|Enchant Crossbow Bolt (Jade)|~": {
 				"Category": ["Spells"],
 				"Items": ["Cosmic rune*", "Earth rune[+]*", "Jade bolts*"],
 				"Level": 14,
@@ -50861,7 +50861,7 @@
 				"Primary": true,
 				"Priority": 1
 			},
-			"Cast ~|enchant crossbow bolt (pearl)|~": {
+			"Cast ~|Enchant Crossbow Bolt (Pearl)|~": {
 				"Category": ["Spells"],
 				"Items": ["Cosmic rune*", "Water rune[+]*", "Pearl bolts*"],
 				"Level": 24,
@@ -50975,7 +50975,7 @@
 				"Priority": 10,
 				"Not F2P": true
 			},
-			"Cast ~|enchant crossbow bolt (emerald)|~": {
+			"Cast ~|Enchant Crossbow Bolt (Emerald)|~": {
 				"Category": ["Spells"],
 				"Items": ["Nature rune*", "Cosmic rune*", "Air rune[+]*", "Emerald bolts*"],
 				"Level": 27,
@@ -50994,7 +50994,7 @@
 				"Primary": true,
 				"Priority": 1
 			},
-			"Cast ~|enchant crossbow bolt (red topaz)|~": {
+			"Cast ~|Enchant Crossbow Bolt (Red topaz)|~": {
 				"Category": ["Spells"],
 				"Items": ["Cosmic rune*", "Fire rune[+]*", "Topaz bolts*"],
 				"Level": 29,
@@ -51200,7 +51200,7 @@
 				"NoPet": true,
 				"NoBoost": true
 			},
-			"Cast ~|enchant crossbow bolt (ruby)|~": {
+			"Cast ~|Enchant Crossbow Bolt (Ruby)|~": {
 				"Category": ["Spells"],
 				"Items": ["Blood rune*", "Cosmic rune*", "Fire rune[+]*", "Ruby bolts*"],
 				"Level": 49,
@@ -51499,7 +51499,7 @@
 				"Priority": 2,
 				"Not F2P": true
 			},
-			"Cast ~|enchant crossbow bolt (diamond)|~": {
+			"Cast ~|Enchant Crossbow Bolt (Diamond)|~": {
 				"Category": ["Spells"],
 				"Items": ["Law rune*", "Cosmic rune*", "Earth rune[+]*", "Diamond bolts*"],
 				"Level": 57,
@@ -52143,7 +52143,7 @@
 				"Primary": true,
 				"Priority": 15
 			},
-			"Cast ~|enchant crossbow bolt (dragonstone)|~": {
+			"Cast ~|Enchant Crossbow Bolt (Dragonstone)|~": {
 				"Category": ["Spells"],
 				"Items": ["Soul rune*", "Cosmic rune*", "Earth rune[+]*", "Dragon bolts*"],
 				"Level": 68,
@@ -53781,7 +53781,7 @@
 				"Primary": true,
 				"Priority": 12
 			},
-			"Cast ~|enchant crossbow bolt (onyx)|~": {
+			"Cast ~|Enchant Crossbow Bolt (Onyx)|~": {
 				"Category": ["Spells"],
 				"Items": ["Death rune*", "Cosmic rune*", "Fire rune[+]*", "Onyx bolts*"],
 				"Level": 87,
@@ -53918,7 +53918,7 @@
 				"Primary": true,
 				"Priority": 1
 			},
-			"Cast ~|enchant bakriminel bolt (opal)|~": {
+			"Cast ~|Enchant Crossbow Bolt (Opal bakriminel)|~": {
 				"Category": ["Spells"],
 				"Items": ["Air rune[+]*", "Cosmic rune*", "Blood rune*", "Opal bakriminel bolts*"],
 				"Level": 89,
@@ -53946,7 +53946,7 @@
 				"Primary": true,
 				"Priority": 2
 			},
-			"Cast ~|enchant crossbow bolt (onyx)|~ on an ascendri bolt": {
+			"Cast ~|Enchant Crossbow Bolt (Ascendri)|~": {
 				"Category": ["Spells"],
 				"Items": ["Fire rune[+]*", "Death rune*", "Cosmic rune*", "Ascendri bolts*"],
 				"Level": 90,
@@ -53998,7 +53998,7 @@
 				"Primary": true,
 				"Priority": 7
 			},
-			"Cast ~|enchant bakriminel bolt (sapphire)|~": {
+			"Cast ~|Enchant Crossbow Bolt (Sapphire bakriminel)|~": {
 				"Category": ["Spells"],
 				"Items": ["Blood rune*", "Cosmic rune*", "Mind rune*", "Water rune[+]*", "Sapphire bakriminel bolts*"],
 				"Level": 90,
@@ -54126,7 +54126,7 @@
 				"NoBoost": true,
 				"Not F2P": true
 			},
-			"Cast ~|enchant bakriminel bolt (jade)|~": {
+			"Cast ~|Enchant Crossbow Bolt (Jade bakriminel)|~": {
 				"Category": ["Spells"],
 				"Items": ["Blood rune*", "Cosmic rune*", "Earth rune[+]*", "Jade bakriminel bolts*"],
 				"Level": 91,
@@ -54190,7 +54190,7 @@
 				"Primary": true,
 				"Priority": 4
 			},
-			"Cast ~|enchant bakriminel bolt (pearl)|~": {
+			"Cast ~|Enchant Crossbow Bolt (Pearl bakriminel)|~": {
 				"Category": ["Spells"],
 				"Items": ["Blood rune*", "Cosmic rune*", "Water rune[+]*", "Pearl bakriminel bolts*"],
 				"Level": 92,
@@ -54233,7 +54233,7 @@
 				"Primary": true,
 				"Priority": 1
 			},
-			"Cast ~|enchant bakriminel bolt (emerald)|~": {
+			"Cast ~|Enchant Crossbow Bolt (Emerald bakriminel)|~": {
 				"Category": ["Spells"],
 				"Items": ["Blood rune*", "Nature rune*", "Cosmic rune*", "Air rune[+]*", "Emerald bakriminel bolt*"],
 				"Level": 93,
@@ -54271,7 +54271,7 @@
 				"Primary": true,
 				"Priority": 2
 			},
-			"Cast ~|enchant bakriminel bolt (red topaz)|~": {
+			"Cast ~|Enchant Crossbow Bolt (Red topaz bakriminel)|~": {
 				"Category": ["Spells"],
 				"Items": ["Fire rune[+]*", "Cosmic rune*", "Blood rune*", "Red topaz bakriminel bolts*"],
 				"Level": 94,
@@ -54311,7 +54311,7 @@
 				"Primary": true,
 				"Priority": 3
 			},
-			"Cast ~|enchant bakriminel bolt (ruby)|~": {
+			"Cast ~|Enchant Crossbow Bolt (Ruby bakriminel)|~": {
 				"Category": ["Spells"],
 				"Items": ["Blood rune*", "Cosmic rune*", "Fire rune[+]*", "Ruby bakriminel bolts*"],
 				"Level": 95,
@@ -54374,7 +54374,7 @@
 				"Primary": true,
 				"Priority": 2
 			},
-			"Cast ~|enchant bakriminel bolt (diamond)|~": {
+			"Cast ~|Enchant Crossbow Bolt (Diamond bakriminel)|~": {
 				"Category": ["Spells"],
 				"Items": ["Blood rune*", "Law rune*", "Cosmic rune*", "Earth rune[+]*", "Diamond bakriminel bolts*"],
 				"Level": 96,
@@ -54394,7 +54394,7 @@
 				"Primary": true,
 				"Priority": 4
 			},
-			"Cast ~|enchant bakriminel bolt (dragonstone)|~": {
+			"Cast ~|Enchant Crossbow Bolt (Dragonstone bakriminel)|~": {
 				"Category": ["Spells"],
 				"Items": ["Soul rune*", "Blood rune*", "Cosmic rune*", "Earth rune[+]*", "Dragonstone bakriminel bolts*"],
 				"Level": 97,
@@ -54421,7 +54421,7 @@
 				"Priority": 3,
 				"Not F2P": true
 			},
-			"Cast ~|enchant bakriminel bolt (onyx)|~": {
+			"Cast ~|Enchant Crossbow Bolt (Onyx bakriminel)|~": {
 				"Category": ["Spells"],
 				"Items": ["Blood rune*", "Death rune*", "Cosmic rune*", "Fire rune[+]*", "Onyx bakriminel bolts*"],
 				"Level": 98,
@@ -54451,7 +54451,7 @@
 				"Primary": true,
 				"Priority": 2
 			},
-			"Cast ~|enchant bakriminel bolt (hydrix)|~": {
+			"Cast ~|Enchant Crossbow Bolt (Hydrix bakriminel)|~": {
 				"Category": ["Spells"],
 				"Items": ["Blood rune*", "Death rune*", "Cosmic rune*", "Fire rune[+]*", "Hydrix bakriminel bolts*"],
 				"Level": 99,
@@ -71790,7 +71790,7 @@
 				"NoPet": true,
 				"NoBoost": true
 			},
-			"Obtain a ~|dalmation|~": {
+			"Obtain a ~|dalmatian|~": {
 				"Level": 4,
 				"Chunks": ["Pet shop[+]"],
 				"Primary": false,
@@ -141043,21 +141043,6 @@
 				"Label": "Untracked Minigame Uniques",
 				"Items": ["Portable obelisk"]
 			},
-			"(Wilderness Flash Events) Obtain the ~|Annihilation|~": {
-				"Category": ["Untracked Uniques", "Untracked Uniques Minigames"],
-				"Label": "Untracked Minigame Uniques",
-				"Items": ["Annihilation"]
-			},
-			"(Wilderness Flash Events) Obtain the ~|Decimation|~": {
-				"Category": ["Untracked Uniques", "Untracked Uniques Minigames"],
-				"Label": "Untracked Minigame Uniques",
-				"Items": ["Decimation"]
-			},
-			"(Wilderness Flash Events) Obtain the ~|Obliteration|~": {
-				"Category": ["Untracked Uniques", "Untracked Uniques Minigames"],
-				"Label": "Untracked Minigame Uniques",
-				"Items": ["Obliteration"]
-			},
 			"(Wilderness Flash Events) Obtain a ~|dark onyx core|~": {
 				"Category": ["Untracked Uniques", "Untracked Uniques Minigames"],
 				"Label": "Untracked Minigame Uniques",
@@ -156782,6 +156767,7 @@
 			},
 			"Dahmaroc statue kudos": {
 				"Chunks": ["12853-1"],
+				"Items": ["Strange rock (Shattered Heart)"],
 				"Kudos": 10,
 				"Not F2P": true
 			},
@@ -157389,6 +157375,12 @@
 			},
 			"It Should Have Been Called Ancestral*": {
 				"Items": ["Starbloom hat + 5", "Starbloom robe top + 5", "Starbloom robe bottom + 5", "Starbloom gloves + 5", "Starbloom boots + 5"]
+			},
+			"It Should Have Been Called Aetherium*": {
+				"Items": ["Elder rune full helm + 5", "Elder rune platebody + 5", "Elder rune platelegs + 5", "Elder rune gauntlets + 5", "Elder rune armoured boots + 5"]
+			},
+			"It Still Should Have Been Called Aetherium*": {
+				"Items": ["Primal full helm + 5", "Primal platebody + 5", "Primal platelegs + 5", "Primal gauntlets + 5", "Primal armoured boots + 5"]
 			},
 			"Unlock the ~|TzRek-Jad|~": {
 				"Items": ["Fire cape"],
@@ -207741,6 +207733,12 @@
 				"Extreme strength (3)",
 				"Extreme strength (4)"
 			],
+			"ExtremeNecromancyPotion[+]": [
+				"Extreme necromancy (1)",
+				"Extreme necromancy (2)",
+				"Extreme necromancy (3)",
+				"Extreme necromancy (4)"
+			],
 			"FairyTaleI9[+]": ["Clean aventoe", "Baby dragon bones", "Blue dragon scale", "Charcoal", "Crushed gem", "Edible seaweed", "Fat snail", "Clean irit", "Grapes", "Jangerberries", "Jogre bones", "King worm", "Lime", "Mort myre fungus", "Mort myre pear", "Mort myre stem", "Nature talisman", "Oyster", "Potato cactus", "Proboscis", "Raw cave eel", "Red spiders' eggs", "Red vine worm", "Slimy eel", "Clean snapdragon", "Snape grass", "Supercompost", "Uncut diamond", "Uncut ruby", "Dragon bones", "White berries"],
 			"FallfacedSheep[+]": [
 				"Fallfaced ewe (unchecked)",
@@ -211597,6 +211595,7 @@
 			"ExtremeMagicPotion[+]": "Any extreme magic potion",
 			"ExtremeRangingPotion[+]": "Any extreme ranging potion",
 			"ExtremeStrengthPotion[+]": "Any extreme strength potion",
+			"ExtremeNecromancyPotion[+]": "Any extreme necromancy potion",
 			"EZKWeaponPiece[+]": "Any piece of the Ek-ZekKil",
 			"FairyTaleI9[+]": "Any items needed to enchant the magic secateurs",
 			"FallfacedSheep[+]": "Any breedable fallfaced sheep",
@@ -270814,7 +270813,7 @@
 				}]
 			},
 			"Rooster": {
-				"11319-1": [{
+				"11319-2": [{
 					"Members only": "Nonskill"
 				}]
 			},
