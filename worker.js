@@ -383,12 +383,12 @@ onmessage = function(e) {
             }
         });
         type === 'current' && postMessage('100%');
-        //console.log(globalValids);
+        console.log(globalValids);
 
         let tempChallengeArr;
         type === 'current' && (tempChallengeArr = calcCurrentChallenges2());
 
-        //console.log(nonValids);
+        console.log(nonValids);
         //console.log(baseChunkData);
 
         postMessage([type, globalValids, baseChunkData, chunkInfo, highestCurrent, tempChallengeArr, type === 'current' ? questPointTotal : 1, highestOverall, type === 'current' ? dropRatesGlobal : {}, questProgress, diaryProgress, skillQuestXp, chunks, type === 'current' ? dropTablesGlobal : {}, bestEquipmentAltsGlobal, unlockedSections, type === 'current' ? combatScoreTotal : 0, highestOverallCompleted, bisUpgradesOutput, globalValidsBoosts]);

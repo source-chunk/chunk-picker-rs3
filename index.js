@@ -471,7 +471,8 @@ let rules = {
 	"Kili Knowledge": false,
 	"Slayer Contracts": false,
 	"Hide Partial Products": false,
-	"Timegated": false
+	"Timegated": false,
+	"Cosmetics": false
 };                                                                              // List of rules and their on/off state
 
 let ruleNames = {
@@ -544,7 +545,8 @@ let ruleNames = {
     "Combat and Teleport Spells": "Allow all spells to count as possible Magic skill tasks (otherwise only 'utility' spells like High Alchemy or Telegrab will count)",
     "Primary Spawns": "Item spawns count as primary access to an item, and can be used as a primary way to train a skill if needed<span class='rule-asterisk noscroll'>*</span>",
     "Smithing by Smelting": "Smelting ores into bars counts as a primary method for training Smithing",
-    "Pets": "Obtaining pets is included in the collection log tasks<span class='rule-asterisk noscroll'>*</span>",
+    "Pets": "Must obtain pets for Collections and Unlocks tasks<span class='rule-asterisk noscroll'>*</span>",
+    "Cosmetics": "Must obtain cosmetic items or overrides for Collection and Unlocks tasks<span class='rule-asterisk noscroll'>*</span>",
     "Manually Complete Tasks": "<b class='noscroll'>For maps that allow manually choosing new chunks</b>, allow the ability to manually move completed active tasks",
     "Every Drop": "Must obtain every unique item drop from monsters (items that are dropped by multiple monsters only need to be obtained once)",
     "Every Drop Implings": "Allow drops from implings to also count towards these tasks",
@@ -681,6 +683,7 @@ let rulePresets = {
         "Slayer Souls": true,
         "Smithing by Smelting": true,
         "Pets": true,
+        "Cosmetics": true,
         "Rare Drop Amount": "0",
         "HigherLander": true,
         "Secondary MTA": true,
@@ -768,6 +771,7 @@ let rulePresets = {
         "Slayer Souls": true,
         "Smithing by Smelting": true,
         "Pets": true,
+        "Cosmetics": true,
         "Rare Drop Amount": "0",
         "HigherLander": true,
         "Secondary MTA": true,
@@ -924,6 +928,7 @@ let ruleStructure = {
 		"Titles": true,
 		"Fill Costume Room": true,
 		"Ceremonial Swords": true,
+		"Cosmetics": true,
 		"Pets": ["Skilling Pets"]
 	},
     "Item Sources": {
@@ -12615,10 +12620,6 @@ let loadData = async function(startup) {
             rulesTemp['Spells'] = true;
         }
 
-        if (!rulesTemp.hasOwnProperty('PvP Minigame')) {
-            rulesTemp['PvP Minigame'] = rulesTemp.hasOwnProperty('Minigame') ? rulesTemp['Minigame'] : false;
-        }
-
         if (!rulesTemp.hasOwnProperty('Cleaning Herbs')) {
             rulesTemp['Cleaning Herbs'] = true;
         }
@@ -12649,10 +12650,6 @@ let loadData = async function(startup) {
             rulesTemp['Hide Partial Products'] = false;
         }
 
-        /*if (!rulesTemp.hasOwnProperty('Additional Unlockables')) {
-            rulesTemp['Additional Unlockables'] = rulesTemp.hasOwnProperty('Permanent Unlockables') ? rulesTemp['Permanent Unlockables'] : false;
-        }*/
-
         if (!rulesTemp.hasOwnProperty('Boss Level')) {
             rulesTemp['Boss Level'] = rulesTemp.hasOwnProperty('Boss') ? rulesTemp['Boss'] : false;
         }
@@ -12681,8 +12678,12 @@ let loadData = async function(startup) {
             rulesTemp['Boss Collection Log'] = rulesTemp.hasOwnProperty('Slayer Collection Log') ? rulesTemp['Slayer Collection Log'] : false;
         }
 		
-		 if (!rulesTemp.hasOwnProperty('Skilling Collection Log')) {
+		if (!rulesTemp.hasOwnProperty('Skilling Collection Log')) {
             rulesTemp['Skilling Collection Log'] = (rulesTemp.hasOwnProperty('Slayer Collection Log') || rulesTemp.hasOwnProperty('Untracked Uniques Skilling')) ? (rulesTemp['Slayer Collection Log'] || rulesTemp['Untracked Uniques Skilling']) : false;
+        }
+		
+		if (!rulesTemp.hasOwnProperty('Cosmetics')) {
+            rulesTemp['Cosmetics'] = (rulesTemp.hasOwnProperty('Collection Log') || rulesTemp.hasOwnProperty('Untracked Uniques')) ? (rulesTemp.hasOwnProperty('Collection Log') || rulesTemp.hasOwnProperty('Untracked Uniques')) : false;
         }
 		
 		if (!rulesTemp.hasOwnProperty('Untracked Uniques Skilling')) {
