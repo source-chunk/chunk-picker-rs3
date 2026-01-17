@@ -77038,7 +77038,7 @@
 			},
 			"~|Benedict's World Tour (miniquest)|~ 2a": {
 				"BaseQuest": "Benedict's World Tour (miniquest)",
-				"Description": "Collect the box of pelt in Varrock Palace",
+				"Description": "Collect the fox pelt in Varrock Palace",
 				"Chunks": ["12854"],
 				"Tasks": {
 					"~|Benedict's World Tour (miniquest)|~ 1": "Quest"
@@ -140639,15 +140639,15 @@
 				"Label": "Untracked Minigame Uniques",
 				"Items": ["Sasha"]
 			},
-			"(Herby Werby) Obtain a ~|Totem of Crystal Base|~": {
+			"(Herby Werby) Obtain a ~|Totem of Crystal base|~": {
 				"Category": ["Untracked Uniques", "Untracked Uniques Minigames"],
 				"Label": "Untracked Minigame Uniques",
-				"Items": ["Totem of Crystal Base"]
+				"Items": ["Totem of Crystal base"]
 			},
-			"(Herby Werby) Obtain a ~|Totem of Abyss Top|~": {
+			"(Herby Werby) Obtain a ~|Totem of the Abyss top|~": {
 				"Category": ["Untracked Uniques", "Untracked Uniques Minigames"],
 				"Label": "Untracked Minigame Uniques",
-				"Items": ["Totem of Abyss Top"]
+				"Items": ["Totem of the Abyss top"]
 			},
 			"(Herblore Habitat) Obtain a ~|witchdoctor mask|~": {
 				"Category": ["Untracked Uniques", "Untracked Uniques Minigames"],
@@ -141248,10 +141248,10 @@
 				"Label": "Untracked Skilling Uniques",
 				"Items": ["Totem of Crystal middle"]
 			},
-			"(Anachronia Totems) Obtain the ~|Totem of Abyss base|~": {
+			"(Anachronia Totems) Obtain the ~|Totem of the Abyss base|~": {
 				"Category": ["Uncharted", "Untracked Uniques", "Untracked Uniques Skilling"],
 				"Label": "Untracked Skilling Uniques",
-				"Items": ["Totem of Abyss base"]
+				"Items": ["Totem of the Abyss base"]
 			},
 			"(Anachronia Totems) Obtain the ~|Totem of Intimidation top|~": {
 				"Category": ["Uncharted", "Untracked Uniques", "Untracked Uniques Skilling"],
@@ -157548,9 +157548,9 @@
 			},
 			"Obtain the ~|Remototem top|~*": {
 				"Chunks": ["14916"],
-				"Skills": {
-					"Farming": 42,
-					"Construction": 45
+				"Tasks": {
+					"Unlock the Anachronia Base Camp": "Nonskill",
+					"~|Player-owned farm tutorial|~ Complete the tutorial": "Quest"
 				},
 				"Output": "Remototem top"
 			},
