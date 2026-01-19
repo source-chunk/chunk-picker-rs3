@@ -9426,7 +9426,7 @@
 					"Slayer": 1
 				},
 				"Tasks": {
-					"TurealREQ": "Nonskill"
+					"MagicWeapon[+]": "Magic"
 				}
 			},
 			"Receive a slayer assignment from ~|Jacquelyn|~": {
@@ -20227,6 +20227,22 @@
 				"Output": "Lapis lazuli gem",
 				"Primary": true,
 				"Priority": 39
+			},
+			"Assemble a ~|Double Surge codex|~": {
+				"Items": ["Codex page*"],
+				"Level": 1,
+				"Output": "Double Surge codex",
+				"Primary": true,
+				"Priority": 40,
+				"Not F2P": true
+			},
+			"Assemble a ~|Double Escape codex|~": {
+				"Items": ["Codex page*"],
+				"Level": 1,
+				"Output": "Double Escape codex",
+				"Primary": true,
+				"Priority": 42,
+				"Not F2P": true
 			},
 			"Chisel ~|pure essence fragments|~": {
 				"Category": ["Token"],
@@ -54306,7 +54322,7 @@
 				"Category": ["Spells"],
 				"Items": ["Blood rune*", "Cosmic rune*", "Fire rune[+]*", "Ruby bakriminel bolts*"],
 				"Level": 95,
-				"Output": "Rube bakriminel bolts (e)",
+				"Output": "Ruby bakriminel bolts (e)",
 				"Primary": true,
 				"Priority": 4,
 				"Not F2P": true
@@ -135580,52 +135596,52 @@
 				"Items": ["Karasu orokami mask"]
 			},
 			"(Big Game Hunter) Obtain a ~|dragon mattock|~": {
-				"Category": ["Uncharted", "Untracked Uniques", "Untracked Uniques Skilling"],
+				"Category": ["Untracked Uniques", "Untracked Uniques Skilling"],
 				"Label": "Untracked Skilling Uniques",
 				"Items": ["Dragon mattock"]
 			},
 			"(Big Game Hunter) Obtain ~|compacted hides|~": {
-				"Category": ["Uncharted", "Untracked Uniques", "Untracked Uniques Skilling"],
+				"Category": ["Untracked Uniques", "Untracked Uniques Skilling"],
 				"Label": "Untracked Skilling Uniques",
 				"Items": ["Compacted hides"]
 			},
 			"(Big Game Hunter) Obtain a ~|compass arrow|~": {
-				"Category": ["Uncharted", "Untracked Uniques", "Untracked Uniques Skilling"],
+				"Category": ["Untracked Uniques", "Untracked Uniques Skilling"],
 				"Label": "Untracked Skilling Uniques",
 				"Items": ["Compass arrow"]
 			},
 			"(Big Game Hunter) Obtain a ~|reinforced dinosaur pelt|~": {
-				"Category": ["Uncharted", "Untracked Uniques", "Untracked Uniques Skilling"],
+				"Category": ["Untracked Uniques", "Untracked Uniques Skilling"],
 				"Label": "Untracked Skilling Uniques",
 				"Items": ["Reinforced dinosaur pelt"]
 			},
 			"(Big Game Hunter) Obtain a ~|dinosaur rib bone|~": {
-				"Category": ["Uncharted", "Untracked Uniques", "Untracked Uniques Skilling"],
+				"Category": ["Untracked Uniques", "Untracked Uniques Skilling"],
 				"Label": "Untracked Skilling Uniques",
 				"Items": ["Dinosaur rib bone"]
 			},
 			"(Big Game Hunter) Obtain a ~|superior long bone|~": {
-				"Category": ["Uncharted", "Untracked Uniques", "Untracked Uniques Skilling"],
+				"Category": ["Untracked Uniques", "Untracked Uniques Skilling"],
 				"Label": "Untracked Skilling Uniques",
 				"Items": ["Superior long bone"]
 			},
 			"(Big Game Hunter) Obtain a ~|tribal fin|~": {
-				"Category": ["Uncharted", "Untracked Uniques", "Untracked Uniques Skilling"],
+				"Category": ["Untracked Uniques", "Untracked Uniques Skilling"],
 				"Label": "Untracked Skilling Uniques",
 				"Items": ["Tribal fin"]
 			},
 			"(Big Game Hunter) Obtain a ~|volcanic fragments|~": {
-				"Category": ["Uncharted", "Untracked Uniques", "Untracked Uniques Skilling"],
+				"Category": ["Untracked Uniques", "Untracked Uniques Skilling"],
 				"Label": "Untracked Skilling Uniques",
 				"Items": ["Volcanic fragments"]
 			},
 			"(Anachronia Totems) Obtain the ~|Totem of Treasure top|~": {
-				"Category": ["Uncharted", "Untracked Uniques", "Untracked Uniques Skilling"],
+				"Category": ["Untracked Uniques", "Untracked Uniques Skilling"],
 				"Label": "Untracked Skilling Uniques",
 				"Items": ["Totem of Treasure top"]
 			},
 			"(Anachronia Totems) Obtain the ~|Totem of Treasure middle|~": {
-				"Category": ["Uncharted", "Untracked Uniques", "Untracked Uniques Skilling"],
+				"Category": ["Untracked Uniques", "Untracked Uniques Skilling"],
 				"Label": "Untracked Skilling Uniques",
 				"Items": ["Totem of Treasure middle"]
 			},
@@ -135640,72 +135656,72 @@
 				"Items": ["Totem of Crystal top"]
 			},
 			"(Anachronia Totems) Obtain the ~|Totem of the Abyss middle|~": {
-				"Category": ["Uncharted", "Untracked Uniques", "Untracked Uniques Skilling"],
+				"Category": ["Untracked Uniques", "Untracked Uniques Skilling"],
 				"Label": "Untracked Skilling Uniques",
 				"Items": ["Totem of the Abyss middle"]
 			},
 			"(Anachronia Totems) Obtain the ~|Totem of Summoning top|~": {
-				"Category": ["Uncharted", "Untracked Uniques", "Untracked Uniques Skilling"],
+				"Category": ["Untracked Uniques", "Untracked Uniques Skilling"],
 				"Label": "Untracked Skilling Uniques",
 				"Items": ["Totem of Summoning top"]
 			},
 			"(Anachronia Totems) Obtain the ~|Totem of Summoning base|~": {
-				"Category": ["Uncharted", "Untracked Uniques", "Untracked Uniques Skilling"],
+				"Category": ["Untracked Uniques", "Untracked Uniques Skilling"],
 				"Label": "Untracked Skilling Uniques",
 				"Items": ["Totem of Summoning base"]
 			},
 			"(Anachronia Totems) Obtain the ~|Totem of Auras base|~": {
-				"Category": ["Uncharted", "Untracked Uniques", "Untracked Uniques Skilling"],
+				"Category": ["Untracked Uniques", "Untracked Uniques Skilling"],
 				"Label": "Untracked Skilling Uniques",
 				"Items": ["Totem of Auras base"]
 			},
 			"(Anachronia Totems) Obtain the ~|Remototem top|~": {
-				"Category": ["Uncharted", "Untracked Uniques", "Untracked Uniques Skilling"],
+				"Category": ["Untracked Uniques", "Untracked Uniques Skilling"],
 				"Label": "Untracked Skilling Uniques",
 				"Items": ["Remototem top"]
 			},
 			"(Anachronia Totems) Obtain the ~|Remototem middle|~": {
-				"Category": ["Uncharted", "Untracked Uniques", "Untracked Uniques Skilling"],
+				"Category": ["Untracked Uniques", "Untracked Uniques Skilling"],
 				"Label": "Untracked Skilling Uniques",
 				"Items": ["Remototem middle"]
 			},
 			"(Anachronia Skilling) Obtain ~|compacted wood|~": {
-				"Category": ["Uncharted", "Untracked Uniques", "Untracked Uniques Skilling"],
+				"Category": ["Untracked Uniques", "Untracked Uniques Skilling"],
 				"Label": "Untracked Skilling Uniques",
 				"Items": ["Compacted wood"]
 			},
 			"(Anachronia Skilling) Obtain ~|compacted leaves|~": {
-				"Category": ["Uncharted", "Untracked Uniques", "Untracked Uniques Skilling"],
+				"Category": ["Untracked Uniques", "Untracked Uniques Skilling"],
 				"Label": "Untracked Skilling Uniques",
 				"Items": ["Compacted leaves"]
 			},
 			"(Anachronia Skilling) Obtain ~|compacted vines|~": {
-				"Category": ["Uncharted", "Untracked Uniques", "Untracked Uniques Skilling"],
+				"Category": ["Untracked Uniques", "Untracked Uniques Skilling"],
 				"Label": "Untracked Skilling Uniques",
 				"Items": ["Compacted vines"]
 			},
 			"(Anachronia Skilling) Obtain ~|compacted stone|~": {
-				"Category": ["Uncharted", "Untracked Uniques", "Untracked Uniques Skilling"],
+				"Category": ["Untracked Uniques", "Untracked Uniques Skilling"],
 				"Label": "Untracked Skilling Uniques",
 				"Items": ["Compacted stone"]
 			},
 			"(Anachronia Skilling) Obtain ~|compacted clay|~": {
-				"Category": ["Uncharted", "Untracked Uniques", "Untracked Uniques Skilling"],
+				"Category": ["Untracked Uniques", "Untracked Uniques Skilling"],
 				"Label": "Untracked Skilling Uniques",
 				"Items": ["Compacted clay"]
 			},
 			"(Anachronia Skilling) Obtain a ~|codex page|~": {
-				"Category": ["Uncharted", "Untracked Uniques", "Untracked Uniques Skilling"],
+				"Category": ["Untracked Uniques", "Untracked Uniques Skilling"],
 				"Label": "Untracked Skilling Uniques",
 				"Items": ["Codex page"]
 			},
 			"(Anachronia Skilling) Obtain ~|Skeka's hypnowand base|~": {
-				"Category": ["Uncharted", "Untracked Uniques", "Untracked Uniques Skilling"],
+				"Category": ["Untracked Uniques", "Untracked Uniques Skilling"],
 				"Label": "Untracked Skilling Uniques",
 				"Items": ["Skeka's hypnowand base"]
 			},
 			"(Anachronia Skilling) Obtain ~|Skeka's hypnowand projector|~": {
-				"Category": ["Uncharted", "Untracked Uniques", "Untracked Uniques Skilling"],
+				"Category": ["Untracked Uniques", "Untracked Uniques Skilling"],
 				"Label": "Untracked Skilling Uniques",
 				"Items": ["Skeka's hypnowand projector"]
 			},
@@ -135720,12 +135736,12 @@
 				"Items": ["Skeka's hypnowand focus"]
 			},
 			"(Dream of Iaia) Obtain an ~|Anachronia resource pack|~": {
-				"Category": ["Uncharted", "Untracked Uniques", "Untracked Uniques Skilling"],
+				"Category": ["Untracked Uniques", "Untracked Uniques Skilling"],
 				"Label": "Untracked Skilling Uniques",
 				"Items": ["Anachronia resource pack"]
 			},
 			"(Dream of Iaia) Obtain a ~|necklace of Salamancy|~": {
-				"Category": ["Uncharted", "Untracked Uniques", "Untracked Uniques Skilling"],
+				"Category": ["Untracked Uniques", "Untracked Uniques Skilling"],
 				"Label": "Untracked Skilling Uniques",
 				"Items": ["Necklace of Salamancy"]
 			},
@@ -137269,42 +137285,42 @@
 				"Items": ["Skeka's hypnowand focus"]
 			},
 			"(Anachronia Combat) Obtain ~|Skeka's hypnowand base|~": {
-				"Category": ["Uncharted", "Untracked Uniques", "Untracked Uniques Combat"],
+				"Category": ["Untracked Uniques", "Untracked Uniques Combat"],
 				"Label": "Untracked Skilling Uniques",
 				"Items": ["Skeka's hypnowand base"]
 			},
 			"(Anachronia Combat) Obtain ~|Skeka's hypnowand projector|~": {
-				"Category": ["Uncharted", "Untracked Uniques", "Untracked Uniques Combat"],
+				"Category": ["Untracked Uniques", "Untracked Uniques Combat"],
 				"Label": "Untracked Skilling Uniques",
 				"Items": ["Skeka's hypnowand projector"]
 			},
 			"(Anachronia Combat) Obtain ~|compacted hides|~": {
-				"Category": ["Uncharted", "Untracked Uniques", "Untracked Uniques Combat"],
+				"Category": ["Untracked Uniques", "Untracked Uniques Combat"],
 				"Label": "Untracked Skilling Uniques",
 				"Items": ["Compacted hides"]
 			},
 			"(Anachronia Combat) Obtain a ~|dinosaur rib bone|~": {
-				"Category": ["Uncharted", "Untracked Uniques", "Untracked Uniques Combat"],
+				"Category": ["Untracked Uniques", "Untracked Uniques Combat"],
 				"Label": "Untracked Skilling Uniques",
 				"Items": ["Dinosaur rib bone"]
 			},
 			"(Anachronia Totems) Obtain a ~|dinosaur tooth|~": {
-				"Category": ["Uncharted", "Untracked Uniques", "Untracked Uniques Combat"],
+				"Category": ["Untracked Uniques", "Untracked Uniques Combat"],
 				"Label": "Untracked Skilling Uniques",
 				"Items": ["Dinosaur tooth"]
 			},
 			"(Anachronia Totems) Obtain a ~|Totem of Auras middle|~": {
-				"Category": ["Uncharted", "Untracked Uniques", "Untracked Uniques Combat"],
+				"Category": ["Untracked Uniques", "Untracked Uniques Combat"],
 				"Label": "Untracked Skilling Uniques",
 				"Items": ["Totem of Auras middle"]
 			},
 			"(Anachronia Totems) Obtain a ~|Totem of Summoning middle|~": {
-				"Category": ["Uncharted", "Untracked Uniques", "Untracked Uniques Combat"],
+				"Category": ["Untracked Uniques", "Untracked Uniques Combat"],
 				"Label": "Untracked Skilling Uniques",
 				"Items": ["Totem of Summoning middle"]
 			},
 			"(Anachronia Totems) Obtain a ~|Totem of Intimidation base|~": {
-				"Category": ["Uncharted", "Untracked Uniques", "Untracked Uniques Combat"],
+				"Category": ["Untracked Uniques", "Untracked Uniques Combat"],
 				"Label": "Untracked Skilling Uniques",
 				"Items": ["Totem of Intimidation base"]
 			},
@@ -141229,47 +141245,47 @@
 				"Items": ["Dragonstone guantlets"]
 			},
 			"(Anachronia Totems) Obtain the ~|Totem of Treasure base|~": {
-				"Category": ["Uncharted", "Untracked Uniques", "Untracked Uniques Skilling"],
+				"Category": ["Untracked Uniques", "Untracked Uniques Skilling"],
 				"Label": "Untracked Skilling Uniques",
 				"Items": ["Totem of Treasure base"]
 			},
 			"(Anachronia Totems) Obtain the ~|Totem of Navigation top|~": {
-				"Category": ["Uncharted", "Untracked Uniques", "Untracked Uniques Skilling"],
+				"Category": ["Untracked Uniques", "Untracked Uniques Skilling"],
 				"Label": "Untracked Skilling Uniques",
 				"Items": ["Totem of Navigation top"]
 			},
 			"(Anachronia Totems) Obtain the ~|Totem of Navigation middle|~": {
-				"Category": ["Uncharted", "Untracked Uniques", "Untracked Uniques Skilling"],
+				"Category": ["Untracked Uniques", "Untracked Uniques Skilling"],
 				"Label": "Untracked Skilling Uniques",
 				"Items": ["Totem of Navigation middle"]
 			},
 			"(Anachronia Totems) Obtain the ~|Totem of Crystal middle|~": {
-				"Category": ["Uncharted", "Untracked Uniques", "Untracked Uniques Skilling"],
+				"Category": ["Untracked Uniques", "Untracked Uniques Skilling"],
 				"Label": "Untracked Skilling Uniques",
 				"Items": ["Totem of Crystal middle"]
 			},
 			"(Anachronia Totems) Obtain the ~|Totem of the Abyss base|~": {
-				"Category": ["Uncharted", "Untracked Uniques", "Untracked Uniques Skilling"],
+				"Category": ["Untracked Uniques", "Untracked Uniques Skilling"],
 				"Label": "Untracked Skilling Uniques",
 				"Items": ["Totem of the Abyss base"]
 			},
 			"(Anachronia Totems) Obtain the ~|Totem of Intimidation top|~": {
-				"Category": ["Uncharted", "Untracked Uniques", "Untracked Uniques Skilling"],
+				"Category": ["Untracked Uniques", "Untracked Uniques Skilling"],
 				"Label": "Untracked Skilling Uniques",
 				"Items": ["Totem of Intimidation top"]
 			},
 			"(Anachronia Totems) Obtain the ~|Totem of Intimidation middle|~": {
-				"Category": ["Uncharted", "Untracked Uniques", "Untracked Uniques Skilling"],
+				"Category": ["Untracked Uniques", "Untracked Uniques Skilling"],
 				"Label": "Untracked Skilling Uniques",
 				"Items": ["Totem of Intimidation middle"]
 			},
 			"(Anachronia Totems) Obtain the ~|Totem of Auras top|~": {
-				"Category": ["Uncharted", "Untracked Uniques", "Untracked Uniques Skilling"],
+				"Category": ["Untracked Uniques", "Untracked Uniques Skilling"],
 				"Label": "Untracked Skilling Uniques",
 				"Items": ["Totem of Auras top"]
 			},
 			"(Anachronia Totems) Obtain the ~|Remototem base|~": {
-				"Category": ["Uncharted", "Untracked Uniques", "Untracked Uniques Skilling"],
+				"Category": ["Untracked Uniques", "Untracked Uniques Skilling"],
 				"Label": "Untracked Skilling Uniques",
 				"Items": ["Remototem base"]
 			},
@@ -143989,6 +144005,18 @@
 				"Category": ["Permanent Unlockables"],
 				"Label": "Permanent Unlockables",
 				"Items": ["Shard of Genesis Essence", "Devourer's Guard"],
+				"Not F2P": true
+			},
+			"Unlock the second charge for ~|Surge|~": {
+				"Category": ["Permanent Unlockables"],
+				"Label": "Permanent Unlockables",
+				"Items": ["Double Surge codex"],
+				"Not F2P": true
+			},
+			"Unlock the second charge for ~|Escape|~": {
+				"Category": ["Permanent Unlockables"],
+				"Label": "Permanent Unlockables",
+				"Items": ["Double Escape codex"],
 				"Not F2P": true
 			},
 			"Unlock the ability to craft the ~|Book of Death|~": {
@@ -156601,11 +156629,6 @@
 				"Items": ["Muddy key"],
 				"Objects": ["Muddy chest"],
 				"Output": "Muddychests"
-			},
-			"TurealREQ": {
-				"Tasks": {
-					"MagicWeapon[+]": "Magic"
-				}
 			},
 			"Completion of all Tirannwn Easy Achievements": {
 				"Tasks": {

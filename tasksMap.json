@@ -2048,6 +2048,8 @@
   "Craft an ~|unfinished wooden brooch|~": "t_2027",
   "Craft a ~|lapis lazuli brooch|~": "t_2028",
   "Cut a ~|lapis lazuli gem|~": "t_2029",
+  "Assemble a ~|Double Surge codex|~": "t_115868",
+  "Assemble a ~|Double Escape codex|~": "t_115869",
   "Chisel ~|pure essence fragments|~": "t_2030",
   "Assemble a ~|Inquisitor staff|~": "t_2031",
   "Train crafting in ~|Daemonheim|~": "t_2032",
@@ -14772,6 +14774,8 @@
   "~|Innate Mastery|~: Roar of Awakening and Ode to Deceit": "t_109759",
   "~|Innate Mastery|~: Omni guard and Soulbound lantern": "t_109760",
   "~|Innate Mastery|~: Devourer's Guard": "t_109761",
+  "Unlock the second charge for ~|Surge|~": "t_115870",
+  "Unlock the second charge for ~|Escape|~": "t_115871",
   "Unlock the ability to craft the ~|Book of Death|~": "t_111846",
   "Unlock the Reaper's choice from ~|Death's Store|~": "t_111847",
   "Unlock the ~|rainbow loot beam|~": "t_111848",
@@ -91021,5 +91025,5 @@
   "Pizazz points: ~|Death rune|~": "t_52854",
   "Pizazz points: ~|Soul rune|~": "t_52856",
   "Pizazz points: ~|Blood rune|~": "t_52857",
-  "currentNextIndex": 115868
+  "currentNextIndex": 115872
 }

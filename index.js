@@ -867,7 +867,6 @@ let ruleStructure = {
         "HigherLander": true,
 		"PvM Relics": true,
 		"Unlock Abilities": ["Sigil Abilities"],
-		"Unlock Prayers": true
     },
     "Construction": {
         "InsidePOH Primary": true,
@@ -904,7 +903,8 @@ let ruleStructure = {
 		"Kili Knowledge": true
 	},
     "Prayer": {
-        "Prayers": true
+        "Prayers": true,
+		"Unlock Prayers": true
     },
 	"Ranged": {
 		"Gnomeball": true
