@@ -578,7 +578,7 @@ let ruleNames = {
 	"Menaphos Log": "Require completion of the Menaphos Journal<span class='rule-asterisk noscroll'>*</span>",
 	"Fill Costume Room": "WIP - Must fill all slots in the Player-Owned House costume room",
 	"Achievement": "Show Achievement Tasks",
-	"Multiple Pickpockets": "Require the agility and thieving levels to quadruple pickpocket<span class='rule-asterisk noscroll'>*</span>",
+	"Multiple Pickpockets": "Require the Agility and Thieving levels to get multiple loots from pickpocketing<span class='rule-asterisk noscroll'>*</span>",
     "F2P": "Restrict to F2P skills/items/tasks only (Partially implemented)",
 	"Hard Mode Bosses": "Include Hard mode variants of bosses",
 	"Group Content": "Require content that is intended to be completed in a group<span class='rule-asterisk noscroll'>†</span>",

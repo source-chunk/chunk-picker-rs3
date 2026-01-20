@@ -94,6 +94,17 @@
 				"Priority": 8,
 				"NoPet": true
 			},
+			"Pickpocket a ~|Crux Eqal Knight|~ for quadruple loot": {
+				"Category": ["Multiple Pickpockets"],
+				"Level": 103,
+				"NPCs": ["Crux Eqal Knight"],
+				"Skills": {
+					"Thieving": 113
+				},
+				"Primary": false,
+				"Priority": 1000,
+				"NoPet": true
+			},
 			"Pickpocket a ~|gnome|~ for quadruple loot": {
 				"Category": ["Multiple Pickpockets"],
 				"Level": 95,
@@ -105,7 +116,7 @@
 				"Priority": 8,
 				"NoPet": true
 			},
-			"Pickpocket a ~|elf|~ for triple loot": {
+			"Pickpocket an ~|elf|~ for triple loot": {
 				"Category": ["Multiple Pickpockets"],
 				"Level": 95,
 				"NPCs": ["Elf"],
@@ -115,6 +126,94 @@
 				"Primary": false,
 				"Priority": 9,
 				"NoPet": true
+			},
+			"Pickpocket an ~|elf|~ for quadrple loot": {
+				"Category": ["Multiple Pickpockets"],
+				"Level": 105,
+				"NPCs": ["Elf"],
+				"Skills": {
+					"Thieving": 115
+				},
+				"Primary": false,
+				"Priority": 1000,
+				"NoPet": true
+			},
+			"Pickpocket a ~|trader|~ for double loot": {
+				"Category": ["Multiple Pickpockets"],
+				"Level": 90,
+				"NPCs": ["Trader"],
+				"Skills": {
+					"Thieving": 90
+				},
+				"Output": "Trader",
+				"Primary": false,
+				"Priority": 1002
+			},
+			"Pickpocket a ~|trader|~ for triple loot": {
+				"Category": ["Multiple Pickpockets"],
+				"Level": 100,
+				"NPCs": ["Trader"],
+				"Skills": {
+					"Thieving": 110
+				},
+				"Output": "Trader",
+				"Primary": false,
+				"Priority": 1002
+			},
+			"Pickpocket a ~|trader|~ for quadruple loot": {
+				"Category": ["Multiple Pickpockets"],
+				"Level": 110,
+				"NPCs": ["Trader"],
+				"Skills": {
+					"Thieving": 120
+				},
+				"Output": "Trader",
+				"Primary": false,
+				"Priority": 1002
+			},
+			"Pickpocket a ~|vyrewatch tither|~ for double loot": {
+				"Category": ["Multiple Pickpockets"],
+				"Level": 100,
+				"NPCs": ["Vyrewatch tither"],
+				"Skills": {
+					"Thieving": 110
+				},
+				"Output": "Vyrewatch tither",
+				"Primary": false,
+				"Priority": 1002
+			},
+			"Pickpocket a ~|vyrewatch tither|~ for triple loot": {
+				"Category": ["Multiple Pickpockets"],
+				"Level": 110,
+				"NPCs": ["Vyrewatch tither"],
+				"Skills": {
+					"Thieving": 120
+				},
+				"Output": "Vyrewatch tither",
+				"Primary": false,
+				"Priority": 1002
+			},
+			"Pickpocket a ~|goebie scavenger|~ for double loot": {
+				"Category": ["Multiple Pickpockets"],
+				"Level": 102,
+				"NPCs": ["Goebie scavenger"],
+				"Skills": {
+					"Thieving": 112
+				},
+				"Output": "Goebie scavenger",
+				"Primary": false,
+				"Priority": 1002
+			},
+			"Pickpocket a ~|Menaphos market guard|~ for double loot": {
+				"Category": ["Multiple Pickpockets"],
+				"Level": 104,
+				"NPCs": ["Menaphos market guard"],
+				"Skills": {
+					"Thieving": 114
+				},
+				"Output": "Menaphos market guard",
+				"Primary": false,
+				"Priority": 1002
 			},
 			"Rummage a ~|dead legionary|~ for double loot": {
 				"Category": ["Multiple Pickpockets"],
@@ -1821,6 +1920,18 @@
 				"NoBoost": true,
 				"NoPet": true,
 				"Not F2P": true
+			},
+			"Pickpocket a ~|hero|~ for quadruple loot": {
+				"Category": ["Multiple Pickpockets"],
+				"Level": 100,
+				"Monsters": ["Hero"],
+				"Skills": {
+					"Thieving": 110
+				},
+				"Output": "Hero",
+				"Primary": false,
+				"Priority": 100,
+				"NoPet": true
 			},
 			"Create the ~|blurite keystone|~": {
 				"Tasks": {
@@ -73655,7 +73766,7 @@
 				"Primary": true,
 				"Priority": 2
 			},
-			"Pickpocket a ~|Trader|~": {
+			"Pickpocket a ~|trader|~": {
 				"Level": 90,
 				"NPCs": ["Trader"],
 				"Output": "Trader",
@@ -73973,10 +74084,10 @@
 				},
 				"Priority": 2
 			},
-			"Pickpocket a ~|vampyre tither|~": {
+			"Pickpocket a ~|vyrewatch tither|~": {
 				"Level": 100,
-				"NPCs": ["Vampyre tither"],
-				"Output": "Vampyre tither",
+				"NPCs": ["Vyrewatch tither"],
+				"Output": "Vyrewatch tither",
 				"Primary": true,
 				"Priority": 1
 			},
@@ -74001,6 +74112,17 @@
 				"Output": "Hero",
 				"Primary": false,
 				"Priority": 1001
+			},
+			"Pickpocket a ~|trader|~ for double loot": {
+				"Category": ["Multiple Pickpockets"],
+				"Level": 100,
+				"NPCs": ["Trader"],
+				"Skills": {
+					"Agility": 90
+				},
+				"Output": "Trader",
+				"Primary": false,
+				"Priority": 1002
 			},
 			"Loot a ~|chest (Living Rock Caverns)|~": {
 				"Level": 101,
@@ -74188,6 +74310,39 @@
 				"Primary": true,
 				"Priority": 1
 			},
+			"Pickpocket a ~|hero|~ for quadruple loot": {
+				"Category": ["Multiple Pickpockets"],
+				"Level": 110,
+				"Monsters": ["Hero"],
+				"Skills": {
+					"Agility": 100
+				},
+				"Output": "Hero",
+				"Primary": false,
+				"Priority": 1001
+			},
+			"Pickpocket a ~|trader|~ for triple loot": {
+				"Category": ["Multiple Pickpockets"],
+				"Level": 110,
+				"NPCs": ["Trader"],
+				"Skills": {
+					"Agility": 100
+				},
+				"Output": "Trader",
+				"Primary": false,
+				"Priority": 1002
+			},
+			"Pickpocket a ~|vyrewatch tither|~ for double loot": {
+				"Category": ["Multiple Pickpockets"],
+				"Level": 110,
+				"NPCs": ["Vyrewatch tither"],
+				"Skills": {
+					"Agility": 100
+				},
+				"Output": "Vyrewatch tither",
+				"Primary": false,
+				"Priority": 1002
+			},
 			"Pickpocket a ~|TzHaar-Hur trader|~": {
 				"Level": 111,
 				"NPCs": ["TzHaar-Hur trader"],
@@ -74202,12 +74357,34 @@
 				"Primary": true,
 				"Priority": 1
 			},
+			"Pickpocket a ~|goebie scavenger|~ for double loot": {
+				"Category": ["Multiple Pickpockets"],
+				"Level": 112,
+				"NPCs": ["Goebie scavenger"],
+				"Skills": {
+					"Agility": 102
+				},
+				"Output": "Goebie scavenger",
+				"Primary": false,
+				"Priority": 1002
+			},
 			"Pickpocket a ~|fairy trader|~": {
 				"Level": 113,
 				"NPCs": ["Fairy trader"],
 				"Output": "Fairy trader",
 				"Primary": true,
 				"Priority": 1
+			},
+			"Pickpocket a ~|Crux Eqal Knight|~ for quadruple loot": {
+				"Category": ["Multiple Pickpockets"],
+				"Level": 113,
+				"NPCs": ["Crux Eqal Knight"],
+				"Skills": {
+					"Agility": 103
+				},
+				"Primary": false,
+				"Priority": 1000,
+				"NoPet": true
 			},
 			"Crack a ~|safe (Asuran Arsenal)|~": {
 				"Level": 114,
@@ -74222,12 +74399,34 @@
 				"Primary": true,
 				"Priority": 2
 			},
+			"Pickpocket a ~|Menaphos market guard|~ for double loot": {
+				"Category": ["Multiple Pickpockets"],
+				"Level": 114,
+				"NPCs": ["Menaphos market guard"],
+				"Skills": {
+					"Agility": 104
+				},
+				"Output": "Menaphos market guard",
+				"Primary": false,
+				"Priority": 1002
+			},
 			"Steal from a ~|Darkmeyer meat stall|~": {
 				"Level": 115,
 				"Objects": ["Darkmeyer meat stall"],
 				"Output": "Darkmeyer meat stall",
 				"Primary": true,
 				"Priority": 1
+			},
+			"Pickpocket an ~|elf|~ for triple loot": {
+				"Category": ["Multiple Pickpockets"],
+				"Level": 115,
+				"NPCs": ["Elf"],
+				"Skills": {
+					"Agility": 105
+				},
+				"Primary": false,
+				"Priority": 1000,
+				"NoPet": true
 			},
 			"Loot a ~|chest (Darkmeyer, Thieving)|~": {
 				"Level": 116,
@@ -74279,6 +74478,28 @@
 				"Primary": false,
 				"NoBoost": true,
 				"Priority": 1
+			},
+			"Pickpocket a ~|trader|~ for quadruple loot": {
+				"Category": ["Multiple Pickpockets"],
+				"Level": 120,
+				"NPCs": ["Trader"],
+				"Skills": {
+					"Agility": 110
+				},
+				"Output": "Trader",
+				"Primary": false,
+				"Priority": 1002
+			},
+			"Pickpocket a ~|vyrewatch tither|~ for triple loot": {
+				"Category": ["Multiple Pickpockets"],
+				"Level": 120,
+				"NPCs": ["Vyrewatch tither"],
+				"Skills": {
+					"Agility": 110
+				},
+				"Output": "Vyrewatch tither",
+				"Primary": false,
+				"Priority": 1003
 			},
 			"Create the ~|blurite keystone|~": {
 				"Tasks": {
