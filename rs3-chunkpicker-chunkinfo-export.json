@@ -94670,7 +94670,7 @@
 			"~|Mourning's End Part I|~ 6": {
 				"BaseQuest": "Mourning's End Part I",
 				"Description": "Torture the captured gnome",
-				"Chunks": ["Temple of Light"],
+				"Chunks": ["Mourner HQ"],
 				"Items": ["Feather", "ToadCrunchies[+]", "Magic logs", "Leather"],
 				"Tasks": {
 					"~|Mourning's End Part I|~ 5": "Quest"
@@ -94690,7 +94690,7 @@
 			"~|Mourning's End Part I|~ 8": {
 				"BaseQuest": "Mourning's End Part I",
 				"Description": "Talk to the head mourner",
-				"Chunks": ["Temple of Light"],
+				"Chunks": ["Mourner HQ"],
 				"Tasks": {
 					"~|Mourning's End Part I|~ 7": "Quest"
 				},
@@ -94765,7 +94765,7 @@
 			"~|Mourning's End Part I|~ 16": {
 				"BaseQuest": "Mourning's End Part I",
 				"Description": "Talk to the head mourner",
-				"Chunks": ["Temple of Light"],
+				"Chunks": ["Mourner HQ"],
 				"Tasks": {
 					"~|Mourning's End Part I|~ 15": "Quest"
 				},
@@ -94782,7 +94782,7 @@
 				},
 				"BaseQuest": "Mourning's End Part I",
 				"Reward": ["Teleport crystal"],
-				"Chunks": ["Temple of Light"],
+				"Chunks": ["Mourner HQ"],
 				"Not F2P": true
 			},
 			"~|Mourning's End Part II|~ 1": {
@@ -94796,8 +94796,8 @@
 			},
 			"~|Mourning's End Part II|~ 2": {
 				"BaseQuest": "Mourning's End Part II",
-				"Description": "Talk to the head mourner to get a key to the mourner tunnels",
-				"Chunks": ["Temple of Light"],
+				"Description": "Talk to the head mourner to get a key to the Mourner Tunnels",
+				"Chunks": ["Mourner HQ"],
 				"Tasks": {
 					"~|Mourning's End Part II|~ 1": "Quest"
 				},
@@ -94807,7 +94807,7 @@
 			"~|Mourning's End Part II|~ 3": {
 				"BaseQuest": "Mourning's End Part II",
 				"Description": "Obtain a piece of blackened crystal",
-				"Chunks": ["Temple of Light"],
+				"Chunks": ["Mourner Tunnels & Temple of Light"],
 				"Items": ["Chisel"],
 				"Tasks": {
 					"~|Mourning's End Part II|~ 2": "Quest"
@@ -94826,7 +94826,7 @@
 			"~|Mourning's End Part II|~ 5": {
 				"BaseQuest": "Mourning's End Part II",
 				"Description": "Solve the light puzzle. Good luck!",
-				"Chunks": ["Temple of Light"],
+				"Chunks": ["Mourner Tunnels & Temple of Light"],
 				"Items": ["Rope"],
 				"Tasks": {
 					"~|Mourning's End Part II|~ 4": "Quest"
@@ -94846,7 +94846,7 @@
 			"~|Mourning's End Part II|~ 7": {
 				"BaseQuest": "Mourning's End Part II",
 				"Description": "Use the charged crystal on the black crystal",
-				"Chunks": ["Temple of Light"],
+				"Chunks": ["Mourner Tunnels & Temple of Light"],
 				"Tasks": {
 					"~|Mourning's End Part II|~ 6": "Quest"
 				},
@@ -97534,7 +97534,7 @@
 			"~|Plague's End|~ 7": {
 				"BaseQuest": "Plague's End",
 				"Description": "Head down the trapdoor and kill all remaining mourners",
-				"Chunks": ["Temple of Light"],
+				"Chunks": ["Mourner HQ"],
 				"Tasks": {
 					"~|Plague's End|~ 6": "Quest"
 				},
@@ -106786,7 +106786,7 @@
 			"~|Within the Light|~ 2": {
 				"BaseQuest": "Within the Light",
 				"Description": "Ask the gnome inventor to be a distraction, then enchant the crystal",
-				"Chunks": ["Temple of Light"],
+				"Chunks": ["Mourner HQ"],
 				"Tasks": {
 					"~|Within the Light|~ 1": "Quest"
 				},
@@ -106804,7 +106804,7 @@
 			"~|Within the Light|~ 4": {
 				"BaseQuest": "Within the Light",
 				"Description": "Speak to Thorgel in the Temple of Light, then inspect the energised pillar, then speak to Arianwyn. Use the crystal trinket on the pillar and return to Arianwyn",
-				"Chunks": ["Temple of Light"],
+				"Chunks": ["Mourner Tunnels & Temple of Light"],
 				"Tasks": {
 					"~|Within the Light|~ 3": "Quest"
 				},
@@ -106822,7 +106822,7 @@
 			"~|Within the Light|~ 6": {
 				"BaseQuest": "Within the Light",
 				"Description": "Touch the crystal on the first floor, then touch the pillar and enter the light",
-				"Chunks": ["Temple of Light"],
+				"Chunks": ["Mourner Tunnels & Temple of Light"],
 				"Tasks": {
 					"~|Within the Light|~ 5": "Quest"
 				},
@@ -106831,7 +106831,7 @@
 			"~|Within the Light|~ 7": {
 				"BaseQuest": "Within the Light",
 				"Description": "Solve the light puzzles, then find the passage to Prifddinas. Good luck!",
-				"Chunks": ["Temple of Light"],
+				"Chunks": ["Mourner Tunnels & Temple of Light"],
 				"Tasks": {
 					"~|Within the Light|~ 6": "Quest"
 				},
@@ -115022,7 +115022,7 @@
 			},
 			"~|Tirannwn Achievements#Easy|~ Casting Shadows": {
 				"Description": "Kill a shadow in the Temple of Light with a shadow spell.",
-				"Chunks": ["Temple of Light"],
+				"Chunks": ["Mourner Tunnels & Temple of Light"],
 				"Items": ["Earth rune[+]", "AncientMagicRunes[+]"],
 				"Tasks": {
 					"~|Mourning's End Part II|~ Complete the quest": "Quest",
@@ -115190,7 +115190,7 @@
 			},
 			"~|Tirannwn Achievements#Medium|~ Light Transit": {
 				"Description": "Enter the Temple of Light using a teleport crystal.",
-				"Chunks": ["Temple of Light"],
+				"Chunks": ["Mourner Tunnels & Temple of Light"],
 				"Items": ["Crystal teleport seed"],
 				"Tasks": {
 					"~|Tirannwn Achievements#Easy|~ Complete the Easy Achievements": "Diary",
@@ -152465,8 +152465,19 @@
 				},
 				"UnlocksArea": true
 			},
-			"Temple of Light": {
-				"UnlocksArea": true
+			"Mourner Tunnles & Temple of Light": {
+				"UnlocksArea": true,
+				"Tasks": {
+					"~|Mourning's End Part II|~ 2": "Quest"
+				},
+				"Not F2P": true
+			},
+			"Mourner HQ": {
+				"UnlocksArea": true,
+				"Tasks": {
+					"~|Mourning's End Part I|~ 5": "Quest"
+				},
+				"Not F2P": true
 			},
 			"Fight Kiln": {
 				"UnlocksArea": true,
@@ -153169,7 +153180,10 @@
 				"Not F2P": true
 			},
 			"Underground Pass": {
-				"UnlocksArea": true
+				"UnlocksArea": true,
+				"Tasks": {
+					"~|Underground Pass|~ 2": "Quest"
+				}
 			},
 			"Black Knights' catacombs": {
 				"UnlocksArea": true,
@@ -155957,7 +155971,7 @@
 			},
 			"Get a death talisman from Thorgel*": {
 				"Items": ["Baby dragon bones", "Ball of wool", "Bronze bar", "Bronze med helm", "Bucket of milk", "Cake tin", "Cheese", "Chisel", "Cooked meat", "Egg", "Face mask", "Fishing rod", "Flax", "Gold ring", "Hammer", "Iron hatchet", "Iron nails", "Iron pickaxe", "Jug of wine", "Kebab", "Knife", "Leather boots", "Leather gloves", "Lobster pot", "Lockpick", "Necklace mould", "Needle", "Oak logs", "Pie dish", "Plank", "Pot of flour", "Potato cactus", "Raw potato", "Sack", "Pure essence", "Redberries", "Rope", "Rotten tomato", "Shears", "Skull", "Spade", "Swamp paste", "Thread", "Tinderbox", "Unicorn horn dust", "Vial of water", "White apron", "White berries"],
-				"Chunks": ["Temple of Light"],
+				"Chunks": ["Mourner Tunnels & Temple of Light"],
 				"Tasks": {
 					"~|Mourning's End Part II|~ 5": "Quest"
 				},
@@ -161189,7 +161203,7 @@
 				"8779": true,
 				"9369": true
 			},
-			"Name": "Temple of Light"
+			"Name": "Mourner Tunnels & Temple of Light"
 		},
 		"7502": {
 			"NPC": {
@@ -161481,14 +161495,14 @@
 				"8007": true,
 				"19044": true
 			},
-			"Name": "Temple of Light"
+			"Name": "Mourner Tunnels & Temple of Light"
 		},
 		"7752": {
 			"Object": {
 				"Guard": 3,
 				"Slave": 4
 			},
-			"Name": "Temple of Light"
+			"Name": "Mourner Tunnels & Temple of Light"
 		},
 		"7756": {
 			"Object": {
@@ -161766,7 +161780,7 @@
 			"Connect": {
 				"7751": true
 			},
-			"Name": "Temple of Light"
+			"Name": "Mourner Tunnels & Temple of Light"
 		},
 		"8008": {
 			"Object": {
@@ -161788,7 +161802,7 @@
 			"Connect": {
 				"10035": true
 			},
-			"Name": "Temple of Light"
+			"Name": "Mourner HQ"
 		},
 		"8009": {
 			"Object": {
@@ -198608,19 +198622,44 @@
 				"The Tourist Trap": "step"
 			}
 		},
-		"Temple of Light": {
+		"Mourner HQ": {
+			"Object": {
+				"Closed chest": 4,
+				"Chest (50 coins)": 1,
+				"Chest (steel arrowheads)": 1,
+				"Desk": 1
+			},
+			"Monster": {
+				"Mourner (Mourner Tunnels)": 4
+			},
+			"NPC": {
+				"Gnome": 1,
+				"Head Mourner": 1,
+				"Mourner": 2,
+				"Scotty": 1,
+				"Sanchez": 1
+			},
+			"Connect": {
+				"10035": true,
+				"7751": true
+			},
+			"Quest": {
+				"Mourning's End Part I": "step",
+				"Mourning's End Part II": "step",
+				"Plague's End": "step",
+				"Within the Light": "step"
+			}
+		},
+		"Mourner Tunnels & Temple of Light": {
 			"Object": {
 				"Mysterious ruins": 1,
 				"Crystal collector": 2,
-				"Closed chest": 9,
-				"Chest (50 coins)": 1,
-				"Chest (steel arrowheads)": 1,
+				"Closed chest": 5,
 				"Pillar of Light": 5,
 				"Tunnel": 1,
 				"Rock": 1,
 				"Guard": 3,
 				"Slave": 4,
-				"Desk": 1,
 				"Dead slave": 1,
 				"Elf messenger": 1,
 				"Portal": 1,
@@ -198629,34 +198668,24 @@
 			},
 			"Monster": {
 				"Shadow": 94,
-				"Mourner (Mourner Tunnels)": 4,
 				"Dark beast": 19
 			},
 			"NPC": {
 				"Thorgel": 1,
 				"Arianwyn": 1,
-				"Gnome": 1,
-				"Head Mourner": 1,
-				"Mourner": 3,
+				"Mourner": 1,
 				"Slave": 4,
-				"Scotty": 1,
-				"Sanchez": 1,
 				"Dwarf": 2
 			},
 			"Connect": {
-				"7496": true,
-				"7751": 2,
-				"8007": true,
+				"8008": true,
 				"8779": true,
 				"9369": true,
 				"10035": true,
 				"19044": true
 			},
 			"Quest": {
-				"Mourning's End Part I": "step",
-				"Mourning's End Part II": "step",
-				"Plague's End": "step",
-				"Within the Light": "step"
+				"Mourning's End Part II": "step"
 			}
 		},
 		"Plague's End Areas": {
@@ -268288,8 +268317,8 @@
 		"Monk's Friend": "10290, Clock Tower Dungeon",
 		"Monkey Madness": "9782, 11823, Gnome glider hangar, 11562, 11050, 10794, 11051, 11051, Ape Atoll Dungeon, Temple of Marimbo Dungeon, 10795, 10291",
 		"Mountain Daughter": "11065, 10809, 10553, 11318, Mountain camp cave",
-		"Mourning's End Part I": "ElunedChunks[+], 9265, MournerChunks[+], 11573, Temple of Light, 10292, 10036, 9780, 9008, 11570, 10035",
-		"Mourning's End Part II": "9265, Temple of Light",
+		"Mourning's End Part I": "ElunedChunks[+], 9265, MournerChunks[+], 11573, Mourner HQ, 10292, 10036, 9780, 9008, 11570, 10035",
+		"Mourning's End Part II": "9265, Mourner HQ, Mourner Tunnels & Temple of Light",
 		"Murder Mystery": "10807, 10806",
 		"Murder on the Border": "13111",
 		"My Arm's Big Adventure": "Troll Stronghold, 11320, 11321, 13358, 11058, 11056, 11312, 10547",
@@ -268321,7 +268350,7 @@
 		"Pieces of Hate": "Player-owned house, 12078, 11822, 14638, 12597, 11056, Braindeath Island",
 		"Pirate's Treasure": "12082, 11569, 12853, 11828",
 		"Plague City": "10292, Western Ardougne sewer, 10035, 10036",
-		"Plague's End": "9265, Plague's End Areas, 10291, 10035, 9779, 10036, 10292, Temple of Light, Underground Pass, 8753, 8496, 9009, 13626",
+		"Plague's End": "9265, Plague's End Areas, 10291, 10035, 9779, 10036, 10292, Mourner HQ, Underground Pass, 8753, 8496, 9009, 13626",
 		"Priest in Peril": "12854, 13622, Paterdomus",
 		"The Prisoner of Glouphrie": "Gnome Village Dungeon, 10033, 9778, Caverns under Arandar, 9521, 9265, Arposandra",
 		"Quiet Before the Swarm": "11828, 10537, 12082, Temple Knight training ground",
@@ -268413,7 +268442,7 @@
 		"What's Mine is Yours": "11829, Dwarven Mine, 11826, 13108, 12596, 12084, 11828",
 		"While Guthix Sleeps": "10804, 11573, 12854, 10029, 10289, 10034, Movario's base, 10550, 10806, 11828, 12338, 12082, 11310, 10544, 11575, 13878, 11319, 12087, Black Knights' catacombs, 11579, 11835, Tears of Guthix cavern, Ancient Guthix Temple",
 		"Witch's House": "11572, Witch's House Underground",
-		"Within the Light": "9265, Temple of Light, Death Rune Temple",
+		"Within the Light": "9265, Mourner MQ, Mourner Tunnels & Temple of Light, Death Rune Temple",
 		"Wolf Whistle": "11573, 11318, Taverley Well Cave",
 		"The World Wakes": "10804, Guthixian ruins",
 		"You Are It": "10550, 12854, 12850, 12849, 11826, 12340",
