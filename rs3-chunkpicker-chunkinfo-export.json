@@ -84819,7 +84819,7 @@
 			"~|Enchanted Key|~ 2": {
 				"BaseQuest": "Enchanted Key",
 				"Description": "Follow the enchanted key after Making History",
-				"Chunks": ["10808-1", "10290", "12081-1", "9524-1", "9781", "12085-1", "11827", "12593", "13106-1", "13364", "12598-1"],
+				"Chunks": ["10808-1", "10290", "12081-1", "9524-1", "9781", "12085-1", "11827", "12593", "13106-1", "13364", "12598"],
 				"Items": ["Spade"],
 				"Tasks": {
 					"~|Enchanted Key|~ 1": "Quest"
@@ -85095,7 +85095,7 @@
 			"~|Evil Dave's Big Day Out|~ 3": {
 				"BaseQuest": "Evil Dave's Big Day Out",
 				"Description": "Use Dave's spellbook to teleport to the Grand Exchange",
-				"Chunks": ["12598-1"],
+				"Chunks": ["12598"],
 				"Tasks": {
 					"~|Evil Dave's Big Day Out|~ 2": "Quest"
 				},
@@ -86517,7 +86517,7 @@
 			"~|Forgiveness of a Chaos Dwarf|~ 2": {
 				"BaseQuest": "Forgiveness of a Chaos Dwarf",
 				"Description": "Take the slip to a Grand Exchange clerk",
-				"Chunks": ["12598-1"],
+				"Chunks": ["12598"],
 				"Tasks": {
 					"~|Forgiveness of a Chaos Dwarf|~ 1": "Quest"
 				},
@@ -104329,7 +104329,7 @@
 			"~|Tortle Combat (miniquest)|~ 11": {
 				"BaseQuest": "Tortle Combat (miniquest)",
 				"Description": "Speak to Hofuthand at the Grand Exchange",
-				"Chunks": ["12598-1"],
+				"Chunks": ["12598"],
 				"Tasks": {
 					"~|Tortle Combat (miniquest)|~ 10": "Quest"
 				},
@@ -116533,7 +116533,7 @@
 			},
 			"~|Varrock Achievements#Medium|~ Point of En-tree": {
 				"Description": "Use the spirit tree to the north-east of the Grand Exchange.",
-				"Chunks": ["12598-1", "10033-1"],
+				"Chunks": ["12598", "10033-1"],
 				"Tasks": {
 					"~|Varrock Achievements#Easy|~ Complete the Easy Achievements": "Diary",
 					"~|Tree Gnome Village|~ Complete the quest": "Quest"
@@ -117367,7 +117367,7 @@
 				"Category": ["Show Diary Tasks"]
 			},
 			"~|Wilderness Achievements#Hard|~ Complete the Hard Achievements": {
-				"Chunks": ["12598-1"],
+				"Chunks": ["12598"],
 				"Tasks": {
 					"~|Wilderness Achievements#Medium|~ Complete the Medium Achievements": "Diary",
 					"~|Wilderness Achievements#Hard|~ Nerves of Stele": "Diary",
@@ -123730,7 +123730,7 @@
 				"Description": "Unlock all beacon keepers and fully unlock the beacon map.",
 				"BaseQuest": "Completionist achievements",
 				"Items": ["Macaw pouch*", "Diseased kebbit fur*", "Catspeak amulet", "Iron bar*", "Plank*", "Nails[+]*", "Raw lava eel*"],
-				"Chunks": ["12598-1", "10284-3"],
+				"Chunks": ["12598", "10284-3"],
 				"Skills": {
 					"Agility": 64,
 					"Construction": 59,
@@ -127873,7 +127873,7 @@
 				"Description": "Purchase the full Globetrotter outfit.",
 				"BaseQuest": "Completionist achievements",
 				"Items": ["Globetrotter jacket", "Globetrotter shorts", "Globetrotter boots", "Globetrotter arm guards", "Globetrotter backpack"],
-				"Chunks": ["12598-1"],
+				"Chunks": ["12598"],
 				"Not F2P": true
 			},
 			"~|Completionist achievements#Trimmed Completionist Cape|~ God of the Grind": {
@@ -143839,7 +143839,7 @@
 			"Obtain ~|Richie|~ and his partyhat": {
 				"Category": ["Money Unlockables", "Pets"],
 				"Label": "Pets",
-				"Chunks": ["12598-1"]
+				"Chunks": ["12598"]
 			},
 			"Unlock the ~|Revenant Pet#Dragon|~": {
 				"Category": ["Permanent Unlockables", "Pets"],
@@ -175104,7 +175104,7 @@
 				"Regicide": "step",
 				"A Void Dance": "step"
 			},
-			"Nickname": "Melzar's Maze"
+			"Nickname": "Ruined Tower"
 		},
 		"11571": {
 			"Sections": {
@@ -176483,23 +176483,13 @@
 				"Young tree": 1,
 				"Oak": 6,
 				"Yew": 1,
-				"Tree": 22,
-				"Tent": 1,
-				"Vexillum stand": 27,
-				"Bank chest": 1,
-				"Portal": 1,
-				"Noticeboard": 1,
-				"Clan Acorn Cup": 1,
-				"Clan Boss Cup - Araxxor": 1,
-				"Clan Boss Cup - Nex": 1,
-				"Clan Boss Cup - QBD": 1,
-				"Clan Boss Cup - Vorago": 1,
-				"Clan Cup results": 1,
-				"Torch": 4,
+				"Tree": 11,
+				"Evergreen": 11,
 				"Dairy churn": 1,
 				"Dairy cow": 1,
 				"Well": 1,
-				"Crashed star": 1
+				"Crashed star": 1,
+				"Armadyl's tower": 1
 			},
 			"Monster": {
 				"Guard (Falador)": 3,
@@ -176516,17 +176506,13 @@
 				"Wayne": 1,
 				"Man": 1,
 				"Malignius Mortifer": 1,
-				"Sergeant-at-Arms": 1,
-				"Scribe": 1,
 				"Baby squirrel": 5,
 				"Captain of the Guard": 1,
-				"Avalani": 1,
 				"Taw'Paak, Emissary of Armadyl": 1,
 				"Lowse": 1
 			},
 			"Connect": {
-				"4184": true,
-				"15687": true
+				"4184": true
 			},
 			"Shop": {
 				"Magic secateurs": true,
@@ -176541,7 +176527,7 @@
 				"Swan Song": "step",
 				"A Void Dance": "step"
 			},
-			"Nickname": "Clan Camp"
+			"Nickname": "Sotuh Falador Camp Site"
 		},
 		"11828": {
 			"Object": {
@@ -180179,62 +180165,60 @@
 			"Nickname": "Cooks' Guild"
 		},
 		"12598": {
-			"Sections": {
-				"1": {
-					"Object": {
-						"Wheat": 38,
-						"Fountain": 6,
-						"Oak": 3,
-						"Tree": 23,
-						"Solomon's Store": 1,
-						"Pets": 1,
-						"Portal": 1,
-						"Treasure Trail Collection Log": 1,
-						"Treasure Trail information board": 1,
-						"Underwall tunnel (Grand Exchange)": 2
-					},
-					"NPC": {
-						"Grand Exchange clerk": 4,
-						"Banker": 4,
-						"Musician": 1,
-						"Grand Exchange Tutor": 1,
-						"Brugsen Bursen": 1,
-						"Farid Morrisane (ores)": 1,
-						"Bob Barter (herbs)": 1,
-						"Murky Matt (runes)": 1,
-						"Relobo Blinyo (logs)": 1,
-						"Hofuthand (armour and weapons)": 1,
-						"Niles": 1,
-						"Solomon": 1,
-						"Guardian of the Vault": 1,
-						"Zaida": 1,
-						"Dark Joker outfit": 1,
-						"The Risen outfit": 1
-					},
-					"Spawn": {
-						"Body rune": 1,
-						"Earth rune": 1
-					},
-					"Shop": {
-						"Solomon's General Store": true,
-						"Treasure Trails Reward Shop": true
-					},
-					"Connect": {
-						"10307": true,
-						"11422": true
-					},
-					"Quest": {
-						"Evil Dave's Big Day Out": "step",
-						"Forgiveness of a Chaos Dwarf": "step",
-						"Tortle Combat (miniquest)": "step",
-						"Enchanted Key": "step"
-					}
-				},
-				"2": {
-					"Object": {
-						"Tree": 1
-					}
-				}
+			"Object": {
+				"Wheat": 38,
+				"Fountain": 6,
+				"Oak": 3,
+				"Tree": 23,
+				"Pets": 1,
+				"Portal": 1,
+				"Treasure Trail Collection Log": 1,
+				"Treasure Trail information board": 1,
+				"Underwall tunnel (Grand Exchange)": 2,
+				"Vexillum stand": 27,
+				"Portal": 1,
+				"Noticeboard": 1,
+				"Clan Acorn Cup": 1,
+				"Clan Boss Cup - Araxxor": 1,
+				"Clan Boss Cup - Nex": 1,
+				"Clan Boss Cup - QBD": 1,
+				"Clan Boss Cup - Vorago": 1,
+				"Clan Cup results": 1
+			},
+			"NPC": {
+				"Grand Exchange clerk": 4,
+				"Banker": 4,
+				"Musician": 1,
+				"Grand Exchange Tutor": 1,
+				"Brugsen Bursen": 1,
+				"Farid Morrisane (ores)": 1,
+				"Bob Barter (herbs)": 1,
+				"Murky Matt (runes)": 1,
+				"Relobo Blinyo (logs)": 1,
+				"Hofuthand (armour and weapons)": 1,
+				"Niles": 1,
+				"Sergeant-at-Arms": 1,
+				"Scribe": 1,
+				"Captain of the Guard": 1,
+				"Avalani": 1
+			},
+			"Spawn": {
+				"Body rune": 1,
+				"Earth rune": 1
+			},
+			"Shop": {
+				"Treasure Trails Reward Shop": true
+			},
+			"Connect": {
+				"10307": true,
+				"11422": true,
+				"15687": true
+			},
+			"Quest": {
+				"Evil Dave's Big Day Out": "step",
+				"Forgiveness of a Chaos Dwarf": "step",
+				"Tortle Combat (miniquest)": "step",
+				"Enchanted Key": "step"
 			},
 			"Nickname": "Grand Exchange"
 		},
@@ -212079,7 +212063,7 @@
 			"ChaosTunnelEntrance[+]": ["12343-1", "12599", "12600", "12344", "12087-1"],
 			"CoolStoryBroChunks[+]": ["9275", "9531-1"],
 			"CorruptedScarabs[+]": ["12587-1", "12843-1", "13098-1", "12586", "12585"],
-			"CropCircle[+]": ["9782-1", "10044-1", "10288-1", "10292", "11058", "11062-1", "11826", "11829-1", "12339", "12595", "12598-1", "12852", "14639"],
+			"CropCircle[+]": ["9782-1", "10044-1", "10288-1", "10292", "11058", "11062-1", "11826", "11829-1", "12339", "12595", "12598", "12852", "14639"],
 			"CreatureOfFenkenstrain1[+]": ["13878-1", "14135"],
 			"CursedEnergyRift[+]": ["12602", "12601"],
 			"CurseOfZaros1[+]": ["12093", "12089", "12342-1", "12590-1"],
@@ -270502,6 +270486,11 @@
 					"Group Content enabled": "Nonskill"
 				}]
 			},
+			"Khazard commander": {
+				"10034": [{
+					"~|Tree Gnome Village|~ 2": "Quest"
+				}]
+			},
 			"Lesser demon": {
 				"Temple of Ikov": [{
 					"~|Temple of Ikov|~ 1": "Quest"
@@ -315834,12 +315823,12 @@
 		"12342": {
 			"1": [
 				"12343-1",
-				"12598-1",
+				"12598",
 				"12341-1",
 				"12086"
 			],
 			"2": [
-				"12598-1",
+				"12598",
 				"12341-1"
 			],
 			"3": [
@@ -316041,14 +316030,13 @@
 		},
 		"12597": {
 			"1": [
-				"12598-1",
-				"12598-2",
+				"12598",
 				"12853-1",
 				"12596-1",
 				"12341-1"
 			],
 			"2": [
-				"12598-1",
+				"12598",
 				"12853-1"
 			],
 			"3": [
@@ -316056,22 +316044,19 @@
 			]
 		},
 		"12598": {
-			"1": [
+			"0": [
 				"12599",
 				"12854",
 				"12597-1",
 				"12342-1",
 				"12342-2"
-			],
-			"2": [
-				"12597-1"
 			]
 		},
 		"12599": {
 			"0": [
 				"12600",
 				"12855",
-				"12598-1",
+				"12598",
 				"12343-1"
 			]
 		},
@@ -316297,7 +316282,7 @@
 				"13110-1",
 				"13310-2",
 				"12853-1",
-				"12598-1"
+				"12598"
 			]
 		},
 		"12855": {
