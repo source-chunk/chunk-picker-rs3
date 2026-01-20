@@ -83629,7 +83629,7 @@
 			"~|Dragon Slayer|~ 5b2": {
 				"BaseQuest": "Dragon Slayer",
 				"Description": "Enter Melzar's Maze and kill Melzar to retrieve the map piece.",
-				"Chunks": ["11570", "Melzar's Maze Basement"],
+				"Chunks": ["Melzar's Maze"],
 				"Tasks": {
 					"~|Dragon Slayer|~ 5b1": "Quest"
 				}
@@ -152846,7 +152846,7 @@
 			"Chemist's Laboratory": {
 				"UnlocksArea": true
 			},
-			"Melzar's Maze Basement": {
+			"Melzar's Maze": {
 				"Tasks": {
 					"~|Dragon Slayer|~ 5b1": "Quest"
 				},
@@ -157653,7 +157653,7 @@
 					"13109-1", "13109-2", "13109-3", "12853-1", "11825-1", "Camdozaal", "12591", "13364", "12590-1", "12846-1", "13878-1", "Draynor Sewers", "11316", 
 					"14133-1", "12845-1", "11322-1", "11322-3", "11323", "13102-1", "Smoke Dungeon", "10037-1", "Shadow Dungeon", "Jaldraocht Pyramid", 
 					"13622", "11829-1", "11828", "13105", "13104-2", "12848", "Kalphite Nursery", "13365", "Senntisten Temple", "12596-1", "12596-3", 
-					"12086", "12850-1", "Dwarven Mine", "11570", "Melzar's Maze Basement", "12081-1", "12082-1", "12338-1", "11314-1", "11314-2", "11315", 
+					"12086", "12850-1", "Dwarven Mine", "11570", "Melzar's Maze", "12081-1", "12082-1", "12338-1", "11314-1", "11314-2", "11315", 
 					"Elvarg's Lair", "Lunar Isle Mine", "8253-1", "8253-2", "8508", "12589", "Enakhra's Temple", "Brimstail's cave", "10544", 
 					"9782-1", "9527-3", "9781", "FairyTaleI2[+]x5", "Zanaris", "11572-1", "11827", "12340-1", "Nature grotto", "10802-1", "8752-4", "8752-2", "8752-3",
 					"Fairy Resistance Hideout", "Cosmic Entity plane", "Gorak Plane", "11317-1", "13107-1", "Witchaven Dungeon", "13110-1", 
@@ -157707,7 +157707,7 @@
 					"Lunar Isle Mine", "8253-1", "8253-2", "8508", "10297-1", "10553", "8763", "8252-1", "8252-2", "Air Rune Temple", "Fire Rune Temple", "Water Rune Temple", 
 					"Earth Rune Temple", "10552-1", "10808-1", "11064-1", "12593", "Entrana Dungeon", "12849", "11566-1", "11566-3", "11056", "11054", "11568-2", 
 					"Cairn Island Dungeon", "11055-1", "11055-2", "11312", "11311", "Pothole Dungeon", "10291", "Temple of Ikov", "10804", "11053-1", "11309-1", "11565-1", "Viyeldi Caves",
-					"11574", "Ice Queen's lair", "11316", "12082-1", "11057", "Phoenix Gang Hideout", "12086", "12850-1", "Dwarven Mine", "11570", "Melzar's Maze Basement", "12081-1", "12338-1", 
+					"11574", "Ice Queen's lair", "11316", "12082-1", "11057", "Phoenix Gang Hideout", "12086", "12850-1", "Dwarven Mine", "11570", "Melzar's Maze", "12081-1", "12338-1", 
 					"11314-1", "11314-2", "11315", "Elvarg's Lair", "10033-1", "Gnome Village Dungeon", "Yewnock's cave", "9264", "10544", "Poison Waste Slayer Dungeon",
 					"Brimstail's cave", "9782-1", "9527-3", "9781", "11823", "9526-1", "Grand Tree Mine", "10038-1", "10038-2", "10037-1", "Glarial's Tomb", 
 					"Waterfall cave", "10034", "9779-1", "9779-2", "Tears of Guthix cavern", "11828", "Taverley Dungeon", "12852", "13878-1", "SolusLocation[+]",
@@ -175066,21 +175066,17 @@
 		"11570": {
 			"Object": {
 				"Fire": 1,
-				"Bookshelves": 5,
 				"Oak": 3,
 				"Yew": 3,
-				"Tree": 14,
+				"Tree": 11,
+				"Evergreen": 3,
 				"Bookcase": 5,
 				"Fractionation still": 1,
 				"Elder tree": 1,
 				"Bush patch": 1
 			},
 			"Monster": {
-				"Rat": 6,
-				"Imp": 1,
-				"Zombie rat": 5,
-				"Skeleton (Melzar's Maze)": 6,
-				"Ghost (Melzar's Maze)": 5
+				"Imp": 1
 			},
 			"NPC": {
 				"Da Vinci": 1,
@@ -175104,7 +175100,7 @@
 				"Regicide": "step",
 				"A Void Dance": "step"
 			},
-			"Nickname": "Ruined Tower"
+			"Nickname": "Chemist's House"
 		},
 		"11571": {
 			"Sections": {
@@ -175943,7 +175939,7 @@
 			"Connect": {
 				"11570": true
 			},
-			"Name": "Melzar's Maze Basement"
+			"Name": "Melzar's Maze"
 		},
 		"11671": {
 			"Object": {
@@ -200693,17 +200689,21 @@
 				"11570": true
 			}
 		},
-		"Melzar's Maze Basement": {
+		"Melzar's Maze": {
 			"Object": {
 				"Chest": 1,
 				"Crate": 5,
-				"Crates": 2
+				"Crates": 2,
+				"Bookshelves": 5
 			},
 			"Monster": {
-				"Rat": 3,
+				"Rat": 9,
 				"Spider": 3,
 				"Melzar the Mad": 1,
 				"Zombie (Melzar's Maze)": 2,
+				"Zombie rat": 5,
+				"Skeleton (Melzar's Maze)": 6,
+				"Ghost (Melzar's Maze)": 5,
 				"Lesser demon": 1
 			},
 			"Connect": {
@@ -268209,7 +268209,7 @@
 		"Dimension of Disaster: Curse of Arrav": "New Varrock",
 		"Dishonour among Thieves": "Empyrean Citadel, Zamorak's hideout, 11324, Lamistard's Tunnels, Southern Ardougne sewer, 10547, Death's Office, Ruins of Uzer, Taverley Dungeon, 14131",
 		"Do No Evil": "Uzer Mastaba, 13099, 11051, 13613, 12846, 13106, 12340, 12847, 13871, Pollnivneach Slayer Dungeon, Kalphite Hive, Thammaron's Throne Room",
-		"Dragon Slayer": "12596, 12086, 12850, Dwarven Mine, 11570, Melzar's Maze Basement, 12081, 12082, 12338, 11314, 11315, Elvarg's Lair",
+		"Dragon Slayer": "12596, 12086, 12850, Dwarven Mine, 11570, Melzar's Maze, 12081, 12082, 12338, 11314, 11315, Elvarg's Lair",
 		"Dream Mentor": "Lunar Isle Mine, 8253, 8508",
 		"Druidic Ritual": "11574, 11573, Burthorpe Slayer Cave, 11572",
 		"Duck Quest": "12238, 12337, 12593, 12849, 12850, 12851, 12595, 12596, Paddlington",
@@ -270432,11 +270432,6 @@
 					"Members only": "Nonskill"
 				}]
 			},
-			"Imp": {
-				"11570": [{
-					"~|Dragon Slayer|~ 5b1": "Quest"
-				}]
-			},
 			"Jail guard": {
 				"12338-1": [{
 					"~|Stolen Hearts|~ Complete the quest": "Quest"
@@ -270556,9 +270551,6 @@
 			"Rat": {
 				"10293": [{
 					"Enter the ~|Fishing Guild|~": "Fishing"
-				}],
-				"11570": [{
-					"~|Dragon Slayer|~ 5b1": "Quest"
 				}]
 			},
 			"Renegade Knight": {
@@ -270609,11 +270601,6 @@
 			"Skeleton#Armed": {
 				"Temple of Ikov": [{
 					"~|Temple of Ikov|~ 1": "Quest"
-				}]
-			},
-			"Skeleton (Melzar's Maze)": {
-				"11570": [{
-					"~|Dragon Slayer|~ 5b1": "Quest"
 				}]
 			},
 			"Taraket the Necromancer": {
@@ -270694,11 +270681,6 @@
 					"Hard Mode Bosses": "Nonskill"
 				}]
 			},
-			"Zombie rat": {
-				"11570": [{
-					"~|Dragon Slayer|~ 5b1": "Quest"
-				}]
-			},
 			"Broodoo victim": {
 				"11055-1": [{
 					"~|Jungle Potion|~ Complete the quest": "Quest"
@@ -270754,11 +270736,6 @@
 			"Ghost (Spirit of Summer)": {
 				"11834": [{
 					"~|Spirit of Summer|~ Complete the quest": "Quest"
-				}]
-			},
-			"Ghost (Melzar's Maze)": {
-				"11570": [{
-					"~|Dragon Slayer|~ 5b1": "Quest"
 				}]
 			},
 			"Dungeoneering monsters": {
