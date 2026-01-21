@@ -5124,7 +5124,7 @@ let calcBIS = function(completedOnly) {
     let notFresh = {};
     let highestOverallLocal = {};
     let vowels = ['a', 'e', 'i', 'o', 'u'];
-    let accuracyWeight = 0.5;
+    let accuracyWeight = 0.15;
     combatStyles.forEach((skill) => {
         let bestEquipment = {};
         let bestEquipmentAlts = {};
@@ -6022,70 +6022,75 @@ let calcBIS = function(completedOnly) {
             if (bestEquipment.hasOwnProperty('2h weapon')) {
                 twoHPower = chunkInfo['equipment'][bestEquipment['2h weapon']].armour + chunkInfo['equipment'][bestEquipment['2h weapon']].lp;
             }
-            if (bestEquipment.hasOwnProperty('main hand weapon')) {
-                if (bestEquipment.hasOwnProperty('off-hand weapon')) {
-                    weaponShieldPower = (chunkInfo['equipment'][bestEquipment['main hand weapon']].armour + chunkInfo['equipment'][bestEquipment['off-hand weapon']].armour) + (chunkInfo['equipment'][bestEquipment['main hand weapon']].lp + chunkInfo['equipment'][bestEquipment['off-hand weapon']].lp);
-                } else {
-                    weaponShieldPower = chunkInfo['equipment'][bestEquipment['main hand weapon']].armour + chunkInfo['equipment'][bestEquipment['main hand weapon']].lp;
-                }
-            }
             if (bestEquipment.hasOwnProperty('off-hand weapon')) {
                 offHandPower = chunkInfo['equipment'][bestEquipment['off-hand weapon']].armour + chunkInfo['equipment'][bestEquipment['off-hand weapon']].lp;
             }
             if (bestEquipment.hasOwnProperty('off-hand')) {
                 shieldPower = chunkInfo['equipment'][bestEquipment['off-hand']].armour + chunkInfo['equipment'][bestEquipment['off-hand']].lp;
             }
+			if (bestEquipment.hasOwnProperty('main hand weapon')) {
+                weaponShieldPower = chunkInfo['equipment'][bestEquipment['main hand weapon']].armour + chunkInfo['equipment'][bestEquipment['main hand weapon']].lp;
+			}
+			if (offHandPower >= shieldPower) {
+				weaponShieldPower += offHandPower;
+			} else {
+				weaponShieldPower += shieldPower;
+			}
+			
         } else if (skill === 'Ranged Tank') {
             if (bestEquipment.hasOwnProperty('2h weapon')) {
                 twoHPower = chunkInfo['equipment'][bestEquipment['2h weapon']].armour + chunkInfo['equipment'][bestEquipment['2h weapon']].lp;
             }
-            if (bestEquipment.hasOwnProperty('main hand weapon')) {
-                if (bestEquipment.hasOwnProperty('off-hand weapon')) {
-                    weaponShieldPower = (chunkInfo['equipment'][bestEquipment['main hand weapon']].armour + chunkInfo['equipment'][bestEquipment['off-hand weapon']].armour) + (chunkInfo['equipment'][bestEquipment['main hand weapon']].lp + chunkInfo['equipment'][bestEquipment['off-hand weapon']].lp);
-                } else {
-                    weaponShieldPower = chunkInfo['equipment'][bestEquipment['main hand weapon']].armour + chunkInfo['equipment'][bestEquipment['main hand weapon']].lp;
-                }
-            }
             if (bestEquipment.hasOwnProperty('off-hand weapon')) {
                 offHandPower = chunkInfo['equipment'][bestEquipment['off-hand weapon']].armour + chunkInfo['equipment'][bestEquipment['off-hand weapon']].lp;
             }
             if (bestEquipment.hasOwnProperty('off-hand')) {
                 shieldPower = chunkInfo['equipment'][bestEquipment['off-hand']].armour + chunkInfo['equipment'][bestEquipment['off-hand']].lp;
             }
+			if (bestEquipment.hasOwnProperty('main hand weapon')) {
+                weaponShieldPower = chunkInfo['equipment'][bestEquipment['main hand weapon']].armour + chunkInfo['equipment'][bestEquipment['main hand weapon']].lp;
+			}
+			if (offHandPower >= shieldPower) {
+				weaponShieldPower += offHandPower;
+			} else {
+				weaponShieldPower += shieldPower;
+			}
         } else if (skill === 'Magic Tank') {
             if (bestEquipment.hasOwnProperty('2h weapon')) {
                 twoHPower = chunkInfo['equipment'][bestEquipment['2h weapon']].armour + chunkInfo['equipment'][bestEquipment['2h weapon']].lp;
             }
-            if (bestEquipment.hasOwnProperty('main hand weapon')) {
-                if (bestEquipment.hasOwnProperty('off-hand weapon')) {
-                    weaponShieldPower = (chunkInfo['equipment'][bestEquipment['main hand weapon']].armour + chunkInfo['equipment'][bestEquipment['off-hand weapon']].armour) + (chunkInfo['equipment'][bestEquipment['main hand weapon']].lp + chunkInfo['equipment'][bestEquipment['off-hand weapon']].lp);
-                } else {
-                    weaponShieldPower = chunkInfo['equipment'][bestEquipment['main hand weapon']].armour + chunkInfo['equipment'][bestEquipment['main hand weapon']].lp;
-                }
-            }
             if (bestEquipment.hasOwnProperty('off-hand weapon')) {
                 offHandPower = chunkInfo['equipment'][bestEquipment['off-hand weapon']].armour + chunkInfo['equipment'][bestEquipment['off-hand weapon']].lp;
             }
             if (bestEquipment.hasOwnProperty('off-hand')) {
                 shieldPower = chunkInfo['equipment'][bestEquipment['off-hand']].armour + chunkInfo['equipment'][bestEquipment['off-hand']].lp;
             }
+			if (bestEquipment.hasOwnProperty('main hand weapon')) {
+                weaponShieldPower = chunkInfo['equipment'][bestEquipment['main hand weapon']].armour + chunkInfo['equipment'][bestEquipment['main hand weapon']].lp;
+			}
+			if (offHandPower >= shieldPower) {
+				weaponShieldPower += offHandPower;
+			} else {
+				weaponShieldPower += shieldPower;
+			}
         } else if (skill === 'Necromancy Tank') {
             if (bestEquipment.hasOwnProperty('2h weapon')) {
                 twoHPower = chunkInfo['equipment'][bestEquipment['2h weapon']].armour + chunkInfo['equipment'][bestEquipment['2h weapon']].lp;
             }
-            if (bestEquipment.hasOwnProperty('main hand weapon')) {
-                if (bestEquipment.hasOwnProperty('off-hand weapon')) {
-                    weaponShieldPower = (chunkInfo['equipment'][bestEquipment['main hand weapon']].armour + chunkInfo['equipment'][bestEquipment['off-hand weapon']].armour) + (chunkInfo['equipment'][bestEquipment['main hand weapon']].lp + chunkInfo['equipment'][bestEquipment['off-hand weapon']].lp);
-                } else {
-                    weaponShieldPower = chunkInfo['equipment'][bestEquipment['main hand weapon']].armour + chunkInfo['equipment'][bestEquipment['main hand weapon']].lp;
-                }
-            }
             if (bestEquipment.hasOwnProperty('off-hand weapon')) {
                 offHandPower = chunkInfo['equipment'][bestEquipment['off-hand weapon']].armour + chunkInfo['equipment'][bestEquipment['off-hand weapon']].lp;
             }
             if (bestEquipment.hasOwnProperty('off-hand')) {
                 shieldPower = chunkInfo['equipment'][bestEquipment['off-hand']].armour + chunkInfo['equipment'][bestEquipment['off-hand']].lp;
             }
+			if (bestEquipment.hasOwnProperty('main hand weapon')) {
+                weaponShieldPower = chunkInfo['equipment'][bestEquipment['main hand weapon']].armour + chunkInfo['equipment'][bestEquipment['main hand weapon']].lp;
+			}
+			if (offHandPower >= shieldPower) {
+				weaponShieldPower += offHandPower;
+			} else {
+				weaponShieldPower += shieldPower;
+			}
         }
         if (twoHPower > weaponShieldPower) {
             if (rules['Show Best in Slot 1H and 2H']) {
