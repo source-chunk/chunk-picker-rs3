@@ -529,7 +529,7 @@ let ruleNames = {
     "Extra implings": "Include implings that have non-guaranteed spawns as chunk tasks",
     "Wandering implings": "Allow implings that randomly wander the world & their drops to count towards chunk tasks <span class='rule-asterisk noscroll'>†</span>",
 	"Farming Primary": "Farming products (herbs, vegetables, etc.) can count as primary item sources for chunk tasks<span class='rule-asterisk noscroll'>*</span>",
-    "Secondary Primary": "Allow secondary training methods with drops/methods more common than 1/X (not inclusive, set to 0 to include all drops) to count as primary training methods (e.g. allow a 1/50 drop for a bronze bar be your required way to train Smithing)<span class='rule-asterisk noscroll'>*</span>",
+    "Secondary Primary": "Allow secondary training methods with drops/methods more common than 1/X (not inclusive, set to 0 to include all drops) to count as primary training methods (e.g. allow a 1/50 drop for pure essence be your required way to train Runecrafting)<span class='rule-asterisk noscroll'>*</span>",
     "RDT": "Allow items from the Rare Drop Table, the Gem Drop Table and the Wilderness Drop Table to count towards chunk tasks",
     "Crystal chests": "Allow items from crystal chests, triskelion treasures or columbarium keys to count towards chunk tasks",
     "Untracked Uniques": "Must obtain extra unique items that are untracked on the collection logs (does nothing by itself)",
@@ -550,6 +550,8 @@ let ruleNames = {
     "Manually Complete Tasks": "<b class='noscroll'>For maps that allow manually choosing new chunks</b>, allow the ability to manually move completed active tasks",
     "Every Drop": "Must obtain every unique item drop from monsters (items that are dropped by multiple monsters only need to be obtained once)",
     "Every Drop Implings": "Allow drops from implings to also count towards these tasks",
+    "Every Drop BGH": "Allow drops from Big Game Hunter to also count towards these tasks",
+    "Every Drop Thieving": "Allow drops from Thieving to also count towards these tasks",
     "HigherLander": "Accessing the intermediate and veteran landers for Pest Control are required tasks (only novice lander is required otherwise)",
     "Secondary MTA": "Allow MTA to be required with secondary sources of nature/law/cosmic runes",
     "Skilling Pets": "Require skilling pets be obtained as soon as the relevant skill is trainable<span class='rule-asterisk noscroll'>†</span>",
@@ -940,7 +942,7 @@ let ruleStructure = {
         "Crystal chests": true,
 		"Universal Tertiary": true,
         "Primary Spawns": true,
-		"Every Drop": ["Every Drop Implings"],
+		"Every Drop": ["Every Drop Implings", "Every Drop Thieving", "Every Drop BGH"],
         "All Droptables": true,
         "All Shops": true
     },
@@ -12700,6 +12702,14 @@ let loadData = async function(startup) {
 		
 		if (!rulesTemp.hasOwnProperty('Untracked Uniques Misc')) {
             rulesTemp['Untracked Uniques Misc'] = rulesTemp.hasOwnProperty('Untracked Uniques') ? rulesTemp['Untracked Uniques'] : false;
+		}
+		
+		if (!rulesTemp.hasOwnProperty('Every Drop Thieving')) {
+            rulesTemp['Every Drop Thieving'] = rulesTemp.hasOwnProperty('Every Drop') ? rulesTemp['Every Drop'] : false;
+		}
+		
+		if (!rulesTemp.hasOwnProperty('Every Drop BGH')) {
+            rulesTemp['Every Drop BGH'] = rulesTemp.hasOwnProperty('Every Drop') ? rulesTemp['Every Drop'] : false;
 		}
 		
 		if (!rulesTemp.hasOwnProperty('Menaphos Log')) {

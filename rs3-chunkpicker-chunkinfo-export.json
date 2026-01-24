@@ -41388,7 +41388,8 @@
 				"Level": 20,
 				"Output": "Oak shortbow (unstrung)",
 				"Primary": true,
-				"Priority": 1
+				"Priority": 1,
+				"Partial": true
 			},
 			"String an ~|oak shortbow|~": {
 				"Items": ["Oak shortbow (unstrung)*", "Bowstring*"],
@@ -47773,18 +47774,18 @@
 				"Primary": false,
 				"Priority": 2
 			},
-			"Hunt an ~|arcane apoterrasaur|~": {
+			"Hunt an ~|arcane apoterrasaur|~ during Big Game Hunter": {
 				"NPCs": ["Arcane apoterrasaur"],
 				"Items": ["Raw shark"],
 				"Level": 75,
 				"Skills": {
 					"Slayer": 55
 				},
-				"Output": "ArcaneApoterrasaur",
+				"Output": "Arcane Apoterrasaur",
 				"Primary": true,
 				"Priority": 3
 			},
-			"Hunt a ~|scimitops|~": {
+			"Hunt a ~|scimitops|~ during Big Game Hunter": {
 				"NPCs": ["Scimitops"],
 				"Items": ["Raw sailfish"],
 				"Level": 75,
@@ -47795,14 +47796,14 @@
 				"Primary": true,
 				"Priority": 4
 			},
-			"Hunt a ~|bagrada rex|~": {
+			"Hunt a ~|bagrada rex|~ during Big Game Hunter": {
 				"NPCs": ["Bagrada rex"],
 				"Items": ["Raw manta ray"],
 				"Level": 75,
 				"Skills": {
 					"Slayer": 55
 				},
-				"Output": "BagradaRex",
+				"Output": "Bagrada Rex",
 				"Primary": true,
 				"Priority": 5
 			},
@@ -47976,14 +47977,14 @@
 				"Primary": false,
 				"Priority": 3
 			},
-			"Hunt a ~|spicati apoterrasaur|~": {
+			"Hunt a ~|spicati apoterrasaur|~ during Big Game Hunter": {
 				"NPCs": ["Spicati apoterrasaur"],
 				"Items": ["Raw bagrada rex meat"],
 				"Level": 80,
 				"Skills": {
 					"Slayer": 60
 				},
-				"Output": "SpicatiApoterrasaur",
+				"Output": "Spicati Apoterrasaur",
 				"Primary": true,
 				"Priority": 1
 			},
@@ -48126,7 +48127,7 @@
 				"Primary": true,
 				"Priority": 2
 			},
-			"Hunt an ~|asciatops|~": {
+			"Hunt an ~|asciatops|~ during Big Game Hunter": {
 				"NPCs": ["Asciatops"],
 				"Items": ["Raw arcane apoterrasaur meat"],
 				"Level": 85,
@@ -48341,14 +48342,14 @@
 				"Primary": false,
 				"Priority": 12
 			},
-			"Hunt a ~|corbicula rex|~": {
+			"Hunt a ~|corbicula rex|~ during Big Game Hunter": {
 				"NPCs": ["Corbicula rex"],
 				"Items": ["Raw scimitops meat"],
 				"Level": 90,
 				"Skills": {
 					"Slayer": 70
 				},
-				"Output": "CorbiculaRex",
+				"Output": "Corbicula Rex",
 				"Primary": true,
 				"Priority": 13
 			},
@@ -48457,14 +48458,14 @@
 				"Primary": true,
 				"Priority": 1
 			},
-			"Hunt an ~|oculi apoterrasaur|~": {
+			"Hunt an ~|oculi apoterrasaur|~ during Big Game Hunter": {
 				"NPCs": ["Oculi apoterrasaur"],
 				"Items": ["Raw asciatops meat"],
 				"Level": 94,
 				"Skills": {
 					"Slayer": 74
 				},
-				"Output": "OculiApoterrasaur",
+				"Output": "Oculi Apoterrasaur",
 				"Primary": true,
 				"Priority": 1
 			},
@@ -48505,7 +48506,7 @@
 				"Primary": false,
 				"Priority": 14
 			},
-			"Hunt a ~|malletops|~": {
+			"Hunt a ~|malletops|~ during Big Game Hunter": {
 				"NPCs": ["Oculi apoterrasaur"],
 				"Items": ["Raw corbicula rex meat"],
 				"Level": 95,
@@ -48580,14 +48581,14 @@
 				"Primary": false,
 				"Priority": 13
 			},
-			"Hunt a ~|pavosaurus rex|~": {
+			"Hunt a ~|pavosaurus rex|~ during Big Game Hunter": {
 				"NPCs": ["Pavosaurus rex"],
 				"Items": ["Raw spicati apoterrasaur meat"],
 				"Level": 96,
 				"Skills": {
 					"Slayer": 76
 				},
-				"Output": "PavosaurusRex",
+				"Output": "Pavosaurus Rex",
 				"Primary": true,
 				"Priority": 1
 			},
@@ -51178,6 +51179,15 @@
 				"Level": 33,
 				"Primary": true,
 				"Priority": 1
+			},
+			"Participate in all parts of the ~|Mage Training Arena|~": {
+				"Chunks": ["13363"],
+				"Items":["Law rune*", "Cosmic rune*", "Nature rune*", "Earth rune[+]", "Air rune[+]", "Water rune[+]", "Fire rune[+]"],
+				"Level": 33,
+				"Output": "Progress hat",
+				"Primary": false,
+				"Priority": 2,
+				"Not F2P": true
 			},
 			"Cast ~|fire bolt|~": {
 				"Category": ["Spells", "Combat and Teleport Spells"],
@@ -62549,13 +62559,6 @@
 				"Primary": true,
 				"Priority": 3
 			},
-			"Wear a ~|wicked hood|~": {
-				"Items": ["Wicked hood"],
-				"Level": 5,
-				"Primary": false,
-				"Priority": 4,
-				"Not F2P": true
-			},
 			"Craft ~|mist runes|~ at the air rune temple": {
 				"Chunks": ["Air Rune Temple"],
 				"Items": ["Pure essence*", "Water rune*", "Water talisman*"],
@@ -63977,7 +63980,7 @@
 				"Primary": true,
 				"Priority": 2
 			},
-			"Gain the ability to buy the ~|hungry hood|~": {
+			"Obtain a ~|hungry hood|~": {
 				"Chunks": ["The Runespan", "12337-1"],
 				"Level": 105,
 				"Primary": true,
@@ -123204,7 +123207,7 @@
 				"Category": ["MQC achievements"],
 				"Description": "Find all 5 Zamorakian notes, dropped by those dedicated to Zamorak.",
 				"BaseQuest": "Completionist achievements",
-				"Items": ["Bloodstained note", "Elegant note", "Burnt note", "Crumpled note", "Mysterious note"]
+				"Items": ["Bloodstained note", "Elegant note", "Burnt note", "Crumpled note (Zamorak's demon invasion)", "Mysterious note (Zamorak's demon invasion)"]
 			},
 			"~|Completionist achievements#Master Quest Cape|~ A Complete History of Droalak": {
 				"Category": ["MQC achievements"],
@@ -127061,37 +127064,7 @@
 				"Category": ["Comp achievements", "Skillcape"],
 				"Description": "Increase all skills to mastery level.",
 				"BaseQuest": "Completionist achievements",
-				"Skills": {
-					"Agility": 99,
-					"Archaeology": 120,
-					"Attack": 99,
-					"Constitution": 99,
-					"Construction": 99,
-					"Cooking": 99,
-					"Crafting": 99,
-					"Defence": 99,
-					"Divination": 99,
-					"Dungeoneering": 120,
-					"Farming": 120,
-					"Firemaking": 110,
-					"Fishing": 99,
-					"Fletching": 110,
-					"Herblore": 120,
-					"Hunter": 99,
-					"Invention": 120,
-					"Magic": 99,
-					"Mining": 110,
-					"Necromancy": 120,
-					"Prayer": 99,
-					"Ranged": 99,
-					"Runecrafting": 110,
-					"Slayer": 120,
-					"Smithing": 110,
-					"Strength": 99,
-					"Summoning": 99,
-					"Thieving": 120,
-					"Woodcutting": 110
-				},
+				"TotalLevelNeeded": 3084,
 				"NoBoost": true,
 				"Not F2P": true
 			},
@@ -137583,13 +137556,13 @@
 				"Items": ["Burnt note"],
 				"Not F2P": true
 			},
-			"(Zamorakian Notes) Obtain a ~|crumpled note|~": {
+			"(Zamorakian Notes) Obtain a ~|crumpled note (Zamorak's demon invasion)|~": {
 				"Category": ["Untracked Uniques", "Untracked Uniques Combat"],
 				"Label": "Untracked Combat Uniques",
 				"Items": ["Crumpled note (Zamorak's demon invasion)"],
 				"Not F2P": true
 			},
-			"(Zamorakian Notes) Obtain a ~|mysterious note|~": {
+			"(Zamorakian Notes) Obtain a ~|mysterious note (Zamorak's demon invasion)|~": {
 				"Category": ["Untracked Uniques", "Untracked Uniques Combat"],
 				"Label": "Untracked Combat Uniques",
 				"Items": ["Mysterious note (Zamorak's demon invasion)"],
@@ -152686,7 +152659,7 @@
 				},
 				"UnlocksArea": true
 			},
-			"Mourner Tunnles & Temple of Light": {
+			"Mourner Tunnels & Temple of Light": {
 				"UnlocksArea": true,
 				"Tasks": {
 					"~|Mourning's End Part II|~ 2": "Quest"
@@ -156252,26 +156225,6 @@
 			"TzHaarcityunlockvol": {
 				"Chunks": ["11313"]
 			},
-			"Adjust ghost hunter goggles*": {
-				"Items": ["Ghost hunter goggles"],
-				"Output": "Ghost hunter goggles (tier 3)",
-				"Not F2P": true
-			},
-			"Adjust ghost hunter body*": {
-				"Items": ["Ghost hunter body"],
-				"Output": "Ghost hunter body (tier 3)",
-				"Not F2P": true
-			},
-			"Adjust ghost hunter legs*": {
-				"Items": ["Ghost hunter legs"],
-				"Output": "Ghost hunter legs (tier 3)",
-				"Not F2P": true
-			},
-			"Adjust ghost hunter backpack*": {
-				"Items": ["Ghost hunter backpack"],
-				"Output": "Ghost hunter backpack (tier 3)",
-				"Not F2P": true
-			},
 			"Pick redberries*": {
 				"Objects": ["Redberry bush"],
 				"Output": "Redberries"
@@ -157473,7 +157426,7 @@
 			"~|Pizazz points|~*": {
 				"Category": ["Minigame"],
 				"NPCs": ["Rewards Guardian"],
-				"Items":["Law rune*", "Cosmic rune*", "Nature rune*", "Earth rune[+]", "Air rune[+]", "Water rune[+]", "Fire rune[+]"],
+				"Items":["Progress hat"],
 				"Source": "shop",
 				"Output": "Pizazz points loot",
 				"Not F2P": true
@@ -170588,8 +170541,7 @@
 				"Ticket Merchant": 2,
 				"Linza": 1,
 				"Archaeologist (excavation sites)": 1,
-				"Gee'ka": 1,
-				"Trainee archaeologist#Stormguard Citadel": 3
+				"Gee'ka": 1
 			},
 			"Connect": {
 				"11": true,
@@ -288134,7 +288086,7 @@
 					"1": "Uncommon"
 				}
 			},
-			"ArcaneApoterrasaur": {
+			"Arcane Apoterrasaur": {
 				"Raw arcane apoterrasaur meat": {
 					"1-2": "Always"
 				},
@@ -288354,6 +288306,122 @@
 					"1": "7/100"
 				},
 				"Scimitops (unchecked)": {
+					"1": "1/65"
+				},
+				"Skeka's hypnowand focus": {
+					"1": "1/1500"
+				},
+				"Skeka's hypnowand projector": {
+					"1": "1/1500"
+				},
+				"Skeka's hypnowand handle": {
+					"1": "1/1500"
+				},
+				"Skeka's hypnowand base": {
+					"1": "7/1500"
+				},
+				"Hunter Mark": {
+					"1": "Always"
+				}
+			},
+			"Bagrada Rex": {
+				"Raw bagrada rex meat": {
+					"1-2": "Always"
+				},
+				"Dinosaur bones": {
+					"3-5": "Always"
+				},
+				"Dinosaur scale": {
+					"100-150": "Always"
+				},
+				"Damaged dinosaur hide": {
+					"1": "9/10"
+				},
+				"Dinosaur hide": {
+					"1": "1/10"
+				},
+				"Uncut ruby": {
+					"5 (noted)": "Common"
+				},
+				"Raw shark": {
+					"16-35 (noted)": "Common"
+				},
+				"Grenwall spikes": {
+					"15-35": "Common"
+				},
+				"Pineapple seed": {
+					"1-3": "Common"
+				},
+				"Maple seed": {
+					"1-3": "Common"
+				},
+				"Arbuck seed": {
+					"2": "Common"
+				},
+				"Stinkshroom spore": {
+					"1-3": "Uncommon"
+				},
+				"Ciku seed": {
+					"1": "Rare"
+				},
+				"Grimy avantoe": {
+					"5 (noted)": "Common"
+				},
+				"Grimy irit": {
+					"5 (noted)": "Common"
+				},
+				"Grimy cadantine": {
+					"5 (noted)": "Common"
+				},
+				"Grimy kwuarm": {
+					"5 (noted)": "Common"
+				},
+				"Grimy lantadyme": {
+					"5 (noted)": "Common"
+				},
+				"Grimy torstol": {
+					"5 (noted)": "Common"
+				},
+				"Green dragonhide": {
+					"15-35 (noted)": "Common"
+				},
+				"Blue dragonhide": {
+					"10-30 (noted)": "Common"
+				},
+				"Red dragonhide": {
+					"5-25 (noted)": "Common"
+				},
+				"Black dragonhide": {
+					"5-25 (noted)": "Common"
+				},
+				"Large bladed adamant salvage": {
+					"4-6 (noted)": "Uncommon"
+				},
+				"Compass arrow": {
+					"1": "1/20"
+				},
+				"Dragon mattock": {
+					"1": "1/101"
+				},
+				"Totem of Summoning base": {
+					"1": "1/50"
+				},
+				"Totem of the Abyss middle": {
+					"1": "1/50"
+				},
+				"Totem of Treasure top": {
+					"1": "1/50"
+				},
+				"Reinforced dinosaur pelt": {
+					"1": "1/150"
+				},
+				"Dinosaur rib bone": {
+					"1": "1/150"
+				},
+				"Compacted hides": {
+					"1": "7/100"
+				},
+				"Bagrada rex (unchecked)": {
 					"1": "1/65"
 				},
 				"Skeka's hypnowand focus": {
@@ -289121,7 +289189,7 @@
 					"1": "1/101"
 				}
 			},
-			"SpicatiApoterrasaur": {
+			"Spicati Apoterrasaur": {
 				"Raw spicati apoterrasaur meat": {
 					"1-2": "Always"
 				},
@@ -289933,7 +290001,7 @@
 					"25-100": "2/4"
 				}
 			},
-			"CorbiculaRex": {
+			"Corbicula Rex": {
 				"Raw corbicula rex meat": {
 					"1-2": "Always"
 				},
@@ -290159,7 +290227,7 @@
 				}
 
 			},
-			"OculiApoterrasaur": {
+			"Oculi Apoterrasaur": {
 				"Raw oculi apoterrasaur meat": {
 					"1-2": "Always"
 				},
@@ -290610,7 +290678,7 @@
 					"1": "1/32"
 				}
 			},
-			"PavosaurusRex": {
+			"Pavosaurus Rex": {
 				"Raw pavosaurus rex meat": {
 					"1-2": "Always"
 				},
@@ -343662,74 +343730,6 @@
 		"Ghost hunter backpack": {
 			"ranged_damage": 0,
 			"requirements": {
-				"Defence": 50
-			},
-			"class": "hybrid",
-			"lp": 0,
-			"tier": 50,
-			"speed": 0,
-			"damage": 0,
-			"armour": 16,
-			"slot": "back",
-			"melee_damage": 0,
-			"magic_damage": 0,
-			"prayer": 0,
-			"accuracy": 0
-		},
-		"Ghost hunter body": {
-			"ranged_damage": 0,
-			"requirements": {
-				"Defence": 50
-			},
-			"class": "hybrid",
-			"lp": 0,
-			"tier": 50,
-			"speed": 0,
-			"damage": 0,
-			"armour": 132.2,
-			"slot": "torso",
-			"melee_damage": 0,
-			"magic_damage": 0,
-			"prayer": 0,
-			"accuracy": 0
-		},
-		"Ghost hunter goggles": {
-			"ranged_damage": 0,
-			"requirements": {
-				"Defence": 50
-			},
-			"class": "hybrid",
-			"lp": 0,
-			"tier": 50,
-			"speed": 0,
-			"damage": 0,
-			"armour": 107.2,
-			"slot": "head",
-			"melee_damage": 0,
-			"magic_damage": 0,
-			"prayer": 0,
-			"accuracy": 0
-		},
-		"Ghost hunter legs": {
-			"ranged_damage": 0,
-			"requirements": {
-				"Defence": 50
-			},
-			"class": "hybrid",
-			"lp": 0,
-			"tier": 50,
-			"speed": 0,
-			"damage": 0,
-			"armour": 117.9,
-			"slot": "legs",
-			"melee_damage": 0,
-			"magic_damage": 0,
-			"prayer": 0,
-			"accuracy": 0
-		},
-		"Ghost hunter backpack (tier 3)": {
-			"ranged_damage": 0,
-			"requirements": {
 				"Defence": 70
 			},
 			"class": "hybrid",
@@ -343744,7 +343744,7 @@
 			"prayer": 0,
 			"accuracy": 0
 		},
-		"Ghost hunter body (tier 3)": {
+		"Ghost hunter body": {
 			"ranged_damage": 0,
 			"requirements": {
 				"Defence": 70
@@ -343761,7 +343761,7 @@
 			"prayer": 0,
 			"accuracy": 0
 		},
-		"Ghost hunter goggles (tier 3)": {
+		"Ghost hunter goggles": {
 			"ranged_damage": 0,
 			"requirements": {
 				"Defence": 70
@@ -343778,7 +343778,7 @@
 			"prayer": 0,
 			"accuracy": 0
 		},
-		"Ghost hunter legs (tier 3)": {
+		"Ghost hunter legs": {
 			"ranged_damage": 0,
 			"requirements": {
 				"Defence": 70
