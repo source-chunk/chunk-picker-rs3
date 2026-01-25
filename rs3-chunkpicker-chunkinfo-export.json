@@ -153718,6 +153718,9 @@
 			},
 			"The Shadow Reef": {
 				"UnlocksArea": true,
+				"Tasks": {
+					"Elite Dungeon Access[+]": "Nonskill"
+				},
 				"Not F2P": true
 			},
 			"Morytania Slayer Tower dungeon": {
@@ -153754,10 +153757,16 @@
 				"UnlocksArea": true
 			},
 			"Temple of Aminishi": {
-				"UnlocksArea": true
+				"UnlocksArea": true,
+				"Tasks": {
+					"Elite Dungeon Access[+]": "Nonskill"
+				}
 			},
 			"Dragonkin Laboratory": {
 				"UnlocksArea": true,
+				"Tasks": {
+					"Elite Dungeon Access[+]": "Nonskill"
+				},
 				"Not F2P": true
 			},
 			"War's Retreat": {
@@ -213268,6 +213277,7 @@
 			"DeviousMindsEntranaEnter[+]": ["Enter the law altar through the Abyss*", "Enter the law altar using a wicked hood teleport*"],
 			"EarthAccess[+]": ["Access the earth rune temple with a talisman*", "Access the earth rune temple through the abyss*"],
 			"EdgeDungeonAccess[+]": ["Access the Edgeville dungeon through Edgeville*", "Access the edgeville dungeon through the Varrock sewers*"],
+			"Elite Dungeon Access[+]": ["Group Content enabled", "Hard Mode Bosses"],
 			"EmissarySkill1[+]": ["Emissary eggs", "Emissary bronze 2h swords"],
 			"FireAccess[+]": ["Access the fire rune temple with a talisman*", "Access the fire rune temple through the abyss*"],
 			"GodWarsDungeonEntry[+]": ["Slide past the boulder leading up to the God Wars Dungeon", "Lift the boulder leading up to the God Wars Dungeon"],
@@ -270398,19 +270408,9 @@
 					"Group Content enabled": "Nonskill"
 				}]
 			},
-			"The Ambassador": {
-				"The Shadow Reef": [{
-					"Group Content enabled": "Nonskill"
-				}]
-			},
 			"Arch-Glacor (Hard Mode)": {
 				"Senntisten": [{
 					"Hard Mode Bosses": "Nonskill"
-				}]
-			},
-			"Astellarn": {
-				"Dragonkin Laboratory": [{
-					"Group Content enabled": "Nonskill"
 				}]
 			},
 			"Automaton Generator": {
@@ -270445,11 +270445,6 @@
 					"Timegated content enabled": "Nonskill"
 				}]
 			},
-			"Black Stone Dragon": {
-				"Dragonkin Laboratory": [{
-					"Group Content enabled": "Nonskill"
-				}]
-			},
 			"Chompy bird": {
 				"10542": [{
 					"~|Big Chompy Bird Hunting|~ Complete the quest": "Quest"
@@ -270481,11 +270476,6 @@
 			"Cow": {
 				"11827": [{
 					"Enter the ~|Crafting Guild|~": "Crafting"
-				}]
-			},
-			"Crassian Leviathan": {
-				"The Shadow Reef": [{
-					"Group Content enabled": "Nonskill"
 				}]
 			},
 			"Croesus": {
@@ -270762,16 +270752,9 @@
 					"Hard Mode Bosses": "Nonskill"
 				}]
 			},
-			"Kezalam, the Wanderer": {
-				"Sanctum of Rebirth": [{
-					"Group Content enabled": "Nonskill"
-				}]
-			},
 			"Kezalam, the Wanderer (Hard Mode)": {
 				"Sanctum of Rebirth": [{
 					"Hard Mode Bosses": "Nonskill"
-				}, {
-					"Group Content enabled": "Nonskill"
 				}]
 			},
 			"Khazard commander": {
@@ -270782,11 +270765,6 @@
 			"Lesser demon": {
 				"Temple of Ikov": [{
 					"~|Temple of Ikov|~ 1": "Quest"
-				}]
-			},
-			"Masuta the Ascended": {
-				"Temple of Aminishi": [{
-					"Group Content enabled": "Nonskill"
 				}]
 			},
 			"Man": {
@@ -270804,21 +270782,9 @@
 					"~|Mogre (lore activity)|~ Complete the lore activity": "Quest"
 				}]
 			},
-			"Nakatra, Devourer Eternal": {
-				"Sanctum of Rebirth": [{
-					"Group Content enabled": "Nonskill"
-				}]
-			},
 			"Nakatra, Devourer Eternal (Hard Mode)": {
 				"Sanctum of Rebirth": [{
 					"Hard Mode Bosses": "Nonskill"
-				}, {
-					"Group Content enabled": "Nonskill"
-				}]
-			},
-			"Nex": {
-				"Ancient Prison": [{
-					"Group Content enabled": "Nonskill"
 				}]
 			},
 			"Nex, Angel of Death": {
@@ -270871,16 +270837,6 @@
 					"~|Temple of Ikov|~ 1": "Quest"
 				}]
 			},
-			"Seiryu the Azure Serpent": {
-				"Temple of Aminishi": [{
-					"Group Content enabled": "Nonskill"
-				}]
-			},
-			"The Sanctum Guardian": {
-				"Temple of Aminishi": [{
-					"Group Content enabled": "Nonskill"
-				}]
-			},
 			"Sir Mordred": {
 				"11061": [{
 					"~|Merlin's Crystal|~ 3": "Quest"
@@ -270896,11 +270852,6 @@
 					"~|Temple of Ikov|~ 1": "Quest"
 				}]
 			},
-			"Taraket the Necromancer": {
-				"The Shadow Reef": [{
-					"Group Content enabled": "Nonskill"
-				}]
-			},
 			"Twin Furies (Hard Mode)": {
 				"The Heart": [{
 					"Hard Mode Bosses": "Nonskill"
@@ -270911,21 +270862,9 @@
 					"Hard Mode Bosses": "Nonskill"
 				}]
 			},
-			"Verak Lith": {
-				"Dragonkin Laboratory": [{
-					"Group Content enabled": "Nonskill"
-				}]
-			},
-			"Vermyx, Brood Mother": {
-				"Sanctum of Rebirth": [{
-					"Group Content enabled": "Nonskill"
-				}]
-			},
 			"Vermyx, Brood Mother (Hard Mode)": {
 				"Sanctum of Rebirth": [{
 					"Hard Mode Bosses": "Nonskill"
-				}, {
-					"Group Content enabled": "Nonskill"
 				}]
 			},
 			"Vindicta (Hard Mode)": {
@@ -270950,11 +270889,6 @@
 					"Group Content enabled": "Nonskill"
 				}, {
 					"Timegated content enabled": "Nonskill"
-				}]
-			},
-			"Zamorak, Lord of Chaos": {
-				"Zamorakian Undercity": [{
-					"Group Content enabled": "Nonskill"
 				}]
 			},
 			"Zemouregal & Vorkath (Story Mode)": {
