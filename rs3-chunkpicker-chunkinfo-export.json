@@ -135807,11 +135807,6 @@
 				"Label": "Untracked Skilling Uniques",
 				"Items": ["Dragon mattock"]
 			},
-			"(Big Game Hunter) Obtain ~|compacted hides|~": {
-				"Category": ["Untracked Uniques", "Untracked Uniques Skilling"],
-				"Label": "Untracked Skilling Uniques",
-				"Items": ["Compacted hides"]
-			},
 			"(Big Game Hunter) Obtain a ~|compass arrow|~": {
 				"Category": ["Untracked Uniques", "Untracked Uniques Skilling"],
 				"Label": "Untracked Skilling Uniques",
@@ -135892,31 +135887,6 @@
 				"Label": "Untracked Skilling Uniques",
 				"Items": ["Remototem middle"]
 			},
-			"(Anachronia Skilling) Obtain ~|compacted wood|~": {
-				"Category": ["Untracked Uniques", "Untracked Uniques Skilling"],
-				"Label": "Untracked Skilling Uniques",
-				"Items": ["Compacted wood"]
-			},
-			"(Anachronia Skilling) Obtain ~|compacted leaves|~": {
-				"Category": ["Untracked Uniques", "Untracked Uniques Skilling"],
-				"Label": "Untracked Skilling Uniques",
-				"Items": ["Compacted leaves"]
-			},
-			"(Anachronia Skilling) Obtain ~|compacted vines|~": {
-				"Category": ["Untracked Uniques", "Untracked Uniques Skilling"],
-				"Label": "Untracked Skilling Uniques",
-				"Items": ["Compacted vines"]
-			},
-			"(Anachronia Skilling) Obtain ~|compacted stone|~": {
-				"Category": ["Untracked Uniques", "Untracked Uniques Skilling"],
-				"Label": "Untracked Skilling Uniques",
-				"Items": ["Compacted stone"]
-			},
-			"(Anachronia Skilling) Obtain ~|compacted clay|~": {
-				"Category": ["Untracked Uniques", "Untracked Uniques Skilling"],
-				"Label": "Untracked Skilling Uniques",
-				"Items": ["Compacted clay"]
-			},
 			"(Anachronia Skilling) Obtain a ~|codex page|~": {
 				"Category": ["Untracked Uniques", "Untracked Uniques Skilling"],
 				"Label": "Untracked Skilling Uniques",
@@ -135942,21 +135912,10 @@
 				"Label": "Untracked Skilling Uniques",
 				"Items": ["Skeka's hypnowand focus"]
 			},
-			"(Dream of Iaia) Obtain an ~|Anachronia resource pack|~": {
-				"Category": ["Untracked Uniques", "Untracked Uniques Skilling"],
-				"Label": "Untracked Skilling Uniques",
-				"Items": ["Anachronia resource pack"]
-			},
 			"(Dream of Iaia) Obtain a ~|necklace of Salamancy|~": {
 				"Category": ["Untracked Uniques", "Untracked Uniques Skilling"],
 				"Label": "Untracked Skilling Uniques",
 				"Items": ["Necklace of Salamancy"]
-			},
-			"(Skilling Bosses) Obtain a ~|Elder Trove (Bik, T3)|~": {
-				"Category": ["Untracked Uniques", "Untracked Uniques Skilling"],
-				"Label": "Untracked Skilling Uniques",
-				"Items": ["Elder Trove (Bik, T3)"],
-				"Not F2P": true
 			},
 			"(Skilling Bosses) Obtain a ~|manuscript of Bik|~": {
 				"Category": ["Untracked Uniques", "Untracked Uniques Skilling"],
@@ -136214,31 +136173,6 @@
 				"Label": "Untracked Skilling Uniques",
 				"Items": ["Ourg bones"]
 			},
-			"(Deep Sea Fishing) Obtain a ~|barrel of bait|~": {
-				"Category": ["Untracked Uniques", "Untracked Uniques Skilling"],
-				"Label": "Untracked Skilling Uniques",
-				"Chunks": ["Deep Sea Fishing Hub"]
-			},
-			"(Deep Sea Fishing) Obtain a ~|broken fishing rod|~": {
-				"Category": ["Untracked Uniques", "Untracked Uniques Skilling"],
-				"Label": "Untracked Skilling Uniques",
-				"Chunks": ["Deep Sea Fishing Hub"]
-			},
-			"(Deep Sea Fishing) Obtain a ~|tangled fishbowl|~": {
-				"Category": ["Untracked Uniques", "Untracked Uniques Skilling"],
-				"Label": "Untracked Skilling Uniques",
-				"Chunks": ["Deep Sea Fishing Hub"]
-			},
-			"(Deep Sea Fishing) Obtain a ~|message in a bottle|~": {
-				"Category": ["Untracked Uniques", "Untracked Uniques Skilling"],
-				"Label": "Untracked Skilling Uniques",
-				"Chunks": ["Deep Sea Fishing Hub"]
-			},
-			"(Deep Sea Fishing) Obtain ~|fishing notes|~": {
-				"Category": ["Untracked Uniques", "Untracked Uniques Skilling"],
-				"Label": "Untracked Skilling Uniques",
-				"Chunks": ["Deep Sea Fishing Hub"]
-			},
 			"(Deep Sea Fishing) Obtain ~|Gregg 'groggy' herring's ring|~": {
 				"Category": ["Untracked Uniques", "Untracked Uniques Skilling"],
 				"Label": "Untracked Skilling Uniques",
@@ -136343,11 +136277,6 @@
 				"Category": ["Untracked Uniques", "Untracked Uniques Skilling", "Cosmetics"],
 				"Label": "Untracked Skilling Uniques",
 				"Items": ["Crux Eqal hood"]
-			},
-			"(Archaeology) Obtain a ~|complete tome|~": {
-				"Category": ["Untracked Uniques", "Untracked Uniques Skilling"],
-				"Label": "Untracked Skilling Uniques",
-				"Items": ["Complete tome"]
 			},
 			"(Archaeology) Obtain a ~|tetracompas piece (left)|~": {
 				"Category": ["Untracked Uniques", "Untracked Uniques Skilling"],
@@ -136542,20 +136471,10 @@
 				"Label": "Untracked Skilling Uniques",
 				"Items": ["Right banana of knowledge"]
 			},
-			"(Player-Owned Farm) Obtain ~|Trevor|~": {
-				"Category": ["Untracked Uniques", "Untracked Uniques Skilling", "Pets"],
-				"Label": "Untracked Skilling Uniques",
-				"Items": ["Trevor"]
-			},
 			"(Het's Oasis) Obtain a ~|piece of Het|~": {
 				"Category": ["Untracked Uniques", "Untracked Uniques Skilling"],
 				"Label": "Untracked Skilling Uniques",
 				"Items": ["Piece of Het"]
-			},
-			"(Het's Oasis) Obtain ~|Chomper|~": {
-				"Category": ["Untracked Uniques", "Untracked Uniques Skilling", "Pets"],
-				"Label": "Untracked Skilling Uniques",
-				"Items": ["Chomper"]
 			},
 			"(Overgrown Idols) Obtain ~|The End of Gara-Dul|~": {
 				"Category": ["Untracked Uniques", "Untracked Uniques Skilling"],
@@ -136659,36 +136578,6 @@
 				"Label": "Untracked Skilling Uniques",
 				"Items": ["Agile legs"]
 			},
-			"(Special Logs) Obtain a ~|special teak log|~": {
-				"Category": ["Untracked Uniques", "Untracked Uniques Skilling"],
-				"Label": "Untracked Skilling Uniques",
-				"Objects": ["Teak"]
-			},
-			"(Special Logs) Obtain a ~|special mahogany log|~": {
-				"Category": ["Untracked Uniques", "Untracked Uniques Skilling"],
-				"Label": "Untracked Skilling Uniques",
-				"Objects": ["Mahogany"]
-			},
-			"(Dungeoneering) Obtain ~|Sneakerpeeper|~": {
-				"Category": ["Untracked Uniques", "Untracked Uniques Skilling", "Pets"],
-				"Label": "Untracked Skilling Uniques",
-				"Items": ["Sneekerpeeper"]
-			},
-			"(Dungeoneering) Obtain ~|Frosty|~": {
-				"Category": ["Untracked Uniques", "Untracked Uniques Skilling", "Pets"],
-				"Label": "Untracked Skilling Uniques",
-				"Items": ["Frosty"]
-			},
-			"(Dungeoneering) Obtain ~|Mini-Blink|~": {
-				"Category": ["Untracked Uniques", "Untracked Uniques Skilling", "Pets"],
-				"Label": "Untracked Skilling Uniques",
-				"Items": ["Mini-Blink"]
-			},
-			"(Dungeoneering) Obtain ~|Hope Nibbler|~": {
-				"Category": ["Untracked Uniques", "Untracked Uniques Skilling", "Pets"],
-				"Label": "Untracked Skilling Uniques",
-				"Items": ["Hope Nibbler"]
-			},
 			"(Champion Scrolls) Obtain the ~|imp champion's scroll|~": {
 				"Category": ["Untracked Uniques", "Untracked Uniques Combat"],
 				"Label": "Untracked Combat Uniques",
@@ -136774,30 +136663,6 @@
 				"Chunks": ["Champions' Arena"],
 				"Not F2P": true
 			},
-			"(Rare Drop Table) Obtain a ~|shield left half|~": {
-				"Category": ["Untracked Uniques", "Untracked Uniques Combat", "RDT"],
-				"Label": "Untracked Combat Uniques",
-				"Items": ["Shield left half"],
-				"Not F2P": true
-			},
-			"(Rare Drop Table) Obtain a ~|dragon spear|~": {
-				"Category": ["Untracked Uniques", "Untracked Uniques Combat", "RDT"],
-				"Label": "Untracked Combat Uniques",
-				"Items": ["Dragon spear"],
-				"Not F2P": true
-			},
-			"(Rare Drop Table) Obtain a ~|Vecna skull|~": {
-				"Category": ["Untracked Uniques", "Untracked Uniques Combat", "RDT"],
-				"Label": "Untracked Combat Uniques",
-				"Items": ["Vecna skull"],
-				"Not F2P": true
-			},
-			"(Rare Drop Table) Obtain ~|Hazelmere's signet ring|~": {
-				"Category": ["Untracked Uniques", "Untracked Uniques Combat", "Hero Items", "RDT"],
-				"Label": "Untracked Combat Uniques",
-				"Items": ["Hazelmere's signet ring"],
-				"Not F2P": true
-			},
 			"(Abomination) Obtain a ~|dragon javelin|~": {
 				"Category": ["Untracked Uniques", "Untracked Uniques Combat"],
 				"Label": "Untracked Combat Uniques",
@@ -136820,18 +136685,6 @@
 				"Category": ["Untracked Uniques", "Untracked Uniques Combat"],
 				"Label": "Untracked Combat Uniques",
 				"Items": ["Elemental Talisman"],
-				"Not F2P": true
-			},
-			"(Abyss Monsters) Obtain a ~|small pouch|~": {
-				"Category": ["Untracked Uniques", "Untracked Uniques Combat"],
-				"Label": "Untracked Combat Uniques",
-				"Items": ["Small pouch"],
-				"Not F2P": true
-			},
-			"(Abyss Monsters) Obtain an ~|abyssal charm|~": {
-				"Category": ["Untracked Uniques", "Untracked Uniques Combat"],
-				"Label": "Untracked Combat Uniques",
-				"Items": ["Abyssal charm"],
 				"Not F2P": true
 			},
 			"(Senntisten) Obtain a ~|gate key|~": {
@@ -137007,16 +136860,6 @@
 				"Label": "Untracked Combat Uniques",
 				"Items": ["Sakadagami footwraps"]
 			},
-			"(Elite Dungeons) Obtain ~|Micah|~": {
-				"Category": ["Untracked Uniques", "Untracked Uniques Combat", "Pets"],
-				"Label": "Untracked Combat Uniques",
-				"Items": ["Micah"]
-			},
-			"(Elite Dungeons) Obtain ~|Tetch|~": {
-				"Category": ["Untracked Uniques", "Untracked Uniques Combat", "Pets"],
-				"Label": "Untracked Combat Uniques",
-				"Items": ["Tetch"]
-			},
 			"(Ghost Hunter Outfit) Obtain ~|ghost hunter goggles|~": {
 				"Category": ["Untracked Uniques", "Untracked Uniques Combat"],
 				"Label": "Untracked Combat Uniques",
@@ -137123,13 +136966,6 @@
 				"Monsters": ["AnyBoss[+]"],
 				"Not F2P": true
 			},
-			"(Soul Reaper) Obtain ~|Tiny Death|~": {
-				"Category": ["Untracked Uniques", "Untracked Uniques Combat", "Pets", "Timegated"],
-				"Label": "Untracked Combat Uniques",
-				"Chunks": ["Death's Office"],
-				"Monsters": ["AnyBoss[+]"],
-				"Not F2P": true
-			},
 			"(Temple of Aminishi) Obtain a ~|tetsu sword upgrade kit|~": {
 				"Category": ["Untracked Uniques", "Untracked Uniques Combat"],
 				"Label": "Untracked Combat Uniques",
@@ -137139,41 +136975,6 @@
 				"Category": ["Untracked Uniques", "Untracked Uniques Combat"],
 				"Label": "Untracked Combat Uniques",
 				"Items": ["Seasinger weapon upgrade kit"]
-			},
-			"(Temple of Aminishi) Obtain ~|suspicious gunpowder|~": {
-				"Category": ["Untracked Uniques", "Untracked Uniques Combat"],
-				"Label": "Untracked Combat Uniques",
-				"Items": ["Suspicious gunpowder"]
-			},
-			"(Dragonkin Laboratory) Obtain a ~|mysterious egg (item)|~": {
-				"Category": ["Untracked Uniques", "Untracked Uniques Combat", "Pets"],
-				"Label": "Untracked Combat Uniques",
-				"Items": ["Mysterious egg (item)"]
-			},
-			"(Dragonkin Laboratory) Obtain ~|dragonfire ash|~": {
-				"Category": ["Untracked Uniques", "Untracked Uniques Combat"],
-				"Label": "Untracked Combat Uniques",
-				"Items": ["Dragonfire ash"]
-			},
-			"(Dragonkin Laboratory) Obtain a ~|lucky dragonkin coin|~": {
-				"Category": ["Untracked Uniques", "Untracked Uniques Combat", "Pets"],
-				"Label": "Untracked Combat Uniques",
-				"Items": ["Lucky dragonkin coin"]
-			},
-			"(Dragonkin Laboratory) Obtain ~|prefect gemstone scales|~": {
-				"Category": ["Untracked Uniques", "Untracked Uniques Combat"],
-				"Label": "Untracked Combat Uniques",
-				"Items": ["Perfect gemstone scales"]
-			},
-			"(Shadow Reef) Obtain a ~|darting shadow|~": {
-				"Category": ["Untracked Uniques", "Untracked Uniques Combat"],
-				"Label": "Untracked Combat Uniques",
-				"Items": ["Darting shadow"]
-			},
-			"(Shadow Reef) Obtain a ~|shadowy egg|~": {
-				"Category": ["Untracked Uniques", "Untracked Uniques Combat", "Pets"],
-				"Label": "Untracked Combat Uniques",
-				"Items": ["Shadowy egg"]
 			},
 			"(Shadow Reef) Obtain an ~|oak casket|~": {
 				"Category": ["Untracked Uniques", "Untracked Uniques Combat"],
@@ -137194,24 +136995,6 @@
 				"Category": ["Untracked Uniques", "Untracked Uniques Combat"],
 				"Label": "Untracked Combat Uniques",
 				"Items": ["Swordy McSwordFace"]
-			},
-			"(Zamorakian Undercity) Obtain ~|crystal chaos|~": {
-				"Category": ["Untracked Uniques", "Untracked Uniques Combat"],
-				"Label": "Untracked Combat Uniques",
-				"Items": ["Crystal chaos"],
-				"Not F2P": true
-			},
-			"(Zamorakian Undercity) Obtain ~|living remnants|~": {
-				"Category": ["Untracked Uniques", "Untracked Uniques Combat"],
-				"Label": "Untracked Combat Uniques",
-				"Items": ["Living remnants"],
-				"Not F2P": true
-			},
-			"(Zamorakian Undercity) Obtain a ~|zamorakian sigil|~": {
-				"Category": ["Untracked Uniques", "Untracked Uniques Combat"],
-				"Label": "Untracked Combat Uniques",
-				"Items": ["Zamorakian sigil"],
-				"Not F2P": true
 			},
 			"(Zamorakian Undercity) Obtain a ~|silver of pain|~": {
 				"Category": ["Untracked Uniques", "Untracked Uniques Combat"],
@@ -137501,11 +137284,6 @@
 				"Label": "Untracked Skilling Uniques",
 				"Items": ["Skeka's hypnowand projector"]
 			},
-			"(Anachronia Combat) Obtain ~|compacted hides|~": {
-				"Category": ["Untracked Uniques", "Untracked Uniques Combat"],
-				"Label": "Untracked Skilling Uniques",
-				"Items": ["Compacted hides"]
-			},
 			"(Anachronia Combat) Obtain a ~|dinosaur rib bone|~": {
 				"Category": ["Untracked Uniques", "Untracked Uniques Combat"],
 				"Label": "Untracked Skilling Uniques",
@@ -137530,26 +137308,6 @@
 				"Category": ["Untracked Uniques", "Untracked Uniques Combat"],
 				"Label": "Untracked Skilling Uniques",
 				"Items": ["Totem of Intimidation base"]
-			},
-			"(Vile Blooms) Obtain a ~|devil's snare seed|~": {
-				"Category": ["Untracked Uniques", "Untracked Uniques Combat"],
-				"Label": "Untracked Combat Uniques",
-				"Items": ["Devil's snare seed"]
-			},
-			"(Vile Blooms) Obtain a ~|luminous snaggler seed|~": {
-				"Category": ["Untracked Uniques", "Untracked Uniques Combat"],
-				"Label": "Untracked Combat Uniques",
-				"Items": ["Luminous snaggler seed"]
-			},
-			"(Vile Blooms) Obtain a ~|lampenflora seed|~": {
-				"Category": ["Untracked Uniques", "Untracked Uniques Combat"],
-				"Label": "Untracked Combat Uniques",
-				"Items": ["Lampenflora seed"]
-			},
-			"(Vile Blooms) Obtain a ~|liverwort seed|~": {
-				"Category": ["Untracked Uniques", "Untracked Uniques Combat"],
-				"Label": "Untracked Combat Uniques",
-				"Items": ["Liverwort seed"]
 			},
 			"(Zamorakian Notes) Obtain a ~|bloodstained note|~": {
 				"Category": ["Untracked Uniques", "Untracked Uniques Combat"],
@@ -137581,31 +137339,6 @@
 				"Items": ["Mysterious note (Zamorak's demon invasion)"],
 				"Not F2P": true
 			},
-			"(Freneskae) Obtain a ~|muspah spine|~": {
-				"Category": ["Untracked Uniques", "Untracked Uniques Combat"],
-				"Label": "Untracked Combat Uniques",
-				"Items": ["Muspah spine"]
-			},
-			"(Freneskae) Obtain an ~|elder charm|~": {
-				"Category": ["Untracked Uniques", "Untracked Uniques Combat"],
-				"Label": "Untracked Combat Uniques",
-				"Items": ["Elder charm"]
-			},
-			"(Priffdinas) Obtain a ~|blissful shadow core|~": {
-				"Category": ["Untracked Uniques", "Untracked Uniques Combat"],
-				"Label": "Untracked Combat Uniques",
-				"Items": ["Blissful shadow core"]
-			},
-			"(Priffdinas) Obtain a ~|manifest shadow core|~": {
-				"Category": ["Untracked Uniques", "Untracked Uniques Combat"],
-				"Label": "Untracked Combat Uniques",
-				"Items": ["Manifest shadow core"]
-			},
-			"(Priffdinas) Obtain a ~|truthful shadow core|~": {
-				"Category": ["Untracked Uniques", "Untracked Uniques Combat"],
-				"Label": "Untracked Combat Uniques",
-				"Items": ["Truthful shadow core"]
-			},
 			"(Priffdinas Combat) Obtain a ~|crystal weapon seed|~": {
 				"Category": ["Untracked Uniques", "Untracked Uniques Combat"],
 				"Label": "Untracked Combat Uniques",
@@ -137630,24 +137363,6 @@
 				"Category": ["Untracked Uniques", "Untracked Uniques Combat"],
 				"Label": "Untracked Combat Uniques",
 				"Items": ["Elder seed"]
-			},
-			"(Senntisten) Obtain a ~|Elder Trove (Wen, T3)|~": {
-				"Category": ["Untracked Uniques", "Untracked Uniques Combat"],
-				"Label": "Untracked Combat Uniques",
-				"Items": ["Elder Trove (Wen, T3)"],
-				"Not F2P": true
-			},
-			"(Senntisten) Obtain a ~|Elder Trove (Jas, T3)|~": {
-				"Category": ["Untracked Uniques", "Untracked Uniques Combat"],
-				"Label": "Untracked Combat Uniques",
-				"Items": ["Elder Trove (Jas, T3)"],
-				"Not F2P": true
-			},
-			"(Senntisten) Obtain a ~|Elder Trove (Ful, T3)|~": {
-				"Category": ["Untracked Uniques", "Untracked Uniques Combat"],
-				"Label": "Untracked Combat Uniques",
-				"Items": ["Elder Trove (Ful, T3)"],
-				"Not F2P": true
 			},
 			"(Bandos's Throne Room) Obtain a ~|granite mace|~": {
 				"Category": ["Untracked Uniques", "Untracked Uniques Combat"],
@@ -137773,106 +137488,16 @@
 				"Items": ["Ancient satuette"],
 				"Not F2P": true
 			},
-			"(Untracked Slayer) Obtain a ~|cockatrice egg|~": {
-				"Category": ["Untracked Uniques", "Untracked Uniques Combat"],
-				"Label": "Untracked Combat Uniques",
-				"Items": ["Cockatrice egg"],
-				"Not F2P": true
-			},
-			"(Untracked Slayer) Obtain a ~|summoning focus|~": {
-				"Category": ["Untracked Uniques", "Untracked Uniques Combat"],
-				"Label": "Untracked Combat Uniques",
-				"Items": ["Summoning focus"],
-				"Not F2P": true
-			},
-			"(Untracked Slayer) Obtain ~|corrupted magic logs|~": {
-				"Category": ["Untracked Uniques", "Untracked Uniques Combat"],
-				"Label": "Untracked Combat Uniques",
-				"Items": ["Corrupted magic logs"],
-				"Not F2P": true
-			},
 			"(Untracked Slayer) Obtain a ~|soul talisman|~": {
 				"Category": ["Untracked Uniques", "Untracked Uniques Combat"],
 				"Label": "Untracked Combat Uniques",
 				"Items": ["Soul talisman"],
 				"Not F2P": true
 			},
-			"(Untracked Slayer) Obtain an ~|inert adrenaline crystal|~": {
-				"Category": ["Untracked Uniques", "Untracked Uniques Combat"],
-				"Label": "Untracked Combat Uniques",
-				"Items": ["Inert adrenaline crystal"],
-				"Not F2P": true
-			},
-			"(Untracked Slayer) Obtain an ~|obsidian charm|~": {
-				"Category": ["Untracked Uniques", "Untracked Uniques Combat"],
-				"Label": "Untracked Combat Uniques",
-				"Items": ["Obsidian charm"],
-				"Not F2P": true
-			},
-			"(Untracked Slayer) Obtain a ~|fury shark|~": {
-				"Category": ["Untracked Uniques", "Untracked Uniques Combat"],
-				"Label": "Untracked Combat Uniques",
-				"Items": ["Fury shark"],
-				"Not F2P": true
-			},
 			"(Untracked Slayer) Obtain an ~|ogre club|~": {
 				"Category": ["Untracked Uniques", "Untracked Uniques Combat"],
 				"Label": "Untracked Combat Uniques",
 				"Items": ["Ogre club"],
-				"Not F2P": true
-			},
-			"(Untracked Slayer) Obtain ~|stalker essence|~": {
-				"Category": ["Untracked Uniques", "Untracked Uniques Combat"],
-				"Label": "Untracked Combat Uniques",
-				"Items": ["Stalker essence"],
-				"Not F2P": true
-			},
-			"(Polypore) Obtain a ~|Gorajian mushroom|~": {
-				"Category": ["Untracked Uniques", "Untracked Uniques Combat"],
-				"Label": "Untracked Combat Uniques",
-				"Items": ["Gorajian mushroom"],
-				"Not F2P": true
-			},
-			"(Polypore) Obtain a ~|fungal flake|~": {
-				"Category": ["Untracked Uniques", "Untracked Uniques Combat"],
-				"Label": "Untracked Combat Uniques",
-				"Items": ["Fungal flake"],
-				"Not F2P": true
-			},
-			"(Polypore) Obtain a ~|grifolic flake|~": {
-				"Category": ["Untracked Uniques", "Untracked Uniques Combat"],
-				"Label": "Untracked Combat Uniques",
-				"Items": ["Grifolic flake"],
-				"Not F2P": true
-			},
-			"(Polypore) Obtain a ~|polypore spore|~": {
-				"Category": ["Untracked Uniques", "Untracked Uniques Combat"],
-				"Label": "Untracked Combat Uniques",
-				"Items": ["Polypore spore"],
-				"Not F2P": true
-			},
-			"(Troll Capes) Obtain a ~|deathstorm drape|~": {
-				"Category": ["Untracked Uniques", "Untracked Uniques Combat"],
-				"Label": "Untracked Combat Uniques",
-				"Items": ["Deathstorm drape"],
-				"Not F2P": true
-			},
-			"(Troll Capes) Obtain a ~|spellstorm drape|~": {
-				"Category": ["Untracked Uniques", "Untracked Uniques Combat"],
-				"Label": "Untracked Combat Uniques",
-				"Items": ["Spellstorm drape"],
-				"Not F2P": true
-			},
-			"(Troll Capes) Obtain a ~|bladestorm drape|~": {
-				"Category": ["Untracked Uniques", "Untracked Uniques Combat"],
-				"Label": "Untracked Combat Uniques",
-				"Items": ["Bladestorm drape"],
-				"Not F2P": true
-			},
-			"(Troll Capes) Obtain a ~|arrowstorm drape|~": {
-				"Category": ["Untracked Uniques", "Untracked Uniques Combat"],
-				"Label": "Untracked Combat Uniques",
-				"Items": ["Arrowstorm drape"],
 				"Not F2P": true
 			},
 			"(Untracked Boss) Obtain a ~|mole claw|~": {
@@ -138030,56 +137655,6 @@
 				"Items": ["Mask part 5"],
 				"Not F2P": true
 			},
-			"(Fremennik) Obtain ~|rock-shell gloves|~": {
-				"Category": ["Untracked Uniques", "Untracked Uniques Combat"],
-				"Label": "Untracked Combat Uniques",
-				"Items": ["Rock-shell gloves"]
-			},
-			"(Fremennik) Obtain ~|rock-shell boots|~": {
-				"Category": ["Untracked Uniques", "Untracked Uniques Combat"],
-				"Label": "Untracked Combat Uniques",
-				"Items": ["Rock-shell boots"]
-			},
-			"(Fremennik) Obtain a ~|rock-shell splinter|~": {
-				"Category": ["Untracked Uniques", "Untracked Uniques Combat"],
-				"Label": "Untracked Combat Uniques",
-				"Items": ["Rock-shell splinter"]
-			},
-			"(Fremennik) Obtain a ~|rock-shell chunk|~": {
-				"Category": ["Untracked Uniques", "Untracked Uniques Combat"],
-				"Label": "Untracked Combat Uniques",
-				"Items": ["Rock-shell chunk"]
-			},
-			"(Fremennik) Obtain a ~|rock-shell shard|~": {
-				"Category": ["Untracked Uniques", "Untracked Uniques Combat"],
-				"Label": "Untracked Combat Uniques",
-				"Items": ["Rock-shell shard"]
-			},
-			"(Fremennik) Obtain ~|skeletal gloves|~": {
-				"Category": ["Untracked Uniques", "Untracked Uniques Combat"],
-				"Label": "Untracked Combat Uniques",
-				"Items": ["Skeletal gloves"]
-			},
-			"(Fremennik) Obtain ~|skeletal boots|~": {
-				"Category": ["Untracked Uniques", "Untracked Uniques Combat"],
-				"Label": "Untracked Combat Uniques",
-				"Items": ["Skeletal boots"]
-			},
-			"(Fremennik) Obtain a ~|fibula piece|~": {
-				"Category": ["Untracked Uniques", "Untracked Uniques Combat"],
-				"Label": "Untracked Combat Uniques",
-				"Items": ["Fibula piece"]
-			},
-			"(Fremennik) Obtain a ~|ribcage piece|~": {
-				"Category": ["Untracked Uniques", "Untracked Uniques Combat"],
-				"Label": "Untracked Combat Uniques",
-				"Items": ["Ribcage piece"]
-			},
-			"(Fremennik) Obtain a ~|skull piece|~": {
-				"Category": ["Untracked Uniques", "Untracked Uniques Combat"],
-				"Label": "Untracked Combat Uniques",
-				"Items": ["Skull piece"]
-			},
 			"(Pigs) Obtain a ~|pack pig tooth|~": {
 				"Category": ["Untracked Uniques", "Untracked Uniques Combat"],
 				"Label": "Untracked Combat Uniques",
@@ -138096,84 +137671,6 @@
 				"Category": ["Untracked Uniques", "Untracked Uniques Combat"],
 				"Label": "Untracked Combat Uniques",
 				"Items": ["Prayer pig tooth"],
-				"Not F2P": true
-			},
-			"(Jadinko Fruits) Obtain a ~|common fruit|~": {
-				"Category": ["Untracked Uniques", "Untracked Uniques Combat"],
-				"Label": "Untracked Combat Uniques",
-				"Items": ["Common fruit"],
-				"Not F2P": true
-			},
-			"(Jadinko Fruits) Obtain a ~|diseased fruit|~": {
-				"Category": ["Untracked Uniques", "Untracked Uniques Combat"],
-				"Label": "Untracked Combat Uniques",
-				"Items": ["Diseased fruit"],
-				"Not F2P": true
-			},
-			"(Jadinko Fruits) Obtain a ~|camouflaged fruit|~": {
-				"Category": ["Untracked Uniques", "Untracked Uniques Combat"],
-				"Label": "Untracked Combat Uniques",
-				"Items": ["Camouflaged fruit"],
-				"Not F2P": true
-			},
-			"(Jadinko Fruits) Obtain a ~|cannibal fruit|~": {
-				"Category": ["Untracked Uniques", "Untracked Uniques Combat"],
-				"Label": "Untracked Combat Uniques",
-				"Items": ["Cannibal fruit"],
-				"Not F2P": true
-			},
-			"(Jadinko Fruits) Obtain a ~|Guthix fruit|~": {
-				"Category": ["Untracked Uniques", "Untracked Uniques Combat"],
-				"Label": "Untracked Combat Uniques",
-				"Items": ["Guthix fruit"],
-				"Not F2P": true
-			},
-			"(Jadinko Fruits) Obtain a ~|Saradomin fruit|~": {
-				"Category": ["Untracked Uniques", "Untracked Uniques Combat"],
-				"Label": "Untracked Combat Uniques",
-				"Items": ["Saradomin fruit"],
-				"Not F2P": true
-			},
-			"(Jadinko Fruits) Obtain a ~|Zamorak fruit|~": {
-				"Category": ["Untracked Uniques", "Untracked Uniques Combat"],
-				"Label": "Untracked Combat Uniques",
-				"Items": ["Zamorak fruit"],
-				"Not F2P": true
-			},
-			"(Jadinko Fruits) Obtain a ~|shadow fruit|~": {
-				"Category": ["Untracked Uniques", "Untracked Uniques Combat"],
-				"Label": "Untracked Combat Uniques",
-				"Items": ["Shadow fruit"],
-				"Not F2P": true
-			},
-			"(Jadinko Fruits) Obtain a ~|draconic fruit|~": {
-				"Category": ["Untracked Uniques", "Untracked Uniques Combat"],
-				"Label": "Untracked Combat Uniques",
-				"Items": ["Draconic fruit"],
-				"Not F2P": true
-			},
-			"(Jadinko Fruits) Obtain a ~|amphibious fruit|~": {
-				"Category": ["Untracked Uniques", "Untracked Uniques Combat"],
-				"Label": "Untracked Combat Uniques",
-				"Items": ["Amphibious fruit"],
-				"Not F2P": true
-			},
-			"(Jadinko Fruits) Obtain a ~|igneous fruit|~": {
-				"Category": ["Untracked Uniques", "Untracked Uniques Combat"],
-				"Label": "Untracked Combat Uniques",
-				"Items": ["Igneous fruit"],
-				"Not F2P": true
-			},
-			"(Jadinko Fruits) Obtain a ~|aquatic fruit|~": {
-				"Category": ["Untracked Uniques", "Untracked Uniques Combat"],
-				"Label": "Untracked Combat Uniques",
-				"Items": ["Aquatic fruit"],
-				"Not F2P": true
-			},
-			"(Jadinko Fruits) Obtain a ~|carrion fruit|~": {
-				"Category": ["Untracked Uniques", "Untracked Uniques Combat"],
-				"Label": "Untracked Combat Uniques",
-				"Items": ["Carrion fruit"],
 				"Not F2P": true
 			},
 			"(Misc Drops) Obtain a ~|court summons|~": {
@@ -139697,11 +139194,6 @@
 				"Label": "Untracked Minigame Uniques",
 				"Items": ["Swift gloves"]
 			},
-			"(Soul Wars) Obtain a ~|TzRek-Jad|~": {
-				"Category": ["Untracked Uniques", "Untracked Uniques Minigames"],
-				"Label": "Untracked Minigame Uniques",
-				"Items": ["TzRek-Jad"]
-			},
 			"(Soul Wars) Obtain ~|trickster robe legs|~": {
 				"Category": ["Untracked Uniques", "Untracked Uniques Minigames"],
 				"Label": "Untracked Minigame Uniques",
@@ -139716,61 +139208,6 @@
 				"Category": ["Untracked Uniques", "Untracked Uniques Minigames"],
 				"Label": "Untracked Minigame Uniques",
 				"Items": ["Vanguard legs"]
-			},
-			"(Shattered Worlds) Obtain the ~|Abyssal Knight (override)|~": {
-				"Category": ["Untracked Uniques", "Untracked Uniques Minigames"],
-				"Label": "Untracked Minigame Uniques",
-				"Items": ["Abyssal Knights' armour override"]
-			},
-			"(Shattered Worlds) Obtain the ~|aniwisp|~": {
-				"Category": ["Untracked Uniques", "Untracked Uniques Minigames", "Pets"],
-				"Label": "Untracked Minigame Uniques",
-				"Items": ["Anima Pet - Tier 1"]
-			},
-			"(Shattered Worlds) Obtain the ~|animist|~": {
-				"Category": ["Untracked Uniques", "Untracked Uniques Minigames", "Pets"],
-				"Label": "Untracked Minigame Uniques",
-				"Items": ["Anima Pet - Tier 2"]
-			},
-			"(Shattered Worlds) Obtain the ~|animagu|~": {
-				"Category": ["Untracked Uniques", "Untracked Uniques Minigames", "Pets"],
-				"Label": "Untracked Minigame Uniques",
-				"Items": ["Anima Pet - Tier 3"]
-			},
-			"(Shattered Worlds) Obtain the ~|animawhal|~": {
-				"Category": ["Untracked Uniques", "Untracked Uniques Minigames", "Pets"],
-				"Label": "Untracked Minigame Uniques",
-				"Items": ["Anima Pet - Tier 4"]
-			},
-			"(Shattered Worlds) Obtain the ~|animaroo|~": {
-				"Category": ["Untracked Uniques", "Untracked Uniques Minigames", "Pets"],
-				"Label": "Untracked Minigame Uniques",
-				"Items": ["Anima Pet - Tier 5"]
-			},
-			"(Shattered Worlds) Obtain the ~|animaraptor|~": {
-				"Category": ["Untracked Uniques", "Untracked Uniques Minigames", "Pets"],
-				"Label": "Untracked Minigame Uniques",
-				"Items": ["Anima Pet - Tier 6"]
-			},
-			"(Shattered Worlds) Obtain the ~|animasaur|~": {
-				"Category": ["Untracked Uniques", "Untracked Uniques Minigames", "Pets"],
-				"Label": "Untracked Minigame Uniques",
-				"Items": ["Anima Pet - Tier 7"]
-			},
-			"(Shattered Worlds) Obtain the ~|animasaurus|~": {
-				"Category": ["Untracked Uniques", "Untracked Uniques Minigames", "Pets"],
-				"Label": "Untracked Minigame Uniques",
-				"Items": ["Anima Pet - Tier 8"]
-			},
-			"(Shattered Worlds) Obtain the ~|animasaurus rex|~": {
-				"Category": ["Untracked Uniques", "Untracked Uniques Minigames", "Pets"],
-				"Label": "Untracked Minigame Uniques",
-				"Items": ["Anima Pet - Tier 9"]
-			},
-			"(Shattered Worlds) Obtain the ~|abyssal hound|~": {
-				"Category": ["Untracked Uniques", "Untracked Uniques Minigames", "Pets"],
-				"Label": "Untracked Minigame Uniques",
-				"Items": ["Abyssal hound"]
 			},
 			"(Shattered Worlds) Obtain the ~|Spirit of Battle|~": {
 				"Category": ["Untracked Uniques", "Untracked Uniques Minigames"],
@@ -140537,11 +139974,6 @@
 				"Label": "Untracked Minigame Uniques",
 				"Items": ["Diviner's footwear"]
 			},
-			"(Phoenix Lair) Obtain a ~|phoenix eggling|~": {
-				"Category": ["Untracked Uniques", "Untracked Uniques Minigames", "Pets"],
-				"Label": "Untracked Minigame Uniques",
-				"Items": ["Phoenix eggling"]
-			},
 			"(Phoenix Lair) Obtain a ~|phoenix quill|~": {
 				"Category": ["Untracked Uniques", "Untracked Uniques Minigames"],
 				"Label": "Untracked Minigame Uniques",
@@ -140857,11 +140289,6 @@
 				"Label": "Untracked Minigame Uniques",
 				"Items": ["Herb bag"]
 			},
-			"(Herby Werby) Obtain ~|Sasha|~": {
-				"Category": ["Untracked Uniques", "Untracked Uniques Minigames", "Pets"],
-				"Label": "Untracked Minigame Uniques",
-				"Items": ["Sasha"]
-			},
 			"(Herby Werby) Obtain a ~|Totem of Crystal base|~": {
 				"Category": ["Untracked Uniques", "Untracked Uniques Minigames"],
 				"Label": "Untracked Minigame Uniques",
@@ -140926,26 +140353,6 @@
 				"Category": ["Untracked Uniques", "Untracked Uniques Minigames", "Cosmetics"],
 				"Label": "Untracked Minigame Uniques",
 				"Items": ["Soul cape (golden)"]
-			},
-			"(Effigy Incubtor) Obtain ~|Jeffy|~": {
-				"Category": ["Untracked Uniques", "Untracked Uniques Minigames", "Pets"],
-				"Label": "Untracked Minigame Uniques",
-				"Items": ["Jeffy"]
-			},
-			"(Effigy Incubtor) Obtain ~|Geffy|~": {
-				"Category": ["Untracked Uniques", "Untracked Uniques Minigames", "Pets"],
-				"Label": "Untracked Minigame Uniques",
-				"Items": ["Geffy"]
-			},
-			"(Effigy Incubtor) Obtain ~|Leffy|~": {
-				"Category": ["Untracked Uniques", "Untracked Uniques Minigames", "Pets"],
-				"Label": "Untracked Minigame Uniques",
-				"Items": ["Leffy"]
-			},
-			"(Effigy Incubtor) Obtain ~|Seffy|~": {
-				"Category": ["Untracked Uniques", "Untracked Uniques Minigames", "Pets"],
-				"Label": "Untracked Minigame Uniques",
-				"Items": ["Seffy"]
 			},
 			"(Court Cases) Obtain a ~|barrister wig|~": {
 				"Category": ["Untracked Uniques", "Untracked Uniques Minigames", "Cosmetics"],
@@ -141123,11 +140530,6 @@
 				"Label": "Untracked Minigame Uniques",
 				"Items": ["Vanguard robe"]
 			},
-			"(Wisps of the Lost Grove) Obtain ~|Vinny|~": {
-				"Category": ["Untracked Uniques", "Untracked Uniques Minigames", "Pets"],
-				"Label": "Untracked Minigame Uniques",
-				"Items": ["Vinny"]
-			},
 			"(Wilderness Flash Events) Obtain an ~|obelisk shard|~": {
 				"Category": ["Untracked Uniques", "Untracked Uniques Minigames"],
 				"Label": "Untracked Minigame Uniques",
@@ -141157,11 +140559,6 @@
 				"Category": ["Untracked Uniques", "Untracked Uniques Minigames", "Cosmetics"],
 				"Label": "Untracked Minigame Uniques",
 				"Items": ["Briefcase of disguises"]
-			},
-			"(Penguin Hide & Seek) Obtain ~|Sheldon the Penguin|~": {
-				"Category": ["Untracked Uniques", "Untracked Uniques Minigames", "Pets"],
-				"Label": "Untracked Minigame Uniques",
-				"Items": ["Sheldon the Penguin"]
 			},
 			"(Misc.) Obtain ~|fancy boots|~": {
 				"Category": ["Untracked Uniques", "Untracked Uniques Misc"],
@@ -141244,7 +140641,7 @@
 				"Items": ["Plain satchel"]
 			},
 			"(Giant Mimic) Obtain a ~|mimic plushie|~": {
-				"Category": ["Untracked Uniques", "Untracked Uniques Misc", "Pets"],
+				"Category": ["Untracked Uniques", "Untracked Uniques Misc"],
 				"Label": "Untracked Misc Uniques",
 				"Items": ["Mimic plushie"]
 			},
@@ -144037,20 +143434,20 @@
 				"Not F2P": true
 			},
 			"Obtain ~|Remy|~": {
-				"Category": ["Pets"],
-				"Label": "Pets",
+				"Category": ["Permanent Unlockables", "Pets"],
+				"Label": "Follower Pets",
 				"Chunks": ["City of Um"],
 				"Items": ["GhostlySole[+]"],
 				"NPCs": ["Ghost cat"]
 			},
 			"Obtain ~|Richie|~ and his partyhat": {
-				"Category": ["Money Unlockables", "Pets"],
-				"Label": "Pets",
+				"Category": ["Permanent Unlockables", "Pets"],
+				"Label": "Follower Pets",
 				"Chunks": ["12598"]
 			},
 			"Unlock the ~|Revenant Pet#Dragon|~": {
 				"Category": ["Permanent Unlockables", "Pets"],
-				"Label": "Permanent Unlockables",
+				"Label": "Follower Pets",
 				"Items": ["Revenant Spirit#Dragon"],
 				"Priority": 1,
 				"Set": "Revenant Pet",
@@ -144058,7 +143455,7 @@
 			},
 			"Unlock the ~|Revenant Pet#Knight|~": {
 				"Category": ["Permanent Unlockables", "Pets"],
-				"Label": "Permanent Unlockables",
+				"Label": "Follower Pets",
 				"Items": ["Revenant Spirit#Knight"],
 				"Priority": 2,
 				"Set": "Revenant Pet",
@@ -144066,7 +143463,7 @@
 			},
 			"Unlock the ~|Revenant Pet#Dark beast|~": {
 				"Category": ["Permanent Unlockables", "Pets"],
-				"Label": "Permanent Unlockables",
+				"Label": "Follower Pets",
 				"Items": ["Revenant Spirit#Dark beast"],
 				"Priority": 3,
 				"Set": "Revenant Pet",
@@ -144074,7 +143471,7 @@
 			},
 			"Unlock the ~|Revenant Pet#Ork|~": {
 				"Category": ["Permanent Unlockables", "Pets"],
-				"Label": "Permanent Unlockables",
+				"Label": "Follower Pets",
 				"Items": ["Revenant Spirit#Ork"],
 				"Priority": 4,
 				"Set": "Revenant Pet",
@@ -144082,7 +143479,7 @@
 			},
 			"Unlock the ~|Revenant Pet#Demon|~": {
 				"Category": ["Permanent Unlockables", "Pets"],
-				"Label": "Permanent Unlockables",
+				"Label": "Follower Pets",
 				"Items": ["Revenant Spirit#Demon"],
 				"Priority": 5,
 				"Set": "Revenant Pet",
@@ -144090,7 +143487,7 @@
 			},
 			"Unlock the ~|Revenant Pet#Hellhound|~": {
 				"Category": ["Permanent Unlockables", "Pets"],
-				"Label": "Permanent Unlockables",
+				"Label": "Follower Pets",
 				"Items": ["Revenant Spirit#Hellhound"],
 				"Priority": 6,
 				"Set": "Revenant Pet",
@@ -144098,7 +143495,7 @@
 			},
 			"Unlock the ~|Revenant Pet#Cyclops|~": {
 				"Category": ["Permanent Unlockables", "Pets"],
-				"Label": "Permanent Unlockables",
+				"Label": "Follower Pets",
 				"Items": ["Revenant Spirit#Cyclops"],
 				"Priority": 7,
 				"Set": "Revenant Pet",
@@ -144106,7 +143503,7 @@
 			},
 			"Unlock the ~|Revenant Pet#Werewolf|~": {
 				"Category": ["Permanent Unlockables", "Pets"],
-				"Label": "Permanent Unlockables",
+				"Label": "Follower Pets",
 				"Items": ["Revenant Spirit#Werewolf"],
 				"Priority": 8,
 				"Set": "Revenant Pet",
@@ -144114,7 +143511,7 @@
 			},
 			"Unlock the ~|Revenant Pet#Vampyre|~": {
 				"Category": ["Permanent Unlockables", "Pets"],
-				"Label": "Permanent Unlockables",
+				"Label": "Follower Pets",
 				"Items": ["Revenant Spirit#Vampyre"],
 				"Priority": 9,
 				"Set": "Revenant Pet",
@@ -144122,7 +143519,7 @@
 			},
 			"Unlock the ~|Revenant Pet#Hobgoblin|~": {
 				"Category": ["Permanent Unlockables", "Pets"],
-				"Label": "Permanent Unlockables",
+				"Label": "Follower Pets",
 				"Items": ["Revenant Spirit#Hobgoblin"],
 				"Priority": 10,
 				"Set": "Revenant Pet",
@@ -144130,7 +143527,7 @@
 			},
 			"Unlock the ~|Revenant Pet#Pyrefiend|~": {
 				"Category": ["Permanent Unlockables", "Pets"],
-				"Label": "Permanent Unlockables",
+				"Label": "Follower Pets",
 				"Items": ["Revenant Spirit#Pyrefiend"],
 				"Priority": 11,
 				"Set": "Revenant Pet",
@@ -144138,7 +143535,7 @@
 			},
 			"Unlock the ~|Revenant Pet#Icefiend|~": {
 				"Category": ["Permanent Unlockables", "Pets"],
-				"Label": "Permanent Unlockables",
+				"Label": "Follower Pets",
 				"Items": ["Revenant Spirit#Icefiend"],
 				"Priority": 12,
 				"Set": "Revenant Pet",
@@ -144146,7 +143543,7 @@
 			},
 			"Unlock the ~|Revenant Pet#Goblin|~": {
 				"Category": ["Permanent Unlockables", "Pets"],
-				"Label": "Permanent Unlockables",
+				"Label": "Follower Pets",
 				"Items": ["Revenant Spirit#Goblin"],
 				"Priority": 13,
 				"Set": "Revenant Pet",
@@ -144154,11 +143551,192 @@
 			},
 			"Unlock the ~|Revenant Pet#Imp|~": {
 				"Category": ["Permanent Unlockables", "Pets"],
-				"Label": "Permanent Unlockables",
+				"Label": "Follower Pets",
 				"Items": ["Revenant Spirit"],
 				"Priority": 14,
 				"Set": "Revenant Pet",
 				"Not F2P": true
+			},
+			"Unlock ~|Sheldon the Penguin|~": {
+				"Category": ["Permanent Unlockables", "Pets"],
+				"Label": "Follower Pets",
+				"Items": ["Sheldon the Penguin"]
+			},
+			"Unlock ~|Vinny|~": {
+				"Category": ["Permanent Unlockables", "Pets"],
+				"Label": "Follower Pets",
+				"Items": ["Vinny"]
+			},
+			"Unlock ~|Sasha|~": {
+				"Category": ["Permanent Unlockables", "Pets"],
+				"Label": "Follower Pets",
+				"Items": ["Sasha"]
+			},
+			"Unlock both ~|phoenix egglings|~": {
+				"Category": ["Permanent Unlockables", "Pets"],
+				"Label": "Follower Pets",
+				"Items": ["Phoenix eggling"]
+			},
+			"Unlock the ~|TzRek-Jad|~": {
+				"Category": ["Permanent Unlockables", "Pets"],
+				"Label": "Follower Pets",
+				"Items": ["TzRek-Jad"]
+			},
+			"Unlock the ~|Sneakerpeeper|~": {
+				"Category": ["Permanent Unlockables", "Pets"],
+				"Label": "Follower Pets",
+				"Items": ["Sneakerpeeper"]
+			},
+			"Unlock ~|Frosty|~": {
+				"Category": ["Permanent Unlockables", "Pets"],
+				"Label": "Follower Pets",
+				"Skills": {
+					"Summoning": 99
+				},
+				"Items": ["Frosty"]
+			},
+			"Unlock ~|Mini-Blink|~": {
+				"Category": ["Permanent Unlockables", "Pets"],
+				"Label": "Follower Pets",
+				"Items": ["Mini-Blink"]
+			},
+			"Unlock the ~|Hope Nibbler|~": {
+				"Category": ["Permanent Unlockables", "Pets"],
+				"Label": "Follower Pets",
+				"Items": ["Hope Nibbler"]
+			},
+			"Unlock ~|Micah|~": {
+				"Category": ["Permanent Unlockables", "Pets"],
+				"Label": "Follower Pets",
+				"Items": ["Micah"]
+			},
+			"Unlock ~|Tetch|~": {
+				"Category": ["Permanent Unlockables", "Pets"],
+				"Label": "Follower Pets",
+				"Items": ["Tetch"]
+			},
+			"Unlock ~|Tiny Death|~": {
+				"Category": ["Permanent Unlockables", "Pets"],
+				"Label": "Follower Pets",
+				"Chunks": ["Death's Office"],
+				"Monsters": ["AnyBoss[+]"],
+				"Not F2P": true
+			},
+			"Unlock the ~|Mysterious Chicken|~": {
+				"Category": ["Permanent Unlockables", "Pets"],
+				"Label": "Follower Pets",
+				"Items": ["Mysterious egg (item)"]
+			},
+			"Unlock ~|Diddykin|~": {
+				"Category": ["Permanent Unlockables", "Pets"],
+				"Label": "Follower Pets",
+				"Skills": {
+					"Summoning": 99
+				},
+				"Items": ["Lucky dragonkin coin"]
+			},
+			"Unlock ~|Squoggoth|~": {
+				"Category": ["Permanent Unlockables", "Pets"],
+				"Label": "Follower Pets",
+				"Items": ["Shadowy egg"]
+			},
+			"Unlock the ~|aniwisp|~": {
+				"Category": ["Permanent Unlockables", "Pets"],
+				"Label": "Follower Pets",
+				"Priority": 9,
+				"Set": "Anima Creature",
+				"Items": ["Anima Pet - Tier 1"]
+			},
+			"Unlock the ~|animist|~": {
+				"Category": ["Permanent Unlockables", "Pets"],
+				"Label": "Follower Pets",
+				"Priority": 8,
+				"Set": "Anima Creature",
+				"Items": ["Anima Pet - Tier 2"]
+			},
+			"Unlock the ~|animagu|~": {
+				"Category": ["Permanent Unlockables", "Pets"],
+				"Label": "Follower Pets",
+				"Priority": 7,
+				"Set": "Anima Creature",
+				"Items": ["Anima Pet - Tier 3"]
+			},
+			"Unlock the ~|animawhal|~": {
+				"Category": ["Permanent Unlockables", "Pets"],
+				"Label": "Follower Pets",
+				"Priority": 6,
+				"Set": "Anima Creature",
+				"Items": ["Anima Pet - Tier 4"]
+			},
+			"Unlock the ~|animaroo|~": {
+				"Category": ["Permanent Unlockables", "Pets"],
+				"Label": "Follower Pets",
+				"Priority": 5,
+				"Set": "Anima Creature",
+				"Items": ["Anima Pet - Tier 5"]
+			},
+			"Unlock the ~|animaraptor|~": {
+				"Category": ["Permanent Unlockables", "Pets"],
+				"Label": "Follower Pets",
+				"Priority": 4,
+				"Set": "Anima Creature",
+				"Items": ["Anima Pet - Tier 6"]
+			},
+			"Unlock the ~|animasaur|~": {
+				"Category": ["Permanent Unlockables", "Pets"],
+				"Label": "Follower Pets",
+				"Priority": 3,
+				"Set": "Anima Creature",
+				"Items": ["Anima Pet - Tier 7"]
+			},
+			"Unlock the ~|animasaurus|~": {
+				"Category": ["Permanent Unlockables", "Pets"],
+				"Label": "Follower Pets",
+				"Priority": 2,
+				"Set": "Anima Creature",
+				"Items": ["Anima Pet - Tier 8"]
+			},
+			"Unlock the ~|animasaurus rex|~": {
+				"Category": ["Permanent Unlockables", "Pets"],
+				"Label": "Follower Pets",
+				"Priority": 1,
+				"Set": "Anima Creature",
+				"Items": ["Anima Pet - Tier 9"]
+			},
+			"Unlock the ~|abyssal hound|~": {
+				"Category": ["Permanent Unlockables", "Pets"],
+				"Label": "Follower Pets",
+				"Items": ["Abyssal hound"]
+			},
+			"Unlock ~|Jeffy|~": {
+				"Category": ["Permanent Unlockables", "Pets"],
+				"Label": "Follower Pets",
+				"Items": ["Jeffy"]
+			},
+			"Unlock ~|Geffy|~": {
+				"Category": ["Permanent Unlockables", "Pets"],
+				"Label": "Follower Pets",
+				"Items": ["Geffy"]
+			},
+			"Unlock ~|Leffy|~": {
+				"Category": ["Permanent Unlockables", "Pets"],
+				"Label": "Follower Pets",
+				"Items": ["Leffy"]
+			},
+			"Unlock ~|Seffy|~": {
+				"Category": ["Permanent Unlockables", "Pets"],
+				"Label": "Follower Pets",
+				"Items": ["Seffy"]
+			},
+			"Unlock ~|Trevor|~": {
+				"Category": ["Permanent Unlockables", "Pets"],
+				"Label": "Follower Pets",
+				"Items": ["Trevor"]
+			},
+			"Unlock ~|Chomper|~": {
+				"Category": ["Permanent Unlockables", "Pets"],
+				"Label": "Follower Pets",
+				"Items": ["Chomper"]
 			},
 			"Unlock all ~|Dundee's Crocodile Upgrades|~": {
 				"Category": ["Permanent Unlockables"],
@@ -145753,17 +145331,17 @@
 				"Label": "Permanent Unlockables",
 				"Items": ["Quick traps"]
 			},
-			"Obtain the ~|Warrior of Het armour|~": {
+			"Unlock the ~|Warrior of Het armour|~": {
 				"Category": ["Permanent Unlockables", "Cosmetics"],
 				"Label": "Cosmetic Overrides",
 				"Items": ["Warrior of Het armour"]
 			},
-			"Obtain ~|gators|~": {
+			"Unlock ~|gators|~": {
 				"Category": ["Permanent Unlockables", "Cosmetics"],
 				"Label": "Cosmetic Overrides",
 				"Items": ["Gators"]
 			},
-			"Obtain the ~|Retro Primal Armour Set|~": {
+			"Unlock the ~|Retro Primal Armour Set|~": {
 				"Category": ["Permanent Unlockables", "Cosmetics"],
 				"Label": "Cosmetic Overrides",
 				"Items": ["Retro primal armour set"]
@@ -145793,99 +145371,104 @@
 				"Label": "Cosmetic Overrides",
 				"Items": ["Kethsi outfit scroll"]
 			},
-			"Obtain a ~|Tuska (Saradomin) spear|~": {
+			"Unlock the ~|Tuska (Saradomin) spear|~": {
 				"Category": ["Permanent Unlockables", "Cosmetics"],
 				"Label": "Cosmetic Overrides",
 				"Items": ["Saradomin Spear override"]
 			},
-			"Obtain a ~|Tuska (Armadyl) spear|~": {
+			"Unlock the ~|Tuska (Armadyl) spear|~": {
 				"Category": ["Permanent Unlockables", "Cosmetics"],
 				"Label": "Cosmetic Overrides",
 				"Items": ["Armadyl Spear override"]
 			},
-			"Obtain a ~|Tuska (Zamorak) spear|~": {
+			"Unlock the ~|Tuska (Zamorak) spear|~": {
 				"Category": ["Permanent Unlockables", "Cosmetics"],
 				"Label": "Cosmetic Overrides",
 				"Items": ["Zamorak Spear override"]
 			},
-			"Obtain a ~|Tuska (Godless) spear|~": {
+			"Unlock the ~|Tuska (Godless) spear|~": {
 				"Category": ["Permanent Unlockables", "Cosmetics"],
 				"Label": "Cosmetic Overrides",
 				"Items": ["Godless Spear override"]
 			},
-			"Obtain a ~|calibration device|~": {
+			"Unlock the ~|calibration device|~": {
 				"Category": ["Permanent Unlockables", "Cosmetics"],
 				"Label": "Cosmetic Overrides",
 				"Items": ["Calibration Device"]
 			},
-			"Obtain the ~|Death Scythe|~": {
+			"Unlock the ~|Death Scythe|~": {
 				"Category": ["Permanent Unlockables", "Cosmetics", "Timegated"],
 				"Label": "Cosmetic Overrides",
 				"Chunks": ["Death's Office"],
 				"Monsters": ["AnyBoss[+]"],
 				"Not F2P": true
 			},
-			"Obtain a ~|Vorkath Necromancy weapon override token|~": {
+			"Unlock the ~|Vorkath Necromancy weapon override token|~": {
 				"Category": ["Permanent Unlockables", "Cosmetics"],
 				"Label": "Cosmetic Overrides",
 				"Items": ["Vorkath Necromancy weapon override token"],
 				"Not F2P": true
 			},
-			"Obtain a ~|Divine Moon Guard and Lantern override token|~": {
+			"Unlock the ~|Divine Moon Guard and Lantern override token|~": {
 				"Category": ["Permanent Unlockables", "Cosmetics"],
 				"Label": "Cosmetic Overrides",
 				"Items": ["Divine Moon Guard and Lantern override token"],
 				"Not F2P": true
 			},
-			"Obtain the ~|enhanced fire cape|~": {
+			"Unlock the ~|enhanced fire cape|~": {
 				"Category": ["Permanent Unlockables", "Cosmetics"],
 				"Label": "Cosmetic Overrides",
 				"Items": ["TokHaar-Kal-Ket", "TokHaar-Kal-Xil", "TokHaar-Kal-Mej"]
 			},
-			"Obtain the ~|necturion outfit|~": {
+			"Unlock the ~|necturion outfit|~": {
 				"Category": ["Permanent Unlockables", "Cosmetics"],
 				"Label": "Cosmetic Overrides",
 				"Items": ["Necturion Outfit"]
 			},
-			"Obtain the ~|invictum outfit|~": {
+			"Unlock the ~|invictum outfit|~": {
 				"Category": ["Permanent Unlockables", "Cosmetics"],
 				"Label": "Cosmetic Overrides",
 				"Items": ["Invictum Outfit"]
 			},
-			"Obtain the ~|aetherium outfit|~": {
+			"Unlock the ~|aetherium outfit|~": {
 				"Category": ["Permanent Unlockables", "Cosmetics"],
 				"Label": "Cosmetic Overrides",
 				"Items": ["Aetherium Outfit"]
 			},
-			"Obtain a ~|shard of havoc weapon token|~": {
+			"Unlock the ~|shard of havoc weapon token|~": {
 				"Category": ["Permanent Unlockables", "Cosmetics"],
 				"Label": "Cosmetic Overrides",
 				"Items": ["Shard of havoc weapon token"]
 			},
-			"Obtain a ~|shard of malice weapon token|~": {
+			"Unlock the ~|shard of malice weapon token|~": {
 				"Category": ["Permanent Unlockables", "Cosmetics"],
 				"Label": "Cosmetic Overrides",
 				"Items": ["Shard of malice weapon token"]
 			},
-			"Obtain a ~|shard of energy weapon token|~": {
+			"Unlock the ~|shard of energy weapon token|~": {
 				"Category": ["Permanent Unlockables", "Cosmetics"],
 				"Label": "Cosmetic Overrides",
 				"Items": ["Shard of energy weapon token"]
 			},
-			"Obtain a ~|shard of chaos weapon token|~": {
+			"Unlock the ~|shard of chaos weapon token|~": {
 				"Category": ["Permanent Unlockables", "Cosmetics"],
 				"Label": "Cosmetic Overrides",
 				"Items": ["Shard of chaos weapon token"]
 			},
-			"Obtain a ~|shard of despite weapon token|~": {
+			"Unlock the ~|shard of despite weapon token|~": {
 				"Category": ["Permanent Unlockables", "Cosmetics"],
 				"Label": "Cosmetic Overrides",
 				"Items": ["Shard of despite weapon token"]
 			},
-			"Obtain a ~|shard of suffering weapon token|~": {
+			"Unlock the ~|shard of suffering weapon token|~": {
 				"Category": ["Permanent Unlockables", "Cosmetics"],
 				"Label": "Cosmetic Overrides",
 				"Items": ["Shard of suffering weapon token"]
+			},
+			"Unlock the ~|Abyssal Knight (override)|~": {
+				"Category": ["Permanent Unlockables", "Cosmetics"],
+				"Label": "Cosmetic Overrides",
+				"Items": ["Abyssal Knights' armour override"]
 			},
 			"Obtain ~|the Castaway|~ title": {
 				"Category": ["Arc Log", "Titles"],
