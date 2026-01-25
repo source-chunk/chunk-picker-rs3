@@ -543,7 +543,7 @@ let ruleNames = {
 	"Dungeoneering Journals": "WIP - Must complete the Daemonheim Journals (e.g. Behemoth notes, Stalker notes, etc.)<span class='rule-asterisk noscroll'>*</span>",
 	"Slayer Souls": "Must fill out all available souls in the Slayer Codex<span class='rule-asterisk noscroll'>*</span>",
     "Combat and Teleport Spells": "Allow all spells to count as possible Magic skill tasks (otherwise only 'utility' spells like High Alchemy or Telegrab will count)",
-    "Primary Spawns": "Item spawns count as primary access to an item, and can be used as a primary way to train a skill if needed<span class='rule-asterisk noscroll'>*</span>",
+    "Primary Spawns": "Item spawns count as primary access to an item, and can be used as a primary way to train a skill if needed",
     "Smithing by Smelting": "Smelting ores into bars counts as a primary method for training Smithing",
     "Pets": "Must obtain pets for Collections and Unlocks tasks<span class='rule-asterisk noscroll'>*</span>",
     "Cosmetics": "Must obtain cosmetic items or overrides for Collection and Unlocks tasks<span class='rule-asterisk noscroll'>*</span>",
@@ -568,22 +568,22 @@ let ruleNames = {
 	"Master skillcape": "Must obtain master skillcapes for all skills<span class='rule-asterisk noscroll'>†</span>",
 	"Cleaning Herbs": "Cleaning grimy herbs/making unfinished potions can count as chunk tasks",
 	"Cleaning Herbs Primary": "Cleaning herbs counts as a primary training method",
-	"Vinesweeper": "Allow Vinesweeper to count as primary training for training Farming<span class='rule-asterisk noscroll'>*</span>",
+	"Vinesweeper": "Allow Vinesweeper to count as primary training for training Farming",
 	"Ogleroot": "Allow Vinesweeper to count as primary training for training Hunter",
 	"Gnomeball": "Allow playing gnomeball to count as a primary training method for Agility and Ranged<span class='rule-asterisk noscroll'>*</span>",
 	"Daemonheim training": "Allow training methods in Daemonheim to count as primary training methods<span class='rule-asterisk noscroll'>*</span>",
 	"Daemonheim tasks": "Allows activities and items in Daemonheim, excluding doors and puzzles, to create skilling tasks<span class='rule-asterisk noscroll'>*</span>",
 	"PortSkills": "Require all trainable port skills to be trained up to 90<span class='rule-asterisk noscroll'>*</span>",
 	"Titles": "Must obtain all in-game earnable titles<span class='rule-asterisk noscroll'>*</span>",
-	"Uncharted": "Allow resources only available on uncharted islands to create skilling tasks<span class='rule-asterisk noscroll'>*</span>",
+	"Uncharted": "Allow resources only available on uncharted islands to create skilling tasks",
 	"Arc Log": "Require completion of the Arc Journal<span class='rule-asterisk noscroll'>*</span>",
 	"Menaphos Log": "Require completion of the Menaphos Journal<span class='rule-asterisk noscroll'>*</span>",
 	"Fill Costume Room": "WIP - Must fill all slots in the Player-Owned House costume room",
 	"Achievement": "Show Achievement Tasks",
 	"Multiple Pickpockets": "Require the Agility and Thieving levels to get multiple loots from pickpocketing<span class='rule-asterisk noscroll'>*</span>",
     "F2P": "Restrict to F2P skills/items/tasks only (Partially implemented)",
-	"Hard Mode Bosses": "Include Hard mode variants of bosses",
-	"Group Content": "Require content that is intended to be completed in a group<span class='rule-asterisk noscroll'>†</span>",
+	"Hard Mode Bosses": "Include Hard mode variants of bosses<span class='rule-asterisk noscroll'>*</span>",
+	"Group Content": "Require content that is intended to be completed in a group",
 	"Full Healing": "Require Constitution levels to fully heal from different foods",
 	"Unlock Abilities": "Must unlock all reward-locked abilities, including Necromancy incantations",
 	"Sigil Abilities": "Also include Sigil abilities (Aggression, Golden Touch, etc.)<span class='rule-asterisk noscroll'>*</span>",
@@ -592,16 +592,17 @@ let ruleNames = {
 	"PvM Relics": "WIP - Must obtain all best-in-slot/quality-of-life Archaeology Relics for combat",
     "KeyItem Bosses": "For bosses that require keys to kill, factor in the droprate of the key as part of the droprate of each drop",
 	"Shooting Stars": "Getting the level to mine all tiers of shooting stars counts as a Mining skill task<span class='rule-asterisk noscroll'>*</span>",
-	"Combat Mastery achievements": "Must complete Combat Mastery achievements when possible.",
-	"Speed Killer Achievements": "Also include Speed Killer achievements.",
-	"Combat Master+": "Must complete the Master and Grandmaster tier.",
+	"Combat Mastery achievements": "Must complete Combat Mastery achievements when possible.<span class='rule-asterisk noscroll'>*</span>",
+	"Speed Killer Achievements": "Also include Speed Killer achievements.<span class='rule-asterisk noscroll'>†</span>",
+	"Combat Master+": "Must complete the Master and Grandmaster tier.<span class='rule-asterisk noscroll'>†</span>",
 	"Menaphos Events": "Allow soul obelisks and corrupted scarabs in Menaphos to count as primary training methods<span class='rule-asterisk noscroll'>*</span>",
 	"Material Blueprints": "Count discovering material blueprints as a skilling task",
 	"Comp achievements": "Must complete Completionist achievements<span class='rule-asterisk noscroll'>*</span>",
 	"Trim achievements": "Also include Trimmed Completionist Cape achievements<span class='rule-asterisk noscroll'>*</span>",
 	"MQC achievements": "Must complete Master Quest Cape achievements<span class='rule-asterisk noscroll'>*</span>",
 	"Misc achievements": "WIP- Must complete other achievements, excluding level-up achievements.",
-	"Hunter Marks Slayer": "Using Hunter Marks to buy Slayer experience lamps counts as primary training<span class='rule-asterisk noscroll'>*</span>",
+	"XP Lamps": "Using skills-specific experience lamps counts as a primary training method<span class='rule-asterisk noscroll'>*</span>",
+	"Generic XP Lamps": "Include experience lamps where you must pick a skill<span class='rule-asterisk noscroll'>†</span>",
 	"Kili Knowledge": "Must complete Kili Knowledge when possible",
 	"Slayer Contracts": "Completing Slayer contracts off-task counts as a primary training method",
 	"Hide Partial Products": "Exclude partial and unfinished products as a skilling task<span class='partialProductsRuleTooltip'></span>",
@@ -636,7 +637,10 @@ let rulePresets = {
 		"Achievement": true,
 		"Kili Knowledge": true,
 		"Slayer Contracts": true,
-		"Cleaning Herbs Primary": true
+		"Cleaning Herbs Primary": true,
+		"Uncharted": true,
+		"Vinesweeper": true,
+		"Primary Spawn": true
     },
     "Xtreme Chunker": {
         "Skillcape": true,
@@ -715,12 +719,13 @@ let rulePresets = {
 		"Comp achievements": true,
 		"Trim achievements": true,
 		"MQC achievements": true,
-		"Hunter Marks Slayer": true,
+		"XP Lamps": true,
 		"Kili Knowledge": true,
 		"Slayer Contracts": true,
 		"Cleaning Herbs Primary": true,
 		"Permanent Unlockables": true,
-		"Timegated": true
+		"Timegated": true,
+		"Combat Mastery achievements": true
     },
     "Supreme Chunker": {
         "Skillcape": true,
@@ -800,7 +805,6 @@ let rulePresets = {
 		"Achievement": true,
 		"Multiple Pickpockets": true,
 		"Hard Mode Bosses": true,
-		"Group Content": true,
 		"PVP": true,
 		"Full Healing": true,
 		"Hero Items": true,
@@ -814,11 +818,15 @@ let rulePresets = {
 		"Trim achievements": true,
 		"MQC achievements": true,
 		"Universal Tertiary": true,
-		"Hunter Marks Slayer": true,
+		"XP Lamps": true,
+		"Generic XP Lamps": true,
 		"Kili Knowledge": true,
 		"Slayer Contracts": true,
 		"Cleaning Herbs Primary": true,
-		"Timegated": true
+		"Timegated": true,
+		"Combat Mastery achievements": true,
+		"Speed Killer Achievements": true,
+		"Combat Master+": true
     }
 };                                                                              // List of rules that are part of each preset
 
@@ -851,6 +859,7 @@ let ruleStructure = {
         "Secondary Primary": true,
         "Quest Skill Reqs": true,
         "Boosting": true,
+		"XP Lamps": ["Generic XP Lamps"],
 		"DnD": ["Not Daily DnD", "DnD Flash Events"],
 		"Daemonheim training": true,
 		"Daemonheim tasks": true,
@@ -916,7 +925,6 @@ let ruleStructure = {
     },
     "Slayer": {
         "Slayer Equipment": true,
-		"Hunter Marks Slayer": true,
 		"Slayer Contracts": true
     },
     "Smithing": {
@@ -12710,6 +12718,10 @@ let loadData = async function(startup) {
 		
 		if (!rulesTemp.hasOwnProperty('Every Drop BGH')) {
             rulesTemp['Every Drop BGH'] = rulesTemp.hasOwnProperty('Every Drop') ? rulesTemp['Every Drop'] : false;
+		}
+		
+		if (!rulesTemp.hasOwnProperty('XP Lamps')) {
+            rulesTemp['XP Lamps'] = rulesTemp.hasOwnProperty('Hunter Marks Slayer') ? rulesTemp['Hunter Marks Slayer'] : false;
 		}
 		
 		if (!rulesTemp.hasOwnProperty('Menaphos Log')) {

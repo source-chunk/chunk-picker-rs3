@@ -64291,7 +64291,7 @@
 				"Priority": 30
 			},
 			"Buy and use a slayer lamp using ~|Hunter Marks|~": {
-				"Category": ["Hunter Marks Slayer"],
+				"Category": ["XP Lamps"],
 				"Chunks": ["15683-1"],
 				"Items": ["Medium Slayer lamp (Hunter Marks)*"],
 				"Level": 1,
