@@ -226,6 +226,17 @@
 				"Priority": 10,
 				"NoPet": true
 			},
+			"Rummage a ~|dead legionary|~ for triple loot": {
+				"Category": ["Multiple Pickpockets"],
+				"Level": 105,
+				"Chunks": ["Vault of Hereditas"],
+				"Skills": {
+					"Thieving": 115
+				},
+				"Primary": false,
+				"Priority": 10,
+				"NoPet": true
+			},
 			"Pickpocket a ~|trainee archaeologist|~ for quadruple loot": {
 				"Category": ["Multiple Pickpockets"],
 				"Level": 70,
@@ -1742,7 +1753,7 @@
 				"NoPet": true
 			},
 			"Enter a tier one ~|Shifting Tombs|~": {
-				"Chunks": ["8300"],
+				"Chunks": ["Shifting Tombs"],
 				"Level": 50,
 				"Skills": {
 					"Dungeoneering": 50,
@@ -1754,7 +1765,7 @@
 				"NoPet": true
 			},
 			"Enter a tier two ~|Shifting Tombs|~": {
-				"Chunks": ["8300"],
+				"Chunks": ["Shifting Tombs"],
 				"Level": 70,
 				"Skills": {
 					"Dungeoneering": 70,
@@ -1770,7 +1781,7 @@
 				"NoPet": true
 			},
 			"Enter a tier three ~|Shifting Tombs|~": {
-				"Chunks": ["8300"],
+				"Chunks": ["Shifting Tombs"],
 				"Level": 90,
 				"Skills": {
 					"Dungeoneering": 90,
@@ -13788,7 +13799,7 @@
 				"Priority": 13
 			},
 			"Enter a tier one ~|Shifting Tombs|~": {
-				"Chunks": ["8300"],
+				"Chunks": ["Shifting Tombs"],
 				"Level": 50,
 				"Skills": {
 					"Agility": 50,
@@ -14990,7 +15001,7 @@
 				"Priority": 9
 			},
 			"Enter a tier two ~|Shifting Tombs|~": {
-				"Chunks": ["8300"],
+				"Chunks": ["Shifting Tombs"],
 				"Level": 70,
 				"Skills": {
 					"Agility": 70,
@@ -16124,7 +16135,7 @@
 				"Priority": 8
 			},
 			"Enter a tier three ~|Shifting Tombs|~": {
-				"Chunks": ["8300"],
+				"Chunks": ["Shifting Tombs"],
 				"Level": 90,
 				"Skills": {
 					"Agility": 90,
@@ -21577,10 +21588,10 @@
 				"Not F2P": true,
 				"Partial": true
 			},
-			"Fire a ~|plant pot|~": {
+			"Fire a ~|plant pot (empty)|~": {
 				"Items": ["Unfired plant pot*"],
 				"Level": 19,
-				"Output": "Plant pot",
+				"Output": "Plant pot (empty)",
 				"Objects": ["Pottery oven"],
 				"Primary": true,
 				"Priority": 3,
@@ -24309,7 +24320,7 @@
 				"Not F2P": true
 			},
 			"Enter a tier two ~|Shifting Tombs|~": {
-				"Chunks": ["8300"],
+				"Chunks": ["Shifting Tombs"],
 				"Level": 70,
 				"Skills": {
 					"Agility": 70,
@@ -25717,7 +25728,7 @@
 				"Priority": 30
 			},
 			"Enter a tier three ~|Shifting Tombs|~": {
-				"Chunks": ["8300"],
+				"Chunks": ["Shifting Tombs"],
 				"Level": 90,
 				"Skills": {
 					"Agility": 90,
@@ -31706,7 +31717,7 @@
 				"Priority": 5
 			},
 			"Enter a tier two ~|Shifting Tombs|~": {
-				"Chunks": ["8300"],
+				"Chunks": ["Shifting Tombs"],
 				"Level": 70,
 				"Skills": {
 					"Agility": 70,
@@ -31782,7 +31793,7 @@
 				"Priority": 10
 			},
 			"Enter a tier three ~|Shifting Tombs|~": {
-				"Chunks": ["8300"],
+				"Chunks": ["Shifting Tombs"],
 				"Level": 90,
 				"Skills": {
 					"Agility": 90,
@@ -32362,7 +32373,7 @@
 				"Not F2P": true
 			},
 			"Enter a tier one ~|Shifting Tombs|~": {
-				"Chunks": ["8300"],
+				"Chunks": ["Shifting Tombs"],
 				"Level": 50,
 				"Skills": {
 					"Agility": 50,
@@ -32571,7 +32582,7 @@
 				"Not F2P": true
 			},
 			"Enter a tier two ~|Shifting Tombs|~": {
-				"Chunks": ["8300"],
+				"Chunks": ["Shifting Tombs"],
 				"Level": 70,
 				"Skills": {
 					"Agility": 70,
@@ -32765,7 +32776,7 @@
 				"Not F2P": true
 			},
 			"Enter a tier three ~|Shifting Tombs|~": {
-				"Chunks": ["8300"],
+				"Chunks": ["Shifting Tombs"],
 				"Level": 90,
 				"Skills": {
 					"Agility": 90,
@@ -42527,6 +42538,7 @@
 				"Priority": 8
 			},
 			"Create a ~|memory-crushing scrimshaw|~": {
+				"Chunks": ["The Arc"],
 				"Items": ["Ancient bones*"],
 				"Level": 85,
 				"Objects": ["Scrimshaw Crafter"],
@@ -42535,6 +42547,7 @@
 				"Priority": 9
 			},
 			"Create a ~|superior memory-crushing scrimshaw|~": {
+				"Chunks": ["The Arc"],
 				"Items": ["Ancient bones*"],
 				"Level": 85,
 				"Objects": ["Scrimshaw Crafter"],
@@ -42647,6 +42660,7 @@
 				"Priority": 10
 			},
 			"Create an ~|energy-gathering scrimshaw|~": {
+				"Chunks": ["The Arc"],
 				"Items": ["Ancient bones*"],
 				"Level": 90,
 				"Objects": ["Scrimshaw Crafter"],
@@ -42655,6 +42669,7 @@
 				"Priority": 11
 			},
 			"Create a ~|superior energy-gathering scrimshaw|~": {
+				"Chunks": ["The Arc"],
 				"Items": ["Ancient bones*"],
 				"Level": 90,
 				"Objects": ["Scrimshaw Crafter"],
@@ -57685,7 +57700,7 @@
 				"NoBoost": true
 			},
 			"Enter a tier two ~|Shifting Tombs|~": {
-				"Chunks": ["8300"],
+				"Chunks": ["Shifting Tombs"],
 				"Level": 70,
 				"Skills": {
 					"Agility": 70,
@@ -57695,6 +57710,23 @@
 					"Runecrafting": 70,
 					"Dungeoneering": 70,
 					"Divination": 70
+				},
+				"Primary": false,
+				"Priority": 6,
+				"NoPet": true,
+				"NoBoost": true
+			},
+			"Enter a tier three ~|Shifting Tombs|~": {
+				"Chunks": ["Shifting Tombs"],
+				"Level": 90,
+				"Skills": {
+					"Agility": 90,
+					"Thieving": 90,
+					"Construction": 90,
+					"Crafting": 90,
+					"Runecrafting": 90,
+					"Dungeoneering": 90,
+					"Divination": 90
 				},
 				"Primary": false,
 				"Priority": 6,
@@ -58831,24 +58863,6 @@
 				"Output": "Prayer master cape",
 				"Primary": false,
 				"Priority": 3,
-				"NoPet": true,
-				"NoBoost": true,
-				"Not F2P": true
-			},
-			"Enter a tier three ~|Shifting Tombs|~": {
-				"Chunks": ["8300"],
-				"Level": 90,
-				"Skills": {
-					"Agility": 90,
-					"Thieving": 90,
-					"Construction": 90,
-					"Crafting": 90,
-					"Runecrafting": 90,
-					"Dungeoneering": 90,
-					"Divination": 90
-				},
-				"Primary": false,
-				"Priority": 8,
 				"NoPet": true,
 				"NoBoost": true,
 				"Not F2P": true
@@ -63721,7 +63735,7 @@
 				"Priority": 2
 			},
 			"Enter a tier two ~|Shifting Tombs|~": {
-				"Chunks": ["8300"],
+				"Chunks": ["Shifting Tombs"],
 				"Level": 70,
 				"Skills": {
 					"Agility": 70,
@@ -63736,7 +63750,7 @@
 				"Priority": 3
 			},
 			"Enter a tier three ~|Shifting Tombs|~": {
-				"Chunks": ["8300"],
+				"Chunks": ["Shifting Tombs"],
 				"Level": 90,
 				"Skills": {
 					"Agility": 90,
@@ -68531,7 +68545,7 @@
 				"Partial": true
 			},
 			"Forge ~|tetsu weapons|~": {
-				"Items": ["Plate*", "Pearl*", "Tengu tsuba*"],
+				"Items": ["Plate*", "Pearls*", "Tengu tsuba*"],
 				"Level": 92,
 				"Objects": ["Port workshop"],
 				"Output": "TetsuWeapon",
@@ -72526,34 +72540,17 @@
 			}
 		},
 		"Thieving": {
-			"Pickpocket a ~|man|~": {
+			"Pickpocket a ~|citizen|~": {
 				"Level": 1,
-				"Monsters": ["Man"],
+				"Mix": ["Citizen[+]"],
+				"Output": ["Citizen[+]"],
 				"Primary": true,
 				"Priority": 1
-			},
-			"Pickpocket a ~|woman|~": {
-				"Level": 1,
-				"Monsters": ["Woman"],
-				"Primary": true,
-				"Priority": 2
 			},
 			"Pickpocket a ~|gullible tourist|~": {
 				"Level": 1,
 				"NPCs": ["Gullible tourist"],
 				"Output": "Menaphos pickpocket",
-				"Primary": true,
-				"Priority": 4
-			},
-			"Pickpocket a ~|pompous merchant|~": {
-				"Level": 1,
-				"NPCs": ["Pompous merchant"],
-				"Primary": true,
-				"Priority": 3
-			},
-			"Pickpocket ~|Ikis Krum|~": {
-				"Level": 1,
-				"NPCs": ["Ikis Krum"],
 				"Primary": true,
 				"Priority": 4
 			},
@@ -72575,6 +72572,7 @@
 				},
 				"Primary": true,
 				"Output": "WinterHerbs",
+				"Hide drops": true,
 				"Priority": 7
 			},
 			"Grow a ~|fly trap|~": {
@@ -72641,7 +72639,7 @@
 			"Steal from ~|Solihib's food stall|~": {
 				"Level": 5,
 				"Objects": ["Food stall"],
-				"Output": "Banana",
+				"Output": "Food stall",
 				"Primary": true,
 				"Priority": 5
 			},
@@ -72800,7 +72798,7 @@
 			"Steal from the first room in ~|pyramid plunder|~": {
 				"Chunks": ["Pyramid Plunder"],
 				"Level": 21,
-				"Output": "PyramidPlunder",
+				"Output": "Pyramid Plunder",
 				"Primary": true,
 				"Priority": 1
 			},
@@ -72850,7 +72848,7 @@
 			"Crack a ~|wall safe|~": {
 				"Level": 25,
 				"Chunks": ["Rogues' Den"],
-				"Output": "WallSafe",
+				"Output": "Wall safe",
 				"Primary": true,
 				"Priority": 3
 			},
@@ -72886,6 +72884,7 @@
 				},
 				"Primary": true,
 				"Output": "SpringHerbs",
+				"Hide drops": true,
 				"Priority": 1001
 			},
 			"Steal from a ~|seed stall|~": {
@@ -72898,7 +72897,7 @@
 			"Loot a ~|chest (nature runes)|~": {
 				"Level": 28,
 				"Objects": ["Chest (nature runes)"],
-				"Output": "Nature rune",
+				"Output": "Chest (nature runes)",
 				"Primary": true,
 				"Priority": 1
 			},
@@ -72920,7 +72919,7 @@
 			"Steal from the second room in ~|pyramid plunder|~": {
 				"Chunks": ["Pyramid Plunder"],
 				"Level": 31,
-				"Output": "PyramidPlunder",
+				"Output": "Pyramid Plunder",
 				"Primary": true,
 				"Priority": 2
 			},
@@ -72958,7 +72957,7 @@
 				"Primary": true,
 				"Priority": 1
 			},
-			"Pickpocket a ~|Cave goblin|~": {
+			"Pickpocket a ~|cave goblin|~": {
 				"Level": 36,
 				"Monsters": ["Cave goblin (Dorgesh-Kaan)"],
 				"Output": "Cave goblin",
@@ -73007,7 +73006,7 @@
 			"Steal from the third room in ~|pyramid plunder|~": {
 				"Chunks": ["Pyramid Plunder"],
 				"Level": 41,
-				"Output": "PyramidPlunder",
+				"Output": "Pyramid Plunder",
 				"Primary": true,
 				"Priority": 1
 			},
@@ -73065,6 +73064,7 @@
 				},
 				"Primary": true,
 				"Output": "AutumnHerbs",
+				"Hide drops": true,
 				"Priority": 1001
 			},
 			"Pickpocket a ~|H.A.M. member (female)|~ for quadruple loot": {
@@ -73102,7 +73102,7 @@
 				"Items": ["Lockpick"],
 				"Level": 47,
 				"Objects": ["Chest (steel arrowheads)"],
-				"Output": "Steel arrowheads",
+				"Output": "Chest (steel arrowheads)",
 				"Primary": true,
 				"Priority": 1
 			},
@@ -73191,7 +73191,7 @@
 				"Priority": 108
 			},
 			"Enter a tier one ~|Shifting Tombs|~": {
-				"Chunks": ["8300"],
+				"Chunks": ["Shifting Tombs"],
 				"Level": 50,
 				"Skills": {
 					"Agility": 50,
@@ -73216,7 +73216,7 @@
 			"Steal from the fourth room in ~|pyramid plunder|~": {
 				"Chunks": ["Pyramid Plunder"],
 				"Level": 51,
-				"Output": "PyramidPlunder",
+				"Output": "Pyramid Plunder",
 				"Primary": true,
 				"Priority": 1
 			},
@@ -73224,7 +73224,7 @@
 				"Level": 52,
 				"Items": ["Lockpick"],
 				"Objects": ["Chest (Dorgesh-Kaan)"],
-				"Output": "Average chest",
+				"Output": "Chest (Dorgesh-Kaan)",
 				"Primary": true,
 				"Priority": 1
 			},
@@ -73232,7 +73232,7 @@
 				"Level": 52,
 				"Items": ["Lockpick"],
 				"Objects": ["Chest (Oldak)"],
-				"Output": "Oldak chest",
+				"Output": "Chest (Oldak)",
 				"Primary": true,
 				"Priority": 2
 			},
@@ -73240,7 +73240,7 @@
 				"Level": 52,
 				"Items": ["Lockpick"],
 				"Objects": ["Chest (Zanik)"],
-				"Output": "Zanik chest",
+				"Output": "Chest (Zanik)",
 				"Primary": true,
 				"Priority": 3
 			},
@@ -73281,7 +73281,7 @@
 				"Level": 59,
 				"Objects": ["Chest (Chaos Druid Tower Dungeon)"],
 				"Chunks": ["10292"],
-				"Output": "Blood rune",
+				"Output": "Chest (Chaos Druid Tower Dungeon)",
 				"Primary": true,
 				"Priority": 1
 			},
@@ -73294,7 +73294,7 @@
 			"Steal from the fifth room in ~|pyramid plunder|~": {
 				"Chunks": ["Pyramid Plunder"],
 				"Level": 61,
-				"Output": "PyramidPlunder",
+				"Output": "Pyramid Plunder",
 				"Primary": true,
 				"Priority": 2
 			},
@@ -73308,14 +73308,14 @@
 			"Crack a ~|safe|~ in Misthalin": {
 				"Level": 62,
 				"Chunks": ["Misthalin safes[+]"],
-				"Output": "Safes low",
+				"Output": "Low-level safes",
 				"Primary": true,
 				"Priority": 2
 			},
 			"Steal from ~|customs evidence files|~": {
 				"Level": 63,
-				"Objects": ["Cabinet (rocking)"],
-				"Output": "Customs evidence",
+				"Objects": ["Cabinet"],
+				"Output": "Cabinet",
 				"Primary": true,
 				"Priority": 1
 			},
@@ -73352,7 +73352,7 @@
 				"Level": 65,
 				"Items": ["Lockpick"],
 				"Objects": ["Chest (Rogues' Castle)"],
-				"Output": "Rogue chest",
+				"Output": "Chest (Rogues' Castle)",
 				"Primary": true,
 				"Priority": 4
 			},
@@ -73388,6 +73388,7 @@
 				},
 				"Primary": true,
 				"Output": "SummerHerbs",
+				"Hide drops": true,
 				"Priority": 1001
 			},
 			"Pickpocket a ~|Cave goblin|~ for quadruple loot": {
@@ -73415,7 +73416,7 @@
 			"Crack a ~|safe|~ in the Kharidian Desert": {
 				"Level": 69,
 				"Chunks": ["Kharidian safes[+]"],
-				"Output": "Safes low",
+				"Output": "Low-level safes",
 				"Primary": true,
 				"Priority": 1
 			},
@@ -73435,7 +73436,7 @@
 				"Priority": 2
 			},
 			"Enter a tier two ~|Shifting Tombs|~": {
-				"Chunks": ["8300"],
+				"Chunks": ["Shifting Tombs"],
 				"Level": 70,
 				"Skills": {
 					"Agility": 70,
@@ -73478,7 +73479,7 @@
 			"Steal from the sixth room in ~|pyramid plunder|~": {
 				"Chunks": ["Pyramid Plunder"],
 				"Level": 71,
-				"Output": "PyramidPlunder",
+				"Output": "Pyramid Plunder",
 				"Primary": true,
 				"Priority": 2
 			},
@@ -73527,7 +73528,8 @@
 					"Herblore": 50
 				},
 				"Primary": true,
-				"Priority": 1000
+				"Priority": 1000,
+				"Hide drops": true
 			},
 			"Get the pickpocket bonus from the ~|exoskeleton bracers|~": {
 				"Items": ["Exoskeleton bracers"],
@@ -73564,7 +73566,7 @@
 			"Crack a ~|safe|~ in Asgarnia": {
 				"Level": 76,
 				"Chunks": ["Asgarnian safes[+]"],
-				"Output": "Safes low",
+				"Output": "Low-level safes",
 				"Primary": true,
 				"Priority": 1
 			},
@@ -73676,7 +73678,7 @@
 			"Steal from the seventh room in ~|pyramid plunder|~": {
 				"Chunks": ["Pyramid Plunder"],
 				"Level": 81,
-				"Output": "PyramidPlunder",
+				"Output": "Pyramid Plunder",
 				"Primary": true,
 				"Priority": 1
 			},
@@ -73703,7 +73705,7 @@
 			"Crack a ~|safe|~ in Kandarin": {
 				"Level": 83,
 				"Chunks": ["Kandarin safes[+]"],
-				"Output": "Safes high",
+				"Output": "High-level safes",
 				"Primary": true,
 				"Priority": 2
 			},
@@ -73779,12 +73781,12 @@
 			"Crack the ~|safe|~ in the rogues' castle": {
 				"Level": 90,
 				"Chunks": ["13117"],
-				"Output": "Safes high",
+				"Output": "High-level safes",
 				"Primary": true,
 				"Priority": 2
 			},
 			"Enter a tier three ~|Shifting Tombs|~": {
-				"Chunks": ["8300"],
+				"Chunks": ["Shifting Tombs"],
 				"Level": 90,
 				"Skills": {
 					"Agility": 90,
@@ -73873,7 +73875,7 @@
 			"Steal from the eighth room in ~|pyramid plunder|~": {
 				"Chunks": ["Pyramid Plunder"],
 				"Level": 91,
-				"Output": "PyramidPlunder",
+				"Output": "Pyramid Plunder",
 				"Primary": true,
 				"Priority": 2
 			},
@@ -73930,7 +73932,7 @@
 			"Crack the ~|safes|~ in Zanaris": {
 				"Level": 94,
 				"Chunks": ["Zanaris"],
-				"Output": "Safes high",
+				"Output": "High-level safes",
 				"Primary": true,
 				"Priority": 2
 			},
@@ -74006,7 +74008,7 @@
 			"Crack the ~|safes|~ in Zemouregal's fort": {
 				"Level": 96,
 				"Chunks": ["11324"],
-				"Output": "Safes high",
+				"Output": "High-level safes",
 				"Primary": true,
 				"Priority": 2
 			},
@@ -74430,6 +74432,16 @@
 				"Primary": false,
 				"Priority": 1000,
 				"NoPet": true
+			},
+			"Rummage a ~|dead legionary|~ for triple loot": {
+				"Category": ["Multiple Pickpockets"],
+				"Level": 115,
+				"Chunks": ["Vault of Hereditas"],
+				"Skills": {
+					"Agility": 105
+				},
+				"Primary": false,
+				"Priority": 1001
 			},
 			"Loot a ~|chest (Darkmeyer, Thieving)|~": {
 				"Level": 116,
@@ -131590,7 +131602,8 @@
 			"(Kharidian Desert) Obtain a ~|vital spark|~": {
 				"Category": ["Collection Log", "Slayer Collection Log"],
 				"Label": "Slayer Collection Log",
-				"Items": ["Vital spark"]
+				"Items": ["Vital spark"],
+				"Monsters": ["Corrupted devourers[+]"]
 			},
 			"(Kharidian Desert) Obtain a ~|corrupted gem|~": {
 				"Category": ["Collection Log", "Slayer Collection Log"],
@@ -152447,6 +152460,7 @@
 				"UnlocksArea": true
 			},
 			"Vinesweeper": {
+				"NPCs": ["Tool leprechaun[+]"],
 				"UnlocksArea": true
 			},
 			"Camdozaal": {
@@ -158458,6 +158472,10 @@
 			},
 			"Non-Daily DnD": {
 				"Category": ["Not Daily DnD"]
+			},
+			"Repair the Menaphos cactus patch": {
+				"Chunks": ["12587-2"],
+				"Items": ["Acadia logs*"]
 			}
 		}
 	},
@@ -212502,7 +212520,45 @@
 			"AnyDragon[+]": ["Adamant dragon", "Astellarn", "Baby blue dragon", "Baby red dragon", "Black dragon", "Black stone dragon", "Blue dragon", "Bronze dragon", "Brutal green dragon", "Celestial dragon", "Dragonstone dragon", "Frost dragon", "Green dragon", "Hydrix dragon", "Iron dragon", "King Black Dragon", "Mithril dragon", "Nodon artificer", "Nodon guard", "Nodon hunter", "Onyx dragon", "Queen Black Dragon", "Rune dragon", "Steel dragon", "Verak Lith"],
 			"AnyUndead[+]": ["Aberrant spectre", "Ahrim the Blighted", "Akrisae the Doomed", "Animated spade", "Ankou", "Armoured phantom", "Armoured zombie", "Banshee", "Bloated monstrosity", "Bound skeleton", "Corpse archer", "Corpse carrier", "Corpse mage", "Corpse spider", "Crawling corpse torso", "Crawling hand", "Dharok the Wretched", "Dragith Nurn", "Edimmu", "Fetid zombie", "Ghast", "Ghost", "Ghostly troll bruiser", "Ghostly troll thrower", "Guthan the Infested", "Karil the Tainted", "Linza the Disgraced", "Magic axe", "Monkey Zombie", "Mummy (Jaldraocht Pyramid)", "Mummy (Ullek)", "Phantom sorcerer", "Phantom wizard", "Possessed pickaxe", "Revenant cyclops", "Revenant dark beast", "Revenant demon", "Revenant dragon", "Revenant goblin", "Revenant hellhound", "Revenant hobgoblin", "Revenant icefiend", "Revenant imp", "Revenant knight", "Revenant ork", "Revenant pyrefiend", "Revenant vampyre", "Revenant werewolf", "Risen ghost", "Shade", "Shadow warrior", "Skeletal Wyvern", "Skeletal hand", "Skeleton#Armed", "Skeleton#Unarmed", "Skeleton Mage", "Skeleton knight", "Skoblin", "Skogre", "Small scarab", "Spiritual mage", "Spiritual ranger", "Spiritual warrior", "Taraket the Necromancer", "Torag the Corrupted", "Tormented wraith", "Undead chicken", "Undead cow", "Undead pekin", "Undead troll", "Verac the Defiled", "Wight", "Wight ranger", "Zogre", "Zombie#Level 12", "Zombie#Level 22", "Zombie#Level 29", "Zombie hand", "Zombie knight", "Zombie pirate", "Zombie swab", "Zombie warrior"],
 			"BlackKnightMonsters[+]": ["Elite Black Knight", "Black Knight"],
-			"Citizen[+]": ["Man", "Woman"],
+			"Citizen[+]": [
+				"Anja", 
+				"Cuffs", 
+				"Drunken man", 
+				"Foppish Pierre", 
+				"Hengel", 
+				"Ikis Krum", 
+				"Jeff", 
+				"Man", 
+				"Man (East Ardougne)",
+				"Man (Lumbridge Market)", 
+				"Narf", 
+				"Pompous merchant", 
+				"Rusty", 
+				"Woman", 
+				"Woman (East Ardougne)", 
+				"Woman (Lumbridge Market)"
+			],
+			"Corrupted devourers[+]": [
+				"Amascut, the Devourer",
+				"The Magister",
+				"Corrupted scorpion",
+				"Corrupted scarab",
+				"Corrupted worker",
+				"Corrupted lizard",
+				"Corrupted dust devil",
+				"Corrupted kalphite guardian",
+				"Corrupted kalphite marauder",
+				"Imperial warrior akh",
+				"Feline akh",
+				"Gorilla akh",
+				"Imperial ranger akh",
+				"Salawa akh",
+				"Scarab akh",
+				"Imperial mage akh",
+				"Nakatra, Devourer Eternal",
+				"Vermyx, Brood Mother",
+				"Kezalam, Devourer Eternal"
+			],
 			"Dagannoth[+]": ["Dagannoth (Lighthouse)", "Dagannoth fledgling", "Dagannoth spawn", "Dagannoth#Ranged", "Dagannoth#Melee"],
 			"GhostOrZombie[+]": ["Ghost", "Zombie"],
 			"Gnome[+]": ["Gnome", "Gnome woman", "Gnome child"],
@@ -212908,7 +212964,8 @@
 			"AnyDragon[+]": "Any dragon",
 			"AnyUndead[+]": "Any undead",
 			"BlackKnightMonsters[+]": "Any monster that gives white knight ranking",
-			"Citizen[+]": "Anything that counts as a citizen for 'Lost My Marbles'",
+			"Citizen[+]": "Any pickpocketable citizen",
+			"Corrupted devourers": "Any corrupted creature or soul devourer",
 			"Dagannoth[+]": "Any dagannoth that can be killed for the Axe'll Grease achievement",
 			"GhostOrZombie[+]": "Any ghost or zombie",
 			"Gnome[+]": "Any pickpocketable gnome",
@@ -212972,9 +213029,28 @@
 			"Nodon Souls[+]": "Any Nodon dragonkin variant that may fill an ushabti"
 		},
 		"mixPlus": {
+			"Citizen[+]": [
+				"Anja", 
+				"Cuffs", 
+				"Drunken man", 
+				"Foppish Pierre", 
+				"Hengel", 
+				"Ikis Krum", 
+				"Jeff", 
+				"Man", 
+				"Man (East Ardougne)",
+				"Man (Lumbridge Market)", 
+				"Narf", 
+				"Pompous merchant", 
+				"Rusty", 
+				"Woman", 
+				"Woman (East Ardougne)", 
+				"Woman (Lumbridge Market)"
+			],
 			"HAMMember[+]": ["H.A.M. Member (male)", "H.A.M. Member (female)", "Guard (H.A.M.)"]
 		},
 		"mixPlusNames": {
+			"Citizen[+]": "Any pickpocketable citizen",
 			"HAMMember[+]": "Anything that counts as a H.A.M. Member for 'Lost My Marbles'"
 		},
 		"npcsPlus": {
@@ -212989,6 +213065,24 @@
 				"Archaeologist#Warforge",
 				"Archaeologist#Orthen"
 			],
+			"Citizen[+]": [
+				"Anja", 
+				"Cuffs", 
+				"Drunken man", 
+				"Foppish Pierre", 
+				"Hengel", 
+				"Ikis Krum", 
+				"Jeff", 
+				"Man", 
+				"Man (East Ardougne)",
+				"Man (Lumbridge Market)", 
+				"Narf", 
+				"Pompous merchant", 
+				"Rusty", 
+				"Woman", 
+				"Woman (East Ardougne)", 
+				"Woman (Lumbridge Market)"
+			],
 			"Dyer[+]": ["Aggie", "Rana the dyer"],
 			"Gecko[+]": ["Gecko", "Baby gecko"],
 			"GodEmissaries[+]": ["Endwyr, Emissary of Seren", "Hannu, Emissary of V", "Holstein, Emissary of the Godless", "Julienne, Emissary of Saradomin", "Moldark, Emissary of Zamorak", "Murknose, Emissary of Bandos", "Relomia, Emissary of Sliske", "Soran, Emissary of Zaros", "Taw'Paak, Emissary of Armadyl"],
@@ -212999,6 +213093,7 @@
 			"SawmillOperator[+]": ["Sawmill operator (Prifddinas)", "Plank maker"],
 			"StrengthMaster[+]": ["Sloane", "Yadech Strongarm"],
 			"Tanner[+]": ["Tanner", "Ellis", "Sbott", "Tanya Hyde", "Leatherworker"],
+			"Tool leprechaun[+]": ["Tool leprechaun", "Tool leprechaun (Herblore Habitat)", "Hemlock"],
 			"Trainee archaeologist[+]": [
 				"Trainee archaeologist#Archaeology Campus",
 				"Trainee archaeologist#Kharid-et",
@@ -213017,6 +213112,7 @@
 		},
 		"npcsPlusNames": {
 			"Archaeologist[+]": "A pickpocketable archaeologist at any dig site",
+			"Citizen[+]": "Any pickpocketable citizen",
 			"Dyer[+]": "Access to either Rana or Aggie",
 			"Gecko[+]": "Any catchable gecko pet",
 			"GodEmissaries[+]": "Any God Emissary",
@@ -213026,8 +213122,9 @@
 			"WildernessCapeSellers[+]": "Any wilderness cape seller",
 			"SawmillOperator[+]": "Any plank makers",
 			"StrengthMaster[+]": "Sloane or his replacement",
-			"Trainee archaeologist[+]": "A trainee archaeologist at any dig site",
 			"Tanner[+]": "Any hide tanner",
+			"Tool leprechaun[+]": "Any leprechaun that can take you to Vinesweeper",
+			"Trainee archaeologist[+]": "A trainee archaeologist at any dig site",
 			"Wisp[+]": "Any level 1 wisp",
 			"GoldenWarbler[+]": "Any golden warbler variant",
 			"Vyrelord consumer[+]": "A vyrelord or vyrelady consumer"
@@ -268792,6 +268889,9 @@
 			"Dagon'hai robe top": [{
 				"~|The Hunt for Surok (miniquest)|~ Complete the quest": "Quest"
 			}],
+			"Demon horn (God Emissaries)^": [{
+				"~|God Emissaries Combat|~ 5": "Quest"
+			}],
 			"Dragon 2h sword^": [{
 				"Members only": "Nonskill"
 			}],
@@ -271131,6 +271231,11 @@
 			}
 		},
 		"Objects": {
+			"Cactus patch": {
+				"12587-2": [{
+					"Repair the Menaphos cactus patch": "Nonskill"
+				}]
+			},
 			"Cooking range": {
 				"12596-1": [{
 					"Champions Guild Questpoints": "Nonskill"
@@ -307151,6 +307256,11 @@
 			}
 		},
 		"Thieving": {
+			"Citizen[+]": {
+				"Coins": {
+					"3": "Always"
+				}
+			},
 			"Menaphos pickpocket": {
 				"Coins": {
 					"30": "Always"
@@ -308821,6 +308931,11 @@
 					"1": "1/3"
 				}
 			},
+			"Food stall": {
+				"Banana": {
+					"1": "Always"
+				}
+			},
 			"Crafting stall": {
 				"Chisel": {
 					"1": "1/3"
@@ -308952,7 +309067,7 @@
 					"1": "Common"
 				}
 			},
-			"Customs evidence": {
+			"Cabinet": {
 				"Coins": {
 					"300": "Common"
 				},
@@ -309185,7 +309300,7 @@
 					"1": "Always"
 				}
 			},
-			"Rogue chest": {
+			"Chest (Rogues' Castle)": {
 				"Coins": {
 					"4-243": "Common"
 				},
@@ -309202,7 +309317,7 @@
 					"1": "Uncommon"
 				}
 			},
-			"Average chest": {
+			"Chest (Dorgesh-Kaan)": {
 				"Gold charm": {
 					"1": "4/100"
 				},
@@ -309255,7 +309370,7 @@
 					"1": "Very rare"
 				}
 			},
-			"Oldak chest": {
+			"Chest (Oldak)": {
 				"Gold charm": {
 					"1": "5/100"
 				},
@@ -309332,7 +309447,7 @@
 					"1": "41/1400"
 				}
 			},
-			"Zanik chest": {
+			"Chest (Zanik)": {
 				"Gold charm": {
 					"1": "3/100"
 				},
@@ -309491,7 +309606,31 @@
 					"1": "Rare"
 				}
 			},
-			"Safes low": {
+			"Chest (steel arrowheads)": {
+				"Steel arrowheads": {
+					"5": "Always"
+				},
+				"Coins": {
+					"20": "Always"
+				}
+			},
+			"Chest (nature runes)": {
+				"Coins": {
+					"3": "Always"
+				},
+				"Nature rune": {
+					"1": "Always"
+				}
+			},
+			"Chest (Chaos Druid Tower Dungeon)": {
+				"Coins": {
+					"500": "Always"
+				},
+				"Blood rune": {
+					"2": "Always"
+				}
+			},
+			"Low-level safes": {
 				"Sealed clue scroll (medium)": {
 					"1": "1/128"
 				},
@@ -309502,7 +309641,7 @@
 					"1": "Always"
 				}
 			},
-			"Safes high": {
+			"High-level safes": {
 				"Sealed clue scroll (medium)": {
 					"1": "1/128"
 				},
@@ -309519,7 +309658,7 @@
 					"1": "Always"
 				}
 			},
-			"WallSafe": {
+			"Wall Safe": {
 				"Uncut sapphire": {
 					"1": "1/12"
 				},
@@ -309565,19 +309704,19 @@
 					"1": "Common"
 				},
 				"Rogue mask": {
-					"1": "1/5000"
+					"1": "1/500"
 				},
 				"Rogue top": {
-					"1": "1/5000"
+					"1": "1/500"
 				},
 				"Rogue trousers": {
-					"1": "1/5000"
+					"1": "1/500"
 				},
 				"Rogue gloves": {
-					"1": "1/5000"
+					"1": "1/500"
 				},
 				"Rogue boots": {
-					"1": "1/5000"
+					"1": "1/500"
 				}
 			},
 			"Crux Eqal Druid": {
@@ -309725,7 +309864,7 @@
 					"1": "Very rare"
 				}
 			},
-			"PyramidPlunder": {
+			"Pyramid Plunder": {
 				"Ivory comb": {
 					"1": "Unknown"
 				},

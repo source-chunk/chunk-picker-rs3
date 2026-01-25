@@ -4665,7 +4665,7 @@ let calcChallengesWork = function(chunks, baseChunkData, oldTempItemSkill) {
                     }
                 }
 				// Every Drop Thieving
-                if (rules['Every Drop Thieving'] && items[item][source].includes('-Thieving') && chunkInfo['challenges']['Thieving'].hasOwnProperty(source) && chunkInfo['challenges']['Thieving'][source].hasOwnProperty('Output')) {
+                if (rules['Every Drop Thieving'] && items[item][source].includes('-Thieving') && chunkInfo['challenges']['Thieving'].hasOwnProperty(source) && chunkInfo['challenges']['Thieving'][source].hasOwnProperty('Output') && !chunkInfo['challenges']['Thieving'][source]['Hide drops']) {
                     let monster = chunkInfo['challenges']['Thieving'][source]['Output'];
                     realSource = '[Thieving] ' + monster;
                     !!chunkInfo['skillItems']['Thieving'][monster] && !!chunkInfo['skillItems']['Thieving'][monster][item.replaceAll('*', '')] && Object.keys(chunkInfo['skillItems']['Thieving'][monster][item.replaceAll('*', '')]).filter(quantityDrop => (rules['Rare Drop'] || isNaN(parseFloat(chunkInfo['skillItems']['Thieving'][monster][item.replaceAll('*', '')][quantityDrop].split('/')[0].replaceAll('~', '')) / parseFloat(chunkInfo['skillItems']['Thieving'][monster][item.replaceAll('*', '')][quantityDrop].split('/')[1])) || (parseFloat(chunkInfo['skillItems']['Thieving'][monster][item.replaceAll('*', '')][quantityDrop].split('/')[0].replaceAll('~', '')) / parseFloat(chunkInfo['skillItems']['Thieving'][monster][item.replaceAll('*', '')][quantityDrop].split('/')[1])) > (parseFloat(rareDropNum.split('/')[0].replaceAll('~', '')) / parseFloat(rareDropNum.split('/')[1])))).forEach((quantityDrop) => {
