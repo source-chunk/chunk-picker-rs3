@@ -270368,6 +270368,26 @@
 			}],
 			"Unicorn horn^": [{
 				"Members only": "Nonskill"
+			}],
+			"Perfect green dragon scale^": [{
+				"Receive a slayer assignment from ~|Vannaka|~": "Slayer"
+			}, {
+				"~|What Lies Below|~ Complete the quest": "Quest"
+			}],
+			"Perfect blue dragon scale^": [{
+				"Receive a slayer assignment from ~|Vannaka|~": "Slayer"
+			}, {
+				"~|What Lies Below|~ Complete the quest": "Quest"
+			}],
+			"Perfect red dragon scale^": [{
+				"Receive a slayer assignment from ~|Vannaka|~": "Slayer"
+			}, {
+				"~|What Lies Below|~ Complete the quest": "Quest"
+			}],
+			"Perfect black dragon scale^": [{
+				"Receive a slayer assignment from ~|Vannaka|~": "Slayer"
+			}, {
+				"~|What Lies Below|~ Complete the quest": "Quest"
 			}]
 		},
 		"Monsters": {
