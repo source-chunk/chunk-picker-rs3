@@ -7394,6 +7394,16 @@ let printChunkSectionDifferences = function() {
             });
         });
     });
+
+    !!chunkInfo['questSections'] && Object.keys(chunkInfo['questSections']).forEach((chunkId) => {
+        if (chunkId.includes('-') && !chunkInfo['chunks'][chunkId.split('-')[0]].hasOwnProperty('Sections')) {
+            console.error(chunkId, 'has no Section object but is referred to with a section');
+        } else if (!chunkId.includes('-') && chunkInfo['chunks'][chunkId.split('-')[0]].hasOwnProperty('Sections')) {
+            console.error(chunkId, 'has a Section object but is referred to as a whole chunk');
+        } else if (chunkId.includes('-') && chunkInfo['chunks'][chunkId.split('-')[0]].hasOwnProperty('Sections') && !chunkInfo['chunks'][chunkId.split('-')[0]]['Sections'].hasOwnProperty(chunkId.split('-')[1])) {
+            console.error(chunkId, 'has no Section', chunkId.split('-')[1], 'but is referred to with that section');
+        }
+    });
 }
 
 // Prints missing equipment icons (debug)
