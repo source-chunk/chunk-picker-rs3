@@ -129903,7 +129903,7 @@
 				"Label": "Arc Journal",
 				"Chunks": ["The Arc"],
 				"Tasks": {
-					"Catch a ~|tortle|~": "Hunting"
+					"Catch a ~|tortle|~": "Hunter"
 				}
 			},
 			"Spot the ~|Dusky Wigglebill|~": {
@@ -130031,21 +130031,21 @@
 				"Label": "Achievement",
 				"Chunks": ["The Arc"],
 				"Tasks": {
-					"Forage a ~|wild rumberry bush|~": "Extra",
-					"Forage a ~|wild exuberry bush|~": "Extra",
-					"Grow a ~|fireberry bush|~": "Extra",
-					"Grow a ~|blisterberry bush|~": "Extra",
-					"Grow a ~|mournberry bush|~": "Extra",
-					"Grow a ~|stoneberry bush|~": "Extra",
-					"Grow a ~|stormberry bush|~": "Extra",
-					"Grow a ~|rosaberry bush|~": "Extra",
-					"Grow a ~|squiffberry bush|~": "Extra",
-					"Grow a ~|meloberry bush|~": "Extra",
-					"Grow a ~|jitterberry bush|~": "Extra",
-					"Grow a ~|cocoaberry bush|~": "Extra",
-					"Grow a ~|smoulderberry bush|~": "Extra",
-					"Grow a ~|sourberry bush|~": "Extra",
-					"Grow a ~|gloomberry bush|~": "Extra",
+					"Forage a ~|wild rumberry bush|~": "Farming",
+					"Forage a ~|wild exuberry bush|~": "Farming",
+					"Grow a ~|fireberry bush|~": "Farming",
+					"Grow a ~|blisterberry bush|~": "Farming",
+					"Grow a ~|mournberry bush|~": "Farming",
+					"Grow a ~|stoneberry bush|~": "Farming",
+					"Grow a ~|stormberry bush|~": "Farming",
+					"Grow a ~|rosaberry bush|~": "Farming",
+					"Grow a ~|squiffberry bush|~": "Farming",
+					"Grow a ~|meloberry bush|~": "Farming",
+					"Grow a ~|jitterberry bush|~": "Farming",
+					"Grow a ~|cocoaberry bush|~": "Farming",
+					"Grow a ~|smoulderberry bush|~": "Farming",
+					"Grow a ~|sourberry bush|~": "Farming",
+					"Grow a ~|gloomberry bush|~": "Farming",
 					"Grow a ~|musaberry bush|~": "Farming"
 				}
 			},
@@ -136304,7 +136304,7 @@
 				"Category": ["Untracked Uniques", "Untracked Uniques Skilling"],
 				"Label": "Untracked Skilling Uniques",
 				"Tasks": {
-					"~|The Firemaker's Curse|~ Finish the quest": "Quest"
+					"~|The Firemaker's Curse|~ Complete the quest": "Quest"
 				},
 				"Chunks": ["Char's training cave"]
 			},
@@ -136312,7 +136312,7 @@
 				"Category": ["Untracked Uniques", "Untracked Uniques Skilling", "Pets"],
 				"Label": "Untracked Skilling Uniques",
 				"Tasks": {
-					"~|The Firemaker's Curse|~ Finish the quest": "Quest"
+					"~|The Firemaker's Curse|~ Complete the quest": "Quest"
 				},
 				"Chunks": ["Char's training cave"]
 			},
@@ -136320,7 +136320,7 @@
 				"Category": ["Untracked Uniques", "Untracked Uniques Skilling", "Pets"],
 				"Label": "Untracked Skilling Uniques",
 				"Tasks": {
-					"~|The Firemaker's Curse|~ Finish the quest": "Quest"
+					"~|The Firemaker's Curse|~ Complete the quest": "Quest"
 				},
 				"Chunks": ["Char's training cave"]
 			},
@@ -136328,7 +136328,7 @@
 				"Category": ["Untracked Uniques", "Untracked Uniques Skilling", "Pets"],
 				"Label": "Untracked Skilling Uniques",
 				"Tasks": {
-					"~|The Firemaker's Curse|~ Finish the quest": "Quest"
+					"~|The Firemaker's Curse|~ Complete the quest": "Quest"
 				},
 				"Chunks": ["Char's training cave"]
 			},
@@ -136336,7 +136336,7 @@
 				"Category": ["Untracked Uniques", "Untracked Uniques Skilling", "Pets"],
 				"Label": "Untracked Skilling Uniques",
 				"Tasks": {
-					"~|The Firemaker's Curse|~ Finish the quest": "Quest"
+					"~|The Firemaker's Curse|~ Complete the quest": "Quest"
 				},
 				"Chunks": ["Char's training cave"]
 			},
@@ -138375,7 +138375,7 @@
 					"~|Combat Mastery achievements#Master|~ Pruning the Timeline": "Diary",
 					"~|Combat Mastery achievements#Master|~ Raksha Master Speed Killer": "Diary",
 					"~|Combat Mastery achievements#Master|~ Rasial Master Speed Killer": "Diary",
-					"~|Combat Mastery achievements#Master|~ Rasial, the First Necroamncer (perfect)": "Diary",
+					"~|Combat Mastery achievements#Master|~ Rasial, the First Necromancer (perfect)": "Diary",
 					"~|Combat Mastery achievements#Master|~ Rocks Keep Falling On My Head": "Diary",
 					"~|Combat Mastery achievements#Master|~ I said E, not E!": "Diary",
 					"~|Combat Mastery achievements#Master|~ Scenario 7": "Diary",
@@ -145292,7 +145292,7 @@
 				"Category": ["Permanent Unlockables"],
 				"Label": "Permanent Unlockables",
 				"Tasks": {
-					"Upgrade ~|Zorgoth's soul ring|~": "Quest"
+					"Upgrade ~|Zorgoth's soul ring|~": "Necromancy"
 				}
 			},
 			"Unlock the ~|ring of vigour|~ passive effect": {
@@ -146833,7 +146833,7 @@
 				"Label": "Titles",
 				"Chunks": ["Senntisten"],
 				"Items": ["Siege engine parts"],
-				"Tasks": {
+				"Skills": {
 					"Construction": 90
 				}
 			},
