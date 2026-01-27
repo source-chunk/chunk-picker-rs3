@@ -1,6 +1,14 @@
 {
 	"challenges": {
 		"Agility": {
+			"Use an ~|experience lamp|~ from the Waiko Reward Shop on Agility": {
+				"Categories": ["XP Lamps"],
+				"Items": ["Ports XP Lamp"],
+				"Level": 1,
+				"Priamry": 1,
+				"Priority": 1000,
+				"NoPet": true
+			},
 			"Complete a lap of the ~|Burthorpe agility course|~": {
 				"Chunks": ["11575-1"],
 				"Level": 1,
@@ -11736,6 +11744,14 @@
 				"Priority": 25,
 				"Not F2P": true
 			},
+			"Use an ~|experience lamp|~ from the Waiko Reward Shop on Construction": {
+				"Categories": ["XP Lamps"],
+				"Items": ["Ports XP Lamp"],
+				"Level": 1,
+				"Priamry": 1,
+				"Priority": 1000,
+				"NoPet": true
+			},
 			"Build a ~|brown rug|~": {
 				"Category": ["InsidePOH Primary"],
 				"Chunks": ["Player-owned house"],
@@ -17250,6 +17266,14 @@
 				"Output": "Cup of tea (gold)",
 				"Primary": true,
 				"Priority": 74
+			},
+			"Use an ~|experience lamp|~ from the Waiko Reward Shop on Cooking": {
+				"Categories": ["XP Lamps"],
+				"Items": ["Ports XP Lamp"],
+				"Level": 1,
+				"Priamry": 1,
+				"Priority": 1000,
+				"NoPet": true
 			},
 			"Make ~|chocolatey milk|~": {
 				"Items": ["Bucket of milk*", "Chocolate dust*"],
@@ -30260,6 +30284,14 @@
 				"Primary": true,
 				"Priority": 1
 			},
+			"Use an ~|experience lamp|~ from the Waiko Reward Shop on Divination": {
+				"Categories": ["XP Lamps"],
+				"Items": ["Ports XP Lamp"],
+				"Level": 1,
+				"Priamry": 1,
+				"Priority": 1000,
+				"NoPet": true
+			},
 			"Harvest a ~|bright wisp|~": {
 				"NPCs": ["Bright wisp"],
 				"Level": 20,
@@ -32036,6 +32068,14 @@
 				"Output": "Dungeoneering token",
 				"Primary": true,
 				"Priority": 5
+			},
+			"Use an ~|experience lamp|~ from the Waiko Reward Shop on Dungeoneering": {
+				"Categories": ["XP Lamps"],
+				"Items": ["Ports XP Lamp"],
+				"Level": 1,
+				"Priamry": 1,
+				"Priority": 1000,
+				"NoPet": true
 			},
 			"Enter the ~|Edgeville Dungeon chaos druids dungeon|~": {
 				"Chunks": ["Edgeville Dungeon"],
@@ -40164,6 +40204,14 @@
 				"Primary": true,
 				"Priority": 25
 			},
+			"Use an ~|experience lamp|~ from the Waiko Reward Shop on Fishing": {
+				"Categories": ["XP Lamps"],
+				"Items": ["Ports XP Lamp"],
+				"Level": 1,
+				"Priamry": 1,
+				"Priority": 1000,
+				"NoPet": true
+			},
 			"Catch a ~|raw shrimp|~ in the holy lake": {
 				"Level": 5,
 				"Objects": ["Fishing spot (karambwanji)"],
@@ -43918,6 +43966,14 @@
 				"Primary": true,
 				"Priority": 22
 			},
+			"Use an ~|experience lamp|~ from the Waiko Reward Shop on Herblore": {
+				"Categories": ["XP Lamps"],
+				"Items": ["Ports XP Lamp"],
+				"Level": 1,
+				"Priamry": 1,
+				"Priority": 1000,
+				"NoPet": true
+			},
 			"Mix an ~|attack mix|~": {
 				"Items": ["AttackPotion[+]*", "Roe*"],
 				"Level": 4,
@@ -46755,6 +46811,14 @@
 				"Primary": true,
 				"Priority": 19,
 				"Not F2P": true
+			},
+			"Use an ~|experience lamp|~ from the Waiko Reward Shop on Hunter": {
+				"Categories": ["XP Lamps"],
+				"Items": ["Ports XP Lamp"],
+				"Level": 1,
+				"Priamry": 1,
+				"Priority": 1000,
+				"NoPet": true
 			},
 			"Catch a ~|common kebbit|~": {
 				"Chunks": ["9271-1"],
@@ -57230,6 +57294,14 @@
 			}
 		},
 		"Prayer": {
+			"Use an ~|experience lamp|~ from the Waiko Reward Shop on Prayer": {
+				"Categories": ["XP Lamps"],
+				"Items": ["Ports XP Lamp"],
+				"Level": 1,
+				"Priamry": 1,
+				"Priority": 1000,
+				"NoPet": true
+			},
 			"Equip a piece of ~|void knight equipment|~": {
 				"Items": ["Voidequipment[+]"],
 				"Level": 22,
@@ -62465,6 +62537,14 @@
 				"Primary": true,
 				"Priority": 30
 			},
+			"Use an ~|experience lamp|~ from the Waiko Reward Shop on Runecrafting": {
+				"Categories": ["XP Lamps"],
+				"Items": ["Ports XP Lamp"],
+				"Level": 1,
+				"Priamry": 1,
+				"Priority": 1000,
+				"NoPet": true
+			},
 			"Craft ~|air runes|~ at the air rune temple": {
 				"Chunks": ["Air Rune Temple"],
 				"Items": ["RuneEssence[+]*"],
@@ -64297,6 +64377,22 @@
 				"Level": 1,
 				"Primary": true,
 				"Priority": 31
+			},
+			"Use an ~|experience lamp|~ from the Waiko Reward Shop on Slayer": {
+				"Categories": ["XP Lamps"],
+				"Items": ["Ports XP Lamp"],
+				"Level": 1,
+				"Priamry": 1,
+				"Priority": 1000,
+				"NoPet": true
+			},
+			"Use an ~|experience lamp|~ from Shattered Worlds": {
+				"Categories": ["XP Lamps"],
+				"Items": ["Huge XP lamp (Slayer) (Shattered Worlds)"],
+				"Level": 1,
+				"Priamry": 1,
+				"Priority": 1000,
+				"NoPet": true
 			},
 			"Obtain a ~|creeping hand|~": {
 				"Items": ["Crawling hand (item)"],
@@ -68059,6 +68155,14 @@
 				"Level": 60,
 				"Objects": ["Forge[+]", "Anvil[+]"],
 				"Output": "Orikalkum ore box",
+				"Primary": true,
+				"Priority": 3
+			},
+			"Break down ~|damaged chitin|~": {
+				"Items": ["Damaged chitin*"],
+				"Level": 60,
+				"Objects": ["Anvil[+]"],
+				"Output": "Chitin scraps",
 				"Primary": true,
 				"Priority": 3
 			},
@@ -72599,8 +72703,16 @@
 				"Chunks": ["Temple Trekking Routes"],
 				"Level": 1,
 				"Primary": true,
-				"Priority": 1001
+				"Priority": 1002
 			},	
+			"Use an ~|experience lamp|~ from the Waiko Reward Shop on Thieving": {
+				"Categories": ["XP Lamps"],
+				"Items": ["Ports XP Lamp"],
+				"Level": 1,
+				"Priamry": 1,
+				"Priority": 1003,
+				"NoPet": true
+			},
 			"Steal from a ~|vegetable stall|~": {
 				"Level": 2,
 				"Objects": ["Vegetable stall"],
@@ -143433,14 +143545,14 @@
 				"Output": "Ushabti (beastmaster's hound)",
 				"Not F2P": true
 			},
-			"Obtain ~|Remy|~": {
+			"Unlock ~|Remy|~": {
 				"Category": ["Permanent Unlockables", "Pets"],
 				"Label": "Follower Pets",
 				"Chunks": ["City of Um"],
 				"Items": ["GhostlySole[+]"],
 				"NPCs": ["Ghost cat"]
 			},
-			"Obtain ~|Richie|~ and his partyhat": {
+			"Unlock ~|Richie|~ and his partyhat": {
 				"Category": ["Permanent Unlockables", "Pets"],
 				"Label": "Follower Pets",
 				"Chunks": ["12598"]
@@ -143737,6 +143849,11 @@
 				"Category": ["Permanent Unlockables", "Pets"],
 				"Label": "Follower Pets",
 				"Items": ["Chomper"]
+			},
+			"Unlock the ~|star sprite (pet)|~": {
+				"Category": ["Permanent Unlockables", "Pets"],
+				"Label": "Follower Pets",
+				"Items": ["Star sprite"]
 			},
 			"Unlock all ~|Dundee's Crocodile Upgrades|~": {
 				"Category": ["Permanent Unlockables"],
@@ -145331,6 +145448,21 @@
 				"Label": "Permanent Unlockables",
 				"Items": ["Quick traps"]
 			},
+			"Unlock the ~|portal redirection|~ to the top level of the Runespan": {
+				"Category": ["Permanent Unlockables"],
+				"Label": "Permanent Unlockables",
+				"Items": ["Portal redirection"]
+			},
+			"Fully upgrade the ~|portable telescope|~": {
+				"Category": ["Permanent Unlockables", "Pets"],
+				"Label": "Follower Pets",
+				"Items": ["Portable telescope"]
+			},
+			"Fully upgrade ~|Shooting Star (status)|~": {
+				"Category": ["Permanent Unlockables", "Pets"],
+				"Label": "Follower Pets",
+				"Items": ["Mining boost"]
+			},
 			"Unlock the ~|Warrior of Het armour|~": {
 				"Category": ["Permanent Unlockables", "Cosmetics"],
 				"Label": "Cosmetic Overrides",
@@ -146041,7 +146173,7 @@
 				"Category": ["Titles"],
 				"Label": "Titles",
 				"Tasks": {
-					"Become an ~|archaeology Intern|~": "Archaeology"
+					"Complete the ~|Archaeology tutorial|~": "Archaeology"
 				}
 			},
 			"Obtain the ~|the Archaeology Professor|~ title": {
@@ -149157,25 +149289,25 @@
 			"Obtain a ~|master runecrafter hat|~": {
 				"Category": ["BIS Skilling"],
 				"Label": "BIS Skilling",
-				"Items": ["Master Runecrafter hat"],
+				"Items": ["Master runecrafter hat"],
 				"Not F2P": true
 			},
 			"Obtain a ~|master runecrafter robe|~": {
 				"Category": ["BIS Skilling"],
 				"Label": "BIS Skilling",
-				"Items": ["Master Runecrafter robe"],
+				"Items": ["Master runecrafter robe"],
 				"Not F2P": true
 			},
 			"Obtain a ~|master runecrafter skirt|~": {
 				"Category": ["BIS Skilling"],
 				"Label": "BIS Skilling",
-				"Items": ["Master Runecrafter skirt"],
+				"Items": ["Master runecrafter skirt"],
 				"Not F2P": true
 			},
 			"Obtain a ~|master runecrafter boots|~": {
 				"Category": ["BIS Skilling"],
 				"Label": "BIS Skilling",
-				"Items": ["Master Runecrafter boots"],
+				"Items": ["Master runecrafter boots"],
 				"Not F2P": true
 			},
 			"Obtain the ~|infinity ethereal head|~": {
@@ -158068,6 +158200,10 @@
 			"Repair the Menaphos cactus patch": {
 				"Chunks": ["12587-2"],
 				"Items": ["Acadia logs*"]
+			},
+			"Open a bundle of gems": {
+				"Items": ["Bundle of gems"],
+				"Output": "Bundle of gems loot"
 			}
 		}
 	},
@@ -201230,8 +201366,7 @@
 				"Closed chest": 6,
 				"Boxes": 1,
 				"Workbench": 2,
-				"Sink": 1,
-				"Clay rock": 4
+				"Sink": 1
 			},
 			"Monster": {
 				"Giant bat": 3,
@@ -201250,8 +201385,7 @@
 				"10550": true
 			},
 			"NPC": {
-				"Winelda": 1,
-				"Elemental rock": 47
+				"Winelda": 1
 			},
 			"Quest": {
 				"Temple of Ikov": "step"
@@ -275664,6 +275798,7 @@
 			"Bladed Dive ability": true,
 			"Salt the Wound ability": true,
 			"Abyssal Slayer Contract": true,
+			"Huge XP lamp (Slayer) (Shattered Worlds)": true,
 			"Abyssal Knights' armour override": true,
 			"'The Abyssal Knight' title": true,
 			"'Animaniac' title": true,
@@ -276540,7 +276675,8 @@
 			"High Armour of Hanto cuirass": true,
 			"Thalassia's Revenge": true,
 			"Rage of Hyu-Ji": true,
-			"Winds of Waiko": true
+			"Winds of Waiko": true,
+			"Ports XP lamp": true
 		},
 		"Warriors' Guild Armoury": {
 			"Bronze dagger": true,
@@ -313208,6 +313344,38 @@
 				},
 				"Shadowy egg": {
 					"1": "1/50000"
+				}
+			},
+			"Bundle of gems loot": {
+				"Uncut opal": {
+					"1": "5/20"
+				},
+				"Uncut jade": {
+					"1": "5/20"
+				},
+				"Uncut red topaz": {
+					"1": "5/20"
+				},
+				"Uncut sapphire": {
+					"1": "5/5"
+				},
+				"Uncut emerald": {
+					"1": "5/5"
+				},
+				"Uncut ruby": {
+					"1": "5/7"
+				},
+				"Uncut diamond": {
+					"1": "5/10"
+				},
+				"Uncut dragonstone": {
+					"1": "5/20"
+				},
+				"Uncut onyx": {
+					"1": "5/200"
+				},
+				"Uncut moonstone": {
+					"1": "5/100"
 				}
 			}
 		}
