@@ -2522,7 +2522,13 @@ input#searchPlayerMaps {
 .arrow {
     font-weight: bold;
     cursor: pointer;
-    color: #2d2d79;
+    transition: color .5s;
+    margin-left: 5px;
+    pointer-events: all;
+}
+
+.arrow:hover {
+    color: gray;
 }
 
 .burger {
@@ -2904,13 +2910,13 @@ label .tooltip-base-el:active {
 .highlightAllQuest > span {
     font-size: 14px;
     cursor: pointer;
-    color: rgb(61, 61, 61);
+    color: var(--colorTextAlt);
     transition: color .5s;
     text-decoration: underline;
 }
 
 .highlightAllQuest >span:hover {
-    color: var(--colorText);
+    color: var(--colorLink);
 }
 
 .modal {
@@ -3575,8 +3581,11 @@ label .tooltip-base-el:active {
 }
 
 .details-subtitle {
-    text-transform: capitalize;
     font-size: 20px;
+}
+
+.details-subtitle:not(.details-description) {
+    text-transform: capitalize;
 }
 
 .details-data {
@@ -8020,6 +8029,14 @@ input#searchMonsters {
     text-align: center;
     background-color: var(--color2);
     overflow-y: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.quest-steps-title a {
+    display: block;
 }
 
 .quest-steps-data {
@@ -8559,11 +8576,16 @@ input#searchMonsters {
     color: var(--colorQuestBorderText);
 }
 
-.modal-content.mobile .Diaries-body .row > div {
+.charting-diary-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.modal-content.mobile .Diaries-body .row .diary-tier-button {
     width: 30vw;
 }
 
-.Diaries-body .row > div {
+.Diaries-body .row .diary-tier-button {
     display: inline-block;
     width: 8vw;
     border-radius: 5px;
@@ -8572,18 +8594,25 @@ input#searchMonsters {
     position: relative;
 }
 
-.Diaries-body .row > div.fossil {
+.Diaries-body .row .diary-tier-button.charting {
+    height: 48px;
+    align-items: center;
+    display: flex !important;
+    justify-content: center;
+}
+
+.Diaries-body .row .diary-tier-button.fossil {
     width: 110px;
     overflow-wrap: anywhere;
 }
 
-.Diaries-body .row > div.complete {
+.Diaries-body .row .diary-tier-button.complete {
     background-color: var(--colorQuestCompleteBackground);
     color: var(--colorQuestCompleteBorderText);
     border: solid 1px var(--colorQuestCompleteBorderText);
 }
 
-.Diaries-body .row > div.incomplete {
+.Diaries-body .row .diary-tier-button.incomplete {
     background-color: var(--colorQuestIncompleteBackground);
     color: var(--colorQuestIncompleteBorderText);
     border: solid 1px var(--colorQuestIncompleteBorderText);
