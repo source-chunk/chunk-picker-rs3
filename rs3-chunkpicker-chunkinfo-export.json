@@ -102784,7 +102784,7 @@
 			},
 			"~|Succession|~ 3": {
 				"BaseQuest": "Succession",
-				"Description": "Investiage the Grand Library of Menaphos, the Magister's arena and the Soul Altar, then fight Oreb as Vengeance",
+				"Description": "Investiage the Grand Library of Menaphos, the Magister's arena and the Soul Rune Temple, then fight Oreb as Vengeance",
 				"Chunks": ["12586"],
 				"Tasks": {
 					"~|Succession|~ 2": "Quest"
@@ -116614,7 +116614,7 @@
 			},
 			"~|Underworld Achievements#Elite|~ Fetch me Their Souls": {
 				"Description": "Craft a soul rune at the soul altar with a soul cape equipped",
-				"Chunks": ["Soul Altar"],
+				"Chunks": ["Soul Rune Temple"],
 				"Items": ["Pure essence"],
 				"Tasks": {
 					"~|'Phite Club|~ Complete the quest": "Quest",
@@ -128716,7 +128716,7 @@
 					"Sophanem Slayer Dungeon",
 					"12587-1",
 					"12587-2",
-					"Soul Altar",
+					"Soul Rune Temple",
 					"12588-1",
 					"12330",
 					"Player-Owned Port",
@@ -130415,7 +130415,7 @@
 			"Pet ~|Tefimhet|~": {
 				"Category": ["Menaphos Log"],
 				"Label": "Menaphos Journal",
-				"Chunks": ["Soul Altar"],
+				"Chunks": ["Soul Rune Temple"],
 				"Items": ["Menaphos journal"]
 			},
 			"Pet ~|Nodjmet|~": {
@@ -146783,7 +146783,7 @@
 					"Sophanem Slayer Dungeon",
 					"12587-1",
 					"12587-2",
-					"Soul Altar",
+					"Soul Rune Temple",
 					"12588-1",
 					"12330",
 					"Player-Owned Port",
@@ -153553,7 +153553,7 @@
 					"~|In Aid of the Myreque|~ Complete the quest": "Quest"
 				}
 			},
-			"Soul Altar": {
+			"Soul Rune Temple": {
 				"UnlocksArea": true,
 				"Items": ["Soul talisman"],
 				"Tasks": {
@@ -155459,13 +155459,19 @@
 				"Items": ["Cosmic talisman"]
 			},
 			"Access the cosmic rune temple through the abyss*": {
-				"Chunks": ["The Abyss"]
+				"Chunks": ["The Abyss"],
+				"Tasks": {
+					"~|Lost City|~ Complete the quest": "Quest"
+				}
 			},
 			"Access the death rune temple with a talisman*": {
 				"Items": ["Death talisman"]
 			},
 			"Access the death rune temple through the abyss*": {
-				"Chunks": ["The Abyss"]
+				"Chunks": ["The Abyss"],
+				"Tasks": {
+					"~|Mourning's End Part II|~ Complete the quest": "Quest"
+				}
 			},
 			"Access the chaos rune temple with a talisman*": {
 				"Items": ["Chaos talisman"]
@@ -155519,7 +155525,10 @@
 				"Items": ["Blood talisman"]
 			},
 			"Access the blood rune temple through the abyss*": {
-				"Chunks": ["The Abyss"]
+				"Chunks": ["The Abyss"],
+				"Tasks": {
+					"~|Legacy of Seergaze|~ Complete the quest": "Quest"
+				}
 			},
 			"Access the water rune temple with a talisman*": {
 				"Items": ["WaterTalisman[+]"]
@@ -161590,7 +161599,7 @@
 				"8043": true,
 				"12330": true
 			},
-			"Name": "Soul Altar"
+			"Name": "Soul Rune Temple"
 		},
 		"7787": {
 			"Object": {
@@ -161962,7 +161971,7 @@
 				"7784": true,
 				"12330": true
 			},
-			"Name": "Soul Altar"
+			"Name": "Soul Rune Temple"
 		},
 		"8120": {
 			"Object": {
@@ -197898,7 +197907,7 @@
 				"The Slug Menace": "step"
 			}
 		},
-		"Soul Altar": {
+		"Soul Rune Temple": {
 			"Object": {
 				"Portal": 1,
 				"Charger": 1,
@@ -198417,7 +198426,9 @@
 				"11339": true,
 				"13899": true,
 				"40": true,
-				"8508": true
+				"8508": true,
+				"9035": true,
+				"8779": true
 			},
 			"Object": {
 				"Fire rift": 1,
