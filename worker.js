@@ -541,7 +541,9 @@ let loadUserTasks = function() {
                 'Permanent': false
             }
             if (skill !== 'Extra') {
-                chunkInfo['challenges'][skill][name]['Level'] = userTasks[skill][name];
+                let levelSplit = userTasks[skill][name].toString().split('~');
+                chunkInfo['challenges'][skill][name]['Level'] = parseInt(levelSplit[0]);
+                levelSplit.length > 1 && (chunkInfo['challenges'][skill][name]['NoBoost'] = true);
             }
         });
     });
@@ -608,11 +610,11 @@ let calcChallenges = function(chunks, baseChunkData) {
                 if (!valids[skill]) {
                     valids[skill] = {};
                 }
-                valids[skill][challenge] = userTasks[skill][challenge];
+                valids[skill][challenge] = typeof userTasks[skill][challenge] === 'boolean' ? userTasks[skill][challenge] : parseInt(userTasks[skill][challenge].toString().split('~')[0]);
                 if (!newValids[skill]) {
                     newValids[skill] = {};
                 }
-                newValids[skill][challenge] = userTasks[skill][challenge];
+                newValids[skill][challenge] = typeof userTasks[skill][challenge] === 'boolean' ? userTasks[skill][challenge] : parseInt(userTasks[skill][challenge].toString().split('~')[0]);
                 chunkInfo['challenges'].hasOwnProperty(skill) && chunkInfo['challenges'][skill].hasOwnProperty(challenge) && (chunkInfo['challenges'][skill][challenge]['ManualValid'] = true);
             }
         });
@@ -1176,11 +1178,11 @@ let calcChallenges = function(chunks, baseChunkData) {
                 if (!valids[skill]) {
                     valids[skill] = {};
                 }
-                valids[skill][challenge] = userTasks[skill][challenge];
+                valids[skill][challenge] = typeof userTasks[skill][challenge] === 'boolean' ? userTasks[skill][challenge] : parseInt(userTasks[skill][challenge].toString().split('~')[0]);
                 if (!newValids[skill]) {
                     newValids[skill] = {};
                 }
-                newValids[skill][challenge] = userTasks[skill][challenge];
+                newValids[skill][challenge] = typeof userTasks[skill][challenge] === 'boolean' ? userTasks[skill][challenge] : parseInt(userTasks[skill][challenge].toString().split('~')[0]);
                 chunkInfo['challenges'].hasOwnProperty(skill) && chunkInfo['challenges'][skill].hasOwnProperty(challenge) && (chunkInfo['challenges'][skill][challenge]['ManualValid'] = true);
             });
         });
@@ -3074,9 +3076,9 @@ let calcChallenges = function(chunks, baseChunkData) {
                             outputObjects[outputObject] = {};
                         }
                         if (!chunkInfo['challenges'][skill][challenge]['Secondary']) {
-                            outputObjects[outputObject][challenge] = true;
+                            outputObjects[outputObject][challenge] = 'primary-' + skill;
                         } else {
-                            outputObjects[outputObject]['Secondary-' + challenge] = true;
+                            outputObjects[outputObject][challenge] = 'secondary-' + skill;
                         }
                     }
                 }
