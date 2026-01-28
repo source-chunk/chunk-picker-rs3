@@ -1,6 +1,14 @@
 {
 	"challenges": {
 		"Agility": {
+			"Use an ~|experience lamp|~ from the Waiko Reward Shop on Agility": {
+				"Categories": ["XP Lamps"],
+				"Items": ["Ports XP Lamp"],
+				"Level": 1,
+				"Priamry": 1,
+				"Priority": 1000,
+				"NoPet": true
+			},
 			"Complete a lap of the ~|Burthorpe agility course|~": {
 				"Chunks": ["11575-1"],
 				"Level": 1,
@@ -221,6 +229,17 @@
 				"Chunks": ["Vault of Hereditas"],
 				"Skills": {
 					"Thieving": 105
+				},
+				"Primary": false,
+				"Priority": 10,
+				"NoPet": true
+			},
+			"Rummage a ~|dead legionary|~ for triple loot": {
+				"Category": ["Multiple Pickpockets"],
+				"Level": 105,
+				"Chunks": ["Vault of Hereditas"],
+				"Skills": {
+					"Thieving": 115
 				},
 				"Primary": false,
 				"Priority": 10,
@@ -1742,7 +1761,7 @@
 				"NoPet": true
 			},
 			"Enter a tier one ~|Shifting Tombs|~": {
-				"Chunks": ["8300"],
+				"Chunks": ["Shifting Tombs"],
 				"Level": 50,
 				"Skills": {
 					"Dungeoneering": 50,
@@ -1754,7 +1773,7 @@
 				"NoPet": true
 			},
 			"Enter a tier two ~|Shifting Tombs|~": {
-				"Chunks": ["8300"],
+				"Chunks": ["Shifting Tombs"],
 				"Level": 70,
 				"Skills": {
 					"Dungeoneering": 70,
@@ -1770,7 +1789,7 @@
 				"NoPet": true
 			},
 			"Enter a tier three ~|Shifting Tombs|~": {
-				"Chunks": ["8300"],
+				"Chunks": ["Shifting Tombs"],
 				"Level": 90,
 				"Skills": {
 					"Dungeoneering": 90,
@@ -11725,6 +11744,14 @@
 				"Priority": 25,
 				"Not F2P": true
 			},
+			"Use an ~|experience lamp|~ from the Waiko Reward Shop on Construction": {
+				"Categories": ["XP Lamps"],
+				"Items": ["Ports XP Lamp"],
+				"Level": 1,
+				"Priamry": 1,
+				"Priority": 1000,
+				"NoPet": true
+			},
 			"Build a ~|brown rug|~": {
 				"Category": ["InsidePOH Primary"],
 				"Chunks": ["Player-owned house"],
@@ -13788,7 +13815,7 @@
 				"Priority": 13
 			},
 			"Enter a tier one ~|Shifting Tombs|~": {
-				"Chunks": ["8300"],
+				"Chunks": ["Shifting Tombs"],
 				"Level": 50,
 				"Skills": {
 					"Agility": 50,
@@ -14990,7 +15017,7 @@
 				"Priority": 9
 			},
 			"Enter a tier two ~|Shifting Tombs|~": {
-				"Chunks": ["8300"],
+				"Chunks": ["Shifting Tombs"],
 				"Level": 70,
 				"Skills": {
 					"Agility": 70,
@@ -16124,7 +16151,7 @@
 				"Priority": 8
 			},
 			"Enter a tier three ~|Shifting Tombs|~": {
-				"Chunks": ["8300"],
+				"Chunks": ["Shifting Tombs"],
 				"Level": 90,
 				"Skills": {
 					"Agility": 90,
@@ -17239,6 +17266,14 @@
 				"Output": "Cup of tea (gold)",
 				"Primary": true,
 				"Priority": 74
+			},
+			"Use an ~|experience lamp|~ from the Waiko Reward Shop on Cooking": {
+				"Categories": ["XP Lamps"],
+				"Items": ["Ports XP Lamp"],
+				"Level": 1,
+				"Priamry": 1,
+				"Priority": 1000,
+				"NoPet": true
 			},
 			"Make ~|chocolatey milk|~": {
 				"Items": ["Bucket of milk*", "Chocolate dust*"],
@@ -21577,10 +21612,10 @@
 				"Not F2P": true,
 				"Partial": true
 			},
-			"Fire a ~|plant pot|~": {
+			"Fire a ~|plant pot (empty)|~": {
 				"Items": ["Unfired plant pot*"],
 				"Level": 19,
-				"Output": "Plant pot",
+				"Output": "Plant pot (empty)",
 				"Objects": ["Pottery oven"],
 				"Primary": true,
 				"Priority": 3,
@@ -24309,7 +24344,7 @@
 				"Not F2P": true
 			},
 			"Enter a tier two ~|Shifting Tombs|~": {
-				"Chunks": ["8300"],
+				"Chunks": ["Shifting Tombs"],
 				"Level": 70,
 				"Skills": {
 					"Agility": 70,
@@ -25717,7 +25752,7 @@
 				"Priority": 30
 			},
 			"Enter a tier three ~|Shifting Tombs|~": {
-				"Chunks": ["8300"],
+				"Chunks": ["Shifting Tombs"],
 				"Level": 90,
 				"Skills": {
 					"Agility": 90,
@@ -30249,6 +30284,14 @@
 				"Primary": true,
 				"Priority": 1
 			},
+			"Use an ~|experience lamp|~ from the Waiko Reward Shop on Divination": {
+				"Categories": ["XP Lamps"],
+				"Items": ["Ports XP Lamp"],
+				"Level": 1,
+				"Priamry": 1,
+				"Priority": 1000,
+				"NoPet": true
+			},
 			"Harvest a ~|bright wisp|~": {
 				"NPCs": ["Bright wisp"],
 				"Level": 20,
@@ -31706,7 +31749,7 @@
 				"Priority": 5
 			},
 			"Enter a tier two ~|Shifting Tombs|~": {
-				"Chunks": ["8300"],
+				"Chunks": ["Shifting Tombs"],
 				"Level": 70,
 				"Skills": {
 					"Agility": 70,
@@ -31782,7 +31825,7 @@
 				"Priority": 10
 			},
 			"Enter a tier three ~|Shifting Tombs|~": {
-				"Chunks": ["8300"],
+				"Chunks": ["Shifting Tombs"],
 				"Level": 90,
 				"Skills": {
 					"Agility": 90,
@@ -32025,6 +32068,14 @@
 				"Output": "Dungeoneering token",
 				"Primary": true,
 				"Priority": 5
+			},
+			"Use an ~|experience lamp|~ from the Waiko Reward Shop on Dungeoneering": {
+				"Categories": ["XP Lamps"],
+				"Items": ["Ports XP Lamp"],
+				"Level": 1,
+				"Priamry": 1,
+				"Priority": 1000,
+				"NoPet": true
 			},
 			"Enter the ~|Edgeville Dungeon chaos druids dungeon|~": {
 				"Chunks": ["Edgeville Dungeon"],
@@ -32362,7 +32413,7 @@
 				"Not F2P": true
 			},
 			"Enter a tier one ~|Shifting Tombs|~": {
-				"Chunks": ["8300"],
+				"Chunks": ["Shifting Tombs"],
 				"Level": 50,
 				"Skills": {
 					"Agility": 50,
@@ -32571,7 +32622,7 @@
 				"Not F2P": true
 			},
 			"Enter a tier two ~|Shifting Tombs|~": {
-				"Chunks": ["8300"],
+				"Chunks": ["Shifting Tombs"],
 				"Level": 70,
 				"Skills": {
 					"Agility": 70,
@@ -32765,7 +32816,7 @@
 				"Not F2P": true
 			},
 			"Enter a tier three ~|Shifting Tombs|~": {
-				"Chunks": ["8300"],
+				"Chunks": ["Shifting Tombs"],
 				"Level": 90,
 				"Skills": {
 					"Agility": 90,
@@ -40153,6 +40204,14 @@
 				"Primary": true,
 				"Priority": 25
 			},
+			"Use an ~|experience lamp|~ from the Waiko Reward Shop on Fishing": {
+				"Categories": ["XP Lamps"],
+				"Items": ["Ports XP Lamp"],
+				"Level": 1,
+				"Priamry": 1,
+				"Priority": 1000,
+				"NoPet": true
+			},
 			"Catch a ~|raw shrimp|~ in the holy lake": {
 				"Level": 5,
 				"Objects": ["Fishing spot (karambwanji)"],
@@ -41388,7 +41447,8 @@
 				"Level": 20,
 				"Output": "Oak shortbow (unstrung)",
 				"Primary": true,
-				"Priority": 1
+				"Priority": 1,
+				"Partial": true
 			},
 			"String an ~|oak shortbow|~": {
 				"Items": ["Oak shortbow (unstrung)*", "Bowstring*"],
@@ -42526,6 +42586,7 @@
 				"Priority": 8
 			},
 			"Create a ~|memory-crushing scrimshaw|~": {
+				"Chunks": ["The Arc"],
 				"Items": ["Ancient bones*"],
 				"Level": 85,
 				"Objects": ["Scrimshaw Crafter"],
@@ -42534,6 +42595,7 @@
 				"Priority": 9
 			},
 			"Create a ~|superior memory-crushing scrimshaw|~": {
+				"Chunks": ["The Arc"],
 				"Items": ["Ancient bones*"],
 				"Level": 85,
 				"Objects": ["Scrimshaw Crafter"],
@@ -42646,6 +42708,7 @@
 				"Priority": 10
 			},
 			"Create an ~|energy-gathering scrimshaw|~": {
+				"Chunks": ["The Arc"],
 				"Items": ["Ancient bones*"],
 				"Level": 90,
 				"Objects": ["Scrimshaw Crafter"],
@@ -42654,6 +42717,7 @@
 				"Priority": 11
 			},
 			"Create a ~|superior energy-gathering scrimshaw|~": {
+				"Chunks": ["The Arc"],
 				"Items": ["Ancient bones*"],
 				"Level": 90,
 				"Objects": ["Scrimshaw Crafter"],
@@ -43901,6 +43965,14 @@
 				"Level": 1,
 				"Primary": true,
 				"Priority": 22
+			},
+			"Use an ~|experience lamp|~ from the Waiko Reward Shop on Herblore": {
+				"Categories": ["XP Lamps"],
+				"Items": ["Ports XP Lamp"],
+				"Level": 1,
+				"Priamry": 1,
+				"Priority": 1000,
+				"NoPet": true
 			},
 			"Mix an ~|attack mix|~": {
 				"Items": ["AttackPotion[+]*", "Roe*"],
@@ -46740,6 +46812,14 @@
 				"Priority": 19,
 				"Not F2P": true
 			},
+			"Use an ~|experience lamp|~ from the Waiko Reward Shop on Hunter": {
+				"Categories": ["XP Lamps"],
+				"Items": ["Ports XP Lamp"],
+				"Level": 1,
+				"Priamry": 1,
+				"Priority": 1000,
+				"NoPet": true
+			},
 			"Catch a ~|common kebbit|~": {
 				"Chunks": ["9271-1"],
 				"Level": 3,
@@ -47773,18 +47853,18 @@
 				"Primary": false,
 				"Priority": 2
 			},
-			"Hunt an ~|arcane apoterrasaur|~": {
+			"Hunt an ~|arcane apoterrasaur|~ during Big Game Hunter": {
 				"NPCs": ["Arcane apoterrasaur"],
 				"Items": ["Raw shark"],
 				"Level": 75,
 				"Skills": {
 					"Slayer": 55
 				},
-				"Output": "ArcaneApoterrasaur",
+				"Output": "Arcane Apoterrasaur",
 				"Primary": true,
 				"Priority": 3
 			},
-			"Hunt a ~|scimitops|~": {
+			"Hunt a ~|scimitops|~ during Big Game Hunter": {
 				"NPCs": ["Scimitops"],
 				"Items": ["Raw sailfish"],
 				"Level": 75,
@@ -47795,14 +47875,14 @@
 				"Primary": true,
 				"Priority": 4
 			},
-			"Hunt a ~|bagrada rex|~": {
+			"Hunt a ~|bagrada rex|~ during Big Game Hunter": {
 				"NPCs": ["Bagrada rex"],
 				"Items": ["Raw manta ray"],
 				"Level": 75,
 				"Skills": {
 					"Slayer": 55
 				},
-				"Output": "BagradaRex",
+				"Output": "Bagrada Rex",
 				"Primary": true,
 				"Priority": 5
 			},
@@ -47976,14 +48056,14 @@
 				"Primary": false,
 				"Priority": 3
 			},
-			"Hunt a ~|spicati apoterrasaur|~": {
+			"Hunt a ~|spicati apoterrasaur|~ during Big Game Hunter": {
 				"NPCs": ["Spicati apoterrasaur"],
 				"Items": ["Raw bagrada rex meat"],
 				"Level": 80,
 				"Skills": {
 					"Slayer": 60
 				},
-				"Output": "SpicatiApoterrasaur",
+				"Output": "Spicati Apoterrasaur",
 				"Primary": true,
 				"Priority": 1
 			},
@@ -48126,7 +48206,7 @@
 				"Primary": true,
 				"Priority": 2
 			},
-			"Hunt an ~|asciatops|~": {
+			"Hunt an ~|asciatops|~ during Big Game Hunter": {
 				"NPCs": ["Asciatops"],
 				"Items": ["Raw arcane apoterrasaur meat"],
 				"Level": 85,
@@ -48341,14 +48421,14 @@
 				"Primary": false,
 				"Priority": 12
 			},
-			"Hunt a ~|corbicula rex|~": {
+			"Hunt a ~|corbicula rex|~ during Big Game Hunter": {
 				"NPCs": ["Corbicula rex"],
 				"Items": ["Raw scimitops meat"],
 				"Level": 90,
 				"Skills": {
 					"Slayer": 70
 				},
-				"Output": "CorbiculaRex",
+				"Output": "Corbicula Rex",
 				"Primary": true,
 				"Priority": 13
 			},
@@ -48457,14 +48537,14 @@
 				"Primary": true,
 				"Priority": 1
 			},
-			"Hunt an ~|oculi apoterrasaur|~": {
+			"Hunt an ~|oculi apoterrasaur|~ during Big Game Hunter": {
 				"NPCs": ["Oculi apoterrasaur"],
 				"Items": ["Raw asciatops meat"],
 				"Level": 94,
 				"Skills": {
 					"Slayer": 74
 				},
-				"Output": "OculiApoterrasaur",
+				"Output": "Oculi Apoterrasaur",
 				"Primary": true,
 				"Priority": 1
 			},
@@ -48505,7 +48585,7 @@
 				"Primary": false,
 				"Priority": 14
 			},
-			"Hunt a ~|malletops|~": {
+			"Hunt a ~|malletops|~ during Big Game Hunter": {
 				"NPCs": ["Oculi apoterrasaur"],
 				"Items": ["Raw corbicula rex meat"],
 				"Level": 95,
@@ -48580,14 +48660,14 @@
 				"Primary": false,
 				"Priority": 13
 			},
-			"Hunt a ~|pavosaurus rex|~": {
+			"Hunt a ~|pavosaurus rex|~ during Big Game Hunter": {
 				"NPCs": ["Pavosaurus rex"],
 				"Items": ["Raw spicati apoterrasaur meat"],
 				"Level": 96,
 				"Skills": {
 					"Slayer": 76
 				},
-				"Output": "PavosaurusRex",
+				"Output": "Pavosaurus Rex",
 				"Primary": true,
 				"Priority": 1
 			},
@@ -51178,6 +51258,15 @@
 				"Level": 33,
 				"Primary": true,
 				"Priority": 1
+			},
+			"Participate in all parts of the ~|Mage Training Arena|~": {
+				"Chunks": ["13363"],
+				"Items":["Law rune*", "Cosmic rune*", "Nature rune*", "Earth rune[+]", "Air rune[+]", "Water rune[+]", "Fire rune[+]"],
+				"Level": 33,
+				"Output": "Progress hat",
+				"Primary": false,
+				"Priority": 2,
+				"Not F2P": true
 			},
 			"Cast ~|fire bolt|~": {
 				"Category": ["Spells", "Combat and Teleport Spells"],
@@ -57205,6 +57294,14 @@
 			}
 		},
 		"Prayer": {
+			"Use an ~|experience lamp|~ from the Waiko Reward Shop on Prayer": {
+				"Categories": ["XP Lamps"],
+				"Items": ["Ports XP Lamp"],
+				"Level": 1,
+				"Priamry": 1,
+				"Priority": 1000,
+				"NoPet": true
+			},
 			"Equip a piece of ~|void knight equipment|~": {
 				"Items": ["Voidequipment[+]"],
 				"Level": 22,
@@ -57675,7 +57772,7 @@
 				"NoBoost": true
 			},
 			"Enter a tier two ~|Shifting Tombs|~": {
-				"Chunks": ["8300"],
+				"Chunks": ["Shifting Tombs"],
 				"Level": 70,
 				"Skills": {
 					"Agility": 70,
@@ -57685,6 +57782,23 @@
 					"Runecrafting": 70,
 					"Dungeoneering": 70,
 					"Divination": 70
+				},
+				"Primary": false,
+				"Priority": 6,
+				"NoPet": true,
+				"NoBoost": true
+			},
+			"Enter a tier three ~|Shifting Tombs|~": {
+				"Chunks": ["Shifting Tombs"],
+				"Level": 90,
+				"Skills": {
+					"Agility": 90,
+					"Thieving": 90,
+					"Construction": 90,
+					"Crafting": 90,
+					"Runecrafting": 90,
+					"Dungeoneering": 90,
+					"Divination": 90
 				},
 				"Primary": false,
 				"Priority": 6,
@@ -58821,24 +58935,6 @@
 				"Output": "Prayer master cape",
 				"Primary": false,
 				"Priority": 3,
-				"NoPet": true,
-				"NoBoost": true,
-				"Not F2P": true
-			},
-			"Enter a tier three ~|Shifting Tombs|~": {
-				"Chunks": ["8300"],
-				"Level": 90,
-				"Skills": {
-					"Agility": 90,
-					"Thieving": 90,
-					"Construction": 90,
-					"Crafting": 90,
-					"Runecrafting": 90,
-					"Dungeoneering": 90,
-					"Divination": 90
-				},
-				"Primary": false,
-				"Priority": 8,
 				"NoPet": true,
 				"NoBoost": true,
 				"Not F2P": true
@@ -62441,6 +62537,14 @@
 				"Primary": true,
 				"Priority": 30
 			},
+			"Use an ~|experience lamp|~ from the Waiko Reward Shop on Runecrafting": {
+				"Categories": ["XP Lamps"],
+				"Items": ["Ports XP Lamp"],
+				"Level": 1,
+				"Priamry": 1,
+				"Priority": 1000,
+				"NoPet": true
+			},
 			"Craft ~|air runes|~ at the air rune temple": {
 				"Chunks": ["Air Rune Temple"],
 				"Items": ["RuneEssence[+]*"],
@@ -62548,13 +62652,6 @@
 				"Level": 5,
 				"Primary": true,
 				"Priority": 3
-			},
-			"Wear a ~|wicked hood|~": {
-				"Items": ["Wicked hood"],
-				"Level": 5,
-				"Primary": false,
-				"Priority": 4,
-				"Not F2P": true
 			},
 			"Craft ~|mist runes|~ at the air rune temple": {
 				"Chunks": ["Air Rune Temple"],
@@ -63718,7 +63815,7 @@
 				"Priority": 2
 			},
 			"Enter a tier two ~|Shifting Tombs|~": {
-				"Chunks": ["8300"],
+				"Chunks": ["Shifting Tombs"],
 				"Level": 70,
 				"Skills": {
 					"Agility": 70,
@@ -63733,7 +63830,7 @@
 				"Priority": 3
 			},
 			"Enter a tier three ~|Shifting Tombs|~": {
-				"Chunks": ["8300"],
+				"Chunks": ["Shifting Tombs"],
 				"Level": 90,
 				"Skills": {
 					"Agility": 90,
@@ -63977,7 +64074,7 @@
 				"Primary": true,
 				"Priority": 2
 			},
-			"Gain the ability to buy the ~|hungry hood|~": {
+			"Obtain a ~|hungry hood|~": {
 				"Chunks": ["The Runespan", "12337-1"],
 				"Level": 105,
 				"Primary": true,
@@ -64274,12 +64371,28 @@
 				"Priority": 30
 			},
 			"Buy and use a slayer lamp using ~|Hunter Marks|~": {
-				"Category": ["Hunter Marks Slayer"],
+				"Category": ["XP Lamps"],
 				"Chunks": ["15683-1"],
 				"Items": ["Medium Slayer lamp (Hunter Marks)*"],
 				"Level": 1,
 				"Primary": true,
 				"Priority": 31
+			},
+			"Use an ~|experience lamp|~ from the Waiko Reward Shop on Slayer": {
+				"Categories": ["XP Lamps"],
+				"Items": ["Ports XP Lamp"],
+				"Level": 1,
+				"Priamry": 1,
+				"Priority": 1000,
+				"NoPet": true
+			},
+			"Use an ~|experience lamp|~ from Shattered Worlds": {
+				"Categories": ["XP Lamps"],
+				"Items": ["Huge XP lamp (Slayer) (Shattered Worlds)"],
+				"Level": 1,
+				"Priamry": 1,
+				"Priority": 1000,
+				"NoPet": true
 			},
 			"Obtain a ~|creeping hand|~": {
 				"Items": ["Crawling hand (item)"],
@@ -68045,6 +68158,14 @@
 				"Primary": true,
 				"Priority": 3
 			},
+			"Break down ~|damaged chitin|~": {
+				"Items": ["Damaged chitin*"],
+				"Level": 60,
+				"Objects": ["Anvil[+]"],
+				"Output": "Chitin scraps",
+				"Primary": true,
+				"Priority": 3
+			},
 			"Smith a ~|death gaurd (tier 70)|~": {
 				"Objects": ["Soul forge"],
 				"Items": ["Death guard (tier 60)", "Ensouled bar", "Bone rune"],
@@ -68528,7 +68649,7 @@
 				"Partial": true
 			},
 			"Forge ~|tetsu weapons|~": {
-				"Items": ["Plate*", "Pearl*", "Tengu tsuba*"],
+				"Items": ["Plate*", "Pearls*", "Tengu tsuba*"],
 				"Level": 92,
 				"Objects": ["Port workshop"],
 				"Output": "TetsuWeapon",
@@ -72523,34 +72644,17 @@
 			}
 		},
 		"Thieving": {
-			"Pickpocket a ~|man|~": {
+			"Pickpocket a ~|citizen|~": {
 				"Level": 1,
-				"Monsters": ["Man"],
+				"Mix": ["Citizen[+]"],
+				"Output": ["Citizen[+]"],
 				"Primary": true,
 				"Priority": 1
-			},
-			"Pickpocket a ~|woman|~": {
-				"Level": 1,
-				"Monsters": ["Woman"],
-				"Primary": true,
-				"Priority": 2
 			},
 			"Pickpocket a ~|gullible tourist|~": {
 				"Level": 1,
 				"NPCs": ["Gullible tourist"],
 				"Output": "Menaphos pickpocket",
-				"Primary": true,
-				"Priority": 4
-			},
-			"Pickpocket a ~|pompous merchant|~": {
-				"Level": 1,
-				"NPCs": ["Pompous merchant"],
-				"Primary": true,
-				"Priority": 3
-			},
-			"Pickpocket ~|Ikis Krum|~": {
-				"Level": 1,
-				"NPCs": ["Ikis Krum"],
 				"Primary": true,
 				"Priority": 4
 			},
@@ -72572,6 +72676,7 @@
 				},
 				"Primary": true,
 				"Output": "WinterHerbs",
+				"Hide drops": true,
 				"Priority": 7
 			},
 			"Grow a ~|fly trap|~": {
@@ -72598,8 +72703,16 @@
 				"Chunks": ["Temple Trekking Routes"],
 				"Level": 1,
 				"Primary": true,
-				"Priority": 1001
+				"Priority": 1002
 			},	
+			"Use an ~|experience lamp|~ from the Waiko Reward Shop on Thieving": {
+				"Categories": ["XP Lamps"],
+				"Items": ["Ports XP Lamp"],
+				"Level": 1,
+				"Priamry": 1,
+				"Priority": 1003,
+				"NoPet": true
+			},
 			"Steal from a ~|vegetable stall|~": {
 				"Level": 2,
 				"Objects": ["Vegetable stall"],
@@ -72638,7 +72751,7 @@
 			"Steal from ~|Solihib's food stall|~": {
 				"Level": 5,
 				"Objects": ["Food stall"],
-				"Output": "Banana",
+				"Output": "Food stall",
 				"Primary": true,
 				"Priority": 5
 			},
@@ -72797,7 +72910,7 @@
 			"Steal from the first room in ~|pyramid plunder|~": {
 				"Chunks": ["Pyramid Plunder"],
 				"Level": 21,
-				"Output": "PyramidPlunder",
+				"Output": "Pyramid Plunder",
 				"Primary": true,
 				"Priority": 1
 			},
@@ -72847,7 +72960,7 @@
 			"Crack a ~|wall safe|~": {
 				"Level": 25,
 				"Chunks": ["Rogues' Den"],
-				"Output": "WallSafe",
+				"Output": "Wall safe",
 				"Primary": true,
 				"Priority": 3
 			},
@@ -72883,6 +72996,7 @@
 				},
 				"Primary": true,
 				"Output": "SpringHerbs",
+				"Hide drops": true,
 				"Priority": 1001
 			},
 			"Steal from a ~|seed stall|~": {
@@ -72895,7 +73009,7 @@
 			"Loot a ~|chest (nature runes)|~": {
 				"Level": 28,
 				"Objects": ["Chest (nature runes)"],
-				"Output": "Nature rune",
+				"Output": "Chest (nature runes)",
 				"Primary": true,
 				"Priority": 1
 			},
@@ -72917,7 +73031,7 @@
 			"Steal from the second room in ~|pyramid plunder|~": {
 				"Chunks": ["Pyramid Plunder"],
 				"Level": 31,
-				"Output": "PyramidPlunder",
+				"Output": "Pyramid Plunder",
 				"Primary": true,
 				"Priority": 2
 			},
@@ -72955,7 +73069,7 @@
 				"Primary": true,
 				"Priority": 1
 			},
-			"Pickpocket a ~|Cave goblin|~": {
+			"Pickpocket a ~|cave goblin|~": {
 				"Level": 36,
 				"Monsters": ["Cave goblin (Dorgesh-Kaan)"],
 				"Output": "Cave goblin",
@@ -73004,7 +73118,7 @@
 			"Steal from the third room in ~|pyramid plunder|~": {
 				"Chunks": ["Pyramid Plunder"],
 				"Level": 41,
-				"Output": "PyramidPlunder",
+				"Output": "Pyramid Plunder",
 				"Primary": true,
 				"Priority": 1
 			},
@@ -73062,6 +73176,7 @@
 				},
 				"Primary": true,
 				"Output": "AutumnHerbs",
+				"Hide drops": true,
 				"Priority": 1001
 			},
 			"Pickpocket a ~|H.A.M. member (female)|~ for quadruple loot": {
@@ -73099,7 +73214,7 @@
 				"Items": ["Lockpick"],
 				"Level": 47,
 				"Objects": ["Chest (steel arrowheads)"],
-				"Output": "Steel arrowheads",
+				"Output": "Chest (steel arrowheads)",
 				"Primary": true,
 				"Priority": 1
 			},
@@ -73188,7 +73303,7 @@
 				"Priority": 108
 			},
 			"Enter a tier one ~|Shifting Tombs|~": {
-				"Chunks": ["8300"],
+				"Chunks": ["Shifting Tombs"],
 				"Level": 50,
 				"Skills": {
 					"Agility": 50,
@@ -73213,7 +73328,7 @@
 			"Steal from the fourth room in ~|pyramid plunder|~": {
 				"Chunks": ["Pyramid Plunder"],
 				"Level": 51,
-				"Output": "PyramidPlunder",
+				"Output": "Pyramid Plunder",
 				"Primary": true,
 				"Priority": 1
 			},
@@ -73221,7 +73336,7 @@
 				"Level": 52,
 				"Items": ["Lockpick"],
 				"Objects": ["Chest (Dorgesh-Kaan)"],
-				"Output": "Average chest",
+				"Output": "Chest (Dorgesh-Kaan)",
 				"Primary": true,
 				"Priority": 1
 			},
@@ -73229,7 +73344,7 @@
 				"Level": 52,
 				"Items": ["Lockpick"],
 				"Objects": ["Chest (Oldak)"],
-				"Output": "Oldak chest",
+				"Output": "Chest (Oldak)",
 				"Primary": true,
 				"Priority": 2
 			},
@@ -73237,7 +73352,7 @@
 				"Level": 52,
 				"Items": ["Lockpick"],
 				"Objects": ["Chest (Zanik)"],
-				"Output": "Zanik chest",
+				"Output": "Chest (Zanik)",
 				"Primary": true,
 				"Priority": 3
 			},
@@ -73278,7 +73393,7 @@
 				"Level": 59,
 				"Objects": ["Chest (Chaos Druid Tower Dungeon)"],
 				"Chunks": ["10292"],
-				"Output": "Blood rune",
+				"Output": "Chest (Chaos Druid Tower Dungeon)",
 				"Primary": true,
 				"Priority": 1
 			},
@@ -73291,7 +73406,7 @@
 			"Steal from the fifth room in ~|pyramid plunder|~": {
 				"Chunks": ["Pyramid Plunder"],
 				"Level": 61,
-				"Output": "PyramidPlunder",
+				"Output": "Pyramid Plunder",
 				"Primary": true,
 				"Priority": 2
 			},
@@ -73305,14 +73420,14 @@
 			"Crack a ~|safe|~ in Misthalin": {
 				"Level": 62,
 				"Chunks": ["Misthalin safes[+]"],
-				"Output": "Safes low",
+				"Output": "Low-level safes",
 				"Primary": true,
 				"Priority": 2
 			},
 			"Steal from ~|customs evidence files|~": {
 				"Level": 63,
-				"Objects": ["Cabinet (rocking)"],
-				"Output": "Customs evidence",
+				"Objects": ["Cabinet"],
+				"Output": "Cabinet",
 				"Primary": true,
 				"Priority": 1
 			},
@@ -73349,7 +73464,7 @@
 				"Level": 65,
 				"Items": ["Lockpick"],
 				"Objects": ["Chest (Rogues' Castle)"],
-				"Output": "Rogue chest",
+				"Output": "Chest (Rogues' Castle)",
 				"Primary": true,
 				"Priority": 4
 			},
@@ -73385,6 +73500,7 @@
 				},
 				"Primary": true,
 				"Output": "SummerHerbs",
+				"Hide drops": true,
 				"Priority": 1001
 			},
 			"Pickpocket a ~|Cave goblin|~ for quadruple loot": {
@@ -73412,7 +73528,7 @@
 			"Crack a ~|safe|~ in the Kharidian Desert": {
 				"Level": 69,
 				"Chunks": ["Kharidian safes[+]"],
-				"Output": "Safes low",
+				"Output": "Low-level safes",
 				"Primary": true,
 				"Priority": 1
 			},
@@ -73432,7 +73548,7 @@
 				"Priority": 2
 			},
 			"Enter a tier two ~|Shifting Tombs|~": {
-				"Chunks": ["8300"],
+				"Chunks": ["Shifting Tombs"],
 				"Level": 70,
 				"Skills": {
 					"Agility": 70,
@@ -73475,7 +73591,7 @@
 			"Steal from the sixth room in ~|pyramid plunder|~": {
 				"Chunks": ["Pyramid Plunder"],
 				"Level": 71,
-				"Output": "PyramidPlunder",
+				"Output": "Pyramid Plunder",
 				"Primary": true,
 				"Priority": 2
 			},
@@ -73524,7 +73640,8 @@
 					"Herblore": 50
 				},
 				"Primary": true,
-				"Priority": 1000
+				"Priority": 1000,
+				"Hide drops": true
 			},
 			"Get the pickpocket bonus from the ~|exoskeleton bracers|~": {
 				"Items": ["Exoskeleton bracers"],
@@ -73561,7 +73678,7 @@
 			"Crack a ~|safe|~ in Asgarnia": {
 				"Level": 76,
 				"Chunks": ["Asgarnian safes[+]"],
-				"Output": "Safes low",
+				"Output": "Low-level safes",
 				"Primary": true,
 				"Priority": 1
 			},
@@ -73673,7 +73790,7 @@
 			"Steal from the seventh room in ~|pyramid plunder|~": {
 				"Chunks": ["Pyramid Plunder"],
 				"Level": 81,
-				"Output": "PyramidPlunder",
+				"Output": "Pyramid Plunder",
 				"Primary": true,
 				"Priority": 1
 			},
@@ -73700,7 +73817,7 @@
 			"Crack a ~|safe|~ in Kandarin": {
 				"Level": 83,
 				"Chunks": ["Kandarin safes[+]"],
-				"Output": "Safes high",
+				"Output": "High-level safes",
 				"Primary": true,
 				"Priority": 2
 			},
@@ -73776,12 +73893,12 @@
 			"Crack the ~|safe|~ in the rogues' castle": {
 				"Level": 90,
 				"Chunks": ["13117"],
-				"Output": "Safes high",
+				"Output": "High-level safes",
 				"Primary": true,
 				"Priority": 2
 			},
 			"Enter a tier three ~|Shifting Tombs|~": {
-				"Chunks": ["8300"],
+				"Chunks": ["Shifting Tombs"],
 				"Level": 90,
 				"Skills": {
 					"Agility": 90,
@@ -73870,7 +73987,7 @@
 			"Steal from the eighth room in ~|pyramid plunder|~": {
 				"Chunks": ["Pyramid Plunder"],
 				"Level": 91,
-				"Output": "PyramidPlunder",
+				"Output": "Pyramid Plunder",
 				"Primary": true,
 				"Priority": 2
 			},
@@ -73927,7 +74044,7 @@
 			"Crack the ~|safes|~ in Zanaris": {
 				"Level": 94,
 				"Chunks": ["Zanaris"],
-				"Output": "Safes high",
+				"Output": "High-level safes",
 				"Primary": true,
 				"Priority": 2
 			},
@@ -74003,7 +74120,7 @@
 			"Crack the ~|safes|~ in Zemouregal's fort": {
 				"Level": 96,
 				"Chunks": ["11324"],
-				"Output": "Safes high",
+				"Output": "High-level safes",
 				"Primary": true,
 				"Priority": 2
 			},
@@ -74427,6 +74544,16 @@
 				"Primary": false,
 				"Priority": 1000,
 				"NoPet": true
+			},
+			"Rummage a ~|dead legionary|~ for triple loot": {
+				"Category": ["Multiple Pickpockets"],
+				"Level": 115,
+				"Chunks": ["Vault of Hereditas"],
+				"Skills": {
+					"Agility": 105
+				},
+				"Primary": false,
+				"Priority": 1001
 			},
 			"Loot a ~|chest (Darkmeyer, Thieving)|~": {
 				"Level": 116,
@@ -102657,7 +102784,7 @@
 			},
 			"~|Succession|~ 3": {
 				"BaseQuest": "Succession",
-				"Description": "Investiage the Grand Library of Menaphos, the Magister's arena and the Soul Altar, then fight Oreb as Vengeance",
+				"Description": "Investiage the Grand Library of Menaphos, the Magister's arena and the Soul Rune Temple, then fight Oreb as Vengeance",
 				"Chunks": ["12586"],
 				"Tasks": {
 					"~|Succession|~ 2": "Quest"
@@ -116487,7 +116614,7 @@
 			},
 			"~|Underworld Achievements#Elite|~ Fetch me Their Souls": {
 				"Description": "Craft a soul rune at the soul altar with a soul cape equipped",
-				"Chunks": ["Soul Altar"],
+				"Chunks": ["Soul Rune Temple"],
 				"Items": ["Pure essence"],
 				"Tasks": {
 					"~|'Phite Club|~ Complete the quest": "Quest",
@@ -123204,7 +123331,7 @@
 				"Category": ["MQC achievements"],
 				"Description": "Find all 5 Zamorakian notes, dropped by those dedicated to Zamorak.",
 				"BaseQuest": "Completionist achievements",
-				"Items": ["Bloodstained note", "Elegant note", "Burnt note", "Crumpled note", "Mysterious note"]
+				"Items": ["Bloodstained note", "Elegant note", "Burnt note", "Crumpled note (Zamorak's demon invasion)", "Mysterious note (Zamorak's demon invasion)"]
 			},
 			"~|Completionist achievements#Master Quest Cape|~ A Complete History of Droalak": {
 				"Category": ["MQC achievements"],
@@ -127061,37 +127188,7 @@
 				"Category": ["Comp achievements", "Skillcape"],
 				"Description": "Increase all skills to mastery level.",
 				"BaseQuest": "Completionist achievements",
-				"Skills": {
-					"Agility": 99,
-					"Archaeology": 120,
-					"Attack": 99,
-					"Constitution": 99,
-					"Construction": 99,
-					"Cooking": 99,
-					"Crafting": 99,
-					"Defence": 99,
-					"Divination": 99,
-					"Dungeoneering": 120,
-					"Farming": 120,
-					"Firemaking": 110,
-					"Fishing": 99,
-					"Fletching": 110,
-					"Herblore": 120,
-					"Hunter": 99,
-					"Invention": 120,
-					"Magic": 99,
-					"Mining": 110,
-					"Necromancy": 120,
-					"Prayer": 99,
-					"Ranged": 99,
-					"Runecrafting": 110,
-					"Slayer": 120,
-					"Smithing": 110,
-					"Strength": 99,
-					"Summoning": 99,
-					"Thieving": 120,
-					"Woodcutting": 110
-				},
+				"TotalLevelNeeded": 3084,
 				"NoBoost": true,
 				"Not F2P": true
 			},
@@ -128619,7 +128716,7 @@
 					"Sophanem Slayer Dungeon",
 					"12587-1",
 					"12587-2",
-					"Soul Altar",
+					"Soul Rune Temple",
 					"12588-1",
 					"12330",
 					"Player-Owned Port",
@@ -129806,7 +129903,7 @@
 				"Label": "Arc Journal",
 				"Chunks": ["The Arc"],
 				"Tasks": {
-					"Catch a ~|tortle|~": "Hunting"
+					"Catch a ~|tortle|~": "Hunter"
 				}
 			},
 			"Spot the ~|Dusky Wigglebill|~": {
@@ -129934,21 +130031,21 @@
 				"Label": "Achievement",
 				"Chunks": ["The Arc"],
 				"Tasks": {
-					"Forage a ~|wild rumberry bush|~": "Extra",
-					"Forage a ~|wild exuberry bush|~": "Extra",
-					"Grow a ~|fireberry bush|~": "Extra",
-					"Grow a ~|blisterberry bush|~": "Extra",
-					"Grow a ~|mournberry bush|~": "Extra",
-					"Grow a ~|stoneberry bush|~": "Extra",
-					"Grow a ~|stormberry bush|~": "Extra",
-					"Grow a ~|rosaberry bush|~": "Extra",
-					"Grow a ~|squiffberry bush|~": "Extra",
-					"Grow a ~|meloberry bush|~": "Extra",
-					"Grow a ~|jitterberry bush|~": "Extra",
-					"Grow a ~|cocoaberry bush|~": "Extra",
-					"Grow a ~|smoulderberry bush|~": "Extra",
-					"Grow a ~|sourberry bush|~": "Extra",
-					"Grow a ~|gloomberry bush|~": "Extra",
+					"Forage a ~|wild rumberry bush|~": "Farming",
+					"Forage a ~|wild exuberry bush|~": "Farming",
+					"Grow a ~|fireberry bush|~": "Farming",
+					"Grow a ~|blisterberry bush|~": "Farming",
+					"Grow a ~|mournberry bush|~": "Farming",
+					"Grow a ~|stoneberry bush|~": "Farming",
+					"Grow a ~|stormberry bush|~": "Farming",
+					"Grow a ~|rosaberry bush|~": "Farming",
+					"Grow a ~|squiffberry bush|~": "Farming",
+					"Grow a ~|meloberry bush|~": "Farming",
+					"Grow a ~|jitterberry bush|~": "Farming",
+					"Grow a ~|cocoaberry bush|~": "Farming",
+					"Grow a ~|smoulderberry bush|~": "Farming",
+					"Grow a ~|sourberry bush|~": "Farming",
+					"Grow a ~|gloomberry bush|~": "Farming",
 					"Grow a ~|musaberry bush|~": "Farming"
 				}
 			},
@@ -130318,7 +130415,7 @@
 			"Pet ~|Tefimhet|~": {
 				"Category": ["Menaphos Log"],
 				"Label": "Menaphos Journal",
-				"Chunks": ["Soul Altar"],
+				"Chunks": ["Soul Rune Temple"],
 				"Items": ["Menaphos journal"]
 			},
 			"Pet ~|Nodjmet|~": {
@@ -131617,7 +131714,8 @@
 			"(Kharidian Desert) Obtain a ~|vital spark|~": {
 				"Category": ["Collection Log", "Slayer Collection Log"],
 				"Label": "Slayer Collection Log",
-				"Items": ["Vital spark"]
+				"Items": ["Vital spark"],
+				"Monsters": ["Corrupted devourers[+]"]
 			},
 			"(Kharidian Desert) Obtain a ~|corrupted gem|~": {
 				"Category": ["Collection Log", "Slayer Collection Log"],
@@ -135821,11 +135919,6 @@
 				"Label": "Untracked Skilling Uniques",
 				"Items": ["Dragon mattock"]
 			},
-			"(Big Game Hunter) Obtain ~|compacted hides|~": {
-				"Category": ["Untracked Uniques", "Untracked Uniques Skilling"],
-				"Label": "Untracked Skilling Uniques",
-				"Items": ["Compacted hides"]
-			},
 			"(Big Game Hunter) Obtain a ~|compass arrow|~": {
 				"Category": ["Untracked Uniques", "Untracked Uniques Skilling"],
 				"Label": "Untracked Skilling Uniques",
@@ -135906,31 +135999,6 @@
 				"Label": "Untracked Skilling Uniques",
 				"Items": ["Remototem middle"]
 			},
-			"(Anachronia Skilling) Obtain ~|compacted wood|~": {
-				"Category": ["Untracked Uniques", "Untracked Uniques Skilling"],
-				"Label": "Untracked Skilling Uniques",
-				"Items": ["Compacted wood"]
-			},
-			"(Anachronia Skilling) Obtain ~|compacted leaves|~": {
-				"Category": ["Untracked Uniques", "Untracked Uniques Skilling"],
-				"Label": "Untracked Skilling Uniques",
-				"Items": ["Compacted leaves"]
-			},
-			"(Anachronia Skilling) Obtain ~|compacted vines|~": {
-				"Category": ["Untracked Uniques", "Untracked Uniques Skilling"],
-				"Label": "Untracked Skilling Uniques",
-				"Items": ["Compacted vines"]
-			},
-			"(Anachronia Skilling) Obtain ~|compacted stone|~": {
-				"Category": ["Untracked Uniques", "Untracked Uniques Skilling"],
-				"Label": "Untracked Skilling Uniques",
-				"Items": ["Compacted stone"]
-			},
-			"(Anachronia Skilling) Obtain ~|compacted clay|~": {
-				"Category": ["Untracked Uniques", "Untracked Uniques Skilling"],
-				"Label": "Untracked Skilling Uniques",
-				"Items": ["Compacted clay"]
-			},
 			"(Anachronia Skilling) Obtain a ~|codex page|~": {
 				"Category": ["Untracked Uniques", "Untracked Uniques Skilling"],
 				"Label": "Untracked Skilling Uniques",
@@ -135956,21 +136024,10 @@
 				"Label": "Untracked Skilling Uniques",
 				"Items": ["Skeka's hypnowand focus"]
 			},
-			"(Dream of Iaia) Obtain an ~|Anachronia resource pack|~": {
-				"Category": ["Untracked Uniques", "Untracked Uniques Skilling"],
-				"Label": "Untracked Skilling Uniques",
-				"Items": ["Anachronia resource pack"]
-			},
 			"(Dream of Iaia) Obtain a ~|necklace of Salamancy|~": {
 				"Category": ["Untracked Uniques", "Untracked Uniques Skilling"],
 				"Label": "Untracked Skilling Uniques",
 				"Items": ["Necklace of Salamancy"]
-			},
-			"(Skilling Bosses) Obtain a ~|Elder Trove (Bik, T3)|~": {
-				"Category": ["Untracked Uniques", "Untracked Uniques Skilling"],
-				"Label": "Untracked Skilling Uniques",
-				"Items": ["Elder Trove (Bik, T3)"],
-				"Not F2P": true
 			},
 			"(Skilling Bosses) Obtain a ~|manuscript of Bik|~": {
 				"Category": ["Untracked Uniques", "Untracked Uniques Skilling"],
@@ -136228,31 +136285,6 @@
 				"Label": "Untracked Skilling Uniques",
 				"Items": ["Ourg bones"]
 			},
-			"(Deep Sea Fishing) Obtain a ~|barrel of bait|~": {
-				"Category": ["Untracked Uniques", "Untracked Uniques Skilling"],
-				"Label": "Untracked Skilling Uniques",
-				"Chunks": ["Deep Sea Fishing Hub"]
-			},
-			"(Deep Sea Fishing) Obtain a ~|broken fishing rod|~": {
-				"Category": ["Untracked Uniques", "Untracked Uniques Skilling"],
-				"Label": "Untracked Skilling Uniques",
-				"Chunks": ["Deep Sea Fishing Hub"]
-			},
-			"(Deep Sea Fishing) Obtain a ~|tangled fishbowl|~": {
-				"Category": ["Untracked Uniques", "Untracked Uniques Skilling"],
-				"Label": "Untracked Skilling Uniques",
-				"Chunks": ["Deep Sea Fishing Hub"]
-			},
-			"(Deep Sea Fishing) Obtain a ~|message in a bottle|~": {
-				"Category": ["Untracked Uniques", "Untracked Uniques Skilling"],
-				"Label": "Untracked Skilling Uniques",
-				"Chunks": ["Deep Sea Fishing Hub"]
-			},
-			"(Deep Sea Fishing) Obtain ~|fishing notes|~": {
-				"Category": ["Untracked Uniques", "Untracked Uniques Skilling"],
-				"Label": "Untracked Skilling Uniques",
-				"Chunks": ["Deep Sea Fishing Hub"]
-			},
 			"(Deep Sea Fishing) Obtain ~|Gregg 'groggy' herring's ring|~": {
 				"Category": ["Untracked Uniques", "Untracked Uniques Skilling"],
 				"Label": "Untracked Skilling Uniques",
@@ -136272,7 +136304,7 @@
 				"Category": ["Untracked Uniques", "Untracked Uniques Skilling"],
 				"Label": "Untracked Skilling Uniques",
 				"Tasks": {
-					"~|The Firemaker's Curse|~ Finish the quest": "Quest"
+					"~|The Firemaker's Curse|~ Complete the quest": "Quest"
 				},
 				"Chunks": ["Char's training cave"]
 			},
@@ -136280,7 +136312,7 @@
 				"Category": ["Untracked Uniques", "Untracked Uniques Skilling", "Pets"],
 				"Label": "Untracked Skilling Uniques",
 				"Tasks": {
-					"~|The Firemaker's Curse|~ Finish the quest": "Quest"
+					"~|The Firemaker's Curse|~ Complete the quest": "Quest"
 				},
 				"Chunks": ["Char's training cave"]
 			},
@@ -136288,7 +136320,7 @@
 				"Category": ["Untracked Uniques", "Untracked Uniques Skilling", "Pets"],
 				"Label": "Untracked Skilling Uniques",
 				"Tasks": {
-					"~|The Firemaker's Curse|~ Finish the quest": "Quest"
+					"~|The Firemaker's Curse|~ Complete the quest": "Quest"
 				},
 				"Chunks": ["Char's training cave"]
 			},
@@ -136296,7 +136328,7 @@
 				"Category": ["Untracked Uniques", "Untracked Uniques Skilling", "Pets"],
 				"Label": "Untracked Skilling Uniques",
 				"Tasks": {
-					"~|The Firemaker's Curse|~ Finish the quest": "Quest"
+					"~|The Firemaker's Curse|~ Complete the quest": "Quest"
 				},
 				"Chunks": ["Char's training cave"]
 			},
@@ -136304,7 +136336,7 @@
 				"Category": ["Untracked Uniques", "Untracked Uniques Skilling", "Pets"],
 				"Label": "Untracked Skilling Uniques",
 				"Tasks": {
-					"~|The Firemaker's Curse|~ Finish the quest": "Quest"
+					"~|The Firemaker's Curse|~ Complete the quest": "Quest"
 				},
 				"Chunks": ["Char's training cave"]
 			},
@@ -136357,11 +136389,6 @@
 				"Category": ["Untracked Uniques", "Untracked Uniques Skilling", "Cosmetics"],
 				"Label": "Untracked Skilling Uniques",
 				"Items": ["Crux Eqal hood"]
-			},
-			"(Archaeology) Obtain a ~|complete tome|~": {
-				"Category": ["Untracked Uniques", "Untracked Uniques Skilling"],
-				"Label": "Untracked Skilling Uniques",
-				"Items": ["Complete tome"]
 			},
 			"(Archaeology) Obtain a ~|tetracompas piece (left)|~": {
 				"Category": ["Untracked Uniques", "Untracked Uniques Skilling"],
@@ -136556,20 +136583,10 @@
 				"Label": "Untracked Skilling Uniques",
 				"Items": ["Right banana of knowledge"]
 			},
-			"(Player-Owned Farm) Obtain ~|Trevor|~": {
-				"Category": ["Untracked Uniques", "Untracked Uniques Skilling", "Pets"],
-				"Label": "Untracked Skilling Uniques",
-				"Items": ["Trevor"]
-			},
 			"(Het's Oasis) Obtain a ~|piece of Het|~": {
 				"Category": ["Untracked Uniques", "Untracked Uniques Skilling"],
 				"Label": "Untracked Skilling Uniques",
 				"Items": ["Piece of Het"]
-			},
-			"(Het's Oasis) Obtain ~|Chomper|~": {
-				"Category": ["Untracked Uniques", "Untracked Uniques Skilling", "Pets"],
-				"Label": "Untracked Skilling Uniques",
-				"Items": ["Chomper"]
 			},
 			"(Overgrown Idols) Obtain ~|The End of Gara-Dul|~": {
 				"Category": ["Untracked Uniques", "Untracked Uniques Skilling"],
@@ -136673,36 +136690,6 @@
 				"Label": "Untracked Skilling Uniques",
 				"Items": ["Agile legs"]
 			},
-			"(Special Logs) Obtain a ~|special teak log|~": {
-				"Category": ["Untracked Uniques", "Untracked Uniques Skilling"],
-				"Label": "Untracked Skilling Uniques",
-				"Objects": ["Teak"]
-			},
-			"(Special Logs) Obtain a ~|special mahogany log|~": {
-				"Category": ["Untracked Uniques", "Untracked Uniques Skilling"],
-				"Label": "Untracked Skilling Uniques",
-				"Objects": ["Mahogany"]
-			},
-			"(Dungeoneering) Obtain ~|Sneakerpeeper|~": {
-				"Category": ["Untracked Uniques", "Untracked Uniques Skilling", "Pets"],
-				"Label": "Untracked Skilling Uniques",
-				"Items": ["Sneekerpeeper"]
-			},
-			"(Dungeoneering) Obtain ~|Frosty|~": {
-				"Category": ["Untracked Uniques", "Untracked Uniques Skilling", "Pets"],
-				"Label": "Untracked Skilling Uniques",
-				"Items": ["Frosty"]
-			},
-			"(Dungeoneering) Obtain ~|Mini-Blink|~": {
-				"Category": ["Untracked Uniques", "Untracked Uniques Skilling", "Pets"],
-				"Label": "Untracked Skilling Uniques",
-				"Items": ["Mini-Blink"]
-			},
-			"(Dungeoneering) Obtain ~|Hope Nibbler|~": {
-				"Category": ["Untracked Uniques", "Untracked Uniques Skilling", "Pets"],
-				"Label": "Untracked Skilling Uniques",
-				"Items": ["Hope Nibbler"]
-			},
 			"(Champion Scrolls) Obtain the ~|imp champion's scroll|~": {
 				"Category": ["Untracked Uniques", "Untracked Uniques Combat"],
 				"Label": "Untracked Combat Uniques",
@@ -136788,30 +136775,6 @@
 				"Chunks": ["Champions' Arena"],
 				"Not F2P": true
 			},
-			"(Rare Drop Table) Obtain a ~|shield left half|~": {
-				"Category": ["Untracked Uniques", "Untracked Uniques Combat", "RDT"],
-				"Label": "Untracked Combat Uniques",
-				"Items": ["Shield left half"],
-				"Not F2P": true
-			},
-			"(Rare Drop Table) Obtain a ~|dragon spear|~": {
-				"Category": ["Untracked Uniques", "Untracked Uniques Combat", "RDT"],
-				"Label": "Untracked Combat Uniques",
-				"Items": ["Dragon spear"],
-				"Not F2P": true
-			},
-			"(Rare Drop Table) Obtain a ~|Vecna skull|~": {
-				"Category": ["Untracked Uniques", "Untracked Uniques Combat", "RDT"],
-				"Label": "Untracked Combat Uniques",
-				"Items": ["Vecna skull"],
-				"Not F2P": true
-			},
-			"(Rare Drop Table) Obtain ~|Hazelmere's signet ring|~": {
-				"Category": ["Untracked Uniques", "Untracked Uniques Combat", "Hero Items", "RDT"],
-				"Label": "Untracked Combat Uniques",
-				"Items": ["Hazelmere's signet ring"],
-				"Not F2P": true
-			},
 			"(Abomination) Obtain a ~|dragon javelin|~": {
 				"Category": ["Untracked Uniques", "Untracked Uniques Combat"],
 				"Label": "Untracked Combat Uniques",
@@ -136834,18 +136797,6 @@
 				"Category": ["Untracked Uniques", "Untracked Uniques Combat"],
 				"Label": "Untracked Combat Uniques",
 				"Items": ["Elemental Talisman"],
-				"Not F2P": true
-			},
-			"(Abyss Monsters) Obtain a ~|small pouch|~": {
-				"Category": ["Untracked Uniques", "Untracked Uniques Combat"],
-				"Label": "Untracked Combat Uniques",
-				"Items": ["Small pouch"],
-				"Not F2P": true
-			},
-			"(Abyss Monsters) Obtain an ~|abyssal charm|~": {
-				"Category": ["Untracked Uniques", "Untracked Uniques Combat"],
-				"Label": "Untracked Combat Uniques",
-				"Items": ["Abyssal charm"],
 				"Not F2P": true
 			},
 			"(Senntisten) Obtain a ~|gate key|~": {
@@ -137021,16 +136972,6 @@
 				"Label": "Untracked Combat Uniques",
 				"Items": ["Sakadagami footwraps"]
 			},
-			"(Elite Dungeons) Obtain ~|Micah|~": {
-				"Category": ["Untracked Uniques", "Untracked Uniques Combat", "Pets"],
-				"Label": "Untracked Combat Uniques",
-				"Items": ["Micah"]
-			},
-			"(Elite Dungeons) Obtain ~|Tetch|~": {
-				"Category": ["Untracked Uniques", "Untracked Uniques Combat", "Pets"],
-				"Label": "Untracked Combat Uniques",
-				"Items": ["Tetch"]
-			},
 			"(Ghost Hunter Outfit) Obtain ~|ghost hunter goggles|~": {
 				"Category": ["Untracked Uniques", "Untracked Uniques Combat"],
 				"Label": "Untracked Combat Uniques",
@@ -137137,13 +137078,6 @@
 				"Monsters": ["AnyBoss[+]"],
 				"Not F2P": true
 			},
-			"(Soul Reaper) Obtain ~|Tiny Death|~": {
-				"Category": ["Untracked Uniques", "Untracked Uniques Combat", "Pets", "Timegated"],
-				"Label": "Untracked Combat Uniques",
-				"Chunks": ["Death's Office"],
-				"Monsters": ["AnyBoss[+]"],
-				"Not F2P": true
-			},
 			"(Temple of Aminishi) Obtain a ~|tetsu sword upgrade kit|~": {
 				"Category": ["Untracked Uniques", "Untracked Uniques Combat"],
 				"Label": "Untracked Combat Uniques",
@@ -137153,41 +137087,6 @@
 				"Category": ["Untracked Uniques", "Untracked Uniques Combat"],
 				"Label": "Untracked Combat Uniques",
 				"Items": ["Seasinger weapon upgrade kit"]
-			},
-			"(Temple of Aminishi) Obtain ~|suspicious gunpowder|~": {
-				"Category": ["Untracked Uniques", "Untracked Uniques Combat"],
-				"Label": "Untracked Combat Uniques",
-				"Items": ["Suspicious gunpowder"]
-			},
-			"(Dragonkin Laboratory) Obtain a ~|mysterious egg (item)|~": {
-				"Category": ["Untracked Uniques", "Untracked Uniques Combat", "Pets"],
-				"Label": "Untracked Combat Uniques",
-				"Items": ["Mysterious egg (item)"]
-			},
-			"(Dragonkin Laboratory) Obtain ~|dragonfire ash|~": {
-				"Category": ["Untracked Uniques", "Untracked Uniques Combat"],
-				"Label": "Untracked Combat Uniques",
-				"Items": ["Dragonfire ash"]
-			},
-			"(Dragonkin Laboratory) Obtain a ~|lucky dragonkin coin|~": {
-				"Category": ["Untracked Uniques", "Untracked Uniques Combat", "Pets"],
-				"Label": "Untracked Combat Uniques",
-				"Items": ["Lucky dragonkin coin"]
-			},
-			"(Dragonkin Laboratory) Obtain ~|prefect gemstone scales|~": {
-				"Category": ["Untracked Uniques", "Untracked Uniques Combat"],
-				"Label": "Untracked Combat Uniques",
-				"Items": ["Perfect gemstone scales"]
-			},
-			"(Shadow Reef) Obtain a ~|darting shadow|~": {
-				"Category": ["Untracked Uniques", "Untracked Uniques Combat"],
-				"Label": "Untracked Combat Uniques",
-				"Items": ["Darting shadow"]
-			},
-			"(Shadow Reef) Obtain a ~|shadowy egg|~": {
-				"Category": ["Untracked Uniques", "Untracked Uniques Combat", "Pets"],
-				"Label": "Untracked Combat Uniques",
-				"Items": ["Shadowy egg"]
 			},
 			"(Shadow Reef) Obtain an ~|oak casket|~": {
 				"Category": ["Untracked Uniques", "Untracked Uniques Combat"],
@@ -137208,24 +137107,6 @@
 				"Category": ["Untracked Uniques", "Untracked Uniques Combat"],
 				"Label": "Untracked Combat Uniques",
 				"Items": ["Swordy McSwordFace"]
-			},
-			"(Zamorakian Undercity) Obtain ~|crystal chaos|~": {
-				"Category": ["Untracked Uniques", "Untracked Uniques Combat"],
-				"Label": "Untracked Combat Uniques",
-				"Items": ["Crystal chaos"],
-				"Not F2P": true
-			},
-			"(Zamorakian Undercity) Obtain ~|living remnants|~": {
-				"Category": ["Untracked Uniques", "Untracked Uniques Combat"],
-				"Label": "Untracked Combat Uniques",
-				"Items": ["Living remnants"],
-				"Not F2P": true
-			},
-			"(Zamorakian Undercity) Obtain a ~|zamorakian sigil|~": {
-				"Category": ["Untracked Uniques", "Untracked Uniques Combat"],
-				"Label": "Untracked Combat Uniques",
-				"Items": ["Zamorakian sigil"],
-				"Not F2P": true
 			},
 			"(Zamorakian Undercity) Obtain a ~|silver of pain|~": {
 				"Category": ["Untracked Uniques", "Untracked Uniques Combat"],
@@ -137515,11 +137396,6 @@
 				"Label": "Untracked Skilling Uniques",
 				"Items": ["Skeka's hypnowand projector"]
 			},
-			"(Anachronia Combat) Obtain ~|compacted hides|~": {
-				"Category": ["Untracked Uniques", "Untracked Uniques Combat"],
-				"Label": "Untracked Skilling Uniques",
-				"Items": ["Compacted hides"]
-			},
 			"(Anachronia Combat) Obtain a ~|dinosaur rib bone|~": {
 				"Category": ["Untracked Uniques", "Untracked Uniques Combat"],
 				"Label": "Untracked Skilling Uniques",
@@ -137545,26 +137421,6 @@
 				"Label": "Untracked Skilling Uniques",
 				"Items": ["Totem of Intimidation base"]
 			},
-			"(Vile Blooms) Obtain a ~|devil's snare seed|~": {
-				"Category": ["Untracked Uniques", "Untracked Uniques Combat"],
-				"Label": "Untracked Combat Uniques",
-				"Items": ["Devil's snare seed"]
-			},
-			"(Vile Blooms) Obtain a ~|luminous snaggler seed|~": {
-				"Category": ["Untracked Uniques", "Untracked Uniques Combat"],
-				"Label": "Untracked Combat Uniques",
-				"Items": ["Luminous snaggler seed"]
-			},
-			"(Vile Blooms) Obtain a ~|lampenflora seed|~": {
-				"Category": ["Untracked Uniques", "Untracked Uniques Combat"],
-				"Label": "Untracked Combat Uniques",
-				"Items": ["Lampenflora seed"]
-			},
-			"(Vile Blooms) Obtain a ~|liverwort seed|~": {
-				"Category": ["Untracked Uniques", "Untracked Uniques Combat"],
-				"Label": "Untracked Combat Uniques",
-				"Items": ["Liverwort seed"]
-			},
 			"(Zamorakian Notes) Obtain a ~|bloodstained note|~": {
 				"Category": ["Untracked Uniques", "Untracked Uniques Combat"],
 				"Label": "Untracked Combat Uniques",
@@ -137583,42 +137439,17 @@
 				"Items": ["Burnt note"],
 				"Not F2P": true
 			},
-			"(Zamorakian Notes) Obtain a ~|crumpled note|~": {
+			"(Zamorakian Notes) Obtain a ~|crumpled note (Zamorak's demon invasion)|~": {
 				"Category": ["Untracked Uniques", "Untracked Uniques Combat"],
 				"Label": "Untracked Combat Uniques",
 				"Items": ["Crumpled note (Zamorak's demon invasion)"],
 				"Not F2P": true
 			},
-			"(Zamorakian Notes) Obtain a ~|mysterious note|~": {
+			"(Zamorakian Notes) Obtain a ~|mysterious note (Zamorak's demon invasion)|~": {
 				"Category": ["Untracked Uniques", "Untracked Uniques Combat"],
 				"Label": "Untracked Combat Uniques",
 				"Items": ["Mysterious note (Zamorak's demon invasion)"],
 				"Not F2P": true
-			},
-			"(Freneskae) Obtain a ~|muspah spine|~": {
-				"Category": ["Untracked Uniques", "Untracked Uniques Combat"],
-				"Label": "Untracked Combat Uniques",
-				"Items": ["Muspah spine"]
-			},
-			"(Freneskae) Obtain an ~|elder charm|~": {
-				"Category": ["Untracked Uniques", "Untracked Uniques Combat"],
-				"Label": "Untracked Combat Uniques",
-				"Items": ["Elder charm"]
-			},
-			"(Priffdinas) Obtain a ~|blissful shadow core|~": {
-				"Category": ["Untracked Uniques", "Untracked Uniques Combat"],
-				"Label": "Untracked Combat Uniques",
-				"Items": ["Blissful shadow core"]
-			},
-			"(Priffdinas) Obtain a ~|manifest shadow core|~": {
-				"Category": ["Untracked Uniques", "Untracked Uniques Combat"],
-				"Label": "Untracked Combat Uniques",
-				"Items": ["Manifest shadow core"]
-			},
-			"(Priffdinas) Obtain a ~|truthful shadow core|~": {
-				"Category": ["Untracked Uniques", "Untracked Uniques Combat"],
-				"Label": "Untracked Combat Uniques",
-				"Items": ["Truthful shadow core"]
 			},
 			"(Priffdinas Combat) Obtain a ~|crystal weapon seed|~": {
 				"Category": ["Untracked Uniques", "Untracked Uniques Combat"],
@@ -137644,24 +137475,6 @@
 				"Category": ["Untracked Uniques", "Untracked Uniques Combat"],
 				"Label": "Untracked Combat Uniques",
 				"Items": ["Elder seed"]
-			},
-			"(Senntisten) Obtain a ~|Elder Trove (Wen, T3)|~": {
-				"Category": ["Untracked Uniques", "Untracked Uniques Combat"],
-				"Label": "Untracked Combat Uniques",
-				"Items": ["Elder Trove (Wen, T3)"],
-				"Not F2P": true
-			},
-			"(Senntisten) Obtain a ~|Elder Trove (Jas, T3)|~": {
-				"Category": ["Untracked Uniques", "Untracked Uniques Combat"],
-				"Label": "Untracked Combat Uniques",
-				"Items": ["Elder Trove (Jas, T3)"],
-				"Not F2P": true
-			},
-			"(Senntisten) Obtain a ~|Elder Trove (Ful, T3)|~": {
-				"Category": ["Untracked Uniques", "Untracked Uniques Combat"],
-				"Label": "Untracked Combat Uniques",
-				"Items": ["Elder Trove (Ful, T3)"],
-				"Not F2P": true
 			},
 			"(Bandos's Throne Room) Obtain a ~|granite mace|~": {
 				"Category": ["Untracked Uniques", "Untracked Uniques Combat"],
@@ -137787,106 +137600,16 @@
 				"Items": ["Ancient satuette"],
 				"Not F2P": true
 			},
-			"(Untracked Slayer) Obtain a ~|cockatrice egg|~": {
-				"Category": ["Untracked Uniques", "Untracked Uniques Combat"],
-				"Label": "Untracked Combat Uniques",
-				"Items": ["Cockatrice egg"],
-				"Not F2P": true
-			},
-			"(Untracked Slayer) Obtain a ~|summoning focus|~": {
-				"Category": ["Untracked Uniques", "Untracked Uniques Combat"],
-				"Label": "Untracked Combat Uniques",
-				"Items": ["Summoning focus"],
-				"Not F2P": true
-			},
-			"(Untracked Slayer) Obtain ~|corrupted magic logs|~": {
-				"Category": ["Untracked Uniques", "Untracked Uniques Combat"],
-				"Label": "Untracked Combat Uniques",
-				"Items": ["Corrupted magic logs"],
-				"Not F2P": true
-			},
 			"(Untracked Slayer) Obtain a ~|soul talisman|~": {
 				"Category": ["Untracked Uniques", "Untracked Uniques Combat"],
 				"Label": "Untracked Combat Uniques",
 				"Items": ["Soul talisman"],
 				"Not F2P": true
 			},
-			"(Untracked Slayer) Obtain an ~|inert adrenaline crystal|~": {
-				"Category": ["Untracked Uniques", "Untracked Uniques Combat"],
-				"Label": "Untracked Combat Uniques",
-				"Items": ["Inert adrenaline crystal"],
-				"Not F2P": true
-			},
-			"(Untracked Slayer) Obtain an ~|obsidian charm|~": {
-				"Category": ["Untracked Uniques", "Untracked Uniques Combat"],
-				"Label": "Untracked Combat Uniques",
-				"Items": ["Obsidian charm"],
-				"Not F2P": true
-			},
-			"(Untracked Slayer) Obtain a ~|fury shark|~": {
-				"Category": ["Untracked Uniques", "Untracked Uniques Combat"],
-				"Label": "Untracked Combat Uniques",
-				"Items": ["Fury shark"],
-				"Not F2P": true
-			},
 			"(Untracked Slayer) Obtain an ~|ogre club|~": {
 				"Category": ["Untracked Uniques", "Untracked Uniques Combat"],
 				"Label": "Untracked Combat Uniques",
 				"Items": ["Ogre club"],
-				"Not F2P": true
-			},
-			"(Untracked Slayer) Obtain ~|stalker essence|~": {
-				"Category": ["Untracked Uniques", "Untracked Uniques Combat"],
-				"Label": "Untracked Combat Uniques",
-				"Items": ["Stalker essence"],
-				"Not F2P": true
-			},
-			"(Polypore) Obtain a ~|Gorajian mushroom|~": {
-				"Category": ["Untracked Uniques", "Untracked Uniques Combat"],
-				"Label": "Untracked Combat Uniques",
-				"Items": ["Gorajian mushroom"],
-				"Not F2P": true
-			},
-			"(Polypore) Obtain a ~|fungal flake|~": {
-				"Category": ["Untracked Uniques", "Untracked Uniques Combat"],
-				"Label": "Untracked Combat Uniques",
-				"Items": ["Fungal flake"],
-				"Not F2P": true
-			},
-			"(Polypore) Obtain a ~|grifolic flake|~": {
-				"Category": ["Untracked Uniques", "Untracked Uniques Combat"],
-				"Label": "Untracked Combat Uniques",
-				"Items": ["Grifolic flake"],
-				"Not F2P": true
-			},
-			"(Polypore) Obtain a ~|polypore spore|~": {
-				"Category": ["Untracked Uniques", "Untracked Uniques Combat"],
-				"Label": "Untracked Combat Uniques",
-				"Items": ["Polypore spore"],
-				"Not F2P": true
-			},
-			"(Troll Capes) Obtain a ~|deathstorm drape|~": {
-				"Category": ["Untracked Uniques", "Untracked Uniques Combat"],
-				"Label": "Untracked Combat Uniques",
-				"Items": ["Deathstorm drape"],
-				"Not F2P": true
-			},
-			"(Troll Capes) Obtain a ~|spellstorm drape|~": {
-				"Category": ["Untracked Uniques", "Untracked Uniques Combat"],
-				"Label": "Untracked Combat Uniques",
-				"Items": ["Spellstorm drape"],
-				"Not F2P": true
-			},
-			"(Troll Capes) Obtain a ~|bladestorm drape|~": {
-				"Category": ["Untracked Uniques", "Untracked Uniques Combat"],
-				"Label": "Untracked Combat Uniques",
-				"Items": ["Bladestorm drape"],
-				"Not F2P": true
-			},
-			"(Troll Capes) Obtain a ~|arrowstorm drape|~": {
-				"Category": ["Untracked Uniques", "Untracked Uniques Combat"],
-				"Label": "Untracked Combat Uniques",
-				"Items": ["Arrowstorm drape"],
 				"Not F2P": true
 			},
 			"(Untracked Boss) Obtain a ~|mole claw|~": {
@@ -138044,56 +137767,6 @@
 				"Items": ["Mask part 5"],
 				"Not F2P": true
 			},
-			"(Fremennik) Obtain ~|rock-shell gloves|~": {
-				"Category": ["Untracked Uniques", "Untracked Uniques Combat"],
-				"Label": "Untracked Combat Uniques",
-				"Items": ["Rock-shell gloves"]
-			},
-			"(Fremennik) Obtain ~|rock-shell boots|~": {
-				"Category": ["Untracked Uniques", "Untracked Uniques Combat"],
-				"Label": "Untracked Combat Uniques",
-				"Items": ["Rock-shell boots"]
-			},
-			"(Fremennik) Obtain a ~|rock-shell splinter|~": {
-				"Category": ["Untracked Uniques", "Untracked Uniques Combat"],
-				"Label": "Untracked Combat Uniques",
-				"Items": ["Rock-shell splinter"]
-			},
-			"(Fremennik) Obtain a ~|rock-shell chunk|~": {
-				"Category": ["Untracked Uniques", "Untracked Uniques Combat"],
-				"Label": "Untracked Combat Uniques",
-				"Items": ["Rock-shell chunk"]
-			},
-			"(Fremennik) Obtain a ~|rock-shell shard|~": {
-				"Category": ["Untracked Uniques", "Untracked Uniques Combat"],
-				"Label": "Untracked Combat Uniques",
-				"Items": ["Rock-shell shard"]
-			},
-			"(Fremennik) Obtain ~|skeletal gloves|~": {
-				"Category": ["Untracked Uniques", "Untracked Uniques Combat"],
-				"Label": "Untracked Combat Uniques",
-				"Items": ["Skeletal gloves"]
-			},
-			"(Fremennik) Obtain ~|skeletal boots|~": {
-				"Category": ["Untracked Uniques", "Untracked Uniques Combat"],
-				"Label": "Untracked Combat Uniques",
-				"Items": ["Skeletal boots"]
-			},
-			"(Fremennik) Obtain a ~|fibula piece|~": {
-				"Category": ["Untracked Uniques", "Untracked Uniques Combat"],
-				"Label": "Untracked Combat Uniques",
-				"Items": ["Fibula piece"]
-			},
-			"(Fremennik) Obtain a ~|ribcage piece|~": {
-				"Category": ["Untracked Uniques", "Untracked Uniques Combat"],
-				"Label": "Untracked Combat Uniques",
-				"Items": ["Ribcage piece"]
-			},
-			"(Fremennik) Obtain a ~|skull piece|~": {
-				"Category": ["Untracked Uniques", "Untracked Uniques Combat"],
-				"Label": "Untracked Combat Uniques",
-				"Items": ["Skull piece"]
-			},
 			"(Pigs) Obtain a ~|pack pig tooth|~": {
 				"Category": ["Untracked Uniques", "Untracked Uniques Combat"],
 				"Label": "Untracked Combat Uniques",
@@ -138110,84 +137783,6 @@
 				"Category": ["Untracked Uniques", "Untracked Uniques Combat"],
 				"Label": "Untracked Combat Uniques",
 				"Items": ["Prayer pig tooth"],
-				"Not F2P": true
-			},
-			"(Jadinko Fruits) Obtain a ~|common fruit|~": {
-				"Category": ["Untracked Uniques", "Untracked Uniques Combat"],
-				"Label": "Untracked Combat Uniques",
-				"Items": ["Common fruit"],
-				"Not F2P": true
-			},
-			"(Jadinko Fruits) Obtain a ~|diseased fruit|~": {
-				"Category": ["Untracked Uniques", "Untracked Uniques Combat"],
-				"Label": "Untracked Combat Uniques",
-				"Items": ["Diseased fruit"],
-				"Not F2P": true
-			},
-			"(Jadinko Fruits) Obtain a ~|camouflaged fruit|~": {
-				"Category": ["Untracked Uniques", "Untracked Uniques Combat"],
-				"Label": "Untracked Combat Uniques",
-				"Items": ["Camouflaged fruit"],
-				"Not F2P": true
-			},
-			"(Jadinko Fruits) Obtain a ~|cannibal fruit|~": {
-				"Category": ["Untracked Uniques", "Untracked Uniques Combat"],
-				"Label": "Untracked Combat Uniques",
-				"Items": ["Cannibal fruit"],
-				"Not F2P": true
-			},
-			"(Jadinko Fruits) Obtain a ~|Guthix fruit|~": {
-				"Category": ["Untracked Uniques", "Untracked Uniques Combat"],
-				"Label": "Untracked Combat Uniques",
-				"Items": ["Guthix fruit"],
-				"Not F2P": true
-			},
-			"(Jadinko Fruits) Obtain a ~|Saradomin fruit|~": {
-				"Category": ["Untracked Uniques", "Untracked Uniques Combat"],
-				"Label": "Untracked Combat Uniques",
-				"Items": ["Saradomin fruit"],
-				"Not F2P": true
-			},
-			"(Jadinko Fruits) Obtain a ~|Zamorak fruit|~": {
-				"Category": ["Untracked Uniques", "Untracked Uniques Combat"],
-				"Label": "Untracked Combat Uniques",
-				"Items": ["Zamorak fruit"],
-				"Not F2P": true
-			},
-			"(Jadinko Fruits) Obtain a ~|shadow fruit|~": {
-				"Category": ["Untracked Uniques", "Untracked Uniques Combat"],
-				"Label": "Untracked Combat Uniques",
-				"Items": ["Shadow fruit"],
-				"Not F2P": true
-			},
-			"(Jadinko Fruits) Obtain a ~|draconic fruit|~": {
-				"Category": ["Untracked Uniques", "Untracked Uniques Combat"],
-				"Label": "Untracked Combat Uniques",
-				"Items": ["Draconic fruit"],
-				"Not F2P": true
-			},
-			"(Jadinko Fruits) Obtain a ~|amphibious fruit|~": {
-				"Category": ["Untracked Uniques", "Untracked Uniques Combat"],
-				"Label": "Untracked Combat Uniques",
-				"Items": ["Amphibious fruit"],
-				"Not F2P": true
-			},
-			"(Jadinko Fruits) Obtain a ~|igneous fruit|~": {
-				"Category": ["Untracked Uniques", "Untracked Uniques Combat"],
-				"Label": "Untracked Combat Uniques",
-				"Items": ["Igneous fruit"],
-				"Not F2P": true
-			},
-			"(Jadinko Fruits) Obtain a ~|aquatic fruit|~": {
-				"Category": ["Untracked Uniques", "Untracked Uniques Combat"],
-				"Label": "Untracked Combat Uniques",
-				"Items": ["Aquatic fruit"],
-				"Not F2P": true
-			},
-			"(Jadinko Fruits) Obtain a ~|carrion fruit|~": {
-				"Category": ["Untracked Uniques", "Untracked Uniques Combat"],
-				"Label": "Untracked Combat Uniques",
-				"Items": ["Carrion fruit"],
 				"Not F2P": true
 			},
 			"(Misc Drops) Obtain a ~|court summons|~": {
@@ -138263,8 +137858,8 @@
 					"~|Combat Mastery achievements#Easy|~ Dagannoth for Everyone III": "Diary",
 					"~|Combat Mastery achievements#Easy|~ eLeMeNtAl kIlL cHaOs III": "Diary",
 					"~|Combat Mastery achievements#Easy|~ Feeling Flameproof": "Diary",
-					"~|Combat Mastery achievements#Easy|~ Giant mole Novice Speed Killer": "Diary",
-					"~|Combat Mastery achievements#Easy|~ Giant mole (HM) Novice Speed Killer": "Diary",
+					"~|Combat Mastery achievements#Easy|~ Giant Mole Novice Speed Killer": "Diary",
+					"~|Combat Mastery achievements#Easy|~ Giant Mole (HM) Novice Speed Killer": "Diary",
 					"~|Combat Mastery achievements#Easy|~ Hail to the Queen": "Diary",
 					"~|Combat Mastery achievements#Easy|~ Kalphite Queen Novice Speed Killer": "Diary",
 					"~|Combat Mastery achievements#Easy|~ King Black Dragon Novice Speed Killer": "Diary",
@@ -138780,7 +138375,7 @@
 					"~|Combat Mastery achievements#Master|~ Pruning the Timeline": "Diary",
 					"~|Combat Mastery achievements#Master|~ Raksha Master Speed Killer": "Diary",
 					"~|Combat Mastery achievements#Master|~ Rasial Master Speed Killer": "Diary",
-					"~|Combat Mastery achievements#Master|~ Rasial, the First Necroamncer (perfect)": "Diary",
+					"~|Combat Mastery achievements#Master|~ Rasial, the First Necromancer (perfect)": "Diary",
 					"~|Combat Mastery achievements#Master|~ Rocks Keep Falling On My Head": "Diary",
 					"~|Combat Mastery achievements#Master|~ I said E, not E!": "Diary",
 					"~|Combat Mastery achievements#Master|~ Scenario 7": "Diary",
@@ -139711,11 +139306,6 @@
 				"Label": "Untracked Minigame Uniques",
 				"Items": ["Swift gloves"]
 			},
-			"(Soul Wars) Obtain a ~|TzRek-Jad|~": {
-				"Category": ["Untracked Uniques", "Untracked Uniques Minigames"],
-				"Label": "Untracked Minigame Uniques",
-				"Items": ["TzRek-Jad"]
-			},
 			"(Soul Wars) Obtain ~|trickster robe legs|~": {
 				"Category": ["Untracked Uniques", "Untracked Uniques Minigames"],
 				"Label": "Untracked Minigame Uniques",
@@ -139730,61 +139320,6 @@
 				"Category": ["Untracked Uniques", "Untracked Uniques Minigames"],
 				"Label": "Untracked Minigame Uniques",
 				"Items": ["Vanguard legs"]
-			},
-			"(Shattered Worlds) Obtain the ~|Abyssal Knight (override)|~": {
-				"Category": ["Untracked Uniques", "Untracked Uniques Minigames"],
-				"Label": "Untracked Minigame Uniques",
-				"Items": ["Abyssal Knights' armour override"]
-			},
-			"(Shattered Worlds) Obtain the ~|aniwisp|~": {
-				"Category": ["Untracked Uniques", "Untracked Uniques Minigames", "Pets"],
-				"Label": "Untracked Minigame Uniques",
-				"Items": ["Anima Pet - Tier 1"]
-			},
-			"(Shattered Worlds) Obtain the ~|animist|~": {
-				"Category": ["Untracked Uniques", "Untracked Uniques Minigames", "Pets"],
-				"Label": "Untracked Minigame Uniques",
-				"Items": ["Anima Pet - Tier 2"]
-			},
-			"(Shattered Worlds) Obtain the ~|animagu|~": {
-				"Category": ["Untracked Uniques", "Untracked Uniques Minigames", "Pets"],
-				"Label": "Untracked Minigame Uniques",
-				"Items": ["Anima Pet - Tier 3"]
-			},
-			"(Shattered Worlds) Obtain the ~|animawhal|~": {
-				"Category": ["Untracked Uniques", "Untracked Uniques Minigames", "Pets"],
-				"Label": "Untracked Minigame Uniques",
-				"Items": ["Anima Pet - Tier 4"]
-			},
-			"(Shattered Worlds) Obtain the ~|animaroo|~": {
-				"Category": ["Untracked Uniques", "Untracked Uniques Minigames", "Pets"],
-				"Label": "Untracked Minigame Uniques",
-				"Items": ["Anima Pet - Tier 5"]
-			},
-			"(Shattered Worlds) Obtain the ~|animaraptor|~": {
-				"Category": ["Untracked Uniques", "Untracked Uniques Minigames", "Pets"],
-				"Label": "Untracked Minigame Uniques",
-				"Items": ["Anima Pet - Tier 6"]
-			},
-			"(Shattered Worlds) Obtain the ~|animasaur|~": {
-				"Category": ["Untracked Uniques", "Untracked Uniques Minigames", "Pets"],
-				"Label": "Untracked Minigame Uniques",
-				"Items": ["Anima Pet - Tier 7"]
-			},
-			"(Shattered Worlds) Obtain the ~|animasaurus|~": {
-				"Category": ["Untracked Uniques", "Untracked Uniques Minigames", "Pets"],
-				"Label": "Untracked Minigame Uniques",
-				"Items": ["Anima Pet - Tier 8"]
-			},
-			"(Shattered Worlds) Obtain the ~|animasaurus rex|~": {
-				"Category": ["Untracked Uniques", "Untracked Uniques Minigames", "Pets"],
-				"Label": "Untracked Minigame Uniques",
-				"Items": ["Anima Pet - Tier 9"]
-			},
-			"(Shattered Worlds) Obtain the ~|abyssal hound|~": {
-				"Category": ["Untracked Uniques", "Untracked Uniques Minigames", "Pets"],
-				"Label": "Untracked Minigame Uniques",
-				"Items": ["Abyssal hound"]
 			},
 			"(Shattered Worlds) Obtain the ~|Spirit of Battle|~": {
 				"Category": ["Untracked Uniques", "Untracked Uniques Minigames"],
@@ -140551,11 +140086,6 @@
 				"Label": "Untracked Minigame Uniques",
 				"Items": ["Diviner's footwear"]
 			},
-			"(Phoenix Lair) Obtain a ~|phoenix eggling|~": {
-				"Category": ["Untracked Uniques", "Untracked Uniques Minigames", "Pets"],
-				"Label": "Untracked Minigame Uniques",
-				"Items": ["Phoenix eggling"]
-			},
 			"(Phoenix Lair) Obtain a ~|phoenix quill|~": {
 				"Category": ["Untracked Uniques", "Untracked Uniques Minigames"],
 				"Label": "Untracked Minigame Uniques",
@@ -140871,11 +140401,6 @@
 				"Label": "Untracked Minigame Uniques",
 				"Items": ["Herb bag"]
 			},
-			"(Herby Werby) Obtain ~|Sasha|~": {
-				"Category": ["Untracked Uniques", "Untracked Uniques Minigames", "Pets"],
-				"Label": "Untracked Minigame Uniques",
-				"Items": ["Sasha"]
-			},
 			"(Herby Werby) Obtain a ~|Totem of Crystal base|~": {
 				"Category": ["Untracked Uniques", "Untracked Uniques Minigames"],
 				"Label": "Untracked Minigame Uniques",
@@ -140940,26 +140465,6 @@
 				"Category": ["Untracked Uniques", "Untracked Uniques Minigames", "Cosmetics"],
 				"Label": "Untracked Minigame Uniques",
 				"Items": ["Soul cape (golden)"]
-			},
-			"(Effigy Incubtor) Obtain ~|Jeffy|~": {
-				"Category": ["Untracked Uniques", "Untracked Uniques Minigames", "Pets"],
-				"Label": "Untracked Minigame Uniques",
-				"Items": ["Jeffy"]
-			},
-			"(Effigy Incubtor) Obtain ~|Geffy|~": {
-				"Category": ["Untracked Uniques", "Untracked Uniques Minigames", "Pets"],
-				"Label": "Untracked Minigame Uniques",
-				"Items": ["Geffy"]
-			},
-			"(Effigy Incubtor) Obtain ~|Leffy|~": {
-				"Category": ["Untracked Uniques", "Untracked Uniques Minigames", "Pets"],
-				"Label": "Untracked Minigame Uniques",
-				"Items": ["Leffy"]
-			},
-			"(Effigy Incubtor) Obtain ~|Seffy|~": {
-				"Category": ["Untracked Uniques", "Untracked Uniques Minigames", "Pets"],
-				"Label": "Untracked Minigame Uniques",
-				"Items": ["Seffy"]
 			},
 			"(Court Cases) Obtain a ~|barrister wig|~": {
 				"Category": ["Untracked Uniques", "Untracked Uniques Minigames", "Cosmetics"],
@@ -141137,11 +140642,6 @@
 				"Label": "Untracked Minigame Uniques",
 				"Items": ["Vanguard robe"]
 			},
-			"(Wisps of the Lost Grove) Obtain ~|Vinny|~": {
-				"Category": ["Untracked Uniques", "Untracked Uniques Minigames", "Pets"],
-				"Label": "Untracked Minigame Uniques",
-				"Items": ["Vinny"]
-			},
 			"(Wilderness Flash Events) Obtain an ~|obelisk shard|~": {
 				"Category": ["Untracked Uniques", "Untracked Uniques Minigames"],
 				"Label": "Untracked Minigame Uniques",
@@ -141171,11 +140671,6 @@
 				"Category": ["Untracked Uniques", "Untracked Uniques Minigames", "Cosmetics"],
 				"Label": "Untracked Minigame Uniques",
 				"Items": ["Briefcase of disguises"]
-			},
-			"(Penguin Hide & Seek) Obtain ~|Sheldon the Penguin|~": {
-				"Category": ["Untracked Uniques", "Untracked Uniques Minigames", "Pets"],
-				"Label": "Untracked Minigame Uniques",
-				"Items": ["Sheldon the Penguin"]
 			},
 			"(Misc.) Obtain ~|fancy boots|~": {
 				"Category": ["Untracked Uniques", "Untracked Uniques Misc"],
@@ -141258,7 +140753,7 @@
 				"Items": ["Plain satchel"]
 			},
 			"(Giant Mimic) Obtain a ~|mimic plushie|~": {
-				"Category": ["Untracked Uniques", "Untracked Uniques Misc", "Pets"],
+				"Category": ["Untracked Uniques", "Untracked Uniques Misc"],
 				"Label": "Untracked Misc Uniques",
 				"Items": ["Mimic plushie"]
 			},
@@ -144050,21 +143545,21 @@
 				"Output": "Ushabti (beastmaster's hound)",
 				"Not F2P": true
 			},
-			"Obtain ~|Remy|~": {
-				"Category": ["Pets"],
-				"Label": "Pets",
+			"Unlock ~|Remy|~": {
+				"Category": ["Permanent Unlockables", "Pets"],
+				"Label": "Follower Pets",
 				"Chunks": ["City of Um"],
 				"Items": ["GhostlySole[+]"],
 				"NPCs": ["Ghost cat"]
 			},
-			"Obtain ~|Richie|~ and his partyhat": {
-				"Category": ["Money Unlockables", "Pets"],
-				"Label": "Pets",
+			"Unlock ~|Richie|~ and his partyhat": {
+				"Category": ["Permanent Unlockables", "Pets"],
+				"Label": "Follower Pets",
 				"Chunks": ["12598"]
 			},
 			"Unlock the ~|Revenant Pet#Dragon|~": {
 				"Category": ["Permanent Unlockables", "Pets"],
-				"Label": "Permanent Unlockables",
+				"Label": "Follower Pets",
 				"Items": ["Revenant Spirit#Dragon"],
 				"Priority": 1,
 				"Set": "Revenant Pet",
@@ -144072,7 +143567,7 @@
 			},
 			"Unlock the ~|Revenant Pet#Knight|~": {
 				"Category": ["Permanent Unlockables", "Pets"],
-				"Label": "Permanent Unlockables",
+				"Label": "Follower Pets",
 				"Items": ["Revenant Spirit#Knight"],
 				"Priority": 2,
 				"Set": "Revenant Pet",
@@ -144080,7 +143575,7 @@
 			},
 			"Unlock the ~|Revenant Pet#Dark beast|~": {
 				"Category": ["Permanent Unlockables", "Pets"],
-				"Label": "Permanent Unlockables",
+				"Label": "Follower Pets",
 				"Items": ["Revenant Spirit#Dark beast"],
 				"Priority": 3,
 				"Set": "Revenant Pet",
@@ -144088,7 +143583,7 @@
 			},
 			"Unlock the ~|Revenant Pet#Ork|~": {
 				"Category": ["Permanent Unlockables", "Pets"],
-				"Label": "Permanent Unlockables",
+				"Label": "Follower Pets",
 				"Items": ["Revenant Spirit#Ork"],
 				"Priority": 4,
 				"Set": "Revenant Pet",
@@ -144096,7 +143591,7 @@
 			},
 			"Unlock the ~|Revenant Pet#Demon|~": {
 				"Category": ["Permanent Unlockables", "Pets"],
-				"Label": "Permanent Unlockables",
+				"Label": "Follower Pets",
 				"Items": ["Revenant Spirit#Demon"],
 				"Priority": 5,
 				"Set": "Revenant Pet",
@@ -144104,7 +143599,7 @@
 			},
 			"Unlock the ~|Revenant Pet#Hellhound|~": {
 				"Category": ["Permanent Unlockables", "Pets"],
-				"Label": "Permanent Unlockables",
+				"Label": "Follower Pets",
 				"Items": ["Revenant Spirit#Hellhound"],
 				"Priority": 6,
 				"Set": "Revenant Pet",
@@ -144112,7 +143607,7 @@
 			},
 			"Unlock the ~|Revenant Pet#Cyclops|~": {
 				"Category": ["Permanent Unlockables", "Pets"],
-				"Label": "Permanent Unlockables",
+				"Label": "Follower Pets",
 				"Items": ["Revenant Spirit#Cyclops"],
 				"Priority": 7,
 				"Set": "Revenant Pet",
@@ -144120,7 +143615,7 @@
 			},
 			"Unlock the ~|Revenant Pet#Werewolf|~": {
 				"Category": ["Permanent Unlockables", "Pets"],
-				"Label": "Permanent Unlockables",
+				"Label": "Follower Pets",
 				"Items": ["Revenant Spirit#Werewolf"],
 				"Priority": 8,
 				"Set": "Revenant Pet",
@@ -144128,7 +143623,7 @@
 			},
 			"Unlock the ~|Revenant Pet#Vampyre|~": {
 				"Category": ["Permanent Unlockables", "Pets"],
-				"Label": "Permanent Unlockables",
+				"Label": "Follower Pets",
 				"Items": ["Revenant Spirit#Vampyre"],
 				"Priority": 9,
 				"Set": "Revenant Pet",
@@ -144136,7 +143631,7 @@
 			},
 			"Unlock the ~|Revenant Pet#Hobgoblin|~": {
 				"Category": ["Permanent Unlockables", "Pets"],
-				"Label": "Permanent Unlockables",
+				"Label": "Follower Pets",
 				"Items": ["Revenant Spirit#Hobgoblin"],
 				"Priority": 10,
 				"Set": "Revenant Pet",
@@ -144144,7 +143639,7 @@
 			},
 			"Unlock the ~|Revenant Pet#Pyrefiend|~": {
 				"Category": ["Permanent Unlockables", "Pets"],
-				"Label": "Permanent Unlockables",
+				"Label": "Follower Pets",
 				"Items": ["Revenant Spirit#Pyrefiend"],
 				"Priority": 11,
 				"Set": "Revenant Pet",
@@ -144152,7 +143647,7 @@
 			},
 			"Unlock the ~|Revenant Pet#Icefiend|~": {
 				"Category": ["Permanent Unlockables", "Pets"],
-				"Label": "Permanent Unlockables",
+				"Label": "Follower Pets",
 				"Items": ["Revenant Spirit#Icefiend"],
 				"Priority": 12,
 				"Set": "Revenant Pet",
@@ -144160,7 +143655,7 @@
 			},
 			"Unlock the ~|Revenant Pet#Goblin|~": {
 				"Category": ["Permanent Unlockables", "Pets"],
-				"Label": "Permanent Unlockables",
+				"Label": "Follower Pets",
 				"Items": ["Revenant Spirit#Goblin"],
 				"Priority": 13,
 				"Set": "Revenant Pet",
@@ -144168,11 +143663,197 @@
 			},
 			"Unlock the ~|Revenant Pet#Imp|~": {
 				"Category": ["Permanent Unlockables", "Pets"],
-				"Label": "Permanent Unlockables",
+				"Label": "Follower Pets",
 				"Items": ["Revenant Spirit"],
 				"Priority": 14,
 				"Set": "Revenant Pet",
 				"Not F2P": true
+			},
+			"Unlock ~|Sheldon the Penguin|~": {
+				"Category": ["Permanent Unlockables", "Pets"],
+				"Label": "Follower Pets",
+				"Items": ["Sheldon the Penguin"]
+			},
+			"Unlock ~|Vinny|~": {
+				"Category": ["Permanent Unlockables", "Pets"],
+				"Label": "Follower Pets",
+				"Items": ["Vinny"]
+			},
+			"Unlock ~|Sasha|~": {
+				"Category": ["Permanent Unlockables", "Pets"],
+				"Label": "Follower Pets",
+				"Items": ["Sasha"]
+			},
+			"Unlock both ~|phoenix egglings|~": {
+				"Category": ["Permanent Unlockables", "Pets"],
+				"Label": "Follower Pets",
+				"Items": ["Phoenix eggling"]
+			},
+			"Unlock the ~|TzRek-Jad|~": {
+				"Category": ["Permanent Unlockables", "Pets"],
+				"Label": "Follower Pets",
+				"Items": ["TzRek-Jad"]
+			},
+			"Unlock the ~|Sneakerpeeper|~": {
+				"Category": ["Permanent Unlockables", "Pets"],
+				"Label": "Follower Pets",
+				"Items": ["Sneakerpeeper"]
+			},
+			"Unlock ~|Frosty|~": {
+				"Category": ["Permanent Unlockables", "Pets"],
+				"Label": "Follower Pets",
+				"Skills": {
+					"Summoning": 99
+				},
+				"Items": ["Frosty"]
+			},
+			"Unlock ~|Mini-Blink|~": {
+				"Category": ["Permanent Unlockables", "Pets"],
+				"Label": "Follower Pets",
+				"Items": ["Mini-Blink"]
+			},
+			"Unlock the ~|Hope Nibbler|~": {
+				"Category": ["Permanent Unlockables", "Pets"],
+				"Label": "Follower Pets",
+				"Items": ["Hope Nibbler"]
+			},
+			"Unlock ~|Micah|~": {
+				"Category": ["Permanent Unlockables", "Pets"],
+				"Label": "Follower Pets",
+				"Items": ["Micah"]
+			},
+			"Unlock ~|Tetch|~": {
+				"Category": ["Permanent Unlockables", "Pets"],
+				"Label": "Follower Pets",
+				"Items": ["Tetch"]
+			},
+			"Unlock ~|Tiny Death|~": {
+				"Category": ["Permanent Unlockables", "Pets"],
+				"Label": "Follower Pets",
+				"Chunks": ["Death's Office"],
+				"Monsters": ["AnyBoss[+]"],
+				"Not F2P": true
+			},
+			"Unlock the ~|Mysterious Chicken|~": {
+				"Category": ["Permanent Unlockables", "Pets"],
+				"Label": "Follower Pets",
+				"Items": ["Mysterious egg (item)"]
+			},
+			"Unlock ~|Diddykin|~": {
+				"Category": ["Permanent Unlockables", "Pets"],
+				"Label": "Follower Pets",
+				"Skills": {
+					"Summoning": 99
+				},
+				"Items": ["Lucky dragonkin coin"]
+			},
+			"Unlock ~|Squoggoth|~": {
+				"Category": ["Permanent Unlockables", "Pets"],
+				"Label": "Follower Pets",
+				"Items": ["Shadowy egg"]
+			},
+			"Unlock the ~|aniwisp|~": {
+				"Category": ["Permanent Unlockables", "Pets"],
+				"Label": "Follower Pets",
+				"Priority": 9,
+				"Set": "Anima Creature",
+				"Items": ["Anima Pet - Tier 1"]
+			},
+			"Unlock the ~|animist|~": {
+				"Category": ["Permanent Unlockables", "Pets"],
+				"Label": "Follower Pets",
+				"Priority": 8,
+				"Set": "Anima Creature",
+				"Items": ["Anima Pet - Tier 2"]
+			},
+			"Unlock the ~|animagu|~": {
+				"Category": ["Permanent Unlockables", "Pets"],
+				"Label": "Follower Pets",
+				"Priority": 7,
+				"Set": "Anima Creature",
+				"Items": ["Anima Pet - Tier 3"]
+			},
+			"Unlock the ~|animawhal|~": {
+				"Category": ["Permanent Unlockables", "Pets"],
+				"Label": "Follower Pets",
+				"Priority": 6,
+				"Set": "Anima Creature",
+				"Items": ["Anima Pet - Tier 4"]
+			},
+			"Unlock the ~|animaroo|~": {
+				"Category": ["Permanent Unlockables", "Pets"],
+				"Label": "Follower Pets",
+				"Priority": 5,
+				"Set": "Anima Creature",
+				"Items": ["Anima Pet - Tier 5"]
+			},
+			"Unlock the ~|animaraptor|~": {
+				"Category": ["Permanent Unlockables", "Pets"],
+				"Label": "Follower Pets",
+				"Priority": 4,
+				"Set": "Anima Creature",
+				"Items": ["Anima Pet - Tier 6"]
+			},
+			"Unlock the ~|animasaur|~": {
+				"Category": ["Permanent Unlockables", "Pets"],
+				"Label": "Follower Pets",
+				"Priority": 3,
+				"Set": "Anima Creature",
+				"Items": ["Anima Pet - Tier 7"]
+			},
+			"Unlock the ~|animasaurus|~": {
+				"Category": ["Permanent Unlockables", "Pets"],
+				"Label": "Follower Pets",
+				"Priority": 2,
+				"Set": "Anima Creature",
+				"Items": ["Anima Pet - Tier 8"]
+			},
+			"Unlock the ~|animasaurus rex|~": {
+				"Category": ["Permanent Unlockables", "Pets"],
+				"Label": "Follower Pets",
+				"Priority": 1,
+				"Set": "Anima Creature",
+				"Items": ["Anima Pet - Tier 9"]
+			},
+			"Unlock the ~|abyssal hound|~": {
+				"Category": ["Permanent Unlockables", "Pets"],
+				"Label": "Follower Pets",
+				"Items": ["Abyssal hound"]
+			},
+			"Unlock ~|Jeffy|~": {
+				"Category": ["Permanent Unlockables", "Pets"],
+				"Label": "Follower Pets",
+				"Items": ["Jeffy"]
+			},
+			"Unlock ~|Geffy|~": {
+				"Category": ["Permanent Unlockables", "Pets"],
+				"Label": "Follower Pets",
+				"Items": ["Geffy"]
+			},
+			"Unlock ~|Leffy|~": {
+				"Category": ["Permanent Unlockables", "Pets"],
+				"Label": "Follower Pets",
+				"Items": ["Leffy"]
+			},
+			"Unlock ~|Seffy|~": {
+				"Category": ["Permanent Unlockables", "Pets"],
+				"Label": "Follower Pets",
+				"Items": ["Seffy"]
+			},
+			"Unlock ~|Trevor|~": {
+				"Category": ["Permanent Unlockables", "Pets"],
+				"Label": "Follower Pets",
+				"Items": ["Trevor"]
+			},
+			"Unlock ~|Chomper|~": {
+				"Category": ["Permanent Unlockables", "Pets"],
+				"Label": "Follower Pets",
+				"Items": ["Chomper"]
+			},
+			"Unlock the ~|star sprite (pet)|~": {
+				"Category": ["Permanent Unlockables", "Pets"],
+				"Label": "Follower Pets",
+				"Items": ["Star sprite"]
 			},
 			"Unlock all ~|Dundee's Crocodile Upgrades|~": {
 				"Category": ["Permanent Unlockables"],
@@ -145611,7 +145292,7 @@
 				"Category": ["Permanent Unlockables"],
 				"Label": "Permanent Unlockables",
 				"Tasks": {
-					"Upgrade ~|Zorgoth's soul ring|~": "Quest"
+					"Upgrade ~|Zorgoth's soul ring|~": "Necromancy"
 				}
 			},
 			"Unlock the ~|ring of vigour|~ passive effect": {
@@ -145767,17 +145448,32 @@
 				"Label": "Permanent Unlockables",
 				"Items": ["Quick traps"]
 			},
-			"Obtain the ~|Warrior of Het armour|~": {
+			"Unlock the ~|portal redirection|~ to the top level of the Runespan": {
+				"Category": ["Permanent Unlockables"],
+				"Label": "Permanent Unlockables",
+				"Items": ["Portal redirection"]
+			},
+			"Fully upgrade the ~|portable telescope|~": {
+				"Category": ["Permanent Unlockables", "Pets"],
+				"Label": "Follower Pets",
+				"Items": ["Portable telescope"]
+			},
+			"Fully upgrade ~|Shooting Star (status)|~": {
+				"Category": ["Permanent Unlockables", "Pets"],
+				"Label": "Follower Pets",
+				"Items": ["Mining boost"]
+			},
+			"Unlock the ~|Warrior of Het armour|~": {
 				"Category": ["Permanent Unlockables", "Cosmetics"],
 				"Label": "Cosmetic Overrides",
 				"Items": ["Warrior of Het armour"]
 			},
-			"Obtain ~|gators|~": {
+			"Unlock ~|gators|~": {
 				"Category": ["Permanent Unlockables", "Cosmetics"],
 				"Label": "Cosmetic Overrides",
 				"Items": ["Gators"]
 			},
-			"Obtain the ~|Retro Primal Armour Set|~": {
+			"Unlock the ~|Retro Primal Armour Set|~": {
 				"Category": ["Permanent Unlockables", "Cosmetics"],
 				"Label": "Cosmetic Overrides",
 				"Items": ["Retro primal armour set"]
@@ -145807,99 +145503,104 @@
 				"Label": "Cosmetic Overrides",
 				"Items": ["Kethsi outfit scroll"]
 			},
-			"Obtain a ~|Tuska (Saradomin) spear|~": {
+			"Unlock the ~|Tuska (Saradomin) spear|~": {
 				"Category": ["Permanent Unlockables", "Cosmetics"],
 				"Label": "Cosmetic Overrides",
 				"Items": ["Saradomin Spear override"]
 			},
-			"Obtain a ~|Tuska (Armadyl) spear|~": {
+			"Unlock the ~|Tuska (Armadyl) spear|~": {
 				"Category": ["Permanent Unlockables", "Cosmetics"],
 				"Label": "Cosmetic Overrides",
 				"Items": ["Armadyl Spear override"]
 			},
-			"Obtain a ~|Tuska (Zamorak) spear|~": {
+			"Unlock the ~|Tuska (Zamorak) spear|~": {
 				"Category": ["Permanent Unlockables", "Cosmetics"],
 				"Label": "Cosmetic Overrides",
 				"Items": ["Zamorak Spear override"]
 			},
-			"Obtain a ~|Tuska (Godless) spear|~": {
+			"Unlock the ~|Tuska (Godless) spear|~": {
 				"Category": ["Permanent Unlockables", "Cosmetics"],
 				"Label": "Cosmetic Overrides",
 				"Items": ["Godless Spear override"]
 			},
-			"Obtain a ~|calibration device|~": {
+			"Unlock the ~|calibration device|~": {
 				"Category": ["Permanent Unlockables", "Cosmetics"],
 				"Label": "Cosmetic Overrides",
 				"Items": ["Calibration Device"]
 			},
-			"Obtain the ~|Death Scythe|~": {
+			"Unlock the ~|Death Scythe|~": {
 				"Category": ["Permanent Unlockables", "Cosmetics", "Timegated"],
 				"Label": "Cosmetic Overrides",
 				"Chunks": ["Death's Office"],
 				"Monsters": ["AnyBoss[+]"],
 				"Not F2P": true
 			},
-			"Obtain a ~|Vorkath Necromancy weapon override token|~": {
+			"Unlock the ~|Vorkath Necromancy weapon override token|~": {
 				"Category": ["Permanent Unlockables", "Cosmetics"],
 				"Label": "Cosmetic Overrides",
 				"Items": ["Vorkath Necromancy weapon override token"],
 				"Not F2P": true
 			},
-			"Obtain a ~|Divine Moon Guard and Lantern override token|~": {
+			"Unlock the ~|Divine Moon Guard and Lantern override token|~": {
 				"Category": ["Permanent Unlockables", "Cosmetics"],
 				"Label": "Cosmetic Overrides",
 				"Items": ["Divine Moon Guard and Lantern override token"],
 				"Not F2P": true
 			},
-			"Obtain the ~|enhanced fire cape|~": {
+			"Unlock the ~|enhanced fire cape|~": {
 				"Category": ["Permanent Unlockables", "Cosmetics"],
 				"Label": "Cosmetic Overrides",
 				"Items": ["TokHaar-Kal-Ket", "TokHaar-Kal-Xil", "TokHaar-Kal-Mej"]
 			},
-			"Obtain the ~|necturion outfit|~": {
+			"Unlock the ~|necturion outfit|~": {
 				"Category": ["Permanent Unlockables", "Cosmetics"],
 				"Label": "Cosmetic Overrides",
 				"Items": ["Necturion Outfit"]
 			},
-			"Obtain the ~|invictum outfit|~": {
+			"Unlock the ~|invictum outfit|~": {
 				"Category": ["Permanent Unlockables", "Cosmetics"],
 				"Label": "Cosmetic Overrides",
 				"Items": ["Invictum Outfit"]
 			},
-			"Obtain the ~|aetherium outfit|~": {
+			"Unlock the ~|aetherium outfit|~": {
 				"Category": ["Permanent Unlockables", "Cosmetics"],
 				"Label": "Cosmetic Overrides",
 				"Items": ["Aetherium Outfit"]
 			},
-			"Obtain a ~|shard of havoc weapon token|~": {
+			"Unlock the ~|shard of havoc weapon token|~": {
 				"Category": ["Permanent Unlockables", "Cosmetics"],
 				"Label": "Cosmetic Overrides",
 				"Items": ["Shard of havoc weapon token"]
 			},
-			"Obtain a ~|shard of malice weapon token|~": {
+			"Unlock the ~|shard of malice weapon token|~": {
 				"Category": ["Permanent Unlockables", "Cosmetics"],
 				"Label": "Cosmetic Overrides",
 				"Items": ["Shard of malice weapon token"]
 			},
-			"Obtain a ~|shard of energy weapon token|~": {
+			"Unlock the ~|shard of energy weapon token|~": {
 				"Category": ["Permanent Unlockables", "Cosmetics"],
 				"Label": "Cosmetic Overrides",
 				"Items": ["Shard of energy weapon token"]
 			},
-			"Obtain a ~|shard of chaos weapon token|~": {
+			"Unlock the ~|shard of chaos weapon token|~": {
 				"Category": ["Permanent Unlockables", "Cosmetics"],
 				"Label": "Cosmetic Overrides",
 				"Items": ["Shard of chaos weapon token"]
 			},
-			"Obtain a ~|shard of despite weapon token|~": {
+			"Unlock the ~|shard of despite weapon token|~": {
 				"Category": ["Permanent Unlockables", "Cosmetics"],
 				"Label": "Cosmetic Overrides",
 				"Items": ["Shard of despite weapon token"]
 			},
-			"Obtain a ~|shard of suffering weapon token|~": {
+			"Unlock the ~|shard of suffering weapon token|~": {
 				"Category": ["Permanent Unlockables", "Cosmetics"],
 				"Label": "Cosmetic Overrides",
 				"Items": ["Shard of suffering weapon token"]
+			},
+			"Unlock the ~|Abyssal Knight (override)|~": {
+				"Category": ["Permanent Unlockables", "Cosmetics"],
+				"Label": "Cosmetic Overrides",
+				"Items": ["Abyssal Knights' armour override"]
 			},
 			"Obtain ~|the Castaway|~ title": {
 				"Category": ["Arc Log", "Titles"],
@@ -146472,7 +146173,7 @@
 				"Category": ["Titles"],
 				"Label": "Titles",
 				"Tasks": {
-					"Become an ~|archaeology Intern|~": "Archaeology"
+					"Complete the ~|Archaeology tutorial|~": "Archaeology"
 				}
 			},
 			"Obtain the ~|the Archaeology Professor|~ title": {
@@ -147082,7 +146783,7 @@
 					"Sophanem Slayer Dungeon",
 					"12587-1",
 					"12587-2",
-					"Soul Altar",
+					"Soul Rune Temple",
 					"12588-1",
 					"12330",
 					"Player-Owned Port",
@@ -147132,7 +146833,7 @@
 				"Label": "Titles",
 				"Chunks": ["Senntisten"],
 				"Items": ["Siege engine parts"],
-				"Tasks": {
+				"Skills": {
 					"Construction": 90
 				}
 			},
@@ -149588,25 +149289,25 @@
 			"Obtain a ~|master runecrafter hat|~": {
 				"Category": ["BIS Skilling"],
 				"Label": "BIS Skilling",
-				"Items": ["Master Runecrafter hat"],
+				"Items": ["Master runecrafter hat"],
 				"Not F2P": true
 			},
 			"Obtain a ~|master runecrafter robe|~": {
 				"Category": ["BIS Skilling"],
 				"Label": "BIS Skilling",
-				"Items": ["Master Runecrafter robe"],
+				"Items": ["Master runecrafter robe"],
 				"Not F2P": true
 			},
 			"Obtain a ~|master runecrafter skirt|~": {
 				"Category": ["BIS Skilling"],
 				"Label": "BIS Skilling",
-				"Items": ["Master Runecrafter skirt"],
+				"Items": ["Master runecrafter skirt"],
 				"Not F2P": true
 			},
 			"Obtain a ~|master runecrafter boots|~": {
 				"Category": ["BIS Skilling"],
 				"Label": "BIS Skilling",
-				"Items": ["Master Runecrafter boots"],
+				"Items": ["Master runecrafter boots"],
 				"Not F2P": true
 			},
 			"Obtain the ~|infinity ethereal head|~": {
@@ -152474,6 +152175,7 @@
 				"UnlocksArea": true
 			},
 			"Vinesweeper": {
+				"NPCs": ["Tool leprechaun[+]"],
 				"UnlocksArea": true
 			},
 			"Camdozaal": {
@@ -152686,7 +152388,7 @@
 				},
 				"UnlocksArea": true
 			},
-			"Mourner Tunnles & Temple of Light": {
+			"Mourner Tunnels & Temple of Light": {
 				"UnlocksArea": true,
 				"Tasks": {
 					"~|Mourning's End Part II|~ 2": "Quest"
@@ -153731,6 +153433,9 @@
 			},
 			"The Shadow Reef": {
 				"UnlocksArea": true,
+				"Tasks": {
+					"Elite Dungeon Access[+]": "Nonskill"
+				},
 				"Not F2P": true
 			},
 			"Morytania Slayer Tower dungeon": {
@@ -153767,10 +153472,16 @@
 				"UnlocksArea": true
 			},
 			"Temple of Aminishi": {
-				"UnlocksArea": true
+				"UnlocksArea": true,
+				"Tasks": {
+					"Elite Dungeon Access[+]": "Nonskill"
+				}
 			},
 			"Dragonkin Laboratory": {
 				"UnlocksArea": true,
+				"Tasks": {
+					"Elite Dungeon Access[+]": "Nonskill"
+				},
 				"Not F2P": true
 			},
 			"War's Retreat": {
@@ -153842,7 +153553,7 @@
 					"~|In Aid of the Myreque|~ Complete the quest": "Quest"
 				}
 			},
-			"Soul Altar": {
+			"Soul Rune Temple": {
 				"UnlocksArea": true,
 				"Items": ["Soul talisman"],
 				"Tasks": {
@@ -155748,13 +155459,19 @@
 				"Items": ["Cosmic talisman"]
 			},
 			"Access the cosmic rune temple through the abyss*": {
-				"Chunks": ["The Abyss"]
+				"Chunks": ["The Abyss"],
+				"Tasks": {
+					"~|Lost City|~ Complete the quest": "Quest"
+				}
 			},
 			"Access the death rune temple with a talisman*": {
 				"Items": ["Death talisman"]
 			},
 			"Access the death rune temple through the abyss*": {
-				"Chunks": ["The Abyss"]
+				"Chunks": ["The Abyss"],
+				"Tasks": {
+					"~|Mourning's End Part II|~ Complete the quest": "Quest"
+				}
 			},
 			"Access the chaos rune temple with a talisman*": {
 				"Items": ["Chaos talisman"]
@@ -155808,7 +155525,10 @@
 				"Items": ["Blood talisman"]
 			},
 			"Access the blood rune temple through the abyss*": {
-				"Chunks": ["The Abyss"]
+				"Chunks": ["The Abyss"],
+				"Tasks": {
+					"~|Legacy of Seergaze|~ Complete the quest": "Quest"
+				}
 			},
 			"Access the water rune temple with a talisman*": {
 				"Items": ["WaterTalisman[+]"]
@@ -156251,26 +155971,6 @@
 			},
 			"TzHaarcityunlockvol": {
 				"Chunks": ["11313"]
-			},
-			"Adjust ghost hunter goggles*": {
-				"Items": ["Ghost hunter goggles"],
-				"Output": "Ghost hunter goggles (tier 3)",
-				"Not F2P": true
-			},
-			"Adjust ghost hunter body*": {
-				"Items": ["Ghost hunter body"],
-				"Output": "Ghost hunter body (tier 3)",
-				"Not F2P": true
-			},
-			"Adjust ghost hunter legs*": {
-				"Items": ["Ghost hunter legs"],
-				"Output": "Ghost hunter legs (tier 3)",
-				"Not F2P": true
-			},
-			"Adjust ghost hunter backpack*": {
-				"Items": ["Ghost hunter backpack"],
-				"Output": "Ghost hunter backpack (tier 3)",
-				"Not F2P": true
 			},
 			"Pick redberries*": {
 				"Objects": ["Redberry bush"],
@@ -157473,7 +157173,7 @@
 			"~|Pizazz points|~*": {
 				"Category": ["Minigame"],
 				"NPCs": ["Rewards Guardian"],
-				"Items":["Law rune*", "Cosmic rune*", "Nature rune*", "Earth rune[+]", "Air rune[+]", "Water rune[+]", "Fire rune[+]"],
+				"Items":["Progress hat"],
 				"Source": "shop",
 				"Output": "Pizazz points loot",
 				"Not F2P": true
@@ -158505,6 +158205,14 @@
 			},
 			"Non-Daily DnD": {
 				"Category": ["Not Daily DnD"]
+			},
+			"Repair the Menaphos cactus patch": {
+				"Chunks": ["12587-2"],
+				"Items": ["Acadia logs*"]
+			},
+			"Open a bundle of gems": {
+				"Items": ["Bundle of gems"],
+				"Output": "Bundle of gems loot"
 			}
 		}
 	},
@@ -161891,7 +161599,7 @@
 				"8043": true,
 				"12330": true
 			},
-			"Name": "Soul Altar"
+			"Name": "Soul Rune Temple"
 		},
 		"7787": {
 			"Object": {
@@ -162263,7 +161971,7 @@
 				"7784": true,
 				"12330": true
 			},
-			"Name": "Soul Altar"
+			"Name": "Soul Rune Temple"
 		},
 		"8120": {
 			"Object": {
@@ -170588,8 +170296,7 @@
 				"Ticket Merchant": 2,
 				"Linza": 1,
 				"Archaeologist (excavation sites)": 1,
-				"Gee'ka": 1,
-				"Trainee archaeologist#Stormguard Citadel": 3
+				"Gee'ka": 1
 			},
 			"Connect": {
 				"11": true,
@@ -198200,7 +197907,7 @@
 				"The Slug Menace": "step"
 			}
 		},
-		"Soul Altar": {
+		"Soul Rune Temple": {
 			"Object": {
 				"Portal": 1,
 				"Charger": 1,
@@ -198719,7 +198426,9 @@
 				"11339": true,
 				"13899": true,
 				"40": true,
-				"8508": true
+				"8508": true,
+				"9035": true,
+				"8779": true
 			},
 			"Object": {
 				"Fire rift": 1,
@@ -201668,8 +201377,7 @@
 				"Closed chest": 6,
 				"Boxes": 1,
 				"Workbench": 2,
-				"Sink": 1,
-				"Clay rock": 4
+				"Sink": 1
 			},
 			"Monster": {
 				"Giant bat": 3,
@@ -201688,8 +201396,7 @@
 				"10550": true
 			},
 			"NPC": {
-				"Winelda": 1,
-				"Elemental rock": 47
+				"Winelda": 1
 			},
 			"Quest": {
 				"Temple of Ikov": "step"
@@ -212550,7 +212257,45 @@
 			"AnyDragon[+]": ["Adamant dragon", "Astellarn", "Baby blue dragon", "Baby red dragon", "Black dragon", "Black stone dragon", "Blue dragon", "Bronze dragon", "Brutal green dragon", "Celestial dragon", "Dragonstone dragon", "Frost dragon", "Green dragon", "Hydrix dragon", "Iron dragon", "King Black Dragon", "Mithril dragon", "Nodon artificer", "Nodon guard", "Nodon hunter", "Onyx dragon", "Queen Black Dragon", "Rune dragon", "Steel dragon", "Verak Lith"],
 			"AnyUndead[+]": ["Aberrant spectre", "Ahrim the Blighted", "Akrisae the Doomed", "Animated spade", "Ankou", "Armoured phantom", "Armoured zombie", "Banshee", "Bloated monstrosity", "Bound skeleton", "Corpse archer", "Corpse carrier", "Corpse mage", "Corpse spider", "Crawling corpse torso", "Crawling hand", "Dharok the Wretched", "Dragith Nurn", "Edimmu", "Fetid zombie", "Ghast", "Ghost", "Ghostly troll bruiser", "Ghostly troll thrower", "Guthan the Infested", "Karil the Tainted", "Linza the Disgraced", "Magic axe", "Monkey Zombie", "Mummy (Jaldraocht Pyramid)", "Mummy (Ullek)", "Phantom sorcerer", "Phantom wizard", "Possessed pickaxe", "Revenant cyclops", "Revenant dark beast", "Revenant demon", "Revenant dragon", "Revenant goblin", "Revenant hellhound", "Revenant hobgoblin", "Revenant icefiend", "Revenant imp", "Revenant knight", "Revenant ork", "Revenant pyrefiend", "Revenant vampyre", "Revenant werewolf", "Risen ghost", "Shade", "Shadow warrior", "Skeletal Wyvern", "Skeletal hand", "Skeleton#Armed", "Skeleton#Unarmed", "Skeleton Mage", "Skeleton knight", "Skoblin", "Skogre", "Small scarab", "Spiritual mage", "Spiritual ranger", "Spiritual warrior", "Taraket the Necromancer", "Torag the Corrupted", "Tormented wraith", "Undead chicken", "Undead cow", "Undead pekin", "Undead troll", "Verac the Defiled", "Wight", "Wight ranger", "Zogre", "Zombie#Level 12", "Zombie#Level 22", "Zombie#Level 29", "Zombie hand", "Zombie knight", "Zombie pirate", "Zombie swab", "Zombie warrior"],
 			"BlackKnightMonsters[+]": ["Elite Black Knight", "Black Knight"],
-			"Citizen[+]": ["Man", "Woman"],
+			"Citizen[+]": [
+				"Anja", 
+				"Cuffs", 
+				"Drunken man", 
+				"Foppish Pierre", 
+				"Hengel", 
+				"Ikis Krum", 
+				"Jeff", 
+				"Man", 
+				"Man (East Ardougne)",
+				"Man (Lumbridge Market)", 
+				"Narf", 
+				"Pompous merchant", 
+				"Rusty", 
+				"Woman", 
+				"Woman (East Ardougne)", 
+				"Woman (Lumbridge Market)"
+			],
+			"Corrupted devourers[+]": [
+				"Amascut, the Devourer",
+				"The Magister",
+				"Corrupted scorpion",
+				"Corrupted scarab",
+				"Corrupted worker",
+				"Corrupted lizard",
+				"Corrupted dust devil",
+				"Corrupted kalphite guardian",
+				"Corrupted kalphite marauder",
+				"Imperial warrior akh",
+				"Feline akh",
+				"Gorilla akh",
+				"Imperial ranger akh",
+				"Salawa akh",
+				"Scarab akh",
+				"Imperial mage akh",
+				"Nakatra, Devourer Eternal",
+				"Vermyx, Brood Mother",
+				"Kezalam, Devourer Eternal"
+			],
 			"Dagannoth[+]": ["Dagannoth (Lighthouse)", "Dagannoth fledgling", "Dagannoth spawn", "Dagannoth#Ranged", "Dagannoth#Melee"],
 			"GhostOrZombie[+]": ["Ghost", "Zombie"],
 			"Gnome[+]": ["Gnome", "Gnome woman", "Gnome child"],
@@ -212956,7 +212701,8 @@
 			"AnyDragon[+]": "Any dragon",
 			"AnyUndead[+]": "Any undead",
 			"BlackKnightMonsters[+]": "Any monster that gives white knight ranking",
-			"Citizen[+]": "Anything that counts as a citizen for 'Lost My Marbles'",
+			"Citizen[+]": "Any pickpocketable citizen",
+			"Corrupted devourers": "Any corrupted creature or soul devourer",
 			"Dagannoth[+]": "Any dagannoth that can be killed for the Axe'll Grease achievement",
 			"GhostOrZombie[+]": "Any ghost or zombie",
 			"Gnome[+]": "Any pickpocketable gnome",
@@ -213020,9 +212766,28 @@
 			"Nodon Souls[+]": "Any Nodon dragonkin variant that may fill an ushabti"
 		},
 		"mixPlus": {
+			"Citizen[+]": [
+				"Anja", 
+				"Cuffs", 
+				"Drunken man", 
+				"Foppish Pierre", 
+				"Hengel", 
+				"Ikis Krum", 
+				"Jeff", 
+				"Man", 
+				"Man (East Ardougne)",
+				"Man (Lumbridge Market)", 
+				"Narf", 
+				"Pompous merchant", 
+				"Rusty", 
+				"Woman", 
+				"Woman (East Ardougne)", 
+				"Woman (Lumbridge Market)"
+			],
 			"HAMMember[+]": ["H.A.M. Member (male)", "H.A.M. Member (female)", "Guard (H.A.M.)"]
 		},
 		"mixPlusNames": {
+			"Citizen[+]": "Any pickpocketable citizen",
 			"HAMMember[+]": "Anything that counts as a H.A.M. Member for 'Lost My Marbles'"
 		},
 		"npcsPlus": {
@@ -213037,6 +212802,24 @@
 				"Archaeologist#Warforge",
 				"Archaeologist#Orthen"
 			],
+			"Citizen[+]": [
+				"Anja", 
+				"Cuffs", 
+				"Drunken man", 
+				"Foppish Pierre", 
+				"Hengel", 
+				"Ikis Krum", 
+				"Jeff", 
+				"Man", 
+				"Man (East Ardougne)",
+				"Man (Lumbridge Market)", 
+				"Narf", 
+				"Pompous merchant", 
+				"Rusty", 
+				"Woman", 
+				"Woman (East Ardougne)", 
+				"Woman (Lumbridge Market)"
+			],
 			"Dyer[+]": ["Aggie", "Rana the dyer"],
 			"Gecko[+]": ["Gecko", "Baby gecko"],
 			"GodEmissaries[+]": ["Endwyr, Emissary of Seren", "Hannu, Emissary of V", "Holstein, Emissary of the Godless", "Julienne, Emissary of Saradomin", "Moldark, Emissary of Zamorak", "Murknose, Emissary of Bandos", "Relomia, Emissary of Sliske", "Soran, Emissary of Zaros", "Taw'Paak, Emissary of Armadyl"],
@@ -213047,6 +212830,7 @@
 			"SawmillOperator[+]": ["Sawmill operator (Prifddinas)", "Plank maker"],
 			"StrengthMaster[+]": ["Sloane", "Yadech Strongarm"],
 			"Tanner[+]": ["Tanner", "Ellis", "Sbott", "Tanya Hyde", "Leatherworker"],
+			"Tool leprechaun[+]": ["Tool leprechaun", "Tool leprechaun (Herblore Habitat)", "Hemlock"],
 			"Trainee archaeologist[+]": [
 				"Trainee archaeologist#Archaeology Campus",
 				"Trainee archaeologist#Kharid-et",
@@ -213065,6 +212849,7 @@
 		},
 		"npcsPlusNames": {
 			"Archaeologist[+]": "A pickpocketable archaeologist at any dig site",
+			"Citizen[+]": "Any pickpocketable citizen",
 			"Dyer[+]": "Access to either Rana or Aggie",
 			"Gecko[+]": "Any catchable gecko pet",
 			"GodEmissaries[+]": "Any God Emissary",
@@ -213074,8 +212859,9 @@
 			"WildernessCapeSellers[+]": "Any wilderness cape seller",
 			"SawmillOperator[+]": "Any plank makers",
 			"StrengthMaster[+]": "Sloane or his replacement",
-			"Trainee archaeologist[+]": "A trainee archaeologist at any dig site",
 			"Tanner[+]": "Any hide tanner",
+			"Tool leprechaun[+]": "Any leprechaun that can take you to Vinesweeper",
+			"Trainee archaeologist[+]": "A trainee archaeologist at any dig site",
 			"Wisp[+]": "Any level 1 wisp",
 			"GoldenWarbler[+]": "Any golden warbler variant",
 			"Vyrelord consumer[+]": "A vyrelord or vyrelady consumer"
@@ -213219,6 +213005,7 @@
 			"DeviousMindsEntranaEnter[+]": ["Enter the law altar through the Abyss*", "Enter the law altar using a wicked hood teleport*"],
 			"EarthAccess[+]": ["Access the earth rune temple with a talisman*", "Access the earth rune temple through the abyss*"],
 			"EdgeDungeonAccess[+]": ["Access the Edgeville dungeon through Edgeville*", "Access the edgeville dungeon through the Varrock sewers*"],
+			"Elite Dungeon Access[+]": ["Group Content enabled", "Hard Mode Bosses"],
 			"EmissarySkill1[+]": ["Emissary eggs", "Emissary bronze 2h swords"],
 			"FireAccess[+]": ["Access the fire rune temple with a talisman*", "Access the fire rune temple through the abyss*"],
 			"GodWarsDungeonEntry[+]": ["Slide past the boulder leading up to the God Wars Dungeon", "Lift the boulder leading up to the God Wars Dungeon"],
@@ -268840,6 +268627,9 @@
 			"Dagon'hai robe top": [{
 				"~|The Hunt for Surok (miniquest)|~ Complete the quest": "Quest"
 			}],
+			"Demon horn (God Emissaries)^": [{
+				"~|God Emissaries Combat|~ 5": "Quest"
+			}],
 			"Dragon 2h sword^": [{
 				"Members only": "Nonskill"
 			}],
@@ -270316,6 +270106,26 @@
 			}],
 			"Unicorn horn^": [{
 				"Members only": "Nonskill"
+			}],
+			"Perfect green dragon scale^": [{
+				"Receive a slayer assignment from ~|Vannaka|~": "Slayer"
+			}, {
+				"~|What Lies Below|~ Complete the quest": "Quest"
+			}],
+			"Perfect blue dragon scale^": [{
+				"Receive a slayer assignment from ~|Vannaka|~": "Slayer"
+			}, {
+				"~|What Lies Below|~ Complete the quest": "Quest"
+			}],
+			"Perfect red dragon scale^": [{
+				"Receive a slayer assignment from ~|Vannaka|~": "Slayer"
+			}, {
+				"~|What Lies Below|~ Complete the quest": "Quest"
+			}],
+			"Perfect black dragon scale^": [{
+				"Receive a slayer assignment from ~|Vannaka|~": "Slayer"
+			}, {
+				"~|What Lies Below|~ Complete the quest": "Quest"
 			}]
 		},
 		"Monsters": {
@@ -270326,19 +270136,9 @@
 					"Group Content enabled": "Nonskill"
 				}]
 			},
-			"The Ambassador": {
-				"The Shadow Reef": [{
-					"Group Content enabled": "Nonskill"
-				}]
-			},
 			"Arch-Glacor (Hard Mode)": {
 				"Senntisten": [{
 					"Hard Mode Bosses": "Nonskill"
-				}]
-			},
-			"Astellarn": {
-				"Dragonkin Laboratory": [{
-					"Group Content enabled": "Nonskill"
 				}]
 			},
 			"Automaton Generator": {
@@ -270373,11 +270173,6 @@
 					"Timegated content enabled": "Nonskill"
 				}]
 			},
-			"Black Stone Dragon": {
-				"Dragonkin Laboratory": [{
-					"Group Content enabled": "Nonskill"
-				}]
-			},
 			"Chompy bird": {
 				"10542": [{
 					"~|Big Chompy Bird Hunting|~ Complete the quest": "Quest"
@@ -270409,11 +270204,6 @@
 			"Cow": {
 				"11827": [{
 					"Enter the ~|Crafting Guild|~": "Crafting"
-				}]
-			},
-			"Crassian Leviathan": {
-				"The Shadow Reef": [{
-					"Group Content enabled": "Nonskill"
 				}]
 			},
 			"Croesus": {
@@ -270690,16 +270480,9 @@
 					"Hard Mode Bosses": "Nonskill"
 				}]
 			},
-			"Kezalam, the Wanderer": {
-				"Sanctum of Rebirth": [{
-					"Group Content enabled": "Nonskill"
-				}]
-			},
 			"Kezalam, the Wanderer (Hard Mode)": {
 				"Sanctum of Rebirth": [{
 					"Hard Mode Bosses": "Nonskill"
-				}, {
-					"Group Content enabled": "Nonskill"
 				}]
 			},
 			"Khazard commander": {
@@ -270710,11 +270493,6 @@
 			"Lesser demon": {
 				"Temple of Ikov": [{
 					"~|Temple of Ikov|~ 1": "Quest"
-				}]
-			},
-			"Masuta the Ascended": {
-				"Temple of Aminishi": [{
-					"Group Content enabled": "Nonskill"
 				}]
 			},
 			"Man": {
@@ -270732,21 +270510,9 @@
 					"~|Mogre (lore activity)|~ Complete the lore activity": "Quest"
 				}]
 			},
-			"Nakatra, Devourer Eternal": {
-				"Sanctum of Rebirth": [{
-					"Group Content enabled": "Nonskill"
-				}]
-			},
 			"Nakatra, Devourer Eternal (Hard Mode)": {
 				"Sanctum of Rebirth": [{
 					"Hard Mode Bosses": "Nonskill"
-				}, {
-					"Group Content enabled": "Nonskill"
-				}]
-			},
-			"Nex": {
-				"Ancient Prison": [{
-					"Group Content enabled": "Nonskill"
 				}]
 			},
 			"Nex, Angel of Death": {
@@ -270799,16 +270565,6 @@
 					"~|Temple of Ikov|~ 1": "Quest"
 				}]
 			},
-			"Seiryu the Azure Serpent": {
-				"Temple of Aminishi": [{
-					"Group Content enabled": "Nonskill"
-				}]
-			},
-			"The Sanctum Guardian": {
-				"Temple of Aminishi": [{
-					"Group Content enabled": "Nonskill"
-				}]
-			},
 			"Sir Mordred": {
 				"11061": [{
 					"~|Merlin's Crystal|~ 3": "Quest"
@@ -270824,11 +270580,6 @@
 					"~|Temple of Ikov|~ 1": "Quest"
 				}]
 			},
-			"Taraket the Necromancer": {
-				"The Shadow Reef": [{
-					"Group Content enabled": "Nonskill"
-				}]
-			},
 			"Twin Furies (Hard Mode)": {
 				"The Heart": [{
 					"Hard Mode Bosses": "Nonskill"
@@ -270839,21 +270590,9 @@
 					"Hard Mode Bosses": "Nonskill"
 				}]
 			},
-			"Verak Lith": {
-				"Dragonkin Laboratory": [{
-					"Group Content enabled": "Nonskill"
-				}]
-			},
-			"Vermyx, Brood Mother": {
-				"Sanctum of Rebirth": [{
-					"Group Content enabled": "Nonskill"
-				}]
-			},
 			"Vermyx, Brood Mother (Hard Mode)": {
 				"Sanctum of Rebirth": [{
 					"Hard Mode Bosses": "Nonskill"
-				}, {
-					"Group Content enabled": "Nonskill"
 				}]
 			},
 			"Vindicta (Hard Mode)": {
@@ -270878,11 +270617,6 @@
 					"Group Content enabled": "Nonskill"
 				}, {
 					"Timegated content enabled": "Nonskill"
-				}]
-			},
-			"Zamorak, Lord of Chaos": {
-				"Zamorakian Undercity": [{
-					"Group Content enabled": "Nonskill"
 				}]
 			},
 			"Zemouregal & Vorkath (Story Mode)": {
@@ -271179,6 +270913,11 @@
 			}
 		},
 		"Objects": {
+			"Cactus patch": {
+				"12587-2": [{
+					"Repair the Menaphos cactus patch": "Nonskill"
+				}]
+			},
 			"Cooking range": {
 				"12596-1": [{
 					"Champions Guild Questpoints": "Nonskill"
@@ -276070,6 +275809,7 @@
 			"Bladed Dive ability": true,
 			"Salt the Wound ability": true,
 			"Abyssal Slayer Contract": true,
+			"Huge XP lamp (Slayer) (Shattered Worlds)": true,
 			"Abyssal Knights' armour override": true,
 			"'The Abyssal Knight' title": true,
 			"'Animaniac' title": true,
@@ -276946,7 +276686,8 @@
 			"High Armour of Hanto cuirass": true,
 			"Thalassia's Revenge": true,
 			"Rage of Hyu-Ji": true,
-			"Winds of Waiko": true
+			"Winds of Waiko": true,
+			"Ports XP lamp": true
 		},
 		"Warriors' Guild Armoury": {
 			"Bronze dagger": true,
@@ -288134,7 +287875,7 @@
 					"1": "Uncommon"
 				}
 			},
-			"ArcaneApoterrasaur": {
+			"Arcane Apoterrasaur": {
 				"Raw arcane apoterrasaur meat": {
 					"1-2": "Always"
 				},
@@ -288354,6 +288095,122 @@
 					"1": "7/100"
 				},
 				"Scimitops (unchecked)": {
+					"1": "1/65"
+				},
+				"Skeka's hypnowand focus": {
+					"1": "1/1500"
+				},
+				"Skeka's hypnowand projector": {
+					"1": "1/1500"
+				},
+				"Skeka's hypnowand handle": {
+					"1": "1/1500"
+				},
+				"Skeka's hypnowand base": {
+					"1": "7/1500"
+				},
+				"Hunter Mark": {
+					"1": "Always"
+				}
+			},
+			"Bagrada Rex": {
+				"Raw bagrada rex meat": {
+					"1-2": "Always"
+				},
+				"Dinosaur bones": {
+					"3-5": "Always"
+				},
+				"Dinosaur scale": {
+					"100-150": "Always"
+				},
+				"Damaged dinosaur hide": {
+					"1": "9/10"
+				},
+				"Dinosaur hide": {
+					"1": "1/10"
+				},
+				"Uncut ruby": {
+					"5 (noted)": "Common"
+				},
+				"Raw shark": {
+					"16-35 (noted)": "Common"
+				},
+				"Grenwall spikes": {
+					"15-35": "Common"
+				},
+				"Pineapple seed": {
+					"1-3": "Common"
+				},
+				"Maple seed": {
+					"1-3": "Common"
+				},
+				"Arbuck seed": {
+					"2": "Common"
+				},
+				"Stinkshroom spore": {
+					"1-3": "Uncommon"
+				},
+				"Ciku seed": {
+					"1": "Rare"
+				},
+				"Grimy avantoe": {
+					"5 (noted)": "Common"
+				},
+				"Grimy irit": {
+					"5 (noted)": "Common"
+				},
+				"Grimy cadantine": {
+					"5 (noted)": "Common"
+				},
+				"Grimy kwuarm": {
+					"5 (noted)": "Common"
+				},
+				"Grimy lantadyme": {
+					"5 (noted)": "Common"
+				},
+				"Grimy torstol": {
+					"5 (noted)": "Common"
+				},
+				"Green dragonhide": {
+					"15-35 (noted)": "Common"
+				},
+				"Blue dragonhide": {
+					"10-30 (noted)": "Common"
+				},
+				"Red dragonhide": {
+					"5-25 (noted)": "Common"
+				},
+				"Black dragonhide": {
+					"5-25 (noted)": "Common"
+				},
+				"Large bladed adamant salvage": {
+					"4-6 (noted)": "Uncommon"
+				},
+				"Compass arrow": {
+					"1": "1/20"
+				},
+				"Dragon mattock": {
+					"1": "1/101"
+				},
+				"Totem of Summoning base": {
+					"1": "1/50"
+				},
+				"Totem of the Abyss middle": {
+					"1": "1/50"
+				},
+				"Totem of Treasure top": {
+					"1": "1/50"
+				},
+				"Reinforced dinosaur pelt": {
+					"1": "1/150"
+				},
+				"Dinosaur rib bone": {
+					"1": "1/150"
+				},
+				"Compacted hides": {
+					"1": "7/100"
+				},
+				"Bagrada rex (unchecked)": {
 					"1": "1/65"
 				},
 				"Skeka's hypnowand focus": {
@@ -289121,7 +288978,7 @@
 					"1": "1/101"
 				}
 			},
-			"SpicatiApoterrasaur": {
+			"Spicati Apoterrasaur": {
 				"Raw spicati apoterrasaur meat": {
 					"1-2": "Always"
 				},
@@ -289933,7 +289790,7 @@
 					"25-100": "2/4"
 				}
 			},
-			"CorbiculaRex": {
+			"Corbicula Rex": {
 				"Raw corbicula rex meat": {
 					"1-2": "Always"
 				},
@@ -290159,7 +290016,7 @@
 				}
 
 			},
-			"OculiApoterrasaur": {
+			"Oculi Apoterrasaur": {
 				"Raw oculi apoterrasaur meat": {
 					"1-2": "Always"
 				},
@@ -290610,7 +290467,7 @@
 					"1": "1/32"
 				}
 			},
-			"PavosaurusRex": {
+			"Pavosaurus Rex": {
 				"Raw pavosaurus rex meat": {
 					"1-2": "Always"
 				},
@@ -307083,6 +306940,11 @@
 			}
 		},
 		"Thieving": {
+			"Citizen[+]": {
+				"Coins": {
+					"3": "Always"
+				}
+			},
 			"Menaphos pickpocket": {
 				"Coins": {
 					"30": "Always"
@@ -308753,6 +308615,11 @@
 					"1": "1/3"
 				}
 			},
+			"Food stall": {
+				"Banana": {
+					"1": "Always"
+				}
+			},
 			"Crafting stall": {
 				"Chisel": {
 					"1": "1/3"
@@ -308884,7 +308751,7 @@
 					"1": "Common"
 				}
 			},
-			"Customs evidence": {
+			"Cabinet": {
 				"Coins": {
 					"300": "Common"
 				},
@@ -309117,7 +308984,7 @@
 					"1": "Always"
 				}
 			},
-			"Rogue chest": {
+			"Chest (Rogues' Castle)": {
 				"Coins": {
 					"4-243": "Common"
 				},
@@ -309134,7 +309001,7 @@
 					"1": "Uncommon"
 				}
 			},
-			"Average chest": {
+			"Chest (Dorgesh-Kaan)": {
 				"Gold charm": {
 					"1": "4/100"
 				},
@@ -309187,7 +309054,7 @@
 					"1": "Very rare"
 				}
 			},
-			"Oldak chest": {
+			"Chest (Oldak)": {
 				"Gold charm": {
 					"1": "5/100"
 				},
@@ -309264,7 +309131,7 @@
 					"1": "41/1400"
 				}
 			},
-			"Zanik chest": {
+			"Chest (Zanik)": {
 				"Gold charm": {
 					"1": "3/100"
 				},
@@ -309423,7 +309290,31 @@
 					"1": "Rare"
 				}
 			},
-			"Safes low": {
+			"Chest (steel arrowheads)": {
+				"Steel arrowheads": {
+					"5": "Always"
+				},
+				"Coins": {
+					"20": "Always"
+				}
+			},
+			"Chest (nature runes)": {
+				"Coins": {
+					"3": "Always"
+				},
+				"Nature rune": {
+					"1": "Always"
+				}
+			},
+			"Chest (Chaos Druid Tower Dungeon)": {
+				"Coins": {
+					"500": "Always"
+				},
+				"Blood rune": {
+					"2": "Always"
+				}
+			},
+			"Low-level safes": {
 				"Sealed clue scroll (medium)": {
 					"1": "1/128"
 				},
@@ -309434,7 +309325,7 @@
 					"1": "Always"
 				}
 			},
-			"Safes high": {
+			"High-level safes": {
 				"Sealed clue scroll (medium)": {
 					"1": "1/128"
 				},
@@ -309451,7 +309342,7 @@
 					"1": "Always"
 				}
 			},
-			"WallSafe": {
+			"Wall Safe": {
 				"Uncut sapphire": {
 					"1": "1/12"
 				},
@@ -309497,19 +309388,19 @@
 					"1": "Common"
 				},
 				"Rogue mask": {
-					"1": "1/5000"
+					"1": "1/500"
 				},
 				"Rogue top": {
-					"1": "1/5000"
+					"1": "1/500"
 				},
 				"Rogue trousers": {
-					"1": "1/5000"
+					"1": "1/500"
 				},
 				"Rogue gloves": {
-					"1": "1/5000"
+					"1": "1/500"
 				},
 				"Rogue boots": {
-					"1": "1/5000"
+					"1": "1/500"
 				}
 			},
 			"Crux Eqal Druid": {
@@ -309657,7 +309548,7 @@
 					"1": "Very rare"
 				}
 			},
-			"PyramidPlunder": {
+			"Pyramid Plunder": {
 				"Ivory comb": {
 					"1": "Unknown"
 				},
@@ -313464,6 +313355,38 @@
 				},
 				"Shadowy egg": {
 					"1": "1/50000"
+				}
+			},
+			"Bundle of gems loot": {
+				"Uncut opal": {
+					"1": "5/20"
+				},
+				"Uncut jade": {
+					"1": "5/20"
+				},
+				"Uncut red topaz": {
+					"1": "5/20"
+				},
+				"Uncut sapphire": {
+					"1": "5/5"
+				},
+				"Uncut emerald": {
+					"1": "5/5"
+				},
+				"Uncut ruby": {
+					"1": "5/7"
+				},
+				"Uncut diamond": {
+					"1": "5/10"
+				},
+				"Uncut dragonstone": {
+					"1": "5/20"
+				},
+				"Uncut onyx": {
+					"1": "5/200"
+				},
+				"Uncut moonstone": {
+					"1": "5/100"
 				}
 			}
 		}
@@ -343662,74 +343585,6 @@
 		"Ghost hunter backpack": {
 			"ranged_damage": 0,
 			"requirements": {
-				"Defence": 50
-			},
-			"class": "hybrid",
-			"lp": 0,
-			"tier": 50,
-			"speed": 0,
-			"damage": 0,
-			"armour": 16,
-			"slot": "back",
-			"melee_damage": 0,
-			"magic_damage": 0,
-			"prayer": 0,
-			"accuracy": 0
-		},
-		"Ghost hunter body": {
-			"ranged_damage": 0,
-			"requirements": {
-				"Defence": 50
-			},
-			"class": "hybrid",
-			"lp": 0,
-			"tier": 50,
-			"speed": 0,
-			"damage": 0,
-			"armour": 132.2,
-			"slot": "torso",
-			"melee_damage": 0,
-			"magic_damage": 0,
-			"prayer": 0,
-			"accuracy": 0
-		},
-		"Ghost hunter goggles": {
-			"ranged_damage": 0,
-			"requirements": {
-				"Defence": 50
-			},
-			"class": "hybrid",
-			"lp": 0,
-			"tier": 50,
-			"speed": 0,
-			"damage": 0,
-			"armour": 107.2,
-			"slot": "head",
-			"melee_damage": 0,
-			"magic_damage": 0,
-			"prayer": 0,
-			"accuracy": 0
-		},
-		"Ghost hunter legs": {
-			"ranged_damage": 0,
-			"requirements": {
-				"Defence": 50
-			},
-			"class": "hybrid",
-			"lp": 0,
-			"tier": 50,
-			"speed": 0,
-			"damage": 0,
-			"armour": 117.9,
-			"slot": "legs",
-			"melee_damage": 0,
-			"magic_damage": 0,
-			"prayer": 0,
-			"accuracy": 0
-		},
-		"Ghost hunter backpack (tier 3)": {
-			"ranged_damage": 0,
-			"requirements": {
 				"Defence": 70
 			},
 			"class": "hybrid",
@@ -343744,7 +343599,7 @@
 			"prayer": 0,
 			"accuracy": 0
 		},
-		"Ghost hunter body (tier 3)": {
+		"Ghost hunter body": {
 			"ranged_damage": 0,
 			"requirements": {
 				"Defence": 70
@@ -343761,7 +343616,7 @@
 			"prayer": 0,
 			"accuracy": 0
 		},
-		"Ghost hunter goggles (tier 3)": {
+		"Ghost hunter goggles": {
 			"ranged_damage": 0,
 			"requirements": {
 				"Defence": 70
@@ -343778,7 +343633,7 @@
 			"prayer": 0,
 			"accuracy": 0
 		},
-		"Ghost hunter legs (tier 3)": {
+		"Ghost hunter legs": {
 			"ranged_damage": 0,
 			"requirements": {
 				"Defence": 70

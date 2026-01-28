@@ -529,7 +529,7 @@ let ruleNames = {
     "Extra implings": "Include implings that have non-guaranteed spawns as chunk tasks",
     "Wandering implings": "Allow implings that randomly wander the world & their drops to count towards chunk tasks <span class='rule-asterisk noscroll'>†</span>",
 	"Farming Primary": "Farming products (herbs, vegetables, etc.) can count as primary item sources for chunk tasks<span class='rule-asterisk noscroll'>*</span>",
-    "Secondary Primary": "Allow secondary training methods with drops/methods more common than 1/X (not inclusive, set to 0 to include all drops) to count as primary training methods (e.g. allow a 1/50 drop for a bronze bar be your required way to train Smithing)<span class='rule-asterisk noscroll'>*</span>",
+    "Secondary Primary": "Allow secondary training methods with drops/methods more common than 1/X (not inclusive, set to 0 to include all drops) to count as primary training methods (e.g. allow a 1/50 drop for pure essence be your required way to train Runecrafting)<span class='rule-asterisk noscroll'>*</span>",
     "RDT": "Allow items from the Rare Drop Table, the Gem Drop Table and the Wilderness Drop Table to count towards chunk tasks",
     "Crystal chests": "Allow items from crystal chests, triskelion treasures or columbarium keys to count towards chunk tasks",
     "Untracked Uniques": "Must obtain extra unique items that are untracked on the collection logs (does nothing by itself)",
@@ -543,13 +543,15 @@ let ruleNames = {
 	"Dungeoneering Journals": "WIP - Must complete the Daemonheim Journals (e.g. Behemoth notes, Stalker notes, etc.)<span class='rule-asterisk noscroll'>*</span>",
 	"Slayer Souls": "Must fill out all available souls in the Slayer Codex<span class='rule-asterisk noscroll'>*</span>",
     "Combat and Teleport Spells": "Allow all spells to count as possible Magic skill tasks (otherwise only 'utility' spells like High Alchemy or Telegrab will count)",
-    "Primary Spawns": "Item spawns count as primary access to an item, and can be used as a primary way to train a skill if needed<span class='rule-asterisk noscroll'>*</span>",
+    "Primary Spawns": "Item spawns count as primary access to an item, and can be used as a primary way to train a skill if needed",
     "Smithing by Smelting": "Smelting ores into bars counts as a primary method for training Smithing",
     "Pets": "Must obtain pets for Collections and Unlocks tasks<span class='rule-asterisk noscroll'>*</span>",
     "Cosmetics": "Must obtain cosmetic items or overrides for Collection and Unlocks tasks<span class='rule-asterisk noscroll'>*</span>",
     "Manually Complete Tasks": "<b class='noscroll'>For maps that allow manually choosing new chunks</b>, allow the ability to manually move completed active tasks",
     "Every Drop": "Must obtain every unique item drop from monsters (items that are dropped by multiple monsters only need to be obtained once)",
     "Every Drop Implings": "Allow drops from implings to also count towards these tasks",
+    "Every Drop BGH": "Allow drops from Big Game Hunter to also count towards these tasks",
+    "Every Drop Thieving": "Allow drops from Thieving to also count towards these tasks",
     "HigherLander": "Accessing the intermediate and veteran landers for Pest Control are required tasks (only novice lander is required otherwise)",
     "Secondary MTA": "Allow MTA to be required with secondary sources of nature/law/cosmic runes",
     "Skilling Pets": "Require skilling pets be obtained as soon as the relevant skill is trainable<span class='rule-asterisk noscroll'>†</span>",
@@ -566,22 +568,22 @@ let ruleNames = {
 	"Master skillcape": "Must obtain master skillcapes for all skills<span class='rule-asterisk noscroll'>†</span>",
 	"Cleaning Herbs": "Cleaning grimy herbs/making unfinished potions can count as chunk tasks",
 	"Cleaning Herbs Primary": "Cleaning herbs counts as a primary training method",
-	"Vinesweeper": "Allow Vinesweeper to count as primary training for training Farming<span class='rule-asterisk noscroll'>*</span>",
+	"Vinesweeper": "Allow Vinesweeper to count as primary training for training Farming",
 	"Ogleroot": "Allow Vinesweeper to count as primary training for training Hunter",
 	"Gnomeball": "Allow playing gnomeball to count as a primary training method for Agility and Ranged<span class='rule-asterisk noscroll'>*</span>",
 	"Daemonheim training": "Allow training methods in Daemonheim to count as primary training methods<span class='rule-asterisk noscroll'>*</span>",
 	"Daemonheim tasks": "Allows activities and items in Daemonheim, excluding doors and puzzles, to create skilling tasks<span class='rule-asterisk noscroll'>*</span>",
 	"PortSkills": "Require all trainable port skills to be trained up to 90<span class='rule-asterisk noscroll'>*</span>",
 	"Titles": "Must obtain all in-game earnable titles<span class='rule-asterisk noscroll'>*</span>",
-	"Uncharted": "Allow resources only available on uncharted islands to create skilling tasks<span class='rule-asterisk noscroll'>*</span>",
+	"Uncharted": "Allow resources only available on uncharted islands to create skilling tasks",
 	"Arc Log": "Require completion of the Arc Journal<span class='rule-asterisk noscroll'>*</span>",
 	"Menaphos Log": "Require completion of the Menaphos Journal<span class='rule-asterisk noscroll'>*</span>",
 	"Fill Costume Room": "WIP - Must fill all slots in the Player-Owned House costume room",
 	"Achievement": "Show Achievement Tasks",
 	"Multiple Pickpockets": "Require the Agility and Thieving levels to get multiple loots from pickpocketing<span class='rule-asterisk noscroll'>*</span>",
     "F2P": "Restrict to F2P skills/items/tasks only (Partially implemented)",
-	"Hard Mode Bosses": "Include Hard mode variants of bosses",
-	"Group Content": "Require content that is intended to be completed in a group<span class='rule-asterisk noscroll'>†</span>",
+	"Hard Mode Bosses": "Include Hard mode variants of bosses<span class='rule-asterisk noscroll'>*</span>",
+	"Group Content": "Require content that is intended to be completed in a group",
 	"Full Healing": "Require Constitution levels to fully heal from different foods",
 	"Unlock Abilities": "Must unlock all reward-locked abilities, including Necromancy incantations",
 	"Sigil Abilities": "Also include Sigil abilities (Aggression, Golden Touch, etc.)<span class='rule-asterisk noscroll'>*</span>",
@@ -590,16 +592,16 @@ let ruleNames = {
 	"PvM Relics": "WIP - Must obtain all best-in-slot/quality-of-life Archaeology Relics for combat",
     "KeyItem Bosses": "For bosses that require keys to kill, factor in the droprate of the key as part of the droprate of each drop",
 	"Shooting Stars": "Getting the level to mine all tiers of shooting stars counts as a Mining skill task<span class='rule-asterisk noscroll'>*</span>",
-	"Combat Mastery achievements": "Must complete Combat Mastery achievements when possible.",
-	"Speed Killer Achievements": "Also include Speed Killer achievements.",
-	"Combat Master+": "Must complete the Master and Grandmaster tier.",
+	"Combat Mastery achievements": "Must complete Combat Mastery achievements when possible.<span class='rule-asterisk noscroll'>*</span>",
+	"Speed Killer Achievements": "Also include Speed Killer achievements.<span class='rule-asterisk noscroll'>†</span>",
+	"Combat Master+": "Must complete the Master and Grandmaster tier.<span class='rule-asterisk noscroll'>†</span>",
 	"Menaphos Events": "Allow soul obelisks and corrupted scarabs in Menaphos to count as primary training methods<span class='rule-asterisk noscroll'>*</span>",
 	"Material Blueprints": "Count discovering material blueprints as a skilling task",
 	"Comp achievements": "Must complete Completionist achievements<span class='rule-asterisk noscroll'>*</span>",
 	"Trim achievements": "Also include Trimmed Completionist Cape achievements<span class='rule-asterisk noscroll'>*</span>",
 	"MQC achievements": "Must complete Master Quest Cape achievements<span class='rule-asterisk noscroll'>*</span>",
 	"Misc achievements": "WIP- Must complete other achievements, excluding level-up achievements.",
-	"Hunter Marks Slayer": "Using Hunter Marks to buy Slayer experience lamps counts as primary training<span class='rule-asterisk noscroll'>*</span>",
+	"XP Lamps": "Using skills-specific experience lamps counts as a primary training method<span class='rule-asterisk noscroll'>*</span>",
 	"Kili Knowledge": "Must complete Kili Knowledge when possible",
 	"Slayer Contracts": "Completing Slayer contracts off-task counts as a primary training method",
 	"Hide Partial Products": "Exclude partial and unfinished products as a skilling task<span class='partialProductsRuleTooltip'></span>",
@@ -634,7 +636,10 @@ let rulePresets = {
 		"Achievement": true,
 		"Kili Knowledge": true,
 		"Slayer Contracts": true,
-		"Cleaning Herbs Primary": true
+		"Cleaning Herbs Primary": true,
+		"Uncharted": true,
+		"Vinesweeper": true,
+		"Primary Spawn": true
     },
     "Xtreme Chunker": {
         "Skillcape": true,
@@ -713,12 +718,13 @@ let rulePresets = {
 		"Comp achievements": true,
 		"Trim achievements": true,
 		"MQC achievements": true,
-		"Hunter Marks Slayer": true,
+		"XP Lamps": true,
 		"Kili Knowledge": true,
 		"Slayer Contracts": true,
 		"Cleaning Herbs Primary": true,
 		"Permanent Unlockables": true,
-		"Timegated": true
+		"Timegated": true,
+		"Combat Mastery achievements": true
     },
     "Supreme Chunker": {
         "Skillcape": true,
@@ -798,7 +804,6 @@ let rulePresets = {
 		"Achievement": true,
 		"Multiple Pickpockets": true,
 		"Hard Mode Bosses": true,
-		"Group Content": true,
 		"PVP": true,
 		"Full Healing": true,
 		"Hero Items": true,
@@ -812,11 +817,14 @@ let rulePresets = {
 		"Trim achievements": true,
 		"MQC achievements": true,
 		"Universal Tertiary": true,
-		"Hunter Marks Slayer": true,
+		"XP Lamps": true,
 		"Kili Knowledge": true,
 		"Slayer Contracts": true,
 		"Cleaning Herbs Primary": true,
-		"Timegated": true
+		"Timegated": true,
+		"Combat Mastery achievements": true,
+		"Speed Killer Achievements": true,
+		"Combat Master+": true
     }
 };                                                                              // List of rules that are part of each preset
 
@@ -849,6 +857,7 @@ let ruleStructure = {
         "Secondary Primary": true,
         "Quest Skill Reqs": true,
         "Boosting": true,
+		"XP Lamps": true,
 		"DnD": ["Not Daily DnD", "DnD Flash Events"],
 		"Daemonheim training": true,
 		"Daemonheim tasks": true,
@@ -914,7 +923,6 @@ let ruleStructure = {
     },
     "Slayer": {
         "Slayer Equipment": true,
-		"Hunter Marks Slayer": true,
 		"Slayer Contracts": true
     },
     "Smithing": {
@@ -940,7 +948,7 @@ let ruleStructure = {
         "Crystal chests": true,
 		"Universal Tertiary": true,
         "Primary Spawns": true,
-		"Every Drop": ["Every Drop Implings"],
+		"Every Drop": ["Every Drop Implings", "Every Drop Thieving", "Every Drop BGH"],
         "All Droptables": true,
         "All Shops": true
     },
@@ -2196,20 +2204,20 @@ let drawCanvas = function(ctxIn = ctx) {
     // Overlays
     ctxIn.save();
     !!chunkInfo['mapOverlays'] && selectedOverlay !== 'None' && selectedOverlay !== 'Locked Slayer Task|Slayer task' && !!chunkInfo['mapOverlays'][selectedOverlay] && chunkInfo['mapOverlays'][selectedOverlay].forEach((overlayEl, i) => {
-        if ((selectedOverlay !== 'Clues' || selectedOverlayClues[overlayEl.type]) && (selectedOverlayIds.length === 0 || i !== selectedOverlayId) && overlayEl.x >= 1024 && overlayEl.x <= 3967 && overlayEl.y >= 2496 && overlayEl.y <= 4159 && (!unlockedOverlayOnly || (!!tempChunks['unlocked'] && tempChunks['unlocked'].hasOwnProperty(convertToChunkNum(Math.floor((overlayEl.x - 1024)/64), (fullSize / rowSize) - Math.floor((overlayEl.y - 2496)/64) - 1))))) {
+        if ((selectedOverlay !== 'Clues' || selectedOverlayClues[overlayEl.type]) && (selectedOverlayIds.length === 0 || i !== selectedOverlayId) && overlayEl.x >= 1856 && overlayEl.x <= 4287 && overlayEl.y >= 2496 && overlayEl.y <= 4607 && (!unlockedOverlayOnly || (!!tempChunks['unlocked'] && tempChunks['unlocked'].hasOwnProperty(convertToChunkNum(Math.floor((overlayEl.x - 1856)/64), (fullSize / rowSize) - Math.floor((overlayEl.y - 2496)/64) - 1))))) {
             ctxIn.textAlign = 'center';
             ctxIn.font = '900 ' + 36 + 'px "Font Awesome 6 Free"';
             ctxIn.fillStyle = 'white';
-            ctxIn.fillText(stickerChoicesContent['map-marker-alt'], (dragTotalX + (totalZoom * (((overlayEl.x/64) - 16) * imgW / rowSize))), dragTotalY + (totalZoom * ((65 - (overlayEl.y/64)) * imgH / (fullSize / rowSize))) - 4);
+            ctxIn.fillText(stickerChoicesContent['map-marker-alt'], (dragTotalX + (totalZoom * (((overlayEl.x/64) - 29) * imgW / rowSize))), dragTotalY + (totalZoom * ((72 - (overlayEl.y/64)) * imgH / (fullSize / rowSize))) - 4);
             ctxIn.font = '900 ' + 32 + 'px "Font Awesome 6 Free"';
             ctxIn.fillStyle = hoveredOverlayIds.includes(i) && !isHoveringOverlayMenu ? 'black' : overlayEl.color;
-            ctxIn.fillText(stickerChoicesContent['map-marker-alt'], (dragTotalX + (totalZoom * (((overlayEl.x/64) - 16) * imgW / rowSize))), dragTotalY + (totalZoom * ((65 - (overlayEl.y/64)) * imgH / (fullSize / rowSize))) - 6);
+            ctxIn.fillText(stickerChoicesContent['map-marker-alt'], (dragTotalX + (totalZoom * (((overlayEl.x/64) - 29) * imgW / rowSize))), dragTotalY + (totalZoom * ((72 - (overlayEl.y/64)) * imgH / (fullSize / rowSize))) - 6);
             if (selectedOverlayIds.length !== 0 && selectedOverlayIds.includes(i)) {
                 ctxIn.fillStyle = 'rgba(30, 30, 30, 0.5)';
-                ctxIn.fillText(stickerChoicesContent['map-marker-alt'], (dragTotalX + (totalZoom * (((overlayEl.x/64) - 16) * imgW / rowSize))), dragTotalY + (totalZoom * ((65 - (overlayEl.y/64)) * imgH / (fullSize / rowSize))) - 6);
+                ctxIn.fillText(stickerChoicesContent['map-marker-alt'], (dragTotalX + (totalZoom * (((overlayEl.x/64) - 29) * imgW / rowSize))), dragTotalY + (totalZoom * ((72 - (overlayEl.y/64)) * imgH / (fullSize / rowSize))) - 6);
             }
             ctxIn.beginPath();
-            ctxIn.arc((dragTotalX + (totalZoom * (((overlayEl.x/64) - 16) * imgW / rowSize))), dragTotalY + (totalZoom * ((65 - (overlayEl.y/64)) * imgH / (fullSize / rowSize))) - 22, 5, 0, 2 * Math.PI, false);
+            ctxIn.arc((dragTotalX + (totalZoom * (((overlayEl.x/64) - 29) * imgW / rowSize))), dragTotalY + (totalZoom * ((72 - (overlayEl.y/64)) * imgH / (fullSize / rowSize))) - 22, 5, 0, 2 * Math.PI, false);
             ctxIn.fillStyle = 'white';
             ctxIn.fill();
         }
@@ -2222,14 +2230,14 @@ let drawCanvas = function(ctxIn = ctx) {
         ctxIn.textAlign = 'center';
         ctxIn.font = '900 ' + 36 + 'px "Font Awesome 6 Free"';
         ctxIn.fillStyle = 'white';
-        ctxIn.fillText(stickerChoicesContent['map-marker-alt'], (dragTotalX + (totalZoom * (((overlayEl.x/64) - 16) * imgW / rowSize))), dragTotalY + (totalZoom * ((65 - (overlayEl.y/64)) * imgH / (fullSize / rowSize))) - 4);
+        ctxIn.fillText(stickerChoicesContent['map-marker-alt'], (dragTotalX + (totalZoom * (((overlayEl.x/64) - 29) * imgW / rowSize))), dragTotalY + (totalZoom * ((72 - (overlayEl.y/64)) * imgH / (fullSize / rowSize))) - 4);
         ctxIn.font = '900 ' + 32 + 'px "Font Awesome 6 Free"';
         ctxIn.fillStyle = hoveredOverlayIds.includes(selectedOverlayId) && !isHoveringOverlayMenu ? 'black' : overlayEl.color;
-        ctxIn.fillText(stickerChoicesContent['map-marker-alt'], (dragTotalX + (totalZoom * (((overlayEl.x/64) - 16) * imgW / rowSize))), dragTotalY + (totalZoom * ((65 - (overlayEl.y/64)) * imgH / (fullSize / rowSize))) - 6);
+        ctxIn.fillText(stickerChoicesContent['map-marker-alt'], (dragTotalX + (totalZoom * (((overlayEl.x/64) - 29) * imgW / rowSize))), dragTotalY + (totalZoom * ((72 - (overlayEl.y/64)) * imgH / (fullSize / rowSize))) - 6);
         ctxIn.fillStyle = 'rgba(200, 200, 200, 0.25)';
-        ctxIn.fillText(stickerChoicesContent['map-marker-alt'], (dragTotalX + (totalZoom * (((overlayEl.x/64) - 16) * imgW / rowSize))), dragTotalY + (totalZoom * ((65 - (overlayEl.y/64)) * imgH / (fullSize / rowSize))) - 6);
+        ctxIn.fillText(stickerChoicesContent['map-marker-alt'], (dragTotalX + (totalZoom * (((overlayEl.x/64) - 29) * imgW / rowSize))), dragTotalY + (totalZoom * ((72 - (overlayEl.y/64)) * imgH / (fullSize / rowSize))) - 6);
         ctxIn.beginPath();
-        ctxIn.arc((dragTotalX + (totalZoom * (((overlayEl.x/64) - 16) * imgW / rowSize))), dragTotalY + (totalZoom * ((65 - (overlayEl.y/64)) * imgH / (fullSize / rowSize))) - 22, 5, 0, 2 * Math.PI, false);
+        ctxIn.arc((dragTotalX + (totalZoom * (((overlayEl.x/64) - 29) * imgW / rowSize))), dragTotalY + (totalZoom * ((72 - (overlayEl.y/64)) * imgH / (fullSize / rowSize))) - 22, 5, 0, 2 * Math.PI, false);
         ctxIn.fillStyle = 'white';
         ctxIn.fill();
         ctxIn.fillStyle = getComputedStyle(ctxIn.canvas).getPropertyValue('--color1');
@@ -2238,56 +2246,56 @@ let drawCanvas = function(ctxIn = ctx) {
         let topText = `${overlayEl.type} Step`;
         if (overlayEl.hasOwnProperty('img')) {
             ctxIn.font = 'bold 24px Calibri, Roboto Condensed, sans-serif';
-            ctxIn.fillRect((dragTotalX + (totalZoom * (((overlayEl.x/64) - 16) * imgW / rowSize))) + 20, dragTotalY + (totalZoom * ((65 - (overlayEl.y/64)) * imgH / (fullSize / rowSize))) - 199, 200, 24);
-            ctxIn.strokeRect((dragTotalX + (totalZoom * (((overlayEl.x/64) - 16) * imgW / rowSize))) + 20, dragTotalY + (totalZoom * ((65 - (overlayEl.y/64)) * imgH / (fullSize / rowSize))) - 199, 200, 24);
+            ctxIn.fillRect((dragTotalX + (totalZoom * (((overlayEl.x/64) - 29) * imgW / rowSize))) + 20, dragTotalY + (totalZoom * ((72 - (overlayEl.y/64)) * imgH / (fullSize / rowSize))) - 199, 200, 24);
+            ctxIn.strokeRect((dragTotalX + (totalZoom * (((overlayEl.x/64) - 29) * imgW / rowSize))) + 20, dragTotalY + (totalZoom * ((72 - (overlayEl.y/64)) * imgH / (fullSize / rowSize))) - 199, 200, 24);
             ctxIn.fillStyle = getComputedStyle(ctxIn.canvas).getPropertyValue('--colorText');
             ctxIn.textAlign = 'left';
-            ctxIn.fillText(topText, (dragTotalX + (totalZoom * (((overlayEl.x/64) - 16) * imgW / rowSize))) + 22, dragTotalY + (totalZoom * ((65 - (overlayEl.y/64)) * imgH / (fullSize / rowSize))) - 180);
+            ctxIn.fillText(topText, (dragTotalX + (totalZoom * (((overlayEl.x/64) - 29) * imgW / rowSize))) + 22, dragTotalY + (totalZoom * ((72 - (overlayEl.y/64)) * imgH / (fullSize / rowSize))) - 180);
             ctxIn.font = '900 ' + 18 + 'px "Font Awesome 6 Free"';
-            selectedOverlayIndex > 0 && selectedOverlayIds.length > 1 && ctxIn.fillText('\uf053', (dragTotalX + (totalZoom * (((overlayEl.x/64) - 16) * imgW / rowSize))) + 165, dragTotalY + (totalZoom * ((65 - (overlayEl.y/64)) * imgH / (fullSize / rowSize))) - 180);
-            selectedOverlayIndex < (selectedOverlayIds.length - 1) && ctxIn.fillText('\uf054', (dragTotalX + (totalZoom * (((overlayEl.x/64) - 16) * imgW / rowSize))) + 180, dragTotalY + (totalZoom * ((65 - (overlayEl.y/64)) * imgH / (fullSize / rowSize))) - 180);
+            selectedOverlayIndex > 0 && selectedOverlayIds.length > 1 && ctxIn.fillText('\uf053', (dragTotalX + (totalZoom * (((overlayEl.x/64) - 29) * imgW / rowSize))) + 165, dragTotalY + (totalZoom * ((72 - (overlayEl.y/64)) * imgH / (fullSize / rowSize))) - 180);
+            selectedOverlayIndex < (selectedOverlayIds.length - 1) && ctxIn.fillText('\uf054', (dragTotalX + (totalZoom * (((overlayEl.x/64) - 29) * imgW / rowSize))) + 180, dragTotalY + (totalZoom * ((72 - (overlayEl.y/64)) * imgH / (fullSize / rowSize))) - 180);
             ctxIn.font = '900 ' + 24 + 'px "Font Awesome 6 Free"';
-            ctxIn.fillText('\uf00d', (dragTotalX + (totalZoom * (((overlayEl.x/64) - 16) * imgW / rowSize))) + 200, dragTotalY + (totalZoom * ((65 - (overlayEl.y/64)) * imgH / (fullSize / rowSize))) - 180);
+            ctxIn.fillText('\uf00d', (dragTotalX + (totalZoom * (((overlayEl.x/64) - 29) * imgW / rowSize))) + 200, dragTotalY + (totalZoom * ((72 - (overlayEl.y/64)) * imgH / (fullSize / rowSize))) - 180);
             ctxIn.fillStyle = getComputedStyle(ctxIn.canvas).getPropertyValue('--color1');
             ctxIn.strokeStyle = 'black';
             let overlayImg = new Image();
             overlayImg.src = overlayEl.img;
-            ctxIn.fillRect((dragTotalX + (totalZoom * (((overlayEl.x/64) - 16) * imgW / rowSize))) + 20, dragTotalY + (totalZoom * ((65 - (overlayEl.y/64)) * imgH / (fullSize / rowSize))) - 175, 200, 200);
-            ctxIn.strokeRect((dragTotalX + (totalZoom * (((overlayEl.x/64) - 16) * imgW / rowSize))) + 20, dragTotalY + (totalZoom * ((65 - (overlayEl.y/64)) * imgH / (fullSize / rowSize))) - 175, 200, 200);
-            ctxIn.drawImage(overlayImg, (dragTotalX + (totalZoom * (((overlayEl.x/64) - 16) * imgW / rowSize))) + 25, dragTotalY + (totalZoom * ((65 - (overlayEl.y/64)) * imgH / (fullSize / rowSize))) - 170, 190, 190);
-            overlayCloseLocation = [(dragTotalX + (totalZoom * (((overlayEl.x/64) - 16) * imgW / rowSize))) + 200, dragTotalY + (totalZoom * ((65 - (overlayEl.y/64)) * imgH / (fullSize / rowSize))) - 180];
-            overlayLeftLocation = (selectedOverlayIndex > 0 && selectedOverlayIds.length > 1 ? [(dragTotalX + (totalZoom * (((overlayEl.x/64) - 16) * imgW / rowSize))) + 165, dragTotalY + (totalZoom * ((65 - (overlayEl.y/64)) * imgH / (fullSize / rowSize))) - 180] : -1);
-            overlayRightLocation = (selectedOverlayIndex < (selectedOverlayIds.length - 1) ? [(dragTotalX + (totalZoom * (((overlayEl.x/64) - 16) * imgW / rowSize))) + 180, dragTotalY + (totalZoom * ((65 - (overlayEl.y/64)) * imgH / (fullSize / rowSize))) - 180] : -1);
-            overlayMenuLocation = [(dragTotalX + (totalZoom * (((overlayEl.x/64) - 16) * imgW / rowSize))) + 20, dragTotalY + (totalZoom * ((65 - (overlayEl.y/64)) * imgH / (fullSize / rowSize))) - 199, (dragTotalX + (totalZoom * (((overlayEl.x/64) - 16) * imgW / rowSize))) + 20 + 200, dragTotalY + (totalZoom * ((65 - (overlayEl.y/64)) * imgH / (fullSize / rowSize))) - 175 + 200];
+            ctxIn.fillRect((dragTotalX + (totalZoom * (((overlayEl.x/64) - 29) * imgW / rowSize))) + 20, dragTotalY + (totalZoom * ((72 - (overlayEl.y/64)) * imgH / (fullSize / rowSize))) - 175, 200, 200);
+            ctxIn.strokeRect((dragTotalX + (totalZoom * (((overlayEl.x/64) - 29) * imgW / rowSize))) + 20, dragTotalY + (totalZoom * ((72 - (overlayEl.y/64)) * imgH / (fullSize / rowSize))) - 175, 200, 200);
+            ctxIn.drawImage(overlayImg, (dragTotalX + (totalZoom * (((overlayEl.x/64) - 29) * imgW / rowSize))) + 25, dragTotalY + (totalZoom * ((72 - (overlayEl.y/64)) * imgH / (fullSize / rowSize))) - 170, 190, 190);
+            overlayCloseLocation = [(dragTotalX + (totalZoom * (((overlayEl.x/64) - 29) * imgW / rowSize))) + 200, dragTotalY + (totalZoom * ((72 - (overlayEl.y/64)) * imgH / (fullSize / rowSize))) - 180];
+            overlayLeftLocation = (selectedOverlayIndex > 0 && selectedOverlayIds.length > 1 ? [(dragTotalX + (totalZoom * (((overlayEl.x/64) - 29) * imgW / rowSize))) + 165, dragTotalY + (totalZoom * ((72 - (overlayEl.y/64)) * imgH / (fullSize / rowSize))) - 180] : -1);
+            overlayRightLocation = (selectedOverlayIndex < (selectedOverlayIds.length - 1) ? [(dragTotalX + (totalZoom * (((overlayEl.x/64) - 29) * imgW / rowSize))) + 180, dragTotalY + (totalZoom * ((72 - (overlayEl.y/64)) * imgH / (fullSize / rowSize))) - 180] : -1);
+            overlayMenuLocation = [(dragTotalX + (totalZoom * (((overlayEl.x/64) - 29) * imgW / rowSize))) + 20, dragTotalY + (totalZoom * ((72 - (overlayEl.y/64)) * imgH / (fullSize / rowSize))) - 199, (dragTotalX + (totalZoom * (((overlayEl.x/64) - 29) * imgW / rowSize))) + 20 + 200, dragTotalY + (totalZoom * ((72 - (overlayEl.y/64)) * imgH / (fullSize / rowSize))) - 175 + 200];
         } else {
             ctxIn.font = '18px Calibri, Roboto Condensed, sans-serif';
             let hoverText = `${overlayEl.text}`;
             let hoverTextLines = getLines(ctxIn, hoverText, 190);
             ctxIn.font = 'bold 24px Calibri, Roboto Condensed, sans-serif';
-            ctxIn.fillRect((dragTotalX + (totalZoom * (((overlayEl.x/64) - 16) * imgW / rowSize))) + 20, dragTotalY + (totalZoom * ((65 - (overlayEl.y/64)) * imgH / (fullSize / rowSize))) - 199 + (200 - (hoverTextLines.length * 19 + 10)), 200, 24);
-            ctxIn.strokeRect((dragTotalX + (totalZoom * (((overlayEl.x/64) - 16) * imgW / rowSize))) + 20, dragTotalY + (totalZoom * ((65 - (overlayEl.y/64)) * imgH / (fullSize / rowSize))) - 199 + (200 - (hoverTextLines.length * 19 + 10)), 200, 24);
+            ctxIn.fillRect((dragTotalX + (totalZoom * (((overlayEl.x/64) - 29) * imgW / rowSize))) + 20, dragTotalY + (totalZoom * ((72 - (overlayEl.y/64)) * imgH / (fullSize / rowSize))) - 199 + (200 - (hoverTextLines.length * 19 + 10)), 200, 24);
+            ctxIn.strokeRect((dragTotalX + (totalZoom * (((overlayEl.x/64) - 29) * imgW / rowSize))) + 20, dragTotalY + (totalZoom * ((72 - (overlayEl.y/64)) * imgH / (fullSize / rowSize))) - 199 + (200 - (hoverTextLines.length * 19 + 10)), 200, 24);
             ctxIn.fillStyle = getComputedStyle(ctxIn.canvas).getPropertyValue('--colorText');
             ctxIn.textAlign = 'left';
-            ctxIn.fillText(topText, (dragTotalX + (totalZoom * (((overlayEl.x/64) - 16) * imgW / rowSize))) + 22, dragTotalY + (totalZoom * ((65 - (overlayEl.y/64)) * imgH / (fullSize / rowSize))) - 180 + (200 - (hoverTextLines.length * 19 + 10)));
+            ctxIn.fillText(topText, (dragTotalX + (totalZoom * (((overlayEl.x/64) - 29) * imgW / rowSize))) + 22, dragTotalY + (totalZoom * ((72 - (overlayEl.y/64)) * imgH / (fullSize / rowSize))) - 180 + (200 - (hoverTextLines.length * 19 + 10)));
             ctxIn.font = '900 ' + 18 + 'px "Font Awesome 6 Free"';
-            selectedOverlayIndex > 0 && selectedOverlayIds.length > 1 && ctxIn.fillText('\uf053', (dragTotalX + (totalZoom * (((overlayEl.x/64) - 16) * imgW / rowSize))) + 165, dragTotalY + (totalZoom * ((65 - (overlayEl.y/64)) * imgH / (fullSize / rowSize))) - 180 + (200 - (hoverTextLines.length * 19 + 10)));
-            selectedOverlayIndex < (selectedOverlayIds.length - 1) && ctxIn.fillText('\uf054', (dragTotalX + (totalZoom * (((overlayEl.x/64) - 16) * imgW / rowSize))) + 180, dragTotalY + (totalZoom * ((65 - (overlayEl.y/64)) * imgH / (fullSize / rowSize))) - 180 + (200 - (hoverTextLines.length * 19 + 10)));
+            selectedOverlayIndex > 0 && selectedOverlayIds.length > 1 && ctxIn.fillText('\uf053', (dragTotalX + (totalZoom * (((overlayEl.x/64) - 29) * imgW / rowSize))) + 165, dragTotalY + (totalZoom * ((72 - (overlayEl.y/64)) * imgH / (fullSize / rowSize))) - 180 + (200 - (hoverTextLines.length * 19 + 10)));
+            selectedOverlayIndex < (selectedOverlayIds.length - 1) && ctxIn.fillText('\uf054', (dragTotalX + (totalZoom * (((overlayEl.x/64) - 29) * imgW / rowSize))) + 180, dragTotalY + (totalZoom * ((72 - (overlayEl.y/64)) * imgH / (fullSize / rowSize))) - 180 + (200 - (hoverTextLines.length * 19 + 10)));
             ctxIn.font = '900 ' + 24 + 'px "Font Awesome 6 Free"';
-            ctxIn.fillText('\uf00d', (dragTotalX + (totalZoom * (((overlayEl.x/64) - 16) * imgW / rowSize))) + 200, dragTotalY + (totalZoom * ((65 - (overlayEl.y/64)) * imgH / (fullSize / rowSize))) - 180 + (200 - (hoverTextLines.length * 19 + 10)));
+            ctxIn.fillText('\uf00d', (dragTotalX + (totalZoom * (((overlayEl.x/64) - 29) * imgW / rowSize))) + 200, dragTotalY + (totalZoom * ((72 - (overlayEl.y/64)) * imgH / (fullSize / rowSize))) - 180 + (200 - (hoverTextLines.length * 19 + 10)));
             ctxIn.fillStyle = getComputedStyle(ctxIn.canvas).getPropertyValue('--color1');
             ctxIn.strokeStyle = 'black';
             ctxIn.font = '18px Calibri, Roboto Condensed, sans-serif';
-            ctxIn.fillRect((dragTotalX + (totalZoom * (((overlayEl.x/64) - 16) * imgW / rowSize))) + 20, dragTotalY + (totalZoom * ((65 - (overlayEl.y/64)) * imgH / (fullSize / rowSize))) - 175 + (200 - (hoverTextLines.length * 19 + 10)), 200, (hoverTextLines.length * 19 + 10));
-            ctxIn.strokeRect((dragTotalX + (totalZoom * (((overlayEl.x/64) - 16) * imgW / rowSize))) + 20, dragTotalY + (totalZoom * ((65 - (overlayEl.y/64)) * imgH / (fullSize / rowSize))) - 175 + (200 - (hoverTextLines.length * 19 + 10)), 200, (hoverTextLines.length * 19 + 10));
+            ctxIn.fillRect((dragTotalX + (totalZoom * (((overlayEl.x/64) - 29) * imgW / rowSize))) + 20, dragTotalY + (totalZoom * ((72 - (overlayEl.y/64)) * imgH / (fullSize / rowSize))) - 175 + (200 - (hoverTextLines.length * 19 + 10)), 200, (hoverTextLines.length * 19 + 10));
+            ctxIn.strokeRect((dragTotalX + (totalZoom * (((overlayEl.x/64) - 29) * imgW / rowSize))) + 20, dragTotalY + (totalZoom * ((72 - (overlayEl.y/64)) * imgH / (fullSize / rowSize))) - 175 + (200 - (hoverTextLines.length * 19 + 10)), 200, (hoverTextLines.length * 19 + 10));
             ctxIn.fillStyle = getComputedStyle(ctxIn.canvas).getPropertyValue('--colorText');
             ctxIn.textAlign = 'left';
             hoverTextLines.forEach((hoverTextLine, i) => {
-                ctxIn.fillText(hoverTextLine, (dragTotalX + (totalZoom * (((overlayEl.x/64) - 16) * imgW / rowSize))) + 25, dragTotalY + (totalZoom * ((65 - (overlayEl.y/64)) * imgH / (fullSize / rowSize))) - 155 + (19 * i) + (200 - (hoverTextLines.length * 19 + 10)));
+                ctxIn.fillText(hoverTextLine, (dragTotalX + (totalZoom * (((overlayEl.x/64) - 29) * imgW / rowSize))) + 25, dragTotalY + (totalZoom * ((72 - (overlayEl.y/64)) * imgH / (fullSize / rowSize))) - 155 + (19 * i) + (200 - (hoverTextLines.length * 19 + 10)));
             });
-            overlayCloseLocation = [(dragTotalX + (totalZoom * (((overlayEl.x/64) - 16) * imgW / rowSize))) + 200, dragTotalY + (totalZoom * ((65 - (overlayEl.y/64)) * imgH / (fullSize / rowSize))) - 180 + (200 - (hoverTextLines.length * 19 + 10))];
-            overlayLeftLocation = (selectedOverlayIndex > 0 && selectedOverlayIds.length > 1 ? [(dragTotalX + (totalZoom * (((overlayEl.x/64) - 16) * imgW / rowSize))) + 165, dragTotalY + (totalZoom * ((65 - (overlayEl.y/64)) * imgH / (fullSize / rowSize))) - 180 + (200 - (hoverTextLines.length * 19 + 10))] : -1);
-            overlayRightLocation = (selectedOverlayIndex < (selectedOverlayIds.length - 1) ? [(dragTotalX + (totalZoom * (((overlayEl.x/64) - 16) * imgW / rowSize))) + 180, dragTotalY + (totalZoom * ((65 - (overlayEl.y/64)) * imgH / (fullSize / rowSize))) - 180 + (200 - (hoverTextLines.length * 19 + 10))] : -1);
-            overlayMenuLocation = [(dragTotalX + (totalZoom * (((overlayEl.x/64) - 16) * imgW / rowSize))) + 20, dragTotalY + (totalZoom * ((65 - (overlayEl.y/64)) * imgH / (fullSize / rowSize))) - 199 + (200 - (hoverTextLines.length * 19 + 10)), (dragTotalX + (totalZoom * (((overlayEl.x/64) - 16) * imgW / rowSize))) + 20 + 200, dragTotalY + (totalZoom * ((65 - (overlayEl.y/64)) * imgH / (fullSize / rowSize))) - 175 + (200 - (hoverTextLines.length * 19 + 10)) + (hoverTextLines.length * 19 + 10)];
+            overlayCloseLocation = [(dragTotalX + (totalZoom * (((overlayEl.x/64) - 29) * imgW / rowSize))) + 200, dragTotalY + (totalZoom * ((72 - (overlayEl.y/64)) * imgH / (fullSize / rowSize))) - 180 + (200 - (hoverTextLines.length * 19 + 10))];
+            overlayLeftLocation = (selectedOverlayIndex > 0 && selectedOverlayIds.length > 1 ? [(dragTotalX + (totalZoom * (((overlayEl.x/64) - 29) * imgW / rowSize))) + 165, dragTotalY + (totalZoom * ((72 - (overlayEl.y/64)) * imgH / (fullSize / rowSize))) - 180 + (200 - (hoverTextLines.length * 19 + 10))] : -1);
+            overlayRightLocation = (selectedOverlayIndex < (selectedOverlayIds.length - 1) ? [(dragTotalX + (totalZoom * (((overlayEl.x/64) - 29) * imgW / rowSize))) + 180, dragTotalY + (totalZoom * ((72 - (overlayEl.y/64)) * imgH / (fullSize / rowSize))) - 180 + (200 - (hoverTextLines.length * 19 + 10))] : -1);
+            overlayMenuLocation = [(dragTotalX + (totalZoom * (((overlayEl.x/64) - 29) * imgW / rowSize))) + 20, dragTotalY + (totalZoom * ((72 - (overlayEl.y/64)) * imgH / (fullSize / rowSize))) - 199 + (200 - (hoverTextLines.length * 19 + 10)), (dragTotalX + (totalZoom * (((overlayEl.x/64) - 29) * imgW / rowSize))) + 20 + 200, dragTotalY + (totalZoom * ((72 - (overlayEl.y/64)) * imgH / (fullSize / rowSize))) - 175 + (200 - (hoverTextLines.length * 19 + 10)) + (hoverTextLines.length * 19 + 10)];
         }
     } else {
         overlayCloseLocation = -1;
@@ -2676,8 +2684,8 @@ let handleMouseMove = function(e) {
             hoveredOverlayIds = [];
             let lowestDistance = 100;
             e.target.id === 'canvas' && chunkInfo['mapOverlays'][selectedOverlay].forEach((overlayEl, i) => {
-                if ((overlayEl.text || overlayEl.img) && (selectedOverlay !== 'Clues' || selectedOverlayClues[overlayEl.type]) && overlayEl.x >= 1024 && overlayEl.x <= 3967 && overlayEl.y >= 2496 && overlayEl.y <= 4159 && (!unlockedOverlayOnly || (!!tempChunks['unlocked'] && tempChunks['unlocked'].hasOwnProperty(convertToChunkNum(Math.floor((overlayEl.x - 1024)/64), (fullSize / rowSize) - Math.ceil((overlayEl.y - 2495)/64)))))) {
-                    let distance = Math.sqrt(Math.pow((dragTotalX + (totalZoom * (((overlayEl.x/64) - 16) * imgW / rowSize))) - currentX, 2) + Math.pow((dragTotalY + (totalZoom * ((65 - (overlayEl.y/64)) * imgH / (fullSize / rowSize))) - 6 - 15) - currentY, 2));
+                if ((overlayEl.text || overlayEl.img) && (selectedOverlay !== 'Clues' || selectedOverlayClues[overlayEl.type]) && overlayEl.x >= 1856 && overlayEl.x <= 4287 && overlayEl.y >= 2496 && overlayEl.y <= 4607 && (!unlockedOverlayOnly || (!!tempChunks['unlocked'] && tempChunks['unlocked'].hasOwnProperty(convertToChunkNum(Math.floor((overlayEl.x - 1856)/64), (fullSize / rowSize) - Math.ceil((overlayEl.y - 2495)/64)))))) {
+                    let distance = Math.sqrt(Math.pow((dragTotalX + (totalZoom * (((overlayEl.x/64) - 29) * imgW / rowSize))) - currentX, 2) + Math.pow((dragTotalY + (totalZoom * ((72 - (overlayEl.y/64)) * imgH / (fullSize / rowSize))) - 6 - 15) - currentY, 2));
                     if (distance < 15 && distance < lowestDistance) {
                         hoveredOverlayIds.push(i);
                         distance = distance;
@@ -12753,6 +12761,18 @@ let loadData = async function(startup) {
 		
 		if (!rulesTemp.hasOwnProperty('Untracked Uniques Misc')) {
             rulesTemp['Untracked Uniques Misc'] = rulesTemp.hasOwnProperty('Untracked Uniques') ? rulesTemp['Untracked Uniques'] : false;
+		}
+		
+		if (!rulesTemp.hasOwnProperty('Every Drop Thieving')) {
+            rulesTemp['Every Drop Thieving'] = rulesTemp.hasOwnProperty('Every Drop') ? rulesTemp['Every Drop'] : false;
+		}
+		
+		if (!rulesTemp.hasOwnProperty('Every Drop BGH')) {
+            rulesTemp['Every Drop BGH'] = rulesTemp.hasOwnProperty('Every Drop') ? rulesTemp['Every Drop'] : false;
+		}
+		
+		if (!rulesTemp.hasOwnProperty('XP Lamps')) {
+            rulesTemp['XP Lamps'] = rulesTemp.hasOwnProperty('Hunter Marks Slayer') ? rulesTemp['Hunter Marks Slayer'] : false;
 		}
 		
 		if (!rulesTemp.hasOwnProperty('Menaphos Log')) {
