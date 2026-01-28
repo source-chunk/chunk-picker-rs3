@@ -1569,7 +1569,7 @@ let topbarElements = {
     'Sandbox Mode': `<div><span class='noscroll' onclick="enableTestMode()"><i class="gosandbox fa-solid fa-flask" title='Sandbox Mode'></i></span></div>`,
 };
 
-let currentVersion = '6.9.17.1';
+let currentVersion = '6.9.19';
 let patchNotesVersion = '6.9.8.2';
 let updateLevel = 'difference';
 
@@ -1717,7 +1717,7 @@ mapImg.addEventListener("load", e => {
         centerCanvas('quick');
     }
 });
-mapImg.src = "runescape_world_map.png?v=6.9.17.1";
+mapImg.src = "runescape_world_map.png?v=6.9.19";
 
 // Rounded rectangle
 CanvasRenderingContext2D.prototype.roundRect = function (x, y, w, h, r) {
@@ -3095,6 +3095,7 @@ let openRollChunkCanvas = async function(el, rand, sNum, rand2, sNum2, isUnpick)
     isPreloading = true;
     $('#fancyRollModal, .roll-chunk-spinner').show();
     $('#fancyRollModal .modal-content').hide();
+    $('.canvasDiv').css({'opacity': 1});
     await preloadChunkImages(el);
     isPreloading = false;
     $('.roll-chunk-spinner').hide();
@@ -3373,6 +3374,7 @@ let pickCanvas = function(both, override) {
         rand = Math.floor(Math.random() * el.length);
         if (settings['cinematicRoll'] && !onMobile && mid !== roll5Mid) {
             $('.pick').html(`<div class="noscroll calculating"><i class="noscroll fa-solid fa-spinner fa-spin"></i></div>`).addClass('pick-preloading').removeClass('pick').attr('disabled', true);
+            $('.canvasDiv').css({'opacity': 0});
             openRollChunkCanvas(el, rand, 0);
         }
         didRandomStart = true;
@@ -3397,6 +3399,7 @@ let pickCanvas = function(both, override) {
         sNum = tempSelectedChunks.indexOf(el[rand]) + 1;
         if (settings['cinematicRoll'] && !onMobile && mid !== roll5Mid) {
             $('.pick').html(`<div class="noscroll calculating"><i class="noscroll fa-solid fa-spinner fa-spin"></i></div>`).addClass('pick-preloading').removeClass('pick').attr('disabled', true);
+            $('.canvasDiv').css({'opacity': 0});
             openRollChunkCanvas(el, rand, sNum);
         }
         tempSelectedChunks.splice(sNum - 1, 1);
@@ -3523,6 +3526,7 @@ let roll2Canvas = function(override) {
     }
     if (settings['cinematicRoll'] && !onMobile && mid !== roll5Mid && numToRoll === 2) {
         $('.roll2').html(`<div class="noscroll calculating"><i class="noscroll fa-solid fa-spinner fa-spin"></i></div>`).addClass('roll2-preloading').removeClass('roll2').attr('disabled', true);
+        $('.canvasDiv').css({'opacity': 0});
         openRollChunkCanvas(savedEl, savedEl.indexOf(rands[0]), sNums[0], savedEl.indexOf(rands[1]), sNums[1]);
     }
     setData();
@@ -3556,6 +3560,7 @@ let unpickCanvas = function() {
     $('#chunkInfo1').text('Unlocked chunks: ' + (!!tempChunks['unlocked'] ? Object.keys(tempChunks['unlocked']).length : 0));
     if (settings['cinematicRoll'] && !onMobile && mid !== roll5Mid) {
         $('.unpick').html(`<div class="noscroll calculating"><i class="noscroll fa-solid fa-spinner fa-spin"></i></div>`).addClass('unpick-preloading').removeClass('unpick').attr('disabled', true);
+        $('.canvasDiv').css({'opacity': 0});
         openRollChunkCanvas(el, rand, null, undefined, undefined, true);
     } else {
         scrollToChunkCanvas(el[rand]);
@@ -3625,7 +3630,7 @@ let calcCurrentChallengesCanvas = function(useOld, proceed, fromLoadData, inputT
         setCalculating('.panel-active', useOld);
         setCurrentChallenges(['No tasks currently backlogged.'], ['No tasks currently completed.'], true, true);
         myWorker.terminate();
-        myWorker = new Worker("./worker.js?v=6.9.17.1");
+        myWorker = new Worker("./worker.js?v=6.9.19");
         myWorker.onmessage = workerOnMessage;
         myWorker.postMessage(['current', tempChunks['unlocked'], rules, chunkInfo, skillNames, processingSkill, maybePrimary, combatSkills, monstersPlus, objectsPlus, chunksPlus, itemsPlus, mixPlus, npcsPlus, tasksPlus, tools, elementalRunes, manualTasks, completedChallenges, backlog, "1/" + rules['Rare Drop Amount'], universalPrimary, elementalStaves, rangedItems, boneItems, highestCurrent, dropTables, possibleAreas, randomLoot, magicTools, bossLogs, bossMonsters, minigameShops, manualEquipment, checkedChallenges, backloggedSources, altChallenges, manualMonsters, slayerLocked, passiveSkill, f2pSkills, assignedXpRewards, mid === diary2Tier, manualAreas, "1/" + rules['Secondary Primary Amount'], mid === manualAreasOnly, tempSections, maxSkill, userTasks, manualPrimary, updateLevel]);
         workersOut['current'] = true;
@@ -3929,8 +3934,8 @@ $(document).ready(function() {
 // ------------------------------------------------------------
 
 // Recieve message from worker
-let myWorker = new Worker("./worker.js?v=6.9.17.1");
-let myWorker2 = new Worker("./worker.js?v=6.9.17.1");
+let myWorker = new Worker("./worker.js?v=6.9.19");
+let myWorker2 = new Worker("./worker.js?v=6.9.19");
 let workerOnMessage = function(e) {
     if (e.data[0] === 'reload') {
         window.location.reload();
@@ -6872,7 +6877,7 @@ let calcFutureChallenges = function() {
     }
     tempSections = combineJSONs(tempSections, manualSections);
     myWorker2.terminate();
-    myWorker2 = new Worker("./worker.js?v=6.9.17.1");
+    myWorker2 = new Worker("./worker.js?v=6.9.19");
     myWorker2.onmessage = workerOnMessage;
     myWorker2.postMessage(['future', chunks, rules, chunkInfo, skillNames, processingSkill, maybePrimary, combatSkills, monstersPlus, objectsPlus, chunksPlus, itemsPlus, mixPlus, npcsPlus, tasksPlus, tools, elementalRunes, manualTasks, completedChallenges, backlog, "1/" + rules['Rare Drop Amount'], universalPrimary, elementalStaves, rangedItems, boneItems, highestCurrent, dropTables, possibleAreas, randomLoot, magicTools, bossLogs, bossMonsters, minigameShops, manualEquipment, checkedChallenges, backloggedSources, altChallenges, manualMonsters, slayerLocked, passiveSkill, f2pSkills, assignedXpRewards, mid === diary2Tier, manualAreas, "1/" + rules['Secondary Primary Amount'], mid === manualAreasOnly, tempSections, maxSkill, userTasks, manualPrimary, updateLevel]);
     workersOut['future'] = infoLockedId;
