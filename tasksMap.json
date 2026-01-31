@@ -19302,7 +19302,7 @@
   "Kill X ~|Gnome woman|~": "t_18548",
   "Kill X ~|Gnome troop#Tree Gnome Stronghold|~": "t_53296",
   "Kill X ~|Mounted terrorbird gnome|~": "t_18550",
-  "Kill X ~|Tortoise#With riders|~": "t_112026",
+  "Kill X ~|Tortoise#With riders|~": "t_116118",
   "Kill X ~|Tortoise|~": "t_18551",
   "Kill X ~|Otherworldly being|~": "t_18552",
   "Kill X ~|San Tojalon|~": "t_18553",
@@ -90986,5 +90986,5 @@
   "Pizazz points: ~|Death rune|~": "t_52854",
   "Pizazz points: ~|Soul rune|~": "t_52856",
   "Pizazz points: ~|Blood rune|~": "t_52857",
-  "currentNextIndex": 116118
+  "currentNextIndex": 116119
 }
