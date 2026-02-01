@@ -73136,6 +73136,13 @@
 				"Primary": true,
 				"Priority": 2
 			},
+			"Pickpocket ~|Ghotistix|~": {
+				"NPCs": ["Ghotistix"],
+				"Level": 42,
+				"Output": "Ghotistix",
+				"Primary": true,
+				"Priority": 1
+			},
 			"Loot a ~|chest (50 coins)|~": {
 				"Level": 43,
 				"Objects": ["Chest (50 coins)"],
@@ -128513,7 +128520,7 @@
 				"Description": "Unlock everything in the Shooting Star Reward Shop.",
 				"BaseQuest": "Completionist achievements",
 				"Chunks": ["12337-1"],
-				"Objects": ["Crashed star"],
+				"Items": ["Stardust"],
 				"Not F2P": true
 			},
 			"~|Completionist achievements#Trimmed Completionist Cape|~ Penguin Adoption Agency": {
@@ -145454,14 +145461,82 @@
 				"Items": ["Portal redirection"]
 			},
 			"Fully upgrade the ~|portable telescope|~": {
-				"Category": ["Permanent Unlockables", "Pets"],
-				"Label": "Follower Pets",
+				"Category": ["Permanent Unlockables"],
+				"Label": "Permanent Unlockables",
 				"Items": ["Portable telescope"]
 			},
 			"Fully upgrade ~|Shooting Star (status)|~": {
-				"Category": ["Permanent Unlockables", "Pets"],
-				"Label": "Follower Pets",
+				"Category": ["Permanent Unlockables"],
+				"Label": "Permanent Unlockables",
 				"Items": ["Mining boost"]
+			},
+			"Unlock the teleport to the Water Altar of the ~|wicked hood|~": {
+				"Category": ["Permanent Unlockables"],
+				"Label": "Permanent Unlockables",
+				"Items": ["Wicked hood", "Water talisman*"]
+			},
+			"Unlock the teleport to the Earth Altar of the ~|wicked hood|~": {
+				"Category": ["Permanent Unlockables"],
+				"Label": "Permanent Unlockables",
+				"Items": ["Wicked hood", "Earth talisman*"]
+			},
+			"Unlock the teleport to the Fire Altar of the ~|wicked hood|~": {
+				"Category": ["Permanent Unlockables"],
+				"Label": "Permanent Unlockables",
+				"Items": ["Wicked hood", "Fire talisman*"]
+			},
+			"Unlock the teleport to the Body Altar of the ~|wicked hood|~": {
+				"Category": ["Permanent Unlockables"],
+				"Label": "Permanent Unlockables",
+				"Items": ["Wicked hood", "Body talisman*"]
+			},
+			"Unlock the teleport to the Cosmic Altar of the ~|wicked hood|~": {
+				"Category": ["Permanent Unlockables"],
+				"Label": "Permanent Unlockables",
+				"Items": ["Wicked hood", "Cosmic talisman*"]
+			},
+			"Unlock the teleport to the Chaos Altar of the ~|wicked hood|~": {
+				"Category": ["Permanent Unlockables"],
+				"Label": "Permanent Unlockables",
+				"Items": ["Wicked hood", "Chaos talisman*"]
+			},
+			"Unlock the teleport to the Nature Altar of the ~|wicked hood|~": {
+				"Category": ["Permanent Unlockables"],
+				"Label": "Permanent Unlockables",
+				"Items": ["Wicked hood", "Nature talisman*"]
+			},
+			"Unlock the teleport to the Law Altar of the ~|wicked hood|~": {
+				"Category": ["Permanent Unlockables"],
+				"Label": "Permanent Unlockables",
+				"Items": ["Wicked hood", "Law talisman*"]
+			},
+			"Unlock the teleport to the Death Altar of the ~|wicked hood|~": {
+				"Category": ["Permanent Unlockables"],
+				"Label": "Permanent Unlockables",
+				"Items": ["Wicked hood", "Death talisman*"]
+			},
+			"Unlock the teleport to the Blood Altar of the ~|wicked hood|~": {
+				"Category": ["Permanent Unlockables"],
+				"Label": "Permanent Unlockables",
+				"Items": ["Wicked hood", "Blood talisman*"]
+			},
+			"Unlock the teleport to the Soul Altar of the ~|wicked hood|~": {
+				"Category": ["Permanent Unlockables"],
+				"Label": "Permanent Unlockables",
+				"Items": ["Wicked hood", "Soul talisman*"]
+			},
+			"Unlock the teleport to the Astral Altar of the ~|wicked hood|~": {
+				"Category": ["Permanent Unlockables"],
+				"Label": "Permanent Unlockables",
+				"Items": ["Wicked hood", "Omni-talisman*"],
+				"Tasks": {
+					"~|Lunar Diplomacy|~ Compelte the quest": "Quest"
+				}
+			},
+			"Upgrade the ~|wicked hood|~ with an elemental talisman": {
+				"Category": ["Permanent Unlockables"],
+				"Label": "Permanent Unlockables",
+				"Items": ["Wicked hood", "Elemental talisman*"]
 			},
 			"Unlock the ~|Warrior of Het armour|~": {
 				"Category": ["Permanent Unlockables", "Cosmetics"],
@@ -157134,6 +157209,11 @@
 				"Chunks": ["9776", "9520"],
 				"Not F2P": true
 			},
+			"Access to stardust": {
+				"Category": ["Shooting Stars"],
+				"Items": ["Stardust"],
+				"Not F2P": true
+			},
 			"Barbarian Assault rewards": {
 				"Category": ["Minigame", "Group Content"],
 				"Chunks": ["10039"],
@@ -158213,6 +158293,11 @@
 			"Open a bundle of gems": {
 				"Items": ["Bundle of gems"],
 				"Output": "Bundle of gems loot"
+			},
+			"Receive an omni-talisman from Wizard Elriss": {
+				"NPCs": ["Wizard Elriss"],
+				"Items": ["Air talisman", "Mind talisman", "Water talisman", "Earth talisman", "Fire talisman", "Body talisman", "Cosmic talisman", "Chaos talisman", "Nature talisman", "Law talisman", "Death talisman", "Blood talisman", "Soul talisman"],
+				"Output": "Omni-talisman"
 			}
 		}
 	},
@@ -163032,8 +163117,7 @@
 		"8751": {
 			"Object": {
 				"Tree": 29,
-				"Standstone": 1,
-				"Crashed star": 1
+				"Standstone": 1
 			},
 			"NPC": {
 				"Tarddiad Firefly": 5
@@ -163874,7 +163958,8 @@
 		"9007": {
 			"Object": {
 				"Tree": 9,
-				"Energy rift": 1
+				"Energy rift": 1,
+				"Crashed star": 1
 			},
 			"NPC": {
 				"Incandescent wisp": 13,
@@ -166385,10 +166470,7 @@
 			"NPC": {
 				"Mound": 11
 			},
-			"Connect": {
-				"33": true
-			},
-			"Nickname": "Feldip fishing"
+			"Nickname": "Jungle Strykewyrms"
 		},
 		"9774": {
 			"Object": {
@@ -177601,8 +177683,7 @@
 						"Tree": 7,
 						"Evergreen": 37,
 						"Anniversary tree": 1,
-						"Ivy": 7,
-						"Evil tree": 1
+						"Ivy": 7
 					},
 					"Monster": {
 						"Dwarf": 8,
@@ -177655,7 +177736,8 @@
 				"Drawers": 6,
 				"Evergreen": 38,
 				"Chest": 1,
-				"Material cache (white oak)": 2
+				"Material cache (white oak)": 2,
+				"Evil tree": 1
 			},
 			"Monster": {
 				"Guard (Edgeville)": 3,
@@ -183726,7 +183808,8 @@
 				"Tree": 4,
 				"Magic tree": 2,
 				"Bank chest": 2,
-				"Scoreboard": 1
+				"Scoreboard": 1,
+				"Crashed star": 1
 			},
 			"NPC": {
 				"Fadli": 1,
@@ -184959,8 +185042,7 @@
 				"Teak": 1,
 				"Crate": 1,
 				"Acadia tree": 2,
-				"Palm tree (choppable)": 1,
-				"Crashed star": 1
+				"Palm tree (choppable)": 1
 			},
 			"NPC": {
 				"Clay golem": 1,
@@ -184993,7 +185075,8 @@
 				"2": {
 					"Object": {
 						"Necrite rock": 3,
-						"Platinum rock": 3
+						"Platinum rock": 3,
+						"Crashed star": 1
 					}
 				}
 			},
@@ -212830,7 +212913,7 @@
 			"SawmillOperator[+]": ["Sawmill operator (Prifddinas)", "Plank maker"],
 			"StrengthMaster[+]": ["Sloane", "Yadech Strongarm"],
 			"Tanner[+]": ["Tanner", "Ellis", "Sbott", "Tanya Hyde", "Leatherworker"],
-			"Tool leprechaun[+]": ["Tool leprechaun", "Tool leprechaun (Herblore Habitat)", "Hemlock"],
+			"Tool leprechaun[+]": ["Tool leprechaun", "Tool leprechaun (Herblore Habitat)", "Hemlock", "Nhitpyx"],
 			"Trainee archaeologist[+]": [
 				"Trainee archaeologist#Archaeology Campus",
 				"Trainee archaeologist#Kharid-et",
@@ -271526,6 +271609,11 @@
 					"~|The Fremennik Trials|~ Complete the quest": "Quest"
 				}]
 			},
+			"Shooting Star Reward Shop": {
+				"12337": [{
+					"Access to stardust": "Nonskill"
+				}]
+			},
 			"Slayer Equipment": {
 				"12342-1": [{
 					"Members only": "Nonskill"
@@ -271822,7 +271910,7 @@
 			{ "color": "#8B4513", "x": 2295, "y": 3129 },
 			{ "color": "#8B4513", "x": 3335, "y": 3475 },
 			{ "color": "#8B4513", "x": 2695, "y": 3635 },
-			{ "color": "#8B4513", "x": 3514, "y": 3221 },
+			{ "color": "#8B4513", "x": 3222, "y": 3512 },
 			{ "color": "#8B4513", "x": 2653, "y": 3412 },
 			{ "color": "#8B4513", "x": 2909, "y": 2895 },
 			{ "color": "#8B4513", "x": 2450, "y": 3348 }
@@ -271879,7 +271967,7 @@
 			{ "color": "#708090", "x": 2975, "y": 3401 },
 			{ "color": "#708090", "x": 3305, "y": 3268 },
 			{ "color": "#708090", "x": 2603, "y": 3623 },
-			{ "color": "#708090", "x": 3529, "y": 3647 }
+			{ "color": "#708090", "x": 3646, "y": 3523 }
 		],
 		"Big Chinchompa": [
 			{ "color": "#87CEEB", "x": 2556, "y": 2930 },
@@ -309692,6 +309780,20 @@
 				},
 				"Crux Eqal hood": {
 					"1": "1/50000"
+				}
+			},
+			"Ghotistix": {
+				"Raw shrimps": {
+					"1": "1/4"
+				},
+				"Raw anchovies": {
+					"1": "1/4"
+				},
+				"Raw herring": {
+					"1": "1/4"
+				},
+				"Raw sardine": {
+					"1": "1/4"
 				}
 			},
 			"Crux Eqal Knight": {
