@@ -22874,7 +22874,7 @@
 			"Craft ~|studded chaps|~": {
 				"Items": ["Leather chaps*", "Steel studs*"],
 				"Level": 44,
-				"Output": "Studded leather chaps",
+				"Output": "Studded chaps",
 				"Primary": true,
 				"Priority": 4
 			},
