@@ -72647,7 +72647,7 @@
 			"Pickpocket a ~|citizen|~": {
 				"Level": 1,
 				"Mix": ["Citizen[+]"],
-				"Output": ["Citizen[+]"],
+				"Output": "Citizen[+]",
 				"Primary": true,
 				"Priority": 1
 			},
