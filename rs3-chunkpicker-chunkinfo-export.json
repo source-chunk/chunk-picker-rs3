@@ -20883,7 +20883,7 @@
 				"Primary": true,
 				"Priority": 1
 			},
-			"Craft a ~|crossbow string|~|~": {
+			"Craft a ~|crossbow string|~": {
 				"Objects": ["Spinning wheel"],
 				"Items": ["Sinew*"],
 				"Level": 10,
@@ -22751,10 +22751,10 @@
 				"Priority": 101,
 				"Not F2P": true
 			},
-			"Craft a ~|studded leather body|~": {
+			"Craft a ~|studded body|~": {
 				"Items": ["Leather body*", "Steel studs*"],
 				"Level": 41,
-				"Output": "Studded leather body",
+				"Output": "Studded body",
 				"Primary": true,
 				"Priority": 1
 			},
@@ -22871,7 +22871,7 @@
 				"Priority": 7,
 				"Not F2P": true
 			},
-			"Craft ~|studded leather chaps|~": {
+			"Craft ~|studded chaps|~": {
 				"Items": ["Leather chaps*", "Steel studs*"],
 				"Level": 44,
 				"Output": "Studded leather chaps",
@@ -58890,7 +58890,7 @@
 			},
 			"Make a bone offering at the ~|Ectofuntus|~": {
 				"Chunks": ["14646-2", "14647-3"],
-				"Items": ["EctoFunBone[+]", "Ghostspeak amulet"],
+				"Items": ["Bones[+]", "Ghostspeak amulet"],
 				"Level": 1,
 				"Output": "Ecto-token",
 				"Primary": true,
@@ -98166,6 +98166,100 @@
 				"Reward": ["Wolfbane"],
 				"Chunks": ["13622"]
 			},
+			"~|Princess and the Pauper|~ 1": {
+				"BaseQuest": "Princess and the Pauper",
+				"Description": "Talk to Rodney in Fort Forinthry, then to Aster and Siv, find up the lost sausage",
+				"Chunks": ["13111"],
+				"Tasks": {
+					"~|Gertrude's Cat|~ Complete the quest": "Quest",
+					"~|Murder on the Border|~ Complete the quest": "Quest"
+				},
+				"Skills": {
+					"Cooking": 25,
+					"Construction": 25
+				},
+				"NotF2P": true,
+				"NoBoost": true
+			},
+			"~|Princess and the Pauper|~ 2": {
+				"BaseQuest": "Princess and the Pauper",
+				"Description": "Follow the track to the Jolly Boar Inn, find the half-eaten meat pie",
+				"Chunks": ["13110-1"],
+				"Tasks": {
+					"~|Princess and the Pauper|~ 1": "Quest"
+				}
+			},
+			"~|Princess and the Pauper|~ 3": {
+				"BaseQuest": "Princess and the Pauper",
+				"Description": "Follow the track to the cabbages south of the Blue Moon Inn",
+				"Chunks": ["12852"],
+				"Tasks": {
+					"~|Princess and the Pauper|~ 2": "Quest"
+				}
+			},
+			"~|Princess and the Pauper|~ 4": {
+				"BaseQuest": "Princess and the Pauper",
+				"Description": "Ask Rodney about the Princess Special",
+				"Chunks": ["13111"],
+				"Tasks": {
+					"~|Princess and the Pauper|~ 3": "Quest"
+				}
+			},
+			"~|Princess and the Pauper|~ 5a": {
+				"BaseQuest": "Princess and the Pauper",
+				"Description": "Pick the juiciest redberries",
+				"Chunks": ["13108-1"],
+				"Tasks": {
+					"~|Princess and the Pauper|~ 4": "Quest"
+				}
+			},
+			"~|Princess and the Pauper|~ 5b": {
+				"BaseQuest": "Princess and the Pauper",
+				"Description": "Ask Gertrude for her special leaves",
+				"Chunks": ["12597-1"],
+				"Tasks": {
+					"~|Princess and the Pauper|~ 4": "Quest"
+				}
+			},
+			"~|Princess and the Pauper|~ 6": {
+				"BaseQuest": "Princess and the Pauper",
+				"Description": "Finish the perfect dog's dinner",
+				"Objects": ["Cooking range[+]"],
+				"Items": ["Raw salmon", "RawMeat[+]", "Hammer", "Bowl of water"],
+				"Tasks": {
+					"~|Princess and the Pauper|~ 5a": "Quest",
+					"~|Princess and the Pauper|~ 5b": "Quest"
+				}
+			},
+			"~|Princess and the Pauper|~ 7": {
+				"BaseQuest": "Princess and the Pauper",
+				"Description": "Return to the cabage patch, then track the stray dog to the Jolly Boar Inn and invite the dog.",
+				"Chunks": ["12852", "13110"],
+				"Tasks": {
+					"~|Princess and the Pauper|~ 6": "Quest"
+				}
+			},
+			"~|Princess and the Pauper|~ 8": {
+				"BaseQuest": "Princess and the Pauper",
+				"Description": "Return to Rodney, then build a dog house.",
+				"Chunks": ["13111"],
+				"Items": ["Wooden frame", "Plank", "Steel nails", "Bolt of cloth", "Wool"],
+				"Tasks": {
+					"~|Princess and the Pauper|~ 7": "Quest"
+				}
+			},
+			"~|Princess and the Pauper|~ Complete the quest": {
+				"Tasks": {
+					"~|Princess and the Pauper|~ 8": "Quest"
+				},
+				"QuestPoints": 1,
+				"XpReward": {
+					"Cooking": 1000,
+					"Construction": 1000
+				},
+				"BaseQuest": "Princess and the Pauper",
+				"Chunks": ["13111"]
+			},
 			"~|The Prisoner of Glouphrie|~ 1": {
 				"BaseQuest": "The Prisoner of Glouphrie",
 				"Description": "Speak to Golrie in his hideout, then talk to Golrana in the Village",
@@ -122645,6 +122739,17 @@
 				},
 				"Not F2P": true
 			},
+			"~|Completionist achievements#Master Quest Cape|~ Am I a good boy yet?": {
+				"Category": ["MQC achievements"],
+				"Description": "Get a gift from the stray dog after he moves into Fort Forinthry.",
+				"BaseQuest": "Completionist achievements",
+				"Tasks": {
+					"~|Princess and the Pauper|~ Complete the quest": "Quest"
+				},
+				"Chunks": ["13111"],
+				"Items": ["Bones[+]"],
+				"Not F2P": true
+			},
 			"~|Completionist achievements#Master Quest Cape|~ A New Direction": {
 				"Category": ["MQC achievements"],
 				"Description": "Reunite Irwinsson with his lost compass.",
@@ -123713,24 +123818,51 @@
 				},
 				"Not F2P": true
 			},
-			"~|Completionist achievements#Master Quest Cape|~ Eastern Adventurer": {
+			"~|Completionist achievements#Master Quest Cape|~ Eastern Adventurer: Quin": {
+				"Category": ["MQC achievements", "Timegated"],
+				"Description": "Complete all storylines in your Player Owned Port.",
+				"BaseQuest": "Completionist achievements",
+				"Chunks": ["Player-Owned Port"],
+				"Skills": {
+					"Fishing": 90,
+					"Runecrafting": 90,
+					"Slayer": 90
+				},
+				"Not F2P": true
+			},
+			"~|Completionist achievements#Master Quest Cape|~ Eastern Adventurer: Hyu-Ji": {
+				"Category": ["MQC achievements", "Timegated"],
+				"Description": "Complete all storylines in your Player Owned Port.",
+				"BaseQuest": "Completionist achievements",
+				"Chunks": ["Player-Owned Port"],
+				"Skills": {
+					"Herblore": 90,
+					"Prayer": 90,
+					"Thieving": 90
+				},
+				"Not F2P": true
+			},
+			"~|Completionist achievements#Master Quest Cape|~ Eastern Adventurer: Eastern Curiosities": {
+				"Category": ["MQC achievements", "Timegated"],
+				"Description": "Complete all storylines in your Player Owned Port.",
+				"BaseQuest": "Completionist achievements",
+				"Chunks": ["Player-Owned Port"],
+				"Skills": {
+					"Construction": 90,
+					"Cooking": 90,
+					"Hunter": 90
+				},
+				"Not F2P": true
+			},
+			"~|Completionist achievements#Master Quest Cape|~ Eastern Adventurer: Guardians of the World": {
 				"Category": ["MQC achievements", "Timegated"],
 				"Description": "Complete all storylines in your Player Owned Port.",
 				"BaseQuest": "Completionist achievements",
 				"Chunks": ["Player-Owned Port"],
 				"Skills": {
 					"Agility": 90,
-					"Construction": 90,
-					"Cooking": 90,
 					"Divination": 90,
-					"Dungeoneering": 90,
-					"Fishing": 90,
-					"Herblore": 90,
-					"Hunter": 90,
-					"Prayer": 90,
-					"Runecrafting": 90,
-					"Slayer": 90,
-					"Thieving": 90
+					"Dungeoneering": 90
 				},
 				"Not F2P": true
 			},
@@ -124386,7 +124518,8 @@
 					"~|Ode of the Devourer|~ Complete the quest": "Quest",
 					"~|Pharaoh's Folly|~ Complete the quest": "Quest",
 					"~|Succession|~ Complete the quest": "Quest",
-					"~|Vampyre Slayer|~ Complete the quest": "Quest"
+					"~|Vampyre Slayer|~ Complete the quest": "Quest",
+					"~|Princess and the Pauper|~ Complete the quest": "Quest"
 				},
 				"Not F2P": true
 			},
@@ -125131,7 +125264,7 @@
 				"Category": ["MQC achievements"],
 				"Description": "Complete all quests to obtain the quest cape.",
 				"BaseQuest": "Completionist achievements",
-				"QuestPointsNeeded": 464,
+				"QuestPointsNeeded": 465,
 				"Tasks": {
 					"~|Aftermath|~ Complete the quest": "Quest",
 					"~|Battle of the Monolith|~ Complete the quest": "Quest",
@@ -126262,7 +126395,10 @@
 					"~|Completionist achievements#Master Quest Cape|~ Dragonkin Logs": "Diary",
 					"~|Completionist achievements#Master Quest Cape|~ Draugr Me to Hela": "Diary",
 					"~|Completionist achievements#Master Quest Cape|~ Dusting Murial": "Diary",
-					"~|Completionist achievements#Master Quest Cape|~ Eastern Adventurer": "Diary",
+					"~|Completionist achievements#Master Quest Cape|~ Eastern Adventurer: Quin": "Diary",
+					"~|Completionist achievements#Master Quest Cape|~ Eastern Adventurer: Hyu-Ji": "Diary",
+					"~|Completionist achievements#Master Quest Cape|~ Eastern Adventurer: Eastern Curiosities": "Diary",
+					"~|Completionist achievements#Master Quest Cape|~ Eastern Adventurer: Guardians of the World": "Diary",
 					"~|Completionist achievements#Master Quest Cape|~ EEEEAGLE!": "Diary",
 					"~|Completionist achievements#Master Quest Cape|~ Enough of the Crazy Walking": "Diary",
 					"~|Completionist achievements#Master Quest Cape|~ Epi Logueque Experience": "Diary",
@@ -127228,7 +127364,7 @@
 				"Category": ["Comp achievements"],
 				"Description": "Unlock all music tracks.",
 				"BaseQuest": "Completionist achievements",
-				"QuestPointsNeeded": 464,
+				"QuestPointsNeeded": 465,
 				"Tasks": {
 					"~|Completionist achievements#Completionist Cape|~ Mysteries - Stormguard Citadel": "Diary",
 					"~|Completionist achievements#Completionist Cape|~ Mysteries - Warforge": "Diary",
@@ -127375,7 +127511,7 @@
 				"Category": ["Comp achievements"],
 				"Description": "Complete all quests to obtain the quest cape.",
 				"BaseQuest": "Completionist achievements",
-				"QuestPointsNeeded": 464,
+				"QuestPointsNeeded": 465,
 				"Tasks": {
 					"~|Aftermath|~ Complete the quest": "Quest",
 					"~|Battle of the Monolith|~ Complete the quest": "Quest",
@@ -127869,13 +128005,6 @@
 				"Tasks": {
 					"~|Impressing the Locals|~ Complete the quest": "Quest"
 				},
-				"Not F2P": true
-			},
-			"~|Completionist achievements#Trimmed Completionist Cape|~ Barbarian Scavenger": {
-				"Category": ["Comp achievements", "Trim achievements"],
-				"Description": "Find all barbarian notes in the Ancient Cavern.",
-				"BaseQuest": "Completionist achievements",
-				"Items": ["Ancient page"],
 				"Not F2P": true
 			},
 			"~|Completionist achievements#Trimmed Completionist Cape|~ Bone to Pick With You": {
@@ -128906,7 +129035,6 @@
 					"~|Completionist achievements#Trimmed Completionist Cape|~ A Song of Ice and Ire II": "Diary",
 					"~|Completionist achievements#Trimmed Completionist Cape|~ Agile from Head to Toe": "Diary",
 					"~|Completionist achievements#Trimmed Completionist Cape|~ All Your Energies": "Diary",
-					"~|Completionist achievements#Trimmed Completionist Cape|~ Barbarian Scavenger": "Diary",
 					"~|Completionist achievements#Trimmed Completionist Cape|~ Bone to Pick With You": "Diary",
 					"~|Completionist achievements#Trimmed Completionist Cape|~ Build Them All!": "Diary",
 					"~|Completionist achievements#Trimmed Completionist Cape|~ Champions. What Champions?": "Diary",
@@ -140714,6 +140842,11 @@
 				"Label": "Untracked Misc Uniques",
 				"Chunks": ["New Varrock"]
 			},
+			"(Misc.) Obtain a ~|silvery feather|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Misc"],
+				"Label": "Untracked Misc Uniques",
+				"Items": ["Silvery feather"]
+			},
 			"(PvP) Obtain the ~|duellist's cap|~ (tier 6)": {
 				"Category": ["Untracked Uniques", "Untracked Uniques Misc", "PVP"],
 				"Label": "Untracked Misc Uniques",
@@ -147036,7 +147169,7 @@
 					"Constitution": 70,
 					"Strength": 70
 				},
-				"QuestPointsNeeded": 464,
+				"QuestPointsNeeded": 465,
 				"Tasks": {
 					"~|Plague's End|~ Complete the quest": "Quest",
 					"~|As a First Resort|~ Complete the quest": "Quest",
@@ -147150,7 +147283,7 @@
 					"~|Fate of the Gods|~ Complete the quest": "Quest",
 					"~|A Fairy Tale II - Cure a Queen|~ 2": "Quest"
 				},
-				"QuestPointsNeeded": 462
+				"QuestPointsNeeded": 465
 			},
 			"Obtain the ~|the Meandering|~ title": {
 				"Category": ["Titles"],
@@ -158298,6 +158431,14 @@
 				"NPCs": ["Wizard Elriss"],
 				"Items": ["Air talisman", "Mind talisman", "Water talisman", "Earth talisman", "Fire talisman", "Body talisman", "Cosmic talisman", "Chaos talisman", "Nature talisman", "Law talisman", "Death talisman", "Blood talisman", "Soul talisman"],
 				"Output": "Omni-talisman"
+			},
+			"Loot the stray dog's kennel": {
+				"Items": ["Bones[+]"],
+				"Chunks": ["13111"],
+				"Tasks": {
+					"~|Princess and the Pauper|~ Complete the quest": "Quest"
+				},
+				"Output": "Kennel loot"
 			}
 		}
 	},
@@ -180157,7 +180298,8 @@
 						"One Small Favour": "step",
 						"Pieces of Hate": "step",
 						"Rat Catchers": "first",
-						"A Tail of Two Cats": "step"
+						"A Tail of Two Cats": "step",
+						"Princess and the Pauper": "step"
 					}
 				},
 				"2": {},
@@ -181313,7 +181455,8 @@
 				"Gower Quest": "first",
 				"Merlin's Crystal": "step",
 				"Shield of Arrav": "step",
-				"Wanted!": "step"
+				"Wanted!": "step",
+				"Princess and the Pauper": "step"
 			},
 			"Nickname": "Gower farm"
 		},
@@ -182661,7 +182804,8 @@
 						"What Lies Below": "first",
 						"What's Mine is Yours": "step",
 						"Secrets of the Monolith": "first",
-						"Requiem for a Dragon": "step"
+						"Requiem for a Dragon": "step",
+						"Princess and the Pauper": "step"
 					}
 				},
 				"2": {
@@ -182841,7 +182985,8 @@
 						"The Hunt for Surok (miniquest)": "first",
 						"Imp Catcher": "step",
 						"Once Upon a Time in Gielinor: Flashback": "step",
-						"Twilight of the Gods": "step"
+						"Twilight of the Gods": "step",
+						"Princess and the Pauper": "step"
 					}
 				},
 				"2": {}
@@ -182910,7 +183055,8 @@
 				"Unwelcome Guests": "first",
 				"Battle of Forinthry": "first",
 				"Requiem for a Dragon": "first",
-				"Ode of the Devourer": "first"
+				"Ode of the Devourer": "first",
+				"Princess and the Pauper": "first"
 			},
 			"Connect": {
 				"27": true
@@ -207038,6 +207184,7 @@
 				"Bottom of the Last Guardian's bow",
 				"Divine bowstring"
 			],
+			"Bones[+]": ["Bones", "Wolf bones", "Burnt bones", "Monkey bones", "Bat bones", "Big bones", "Jogre bones", "Zogre bones", "Shaikahan bones", "Baby dragon bones", "Wyvern bones", "Dragon bones", "Fayrg bones", "Raurg bones", "Dagannoth bones", "Airut bones", "Ourg bones (General Graardor)", "Ourg bones", "Hardened dragon bones", "Dragonkin bones", "Dinosaur bones", "Frost dragon bones", "Reinforced dragon bones"],
 			"BoneWeapon[+]": [
 				"Bone club",
 				"Bone dagger",
@@ -207568,7 +207715,6 @@
 				"Eldritch crossbow mechanism"
 			],
 			"EctoFunAsh[+]": ["Impious ashes", "Accursed ashes", "Infernal ashes", "Tortured ashes", "Searing ashes"],
-			"EctoFunBone[+]": ["Bones", "Wolf bones", "Burnt bones", "monkey bones", "Bat bones", "Big bones", "Jogre bones", "Zogre bones", "Shaikahan bones", "Baby dragon bones", "Wyvern bones", "Dragon bones", "Fayrg bones", "Raurg bones", "Dagannoth bones", "Airut bones", "Ourg bones (General Graardor)", "Ourg bones", "Hardened dragon bones", "Dragonkin bones", "Dinosaur bones", "Frost dragon bones", "Reinforced dragon bones"],
 			"ElementalRune[+]": [
 				"Air rune",
 				"Water rune",
@@ -211598,7 +211744,7 @@
 			"EarthTiara[+]": "Any item that can be used as a secondary to make lava runes at the fire altar",
 			"ECBWeaponPiece[+]": "Any piece of the eldritch crossbow",
 			"EctoFunAsh[+]": "Any ashes that can be offered to the ectofuntus",
-			"EctoFunBone[+]": "Any bones that can be offered to the ectofuntus",
+			"Bones[+]": "Any type of bones",
 			"Elderboon[+]": "Any energy that can be used to create an elder boon",
 			"ElderOverloadPotion[+]": "Any elderoverload potion",
 			"Elderpick[+]": "Any elder rune pickaxe",
@@ -268427,6 +268573,7 @@
 		"Plague City": "10292, Western Ardougne sewer, 10035, 10036",
 		"Plague's End": "9265, Plague's End Areas, 10291, 10035, 9779, 10036, 10292, Mourner HQ, Underground Pass, 8753, 8496, 9009, 13626",
 		"Priest in Peril": "12854, 13622, Paterdomus",
+		"Princess and the Pauper": "13111, 13110, 12852, 13108, 12597",
 		"The Prisoner of Glouphrie": "Gnome Village Dungeon, 10033, 9778, Caverns under Arandar, 9521, 9265, Arposandra",
 		"Quiet Before the Swarm": "11828, 10537, 12082, Temple Knight training ground",
 		"Rag and Bone Man": "13366",
@@ -313706,6 +313853,41 @@
 				},
 				"Uncut moonstone": {
 					"1": "5/100"
+				}
+			},
+			"Kennel loot": {
+				"Coins": {
+					"500-1000": "1/11"
+				},
+				"Bones": {
+					"1-5": "1/11"
+				},
+				"Big bones": {
+					"1-5": "1/11"
+				},
+				"Grimy tarromin": {
+					"1-3": "1/11"
+				},
+				"Grimy guam": {
+					"1-3": "1/11"
+				},
+				"Battlestaff": {
+					"1": "1/11"
+				},
+				"Gold ring": {
+					"1-2": "1/11"
+				},
+				"Oak logs": {
+					"1-2": "1/11"
+				},
+				"Leather boots": {
+					"1-2": "1/11"
+				},
+				"Gnomeball": {
+					"1": "1/11"
+				},
+				"Silvery feather": {
+					"1": "1/11"
 				}
 			}
 		}
