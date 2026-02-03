@@ -20883,7 +20883,7 @@
 				"Primary": true,
 				"Priority": 1
 			},
-			"Craft a ~|crossbow string|~|~": {
+			"Craft a ~|crossbow string|~": {
 				"Objects": ["Spinning wheel"],
 				"Items": ["Sinew*"],
 				"Level": 10,
@@ -22751,10 +22751,10 @@
 				"Priority": 101,
 				"Not F2P": true
 			},
-			"Craft a ~|studded leather body|~": {
+			"Craft a ~|studded body|~": {
 				"Items": ["Leather body*", "Steel studs*"],
 				"Level": 41,
-				"Output": "Studded leather body",
+				"Output": "Studded body",
 				"Primary": true,
 				"Priority": 1
 			},
@@ -22871,10 +22871,10 @@
 				"Priority": 7,
 				"Not F2P": true
 			},
-			"Craft ~|studded leather chaps|~": {
+			"Craft ~|studded chaps|~": {
 				"Items": ["Leather chaps*", "Steel studs*"],
 				"Level": 44,
-				"Output": "Studded leather chaps",
+				"Output": "Studded chaps",
 				"Primary": true,
 				"Priority": 4
 			},
@@ -31290,7 +31290,7 @@
 				"Priority": 3
 			},
 			"Transmute raw shrimp to ~|raw trout|~": {
-				"Items": ["Flickering energy*", "Raw shrimp*"],
+				"Items": ["Flickering energy*", "Raw shrimps*"],
 				"Level": 16,
 				"Output": "Raw trout",
 				"Primary": true,
@@ -40080,11 +40080,11 @@
 				"Priority": 2,
 				"Not F2P": true
 			},
-			"Catch a ~|raw shrimp|~": {
+			"Catch ~|raw shrimps|~": {
 				"Level": 1,
 				"Objects": ["Fishing spot (small fishing net, bait)"],
 				"Primary": true,
-				"Output": "Raw shrimp",
+				"Output": "Raw shrimps",
 				"Priority": 1
 			},
 			"Catch a ~|raw crayfish|~": {
@@ -40212,11 +40212,11 @@
 				"Priority": 1000,
 				"NoPet": true
 			},
-			"Catch a ~|raw shrimp|~ in the holy lake": {
+			"Catch ~|raw shrimps|~ in the holy lake": {
 				"Level": 5,
 				"Objects": ["Fishing spot (karambwanji)"],
 				"Primary": true,
-				"Output": "Raw shrimp",
+				"Output": "Raw shrimps",
 				"Priority": 3
 			},
 			"Catch a ~|raw Karambwanji|~": {
@@ -40242,7 +40242,7 @@
 				"Output": "Raw herring",
 				"Priority": 1
 			},
-			"Catch a ~|raw anchovies|~": {
+			"Catch ~|raw anchovies|~": {
 				"Level": 15,
 				"Objects": ["Fishing spot (small fishing net, bait)"],
 				"Primary": true,
@@ -58890,7 +58890,7 @@
 			},
 			"Make a bone offering at the ~|Ectofuntus|~": {
 				"Chunks": ["14646-2", "14647-3"],
-				"Items": ["EctoFunBone[+]", "Ghostspeak amulet"],
+				"Items": ["Bones[+]", "Ghostspeak amulet"],
 				"Level": 1,
 				"Output": "Ecto-token",
 				"Primary": true,
@@ -72647,7 +72647,7 @@
 			"Pickpocket a ~|citizen|~": {
 				"Level": 1,
 				"Mix": ["Citizen[+]"],
-				"Output": ["Citizen[+]"],
+				"Output": "Citizen[+]",
 				"Primary": true,
 				"Priority": 1
 			},
@@ -73135,6 +73135,13 @@
 				"Output": "Fish stall",
 				"Primary": true,
 				"Priority": 2
+			},
+			"Pickpocket ~|Ghotistix|~": {
+				"NPCs": ["Ghotistix"],
+				"Level": 42,
+				"Output": "Ghotistix",
+				"Primary": true,
+				"Priority": 1
 			},
 			"Loot a ~|chest (50 coins)|~": {
 				"Level": 43,
@@ -98159,6 +98166,100 @@
 				"Reward": ["Wolfbane"],
 				"Chunks": ["13622"]
 			},
+			"~|Princess and the Pauper|~ 1": {
+				"BaseQuest": "Princess and the Pauper",
+				"Description": "Talk to Rodney in Fort Forinthry, then to Aster and Siv, find up the lost sausage",
+				"Chunks": ["13111"],
+				"Tasks": {
+					"~|Gertrude's Cat|~ Complete the quest": "Quest",
+					"~|Murder on the Border|~ Complete the quest": "Quest"
+				},
+				"Skills": {
+					"Cooking": 25,
+					"Construction": 25
+				},
+				"NotF2P": true,
+				"NoBoost": true
+			},
+			"~|Princess and the Pauper|~ 2": {
+				"BaseQuest": "Princess and the Pauper",
+				"Description": "Follow the track to the Jolly Boar Inn, find the half-eaten meat pie",
+				"Chunks": ["13110-1"],
+				"Tasks": {
+					"~|Princess and the Pauper|~ 1": "Quest"
+				}
+			},
+			"~|Princess and the Pauper|~ 3": {
+				"BaseQuest": "Princess and the Pauper",
+				"Description": "Follow the track to the cabbages south of the Blue Moon Inn",
+				"Chunks": ["12852"],
+				"Tasks": {
+					"~|Princess and the Pauper|~ 2": "Quest"
+				}
+			},
+			"~|Princess and the Pauper|~ 4": {
+				"BaseQuest": "Princess and the Pauper",
+				"Description": "Ask Rodney about the Princess Special",
+				"Chunks": ["13111"],
+				"Tasks": {
+					"~|Princess and the Pauper|~ 3": "Quest"
+				}
+			},
+			"~|Princess and the Pauper|~ 5a": {
+				"BaseQuest": "Princess and the Pauper",
+				"Description": "Pick the juiciest redberries",
+				"Chunks": ["13108-1"],
+				"Tasks": {
+					"~|Princess and the Pauper|~ 4": "Quest"
+				}
+			},
+			"~|Princess and the Pauper|~ 5b": {
+				"BaseQuest": "Princess and the Pauper",
+				"Description": "Ask Gertrude for her special leaves",
+				"Chunks": ["12597-1"],
+				"Tasks": {
+					"~|Princess and the Pauper|~ 4": "Quest"
+				}
+			},
+			"~|Princess and the Pauper|~ 6": {
+				"BaseQuest": "Princess and the Pauper",
+				"Description": "Finish the perfect dog's dinner",
+				"Objects": ["Cooking range[+]"],
+				"Items": ["Raw salmon", "RawMeat[+]", "Hammer", "Bowl of water"],
+				"Tasks": {
+					"~|Princess and the Pauper|~ 5a": "Quest",
+					"~|Princess and the Pauper|~ 5b": "Quest"
+				}
+			},
+			"~|Princess and the Pauper|~ 7": {
+				"BaseQuest": "Princess and the Pauper",
+				"Description": "Return to the cabage patch, then track the stray dog to the Jolly Boar Inn and invite the dog.",
+				"Chunks": ["12852", "13110"],
+				"Tasks": {
+					"~|Princess and the Pauper|~ 6": "Quest"
+				}
+			},
+			"~|Princess and the Pauper|~ 8": {
+				"BaseQuest": "Princess and the Pauper",
+				"Description": "Return to Rodney, then build a dog house.",
+				"Chunks": ["13111"],
+				"Items": ["Wooden frame", "Plank", "Steel nails", "Bolt of cloth", "Wool"],
+				"Tasks": {
+					"~|Princess and the Pauper|~ 7": "Quest"
+				}
+			},
+			"~|Princess and the Pauper|~ Complete the quest": {
+				"Tasks": {
+					"~|Princess and the Pauper|~ 8": "Quest"
+				},
+				"QuestPoints": 1,
+				"XpReward": {
+					"Cooking": 1000,
+					"Construction": 1000
+				},
+				"BaseQuest": "Princess and the Pauper",
+				"Chunks": ["13111"]
+			},
 			"~|The Prisoner of Glouphrie|~ 1": {
 				"BaseQuest": "The Prisoner of Glouphrie",
 				"Description": "Speak to Golrie in his hideout, then talk to Golrana in the Village",
@@ -113206,7 +113307,7 @@
 			"~|Lumbridge Achievements#Beginner|~ The Fruit of the Sea": {
 				"Description": "Sell a raw shrimp to Lumbridge's fishing shop.",
 				"Chunks": ["12594"],
-				"Items": ["Raw shrimp"],
+				"Items": ["Raw shrimps"],
 				"BaseQuest": "Lumbridge Achievements",
 				"Category": ["Show Diary Tasks"]
 			},
@@ -122638,6 +122739,17 @@
 				},
 				"Not F2P": true
 			},
+			"~|Completionist achievements#Master Quest Cape|~ Am I a good boy yet?": {
+				"Category": ["MQC achievements"],
+				"Description": "Get a gift from the stray dog after he moves into Fort Forinthry.",
+				"BaseQuest": "Completionist achievements",
+				"Tasks": {
+					"~|Princess and the Pauper|~ Complete the quest": "Quest"
+				},
+				"Chunks": ["13111"],
+				"Items": ["Dog food[+]"],
+				"Not F2P": true
+			},
 			"~|Completionist achievements#Master Quest Cape|~ A New Direction": {
 				"Category": ["MQC achievements"],
 				"Description": "Reunite Irwinsson with his lost compass.",
@@ -123706,24 +123818,51 @@
 				},
 				"Not F2P": true
 			},
-			"~|Completionist achievements#Master Quest Cape|~ Eastern Adventurer": {
+			"~|Completionist achievements#Master Quest Cape|~ Eastern Adventurer: Quin": {
+				"Category": ["MQC achievements", "Timegated"],
+				"Description": "Complete all storylines in your Player Owned Port.",
+				"BaseQuest": "Completionist achievements",
+				"Chunks": ["Player-Owned Port"],
+				"Skills": {
+					"Fishing": 90,
+					"Runecrafting": 90,
+					"Slayer": 90
+				},
+				"Not F2P": true
+			},
+			"~|Completionist achievements#Master Quest Cape|~ Eastern Adventurer: Hyu-Ji": {
+				"Category": ["MQC achievements", "Timegated"],
+				"Description": "Complete all storylines in your Player Owned Port.",
+				"BaseQuest": "Completionist achievements",
+				"Chunks": ["Player-Owned Port"],
+				"Skills": {
+					"Herblore": 90,
+					"Prayer": 90,
+					"Thieving": 90
+				},
+				"Not F2P": true
+			},
+			"~|Completionist achievements#Master Quest Cape|~ Eastern Adventurer: Eastern Curiosities": {
+				"Category": ["MQC achievements", "Timegated"],
+				"Description": "Complete all storylines in your Player Owned Port.",
+				"BaseQuest": "Completionist achievements",
+				"Chunks": ["Player-Owned Port"],
+				"Skills": {
+					"Construction": 90,
+					"Cooking": 90,
+					"Hunter": 90
+				},
+				"Not F2P": true
+			},
+			"~|Completionist achievements#Master Quest Cape|~ Eastern Adventurer: Guardians of the World": {
 				"Category": ["MQC achievements", "Timegated"],
 				"Description": "Complete all storylines in your Player Owned Port.",
 				"BaseQuest": "Completionist achievements",
 				"Chunks": ["Player-Owned Port"],
 				"Skills": {
 					"Agility": 90,
-					"Construction": 90,
-					"Cooking": 90,
 					"Divination": 90,
-					"Dungeoneering": 90,
-					"Fishing": 90,
-					"Herblore": 90,
-					"Hunter": 90,
-					"Prayer": 90,
-					"Runecrafting": 90,
-					"Slayer": 90,
-					"Thieving": 90
+					"Dungeoneering": 90
 				},
 				"Not F2P": true
 			},
@@ -124379,7 +124518,8 @@
 					"~|Ode of the Devourer|~ Complete the quest": "Quest",
 					"~|Pharaoh's Folly|~ Complete the quest": "Quest",
 					"~|Succession|~ Complete the quest": "Quest",
-					"~|Vampyre Slayer|~ Complete the quest": "Quest"
+					"~|Vampyre Slayer|~ Complete the quest": "Quest",
+					"~|Princess and the Pauper|~ Complete the quest": "Quest"
 				},
 				"Not F2P": true
 			},
@@ -125124,7 +125264,7 @@
 				"Category": ["MQC achievements"],
 				"Description": "Complete all quests to obtain the quest cape.",
 				"BaseQuest": "Completionist achievements",
-				"QuestPointsNeeded": 464,
+				"QuestPointsNeeded": 465,
 				"Tasks": {
 					"~|Aftermath|~ Complete the quest": "Quest",
 					"~|Battle of the Monolith|~ Complete the quest": "Quest",
@@ -126255,7 +126395,10 @@
 					"~|Completionist achievements#Master Quest Cape|~ Dragonkin Logs": "Diary",
 					"~|Completionist achievements#Master Quest Cape|~ Draugr Me to Hela": "Diary",
 					"~|Completionist achievements#Master Quest Cape|~ Dusting Murial": "Diary",
-					"~|Completionist achievements#Master Quest Cape|~ Eastern Adventurer": "Diary",
+					"~|Completionist achievements#Master Quest Cape|~ Eastern Adventurer: Quin": "Diary",
+					"~|Completionist achievements#Master Quest Cape|~ Eastern Adventurer: Hyu-Ji": "Diary",
+					"~|Completionist achievements#Master Quest Cape|~ Eastern Adventurer: Eastern Curiosities": "Diary",
+					"~|Completionist achievements#Master Quest Cape|~ Eastern Adventurer: Guardians of the World": "Diary",
 					"~|Completionist achievements#Master Quest Cape|~ EEEEAGLE!": "Diary",
 					"~|Completionist achievements#Master Quest Cape|~ Enough of the Crazy Walking": "Diary",
 					"~|Completionist achievements#Master Quest Cape|~ Epi Logueque Experience": "Diary",
@@ -127221,7 +127364,7 @@
 				"Category": ["Comp achievements"],
 				"Description": "Unlock all music tracks.",
 				"BaseQuest": "Completionist achievements",
-				"QuestPointsNeeded": 464,
+				"QuestPointsNeeded": 465,
 				"Tasks": {
 					"~|Completionist achievements#Completionist Cape|~ Mysteries - Stormguard Citadel": "Diary",
 					"~|Completionist achievements#Completionist Cape|~ Mysteries - Warforge": "Diary",
@@ -127368,7 +127511,7 @@
 				"Category": ["Comp achievements"],
 				"Description": "Complete all quests to obtain the quest cape.",
 				"BaseQuest": "Completionist achievements",
-				"QuestPointsNeeded": 464,
+				"QuestPointsNeeded": 465,
 				"Tasks": {
 					"~|Aftermath|~ Complete the quest": "Quest",
 					"~|Battle of the Monolith|~ Complete the quest": "Quest",
@@ -127862,13 +128005,6 @@
 				"Tasks": {
 					"~|Impressing the Locals|~ Complete the quest": "Quest"
 				},
-				"Not F2P": true
-			},
-			"~|Completionist achievements#Trimmed Completionist Cape|~ Barbarian Scavenger": {
-				"Category": ["Comp achievements", "Trim achievements"],
-				"Description": "Find all barbarian notes in the Ancient Cavern.",
-				"BaseQuest": "Completionist achievements",
-				"Items": ["Ancient page"],
 				"Not F2P": true
 			},
 			"~|Completionist achievements#Trimmed Completionist Cape|~ Bone to Pick With You": {
@@ -128513,7 +128649,7 @@
 				"Description": "Unlock everything in the Shooting Star Reward Shop.",
 				"BaseQuest": "Completionist achievements",
 				"Chunks": ["12337-1"],
-				"Objects": ["Crashed star"],
+				"Items": ["Stardust"],
 				"Not F2P": true
 			},
 			"~|Completionist achievements#Trimmed Completionist Cape|~ Penguin Adoption Agency": {
@@ -128899,7 +129035,6 @@
 					"~|Completionist achievements#Trimmed Completionist Cape|~ A Song of Ice and Ire II": "Diary",
 					"~|Completionist achievements#Trimmed Completionist Cape|~ Agile from Head to Toe": "Diary",
 					"~|Completionist achievements#Trimmed Completionist Cape|~ All Your Energies": "Diary",
-					"~|Completionist achievements#Trimmed Completionist Cape|~ Barbarian Scavenger": "Diary",
 					"~|Completionist achievements#Trimmed Completionist Cape|~ Bone to Pick With You": "Diary",
 					"~|Completionist achievements#Trimmed Completionist Cape|~ Build Them All!": "Diary",
 					"~|Completionist achievements#Trimmed Completionist Cape|~ Champions. What Champions?": "Diary",
@@ -140707,6 +140842,11 @@
 				"Label": "Untracked Misc Uniques",
 				"Chunks": ["New Varrock"]
 			},
+			"(Misc.) Obtain a ~|silvery feather|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Misc"],
+				"Label": "Untracked Misc Uniques",
+				"Items": ["Silvery feather"]
+			},
 			"(PvP) Obtain the ~|duellist's cap|~ (tier 6)": {
 				"Category": ["Untracked Uniques", "Untracked Uniques Misc", "PVP"],
 				"Label": "Untracked Misc Uniques",
@@ -145454,14 +145594,82 @@
 				"Items": ["Portal redirection"]
 			},
 			"Fully upgrade the ~|portable telescope|~": {
-				"Category": ["Permanent Unlockables", "Pets"],
-				"Label": "Follower Pets",
+				"Category": ["Permanent Unlockables"],
+				"Label": "Permanent Unlockables",
 				"Items": ["Portable telescope"]
 			},
 			"Fully upgrade ~|Shooting Star (status)|~": {
-				"Category": ["Permanent Unlockables", "Pets"],
-				"Label": "Follower Pets",
+				"Category": ["Permanent Unlockables"],
+				"Label": "Permanent Unlockables",
 				"Items": ["Mining boost"]
+			},
+			"Unlock the teleport to the Water Altar of the ~|wicked hood|~": {
+				"Category": ["Permanent Unlockables"],
+				"Label": "Permanent Unlockables",
+				"Items": ["Wicked hood", "Water talisman*"]
+			},
+			"Unlock the teleport to the Earth Altar of the ~|wicked hood|~": {
+				"Category": ["Permanent Unlockables"],
+				"Label": "Permanent Unlockables",
+				"Items": ["Wicked hood", "Earth talisman*"]
+			},
+			"Unlock the teleport to the Fire Altar of the ~|wicked hood|~": {
+				"Category": ["Permanent Unlockables"],
+				"Label": "Permanent Unlockables",
+				"Items": ["Wicked hood", "Fire talisman*"]
+			},
+			"Unlock the teleport to the Body Altar of the ~|wicked hood|~": {
+				"Category": ["Permanent Unlockables"],
+				"Label": "Permanent Unlockables",
+				"Items": ["Wicked hood", "Body talisman*"]
+			},
+			"Unlock the teleport to the Cosmic Altar of the ~|wicked hood|~": {
+				"Category": ["Permanent Unlockables"],
+				"Label": "Permanent Unlockables",
+				"Items": ["Wicked hood", "Cosmic talisman*"]
+			},
+			"Unlock the teleport to the Chaos Altar of the ~|wicked hood|~": {
+				"Category": ["Permanent Unlockables"],
+				"Label": "Permanent Unlockables",
+				"Items": ["Wicked hood", "Chaos talisman*"]
+			},
+			"Unlock the teleport to the Nature Altar of the ~|wicked hood|~": {
+				"Category": ["Permanent Unlockables"],
+				"Label": "Permanent Unlockables",
+				"Items": ["Wicked hood", "Nature talisman*"]
+			},
+			"Unlock the teleport to the Law Altar of the ~|wicked hood|~": {
+				"Category": ["Permanent Unlockables"],
+				"Label": "Permanent Unlockables",
+				"Items": ["Wicked hood", "Law talisman*"]
+			},
+			"Unlock the teleport to the Death Altar of the ~|wicked hood|~": {
+				"Category": ["Permanent Unlockables"],
+				"Label": "Permanent Unlockables",
+				"Items": ["Wicked hood", "Death talisman*"]
+			},
+			"Unlock the teleport to the Blood Altar of the ~|wicked hood|~": {
+				"Category": ["Permanent Unlockables"],
+				"Label": "Permanent Unlockables",
+				"Items": ["Wicked hood", "Blood talisman*"]
+			},
+			"Unlock the teleport to the Soul Altar of the ~|wicked hood|~": {
+				"Category": ["Permanent Unlockables"],
+				"Label": "Permanent Unlockables",
+				"Items": ["Wicked hood", "Soul talisman*"]
+			},
+			"Unlock the teleport to the Astral Altar of the ~|wicked hood|~": {
+				"Category": ["Permanent Unlockables"],
+				"Label": "Permanent Unlockables",
+				"Items": ["Wicked hood", "Omni-talisman*"],
+				"Tasks": {
+					"~|Lunar Diplomacy|~ Compelte the quest": "Quest"
+				}
+			},
+			"Upgrade the ~|wicked hood|~ with an elemental talisman": {
+				"Category": ["Permanent Unlockables"],
+				"Label": "Permanent Unlockables",
+				"Items": ["Wicked hood", "Elemental talisman*"]
 			},
 			"Unlock the ~|Warrior of Het armour|~": {
 				"Category": ["Permanent Unlockables", "Cosmetics"],
@@ -146961,7 +147169,7 @@
 					"Constitution": 70,
 					"Strength": 70
 				},
-				"QuestPointsNeeded": 464,
+				"QuestPointsNeeded": 465,
 				"Tasks": {
 					"~|Plague's End|~ Complete the quest": "Quest",
 					"~|As a First Resort|~ Complete the quest": "Quest",
@@ -147075,7 +147283,7 @@
 					"~|Fate of the Gods|~ Complete the quest": "Quest",
 					"~|A Fairy Tale II - Cure a Queen|~ 2": "Quest"
 				},
-				"QuestPointsNeeded": 462
+				"QuestPointsNeeded": 465
 			},
 			"Obtain the ~|the Meandering|~ title": {
 				"Category": ["Titles"],
@@ -157134,6 +157342,11 @@
 				"Chunks": ["9776", "9520"],
 				"Not F2P": true
 			},
+			"Access to stardust": {
+				"Category": ["Shooting Stars"],
+				"Items": ["Stardust"],
+				"Not F2P": true
+			},
 			"Barbarian Assault rewards": {
 				"Category": ["Minigame", "Group Content"],
 				"Chunks": ["10039"],
@@ -158213,6 +158426,19 @@
 			"Open a bundle of gems": {
 				"Items": ["Bundle of gems"],
 				"Output": "Bundle of gems loot"
+			},
+			"Receive an omni-talisman from Wizard Elriss": {
+				"NPCs": ["Wizard Elriss"],
+				"Items": ["Air talisman", "Mind talisman", "Water talisman", "Earth talisman", "Fire talisman", "Body talisman", "Cosmic talisman", "Chaos talisman", "Nature talisman", "Law talisman", "Death talisman", "Blood talisman", "Soul talisman"],
+				"Output": "Omni-talisman"
+			},
+			"Loot the stray dog's kennel": {
+				"Items": ["Dog food[+]"],
+				"Chunks": ["13111"],
+				"Tasks": {
+					"~|Princess and the Pauper|~ Complete the quest": "Quest"
+				},
+				"Output": "Kennel loot"
 			}
 		}
 	},
@@ -163032,8 +163258,7 @@
 		"8751": {
 			"Object": {
 				"Tree": 29,
-				"Standstone": 1,
-				"Crashed star": 1
+				"Standstone": 1
 			},
 			"NPC": {
 				"Tarddiad Firefly": 5
@@ -163874,7 +164099,8 @@
 		"9007": {
 			"Object": {
 				"Tree": 9,
-				"Energy rift": 1
+				"Energy rift": 1,
+				"Crashed star": 1
 			},
 			"NPC": {
 				"Incandescent wisp": 13,
@@ -166385,10 +166611,7 @@
 			"NPC": {
 				"Mound": 11
 			},
-			"Connect": {
-				"33": true
-			},
-			"Nickname": "Feldip fishing"
+			"Nickname": "Jungle Strykewyrms"
 		},
 		"9774": {
 			"Object": {
@@ -177601,8 +177824,7 @@
 						"Tree": 7,
 						"Evergreen": 37,
 						"Anniversary tree": 1,
-						"Ivy": 7,
-						"Evil tree": 1
+						"Ivy": 7
 					},
 					"Monster": {
 						"Dwarf": 8,
@@ -177655,7 +177877,8 @@
 				"Drawers": 6,
 				"Evergreen": 38,
 				"Chest": 1,
-				"Material cache (white oak)": 2
+				"Material cache (white oak)": 2,
+				"Evil tree": 1
 			},
 			"Monster": {
 				"Guard (Edgeville)": 3,
@@ -178639,7 +178862,7 @@
 						"Fortunato": 1,
 						"Wise Old Man": 2,
 						"Banker": 4,
-						"Man": 1,
+						"Man (Draynor Village)": 1,
 						"Town crier": 1,
 						"Zenevivia": 1,
 						"Leela": 3,
@@ -178749,8 +178972,8 @@
 				"Farmer": 1,
 				"Maris": 1,
 				"Potter": 1,
-				"Man": 1,
-				"Woman": 1,
+				"Man (Draynor Village)": 1,
+				"Woman (Draynor Village)": 1,
 				"Maggie": 1,
 				"Wendy": 1,
 				"Trogs": 1,
@@ -180075,7 +180298,8 @@
 						"One Small Favour": "step",
 						"Pieces of Hate": "step",
 						"Rat Catchers": "first",
-						"A Tail of Two Cats": "step"
+						"A Tail of Two Cats": "step",
+						"Princess and the Pauper": "step"
 					}
 				},
 				"2": {},
@@ -180949,11 +181173,11 @@
 						"Roddeck": 1,
 						"Explorer Jack": 1,
 						"Chief Thief Robin": 1,
-						"Man": 5,
+						"Man (Lumbridge Market)": 5,
 						"Lumbridge guardsman": 2,
 						"Lumbridge guard dog": 1,
 						"Merchant": 2,
-						"Woman": 3,
+						"Woman (Lumbridge Market)": 3,
 						"Herald": 1,
 						"Samuel LeBaux": 1,
 						"Fortuneteller": 1,
@@ -181231,7 +181455,8 @@
 				"Gower Quest": "first",
 				"Merlin's Crystal": "step",
 				"Shield of Arrav": "step",
-				"Wanted!": "step"
+				"Wanted!": "step",
+				"Princess and the Pauper": "step"
 			},
 			"Nickname": "Gower farm"
 		},
@@ -182579,7 +182804,8 @@
 						"What Lies Below": "first",
 						"What's Mine is Yours": "step",
 						"Secrets of the Monolith": "first",
-						"Requiem for a Dragon": "step"
+						"Requiem for a Dragon": "step",
+						"Princess and the Pauper": "step"
 					}
 				},
 				"2": {
@@ -182759,7 +182985,8 @@
 						"The Hunt for Surok (miniquest)": "first",
 						"Imp Catcher": "step",
 						"Once Upon a Time in Gielinor: Flashback": "step",
-						"Twilight of the Gods": "step"
+						"Twilight of the Gods": "step",
+						"Princess and the Pauper": "step"
 					}
 				},
 				"2": {}
@@ -182828,7 +183055,8 @@
 				"Unwelcome Guests": "first",
 				"Battle of Forinthry": "first",
 				"Requiem for a Dragon": "first",
-				"Ode of the Devourer": "first"
+				"Ode of the Devourer": "first",
+				"Princess and the Pauper": "first"
 			},
 			"Connect": {
 				"27": true
@@ -183726,7 +183954,8 @@
 				"Tree": 4,
 				"Magic tree": 2,
 				"Bank chest": 2,
-				"Scoreboard": 1
+				"Scoreboard": 1,
+				"Crashed star": 1
 			},
 			"NPC": {
 				"Fadli": 1,
@@ -184959,8 +185188,7 @@
 				"Teak": 1,
 				"Crate": 1,
 				"Acadia tree": 2,
-				"Palm tree (choppable)": 1,
-				"Crashed star": 1
+				"Palm tree (choppable)": 1
 			},
 			"NPC": {
 				"Clay golem": 1,
@@ -184993,7 +185221,8 @@
 				"2": {
 					"Object": {
 						"Necrite rock": 3,
-						"Platinum rock": 3
+						"Platinum rock": 3,
+						"Crashed star": 1
 					}
 				}
 			},
@@ -193256,7 +193485,7 @@
 				"Brynna": 1,
 				"Master Chef": 1,
 				"Large Jellyfish": 1,
-				"Shrimp": 5,
+				"Shrimps": 5,
 				"Brother Brace": 1,
 				"Fish": 3
 			},
@@ -203514,7 +203743,7 @@
 				"Brynna": 1,
 				"Master Chef": 1,
 				"Large Jellyfish": 1,
-				"Shrimp": 5,
+				"Shrimps": 5,
 				"Brother Brace": 1,
 				"Fish": 5,
 				"Wizard Terrova": 1,
@@ -206955,6 +207184,7 @@
 				"Bottom of the Last Guardian's bow",
 				"Divine bowstring"
 			],
+			"Bones[+]": ["Bones", "Wolf bones", "Burnt bones", "Monkey bones", "Bat bones", "Big bones", "Jogre bones", "Zogre bones", "Shaikahan bones", "Baby dragon bones", "Wyvern bones", "Dragon bones", "Fayrg bones", "Raurg bones", "Dagannoth bones", "Airut bones", "Ourg bones (General Graardor)", "Ourg bones", "Hardened dragon bones", "Dragonkin bones", "Dinosaur bones", "Frost dragon bones", "Reinforced dragon bones"],
 			"BoneWeapon[+]": [
 				"Bone club",
 				"Bone dagger",
@@ -207334,6 +207564,142 @@
 				"Divination potion (3)",
 				"Divination potion (4)"
 			],
+			"Dog food[+]": [
+				"Bones",
+				"Wolf bones",
+				"Burnt bones",
+				"Monkey bones",
+				"Bat bones",
+				"Big bones",
+				"Jogre bones",
+				"Zogre bones",
+				"Shaikahan bones",
+				"Baby dragon bones",
+				"Wyvern bones",
+				"Dragon bones",
+				"Fayrg bones",
+				"Raurg bones",
+				"Dagannoth bones",
+				"Airut bones",
+				"Ourg bones (General Graardor)",
+				"Ourg bones",
+				"Hardened dragon bones",
+				"Dragonkin bones",
+				"Dinosaur bones",
+				"Frost dragon bones", 
+				"Reinforced dragon bones",
+				"Raw shrimps",
+				"Shrimp",
+				"Raw crayfish",
+				"Raw Karambwanji",
+				"Raw sardine",
+				"Raw herring",
+				"Raw anchovies",
+				"Raw mackerel",
+				"Raw trout",
+				"Raw cod",
+				"Raw pike",
+				"Raw salmon",
+				"Raw tuna",
+				"Raw rainbow fish",
+				"Raw lobster",
+				"Raw bass",
+				"Raw swordfish",
+				"Raw catfish",
+				"Raw monkfish",
+				"Raw karamwban",
+				"Raw ghostly sole",
+				"Raw beltfish",
+				"Raw shark",
+				"Raw sea turtle",
+				"Raw great white shark",
+				"Raw manta ray",
+				"Raw cavefish",
+				"Raw rocktail",
+				"Raw tarpon",
+				"Raw seerfish",
+				"Raw sillago",
+				"Raw wobbegong",
+				"Raw sailfish",
+				"Crayfish",
+				"Karambwanji",
+				"Sardine",
+				"Herring",
+				"Anchovies",
+				"Mackerel",
+				"Trout",
+				"Cod",
+				"Pike",
+				"Salmon",
+				"Tuna",
+				"Rainbow fish",
+				"Lobster",
+				"Bass",
+				"Swordfish",
+				"Catfish",
+				"Monkfish",
+				"Karamwban",
+				"Ghostly sole",
+				"Beltfish",
+				"Shark",
+				"Sea turtle",
+				"Great white shark",
+				"Manta ray",
+				"Cavefish",
+				"Rocktail",
+				"Sailfish",
+				"Raw beef",
+				"Raw bear meat",
+				"Raw yak meat",
+				"Raw rat meat",
+				"Raw pawya meat",
+				"Raw wolf meat",
+				"Raw chicken",
+				"Raw bird meat",
+				"Raw ugthanki meat",
+				"Raw rabbit",
+				"Raw beast meat",
+				"Raw bacon",
+				"Thin snail",
+				"Lean snail",
+				"Crab meat",
+				"Fat snail",
+				"Raw chompy",
+				"Raw jubbly",
+				"Raw arcana apoterrasaur meat",
+				"Raw bagrada rex meat",
+				"Raw scimitops meat",
+				"Raw spciati apoterrasaur meat",
+				"Raw asciatops meat",
+				"Raw corbicula rex meat",
+				"Raw oculi apoterrasaur meat",
+				"Raw malletops meat",
+				"Raw pavosaurus rex meat",
+				"Raw pekin",
+				"Cooked meat",
+				"Cooked chicken",
+				"Poorly-cooked bird meat",
+				"Ugthanki meat",
+				"Cooked rabbit",
+				"Poory-cooked beast meat",
+				"Thin snail meat",
+				"Bacon",
+				"Lean snail meat",
+				"Cooked crab meat",
+				"Fat snail meat",
+				"Cooked chompy",
+				"Cooked jubbly",
+				"Arcane apoterrasaur meat",
+				"Scimitops meat",
+				"Bagrada rex meat",
+				"Spicati apoterrasaur meat",
+				"Asciatops meat",
+				"Corbilua rex meat",
+				"Malletops meat",
+				"Pavosaurus rex meat",
+				"Cooked pekin",
+				"Cooked eeligator"
+			],
 			"DracolichArmour[+]": [
 				"Dracolich boots",
 				"Dracolich chaps",
@@ -207485,7 +207851,6 @@
 				"Eldritch crossbow mechanism"
 			],
 			"EctoFunAsh[+]": ["Impious ashes", "Accursed ashes", "Infernal ashes", "Tortured ashes", "Searing ashes"],
-			"EctoFunBone[+]": ["Bones", "Wolf bones", "Burnt bones", "monkey bones", "Bat bones", "Big bones", "Jogre bones", "Zogre bones", "Shaikahan bones", "Baby dragon bones", "Wyvern bones", "Dragon bones", "Fayrg bones", "Raurg bones", "Dagannoth bones", "Airut bones", "Ourg bones (General Graardor)", "Ourg bones", "Hardened dragon bones", "Dragonkin bones", "Dinosaur bones", "Frost dragon bones", "Reinforced dragon bones"],
 			"ElementalRune[+]": [
 				"Air rune",
 				"Water rune",
@@ -209071,7 +209436,7 @@
 				"Crayfish",
 				"Meat",
 				"Sardine",
-				"Shrimp"
+				"Shrimps"
 			],
 			"RestorePotion[+]": [
 				"Restore potion (1)",
@@ -211429,6 +211794,7 @@
 			"Boater[+]": "Any boater for the master emote clue",
 			"BodyArmour[+]": "Any piece of elemental workshop body armour",
 			"BOLGWeaponPiece[+]": "Any piece of the Bow of the Last Guardian",
+			"Bones[+]": "Any type of bones",
 			"BoneWeapon[+]": "Any bone melee weapon",
 			"BraceYourselfItems[+]": "Any item that can be recharged at the Legends' guild",
 			"Brightboon[+]": "Any energy that can be used to make a bright boon",
@@ -211493,6 +211859,7 @@
 			"DillPickaxe[+]": "Any pickaxe that can break through TokTz-Ket-Dill armour",
 			"DivinationEnergy[+]": "Any type of divine energy",
 			"DivinationPotion[+]": "Any divination potion",
+			"Dog food[+]": "Any food that may be fed to the Fort Forinthry dog",
 			"DracolichArmour[+]": "Any piece of Dracolich armour",
 			"DragonArmour[+]": "Any piece of dragon armour",
 			"DragonfireProtection[+]": "Any item that grants dragonfire protection",
@@ -211515,7 +211882,6 @@
 			"EarthTiara[+]": "Any item that can be used as a secondary to make lava runes at the fire altar",
 			"ECBWeaponPiece[+]": "Any piece of the eldritch crossbow",
 			"EctoFunAsh[+]": "Any ashes that can be offered to the ectofuntus",
-			"EctoFunBone[+]": "Any bones that can be offered to the ectofuntus",
 			"Elderboon[+]": "Any energy that can be used to create an elder boon",
 			"ElderOverloadPotion[+]": "Any elderoverload potion",
 			"Elderpick[+]": "Any elder rune pickaxe",
@@ -212258,21 +212624,21 @@
 			"AnyUndead[+]": ["Aberrant spectre", "Ahrim the Blighted", "Akrisae the Doomed", "Animated spade", "Ankou", "Armoured phantom", "Armoured zombie", "Banshee", "Bloated monstrosity", "Bound skeleton", "Corpse archer", "Corpse carrier", "Corpse mage", "Corpse spider", "Crawling corpse torso", "Crawling hand", "Dharok the Wretched", "Dragith Nurn", "Edimmu", "Fetid zombie", "Ghast", "Ghost", "Ghostly troll bruiser", "Ghostly troll thrower", "Guthan the Infested", "Karil the Tainted", "Linza the Disgraced", "Magic axe", "Monkey Zombie", "Mummy (Jaldraocht Pyramid)", "Mummy (Ullek)", "Phantom sorcerer", "Phantom wizard", "Possessed pickaxe", "Revenant cyclops", "Revenant dark beast", "Revenant demon", "Revenant dragon", "Revenant goblin", "Revenant hellhound", "Revenant hobgoblin", "Revenant icefiend", "Revenant imp", "Revenant knight", "Revenant ork", "Revenant pyrefiend", "Revenant vampyre", "Revenant werewolf", "Risen ghost", "Shade", "Shadow warrior", "Skeletal Wyvern", "Skeletal hand", "Skeleton#Armed", "Skeleton#Unarmed", "Skeleton Mage", "Skeleton knight", "Skoblin", "Skogre", "Small scarab", "Spiritual mage", "Spiritual ranger", "Spiritual warrior", "Taraket the Necromancer", "Torag the Corrupted", "Tormented wraith", "Undead chicken", "Undead cow", "Undead pekin", "Undead troll", "Verac the Defiled", "Wight", "Wight ranger", "Zogre", "Zombie#Level 12", "Zombie#Level 22", "Zombie#Level 29", "Zombie hand", "Zombie knight", "Zombie pirate", "Zombie swab", "Zombie warrior"],
 			"BlackKnightMonsters[+]": ["Elite Black Knight", "Black Knight"],
 			"Citizen[+]": [
-				"Anja", 
-				"Cuffs", 
-				"Drunken man", 
-				"Foppish Pierre", 
-				"Hengel", 
-				"Ikis Krum", 
-				"Jeff", 
-				"Man", 
+				"Anja",
+				"Cuffs",
+				"Drunken man",
+				"Foppish Pierre",
+				"Hengel",
+				"Ikis Krum",
+				"Jeff",
+				"Man",
 				"Man (East Ardougne)",
-				"Man (Lumbridge Market)", 
-				"Narf", 
-				"Pompous merchant", 
-				"Rusty", 
-				"Woman", 
-				"Woman (East Ardougne)", 
+				"Man (Lumbridge Market)",
+				"Narf",
+				"Pompous merchant",
+				"Rusty",
+				"Woman",
+				"Woman (East Ardougne)",
 				"Woman (Lumbridge Market)"
 			],
 			"Corrupted devourers[+]": [
@@ -212767,21 +213133,21 @@
 		},
 		"mixPlus": {
 			"Citizen[+]": [
-				"Anja", 
-				"Cuffs", 
-				"Drunken man", 
-				"Foppish Pierre", 
-				"Hengel", 
-				"Ikis Krum", 
-				"Jeff", 
-				"Man", 
+				"Anja",
+				"Cuffs",
+				"Drunken man",
+				"Foppish Pierre",
+				"Hengel",
+				"Ikis Krum",
+				"Jeff",
+				"Man",
 				"Man (East Ardougne)",
-				"Man (Lumbridge Market)", 
-				"Narf", 
-				"Pompous merchant", 
-				"Rusty", 
-				"Woman", 
-				"Woman (East Ardougne)", 
+				"Man (Lumbridge Market)",
+				"Narf",
+				"Pompous merchant",
+				"Rusty",
+				"Woman",
+				"Woman (East Ardougne)",
 				"Woman (Lumbridge Market)"
 			],
 			"HAMMember[+]": ["H.A.M. Member (male)", "H.A.M. Member (female)", "Guard (H.A.M.)"]
@@ -212803,21 +213169,21 @@
 				"Archaeologist#Orthen"
 			],
 			"Citizen[+]": [
-				"Anja", 
-				"Cuffs", 
-				"Drunken man", 
-				"Foppish Pierre", 
-				"Hengel", 
-				"Ikis Krum", 
-				"Jeff", 
-				"Man", 
+				"Anja",
+				"Cuffs",
+				"Drunken man",
+				"Foppish Pierre",
+				"Hengel",
+				"Ikis Krum",
+				"Jeff",
+				"Man",
 				"Man (East Ardougne)",
-				"Man (Lumbridge Market)", 
-				"Narf", 
-				"Pompous merchant", 
-				"Rusty", 
-				"Woman", 
-				"Woman (East Ardougne)", 
+				"Man (Lumbridge Market)",
+				"Narf",
+				"Pompous merchant",
+				"Rusty",
+				"Woman",
+				"Woman (East Ardougne)",
 				"Woman (Lumbridge Market)"
 			],
 			"Dyer[+]": ["Aggie", "Rana the dyer"],
@@ -212830,7 +213196,7 @@
 			"SawmillOperator[+]": ["Sawmill operator (Prifddinas)", "Plank maker"],
 			"StrengthMaster[+]": ["Sloane", "Yadech Strongarm"],
 			"Tanner[+]": ["Tanner", "Ellis", "Sbott", "Tanya Hyde", "Leatherworker"],
-			"Tool leprechaun[+]": ["Tool leprechaun", "Tool leprechaun (Herblore Habitat)", "Hemlock"],
+			"Tool leprechaun[+]": ["Tool leprechaun", "Tool leprechaun (Herblore Habitat)", "Hemlock", "Nhitpyx"],
 			"Trainee archaeologist[+]": [
 				"Trainee archaeologist#Archaeology Campus",
 				"Trainee archaeologist#Kharid-et",
@@ -268344,6 +268710,7 @@
 		"Plague City": "10292, Western Ardougne sewer, 10035, 10036",
 		"Plague's End": "9265, Plague's End Areas, 10291, 10035, 9779, 10036, 10292, Mourner HQ, Underground Pass, 8753, 8496, 9009, 13626",
 		"Priest in Peril": "12854, 13622, Paterdomus",
+		"Princess and the Pauper": "13111, 13110, 12852, 13108, 12597",
 		"The Prisoner of Glouphrie": "Gnome Village Dungeon, 10033, 9778, Caverns under Arandar, 9521, 9265, Arposandra",
 		"Quiet Before the Swarm": "11828, 10537, 12082, Temple Knight training ground",
 		"Rag and Bone Man": "13366",
@@ -271526,6 +271893,11 @@
 					"~|The Fremennik Trials|~ Complete the quest": "Quest"
 				}]
 			},
+			"Shooting Star Reward Shop": {
+				"12337": [{
+					"Access to stardust": "Nonskill"
+				}]
+			},
 			"Slayer Equipment": {
 				"12342-1": [{
 					"Members only": "Nonskill"
@@ -271738,7 +272110,224 @@
 			}
 		}
 	},
-	"mapOverlays": {},
+	"mapOverlays": {
+		"Shooting Stars": [
+			{ "color": "#800080", "x": 4043, "y": 4309 },
+			{ "color": "#800080", "x": 3868, "y": 4205 },
+			{ "color": "#800080", "x": 4137, "y": 4155 },
+			{ "color": "#0000FF", "x": 2945, "y": 3272 },
+			{ "color": "#0000FF", "x": 3037, "y": 3347 },
+			{ "color": "#0000FF", "x": 2917, "y": 3497 },
+			{ "color": "#0000FF", "x": 2975, "y": 3241 },
+			{ "color": "#0000FF", "x": 2926, "y": 3340 },
+			{ "color": "#FFFFFF", "x": 2513, "y": 2681 },
+			{ "color": "#FFFFFF", "x": 2462, "y": 2715 },
+			{ "color": "#00FF00", "x": 2823, "y": 3239 },
+			{ "color": "#00FF00", "x": 2737, "y": 3223 },
+			{ "color": "#00FF00", "x": 2743, "y": 3144 },
+			{ "color": "#00FF00", "x": 2846, "y": 3038 },
+			{ "color": "#00FF00", "x": 2828, "y": 3000 },
+			{ "color": "#808000", "x": 3387, "y": 3716 },
+			{ "color": "#808000", "x": 3492, "y": 3662 },
+			{ "color": "#FF00FF", "x": 2479, "y": 2924 },
+			{ "color": "#8B4513", "x": 2728, "y": 3684 },
+			{ "color": "#8B4513", "x": 2684, "y": 3700 },
+			{ "color": "#8B4513", "x": 2140, "y": 3939 },
+			{ "color": "#8B4513", "x": 2394, "y": 3815 },
+			{ "color": "#8B4513", "x": 2529, "y": 3888 },
+			{ "color": "#B22222", "x": 2706, "y": 3334 },
+			{ "color": "#B22222", "x": 2609, "y": 3234 },
+			{ "color": "#B22222", "x": 2590, "y": 3480 },
+			{ "color": "#B22222", "x": 2603, "y": 3087 },
+			{ "color": "#B22222", "x": 2629, "y": 3141 },
+			{ "color": "#B22222", "x": 2807, "y": 3442 },
+			{ "color": "#F0E68C", "x": 3457, "y": 3138 },
+			{ "color": "#F0E68C", "x": 3317, "y": 2868 },
+			{ "color": "#F0E68C", "x": 3435, "y": 2890 },
+			{ "color": "#F0E68C", "x": 3172, "y": 2911 },
+			{ "color": "#F0E68C", "x": 3283, "y": 3181 },
+			{ "color": "#F0E68C", "x": 3298, "y": 3297 },
+			{ "color": "#F0E68C", "x": 3343, "y": 3269 },
+			{ "color": "#66CDAA", "x": 1954, "y": 3234 },
+			{ "color": "#66CDAA", "x": 1886, "y": 3129 },
+			{ "color": "#66CDAA", "x": 2008, "y": 3106 },
+			{ "color": "#FFD700", "x": 3162, "y": 2798 },
+			{ "color": "#FFD700", "x": 3199, "y": 2744 },
+			{ "color": "#FFFF00", "x": 3231, "y": 3156 },
+			{ "color": "#FFFF00", "x": 3291, "y": 3354 },
+			{ "color": "#FFFF00", "x": 3176, "y": 3363 },
+			{ "color": "#FFFF00", "x": 3259, "y": 3409 },
+			{ "color": "#2E8B57", "x": 3501, "y": 3220 },
+			{ "color": "#2E8B57", "x": 3507, "y": 3486 },
+			{ "color": "#2E8B57", "x": 3687, "y": 2970 },
+			{ "color": "#00FA9A", "x": 2448, "y": 3438 },
+			{ "color": "#00FA9A", "x": 2325, "y": 3157 },
+			{ "color": "#00FA9A", "x": 2342, "y": 3636 },
+			{ "color": "#00FA9A", "x": 2241, "y": 3643 },
+			{ "color": "#00FA9A", "x": 2242, "y": 3039 },
+			{ "color": "#000000", "x": 3109, "y": 3570 },
+			{ "color": "#000000", "x": 3017, "y": 3590 },
+			{ "color": "#000000", "x": 3033, "y": 3797 },
+			{ "color": "#000000", "x": 3061, "y": 3894 },
+			{ "color": "#000000", "x": 3050, "y": 3941 },
+			{ "color": "#000000", "x": 3092, "y": 3963 }
+		],
+		"Evil Trees": [
+			{ "color": "#8B4513", "x": 2757, "y": 3429 },
+			{ "color": "#8B4513", "x": 2756, "y": 2699 },
+			{ "color": "#8B4513", "x": 2737, "y": 3159 },
+			{ "color": "#8B4513", "x": 2708, "y": 3509 },
+			{ "color": "#8B4513", "x": 3092, "y": 3232 },
+			{ "color": "#8B4513", "x": 2724, "y": 3333 },
+			{ "color": "#8B4513", "x": 2398, "y": 3431 },
+			{ "color": "#8B4513", "x": 2925, "y": 3375 },
+			{ "color": "#8B4513", "x": 3053, "y": 3459 },
+			{ "color": "#8B4513", "x": 2833, "y": 3020 },	
+			{ "color": "#8B4513", "x": 2720, "y": 3413 },
+			{ "color": "#8B4513", "x": 2606, "y": 3121 },
+			{ "color": "#8B4513", "x": 2523, "y": 3107 },
+			{ "color": "#8B4513", "x": 2668, "y": 3490 },
+			{ "color": "#8B4513", "x": 3093, "y": 3304 },
+			{ "color": "#8B4513", "x": 2371, "y": 3055 },
+			{ "color": "#8B4513", "x": 2460, "y": 2850 },
+			{ "color": "#8B4513", "x": 2207, "y": 3172 },
+			{ "color": "#8B4513", "x": 2295, "y": 3129 },
+			{ "color": "#8B4513", "x": 3335, "y": 3475 },
+			{ "color": "#8B4513", "x": 2695, "y": 3635 },
+			{ "color": "#8B4513", "x": 3222, "y": 3512 },
+			{ "color": "#8B4513", "x": 2653, "y": 3412 },
+			{ "color": "#8B4513", "x": 2909, "y": 2895 },
+			{ "color": "#8B4513", "x": 2450, "y": 3348 }
+		],
+		"Familiarisation": [
+			{ "color": "#40E0D0", "x": 2932, "y": 3347 },
+			{ "color": "#40E0D0", "x": 2178, "y": 3135 },
+			{ "color": "#40E0D0", "x": 2605, "y": 3854 },
+			{ "color": "#40E0D0", "x": 3478, "y": 3252 },
+			{ "color": "#40E0D0", "x": 2462, "y": 3086 },
+			{ "color": "#40E0D0", "x": 3751, "y": 2967 },
+			{ "color": "#40E0D0", "x": 3451, "y": 3490 },
+			{ "color": "#40E0D0", "x": 2457, "y": 3441 },
+			{ "color": "#40E0D0", "x": 3000, "y": 3192 },
+			{ "color": "#40E0D0", "x": 3305, "y": 3244 },
+			{ "color": "#40E0D0", "x": 2820, "y": 2966 },
+			{ "color": "#40E0D0", "x": 2672, "y": 3639 },
+			{ "color": "#40E0D0", "x": 2526, "y": 3359 },
+			{ "color": "#40E0D0", "x": 3127, "y": 3515 },
+			{ "color": "#40E0D0", "x": 2306, "y": 3196 },
+			{ "color": "#40E0D0", "x": 3660, "y": 3536 },
+			{ "color": "#40E0D0", "x": 3301, "y": 3111 },
+			{ "color": "#40E0D0", "x": 3333, "y": 3000 },
+			{ "color": "#40E0D0", "x": 2516, "y": 3590 },
+			{ "color": "#40E0D0", "x": 2532, "y": 3254 },
+			{ "color": "#40E0D0", "x": 3094, "y": 3221 },
+			{ "color": "#40E0D0", "x": 2852, "y": 3438 },
+			{ "color": "#40E0D0", "x": 2850, "y": 3027 },
+			{ "color": "#40E0D0", "x": 2110, "y": 3916 },
+			{ "color": "#40E0D0", "x": 2593, "y": 3421 },
+			{ "color": "#40E0D0", "x": 2625, "y": 3155 },
+			{ "color": "#40E0D0", "x": 2318, "y": 3805 },
+			{ "color": "#40E0D0", "x": 2890, "y": 3676 },
+			{ "color": "#40E0D0", "x": 2846, "y": 3160 },
+			{ "color": "#40E0D0", "x": 2990, "y": 3234 }
+		],
+		"Sinkholes": [
+			{ "color": "#708090", "x": 2776, "y": 3602 },
+			{ "color": "#708090", "x": 2536, "y": 3239 },
+			{ "color": "#708090", "x": 2731, "y": 3172 },
+			{ "color": "#708090", "x": 3511, "y": 3529 },
+			{ "color": "#708090", "x": 2600, "y": 2884 },
+			{ "color": "#708090", "x": 2541, "y": 3565 },
+			{ "color": "#708090", "x": 2614, "y": 3132 },
+			{ "color": "#708090", "x": 2674, "y": 3450 },
+			{ "color": "#708090", "x": 3010, "y": 3152 },
+			{ "color": "#708090", "x": 3556, "y": 3313 },
+			{ "color": "#708090", "x": 3036, "y": 3488 },
+			{ "color": "#708090", "x": 2925, "y": 3406 },
+			{ "color": "#708090", "x": 3213, "y": 3195 },
+			{ "color": "#708090", "x": 2820, "y": 3478 },
+			{ "color": "#708090", "x": 2327, "y": 3646 },
+			{ "color": "#708090", "x": 2751, "y": 3431 },
+			{ "color": "#708090", "x": 2975, "y": 3401 },
+			{ "color": "#708090", "x": 3305, "y": 3268 },
+			{ "color": "#708090", "x": 2603, "y": 3623 },
+			{ "color": "#708090", "x": 3646, "y": 3523 }
+		],
+		"Big Chinchompa": [
+			{ "color": "#87CEEB", "x": 2556, "y": 2930 },
+			{ "color": "#87CEEB", "x": 2498, "y": 2937 },
+			{ "color": "#87CEEB", "x": 2449, "y": 3221 },
+			{ "color": "#87CEEB", "x": 2402, "y": 3364 },
+			{ "color": "#87CEEB", "x": 2332, "y": 3630 },
+			{ "color": "#87CEEB", "x": 2299, "y": 3150 },
+			{ "color": "#87CEEB", "x": 2716, "y": 3784 },
+			{ "color": "#87CEEB", "x": 3543, "y": 3434 },
+			{ "color": "#87CEEB", "x": 3412, "y": 3087 },
+			{ "color": "#87CEEB", "x": 2955, "y": 2923 },
+			{ "color": "#87CEEB", "x": 2775, "y": 3006 }
+		],
+		"Puro-Puro Entrances|Crop circle": [
+			{ "color": "#ffc719", "x": 2954, "y": 3455 },
+			{ "color": "#ffc719", "x": 2582, "y": 3104 },
+			{ "color": "#ffc719", "x": 3115, "y": 3273 },
+			{ "color": "#ffc719", "x": 2978, "y": 3216 },
+			{ "color": "#ffc719", "x": 3141, "y": 3461 },
+			{ "color": "#ffc719", "x": 2799, "y": 3464 },
+			{ "color": "#ffc719", "x": 2435, "y": 3472 },
+			{ "color": "#ffc719", "x": 2808, "y": 3200 },
+			{ "color": "#ffc719", "x": 3696, "y": 3025 },
+			{ "color": "#ffc719", "x": 3160, "y": 3299 },
+			{ "color": "#ffc719", "x": 2619, "y": 3344 },
+			{ "color": "#ffc719", "x": 3212, "y": 3345 },
+			{ "color": "#ffc719", "x": 2538, "y": 3845 }
+		],
+		"Goblin Raids": [
+			{ "color": "#556B2F", "x": 2873, "y": 3502 },
+			{ "color": "#32CD32", "x": 2923, "y": 3308 },
+			{ "color": "#556B2F", "x": 3088, "y": 3305 },
+			{ "color": "#6B8E23", "x": 3120, "y": 3278 },
+			{ "color": "#6B8E23", "x": 3054, "y": 3291 },
+			{ "color": "#6B8E23", "x": 3256, "y": 3307 },
+			{ "color": "#556B2F", "x": 3228, "y": 3149 },
+			{ "color": "#556B2F", "x": 2974, "y": 3237 },
+			{ "color": "#6B8E23", "x": 2896, "y": 3398 },
+			{ "color": "#32CD32", "x": 3250, "y": 3366 },
+			{ "color": "#32CD32", "x": 3166, "y": 3400 },
+			{ "color": "#556B2F", "x": 3179, "y": 3370 }
+		],
+		"Demon Flash Mobs": [
+			{ "color": "#DC143C", "x": 2541, "y": 3355 },
+			{ "color": "#DC143C", "x": 2260, "y": 3135 },
+			{ "color": "#DC143C", "x": 2583, "y": 2973 },
+			{ "color": "#DC143C", "x": 3065, "y": 3469 },
+			{ "color": "#DC143C", "x": 3202, "y": 2845 },
+			{ "color": "#DC143C", "x": 3438, "y": 3097 },
+			{ "color": "#DC143C", "x": 3622, "y": 3431 },
+			{ "color": "#DC143C", "x": 3325, "y": 3287 },
+			{ "color": "#8B0000", "x": 2992, "y": 3592 },
+			{ "color": "#8B0000", "x": 3293, "y": 3642 },
+			{ "color": "#8B0000", "x": 3347, "y": 3660 },
+			{ "color": "#8B0000", "x": 3260, "y": 3704 },
+			{ "color": "#8B0000", "x": 2982, "y": 3725 },
+			{ "color": "#8B0000", "x": 3222, "y": 3730 }
+		],
+		"Wilderness Flash Events": [
+			{ "color": "#000000", "text": "Spider Swarm", "x": 3228, "y": 3560 },
+			{ "color": "#000000", "text": "Unnatural Outcrop", "x": 3113, "y": 3574 },
+			{ "color": "#FFD700", "text": "Stryke the Wyrm", "x": 3139, "y": 3804 },
+			{ "color": "#000000", "text": "Demon Stragglers", "x": 3120, "y": 3724 },
+			{ "color": "#000000", "text": "Butterfly Swarm", "x": 3145, "y": 3621 },
+			{ "color": "#FFD700", "text": "King Black Dragon Rampage", "x": 3367, "y": 3680 },
+			{ "color": "#000000", "text": "Forgotten Soldiers", "x": 3348, "y": 3657 },
+			{ "color": "#000000", "text": "Surprising Seedlings", "x": 3147, "y": 3605 },
+			{ "color": "#000000", "text": "Hellhound Pack", "x": 2960, "y": 3589 },
+			{ "color": "#FFD700", "text": "Infernal Star", "x": 3255, "y": 3619 },
+			{ "color": "#000000", "text": "Lost Souls", "x": 2976, "y": 3750 },
+			{ "color": "#000000", "text": "Ramokee Incursion", "x": 3362, "y": 3600 },
+			{ "color": "#000000", "text": "Displaced Energy", "x": 2962, "y": 3618 },
+			{ "color": "#FFD700", "text": "Evil Bloodwood Tree", "x": 3102, "y": 3624 }
+		]
+	},
 	"shopItems": {
 		"'Two Feet' Charley's Fish Shop": {
 			"Raw shrimps": true,
@@ -306905,7 +307494,7 @@
 				}
 			},
 			"Fish call": {
-				"Raw shrimp": {
+				"Raw shrimps": {
 					"1": "1/4"
 				},
 				"Raw bass": {
@@ -309475,6 +310064,20 @@
 				},
 				"Crux Eqal hood": {
 					"1": "1/50000"
+				}
+			},
+			"Ghotistix": {
+				"Raw shrimps": {
+					"1": "1/4"
+				},
+				"Raw anchovies": {
+					"1": "1/4"
+				},
+				"Raw herring": {
+					"1": "1/4"
+				},
+				"Raw sardine": {
+					"1": "1/4"
 				}
 			},
 			"Crux Eqal Knight": {
@@ -313387,6 +313990,41 @@
 				},
 				"Uncut moonstone": {
 					"1": "5/100"
+				}
+			},
+			"Kennel loot": {
+				"Coins": {
+					"500-1000": "1/11"
+				},
+				"Bones": {
+					"1-5": "1/11"
+				},
+				"Big bones": {
+					"1-5": "1/11"
+				},
+				"Grimy tarromin": {
+					"1-3": "1/11"
+				},
+				"Grimy guam": {
+					"1-3": "1/11"
+				},
+				"Battlestaff": {
+					"1": "1/11"
+				},
+				"Gold ring": {
+					"1-2": "1/11"
+				},
+				"Oak logs": {
+					"1-2": "1/11"
+				},
+				"Leather boots": {
+					"1-2": "1/11"
+				},
+				"Gnomeball": {
+					"1": "1/11"
+				},
+				"Silvery feather": {
+					"1": "1/11"
 				}
 			}
 		}
