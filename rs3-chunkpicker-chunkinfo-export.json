@@ -66982,7 +66982,7 @@
 				"NoPet": true,
 				"NoBoost": true
 			},
-			"Hunt an ~|arcane apoterrasaur|~": {
+			"Hunt an ~|arcane apoterrasaur|~ during Big Game Hunter": {
 				"NPCs": ["Arcane apoterrasaur"],
 				"Items": ["Raw shark"],
 				"Level": 55,
@@ -66992,7 +66992,7 @@
 				"Primary": true,
 				"Priority": 9
 			},
-			"Hunt a ~|scimitops|~": {
+			"Hunt a ~|scimitops|~ during Big Game Hunter": {
 				"NPCs": ["Scimitops"],
 				"Items": ["Raw sailfish"],
 				"Level": 55,
@@ -67002,7 +67002,7 @@
 				"Primary": true,
 				"Priority": 10
 			},
-			"Hunt a ~|bagrada rex|~": {
+			"Hunt a ~|bagrada rex|~ during Big Game Hunter": {
 				"NPCs": ["Bagrada rex"],
 				"Items": ["Raw manta ray"],
 				"Level": 55,
@@ -67013,7 +67013,7 @@
 				"Primary": true,
 				"Priority": 11
 			},
-			"Hunt a ~|spicati apoterrasaur|~": {
+			"Hunt a ~|spicati apoterrasaur|~ during Big Game Hunter": {
 				"NPCs": ["Spicati apoterrasaur"],
 				"Items": ["Raw bagrada rex meat"],
 				"Level": 60,
@@ -67023,7 +67023,7 @@
 				"Primary": true,
 				"Priority": 3
 			},
-			"Hunt an ~|asciatops|~": {
+			"Hunt an ~|asciatops|~ during Big Game Hunter": {
 				"NPCs": ["Asciatops"],
 				"Items": ["Raw arcane apoterrasaur meat"],
 				"Level": 65,
@@ -67033,7 +67033,7 @@
 				"Primary": true,
 				"Priority": 2
 			},
-			"Hunt a ~|corbicula rex|~": {
+			"Hunt a ~|corbicula rex|~ during Big Game Hunter": {
 				"NPCs": ["Corbicula rex"],
 				"Items": ["Raw scimitops meat"],
 				"Level": 70,
@@ -67045,7 +67045,7 @@
 				"Primary": true,
 				"Priority": 4
 			},
-			"Hunt an ~|oculi apoterrasaur|~": {
+			"Hunt an ~|oculi apoterrasaur|~ during Big Game Hunter": {
 				"NPCs": ["Oculi apoterrasaur"],
 				"Items": ["Raw asciatops meat"],
 				"Level": 74,
@@ -67055,7 +67055,7 @@
 				"Primary": true,
 				"Priority": 1
 			},
-			"Hunt a ~|malletops|~": {
+			"Hunt a ~|malletops|~ during Big Game Hunter": {
 				"NPCs": ["Oculi apoterrasaur"],
 				"Items": ["Raw corbicula rex meat"],
 				"Level": 75,
@@ -67065,7 +67065,7 @@
 				"Primary": true,
 				"Priority": 4
 			},
-			"Hunt a ~|pavosaurus rex|~": {
+			"Hunt a ~|pavosaurus rex|~ during Big Game Hunter": {
 				"NPCs": ["Pavosaurus rex"],
 				"Items": ["Raw spicati apoterrasaur meat"],
 				"Level": 76,
