@@ -204,6 +204,7 @@ let readdedCraftedBisTasks = {};
 let didRestart = false;
 let bisUpgrades = {};
 let globalValidsBoosts = {};
+let bringAlongTasks = {};
 let unconnectedAreas = ['Zanaris', 'Puro-Puro', 'Player-owned house', 'Player-Owned Port', 'Vinesweeper', 'Guthixian Cache', "Balthazar Beauregard's Big Top Bonanza", 'Sinkhole', 'Chinchompa cave', 'Rune Essence mine'];
 let highestSkillLevels = {
     "Slayer": 120,
@@ -331,6 +332,7 @@ onmessage = function(e) {
 
         dropRatesGlobal = {};
         dropTablesGlobal = {};
+        bringAlongTasks = {};
 
         chunks = getAllChunkAreas(chunks);
         baseChunkData = gatherChunksInfo(chunks);
@@ -413,6 +415,11 @@ onmessage = function(e) {
                     bisUpgradesOutput[key].push(equip);
                 });
             }
+        });
+        Object.keys(bringAlongTasks).filter((skill) => globalValids.hasOwnProperty(skill)).forEach((skill) => {
+            Object.keys(bringAlongTasks[skill]).filter((name) => globalValids[skill].hasOwnProperty(name) && !globalValids[skill].hasOwnProperty(bringAlongTasks[skill][name])).forEach((name) => {
+                globalValids[skill][bringAlongTasks[skill][name]] = chunkInfo['challenges'][skill][bringAlongTasks[skill][name]]['Level'];
+            });
         });
         type === 'current' && postMessage('100%');
         //console.log(globalValids);
@@ -4691,6 +4698,14 @@ let calcChallengesWork = function(chunks, baseChunkData, oldTempItemSkill) {
                     }
                     !!tempStorage && tempStorage.forEach((tempName) => {
                         tempAlwaysGlobal[skill][lowestName][tempName] = chunkInfo['challenges'][skill][tempName]['Level'];
+                    });
+                    chunkInfo['challenges'][skill][lowestName]['Items'].forEach((tempItem) => {
+                        if (!!items[tempItem.replaceAll(/\*/g, '')] && Object.keys(items[tempItem.replaceAll(/\*/g, '')]).length === 1 && items[tempItem.replaceAll(/\*/g, '')][Object.keys(items[tempItem.replaceAll(/\*/g, '')])[0]].split('-').length > 1 && skill === items[tempItem.replaceAll(/\*/g, '')][Object.keys(items[tempItem.replaceAll(/\*/g, '')])[0]].split('-')[1] && processingSkill[skill] && chunkInfo['challenges'][skill][Object.keys(items[tempItem.replaceAll(/\*/g, '')])[0]]['Level'] > lowestLevel) {
+                            if (!bringAlongTasks[skill]) {
+                                bringAlongTasks[skill] = {};
+                            }
+                            bringAlongTasks[skill][lowestName] = Object.keys(items[tempItem.replaceAll(/\*/g, '')])[0];
+                        }
                     });
                 }
             }
