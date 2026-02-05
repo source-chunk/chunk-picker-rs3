@@ -145663,7 +145663,7 @@
 				"Label": "Permanent Unlockables",
 				"Items": ["Wicked hood", "Omni-talisman*"],
 				"Tasks": {
-					"~|Lunar Diplomacy|~ Compelte the quest": "Quest"
+					"~|Lunar Diplomacy|~ Complete the quest": "Quest"
 				}
 			},
 			"Upgrade the ~|wicked hood|~ with an elemental talisman": {
