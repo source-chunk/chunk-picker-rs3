@@ -123820,7 +123820,7 @@
 			},
 			"~|Completionist achievements#Master Quest Cape|~ Eastern Adventurer: Quin": {
 				"Category": ["MQC achievements", "Timegated"],
-				"Description": "Complete all storylines in your Player Owned Port.",
+				"Description": "Complete the story voyages of the Whaler, Occultist and Assassin.",
 				"BaseQuest": "Completionist achievements",
 				"Chunks": ["Player-Owned Port"],
 				"Skills": {
@@ -123832,7 +123832,7 @@
 			},
 			"~|Completionist achievements#Master Quest Cape|~ Eastern Adventurer: Hyu-Ji": {
 				"Category": ["MQC achievements", "Timegated"],
-				"Description": "Complete all storylines in your Player Owned Port.",
+				"Description": "Complete the story voyages of the Biologist, Missionary and Convict.",
 				"BaseQuest": "Completionist achievements",
 				"Chunks": ["Player-Owned Port"],
 				"Skills": {
@@ -123844,7 +123844,7 @@
 			},
 			"~|Completionist achievements#Master Quest Cape|~ Eastern Adventurer: Eastern Curiosities": {
 				"Category": ["MQC achievements", "Timegated"],
-				"Description": "Complete all storylines in your Player Owned Port.",
+				"Description": "Complete the story votages of the Architect, Chef and Trapper.",
 				"BaseQuest": "Completionist achievements",
 				"Chunks": ["Player-Owned Port"],
 				"Skills": {
@@ -123856,7 +123856,7 @@
 			},
 			"~|Completionist achievements#Master Quest Cape|~ Eastern Adventurer: Guardians of the World": {
 				"Category": ["MQC achievements", "Timegated"],
-				"Description": "Complete all storylines in your Player Owned Port.",
+				"Description": "Complete the story voyages of the Tengu, Memory and Exile.",
 				"BaseQuest": "Completionist achievements",
 				"Chunks": ["Player-Owned Port"],
 				"Skills": {
@@ -145663,7 +145663,7 @@
 				"Label": "Permanent Unlockables",
 				"Items": ["Wicked hood", "Omni-talisman*"],
 				"Tasks": {
-					"~|Lunar Diplomacy|~ Compelte the quest": "Quest"
+					"~|Lunar Diplomacy|~ Complete the quest": "Quest"
 				}
 			},
 			"Upgrade the ~|wicked hood|~ with an elemental talisman": {
