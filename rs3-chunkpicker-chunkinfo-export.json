@@ -808,9 +808,9 @@
 				"Priority": 5,
 				"NoPet": true
 			},
-			"Cross the ~|stepping stone (Lumbridge swamp caves)|~": {
+			"Cross the ~|stepping stone (Lumbridge Swamp Caves)|~": {
 				"Category": ["Shortcut"],
-				"Chunks": ["Lumbridge Swamp caves"],
+				"Chunks": ["Lumbridge Swamp Caves"],
 				"Level": 1,
 				"Primary": true,
 				"Priority": 6,
@@ -94118,8 +94118,8 @@
 			},
 			"~|The Mighty Fall|~ 2": {
 				"BaseQuest": "The Mighty Fall",
-				"Description": "Enter the Lumbridge Swamp caves through the hollow tree and meet with the Bandosians",
-				"Chunks": ["12593", "Lumbridge Swamp caves"],
+				"Description": "Enter the Lumbridge Swamp Caves through the hollow tree and meet with the Bandosians",
+				"Chunks": ["12593", "Lumbridge Swamp Caves"],
 				"Tasks": {
 					"~|The Mighty Fall|~ 1": "Quest"
 				},
@@ -101912,7 +101912,7 @@
 				"BaseQuest": "Shilo Village",
 				"Description": "Enter Ah Za Rhoon and obtain the items",
 				"Chunks": ["11566-2"],
-				"Items": ["Spade", "LightSource[+]", "Rope", "Chisel"],
+				"Items": ["Spade", "Light source[+]", "Rope", "Chisel"],
 				"Tasks": {
 					"~|Shilo Village|~ 2": "Quest"
 				},
@@ -103944,7 +103944,7 @@
 				"BaseQuest": "Temple of Ikov",
 				"Description": "Kill the Fire Warrior of Lesarkus",
 				"Chunks": ["Temple of Ikov"],
-				"Items": ["AnyBow[+]", "LightSource[+]"],
+				"Items": ["AnyBow[+]", "Light source[+]"],
 				"Tasks": {
 					"~|Temple of Ikov|~ 1": "Quest"
 				},
@@ -106444,7 +106444,7 @@
 				"BaseQuest": "Watchtower",
 				"Description": "Talk to the skavids",
 				"Chunks": ["Skavid caves"],
-				"Items": ["LightSource[+]"],
+				"Items": ["Light source[+]"],
 				"Tasks": {
 					"~|Watchtower|~ 10": "Quest"
 				},
@@ -110499,7 +110499,7 @@
 			},
 			"~|Daemonheim Achievements#Medium|~ Marm's Armoury": {
 				"Description": "Make use of either an autoheater, gem bag, herbicide, bonecrusher or charming imp.",
-				"Chunks": ["13625-1"],
+				"Items": ["Marm's Armoury[+]"],
 				"Skills": {
 					"Dungeoneering": 34
 				},
@@ -153389,10 +153389,10 @@
 			"Lumbridge Cellar": {	
 				"UnlocksArea": true
 			},
-			"Lumbridge Swamp caves": {
+			"Lumbridge Swamp Caves": {
 				"UnlocksArea": true,
 				"Tasks": {
-					"Access the Lumbridge Swamp caves[+]": "Nonskill"
+					"Access the Lumbridge Swamp Caves[+]": "Nonskill"
 				},
 				"Not F2P": true
 			},
@@ -157628,13 +157628,13 @@
 				},
 				"Output": "Gout tuber"
 			},
-			"Access the Lumbridge Swamp caves via Lumbridge Cellar": {
+			"Access the Lumbridge Swamp Caves via Lumbridge Cellar": {
 				"Chunks": ["Lumbridge Cellar"],
 				"Tasks": {
 					"~|The Lost Tribe|~ 2": "Quest"
 				}
 			}, 
-			"Access the Lumbridge Swamp caves via 12953": {
+			"Access the Lumbridge Swamp Caves via 12953": {
 				"Chunks": ["12953"],
 				"Items": ["Rope"]
 			},
@@ -158439,6 +158439,9 @@
 					"~|Princess and the Pauper|~ Complete the quest": "Quest"
 				},
 				"Output": "Kennel loot"
+			},
+			"Obtain a light source": {
+				"Items": ["Light source[+]"]
 			}
 		}
 	},
@@ -180706,7 +180709,7 @@
 				"Sergeant Mossfists": 1,
 				"Sergeant Slimetoes": 1
 			},
-			"Name": "Lumbridge Swamp caves"
+			"Name": "Lumbridge Swamp Caves"
 		},
 		"12694": {
 			"Object": {
@@ -182144,7 +182147,7 @@
 				"12948": true,
 				"12950": true
 			},
-			"Name": "Lumbridge Swamp caves"
+			"Name": "Lumbridge Swamp Caves"
 		},
 		"12950": {
 			"Object": {
@@ -202761,7 +202764,7 @@
 				"The Lost Tribe": "step"
 			}
 		},
-		"Lumbridge Swamp caves": {
+		"Lumbridge Swamp Caves": {
 			"Object": {
 				"Climbing rope": 1,
 				"Fishing spot (slimy eels)": 2,
@@ -208649,7 +208652,7 @@
 				"Off-hand bronze crossbow",
 				"Bronze 2h crossbow"
 			],
-			"LightSource[+]": ["Lit torch", "White candle (lit)", "Black candle (lit)", "Candle latern", "Candle lantern (black)", "Oil lamp", "Oil lantern", "Bullseye lantern (oil)", "Sapphire lantern", "Emerald lantern", "Mining helmet", "Seer's headband 1", "Lightbulb hat", "Firemaking cape"],
+			"Light source[+]": ["Lit torch", "White candle (lit)", "Black candle (lit)", "Candle latern", "Candle lantern (black)", "Oil lamp", "Oil lantern", "Bullseye lantern (oil)", "Sapphire lantern", "Emerald lantern", "Mining helmet", "Seer's headband 1", "Lightbulb hat", "Firemaking cape"],
 			"LimitlessStaff": [
 				"Staff of limitless air",
 				"Staff of limitless earth",
@@ -208772,6 +208775,7 @@
 				"Masterwork magic robe top",
 				"Masterwork magic robe bottom"
 			],
+			"Marm's Armoury[+]": ["Bonecrusher", "Smithing autoheater", "Gem bag", "Herbicide", "Charming imp"],
 			"MeleeSacredClay[+]": [
 				"Sacred clay helm",
 				"Sacred clay platebody",
@@ -212008,7 +212012,7 @@
 			"LesserDemonpouch[+]": "Any pouch that can be used to create lesser demon scrolls (ring of fire)",
 			"Level1Bow[+]": "Any level-1 bow",
 			"Level1Crossbow[+]": "Any level-1 crossbow",
-			"LightSource[+]": "Any light source",
+			"Light source[+]": "Any light source",
             "LimitlessStaff[+]": "Any limitless elemental staff variant",
 			"LinzaArmour[+]": "Any piece of Linza's armour",
 			"Lockpick[+]": "Any item usable as a lockpick",
@@ -212028,7 +212032,8 @@
 			"ManureSheep[+]": "Any sheep that manure can be harvested from",
 			"ManureYak[+]": "Any yak that manure can be harvested from",
 			"MapleOrYew[+]": "Maple logs or yew logs",
-            "MasterworkArmour[+]": "Any piece of masterwork melee armour",
+            "Marm's Armoury[+]": "A smithing autoheater, bonecrusher, gem bag, herbicide, or charming imp",
+			"MasterworkArmour[+]": "Any piece of masterwork melee armour",
 			"MasterworkMagicArmour[+]": "Any piece of masterwork magic armour",
 			"MeleeSacredClay[+]": "Any piece of sacred clay melee armour",
 			"MiningPotion[+]": "Any mining potion",
@@ -212416,7 +212421,7 @@
 			"SeersVillageArea[+]": ["10806-1", "11061", "11062-1", "10805", "10549", "10550", "10551-1", "10807-1"],
 			"SenntistenChunks[+]": ["13364", "13365"],
 			"SlayerMasterChunks[+]": ["8755", "Ancient Cavern", "11310-1", "12342-1", "11575-1", "13111", "13878-1", "Zanaris", "12093", "12850-1", "16704-1"],
-			"SolusLocation[+]": ["11569-1", "10032-1", "10547-1", "12596-1", "Dorgesh-Kaan mine", "9782-1", "13623", "11057", "13106-1", "10553", "Lumbridge Swamp caves", "11830-1", "10550", "9776", "12338-1", "9778-1", "12337-1"],
+			"SolusLocation[+]": ["11569-1", "10032-1", "10547-1", "12596-1", "Dorgesh-Kaan mine", "9782-1", "13623", "11057", "13106-1", "10553", "Lumbridge Swamp Caves", "11830-1", "10550", "9776", "12338-1", "9778-1", "12337-1"],
 			"SoulObelisks[+]": ["12843-1", "12586", "12587-1", "12585"],
 			"StrangeChunks[+]": ["11570", "11830-1", "12081-1", "12083-1", "12085-1", "12339", "12341-1", "12851-1", "12852", "12854", "13107-1", "13363"],
 			"TaiBwoWannaiChunks[+]": ["11056", "11055-1"],
@@ -213597,7 +213602,7 @@
 				"Charge dragonstone jewelry using a geyser titan",
 				"Charge dragonstone jewelry after the Legends' Quest"
 			],
-			"Access the Lumbridge Swamp caves[+]": ["Access the Lumbridge Swamp caves via Lumbridge Cellar", "Access the Lumbridge Swamp caves via 12953"],
+			"Access the Lumbridge Swamp Caves[+]": ["Access the Lumbridge Swamp Caves via Lumbridge Cellar", "Access the Lumbridge Swamp Caves via 12953"],
 			"LesserEnsoulMaterial[+]": ["Ensoul a ~|lesser ensouled bar|~", "Ensoul ~|lesser ensouled cloth|~", "Ensoul ~|lesser ensouled thread|~"],
 			"EnsoulMaterial[+]": ["Ensoul an ~|ensouled bar|~", "Ensoul ~|ensouled cloth|~", "Ensoul ~|ensouled thread|~"],
 			"GreaterEnsoulMaterial[+]": ["Ensoul a ~|greater ensouled bar|~", "Ensoul ~|greater ensouled cloth|~", "Ensoul ~|greater ensouled thread|~"],
@@ -213742,7 +213747,7 @@
 			"DominionTowerQuests[+]": "Any quest requirement for Dominion Tower",
 			"BeaconTasks[+]": "Light any beacon",
 			"ChargeDragonstone2[+]": "Charge dragonstone jewelry",
-			"Access the Lumbridge Swamp caves[+]": "Access the Lumbridge Swamp caves",
+			"Access the Lumbridge Swamp Caves[+]": "Access the Lumbridge Swamp Caves",
 			"LesserEnsoulMaterial[+]": "Perform any 'Lesser ensoul material' ritual",
 			"EnsoulMaterial[+]": "Perform any 'Ensoul material' ritual",
 			"GreaterEnsoulMaterial[+]": "Perofrm any 'Greater ensoul material' ritual"
@@ -268669,7 +268674,7 @@
 		"Making History": "9780, 10547, 9777, 14646, 10553, 10291",
 		"Meeting History": "9780, The Past",
 		"Merlin's Crystal": "11062, 10806, 11061, 11573, 12082, 12852",
-		"The Mighty Fall": "Dorgesh-Kaan, 12593, Lumbridge Swamp caves, 11830, Yu'biusk",
+		"The Mighty Fall": "Dorgesh-Kaan, 12593, Lumbridge Swamp Caves, 11830, Yu'biusk",
 		"Missing My Mummy": "12338, Uzer Mastaba, 13106, 12854, 13107",
 		"Missing, Presumed Death": "13366, 13622, 12337, Empyrean Citadel",
 		"Monk's Friend": "10290, Clock Tower Dungeon",
@@ -270540,6 +270545,31 @@
 					"Timegated content enabled": "Nonskill"
 				}]
 			},
+			"Big frog": {
+				"Lumbridge Swamp Caves": [{
+					"Obtain a light source": "Nonskill"
+				}]
+			},
+			"Cave bug": {
+				"Lumbridge Swamp Caves": [{
+					"Obtain a light source": "Nonskill"
+				}]
+			},
+			"Cave crawler": {
+				"Lumbridge Swamp Caves": [{
+					"Obtain a light source": "Nonskill"
+				}]
+			},
+			"Cave goblin (monster)": {
+				"Lumbridge Swamp Caves": [{
+					"Obtain a light source": "Nonskill"
+				}]
+			},
+			"Cave slime": {
+				"Lumbridge Swamp Caves": [{
+					"Obtain a light source": "Nonskill"
+				}]
+			},
 			"Chompy bird": {
 				"10542": [{
 					"~|Big Chompy Bird Hunting|~ Complete the quest": "Quest"
@@ -270672,6 +270702,11 @@
 			"General Graardor": {
 				"God Wars Dungeon": [{
 					"Access the ~|Bandos' stronghold|~": "Strength"
+				}]
+			},
+			"Giant frog": {
+				"Lumbridge Swamp Caves": [{
+					"Obtain a light source": "Nonskill"
 				}]
 			},
 			"Giant spider": {
@@ -270912,6 +270947,11 @@
 					"~|Merlin's Crystal|~ 3": "Quest"
 				}]
 			},
+			"Rock slug": {
+				"Lumbridge Swamp Caves": [{
+					"Obtain a light source": "Nonskill"
+				}]
+			},
 			"Rogue": {
 				"13117": [{
 					"Members only": "Nonskill"
@@ -270977,6 +271017,11 @@
 					"Hard Mode Bosses": "Nonskill"
 				}, {
 					"Group Content enabled": "Nonskill"
+				}]
+			},
+			"Wall beast": {
+				"Lumbridge Swamp Caves": [{
+					"Obtain a light source": "Nonskill"
 				}]
 			},
 			"Yakamaru": {
