@@ -2,7 +2,7 @@
 	"challenges": {
 		"Agility": {
 			"Use an ~|experience lamp|~ from the Waiko Reward Shop on Agility": {
-				"Categories": ["XP Lamps"],
+				"Category": ["XP Lamps"],
 				"Items": ["Ports XP Lamp"],
 				"Level": 1,
 				"Priamry": 1,
@@ -11745,7 +11745,7 @@
 				"Not F2P": true
 			},
 			"Use an ~|experience lamp|~ from the Waiko Reward Shop on Construction": {
-				"Categories": ["XP Lamps"],
+				"Category": ["XP Lamps"],
 				"Items": ["Ports XP Lamp"],
 				"Level": 1,
 				"Priamry": 1,
@@ -17268,7 +17268,7 @@
 				"Priority": 74
 			},
 			"Use an ~|experience lamp|~ from the Waiko Reward Shop on Cooking": {
-				"Categories": ["XP Lamps"],
+				"Category": ["XP Lamps"],
 				"Items": ["Ports XP Lamp"],
 				"Level": 1,
 				"Priamry": 1,
@@ -30285,7 +30285,7 @@
 				"Priority": 1
 			},
 			"Use an ~|experience lamp|~ from the Waiko Reward Shop on Divination": {
-				"Categories": ["XP Lamps"],
+				"Category": ["XP Lamps"],
 				"Items": ["Ports XP Lamp"],
 				"Level": 1,
 				"Priamry": 1,
@@ -32070,7 +32070,7 @@
 				"Priority": 5
 			},
 			"Use an ~|experience lamp|~ from the Waiko Reward Shop on Dungeoneering": {
-				"Categories": ["XP Lamps"],
+				"Category": ["XP Lamps"],
 				"Items": ["Ports XP Lamp"],
 				"Level": 1,
 				"Priamry": 1,
@@ -40205,7 +40205,7 @@
 				"Priority": 25
 			},
 			"Use an ~|experience lamp|~ from the Waiko Reward Shop on Fishing": {
-				"Categories": ["XP Lamps"],
+				"Category": ["XP Lamps"],
 				"Items": ["Ports XP Lamp"],
 				"Level": 1,
 				"Priamry": 1,
@@ -43967,7 +43967,7 @@
 				"Priority": 22
 			},
 			"Use an ~|experience lamp|~ from the Waiko Reward Shop on Herblore": {
-				"Categories": ["XP Lamps"],
+				"Category": ["XP Lamps"],
 				"Items": ["Ports XP Lamp"],
 				"Level": 1,
 				"Priamry": 1,
@@ -46813,7 +46813,7 @@
 				"Not F2P": true
 			},
 			"Use an ~|experience lamp|~ from the Waiko Reward Shop on Hunter": {
-				"Categories": ["XP Lamps"],
+				"Category": ["XP Lamps"],
 				"Items": ["Ports XP Lamp"],
 				"Level": 1,
 				"Priamry": 1,
@@ -57295,7 +57295,7 @@
 		},
 		"Prayer": {
 			"Use an ~|experience lamp|~ from the Waiko Reward Shop on Prayer": {
-				"Categories": ["XP Lamps"],
+				"Category": ["XP Lamps"],
 				"Items": ["Ports XP Lamp"],
 				"Level": 1,
 				"Priamry": 1,
@@ -62538,7 +62538,7 @@
 				"Priority": 30
 			},
 			"Use an ~|experience lamp|~ from the Waiko Reward Shop on Runecrafting": {
-				"Categories": ["XP Lamps"],
+				"Category": ["XP Lamps"],
 				"Items": ["Ports XP Lamp"],
 				"Level": 1,
 				"Priamry": 1,
@@ -64379,7 +64379,7 @@
 				"Priority": 31
 			},
 			"Use an ~|experience lamp|~ from the Waiko Reward Shop on Slayer": {
-				"Categories": ["XP Lamps"],
+				"Category": ["XP Lamps"],
 				"Items": ["Ports XP Lamp"],
 				"Level": 1,
 				"Priamry": 1,
@@ -64387,7 +64387,7 @@
 				"NoPet": true
 			},
 			"Use an ~|experience lamp|~ from Shattered Worlds": {
-				"Categories": ["XP Lamps"],
+				"Category": ["XP Lamps"],
 				"Items": ["Huge XP lamp (Slayer) (Shattered Worlds)"],
 				"Level": 1,
 				"Priamry": 1,
@@ -72706,7 +72706,7 @@
 				"Priority": 1002
 			},	
 			"Use an ~|experience lamp|~ from the Waiko Reward Shop on Thieving": {
-				"Categories": ["XP Lamps"],
+				"Category": ["XP Lamps"],
 				"Items": ["Ports XP Lamp"],
 				"Level": 1,
 				"Priamry": 1,
