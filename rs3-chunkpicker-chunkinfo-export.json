@@ -129146,7 +129146,7 @@
 					"SoulUrnII[+]": "Nonskill",
 					"Complete ~|Kili's Knowledge I|~": "Extra"
 				},
-				"Skills": {
+				"Requirements": {
 					"Necromancy": 40
 				},
 				"AllowMulti": true
@@ -129161,7 +129161,7 @@
 					"Complete ~|Kili's Knowledge II|~": "Extra",
 					"~|Mogre (lore activity)|~ Complete the lore activity": "Quest"
 				},
-				"Skills": {
+				"Requirements": {
 					"Necromancy": 50
 				},
 				"AllowMulti": true
@@ -129175,7 +129175,7 @@
 				"Tasks": {
 					"Complete ~|Kili's Knowledge III|~": "Extra"
 				},
-				"Skills": {
+				"Requirements": {
 					"Necromancy": 60
 				},
 				"AllowMulti": true
@@ -129190,7 +129190,7 @@
 					"SoulUrnV[+]": "Nonskill",
 					"~|The Spirit of War|~ Complete the quest": "Quest"
 				},
-				"Skills": {
+				"Requirements": {
 					"Necromancy": 70
 				},
 				"AllowMulti": true
@@ -129204,7 +129204,7 @@
 					"Complete ~|Kili's Knowledge IV|~": "Extra",
 					"~|The Spirit of War|~ Complete the quest": "Quest"
 				},
-				"Skills": {
+				"Requirements": {
 					"Necromancy": 70
 				},
 				"AllowMulti": true
@@ -129219,7 +129219,7 @@
 					"SoulUrnVI[+]": "Nonskill",
 					"~|Troll Stronghold|~ Complete the quest": "Quest"
 				},
-				"Skills": {
+				"Requirements": {
 					"Necromancy": 80,
 					"Agility": 70,
 					"Constitution": 70,
@@ -129238,7 +129238,7 @@
 					"~|The Dig Site|~ Complete the quest": "Quest",
 					"~|Troll Stronghold|~ Complete the quest": "Quest"
 				},
-				"Skills": {
+				"Requirements": {
 					"Necromancy": 80,
 					"Agility": 70,
 					"Constitution": 70,
@@ -129262,7 +129262,7 @@
 					"~|The Fremennik Trials|~ Complete the quest": "Quest",
 					"~|Rune Mythos|~ Complete the quest": "Quest"
 				},
-				"Skills": {
+				"Requirements": {
 					"Necromancy": 90,
 					"Attack": 80,
 					"Magic": 80,
@@ -129282,7 +129282,7 @@
 				"Tasks": {
 					"Complete ~|Kili's Knowledge VI (power)|~": "Extra"
 				},
-				"Skills": {
+				"Requirements": {
 					"Necromancy": 90
 				},
 				"AllowMulti": true
@@ -130552,7 +130552,7 @@
 			"(Agility) Unlock the ~|Dive|~ ability": {
 				"Category": ["Unlock Abilities"],
 				"Label": "Unlockable Abilities",
-				"Skills": {
+				"Requirements": {
 					"Agility": 5
 				},
 				"Tasks": {
@@ -130577,7 +130577,7 @@
 			"(Constitution) Unlock the ~|Tuska's Wrath|~ ability": {
 				"Category": ["Unlock Abilities"],
 				"Label": "Unlockable Abilities",
-				"Skills": {
+				"Requirements": {
 					"Constitution": 50
 				},
 				"Items": ["Tuska's Wrath ability codex"],
@@ -130586,7 +130586,7 @@
 			"(Constitution) Unlock the ~|Storm Shards|~ and Shatter abilities": {
 				"Category": ["Unlock Abilities"],
 				"Label": "Unlockable Abilities",
-				"Skills": {
+				"Requirements": {
 					"Constitution": 70
 				},
 				"Items": ["Storm Shards and Shatter ability codex"],
@@ -130595,7 +130595,7 @@
 			"(Constitution) Unlock the ~|Guthix's Blessing|~ ability": {
 				"Category": ["Unlock Abilities"],
 				"Label": "Unlockable Abilities",
-				"Skills": {
+				"Requirements": {
 					"Constitution": 85
 				},
 				"Tasks": {
@@ -130605,7 +130605,7 @@
 			"(Constitution) Unlock the ~|Reprisal|~ ability": {
 				"Category": ["Unlock Abilities"],
 				"Label": "Unlockable Abilities",
-				"Skills": {
+				"Requirements": {
 					"Constitution": 85
 				},
 				"Items": ["Reprisal ability codex"],
@@ -130614,7 +130614,7 @@
 			"(Constitution) Unlock the ~|Onslaught|~ ability": {
 				"Category": ["Unlock Abilities"],
 				"Label": "Unlockable Abilities",
-				"Skills": {
+				"Requirements": {
 					"Constitution": 90
 				},
 				"Items": ["Onslaught ability codex"],
@@ -130623,7 +130623,7 @@
 			"(Constitution) Unlock the ~|Ice Asylum|~ ability": {
 				"Category": ["Unlock Abilities"],
 				"Label": "Unlockable Abilities",
-				"Skills": {
+				"Requirements": {
 					"Constituiton": 91
 				},
 				"Items": ["Codex Ultimatus"],
@@ -130638,7 +130638,7 @@
 			"(Defence) Unlock the ~|Divert|~ ability": {
 				"Category": ["Unlock Abilities"],
 				"Label": "Unlockable Abilities",
-				"Skills": {
+				"Requirements": {
 					"Defence": 48
 				},
 				"Items": ["Divert ability codex"],
@@ -130647,7 +130647,7 @@
 			"(Defence) Unlock the ~|Natural Instinct|~ ability": {
 				"Category": ["Unlock Abilities"],
 				"Label": "Unlockable Abilities",
-				"Skills": {
+				"Requirements": {
 					"Defence": 85
 				},
 				"Tasks": {
@@ -130657,7 +130657,7 @@
 			"(Magic) Unlock the ~|Shock|~ ability": {
 				"Category": ["Unlock Abilities"],
 				"Label": "Unlockable Abilities",
-				"Skills": {
+				"Requirements": {
 					"Magic": 10
 				},
 				"Items": ["Scare Tactics"],
@@ -130666,7 +130666,7 @@
 			"(Magic) Unlock the ~|Greater Concentrated Blast|~ ability": {
 				"Category": ["Unlock Abilities"],
 				"Label": "Unlockable Abilities",
-				"Skills": {
+				"Requirements": {
 					"Magic": 12
 				},
 				"Items": ["Greater Concentrated blast ability codex"],
@@ -130675,7 +130675,7 @@
 			"(Magic) Unlock the ~|Horror|~ ability": {
 				"Category": ["Unlock Abilities"],
 				"Label": "Unlockable Abilities",
-				"Skills": {
+				"Requirements": {
 					"Magic": 15
 				},
 				"Items": ["Scare Tactics"],
@@ -130684,7 +130684,7 @@
 			"(Magic) Unlock the ~|Greater Chain|~ ability": {
 				"Category": ["Unlock Abilities"],
 				"Label": "Unlockable Abilities",
-				"Skills": {
+				"Requirements": {
 					"Magic": 45
 				},
 				"Items": ["Greater Chain ability codex"],
@@ -130693,7 +130693,7 @@
 			"(Magic) Unlock the ~|Magma Tempest|~ ability": {
 				"Category": ["Unlock Abilities"],
 				"Label": "Unlockable Abilities",
-				"Skills": {
+				"Requirements": {
 					"Magic": 66
 				},
 				"Items": ["Magma Tempest ability codex"],
@@ -130702,7 +130702,7 @@
 			"(Magic) Unlock the ~|Corruption Blast|~ ability": {
 				"Category": ["Unlock Abilities"],
 				"Label": "Unlockable Abilities",
-				"Skills": {
+				"Requirements": {
 					"Magic": 70
 				},
 				"Items": ["Corruption Blast ability codex"],
@@ -130711,7 +130711,7 @@
 			"(Magic) Unlock the ~|Smoke Tendrils|~ ability": {
 				"Category": ["Unlock Abilities"],
 				"Label": "Unlockable Abilities",
-				"Skills": {
+				"Requirements": {
 					"Magic": 75
 				},
 				"Items": ["Codex Ultimatus"],
@@ -130720,7 +130720,7 @@
 			"(Magic) Unlock the ~|Greater Sonic Wave|~ ability": {
 				"Category": ["Unlock Abilities"],
 				"Label": "Unlockable Abilities",
-				"Skills": {
+				"Requirements": {
 					"Magic": 75
 				},
 				"Items": ["Greater Sonic Wave ability codex"],
@@ -130729,7 +130729,7 @@
 			"(Magic) Unlock the ~|Sunshine|~ ability": {
 				"Category": ["Unlock Abilities"],
 				"Label": "Unlockable Abilities",
-				"Skills": {
+				"Requirements": {
 					"Magic": 85
 				},
 				"Tasks": {
@@ -130739,7 +130739,7 @@
 			"(Magic) Unlock the ~|Greater Sunshine|~ ability": {
 				"Category": ["Unlock Abilities"],
 				"Label": "Unlockable Abilities",
-				"Skills": {
+				"Requirements": {
 					"Magic": 85
 				},
 				"Tasks": {
@@ -130751,7 +130751,7 @@
 			"(Melee) Unlock the ~|Greater Fury|~ ability": {
 				"Category": ["Unlock Abilities"],
 				"Label": "Unlockable Abilities",
-				"Skills": {
+				"Requirements": {
 					"Strength": 24
 				},
 				"Items": ["Greater Fury ability codex"],
@@ -130760,7 +130760,7 @@
 			"(Melee) Unlock the ~|Greater Barge|~ ability": {
 				"Category": ["Unlock Abilities"],
 				"Label": "Unlockable Abilities",
-				"Skills": {
+				"Requirements": {
 					"Attack": 30
 				},
 				"Items": ["Greater Barge ability codex"],
@@ -130769,7 +130769,7 @@
 			"(Melee) Unlock the ~|Greater Flurry|~ ability": {
 				"Category": ["Unlock Abilities"],
 				"Label": "Unlockable Abilities",
-				"Skills": {
+				"Requirements": {
 					"Attack": 37
 				},
 				"Items": ["Greater Flurry ability codex"],
@@ -130778,7 +130778,7 @@
 			"(Melee) Unlock the ~|Bladed Dive|~ ability": {
 				"Category": ["Unlock Abilities"],
 				"Label": "Unlockable Abilities",
-				"Skills": {
+				"Requirements": {
 					"Attack": 65
 				},
 				"Items": ["Bladed Dive ability"],
@@ -130787,7 +130787,7 @@
 			"(Melee) Unlock the ~|Blood Tendrils|~ ability": {
 				"Category": ["Unlock Abilities"],
 				"Label": "Unlockable Abilities",
-				"Skills": {
+				"Requirements": {
 					"Attack": 75
 				},
 				"Items": ["Codex Ultimatus"],
@@ -130796,7 +130796,7 @@
 			"(Melee) Unlock the ~|Balanced Strike|~ ability": {
 				"Category": ["Unlock Abilities"],
 				"Label": "Unlockable Abilities",
-				"Skills": {
+				"Requirements": {
 					"Attack": 85
 				},
 				"Tasks": {
@@ -130806,7 +130806,7 @@
 			"(Melee) Unlock the ~|Chaos Roar|~ ability": {
 				"Category": ["Unlock Abilities"],
 				"Label": "Unlockable Abilities",
-				"Skills": {
+				"Requirements": {
 					"Strength": 92
 				},
 				"Items": ["Chaos Roar ability codex"],
@@ -130815,7 +130815,7 @@
 			"(Necromancy) Unlock the ~|Invoke Lord of Bones|~ incantation": {
 				"Category": ["Unlock Abilities"],
 				"Label": "Unlockable Abilities",
-				"Skills": {
+				"Requirements": {
 					"Necromancy": 75
 				},
 				"Items": ["Invoke Lord of Bones incantation codex"],
@@ -130824,7 +130824,7 @@
 			"(Necromancy) Unlock the ~|Conjure Skeleton Warrior|~ ability": {
 				"Category": ["Unlock Abilities"],
 				"Label": "Unlockable Abilities",
-				"Skills": {
+				"Requirements": {
 					"Necromancy": 2
 				},
 				"Chunks": ["City of Um"],
@@ -130833,7 +130833,7 @@
 			"(Necromancy) Unlock the ~|Command Skeleton Warrior|~ ability": {
 				"Category": ["Unlock Abilities"],
 				"Label": "Unlockable Abilities",
-				"Skills": {
+				"Requirements": {
 					"Necromancy": 20
 				},
 				"Chunks": ["City of Um"],
@@ -130842,7 +130842,7 @@
 			"(Necromancy) Unlock the ~|Conjure Vengeful Ghost|~ ability": {
 				"Category": ["Unlock Abilities"],
 				"Label": "Unlockable Abilities",
-				"Skills": {
+				"Requirements": {
 					"Necromancy": 40
 				},
 				"Tasks": {
@@ -130854,7 +130854,7 @@
 			"(Necromancy) Unlock the ~|Conjure Putrid Zombie|~ ability": {
 				"Category": ["Unlock Abilities"],
 				"Label": "Unlockable Abilities",
-				"Skills": {
+				"Requirements": {
 					"Necromancy": 40
 				},
 				"Tasks": {
@@ -130866,7 +130866,7 @@
 			"(Necromancy) Unlock the ~|Threads of Fate|~ incantation": {
 				"Category": ["Unlock Abilities"],
 				"Label": "Unlockable Abilities",
-				"Skills": {
+				"Requirements": {
 					"Necromancy": 44
 				},
 				"Tasks": {
@@ -130878,7 +130878,7 @@
 			"(Necromancy) Unlock the ~|Command Vengeful Ghost|~ ability": {
 				"Category": ["Unlock Abilities"],
 				"Label": "Unlockable Abilities",
-				"Skills": {
+				"Requirements": {
 					"Necromancy": 60
 				},
 				"Tasks": {
@@ -130890,7 +130890,7 @@
 			"(Necromancy) Unlock the ~|Command Putrid Zombie|~ ability": {
 				"Category": ["Unlock Abilities"],
 				"Label": "Unlockable Abilities",
-				"Skills": {
+				"Requirements": {
 					"Necromancy": 60
 				},
 				"Tasks": {
@@ -130902,7 +130902,7 @@
 			"(Necromancy) Unlock the ~|Spectral Scythe|~ ability": {
 				"Category": ["Unlock Abilities"],
 				"Label": "Unlockable Abilities",
-				"Skills": {
+				"Requirements": {
 					"Necromancy": 62
 				},
 				"Chunks": ["City of Um"],
@@ -130911,7 +130911,7 @@
 			"(Necromancy) Unlock the ~|Greater Bone Shield|~ incantation": {
 				"Category": ["Unlock Abilities"],
 				"Label": "Unlockable Abilities",
-				"Skills": {
+				"Requirements": {
 					"Necromancy": 73
 				},
 				"Tasks": {
@@ -130923,7 +130923,7 @@
 			"(Necromancy) Unlock the ~|Spectral Scythe#Cast 2|~ ability": {
 				"Category": ["Unlock Abilities"],
 				"Label": "Unlockable Abilities",
-				"Skills": {
+				"Requirements": {
 					"Necromancy": 70
 				},
 				"Chunks": ["City of Um"],
@@ -130932,7 +130932,7 @@
 			"(Necromancy) Unlock the ~|Conjure Phantom Guardian|~ ability": {
 				"Category": ["Unlock Abilities"],
 				"Label": "Unlockable Abilities",
-				"Skills": {
+				"Requirements": {
 					"Necromancy": 70
 				},
 				"Chunks": ["City of Um"],
@@ -130941,7 +130941,7 @@
 			"(Necromancy) Unlock the ~|Life Transfer|~ incantation": {
 				"Category": ["Unlock Abilities"],
 				"Label": "Unlockable Abilities",
-				"Skills": {
+				"Requirements": {
 					"Necromancy": 76
 				},
 				"Tasks": {
@@ -130953,7 +130953,7 @@
 			"(Necromancy) Unlock the ~|Darkness|~ incantation": {
 				"Category": ["Unlock Abilities"],
 				"Label": "Unlockable Abilities",
-				"Skills": {
+				"Requirements": {
 					"Necromancy": 86
 				},
 				"Tasks": {
@@ -130965,7 +130965,7 @@
 			"(Necromancy) Unlock the ~|Spectral Scythe#Cast 3|~ ability": {
 				"Category": ["Unlock Abilities"],
 				"Label": "Unlockable Abilities",
-				"Skills": {
+				"Requirements": {
 					"Necromancy": 80
 				},
 				"Tasks": {
@@ -130977,7 +130977,7 @@
 			"(Necromancy) Unlock the ~|Command Phantom Guardian|~ ability": {
 				"Category": ["Unlock Abilities"],
 				"Label": "Unlockable Abilities",
-				"Skills": {
+				"Requirements": {
 					"Necromancy": 80
 				},
 				"Chunks": ["City of Um"],
@@ -130986,7 +130986,7 @@
 			"(Necromancy) Unlock the ~|Invoke Death|~ incantation": {
 				"Category": ["Unlock Abilities"],
 				"Label": "Unlockable Abilities",
-				"Skills": {
+				"Requirements": {
 					"Necromancy": 80
 				},
 				"Tasks": {
@@ -130998,7 +130998,7 @@
 			"(Necromancy) Unlock the ~|Split Soul|~ incantation": {
 				"Category": ["Unlock Abilities"],
 				"Label": "Unlockable Abilities",
-				"Skills": {
+				"Requirements": {
 					"Necromancy": 92
 				},
 				"Tasks": {
@@ -131010,7 +131010,7 @@
 			"(Necromancy) Unlock the ~|Conjure Undead Army|~ ability": {
 				"Category": ["Unlock Abilities"],
 				"Label": "Unlockable Abilities",
-				"Skills": {
+				"Requirements": {
 					"Necromancy": 99
 				},
 				"Chunks": ["City of Um"],
@@ -131019,7 +131019,7 @@
 			"(Ranged) Unlock the ~|Demoralise|~ ability": {
 				"Category": ["Unlock Abilities"],
 				"Label": "Unlockable Abilities",
-				"Skills": {
+				"Requirements": {
 					"Ranged": 10
 				},
 				"Items": ["Scare Tactics"],
@@ -131028,7 +131028,7 @@
 			"(Ranged) Unlock the ~|Rout|~ ability": {
 				"Category": ["Unlock Abilities"],
 				"Label": "Unlockable Abilities",
-				"Skills": {
+				"Requirements": {
 					"Ranged": 15
 				},
 				"Items": ["Scare Tactics"],
@@ -131037,7 +131037,7 @@
 			"(Ranged) Unlock the ~|Greater Ricochet|~ ability": {
 				"Category": ["Unlock Abilities"],
 				"Label": "Unlockable Abilities",
-				"Skills": {
+				"Requirements": {
 					"Ranged": 45
 				},
 				"Items": ["Greater Ricochet ability codex"],
@@ -131046,7 +131046,7 @@
 			"(Ranged) Unlock the ~|Salt the Wound|~ and Greater Dazing Shot abilities": {
 				"Category": ["Unlock Abilities"],
 				"Label": "Unlockable Abilities",
-				"Skills": {
+				"Requirements": {
 					"Ranged": 60
 				},
 				"Items": ["Salt the Wound ability"],
@@ -131055,7 +131055,7 @@
 			"(Ranged) Unlock the ~|Corruption Shot|~ ability": {
 				"Category": ["Unlock Abilities"],
 				"Label": "Unlockable Abilities",
-				"Skills": {
+				"Requirements": {
 					"Ranged": 70
 				},
 				"Items": ["Corruption Shot ability codex"],
@@ -131064,7 +131064,7 @@
 			"(Ranged) Unlock the ~|Shadow Tendrils|~ ability": {
 				"Category": ["Unlock Abilities"],
 				"Label": "Unlockable Abilities",
-				"Skills": {
+				"Requirements": {
 					"Ranged": 75
 				},
 				"Items": ["Codex Ultimatus"],
@@ -131073,7 +131073,7 @@
 			"(Ranged) Unlock the ~|Death's Swiftness|~ ability": {
 				"Category": ["Unlock Abilities"],
 				"Label": "Unlockable Abilities",
-				"Skills": {
+				"Requirements": {
 					"Ranged": 85
 				},
 				"Tasks": {
@@ -131083,7 +131083,7 @@
 			"(Ranged) Unlock the ~|Greater Death's Swiftness|~ ability": {
 				"Category": ["Unlock Abilities"],
 				"Label": "Unlockable Abilities",
-				"Skills": {
+				"Requirements": {
 					"Ranged": 85
 				},
 				"Tasks": {
@@ -131135,7 +131135,7 @@
 			"(Sigil) Unlock the ~|Golden Touch|~ ability": {
 				"Category": ["Unlock Abilities", "Sigil Abilities"],
 				"Label": "Unlockable Abilities",
-				"Skills": {
+				"Requirements": {
 					"Magic": 55
 				},
 				"Items": ["Golden Touch ability codex"],
@@ -131151,7 +131151,7 @@
 			"Unlock the ~|Sanctity|~ prayer": {
 				"Category": ["Unlock Prayers"],
 				"Label": "Unlockable Prayers",
-				"Skills": {
+				"Requirements": {
 					"Necromancy": 60
 				},
 				"Tasks": {
@@ -131161,7 +131161,7 @@
 			"Unlock the ~|Eclipsed Soul|~ prayer": {
 				"Category": ["Unlock Prayers"],
 				"Label": "Unlockable Prayers",
-				"Skills": {
+				"Requirements": {
 					"Necromancy": 75,
 					"Strength": 75,
 					"Ranged": 75,
@@ -131173,7 +131173,7 @@
 			"Unlock the ~|Divine Rage|~ prayer": {
 				"Category": ["Unlock Prayers"],
 				"Label": "Unlockable Prayers",
-				"Skills": {
+				"Requirements": {
 					"Necromancy": 85,
 					"Strength": 85,
 					"Ranged": 85,
@@ -131185,7 +131185,7 @@
 			"Unlock the ~|Rapid Renewal|~ prayer": {
 				"Category": ["Unlock Prayers"],
 				"Label": "Unlockable Prayers",
-				"Skills": {
+				"Requirements": {
 					"Dungeoneering": 65,
 					"Prayer": 65
 				},
@@ -131194,7 +131194,7 @@
 			"Unlock the ~|Leech Necromancy Attack|~ curse": {
 				"Category": ["Unlock Prayers"],
 				"Label": "Unlockable Curses",
-				"Skills": {
+				"Requirements": {
 					"Necromancy": 70
 				},
 				"Tasks": {
@@ -131204,7 +131204,7 @@
 			"Unlock the ~|Leech Necromancy Strength|~ curse": {
 				"Category": ["Unlock Prayers"],
 				"Label": "Unlockable Curses",
-				"Skills": {
+				"Requirements": {
 					"Necromancy": 70
 				},
 				"Tasks": {
@@ -131214,7 +131214,7 @@
 			"Unlock the ~|Sorrow|~ curse": {
 				"Category": ["Unlock Prayers"],
 				"Label": "Unlockable Curses",
-				"Skills": {
+				"Requirements": {
 					"Necromancy": 90
 				},
 				"Tasks": {
@@ -131224,7 +131224,7 @@
 			"Unlock the ~|Ruination|~ curse": {
 				"Category": ["Unlock Prayers"],
 				"Label": "Unlockable Curses",
-				"Skills": {
+				"Requirements": {
 					"Necromancy": 95
 				},
 				"Tasks": {
@@ -136548,7 +136548,7 @@
 				"Label": "Untracked Skilling Uniques",
 				"Chunks": ["14897", "14989"],
 				"Items": ["White marble", "Hallowed lantern"],
-				"Skills": {
+				"Requirements": {
 					"Construction": 40,
 					"Archaeology": 105
 				},
@@ -142021,7 +142021,7 @@
 				"Label": "Slayer Codex",
 				"Items": ["Ushabti"],
 				"Monster": ["Scorpion Souls[+]"],
-				"Skills": {
+				"Requirements": {
 					"Slayer": 1
 				},
 				"Output": "Ushabti (scorpion)",
@@ -142032,7 +142032,7 @@
 				"Label": "Slayer Codex",
 				"Items": ["Ushabti"],
 				"Monster": ["Bat Souls[+]"],
-				"Skills": {
+				"Requirements": {
 					"Slayer": 1
 				},
 				"Output": "Ushabti (bat)",
@@ -142259,7 +142259,7 @@
 				"Label": "Slayer Codex",
 				"Items": ["Ushabti"],
 				"Monster": ["Turoth"],
-				"Skills": {
+				"Requirements": {
 					"Slayer": 55
 				},
 				"Output": "Ushabti (turoth)",
@@ -142270,7 +142270,7 @@
 				"Label": "Slayer Codex",
 				"Items": ["Ushabti"],
 				"Monster": ["Cave crawler"],
-				"Skills": {
+				"Requirements": {
 					"Slayer": 10
 				},
 				"Output": "Ushabti (cave crawler)",
@@ -142281,7 +142281,7 @@
 				"Label": "Slayer Codex",
 				"Items": ["Ushabti"],
 				"Monster": ["Banshee"],
-				"Skills": {
+				"Requirements": {
 					"Slayer": 15
 				},
 				"Output": "Ushabti (banshee)",
@@ -142292,7 +142292,7 @@
 				"Label": "Slayer Codex",
 				"Items": ["Ushabti"],
 				"Monster": ["Crawling hand"],
-				"Skills": {
+				"Requirements": {
 					"Slayer": 5
 				},
 				"Output": "Ushabti (crawling hand)",
@@ -142303,7 +142303,7 @@
 				"Label": "Slayer Codex",
 				"Items": ["Ushabti"],
 				"Monster": ["Infernal mage"],
-				"Skills": {
+				"Requirements": {
 					"Slayer": 45
 				},
 				"Output": "Ushabti (infernal mage)",
@@ -142314,7 +142314,7 @@
 				"Label": "Slayer Codex",
 				"Items": ["Ushabti"],
 				"Monster": ["Aberrant spectre"],
-				"Skills": {
+				"Requirements": {
 					"Slayer": 60
 				},
 				"Output": "Ushabti (aberrant spectre)",
@@ -142325,7 +142325,7 @@
 				"Label": "Slayer Codex",
 				"Items": ["Ushabti"],
 				"Monster": ["Abyssal demon"],
-				"Skills": {
+				"Requirements": {
 					"Slayer": 85
 				},
 				"Output": "Ushabti (abyssal demon)",
@@ -142336,7 +142336,7 @@
 				"Label": "Slayer Codex",
 				"Items": ["Ushabti"],
 				"Monster": ["Basilisk"],
-				"Skills": {
+				"Requirements": {
 					"Slayer": 40
 				},
 				"Output": "Ushabti (basilisk)",
@@ -142347,7 +142347,7 @@
 				"Label": "Slayer Codex",
 				"Items": ["Ushabti"],
 				"Monster": ["Cockatrice"],
-				"Skills": {
+				"Requirements": {
 					"Slayer": 25
 				},
 				"Output": "Ushabti (cockatrice)",
@@ -142358,7 +142358,7 @@
 				"Label": "Slayer Codex",
 				"Items": ["Ushabti"],
 				"Monster": ["Kurask"],
-				"Skills": {
+				"Requirements": {
 					"Slayer": 70
 				},
 				"Output": "Ushabti (kurask)",
@@ -142369,7 +142369,7 @@
 				"Label": "Slayer Codex",
 				"Items": ["Ushabti"],
 				"Monster": ["Gargoyle"],
-				"Skills": {
+				"Requirements": {
 					"Slayer": 75
 				},
 				"Output": "Ushabti (gargoyle)",
@@ -142380,7 +142380,7 @@
 				"Label": "Slayer Codex",
 				"Items": ["Ushabti"],
 				"Monster": ["Pyrefiend"],
-				"Skills": {
+				"Requirements": {
 					"Slayer": 30
 				},
 				"Output": "Ushabti (pyrefiend)",
@@ -142391,7 +142391,7 @@
 				"Label": "Slayer Codex",
 				"Items": ["Ushabti"],
 				"Monster": ["Bloodveld"],
-				"Skills": {
+				"Requirements": {
 					"Slayer": 50
 				},
 				"Output": "Ushabti (bloodveld)",
@@ -142402,7 +142402,7 @@
 				"Label": "Slayer Codex",
 				"Items": ["Ushabti"],
 				"Monster": ["Dust devil"],
-				"Skills": {
+				"Requirements": {
 					"Slayer": 65
 				},
 				"Output": "Ushabti (dust devil)",
@@ -142413,7 +142413,7 @@
 				"Label": "Slayer Codex",
 				"Items": ["Ushabti"],
 				"Monster": ["Jelly"],
-				"Skills": {
+				"Requirements": {
 					"Slayer": 52
 				},
 				"Output": "Ushabti (jelly)",
@@ -142424,7 +142424,7 @@
 				"Label": "Slayer Codex",
 				"Items": ["Ushabti"],
 				"Monster": ["Rock slug"],
-				"Skills": {
+				"Requirements": {
 					"Slayer": 20
 				},
 				"Output": "Ushabti (rock slug)",
@@ -142435,7 +142435,7 @@
 				"Label": "Slayer Codex",
 				"Items": ["Ushabti"],
 				"Monster": ["Nechryael"],
-				"Skills": {
+				"Requirements": {
 					"Slayer": 80
 				},
 				"Output": "Ushabti (nechryael)",
@@ -142510,7 +142510,7 @@
 				"Label": "Slayer Codex",
 				"Items": ["Ushabti"],
 				"Monster": ["Wall beast"],
-				"Skills": {
+				"Requirements": {
 					"Slayer": 35
 				},
 				"Output": "Ushabti (wall beast)",
@@ -142521,7 +142521,7 @@
 				"Label": "Slayer Codex",
 				"Items": ["Ushabti"],
 				"Monster": ["Cave slime"],
-				"Skills": {
+				"Requirements": {
 					"Slayer": 17
 				},
 				"Output": "Ushabti (cave slime)",
@@ -142532,7 +142532,7 @@
 				"Label": "Slayer Codex",
 				"Items": ["Ushabti"],
 				"Monster": ["CaveBug[+]"],
-				"Skills": {
+				"Requirements": {
 					"Slayer": 7
 				},
 				"Output": "Ushabti (cave bug)",
@@ -142559,7 +142559,7 @@
 				"Label": "Slayer Codex",
 				"Items": ["Ushabti"],
 				"Monster": ["Dark beast"],
-				"Skills": {
+				"Requirements": {
 					"Slayer": 90
 				},
 				"Output": "Ushabti (dark beast)",
@@ -142570,7 +142570,7 @@
 				"Label": "Slayer Codex",
 				"Items": ["Ushabti"],
 				"Monster": ["Mogre"],
-				"Skills": {
+				"Requirements": {
 					"Slayer": 32
 				},
 				"Output": "Ushabti (mogre)",
@@ -142581,7 +142581,7 @@
 				"Label": "Slayer Codex",
 				"Items": ["Ushabti"],
 				"Monster": ["Lizard Souls[+]"],
-				"Skills": {
+				"Requirements": {
 					"Slayer": 22
 				},
 				"Output": "Ushabti (lizard)",
@@ -142592,7 +142592,7 @@
 				"Label": "Slayer Codex",
 				"Items": ["Ushabti"],
 				"Monster": ["Fever spider"],
-				"Skills": {
+				"Requirements": {
 					"Slayer": 42
 				},
 				"Output": "Ushabti (fever spider)",
@@ -142603,7 +142603,7 @@
 				"Label": "Slayer Codex",
 				"Items": ["Ushabti"],
 				"Monster": ["Harpie Bug Swarm"],
-				"Skills": {
+				"Requirements": {
 					"Slayer": 33
 				},
 				"Output": "Ushabti (harpie bug swarm)",
@@ -142614,7 +142614,7 @@
 				"Label": "Slayer Codex",
 				"Items": ["Ushabti"],
 				"Monster": ["Sea Snake"],
-				"Skills": {
+				"Requirements": {
 					"Slayer": 40
 				},
 				"Output": "Ushabti (sea snake)",
@@ -142625,7 +142625,7 @@
 				"Label": "Slayer Codex",
 				"Items": ["Ushabti"],
 				"Monster": ["Skeletal Wyvern"],
-				"Skills": {
+				"Requirements": {
 					"Slayer": 72
 				},
 				"Output": "Ushabti (Skeletal Wyvern)",
@@ -142636,7 +142636,7 @@
 				"Label": "Slayer Codex",
 				"Items": ["Ushabti"],
 				"Monster": ["Killerwatt"],
-				"Skills": {
+				"Requirements": {
 					"Slayer": 37
 				},
 				"Output": "Ushabti (killerwatt)",
@@ -142647,7 +142647,7 @@
 				"Label": "Slayer Codex",
 				"Items": ["Ushabti"],
 				"Monster": ["Mutated zygomite"],
-				"Skills": {
+				"Requirements": {
 					"Slayer": 57
 				},
 				"Output": "Ushabti (mutated zygomite)",
@@ -142698,7 +142698,7 @@
 				"Label": "Slayer Codex",
 				"Items": ["Ushabti"],
 				"Monster": ["Cave horror"],
-				"Skills": {
+				"Requirements": {
 					"Slayer": 58
 				},
 				"Output": "Ushabti (cave horror)",
@@ -142733,7 +142733,7 @@
 				"Label": "Slayer Codex",
 				"Items": ["Ushabti"],
 				"Monster": ["Brine rat"],
-				"Skills": {
+				"Requirements": {
 					"Slayer": 47
 				},
 				"Output": "Ushabti (brine rat)",
@@ -142752,7 +142752,7 @@
 				"Label": "Slayer Codex",
 				"Items": ["Ushabti"],
 				"Monster": ["Terror dog"],
-				"Skills": {
+				"Requirements": {
 					"Slayer": 40
 				},
 				"Output": "Ushabti (terror dog)",
@@ -142763,7 +142763,7 @@
 				"Label": "Slayer Codex",
 				"Items": ["Ushabti"],
 				"Monster": ["Molanisk"],
-				"Skills": {
+				"Requirements": {
 					"Slayer": 39
 				},
 				"Output": "Ushabti (molanisk)",
@@ -142782,7 +142782,7 @@
 				"Label": "Slayer Codex",
 				"Items": ["Ushabti"],
 				"Monster": ["Spiritual warrior"],
-				"Skills": {
+				"Requirements": {
 					"Slayer": 68
 				},
 				"Output": "Ushabti (spiritual warrior)",
@@ -142793,7 +142793,7 @@
 				"Label": "Slayer Codex",
 				"Items": ["Ushabti"],
 				"Monster": ["Spiritual ranger"],
-				"Skills": {
+				"Requirements": {
 					"Slayer": 63
 				},
 				"Output": "Ushabti (spiritual ranger)",
@@ -142804,7 +142804,7 @@
 				"Label": "Slayer Codex",
 				"Items": ["Ushabti"],
 				"Monster": ["Spiritual mage"],
-				"Skills": {
+				"Requirements": {
 					"Slayer": 83
 				},
 				"Output": "Ushabti (spiritual mage)",
@@ -142815,7 +142815,7 @@
 				"Label": "Slayer Codex",
 				"Items": ["Ushabti"],
 				"Monster": ["Warped tortoise"],
-				"Skills": {
+				"Requirements": {
 					"Slayer": 56
 				},
 				"Output": "Ushabti (warped tortoise)",
@@ -142826,7 +142826,7 @@
 				"Label": "Slayer Codex",
 				"Items": ["Ushabti"],
 				"Monster": ["Warped terrorbird"],
-				"Skills": {
+				"Requirements": {
 					"Slayer": 56
 				},
 				"Output": "Ushabti (warped terrorbird)",
@@ -142845,7 +142845,7 @@
 				"Label": "Slayer Codex",
 				"Items": ["Ushabti"],
 				"Monster": ["Aquanite"],
-				"Skills": {
+				"Requirements": {
 					"Slayer": 78
 				},
 				"Output": "Ushabti (aquanite)",
@@ -142856,7 +142856,7 @@
 				"Label": "Slayer Codex",
 				"Items": ["Ushabti"],
 				"Monster": ["Ganodermic beast"],
-				"Skills": {
+				"Requirements": {
 					"Slayer": 95
 				},
 				"Output": "Ushabti (ganodermic beast)",
@@ -142867,7 +142867,7 @@
 				"Label": "Slayer Codex",
 				"Items": ["Ushabti"],
 				"Monster": ["Grifolapine"],
-				"Skills": {
+				"Requirements": {
 					"Slayer": 88
 				},
 				"Output": "Ushabti (grifolapine)",
@@ -142878,7 +142878,7 @@
 				"Label": "Slayer Codex",
 				"Items": ["Ushabti"],
 				"Monster": ["Grifolaroo"],
-				"Skills": {
+				"Requirements": {
 					"Slayer": 82
 				},
 				"Output": "Ushabti (grifolaroo)",
@@ -142897,7 +142897,7 @@
 				"Label": "Slayer Codex",
 				"Items": ["Ushabti"],
 				"Monster": ["Jungle strykewyrm"],
-				"Skills": {
+				"Requirements": {
 					"Slayer": 73
 				},
 				"Output": "Ushabti (jungle strykewyrm)",
@@ -142908,7 +142908,7 @@
 				"Label": "Slayer Codex",
 				"Items": ["Ushabti"],
 				"Monster": ["Desert strykewyrm"],
-				"Skills": {
+				"Requirements": {
 					"Slayer": 77
 				},
 				"Output": "Ushabti (desert strykewyrm)",
@@ -142919,7 +142919,7 @@
 				"Label": "Slayer Codex",
 				"Items": ["Ushabti"],
 				"Monster": ["Ice strykewyrm"],
-				"Skills": {
+				"Requirements": {
 					"Slayer": 93
 				},
 				"Output": "Ushabti (ice strykewyrm)",
@@ -142946,7 +142946,7 @@
 				"Label": "Slayer Codex",
 				"Items": ["Ushabti"],
 				"Monster": ["Mutated Jadinko Souls[+]"],
-				"Skills": {
+				"Requirements": {
 					"Slayer": 80
 				},
 				"Output": "Ushabti (mutated jadinko)",
@@ -142984,7 +142984,7 @@
 				"Label": "Slayer Codex",
 				"Items": ["Ushabti"],
 				"Monster": ["Automaton Souls[+]"],
-				"Skills": {
+				"Requirements": {
 					"Slayer": 67
 				},
 				"Output": "Ushabti (automaton)",
@@ -143003,7 +143003,7 @@
 				"Label": "Slayer Codex",
 				"Items": ["Ushabti"],
 				"Monster": ["Ascension Creature Souls[+]"],
-				"Skills": {
+				"Requirements": {
 					"Slayer": 81
 				},
 				"Output": "Ushabti (ascension creature)",
@@ -143022,7 +143022,7 @@
 				"Label": "Slayer Codex",
 				"Items": ["Ushabti"],
 				"Monster": ["Airut"],
-				"Skills": {
+				"Requirements": {
 					"Slayer": 92
 				},
 				"Output": "Ushabti (airut)",
@@ -143041,7 +143041,7 @@
 				"Label": "Slayer Codex",
 				"Items": ["Ushabti"],
 				"Monster": ["Muspah Souls[+]"],
-				"Skills": {
+				"Requirements": {
 					"Slayer": 76
 				},
 				"Output": "Ushabti (muspah)",
@@ -143052,7 +143052,7 @@
 				"Label": "Slayer Codex",
 				"Items": ["Ushabti"],
 				"Monster": ["Nihil Souls[+]"],
-				"Skills": {
+				"Requirements": {
 					"Slayer": 76
 				},
 				"Output": "Ushabti (nihil)",
@@ -143063,7 +143063,7 @@
 				"Label": "Slayer Codex",
 				"Items": ["Ushabti"],
 				"Monster": ["Kal'gerion demon"],
-				"Skills": {
+				"Requirements": {
 					"Slayer": 1
 				},
 				"Output": "Ushabti (kal'gerion demon)",
@@ -143074,7 +143074,7 @@
 				"Label": "Slayer Codex",
 				"Items": ["Ushabti"],
 				"Monster": ["Glacor Souls[+]"],
-				"Skills": {
+				"Requirements": {
 					"Slayer": 56
 				},
 				"Output": "Ushabti (glacor)",
@@ -143085,7 +143085,7 @@
 				"Label": "Slayer Codex",
 				"Items": ["Ushabti"],
 				"Monster": ["Tormented demon"],
-				"Skills": {
+				"Requirements": {
 					"Slayer": 56
 				},
 				"Output": "Ushabti (tormented demon)",
@@ -143096,7 +143096,7 @@
 				"Label": "Slayer Codex",
 				"Items": ["Ushabti"],
 				"Monster": ["Edimmu"],
-				"Skills": {
+				"Requirements": {
 					"Slayer": 90,
 					"Dungeoneering": 115
 				},
@@ -143108,7 +143108,7 @@
 				"Label": "Slayer Codex",
 				"Items": ["Ushabti"],
 				"Monster": ["Shadow Creature Souls[+]"],
-				"Skills": {
+				"Requirements": {
 					"Slayer": 1
 				},
 				"Output": "Ushabti (shadow creature)",
@@ -143119,7 +143119,7 @@
 				"Label": "Slayer Codex",
 				"Items": ["Ushabti"],
 				"Monster": ["Lava Strykewyrm Souls[+]"],
-				"Skills": {
+				"Requirements": {
 					"Slayer": 94
 				},
 				"Output": "Ushabti (lava strykewyrm)",
@@ -143130,7 +143130,7 @@
 				"Label": "Slayer Codex",
 				"Items": ["Ushabti"],
 				"Monster": ["Adamant dragon"],
-				"Skills": {
+				"Requirements": {
 					"Slayer": 1
 				},
 				"Output": "Ushabti (adamant dragon)",
@@ -143141,7 +143141,7 @@
 				"Label": "Slayer Codex",
 				"Items": ["Ushabti"],
 				"Monster": ["Rune dragon"],
-				"Skills": {
+				"Requirements": {
 					"Slayer": 76
 				},
 				"Output": "Ushabti (rune dragon)",
@@ -143152,7 +143152,7 @@
 				"Label": "Slayer Codex",
 				"Items": ["Ushabti"],
 				"Monster": ["Crystal Shapeshifter"],
-				"Skills": {
+				"Requirements": {
 					"Slayer": 80
 				},
 				"Output": "Ushabti (crystal shapeshifter)",
@@ -143163,7 +143163,7 @@
 				"Label": "Slayer Codex",
 				"Items": ["Ushabti"],
 				"Monster": ["Wyvern"],
-				"Skills": {
+				"Requirements": {
 					"Slayer": 96
 				},
 				"Output": "Ushabti (wyvern)",
@@ -143174,7 +143174,7 @@
 				"Label": "Slayer Codex",
 				"Items": ["Ushabti"],
 				"Monster": ["Ripper Demon"],
-				"Skills": {
+				"Requirements": {
 					"Slayer": 96
 				},
 				"Output": "Ushabti (ripper demon)",
@@ -143185,7 +143185,7 @@
 				"Label": "Slayer Codex",
 				"Items": ["Ushabti"],
 				"Monster": ["Camel Warrior"],
-				"Skills": {
+				"Requirements": {
 					"Slayer": 96
 				},
 				"Output": "Ushabti (camel warrior)",
@@ -143196,7 +143196,7 @@
 				"Label": "Slayer Codex",
 				"Items": ["Ushabti"],
 				"Monster": ["Acheron Mammoth"],
-				"Skills": {
+				"Requirements": {
 					"Slayer": 96
 				},
 				"Output": "Ushabti (acheron mammoth)",
@@ -143207,7 +143207,7 @@
 				"Label": "Slayer Codex",
 				"Items": ["Ushabti"],
 				"Monster": ["Chaos Giant"],
-				"Skills": {
+				"Requirements": {
 					"Slayer": 1
 				},
 				"Output": "Ushabti (chaos giant)",
@@ -143218,7 +143218,7 @@
 				"Label": "Slayer Codex",
 				"Items": ["Ushabti"],
 				"Monster": ["Nightmare"],
-				"Skills": {
+				"Requirements": {
 					"Slayer": 80
 				},
 				"Output": "Ushabti (nightmare)",
@@ -143229,7 +143229,7 @@
 				"Label": "Slayer Codex",
 				"Items": ["Ushabti"],
 				"Monster": ["Dragonstone Dragon Souls[+]"],
-				"Skills": {
+				"Requirements": {
 					"Slayer": 95
 				},
 				"Output": "Ushabti (dragonstone dragon)",
@@ -143240,7 +143240,7 @@
 				"Label": "Slayer Codex",
 				"Items": ["Ushabti"],
 				"Monster": ["Onyx Dragon Souls[+]"],
-				"Skills": {
+				"Requirements": {
 					"Slayer": 98
 				},
 				"Output": "Ushabti (onyx dragon)",
@@ -143251,7 +143251,7 @@
 				"Label": "Slayer Codex",
 				"Items": ["Ushabti"],
 				"Monster": ["Hydrix Dragon Souls[+]"],
-				"Skills": {
+				"Requirements": {
 					"Slayer": 101
 				},
 				"Output": "Ushabti (hydrix dragon)",
@@ -143262,7 +143262,7 @@
 				"Label": "Slayer Codex",
 				"Items": ["Ushabti"],
 				"Monster": ["Corrupted scorpion"],
-				"Skills": {
+				"Requirements": {
 					"Slayer": 88
 				},
 				"Output": "Ushabti (corrupted scorpion)",
@@ -143273,7 +143273,7 @@
 				"Label": "Slayer Codex",
 				"Items": ["Ushabti"],
 				"Monster": ["Corrupted scarab"],
-				"Skills": {
+				"Requirements": {
 					"Slayer": 91
 				},
 				"Output": "Ushabti (corrupted scarab)",
@@ -143284,7 +143284,7 @@
 				"Label": "Slayer Codex",
 				"Items": ["Ushabti"],
 				"Monster": ["Corrupted lizard"],
-				"Skills": {
+				"Requirements": {
 					"Slayer": 94
 				},
 				"Output": "Ushabti (corrupted lizard)",
@@ -143295,7 +143295,7 @@
 				"Label": "Slayer Codex",
 				"Items": ["Ushabti"],
 				"Monster": ["Corrupted dust devil"],
-				"Skills": {
+				"Requirements": {
 					"Slayer": 97
 				},
 				"Output": "Ushabti (corrupted dust devil)",
@@ -143306,7 +143306,7 @@
 				"Label": "Slayer Codex",
 				"Items": ["Ushabti"],
 				"Monster": ["Corrupted Kalphite Souls[+]"],
-				"Skills": {
+				"Requirements": {
 					"Slayer": 100
 				},
 				"Output": "Ushabti (corrupted kalphite)",
@@ -143317,7 +143317,7 @@
 				"Label": "Slayer Codex",
 				"Items": ["Ushabti"],
 				"Monster": ["Corrupted worker"],
-				"Skills": {
+				"Requirements": {
 					"Slayer": 103
 				},
 				"Output": "Ushabti (corrupted worker)",
@@ -143328,7 +143328,7 @@
 				"Label": "Slayer Codex",
 				"Items": ["Ushabti"],
 				"Monster": ["Salawa akh"],
-				"Skills": {
+				"Requirements": {
 					"Slayer": 105
 				},
 				"Output": "Ushabti (salawa akh)",
@@ -143339,7 +143339,7 @@
 				"Label": "Slayer Codex",
 				"Items": ["Ushabti"],
 				"Monster": ["Feline akh"],
-				"Skills": {
+				"Requirements": {
 					"Slayer": 107
 				},
 				"Output": "Ushabti (feline akh)",
@@ -143350,7 +143350,7 @@
 				"Label": "Slayer Codex",
 				"Items": ["Ushabti"],
 				"Monster": ["Gorilla akh"],
-				"Skills": {
+				"Requirements": {
 					"Slayer": 113
 				},
 				"Output": "Ushabti (gorilla akh)",
@@ -143361,7 +143361,7 @@
 				"Label": "Slayer Codex",
 				"Items": ["Ushabti"],
 				"Monster": ["Crocodile akh"],
-				"Skills": {
+				"Requirements": {
 					"Slayer": 111
 				},
 				"Output": "Ushabti (crocodile akh)",
@@ -143372,7 +143372,7 @@
 				"Label": "Slayer Codex",
 				"Items": ["Ushabti"],
 				"Monster": ["Scarab akh"],
-				"Skills": {
+				"Requirements": {
 					"Slayer": 109
 				},
 				"Output": "Ushabti (scarab akh)",
@@ -143383,7 +143383,7 @@
 				"Label": "Slayer Codex",
 				"Items": ["Ushabti"],
 				"Monster": ["Imperial Gaurd Akh Souls[+]"],
-				"Skills": {
+				"Requirements": {
 					"Slayer": 117
 				},
 				"Output": "Ushabti (imperial guard akh)",
@@ -143394,7 +143394,7 @@
 				"Label": "Slayer Codex",
 				"Items": ["Ushabti"],
 				"Monster": ["Moss golem"],
-				"Skills": {
+				"Requirements": {
 					"Slayer": 108
 				},
 				"Output": "Ushabti (moss golem)",
@@ -143405,7 +143405,7 @@
 				"Label": "Slayer Codex",
 				"Items": ["Ushabti"],
 				"Monster": ["Bulbous crawler"],
-				"Skills": {
+				"Requirements": {
 					"Slayer": 106
 				},
 				"Output": "Ushabti (bulbous crawler)",
@@ -143416,7 +143416,7 @@
 				"Label": "Slayer Codex",
 				"Items": ["Ushabti"],
 				"Monster": ["Vinecrawler"],
-				"Skills": {
+				"Requirements": {
 					"Slayer": 104
 				},
 				"Output": "Ushabti (vinecrawler)",
@@ -143427,7 +143427,7 @@
 				"Label": "Slayer Codex",
 				"Items": ["Ushabti"],
 				"Monster": ["Seeker"],
-				"Skills": {
+				"Requirements": {
 					"Slayer": 71
 				},
 				"Output": "Ushabti (seeker)",
@@ -143438,7 +143438,7 @@
 				"Label": "Slayer Codex",
 				"Items": ["Ushabti"],
 				"Monster": ["Soulgazer"],
-				"Skills": {
+				"Requirements": {
 					"Slayer": 99
 				},
 				"Output": "Ushabti (soulgazer)",
@@ -143457,7 +143457,7 @@
 				"Label": "Slayer Codex",
 				"Items": ["Ushabti"],
 				"Monster": ["Feral dinosaur"],
-				"Skills": {
+				"Requirements": {
 					"Slayer": 90
 				},
 				"Output": "Ushabti (feral dinosaur)",
@@ -143468,7 +143468,7 @@
 				"Label": "Slayer Codex",
 				"Items": ["Ushabti"],
 				"Monster": ["Brutish dinosaur"],
-				"Skills": {
+				"Requirements": {
 					"Slayer": 99
 				},
 				"Output": "Ushabti (brutish dinosaur)",
@@ -143479,7 +143479,7 @@
 				"Label": "Slayer Codex",
 				"Items": ["Ushabti"],
 				"Monster": ["Venomous dinosaur"],
-				"Skills": {
+				"Requirements": {
 					"Slayer": 105
 				},
 				"Output": "Ushabti (venomous dinosaur)",
@@ -143490,7 +143490,7 @@
 				"Label": "Slayer Codex",
 				"Items": ["Ushabti"],
 				"Monster": ["Ripper dinosaur"],
-				"Skills": {
+				"Requirements": {
 					"Slayer": 114
 				},
 				"Output": "Ushabti (ripper dinosaur)",
@@ -143501,7 +143501,7 @@
 				"Label": "Slayer Codex",
 				"Items": ["Ushabti"],
 				"Monster": ["Lampenflora"],
-				"Skills": {
+				"Requirements": {
 					"Slayer": 102
 				},
 				"Output": "Ushabti (lampenflora)",
@@ -143512,7 +143512,7 @@
 				"Label": "Slayer Codex",
 				"Items": ["Ushabti"],
 				"Monster": ["Devil's snare"],
-				"Skills": {
+				"Requirements": {
 					"Slayer": 90
 				},
 				"Output": "Ushabti (devil's snare)",
@@ -143523,7 +143523,7 @@
 				"Label": "Slayer Codex",
 				"Items": ["Ushabti"],
 				"Monster": ["Luminous snaggler"],
-				"Skills": {
+				"Requirements": {
 					"Slayer": 95
 				},
 				"Output": "Ushabti (luminous snaggler)",
@@ -143534,7 +143534,7 @@
 				"Label": "Slayer Codex",
 				"Items": ["Ushabti"],
 				"Monster": ["Liverworts"],
-				"Skills": {
+				"Requirements": {
 					"Slayer": 110
 				},
 				"Output": "Ushabti (liverwort)",
@@ -143553,7 +143553,7 @@
 				"Label": "Slayer Codex",
 				"Items": ["Ushabti"],
 				"Monster": ["Nodon Souls[+]"],
-				"Skills": {
+				"Requirements": {
 					"Slayer": 92
 				},
 				"Output": "Ushabti (Nodon)",
@@ -143564,7 +143564,7 @@
 				"Label": "Slayer Codex",
 				"Items": ["Ushabti"],
 				"Monster": ["Abyssal savage"],
-				"Skills": {
+				"Requirements": {
 					"Slayer": 95
 				},
 				"Output": "Ushabti (abyssal savage)",
@@ -143575,7 +143575,7 @@
 				"Label": "Slayer Codex",
 				"Items": ["Ushabti"],
 				"Monster": ["Abyssal beast"],
-				"Skills": {
+				"Requirements": {
 					"Slayer": 105
 				},
 				"Output": "Ushabti (abyssal beast)",
@@ -143586,7 +143586,7 @@
 				"Label": "Slayer Codex",
 				"Items": ["Ushabti"],
 				"Monster": ["Abyssal lord"],
-				"Skills": {
+				"Requirements": {
 					"Slayer": 115
 				},
 				"Output": "Ushabti (abyssal lord)",
@@ -143597,7 +143597,7 @@
 				"Label": "Slayer Codex",
 				"Items": ["Ushabti"],
 				"Monster": ["Fetid zombie"],
-				"Skills": {
+				"Requirements": {
 					"Slayer": 1
 				},
 				"Output": "Ushabti (fetid zombie)",
@@ -143608,7 +143608,7 @@
 				"Label": "Slayer Codex",
 				"Items": ["Ushabti"],
 				"Monster": ["Bound skeleton"],
-				"Skills": {
+				"Requirements": {
 					"Slayer": 50
 				},
 				"Output": "Ushabti (bound skeleton)",
@@ -143619,7 +143619,7 @@
 				"Label": "Slayer Codex",
 				"Items": ["Ushabti"],
 				"Monster": ["Risen ghost"],
-				"Skills": {
+				"Requirements": {
 					"Slayer": 85
 				},
 				"Output": "Ushabti (risen ghost)",
@@ -143630,7 +143630,7 @@
 				"Label": "Slayer Codex",
 				"Items": ["Ushabti"],
 				"Monster": ["Armoured phantom"],
-				"Skills": {
+				"Requirements": {
 					"Slayer": 113
 				},
 				"Output": "Ushabti (armoured phantom)",
@@ -143641,7 +143641,7 @@
 				"Label": "Slayer Codex",
 				"Items": ["Ushabti"],
 				"Monster": ["Profane Scabarite"],
-				"Skills": {
+				"Requirements": {
 					"Slayer": 87
 				},
 				"Output": "Ushabti (profane scabarite)",
@@ -143820,7 +143820,7 @@
 			"Unlock ~|Frosty|~": {
 				"Category": ["Permanent Unlockables", "Pets"],
 				"Label": "Follower Pets",
-				"Skills": {
+				"Requirements": {
 					"Summoning": 99
 				},
 				"Items": ["Frosty"]
@@ -143860,7 +143860,7 @@
 			"Unlock ~|Diddykin|~": {
 				"Category": ["Permanent Unlockables", "Pets"],
 				"Label": "Follower Pets",
-				"Skills": {
+				"Requirements": {
 					"Summoning": 99
 				},
 				"Items": ["Lucky dragonkin coin"]
@@ -144166,7 +144166,7 @@
 				"Category": ["Permanent Unlockables"],
 				"Label": "Permanent Unlockables",
 				"Items": ["Plant Power (Tier 4)"],
-				"Skills": {
+				"Requirements": {
 					"Farming": 110
 				}
 			},
@@ -144202,7 +144202,7 @@
 				"Tasks": {
 					"~|New Foundations|~ Complete the quest": "Quest"
 				},
-				"Skills": {
+				"Requirements": {
 					"Construction": 1
 				}
 			},
@@ -144213,7 +144213,7 @@
 				"Tasks": {
 					"~|New Foundations|~ Complete the quest": "Quest"
 				},
-				"Skills": {
+				"Requirements": {
 					"Construction": 35
 				}
 			},
@@ -144224,7 +144224,7 @@
 				"Tasks": {
 					"~|New Foundations|~ Complete the quest": "Quest"
 				},
-				"Skills": {
+				"Requirements": {
 					"Construction": 75
 				}
 			},
@@ -144235,7 +144235,7 @@
 				"Tasks": {
 					"~|New Foundations|~ Complete the quest": "Quest"
 				},
-				"Skills": {
+				"Requirements": {
 					"Construction": 10
 				}
 			},
@@ -144246,7 +144246,7 @@
 				"Tasks": {
 					"~|New Foundations|~ Complete the quest": "Quest"
 				},
-				"Skills": {
+				"Requirements": {
 					"Construction": 45
 				}
 			},
@@ -144257,7 +144257,7 @@
 				"Tasks": {
 					"~|New Foundations|~ Complete the quest": "Quest"
 				},
-				"Skills": {
+				"Requirements": {
 					"Construction": 80
 				}
 			},
@@ -144268,7 +144268,7 @@
 				"Tasks": {
 					"~|New Foundations|~ Complete the quest": "Quest"
 				},
-				"Skills": {
+				"Requirements": {
 					"Construction": 15
 				}
 			},
@@ -144279,7 +144279,7 @@
 				"Tasks": {
 					"~|New Foundations|~ Complete the quest": "Quest"
 				},
-				"Skills": {
+				"Requirements": {
 					"Construction": 55
 				}
 			},
@@ -144290,7 +144290,7 @@
 				"Tasks": {
 					"~|New Foundations|~ Complete the quest": "Quest"
 				},
-				"Skills": {
+				"Requirements": {
 					"Construction": 90
 				}
 			},
@@ -144301,7 +144301,7 @@
 				"Tasks": {
 					"~|New Foundations|~ Complete the quest": "Quest"
 				},
-				"Skills": {
+				"Requirements": {
 					"Construction": 25
 				}
 			},
@@ -144312,7 +144312,7 @@
 				"Tasks": {
 					"~|New Foundations|~ Complete the quest": "Quest"
 				},
-				"Skills": {
+				"Requirements": {
 					"Construction": 70
 				}
 			},
@@ -144323,7 +144323,7 @@
 				"Tasks": {
 					"~|New Foundations|~ Complete the quest": "Quest"
 				},
-				"Skills": {
+				"Requirements": {
 					"Construction": 99
 				}
 			},
@@ -144334,7 +144334,7 @@
 				"Tasks": {
 					"~|Murder on the Border|~ Complete the quest": "Quest"
 				},
-				"Skills": {
+				"Requirements": {
 					"Construction": 2
 				}
 			},
@@ -144345,7 +144345,7 @@
 				"Tasks": {
 					"~|Murder on the Border|~ Complete the quest": "Quest"
 				},
-				"Skills": {
+				"Requirements": {
 					"Construction": 50
 				}
 			},
@@ -144356,7 +144356,7 @@
 				"Tasks": {
 					"~|Murder on the Border|~ Complete the quest": "Quest"
 				},
-				"Skills": {
+				"Requirements": {
 					"Construction": 85
 				}
 			},
@@ -144367,7 +144367,7 @@
 				"Tasks": {
 					"~|Unwelcome Guests|~ Complete the quest": "Quest"
 				},
-				"Skills": {
+				"Requirements": {
 					"Construction": 40
 				}
 			},
@@ -144378,7 +144378,7 @@
 				"Tasks": {
 					"~|Unwelcome Guests|~ Complete the quest": "Quest"
 				},
-				"Skills": {
+				"Requirements": {
 					"Construction": 65
 				}
 			},
@@ -144389,7 +144389,7 @@
 				"Tasks": {
 					"~|Unwelcome Guests|~ Complete the quest": "Quest"
 				},
-				"Skills": {
+				"Requirements": {
 					"Construction": 95
 				}
 			},
@@ -144400,7 +144400,7 @@
 				"Tasks": {
 					"~|Unwelcome Guests|~ Complete the quest": "Quest"
 				},
-				"Skills": {
+				"Requirements": {
 					"Construction": 50
 				}
 			},
@@ -144411,7 +144411,7 @@
 				"Tasks": {
 					"~|Unwelcome Guests|~ Complete the quest": "Quest"
 				},
-				"Skills": {
+				"Requirements": {
 					"Construction": 50
 				}
 			},
@@ -144422,7 +144422,7 @@
 				"Tasks": {
 					"~|Unwelcome Guests|~ Complete the quest": "Quest"
 				},
-				"Skills": {
+				"Requirements": {
 					"Construction": 60
 				}
 			},
@@ -144433,7 +144433,7 @@
 				"Tasks": {
 					"~|Dead and Buried|~ Complete the quest": "Quest"
 				},
-				"Skills": {
+				"Requirements": {
 					"Construction": 50
 				}
 			},
@@ -144444,7 +144444,7 @@
 				"Tasks": {
 					"~|Dead and Buried|~ Complete the quest": "Quest"
 				},
-				"Skills": {
+				"Requirements": {
 					"Construction": 65
 				}
 			},
@@ -144455,7 +144455,7 @@
 				"Tasks": {
 					"~|Dead and Buried|~ Complete the quest": "Quest"
 				},
-				"Skills": {
+				"Requirements": {
 					"Construction": 90
 				}
 			},"Unlock the benefits from a Tier 1 ~|Botanist's Workbench|~ in Fort Forinthry": {
@@ -144465,7 +144465,7 @@
 				"Tasks": {
 					"~|Ancient Awakening|~ Complete the quest": "Quest"
 				},
-				"Skills": {
+				"Requirements": {
 					"Construction": 54
 				}
 			},
@@ -144476,7 +144476,7 @@
 				"Tasks": {
 					"~|Ancient Awakening|~ Complete the quest": "Quest"
 				},
-				"Skills": {
+				"Requirements": {
 					"Construction": 78
 				}
 			},
@@ -144487,7 +144487,7 @@
 				"Tasks": {
 					"~|Ancient Awakening|~ Complete the quest": "Quest"
 				},
-				"Skills": {
+				"Requirements": {
 					"Construction": 92
 				}
 			},
@@ -144504,7 +144504,7 @@
 				"Label": "Permanent Unlockables",
 				"Chunks": ["15939-1"],
 				"Items": ["Dinosaur tooth"],
-				"Skills": {
+				"Requirements": {
 					"Slayer": 90
 				}
 			},
@@ -144513,7 +144513,7 @@
 				"Label": "Permanent Unlockables",
 				"Chunks": ["15939-1"],
 				"Items": ["Dinosaur rib bone"],
-				"Skills": {
+				"Requirements": {
 					"Construction": 90
 				}
 			},
@@ -144524,7 +144524,7 @@
 				"Tasks": {
 					"~|Unwelcome Guests|~ Complete the quest": "Quest"
 				},
-				"Skills": {
+				"Requirements": {
 					"Slayer": 30
 				}
 			},
@@ -144535,7 +144535,7 @@
 				"Tasks": {
 					"~|Unwelcome Guests|~ Complete the quest": "Quest"
 				},
-				"Skills": {
+				"Requirements": {
 					"Slayer": 50
 				}
 			},
@@ -144546,7 +144546,7 @@
 				"Tasks": {
 					"~|Unwelcome Guests|~ Complete the quest": "Quest"
 				},
-				"Skills": {
+				"Requirements": {
 					"Slayer": 90
 				}
 			},
@@ -144554,7 +144554,7 @@
 				"Category": ["Permanent Unlockables"],
 				"Label": "Permanent Unlockables",
 				"Items": ["Spirit cape", "Dungeoneering token"],
-				"Skills": {
+				"Requirements": {
 					"Defence": 50,
 					"Summoning": 50,
 					"Dungeoneering": 50
@@ -144855,7 +144855,7 @@
 				"Category": ["Permanent Unlockables"],
 				"Label": "Permanent Unlockables",
 				"Chunks": ["12337-1"],
-				"Skills": {
+				"Requirements": {
 					"Runecrafting": 66
 				},
 				"Not F2P": true
@@ -144935,7 +144935,7 @@
 				"Category": ["Permanent Unlockables"],
 				"Label": "Permanent Unlockables",
 				"Items": ["Master farmer outfit blueprint"],
-				"SKills": {
+				"Requirements": {
 					"Invention": 20,
 					"Farming": 80
 				}
@@ -145043,7 +145043,7 @@
 				"Label": "Permanent Unlockables",
 				"Chunks": ["Eagles' Peak Eyrie"],
 				"Items": ["Plank*", "Rope*", "Steel nails*"],
-				"Skills": {
+				"Requirements": {
 					"Construction": 18
 				}
 			},
@@ -145052,7 +145052,7 @@
 				"Label": "Permanent Unlockables",
 				"Chunks": ["10038-1"],
 				"Items": ["Oak plank*", "Rope*"],
-				"Skills": {
+				"Requirements": {
 					"Construction": 24
 				}
 			},
@@ -145064,7 +145064,7 @@
 					"~|Back to my Roots|~ Complete the quest": "Quest"
 				},
 				"Items": ["Oak plank*", "Rope*"],
-				"Skills": {
+				"Requirements": {
 					"Construction": 28
 				}
 			},
@@ -145073,7 +145073,7 @@
 				"Label": "Permanent Unlockables",
 				"Chunks": ["Jungle Eagles' Eyrie"],
 				"Items": ["Teak plank*", "Rope*"],
-				"Skills": {
+				"Requirements": {
 					"Construction": 38
 				}
 			},
@@ -145081,7 +145081,7 @@
 				"Category": ["Permanent Unlockables"],
 				"Label": "Permanent Unlockables",
 				"Chunks": ["8253-2"],
-				"Skills": {
+				"Requirements": {
 					"Construction": 50,
 					"Crafting": 60,
 					"Farming": 60,
@@ -145183,7 +145183,7 @@
 				"Label": "Permanent Unlockables",
 				"Chunks": ["11929"],
 				"Items": ["Plank*", "Bronze crossbow*", "Mithril grapple*", "Steel nails*"],
-				"Skills": {
+				"Requirements": {
 					"Construction": 29,
 					"Agility": 11,
 					"Strength": 37,
@@ -145196,7 +145196,7 @@
 				"Label": "Permanent Unlockables",
 				"Chunks": ["10032-1"],
 				"Items": ["Plank*", "Bronze crossbow*", "Mithril grapple*", "Steel nails*"],
-				"Skills": {
+				"Requirements": {
 					"Construction": 31,
 					"Agility": 39,
 					"Strength": 38,
@@ -145209,7 +145209,7 @@
 				"Label": "Permanent Unlockables",
 				"Chunks": ["11317-1"],
 				"Items": ["Oak plank*", "Iron crossbow*", "Mithril grapple*"],
-				"Skills": {
+				"Requirements": {
 					"Construction": 45,
 					"Agility": 32,
 					"Strength": 35,
@@ -145222,7 +145222,7 @@
 				"Label": "Permanent Unlockables",
 				"Chunks": ["12849"],
 				"Items": ["Oak plank*", "Steel crossbow*", "Mithril grapple*"],
-				"Skills": {
+				"Requirements": {
 					"Construction": 47,
 					"Agility": 8,
 					"Strength": 19,
@@ -145235,7 +145235,7 @@
 				"Label": "Permanent Unlockables",
 				"Chunks": ["11317-3"],
 				"Items": ["Teak plank*", "Mithril crossbow*", "Mithril grapple*"],
-				"Skills": {
+				"Requirements": {
 					"Construction": 49,
 					"Agility": 36,
 					"Strength": 22,
@@ -145248,7 +145248,7 @@
 				"Label": "Permanent Unlockables",
 				"Chunks": ["11569-1"],
 				"Items": ["Mahogany plank*", "Mithril crossbow*", "Mithril grapple*"],
-				"Skills": {
+				"Requirements": {
 					"Construction": 52,
 					"Agility":53,
 					"Strength": 21,
@@ -145261,7 +145261,7 @@
 				"Label": "Permanent Unlockables",
 				"Chunks": ["11568-2"],
 				"Items": ["Mahogany plank*", "Mithril crossbow*", "Mithril grapple*"],
-				"Skills": {
+				"Requirements": {
 					"Construction": 52,
 					"Agility":53,
 					"Strength": 21,
@@ -145274,7 +145274,7 @@
 				"Label": "Permanent Unlockables",
 				"Chunks": ["9013"],
 				"Items": ["Teak plank*", "Rune crossbow*", "Mithril grapple*"],
-				"Skills": {
+				"Requirements": {
 					"Construction": 75,
 					"Agility": 90,
 					"Strength": 90,
@@ -145289,7 +145289,7 @@
 					"Become an ~|archaeology associate|~": "Archaeology"
 				},
 				"Chunks": ["15428-1"],
-				"Skills": {
+				"Requirements": {
 					"Archaeology": 70
 				}
 			},
@@ -145301,7 +145301,7 @@
 				},
 				"Chunks": ["16454-1"],
 				"Items": ["Ancient vis"],
-				"Skills": {
+				"Requirements": {
 					"Runecrafting": 70,
 					"Archaeology": 90
 				}
@@ -145314,7 +145314,7 @@
 				},
 				"Chunks": ["16193-1"],
 				"Items": ["Orthenglass"],
-				"Skills": {
+				"Requirements": {
 					"Crafting": 70,
 					"Archaeology": 90
 				}
@@ -145327,7 +145327,7 @@
 				},
 				"Chunks": ["16704-1"],
 				"Items": ["Quintessence"],
-				"Skills": {
+				"Requirements": {
 					"Divination": 70,
 					"Archaeology": 90
 				}
@@ -145337,7 +145337,7 @@
 				"Label": "Permanent Unlockables",
 				"Chunks": ["Stormguard Citadel"],
 				"Items": ["Quintessence", "Wingsuit v2"],
-				"Skills": {
+				"Requirements": {
 					"Divination": 70
 				}
 			},
@@ -145355,7 +145355,7 @@
 				},
 				"Items": ["White marble", "Hallowed lantern"],
 				"Objects": ["Statue of Hebe"],
-				"Skills": {
+				"Requirements": {
 					"Construction": 40,
 					"Archaeology": 42
 				}
@@ -145369,7 +145369,7 @@
 				"Items": ["White marble", "Everlight harp"],
 				"Objects": ["Statue of Mesomedes"],
 
-				"Skills": {
+				"Requirements": {
 					"Construction": 40,
 					"Archaeology": 40
 				}
@@ -145382,7 +145382,7 @@
 				},
 				"Items": ["White marble", "Dominion torch"],
 				"Objects": ["Statue of Padosan"],
-				"Skills": {
+				"Requirements": {
 					"Construction": 40,
 					"Archaeology": 69
 				}
@@ -145395,7 +145395,7 @@
 				},
 				"Items": ["White marble", "Rod of Asclepius"],
 				"Objects": ["Statue of Tromple"],
-				"Skills": {
+				"Requirements": {
 					"Construction": 40,
 					"Archaeology": 92
 				}
@@ -145424,7 +145424,7 @@
 			"Unlock ~|Spirit Pact I|~": {
 				"Category": ["Permanent Unlockables"],
 				"Label": "Permanent Unlockables",
-				"Skills": {
+				"Requirements": {
 					"Necromancy": 60
 				},
 				"Tasks": {
@@ -145435,7 +145435,7 @@
 			"Unlock ~|Spirit Pact II|~": {
 				"Category": ["Permanent Unlockables"],
 				"Label": "Permanent Unlockables",
-				"Skills": {
+				"Requirements": {
 					"Necromancy": 70
 				},
 				"Tasks": {
@@ -145446,7 +145446,7 @@
 			"Unlock ~|Spirit Pact III|~": {
 				"Category": ["Permanent Unlockables"],
 				"Label": "Permanent Unlockables",
-				"Skills": {
+				"Requirements": {
 					"Necromancy": 80
 				},
 				"Tasks": {
@@ -145533,7 +145533,7 @@
 				"Label": "Permanent Unlockables",
 				"Chunks": ["13362-1"],
 				"Items": ["Bronze bar*", "Silver bar*", "Bucket of sand*", "Big fishing net*"],
-				"Skills": {
+				"Requirements": {
 					"Construction": 20
 				},
 				"Not F2P": true
@@ -145556,7 +145556,7 @@
 				"Category": ["Permanent Unlockables"],
 				"Label": "Permanent Unlockables",
 				"Items": ["Elite trapper outfit blueprint"],
-				"SKills": {
+				"Requirements": {
 					"Invention": 20,
 					"Hunter": 80
 				}
@@ -145809,7 +145809,7 @@
 				"Category": ["Arc Log", "Titles"],
 				"Label": "Titles",
 				"Chunks": ["The Arc"],
-				"Skills": {
+				"Requirements": {
 					"Farming": 94,
 					"Hunter": 95,
 					"Divination": 90
@@ -145854,7 +145854,7 @@
 				"Category": ["Titles"],
 				"Label": "Titles",
 				"Chunks": ["12337-1"],
-				"Skills": {
+				"Requirements": {
 					"Magic": 99,
 					"Runecrafting": 99
 				}
@@ -145955,7 +145955,7 @@
 				"Tasks": {
 					"Unlock ~|frozen floors|~": "Dungeoneering"
 				},
-				"Skills": {
+				"Requirements": {
 					"Dungeoneering": 17
 				},
 				"Items": ["Kal'gerion battle commendation"]
@@ -145966,7 +145966,7 @@
 				"Tasks": {
 					"Unlock ~|abandoned floors|~": "Dungeoneering"
 				},
-				"Skills": {
+				"Requirements": {
 					"Dungeoneering": 35
 				},
 				"Items": ["Kal'gerion battle commendation"]
@@ -145977,7 +145977,7 @@
 				"Tasks": {
 					"Unlock ~|furnished floors|~": "Dungeoneering"
 				},
-				"Skills": {
+				"Requirements": {
 					"Dungeoneering": 65
 				},
 				"Items": ["Kal'gerion battle commendation"]
@@ -145988,7 +145988,7 @@
 				"Tasks": {
 					"Unlock ~|occult floors|~": "Dungeoneering"
 				},
-				"Skills": {
+				"Requirements": {
 					"Dungeoneering": 89
 				},
 				"Items": ["Kal'gerion battle commendation"]
@@ -145999,7 +145999,7 @@
 				"Tasks": {
 					"Unlock ~|warped floors|~": "Dungeoneering"
 				},
-				"Skills": {
+				"Requirements": {
 					"Dungeoneering": 113
 				},
 				"Items": ["Kal'gerion battle commendation"]
@@ -146163,7 +146163,7 @@
 				"Category": ["Titles", "Timegated"],
 				"Label": "Titles",
 				"Chunks": ["Player-Owned Port"],
-				"Skills": {
+				"Requirements": {
 					"Agility": 90,
 					"Construction": 90,
 					"Cooking": 90,
@@ -146207,7 +146207,7 @@
 				"Category": ["Titles"],
 				"Label": "Titles",
 				"Chunks": ["8755"],
-				"Skills": {
+				"Requirements": {
 					"Slayer": 85
 				},
 				"Tasks": {
@@ -146218,7 +146218,7 @@
 				"Category": ["Titles"],
 				"Label": "Titles",
 				"Chunks": ["8755"],
-				"Skills": {
+				"Requirements": {
 					"Slayer": 90
 				},
 				"Tasks": {
@@ -146229,7 +146229,7 @@
 				"Category": ["Titles"],
 				"Label": "Titles",
 				"Chunks": ["8755"],
-				"Skills": {
+				"Requirements": {
 					"Slayer": 95,
 					"Dungeoneering": 90
 				},
@@ -146250,7 +146250,7 @@
 				"Category": ["Titles"],
 				"Label": "Titles",
 				"Chunks": ["8755"],
-				"Skills": {
+				"Requirements": {
 					"Slayer": 95,
 					"Dungeoneering": 90
 				},
@@ -146326,7 +146326,7 @@
 				"Tasks": {
 					"Unlock ~|warped floors|~": "Dungeoneering"
 				},
-				"Skills": {
+				"Requirements": {
 					"Dungeoneering": 119
 				},
 				"Tasks": {
@@ -146615,7 +146615,7 @@
 				"Category": ["Titles"],
 				"Label": "Titles",
 				"Chunks": ["City of Um"],
-				"Skills": {
+				"Requirements": {
 					"Necromancy": 120
 				},
 				"Tasks": {
@@ -146772,7 +146772,7 @@
 				"Label": "Titles",
 				"Chunks": ["Senntisten"],
 				"Items": ["Bones to Peaches spell", "Law rune*", "Nature rune*", "Fire rune[+]*", "Air rune[+]*"],
-				"Skills": {
+				"Requirements": {
 					"Magic": 60,
 					"Smithing": 80
 				},
@@ -146790,7 +146790,7 @@
 					"Astellarn", "Verak Lith", "Black Stone Dragon", "Araxxor",
 					"Crassian Leviathan", "Taraket the Necromancer", "The Ambassador"
 				],
-				"Skills": {
+				"Requirements": {
 					"Magic": 33
 				},
 				"Tasks": {
@@ -146801,7 +146801,7 @@
 				"Category": ["Titles", "Timegated"],
 				"Label": "Titles",
 				"Chunks": ["10548"],
-				"Skills": {
+				"Requirements": {
 					"Farming": 17
 				}
 			},
@@ -146809,7 +146809,7 @@
 				"Category": ["Titles"],
 				"Label": "Titles",
 				"Chunks": ["Hall of Memories"],
-				"Skills": {
+				"Requirements": {
 					"Divination": 95
 				}
 			},
@@ -146838,7 +146838,7 @@
 				"Category": ["Titles"],
 				"Label": "Titles",
 				"Objects": ["Inventor's workbench"],
-				"Skills": {
+				"Requirements": {
 					"Invention": 95
 				}
 			},
@@ -146977,7 +146977,7 @@
 					"12841-1",
 					"12841-3"
 				],
-				"Skills": {
+				"Requirements": {
 					"Woodcutting": 90,
 					"Mining": 50,
 					"Firemaking": 47,
@@ -147019,7 +147019,7 @@
 				"Label": "Titles",
 				"Chunks": ["Senntisten"],
 				"Items": ["Siege engine parts"],
-				"Skills": {
+				"Requirements": {
 					"Construction": 90
 				}
 			},
@@ -147136,7 +147136,7 @@
 					"King Black Dragon",
 					"Dark beast"
 				],
-				"Skills": {
+				"Requirements": {
 					"Mining": 89,
 					"Slayer": 90,
 					"Farming": 90,
@@ -147192,7 +147192,7 @@
 					"Kalphite Queen",
 					"King Black Dragon"
 				],
-				"Skills": {
+				"Requirements": {
 					"Constitution": 70,
 					"Strength": 70
 				},
@@ -147210,7 +147210,7 @@
 				"Category": ["Titles"],
 				"Label": "Titles",
 				"Chunks": ["8757"],
-				"Skills": {
+				"Requirements": {
 					"Agility": 75
 				}
 			},
@@ -147232,7 +147232,7 @@
 				"Category": ["Titles"],
 				"Label": "Titles",
 				"Items": ["Crystal glass"],
-				"Skills": {
+				"Requirements": {
 					"Crafting": 89
 				},
 				"Tasks": {
@@ -147243,7 +147243,7 @@
 				"Category": ["Titles"],
 				"Label": "Titles",
 				"Chunks": ["8757", "8756-1"],
-				"Skills": {
+				"Requirements": {
 					"Prayer": 90
 				}
 			},
@@ -147252,7 +147252,7 @@
 				"Label": "Titles",
 				"Chunks": ["8757", "9013", "8500", "8756-4", "9012-1", "8755"],
 				"Items": ["BushSeed[+]", "FruitTreeSeed[+]", "Plant pot", "Harmony moss seed", "Bucket", "Perfect juju farming potion (3)"],
-				"Skills": {
+				"Requirements": {
 					"Agility": 77,
 					"Farming": 75
 				},
@@ -147267,7 +147267,7 @@
 				"Category": ["Titles"],
 				"Label": "Titles",
 				"Chunks": ["8757"],
-				"Skills": {
+				"Requirements": {
 					"Agility": 75
 				}
 			},
@@ -147276,7 +147276,7 @@
 				"Label": "Titles",
 				"Chunks": ["8757"],
 				"Items": ["Harmony moss seed"],
-				"Skills": {
+				"Requirements": {
 					"Farming": 75
 				}
 			},
@@ -147291,7 +147291,7 @@
 				"Label": "Titles",
 				"Chunks": ["8756-1"],
 				"Items": ["Crystal acorn"],
-				"Skills": {
+				"Requirements": {
 					"Farming": 94
 				}
 			},
@@ -147305,7 +147305,7 @@
 				"Label": "Titles",
 				"Chunks": ["8500", "8757", "9012-1", "8755"],
 				"Items": ["Ninja impling jar"],
-				"Skills": {
+				"Requirements": {
 					"Thieving": 98
 				}
 			},
@@ -147400,7 +147400,7 @@
 				"Label": "Titles",
 				"Chunks": ["8755"],
 				"Items": ["Filled Ushabti[+]x172"],
-				"Skills": {
+				"Requirements": {
 					"Slayer": 95,
 					"Dungeoneering": 90
 				},
@@ -147678,7 +147678,7 @@
 				"Label": "Titles",
 				"Chunks": ["The Arc", "12082-1"],
 				"Items": ["Bonecrusher", "Raw seerfish", "Raw tarpon", "Raw sillago", "Raw wobbegong"],
-				"Skills": {
+				"Requirements": {
 					"Farming": 94,
 					"Hunter": 95,
 					"Agility": 90,
@@ -147729,7 +147729,7 @@
 					"Wingsuit v1",
 					"'Friendship bracelet'"
 				],
-				"Skills": {
+				"Requirements": {
 					"Archaeology": 95,
 					"Dungeoneering": 60,
 					"Fletching": 54,
@@ -147754,7 +147754,7 @@
 				"Category": ["Titles"],
 				"Label": "Titles",
 				"Chunks": ["City of Um"],
-				"Skills": {
+				"Requirements": {
 					"Necromancy": 65
 				}
 			},
@@ -151961,7 +151961,7 @@
 				"Label": "Archaeology Collections",
 				"Chunks": ["16709-2"],
 				"Items": ["Orthenglass"],
-				"Skills": {
+				"Requirements": {
 					"Archaeology": 90
 				},
 				"Tasks": {
@@ -158424,6 +158424,10 @@
 			"Slash dung balls*": {
 				"NPCs": ["Dung kalphite"],
 				"Output": "Dung loot"
+			},
+			"Search crates in the Wilderness*": {
+				"Objects": ["Crate (Wilderness)"],
+				"Output": "Crate loot"
 			}
 		}
 	},
@@ -177049,7 +177053,7 @@
 				"1": {
 					"Object": {
 						"Cliffside": 1,
-						"Crate": 20,
+						"Crate (Wilderness)": 20,
 						"Sack": 11,
 						"Anvil": 1,
 						"Forge": 1,
@@ -181775,7 +181779,7 @@
 		},
 		"12858": {
 			"Object": {
-				"Crate": 6,
+				"Crate (Wilderness)": 6,
 				"Sack": 9,
 				"Furnace": 1
 			},
@@ -183097,7 +183101,7 @@
 				"Soulgazer": 4
 			},
 			"Object": {
-				"Crate": 5,
+				"Crate (Wilerness)": 5,
 				"Sack": 1
 			},
 			"Spawn": {
@@ -235149,10 +235153,6 @@
 			},
 			"Tree seed": {
 				"1": "1/1280"
-			},
-			"Herbs": {
-				"2 (noted)": "1/1280",
-				"4 (noted)": "1/1280"
 			},
 			"Dragon mace": {
 				"1": "1/96"
@@ -314349,6 +314349,29 @@
 				},
 				"Uraeus (Apep's axe)": {
 					"1": "Uncommon"
+				}
+			},
+			"Crate loot": {
+				"Nothing": {
+					"1-5": "4/5"
+				},
+				"Coins": {
+					"1-5": "1/25"
+				},
+				"Bronze dagger": {
+					"1": "1/25"
+				},
+				"Broken glass": {
+					"1": "1/25"
+				},
+				"Headless arrow": {
+					"1": "1/25"
+				},
+				"Steel nails": {
+					"1": "1/25"
+				},
+				"Tile": {
+					"1": "1/25"
 				}
 			}
 		}
