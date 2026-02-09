@@ -1569,7 +1569,7 @@ let topbarElements = {
     'Sandbox Mode': `<div><span class='noscroll' onclick="enableTestMode()"><i class="gosandbox fa-solid fa-flask" title='Sandbox Mode'></i></span></div>`,
 };
 
-let currentVersion = '6.9.30';
+let currentVersion = '6.9.31';
 let patchNotesVersion = '6.9.8.2';
 let updateLevel = 'difference';
 
@@ -1717,7 +1717,7 @@ mapImg.addEventListener("load", e => {
         centerCanvas('quick');
     }
 });
-mapImg.src = "runescape_world_map.png?v=6.9.30";
+mapImg.src = "runescape_world_map.png?v=6.9.31";
 
 // Rounded rectangle
 CanvasRenderingContext2D.prototype.roundRect = function (x, y, w, h, r) {
@@ -3630,7 +3630,7 @@ let calcCurrentChallengesCanvas = function(useOld, proceed, fromLoadData, inputT
         setCalculating('.panel-active', useOld);
         setCurrentChallenges(['No tasks currently backlogged.'], ['No tasks currently completed.'], true, true);
         myWorker.terminate();
-        myWorker = new Worker("./worker.js?v=6.9.30");
+        myWorker = new Worker("./worker.js?v=6.9.31");
         myWorker.onmessage = workerOnMessage;
         myWorker.postMessage(['current', tempChunks['unlocked'], rules, chunkInfo, skillNames, processingSkill, maybePrimary, combatSkills, monstersPlus, objectsPlus, chunksPlus, itemsPlus, mixPlus, npcsPlus, tasksPlus, tools, elementalRunes, manualTasks, completedChallenges, backlog, "1/" + rules['Rare Drop Amount'], universalPrimary, elementalStaves, rangedItems, boneItems, highestCurrent, dropTables, possibleAreas, randomLoot, magicTools, bossLogs, bossMonsters, minigameShops, manualEquipment, checkedChallenges, backloggedSources, altChallenges, manualMonsters, slayerLocked, passiveSkill, f2pSkills, assignedXpRewards, mid === diary2Tier, manualAreas, "1/" + rules['Secondary Primary Amount'], mid === manualAreasOnly, tempSections, maxSkill, userTasks, manualPrimary, updateLevel]);
         workersOut['current'] = true;
@@ -3934,8 +3934,8 @@ $(document).ready(function() {
 // ------------------------------------------------------------
 
 // Recieve message from worker
-let myWorker = new Worker("./worker.js?v=6.9.30");
-let myWorker2 = new Worker("./worker.js?v=6.9.30");
+let myWorker = new Worker("./worker.js?v=6.9.31");
+let myWorker2 = new Worker("./worker.js?v=6.9.31");
 let workerOnMessage = function(e) {
     if (e.data[0] === 'reload') {
         window.location.reload();
@@ -3981,7 +3981,7 @@ let workerOnMessage = function(e) {
                 Object.keys(e.data[12]).filter(area => { return e.data[12][area] === true }).forEach((area) => {
                     futurePossibleAreas[area] = true;
                 });
-                let [challengeStr, challengeStrFormatted] = calcFutureChallenges2(e.data[1], e.data[2]);
+                let [challengeStr, challengeStrFormatted] = calcFutureChallenges2(e.data[1], e.data[2], e.data[7]);
                 expandChallengeStr = challengeStrFormatted.replaceAll('No new chunk tasks', 'No potential chunk tasks');
                 $('.panel-challenges').html(challengeStr || 'None');
                 $('.expand').show();
@@ -3992,7 +3992,7 @@ let workerOnMessage = function(e) {
             workersOut['current'] = false;
             workerOut = Object.keys(workersOut).filter((key) => workersOut[key] !== false).length;
             if (settings['newTasks'] && chunkJustRolled) {
-                openNewTasksModal(calcFutureChallenges2(e.data[1], e.data[2])[1].replaceAll(", 'future'", ", ''"));
+                openNewTasksModal(calcFutureChallenges2(e.data[1], e.data[2], e.data[7])[1].replaceAll(", 'future'", ", ''"));
             }
             globalValids = e.data[1];
             baseChunkData = e.data[2];
@@ -6882,7 +6882,7 @@ let calcFutureChallenges = function() {
     }
     tempSections = combineJSONs(tempSections, manualSections);
     myWorker2.terminate();
-    myWorker2 = new Worker("./worker.js?v=6.9.30");
+    myWorker2 = new Worker("./worker.js?v=6.9.31");
     myWorker2.onmessage = workerOnMessage;
     myWorker2.postMessage(['future', chunks, rules, chunkInfo, skillNames, processingSkill, maybePrimary, combatSkills, monstersPlus, objectsPlus, chunksPlus, itemsPlus, mixPlus, npcsPlus, tasksPlus, tools, elementalRunes, manualTasks, completedChallenges, backlog, "1/" + rules['Rare Drop Amount'], universalPrimary, elementalStaves, rangedItems, boneItems, highestCurrent, dropTables, possibleAreas, randomLoot, magicTools, bossLogs, bossMonsters, minigameShops, manualEquipment, checkedChallenges, backloggedSources, altChallenges, manualMonsters, slayerLocked, passiveSkill, f2pSkills, assignedXpRewards, mid === diary2Tier, manualAreas, "1/" + rules['Secondary Primary Amount'], mid === manualAreasOnly, tempSections, maxSkill, userTasks, manualPrimary, updateLevel]);
     workersOut['future'] = infoLockedId;
@@ -7063,7 +7063,7 @@ let calcFutureChallenges2 = function(valids, baseChunkDataLocal) {
                 bestBoost = bestBoost + (ownsCrystalSaw ? 3 : 0);
             }
             if (skill === 'Quest' || skill === 'Diary' || skill === 'BiS' || skill === 'Extra') {
-                if ((!globalValids.hasOwnProperty(skill) || !globalValids[skill].hasOwnProperty(challenge)) && valids[skill][challenge] && !chunkInfo['challenges'][skill][challenge]['NeverShow'] && (!completedChallenges[skill] || !completedChallenges[skill][challenge])) {
+                if ((!globalValids.hasOwnProperty(skill) || !globalValids[skill].hasOwnProperty(challenge)) && valids[skill][challenge] && !chunkInfo['challenges'][skill][challenge]['NeverShow'] && (!completedChallenges[skill] || !completedChallenges[skill][challenge]) && (skill !== 'BiS' || Object.values(localHighestOverall).map(function(y) { return y.toLowerCase() }).includes(challenge.split('|')[1].toLowerCase()))) {
                     if ((skill === 'Quest' && rules["Show Quest Tasks"] && (chunkInfo['challenges'][skill][challenge].hasOwnProperty('QuestPoints') || !rules["Show Quest Tasks Complete"])) || (skill === 'Diary' && (rules["Show Diary Tasks"] || rules["Combat Mastery achievements"]) && (chunkInfo['challenges'][skill][challenge].hasOwnProperty('ManualShow') || !rules["Show Diary Tasks Complete"])) || (skill === 'BiS' && rules["Show Best in Slot Tasks"]) || (skill === 'Extra')) {
                         if (!!chunkInfo['challenges'][skill][challenge]['Skills']) {
                             let tempValid = true;

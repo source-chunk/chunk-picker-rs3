@@ -14,7 +14,7 @@
     --colorText: rgb(0, 0, 0);
     --colorTextAlt: rgb(30, 30, 30);
     --colorLink: rgb(0, 0, 255);
-    --colorFlash: rgb(255, 255, 0.7);
+    --colorFlash: rgb(255, 255, 0.7);margin-top: 10px;
     --colorBox: rgba(150, 150, 150, .6);
     --colorBoxLight: rgba(150, 150, 150, .4);
     --colorBackgroundSidebar: rgba(200, 200, 200, .4);
@@ -7530,7 +7530,7 @@ input#searchMonsters {
 .roll-chunk-data {
     max-height: 72%;
     min-height: 72%;
-    top: 10%;
+    margin-top: 10px;
 }
 
 .roll-chunk-outer {
