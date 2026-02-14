@@ -9077,7 +9077,7 @@ let openHighest2 = function(notScrollTop) {
         if (rules['Show Skill Tasks']) {
             combatStyles.push('Slayer');
         }
-        //combatStyles.push('Clues'); //TEMP (missing clue tasks)
+        combatStyles.push('Clues'); //TEMP (missing clue tasks)
         //combatStyles.push('Shooting Stars'); //TEMP (missing shooting star locations)
         $('.highest2-title').empty();
         $('.highest2-data').empty();
