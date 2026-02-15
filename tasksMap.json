@@ -5497,7 +5497,7 @@
   "Cast ~|fire surge|~": "t_5402",
   "Cast ~|vengeance group|~": "t_5403",
   "Cast ~|Enchant Crossbow Bolt (Ruby bakriminel)|~": "t_5404",
-  "Wield a ~|fractured staff of Armadyl|~": "t_5405",
+  "Wield a ~|fractured Staff of Armadyl|~": "t_116678",
   "Wield a ~|Roar of Awakening|~": "t_5406",
   "Wield an ~|Ode to Deceit|~": "t_5407",
   "Cast ~|Ghorrock teleport|~": "t_5408",
@@ -91112,5 +91112,5 @@
   "Pizazz points: ~|Death rune|~": "t_52854",
   "Pizazz points: ~|Soul rune|~": "t_52856",
   "Pizazz points: ~|Blood rune|~": "t_52857",
-  "currentNextIndex": 116678
+  "currentNextIndex": 116679
 }

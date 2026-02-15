@@ -54530,8 +54530,8 @@
 				"Priority": 4,
 				"Not F2P": true
 			},
-			"Wield a ~|fractured staff of Armadyl|~": {
-				"Items": ["Fractured staff of Armadyl"],
+			"Wield a ~|fractured Staff of Armadyl|~": {
+				"Items": ["Fractured Staff of Armadyl"],
 				"Level": 95,
 				"Primary": false,
 				"Priority": 5,
