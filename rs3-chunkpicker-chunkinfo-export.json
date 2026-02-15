@@ -271440,6 +271440,11 @@
 					"Enter the ~|Ranging Guild|~": "Ranged"
 				}]
 			},
+			"Monkey knife fighter": {
+				"12846-2": [{
+					"~|Do No Evil|~ Complete the quest": "Quest"
+				}]
+			},
 			"The Raptor#Fort Forinthry": {	
 				"13111": [{
 					"~|Unwelcome Guests|~ Complete the quest": "Quest"
