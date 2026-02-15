@@ -86,7 +86,7 @@
   "Cross the ~|log balance (Tirannwn)|~": "t_66",
   "Pickpocket a ~|warrior woman|~ for quadruple loot": "t_67",
   "Cross a stile ~|shortcut|~": "t_68",
-  "Cross the ~|stepping stone (Lumbridge swamp caves)|~": "t_69",
+  "Cross the ~|stepping stone (Lumbridge Swamp Caves)|~": "t_116154",
   "Cross the Karamja wooden log ~|shortcut|~": "t_112086",
   "Cross the ~|crumbling wall (Falador)|~": "t_70",
   "Cross the ~|strong tree (Lumbridge/Al Kharid)|~": "t_71",
@@ -91010,5 +91010,5 @@
   "Pizazz points: ~|Death rune|~": "t_52854",
   "Pizazz points: ~|Soul rune|~": "t_52856",
   "Pizazz points: ~|Blood rune|~": "t_52857",
-  "currentNextIndex": 116154
+  "currentNextIndex": 116155
 }
