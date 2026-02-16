@@ -67,7 +67,7 @@
 				"NoPet": true
 			},
 			"Pickpocket a ~|watchman|~ for quadruple loot": {
-				"Category": ["Multiple Pickpockets"],
+				"Category": ["Multiple Agility"],
 				"Level": 85,
 				"Monsters": ["Watchman"],
 				"Skills": {
@@ -79,7 +79,7 @@
 				"NoPet": true
 			},
 			"Pickpocket a ~|Menaphite thug|~ for quadruple loot": {
-				"Category": ["Multiple Pickpockets"],
+				"Category": ["Multiple Agility"],
 				"Level": 85,
 				"Items": ["Blackjack[+]"],
 				"Monsters": ["Menaphite thug"],
@@ -92,7 +92,7 @@
 				"NoPet": true
 			},
 			"Pickpocket a ~|Crux Eqal Knight|~ for triple loot": {
-				"Category": ["Multiple Pickpockets"],
+				"Category": ["Multiple Agility"],
 				"Level": 93,
 				"NPCs": ["Crux Eqal Knight"],
 				"Skills": {
@@ -103,7 +103,7 @@
 				"NoPet": true
 			},
 			"Pickpocket a ~|Crux Eqal Knight|~ for quadruple loot": {
-				"Category": ["Multiple Pickpockets"],
+				"Category": ["Multiple Agility"],
 				"Level": 103,
 				"NPCs": ["Crux Eqal Knight"],
 				"Skills": {
@@ -114,7 +114,7 @@
 				"NoPet": true
 			},
 			"Pickpocket a ~|gnome|~ for quadruple loot": {
-				"Category": ["Multiple Pickpockets"],
+				"Category": ["Multiple Agility"],
 				"Level": 95,
 				"Monsters": ["Gnome[+]"],
 				"Skills": {
@@ -125,7 +125,7 @@
 				"NoPet": true
 			},
 			"Pickpocket an ~|elf|~ for triple loot": {
-				"Category": ["Multiple Pickpockets"],
+				"Category": ["Multiple Agility"],
 				"Level": 95,
 				"NPCs": ["Elf"],
 				"Skills": {
@@ -136,7 +136,7 @@
 				"NoPet": true
 			},
 			"Pickpocket an ~|elf|~ for quadrple loot": {
-				"Category": ["Multiple Pickpockets"],
+				"Category": ["Multiple Agility"],
 				"Level": 105,
 				"NPCs": ["Elf"],
 				"Skills": {
@@ -147,7 +147,7 @@
 				"NoPet": true
 			},
 			"Pickpocket a ~|trader|~ for double loot": {
-				"Category": ["Multiple Pickpockets"],
+				"Category": ["Multiple Agility"],
 				"Level": 90,
 				"NPCs": ["Trader"],
 				"Skills": {
@@ -158,7 +158,7 @@
 				"Priority": 1002
 			},
 			"Pickpocket a ~|trader|~ for triple loot": {
-				"Category": ["Multiple Pickpockets"],
+				"Category": ["Multiple Agility"],
 				"Level": 100,
 				"NPCs": ["Trader"],
 				"Skills": {
@@ -169,7 +169,7 @@
 				"Priority": 1002
 			},
 			"Pickpocket a ~|trader|~ for quadruple loot": {
-				"Category": ["Multiple Pickpockets"],
+				"Category": ["Multiple Agility"],
 				"Level": 110,
 				"NPCs": ["Trader"],
 				"Skills": {
@@ -180,7 +180,7 @@
 				"Priority": 1002
 			},
 			"Pickpocket a ~|vyrewatch tither|~ for double loot": {
-				"Category": ["Multiple Pickpockets"],
+				"Category": ["Multiple Agility"],
 				"Level": 100,
 				"NPCs": ["Vyrewatch tither"],
 				"Skills": {
@@ -191,7 +191,7 @@
 				"Priority": 1002
 			},
 			"Pickpocket a ~|vyrewatch tither|~ for triple loot": {
-				"Category": ["Multiple Pickpockets"],
+				"Category": ["Multiple Agility"],
 				"Level": 110,
 				"NPCs": ["Vyrewatch tither"],
 				"Skills": {
@@ -202,7 +202,7 @@
 				"Priority": 1002
 			},
 			"Pickpocket a ~|goebie scavenger|~ for double loot": {
-				"Category": ["Multiple Pickpockets"],
+				"Category": ["Multiple Agility"],
 				"Level": 102,
 				"NPCs": ["Goebie scavenger"],
 				"Skills": {
@@ -213,7 +213,7 @@
 				"Priority": 1002
 			},
 			"Pickpocket a ~|Menaphos market guard|~ for double loot": {
-				"Category": ["Multiple Pickpockets"],
+				"Category": ["Multiple Agility"],
 				"Level": 104,
 				"NPCs": ["Menaphos market guard"],
 				"Skills": {
@@ -224,7 +224,7 @@
 				"Priority": 1002
 			},
 			"Rummage a ~|dead legionary|~ for double loot": {
-				"Category": ["Multiple Pickpockets"],
+				"Category": ["Multiple Agility"],
 				"Level": 95,
 				"Chunks": ["Vault of Hereditas"],
 				"Skills": {
@@ -235,7 +235,7 @@
 				"NoPet": true
 			},
 			"Rummage a ~|dead legionary|~ for triple loot": {
-				"Category": ["Multiple Pickpockets"],
+				"Category": ["Multiple Agility"],
 				"Level": 105,
 				"Chunks": ["Vault of Hereditas"],
 				"Skills": {
@@ -246,7 +246,7 @@
 				"NoPet": true
 			},
 			"Pickpocket a ~|trainee archaeologist|~ for quadruple loot": {
-				"Category": ["Multiple Pickpockets"],
+				"Category": ["Multiple Agility"],
 				"Level": 70,
 				"NPCs": ["Trainee archaeologist[+]"],
 				"Skills": {
@@ -256,7 +256,7 @@
 				"Priority": 1001
 			},
 			"Pickpocket a ~|Wizards' Tower mage|~ for quadruple loot": {
-				"Category": ["Multiple Pickpockets"],
+				"Category": ["Multiple Agility"],
 				"Level": 84,
 				"NPCs": ["Wizards' Tower mage"],
 				"Skills": {
@@ -266,7 +266,7 @@
 				"Priority": 1000
 			},
 			"Pickpocket an ~|archaeologist|~ for quadruple loot": {
-				"Category": ["Multiple Pickpockets"],
+				"Category": ["Multiple Agility"],
 				"Level": 98,
 				"NPCs": ["Archaeologist[+]"],
 				"Skills": {
@@ -308,18 +308,6 @@
 				"Level": 40,
 				"Primary": false,
 				"Priority": 2,
-				"NoPet": true
-			},
-			"Pickpocket a ~|H.A.M. member (male)|~ for quadruple loot": {
-				"Category": ["Multiple Pickpockets"],
-				"Level": 40,
-				"NPCs": ["H.A.M. member (male)"],
-				"Skills": {
-					"Thieving": 50
-				},
-				"Output": "Ham member",
-				"Primary": false,
-				"Priority": 3,
 				"NoPet": true
 			},
 			"Complete a lap of ~|werewolf skullball|~": {
@@ -401,7 +389,7 @@
 				"NoPet": true
 			},
 			"Pickpocket a ~|farmer|~ for quadruple loot": {
-				"Category": ["Multiple Pickpockets"],
+				"Category": ["Multiple Agility"],
 				"Level": 30,
 				"Monsters": ["Farmer"],
 				"Skills": {
@@ -428,16 +416,136 @@
 				"Priority": 2,
 				"NoPet": true
 			},
-			"Pickpocket a ~|H.A.M. member (female)|~ for quadruple loot": {
-				"Category": ["Multiple Pickpockets"],
+			"Pickpocket a ~|H.A.M. member|~ for quadruple loot": {
+				"Category": ["Multiple Agility"],
 				"Level": 35,
-				"NPCs": ["H.A.M. member (female)"],
+				"NPCs": ["H.A.M. member"],
 				"Output": "Ham member",
 				"Skills": {
 					"Thieving": 45
 				},
 				"Primary": false,
 				"Priority": 3,
+				"NoPet": true
+			},
+			"Catch two ~|raw tuna|~ in one attempt": {
+				"Category": ["Multiple Agility"],
+				"Level": 35,
+				"Objects": ["Fishing spot (cage, harpoon)"],
+				"Output": "Raw tuna",
+				"Skills": {
+					"Fishing": 35
+				},
+				"Primary": false,
+				"Priority": 4,
+				"NoPet": true
+			},
+			"Catch two ~|raw swordfish|~ in one attempt": {
+				"Category": ["Multiple Agility"],
+				"Level": 50,
+				"Objects": ["Fishing spot (cage, harpoon)"],
+				"Output": "Raw swordfish",
+				"Skills": {
+					"Fishing": 50
+				},
+				"Primary": false,
+				"Priority": 4,
+				"NoPet": true
+			},
+			"Catch two ~|raw sharks|~ in one attempt": {
+				"Category": ["Multiple Agility"],
+				"Level": 76,
+				"Objects": ["Fishing spot (big fishing net, harpoon)"],
+				"Output": "Raw shark",
+				"Skills": {
+					"Fishing": 76
+				},
+				"Primary": false,
+				"Priority": 4,
+				"NoPet": true
+			},
+			"Catch multiple ~|cobalt skillchompas|~ in one trap": {
+				"Category": ["Multiple Agility"],
+				"Level": 42,
+				"Monsters": ["Cobalt skillchompa"],
+				"Output": "Cobalt skillchompa",
+				"Skills": {
+					"Hunter": 27
+				},
+				"Primary": false,
+				"Priority": 1000,
+				"NoPet": true
+			},
+			"Catch multiple ~|viridian skillchompas|~ in one trap": {
+				"Category": ["Multiple Agility"],
+				"Level": 64,
+				"Monsters": ["Viridian skillchompa"],
+				"Output": "Viridian skillchompa",
+				"Skills": {
+					"Hunter": 46
+				},
+				"Primary": false,
+				"Priority": 1000,
+				"NoPet": true
+			},
+			"Catch multiple ~|chinchompas|~ in one trap": {
+				"Category": ["Multiple Agility"],
+				"Level": 70,
+				"Monsters": ["Chinchompa"],
+				"Output": "Chinchompa",
+				"Skills": {
+					"Hunter": 70
+				},
+				"Primary": false,
+				"Priority": 1000,
+				"NoPet": true
+			},
+			"Catch multiple ~|carnivorous chinchompas|~ in one trap": {
+				"Category": ["Multiple Agility"],
+				"Level": 77,
+				"Monsters": ["Carnivorous chinchompa"],
+				"Output": "Red chinchompa",
+				"Skills": {
+					"Hunter": 77
+				},
+				"Primary": false,
+				"Priority": 1000,
+				"NoPet": true
+			},
+			"Catch multiple ~|azure skillchompas|~ in one trap": {
+				"Category": ["Multiple Agility"],
+				"Level": 81,
+				"Monsters": ["Azure skillchompa"],
+				"Output": "Azure skillchompa",
+				"Skills": {
+					"Hunter": 68
+				},
+				"Primary": false,
+				"Priority": 1000,
+				"NoPet": true
+			},
+			"Catch multiple ~|crimson skillchompas|~ in one trap": {
+				"Category": ["Multiple Agility"],
+				"Level": 94,
+				"Monsters": ["Crimson skillchompa"],
+				"Output": "Crimson skillchompa",
+				"Skills": {
+					"Hunter": 89
+				},
+				"Primary": false,
+				"Priority": 1000,
+				"NoPet": true
+			},
+			"Catch multiple ~|crystal skillchompas|~ in one trap": {
+				"Category": ["Multiple Agility"],
+				"Level": 99,
+				"Monsters": ["Crystal skillchompa"],
+				"Output": "Crystal skillchompa",
+				"Skills": {
+					"Hunter": 97
+				},
+				"Primary": false,
+				"Priority": 1000,
 				"NoPet": true
 			},
 			"Complete a lap of the ~|advanced barbarian outpost agility course|~": {
@@ -539,7 +647,7 @@
 				"NoPet": true
 			},
 			"Pickpocket a ~|guard|~ for quadruple loot": {
-				"Category": ["Multiple Pickpockets"],
+				"Category": ["Multiple Agility"],
 				"Level": 60,
 				"Monsters": ["Guard[+]"],
 				"Skills": {
@@ -592,7 +700,7 @@
 				"NoPet": true
 			},
 			"Pickpocket a ~|bandit (Pollnivneach)|~ for quadruple loot": {
-				"Category": ["Multiple Pickpockets"],
+				"Category": ["Multiple Agility"],
 				"Level": 75,
 				"Items": ["Blackjack[+]"],
 				"Monsters": ["Bandit (Pollnivneach)"],
@@ -605,7 +713,7 @@
 				"NoPet": true
 			},
 			"Pickpocket a ~|knight of Ardougne|~ for quadruple loot": {
-				"Category": ["Multiple Pickpockets"],
+				"Category": ["Multiple Agility"],
 				"Level": 75,
 				"Monsters": ["Knight of Ardougne"],
 				"Skills": {
@@ -680,7 +788,7 @@
 				"NoPet": true
 			},
 			"Pickpocket a ~|paladin|~ for quadruple loot": {
-				"Category": ["Multiple Pickpockets"],
+				"Category": ["Multiple Agility"],
 				"Level": 90,
 				"Monsters": ["Paladin"],
 				"Skills": {
@@ -692,7 +800,7 @@
 				"NoPet": true
 			},
 			"Pickpocket a ~|hero|~ for triple loot": {
-				"Category": ["Multiple Pickpockets"],
+				"Category": ["Multiple Agility"],
 				"Level": 90,
 				"Monsters": ["Hero"],
 				"Skills": {
@@ -789,7 +897,7 @@
 				"NoPet": true
 			},
 			"Pickpocket a ~|warrior woman|~ for quadruple loot": {
-				"Category": ["Multiple Pickpockets"],
+				"Category": ["Multiple Agility"],
 				"Level": 45,
 				"Monsters": ["Warrior woman"],
 				"Skills": {
@@ -950,7 +1058,7 @@
 				"NoPet": true
 			},
 			"Pickpocket a ~|man|~ for quadruple loot": {
-				"Category": ["Multiple Pickpockets"],
+				"Category": ["Multiple Agility"],
 				"Level": 21,
 				"Monsters": ["Man"],
 				"Skills": {
@@ -961,7 +1069,7 @@
 				"NoPet": true
 			},
 			"Pickpocket a ~|woman|~ for quadruple loot": {
-				"Category": ["Multiple Pickpockets"],
+				"Category": ["Multiple Agility"],
 				"Level": 21,
 				"Monsters": ["Woman"],
 				"Skills": {
@@ -1214,7 +1322,7 @@
 				"NoPet": true
 			},
 			"Pickpocket a ~|Cave goblin|~ for quadruple loot": {
-				"Category": ["Multiple Pickpockets"],
+				"Category": ["Multiple Agility"],
 				"Level": 56,
 				"Monsters": ["Cave goblin (Dorgesh-Kaan)"],
 				"Skills": {
@@ -1234,7 +1342,7 @@
 				"NoPet": true
 			},
 			"Pickpocket a ~|master farmer|~ for quadruple loot": {
-				"Category": ["Multiple Pickpockets"],
+				"Category": ["Multiple Agility"],
 				"Level": 58,
 				"NPCs": ["Master Farmers[+]"],
 				"Skills": {
@@ -1300,7 +1408,7 @@
 				"NoPet": true
 			},
 			"Pickpocket a ~|Fremennik citizen|~ for quadruple loot": {
-				"Category": ["Multiple Pickpockets"],
+				"Category": ["Multiple Agility"],
 				"Level": 65,
 				"NPCs": ["Fremennik citizen"],
 				"Skills": {
@@ -1312,7 +1420,7 @@
 				"NoPet": true
 			},
 			"Pickpocket a ~|brigand|~ for quadruple loot": {
-				"Category": ["Multiple Pickpockets"],
+				"Category": ["Multiple Agility"],
 				"Level": 65,
 				"Items": ["Blackjack[+]"],
 				"Monsters": ["Brigand"],
@@ -1405,7 +1513,7 @@
 				"NoPet": true
 			},
 			"Pickpocket a ~|bandit (Kharidian Desert Bandit Camp)|~ for quadruple loot": {
-				"Category": ["Multiple Pickpockets"],
+				"Category": ["Multiple Agility"],
 				"Level": 73,
 				"Monsters": ["Bandit (Kharidian Desert Bandit Camp)"],
 				"Skills": {
@@ -1941,7 +2049,7 @@
 				"Not F2P": true
 			},
 			"Pickpocket a ~|hero|~ for quadruple loot": {
-				"Category": ["Multiple Pickpockets"],
+				"Category": ["Multiple Agility"],
 				"Level": 100,
 				"Monsters": ["Hero"],
 				"Skills": {
@@ -40374,6 +40482,18 @@
 				"Output": "Raw tuna",
 				"Priority": 3
 			},
+			"Catch two ~|raw tuna|~ in one attempt": {
+				"Category": ["Multiple Agility"],
+				"Level": 35,
+				"Objects": ["Fishing spot (cage, harpoon)"],
+				"Output": "Raw tuna",
+				"Skills": {
+					"Agility": 35
+				},
+				"Primary": false,
+				"Priority": 4,
+				"NoPet": true
+			},
 			"Catch a ~|raw rainbow fish|~": {
 				"Items": ["Stripy feathers"],
 				"Level": 38,
@@ -40468,6 +40588,18 @@
 				"Primary": true,
 				"Output": "Raw swordfish",
 				"Priority": 4
+			},
+			"Catch two ~|raw swordfish|~ in one attempt": {
+				"Category": ["Multiple Agility"],
+				"Level": 50,
+				"Objects": ["Fishing spot (cage, harpoon)"],
+				"Output": "Raw swordfish",
+				"Skills": {
+					"Agility": 50
+				},
+				"Primary": false,
+				"Priority": 5,
+				"NoPet": true
 			},
 			"Catch a ~|raw desert sole|~": {
 				"Items": ["Fishing bait"],
@@ -40613,6 +40745,19 @@
 				"Primary": true,
 				"Output": "Golden shark eggs",
 				"Priority": 4,
+				"Not F2P": true
+			},
+			"Catch two ~|raw tuna|~ in one attempt": {
+				"Category": ["Multiple Agility"],
+				"Level": 76,
+				"Objects": ["Fishing spot (cage, harpoon)"],
+				"Output": "Raw tuna",
+				"Skills": {
+					"Agility": 76
+				},
+				"Primary": false,
+				"Priority": 5,
+				"NoPet": true,
 				"Not F2P": true
 			},
 			"Catch a ~|raw sea turtle|~": {
@@ -47122,6 +47267,18 @@
 				"Primary": false,
 				"Priority": 7
 			},
+			"Catch multiple ~|cobalt skillchompas|~ in one trap": {
+				"Category": ["Multiple Agility"],
+				"Level": 27,
+				"Monsters": ["Cobalt skillchompa"],
+				"Output": "Cobalt skillchompa",
+				"Skills": {
+					"Agility": 42
+				},
+				"Primary": false,
+				"Priority": 1000,
+				"NoPet": true
+			},
 			"Catch a ~|gourmet impling|~ in Puro-Puro": {
 				"Chunks": ["Puro-Puro"],
 				"Items": ["Impling jar"],
@@ -47366,6 +47523,18 @@
 				"Output": "ViridianSkillchompa",
 				"Primary": true,
 				"Priority": 1
+			},
+			"Catch multiple ~|viridian skillchompas|~ in one trap": {
+				"Category": ["Multiple Agility"],
+				"Level": 46,
+				"Monsters": ["Viridian skillchompa"],
+				"Output": "Viridian skillchompa",
+				"Skills": {
+					"Agility": 64
+				},
+				"Primary": false,
+				"Priority": 1000,
+				"NoPet": true
 			},
 			"Catch a ~|orange salamander|~": {
 				"Items": ["Small fishing net", "Rope"],
@@ -47727,6 +47896,18 @@
 				"Primary": true,
 				"Priority": 3
 			},
+			"Catch multiple ~|azure skillchompas|~ in one trap": {
+				"Category": ["Multiple Agility"],
+				"Level": 68,
+				"Monsters": ["Azure skillchompa"],
+				"Output": "Azure skillchompa",
+				"Skills": {
+					"Agility": 81
+				},
+				"Primary": false,
+				"Priority": 1000,
+				"NoPet": true
+			},
 			"Catch a ~|dashing kebbit|~": {
 				"NPCs": ["Matthias", "Dashing kebbit"],
 				"Level": 69,
@@ -47771,6 +47952,18 @@
 				"Output": "HastyWhirligig",
 				"Primary": true,
 				"Priority": 5
+			},
+			"Catch multiple ~|chinchompas|~ in one trap": {
+				"Category": ["Multiple Agility"],
+				"Level": 70,
+				"Monsters": ["Chinchompa"],
+				"Output": "Chinchompa",
+				"Skills": {
+					"Agility": 70
+				},
+				"Primary": false,
+				"Priority": 1000,
+				"NoPet": true
 			},
 			"Catch an imp using a ~|magic box|~": {
 				"Items": ["Magic box"],
@@ -48000,6 +48193,18 @@
 				"Output": "Grenwall",
 				"Primary": true,
 				"Priority": 5
+			},
+			"Catch multiple ~|carnivorous chinchompas|~ in one trap": {
+				"Category": ["Multiple Agility"],
+				"Level": 77,
+				"Monsters": ["Carnivorous chinchompa"],
+				"Output": "Red chinchompa",
+				"Skills": {
+					"Agility": 77
+				},
+				"Primary": false,
+				"Priority": 1000,
+				"NoPet": true
 			},
 			"Catch a ~|carrion jadinko|~ in the Herblore Habitat": {
 				"NPCs": ["Carrion jadinko"],
@@ -48325,6 +48530,18 @@
 				"Output": "CrimsonSkillchompa",
 				"Primary": true,
 				"Priority": 1
+			},
+			"Catch multiple ~|crimson skillchompas|~ in one trap": {
+				"Category": ["Multiple Agility"],
+				"Level": 89,
+				"Monsters": ["Crimson skillchompa"],
+				"Output": "Crimson skillchompa",
+				"Skills": {
+					"Agility": 94
+				},
+				"Primary": false,
+				"Priority": 1000,
+				"NoPet": true
 			},
 			"Catch a ~|camouflaged jadinko|~ on Anachronia": {
 				"Items": ["Marasamaw plant", "JujuHunterPotion[+]"],
@@ -48690,6 +48907,18 @@
 				"Output": "CrystalSkillchompa",
 				"Primary": true,
 				"Priority": 1
+			},
+			"Catch multiple ~|crystal skillchompas|~ in one trap": {
+				"Category": ["Multiple Agility"],
+				"Level": 97,
+				"Monsters": ["Crystal skillchompa"],
+				"Output": "Crystal skillchompa",
+				"Skills": {
+					"Agility": 99
+				},
+				"Primary": false,
+				"Priority": 1000,
+				"NoPet": true
 			},
 			"Feed a ~|starved ancient effigy|~ with hunter": {
 				"Items": ["Starved ancient effigy (herblore/hunter)"],
@@ -72783,40 +73012,26 @@
 				"Primary": false,
 				"Priority": 3
 			},
-			"Loot a ~|chest (10 coins)|~": {
+			"Loot a ~|Simple Chest|~": {
 				"Level": 13,
-				"Objects": ["Chest (10 coins)"],
-				"Output": "Coins",
+				"Objects": ["Simple Chest"],
+				"Output": "Simple Chest",
 				"Primary": true,
 				"Priority": 1
 			},
-			"Unlock the ~|chest (10 coins)|~ in Rellekka": {
-				"Level": 13,
-				"Items": ["Lockpick"],
-				"Objects": ["Chest (Rellekka)"],
-				"Output": "Coins",
-				"Primary": true,
-				"Priority": 1
-			},
-			"Unlock the ~|chest (10 coins)|~ door to Ross' house": {
-				"Level": 13,
-				"Chunks": ["10291"],
-				"Primary": true,
-				"Priority": 2
-			},
-			"Pickpocket a ~|H.A.M. member (female)|~": {
+			"Pickpocket a ~|H.A.M. member|~": {
 				"Level": 15,
-				"NPCs": ["H.A.M. member (female)"],
+				"NPCs": ["H.A.M. member"],
 				"Output": "Ham member",
 				"Primary": true,
 				"Priority": 1
 			},
-			"Pickpocket a ~|H.A.M. member (female)|~ after caper 2": {
+			"Pickpocket a ~|H.A.M. member|~ after caper 2": {
 				"Level": 15,
 				"Tasks": {
 					"~|Lost Her Marbles (miniquest)|~ Complete the miniquest": "Quest"
 				},
-				"NPCs": ["H.A.M. member (female)"],
+				"NPCs": ["H.A.M. member"],
 				"Output": "Ham member (lhm)",
 				"Primary": true,
 				"Priority": 1000
@@ -72851,28 +73066,11 @@
 				"Primary": true,
 				"Priority": 1002
 			},
-			"Unlock the ~|chest (10 coins)|~ door at Ardougne Market": {
+			"Unlock the ~|Secure Chest|~ door at Ardougne Market": {
 				"Level": 16,
 				"Chunks": ["10547-1"],
 				"Primary": true,
 				"Priority": 1
-			},
-			"Pickpocket a ~|H.A.M. member (male)|~": {
-				"Level": 20,
-				"NPCs": ["H.A.M. member (male)"],
-				"Output": "Ham member",
-				"Primary": true,
-				"Priority": 1
-			},
-			"Pickpocket a ~|H.A.M. member (male)|~ after caper 2": {
-				"Level": 20,
-				"Tasks": {
-					"~|Lost Her Marbles (miniquest)|~ Complete the miniquest": "Quest"
-				},
-				"NPCs": ["H.A.M. member (male)"],
-				"Output": "Ham member (lhm)",
-				"Primary": true,
-				"Priority": 1000
 			},
 			"Pickpocket a ~|Guard (H.A.M.)|~": {
 				"Level": 20,
@@ -72930,11 +73128,10 @@
 				"Primary": true,
 				"Priority": 2
 			},
-			"Loot a ~|chest (magic axe hut)|~": {
+			"Loot a ~|Chest (Magic Axe Hut)|~": {
 				"Level": 23,
-				"Items": ["Lockpick"],
-				"Objects": ["Chest (Magic axe hut)"],
-				"Output": "Magic axe chest",
+				"Objects": ["Chest (Magic Axe Hut)"],
+				"Output": "Chest (Magic Axe Hut)",
 				"Primary": true,
 				"Priority": 1
 			},
@@ -73008,10 +73205,10 @@
 				"Primary": true,
 				"Priority": 1
 			},
-			"Loot a ~|chest (nature runes)|~": {
+			"Loot a ~|Secure Chest (East Ardougne, Rellekka)|~": {
 				"Level": 28,
-				"Objects": ["Chest (nature runes)"],
-				"Output": "Chest (nature runes)",
+				"Objects": ["Secure Chest (East Ardougne, Rellekka)"],
+				"Output": "Secure Chest (East Ardougne, Rellekka)",
 				"Primary": true,
 				"Priority": 1
 			},
@@ -73038,7 +73235,7 @@
 				"Priority": 2
 			},
 			"Pickpocket a ~|man|~ for quadruple loot": {
-				"Category": ["Multiple Pickpockets"],
+				"Category": ["Multiple Agility"],
 				"Level": 31,
 				"Monsters": ["Man"],
 				"Skills": {
@@ -73048,7 +73245,7 @@
 				"Priority": 1000
 			},
 			"Pickpocket a ~|woman|~ for quadruple loot": {
-				"Category": ["Multiple Pickpockets"],
+				"Category": ["Multiple Agility"],
 				"Level": 31,
 				"Monsters": ["Woman"],
 				"Skills": {
@@ -73107,7 +73304,7 @@
 				"Priority": 1
 			},
 			"Pickpocket a ~|farmer|~ for quadruple loot": {
-				"Category": ["Multiple Pickpockets"],
+				"Category": ["Multiple Agility"],
 				"Level": 40,
 				"Monsters": ["Farmer"],
 				"Skills": {
@@ -73145,10 +73342,10 @@
 				"Primary": true,
 				"Priority": 1
 			},
-			"Loot a ~|chest (50 coins)|~": {
+			"Loot a ~|Reinforced Chest (East Ardougne)|~": {
 				"Level": 43,
-				"Objects": ["Chest (50 coins)"],
-				"Output": "Coins",
+				"Objects": ["Reinforced Chest (East Ardougne)"],
+				"Output": "Reinforced Chest (East Ardougne)",
 				"Primary": true,
 				"Priority": 1
 			},
@@ -73188,10 +73385,10 @@
 				"Hide drops": true,
 				"Priority": 1001
 			},
-			"Pickpocket a ~|H.A.M. member (female)|~ for quadruple loot": {
-				"Category": ["Multiple Pickpockets"],
+			"Pickpocket a ~|H.A.M. member|~ for quadruple loot": {
+				"Category": ["Multiple Agility"],
 				"Level": 45,
-				"NPCs": ["H.A.M. member (female)"],
+				"NPCs": ["H.A.M. member"],
 				"Output": "Ham member",
 				"Skills": {
 					"Agility": 35
@@ -73219,11 +73416,10 @@
 				"Primary": true,
 				"Priority": 3
 			},
-			"Loot a ~|chest (steel arrowheads)|~": {
-				"Items": ["Lockpick"],
+			"Loot a ~|Robust Chest|~": {
 				"Level": 47,
-				"Objects": ["Chest (steel arrowheads)"],
-				"Output": "Chest (steel arrowheads)",
+				"Objects": ["Robust Chest"],
+				"Output": "Robust Chest",
 				"Primary": true,
 				"Priority": 1
 			},
@@ -73237,16 +73433,9 @@
 			"Steal from a ~|silver stall|~": {
 				"Level": 50,
 				"Objects": ["Silver stall"],
-				"Output": "Silver ore",
+				"Output": "Silver stall",
 				"Primary": true,
 				"Priority": 1
-			},
-			"Steal from a ~|silver stall (Keldagrim)|~": {
-				"Level": 50,
-				"Objects": ["Silver stall (Keldagrim)"],
-				"Output": "Silver stone spirit",
-				"Primary": true,
-				"Priority": 2
 			},
 			"Pickpocket a ~|trainee archaeologist#Archaeology Campus|~": {
 				"Level": 50,
@@ -73323,17 +73512,6 @@
 				"Primary": true,
 				"Priority": 1000
 			},
-			"Pickpocket a ~|H.A.M. member (male)|~ for quadruple loot": {
-				"Category": ["Multiple Pickpockets"],
-				"Level": 50,
-				"NPCs": ["H.A.M. member (male)"],
-				"Skills": {
-					"Agility": 40
-				},
-				"Output": "Ham member",
-				"Primary": false,
-				"Priority": 1001
-			},
 			"Steal from the fourth room in ~|pyramid plunder|~": {
 				"Chunks": ["Pyramid Plunder"],
 				"Level": 51,
@@ -73341,27 +73519,24 @@
 				"Primary": true,
 				"Priority": 1
 			},
-			"Loot a ~|chest (Dorgesh-Kaan)|~": {
+			"Loot a ~|Secure Chest (Dorgesh-Kaan)|~": {
 				"Level": 52,
-				"Items": ["Lockpick"],
-				"Objects": ["Chest (Dorgesh-Kaan)"],
-				"Output": "Chest (Dorgesh-Kaan)",
+				"Objects": ["Secure Chest (Dorgesh-Kaan)"],
+				"Output": "Secure Chest (Dorgesh-Kaan)",
 				"Primary": true,
 				"Priority": 1
 			},
-			"Loot a ~|chest (Oldak)|~": {
+			"Loot a ~|Secure Chest (Oldak)|~": {
 				"Level": 52,
-				"Items": ["Lockpick"],
-				"Objects": ["Chest (Oldak)"],
-				"Output": "Chest (Oldak)",
+				"Objects": ["Secure Chest (Oldak)"],
+				"Output": "Secure Chest (Oldak)",
 				"Primary": true,
 				"Priority": 2
 			},
-			"Loot a ~|chest (Zanik)|~": {
+			"Loot a ~|Secure Chest (Zanik)|~": {
 				"Level": 52,
-				"Items": ["Lockpick"],
-				"Objects": ["Chest (Zanik)"],
-				"Output": "Chest (Zanik)",
+				"Objects": ["Secure Chest (Zanik)"],
+				"Output": "Secure Chest (Zanik)",
 				"Primary": true,
 				"Priority": 3
 			},
@@ -73388,7 +73563,7 @@
 				"Priority": 2
 			},
 			"Pickpocket a ~|warrior woman|~ for quadruple loot": {
-				"Category": ["Multiple Pickpockets"],
+				"Category": ["Multiple Agility"],
 				"Level": 55,
 				"Monsters": ["Warrior woman"],
 				"Skills": {
@@ -73401,7 +73576,6 @@
 			"Loot a ~|chest (Chaos Druid Tower Dungeon)|~": {
 				"Level": 59,
 				"Objects": ["Chest (Chaos Druid Tower Dungeon)"],
-				"Chunks": ["10292"],
 				"Output": "Chest (Chaos Druid Tower Dungeon)",
 				"Primary": true,
 				"Priority": 1
@@ -73471,7 +73645,6 @@
 			},
 			"Loot a ~|chest (Rogues' Castle)|~": {
 				"Level": 65,
-				"Items": ["Lockpick"],
 				"Objects": ["Chest (Rogues' Castle)"],
 				"Output": "Chest (Rogues' Castle)",
 				"Primary": true,
@@ -73513,7 +73686,7 @@
 				"Priority": 1001
 			},
 			"Pickpocket a ~|Cave goblin|~ for quadruple loot": {
-				"Category": ["Multiple Pickpockets"],
+				"Category": ["Multiple Agility"],
 				"Level": 66,
 				"Monsters": ["Cave goblin (Dorgesh-Kaan)"],
 				"Skills": {
@@ -73524,7 +73697,7 @@
 				"Priority": 1000
 			},
 			"Pickpocket a ~|master farmer|~ for quadruple loot": {
-				"Category": ["Multiple Pickpockets"],
+				"Category": ["Multiple Agility"],
 				"Level": 68,
 				"NPCs": ["Master Farmers[+]"],
 				"Skills": {
@@ -73580,7 +73753,7 @@
 				"Priority": 4
 			},
 			"Pickpocket a ~|guard|~ for quadruple loot": {
-				"Category": ["Multiple Pickpockets"],
+				"Category": ["Multiple Agility"],
 				"Level": 70,
 				"Monsters": ["Guard[+]"],
 				"Skills": {
@@ -73612,9 +73785,8 @@
 			},
 			"Loot a ~|chest (Ardougne Castle)|~": {
 				"Level": 72,
-				"Chunks": ["10803"],
 				"Objects": ["Chest (Ardougne Castle)"],
-				"Output": "Paladin chest",
+				"Output": "Chest (Ardougne Castle)",
 				"Primary": true,
 				"Priority": 1
 			},
@@ -73662,7 +73834,7 @@
 				"Priority": 1001
 			},
 			"Pickpocket a ~|Fremennik citizen|~ for quadruple loot": {
-				"Category": ["Multiple Pickpockets"],
+				"Category": ["Multiple Agility"],
 				"Level": 75,
 				"NPCs": ["Fremennik citizen"],
 				"Skills": {
@@ -73673,7 +73845,7 @@
 				"Priority": 1002
 			},
 			"Pickpocket a ~|brigand|~ for quadruple loot": {
-				"Category": ["Multiple Pickpockets"],
+				"Category": ["Multiple Agility"],
 				"Level": 75,
 				"Items": ["Blackjack[+]"],
 				"Monsters": ["Brigand"],
@@ -73698,11 +73870,10 @@
 				"Primary": true,
 				"Priority": 1
 			},
-			"Loot a ~|chest (Dorgesh-Kaan, gem)|~": {
+			"Loot a ~|Reinforced Chest (Dorgesh-Kaan)|~": {
 				"Level": 78,
-				"Items": ["Lockpick"],
-				"Objects": ["Chest (Dorgesh-Kaan, gem)"],
-				"Output": "Rich chest",
+				"Objects": ["Reinforced Chest (Dorgesh-Kaan)"],
+				"Output": "Reinforced Chest (Dorgesh-Kaan)",
 				"Primary": true,
 				"Priority": 1
 			},
@@ -73787,7 +73958,7 @@
 				"Priority": 1000
 			},
 			"Pickpocket a ~|trainee archaeologist|~ for quadruple loot": {
-				"Category": ["Multiple Pickpockets"],
+				"Category": ["Multiple Agility"],
 				"Level": 80,
 				"NPCs": ["Trainee archaeologist[+]"],
 				"Skills": {
@@ -73831,7 +74002,7 @@
 				"Priority": 2
 			},
 			"Pickpocket a ~|bandit (Kharidian Desert Bandit Camp)|~ for quadruple loot": {
-				"Category": ["Multiple Pickpockets"],
+				"Category": ["Multiple Agility"],
 				"Level": 83,
 				"Monsters": ["Bandit (Kharidian Desert Bandit Camp)"],
 				"Skills": {
@@ -73849,7 +74020,7 @@
 				"Priority": 1
 			},
 			"Pickpocket a ~|bandit (Pollnivneach)|~ for quadruple loot": {
-				"Category": ["Multiple Pickpockets"],
+				"Category": ["Multiple Agility"],
 				"Level": 85,
 				"Items": ["Blackjack[+]"],
 				"Monsters": ["Bandit (Pollnivneach)"],
@@ -73861,7 +74032,7 @@
 				"Priority": 1000
 			},
 			"Pickpocket a ~|knight of Ardougne|~ for quadruple loot": {
-				"Category": ["Multiple Pickpockets"],
+				"Category": ["Multiple Agility"],
 				"Level": 85,
 				"Monsters": ["Knight of Ardougne"],
 				"Skills": {
@@ -74065,7 +74236,7 @@
 				"Priority": 3
 			},
 			"Pickpocket a ~|Wizards' Tower mage|~ for quadruple loot": {
-				"Category": ["Multiple Pickpockets"],
+				"Category": ["Multiple Agility"],
 				"Level": 94,
 				"NPCs": ["Wizards' Tower mage"],
 				"Skills": {
@@ -74096,7 +74267,7 @@
 				"Priority": 1000
 			},
 			"Pickpocket a ~|watchman|~ for quadruple loot": {
-				"Category": ["Multiple Pickpockets"],
+				"Category": ["Multiple Agility"],
 				"Level": 95,
 				"Monsters": ["Watchman"],
 				"Skills": {
@@ -74107,7 +74278,7 @@
 				"Priority": 1001
 			},
 			"Pickpocket a ~|Menaphite thug|~ for quadruple loot": {
-				"Category": ["Multiple Pickpockets"],
+				"Category": ["Multiple Agility"],
 				"Level": 95,
 				"Items": ["Blackjack[+]"],
 				"Monsters": ["Menaphite thug"],
@@ -74217,7 +74388,7 @@
 				"Priority": 1
 			},
 			"Pickpocket a ~|paladin|~ for quadruple loot": {
-				"Category": ["Multiple Pickpockets"],
+				"Category": ["Multiple Agility"],
 				"Level": 100,
 				"Monsters": ["Paladin"],
 				"Skills": {
@@ -74228,7 +74399,7 @@
 				"Priority": 1000
 			},
 			"Pickpocket a ~|hero|~ for triple loot": {
-				"Category": ["Multiple Pickpockets"],
+				"Category": ["Multiple Agility"],
 				"Level": 100,
 				"Monsters": ["Hero"],
 				"Skills": {
@@ -74239,7 +74410,7 @@
 				"Priority": 1001
 			},
 			"Pickpocket a ~|trader|~ for double loot": {
-				"Category": ["Multiple Pickpockets"],
+				"Category": ["Multiple Agility"],
 				"Level": 100,
 				"NPCs": ["Trader"],
 				"Skills": {
@@ -74277,7 +74448,7 @@
 				"Priority": 1
 			},
 			"Pickpocket a ~|Crux Eqal Knight|~ for triple loot": {
-				"Category": ["Multiple Pickpockets"],
+				"Category": ["Multiple Agility"],
 				"Level": 103,
 				"NPCs": ["Crux Eqal Knight"],
 				"Skills": {
@@ -74295,7 +74466,7 @@
 				"Priority": 1
 			},
 			"Rummage a ~|dead legionary|~ for double loot": {
-				"Category": ["Multiple Pickpockets"],
+				"Category": ["Multiple Agility"],
 				"Level": 105,
 				"Chunks": ["Vault of Hereditas"],
 				"Skills": {
@@ -74305,7 +74476,7 @@
 				"Priority": 1000
 			},
 			"Pickpocket a ~|gnome|~ for quadruple loot": {
-				"Category": ["Multiple Pickpockets"],
+				"Category": ["Multiple Agility"],
 				"Level": 105,
 				"Monsters": ["Gnome[+]"],
 				"Skills": {
@@ -74316,7 +74487,7 @@
 				"Priority": 1001
 			},
 			"Pickpocket an ~|elf|~ for triple loot": {
-				"Category": ["Multiple Pickpockets"],
+				"Category": ["Multiple Agility"],
 				"Level": 105,
 				"NPCs": ["Elf"],
 				"Skills": {
@@ -74419,7 +74590,7 @@
 				"Priority": 108
 			},
 			"Pickpocket an ~|archaeologist|~ for quadruple loot": {
-				"Category": ["Multiple Pickpockets"],
+				"Category": ["Multiple Agility"],
 				"Level": 108,
 				"NPCs": ["Archaeologist[+]"],
 				"Skills": {
@@ -74436,7 +74607,7 @@
 				"Priority": 1
 			},
 			"Pickpocket a ~|hero|~ for quadruple loot": {
-				"Category": ["Multiple Pickpockets"],
+				"Category": ["Multiple Agility"],
 				"Level": 110,
 				"Monsters": ["Hero"],
 				"Skills": {
@@ -74447,7 +74618,7 @@
 				"Priority": 1001
 			},
 			"Pickpocket a ~|trader|~ for triple loot": {
-				"Category": ["Multiple Pickpockets"],
+				"Category": ["Multiple Agility"],
 				"Level": 110,
 				"NPCs": ["Trader"],
 				"Skills": {
@@ -74458,7 +74629,7 @@
 				"Priority": 1002
 			},
 			"Pickpocket a ~|vyrewatch tither|~ for double loot": {
-				"Category": ["Multiple Pickpockets"],
+				"Category": ["Multiple Agility"],
 				"Level": 110,
 				"NPCs": ["Vyrewatch tither"],
 				"Skills": {
@@ -74483,7 +74654,7 @@
 				"Priority": 1
 			},
 			"Pickpocket a ~|goebie scavenger|~ for double loot": {
-				"Category": ["Multiple Pickpockets"],
+				"Category": ["Multiple Agility"],
 				"Level": 112,
 				"NPCs": ["Goebie scavenger"],
 				"Skills": {
@@ -74501,7 +74672,7 @@
 				"Priority": 1
 			},
 			"Pickpocket a ~|Crux Eqal Knight|~ for quadruple loot": {
-				"Category": ["Multiple Pickpockets"],
+				"Category": ["Multiple Agility"],
 				"Level": 113,
 				"NPCs": ["Crux Eqal Knight"],
 				"Skills": {
@@ -74525,7 +74696,7 @@
 				"Priority": 2
 			},
 			"Pickpocket a ~|Menaphos market guard|~ for double loot": {
-				"Category": ["Multiple Pickpockets"],
+				"Category": ["Multiple Agility"],
 				"Level": 114,
 				"NPCs": ["Menaphos market guard"],
 				"Skills": {
@@ -74543,7 +74714,7 @@
 				"Priority": 1
 			},
 			"Pickpocket an ~|elf|~ for triple loot": {
-				"Category": ["Multiple Pickpockets"],
+				"Category": ["Multiple Agility"],
 				"Level": 115,
 				"NPCs": ["Elf"],
 				"Skills": {
@@ -74554,7 +74725,7 @@
 				"NoPet": true
 			},
 			"Rummage a ~|dead legionary|~ for triple loot": {
-				"Category": ["Multiple Pickpockets"],
+				"Category": ["Multiple Agility"],
 				"Level": 115,
 				"Chunks": ["Vault of Hereditas"],
 				"Skills": {
@@ -74615,7 +74786,7 @@
 				"Priority": 1
 			},
 			"Pickpocket a ~|trader|~ for quadruple loot": {
-				"Category": ["Multiple Pickpockets"],
+				"Category": ["Multiple Agility"],
 				"Level": 120,
 				"NPCs": ["Trader"],
 				"Skills": {
@@ -74626,7 +74797,7 @@
 				"Priority": 1002
 			},
 			"Pickpocket a ~|vyrewatch tither|~ for triple loot": {
-				"Category": ["Multiple Pickpockets"],
+				"Category": ["Multiple Agility"],
 				"Level": 120,
 				"NPCs": ["Vyrewatch tither"],
 				"Skills": {
@@ -179072,9 +179243,8 @@
 				"Cupboard": 1,
 				"Watchtower fence": 8,
 				"Chest": 3,
-				"Chest (10 coins)": 1,
-				"Chest (nature runes)": 1,
-				"Chest (Ardougne Castle)": 1,
+				"Simple Chest": 3,
+				"Chest (Ardougne Castle)": 2,
 				"Rat trap": 1,
 				"Drawers": 20,
 				"Sink": 1,
@@ -180174,9 +180344,8 @@
 						"Manhole": 1,
 						"Gangplank": 2,
 						"Chest": 1,
-						"Chest (10 coins)": 1,
-						"Chest (50 coins)": 1,
-						"Chest (nature runes)": 2,
+						"Reinforced Chest (East Ardougne)": 1,
+						"Secure Chest (East Ardougne, Rellekka)": 3,
 						"Crate": 22,
 						"Silver stall": 1,
 						"Silk stall": 2,
@@ -180370,7 +180539,7 @@
 				"Hay bale": 2,
 				"Closed chest": 2,
 				"Target": 5,
-				"Chest (steel arrowheads)": 1,
+				"Robust Chest": 3,
 				"Cupboard": 1,
 				"Willow": 10,
 				"Oak": 15,
@@ -180569,9 +180738,8 @@
 				"Potato": 7,
 				"Cabbage": 7,
 				"Chest": 3,
-				"Chest (Rellekka)": 1,
-				"Chest (nature runes)": 1,
-				"Chest (steel arrowheads)": 1,
+				"Secure Chest (East Ardougne, Rellekka)": 3,
+				"Robust Chest": 3,
 				"Onion": 7,
 				"Boxes": 4,
 				"Pipe": 1,
@@ -183794,9 +183962,7 @@
 				"Scout": 1,
 				"Baby monkey": 10,
 				"Baby gecko": 5,
-				"Gecko": 2,
-				"Gleaming wisp": 7,
-				"Enriched gleaming wisp": 1
+				"Gecko": 2
 			},
 			"Connect": {
 				"9547": true
@@ -185167,7 +185333,8 @@
 						"Baby monkey": 5,
 						"Baby gecko": 3,
 						"Gecko": 2,
-						"Gleaming wisp": 6
+						"Gleaming wisp": 13,
+						"Enriched gleaming wisp": 13
 					},
 					"Quest": {
 						"Twilight of the Gods": "step"
@@ -188446,9 +188613,6 @@
 		"12093": {
 			"Object": {
 				"Closed chest": 4,
-				"Chest (10 coins)": 1,
-				"Chest (nature runes)": 1,
-				"Chest (50 coins)": 1,
 				"Crate": 4,
 				"Banite rock": 6,
 				"Anvil": 1,
@@ -190912,7 +191076,7 @@
 		"12605": {
 			"Object": {
 				"Lever": 1,
-				"Chest (Magic axe hut)": 2,
+				"Chest (Magic Axe Hut)": 3,
 				"Web": 1
 			},
 			"Monster": {
@@ -207077,7 +207241,7 @@
                 "Well": 2,
                 "Gem stall": 1,
                 "Bakery stall": 1,
-                "Silver stall (Keldagrim)": 1,
+                "Silver stall": 1,
                 "Clothes stall": 1,
                 "Crafting stall": 1,
                 "Boxes": 30,
@@ -207507,10 +207671,10 @@
 			},
 			"Object": {
 				"Bookcase": 1,
-				"Chest (Dorgesh-Kaan)": 10,
-				"Chest (Dorgesh-Kaan, gem)": 8,
-				"Chest (Zanik)": 1,
-				"Chest (Oldak)": 1,
+				"Secure Chest (Dorgesh-Kaan)": 20,
+				"Reinforced Chest (Dorgesh-Kaan)": 8,
+				"Secure Chest (Zanik)": 2,
+				"Secure Chest (Oldak)": 2,
 				"Bank booth": 6,
 				"Fountain": 4,
                 "Cooking range": 2,
@@ -208848,8 +209012,7 @@
 				"Wizard": 1
 			},
 			"Monster": {
-				"Rabbit": 5,
-				"Bird": 5
+				"Rabbit": 5
 			},
 			"Connect": {
 				"11311": true
@@ -209609,8 +209772,6 @@
 		"Mourner HQ": {
 			"Object": {
 				"Closed chest": 4,
-				"Chest (50 coins)": 1,
-				"Chest (steel arrowheads)": 1,
 				"Desk": 1
 			},
 			"Monster": {
@@ -211760,7 +211921,7 @@
 		"Spirit Realm Magic Axe Hut": {
 			"Object": {
 				"Chest": 3,
-				"Chest (10 coins)": 1
+				"Chest (Magic Axe Hut)": 3
 			},
 			"Monster": {
 				"Ghostly warrior": 9
@@ -212450,7 +212611,7 @@
 		},
 		"Chaos Druid Tower Dungeon": {
 			"Object": {
-				"Chest (Chaos Druid Tower Dungeon)": 1,
+				"Chest (Chaos Druid Tower Dungeon)": 2,
 				"Fire": 2
 			},
 			"Monster": {
@@ -212591,8 +212752,7 @@
 			"NPC": {
 				"Johanhus Ulsbrecht": 1,
 				"H.A.M. Deacon": 1,
-				"H.A.M. member (male)": 16,
-				"H.A.M. member (female)": 15,
+				"H.A.M. member": 31,
 				"Jimmy the Chisel": 1,
 				"Sigmund": 1
 			},
@@ -230570,7 +230730,7 @@
 				"1": "1/128"
 			},
 			"Marrentill seed": {
-				"1": "Common"
+				"1": "19/128"
 			},
 			"Sealed clue scroll (easy)": {
 				"1": "1/128"
@@ -230671,7 +230831,7 @@
 				"1": "1/128"
 			},
 			"Marrentill seed": {
-				"1": "Common"
+				"1-2": "19/128"
 			},
 			"Sealed clue scroll (easy)": {
 				"1": "1/128"
@@ -234131,7 +234291,7 @@
 				"1": "1/101"
 			},
 			"Irit seed": {
-				"1": "Common"
+				"1-2": "10/100"
 			},
 			"Top of sceptre": {
 				"1": "3/100"
@@ -243462,7 +243622,8 @@
 				"1": "2/100"
 			},
 			"Coins": {
-				"5-84": "69/100"
+				"5-85": "54/100",
+				"5-85 (F2P)": "15/100" 
 			},
 			"Ashes": {
 				"1": "4/100"
@@ -243477,7 +243638,7 @@
 				"3-4": "1/128"
 			},
 			"Harralander seed": {
-				"1": "Common"
+				"1": "15/100"
 			},
 			"Gold charm": {
 				"1": "15.269/1000"
@@ -247076,7 +247237,11 @@
 				"1": "14/128"
 			},
 			"Bread dough": {
-				"1": "10/128"
+				"1": "10/128",
+				"1 (F2P)": "11/128"
+			},
+			"Guam seed": {
+				"1-2": "11/128"
 			},
 			"Goblin mail": {
 				"1": "5/128"
@@ -247191,7 +247356,11 @@
 				"1": "14/128"
 			},
 			"Bread dough": {
-				"1": "10/128"
+				"1": "10/128",
+				"1 (F2P)": "15/128"
+			},
+			"Guam seed": {
+				"1": "15/128"
 			},
 			"Goblin mail": {
 				"1": "10/128"
@@ -247277,6 +247446,13 @@
 				"16": "7/128",
 				"24": "3/128",
 				"5-15": "14/128"
+			},
+			"Bread dough": {
+				"1": "10/128",
+				"1 (F2P)": "15/128"
+			},
+			"Guam seed": {
+				"1": "15/128"
 			},
 			"Green goblin mail": {
 				"1": "10/128"
@@ -247365,7 +247541,7 @@
 			"Bronze javelin": {
 				"5": "2/128"
 			},
-			"Tin stone spirit": {
+			"Tin ore": {
 				"1": "1/128"
 			},
 			"Cape (red)": {
@@ -247456,7 +247632,11 @@
 				"1": "14/128"
 			},
 			"Bread dough": {
-				"1": "10/128"
+				"1": "10/128",
+				"1 (F2P)": "11/128"
+			},
+			"Guam seed": {
+				"1-2": "11/128"
 			},
 			"Goblin mail": {
 				"1": "5/128"
@@ -247475,9 +247655,6 @@
 			},
 			"Brass necklace": {
 				"1": "1/128"
-			},
-			"Guam seed": {
-				"1": "Common"
 			},
 			"Air talisman": {
 				"1": "1/128"
@@ -249369,7 +249546,7 @@
 				"3": "16/128"
 			},
 			"Marrentill seed": {
-				"1": "Common"
+				"2-3": "4/128"
 			},
 			"Wheat": {
 				"1": "1/128"
@@ -249454,7 +249631,7 @@
 				"1": "1/128"
 			},
 			"Marrentill seed": {
-				"1": "Common"
+				"2-3": "4/128"
 			},
 			"Sealed clue scroll (medium)": {
 				"1": "1/128"
@@ -249526,7 +249703,7 @@
 				"1": "1/128"
 			},
 			"Marrentill seed": {
-				"1": "Common"
+				"2-3": "4/128"
 			},
 			"Sealed clue scroll (medium)": {
 				"1": "1/128"
@@ -249630,7 +249807,7 @@
 				"1": "1/128"
 			},
 			"Marrentill seed": {
-				"1": "Common"
+				"2-3": "4/128"
 			},
 			"Sealed clue scroll (medium)": {
 				"1": "1/128"
@@ -250752,7 +250929,7 @@
 			},
 			"Coins": {
 				"8": "6/128",
-				"15": "8/128",
+				"15 (F2P)": "8/128",
 				"38": "14/128",
 				"52": "10/128"
 			},
@@ -250769,7 +250946,7 @@
 				"2": "2/128"
 			},
 			"Harralander seed": {
-				"1": "Common"
+				"2-3": "8/128"
 			},
 			"Shoulder bone": {
 				"1": "1/4"
@@ -250865,6 +251042,7 @@
 			},
 			"Coins": {
 				"5": "12/128",
+				"5 (F2P)": "22/128",
 				"15": "16/128",
 				"28": "12/128",
 				"42": "3/128",
@@ -250880,7 +251058,7 @@
 				"3": "1/128"
 			},
 			"Tarromin seed": {
-				"1": "Common"
+				"1": "22/128"
 			},
 			"Hobgoblin skin": {
 				"1": "1/4"
@@ -250964,6 +251142,7 @@
 			},
 			"Coins": {
 				"5": "12/128",
+				"5 (F2P)": "22/128",
 				"15": "16/128",
 				"28": "12/128"
 			},
@@ -250979,7 +251158,7 @@
 				"1": "21/128"
 			},
 			"Tarromin seed": {
-				"1": "Common"
+				"1-3": "22/128"
 			},
 			"Goblin mail": {
 				"1": "2/128"
@@ -251080,9 +251259,6 @@
 			},
 			"Limpwurt root": {
 				"1": "21/128"
-			},
-			"Tarromin seed": {
-				"1": "Common"
 			},
 			"Goblin mail": {
 				"1": "2/128"
@@ -254351,7 +254527,7 @@
 			"Spider carcass": {
 				"1": "Always"
 			},
-			"Spider egg (uncheked)": {
+			"Spider egg (unchecked)": {
 				"1": "1/750"
 			}
 		},
@@ -258983,8 +259159,8 @@
 				"1": "2/128"
 			},
 			"Coins": {
-				"2": "8/128",
-				"37": "19/128",
+				"2 (F2P)": "19/128",
+				"37": "8/128",
 				"300": "2/128"
 			},
 			"Grapevine seed": {
@@ -258995,7 +259171,7 @@
 				"1": "2/128"
 			},
 			"Irit seed": {
-				"1": "Common"
+				"1-2": "19/128"
 			},
 			"Spinach roll": {
 				"1": "1/128"
@@ -259377,7 +259553,7 @@
 				"2-12": "27/128"
 			},
 			"Tarromin seed": {
-				"1": "Common"
+				"1-2": "12/128"
 			},
 			"Chargebow": {
 				"1": "1/200"
@@ -270302,7 +270478,7 @@
 				"1": "10/50"
 			},
 			"Guam seed": {
-				"1": "10/50"
+				"1": "3/53"
 			}
 		},
 		"Swamp snake": {
@@ -282134,6 +282310,18 @@
 				"Receive a slayer assignment from ~|Vannaka|~": "Slayer"
 			}, {
 				"~|What Lies Below|~ Complete the quest": "Quest"
+			}],
+			"Dragon token^": [{
+				"~|Recipefor Disaster: Freeing Sir Amik Varze|~ 5": "Quest"
+			}],
+			"Black candle^": [{
+				"~|Merlin's Crystal|~ 3": "Quest"
+			}],
+			"Jug of vinegar^": [{
+				"~|Rag and Bone Man|~ 1": "Quest"
+			}],
+			"Unholy mould^": [{
+				"~|Observatory Quest|~ Complete the quest": "Quest"
 			}]
 		},
 		"Monsters": {
@@ -282982,9 +283170,9 @@
 					"Enter the ~|Cooks' Guild|~": "Cooking"
 				}]
 			},
-			"Chest (10 coins)": {
-				"10547-1": [{
-					"Unlock the ~|chest (10 coins)|~ door at Ardougne Market": "Thieving"
+			"Chest (Magic Axe Hut)": {
+				"12605": [{
+					"Lockpick the door to the ~|magic axe hut|~": "Thieving"
 				}],
 				"Spirit Realm Magic Axe Hut": [{
 					"Lockpick the door to the ~|magic axe hut|~": "Thieving"
@@ -286847,11 +287035,6 @@
 			"Spirit shard": true,
 			"Pouch": true,
 			"Antlers": true,
-			"Feather headdress (blue)": true,
-			"Feather headdress (orange)": true,
-			"Feather headdress (red)": true,
-			"Feather headdress (yellow)": true,
-			"Feather headdress (stripy)": true,
 			"Lizard skull": true,
 			"Spirit shard pack": true
 		},
@@ -287448,12 +287631,7 @@
 			"Pouch": true,
 			"Antlers": true,
 			"Lizard skull": true,
-			"Spirit shard pack": true,
-			"Feather headdress (blue)": true,
-			"Feather headdress (orange)": true,
-			"Feather headdress (red)": true,
-			"Feather headdress (yellow)": true,
-			"Feather headdress (stripy)": true
+			"Spirit shard pack": true
 		},
 		"Platebody shop": {
 			"Bronze platebody": true,
@@ -288396,11 +288574,6 @@
 		"Summoning Supplies (Bogrog)": {
 			"Antlers": true,
 			"Lizard skull": true,
-			"Feather headdress (blue)": true,
-			"Feather headdress (orange)": true,
-			"Feather headdress (red)": true,
-			"Feather headdress (yellow)": true,
-			"Feather headdress (stripy)": true,
 			"Spirit shard": true,
 			"Pouch": true,
 			"Spirit shard pack": true
@@ -288408,11 +288581,6 @@
 		"Summoning Supplies (Lord Amlodd)": {
 			"Antlers": true,
 			"Lizard skull": true,
-			"Feather headdress (blue)": true,
-			"Feather headdress (orange)": true,
-			"Feather headdress (red)": true,
-			"Feather headdress (yellow)": true,
-			"Feather headdress (stripy)": true,
 			"Spirit shard": true,
 			"Pouch": true,
 			"Spirit shard pack": true
@@ -288421,11 +288589,6 @@
 			"Antlers": true,
 			"Lizard skull": true,
 			"Spirit shard": true,
-			"Feather headdress (blue)": true,
-			"Feather headdress (orange)": true,
-			"Feather headdress (red)": true,
-			"Feather headdress (yellow)": true,
-			"Feather headdress (stripy)": true,
 			"Pouch": true,
 			"Spirit shard pack": true
 		},
@@ -319273,11 +319436,104 @@
 				}
 			},
 			"Farmer": {
-				"Coins": {
-					"9": "Common"
-				},
 				"Potato seed": {
-					"1": "Rare"
+					"1-3": "15/209"
+				},
+				"Onion seed": {
+					"1-3": "13/209"
+				},
+				"Cabbage seed": {
+					"1-3": "12/209"
+				},
+				"Tomato seed": {
+					"1-3": "9/209"
+				},
+				"Sweetcorn seed": {
+					"1-3": "7/209"
+				},
+				"Strawberry seed": {
+					"1-3": "6/209"
+				},
+				"Redberry seed": {
+					"1": "5/209"
+				},
+				"Cadavaberry seed": {
+					"1": "4/209"
+				},
+				"Dwellberry seed": {
+					"1": "2/209"
+				},
+				"Marigold seed": {
+					"1": "7/209"
+				},
+				"Rosemary seed": {
+					"1": "5/209"
+				},
+				"Nasturtium seed": {
+					"1": "4/209"
+				},
+				"Woad seed": {
+					"1": "4/209"
+				},
+				"Limpwurt seed": {
+					"1": "3/209"
+				},
+				"Apple tree seed": {
+					"1": "3/209"
+				},
+				"Banana tree seed": {
+					"1": "2/209"
+				},
+				"Orange tree seed": {
+					"1": "1/209"
+				},
+				"Guam seed": {
+					"1": "6/209"
+				},
+				"Marrentill seed": {
+					"1": "5/209"
+				},
+				"Tarromin seed": {
+					"1": "5/209"
+				},
+				"Harralander seed": {
+					"1": "3/209"
+				},
+				"Ranarr seed": {
+					"1": "2/209"
+				},
+				"Spirit weed seed": {
+					"1": "1/209"
+				},
+				"Toadflax seed": {
+					"1": "1/209"
+				},
+				"Barley seed": {
+					"1": "17/209"
+				},
+				"Hammerstone seed": {
+					"1": "16/209"
+				},
+				"Asgarnian seed": {
+					"1": "13/209"
+				},
+				"Jute seed": {
+					"1": "9/209"
+				},
+				"Yanillian seed": {
+					"1": "10/209"
+				},
+				"Krandorian seed": {
+					"1": "7/209"
+				},
+				"Wildblood seed": {
+					"1": "5/209"
+				},
+				"Acorn": {
+					"1": "4/209"
+				},
+				"Willow seed": {
+					"1": "3/209"
 				}
 			},
 			"Farmer (lhm)": {
@@ -319334,19 +319590,43 @@
 				}
 			},
 			"Ham member": {
-				"Tiny bladed bronze salvage": {
+				"Bronze dagger": {
 					"1": "Common"
 				},
-				"Tiny Spiky bronze salvage": {
+				"Bronze off hand dagger": {
+					"1": "Common"
+				},
+				"Bronze pickaxe": {
+					"1": "Common"
+				},
+				"Bronze hatchet": {
 					"1": "Common"
 				},
 				"Wood spirit": {
 					"1": "Common"
 				},
-				"Tiny bladed iron salvage": {
+				"Iron dagger": {
 					"1": "Common"
 				},
-				"Small spiky iron salvage": {
+				"Iron off hand dagger": {
+					"1": "Common"
+				},
+				"Iron pickaxe": {
+					"1": "Common"
+				},
+				"Iron hatchet": {
+					"1": "Common"
+				},
+				"Steel dagger": {
+					"1": "Common"
+				},
+				"Steel off hand dagger": {
+					"1": "Common"
+				},
+				"Steel pickaxe": {
+					"1": "Common"
+				},
+				"Steel hatchet": {
 					"1": "Common"
 				},
 				"Coins": {
@@ -319364,13 +319644,7 @@
 				"Uncut opal": {
 					"1": "Common"
 				},
-				"Tiny bladed steel salvage": {
-					"1": "Uncommon"
-				},
 				"Oak wood spirit": {
-					"1": "Uncommon"
-				},
-				"Small spiky steel salvage": {
 					"1": "Uncommon"
 				},
 				"Leather body": {
@@ -319782,143 +320056,86 @@
 				}
 			},
 			"Master Farmer": {
-				"Potato seed": {
-					"1-4": "Common"
-				},
-				"Onion seed": {
-					"1-3": "Common"
-				},
-				"Cabbage seed": {
-					"1-3": "Common"
-				},
-				"Tomato seed": {
-					"1-2": "Common"
-				},
-				"Sweetcorn seed": {
-					"1-2": "Common"
-				},
-				"Barley seed": {
-					"1-4": "Common"
-				},
-				"Hammerstone seed": {
-					"1-3": "Common"
-				},
-				"Asgarnian seed": {
-					"1-2": "Common"
-				},
-				"Jute seed": {
-					"1-3": "Common"
-				},
-				"Jangerberry seed": {
-					"1": "Common"
-				},
-				"Marigold seed": {
-					"1": "Common"
-				},
-				"Rosemary seed": {
-					"1": "Common"
-				},
-				"Nasturtium seed": {
-					"1": "Common"
-				},
-				"Marrentill seed": {
-					"1": "Common"
-				},
-				"Tarromin seed": {
-					"1": "Common"
-				},
-				"Harralander seed": {
-					"1": "Common"
-				},
-				"Strawberry seed": {
-					"1": "Uncommon"
-				},
-				"Yanillian seed": {
-					"1-2": "Uncommon"
-				},
-				"Krandorian seed": {
-					"1": "Uncommon"
-				},
-				"Redberry seed": {
-					"1": "Uncommon"
-				},
-				"Whitebery seed": {
-					"1": "Uncommon"
-				},
-				"Poison ivy seed": {
-					"1": "Uncommon"
-				},
-				"Woad seed": {
-					"1": "Uncommon"
-				},
-				"Limpwurt seed": {
-					"1": "Uncommon"
-				},
-				"Guam seed": {
-					"1": "Uncommon"
-				},
-				"Watermelon seed": {
-					"1": "Rare"
-				},
-				"Grapevine seed": {
-					"2-4": "Rare"
-				},
-				"Wildblood seed": {
-					"1": "Rare"
-				},
-				"Ranarr seed": {
-					"1": "Rare"
-				},
-				"Toadflax seed": {
-					"1": "Rare"
-				},
-				"Irit seed": {
-					"1": "Rare"
-				},
-				"Bittercap mushroom spore": {
-					"1": "Rare"
-				},
-				"Cave Nightshade seed": {
-					"1": "Rare"
-				},
-				"Cadavaberry seed": {
-					"1": "Very rare"
+				"Watermellon seed": {
+					"1": "10/1000"
 				},
 				"Dwellberry seed": {
-					"1": "Very rare"
+					"1": "45/1000"
 				},
-				"Avantoe seed": {
-					"1": "Very rare"
+				"Jangerberry seed": {
+					"1": "20/1000"
 				},
-				"Kwuarm seed": {
-					"1": "Very rare"
+				"Whiteberry seed": {
+					"1": "10/1000"
 				},
-				"Snapdragon seed": {
-					"1": "Very rare"
-				},
-				"Cadantine seed": {
-					"1": "Very rare"
-				},
-				"Lantadyme seed": {
-					"1": "Very rare"
-				},
-				"Dwarf weed seed": {
-					"1": "Very rare"
-				},
-				"Torstol seed": {
-					"1": "Very rare"
-				},
-				"Fellstalk seed": {
-					"1": "Very rare"
-				},
-				"Starbloom flower seed": {
-					"1": "1/182"
-				},
-				"Morchella mushroom spore": {
-					"1": "Very rare"
+				"Poison ivy seed": {
+					"1": "5/1000"
 				},
 				"Cactus seed": {
-					"1": "Very rare"
+					"1": "10/1000"
+				},
+				"Banana tree seed": {
+					"1": "10/1000"
+				},
+				"Orange tree seed": {
+					"1": "10/1000"
+				},
+				"Curry tree seed": {
+					"1": "6/1000"
+				},
+				"Pineapple seed": {
+					"1": "4/1000"
+				},
+				"Papaya tree seed": {
+					"1": "4/1000"
+				},
+				"Palm tree seed": {
+					"1": "2/1000"
+				},
+				"Ranarr seed": {
+					"1": "25/1000"
+				},
+				"Spirit weed seed": {
+					"1": "25/1000"
+				},
+				"Toadflax seed": {
+					"1": "15/1000"
+				},
+				"Irit seed": {
+					"1": "10/1000"
+				},
+				"Wergali seed": {
+					"1": "10/1000"
+				},
+				"Avantoe seed": {
+					"1": "5/1000"
+				},
+				"Kwuarm seed": {
+					"1": "5/1000"
+				},
+				"Snapdragon seed": {
+					"1": "2/1000"
+				},
+				"Cadantine seed": {
+					"1": "2/1000"
+				},
+				"Grapevine seed": {
+					"1": "20/1000"
+				},
+				"Bittercap mushroom spore": {
+					"1": "20/1000"
+				},
+				"Maple seed": {
+					"1": "10/1000"
+				},
+				"Yew seed": {
+					"1": "5/1000"
+				},
+				"Evil turnip seed": {
+					"1": "10/1000"
+				},
+				"Coins": {
+					"1": "700/1000"
 				}
 			},
 			"Bandit (Kharidian Desert Bandit Camp)": {
@@ -321035,6 +321252,14 @@
 					"1": "Common"
 				}
 			},
+			"Silver stall": {
+				"Silver stone spirit": {
+					"1": "1/5"
+				},
+				"Silver ore": {
+					"1": "4/5"
+				}
+			},
 			"Cabinet": {
 				"Coins": {
 					"300": "Common"
@@ -321127,42 +321352,351 @@
 					"1": "1/128"
 				}
 			},
-			"Magic axe chest": {
+			"Simple Chest": {
 				"Coins": {
-					"200": "1833/4250"
+					"200-400": "Common"
 				},
-				"Anchovy pizza": {
-					"1": "680/4250"
+				"Iron arrowheads": {
+					"8-12": "Common"
 				},
-				"Tiny bladed steel salvage": {
-					"1": "419/4250"
+				"Steel arrowheads": {
+					"8-12": "Common"
 				},
-				"Medium bladed steel salvage": {
-					"1": "415/4250"
+				"Sapphire amulet": {
+					"1": "Common"
 				},
-				"Medium bladed mithril salvage": {
-					"1": "204/4250"
+				"Sapphire ring": {
+					"1": "Common"
 				},
-				"Tiny bladed mithril salvage": {
-					"1": "202/4250"
+				"Sapphire necklace": {
+					"1": "Common"
+				}
+			},
+			"Chest (Magic Axe Hut)": {
+				"Wood spirit": {
+					"2-4": "Common"
+				},
+				"Oak wood spirit": {
+					"2-4": "Common"
+				},
+				"Willow wood spirit": {
+					"2-4": "Common"
 				},
 				"Muddy key": {
-					"1": "164/4250"
+					"1": "Common"
 				},
-				"Medium bladed adamant salvage": {
-					"1": "129/4250"
+				"Mithril hatchet": {
+					"1": "Common"
 				},
-				"Tiny bladed adamant salvage": {
-					"1": "125/4250"
+				"Adamant hatchet": {
+					"1": "Common"
 				},
-				"Large bladed rune salvage": {
-					"1": "44/4250"
+				"Rune hatchet": {
+					"1": "Common"
+				}
+			},
+			"Secure Chest (East Ardougne, Rellekka)": {
+				"Rune essence": {
+					"10-20 (noted)": "Uncommon"
 				},
-				"Tiny bladed rune salvage": {
-					"1": "35/4250"
+				"Fire rune": {
+					"3-7": "Common"
 				},
-				"Medium bladed rune salvage": {
-					"1": "Very rare"
+				"Nature rune": {
+					"3-4": "Common"
+				}
+			},
+			"Reinforced Chest (East Ardougne)": {
+				"Uncut sapphire": {
+					"1": "Common"
+				},
+				"Uncut emerald": {
+					"1": "Common"
+				},
+				"Emerald ring": {
+					"1": "Common"
+				},
+				"Emerald necklace": {
+					"1": "Common"
+				},
+				"Emerald amulet": {
+					"1": "Common"
+				},
+				"Gold bar": {
+					"1": "Common"
+				},
+				"Diamond ring": {
+					"1": "Uncommon"
+				},
+				"Dragonstone ring": {
+					"1": "Uncommon"
+				}
+			},
+			"Robust Chest": {
+				"Yew shortbow": {
+					"1": "Common"
+				},
+				"Bowstring": {
+					"3-5": "Common"
+				},
+				"Mithril arrow": {
+					"8": "Common"
+				},
+				"Adamant arrow": {
+					"9": "Common"
+				},
+				"Mithril arrowheads": {
+					"10-20": "Common"
+				},
+				"Adamant arrowheads": {
+					"5-15": "Common"
+				},
+				"Headless arrow": {
+					"10-20": "Common"
+				}
+			},
+			"Secure Chest (Dorgesh-Kaan)": {
+				"Coins": {
+					"500": "Common"
+				},
+				"Gold charm": {
+					"1": "Common"
+				},
+				"Cave goblin wire": {
+					"1": "Common"
+				},
+				"Empty light orb": {
+					"1": "Common"
+				},
+				"Light orb": {
+					"1": "Common"
+				},
+				"Sealed clue scroll (easy)": {
+					"1": "Common"
+				},
+				"Big bones": {
+					"2-3 (noted)": "Common"
+				},
+				"Bones": {
+					"5-6 (noted)": "Common"
+				},
+				"Uncut sapphire": {
+					"1": "Common"
+				},
+				"Uncut ruby": {
+					"1": "Common"
+				},
+				"Gold stone spirit": {
+					"2-3": "Common"
+				}
+			},
+			"Secure Chest (Oldak)": {
+				"Coins": {
+					"500": "Common"
+				},
+				"Gold charm": {
+					"1": "Common"
+				},
+				"Molten glass": {
+					"5 (noted)": "Common"
+				},
+				"Dorgesh-kaan sphere": {
+					"3": "Common"
+				},
+				"Nature rune": {
+					"5": "Common"
+				},
+				"Death rune": {
+					"5": "Common"
+				},
+				"Law rune": {
+					"5": "Common"
+				},
+				"Cave goblin wire": {
+					"1": "Common"
+				},
+				"Empty light orb": {
+					"1": "Common"
+				},
+				"Light orb": {
+					"1": "Common"
+				},
+				"Sealed clue scroll (easy)": {
+					"1": "Common"
+				}
+			},
+			"Secure Chest (Zanik)": {
+				"Coins": {
+					"500": "Common"
+				},
+				"Gold charm": {
+					"1": "Common"
+				},
+				"H.A.M. hood": {
+					"1": "Common"
+				},
+				"H.A.M. shirt": {
+					"1": "Common"
+				},
+				"H.A.M. robe": {
+					"1": "Common"
+				},
+				"H.A.M. gloves": {
+					"1": "Common"
+				},
+				"H.A.M. boots": {
+					"1": "Common"
+				},
+				"H.A.M. cloak": {
+					"1": "Common"
+				},
+				"H.A.M. logo": {
+					"1": "Common"
+				},
+				"Oil lantern (oil)": {
+					"1": "Common"
+				},
+				"Bullseye lantern (oil)": {
+					"1": "Common"
+				},
+				"Mining helmet": {
+					"1": "Common"
+				},
+				"Cave goblin wire": {
+					"1": "Common"
+				},
+				"Empty light orb": {
+					"1": "Common"
+				},
+				"Light orb": {
+					"1": "Common"
+				},
+				"Sealed clue scroll (easy)": {
+					"1": "Common"
+				}
+			},
+			"Chest (Chaos Druid Tower Dungeon)": {
+				"Blood rune": {
+					"4-6": "Common"
+				},
+				"Chaos rune": {
+					"6-10": "Common"
+				},
+				"Pure essence": {
+					"15-25 (noted)": "Common"
+				},
+				"Coins": {
+					"650-1500": "Common"
+				},
+				"Fire battlestaff": {
+					"1": "Common"
+				},
+				"Lvl-5 enchant (item)": {
+					"": "Common"
+				},
+				"Lvl-6 enchant (item)": {
+					"": "Common"
+				}
+			},
+			"Chest (Rogues' Castle)": {
+				"Coins": {
+					"100-1500": "Common"
+				},
+				"Uncut diamond": {
+					"1-3 (noted)": "Common"
+				},
+				"Uncut dragonstone": {
+					"1 (noted)": "Common"
+				},
+				"Red dragon leather": {
+					"3 (noted)": "Common"
+				},
+				"Dragon bones": {
+					"8 (noted)": "Common"
+				},
+				"Muddy key": {
+					"1": "Common"
+				},
+				"Gold ore": {
+					"8-12 (noted)": "Common"
+				},
+				"Preserved meat": {
+					"1": "Common"
+				},
+				"Bloodweed seed": {
+					"1": "Common"
+				},
+				"Sealed clue scroll (hard)": {
+					"": "Uncommon"
+				}
+			},
+			"Chest (Scabarite Cavern)": {
+				"Coins": {
+					"1200": "Common"
+				},
+				"Acadia wood spirit": {
+					"2-4": "Common"
+				},
+				"Teak wood spirit": {
+					"2-4": "Common"
+				},
+				"Magic logs": {
+					"1": "Rare"
+				}
+			},
+			"Chest (Ardougne Castle)": {
+				"Raw shark": {
+					"2-4 (noted)": "Common"
+				},
+				"Uncut ruby": {
+					"1": "Common"
+				},
+				"Uncut diamond": {
+					"1": "Common"
+				},
+				"Ruby necklace": {
+					"1": "Common"
+				},
+				"Ruby ring": {
+					"1": "Common"
+				},
+				"Diamond necklace": {
+					"1": "Common"
+				},
+				"Diamond ring": {
+					"1": "Common"
+				}
+			},
+			"Reinforced Chest (Dorgesh-Kaan)": {
+				"Coins": {
+					"750": "Common"
+				},
+				"Gold charm": {
+					"1-2": "Common"
+				},
+				"Blue charm": {
+					"1": "Common"
+				},
+				"Uncut ruby": {
+					"1": "Common"
+				},
+				"Uncut diamond": {
+					"1": "Common"
+				},
+				"Big bones": {
+					"12-14 (noted)": "Common"
+				},
+				"Dragon bones": {
+					"6-10 (noted)": "Common"
+				},
+				"Light orb": {
+					"1": "Common"
+				},
+				"Gold stone spirit": {
+					"3-5": "Common"
+				},
+				"Sealed clue scroll (medium)": {
+					"1": "Uncommon"
 				}
 			},
 			"Ogre coffin": {
@@ -321252,350 +321786,6 @@
 				},
 				"Grimy dwarf weed": {
 					"1": "3/12800"
-				}
-			},
-			"Paladin chest": {
-				"Coins": {
-					"1000": "Always"
-				},
-				"Raw shark": {
-					"1": "Always"
-				},
-				"Adamantite stone spirit": {
-					"1": "Always"
-				},
-				"Uncut sapphire": {
-					"1": "Always"
-				}
-			},
-			"Chest (Rogues' Castle)": {
-				"Coins": {
-					"4-243": "Common"
-				},
-				"Blood rune": {
-					"5": "Uncommon"
-				},
-				"Gold stone spirit": {
-					"1": "Uncommon"
-				},
-				"Tiny plate steel salvage": {
-					"1": "Uncommon"
-				},
-				"Medium plated steel salvage": {
-					"1": "Uncommon"
-				}
-			},
-			"Chest (Dorgesh-Kaan)": {
-				"Gold charm": {
-					"1": "4/100"
-				},
-				"Green charm": {
-					"1": "18/100"
-				},
-				"Crimson charm": {
-					"1": "2/100"
-				},
-				"Blue charm": {
-					"1": "1/200"
-				},
-				"Coins": {
-					"20-218": "667/1551"
-				},
-				"Mining helmet": {
-					"1": "232/1551"
-				},
-				"Bullseye lantern (oil)": {
-					"1": "225/1551"
-				},
-				"Cave goblin wire": {
-					"1": "224/1551"
-				},
-				"Oil lantern (oil)": {
-					"1": "215/1551"
-				},
-				"Frog-leather chaps": {
-					"1": "Rare"
-				},
-				"Frog-leather body": {
-					"1": "Rare"
-				},
-				"H.A.M. robe": {
-					"1": "Very rare"
-				},
-				"Bone dagger": {
-					"1": "Very rare"
-				},
-				"Earth talisman": {
-					"1": "Very rare"
-				},
-				"Fire talisman": {
-					"1": "Very rare"
-				},
-				"Dorgesh-Kaan sphere": {
-					"1": "Very rare"
-				},
-				"Sealed clue scroll (easy)": {
-					"1": "Very rare"
-				}
-			},
-			"Chest (Oldak)": {
-				"Gold charm": {
-					"1": "5/100"
-				},
-				"Green charm": {
-					"1": "14/100"
-				},
-				"Crimson charm": {
-					"1": "1/100"
-				},
-				"Blue charm": {
-					"1": "1/200"
-				},
-				"Air rune": {
-					"10-19": "85/1400"
-				},
-				"Fire rune": {
-					"10-19": "85/1400"
-				},
-				"Earth rune": {
-					"10-19": "76/1400"
-				},
-				"Cave goblin wire": {
-					"1": "75/1400"
-				},
-				"Body rune": {
-					"10-19": "72/1400"
-				},
-				"Fire talisman": {
-					"1": "72/1400"
-				},
-				"Light orb": {
-					"1": "71/1400"
-				},
-				"Empty light orb": {
-					"1": "68/1400"
-				},
-				"Earth talisman": {
-					"1": "68/1400"
-				},
-				"Nature rune": {
-					"2-4": "67/1400"
-				},
-				"Law rune": {
-					"5-10": "66/1400"
-				},
-				"Air talisman": {
-					"1": "66/1400"
-				},
-				"Death rune": {
-					"2-4": "65/1400"
-				},
-				"Unpowered orb": {
-					"1": "64/1400"
-				},
-				"Chaos rune": {
-					"5-10": "62/1400"
-				},
-				"Water rune": {
-					"10-19": "61/1400"
-				},
-				"Dorgesh-Kaan sphere": {
-					"1": "61/1400"
-				},
-				"Coins": {
-					"29-216": "57/1400"
-				},
-				"Cosmic rune": {
-					"5-10": "56/1400"
-				},
-				"Mind rune": {
-					"10-19": "54/1400"
-				},
-				"Water talisman": {
-					"1": "41/1400"
-				}
-			},
-			"Chest (Zanik)": {
-				"Gold charm": {
-					"1": "3/100"
-				},
-				"Green charm": {
-					"1": "14/100"
-				},
-				"Crimson charm": {
-					"1": "2/100"
-				},
-				"Blue charm": {
-					"1": "1/200"
-				},
-				"Spade": {
-					"1": "88/1728"
-				},
-				"Frog-leather body": {
-					"1": "87/1728"
-				},
-				"Cave goblin wire": {
-					"1": "87/1728"
-				},
-				"Sealed clue scroll (easy)": {
-					"1": "87/1728"
-				},
-				"H.A.M. cloak": {
-					"1": "85/1728"
-				},
-				"Newcomer map": {
-					"1": "83/1728"
-				},
-				"H.A.M. shirt": {
-					"1": "78/1728"
-				},
-				"Bucket": {
-					"1": "78/1728"
-				},
-				"Dorgeshuun crossbow": {
-					"1": "77/1728"
-				},
-				"Big bones": {
-					"1": "77/1728"
-				},
-				"H.A.M. logo": {
-					"1": "76/1728"
-				},
-				"Rope": {
-					"1": "76/1728"
-				},
-				"Mining helmet": {
-					"1": "76/1728"
-				},
-				"Bone dagger": {
-					"1": "73/1728"
-				},
-				"H.A.M. boots": {
-					"1": "71/1728"
-				},
-				"H.A.M. robe": {
-					"1": "70/1728"
-				},
-				"Oil lantern (oil)": {
-					"1": "70/1728"
-				},
-				"Bone bolts": {
-					"21-48": "68/1728"
-				},
-				"Frog-leather chaps": {
-					"1": "67/1728"
-				},
-				"Hammer": {
-					"1": "67/1728"
-				},
-				"Bullseye lantern (oil)": {
-					"1": "67/1728"
-				},
-				"H.A.M. gloves": {
-					"1": "67/1728"
-				},
-				"H.A.M. hood": {
-					"1": "67/1728"
-				}
-			},
-			"Rich chest": {
-				"Gold charm": {
-					"1": "3/100"
-				},
-				"Green charm": {
-					"1": "15/100"
-				},
-				"Crimson charm": {
-					"1": "2/100"
-				},
-				"Blue charm": {
-					"1": "1/200"
-				},
-				"Uncut red topaz": {
-					"1": "75/1000"
-				},
-				"Mining helmet": {
-					"1": "75/1000"
-				},
-				"Uncut opal": {
-					"1": "73/1000"
-				},
-				"Uncut emerald": {
-					"1": "70/1000"
-				},
-				"Light orb": {
-					"1": "69/1000"
-				},
-				"Frog-leather body": {
-					"1": "66/1000"
-				},
-				"Uncut ruby": {
-					"1": "64/1000"
-				},
-				"Frog-leather chaps": {
-					"1": "63/1000"
-				},
-				"Uncut jade": {
-					"1": "61/1000"
-				},
-				"Cave goblin wire": {
-					"1": "60/1000"
-				},
-				"Empty light orb": {
-					"1": "56/1000"
-				},
-				"Uncut sapphire": {
-					"1": "55/1000"
-				},
-				"Uncut diamond": {
-					"1": "55/1000"
-				},
-				"Iron stone spirit": {
-					"1": "54/1000"
-				},
-				"Bullseye lantern (oil)": {
-					"1": "50/1000"
-				},
-				"Coins": {
-					"541-2456": "48/1000"
-				}
-			},
-			"Chest (Scabarite Cavern)": {
-				"Coins": {
-					"300": "Common"
-				},
-				"Willow wood spirit": {
-					"3": "Uncommon"
-				},
-				"Teak wood spirit": {
-					"3": "Uncommon"
-				},
-				"Menaphite gift offering (small)": {
-					"1": "Rare"
-				}
-			},
-			"Chest (steel arrowheads)": {
-				"Steel arrowheads": {
-					"5": "Always"
-				},
-				"Coins": {
-					"20": "Always"
-				}
-			},
-			"Chest (nature runes)": {
-				"Coins": {
-					"3": "Always"
-				},
-				"Nature rune": {
-					"1": "Always"
-				}
-			},
-			"Chest (Chaos Druid Tower Dungeon)": {
-				"Coins": {
-					"500": "Always"
-				},
-				"Blood rune": {
-					"2": "Always"
 				}
 			},
 			"Low-level safes": {
