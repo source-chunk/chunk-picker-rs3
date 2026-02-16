@@ -26280,6 +26280,14 @@
 				"Primary": true,
 				"Priority": 1
 			},
+			"Create an ~|alchemical hydrix brooch|~": {
+				"Items": ["Alchemical hydrix*", "Elder rune bar*", "Gold leaf*"],
+				"Objects": ["Furnace[+]"],
+				"Level": 97,
+				"Output": "Alchemical hydrix brooch",
+				"Primary": true,
+				"Priority": 1
+			},
 			"Feed a ~|gorged ancient effigy|~ with crafting": {
 				"Items": ["Gorged ancient effigy (agility/crafting)"],
 				"Level": 97,
@@ -26315,6 +26323,13 @@
 				},
 				"Priority": 3
 			},
+			"Create an ~|Essence of Finality amulet|~": {
+				"Items": ["Alchemical hydrix*", "Amulet of souls*", "Reaper necklace*"],
+				"Level": 99,
+				"Output": "Essence of Finality amulet",
+				"Primary": true,
+				"Priority": 4
+			},
 			"Craft a ~|Tyrannoleather body|~": {
 				"Category": ["Daemonheim tasks"],
 				"Tasks": {
@@ -26322,7 +26337,7 @@
 				},
 				"Level": 99,
 				"Primary": false,
-				"Priority": 4,
+				"Priority": 98,
 				"Not F2P": true
 			},
 			"Extract ~|praesulic essence (ranged)|~ from Pernix armour": {
@@ -26331,7 +26346,7 @@
 				"Objects": ["Dragonkin anvil"],
 				"Output": "Praesulic essence (ranged)",
 				"Primary": true,
-				"Priority": 5,
+				"Priority": 99,
 				"Not F2P": true,
 				"Partial": true
 			},
@@ -168105,6 +168120,126 @@
 				"Chunks": ["13367-1"],
 				"ClueTier": "elite",
 				"ClueType": "Compass",
+				"Not F2P": true
+			},
+			"Use a lvl-5 enchant tablet on a dragonstone ring": {
+				"Items": ["Lvl-5 enchant (item)*", "Dragonstone ring*"],
+				"Output": "Ring of Wealth",
+				"Not F2P": true
+			},
+			"Use a lvl-5 enchant tablet on a dragonstone necklace": {
+				"Items": ["Lvl-5 enchant (item)*", "Dragonstone necklace*"],
+				"Output": "Skills necklace",
+				"Not F2P": true
+			},
+			"Use a lvl-5 enchant tablet on a dragonstone bracelet": {
+				"Items": ["Lvl-5 enchant (item)*", "Dragonstone bracelet*"],
+				"Output": "Combat bracelet",
+				"Not F2P": true
+			},
+			"Use a lvl-5 enchant tablet on a dragonstone amulet": {
+				"Items": ["Lvl-5 enchant (item)*", "Dragonstone amulet*"],
+				"Output": "Amulet of glory",
+				"Not F2P": true
+			},
+			"Use a lvl-5 enchant tablet on a moonstone ring": {
+				"Items": ["Lvl-5 enchant (item)*", "Moonstone ring*"],
+				"Output": "Ring of imbuing",
+				"Not F2P": true
+			},
+			"Use a lvl-5 enchant tablet on a moonstone necklace": {
+				"Items": ["Lvl-5 enchant (item)*", "Moonstone necklace*"],
+				"Output": "Alteration necklace",
+				"Not F2P": true
+			},
+			"Use a lvl-5 enchant tablet on a moonstone bracelet": {
+				"Items": ["Lvl-5 enchant (item)*", "Moonstone bracelet*"],
+				"Output": "Passing bracelet",
+				"Not F2P": true
+			},
+			"Use a lvl-5 enchant tablet on a moonstone amulet": {
+				"Items": ["Lvl-5 enchant (item)*", "Moonstone amulet*"],
+				"Output": "Conjurer's raising amulet",
+				"Not F2P": true
+			},
+			"Use a lvl-5 enchant tablet on a platinum ring": {
+				"Items": ["Lvl-5 enchant (item)*", "Platinum ring*"],
+				"Output": "Ring of retribution",
+				"Not F2P": true
+			},
+			"Use a lvl-5 enchant tablet on a platinum necklace": {
+				"Items": ["Lvl-5 enchant (item)*", "Platinum necklace*"],
+				"Output": "Insatiable spirit necklace",
+				"Not F2P": true
+			},
+			"Use a lvl-5 enchant tablet on a platinum bracelet": {
+				"Items": ["Lvl-5 enchant (item)*", "Platinum bracelet*"],
+				"Output": "Sunburst bracelet",
+				"Not F2P": true
+			},
+			"Use a lvl-5 enchant tablet on a platinum amulet": {
+				"Items": ["Lvl-5 enchant (item)*", "Platinum amulet*"],
+				"Output": "Amulet of the expert",
+				"Not F2P": true
+			},
+			"Use a lvl-5 enchant tablet on a platinum anklet": {
+				"Items": ["Lvl-5 enchant (item)*", "Platinum anklet*"],
+				"Output": "Delver's anklet",
+				"Not F2P": true
+			},
+			"Use a lvl-6 enchant tablet on an onyx ring": {
+				"Items": ["Lvl-6 enchant (item)*", "Onyx ring*"],
+				"Output": "Ring of fortune",
+				"Not F2P": true
+			},
+			"Use a lvl-6 enchant tablet on an onyx necklace": {
+				"Items": ["Lvl-6 enchant (item)*", "Onyx necklace*"],
+				"Output": "Berserker necklace",
+				"Not F2P": true
+			},
+			"Use a lvl-6 enchant tablet on an onyx bracelet": {
+				"Items": ["Lvl-6 enchant (item)*", "Onyx bracelet*"],
+				"Output": "Regen bracelet",
+				"Not F2P": true
+			},
+			"Use a lvl-6 enchant tablet on an onyx amulet": {
+				"Items": ["Lvl-6 enchant (item)*", "Onyx amulet*"],
+				"Output": "Amulet of fury",
+				"Not F2P": true
+			},
+			"Use a lvl-6 enchant tablet on an alchemical onyx ring": {
+				"Items": ["Lvl-6 enchant (item)*", "Alchemical onyx ring*"],
+				"Output": "Luck of the Dwarves",
+				"Not F2P": true
+			},
+			"Use a lvl-6 enchant tablet on an alchemical onyx necklace": {
+				"Items": ["Lvl-6 enchant (item)*", "Alchemical onyx necklace*"],
+				"Output": "Grace of the Elves",
+				"Not F2P": true
+			},
+			"Use a lvl-6 enchant tablet on a hydrix ring": {
+				"Items": ["Lvl-6 enchant (item)*", "Hydrix ring*"],
+				"Output": "Ring of death",
+				"Not F2P": true
+			},
+			"Use a lvl-6 enchant tablet on a hydrix necklace": {
+				"Items": ["Lvl-6 enchant (item)*", "Hydrix necklace*"],
+				"Output": "Reaper necklace",
+				"Not F2P": true
+			},
+			"Use a lvl-6 enchant tablet on a hydrix bracelet": {
+				"Items": ["Lvl-6 enchant (item)*", "Hydrix bracelet*"],
+				"Output": "Deathtouch bracelet",
+				"Not F2P": true
+			},
+			"Use a lvl-6 enchant tablet on a hydrix amulet": {
+				"Items": ["Lvl-6 enchant (item)*", "Hydrix amulet*"],
+				"Output": "Amulet of souls",
+				"Not F2P": true
+			},
+			"Use a lvl-6 enchant tablet on an alchemical hydrix brooch": {
+				"Items": ["Lvl-6 enchant (item)*", "Alchemical hydrix brooch*"],
+				"Output": "Brooch of the gods",
 				"Not F2P": true
 			}
 		}

@@ -2687,9 +2687,11 @@
   "Create a ~|fractured Staff of Armadyl|~": "t_2587",
   "Feed a ~|sated ancient effigy|~ with crafting": "t_2588",
   "Craft a ~|blessed flask|~": "t_2589",
+  "Create an ~|alchemical hydrix brooch|~": "t_117168",
   "Feed a ~|gorged ancient effigy|~ with crafting": "t_2590",
   "Craft a ~|hydrix amulet (unstrung)|~": "t_2591",
   "String a ~|hydrix amulet|~": "t_2592",
+  "Create an ~|Essence of Finality amulet|~": "t_117169",
   "Craft a ~|Tyrannoleather body|~": "t_2593",
   "Extract ~|praesulic essence (ranged)|~ from Pernix armour": "t_2594",
   "Create an elder ~|pyre ship|~": "t_2595",
@@ -91186,5 +91188,5 @@
   "Pizazz points: ~|Death rune|~": "t_52854",
   "Pizazz points: ~|Soul rune|~": "t_52856",
   "Pizazz points: ~|Blood rune|~": "t_52857",
-  "currentNextIndex": 117168
+  "currentNextIndex": 117170
 }
