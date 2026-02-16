@@ -170810,7 +170810,7 @@
 				"Crashed star": 1
 			},
 			"Clue": {
-				"Master": 2
+				"master": 2
 			},
 			"Nickname": "South-West Lost Grove"
 		},
@@ -170825,7 +170825,7 @@
 				"Vinecrawler": 3
 			},
 			"Clue": {
-				"Master": 3
+				"master": 3
 			},
 			"Nickname": "West Lost Grove"
 		},
@@ -171058,7 +171058,7 @@
 				"Firefly": 5
 			},
 			"Clue": {
-				"Master": 1
+				"master": 1
 			},
 			"Nickname": "Lost Grove Entrance"
 		},
@@ -171069,7 +171069,7 @@
 				"Chester": 1
 			},
 			"Clue": {
-				"Master": 3
+				"master": 3
 			},
 			"Nickname": "South Lost Grove"
 		},
@@ -171096,7 +171096,7 @@
 						"A New Age": "step"
 					},
 					"Clue": {
-						"Master": 5
+						"master": 5
 					}
 				},
 				"2": {
@@ -171123,7 +171123,7 @@
 				"Crashed star": 1
 			},
 			"Clue": {
-				"Master": 1
+				"master": 1
 			},
 			"Nickname": "North Lost Grove"
 		},
@@ -171376,7 +171376,7 @@
 				"Crashed star": 1
 			},
 			"Clue": {
-				"Master": 2
+				"master": 2
 			},
 			"Nickname": "South-East Lost Grove"
 		},
@@ -171392,7 +171392,7 @@
 				"Blue wisp": 1
 			},
 			"Clue": {
-				"Master": 2
+				"master": 2
 			},
 			"Nickname": "East Lost Grove"
 		},
@@ -172233,7 +172233,7 @@
 						"Trader Stan's Trading Post": true
 					},
 					"Clue": {
-						"Elite": 1
+						"elite": 1
 					}
 				},
 				"2": {
@@ -172279,7 +172279,7 @@
 						"Elf boy": 1
 					},
 					"Clue": {
-						"Master": 1
+						"master": 1
 					}
 				}
 			},
@@ -172349,7 +172349,7 @@
 				"Summoning Supplies (Lord Amlodd)": true
 			},
 			"Clue": {
-				"Master": 3
+				"master": 3
 			},
 			"Nickname": "West Prifddinas"
 		},
@@ -172358,7 +172358,7 @@
 				"1": {},
 				"2": {
 					"Clue": {
-						"Master": 1
+						"master": 1
 					}
 				}
 			},
@@ -172827,7 +172827,7 @@
 						"Mushroom patch": 1
 					},
 					"Clue": {
-						"Elite": 1
+						"elite": 1
 					}
 				},
 				"3": {
@@ -172892,8 +172892,8 @@
 						"Plague's End": "step"
 					},
 					"Clue": {
-						"Hard": 1,
-						"Elite": 5
+						"hard": 1,
+						"elite": 5
 					}
 				},
 				"3": {
@@ -172924,7 +172924,7 @@
 						"Regicide": "step"
 					},
 					"Clue": {
-						"Elite": 1
+						"elite": 1
 					}
 				}
 			},
@@ -172962,8 +172962,8 @@
 						"Regicide": "step"
 					},
 					"Clue": {
-						"Hard": 1,
-						"Elite": 6
+						"hard": 1,
+						"elite": 6
 					}
 				},
 				"2": {
@@ -172981,7 +172981,7 @@
 						"Butterfly": 5
 					},
 					"Clue": {
-						"Elite": 1
+						"elite": 1
 					}
 				}
 			},
@@ -173046,7 +173046,7 @@
 				"The Light Within": "step"
 			},
 			"Clue": {
-				"Master": 6
+				"master": 6
 			},
 			"Nickname": "South Prifddinas"
 		},
@@ -173115,7 +173115,7 @@
 						"Trahaearn worker": 2
 					},
 					"Clue": {
-						"Master": 5
+						"master": 5
 					}
 				},
 				"6": {
@@ -173199,7 +173199,7 @@
 				"The Light Within": "step"
 			},
 			"Clue": {
-				"Master": 6
+				"master": 6
 			},
 			"Nickname": "North Prifddinas"
 		},
@@ -173207,7 +173207,7 @@
 			"Sections": {
 				"1": {
 					"Clue": {
-						"Elite": 1
+						"elite": 1
 					}
 				},
 				"2": {}
@@ -173753,7 +173753,7 @@
 						"Roving Elves": "step"
 					},
 					"Clue": {
-						"Elite": 3
+						"elite": 3
 					},
 					"Connect": {
 						"33": true
@@ -173770,7 +173770,7 @@
 						"Elf musician": 1
 					},
 					"Clue": {
-						"Elite": 1
+						"elite": 1
 					}
 				}
 			},
@@ -173795,7 +173795,7 @@
 						"Pawya": 10
 					},
 					"Clue": {
-						"Elite": 1
+						"elite": 1
 					}
 				},
 				"2": {
@@ -173813,7 +173813,7 @@
 						"Rabbit": 1
 					},
 					"Clue": {
-						"Elite": 2
+						"elite": 2
 					}
 				},
 				"3": {
@@ -173827,7 +173827,7 @@
 						"Rabbit": 3
 					},
 					"Clue": {
-						"Elite": 1
+						"elite": 1
 					}
 				}
 			},
@@ -173879,12 +173879,12 @@
 						"Tree": 15
 					},
 					"Clue": {
-						"Elite": 1
+						"elite": 1
 					}
 				},
 				"4": {
 					"Clue": {
-						"Master": 1
+						"master": 1
 					}
 				},
 				"5": {
@@ -173945,7 +173945,7 @@
 						"Lunet's Leftover Staves": true
 					},
 					"Clue": {
-						"Master": 2
+						"master": 2
 					}
 				},
 				"2": {
@@ -173953,7 +173953,7 @@
 						"Elen Anterth": 1
 					},
 					"Clue": {
-						"Master": 1
+						"master": 1
 					},
 					"Connect": {
 						"8559": true,
@@ -173987,7 +173987,7 @@
 				"Prifddinas Waterfall Fishing Shop": true
 			},
 			"Clue": {
-				"Master": 1
+				"master": 1
 			},
 			"Nickname": "North-east Prifddinas"
 		},
@@ -174042,7 +174042,7 @@
 				"In Pyre Need": "first"
 			},
 			"Clue": {
-				"Elite": 2
+				"elite": 2
 			},
 			"Nickname": "Airut peninsula"
 		},
@@ -174427,7 +174427,7 @@
 				"Ogre chef": 1
 			},
 			"Clue": {
-				"Elite": 2
+				"elite": 2
 			},
 			"Nickname": "Dougne delta"
 		},
@@ -174507,9 +174507,9 @@
 						"Within the Light": "first"
 					},
 					"Clue": {
-						"Hard": 1,
-						"Elite": 4,
-						"Master": 1
+						"hard": 1,
+						"elite": 4,
+						"master": 1
 					}
 				},
 				"2": {},
@@ -174568,7 +174568,7 @@
 						"Red spiders' eggs": 3
 					},
 					"Clue": {
-						"Hard": 1
+						"hard": 1
 					}
 				},
 				"2": {
@@ -174635,7 +174635,7 @@
 				"Emmett": 1
 			},
 			"Clue": {
-				"Elite": 1
+				"elite": 1
 			},
 			"Connect": {
 				"14921": true
@@ -174664,8 +174664,8 @@
 				"Eagles' Peak": "step"
 			},
 			"Clue": {
-				"Hard": 1,
-				"Elite": 3
+				"hard": 1,
+				"elite": 3
 			},
 			"Nickname": "Eagles' peak"
 		},
@@ -174692,7 +174692,7 @@
 						"Wild kebbit": 20
 					},
 					"Clue": {
-						"Elite": 13
+						"elite": 13
 					},
 					"Connect": {
 						"33": true
@@ -174704,7 +174704,7 @@
 						"Dashing kebbit": 1
 					},
 					"Clue": {
-						"Elite": 1
+						"elite": 1
 					}
 				}
 			},
@@ -174741,7 +174741,7 @@
 						"Chinchompa": 11
 					},
 					"Clue": {
-						"Elite": 10
+						"elite": 10
 					},
 					"Connect": {
 						"9372": true,
@@ -174787,8 +174787,8 @@
 						"Swan Song": "first"
 					},
 					"Clue": {
-						"Hard": 1,
-						"Elite": 1
+						"hard": 1,
+						"elite": 1
 					}
 				},
 				"2": {
@@ -174805,7 +174805,7 @@
 						"Fishing spot (Piscatoris Fishing Colony)": 4
 					},
 					"Clue": {
-						"Elite": 1
+						"elite": 1
 					}
 				}
 			},
@@ -174858,7 +174858,7 @@
 				"Glorious Memories": "step"
 			},
 			"Clue": {
-				"Elite": 9
+				"elite": 9
 			},
 			"Nickname": "Neitiznot"
 		},
@@ -174883,7 +174883,7 @@
 				"The Fremennik Isles": "step"
 			},
 			"Clue": {
-				"Elite": 7
+				"elite": 7
 			},
 			"Connect": {
 				"9632": true
@@ -175304,7 +175304,7 @@
 				"Heart of the Forge": "first"
 			},
 			"Clue": {
-				"Elite": 2
+				"elite": 2
 			},
 			"Nickname": "The Warforge"
 		},
@@ -175327,7 +175327,7 @@
 				"Chompy bird": 1
 			},
 			"Clue": {
-				"Elite": 2
+				"elite": 2
 			},
 			"Connect": {
 				"9541": true
@@ -175425,9 +175425,9 @@
 						"Enchanted Key": "step"
 					},
 					"Clue": {
-						"Medium": 2,
-						"Elite": 2,
-						"Master": 1
+						"medium": 2,
+						"elite": 2,
+						"master": 1
 					},
 					"Connect": {
 						"33": true
@@ -175477,8 +175477,8 @@
 						"Swamp toad": 2
 					},
 					"Clue": {
-						"Medium": 1,
-						"Elite": 1
+						"medium": 1,
+						"elite": 1
 					}
 				},
 				"2": {
@@ -175498,7 +175498,7 @@
 						"Swamp toad": 5
 					},
 					"Clue": {
-						"Elite": 1
+						"elite": 1
 					}
 				},
 				"3": {}
@@ -175547,9 +175547,9 @@
 						"The Grand Tree": "step"
 					},
 					"Clue": {
-						"Medium": 2,
-						"Hard": 1,
-						"Elite": 2
+						"medium": 2,
+						"hard": 1,
+						"elite": 2
 					}
 				},
 				"2": {
@@ -175580,7 +175580,7 @@
 						"Tree": 8
 					},
 					"Clue": {
-						"Elite": 2
+						"elite": 2
 					}
 				},
 				"2": {
@@ -175604,7 +175604,7 @@
 						"The Eyes of Glouphrie": "step"
 					},
 					"Clue": {
-						"Elite": 1
+						"elite": 1
 					}
 				},
 				"4": {
@@ -175633,7 +175633,7 @@
 				"Dashing kebbit": 3
 			},
 			"Clue": {
-				"Elite": 6
+				"elite": 6
 			},
 			"Nickname": "Falconry area"
 		},
@@ -175685,7 +175685,7 @@
 						"Glorious Memories": "step"
 					},
 					"Clue": {
-						"Elite": 7
+						"elite": 7
 					},
 					"Connect": {
 						"9631": true
@@ -175700,7 +175700,7 @@
 						"Crashed star": 1
 					},
 					"Clue": {
-						"Elite": 1
+						"elite": 1
 					}
 				}
 			},
@@ -175725,7 +175725,7 @@
 						"Ice troll female#Variant 3": 1
 					},
 					"Clue": {
-						"Elite": 4
+						"elite": 4
 					}
 				},
 				"2": {
@@ -175739,7 +175739,7 @@
 						"Ice troll grunt#Variant 2": 1
 					},
 					"Clue": {
-						"Elite": 3
+						"elite": 3
 					},
 					"Connect": {
 						"9632": true
@@ -175750,7 +175750,7 @@
 						"Drakolith rock": 5
 					},
 					"Clue": {
-						"Elite": 1
+						"elite": 1
 					}
 				}
 			},
@@ -176277,7 +176277,7 @@
 				"Ogress": 8
 			},
 			"Clue": {
-				"Elite": 2
+				"elite": 2
 			},
 			"Nickname": "South-west Feldip"
 		},
@@ -176301,7 +176301,7 @@
 				"Mound": 11
 			},
 			"Clue": {
-				"Elite": 2
+				"elite": 2
 			},
 			"Nickname": "Jungle Strykewyrms"
 		},
@@ -176311,7 +176311,7 @@
 				"Dead tree": 15
 			},
 			"Clue": {
-				"Elite": 2
+				"elite": 2
 			},
 			"Nickname": "West Feldip coast"
 		},
@@ -176346,8 +176346,8 @@
 						"Zogre Flesh Eaters": "first"
 					},
 					"Clue": {
-						"Hard": 1,
-						"Elite": 2
+						"hard": 1,
+						"elite": 2
 					}
 				},
 				"2": {
@@ -176388,8 +176388,8 @@
 				"Benedict's World Tour (miniquest)": "step"
 			},
 			"Clue": {
-				"Medium": 1,
-				"Elite": 2
+				"medium": 1,
+				"elite": 2
 			},
 			"Nickname": "Castle wars lobby"
 		},
@@ -176426,7 +176426,7 @@
 						"Observatory Quest": "first"
 					},
 					"Clue": {
-						"Hard": 3
+						"hard": 3
 					},
 					"Connect": {
 						"9362": true
@@ -176454,7 +176454,7 @@
 						"Farming supplies": true
 					},
 					"Clue": {
-						"Medium": 1
+						"medium": 1
 					},
 					"Connect": {
 						"6473": true
@@ -176472,7 +176472,7 @@
 						"Observatory Quest": "step"
 					},
 					"Clue": {
-						"Medium": 2
+						"medium": 2
 					},
 					"Connect": {
 						"9362": true
@@ -176519,8 +176519,8 @@
 						"Tales of Nomad (miniquest)": "step"
 					},
 					"Clue": {
-						"Medium": 1,
-						"Elite": 2
+						"medium": 1,
+						"elite": 2
 					}
 				},
 				"2": {
@@ -176568,8 +176568,8 @@
 						"Underground Pass": "step"
 					},
 					"Clue": {
-						"Hard": 1,
-						"Elite": 5
+						"hard": 1,
+						"elite": 5
 					}
 				},
 				"2": {
@@ -176586,7 +176586,7 @@
 						"Tree Gnome Village": "step"
 					},
 					"Clue": {
-						"Elite": 2
+						"elite": 2
 					}
 				},
 				"3": {
@@ -176635,8 +176635,8 @@
 						"The Slug Menace": "step"
 					},
 					"Clue": {
-						"Medium": 1,
-						"Elite": 2
+						"medium": 1,
+						"elite": 2
 					}
 				},
 				"2": {
@@ -176644,7 +176644,7 @@
 						"Dead tree": 8
 					},
 					"Clue": {
-						"Elite": 1
+						"elite": 1
 					}
 				}
 			},
@@ -176718,9 +176718,9 @@
 				"The Eyes of Glouphrie": "step"
 			},
 			"Clue": {
-				"Medium": 1,
-				"Hard": 1,
-				"Elite": 2
+				"medium": 1,
+				"hard": 1,
+				"elite": 2
 			},
 			"Nickname": "Tree Gnome Stronghold"
 		},
@@ -176800,9 +176800,9 @@
 						"The Path of Glouphrie": "step"
 					},
 					"Clue": {
-						"Easy": 1,
-						"Hard": 1,
-						"Elite": 2
+						"easy": 1,
+						"hard": 1,
+						"elite": 2
 					}
 				},
 				"2": {
@@ -176831,7 +176831,7 @@
 						"Tree": 1
 					},
 					"Clue": {
-						"Elite": 1
+						"elite": 1
 					}
 				}
 			},
@@ -177435,7 +177435,7 @@
 				"As a First Resort": "first"
 			},
 			"Clue": {
-				"Elite": 2
+				"elite": 2
 			},
 			"Nickname": "West Oo'glog"
 		},
@@ -177476,7 +177476,7 @@
 				"While Guthix Sleeps": "step"
 			},
 			"Clue": {
-				"Elite": 2
+				"elite": 2
 			},
 			"Nickname": "Feldip Hunter Area"
 		},
@@ -177506,7 +177506,7 @@
 				"A Cultist's Journey": "step"
 			},
 			"Clue": {
-				"Elite": 2
+				"elite": 2
 			},
 			"Nickname": "West Feldip Hills"
 		},
@@ -177554,8 +177554,8 @@
 				"Watchtower": "step"
 			},
 			"Clue": {
-				"Medium": 1,
-				"Hard": 1
+				"medium": 1,
+				"hard": 1
 			},
 			"Nickname": "Gu'Tanoth"
 		},
@@ -177599,7 +177599,7 @@
 						"Zogre Flesh Eaters": "step"
 					},
 					"Clue": {
-						"Elite": 2
+						"elite": 2
 					},
 					"Connect": {
 						"7503": true,
@@ -177681,9 +177681,9 @@
 						"10133": true
 					},
 					"Clue": {
-						"Medium": 1,
-						"Hard": 1,
-						"Elite": 2
+						"medium": 1,
+						"hard": 1,
+						"elite": 2
 					}
 				},
 				"2": {
@@ -177738,8 +177738,8 @@
 				"While Guthix Sleeps": "step"
 			},
 			"Clue": {
-				"Medium": 1,
-				"Elite": 2
+				"medium": 1,
+				"elite": 2
 			},
 			"Nickname": "Khazard Battlefield"
 		},
@@ -177803,8 +177803,8 @@
 						"10136": true
 					},
 					"Clue": {
-						"Medium": 1,
-						"Elite": 7
+						"medium": 1,
+						"elite": 7
 					}
 				},
 				"2": {
@@ -177812,7 +177812,7 @@
 						"Dead tree": 8
 					},
 					"Clue": {
-						"Elite": 1
+						"elite": 1
 					}
 				},
 				"3": {},
@@ -177855,8 +177855,8 @@
 						"King Lathas's Armoury": true
 					},
 					"Clue": {
-						"Medium": 1,
-						"Elite": 2
+						"medium": 1,
+						"elite": 2
 					}
 				},
 				"2": {
@@ -177889,7 +177889,7 @@
 						"Plague's End": "step"
 					},
 					"Clue": {
-						"Elite": 2
+						"elite": 2
 					}
 				},
 				"3": {},
@@ -177931,8 +177931,8 @@
 						"Waterfall Quest": "step"
 					},
 					"Clue": {
-						"Medium": 1,
-						"Elite": 2
+						"medium": 1,
+						"elite": 2
 					},
 					"Connect": {
 						"10137": true,
@@ -177981,9 +177981,9 @@
 						"Waterfall Quest": "first"
 					},
 					"Clue": {
-						"Medium": 1,
-						"Hard": 1,
-						"Elite": 1
+						"medium": 1,
+						"hard": 1,
+						"elite": 1
 					},
 					"Connect": {
 						"10394": true
@@ -178006,7 +178006,7 @@
 						"Barbarian Training": "first"
 					},
 					"Clue": {
-						"Elite": 1
+						"elite": 1
 					},
 					"Connect": {
 						"6995": true
@@ -178084,8 +178084,8 @@
 				"Scorpion Catcher": "step"
 			},
 			"Clue": {
-				"Medium": 1,
-				"Elite": 1
+				"medium": 1,
+				"elite": 1
 			},
 			"Nickname": "Barbarian outpost"
 		},
@@ -178114,9 +178114,9 @@
 				"Horror from the Deep": "first"
 			},
 			"Clue": {
-				"Medium": 1,
-				"Hard": 2,
-				"Elite": 2
+				"medium": 1,
+				"hard": 2,
+				"elite": 2
 			},
 			"Nickname": "Lighthouse"
 		},
@@ -178230,8 +178230,8 @@
 						"Throne of Miscellania": "first"
 					},
 					"Clue": {
-						"Medium": 2,
-						"Hard": 1
+						"medium": 2,
+						"hard": 1
 					},
 					"Connect": {
 						"9541": true,
@@ -178724,7 +178724,7 @@
 						"As a First Resort": "step"
 					},
 					"Clue": {
-						"Elite": 1
+						"elite": 1
 					}
 				},
 				"2": {
@@ -178733,7 +178733,7 @@
 						"Red sandstone (rock)": 1
 					},
 					"Clue": {
-						"Elite": 1
+						"elite": 1
 					}
 				},
 				"3": {
@@ -178762,7 +178762,7 @@
 				"Spined larupia": 2
 			},
 			"Clue": {
-				"Elite": 2
+				"elite": 2
 			},
 			"Connect": {
 				"36": true
@@ -178799,8 +178799,8 @@
 				"Doogle leaves": 4
 			},
 			"Clue": {
-				"Medium": 1,
-				"Elite": 2
+				"medium": 1,
+				"elite": 2
 			},
 			"Nickname": "East Feldip Hills"
 		},
@@ -178834,8 +178834,8 @@
 						"Broken arrow": 2
 					},
 					"Clue": {
-						"Hard": 1,
-						"Elite": 2
+						"hard": 1,
+						"elite": 2
 					},
 					"Connect": {
 						"10131": true
@@ -178863,7 +178863,7 @@
 						"Watchtower": "step"
 					},
 					"Clue": {
-						"Hard": 1
+						"hard": 1
 					}
 				}
 			},
@@ -178954,10 +178954,10 @@
 						"Zogre Flesh Eaters": "step"
 					},
 					"Clue": {
-						"Easy": 2,
-						"Medium": 2,
-						"Hard": 1,
-						"Elite": 2
+						"easy": 2,
+						"medium": 2,
+						"hard": 1,
+						"elite": 2
 					},
 					"Connect": {
 						"6473": true,
@@ -179017,7 +179017,7 @@
 				"While Guthix Sleeps": "step"
 			},
 			"Clue": {
-				"Elite": 2
+				"elite": 2
 			},
 			"Nickname": "Fight Arena"
 		},
@@ -179071,8 +179071,8 @@
 				"Some Like It Cold": "first"
 			},
 			"Clue": {
-				"Medium": 2,
-				"Elite": 2
+				"medium": 2,
+				"elite": 2
 			},
 			"Nickname": "Ardougne Monastery"
 		},
@@ -179187,11 +179187,11 @@
 				"Underground Pass": "step"
 			},
 			"Clue": {
-				"Easy": 4,
-				"Medium": 2,
-				"Hard": 2,
-				"Elite": 7,
-				"Master": 1
+				"easy": 4,
+				"medium": 2,
+				"hard": 2,
+				"elite": 7,
+				"master": 1
 			},
 			"Nickname": "Ardougne Castle"
 		},
@@ -179257,9 +179257,9 @@
 				"Sheep Herder": "step"
 			},
 			"Clue": {
-				"Easy": 2,
-				"Medium": 1,
-				"Elite": 5
+				"easy": 2,
+				"medium": 1,
+				"elite": 5
 			},
 			"Nickname": "Chaos Druid Tower"
 		},
@@ -179308,8 +179308,8 @@
 				"Dwarf Cannon": "step"
 			},
 			"Clue": {
-				"Hard": 1,
-				"Elite": 2
+				"hard": 1,
+				"elite": 2
 			},
 			"Nickname": "Fishing Guild"
 		},
@@ -179346,8 +179346,8 @@
 						"Dwarf Cannon": "first"
 					},
 					"Clue": {
-						"Hard": 1,
-						"Elite": 1
+						"hard": 1,
+						"elite": 1
 					}
 				},
 				"2": {
@@ -179370,8 +179370,8 @@
 						"Holy Grail": "step"
 					},
 					"Clue": {
-						"Easy": 1,
-						"Elite": 1
+						"easy": 1,
+						"elite": 1
 					}
 				},
 				"3": {
@@ -179419,8 +179419,8 @@
 				"36": true
 			},
 			"Clue": {
-				"Medium": 1,
-				"Elite": 2
+				"medium": 1,
+				"elite": 2
 			},
 			"Nickname": "Lighthouse Bridge"
 		},
@@ -179447,7 +179447,7 @@
 						"Lunar Diplomacy": "first"
 					},
 					"Clue": {
-						"Elite": 1
+						"elite": 1
 					}
 				},
 				"2": {}
@@ -179514,7 +179514,7 @@
 				"Throne of Miscellania": "step"
 			},
 			"Clue": {
-				"Hard": 1
+				"hard": 1
 			},
 			"Nickname": "Etceteria"
 		},
@@ -180040,7 +180040,7 @@
 				"Recipe for Disaster: Freeing Skrach Uglogwee": "step"
 			},
 			"Clue": {
-				"Elite": 2
+				"elite": 2
 			},
 			"Nickname": "Rantz' Cave"
 		},
@@ -180074,8 +180074,8 @@
 				"While Guthix Sleeps": "step"
 			},
 			"Clue": {
-				"Medium": 2,
-				"Elite": 2
+				"medium": 2,
+				"elite": 2
 			},
 			"Nickname": "Hazelmere's Island"
 		},
@@ -180119,9 +180119,9 @@
 				"Recipe for Disaster: Freeing Pirate Pete": "step"
 			},
 			"Clue": {
-				"Easy": 2,
-				"Medium": 1,
-				"Elite": 2
+				"easy": 2,
+				"medium": 1,
+				"elite": 2
 			},
 			"Connect": {
 				"11924": true
@@ -180164,9 +180164,9 @@
 						"Tower of Life": "first"
 					},
 					"Clue": {
-						"Medium": 2,
-						"Hard": 1,
-						"Elite": 2
+						"medium": 2,
+						"hard": 1,
+						"elite": 2
 					},
 					"Connect": {
 						"9541": true,
@@ -180273,10 +180273,10 @@
 						"Tribal Totem": "step"
 					},
 					"Clue": {
-						"Easy": 3,
-						"Medium": 1,
-						"Hard": 1,
-						"Elite": 5
+						"easy": 3,
+						"medium": 1,
+						"hard": 1,
+						"elite": 5
 					},
 					"Connect": {
 						"6473": true,
@@ -180369,8 +180369,8 @@
 				"Tortle Combat (miniquest)": "step"
 			},
 			"Clue": {
-				"Easy": 1,
-				"Elite": 4
+				"easy": 1,
+				"elite": 4
 			},
 			"Nickname": "Manor Farm"
 		},
@@ -180453,10 +180453,10 @@
 				"A Study in Aether": "first"
 			},
 			"Clue": {
-				"Easy": 1,
-				"Medium": 1,
-				"Hard": 2,
-				"Elite": 2
+				"easy": 1,
+				"medium": 1,
+				"hard": 2,
+				"elite": 2
 			},
 			"Nickname": "Ranging Guild"
 		},
@@ -180492,8 +180492,8 @@
 				"While Guthix Sleeps": "step"
 			},
 			"Clue": {
-				"Medium": 1,
-				"Elite": 2
+				"medium": 1,
+				"elite": 2
 			},
 			"Nickname": "McGrubor's Wood"
 		},
@@ -180517,8 +180517,8 @@
 						"Farming Supplies": true
 					},
 					"Clue": {
-						"Medium": 1,
-						"Elite": 2
+						"medium": 1,
+						"elite": 2
 					},
 					"Connect": {
 						"6473": true
@@ -180559,7 +180559,7 @@
 						"Koschei's Troubles (miniquest)": "step"
 					},
 					"Clue": {
-						"Elite": 2
+						"elite": 2
 					}
 				},
 				"2": {
@@ -180694,9 +180694,9 @@
 				"Olaf's Quest": "step"
 			},
 			"Clue": {
-				"Medium": 1,
-				"Hard": 1,
-				"Elite": 2
+				"medium": 1,
+				"hard": 1,
+				"elite": 2
 			},
 			"Nickname": "Rellekka"
 		},
@@ -180716,7 +180716,7 @@
 				"Bronze hatchet": 1
 			},
 			"Clue": {
-				"Elite": 2
+				"elite": 2
 			},
 			"Nickname": "Rellekka Rocks"
 		},
@@ -181260,8 +181260,8 @@
 				"The Grand Tree": "step"
 			},
 			"Clue": {
-				"Medium": 1,
-				"Elite": 2
+				"medium": 1,
+				"elite": 2
 			},
 			"Nickname": "Brimhaven Dungeon Entrance"
 		},
@@ -181285,7 +181285,7 @@
 						"Holy Grail": "step"
 					},
 					"Clue": {
-						"Elite": 1
+						"elite": 1
 					},
 					"Connect": {
 						"11081": true
@@ -181302,8 +181302,8 @@
 						"Cake": 2
 					},
 					"Clue": {
-						"Medium": 1,
-						"Elite": 1
+						"medium": 1,
+						"elite": 1
 					}
 				},
 				"3": {
@@ -181360,8 +181360,8 @@
 				"The Slug Menace": "step"
 			},
 			"Clue": {
-				"Medium": 1,
-				"Elite": 2
+				"medium": 1,
+				"elite": 2
 			},
 			"Nickname": "Witchaven"
 		},
@@ -181421,9 +181421,9 @@
 				"The World Wakes": "first"
 			},
 			"Clue": {
-				"Easy": 1,
-				"Hard": 1,
-				"Elite": 2
+				"easy": 1,
+				"hard": 1,
+				"elite": 2
 			},
 			"Nickname": "Legend's Guild"
 		},
@@ -181470,8 +181470,8 @@
 				"Scorpion Catcher": "first"
 			},
 			"Clue": {
-				"Hard": 1,
-				"Elite": 2
+				"hard": 1,
+				"elite": 2
 			},
 			"Nickname": "Sorcerer's Tower"
 		},
@@ -181546,9 +181546,9 @@
 						"While Guthix Sleeps": "step"
 					},
 					"Clue": {
-						"Easy": 2,
-						"Medium": 1,
-						"Elite": 2
+						"easy": 2,
+						"medium": 1,
+						"elite": 2
 					},
 					"Connect": {
 						"7234": true,
@@ -181570,7 +181570,7 @@
 						"Merlin's Crystal": "step"
 					},
 					"Clue": {
-						"Easy": 1
+						"easy": 1
 					}
 				}
 			},
@@ -181643,8 +181643,8 @@
 						"Murder Mystery": "first"
 					},
 					"Clue": {
-						"Easy": 2,
-						"Medium": 1
+						"easy": 2,
+						"medium": 1
 					},
 					"Connect": {
 						"9541": true
@@ -181690,8 +181690,8 @@
 						"The General's Shadow (miniquest)": "first"
 					},
 					"Clue": {
-						"Medium": 1,
-						"Elite": 1
+						"medium": 1,
+						"elite": 1
 					}
 				},
 				"2": {
@@ -181702,7 +181702,7 @@
 						"Evil tree": 1
 					},
 					"Clue": {
-						"Elite": 1
+						"elite": 1
 					}
 				}
 			},
@@ -181730,7 +181730,7 @@
 						"Mountain Daughter": "step"
 					},
 					"Clue": {
-						"Elite": 2
+						"elite": 2
 					}
 				},
 				"2": {},
@@ -181781,8 +181781,8 @@
 						"The Tale of the Muspah": "first"
 					},
 					"Clue": {
-						"Hard": 1,
-						"Elite": 2
+						"hard": 1,
+						"elite": 2
 					}
 				},
 				"2": {}
@@ -181824,7 +181824,7 @@
 				"The Tale of the Muspah": "step"
 			},
 			"Clue": {
-				"Elite": 1
+				"elite": 1
 			},
 			"Nickname": "Rellekka Hunter Area"
 		},
@@ -182467,8 +182467,8 @@
 						"Legends' Quest": "step"
 					},
 					"Clue": {
-						"Hard": 1,
-						"Elite": 6
+						"hard": 1,
+						"elite": 6
 					},
 					"Connect": {
 						"11153": true
@@ -182524,8 +182524,8 @@
 				"Tai Bwo Wannai Trio": "step"
 			},
 			"Clue": {
-				"Hard": 1,
-				"Elite": 2
+				"hard": 1,
+				"elite": 2
 			},
 			"Nickname": "Cairn Isle"
 		},
@@ -182565,8 +182565,8 @@
 						"Tai Bwo Wannai Trio": "step"
 					},
 					"Clue": {
-						"Medium": 1,
-						"Elite": 2
+						"medium": 1,
+						"elite": 2
 					}
 				},
 				"2": {
@@ -182589,7 +182589,7 @@
 						"Tiadeche's Karambwan stall": true
 					},
 					"Clue": {
-						"Medium": 2
+						"medium": 2
 					}
 				}
 			},
@@ -182653,7 +182653,7 @@
 				"Tai Bwo Wannai Trio": "first"
 			},
 			"Clue": {
-				"Elite": 2
+				"elite": 2
 			},
 			"Nickname": "North Tai Bwo Wannai"
 		},
@@ -182734,9 +182734,9 @@
 				"Tribal Totem": "first"
 			},
 			"Clue": {
-				"Medium": 4,
-				"Hard": 1,
-				"Elite": 2
+				"medium": 4,
+				"hard": 1,
+				"elite": 2
 			},
 			"Nickname": "Brimhaven"
 		},
@@ -182775,8 +182775,8 @@
 				"My Arm's Big Adventure": "step"
 			},
 			"Clue": {
-				"Medium": 1,
-				"Elite": 2
+				"medium": 1,
+				"elite": 2
 			},
 			"Nickname": "Brimhaven Docks"
 		},
@@ -182813,7 +182813,7 @@
 						"The Slug Menace": "step"
 					},
 					"Clue": {
-						"Medium": 1
+						"medium": 1
 					}
 				},
 				"2": {}
@@ -182930,8 +182930,8 @@
 				"One Small Favour": "step"
 			},
 			"Clue": {
-				"Easy": 3,
-				"Elite": 2
+				"easy": 3,
+				"elite": 2
 			},
 			"Nickname": "Catherby"
 		},
@@ -182986,8 +182986,8 @@
 						"Wanted!": "step"
 					},
 					"Clue": {
-						"Easy": 1,
-						"Elite": 1
+						"easy": 1,
+						"elite": 1
 					}
 				},
 				"2": {
@@ -182995,7 +182995,7 @@
 						"Evergreen": 4
 					},
 					"Clue": {
-						"Elite": 1
+						"elite": 1
 					}
 				},
 				"3": {
@@ -183013,7 +183013,7 @@
 						"Evergreen": 7
 					},
 					"Clue": {
-						"Elite": 2
+						"elite": 2
 					}
 				},
 				"2": {},
@@ -183059,7 +183059,7 @@
 						"The Fremennik Trials": "step"
 					},
 					"Clue": {
-						"Elite": 3
+						"elite": 3
 					}
 				},
 				"2": {}
@@ -183101,7 +183101,7 @@
 						"Mountain Daughter": "first"
 					},
 					"Clue": {
-						"Hard": 1
+						"hard": 1
 					},
 					"Connect": {
 						"11165": true
@@ -183137,7 +183137,7 @@
 						"Philipe Carnillean": 1
 					},
 					"Clue": {
-						"Elite": 1
+						"elite": 1
 					}
 				}
 			},
@@ -183707,8 +183707,8 @@
 						"Recipe for Disaster: Freeing Sir Amik Varze": "step"
 					},
 					"Clue": {
-						"Hard": 1,
-						"Elite": 11
+						"hard": 1,
+						"elite": 11
 					}
 				},
 				"2": {
@@ -183774,7 +183774,7 @@
 						"While Guthix Sleeps": "step"
 					},
 					"Clue": {
-						"Hard": 2
+						"hard": 2
 					}
 				},
 				"2": {},
@@ -183819,8 +183819,8 @@
 				"Tai Bwo Wannai Trio": "step"
 			},
 			"Clue": {
-				"Medium": 2,
-				"Elite": 2
+				"medium": 2,
+				"elite": 2
 			},
 			"Nickname": "Karamja Jungle Mine"
 		},
@@ -183857,7 +183857,7 @@
 				"My Arm's Big Adventure": "step"
 			},
 			"Clue": {
-				"Elite": 2
+				"elite": 2
 			},
 			"Nickname": "Pothole Dungeon"
 		},
@@ -183890,7 +183890,7 @@
 				 "Heart of Stone": "step"
 			},
 			"Clue": {
-				"Elite": 2
+				"elite": 2
 			},
 			"Nickname": "Karamja volcano"
 		},
@@ -183940,7 +183940,7 @@
 				"Dragon Slayer": "step"
 			},
 			"Clue": {
-				"Medium": 1
+				"medium": 1
 			},
 			"Nickname": "North Crandor"
 		},
@@ -184003,7 +184003,7 @@
 				"Holy Grail": "step"
 			},
 			"Clue": {
-				"Hard": 1
+				"hard": 1
 			},
 			"Nickname": "Entrana"
 		},
@@ -184040,9 +184040,9 @@
 						"Hickton's Archery Emporium": true
 					},
 					"Clue": {
-						"Easy": 1,
-						"Medium": 1,
-						"Elite": 1
+						"easy": 1,
+						"medium": 1,
+						"elite": 1
 					},
 					"Connect": {
 						"6473": true
@@ -184056,7 +184056,7 @@
 						"Adolescent White wolf": 3
 					},
 					"Clue": {
-						"Elite": 1
+						"elite": 1
 					},
 					"Connect": {
 						"5701": true
@@ -184072,7 +184072,7 @@
 						"Water obelisk": 1
 					},
 					"Clue": {
-						"Elite": 1
+						"elite": 1
 					},
 					"Connect": {
 						"11417": true
@@ -184120,7 +184120,7 @@
 						"Wolf Whistle": "step"
 					},
 					"Clue": {
-						"Elite": 1
+						"elite": 1
 					}
 				},
 				"2": {
@@ -184142,8 +184142,8 @@
 						"One Small Favour": "step"
 					},
 					"Clue": {
-						"Hard": 2,
-						"Elite": 1
+						"hard": 2,
+						"elite": 1
 					},
 					"Connect": {
 						"36": true,
@@ -184198,7 +184198,7 @@
 						"Crate": 1
 					},
 					"Clue": {
-						"Easy": 1
+						"easy": 1
 					}
 				}
 			},
@@ -184255,7 +184255,7 @@
 						"While Guthix Sleeps": "step"
 					},
 					"Clue": {
-						"Elite": 2
+						"elite": 2
 					},
 					"Connect": {
 						"8772": true,
@@ -184326,7 +184326,7 @@
 						"My Arm's Big Adventure": "step"
 					},
 					"Clue": {
-						"Elite": 1
+						"elite": 1
 					}
 				},
 				"2": {
@@ -184369,7 +184369,7 @@
 						"Drunken dwarf's leg": 1
 					},
 					"Clue": {
-						"Hard": 1
+						"hard": 1
 					},
 					"Connect": {
 						"11421": true
@@ -185068,7 +185068,7 @@
 						"Legends' Quest": "step"
 					},
 					"Clue": {
-						"Elite": 10
+						"elite": 10
 					},
 					"Connect": {
 						"9541": true
@@ -185133,8 +185133,8 @@
 						"Shilo Village": "step"
 					},
 					"Clue": {
-						"Hard": 1,
-						"Elite": 1
+						"hard": 1,
+						"elite": 1
 					},
 					"Connect": {
 						"11665": true
@@ -185156,7 +185156,7 @@
 						"Shilo Village": "first"
 					},
 					"Clue": {
-						"Elite": 1
+						"elite": 1
 					}
 				}
 			},
@@ -185184,7 +185184,7 @@
 						"Twilight of the Gods": "step"
 					},
 					"Clue": {
-						"Elite": 1
+						"elite": 1
 					},
 					"Connect": {
 						"23130": true
@@ -185207,7 +185207,7 @@
 						"Captain Errdo": 1
 					},
 					"Clue": {
-						"Elite": 1
+						"elite": 1
 					}
 				}
 			},
@@ -185224,8 +185224,8 @@
 						"Baby monkey": 2
 					},
 					"Clue": {
-						"Hard": 1,
-						"Elite": 2
+						"hard": 1,
+						"elite": 2
 					}
 				},
 				"2": {
@@ -185254,8 +185254,8 @@
 						"Tai Bwo Wannai Trio": "step"
 					},
 					"Clue": {
-						"Medium": 1,
-						"Elite": 2
+						"medium": 1,
+						"elite": 2
 					},
 					"Connect": {
 						"9541": true,
@@ -185316,9 +185316,9 @@
 						"A Void Dance": "step"
 					},
 					"Clue": {
-						"Medium": 3,
-						"Hard": 1,
-						"Elite": 2
+						"medium": 3,
+						"hard": 1,
+						"elite": 2
 					}
 				},
 				"2": {}
@@ -185363,8 +185363,8 @@
 				"A Void Dance": "step"
 			},
 			"Clue": {
-				"Medium": 1,
-				"Elite": 2
+				"medium": 1,
+				"elite": 2
 			},
 			"Nickname": "Chemist's House"
 		},
@@ -185425,7 +185425,7 @@
 						"Swan Song": "step"
 					},
 					"Clue": {
-						"Elite": 1
+						"elite": 1
 					},
 					"Connect": {
 						"43": true
@@ -185443,13 +185443,13 @@
 						"Snape grass": 3
 					},
 					"Clue": {
-						"Medium": 1,
-						"Elite": 1
+						"medium": 1,
+						"elite": 1
 					}
 				},
 				"3": {
 					"Clue": {
-						"Elite": 1
+						"elite": 1
 					}
 				}
 			},
@@ -185499,7 +185499,7 @@
 						"Witch's House": "first"
 					},
 					"Clue": {
-						"Elite": 2
+						"elite": 2
 					},
 					"Connect": {
 						"9046": true,
@@ -185511,7 +185511,7 @@
 						"Crumbling wall (Falador)": 1
 					},
 					"Clue": {
-						"Elite": 2
+						"elite": 2
 					}
 				}
 			},
@@ -185615,10 +185615,10 @@
 				"Wolf Whistle": "first"
 			},
 			"Clue": {
-				"Easy": 3,
-				"Medium": 2,
-				"Hard": 1,
-				"Elite": 2
+				"easy": 3,
+				"medium": 2,
+				"hard": 1,
+				"elite": 2
 			},
 			"Nickname": "South Taverley"
 		},
@@ -185697,8 +185697,8 @@
 				"Let Them Eat Pie": "step"
 			},
 			"Clue": {
-				"Easy": 1,
-				"Elite": 2
+				"easy": 1,
+				"elite": 2
 			},
 			"Nickname": "North Taverley"
 		},
@@ -185828,9 +185828,9 @@
 						"A Cultist's Journey": "first"
 					},
 					"Clue": {
-						"Easy": 4,
-						"Medium": 2,
-						"Elite": 2
+						"easy": 4,
+						"medium": 2,
+						"elite": 2
 					}
 				},
 				"2": {}
@@ -185885,7 +185885,7 @@
 						"Eadgar's Ruse": "step"
 					},
 					"Clue": {
-						"Hard": 1
+						"hard": 1
 					},
 					"Connect": {
 						"11676": true,
@@ -186528,13 +186528,13 @@
 						"Papa Mambo's Shop": true
 					},
 					"Clue": {
-						"Hard": 1,
-						"Elite": 1
+						"hard": 1,
+						"elite": 1
 					}
 				},
 				"2": {
 					"Clue": {
-						"Elite": 1
+						"elite": 1
 					}
 				}
 			},
@@ -186572,8 +186572,8 @@
 						"Pieces of Hate": "step"
 					},
 					"Clue": {
-						"Hard": 1,
-						"Elite": 2
+						"hard": 1,
+						"elite": 2
 					}
 				},
 				"2": {}
@@ -186608,7 +186608,7 @@
 				"Monkey Madness": "step"
 			},
 			"Clue": {
-				"Hard": 1
+				"hard": 1
 			},
 			"Nickname": "Shipyard"
 		},
@@ -186640,8 +186640,8 @@
 				"Benedict's World Tour (miniquest)": "step"
 			},
 			"Clue": {
-				"Easy": 1,
-				"Medium": 1
+				"easy": 1,
+				"medium": 1
 			},
 			"Nickname": "Mudskipper Point"
 		},
@@ -186690,8 +186690,8 @@
 						"Rocking Out": "step"
 					},
 					"Clue": {
-						"Medium": 3,
-						"Elite": 2
+						"medium": 3,
+						"elite": 2
 					}
 				},
 				"2": {
@@ -186794,8 +186794,8 @@
 				"You Are It": "step"
 			},
 			"Clue": {
-				"Easy": 3,
-				"Elite": 2
+				"easy": 3,
+				"elite": 2
 			},
 			"Nickname": "Rimmington"
 		},
@@ -186851,8 +186851,8 @@
 				"A Void Dance": "step"
 			},
 			"Clue": {
-				"Easy": 1,
-				"Elite": 4
+				"easy": 1,
+				"elite": 4
 			},
 			"Nickname": "South Falador Camp Site"
 		},
@@ -186996,8 +186996,8 @@
 				"The Everlight": "step"
 			},
 			"Clue": {
-				"Easy": 3,
-				"Elite": 6
+				"easy": 3,
+				"elite": 6
 			},
 			"Nickname": "West Falador"
 		},
@@ -187075,8 +187075,8 @@
 						"What's Mine is Yours": "first"
 					},
 					"Clue": {
-						"Easy": 2,
-						"Elite": 2
+						"easy": 2,
+						"elite": 2
 					}
 				},
 				"2": {
@@ -187158,8 +187158,8 @@
 						"Recipe for Disaster: Freeing the Goblin Generals": "step"
 					},
 					"Clue": {
-						"Hard": 1,
-						"Elite": 2
+						"hard": 1,
+						"elite": 2
 					},
 					"Connect": {
 						"8770": true,
@@ -187181,7 +187181,7 @@
 						"Perils of Ice Mountain": "step"
 					},
 					"Clue": {
-						"Medium": 1
+						"medium": 1
 					}
 				},
 				"3": {
@@ -187213,7 +187213,7 @@
 						"Skull": 2
 					},
 					"Clue": {
-						"Elite": 2
+						"elite": 2
 					}
 				},
 				"2": {
@@ -187248,7 +187248,7 @@
 						"Demon Boss (Wilderness)": 1
 					},
 					"Clue": {
-						"Elite": 2
+						"elite": 2
 					}
 				},
 				"2": {
@@ -187295,8 +187295,8 @@
 						"Coins": 3
 					},
 					"Clue": {
-						"Hard": 1,
-						"Elite": 3
+						"hard": 1,
+						"elite": 3
 					},
 					"Connect": {
 						"11330": true
@@ -187330,8 +187330,8 @@
 				"Ian's Wilderness Cape Shop": true
 			},
 			"Clue": {
-				"Hard": 1,
-				"Elite": 3
+				"hard": 1,
+				"elite": 3
 			},
 			"Nickname": "Forgotten Cemetery"
 		},
@@ -187349,8 +187349,8 @@
 				"Mysterious ghost": 1
 			},
 			"Clue": {
-				"Hard": 1,
-				"Elite": 2
+				"hard": 1,
+				"elite": 2
 			},
 			"Nickname": "Chaos Altar"
 		},
@@ -187379,7 +187379,7 @@
 				"While Guthix Sleeps": "step"
 			},
 			"Clue": {
-				"Elite": 2
+				"elite": 2
 			},
 			"Nickname": "Western Obelisk"
 		},
@@ -187403,8 +187403,8 @@
 				"Bones": 5
 			},
 			"Clue": {
-				"Hard": 1,
-				"Elite": 8
+				"hard": 1,
+				"elite": 8
 			},
 			"Connect": {
 				"11937": true
@@ -187731,7 +187731,7 @@
 						"Impressing the Locals": "step"
 					},
 					"Clue": {
-						"Elite": 2
+						"elite": 2
 					},
 					"Connect": {
 						"12181": true,
@@ -187751,7 +187751,7 @@
 						"Impressing the Locals": "first"
 					},
 					"Clue": {
-						"Hard": 1
+						"hard": 1
 					}
 				},
 				"3": {}
@@ -187871,9 +187871,9 @@
 						"While Guthix Sleeps": "step"
 					},
 					"Clue": {
-						"Easy": 5,
-						"Hard": 1,
-						"Elite": 2
+						"easy": 5,
+						"hard": 1,
+						"elite": 2
 					}
 				},
 				"2": {
@@ -187946,8 +187946,8 @@
 						"Sarah's Farming Shop": true
 					},
 					"Clue": {
-						"Easy": 1,
-						"Elite": 2
+						"easy": 1,
+						"elite": 2
 					},
 					"Quest": {
 						"Bringing Home the Bacon": "first",
@@ -188026,9 +188026,9 @@
 						"What's Mine is Yours": "step"
 					},
 					"Clue": {
-						"Easy": 4,
-						"Medium": 1,
-						"Elite": 8
+						"easy": 4,
+						"medium": 1,
+						"elite": 8
 					},
 					"Connect": {
 						"12183": true,
@@ -188052,7 +188052,7 @@
 				},
 				"3": {
 					"Clue": {
-						"Elite": 2
+						"elite": 2
 					}
 				}
 			},
@@ -188094,8 +188094,8 @@
 						"Nulodion's Multicannon Parts": true
 					},
 					"Clue": {
-						"Easy": 1,
-						"Elite": 2
+						"easy": 1,
+						"elite": 2
 					},
 					"Quest": {
 						"Between a Rock...": "step",
@@ -188179,10 +188179,10 @@
 				"A Void Dance": "step"
 			},
 			"Clue": {
-				"Medium": 2,
-				"Hard": 2,
-				"Elite": 2,
-				"Master": 1
+				"medium": 2,
+				"hard": 2,
+				"elite": 2,
+				"master": 1
 			},
 			"Nickname": "Edgeville Monastery"
 		},
@@ -188199,7 +188199,7 @@
 						"Scorpion": 7
 					},
 					"Clue": {
-						"Elite": 1
+						"elite": 1
 					},
 					"Connect": {
 						"9033": true,
@@ -188214,7 +188214,7 @@
 						"Tales of Nomad (miniquest)": "step"
 					},
 					"Clue": {
-						"Elite": 1
+						"elite": 1
 					}
 				},
 				"3": {
@@ -188313,8 +188313,8 @@
 				"Sam's Wilderness Cape Shop": true
 			},
 			"Clue": {
-				"Hard": 1,
-				"Elite": 2
+				"hard": 1,
+				"elite": 2
 			},
 			"Nickname": "Dark Warriors' Fortress"
 		},
@@ -188365,8 +188365,8 @@
 				"Enchanted Key": "step"
 			},
 			"Clue": {
-				"Hard": 1,
-				"Elite": 2
+				"hard": 1,
+				"elite": 2
 			},
 			"Nickname": "Forinthry Dungeon"
 		},
@@ -188385,8 +188385,8 @@
 						"Mound": 15
 					},
 					"Clue": {
-						"Hard": 1,
-						"Elite": 2
+						"hard": 1,
+						"elite": 2
 					}
 				},
 				"2": {
@@ -188414,13 +188414,13 @@
 						"Hydrix dragon": 5
 					},
 					"Clue": {
-						"Hard": 1,
-						"Elite": 2
+						"hard": 1,
+						"elite": 2
 					}
 				},
 				"2": {
 					"Clue": {
-						"Hard": 1
+						"hard": 1
 					},
 					"Connect": {
 						"9033": true
@@ -188486,8 +188486,8 @@
 				"Succession": "step"
 			},
 			"Clue": {
-				"Hard": 2,
-				"Elite": 11
+				"hard": 2,
+				"elite": 11
 			},
 			"Nickname": "Pirates' Hideout"
 		},
@@ -188911,7 +188911,7 @@
 						"Cooking range": 1
 					},
 					"Clue": {
-						"Elite": 1
+						"elite": 1
 					}
 				},
 				"2": {
@@ -188921,7 +188921,7 @@
 				},
 				"3": {
 					"Clue": {
-						"Elite": 1
+						"elite": 1
 					}
 				},
 				"4": {
@@ -188960,7 +188960,7 @@
 				"Banafrit": 1
 			},
 			"Clue": {
-				"Elite": 3
+				"elite": 3
 			},
 			"Connect": {
 				"8043": true,
@@ -188979,8 +188979,8 @@
 						"Menaphite gardener": 1
 					},
 					"Clue": {
-						"Hard": 1,
-						"Elite": 2
+						"hard": 1,
+						"elite": 2
 					}
 				},
 				"2": {
@@ -189022,7 +189022,7 @@
 		},
 		"12336": {
 			"Clue": {
-				"Easy": 1
+				"easy": 1
 			},
 			"Nickname": "South of Wizard Tower"
 		},
@@ -189108,10 +189108,10 @@
 						"Stellar Born": "step"
 					},
 					"Clue": {
-						"Easy": 1,
-						"Medium": 1,
-						"Hard": 2,
-						"Elite": 2
+						"easy": 1,
+						"medium": 1,
+						"hard": 2,
+						"elite": 2
 					}
 				},
 				"2": {
@@ -189233,11 +189233,11 @@
 						"Duck Quest": "first"
 					},
 					"Clue": {
-						"Easy": 3,
-						"Medium": 1,
-						"Hard": 1,
-						"Elite": 3,
-						"Master": 1
+						"easy": 3,
+						"medium": 1,
+						"hard": 1,
+						"elite": 3,
+						"master": 1
 					}
 				},
 				"2": {
@@ -189320,8 +189320,8 @@
 				"Vampyre Slayer": "first"
 			},
 			"Clue": {
-				"Easy": 1,
-				"Elite": 2
+				"easy": 1,
+				"elite": 2
 			},
 			"Nickname": "Draynor Crossroads"
 		},
@@ -189383,8 +189383,8 @@
 						 "You Are It": "step"
 					},
 					"Clue": {
-						"Easy": 1,
-						"Elite": 1
+						"easy": 1,
+						"elite": 1
 					},
 					"Connect": {
 						"6473": true,
@@ -189406,7 +189406,7 @@
 						 "The General's Shadow (miniquest)": "step"
 					},
 					"Clue": {
-						"Elite": 1
+						"elite": 1
 					}
 				},
 				"3": {}
@@ -189478,9 +189478,9 @@
 						"One Small Favour": "step"
 					},
 					"Clue": {
-						"Easy": 1,
-						"Medium": 1,
-						"Elite": 2
+						"easy": 1,
+						"medium": 1,
+						"elite": 2
 					}
 				},
 				"2": {
@@ -189599,9 +189599,9 @@
 						"14167": true
 					},
 					"Clue": {
-						"Medium": 1,
-						"Hard": 1,
-						"Elite": 3
+						"medium": 1,
+						"hard": 1,
+						"elite": 3
 					}
 				},
 				"2": {},
@@ -189642,7 +189642,7 @@
 						"Enter the Abyss (miniquest)": "first"
 					},
 					"Clue": {
-						"Elite": 2
+						"elite": 2
 					},
 					"Connect": {
 						"12107": true,
@@ -189656,7 +189656,7 @@
 						"Air obelisk": 1
 					},
 					"Clue": {
-						"Hard": 1
+						"hard": 1
 					},
 					"Connect": {
 						"12443": true
@@ -189678,8 +189678,8 @@
 				"Bronze arrow": 9
 			},
 			"Clue": {
-				"Hard": 1,
-				"Elite": 2
+				"hard": 1,
+				"elite": 2
 			},
 			"Connect": {
 				"12629": true
@@ -189698,7 +189698,7 @@
 				"Will o' the wisp": 4
 			},
 			"Clue": {
-				"Elite": 8
+				"elite": 8
 			},
 			"Connect": {
 				"12190": true
@@ -189716,7 +189716,7 @@
 				"Skeleton#Armed": 10
 			},
 			"Clue": {
-				"Elite": 7
+				"elite": 7
 			},
 			"Nickname": "North-West Wilderness Volcano"
 		},
@@ -189735,7 +189735,7 @@
 						"Edmond's Wilderness Cape Shop": true
 					},
 					"Clue": {
-						"Elite": 2
+						"elite": 2
 					}
 				},
 				"2": {
@@ -189763,7 +189763,7 @@
 						"Coins": 2
 					},
 					"Clue": {
-						"Elite": 2
+						"elite": 2
 					}
 				},
 				"2": {},
@@ -189789,7 +189789,7 @@
 				"Succession": "step"
 			},
 			"Clue": {
-				"Elite": 5
+				"elite": 5
 			},
 			"Nickname": "Mage Arena"
 		},
@@ -190135,7 +190135,7 @@
 				"'Phite Club": "step"
 			},
 			"Clue": {
-				"Elite": 3
+				"elite": 3
 			},
 			"Nickname": "Menaphos Central Port District"
 		},
@@ -190176,8 +190176,8 @@
 				"Eclipse of the Heart": "first"
 			},
 			"Clue": {
-				"Elite": 3,
-				"Master": 1
+				"elite": 3,
+				"master": 1
 			},
 			"Nickname": "Menaphos Pyramid"
 		},
@@ -190235,7 +190235,7 @@
 						"Pharaoh's Folly": "step"
 					},
 					"Clue": {
-						"Elite": 3
+						"elite": 3
 					}
 				},
 				"2": {
@@ -190251,7 +190251,7 @@
 						"Tool leprechaun": 1
 					},
 					"Clue": {
-						"Elite": 1
+						"elite": 1
 					},
 					"Connect": {
 						"6473": true
@@ -190299,8 +190299,8 @@
 				"Enakhra's Lament": "first"
 			},
 			"Clue": {
-				"Medium": 1,
-				"Elite": 2
+				"medium": 1,
+				"elite": 2
 			},
 			"Nickname": "Desert Quarry"
 		},
@@ -190332,8 +190332,8 @@
 						"Beneath Scabaras' Sands": "step"
 					},
 					"Clue": {
-						"Hard": 2,
-						"Elite": 2
+						"hard": 2,
+						"elite": 2
 					}
 				},
 				"2": {},
@@ -190370,8 +190370,8 @@
 				"The Tourist Trap": "step"
 			},
 			"Clue": {
-				"Hard": 1,
-				"Elite": 2
+				"hard": 1,
+				"elite": 2
 			},
 			"Nickname": "Bedadin Camp"
 		},
@@ -190419,8 +190419,8 @@
 				"Duck Quest": "step"
 			},
 			"Clue": {
-				"Medium": 1,
-				"Elite": 2
+				"medium": 1,
+				"elite": 2
 			},
 			"Nickname": "West Lumbridge Swamp"
 		},
@@ -190463,10 +190463,10 @@
 				"Lost City": "first"
 			},
 			"Clue": {
-				"Easy": 1,
-				"Medium": 1,
-				"Elite": 1,
-				"Master": 1
+				"easy": 1,
+				"medium": 1,
+				"elite": 1,
+				"master": 1
 			},
 			"Connect": {
 				"6473": true,
@@ -190531,9 +190531,9 @@
 				"Duck Quest": "step"
 			},
 			"Clue": {
-				"Easy": 1,
-				"Hard": 1,
-				"Elite": 2
+				"easy": 1,
+				"hard": 1,
+				"elite": 2
 			},
 			"Nickname": "Lumbridge Mill"
 		},
@@ -190589,9 +190589,9 @@
 						"Duck Quest": "step"
 					},
 					"Clue": {
-						"Easy": 1,
-						"Medium": 1,
-						"Elite": 2
+						"easy": 1,
+						"medium": 1,
+						"elite": 2
 					},
 					"Connect": {
 						"4441": true,
@@ -190605,7 +190605,7 @@
 						"Nettles": 3
 					},
 					"Clue": {
-						"Elite": 1
+						"elite": 1
 					}
 				},
 				"3": {
@@ -190704,8 +190704,8 @@
 						"Princess and the Pauper": "step"
 					},
 					"Clue": {
-						"Easy": 1,
-						"Elite": 6
+						"easy": 1,
+						"elite": 6
 					},
 					"Connect": {
 						"12697": true,
@@ -190779,7 +190779,7 @@
 				"Enchanted Key": "step"
 			},
 			"Clue": {
-				"Elite": 6
+				"elite": 6
 			},
 			"Nickname": "Grand Exchange"
 		},
@@ -190806,7 +190806,7 @@
 				"Enchanted Key": "step"
 			},
 			"Clue": {
-				"Elite": 2
+				"elite": 2
 			},
 			"Nickname": "Center Wildy Ditch"
 		},
@@ -190825,7 +190825,7 @@
 				"Goblin musician": 1
 			},
 			"Clue": {
-				"Elite": 2
+				"elite": 2
 			},
 			"Connect": {
 				"12629": true
@@ -190842,7 +190842,7 @@
 				"Greater demon": 9
 			},
 			"Clue": {
-				"Elite": 7
+				"elite": 7
 			},
 			"Nickname": "South-East Wilderness Volcano"
 		},
@@ -190854,7 +190854,7 @@
 				"Ankou": 7
 			},
 			"Clue": {
-				"Elite": 5
+				"elite": 5
 			},
 			"Nickname": "North-East Wilderness Volcano"
 		},
@@ -190872,8 +190872,8 @@
 						"Lava moat": 1
 					},
 					"Clue": {
-						"Hard": 1,
-						"Elite": 2
+						"hard": 1,
+						"elite": 2
 					},
 					"Connect": {
 						"6473": true
@@ -190906,8 +190906,8 @@
 						"Sapphire": 1
 					},
 					"Clue": {
-						"Hard": 1,
-						"Elite": 2
+						"hard": 1,
+						"elite": 2
 					}
 				},
 				"2": {
@@ -190931,8 +190931,8 @@
 				"Magic axe": 9
 			},
 			"Clue": {
-				"Hard": 3,
-				"Elite": 7
+				"hard": 3,
+				"elite": 7
 			},
 			"Connect": {
 				"11076": true
@@ -191339,7 +191339,7 @@
 						"General Store (Menaphos)": true
 					},
 					"Clue": {
-						"Elite": 3
+						"elite": 3
 					}
 				},
 				"2": {}
@@ -191370,7 +191370,7 @@
 				"Pharaoh's Folly": "first"
 			},
 			"Clue": {
-				"Elite": 2
+				"elite": 2
 			},
 			"Nickname": "Exiled Kalphite Hive"
 		},
@@ -191393,7 +191393,7 @@
 						"Beneath Scabaras' Sands": "step"
 					},
 					"Clue": {
-						"Elite": 2
+						"elite": 2
 					}
 				},
 				"2": {}
@@ -191418,7 +191418,7 @@
 						"Beneath Scabaras' Sands": "step"
 					},
 					"Clue": {
-						"Elite": 1
+						"elite": 1
 					}
 				},
 				"2": {
@@ -191453,7 +191453,7 @@
 						"Eclipse of the Heart": "step"
 					},
 					"Clue": {
-						"Elite": 1
+						"elite": 1
 					},
 					"Connect": {
 						"31": true
@@ -191482,7 +191482,7 @@
 				"Beneath Scabaras' Sands": "step"
 			},
 			"Clue": {
-				"Elite": 2
+				"elite": 2
 			},
 			"Nickname": "Rocky Desert"
 		},
@@ -191515,7 +191515,7 @@
 				"Beneath Scabaras' Sands": "step"
 			},
 			"Clue": {
-				"Elite": 2
+				"elite": 2
 			},
 			"Nickname": "Kalphite Hive"
 		},
@@ -191566,9 +191566,9 @@
 				"Duck Quest": "step"
 			},
 			"Clue": {
-				"Easy": 1,
-				"Medium": 2,
-				"Elite": 2
+				"easy": 1,
+				"medium": 2,
+				"elite": 2
 			},
 			"Nickname": "East Lumbridge Swamp"
 		},
@@ -191702,9 +191702,9 @@
 						"Duck Quest": "step"
 					},
 					"Clue": {
-						"Medium": 1,
-						"Hard": 6,
-						"Elite": 2
+						"medium": 1,
+						"hard": 6,
+						"elite": 2
 					}
 				},
 				"2": {
@@ -191768,7 +191768,7 @@
 						"One Small Favour": "step"
 					},
 					"Clue": {
-						"Elite": 1
+						"elite": 1
 					},
 					"Connect": {
 						"6473": true,
@@ -191824,7 +191824,7 @@
 						"Crow": 2
 					},
 					"Clue": {
-						"Elite": 1
+						"elite": 1
 					}
 				},
 				"5": {
@@ -191932,9 +191932,9 @@
 				"Princess and the Pauper": "step"
 			},
 			"Clue": {
-				"Easy": 1,
-				"Elite": 5,
-				"Master": 1
+				"easy": 1,
+				"elite": 5,
+				"master": 1
 			},
 			"Nickname": "Gower farm"
 		},
@@ -192088,10 +192088,10 @@
 						"Rogue Trader": "step"
 					},
 					"Clue": {
-						"Easy": 4,
-						"Medium": 1,
-						"Hard": 1,
-						"Elite": 8
+						"easy": 4,
+						"medium": 1,
+						"hard": 1,
+						"elite": 8
 					}
 				},
 				"2": {}
@@ -192198,10 +192198,10 @@
 				"You Are It": "step"
 			},
 			"Clue": {
-				"Easy": 3,
-				"Medium": 2,
-				"Hard": 1,
-				"Elite": 6
+				"easy": 3,
+				"medium": 2,
+				"hard": 1,
+				"elite": 6
 			},
 			"Nickname": "Varrock Palace"
 		},
@@ -192223,7 +192223,7 @@
 				"Coins": 1
 			},
 			"Clue": {
-				"Elite": 2
+				"elite": 2
 			},
 			"Nickname": "Varrock Ditch"
 		},
@@ -192252,8 +192252,8 @@
 				"Simon's Wilderness Cape Shop": true
 			},
 			"Clue": {
-				"Hard": 1,
-				"Elite": 2
+				"hard": 1,
+				"elite": 2
 			},
 			"Nickname": "Chaos Temple"
 		},
@@ -192284,8 +192284,8 @@
 				"Tile": 4
 			},
 			"Clue": {
-				"Hard": 1,
-				"Elite": 2
+				"hard": 1,
+				"elite": 2
 			},
 			"Nickname": "Graveyard of Shadows"
 		},
@@ -192315,8 +192315,8 @@
 				"Succession": "step"
 			},
 			"Clue": {
-				"Hard": 1,
-				"Elite": 2
+				"hard": 1,
+				"elite": 2
 			},
 			"Nickname": "Eastern Ruins"
 		},
@@ -192343,8 +192343,8 @@
 						"Summer's End": "step"
 					},
 					"Clue": {
-						"Hard": 1,
-						"Elite": 2
+						"hard": 1,
+						"elite": 2
 					},
 					"Connect": {
 						"11588": true
@@ -192374,7 +192374,7 @@
 				"William's Wilderness Cape Shop": true
 			},
 			"Clue": {
-				"Elite": 2
+				"elite": 2
 			},
 			"Nickname": "North-East Red Dragon Isle"
 		},
@@ -192392,7 +192392,7 @@
 				"Enchanted Key": "step"
 			},
 			"Clue": {
-				"Elite": 5
+				"elite": 5
 			},
 			"Nickname": "Scorpion Pit"
 		},
@@ -192851,8 +192851,8 @@
 				"Rogue Trader": "step"
 			},
 			"Clue": {
-				"Medium": 1,
-				"Hard": 1
+				"medium": 1,
+				"hard": 1
 			},
 			"Nickname": "Sophanem"
 		},
@@ -192883,7 +192883,7 @@
 				"Pharaoh's Folly": "step"
 			},
 			"Clue": {
-				"Elite": 2
+				"elite": 2
 			},
 			"Nickname": "Desert Wanderer Tent"
 		},
@@ -192915,7 +192915,7 @@
 				"Back to the Freezer": "step"
 			},
 			"Clue": {
-				"Elite": 2
+				"elite": 2
 			},
 			"Nickname": "T.A.R.D.I.S. Site"
 		},
@@ -192935,7 +192935,7 @@
 						"Desert Treasure": "step"
 					},
 					"Clue": {
-						"Elite": 1
+						"elite": 1
 					},
 					"Connect": {
 						"12946": true
@@ -192948,7 +192948,7 @@
 						"Beneath Scabaras' Sands": "step"
 					},
 					"Clue": {
-						"Elite": 1
+						"elite": 1
 					},
 					"Connect": {
 						"35": true
@@ -192999,8 +192999,8 @@
 				"Beneath Scabaras' Sands": "step"
 			},
 			"Clue": {
-				"Medium": 1,
-				"Elite": 2
+				"medium": 1,
+				"elite": 2
 			},
 			"Nickname": "The Desert Mining Camp"
 		},
@@ -193022,7 +193022,7 @@
 						"Ugthanki": 8
 					},
 					"Clue": {
-						"Elite": 1
+						"elite": 1
 					},
 					"Quest": {
 						"Diamond in the Rough": "step",
@@ -193045,8 +193045,8 @@
 						"Shantay Pass Shop": true
 					},
 					"Clue": {
-						"Medium": 1,
-						"Elite": 1
+						"medium": 1,
+						"elite": 1
 					},
 					"Quest": {
 						"Evil Dave's Big Day Out": "step"
@@ -193149,9 +193149,9 @@
 				"Rogue Trader": "step"
 			},
 			"Clue": {
-				"Easy": 3,
-				"Elite": 2,
-				"Medium": 1
+				"easy": 3,
+				"elite": 2,
+				"medium": 1
 			},
 			"Nickname": "Al Kharid"
 		},
@@ -193222,10 +193222,10 @@
 						"Rogue Trader": "first"
 					},
 					"Clue": {
-						"Easy": 4,
-						"Medium": 1,
-						"Hard": 3,
-						"Elite": 2
+						"easy": 4,
+						"medium": 1,
+						"hard": 3,
+						"elite": 2
 					}
 				},
 				"2": {}
@@ -193283,8 +193283,8 @@
 						"Restoring Senliten": "step"
 					},
 					"Clue": {
-						"Easy": 1,
-						"Elite": 1
+						"easy": 1,
+						"elite": 1
 					}
 				},
 				"2": {
@@ -193297,12 +193297,12 @@
 						"Potato": 5
 					},
 					"Clue": {
-						"Elite": 1
+						"elite": 1
 					}
 				},
 				"4": {
 					"Clue": {
-						"Elite": 1
+						"elite": 1
 					}
 				}
 			},
@@ -193337,8 +193337,8 @@
 						"Enriched bright wisp": 1
 					},
 					"Clue": {
-						"Easy": 1,
-						"Elite": 2
+						"easy": 1,
+						"elite": 2
 					},
 					"Quest": {
 						"Biohazard": "step",
@@ -193372,7 +193372,7 @@
 						"Biohazard": "step"
 					},
 					"Clue": {
-						"Elite": 1
+						"elite": 1
 					}
 				},
 				"3": {
@@ -193439,7 +193439,7 @@
 						"Tales of Nomad (miniquest)": "step"
 					},
 					"Clue": {
-						"Elite": 2
+						"elite": 2
 					},
 					"Connect": {
 						"13209": true,
@@ -193468,7 +193468,7 @@
 						"Rat Catchers": "step"
 					},
 					"Clue": {
-						"Elite": 1
+						"elite": 1
 					}
 				},
 				"3": {
@@ -193542,7 +193542,7 @@
 						"Princess and the Pauper": "step"
 					},
 					"Clue": {
-						"Elite": 2
+						"elite": 2
 					}
 				},
 				"2": {}
@@ -193615,9 +193615,9 @@
 				"Princess and the Pauper": "first"
 			},
 			"Clue": {
-				"Easy": 1,
-				"Hard": 1,
-				"Elite": 2
+				"easy": 1,
+				"hard": 1,
+				"elite": 2
 			},
 			"Connect": {
 				"27": true
@@ -193642,7 +193642,7 @@
 						"Unwelcome Guests": "step"
 					},
 					"Clue": {
-						"Elite": 2
+						"elite": 2
 					}
 				},
 				"2": {}
@@ -193669,8 +193669,8 @@
 				"Tile": 4
 			},
 			"Clue": {
-				"Hard": 1,
-				"Elite": 2
+				"hard": 1,
+				"elite": 2
 			},
 			"Nickname": "Black Salamander Hunting Area"
 		},
@@ -193709,8 +193709,8 @@
 				"Burnt bones": 8
 			},
 			"Clue": {
-				"Hard": 1,
-				"Elite": 2
+				"hard": 1,
+				"elite": 2
 			},
 			"Nickname": "Demonic Ruins of Annakarl"
 		},
@@ -193738,8 +193738,8 @@
 				"Gold ore": 5
 			},
 			"Clue": {
-				"Hard": 1,
-				"Elite": 7
+				"hard": 1,
+				"elite": 7
 			},
 			"Nickname": "Rogues' Castle"
 		},
@@ -194202,7 +194202,7 @@
 						"Heart of Stone": "step"
 					},
 					"Clue": {
-						"Elite": 3
+						"elite": 3
 					}
 				},
 				"2": {}
@@ -194243,7 +194243,7 @@
 						"Tales of the God Wars (miniquest)": "first"
 					},
 					"Clue": {
-						"Elite": 1
+						"elite": 1
 					}
 				},
 				"2": {
@@ -194277,7 +194277,7 @@
 						"Sliske's Endgame": "step"
 					},
 					"Clue": {
-						"Elite": 2
+						"elite": 2
 					}
 				},
 				"2": {
@@ -194364,8 +194364,8 @@
 						"Rogue Trader": "step"
 					},
 					"Clue": {
-						"Medium": 1,
-						"Elite": 2
+						"medium": 1,
+						"elite": 2
 					}
 				},
 				"2": {},
@@ -194386,7 +194386,7 @@
 						"The Tale of the Muspah": "step"
 					},
 					"Clue": {
-						"Elite": 1
+						"elite": 1
 					}
 				},
 				"2": {
@@ -194397,7 +194397,7 @@
 						"Goat": 4
 					},
 					"Clue": {
-						"Elite": 4
+						"elite": 4
 					}
 				}
 			},
@@ -194428,7 +194428,7 @@
 						"Dominion Tower Rewards": true
 					},
 					"Clue": {
-						"Elite": 6
+						"elite": 6
 					}
 				},
 				"2": {}
@@ -194471,7 +194471,7 @@
 						"Tomes of the Warlock": "step"
 					},
 					"Clue": {
-						"Elite": 2
+						"elite": 2
 					},
 					"Connect": {
 						"2": true,
@@ -194518,7 +194518,7 @@
 						"Eclipse of the Heart": "step"
 					},
 					"Clue": {
-						"Hard": 1
+						"hard": 1
 					}
 				},
 				"2": {},
@@ -194574,8 +194574,8 @@
 				"Rune Mechanics": "first"
 			},
 			"Clue": {
-				"Medium": 1,
-				"Elite": 2
+				"medium": 1,
+				"elite": 2
 			},
 			"Nickname": "Mage Training Arena"
 		},
@@ -194638,10 +194638,10 @@
 				"A Cultist's Journey": "step"
 			},
 			"Clue": {
-				"Easy": 1,
-				"Medium": 1,
-				"Hard": 1,
-				"Elite": 2
+				"easy": 1,
+				"medium": 1,
+				"hard": 1,
+				"elite": 2
 			},
 			"Nickname": "Exam centre"
 		},
@@ -194692,9 +194692,9 @@
 				"Twilight of the Gods": "first"
 			},
 			"Clue": {
-				"Medium": 2,
-				"Elite": 2,
-				"Master": 1
+				"medium": 2,
+				"elite": 2,
+				"master": 1
 			},
 			"Nickname": "Digsite"
 		},
@@ -194736,10 +194736,10 @@
 						"Rag and Bone Man#Wish List": "first"
 					},
 					"Clue": {
-						"Easy": 1,
-						"Medium": 1,
-						"Hard": 1,
-						"Elite": 2
+						"easy": 1,
+						"medium": 1,
+						"hard": 1,
+						"elite": 2
 					},
 					"Connect": {
 						"15176": true
@@ -194756,7 +194756,7 @@
 						"Ancent Awakening": "step"
 					},
 					"Clue": {
-						"Elite": 1
+						"elite": 1
 					}
 				},
 				"2": {
@@ -194774,7 +194774,7 @@
 						"Succession": "step"
 					},
 					"Clue": {
-						"Elite": 1
+						"elite": 1
 					}
 				}
 			},
@@ -194794,7 +194794,7 @@
 						"Lobster": 2
 					},
 					"Clue": {
-						"Elite": 2
+						"elite": 2
 					}
 				},
 				"2": {}
@@ -194813,7 +194813,7 @@
 						"Enchanted Key": "step"
 					},
 					"Clue": {
-						"Elite": 2
+						"elite": 2
 					}
 				},
 				"2": {},
@@ -194840,7 +194840,7 @@
 						"Skull": 1
 					},
 					"Clue": {
-						"Elite": 2
+						"elite": 2
 					}
 				},
 				"2": {
@@ -194862,7 +194862,7 @@
 				"Fishing spot (cage, harpoon)": 3
 			},
 			"Clue": {
-				"Elite": 2
+				"elite": 2
 			},
 			"Nickname": "East Wilderness Fishing"
 		},
@@ -194889,7 +194889,7 @@
 						"Edward's Wilderness Cape Shop": true
 					},
 					"Clue": {
-						"Elite": 3
+						"elite": 3
 					}
 				},
 				"2": {}
@@ -194900,7 +194900,7 @@
 			"Sections": {
 				"1": {
 					"Clue": {
-						"Elite": 1
+						"elite": 1
 					}
 				},
 				"2": {},
@@ -195081,7 +195081,7 @@
 				"Dealing with Scabaras": "step"
 			},
 			"Clue": {
-				"Elite": 1
+				"elite": 1
 			},
 			"Nickname": "Ullek Marsh"
 		},
@@ -195163,9 +195163,9 @@
 				"Eclipse of the Heart": "step"
 			},
 			"Clue": {
-				"Hard": 2,
-				"Elite": 2,
-				"Master": 1
+				"hard": 2,
+				"elite": 2,
+				"master": 1
 			},
 			"Nickname": "Nardah"
 		},
@@ -195175,7 +195175,7 @@
 				"Jackal": 7
 			},
 			"Clue": {
-				"Elite": 15
+				"elite": 15
 			},
 			"Nickname": "Nardah Desert"
 		},
@@ -195191,7 +195191,7 @@
 				"Small lizard": 27
 			},
 			"Clue": {
-				"Elite": 9
+				"elite": 9
 			},
 			"Connect": {
 				"9541": true
@@ -195214,7 +195214,7 @@
 				"Demon Boss": 1
 			},
 			"Clue": {
-				"Elite": 11
+				"elite": 11
 			},
 			"Connect": {
 				"33": true
@@ -195267,9 +195267,9 @@
 						"13973": true
 					},
 					"Clue": {
-						"Easy": 1, 
-						"Medium": 1,
-						"Elite": 2
+						"easy": 1, 
+						"medium": 1,
+						"elite": 2
 					}
 				},
 				"2": {
@@ -195277,7 +195277,7 @@
 						"Cave": 1
 					},
 					"Clue": {
-						"Elite": 3
+						"elite": 3
 					},
 					"Connect": {
 						"13717": true
@@ -195341,8 +195341,8 @@
 						"Swamp tar": 9
 					},
 					"Clue": {
-						"Medium": 1,
-						"Elite": 2
+						"medium": 1,
+						"elite": 2
 					}
 				},
 				"3": {}
@@ -195369,8 +195369,8 @@
 						"Swamp tar": 10
 					},
 					"Clue": {
-						"Medium": 1,
-						"Elite": 2
+						"medium": 1,
+						"elite": 2
 					}
 				},
 				"2": {
@@ -195391,7 +195391,7 @@
 						"Nature Spirit": "first"
 					},
 					"Clue": {
-						"Hard": 1
+						"hard": 1
 					},
 					"Connect": {
 						"9043": true
@@ -195425,8 +195425,8 @@
 				"Swamp tar": 15
 			},
 			"Clue": {
-				"Hard": 1,
-				"Elite": 2
+				"hard": 1,
+				"elite": 2
 			},
 			"Nickname": "Mort Myre Swamp"
 		},
@@ -195484,8 +195484,8 @@
 				"River of Blood": "step"
 			},
 			"Clue": {
-				"Medium": 2,
-				"Elite": 2
+				"medium": 2,
+				"elite": 2
 			},
 			"Nickname": "Paterdomus"
 		},
@@ -195523,8 +195523,8 @@
 				"Archaeologist (excavation sites)": 2
 			},
 			"Clue": {
-				"Elite": 2,
-				"Master": 1
+				"elite": 2,
+				"master": 1
 			},
 			"Connect": {
 				"4680": true,
@@ -195544,7 +195544,7 @@
 				"Lobster": 3
 			},
 			"Clue": {
-				"Elite": 2
+				"elite": 2
 			},
 			"Nickname": "Daemonheim Peninsula"
 		},
@@ -195594,7 +195594,7 @@
 						"A New Age": "first"
 					},
 					"Clue": {
-						"Elite": 2
+						"elite": 2
 					}
 				},
 				"2": {
@@ -195644,7 +195644,7 @@
 						"Vengeance (unabridged saga)": "step"
 					},
 					"Clue": {
-						"Elite": 2
+						"elite": 2
 					}
 				},
 				"2": {
@@ -195673,7 +195673,7 @@
 		},
 		"13629": {
 			"Clue": {
-				"Elite": 1
+				"elite": 1
 			},
 			"Nickname": "Wilderness Volcano East Coast"
 		},
@@ -195881,7 +195881,7 @@
 				"Do No Evil": "step"
 			},
 			"Clue": {
-				"Elite": 9
+				"elite": 9
 			},
 			"Connect": {
 				"5963": true,
@@ -195918,8 +195918,8 @@
 				"Beneath Scabaras' Sands": "step"
 			},
 			"Clue": {
-				"Hard": 1,
-				"Elite": 7
+				"hard": 1,
+				"elite": 7
 			},
 			"Nickname": "Uzer"
 		},
@@ -195937,7 +195937,7 @@
 						"Crashed star": 1
 					},
 					"Clue": {
-						"Elite": 2
+						"elite": 2
 					}
 				}
 			},
@@ -195950,7 +195950,7 @@
 						"Swamp tree": 1
 					},
 					"Clue": {
-						"Elite": 2
+						"elite": 2
 					}
 				},
 				"2": {
@@ -196065,8 +196065,8 @@
 						"Shades of Mort'ton": "first"
 					},
 					"Clue": {
-						"Hard": 1,
-						"Elite": 2
+						"hard": 1,
+						"elite": 2
 					}
 				},
 				"2": {
@@ -196103,7 +196103,7 @@
 						"In Search of the Myreque": "step"
 					},
 					"Clue": {
-						"Elite": 2
+						"elite": 2
 					}
 				},
 				"2": {
@@ -196135,7 +196135,7 @@
 						"9541": true
 					},
 					"Clue": {
-						"Elite": 2
+						"elite": 2
 					}
 				},
 				"2": {
@@ -196254,9 +196254,9 @@
 						"While Guthix Sleeps": "step"
 					},
 					"Clue": {
-						"Easy": 1,
-						"Medium": 3,
-						"Elite": 2
+						"easy": 1,
+						"medium": 3,
+						"elite": 2
 					}
 				},
 				"2": {},
@@ -196288,8 +196288,8 @@
 				"36": true
 			},
 			"Clue": {
-				"Medium": 1,
-				"Elite": 2
+				"medium": 1,
+				"elite": 2
 			},
 			"Quest": {
 				"Animal Magnetism":  "step",
@@ -196356,7 +196356,7 @@
 				"Salt in the Wound": "first"
 			},
 			"Clue": {
-				"Elite": 3
+				"elite": 3
 			},
 			"Nickname": "Daemonheim Docks"
 		},
@@ -196403,7 +196403,7 @@
 						"Marmaros rock": 4
 					},
 					"Clue": {
-						"Elite": 1
+						"elite": 1
 					}
 				}
 			},
@@ -196669,7 +196669,7 @@
 				"Kindred Spirits": "step"
 			},
 			"Clue": {
-				"Elite": 2
+				"elite": 2
 			},
 			"Nickname": "The Barrows"
 		},
@@ -196713,7 +196713,7 @@
 						"Desert Treasure": "step"
 					},
 					"Clue": {
-						"Elite": 2
+						"elite": 2
 					},
 					"Connect": {
 						"33": true
@@ -196750,7 +196750,7 @@
 				"Copernicus Glyph": 1
 			},
 			"Clue": {
-				"Elite": 14
+				"elite": 14
 			},
 			"Connect": {
 				"14234": true
@@ -196783,7 +196783,7 @@
 				"The Great Brain Robbery": "step"
 			},
 			"Clue": {
-				"Elite": 2
+				"elite": 2
 			},
 			"Nickname": "Castle Fenkenstrain"
 		},
@@ -197273,7 +197273,7 @@
 						"The Lord of Vampyrium": "step"
 					},
 					"Clue": {
-						"Master": 8
+						"master": 8
 					}
 				},
 				"2": {
@@ -197292,7 +197292,7 @@
 						"The Branches of Darkmeyer": "step"
 					},
 					"Clue": {
-						"Master": 1 
+						"master": 1 
 					}
 				},
 				"3": {},
@@ -197360,9 +197360,9 @@
 				"The Lost Toys (miniquest)": "step"
 			},
 			"Clue": {
-				"Medium": 1,
-				"Hard": 1,
-				"Elite": 11
+				"medium": 1,
+				"hard": 1,
+				"elite": 11
 			},
 			"Nickname": "East Haunted Woods"
 		},
@@ -197406,7 +197406,7 @@
 				"Ghosts Ahoy": "step"
 			},
 			"Clue": {
-				"Elite": 2
+				"elite": 2
 			},
 			"Nickname": "Alice's Farm"
 		},
@@ -197612,8 +197612,8 @@
 						"Rocking Out": "step"
 					},
 					"Clue": {
-						"Elite": 6,
-						"Master": 1
+						"elite": 6,
+						"master": 1
 					}
 				},
 				"2": {}
@@ -197645,7 +197645,7 @@
 				"Blasphemous journal": 1
 			},
 			"Clue": {
-				"Elite": 6
+				"elite": 6
 			},
 			"Nickname": "West Mos Le'Harmless Jungle"
 		},
@@ -197731,7 +197731,7 @@
 						"The Branches of Darkmeyer": "step"
 					},
 					"Clue": {
-						"Master": 6
+						"master": 6
 					}
 				},
 				"3": {
@@ -197784,7 +197784,7 @@
 						"Maria Gadderanks": 1
 					},
 					"Clue": {
-						"Master": 2
+						"master": 2
 					}
 				}
 			},
@@ -197833,7 +197833,7 @@
 						"Rocking Out": "first"
 					},
 					"Clue": {
-						"Master": 1
+						"master": 1
 					},
 					"Connect": {
 						"14747": true
@@ -197857,7 +197857,7 @@
 						"Vessel of the Harbinger": "step"
 					},
 					"Clue": {
-						"Elite": 2
+						"elite": 2
 					},
 					"Connect": {
 						"14746": true
@@ -197896,7 +197896,7 @@
 						"Vessel of the Harbinger": "step"
 					},
 					"Clue": {
-						"Elite": 1
+						"elite": 1
 					}
 				},
 				"2": {},
@@ -198221,7 +198221,7 @@
 				"Kitten": 1
 			},
 			"Clue": {
-				"Elite": 7
+				"elite": 7
 			},
 			"Connect": {
 				"14994": true
@@ -198242,7 +198242,7 @@
 				"Ritual of the Mahjarrat": "step"
 			},
 			"Clue": {
-				"Elite": 6
+				"elite": 6
 			},
 			"Nickname": "East Mos Le'Harmless Jungle"
 		},
@@ -198845,7 +198845,7 @@
 						"Ritual of the Mahjarrat": "step"
 					},
 					"Clue": {
-						"Elite": 4
+						"elite": 4
 					}
 				},
 				"2": {
@@ -199320,7 +199320,7 @@
 		},
 		"15406": {
 			"Clue": {
-				"Elite": 1
+				"elite": 1
 			},
 			"Nickname": "Mos Le'Harmless Beach Corner"
 		},
@@ -199329,7 +199329,7 @@
 				"Hooded pirate": 1
 			},
 			"Clue": {
-				"Elite": 1
+				"elite": 1
 			},
 			"Nickname": "Hooded Pirate coast"
 		},
@@ -206415,9 +206415,9 @@
 				"Recipe for Disaster: Freeing Sir Amik Varze": "step"
 			},
 			"Clue": {
-				"Medium": 1,
-				"Hard": 1,
-				"Elite": 22
+				"medium": 1,
+				"hard": 1,
+				"elite": 22
 			}
 		},
 		"Troll Stronghold": {
@@ -206501,7 +206501,7 @@
 				"Aquanite": 9
 			},
 			"Clue": {
-				"Elite": 19
+				"elite": 19
 			},
 			"Connect": {
 				"11064": true
@@ -206572,7 +206572,7 @@
 				"Recipe for Disaster: Freeing the Mountain Dwarf": "step"
 			},
 			"Clue": {
-				"Hard": 1
+				"hard": 1
 			}
 		},
 		"Burgh de Rott Myreque Hideout": {
@@ -206674,7 +206674,7 @@
 				"18258": true
 			},
 			"Clue": {
-				"Master": 1
+				"master": 1
 			},
 			"Quest": {
 				"Azzanadra's Quest": "step",
@@ -206975,7 +206975,7 @@
 				"Wanted!": "step"
 			},
 			"Clue": {
-				"Elite": 25
+				"elite": 25
 			},
 			"Connect": {
 				"3910": true,
@@ -207042,7 +207042,7 @@
 				"Rum Deal": "step"
 			},
 			"Clue": {
-				"Hard": 1
+				"hard": 1
 			}
 		},
 		"Kalphite Hive": {
@@ -207249,8 +207249,8 @@
 				"Rat Catchers": "step"
 			},
 			"Clue": {
-				"Hard": 1,
-				"Elite": 17
+				"hard": 1,
+				"elite": 17
 			}
 		},
 		"Kalphite Nursery": {
@@ -207308,7 +207308,7 @@
 				"Tales of Nomad (miniquest)": "first"
 			},
 			"Clue": {
-				"Master": 1
+				"master": 1
 			}
 		},
 		"Player-Owned Port": {
@@ -207540,7 +207540,7 @@
 				"The Mighty Fall": "first"
 			},
 			"Clue": {
-				"Elite": 20
+				"elite": 20
 			},
 			"Connect": {
 				"9282": true,
@@ -207610,7 +207610,7 @@
 				"Farli": 1
 			},
 			"Clue": {
-				"Master": 1
+				"master": 1
 			},
 			"Connect": {
 				"11929": true
@@ -207710,7 +207710,7 @@
 				"Mutated jadinko male": 32
 			},
 			"Clue": {
-				"Master": 1
+				"master": 1
 			},
 			"Connect": {
 				"11821": true,
@@ -207821,7 +207821,7 @@
 				"Benedict's World Tour (miniquest)": "step"
 			},
 			"Clue": {
-				"Master": 1
+				"master": 1
 			},
 			"Connect": {
 				"12337": true
@@ -208623,7 +208623,7 @@
 				"Toad and Chicken": true
 			},
 			"Clue": {
-				"Easy": 1
+				"easy": 1
 			}
 		},
 		"Blast furnace": {
@@ -208775,7 +208775,7 @@
 				"Death Plateau": "step"
 			},
 			"Clue": {
-				"Medium": 2
+				"medium": 2
 			},
 			"Connect": {
 				"11319": true,
@@ -208826,7 +208826,7 @@
 				"Within the Light": "step"
 			},
 			"Clue": {
-				"Master": 1
+				"master": 1
 			},
 			"Connect": {
 				"7496": true
@@ -208968,7 +208968,7 @@
 				"Wizard": 1
 			},
 			"Clue": {
-				"Master": 1
+				"master": 1
 			},
 			"Connect": {
 				"13977": true
@@ -209754,7 +209754,7 @@
 				"Celestial dragon": 12
 			},
 			"Clue": {
-				"Master": 1
+				"master": 1
 			},
 			"Connect": {
 				"15159": true
@@ -210055,7 +210055,7 @@
 				"Benedict's World Tour (miniquest)": "step"
 			},
 			"Clue": {
-				"Master": 1
+				"master": 1
 			}
 		},
 		"Sorceress' Garden": {
@@ -210669,7 +210669,7 @@
 				"The Slug Menace": "step"
 			},
 			"Clue": {
-				"Medium": 1
+				"medium": 1
 			}
 		},
 		"Slug Citadel": {
@@ -211173,8 +211173,8 @@
 				"What's Mine is Yours": "step"
 			},
 			"Clue": {
-				"Easy": 1,
-				"Hard": 1
+				"easy": 1,
+				"hard": 1
 			}
 		},
 		"Karamja Volcano Dungeon": {
@@ -211192,7 +211192,7 @@
 				"Red spiders' eggs": 1
 			},
 			"Clue": {
-				"Hard": 1
+				"hard": 1
 			},
 			"Connect": {
 				"4679": true,
@@ -211276,7 +211276,7 @@
 				"Tortle Combat (miniquest)": "step"
 			},
 			"Clue": {
-				"Hard": 1
+				"hard": 1
 			}
 		},
 		"Al Kharid resource dungeon": {
@@ -211322,7 +211322,7 @@
                 "Bronze dragon": 3
 			},
 			"Clue": {
-				"Elite": 42
+				"elite": 42
 			},
 			"Quest": {
 				"One of a Kind": "step"
@@ -211597,7 +211597,7 @@
 				"Elemental Workshop IV": "step"
 			},
 			"Clue": {
-				"Hard": 1
+				"hard": 1
 			}
 		},
 		"Elemental Workshop Second Floor": {
@@ -212294,7 +212294,7 @@
 				"The Eyes of Glouphrie": "first"
 			},
 			"Clue": {
-				"Medium": 2
+				"medium": 2
 			}
 		},
 		"Grand Tree Mine": {
@@ -212384,7 +212384,7 @@
 				"Gold ore": 1
 			},
 			"Clue": {
-				"Hard": 1
+				"hard": 1
 			},
 			"Connect": {
 				"12597": true
@@ -212437,7 +212437,7 @@
 				"Poison spider": 18
 			},
 			"Clue": {
-				"Hard": 2
+				"hard": 2
 			},
 			"Connect": {
 				"10288": true
@@ -213651,7 +213651,7 @@
 				"The Lost Tribe": "step"
 			},
 			"Clue": {
-				"Hard": 1
+				"hard": 1
 			}
 		},
 		"Lumbridge Swamp Caves": {
@@ -213683,7 +213683,7 @@
 				"The Mighty Fall": "step"
 			},
 			"Clue": {
-				"Elite": 12
+				"elite": 12
 			},
 			"Connect": {
 				"12593": true,
@@ -214167,7 +214167,7 @@
 				"Mind-controlled monkey butler": 1
 			},
 			"Clue": {
-				"Master": 1
+				"master": 1
 			},
 			"Connect": {
 				"11829": true
@@ -214742,7 +214742,7 @@
 				"Azzanadra's Quest": "step"
 			},
 			"Clue": {
-				"Master": 27
+				"master": 27
 			}
 		},
 		"Crondis Tomb": {
@@ -214898,7 +214898,7 @@
 				"Tuai Leit's Own (miniquest)": "first"
 			},
 			"Clue": {
-				"Master": 51
+				"master": 51
 			},
 			"Spawn": {
 				"Sea shell": 5,
@@ -214935,7 +214935,7 @@
                 "Hermit crab": 1
             },
 			"Clue": {
-				"Master": 1
+				"master": 1
 			},
 			"Connect": {
 				"10293": true
@@ -215397,7 +215397,7 @@
 				"13716": true
 			},
 			"Clue": {
-				"Master": 1
+				"master": 1
 			},
 			"Quest": {
 				"The Chosen Commander": "step",
