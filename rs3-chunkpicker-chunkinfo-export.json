@@ -227840,7 +227840,10 @@
 				"1": "2/128"
 			},
 			"Iron dagger": {
-				"1": "1/128"
+				"1": "1/256"
+			},
+			"Iron off hand dagger": {
+				"1": "1/256"
 			},
 			"Coins": {
 				"3": "38/128",
@@ -230709,7 +230712,10 @@
 				"1": "4/128"
 			},
 			"Iron mace": {
-				"1": "1/128"
+				"1": "1/256"
+			},
+			"Iron off hand mace": {
+				"1": "1/256"
 			},
 			"Tin ore": {
 				"1": "1/128"
@@ -230795,10 +230801,16 @@
 				"2": "1/128"
 			},
 			"Bronze battleaxe": {
-				"1": "4/128"
+				"1": "2/128"
+			},
+			"Bronze off hand battleaxe": {
+				"1": "2/128"
 			},
 			"Iron mace": {
-				"1": "1/128"
+				"1": "1/256"
+			},
+			"Iron off hand mace": {
+				"1": "1/256"
 			},
 			"Coins": {
 				"8": "42/128",
@@ -231641,13 +231653,22 @@
 				"1": "1/128"
 			},
 			"Iron warhammer": {
-				"1": "6/128"
-			},
-			"Medium warhammer": {
 				"1": "3/128"
 			},
+			"Iron off hand warhammer": {
+				"1": "3/128"
+			},
+			"Bronze off hand warhammer": {
+				"1": "3/256"
+			},
+			"Bronze warhammer": {
+				"1": "3/256"
+			},
 			"Steel warhammer": {
-				"1": "1/128"
+				"1": "1/256"
+			},
+			"Steel off hand warhammer": {
+				"1": "1/256"
 			},
 			"Coins": {
 				"15": "44/128",
@@ -231717,8 +231738,11 @@
 			"Bronze med helm": {
 				"1": "4/128"
 			},
-			"Bronze battleaxe": {
-				"1": "2/128"
+			"Bronze off hand battleaxe": {
+				"1": "1/128"
+			},
+			"Bronze off hand battleaxe": {
+				"1": "1/128"
 			},
 			"Iron battleaxe": {
 				"1": "1/128"
@@ -231755,13 +231779,22 @@
 				"1": "1/128"
 			},
 			"Iron warhammer": {
-				"1": "5/128"
+				"1": "5/256"
+			},
+			"Iron off hand warhammer": {
+				"1": "5/256"
 			},
 			"Bronze warhammer": {
-				"1": "3/128"
+				"1": "3/256"
+			},
+			"Bronze off hand warhammer": {
+				"1": "3/256"
 			},
 			"Steel warhammer": {
-				"1": "2/128"
+				"1": "1/128"
+			},
+			"Steel off hand warhammer": {
+				"1": "1/128"
 			},
 			"Coins": {
 				"35": "44/128",
@@ -238083,34 +238116,58 @@
 				"1": "2/100"
 			},
 			"Steel dagger": {
-				"1": "4/100"
-			},
-			"Steel sword": {
 				"1": "2/100"
 			},
+			"Steel off hand dagger": {
+				"1": "2/100"
+			},
+			"Steel sword": {
+				"1": "1/100"
+			},
+			"Steel off hand sword": {
+				"1": "1/100"
+			},
 			"Steel longsword": {
-				"1": "4/100"
+				"1": "2/100"
+			},
+			"Steel off hand longsword": {
+				"1": "2/100"
 			},
 			"Steel 2h sword": {
 				"1": "4/100"
 			},
 			"Steel mace": {
-				"1": "4/100"
+				"1": "2/100"
+			},
+			"Steel off hand mace": {
+				"1": "2/100"
 			},
 			"Steel chainbody": {
 				"1": "2/100"
 			},
 			"Mithril dagger": {
-				"1": "1/100"
+				"1": "1/200"
 			},
 			"Mithril longsword": {
-				"1": "1/100"
+				"1": "1/200"
+			},
+			"Mithril off hand dagger": {
+				"1": "1/200"
+			},
+			"Mithril off hand longsword": {
+				"1": "1/200"
 			},
 			"Adamant dagger": {
-				"1": "1/100"
+				"1": "1/200"
 			},
 			"Adamant longsword": {
-				"1": "1/100"
+				"1": "1/200"
+			},
+			"Adamant off hand dagger": {
+				"1": "1/200"
+			},
+			"Adamant off hand longsword": {
+				"1": "1/200"
 			},
 			"Coins": {
 				"3-102": "31/100",
@@ -238181,40 +238238,70 @@
 			"Off-hand black dagger": {
 				"1": "1/200"
 			},
-			"Medium bladed iron salvage": {
+			"Iron 2h sword": {
 				"1": "2/100"
 			},
-			"Medium plated iron salvage": {
+			"Iron chainbody": {
 				"1": "2/100"
 			},
-			"Tiny blunt steel salvage": {
-				"1": "2/100"
-			},
-			"Tiny plated steel salvage": {
-				"1": "2/100"
-			},
-			"Tiny spiky steel salvage": {
-				"1": "4/100"
-			},
-			"Small bladed steel salvage": {
-				"1": "2/100"
-			},
-			"Medium bladed steel salvage": {
-				"1": "4/100"
-			},
-			"Medium plated steel salvage": {
-				"1": "2/100"
-			},
-			"Tiny spiky mithril salvage": {
+			"Steel mace": {
 				"1": "1/100"
 			},
-			"Small bladed mithril salvage": {
+			"Steel off hand mace": {
 				"1": "1/100"
 			},
-			"Tiny blunt adamant salvage": {
+			"Steel med helm": {
+				"1": "2/100"
+			},
+			"Steel dagger": {
 				"1": "1/100"
 			},
-			"Medium bladed adamant salvage": {
+			"Steel off hand dagger": {
+				"1": "1/100"
+			},
+			"Steel sword": {
+				"1": "1/100"
+			},
+			"Steel off hand sword": {
+				"1": "1/100"
+			},
+			"Steel longsword": {
+				"1": "1/100"
+			},
+			"Steel off hand longsword": {
+				"1": "1/100"
+			},
+			"Steel 2h sword": {
+				"1": "2/100"
+			},
+			"Steel battleaxe": {
+				"1": "1/100"
+			},
+			"Steel off hand battleaxe": {
+				"1": "1/100"
+			},
+			"Steel chainbody": {
+				"1": "2/100"
+			},
+			"Mithril dagger": {
+				"1": "1/200"
+			},
+			"Mithril off hand dagger": {
+				"1": "1/200"
+			},
+			"Mithril longsword": {
+				"1": "1/200"
+			},
+			"Mithril off hand longsword": {
+				"1": "1/200"
+			},
+			"Adamant mace": {
+				"1": "1/200"
+			},
+			"Adamant off hand mace": {
+				"1": "1/200"
+			},
+			"Adamant 2h sword": {
 				"1": "1/100"
 			},
 			"Coins": {
@@ -240711,10 +240798,16 @@
 				"1": "4/128"
 			},
 			"Bronze battleaxe": {
-				"1": "2/128"
+				"1": "1/128"
+			},
+			"Bronze off hand battleaxe": {
+				"1": "1/128"
 			},
 			"Iron battleaxe": {
-				"1": "1/128"
+				"1": "1/256"
+			},
+			"Iron off hand battleaxe": {
+				"1": "1/256"
 			},
 			"Coins": {
 				"4": "23/128",
@@ -240796,10 +240889,16 @@
 				"1": "4/128"
 			},
 			"Bronze battleaxe": {
-				"1": "2/128"
+				"1": "1/128"
+			},
+			"Bronze off hand battleaxe": {
+				"1": "1/128"
 			},
 			"Iron battleaxe": {
-				"1": "1/128"
+				"1": "1/256"
+			},
+			"Iron battleaxe": {
+				"1": "1/256"
 			},
 			"Coins": {
 				"4": "23/128",
@@ -243005,6 +243104,9 @@
 				"1 (F2P)": "2/128"
 			},
 			"Iron dagger": {
+				"1 (F2P)": "1/128"
+			},
+			"Iron off hand dagger": {
 				"1 (F2P)": "1/128"
 			},
 			"Coins": {
@@ -247526,7 +247628,10 @@
 				"1": "3/128"
 			},
 			"Bronze scimitar": {
-				"1": "1/128"
+				"1": "1/256"
+			},
+			"Bronze off hand scimitar": {
+				"1": "1/256"
 			},
 			"Coins": {
 				"1": "34/128",
@@ -249540,7 +249645,10 @@
 				"1": "1/128"
 			},
 			"Iron dagger": {
-				"1": "6/128"
+				"1": "3/128"
+			},
+			"Iron off hand dagger": {
+				"1": "3/128"
 			},
 			"Grapes": {
 				"3": "16/128"
@@ -249622,7 +249730,10 @@
 				"1": "1/128"
 			},
 			"Iron dagger": {
-				"1": "6/128"
+				"1": "3/128"
+			},
+			"Iron off hand dagger": {
+				"1": "3/128"
 			},
 			"Grapes": {
 				"3": "16/128"
@@ -249694,7 +249805,10 @@
 				"1": "1/128"
 			},
 			"Iron dagger": {
-				"1": "6/128"
+				"1": "3/128"
+			},
+			"Iron off hand dagger": {
+				"1": "3/128"
 			},
 			"Grapes": {
 				"3": "16/128"
@@ -249798,7 +249912,10 @@
 				"1": "1/128"
 			},
 			"Iron dagger": {
-				"1": "6/128"
+				"1": "3/128"
+			},
+			"Iron off hand dagger": {
+				"1": "3/128"
 			},
 			"Grapes": {
 				"3": "16/128"
@@ -250916,12 +251033,18 @@
 				"10": "5/128"
 			},
 			"Iron dagger": {
-				"1": "4/128"
-			},
-			"Steel longsword": {
 				"1": "2/128"
 			},
-			"Iron hull helm": {
+			"Iron off hand dagger": {
+				"1": "2/128"
+			},
+			"Steel longsword": {
+				"1": "1/128"
+			},
+			"Steel off hand longsword": {
+				"1": "1/128"
+			},
+			"Iron full helm": {
 				"1": "5/128"
 			},
 			"Iron kiteshield": {
@@ -251026,7 +251149,10 @@
 				"1": "3/128"
 			},
 			"Iron sword": {
-				"1": "3/128"
+				"1": "3/256"
+			},
+			"Iron off hand sword": {
+				"1": "3/256"
 			},
 			"Iron spear": {
 				"1": "2/128"
@@ -251035,10 +251161,16 @@
 				"1": "2/128"
 			},
 			"Steel dagger": {
-				"1": "3/128"
+				"1": "3/256"
+			},
+			"Steel off hand dagger": {
+				"1": "3/256"
 			},
 			"Steel longsword": {
-				"1": "1/128"
+				"1": "1/256"
+			},
+			"Steel off hand longsword": {
+				"1": "1/256"
 			},
 			"Coins": {
 				"5": "12/128",
@@ -251126,7 +251258,10 @@
 				"2": "3/128"
 			},
 			"Iron sword": {
-				"1": "3/128"
+				"1": "3/256"
+			},
+			"Iron off hand sword": {
+				"1": "3/256"
 			},
 			"Iron spear": {
 				"1": "2/128"
@@ -251135,10 +251270,16 @@
 				"1": "2/128"
 			},
 			"Steel dagger": {
-				"1": "3/128"
+				"1": "3/256"
+			},
+			"Steel off hand dagger": {
+				"1": "3/256"
 			},
 			"Steel longsword": {
-				"1": "1/128"
+				"1": "1/256"
+			},
+			"Steel off hand longsword": {
+				"1": "1/256"
 			},
 			"Coins": {
 				"5": "12/128",
@@ -251241,13 +251382,22 @@
 				"5": "1/128"
 			},
 			"Iron sword": {
-				"1": "3/128"
+				"1": "3/256"
+			},
+			"Iron off hand sword": {
+				"1": "3/256"
 			},
 			"Steel dagger": {
-				"1": "3/128"
+				"1": "3/256"
+			},
+			"Steel off hand dagger": {
+				"1": "3/256"
 			},
 			"Steel longsword": {
-				"1": "1/128"
+				"1": "1/256"
+			},
+			"Steel off hand longsword": {
+				"1": "1/256"
 			},
 			"Coins": {
 				"1": "4/128",
@@ -258012,6 +258162,9 @@
 			"Bronze dagger": {
 				"1": "1/128"
 			},
+			"Bronze off hand dagger": {
+				"1": "1/128"
+			},
 			"Coins": {
 				"3": "38/128",
 				"5": "9/128",
@@ -258179,13 +258332,22 @@
 				"1": "1/128"
 			},
 			"Iron warhammer": {
-				"1": "6/128"
-			},
-			"Bronze warhammer": {
 				"1": "3/128"
 			},
+			"Iron off hand warhammer": {
+				"1": "3/128"
+			},
+			"Bronze off hand warhammer": {
+				"1": "3/256"
+			},
+			"Bronze warhammer": {
+				"1": "3/256"
+			},
 			"Steel warhammer": {
-				"1": "1/128"
+				"1": "1/256"
+			},
+			"Steel off hand warhammer": {
+				"1": "1/256"
 			},
 			"Coins": {
 				"15": "42/128",
@@ -261643,13 +261805,19 @@
 				"1": "5/128"
 			},
 			"Bronze scimitar": {
-				"1": "6/128"
+				"1": "6/256"
+			},
+			"Bronze scimitar": {
+				"1": "6/256"
 			},
 			"Bronze full helm": {
 				"1": "5/128"
 			},
 			"Bronze battleaxe": {
-				"1": "5/128"
+				"1": "5/256"
+			},
+			"Bronze off hand battleaxe": {
+				"1": "5/256"
 			},
 			"Bronze 2h sword": {
 				"1": "5/128"
@@ -261664,16 +261832,25 @@
 				"1": "5/128"
 			},
 			"Iron mace": {
-				"1": "5/128"
+				"1": "5/256"
+			},
+			"Iron mace": {
+				"1": "5/256"
 			},
 			"Iron spear": {
 				"1": "4/128"
 			},
 			"Iron longsword": {
-				"1": "5/128"
+				"1": "5/256"
+			},
+			"Iron off hand longsword": {
+				"1": "5/256"
 			},
 			"Iron scimitar": {
-				"1": "5/128"
+				"1": "5/256"
+			},
+			"Iron off hand scimitar": {
+				"1": "5/256"
 			},
 			"Iron chainbody": {
 				"1": "5/128"
@@ -261682,10 +261859,16 @@
 				"1": "5/128"
 			},
 			"Steel mace": {
-				"1": "5/128"
+				"1": "5/256"
+			},
+			"Steel off hand mace": {
+				"1": "5/256"
 			},
 			"Steel dagger": {
-				"1": "5/128"
+				"1": "5/256"
+			},
+			"Steel off hand dagger": {
+				"1": "5/256"
 			},
 			"Steel med helm": {
 				"1": "5/128"
@@ -264665,7 +264848,10 @@
 				"1": "2/128"
 			},
 			"Iron dagger": {
-				"1": "1/128"
+				"1": "1/256"
+			},
+			"Iron off hand dagger": {
+				"1": "1/256"
 			},
 			"Coins": {
 				"3": "38/128",
@@ -266879,10 +267065,13 @@
 				"33": "4/128",
 				"48": "1/128"
 			},
-			"Tiny spiky iron salvage": {
+			"Iron dagger": {
 				"1": "6/128"
 			},
-			"Iron stone spirit": {
+			"Iron off hand dagger": {
+				"1": "6/128"
+			},
+			"Iron ore": {
 				"1": "1/128"
 			},
 			"Fire talisman": {
@@ -266961,14 +267150,20 @@
 			"Nothing": {
 				"1": "1/16"
 			},
-			"Tiny spiky iron salvage": {
-				"1": "4/128"
+			"Iron sword": {
+				"1": "2/128"
 			},
-			"Tiny plated iron salvage": {
+			"Iron off hand sword": {
+				"1": "2/128"
+			},
+			"Iron scimitar": {
+				"1": "1/256"
+			},
+			"Iron off hand scimitar": {
+				"1": "1/256"
+			},
+			"Iron med helm": {
 				"1": "6/128"
-			},
-			"Small bladed iron salvage": {
-				"1": "1/128"
 			},
 			"Copper stone spirit": {
 				"1": "5/128"
@@ -267013,10 +267208,16 @@
 				"1": "6/128"
 			},
 			"Iron sword": {
-				"1": "4/128"
+				"1": "2/128"
+			},
+			"Iron off hand sword": {
+				"1": "2/128"
 			},
 			"Iron scimitar": {
-				"1": "1/128"
+				"1": "1/256"
+			},
+			"Iron off hand scimitar": {
+				"1": "1/256"
 			},
 			"Air rune": {
 				"15": "3/128"
@@ -267111,7 +267312,10 @@
 				"48": "1/128"
 			},
 			"Iron dagger": {
-				"1": "6/128"
+				"1": "3/128"
+			},
+			"Iron off hand dagger": {
+				"1": "3/128"
 			},
 			"Iron ore": {
 				"1": "1/128"
@@ -270960,7 +271164,10 @@
 				"1": "2/128"
 			},
 			"Iron dagger": {
-				"1": "1/128"
+				"1": "1/256"
+			},
+			"Iron off hand dagger": {
+				"1": "1/256"
 			},
 			"Coins": {
 				"3": "38/128",
@@ -271087,7 +271294,10 @@
 				"1": "4/128"
 			},
 			"Iron battleaxe": {
-				"1": "2/128"
+				"1": "1/128"
+			},
+			"Iron off hand battleaxe": {
+				"1": "1/128"
 			},
 			"Steel hatchet": {
 				"1": "1/128"
@@ -277369,7 +277579,10 @@
 				"1": "2/128"
 			},
 			"Iron dagger": {
-				"1": "1/128"
+				"1": "1/256"
+			},
+			"Iron off hand dagger": {
+				"1": "1/256"
 			},
 			"Coins": {
 				"3": "38/128",
@@ -279100,7 +279313,10 @@
 				"1": "4/128"
 			},
 			"Bronze longsword": {
-				"1": "1/128"
+				"1": "1/256"
+			},
+			"Bronze off hand longsword": {
+				"1": "1/256"
 			},
 			"Coins": {
 				"4": "4/128",
@@ -279150,7 +279366,10 @@
 				"1": "3/128"
 			},
 			"Iron dagger": {
-				"1": "2/138"
+				"1": "1/138"
+			},
+			"Iron off hand dagger": {
+				"1": "1/138"
 			},
 			"Bronze kiteshield": {
 				"1": "1/128"
@@ -279234,7 +279453,10 @@
 				"1": "4/128"
 			},
 			"Bronze longsword": {
-				"1": "1/128"
+				"1": "1/256"
+			},
+			"Bronze off hand longsword": {
+				"1": "1/256"
 			},
 			"Coins": {
 				"18": "3/128",
@@ -313929,7 +314151,10 @@
 					"1": "8/128"
 				},
 				"Steel scimitar": {
-					"1": "8/128"
+					"1": "4/128"
+				},
+				"Steel off hand scimitar": {
+					"1": "4/128"
 				},
 				"Coins": {
 					"270-330": "12/128",
