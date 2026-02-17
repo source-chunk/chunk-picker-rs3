@@ -444,6 +444,7 @@ let rules = {
 	"Costume Room": false,
 	"Achievement": false,
 	"Multiple Pickpockets": false,
+	"Multiple Agility": false,
     "F2P": false,
 	"Hard Mode Bosses": false,
 	"Group Content": false,
@@ -581,6 +582,7 @@ let ruleNames = {
 	"Fill Costume Room": "WIP - Must fill all slots in the Player-Owned House costume room",
 	"Achievement": "Show Achievement Tasks",
 	"Multiple Pickpockets": "Require the Agility and Thieving levels to get multiple loots from pickpocketing<span class='rule-asterisk noscroll'>*</span>",
+	"Multiple Agility": "Require the Agility level to get multiple loots from pickpocketing, fishing or hunting<span class='rule-asterisk noscroll'>*</span>",
     "F2P": "Restrict to F2P skills/items/tasks only (Partially implemented)",
 	"Hard Mode Bosses": "Include Hard mode variants of bosses<span class='rule-asterisk noscroll'>*</span>",
 	"Group Content": "Require content that is intended to be completed in a group",
@@ -706,7 +708,7 @@ let rulePresets = {
 		"Arc Log": true,
 		"Menaphos Log": true,
 		"Achievement": true,
-		"Multiple Pickpockets": true,
+		"Multiple Agility": true,
 		"Hard Mode Bosses": true,
 		"Full Healing": true,
 		"Unlock Abilities": true,
@@ -802,7 +804,7 @@ let rulePresets = {
 		"Arc Log": true,
 		"Menaphos Log": true,
 		"Achievement": true,
-		"Multiple Pickpockets": true,
+		"Multiple Agility": true,
 		"Hard Mode Bosses": true,
 		"PVP": true,
 		"Full Healing": true,
@@ -865,7 +867,7 @@ let ruleStructure = {
 		"Token": true,
 		"Menaphos Events": true,
 		"Uncharted": true,
-		"Multiple Pickpockets": true
+		"Multiple Agility": true
     },
     "Agility": {
         "Shortcut": true,
@@ -9077,7 +9079,7 @@ let openHighest2 = function(notScrollTop) {
         if (rules['Show Skill Tasks']) {
             combatStyles.push('Slayer');
         }
-        //combatStyles.push('Clues'); //TEMP (missing clue tasks)
+        combatStyles.push('Clues'); //TEMP (missing clue tasks)
         //combatStyles.push('Shooting Stars'); //TEMP (missing shooting star locations)
         $('.highest2-title').empty();
         $('.highest2-data').empty();
@@ -12887,6 +12889,10 @@ let loadData = async function(startup) {
 		
 		if (!rulesTemp.hasOwnProperty('MQC achievements')) {
             rulesTemp['MQC achievements'] = rulesTemp.hasOwnProperty('Achievement') ? rulesTemp['Achievement'] : false;
+        }
+		
+		if (!rulesTemp.hasOwnProperty('Multiple Agility')) {
+            rulesTemp['Multiple Agility'] = rulesTemp.hasOwnProperty('Multiple Pickpockets') ? rulesTemp['Multiple Pickpockets'] : false;
         }
         
         if (!rulesTemp.hasOwnProperty('Kill X Boss')) {
