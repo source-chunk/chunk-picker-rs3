@@ -12189,6 +12189,7 @@
 				"Category": ["InsidePOH Primary"],
 				"Chunks": ["Player-owned house"],
 				"Items": ["Oak plank*"],
+				"Output Object": "Repair bench",
 				"Level": 15,
 				"Primary": true,
 				"Priority": 1
@@ -12907,6 +12908,7 @@
 				"Category": ["InsidePOH Primary"],
 				"Chunks": ["Player-owned house"],
 				"Items": ["Oak plank*", "Limestone brick*"],
+				"Output Object": "Whetstone",
 				"Level": 35,
 				"Primary": true,
 				"Priority": 1
@@ -14138,6 +14140,7 @@
 				"Category": ["InsidePOH Primary"],
 				"Chunks": ["Player-owned house"],
 				"Items": ["Oak plank*", "Limestone brick*"],
+				"Output Object": "Armour stand",
 				"Level": 55,
 				"Primary": true,
 				"Priority": 1
@@ -55144,6 +55147,36 @@
 			}
 		},
 		"Mining": {
+			"Dig at a ~|level 1 grid|~": {
+				"Level": 1,
+				"Objects": ["Level 1 grid"],
+				"Tasks": {
+					"~|The Dig Site|~ 5": "Quest"
+				},
+				"Output": "Level 1 grid",
+				"Primary": true,
+				"Priority": 1000
+			},
+			"Dig at a ~|level 2 grid|~": {
+				"Level": 1,
+				"Objects": ["Level 2 grid"],
+				"Tasks": {
+					"~|The Dig Site|~ 7": "Quest"
+				},
+				"Output": "Level 2 grid",
+				"Primary": true,
+				"Priority": 1001
+			},
+			"Dig at a ~|level 3 grid|~": {
+				"Level": 1,
+				"Objects": ["Level 3 grid"],
+				"Tasks": {
+					"~|The Dig Site|~ 9": "Quest"
+				},
+				"Output": "Level 3 grid",
+				"Primary": true,
+				"Priority": 1002
+			},
 			"Mine a size 1 ~|crashed star|~": {
 				"Category": ["Shooting Stars", "DnD"],
 				"Level": 10,
@@ -89710,7 +89743,7 @@
 			"~|Haunted Mine|~ 2": {
 				"BaseQuest": "Haunted Mine",
 				"Description": "Make your way through the abandoned mine and cut a salve shard.",
-				"Chunks": ["Haunted mine"],
+				"Chunks": ["Abandoned Mine"],
 				"Tasks": {
 					"~|Haunted Mine|~ 1": "Quest"
 				},
@@ -89725,7 +89758,7 @@
 					"Strength": 22000
 				},
 				"BaseQuest": "Haunted Mine",
-				"Chunks": ["Haunted mine"],
+				"Chunks": ["Abandoned Mine"],
 				"Reward": ["Crystal-mine key", "Salve shard"],
 				"Not F2P": true
 			},
@@ -114385,7 +114418,7 @@
 			},
 			"~|Morytania Achievements#Medium|~ Poterheist": {
 				"Description": "Mine the mithril vein in the north-west corner of level 2 of the Abandoned Mine.",
-				"Chunks": ["Haunted mine"],
+				"Chunks": ["Abandoned Mine"],
 				"Skills": {
 					"Mining": 30
 				},
@@ -114442,7 +114475,7 @@
 			},
 			"~|Morytania Achievements#Hard|~ Detarnation": {
 				"Description": "Kill Tarn Razorlor (or visit his lair if he's already dead).",
-				"Chunks": ["Haunted mine"],
+				"Chunks": ["Abandoned Mine"],
 				"Skills": {
 					"Slayer": 40
 				},
@@ -152951,7 +152984,7 @@
 			"Cave (Burgh de Rott)": {
 				"UnlocksArea": true
 			},
-			"Haunted mine": {
+			"Abandoned Mine": {
 				"UnlocksArea": true
 			},
 			"Movario's base": {
@@ -168257,6 +168290,62 @@
 				"Items": ["Lvl-6 enchant (item)*", "Alchemical hydrix brooch*"],
 				"Output": "Brooch of the gods",
 				"Not F2P": true
+			},
+			"Repair a rusty sword at Tindel Marchant*": {
+				"Items": ["Rusty sword*"],
+				"NPCs": ["Tindel Marchant"],
+				"Output": "Rusty sword loot (Tindel)",
+				"Not F2P": true
+			},
+			"Repair a rusty scimitar at Tindel Marchant*": {
+				"Items": ["Rusty scimitar*"],
+				"NPCs": ["Tindel Marchant"],
+				"Output": "Rusty scimitar loot (Tindel)",
+				"Not F2P": true
+			},
+			"Repair a rusty sword at your POH*": {
+				"Items": ["Rusty sword*"],
+				"Objects": ["Whetstone"],
+				"Output": "Rusty sword loot",
+				"Not F2P": true
+			},
+			"Repair broken armour at your POH*": {
+				"Items": ["Broken armour*"],
+				"Objects": ["Armour stand"],
+				"Output": "Broken armour loot",
+				"Not F2P": true
+			},
+			"Repair a broken arrow at your POH*": {
+				"Items": ["Broken arrow*"],
+				"Objects": ["Repair bench"],
+				"Output": "Broken arrow loot",
+				"Not F2P": true
+			},
+			"Repair a broken staff at your POH*": {
+				"Items": ["Broken staff*"],
+				"Objects": ["Repair bench"],
+				"Output": "Broken staff loot",
+				"Not F2P": true
+			},
+			"Repair a rusty sword using an Invention whetstone*": {
+				"Items": ["Rusty sword*", "Whetstone (device)"],
+				"Output": "Rusty sword loot",
+				"Not F2P": true
+			},
+			"Repair broken armour using an Invention whetstone*": {
+				"Items": ["Broken armour*", "Whetstone (device)"],
+				"Output": "Broken armour loot",
+				"Not F2P": true
+			},
+			"Repair a broken arrow using an Invention whetstone*": {
+				"Items": ["Broken arrow*", "Whetstone (device)"],
+				"Output": "Broken arrow loot",
+				"Not F2P": true
+			},
+			"Repair a broken staff using an Invention whetstone*": {
+				"Items": ["Broken staff*", "Whetstone (device)"],
+				"Output": "Broken staff loot",
+				"Not F2P": true
 			}
 		}
 	},
@@ -182192,7 +182281,7 @@
 			"NPC": {
 				"Iron pickaxe": 8
 			},
-			"Name": "Haunted mine"
+			"Name": "Abandoned Mine"
 		},
 		"10822": {
 			"Object": {
@@ -182201,7 +182290,7 @@
 			"NPC": {
 				"Mine cart": 4
 			},
-			"Name": "Haunted mine"
+			"Name": "Abandoned Mine"
 		},
 		"10824": {
 			"Object": {
@@ -183568,7 +183657,7 @@
 				"Innocent-looking key": 1,
 				"Mine cart": 7
 			},
-			"Name": "Haunted mine"
+			"Name": "Abandoned Mine"
 		},
 		"11078": {
 			"Object": {
@@ -183587,7 +183676,7 @@
 			"NPC": {
 				"Corpse": 14
 			},
-			"Name": "Haunted mine"
+			"Name": "Abandoned Mine"
 		},
 		"11079": {
 			"Object": {
@@ -183606,7 +183695,7 @@
 			"Connect": {
 				"13618": true
 			},
-			"Name": "Haunted mine"
+			"Name": "Abandoned Mine"
 		},
 		"11080": {
 			"Object": {
@@ -196117,7 +196206,7 @@
 			"Connect": {
 				"13618": true
 			},
-			"Name": "Haunted mine"
+			"Name": "Abandoned Mine"
 		},
 		"13722": {
 			"Object": {
@@ -210564,7 +210653,7 @@
 				"The Lost Toys (miniquest)": "step"
 			}
 		},
-		"Haunted mine": {
+		"Abandoned Mine": {
 			"Object": {
 				"Mithril vein": 5,
 				"Luminite vein": 24,
@@ -210587,7 +210676,8 @@
 				"Bat": 18,
 				"Skeleton (Tarn's Lair)#Mid Level": 2,
 				"Possessed pickaxe": 1,
-				"Animated spade": 2
+				"Animated spade": 2,
+				"Skeletal miner": 21
 			},
 			"NPC": {
 				"Iron pickaxe": 14,
@@ -210596,6 +210686,15 @@
 				"Mine cart": 11,
 				"Loading crane": 4,
 				"Innocent-looking key": 1
+			},
+			"Spawn": {
+				"Bronze dagger": 1,
+				"Bronze pickaxe": 2,
+				"Bronze spear": 1,
+				"Chisel": 1,
+				"Coins": 1,
+				"Steel longsword": 1,
+				"Steel pickaxe": 1
 			},
 			"Connect": {
 				"12615": true,
@@ -246913,7 +247012,7 @@
 			"Bronze med helm": {
 				"1": "9/128"
 			},
-			"Bronze kitehsield": {
+			"Bronze kiteshield": {
 				"1": "1/128"
 			},
 			"Coins": {
@@ -280856,7 +280955,7 @@
 		"Grim Tales": "11572, 11318, 11830, Mouse Hole, Witch's House Underground",
 		"Gunnar's Ground": "12341, 12342",
 		"The Hand in the Sand": "10032, 10288, 11057, 11316",
-		"Haunted Mine": "13618, Haunted mine",
+		"Haunted Mine": "13618, Abandoned Mine",
 		"Hazeel Cult": "10291, 10290, Southern Ardougne Sewer",
 		"Heart of Stone": "12337, 11316, 11313, 11318, 13355, 12849",
 		"Heartstealer": "12342, 12853",
@@ -304565,6 +304664,120 @@
 				"Pygmy giant scarab in amber": {
 					"1": "1/3000"
 				}
+			},
+			"Level 1 grid": {
+				"Bones": {
+					"1": "1/12"
+				},
+				"Leather boots": {
+					"1": "1/12"
+				},
+				"Old tooth": {
+					"1": "1/12"
+				},
+				"Vase (Dig Site)": {
+					"1": "1/12"
+				},
+				"Rusty sword": {
+					"1": "1/12"
+				},
+				"Copper stone spirit": {
+					"1": "1/12"
+				},
+				"Rotten apple": {
+					"1": "1/12"
+				},
+				"Opal": {
+					"1": "1/12"
+				},
+				"Buttons": {
+					"1": "1/12"
+				},
+				"Broken glass": {
+					"1": "1/12"
+				}
+			},
+			"Level 2 grid": {
+				"Bones": {
+					"1": "2/16"
+				},
+				"Leather boots": {
+					"1": "1/16"
+				},
+				"Broken armour": {
+					"1": "1/16"
+				},
+				"Bowl": {
+					"1": "1/16"
+				},
+				"Damaged armour": {
+					"1": "1/16"
+				},
+				"Uncut opal": {
+					"1": "1/16"
+				},
+				"Uncut jade": {
+					"1": "1/16"
+				},
+				"Empty pot": {
+					"1": "1/16"
+				},
+				"Clay": {
+					"1": "1/16"
+				},
+				"Broken glass": {
+					"1": "1/16"
+				},
+				"Jug": {
+					"1": "1/16"
+				}
+			},
+			"Level 3 grid": {
+				"Coins": {
+					"10": "2/20"
+				},
+				"Pie dish": {
+					"1": "1/20"
+				},
+				"Broken staff": {
+					"1": "1/20"
+				},
+				"Leather boots": {
+					"1": "1/20"
+				},
+				"Iron knife": {
+					"1": "1/20"
+				},
+				"Bones": {
+					"1": "1/20"
+				},
+				"Black helm": {
+					"1": "1/20"
+				},
+				"Damaged armour": {
+					"1": "1/20"
+				},
+				"Buttons": {
+					"1": "1/20"
+				},
+				"Broken armour": {
+					"1": "1/20"
+				},
+				"Vase (Dig Site)": {
+					"1": "1/20"
+				},
+				"Old tooth": {
+					"1": "1/20"
+				},
+				"Clay": {
+					"1": "1/20"
+				},
+				"Needle": {
+					"1": "1/20"
+				},
+				"Broken arrow": {
+					"1": "1/20"
+				}
 			}
 		},
 		"Necromancy": {
@@ -320945,6 +321158,9 @@
 				"Evil turnip seed": {
 					"1": "10/1000"
 				},
+				"Starbloom seed": {
+					"1": "5/1000"
+				},
 				"Coins": {
 					"1": "700/1000"
 				}
@@ -324018,7 +324234,7 @@
 			},
 			"Vyrewatch tither": {
 				"Coins": {
-					"750": "730/1000"
+					"525": "730/1000"
 				},
 				"Blood rune": {
 					"3": "65/1000"
@@ -324050,7 +324266,7 @@
 			},
 			"Goebie scavenger": {
 				"Coins": {
-					"600": "428/2000"
+					"420": "428/2000"
 				},
 				"Cooked eeligator": {
 					"1": "250/2000"
@@ -324074,7 +324290,7 @@
 			},
 			"Menaphos market guard": {
 				"Coins": {
-					"650": "758/1000"
+					"455": "758/1000"
 				},
 				"Acadia wood spirit": {
 					"1": "50/1000"
@@ -324151,12 +324367,12 @@
 					"1": "1/3000"
 				},
 				"Coins": {
-					"800": "707/3000"
+					"560": "707/3000"
 				}
 			},
 			"Archaeology professor#Archaeology Campus": {
 				"Coins": {
-					"150": "736/1000"
+					"350": "736/1000"
 				},
 				"Chronotes": {
 					"2-3": "175/1000"
@@ -324176,7 +324392,7 @@
 			},
 			"Archaeology professor#Kharid-et": {
 				"Coins": {
-					"150": "736/1000"
+					"350": "736/1000"
 				},
 				"Chronotes": {
 					"2-3": "175/1000"
@@ -324199,7 +324415,7 @@
 			},
 			"Archaeology professor#Infernal Source": {
 				"Coins": {
-					"150": "736/1000"
+					"350": "736/1000"
 				},
 				"Chronotes": {
 					"2-3": "175/1000"
@@ -324222,7 +324438,7 @@
 			},
 			"Archaeology professor#Everlight": {
 				"Coins": {
-					"150": "736/1000"
+					"350": "736/1000"
 				},
 				"Chronotes": {
 					"2-3": "175/1000"
@@ -324245,7 +324461,7 @@
 			},
 			"Archaeology professor#Senntisten": {
 				"Coins": {
-					"150": "736/1000"
+					"350": "736/1000"
 				},
 				"Chronotes": {
 					"2-3": "175/1000"
@@ -324268,7 +324484,7 @@
 			},
 			"Archaeology professor#Stormguard Citadel": {
 				"Coins": {
-					"150": "736/1000"
+					"350": "736/1000"
 				},
 				"Chronotes": {
 					"2-3": "175/1000"
@@ -324291,7 +324507,7 @@
 			},
 			"Archaeology professor#Daemonheim": {
 				"Coins": {
-					"150": "736/1000"
+					"350": "736/1000"
 				},
 				"Chronotes": {
 					"2-3": "175/1000"
@@ -324314,7 +324530,7 @@
 			},
 			"Archaeology professor#Warforge": {
 				"Coins": {
-					"150": "736/1000"
+					"350": "736/1000"
 				},
 				"Chronotes": {
 					"2-3": "175/1000"
@@ -324337,7 +324553,7 @@
 			},
 			"Archaeology professor#Orthen": {
 				"Coins": {
-					"150": "736/1000"
+					"350": "736/1000"
 				},
 				"Chronotes": {
 					"2-3": "175/1000"
@@ -324419,7 +324635,7 @@
 					"2": "50/1000"
 				},
 				"Coins": {
-					"800": "748/1000"
+					"560": "748/1000"
 				},
 				"Inert adrenalie crystal": {
 					"1": "5/1000"
@@ -324439,7 +324655,7 @@
 					"1": "1/20000"
 				},
 				"Coins": {
-					"900": "708/1000"
+					"630": "708/1000"
 				},
 				"Blood rune": {
 					"3": "65/1000"
@@ -326872,6 +327088,182 @@
 				},
 				"Tile": {
 					"1": "1/25"
+				}
+			},
+			"Rusty sword loot (Tindel)": {
+				"Bronze sword": {
+					"1": "17/96"
+				},
+				"Bronze longsword": {
+					"1": "7/96"
+				},
+				"Iron sword": {
+					"1": "19/96"
+				},
+				"Iron longsword": {
+					"1": "34/96"
+				},
+				"Steel sword": {
+					"1": "6/96"
+				},
+				"Steel longsword": {
+					"1": "4/96"
+				},
+				"Mithril sword": {
+					"1": "1/96"
+				},
+				"Mithril longsword": {
+					"1": "1/96"
+				},
+				"Black sword": {
+					"1": "3/96"
+				},
+				"Black longsword": {
+					"1": "2/96"
+				},
+				"Nothing": {
+					"1": "1/96"
+				},
+				"Coins": {
+					"2000": "1/96"
+				}
+			},
+			"Rusty sword loot": {
+				"Bronze sword": {
+					"1": "17/100"
+				},
+				"Bronze longsword": {
+					"1": "7/100"
+				},
+				"Iron sword": {
+					"1": "20/100"
+				},
+				"Iron longsword": {
+					"1": "37/100"
+				},
+				"Steel sword": {
+					"1": "6/100"
+				},
+				"Steel longsword": {
+					"1": "4/100"
+				},
+				"Mithril longsword": {
+					"1": "4/100"
+				},
+				"Black sword": {
+					"1": "3/100"
+				},
+				"Black longsword": {
+					"1": "2/100"
+				}
+			},
+			"Rusty scimitar loot (Tindel)": {
+				"Bronze scimitar": {
+					"1": "24/100"
+				},
+				"Iron scimitar": {
+					"1": "57/100"
+				},
+				"Steel scimitar": {
+					"1": "10/100"
+				},
+				"Mithril scimitar": {
+					"1": "2/100"
+				},
+				"Black scimitar": {
+					"1": "5/100"
+				},
+				"Nothing": {
+					"1": "1/100"
+				},
+				"Coins": {
+					"2000": "1/100"
+				}
+			},
+			"Damaged armour loot": {
+				"Bronze platebody": {
+					"1": "25/100"
+				},
+				"Iron platebody": {
+					"1": "57/100"
+				},
+				"Steel platebody": {
+					"1": "10/100"
+				},
+				"Mithril platebody": {
+					"1": "4/100"
+				},
+				"Black platebody": {
+					"1": "5/100"
+				}
+			},
+			"Broken armour loot": {
+				"Bronze platelegs": {
+					"1": "24/200"
+				},
+				"Bronze plateskirt": {
+					"1": "24/200"
+				},
+				"Iron platelegs": {
+					"1": "57/200"
+				},
+				"Iron plateskirt": {
+					"1": "57/200"
+				},
+				"Steel platelegs": {
+					"1": "10/200"
+				},
+				"Steel platesirt": {
+					"1": "10/200"
+				},
+				"Mithril platelegs": {
+					"1": "4/200"
+				},
+				"Mithril plateskirt": {
+					"1": "4/200"
+				},
+				"Black platelegs": {
+					"1": "5/200"
+				},
+				"Black plateskirt": {
+					"1": "5/200"
+				}
+			},
+			"Damaged arrow loot": {
+				"Headless arrow": {
+					"1": "5/100"
+				},
+				"Bronze arrow": {
+					"1": "24/100"
+				},
+				"Iron arrow": {
+					"1": "57/100"
+				},
+				"Steel arrow": {
+					"1": "10/100"
+				},
+				"Mithril arrow": {
+					"1": "4/100"
+				}
+			},
+			"Damaged staff loot": {
+				"Staff": {
+					"1": "57/100"
+				},
+				"Magic staff": {
+					"1": "26/100"
+				},
+				"Staff of water": {
+					"1": "5/100"
+				},
+				"Staff of air": {
+					"1": "4/100"
+				},
+				"Staff of earth": {
+					"1": "4/100"
+				},
+				"Staff of fire": {
+					"1": "4/100"
 				}
 			}
 		}
