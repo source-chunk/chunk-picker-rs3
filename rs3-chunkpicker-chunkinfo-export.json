@@ -231776,7 +231776,7 @@
 				"2": "3/128"
 			},
 			"Copper ore": {
-				"5": "2/128"
+				"2": "2/128"
 			},
 			"Tin ore": {
 				"1": "1/128"
@@ -231870,7 +231870,7 @@
 			"Bronze off hand battleaxe": {
 				"1": "1/128"
 			},
-			"Bronze off hand battleaxe": {
+			"Bronze battleaxe": {
 				"1": "1/128"
 			},
 			"Iron battleaxe": {
@@ -231902,7 +231902,7 @@
 				"2": "3/128"
 			},
 			"Copper ore": {
-				"5": "2/128"
+				"2": "2/128"
 			},
 			"Tin ore": {
 				"1": "1/128"
@@ -233750,20 +233750,23 @@
 			"Bones": {
 				"1": "Always"
 			},
-			"Tiny plated steel salvage": {
+			"Steel med helm": {
 				"1": "1/8"
 			},
-			"Small plated steel salvage": {
+			"Steel full helm": {
 				"1": "2/8"
 			},
-			"Medium plated steel salvage": {
+			"Steel chainbody": {
 				"1": "3/8"
 			},
-			"Huge plated steel salvage": {
+			"Steel platebody": {
 				"1": "1/8"
 			},
-			"Medium bladed steel salvage": {
-				"1": "1/8"
+			"Steel battleaxe": {
+				"1": "1/16"
+			},
+			"Steel off hand battleaxe": {
+				"1": "1/16"
 			},
 			"Bronze arrow": {
 				"30": "3/128"
@@ -233786,19 +233789,22 @@
 			"Bronze javelin": {
 				"5": "2/128"
 			},
-			"Tiny spiky bronze salvage": {
+			"Bronze spear": {
 				"1": "9/128"
 			},
-			"Small bladed bronze salvage": {
+			"Bronze scimitar": {
+				"1": "1/256"
+			},
+			"Bronze off hand scimitar": {
+				"1": "1/256"
+			},
+			"Iron square shield": {
 				"1": "1/128"
 			},
-			"Small plated iron salvage": {
+			"Bronze full helm": {
 				"1": "1/128"
 			},
-			"Small plated bronze salvage": {
-				"1": "1/128"
-			},
-			"Tin stone spirit": {
+			"Tin ore": {
 				"1": "1/128"
 			},
 			"Coins": {
@@ -234525,16 +234531,19 @@
 			"Bronze arrow": {
 				"16": "1/128"
 			},
-			"Tiny plated bronze salvage": {
+			"Bronze med helm": {
+				"1": "9/128"
+			},
+			"Bronze gauntlets": {
 				"1": "1/128"
 			},
-			"Tiny spiky bronze salvage": {
+			"Bronze spear": {
 				"1": "4/128"
 			},
-			"Small plated bronze salvage": {
+			"Bronze square shield": {
 				"1": "3/128"
 			},
-			"Medium plated bronze salvage": {
+			"Bronze kiteshield": {
 				"1": "1/128"
 			},
 			"Coins": {
@@ -234547,7 +234556,7 @@
 			"Cabbage": {
 				"1": "14/128"
 			},
-			"Bread dough": {
+			"Guam seed": {
 				"1": "10/128"
 			},
 			"Goblin mail": {
@@ -238232,71 +238241,41 @@
 			"Off-hand black dagger": {
 				"1": "1/200"
 			},
-			"Iron 2h sword": {
+			"Medium bladed iron salvage": {
 				"1": "2/100"
 			},
-			"Iron chainbody": {
+			"Medium plated iron salvage": {
 				"1": "2/100"
 			},
-			"Steel battleaxe": {
-				"1": "2/100"
-			},
-			"Steel med helm": {
-				"1": "2/100"
-			},
-			"Steel dagger": {
-				"1": "2/100"
-			},
-			"Steel off hand dagger": {
-				"1": "2/100"
-			},
-			"Steel sword": {
-				"1": "1/100"
-			},
-			"Steel off hand sword": {
-				"1": "1/100"
-			},
-			"Steel longsword": {
-				"1": "2/100"
-			},
-			"Steel off hand longsword": {
-				"1": "2/100"
-			},
-			"Steel 2h sword": {
+			"Medium bladed steel salvage": {
 				"1": "4/100"
 			},
-			"Steel mace": {
+			"Tiny plated steel salvage": {
 				"1": "2/100"
 			},
-			"Steel off hand mace": {
+			"Tiny spiky steel salvage": {
+				"1": "4/100"
+			},
+			"Small bladed steel salvage": {
 				"1": "2/100"
 			},
-			"Steel chainbody": {
+			"Tiny blunt steel salvage": {
 				"1": "2/100"
 			},
-			"Mithril dagger": {
-				"1": "1/200"
+			"Medium plated steel salvage": {
+				"1": "2/100"
 			},
-			"Mithril longsword": {
-				"1": "1/200"
+			"Tiny spiky mithril salvage": {
+				"1": "1/100"
 			},
-			"Mithril off hand dagger": {
-				"1": "1/200"
+			"Small bladed mithril salvage": {
+				"1": "1/100"
 			},
-			"Mithril off hand longsword": {
-				"1": "1/200"
+			"Tiny blunt adamant salvage": {
+				"1": "1/100"
 			},
-			"Adamant dagger": {
-				"1": "1/200"
-			},
-			"Adamant longsword": {
-				"1": "1/200"
-			},
-			"Adamant off hand dagger": {
-				"1": "1/200"
-			},
-			"Adamant off hand longsword": {
-				"1": "1/200"
+			"Medium bladed adamant salvage": {
+				"1": "1/100"
 			},
 			"Coins": {
 				"3-102": "31/100",
@@ -247538,7 +247517,6 @@
 				"1": "14/128"
 			},
 			"Bread dough": {
-				"1": "10/128",
 				"1 (F2P)": "11/128"
 			},
 			"Guam seed": {
@@ -247660,7 +247638,6 @@
 				"1": "14/128"
 			},
 			"Bread dough": {
-				"1": "10/128",
 				"1 (F2P)": "15/128"
 			},
 			"Guam seed": {
@@ -247755,11 +247732,7 @@
 				"5-15": "14/128"
 			},
 			"Bread dough": {
-				"1": "10/128",
-				"1 (F2P)": "15/128"
-			},
-			"Guam seed": {
-				"1": "15/128"
+				"1": "10/128"
 			},
 			"Green goblin mail": {
 				"1": "10/128"
@@ -247942,11 +247915,7 @@
 				"1": "14/128"
 			},
 			"Bread dough": {
-				"1": "10/128",
-				"1 (F2P)": "11/128"
-			},
-			"Guam seed": {
-				"1-2": "11/128"
+				"1": "10/128"
 			},
 			"Goblin mail": {
 				"1": "5/128"
@@ -248216,16 +248185,19 @@
 			"Bronze arrow": {
 				"16": "1/128"
 			},
-			"Tiny plated bronze salvage": {
+			"Bronze med helm": {
+				"1": "9/128"
+			},
+			"Bronze gauntlets": {
 				"1": "1/128"
 			},
-			"Tiny spiky bronze salvage": {
+			"Bronze spear": {
 				"1": "4/128"
 			},
-			"Small plated bronze salvage": {
+			"Bronze square shield": {
 				"1": "3/128"
 			},
-			"Medium plated bronze salvage": {
+			"Bronze kiteshield": {
 				"1": "1/128"
 			},
 			"Coins": {
@@ -250151,7 +250123,7 @@
 			"Coins": {
 				"12": "20/128"
 			},
-			"Medium plated iron salvage": {
+			"Iron chainbody": {
 				"1": "20/128"
 			},
 			"Oil lantern (oil)": {
@@ -250327,7 +250299,7 @@
 			"Iron ore": {
 				"1": "2/110"
 			},
-			"Coal ore": {
+			"Coal": {
 				"1": "2/110"
 			},
 			"Uncut opal": {
@@ -250337,19 +250309,28 @@
 				"1": "2/110"
 			},
 			"Bronze dagger": {
-				"1": "3/110"
+				"1": "3/220"
+			},
+			"Bronze off hand dagger": {
+				"1": "3/220"
 			},
 			"Bronze pickaxe": {
 				"1": "3/110"
 			},
 			"Iron dagger": {
-				"1": "3/110"
+				"1": "3/220"
+			},
+			"Iron off hand dagger": {
+				"1": "3/220"
 			},
 			"Steel hatchet": {
 				"1": "2/110"
 			},
 			"Steel dagger": {
-				"1": "2/110"
+				"1": "1/110"
+			},
+			"Steel off hand dagger": {
+				"1": "1/110"
 			},
 			"Steel pickaxe": {
 				"1": "2/110"
@@ -251676,6 +251657,24 @@
 			"Limpwurt root": {
 				"1": "21/128"
 			},
+			"Iron sword": {
+				"1": "3/256"
+			},
+			"Iron off hand sword": {
+				"1": "3/256"
+			},
+			"Steel dagger": {
+				"1": "3/256"
+			},
+			"Steel off hand dagger": {
+				"1": "3/256"
+			},
+			"Steel longsword": {
+				"1": "1/256"
+			},
+			"Steel off hand longsword": {
+				"1": "1/256"
+			},
 			"Goblin mail": {
 				"1": "2/128"
 			},
@@ -251717,6 +251716,15 @@
 			},
 			"Spirit ruby": {
 				"1": "1/1000"
+			},
+			"GemDropTable+": {
+				"1": "2/128"
+			},
+			"HerbDropTable+": {
+				"1": "7/128"
+			},
+			"UncommonSeedDropTable+": {
+				"1": "12/128"
 			}
 		},
 		"Hobgoblin (elite)": {
@@ -258195,19 +258203,22 @@
 			"Bronze javelin": {
 				"5": "2/128"
 			},
-			"Tiny spiky bronze salvage": {
+			"Bronze spear": {
 				"1": "9/128"
 			},
-			"Small bladed bronze salvage": {
+			"Bronze scimitar": {
+				"1": "1/256"
+			},
+			"Bronze off hand scimitar": {
+				"1": "1/256"
+			},
+			"Iron square shield": {
 				"1": "1/128"
 			},
-			"Small plated iron salvage": {
+			"Bronze full helm": {
 				"1": "1/128"
 			},
-			"Small plated bronze salvage": {
-				"1": "1/128"
-			},
-			"Tin stone spirit": {
+			"Tin ore": {
 				"1": "1/128"
 			},
 			"Coins": {
@@ -258531,7 +258542,7 @@
 				"2": "3/128"
 			},
 			"Copper ore": {
-				"5": "2/128"
+				"1": "2/128"
 			},
 			"Tin ore": {
 				"1": "1/128"
@@ -258542,10 +258553,10 @@
 			"Iron off hand warhammer": {
 				"1": "3/128"
 			},
-			"Bronze off hand warhammer": {
+			"Bronze warhammer": {
 				"1": "3/256"
 			},
-			"Bronze warhammer": {
+			"Bronze off hand warhammer": {
 				"1": "3/256"
 			},
 			"Steel warhammer": {
@@ -259115,10 +259126,10 @@
 				"5-15": "10/128"
 			},
 			"Copper ore": {
-				"1": "6/128"
+				"1 (noted)": "6/128"
 			},
 			"Tin ore": {
-				"1": "11/128"
+				"1 (noted)": "11/128"
 			},
 			"Gold bar": {
 				"1": "3/128"
@@ -262012,7 +262023,7 @@
 			"Bronze scimitar": {
 				"1": "6/256"
 			},
-			"Bronze scimitar": {
+			"Bronze off hand scimitar": {
 				"1": "6/256"
 			},
 			"Bronze full helm": {
@@ -262028,7 +262039,10 @@
 				"1": "5/128"
 			},
 			"Bronze warhammer": {
-				"1": "5/128"
+				"1": "5/256"
+			},
+			"Bronze off hand warhammer": {
+				"1": "5/256"
 			},
 			"Bronze platelegs": {
 				"1": "5/128"
@@ -262039,7 +262053,7 @@
 			"Iron mace": {
 				"1": "5/256"
 			},
-			"Iron mace": {
+			"Iron off hand mace": {
 				"1": "5/256"
 			},
 			"Iron spear": {
@@ -262955,10 +262969,16 @@
 				"1": "1/128"
 			},
 			"Iron dagger": {
-				"1": "6/128"
+				"1": "3/128"
+			},
+			"Iron off hand dagger": {
+				"1": "3/128"
 			},
 			"Grapes": {
 				"3": "16/128"
+			},
+			"Marrentill seed": {
+				"2-3": "4/128"
 			},
 			"Wheat": {
 				"1": "1/128"
@@ -265139,7 +265159,10 @@
 				"1": "2/128"
 			},
 			"Iron dagger": {
-				"1": "1/128"
+				"1": "1/256"
+			},
+			"Iron off hand dagger": {
+				"1": "1/256"
 			},
 			"Coins": {
 				"3": "38/128",
@@ -265200,8 +265223,11 @@
 			"Bronze med helm": {
 				"1": "2/128"
 			},
-			"Bronze dagger": {
-				"1": "1/128"
+			"Iron dagger": {
+				"1": "1/256"
+			},
+			"Iron off hand dagger": {
+				"1": "1/256"
 			},
 			"Coins": {
 				"3": "38/128",
@@ -267178,14 +267204,20 @@
 			"Bones": {
 				"1": "Always"
 			},
-			"Tiny plated iron salvage": {
+			"Iron med helm": {
 				"1": "6/128"
 			},
-			"Tiny spiky iron salvage": {
-				"1": "4/128"
+			"Iron sword": {
+				"1": "2/128"
 			},
-			"Small bladed iron salvage": {
-				"1": "1/128"
+			"Iron off hand sword": {
+				"1": "2/128"
+			},
+			"Iron scimitar": {
+				"1": "1/256"
+			},
+			"Iron off hand scimitar": {
+				"1": "1/256"
 			},
 			"Air rune": {
 				"15": "3/128"
@@ -267213,7 +267245,7 @@
 				"45": "4/128",
 				"65": "3/128"
 			},
-			"Copper stone spirit": {
+			"Bronze bar": {
 				"1": "5/128"
 			},
 			"Iron hatchet": {
@@ -267662,16 +267694,13 @@
 			"Water talisman": {
 				"1": "1/233"
 			},
-			"Bronze bar": {
-				"1": "10/233"
+			"Copper stone spirit": {
+				"1": "20/233"
 			},
-			"Copper ore": {
-				"1": "10/233"
-			},
-			"Tin ore": {
+			"Tin stone spirit": {
 				"2": "10/233"
 			},
-			"Iron bar": {
+			"Iron stone spirit": {
 				"1": "10/233"
 			},
 			"Wood spirit": {
@@ -267680,10 +267709,10 @@
 			"Oak wood spirit": {
 				"1": "5/233"
 			},
-			"Bronze med helm": {
+			"Small plated bronze salvage": {
 				"1": "5/233"
 			},
-			"Bronze chainbody": {
+			"Medium plated bronze salvage": {
 				"1": "5/233"
 			},
 			"Coins": {
@@ -268212,37 +268241,35 @@
 				"142": "13/128",
 				"323": "1/128"
 			},
-			"Bronze scimitar": {
+			"Small bladed bronze salvage": {
 				"1": "13/128"
 			},
-			"Iron scimitar": {
+			"Small bladed iron salvage": {
 				"1": "6/128"
 			},
-			"Steel spear": {
+			"Tiny spiky steel salvage": {
 				"1": "5/128"
 			},
-			"Steel scimitar": {
+			"Small bladed steel salvage": {
 				"1": "2/128"
 			},
-			"Mithril scimitar": {
+			"Small bladed mithril salvage": {
 				"1": "1/128"
 			},
-			"Adamant battleaxe": {
+			"Small bladed adamant salvage": {
 				"1": "1/28"
 			},
-			"Steel bar": {
+			"Coal stone spirit": {
 				"3": "5/128"
 			},
-			"Silver bar": {
+			"Silver stone spirit": {
+				"1": "2/128",
 				"3": "5/128"
 			},
-			"Mithril bar": {
+			"Mithril stone spirit": {
 				"1": "2/128"
 			},
-			"Gold bar": {
-				"1": "2/128"
-			},
-			"Silver ore": {
+			"Gold stone spirit": {
 				"1": "2/128"
 			},
 			"Yew shortbow": {
@@ -268414,6 +268441,9 @@
 			"Iron dagger": {
 				"1": "6/128"
 			},
+			"Iron off hand dagger": {
+				"1": "6/128"
+			},
 			"Iron ore": {
 				"1": "1/128"
 			},
@@ -268523,55 +268553,46 @@
 			"Silver bolts": {
 				"5": "3/123"
 			},
-			"Steel bar": {
-				"3  (noted)": "5/123"
+			"Coal stone spirit": {
+				"3": "5/123"
 			},
-			"Silver bar": {
-				"3 (noted)": "5/123"
+			"Silver stone spirit": {
+				"3": "5/123"
 			},
-			"Gold bar": {
-				"1": "5/123"
+			"Gold stone spirit": {
+				"1": "7/123"
 			},
-			"Adamant bar": {
-				"1": "2/123"
-			},
-			"Gold ore": {
+			"Adamant stone spirit": {
 				"1": "2/123"
 			},
 			"Yew wood spirit": {
 				"4-5": "12/123"
 			},
-			"Iron kiteshield": {
-				"1": "8/123"
+			"Medium plated iron salvage": {
+				"1": "13/123"
 			},
-			"Iron plateskirt": {
+			"Tiny spiky steel salvage": {
 				"1": "5/123"
 			},
-			"Steel hasta": {
-				"1": "5/123"
+			"Small bladed steel salvage": {
+				"1": "7/123"
 			},
-			"Steel scimitar": {
+			"Tiny blunt steel salvage": {
 				"1": "2/123"
 			},
-			"Steel longsword": {
-				"1": "5/123"
-			},
-			"Steel mace": {
-				"1": "2/123"
-			},
-			"Steel full helm": {
+			"Small plated steel salvage": {
 				"1": "1/123"
 			},
-			"Steel kiteshield": {
+			"Medium plated steel salvage": {
 				"1": "1/123"
 			},
-			"Mithril med helm": {
+			"Tiny plated mithril salvage": {
 				"1": "1/123"
 			},
-			"Mithril square shield": {
+			"Small plated mithril salvage": {
 				"1": "1/123"
 			},
-			"Adamant battleaxe": {
+			"Medium bladed adamant salvage": {
 				"1": "1/123"
 			},
 			"Medium bladed rune salvage": {
@@ -268626,13 +268647,13 @@
 			"Cosmic rune": {
 				"4": "1/128"
 			},
-			"Steel med helm": {
+			"Tiny plated steel salvage": {
 				"1": "6/128"
 			},
-			"Steel sword": {
+			"Tiny spiky steel salvage": {
 				"1": "4/128"
 			},
-			"Mithril scimitar": {
+			"Small bladed mithril salvage": {
 				"1": "1/128"
 			},
 			"Coins": {
@@ -268643,7 +268664,7 @@
 				"185": "3/128",
 				"200": "2/128"
 			},
-			"Mithril bar": {
+			"Mithril stone spirit": {
 				"1": "5/128"
 			},
 			"Black hatchet": {
@@ -268711,55 +268732,46 @@
 			"Silver bolts": {
 				"5": "3/123"
 			},
-			"Steel bar": {
-				"3  (noted)": "5/123"
+			"Coal stone spirit": {
+				"3": "5/123"
 			},
-			"Silver bar": {
-				"3 (noted)": "5/123"
+			"Silver stone spirit": {
+				"3": "5/123"
 			},
-			"Gold bar": {
-				"1": "5/123"
+			"Gold stone spirit": {
+				"1": "7/123"
 			},
-			"Adamant bar": {
-				"1": "2/123"
-			},
-			"Gold ore": {
+			"Adamant stone spirit": {
 				"1": "2/123"
 			},
 			"Yew wood spirit": {
 				"4-5": "12/123"
 			},
-			"Iron kiteshield": {
-				"1": "8/123"
+			"Medium plated iron salvage": {
+				"1": "13/123"
 			},
-			"Iron plateskirt": {
+			"Tiny spiky steel salvage": {
 				"1": "5/123"
 			},
-			"Steel hasta": {
-				"1": "5/123"
+			"Small bladed steel salvage": {
+				"1": "7/123"
 			},
-			"Steel scimitar": {
+			"Tiny blunt steel salvage": {
 				"1": "2/123"
 			},
-			"Steel longsword": {
-				"1": "5/123"
-			},
-			"Steel mace": {
-				"1": "2/123"
-			},
-			"Steel full helm": {
+			"Small plated steel salvage": {
 				"1": "1/123"
 			},
-			"Steel kiteshield": {
+			"Medium plated steel salvage": {
 				"1": "1/123"
 			},
-			"Mithril med helm": {
+			"Tiny plated mithril salvage": {
 				"1": "1/123"
 			},
-			"Mithril square shield": {
+			"Small plated mithril salvage": {
 				"1": "1/123"
 			},
-			"Adamant battleaxe": {
+			"Medium bladed adamant salvage": {
 				"1": "1/123"
 			},
 			"Medium bladed rune salvage": {
@@ -268829,55 +268841,46 @@
 			"Silver bolts": {
 				"5": "3/123"
 			},
-			"Steel bar": {
-				"3  (noted)": "5/123"
+			"Coal stone spirit": {
+				"3": "5/123"
 			},
-			"Silver bar": {
-				"3 (noted)": "5/123"
+			"Silver stone spirit": {
+				"3": "5/123"
 			},
-			"Gold bar": {
-				"1": "5/123"
+			"Gold stone spirit": {
+				"1": "7/123"
 			},
-			"Adamant bar": {
-				"1": "2/123"
-			},
-			"Gold ore": {
+			"Adamant stone spirit": {
 				"1": "2/123"
 			},
 			"Yew wood spirit": {
 				"4-5": "12/123"
 			},
-			"Iron kiteshield": {
-				"1": "8/123"
+			"Medium plated iron salvage": {
+				"1": "13/123"
 			},
-			"Iron plateskirt": {
+			"Tiny spiky steel salvage": {
 				"1": "5/123"
 			},
-			"Steel hasta": {
-				"1": "5/123"
+			"Small bladed steel salvage": {
+				"1": "7/123"
 			},
-			"Steel scimitar": {
+			"Tiny blunt steel salvage": {
 				"1": "2/123"
 			},
-			"Steel longsword": {
-				"1": "5/123"
-			},
-			"Steel mace": {
-				"1": "2/123"
-			},
-			"Steel full helm": {
+			"Small plated steel salvage": {
 				"1": "1/123"
 			},
-			"Steel kiteshield": {
+			"Medium plated steel salvage": {
 				"1": "1/123"
 			},
-			"Mithril med helm": {
+			"Tiny plated mithril salvage": {
 				"1": "1/123"
 			},
-			"Mithril square shield": {
+			"Small plated mithril salvage": {
 				"1": "1/123"
 			},
-			"Adamant battleaxe": {
+			"Medium bladed adamant salvage": {
 				"1": "1/123"
 			},
 			"Medium bladed rune salvage": {
@@ -268944,10 +268947,10 @@
 			"Law rune": {
 				"1-5": "6/128"
 			},
-			"Steel battleaxe": {
+			"Medium bladed steel salvage": {
 				"1": "3/128"
 			},
-			"Mithril med helm": {
+			"Tiny plated mithril salvage": {
 				"1": "3/128"
 			},
 			"Coins": {
@@ -269024,58 +269027,46 @@
 			"Silver bolts": {
 				"5": "3/123"
 			},
-			"Steel bar": {
-				"3  (noted)": "5/123"
+			"Coal stone spirit": {
+				"3": "5/123"
 			},
-			"Silver bar": {
-				"3 (noted)": "5/123"
+			"Silver stone spirit": {
+				"3": "5/123"
 			},
-			"Gold bar": {
-				"1": "5/123"
+			"Gold stone spirit": {
+				"1": "7/123"
 			},
-			"Adamant bar": {
-				"1": "2/123"
-			},
-			"Gold ore": {
+			"Adamant stone spirit": {
 				"1": "2/123"
 			},
 			"Yew wood spirit": {
 				"4-5": "12/123"
 			},
-			"Iron kiteshield": {
-				"1": "8/123"
+			"Medium plated iron salvage": {
+				"1": "13/123"
 			},
-			"Iron plateskirt": {
+			"Tiny spiky steel salvage": {
 				"1": "5/123"
 			},
-			"Steel hasta": {
-				"1": "5/123"
+			"Small bladed steel salvage": {
+				"1": "7/123"
 			},
-			"Steel scimitar": {
+			"Tiny blunt steel salvage": {
 				"1": "2/123"
 			},
-			"Steel longsword": {
-				"1": "5/123"
-			},
-			"Steel mace": {
-				"1": "2/123"
-			},
-			"Steel full helm": {
+			"Small plated steel salvage": {
 				"1": "1/123"
 			},
-			"Steel kiteshield": {
+			"Medium plated steel salvage": {
 				"1": "1/123"
 			},
-			"Mithril med helm": {
+			"Tiny plated mithril salvage": {
 				"1": "1/123"
 			},
-			"Mithril square shield": {
+			"Small plated mithril salvage": {
 				"1": "1/123"
 			},
-			"Adamant battleaxe": {
-				"1": "1/123"
-			},
-			"Medium bladed rune salvage": {
+			"Medium bladed adamant salvage": {
 				"1": "1/123"
 			},
 			"Medium bladed rune salvage": {
@@ -269148,55 +269139,46 @@
 			"Steel bar": {
 				"3  (noted)": "5/123"
 			},
-			"Silver bar": {
-				"3 (noted)": "5/123"
+			"Coal stone spirit": {
+				"3": "5/123"
 			},
-			"Gold bar": {
-				"1": "5/123"
+			"Silver stone spirit": {
+				"3": "5/123"
 			},
-			"Adamant bar": {
-				"1": "2/123"
+			"Gold stone spirit": {
+				"1": "7/123"
 			},
-			"Gold ore": {
+			"Adamant stone spirit": {
 				"1": "2/123"
 			},
 			"Yew wood spirit": {
 				"4-5": "12/123"
 			},
-			"Iron kiteshield": {
-				"1": "8/123"
+			"Medium plated iron salvage": {
+				"1": "13/123"
 			},
-			"Iron plateskirt": {
+			"Tiny spiky steel salvage": {
 				"1": "5/123"
 			},
-			"Steel hasta": {
-				"1": "5/123"
+			"Small bladed steel salvage": {
+				"1": "7/123"
 			},
-			"Steel scimitar": {
+			"Tiny blunt steel salvage": {
 				"1": "2/123"
 			},
-			"Steel longsword": {
-				"1": "5/123"
-			},
-			"Steel mace": {
-				"1": "2/123"
-			},
-			"Steel full helm": {
+			"Small plated steel salvage": {
 				"1": "1/123"
 			},
-			"Steel kiteshield": {
+			"Medium plated steel salvage": {
 				"1": "1/123"
 			},
-			"Mithril med helm": {
+			"Tiny plated mithril salvage": {
 				"1": "1/123"
 			},
-			"Mithril square shield": {
+			"Small plated mithril salvage": {
 				"1": "1/123"
 			},
-			"Adamant battleaxe": {
-				"1": "1/123"
-			},
-			"Medium bladed rune salvage": {
+			"Medium bladed adamant salvage": {
 				"1": "1/123"
 			},
 			"Medium bladed rune salvage": {
@@ -270609,19 +270591,22 @@
 			"Bronze javelin": {
 				"5": "2/128"
 			},
-			"Tiny spiky bronze salvage": {
+			"Bronze spear": {
 				"1": "9/128"
 			},
-			"Small bladed bronze salvage": {
+			"Bronze scimitar": {
+				"1": "1/256"
+			},
+			"Bronze off hand scimitar": {
+				"1": "1/256"
+			},
+			"Iron square shield": {
 				"1": "1/128"
 			},
-			"Small plated iron salvage": {
+			"Bronze full helm": {
 				"1": "1/128"
 			},
-			"Small plated bronze salvage": {
-				"1": "1/128"
-			},
-			"Tin stone spirit": {
+			"Tin ore": {
 				"1": "1/128"
 			},
 			"Coins": {
@@ -280565,10 +280550,10 @@
 			"Bronze bolts": {
 				"2-12": "3/128"
 			},
-			"Iron dagger": {
+			"Tiny spiky iron salvage": {
 				"1": "2/128"
 			},
-			"Steel scimitar": {
+			"Small bladed steel salvage": {
 				"1": "3/128"
 			},
 			"Coins": {
@@ -280585,7 +280570,7 @@
 			"Karamthulhu": {
 				"1": "3/128"
 			},
-			"Iron ore": {
+			"Iron stone spirit": {
 				"1": "1/128"
 			},
 			"Eye patch": {
@@ -280638,10 +280623,10 @@
 			"Steel bolts": {
 				"2-12": "3/128"
 			},
-			"Mithril dagger": {
+			"Tiny spiky mithril salvage": {
 				"1": "2/128"
 			},
-			"Mithril scimitar": {
+			"Small bladed mithril salvage": {
 				"1": "3/128"
 			},
 			"Coins": {
@@ -280709,10 +280694,10 @@
 			"Bronze bolts": {
 				"2-12": "3/128"
 			},
-			"Iron dagger": {
+			"Tiny spiky iron salvage": {
 				"1": "2/128"
 			},
-			"Steel scimitar": {
+			"Small bladed steel salvage": {
 				"1": "3/128"
 			},
 			"Coins": {
@@ -280729,7 +280714,7 @@
 			"Karamthulhu": {
 				"1": "3/128"
 			},
-			"Iron ore": {
+			"Iron stone spirit": {
 				"1": "1/128"
 			},
 			"Eye patch": {
