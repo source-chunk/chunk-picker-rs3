@@ -1000,9 +1000,9 @@
 			},
 			"Cross the ~|fence (Varrock)|~": {
 				"Category": ["Shortcut"],
-				"Chunks": ["12852"],
+				"Objects": ["Fence (Varrock)"],
 				"Level": 13,
-				"Primary": false,
+				"Primary": true,
 				"Priority": 1,
 				"NoPet": true
 			},
@@ -73236,9 +73236,9 @@
 				"Primary": false,
 				"Priority": 1
 			},
-			"Unlock the gate in the ~|Ardougne sewers|~": {
+			"Unlock the gate in the ~|Ardougne Sewers|~": {
 				"Level": 31,
-				"Chunks": ["10647"],
+				"Chunks": ["Eastern Ardougne Sewer"],
 				"Primary": true,
 				"Priority": 1
 			},
@@ -77608,7 +77608,8 @@
 				"Description": "Collect the toffee apple at Al Kharid Palace",
 				"Chunks": ["13105"],
 				"Tasks": {
-					"~|Benedict's World Tour (miniquest)|~ 1": "Quest"
+					"~|Benedict's World Tour (miniquest)|~ 1": "Quest",
+					"~|Stolen Hearts|~ 5": "Quest"
 				},
 				"Not F2P": true
 			},
@@ -83390,7 +83391,7 @@
 			"~|Dishonour among Thieves|~ 3b1": {
 				"BaseQuest": "Dishonour among Thieves",
 				"Description": "Recruit Hazeel",
-				"Chunks": ["Southern Ardougne sewer"],
+				"Chunks": ["Southern Ardougne Sewer"],
 				"Tasks": {
 					"~|Dishonour among Thieves|~ 2": "Quest"
 				},
@@ -89737,7 +89738,7 @@
 			"~|Hazeel Cult|~ 2a": {
 				"BaseQuest": "Hazeel Cult",
 				"Description": "Talk to Clivet and refuse to help. Solve the valve puzzle and talk to him again before killing Alomone.",
-				"Chunks": ["10290", "Southern Ardougne sewer"],
+				"Chunks": ["10290", "Southern Ardougne Sewer"],
 				"Tasks": {
 					"~|Hazeel Cult|~ 1": "Quest"
 				},
@@ -89755,7 +89756,7 @@
 			"~|Hazeel Cult|~ 2b": {
 				"BaseQuest": "Hazeel Cult",
 				"Description": "Talk to Clivet and offer to help.",
-				"Chunks": ["Southern Ardougne sewer"],
+				"Chunks": ["Southern Ardougne Sewer"],
 				"Tasks": {
 					"~|Hazeel Cult|~ 1": "Quest"
 				},
@@ -89773,7 +89774,7 @@
 			"~|Hazeel Cult|~ 4b": {
 				"BaseQuest": "Hazeel Cult",
 				"Description": "Return to Clivet, solve the valve puzzle and talk to Alomone.",
-				"Chunks": ["Southern Ardougne sewer"],
+				"Chunks": ["Southern Ardougne Sewer"],
 				"Tasks": {
 					"~|Hazeel Cult|~ 3b": "Quest"
 				},
@@ -89791,7 +89792,7 @@
 			"~|Hazeel Cult|~ 6b": {
 				"BaseQuest": "Hazeel Cult",
 				"Description": "Return to Alomone",
-				"Chunks": ["Southern Ardougne sewer"],
+				"Chunks": ["Southern Ardougne Sewer"],
 				"Tasks": {
 					"~|Hazeel Cult|~ 5b": "Quest"
 				},
@@ -93892,7 +93893,7 @@
 			"~|Mahjarrat Memories (miniquest)|~ 2e": {
 				"BaseQuest": "Mahjarrat Memories (miniquest)",
 				"Description": "Store Hazeel's memory and have Kharshai translate it",
-				"Chunks": ["VibrantOrBetterWisps[+]", "10553", "Southern Ardougne sewer"],
+				"Chunks": ["VibrantOrBetterWisps[+]", "10553", "Southern Ardougne Sewer"],
 				"Tasks": {
 					"~|Mahjarrat Memories (miniquest)|~ 1": "Quest"
 				},
@@ -97877,7 +97878,7 @@
 			"~|Plague City|~ 4": {
 				"BaseQuest": "Plague City",
 				"Description": "Pull off the grate with the help of Edmond",
-				"Chunks": ["Western Ardougne sewer"],
+				"Chunks": ["Western Ardougne Sewer"],
 				"Items": ["Rope"],
 				"Tasks": {
 					"~|Plague City|~ 3": "Quest"
@@ -97933,7 +97934,7 @@
 			"~|Plague City|~ 10": {
 				"BaseQuest": "Plague City",
 				"Description": "Go through the sewer and talk to Edmond",
-				"Chunks": ["Western Ardougne sewer"],
+				"Chunks": ["Western Ardougne Sewer"],
 				"Tasks": {
 					"~|Plague City|~ 9": "Quest"
 				},
@@ -107892,7 +107893,7 @@
 				"BaseQuest": "Contract Claws",
 				"Description": "Free Alichino (Gemini)",
 				"Chunks": ["Infernal Source"],
-				"Items": ["Kandarin cow (unchecked)", "Kandarin bull (unchecked)"],
+				"Items": ["Kandarin cow (unchecked)", "Bull (unchecked)"],
 				"Tasks": {
 					"Archaeology Mystery: ~|Contract Claws|~ 1": "Quest"
 				},
@@ -111686,7 +111687,7 @@
 				"BaseQuest": "Falador Achievements",
 				"Category": ["Show Diary Tasks"]
 			},
-			"~|Falador Achievements#Easy|~ Cahin Store": {
+			"~|Falador Achievements#Easy|~ Chain Store": {
 				"Description": "Buy a black chainbody from Wayne's Chains, and try it on in the shop.",
 				"Chunks": ["11827"],
 				"Skills": {
@@ -129965,7 +129966,8 @@
 				"Chunks": ["10036-1"],
 				"Items": ["Green dragonhide chaps", "Green dragonhide body", "Steel square shield"],
 				"Tasks": {
-					"Build a medium ~|hidey-hole|~": "Construction"
+					"Build a medium ~|hidey-hole|~": "Construction",
+					"~|Biohazard|~ Complete the quest": "Quest"
 				}
 			},
 			"~|hidey-hole|~: Varrock digstie north-eastern winch": {
@@ -130036,7 +130038,7 @@
 				"Category": ["Fill Stash"],
 				"Label": "Fill hidey-holes",
 				"Chunks": ["12090"],
-				"Items": ["Iron squire shield", "Iron pickaxe", "Blue dragonhide vambraces"],
+				"Items": ["Iron square shield", "Iron pickaxe", "Blue dragonhide vambraces"],
 				"Tasks": {
 					"Build a hard ~|hidey-hole|~": "Construction"
 				}
@@ -137909,12 +137911,6 @@
 				"Category": ["Untracked Uniques", "Untracked Uniques Combat"],
 				"Label": "Untracked Combat Uniques",
 				"Items": ["Ogre club"],
-				"Not F2P": true
-			},
-			"(Untracked Boss) Obtain a ~|mole claw|~": {
-				"Category": ["Untracked Uniques", "Untracked Uniques Combat"],
-				"Label": "Untracked Combat Uniques",
-				"Items": ["Mole claw"],
 				"Not F2P": true
 			},
 			"(Untracked Boss) Obtain a ~|ultra-growth potion (1)|~": {
@@ -145835,6 +145831,66 @@
 				"Label": "Permanent Unlockables",
 				"Items": ["Wicked hood", "Elemental talisman*"]
 			},
+			"Unlock the ~|boon of flickering energy|~": {
+				"Category": ["Permanent Unlockabes"],
+				"Label": "Permanent Unlockables",
+				"Items": ["Boon of flickering energy*"]
+			},
+			"Unlock the ~|boon of bright energy|~": {
+				"Category": ["Permanent Unlockabes"],
+				"Label": "Permanent Unlockables",
+				"Items": ["Boon of bright energy*"]
+			},
+			"Unlock the ~|boon of glowing energy|~": {
+				"Category": ["Permanent Unlockabes"],
+				"Label": "Permanent Unlockables",
+				"Items": ["Boon of glowing energy*"]
+			},
+			"Unlock the ~|boon of sparkling energy|~": {
+				"Category": ["Permanent Unlockabes"],
+				"Label": "Permanent Unlockables",
+				"Items": ["Boon of sparkling energy*"]
+			},
+			"Unlock the ~|boon of gleaming energy|~": {
+				"Category": ["Permanent Unlockabes"],
+				"Label": "Permanent Unlockables",
+				"Items": ["Boon of gleaming energy*"]
+			},
+			"Unlock the ~|boon of vibrant energy|~": {
+				"Category": ["Permanent Unlockabes"],
+				"Label": "Permanent Unlockables",
+				"Items": ["Boon of vibrant energy*"]
+			},
+			"Unlock the ~|boon of lustrous energy|~": {
+				"Category": ["Permanent Unlockabes"],
+				"Label": "Permanent Unlockables",
+				"Items": ["Boon of lustrous energy*"]
+			},
+			"Unlock the ~|boon of elder energy|~": {
+				"Category": ["Permanent Unlockabes"],
+				"Label": "Permanent Unlockables",
+				"Items": ["Boon of elder energy*"]
+			},
+			"Unlock the ~|boon of brilliant energy|~": {
+				"Category": ["Permanent Unlockabes"],
+				"Label": "Permanent Unlockables",
+				"Items": ["Boon of brilliant energy*"]
+			},
+			"Unlock the ~|boon of radiant energy|~": {
+				"Category": ["Permanent Unlockabes"],
+				"Label": "Permanent Unlockables",
+				"Items": ["Boon of radiant energy*"]
+			},
+			"Unlock the ~|boon of luminous energy|~": {
+				"Category": ["Permanent Unlockabes"],
+				"Label": "Permanent Unlockables",
+				"Items": ["Boon of luminous energy*"]
+			},
+			"Unlock the ~|boon of incandescent energy|~": {
+				"Category": ["Permanent Unlockabes"],
+				"Label": "Permanent Unlockables",
+				"Items": ["Boon of incandescent energy*"]
+			},
 			"Unlock the ~|Warrior of Het armour|~": {
 				"Category": ["Permanent Unlockables", "Cosmetics"],
 				"Label": "Cosmetic Overrides",
@@ -153309,7 +153365,7 @@
 			"Yanille Agility Dungeon": {
 				"UnlocksArea": true
 			},
-			"Western Ardougne sewer": {
+			"Western Ardougne Sewer": {
 				"UnlocksArea": true
 			},
 			"Chaos Druid Tower Dungeon": {
@@ -153492,10 +153548,10 @@
 				},
 				"UnlocksArea": true
 			},
-			"Eastern Ardougne sewer": {
+			"Eastern Ardougne Sewer": {
 				"UnlocksArea": true
 			},
-			"Southern Ardougne sewer": {
+			"Southern Ardougne Sewer": {
 				"UnlocksArea": true
 			},
 			"Claus' Kitchen": {
@@ -156892,46 +156948,6 @@
 				},
 				"Output": "Pharmakos berries"
 			},
-			"RFD chest 2": {
-				"Tasks": {
-					"RecipeSub[+]": "Quest"
-				}
-			},
-			"RFD chest 3": {
-				"Tasks": {
-					"RecipeSub[+]x2": "Quest"
-				}
-			},
-			"RFD chest 4": {
-				"Tasks": {
-					"RecipeSub[+]x3": "Quest"
-				}
-			},
-			"RFD chest 5": {
-				"Tasks": {
-					"RecipeSub[+]x4": "Quest"
-				}
-			},
-			"RFD chest 6": {
-				"Tasks": {
-					"RecipeSub[+]x5": "Quest"
-				}
-			},
-			"RFD chest 7": {
-				"Tasks": {
-					"RecipeSub[+]x6": "Quest"
-				}
-			},
-			"RFD chest 8": {
-				"Tasks": {
-					"RecipeSub[+]x7": "Quest"
-				}
-			},
-			"RFD chest 9": {
-				"Tasks": {
-					"RecipeSub[+]x8": "Quest"
-				}
-			},
 			"Open the muddy chest": {
 				"Items": ["Muddy key"],
 				"Objects": ["Muddy chest"],
@@ -157957,7 +157973,7 @@
 					"Fairy Resistance Hideout", "Cosmic Entity plane", "Gorak Plane", "11317-1", "13107-1", "Witchaven Dungeon", "13110-1", 
 					"Edgeville Dungeon", "10289", "10553", "10806-1", "10806-2", "10552-1", "10808-1", "11064-1", "14391", "10548", "12083-1", "11062-1", 
 					"11830-1", "12342-1", "11573", "11574", "11828", "12597-1", "13872", "Ruins of Uzer", "Thammaron's Throne Room", "11823", 
-					"9526-1", "Grand Tree Mine", "10291", "10290", "Southern Ardougne sewer", "Ice Queen's lair", "11057", 
+					"9526-1", "Grand Tree Mine", "10291", "10290", "Southern Ardougne Sewer", "Ice Queen's lair", "11057", 
 					"Phoenix Gang Hideout", "13100", "13099", "Little Helper Pyramid", "13098-1", "11056", "11055-1", "11055-2", "11312", "11311", 
 					"Pothole Dungeon", "Asgarnian Ice Dungeon", "10804", "11053-1", "11309-1", "11565-1", "Viyeldi Caves", "12593", 
 					"Entrana Dungeon", "12849", "10297-1", "8763", "8252-1", "8252-2", "Air Rune Temple", "Fire Rune Temple", "Water Rune Temple", 
@@ -173971,7 +173987,7 @@
 				"Crashed star": 1
 			},
 			"NPC": {
-				"Incandescent wisp": 13,
+				"Incandescent wisp": 5,
 				"Enriched incandescent wisp": 1,
 				"Memory fragment": 24,
 				"Myself": 1,
@@ -175579,7 +175595,7 @@
 				"Lift": 1
 			},
 			"NPC": {
-				"Vibrant wisp": 13,
+				"Vibrant wisp": 5,
 				"Enriched vibrant wisp": 1,
 				"Jogre": 2,
 				"Ogre": 2,
@@ -178850,7 +178866,7 @@
 				"10035": true,
 				"10292": true
 			},
-			"Name": "Western Ardougne sewer"
+			"Name": "Western Ardougne Sewer"
 		},
 		"10137": {
 			"Object": {
@@ -180133,7 +180149,7 @@
 			"Connect": {
 				"10291": true
 			},
-			"Name": "Southern Ardougne sewer"
+			"Name": "Southern Ardougne Sewer"
 		},
 		"10392": {
 			"Object": {
@@ -181313,7 +181329,7 @@
 				"Zombie": 3,
 				"Giant rat": 8
 			},
-			"Name": "Eastern Ardougne sewer"
+			"Name": "Eastern Ardougne Sewer"
 		},
 		"10648": {
 			"Object": {
@@ -181743,7 +181759,7 @@
 				"Baby raccoon": 1,
 				"Baby squirrel": 5,
 				"Geoffrey": 1,
-				"Glowing wisp": 13,
+				"Glowing wisp": 5,
 				"Enriched glowing wisp": 1
 			},
 			"Spawn": {
@@ -183335,7 +183351,7 @@
 						"Lalli": 1,
 						"Golden sheep": 7,
 						"Musician": 1,
-						"Sparkling wisp": 13,
+						"Sparkling wisp": 5,
 						"Enriched sparkling wisp": 1
 					},
 					"Connect": {
@@ -185468,8 +185484,8 @@
 						"Baby monkey": 5,
 						"Baby gecko": 3,
 						"Gecko": 2,
-						"Gleaming wisp": 13,
-						"Enriched gleaming wisp": 13
+						"Gleaming wisp": 5,
+						"Enriched gleaming wisp": 1
 					},
 					"Quest": {
 						"Twilight of the Gods": "step"
@@ -185775,7 +185791,8 @@
 						"Harvey": 1
 					},
 					"Monster": {
-						"Dark wizard": 15
+						"Dark wizard#Young": 15,
+						"Dark wizard#Bearded": 15
 					},
 					"Spawn": {
 						"Diary (Witch's House)": 1,
@@ -186056,32 +186073,10 @@
 						"Soldier": 33,
 						"Archer": 6,
 						"Challenge Mistress Fara": 1,
-						"Seren": 1,
-						"Thok": 1,
-						"King Roald": 1,
-						"Sir Amik Varze": 1,
-						"Lord Daquarius": 1,
-						"Armadyl": 1,
-						"Brundt the Chieftain": 1,
 						"Aoife Fairweather": 1,
 						"Gnome Banker": 1,
 						"Herald": 1,
 						"Nora": 1,
-						"Doric": 1,
-						"Osman": 1,
-						"Ichi": 1,
-						"Garlandia": 1,
-						"Commander Zilyana": 1,
-						"Moia": 1,
-						"Azzanadra": 1,
-						"Zanik": 1,
-						"Icthlarin": 1,
-						"Zarador": 1,
-						"Glout": 1,
-						"King Narnode Shareen": 1,
-						"Vanescula Drakan": 1,
-						"Oneiromancer": 1,
-						"Juna": 1,
 						"Sir Yaktrick Moore": 1,
 						"Dioscuri Sentinel": 1,
 						"Twilight Pegasus": 1,
@@ -187333,7 +187328,7 @@
 						"Brother Bordiss": 1,
 						"Ariane": 1,
 						"Ozan": 1,
-						"Flickering wisp": 13,
+						"Flickering wisp": 5,
 						"Enriched flickering wisp": 1,
 						"Herald": 1,
 						"Stanley Limelight": 1,
@@ -189466,7 +189461,7 @@
 						"Relomia, Emissary of Sliske": 1,
 						"Pigzilla": 1,
 						"Jambon": 1,
-						"Pale wisp": 13,
+						"Pale wisp": 5,
 						"Orla Fairweather": 1,
 						"Faizan Augour": 1,
 						"May Stormbrewer": 1,
@@ -189562,7 +189557,7 @@
 			},
 			"Monster": {
 				"Rat": 1,
-				"Goblin (Lumbridge)": 1,
+				"Goblin#Drop table 1": 1,
 				"Hollowtoof": 1,
 				"Goblin Raider": 1
 			},
@@ -192140,7 +192135,7 @@
 				"Chaos altar": 1,
 				"Cabbage": 6,
 				"Sink": 1,
-				"Fence": 1,
+				"Fence (Varrock)": 1,
 				"Crates": 1,
 				"Crate": 7,
 				"Wheat": 268,
@@ -192191,7 +192186,8 @@
 				"Imp": 2,
 				"Guard (Varrock)": 3,
 				"Thief": 1,
-				"Dark wizard": 11,
+				"Dark wizard#Young": 3,
+				"Dark wizard#Bearded": 8,
 				"Man": 1,
 				"Hollowtoof": 1,
 				"Goblin Raider": 1
@@ -193027,7 +193023,7 @@
 						"Rockodile": 5
 					},
 					"NPC": {
-						"Luminous wisp": 13,
+						"Luminous wisp": 5,
 						"Enriched luminous wisp": 1,
 						"Plover bird": 16
 					},
@@ -193620,9 +193616,7 @@
 					},
 					"NPC": {
 						"Rat Burgiss": 1,
-						"Musician": 1,
-						"Bright wisp": 3,
-						"Enriched bright wisp": 1
+						"Musician": 1
 					},
 					"Clue": {
 						"easy": 1,
@@ -193710,7 +193704,7 @@
 						"Baby raccoon": 4,
 						"Baby Raccoon": 2,
 						"Musician": 1,
-						"Bright wisp": 10
+						"Bright wisp": 5
 					},
 					"Monster": {
 						"Guard (Varrock)": 4
@@ -195603,7 +195597,7 @@
 						"Energy rift": 1
 					},
 					"NPC": {
-						"Brilliant wisp": 13,
+						"Brilliant wisp": 5,
 						"Enriched brilliant wisp": 1
 					},
 					"Connect": {
@@ -196565,7 +196559,7 @@
 			},
 			"NPC": {
 				"Old crone": 1,
-				"Lustrous wisp": 13,
+				"Lustrous wisp": 5,
 				"Enriched lustrous wisp": 1,
 				"Veliaf Hurtz": 1
 			},
@@ -199207,7 +199201,7 @@
 			},
 			"NPC": {
 				"Ghost captain": 1,
-				"Radiant wisp": 13,
+				"Radiant wisp": 5,
 				"Enriched radiant wisp": 1
 			},
 			"Connect": {
@@ -200227,7 +200221,7 @@
 				"Safalaan Hallow": 1
 			},
 			"NPC": {
-				"Lustrous wisp": 13,
+				"Lustrous wisp": 5,
 				"Enriched lustrous wisp": 1
 			}
 		},
@@ -212728,7 +212722,7 @@
 				"10288": true
 			}
 		},
-		"Western Ardougne sewer": {
+		"Western Ardougne Sewer": {
 			"Object": {
 				"Mud pile": 1,
 				"Pipe": 1
@@ -213614,7 +213608,7 @@
 				"Mahjarrat Memories (miniquest)": "step"
 			}
 		},
-		"Eastern Ardougne sewer": {
+		"Eastern Ardougne Sewer": {
 			"Monster": {
 				"Rat": 5,
 				"Zombie#Level 29": 3,
@@ -213624,7 +213618,7 @@
 				"10547": true
 			}
 		},
-		"Southern Ardougne sewer": {
+		"Southern Ardougne Sewer": {
 			"Object": {
 				"Raft": 6,
 				"Fire": 1,
@@ -239581,7 +239575,7 @@
 				"1": "1/1000"
 			}
 		},
-		"Dark wizard": {
+		"Dark wizard#Bearded": {
 			"Bones": {
 				"1": "Always"
 			},
@@ -239643,6 +239637,76 @@
 			},
 			"Fire talisman": {
 				"1": "2/128"
+			},
+			"Chargebow": {
+				"1": "1/200"
+			},
+			"Staff of air": {
+				"1": "1/200"
+			}
+		},
+		"Dark wizard#Young": {
+			"Bones": {
+				"1": "Always"
+			},
+			"Coins": {
+				"1": "17/128",
+				"2": "16/128",
+				"4": "7/128",
+				"29": "7/128",
+				"30": "1/128"
+			},
+			"Nature rune": {
+				"4": "7/128"
+			},
+			"Chaos rune": {
+				"3": "1/128",
+				"5": "6/128"
+			},
+			"Air rune": {
+				"10": "3/128",
+				"18": "2/128"
+			},
+			"Water rune": {
+				"10": "3/128",
+				"18": "2/128"
+			},
+			"Earth rune": {
+				"10": "3/128",
+				"18": "2/128"
+			},
+			"Fire rune": {
+				"10": "3/128",
+				"18": "2/128"
+			},
+			"Mind rune": {
+				"10": "3/128",
+				"18": "2/128"
+			},
+			"Body rune": {
+				"10": "3/128",
+				"18": "2/128"
+			},
+			"Blood rune": {
+				"4": "2/128"
+			},
+			"Cosmic rune": {
+				"2": "1/128"
+			},
+			"Staff": {
+				"1": "8/128"
+			},
+			"Black wizard hat": {
+				"1": "4/128"
+			},
+			"Black wizard robe top": {
+				"1": "3/128"
+			},
+			"Water talisman": {
+				"1": "1/128"
+			},
+			"Fire talisman": {
+				"1": "1/128"
 			},
 			"Chargebow": {
 				"1": "1/200"
@@ -247554,6 +247618,9 @@
 			"Bronze scimitar": {
 				"1": "1/128"
 			},
+			"Bronze off hand scimitar": {
+				"1": "1/128"
+			},
 			"Bronze full helm": {
 				"1": "1/128"
 			},
@@ -247650,6 +247717,9 @@
 				"1": "9/128"
 			},
 			"Bronze scimitar": {
+				"1": "1/128"
+			},
+			"Bronze off hand scimitar": {
 				"1": "1/128"
 			},
 			"Bronze full helm": {
@@ -258294,10 +258364,10 @@
 			"Bronze med helm": {
 				"1": "2/128"
 			},
-			"Bronze dagger": {
+			"Iron dagger": {
 				"1": "1/128"
 			},
-			"Bronze off hand dagger": {
+			"Iron off hand dagger": {
 				"1": "1/128"
 			},
 			"Coins": {
@@ -279500,6 +279570,9 @@
 			"Iron mace": {
 				"1": "3/128"
 			},
+			"Iron off hand mace": {
+				"1": "3/128"
+			},
 			"Iron dagger": {
 				"1": "1/138"
 			},
@@ -280747,7 +280820,7 @@
 		"Dimension of Disaster: Demon Slayer": "New Varrock",
 		"Dimension of Disaster: Defender of Varrock": "New Varrock",
 		"Dimension of Disaster: Curse of Arrav": "New Varrock",
-		"Dishonour among Thieves": "Empyrean Citadel, Zamorak's hideout, 11324, Lamistard's Tunnels, Southern Ardougne sewer, 10547, Death's Office, Ruins of Uzer, Taverley Dungeon, 14131",
+		"Dishonour among Thieves": "Empyrean Citadel, Zamorak's hideout, 11324, Lamistard's Tunnels, Southern Ardougne Sewer, 10547, Death's Office, Ruins of Uzer, Taverley Dungeon, 14131",
 		"Do No Evil": "Uzer Mastaba, 13099, 11051, 13613, 12846, 13106, 12340, 12847, 13871, Pollnivneach Slayer Dungeon, Kalphite Hive, Thammaron's Throne Room",
 		"Dragon Slayer": "12596, 12086, 12850, Dwarven Mine, 11570, Melzar's Maze, 12081, 12082, 12338, 11314, 11315, Elvarg's Lair",
 		"Dream Mentor": "Lunar Isle Mine, 8253, 8508",
@@ -280799,7 +280872,7 @@
 		"Gunnar's Ground": "12341, 12342",
 		"The Hand in the Sand": "10032, 10288, 11057, 11316",
 		"Haunted Mine": "13618, Haunted mine",
-		"Hazeel Cult": "10291, 10290, Southern Ardougne sewer",
+		"Hazeel Cult": "10291, 10290, Southern Ardougne Sewer",
 		"Heart of Stone": "12337, 11316, 11313, 11318, 13355, 12849",
 		"Heartstealer": "12342, 12853",
 		"Hero's Welcome": "10553, V's Island (interior), 8763, Ancient Cavern, Dragonkin Lair, Grotworm Lair 3, Tarshak's sanctum",
@@ -280873,7 +280946,7 @@
 		"'Phite Club": "12587, 12585, 12586, Shifting Tombs",
 		"Pieces of Hate": "Player-owned house, 12078, 11822, 14638, 12597, 11056, Braindeath Island",
 		"Pirate's Treasure": "12082, 11569, 12853, 11828",
-		"Plague City": "10292, Western Ardougne sewer, 10035, 10036",
+		"Plague City": "10292, Western Ardougne Sewer, 10035, 10036",
 		"Plague's End": "9265, Plague's End Areas, 10291, 10035, 9779, 10036, 10292, Mourner HQ, Underground Pass, 8753, 8496, 9009, 13626",
 		"Priest in Peril": "12854, 13622, Paterdomus",
 		"Princess and the Pauper": "13111, 13110, 12852, 13108, 12597",
@@ -281014,7 +281087,7 @@
 		"Lair of Tarn Razorlor (miniquest)": "Lair of Tarn Razorlor (dungeon)",
 		"Lost Her Marbles (miniquest)": "Thieves' Guild after Caper 1, 12851",
 		"The Lost Toys (miniquest)": "13878, 13622, 14390, Araxyte lair, Paterdomus, 13877, Burgh de Rott Myreque Hideout, Meiyerditch Laboratories, Meiyerditch Mine, 14132, Cave (Burgh de Rott), 14641",
-		"Mahjarrat Memories (miniquest)": "10553, VibrantOrBetterWisps[+], Enakhra's Temple, Jaldraocht Pyramid, 13626, Southern Ardougne sewer, Erjolf's cave, Lamistard's Tunnels, 12342, Senntisten Temple, 11580, 11581, Empyrean Citadel, 13613, Chaos Temple Dungeon",
+		"Mahjarrat Memories (miniquest)": "10553, VibrantOrBetterWisps[+], Enakhra's Temple, Jaldraocht Pyramid, 13626, Southern Ardougne Sewer, Erjolf's cave, Lamistard's Tunnels, 12342, Senntisten Temple, 11580, 11581, Empyrean Citadel, 13613, Chaos Temple Dungeon",
 		"Mogre (lore activity)": "11825",
 		"Nadir (abridged saga)": "13626, 13882, 13625",
 		"Nadir (unabridged saga)": "13626, 13882, 13625",
@@ -281118,35 +281191,35 @@
 			"Berserker helm": [{
 				"~|The Fremennik Trials|~ Complete the quest": "Quest"
 			}],
-			"Cleaver": [{
+			"Cleaver^": [{
 				"~|Recipe for Disaster: Defeating the Culinaromancer|~ Complete the subquest": "Quest"
 			}],
 			"Court summons^": [{
 				"~|King's Ransom|~ Complete the quest": "Quest"
 			}],
 			"Culinaromancer's gloves 2^": [{
-				"RFD chest 2": "Nonskill"
+				"RecipeSub[+]": "Nonskill"
 			}],
             "Culinaromancer's gloves 3^": [{
-				"RFD chest 3": "Nonskill"
+				"RecipeSub[+]x2": "Nonskill"
 			}],
             "Culinaromancer's gloves 4^": [{
-				"RFD chest 4": "Nonskill"
+				"RecipeSub[+]x3": "Nonskill"
 			}],
             "Culinaromancer's gloves 5^": [{
-				"RFD chest 5": "Nonskill"
+				"RecipeSub[+]x4": "Nonskill"
 			}],
             "Culinaromancer's gloves 6^": [{
-				"RFD chest 6": "Nonskill"
+				"RecipeSub[+]x5": "Nonskill"
 			}],
             "Culinaromancer's gloves 7^": [{
-				"RFD chest 7": "Nonskill"
+				"RecipeSub[+]x6": "Nonskill"
 			}],
             "Culinaromancer's gloves 8^": [{
-				"RFD chest 8": "Nonskill"
+				"RecipeSub[+]x7": "Nonskill"
 			}],
             "Culinaromancer's gloves 9^": [{
-				"RFD chest 9": "Nonskill"
+				"RecipeSub[+]x8": "Nonskill"
 			}],
             "Culinaromancer's gloves 10^": [{
 				"~|Recipe for Disaster: Defeating the Culinaromancer|~ Complete the subquest": "Quest"
@@ -281199,13 +281272,13 @@
 			"Dragon Rider gloves^": [{
 				"Members only": "Nonskill"
 			}],
-			"Egg whisk": [{
+			"Egg whisk^": [{
 				"RecipeSub[+]": "Quest"
 			}],
 			"Farseer helm": [{
 				"~|The Fremennik Trials|~ Complete the quest": "Quest"
 			}],
-			"Frying pan": [{
+			"Frying pan^": [{
 				"RecipeSub[+]x4": "Quest"
 			}],
 			"Hazelmere's signet ring^": [{
@@ -281214,7 +281287,7 @@
 			"Hungry hood^": [{
 				"Gain the ability to buy the ~|hungry hood|~": "Runecrafting"
 			}],
-			"Kitchen knife": [{
+			"Kitchen knife^": [{
 				"RecipeSub[+]x7": "Quest"
 			}],
 			"Linza's helm^": [{
@@ -281238,7 +281311,7 @@
 			"Curved bone^": [{
 				"Members only": "Nonskill"
 			}],
-			"Meat tenderiser": [{
+			"Meat tenderiser^": [{
 				"RecipeSub[+]x8": "Quest"
 			}],
 			"Monk's robe (top)^Monk": [{
@@ -281277,7 +281350,7 @@
 			"Corrupt Morrigan's throwing axe^": [{
 				"Members only": "Nonskill"
 			}],
-			"Rolling pin": [{
+			"Rolling pin^": [{
 				"RecipeSub[+]x6": "Quest"
 			}],
 			"Shark^Barrows": [{
@@ -281373,16 +281446,16 @@
 			"Skeletal boots": [{
 				"~|The Fremennik Trials|~ Complete the quest": "Quest"
 			}],
-			"Skewer": [{
+			"Skewer^": [{
 				"RecipeSub[+]x5": "Quest"
 			}],
 			"Slayer's staff^": [{
 				"Members only": "Nonskill"
 			}],
-			"Spatula": [{
+			"Spatula^": [{
 				"RecipeSub[+]x3": "Quest"
 			}],
-			"Spork": [{
+			"Spork^": [{
 				"RecipeSub[+]x2": "Quest"
 			}],
 			"Super defence (2)^Barrows": [{
@@ -282723,7 +282796,7 @@
 					"Obtain a light source": "Nonskill"
 				}]
 			},
-			"Cave bug": {
+			"Cave bug#Level 6": {
 				"Lumbridge Swamp Caves": [{
 					"Obtain a light source": "Nonskill"
 				}]
@@ -283219,6 +283292,11 @@
 					"~|Battle of Forinthry|~ Complete the quest": "Quest"
 				}, {
 					"Hard Mode Bosses": "Nonskill"
+				}]
+			},
+			"Zombie#Level 29": {
+				"Eastern Ardougne Sewer": [{
+					"Unlock the gate in the ~|Ardougne Sewers|~": "Thieving"
 				}]
 			},
 			"Broodoo victim": {
@@ -284117,7 +284195,7 @@
 				}]
 			},
 			"Shooting Star Reward Shop": {
-				"12337": [{
+				"12337-1": [{
 					"Access to stardust": "Nonskill"
 				}]
 			},
@@ -284329,6 +284407,11 @@
 			"Phoenix crossbow": {
 				"12852": [{
 					"~|Shield of Arrav|~ 7": "Quest"
+				}]
+			},
+			"Iron mace": {
+				"10547": [{
+					"Unlock the ~|Secure Chest|~ door at Ardougne Market": "Thieving"
 				}]
 			}
 		}
@@ -284549,6 +284632,397 @@
 			{ "color": "#000000", "x": 3362, "y": 3600 },
 			{ "color": "#000000", "x": 2962, "y": 3618 },
 			{ "color": "#FFD700", "x": 3102, "y": 3624 }
+		],
+		"Clues": [
+			{ "color": "#d8f0ee", "text": "A crate found in the tower of a church is your next location.", "type": "Easy", "x":2612, "y":3306 },
+			{ "color": "#d8f0ee", "text": "One of the sailors in Port Sarim is your next destination.", "type": "Easy", "x":3027, "y":3217 },
+			{ "color": "#d8f0ee", "text": "Someone watching Het's Oasis is your next destination.", "type": "Easy", "x":3375, "y":3273 },
+			{ "color": "#d8f0ee", "text": "Blow raspberries outside the entrance to Keep Le Faye. (Studded leather coif, iron platebody, leather gloves)", "type": "Easy", "x":2756, "y":3404 },
+			{ "color": "#d8f0ee", "text": "Bow or curtsy at the entrance to Het's Oasis. (Iron chainbody, leather chaps, studded leather coif)", "type": "Easy", "x":3323, "y":3236 },
+			{ "color": "#d8f0ee", "text": "Bow or curtsy outside the entrance to the Legends' Guild. (Iron platelegs, emerald amulet, oak shieldbow)", "type": "Easy", "x":2732, "y":3352 },
+			{ "color": "#d8f0ee", "text": "Cheer at the Druids' Circle. (Air tiara, bronze 2h sword, gold amulet)", "type": "Easy", "x":2922, "y":3476 },
+			{ "color": "#d8f0ee", "text": "Cheer for the monks at Port Sarim. (Studded leather coif, steel plateskirt, sapphire necklace)", "type": "Easy", "x":3042, "y":3234 },
+			{ "color": "#d8f0ee", "text": "Clap in the main exam room of the Exam Centre. (Ruby amulet, blue flowers, leather gloves)", "type": "Easy", "x":3351, "y":3348 },
+			{ "color": "#d8f0ee", "text": "Clap on the causeway to the Wizards' Tower (Iron med helm, emerald ring, leather gloves)", "type": "Easy", "x":3099, "y":3188 },
+			{ "color": "#d8f0ee", "text": "Clap on the top level of the mill north of east Ardougne. (Emerald ring, wood camo top, tiara)", "type": "Easy", "x":2635, "y":3383 },
+			{ "color": "#d8f0ee", "text": "Cry outside the south gates of Fort Forinthry. (Hard leather body, leather chaps, bronze hatchet)", "type": "Easy", "x":3299, "y":3521 },
+			{ "color": "#d8f0ee", "text": "Dance a jig by the entrance to the Fishing Guild. (Emerald ring, sapphire amulet, bronze chainbody)", "type": "Easy", "x":2619, "y":3388 },
+			{ "color": "#d8f0ee", "text": "Dance at the crossroads north of Draynor. (Iron chainbody, sapphire ring, shieldbow)", "type": "Easy", "x":3112, "y":3292 },
+			{ "color": "#d8f0ee", "text": "Dance in the Party Room. (Steel full helm, steel platebody, iron plateskirt)", "type": "Easy", "x":3041, "y":3372 },
+			{ "color": "#d8f0ee", "text": "Dance in the shack in Lumbridge Swamp. (Bronze dagger, iron full helm, gold ring)", "type": "Easy", "x":3204, "y":3169 },
+			{ "color": "#d8f0ee", "text": "Headbang in the mine north of Al Kharid. (Polar camo top, leather gloves, leather boots)", "type": "Easy", "x":3295, "y":3282 },
+			{ "color": "#d8f0ee", "text": "Jump for joy at the beehives. (Iron armoured boots, unholy symbol, steel hatchet)", "type": "Easy", "x":2762, "y":3447 },
+			{ "color": "#d8f0ee", "text": "Laugh at the crossroads south of Sinclair Mansion. (Leather cowl, amulet of strength, iron scimitar)", "type": "Easy", "x":2731, "y":3534 },
+			{ "color": "#d8f0ee", "text": "Panic in the Limestone Mine. (Bronze platelegs, steel pickaxe, steel med helm)", "type": "Easy", "x":3376, "y":3500 },
+			{ "color": "#d8f0ee", "text": "Panic on the pier where you catch the Fishing trawler. (Nothing)", "type": "Easy", "x":2676, "y":3169 },
+			{ "color": "#d8f0ee", "text": "Shrug in the mine near Rimmington. (Gold necklace, gold ring, bronze spear)", "type": "Easy", "x":2972, "y":3235 },
+			{ "color": "#d8f0ee", "text": "Think in the middle of the wheat field by the Lumbridge mill. (Sapphire necklace, polar camo legs, oak shortbow)", "type": "Easy", "x":3165, "y":3302 },
+			{ "color": "#d8f0ee", "text": "Twirl at the crossroads north of Rimmington. (Sapphire ring, yellow flowers, leather chaps)", "type": "Easy", "x":2959, "y":3240 },
+			{ "color": "#d8f0ee", "text": "Twirl in Draynor Manor by the fountain. (Iron platebody, studded chaps, bronze full helm)", "type": "Easy", "x":3090, "y":3340 },
+			{ "color": "#d8f0ee", "text": "Wave on Mudskipper Point. (Gold ring, leather chaps, steel mace)", "type": "Easy", "x":3004, "y":3123 },
+			{ "color": "#d8f0ee", "text": "Yawn in Draynor Marketplace. (Iron kiteshield, steel longsword, studded chaps)", "type": "Easy", "x":3078, "y":3246 },
+			{ "color": "#d8f0ee", "text": "Yawn near the census in Varrock Palace library. (Holy symbol, leather vambraces, iron warhammer)", "type": "Easy", "x":3217, "y":3494 },
+			{ "color": "#d8f0ee", "img": "./resources/clue_maps/Clue_scroll_(easy)_-_Wizards'_Tower_map.png", "type": "Easy", "x":3103, "y":3133 },
+			{ "color": "#d8f0ee", "img": "./resources/clue_maps/Clue_scroll_(easy)_-_Brother_Galahad's_house_map.png", "type": "Easy", "x":2612, "y":3481 },
+			{ "color": "#d8f0ee", "img": "./resources/clue_maps/Clue_scroll_(easy)_-_West_of_the_Champions'_Guild_map.png", "type": "Easy", "x":3167, "y":3360 },
+			{ "color": "#d8f0ee", "img": "./resources/clue_maps/Clue_scroll_(easy)_-_Falador_standing_stones_map.png", "type": "Easy", "x":3043, "y":3399 },
+			{ "color": "#d8f0ee", "img": "./resources/clue_maps/Clue_scroll_(easy)_-_South-east_Varrock_mine_map.png", "type": "Easy", "x":3290, "y":3373 },
+			{ "color": "#d8f0ee", "img": "./resources/clue_maps/Clue_scroll_(easy)_-_Falador_statue_crossroads_map.png", "type": "Easy", "x":2970, "y":3414 },
+			{ "color": "#d8f0ee", "text": "Dig near some giant mushrooms, behind the Grand Tree.", "type": "Easy", "x":2459, "y":3505 },
+			{ "color": "#d8f0ee", "text": "Look in the ground floor crates of houses in Falador", "type": "Easy", "x":3029, "y":3355 },
+			{ "color": "#d8f0ee", "text": "Search a barrel east of Mission Mistress Fara, in Burthorpe.", "type": "Easy", "x":2912, "y":3530 },
+			{ "color": "#d8f0ee", "text": "Search a barrel outside the mill in Taverley.", "type": "Easy", "x":2894, "y":3418 },
+			{ "color": "#d8f0ee", "text": "Search a barrel outside the Pick and Lute inn, in Taverley.", "type": "Easy", "x":2886, "y":3449 },
+			{ "color": "#d8f0ee", "text": "Search chests found in the upstairs of shops in Port Sarim.", "type": "Easy", "x":3016, "y":3205 },
+			{ "color": "#d8f0ee", "text": "Search for a crate in a building in Hemenster.", "type": "Easy", "x":2636, "y":3453 },
+			{ "color": "#d8f0ee", "text": "Search for a crate in Varrock Palace.", "type": "Easy", "x":3224, "y":3492 },
+			{ "color": "#d8f0ee", "text": "Search for a crate on the ground floor of a house in Seers' Village", "type": "Easy", "x":2699, "y":3470 },
+			{ "color": "#d8f0ee", "text": "Search in the south-east corner of the Artisan Dwarves' workshop in Falador", "type": "Easy", "x":3060, "y":3334 },
+			{ "color": "#d8f0ee", "text": "Search the boxes in one of the tents in Al Kharid", "type": "Easy", "x":3308, "y":3206 },
+			{ "color": "#d8f0ee", "text": "Search the boxes in the goblin house near Lumbridge", "type": "Easy", "x":3247, "y":3244 },
+			{ "color": "#d8f0ee", "text": "Search the boxes in the house in Al Kharid with racks of silk.", "type": "Easy", "x":3289, "y":3202 },
+			{ "color": "#d8f0ee", "text": "Search the boxes in the house near the south entrance of Varrock.", "type": "Easy", "x":3203, "y":3384 },
+			{ "color": "#d8f0ee", "text": "Search the chest in the Duke of Lumbridge's bedroom", "type": "Easy", "x":3209, "y":3218 },
+			{ "color": "#d8f0ee", "text": "Search the chest in the left-hand tower of Camelot Castle.", "type": "Easy", "x":2748, "y":3495 },
+			{ "color": "#d8f0ee", "text": "Search the chests in Al Kharid palace.", "type": "Easy", "x":3301, "y":3164 },
+			{ "color": "#d8f0ee", "text": "Search the crate in the left-hand tower of Lumbridge Castle.", "type": "Easy", "x":3228, "y":3212 },
+			{ "color": "#d8f0ee", "text": "Search the crate near a cart in Port Khazard", "type": "Easy", "x":2660, "y":3149 },
+			{ "color": "#d8f0ee", "text": "Search the crates in a house in Yanille that has a piano.", "type": "Easy", "x":2598, "y":3105 },
+			{ "color": "#d8f0ee", "text": "Search the crates in Canifis.", "type": "Easy", "x":3509, "y":3497 },
+			{ "color": "#d8f0ee", "text": "Search the crates in Draynor Manor.", "type": "Easy", "x":3106, "y":3369 },
+			{ "color": "#d8f0ee", "text": "Search the crates in East Ardougne's general store.", "type": "Easy", "x":2615, "y":3291 },
+			{ "color": "#d8f0ee", "text": "Search the crates in Horvik's armoury.", "type": "Easy", "x":3228, "y":3433 },
+			{ "color": "#d8f0ee", "text": "Search the crates in the Barbarian Village helmet shop.", "type": "Easy", "x":3073, "y":3430 },
+			{ "color": "#d8f0ee", "text": "Search the crates in the chicken coop in the farm north of Port Sarim.", "type": "Easy", "x":3018, "y":3287 },
+			{ "color": "#d8f0ee", "text": "Search the crates in the house at the north end of East Ardougne Market.", "type": "Easy", "x":2658, "y":3323 },
+			{ "color": "#d8f0ee", "text": "Search the crates in the Port Sarim Fishing shop.", "type": "Easy", "x":3012, "y":3222 },
+			{ "color": "#d8f0ee", "text": "Search the crates in the yard of Citharede Abbey.", "type": "Easy", "x":3415, "y":3158 },
+			{ "color": "#d8f0ee", "text": "Search the crates just outside the armour shop in East Ardougne.", "type": "Easy", "x":2654, "y":3299 },
+			{ "color": "#d8f0ee", "text": "Search the crates near a cart in Varrock.", "type": "Easy", "x":3226, "y":3452 },
+			{ "color": "#d8f0ee", "text": "Search the crates near the Lumbridge Market.", "type": "Easy", "x":3191, "y":3257 },
+			{ "color": "#d8f0ee", "text": "Search the crates of Falador's general store.", "type": "Easy", "x":2955, "y":3390 },
+			{ "color": "#d8f0ee", "text": "Search the crates outside the bank in the north of East Ardougne.", "type": "Easy", "x":2620, "y":3336 },
+			{ "color": "#d8f0ee", "text": "Search the drawers above the shops in Varrock.", "type": "Easy", "x":3206, "y":3419 },
+			{ "color": "#d8f0ee", "text": "Search the drawers in a house in Catherby.", "type": "Easy", "x":2830, "y":3448 },
+			{ "color": "#d8f0ee", "text": "Search the drawers in a house in Draynor Village.", "type": "Easy", "x":3097, "y":3277 },
+			{ "color": "#d8f0ee", "text": "Search the drawers in Catherby's Archery shop.", "type": "Easy", "x":2828, "y":3457 },
+			{ "color": "#d8f0ee", "text": "Search the drawers in Falador's chainmail shop.", "type": "Easy", "x":2969, "y":3311 },
+			{ "color": "#d8f0ee", "text": "Search the drawers in Ivy's house in Taverley.", "type": "Easy", "x":2914, "y":3448 },
+			{ "color": "#d8f0ee", "text": "Search the drawers in one of Gertrude's bedrooms.", "type": "Easy", "x":3156, "y":3406 },
+			{ "color": "#d8f0ee", "text": "Search the drawers in the ground floor of a shop in Yanille.", "type": "Easy", "x":2570, "y":3085 },
+			{ "color": "#d8f0ee", "text": "Search the drawers of Hild and Penda's house in Burthorpe.", "type": "Easy", "x":2914, "y":3521 },
+			{ "color": "#d8f0ee", "text": "Search the drawers on the first floor of a building overlooking Ardougne Market", "type": "Easy", "x":2655, "y":3323 },
+			{ "color": "#d8f0ee", "text": "Search the drawers upstairs in Falador's shield shop", "type": "Easy", "x":2971, "y":3386 },
+			{ "color": "#d8f0ee", "text": "Search the drawers upstairs in the bank in the East of Varrock.", "type": "Easy", "x":3250, "y":3420 },
+			{ "color": "#d8f0ee", "text": "Search through chests found in the upstairs of houses in eastern Falador.", "type": "Easy", "x":3041, "y":3364 },
+			{ "color": "#d8f0ee", "text": "Search upstairs in the houses of Seers' Village for some drawers.", "type": "Easy", "x":2970, "y":3214 },
+			{ "color": "#d8f0ee", "text": "Speak to Arhein in Catherby.", "type": "Easy", "x":2803, "y":3426 },
+			{ "color": "#d8f0ee", "text": "Speak to Doric, who lives north of Falador.", "type": "Easy", "x":2959, "y":3439 },
+			{ "color": "#d8f0ee", "text": "Speak to Ellis in Al Kharid.", "type": "Easy", "x":3274, "y":3197 },
+			{ "color": "#d8f0ee", "text": "Speak to Gaius in Burthorpe.", "type": "Easy", "x":2931, "y":3551 },
+			{ "color": "#d8f0ee", "text": "Speak to Hans to solve the clue.", "type": "Easy", "x":3223, "y":3225 },
+			{ "color": "#d8f0ee", "text": "Speak to Ned in Draynor Village.", "type": "Easy", "x":3100, "y":3257 },
+			{ "color": "#d8f0ee", "text": "Speak to Sir Kay in Camelot Castle.", "type": "Easy", "x":2761, "y":3497 },
+			{ "color": "#d8f0ee", "text": "Speak to the bartender of the Blue Moon Inn in Varrock.", "type": "Easy", "x":3226, "y":3399 },
+			{ "color": "#d8f0ee", "text": "Speak to the Challenge Mistress in Burthorpe.", "type": "Easy", "x":2888, "y":3530 },
+			{ "color": "#d8f0ee", "text": "Speak to the staff of Sinclair mansion", "type": "Easy", "x":2734, "y":3581 },
+			{ "color": "#d8f0ee", "text": "Talk to the bartender of the Rusty Anchor in Port Sarim.", "type": "Easy", "x":3045, "y":3257 },
+			{ "color": "#d8f0ee", "text": "Talk to one of the squires in the White Knights' castle in Falador.", "type": "Easy", "x":2975, "y":3343 },
+			{ "color": "#d8f0ee", "text": "Talk to Zeke in Al Kharid.", "type": "Easy", "x":3288, "y":3190 },
+			{ "color": "#ffd078", "text": "AHA JAR", "type": "Medium", "x": 3294, "y": 3218 },
+			{ "color": "#ffd078", "text": "ARC O LINE", "type": "Medium", "x": 2722, "y": 3304 },
+			{ "color": "#ffd078", "text": "ARE COL", "type": "Medium", "x": 3013, "y": 3501 },
+			{ "color": "#ffd078", "text": "DT RUN B", "type": "Medium", "x":2658, "y":3667 },
+			{ "color": "#ffd078", "text": "EEK ZERO OP", "type": "Medium", "x":2603, "y":3284 },
+			{ "color": "#ffd078", "text": "EL OW", "type": "Medium", "x":3232, "y":3423 },
+			{ "color": "#ffd078", "text": "ERR CURE IT", "type": "Medium", "x":2542, "y":3306 },
+			{ "color": "#ffd078", "text": "GOBLIN KERN", "type": "Medium", "x":2542, "y":3169 },
+			{ "color": "#ffd078", "text": "GOT A BOY", "type": "Medium", "x":2789, "y":3067 },
+			{ "color": "#ffd078", "text": "HALT US", "type": "Medium", "x":2939, "y":3154 },
+			{ "color": "#ffd078", "text": "ICY FE", "type": "Medium", "x":2631, "y":2998 },
+			{ "color": "#ffd078", "text": "IM KROM", "type": "Medium", "x":2945, "y":3196 },
+			{ "color": "#ffd078", "text": "IZ A AMMO LOAD FOR MRS YAKKERS", "type": "Medium", "x":3105, "y":3509 },
+			{ "color": "#ffd078", "text": "LARK IN DOG", "type": "Medium", "x":3222, "y":3476 },
+			{ "color": "#ffd078", "text": "ME IF", "type": "Medium", "x":2459, "y":3382 },
+			{ "color": "#ffd078", "text": "NOD MED", "type": "Medium", "x":2571, "y":3337 },
+			{ "color": "#ffd078", "text": "OK CO", "type": "Medium", "x":3209, "y":3215 },
+			{ "color": "#ffd078", "text": "OR A VILE", "type": "Medium", "x":3400, "y":3149 },
+			{ "color": "#ffd078", "text": "PEATY PERT", "type": "Medium", "x":3052, "y":3373 },
+			{ "color": "#ffd078", "text": "R AK MI", "type": "Medium", "x":3269, "y":3183 },
+			{ "color": "#ffd078", "text": "HE ANY FURTHER", "type": "Medium", "x":3208, "y":3150 },
+			{ "color": "#ffd078", "text": "00 degrees 05 minutes south, 01 degrees 13 minutes east", "type": "Medium", "x":2479, "y":3158 },
+			{ "color": "#ffd078", "text": "00 degrees 13 minutes south, 14 degrees 00 minutes east", "type": "Medium", "x":2888, "y":3154 },
+			{ "color": "#ffd078", "text": "00 degrees 18 minutes south, 09 degrees 28 minutes east", "type": "Medium", "x":2743, "y":3151 },
+			{ "color": "#ffd078", "text": "00 degrees 20 minutes south, 23 degrees 15 minutes east", "type": "Medium", "x":3184, "y":3150 },
+			{ "color": "#ffd078", "text": "00 degrees 31 minutes south, 17 degrees 43 minutes east", "type": "Medium", "x":3007, "y":3144 },
+			{ "color": "#ffd078", "text": "00 degrees 50 minutes north, 24 degrees 16 minutes east", "type": "Medium", "x":3217, "y":3188 },
+			{ "color": "#ffd078", "text": "01 degrees 18 minutes south, 14 degrees 15 minutes east", "type": "Medium", "x":2896, "y":3119 },
+			{ "color": "#ffd078", "text": "01 degrees 26 minutes north, 08 degrees 01 minutes east", "type": "Medium", "x":2697, "y":3207 },
+			{ "color": "#ffd078", "text": "01 degrees 35 minutes south, 07 degrees 28 minutes east", "type": "Medium", "x":2679, "y":3110 },
+			{ "color": "#ffd078", "text": "02 degrees 50 minutes north, 06 degrees 20 minutes east", "type": "Medium", "x":2643, "y":3252 },
+			{ "color": "#ffd078", "text": "02 degrees 50 minutes north, 21 degrees 46 minutes east", "type": "Medium", "x":3137, "y":3252 },
+			{ "color": "#ffd078", "text": "03 degrees 35 minutes south, 13 degrees 35 minutes east", "type": "Medium", "x":2875, "y":3046 },
+			{ "color": "#ffd078", "text": "04 degrees 00 minutes south, 12 degrees 46 minutes east", "type": "Medium", "x":2849, "y":3033 },
+			{ "color": "#ffd078", "text": "04 degrees 13 minutes north, 12 degrees 45 minutes east", "type": "Medium", "x":2848, "y":3296 },
+			{ "color": "#ffd078", "text": "05 degrees 20 minutes south, 04 degrees 28 minutes east", "type": "Medium", "x":2583, "y":2990 },
+			{ "color": "#ffd078", "text": "05 degrees 43 minutes north, 23 degrees 05 minutes east", "type": "Medium", "x":3179, "y":3344 },
+			{ "color": "#ffd078", "text": "06 degrees 31 minutes north, 01 degrees 46 minutes west", "type": "Medium", "x":2383, "y":3370 },
+			{ "color": "#ffd078", "text": "07 degrees 05 minutes north, 30 degrees 56 minutes east", "type": "Medium", "x":3430, "y":3388 },
+			{ "color": "#ffd078", "text": "07 degrees 33 minutes north, 15 degrees 00 minutes east", "type": "Medium", "x":2920, "y":3403 },
+			{ "color": "#ffd078", "text": "08 degrees 33 minutes north, 01 degrees 39 minutes west", "type": "Medium", "x":2387, "y":3435 },
+			{ "color": "#ffd078", "text": "09 degrees 33 minutes north, 02 degrees 15 minutes east", "type": "Medium", "x":2512, "y":3467 },
+			{ "color": "#ffd078", "text": "09 degrees 48 minutes north, 17 degrees 39 minutes east", "type": "Medium", "x":3005, "y":3475 },
+			{ "color": "#ffd078", "text": "11 degrees 03 minutes north, 31 degrees 20 minutes east", "type": "Medium", "x":3443, "y":3515 },
+			{ "color": "#ffd078", "text": "11 degrees 05 minutes north, 00 degrees 45 minutes west", "type": "Medium", "x":2416, "y":3516 },
+			{ "color": "#ffd078", "text": "11 degrees 41 minutes north, 14 degrees 58 minutes east", "type": "Medium", "x":2919, "y":3535 },
+			{ "color": "#ffd078", "text": "14 degrees 54 minutes north, 09 degrees 13 minutes east", "type": "Medium", "x":2735, "y":3638 },
+			{ "color": "#ffd078", "text": "22 degrees 30 minutes north, 03 degrees 01 minutes east", "type": "Medium", "x":2537, "y":3881 },
+			{ "color": "#ffd078", "text": "A town with a different sort of night-life is your destination. Search for some crates in one of the houses.", "type": "Medium", "x":3498, "y":3507 },
+			{ "color": "#ffd078", "text": "After trawling for bars, go to the nearest place to smith them and dig by the door.", "type": "Medium", "x":2656, "y":3161 },
+			{ "color": "#ffd078", "text": "Being this far north has meant that these crates have escaped being battled over.", "type": "Medium", "x":2519, "y":3259 },
+			{ "color": "#ffd078", "text": "Brush off the sand and dig in the quarry. There is a wheely handy barrow to the east. Don't worry, permission has been granite to dig there.", "type": "Medium", "x":3175, "y":2915 },
+			{ "color": "#ffd078", "text": "By the town of the dead, walk south down a rickety bridge, then dig near the spotted fungus.", "type": "Medium", "x":3644, "y":3494 },
+			{ "color": "#ffd078", "text": "Dig here if you are not feeling too well after travelling through the desert. Ali heartily recommends it.", "type": "Medium", "x":3359, "y":2971 },
+			{ "color": "#ffd078", "text": "Don't skip here, it's too muddy. You'll feel like a star if you dig here, though.", "type": "Medium", "x":3000, "y":3110 },
+			{ "color": "#ffd078", "text": "Find a crate close to the monks that like to paaarty!", "type": "Medium", "x":2614, "y":3204 },
+			{ "color": "#ffd078", "text": "For any aspiring mage, I'm sure searching this bookcase will be a rewarding experience.", "type": "Medium", "x":3366, "y":3319 },
+			{ "color": "#ffd078", "text": "Go to the village being attacked by trolls and search the drawers in one of the houses.", "type": "Medium", "x":2928, "y":3552 },
+			{ "color": "#ffd078", "text": "Go to this building to be illuminated, and check the drawers while you are there.", "type": "Medium", "x":2512, "y":3641 },
+			{ "color": "#ffd078", "text": "Hay! Stop for a bit and admire the scenery, just like the tourism promoter says.", "type": "Medium", "x":2524, "y":3438 },
+			{ "color": "#ffd078", "text": "In a town where everyone has perfect vision, seek some locked drawers in a house that sits opposite a workshop.", "type": "Medium", "x":2709, "y":3478 },
+			{ "color": "#ffd078", "text": "In a town where thieves steal from stalls, search for some drawers upstairs of a house near the bank.", "type": "Medium", "x":2610, "y":3324 },
+			{ "color": "#ffd078", "text": "In a town where wizards are known to gather, search upstairs in a large house to the north.", "type": "Medium", "x":2593, "y":3108 },
+			{ "color": "#ffd078", "text": "In a town where the guards are armed with maces, search the upstairs rooms of the public house.", "type": "Medium", "x":2575, "y":3326 },
+			{ "color": "#ffd078", "text": "In a village made of bamboo, look for some crates under one of the houses.", "type": "Medium", "x":2800, "y":3074 },
+			{ "color": "#ffd078", "text": "North of the best monkey restaurant on Karamja, look for the centre of the triangle of boats and search there.", "type": "Medium", "x":2905, "y":3189 },
+			{ "color": "#ffd078", "text": "Observe: in the crate just north of the stairs leading down, you will find the answer.", "type": "Medium", "x":2438, "y":3165 },
+			{ "color": "#ffd078", "text": "Probably filled with wizards' socks.", "type": "Medium", "x":3113, "y":3153 },
+			{ "color": "#ffd078", "text": "Search the upstairs drawers of a house in a village where pirates are known to have a good time.", "type": "Medium", "x":2809, "y":3165 },
+			{ "color": "#ffd078", "text": "Sophind yourself some treasure by searching these boxes.", "type": "Medium", "x":3280, "y":2787 },
+			{ "color": "#ffd078", "text": "The dead, red dragon watches over this chest. He must really dig the view.", "type": "Medium", "x":3354, "y":3349 },
+			{ "color": "#ffd078", "text": "The gnomes' nearby cart must have collapsed under the weight of all the treasure in these boxes!", "type": "Medium", "x":2397, "y":3355 },
+			{ "color": "#ffd078", "text": "The owner of this crate has a hunch that he put more than fish inside.", "type": "Medium", "x":2770, "y":3172 },
+			{ "color": "#ffd078", "text": "The rock cakes to the south are definitely more edible than the two rocks I buried the treasure between.", "type": "Medium", "x":2513, "y":3041 },
+			{ "color": "#ffd078", "text": "The socks in these drawers are holier than thine, according to the tonsured owners.", "type": "Medium", "x":3056, "y":3497 },
+			{ "color": "#ffd078", "text": "The treasure is buried in a small building full of bones. Here is a hint: it's not near a graveyard.", "type": "Medium", "x":3356, "y":3507 },
+			{ "color": "#ffd078", "text": "This crate clearly marks the end of the line for coal.", "type": "Medium", "x":2691, "y":3508 },
+			{ "color": "#ffd078", "text": "This crate holds a better reward than a broken arrow.", "type": "Medium", "x":2671, "y":3437 },
+			{ "color": "#ffd078", "text": "This crate is mine, all mine, even if it is in the middle of the desert.", "type": "Medium", "x":3289, "y":3022 },
+			{ "color": "#ffd078", "text": "This cupboard has treasure, pirate pots and corsair cutlery!", "type": "Medium", "x":2811, "y":3160 },
+			{ "color": "#ffd078", "text": "Try not to step on any aquatic nasties while searching this crate.", "type": "Medium", "x":2764, "y":3273 },
+			{ "color": "#ffd078", "text": "While a sea view is nice, it seems this church has not seen visitors in a while. Dig outside the westmost wall by the broken fence for a reward.", "type": "Medium", "x":2993, "y":3178 },
+			{ "color": "#ffd078", "text": "You'll need to look for a city with a central fountain. Look for a locked chest in the city's chapel.", "type": "Medium", "x":3256, "y":3487 },
+			{ "color": "#ffd078", "text": "Beckon at Varrock Dig Site, near the eastern winch. (Blood'n' tar snelm (pointed), snakeskin boots, iron pickaxe)", "type": "Medium", "x":3379, "y":3445 },
+			{ "color": "#ffd078", "text": "Beckon in Tai Bwo Wannai. (Green dragonhide chaps, ring of duelling, mithril med helm)", "type": "Medium", "x":2793, "y":3073 },
+			{ "color": "#ffd078", "text": "Cheer in the Barbarian Agility Arena. (Steel platebody, maple shortbow, bronze armoured boots)", "type": "Medium", "x":2545, "y":3556 },
+			{ "color": "#ffd078", "text": "Cheer in the Ogre Pen in the Training Camp. (Green dragonhide body, green dragonhide chaps, steel square shield)", "type": "Medium", "x":2521, "y":3377 },
+			{ "color": "#ffd078", "text": "Cry in the Catherby archery shop. (Blood'n'tar snelm (round), hard leather body, silver sickle)", "type": "Medium", "x":2829, "y":3455 },
+			{ "color": "#ffd078", "text": "Cry on the platform of the south-west tree in the Gnome Agility Arena. (Steel kiteshield, ring of forging, green dragonhide chaps)", "type": "Medium", "x":2473, "y":3418 },
+			{ "color": "#ffd078", "text": "Dance a jig under Shantay's Awning. (Bruise blue snelm (pointed), staff of air)", "type": "Medium", "x":3302, "y":3130 },
+			{ "color": "#ffd078", "text": "Dance in the centre of Canifis. (Spiny helmet, mithril platelegs, iron 2h sword)", "type": "Medium", "x":3491, "y":3480 },
+			{ "color": "#ffd078", "text": "Jump for joy in Yanille bank. (Iron crossbow, adamant med helm, snakeskin chaps)", "type": "Medium", "x":2613, "y":3088 },
+			{ "color": "#ffd078", "text": "Panic by the mausoleum in Morytania. (Mithril plateskirt, maple shieldboow, no boots)", "type": "Medium", "x":3506, "y":3574 },
+			{ "color": "#ffd078", "text": "Think under the lens in the Observatory. (Mithril chainbody, green dragonhide chaps, ruby amulet)", "type": "Medium", "x":2445, "y":3161 },
+			{ "color": "#ffd078", "text": "Twirl on the bridge by Barbarian Village. (Iron hatchet, steel kiteshield, mithril full helm)", "type": "Medium", "x":3114, "y":3417 },
+			{ "color": "#ffd078", "text": "Yawn in the Castle Wars lobby. (Ruby amulet, mithril scimitar, iron square shield)", "type": "Medium", "x":2448, "y":3087 },
+			{ "color": "#ffd078", "img": "./resources/clue_maps/Clue_scroll_(medium)_-_Clock_Tower_map.png", "type": "Medium", "x":2565, "y":3248 },
+			{ "color": "#ffd078", "img": "./resources/clue_maps/Clue_scroll_(medium)_-_McGrubor's_Wood_map.png", "type": "Medium", "x":2658, "y":3488 },
+			{ "color": "#ffd078", "img": "./resources/clue_maps/Clue_scroll_(medium)_-_Ourania_Cave_entrance_map.png", "type": "Medium", "x":2454, "y":3230 },
+			{ "color": "#ffd078", "img": "./resources/clue_maps/Clue_scroll_(medium)_-_Chemist's_house_map.png", "type": "Medium", "x":2924, "y":3209 },
+			{ "color": "#ffd078", "img": "./resources/clue_maps/Clue_scroll_(medium)_-_Miscellania_map.png", "type": "Medium", "x":2536, "y":3865 },
+			{ "color": "#ffd078", "img": "./resources/clue_maps/Clue_scroll_(medium)_-_Tower_of_Life_map.png", "type": "Medium", "x":2650, "y":3231 },
+			{ "color": "#ffd078", "img": "./resources/clue_maps/Clue_scroll_(medium)_-_Between_Seers'_Village_and_Rellekka_map.png", "type": "Medium", "x":2667, "y":3562 },
+			{ "color": "#ffd078", "img": "./resources/clue_maps/Clue_scroll_(medium)_-_Hobgoblin_Peninsula_map.png", "type": "Medium", "x":2906, "y":3294 },
+			{ "color": "#ffd078", "img": "./resources/clue_maps/Clue_scroll_(medium)_-_Lighthouse_peninsula_map.png", "type": "Medium", "x":2578, "y":3597 },
+			{ "color": "#ffd078", "img": "./resources/clue_maps/Clue_scroll_(medium)_-_Mort_Myre_Swamp_map.png", "type": "Medium", "x":3434, "y":3266 },
+			{ "color": "#ffd078", "img": "./resources/clue_maps/Clue_scroll_(medium)_-_Draynor_Village_map.png", "type": "Medium", "x":3092, "y":3226 },
+			{ "color": "#ffd078", "text": "Speak to a referee.", "type": "Medium", "x":2384, "y":3488 },
+			{ "color": "#ffd078", "text": "Speak to Donovan, the family handyman.", "type": "Medium", "x":2745, "y":3576 },
+			{ "color": "#ffd078", "text": "Speak to Hajedy.", "type": "Medium", "x":2779, "y":3211 },
+			{ "color": "#ffd078", "text": "Speak to Hazelmere.", "type": "Medium", "x":2678, "y":3087 },
+			{ "color": "#ffd078", "text": "Speak to Kangai Mau.", "type": "Medium", "x":2791, "y":3182 },
+			{ "color": "#ffd078", "text": "Speak to Roavar.", "type": "Medium", "x":3493, "y":3471 },
+			{ "color": "#ffd078", "text": "Speak to Ulizius.", "type": "Medium", "x":3444, "y":3459 },
+			{ "color": "#FFFFFF", "text": "A ZEN SHE", "type": "Hard", "x":2660, "y":3291 },
+			{ "color": "#FFFFFF", "text": "ACE MATCH ELM", "type": "Hard", "x":3287, "y":3236 },
+			{ "color": "#FFFFFF", "text": "ARR! SO I AM A CRUST, AND?", "type": "Hard", "x":2344, "y":3678 },
+			{ "color": "#FFFFFF", "text": "BY LOOK", "type": "Hard", "x":2527, "y":3161 },
+			{ "color": "#FFFFFF", "text": "C ON GAME HOC", "type": "Hard", "x":2406, "y":3498 },
+			{ "color": "#FFFFFF", "text": "GULAG RUN", "type": "Hard", "x":2442, "y":3049 },
+			{ "color": "#FFFFFF", "text": "I EAT ITS CHART HINTS DO U", "type": "Hard", "x":3424, "y":2929 },
+			{ "color": "#FFFFFF", "text": "LAND DOOMD", "type": "Hard", "x":3359, "y":3505 },
+			{ "color": "#FFFFFF", "text": "ACE MATCH ELM -or- THEM CAL CAME -or- ME AM THE CALC", "type": "Hard", "x":3287, "y":3236 },
+			{ "color": "#FFFFFF", "text": "O BIRDZ A ZANY EN PC", "type": "Hard", "x":2807, "y":3190 },
+			{ "color": "#FFFFFF", "text": "PROFS LOSE WRONG PIE", "type": "Hard", "x":3110, "y":3157 },
+			{ "color": "#FFFFFF", "text": "RED ART TANS", "type": "Hard", "x":3033, "y":3190 },
+			{ "color": "#FFFFFF", "text": "SEQUIN DIRGE", "type": "Hard", "x":2616, "y":3876 },
+			{ "color": "#FFFFFF", "text": "00 degrees 00 minutes north, 07 degrees 13 minutes west", "type": "Hard", "x":2209, "y":3161 },
+			{ "color": "#FFFFFF", "text": "01 degrees 24 minutes north, 08 degrees 05 minutes west", "type": "Hard", "x":2181, "y":3206 },
+			{ "color": "#FFFFFF", "text": "02 degrees 33 minutes north, 28 degrees 45 minutes east", "type": "Hard", "x":3360, "y":3243 },
+			{ "color": "#FFFFFF", "text": "03 degrees 03 minutes south, 05 degrees 03 minutes east", "type": "Hard", "x":2602, "y":3063 },
+			{ "color": "#FFFFFF", "text": "03 degrees 39 minutes south, 13 degrees 58 minutes east", "type": "Hard", "x":2887, "y":3044 },
+			{ "color": "#FFFFFF", "text": "03 degrees 45 minutes south, 22 degrees 45 minutes east", "type": "Hard", "x":3168, "y":3041 },
+			{ "color": "#FFFFFF", "text": "04 degrees 03 minutes south, 03 degrees 11 minutes east", "type": "Hard", "x":2542, "y":3031 },
+			{ "color": "#FFFFFF", "text": "04 degrees 05 minutes south, 04 degrees 24 minutes east", "type": "Hard", "x":2581, "y":3030 },
+			{ "color": "#FFFFFF", "text": "04 degrees 16 minutes south, 16 degrees 16 minutes east", "type": "Hard", "x":2961, "y":3024 },
+			{ "color": "#FFFFFF", "text": "04 degrees 41 minutes north, 03 degrees 09 minutes west", "type": "Hard", "x":2339, "y":3311 },
+			{ "color": "#FFFFFF", "text": "05 degrees 37 minutes north, 31 degrees 15 minutes east", "type": "Hard", "x":3440, "y":3341 },
+			{ "color": "#FFFFFF", "text": "05 degrees 50 minutes south, 10 degrees 05 minutes east", "type": "Hard", "x":2763, "y":2974 },
+			{ "color": "#FFFFFF", "text": "06 degrees 00 minutes south, 21 degrees 48 minutes east", "type": "Hard", "x":3138, "y":2969 },
+			{ "color": "#FFFFFF", "text": "06 degrees 11 minutes south, 15 degrees 07 minutes east", "type": "Hard", "x":2924, "y":2963 },
+			{ "color": "#FFFFFF", "text": "07 degrees 22 minutes north, 14 degrees 15 minutes east", "type": "Hard", "x":2896, "y":3397 },
+			{ "color": "#FFFFFF", "text": "07 degrees 41 minutes north, 06 degrees 00 minutes east", "type": "Hard", "x":2632, "y":3407 },
+			{ "color": "#FFFFFF", "text": "07 degrees 43 minutes south, 12 degrees 26 minutes east", "type": "Hard", "x":2838, "y":2914 },
+			{ "color": "#FFFFFF", "text": "08 degrees 03 minutes north, 31 degrees 16 minutes east", "type": "Hard", "x":3441, "y":3419 },
+			{ "color": "#FFFFFF", "text": "08 degrees 05 minutes south, 15 degrees 56 minutes east", "type": "Hard", "x":2950, "y":2902 },
+			{ "color": "#FFFFFF", "text": "08 degrees 26 minutes south, 10 degrees 28 minutes east", "type": "Hard", "x":2775, "y":2891 },
+			{ "color": "#FFFFFF", "text": "09 degrees 22 minutes north, 02 degrees 24 minutes west", "type": "Hard", "x":2363, "y":3461 },
+			{ "color": "#FFFFFF", "text": "12 degrees 48 minutes north, 20 degrees 20 minutes east", "type": "Hard", "x":3091, "y":3571 },
+			{ "color": "#FFFFFF", "text": "13 degrees 46 minutes north, 21 degrees 01 minutes east", "type": "Hard", "x":3113, "y":3602 },
+			{ "color": "#FFFFFF", "text": "15 degrees 48 minutes north, 13 degrees 52 minutes east", "type": "Hard", "x":2884, "y":3667 },
+			{ "color": "#FFFFFF", "text": "16 degrees 20 minutes north, 12 degrees 45 minutes east", "type": "Hard", "x":2848, "y":3684 },
+			{ "color": "#FFFFFF", "text": "16 degrees 30 minutes north, 16 degrees 28 minutes east", "type": "Hard", "x":2967, "y":3689 },
+			{ "color": "#FFFFFF", "text": "16 degrees 35 minutes north, 27 degrees 01 minutes east", "type": "Hard", "x":3305, "y":3692 },
+			{ "color": "#FFFFFF", "text": "17 degrees 50 minutes north, 08 degrees 30 minutes east", "type": "Hard", "x":2712, "y":3732 },
+			{ "color": "#FFFFFF", "text": "18 degrees 03 minutes north, 25 degrees 16 minutes east", "type": "Hard", "x":3249, "y":3739 },
+			{ "color": "#FFFFFF", "text": "18 degrees 22 minutes north, 16 degrees 33 minutes east", "type": "Hard", "x":2970, "y":3749 },
+			{ "color": "#FFFFFF", "text": "19 degrees 43 minutes north, 25 degrees 07 minutes east", "type": "Hard", "x":3244, "y":3792 },
+			{ "color": "#FFFFFF", "text": "20 degrees 05 minutes north, 21 degrees 52 minutes east", "type": "Hard", "x":3140, "y":3804 },
+			{ "color": "#FFFFFF", "text": "20 degrees 07 minutes north, 18 degrees 33 minutes east", "type": "Hard", "x":3034, "y":3805 },
+			{ "color": "#FFFFFF", "text": "20 degrees 33 minutes north, 15 degrees 48 minutes east", "type": "Hard", "x":2946, "y":3819 },
+			{ "color": "#FFFFFF", "text": "21 degrees 24 minutes north, 17 degrees 54 minutes east", "type": "Hard", "x":3013, "y":3846 },
+			{ "color": "#FFFFFF", "text": "22 degrees 35 minutes north, 19 degrees 18 minutes east", "type": "Hard", "x":3058, "y":3884 },
+			{ "color": "#FFFFFF", "text": "22 degrees 45 minutes north, 26 degrees 33 minutes east", "type": "Hard", "x":3290, "y":3889 },
+			{ "color": "#FFFFFF", "text": "24 degrees 26 minutes north, 26 degrees 24 minutes east", "type": "Hard", "x":3285, "y":3943 },
+			{ "color": "#FFFFFF", "text": "24 degrees 56 minutes north, 22 degrees 28 minutes east", "type": "Hard", "x":3159, "y":3959 },
+			{ "color": "#FFFFFF", "text": "24 degrees 58 minutes north, 18 degrees 43 minutes east", "type": "Hard", "x":3039, "y":3960 },
+			{ "color": "#FFFFFF", "text": "25 degrees 03 minutes north, 17 degrees 05 minutes east", "type": "Hard", "x":2987, "y":3963 },
+			{ "color": "#FFFFFF", "text": "25 degrees 03 minutes north, 23 degrees 24 minutes east", "type": "Hard", "x":3189, "y":3963 },
+			{ "color": "#FFFFFF", "text": "46 is my number. My body is the colour of burnt orange and crawls among those with eight. Three mouths I have, yet I cannot eat. My blinking blue eye hides my grave.", "type": "Hard", "x":3170, "y":3885 },
+			{ "color": "#FFFFFF", "text": "A great view: watch the rapidly drying hides get splashed. Check the box you are sitting on.", "type": "Hard", "x":2523, "y":3493 },
+			{ "color": "#FFFFFF", "text": "A strange little man who sells armour only to those who've proven themselves to be unafraid of dragons.", "type": "Hard", "x":3067, "y":3517 },
+			{ "color": "#FFFFFF", "text": "Aggie I see. Lonely and southern I feel. I am neither inside nor outside the house, yet no home would be complete without me. The treasure lies beneath me!", "type": "Hard", "x":3083, "y":3257 },
+			{ "color": "#FFFFFF", "text": "And so on, and so on, and so on. Walking from the land of many unimportant things leads to a choice of paths.", "type": "Hard", "x":2592, "y":3879 },
+			{ "color": "#FFFFFF", "text": "As you desert this town, keep an eye out for a set of spines that could ruin nearby rugs: dig carefully around the greenery.", "type": "Hard", "x":3396, "y":2918 },
+			{ "color": "#FFFFFF", "text": "Citric cellar.", "type": "Hard", "x":2490, "y":3487 },
+			{ "color": "#FFFFFF", "text": "Come to the evil ledge, Yew know yew want to. Try not to get stung.", "type": "Hard", "x":3089, "y":3468 },
+			{ "color": "#FFFFFF", "text": "Covered in shadows, the centre of the circle is where you will find the answer.", "type": "Hard", "x":3488, "y":3287 },
+			{ "color": "#FFFFFF", "text": "Four blades I have, yet draw no blood; Still I turn my prey to powder. If you are brave, come search my roof; It is there my blades are louder.", "type": "Hard", "x":3166, "y":3309 },
+			{ "color": "#FFFFFF", "text": "Generally speaking, his nose was very bent.", "type": "Hard", "x":2957, "y":3514 },
+			{ "color": "#FFFFFF", "text": "His head might be hollow, but the crates nearby are filled with surprises.", "type": "Hard", "x":3478, "y":3091 },
+			{ "color": "#FFFFFF", "text": "I am head of the abbey with a cold breeze from the west.", "type": "Hard", "x":3058, "y":3485 },
+			{ "color": "#FFFFFF", "text": "I'm sure they will let ya buy some things here, as long as you are in good 'ealth", "type": "Hard", "x":2340, "y":3187 },
+			{ "color": "#FFFFFF", "text": "Identify the back of this over-acting brother. (He's a long way from home.)", "type": "Hard", "x":3335, "y":3227 },
+			{ "color": "#FFFFFF", "text": "If you didn't want to be here and in danger, you should lever things well enough alone.", "type": "Hard", "x":3154, "y":3924 },
+			{ "color": "#FFFFFF", "text": "If you look closely enough, it seems that the archers have lost more than their needles.", "type": "Hard", "x":2671, "y":3416 },
+			{ "color": "#FFFFFF", "text": "I lie lonely and forgotten in mid wilderness, where the dead rise from their beds. Feel free to quarrel and wind me up, and dig while you shoot their heads.", "type": "Hard", "x":3235, "y":3673 },
+			{ "color": "#FFFFFF", "text": "Must be full of railings.", "type": "Hard", "x":2576, "y":3464 },
+			{ "color": "#FFFFFF", "text": "My home is grey, and made of stone; A castle with a search for a meal. Hidden in some drawers I am, across from a wooden wheel.", "type": "Hard", "x":3213, "y":3216 },
+			{ "color": "#FFFFFF", "text": "My name's a tirade, fishing is my trade, by the docks is where my fortune is made.", "type": "Hard", "x":3014, "y":3228 },
+			{ "color": "#FFFFFF", "text": "My name is like a tree, yet it is spelt with a 'g', come see the fur which is right near me.", "type": "Hard", "x":3218, "y":3434 },
+			{ "color": "#FFFFFF", "text": "Navigating to this crate will be a trial.", "type": "Hard", "x":2648, "y":3662 },
+			{ "color": "#FFFFFF", "text": "Often sought out by scholars of histories past, find me where words of wisdom speak volumes.", "type": "Hard", "x":3359, "y":3345 },
+			{ "color": "#FFFFFF", "text": "Probably filled with books on magic.", "type": "Hard", "x":3094, "y":3153 },
+			{ "color": "#FFFFFF", "text": "Read 'How to Breed Scorpions' By O.W. Thathurt.", "type": "Hard", "x":2702, "y":3409 },
+			{ "color": "#FFFFFF", "text": "'Small shoe.' Often found with rod on mushroom.", "type": "Hard", "x":2470, "y":3426 },
+			{ "color": "#FFFFFF", "text": "Snah? I feel all confused, like one of those cakes.", "type": "Hard", "x":3210, "y":3232 },
+			{ "color": "#FFFFFF", "text": "The beasts to my east snap claws and tails, The rest to my west can slide and eat fish. The force to my north will jump and they'll wail, Come dig by my fire and make a wish.", "type": "Hard", "x":3204, "y":3472 },
+			{ "color": "#FFFFFF", "text": "The cheapest water for miles around, but they react badly to religious icons.", "type": "Hard", "x":3178, "y":2987 },
+			{ "color": "#FFFFFF", "text": "There is no 'worthier' lord.", "type": "Hard", "x":2206, "y":3251 },
+			{ "color": "#FFFFFF", "text": "This aviator is at the peak of his profession", "type": "Hard", "x":2850, "y":3493 },
+			{ "color": "#FFFFFF", "text": "This village has a problem with cartloads of the undead. Try checking the bookcase to find an answer.", "type": "Hard", "x":2833, "y":2992 },
+			{ "color": "#FFFFFF", "text": "Throat mage seeks companionship. Seek answers inside my furniture if interested.", "type": "Hard", "x":2666, "y":3238 },
+			{ "color": "#FFFFFF", "text": "Try not to let yourself be dazzled when you search these drawers.", "type": "Hard", "x":2561, "y":3323 },
+			{ "color": "#FFFFFF", "text": "When no weapons are at hand, then is the time to reflect. In Saradomin's name, redemption draws closer.", "type": "Hard", "x":2818, "y":3351 },
+			{ "color": "#FFFFFF", "text": "You can cook food on me, but don't cook any foodles - that would just be wrong.", "type": "Hard", "x":2969, "y":2975 },
+			{ "color": "#FFFFFF", "text": "You don't need to go hopping mad - or take steps - to get to this treasure: just be totally shellfish.", "type": "Hard", "x":2519, "y":3594 },
+			{ "color": "#FFFFFF", "text": "Blow a kiss between the tables in Shilo Village bank. (Splitbark helm, mud pie, rune platebody)", "type": "Hard", "x":2856, "y":2953 },
+			{ "color": "#FFFFFF", "text": "Blow a raspberry in the Fishing Guild bank. (Elemental shield, blue dragonhide chaps, rune warhammer)", "type": "Hard", "x":2585, "y":3424 },
+			{ "color": "#FFFFFF", "text": "Bow or curtsy at the top of the Lighthouse. (Blue dragonhide body, blue dragonhide vambraces, no jewelry)", "type": "Hard", "x":2512, "y":3639 },
+			{ "color": "#FFFFFF", "text": "Dance at the cat-doored pyramid in Sophanem. (Ring of life, amulet of glory, adamant 2h sword)", "type": "Hard", "x":3310, "y":2784 },
+			{ "color": "#FFFFFF", "text": "Laugh at Jokul's tent in the Mountain Camp. (Rune full helm, blue dragonhide chaps, fire battlestaff)", "type": "Hard", "x":2790, "y":3667 },
+			{ "color": "#FFFFFF", "text": "Panic by the pilot on White Wolf Mountain. (Mithril platelegs, ring of life, rune hatchet)", "type": "Hard", "x":2845, "y":3496 },
+			{ "color": "#FFFFFF", "text": "Panic in the heart of the Haunted Woods. (Nothing)", "type": "Hard", "x":3616, "y":3488 },
+			{ "color": "#FFFFFF", "text": "Salute in the banana plantation. (Diamond ring, amulet of power, nothing on chest and legs)", "type": "Hard", "x":2914, "y":3154 },
+			{ "color": "#FFFFFF", "text": "Shrug in the Zamorak temple. (Bronze platelegs, iron platebody, blue dragonhide vambraces)", "type": "Hard", "x":3245, "y":3610 },
+			{ "color": "#FFFFFF", "text": "Yawn near the Wilderness Bandit camp obelisk. (Iron square shield, blue dragonhide vambraces, iron pickaxe)", "type": "Hard", "x":3031, "y":3722 },
+			{ "color": "#FFFFFF", "img": "./resources/clue_maps/Clue_scroll_(hard)_-_Yanille_anvils_map.png", "type": "Hard", "x":2616, "y":3077 },
+			{ "color": "#FFFFFF", "img": "./resources/clue_maps/Clue_scroll_(hard)_-_Observatory_map.png", "type": "Hard", "x":2457, "y":3182 },
+			{ "color": "#FFFFFF", "img": "./resources/clue_maps/Clue_scroll_(hard)_-_Legends'_Guild_map.png", "type": "Hard", "x":2722, "y":3338 },
+			{ "color": "#FFFFFF", "img": "./resources/clue_maps/Clue_scroll_(hard)_-_West_Ardougne_map.png", "type": "Hard", "x":2488, "y":3308 },
+			{ "color": "#FFFFFF", "img": "./resources/clue_maps/Clue_scroll_(hard)_-_Dark_Warriors'_Fortress_map.png", "type": "Hard", "x":3026, "y":3629 },
+			{ "color": "#FFFFFF", "img": "./resources/clue_maps/Clue_scroll_(hard)_-_Fort_Forinthry_map.png", "type": "Hard", "x":3312, "y":3528 },
+			{ "color": "#FFFFFF", "img": "./resources/clue_maps/Clue_scroll_(hard)_-_Wilderness_small_volcanoes_map.png", "type": "Hard", "x":3021, "y":3912 },
+			
+			{ "color": "#00fbff", "text": "A PURE GLOW", "type": "Master", "x":3256, "y":3355 },
+			{ "color": "#00fbff", "text": "AH; WET ARM", "type": "Master", "x":2347, "y":3164 },
+			{ "color": "#00fbff", "text": "ERGO I DIG CLAY", "type": "Master", "x":3377, "y":3404 },
+			{ "color": "#00fbff", "text": "HEAR A LADY RANT", "type": "Master", "x":2221, "y":3298 },
+			{ "color": "#00fbff", "text": "I SAW THE LIE", "type": "Master", "x":3420, "y":2937 },
+			{ "color": "#00fbff", "text": "PIN HEIR ALL IN PLACE", "type": "Master", "x":2565, "y":3273 },
+			{ "color": "#00fbff", "text": "QUIT THY BRINE RAT ROLL", "type": "Master", "x":3681, "y":2962 },
+			{ "color": "#00fbff", "text": "REIGN US IF IMMORTAL", "type": "Master", "x":3001, "y":3267 },
+			{ "color": "#00fbff", "text": "WINSOME LAD", "type": "Master", "x":3088, "y":3255 },
+			{ "color": "#00fbff", "text": "Bow or curtsy at the charm sprite hunter area. (Enhanced yaktwee stick, Dagon'hai hat, Amulet of ranging)", "type": "Master", "x":2397, "y":3367 },
+			{ "color": "#00fbff", "text": "Dare to laugh in the Green Ghost inn at Port Phasmatys. (Iban's staff, ghostly cloak, cavalier)", "type": "Master", "x":3676, "y":3494 },
+			{ "color": "#00fbff", "text": "Headbang inside the Slayer Tower. (Imphide hood, Prifddinian musician's robe top, amulet of magic)", "type": "Master", "x":3427, "y":3541 },
+			{ "color": "#00fbff", "text": "Jig in the Edgeville Monastery garden. (Holy Cithara, Saradomin's murmur, ring of devotion)", "type": "Master", "x":3056, "y":3499 },
+			{ "color": "#00fbff", "text": "Salute in the Max Guild Garden. (Nothing)", "type": "Master", "x":2276, "y":3328 },
+			{ "color": "#00fbff", "text": "Shrug in the Lumbridge Fishing Supplies shop. (Demon slayer gloves, boater, cape of legends)", "type": "Master", "x":3198, "y":3258 },
+			{ "color": "#00fbff", "text": "Think in the Hefin district of Prifddinas. (Ancient staff, Priffdinian worker's trousers, berserker ring)", "type": "Master", "x":2181, "y":3402 },
+			{ "color": "#00fbff", "text": "Wave in front of the entrance to the Grand Library of Menaphos. (Asylum surgeon's ring, Scabaras mask)", "type": "Master", "x":3172, "y":2711 },
+			{ "color": "#00fbff", "text": "Darkmeyer scan. East of bloodwood tree", "type": "Master", "x":3631, "y":3358 },
+			{ "color": "#00fbff", "text": "Darkmeyer scan. House south of Castle Drakan entrance", "type": "Master", "x":3611, "y":3328 },
+			{ "color": "#00fbff", "text": "Darkmeyer scan. Inside house with 3 coffins south of Castle Drakan entrance", "type": "Master", "x":3590, "y":3344 },
+			{ "color": "#00fbff", "text": "Darkmeyer scan. Outside gates to Castle Drakan", "type": "Master", "x":3588, "y":3361 },
+			{ "color": "#00fbff", "text": "Darkmeyer scan. Just outside the building with a Prayer altar", "type": "Master", "x":3596, "y":3375 },
+			{ "color": "#00fbff", "text": "Darkmeyer scan. South of the building with pottery ovens", "type": "Master", "x":3606, "y":3391 },
+			{ "color": "#00fbff", "text": "Darkmeyer scan. Next to Boris Barrington", "type": "Master", "x":3639, "y":3390 },
+			{ "color": "#00fbff", "text": "Darkmeyer scan. In the north of the city, south-west of Port Phasmatys Hunter area", "type": "Master", "x":3651, "y":3405 },
+			{ "color": "#00fbff", "text": "Darkmeyer scan. In north-east corner, next to the furnace", "type": "Master", "x":3676, "y":3392 },
+			{ "color": "#00fbff", "text": "Darkmeyer scan. South-west of building with a range", "type": "Master", "x":3661, "y":3374 },
+			{ "color": "#00fbff", "text": "Darkmeyer scan. South-east of building with a range", "type": "Master", "x":3670, "y":3373 },
+			{ "color": "#00fbff", "text": "Darkmeyer scan. Inside building south-east of north-east stairs", "type": "Master", "x":3671, "y":3366 },
+			{ "color": "#00fbff", "text": "Darkmeyer scan. South-east of Arboretum", "type": "Master", "x":3654, "y":3357 },
+			{ "color": "#00fbff", "text": "Darkmeyer scan. South-east corner of Darkmeyer", "type": "Master", "x":3666, "y":3344 },
+			{ "color": "#00fbff", "text": "Darkmeyer scan. North-east of entrance", "type": "Master", "x":3654, "y":3335 },
+			{ "color": "#00fbff", "text": "Darkmeyer scan. North of entrance", "type": "Master", "x":3632, "y":3344 },
+			{ "color": "#00fbff", "text": "Prifddinas scan. Crwys, on outcrop south of Prifddinas Waterfall Fishing Shop", "type": "Master", "x":2268, "y":3397 },
+			{ "color": "#00fbff", "text": "Prifddinas scan. Crwys, south-east of elder tree patch", "type": "Master", "x":2275, "y":3382 },
+			{ "color": "#00fbff", "text": "Prifddinas scan. At eastern entrance", "type": "Master", "x":2292, "y":3361 },
+			{ "color": "#00fbff", "text": "Prifddinas scan. Trahaearn, next to adamantite ore rocks", "type": "Master", "x":2224, "y":3328 },
+			{ "color": "#00fbff", "text": "Prifddinas scan. South-west of the southern entrance gate", "type": "Master", "x":2227, "y":3295 },
+			{ "color": "#00fbff", "text": "Prifddinas scan. Just south of the southern entrance gate.", "type": "Master", "x":2212, "y":3272 },
+			{ "color": "#00fbff", "text": "Prifddinas scan. South-east of the entrance gate, just south-west of the Prifddinas monument.", "type": "Master", "x":2234, "y":3265 },
+			{ "color": "#00fbff", "text": "Prifddinas scan. South-east of the entrance gate, just south-east of the Prifddinas monument.", "type": "Master", "x":2247, "y":3267 },
+			{ "color": "#00fbff", "text": "Prifddinas scan. Iorwerth, west of the manor", "type": "Master", "x":2175, "y":3291 },
+			{ "color": "#00fbff", "text": "Prifddinas scan. Iorwerth, south of the Iorwerth musician", "type": "Master", "x":2180, "y":3322 },
+			{ "color": "#00fbff", "text": "Prifddinas scan. Amlodd, south of Daffyd's house", "type": "Master", "x":2133, "y":3379 },
+			{ "color": "#00fbff", "text": "Prifddinas scan. Amlodd, on island east of Daffyd's house", "type": "Master", "x":2145, "y":3381 },
+			{ "color": "#00fbff", "text": "Prifddinas scan. Hefin, near light creature", "type": "Master", "x":2174, "y":3398 },
+			{ "color": "#00fbff", "text": "Prifddinas scan. Hefin, south-east of cathedral", "type": "Master", "x":2197, "y":3433 },
+			{ "color": "#00fbff", "text": "Prifddinas scan. Meilyr, south-east of fruit tree patch", "type": "Master", "x":2222, "y":3429 },
+			{ "color": "#00fbff", "text": "Prifddinas scan. Meilyr, west of Gorajo hoardstalker dungeon", "type": "Master", "x":2228, "y":3424 },
+			{ "color": "#00fbff", "text": "Lost Grove scan. By entrance", "type": "Master", "x":1950, "y":3054 },
+			{ "color": "#00fbff", "text": "Lost Grove scan. Near Teelee", "type": "Master", "x":1966, "y":3120 },
+			{ "color": "#00fbff", "text": "Lost Grove scan. At the moss golems", "type": "Master", "x":2007, "y":3100 },
+			{ "color": "#00fbff", "text": "Lost Grove scan. North of the moss golems", "type": "Master", "x":1997, "y":3131 },
+			{ "color": "#00fbff", "text": "Lost Grove scan. East of the central island", "type": "Master", "x":1999, "y":3160 },
+			{ "color": "#00fbff", "text": "Lost Grove scan. At the ruins", "type": "Master", "x":1993, "y":3188 },
+			{ "color": "#00fbff", "text": "Lost Grove scan. At the bulbous crawlers", "type": "Master", "x":1951, "y":3235 },
+			{ "color": "#00fbff", "text": "Lost Grove scan. North-west of the central area", "type": "Master", "x":1904, "y":3198 },
+			{ "color": "#00fbff", "text": "Lost Grove scan. In the northern part of the central area", "type": "Master", "x":1951, "y":3191 },
+			{ "color": "#00fbff", "text": "Lost Grove scan. West of the central area", "type": "Master", "x":1902, "y":3168 },
+			{ "color": "#00fbff", "text": "Lost Grove scan. At the vinecrawlers", "type": "Master", "x":1883, "y":3126 },
+			{ "color": "#00fbff", "text": "Lost Grove scan. East of the vinecrawlers", "type": "Master", "x":1909, "y":3112 },
+			{ "color": "#00fbff", "text": "Lost Grove scan. South-west of the fairy ring", "type": "Master", "x":1928, "y":3129 },
+			{ "color": "#00fbff", "text": "Lost Grove scan. Near Merethiel", "type": "Master", "x":1949, "y":3138 },
+			{ "color": "#00fbff", "text": "Lost Grove scan. North-west of the ruins", "type": "Master", "x":1978, "y":3199 },
+			{ "color": "#00fbff", "text": "Lost Grove scan. North-west of the fairy ring, near the central area", "type": "Master", "x":1927, "y":3163 },
+			{ "color": "#00fbff", "text": "Lost Grove scan. Dead center of the island", "type": "Master", "x":1946, "y":3174 },
+			{ "color": "#00fbff", "text": "Lost Grove scan. North-west of the fairy ring, on the path", "type": "Master", "x":1908, "y":3155 },
+			{ "color": "#00fbff", "text": "Lost Grove scan. Under an arch, midway on the path between the southern island and the central area", "type": "Master", "x":1944, "y":3113 },
+			{ "color": "#00fbff", "text": "", "type": "Master"  }
 		]
 	},
 	"shopItems": {
@@ -286155,7 +286629,7 @@
 			"White ewe (unchecked)": true,
 			"White ram (unchecked)": true,
 			"Kandarin cow (unchecked)": true,
-			"Kandarin bull (unchecked)": true,
+			"Bull (unchecked)": true,
 			"Animal name re-roller": true,
 			"Animal trait re-roller": true,
 			"Small animal pen kit": true,
@@ -317354,7 +317828,7 @@
 				"Bronze scimitar": {
 					"1": "Always"
 				},
-				"Bronze squire shield": {
+				"Bronze square shield": {
 					"1": "Always"
 				},
 				"Bronze sword": {
@@ -317551,10 +318025,10 @@
 				"Iron spit": {
 					"1": "Always"
 				},
-				"Iron squire shield": {
+				"Iron square shield": {
 					"1": "Always"
 				},
-				"Iron squire shield + 1": {
+				"Iron square shield + 1": {
 					"1": "Always"
 				},
 				"Iron sword": {
@@ -317763,10 +318237,10 @@
 				"Steel scimitar + 1": {
 					"1": "Always"
 				},
-				"Steel squire shield": {
+				"Steel square shield": {
 					"1": "Always"
 				},
-				"Steel squire shield + 1": {
+				"Steel square shield + 1": {
 					"1": "Always"
 				},
 				"Steel studs": {
@@ -318038,13 +318512,13 @@
 				"Mithril scimitar + 2": {
 					"1": "Always"
 				},
-				"Mithril squire shield": {
+				"Mithril square shield": {
 					"1": "Always"
 				},
-				"Mithril squire shield + 1": {
+				"Mithril square shield + 1": {
 					"1": "Always"
 				},
-				"Mithril squire shield + 2": {
+				"Mithril square shield + 2": {
 					"1": "Always"
 				},
 				"Mithril sword": {
@@ -318322,13 +318796,13 @@
 				"Adamant scimitar + 2": {
 					"1": "Always"
 				},
-				"Adamant squire shield": {
+				"Adamant square shield": {
 					"1": "Always"
 				},
-				"Adamant squire shield + 1": {
+				"Adamant square shield + 1": {
 					"1": "Always"
 				},
-				"Adamant squire shield + 2": {
+				"Adamant square shield + 2": {
 					"1": "Always"
 				},
 				"Adamant sword": {
@@ -318684,16 +319158,16 @@
 				"Rune scimitar + 3": {
 					"1": "Always"
 				},
-				"Rune squire shield": {
+				"Rune square shield": {
 					"1": "Always"
 				},
-				"Rune squire shield + 1": {
+				"Rune square shield + 1": {
 					"1": "Always"
 				},
-				"Rune squire shield + 2": {
+				"Rune square shield + 2": {
 					"1": "Always"
 				},
-				"Rune squire shield + 3": {
+				"Rune square shield + 3": {
 					"1": "Always"
 				},
 				"Rune sword": {

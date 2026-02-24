@@ -9503,7 +9503,7 @@ let calcCurrentChallenges2 = function() {
                     }
                 }
                 if (isPrimary || realLevel[skill][challenge] === 1 || (!!passiveSkill && !!passiveSkill.hasOwnProperty(skill) && passiveSkill[skill] >= realLevel[skill][challenge]) || (manualTasks.hasOwnProperty(skill) && manualTasks[skill].hasOwnProperty(challenge)) || (userTasks.hasOwnProperty(skill) && userTasks[skill].hasOwnProperty(challenge))) {
-                    if (globalValids[skill][challenge] !== false && (realLevel[skill][challenge] > highestChallengeLevelArr[skill]) && !chunkInfo['challenges'][skill][challenge]['NeverShow'] && (!completedChallenges[skill] || (!completedChallenges[skill].hasOwnProperty(challenge) && !completedChallenges[skill][challenge.replaceAll('#', '/')]))) {
+                    if (globalValids[skill][challenge] !== false && (realLevel[skill][challenge] > highestChallengeLevelArr[skill]) && !['NeverShow'] && (!completedChallenges[skill] || (!completedChallenges[skill].hasOwnProperty(challenge) && !completedChallenges[skill][challenge.replaceAll('#', '/')]))) {
                         if ((!highestChallenge[skill] || (realLevel[skill][challenge] > realLevel[skill][highestChallenge[skill]])) || ((!highestChallenge[skill] || (realLevel[skill][challenge] === realLevel[skill][highestChallenge[skill]])) && (!highestChallenge[skill] || !chunkInfo['challenges'][skill][highestChallenge[skill]]['Priority'] || (!!chunkInfo['challenges'][skill][challenge]['Priority'] && chunkInfo['challenges'][skill][challenge]['Priority'] < chunkInfo['challenges'][skill][highestChallenge[skill]]['Priority'])))) {
                             if ((!backlog[skill] || (!backlog[skill].hasOwnProperty(challenge) && !backlog[skill].hasOwnProperty(challenge.replaceAll('#', '/'))))) {
                                 if (!!chunkInfo['challenges'][skill][challenge]['Skills']) {
@@ -9540,17 +9540,17 @@ let calcCurrentChallenges2 = function() {
                                     highestChallenge[skill] = challenge;
                                 }
                             } else if (tempAlwaysGlobal.hasOwnProperty(skill) && tempAlwaysGlobal[skill].hasOwnProperty(challenge)) {
-                                Object.keys(tempAlwaysGlobal[skill][challenge]).filter(tempChallenge => !backlog[skill] || (!backlog[skill].hasOwnProperty(tempChallenge) && !backlog[skill].hasOwnProperty(tempChallenge.replaceAll('#', '/')))).sort((a, b) => { return a['Level'] - b['Level'] }).forEach((tempChallenge) => {
-                                    if (!!chunkInfo['challenges'][skill][tempChallenge]['Skills']) {
-                                        let tempValid = true;
-                                        Object.keys(chunkInfo['challenges'][skill][tempChallenge]['Skills']).filter(subSkill => (!checkPrimaryMethod(subSkill, globalValids, baseChunkData) && (!passiveSkill || !passiveSkill.hasOwnProperty(subSkill) || passiveSkill[subSkill] < chunkInfo['challenges'][skill][tempChallenge]['Skills'][subSkill]) && (subSkill !== 'Slayer' || !slayerLocked || chunkInfo['challenges'][skill][challenge]['Skills'][subSkill] > slayerLocked['level'])) || (!!maxSkill && maxSkill.hasOwnProperty(subSkill) && chunkInfo['challenges'][skill][challenge]['Skills'][subSkill] > maxSkill[subSkill])).length > 0 && (tempValid = false);
-                                        if (tempValid) {
-                                            highestChallenge[skill] = tempChallenge;
-                                        }
-                                    } else {
-                                        highestChallenge[skill] = tempChallenge;
-                                    }
-                                });
+								Object.keys(tempAlwaysGlobal[skill][challenge]).filter(tempChallenge => !backlog[skill] || (!backlog[skill].hasOwnProperty(tempChallenge) && !backlog[skill].hasOwnProperty(tempChallenge.replaceAll('#', '/')))).sort((a, b) => { return a['Level'] - b['Level'] }).forEach((tempChallenge) => {
+									if (!!chunkInfo['challenges'][skill][tempChallenge]['Skills']) {
+										let tempValid = true;
+										Object.keys(chunkInfo['challenges'][skill][tempChallenge]['Skills']).filter(subSkill => (!checkPrimaryMethod(subSkill, globalValids, baseChunkData) && (!passiveSkill || !passiveSkill.hasOwnProperty(subSkill) || passiveSkill[subSkill] < chunkInfo['challenges'][skill][tempChallenge]['Skills'][subSkill]) && (subSkill !== 'Slayer' || !slayerLocked || chunkInfo['challenges'][skill][challenge]['Skills'][subSkill] > slayerLocked['level'])) || (!!maxSkill && maxSkill.hasOwnProperty(subSkill) && chunkInfo['challenges'][skill][challenge]['Skills'][subSkill] > maxSkill[subSkill])).length > 0 && (tempValid = false);
+										if (tempValid) {
+											highestChallenge[skill] = tempChallenge;
+										}
+									} else {
+										highestChallenge[skill] = tempChallenge;
+									}
+								});
                             }
                         }
                     }
