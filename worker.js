@@ -1967,7 +1967,7 @@ let calcChallenges = function(chunks, baseChunkData) {
                 let lowestItem;
                 let lowestName;
                 let taskIsRemoved;
-                tempItemSkill[skill][item].filter((name) => { return !!chunkInfo['challenges'][skill][name] && !chunkInfo['challenges'][skill][name].hasOwnProperty('NoXp') && !chunkInfo['challenges'][skill][name].hasOwnProperty('AllowMulti') }).forEach((name) => {
+                tempItemSkill[skill][item].filter((name) => { return !!chunkInfo['challenges'][skill][name] && !chunkInfo['challenges'][skill][name].hasOwnProperty('NoXp') && !chunkInfo['challenges'][skill][name].hasOwnProperty('AllowMulti') && !chunkInfo['challenges'][skill][name]['NeverShow'] }).forEach((name) => {
                     taskIsRemoved = false;
                     let challenge = chunkInfo['challenges'][skill][name];
                     if (challenge.hasOwnProperty('Tasks')) {
@@ -3042,6 +3042,21 @@ let calcChallenges = function(chunks, baseChunkData) {
                                         } else {
                                             outputs[tableItem][challenge] = 'secondary-' + skill;
                                         }
+                                        !!outputs[tableItem] && !!outputs[tableItem][challenge] && Object.keys(chunkInfo['skillItems'][skill][output][item]).forEach((quantityDrop) => {
+                                            let skillExtra = `-${skill}`;
+                                            if (!dropRatesGlobal[output + skillExtra]) {
+                                                dropRatesGlobal[output + skillExtra] = {};
+                                            }
+                                            let droprate = parseFloat(chunkInfo['skillItems'][skill][output][item][quantityDrop].split('/')[0].replaceAll('~', '') * dropTables[item][tableItem].split('@')[0].split('/')[0].replaceAll('~', '')) / parseFloat(chunkInfo['skillItems'][skill][output][item][quantityDrop].split('/')[1] * dropTables[item][tableItem].split('@')[0].split('/')[1].replaceAll('~', ''));
+                                            dropRatesGlobal[output + skillExtra][tableItem] = isNaN(droprate) ? chunkInfo['skillItems'][skill][output][item][quantityDrop] : findFraction(droprate);
+                                            if (!dropTablesGlobal[output + skillExtra]) {
+                                                dropTablesGlobal[output + skillExtra] = {};
+                                            }
+                                            if (!dropTablesGlobal[output + skillExtra][tableItem]) {
+                                                dropTablesGlobal[output + skillExtra][tableItem] = {};
+                                            }
+                                            dropTablesGlobal[output + skillExtra][tableItem][dropTables[item][tableItem].split('@')[1]] = isNaN(droprate) ? chunkInfo['skillItems'][skill][output][item][quantityDrop] : findFraction(droprate);
+                                        });
                                     }
                                 });
                             } else {
@@ -3086,6 +3101,21 @@ let calcChallenges = function(chunks, baseChunkData) {
                                 } else if (((chunkInfo['skillItems'][skill][output][item][Object.keys(chunkInfo['skillItems'][skill][output][item])[0]].split('/').length < 2 || ((parseFloat(chunkInfo['skillItems'][skill][output][item][Object.keys(chunkInfo['skillItems'][skill][output][item])[0]].split('/')[0].replaceAll('~', '')) / parseFloat(chunkInfo['skillItems'][skill][output][item][Object.keys(chunkInfo['skillItems'][skill][output][item])[0]].split('/')[1]) <= (parseFloat(rareDropNum.split('/')[0].replaceAll('~', '')) / parseFloat(rareDropNum.split('/')[1]))))) || chunkInfo['challenges'][skill][challenge]['ForcedSecondary']) && (isNaN(parseFloat(chunkInfo['skillItems'][skill][output][item][Object.keys(chunkInfo['skillItems'][skill][output][item])[0]].split('/')[0].replaceAll('~', '')) / parseFloat(chunkInfo['skillItems'][skill][output][item][Object.keys(chunkInfo['skillItems'][skill][output][item])[0]].split('/')[1])) || (highestDropRate * (parseFloat(chunkInfo['skillItems'][skill][output][item][Object.keys(chunkInfo['skillItems'][skill][output][item])[0]].split('/')[0].replaceAll('~', '')) / parseFloat(chunkInfo['skillItems'][skill][output][item][Object.keys(chunkInfo['skillItems'][skill][output][item])[0]].split('/')[1]))) > (parseFloat(rareDropNum.split('/')[0].replaceAll('~', '')) / parseFloat(rareDropNum.split('/')[1])))) {
                                     outputs[item][challenge] = 'secondary-' + skill;
                                 }
+                                !!outputs[item] && !!outputs[item][challenge] && Object.keys(chunkInfo['skillItems'][skill][output][item]).forEach((quantityDrop) => {
+                                    let skillExtra = `-${skill}`;
+                                    if (!dropRatesGlobal[output + skillExtra]) {
+                                        dropRatesGlobal[output + skillExtra] = {};
+                                    }
+                                    let droprate = parseFloat(chunkInfo['skillItems'][skill][output][item][quantityDrop].split('/')[0].replaceAll('~', '')) / parseFloat(chunkInfo['skillItems'][skill][output][item][quantityDrop].split('/')[1]);
+                                    dropRatesGlobal[output + skillExtra][item] = isNaN(droprate) ? chunkInfo['skillItems'][skill][output][item][quantityDrop] : findFraction(droprate);
+                                    if (!dropTablesGlobal[output + skillExtra]) {
+                                        dropTablesGlobal[output + skillExtra] = {};
+                                    }
+                                    if (!dropTablesGlobal[output + skillExtra][item]) {
+                                        dropTablesGlobal[output + skillExtra][item] = {};
+                                    }
+                                    dropTablesGlobal[output + skillExtra][item][quantityDrop] = isNaN(droprate) ? chunkInfo['skillItems'][skill][output][item][quantityDrop] : findFraction(droprate);
+                                });
                             }
                         });
                         if (!chunkInfo['skillItems'][skill] || !chunkInfo['skillItems'][skill][output]) {
@@ -4639,7 +4669,7 @@ let calcChallengesWork = function(chunks, baseChunkData, oldTempItemSkill) {
                         });
                     }
                 });
-                !!items[item] && tempItemSkill[skill][item].forEach((name) => {
+                !!items[item] && tempItemSkill[skill][item].filter((name) => !chunkInfo['challenges'][skill][name]['NeverShow']).forEach((name) => {
                     let challenge = chunkInfo['challenges'][skill][name];
                     let tempLevel = challenge['Level'];
                     if (rules["Boosting"] && chunkInfo['codeItems']['boostItems'].hasOwnProperty(skill) && !chunkInfo['challenges'][skill][name].hasOwnProperty('NoBoost')) {
@@ -4990,7 +5020,7 @@ let calcChallengesWork = function(chunks, baseChunkData, oldTempItemSkill) {
                 });
             });
         });
-        Object.keys(dropTablesGlobal).forEach((monster) => {
+        Object.keys(dropTablesGlobal).filter((monster) => !monster.includes('-') || ![...skillNames, 'Nonskill'].includes(monster.split('-')[1])).forEach((monster) => {
             dropTablesGlobal.hasOwnProperty(monster) && Object.keys(dropTablesGlobal[monster]).filter(item => { return !item.includes('^') }).forEach((item) => {
                 dropTablesGlobal[monster].hasOwnProperty(item) && Object.keys(dropTablesGlobal[monster][item]).forEach((quantity) => {
                     if ((!drops[monster] || !drops[monster][item] || !drops[monster][item][quantity]) && !!dropTablesGlobal[monster] && !!dropTablesGlobal[monster][item] && !!dropTablesGlobal[monster][item][quantity] && !dropTables.hasOwnProperty(item)) {
