@@ -581,8 +581,7 @@ let ruleNames = {
 	"Menaphos Log": "Require completion of the Menaphos Journal<span class='rule-asterisk noscroll'>*</span>",
 	"Fill Costume Room": "WIP - Must fill all slots in the Player-Owned House costume room",
 	"Achievement": "Show Achievement Tasks",
-	"Multiple Pickpockets": "Require the Agility and Thieving levels to get multiple loots from pickpocketing<span class='rule-asterisk noscroll'>*</span>",
-	"Multiple Agility": "Require the Agility level to get multiple loots from pickpocketing, fishing or hunting<span class='rule-asterisk noscroll'>*</span>",
+	"Multiple Agility": "Require the Agility, and the related Skill, levels to get multiple loots from pickpocketing, fishing and hunting<span class='rule-asterisk noscroll'>*</span>",
     "F2P": "Restrict to F2P skills/items/tasks only (Partially implemented)",
 	"Hard Mode Bosses": "Include Hard mode variants of bosses<span class='rule-asterisk noscroll'>*</span>",
 	"Group Content": "Require content that is intended to be completed in a group",
@@ -643,7 +642,7 @@ let rulePresets = {
 		"Vinesweeper": true,
 		"Primary Spawn": true
     },
-    "Xtreme Chunker": {
+    "Extreme Chunker": {
         "Skillcape": true,
         "Rare Drop": true,
         "Pouch": true,
@@ -831,9 +830,9 @@ let rulePresets = {
 };                                                                              // List of rules that are part of each preset
 
 let rulePresetFlavor = {
-    "Vanilla Chunker": "AKA the original ruleset",
-    "Xtreme Chunker": "AKA Limpwurt's ruleset",
-    "Supreme Chunker": "AKA Buz's ruleset"
+    "Vanilla Chunker": "The original ruleset",
+    "Extreme Chunker": "Only worse, never better",
+    "Supreme Chunker": "More like Sup-meme!"
 };                                                                              // Preset flavour text
 
 let ruleStructure = {
@@ -866,12 +865,12 @@ let ruleStructure = {
 		"PortSkills": true,
 		"Token": true,
 		"Menaphos Events": true,
-		"Uncharted": true,
-		"Multiple Agility": true
+		"Uncharted": true
     },
     "Agility": {
         "Shortcut": true,
-        "Shortcut Task": true
+        "Shortcut Task": true,
+		"Multiple Agility": true
     },
     "Combat": {
 		"Full Healing": true,
@@ -1441,7 +1440,7 @@ let painted = {};
 let stickeredNotes = {};
 let stickeredColors = {};
 let stickerChoices = ['unset', 'skull', 'skull-crossbones', 'bomb', 'exclamation-circle', 'dice', 'poo', 'frown', 'grin-alt', 'heart', 'star', 'gem', 'award', 'crown', 'flag', 'asterisk', 'clock', 'hourglass', 'link', 'map-marker-alt', 'radiation-alt', 'shoe-prints', 'thumbs-down', 'thumbs-up', 'crow', 'utensil-spoon', 'lock', 'unlock-alt', 'sailboat', 'anchor'];
-let stickerChoicesRS3 = ['attack', 'hitpoints', 'mining', 'strength', 'agility', 'smithing', 'defence', 'herblore', 'fishing', 'ranged', 'thieving', 'cooking', 'prayer', 'fletching', 'firemaking', 'magic', 'crafting', 'woodcutting', 'runecraft', 'slayer', 'farming', 'construction', 'hunter', 'quest', 'diary', 'minigame', 'music', 'skills', 'clue'];
+let stickerChoicesRS3 = ['attack', 'constitution', 'mining', 'strength', 'agility', 'smithing', 'defence', 'herblore', 'fishing', 'ranged', 'thieving', 'cooking', 'prayer', 'fletching', 'firemaking', 'magic', 'crafting', 'woodcutting', 'runecrafting', 'slayer', 'farming', 'construction', 'hunter', 'summoning', 'dungeoneering', 'divination', 'invention', 'archaeology', 'necromancy', 'quest', 'achievements', 'minigame', 'skills', 'clue'];
 let stickerChoicesNumbers = ['zero', 'one', 'two', 'three', 'four', 'five', 'six', 'seven', 'eight', 'nine'];
 let stickerChoicesTiers = ['S', 'A', 'B', 'C', 'D', 'F'];
 let savedStickerId;
@@ -1702,7 +1701,7 @@ function replaceAll(str, match, replacement) {
 // Load rs3 sticker images
 stickerChoicesRS3.forEach((sticker) => {
     rs3Stickers[sticker] = new Image;
-    rs3Stickers[sticker].src = "resources/SVG/" + sticker + "-osrs.svg";
+    rs3Stickers[sticker].src = "resources/SVG/rs3/" + sticker + "-rs3.svg";
     rs3Stickers[sticker].addEventListener("load", e => {
         readyToDrawIcons--;
         if (readyToDrawImage && readyToDrawIcons === 0 && pageReady) {
@@ -2035,7 +2034,7 @@ let drawCanvas = function(ctxIn = ctx) {
         ctxIn.strokeStyle = 'rgba(170, 0, 0, 1)';
         ctxIn.fillRect(dragTotalX + (totalZoom * (x * imgW / rowSize)), dragTotalY + (totalZoom * (y * imgH / (fullSize / rowSize))), totalZoom * (imgW / rowSize), totalZoom * (imgH / (fullSize / rowSize)));
         ctxIn.strokeRect(dragTotalX + (totalZoom * (x * imgW / rowSize)), dragTotalY + (totalZoom * (y * imgH / (fullSize / rowSize))), totalZoom * (imgW / rowSize), totalZoom * (imgH / (fullSize / rowSize)));
-        ctxIn.drawImage(osrsStickers['slayer'], (dragTotalX + (totalZoom * ((x + 0.2) * imgW / rowSize))), dragTotalY + (totalZoom * ((y + 0.2) * imgH / (fullSize / rowSize))), (totalZoom * (imgW / rowSize)) * (0.6), (totalZoom * (imgW / rowSize)) * (0.6));
+        ctxIn.drawImage(rs3Stickers['slayer'], (dragTotalX + (totalZoom * ((x + 0.2) * imgW / rowSize))), dragTotalY + (totalZoom * ((y + 0.2) * imgH / (fullSize / rowSize))), (totalZoom * (imgW / rowSize)) * (0.6), (totalZoom * (imgW / rowSize)) * (0.6));
     });
     ctxIn.restore();
 
@@ -2689,7 +2688,7 @@ let handleMouseMove = function(e) {
         isHoveringOverlayMenu = overlayMenuLocation.length === 4 && currentX >= overlayMenuLocation[0] && currentY >= overlayMenuLocation[1] && currentX <= overlayMenuLocation[2] && currentY <= overlayMenuLocation[3];
 
         // Overlay hover
-        if (!!chunkInfo['mapOverlays'] && selectedOverlay !== 'None' && selectedOverlay !== 'Locked Slayer Task|Slayer task' && !!chunkInfo['mapOverlays'][selectedOverlay] && false) { // Not implemented
+        if (!!chunkInfo['mapOverlays'] && selectedOverlay !== 'None' && selectedOverlay !== 'Locked Slayer Task|Slayer task' && !!chunkInfo['mapOverlays'][selectedOverlay]) {
             hoveredOverlayIds = [];
             let lowestDistance = 100;
             e.target.id === 'canvas' && chunkInfo['mapOverlays'][selectedOverlay].forEach((overlayEl, i) => {
@@ -9752,10 +9751,10 @@ let openStickers = function(id) {
                 $('.sticker-data').append(`<span class='noscroll sticker-option-container black-outline unset-option' title='${stickerName.charAt(0).toUpperCase() + stickerName.slice(1)}' onclick="setSticker('${id}', '${sticker}')"><i class="noscroll fa-solid fa-ban" style="transform: scaleX(-1)"></i></span>`);
             }
         });
-        $('.sticker-data').append(`<div class='noscroll sticker-data-subheader'>OSRS Stickers</div>`);
+        $('.sticker-data').append(`<div class='noscroll sticker-data-subheader'>RS3 Stickers</div>`);
         stickerChoicesRS3.forEach((sticker) => {
             let stickerName = sticker.split('-').join(' ');
-            $('.sticker-data').append(`<span class='noscroll sticker-option-container ${sticker}-tag' title='${stickerName.charAt(0).toUpperCase() + stickerName.slice(1)}' onclick="setSticker('${id}', '${sticker}')"><img class="noscroll" src="./resources/SVG/${sticker}-osrs.svg"></span>`);
+            $('.sticker-data').append(`<span class='noscroll sticker-option-container ${sticker}-tag' title='${stickerName.charAt(0).toUpperCase() + stickerName.slice(1)}' onclick="setSticker('${id}', '${sticker}')"><img class="noscroll" src="./resources/SVG/rs3/${sticker}-rs3.svg"></span>`);
         });
         $('.sticker-data').append(`<div class='noscroll sticker-data-subheader'>Number stickers</div>`);
         stickerChoicesNumbers.forEach((sticker) => {
@@ -10944,7 +10943,7 @@ let changeOverlayFilterBy = function() {
 // Shows overlay options
 let showOverlays = function(fromHelper) {
     if (!inEntry && !importMenuOpen && !manualModalOpen && !detailsModalOpen && !notesModalOpen && !highscoreMenuOpen && !helpMenuOpen) {
-        modal.generate('mapOverlaysModal', onMobile);
+        !fromHelper && modal.generate('mapOverlaysModal', onMobile);
         $('#map-marker-btn').hasClass('notice-me') && $('#map-marker-btn').removeClass('notice-me');
         onMobile && hideMobileMenu();
         overlaysModalOpen = true;
@@ -10963,13 +10962,13 @@ let showOverlays = function(fromHelper) {
             if (overlay === 'Clues') {
                 $('#overlays-data').append(`<div class="overlay noscroll ${overlay.replaceAll(' ', '_') + '-overlay'}"><label class="radio noscroll extra-space"><span class="radio__label noscroll">${overlay === 'None' ? overlay : `<a class='link noscroll' href="${"https://runescape.wiki/w/" + encodeForUrl(overlayLink)}" target="_blank">${overlay}</a>`}</span></label></div>`);
                 clueTiers.forEach((clueTier) => {
-                    $('#overlays-data').append(`<div class="overlay noscroll ${clueTier.replaceAll(' ', '_') + '-overlay'} sub-overlay-entry"><label class="checkbox noscroll"><span class="checkbox__input noscroll"><input type="checkbox" name="checkbox" ${selectedOverlayClues[clueTier] ? "checked" : ''} class='noscroll' onclick="selectedOverlay='${overlay}'; selectOverlayClues('${clueTier}'); drawCanvas();"><span class="checkbox__control noscroll"><svg viewBox='0 0 24 24' aria-hidden="true" focusable="false"><path fill='currentColor' stroke='currentColor' d='M 12 12 m -7.5 0 a 7.5 7.5 90 1 0 15 0 a 7.5 7.5 90 1 0 -15 0' /></svg></span></span><span class="checkbox__label noscroll">${overlay === 'None' ? overlay : `<a class='link noscroll' href="${"https://runescape.wiki/w/" + encodeForUrl(`${clueTier} ${overlay.toLowerCase()}`)}" target="_blank">${clueTier} ${overlay}</a>`}</span></label></div>`);
+                    $('#overlays-data').append(`<div class="overlay noscroll ${clueTier.replaceAll(' ', '_') + '-overlay'} sub-overlay-entry"><label class="checkbox noscroll"><span class="checkbox__input noscroll"><input type="checkbox" name="checkbox" ${selectedOverlayClues[clueTier] ? "checked" : ''} class='noscroll' onclick="selectedOverlay='${overlay}'; selectOverlayClues('${clueTier}');"><span class="checkbox__control noscroll"><svg viewBox='0 0 24 24' aria-hidden="true" focusable="false"><path fill='currentColor' stroke='currentColor' d='M 12 12 m -7.5 0 a 7.5 7.5 90 1 0 15 0 a 7.5 7.5 90 1 0 -15 0' /></svg></span></span><span class="checkbox__label noscroll">${overlay === 'None' ? overlay : `<a class='link noscroll' href="${"https://runescape.wiki/w/" + encodeForUrl(`${clueTier} ${overlay.toLowerCase()}`)}" target="_blank">${clueTier} ${overlay}</a>`}</span></label></div>`);
                 });
             } else if (overlay === 'Locked Slayer Task') {
                 let tooltipBase = `<span class="neighbors-question"><i class="fa-solid fa-question-circle question-help"></i></span>`;
                 $('#overlays-data').append(`<div class="overlay noscroll ${overlay.replaceAll(' ', '_') + '-overlay'}"><label class="radio noscroll"><span class="radio__input noscroll"><input type="radio" name="radio" ${(selectedOverlay === overlayText) ? "checked" : ''} class='noscroll' onclick="selectedOverlay='${overlayText}'; clearOverlayClues();"><span class="radio__control noscroll"><svg viewBox='0 0 24 24' aria-hidden="true" focusable="false"><path fill='currentColor' stroke='currentColor' d='M 12 12 m -7.5 0 a 7.5 7.5 90 1 0 15 0 a 7.5 7.5 90 1 0 -15 0' /></svg></span></span><span class="radio__label noscroll">${overlay === 'None' ? overlay : `<a class='link noscroll' href="${"https://runescape.wiki/w/" + encodeForUrl(overlayLink)}" target="_blank">${overlay}</a>`}${tooltip.generate('slayerOverlayTooltip', tooltipBase, 'slayerOverlayTooltip', onMobile ? 'bottom' : 'right')}</span></label></div>`);
             } else {
-                $('#overlays-data').append(`<div class="overlay noscroll ${overlay.replaceAll(' ', '_') + '-overlay'}"><label class="radio noscroll"><span class="radio__input noscroll"><input type="radio" name="radio" ${(selectedOverlay === overlayText) ? "checked" : ''} class='noscroll' onclick="selectedOverlay='${overlayText}'; clearOverlayClues(); drawCanvas();"><span class="radio__control noscroll"><svg viewBox='0 0 24 24' aria-hidden="true" focusable="false"><path fill='currentColor' stroke='currentColor' d='M 12 12 m -7.5 0 a 7.5 7.5 90 1 0 15 0 a 7.5 7.5 90 1 0 -15 0' /></svg></span></span><span class="radio__label noscroll">${overlay === 'None' ? overlay : `<a class='link noscroll' href="${"https://runescape.wiki/w/" + encodeForUrl(overlayLink)}" target="_blank">${overlay}</a>`}</span></label></div>`);
+                $('#overlays-data').append(`<div class="overlay noscroll ${overlay.replaceAll(' ', '_') + '-overlay'}"><label class="radio noscroll"><span class="radio__input noscroll"><input type="radio" name="radio" ${(selectedOverlay === overlayText) ? "checked" : ''} class='noscroll' onclick="selectedOverlay='${overlayText}'; clearOverlayClues();"><span class="radio__control noscroll"><svg viewBox='0 0 24 24' aria-hidden="true" focusable="false"><path fill='currentColor' stroke='currentColor' d='M 12 12 m -7.5 0 a 7.5 7.5 90 1 0 15 0 a 7.5 7.5 90 1 0 -15 0' /></svg></span></span><span class="radio__label noscroll">${overlay === 'None' ? overlay : `<a class='link noscroll' href="${"https://runescape.wiki/w/" + encodeForUrl(overlayLink)}" target="_blank">${overlay}</a>`}</span></label></div>`);
             }
         });
         $('#mapOverlaysModal').show();
@@ -11306,7 +11305,7 @@ let showRules = function(isPage2) {
             $('#rules-subdata').append(`<div class="noscroll show-rule-details-btn"><span class='noscroll' onclick="showRules(true)">Show Detailed Rules</span></div>`);
         }
         onMobile && $('#rules-subdata').append(`<div class="rule-category rules-main-header noscroll">Rules</div>`);
-        $('#rules-subdata').append(`<div class="rule-key noscroll"><b class='noscroll'><u class='noscroll'>KEY</u></b><br /><span class='rule-asterisk noscroll'>*</span> - Xtreme/Supreme Rule<br /><span class='rule-asterisk noscroll'>†</span> - Supreme Rule</div>`);
+        $('#rules-subdata').append(`<div class="rule-key noscroll"><b class='noscroll'><u class='noscroll'>KEY</u></b><br /><span class='rule-asterisk noscroll'>*</span> - Extreme/Supreme Rule<br /><span class='rule-asterisk noscroll'>†</span> - Supreme Rule</div>`);
         !onMobile && $('#rules-subdata').append(`<div class="rule-search noscroll"><input type="text" placeholder="Search rules..." id="searchRules" class="noscrollhard" oninput="searchRules()" autocomplete="off" /></div>`);
         $('#searchRules').val('').focus();
         $('.modal-content:not(.mobile) .rules-subdata.page2').css({'right': '0px', 'left': 'unset'});

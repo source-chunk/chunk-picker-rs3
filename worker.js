@@ -9570,17 +9570,17 @@ let calcCurrentChallenges2 = function() {
                                     highestChallenge[skill] = challenge;
                                 }
                             } else if (tempAlwaysGlobal.hasOwnProperty(skill) && tempAlwaysGlobal[skill].hasOwnProperty(challenge)) {
-                                Object.keys(tempAlwaysGlobal[skill][challenge]).filter(tempChallenge => !backlog[skill] || (!backlog[skill].hasOwnProperty(tempChallenge) && !backlog[skill].hasOwnProperty(tempChallenge.replaceAll('#', '/')))).sort((a, b) => { return a['Level'] - b['Level'] }).forEach((tempChallenge) => {
-                                    if (!!chunkInfo['challenges'][skill][tempChallenge]['Skills']) {
-                                        let tempValid = true;
-                                        Object.keys(chunkInfo['challenges'][skill][tempChallenge]['Skills']).filter(subSkill => (!checkPrimaryMethod(subSkill, globalValids, baseChunkData) && (!passiveSkill || !passiveSkill.hasOwnProperty(subSkill) || passiveSkill[subSkill] < chunkInfo['challenges'][skill][tempChallenge]['Skills'][subSkill]) && (subSkill !== 'Slayer' || !slayerLocked || chunkInfo['challenges'][skill][challenge]['Skills'][subSkill] > slayerLocked['level'])) || (!!maxSkill && maxSkill.hasOwnProperty(subSkill) && chunkInfo['challenges'][skill][challenge]['Skills'][subSkill] > maxSkill[subSkill])).length > 0 && (tempValid = false);
-                                        if (tempValid) {
-                                            highestChallenge[skill] = tempChallenge;
-                                        }
-                                    } else {
-                                        highestChallenge[skill] = tempChallenge;
-                                    }
-                                });
+								Object.keys(tempAlwaysGlobal[skill][challenge]).filter(tempChallenge => !backlog[skill] || (!backlog[skill].hasOwnProperty(tempChallenge) && !backlog[skill].hasOwnProperty(tempChallenge.replaceAll('#', '/')))).sort((a, b) => { return a['Level'] - b['Level'] }).forEach((tempChallenge) => {
+									if (!!chunkInfo['challenges'][skill][tempChallenge]['Skills']) {
+										let tempValid = true;
+										Object.keys(chunkInfo['challenges'][skill][tempChallenge]['Skills']).filter(subSkill => (!checkPrimaryMethod(subSkill, globalValids, baseChunkData) && (!passiveSkill || !passiveSkill.hasOwnProperty(subSkill) || passiveSkill[subSkill] < chunkInfo['challenges'][skill][tempChallenge]['Skills'][subSkill]) && (subSkill !== 'Slayer' || !slayerLocked || chunkInfo['challenges'][skill][challenge]['Skills'][subSkill] > slayerLocked['level'])) || (!!maxSkill && maxSkill.hasOwnProperty(subSkill) && chunkInfo['challenges'][skill][challenge]['Skills'][subSkill] > maxSkill[subSkill])).length > 0 && (tempValid = false);
+										if (tempValid) {
+											highestChallenge[skill] = tempChallenge;
+										}
+									} else {
+										highestChallenge[skill] = tempChallenge;
+									}
+								});
                             }
                         }
                     }
