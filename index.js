@@ -1441,7 +1441,7 @@ let painted = {};
 let stickeredNotes = {};
 let stickeredColors = {};
 let stickerChoices = ['unset', 'skull', 'skull-crossbones', 'bomb', 'exclamation-circle', 'dice', 'poo', 'frown', 'grin-alt', 'heart', 'star', 'gem', 'award', 'crown', 'flag', 'asterisk', 'clock', 'hourglass', 'link', 'map-marker-alt', 'radiation-alt', 'shoe-prints', 'thumbs-down', 'thumbs-up', 'crow', 'utensil-spoon', 'lock', 'unlock-alt', 'sailboat', 'anchor'];
-let stickerChoicesRS3 = ['attack', 'constitution', 'mining', 'strength', 'agility', 'smithing', 'defence', 'herblore', 'fishing', 'ranged', 'thieving', 'cooking', 'prayer', 'fletching', 'firemaking', 'magic', 'crafting', 'woodcutting', 'runecrafting', 'slayer', 'farming', 'construction', 'hunter', 'summoning', 'dungeoneering', 'divination', 'invention', 'archaeology', 'necromancy', 'quest', 'achievements', 'minigame', 'music', 'skills', 'clue'];
+let stickerChoicesRS3 = ['attack', 'constitution', 'mining', 'strength', 'agility', 'smithing', 'defence', 'herblore', 'fishing', 'ranged', 'thieving', 'cooking', 'prayer', 'fletching', 'firemaking', 'magic', 'crafting', 'woodcutting', 'runecrafting', 'slayer', 'farming', 'construction', 'hunter', 'summoning', 'dungeoneering', 'divination', 'invention', 'archaeology', 'necromancy', 'quest', 'achievements', 'minigame', 'skills', 'clue'];
 let stickerChoicesNumbers = ['zero', 'one', 'two', 'three', 'four', 'five', 'six', 'seven', 'eight', 'nine'];
 let stickerChoicesTiers = ['S', 'A', 'B', 'C', 'D', 'F'];
 let savedStickerId;
