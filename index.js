@@ -581,8 +581,7 @@ let ruleNames = {
 	"Menaphos Log": "Require completion of the Menaphos Journal<span class='rule-asterisk noscroll'>*</span>",
 	"Fill Costume Room": "WIP - Must fill all slots in the Player-Owned House costume room",
 	"Achievement": "Show Achievement Tasks",
-	"Multiple Pickpockets": "Require the Agility and Thieving levels to get multiple loots from pickpocketing<span class='rule-asterisk noscroll'>*</span>",
-	"Multiple Agility": "Require the Agility level to get multiple loots from pickpocketing, fishing or hunting<span class='rule-asterisk noscroll'>*</span>",
+	"Multiple Agility": "Require the Agility, and the related Skill, levels to get multiple loots from pickpocketing, fishing and hunting<span class='rule-asterisk noscroll'>*</span>",
     "F2P": "Restrict to F2P skills/items/tasks only (Partially implemented)",
 	"Hard Mode Bosses": "Include Hard mode variants of bosses<span class='rule-asterisk noscroll'>*</span>",
 	"Group Content": "Require content that is intended to be completed in a group",
@@ -643,7 +642,7 @@ let rulePresets = {
 		"Vinesweeper": true,
 		"Primary Spawn": true
     },
-    "Xtreme Chunker": {
+    "Extreme Chunker": {
         "Skillcape": true,
         "Rare Drop": true,
         "Pouch": true,
@@ -831,9 +830,9 @@ let rulePresets = {
 };                                                                              // List of rules that are part of each preset
 
 let rulePresetFlavor = {
-    "Vanilla Chunker": "AKA the original ruleset",
-    "Xtreme Chunker": "AKA Limpwurt's ruleset",
-    "Supreme Chunker": "AKA Buz's ruleset"
+    "Vanilla Chunker": "The original ruleset",
+    "Extreme Chunker": "Only worse, never better",
+    "Supreme Chunker": "More like Sup-meme!"
 };                                                                              // Preset flavour text
 
 let ruleStructure = {
@@ -866,12 +865,12 @@ let ruleStructure = {
 		"PortSkills": true,
 		"Token": true,
 		"Menaphos Events": true,
-		"Uncharted": true,
-		"Multiple Agility": true
+		"Uncharted": true
     },
     "Agility": {
         "Shortcut": true,
-        "Shortcut Task": true
+        "Shortcut Task": true,
+		"Multiple Agility": true
     },
     "Combat": {
 		"Full Healing": true,
@@ -11306,7 +11305,7 @@ let showRules = function(isPage2) {
             $('#rules-subdata').append(`<div class="noscroll show-rule-details-btn"><span class='noscroll' onclick="showRules(true)">Show Detailed Rules</span></div>`);
         }
         onMobile && $('#rules-subdata').append(`<div class="rule-category rules-main-header noscroll">Rules</div>`);
-        $('#rules-subdata').append(`<div class="rule-key noscroll"><b class='noscroll'><u class='noscroll'>KEY</u></b><br /><span class='rule-asterisk noscroll'>*</span> - Xtreme/Supreme Rule<br /><span class='rule-asterisk noscroll'>†</span> - Supreme Rule</div>`);
+        $('#rules-subdata').append(`<div class="rule-key noscroll"><b class='noscroll'><u class='noscroll'>KEY</u></b><br /><span class='rule-asterisk noscroll'>*</span> - Extreme/Supreme Rule<br /><span class='rule-asterisk noscroll'>†</span> - Supreme Rule</div>`);
         !onMobile && $('#rules-subdata').append(`<div class="rule-search noscroll"><input type="text" placeholder="Search rules..." id="searchRules" class="noscrollhard" oninput="searchRules()" autocomplete="off" /></div>`);
         $('#searchRules').val('').focus();
         $('.modal-content:not(.mobile) .rules-subdata.page2').css({'right': '0px', 'left': 'unset'});
