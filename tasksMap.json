@@ -86900,7 +86900,7 @@
   "Archaeology Guild Shop: ~|Archaeologist's trousers|~": "t_48438",
   "Archaeology Guild Shop: ~|Archaeologist's gloves|~": "t_48439",
   "Archaeology Guild Shop: ~|Archaeologist's boots|~": "t_48440",
-  "Archaeology Guild Shop: ~|Auto-screener v1.080 Blueprint|~": "t_48441",
+  "Archaeology Guild Shop: ~|Auto-screener v1.080 blueprint|~": "t_117545",
   "Archaeology Guild Shop: ~|Master archaeologist's hat|~": "t_48442",
   "Archaeology Guild Shop: ~|Master archaeologist's jacket|~": "t_48443",
   "Archaeology Guild Shop: ~|Master archaeologist's trousers|~": "t_48444",
@@ -91315,5 +91315,5 @@
   "Pizazz points: ~|Death rune|~": "t_52854",
   "Pizazz points: ~|Soul rune|~": "t_52856",
   "Pizazz points: ~|Blood rune|~": "t_52857",
-  "currentNextIndex": 117545
+  "currentNextIndex": 117546
 }

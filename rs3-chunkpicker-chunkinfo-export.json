@@ -281567,6 +281567,24 @@
 			"Warrior helm": [{
 				"~|The Fremennik Trials|~ Complete the quest": "Quest"
 			}],
+			"White full helm": [{
+				"~|Wanted!|~ Complete the quest": "Quest"
+			}],
+			"White platebody": [{
+				"~|Wanted!|~ Complete the quest": "Quest"
+			}],
+			"White platelegs": [{
+				"~|Wanted!|~ Complete the quest": "Quest"
+			}],
+			"White kiteshield": [{
+				"~|Wanted!|~ Complete the quest": "Quest"
+			}],
+			"White gauntlets": [{
+				"~|Wanted!|~ Complete the quest": "Quest"
+			}],
+			"White boots": [{
+				"~|Wanted!|~ Complete the quest": "Quest"
+			}],
 			"Zuriel's staff^": [{
 				"Members only": "Nonskill"
 			}],
@@ -283879,6 +283897,16 @@
 					"~|The Tourist Trap|~ Complete the quest": "Quest"
 				}]
 			},
+			"Luminite vein": {
+				"Abandoned Mine": [{
+					"~|Haunted Mine|~ 2": "Quest"
+				}]
+			},
+			"Drakolith vein": {
+				"Abandoned Mine": [{
+					"~|Haunted Mine|~ 2": "Quest"
+				}]
+			},
 			"Necrite rock": {
 				"Desert Mining Camp cave": [{
 					"~|The Tourist Trap|~ Complete the quest": "Quest"
@@ -283887,6 +283915,11 @@
 			"Phasmatite rock": {
 				"Dwarven Mine resource dungeon": [{
 					"~|Daemonheim Achievements#Hard|~ Complete the Hard Achievements": "Diary"
+				}]
+			},
+			"Phasmatite vein": {
+				"Abandoned Mine": [{
+					"~|Haunted Mine|~ 2": "Quest"
 				}]
 			},
 			"Yew": {
@@ -286138,7 +286171,7 @@
 			"Archaeologist's trousers": true,
 			"Archaeologist's gloves": true,
 			"Archaeologist's boots": true,
-			"Auto-screener v1.080 Blueprint": true,
+			"Auto-screener v1.080 blueprint": true,
 			"Master archaeologist's hat": true,
 			"Master archaeologist's jacket": true,
 			"Master archaeologist's trousers": true,
