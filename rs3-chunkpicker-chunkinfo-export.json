@@ -283812,29 +283812,13 @@
 				}]
 			},
 			"Fishing spot (big fishing net, harpoon)": {
-				"11317": [{
-					"Members only": "Nonskill"
-				}],
 				"10293": [{
 					"Enter the ~|Fishing Guild|~": "Fishing"
 				}]
 			},
 			"Fishing spot (cage, harpoon)": {
-				"11317": [{
-					"Members only": "Nonskill"
-				}],
 				"10293": [{
 					"Enter the ~|Fishing Guild|~": "Fishing"
-				}]
-			},
-			"Fishing spot (small fishing net, bait)": {
-				"11317": [{
-					"Members only": "Nonskill"
-				}]
-			},
-			"Fruit tree patch": {
-				"11317": [{
-					"Members only": "Nonskill"
 				}]
 			},
 			"Fremennik Anvil": {
@@ -284083,11 +284067,6 @@
 					"Construction Contracts rewards": "Nonskill"
 				}]
 			},
-			"Farming supplies": {
-				"11317": [{
-					"Members only": "Nonskill"
-				}]
-			},
 			"Farmers' Market": {
 				"10548": [{
 					"~|Player-owned farm tutorial|~ Complete the tutorial": "Quest"
@@ -284149,19 +284128,9 @@
 					"~|Heroes' Quest|~ Complete the quest": "Quest"
 				}]
 			},
-			"Harry's Fishing Shop": {
-				"11317": [{
-					"Members only": "Nonskill"
-				}]
-			},
 			"Herby Werby Reward Shop": {
 				"16453": [{
 					"Non-Daily DnD": "Nonskill"
-				}]
-			},
-			"Hickton's Archery Emporium": {
-				"11317": [{
-					"Members only": "Nonskill"
 				}]
 			},
 			"Honest Jimmy's House of Stuff": {
