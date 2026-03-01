@@ -1387,7 +1387,7 @@
 			},
 			"Cross the ~|broken Saradomin statue|~": {
 				"Category": ["Shortcut"],
-				"Chunks": ["13622"],
+				"Objects": ["Broken Saradomin statue"],
 				"Level": 65,
 				"Primary": false,
 				"Priority": 1,
@@ -2149,7 +2149,7 @@
 		},
 		"Archaeology": {
 			"Complete the ~|Archaeology tutorial|~": {
-				"Chunks": ["13108-3", "13364", "13365"],
+				"Chunks": ["13108-3", "13364", "13365-1"],
 				"Level": 1,
 				"Primary": true,
 				"Priority": 1
@@ -3496,7 +3496,7 @@
 				"Tasks": {
 					"Complete the ~|Archaeology tutorial|~": "Archaeology"
 				},
-				"Chunks": ["13365"],
+				"Chunks": ["Senntisten"],
 				"Level": 60,
 				"Primary": false,
 				"Priority": 1,
@@ -5880,17 +5880,6 @@
 				"Output": "Stormguard gerege",
 				"Primary": true,
 				"Priority": 3
-			},
-			"Unlock ~|Ancient Invention|~": {
-				"Tasks": {
-					"Complete the ~|Archaeology tutorial|~": "Archaeology"
-				},
-				"Chunks": ["Howl's Workshop"],
-				"Objects": ["Drafting bench"],
-				"Level": 95,
-				"Primary": false,
-				"Priority": 4,
-				"NoBoost": true
 			},
 			"Complete the ~|Night and Day|~ research": {
 				"Tasks": {
@@ -16216,7 +16205,7 @@
 				"Priority": 4
 			},
 			"Repair an ~|abandoned siege engine|~": {
-				"Chunks": ["13365"],
+				"Chunks": ["Senntisten"],
 				"Items": ["Siege engine part*"],
 				"Level": 90,
 				"Primary": false,
@@ -24475,6 +24464,9 @@
 				"Level": 70,
 				"Output": "'Ancient gizmos' blueprint",
 				"Chunks": ["Howl's Workshop"],
+				"Tasks": {
+					"Complete the ~|Back to the Drawing Board|~ research": "Archaeology"
+				},
 				"Primary": true,
 				"Priority": 103,
 				"Not F2P": true
@@ -24484,6 +24476,9 @@
 				"Level": 70,
 				"Output": "'Ancient tools' blueprint",
 				"Chunks": ["Howl's Workshop"],
+				"Tasks": {
+					"Complete the ~|Back to the Drawing Board|~ research": "Archaeology"
+				},
 				"Primary": true,
 				"Priority": 104,
 				"Not F2P": true
@@ -24493,6 +24488,9 @@
 				"Level": 70,
 				"Output": "'XP Capacitor' blueprint",
 				"Chunks": ["Howl's Workshop"],
+				"Tasks": {
+					"Complete the ~|Back to the Drawing Board|~ research": "Archaeology"
+				},
 				"Primary": true,
 				"Priority": 105,
 				"Not F2P": true
@@ -38561,7 +38559,7 @@
 				"Priority": 2
 			},
 			"Light the ~|Beacon Network|~ beacon near the River Salve": {
-				"Chunks": ["13622"],
+				"Chunks": ["13622-1"],
 				"Items": ["Logs[+]*"],
 				"Level": 43,
 				"Tasks": {
@@ -50082,6 +50080,12 @@
 				"Output": "Ancient tool gizmo shell",
 				"Priority": 5
 			},
+			"Study the ~|'ancient gizmos' blueprint|~": {
+				"Items": ["'Ancient gizmos' blueprint"],
+				"Level": 85,
+				"Primary": false,
+				"Priority": 1000
+			},
 			"Create a ~|greater Death's Swiftness ability codex|~": {
 				"Items": ["Codex of lost knowledge*", "Cywir components*"],
 				"Objects": ["Inventor's workbench"],
@@ -50273,6 +50277,12 @@
 				"Output": "Enhanced hammer-tron",
 				"Priority": 4
 			},
+			"Study the ~|'ancient tools' blueprint|~": {
+				"Items": ["'Ancient tools' blueprint"],
+				"Level": 93,
+				"Primary": false,
+				"Priority": 100
+			},
 			"Create a ~|partable fairy ring|~": {
 				"Items": ["Organic parts*", "Healthy components*", "Fungal components*"],
 				"Objects": ["Inventor's workbench"],
@@ -50456,6 +50466,12 @@
 				"Primary": true,
 				"Output": "XP Capacitor 5000",
 				"Priority": 1
+			},
+			"Study the ~|'XP Capacitor' blueprint|~": {
+				"Items": ["'XP Capacitor' blueprint"],
+				"Level": 95,
+				"Primary": false,
+				"Priority": 100
 			},
 			"Create an ~|alchemical onyx|~": {
 				"Items": ["Onyx*", "Fortunate components*", "Refined components*", "Precious components*"],
@@ -52065,7 +52081,7 @@
 			},
 			"Cast ~|Senntisten teleport|~": {
 				"Category": ["Spells", "Combat and Teleport Spells"],
-				"Chunks": ["13365"],
+				"Chunks": ["13365-1"],
 				"Items": ["Soul rune*", "Law rune*"],
 				"Tasks": {
 					"~|Desert Treasure|~ Complete the quest": "Quest"
@@ -76020,7 +76036,7 @@
 			"~|All Fired Up|~ 2": {
 				"BaseQuest": "All Fired Up",
 				"Description": "Talk to Blaze Sharpeye at the beacon south-west of the Paterdomus",
-				"Chunks": ["13622"],
+				"Chunks": ["13622-1"],
 				"Tasks": {
 					"~|All Fired Up|~ 1": "Quest"
 				},
@@ -76029,7 +76045,7 @@
 			"~|All Fired Up|~ 3": {
 				"BaseQuest": "All Fired Up",
 				"Description": "Place 20 logs in the beacon and light it, then talk to Blaze again",
-				"Chunks": ["13622"],
+				"Chunks": ["13622-1"],
 				"Items": ["Logs[+]"],
 				"Tasks": {
 					"~|All Fired Up|~ 2": "Quest"
@@ -76049,7 +76065,7 @@
 			"~|All Fired Up|~ 5": {
 				"BaseQuest": "All Fired Up",
 				"Description": "Return to Blaze and talk to him",
-				"Chunks": ["13622"],
+				"Chunks": ["13622-1"],
 				"Tasks": {
 					"~|All Fired Up|~ 4": "Quest"
 				},
@@ -76058,7 +76074,7 @@
 			"~|All Fired Up|~ 6": {
 				"BaseQuest": "All Fired Up",
 				"Description": "Use five logs on the beacon by Blaze, then talk to him again",
-				"Chunks": ["13622"],
+				"Chunks": ["13622-1"],
 				"Items": ["Logs[+]"],
 				"Tasks": {
 					"~|All Fired Up|~ 5": "Quest"
@@ -77402,7 +77418,7 @@
 			"~|Battle of the Monolith|~ 1": {
 				"BaseQuest": "Battle of the Monolith",
 				"Description": "Talk to Ali the Wise or Wizard Trindy at the Archaeology Campus",
-				"Chunks": ["13365"],
+				"Chunks": ["13365-1"],
 				"Tasks": {
 					"~|Azzanadra's Quest|~ Complete the quest": "Quest"
 				},
@@ -77415,7 +77431,7 @@
 			"~|Battle of the Monolith|~ 2": {
 				"BaseQuest": "Battle of the Monolith",
 				"Description": "Win the four battles",
-				"Chunks": ["13365", "13364"],
+				"Chunks": ["13365-1", "13364"],
 				"Tasks": {
 					"~|Battle of the Monolith|~ 1": "Quest"
 				},
@@ -77423,7 +77439,7 @@
 			},
 			"~|Battle of the Monolith|~ Complete the quest": {
 				"BaseQuest": "Battle of the Monolith",
-				"Chunks": ["13364", "13365"],
+				"Chunks": ["13364", "13365-1"],
 				"Tasks": {
 					"~|Battle of the Monolith|~ 2": "Quest"
 				},
@@ -77756,7 +77772,7 @@
 			"~|Benedict's World Tour (miniquest)|~ 2o": {
 				"BaseQuest": "Benedict's World Tour (miniquest)",
 				"Description": "Collect the scarf at the beacon by Paterdomus",
-				"Chunks": ["13622"],
+				"Chunks": ["13622-1"],
 				"Tasks": {
 					"~|Benedict's World Tour (miniquest)|~ 1": "Quest"
 				},
@@ -79311,7 +79327,7 @@
 			"~|Children of Mah|~ 2": {
 				"BaseQuest": "Children of Mah",
 				"Description": "Harvest the memories near the entrance to the Empty Throne Room",
-				"Chunks": ["13365"],
+				"Chunks": ["13365-1"],
 				"Tasks": {
 					"~|Children of Mah|~ 1": "Quest"
 				},
@@ -81322,7 +81338,7 @@
 			"~|The Darkness of Hallowvale|~ 7": {
 				"BaseQuest": "The Darkness of Hallowvale",
 				"Description": "Talk to Drezel, explore and return to him",
-				"Chunks": ["Paterdomus", "13622"],
+				"Chunks": ["Paterdomus", "13622-1"],
 				"Tasks": {
 					"~|The Darkness of Hallowvale|~ 6": "Quest"
 				},
@@ -82730,7 +82746,7 @@
 			"~|Desperate Times|~ 4a": {
 				"BaseQuest": "Desperate Times",
 				"Description": "Find the first key near the Empty Throne Room",
-				"Chunks": ["13365"],
+				"Chunks": ["13365-1"],
 				"Tasks": {
 					"~|Desperate Times|~ 3": "Quest"
 				},
@@ -82806,7 +82822,7 @@
 			"~|Devious Minds|~ 1": {
 				"BaseQuest": "Devious Minds",
 				"Description": "Speak to the monk outside Paterdomus",
-				"Chunks": ["13622"],
+				"Chunks": ["13622-1"],
 				"Tasks": {
 					"~|Recruitment Drive|~ Complete the quest": "Quest",
 					"~|What's Mine is Yours|~ Complete the quest": "Quest"
@@ -82822,7 +82838,7 @@
 			"~|Devious Minds|~ 2": {
 				"BaseQuest": "Devious Minds",
 				"Description": "Make a bow-sword at Doric's hut and bring it back to the monk",
-				"Chunks": ["13622", "11829-1"],
+				"Chunks": ["13622-1", "11829-1"],
 				"Items": ["Bowstring", "Mithril 2h sword"],
 				"Tasks": {
 					"~|Devious Minds|~ 1": "Quest"
@@ -82859,7 +82875,7 @@
 			"~|Devious Minds|~ 6": {
 				"BaseQuest": "Devious Minds",
 				"Description": "Return to the monk outside Paterdomus and search the dead monk",
-				"Chunks": ["13622"],
+				"Chunks": ["13622-1"],
 				"Tasks": {
 					"~|Devious Minds|~ 5": "Quest"
 				},
@@ -82999,7 +83015,7 @@
 			"~|The Dig Site|~ 4a": {
 				"BaseQuest": "The Dig Site",
 				"Description": "Talk to Katarina",
-				"Chunks": ["13365"],
+				"Chunks": ["13365-1"],
 				"Tasks": {
 					"~|The Dig Site|~ 3": "Quest"
 				},
@@ -83017,7 +83033,7 @@
 			"~|The Dig Site|~ 4b2": {
 				"BaseQuest": "The Dig Site",
 				"Description": "Talk to Eduardo",
-				"Chunks": ["13365"],
+				"Chunks": ["13365-1"],
 				"Tasks": {
 					"~|The Dig Site|~ 4b1": "Quest"
 				},
@@ -83036,7 +83052,7 @@
 			"~|The Dig Site|~ 4c2": {
 				"BaseQuest": "The Dig Site",
 				"Description": "Talk to Dorian",
-				"Chunks": ["13365"],
+				"Chunks": ["13365-1"],
 				"Tasks": {
 					"~|The Dig Site|~ 4c1": "Quest"
 				},
@@ -83056,7 +83072,7 @@
 			"~|The Dig Site|~ 6": {
 				"BaseQuest": "The Dig Site",
 				"Description": "Talk to the 3 students again",
-				"Chunks": ["13365"],
+				"Chunks": ["13365-1"],
 				"Tasks": {
 					"~|The Dig Site|~ 5": "Quest"
 				},
@@ -83074,7 +83090,7 @@
 			"~|The Dig Site|~ 8": {
 				"BaseQuest": "The Dig Site",
 				"Description": "Talk to the 3 students again",
-				"Chunks": ["13365"],
+				"Chunks": ["13365-1"],
 				"Items": ["Opal[+]"],
 				"Tasks": {
 					"~|The Dig Site|~ 7": "Quest"
@@ -83093,7 +83109,7 @@
 			"~|The Dig Site|~ 10": {
 				"BaseQuest": "The Dig Site",
 				"Description": "Dig in the NE dig site until you find an ancient talisman",
-				"Chunks": ["13365"],
+				"Chunks": ["13365-1"],
 				"Items": ["Trowel", "Specimen brush", "Specimen jar"],
 				"Tasks": {
 					"~|The Dig Site|~ 9": "Quest"
@@ -83112,7 +83128,7 @@
 			"~|The Dig Site|~ 12": {
 				"BaseQuest": "The Dig Site",
 				"Description": "Show the invitation to the winch operator near a winch, then use a rope on it",
-				"Chunks": ["13365"],
+				"Chunks": ["13365-1"],
 				"Items": ["Rope"],
 				"Tasks": {
 					"~|The Dig Site|~ 11": "Quest"
@@ -83134,7 +83150,7 @@
 			"~|The Dig Site|~ 14": {
 				"BaseQuest": "The Dig Site",
 				"Description": "Use rope on the winch near Katarina",
-				"Chunks": ["13365"],
+				"Chunks": ["13365-1"],
 				"Items": ["Rope"],
 				"Tasks": {
 					"~|The Dig Site|~ 13": "Quest"
@@ -83153,7 +83169,7 @@
 			"~|The Dig Site|~ 16": {
 				"BaseQuest": "The Dig Site",
 				"Description": "Climb down the western winch",
-				"Chunks": ["13365"],
+				"Chunks": ["13365-1"],
 				"Tasks": {
 					"~|The Dig Site|~ 15": "Quest"
 				},
@@ -85735,7 +85751,7 @@
 			"~|Extinction|~ 1": {
 				"BaseQuest": "Extinction",
 				"Description": "Speak to Moia at the entrance to Senntisten",
-				"Chunks": ["13365"],
+				"Chunks": ["13365-2"],
 				"Tasks": {
 					"~|Sins of the Father|~ Complete the quest": "Quest",
 					"~|Eye of Het II|~ Complete the quest": "Quest"
@@ -85754,7 +85770,7 @@
 			"~|Extinction|~ 3": {
 				"BaseQuest": "Extinction",
 				"Description": "Speak to one of your allies outside Senntisten",
-				"Chunks": ["13365"],
+				"Chunks": ["13365-2"],
 				"Tasks": {
 					"~|Extinction|~ 2": "Quest"
 				},
@@ -85809,7 +85825,7 @@
 			"~|Extinction|~ 9": {
 				"BaseQuest": "Extinction",
 				"Description": "Speak to Azzanadra outside Senntisten",
-				"Chunks": ["13365"],
+				"Chunks": ["13365-2"],
 				"Tasks": {
 					"~|Extinction|~ 8": "Quest"
 				},
@@ -85817,7 +85833,7 @@
 			},
 			"~|Extinction|~ Complete the quest": {
 				"BaseQuest": "Extinction",
-				"Chunks": ["13365"],
+				"Chunks": ["13365-2"],
 				"Tasks": {
 					"~|Extinction|~ 9": "Quest"
 				},
@@ -89084,7 +89100,7 @@
 			"~|The Golem|~ 4": {
 				"BaseQuest": "The Golem",
 				"Description": "Talk to Elissa",
-				"Chunks": ["13365"],
+				"Chunks": ["13365-1"],
 				"Tasks": {
 					"~|The Golem|~ 3": "Quest"
 				},
@@ -91154,7 +91170,7 @@
 			"~|In Aid of the Myreque|~ 10": {
 				"BaseQuest": "In Aid of the Myreque",
 				"Description": "Complete one of the treks with Ivan. Talk to Drezel and find Ivandis' grave location.",
-				"Chunks": ["13622", "Paterdomus"],
+				"Chunks": ["13622-2", "Paterdomus"],
 				"Tasks": {
 					"~|In Aid of the Myreque|~ 9": "Quest"
 				},
@@ -91192,7 +91208,7 @@
 			"~|In Aid of the Myreque|~ 14": {
 				"BaseQuest": "In Aid of the Myreque",
 				"Description": "Use the rope on the well and charge the rod",
-				"Chunks": ["13622"],
+				"Chunks": ["Paterdomus"],
 				"Items": ["Rope"],
 				"Tasks": {
 					"~|In Aid of the Myreque|~ 13": "Quest"
@@ -92427,7 +92443,7 @@
 			"~|Legacy of Seergaze|~ 1": {
 				"BaseQuest": "Legacy of Seergaze",
 				"Description": "Speak to the mercenary adventurer at Paterdomus",
-				"Chunks": ["13622"],
+				"Chunks": ["13622-2"],
 				"Tasks": {
 					"~|The Darkness of Hallowvale|~ Complete the quest": "Quest"
 				},
@@ -92464,7 +92480,7 @@
 			"~|Legacy of Seergaze|~ 4": {
 				"BaseQuest": "Legacy of Seergaze",
 				"Description": "Enter the Paterdomus and defeat the Zamorakians",
-				"Chunks": ["13622"],
+				"Chunks": ["13622-1"],
 				"Tasks": {
 					"~|Legacy of Seergaze|~ 3": "Quest"
 				},
@@ -92482,7 +92498,7 @@
 			"~|Legacy of Seergaze|~ 6": {
 				"BaseQuest": "Legacy of Seergaze",
 				"Description": "Take the adventurer to Burgh de Rott",
-				"Chunks": ["13622", "13874-2"],
+				"Chunks": ["13622-2", "13874-2"],
 				"Tasks": {
 					"~|Legacy of Seergaze|~ 5": "Quest"
 				},
@@ -93265,7 +93281,7 @@
 			"~|The Lost Toys (miniquest)|~ 2a": {
 				"BaseQuest": "The Lost Toys (miniquest)",
 				"Description": "Find Mr Bitey",
-				"Chunks": ["13622"],
+				"Chunks": ["13622-1"],
 				"Tasks": {
 					"~|The Lost Toys (miniquest)|~ 1": "Quest"
 				},
@@ -94666,7 +94682,7 @@
 			"~|Missing, Presumed Death|~ 2": {
 				"BaseQuest": "Missing, Presumed Death",
 				"Description": "Investigate the clues near Paterdomus and speak to Blaze Sharpeye",
-				"Chunks": ["13622"],
+				"Chunks": ["13622-1"],
 				"Tasks": {
 					"~|Missing, Presumed Death|~ 1": "Quest"
 				}
@@ -98312,7 +98328,7 @@
 			"~|Priest in Peril|~ 2": {
 				"BaseQuest": "Priest in Peril",
 				"Description": "Knock on the door to the Paterdomus",
-				"Chunks": ["13622"],
+				"Chunks": ["13622-1"],
 				"Tasks": {
 					"~|Priest in Peril|~ 1": "Quest"
 				}
@@ -98336,7 +98352,7 @@
 			"~|Priest in Peril|~ 5": {
 				"BaseQuest": "Priest in Peril",
 				"Description": "Free Drezel",
-				"Chunks": ["13622", "Paterdomus"],
+				"Chunks": ["13622-1", "Paterdomus"],
 				"Items": ["Bucket"],
 				"Tasks": {
 					"~|Priest in Peril|~ 4": "Quest"
@@ -98361,7 +98377,7 @@
 				},
 				"BaseQuest": "Priest in Peril",
 				"Reward": ["Wolfbane"],
-				"Chunks": ["13622"]
+				"Chunks": ["13622-1"]
 			},
 			"~|Princess and the Pauper|~ 1": {
 				"BaseQuest": "Princess and the Pauper",
@@ -100657,7 +100673,7 @@
 			"~|River of Blood|~ 3": {
 				"BaseQuest": "River of Blood",
 				"Description": "Defeat the Vyrewatch scouts near the Paterdomus beacon, then speak to Aeonisig, then defeat the zamorakians inside the Paterdomus church",
-				"Chunks": ["13622"],
+				"Chunks": ["13622-1"],
 				"Tasks": {
 					"~|River of Blood|~ 2": "Quest"
 				},
@@ -100666,7 +100682,7 @@
 			"~|River of Blood|~ 4": {
 				"BaseQuest": "River of Blood",
 				"Description": "Bring Captain Rovin armour and weapons for the Varrock guards",
-				"Chunks": ["13622"],
+				"Chunks": ["13622-1"],
 				"Items": ["Steel med helm", "Steel platebody", "Steel platelegs", "Blisterwood polearm", "Blisterwood sickle"],
 				"Tasks": {
 					"~|River of Blood|~ 3": "Quest"
@@ -100732,7 +100748,7 @@
 			"~|River of Blood|~ 11": {
 				"BaseQuest": "River of Blood",
 				"Description": "Report back to Aeonsig, then defeat the feral vampyres and the Wyrd",
-				"Chunks": ["13622"],
+				"Chunks": ["13622-1"],
 				"Tasks": {
 					"~|River of Blood|~ 10": "Quest"
 				},
@@ -100787,7 +100803,7 @@
 			"~|River of Blood|~ 17": {
 				"BaseQuest": "River of Blood",
 				"Description": "Speak to Vanescula twice",
-				"Chunks": ["13622"],
+				"Chunks": ["13622-1"],
 				"Tasks": {
 					"~|River of Blood|~ 16": "Quest"
 				},
@@ -103074,7 +103090,7 @@
 			"~|Succession|~ 2": {
 				"BaseQuest": "Succession",
 				"Description": "Investiage the Zamorakian Undercity",
-				"Chunks": ["13365"],
+				"Chunks": ["13365-2"],
 				"Tasks": {
 					"~|Succession|~ 1": "Quest"
 				},
@@ -104097,7 +104113,7 @@
 			"~|The Temple at Senntisten|~ 6": {
 				"BaseQuest": "The Temple at Senntisten",
 				"Description": "Retrieve the relic from the assassin",
-				"Chunks": ["13365"],
+				"Chunks": ["13365-1"],
 				"Tasks": {
 					"~|The Temple at Senntisten|~ 5": "Quest"
 				},
@@ -105510,7 +105526,7 @@
 			"~|Twilight of the Gods|~ 1": {
 				"BaseQuest": "Twilight of the Gods",
 				"Description": "Speak to the wounded knight outside Senntisten",
-				"Chunks": ["13365"],
+				"Chunks": ["13365-2"],
 				"Tasks": {
 					"~|Extinction|~ Complete the quest": "Quest",
 					"~|Broken Home|~ Complete the quest": "Quest",
@@ -109003,7 +109019,6 @@
 			"Archaeology Mystery: ~|Howl's Floating Workshop|~ 2": {
 				"BaseQuest": "Howl's Floating Workshop",
 				"Description": "Enter Howl's Workshop and study the drafting bench",
-				"Items": ["Stormguard gerege"],
 				"Chunks": ["Howl's Workshop"],
 				"Tasks": {
 					"Archaeology Mystery: ~|Howl's Floating Workshop|~ 1": "Quest"
@@ -114162,7 +114177,7 @@
 			},
 			"~|Morytania Achievements#Easy|~ Only Going Forward. We Can't Find Reverse": {
 				"Description": "Take an easy companion through an easy route of Temple Trekking.",
-				"Chunks": ["13874-2", "13622"],
+				"Chunks": ["13874-2", "13622-2"],
 				"Tasks": {
 					"~|In Aid of the Myreque|~ Complete the quest": "Quest"
 				},
@@ -114185,7 +114200,7 @@
 				"Category": ["Show Diary Tasks"]
 			},
 			"~|Morytania Achievements#Easy|~ Complete the Easy Achievements": {
-				"Chunks": ["13622"],
+				"Chunks": ["13622-2"],
 				"Tasks": {
 					"~|Morytania Achievements#Easy|~ Chisellin' Conchiolin": "Diary",
 					"~|Morytania Achievements#Easy|~ It's Only Wafer Thin": "Diary",
@@ -114284,7 +114299,7 @@
 			},
 			"~|Morytania Achievements#Medium|~ Ready? Trek!": {
 				"Description": "Take a medium companion through a medium route of Temple Trekking.",
-				"Chunks": ["13622", "13874-2"],
+				"Chunks": ["13622-2", "13874-2"],
 				"Tasks": {
 					"~|Morytania Achievements#Easy|~ Complete the Easy Achievements": "Diary",
 					"~|In Aid of the Myreque|~ Complete the quest": "Quest"
@@ -114294,7 +114309,7 @@
 			},
 			"~|Morytania Achievements#Medium|~ Don't Stop Me If I Start To Ramble": {
 				"Description": "Complete a Burgh de Rott Ramble.",
-				"Chunks": ["13622", "13874-2"],
+				"Chunks": ["13622-2", "13874-2"],
 				"Tasks": {
 					"~|Morytania Achievements#Easy|~ Complete the Easy Achievements": "Diary",
 					"~|The Darkness of Hallowvale|~ Complete the quest": "Quest"
@@ -114404,7 +114419,7 @@
 			},
 			"~|Morytania Achievements#Medium|~ Fun Guy But Bitter": {
 				"Description": "Havest bittercap mushrooms in the farming patch near Canifis.",
-				"Chunks": ["13622"],
+				"Chunks": ["13622-2"],
 				"Items": ["Bittercap mushroom spore"],
 				"Skills": {
 					"Farming": 53
@@ -114525,7 +114540,7 @@
 			},
 			"~|Morytania Achievements#Hard|~ Time Salver": {
 				"Description": "Use the shortcut to cross the River Salve without going through the temple.",
-				"Chunks": ["13622"],
+				"Chunks": ["13622-1", "13622-2"],
 				"Skills": {
 					"Agility": 65
 				},
@@ -114595,7 +114610,7 @@
 			},
 			"~|Morytania Achievements#Hard|~ Trekkin' Ain't Easy": {
 				"Description": "Take a hard companion through a hard route of Temple Trekking.",
-				"Chunks": ["13622", "13874-2"],
+				"Chunks": ["13622-2", "13874-2"],
 				"Tasks": {
 					"~|Morytania Achievements#Medium|~ Complete the Medium Achievements": "Diary",
 					"~|In Aid of the Myreque|~ Complete the quest": "Quest"
@@ -114682,7 +114697,7 @@
 			},
 			"~|Morytania Achievements#Elite|~ As Good As Renew": {
 				"Description": "Farm and mix the ingredients for a prayer renewal potion entirely in Morytania.",
-				"Chunks": ["14391", "13622"],
+				"Chunks": ["14391", "13622-2"],
 				"Items": ["Fellstalk seed", "Morchella mushroom spore", "Vial of water"],
 				"Skills": {
 					"Herblore": 94,
@@ -115325,7 +115340,7 @@
 			"~|Seers' Village Achievements#Hard|~ See Yew at Five": {
 				"Description": "Cut five sets of yew logs.",
 				"Objects": ["Yew"],
-				"Chunks": ["SeersVillageArea[+]"],
+				"Chunks": ["SeersVillageYews[+]"],
 				"Skills": {
 					"Woodcutting": 70
 				},
@@ -123656,7 +123671,7 @@
 				"Category": ["MQC achievements"],
 				"Description": "Fully level up all Temple Trekking companions.",
 				"BaseQuest": "Completionist achievements",
-				"Chunks": ["13622", "13874-2"],
+				"Chunks": ["13622-2", "13874-2"],
 				"Tasks": {
 					"~|The Darkness of Hallowvale|~ Complete the quest": "Quest"
 				},
@@ -125661,7 +125676,7 @@
 				"Description": "Unlock all researchers.",
 				"BaseQuest": "Completionist achievements",
 				"Items": ["Ceremonial unicorn ornament", "Zarosian training dummy", "Opulent wine goblet", "AnyTotem[+]", "Golem instruction", "Ourg megahitter"],
-				"Chunks": ["13365", "15683-1", "13110-1", "12591"],
+				"Chunks": ["13365-1", "15683-1", "13110-1", "12591"],
 				"Tasks": {
 					"Become an ~|archaeology guildmaster|~": "Archaeology",
 					"~|The Dig Site|~ Complete the quest": "Quest",
@@ -126220,7 +126235,7 @@
 				"Category": ["MQC achievements"],
 				"Description": "Discover all the trinkets and restore the old necklace after 'You Are It'.",
 				"BaseQuest": "Completionist achievements",
-				"Chunks": ["14388-1", "14135", "13622", "12339", "11317-1"],
+				"Chunks": ["14388-1", "14135", "13622-1", "12339", "11317-1"],
 				"Tasks": {
 					"~|You Are It|~ Complete the quest": "Quest"
 				},
@@ -128224,7 +128239,7 @@
 				"BaseQuest": "Completionist achievements",
 				"Chunks": [
 					"12849", "12337-1", "12338-1", "13366-1", "10804", "11824", "12082-1", "13107-1", "12340-1", "12595", "11826", "12854", "10548", "12084-1", "11574", "11061", "10291", "10292", "11061", "10807-1", "13364", "13111", "13106-1",
-					"13878-1", "13879", "13365", "12341-1", "11057", "9777-3", "9776", "10288-1", "10039", "9781", "10036-2", "11317-1", "13104-2",
+					"13878-1", "13879", "13365-1", "12341-1", "11057", "9777-3", "9776", "10288-1", "10039", "9781", "10036-2", "11317-1", "13104-2",
 					"12090", "12856", "10293", "10040", "11318-2", "11065-1", "13105", "11569-1", "11310-1",
 					"TzHaar City", "9524-1", "The Arc", "13623", "14646-1", "12586", "Invention Guild", "Dragontooth Island resource dungeon", "8757", "12086"
 				],
@@ -130005,7 +130020,7 @@
 			"~|hidey-hole|~: Varrock digstie north-eastern winch": {
 				"Category": ["Fill Stash"],
 				"Label": "Fill hidey-holes",
-				"Chunks": ["13365"],
+				"Chunks": ["13365-1"],
 				"Items": ["Snakeskin boots", "Blood'n'tar snelm", "Iron pickaxe"],
 				"Tasks": {
 					"Build a medium ~|hidey-hole|~": "Construction"
@@ -144822,17 +144837,26 @@
 			"Unlock the ~|'ancient gizmos' blueprint|~": {
 				"Category": ["Permanent Unlockables"],
 				"Label": "Permanent Unlockables",
-				"Items": ["'Ancient gizmos' blueprint"]
+				"Items": ["'Ancient gizmos' blueprint"],
+				"Requirements": {
+					"Invention": 85
+				}
 			},
 			"Unlock the ~|'ancient tools' blueprint|~": {
 				"Category": ["Permanent Unlockables"],
 				"Label": "Permanent Unlockables",
-				"Items": ["'Ancient tools' blueprint"]
+				"Items": ["'Ancient tools' blueprint"],
+				"Requirements": {
+					"Invention": 93
+				}
 			},
 			"Unlock the ~|'XP Capacitor' blueprint|~": {
 				"Category": ["Permanent Unlockables"],
 				"Label": "Permanent Unlockables",
-				"Items": ["'XP Capacitor' blueprint"]
+				"Items": ["'XP Capacitor' blueprint"],
+				"Requirements": {
+					"Invention": 106
+				}
 			},
 			"Unlock the ability to mix an ~|archaeology potion|~": {
 				"Category": ["Permanent Unlockables"],
@@ -153321,6 +153345,7 @@
 				"UnlocksArea": true
 			},
 			"Howl's Workshop": {
+				"Items": ["Stormguard gerege"],
 				"Tasks": {
 					"Archaeology Mystery: ~|Howl's Floating Workshop|~ 1": "Quest"
 				},
@@ -154162,6 +154187,11 @@
 				"ConnectsSections": true,
 				"Not F2P": true
 			},
+			"Paterdomus to 13622-2": {
+				"Sections": ["Paterdomus", "13622-2"],
+				"ConnectsSections": true,
+				"Not F2P": true
+			},
 			"8752-1 to 8752-4": {
 				"Sections": ["8752-1", "8752-4"],
 				"Tasks": {
@@ -154743,10 +154773,18 @@
 				"ConnectsSections": true,
 				"Not F2P": true
 			},
-			"13621 to 13622": {
-				"Sections": ["13621", "13622"],
+			"13621 to 13622-2": {
+				"Sections": ["13621", "13622-2"],
 				"Tasks": {
 					"~|Nature Spirit|~ 1": "Quest"
+				},
+				"ConnectsSections": true,
+				"Not F2P": true
+			},
+			"13622-1 to 13622-2": {
+				"Sections": ["13621-1", "13622-2"],
+				"Requirements": {
+					"Agility": 65
 				},
 				"ConnectsSections": true,
 				"Not F2P": true
@@ -155136,7 +155174,7 @@
 				"Output": "SacredOils"
 			},
 			"Gain access to Morytania": {
-				"Chunks": ["13622"]
+				"Chunks": ["13622-1"]
 			},
 			"Fill a bowl of water*": {
 				"Items": ["Bowl"],
@@ -157902,14 +157940,6 @@
 				"Chunks": ["10548"],
 				"Output": "Mushy mush"
 			},
-			"Obtain an old tooth*": {
-				"Items": ["Trowel"],
-				"Chunks": ["13365"],
-				"Tasks": {
-					"~|A Fairy Tale III - Battle at Ork's Rift|~ Complete the quest": "Quest"
-				},
-				"Output": "Old tooth"
-			},
 			"Obtain a human tooth*": {
 				"Chunks": ["12597-1"],
 				"Tasks": {
@@ -157998,7 +158028,7 @@
 					"11324", "Uzer Mastaba", "12854", "Chaos Temple Dungeon", "11575-1", "Sabbot's Cave", "11319-1", "11320-1", 
 					"13109-1", "13109-2", "13109-3", "12853-1", "11825-1", "Camdozaal", "12591", "13364", "12590-1", "12846-1", "13878-1", "Draynor Sewers", "11316", 
 					"14133-1", "12845-1", "11322-1", "11322-3", "11323", "13102-1", "Smoke Dungeon", "10037-1", "Shadow Dungeon", "Jaldraocht Pyramid", 
-					"13622", "11829-1", "11828", "13105", "13104-2", "12848", "Kalphite Nursery", "13365", "Senntisten Temple", "12596-1", "12596-3", 
+					"13622-1", "13622-2", "11829-1", "11828", "13105", "13104-2", "12848", "Kalphite Nursery", "13365-1", "Senntisten Temple", "12596-1", "12596-3", 
 					"12086", "12850-1", "Dwarven Mine", "11570", "Melzar's Maze", "12081-1", "12082-1", "12338-1", "11314-1", "11314-2", "11315", 
 					"Elvarg's Lair", "Lunar Isle Mine", "8253-1", "8253-2", "8508", "12589", "Enakhra's Temple", "Brimstail's cave", "10544", 
 					"9782-1", "9527-3", "9781", "FairyTaleI2[+]x5", "Zanaris", "11572-1", "11827", "12340-1", "Nature grotto", "10802-1", "8752-4", "8752-2", "8752-3",
@@ -159117,7 +159147,7 @@
 				"Not F2P": true
 			},
 			"11 degrees 03 minutes north, 31 degrees 20 minutes east": {
-				"Chunks": ["13622"],
+				"Chunks": ["13622-2"],
 				"ClueTier": "medium",
 				"ClueType": "Coordinates",
 				"Not F2P": true
@@ -159668,7 +159698,7 @@
 				"Not F2P": true
 			},
 			"You'll need to have Doug deep into the distant past to get to these sacks.": {
-				"Chunks": ["13365"],
+				"Chunks": ["13365-1"],
 				"Tasks": {
 					"~|The Dig Site|~ 12": "Quest"
 				},
@@ -160197,7 +160227,7 @@
 				"Not F2P": true
 			},
 			"Beckon at Varrock Dig Site, near the eastern winch (Blood'n'tar snelm (pointed), Snakeskin boots, Iron pickaxe)": {
-				"Chunks": ["13365"],
+				"Chunks": ["13365-1"],
 				"Items": ["Blood'n'tar snelm (pointed)", "Snakeskin boots", "Iron pickaxe"],
 				"Skills": {
 					"Defence": 30,
@@ -161132,7 +161162,7 @@
 				"Not F2P": true
 			},
 			"Speak to Ulizius.": {
-				"Chunks": ["13622"],
+				"Chunks": ["13622-2"],
 				"ClueTier": "medium",
 				"ClueType": "Simple",
 				"Not F2P": true
@@ -167121,7 +167151,7 @@
 				"Not F2P": true
 			},
 			"North of the Varrock Dig Site. South-east of Fort Forinthry, between two beacons.": {
-				"Chunks": ["13366-1"],
+				"Chunks": ["13366-3"],
 				"ClueTier": "elite",
 				"ClueType": "Compass",
 				"Not F2P": true
@@ -167133,7 +167163,7 @@
 				"Not F2P": true
 			},
 			"Behind Paterdomus at the bottom of the stairs.": {
-				"Chunks": ["13622"],
+				"Chunks": ["13622-1"],
 				"ClueTier": "elite",
 				"ClueType": "Compass",
 				"Not F2P": true
@@ -167187,13 +167217,13 @@
 				"Not F2P": true
 			},
 			"In Archaeology Campus, six paces north and one west of the bank chest.": {
-				"Chunks": ["13365"],
+				"Chunks": ["13365-1"],
 				"ClueTier": "elite",
 				"ClueType": "Compass",
 				"Not F2P": true
 			},
 			"East of the Varrock Dig Site and west of the River Salve.": {
-				"Chunks": ["13365"],
+				"Chunks": ["13365-1"],
 				"ClueTier": "elite",
 				"ClueType": "Compass",
 				"Not F2P": true
@@ -167433,7 +167463,7 @@
 				"Not F2P": true
 			},
 			"North of mushroom patch, west of Canifis.": {
-				"Chunks": ["13622"],
+				"Chunks": ["13622-2"],
 				"ClueTier": "elite",
 				"ClueType": "Compass",
 				"Not F2P": true
@@ -194998,57 +195028,70 @@
 			"Nickname": "Exam centre"
 		},
 		"13365": {
-			"Object": {
-				"Oak": 2,
-				"Tree": 8,
-				"Training grid": 1,
-				"Level 1 grid": 3,
-				"Level 2 grid": 3,
-				"Level 3 grid": 1,
-				"Archaeologist's workbench": 1,
-				"Museum donation bin": 1,
-				"Material cache (Third Age iron)": 3,
-				"Bank chest": 1,
-				"Lift": 1,
-				"Centurion remains": 1
+			"Sections": {
+				"1": {
+					"Object": {
+						"Oak": 2,
+						"Tree": 8,
+						"Training grid": 1,
+						"Level 1 grid": 3,
+						"Level 2 grid": 3,
+						"Level 3 grid": 1,
+						"Archaeologist's workbench": 1,
+						"Museum donation bin": 1,
+						"Material cache (Third Age iron)": 3,
+						"Bank chest": 1,
+						"Lift": 1,
+						"Centurion remains": 1
+					},
+					"NPC": {
+						"Dig Site workman": 3,
+						"Eduardo (student)": 1,
+						"Dorian (student)": 1,
+						"Katarina (student)": 1,
+						"Elissa": 1,
+						"Dig Site winch operator": 2,
+						"Assassin": 1,
+						"Celia Diggory": 1,
+						"Archaeologist (excavation sites)": 3,
+						"Examiner": 1,
+						"Trainee": 1,
+						"Museum guard": 1,
+						"Archaeologist#Archaeology Campus": 3
+					},
+					"Connect": {
+						"11461": true,
+						"12633": true
+					},
+					"Quest": {
+						"Battle of the Monolith": "first",
+						"Children of Mah": "step",
+						"Desperate Times": "step",
+						"The Dig Site": "step",
+						"Extinction": "first",
+						"The Golem": "step",
+						"Succession": "step",
+						"The Temple at Senntisten": "step",
+						"Twilight of the Gods": "first"
+					},
+					"Clue": {
+						"medium": 2,
+						"elite": 2,
+						"master": 1
+					}
+				},
+				"2": {
+					"Connect": {
+						"6941": true
+					},
+					"Quest": {
+						"Extinction": "first",
+						"Succession": "step",
+						"Twilight of the Gods": "first"
+					}
+				}
 			},
-			"NPC": {
-				"Dig Site workman": 3,
-				"Eduardo (student)": 1,
-				"Dorian (student)": 1,
-				"Katarina (student)": 1,
-				"Elissa": 1,
-				"Dig Site winch operator": 2,
-				"Assassin": 1,
-				"Celia Diggory": 1,
-				"Archaeologist (excavation sites)": 3,
-				"Examiner": 1,
-				"Trainee": 1,
-				"Museum guard": 1,
-				"Archaeologist#Archaeology Campus": 3
-			},
-			"Connect": {
-				"6941": true,
-				"11461": true,
-				"12633": true
-			},
-			"Quest": {
-				"Battle of the Monolith": "first",
-				"Children of Mah": "step",
-				"Desperate Times": "step",
-				"The Dig Site": "step",
-				"Extinction": "first",
-				"The Golem": "step",
-				"Succession": "step",
-				"The Temple at Senntisten": "step",
-				"Twilight of the Gods": "first"
-			},
-			"Clue": {
-				"medium": 2,
-				"elite": 2,
-				"master": 1
-			},
-			"Nickname": "Digsite"
+			"Nickname": "Varrock Dig Site"
 		},
 		"13366": {
 			"Sections": {
@@ -195091,13 +195134,18 @@
 						"easy": 1,
 						"medium": 1,
 						"hard": 1,
-						"elite": 2
+						"elite": 1
 					},
 					"Connect": {
 						"15176": true
 					}
 				},
-				"2": {}
+				"2": {},
+				"3": {
+					"Clue": {
+						"elite": 1
+					}
+				}
 			},
 			"Nickname": "Silvarea Pass"
 		},
@@ -195634,7 +195682,8 @@
 					"Connect": {
 						"13717": true
 					}
-				}
+				},
+				"3": {}
 			},
 			"Nickname": "Abbey of St. Elspeth Citharede"
 		},
@@ -195783,61 +195832,77 @@
 			"Nickname": "Mort Myre Swamp"
 		},
 		"13622": {
-			"Object": {
-				"Small obelisk": 1,
-				"Mausoleum": 1,
-				"Morytania coffin": 1,
-				"Church organ": 1,
-				"Chest": 1,
-				"Dead tree": 12,
-				"Danger sign": 1,
-				"Tree": 1,
-				"Altar": 1,
-				"Broken Saradomin statue": 1,
-				"Rope": 2,
-				"Mushroom patch": 1
-			},
-			"Monster": {
-				"Monk of Zamorak": 10
-			},
-			"NPC": {
-				"Drezel": 2,
-				"Mercenary Adventurer": 1,
-				"Ulizius": 1,
-				"Hiylik Myna": 1,
-				"Monk": 1,
-				"Dead Monk": 1,
-				"Tool leprechaun": 1,
-				"Blaze Sharpeye": 1,
-				"Rolayne Twickit": 1,
-				"Aeonisig Raispher": 1,
-				"Captain Rovin": 1,
-				"Guard": 2,
-				"Vanescula Drakan": 1,
-				"Ivan Strom": 1,
-				"Efaritay": 1
-			},
-			"Connect": {
-				"6473": true,
-				"9541": true,
-				"13722": true,
-				"30": true
-			},
-			"Quest": {
-				"All Fired Up": "step",
-				"Benedict's World Tour (miniquest)": "step",
-				"The Darkness of Hallowvale": "step",
-				"Devious Minds": "first",
-				"In Aid of the Myreque": "step",
-				"Legacy of Seergaze": "first",
-				"The Lost Toys (miniquest)": "step",
-				"Missing, Presumed Death": "step",
-				"Priest in Peril": "step",
-				"River of Blood": "step"
-			},
-			"Clue": {
-				"medium": 2,
-				"elite": 2
+			"Sections": {
+				"1": {
+					"Object": {
+						"Mausoleum": 1,
+						"Morytania coffin": 1,
+						"Church organ": 1,
+						"Chest": 1,
+						"Tree": 1,
+						"Altar": 1,
+						"Broken Saradomin statue": 1,
+						"Rope": 2
+					},
+					"Monster": {
+						"Monk of Zamorak": 10
+					},
+					"NPC": {
+						"Drezel": 1,
+						"Monk": 1,
+						"Dead Monk": 1,
+						"Blaze Sharpeye": 1
+					},
+					"Connect": {
+						"13722": true
+					},
+					"Quest": {
+						"All Fired Up": "step",
+						"Benedict's World Tour (miniquest)": "step",
+						"The Darkness of Hallowvale": "step",
+						"Devious Minds": "first",
+						"Legacy of Seergaze": "step",
+						"The Lost Toys (miniquest)": "step",
+						"Missing, Presumed Death": "step",
+						"Priest in Peril": "step",
+						"River of Blood": "step"
+					},
+					"Clue": {
+						"elite": 1
+					}
+				},
+				"2": {
+					"Object": {
+						"Small obelisk": 1,
+						"Dead tree": 12,
+						"Danger sign": 1,
+						"Broken Saradomin statue": 1,
+						"Mushroom patch": 1
+					},
+					"NPC": {
+						"Drezel": 1,
+						"Mercenary Adventurer": 1,
+						"Ulizius": 1,
+						"Hiylik Myna": 1,
+						"Tool leprechaun": 1,
+						"Rolayne Twickit": 1
+					},
+					"Connect": {
+						"6473": true,
+						"9541": true,
+						"13722": true,
+						"30": true
+					},
+					"Quest": {
+						"In Aid of the Myreque": "step",
+						"Legacy of Seergaze": "first",
+						"River of Blood": "step"
+					},
+					"Clue": {
+						"medium": 2,
+						"elite": 1
+					}
+				}
 			},
 			"Nickname": "Paterdomus"
 		},
@@ -223651,7 +223716,7 @@
 			"EnterTheAbyss3[+]": ["12853-1", "12337-1", "10547-1", "Brimstail's cave", "10288-1"],
 			"ErskineSlayerChunks[+]": ["Forinthry Dungeon", "12601", "13116", "12345", "12093", "12347-1", "12347-2", "12349", "12605", "13371", "12858", "13368-1", "13369-1", "Edgeville Dungeon", "13115", "12857", "12090", "11835", "12091-1", "12091-2", "11836"],
 			"Everlight[+]": ["14899-2", "14898", "15154", "14897", "15153", "14641-1"],
-			"FairyTaleI2[+]": ["11574", "13105", "13362-3", "9265-1", "8755", "8757", "9012-1", "9781", "11062-1", "11317-1", "12596-1", "12854", "12594", "12083-1", "12082-1", "11060-1", "11058", "9777-2", "15942-3", "11828", "10547-1", "10548", "10290", "11056", "14391", "13622", "10300", "10551-1", "10288-1", "11570", "12851-1", "11821-1", "12587-2"],
+			"FairyTaleI2[+]": ["11574", "13105", "13362-3", "9265-1", "8755", "8757", "9012-1", "9781", "11062-1", "11317-1", "12596-1", "12854", "12594", "12083-1", "12082-1", "11060-1", "11058", "9777-2", "15942-3", "11828", "10547-1", "10548", "10290", "11056", "14391", "13622-2", "10300", "10551-1", "10288-1", "11570", "12851-1", "11821-1", "12587-2"],
 			"FaladorChunks[+]": ["11828", "12084-1", "12084-2"],
 			"FaladorGuardChunks[+]": ["11827", "11828", "12084-1"],
 			"FarmRaids[+]": ["12339", "12851-1", "12083-1", "11573"],
@@ -223669,7 +223734,7 @@
 			"MasterHideyHoles[+]": ["TzHaar City", "9524-1", "The Arc", "13623", "14646-1", "Grand Library of Menaphos", "Invention Guild", "9053", "12594", "12086", "8757"],
 			"TheMeasureChunks[+]": ["15939-1", "Freneskae#The Elder Halls"],			
 			"MagesGnomeRestaurant[+]": ["12337-1", "10288-1"],
-			"MediumHideyHoles[+]": ["13878-1", "13879", "12341-1", "11056", "9776", "10039", "9781", "10288-1", "9777-3", "10036-1", "13365", "13104-2"],
+			"MediumHideyHoles[+]": ["13878-1", "13879", "12341-1", "11056", "9776", "10039", "9781", "10288-1", "9777-3", "10036-1", "13365-1", "13104-2"],
 			"MineRaids[+]": ["Burthorpe Mine", "11826", "12849", "12596-1"],
 			"Misthalin safes[+]": ["12337-1", "12338-1", "12340-1", "12342-1", "12850-1", "12854"],
 			"MonkRobeChunk[+]": ["11316", "12086"],
@@ -223680,7 +223745,7 @@
 			"Orthen[+]": ["15428-1", "16454-1", "16193-1", "16704-1"],
 			"Pet shop[+]": ["10288-1", "11573"],
 			"PoisonWasteChunks[+]": ["8752-1", "8752-4", "9008-1"],
-			"PrayerAltarChunks[+]": ["11828", "10290", "10806-1", "12854", "Underground Pass", "10035-1", "10291", "12850-1", "Sunken Tutorial Island", "11825-1", "11574", "11575-1", "13617-1", "12086", "11316", "Goblin Temple", "8757", "8755", "9265-1", "Jaldraocht Pyramid", "12331-1", "13622", "13098-1", "10803", "Nature Grotto", "War's Retreat", "Senntisten Temple", "God Wars Dungeon", "Kharid-et - Barracks excavation site", "14388-1", "12087-3", "11830-1", "12852", "12856", "11835", "Yanille Agility Dungeon", "9778-1", "9012-1", "11056", "11051-1", "Uzer Mastaba", "8508", "13613", "11829-1", "7995"],
+			"PrayerAltarChunks[+]": ["11828", "10290", "10806-1", "12854", "Underground Pass", "10035-1", "10291", "12850-1", "Sunken Tutorial Island", "11825-1", "11574", "11575-1", "13617-1", "12086", "11316", "Goblin Temple", "8757", "8755", "9265-1", "Jaldraocht Pyramid", "12331-1", "13622-1", "13098-1", "10803", "Nature Grotto", "War's Retreat", "Senntisten Temple", "God Wars Dungeon", "Kharid-et - Barracks excavation site", "14388-1", "12087-3", "11830-1", "12852", "12856", "11835", "Yanille Agility Dungeon", "9778-1", "9012-1", "11056", "11051-1", "Uzer Mastaba", "8508", "13613", "11829-1", "7995"],
 			"Priffdinas[+]": ["8501-1", "8501-2", "8500", "8499-1", "8499-2", "8757", "8756-1", "8756-2", "8756-3", "8756-4", "8756-5", "8756-6", "8756-7", "8755", "9013", "9012-1", "9012-2", "9011-1", "9011-2", "9011-5"],
 			"PVP[+]": ["8493", "9005", "9520", "11831-1", "11832-1", "11833-1", "11834", "11837", "12087-1", "12088", "12089", "12090", "12091-1", "12091-2", "12092-1", "12092-2", "12092-3", "12092-4", "12092-5", "12092-6", "12343-1", "12344", "12347-1", "12347-2", "12348-1", "12348-2", "12599", "12600", "12603-1", "12603-2", "12604-1", "12604-2", "12604-3", "12605", "12855", "12856", "12859-1", "12859-2", "13111", "13114", "13367-3", "13368-1", "13372-1", "13372-2", "Forinthry Dungeon", "Gamers' Grotto", "TzHaar City"],
 			"RitualSite[+]": ["City of Um", "Ungael ritual site"],
@@ -223688,8 +223753,8 @@
 			"RuneTemple[+]": ["Air Rune Temple", "Mind Rune Temple", "Water Rune Temple", "Earth Rune Temple", "Fire Rune Temple", "Body Rune Temple", "Cosmic Rune Temple", "Chaos Rune Temple", "8508", "Nature Rune Temple", "Law Rune Temple", "Death Rune Temple", "Blood Rune Temple", "Soul Rune Temple", "Time Rune Temple"],
 			"SeaweedChunks[+]": ["11313", "11056", "11055-1", "11054", "11822-1", "11310-1", "11823", "11568-2", "11568-1"],
 			"SeerChunk[+]": ["10806-1", "11062-1", "11061", "11317-1"],
-			"SeersVillageArea[+]": ["10806-1", "11061", "11062-1", "10805", "10549", "10550", "10551-1", "10807-1"],
-			"SenntistenChunks[+]": ["13364", "13365"],
+			"SeersVillageYews[+]": ["10806-1", "11061"],
+			"SenntistenChunks[+]": ["13364", "13365-1"],
 			"SlayerMasterChunks[+]": ["8755", "Ancient Cavern", "11310-1", "12342-1", "11575-1", "13111", "13878-1", "Zanaris", "12093", "12850-1", "16704-1"],
 			"SolusLocation[+]": ["11569-1", "10032-1", "10547-1", "12596-1", "Dorgesh-Kaan mine", "9782-1", "13623", "11057", "13106-1", "10553", "Lumbridge Swamp Caves", "11830-1", "10550", "9776", "12338-1", "9778-1", "12337-1"],
 			"SoulObelisks[+]": ["12843-1", "12586", "12587-1", "12585"],
@@ -223788,7 +223853,7 @@
 			"SeaweedChunks[+]": "Any chunk on Karamja with seaweed",
 			"SenntistenChunks[+]": "Any chunk that the Dig Site pendant can teleport to",
 			"SeerChunk[+]": "Any chunk in which you can complete twisted firestarter",
-			"SeersVillageArea[+]": "Any chunk in the Seers Village area with a yew tree in",
+			"SeersVillageYew[+]": "Any chunk in the Seers Village area with a yew tree in",
 			"SlayerMasterChunks[+]": "Any chunk with a slayer master in it",
 			"SoulObelisks[+]": "Any chunks in which a soul obelisk spawns",
 			"SolusLocation[+]": "Any location Solus Dellagar might show up",
@@ -285355,7 +285420,7 @@
 			{ "color": "#ffff00", "text": "Compass clue, in potato field north of cow pen.", "type": "Elite", "x":3265, "y":3300 },
 			{ "color": "#ffff00", "text": "Compass clue, south-east of Beefy Bill's Supplies.", "type": "Elite", "x":3188, "y":3317 },
 			{ "color": "#ffff00", "text": "Compass clue, north of Farmer Fred's farm.", "type": "Elite", "x":3210, "y":3305 },
-			{ "color": "#ffff00", "text": "Compass clue, east of Fort Forinthry.", "type": "Elite", "x":3329, "y":3518 },
+			{ "color": "#ffff00", "text": "Compass clue, south-east of Fort Forinthry.", "type": "Elite", "x":3329, "y":3518 },
 			{ "color": "#ffff00", "text": "Compass clue, north of Broken Home.", "type": "Elite", "x":3373, "y":3483 },
 			{ "color": "#ffff00", "text": "Compass clue, behind Paterdomus temple.", "type": "Elite", "x":3420, "y":3479 },
 			{ "color": "#ffff00", "text": "Compass clue, north-west corner of Grand Exchange.", "type": "Elite", "x":3145, "y":3510 },
@@ -285447,7 +285512,7 @@
 			{ "color": "#ffff00", "text": "Compass clue, south of Wilderness Drakolith mine.", "type": "Elite", "x":3179, "y":3612 },
 			{ "color": "#ffff00", "text": "Compass clue, south of Wilderness Crater lodestone.", "type": "Elite", "x":3146, "y":3642 },
 			{ "color": "#ffff00", "text": "Compass clue, south of crater.", "type": "Elite", "x":3142, "y":3656 },
-			{ "color": "#ffff00", "text": "Compass clue, north-west of Lumber Yard.", "type": "Elite", "x":3289, "y":3528 },
+			{ "color": "#ffff00", "text": "Compass clue, west of the Fort Forinthry lodestone.", "type": "Elite", "x":3289, "y":3528 },
 			{ "color": "#ffff00", "text": "Compass clue, north-west of Fort Forinthry.", "type": "Elite", "x":3255,"y":3576 },
 			{ "color": "#ffff00", "text": "Compass clue, south-east of Chaos Temple.", "type": "Elite", "x":3247, "y":3597 },
 			{ "color": "#ffff00", "text": "Compass clue, south of south-eastern entrance.", "type": "Elite", "x":3187, "y":3661 },
@@ -285455,7 +285520,7 @@
 			{ "color": "#ffff00", "text": "Compass clue, north-east of Chaos Temple.", "type": "Elite", "x":3254, "y":3624 },
 			{ "color": "#ffff00", "text": "Compass clue, east of Chaos Temple.", "type": "Elite", "x":3278, "y":3615 },
 			{ "color": "#ffff00", "text": "Compass clue, south of Graveyard of Shadows.", "type": "Elite", "x":3220, "y":3667 },
-			{ "color": "#ffff00", "text": "Compass clue, north-east of Lumber Yard.", "type": "Elite", "x":3339, "y":3572 },
+			{ "color": "#ffff00", "text": "Compass clue, east of Fort Forinthry.", "type": "Elite", "x":3339, "y":3572 },
 			{ "color": "#ffff00", "text": "Compass clue, Wilderness crypt.", "type": "Elite", "x":3304, "y":3605 },
 			{ "color": "#ffff00", "text": "Compass clue, north-west of Graveyard of Shadows.", "type": "Elite", "x":3210, "y":3695 },
 			{ "color": "#ffff00", "text": "Compass clue, west of entrance to Daemonheim.", "type": "Elite", "x":3342, "y":3591 },
@@ -331311,7 +331376,8 @@
 			"1": [
 				"13110-1",
 				"13110-2",
-				"13365",
+				"13365-1",
+				"13365-2",
 				"13108-1",
 				"12853-1"
 			],
@@ -331328,6 +331394,7 @@
 				"13111",
 				"13366-1",
 				"13366-2",
+				"13366-3",
 				"13109-1",
 				"12854"
 			],
@@ -331542,7 +331609,7 @@
 		},
 		"13364": {
 			"0": [
-				"13365",
+				"13365-1",
 				"13363",
 				"13108-1",
 				"13108-3",
@@ -331550,19 +331617,25 @@
 			]
 		},
 		"13365": {
-			"0": [
-				"13366-2",
+			"1": [
 				"13364",
+				"13109-1"
+			],
+			"2": [
+				"13366-2",
 				"13109-1"
 			]
 		},
 		"13366": {
 			"1": [
-				"13622",
+				"13622-1",
 				"13110-1"
 			],
 			"2": [
-				"13365",
+				"13365-2",
+				"13110-1"
+			],
+			"3": [
 				"13110-1"
 			]
 		},
@@ -331726,6 +331799,9 @@
 				"13873-2",
 				"13616",
 				"13361-3"
+			],
+			"3": [
+				"13618-2"
 			]
 		},
 		"13618": {
@@ -331736,7 +331812,8 @@
 			"2": [
 				"13619-3",
 				"13362-1",
-				"13362-4"
+				"13362-4",
+				"13617-3"
 			]
 		},
 		"13619": {
@@ -331780,16 +331857,18 @@
 			]
 		},
 		"13622": {
-			"0": [
-				"13623",
-				"13878-1",
+			"1": [
 				"13366-1"
+			],
+			"2": [
+				"13623",
+				"13878-1"
 			]
 		},
 		"13623": {
 			"0": [
 				"13879",
-				"13622"
+				"13622-2"
 			]
 		},
 		"13624": {
@@ -331956,7 +332035,7 @@
 				"13879",
 				"14134",
 				"13877-1",
-				"13622"
+				"13622-2"
 			],
 			"2": [
 				"13877-2"

@@ -560,7 +560,6 @@
   "Excavate ~|Keshik tower debris|~": "t_525",
   "Restore a ~|dayguard shield|~": "t_526",
   "Restore a ~|Stormguard gerege|~": "t_527",
-  "Unlock ~|Ancient Invention|~": "t_528",
   "Complete the ~|Night and Day|~ research": "t_529",
   "Complete the ~|Back to the Drawing Board|~ research": "t_530",
   "Excavate ~|dragonkin relinquary|~": "t_531",
@@ -5069,6 +5068,7 @@
   "Create an ~|ancient weapon gizmo shell|~": "t_4966",
   "Create an ~|ancient armour gizmo shell|~": "t_4967",
   "Create an ~|ancient tool gizmo shell|~": "t_4968",
+  "Study the ~|'ancient gizmos' blueprint|~": "t_117546",
   "Create a ~|greater Death's Swiftness ability codex|~": "t_4969",
   "Create a ~|greater Sunshine ability codex|~": "t_4970",
   "Create a ~|Dark Facet of Grace|~": "t_4971",
@@ -5092,6 +5092,7 @@
   "Create an ~|enhanced pyro-matic|~": "t_4989",
   "Create an ~|enhanced fishing rod-o-matic|~": "t_4990",
   "Create an ~|enhanced hammer-tron|~": "t_4991",
+  "Study the ~|'ancient tools' blueprint|~": "t_117547",
   "Create a ~|partable fairy ring|~": "t_4992",
   "Discover ~|vintage components|~": "t_4993",
   "Create a ~|medium gizmo bag|~": "t_4994",
@@ -5110,6 +5111,7 @@
   "Discover ~|timeworm components|~": "t_5007",
   "Create a ~|liquid patch bomb|~": "t_5008",
   "Create a ~|XP Capacitor 5000|~": "t_5009",
+  "Study the ~|'XP Capacitor' blueprint|~": "t_117548",
   "Build an ~|alchemiser mk. II|~": "t_5010",
   "Create a ~|flatpack depacker|~": "t_5011",
   "Create a ~|teleportation compactor|~": "t_5012",
@@ -91315,5 +91317,5 @@
   "Pizazz points: ~|Death rune|~": "t_52854",
   "Pizazz points: ~|Soul rune|~": "t_52856",
   "Pizazz points: ~|Blood rune|~": "t_52857",
-  "currentNextIndex": 117546
+  "currentNextIndex": 117549
 }
