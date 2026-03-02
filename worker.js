@@ -205,17 +205,17 @@ let didRestart = false;
 let bisUpgrades = {};
 let globalValidsBoosts = {};
 let bringAlongTasks = {};
-let unconnectedAreas = ['Zanaris', 'Puro-Puro', 'Player-owned house', 'Player-Owned Port', 'Vinesweeper', 'Guthixian Cache', "Balthazar Beauregard's Big Top Bonanza", 'Sinkhole', 'Chinchompa cave', 'Rune Essence mine'];
+let unconnectedAreas = ['Zanaris', 'Puro-Puro', 'Player-owned house', 'Player-Owned Port', 'Vinesweeper', 'Guthixian Cache', "Balthazar Beauregard's Big Top Bonanza", 'Sinkhole', 'Chinchompa cave', 'Rune Essence mine', 'Paterdomus'];
 let highestSkillLevels = {
     "Slayer": 120,
     "Thieving": 120,
-    "Attack": 99,
+    "Attack": 120,
     "Defence": 99,
-    "Strength": 99,
+    "Strength": 120,
     "Constitution": 99,
-    "Ranged": 99,
+    "Ranged": 120,
     "Prayer": 99,
-    "Magic": 99,
+    "Magic": 120,
     "Farming": 120,
     "Herblore": 120,
     "Hunter": 99,

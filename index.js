@@ -448,7 +448,6 @@ let rules = {
     "F2P": false,
 	"Hard Mode Bosses": false,
 	"Group Content": false,
-	"Full Healing": false,
 	"PVP": false,
 	"Hero Items": false,
 	"Brawling Gloves": false,
@@ -504,7 +503,7 @@ let ruleNames = {
     "Show Quest Tasks Complete": "Show Quest Tasks only when the whole quest is completable",
     "Show Diary Tasks Complete": "Show Area Tasks achievements only when the whole area tasks tier (easy, medium, etc.) is completable",
     "Show Diary Tasks Any": "Show all Area Tasks achievements possible, regardless of tier<span class='rule-asterisk noscroll'>*</span>",
-    "Highest Level": "Require processing skill tasks to be the highest level of processing, rather than the lowest (e.g. must craft black dragonhide leather fully into a dragonhide shield rather than just into vambraces)<span class='rule-asterisk noscroll'>*</span>",
+    "Highest Level": "Require processing skill tasks to be the highest level of processing, rather than the lowest (e.g. must fletch yew logs into an unstrung shieldbow rather than arrow shafts)<span class='rule-asterisk noscroll'>*</span>",
     "BIS Skilling": "Must obtain items that are best-in-slot/add quality-of-life for skilling (e.g. Pickaxe of Life and Death, Elite skilling outfits, Seed bag, etc.)",
     "BIS Skilling Consumables": "Must also obtain best-in-slot/quality-of-life consumable items for skilling (scrimshaws, familiars, etc.)",
     "BIS Skilling Relics": "Must also obtain best-in-slot/quality-of-life Archaeology relics for skilling",
@@ -530,7 +529,7 @@ let ruleNames = {
     "Extra implings": "Include implings that have non-guaranteed spawns as chunk tasks",
     "Wandering implings": "Allow implings that randomly wander the world & their drops to count towards chunk tasks <span class='rule-asterisk noscroll'>†</span>",
 	"Farming Primary": "Farming products (herbs, vegetables, etc.) can count as primary item sources for chunk tasks<span class='rule-asterisk noscroll'>*</span>",
-    "Secondary Primary": "Allow secondary training methods with drops/methods more common than 1/X (not inclusive, set to 0 to include all drops) to count as primary training methods (e.g. allow a 1/50 drop for pure essence be your required way to train Runecrafting)<span class='rule-asterisk noscroll'>*</span>",
+    "Secondary Primary": "Allow secondary training methods with drops/methods more common than 1/X (not inclusive, set to 0 to include all drops) to count as primary training methods (e.g. allow a 1/50 drop for a bronze bar to be your required way to train Smithing)<span class='rule-asterisk noscroll'>*</span>",
     "RDT": "Allow items from the Rare Drop Table, the Gem Drop Table and the Wilderness Drop Table to count towards chunk tasks",
     "Crystal chests": "Allow items from crystal chests, triskelion treasures or columbarium keys to count towards chunk tasks",
     "Untracked Uniques": "Must obtain extra unique items that are untracked on the collection logs (does nothing by itself)",
@@ -585,7 +584,6 @@ let ruleNames = {
     "F2P": "Restrict to F2P skills/items/tasks only (Partially implemented)",
 	"Hard Mode Bosses": "Include Hard mode variants of bosses<span class='rule-asterisk noscroll'>*</span>",
 	"Group Content": "Require content that is intended to be completed in a group",
-	"Full Healing": "Require Constitution levels to fully heal from different foods",
 	"Unlock Abilities": "Must unlock all reward-locked abilities, including Necromancy incantations",
 	"Sigil Abilities": "Also include Sigil abilities (Aggression, Golden Touch, etc.)<span class='rule-asterisk noscroll'>*</span>",
 	"Unlock Prayers": "Must unlock all reward-locked prayers",
@@ -629,7 +627,6 @@ let rulePresets = {
         "Secondary Primary Amount": "1",
 		"Ogleroot": true,
 		"Achievement": true,
-		"Full Healing": true,
 		"Cleaning Herbs": true,
 		"Unlock Abilities": true,
         "Unlock Prayers": true,
@@ -709,7 +706,6 @@ let rulePresets = {
 		"Achievement": true,
 		"Multiple Agility": true,
 		"Hard Mode Bosses": true,
-		"Full Healing": true,
 		"Unlock Abilities": true,
 		"Sigil Abilities": true,
         "Unlock Prayers": true,
@@ -806,7 +802,6 @@ let rulePresets = {
 		"Multiple Agility": true,
 		"Hard Mode Bosses": true,
 		"PVP": true,
-		"Full Healing": true,
 		"Hero Items": true,
 		"Unlock Abilities": true,
 		"Sigil Abilities": true,
@@ -873,7 +868,6 @@ let ruleStructure = {
 		"Multiple Agility": true
     },
     "Combat": {
-		"Full Healing": true,
         "HigherLander": true,
 		"PvM Relics": true,
 		"Unlock Abilities": ["Sigil Abilities"],
@@ -12838,10 +12832,6 @@ let loadData = async function(startup) {
 
         if (!rulesTemp.hasOwnProperty('Boss Level')) {
             rulesTemp['Boss Level'] = rulesTemp.hasOwnProperty('Boss') ? rulesTemp['Boss'] : false;
-        }
-
-        if (!rulesTemp.hasOwnProperty('Full Healing')) {
-            rulesTemp['Full Healing'] = true;
         }
 		
 		if (!rulesTemp.hasOwnProperty('Unlock Prayers')) {
