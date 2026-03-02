@@ -8239,6 +8239,14 @@
 				"NoPet": true,
 				"NoBoost": true
 			},
+			"Use the ~|Greater Fury|~ ability": {
+				"Items": ["Greater Fury ability codex"],
+				"Level": 21,
+				"Primary": false,
+				"Priority": 1,
+				"NoPet": true,
+				"NoBoost": true
+			},
 			"Wield a ~|black cane|~": {
 				"Items": ["Black cane"],
 				"Level": 23,
@@ -8466,6 +8474,14 @@
 				"NoBoost": true,
 				"Not F2P": true
 			},
+			"Use the ~|Greater Flurry|~ ability": {
+				"Items": ["Greater Flurry ability codex"],
+				"Level": 45,
+				"Primary": false,
+				"Priority": 1,
+				"NoPet": true,
+				"NoBoost": true
+			},
 			"Wield a ~|rune cane|~": {
 				"Items": ["Rune cane"],
 				"Level": 48,
@@ -8689,6 +8705,14 @@
 				"NoPet": true,
 				"NoBoost": true
 			},
+			"Use the ~|Greater Barge|~ ability": {
+				"Items": ["Greater Barge ability codex"],
+				"Level": 65,
+				"Primary": false,
+				"Priority": 3,
+				"NoPet": true,
+				"NoBoost": true
+			},
 			"Wield ~|Dharok's greataxe|~": {
 				"Items": ["Dharok's greataxe"],
 				"Level": 70,
@@ -8869,15 +8893,6 @@
 				},
 				"Primary": false,
 				"Priority": 4,
-				"NoPet": true,
-				"NoBoost": true,
-				"Not F2P": true
-			},
-			"Unlock the ~|Blood Tendrils|~ ability": {
-				"Items": ["Codex Ultimatus"],
-				"Level": 75,
-				"Primary": false,
-				"Priority": 5,
 				"NoPet": true,
 				"NoBoost": true,
 				"Not F2P": true
@@ -9107,15 +9122,6 @@
 				"Level": 75,
 				"Primary": false,
 				"Priority": 7,
-				"NoPet": true,
-				"NoBoost": true,
-				"Not F2P": true
-			},
-			"Unlock the ~|Balanced Strike|~ ability": {
-				"Chunks": ["Guthixian ruins"],
-				"Level": 85,
-				"Primary": false,
-				"Priority": 1,
 				"NoPet": true,
 				"NoBoost": true,
 				"Not F2P": true
@@ -9413,6 +9419,14 @@
 				"NoPet": true,
 				"NoBoost": true,
 				"Not F2P": true
+			},
+			"Use the ~|Chaos Roar|~ ability": {
+				"Items": ["Chaos Roar ability codex"],
+				"Level": 92,
+				"Primary": false,
+				"Priority": 1000,
+				"NoPet": true,
+				"NoBoost": true
 			},
 			"Wield the ~|Dark Shard of Leng|~": {
 				"Items": ["Dark Shard of Leng"],
@@ -9881,24 +9895,6 @@
 		        "Priority": 13,
 				"Not F2P": true
 		    },
-		    "Get the full amount of healing from ~|chilli con carne|~": {
-		        "Category": ["Full Healing"],
-		        "Items": ["Chilli con carne"],
-		        "Level": 11,
-		        "Primary": false,
-		        "Not Equip": true,
-		        "NoPet": true,
-		        "Priority": 1
-		    },
-		    "Get the full amount of healing from ~|trout|~": {
-		        "Category": ["Full Healing"],
-		        "Items": ["Trout"],
-		        "Level": 15,
-		        "Primary": false,
-		        "Not Equip": true,
-		        "NoPet": true,
-		        "Priority": 1
-		    },
 		    "Use a ~|portent of restoration II|~": {
 		        "Items": ["Portent of restoration II"],
 		        "Level": 15,
@@ -9922,167 +9918,6 @@
 		        "NoPet": true,
 		        "Priority": 3,
 				"Not F2P": true
-		    },
-		    "Get the full amount of healing from ~|chocchip crunchies|~": {
-		        "Category": ["Full Healing"],
-		        "Items": ["Chocchip crunchies"],
-		        "Level": 15,
-		        "Primary": false,
-		        "Not Equip": false,
-		        "NoPet": true,
-		        "Priority": 4
-		    },
-		    "Get the full amount of healing from ~|premade chocchip crunchies|~": {
-		        "Items": ["Premade chocolate chip crunchies"],
-		        "Level": 15,
-		        "Primary": false,
-		        "Not Equip": false,
-		        "NoPet": true,
-		        "Priority": 5
-		    },
-		    "Get the full amount of healing from ~|spicy crunchies|~": {
-		        "Category": ["Full Healing"],
-		        "Items": ["Spicy crunchies"],
-		        "Level": 15,
-		        "Primary": false,
-		        "Not Equip": false,
-		        "NoPet": true,
-		        "Priority": 6
-		    },
-		    "Get the full amount of healing from ~|premade spicy crunchies|~": {
-		        "Category": ["Full Healing"],
-		        "Items": ["Premade spicy crunchies"],
-		        "Level": 15,
-		        "Primary": false,
-		        "Not Equip": false,
-		        "NoPet": true,
-		        "Priority": 7
-		    },
-		    "Get the full amount of healing from ~|roast rabbit|~": {
-		        "Category": ["Full Healing"],
-		        "Items": ["Roast rabbit"],
-		        "Level": 16,
-		        "Primary": false,
-		        "Not Equip": false,
-		        "NoPet": true,
-		        "Priority": 1
-		    },
-		    "Get the full amount of healing from ~|cod|~": {
-		        "Category": ["Full Healing"],
-		        "Items": ["Cod"],
-		        "Level": 18,
-		        "Primary": false,
-		        "Not Equip": false,
-		        "NoPet": true,
-		        "Priority": 1
-		    },
-		    "Get the full amount of healing from ~|Wizard Blizzard|~": {
-		        "Category": ["Full Healing"],
-		        "Items": ["Wizard Blizzard"],
-		        "Level": 18,
-		        "Primary": false,
-		        "Not Equip": false,
-		        "NoPet": true,
-		        "Priority": 2
-		    },
-		    "Get the full amount of healing from ~|premade Wizard Blizzard|~": {
-		        "Category": ["Full Healing"],
-		        "Items": ["Premade Wizard Blizzard"],
-		        "Level": 18,
-		        "Primary": false,
-		        "Not Equip": false,
-		        "NoPet": true,
-		        "Priority": 3
-		    },
-		    "Get the full amount of healing from ~|pike|~": {
-		        "Category": ["Full Healing"],
-		        "Items": ["Pike"],
-		        "Level": 20,
-		        "Primary": false,
-		        "Not Equip": false,
-		        "NoPet": true,
-		        "Priority": 1
-		    },
-		    "Get the full amount of healing from ~|toad crunchies|~": {
-		        "Category": ["Full Healing"],
-		        "Items": ["Toad crunchies"],
-		        "Level": 20,
-		        "Primary": false,
-		        "Not Equip": false,
-		        "NoPet": true,
-		        "Priority": 2
-		    },
-		    "Get the full amount of healing from ~|premade toad crunchies|~": {
-		        "Category": ["Full Healing"],
-		        "Items": ["Premade toad crunchies"],
-		        "Level": 20,
-		        "Primary": false,
-		        "Not Equip": false,
-		        "NoPet": true,
-		        "Priority": 3
-		    },
-		    "Get the full amount of healing from ~|Short Green Guys|~": {
-		        "Category": ["Full Healing"],
-		        "Items": ["Short Green Guy"],
-		        "Level": 20,
-		        "Primary": false,
-		        "Not Equip": false,
-		        "NoPet": true,
-		        "Priority": 4
-		    },
-		    "Get the full amount of healing from ~|premade Short Green Guys|~": {
-		        "Category": ["Full Healing"],
-		        "Items": ["Premade Short Green Guy"],
-		        "Level": 20,
-		        "Primary": false,
-		        "Not Equip": false,
-		        "NoPet": true,
-		        "Priority": 5
-		    },
-		    "Get the full amount of healing from ~|worm crunchies|~": {
-		        "Category": ["Full Healing"],
-		        "Items": ["Worm crunchies"],
-		        "Level": 20,
-		        "Primary": false,
-		        "Not Equip": false,
-		        "NoPet": true,
-		        "Priority": 6
-		    },
-		    "Get the full amount of healing from ~|premade worm crunchies|~": {
-		        "Category": ["Full Healing"],
-		        "Items": ["Premade worm crunchies"],
-		        "Level": 20,
-		        "Primary": false,
-		        "Not Equip": false,
-		        "NoPet": true,
-		        "Priority": 7
-		    },
-		    "Get the full amount of healing from ~|roast beast meat|~": {
-		        "Category": ["Full Healing"],
-		        "Items": ["Roast beast meat"],
-		        "Level": 21,
-		        "Primary": false,
-		        "Not Equip": false,
-		        "NoPet": true,
-		        "Priority": 1
-		    },
-		    "Get the full amount of healing from ~|egg and tomato|~": {
-		        "Category": ["Full Healing"],
-		        "Items": ["Egg and tomato"],
-		        "Level": 23,
-		        "Primary": false,
-		        "Not Equip": false,
-		        "NoPet": true,
-		        "Priority": 1
-		    },
-		    "Get the full amount of healing from ~|salmon|~": {
-		        "Category": ["Full Healing"],
-		        "Items": ["Salmon"],
-		        "Level": 25,
-		        "Primary": false,
-		        "Not Equip": false,
-		        "NoPet": true,
-		        "Priority": 1
 		    },
 		    "Use a ~|portent of restoration III|~": {
 		        "Items": ["Portent of restoration III"],
@@ -10108,33 +9943,6 @@
 		        "Priority": 3,
 				"Not F2P": true
 		    },
-		    "Get the full amount of healing from ~|cheese and tomato battas|~": {
-		        "Category": ["Full Healing"],
-		        "Items": ["Cheese+tom batta"],
-		        "Level": 28,
-		        "Primary": false,
-		        "Not Equip": false,
-		        "NoPet": true,
-		        "Priority": 1
-		    },
-		    "Get the full amount of healing from ~|premade cheese and tomato battas|~": {
-		        "Category": ["Full Healing"],
-		        "Items": ["Premade c+t batta"],
-		        "Level": 28,
-		        "Primary": false,
-		        "Not Equip": false,
-		        "NoPet": true,
-		        "Priority": 1
-		    },
-		    "Get the full amount of healing from ~|tuna|~": {
-		        "Category": ["Full Healing"],
-		        "Items": ["Tuna"],
-		        "Level": 30,
-		        "Primary": false,
-		        "Not Equip": false,
-		        "NoPet": true,
-		        "Priority": 1
-		    },
 		    "Use a ~|portent of restoration IV|~": {
 		        "Items": ["Portent of restoration IV"],
 		        "Level": 30,
@@ -10156,248 +9964,6 @@
 		        "Not Equip": false,
 		        "NoPet": true,
 		        "Priority": 3
-		    },
-		    "Get the full amount of healing from ~|cooked chompy|~": {
-		        "Category": ["Full Healing"],
-		        "Items": ["Cooked chompy"],
-		        "Level": 30,
-		        "Primary": false,
-		        "Not Equip": false,
-		        "NoPet": true,
-		        "Priority": 4
-		    },
-		    "Get the full amount of healing from ~|cheesecakes|~": {
-		        "Category": ["Full Healing"],
-		        "Items": ["Cheesecake"],
-		        "Level": 30,
-		        "Primary": false,
-		        "Not Equip": false,
-		        "NoPet": true,
-		        "Priority": 5
-		    },
-		    "Get the full amount of healing from ~|chopped tuna|~": {
-		        "Category": ["Full Healing"],
-		        "Items": ["Chopped tuna"],
-		        "Level": 30,
-		        "Primary": false,
-		        "Not Equip": false,
-		        "NoPet": true,
-		        "Priority": 6
-		    },
-		    "Get the full amount of healing from ~|cooked karambwan|~": {
-		        "Category": ["Full Healing"],
-		        "Items": ["Cooked karambwan"],
-		        "Level": 30,
-		        "Primary": false,
-		        "Not Equip": false,
-		        "NoPet": true,
-		        "Priority": 7
-		    },
-		    "Get the full amount of healing from ~|Drunk Dragons|~": {
-		        "Category": ["Full Healing"],
-		        "Items": ["Drunk Dragon"],
-		        "Level": 32,
-		        "Primary": false,
-		        "Not Equip": false,
-		        "NoPet": true,
-		        "Priority": 1
-		    },
-		    "Get the full amount of healing from ~|premade Drunk Dragons|~": {
-		        "Category": ["Full Healing"],
-		        "Items": ["Premade Drunk Dragon"],
-		        "Level": 32,
-		        "Primary": false,
-		        "Not Equip": false,
-		        "NoPet": true,
-		        "Priority": 2
-		    },
-		    "Get the full amount of healing from ~|Chocolate Saturdays|~": {
-		        "Category": ["Full Healing"],
-		        "Items": ["Chocolate Saturday"],
-		        "Level": 33,
-		        "Primary": false,
-		        "Not Equip": false,
-		        "NoPet": true,
-		        "Priority": 1
-		    },
-		    "Get the full amount of healing from ~|premade Chocolate Saturdays|~": {
-		        "Category": ["Full Healing"],
-		        "Items": ["Premade Chocolate Saturday"],
-		        "Level": 33,
-		        "Primary": false,
-		        "Not Equip": false,
-		        "NoPet": true,
-		        "Priority": 2
-		    },
-		    "Get the full amount of healing from ~|garden pies|~": {
-		        "Category": ["Full Healing"],
-		        "Items": ["Garden pie"],
-		        "Level": 34,
-		        "Primary": false,
-		        "Not Equip": false,
-		        "NoPet": true,
-		        "Priority": 1
-		    },
-		    "Get the full amount of healing from ~|plain pizzas|~": {
-		        "Category": ["Full Healing"],
-		        "Items": ["Plain pizza"],
-		        "Level": 35,
-		        "Primary": false,
-		        "Not Equip": false,
-		        "NoPet": true,
-		        "Priority": 1
-		    },
-		    "Get the full amount of healing from ~|fruit battas|~": {
-		        "Category": ["Full Healing"],
-		        "Items": ["Fruit batta"],
-		        "Level": 35,
-		        "Primary": false,
-		        "Not Equip": false,
-		        "NoPet": true,
-		        "Priority": 2
-		    },
-		    "Get the full amount of healing from ~|premade fruit battas|~": {
-		        "Category": ["Full Healing"],
-		        "Items": ["Premade fruit batta"],
-		        "Level": 35,
-		        "Primary": false,
-		        "Not Equip": false,
-		        "NoPet": true,
-		        "Priority": 3
-		    },
-		    "Get the full amount of healing from ~|rainbow fish|~": {
-		        "Category": ["Full Healing"],
-		        "Items": ["Rainbow fish"],
-		        "Level": 35,
-		        "Primary": false,
-		        "Not Equip": false,
-		        "NoPet": true,
-		        "Priority": 4
-		    },
-		    "Get the full amount of healing from ~|toad battas|~": {
-		        "Category": ["Full Healing"],
-		        "Items": ["Toad batta"],
-		        "Level": 35,
-		        "Primary": false,
-		        "Not Equip": false,
-		        "NoPet": true,
-		        "Priority": 5
-		    },
-		    "Get the full amount of healing from ~|premade toad battas|~": {
-		        "Category": ["Full Healing"],
-		        "Items": ["Premade toad batta"],
-		        "Level": 35,
-		        "Primary": false,
-		        "Not Equip": false,
-		        "NoPet": true,
-		        "Priority": 6
-		    },
-		    "Get the full amount of healing from ~|vegetable battas|~": {
-		        "Category": ["Full Healing"],
-		        "Items": ["Vegatable batta"],
-		        "Level": 35,
-		        "Primary": false,
-		        "Not Equip": false,
-		        "NoPet": true,
-		        "Priority": 7
-		    },
-		    "Get the full amount of healing from ~|premade vegetable battas|~": {
-		        "Category": ["Full Healing"],
-		        "Items": ["Premade veg batta"],
-		        "Level": 35,
-		        "Primary": false,
-		        "Not Equip": false,
-		        "NoPet": true,
-		        "Priority": 8
-		    },
-		    "Get the full amount of healing from ~|worm battas|~": {
-		        "Category": ["Full Healing"],
-		        "Items": ["Worm batta"],
-		        "Level": 35,
-		        "Primary": false,
-		        "Not Equip": false,
-		        "Priority": 9
-		    },
-		    "Get the full amount of healing from ~|premade worm battas|~": {
-		        "Category": ["Full Healing"],
-		        "Items": ["Premade worm batta"],
-		        "Level": 35,
-		        "Primary": false,
-		        "Not Equip": false,
-		        "NoPet": true,
-		        "Priority": 10
-		    },
-			 "Get the full amount of healing from ~|jug of wine|~": {
-		        "Category": ["Full Healing"],
-		        "Items": ["Jug of wine"],
-		        "Level": 35,
-		        "Primary": false,
-		        "Not Equip": false,
-		        "NoPet": true,
-		        "Priority": 11
-			},
-		    "Get the full amount of healing from ~|vanilla cheesecake|~": {
-		        "Category": ["Full Healing"],
-		        "Items": ["Vanilla cheesecake"],
-		        "Level": 36,
-		        "Primary": false,
-		        "Not Equip": false,
-		        "NoPet": true,
-		        "Priority": 1
-		    },
-		    "Get the full amount of healing from ~|Fruit Blasts|~": {
-		        "Category": ["Full Healing"],
-		        "Items": ["Fruit Blast"],
-		        "Level": 37,
-		        "Primary": false,
-		        "Not Equip": false,
-		        "NoPet": true,
-		        "Priority": 1
-		    },
-		    "Get the full amount of healing from ~|premade Fruit Blasts|~": {
-		        "Category": ["Full Healing"],
-		        "Items": ["Premade Fruit Blast"],
-		        "Level": 37,
-		        "Primary": false,
-		        "Not Equip": false,
-		        "NoPet": true,
-		        "Priority": 2
-		    },
-		    "Get the full amount of healing from ~|Blurberry Specials|~": {
-		        "Category": ["Full Healing"],
-		        "Items": ["Blurberry Special"],
-		        "Level": 37,
-		        "Primary": false,
-		        "Not Equip": false,
-		        "NoPet": true,
-		        "Priority": 3
-		    },
-		    "Get the full amount of healing from ~|premade Blurberry Specials|~": {
-		        "Category": ["Full Healing"],
-		        "Items": ["Premade Blurberry Special"],
-		        "Level": 37,
-		        "Primary": false,
-		        "Not Equip": false,
-		        "NoPet": true,
-		        "Priority": 4
-		    },
-		    "Get the full amount of healing from ~|potatoes with butter|~": {
-		        "Category": ["Full Healing"],
-		        "Items": ["Potato with butter"],
-		        "Level": 39,
-		        "Primary": false,
-		        "Not Equip": false,
-		        "NoPet": true,
-		        "Priority": 1
-		    },
-		    "Get the full amount of healing from ~|cakes|~": {
-		        "Category": ["Full Healing"],
-		        "Items": ["Cake"],
-		        "Level": 40,
-		        "Primary": false,
-		        "Not Equip": false,
-		        "NoPet": true,
-		        "Priority": 1
 		    },
 		    "Use a ~|portent of restoration V|~": {
 		        "Items": ["Portent of restoration V"],
@@ -10421,50 +9987,6 @@
 		        "NoPet": true,
 		        "Priority": 3
 		    },
-		    "Get the full amount of healing from ~|veg balls|~": {
-		        "Category": ["Full Healing"],
-		        "Items": ["Veg ball"],
-		        "Level": 40,
-		        "Primary": false,
-		        "Not Equip": false,
-		        "NoPet": true,
-		        "Priority": 4
-		    },
-		    "Get the full amount of healing from ~|premade veg balls|~": {
-		        "Category": ["Full Healing"],
-		        "Items": ["Premade veg ball"],
-		        "Level": 40,
-		        "Primary": false,
-		        "Not Equip": false,
-		        "NoPet": true,
-		        "Priority": 5
-		    },
-		    "Get the full amount of healing from ~|worm hole|~": {
-		        "Category": ["Full Healing"],
-		        "Items": ["Worm hole"],
-		        "Level": 40,
-		        "Primary": false,
-		        "Not Equip": false,
-		        "Priority": 6
-		    },
-		    "Get the full amount of healing from ~|premade worm hole|~": {
-		        "Category": ["Full Healing"],
-		        "Items": ["Premade worm hole"],
-		        "Level": 40,
-		        "Primary": false,
-		        "Not Equip": false,
-		        "NoPet": true,
-		        "Priority": 7
-		    },
-		    "Get the full amount of healing from ~|cooked jubbly|~": {
-		        "Category": ["Full Healing"],
-		        "Items": ["Cooked jubbly"],
-		        "Level": 41,
-		        "Primary": false,
-		        "Not Equip": false,
-		        "NoPet": true,
-		        "Priority": 1
-		    },
 		    "Wear a piece of ~|Void Knight equipment|~": {
 		        "Chunks": ["10537"],
 		        "Level": 42,
@@ -10477,78 +9999,6 @@
 		            "Prayer": 22
 		        },
 		        "Primary": false,
-		        "NoPet": true,
-		        "Priority": 1
-		    },
-		    "Get the full amount of healing from ~|chocolate cheesecakes|~": {
-		        "Category": ["Full Healing"],
-		        "Items": ["Chocolate cheesecake"],
-		        "Level": 42,
-		        "Primary": false,
-		        "Not Equip": false,
-		        "NoPet": true,
-		        "Priority": 2
-		    },
-		    "Get the full amount of healing from ~|cooked oomlie wraps|~": {
-		        "Category": ["Full Healing"],
-		        "Items": ["Cooked oomlie wrap"],
-		        "Level": 45,
-		        "Primary": false,
-		        "Not Equip": false,
-		        "NoPet": true,
-		        "Priority": 1
-		    },
-		    "Get the full amount of healing from ~|meat pizzas|~": {
-		        "Category": ["Full Healing"],
-		        "Items": ["Meat pizza"],
-		        "Level": 35,
-		        "Primary": false,
-		        "Not Equip": false,
-		        "NoPet": true,
-		        "Priority": 2
-		    },
-		    "Get the full amount of healing from ~|potatoes with cheese|~": {
-		        "Category": ["Full Healing"],
-		        "Items": ["Potato with cheese"],
-		        "Level": 46,
-		        "Primary": false,
-		        "Not Equip": false,
-		        "NoPet": true,
-		        "Priority": 1
-		    },
-		    "Get the full amount of healing from ~|fish pies|~": {
-		        "Category": ["Full Healing"],
-		        "Items": ["Fish pie"],
-		        "Level": 47,
-		        "Primary": false,
-		        "Not Equip": false,
-		        "NoPet": true,
-		        "Priority": 1
-		    },
-		    "Get the full amount of healing from ~|lobsters|~": {
-		        "Category": ["Full Healing"],
-		        "Items": ["Lobster"],
-		        "Level": 48,
-		        "Primary": false,
-		        "Not Equip": false,
-		        "NoPet": true,
-		        "Priority": 1
-		    },
-		    "Get the full amount of healing from ~|strawberry cheesecakes|~": {
-		        "Category": ["Full Healing"],
-		        "Items": ["Strawberry cheesecake"],
-		        "Level": 48,
-		        "Primary": false,
-		        "Not Equip": false,
-		        "NoPet": true,
-		        "Priority": 2
-		    },
-		    "Get the full amount of healing from ~|chocolate cakes|~": {
-		        "Category": ["Full Healing"],
-		        "Items": ["ChocolateCake[+]"],
-		        "Level": 50,
-		        "Primary": false,
-		        "Not Equip": false,
 		        "NoPet": true,
 		        "Priority": 1
 		    },
@@ -10574,176 +10024,6 @@
 		        "NoPet": true,
 		        "Priority": 3
 		    },
-		    "Unlock and use the ~|Tuska's Wrath|~ ability": {
-		        "Items": ["Tuska's Wrath ability"],
-		        "Level": 50,
-		        "Primary": false,
-		        "NoPet": true,
-		        "Priority": 4
-		    },
-		    "Get the full amount of healing from ~|chilli potatoes|~": {
-		        "Category": ["Full Healing"],
-		        "Items": ["Chilli potato"],
-		        "Level": 50,
-		        "Primary": false,
-		        "Not Equip": false,
-		        "NoPet": true,
-		        "Priority": 5,
-		        "Not F2P": true
-		    },
-		    "Get the full amount of healing from ~|bass|~": {
-		        "Category": ["Full Healing"],
-		        "Items": ["Bass"],
-		        "Level": 52,
-		        "Primary": false,
-		        "Not Equip": false,
-		        "NoPet": true,
-		        "Priority": 1
-		    },
-		    "Get the full amount of healing from ~|lava eels|~": {
-		        "Category": ["Full Healing"],
-		        "Items": ["Lava eel"],
-		        "Level": 53,
-		        "Primary": false,
-		        "Not Equip": false,
-		        "NoPet": true,
-		        "Priority": 1
-		    },
-		    "Get the full amount of healing from ~|lemon cheesecake|~": {
-		        "Category": ["Full Healing"],
-		        "Items": ["Lemon cheesecake"],
-		        "Level": 54,
-		        "Primary": false,
-		        "Not Equip": false,
-		        "NoPet": true,
-		        "Priority": 1
-		    },
-		    "Get the full amount of healing from ~|anchovy pizzas|~": {
-		        "Category": ["Full Healing"],
-		        "Items": ["Anchovy pizza"],
-		        "Level": 55,
-		        "Primary": false,
-		        "Not Equip": false,
-		        "NoPet": true,
-		        "Priority": 1
-		    },
-		    "Get the full amount of healing from ~|egg potatoes|~": {
-		        "Category": ["Full Healing"],
-		        "Items": ["Egg potato"],
-		        "Level": 55,
-		        "Primary": false,
-		        "Not Equip": false,
-		        "NoPet": true,
-		        "Priority": 2
-		    },
-		    "Get the full amount of healing from ~|swordfish|~": {
-		        "Category": ["Full Healing"],
-		        "Items": ["Swordfish"],
-		        "Level": 56,
-		        "Primary": false,
-		        "Not Equip": false,
-		        "NoPet": true,
-		        "Priority": 1
-		    },
-		    "Get the full amount of healing from ~|arcane apoterrasaur meat|~": {
-		        "Category": ["Full Healing"],
-		        "Items": ["Arcane apoterrasaur meat"],
-		        "Level": 56,
-		        "Primary": false,
-		        "Not Equip": false,
-		        "NoPet": true,
-		        "Priority": 2
-		    },
-		    "Get the full amount of healing from ~|bagrada rex meat|~": {
-		        "Category": ["Full Healing"],
-		        "Items": ["Bagrada rex meat"],
-		        "Level": 56,
-		        "Primary": false,
-		        "Not Equip": false,
-		        "NoPet": true,
-		        "Priority": 3
-		    },
-		    "Get the full amount of healing from ~|scimitops meat|~": {
-		        "Category": ["Full Healing"],
-		        "Items": ["Scimitops meat"],
-		        "Level": 56,
-		        "Primary": false,
-		        "Not Equip": false,
-		        "NoPet": true,
-		        "Priority": 1
-		    },
-		    "Get the full amount of healing from ~|desert soles|~": {
-		        "Category": ["Full Healing"],
-		        "Items": ["Desert sole"],
-		        "Level": 58,
-		        "Primary": false,
-		        "Not Equip": false,
-		        "NoPet": true,
-		        "Priority": 1
-		    },
-		    "Get the full amount of healing from ~|bacon cheesecakes|~": {
-		        "Category": ["Full Healing"],
-		        "Items": ["Bacon cheesecake"],
-		        "Level": 60,
-		        "Primary": false,
-		        "Not Equip": false,
-		        "NoPet": true,
-		        "Priority": 1
-		    },
-		    "Get the full amount of healing from ~|catfish|~": {
-		        "Category": ["Full Healing"],
-		        "Items": ["Catfish"],
-		        "Level": 60,
-		        "Primary": false,
-		        "Not Equip": false,
-		        "NoPet": true,
-		        "Priority": 2
-		    },
-		    "Get the full amount of healing from ~|chocolate bombs|~": {
-		        "Category": ["Full Healing"],
-		        "Items": ["Chocolate bomb"],
-		        "Level": 60,
-		        "Primary": false,
-		        "Not Equip": false,
-		        "NoPet": true,
-		        "Priority": 3
-		    },
-		    "Get the full amount of healing from ~|premade chocolate bombs|~": {
-		        "Category": ["Full Healing"],
-		        "Items": ["Premade choc bomb"],
-		        "Level": 60,
-		        "Primary": false,
-		        "Not Equip": false,
-		        "NoPet": true,
-		        "Priority": 4
-		    },
-		    "Get the full amount of healing from ~|curry|~": {
-		        "Category": ["Full Healing"],
-		        "Items": ["Curry"],
-		        "Level": 60,
-		        "Primary": false,
-		        "Not Equip": false,
-		        "NoPet": true,
-		        "Priority": 5
-		    },
-		    "Get the full amount of healing from ~|tangled toads' legs|~": {
-		        "Category": ["Full Healing"],
-		        "Items": ["Tangled toads' legs"],
-		        "Level": 60,
-		        "Primary": false,
-		        "Not Equip": false,
-		        "NoPet": true,
-		        "Priority": 6
-		    },
-		    "Get the full amount of healing from ~|premade tangled toads' legs|~": {
-		        "Category": ["Full Healing"],
-		        "Items": ["Premade ttl"],
-		        "Level": 60,
-		        "Primary": false,
-		        "Not Equip": false,
-		        "NoPet": true,
-		        "Priority": 7
-		    },
 		    "Use a ~|portent of restoration VII|~": {
 		        "Items": ["Portent of restoration VII"],
 		        "Level": 62,
@@ -10766,51 +10046,6 @@
 		        "NoPet": true,
 		        "Priority": 2
 		    },
-		    "Get the full amount of healing from ~|monkfish|~": {
-		        "Category": ["Full Healing"],
-		        "Items": ["Monkfish"],
-		        "Level": 64,
-		        "Primary": false,
-		        "Not Equip": false,
-		        "NoPet": true,
-		        "Priority": 1
-		    },
-		    "Get the full amount of healing from ~|pineapple pizzas|~": {
-		        "Category": ["Full Healing"],
-		        "Items": ["Pineapple pizza"],
-		        "Level": 65,
-		        "Primary": false,
-		        "Not Equip": false,
-		        "NoPet": true,
-		        "Priority": 1
-		    },
-		    "Get the full amount of healing from ~|beltfish|~": {
-		        "Category": ["Full Healing"],
-		        "Items": ["Beltfish"],
-		        "Level": 66,
-		        "Primary": false,
-		        "Not Equip": false,
-		        "NoPet": true,
-		        "Priority": 1
-		    },
-		    "Get the full amount of healing from ~|ghostly sole|~": {
-		        "Category": ["Full Healing"],
-		        "Items": ["Ghostly sole"],
-		        "Level": 66,
-		        "Primary": false,
-		        "Not Equip": false,
-		        "NoPet": true,
-		        "Priority": 2
-		    },
-		    "Get the full amount of healing from ~|tuna and corn|~": {
-		        "Category": ["Full Healing"],
-		        "Items": ["Tuna and corn"],
-		        "Level": 67,
-		        "Primary": false,
-		        "Not Equip": false,
-		        "NoPet": true,
-		        "Priority": 1
-		    },
 		    "Access ~|Zamorak's Fortress|~ in the God Wars Dungeon": {
 		        "Chunks": ["God Wars Dungeon"],
 		        "Level": 70,
@@ -10824,132 +10059,6 @@
 		        "Primary": false,
 		        "NoPet": true,
 		        "Priority": 2
-		    },
-		    "Get the full amount of healing from ~|admiral pies|~": {
-		        "Category": ["Full Healing"],
-		        "Items": ["Admiral pies"],
-		        "Level": 70,
-		        "Primary": false,
-		        "Not Equip": false,
-		        "NoPet": true,
-		        "Priority": 3
-		    },
-			"Get the full amount of healing from ~|ugthanki kebabs|~": {
-		        "Category": ["Full Healing"],
-		        "Items": ["Ugthanki kebab"],
-		        "Level": 70,
-		        "Primary": false,
-		        "Not Equip": true,
-		        "NoPet": true,
-		        "Priority": 4
-		    },
-		    "Get the full amount of healing from ~|asciatops meat|~": {
-		        "Category": ["Full Healing"],
-		        "Items": ["Asciatops meat"],
-		        "Level": 72,
-		        "Primary": false,
-		        "Not Equip": false,
-		        "NoPet": true,
-		        "Priority": 1
-		    },
-		    "Get the full amount of healing from ~|corbicula rex meat|~": {
-		        "Category": ["Full Healing"],
-		        "Items": ["Corbicula rex meat"],
-		        "Level": 72,
-		        "Primary": false,
-		        "Not Equip": false,
-		        "NoPet": true,
-		        "Priority": 2
-		    },
-		    "Get the full amount of healing from ~|spicati apoterrasaur meat|~": {
-		        "Category": ["Full Healing"],
-		        "Items": ["Spicati apoterrasaur meat"],
-		        "Level": 72,
-		        "Primary": false,
-		        "Not Equip": false,
-		        "NoPet": true,
-		        "Priority": 3
-		    },
-		    "Get the full amount of healing from ~|cooked eeligator|~": {
-		        "Category": ["Full Healing"],
-		        "Items": ["Cooked eeligator"],
-		        "Level": 75,
-		        "Primary": false,
-		        "Not Equip": false,
-		        "NoPet": true,
-		        "Priority": 1
-		    },
-		    "Get the full amount of healing from ~|evil turnips|~": {
-		        "Category": ["Full Healing"],
-		        "Items": ["Evil turnip"],
-		        "Level": 77,
-		        "Primary": false,
-		        "Not Equip": false,
-		        "NoPet": true,
-		        "Priority": 1
-		    },
-		    "Get the full amount of healing from ~|dragonfruits|~": {
-		        "Category": ["Full Healing"],
-		        "Items": ["Dragonfruit"],
-		        "Level": 78,
-		        "Primary": false,
-		        "Not Equip": false,
-		        "NoPet": true,
-		        "Priority": 1
-		    },
-		    "Get the full amount of healing from ~|avocados|~": {
-		        "Category": ["Full Healing"],
-		        "Items": ["Avocado"],
-		        "Level": 78,
-		        "Primary": false,
-		        "Not Equip": false,
-		        "NoPet": true,
-		        "Priority": 2
-		    },
-		    "Get the full amount of healing from ~|cikus|~": {
-		        "Category": ["Full Healing"],
-		        "Items": ["Ciku"],
-		        "Level": 78,
-		        "Primary": false,
-		        "Not Equip": false,
-		        "NoPet": true,
-		        "Priority": 3
-		    },
-		    "Get the full amount of healing from ~|mangos|~": {
-		        "Category": ["Full Healing"],
-		        "Items": ["Mango"],
-		        "Level": 78,
-		        "Primary": false,
-		        "Not Equip": false,
-		        "NoPet": true,
-		        "Priority": 4
-		    },
-		    "Get the full amount of healing from ~|guaranas|~": {
-		        "Category": ["Full Healing"],
-		        "Items": ["Guarana"],
-		        "Level": 78,
-		        "Primary": false,
-		        "Not Equip": false,
-		        "NoPet": true,
-		        "Priority": 5
-		    },
-		    "Get the full amount of healing from ~|lychees|~": {
-		        "Category": ["Full Healing"],
-		        "Items": ["Lychees"],
-		        "Level": 78,
-		        "Primary": false,
-		        "Not Equip": false,
-		        "NoPet": true,
-		        "Priority": 6
-		    },
-		    "Get the full amount of healing from ~|carambolas|~": {
-		        "Category": ["Full Healing"],
-		        "Items": ["Carambola"],
-		        "Level": 78,
-		        "Primary": false,
-		        "Not Equip": false,
-		        "NoPet": true,
-		        "Priority": 7
 		    },
 		    "Wear ~|Torva armour|~": {
 		        "Items": ["Torva[+]"],
@@ -10971,16 +10080,6 @@
 		        "Primary": false,
 		        "NoPet": true,
 		        "Priority": 3
-		    },
-		    "Get the full amount of healing from ~|sharks|~": {
-		        "Category": ["Full Healing"],
-		        "Items": ["Shark"],
-		        "Level": 80,
-		        "Primary": false,
-		        "Not Equip": false,
-		        "NoPet": true,
-		        "Priority": 4,
-		        "Not F2P": true
 		    },
 		    "Use a ~|portent of restoration VIII|~": {
 		        "Items": ["Portent of restoration VIII"],
@@ -11025,24 +10124,6 @@
 		        "NoPet": true,
 		        "Priority": 8
 		    },
-		    "Get the full amount of healing from ~|baron sharks|~": {
-		        "Category": ["Full Healing"],
-		        "Items": ["Baron shark"],
-		        "Level": 80,
-		        "Primary": false,
-		        "Not Equip": false,
-		        "NoPet": true,
-		        "Priority": 9
-		    },
-		    "Get the full amount of healing from ~|mushroom potato|~": {
-		        "Category": ["Full Healing"],
-		        "Items": ["Mushroom potato"],
-		        "Level": 80,
-		        "Primary": false,
-		        "Not Equip": false,
-		        "NoPet": true,
-		        "Priority": 10
-		    },
 		    "Enter the ~|Crondis tomb|~": {
 		        "Chunks": ["13097-2"],
 		        "Level": 80,
@@ -11051,42 +10132,6 @@
 		        "NoPet": true,
 		        "Priority": 11
 
-		    },
-		    "Get the full amount of healing from ~|sea turtles|~": {
-		        "Category": ["Full Healing"],
-		        "Items": ["Sea turtle"],
-		        "Level": 82,
-		        "Primary": false,
-		        "Not Equip": false,
-		        "NoPet": true,
-		        "Priority": 1
-		    },
-		    "Get the full amount of healing from ~|great maki|~": {
-		        "Category": ["Full Healing"],
-		        "Items": ["Great maki"],
-		        "Level": 84,
-		        "Primary": false,
-		        "Not Equip": false,
-		        "NoPet": true,
-		        "Priority": 1
-		    },
-		    "Get the full amount of healing from ~|tuna potatoes|~": {
-		        "Category": ["Full Healing"],
-		        "Items": ["Tuna potato"],
-		        "Level": 85,
-		        "Primary": false,
-		        "Not Equip": false,
-		        "NoPet": true,
-		        "Priority": 1
-		    },
-		    "Get the full amount of healing from ~|wild pies|~": {
-		        "Category": ["Full Healing"],
-		        "Items": ["Wild pie"],
-		        "Level": 85,
-		        "Primary": false,
-		        "Not Equip": true,
-		        "NoPet": true,
-		        "Priority": 2
 		    },
 		    "Unlock the ~|Guthix's Blessing|~ ability": {
 		        "Chunks": ["Guthixian ruins"],
@@ -11164,75 +10209,12 @@
 		        "NoPet": true,
 		        "Priority": 5
 		    },
-		    "Get the full amount of healing from ~|great gunkan|~": {
-		        "Category": ["Full Healing"],
-		        "Items": ["Great gunkan"],
-		        "Level": 88,
-		        "Primary": false,
-		        "Not Equip": false,
-		        "NoPet": true,
-		        "Priority": 4
-		    },
-		    "Get the full amount of healing from ~|malletops meat|~": {
-		        "Category": ["Full Healing"],
-		        "Items": ["Malletops meat"],
-		        "Level": 88,
-		        "Primary": false,
-		        "Not Equip": false,
-		        "NoPet": true,
-		        "Priority": 5
-		    },
-		    "Get the full amount of healing from ~|oculi apoterrasaur meat|~": {
-		        "Category": ["Full Healing"],
-		        "Items": ["Oculi apoterrasaur meat"],
-		        "Level": 88,
-		        "Primary": false,
-		        "Not Equip": false,
-		        "NoPet": true,
-		        "Priority": 6
-		    },
-		    "Get the full amount of healing from ~|pavosaurus rex meat|~": {
-		        "Category": ["Full Healing"],
-		        "Items": ["Pavosaurus rex meat"],
-		        "Level": 88,
-		        "Primary": false,
-		        "Not Equip": false,
-		        "NoPet": true,
-		        "Priority": 7
-		    },
-		    "Get the full amount of healing from ~|golden dragonfruits|~": {
-		        "Category": ["Full Healing"],
-		        "Items": ["Golden dragonfruit"],
-		        "Level": 89,
-		        "Primary": false,
-		        "Not Equip": false,
-		        "NoPet": true,
-		        "Priority": 1
-		    },
-		    "Get the full amount of healing from ~|Arc gumbo|~": {
-		        "Category": ["Full Healing"],
-		        "Items": ["Arc gumbo"],
-		        "Level": 89,
-		        "Primary": false,
-		        "Not Equip": false,
-		        "NoPet": true,
-		        "Priority": 2
-		    },
 		    "Unlock the ~|Onslaught|~ ability": {
 		        "Items": ["Onslaught[+]"],
 		        "Level": 90,
 		        "Primary": false,
 		        "NoPet": true,
 		        "Priority": 1
-		    },
-		    "Get the full amount of healing from ~|juju gumbos|~": {
-		        "Category": ["Full Healing"],
-		        "Items": ["Juju gumbo"],
-		        "Level": 90,
-		        "Primary": false,
-		        "Not Equip": false,
-		        "NoPet": true,
-		        "Priority": 2
 		    },
 		    "Create a ~|portent of restoration X|~ in Daemonheim": {
 			    "Category": ["Daemonheim tasks"],
@@ -11302,60 +10284,6 @@
 			    "NoPet": true,
 			    "Priority": 1
 			},
-			"Get the full amount of healing from ~|great white sharks|~": {
-			    "Category": ["Full Healing"],
-			    "Items": ["Great white sharks"],
-			    "Level": 91,
-			    "Primary": false,
-			    "Not Equip": false,
-			    "NoPet": true,
-			    "Priority": 2
-			},
-			"Get the full amount of healing from ~|manta rays|~": {
-			    "Category": ["Full Healing"],
-			    "Items": ["Manta ray"],
-			    "Level": 91,
-			    "Primary": false,
-			    "Not Equip": false,
-			    "NoPet": true,
-			    "Priority": 1
-			},
-			"Get the full amount of healing from ~|rocktails|~": {
-			    "Category": ["Full Healing"],
-			    "Items": ["Rocktail"],
-			    "Level": 92,
-			    "Primary": false,
-			    "Not Equip": false,
-			    "NoPet": true,
-			    "Priority": 1
-			},
-			"Get the full amount of healing from ~|primal starter|~": {
-			    "Category": ["Full Healing"],
-			    "Items": ["Primal starter"],
-			    "Level": 92,
-			    "Primary": false,
-			    "Not Equip": false,
-			    "NoPet": true,
-			    "Priority": 2
-			},
-			"Get the full amount of healing from ~|primal main course|~": {
-			    "Category": ["Full Healing"],
-			    "Items": ["Primal main course"],
-			    "Level": 93,
-			    "Primary": false,
-			    "Not Equip": false,
-			    "NoPet": true,
-			    "Priority": 3
-			},
-			"Get the full amount of healing from ~|primal dessert|~": {
-			    "Category": ["Full Healing"],
-			    "Items": ["Primal dessert"],
-			    "Level": 92,
-			    "Primary": false,
-			    "Not Equip": false,
-			    "NoPet": true,
-			    "Priority": 4
-			},
 			"Use a ~|portent of restoration X|~": {
 			    "Items": ["Portent of restoration X"],
 			    "Level": 93,
@@ -11399,60 +10327,6 @@
 			    "Not Equip": false,
 			    "NoPet": true,
 			    "Priority": 4
-			},
-			"Get the full amount of healing from ~|shark soup|~": {
-			    "Category": ["Full Healing"],
-			    "Items": ["Shark soup"],
-			    "Level": 94,
-			    "Primary": false,
-			    "Not Equip": false,
-			    "NoPet": true,
-			    "Priority": 1
-			},
-			"Get the full amount of healing from ~|summer pies|~": {
-			    "Category": ["Full Healing"],
-			    "Items": ["Summer pie"],
-			    "Level": 95,
-			    "Primary": false,
-			    "Not Equip": false,
-			    "NoPet": true,
-			    "Priority": 1
-			},
-			"Get the full amount of healing from ~|tiger sharks|~": {
-			    "Category": ["Full Healing"],
-			    "Items": ["Tiger shark"],
-			    "Level": 95,
-			    "Primary": false,
-			    "Not Equip": false,
-			    "NoPet": true,
-			    "Priority": 2
-			},
-			"Get the full amount of healing from ~|rocktail soup|~": {
-			    "Category": ["Full Healing"],
-			    "Items": ["Rocktail soup"],
-			    "Level": 96,
-			    "Primary": false,
-			    "Not Equip": false,
-			    "NoPet": true,
-			    "Priority": 1
-			},
-			"Get the full amount of healing from ~|sailfish|~": {
-			    "Category": ["Full Healing"],
-			    "Items": ["Sailfish"],
-			    "Level": 96,
-			    "Primary": false,
-			    "Not Equip": false,
-			    "NoPet": true,
-			    "Priority": 2
-			},
-			"Get the full amount of healing from ~|fury sharks|~": {
-			    "Category": ["Full Healing"],
-			    "Items": ["Fury shark"],
-			    "Level": 99,
-			    "Primary": false,
-			    "Not Equip": false,
-			    "NoPet": true,
-			    "Priority": 2
 			},
 			"Buy the ~|Constitution cape|~": {
 			    "Category": ["Skillcape"],
@@ -51196,14 +50070,6 @@
 				"Primary": true,
 				"Priority": 1
 			},
-			"Use the ~|Greater Concentrated blast|~ ability": {
-				"Items": ["Greater Concentrated blast ability codex"],
-				"Level": 12,
-				"Primary": true,
-				"Priority": 1,
-				"NoPet": true,
-				"NoBoost": true
-			},
 			"Cast ~|fire strike|~": {
 				"Category": ["Spells", "Combat and Teleport Spells"],
 				"Items": ["Fire rune[+]*", "Air rune[+]*"],
@@ -51882,6 +50748,14 @@
 				"Primary": true,
 				"Priority": 2
 			},
+			"Use the ~|Greater Chain|~ ability": {
+				"Items": ["Greater Chain ability codex"],
+				"Level": 51,
+				"Primary": true,
+				"Priority": 3,
+				"NoPet": true,
+				"NoBoost": true
+			},
 			"Cast ~|shadow rush|~": {
 				"Category": ["Spells", "Combat and Teleport Spells"],
 				"Items": ["Death rune*", "Earth rune[+]*"],
@@ -52461,6 +51335,14 @@
 				"Primary": true,
 				"Priority": 5
 			},
+			"Use the ~|Greater Concentrated blast|~ ability": {
+				"Items": ["Greater Concentrated blast ability codex"],
+				"Level": 66,
+				"Primary": true,
+				"Priority": 6,
+				"NoPet": true,
+				"NoBoost": true
+			},
 			"Enter the ~|Wizards' Guild|~": {
 				"Chunks": ["10288-1"],
 				"Level": 66,
@@ -52802,6 +51684,14 @@
 				"NoPet": true,
 				"NoBoost": true
 			},
+			"Use the ~|Corruption Blast|~ ability": {
+				"Items": ["Corruption Blast ability codex"],
+				"Level": 70,
+				"Primary": false,
+				"Priority": 22,
+				"NoPet": true,
+				"NoBoost": true
+			},
 			"Cast ~|cure me|~": {
 				"Category": ["Spells"],
 				"Items": ["Astral rune*", "Cosmic rune*"],
@@ -53072,6 +51962,14 @@
 				"Level": 75,
 				"Primary": true,
 				"Priority": 16
+			},
+			"Use the ~|Smoke Tendrils|~ ability": {
+				"Items": ["Codex Ultimatus"],
+				"Level": 75,
+				"Primary": false,
+				"Priority": 17,
+				"NoPet": true,
+				"NoBoost": true
 			},
 			"Cast ~|shadow blitz|~": {
 				"Category": ["Spells", "Combat and Teleport Spells"],
@@ -53934,7 +52832,7 @@
 				"NoPet": true,
 				"NoBoost": true
 			},
-			"Use the ~|greater Sunshine|~ ability": {
+			"Use the ~|Greater Sunshine|~ ability": {
 				"Items": ["Greater Sunshine ability codex"],
 				"Tasks": {
 					"Use the ~|Sunshine|~ ability": "Magic"
@@ -53997,6 +52895,14 @@
 				"Level": 85,
 				"Primary": false,
 				"Priority": 18,
+				"NoPet": true,
+				"NoBoost": true
+			},
+			"Use the ~|Magma Tempest|~ ability": {
+				"Items": ["Magma Tempest ability codex"],
+				"Level": 85,
+				"Primary": false,
+				"Priority": 19,
 				"NoPet": true,
 				"NoBoost": true
 			},
@@ -54147,7 +53053,7 @@
 				"Category": ["Spells"],
 				"Items": ["Cosmic rune*", "Fire rune[+]*", "Earth rune[+]*", "Onyx ring*"],
 				"Level": 87,
-				"Output": "Ring of fortune",
+				"Output": "Ring of Fortune",
 				"Primary": true,
 				"Priority": 1,
 				"Not F2P": true
@@ -61452,6 +60358,14 @@
 				"NoBoost": true,
 				"Not F2P": true
 			},
+			"Use the ~|Greater Ricochet|~ ability": {
+				"Items": ["Greater Ricochet ability codex"],
+				"Level": 67,
+				"Primary": true,
+				"Priority": 1,
+				"NoPet": true,
+				"NoBoost": true
+			},
 			"Wield a ~|crystal bow|~": {
 				"Items": ["Crystal bow"],
 				"Level": 70,
@@ -61647,6 +60561,15 @@
 				"NoBoost": true,
 				"Not F2P": true
 			},
+			"Unlock and use the ~|Corruption Shot|~ ability": {
+				"Items": ["Corruption Shot Ability Codex"],
+				"Level": 70,
+				"Primary": false,
+				"Priority": 1000,
+				"NoPet": true,
+				"NoBoost": true,
+				"Not F2P": true
+			},
 			"Wield a ~|sagaie|~": {
 				"Items": ["Sagaie"],
 				"Level": 72,
@@ -61737,6 +60660,15 @@
 					"Necromancy": 75
 				},
 				"Priority": 8,
+				"NoPet": true,
+				"NoBoost": true,
+				"Not F2P": true
+			},
+			"Unlock and use the ~|Shadow Tendrils|~ ability": {
+				"Items": ["Codex Ultimatus"],
+				"Level": 75,
+				"Primary": false,
+				"Priority": 100,
 				"NoPet": true,
 				"NoBoost": true,
 				"Not F2P": true
@@ -62052,7 +60984,7 @@
 				"NoBoost": true,
 				"Not F2P": true
 			},
-			"Use the ~|greater Death's Swiftness|~ ability": {
+			"Use the ~|Greater Death's Swiftness|~ ability": {
 				"Items": ["Greater Death's Swiftness ability codex"],
 				"Tasks": {
 					"Use the ~|greater Death's Swiftness|~ ability": "Magic"
@@ -62575,69 +61507,6 @@
 				"Level": 99,
 				"Primary": false,
 				"Priority": 16,
-				"NoPet": true,
-				"NoBoost": true,
-				"Not F2P": true
-			},
-			"Unlock and use the ~|greater dazing shot|~ ability": {
-				"Items": ["Salt the Wound ability"],
-				"Level": 8,
-				"Primary": false,
-				"Priority": 1,
-				"NoPet": true,
-				"NoBoost": true,
-				"Not F2P": true
-			},
-			"Unlock and use the ~|demoralise|~ ability": {
-				"Items": ["Scare Tactics"],
-				"Level": 10,
-				"Primary": false,
-				"Priority": 13,
-				"NoPet": true,
-				"NoBoost": true,
-				"Not F2P": true
-			},
-			"Unlock and use the ~|rout|~ ability": {
-				"Items": ["Scare Tactics"],
-				"Level": 15,
-				"Primary": false,
-				"Priority": 1,
-				"NoPet": true,
-				"NoBoost": true,
-				"Not F2P": true
-			},
-			"Unlock and use the ~|greater ricochet|~ ability": {
-				"Items": ["Greater Richochet ability codex"],
-				"Level": 45,
-				"Primary": false,
-				"Priority": 3,
-				"NoPet": true,
-				"NoBoost": true,
-				"Not F2P": true
-			},
-			"Unlock and use the ~|Salt the Wound|~ ability": {
-				"Items": ["Salt the Wound ability"],
-				"Level": 65,
-				"Primary": false,
-				"Priority": 18,
-				"NoPet": true,
-				"NoBoost": true,
-				"Not F2P": true
-			},
-			"Unlock and use the ~|corruption shot|~ ability": {
-				"Items": ["Corruption Shot Ability Codex"],
-				"Level": 70,
-				"Primary": false,
-				"Priority": 15,
-				"NoPet": true,
-				"NoBoost": true,
-				"Not F2P": true
-			},
-			"Unlock and use the ~|shadow tendrils|~ ability": {
-				"Items": ["Codex Ultimatus"],
-				"Level": 75,
-				"Primary": false,
-				"Priority": 6,
 				"NoPet": true,
 				"NoBoost": true,
 				"Not F2P": true
@@ -70166,14 +69035,6 @@
 				"NoPet": true,
 				"NoBoost": true
 			},
-			"Use the ~|Chaos Roar|~ ability": {
-				"Items": ["Chaos Roar ability codex"],
-				"Level": 92,
-				"Primary": false,
-				"Priority": 1,
-				"NoPet": true,
-				"NoBoost": true
-			},
 			"Wield a ~|Ek-ZekKil|~": {
 				"Items": ["Ek-ZekKil"],
 				"Level": 95,
@@ -70331,14 +69192,6 @@
 				},
 				"Output": "Raw swordfish",
 				"Priority": 1
-			},
-			"Use the ~|greater fury|~ ability": {
-				"Items": ["Greater Fury ability codex"],
-				"Level": 24,
-				"Primary": false,
-				"Priority": 1,
-				"NoPet": true,
-				"NoBoost": true
 			},
 			"Open the door to the ~|Het tomb|~": {
 				"Chunks": ["13362-1"],
@@ -80797,7 +79650,7 @@
 			"~|Curse of the Black Stone|~ 6": {
 				"BaseQuest": "Curse of the Black Stone",
 				"Description": "Complete the Temple of Aminishi at any difficulty",
-				"Chunks": ["Temple of Aminishi"],
+				"Chunks": ["Temple of Aminishi (Story Mode)"],
 				"Tasks": {
 					"~|Curse of the Black Stone|~ 5": "Quest"
 				},
@@ -80861,7 +79714,7 @@
 			"~|Curse of the Black Stone|~ 13": {
 				"BaseQuest": "Curse of the Black Stone",
 				"Description": "Complete the Dragonkin Laboratory on any difficulty, then report back to Bryll",
-				"Chunks": ["Dragonkin Laboratory", "13625-1"],
+				"Chunks": ["Dragonkin Laboratory (Story Mode)", "13625-1"],
 				"Tasks": {
 					"~|Curse of the Black Stone|~ 12": "Quest"
 				},
@@ -81043,7 +79896,7 @@
 			"~|Curse of the Black Stone|~ 31": {
 				"BaseQuest": "Curse of the Black Stone",
 				"Description": "Complete the Shadow Reef on any difficulty",
-				"Chunks": ["The Shadow Reef"],
+				"Chunks": ["The Shadow Reef (Story Mode)"],
 				"Tasks": {
 					"~|Curse of the Black Stone|~ 30": "Quest"
 				},
@@ -105914,7 +104767,6 @@
 				"BaseQuest": "The Vault of Shadows",
 				"Description": "Bring the book to the vault and speak to Trindine",
 				"Chunks": ["Kharid-et - Barracks excavation site"],
-				"Items": ["Ring of visibility"],
 				"Tasks": {
 					"~|The Vault of Shadows|~ 6": "Quest"
 				},
@@ -111801,7 +110653,7 @@
 			"~|Falador Achievements#Easy|~ Making My Mind Up": {
 				"Description": "Make a mind tiara.",
 				"Chunks": ["Mind Rune Temple"],
-				"Items": ["Tiara", "Mind talisman"],
+				"Items": ["Silver bar", "Mind talisman"],
 				"BaseQuest": "Falador Achievements",
 				"Category": ["Show Diary Tasks"]
 			},
@@ -122945,7 +121797,7 @@
 				"Category": ["MQC achievements"],
 				"Description": "Loot the trunk in the Temple of Aminishi.",
 				"BaseQuest": "Completionist achievements",
-				"Chunks": ["The Arc", "Temple of Aminishi"],
+				"Chunks": ["The Arc", "Temple of Aminishi (Story Mode)"],
 				"Tasks": {
 					"~|Curse of the Black Stone|~ 5": "Quest"
 				},
@@ -126020,7 +124872,7 @@
 				"Category": ["MQC achievements"],
 				"Description": "Collect all 22 pages of dragonkin research in the Dragonkin Laboratory.",
 				"BaseQuest": "Completionist achievements",
-				"Chunks": ["Dragonkin Laboratory"],
+				"Chunks": ["Dragonkin Laboratory (Story Mode)"],
 				"Items": ["Law rune*", "Air rune*"],
 				"Skills": {
 					"Magic": 33
@@ -126067,7 +124919,7 @@
 				"Category": ["MQC achievements"],
 				"Description": "Collect all 22 pages of Elei's Diary in the Temple of Aminishi.",
 				"BaseQuest": "Completionist achievements",
-				"Chunks": ["Temple of Aminishi"],
+				"Chunks": ["Temple of Aminishi (Story Mode)"],
 				"Items": ["Law rune*", "Air rune*"],
 				"Skills": {
 					"Magic": 33
@@ -126299,7 +125151,7 @@
 				"Category": ["MQC achievements"],
 				"Description": "Collect all 22 pages of Umbral Diplomacy in the Shadow Reef.",
 				"BaseQuest": "Completionist achievements",
-				"Chunks": ["The Shadow Reef"],
+				"Chunks": ["The Shadow Reef (Story Mode)"],
 				"Items": ["Law rune*", "Air rune*"],
 				"Skills": {
 					"Magic": 33
@@ -127543,7 +126395,7 @@
 				"Category": ["Comp achievements", "Skillcape"],
 				"Description": "Increase all skills to mastery level.",
 				"BaseQuest": "Completionist achievements",
-				"TotalLevelNeeded": 3084,
+				"TotalLevelNeeded": 3200,
 				"NoBoost": true,
 				"Not F2P": true
 			},
@@ -130889,38 +129741,20 @@
 					"~|The World Wakes|~ Complete the quest": "Quest"
 				}
 			},
-			"(Magic) Unlock the ~|Shock|~ ability": {
-				"Category": ["Unlock Abilities"],
-				"Label": "Unlockable Abilities",
-				"Requirements": {
-					"Magic": 10
-				},
-				"Items": ["Scare Tactics"],
-				"NoBoost": true
-			},
 			"(Magic) Unlock the ~|Greater Concentrated Blast|~ ability": {
 				"Category": ["Unlock Abilities"],
 				"Label": "Unlockable Abilities",
 				"Requirements": {
-					"Magic": 12
+					"Magic": 66
 				},
 				"Items": ["Greater Concentrated blast ability codex"],
-				"NoBoost": true
-			},
-			"(Magic) Unlock the ~|Horror|~ ability": {
-				"Category": ["Unlock Abilities"],
-				"Label": "Unlockable Abilities",
-				"Requirements": {
-					"Magic": 15
-				},
-				"Items": ["Scare Tactics"],
 				"NoBoost": true
 			},
 			"(Magic) Unlock the ~|Greater Chain|~ ability": {
 				"Category": ["Unlock Abilities"],
 				"Label": "Unlockable Abilities",
 				"Requirements": {
-					"Magic": 45
+					"Magic": 51
 				},
 				"Items": ["Greater Chain ability codex"],
 				"NoBoost": true
@@ -130929,7 +129763,7 @@
 				"Category": ["Unlock Abilities"],
 				"Label": "Unlockable Abilities",
 				"Requirements": {
-					"Magic": 66
+					"Magic": 85
 				},
 				"Items": ["Magma Tempest ability codex"],
 				"NoBoost": true
@@ -130987,7 +129821,7 @@
 				"Category": ["Unlock Abilities"],
 				"Label": "Unlockable Abilities",
 				"Requirements": {
-					"Strength": 24
+					"Attack": 21
 				},
 				"Items": ["Greater Fury ability codex"],
 				"NoBoost": true
@@ -130996,7 +129830,7 @@
 				"Category": ["Unlock Abilities"],
 				"Label": "Unlockable Abilities",
 				"Requirements": {
-					"Attack": 30
+					"Attack": 65
 				},
 				"Items": ["Greater Barge ability codex"],
 				"NoBoost": true
@@ -131005,7 +129839,7 @@
 				"Category": ["Unlock Abilities"],
 				"Label": "Unlockable Abilities",
 				"Requirements": {
-					"Attack": 37
+					"Attack": 45
 				},
 				"Items": ["Greater Flurry ability codex"],
 				"NoBoost": true
@@ -131019,30 +129853,11 @@
 				"Items": ["Bladed Dive ability"],
 				"NoBoost": true
 			},
-			"(Melee) Unlock the ~|Blood Tendrils|~ ability": {
-				"Category": ["Unlock Abilities"],
-				"Label": "Unlockable Abilities",
-				"Requirements": {
-					"Attack": 75
-				},
-				"Items": ["Codex Ultimatus"],
-				"NoBoost": true
-			},
-			"(Melee) Unlock the ~|Balanced Strike|~ ability": {
-				"Category": ["Unlock Abilities"],
-				"Label": "Unlockable Abilities",
-				"Requirements": {
-					"Attack": 85
-				},
-				"Tasks": {
-					"~|The World Wakes|~ Complete the quest": "Quest"
-				}
-			},
 			"(Melee) Unlock the ~|Chaos Roar|~ ability": {
 				"Category": ["Unlock Abilities"],
 				"Label": "Unlockable Abilities",
 				"Requirements": {
-					"Strength": 92
+					"Attack": 92
 				},
 				"Items": ["Chaos Roar ability codex"],
 				"NoBoost": true
@@ -131251,40 +130066,13 @@
 				"Chunks": ["City of Um"],
 				"NoBoost": true
 			},
-			"(Ranged) Unlock the ~|Demoralise|~ ability": {
-				"Category": ["Unlock Abilities"],
-				"Label": "Unlockable Abilities",
-				"Requirements": {
-					"Ranged": 10
-				},
-				"Items": ["Scare Tactics"],
-				"NoBoost": true
-			},
-			"(Ranged) Unlock the ~|Rout|~ ability": {
-				"Category": ["Unlock Abilities"],
-				"Label": "Unlockable Abilities",
-				"Requirements": {
-					"Ranged": 15
-				},
-				"Items": ["Scare Tactics"],
-				"NoBoost": true
-			},
 			"(Ranged) Unlock the ~|Greater Ricochet|~ ability": {
 				"Category": ["Unlock Abilities"],
 				"Label": "Unlockable Abilities",
 				"Requirements": {
-					"Ranged": 45
+					"Ranged": 67
 				},
 				"Items": ["Greater Ricochet ability codex"],
-				"NoBoost": true
-			},
-			"(Ranged) Unlock the ~|Salt the Wound|~ and Greater Dazing Shot abilities": {
-				"Category": ["Unlock Abilities"],
-				"Label": "Unlockable Abilities",
-				"Requirements": {
-					"Ranged": 60
-				},
-				"Items": ["Salt the Wound ability"],
 				"NoBoost": true
 			},
 			"(Ranged) Unlock the ~|Corruption Shot|~ ability": {
@@ -137369,41 +136157,6 @@
 				"Category": ["Untracked Uniques", "Untracked Uniques Combat"],
 				"Label": "Untracked Combat Uniques",
 				"Items": ["Warpriest of Tuska cape"]
-			},
-			"(War's Retreat) Obtain the ~|vampyrism aura|~": {
-				"Category": ["Untracked Uniques", "Untracked Uniques Combat"],
-				"Label": "Untracked Combat Uniques",
-				"Chunks": ["War's Retreat"],
-				"Monsters": ["AnyBoss[+]"],
-				"Not F2P": true
-			},
-			"(War's Retreat) Obtain the ~|dark magic aura|~": {
-				"Category": ["Untracked Uniques", "Untracked Uniques Combat"],
-				"Label": "Untracked Combat Uniques",
-				"Chunks": ["War's Retreat"],
-				"Monsters": ["AnyBoss[+]"],
-				"Not F2P": true
-			},
-			"(War's Retreat) Obtain the ~|berserker aura|~": {
-				"Category": ["Untracked Uniques", "Untracked Uniques Combat"],
-				"Label": "Untracked Combat Uniques",
-				"Chunks": ["War's Retreat"],
-				"Monsters": ["AnyBoss[+]"],
-				"Not F2P": true
-			},
-			"(War's Retreat) Obtain the ~|reckless aura|~": {
-				"Category": ["Untracked Uniques", "Untracked Uniques Combat"],
-				"Label": "Untracked Combat Uniques",
-				"Chunks": ["War's Retreat"],
-				"Monsters": ["AnyBoss[+]"],
-				"Not F2P": true
-			},
-			"(War's Retreat) Obtain the ~|maniacal aura|~": {
-				"Category": ["Untracked Uniques", "Untracked Uniques Combat"],
-				"Label": "Untracked Combat Uniques",
-				"Chunks": ["War's Retreat"],
-				"Monsters": ["AnyBoss[+]"],
-				"Not F2P": true
 			},
 			"(Soul Reaper) Obtain ~|death notes|~": {
 				"Category": ["Untracked Uniques", "Untracked Uniques Combat", "Timegated"],
@@ -153923,6 +152676,10 @@
 				},
 				"Not F2P": true
 			},
+			"The Shadow Reef (Story Mode)": {
+				"UnlocksArea": true,
+				"Not F2P": true
+			},
 			"Morytania Slayer Tower dungeon": {
 				"Tasks": {
 					"Enter the ~|Morytania Morytania Slayer Tower dungeon|~": "Dungeoneering"
@@ -153960,13 +152717,22 @@
 				"UnlocksArea": true,
 				"Tasks": {
 					"Elite Dungeon Access[+]": "Nonskill"
-				}
+				},
+				"Not F2P": true
+			},
+			"Temple of Aminishi (Story Mode)": {
+				"UnlocksArea": true,
+				"Not F2P": true
 			},
 			"Dragonkin Laboratory": {
 				"UnlocksArea": true,
 				"Tasks": {
 					"Elite Dungeon Access[+]": "Nonskill"
 				},
+				"Not F2P": true
+			},
+			"Dragonkin Laboratory (Story Mode)": {
+				"UnlocksArea": true,
 				"Not F2P": true
 			},
 			"War's Retreat": {
@@ -158545,9 +157311,9 @@
 				"Items": ["Teci"]
 			},
 			"Imbue a ring of fortune*": {
-				"Items": ["Ring of fortune", "Teci"],
+				"Items": ["Ring of Fortune", "Teci"],
 				"Chunks": ["Mazcab"],
-				"Output": "Ring of fortune (i)"
+				"Output": "Ring of Fortune (i)"
 			},
 			"Imbue a luck of the dwarves*": {
 				"Items": ["Luck of the dwarves", "Teci"],
@@ -168249,7 +167015,7 @@
 			},
 			"Use a lvl-6 enchant tablet on an onyx ring": {
 				"Items": ["Lvl-6 enchant (item)*", "Onyx ring*"],
-				"Output": "Ring of fortune",
+				"Output": "Ring of Fortune",
 				"Not F2P": true
 			},
 			"Use a lvl-6 enchant tablet on an onyx necklace": {
@@ -168504,6 +167270,15 @@
 		},
 		"48": {
 			"Name": "Asuran Arsenal"
+		},
+		"49": {
+			"Name": "Temple of Aminish (Story Mode)"
+		},
+		"50": {
+			"Name": "Dragonkin Laboratory (Story Mode)"
+		},
+		"51": {
+			"Name": "The Shadow Reef (Story Mode)"
 		},
 		"258": {
 			"Spawn": {
@@ -195282,7 +194057,8 @@
 					},
 					"Connect": {
 						"12865": true,
-						"20112": true
+						"20112": true,
+						"50": true
 					},
 					"Shop": {
 						"Elite Dungeon Reward Shop": true,
@@ -196763,7 +195539,8 @@
 				"Quartermaster Gully": 1
 			},
 			"Connect": {
-				"21389": true
+				"21389": true,
+				"51": true
 			},
 			"Quest": {
 				"Curse of the Black Stone": "step",
@@ -215291,7 +214068,8 @@
 			},
 			"Connect": {
 				"12082": true,
-				"18063": true
+				"18063": true,
+				"49": true
 			},
 			"Shop": {
 				"Ani's Seed Store by the Sea Shore": true,
@@ -215529,6 +214307,28 @@
 				"Curse of the Black Stone": "step"
 			}
 		},
+		"The Shadow Reef (Story Mode)": {
+			"Object": {
+				"Abyss": 1,
+				"Cliff": 1,
+				"Anchor": 1,
+				"Mast": 2,
+				"Exit": 1
+			},
+			"NPC": {
+				"Firefly": 14
+			},
+			"Spawn": {
+				"Driftwood": 2,
+				"Raw tiger shark": 1
+			},
+			"Connect": {
+				"13881": true
+			},
+			"Quest": {
+				"Curse of the Black Stone": "step"
+			}
+		},
 		"Morytania Slayer Tower dungeon": {
 			"Object": {
 				"Mysterious exit": 1
@@ -215726,6 +214526,22 @@
 				"Curse of the Black Stone": "step"
 			}
 		},
+		"Temple of Aminishi (Story Mode)": {
+			"Object": {
+				"Mysterious lectern": 1,
+				"Discarded pages": 1,
+				"Armament log": 1,
+				"Discarded scraps": 1,
+				"Altar": 1,
+				"Shackle Platform": 2
+			},
+			"Connect": {
+				"8625": true
+			},
+			"Quest": {
+				"Curse of the Black Stone": "step"
+			}
+		},
 		"Dragonkin Laboratory": {
 			"Monster": {
 				"Red dragon (Dragonkin Laboratory)": 1,
@@ -215756,6 +214572,14 @@
 				"Verak Lith": 1, 
 				"Black Stone Dragon": 1
 			},
+			"Connect": {
+				"13372": true
+			},
+			"Quest": {
+				"Curse of the Black Stone": "step"
+			}
+		},
+		"Dragonkin Laboratory (Story Mode)": {
 			"Connect": {
 				"13372": true
 			},
@@ -221648,7 +220472,7 @@
 				"Third age ranger coif",
 				"Third age vambraces"
 			],
-			"T2Luck[+]": ["Ring of Wealth", "Pontifex shadow ring", "Collector's insignia", "Luck potion", "Leprechaun hat", "Enhanced luck potion", "Ring of fortune", "Enriched pontifex shadow ring", "Collector's insginia (charged)", "Luck of the Dwarves", "Hazelmere's signet ring"],
+			"T2Luck[+]": ["Ring of Wealth", "Pontifex shadow ring", "Collector's insignia", "Luck potion", "Leprechaun hat", "Enhanced luck potion", "Ring of Fortune", "Enriched pontifex shadow ring", "Collector's insginia (charged)", "Luck of the Dwarves", "Hazelmere's signet ring"],
 			"t20NecroWeapon[+]": ["Death guard (tier 20)", "Skull lantern (tier 20)"],
 			"t20NecroTankArmour[+]": ["Deathwarden hood (tier 20)", "Deathwarden robe top (tier 20)", "Deathwarden robe bottom (tier 20)", "Deathwarden gloves (tier 20)", "Deathwarden boots (tier 20)"],
 			"t30NecroWeapon[+]": ["Death guard (tier 30)", "Skull lantern (tier 30)"],
@@ -223711,7 +222535,7 @@
 			"EasyGnomeRestaurant[+]": ["9526-1", "9527-3", "9525-1", "9781", "Brimstail's cave", "9780-1"],
 			"EasyHideyHoles[+]": ["12849", "12337-1", "12338-1", "13366-1", "10804", "11824", "12082-1", "13107-1", "12340-1", "12595", "12339", "11826", "12854", "10548", "12084", "11574", "11061", "10291", "10292", "10807-1", "13364", "13111", "13106-1"],
 			"Edgeville/VarrockSewerChunk[+]": ["Edgeville Dungeon", "Varrock Sewers"],
-			"EliteDungeons[+]": ["Temple of Aminishi", "Dragonkin Laboratory", "The Shadow Reef", "Zamorakian Undercity"],
+			"EliteDungeons[+]": ["Temple of Aminishi (Story Mode)", "Dragonkin Laboratory (Story Mode)", "The Shadow Reef (Story Mode)", "Zamorakian Undercity"],
 			"ElunedChunks[+]": ["8753-2", "9009-1"],
 			"EnterTheAbyss3[+]": ["12853-1", "12337-1", "10547-1", "Brimstail's cave", "10288-1"],
 			"ErskineSlayerChunks[+]": ["Forinthry Dungeon", "12601", "13116", "12345", "12093", "12347-1", "12347-2", "12349", "12605", "13371", "12858", "13368-1", "13369-1", "Edgeville Dungeon", "13115", "12857", "12090", "11835", "12091-1", "12091-2", "11836"],
@@ -290059,7 +288883,6 @@
 			"Kuradal's Favour ability": true,
 			"Aggression ability": true,
 			"Bladed Dive ability": true,
-			"Salt the Wound ability": true,
 			"Abyssal Slayer Contract": true,
 			"Huge XP lamp (Slayer) (Shattered Worlds)": true,
 			"Abyssal Knights' armour override": true,
@@ -378184,7 +377007,7 @@
 			"prayer": 3,
 			"accuracy": 0
 		},
-		"Ring of fortune (i)": {
+		"Ring of Fortune (i)": {
 			"ranged_damage": 16.1,
 			"requirements": {},
 			"class": "none",

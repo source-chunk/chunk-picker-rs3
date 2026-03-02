@@ -448,7 +448,6 @@ let rules = {
     "F2P": false,
 	"Hard Mode Bosses": false,
 	"Group Content": false,
-	"Full Healing": false,
 	"PVP": false,
 	"Hero Items": false,
 	"Brawling Gloves": false,
@@ -585,7 +584,6 @@ let ruleNames = {
     "F2P": "Restrict to F2P skills/items/tasks only (Partially implemented)",
 	"Hard Mode Bosses": "Include Hard mode variants of bosses<span class='rule-asterisk noscroll'>*</span>",
 	"Group Content": "Require content that is intended to be completed in a group",
-	"Full Healing": "Require Constitution levels to fully heal from different foods",
 	"Unlock Abilities": "Must unlock all reward-locked abilities, including Necromancy incantations",
 	"Sigil Abilities": "Also include Sigil abilities (Aggression, Golden Touch, etc.)<span class='rule-asterisk noscroll'>*</span>",
 	"Unlock Prayers": "Must unlock all reward-locked prayers",
@@ -629,7 +627,6 @@ let rulePresets = {
         "Secondary Primary Amount": "1",
 		"Ogleroot": true,
 		"Achievement": true,
-		"Full Healing": true,
 		"Cleaning Herbs": true,
 		"Unlock Abilities": true,
         "Unlock Prayers": true,
@@ -709,7 +706,6 @@ let rulePresets = {
 		"Achievement": true,
 		"Multiple Agility": true,
 		"Hard Mode Bosses": true,
-		"Full Healing": true,
 		"Unlock Abilities": true,
 		"Sigil Abilities": true,
         "Unlock Prayers": true,
@@ -806,7 +802,6 @@ let rulePresets = {
 		"Multiple Agility": true,
 		"Hard Mode Bosses": true,
 		"PVP": true,
-		"Full Healing": true,
 		"Hero Items": true,
 		"Unlock Abilities": true,
 		"Sigil Abilities": true,
@@ -873,7 +868,6 @@ let ruleStructure = {
 		"Multiple Agility": true
     },
     "Combat": {
-		"Full Healing": true,
         "HigherLander": true,
 		"PvM Relics": true,
 		"Unlock Abilities": ["Sigil Abilities"],
@@ -12838,10 +12832,6 @@ let loadData = async function(startup) {
 
         if (!rulesTemp.hasOwnProperty('Boss Level')) {
             rulesTemp['Boss Level'] = rulesTemp.hasOwnProperty('Boss') ? rulesTemp['Boss'] : false;
-        }
-
-        if (!rulesTemp.hasOwnProperty('Full Healing')) {
-            rulesTemp['Full Healing'] = true;
         }
 		
 		if (!rulesTemp.hasOwnProperty('Unlock Prayers')) {
