@@ -14811,6 +14811,7 @@
   "Unlock the ~|boon of radiant energy|~": "t_117180",
   "Unlock the ~|boon of luminous energy|~": "t_117181",
   "Unlock the ~|boon of incandescent energy|~": "t_117182",
+  "Unlock the knockback effects from ~|Scare Tactics|~ for Backhand, Binding Shot and Impact": "t_117556",
   "Unlock the ~|Warrior of Het armour|~": "t_115837",
   "Unlock ~|gators|~": "t_115838",
   "Unlock the ~|Retro Primal Armour Set|~": "t_115839",
@@ -91177,5 +91178,5 @@
   "Pizazz points: ~|Death rune|~": "t_52854",
   "Pizazz points: ~|Soul rune|~": "t_52856",
   "Pizazz points: ~|Blood rune|~": "t_52857",
-  "currentNextIndex": 117556
+  "currentNextIndex": 117557
 }

@@ -144700,6 +144700,11 @@
 				"Label": "Permanent Unlockables",
 				"Items": ["Boon of incandescent energy*"]
 			},
+			"Unlock the knockback effects from ~|Scare Tactics|~ for Backhand, Binding Shot and Impact": {
+				"Category": ["Permanent Unlockabes"],
+				"Label": "Permanent Unlockables",
+				"Items": ["Scare Tactics*"]
+			},
 			"Unlock the ~|Warrior of Het armour|~": {
 				"Category": ["Permanent Unlockables", "Cosmetics"],
 				"Label": "Cosmetic Overrides",
