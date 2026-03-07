@@ -3923,6 +3923,7 @@
 				"Tasks": {
 					"Become an ~|archaeology assistant|~": "Archaeology"
 				},
+				"Items": ["Inquisitor's Memoirs (page 1)", "Inquisitor's Memoirs (page 2)"],
 				"Chunks": ["Senntisten"],
 				"Objects": ["Research notes"],
 				"Level": 67,
@@ -71805,6 +71806,12 @@
 				"Primary": true,
 				"Priority": 4
 			},
+			"Unlock the entrance to the ~|H.A.M. hideout|~": {
+				"Level": 1,
+				"Objects": ["Trapdoor (H.A.M. Hideout)"],
+				"Primary": true,
+				"Priority": 5
+			},
 			"Harvest a ~|winter sq'irk|~": {
 				"Chunks": ["Sorceress' Garden"],
 				"Level": 1,
@@ -71951,12 +71958,6 @@
 				"Output": "Ham member (lhm)",
 				"Primary": true,
 				"Priority": 1000
-			},
-			"Unlock the entrance to the ~|H.A.M. hideout|~": {
-				"Level": 15,
-				"Objects": ["Trapdoor (H.A.M. Hideout)"],
-				"Primary": true,
-				"Priority": 3
 			},
 			"Steal from a ~|silk stall|~": {
 				"Level": 15,
@@ -107152,7 +107153,8 @@
 				"Description": "Complete the research 'Complete the Pattern, Solve the Puzzle'",
 				"Chunks": ["Senntisten", "13364"],
 				"Tasks": {
-					"Archaeology Mystery: ~|Empty Children|~ 1": "Quest"
+					"Archaeology Mystery: ~|Empty Children|~ 1": "Quest",
+					"Become an ~|archaeology assistant|~": "Archaeology"
 				},
 				"Not F2P": true
 			},
@@ -107250,7 +107252,8 @@
 				"Description": "Study the scaffolding near Jimmy and complete the 'Crossing that Bridge' research",
 				"Chunks": ["Senntisten", "13364"],
 				"Tasks": {
-					"Archaeology Mystery: ~|Secrets of the Inquisition|~ 3": "Quest"
+					"Archaeology Mystery: ~|Secrets of the Inquisition|~ 3": "Quest",
+					"Become an ~|archaeology assistant|~": "Archaeology"
 				},
 				"Not F2P": true
 			},
@@ -188559,7 +188562,7 @@
 					"Object": {
 						"Broken railing": 1
 					},
-					"Monsters": {
+					"Monster": {
 						"Giant spider": 1
 					},
 					"NPC": {
@@ -193669,7 +193672,8 @@
 						"Het": 1,
 						"Chito": 1,
 						"Frito": 1,
-						"Plain whirligig": 8
+						"Plain whirligig": 8,
+						"Talent scout": 1
 					},
 					"Connect": {
 						"4957": true
@@ -210320,11 +210324,9 @@
 			"Object": {
 				"Bank deposit box": 1,
 				"Magical barrier": 1,
-				"Gold rock": 7,
 				"Iron rock": 6,
 				"Coal rock": 15,
 				"Luminite rock": 3,
-				"Runite rock": 6,
 				"Chest": 6,
 				"Small obelisk": 1,
 				"Crevice": 2,
@@ -223495,6 +223497,7 @@
 				"Archaeology Mystery: ~|Fall and Rise|~ Complete the mystery", 
 				"Archaeology Mystery: ~|Empty Children|~ Complete the mystery", 
 				"Archaeology Mystery: ~|Secrets of the Inquisition|~ Complete the mystery", 
+				"Archaeology Mystery: ~|Night Theatre|~ Complete the mystery", 
 				"Archaeology Mystery: ~|Dagon Bye|~ Complete the mystery", 
 				"Archaeology Mystery: ~|Atonement|~ Complete the mystery", 
 				"Archaeology Mystery: ~|Leap of Faith|~ Complete the mystery", 
@@ -281145,6 +281148,9 @@
 			"Gold charm^Catablepon": [{
 				"Members only": "Nonskill"
 			}],
+			"Gold charm^Goblin (Lumbridge)": [{
+				"Members only": "Nonskill"
+			}],
 			"Gold charm^Scorpion": [{
 				"Members only": "Nonskill"
 			}],
@@ -282574,6 +282580,9 @@
 				}],
 				"12597-1": [{
 					"Enter the ~|Cooks' Guild|~": "Cooking"
+				}],
+				"12850-1": [{
+					"~|Cooks' Assistant|~ Complete the quest": "Quest"
 				}]
 			},
 			"Chest (Magic Axe Hut)": {
@@ -282587,6 +282596,11 @@
 			"Chest (Wizards' Guild)": {
 				"10288": [{
 					"Enter the ~|Wizards' Guild|~": "Magic"
+				}]
+			},
+			"Citizen remains": {
+				"Senntisten": [{
+					"Complete the ~|Crossing that Bridge|~ research": "Archaeology"
 				}]
 			},
 			"Hopper": {
@@ -282865,6 +282879,11 @@
 			"Authentic Throwing Weapons": {
 				"10549": [{
 					"Enter the ~|Ranging Guild|~": "Ranged"
+				}]
+			},
+			"Ava's Odds and Ends": {
+				"12340-1": [{
+					"~|Animal Magnetism|~ Complete the quest": "Quest"
 				}]
 			},
 			"Banana Store": {
@@ -329523,7 +329542,7 @@
 				"12341-1",
 				"12596-1",
 				"12339",
-				"12094-3"
+				"12084-3"
 			]
 		},
 		"12341": {
