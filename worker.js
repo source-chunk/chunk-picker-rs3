@@ -168,6 +168,8 @@ let diaryProgress = {};
 let skillQuestXp = {};
 let kudosTotal = 0;
 let possibleSkillTotal = 0;
+let possibleSkillVirtualTotal = 0;
+let possibleSkillLegacyTotal = 0;
 let randomLoot;
 let magicTools;
 let bossLogs;
@@ -3544,8 +3546,12 @@ let calcChallenges = function(chunks, baseChunkData) {
                 tempPrimarySkill = checkPrimaryMethod(skill, newValids, baseChunkData);
                 if (skill === 'Slayer' && !!slayerLocked) {
                     possibleSkillTotal += slayerLocked['level'];
+                    possibleSkillVirtualTotal += slayerLocked['level'];
+                    possibleSkillLegacyTotal += slayerLocked['level'];
                 } else if (tempPrimarySkill) {
                     possibleSkillTotal += highestSkillLevels[skill];
+                    possibleSkillVirtualTotal += 120;
+                    possibleSkillLegacyTotal += 99;
                 } else if (!!passiveSkill && passiveSkill.hasOwnProperty(skill)) {
                     possibleSkillTotal += passiveSkill[skill] === 0 ? 1 : passiveSkill[skill];
                 } else if (skill === 'Constitution') {
@@ -3684,7 +3690,7 @@ let calcChallengesWork = function(chunks, baseChunkData, oldTempItemSkill) {
     }
 
     // Max Cape
-    if (rules['Skillcape'] && !!chunks && chunks.hasOwnProperty('11063')) {
+    if (rules['Skillcape'] && !!chunks && chunks.hasOwnProperty('12853')) {
         if (!valids['Extra']) {
             valids['Extra'] = {};
         }
@@ -3694,11 +3700,32 @@ let calcChallengesWork = function(chunks, baseChunkData, oldTempItemSkill) {
         }
         chunkInfo['challenges']['Extra']['Buy the ~|Max cape|~'] = {
             'Category': ['Skillcape'],
-            'Chunks': ['11063'],
-            'ChunksDetails': ['11063'],
+            'Chunks': ['12853'],
+            'ChunksDetails': ['12853'],
             'Label': 'Skillcapes',
             'Output': 'Max cape',
-            'TotalLevelNeeded': 2772,
+            'LegacyTotalLevelNeeded': 2871,
+            'Permanent': false
+        }
+    }
+	
+	// Master Max Cape
+    if (rules['Master skillcape'] && !!chunks && chunks.hasOwnProperty('12084')) {
+        if (!valids['Extra']) {
+            valids['Extra'] = {};
+        }
+        valids['Extra']['Buy the ~|Master max cape|~'] = 'Skillcapes';
+        if (!chunkInfo['challenges']['Extra']) {
+            chunkInfo['challenges']['Extra'] = {};
+        }
+        chunkInfo['challenges']['Extra']['Buy the ~|Master max cape|~'] = {
+            'Category': ['Master skillcape'],
+			'Items': ['Blurite keystone'],
+            'Chunks': ['12084'],
+            'ChunksDetails': ['12084'],
+            'Label': 'Master skillcapes',
+            'Output': 'Master max cape',
+            'TotalVirtualLevelNeeded': 3480,
             'Permanent': false
         }
     }
@@ -3833,7 +3860,23 @@ let calcChallengesWork = function(chunks, baseChunkData, oldTempItemSkill) {
             if (chunkInfo['challenges'][skill][name].hasOwnProperty('TotalLevelNeeded')) {
                 if (possibleSkillTotal < chunkInfo['challenges'][skill][name]['TotalLevelNeeded']) {
                     validChallenge = false;
-                    wrongThings.push('Total Level');
+                    wrongThings.push('True Total Level');
+                    nonValids[name] = wrongThings;
+                    return;
+                }
+            }
+			if (chunkInfo['challenges'][skill][name].hasOwnProperty('TotalVirtualLevelNeeded')) {
+                if (possibleSkillVirtualTotal < chunkInfo['challenges'][skill][name]['TotalVirtualLevelNeeded']) {
+                    validChallenge = false;
+                    wrongThings.push('Virtual Total Level');
+                    nonValids[name] = wrongThings;
+                    return;
+                }
+            }
+			if (chunkInfo['challenges'][skill][name].hasOwnProperty('LegacyTotalLevelNeeded')) {
+                if (possibleSkillLegacyTotal < chunkInfo['challenges'][skill][name]['LegacyTotalLevelNeeded']) {
+                    validChallenge = false;
+                    wrongThings.push('Legacy Total Level');
                     nonValids[name] = wrongThings;
                     return;
                 }

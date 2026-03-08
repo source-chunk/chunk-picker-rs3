@@ -1964,49 +1964,6 @@
 				"Priority": 1,
 				"NoPet": true
 			},
-			"Buy the ~|Max cape|~": {
-				"Tasks": {
-					"Complete the ~|Archaeology tutorial|~": "Archaeology"
-				},
-				"Category": ["Skillcape"],
-				"Items": ["Max cape"],
-				"Level": 99,
-				"Primary": false,
-				"Skills": {
-					"Archaeology": 99,
-					"Attack": 99,
-					"Constitution": 99,
-					"Construction": 99,
-					"Cooking": 99,
-					"Crafting": 99,
-					"Defence": 99,
-					"Divination": 99,
-					"Dungeoneering": 99,
-					"Farming": 99,
-					"Firemaking": 99,
-					"Fishing": 99,
-					"Fletching": 99,
-					"Herblore": 99,
-					"Hunter": 99,
-					"Invention": 99,
-					"Magic": 99,
-					"Mining": 99,
-					"Necromancy": 99,
-					"Prayer": 99,
-					"Ranged": 99,
-					"Runecrafting": 99,
-					"Slayer": 99,
-					"Smithing": 99,
-					"Strength": 99,
-					"Summoning": 99,
-					"Thieving": 99,
-					"Woodcutting": 99
-				},
-				"Priority": 1,
-				"NoBoost": true,
-				"NoPet": true,
-				"Not F2P": true
-			},
 			"Make a ~|Milestone cape (90)|~": {
 				"Category": ["Skillcape"],
 				"Items": ["Balls of wool"],
@@ -2059,92 +2016,6 @@
 				"Primary": false,
 				"Priority": 100,
 				"NoPet": true
-			},
-			"Create the ~|blurite keystone|~": {
-				"Tasks": {
-					"Complete the ~|Archaeology tutorial|~": "Archaeology"
-				},
-				"Category": ["Master skillcape"],
-				"Items": ["Blurite bar", "Ruby", "Emerald", "Sapphire"],
-				"Objects": ["Furnace[+]"],
-				"Level": 120,
-				"Output": "Blurite keystone",
-				"Primary": false,
-				"Skills": {
-					"Archaeology": 120,
-					"Attack": 120,
-					"Constitution": 120,
-					"Construction": 120,
-					"Cooking": 120,
-					"Crafting": 120,
-					"Defence": 120,
-					"Divination": 120,
-					"Dungeoneering": 120,
-					"Farming": 120,
-					"Firemaking": 120,
-					"Fishing": 120,
-					"Fletching": 120,
-					"Herblore": 120,
-					"Hunter": 120,
-					"Invention": 120,
-					"Magic": 120,
-					"Mining": 120,
-					"Necromancy": 120,
-					"Prayer": 120,
-					"Ranged": 120,
-					"Runecrafting": 120,
-					"Slayer": 120,
-					"Smithing": 120,
-					"Strength": 120,
-					"Summoning": 120,
-					"Thieving": 120,
-					"Woodcutting": 120
-				},
-				"Priority": 2,
-				"NoPet": true,
-				"Not F2P": true
-			},
-			"Buy the ~|Master max cape|~": {
-				"Tasks": {
-					"Complete the ~|Archaeology tutorial|~": "Archaeology"
-				},
-				"Category": ["Master skillcape"],
-				"Items": ["Master max cape", "Blurite keystone"],
-				"Level": 120,
-				"Primary": false,
-				"Skills": {
-					"Archaeology": 120,
-					"Attack": 120,
-					"Constitution": 120,
-					"Construction": 120,
-					"Cooking": 120,
-					"Crafting": 120,
-					"Defence": 120,
-					"Divination": 120,
-					"Dungeoneering": 120,
-					"Farming": 120,
-					"Firemaking": 120,
-					"Fishing": 120,
-					"Fletching": 120,
-					"Herblore": 120,
-					"Hunter": 120,
-					"Invention": 120,
-					"Magic": 120,
-					"Mining": 120,
-					"Prayer": 120,
-					"Ranged": 120,
-					"Runecrafting": 120,
-					"Slayer": 120,
-					"Smithing": 120,
-					"Strength": 120,
-					"Summoning": 120,
-					"Thieving": 120,
-					"Woodcutting": 120
-				},
-				"Priority": 1,
-				"NoBoost": true,
-				"NoPet": true,
-				"Not F2P": true
 			}
 		},
 		"Archaeology": {
@@ -2831,7 +2702,7 @@
 					"Complete the ~|Archaeology tutorial|~": "Archaeology",
 					"Excavate any artifact": "Nonskill",
 					"AnyCollection[+]": "Nonskill",
-					"AnyMystery[+]": "Quest"
+					"AnyAssistantMystery[+]": "Quest"
 				},
 				"Level": 40,
 				"NPCs": ["Acting Guildmaster Reiniger"],
@@ -7769,133 +7640,6 @@
 				"NoBoost": true,
 				"Priority": 3,
 				"Not F2P": true
-			},
-			"Buy the ~|Max cape|~": {
-				"Tasks": {
-					"Complete the ~|Archaeology tutorial|~": "Archaeology"
-				},
-				"Category": ["Skillcape"],
-				"Items": ["Max cape"],
-				"Level": 99,
-				"Primary": false,
-				"NoBoost": true,
-				"Skills": {
-					"Agility": 99,
-					"Attack": 99,
-					"Constitution": 99,
-					"Construction": 99,
-					"Cooking": 99,
-					"Crafting": 99,
-					"Defence": 99,
-					"Divination": 99,
-					"Dungeoneering": 99,
-					"Farming": 99,
-					"Firemaking": 99,
-					"Fishing": 99,
-					"Fletching": 99,
-					"Herblore": 99,
-					"Hunter": 99,
-					"Invention": 99,
-					"Magic": 99,
-					"Mining": 99,
-					"Necromancy": 99,
-					"Prayer": 99,
-					"Ranged": 99,
-					"Runecrafting": 99,
-					"Slayer": 99,
-					"Smithing": 99,
-					"Strength": 99,
-					"Summoning": 99,
-					"Thieving": 99,
-					"Woodcutting": 99
-				},
-				"Priority": 1,
-				"Not F2P": true
-			},
-			"Create the ~|blurite keystone|~": {
-				"Tasks": {
-					"Complete the ~|Archaeology tutorial|~": "Archaeology"
-				},
-				"Category": ["Master skillcape"],
-				"Items": ["Blurite bar", "Ruby", "Emerald", "Sapphire"],
-				"Objects": ["Furnace[+]"],
-				"Level": 120,
-				"Output": "Blurite keystone",
-				"Primary": false,
-				"NoBoost": true,
-				"Skills": {
-					"Agility": 120,
-					"Attack": 120,
-					"Constitution": 120,
-					"Construction": 120,
-					"Cooking": 120,
-					"Crafting": 120,
-					"Defence": 120,
-					"Divination": 120,
-					"Dungeoneering": 120,
-					"Farming": 120,
-					"Firemaking": 120,
-					"Fishing": 120,
-					"Fletching": 120,
-					"Herblore": 120,
-					"Hunter": 120,
-					"Invention": 120,
-					"Magic": 120,
-					"Mining": 120,
-					"Necromancy": 120,
-					"Prayer": 120,
-					"Ranged": 120,
-					"Runecrafting": 120,
-					"Slayer": 120,
-					"Smithing": 120,
-					"Strength": 120,
-					"Summoning": 120,
-					"Thieving": 120,
-					"Woodcutting": 120
-				},
-				"Priority": 2,
-				"Not F2P": true
-			},
-			"Buy the ~|Master max cape|~": {
-				"Tasks": {
-					"Complete the ~|Archaeology tutorial|~": "Archaeology"
-				},
-				"Category": ["Master skillcape"],
-				"Items": ["Master max cape", "Blurite keystone"],
-				"Level": 120,
-				"Primary": false,
-				"NoBoost": true,
-				"Skills": {
-					"Agility": 120,
-					"Attack": 120,
-					"Constitution": 120,
-					"Construction": 120,
-					"Cooking": 120,
-					"Crafting": 120,
-					"Defence": 120,
-					"Divination": 120,
-					"Dungeoneering": 120,
-					"Farming": 120,
-					"Firemaking": 120,
-					"Fishing": 120,
-					"Fletching": 120,
-					"Herblore": 120,
-					"Hunter": 120,
-					"Invention": 120,
-					"Magic": 120,
-					"Mining": 120,
-					"Prayer": 120,
-					"Ranged": 120,
-					"Runecrafting": 120,
-					"Slayer": 120,
-					"Smithing": 120,
-					"Strength": 120,
-					"Summoning": 120,
-					"Thieving": 120,
-					"Woodcutting": 120
-				},
-				"Priority": 1,
-				"Not F2P": true
 			}
 		},
 		"Attack": {
@@ -9515,136 +9259,6 @@
 				"NoPet": true,
 				"NoBoost": true,
 				"Not F2P": true
-			},
-			"Buy the ~|Max cape|~": {
-				"Tasks": {
-					"Complete the ~|Archaeology tutorial|~": "Archaeology"
-				},
-				"Category": ["Skillcape"],
-				"Items": ["Max cape"],
-				"Level": 99,
-				"Primary": false,
-				"Skills": {
-					"Agility": 99,
-					"Archaeology": 99,
-					"Constitution": 99,
-					"Construction": 99,
-					"Cooking": 99,
-					"Crafting": 99,
-					"Defence": 99,
-					"Divination": 99,
-					"Dungeoneering": 99,
-					"Farming": 99,
-					"Firemaking": 99,
-					"Fishing": 99,
-					"Fletching": 99,
-					"Herblore": 99,
-					"Hunter": 99,
-					"Invention": 99,
-					"Magic": 99,
-					"Mining": 99,
-					"Necromancy": 99,
-					"Prayer": 99,
-					"Ranged": 99,
-					"Runecrafting": 99,
-					"Slayer": 99,
-					"Smithing": 99,
-					"Strength": 99,
-					"Summoning": 99,
-					"Thieving": 99,
-					"Woodcutting": 99
-				},
-				"Priority": 1,
-				"NoPet": true,
-				"NoBoost": true,
-				"Not F2P": true
-			},
-			"Create the ~|blurite keystone|~": {
-				"Tasks": {
-					"Complete the ~|Archaeology tutorial|~": "Archaeology"
-				},
-				"Category": ["Master skillcape"],
-				"Items": ["Blurite bar", "Ruby", "Emerald", "Sapphire"],
-				"Objects": ["Furnace[+]"],
-				"Level": 120,
-				"Output": "Blurite keystone",
-				"Primary": false,
-				"Skills": {
-					"Agility": 120,
-					"Archaeology": 120,
-					"Constitution": 120,
-					"Construction": 120,
-					"Cooking": 120,
-					"Crafting": 120,
-					"Defence": 120,
-					"Divination": 120,
-					"Dungeoneering": 120,
-					"Farming": 120,
-					"Firemaking": 120,
-					"Fishing": 120,
-					"Fletching": 120,
-					"Herblore": 120,
-					"Hunter": 120,
-					"Invention": 120,
-					"Magic": 120,
-					"Mining": 120,
-					"Necromancy": 120,
-					"Prayer": 120,
-					"Ranged": 120,
-					"Runecrafting": 120,
-					"Slayer": 120,
-					"Smithing": 120,
-					"Strength": 120,
-					"Summoning": 120,
-					"Thieving": 120,
-					"Woodcutting": 120
-				},
-				"Priority": 2,
-				"NoPet": true,
-				"NoBoost": true,
-				"Not F2P": true
-			},
-			"Buy the ~|Master max cape|~": {
-				"Tasks": {
-					"Complete the ~|Archaeology tutorial|~": "Archaeology"
-				},
-				"Category": ["Master skillcape"],
-				"Items": ["Master max cape", "Blurite keystone"],
-				"Level": 120,
-				"Primary": false,
-				"Skills": {
-					"Agility": 120,
-					"Archaeology": 120,
-					"Constitution": 120,
-					"Construction": 120,
-					"Cooking": 120,
-					"Crafting": 120,
-					"Defence": 120,
-					"Divination": 120,
-					"Dungeoneering": 120,
-					"Farming": 120,
-					"Firemaking": 120,
-					"Fishing": 120,
-					"Fletching": 120,
-					"Herblore": 120,
-					"Hunter": 120,
-					"Invention": 120,
-					"Magic": 120,
-					"Mining": 120,
-					"Prayer": 120,
-					"Ranged": 120,
-					"Runecrafting": 120,
-					"Slayer": 120,
-					"Smithing": 120,
-					"Strength": 120,
-					"Summoning": 120,
-					"Thieving": 120,
-					"Woodcutting": 120
-				},
-				"Priority": 1,
-				"NoPet": true,
-				"NoBoost": true,
-				"Not F2P": true
 			}
 		},
 		"Combat": {
@@ -10348,146 +9962,6 @@
 			    "Primary": false,
 				"NoBoost": true,
 			    "Priority": 3,
-				"Not F2P": true
-			},
-			"Get the full amount of healing from ~|sailfish soup|~": {
-			    "Category": ["Full Healing"],
-			    "Items": ["Sailfish soup"],
-			    "Level": 99,
-			    "Primary": false,
-			    "Not Equip": false,
-			    "NoPet": true,
-			    "Priority": 5,
-				"Not F2P": true
-			},
-			"Buy the ~|Max cape|~": {
-				"Tasks": {
-					"Complete the ~|Archaeology tutorial|~": "Archaeology"
-				},
-				"Category": ["Skillcape"],
-				"Items": ["Max cape"],
-				"Level": 99,
-				"Primary": false,
-				"NoBoost": true,
-				"NoPet": true,
-				"Skills": {
-					"Agility": 99,
-					"Archaeology": 99,
-					"Attack": 99,
-					"Construction": 99,
-					"Cooking": 99,
-					"Crafting": 99,
-					"Defence": 99,
-					"Divination": 99,
-					"Dungeoneering": 99,
-					"Farming": 99,
-					"Firemaking": 99,
-					"Fishing": 99,
-					"Fletching": 99,
-					"Herblore": 99,
-					"Hunter": 99,
-					"Invention": 99,
-					"Magic": 99,
-					"Mining": 99,
-					"Necromancy": 99,
-					"Prayer": 99,
-					"Ranged": 99,
-					"Runecrafting": 99,
-					"Slayer": 99,
-					"Smithing": 99,
-					"Strength": 99,
-					"Summoning": 99,
-					"Thieving": 99,
-					"Woodcutting": 99
-				},
-				"Priority": 1,
-				"Not F2P": true
-			},
-			"Create the ~|blurite keystone|~": {
-				"Tasks": {
-					"Complete the ~|Archaeology tutorial|~": "Archaeology"
-				},
-				"Category": ["Master skillcape"],
-				"Items": ["Blurite bar", "Ruby", "Emerald", "Sapphire"],
-				"Objects": ["Furnace[+]"],
-				"Level": 120,
-				"Output": "Blurite keystone",
-				"Primary": false,
-				"NoBoost": true,
-				"NoPet": true,
-				"Skills": {
-					"Agility": 120,
-					"Archaeology": 120,
-					"Attack": 120,
-					"Construction": 120,
-					"Cooking": 120,
-					"Crafting": 120,
-					"Defence": 120,
-					"Divination": 120,
-					"Dungeoneering": 120,
-					"Farming": 120,
-					"Firemaking": 120,
-					"Fishing": 120,
-					"Fletching": 120,
-					"Herblore": 120,
-					"Hunter": 120,
-					"Invention": 120,
-					"Magic": 120,
-					"Mining": 120,
-					"Necromancy": 120,
-					"Prayer": 120,
-					"Ranged": 120,
-					"Runecrafting": 120,
-					"Slayer": 120,
-					"Smithing": 120,
-					"Strength": 120,
-					"Summoning": 120,
-					"Thieving": 120,
-					"Woodcutting": 120
-				},
-				"Priority": 2,
-				"Not F2P": true
-			},
-			"Buy the ~|Master max cape|~": {
-				"Tasks": {
-					"Complete the ~|Archaeology tutorial|~": "Archaeology"
-				},
-				"Category": ["Master skillcape"],
-				"Items": ["Master max cape", "Blurite keystone"],
-				"Level": 120,
-				"Primary": false,
-				"NoBoost": true,
-				"NoPet": true,
-				"Skills": {
-					"Agility": 120,
-					"Archaeology": 120,
-					"Attack": 120,
-					"Construction": 120,
-					"Cooking": 120,
-					"Crafting": 120,
-					"Defence": 120,
-					"Divination": 120,
-					"Dungeoneering": 120,
-					"Farming": 120,
-					"Firemaking": 120,
-					"Fishing": 120,
-					"Fletching": 120,
-					"Herblore": 120,
-					"Hunter": 120,
-					"Invention": 120,
-					"Magic": 120,
-					"Mining": 120,
-					"Prayer": 120,
-					"Ranged": 120,
-					"Runecrafting": 120,
-					"Slayer": 120,
-					"Smithing": 120,
-					"Strength": 120,
-					"Summoning": 120,
-					"Thieving": 120,
-					"Woodcutting": 120
-				},
-				"Priority": 1,
 				"Not F2P": true
 			}
 		},
@@ -15427,130 +14901,6 @@
 				"Primary": false,
 				"NoBoost": true,
 				"Priority": 3
-			},
-			"Buy the ~|Max cape|~": {
-				"Tasks": {
-					"Complete the ~|Archaeology tutorial|~": "Archaeology"
-				},
-				"Category": ["Skillcape"],
-				"Items": ["Max cape"],
-				"Level": 99,
-				"Primary": false,
-				"NoBoost": true,
-				"Skills": {
-					"Agility": 99,
-					"Archaeology": 99,
-					"Attack": 99,
-					"Constitution": 99,
-					"Cooking": 99,
-					"Crafting": 99,
-					"Defence": 99,
-					"Divination": 99,
-					"Dungeoneering": 99,
-					"Farming": 99,
-					"Firemaking": 99,
-					"Fishing": 99,
-					"Fletching": 99,
-					"Herblore": 99,
-					"Hunter": 99,
-					"Invention": 99,
-					"Magic": 99,
-					"Mining": 99,
-					"Necromancy": 99,
-					"Prayer": 99,
-					"Ranged": 99,
-					"Runecrafting": 99,
-					"Slayer": 99,
-					"Smithing": 99,
-					"Strength": 99,
-					"Summoning": 99,
-					"Thieving": 99,
-					"Woodcutting": 99
-				},
-				"Priority": 1
-			},
-			"Create the ~|blurite keystone|~": {
-				"Tasks": {
-					"Complete the ~|Archaeology tutorial|~": "Archaeology"
-				},
-				"Category": ["Master skillcape"],
-				"Items": ["Blurite bar", "Ruby", "Emerald", "Sapphire"],
-				"Objects": ["Furnace[+]"],
-				"Level": 120,
-				"Output": "Blurite keystone",
-				"Primary": false,
-				"NoBoost": true,
-				"Skills": {
-					"Agility": 120,
-					"Archaeology": 120,
-					"Attack": 120,
-					"Constitution": 120,
-					"Cooking": 120,
-					"Crafting": 120,
-					"Defence": 120,
-					"Divination": 120,
-					"Dungeoneering": 120,
-					"Farming": 120,
-					"Firemaking": 120,
-					"Fishing": 120,
-					"Fletching": 120,
-					"Herblore": 120,
-					"Hunter": 120,
-					"Invention": 120,
-					"Magic": 120,
-					"Mining": 120,
-					"Necromancy": 120,
-					"Prayer": 120,
-					"Ranged": 120,
-					"Runecrafting": 120,
-					"Slayer": 120,
-					"Smithing": 120,
-					"Strength": 120,
-					"Summoning": 120,
-					"Thieving": 120,
-					"Woodcutting": 120
-				},
-				"Priority": 2
-			},
-			"Buy the ~|Master max cape|~": {
-				"Tasks": {
-					"Complete the ~|Archaeology tutorial|~": "Archaeology"
-				},
-				"Category": ["Master skillcape"],
-				"Items": ["Master max cape", "Blurite keystone"],
-				"Level": 120,
-				"Primary": false,
-				"NoBoost": true,
-				"Skills": {
-					"Agility": 120,
-					"Archaeology": 120,
-					"Attack": 120,
-					"Constitution": 120,
-					"Cooking": 120,
-					"Crafting": 120,
-					"Defence": 120,
-					"Divination": 120,
-					"Dungeoneering": 120,
-					"Farming": 120,
-					"Firemaking": 120,
-					"Fishing": 120,
-					"Fletching": 120,
-					"Herblore": 120,
-					"Hunter": 120,
-					"Invention": 120,
-					"Magic": 120,
-					"Mining": 120,
-					"Prayer": 120,
-					"Ranged": 120,
-					"Runecrafting": 120,
-					"Slayer": 120,
-					"Smithing": 120,
-					"Strength": 120,
-					"Summoning": 120,
-					"Thieving": 120,
-					"Woodcutting": 120
-				},
-				"Priority": 1
 			}
 		},
 		"Cooking": {
@@ -18914,133 +18264,6 @@
 				"Output": "Primal starter",
 				"Primary": true,
 				"Priority": 1
-			},
-			"Buy the ~|Max cape|~": {
-				"Tasks": {
-					"Complete the ~|Archaeology tutorial|~": "Archaeology"
-				},
-				"Category": ["Skillcape"],
-				"Items": ["Max cape"],
-				"Level": 99,
-				"Primary": false,
-				"NoBoost": true,
-				"Skills": {
-					"Agility": 99,
-					"Archaeology": 99,
-					"Attack": 99,
-					"Constitution": 99,
-					"Construction": 99,
-					"Crafting": 99,
-					"Defence": 99,
-					"Divination": 99,
-					"Dungeoneering": 99,
-					"Farming": 99,
-					"Firemaking": 99,
-					"Fishing": 99,
-					"Fletching": 99,
-					"Herblore": 99,
-					"Hunter": 99,
-					"Invention": 99,
-					"Magic": 99,
-					"Mining": 99,
-					"Necromancy": 99,
-					"Prayer": 99,
-					"Ranged": 99,
-					"Runecrafting": 99,
-					"Slayer": 99,
-					"Smithing": 99,
-					"Strength": 99,
-					"Summoning": 99,
-					"Thieving": 99,
-					"Woodcutting": 99
-				},
-				"Priority": 1,
-				"Not F2P": true
-			},
-			"Create the ~|blurite keystone|~": {
-				"Tasks": {
-					"Complete the ~|Archaeology tutorial|~": "Archaeology"
-				},
-				"Category": ["Master skillcape"],
-				"Items": ["Blurite bar", "Ruby", "Emerald", "Sapphire"],
-				"Objects": ["Furnace[+]"],
-				"Level": 120,
-				"Output": "Blurite keystone",
-				"Primary": false,
-				"NoBoost": true,
-				"Skills": {
-					"Agility": 120,
-					"Archaeology": 120,
-					"Attack": 120,
-					"Constitution": 120,
-					"Construction": 120,
-					"Crafting": 120,
-					"Defence": 120,
-					"Divination": 120,
-					"Dungeoneering": 120,
-					"Farming": 120,
-					"Firemaking": 120,
-					"Fishing": 120,
-					"Fletching": 120,
-					"Herblore": 120,
-					"Hunter": 120,
-					"Invention": 120,
-					"Magic": 120,
-					"Mining": 120,
-					"Necromancy": 120,
-					"Prayer": 120,
-					"Ranged": 120,
-					"Runecrafting": 120,
-					"Slayer": 120,
-					"Smithing": 120,
-					"Strength": 120,
-					"Summoning": 120,
-					"Thieving": 120,
-					"Woodcutting": 120
-				},
-				"Priority": 2,
-				"Not F2P": true
-			},
-			"Buy the ~|Master max cape|~": {
-				"Tasks": {
-					"Complete the ~|Archaeology tutorial|~": "Archaeology"
-				},
-				"Category": ["Master skillcape"],
-				"Items": ["Master max cape", "Blurite keystone"],
-				"Level": 120,
-				"Primary": false,
-				"NoBoost": true,
-				"Skills": {
-					"Agility": 120,
-					"Archaeology": 120,
-					"Attack": 120,
-					"Constitution": 120,
-					"Construction": 120,
-					"Crafting": 120,
-					"Defence": 120,
-					"Divination": 120,
-					"Dungeoneering": 120,
-					"Farming": 120,
-					"Firemaking": 120,
-					"Fishing": 120,
-					"Fletching": 120,
-					"Herblore": 120,
-					"Hunter": 120,
-					"Invention": 120,
-					"Magic": 120,
-					"Mining": 120,
-					"Prayer": 120,
-					"Ranged": 120,
-					"Runecrafting": 120,
-					"Slayer": 120,
-					"Smithing": 120,
-					"Strength": 120,
-					"Summoning": 120,
-					"Thieving": 120,
-					"Woodcutting": 120
-				},
-				"Priority": 1,
-				"Not F2P": true
 			}
 		},
 		"Crafting": {
@@ -25264,48 +24487,6 @@
 				"Priority": 102,
 				"Not F2P": true
 			},
-			"Buy the ~|Max cape|~": {
-				"Tasks": {
-					"Complete the ~|Archaeology tutorial|~": "Archaeology"
-				},
-				"Category": ["Skillcape"],
-				"Items": ["Max cape"],
-				"Level": 99,
-				"Primary": false,
-				"NoBoost": true,
-				"Skills": {
-					"Agility": 99,
-					"Archaeology": 99,
-					"Attack": 99,
-					"Constitution": 99,
-					"Construction": 99,
-					"Cooking": 99,
-					"Defence": 99,
-					"Divination": 99,
-					"Dungeoneering": 99,
-					"Farming": 99,
-					"Firemaking": 99,
-					"Fishing": 99,
-					"Fletching": 99,
-					"Herblore": 99,
-					"Hunter": 99,
-					"Invention": 99,
-					"Magic": 99,
-					"Mining": 99,
-					"Necromancy": 99,
-					"Prayer": 99,
-					"Ranged": 99,
-					"Runecrafting": 99,
-					"Slayer": 99,
-					"Smithing": 99,
-					"Strength": 99,
-					"Summoning": 99,
-					"Thieving": 99,
-					"Woodcutting": 99
-				},
-				"Priority": 103,
-				"Not F2P": true
-			},
 			"Spin ~|starbloom thread|~": {
 				"Items": ["Starbloom flower*"],
 				"Level": 100,
@@ -25875,87 +25056,17 @@
 			},
 			"Create the ~|blurite keystone|~": {
 				"Tasks": {
-					"Complete the ~|Archaeology tutorial|~": "Archaeology"
+					"~|The Knight's Sword|~ Complete the quest": "Quest"
 				},
 				"Category": ["Master skillcape"],
 				"Items": ["Blurite bar", "Ruby", "Emerald", "Sapphire"],
 				"Objects": ["Furnace[+]"],
-				"Level": 120,
+				"Level": 110,
+				"TotalVirtualLevelNeeded": 3480,
 				"Output": "Blurite keystone",
-				"Primary": false,
+				"Primary": true,
 				"NoBoost": true,
-				"Skills": {
-					"Agility": 120,
-					"Archaeology": 120,
-					"Attack": 120,
-					"Constitution": 120,
-					"Construction": 120,
-					"Cooking": 120,
-					"Defence": 120,
-					"Divination": 120,
-					"Dungeoneering": 120,
-					"Farming": 120,
-					"Firemaking": 120,
-					"Fishing": 120,
-					"Fletching": 120,
-					"Herblore": 120,
-					"Hunter": 120,
-					"Invention": 120,
-					"Magic": 120,
-					"Mining": 120,
-					"Necromancy": 120,
-					"Prayer": 120,
-					"Ranged": 120,
-					"Runecrafting": 120,
-					"Slayer": 120,
-					"Smithing": 120,
-					"Strength": 120,
-					"Summoning": 120,
-					"Thieving": 120,
-					"Woodcutting": 120
-				},
 				"Priority": 2,
-				"Not F2P": true
-			},
-			"Buy the ~|Master max cape|~": {
-				"Tasks": {
-					"Complete the ~|Archaeology tutorial|~": "Archaeology"
-				},
-				"Category": ["Master skillcape"],
-				"Items": ["Master max cape", "Blurite keystone"],
-				"Level": 120,
-				"Primary": false,
-				"NoBoost": true,
-				"Skills": {
-					"Agility": 120,
-					"Archaeology": 120,
-					"Attack": 120,
-					"Constitution": 120,
-					"Construction": 120,
-					"Cooking": 120,
-					"Defence": 120,
-					"Divination": 120,
-					"Dungeoneering": 120,
-					"Farming": 120,
-					"Firemaking": 120,
-					"Fishing": 120,
-					"Fletching": 120,
-					"Herblore": 120,
-					"Hunter": 120,
-					"Invention": 120,
-					"Magic": 120,
-					"Mining": 120,
-					"Prayer": 120,
-					"Ranged": 120,
-					"Runecrafting": 120,
-					"Slayer": 120,
-					"Smithing": 120,
-					"Strength": 120,
-					"Summoning": 120,
-					"Thieving": 120,
-					"Woodcutting": 120
-				},
-				"Priority": 3,
 				"Not F2P": true
 			}
 		},
@@ -29010,135 +28121,6 @@
 				"Level": 1,
 				"Primary": true,
 				"Priority": 15
-			},
-			"Buy the ~|Max cape|~": {
-				"Tasks": {
-					"Complete the ~|Archaeology tutorial|~": "Archaeology"
-				},
-				"Category": ["Skillcape"],
-				"Items": ["Max cape"],
-				"Level": 99,
-				"Primary": false,
-				"Skills": {
-					"Agility": 99,
-					"Archaeology": 99,
-					"Attack": 99,
-					"Constitution": 99,
-					"Construction": 99,
-					"Cooking": 99,
-					"Crafting": 99,
-					"Divination": 99,
-					"Dungeoneering": 99,
-					"Farming": 99,
-					"Firemaking": 99,
-					"Fishing": 99,
-					"Fletching": 99,
-					"Herblore": 99,
-					"Hunter": 99,
-					"Invention": 99,
-					"Magic": 99,
-					"Mining": 99,
-					"Necromancy": 99,
-					"Prayer": 99,
-					"Ranged": 99,
-					"Runecrafting": 99,
-					"Slayer": 99,
-					"Smithing": 99,
-					"Strength": 99,
-					"Summoning": 99,
-					"Thieving": 99,
-					"Woodcutting": 99
-				},
-				"Priority": 1,
-				"NoPet": true,
-				"NoBoost": true,
-				"Not F2P": true
-			},
-			"Create the ~|blurite keystone|~": {
-				"Tasks": {
-					"Complete the ~|Archaeology tutorial|~": "Archaeology"
-				},
-				"Category": ["Master skillcape"],
-				"Items": ["Blurite bar", "Ruby", "Emerald", "Sapphire"],
-				"Objects": ["Furnace[+]"],
-				"Level": 120,
-				"Output": "Blurite keystone",
-				"Primary": true,
-				"Skills": {
-					"Agility": 120,
-					"Archaeology": 120,
-					"Attack": 120,
-					"Constitution": 120,
-					"Construction": 120,
-					"Cooking": 120,
-					"Crafting": 120,
-					"Divination": 120,
-					"Dungeoneering": 120,
-					"Farming": 120,
-					"Firemaking": 120,
-					"Fishing": 120,
-					"Fletching": 120,
-					"Herblore": 120,
-					"Hunter": 120,
-					"Invention": 120,
-					"Magic": 120,
-					"Mining": 120,
-					"Necromancy": 120,
-					"Prayer": 120,
-					"Ranged": 120,
-					"Runecrafting": 120,
-					"Slayer": 120,
-					"Smithing": 120,
-					"Strength": 120,
-					"Summoning": 120,
-					"Thieving": 120,
-					"Woodcutting": 120
-				},
-				"Priority": 2,
-				"NoPet": true,
-				"NoBoost": true,
-				"Not F2P": true
-			},
-			"Buy the ~|Master max cape|~": {
-				"Tasks": {
-					"Complete the ~|Archaeology tutorial|~": "Archaeology"
-				},
-				"Category": ["Master skillcape"],
-				"Items": ["Master max cape", "Blurite keystone"],
-				"Level": 120,
-				"Primary": false,
-				"Skills": {
-					"Agility": 120,
-					"Archaeology": 120,
-					"Attack": 120,
-					"Constitution": 120,
-					"Construction": 120,
-					"Cooking": 120,
-					"Crafting": 120,
-					"Divination": 120,
-					"Dungeoneering": 120,
-					"Farming": 120,
-					"Firemaking": 120,
-					"Fishing": 120,
-					"Fletching": 120,
-					"Herblore": 120,
-					"Hunter": 120,
-					"Invention": 120,
-					"Magic": 120,
-					"Mining": 120,
-					"Prayer": 120,
-					"Ranged": 120,
-					"Runecrafting": 120,
-					"Slayer": 120,
-					"Smithing": 120,
-					"Strength": 120,
-					"Summoning": 120,
-					"Thieving": 120,
-					"Woodcutting": 120
-				},
-				"Priority": 1,
-				"NoPet": true,
-				"NoBoost": true
 			}
 		},
 		"Divination": {
@@ -30912,130 +29894,6 @@
 				"Priority": 3,
 				"Output": "Senntisten scroll",
 				"NoPet": true
-			},
-			"Buy the ~|Max cape|~": {
-				"Tasks": {
-					"Complete the ~|Archaeology tutorial|~": "Archaeology"
-				},
-				"Category": ["Skillcape"],
-				"Items": ["Max cape"],
-				"Level": 99,
-				"Primary": false,
-				"NoBoost": true,
-				"Skills": {
-					"Agility": 99,
-					"Archaeology": 99,
-					"Attack": 99,
-					"Constitution": 99,
-					"Construction": 99,
-					"Cooking": 99,
-					"Crafting": 99,
-					"Defence": 99,
-					"Dungeoneering": 99,
-					"Farming": 99,
-					"Firemaking": 99,
-					"Fishing": 99,
-					"Fletching": 99,
-					"Herblore": 99,
-					"Hunter": 99,
-					"Invention": 99,
-					"Magic": 99,
-					"Mining": 99,
-					"Necromancy": 99,
-					"Prayer": 99,
-					"Ranged": 99,
-					"Runecrafting": 99,
-					"Slayer": 99,
-					"Smithing": 99,
-					"Strength": 99,
-					"Summoning": 99,
-					"Thieving": 99,
-					"Woodcutting": 99
-				},
-				"Priority": 1
-			},
-			"Create the ~|blurite keystone|~": {
-				"Tasks": {
-					"Complete the ~|Archaeology tutorial|~": "Archaeology"
-				},
-				"Category": ["Master skillcape"],
-				"Items": ["Blurite bar", "Ruby", "Emerald", "Sapphire"],
-				"Objects": ["Furnace[+]"],
-				"Level": 120,
-				"Output": "Blurite keystone",
-				"Primary": false,
-				"NoBoost": true,
-				"Skills": {
-					"Agility": 120,
-					"Archaeology": 120,
-					"Attack": 120,
-					"Constitution": 120,
-					"Construction": 120,
-					"Cooking": 120,
-					"Crafting": 120,
-					"Defence": 120,
-					"Dungeoneering": 120,
-					"Farming": 120,
-					"Firemaking": 120,
-					"Fishing": 120,
-					"Fletching": 120,
-					"Herblore": 120,
-					"Hunter": 120,
-					"Invention": 120,
-					"Magic": 120,
-					"Mining": 120,
-					"Necromancy": 120,
-					"Prayer": 120,
-					"Ranged": 120,
-					"Runecrafting": 120,
-					"Slayer": 120,
-					"Smithing": 120,
-					"Strength": 120,
-					"Summoning": 120,
-					"Thieving": 120,
-					"Woodcutting": 120
-				},
-				"Priority": 2
-			},
-			"Buy the ~|Master max cape|~": {
-				"Tasks": {
-					"Complete the ~|Archaeology tutorial|~": "Archaeology"
-				},
-				"Category": ["Master skillcape"],
-				"Items": ["Master max cape", "Blurite keystone"],
-				"Level": 120,
-				"Primary": false,
-				"NoBoost": true,
-				"Skills": {
-					"Agility": 120,
-					"Archaeology": 120,
-					"Attack": 120,
-					"Constitution": 120,
-					"Construction": 120,
-					"Cooking": 120,
-					"Crafting": 120,
-					"Defence": 120,
-					"Dungeoneering": 120,
-					"Farming": 120,
-					"Firemaking": 120,
-					"Fishing": 120,
-					"Fletching": 120,
-					"Herblore": 120,
-					"Hunter": 120,
-					"Invention": 120,
-					"Magic": 120,
-					"Mining": 120,
-					"Prayer": 120,
-					"Ranged": 120,
-					"Runecrafting": 120,
-					"Slayer": 120,
-					"Smithing": 120,
-					"Strength": 120,
-					"Summoning": 120,
-					"Thieving": 120,
-					"Woodcutting": 120
-				},
-				"Priority": 1
 			}
 		},
 		"Dungeoneering": {
@@ -31945,133 +30803,6 @@
 				"Primary": false,
 				"NoBoost": true,
 				"Priority": 3,
-				"Not F2P": true
-			},
-			"Buy the ~|Max cape|~": {
-				"Tasks": {
-					"Complete the ~|Archaeology tutorial|~": "Archaeology"
-				},
-				"Category": ["Skillcape"],
-				"Items": ["Max cape"],
-				"Level": 99,
-				"Primary": false,
-				"NoBoost": true,
-				"Skills": {
-					"Agility": 99,
-					"Archaeology": 99,
-					"Attack": 99,
-					"Constitution": 99,
-					"Construction": 99,
-					"Cooking": 99,
-					"Crafting": 99,
-					"Defence": 99,
-					"Divination": 99,
-					"Farming": 99,
-					"Firemaking": 99,
-					"Fishing": 99,
-					"Fletching": 99,
-					"Herblore": 99,
-					"Hunter": 99,
-					"Invention": 99,
-					"Magic": 99,
-					"Mining": 99,
-					"Necromancy": 99,
-					"Prayer": 99,
-					"Ranged": 99,
-					"Runecrafting": 99,
-					"Slayer": 99,
-					"Smithing": 99,
-					"Strength": 99,
-					"Summoning": 99,
-					"Thieving": 99,
-					"Woodcutting": 99
-				},
-				"Priority": 1,
-				"Not F2P": true
-			},
-			"Create the ~|blurite keystone|~": {
-				"Tasks": {
-					"Complete the ~|Archaeology tutorial|~": "Archaeology"
-				},
-				"Category": ["Master skillcape"],
-				"Items": ["Blurite bar", "Ruby", "Emerald", "Sapphire"],
-				"Objects": ["Furnace[+]"],
-				"Level": 120,
-				"Output": "Blurite keystone",
-				"Primary": false,
-				"NoBoost": true,
-				"Skills": {
-					"Agility": 120,
-					"Archaeology": 120,
-					"Attack": 120,
-					"Constitution": 120,
-					"Construction": 120,
-					"Cooking": 120,
-					"Crafting": 120,
-					"Defence": 120,
-					"Divination": 120,
-					"Farming": 120,
-					"Firemaking": 120,
-					"Fishing": 120,
-					"Fletching": 120,
-					"Herblore": 120,
-					"Hunter": 120,
-					"Invention": 120,
-					"Magic": 120,
-					"Mining": 120,
-					"Necromancy": 120,
-					"Prayer": 120,
-					"Ranged": 120,
-					"Runecrafting": 120,
-					"Slayer": 120,
-					"Smithing": 120,
-					"Strength": 120,
-					"Summoning": 120,
-					"Thieving": 120,
-					"Woodcutting": 120
-				},
-				"Priority": 2,
-				"Not F2P": true
-			},
-			"Buy the ~|Master max cape|~": {
-				"Tasks": {
-					"Complete the ~|Archaeology tutorial|~": "Archaeology"
-				},
-				"Category": ["Master skillcape"],
-				"Items": ["Master max cape", "Blurite keystone"],
-				"Level": 120,
-				"Primary": false,
-				"NoBoost": true,
-				"Skills": {
-					"Agility": 120,
-					"Archaeology": 120,
-					"Attack": 120,
-					"Constitution": 120,
-					"Construction": 120,
-					"Cooking": 120,
-					"Crafting": 120,
-					"Defence": 120,
-					"Divination": 120,
-					"Farming": 120,
-					"Firemaking": 120,
-					"Fishing": 120,
-					"Fletching": 120,
-					"Herblore": 120,
-					"Hunter": 120,
-					"Invention": 120,
-					"Magic": 120,
-					"Mining": 120,
-					"Prayer": 120,
-					"Ranged": 120,
-					"Runecrafting": 120,
-					"Slayer": 120,
-					"Smithing": 120,
-					"Strength": 120,
-					"Summoning": 120,
-					"Thieving": 120,
-					"Woodcutting": 120
-				},
-				"Priority": 1,
 				"Not F2P": true
 			}
 		},
@@ -36613,130 +35344,6 @@
 				"Primary": false,
 				"NoBoost": true,
 				"Priority": 3
-			},
-			"Buy the ~|Max cape|~": {
-				"Tasks": {
-					"Complete the ~|Archaeology tutorial|~": "Archaeology"
-				},
-				"Category": ["Skillcape"],
-				"Items": ["Max cape"],
-				"Level": 99,
-				"Primary": false,
-				"NoBoost": true,
-				"Skills": {
-					"Agility": 99,
-					"Archaeology": 99,
-					"Attack": 99,
-					"Constitution": 99,
-					"Construction": 99,
-					"Cooking": 99,
-					"Crafting": 99,
-					"Defence": 99,
-					"Divination": 99,
-					"Dungeoneering": 99,
-					"Firemaking": 99,
-					"Fishing": 99,
-					"Fletching": 99,
-					"Herblore": 99,
-					"Hunter": 99,
-					"Invention": 99,
-					"Magic": 99,
-					"Mining": 99,
-					"Necromancy": 99,
-					"Prayer": 99,
-					"Ranged": 99,
-					"Runecrafting": 99,
-					"Slayer": 99,
-					"Smithing": 99,
-					"Strength": 99,
-					"Summoning": 99,
-					"Thieving": 99,
-					"Woodcutting": 99
-				},
-				"Priority": 1
-			},
-			"Create the ~|blurite keystone|~": {
-				"Tasks": {
-					"Complete the ~|Archaeology tutorial|~": "Archaeology"
-				},
-				"Category": ["Master skillcape"],
-				"Items": ["Blurite bar", "Ruby", "Emerald", "Sapphire"],
-				"Objects": ["Furnace[+]"],
-				"Level": 120,
-				"Output": "Blurite keystone",
-				"Primary": false,
-				"NoBoost": true,
-				"Skills": {
-					"Agility": 120,
-					"Archaeology": 120,
-					"Attack": 120,
-					"Constitution": 120,
-					"Construction": 120,
-					"Cooking": 120,
-					"Crafting": 120,
-					"Defence": 120,
-					"Divination": 120,
-					"Dungeoneering": 120,
-					"Firemaking": 120,
-					"Fishing": 120,
-					"Fletching": 120,
-					"Herblore": 120,
-					"Hunter": 120,
-					"Invention": 120,
-					"Magic": 120,
-					"Mining": 120,
-					"Necromancy": 120,
-					"Prayer": 120,
-					"Ranged": 120,
-					"Runecrafting": 120,
-					"Slayer": 120,
-					"Smithing": 120,
-					"Strength": 120,
-					"Summoning": 120,
-					"Thieving": 120,
-					"Woodcutting": 120
-				},
-				"Priority": 2
-			},
-			"Buy the ~|Master max cape|~": {
-				"Tasks": {
-					"Complete the ~|Archaeology tutorial|~": "Archaeology"
-				},
-				"Category": ["Master skillcape"],
-				"Items": ["Master max cape", "Blurite keystone"],
-				"Level": 120,
-				"Primary": false,
-				"NoBoost": true,
-				"Skills": {
-					"Agility": 120,
-					"Archaeology": 120,
-					"Attack": 120,
-					"Constitution": 120,
-					"Construction": 120,
-					"Cooking": 120,
-					"Crafting": 120,
-					"Defence": 120,
-					"Divination": 120,
-					"Dungeoneering": 120,
-					"Firemaking": 120,
-					"Fishing": 120,
-					"Fletching": 120,
-					"Herblore": 120,
-					"Hunter": 120,
-					"Invention": 120,
-					"Magic": 120,
-					"Mining": 120,
-					"Prayer": 120,
-					"Ranged": 120,
-					"Runecrafting": 120,
-					"Slayer": 120,
-					"Smithing": 120,
-					"Strength": 120,
-					"Summoning": 120,
-					"Thieving": 120,
-					"Woodcutting": 120
-				},
-				"Priority": 1
 			}
 		},
 		"Firemaking": {
@@ -38846,48 +37453,6 @@
 				"Primary": true,
 				"priority": 10
 			},
-			"Buy the ~|Max cape|~": {
-				"Tasks": {
-					"Complete the ~|Archaeology tutorial|~": "Archaeology"
-				},
-				"Category": ["Skillcape"],
-				"Items": ["Max cape"],
-				"Level": 99,
-				"Primary": false,
-				"NoBoost": true,
-				"Skills": {
-					"Agility": 99,
-					"Archaeology": 99,
-					"Attack": 99,
-					"Constitution": 99,
-					"Construction": 99,
-					"Cooking": 99,
-					"Crafting": 99,
-					"Defence": 99,
-					"Divination": 99,
-					"Dungeoneering": 99,
-					"Farming": 99,
-					"Fishing": 99,
-					"Fletching": 99,
-					"Herblore": 99,
-					"Hunter": 99,
-					"Invention": 99,
-					"Magic": 99,
-					"Mining": 99,
-					"Necromancy": 99,
-					"Prayer": 99,
-					"Ranged": 99,
-					"Runecrafting": 99,
-					"Slayer": 99,
-					"Smithing": 99,
-					"Strength": 99,
-					"Summoning": 99,
-					"Thieving": 99,
-					"Woodcutting": 99
-				},
-				"Priority": 1,
-				"Not F2P": true
-			},
 			"Light a fire using ~|eternal magic logs|~": {
 				"Items": ["Eternal magic logs*"],
 				"Level": 100,
@@ -38901,91 +37466,6 @@
 				"Level": 100,
 				"Primary": true,
 				"Priority": 2
-			},
-			"Create the ~|blurite keystone|~": {
-				"Tasks": {
-					"Complete the ~|Archaeology tutorial|~": "Archaeology"
-				},
-				"Category": ["Master skillcape"],
-				"Items": ["Blurite bar", "Ruby", "Emerald", "Sapphire"],
-				"Objects": ["Furnace[+]"],
-				"Level": 120,
-				"Output": "Blurite keystone",
-				"Primary": false,
-				"NoBoost": true,
-				"Skills": {
-					"Agility": 120,
-					"Archaeology": 120,
-					"Attack": 120,
-					"Constitution": 120,
-					"Construction": 120,
-					"Cooking": 120,
-					"Crafting": 120,
-					"Defence": 120,
-					"Divination": 120,
-					"Dungeoneering": 120,
-					"Farming": 120,
-					"Fishing": 120,
-					"Fletching": 120,
-					"Herblore": 120,
-					"Hunter": 120,
-					"Invention": 120,
-					"Magic": 120,
-					"Mining": 120,
-					"Necromancy": 120,
-					"Prayer": 120,
-					"Ranged": 120,
-					"Runecrafting": 120,
-					"Slayer": 120,
-					"Smithing": 120,
-					"Strength": 120,
-					"Summoning": 120,
-					"Thieving": 120,
-					"Woodcutting": 120
-				},
-				"Priority": 2,
-				"Not F2P": true
-			},
-			"Buy the ~|Master max cape|~": {
-				"Tasks": {
-					"Complete the ~|Archaeology tutorial|~": "Archaeology"
-				},
-				"Category": ["Master skillcape"],
-				"Items": ["Master max cape", "Blurite keystone"],
-				"Level": 120,
-				"Primary": false,
-				"NoBoost": true,
-				"Skills": {
-					"Agility": 120,
-					"Archaeology": 120,
-					"Attack": 120,
-					"Constitution": 120,
-					"Construction": 120,
-					"Cooking": 120,
-					"Crafting": 120,
-					"Defence": 120,
-					"Divination": 120,
-					"Dungeoneering": 120,
-					"Farming": 120,
-					"Fishing": 120,
-					"Fletching": 120,
-					"Herblore": 120,
-					"Hunter": 120,
-					"Invention": 120,
-					"Magic": 120,
-					"Mining": 120,
-					"Prayer": 120,
-					"Ranged": 120,
-					"Runecrafting": 120,
-					"Slayer": 120,
-					"Smithing": 120,
-					"Strength": 120,
-					"Summoning": 120,
-					"Thieving": 120,
-					"Woodcutting": 120
-				},
-				"Priority": 1,
-				"Not F2P": true
 			}
 		},
 		"Fishing": {
@@ -40132,133 +38612,6 @@
 				},
 				"Primary": true,
 				"Priority": 7
-			},
-			"Buy the ~|Max cape|~": {
-				"Tasks": {
-					"Complete the ~|Archaeology tutorial|~": "Archaeology"
-				},
-				"Category": ["Skillcape"],
-				"Items": ["Max cape"],
-				"Level": 99,
-				"Primary": false,
-				"NoBoost": true,
-				"Skills": {
-					"Agility": 99,
-					"Archaeology": 99,
-					"Attack": 99,
-					"Constitution": 99,
-					"Construction": 99,
-					"Cooking": 99,
-					"Crafting": 99,
-					"Defence": 99,
-					"Divination": 99,
-					"Dungeoneering": 99,
-					"Farming": 99,
-					"Fishing": 99,
-					"Firemaking": 99,
-					"Herblore": 99,
-					"Hunter": 99,
-					"Invention": 99,
-					"Magic": 99,
-					"Mining": 99,
-					"Necromancy": 99,
-					"Prayer": 99,
-					"Ranged": 99,
-					"Runecrafting": 99,
-					"Slayer": 99,
-					"Smithing": 99,
-					"Strength": 99,
-					"Summoning": 99,
-					"Thieving": 99,
-					"Woodcutting": 99
-				},
-				"Priority": 1,
-				"Not F2P": true
-			},
-			"Create the ~|blurite keystone|~": {
-				"Tasks": {
-					"Complete the ~|Archaeology tutorial|~": "Archaeology"
-				},
-				"Category": ["Master skillcape"],
-				"Items": ["Blurite bar", "Ruby", "Emerald", "Sapphire"],
-				"Objects": ["Furnace[+]"],
-				"Level": 120,
-				"Output": "Blurite keystone",
-				"Primary": false,
-				"NoBoost": true,
-				"Skills": {
-					"Agility": 120,
-					"Archaeology": 120,
-					"Attack": 120,
-					"Constitution": 120,
-					"Construction": 120,
-					"Cooking": 120,
-					"Crafting": 120,
-					"Defence": 120,
-					"Divination": 120,
-					"Dungeoneering": 120,
-					"Farming": 120,
-					"Fishing": 120,
-					"Firemaking": 120,
-					"Herblore": 120,
-					"Hunter": 120,
-					"Invention": 120,
-					"Magic": 120,
-					"Mining": 120,
-					"Necromancy": 120,
-					"Prayer": 120,
-					"Ranged": 120,
-					"Runecrafting": 120,
-					"Slayer": 120,
-					"Smithing": 120,
-					"Strength": 120,
-					"Summoning": 120,
-					"Thieving": 120,
-					"Woodcutting": 120
-				},
-				"Priority": 2,
-				"Not F2P": true
-			},
-			"Buy the ~|Master max cape|~": {
-				"Tasks": {
-					"Complete the ~|Archaeology tutorial|~": "Archaeology"
-				},
-				"Category": ["Master skillcape"],
-				"Items": ["Master max cape", "Blurite keystone"],
-				"Level": 120,
-				"Primary": false,
-				"NoBoost": true,
-				"Skills": {
-					"Agility": 120,
-					"Archaeology": 120,
-					"Attack": 120,
-					"Constitution": 120,
-					"Construction": 120,
-					"Cooking": 120,
-					"Crafting": 120,
-					"Defence": 120,
-					"Divination": 120,
-					"Dungeoneering": 120,
-					"Farming": 120,
-					"Fishing": 120,
-					"Firemaking": 120,
-					"Herblore": 120,
-					"Hunter": 120,
-					"Invention": 120,
-					"Magic": 120,
-					"Mining": 120,
-					"Prayer": 120,
-					"Ranged": 120,
-					"Runecrafting": 120,
-					"Slayer": 120,
-					"Smithing": 120,
-					"Strength": 120,
-					"Summoning": 120,
-					"Thieving": 120,
-					"Woodcutting": 120
-				},
-				"Priority": 1,
-				"Not F2P": true
 			}
 		},
 		"Fletching": {
@@ -42321,48 +40674,6 @@
 				"Primary": true,
 				"Priority": 22
 			},
-			"Buy the ~|Max cape|~": {
-				"Tasks": {
-					"Complete the ~|Archaeology tutorial|~": "Archaeology"
-				},
-				"Category": ["Skillcape"],
-				"Items": ["Max cape"],
-				"Level": 99,
-				"Primary": false,
-				"NoBoost": true,
-				"Skills": {
-					"Agility": 99,
-					"Archaeology": 99,
-					"Attack": 99,
-					"Constitution": 99,
-					"Construction": 99,
-					"Cooking": 99,
-					"Crafting": 99,
-					"Defence": 99,
-					"Divination": 99,
-					"Dungeoneering": 99,
-					"Farming": 99,
-					"Fishing": 99,
-					"Fletching": 99,
-					"Herblore": 99,
-					"Hunter": 99,
-					"Invention": 99,
-					"Magic": 99,
-					"Mining": 99,
-					"Necromancy": 99,
-					"Prayer": 99,
-					"Ranged": 99,
-					"Runecrafting": 99,
-					"Slayer": 99,
-					"Smithing": 99,
-					"Strength": 99,
-					"Summoning": 99,
-					"Thieving": 99,
-					"Woodcutting": 99
-				},
-				"Priority": 1,
-				"Not F2P": true
-			},
 			"Fletch an ~|eternal magic wood box|~": {
 				"Items": ["Eternal magic logs*", "Elder logs*", "Magic logs*", "Yew logs*", "Mahogany logs*", "Acadia logs*", "Maple logs*", "Teak logs*", "Willow logs*", "Oak logs*", "Logs*"],
 				"Level": 100,
@@ -42667,91 +40978,6 @@
 				"Output": "Masterwork bow",
 				"Primary": true,
 				"Priority": 11
-			},
-			"Create the ~|blurite keystone|~": {
-				"Tasks": {
-					"Complete the ~|Archaeology tutorial|~": "Archaeology"
-				},
-				"Category": ["Master skillcape"],
-				"Items": ["Blurite bar", "Ruby", "Emerald", "Sapphire"],
-				"Objects": ["Furnace[+]"],
-				"Level": 120,
-				"Output": "Blurite keystone",
-				"Primary": false,
-				"NoBoost": true,
-				"Skills": {
-					"Agility": 120,
-					"Archaeology": 120,
-					"Attack": 120,
-					"Constitution": 120,
-					"Construction": 120,
-					"Cooking": 120,
-					"Crafting": 120,
-					"Defence": 120,
-					"Divination": 120,
-					"Dungeoneering": 120,
-					"Farming": 120,
-					"Fishing": 120,
-					"Fletching": 120,
-					"Herblore": 120,
-					"Hunter": 120,
-					"Invention": 120,
-					"Magic": 120,
-					"Mining": 120,
-					"Necromancy": 120,
-					"Prayer": 120,
-					"Ranged": 120,
-					"Runecrafting": 120,
-					"Slayer": 120,
-					"Smithing": 120,
-					"Strength": 120,
-					"Summoning": 120,
-					"Thieving": 120,
-					"Woodcutting": 120
-				},
-				"Priority": 2,
-				"Not F2P": true
-			},
-			"Buy the ~|Master max cape|~": {
-				"Tasks": {
-					"Complete the ~|Archaeology tutorial|~": "Archaeology"
-				},
-				"Category": ["Master skillcape"],
-				"Items": ["Master max cape", "Blurite keystone"],
-				"Level": 120,
-				"Primary": false,
-				"NoBoost": true,
-				"Skills": {
-					"Agility": 120,
-					"Archaeology": 120,
-					"Attack": 120,
-					"Constitution": 120,
-					"Construction": 120,
-					"Cooking": 120,
-					"Crafting": 120,
-					"Defence": 120,
-					"Divination": 120,
-					"Dungeoneering": 120,
-					"Farming": 120,
-					"Fishing": 120,
-					"Fletching": 120,
-					"Herblore": 120,
-					"Hunter": 120,
-					"Invention": 120,
-					"Magic": 120,
-					"Mining": 120,
-					"Prayer": 120,
-					"Ranged": 120,
-					"Runecrafting": 120,
-					"Slayer": 120,
-					"Smithing": 120,
-					"Strength": 120,
-					"Summoning": 120,
-					"Thieving": 120,
-					"Woodcutting": 120
-				},
-				"Priority": 1,
-				"Not F2P": true
 			}
 		},
 		"Herblore": {
@@ -45538,130 +43764,6 @@
 				"Primary": false,
 				"NoBoost": true,
 				"Priority": 3
-			},
-			"Buy the ~|Max cape|~": {
-				"Tasks": {
-					"Complete the ~|Archaeology tutorial|~": "Archaeology"
-				},
-				"Category": ["Skillcape"],
-				"Items": ["Max cape"],
-				"Level": 99,
-				"Primary": false,
-				"NoBoost": true,
-				"Skills": {
-					"Agility": 99,
-					"Archaeology": 99,
-					"Attack": 99,
-					"Constitution": 99,
-					"Construction": 99,
-					"Cooking": 99,
-					"Crafting": 99,
-					"Defence": 99,
-					"Divination": 99,
-					"Dungeoneering": 99,
-					"Farming": 99,
-					"Fishing": 99,
-					"Fletching": 99,
-					"Firemaking": 99,
-					"Hunter": 99,
-					"Invention": 99,
-					"Magic": 99,
-					"Mining": 99,
-					"Necromancy": 99,
-					"Prayer": 99,
-					"Ranged": 99,
-					"Runecrafting": 99,
-					"Slayer": 99,
-					"Smithing": 99,
-					"Strength": 99,
-					"Summoning": 99,
-					"Thieving": 99,
-					"Woodcutting": 99
-				},
-				"Priority": 1
-			},
-			"Create the ~|blurite keystone|~": {
-				"Tasks": {
-					"Complete the ~|Archaeology tutorial|~": "Archaeology"
-				},
-				"Category": ["Master skillcape"],
-				"Items": ["Blurite bar", "Ruby", "Emerald", "Sapphire"],
-				"Objects": ["Furnace[+]"],
-				"Level": 120,
-				"Output": "Blurite keystone",
-				"Primary": false,
-				"NoBoost": true,
-				"Skills": {
-					"Agility": 120,
-					"Archaeology": 120,
-					"Attack": 120,
-					"Constitution": 120,
-					"Construction": 120,
-					"Cooking": 120,
-					"Crafting": 120,
-					"Defence": 120,
-					"Divination": 120,
-					"Dungeoneering": 120,
-					"Farming": 120,
-					"Fishing": 120,
-					"Fletching": 120,
-					"Firemaking": 120,
-					"Hunter": 120,
-					"Invention": 120,
-					"Magic": 120,
-					"Mining": 120,
-					"Necromancy": 120,
-					"Prayer": 120,
-					"Ranged": 120,
-					"Runecrafting": 120,
-					"Slayer": 120,
-					"Smithing": 120,
-					"Strength": 120,
-					"Summoning": 120,
-					"Thieving": 120,
-					"Woodcutting": 120
-				},
-				"Priority": 2
-			},
-			"Buy the ~|Master max cape|~": {
-				"Tasks": {
-					"Complete the ~|Archaeology tutorial|~": "Archaeology"
-				},
-				"Category": ["Master skillcape"],
-				"Items": ["Master max cape", "Blurite keystone"],
-				"Level": 120,
-				"Primary": false,
-				"NoBoost": true,
-				"Skills": {
-					"Agility": 120,
-					"Archaeology": 120,
-					"Attack": 120,
-					"Constitution": 120,
-					"Construction": 120,
-					"Cooking": 120,
-					"Crafting": 120,
-					"Defence": 120,
-					"Divination": 120,
-					"Dungeoneering": 120,
-					"Farming": 120,
-					"Fishing": 120,
-					"Fletching": 120,
-					"Firemaking": 120,
-					"Hunter": 120,
-					"Invention": 120,
-					"Magic": 120,
-					"Mining": 120,
-					"Prayer": 120,
-					"Ranged": 120,
-					"Runecrafting": 120,
-					"Slayer": 120,
-					"Smithing": 120,
-					"Strength": 120,
-					"Summoning": 120,
-					"Thieving": 120,
-					"Woodcutting": 120
-				},
-				"Priority": 1
 			}
 		},
 		"Hunter": {
@@ -47851,130 +45953,6 @@
 				"Primary": false,
 				"NoBoost": true,
 				"Priority": 3
-			},
-			"Buy the ~|Max cape|~": {
-				"Tasks": {
-					"Complete the ~|Archaeology tutorial|~": "Archaeology"
-				},
-				"Category": ["Skillcape"],
-				"Items": ["Max cape"],
-				"Level": 99,
-				"Primary": false,
-				"NoBoost": true,
-				"Skills": {
-					"Agility": 99,
-					"Archaeology": 99,
-					"Attack": 99,
-					"Constitution": 99,
-					"Construction": 99,
-					"Cooking": 99,
-					"Crafting": 99,
-					"Defence": 99,
-					"Divination": 99,
-					"Dungeoneering": 99,
-					"Farming": 99,
-					"Fishing": 99,
-					"Fletching": 99,
-					"Firemaking": 99,
-					"Herblore": 99,
-					"Invention": 99,
-					"Magic": 99,
-					"Mining": 99,
-					"Necromancy": 99,
-					"Prayer": 99,
-					"Ranged": 99,
-					"Runecrafting": 99,
-					"Slayer": 99,
-					"Smithing": 99,
-					"Strength": 99,
-					"Summoning": 99,
-					"Thieving": 99,
-					"Woodcutting": 99
-				},
-				"Priority": 1
-			},
-			"Create the ~|blurite keystone|~": {
-				"Tasks": {
-					"Complete the ~|Archaeology tutorial|~": "Archaeology"
-				},
-				"Category": ["Master skillcape"],
-				"Items": ["Blurite bar", "Ruby", "Emerald", "Sapphire"],
-				"Objects": ["Furnace[+]"],
-				"Level": 120,
-				"Output": "Blurite keystone",
-				"Primary": false,
-				"NoBoost": true,
-				"Skills": {
-					"Agility": 120,
-					"Archaeology": 120,
-					"Attack": 120,
-					"Constitution": 120,
-					"Construction": 120,
-					"Cooking": 120,
-					"Crafting": 120,
-					"Defence": 120,
-					"Divination": 120,
-					"Dungeoneering": 120,
-					"Farming": 120,
-					"Fishing": 120,
-					"Fletching": 120,
-					"Firemaking": 120,
-					"Herblore": 120,
-					"Invention": 120,
-					"Magic": 120,
-					"Mining": 120,
-					"Necromancy": 120,
-					"Prayer": 120,
-					"Ranged": 120,
-					"Runecrafting": 120,
-					"Slayer": 120,
-					"Smithing": 120,
-					"Strength": 120,
-					"Summoning": 120,
-					"Thieving": 120,
-					"Woodcutting": 120
-				},
-				"Priority": 2
-			},
-			"Buy the ~|Master max cape|~": {
-				"Tasks": {
-					"Complete the ~|Archaeology tutorial|~": "Archaeology"
-				},
-				"Category": ["Master skillcape"],
-				"Items": ["Master max cape", "Blurite keystone"],
-				"Level": 120,
-				"Primary": false,
-				"NoBoost": true,
-				"Skills": {
-					"Agility": 120,
-					"Archaeology": 120,
-					"Attack": 120,
-					"Constitution": 120,
-					"Construction": 120,
-					"Cooking": 120,
-					"Crafting": 120,
-					"Defence": 120,
-					"Divination": 120,
-					"Dungeoneering": 120,
-					"Farming": 120,
-					"Fishing": 120,
-					"Fletching": 120,
-					"Firemaking": 120,
-					"Herblore": 120,
-					"Invention": 120,
-					"Magic": 120,
-					"Mining": 120,
-					"Prayer": 120,
-					"Ranged": 120,
-					"Runecrafting": 120,
-					"Slayer": 120,
-					"Smithing": 120,
-					"Strength": 120,
-					"Summoning": 120,
-					"Thieving": 120,
-					"Woodcutting": 120
-				},
-				"Priority": 1
 			}
 		},
 		"Invention": {
@@ -49245,46 +47223,6 @@
 				"Primary": false,
 				"NoBoost": true,
 				"Priority": 5
-			},		
-			"Buy the ~|Max cape|~": {
-				"Tasks": {
-					"Complete the ~|Archaeology tutorial|~": "Archaeology"
-				},
-				"Category": ["Skillcape"],
-				"Items": ["Max cape"],
-				"Level": 99,
-				"Primary": false,
-				"NoBoost": true,
-				"Skills": {
-					"Agility": 99,
-					"Archaeology": 99,
-					"Attack": 99,
-					"Constitution": 99,
-					"Construction": 99,
-					"Cooking": 99,
-					"Crafting": 99,
-					"Defence": 99,
-					"Divination": 99,
-					"Dungeoneering": 99,
-					"Farming": 99,
-					"Fishing": 99,
-					"Fletching": 99,
-					"Firemaking": 99,
-					"Herblore": 99,
-					"Hunter": 99,
-					"Magic": 99,
-					"Mining": 99,
-					"Prayer": 99,
-					"Ranged": 99,
-					"Runecrafting": 99,
-					"Slayer": 99,
-					"Smithing": 99,
-					"Strength": 99,
-					"Summoning": 99,
-					"Thieving": 99,
-					"Woodcutting": 99
-				},
-				"Priority": 6
 			},
 			"Create a ~|whetstone (device)|~": {
 				"Items": ["Hammer*", "Base parts*", "Deflecting parts*"],
@@ -49499,90 +47437,6 @@
 				"Primary": false,
 				"NoBoost": true,
 				"Priority": 3
-			},
-			"Create the ~|blurite keystone|~": {
-				"Tasks": {
-					"Complete the ~|Archaeology tutorial|~": "Archaeology"
-				},
-				"Category": ["Master skillcape"],
-				"Items": ["Blurite bar", "Ruby", "Emerald", "Sapphire"],
-				"Objects": ["Furnace[+]"],
-				"Level": 120,
-				"Output": "Blurite keystone",
-				"Primary": false,
-				"NoBoost": true,
-				"Skills": {
-					"Agility": 120,
-					"Archaeology": 120,
-					"Attack": 120,
-					"Constitution": 120,
-					"Construction": 120,
-					"Cooking": 120,
-					"Crafting": 120,
-					"Defence": 120,
-					"Divination": 120,
-					"Dungeoneering": 120,
-					"Farming": 120,
-					"Fishing": 120,
-					"Fletching": 120,
-					"Firemaking": 120,
-					"Herblore": 120,
-					"Hunter": 120,
-					"Magic": 120,
-					"Mining": 120,
-					"Necromancy": 120,
-					"Prayer": 120,
-					"Ranged": 120,
-					"Runecrafting": 120,
-					"Slayer": 120,
-					"Smithing": 120,
-					"Strength": 120,
-					"Summoning": 120,
-					"Thieving": 120,
-					"Woodcutting": 120
-				},
-				"Priority": 2
-			},
-			"Buy the ~|Master max cape|~": {
-				"Tasks": {
-					"Complete the ~|Archaeology tutorial|~": "Archaeology"
-				},
-				"Category": ["Master skillcape"],
-				"Items": ["Master max cape", "Blurite keystone"],
-				"Level": 120,
-				"Primary": false,
-				"NoBoost": true,
-				"Skills": {
-					"Agility": 120,
-					"Archaeology": 120,
-					"Attack": 120,
-					"Constitution": 120,
-					"Construction": 120,
-					"Cooking": 120,
-					"Crafting": 120,
-					"Defence": 120,
-					"Divination": 120,
-					"Dungeoneering": 120,
-					"Farming": 120,
-					"Fishing": 120,
-					"Fletching": 120,
-					"Firemaking": 120,
-					"Herblore": 120,
-					"Hunter": 120,
-					"Magic": 120,
-					"Mining": 120,
-					"Necromancy": 120,
-					"Prayer": 120,
-					"Ranged": 120,
-					"Runecrafting": 120,
-					"Slayer": 120,
-					"Smithing": 120,
-					"Strength": 120,
-					"Summoning": 120,
-					"Thieving": 120,
-					"Woodcutting": 120
-				},
-				"Priority": 1
 			}
 		},
 		"Magic": {
@@ -50741,13 +48595,6 @@
 				"Level": 51,
 				"Primary": true,
 				"Priority": 1
-			},
-			"Cast ~|manor farm teleport|~": {
-				"Category": ["Spells", "Combat and Teleport Spells"],
-				"Chunks": ["10548"],
-				"Level": 51,
-				"Primary": true,
-				"Priority": 2
 			},
 			"Use the ~|Greater Chain|~ ability": {
 				"Items": ["Greater Chain ability codex"],
@@ -53924,49 +51771,6 @@
 				},
 				"Priority": 1
 			},
-			"Buy the ~|Max cape|~": {
-				"Tasks": {
-					"Complete the ~|Archaeology tutorial|~": "Archaeology"
-				},
-				"Category": ["Skillcape"],
-				"Items": ["Max cape"],
-				"Level": 99,
-				"Primary": false,
-				"Skills": {
-					"Agility": 99,
-					"Archaeology": 99,
-					"Attack": 99,
-					"Constitution": 99,
-					"Construction": 99,
-					"Cooking": 99,
-					"Crafting": 99,
-					"Defence": 99,
-					"Divination": 99,
-					"Dungeoneering": 99,
-					"Farming": 99,
-					"Fishing": 99,
-					"Fletching": 99,
-					"Firemaking": 99,
-					"Herblore": 99,
-					"Hunter": 99,
-					"Invention": 99,
-					"Mining": 99,
-					"Necromancy": 99,
-					"Prayer": 99,
-					"Ranged": 99,
-					"Runecrafting": 99,
-					"Slayer": 99,
-					"Smithing": 99,
-					"Strength": 99,
-					"Summoning": 99,
-					"Thieving": 99,
-					"Woodcutting": 99
-				},
-				"Priority": 1,
-				"NoPet": true,
-				"NoBoost": true,
-				"Not F2P": true
-			},
 			"Obtain the ~|Archmage|~ title": {
 				"Category": ["Titles"],
 				"Chunks": ["12337-1"],
@@ -53979,96 +51783,82 @@
 				"NoPet": true,
 				"NoBoost": true,
 				"Not F2P": true
-			},
-			"Create the ~|blurite keystone|~": {
-				"Tasks": {
-					"Complete the ~|Archaeology tutorial|~": "Archaeology"
-				},
-				"Category": ["Master skillcape"],
-				"Items": ["Blurite bar", "Ruby", "Emerald", "Sapphire"],
-				"Objects": ["Furnace[+]"],
-				"Level": 120,
-				"Output": "Blurite keystone",
-				"Primary": false,
-				"Skills": {
-					"Agility": 120,
-					"Archaeology": 120,
-					"Attack": 120,
-					"Constitution": 120,
-					"Construction": 120,
-					"Cooking": 120,
-					"Crafting": 120,
-					"Defence": 120,
-					"Divination": 120,
-					"Dungeoneering": 120,
-					"Farming": 120,
-					"Fishing": 120,
-					"Fletching": 120,
-					"Firemaking": 120,
-					"Herblore": 120,
-					"Hunter": 120,
-					"Invention": 120,
-					"Mining": 120,
-					"Necromancy": 120,
-					"Prayer": 120,
-					"Ranged": 120,
-					"Runecrafting": 120,
-					"Slayer": 120,
-					"Smithing": 120,
-					"Strength": 120,
-					"Summoning": 120,
-					"Thieving": 120,
-					"Woodcutting": 120
-				},
-				"Priority": 2,
-				"NoPet": true,
-				"NoBoost": true,
-				"Not F2P": true
-			},
-			"Buy the ~|Master max cape|~": {
-				"Tasks": {
-					"Complete the ~|Archaeology tutorial|~": "Archaeology"
-				},
-				"Category": ["Master skillcape"],
-				"Items": ["Master max cape", "Blurite keystone"],
-				"Level": 120,
-				"Primary": false,
-				"Skills": {
-					"Agility": 120,
-					"Archaeology": 120,
-					"Attack": 120,
-					"Constitution": 120,
-					"Construction": 120,
-					"Cooking": 120,
-					"Crafting": 120,
-					"Defence": 120,
-					"Divination": 120,
-					"Dungeoneering": 120,
-					"Farming": 120,
-					"Fishing": 120,
-					"Fletching": 120,
-					"Firemaking": 120,
-					"Herblore": 120,
-					"Hunter": 120,
-					"Invention": 120,
-					"Mining": 120,
-					"Prayer": 120,
-					"Ranged": 120,
-					"Runecrafting": 120,
-					"Slayer": 120,
-					"Smithing": 120,
-					"Strength": 120,
-					"Summoning": 120,
-					"Thieving": 120,
-					"Woodcutting": 120
-				},
-				"Priority": 1,
-				"NoPet": true,
-				"NoBoost": true,
-				"Not F2P": true
 			}
 		},
 		"Mining": {
+			"Mine with a ~|bronze pickaxe|~": {
+				"Level": 1,
+				"Objects": ["Ore[+]"],
+				"Primary": true,
+				"Priority": 1,
+				"NoBoost": true
+			},
+			"Mine a ~|copper rock|~": {
+				"Level": 1,
+				"Objects": ["Copper rock"],
+				"Primary": true,
+				"Output": "Copper ore",
+				"Priority": 2
+			},
+			"Mine a ~|tin rock|~": {
+				"Level": 1,
+				"Objects": ["Tin rock"],
+				"Primary": true,
+				"Output": "Tin ore",
+				"Priority": 3
+			},
+			"Mine an uncut lapis lazuli from a ~|common gem rock|~": {
+				"Level": 1,
+				"Objects": ["Common gem rock"],
+				"Primary": true,
+				"Output": "Uncut lapis lazuli",
+				"Priority": 4
+			},
+			"Mine an uncut opal from a ~|common gem rock|~": {
+				"Level": 1,
+				"Objects": ["Common gem rock"],
+				"Primary": true,
+				"Output": "Uncut opal",
+				"Priority": 5
+			},
+			"Mine rune essence from a ~|rune essence rock|~": {
+				"Level": 1,
+				"Objects": ["Rune essence rock"],
+				"Primary": true,
+				"Output": "Rune essence",
+				"Priority": 6
+			},
+			"Mine a ~|clay rock|~": {
+				"Level": 1,
+				"Objects": ["Clay rock"],
+				"Primary": true,
+				"Output": "Clay",
+				"Priority": 7
+			},
+			"Mine a ~|Feldip swamp rock|~": {
+				"Level": 1,
+				"Objects": ["Feldip swamp rock"],
+				"Primary": true,
+				"Output": "Rock (ore)",
+				"Priority": 8
+			},
+			"Mine a ~|gem rock (Tai Bwo Wannai)|~": {
+				"Level": 1,
+				"Objects": ["Gem rock (Tai Bwo Wannai)"],
+				"Primary": false,
+				"Output": "Gem rock",
+				"Priority": 100,
+				"Not F2P": true
+			},
+			"Mine with a ~|dwarven army axe|~": {
+				"Items": ["Dwarven army axe"],
+				"Level": 1,
+				"Objects": ["CopperOrTin[+]"],
+				"Primary": true,
+				"Output": "Uncut lapis lazuli",
+				"Priority": 101,
+				"NoBoost": true
+			},
 			"Dig at a ~|level 1 grid|~": {
 				"Level": 1,
 				"Objects": ["Level 1 grid"],
@@ -54099,306 +51889,12 @@
 				"Primary": true,
 				"Priority": 1002
 			},
-			"Mine a size 1 ~|crashed star|~": {
-				"Category": ["Shooting Stars", "DnD"],
-				"Level": 10,
-				"Objects": ["Crashed star"],
-				"Output": "Stardust",
-				"Primary": true,
-				"Priority": 40
-			},
-			"Mine a size 2 ~|crashed star|~": {
-				"Category": ["Shooting Stars", "DnD"],
-				"Level": 20,
-				"Objects": ["Crashed star"],
-				"Output": "Stardust",
-				"Primary": true,
-				"Priority": 40
-			},
-			"Mine a size 3 ~|crashed star|~": {
-				"Category": ["Shooting Stars", "DnD"],
-				"Level": 30,
-				"Objects": ["Crashed star"],
-				"Output": "Stardust",
-				"Primary": true,
-				"Priority": 40
-			},
-			"Mine a size 4 ~|crashed star|~": {
-				"Category": ["Shooting Stars", "DnD"],
-				"Level": 40,
-				"Objects": ["Crashed star"],
-				"Output": "Stardust",
-				"Primary": true,
-				"Priority": 40
-			},
-			"Mine a size 5 ~|crashed star|~": {
-				"Category": ["Shooting Stars", "DnD"],
-				"Level": 50,
-				"Objects": ["Crashed star"],
-				"Output": "Stardust",
-				"Primary": true,
-				"Priority": 40
-			},
-			"Mine a size 6 ~|crashed star|~": {
-				"Category": ["Shooting Stars", "DnD"],
-				"Level": 60,
-				"Objects": ["Crashed star"],
-				"Output": "Stardust",
-				"Primary": true,
-				"Priority": 40,
-				"Not F2P": true
-			},
-			"Mine a size 7 ~|crashed star|~": {
-				"Category": ["Shooting Stars", "DnD"],
-				"Level": 70,
-				"Objects": ["Crashed star"],
-				"Output": "Big star loot",
-				"Primary": true,
-				"Priority": 40,
-				"Not F2P": true
-			},
-			"Mine a size 8 ~|crashed star|~": {
-				"Category": ["Shooting Stars", "DnD"],
-				"Level": 80,
-				"Objects": ["Crashed star"],
-				"Output": "Big star loot",
-				"Primary": true,
-				"Priority": 40,
-				"Not F2P": true
-			},
-			"Mine a size 9 ~|crashed star|~": {
-				"Category": ["Shooting Stars", "DnD"],
-				"Level": 90,
-				"Objects": ["Crashed star"],
-				"Output": "Big star loot",
-				"Primary": true,
-				"Priority": 40,
-				"Not F2P": true
-			},
-			"Mine a size 10 ~|crashed star|~": {
-				"Category": ["Shooting Stars", "DnD"],
-				"Level": 100,
-				"Objects": ["Crashed star"],
-				"Output": "Big star loot",
-				"Primary": true,
-				"Priority": 40,
-				"Not F2P": true
-			},
-			"Mine with an ~|inferno Adze|~": {
-				"Items": ["Inferno Adze|~"],
-				"Level": 50,
-				"Objects": ["Ore[+]"],
-				"Primary": false,
-				"Skills": {
-					"Firemaking": 92,
-					"Woodcutting": 61
-				},
-				"Priority": 2
-			},
-			"Mine with a ~|bronze pickaxe|~": {
-				"Level": 1,
-				"Objects": ["Ore[+]"],
-				"Primary": true,
-				"Priority": 8
-			},
-			"Mine with a ~|dwarven army axe|~": {
-				"Items": ["Dwarven army axe"],
-				"Level": 1,
-				"Objects": ["CopperOrTin[+]"],
-				"Primary": true,
-				"Output": "Uncut lapis lazuli",
-				"Priority": 7
-			},
-			"Mine with an ~|iron pickaxe|~": {
-				"Items": ["Ironpick[+]"],
-				"Level": 10,
-				"Objects": ["Ore[+]"],
-				"Primary": false,
-				"Priority": 4
-			},
-			"Mine with a ~|steel pickaxe|~": {
-				"Items": ["Steelpick[+]"],
-				"Level": 20,
-				"Objects": ["Ore[+]"],
-				"Primary": false,
-				"Priority": 6
-			},
-			"Mine with a ~|mithril pickaxe|~": {
-				"Items": ["Mithrilpick[+]"],
-				"Level": 30,
-				"Objects": ["Ore[+]"],
-				"Primary": false,
-				"Priority": 4
-			},
-			"Mine with an ~|adamant pickaxe|~": {
-				"Items": ["Adamantpick[+]"],
-				"Level": 40,
-				"Objects": ["Ore[+]"],
-				"Primary": false,
-				"Priority": 4
-			},
-			"Mine with a ~|rune pickaxe|~": {
-				"Items": ["Runepick[+]"],
-				"Level": 50,
-				"Objects": ["Ore[+]"],
-				"Primary": false,
-				"Priority": 3
-			},
-			"Mine with an ~|orikalkum pickaxe|~": {
-				"Items": ["Orikalkumpick[+]"],
-				"Level": 60,
-				"Objects": ["Ore[+]"],
-				"Primary": false,
-				"Priority": 5
-			},
-			"Mine with a ~|dragon pickaxe|~": {
-				"Items": ["Dragon pickaxe"],
-				"Level": 60,
-				"Objects": ["Ore[+]"],
-				"Primary": false,
-				"Priority": 4
-			},
-			"Mine with a ~|necronium pickaxe|~": {
-				"Items": ["Necroniumpick[+]"],
-				"Level": 70,
-				"Objects": ["Ore[+]"],
-				"Primary": false,
-				"Priority": 5
-			},
-			"Mine with a ~|crystal pickaxe|~": {
-				"Items": ["Crystal pickaxe"],
-				"Level": 70,
-				"Objects": ["Ore[+]"],
-				"Primary": false,
-				"Priority": 4
-			},
-			"Mine with a ~|bane pickaxe|~": {
-				"Items": ["Banepick[+]"],
-				"Level": 80,
-				"Objects": ["Ore[+]"],
-				"Primary": false,
-				"Priority": 4
-			},
-			"Mine with an ~|Imcando pickaxe|~": {
-				"Items": ["Imcando pickaxe"],
-				"Level": 80,
-				"Objects": ["Ore[+]"],
-				"Primary": false,
-				"Priority": 3
-			},
-			"Mine with an ~|elder rune pickaxe|~": {
-				"Items": ["Elderpick[+]"],
-				"Level": 90,
-				"Objects": ["Ore[+]"],
-				"Primary": false,
-				"Priority": 5
-			},
-			"Mine with a ~|primal pickaxe|~": {
-				"Items": ["Primalpick[+]"],
-				"Level": 100,
-				"Objects": ["Ore[+]"],
-				"Primary": false,
-				"Priority": 2
-			},
-			"Mine with the ~|Pickaxe of Earth and Song|~": {
-				"Items": ["Pickaxe of Earth and Song"],
-				"Level": 90,
-				"Objects": ["Ore[+]"],
-				"Primary": false,
-				"Priority": 4
-			},
-			"Mine with the ~|Pickaxe of Life and Death|~": {
-				"Items": ["Pickaxe of Life and Death"],
-				"Level": 100,
-				"Objects": ["Ore[+]"],
-				"Primary": false,
-				"Priority": 11
-			},
-			"Mine a ~|copper rock|~": {
-				"Level": 1,
-				"Objects": ["Copper rock"],
-				"Primary": true,
-				"Output": "Copper ore",
-				"Priority": 1
-			},
-			"Mine a ~|tin rock|~": {
-				"Level": 1,
-				"Objects": ["Tin rock"],
-				"Primary": true,
-				"Output": "Tin ore",
-				"Priority": 2
-			},
-			"Mine an uncut lapis lazuli from a ~|common gem rock|~": {
-				"Level": 1,
-				"Objects": ["Common gem rock"],
-				"Primary": true,
-				"Output": "Uncut lapis lazuli",
-				"Priority": 6
-			},
-			"Mine an uncut opal from a ~|common gem rock|~": {
-				"Level": 1,
-				"Objects": ["Common gem rock"],
-				"Primary": true,
-				"Output": "Uncut opal",
-				"Priority": 5
-			},
-			"Mine an uncut jade from a ~|common gem rock|~": {
-				"Level": 13,
-				"Objects": ["Common gem rock"],
-				"Primary": true,
-				"Output": "Uncut jade",
-				"Priority": 1
-			},
-			"Mine a ~|gem rock (Tai Bwo Wannai)|~": {
-				"Level": 1,
-				"Objects": ["Gem rock (Tai Bwo Wannai)"],
-				"Primary": false,
-				"Output": "Gem rock",
-				"Priority": 9,
-				"Not F2P": true
-			},
-			"Mine an uncut red topaz from a ~|common gem rock|~": {
-				"Level": 16,
-				"Objects": ["Common gem rock"],
-				"Primary": true,
-				"Output": "Uncut red topaz",
-				"Priority": 1
-			},
-			"Mine rune essence from a ~|rune essence rock|~": {
-				"Level": 1,
-				"Objects": ["Rune essence rock"],
-				"Primary": true,
-				"Output": "Rune essence",
-				"Priority": 4
-			},
-			"Mine pure essence from a ~|rune essence rock|~": {
-				"Level": 30,
-				"Objects": ["Rune essence rock"],
-				"Primary": true,
-				"Output": "Pure essence",
-				"Priority": 2,
-				"Not F2P": true
-			},
-			"Mine a ~|clay rock|~": {
-				"Level": 1,
-				"Objects": ["Clay rock"],
-				"Primary": true,
-				"Output": "Clay",
-				"Priority": 3
-			},
-			"Mine a ~|Feldip swamp rock|~": {
-				"Level": 1,
-				"Objects": ["Feldip swamp rock"],
-				"Primary": true,
-				"Output": "Rock (ore)",
-				"Priority": 10
-			},
 			"Finish the Unnatural Outcrop ~|Wilderness Flash Event|~": {
 				"Category": ["DnD", "DnD Flash Events"],
 				"Chunks": ["12343-1"],
 				"Level": 1,
 				"Primary": true,
-				"Priority": 11,
+				"Priority": 1003,
 				"Not F2P": true
 			},
 			"Finish the Infernal Star ~|Wilderness Flash Event|~": {
@@ -54406,7 +51902,7 @@
 				"Chunks": ["12856"],
 				"Level": 1,
 				"Primary": true,
-				"Priority": 11,
+				"Priority": 1004,
 				"Not F2P": true
 			},
 			"Read a mining tome from ~|Temple Trekking|~": {
@@ -54414,13 +51910,111 @@
 				"Chunks": ["Temple Trekking Routes"],
 				"Level": 1,
 				"Primary": true,
-				"Priority": 12
+				"Priority": 1005
 			},
 			"Mine ~|calcified fungus|~ in a Croesus encounter": {
 				"Chunks": ["Senntisten"],
 				"Level": 1,
 				"Primary": true,
-				"Priority": 13
+				"Priority": 1006
+			},
+			"Mine a ~|divine bronze rock|~": {
+				"Items": ["Divine bronze rock"],
+				"Level": 1,
+				"Output": "Bronze ore",
+				"Primary": false,
+				"Priority": 1007
+			},
+			"Complete a ~|cracked mining urn|~": {
+				"Category": ["Token"],
+				"Items": ["Cracked mining urn (no rune)*", "Earth rune*"],
+				"Level": 1,
+				"Skills": {
+					"Crafting": 1
+				},
+				"Output": "Cracked mining urn",
+				"Primary": true,
+				"Priority": 1008
+			},
+			"Complete a ~|fragile mining urn|~": {
+				"Category": ["Token"],
+				"Items": ["Fragile mining urn (no rune)*", "Earth rune*"],
+				"Level": 1,
+				"Skills": {
+					"Crafting": 17
+				},
+				"Output": "Fragile mining urn",
+				"Primary": true,
+				"Priority": 1009
+			},
+			"Complete a ~|plain mining urn|~": {
+				"Category": ["Token"],
+				"Items": ["Plain mining urn (no rune)*", "Earth rune*"],
+				"Level": 1,
+				"Skills": {
+					"Crafting": 32
+				},
+				"Output": "Plain mining urn",
+				"Primary": true,
+				"Priority": 1010
+			},
+			"Complete a ~|strong mining urn|~": {
+				"Category": ["Token"],
+				"Items": ["Strong mining urn (no rune)*", "Earth rune*"],
+				"Level": 1,
+				"Skills": {
+					"Crafting": 48
+				},
+				"Output": "Strong mining urn",
+				"Primary": true,
+				"Priority": 1011
+			},
+			"Complete a ~|decorated mining urn|~": {
+				"Category": ["Token"],
+				"Items": ["Decorated mining urn (no rune)*", "Earth rune*"],
+				"Level": 1,
+				"Skills": {
+					"Crafting": 78
+				},
+				"Output": "Decorated mining urn",
+				"Primary": true,
+				"Priority": 1012
+			},
+			"Complete an ~|exquisite mining urn|~": {
+				"Category": ["Token"],
+				"Items": ["Exquisite mining urn (no rune)*", "Earth rune*"],
+				"Level": 1,
+				"Skills": {
+					"Crafting": 102
+				},
+				"Output": "Exquisite mining urn",
+				"Primary": true,
+				"Priority": 1013
+			},
+			"Train mining in ~|Daemonheim|~": {
+				"Category": ["Daemonheim training"],
+				"Tasks": {
+					"Unlock ~|frozen floors|~": "Dungeoneering"
+				},
+				"Level": 1,
+				"Primary": true,
+				"Priority": 1014
+			},
+			"Fill an ~|expansive pouch|~ by mining in the rune essence mine": {
+				"Objects": ["Rune essence rock"],
+				"Items": ["Sealed expansive pouch*"],
+				"Level": 1,
+				"Output": "Expansive pouch",
+				"Primary": false,
+				"Priority": 1015
+			},
+			"Mine with an ~|iron pickaxe|~": {
+				"Items": ["Ironpick[+]"],
+				"Level": 10,
+				"Objects": ["Ore[+]"],
+				"Primary": false,
+				"Priority": 1,
+				"NoBoost": true
 			},
 			"Mine an ~|iron rock|~": {
 				"Level": 10,
@@ -54429,13 +52023,6 @@
 				"Output": "Iron ore",
 				"Priority": 2
 			},
-			"Mine a ~|blurite rock|~": {
-				"Level": 10,
-				"Objects": ["Blurite rock"],
-				"Primary": true,
-				"Output": "Blurite ore",
-				"Priority": 1
-			},
 			"Mine a ~|limestone rock|~": {
 				"Level": 10,
 				"Objects": ["Limestone rock"],
@@ -54443,34 +52030,77 @@
 				"Output": "Limestone",
 				"Priority": 3
 			},
+			"Mine a ~|blurite rock|~": {
+				"Level": 10,
+				"Objects": ["Blurite rock"],
+				"Primary": true,
+				"Output": "Blurite ore",
+				"Priority": 100
+			},
+			"Mine a size 1 ~|crashed star|~": {
+				"Category": ["Shooting Stars", "DnD"],
+				"Level": 10,
+				"Objects": ["Crashed star"],
+				"Output": "Stardust",
+				"Primary": true,
+				"Priority": 1000
+			},
+			"Mine a ~|divine iron rock|~": {
+				"Items": ["Divine iron rock"],
+				"Level": 10,
+				"Output": "Iron ore",
+				"Primary": false,
+				"Priority": 1001
+			},
+			"Mine an uncut jade from a ~|common gem rock|~": {
+				"Level": 13,
+				"Objects": ["Common gem rock"],
+				"Primary": true,
+				"Output": "Uncut jade",
+				"Priority": 1
+			},
+			"Mine an uncut red topaz from a ~|common gem rock|~": {
+				"Level": 16,
+				"Objects": ["Common gem rock"],
+				"Primary": true,
+				"Output": "Uncut red topaz",
+				"Priority": 1
+			},
+			"Mine with a ~|steel pickaxe|~": {
+				"Items": ["Steelpick[+]"],
+				"Level": 20,
+				"Objects": ["Ore[+]"],
+				"Primary": false,
+				"Priority": 1,
+				"NoBoost": true
+			},
 			"Mine a ~|coal rock|~": {
 				"Level": 20,
 				"Objects": ["Coal rock[+]"],
 				"Primary": true,
 				"Output": "Coal",
-				"Priority": 1
+				"Priority": 2
 			},
 			"Mine a ~|silver rock|~": {
 				"Level": 20,
 				"Objects": ["Silver rock"],
 				"Primary": true,
 				"Output": "Silver ore",
-				"Priority": 2
+				"Priority": 3
+			},
+			"Mine an uncut sapphire from an ~|uncommon gem rock|~": {
+				"Level": 20,
+				"Objects": ["Uncommon gem rock"],
+				"Primary": true,
+				"Output": "Uncut sapphire",
+				"Priority": 4
 			},
 			"Mine an ~|elemental rock|~": {
 				"Level": 20,
 				"Objects": ["Elemental rock"],
 				"Primary": true,
 				"Output": "Elemental ore",
-				"Priority": 8,
-				"Not F2P": true
-			},
-			"Mine a ~|Elemental rock|~": {
-				"Level": 20,
-				"Objects": ["Elemental rock"],
-				"Primary": true,
-				"Output": "Elemental ore",
-				"Priority": 4,
+				"Priority": 100,
 				"Not F2P": true
 			},
 			"Mine a ~|Daeyalt vein|~": {
@@ -54478,28 +52108,22 @@
 				"Objects": ["Daeyalt vein"],
 				"Primary": true,
 				"Output": "Daeyalt ore",
-				"Priority": 5
+				"Priority": 101
 			},
-			"Mine an uncut sapphire from an ~|uncommon gem rock|~": {
+			"Mine a size 2 ~|crashed star|~": {
+				"Category": ["Shooting Stars", "DnD"],
 				"Level": 20,
-				"Objects": ["Uncommon gem rock"],
+				"Objects": ["Crashed star"],
+				"Output": "Stardust",
 				"Primary": true,
-				"Output": "Uncut sapphire",
-				"Priority": 3
+				"Priority": 1000
 			},
-			"Mine an uncut emerald from an ~|uncommon gem rock|~": {
-				"Level": 27,
-				"Objects": ["Uncommon gem rock"],
-				"Primary": true,
-				"Output": "Uncut emerald",
-				"Priority": 1
-			},
-			"Mine an uncut ruby from an ~|uncommon gem rock|~": {
-				"Level": 34,
-				"Objects": ["Uncommon gem rock"],
-				"Primary": true,
-				"Output": "Uncut ruby",
-				"Priority": 1
+			"Mine a ~|divine coal rock|~": {
+				"Items": ["Divine coal rock"],
+				"Level": 20,
+				"Output": "Coal",
+				"Primary": false,
+				"Priority": 1001
 			},
 			"Mine an uncut emerald from a ~|rare gem rock|~": {
 				"Level": 23,
@@ -54509,11 +52133,92 @@
 				"Priority": 1,
 				"Not F2P": true
 			},
+			"Mine an uncut emerald from a ~|precious gem rock|~": {
+				"Level": 25,
+				"Objects": ["Precious gem rock"],
+				"Primary": true,
+				"Output": "Uncut emerald",
+				"Priority": 1
+			},
+			"Mine an uncut emerald from an ~|uncommon gem rock|~": {
+				"Level": 27,
+				"Objects": ["Uncommon gem rock"],
+				"Primary": true,
+				"Output": "Uncut emerald",
+				"Priority": 1
+			},
 			"Mine an uncut ruby from a ~|rare gem rock|~": {
 				"Level": 29,
 				"Objects": ["Rare gem rock"],
 				"Primary": true,
 				"Output": "Uncut ruby",
+				"Priority": 1,
+				"Not F2P": true
+			},
+			"Mine with a ~|mithril pickaxe|~": {
+				"Items": ["Mithrilpick[+]"],
+				"Level": 30,
+				"Objects": ["Ore[+]"],
+				"Primary": false,
+				"Priority": 1,
+				"NoBoost": true
+			},
+			"Mine a ~|mithril rock|~": {
+				"Level": 30,
+				"Objects": ["Mithril rock"],
+				"Primary": true,
+				"Output": "Mithril ore",
+				"Priority": 2
+			},
+			"Mine pure essence from a ~|rune essence rock|~": {
+				"Level": 30,
+				"Objects": ["Rune essence rock"],
+				"Primary": true,
+				"Output": "Pure essence",
+				"Priority": 3,
+				"Not F2P": true
+			},
+			"Mine an uncut ruby from an ~|precious gem rock|~": {
+				"Level": 30,
+				"Objects": ["Precious gem rock"],
+				"Primary": true,
+				"Output": "Uncut ruby",
+				"Priority": 4
+			},
+			"Mine a size 3 ~|crashed star|~": {
+				"Category": ["Shooting Stars", "DnD"],
+				"Level": 30,
+				"Objects": ["Crashed star"],
+				"Output": "Stardust",
+				"Primary": true,
+				"Priority": 1000
+			},
+			"Mine a ~|divine mithril rock|~": {
+				"Items": ["Divine mithril rock"],
+				"Level": 30,
+				"Output": "Mithril ore",
+				"Primary": false,
+				"Priority": 1001
+			},
+			"Mine with a ~|cobalt skillchompa|~": {
+				"Items": ["Cobalt skillchompa"],
+				"Level": 31,
+				"Objects": ["Ore[+]"],
+				"Primary": false,
+				"Priority": 1
+			},
+			"Mine an uncut ruby from an ~|uncommon gem rock|~": {
+				"Level": 34,
+				"Objects": ["Uncommon gem rock"],
+				"Primary": true,
+				"Output": "Uncut ruby",
+				"Priority": 1
+			},
+			"Mine a ~|sandstone rock|~": {
+				"Level": 35,
+				"Objects": ["Sandstone rock"],
+				"Primary": true,
+				"Output": "Sandstone",
 				"Priority": 1,
 				"Not F2P": true
 			},
@@ -54525,56 +52230,20 @@
 				"Priority": 1,
 				"Not F2P": true
 			},
-			"Mine an uncut dragonstone from a ~|rare gem rock|~": {
-				"Level": 55,
-				"Objects": ["Rare gem rock"],
-				"Primary": true,
-				"Output": "Uncut dragonstone",
+			"Mine with an ~|adamant pickaxe|~": {
+				"Items": ["Adamantpick[+]"],
+				"Level": 40,
+				"Objects": ["Ore[+]"],
+				"Primary": false,
 				"Priority": 1,
-				"Not F2P": true
-			},
-			"Mine an uncut emerald from a ~|precious gem rock|~": {
-				"Level": 25,
-				"Objects": ["Precious gem rock"],
-				"Primary": true,
-				"Output": "Uncut emerald",
-				"Priority": 1
-			},
-			"Mine an uncut ruby from an ~|precious gem rock|~": {
-				"Level": 30,
-				"Objects": ["Precious gem rock"],
-				"Primary": true,
-				"Output": "Uncut ruby",
-				"Priority": 3
-			},
-			"Mine an uncut diamond from an ~|precious gem rock|~": {
-				"Level": 43,
-				"Objects": ["Precious gem rock"],
-				"Primary": true,
-				"Output": "Uncut diamond",
-				"Priority": 1
-			},
-			"Mine a ~|mithril rock|~": {
-				"Level": 30,
-				"Objects": ["Mithril rock"],
-				"Primary": true,
-				"Output": "Mithril ore",
-				"Priority": 1
-			},
-			"Mine a ~|sandstone rock|~": {
-				"Level": 35,
-				"Objects": ["Sandstone rock"],
-				"Primary": true,
-				"Output": "Sandstone",
-				"Priority": 1,
-				"Not F2P": true
+				"NoBoost": true
 			},
 			"Mine an ~|adamantite rock|~": {
 				"Level": 40,
 				"Objects": ["Adamantite rock"],
 				"Primary": true,
 				"Output": "Adamantite ore",
-				"Priority": 1
+				"Priority": 2
 			},
 			"Mine a ~|luminite rock|~": {
 				"Level": 40,
@@ -54588,15 +52257,51 @@
 				"Objects": ["Gold rock"],
 				"Primary": true,
 				"Output": "Gold ore",
-				"Priority": 2
+				"Priority": 4
 			},
 			"Mine a ~|stone slab vein|~": {
 				"Level": 40,
 				"Objects": ["Stone slab vein"],
 				"Primary": true,
 				"Output": "Stone slab",
-				"Priority": 5,
+				"Priority": 100,
 				"Not F2P": true
+			},
+			"Mine a size 4 ~|crashed star|~": {
+				"Category": ["Shooting Stars", "DnD"],
+				"Level": 40,
+				"Objects": ["Crashed star"],
+				"Output": "Stardust",
+				"Primary": true,
+				"Priority": 1000
+			},
+			"Mine a ~|divine adamantite rock|~": {
+				"Items": ["Divine adamantite rock"],
+				"Level": 40,
+				"Output": "Adamantite ore",
+				"Primary": false,
+				"Priority": 1001
+			},
+			"Mine a ~|divine luminite rock|~": {
+				"Items": ["Divine luminite rock"],
+				"Level": 40,
+				"Output": "Luminite",
+				"Primary": false,
+				"Priority": 1002
+			},
+			"Mine with a ~|viridian skillchompa|~": {
+				"Items": ["Viridian skillchompa"],
+				"Level": 41,
+				"Objects": ["Ore[+]"],
+				"Primary": false,
+				"Priority": 1
+			},
+			"Mine an uncut diamond from an ~|precious gem rock|~": {
+				"Level": 43,
+				"Objects": ["Precious gem rock"],
+				"Primary": true,
+				"Output": "Uncut diamond",
+				"Priority": 7
 			},
 			"Mine a ~|granite rock|~": {
 				"Level": 45,
@@ -54614,12 +52319,20 @@
 				"Priority": 1,
 				"Not F2P": true
 			},
+			"Mine with a ~|rune pickaxe|~": {
+				"Items": ["Runepick[+]"],
+				"Level": 50,
+				"Objects": ["Ore[+]"],
+				"Primary": false,
+				"Priority": 1,
+				"NoBoost": true
+			},
 			"Mine a ~|runite rock|~": {
 				"Level": 50,
 				"Objects": ["Runite rock"],
 				"Primary": true,
 				"Output": "Runite ore",
-				"Priority": 1
+				"Priority": 2
 			},
 			"Mine a ~|mineral deposit|~": {
 				"Level": 50,
@@ -54629,18 +52342,76 @@
 				"Priority": 3,
 				"Not F2P": true
 			},
-			"Access the ~|mining guild|~": {
-				"Chunks": ["Dwarven Mine"],
-				"Level": 60,
+			"Mine with an ~|inferno Adze|~": {
+				"Items": ["Inferno Adze|~"],
+				"Level": 50,
+				"Objects": ["Ore[+]"],
+				"Primary": false,
+				"Skills": {
+					"Firemaking": 92,
+					"Woodcutting": 61
+				},
+				"Priority": 100,
+				"NoBoost": true
+			},
+			"Mine a size 5 ~|crashed star|~": {
+				"Category": ["Shooting Stars", "DnD"],
+				"Level": 50,
+				"Objects": ["Crashed star"],
+				"Output": "Stardust",
 				"Primary": true,
+				"Priority": 1000
+			},
+			"Mine a ~|divine runite rock|~": {
+				"Items": ["Divine runite rock"],
+				"Level": 50,
+				"Output": "Runite ore",
+				"Primary": false,
+				"Priority": 1001
+			},
+			"Mine the rockslide to gain access to the ~|Ice Queen's Lair|~": {
+				"Chunks": ["11318-2"],
+				"Level": 50,
+				"Primary": false,
+				"Priority": 1002
+			},
+			"Mine with an ~|azure skillchompa|~": {
+				"Items": ["Azure skillchompa"],
+				"Level": 51,
+				"Objects": ["Ore[+]"],
+				"Primary": false,
 				"Priority": 1
+			},
+			"Mine an uncut dragonstone from a ~|rare gem rock|~": {
+				"Level": 55,
+				"Objects": ["Rare gem rock"],
+				"Primary": true,
+				"Output": "Uncut dragonstone",
+				"Priority": 1,
+				"Not F2P": true
+			},
+			"Mine with an ~|orikalkum pickaxe|~": {
+				"Items": ["Orikalkumpick[+]"],
+				"Level": 60,
+				"Objects": ["Ore[+]"],
+				"Primary": false,
+				"Priority": 1,
+				"NoBoost": true
+			},
+			"Mine with a ~|dragon pickaxe|~": {
+				"Items": ["Dragon pickaxe"],
+				"Level": 60,
+				"Objects": ["Ore[+]"],
+				"Primary": false,
+				"Priority": 2,
+				"NoBoost": true
 			},
 			"Mine an ~|orichalcite rock|~": {
 				"Level": 60,
 				"Objects": ["Orichalcite rock"],
 				"Primary": true,
 				"Output": "Orichalcite ore",
-				"Priority": 2,
+				"Priority": 3,
 				"Not F2P": true
 			},
 			"Mine a ~|drakolith rock|~": {
@@ -54648,8 +52419,44 @@
 				"Objects": ["Drakolith rock[+]"],
 				"Primary": true,
 				"Output": "Drakolith",
-				"Priority": 3,
+				"Priority": 4,
 				"Not F2P": true
+			},
+			"Access the ~|mining guild|~": {
+				"Chunks": ["Dwarven Mine"],
+				"Level": 60,
+				"Primary": true,
+				"Priority": 100
+			},
+			"Mine a size 6 ~|crashed star|~": {
+				"Category": ["Shooting Stars", "DnD"],
+				"Level": 60,
+				"Objects": ["Crashed star"],
+				"Output": "Stardust",
+				"Primary": true,
+				"Priority": 1000,
+				"Not F2P": true
+			},
+			"Mine a ~|divine orichalcite rock|~": {
+				"Items": ["Divine orichalcite rock"],
+				"Level": 60,
+				"Output": "Orichalcite ore",
+				"Primary": false,
+				"Priority": 1001
+			},
+			"Mine a ~|divine drakolith rock|~": {
+				"Items": ["Divine drakolith rock"],
+				"Level": 60,
+				"Output": "Drakolith",
+				"Primary": false,
+				"Priority": 1002
+			},
+			"Mine with a ~|crimson skillchompa|~": {
+				"Items": ["Crimson skillchompa"],
+				"Level": 61,
+				"Objects": ["Ore[+]"],
+				"Primary": false,
+				"Priority": 1
 			},
 			"Mine in the ~|Lava Flow Mine|~": {
 				"Chunks": ["Lava Flow Mine"],
@@ -54662,12 +52469,28 @@
 				"Priority": 1,
 				"Not F2P": true
 			},
+			"Mine with a ~|necronium pickaxe|~": {
+				"Items": ["Necroniumpick[+]"],
+				"Level": 70,
+				"Objects": ["Ore[+]"],
+				"Primary": false,
+				"Priority": 1,
+				"NoBoost": true
+			},
+			"Mine with a ~|crystal pickaxe|~": {
+				"Items": ["Crystal pickaxe"],
+				"Level": 70,
+				"Objects": ["Ore[+]"],
+				"Primary": false,
+				"Priority": 2,
+				"NoBoost": true
+			},
 			"Mine a ~|necrite rock|~": {
 				"Level": 70,
 				"Objects": ["Necrite rock"],
 				"Primary": true,
 				"Output": "Necrite ore",
-				"Priority": 1,
+				"Priority": 3,
 				"Not F2P": true
 			},
 			"Mine a ~|phasmatite rock|~": {
@@ -54675,7 +52498,7 @@
 				"Objects": ["Phasmatite rock[+]"],
 				"Primary": true,
 				"Output": "Phasmatite",
-				"Priority": 2,
+				"Priority": 4,
 				"Not F2P": true
 			},
 			"Mine a ~|concentrated coal deposit|~": {
@@ -54683,8 +52506,44 @@
 				"Objects": ["Concentrated coal deposit"],
 				"Primary": true,
 				"Output": "Coal",
-				"Priority": 3,
+				"Priority": 5,
 				"Not F2P": true
+			},
+			"Mine a size 7 ~|crashed star|~": {
+				"Category": ["Shooting Stars", "DnD"],
+				"Level": 70,
+				"Objects": ["Crashed star"],
+				"Output": "Big star loot",
+				"Primary": true,
+				"Priority": 1000,
+				"Not F2P": true
+			},
+			"Mine a ~|divine necrite rock|~": {
+				"Items": ["Divine necrite rock"],
+				"Level": 70,
+				"Output": "Necrite ore",
+				"Primary": false,
+				"Priority": 1001
+			},
+			"Mine a ~|divine phasmatite rock|~": {
+				"Items": ["Divine phasmatite rock"],
+				"Level": 70,
+				"Output": "Phasmatite",
+				"Primary": false,
+				"Priority": 1002
+			},
+			"Equip a ~|superior rock-crushing scrimshaw|~": {
+				"Items": ["Superior rock-crushing scrimshaw"],
+				"Level": 70,
+				"Primary": false,
+				"Priority": 1003
+			},
+			"Mine with a ~|crystal skillchompa|~": {
+				"Items": ["Crystal skillchompa"],
+				"Level": 71,
+				"Objects": ["Ore[+]"],
+				"Primary": false,
+				"Priority": 1
 			},
 			"Mine ~|living rock remains|~": {
 				"Level": 73,
@@ -54699,15 +52558,15 @@
 				"Objects": ["Prifddinas gem rock"],
 				"Primary": true,
 				"Output": "Prifddinas gem rock",
-				"Priority": 2,
+				"Priority": 1,
 				"Not F2P": true
 			},
-			"Mine a ~|Soft clay rock|~": {
+			"Mine a ~|soft clay rock|~": {
 				"Level": 75,
 				"Objects": ["Soft clay rock"],
 				"Primary": true,
 				"Output": "Soft clay",
-				"Priority": 1,
+				"Priority": 2,
 				"Not F2P": true
 			},
 			"Mine a ~|solid crystal|~": {
@@ -54715,15 +52574,31 @@
 				"Objects": ["Solid crystal"],
 				"Primary": true,
 				"Output": "Crystal fragment",
-				"Priority": 3,
+				"Priority": 100,
 				"Not F2P": true
+			},
+			"Mine with a ~|bane pickaxe|~": {
+				"Items": ["Banepick[+]"],
+				"Level": 80,
+				"Objects": ["Ore[+]"],
+				"Primary": false,
+				"Priority": 1,
+				"NoBoost": true
+			},
+			"Mine with an ~|Imcando pickaxe|~": {
+				"Items": ["Imcando pickaxe"],
+				"Level": 80,
+				"Objects": ["Ore[+]"],
+				"Primary": false,
+				"Priority": 2,
+				"NoBoost": true
 			},
 			"Mine a ~|banite rock|~": {
 				"Level": 80,
 				"Objects": ["Banite rock"],
 				"Primary": true,
 				"Output": "Banite ore",
-				"Priority": 1,
+				"Priority": 3,
 				"Not F2P": true
 			},
 			"Mine a ~|concentrated gold deposit|~": {
@@ -54731,8 +52606,47 @@
 				"Objects": ["Concentrated gold deposit"],
 				"Primary": true,
 				"Output": "Gold ore",
-				"Priority": 2,
+				"Priority": 4,
 				"Not F2P": true
+			},
+			"Mine a size 8 ~|crashed star|~": {
+				"Category": ["Shooting Stars", "DnD"],
+				"Level": 80,
+				"Objects": ["Crashed star"],
+				"Output": "Big star loot",
+				"Primary": true,
+				"Priority": 1000,
+				"Not F2P": true
+			},
+			"Mine a ~|divine banite rock|~": {
+				"Items": ["Divine banite rock"],
+				"Level": 80,
+				"Output": "Banite ore",
+				"Primary": false,
+				"Priority": 1001
+			},
+			"Open the ~|Scabaras tomb|~": {
+				"Chunks": ["Kalphite Nursery"],
+				"Level": 80,
+				"Primary": false,
+				"Priority": 1002,
+				"Not F2P": true
+			},
+			"Create the ~|magic golem outfit|~": {
+				"Objects": ["Inventor's workbench"],
+				"Level": 80,
+				"Skills": {
+					"Invention": 20
+				},
+				"Primary": false,
+				"Output": "GolemOutfit",
+				"Priority": 1003
+			},
+			"Equip a ~|superior gem-finding scrimshaw|~": {
+				"Items": ["Superior gem-finding scrimshaw"],
+				"Level": 80,
+				"Primary": false,
+				"Priority": 1004
 			},
 			"Mine a ~|red sandstone rock|~": {
 				"Level": 81,
@@ -54776,12 +52690,28 @@
 				"Priority": 1,
 				"Not F2P": true
 			},
+			"Mine with an ~|elder rune pickaxe|~": {
+				"Items": ["Elderpick[+]"],
+				"Level": 90,
+				"Objects": ["Ore[+]"],
+				"Primary": false,
+				"Priority": 1,
+				"NoBoost": true
+			},
+			"Mine with the ~|Pickaxe of Earth and Song|~": {
+				"Items": ["Pickaxe of Earth and Song"],
+				"Level": 90,
+				"Objects": ["Ore[+]"],
+				"Primary": false,
+				"Priority": 2,
+				"NoBoost": true
+			},
 			"Mine a ~|light animica rock|~": {
 				"Level": 90,
 				"Objects": ["Light animica rock"],
 				"Primary": true,
 				"Output": "Light animica",
-				"Priority": 1,
+				"Priority": 3,
 				"Not F2P": true
 			},
 			"Mine a ~|dark animica rock|~": {
@@ -54789,112 +52719,7 @@
 				"Objects": ["Dark animica rock"],
 				"Primary": true,
 				"Output": "Dark animica",
-				"Priority": 2,
-				"Not F2P": true
-			},
-			"Mine a ~|novite rock|~": {
-				"Level": 100,
-				"Objects": ["Novite rock"],
-				"Primary": true,
-				"Output": "Novite ore",
-				"Priority": 1,
-				"Not F2P": true
-			},
-			"Mine a ~|bathus rock|~": {
-				"Level": 100,
-				"Objects": ["Bathus rock"],
-				"Primary": true,
-				"Output": "Bathus ore",
-				"Priority": 2,
-				"Not F2P": true
-			},
-			"Mine a ~|marmaros rock|~": {
-				"Level": 100,
-				"Objects": ["Marmaros rock"],
-				"Primary": true,
-				"Output": "Marmaros ore",
-				"Priority": 3,
-				"Not F2P": true
-			},
-			"Mine a ~|kratonium rock|~": {
-				"Level": 100,
-				"Objects": ["Kratonium rock"],
-				"Primary": true,
-				"Output": "Kratonium ore",
 				"Priority": 4,
-				"Not F2P": true
-			},
-			"Mine a ~|fractite rock|~": {
-				"Level": 100,
-				"Objects": ["Fractite rock"],
-				"Primary": true,
-				"Output": "Fractite ore",
-				"Priority": 5,
-				"Not F2P": true
-			},
-			"Mine a ~|zephyrium rock|~": {
-				"Level": 100,
-				"Objects": ["Zephyrium rock"],
-				"Primary": true,
-				"Output": "Zephyrium ore",
-				"Priority": 6,
-				"Not F2P": true
-			},
-			"Mine a ~|argonite rock|~": {
-				"Level": 100,
-				"Objects": ["Argonite rock"],
-				"Primary": true,
-				"Output": "Argonite ore",
-				"Priority": 7,
-				"Not F2P": true
-			},
-			"Mine a ~|katagon rock|~": {
-				"Level": 100,
-				"Objects": ["Katagon rock"],
-				"Primary": true,
-				"Output": "Katagon ore",
-				"Priority": 8,
-				"Not F2P": true
-			},
-			"Mine a ~|gorgonite rock|~": {
-				"Level": 100,
-				"Objects": ["Gorgonite rock"],
-				"Primary": true,
-				"Output": "Gorgonite ore",
-				"Priority": 9,
-				"Not F2P": true
-			},
-			"Mine a ~|promethium rock|~": {
-				"Level": 100,
-				"Objects": ["Promethium rock"],
-				"Primary": true,
-				"Output": "Promethium ore",
-				"Priority": 10,
-				"Not F2P": true
-			},
-			"Mine a ~|porcelain clay rock|~": {
-				"Level": 102,
-				"Objects": ["Porcelain clay rock"],
-				"Primary": true,
-				"Output": "Porcelain clay",
-				"Priority": 11,
-				"Not F2P": true
-			},
-			"Mine a ~|porcelain clay rock|~ while water is flowing to it": {
-				"Level": 102,
-				"Chunks": ["Everlight Porcelain Clay Mine"],
-				"Objects": ["Porcelain clay rock"],
-				"Primary": true,
-				"Output": "Soft porcelain clay",
-				"Priority": 11,
-				"Not F2P": true
-			},
-			"Mine a ~|platinum rock|~": {
-				"Level": 104,
-				"Objects": ["Platinum rock"],
-				"Primary": true,
-				"Output": "Platinum ore",
-				"Priority": 1,
 				"Not F2P": true
 			},
 			"Mine a ~|salty crablet|~": {
@@ -54902,268 +52727,30 @@
 				"NPCs": ["Salty crablet"],
 				"Primary": true,
 				"Output": "Sea salt",
-				"Priority": 3
-			},
-			"Mine ~|enriched calcified fungus|~": {
-				"Objects": ["Moulding Lumbridge guard"],
-				"Level": 92,
-				"Output": "Enriched calcified fungus",
-				"Primary": true,
-				"Priority": 1
-			},
-			"Mine an ~|alaea crablet|~": {
-				"Category": ["Uncharted"],
-				"Level": 97,
-				"NPCs": ["Alaea crablet"],
-				"Primary": true,
-				"Output": "Golden sea salt",
-				"Priority": 1
-			},
-			"Feed a ~|starved ancient effigy|~ with mining": {
-				"Items": ["Starved ancient effigy (mining/smithing)"],
-				"Level": 91,
-				"Primary": false,
-				"Priority": 1
-			},
-			"Feed a ~|nourished ancient effigy|~ with mining": {
-				"Items": ["Starved ancient effigy (mining/smithing)"],
-				"Level": 93,
-				"Primary": false,
-				"Priority": 1
-			},
-			"Feed a ~|sated ancient effigy|~ with mining": {
-				"Items": ["Starved ancient effigy (mining/smithing)"],
-				"Level": 95,
-				"Primary": false,
-				"Priority": 1
-			},
-			"Feed a ~|gorged ancient effigy|~ with mining": {
-				"Items": ["Starved ancient effigy (mining/smithing)"],
-				"Level": 97,
-				"Primary": false,
-				"Priority": 2
-			},
-			"Mine an ~|idol crablet|~": {
-				"Category": ["Uncharted"],
-				"Level": 98,
-				"NPCs": ["Salty crablet"],
-				"Primary": true,
-				"Output": "Golden idol",
-				"Priority": 3
-			},
-			"Mine with a ~|cobalt skillchompa|~": {
-				"Items": ["Cobalt skillchompa"],
-				"Level": 31,
-				"Objects": ["Ore[+]"],
-				"Primary": false,
-				"Priority": 1
-			},
-			"Mine with a ~|viridian skillchompa|~": {
-				"Items": ["Viridian skillchompa"],
-				"Level": 41,
-				"Objects": ["Ore[+]"],
-				"Primary": false,
-				"Priority": 1
-			},
-			"Mine with an ~|azure skillchompa|~": {
-				"Items": ["Azure skillchompa"],
-				"Level": 51,
-				"Objects": ["Ore[+]"],
-				"Primary": false,
-				"Priority": 1
-			},
-			"Mine with a ~|crimson skillchompa|~": {
-				"Items": ["Crimson skillchompa"],
-				"Level": 61,
-				"Objects": ["Ore[+]"],
-				"Primary": false,
-				"Priority": 1
-			},
-			"Mine with a ~|crystal skillchompa|~": {
-				"Items": ["Crystal skillchompa"],
-				"Level": 71,
-				"Objects": ["Ore[+]"],
-				"Primary": false,
-				"Priority": 1
-			},
-			"Mine a ~|divine bronze rock|~": {
-				"Items": ["Divine bronze rock"],
-				"Level": 1,
-				"Output": "Bronzeore",
-				"Primary": false,
-				"Priority": 11
-			},
-			"Complete a ~|cracked mining urn|~": {
-				"Category": ["Token"],
-				"Items": ["Cracked mining urn (no rune)*", "Earth rune*"],
-				"Level": 1,
-				"Skills": {
-					"Crafting": 1
-				},
-				"Output": "Cracked mining urn",
-				"Primary": true,
-				"Priority": 12
-			},
-			"Complete a ~|fragile mining urn|~": {
-				"Category": ["Token"],
-				"Items": ["Fragile mining urn (no rune)*", "Earth rune*"],
-				"Level": 1,
-				"Skills": {
-					"Crafting": 17
-				},
-				"Output": "Fragile mining urn",
-				"Primary": true,
-				"Priority": 13
-			},
-			"Complete a ~|plain mining urn|~": {
-				"Category": ["Token"],
-				"Items": ["Plain mining urn (no rune)*", "Earth rune*"],
-				"Level": 1,
-				"Skills": {
-					"Crafting": 32
-				},
-				"Output": "Plain mining urn",
-				"Primary": true,
-				"Priority": 14
-			},
-			"Complete a ~|strong mining urn|~": {
-				"Category": ["Token"],
-				"Items": ["Strong mining urn (no rune)*", "Earth rune*"],
-				"Level": 1,
-				"Skills": {
-					"Crafting": 48
-				},
-				"Output": "Strong mining urn",
-				"Primary": true,
-				"Priority": 15
-			},
-			"Complete a ~|decorated mining urn|~": {
-				"Category": ["Token"],
-				"Items": ["Decorated mining urn (no rune)*", "Earth rune*"],
-				"Level": 1,
-				"Skills": {
-					"Crafting": 78
-				},
-				"Output": "Decorated mining urn",
-				"Primary": true,
-				"Priority": 16
-			},
-			"Complete an ~|exquisite mining urn|~": {
-				"Category": ["Token"],
-				"Items": ["Exquisite mining urn (no rune)*", "Earth rune*"],
-				"Level": 1,
-				"Skills": {
-					"Crafting": 102
-				},
-				"Output": "Exquisite mining urn",
-				"Primary": true,
-				"Priority": 17
-			},
-			"Train mining in ~|Daemonheim|~": {
-				"Category": ["Daemonheim training"],
-				"Tasks": {
-					"Unlock ~|frozen floors|~": "Dungeoneering"
-				},
-				"Level": 1,
-				"Primary": true,
-				"Priority": 17
-			},
-			"Mine a ~|divine iron rock|~": {
-				"Items": ["Divine iron rock"],
-				"Level": 10,
-				"Output": "Iron ore",
-				"Primary": false,
 				"Priority": 5
 			},
-			"Mine a ~|divine coal rock|~": {
-				"Items": ["Divine coal rock"],
-				"Level": 20,
-				"Output": "Coal",
-				"Primary": false,
-				"Priority": 7
-			},
-			"Mine a ~|divine mithril rock|~": {
-				"Items": ["Divine mithril rock"],
-				"Level": 30,
-				"Output": "Mithril ore",
-				"Primary": false,
-				"Priority": 5
-			},
-			"Mine a ~|divine adamantite rock|~": {
-				"Items": ["Divine adamantite rock"],
-				"Level": 40,
-				"Output": "Adamantite ore",
-				"Primary": false,
-				"Priority": 5
-			},
-			"Mine a ~|divine luminite rock|~": {
-				"Items": ["Divine luminite rock"],
-				"Level": 40,
-				"Output": "Luminite",
-				"Primary": false,
-				"Priority": 6
-			},
-			"Mine a ~|divine runite rock|~": {
-				"Items": ["Divine runite rock"],
-				"Level": 50,
-				"Output": "Runite ore",
-				"Primary": false,
-				"Priority": 4
-			},
-			"Mine a ~|divine orichalcite rock|~": {
-				"Items": ["Divine orichalcite rock"],
-				"Level": 60,
-				"Output": "Orichalcite ore",
-				"Primary": false,
-				"Priority": 6
-			},
-			"Mine a ~|divine drakolith rock|~": {
-				"Items": ["Divine drakolith rock"],
-				"Level": 60,
-				"Output": "Drakolith",
-				"Primary": false,
-				"Priority": 7
-			},
-			"Mine a ~|divine necrite rock|~": {
-				"Items": ["Divine necrite rock"],
-				"Level": 70,
-				"Output": "Necrite ore",
-				"Primary": false,
-				"Priority": 6
-			},
-			"Mine a ~|divine phasmatite rock|~": {
-				"Items": ["Divine phasmatite rock"],
-				"Level": 70,
-				"Output": "Phasmatite",
-				"Primary": false,
-				"Priority": 7
-			},
-			"Equip a ~|superior rock-crushing scrimshaw|~": {
-				"Items": ["Superior rock-crushing scrimshaw"],
-				"Level": 70,
-				"Primary": false,
-				"Priority": 8
-			},
-			"Mine a ~|divine banite rock|~": {
-				"Items": ["Divine banite rock"],
-				"Level": 80,
-				"Output": "Banite ore",
-				"Primary": false,
-				"Priority": 5
+			"Mine a size 9 ~|crashed star|~": {
+				"Category": ["Shooting Stars", "DnD"],
+				"Level": 90,
+				"Objects": ["Crashed star"],
+				"Output": "Big star loot",
+				"Primary": true,
+				"Priority": 1000,
+				"Not F2P": true
 			},
 			"Mine a ~|divine light animica rock|~": {
 				"Items": ["Divine light animica rock"],
 				"Level": 90,
 				"Output": "Light animica",
 				"Primary": false,
-				"Priority": 6
+				"Priority": 1001
 			},
 			"Mine a ~|divine dark animica rock|~": {
 				"Items": ["Divine dark animica rock"],
 				"Level": 90,
 				"Output": "Dark animica",
 				"Primary": false,
-				"Priority": 7
+				"Priority": 1002
 			},
 			"Make a ~|Milestone cape (90)|~": {
 				"Category": ["Skillcape"],
@@ -55202,45 +52789,55 @@
 					"Thieving": 90,
 					"Woodcutting": 90
 				},
-				"Priority": 8,
+				"Priority": 1000000,
 				"Not F2P": true
 			},
-			"Mine the rockslide to gain access to the ~|Ice Queen's Lair|~": {
-				"Chunks": ["11318-2"],
-				"Level": 50,
+			"Feed a ~|starved ancient effigy|~ with mining": {
+				"Items": ["Starved ancient effigy (mining/smithing)"],
+				"Level": 91,
 				"Primary": false,
-				"Priority": 6
+				"Priority": 1000
 			},
-			"Open the ~|Scabaras tomb|~": {
-				"Chunks": ["Kalphite Nursery"],
-				"Level": 80,
-				"Primary": false,
-				"Priority": 6,
-				"Not F2P": true
+			"Mine ~|enriched calcified fungus|~": {
+				"Objects": ["Moulding Lumbridge guard"],
+				"Level": 92,
+				"Output": "Enriched calcified fungus",
+				"Primary": true,
+				"Priority": 1
 			},
-			"Create the ~|magic golem outfit|~": {
-				"Objects": ["Inventor's workbench"],
-				"Level": 80,
-				"Skills": {
-					"Invention": 20
-				},
+			"Feed a ~|nourished ancient effigy|~ with mining": {
+				"Items": ["Starved ancient effigy (mining/smithing)"],
+				"Level": 93,
 				"Primary": false,
-				"Output": "GolemOutfit",
-				"Priority": 7
+				"Priority": 1000
 			},
-			"Equip a ~|superior gem-finding scrimshaw|~": {
-				"Items": ["Superior gem-finding scrimshaw"],
-				"Level": 80,
+			"Feed a ~|sated ancient effigy|~ with mining": {
+				"Items": ["Starved ancient effigy (mining/smithing)"],
+				"Level": 95,
 				"Primary": false,
-				"Priority": 8
+				"Priority": 1000
 			},
-			"Fill an ~|expansive pouch|~ by mining in the rune essence mine": {
-				"Objects": ["Rune essence rock"],
-				"Items": ["Sealed expansive pouch*"],
-				"Level": 1,
-				"Output": "Expansive pouch",
+			"Mine an ~|alaea crablet|~": {
+				"Category": ["Uncharted"],
+				"Level": 97,
+				"NPCs": ["Alaea crablet"],
+				"Primary": true,
+				"Output": "Golden sea salt",
+				"Priority": 1
+			},
+			"Feed a ~|gorged ancient effigy|~ with mining": {
+				"Items": ["Starved ancient effigy (mining/smithing)"],
+				"Level": 97,
 				"Primary": false,
-				"Priority": 100
+				"Priority": 1000
+			},
+			"Mine an ~|idol crablet|~": {
+				"Category": ["Uncharted"],
+				"Level": 98,
+				"NPCs": ["Salty crablet"],
+				"Primary": true,
+				"Output": "Golden idol",
+				"Priority": 1
 			},
 			"Buy the ~|Mining cape|~": {
 				"Category": ["Skillcape"],
@@ -55249,7 +52846,7 @@
 				"Output": "Mining cape",
 				"Primary": true,
 				"NoBoost": true,
-				"Priority": 2,
+				"Priority": 1,
 				"Not F2P": true
 			},
 			"Mine with a ~|primal pickaxe (Dungeoneering)|~": {
@@ -55259,7 +52856,137 @@
 				},
 				"Level": 99,
 				"Primary": false,
+				"Priority": 1000,
+				"Not F2P": true
+			},
+			"Mine with a ~|primal pickaxe|~": {
+				"Items": ["Primalpick[+]"],
+				"Level": 100,
+				"Objects": ["Ore[+]"],
+				"Primary": false,
+				"Priority": 1,
+				"NoBoost": true
+			},
+			"Mine with the ~|Pickaxe of Life and Death|~": {
+				"Items": ["Pickaxe of Life and Death"],
+				"Level": 100,
+				"Objects": ["Ore[+]"],
+				"Primary": false,
+				"Priority": 2,
+				"NoBoost": true
+			},
+			"Mine a ~|novite rock|~": {
+				"Level": 100,
+				"Objects": ["Novite rock"],
+				"Primary": true,
+				"Output": "Novite ore",
+				"Priority": 3,
+				"Not F2P": true
+			},
+			"Mine a ~|bathus rock|~": {
+				"Level": 100,
+				"Objects": ["Bathus rock"],
+				"Primary": true,
+				"Output": "Bathus ore",
 				"Priority": 4,
+				"Not F2P": true
+			},
+			"Mine a ~|marmaros rock|~": {
+				"Level": 100,
+				"Objects": ["Marmaros rock"],
+				"Primary": true,
+				"Output": "Marmaros ore",
+				"Priority": 5,
+				"Not F2P": true
+			},
+			"Mine a ~|kratonium rock|~": {
+				"Level": 100,
+				"Objects": ["Kratonium rock"],
+				"Primary": true,
+				"Output": "Kratonium ore",
+				"Priority": 6,
+				"Not F2P": true
+			},
+			"Mine a ~|fractite rock|~": {
+				"Level": 100,
+				"Objects": ["Fractite rock"],
+				"Primary": true,
+				"Output": "Fractite ore",
+				"Priority": 7,
+				"Not F2P": true
+			},
+			"Mine a ~|zephyrium rock|~": {
+				"Level": 100,
+				"Objects": ["Zephyrium rock"],
+				"Primary": true,
+				"Output": "Zephyrium ore",
+				"Priority": 8,
+				"Not F2P": true
+			},
+			"Mine a ~|argonite rock|~": {
+				"Level": 100,
+				"Objects": ["Argonite rock"],
+				"Primary": true,
+				"Output": "Argonite ore",
+				"Priority": 9,
+				"Not F2P": true
+			},
+			"Mine a ~|katagon rock|~": {
+				"Level": 100,
+				"Objects": ["Katagon rock"],
+				"Primary": true,
+				"Output": "Katagon ore",
+				"Priority": 10,
+				"Not F2P": true
+			},
+			"Mine a ~|gorgonite rock|~": {
+				"Level": 100,
+				"Objects": ["Gorgonite rock"],
+				"Primary": true,
+				"Output": "Gorgonite ore",
+				"Priority": 11,
+				"Not F2P": true
+			},
+			"Mine a ~|promethium rock|~": {
+				"Level": 100,
+				"Objects": ["Promethium rock"],
+				"Primary": true,
+				"Output": "Promethium ore",
+				"Priority": 12,
+				"Not F2P": true
+			},
+			"Mine a size 10 ~|crashed star|~": {
+				"Category": ["Shooting Stars", "DnD"],
+				"Level": 100,
+				"Objects": ["Crashed star"],
+				"Output": "Big star loot",
+				"Primary": true,
+				"Priority": 1000,
+				"Not F2P": true
+			},
+			"Mine a ~|porcelain clay rock|~": {
+				"Level": 102,
+				"Objects": ["Porcelain clay rock"],
+				"Primary": true,
+				"Output": "Porcelain clay",
+				"Priority": 1,
+				"Not F2P": true
+			},
+			"Mine a ~|porcelain clay rock|~ while water is flowing to it": {
+				"Level": 102,
+				"Chunks": ["Everlight Porcelain Clay Mine"],
+				"Objects": ["Porcelain clay rock"],
+				"Primary": true,
+				"Output": "Soft porcelain clay",
+				"Priority": 2,
+				"Not F2P": true
+			},
+			"Mine a ~|platinum rock|~": {
+				"Level": 104,
+				"Objects": ["Platinum rock"],
+				"Primary": true,
+				"Output": "Platinum ore",
+				"Priority": 1,
 				"Not F2P": true
 			},
 			"Buy the ~|Mining master cape|~": {
@@ -55270,133 +52997,6 @@
 				"Primary": false,
 				"NoBoost": true,
 				"Priority": 3,
-				"Not F2P": true
-			},
-			"Buy the ~|Max cape|~": {
-				"Tasks": {
-					"Complete the ~|Archaeology tutorial|~": "Archaeology"
-				},
-				"Category": ["Skillcape"],
-				"Items": ["Max cape"],
-				"Level": 99,
-				"Primary": false,
-				"NoBoost": true,
-				"Skills": {
-					"Agility": 99,
-					"Archaeology": 99,
-					"Attack": 99,
-					"Constitution": 99,
-					"Construction": 99,
-					"Cooking": 99,
-					"Crafting": 99,
-					"Defence": 99,
-					"Divination": 99,
-					"Dungeoneering": 99,
-					"Farming": 99,
-					"Fishing": 99,
-					"Fletching": 99,
-					"Firemaking": 99,
-					"Herblore": 99,
-					"Hunter": 99,
-					"Invention": 99,
-					"Magic": 99,
-					"Necromancy": 99,
-					"Prayer": 99,
-					"Ranged": 99,
-					"Runecrafting": 99,
-					"Slayer": 99,
-					"Smithing": 99,
-					"Strength": 99,
-					"Summoning": 99,
-					"Thieving": 99,
-					"Woodcutting": 99
-				},
-				"Priority": 1,
-				"Not F2P": true
-			},
-			"Create the ~|blurite keystone|~": {
-				"Tasks": {
-					"Complete the ~|Archaeology tutorial|~": "Archaeology"
-				},
-				"Category": ["Master skillcape"],
-				"Items": ["Blurite bar", "Ruby", "Emerald", "Sapphire"],
-				"Objects": ["Furnace[+]"],
-				"Level": 120,
-				"Output": "Blurite keystone",
-				"Primary": false,
-				"NoBoost": true,
-				"Skills": {
-					"Agility": 120,
-					"Archaeology": 120,
-					"Attack": 120,
-					"Constitution": 120,
-					"Construction": 120,
-					"Cooking": 120,
-					"Crafting": 120,
-					"Defence": 120,
-					"Divination": 120,
-					"Dungeoneering": 120,
-					"Farming": 120,
-					"Fishing": 120,
-					"Fletching": 120,
-					"Firemaking": 120,
-					"Herblore": 120,
-					"Hunter": 120,
-					"Invention": 120,
-					"Magic": 120,
-					"Necromancy": 120,
-					"Prayer": 120,
-					"Ranged": 120,
-					"Runecrafting": 120,
-					"Slayer": 120,
-					"Smithing": 120,
-					"Strength": 120,
-					"Summoning": 120,
-					"Thieving": 120,
-					"Woodcutting": 120
-				},
-				"Priority": 2,
-				"Not F2P": true
-			},
-			"Buy the ~|Master max cape|~": {
-				"Tasks": {
-					"Complete the ~|Archaeology tutorial|~": "Archaeology"
-				},
-				"Category": ["Master skillcape"],
-				"Items": ["Master max cape", "Blurite keystone"],
-				"Level": 120,
-				"Primary": false,
-				"NoBoost": true,
-				"Skills": {
-					"Agility": 120,
-					"Archaeology": 120,
-					"Attack": 120,
-					"Constitution": 120,
-					"Construction": 120,
-					"Cooking": 120,
-					"Crafting": 120,
-					"Defence": 120,
-					"Divination": 120,
-					"Dungeoneering": 120,
-					"Farming": 120,
-					"Fishing": 120,
-					"Fletching": 120,
-					"Firemaking": 120,
-					"Herblore": 120,
-					"Hunter": 120,
-					"Invention": 120,
-					"Magic": 120,
-					"Prayer": 120,
-					"Ranged": 120,
-					"Runecrafting": 120,
-					"Slayer": 120,
-					"Smithing": 120,
-					"Strength": 120,
-					"Summoning": 120,
-					"Thieving": 120,
-					"Woodcutting": 120
-				},
-				"Priority": 1,
 				"Not F2P": true
 			}
 		},
@@ -56370,48 +53970,6 @@
 				"NoPet": true,
 				"NoBoost": true
 			},
-			"Buy the ~|Max cape|~": {
-				"Tasks": {
-					"Complete the ~|Archaeology tutorial|~": "Archaeology"
-				},
-				"Category": ["Skillcape"],
-				"Items": ["Max cape"],
-				"Level": 99,
-				"Primary": false,
-				"Skills": {
-					"Agility": 99,
-					"Archaeology": 99,
-					"Attack": 99,
-					"Constitution": 99,
-					"Construction": 99,
-					"Cooking": 99,
-					"Crafting": 99,
-					"Defence": 99,
-					"Divination": 99,
-					"Dungeoneering": 99,
-					"Farming": 99,
-					"Fishing": 99,
-					"Fletching": 99,
-					"Firemaking": 99,
-					"Herblore": 99,
-					"Hunter": 99,
-					"Invention": 99,
-					"Magic": 99,
-					"Mining": 99,
-					"Prayer": 99,
-					"Ranged": 99,
-					"Runecrafting": 99,
-					"Slayer": 99,
-					"Smithing": 99,
-					"Strength": 99,
-					"Summoning": 99,
-					"Thieving": 99,
-					"Woodcutting": 99
-				},
-				"Priority": 3,
-				"NoPet": true,
-				"NoBoost": true
-			},
 			"Draw a ~|Protection III|~ glyph": {
 				"Chunks": ["RitualSite[+]"],
 				"Items": ["Ectoplasm", "Powerful ghostly ink", "Greater ghostly ink"],
@@ -56447,50 +54005,6 @@
 				"Level": 120,
 				"Primary": false,
 				"Priority": 1,
-				"NoPet": true,
-				"NoBoost": true
-			},
-			"Create the ~|blurite keystone|~": {
-				"Tasks": {
-					"Complete the ~|Archaeology tutorial|~": "Archaeology"
-				},
-				"Category": ["Master skillcape"],
-				"Items": ["Blurite bar", "Ruby", "Emerald", "Sapphire"],
-				"Objects": ["Furnace[+]"],
-				"Level": 120,
-				"Output": "Blurite keystone",
-				"Primary": false,
-				"Skills": {
-					"Agility": 120,
-					"Archaeology": 120,
-					"Attack": 120,
-					"Constitution": 120,
-					"Construction": 120,
-					"Cooking": 120,
-					"Crafting": 120,
-					"Defence": 120,
-					"Divination": 120,
-					"Dungeoneering": 120,
-					"Farming": 120,
-					"Fishing": 120,
-					"Fletching": 120,
-					"Firemaking": 120,
-					"Herblore": 120,
-					"Hunter": 120,
-					"Invention": 120,
-					"Magic": 120,
-					"Mining": 120,
-					"Prayer": 120,
-					"Ranged": 120,
-					"Runecrafting": 120,
-					"Slayer": 120,
-					"Smithing": 120,
-					"Strength": 120,
-					"Summoning": 120,
-					"Thieving": 120,
-					"Woodcutting": 120
-				},
-				"Priority": 2,
 				"NoPet": true,
 				"NoBoost": true
 			}
@@ -58137,136 +55651,6 @@
 				"Output": "Prayer master cape",
 				"Primary": false,
 				"Priority": 3,
-				"NoPet": true,
-				"NoBoost": true,
-				"Not F2P": true
-			},
-			"Buy the ~|Max cape|~": {
-				"Tasks": {
-					"Complete the ~|Archaeology tutorial|~": "Archaeology"
-				},
-				"Category": ["Skillcape"],
-				"Items": ["Max cape"],
-				"Level": 99,
-				"Primary": false,
-				"Skills": {
-					"Agility": 99,
-					"Archaeology": 99,
-					"Attack": 99,
-					"Constitution": 99,
-					"Construction": 99,
-					"Cooking": 99,
-					"Crafting": 99,
-					"Defence": 99,
-					"Divination": 99,
-					"Dungeoneering": 99,
-					"Farming": 99,
-					"Fishing": 99,
-					"Fletching": 99,
-					"Firemaking": 99,
-					"Herblore": 99,
-					"Hunter": 99,
-					"Invention": 99,
-					"Magic": 99,
-					"Mining": 99,
-					"Necromancy": 99,
-					"Ranged": 99,
-					"Runecrafting": 99,
-					"Slayer": 99,
-					"Smithing": 99,
-					"Strength": 99,
-					"Summoning": 99,
-					"Thieving": 99,
-					"Woodcutting": 99
-				},
-				"Priority": 1,
-				"NoPet": true,
-				"NoBoost": true,
-				"Not F2P": true
-			},
-			"Create the ~|blurite keystone|~": {
-				"Tasks": {
-					"Complete the ~|Archaeology tutorial|~": "Archaeology"
-				},
-				"Category": ["Master skillcape"],
-				"Items": ["Blurite bar", "Ruby", "Emerald", "Sapphire"],
-				"Objects": ["Furnace[+]"],
-				"Level": 120,
-				"Output": "Blurite keystone",
-				"Primary": false,
-				"Skills": {
-					"Agility": 120,
-					"Archaeology": 120,
-					"Attack": 120,
-					"Constitution": 120,
-					"Construction": 120,
-					"Cooking": 120,
-					"Crafting": 120,
-					"Defence": 120,
-					"Divination": 120,
-					"Dungeoneering": 120,
-					"Farming": 120,
-					"Fishing": 120,
-					"Fletching": 120,
-					"Firemaking": 120,
-					"Herblore": 120,
-					"Hunter": 120,
-					"Invention": 120,
-					"Magic": 120,
-					"Mining": 120,
-					"Necromancy": 120,
-					"Ranged": 120,
-					"Runecrafting": 120,
-					"Slayer": 120,
-					"Smithing": 120,
-					"Strength": 120,
-					"Summoning": 120,
-					"Thieving": 120,
-					"Woodcutting": 120
-				},
-				"Priority": 2,
-				"NoPet": true,
-				"NoBoost": true,
-				"Not F2P": true
-			},
-			"Buy the ~|Master max cape|~": {
-				"Tasks": {
-					"Complete the ~|Archaeology tutorial|~": "Archaeology"
-				},
-				"Category": ["Master skillcape"],
-				"Items": ["Master max cape", "Blurite keystone"],
-				"Level": 120,
-				"Primary": false,
-				"Skills": {
-					"Agility": 120,
-					"Archaeology": 120,
-					"Attack": 120,
-					"Constitution": 120,
-					"Construction": 120,
-					"Cooking": 120,
-					"Crafting": 120,
-					"Defence": 120,
-					"Divination": 120,
-					"Dungeoneering": 120,
-					"Farming": 120,
-					"Fishing": 120,
-					"Fletching": 120,
-					"Firemaking": 120,
-					"Herblore": 120,
-					"Hunter": 120,
-					"Invention": 120,
-					"Magic": 120,
-					"Mining": 120,
-					"Ranged": 120,
-					"Runecrafting": 120,
-					"Slayer": 120,
-					"Smithing": 120,
-					"Strength": 120,
-					"Summoning": 120,
-					"Thieving": 120,
-					"Woodcutting": 120
-				},
-				"Priority": 1,
 				"NoPet": true,
 				"NoBoost": true,
 				"Not F2P": true
@@ -61562,136 +58946,6 @@
 				"NoPet": true,
 				"NoBoost": true,
 				"Not F2P": true
-			},
-			"Buy the ~|Max cape|~": {
-				"Tasks": {
-					"Complete the ~|Archaeology tutorial|~": "Archaeology"
-				},
-				"Category": ["Skillcape"],
-				"Items": ["Max cape"],
-				"Level": 99,
-				"Primary": false,
-				"Skills": {
-					"Agility": 99,
-					"Archaeology": 99,
-					"Attack": 99,
-					"Constitution": 99,
-					"Construction": 99,
-					"Cooking": 99,
-					"Crafting": 99,
-					"Defence": 99,
-					"Divination": 99,
-					"Dungeoneering": 99,
-					"Farming": 99,
-					"Fishing": 99,
-					"Fletching": 99,
-					"Firemaking": 99,
-					"Herblore": 99,
-					"Hunter": 99,
-					"Invention": 99,
-					"Magic": 99,
-					"Mining": 99,
-					"Necromancy": 99,
-					"Prayer": 99,
-					"Runecrafting": 99,
-					"Slayer": 99,
-					"Smithing": 99,
-					"Strength": 99,
-					"Summoning": 99,
-					"Thieving": 99,
-					"Woodcutting": 99
-				},
-				"Priority": 1,
-				"NoPet": true,
-				"NoBoost": true,
-				"Not F2P": true
-			},
-			"Create the ~|blurite keystone|~": {
-				"Tasks": {
-					"Complete the ~|Archaeology tutorial|~": "Archaeology"
-				},
-				"Category": ["Master skillcape"],
-				"Items": ["Blurite bar", "Ruby", "Emerald", "Sapphire"],
-				"Objects": ["Furnace[+]"],
-				"Level": 120,
-				"Output": "Blurite keystone",
-				"Primary": false,
-				"Skills": {
-					"Agility": 120,
-					"Archaeology": 120,
-					"Attack": 120,
-					"Constitution": 120,
-					"Construction": 120,
-					"Cooking": 120,
-					"Crafting": 120,
-					"Defence": 120,
-					"Divination": 120,
-					"Dungeoneering": 120,
-					"Farming": 120,
-					"Fishing": 120,
-					"Fletching": 120,
-					"Firemaking": 120,
-					"Herblore": 120,
-					"Hunter": 120,
-					"Invention": 120,
-					"Magic": 120,
-					"Mining": 120,
-					"Necromancy": 120,
-					"Prayer": 120,
-					"Runecrafting": 120,
-					"Slayer": 120,
-					"Smithing": 120,
-					"Strength": 120,
-					"Summoning": 120,
-					"Thieving": 120,
-					"Woodcutting": 120
-				},
-				"Priority": 2,
-				"NoPet": true,
-				"NoBoost": true,
-				"Not F2P": true
-			},
-			"Buy the ~|Master max cape|~": {
-				"Tasks": {
-					"Complete the ~|Archaeology tutorial|~": "Archaeology"
-				},
-				"Category": ["Master skillcape"],
-				"Items": ["Master max cape", "Blurite keystone"],
-				"Level": 120,
-				"Primary": false,
-				"Skills": {
-					"Agility": 120,
-					"Archaeology": 120,
-					"Attack": 120,
-					"Constitution": 120,
-					"Construction": 120,
-					"Cooking": 120,
-					"Crafting": 120,
-					"Defence": 120,
-					"Divination": 120,
-					"Dungeoneering": 120,
-					"Farming": 120,
-					"Fishing": 120,
-					"Fletching": 120,
-					"Firemaking": 120,
-					"Herblore": 120,
-					"Hunter": 120,
-					"Invention": 120,
-					"Magic": 120,
-					"Mining": 120,
-					"Prayer": 120,
-					"Runecrafting": 120,
-					"Slayer": 120,
-					"Smithing": 120,
-					"Strength": 120,
-					"Summoning": 120,
-					"Thieving": 120,
-					"Woodcutting": 120
-				},
-				"Priority": 1,
-				"NoPet": true,
-				"NoBoost": true,
-				"Not F2P": true
 			}
 		},
 		"Runecrafting": {
@@ -63116,48 +60370,6 @@
 				"Priority": 1,
 				"Not F2P": true
 			},
-			"Buy the ~|Max cape|~": {
-				"Tasks": {
-					"Complete the ~|Archaeology tutorial|~": "Archaeology"
-				},
-				"Category": ["Skillcape"],
-				"Items": ["Max cape"],
-				"Level": 99,
-				"Primary": false,
-				"NoBoost": true,
-				"Skills": {
-					"Agility": 99,
-					"Archaeology": 99,
-					"Attack": 99,
-					"Constitution": 99,
-					"Construction": 99,
-					"Cooking": 99,
-					"Crafting": 99,
-					"Defence": 99,
-					"Divination": 99,
-					"Dungeoneering": 99,
-					"Farming": 99,
-					"Fishing": 99,
-					"Fletching": 99,
-					"Firemaking": 99,
-					"Herblore": 99,
-					"Hunter": 99,
-					"Invention": 99,
-					"Magic": 99,
-					"Mining": 99,
-					"Necromancy": 99,
-					"Prayer": 99,
-					"Ranged": 99,
-					"Slayer": 99,
-					"Smithing": 99,
-					"Strength": 99,
-					"Summoning": 99,
-					"Thieving": 99,
-					"Woodcutting": 99
-				},
-				"Priority": 1,
-				"Not F2P": true
-			},
 			"Obtain the ~|Archmage|~ title": {
 				"Category": ["Titles"],
 				"Chunks": ["12337-1"],
@@ -63438,91 +60650,6 @@
 				"Output": "Masterwork staff",
 				"Primary": true,
 				"Priority": 12,
-				"Not F2P": true
-			},
-			"Create the ~|blurite keystone|~": {
-				"Tasks": {
-					"Complete the ~|Archaeology tutorial|~": "Archaeology"
-				},
-				"Category": ["Master skillcape"],
-				"Items": ["Blurite bar", "Ruby", "Emerald", "Sapphire"],
-				"Objects": ["Furnace[+]"],
-				"Level": 120,
-				"Output": "Blurite keystone",
-				"Primary": false,
-				"NoBoost": true,
-				"Skills": {
-					"Agility": 120,
-					"Archaeology": 120,
-					"Attack": 120,
-					"Constitution": 120,
-					"Construction": 120,
-					"Cooking": 120,
-					"Crafting": 120,
-					"Defence": 120,
-					"Divination": 120,
-					"Dungeoneering": 120,
-					"Farming": 120,
-					"Fishing": 120,
-					"Fletching": 120,
-					"Firemaking": 120,
-					"Herblore": 120,
-					"Hunter": 120,
-					"Invention": 120,
-					"Magic": 120,
-					"Mining": 120,
-					"Necromancy": 120,
-					"Prayer": 120,
-					"Ranged": 120,
-					"Slayer": 120,
-					"Smithing": 120,
-					"Strength": 120,
-					"Summoning": 120,
-					"Thieving": 120,
-					"Woodcutting": 120
-				},
-				"Priority": 2,
-				"Not F2P": true
-			},
-			"Buy the ~|Master max cape|~": {
-				"Tasks": {
-					"Complete the ~|Archaeology tutorial|~": "Archaeology"
-				},
-				"Category": ["Master skillcape"],
-				"Items": ["Master max cape", "Blurite keystone"],
-				"Level": 120,
-				"Primary": false,
-				"NoBoost": true,
-				"Skills": {
-					"Agility": 120,
-					"Archaeology": 120,
-					"Attack": 120,
-					"Constitution": 120,
-					"Construction": 120,
-					"Cooking": 120,
-					"Crafting": 120,
-					"Defence": 120,
-					"Divination": 120,
-					"Dungeoneering": 120,
-					"Farming": 120,
-					"Fishing": 120,
-					"Fletching": 120,
-					"Firemaking": 120,
-					"Herblore": 120,
-					"Hunter": 120,
-					"Invention": 120,
-					"Magic": 120,
-					"Mining": 120,
-					"Prayer": 120,
-					"Ranged": 120,
-					"Slayer": 120,
-					"Smithing": 120,
-					"Strength": 120,
-					"Summoning": 120,
-					"Thieving": 120,
-					"Woodcutting": 120
-				},
-				"Priority": 1,
 				"Not F2P": true
 			}
 		},
@@ -66293,133 +63420,6 @@
 				},
 				"Primary": true,
 				"Priority": 13
-			},
-			"Buy the ~|Max cape|~": {
-				"Tasks": {
-					"Complete the ~|Archaeology tutorial|~": "Archaeology"
-				},
-				"Category": ["Skillcape"],
-				"Items": ["Max cape"],
-				"Level": 99,
-				"Primary": false,
-				"Skills": {
-					"Agility": 99,
-					"Archaeology": 99,
-					"Attack": 99,
-					"Constitution": 99,
-					"Construction": 99,
-					"Cooking": 99,
-					"Crafting": 99,
-					"Defence": 99,
-					"Divination": 99,
-					"Dungeoneering": 99,
-					"Farming": 99,
-					"Fishing": 99,
-					"Fletching": 99,
-					"Firemaking": 99,
-					"Herblore": 99,
-					"Hunter": 99,
-					"Invention": 99,
-					"Magic": 99,
-					"Mining": 99,
-					"Necromancy": 99,
-					"Prayer": 99,
-					"Ranged": 99,
-					"Runecrafting": 99,
-					"Smithing": 99,
-					"Strength": 99,
-					"Summoning": 99,
-					"Thieving": 99,
-					"Woodcutting": 99
-				},
-				"Priority": 1,
-				"NoPet": true,
-				"NoBoost": true
-			},
-			"Create the ~|blurite keystone|~": {
-				"Tasks": {
-					"Complete the ~|Archaeology tutorial|~": "Archaeology"
-				},
-				"Category": ["Master skillcape"],
-				"Items": ["Blurite bar", "Ruby", "Emerald", "Sapphire"],
-				"Objects": ["Furnace[+]"],
-				"Level": 120,
-				"Output": "Blurite keystone",
-				"Primary": false,
-				"Skills": {
-					"Agility": 120,
-					"Archaeology": 120,
-					"Attack": 120,
-					"Constitution": 120,
-					"Construction": 120,
-					"Cooking": 120,
-					"Crafting": 120,
-					"Defence": 120,
-					"Divination": 120,
-					"Dungeoneering": 120,
-					"Farming": 120,
-					"Fishing": 120,
-					"Fletching": 120,
-					"Firemaking": 120,
-					"Herblore": 120,
-					"Hunter": 120,
-					"Invention": 120,
-					"Magic": 120,
-					"Mining": 120,
-					"Necromancy": 120,
-					"Prayer": 120,
-					"Ranged": 120,
-					"Runecrafting": 120,
-					"Smithing": 120,
-					"Strength": 120,
-					"Summoning": 120,
-					"Thieving": 120,
-					"Woodcutting": 120
-				},
-				"Priority": 2,
-				"NoPet": true,
-				"NoBoost": true
-			},
-			"Buy the ~|Master max cape|~": {
-				"Tasks": {
-					"Complete the ~|Archaeology tutorial|~": "Archaeology"
-				},
-				"Category": ["Master skillcape"],
-				"Items": ["Master max cape", "Blurite keystone"],
-				"Level": 120,
-				"Primary": false,
-				"Skills": {
-					"Agility": 120,
-					"Archaeology": 120,
-					"Attack": 120,
-					"Constitution": 120,
-					"Construction": 120,
-					"Cooking": 120,
-					"Crafting": 120,
-					"Defence": 120,
-					"Divination": 120,
-					"Dungeoneering": 120,
-					"Farming": 120,
-					"Fishing": 120,
-					"Fletching": 120,
-					"Firemaking": 120,
-					"Herblore": 120,
-					"Hunter": 120,
-					"Invention": 120,
-					"Magic": 120,
-					"Mining": 120,
-					"Prayer": 120,
-					"Ranged": 120,
-					"Runecrafting": 120,
-					"Smithing": 120,
-					"Strength": 120,
-					"Summoning": 120,
-					"Thieving": 120,
-					"Woodcutting": 120
-				},
-				"Priority": 1,
-				"NoPet": true,
-				"NoBoost": true
 			}
 		},
 		"Smithing": {
@@ -66436,6 +63436,17 @@
 				"Level": 20,
 				"Objects": ["Furnace[+]"],
 				"Output": "Silver bar",
+				"Primary": true,
+				"Priority": 1
+			},
+			"Smelt a ~|blurite bar|~": {
+				"Items": ["Blurite ore*"],
+				"Level": 10,
+				"Tasks": {
+					"~|The Knight's Sword|~ Complete the quest": "Quest"
+				},
+				"Objects": ["Furnace[+]"],
+				"Output": "Blurite bar",
 				"Primary": true,
 				"Priority": 1
 			},
@@ -66758,6 +63769,14 @@
 				"Output": "Iron ore box",
 				"Primary": true,
 				"Priority": 6
+			},
+			"Forge ~|blurite|~": {
+				"Items": ["Blurite bar*"],
+				"Level": 10,
+				"Objects": ["Forge[+]", "Anvil[+]"],
+				"Output": "BluriteGear",
+				"Primary": true,
+				"Priority": 4
 			},
 			"Smith a ~|death gaurd (tier 20)|~": {
 				"Objects": ["Soul forge"],
@@ -68439,48 +65458,6 @@
 				"Primary": false,
 				"Priority": 1
 			},
-			"Buy the ~|Max cape|~": {
-				"Tasks": {
-					"Complete the ~|Archaeology tutorial|~": "Archaeology"
-				},
-				"Category": ["Skillcape"],
-				"Items": ["Max cape"],
-				"Level": 99,
-				"Primary": false,
-				"NoBoost": true,
-				"Skills": {
-					"Agility": 99,
-					"Archaeology": 99,
-					"Attack": 99,
-					"Constitution": 99,
-					"Construction": 99,
-					"Cooking": 99,
-					"Crafting": 99,
-					"Defence": 99,
-					"Divination": 99,
-					"Dungeoneering": 99,
-					"Farming": 99,
-					"Fishing": 99,
-					"Fletching": 99,
-					"Firemaking": 99,
-					"Herblore": 99,
-					"Hunter": 99,
-					"Invention": 99,
-					"Magic": 99,
-					"Mining": 99,
-					"Necromancy": 99,
-					"Prayer": 99,
-					"Ranged": 99,
-					"Runecrafting": 99,
-					"Slayer": 99,
-					"Strength": 99,
-					"Summoning": 99,
-					"Thieving": 99,
-					"Woodcutting": 99
-				},
-				"Priority": 1,
-				"Not F2P": true
-			},
 			"Forge the ~|Pickaxe of Life and Death|~": {
 				"Items": [
 					"Pickaxe of Earth and Song*", 
@@ -68596,91 +65573,6 @@
 				"Output": "Hatchet of Bloom and Blight",
 				"Primary": true,
 				"Priority": 6
-			},
-			"Create the ~|blurite keystone|~": {
-				"Tasks": {
-					"Complete the ~|Archaeology tutorial|~": "Archaeology"
-				},
-				"Category": ["Master skillcape"],
-				"Items": ["Blurite bar", "Ruby", "Emerald", "Sapphire"],
-				"Objects": ["Furnace[+]"],
-				"Level": 120,
-				"Output": "Blurite keystone",
-				"Primary": false,
-				"NoBoost": true,
-				"Skills": {
-					"Agility": 120,
-					"Archaeology": 120,
-					"Attack": 120,
-					"Constitution": 120,
-					"Construction": 120,
-					"Cooking": 120,
-					"Crafting": 120,
-					"Defence": 120,
-					"Divination": 120,
-					"Dungeoneering": 120,
-					"Farming": 120,
-					"Fishing": 120,
-					"Fletching": 120,
-					"Firemaking": 120,
-					"Herblore": 120,
-					"Hunter": 120,
-					"Invention": 120,
-					"Magic": 120,
-					"Mining": 120,
-					"Necromancy": 120,
-					"Prayer": 120,
-					"Ranged": 120,
-					"Runecrafting": 120,
-					"Slayer": 120,
-					"Strength": 120,
-					"Summoning": 120,
-					"Thieving": 120,
-					"Woodcutting": 120
-				},
-				"Priority": 2,
-				"Not F2P": true
-			},
-			"Buy the ~|Master max cape|~": {
-				"Tasks": {
-					"Complete the ~|Archaeology tutorial|~": "Archaeology"
-				},
-				"Category": ["Master skillcape"],
-				"Items": ["Master max cape", "Blurite keystone"],
-				"Level": 120,
-				"Primary": false,
-				"NoBoost": true,
-				"Skills": {
-					"Agility": 120,
-					"Archaeology": 120,
-					"Attack": 120,
-					"Constitution": 120,
-					"Construction": 120,
-					"Cooking": 120,
-					"Crafting": 120,
-					"Defence": 120,
-					"Divination": 120,
-					"Dungeoneering": 120,
-					"Farming": 120,
-					"Fishing": 120,
-					"Fletching": 120,
-					"Firemaking": 120,
-					"Herblore": 120,
-					"Hunter": 120,
-					"Invention": 120,
-					"Magic": 120,
-					"Mining": 120,
-					"Prayer": 120,
-					"Ranged": 120,
-					"Runecrafting": 120,
-					"Slayer": 120,
-					"Strength": 120,
-					"Summoning": 120,
-					"Thieving": 120,
-					"Woodcutting": 120
-				},
-				"Priority": 1,
-				"Not F2P": true
 			}
 		},
 		"Strength": {
@@ -69314,135 +66206,6 @@
 				"Level": 1,
 				"Primary": true,
 				"Priority": 2
-			},
-			"Buy the ~|Max cape|~": {
-				"Tasks": {
-					"Complete the ~|Archaeology tutorial|~": "Archaeology"
-				},
-				"Category": ["Skillcape"],
-				"Items": ["Max cape"],
-				"Level": 99,
-				"Primary": false,
-				"Skills": {
-					"Agility": 99,
-					"Archaeology": 99,
-					"Attack": 99,
-					"Constitution": 99,
-					"Construction": 99,
-					"Cooking": 99,
-					"Crafting": 99,
-					"Defence": 99,
-					"Divination": 99,
-					"Dungeoneering": 99,
-					"Farming": 99,
-					"Fishing": 99,
-					"Fletching": 99,
-					"Firemaking": 99,
-					"Herblore": 99,
-					"Hunter": 99,
-					"Invention": 99,
-					"Magic": 99,
-					"Mining": 99,
-					"Necromancy": 99,
-					"Prayer": 99,
-					"Ranged": 99,
-					"Runecrafting": 99,
-					"Slayer": 99,
-					"Smithing": 99,
-					"Summoning": 99,
-					"Thieving": 99,
-					"Woodcutting": 99
-				},
-				"Priority": 1,
-				"NoPet": true,
-				"NoBoost": true
-			},
-			"Create the ~|blurite keystone|~": {
-				"Tasks": {
-					"Complete the ~|Archaeology tutorial|~": "Archaeology"
-				},
-				"Category": ["Master skillcape"],
-				"Items": ["Blurite bar", "Ruby", "Emerald", "Sapphire"],
-				"Objects": ["Furnace[+]"],
-				"Level": 120,
-				"Output": "Blurite keystone",
-				"Primary": false,
-				"Skills": {
-					"Agility": 120,
-					"Archaeology": 120,
-					"Attack": 120,
-					"Constitution": 120,
-					"Construction": 120,
-					"Cooking": 120,
-					"Crafting": 120,
-					"Defence": 120,
-					"Divination": 120,
-					"Dungeoneering": 120,
-					"Farming": 120,
-					"Fishing": 120,
-					"Fletching": 120,
-					"Firemaking": 120,
-					"Herblore": 120,
-					"Hunter": 120,
-					"Invention": 120,
-					"Magic": 120,
-					"Mining": 120,
-					"Necromancy": 120,
-					"Prayer": 120,
-					"Ranged": 120,
-					"Runecrafting": 120,
-					"Slayer": 120,
-					"Smithing": 120,
-					"Summoning": 120,
-					"Thieving": 120,
-					"Woodcutting": 120
-				},
-				"Priority": 2,
-				"NoPet": true,
-				"NoBoost": true,
-				"Not F2P": true
-			},
-			"Buy the ~|Master max cape|~": {
-				"Tasks": {
-					"Complete the ~|Archaeology tutorial|~": "Archaeology"
-				},
-				"Category": ["Master skillcape"],
-				"Items": ["Master max cape", "Blurite keystone"],
-				"Level": 120,
-				"Primary": false,
-				"Skills": {
-					"Agility": 120,
-					"Archaeology": 120,
-					"Attack": 120,
-					"Constitution": 120,
-					"Construction": 120,
-					"Cooking": 120,
-					"Crafting": 120,
-					"Defence": 120,
-					"Divination": 120,
-					"Dungeoneering": 120,
-					"Farming": 120,
-					"Fishing": 120,
-					"Fletching": 120,
-					"Firemaking": 120,
-					"Herblore": 120,
-					"Hunter": 120,
-					"Invention": 120,
-					"Magic": 120,
-					"Mining": 120,
-					"Prayer": 120,
-					"Ranged": 120,
-					"Runecrafting": 120,
-					"Slayer": 120,
-					"Smithing": 120,
-					"Summoning": 120,
-					"Thieving": 120,
-					"Woodcutting": 120
-				},
-				"Priority": 1,
-				"NoPet": true,
-				"NoBoost": true,
-				"Not F2P": true
 			}
 		},
 		"Summoning": {
@@ -71662,133 +68425,6 @@
 				"Primary": false,
 				"Priority": 13,
 				"NoBoost": true
-			},
-			"Buy the ~|Max cape|~": {
-				"Tasks": {
-					"Complete the ~|Archaeology tutorial|~": "Archaeology"
-				},
-				"Category": ["Skillcape"],
-				"Items": ["Max cape"],
-				"Level": 99,
-				"Primary": false,
-				"Skills": {
-					"Agility": 99,
-					"Archaeology": 99,
-					"Attack": 99,
-					"Constitution": 99,
-					"Construction": 99,
-					"Cooking": 99,
-					"Crafting": 99,
-					"Defence": 99,
-					"Divination": 99,
-					"Dungeoneering": 99,
-					"Farming": 99,
-					"Fishing": 99,
-					"Fletching": 99,
-					"Firemaking": 99,
-					"Herblore": 99,
-					"Hunter": 99,
-					"Invention": 99,
-					"Magic": 99,
-					"Mining": 99,
-					"Necromancy": 99,
-					"Prayer": 99,
-					"Ranged": 99,
-					"Runecrafting": 99,
-					"Slayer": 99,
-					"Smithing": 99,
-					"Strength": 99,
-					"Thieving": 99,
-					"Woodcutting": 99
-				},
-				"Priority": 1,
-				"NoPet": true,
-				"NoBoost": true
-			},
-			"Create the ~|blurite keystone|~": {
-				"Tasks": {
-					"Complete the ~|Archaeology tutorial|~": "Archaeology"
-				},
-				"Category": ["Master skillcape"],
-				"Items": ["Blurite bar", "Ruby", "Emerald", "Sapphire"],
-				"Objects": ["Furnace[+]"],
-				"Level": 120,
-				"Output": "Blurite keystone",
-				"Primary": false,
-				"Skills": {
-					"Agility": 120,
-					"Archaeology": 120,
-					"Attack": 120,
-					"Constitution": 120,
-					"Construction": 120,
-					"Cooking": 120,
-					"Crafting": 120,
-					"Defence": 120,
-					"Divination": 120,
-					"Dungeoneering": 120,
-					"Farming": 120,
-					"Fishing": 120,
-					"Fletching": 120,
-					"Firemaking": 120,
-					"Herblore": 120,
-					"Hunter": 120,
-					"Invention": 120,
-					"Magic": 120,
-					"Mining": 120,
-					"Necromancy": 120,
-					"Prayer": 120,
-					"Ranged": 120,
-					"Runecrafting": 120,
-					"Slayer": 120,
-					"Smithing": 120,
-					"Strength": 120,
-					"Thieving": 120,
-					"Woodcutting": 120
-				},
-				"Priority": 2,
-				"NoPet": true,
-				"NoBoost": true
-			},
-			"Buy the ~|Master max cape|~": {
-				"Tasks": {
-					"Complete the ~|Archaeology tutorial|~": "Archaeology"
-				},
-				"Category": ["Master skillcape"],
-				"Items": ["Master max cape", "Blurite keystone"],
-				"Level": 120,
-				"Primary": false,
-				"Skills": {
-					"Agility": 120,
-					"Archaeology": 120,
-					"Attack": 120,
-					"Constitution": 120,
-					"Construction": 120,
-					"Cooking": 120,
-					"Crafting": 120,
-					"Defence": 120,
-					"Divination": 120,
-					"Dungeoneering": 120,
-					"Farming": 120,
-					"Fishing": 120,
-					"Fletching": 120,
-					"Firemaking": 120,
-					"Herblore": 120,
-					"Hunter": 120,
-					"Invention": 120,
-					"Magic": 120,
-					"Mining": 120,
-					"Prayer": 120,
-					"Ranged": 120,
-					"Runecrafting": 120,
-					"Slayer": 120,
-					"Smithing": 120,
-					"Strength": 120,
-					"Thieving": 120,
-					"Woodcutting": 120
-				},
-				"Priority": 1,
-				"NoPet": true,
-				"NoBoost": true
 			}
 		},
 		"Thieving": {
@@ -73256,47 +69892,6 @@
 				"NoBoost": true,
 				"Priority": 1
 			},
-			"Buy the ~|Max cape|~": {
-				"Tasks": {
-					"Complete the ~|Archaeology tutorial|~": "Archaeology"
-				},
-				"Category": ["Skillcape"],
-				"Items": ["Max cape"],
-				"Level": 99,
-				"Primary": false,
-				"NoBoost": true,
-				"Skills": {
-					"Agility": 99,
-					"Archaeology": 99,
-					"Attack": 99,
-					"Constitution": 99,
-					"Construction": 99,
-					"Cooking": 99,
-					"Crafting": 99,
-					"Defence": 99,
-					"Divination": 99,
-					"Dungeoneering": 99,
-					"Farming": 99,
-					"Fishing": 99,
-					"Fletching": 99,
-					"Firemaking": 99,
-					"Herblore": 99,
-					"Hunter": 99,
-					"Invention": 99,
-					"Magic": 99,
-					"Mining": 99,
-					"Necromancy": 99,
-					"Prayer": 99,
-					"Ranged": 99,
-					"Runecrafting": 99,
-					"Slayer": 99,
-					"Smithing": 99,
-					"Strength": 99,
-					"Summoning": 99,
-					"Woodcutting": 99
-				},
-				"Priority": 2
-			},
 			"Pickpocket a ~|vyrewatch tither|~": {
 				"Level": 100,
 				"NPCs": ["Vyrewatch tither"],
@@ -73723,89 +70318,6 @@
 				"Output": "Vyrewatch tither",
 				"Primary": false,
 				"Priority": 1003
-			},
-			"Create the ~|blurite keystone|~": {
-				"Tasks": {
-					"Complete the ~|Archaeology tutorial|~": "Archaeology"
-				},
-				"Category": ["Master skillcape"],
-				"Items": ["Blurite bar", "Ruby", "Emerald", "Sapphire"],
-				"Objects": ["Furnace[+]"],
-				"Level": 120,
-				"Output": "Blurite keystone",
-				"Primary": false,
-				"NoBoost": true,
-				"Skills": {
-					"Agility": 120,
-					"Archaeology": 120,
-					"Attack": 120,
-					"Constitution": 120,
-					"Construction": 120,
-					"Cooking": 120,
-					"Crafting": 120,
-					"Defence": 120,
-					"Divination": 120,
-					"Dungeoneering": 120,
-					"Farming": 120,
-					"Fishing": 120,
-					"Fletching": 120,
-					"Firemaking": 120,
-					"Herblore": 120,
-					"Hunter": 120,
-					"Invention": 120,
-					"Magic": 120,
-					"Mining": 120,
-					"Necromancy": 120,
-					"Prayer": 120,
-					"Ranged": 120,
-					"Runecrafting": 120,
-					"Slayer": 120,
-					"Smithing": 120,
-					"Strength": 120,
-					"Summoning": 120,
-					"Woodcutting": 120
-				},
-				"Priority": 1000
-			},
-			"Buy the ~|Master max cape|~": {
-				"Tasks": {
-					"Complete the ~|Archaeology tutorial|~": "Archaeology"
-				},
-				"Category": ["Master skillcape"],
-				"Items": ["Master max cape", "Blurite keystone"],
-				"Level": 120,
-				"Primary": false,
-				"NoBoost": true,
-				"Skills": {
-					"Agility": 120,
-					"Archaeology": 120,
-					"Attack": 120,
-					"Constitution": 120,
-					"Construction": 120,
-					"Cooking": 120,
-					"Crafting": 120,
-					"Defence": 120,
-					"Divination": 120,
-					"Dungeoneering": 120,
-					"Farming": 120,
-					"Fishing": 120,
-					"Fletching": 120,
-					"Firemaking": 120,
-					"Herblore": 120,
-					"Hunter": 120,
-					"Invention": 120,
-					"Magic": 120,
-					"Mining": 120,
-					"Prayer": 120,
-					"Ranged": 120,
-					"Runecrafting": 120,
-					"Slayer": 120,
-					"Smithing": 120,
-					"Strength": 120,
-					"Summoning": 120,
-					"Woodcutting": 120
-				},
-				"Priority": 1001
 			}
 		},
 		"Woodcutting": {
@@ -74666,133 +71178,6 @@
 				"Primary": false,
 				"NoBoost": true,
 				"Priority": 3,
-				"Not F2P": true
-			},
-			"Buy the ~|Max cape|~": {
-				"Tasks": {
-					"Complete the ~|Archaeology tutorial|~": "Archaeology"
-				},
-				"Category": ["Skillcape"],
-				"Items": ["Max cape"],
-				"Level": 99,
-				"Primary": false,
-				"NoBoost": true,
-				"Skills": {
-					"Agility": 99,
-					"Archaeology": 99,
-					"Attack": 99,
-					"Constitution": 99,
-					"Construction": 99,
-					"Cooking": 99,
-					"Crafting": 99,
-					"Defence": 99,
-					"Divination": 99,
-					"Dungeoneering": 99,
-					"Farming": 99,
-					"Fishing": 99,
-					"Fletching": 99,
-					"Firemaking": 99,
-					"Herblore": 99,
-					"Hunter": 99,
-					"Invention": 99,
-					"Magic": 99,
-					"Mining": 99,
-					"Necromancy": 99,
-					"Prayer": 99,
-					"Ranged": 99,
-					"Runecrafting": 99,
-					"Slayer": 99,
-					"Smithing": 99,
-					"Strength": 99,
-					"Summoning": 99,
-					"Thieving": 99
-				},
-				"Priority": 1,
-				"Not F2P": true
-			},
-			"Create the ~|blurite keystone|~": {
-				"Tasks": {
-					"Complete the ~|Archaeology tutorial|~": "Archaeology"
-				},
-				"Category": ["Master skillcape"],
-				"Items": ["Blurite bar", "Ruby", "Emerald", "Sapphire"],
-				"Objects": ["Furnace[+]"],
-				"Level": 120,
-				"Output": "Blurite keystone",
-				"Primary": false,
-				"NoBoost": true,
-				"Skills": {
-					"Agility": 120,
-					"Archaeology": 120,
-					"Attack": 120,
-					"Constitution": 120,
-					"Construction": 120,
-					"Cooking": 120,
-					"Crafting": 120,
-					"Defence": 120,
-					"Divination": 120,
-					"Dungeoneering": 120,
-					"Farming": 120,
-					"Fishing": 120,
-					"Fletching": 120,
-					"Firemaking": 120,
-					"Herblore": 120,
-					"Hunter": 120,
-					"Invention": 120,
-					"Magic": 120,
-					"Mining": 120,
-					"Necromancy": 120,
-					"Prayer": 120,
-					"Ranged": 120,
-					"Runecrafting": 120,
-					"Slayer": 120,
-					"Smithing": 120,
-					"Strength": 120,
-					"Summoning": 120,
-					"Thieving": 120
-				},
-				"Priority": 2,
-				"Not F2P": true
-			},
-			"Buy the ~|Master max cape|~": {
-				"Tasks": {
-					"Complete the ~|Archaeology tutorial|~": "Archaeology"
-				},
-				"Category": ["Master skillcape"],
-				"Items": ["Master max cape", "Blurite keystone"],
-				"Level": 120,
-				"Primary": false,
-				"NoBoost": true,
-				"Skills": {
-					"Agility": 120,
-					"Archaeology": 120,
-					"Attack": 120,
-					"Constitution": 120,
-					"Construction": 120,
-					"Cooking": 120,
-					"Crafting": 120,
-					"Defence": 120,
-					"Divination": 120,
-					"Dungeoneering": 120,
-					"Farming": 120,
-					"Fishing": 120,
-					"Fletching": 120,
-					"Firemaking": 120,
-					"Herblore": 120,
-					"Hunter": 120,
-					"Invention": 120,
-					"Magic": 120,
-					"Mining": 120,
-					"Prayer": 120,
-					"Ranged": 120,
-					"Runecrafting": 120,
-					"Slayer": 120,
-					"Smithing": 120,
-					"Strength": 120,
-					"Summoning": 120,
-					"Thieving": 120
-				},
-				"Priority": 1,
 				"Not F2P": true
 			}
 		},
@@ -116015,7 +112400,7 @@
 				"Category": ["Show Diary Tasks"]
 			},
 			"~|Varrock Achievements#Medium|~ What Lies Below?": {
-				"Description": "The the Dagon-hai shortcut to the Chaos Altar.",
+				"Description": "Take the Dagon-hai shortcut to the Chaos Altar.",
 				"Chunks": ["Tunnel of Chaos"],
 				"Skills": {
 					"Mining": 42,
@@ -179804,8 +176189,8 @@
 				"Freygerd": 1,
 				"Lensa": 1,
 				"Jennella": 1,
-				"Market Guard": 5,
-				"Warrior": 12
+				"Market Guard (Fremennik)": 5,
+				"Warrior (Rellekka)": 12
 			},
 			"NPC": {
 				"Olaf the Bard": 1,
@@ -223484,6 +219869,49 @@
 				"Complete the archaeology collection 'Knowledge is Power'", 
 				"Complete the archaeology collection ~|'Desperate for Artefacts'|~*"
 			],
+			"AnyAssistantMystery[+]": [
+				"Archaeology Mystery: ~|Breaking the Seal|~ Complete the mystery", 
+				"Archaeology Mystery: ~|Prison Break|~ Complete the mystery", 
+				"Archaeology Mystery: ~|Eyes in Their Stars|~ Complete the mystery", 
+				"Archaeology Mystery: ~|Contract Claws|~ Complete the mystery", 
+				"Archaeology Mystery: ~|Embrace the Chaos|~ Complete the mystery", 
+				"Archaeology Mystery: ~|Fallen Angels|~ Complete the mystery", 
+				"Archaeology Mystery: ~|Queen of the Icyene|~ Complete the mystery", 
+				"Archaeology Mystery: ~|Time Served|~ Complete the mystery", 
+				"Archaeology Mystery: ~|Fall and Rise|~ Complete the mystery", 
+				"Archaeology Mystery: ~|Atonement|~ Complete the mystery", 
+				"Archaeology Mystery: ~|Leap of Faith|~ Complete the mystery", 
+				"Archaeology Mystery: ~|The Dour of Bable|~ Complete the mystery", 
+				"Archaeology Mystery: ~|The Cult of Orcus|~ Complete the mystery", 
+				"Archaeology Mystery: ~|The Spy Who Loved Metal|~ Complete the mystery", 
+				"Archaeology Mystery: ~|Wing Out|~ Complete the mystery", 
+				"Archaeology Mystery: ~|The First Commander|~ Complete the mystery", 
+				"Archaeology Mystery: ~|Into the Forge|~ Complete the mystery", 
+				"Archaeology Mystery: ~|Out of the Crucible|~ Complete the mystery", 
+				"Archaeology Mystery: ~|A Study in Aether|~ Complete the mystery", 
+				"Archaeology Mystery: ~|Forge War!|~ Complete the mystery", 
+				"Archaeology Mystery: ~|Crypt o' Zoology|~ Complete the mystery", 
+				"Archaeology Mystery: ~|Teleport Node On|~ Complete the mystery", 
+				"Archaeology Mystery: ~|Know Thy Measure|~ Complete the mystery", 
+				"Archaeology Mystery: ~|The Epic of Hebe|~ Complete the mystery", 
+				"Archaeology Mystery: ~|Howl's Floating Workshop|~ Complete the mystery", 
+				"Archaeology Mystery: ~|Writings on the Walls|~ Complete the mystery", 
+				"Archaeology Mystery: ~|Death Watch|~ Complete the mystery", 
+				"Archaeology Mystery: ~|The Everlight|~ Complete the mystery", 
+				"Archaeology Mystery: ~|Hallowed Be...|~ Complete the mystery", 
+				"Archaeology Mystery: ~|Free Your Mind|~ Complete the mystery", 
+				"Archaeology Mystery: ~|Decimation|~ Complete the mystery", 
+				"Archaeology Mystery: ~|The Forgotten Prisoner|~ Complete the mystery", 
+				"Archaeology Mystery: ~|Shadow Fall|~ Complete the mystery", 
+				"Archaeology Mystery: ~|The Vault of Shadows (mystery)|~ Complete the mystery", 
+				"Archaeology Mystery: ~|Fragmented Memories|~ Complete the mystery", 
+				"Archaeology Mystery: ~|Heart of the Forge|~ Complete the mystery", 
+				"Archaeology Mystery: ~|I Am Become Death|~ Complete the mystery", 
+				"Archaeology Mystery: ~|Mysterious City|~ Complete the mystery",
+				"Archaeology Mystery: ~|A New Form|~ Complete the mystery",
+				"Archaeology Mystery: ~|A New Home|~ Complete the mystery",
+				"Archaeology Mystery: ~|A New Age|~ Complete the mystery"
+			],
 			"AnyMystery[+]": [
 				"Archaeology Mystery: ~|Breaking the Seal|~ Complete the mystery", 
 				"Archaeology Mystery: ~|Prison Break|~ Complete the mystery", 
@@ -223867,6 +220295,7 @@
 			"A Taste of the Exotic[+]": "Any subtasks for A Taste of the Exotic",
 			"AirAccess[+]": "Any way to access the air rune temple",
 			"AnyCollection[+]": "Any fully completable archaeology collection",
+			"AnyAssistantMystery[+]": "Any archaeology mystery that doesn't require the Assistant qualification",
 			"AnyMystery[+]": "Any archaeology mystery",
 			"BlackKnightFortressEntry[+]": "Own any disguise to enter the Black Knights' Fortress",
 			"BloodAccess[+]": "Any way to access the blood rune temple",
@@ -225069,7 +221498,7 @@
 			},
 			"Wolves": {
 				"White wolf (Burthorpe)": true,
-				"Adolescent white wolf": true,
+				"Adolescent White wolf": true,
 				"Desert wolf": true,
 				"Wolf": true,
 				"White wolf": true,
@@ -275426,23 +271855,32 @@
 			"Beer": {
 				"1": "1/128"
 			},
-			"Iron stone spirit": {
+			"Iron ore": {
 				"2": "3/128"
 			},
-			"Copper stone spirit": {
-				"5": "2/128"
+			"Copper ore": {
+				"2": "2/128"
 			},
-			"Tin stone spirit": {
+			"Tin ore": {
 				"1": "1/128"
 			},
-			"Medium blunt iron salvage": {
-				"1": "6/128"
-			},
-			"Medium blunt bronze salvage": {
+			"Iron warhammer": {
 				"1": "3/128"
 			},
-			"Medium blunt steel salvage": {
-				"1": "1/128"
+			"Iron off hand warhammer": {
+				"1": "3/128"
+			},
+			"Bronze warhammer": {
+				"1": "3/256"
+			},
+			"Bronze off hand warhammer": {
+				"1": "3/256"
+			},
+			"Steel warhammer": {
+				"1": "1/256"
+			},
+			"Steel off hand warhammer": {
+				"1": "1/256"
 			},
 			"Coins": {
 				"15": "42/128",
@@ -283113,7 +279551,7 @@
 			},
 			"Minerva": {
 				"12084-2": [{
-					"Create the ~|blurite keystone|~": "Woodcutting"
+					"Create the ~|blurite keystone|~": "Crafting"
 				}]
 			},
 			"Oziach's Armour": {
@@ -317990,6 +314428,20 @@
 					"1": "Always"
 				},
 				"Oil lantern frame": {
+					"1": "Always"
+				}
+			},
+			"BluriteGear": {
+				"Blurite bolts (unf)": {
+					"1": "Always"
+				},
+				"Blurite limbs": {
+					"1": "Always"
+				},
+				"Blurite sword": {
+					"1": "Always"
+				},
+				"Off-hand blurite sword": {
 					"1": "Always"
 				}
 			},
