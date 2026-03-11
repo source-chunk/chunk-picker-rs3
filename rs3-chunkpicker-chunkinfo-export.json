@@ -388923,34 +388923,6 @@
 			"attack_range": 8,
 			"class": "magic",
 			"accuracy": 1829
-		},
-		"Book of Um 1": {
-			"ranged_damage": 2,
-			"requirements": {},
-			"class": "none",
-			"lp": 0,
-			"tier": 0,
-			"speed": 0,			"armour": 0,
-			"slot": "pocket",
-			"melee_damage": 2,
-			"magic_damage": 2,
-			"necromancy_damage": 2,
-			"prayer": 1,
-			"accuracy": 0
-		},
-		"Book of Um 2": {
-			"ranged_damage": 5,
-			"requirements": {},
-			"class": "none",
-			"lp": 0,
-			"tier": 0,
-			"speed": 0,			"armour": 0,
-			"slot": "pocket",
-			"melee_damage": 5,
-			"magic_damage": 5,
-			"necromancy_damage": 5,
-			"prayer": 1,
-			"accuracy": 0
 		}
 	},
 	"slayerMasterTasks": {
