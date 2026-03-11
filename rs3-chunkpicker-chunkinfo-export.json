@@ -21,7 +21,7 @@
 				"Primary": true,
 				"Priority": 2
 			},
-			"Read an agility tome from ~|Temple Trekking|~": {
+			"Read an Agility tome from ~|Temple Trekking|~": {
 				"Category": ["DnD"],
 				"Chunks": ["Temple Trekking Routes"],
 				"Level": 1,
@@ -1398,6 +1398,12 @@
 				"Level": 65,
 				"Primary": true,
 				"Output": "Het's Course Rewards",
+				"Priority": 2
+			},
+			"Complete the ~|Het's Oasis Agility Course|~": {
+				"Chunks": ["13362-1", "13362-2", "13106"],
+				"Level": 65,
+				"Primary": true,
 				"Priority": 2
 			},
 			"Cross the jutting wall to the ~|Meiyerditch laboratories": {
@@ -7800,7 +7806,7 @@
 				"NoPet": true,
 				"NoBoost": true
 			},
-			"Train attack in ~|Daemonheim|~": {
+			"Train Attack in ~|Daemonheim|~": {
 				"Category": ["Daemonheim training"],
 				"Tasks": {
 					"Unlock ~|frozen floors|~": "Dungeoneering"
@@ -9409,7 +9415,7 @@
 			}
 		},
 		"Constitution": {
-		    "Train constitution in ~|Daemonheim|~": {
+		    "Train Constitution in ~|Daemonheim|~": {
 		        "Category": ["Daemonheim training"],
 		        "Tasks": {
 		            "Unlock ~|frozen floors|~": "Dungeoneering"
@@ -10850,7 +10856,7 @@
 				"Primary": false,
 				"Priority": 4
 			},
-			"Train construction in ~|Daemonheim|~": {
+			"Train Construction in ~|Daemonheim|~": {
 				"Category": ["Daemonheim training"],
 				"Tasks": {
 					"Unlock ~|frozen floors|~": "Dungeoneering"
@@ -15541,7 +15547,7 @@
 				"Priority": 69,
 				"Not F2P": true
 			},
-			"Train cooking in ~|Daemonheim|~": {
+			"Train Cooking in ~|Daemonheim|~": {
 				"Category": ["Daemonheim training"],
 				"Tasks": {
 					"Unlock ~|frozen floors|~": "Dungeoneering"
@@ -15549,6 +15555,13 @@
 				"Level": 1,
 				"Primary": true,
 				"Priority": 70
+			},
+			"Train Cooking in ~|New Varrock|~": {
+				"Chunks": ["New Varrock"],
+				"Level": 42,
+				"Primary": true,
+				"Priority": 1000,
+				"Not F2P": true
 			},
 			"Cook ~|barley malt|~": {
 				"Category": ["Token"],
@@ -16360,6 +16373,13 @@
 				"Primary": true,
 				"Priority": 5
 			},
+			"Cook an ~|incomplete stew (potato)|~ in New Varrock": {
+				"Chunks": ["New Varrock"],
+				"Level": 25,
+				"Primary": true,
+				"Priority": 1000,
+				"Not F2P": true
+			},
 			"Make a ~|half made toad batta|~": {
 				"Items": ["Half baked batta*", "Gnome spice*", "Toad's legs*", "Equa leaves*", "Cheese*"],
 				"Level": 26,
@@ -17127,6 +17147,14 @@
 				"Output": "Chocolate cheesecake",
 				"Primary": true,
 				"Priority": 5,
+				"Not F2P": true
+			},
+			"Cook ~|fried onions|~ in New Varrock": {
+				"Category": ["Multi Step Processing", "Highest Level"],
+				"Chunks": ["New Varrock"],
+				"Level": 42,
+				"Primary": true,
+				"Priority": 1000,
 				"Not F2P": true
 			},
 			"Cook a ~|bass|~": {
@@ -18609,7 +18637,7 @@
 				"Priority": 101,
 				"Not F2P": true
 			},
-			"Train crafting in ~|Daemonheim|~": {
+			"Train Crafting in ~|Daemonheim|~": {
 				"Category": ["Daemonheim training"],
 				"Tasks": {
 					"Unlock ~|frozen floors|~": "Dungeoneering"
@@ -18617,6 +18645,13 @@
 				"Level": 1,
 				"Primary": true,
 				"Priority": 102
+			},
+			"Train Crafting in ~|New Varrock|~": {
+				"Chunks": ["New Varrock"],
+				"Level": 1,
+				"Primary": true,
+				"Priority": 1000,
+				"Not F2P": true
 			},
 			"Complete a run through ~|Shifting Tombs|~": {
 				"Chunks": ["Shifting Tombs"],
@@ -21126,6 +21161,13 @@
 				"Primary": true,
 				"Priority": 1
 			},
+			"Craft a ~|studded leather shield|~ in New Varrock": {
+				"Chunks": ["New Varrock"],
+				"Level": 45,
+				"Primary": true,
+				"Priority": 1,
+				"Not F2P": true
+			},
 			"Craft ~|snakeskin boots|~": {
 				"Items": ["Snakeskin*", "Thread*"],
 				"Level": 45,
@@ -22483,6 +22525,14 @@
 				"Output": "Diamond amulet",
 				"Primary": true,
 				"Priority": 2
+			},
+			"String a ~|diamond amulet|~ in New Varrock": {
+				"Category": ["Multi Step Processing", "Highest Level"],
+				"Chunks": ["New Varrock"],
+				"Level": 70,
+				"Primary": true,
+				"Priority": 1,
+				"Not F2P": true
 			},
 			"Cast some ~|silvthril limbs|~": {
 				"Items": ["Mithril bar*", "Silver bar*"],
@@ -25489,6 +25539,13 @@
 				"NoBoost": true,
 				"Not F2P": true
 			},
+			"Wear a piece of ~|steel armour|~ in New Varrock": {
+				"Chunks": ["New Varrock"],
+				"Level": 20,
+				"Primary": true,
+				"Priority": 100,
+				"Not F2P": true
+			},
 			"Wear a piece of ~|black armour|~": {
 				"Items": ["BlackArmour[+]"],
 				"Level": 25,
@@ -28137,7 +28194,7 @@
 				"Not F2P": true,
 				"Priority": 14
 			},
-			"Train defence in ~|Daemonheim|~": {
+			"Train Defence in ~|Daemonheim|~": {
 				"Category": ["Daemonheim training"],
 				"Tasks": {
 					"Unlock ~|frozen floors|~": "Dungeoneering"
@@ -28256,7 +28313,7 @@
 				"Primary": true,
 				"Priority": 10
 			},
-			"Train divination in ~|Daemonheim|~": {
+			"Train Divination in ~|Daemonheim|~": {
 				"Category": ["Daemonheim training"],
 				"Tasks": {
 					"Unlock ~|frozen floors|~": "Dungeoneering"
@@ -31428,7 +31485,7 @@
 				"Primary": true,
 				"Priority": 60
 			},
-			"Train farming in ~|Daemonheim|~": {
+			"Train Farming in ~|Daemonheim|~": {
 				"Category": ["Daemonheim training"],
 				"Tasks": {
 					"Unlock ~|frozen floors|~": "Dungeoneering"
@@ -35421,7 +35478,7 @@
 				"Primary": true,
 				"Priority": 11
 			},
-			"Train firemaking in ~|Daemonheim|~": {
+			"Train Firemaking in ~|Daemonheim|~": {
 				"Category": ["Daemonheim training"],
 				"Tasks": {
 					"Unlock ~|frozen floors|~": "Dungeoneering"
@@ -35452,12 +35509,19 @@
 				"Primary": true,
 				"Priority": 16
 			},
-			"Read a firemaking tome from ~|Temple Trekking|~": {
+			"Read a Firemaking tome from ~|Temple Trekking|~": {
 				"Category": ["DnD"],
 				"Chunks": ["Temple Trekking Routes"],
 				"Level": 1,
 				"Primary": true,
 				"Priority": 17
+			},
+			"Train Firemaking in ~|New Varrock|~": {
+				"Chunks": ["New Varrock"],
+				"Level": 1,
+				"Primary": true,
+				"Priority": 1000,
+				"Not F2P": true
 			},
 			"Light ~|candle latern (white)|~": {
 				"Items": ["Candle latern (white)"],
@@ -35898,6 +35962,13 @@
 				"Output": "Spirit weed incense sticks",
 				"Primary": true,
 				"Priority": 8
+			},
+			"Light a fire using ~|teak logs|~ in New Varrock": {
+				"Chunks": ["New Varrock"],
+				"Level": 35,
+				"Primary": true,
+				"Priority": 1,
+				"Not F2P": true
 			},
 			"Craft ~|teak pyre logs|~": {
 				"Items": ["Teak logs*", "SacredOil[+]*"],
@@ -37640,7 +37711,7 @@
 				"Primary": true,
 				"Priority": 13
 			},
-			"Train fishing in ~|Daemonheim|~": {
+			"Train Fishing in ~|Daemonheim|~": {
 				"Category": ["Daemonheim training"],
 				"Tasks": {
 					"Unlock ~|frozen floors|~": "Dungeoneering"
@@ -37663,7 +37734,7 @@
 				"Primary": true,
 				"Priority": 22
 			},
-			"Read a fishing tome from ~|Temple Trekking|~": {
+			"Read a Fishing tome from ~|Temple Trekking|~": {
 				"Category": ["DnD"],
 				"Chunks": ["Temple Trekking Routes"],
 				"Level": 1,
@@ -38644,7 +38715,7 @@
 				"Primary": true,
 				"Priority": 5
 			},
-			"Train fletching in ~|Daemonheim|~": {
+			"Train Fletching in ~|Daemonheim|~": {
 				"Category": ["Daemonheim training"],
 				"Tasks": {
 					"Unlock ~|frozen floors|~": "Dungeoneering"
@@ -38652,6 +38723,13 @@
 				"Level": 1,
 				"Primary": true,
 				"Priority": 6
+			},
+			"Train Fletching in ~|New Varrock|~": {
+				"Chunks": ["New Varrock"],
+				"Level": 1,
+				"Primary": true,
+				"Priority": 1,
+				"Not F2P": true
 			},
 			"Fletch a ~|wood box|~": {
 				"Items": ["Logs*"],
@@ -38972,6 +39050,13 @@
 				"Output": "Teak wood box",
 				"Primary": true,
 				"Priority": 5
+			},
+			"Fletch a ~|teak wood box|~ in New Varrock": {
+				"Chunks": ["New Varrock"],
+				"Level": 30,
+				"Primary": true,
+				"Priority": 100,
+				"Not F2P": true
 			},
 			"Fletch ~|kebbit bolts|~": {
 				"Items": ["Kebbit spike*"],
@@ -39516,6 +39601,14 @@
 				"Output": "Diamond bolts",
 				"Primary": true,
 				"Priority": 4
+			},
+			"Tip ~|diamond bolts|~ in New Varrock": {
+				"Category": ["Mutli Step Processing", "Highest Level"],
+				"Chunks": ["New Varrock"],
+				"Level": 65,
+				"Primary": true,
+				"Priority": 1,
+				"Not F2P": true
 			},
 			"Feather ~|adamant darts|~": {
 				"Items": ["Adamant dart tip*", "Feather[+]*"],
@@ -41205,7 +41298,7 @@
 				"Primary": false,
 				"Priority": 4
 			},
-			"Train herblore in ~|Daemonheim|~": {
+			"Train Herblore in ~|Daemonheim|~": {
 				"Category": ["Daemonheim training"],
 				"Tasks": {
 					"Unlock ~|frozen floors|~": "Dungeoneering"
@@ -41213,6 +41306,16 @@
 				"Level": 3,
 				"Primary": true,
 				"Priority": 6
+			},
+			"Train Herblore in ~|New Varrock|~": {
+				"Category": ["Cleaning Herbs Primary"],
+				"Chunks": ["New Varrock"],
+				"Tasks": {
+					"~|Defender of Varrock|~ Complete the quest": "Quest"
+				},
+				"Level": 1,
+				"Primary": true,
+				"Priority": 1000
 			},
 			"Partake in ~|Herby Werby|~": {
 				"Category": ["DnD", "Not Daily DnD"],
@@ -41390,6 +41493,16 @@
 				"Output": "Necromancy potion (3)",
 				"Primary": true,
 				"Priority": 3
+			},
+			"Mix a ~|necromancy potion|~ in New Varrock": {
+				"Category": ["Multi Step Processing", "Highest Level"],
+				"Chunks": ["New Varrock"],
+				"Level": 11,
+				"Tasks": {
+					"~|Defender of Varrock|~ Complete the quest": "Quest"
+				},
+				"Primary": true,
+				"Priority": 1000
 			},
 			"Mix an ~|antipoison|~": {
 				"Items": ["Marrentill potion (unfinished)*", "Unicorn horn dust*"],
@@ -42487,6 +42600,16 @@
 				"Items": ["Grimy dwarf weed*"],
 				"Level": 70,
 				"Output": "Clean dwarf weed",
+				"Primary": true,
+				"Priority": 2
+			},
+			"Clean a ~|grimy dwarf weed|~ in New Varrock": {
+				"Category": ["Cleaning Herbs Primary"],
+				"Chunks": ["New Varrock"],
+				"Level": 70,
+				"Tasks": {
+					"~|Defender of Varrock|~ Complete the quest": "Quest"
+				},
 				"Primary": true,
 				"Priority": 2
 			},
@@ -43891,7 +44014,7 @@
 				"Priority": 15,
 				"Not F2P": true
 			},
-			"Train hunter in ~|Daemonheim|~": {
+			"Train Hunter in ~|Daemonheim|~": {
 				"Category": ["Daemonheim training"],
 				"Tasks": {
 					"Unlock ~|frozen floors|~": "Dungeoneering"
@@ -45959,7 +46082,7 @@
 				"Priority": 1,
 				"Not F2P": true
 			},
-			"Train invention by ~|disassembling|~": {
+			"Train Invention by ~|disassembling|~": {
 				"Category": ["Token"],
 				"Level": 1,
 				"Tasks": {
@@ -47753,7 +47876,7 @@
 				"NoPet": true,
 				"NoBoost": true
 			},
-			"Train magic in ~|Daemonheim|~": {
+			"Train Magic in ~|Daemonheim|~": {
 				"Category": ["Daemonheim training"],
 				"Tasks": {
 					"Unlock ~|frozen floors|~": "Dungeoneering"
@@ -47761,6 +47884,12 @@
 				"Level": 1,
 				"Primary": true,
 				"Priority": 13
+			},
+			"Train Magic in ~|New Varrock|~": {
+				"Chunks": ["New Varrock"],
+				"Level": 1,
+				"Primary": true,
+				"Priority": 1000
 			},
 			"Cast ~|Enchant Crossbow Bolt (Opal)|~": {
 				"Category": ["Spells"],
@@ -48243,6 +48372,13 @@
 				"Output": "Progress hat",
 				"Primary": false,
 				"Priority": 2,
+				"Not F2P": true
+			},
+			"Cast ~|telekenetic grab|~ in New Varrock": {
+				"Chunks": ["New Varrock"],
+				"Level": 33,
+				"Primary": true,
+				"Priority": 100,
 				"Not F2P": true
 			},
 			"Cast ~|fire bolt|~": {
@@ -51896,7 +52032,7 @@
 				"Priority": 1004,
 				"Not F2P": true
 			},
-			"Read a mining tome from ~|Temple Trekking|~": {
+			"Read a Mining tome from ~|Temple Trekking|~": {
 				"Category": ["DnD"],
 				"Chunks": ["Temple Trekking Routes"],
 				"Level": 1,
@@ -51982,7 +52118,7 @@
 				"Primary": true,
 				"Priority": 1013
 			},
-			"Train mining in ~|Daemonheim|~": {
+			"Train Mining in ~|Daemonheim|~": {
 				"Category": ["Daemonheim training"],
 				"Tasks": {
 					"Unlock ~|frozen floors|~": "Dungeoneering"
@@ -55552,7 +55688,7 @@
 				"Primary": true,
 				"Priority": 56
 			},
-			"Train prayer in ~|Daemonheim|~": {
+			"Train Prayer in ~|Daemonheim|~": {
 				"Category": ["Daemonheim training"],
 				"Tasks": {
 					"Unlock ~|frozen floors|~": "Dungeoneering"
@@ -56131,7 +56267,7 @@
 				"NoPet": true,
 				"NoBoost": true
 			},
-			"Train ranged in ~|Daemonheim|~": {
+			"Train Ranged in ~|Daemonheim|~": {
 				"Category": ["Daemonheim training"],
 				"Tasks": {
 					"Unlock ~|frozen floors|~": "Dungeoneering"
@@ -56295,6 +56431,15 @@
 				"Level": 10,
 				"Primary": false,
 				"Priority": 17,
+				"NoPet": true,
+				"NoBoost": true
+			},
+			"Equip an ~|iron dart|~ in New Varrock": {
+				"Chunks": ["New Varrock"],
+				"Level": 10,
+				"Primary": true,
+				"Priority": 1000,
+				"Not F2P": true,
 				"NoPet": true,
 				"NoBoost": true
 			},
@@ -56807,6 +56952,18 @@
 				"NoPet": true,
 				"NoBoost": true,
 				"Not F2P": true
+			},
+			"Equip a ~|mithril arrow|~ in New Varrock": {
+				"Chunks": ["New Varrock"],
+				"Level": 30,
+				"Tasks": {
+					"~|Defender of Varrock|~ Complete the quest": "Quest"
+				},
+				"Primary": true,
+				"Priority": 100,
+				"Not F2P": true,
+				"NoBoost": true,
+				"NoPet": true
 			},
 			"Equip an ~|adamant brutal|~": {
 				"Items": ["Adamant brutal"],
@@ -59983,7 +60140,7 @@
 				"Priority": 16,
 				"Not F2P": true
 			},
-			"Train runecrafting in ~|Daemonheim|~": {
+			"Train Runecrafting in ~|Daemonheim|~": {
 				"Category": ["Daemonheim training"],
 				"Tasks": {
 					"Unlock ~|frozen floors|~": "Dungeoneering"
@@ -60041,6 +60198,14 @@
 				},
 				"Primary": false,
 				"Priority": 6
+			},
+			"Craft a ~|spider silk orb|~ in New Varrock": {
+				"Category": ["Multi Step Processing", "Highest Level"],
+				"Chunks": ["New Varrock"],
+				"Level": 20,
+				"Primary": true,
+				"Priority": 1,
+				"Not F2P": true
 			},
 			"Craft a ~|batwing book|~": {
 				"Items": ["Batwing*", "Thread*"],
@@ -61123,7 +61288,7 @@
 				"Priority": 14,
 				"Not F2P": true
 			},
-			"Read a slayer tome from ~|Temple Trekking|~": {
+			"Read a Slayer tome from ~|Temple Trekking|~": {
 				"Category": ["DnD"],
 				"Chunks": ["Temple Trekking Routes"],
 				"Level": 1,
@@ -62351,7 +62516,7 @@
 				"Level": 94,
 				"Monsters": ["Lava strykewyrm"],
 				"Tasks": {
-					"Lava strykewyrm task[+]": "Nonskill"
+					"Lava strykewyrm task": "Nonskill"
 				},
 				"Primary": false,
 				"Priority": 1,
@@ -62518,7 +62683,7 @@
 				"Level": 96,
 				"Monsters": ["Wyvern"],
 				"Tasks": {
-					"Wyvern task[+]": "Nonskill"
+					"Wyvern task": "Nonskill"
 				},
 				"Primary": false,
 				"Priority": 50,
@@ -62539,7 +62704,7 @@
 				"Level": 96,
 				"Monsters": ["Ripper Demon"],
 				"Tasks": {
-					"Ripper demon task[+]": "Nonskill"
+					"Ripper demon task": "Nonskill"
 				},
 				"Primary": false,
 				"Priority": 51,
@@ -62613,7 +62778,7 @@
 				"Level": 98,
 				"Monsters": ["Onyx dragon"],
 				"Tasks": {
-					"Onyx dragon task[+]": "Nonskill"
+					"Onyx dragon task": "Nonskill"
 				},
 				"Primary": false,
 				"Priority": 50,
@@ -62710,7 +62875,7 @@
 				"Level": 101,
 				"Monsters": ["Hydrix dragon"],
 				"Tasks": {
-					"Hydrix dragon task[+]": "Nonskill"
+					"Hydrix dragon task": "Nonskill"
 				},
 				"Primary": false,
 				"Priority": 50,
@@ -63186,7 +63351,7 @@
 				"Level": 105,
 				"Monsters": ["Abyssal beast"],
 				"Tasks": {
-					"Abyssal beast task[+]": "Nonskill"
+					"Abyssal beast task": "Nonskill"
 				},
 				"Primary": false,
 				"Priority": 3,
@@ -63207,7 +63372,7 @@
 				"Level": 115,
 				"Monsters": ["Abyssal lord"],
 				"Tasks": {
-					"Abyssal lord task[+]": "Nonskill"
+					"Abyssal lord task": "Nonskill"
 				},
 				"Primary": false,
 				"Priority": 2,
@@ -63465,6 +63630,13 @@
 				"Primary": true,
 				"Priority": 1
 			},
+			"Smelt a ~|gold bar|~ in New Varrock": {
+				"Chunks": ["New Varrock"],
+				"Level": 40,
+				"Primary": true,
+				"Priority": 100,
+				"Not F2P": true
+			},
 			"Smelt an ~|adamant bar|~": {
 				"Items": ["Adamantite ore*", "Luminite*"],
 				"Level": 40,
@@ -63611,7 +63783,7 @@
 				"Primary": true,
 				"Priority": 9
 			},
-			"Train smithing in ~|Daemonheim|~": {
+			"Train Smithing in ~|Daemonheim|~": {
 				"Category": ["Daemonheim training"],
 				"Tasks": {
 					"Unlock ~|frozen floors|~": "Dungeoneering"
@@ -63619,6 +63791,13 @@
 				"Level": 1,
 				"Primary": true,
 				"Priority": 9
+			},
+			"Train Smithing in ~|New Varrock|~": {
+				"Chunks": ["New Varrock"],
+				"Level": 1,
+				"Primary": true,
+				"Priority": 10,
+				"Not F2P": true
 			},
 			"Smith an ~|imcando mattock|~": {
 				"Tasks": {
@@ -63946,6 +64125,14 @@
 				"Primary": true,
 				"Priority": 2,
 				"Partial": true,
+				"Not F2P": true
+			},
+			"Forge ~|masterwork rivets|~ in New Varrock": {
+				"Category": ["Multi Step Processing", "Highest Level"],
+				"Chunks": ["New Varrock"],
+				"Level": 99,
+				"Primary": true,
+				"Priority": 1,
 				"Not F2P": true
 			},
 			"Forge ~|mithril|~": {
@@ -66189,7 +66376,7 @@
 				"Primary": true,
 				"Priority": 1
 			},
-			"Train strength in ~|Daemonheim|~": {
+			"Train Strength in ~|Daemonheim|~": {
 				"Category": ["Daemonheim training"],
 				"Tasks": {
 					"Unlock ~|frozen floors|~": "Dungeoneering"
@@ -67089,7 +67276,7 @@
 				"Primary": false,
 				"Priority": 2
 			},
-			"Train summoning in ~|Daemonheim|~": {
+			"Train Summoning in ~|Daemonheim|~": {
 				"Category": ["Daemonheim training"],
 				"Tasks": {
 					"Unlock ~|frozen floors|~": "Dungeoneering"
@@ -68470,7 +68657,7 @@
 				"Primary": true,
 				"Priority": 1000
 			},
-			"Train thieving in ~|Daemonheim|~": {
+			"Train Thieving in ~|Daemonheim|~": {
 				"Category": ["Daemonheim training"],
 				"Tasks": {
 					"Unlock ~|frozen floors|~": "Dungeoneering"
@@ -68479,7 +68666,7 @@
 				"Primary": true,
 				"Priority": 1001
 			},
-			"Read a thieving tome from ~|Temple Trekking|~": {
+			"Read a Thieving tome from ~|Temple Trekking|~": {
 				"Category": ["DnD"],
 				"Chunks": ["Temple Trekking Routes"],
 				"Level": 1,
@@ -70668,6 +70855,14 @@
 				"Priority": 3,
 				"NoBoost": true
 			},
+			"Chop with a ~|steel hatchet|~ in New Varrock": {
+				"Category": ["Multi Step Processing", "Highest Level"],
+				"Chunks": ["New Varrock"],
+				"Level": 20,
+				"Primary": true,
+				"Priority": 1,
+				"Not F2P": true
+			},
 			"Chop with a ~|black hatchet|~": {
 				"Items": ["Black hatchet"],
 				"Level": 25,
@@ -70987,7 +71182,7 @@
 				"Primary": true,
 				"Priority": 12
 			},
-			"Train woodcutting in ~|Daemonheim|~": {
+			"Train Woodcutting in ~|Daemonheim|~": {
 				"Category": ["Daemonheim training"],
 				"Tasks": {
 					"Unlock ~|frozen floors|~": "Dungeoneering"
@@ -70995,6 +71190,13 @@
 				"Level": 1,
 				"Primary": true,
 				"Priority": 12
+			},
+			"Train Woodcutting in ~|New Varrock|~": {
+				"Chunks": ["New Varrock"],
+				"Level": 1,
+				"Primary": true,
+				"Priority": 1,
+				"Not F2P": true
 			},
 			"Chop an ~|evil tree (normal)|~": {
 				"Category": ["DnD"],
@@ -71095,7 +71297,7 @@
 				"Priority": 15,
 				"Not F2P": true
 			},
-			"Read a woodcutting tome from ~|Temple Trekking|~": {
+			"Read a Woodcutting tome from ~|Temple Trekking|~": {
 				"Category": ["DnD"],
 				"Chunks": ["Temple Trekking Routes"],
 				"Level": 1,
@@ -153390,6 +153592,12 @@
 			},
 			"Abyssal demon task": {
 				"Tasks": {
+					"Abyssal demon task[+]": "Nonskill"
+				},
+				"Not F2P": true
+			},
+			"Abyssal demon base task": {
+				"Tasks": {
 					"RaptorSumonaBetterMaster[+]": "Slayer"
 				},
 				"Not F2P": true
@@ -153401,11 +153609,23 @@
 				"Chunks": ["WildyAbyssalDemon[+]"],
 				"Not F2P": true
 			},
+			"Abyssal beast task": {
+				"Tasks": {
+					"Abyssal beast task[+]": "Noskill"
+				},
+				"Not F2P": true
+			},
 			"Abyssal beast wilderness task": {
 				"Tasks": {
 					"Receive a slayer bounty from ~|Mandrith|~": "Slayer"
 				},
 				"Chunks": ["WildyAbyssalBeast[+]"],
+				"Not F2P": true
+			},
+			"Abyssal lord task": {
+				"Tasks": {
+					"Abyssal lord task[+]": "Nonskill"
+				},
 				"Not F2P": true
 			},
 			"Abyssal lord wilderness task": {
@@ -153416,6 +153636,12 @@
 				"Not F2P": true
 			},
 			"Wyvern task": {
+				"Tasks": {
+					"Wyvern task[+]": "Nonskill"
+				},
+				"Not F2P": true
+			},
+			"Wyvern base task": {
 				"Tasks": {
 					"RaptorKuradalBetterMaster[+]": "Slayer"
 				},
@@ -153429,6 +153655,12 @@
 				"Not F2P": true
 			},
 			"Ripper demon task": {
+				"Tasks": {
+					"Ripper demon task[+]": "Nonskill"
+				},
+				"Not F2P": true
+			},
+			"Ripper demon base task": {
 				"Tasks": {
 					"RaptorKuradalBetterMaster[+]": "Slayer"
 				},
@@ -153449,13 +153681,32 @@
 			},
 			"Acheron mammoth task": {
 				"Tasks": {
+					"Acheron mammoth task[+]": "Nonskill"
+				},
+				"Not F2P": true
+			},
+			"Acheron mammoth base task": {
+				"Tasks": {
 					"RaptorKuradalBetterMaster[+]": "Slayer"
 				},
 				"Not F2P": true
 			},
-			"Gemstone dragon task": {
+			"Acheron mammoth wilderness task": {
+				"Tasks": {
+					"Receive a slayer bounty from ~|Mandrith|~": "Slayer"
+				},
+				"Chunks": ["11837"],
+				"Not F2P": true
+			},
+			"Gemstone dragon base task": {
 				"Tasks": {
 					"RaptorKuradalBetterMaster[+]": "Slayer"
+				},
+				"Not F2P": true
+			},
+			"Onyx dragon task": {
+				"Tasks": {
+					"Onyx dragon task[+]": "Nonskill"
 				},
 				"Not F2P": true
 			},
@@ -153464,6 +153715,12 @@
 					"Receive a slayer bounty from ~|Mandrith|~": "Slayer"
 				},
 				"Chunks": ["WildyOnyxDragon[+]"],
+				"Not F2P": true
+			},
+			"Hydrix dragon task": {
+				"Tasks": {
+					"Hydrix dragon task[+]": "Nonskill"
+				},
 				"Not F2P": true
 			},
 			"Hydrix dragon wilderness task": {
@@ -153576,6 +153833,12 @@
 				"Not F2P": true
 			},
 			"Lava strykewyrm task": {
+				"Tasks": {
+					"Lava strykewyrm task[+]": "Nonskill"
+				},
+				"Not F2P": true
+			},
+			"Lava strykewyrm base task": {
 				"Tasks": {
 					"KuradalBetterMaster[+]": "Slayer"
 				},
@@ -209913,7 +210176,7 @@
 				"8757": true
 			}
 		},
-		"New Varrock": {
+		"Old New Varrock": {
 			"Object": {
 				"Dead tree": 298,
 				"Crate": 5,
@@ -210066,6 +210329,25 @@
 				"Urist's Crafting Supplies (New Varrock)": true,
 				"Xuan's Fresh Produce": true,
 				"Zaff's Superior Spellcasting (New Varrock)": true
+			},
+			"Connect": {
+				"12853": true
+			},
+			"Quest": {
+				"Dimension of Disaster": "step",
+				"Dimension of Disaster: Coin of the Realm": "step",
+				"Dimension of Disaster: Shield of Arrav": "first",
+				"Dimension of Disaster: Demon Slayer": "first",
+				"Dimension of Disaster: Defender of Varrock": "first",
+				"Dimension of Disaster: Curse of Arrav": "first"
+			}
+		},
+		"New Varrock": {
+			"Monster": {
+				"Monsters in New Varrock": 1
+			},
+			"Spawn": {
+				"Chargebow": 1
 			},
 			"Connect": {
 				"12853": true
@@ -212289,47 +212571,100 @@
 				"Vellum": "1/10@1",
 				"White oak": "1/10@1"
 			},
-			"MaterialsTable#Zarosian+": {
-				"Tyrian purple": "1/5@1",
-				"Zarosian insignia": "1/5@1",
-				"Imperial steel": "1/5@1",
-				"Ancient vis": "1/5@1",
-				"Blood of Orcus": "1/5@1"
+			"MaterialsTable#Kharid-et+": {
+				"Tyrian purple": "1/10@1",
+				"Zarosian insignia": "1/10@1",
+				"Imperial steel": "1/10@1",
+				"Samite silk": "1/10@1",
+				"Third Age iron": "1/10@1",
+				"Vellum": "1/10@1",
+				"White oak": "1/10@1",
+				"Ancient vis": "1/10@1",
+				"Blood of Orcus": "1/10@1",
+				"Goldrune": "1/10@1"
 			},
 			"MaterialsTable#Zamorakian+": {
-				"Cadmium red": "1/5@1",
-				"Chaotic brimstone": "1/5@1",
-				"Demonhide": "1/5@1",
-				"Eye of Dagon": "1/5@1",
-				"Hellfire metal": "1/5@1"
+				"Cadmium red": "1/13@1",
+				"Chaotic brimstone": "1/13@1",
+				"Demonhide": "1/13@1",
+				"Eye of Dagon": "1/13@1",
+				"Hellfire metal": "1/13@1",
+				"Animal furs": "1/13@1",
+				"Goldrune": "1/13@1",
+				"Leather scraps": "1/13@1",
+				"Orthenglass": "1/13@1",
+				"Samite silk": "1/13@1",
+				"Third Age iron": "1/13@1",
+				"Vellum": "1/13@1",
+				"White oak": "1/13@1"
 			},
 			"MaterialsTable#Saradominist+": {
-				"Cobalt blue": "1/5@1",
-				"Everlight silvthril": "1/5@1",
-				"Keramos": "1/5@1",
-				"Star of Saradomin": "1/5@1",
-				"White marble": "1/5@1"
+				"Cobalt blue": "1/12@1",
+				"Everlight silvthril": "1/12@1",
+				"Keramos": "1/12@1",
+				"Star of Saradomin": "1/12@1",
+				"White marble": "1/12@1",
+				"Goldrune": "1/12@1",
+				"Leather scraps": "1/12@1",
+				"Orthenglass": "1/12@1",
+				"Samite silk": "1/12@1",
+				"Third Age iron": "1/12@1",
+				"Vellum": "1/12@1",
+				"White oak": "1/12@1"
+			},
+			"MaterialsTable#Senntisten+": {
+				"Tyrian purple": "1/11@1",
+				"Zarosian insignia": "1/11@1",
+				"Imperial steel": "1/11@1",
+				"Samite silk": "1/11@1",
+				"Soapstone": "1/11@1",
+				"Vellum": "1/11@1",
+				"White oak": "1/11@1",
+				"Ancient vis": "1/11@1",
+				"Blood of Orcus": "1/11@1",
+				"Goldrune": "1/11@1",
+				"Leather scraps": "1/11@1"
 			},
 			"MaterialsTable#Armadylean+": {
-				"Armadylean yellow": "1/5@1",
-				"Wings of War": "1/5@1",
-				"Stormguard steel": "1/5@1",
-				"Quintessence": "1/5@1",
-				"Aetherium alloy": "1/5@1"
+				"Armadylean yellow": "1/14@1",
+				"Wings of War": "1/14@1",
+				"Stormguard steel": "1/14@1",
+				"Quintessence": "1/14@1",
+				"Aetherium alloy": "1/14@1",
+				"Animal furs": "1/14@1",
+				"Goldrune": "1/14@1",
+				"Leather scraps": "1/14@1",
+				"Orthenglass": "1/14@1",
+				"Samite silk": "1/14@1",
+				"Soapstone": "1/14@1",
+				"Third Age iron": "1/14@1",
+				"Vellum": "1/14@1",
+				"White oak": "1/14@1"
 			},
 			"MaterialsTable#Bandosian+": {
-				"Malachite green": "1/5@1",
-				"Mark of the Kyzaj": "1/5@1",
-				"Vulcanised rubber": "1/5@1",
-				"Yu'biusk clay": "1/5@1",
-				"Warforged bronze": "1/5@1"
+				"Malachite green": "1/13@1",
+				"Mark of the Kyzaj": "1/13@1",
+				"Vulcanised rubber": "1/13@1",
+				"Yu'biusk clay": "1/13@1",
+				"Animal furs": "1/13@1",
+				"Fossilised bone": "1/13@1",
+				"Goldrune": "1/13@1",
+				"Leather scraps": "1/13@1",
+				"Samite silk": "1/13@1",
+				"Soapstone": "1/13@1",
+				"Iron Age iron": "1/13@1",
+				"Warforged bronze": "1/13@1",
+				"White oak": "1/13@1"
 			},
 			"MaterialsTable#Dragonkin+": {
 				"Carbon black": "1/5@1",
 				"Compass rose": "1/5@1",
 				"Felt": "1/5@1",
 				"Orgone": "1/5@1",
-				"Dragon metal": "1/5@1"
+				"Dragon metal": "1/5@1",
+				"Goldrune": "1/5@1",
+				"Orthenglass": "1/5@1",
+				"Soapstone": "1/5@1"
 			},
 			"AncientWarriorDropTable+": {
 				"Morrigan's javelin": "1/17@15-50",
@@ -220064,14 +220399,15 @@
 					"Receive a slayer assignment from ~|Morvran|~",
 					"Receive a slayer assignment from ~|Laniakea|~"
 			],
-			"Lava strykewyrm task[+]": ["Lava strykewyrm task", "Lava strykewyrm wilderness task"],
-			"Ripper demon task[+]": ["Ripper demon task", "Ripper demon wilderness task"],
-			"Onyx dragon task[+]": ["Gemstone dragon task", "Onyx dragon wilderness task"],
-			"Hydrix dragon task[+]": ["Gemstone dragon task", "Hydrix dragon wilderness task"],
-			"Abyssal demon task[+]": ["Abyssal demon task", "Abyssal demon wilderness task"],
-			"Abyssal beast task[+]": ["Abyssal demon task", "Abyssal beast wilderness task"],
-			"Abyssal lord task[+]": ["Abyssal demon task", "Abyssal lord wilderness task"],
-			"Wyvern task[+]": ["Wyvern task", "Wyvern wilderness task"]
+			"Lava strykewyrm task[+]": ["Lava strykewyrm base task", "Lava strykewyrm wilderness task"],
+			"Ripper demon task[+]": ["Ripper demon base task", "Ripper demon wilderness task"],
+			"Onyx dragon task[+]": ["Gemstone dragon base task", "Onyx dragon wilderness task"],
+			"Hydrix dragon task[+]": ["Gemstone dragon base task", "Hydrix dragon wilderness task"],
+			"Abyssal demon task[+]": ["Abyssal demon base task", "Abyssal demon wilderness task"],
+			"Abyssal beast task[+]": ["Abyssal demon base task", "Abyssal beast wilderness task"],
+			"Abyssal lord task[+]": ["Abyssal demon base task", "Abyssal lord wilderness task"],
+			"Wyvern task[+]": ["Wyvern base task", "Wyvern wilderness task"],
+			"Acheron mammoth task[+]": ["Acheron mammoth base task", "Acheron mammoth wilderness task"]
 		},
 		"tasksPlusNames": {
 			"A Taste of the Exotic[+]": "Any subtasks for A Taste of the Exotic",
@@ -277068,10 +277404,10 @@
 				"Members only": "Nonskill"
 			}],
 			"Raptor key part 1^": [{
-				"Wyvern task[+]": "Nonskill"
+				"Wyvern task": "Nonskill"
 			}],
 			"Raptor key part 2^": [{
-				"Ripper demon task[+]": "Nonskill"
+				"Ripper demon task": "Nonskill"
 			}],
 			"Raptor key part 3^": [{
 				"Camel warrior task": "Nonskill"
@@ -277949,6 +278285,39 @@
 			}],
 			"Unholy mould^": [{
 				"~|Observatory Quest|~ Complete the quest": "Quest"
+			}],
+			"Master archaeologist's hat^": [{
+				"Become an ~|archaeology guildmaster|~": "Archaeology"
+			}],
+			"Master archaeologist's jacket^": [{
+				"Become an ~|archaeology guildmaster|~": "Archaeology"
+			}],
+			"Master archaeologist's trousers^": [{
+				"Become an ~|archaeology guildmaster|~": "Archaeology"
+			}],
+			"Master archaeologist's gloves^": [{
+				"Become an ~|archaeology guildmaster|~": "Archaeology"
+			}],
+			"Master archaeologist's boots^": [{
+				"Become an ~|archaeology guildmaster|~": "Archaeology"
+			}],
+			"Energised meteorite shard^": [{
+				"Become an ~|archaeology guildmaster|~": "Archaeology"
+			}],
+			"Archaeologist's hat^": [{
+				"Become an ~|archaeology associate|~": "Archaeology"
+			}],
+			"Archaeologist's jacket^": [{
+				"Become an ~|archaeology associate|~": "Archaeology"
+			}],
+			"Archaeologist's trousers^": [{
+				"Become an ~|archaeology associate|~": "Archaeology"
+			}],
+			"Archaeologist's gloves^": [{
+				"Become an ~|archaeology associate|~": "Archaeology"
+			}],
+			"Archaeologist's boots^": [{
+				"Become an ~|archaeology associate|~": "Archaeology"
 			}]
 		},
 		"Monsters": {
@@ -278790,6 +279159,9 @@
 			"Talent scout": {
 				"10039": [{
 					"~|Bar Crawl (miniquest)|~ Complete the miniquest": "Quest"
+				}],
+				"13362-1": [{
+					"Complete the ~|Het's Oasis Agility Course|~": "Agility"
 				}]
 			},
 			"Tanner": {
@@ -319802,7 +320174,7 @@
 				"Ancient gravel": {
 					"1": "200/2000"
 				},
-				"MaterialsTable#Zarosian+": {
+				"MaterialsTable#Kharid-et+": {
 					"1": "125/2000"
 				},
 				"TetracompassTable+": {
@@ -319862,7 +320234,7 @@
 				"Ancient gravel": {
 					"1": "200/2000"
 				},
-				"MaterialsTable#Zarosian+": {
+				"MaterialsTable#Senntisten+": {
 					"1": "125/2000"
 				},
 				"TetracompassTable+": {
@@ -320023,7 +320395,7 @@
 				"Ancient gravel": {
 					"1": "200/2000"
 				},
-				"MaterialsTable#Zarosian+": {
+				"MaterialsTable#Kharid-et+": {
 					"1": "150/2000"
 				},
 				"TetracompassTable+": {
@@ -320083,7 +320455,7 @@
 				"Ancient gravel": {
 					"1": "200/2000"
 				},
-				"MaterialsTable#Zarosian+": {
+				"MaterialsTable#Senntisten+": {
 					"1": "150/2000"
 				},
 				"TetracompassTable+": {
@@ -320341,7 +320713,7 @@
 				"Binding contract": {
 					"1": "10/1000"
 				},
-				"MaterialsTable#Zarosian+": {
+				"MaterialsTable#Kharid-et+": {
 					"1": "75/1000"
 				},
 				"TetracompassTable+": {
@@ -320401,7 +320773,7 @@
 				"Binding contract": {
 					"1": "10/1000"
 				},
-				"MaterialsTable#Zarosian+": {
+				"MaterialsTable#Senntisten+": {
 					"1": "75/1000"
 				},
 				"TetracompassTable+": {
