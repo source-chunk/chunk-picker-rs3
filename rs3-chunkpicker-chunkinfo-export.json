@@ -15558,7 +15558,7 @@
 			},
 			"Train Cooking in ~|New Varrock|~": {
 				"Chunks": ["New Varrock"],
-				"Level": 42,
+				"Level": 1,
 				"Primary": true,
 				"Priority": 1000,
 				"Not F2P": true
