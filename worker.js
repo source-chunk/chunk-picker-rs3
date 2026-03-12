@@ -3714,7 +3714,7 @@ let calcChallengesWork = function(chunks, baseChunkData, oldTempItemSkill) {
         if (!valids['Extra']) {
             valids['Extra'] = {};
         }
-        valids['Extra']['Buy the ~|Master max cape|~'] = 'Skillcapes';
+        valids['Extra']['Buy the ~|Master max cape|~'] = 'Master skillcape';
         if (!chunkInfo['challenges']['Extra']) {
             chunkInfo['challenges']['Extra'] = {};
         }
