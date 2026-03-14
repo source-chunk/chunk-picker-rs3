@@ -3537,6 +3537,8 @@ let calcChallenges = function(chunks, baseChunkData) {
         });
         kudosTotal = 0;
         possibleSkillTotal = 0;
+		possibleSkillLegacyTotal = 0;
+		possibleSkillVirtualTotal = 0;
         let tempPrimarySkill = false;
         !!newValids && Object.keys(newValids).filter((skill) => { return !!newValids[skill] }).forEach((skill) => {
             Object.keys(newValids[skill]).filter(challenge => { return (chunkInfo['challenges'][skill].hasOwnProperty(challenge) && chunkInfo['challenges'][skill][challenge].hasOwnProperty('Kudos')) }).forEach((line) => {
