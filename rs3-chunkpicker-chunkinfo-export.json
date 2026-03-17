@@ -1543,7 +1543,7 @@
 				"Objects": ["Tunnel (Shilo Village)"],
 				"Level": 74,
 				"Tasks": {
-					"~|Karamja Achievements#Elite|~ Complete the Elite Achievements": "Diart"
+					"~|Karamja Achievements#Elite|~ Complete the Elite Achievements": "Diary"
 				},
 				"Primary": false,
 				"Priority": 1,
@@ -188387,8 +188387,7 @@
 						"Young tree": 2,
 						"Oak": 11,
 						"Tree": 35,
-						"Energy rift": 1,
-						"Evil tree": 1
+						"Energy rift": 1
 					},
 					"NPC": {
 						"Tea seller": 1,
@@ -189703,7 +189702,8 @@
 						"Rock": 1,
 						"Bank deposit box": 1,
 						"Limestone rock": 4,
-						"Material cache (fossilised bone)": 3
+						"Material cache (fossilised bone)": 3,
+						"Evil tree": 1
 					},
 					"Monster": {
 						"Bat": 12,
@@ -211420,7 +211420,7 @@
 				"Cadantine seed": "4/1024@1",
 				"Lantadyme seed": "3/1024@1",
 				"Dwarf weed seed": "2/1024@1",
-				"Torstol seed": "/1024@1"
+				"Torstol seed": "1/1024@1"
 			},
 			"GeneralSeedDropTable+": {
 				"Potato seed": "368/1000@4",
@@ -219870,7 +219870,7 @@
 			"Bronze dragons": {
 				"Bronze dragon": true
 			},
-			"Camel Warriors": {
+			"Camel warriors": {
 				"Camel Warrior": true
 			},
 			"Catablepon": {
@@ -219937,6 +219937,11 @@
 				"Protomastyx": true,
 				"Soulgazer": true,
 				"Flesh-hatcher Mhekarnahz": true
+			},
+			"Creatures of the Lost Grove": {
+				"Vinecrawler": true,
+				"Bulbous crawler": true,
+				"Moss golem": true
 			},
 			"Cres' creations": {
 				"Automaton Guardian": true,
@@ -220312,7 +220317,7 @@
 				"Icefiend (God Wars Dungeon)": true,
 				"Icefiend (Ghorrock)": true
 			},
-			"Infernal Mage": {
+			"Infernal mages": {
 				"Infernal Mage": true
 			},
 			"Iron dragons": {
@@ -220386,11 +220391,6 @@
 			"Living wyverns": {
 				"Wyvern": true
 			},
-			"Lost Grove creature": {
-				"Vinecrawler": true,
-				"Bulbous crawler": true,
-				"Moss golem": true
-			},
 			"Minotaurs": {
 				"Minotaur": true
 			},
@@ -220455,18 +220455,6 @@
 				"Enclave guard": true,
 				"Ogre (God Wars Dungeon)": true
 			},
-			"Order of ascension members": {
-				"Rorarius": true,
-				"Gladius": true,
-				"Capsarius": true,
-				"Scutarius": true,
-				"Legio Primus": true,
-				"Legio Secundus": true,
-				"Legio Tertius": true,
-				"Legio Quartus": true,
-				"Legio Quintus": true,
-				"Legio Sextus": true
-			},
 			"Otherworldly beings": {
 				"Otherworldly being": true
 			},
@@ -220521,7 +220509,7 @@
 				"Pthentraken": true,
 				"Osseous": true
 			},
-			"Ripper Demons": {
+			"Ripper demons": {
 				"Ripper Demon": true,
 				"Slasher Demon": true
 			},
@@ -220588,8 +220576,8 @@
 			"Shadow warriors": {
 				"Shadow warrior": true
 			},
-			"Skeletal Wyverns": {
-				"Skeletal Wyverns": true
+			"Skeletal wyverns": {
+				"Skeletal Wyvern": true
 			},
 			"Skeletons": {
 				"Skeleton warrior": true,
@@ -246395,9 +246383,6 @@
 			},
 			"UncommonSeedDropTable+": {
 				"1": "12/128"
-			},
-			"GeneralSeedDropTable+": {
-				"1": "1/7.11"
 			}
 		},
 		"Hobgoblin (God Wars Dungeon)": {
@@ -388415,114 +388400,150 @@
 	"slayerMasterTasks": {
 		"Turael/Spria": {
 			"Birds": {
-				"Weight": 2
+				"Weight": 10
 			},
 			"Cave bugs": {
 				"Level": 7,
-				"Weight": 2
+				"CombatLevel": 8,
+				"Weight": 10
 			},
 			"Cows": {
-				"Weight": 2
+				"Weight": 10
 			},
 			"Crawling hands": {
 				"Level": 5,
-				"Weight": 6
+				"CombatLevel": 10,
+				"Weight": 30
 			},
 			"Gelatinous abominations": {
-				"Weight": 3
+				"Weight": 15
 			},
 			"Trolls": {
-				"Weight": 2
+				"Weight": 10
 			},
 			"Wolves": {
-				"Weight": 3
+				"CombatLevel": 8,
+				"Weight": 15
 			}
 		},
 		"Jacquelyn": {
 			"Bats": {
-				"Weight": 6
+				"CombatLevel": 15,
+				"Tasks": {
+					"~|The Blood Pact|~ Complete the quest": "Quest"
+				},
+				"Weight": 10
 			},
 			"Birds": {
-				"Weight": 8
+				"Weight": 10
 			},
 			"Cave bugs": {
 				"Level": 7,
-				"Weight": 8
+				"CombatLevel": 15,
+				"Weight": 10
 			},
 			"Cave slimes": {
 				"Level": 17,
-				"Weight": 7
+				"CombatLevel": 25,
+				"Weight": 10
 			},
 			"Cows": {
-				"Weight": 7
+				"Weight": 15
 			},
 			"Frogs": {
-				"Weight": 5
+				"Weight": 10
 			},
 			"Ghosts": {
-				"Weight": 6
+				"CombatLevel": 20,
+				"Weight": 10
 			},
 			"Goblins": {
-				"Weight": 9
+				"Weight": 15
 			},
 			"Rats": {
 				"Weight": 10
 			},
 			"Skeletons": {
-				"Weight": 12
+				"CombatLevel": 15,
+				"Tasks": {
+					"~|The Blood Pact|~ Complete the quest": "Quest"
+				},
+				"Weight": 15
 			},
 			"Spiders": {
-				"Weight": 4
+				"Weight": 10
 			},
 			"Zombies": {
-				"Weight": 11
+				"CombatLevel": 9,
+				"Tasks": {
+					"~|The Blood Pact|~ Complete the quest": "Quest"
+				},
+				"Weight": 15
 			}
 		},
 		"Vannaka": {
 			"Bats": {
+				"CombatLevel": 40,
 				"Weight": 15
 			},
 			"Bears": {
+				"CombatLevel": 20,
+				"Weight": 10
+			},
+			"Beastmaster's hounds": {
+				"Level": 43,
 				"Weight": 10
 			},
 			"Catablepon": {
+				"CombatLevel": 50,
 				"Weight": 15
 			},
 			"Cave slimes": {
 				"Level": 17,
+				"CombatLevel": 25,
 				"Weight": 10
 			},
 			"Cockroaches": {
+				"CombatLevel": 10,
 				"Weight": 15
 			},
 			"Fleshcrawlers": {
+				"CombatLevel": 38,
 				"Weight": 15
 			},
 			"Frogs": {
 				"Weight": 10
 			},
 			"Ghosts": {
+				"CombatLevel": 25,
 				"Weight": 15
 			},
 			"Grotworms": {
+				"CombatLevel": 25,
 				"Weight": 15
 			},
 			"Hill giants": {
+				"CombatLevel": 40,
 				"Weight": 15
 			},
 			"Hobgoblins": {
+				"CombatLevel": 30,
 				"Weight": 15
 			},
 			"Ice giants": {
+				"CombatLevel": 50,
 				"Weight": 15
 			},
 			"Ice warriors": {
+				"CombatLevel": 50,
 				"Weight": 15
 			},
 			"Icefiends": {
+				"CombatLevel": 35,
 				"Weight": 10
 			},
 			"Kalphites": {
+				"CombatLevel": 20,
 				"Weight": 10
 			},
 			"Minotaurs": {
@@ -388530,15 +388551,21 @@
 			},
 			"Mogres": {
 				"Level": 32,
+				"CombatLevel": 35,
+				"Tasks": {
+					"~|Mogre (lore activity)|~ Complete the lore activity": "Quest"
+				},
 				"Weight": 15
 			},
 			"Moss giants": {
+				"CombatLevel": 50,
 				"Weight": 15
 			},
 			"Scorpions": {
 				"Weight": 10
 			},
 			"Skeletons": {
+				"CombatLevel": 15,
 				"Weight": 15
 			},
 			"Spiders": {
@@ -388546,59 +388573,93 @@
 			},
 			"Wall beasts": {
 				"Level": 35,
+				"CombatLevel": 45,
+				"Skills": {
+					"Defence": 5
+				},
 				"Weight": 10
 			},
 			"Wolves": {
+				"CombatLevel": 8,
 				"Weight": 15
 			},
 			"Zombies": {
+				"CombatLevel": 10,
 				"Weight": 15
 			}
 		},
 		"The Raptor": {
 			"Aberrant spectres": {
+				"Level": 60,
 				"Weight": 7
 			},
 			"Abyssal demons": {
+				"Level": 85,
 				"Weight": 7
 			},
 			"Acheron mammoths": {
+				"Level": 96,
 				"Weight": 6
 			},
 			"Ankou": {
 				"Weight": 7
 			},
 			"Armoured phantoms": {
+				"Level": 113,
+				"Tasks": {
+					"~|Unwelcome Guests|~ Complete the quest": "Quest"
+				},
 				"Weight": 8
 			},
 			"Aviansie": {
+				"Tasks": {
+					"Access the God Wars Dungeon[+]": "Nonskill"
+				},
 				"Weight": 7
 			},
 			"Black demons": {
 				"Weight": 8
 			},
 			"Black dragons": {
+				"Tasks": {
+					"~|Dragon Slayer|~ Complete the quest": "Quest"
+				},
 				"Weight": 5
 			},
 			"Bound skeletons": {
+				"Level": 50,
+				"Tasks": {
+					"~|Unwelcome Guests|~ Complete the quest": "Quest"
+				},
 				"Weight": 8
 			},
-			"Camel Warriors": {
+			"Camel warriors": {
+				"Level": 96,
 				"Weight": 6
 			},
 			"Dagannoth": {
+				"Tasks": {
+					"~|Horror from the Deep|~ Complete the quest": "Quest"
+				},
 				"Weight": 8
 			},
 			"Dark beasts": {
+				"Level": 90,
 				"Weight": 7
 			},
 			"Demons": {
 				"Weight": 6
 			},
 			"Dragons": {
+				"Tasks": {
+					"~|Dragon Slayer|~ Complete the quest": "Quest"
+				},
 				"Weight": 5
 			},
 			"Fetid zombies": {
+				"Tasks": {
+					"~|Unwelcome Guests|~ Complete the quest": "Quest"
+				},
 				"Weight": 8
 			},
 			"Fire giants": {
@@ -388611,6 +388672,9 @@
 				"Weight": 7
 			},
 			"Green dragons": {
+				"Tasks": {
+					"~|Dragon Slayer|~ Complete the quest": "Quest"
+				},
 				"Weight": 5
 			},
 			"Grotworms": {
@@ -388626,12 +388690,18 @@
 				"Weight": 8
 			},
 			"Living wyverns": {
+				"Level": 96,
 				"Weight": 6
 			},
-			"Ripper Demons": {
+			"Ripper demons": {
+				"Level": 96,
 				"Weight": 6
 			},
 			"Risen ghosts": {
+				"Level": 85,
+				"Tasks": {
+					"~|Unwelcome Guests|~ Complete the quest": "Quest"
+				},
 				"Weight": 8
 			},
 			"Skeletons": {
@@ -388641,6 +388711,10 @@
 				"Weight": 6
 			},
 			"Zemouregal's undead": {
+				"Level": 50,
+				"Tasks": {
+					"~|Unwelcome Guests|~ Complete the quest": "Quest"
+				},
 				"Weight": 8
 			},
 			"Zombies": {
@@ -388650,158 +388724,247 @@
 		"Mazchna/Achtryn": {
 			"Aberrant spectres": {
 				"Level": 60,
+				"CombatLevel": 70,
+				"Tasks": {
+					"Gain access to Morytania": "Nonskill"
+				},
 				"Weight": 15
 			},
 			"Ankou": {
-				"Weight": 10
+				"CombatLevel": 55,
+				"Weight": 15
 			},
 			"Banshees": {
 				"Level": 15,
-				"Weight": 5
+				"Tasks": {
+					"Gain access to Morytania": "Nonskill"
+				},
+				"Weight": 10
 			},
 			"Basilisks": {
 				"Level": 40,
+				"CombatLevel": 70,
+				"Skills": {
+					"Defence": 20
+				},
 				"Weight": 15
 			},
 			"Beastmaster's hounds": {
 				"Level": 43,
-				"Weight": 10
+				"Weight": 15
 			},
 			"Bloodveld": {
 				"Level": 50,
+				"CombatLevel": 65,
+				"Tasks": {
+					"Gain access to Morytania": "Nonskill"
+				},
 				"Weight": 15
 			},
 			"Brine rats": {
 				"Level": 47,
+				"Tasks": {
+					"~|Olaf's Quest|~ Complete the quest": "Quest"
+				},
 				"Weight": 10
 			},
 			"Cave crawlers": {
 				"Level": 10,
-				"Weight": 5
+				"Weight": 15
 			},
 			"Cockatrice": {
 				"Level": 25,
-				"Weight": 15
+				"Skills": {
+					"Defence": 20
+				},
+				"Weight": 10
 			},
 			"Crocodiles": {
-				"Weight": 5
+				"CombatLevel": 40,
+				"Weight": 10
 			},
 			"Cyclopes": {
+				"Tasks": {
+					"Gain access to the ~|Warriors' Guild|~": "Strength"
+				},
 				"Weight": 10
 			},
 			"Desert lizards": {
 				"Level": 22,
+				"CombatLevel": 60,
 				"Weight": 15
 			},
 			"Dogs": {
 				"Weight": 10
 			},
 			"Earth warriors": {
+				"CombatLevel": 70,
 				"Weight": 10
 			},
 			"Ghouls": {
-				"Weight": 10
+				"CombatLevel": 60,
+				"Weight": 15
 			},
 			"Green dragons": {
+				"CombatLevel": 60,
+				"Tasks": {
+					"~|Dragon Slayer|~ Complete the quest": "Quest"
+				},
 				"Weight": 10
 			},
 			"Grotworms": {
-				"Weight": 15
+				"Weight": 10
 			},
 			"Ice giants": {
 				"Weight": 10
 			},
 			"Ice warriors": {
-				"Weight": 10
+				"Weight": 15
 			},
-			"Infernal Mage": {
+			"Infernal mages": {
 				"Level": 45,
+				"CombatLevel": 70,
+				"Tasks": {
+					"Gain access to Morytania": "Nonskill"
+				},
 				"Weight": 10
 			},
 			"Jelly": {
 				"Level": 52,
+				"CombatLevel": 65,
 				"Weight": 15
 			},
 			"Jungle horrors": {
+				"CombatLevel": 65,
+				"Tasks": {
+					"~|Cabin Fever|~ Complete the quest": "Quest"
+				},
 				"Weight": 15
 			},
 			"Killerwatts": {
 				"Level": 37,
+				"CombatLevel": 60,
+				"Tasks": {
+					"~|Ernest the Chicken|~ Complete the quest": "Quest"
+				},
 				"Weight": 10
 			},
 			"Lesser demons": {
-				"Weight": 10
+				"CombatLevel": 65,
+				"Weight": 15
 			},
 			"Molanisks": {
 				"Level": 39,
+				"Tasks": {
+					"~|Death to the Dorgeshuun|~ Complete the quest": "Quest"
+				},
 				"Weight": 10
 			},
 			"Moss giants": {
 				"Weight": 10
 			},
 			"Ogres": {
-				"Weight": 10
+				"CombatLevel": 65,
+				"Weight": 15
 			},
 			"Otherworldly beings": {
-				"Weight": 10
+				"CombatLevel": 60,
+				"Tasks": {
+					"~|Lost City|~ Complete the quest": "Quest"
+				},
+				"Weight": 15
 			},
 			"Pyrefiends": {
 				"Level": 30,
-				"Weight": 10
+				"CombatLevel": 55,
+				"Weight": 15
 			},
 			"Rock slugs": {
 				"Level": 20,
-				"Weight": 10
+				"Weight": 15
 			},
 			"Sea snakes": {
+				"CombatLevel": 60,
+				"Tasks": {
+					"~|Royal Trouble|~ Complete the quest": "Quest"
+				},
 				"Weight": 10
 			},
 			"Shades": {
-				"Weight": 10
+				"Weight": 15
 			},
 			"Shadow warriors": {
-				"Weight": 10
+				"CombatLevel": 65,
+				"Tasks": {
+					"~|Legends' Quest|~ Complete the quest": "Quest"
+				},
+				"Weight": 15
 			},
 			"Turoth": {
 				"Level": 55,
+				"CombatLevel": 60,
 				"Weight": 15
 			},
 			"Vampyres": {
-				"Weight": 10
+				"CombatLevel": 55,
+				"Weight": 15
 			},
 			"Werewolves": {
+				"CombatLevel": 60,
 				"Weight": 10
 			}
 		},
 		"Chaeldar": {
 			"Aberrant spectres": {
 				"Level": 60,
+				"Tasks": {
+					"Gain access to Morytania": "Nonskill"
+				},
 				"Weight": 15
 			},
 			"Banshees": {
 				"Level": 15,
+				"Tasks": {
+					"Gain access to Morytania": "Nonskill"
+				},
 				"Weight": 5
 			},
 			"Basilisks": {
 				"Level": 40,
+				"Skills": {
+					"Defence": 20
+				},
 				"Weight": 15
 			},
 			"Beastmaster's hounds": {
 				"Level": 43,
-				"Weight": 10
+				"Weight": 15
 			},
 			"Bloodveld": {
 				"Level": 50,
+				"Tasks": {
+					"Gain access to Morytania": "Nonskill"
+				},
 				"Weight": 15
 			},
 			"Blue dragons": {
+				"Tasks": {
+					"~|Dragon Slayer|~ Complete the quest": "Quest"
+				},
 				"Weight": 10
 			},
 			"Brine rats": {
 				"Level": 47,
+				"Tasks": {
+					"~|Olaf's Quest|~ Complete the quest": "Quest"
+				},
 				"Weight": 10
 			},
 			"Bronze dragons": {
+				"CombatLevel": 80,
+				"Tasks": {
+					"~|Dragon Slayer|~ Complete the quest": "Quest"
+				},
 				"Weight": 10
 			},
 			"Cave crawlers": {
@@ -388810,6 +388973,9 @@
 			},
 			"Cave horrors": {
 				"Level": 58,
+				"Tasks": {
+					"~|Cabin Fever|~ Complete the quest": "Quest"
+				},
 				"Weight": 15
 			},
 			"Crawling hands": {
@@ -388817,35 +388983,64 @@
 				"Weight": 5
 			},
 			"Dagannoth": {
+				"Tasks": {
+					"~|Horror from the Deep|~ Complete the quest": "Quest"
+				},
 				"Weight": 10
 			},
 			"Dust devils": {
 				"Level": 65,
+				"Tasks": {
+					"~|What Lies Below|~ Complete the quest": "Quest"
+				},
 				"Weight": 15
 			},
 			"Elves": {
+				"Tasks": {
+					"~|Regicide|~ Complete the quest": "Quest"
+				},
 				"Weight": 10
 			},
 			"Fever spiders": {
 				"Level": 42,
+				"CombatLevel": 80,
+				"Tasks": {
+					"~|Rum Deal|~ 1": "Quest"
+				},
 				"Weight": 10
 			},
 			"Fire giants": {
+				"CombatLevel": 50,
 				"Weight": 10
 			},
 			"Fungal magi": {
+				"Skills": {
+					"Magic": 50
+				},
 				"Weight": 10
 			},
 			"Gargoyles": {
 				"Level": 75,
+				"CombatLevel": 55,
+				"Tasks": {
+					"Gain access to Morytania": "Nonskill"
+				},
 				"Weight": 15
 			},
 			"Grifolapines": {
 				"Level": 88,
+				"CombatLevel": 75,
+				"Skills": {
+					"Magic": 60
+				},
 				"Weight": 8
 			},
 			"Grifolaroos": {
 				"Level": 82,
+				"CombatLevel": 75,
+				"Skills": {
+					"Magic": 60
+				},
 				"Weight": 8
 			},
 			"Grotworms": {
@@ -388855,26 +389050,34 @@
 				"Level": 33,
 				"Weight": 10
 			},
-			"Infernal Mage": {
+			"Infernal mages": {
 				"Level": 45,
+				"Tasks": {
+					"Gain access to Morytania": "Nonskill"
+				},
 				"Weight": 10
 			},
-			"Jungle strykewyrms": {
-				"Level": 73,
-				"Weight": 12
-			},
-			"Jelly": {
+			"Jellies": {
 				"Level": 52,
 				"Weight": 15
 			},
 			"Jungle horrors": {
+				"Tasks": {
+					"~|Cabin Fever|~ Complete the quest": "Quest"
+				},
 				"Weight": 15
+			},
+			"Jungle strykewyrms": {
+				"Level": 73,
+				"CombatLevel": 80,
+				"Weight": 12
 			},
 			"Kalphites": {
 				"Weight": 10
 			},
 			"Kurasks": {
 				"Level": 70,
+				"CombatLevel": 55,
 				"Weight": 10
 			},
 			"Lesser demons": {
@@ -388882,9 +389085,15 @@
 			},
 			"Mutated zygomite": {
 				"Level": 57,
+				"Tasks": {
+					"~|Lost City|~ Complete the quest": "Quest"
+				},
 				"Weight": 10
 			},
 			"Shadow warriors": {
+				"Tasks": {
+					"~|Legends' Quest|~ Complete the quest": "Quest"
+				},
 				"Weight": 10
 			},
 			"Trolls": {
@@ -388895,97 +389104,160 @@
 				"Weight": 15
 			},
 			"Vyrewatch": {
+				"Tasks": {
+					"~|The Branches of Darkmeyer|~ Complete the quest": "Quest"
+				},
 				"Weight": 10
 			},
 			"Warped tortoises": {
 				"Level": 56,
+				"Tasks": {
+					"~|The Path of Glouphrie|~ Complete the quest": "Quest"
+				},
 				"Weight": 10
 			}
 		},
 		"Sumona": {
 			"Aberrant spectres": {
 				"Level": 60,
+				"Tasks": {
+					"Gain access to Morytania": "Nonskill"
+				},
 				"Weight": 15
 			},
 			"Abyssal demons": {
 				"Level": 85,
+				"CombatLevel": 80,
+				"Tasks": {
+					"Gain access to Morytania": "Nonskill"
+				},
 				"Weight": 10
 			},
 			"Aquanites": {
 				"Level": 78,
 				"Weight": 10
 			},
-			"Cres' creations": {
-				"Level": 67,
-				"Weight": 8
-			},
 			"Aviansie": {
-				"Tasks": {},
+				"CombatLevel": 70,
+				"Tasks": {
+					"Access the God Wars Dungeon[+]": "Nonskill"
+				},
 				"Weight": 7
 			},
 			"Banshees": {
 				"Level": 15,
+				"CombatLevel": 20,
+				"Tasks": {
+					"Gain access to Morytania": "Nonskill"
+				},
 				"Weight": 15
 			},
 			"Basilisks": {
 				"Level": 40,
+				"Skills": {
+					"Defence": 20
+				},
 				"Weight": 15
 			},
 			"Beastmaster's hounds": {
 				"Level": 43,
-				"Weight": 10
+				"Weight": 15
 			},
 			"Black demons": {
+				"CombatLevel": 100,
 				"Weight": 10
 			},
 			"Bloodveld": {
 				"Level": 50,
+				"Tasks": {
+					"Gain access to Morytania": "Nonskill"
+				},
 				"Weight": 10
 			},
 			"Blue dragons": {
+				"Tasks": {
+					"~|Dragon Slayer|~ Complete the quest": "Quest"
+				},
 				"Weight": 5
 			},
 			"Cave crawlers": {
 				"Level": 10,
+				"CombatLevel": 10,
 				"Weight": 15
 			},
 			"Cave horrors": {
 				"Level": 58,
+				"Tasks": {
+					"~|Cabin Fever|~ Complete the quest": "Quest"
+				},
 				"Weight": 15
 			},
 			"Corrupted creatures": {
 				"Level": 88,
+				"Tasks": {
+					"~|Icthlarin's Little Helper|~ 1": "Quest"
+				},
 				"Weight": 25
 			},
+			"Cres' creations": {
+				"Level": 67,
+				"CombatLevel": 100,
+				"Tasks": {
+					"~|Ritual of the Mahjarrat|~ Complete the quest": "Quest",
+					"~|The Firemaker's Curse|~ Complete the quest": "Quest",
+					"~|The Branches of Darkmeyer|~ Complete the quest": "Quest",
+					"~|The Void Stares Back|~ Complete the quest": "Quest",
+					"~|The Chosen Commander|~ Complete the quest": "Quest"
+				},
+				"Weight": 8
+			},
 			"Crocodiles": {
+				"CombatLevel": 40,
 				"Weight": 4
 			},
 			"Dagannoth": {
+				"Tasks": {
+					"~|Horror from the Deep|~ Complete the quest": "Quest"
+				},
 				"Weight": 10
 			},
 			"Desert lizards": {
 				"Level": 22,
+				"CombatLevel": 20,
 				"Weight": 4
 			},
 			"Desert strykewyrms": {
 				"Level": 77,
+				"CombatLevel": 90,
 				"Weight": 14
 			},
 			"Dust devils": {
 				"Level": 65,
+				"Tasks": {
+					"~|What Lies Below|~ Complete the quest": "Quest"
+				},
 				"Weight": 15
 			},
 			"Elves": {
+				"Tasks": {
+					"~|Regicide|~ Complete the quest": "Quest"
+				},
 				"Weight": 10
 			},
 			"Fire giants": {
 				"Weight": 10
 			},
 			"Fungal magi": {
+				"Skills": {
+					"Magic": 50
+				},
 				"Weight": 10
 			},
 			"Gargoyles": {
 				"Level": 75,
+				"Tasks": {
+					"Gain access to Morytania": "Nonskill"
+				},
 				"Weight": 10
 			},
 			"Greater demons": {
@@ -388993,10 +389265,18 @@
 			},
 			"Grifolapines": {
 				"Level": 88,
+				"CombatLevel": 75,
+				"Skills": {
+					"Magic": 60
+				},
 				"Weight": 8
 			},
 			"Grifolaroos": {
 				"Level": 82,
+				"CombatLevel": 75,
+				"Skills": {
+					"Magic": 60
+				},
 				"Weight": 8
 			},
 			"Grotworms": {
@@ -389006,10 +389286,14 @@
 				"Weight": 10
 			},
 			"Iron dragons": {
+				"Tasks": {
+					"~|Dragon Slayer|~ Complete the quest": "Quest"
+				},
 				"Weight": 7
 			},
 			"Jungle strykewyrms": {
 				"Level": 73,
+				"CombatLevel": 80,
 				"Weight": 12
 			},
 			"Kalphites": {
@@ -389021,10 +389305,14 @@
 			},
 			"Mutated jadinkos": {
 				"Level": 80,
+				"CombatLevel": 90,
 				"Weight": 10
 			},
 			"Nechryael": {
 				"Level": 80,
+				"Tasks": {
+					"Gain access to Morytania": "Nonskill"
+				},
 				"Weight": 10
 			},
 			"Profane Scabarites": {
@@ -389032,28 +389320,53 @@
 				"Weight": 5
 			},
 			"Red dragons": {
+				"Tasks": {
+					"~|Dragon Slayer|~ Complete the quest": "Quest"
+				},
 				"Weight": 5
 			},
 			"Scabarites": {
+				"Tasks": {
+					"~|Dealing With Scabaras|~ Complete the quest": "Quest"
+				},
 				"Weight": 5
 			},
 			"Scorpions": {
+				"CombatLevel": 10,
 				"Weight": 4
 			},
 			"Soul devourers": {
 				"Level": 105,
+				"Tasks": {
+					"~|Icthlarin's Little Helper|~ 1": "Quest"
+				},
 				"Weight": 25
 			},
 			"Spiritual mages": {
 				"Level": 83,
+				"Skills": {
+					"Constitution": 70
+				},
+				"Tasks": {
+					"Access the God Wars Dungeon[+]": "Nonskill"
+				},
 				"Weight": 10
 			},
 			"Spiritual warriors": {
 				"Level": 68,
+				"Skills": {
+					"Constitution": 70
+				},
+				"Tasks": {
+					"Access the God Wars Dungeon[+]": "Nonskill"
+				},
 				"Weight": 10
 			},
 			"Terror dogs": {
 				"Level": 40,
+				"Tasks": {
+					"~|Haunted Mine|~ Complete the quest": "Quest"
+				},
 				"Weight": 10
 			},
 			"Trolls": {
@@ -389064,16 +389377,22 @@
 				"Weight": 15
 			},
 			"Vyrewatch": {
+				"Tasks": {
+					"~|The Branches of Darkmeyer|~ Complete the quest": "Quest"
+				},
 				"Weight": 10
 			},
 			"Warped tortoises": {
 				"Level": 56,
+				"Tasks": {
+					"~|The Path of Glouphrie|~ Complete the quest": "Quest"
+				},
 				"Weight": 10
 			}
 		},
 		"Death": {
 			"Amascut, the Devourer": {
-				"CombatLevel": 120,
+				"CombatLevel": 130,
 				"Tasks": {
 					"Group Content enabled": "Nonskill",
 					"~|Eclipse of the Heart|~ Complete the quest": "Quest"
@@ -389081,40 +389400,40 @@
 				"Weight": 1
 			},
 			"The Ambassador": {
-				"CombatLevel": 110,
+				"CombatLevel": 115,
 				"Tasks": {
 					"Elite Dungeon Access[+]": "Nonskill"
 				},
 				"Weight": 1
 			},
 			"Araxxor": {
-				"CombatLevel": 120,
+				"CombatLevel": 115,
 				"Weight": 1
 			},
 			"Arch-Glacor": {
-				"CombatLevel": 110,
+				"CombatLevel": 100,
 				"Weight": 1
 			},
 			"Barrows": {
-				"CombatLevel": 85,
+				"CombatLevel": 75,
 				"Weight": 1
 			},
 			"Barrows: Rise of the Six": {
-				"CombatLevel": 120,
+				"CombatLevel": 105,
 				"Tasks": {
 					"Group Content enabled": "Nonskill"
 				},
 				"Weight": 1
 			},
 			"Black stone dragon": {
-				"CombatLevel": 110,
+				"CombatLevel": 115,
 				"Tasks": {
 					"Elite Dungeon Access[+]": "Nonskill"
 				},
 				"Weight": 1
 			},
 			"Chaos Elemental": {
-				"CombatLevel": 90,
+				"CombatLevel": 60,
 				"Weight": 1
 			},
 			"Commander Zilyana": {
@@ -389144,14 +389463,6 @@
 				"CombatLevel": 90,
 				"Weight": 1
 			},
-			"Dagannoth Prime": {
-				"CombatLevel": 90,
-				"Weight": 1
-			},
-			"Dagannoth Supreme": {
-				"CombatLevel": 90,
-				"Weight": 1
-			},
 			"Flesh-hatcher Mhekarnahz": {
 				"CombatLevel": 60,
 				"Tasks": {
@@ -389160,7 +389471,7 @@
 				"Weight": 1
 			},
 			"The Gate of Elidinis": {
-				"CombatLevel": 70,
+				"CombatLevel": 75,
 				"Tasks": {
 					"~|Ode of the Devourer|~ Complete the quest": "Quest"
 				},
@@ -389188,7 +389499,7 @@
 				"Weight": 1
 			},
 			"Har-Aken": {
-				"CombatLevel": 90,
+				"CombatLevel": 100,
 				"Tasks": {
 					"~|The Elder Kiln|~ Complete the quest": "Quest"
 				},
@@ -389210,7 +389521,7 @@
 				"Weight": 1
 			},
 			"Kalphite King": {
-				"CombatLevel": 100,
+				"CombatLevel": 105,
 				"Tasks": {
 					"Group Content enabled": "Nonskill"
 				},
@@ -389221,7 +389532,7 @@
 				"Weight": 1
 			},
 			"Kerapac, the bound": {
-				"CombatLevel": 110,
+				"CombatLevel": 120,
 				"Weight": 1
 			},
 			"King Black Dragon": {
@@ -389250,13 +389561,13 @@
 			},
 			"Legiones": {
 				"Level": 95,
-				"CombatLevel": 120,
+				"CombatLevel": 100,
 				"Items": ["Ascension Keystone*"],
 				"Weight": 1
 			},
 			"The Magister": {
 				"Level": 115,
-				"CombatLevel": 120,
+				"CombatLevel": 100,
 				"Items": ["Key to the Crossing*"],
 				"Tasks": {
 					"~|Ichtlarin's Little Helper|~ 2": "Quest"
@@ -389264,7 +389575,7 @@
 				"Weight": 1
 			},
 			"Nakatra, Devourer Eternal": {
-				"CombatLevel": 110,
+				"CombatLevel": 120,
 				"Tasks": {
 					"~|Soul Searching|~ Complete the quest": "Quest"
 				},
@@ -389285,7 +389596,7 @@
 				"Weight": 1
 			},
 			"Nex, Angel of Death": {
-				"CombatLevel": 110,
+				"CombatLevel": 125,
 				"Skills": {
 					"Agility": 70,
 					"Ranged": 70,
@@ -389300,7 +389611,7 @@
 				"Weight": 1
 			},
 			"Queen Black Dragon": {
-				"CombatLevel": 100,
+				"CombatLevel": 90,
 				"Skills": {
 					"Summoning": 60
 				},
@@ -389314,7 +389625,7 @@
 				"Weight": 1
 			},
 			"Rasial, the First Necromancer": {
-				"CombatLevel": 110,
+				"CombatLevel": 120,
 				"Tasks": {
 					"~|Alpha vs Omega|~ Complete the quest": "Quest"
 				},
@@ -389325,21 +389636,21 @@
 				"Weight": 1
 			},
 			"Seiryu the Azure Serpent": {
-				"CombatLevel": 110,
+				"CombatLevel": 115,
 				"Tasks": {
 					"Elite Dungeon Access[+]": "Nonskill"
 				},
 				"Weight": 1
 			},
 			"Solak, Guardian of the Grove": {
-				"CombatLevel": 130,
+				"CombatLevel": 125,
 				"Tasks": {
 					"Group Content enabled": "Nonskill"
 				},
 				"Weight": 1
 			},
 			"Telos, the Warden": {
-				"CombatLevel": 80,
+				"CombatLevel": 120,
 				"Skills": {
 					"Attack": 80,
 					"Ranged": 80,
@@ -389349,14 +389660,14 @@
 				"Weight": 1
 			},
 			"Twin Furies": {
-				"CombatLevel": 105,
+				"CombatLevel": 110,
 				"Skills": {
 					"Ranged": 80
 				},
 				"Weight": 1
 			},
 			"TzKal-Zuk": {
-				"CombatLevel": 110,
+				"CombatLevel": 120,
 				"Weight": 1
 			},
 			"TzTok-Jad": {
@@ -389371,18 +389682,18 @@
 				"Weight": 1
 			},
 			"Vorago": {
-				"CombatLevel": 110,
+				"CombatLevel": 120,
 				"Tasks": {
 					"Group Content enabled": "Nonskill"
 				},
 				"Weight": 1
 			},
 			"Zamorak, Lord of Chaos": {
-				"CombatLevel": 128,
+				"CombatLevel": 130,
 				"Weight": 1
 			},
 			"Zamouregal & Vorkath": {
-				"CombatLevel": 115,
+				"CombatLevel": 125,
 				"Tasks": {
 					"~|Battle of Forinthry|~ Complet the quest": "Quest"
 				},
@@ -389392,72 +389703,122 @@
 		"Duradel/Lapalok": {
 			"Aberrant spectres": {
 				"Level": 60,
+				"Tasks": {
+					"Gain access to Morytania": "Nonskill"
+				},
 				"Weight": 10
 			},
 			"Abyssal demons": {
 				"Level": 85,
+				"Tasks": {
+					"Gain access to Morytania": "Nonskill"
+				},
 				"Weight": 15
 			},
 			"Airut": {
 				"Level": 92,
+				"CombatLevel": 110,
 				"Weight": 8
 			},
 			"Aquanites": {
 				"Level": 78,
 				"Weight": 9
 			},
-			"Order of ascension members": {
+			"Ascension members": {
 				"Level": 81,
-				"Weight": 8
-			},
-			"Cres' creations": {
-				"Level": 67,
+				"CombatLevel": 105,
 				"Weight": 8
 			},
 			"Aviansie": {
-				"Tasks": {},
+				"CombatLevel": 70,
+				"Tasks": {
+					"Access the God Wars Dungeon[+]": "Nonskill"
+				},
 				"Weight": 8 
 			},
 			"Black demons": {
 				"Weight": 10
 			},
 			"Black dragons": {
+				"Tasks": {
+					"~|Dragon Slayer|~ Complete the quest": "Quest"
+				},
 				"Weight": 9
 			},
 			"Bloodveld": {
 				"Level": 50,
+				"Tasks": {
+					"Gain access to Morytania": "Nonskill"
+				},
 				"Weight": 10
 			},
 			"Celestial dragon": {
+				"Tasks": {
+					"~|One of a Kind|~ Complete the quest": "Quest"
+				},
 				"Weight": 16
 			},
+			"Cres' creations": {
+				"Level": 67,
+				"CombatLevel": 100,
+				"Tasks": {
+					"~|Ritual of the Mahjarrat|~ Complete the quest": "Quest",
+					"~|The Branches of Darkmeyer|~ Complete the quest": "Quest",
+					"~|The Firemaker's Curse|~ Complete the quest": "Quest",
+					"~|The Chosen Commander|~ Complete the quest": "Quest"
+				},
+				"Weight": 8
+			},
 			"Dagannoth": {
+				"Tasks": {
+					"~|Horror from the Deep|~ Complete the quest": "Quest"
+				},
 				"Weight": 10
 			},
 			"Dark beasts": {
 				"Level": 90,
+				"Tasks": {
+					"~|Mourning's End Part II|~ 2": "Quest"
+				},
 				"Weight": 15
 			},
 			"Desert strykewyrms": {
-				"Level": 77,
+				"Level": 79,
+				"CombatLevel": 90,
 				"Weight": 11
 			},
 			"Dust devils": {
 				"Level": 65,
+				"Tasks": {
+					"~|What Lies Below|~ Complete the quest": "Quest"
+				},
 				"Weight": 10
 			},
 			"Edimmu": {
 				"Level": 90,
+				"CombatLevel": 110,
+				"Skills": {
+					"Dungeoneering": 115
+				},
+				"Tasks": {
+					"~|Plague's End|~ Complete the quest": "Quest"
+				},
 				"Weight": 10
 			},
 			"Fire giants": {
 				"Weight": 10
 			},
 			"Fungal magi": {
+				"Skills": {
+					"Magic": 50
+				},
 				"Weight": 8
 			},
 			"Ganodermic creatures": {
 				"Level": 95,
+				"Skills": {
+					"Magic": 60
+				},
 				"Weight": 6
 			},
 			"Gargoyles": {
@@ -389465,6 +389826,9 @@
 				"Weight": 10
 			},
 			"Goraks": {
+				"Tasks": {
+					"~|A Fairy Tale II - Cure a Queen|~ 2": "Quest"
+				},
 				"Weight": 5
 			},
 			"Greater demons": {
@@ -389472,10 +389836,16 @@
 			},
 			"Grifolapines": {
 				"Level": 88,
+				"Skills": {
+					"Magic": 60
+				},
 				"Weight": 10
 			},
 			"Grifolaroos": {
 				"Level": 82,
+				"Skills": {
+					"Magic": 60
+				},
 				"Weight": 10
 			},
 			"Grotworms": {
@@ -389487,23 +389857,33 @@
 			"Ice strykewyrms": {
 				"Items": ["Fire cape"],
 				"Level": 93,
+				"Tasks": {
+					"~|The Tale of the Muspah|~ Complete the quest": "Quest"
+				},
 				"Weight": 8
 			},
 			"Iron dragons": {
+				"Tasks": {
+					"~|Dragon Slayer|~ Complete the quest": "Quest"
+				},
 				"Weight": 9
 			},
 			"Jungle strykewyrms": {
 				"Level": 73,
+				"CombatLevel": 80,
 				"Weight": 10
 			},
 			"Kalphites": {
 				"Weight": 10
 			},
 			"Mithril dragons": {
+				"CombatLevel": 100,
+				"Chunks": ["Ancient Cavern"],
 				"Weight": 7
 			},
 			"Mutated jadinkos": {
 				"Level": 80,
+				"CombatLevel": 90,
 				"Weight": 8
 			},
 			"Nechryael": {
@@ -389511,68 +389891,107 @@
 				"Weight": 10
 			},
 			"Scabarites": {
+				"Tasks": {
+					"~|Dealing with Scabaras|~ Complete the quest": "Quest"
+				},
 				"Weight": 10
 			},
-			"Skeletal Wyverns": {
+			"Skeletal wyverns": {
 				"Level": 72,
+				"CombatLevel": 100,
+				"Tasks": {
+					"~|Elemental Workshop I|~ Complete the quest": "Quest"
+				},
 				"Weight": 5
 			},
 			"Spiritual mages": {
 				"Level": 83,
+				"Skills": {
+					"Constitution": 70
+				},
+				"Tasks": {
+					"Access the God Wars Dungeon[+]": "Nonskill"
+				},
 				"Weight": 10
 			},
 			"Steel dragons": {
+				"Tasks": {
+					"~|Dragon Slayer|~ Complete the quest": "Quest"
+				},
 				"Weight": 7
 			},
 			"Suqah": {
+				"Tasks": {
+					"~|Lunar Diplomacy|~ 6": "Quest"
+				},
 				"Weight": 5
 			},
 			"Vyrewatch": {
+				"Tasks": {
+					"~|The Branches of Darkmeyer|~ Complete the quest": "Quest"
+				},
 				"Weight": 8
 			},
-			"Warped tortoises": {
+			"Warped terrorbirds": {
 				"Level": 56,
+				"Tasks": {
+					"~|The Path of Glouphrie|~ Complete the quest": "Quest"
+				},
 				"Weight": 9
 			},
 			"Waterfiend": {
+				"Tasks": {
+					"~|What Lies Below|~ Complete the quest": "Quest"
+				},
 				"Weight": 10
 			}
 		},
 		"Kuradal": {
 			"Aberrant spectres": {
 				"Level": 60,
+				"Tasks": {
+					"Gain access to Morytania": "Nonskill"
+				},
 				"Weight": 10
 			},
 			"Abyssal demons": {
 				"Level": 85,
+				"Tasks": {
+					"Gain access to Morytania": "Nonskill"
+				},
 				"Weight": 10
 			},
 			"Acheron mammoths": {
 				"Level": 96,
+				"CombatLevel": 100,
 				"Weight": 8
 			},
 			"Adamant dragons": {
+				"CombatLevel": 95,
+				"Tasks": {
+					"~|Dragon Slayer|~ Complete the quest": "Quest"
+				},
 				"Weight": 8
 			},
 			"Airut": {
 				"Level": 92,
+				"CombatLevel": 110,
 				"Weight": 10
 			},
 			"Aquanites": {
 				"Level": 78,
 				"Weight": 10
 			},
-			"Order of ascension members": {
+			"Ascension members": {
 				"Level": 81,
+				"CombatLevel": 105,
 				"Weight": 10
 			},
-			"Cres' creations": {
-				"Tasks": {},
-				"Level": 67,
-				"Weight": 8
-			},
 			"Aviansie": {
-				"Tasks": {},
+				"CombatLevel": 70,
+				"Tasks": {
+					"Access the God Wars Dungeon[+]": "Nonskill"
+				},
 				"Weight": 9
 			},
 			"Black demons": {
@@ -389583,32 +390002,64 @@
 			},
 			"Bloodveld": {
 				"Level": 50,
+				"Tasks": {
+					"Gain access to Morytania": "Nonskill"
+				},
 				"Weight": 10
 			},
 			"Blue dragons": {
+				"Tasks": {
+					"~|Dragon Slayer|~ Complete the quest": "Quest"
+				},
 				"Weight": 7
 			},
-			"Camel Warriors": {
+			"Camel warriors": {
 				"Level": 96,
+				"CombatLevel": 100,
 				"Weight": 8
 			},
 			"Celestial dragons": {
-				"Tasks": {},
+				"Tasks": {
+					"~|One of a Kind|~ Complete the quest": "Quest"
+				},
 				"Weight": 10
 			},
 			"Chaos giants": {
-				"Tasks": {},
+				"Tasks": {
+					"~|Birthright of the Dwarves|~ Complete the quest": "Quest"
+				},
 				"Weight": 8
 			},
 			"Corrupted creatures": {
 				"Level": 98,
+				"Tasks": {
+					"~|Ichtlarin's Little Helper|~ 1": "Quest"
+				},
 				"Weight": 10
 			},
+			"Cres' creations": {
+				"CombatLevel": 100,
+				"Tasks": {
+					"~|Ritual of the Mahjarrat|~ Complete the quest": "Quest",
+					"~|The Branches of Darkmeyer|~ Complete the quest": "Quest",
+					"~|The Chosen Commander|~ Complete the quest": "Quest",
+					"~|The Firemaker's Curse|~ Complete the quest": "Quest"
+				},
+				"Level": 67,
+				"Weight": 8
+			},
 			"Dagannoth": {
+				"Tasks": {
+					"~|Horror from the Deep|~ Complete the quest": "Quest"
+				},
 				"Weight": 10
 			},
 			"Dark beasts": {
 				"Level": 90,
+				"CombatLevel": 80,
+				"Tasks": {
+					"~|Mourning's End Part II|~ 2": "Quest"
+				},
 				"Weight": 12
 			},
 			"Desert strykewyrms": {
@@ -389617,16 +390068,26 @@
 			},
 			"Dust devils": {
 				"Level": 65,
+				"Tasks": {
+					"~|What Lies Below|~ Complete the quest": "Quest"
+				},
 				"Weight": 10
 			},
 			"Edimmu": {
 				"Level": 90,
+				"CombatLevel": 110,
 				"Skills": {
 					"Dungeoneering": 115
+				},
+				"Tasks": {
+					"~|Plague's End|~ Complete the quest": "Quest"
 				},
 				"Weight": 10
 			},
 			"Elves": {
+				"Tasks": {
+					"~|Regicide|~ Complete the quest": "Quest"
+				},
 				"Weight": 12
 			},
 			"Fire giants": {
@@ -389634,6 +390095,9 @@
 			},
 			"Ganodermic creatures": {
 				"Level": 95,
+				"Skills": {
+					"Magic": 60
+				},
 				"Weight": 7
 			},
 			"Gargoyles": {
@@ -389642,9 +390106,16 @@
 			},
 			"Gemstone dragons": {
 				"Level": 95,
+				"Tasks": {
+					"~|Shilo Village|~ Complete the quest": "Quest",
+					"~|Karamja Achievements#Hard|~ Complete the Hard Achievements": "Diary"
+				},
 				"Weight": 10
 			},
 			"Glacor": {
+				"Tasks": {
+					"~|Ritual of the Mahjarrat|~ Complete the quest": "Quest"
+				},
 				"Weight": 8
 			},
 			"Greater demons": {
@@ -389652,10 +390123,16 @@
 			},
 			"Grifolapines": {
 				"Level": 88,
+				"Skills": { 
+					"Magic": 60 
+				},
 				"Weight": 9
 			},
 			"Grifolaroos": {
 				"Level": 82,
+				"Skills": { 
+					"Magic": 60 
+				},
 				"Weight": 8
 			},
 			"Grotworms": {
@@ -389666,6 +390143,9 @@
 			},
 			"Ice strykewyrms": {
 				"Items": ["Fire cape"],
+				"Tasks": {
+					"~|The Tale of the Muspah|~ Complete the quest": "Quest"
+				},
 				"Level": 93,
 				"Weight": 9
 			},
@@ -389674,10 +390154,14 @@
 			},
 			"Jungle strykewyrms": {
 				"Level": 73,
+				"CombatLevel": 80,
 				"Weight": 8
 			},
 			"Kal'gerion demons": {
 				"Level": 90,
+				"Skills": {
+					"Dungeoneering": 90
+				},
 				"Weight": 5
 			},
 			"Kalphites": {
@@ -389688,22 +390172,32 @@
 				"Weight": 12
 			},
 			"Living rock creatures": {
+				"CombatLevel": 80,
 				"Weight": 10
 			},
 			"Living wyverns": {
 				"Level": 96,
+				"CombatLevel": 100,
 				"Weight": 8
 			},
 			"Mithril dragons": {
+				"CombatLevel": 90,
+				"Chunks": ["Ancient Cavern"],
+				"Tasks": {
+					"~|Dragon Slayer|~ Complete the quest": "Quest"
+				},
 				"Weight": 8
 			},
 			"Muspah": {
-				"Tasks": {},
 				"Level": 76,
+				"Tasks": {
+					"~|Fate of the Gods|~ Complete the quest": "Quest"
+				},
 				"Weight": 16
 			},
 			"Mutated jadinkos": {
 				"Level": 80,
+				"CombatLevel": 90,
 				"Weight": 8
 			},
 			"Nechryael": {
@@ -389711,129 +390205,211 @@
 				"Weight": 10
 			},
 			"Nightmare creatures": {
-				"Tasks": {},
 				"Level": 80,
+				"Tasks": {
+					"~|Children of Mah|~ Complete the quest": "Quest"
+				},
 				"Weight": 8
 			},
 			"Nihil": {
-				"Tasks": {},
 				"Level": 76,
+				"Tasks": {
+					"~|Fate of the Gods|~ Complete the quest": "Quest"
+				},
 				"Weight": 16
 			},
 			"Profane Scabarites": {
 				"Level": 87,
 				"Weight": 5
 			},
-			"Ripper Demons": {
+			"Ripper demons": {
 				"Level": 96,
+				"CombatLevel": 100,
 				"Weight": 8
 			},
-			"Skeletal Wyverns": {
+			"Skeletal wyverns": {
 				"Level": 72,
+				"Tasks": {
+					"~|Elemental Workshop I|~ Complete the quest": "Quest"
+				},
 				"Weight": 5
 			},
 			"Soul devourers": {
 				"Level": 105,
+				"Tasks": {
+					"~|Icthlarin's Little Helper|~ 1": "Quest"
+				},
 				"Weight": 8
 			},
 			"Spiritual mages": {
 				"Level": 83,
+				"Skills": {
+					"Constitution": 70
+				},
+				"Tasks": {
+					"Access the God Wars Dungeon[+]": "Nonskill"
+				},
 				"Weight": 10
 			},
 			"Stalker creatures": {
-				"Tasks": {},
 				"Level": 71,
+				"Tasks": {
+					"~|Dishonour among Thieves|~ Complete the quest": "Quest"
+				},
 				"Weight": 8
 			},
 			"Steel dragons": {
+				"Tasks": {
+					"~|Dragon Slayer|~ Complete the quest": "Quest"
+				},
 				"Weight": 9
 			},
 			"Suqah": {
+				"Tasks": {
+					"~|Lunar Diplomacy|~ 6": "Quest"
+				},
 				"Weight": 5
 			},
 			"Terror dogs": {
 				"Level": 40,
+				"Tasks": {
+					"~|Haunted Mine|~ Complete the quest": "Quest"
+				},
 				"Weight": 6
 			},
 			"TzHaar": {
 				"Weight": 7
 			},
 			"Tormented demons": {
-				"Tasks": {},
+				"Tasks": {
+					"~|While Guthix Sleeps|~ Complete the quest": "Quest"
+				},
 				"Weight": 8
 			},
 			"Vyrewatch": {
-				"Level": 31,
+				"Tasks": {
+					"~|The Branches of Darkmeyer|~ Complete the quest": "Quest"
+				},
 				"Weight": 8
 			},
 			"Warped tortoises": {
-				"Tasks": {},
 				"Level": 56,
+				"Tasks": {
+					"~|The Path of Glouphrie|~ Complete the quest": "Quest"
+				},
 				"Weight": 8
 			},
 			"Waterfiend": {
+				"Tasks": {
+					"~|What Lies Below|~ Complete the quest": "Quest"
+				},
 				"Weight": 9
 			}
 		},
 		"Morvran": {
 			"Abyssal demons": {
 				"Level": 85,
+				"Tasks": {
+					"Gain access to Morytania": "Nonskill"
+				},
 				"Weight": 10
 			},
 			"Acheron mammoths": {
 				"Level": 96,
+				"CombatLevel": 100,
 				"Weight": 8
 			},
 			"Adamant dragons": {
+				"CombatLevel": 95,
+				"Tasks": {
+					"~|Dragon Slayer|~ Complete the quest": "Quest"
+				},
 				"Weight": 8
 			},
 			"Airut": {
 				"Level": 92,
+				"CombatLevel": 100,
 				"Weight": 10
 			},
 			"Aquanites": {
 				"Level": 78,
 				"Weight": 10
 			},
-			"Cres' creations": {
-				"Level": 67,
-				"Weight": 8
+			"Ascension members": {
+				"Level": 81,
+				"CombatLevel": 105,
+				"Weight": 10
 			},
 			"Aviansie": {
+				"CombatLevel": 70,
+				"Tasks": {
+					"Access the God Wars Dungeon[+]": "Nonskill"
+				},
 				"Weight": 9
 			},
 			"Black demons": {
 				"Weight": 10
 			},
 			"Black dragons": {
+				"Tasks": {
+					"~|Dragon Slayer|~ Complete the quest": "Quest"
+				},
 				"Weight": 5
 			},
-			"Camel Warriors": {
+			"Camel warriors": {
 				"Level": 96,
+				"CombatLevel": 100,
 				"Weight": 8
 			},
 			"Celestial dragon": {
-				"Tasks": {},
+				"Tasks": {
+					"~|One of a Kind|~ Complete the quest": "Quest"
+				},
 				"Weight": 10
 			},
 			"Chaos giants": {
-				"Tasks": {},
+				"Tasks": {
+					"~|Birthright of the Dwarves|~ Complete the quest": "Quest"
+				},
 				"Weight": 8
 			},
 			"Corrupted creatures": {
 				"Level": 88,
 				"Weight": 12
 			},
+			"Creatures of the Lost Grove": {
+				"Level": 104,
+				"Weight": 12
+			},
+			"Cres' creations": {
+				"Level": 67,
+				"CombatLevel": 100,
+				"Tasks": {
+					"~|Ritual of the Mahjarrat|~ Complete the quest": "Quest",
+					"~|The Firemaker's Curse|~ Complete the quest": "Quest",
+					"~|The Branches of Darkmeyer|~ Complete the quest": "Quest",
+					"~|The Chosen Commander|~ Complete the quest": "Quest"
+				},
+				"Weight": 8
+			},
 			"Crystal shapeshifters": {
 				"Level": 80,
-				"Tasks": {},
+				"Tasks": {
+					"~|The Light Within|~ Complete the quest": "Quest"
+				},
 				"Weight": 12
 			},
 			"Dagannoth": {
+				"Tasks": {
+					"~|Horror from the Deep|~ Complete the quest": "Quest"
+				},
 				"Weight": 10
 			},
 			"Dark beasts": {
 				"Level": 90,
+				"Tasks": {
+					"~|Mourning's End Part II|~ 2": "Quest"
+				},
 				"Weight": 12
 			},
 			"Desert strykewyrms": {
@@ -389842,31 +390418,47 @@
 			},
 			"Edimmu": {
 				"Level": 90,
+				"CombatLevel": 100,
 				"Skills": {
 					"Dungeoneering": 115
+				},
+				"Tasks": {
+					"~|Plague's End|~ Complete the quest": "Quest"
 				},
 				"Weight": 10
 			},
 			"Elves": {
+				"Tasks": {
+					"~|Plague's End|~ Complete the quest": "Quest"
+				},
 				"Weight": 12
 			},
 			"Ganodermic creatures": {
 				"Level": 95,
+				"Skills": {
+					"Magic": 60
+				},
 				"Weight": 7
 			},
 			"Gargoyles": {
 				"Level": 75,
+				"Tasks": {
+					"Gain access to Morytania": "Nonskill"
+				},
 				"Weight": 8
 			},
 			"Gemstone dragons": {
 				"Level": 95,
 				"Tasks": {
+					"~|Shilo Village|~ Complete the quest": "Quest",
 					"~|Karamja Achievements#Hard|~ Complete the Hard Achievements": "Diary"
 				},
 				"Weight": 10
 			},
 			"Glacor": {
-				"Tasks": {},
+				"Tasks": {
+					"~|Ritual of the Mahjarrat|~ Complete the quest": "Quest"
+				},
 				"Weight": 8
 			},
 			"Greater demons": {
@@ -389878,13 +390470,22 @@
 			"Ice strykewyrms": {
 				"Level": 93,
 				"Items": ["Fire cape"],
+				"Tasks": {
+					"~|The Tale of the Muspah|~ Complete the quest": "Quest"
+				},
 				"Weight": 8
 			},
 			"Iron dragons": {
+				"Tasks": {
+					"~|Dragon Slayer|~ Complete the quest": "Quest"
+				},
 				"Weight": 7
 			},
 			"Kal'gerion demons": {
 				"Level": 90,
+				"Skills": {
+					"Dungeoneering": 90
+				},
 				"Weight": 5
 			},
 			"Kalphites": {
@@ -389896,22 +390497,26 @@
 			},
 			"Living wyverns": {
 				"Level": 96,
+				"CombatLevel": 100,
 				"Weight": 8
 			},
-			"Lost Grove creature": {
-				"Level": 104,
-				"Weight": 12
-			},
 			"Mithril dragons": {
+				"Chunks": ["Ancient Cavern"],
+				"Tasks": {
+					"~|Dragon Slayer|~ Complete the quest": "Quest"
+				},
 				"Weight": 8
 			},
 			"Muspah": {
 				"Level": 76,
-				"Tasks": {},
+				"Tasks": {
+					"~|Fate of the Gods|~ Complete the quest": "Quest"
+				},
 				"Weight": 10
 			},
 			"Mutated jadinkos": {
 				"Level": 80,
+				"CombatLevel": 90,
 				"Weight": 8
 			},
 			"Nechryael": {
@@ -389920,51 +390525,70 @@
 			},
 			"Nightmare creatures": {
 				"Level": 80,
-				"Tasks": {},
+				"Tasks": {
+					"~|Children of Mah|~ Complete the quest": "Quest"
+				},
 				"Weight": 8
 			},
 			"Nihil": {
 				"Level": 76,
-				"Tasks": {},
+				"Tasks": {
+					"~|Fate of the Gods|~ Complete the quest": "Quest"
+				},
 				"Weight": 10
 			},
 			"Nodon dragonkin": {
 				"Level": 92,
 				"Weight": 8
 			},
-			"Order of ascension members": {
-				"Level": 81,
-				"Weight": 10
-			},
 			"Profane Scabarites": {
 				"Level": 87,
 				"Weight": 5
 			},
-			"Ripper Demons": {
+			"Ripper demons": {
 				"Level": 96,
+				"CombatLevel": 100,
 				"Weight": 8
 			},
 			"Rune dragons": {
-				"Tasks": {},
+				"CombatLevel": 100,
+				"Tasks": {
+					"~|Fate of the Gods|~ Complete the quest": "Quest",
+					"~|Ritual of the Mahjarrat|~ Complete the quest": "Quest"
+				},
 				"Weight": 8
 			},
 			"Shadow creatures": {
+				"CombatLevel": 100,
+				"Tasks": {
+					"~|Plague's End|~ Complete the quest": "Quest"
+				},
 				"Weight": 10
 			},
 			"Soul devourers": {
 				"Level": 105,
+				"Tasks": {
+					"~|Ichtlarin's Little Helper|~ 1": "Quest"
+				},
 				"Weight": 12
 			},
 			"Stalker creatures": {
 				"Level": 71,
-				"Tasks": {},
+				"Tasks": {
+					"~|Dishonour among Thieves|~ Complete the quest": "Quest"
+				},
 				"Weight": 8
 			},
 			"Steel dragons": {
+				"Tasks": {
+					"~|Dragon Slayer|~ Complete the quest": "Quest"
+				},
 				"Weight": 9
 			},
 			"Tormented demons": {
-				"Tasks": {},
+				"Tasks": {
+					"~|While Guthix Sleeps|~ Complete the quest": "Quest"
+				},
 				"Weight": 8
 			},
 			"TzHaar": {
@@ -389972,34 +390596,64 @@
 			},
 			"Vyrewatch": {
 				"Level": 31,
-				"Tasks": {},
+				"Tasks": {
+					"~|The Branches of Darkmeyer|~ Complete the quest": "Quest"
+				},
 				"Weight": 7
 			},
 			"Waterfiend": {
+				"Tasks": {
+					"~|What Lies Below|~ Complete the quest": "Quest"
+				},
 				"Weight": 9
 			}
 		},
 		"Laniakea": {
 			"Abyssal demons": {
 				"Level": 85,
+				"Tasks": {
+					"Gain access to Morytania": "Nonskill"
+				},
 				"Weight": 10
 			},
 			"Acheron mammoths": {
 				"Level": 95,
+				"CombatLevel": 100,
 				"Weight": 8
 			},
 			"Adamant dragons": {
+				"CombatLevel": 95,
+				"Tasks": {
+					"~|Dragon Slayer|~ Complete the quest": "Quest"
+				},
 				"Weight": 8
 			},
 			"Airut": {
 				"Level": 92,
+				"CombatLevel": 100,
 				"Weight": 10
 			},
 			"Aquanites": {
 				"Level": 78,
 				"Weight": 10
 			},
+			"Armoured phantoms": {
+				"Level": 113,
+				"Tasks": {
+					"~|Unwelcome Guests|~ Complete the quest": "Quest"
+				},
+				"Weight": 8
+			},
+			"Ascension members": {
+				"Level": 81,
+				"CombatLevel": 105,
+				"Weight": 10
+			},
 			"Aviansie": {
+				"CombatLevel": 70,
+				"Tasks": {
+					"Access the God Wars Dungeon[+]": "Nonskill"
+				},
 				"Weight": 9
 			},
 			"Black demons": {
@@ -390008,38 +390662,66 @@
 			"Black dragons": {
 				"Weight": 5
 			},
-			"Camel Warriors": {
+			"Camel warriors": {
 				"Level": 96,
+				"CombatLevel": 100,
 				"Weight": 8
 			},
 			"Celestial dragon": {
-				"Tasks": {},
+				"Tasks": {
+					"~|One of a Kind|~ Complete the quest": "Quest"
+				},
 				"Weight": 10
 			},
 			"Chaos giants": {
-				"Tasks": {},
+				"Tasks": {
+					"~|Birthright of the Dwarves|~ Complete the quest": "Quest"
+				},
 				"Weight": 8
 			},
 			"Corrupted creatures": {
 				"Level": 88,
+				"Tasks": {
+					"~|Icthlarin's Little Helper|~ 1": "Quest"
+				},
 				"Weight": 10
 			},
 			"Creatures of Daemonheim": {
 				"Weight": 4
 			},
+			"Creatures of the Lost Grove": {
+				"Level": 104,
+				"Weight": 12
+			},
 			"Cres' creations": {
 				"Level": 67,
+				"CombatLevel": 100,
+				"Tasks": {
+					"~|Ritual of the Mahjarrat|~ Complete the quest": "Quest",
+					"~|The Firemaker's Curse|~ Complete the quest": "Quest",
+					"~|The Branches of Darkmeyer|~ Complete the quest": "Quest",
+					"~|The Chosen Commander|~ Complete the quest": "Quest"
+				},
 				"Weight": 8
 			},
 			"Crystal shapeshifters": {
 				"Level": 80,
+				"Tasks": {
+					"~|The Light Within|~ Complete the quest": "Quest"
+				},
 				"Weight": 12
 			},
 			"Dagannoth": {
+				"Tasks": {
+					"~|Horror from the Deep|~ Complete the quest": "Quest"
+				},
 				"Weight": 10
 			},
 			"Dark beasts": {
 				"Level": 90,
+				"Tasks": {
+					"~|Mourning's End Part II|~ 2": "Quest"
+				},
 				"Weight": 12
 			},
 			"Demons": {
@@ -390054,16 +390736,26 @@
 			},
 			"Edimmu": {
 				"Level": 90,
+				"CombatLevel": 110,
 				"Skills": {
 					"Dungeoneering": 115
+				},
+				"Tasks": {
+					"~|Plague's End|~ Complete the quest": "Quest"
 				},
 				"Weight": 10
 			},
 			"Elves": {
+				"Tasks": {
+					"~|Plague's End|~ Complete the quest": "Quest"
+				},
 				"Weight": 12
 			},
 			"Ganodermic creatures": {
 				"Level": 95,
+				"Skills": {
+					"Magic": 60
+				},
 				"Weight": 7
 			},
 			"Gargoyles": {
@@ -390073,12 +390765,15 @@
 			"Gemstone dragons": {
 				"Level": 95,
 				"Tasks": {
+					"~|Shilo Village|~ Complete the quest": "Quest",
 					"~|Karamja Achievements#Hard|~ Complete the Hard Achievements": "Diary"
 				},
 				"Weight": 10
 			},
 			"Glacor": {
-				"Tasks": {},
+				"Tasks": {
+					"~|Ritual of the Mahjarrat|~ Complete the quest": "Quest"
+				},
 				"Weight": 8
 			},
 			"Greater demons": {
@@ -390086,14 +390781,23 @@
 			},
 			"Ice strykewyrms": {
 				"Items": ["Fire cape"],
+				"Tasks": {
+					"~|The Tale of the Muspah|~ Complete the quest": "Quest"
+				},
 				"Level": 93,
 				"Weight": 8
 			},
 			"Iron dragons": {
+				"Tasks": {
+					"~|Dragon Slayer|~ Complete the quest": "Quest"
+				},
 				"Weight": 7
 			},
 			"Kal'gerion demons": {
 				"Level": 90,
+				"Skills": {
+					"Dungeoneering": 90
+				},
 				"Weight": 5
 			},
 			"Kalphites": {
@@ -390105,66 +390809,97 @@
 			},
 			"Living wyverns": {
 				"Level": 96,
+				"CombatLevel": 100,
 				"Weight": 8
 			},
-			"Lost Grove creature": {
-				"Level": 104,
-				"Weight": 12
-			},
 			"Mithril dragons": {
+				"CombatLevel": 90,
+				"Tasks": {
+					"~|Dragon Slayer|~ Complete the quest": "Quest"
+				},
+				"Chunks": ["Ancient Cavern"],
 				"Weight": 8
 			},
 			"Muspah": {
 				"Level": 76,
-				"Tasks": {},
+				"Tasks": {
+					"~|Fate of the Gods|~ Complete the quest": "Quest"
+				},
 				"Weight": 10
 			},
 			"Mutated jadinkos": {
 				"Level": 80,
+				"CombatLevel": 90,
 				"Weight": 8
 			},
 			"Nightmare creatures": {
 				"Level": 80,
-				"Tasks": {},
+				"Tasks": {
+					"~|Children of Mah|~ Complete the quest": "Quest"
+				},
 				"Weight": 8
 			},
 			"Nihil": {
 				"Level": 76,
+				"Tasks": {
+					"~|Fate of the Gods|~ Complete the quest": "Quest"
+				},
 				"Weight": 10
 			},
 			"Nodon dragonkin": {
 				"Level": 92,
 				"Weight": 8
 			},
-			"Order of ascension members": {
-				"Level": 81,
-				"Weight": 10
-			},
 			"Profane Scabarites": {
 				"Level": 87,
 				"Weight": 5
 			},
-			"Ripper Demons": {
+			"Ripper demons": {
 				"Level": 96,
+				"CombatLevel": 100,
+				"Weight": 8
+			},
+			"Risen ghosts": {
+				"Level": 85,
+				"Tasks": {
+					"~|Unwelcome Guests|~ Complete the quest": "Quest"
+				},
 				"Weight": 8
 			},
 			"Rune dragons": {
-				"Tasks": {},
+				"CombatLevel": 100,
+				"Tasks": {
+					"~|Fate of the Gods|~ Complete the quest": "Quest",
+					"~|Ritual of the Mahjarrat|~ Complete the quest": "Quest",
+					"~|Dragon Slayer|~ Complete the quest": "Quest"
+				},
 				"Weight": 8
 			},
 			"Shadow creatures": {
+				"CombatLevel": 100,
+				"Tasks": {
+					"~|Plague's End|~ Complete the quest": "Quest"
+				},
 				"Weight": 10
 			},
 			"Soul devourers": {
 				"Level": 105,
+				"Tasks": {
+					"~|Icthlarin's Little Helper|~ 1": "Quest"
+				},
 				"Weight": 12
 			},
 			"Stalker creatures": {
 				"Level": 71,
-				"Tasks": {},
+				"Tasks": {
+					"~|Dishonour among Thieves|~ Complete the quest": "Quest"
+				},
 				"Weight": 8
 			},
 			"Steel dragons": {
+				"Tasks": {
+					"~|Dragon Slayer|~ Complete the quest": "Quest"
+				},
 				"Weight": 9
 			},
 			"Strykewyrms": {
@@ -390172,7 +390907,9 @@
 				"Weight": 4
 			},
 			"Tormented demons": {
-				"Tasks": {},
+				"Tasks": {
+					"~|While Guthix Sleeps|~ Complete the quest": "Quest"
+				},
 				"Weight": 8
 			},
 			"Undead": {
@@ -390184,7 +390921,9 @@
 			},
 			"Vyrewatch": {
 				"Level": 31,
-				"Tasks": {},
+				"Tasks": {
+					"~|The Branches of Darkmeyer|~ Complete the quest": "Quest"
+				},
 				"Weight": 7
 			}
 		},
@@ -390249,6 +390988,9 @@
 			},
 			"Kal'gerion demons": {
 				"Chunks": ["13116"],
+				"Skills": {
+					"Dungeoneering": 90
+				},
 				"Weight": 6
 			},
 			"Lava strykewyrms": {
@@ -390270,7 +391012,7 @@
 				"Chunks": ["Forinthry Dungeon"],
 				"Weight": 6
 			},
-			"Ripper Demons": {
+			"Ripper demons": {
 				"Level": 96,
 				"Chunks": ["WildyRipperDemon[+]"],
 				"Weight": 8

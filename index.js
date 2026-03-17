@@ -9411,7 +9411,7 @@ let calculateSlayerTasks = function() {
         'Chaeldar': 'Receive a slayer assignment from ~|Chaeldar|~',
 		'The Raptor': 'Receive a slayer assignement from ~|The Raptor|~',
         'Sumona': 'Receive a slayer assignment from ~|Sumona|~',
-		'Death': 'Receive a ~|Reaper assigmnet|~',
+		'Death': 'Receive a ~|Reaper assignment|~',
         'Duradel/Lapalok': 'Receive a slayer assignment from ~|Duradel|~',
         'Kuradal': 'Receive a slayer assignment from ~|Kuradal|~',
         'Morvran': 'Receive a slayer assignment from ~|Morvran|~',
@@ -9421,7 +9421,7 @@ let calculateSlayerTasks = function() {
     $(`.Slayer-body .row, .Slayer-body .slayer-table-wrapper`).remove();
     $(`.Slayer-body .slayer-section-2`).append(`<div class='noscroll slayer-table-wrapper'></div>`);
     $(`.Slayer-body .slayer-table-wrapper`).append(`<div class='noscroll row row-header'><span class='noscroll master-table-header'>Slayer Master</span><span class='noscroll tasks-table-header'>Possible Tasks</span><span class='noscroll info-table-header'>Info</span></div>`);
-    prevValueLevelInput['Combat'] = ((prevValueLevelInput['Combat'] || 3) > 138) ? 138 : (((prevValueLevelInput['Combat'] || 3) < 3) ? 3 : (prevValueLevelInput['Combat'] || 3));
+    prevValueLevelInput['Combat'] = ((prevValueLevelInput['Combat'] || 3) > 152) ? 152 : (((prevValueLevelInput['Combat'] || 3) < 3) ? 3 : (prevValueLevelInput['Combat'] || 3));
     prevValueLevelInput['Slayer'] = ((prevValueLevelInput['Slayer'] || 1) > 120) ? 120 : (((prevValueLevelInput['Slayer'] || 1) < 1) ? 1 : (prevValueLevelInput['Slayer'] || 1));
     prevValueLevelInput['ignoreCombatLevel'] = $(`.ignore-combat-level-input`).is(":checked");
     prevValueLevelInput['krystiliaSlayerCreatures'] = $(`.krystilia-slayer-creatures-input`).is(":checked");
