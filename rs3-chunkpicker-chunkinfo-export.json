@@ -122470,6 +122470,9 @@
 				"Description": "Unlock all non-cosmetic Hunter upgrades from Dundee's Shop.",
 				"BaseQuest": "Completionist achievements",
 				"NPCs": ["HetCrocodile[+]", "Plain whirligig"],
+				"Skills": {
+					"Hunter": 16
+				},
 				"Not F2P": true
 			},
 			"~|Completionist achievements#Completionist Cape|~ The Greatest Gift of All": {
@@ -123754,6 +123757,9 @@
 				"Description": "Unlock all Hunter upgrades from Dundee's Shop.",
 				"BaseQuest": "Completionist achievements",
 				"NPCs": ["HetCrocodile[+]", "Plain whirligig"],
+				"Skills": {
+					"Hunter": 16
+				},
 				"Not F2P": true
 			},
 			"~|Completionist achievements#Trimmed Completionist Cape|~ The Prodigal Spender": {
@@ -138685,6 +138691,9 @@
 				"Category": ["Permanent Unlockables"],
 				"Label": "Permanent Unlockables",
 				"Chunks": ["13362-1"],
+				"Requirements": {
+					"Hunter": 16
+				},
 				"Not F2P": true
 			},
 			"~|Innate Mastery|~: Ek-ZekKil": {
