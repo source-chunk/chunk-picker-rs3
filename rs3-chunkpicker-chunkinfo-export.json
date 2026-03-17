@@ -30296,7 +30296,7 @@
 				"Not F2P": true
 			},
 			"Obtain a ~|sneakerpeeper spawn|~": {
-				"Category": ["Pet"],
+				"Category": ["Pets"],
 				"Level": 80,
 				"NPCs": ["Rewards trader"],
 				"Primary": false,
@@ -30352,7 +30352,7 @@
 				"Not F2P": true
 			},
 			"Obtain a ~|Frosty|~ pet": {
-				"Category": ["Pet"],
+				"Category": ["Pets"],
 				"Level": 85,
 				"NPCs": ["Rewards trader"],
 				"Primary": false,
@@ -67559,7 +67559,7 @@
 				"NoBoost": true
 			},
 			"Obtain a ~|sneakerpeeper spawn|~": {
-				"Category": ["Pet"],
+				"Category": ["Pets"],
 				"Level": 80,
 				"NPCs": ["Rewards trader"],
 				"Primary": false,
@@ -67812,8 +67812,8 @@
 				"NoPet": true,
 				"NoBoost": true
 			},
-			"Obtain a ~|Frosty pet|~": {
-				"Category": ["Pet"],
+			"Obtain a ~|Frosty|~ pet": {
+				"Category": ["Pets"],
 				"Level": 99,
 				"NPCs": ["Rewards trader"],
 				"Primary": false,
@@ -135470,18 +135470,18 @@
 				"Items": ["Vanguard robe"]
 			},
 			"(Wilderness Uniques) Obtain an ~|obelisk shard|~": {
-				"Category": ["Untracked Uniques", "Untracked Uniques Minigames"],
-				"Label": "Untracked Minigame Uniques",
+				"Category": ["Untracked Uniques", "Untracked Uniques Skilling"],
+				"Label": "Untracked Skilling Uniques",
 				"Items": ["Obelisk shard"]
 			},
 			"(Wilderness Uniques) Obtain a ~|portable obelisk|~": {
-				"Category": ["Untracked Uniques", "Untracked Uniques Minigames"],
-				"Label": "Untracked Minigame Uniques",
+				"Category": ["Untracked Uniques", "Untracked Uniques Skilling"],
+				"Label": "Untracked Skilling Uniques",
 				"Items": ["Portable obelisk"]
 			},
 			"(Wilderness Uniques) Obtain a ~|dark onyx core|~": {
-				"Category": ["Untracked Uniques", "Untracked Uniques Minigames"],
-				"Label": "Untracked Minigame Uniques",
+				"Category": ["Untracked Uniques", "Untracked Uniques Skilling"],
+				"Label": "Untracked Skilling Uniques",
 				"Items": ["Dark onyx core"]
 			},
 			"(Shades of Mort'ton) Obtain a ~|shade skull|~": {
