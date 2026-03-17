@@ -46629,7 +46629,7 @@
 				"Primary": false,
 				"Priority": 3
 			},
-			"Build a ~|Plank Maker (machine)|~": {
+			"Build a ~|plank maker (machine)|~": {
 				"Items": ["Saw*", "Direct components*", "Simple parts*", "Crafted parts*"],
 				"Chunks": ["Invention Guild"],
 				"Level": 99,
@@ -46819,7 +46819,7 @@
 				"Output": "Equipment separator",
 				"Priority": 1
 			},
-			"Build a ~|high capacity Plank Maker|~": {
+			"Build a ~|high capacity plank maker|~": {
 				"Items": ["Precise components*", "Sharp components*", "Living components*", "Crafted parts*"],
 				"Chunks": ["Invention Guild"],
 				"Level": 117,
@@ -181740,7 +181740,7 @@
 				"The Raptor": 1,
 				"Dreaming soul": 4,
 				"Waylan's soul": 2,
-				"Plank Maker": 1,
+				"Plank maker": 1,
 				"Seasinger Jemi": 1,
 				"Peter": 1,
 				"King Slime": 1
@@ -219117,7 +219117,7 @@
 			"HetCrocodile[+]": ["Chito", "Frito"],
 			"Master Farmer[+]": ["Master Farmer", "Martin the Master Gardener"],
 			"WildernessCapeSellers[+]": ["William", "Darren", "Edmond (cape merchant)", "Ian (cape merchant)", "Neil", "Sam (cape merchant)", "Simon"],
-			"SawmillOperator[+]": ["Sawmill operator (Prifddinas)", "Plank Maker"],
+			"SawmillOperator[+]": ["Sawmill operator (Prifddinas)", "Plank maker"],
 			"StrengthMaster[+]": ["Sloane", "Yadech Strongarm"],
 			"Tanner[+]": ["Tanner", "Ellis", "Sbott", "Tanya Hyde", "Leatherworker"],
 			"Tool leprechaun[+]": ["Tool leprechaun", "Tool leprechaun (Herblore Habitat)", "Hemlock", "Nhitpyx"],
@@ -219147,7 +219147,7 @@
 			"HetCrocodile[+]": "Either crocodile at Het's oasis",
 			"Master Farmer[+]": "Any master farmer",
 			"WildernessCapeSellers[+]": "Any wilderness cape seller",
-			"SawmillOperator[+]": "Any Plank Makers",
+			"SawmillOperator[+]": "Any plank makers",
 			"StrengthMaster[+]": "Sloane or his replacement",
 			"Tanner[+]": "Any hide tanner",
 			"Tool leprechaun[+]": "Any leprechaun that can take you to Vinesweeper",
