@@ -70142,7 +70142,7 @@
 			},
 			"Chop with an ~|orikalkum hatchet|~": {
 				"Items": ["Orikalkum hatchet"],
-				"Level": 6,
+				"Level": 60,
 				"Objects": ["Tree[+]"],
 				"Primary": false,
 				"Priority": 2,
@@ -219986,11 +219986,6 @@
 				"Dagannoth Rex": true,
 				"Dagannoth Supreme": true
 			},
-			"Dagannoth Kings": {
-				"Dagannoth Rex": true,
-				"Dagannoth Prime": true,
-				"Dagannoth Supreme": true
-			},
 			"Dark beasts": {
 				"Dark beast": true,
 				"Revenant dark beast": true
@@ -220378,14 +220373,6 @@
 				"Lava strykewyrm": true,
 				"WildyWyrm": true
 			},
-			"Legiones": {
-				"Legio Primus": true,
-				"Legio Secundus": true,
-				"Legio Tertius": true,
-				"Legio Quartus": true,
-				"Legio Quintus": true,
-				"Legio Sextus": true
-			},
 			"Lesser demons": {
 				"Lesser demon (Melzar's Maze)": true,
 				"Lesser demon (Wizards' Tower)": true,
@@ -220511,12 +220498,6 @@
 				"Revenant dark beast": true,
 				"Revenant knight": true,
 				"Revenant dragon": true
-			},
-			"Rex Matriarchs": {
-				"Orikalka": true,
-				"Rathis": true,
-				"Pthentraken": true,
-				"Osseous": true
 			},
 			"Ripper demons": {
 				"Ripper Demon": true,
@@ -220926,6 +220907,167 @@
 				"Undead witch": true,
 				"Edimmu": true,
 				"Small scarab": true
+			}
+		},
+		"reaperTasks": {
+			"Amascut, the Devourer": {
+				"Amascut, the Devourer": true
+			},
+			"The Ambassador": {
+				"The Ambassador": true
+			},
+			"Araxxor": {
+				"Araxxor": true,
+				"Araxxi": true
+			},
+			"Arch-Glacor": {
+				"Arch-Glacor": true,
+				"Arch-Glacor (Hard Mode)": true
+			},
+			"Barrows": {
+				"Barrows": true
+			},
+			"Barrows: Rise of the Six": {
+				"Barrows: Rise of the Six": true
+			},
+			"Black stone dragon": {
+				"Black stone dragon": true
+			},
+			"Chaos Elemental": {
+				"Chaos Elemental": true
+			},
+			"Commander Zilyana": {
+				"Commander Zilyana": true,
+				"Commander Zilyana (Hard Mode)": true
+			},
+			"Croesus": {
+				"Croesus": true
+			},
+			"Dagannoth Kings": {
+				"Dagannoth Rex": true,
+				"Dagannoth Prime": true,
+				"Dagannoth Supreme": true
+			},
+			"Flesh-hatcher Mhekarnahz": {
+				"Flesh-hatcher Mhekarnahz": true
+			},
+			"The Gate of Elidinis": {
+				"The Gate of Elidinis": true
+			},
+			"General Graador": {
+				"General Graador": true,
+				"General Graador (Hard Mode)": true
+			},
+			"Giant mole": {
+				"Giant mole (Hard Mode)": true,
+				"Giant mole": true
+			},
+			"Gregorovic": {
+				"Gregorovic": true,
+				"Gregorovic (Hard Mode)": true
+			},
+			"Har-Aken": {
+				"Har-Aken": true
+			},
+			"Helwyr": {
+				"Helwyr": true,
+				"Helwyr (Hard Mode)": true
+			},
+			"Hermod, the Spirit of War": {
+				"Hermod, the Spirit of War": true
+			},
+			"Kalphite King": {
+				"Kalphite King": true
+			},
+			"Kalphite Queen": {
+				"Kalphite Queen": true
+			},
+			"Kerapac, the bound": {
+				"Kerapac, the bound": true,
+				"Kerapac, the bound (Hard Mode)": true
+			},
+			"King Black Dragon": {
+				"King Black Dragon": true
+			},
+			"Kree'arra": {
+				"Kree'arra": true,
+				"Kree'arra (Hard Mode)": true
+			},
+			"K'ril Tsutsaroth": {
+				"K'ril Tsutsaroth": true,
+				"K'ril Tsutsaroth (Hard Mode)": true
+			},
+			"Legiones": {
+				"Legio Primus": true,
+				"Legio Secundus": true,
+				"Legio Tertius": true,
+				"Legio Quartus": true,
+				"Legio Quintus": true,
+				"Legio Sextus": true
+			},
+			"The Magister": {
+				"The Magister": true
+			},
+			"Nakatra, Devourer Eternal": {
+				"Nakatra, Devourer Eternal (Hard Mode)": true,
+				"Nakatra, Devourer Eternal": true
+			},
+			"Nex": {
+				"Nex": true
+			},
+			"Nex, Angel of Death": {
+				"Nex, Angel of Death": true
+			},
+			"Queen Black Dragon": {
+				"Queen Black Dragon": true
+			},
+			"Raksha, the Shadow Colossus": {
+				"Raksha, the Shadow Colossus": true
+			},
+			"Rasial, the First Necromancer": {
+				"Rasial, the First Necromancer": true
+			},
+			"Rex Matriarchs": {
+				"Orikalka": true,
+				"Rathis": true,
+				"Pthentraken": true,
+				"Osseous": true
+			},
+			"Seiryu the Azure Serpent": {
+				"Seiryu the Azure Serpent": true
+			},
+			"Solak, Guardian of the Grove": {
+				"Solak, Guardian of the Grove": true
+			},
+			"Telos, the Warden": {
+				"Telos, the Warden": true
+			},
+			"The Twin Furies": {
+				"Twin Furies": true,
+				"Twin Furies (Hard Mode)": true
+			},
+			"TzKal-Zuk": {
+				"TzKal-Zuk": true,
+				"TzKal-Zuk (Hard Mode)": true
+			},
+			"TzTok-Jad": {
+				"TzTok-Jad": true
+			},
+			"Vindicta & Gorvek": {
+				"Vindicta": true,
+				"Vindicta (Hard Mode)": true
+			},
+			"Vorago": {
+				"Vorago": true,
+				"Vorago (Hard Mode)": true
+			},
+			"Zamorak, Lord of Chaos": {
+				"Zamorak, Lord of Chaos": true
+			},
+			"Zemouregal & Vorkath": {
+				"Zemouregal & Vorkath (Story Mode)": true,
+				"Zemouregal & Vorkath": true,
+				"Zemouregal & Vorkath (Hard Mode)": true
 			}
 		},
 		"slayerTaskChunks": {},
@@ -389742,7 +389884,7 @@
 				},
 				"Weight": 1
 			},
-			"Twin Furies": {
+			"The Twin Furies": {
 				"CombatLevel": 110,
 				"Skills": {
 					"Ranged": 80
@@ -389757,7 +389899,7 @@
 				"CombatLevel": 85,
 				"Weight": 1
 			},
-			"Vindicta": {
+			"Vindicta & Gorvek": {
 				"CombatLevel": 110,
 				"Skills": {
 					"Attack": 80

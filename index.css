@@ -5196,6 +5196,10 @@ input#searchChunkSections {
     color: var(--colorLink);
 }
 
+.slayer-locking-reaper-task a {
+    color: var(--colorLink);
+}
+
 .slayer-locked-data > div {
     float: right;
     margin-right: 10px;
@@ -5209,7 +5213,7 @@ input#searchChunkSections {
     width: 200px;
 }
 
-#slayer-locked-level-input, #slayer-locked-task-dropdown {
+#slayer-locked-level-input, #slayer-locked-task-dropdown, #slayer-locked-reaper-task-dropdown {
     font-size: 20px;
 }
 
