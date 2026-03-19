@@ -3860,8 +3860,6 @@ let calcChallengesWork = function(chunks, baseChunkData, oldTempItemSkill) {
                 }
             }
             if (chunkInfo['challenges'][skill][name].hasOwnProperty('TotalLevelNeeded')) {
-                console.log(chunkInfo['challenges'][skill][name]['TotalLevelNeeded']);
-				console.log(possibleSkillTotal);
 				if (possibleSkillTotal < chunkInfo['challenges'][skill][name]['TotalLevelNeeded']) {
                     validChallenge = false;
                     wrongThings.push('True Total Level');
