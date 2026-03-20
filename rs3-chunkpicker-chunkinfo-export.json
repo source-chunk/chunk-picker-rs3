@@ -148621,12 +148621,6 @@
 				},
 				"UnlocksArea": true
 			},
-			"The Arc": {
-				"Tasks": {
-					"~|Impressing the Locals|~ Complete the quest": "Quest"
-				},
-				"UnlocksArea": true
-			},
 			"Shifting Tombs": {
 				"Tasks": {
 					"~|The Jack of Spades|~ 3": "Quest"	
@@ -148902,6 +148896,19 @@
 					"Enter the ~|Asuran Arsenal|~": "Thieving"
 				}
 			},
+			
+			"Aminishi Spirit Realm": {
+				"UnlocksArea": true,
+				"Tasks": {
+					"~|Spiritual Enlightenment|~ 2": "Quest"
+				}
+			},
+			"Uncharted Isles": {
+				"UnlocksArea": true,
+				"Category": ["Uncharted"],
+				"NPCs": ["Rosie (supplies)"]
+			},
+			
 			"Zanaris to 8752-4": {
 				"Sections": ["Zanaris", "8752-4"],
 				"Tasks": {
@@ -148942,6 +148949,16 @@
 				"ConnectsSections": true,
 				"Not F2P": true
 			},
+			
+			"-16-1 to -16-2": {
+				"Sections": ["-16-1", "-16-2"],
+				"Tasks": {
+					"~|Curse of the Black Stone|~ 5": "Quest"
+				},
+				"ConnectsSections": true,
+				"Not F2P": true
+			},
+			
 			"Paterdomus to 13622-2": {
 				"Sections": ["Paterdomus", "13622-2"],
 				"ConnectsSections": true,
@@ -153451,6 +153468,49 @@
 			"Open a bundle of gems": {
 				"Items": ["Bundle of gems"],
 				"Output": "Bundle of gems loot"
+			},
+			"Open a casket": {
+				"Items": ["Casket"],
+				"Output": "Casket loot"
+			},
+			"Open a treasure chest on an Uncharted Isle": {
+				"Chunks": ["Uncharted Isles"],
+				"Output": "Treasure chest (Uncharted Isles)"
+			},
+			"Pick up items on an Uncharted Isle": {
+				"Chunks": ["Uncharted Isles"],
+				"Output": "Washed ashore loot"
+			},
+			"Unlock the Waiko ~|seasinger|~ scrolls": {
+				"Category": ["Timegated"],
+				"Skills": {
+					"Runecrafting": 90
+				}
+			},
+			"Unlock the Waiko ~|tetsu|~ scrolls": {
+				"Category": ["Timegated"],
+				"Skills": {
+					"Smithing": 90
+				}
+			},
+			"Unlock the Waiko ~|Death Lotus|~ scrolls": {
+				"Category": ["Timegated"],
+				"Skills": {
+					"Crafting": 90
+				}
+			},
+			"Unlock the Waiko ~|scrimshaw|~ scrolls": {
+				"Category": ["Timegated"],
+				"Skills": {
+					"Divination": 80
+				}
+			},
+			"Collect Ports scrolls": {
+				"Category": ["Ports Scrolls"],
+				"Chunks": ["Player-Owned Port"]
+			},
+			"Obtain Seiryu's claw": {
+				"Items": ["Seiryu's claw"]
 			},
 			"Receive an omni-talisman from Wizard Elriss": {
 				"NPCs": ["Wizard Elriss"],
@@ -159660,115 +159720,115 @@
 				"Not F2P": true
 			},
 			"First island, south of the tortle portal, right by the docks.": {
-				"Chunks": ["The Arc"],
+				"Chunks": ["-20"],
 				"ClueTier": "master",
 				"ClueType": "Scan",
 				"Not F2P": true
 			},
 			"First island, south inside the encampment.": {
-				"Chunks": ["The Arc"],
+				"Chunks": ["-20"],
 				"ClueTier": "master",
 				"ClueType": "Scan",
 				"Not F2P": true
 			},
 			"First island, centre inside the encampment, two paces south of a barrel.": {
-				"Chunks": ["The Arc"],
+				"Chunks": ["-20"],
 				"ClueTier": "master",
 				"ClueType": "Scan",
 				"Not F2P": true
 			},
 			"First island, just outside the broken lighthouse.": {
-				"Chunks": ["The Arc"],
+				"Chunks": ["-20-1"],
 				"ClueTier": "master",
 				"ClueType": "Scan",
 				"Not F2P": true
 			},
 			"First island, in the middle of west coast of the island.": {
-				"Chunks": ["The Arc"],
+				"Chunks": ["-20"],
 				"ClueTier": "master",
 				"ClueType": "Scan",
 				"Not F2P": true
 			},
 			"First island, in the southern part of the east coast east of the southern gate.": {
-				"Chunks": ["The Arc"],
+				"Chunks": ["-20"],
 				"ClueTier": "master",
 				"ClueType": "Scan",
 				"Not F2P": true
 			},
 			"First island, in the middle of the east coast and south-east of the watchtower.": {
-				"Chunks": ["The Arc"],
+				"Chunks": ["-20"],
 				"ClueTier": "master",
 				"ClueType": "Scan",
 				"Not F2P": true
 			},
 			"First island, in the middle of the east coast and north-east of the watchtower.": {
-				"Chunks": ["The Arc"],
+				"Chunks": ["-20"],
 				"ClueTier": "master",
 				"ClueType": "Scan",
 				"Not F2P": true
 			},
 			"First island, northernmost coast, south of mushroom cluster.": {
-				"Chunks": ["The Arc"],
+				"Chunks": ["-21-1"],
 				"ClueTier": "master",
 				"ClueType": "Scan",
 				"Not F2P": true
 			},
 			"Second island, on east coast of island, north-east of the tortle portal from the first island.": {
-				"Chunks": ["The Arc"],
+				"Chunks": ["-22"],
 				"ClueTier": "master",
 				"ClueType": "Scan",
 				"Not F2P": true
 			},
 			"Second island, south-east of Halia (divine merchant), and four paces east of the southern of the two palm trees.": {
-				"Chunks": ["The Arc"],
+				"Chunks": ["-22"],
 				"ClueTier": "master",
 				"ClueType": "Scan",
 				"Not F2P": true
 			},
 			"South-east of Halia (divine merchant).": {
-				"Chunks": ["The Arc"],
+				"Chunks": ["-22"],
 				"ClueTier": "master",
 				"ClueType": "Scan",
 				"Not F2P": true
 			},
 			"Second island, south-east of the volcano near the teleport to the third island.": {
-				"Chunks": ["The Arc"],
+				"Chunks": ["-22"],
 				"ClueTier": "master",
 				"ClueType": "Scan",
 				"Not F2P": true
 			},
 			"Second island, south-west of Halia.": {
-				"Chunks": ["The Arc"],
+				"Chunks": ["-22"],
 				"ClueTier": "master",
 				"ClueType": "Scan",
 				"Not F2P": true
 			},
 			"Third island, between the portals.": {
-				"Chunks": ["The Arc"],
+				"Chunks": ["-23"],
 				"ClueTier": "master",
 				"ClueType": "Scan",
 				"Not F2P": true
 			},
 			"Third island, north-west of mushroom cluster.": {
-				"Chunks": ["The Arc"],
+				"Chunks": ["-23"],
 				"ClueTier": "master",
 				"ClueType": "Scan",
 				"Not F2P": true
 			},
 			"Third island, south-west corner by the palm tree.": {
-				"Chunks": ["The Arc"],
+				"Chunks": ["-23"],
 				"ClueTier": "master",
 				"ClueType": "Scan",
 				"Not F2P": true
 			},
 			"Third island, three paces south of the southern edge of the mushroom cluster.": {
-				"Chunks": ["The Arc"],
+				"Chunks": ["-23"],
 				"ClueTier": "master",
 				"ClueType": "Scan",
 				"Not F2P": true
 			},
 			"Third island, north-east of the dead moai.": {
-				"Chunks": ["The Arc"],
+				"Chunks": ["-23"],
 				"ClueTier": "master",
 				"ClueType": "Scan",
 				"Not F2P": true
@@ -160194,187 +160254,187 @@
 				"Not F2P": true
 			},
 			"Up the first stairway, by the statue near the sotapanna.": {
-				"Chunks": ["The Arc"],
+				"Chunks": ["-28-1"],
 				"ClueTier": "master",
 				"ClueType": "Compass",
 				"Not F2P": true
 			},
 			"East of Ling on the beach, three paces east of the south-eastern corner of the campfire.": {
-				"Chunks": ["The Arc"],
+				"Chunks": ["-28-1"],
 				"ClueTier": "master",
 				"ClueType": "Compass",
 				"Not F2P": true
 			},
 			"South of the Well of Spirits.": {
-				"Chunks": ["The Arc"],
+				"Chunks": ["-29-1"],
 				"ClueTier": "master",
 				"ClueType": "Compass",
 				"Not F2P": true
 			},
 			"South of the entrance to the Temple of Aminishi.": {
-				"Chunks": ["The Arc"],
+				"Chunks": ["-30-1"],
 				"ClueTier": "master",
 				"ClueType": "Compass",
 				"Not F2P": true
 			},
 			"South of the rock where the Aminishi moai is located before completing Head of the Family (miniquest).": {
-				"Chunks": ["The Arc"],
+				"Chunks": ["-30-2"],
 				"ClueTier": "master",
 				"ClueType": "Compass",
 				"Not F2P": true
 			},
 			"On the beach where the salty crabletines are located, in between four palm trees.": {
-				"Chunks": ["The Arc"],
+				"Chunks": ["-27-1"],
 				"ClueTier": "master",
 				"ClueType": "Compass",
 				"Not F2P": true
 			},
 			"Right next to Odd Billy.": {
-				"Chunks": ["The Arc"],
+				"Chunks": ["-26-1"],
 				"ClueTier": "master",
 				"ClueType": "Compass",
 				"Not F2P": true
 			},
 			"In the graveyard, east of the dead moai.": {
-				"Chunks": ["The Arc"],
+				"Chunks": ["-24"],
 				"ClueTier": "master",
 				"ClueType": "Compass",
 				"Not F2P": true
 			},
 			"On the south-eastern beach.": {
-				"Chunks": ["The Arc"],
+				"Chunks": ["-25-2"],
 				"ClueTier": "master",
 				"ClueType": "Compass",
 				"Not F2P": true
 			},
 			"At the stairs on Goshima.": {
-				"Chunks": ["The Arc"],
+				"Chunks": ["-16-2"],
 				"ClueTier": "master",
 				"ClueType": "Compass",
 				"Not F2P": true
 			},
 			"At the trees on Goshima.": {
-				"Chunks": ["The Arc"],
+				"Chunks": ["-15"],
 				"ClueTier": "master",
 				"ClueType": "Compass",
 				"Not F2P": true
 			},
 			"Next to dead druid south of the main pier.": {
-				"Chunks": ["The Arc"],
+				"Chunks": ["-15"],
 				"ClueTier": "master",
 				"ClueType": "Compass",
 				"Not F2P": true
 			},
 			"North of the stairs, two paces north-east of the upper part of the corpse.": {
-				"Chunks": ["The Arc"],
+				"Chunks": ["-16-2"],
 				"ClueTier": "master",
 				"ClueType": "Compass",
 				"Not F2P": true
 			},
 			"North side of the first island.": {
-				"Chunks": ["The Arc"],
+				"Chunks": ["-21-2"],
 				"ClueTier": "master",
 				"ClueType": "Compass",
 				"Not F2P": true
 			},
 			"North of the tortle portal on the second island.": {
-				"Chunks": ["The Arc"],
+				"Chunks": ["-22"],
 				"ClueTier": "master",
 				"ClueType": "Compass",
 				"Not F2P": true
 			},
 			"South-west of the boulder on the third island.": {
-				"Chunks": ["The Arc"],
+				"Chunks": ["-23"],
 				"ClueTier": "master",
 				"ClueType": "Compass",
 				"Not F2P": true
 			},
 			"South of the tower on the first island, by the skeletons.": {
-				"Chunks": ["The Arc"],
+				"Chunks": ["-21-1"],
 				"ClueTier": "master",
 				"ClueType": "Compass",
 				"Not F2P": true
 			},
 			"South-east of the dock stairs.": {
-				"Chunks": ["The Arc"],
+				"Chunks": ["-1"],
 				"ClueTier": "master",
 				"ClueType": "Compass",
 				"Not F2P": true
 			},
 			"South-west of the dock stairs.": {
-				"Chunks": ["The Arc"],
+				"Chunks": ["-1"],
 				"ClueTier": "master",
 				"ClueType": "Compass",
 				"Not F2P": true
 			},
 			"In the bamboo forest north of the junction between the temple and the rumberry bush field.": {
-				"Chunks": ["The Arc"],
+				"Chunks": ["-4"],
 				"ClueTier": "master",
 				"ClueType": "Compass",
 				"Not F2P": true
 			},
 			"Directly west of Azalea Oakheart and the gnomecopter.": {
-				"Chunks": ["The Arc"],
+				"Chunks": ["-4"],
 				"ClueTier": "master",
 				"ClueType": "Compass",
 				"Not F2P": true
 			},
 			"North of Waiko moai. Three paces west of the middle of the bench under the cherry blossom.": {
-				"Chunks": ["The Arc"],
+				"Chunks": ["-9"],
 				"ClueTier": "master",
 				"ClueType": "Compass",
 				"Not F2P": true
 			},
 			"On the beach north of Rosie (supplies). Right east of the green starfish.": {
-				"Chunks": ["The Arc"],
+				"Chunks": ["-11"],
 				"ClueTier": "master",
 				"ClueType": "Compass",
 				"Not F2P": true
 			},
 			"East of Khan's house.": {
-				"Chunks": ["The Arc"],
+				"Chunks": ["-12"],
 				"ClueTier": "master",
 				"ClueType": "Compass",
 				"Not F2P": true
 			},
 			"Southern beach, five paces east and three north of the green starfish.": {
-				"Chunks": ["The Arc"],
+				"Chunks": ["-13-1"],
 				"ClueTier": "master",
 				"ClueType": "Compass",
 				"Not F2P": true
 			},
 			"West of Ted and his campfire.": {
-				"Chunks": ["The Arc"],
+				"Chunks": ["-6"],
 				"ClueTier": "master",
 				"ClueType": "Compass",
 				"Not F2P": true
 			},
 			"In the shipwreck north of the tortle hunting spot. Two paces south-east of the entrance in the stern.": {
-				"Chunks": ["The Arc"],
+				"Chunks": ["-5"],
 				"ClueTier": "master",
 				"ClueType": "Compass",
 				"Not F2P": true
 			},
 			"East of the shipwreck on the far west of the island, west of the tortle hunting spot.": {
-				"Chunks": ["The Arc"],
+				"Chunks": ["-5"],
 				"ClueTier": "master",
 				"ClueType": "Compass",
 				"Not F2P": true
 			},
 			"South-west of the khan's house, just west of the moai stump.": {
-				"Chunks": ["The Arc"],
+				"Chunks": ["-6"],
 				"ClueTier": "master",
 				"ClueType": "Compass",
 				"Not F2P": true
 			},
 			"South of the pool in the middle of the island, on the grass.": {
-				"Chunks": ["The Arc"],
+				"Chunks": ["-6"],
 				"ClueTier": "master",
 				"ClueType": "Compass",
 				"Not F2P": true
 			},
 			"South-east of the easternmost house up against the fence.": {
-				"Chunks": ["The Arc"],
+				"Chunks": ["-7"],
 				"ClueTier": "master",
 				"ClueType": "Compass",
 				"Not F2P": true
@@ -163183,6 +163243,781 @@
 		}
 	},
 	"chunks": {
+		"-1": {
+			"Object": {
+				"Water barrel": 1
+			},
+			"NPC": {
+				"Quartermaster Gully": 1,
+				"Navigator Jemi": 1,
+				"Bosun Higgs": 1,
+				"Lookout Ekahi": 1,
+				"Flippers McGraw": 1
+			},
+			"Connect": {
+				"53": true
+			},
+			"Quest": {
+				"Tuai Leit's Own (miniquest)": "first",
+				"Harbinger (miniquest)": "step"
+			},
+			"Clue": {
+				"master": 2
+			},
+			"Nickname": "Tuai Leit Dock"
+		},
+		"-2": {
+			"Nickname": "Tuai Leit East Shore"
+		},
+		"-3": {
+			"Object": {
+				"Bank chest": 1,
+				"Berry planter": 2
+			},
+			"NPC": {
+				"Alder (bamboo merchant)": 1,
+				"Sensei Hakase": 1,
+				"Name": 1
+			},
+			"Shop": {
+				"Big Bada Bamboo": true
+			},
+			"Quest": {
+				"Tuai Leit's Own (miniquest)": "step"
+			},
+			"Nickname": "Berry Planter"
+		},
+		"-4": {
+			"Object": {
+				"Water barrel": 1,
+				"Bamboo (tree)": 2,
+				"Inferior bamboo": 5,
+				"Rumberry bush": 10,
+				"Tuai Leit moai": 1
+			},
+			"NPC": {
+				"Terri (fruit merchant)": 1,
+				"Ani (farming merchant)": 1,
+				"Sensei Seaworth": 1,
+				"Keri": 1,
+				"Cheri": 1,
+				"Gnome colonist": 4,
+				"Tuai Leit Toucan": 4,
+				"Azalea Oakheart": 1
+			},
+			"Shop": {
+				"Ani's Seed Store by the Sea Shore": true,
+				"Spirited Away": true,
+				"Terri's Merry Berry Bar": true
+			},
+			"Spawn": {
+				"Tuai Leit Toucan": 1
+			},
+			"Quest": {
+				"Tuai Leit's Own (miniquest)": "step",
+				"Curse of the Black Stone": "step"
+			},
+			"Clue": {
+				"master": 3
+			},
+			"Nickname": "Tuai Leit Gnome Colony"
+		},
+		
+		"-5": {
+			"Object": {
+				"Sand": 4
+			},
+			"NPC": {
+				"Tortle": 24,
+				"Sea Witch Kaula": 1
+			},
+			"Quest": {
+				"Jed Hunter (miniquest)": "step",
+				"Head of the Family (miniquest)": "step",
+				"Curse of the Black Stone": "step"
+			},
+			"Clue": {
+				"master": 2
+			},
+			"Nickname": "Tortle Hunter Area"
+		},
+		"-6": {
+			"Object": {
+				"Water barrel": 1,
+				"Fishing spot (Whale's Maw)": 6,
+				"Camp fire": 1,
+				"Message in a bottle (The Goon Docks)": 1
+			},
+			"NPC": {
+				"Quartermaster Gully": 1,
+				"Navigator Jemi": 1,
+				"Bosun Higgs": 1,
+				"Lookout Ekahi": 1,
+				"Flippers McGraw": 1,
+				"Ted (Whale's Maw)": 1
+			},
+			"Connect": {
+				"53": true
+			},
+			"Clue": {
+				"master": 3
+			},
+			"Nickname": "Whale's Maw Dock"
+		},
+		"-7": {
+			"Object": {
+				"Fishing spot (Whale's Maw)": 5,
+				"Deposit box": 1
+			},
+			"NPC": {
+				"Hubbub (contracts)": 1
+			},
+			"Spawn": {
+				"Crested Sillago Snatcher": 1
+			},
+			"Clue": {
+				"master": 1
+			},
+			"Nickname": "East Whale's Maw"
+		},
+		
+		"-8": {
+			"Object": {
+				"Water barrel": 1
+			},
+			"NPC": {
+				"Waiko islander": 6,
+				"Quartermaster Gully": 1,
+				"Navigator Jemi": 1,
+				"Bosun Higgs": 1,
+				"Lookout Ekahi": 1,
+				"Flippers McGraw": 1
+			},
+			"Connect": {
+				"53": true
+			},
+			"Quest": {
+				"Jed Hunter (miniquest)": "first",
+				"Tuai Leit's Own (miniquest)": "step",
+				"Curse of the Black Stone": "step"
+			},
+			"Nickname": "Waiko Northern Docks"
+		},
+		"-9": {
+			"Quest": {
+				"Curse of the Black Stone": "step"
+			},
+			"Clue": {
+				"master": 1
+			},
+			"Nickname": "Cherry Blossom Bench"
+		},
+		"-10": {
+			"Object": {
+				"Water barrel": 1
+			},
+			"NPC": {
+				"Waiko islander": 2
+			},
+			"Quest": {
+				"Cure of the Black Stone": "step"
+			},
+			"Nickname": "Waiko Western Docks"
+		},
+		"-11": {
+			"Object": {
+				"Water barrel": 11,
+				"Bank chest": 1,
+				"Bamboo (tree)": 11,
+				"Grill": 1,
+				"Contract board": 2,
+				"Message in a bottle (Springbreak Island)": 1
+			},
+			"NPC": {
+				"Waiko islander": 24,
+				"Sharkborne": 1,
+				"Lidylla": 1,
+				"Salmon Max (fish merchant)": 1,
+				"Zhuka (bamboo merchant)": 1,
+				"Yi Yan (salt merchant)": 1,
+				"'Reggie' (tortle shell merchant)": 1,
+				"Tang (food merchant)": 1,
+				"Rosie (supplies)": 1,
+				"Boni (rewards)": 1,
+				"Sojobo (contracts)": 1,
+				"Port staff": 2,
+				"X-Runes": 1
+			},
+			"Monster": {
+				"Pekin": 6
+			},
+			"Shop": {
+				"Waiko Reward Shop": true,
+				"Ports Reward Shop": true,
+				"Fish Oil Sales": true,
+				"Tang Chufang": true,
+				"Salty Goods": true,
+				"Bamboo Market 101": true
+			},
+			"Spawn": {
+				"Waiko Warbler": 1
+			},
+			"Quest": {
+				"Damage Control (miniquest)": "first",
+				"Flag Fall (miniquest)": "step",
+				"Head of the Family (miniquest)": "step",
+				"Jed Hunter (miniquest)": "step",
+				"Tuai Leit's Own(miniquest)": "step",
+				"Curse of the Black Stone": "step"
+			},
+			"Clue": {
+				"master": 1
+			},
+			"Nickname": "Waiko Marketplace"
+		},
+		"-12": {
+			"Object": {
+				"Water barrel": 2,
+				"Bamboo (tree)": 4,
+				"Waiko moai": 1,
+				"Khan's house": 1,
+				"Material cache (soapstone)": 4
+			},
+			"NPC": {
+				"Waiko islander": 6,
+				"Archaeologist (excavation sites)": 1
+			},
+			"Quest": {
+				"Head of the Family (miniquest)": "first",
+				"Curse of the Black Stone": "step"
+			},
+			"Clue": {
+				"master": 1
+			},
+			"Nickname": "Khan's House"
+		},
+		"-12.5": {
+			"Object": {
+				"Fishing spot (Waiko)": 3
+			},
+			"NPC": {
+				"Waiko islander": 15
+			},
+			"Quest": {
+				"Curse of the Black Stone": "step"
+			},
+			"Nickname": "Waiko Southern Docks"
+		},
+		"-13": {
+			"Sections": {
+				"1": {
+					"Object": {
+						"Water barrel": 1,
+						"Message in a bottle (Milky Bay)": 1
+					},
+					"NPC": {
+						"Waiko islander": 4,
+						"Cap'n Ekahi": 1,
+						"Yuehanxun the Dealer": 1
+					},
+					"Quest": {
+						"Head of the Family (miniquest)": "step",
+						"Jed Hunter (miniquest)": "step",
+						"Curse of the Black Stone": "step"
+					},
+					"Clue": {
+						"master": 1
+					}
+				},
+				"2": {}
+			},
+			"Nickname": "Waiko Village"
+		},
+		
+		"-14": {
+			"Object": {
+				"Mushroom cluster#Goshima": 1
+			},
+			"NPC": {
+				"Quartermaster Gully": 1,
+				"Navigator Jemi": 1,
+				"Bosun Higgs": 1,
+				"Lookout Ekahi": 1,
+				"Flippers McGraw": 1,
+				"Negative energy": 4,
+				"Captain Cora": 1,
+				"Jiangshi": 1
+			},
+			"Connect": {
+				"53": true
+			},
+			"Quest": {
+				"Damage Control (miniquest)": "step",
+				"Final Destination (miniquest)": "first"
+			},
+			"Nickname": "Goshima Docks"
+		},
+		"-15": {
+			"Object": {
+				"Water barrel": 1,
+				"Mushroom cluster#Goshima": 1,
+				"Sand": 1,
+				"Message in a bottle (Agar Atoll)": 1
+			},
+			"Monster": {
+				"Undead pekin": 8
+			},
+			"Spawn": {
+				"Gongdung Peligorn": 1
+			},
+			"Quest": {
+				"Damage Control (miniquest)": "step",
+				"Final Destination (miniquest)": "step",
+				"Curse of the Black Stone": "step"
+			},
+			"Clue": {
+				"master": 2
+			},
+			"Nickname": "Ravished Druid Colony"
+		},
+		"-16": {
+			"Sections": {
+				"1": {
+					"Object": {
+						"Trunk": 6,
+						"Souls vampyres": 1,
+						"Cora's log": 1
+					},
+					"Quest": {
+						"Curse of the Black Stone": "step"
+					}
+				},
+				"2": {
+					"Object": {
+						"Mushroom cluster#Goshima": 1
+					},
+					"Quest": {
+						"Damage Control (miniquest)": "step",
+						"Final Destination (miniquest)": "step",
+						"Curse of the Black Stone": "step"
+					},
+					"Clue": {
+						"master": 2
+					}
+				}
+			},
+			"Nickname": "Gongdung Gate"
+		},
+		"-17": {
+			"Sections": {
+				"1": {
+					"Object": {
+						"Trunk": 4
+					}
+				},
+				"2": {}
+			},
+			"Nickname": "South Gongdung"
+		},
+		"-18": {
+			"Object": {
+				"Trunk": 2
+			},
+			"Nickname": "North-East Gongdung"
+		},
+		"-19": {
+			"Object": {
+				"Trunk": 2
+			},
+			"Nickname": "South-East Gongdung"
+		},
+		
+		
+		"-20": {
+			"Object": {
+				"Mushroom cluster#The Islands That Once Were Turtles": 1,
+				"Skulls pirate": 1,
+				"Skulls mercenary": 1,
+				"Crumbling wall (The Islands That Once Were Turtles)": 1
+			},
+			"NPC": {
+				"Quartermaster Gully": 1,
+				"Navigator Jemi": 1,
+				"Bosun Higgs": 1,
+				"Lookout Ekahi": 1,
+				"Flippers McGraw": 1
+			},
+			"Connect": {
+				"53": true
+			},
+			"Quest": {
+				"Ghosts from the Past (miniquest)": "first"
+			},
+			"Clue": {
+				"master": 7
+			},
+			"Nickname": "Southern Island That Once Was a Big Turtle"
+		},
+		"-21": {
+			"Sections": {
+				"1": {
+					"Object": {
+						"Skulls thief": 1
+					},
+					"Quest": {
+						"Ghosts from the Past (miniquest)": "step"
+					},
+					"Clue": {
+						"master": 2
+					}
+				},
+				"2": {
+					"Object": {
+						"Mushroom cluster#The Islands That Once Were Turtles": 1,
+						"Message in a bottle (Eisetes Cretor)": 1
+					},
+					"Clue": {
+						"master": 2
+					}
+				},
+				"3": {
+					"Spawn": {
+						"Titchy Tinamou": 1
+					}
+				}
+			},
+			"Nickname": "Northern Island That Once Was a Big Turtle"
+		},
+		"-22": {
+			"Object": {
+				"Mushroom cluster#The Islands That Once Were Turtles": 1,
+				"Message in a bottle (The Hamlet)": 1
+			},
+			"NPC": {
+				"Halia (divine merchant)": 1
+			},
+			"Shop": {
+				"Power of the Ancestors": true
+			},
+			"Clue": {
+				"master": 6
+			},
+			"Nickname": "North Island That Once Was a Turtle"
+		},
+		"-23": {
+			"Object": {
+				"Mushroom cluster#The Islands That Once Were Turtles": 1,
+				"Message in a bottle (Quis-land)": 1
+			},
+			"NPC": {
+				"Positive energy": 2,
+				"Negative energy": 2
+			},
+			"Clue": {
+				"master": 6
+			},
+			"Nickname": "West Island That Once Was a Turtle"
+		},
+		
+		"-24": {
+			"NPC": {
+				"Quartermaster Gully": 1,
+				"Navigator Jemi": 1,
+				"Bosun Higgs": 1,
+				"Lookout Ekahi": 1,
+				"Flippers McGraw": 1,
+				"Positive energy": 4,
+				"See": 1,
+				"Daya": 1,
+				"Villager": 2
+			},
+			"Connect": {
+				"53": true
+			},
+			"Quest": {
+				"Eye for an Eye (miniquest)": "step",
+				"Harbinger (miniquest)": "first"
+			},
+			"Clue": {
+				"master": 1
+			},
+			"Nickname": "Cyclosis Main Dock"
+		},
+		"-25": {
+			"Sections": {
+				"1": {
+					"Object": {
+						"Water barrel": 1
+					},
+					"NPC": {
+						"Villager": 1,
+						"Ichi": 1,
+						"Ember": 1,
+						"Kotahi": 1,
+						"Banky crablet": 1,
+						"Cyclops (Cyclosis)": 2
+					},
+					"Quest": {
+						"Eye for an Eye (miniquest)": "first"
+					}
+				},
+				"2": {
+					"Object": {
+						"Water barrel": 1,
+						"Message in a bottle (Cannonball Run)": 1
+					},
+					"Spawn": {
+						"Cyclosis Cockatiel": 1
+					},
+					"Clue": {
+						"master": 1
+					}
+				},
+				"3": {}
+			},
+			"Nickname": "Cyclosis Southern Dock"
+		},
+		"-26": {
+			"Sections": {
+				"1": {
+					"Object": {
+						"Water barrel": 1
+					},
+					"NPC": {
+						"Villager": 1,
+						"Cyclops (Cyclosis)": 2,
+						"Sinuman (food merchant)": 1,
+						"Wan Pian (flotsam merchant)": 1,
+						"Odd Billy": 1
+					},
+					"Shops": {
+						"Sweet Goods": true,
+						"The Junk of One Cyclops": true
+					},
+					"Quest": {
+						"Eye for an Eye (miniquest)": "step"
+					},
+					"Clue": {
+						"master": 1
+					}
+				},
+				"2": {},
+				"3": {}
+			},
+			"Nickname": "Ichi's Tower"
+		},
+		"-27": {
+			"Sections": {
+				"1": {
+					"NPC": {
+						"Salty crabletine": 10,
+						"Villager": 2
+					},
+					"Quest": {
+						"Eye for an Eye (miniquest)": "step"
+					},
+					"Clue": {
+						"master": 1
+					}
+				},
+				"2": {}
+			},
+			"Nickname": "Salty Crabletines"
+		},
+		
+		"-28": {
+			"Sections": {
+				"1": {
+					"Object": {
+						"Message in a bottle (The Island Which May or May Not Have Monkeys on It)": 1
+					},
+					"NPC": {
+						"Quartermaster Gully": 1,
+						"Navigator Jemi": 1,
+						"Bosun Higgs": 1,
+						"Lookout Ekahi": 1,
+						"Flippers McGraw": 1,
+						"Cap'n Ekahi": 1,
+						"Ling (contracts)": 1,
+						"Bryll Thoksdottir": 1
+					},
+					"Monster": {
+						"Sotapanna": 11,
+						"Sakadagami": 3
+					},
+					"Shop": {
+						"Elite Dungeon Reward Shop": true
+					},
+					"Spawn": {
+						"Shrine Ibis": 1
+					},
+					"Connect": {
+						"53": true
+					},
+					"Quest": {
+						"Eye for an Eye (miniquest)": "step",
+						"Spiritual Enlightenment (miniquest)": "first"
+					},
+					"Clue": {
+						"master": 2
+					}
+				},
+				"2": {}
+			},
+			
+			"Nickname": "Aminishi Dock"
+		},
+		"-29": {
+			"Object": {
+				"The Well of Spirits": 1
+			},
+			"Monster": {
+				"Sakadagami": 12
+			},
+			"Connect": {
+				"42": true
+			},
+			"Quest": {
+				"Spiritual Enlightenment (miniquest)": "step"
+			},
+			"Clue": {
+				"master": 1
+			},
+			"Nickname": "The Well of Spirits"
+		},
+		"-30": {
+			"Sections": {
+				"1": {
+					"Object": {
+						"Temple of Aminishi": 1
+					},
+					"Monster": {
+						"Anagami": 7
+					},
+					"Connect": {
+						"18063": true,
+						"49": true
+					},
+					"Clue": {
+						"master": 1
+					}
+				},
+				"2": {
+					"NPC": {
+						"Cyclops labourer": 2
+					},
+					"Quest": {
+						"Head of the Family (miniquest)": "step"
+					},
+					"Clue": {
+						"master": 1
+					}
+				}
+			},
+			"Nickname": "Temple of Aminishi"
+		},
+		"-31": {
+			"Sections": {
+				"1": {},
+				"2": {},
+				"3": {}
+			},
+			"Nickname": "Bridge to the Azure Room"
+		},
+		"-32": {
+			"Sections": {
+				"1": {
+					"Object": {
+						"Trunk": 3,
+						"Sand": 1
+					}
+				},
+				"2": {}
+			},
+			"Nickname": "North-Eastest Aminishi"
+		},
+		"-33": {
+			"Object": {
+				"Bamboo (tree)": 8,
+				"Bank deposit box": 1,
+				"Trunk": 5
+			},
+			"NPC": {
+				"Salty crabletine": 7
+			},
+			"Nickname": "North-East Aminishi Mine"
+		},
+		"-34": {
+			"Nickname": "North-East Aminishi Western Beach"
+		},
+		
+		"Aminishi Spirit Realm": {
+			"Object": {
+				"Message in a bottle (Christmas Island)": 1
+			},
+			"Monster": {
+				"Arhat": 22
+			},
+			"Spawn": {
+				"Dusky Wigglebill": 1
+			},
+			"Connect": {
+				"-29": true
+			},
+			"Quest": {
+				"Spiritual Enlightenment (miniquest)": "step",
+				"Tuai Leit's Own (miniquest)": "step"
+			}
+		},
+		
+		"Uncharted Isles": {
+			"Object": {
+				"Bamboo (tree)": 1,
+				"Golden bamboo (tree)": 1,
+				"Exuberry bush": 1,
+				"Mushroom cluster#Uncharted Isles": 1,
+				"Wobbegong spot": 1
+			},
+			"NPC": {
+				"Salty crablet": 1,
+				"Idol crablet": 1,
+				"Tortle": 1,
+				"Alaea crablet": 1,
+				"Ancestral energy": 1,
+				"Ornate tortle": 1
+			},
+			"Monster": {
+				"Armoured zombie (Uncharted Isles)": 1,
+				"Crassian scout (Uncharted Isles)": 1,
+				"Crassion warrior (Uncharted Isles)": 1,
+				"Death Lotus rogue": 1,
+				"Eastern soldier": 1,
+				"Flying jellyfish": 1,
+				"Gu ronin": 1,
+				"Scorpion (Uncharted Isles)": 1,
+				"Seasinger priestess": 1,
+				"Skeleton (Uncharted Isles)": 1,
+				"Skulls mercenary (Uncharted Isles)": 1,
+				"Tormented soul (Uncharted Isles)": 1,
+				"Zombie (Uncharted Isles)": 1
+			},
+			"Spawn": {
+				"Dusky Wigglebill": 1,
+				"Titchy Tinamolu": 1,
+				"Fluffy Jublet": 1,
+				"Cocoa Macaw": 1
+			},
+			"Connect": {
+				"-1": true,
+				"-6": true,
+				"-8": true,
+				"-14": true,
+				"-20": true,
+				"-24": true,
+				"-28": true
+			}
+		},
+		
 		"1": {
 			"Name": "Lair of the Rex Matriarchs"
 		},
@@ -163335,6 +164170,12 @@
 		},
 		"51": {
 			"Name": "The Shadow Reef (Story Mode)"
+		},
+		"52": {
+			"Name": "Aminishi Spirit Realm"
+		},
+		"53": {
+			"Name": "Uncharted Isles"
 		},
 		"258": {
 			"Spawn": {
@@ -210044,153 +210885,6 @@
 				"Crocodile Tears": "step"
 			}
 		},
-		"The Arc": {
-			"Object": {
-				"Water barrel": 19,
-				"Bank chest": 6,
-				"Dungeon exit": 1,
-				"Tortle trap": 3,
-				"Web": 1,
-				"The Well of Spirits": 1,
-				"Bamboo (tree)": 33,
-				"Inferior bamboo": 5,
-				"Rumberry bush": 12,
-				"Tuai Leit moai": 1,
-				"Fishing spot (arc)": 14,
-				"Grill": 1,
-				"Contract board": 1,
-				"Waiko moai": 1,
-				"Khan's house": 1,
-				"Material cache (soapstone)": 4,
-				"Camp fire": 1,
-				"Temple of Aminishi": 4,
-				"Mushroom cluster": 11,
-				"Deposit box": 1,
-				"Bank deposit box": 2,
-				"Trunk": 30,
-				"Sand": 2,
-				"Skulls pirate": 2,
-				"Skulls mercenary": 2,
-				"Skulls thief": 1,
-				"Soul vampyres": 1,
-				"Cora's log": 1,
-				"Golden bamboo (tree)": 1
-			},
-			"NPC": {
-				"Tortle": 24,
-				"Seasinger Umi": 8,
-				"Yulong": 1,
-				"Waiko islander": 56,
-				"Terri (fruit merchant)": 1,
-				"Ani (farming merchant)": 1,
-				"Sensei Seaworth": 1,
-				"Keri": 1,
-				"Cheri": 1,
-				"Gnome colonist": 4,
-				"Tuai Leit Toucan": 4,
-				"Azalea Oakheart": 1,
-				"Quartermaster Gully": 10,
-				"Navigator Jemi": 11,
-				"Bosun Higgs": 10,
-				"Lookout Ekahi": 12,
-				"Flippers McGraw": 10,
-				"Sharkborne": 1,
-				"Lidylla": 1,
-				"Salmon Max (fish merchant)": 1,
-				"Zhuka (bamboo merchant)": 1,
-				"Yi Yan (salt merchant)": 1,
-				"'Reggie' (tortle shell merchant)": 1,
-				"Tang (food merchant)": 1,
-				"Rosie (supplies)": 1,
-				"Boni (rewards)": 1,
-				"Sojobo (contracts)": 1,
-				"Port staff": 2,
-				"X-Runes": 1,
-				"Alder (bamboo merchant)": 1,
-				"Sensei Hakase": 1,
-				"Name": 1,
-				"Cap'n Ekahi": 3,
-				"Yuehanxun the Dealer": 1,
-				"Archaeologist (excavation sites)": 1,
-				"Sea Witch Kaula": 1,
-				"Ted (Whale's Maw)": 1,
-				"Whale's Maw islander": 15,
-				"Ling (contracts)": 2,
-				"Bryll Thoksdottir": 2,
-				"Cyclops labourer": 4,
-				"Positive energy": 12,
-				"Negative energy": 8,
-				"Hubbub (contracts)": 1,
-				"Salty crabletine": 34,
-				"Halia (divine merchant)": 1,
-				"See": 2,
-				"Daya": 2,
-				"Villager": 12,
-				"Ichi": 2,
-				"Ember": 2,
-				"Kotahi": 2,
-				"Banky crablet": 2,
-				"Cyclops (Cyclosis)": 8,
-				"Sinuman (food merchant)": 2,
-				"Wan Pian (flotsam merchant)": 2,
-				"Odd Billy": 2,
-				"Captain Cora": 1,
-				"Jiangshi": 1,
-				"Salty crablet": 10,
-				"Alaea crablet": 1,
-				"Idol crablet": 1,
-				"Ornate tortle": 1
-			},
-			"Monster": {
-				"Arhat": 22,
-				"Pekin": 6,
-				"Sotapanna": 22,
-				"Sakadagami": 30,
-				"Anagami": 14,
-				"Undead pekin": 8
-			},
-			"Connect": {
-				"12082": true,
-				"18063": true,
-				"49": true
-			},
-			"Shop": {
-				"Ani's Seed Store by the Sea Shore": true,
-				"Spirited Away": true,
-				"Terri's Merry Berry Bar": true,
-				"Waiko Reward Shop": true,
-				"Ports Reward Shop": true,
-				"Fish Oil Sales": true,
-				"Tang Chufang": true,
-				"Salty Goods": true,
-				"Bamboo Market 101": true,
-				"Big Bada Bamboo": true,
-				"Elite Dungeon Reward Shop": 2,
-				"Power of the Ancestors": true,
-				"Sweet Goods": 2,
-				"The Junk of One Cyclops": 2
-			},
-			"Quest": {
-				"Curse of the Black Stone": "step",
-				"Damage Control (miniquest)": "first",
-				"Eye for an Eye (miniquest)": "first", 
-				"Final Destination (miniquest)": "first",
-				"Flag Fall (miniquest)": "first",
-				"Ghosts from the Past (miniquest)": "first",
-				"Harbinger (miniquest)": "first",
-				"Head of the Family (miniquest)": "first",
-				"Jed Hunter (miniquest)": "first",
-				"Spiritual Enlightenment (miniquest)": "first",
-				"Tuai Leit's Own (miniquest)": "first"
-			},
-			"Clue": {
-				"master": 51
-			},
-			"Spawn": {
-				"Sea shell": 5,
-				"Driftwood": 5
-			}
-		},
 		"Deep Sea Fishing Hub": {
 			"Object": {
                 "Magical net": 2,
@@ -210603,7 +211297,7 @@
 				"Seiryu the Azure Serpent": 1
 			},
 			"Connect": {
-				"8625": true
+				"-30": true
 			},
 			"Quest": {
 				"Curse of the Black Stone": "step"
@@ -210619,7 +211313,7 @@
 				"Shackle Platform": 2
 			},
 			"Connect": {
-				"8625": true
+				"-30": true
 			},
 			"Quest": {
 				"Curse of the Black Stone": "step"
@@ -218544,7 +219238,7 @@
 			"LarryChunks[+]": ["10810-1", "10291"],
 			"LumbridgeSwampChunks[+]": ["12849", "12593"],
 			"Lunar/Ancients[+]": ["8508", "Jaldraocht Pyramid"],
-			"MasterHideyHoles[+]": ["TzHaar City", "9524-1", "The Arc", "13623", "14646-1", "Grand Library of Menaphos", "Invention Guild", "9053", "12594", "12086", "8757"],
+			"MasterHideyHoles[+]": ["TzHaar City", "9524-1", "-11", "13623", "14646-1", "Grand Library of Menaphos", "Invention Guild", "9053", "12594", "12086", "8757"],
 			"TheMeasureChunks[+]": ["15939-1", "Freneskae#The Elder Halls"],			
 			"MagesGnomeRestaurant[+]": ["12337-1", "10288-1"],
 			"MediumHideyHoles[+]": ["13878-1", "13879", "12341-1", "11056", "9776", "10039", "9781", "10288-1", "9777-3", "10036-1", "13365-1", "13104-2"],
@@ -218573,6 +219267,7 @@
 			"SoulObelisks[+]": ["12843-1", "12586", "12587-1", "12585"],
 			"StrangeChunks[+]": ["11570", "11830-1", "12081-1", "12083-1", "12085-1", "12339", "12341-1", "12851-1", "12852", "12854", "13107-1", "13363"],
 			"TaiBwoWannaiChunks[+]": ["11056", "11055-1"],
+			"The Arc[+]": ["-1", "-2", "-3", "-4", "-5", "-6", "-7", "-9", "-10", "-11", "-12", "-12.5", "-13-1", "-13-2", "-14", "-15", "-16-2", "-17-2", "-20", "-21-1", "-21-2", "-21-3", "-28-1", "-28-2", "-29", "-30", "-24", "-25-1", "-25-2", "-26-1", "-26-2", "-27-1", "-27-2"],
 			"Thievesguild[+]": ["Thieves' Guild after Caper 2", "Thieves' Guild Complete"],
 			"Tirannwn[+]": ["8754-1", "8754-2", "8754-3", "8753-1", "8753-2", "8753-3", "9010-1", "9010-2", "9010-3", "9009-1", "9009-2"],
 			"VibrantOrBetterWisps[+]": ["9516", "13879", "Freneskae#The Elder Halls", "13619-1", "15159", "13097-1", "9007"],
@@ -218671,6 +219366,7 @@
 			"SolusLocation[+]": "Any location Solus Dellagar might show up",
 			"StrangeChunks[+]": "Any chunks with strange fragments in them",
 			"TaiBwoWannaiChunks[+]": "Any chunks in which you can gain Taii Bwo Wannai favour",
+			"The Arc[+]": "Any chunks in The Arc",
 			"Thievesguild[+]": "Any chunk that is part of the thieves' guild",
 			"Tirannwn[+]": "Any chunk that is part of the Tirannwn woods",
 			"VibrantOrBetterWisps[+]": "Any chunk that has a vibrant wisp colony or better in it",
@@ -218696,8 +219392,8 @@
 			"AnyExcavationSpot[+]": ["Venator remains", "Legionary remains", "Castra debris", "Lodge bar storage", "Lodge art storage", "Administratum debris", "Cultist footlocker", "Sacrificial altar", "Prodromoi remains", "Dis dungeon debris", "Praesidio remains", "Monoceros remains", "Amphitheatre debris", "Ceramics studio debris", "Carcerem debris", "Ministry remains", "Stadio debris", "Cathedral debris", "Marketplace debris", "Inquisitor remains", "Infernal art", "Gladiator remains", "Citizen remains", "Shakroth remains", "Dominion Games podium", "Ikovian memorial", "Oikos studio debris", "Kharid-et chapel debris", "Gladiatorial goblin remains", "Keshik ger", "Animal trophies", "Pontifex remains", "Cricible stand debris", "Tailory debris", "Goblin dorm debris", "Oikos fishing hut remnants", "Weapons research debris", "Orcus altar", "Dis overspill", "Big High War God shrine", "Orthen rubble", "Varanusaur remains", "Gravitron research debris", "Acropolis debris", "Armarium debris", "Yu'biusk animal pen", "Keshik tower debris", "Dragonkin reliquary", "Goblin trainee remains", "Byzroth remains", "Destroyed golem", "Dragonkin coffin", "Icyene weapon rack", "Culinarum debris", "Kyzaj champion's boudoir", "Autopsy table", "Experiment workbench", "Keshik weapon rack", "Hellfire forge", "Warforge scrap pile", "Stockpiled art", "Aughra remains", "Ancient magick munitions", "Moksha device", "Bibliotheke debris", "Warforge weapon rack", "Flight research debris", "Atherium forge", "Xolo mine", "Praetorian remains", "Bandos's sanctum debris", "Tsutsaroth remains", "Optimatoi remains", "War table debris", "Howl's workshop debris", "Makeshift pie oven", "Xolo remains", "Saurthen debris"],
 			"Bank[+]": ["Bank", "Bank boat", "Bank booth", "Bank chest", "Banker"],
 			"Coal rock[+]": ["Coal rock", "Coal vein"],
-			"Cooking object[+]": ["Fire", "Cooking range", "Clay oven", "Campfire", "Fireplace", "Stove", "Cooking pot", "Sulphur pit", "Player fire", "Oven (City of Um)"],
-			"Cooking range[+]": ["Cooking range", "Stove", "Clay oven", "Oven (City of Um)"],
+			"Cooking object[+]": ["Fire", "Cooking range", "Clay oven", "Campfire", "Fireplace", "Stove", "Cooking pot", "Sulphur pit", "Player fire", "Oven (City of Um)", "Grill"],
+			"Cooking range[+]": ["Cooking range", "Stove", "Clay oven", "Oven (City of Um)", "Grill"],
 			"CraftingFurnace[+]": ["Furnace", "Furnace (Dorgesh)", "Fremennik Furnace"],
 			"CurePatch[+]": ["Allotment", "Flower patch", "Herb patch", "Tree patch", "Fruit tree patch", "Hops patch", "Bush patch"],
 			"Drakolith rock[+]": ["Drakolith rock", "Drakolith vein"],
@@ -219300,7 +219996,7 @@
 				"Woman (East Ardougne)",
 				"Woman (Lumbridge Market)"
 			],
-			"HAMMember[+]": ["H.A.M. Member", "H.A.M. Member", "Guard (H.A.M.)"]
+			"HAMMember[+]": ["H.A.M. Member", "Guard (H.A.M.)"]
 		},
 		"mixPlusNames": {
 			"Citizen[+]": "Any pickpocketable citizen",
@@ -219343,6 +220039,7 @@
 			"HetCrocodile[+]": ["Chito", "Frito"],
 			"Master Farmer[+]": ["Master Farmer", "Martin the Master Gardener"],
 			"WildernessCapeSellers[+]": ["William", "Darren", "Edmond (cape merchant)", "Ian (cape merchant)", "Neil", "Sam (cape merchant)", "Simon"],
+			"Salty crablet[+]": ["Salty crablet", "Salty crabletine"],
 			"SawmillOperator[+]": ["Sawmill operator (Prifddinas)", "Plank maker"],
 			"StrengthMaster[+]": ["Sloane", "Yadech Strongarm"],
 			"Tanner[+]": ["Tanner", "Ellis", "Sbott", "Tanya Hyde", "Leatherworker"],
@@ -219373,6 +220070,7 @@
 			"HetCrocodile[+]": "Either crocodile at Het's oasis",
 			"Master Farmer[+]": "Any master farmer",
 			"WildernessCapeSellers[+]": "Any wilderness cape seller",
+			"Salty crablet[+]": "Salty crablets or crabletines",
 			"SawmillOperator[+]": "Any plank makers",
 			"StrengthMaster[+]": "Sloane or his replacement",
 			"Tanner[+]": "Any hide tanner",
@@ -222350,6 +223048,28 @@
 			"Lumbridge Swamp Caves": true
 		},
 		"master": {
+			"-1": true,
+			"-4": true,
+			"-5": true,
+			"-6": true,
+			"-7": true,
+			"-9": true,
+			"-11": true,
+			"-12": true,
+			"-13": true,
+			"-15": true,
+			"-16": true,
+			"-20": true,
+			"-21": true,
+			"-22": true,
+			"-23": true,
+			"-24": true,
+			"-25": true,
+			"-26": true,
+			"-27": true,
+			"-28": true,
+			"-29": true,
+			"-30": true,
 			"7472": true,
 			"7473": true,
 			"7727": true,
@@ -222394,7 +223114,6 @@
 			"Polypore Dungeon": true,
 			"Invention Guild": true,
 			"The Heart": true,
-			"The Arc": true,
 			"Deep Sea Fishing Hub": true,
 			"Dorgesh-Kaan Agility Course": true
 		}
@@ -275883,7 +276602,7 @@
 		"Crocodile Tears": "13099, Uzer Mastaba, 13871, 13354, 12591, Water Ravine Dungeon, 12329, Crondis Tomb, 13356",
 		"A Cultist's Journey": "11575, 13364, 10030, Senntisten",
 		"The Curse of Arrav": "13613, Lamistard's Tunnels, 11324, Uzer Mastaba, 12854, Chaos Temple Dungeon",
-		"Curse of the Black Stone": "13625, The Arc, Temple of Aminishi, Mr Mordaut's Office, 13881, Adamant dragon dungeon, Dragonkin Laboratory, 12337, 12086, 13617, 12087, 13356, Taverley Dungeon, 12087, The Shadow Reef",
+		"Curse of the Black Stone": "13625, -5, -4, -15, -17, -16, -16, Temple of Aminishi, Mr Mordaut's Office, 13881, Adamant dragon dungeon, Dragonkin Laboratory, 12337, 12086, 13617, 12087, 13356, -9, -8, -10, -11, -12, -12.5, -13, Taverley Dungeon, 12087, The Shadow Reef",
 		"The Darkness of Hallowvale": "Burgh de Rott Myreque Hideout, 14129, 14385, 14386, Meiyerditch Myreque base, Paterdomus, 13622, 12854, 14387, 14388, 14132, Meiyerditch Laboratories",
 		"Daughter of Chaos": "11828, 12599",
 		"Dead and Buried": "13111, Old Crypt, 12854",
@@ -276143,7 +276862,7 @@
 		"Civil War II (miniquest)": "12599, 12342",
 		"Civil War III (miniquest)": "12599, 13107, 11828",
 		"The Curse of Zaros (miniquest)": "10037, CurseOfZaros1[+], CurseOfZaros2[+], CurseOfZaros3[+], CurseOfZaros4[+], CurseOfZaros5[+]",
-		"Damage Control (miniquest)": "The Arc",
+		"Damage Control (miniquest)": "-11, -14, -16, -15, -17",
 		"Desert Slayer Dungeon (miniquest)": "Pollnivneach Slayer Dungeon",
 		"Doric's Task I (miniquest)": "11829, 12084",
 		"Doric's Task II (miniquest)": "11829, 11575",
@@ -276154,22 +276873,22 @@
 		"Doric's Task VII (miniquest)": "11829, Keldagrim",
 		"Doric's Task VIII (miniquest)": "11829, 11828",
 		"Enter the Abyss (miniquest)": "12343, 12852, EnterTheAbyss3[+]x3",
-		"Eye for an Eye (miniquest)": "The Arc",
+		"Eye for an Eye (miniquest)": "-25, -26, -24, -27",
 		"Father and Son (miniquest)": "15683, 10553",
-		"Final Destination (miniquest)": "The Arc",
-		"Flag Fall (miniquest)": "The Arc",
+		"Final Destination (miniquest)": "-14, -15, -16",
+		"Flag Fall (miniquest)": "-11",
 		"From Tiny Acorns (miniquest)": "Thieves' Guild Start, 12853",
 		"Fur 'n Seek#Wish List": "13366",
 		"The General's Shadow (miniquest)": "10808, 10806, 11311, 9780, 12340, 13104, Goblin Cave",
-		"Ghosts from the Past (miniquest)": "The Arc",
+		"Ghosts from the Past (miniquest)": "-20, -21",
 		"A Guild of Our Own (miniquest)": "Thieves' Guild after Caper 2, 10547, 12851",
-		"Harbinger (miniquest)": "The Arc",
-		"Head of the Family (miniquest)": "The Arc",
+		"Harbinger (miniquest)": "-24, -1",
+		"Head of the Family (miniquest)": "-12, -30, -13, -11, -5, -28",
 		"Helping Laniakea (miniquest)": "15939, 15425, 15935, 16703, 15683, 16708, 16453, 15172",
 		"Hopespear's Will (miniquest)": "Goblin Temple, Yu'biusk",
 		"The Hunt for Surok (miniquest)": "13110, Tunnel of Chaos",
 		"In Memory of the Myreque (miniquest)": "13879",
-		"Jed Hunter (miniquest)": "The Arc",
+		"Jed Hunter (miniquest)": "-8, -13, -11, -5",
 		"Koschei's Troubles (miniquest)": "10553, 10552",
 		"Lair of Tarn Razorlor (miniquest)": "Lair of Tarn Razorlor (dungeon)",
 		"Lost Her Marbles (miniquest)": "Thieves' Guild after Caper 1, 12851",
@@ -276184,7 +276903,7 @@
 		"Purple Cat (miniquest)": "12339, Betty's Basement",
 		"Restoring Senliten": "12338, Uzer Mastaba, 13106, 12854, 13107",
 		"Sheep Shearer (miniquest)": "12851, 12595",
-		"Spiritual Enlightenment (miniquest)": "The Arc, Player-Owned Port",
+		"Spiritual Enlightenment (miniquest)": "-28, Player-Owned Port, -29, Aminishi Spirit Realm",
 		"Tales of Nomad (miniquest)": "Death's Office, 12342, 12853, 9778, Nomad's temple, Lumbridge Catacombs, 13109, 8748, 11828, 12087, 9007",
 		"Tales of the God Wars (miniquest)": "13356, 9007, The Barrows, God Wars Dungeon, Grotworm Lair 1, Grotworm Lair 2, Grotworm Lair 3",
 		"Thok It To 'Em (abridged saga)": "13626, 13882, 13625",
@@ -276194,7 +276913,7 @@
 		"Three's Company (abridged saga)": "13626, 13882, 13625",
 		"Three's Company (unabridged saga)": "13626, 13882, 13625",
 		"Tortle Combat (miniquest)": "12854, 10548, Varrock Sewers, 12598",
-		"Tuai Leit's Own (miniquest)": "The Arc",
+		"Tuai Leit's Own (miniquest)": "-1, -3, -4, Aminishi Spirit Realm, -11, -8",
 		"Vengeance (abridged saga)": "13626, 13882, 13625",
 		"Vengeance (unabridged saga)": "13626, 13882, 13625",
 		"Wandering Ga'al (miniquest)": "Fight Cauldron",
@@ -277840,6 +278559,42 @@
 				"Receive a slayer assignment from ~|Vannaka|~": "Slayer"
 			}, {
 				"~|What Lies Below|~ Complete the quest": "Quest"
+			}],
+			"Seasinger gloves scroll^": [{
+				"Unlock the Waiko ~|seasinger|~ scrolls": "Nonskill"
+			}],
+			"Seasinger boots scroll^": [{
+				"Unlock the Waiko ~|seasinger|~ scrolls": "Nonskill"
+			}],
+			"Tetsu gloves scroll^": [{
+				"Unlock the Waiko ~|tetsu|~ scrolls": "Nonskill"
+			}],
+			"Tetsu boots scroll^": [{
+				"Unlock the Waiko ~|tetsu|~ scrolls": "Nonskill"
+			}],
+			"Death Lotus gloves scroll^": [{
+				"Unlock the Waiko ~|Death Lotus|~ scrolls": "Nonskill"
+			}],
+			"Death Lotus boots scroll^": [{
+				"Unlock the Waiko ~|Death Lotus|~ scrolls": "Nonskill"
+			}],
+			"Memory-crushing scrimshaw scroll^": [{
+				"Unlock the Waiko ~|scrimshaw|~ scrolls": "Nonskill"
+			}],
+			"Energy-gathering scrimshaw scroll^": [{
+				"Unlock the Waiko ~|scrimshaw|~ scrolls": "Nonskill"
+			}],
+			"Death Lotus rogue outfit^": [{
+				"Collect Ports scrolls": "Nonskill"
+			}],
+			"Gu ronin outfit^": [{
+				"Collect Ports scrolls": "Nonskill"
+			}],
+			"Seasinger acolyte outfit^": [{
+				"Collect Ports scrolls": "Nonskill"
+			}],
+			"Seiryu's fang^": [{
+				"Obtain Seiryu's claw": "Nonskill"
 			}],
 			"Dragon token^": [{
 				"~|Recipefor Disaster: Freeing Sir Amik Varze|~ 5": "Quest"
@@ -284572,6 +285327,21 @@
 			"Chisel": true,
 			"Hammer": true
 		},
+		"Ports Reward Shop": {
+			"Seasinger gloves scroll": true,
+			"Tetsu gloves scroll": true,
+			"Death Lotus gloves scroll": true,
+			"Seasinger boots scroll": true,
+			"Tetsu boots scroll": true,
+			"Death Lotus boots scroll": true,
+			"Spices": true,
+			"Plate": true,
+			"Lacquer": true,
+			"Chi": true,
+			"Pearls": true,
+			"Koi scales": true,
+			"Ancient bones": true
+		},
 		"Postie Pete's Post Office": {
 			"Postie Pete's hat": true,
 			"Parcel Pete's hat": true,
@@ -286002,7 +286772,14 @@
 			"Thalassia's Revenge": true,
 			"Rage of Hyu-Ji": true,
 			"Winds of Waiko": true,
-			"Ports XP lamp": true
+			"Ports XP lamp": true,
+			"Death Lotus rogue outfit": true,
+			"Gu ronin outfit": true,
+			"Seasinger acolyte outfit": true,
+			"Crystal tool siphon blueprint": true,
+			"Bonecrusher upgrade": true,
+			"Spirit dragon pet": true,
+			"Idol crabletine token": true
 		},
 		"Warriors' Guild Armoury": {
 			"Bronze dagger": true,
@@ -292220,6 +292997,24 @@
 				}
 			}
 		},
+		"Cooking": {
+			"Arc gumbo (cooked)": {
+				"Arc gumbo": {
+					"1": "Always"
+				},
+				"Azure Parrot": {
+					"1": "1/200"
+				}
+			},
+			"Shark soup (cooked)": {
+				"Shark soup": {
+					"1": "Always"
+				},
+				"Azure Parrot": {
+					"1": "1/200"
+				}
+			}
+		},
 		"Crafting": {
 			"Chewed bones loot": {
 				"Death rune": {
@@ -292888,6 +293683,30 @@
 				"Fruit fly": {
 					"1": "1/800"
 				}
+			},
+			"Positive energy spring": {
+				"Positive energy": {
+					"3": "Always"
+				},
+				"Cyansoul Kakapo": {
+					"1": "1/600"
+				}
+			},
+			"Negative energy spring": {
+				"Negative energy": {
+					"3": "Always"
+				},
+				"Cyansoul Kakapo": {
+					"1": "1/600"
+				}
+			},
+			"Ancestral energy spring": {
+				"Ancestral energy": {
+					"3": "Always"
+				},
+				"Cyansoul Kakapo": {
+					"1": "1/600"
+				}
 			}
 		},
 		"Dungeoneering": {
@@ -293555,23 +294374,29 @@
 					"1": "Unknown"
 				}
 			},
-			"WildRumberryBush": {
+			"Wild Rumberry Bush": {
 				"Rumberry": {
 					"1": "Always"
 				},
 				"Rumberry seed": {
 					"1": "Rare"
+				},
+				"Pumpkin Limpkin": {
+					"1": "1/800"
 				}
 			},
-			"WildExuberryBush": {
+			"Wild Exuberry Bush": {
 				"Exuberry": {
 					"1": "Always"
 				},
 				"Exuberry seed": {
 					"1": "Rare"
+				},
+				"Pumpkin Limpkin": {
+					"1": "1/800"
 				}
 			},
-			"TITOWTMushroomYield": {
+			"Mushroom cluster#The Islands That Once Were Turtles": {
 				"Wushroom": {
 					"1": "6918/9138"
 				},
@@ -293589,9 +294414,12 @@
 				},
 				"Gloomshroom zygomite (unchecked)": {
 					"1": "1/4000"
+				},
+				"Pumpkin Limpkin": {
+					"1": "1/800"
 				}
 			},
-			"GoshimaMushroomYield": {
+			"Mushroom cluster#Goshima": {
 				"Wushroom": {
 					"1": "7227/9405"
 				},
@@ -293609,9 +294437,12 @@
 				},
 				"Gloomshroom zygomite (unchecked)": {
 					"1": "1/4000"
+				},
+				"Pumpkin Limpkin": {
+					"1": "1/800"
 				}
 			},
-			"UnchartedIsleMushroomYield": {
+			"Mushroom cluster#Uncharted Isles": {
 				"Blushroom": {
 					"1": "3979/6689"
 				},
@@ -293635,6 +294466,9 @@
 				},
 				"Gloomshroom zygomite (unchecked)": {
 					"1": "1/400"
+				},
+				"Pumpkin Limpkin": {
+					"1": "1/800"
 				}
 			},
 			"HollyhockBushYield": {
@@ -299026,6 +299860,9 @@
 				},
 				"Taijitu": {
 					"1": "Rare"
+				},
+				"Tortleshell Plover": {
+					"1": "1/200"
 				}
 			},
 			"Oily bakami": {
@@ -299948,6 +300785,9 @@
 				},
 				"Taijitu": {
 					"1": "Rare"
+				},
+				"Tortleshell Plover": {
+					"1": "1/200"
 				}
 			},
 			"CrystalSkillchompa": {
@@ -300671,6 +301511,22 @@
 				},
 				"Pygmy giant scarab in amber": {
 					"1": "1/3000"
+				}
+			},
+			"Salty crablet": {
+				"Sea salt": {
+					"1": "Always"
+				},
+				"Awah Guan": {
+					"1": "1/200"
+				}
+			},
+			"Alaea crablet": {
+				"Alaea sea salt": {
+					"1": "Always"
+				},
+				"Awah Guan": {
+					"1": "1/200"
 				}
 			},
 			"Level 1 grid": {
@@ -318672,10 +319528,10 @@
 					"1": "Common"
 				},
 				"Lvl-5 Enchant (item)": {
-					"": "Common"
+					"1": "Common"
 				},
 				"Lvl-6 Enchant (item)": {
-					"": "Common"
+					"1": "Common"
 				}
 			},
 			"Chest (Rogues' Castle)": {
@@ -320778,6 +321634,22 @@
 				"Hornless unicornfly": {
 					"1": "1/800"
 				}
+			},
+			"Bamboo tree": {
+				"Bamboo": {
+					"1": "Always"
+				},
+				"Great Pecker": {
+					"1": "1/200"
+				}
+			},
+			"Golden bamboo tree": {
+				"Golden bamboo": {
+					"1": "Always"
+				},
+				"Great Pecker": {
+					"1": "1/200"
+				}
 			}
 		},
 		"Nonskill": {
@@ -322716,6 +323588,160 @@
 					"1": "5/100"
 				}
 			},
+			"Casket loot": {
+				"Court summons": {
+					"1": "5/128"
+				},
+				"Uncut sapphire": {
+					"1": "27/128"
+				},
+				"Uncut emerald": {
+					"1": "16/128"
+				},
+				"Uncut ruby": {
+					"1": "8/128"
+				},
+				"Uncut diamond": {
+					"1": "2/128"
+				},
+				"Loop half of a key": {
+					"1": "1/128"
+				},
+				"Tooth half of a key": {
+					"1": "1/128"
+				},
+				"Coins": {
+					"640": "10/128",
+					"320": "10/128",
+					"160": "10/128",
+					"80": "10/128",
+					"40": "10/128",
+					"20": "10/128"
+				},
+				"Cosmic talisman": {
+					"1": "8/128"
+				}
+			},
+			"Treasure chest (Uncharted Isles)": {
+				"Taijitu": {
+					"1-2": "1/6",
+					"2-4": "1/12",
+					"4-7": "1/12"
+				},
+				"Stoneberry seed": {
+					"1": "Uncommon"
+				},
+				"Stormberry seed": {
+					"1": "Rare"
+				}
+			},
+			"Washed ashore loot": {
+				"Alaea sea salt": {
+					"1": "Uncommon"
+				},
+				"Bamboo": {
+					"1": "Uncommon"
+				},
+				"Bandana and eyepatch (blue)": {
+					"1": "Uncommon"
+				},
+				"Bandana and eyepatch (brown)": {
+					"1": "Uncommon"
+				},
+				"Bandana and eyepatch (red)": {
+					"1": "Uncommon"
+				},
+				"Big bones": {
+					"1": "Uncommon"
+				},
+				"Bones": {
+					"1": "Uncommon"
+				},
+				"Bucket": {
+					"1": "Common"
+				},
+				"Bundle of bamboo": {
+					"1": "Unommon"
+				},
+				"Casket": {
+					"1": "Common"
+				},
+				"Chimes": {
+					"10-25": "Common"
+				},
+				"Chimes": {
+					"100-500": "Rare"
+				},
+				"Coconut": {
+					"1": "Common"
+				},
+				"Driftwood": {
+					"1": "Common"
+				},
+				"Fish oil": {
+					"1": "Uncommon"
+				},
+				"Golden bamboo": {
+					"1": "Uncommon"
+				},
+				"Long bone": {
+					"1": "Uncommon"
+				},
+				"Medium XP lamp": {
+					"1": "Rare"
+				},
+				"Oyster": {
+					"1": "Common"
+				},
+				"Papaya fruit": {
+					"1": "Common"
+				},
+				"Raw seerfish": {
+					"1": "Common"
+				},
+				"Raw sillago": {
+					"1": "Common"
+				},
+				"Raw tarpon": {
+					"1": "Common"
+				},
+				"Raw wobbegong": {
+					"1": "Uncommon"
+				},
+				"Sea salt": {
+					"1": "Common"
+				},
+				"Sea shell": {
+					"1": "Common"
+				},
+				"Seaweed": {
+					"1": "Common"
+				},
+				"Shell chippings": {
+					"1": "Uncommon"
+				},
+				"Shiny shell chippings": {
+					"1": "Uncommon"
+				},
+				"Silverhawk down": {
+					"1": "Rare"
+				},
+				"Soft clay": {
+					"1": "Common"
+				},
+				"Spirit dragon charm": {
+					"1": "Rare"
+				},
+				"Taijitu": {
+					"1": "Rare"
+				},
+				"Wobbegong oil": {
+					"1": "Rare"
+				},
+				"Wushanko fishing bait": {
+					"1": "Common"
+				}
+			},
 			"Kennel loot": {
 				"Coins": {
 					"500-1000": "1/11"
@@ -323259,6 +324285,271 @@
 		"Imperial ranger akh": 117
 	},
 	"sections": {
+		"-1": {
+			"0": [
+				"-2",
+				"-4"
+			]
+		},
+		"-2": {
+			"0": [
+				"-1",
+				"-3"
+			]
+		},
+		"-3": {
+			"0": [
+				"-2",
+				"-4"
+			]
+		},
+		"-4": {
+			"0": [
+				"-1",
+				"-3"
+			]
+		},
+		
+		"-5": {
+			"0": [
+				"-6"
+			]
+		},
+		"-6": {
+			"0": [
+				"-7",
+				"-5"
+			]
+		},
+		"-7": {
+			"0": [
+				"-6"
+			]
+		},
+		
+		"-8": {
+			"0": [
+				"-11"
+			]
+		},
+		"-9": {
+			"0": [
+				"-12"
+			]
+		},
+		"-10": {
+			"0": [
+				"-11"
+			]
+		},
+		"-11": {
+			"0": [
+				"-8",
+				"-12",
+				"-12.5",
+				"-10"
+			]
+		},
+		"-12": {
+			"0": [
+				"-9",
+				"-13-1",
+				"-13-2"
+			]
+		},
+		"-12.5": {
+			"0": [
+				"-11",
+				"-13-1"
+			]
+		},
+		"-13": {
+			"1": [
+				"-12",
+				"-12.5"
+			],
+			"2": [
+				"-12"
+			]
+		},
+		
+		"-14": {
+			"0": [
+				"-16-2",
+				"-15"
+			]
+		},
+		"-15": {
+			"0": [
+				"-14",
+				"-17-2"
+			]
+		},
+		"-16": {
+			"1": [
+				"-18",
+				"-17-1"
+			],
+			"2": [
+				"-17-2",
+				"-14"
+			]
+		},
+		"-17": {
+			"1": [
+				"-16-1",
+				"-19"
+			],
+			"2": [
+				"-16-2",
+				"-15"
+			]
+		},
+		"-18": {
+			"0": [
+				"-16-1",
+				"-19"
+			]
+		},
+		"-19": {
+			"0": [
+				"-18",
+				"-17-1"
+			]
+		},
+		
+		"-20": {
+			"0": [
+				"-21-1",
+				"-21-2",
+				"-21-3",
+				"-23-2"
+			]
+		},
+		"-21": {
+			"1": [
+				"-20"
+			],
+			"2": [
+				"-20"
+			],
+			"3": [
+				"-20"
+			]
+		},
+		"-22": {
+			"0": []
+		},
+		"-23": {
+			"0": []
+		},
+		
+		"-24": {
+			"0": [
+				"-27-1",
+				"-25-1",
+				"-25-2",
+				"-25-3"
+			]
+		},
+		"-25": {
+			"1": [
+				"-26-1",
+				"-24"
+			],
+			"2": [
+				"-24"
+			],
+			"3": [
+				"-24"
+			]
+		},
+		"-26": {
+			"1": [
+				"-25-1",
+				"-27-1",
+				"-27-2"
+			],
+			"2": [
+				"-27-1"
+			],
+			"3": [
+				"-27-1"
+			]
+		},
+		"-27": {
+			"1": [
+				"-26-1",
+				"-26-2",
+				"-26-3",
+				"-24"
+			],
+			"2": [
+				"-26-1",
+				"-24"
+			]
+		},
+		
+		"-28": {
+			"1": [
+				"-30-1",
+				"-30-2",
+				"-29"
+			],
+			"2": [
+				"-30"
+			]
+		},
+		"-29": {
+			"0": [
+				"-31-2",
+				"-28-1"
+			]
+		},
+		"-30": {
+			"1": [
+				"-28-1",
+				"-31-3"
+			],
+			"2": [
+				"-28-2"
+			]
+		},
+		"-31": {
+			"1": [
+				"-34",
+				"-33"
+			],
+			"2": [
+				"-29"
+			],
+			"3": [
+				"-30"
+			]
+		},
+		"-32": {
+			"1": [
+				"-33",
+				"-34"
+			],
+			"2": [
+				"-20"
+			]
+		},
+		"-33": {
+			"0": [
+				"-32",
+				"-31-1"
+			]
+		},
+		"-34": {
+			"0": [
+				"-32-1",
+				"-31"
+			]
+		},
+		
+		
 		"7427": {
 			"0": [
 				"7473",
