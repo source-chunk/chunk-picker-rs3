@@ -3537,6 +3537,8 @@ let calcChallenges = function(chunks, baseChunkData) {
         });
         kudosTotal = 0;
         possibleSkillTotal = 0;
+		possibleSkillLegacyTotal = 0;
+		possibleSkillVirtualTotal = 0;
         let tempPrimarySkill = false;
         !!newValids && Object.keys(newValids).filter((skill) => { return !!newValids[skill] }).forEach((skill) => {
             Object.keys(newValids[skill]).filter(challenge => { return (chunkInfo['challenges'][skill].hasOwnProperty(challenge) && chunkInfo['challenges'][skill][challenge].hasOwnProperty('Kudos')) }).forEach((line) => {
@@ -3858,7 +3860,7 @@ let calcChallengesWork = function(chunks, baseChunkData, oldTempItemSkill) {
                 }
             }
             if (chunkInfo['challenges'][skill][name].hasOwnProperty('TotalLevelNeeded')) {
-                if (possibleSkillTotal < chunkInfo['challenges'][skill][name]['TotalLevelNeeded']) {
+				if (possibleSkillTotal < chunkInfo['challenges'][skill][name]['TotalLevelNeeded']) {
                     validChallenge = false;
                     wrongThings.push('True Total Level');
                     nonValids[name] = wrongThings;
@@ -3940,6 +3942,9 @@ let calcChallengesWork = function(chunks, baseChunkData, oldTempItemSkill) {
                 let stillLocked = true;
                 if (!!chunkInfo['codeItems']['slayerTasks'] && chunkInfo['codeItems']['slayerTasks'].hasOwnProperty(slayerLocked['monster'])) {
                     (!!chunkInfo['codeItems']['slayerTasks'][slayerLocked['monster']] && Object.keys(chunkInfo['codeItems']['slayerTasks'][slayerLocked['monster']]).filter((monster) => { return !!baseChunkData['monsters'] && baseChunkData['monsters'].hasOwnProperty(monster) }).length > 0) && (stillLocked = false);
+                }
+				if (!!chunkInfo['codeItems']['reaperTasks'] && chunkInfo['codeItems']['reaperTasks'].hasOwnProperty(slayerLocked['boss'])) {
+                    (!!chunkInfo['codeItems']['reaperTasks'][slayerLocked['boss']] && Object.keys(chunkInfo['codeItems']['reaperTasks'][slayerLocked['boss']]).filter((boss) => { return !!baseChunkData['monsters'] && baseChunkData['monsters'].hasOwnProperty(boss) }).length > 0) && (stillLocked = false);
                 }
                 if (stillLocked) {
                     validChallenge = false;

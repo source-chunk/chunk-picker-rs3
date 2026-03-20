@@ -338,6 +338,7 @@ let bossLogs = {};
 let bossMonsters = {};
 let minigameShops = {};
 let slayerTasks = {};
+let reaperTasks = {};
 
 let questLastStep = {};
 
@@ -8172,18 +8173,32 @@ let slayerLockedChange = function() {
     let isSlayerLocked = $('#slayer-locked-dropdown').val() === 'locked';
     let slayerLockedLevel = $('#slayer-locked-level-input').val();
     let slayerLockedTask = $('#slayer-locked-task-dropdown').val();
+    let slayerLockedReaperTask = $('#slayer-locked-reaper-task-dropdown').val();
     let doNotUpdate = false;
     let doRefresh = (tempSlayerLocked !== null) !== isSlayerLocked;
     if (isSlayerLocked) {
         tempSlayerLocked = {};
         tempSlayerLocked['monster'] = slayerLockedTask;
+        tempSlayerLocked['boss'] = slayerLockedReaperTask;
         tempSlayerLocked['level'] = slayerLockedLevel;
-        if (slayerLockedTask !== 'Select a task' && !!slayerLockedLevel && !isNaN(parseInt(slayerLockedLevel)) && parseInt(slayerLockedLevel) >= 0 && parseInt(slayerLockedLevel) <= 120 && parseInt(slayerLockedLevel) % 1 === 0) {
-            slayerLocked = {};
+		
+		slayerLocked = {};
+		slayerLocked['monster'] = 'None';
+		slayerLocked['boss'] = 'None';
+		
+		let slayerLockRequirement = (slayerLockedTask !== 'Select a task' && !!slayerLockedLevel && !isNaN(parseInt(slayerLockedLevel)) && parseInt(slayerLockedLevel) >= 0 && parseInt(slayerLockedLevel) <= 120 && parseInt(slayerLockedLevel) % 1 === 0);
+		let reaperLockRequirement = (slayerLockedReaperTask !== 'Select a task' && !!slayerLockedLevel && !isNaN(parseInt(slayerLockedLevel)) && parseInt(slayerLockedLevel) >= 0 && parseInt(slayerLockedLevel) <= 120 && parseInt(slayerLockedLevel) % 1 === 0);
+		
+        if (slayerLockRequirement) {
             slayerLocked['monster'] = slayerLockedTask;
-            slayerLocked['level'] = slayerLockedLevel;
-        } else {
-            if (slayerLockedTask === 'Select a task') {
+            slayerLocked['level'] = parseInt(slayerLockedLevel);
+        } 
+		if (reaperLockRequirement) {
+            slayerLocked['boss'] = slayerLockedReaperTask;
+            slayerLocked['level'] = parseInt(slayerLockedLevel);
+		} 
+		if (!slayerLockRequirement && !reaperLockRequirement){
+            if ((slayerLockedTask === 'Select a task' && slayerLockedReaperTask === 'Select a task') || (slayerLocked['monster'] == 'None' && slayerLocked['boss'] == 'None')) {
                 slayerLocked = null;
             } else {
                 doNotUpdate = true;
@@ -9140,14 +9155,25 @@ let openHighest2 = function(notScrollTop) {
                     $(`.${combatStyle.replaceAll(' ', '_')}-body .slayer-section-1`).append(`<div class='noscroll slayer-header'>Slayer is currently <span id="slayer-locked-dropdown-container" class="slayer-locked-dropdown-container noscroll" onchange="slayerLockedChange()"><select id="slayer-locked-dropdown"><option ${!!tempSlayerLocked ? 'selected' : ''} value="locked">Locked</option><option ${!tempSlayerLocked ? 'selected' : ''} value="unlocked">Unlocked</option></select></span></div>`);
                     !!tempSlayerLocked && $(`.${combatStyle.replaceAll(' ', '_')}-body .slayer-section-1`).append(`<div class='slayer-locking-data slayer-locking-level'><b>Slayer Level:</b> <input id="slayer-locked-level-input" type="number" min="1" max="99" onchange="slayerLockedChange()" value="${tempSlayerLocked['level'] || 1}"/></span></div>`);
                     !!tempSlayerLocked && $(`.${combatStyle.replaceAll(' ', '_')}-body .slayer-section-1`).append(`<div class='slayer-locking-data slayer-locking-task'><b>Task:</b> <span id="slayer-locked-dropdown-container" class="slayer-locked-dropdown-container noscroll" onchange="slayerLockedChange()"><select id="slayer-locked-task-dropdown"></select></span></div>`);
+                    !!tempSlayerLocked && $(`.${combatStyle.replaceAll(' ', '_')}-body .slayer-section-1`).append(`<div class='slayer-locking-data slayer-locking-task'><b>Reaper Task:</b> <span id="slayer-locked-dropdown-container" class="slayer-locked-dropdown-container noscroll" onchange="slayerLockedChange()"><select id="slayer-locked-reaper-task-dropdown"></select></span></div>`);
                     ['Select a task', 'Manually Locked', ...Object.keys(slayerTasks)].forEach((task) => {
                         $('#slayer-locked-task-dropdown').append(`<option ${!!tempSlayerLocked && tempSlayerLocked.hasOwnProperty('monster') && tempSlayerLocked['monster'] === task ? 'selected' : ''} value="${task}">${task}</option>`);
+                    });
+					['Select a task', 'Manually Locked', ...Object.keys(reaperTasks)].forEach((task) => {
+                        $('#slayer-locked-reaper-task-dropdown').append(`<option ${!!tempSlayerLocked && tempSlayerLocked.hasOwnProperty('boss') && tempSlayerLocked['boss'] === task ? 'selected' : ''} value="${task}">${task}</option>`);
                     });
                     $(`.${combatStyle.replaceAll(' ', '_')}-body .slayer-section-1`).append(`<div class='noscroll slayer-lock-container'><span class='noscroll slayer-lock-button' onclick='toggleEditSlayerLock()'><i class="fa-solid fa-circle-check"></i>Done Editing</span></div>`);
                 } else {
                     $(`.${combatStyle.replaceAll(' ', '_')}-body .slayer-section-1`).append(`<div class='noscroll slayer-header'>Slayer is currently <b class='noscroll slayer-locked-status ${!!slayerLocked ? 'red' : 'green'}'>${!!slayerLocked ? '<i class="fa-solid fa-lock"></i>' : '<i class="fa-solid fa-unlock"></i>'} ${!!slayerLocked ? 'LOCKED' : 'UNLOCKED'}</b></div>`);
-                    !!slayerLocked && $(`.${combatStyle.replaceAll(' ', '_')}-body .slayer-section-1`).append(`<div class='slayer-locking-data slayer-locking-level'><b>Slayer Level:</b> <span>${slayerLocked['level']}</span></span></div>`);
-                    !!slayerLocked && $(`.${combatStyle.replaceAll(' ', '_')}-body .slayer-section-1`).append(`<div class='slayer-locking-data slayer-locking-task'><b>Task:</b> <span><a class='noscroll' href='${"https://runescape.wiki/w/Slayer_task/" + encodeURI(slayerLocked['monster'].replace(/[!'()*]/g, escape))}' target='_blank'>${slayerLocked['monster'].replaceAll(/~/g, '').replaceAll(/\|/g, '')}</a></span> <span class='noscroll slayer-lock-map' onclick='showSlayerLockOnMap()'><i class="fa-solid fa-map" title="Show on map"></i></span></div>`);
+					!!slayerLocked && $(`.${combatStyle.replaceAll(' ', '_')}-body .slayer-section-1`).append(`<div class='slayer-locking-data slayer-locking-level'><b>Slayer Level:</b> <span>${slayerLocked['level']}</span></span></div>`);
+					if(!!slayerLocked && slayerLocked.hasOwnProperty('monster') && (slayerLocked['monster'] == 'Manually Locked' || slayerLocked['monster'] == 'None'))	
+						$(`.${combatStyle.replaceAll(' ', '_')}-body .slayer-section-1`).append(`<div class='slayer-locking-data slayer-locking-task'><b>Slayer Task:</b> ${slayerLocked['monster']}`);
+					else if(!!slayerLocked && slayerLocked.hasOwnProperty('monster'))
+						$(`.${combatStyle.replaceAll(' ', '_')}-body .slayer-section-1`).append(`<div class='slayer-locking-data slayer-locking-task'><b>Slayer Task:</b> <span><a class='noscroll' href='${"https://runescape.wiki/w/Slayer_task/" + encodeURI(slayerLocked['monster'].replace(/[!'()*]/g, escape))}' target='_blank'>${slayerLocked['monster'].replaceAll(/~/g, '').replaceAll(/\|/g, '')}</a></span> <span class='noscroll slayer-lock-map' onclick='showSlayerLockOnMap()'><i class="fa-solid fa-map" title="Show on map"></i></span></div>`);
+                    if(!!slayerLocked && slayerLocked.hasOwnProperty('boss') && (slayerLocked['boss'] == 'Manually Locked' || slayerLocked['boss'] == 'None'))	
+						$(`.${combatStyle.replaceAll(' ', '_')}-body .slayer-section-1`).append(`<div class='slayer-locking-data slayer-locking-reaper-task'><b>Reaper Task:</b> ${slayerLocked['boss']}`);
+					else if (!!slayerLocked && slayerLocked.hasOwnProperty('boss'))
+						$(`.${combatStyle.replaceAll(' ', '_')}-body .slayer-section-1`).append(`<div class='slayer-locking-data slayer-locking-reaper-task'><b>Reaper Task:</b> <span><a class='noscroll' href='${"https://runescape.wiki/w/" + encodeURI(slayerLocked['boss'].replace(/[!'()*]/g, escape))}' target='_blank'>${slayerLocked['boss'].replaceAll(/~/g, '').replaceAll(/\|/g, '')}</a></span> <span class='noscroll slayer-lock-map' onclick='showSlayerLockOnMap()'><i class="fa-solid fa-map" title="Show on map"></i></span></div>`);
                     (testMode || !(viewOnly || inEntry || locked)) && $(`.${combatStyle.replaceAll(' ', '_')}-body .slayer-section-1`).append(`<div class='noscroll slayer-lock-container'><span class='noscroll slayer-lock-button' onclick='toggleEditSlayerLock()'><i class="fa-solid fa-edit"></i>Edit Slayer Lock</span></div>`);
                 }
                 $(`.${combatStyle.replaceAll(' ', '_')}-body`).append(`<hr class='slayer-section-split noscroll'>`);
@@ -9320,8 +9346,14 @@ let checkSlayerLocked = function() {
                 return;
             }
         });
+		reaperTasks.hasOwnProperty(slayerLocked['boss']) && !!reaperTasks[slayerLocked['boss']] && Object.keys(reaperTasks[slayerLocked['boss']]).forEach((boss) => {
+            if (!!baseChunkData['monsters'] && baseChunkData['monsters'].hasOwnProperty(boss) && (!chunkInfo['slayerMonsters'].hasOwnProperty(boss) || chunkInfo['slayerMonsters'][boss] <= slayerLocked['level'])) {
+                unlockSlayer();
+                return;
+            }
+        });
         let slayerMethods = checkPrimaryMethod('Slayer', globalValids, baseChunkData, true);
-        if (Object.keys(slayerMethods).filter((name) => !name.includes('Receive a slayer assignment from ') && name !== 'Passive Leveling' && name !== 'Quest Xp Rewards' && name !== 'Manually added skill').length > 0) {
+        if (Object.keys(slayerMethods).filter((name) => !name.includes('Receive a slayer assignment from ') && !name.includes('Reaper assignment') && name !== 'Passive Leveling' && name !== 'Quest Xp Rewards' && name !== 'Manually added skill').length > 0) {
             unlockSlayer();
             return;
         }
@@ -9409,7 +9441,9 @@ let calculateSlayerTasks = function() {
         'Vannaka': 'Receive a slayer assignment from ~|Vannaka|~',
         'Mazchna/Achtryn': 'Receive a slayer assignment from ~|Mazchna|~',
         'Chaeldar': 'Receive a slayer assignment from ~|Chaeldar|~',
+		'The Raptor': 'Receive a slayer assignement from ~|The Raptor|~',
         'Sumona': 'Receive a slayer assignment from ~|Sumona|~',
+		'Death': 'Receive a ~|Reaper assignment|~',
         'Duradel/Lapalok': 'Receive a slayer assignment from ~|Duradel|~',
         'Kuradal': 'Receive a slayer assignment from ~|Kuradal|~',
         'Morvran': 'Receive a slayer assignment from ~|Morvran|~',
@@ -9419,7 +9453,7 @@ let calculateSlayerTasks = function() {
     $(`.Slayer-body .row, .Slayer-body .slayer-table-wrapper`).remove();
     $(`.Slayer-body .slayer-section-2`).append(`<div class='noscroll slayer-table-wrapper'></div>`);
     $(`.Slayer-body .slayer-table-wrapper`).append(`<div class='noscroll row row-header'><span class='noscroll master-table-header'>Slayer Master</span><span class='noscroll tasks-table-header'>Possible Tasks</span><span class='noscroll info-table-header'>Info</span></div>`);
-    prevValueLevelInput['Combat'] = ((prevValueLevelInput['Combat'] || 3) > 138) ? 138 : (((prevValueLevelInput['Combat'] || 3) < 3) ? 3 : (prevValueLevelInput['Combat'] || 3));
+    prevValueLevelInput['Combat'] = ((prevValueLevelInput['Combat'] || 3) > 152) ? 152 : (((prevValueLevelInput['Combat'] || 3) < 3) ? 3 : (prevValueLevelInput['Combat'] || 3));
     prevValueLevelInput['Slayer'] = ((prevValueLevelInput['Slayer'] || 1) > 120) ? 120 : (((prevValueLevelInput['Slayer'] || 1) < 1) ? 1 : (prevValueLevelInput['Slayer'] || 1));
     prevValueLevelInput['ignoreCombatLevel'] = $(`.ignore-combat-level-input`).is(":checked");
     prevValueLevelInput['krystiliaSlayerCreatures'] = $(`.krystilia-slayer-creatures-input`).is(":checked");
@@ -9477,6 +9511,11 @@ let calculateSlayerTasks = function() {
 
                 let tempDoable = false;
                 slayerTasks.hasOwnProperty(monster.split(' - ')[0]) && Object.keys(slayerTasks[monster.split(' - ')[0]]).forEach((subMonster) => {
+                    if (baseChunkData.hasOwnProperty('monsters') && baseChunkData['monsters'].hasOwnProperty(subMonster)) {
+                        tempDoable = true;
+                    }
+                });
+				reaperTasks.hasOwnProperty(monster.split(' - ')[0]) && Object.keys(reaperTasks[monster.split(' - ')[0]]).forEach((subMonster) => {
                     if (baseChunkData.hasOwnProperty('monsters') && baseChunkData['monsters'].hasOwnProperty(subMonster)) {
                         tempDoable = true;
                     }
@@ -12331,6 +12370,7 @@ let setCodeItems = function() {
     bossMonsters = codeItems['bossMonsters'];
     minigameShops = codeItems['minigameShops'];
     slayerTasks = codeItems['slayerTasks'];
+    reaperTasks = codeItems['reaperTasks'];
 }
 
 // Combines JSONs
