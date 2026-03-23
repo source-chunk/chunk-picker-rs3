@@ -29,8 +29,8 @@ let zoom = 350;                                                                 
 let fontZoom = 16;                                                              // Font size zoom
 let labelZoom = 96;                                                             // Selected label font size zoom
 let scale = 30;                                                                 // Amount zoomed every 'zoom' action
-let fullSize = 1254;                                                            // Amount of chunks present
-let rowSize = 38;                                                               // Amount of chunks per row
+let fullSize = 2150;                                                            // Amount of chunks present
+let rowSize = 43;                                                               // Amount of chunks per row
 let scrollLeft = 0;                                                             // Amount the board is scrolled left offscreen
 let prevScrollLeft = 0;                                                         // Amount the board was previously scrolled left offscreen
 let scrollTop = 0;                                                              // Amount the board is scrolled up offscreen
@@ -41,13 +41,13 @@ let chunkInfo = {};                                                             
 let infoLockedId = -1;                                                          // Id of chunk locked for info
 let userName = '';                                                              // Runescape Username of user
 
-let ratio = 4217 / 4868;                                                        // Image ratio
+let ratio = 5504 / 6400;                                                        // Image ratio
 let movedNum = 0;                                                               // Amount of times mouse is moved while dragging
 let selectedNum = 1;                                                            // Current index of selected chunks
 let unlockedChunks = 0;                                                         // Number of unlocked chunks
 let selectedChunks = 0;                                                         // Number of selected chunks
 let startingIndex = 7495;                                                       // Index to start chunk numbering at
-let skip = 218;                                                                 // Number of indices to skip between columns for chunk numbering
+let skip = 213;                                                                 // Number of indices to skip between columns for chunk numbering
 
 let prevValueMid = '';                                                          // Previous value of map id at login
 let prevValuePinNew = '';                                                       // Previous value of pin at signup
@@ -389,6 +389,7 @@ let rules = {
     "Multi Step Processing": false,
     "Puro-Puro": false,
     "Extra implings": false,
+    "Bakami": false,
     "Farming Primary": false,
     "Secondary Primary": false,
     "Secondary Primary Amount": "1",
@@ -528,6 +529,7 @@ let ruleNames = {
     "Multi Step Processing": `Allow higher level processing of resources to enable other processing tasks <span class='rule-asterisk noscroll'>*</span><span class='multiStepProcessingRuleTooltip'></span>`,
     "Puro-Puro": "Allow implings in underground areas (Puro-Puro, City of Um, etc.) & their drops to count towards chunk tasks",
     "Extra implings": "Include implings that have non-guaranteed spawns as chunk tasks",
+    "Bakami": "Allow bakami and orokami & their drops to count towards chunk tasks",
     "Wandering implings": "Allow implings that randomly wander the world & their drops to count towards chunk tasks <span class='rule-asterisk noscroll'>†</span>",
 	"Farming Primary": "Farming products (herbs, vegetables, etc.) can count as primary item sources for chunk tasks<span class='rule-asterisk noscroll'>*</span>",
     "Secondary Primary": "Allow secondary training methods with drops/methods more common than 1/X (not inclusive, set to 0 to include all drops) to count as primary training methods (e.g. allow a 1/50 drop for a bronze bar to be your required way to train Smithing)<span class='rule-asterisk noscroll'>*</span>",
@@ -621,6 +623,7 @@ let rulePresets = {
         "Shortcut Task": true,
         "Shortcut": true,
         "Puro-Puro": true,
+        "Bakami": true,
         "Spells": true,
         "Combat and Teleport Spells": true,
         "Smithing by Smelting": true,
@@ -667,6 +670,7 @@ let rulePresets = {
         "Wield Crafted Items": true,
         "Multi Step Processing": true,
         "Puro-Puro": true,
+        "Bakami": true,
         "Extra implings": true,
         "Farming Primary": true,
         "Secondary Primary Amount": "0",
@@ -752,6 +756,7 @@ let rulePresets = {
         "Wield Crafted Items": true,
         "Multi Step Processing": true,
         "Puro-Puro": true,
+        "Bakami": true,
         "Extra implings": true,
 		"Wandering implings": true,
         "Farming Primary": true,
@@ -891,6 +896,7 @@ let ruleStructure = {
     },
     "Hunter": {
 		"Puro-Puro": ["Extra implings"],
+		"Bakami": true,
 		"Wandering implings": true,
 		"Ogleroot": true
     },
@@ -12960,6 +12966,10 @@ let loadData = async function(startup) {
 		
 		if (!rulesTemp.hasOwnProperty('Multiple Agility')) {
             rulesTemp['Multiple Agility'] = rulesTemp.hasOwnProperty('Multiple Pickpockets') ? rulesTemp['Multiple Pickpockets'] : false;
+        }
+		
+		if (!rulesTemp.hasOwnProperty('Bakami')) {
+            rulesTemp['Bakami'] = rulesTemp.hasOwnProperty('Puro-Puro') ? rulesTemp['Puro-Puro'] : false;
         }
         
         if (!rulesTemp.hasOwnProperty('Kill X Boss')) {
