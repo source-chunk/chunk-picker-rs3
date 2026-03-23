@@ -75375,7 +75375,7 @@
 			"~|Curse of the Black Stone|~ 2": {
 				"BaseQuest": "Curse of the Black Stone",
 				"Description": "Travel to Waiko and talk to Zhuka",
-				"Chunks": ["-11"],
+				"Chunks": ["15134"],
 				"Tasks": {
 					"~|Curse of the Black Stone|~ 1": "Quest"
 				},
@@ -75384,7 +75384,7 @@
 			"~|Curse of the Black Stone|~ 3": {
 				"BaseQuest": "Curse of the Black Stone",
 				"Description": "Travel to Whale's Maw and talk to Sea Witch Kaula, then dig up the note from the Jade Spider",
-				"Chunks": ["-5"],
+				"Chunks": ["15649"],
 				"Tasks": {
 					"~|Curse of the Black Stone|~ 2": "Quest"
 				},
@@ -75393,7 +75393,7 @@
 			"~|Curse of the Black Stone|~ 4": {
 				"BaseQuest": "Curse of the Black Stone",
 				"Description": "Travel to Tuai Leit and talk to Sensei Seaworth",
-				"Chunks": ["-4"],
+				"Chunks": ["14883"],
 				"Tasks": {
 					"~|Curse of the Black Stone|~ 3": "Quest"
 				},
@@ -75402,7 +75402,7 @@
 			"~|Curse of the Black Stone|~ 5": {
 				"BaseQuest": "Curse of the Black Stone",
 				"Description": "Travel to Goshima and defeat the Crassians.",
-				"Chunks": ["-15", "-17-2", "-16-2"],
+				"Chunks": ["17693", "17949-2", "17950-2"],
 				"Tasks": {
 					"~|Curse of the Black Stone|~ 4": "Quest"
 				},
@@ -75411,7 +75411,7 @@
 			"~|Curse of the Black Stone|~ 6": {
 				"BaseQuest": "Curse of the Black Stone",
 				"Description": "Head into Gongdung and talk to Madame Shih",
-				"Chunks": ["-16-1"],
+				"Chunks": ["17950-1"],
 				"Tasks": {
 					"~|Curse of the Black Stone|~ 5": "Quest"
 				},
@@ -75429,7 +75429,7 @@
 			"~|Curse of the Black Stone|~ 8": {
 				"BaseQuest": "Curse of the Black Stone",
 				"Description": "Return to Madame Shih in Gongdung",
-				"Chunks": ["-16-1"],
+				"Chunks": ["17950-1"],
 				"Tasks": {
 					"~|Curse of the Black Stone|~ 7": "Quest"
 				},
@@ -75493,7 +75493,7 @@
 			"~|Curse of the Black Stone|~ 15": {
 				"BaseQuest": "Curse of the Black Stone",
 				"Description": "Return to Madame Shih on Goshima",
-				"Chunks": ["-16-1"],
+				"Chunks": ["17950-1"],
 				"Tasks": {
 					"~|Curse of the Black Stone|~ 14": "Quest"
 				},
@@ -75603,7 +75603,7 @@
 			"~|Curse of the Black Stone|~ 25": {
 				"BaseQuest": "Curse of the Black Stone",
 				"Description": "Tell Steven's wife and children that he loves them",
-				"Chunks": ["-9"],
+				"Chunks": ["15391"],
 				"Tasks": {
 					"~|Curse of the Black Stone|~ 24": "Quest"
 				},
@@ -75612,7 +75612,7 @@
 			"~|Curse of the Black Stone|~ 26": {
 				"BaseQuest": "Curse of the Black Stone",
 				"Description": "Expose Count Ludwig Koppenploppen's shady business to Steven's wife",
-				"Chunks": ["-8", "-10", "-11", "-12.5", "-13-1", "-12"],
+				"Chunks": ["15135", "14878", "15134", "15133", "15389-1", "15390"],
 				"Tasks": {
 					"~|Curse of the Black Stone|~ 25": "Quest"
 				},
@@ -75885,7 +75885,7 @@
 			"~|Damage Control (miniquest)|~ 2": {
 				"BaseQuest": "Damage Control (miniquest)",
 				"Description": "Buy a ship repair kit from Rosie on Waiko and talk to Higgs to repair the Revenge",
-				"Chunks": ["-11"],
+				"Chunks": ["15134"],
 				"Tasks": {
 					"~|Damage Control (miniquest)|~ 1": "Quest"
 				},
@@ -75895,7 +75895,7 @@
 			"~|Damage Control (miniquest)|~ 3": {
 				"BaseQuest": "Damage Control (miniquest)",
 				"Description": "Sail to Goshima and speak to Bosun Higgs again",
-				"Chunks": ["-14"],
+				"Chunks": ["17694"],
 				"Tasks": {
 					"~|Damage Control (miniquest)|~ 2": "Quest"
 				},
@@ -75904,7 +75904,7 @@
 			"~|Damage Control (miniquest)|~ 4": {
 				"BaseQuest": "Damage Control (miniquest)",
 				"Description": "Scavange Goshima for parts and speak to Bosun Higgs again",
-				"Chunks": ["-14", "-16-2", "-15", "-17-2"],
+				"Chunks": ["17694", "17950-2", "17693", "17949-2"],
 				"Tasks": {
 					"~|Damage Control (miniquest)|~ 3": "Quest"
 				},
@@ -75912,7 +75912,7 @@
 			},
 			"~|Damage Control (miniquest)|~ Complete the miniquest": {
 				"BaseQuest": "Damage Control (miniquest)",
-				"Chunks": ["-14"],
+				"Chunks": ["17694"],
 				"Tasks": {
 					"~|Damage Control (miniquest)|~ 4": "Quest"
 				},
@@ -80497,7 +80497,7 @@
 			"~|Eye for an Eye (miniquest)|~ 1": {
 				"BaseQuest": "Eye for an Eye (miniquest)",
 				"Description": "Talk to Ichi on Cyclosis",
-				"Chunks": ["-25-1"],
+				"Chunks": ["17175-1"],
 				"Tasks": {
 					"~|Impressing the Locals|~ Complete the quest": "Quest",
 					"~|Jed Hunter (miniquest)|~ Complete the miniquest": "Quest"
@@ -80511,7 +80511,7 @@
 			"~|Eye for an Eye (miniquest)|~ 2": {
 				"BaseQuest": "Eye for an Eye (miniquest)",
 				"Description": "Talk to Ekahi to advance to night. Kill the zyclopses, then talk to him again.",
-				"Chunks": ["-26-1"],
+				"Chunks": ["17176-1"],
 				"Tasks": {
 					"~|Eye for an Eye (miniquest)|~ 1": "Quest"
 				},
@@ -80520,7 +80520,7 @@
 			"~|Eye for an Eye (miniquest)|~ 3": {
 				"BaseQuest": "Eye for an Eye (miniquest)",
 				"Description": "Speak to See.",
-				"Chunks": ["-24"],
+				"Chunks": ["16919"],
 				"Tasks": {
 					"~|Eye for an Eye (miniquest)|~ 2": "Quest"
 				},
@@ -80529,7 +80529,7 @@
 			"~|Eye for an Eye (miniquest)|~ 4": {
 				"BaseQuest": "Eye for an Eye (miniquest)",
 				"Description": "Speak to Sinuman",
-				"Chunks": ["-26-1"],
+				"Chunks": ["17176-1"],
 				"Items": ["Sea salt"],
 				"Tasks": {
 					"~|Eye for an Eye (miniquest)|~ 3": "Quest"
@@ -80539,7 +80539,7 @@
 			"~|Eye for an Eye (miniquest)|~ 5": {
 				"BaseQuest": "Eye for an Eye (miniquest)",
 				"Description": "Speak to Daya, then report back to Ichi. Finally, defeat Undead Jed",
-				"Chunks": ["-27-1", "-25-1"],
+				"Chunks": ["16920-1", "17175-1"],
 				"Tasks": {
 					"~|Eye for an Eye (miniquest)|~ 4": "Quest"
 				},
@@ -80547,7 +80547,7 @@
 			},
 			"~|Eye for an Eye (miniquest)|~ Complete the miniquest": {
 				"BaseQuest": "Eye for an Eye (miniquest)",
-				"Chunks": ["-24"],
+				"Chunks": ["16919"],
 				"Tasks": {
 					"~|Eye for an Eye (miniquest)|~ 5": "Quest"
 				},
@@ -81505,7 +81505,7 @@
 			"~|Final Destination (miniquest)|~ 2": {
 				"BaseQuest": "Final Destination (miniquest)",
 				"Description": "After the fight, talk to Cora",
-				"Chunks": ["-14"],
+				"Chunks": ["17694"],
 				"Tasks": {
 					"~|Final Destination (miniquest)|~ 1": "Quest"
 				},
@@ -81514,7 +81514,7 @@
 			"~|Final Destination (miniquest)|~ 3": {
 				"BaseQuest": "Final Destination (miniquest)",
 				"Description": "Show Cora the Druid Colony",
-				"Chunks": ["-15"],
+				"Chunks": ["17693"],
 				"Tasks": {
 					"~|Final Destination (miniquest)|~ 2": "Quest"
 				},
@@ -81523,7 +81523,7 @@
 			"~|Final Destination (miniquest)|~ 4": {
 				"BaseQuest": "Final Destination (miniquest)",
 				"Description": "Show Cora the gate to Gongdung",
-				"Chunks": ["-16-2"],
+				"Chunks": ["17950-2"],
 				"Tasks": {
 					"~|Final Destination (miniquest)|~ 3": "Quest"
 				},
@@ -81532,7 +81532,7 @@
 			"~|Final Destination (miniquest)|~ 5": {
 				"BaseQuest": "Final Destination (miniquest)",
 				"Description": "Defeat the Jiangshi",
-				"Chunks": ["-15"],
+				"Chunks": ["17693"],
 				"Tasks": {
 					"~|Final Destination (miniquest)|~ 4": "Quest"
 				},
@@ -81540,7 +81540,7 @@
 			},
 			"~|Final Destination (miniquest)|~ Complete the miniquest": {
 				"BaseQuest": "Final Destination (miniquest)",
-				"Chunks": ["-14"],
+				"Chunks": ["17694"],
 				"Tasks": {
 					"~|Final Destination (miniquest)|~ 5": "Quest"
 				},
@@ -81647,7 +81647,7 @@
 			"~|Flag Fall (miniquest)|~ 1": {
 				"BaseQuest": "Flag Fall (miniquest)",
 				"Description": "Speak to Boni on Waiko",
-				"Chunks": ["-11"],
+				"Chunks": ["15134"],
 				"Tasks": {
 					"~|Impressing the Locals|~ Complete the quest": "Quest"
 				},
@@ -81656,7 +81656,7 @@
 			"~|Flag Fall (miniquest)|~ 2": {
 				"BaseQuest": "Flag Fall (miniquest)",
 				"Description": "Give Boni five driftwood",
-				"Chunks": ["-11"],
+				"Chunks": ["15134"],
 				"Items": ["Driftwood"],
 				"Tasks": {
 					"~|Flag Fall (miniquest)|~ 1": "Quest"
@@ -81665,7 +81665,7 @@
 			},
 			"~|Flag Fall (miniquest)|~ Complete the miniquest": {
 				"BaseQuest": "Flag Fall (miniquest)",
-				"Chunks": ["-11"],
+				"Chunks": ["15134"],
 				"Tasks": {
 					"~|Flag Fall (miniquest)|~ 2": "Quest"
 				},
@@ -83278,7 +83278,7 @@
 			"~|Ghosts from the Past (miniquest)|~ 1": {
 				"BaseQuest": "Ghosts from the Past (miniquest)",
 				"Description": "Speak to Quartermaster Gully near the Sarim's Revengeon the biggest Island That Once Was a Turtle (allegedly), then to two skeletons on the southern part",
-				"Chunks": ["-20"],
+				"Chunks": ["16923"],
 				"Tasks": {
 					"~|Impressing the Locals|~ Complete the quest": "Quest",
 					"~|Harbinger (miniquest)|~ Complete the miniquest": "Quest"
@@ -83289,7 +83289,7 @@
 			"~|Ghosts from the Past (miniquest)|~ 1": {
 				"BaseQuest": "Ghosts from the Past (miniquest)",
 				"Description": "Speak to the third skeleton in the observatory, then talk to the Quartermaster again",
-				"Chunks": ["-21-1"],
+				"Chunks": ["16924-1"],
 				"Tasks": {
 					"~|Ghosts from the Past (miniquest)|~ 1": "Quest"
 				},
@@ -83298,7 +83298,7 @@
 			},
 			"~|Ghosts from the Past (miniquest)|~ Complete the miniquest": {
 				"BaseQuest": "Ghosts from the Past (miniquest)",
-				"Chunks": ["-20"],
+				"Chunks": ["16923"],
 				"Tasks": {
 					"~|Ghosts from the Past (miniquest)|~ 2": "Quest"
 				},
@@ -84440,7 +84440,7 @@
 			"~|Harbinger (miniquest)|~ 1": {
 				"BaseQuest": "Harbinger (miniquest)",
 				"Description": "Speak to Navigator Jemi on Cyclosis",
-				"Chunks": ["-24"],
+				"Chunks": ["16919"],
 				"Tasks": {
 					"~|Impressing the Locals|~ Complete the quest": "Quest",
 					"~|Eye for an Eye (miniquest)|~ Complete the miniquest": "Quest"
@@ -84450,7 +84450,7 @@
 			"~|Harbinger (miniquest)|~ 2": {
 				"BaseQuest": "Harbinger (miniquest)",
 				"Description": "Attempt to travel to Tuai Leit and get attacked",
-				"Chunks": ["-1"],
+				"Chunks": ["14884"],
 				"Tasks": {
 					"~|Harbinger (miniquest)|~ 1": "Quest"
 				},
@@ -84458,7 +84458,7 @@
 			},
 			"~|Harbinger (miniquest)|~ Complete the miniquest": {
 				"BaseQuest": "Harbinger (miniquest)",
-				"Chunks": ["-1"],
+				"Chunks": ["14884"],
 				"Tasks": {
 					"~|Harbinger (miniquest)|~ 2": "Quest"
 				},
@@ -84585,7 +84585,7 @@
 			"~|Head of the Family (miniquest)|~ 1": {
 				"BaseQuest": "Head of the Family (miniquest)",
 				"Description": "Speak to the Waiko moai",
-				"Chunks": ["-12"],
+				"Chunks": ["15390"],
 				"Tasks": {
 					"~|Impressing the Locals|~ Complete the quest": "Quest"
 				},
@@ -84600,7 +84600,7 @@
 			"~|Head of the Family (miniquest)|~ 2": {
 				"BaseQuest": "Head of the Family (miniquest)",
 				"Description": "Talk to the Aminishi moai",
-				"Chunks": ["-30-2"],
+				"Chunks": ["16154-2"],
 				"Tasks": {
 					"~|Head of the Family (miniquest)|~ 1": "Quest"
 				},
@@ -84609,7 +84609,7 @@
 			"~|Head of the Family (miniquest)|~ 2": {
 				"BaseQuest": "Head of the Family (miniquest)",
 				"Description": "Give Yuehanxun fish oil",
-				"Chunks": ["-13-1"],
+				"Chunks": ["15389-1"],
 				"Items": ["Fish oil"],
 				"Tasks": {
 					"~|Head of the Family (miniquest)|~ 1": "Quest"
@@ -84619,7 +84619,7 @@
 			"~|Head of the Family (miniquest)|~ 3": {
 				"BaseQuest": "Head of the Family (miniquest)",
 				"Description": "Talk to Rosie on Waiko",
-				"Chunks": ["-11"],
+				"Chunks": ["15134"],
 				"Tasks": {
 					"~|Head of the Family (miniquest)|~ 2": "Quest"
 				},
@@ -84628,7 +84628,7 @@
 			"~|Head of the Family (miniquest)|~ 4": {
 				"BaseQuest": "Head of the Family (miniquest)",
 				"Description": "Talk to Sea Witch Kaula on Whale's Maw, then return to Rosie",
-				"Chunks": ["-5", "-11"],
+				"Chunks": ["15649", "15134"],
 				"Tasks": {
 					"~|Head of the Family (miniquest)|~ 3": "Quest"
 				},
@@ -84637,7 +84637,7 @@
 			"~|Head of the Family (miniquest)|~ 5": {
 				"BaseQuest": "Head of the Family (miniquest)",
 				"Description": "Fill a bag with Aminishi soil",
-				"Chunks": ["-28-1"],
+				"Chunks": ["16153-1"],
 				"Tasks": {
 					"~|Head of the Family (miniquest)|~ 4": "Quest"
 				},
@@ -84646,7 +84646,7 @@
 			"~|Head of the Family (miniquest)|~ 6": {
 				"BaseQuest": "Head of the Family (miniquest)",
 				"Description": "Give Rosie bamboo",
-				"Chunks": ["-11"],
+				"Chunks": ["15134"],
 				"Items": ["Bamboo"],
 				"Tasks": {
 					"~|Head of the Family (miniquest)|~ 5": "Quest"
@@ -84656,7 +84656,7 @@
 			"~|Head of the Family (miniquest)|~ 7": {
 				"BaseQuest": "Head of the Family (miniquest)",
 				"Description": "Recruit Cap'n Ekahi",
-				"Chunks": ["-28-1"],
+				"Chunks": ["16153-1"],
 				"Itmems": ["Chimes"],
 				"Tasks": {
 					"~|Head of the Family (miniquest)|~ 6": "Quest"
@@ -84666,7 +84666,7 @@
 			"~|Head of the Family (miniquest)|~ 8": {
 				"BaseQuest": "Head of the Family (miniquest)",
 				"Description": "Speak to the Aminishi moai, then to Cap'n Ekahi and start the fight",
-				"Chunks": ["-30-2", "-28-1"],
+				"Chunks": ["16154-2", "16153-1"],
 				"Tasks": {
 					"~|Head of the Family (miniquest)|~ 7": "Quest"
 				},
@@ -84675,7 +84675,7 @@
 			"~|Head of the Family (miniquest)|~ 9": {
 				"BaseQuest": "Head of the Family (miniquest)",
 				"Description": "Return to the Waiko moai",
-				"Chunks": ["-12"],
+				"Chunks": ["15390"],
 				"Tasks": {
 					"~|Head of the Family (miniquest)|~ 8": "Quest"
 				},
@@ -84683,7 +84683,7 @@
 			},
 			"~|Head of the Family (miniquest)|~ Complete the miniquest": {
 				"BaseQuest": "Head of the Family (miniquest)",
-				"Chunks": ["-12"],
+				"Chunks": ["15390"],
 				"Tasks": {
 					"~|Head of the Family (miniquest)|~ 9": "Quest"
 				},
@@ -86461,7 +86461,7 @@
 			"~|Jed Hunter (miniquest)|~ 1": {
 				"BaseQuest": "Jed Hunter (miniquest)",
 				"Description": "Speak to Lookhout Ekahi on Waiko, then to all your crewmates",
-				"Chunks": ["-8"],
+				"Chunks": ["15135"],
 				"Tasks": {
 					"~|Impressing the Locals|~ Complete the quest": "Quest",
 					"~|Flag Fall (miniquest)|~ Complete the miniquest": "Quest",
@@ -86478,7 +86478,7 @@
 			"~|Jed Hunter (miniquest)|~ 2a": {
 				"BaseQuest": "Jed Hunter (miniquest)",
 				"Description": "Complete the request for Ekahi",
-				"Chunks": ["-13-1"],
+				"Chunks": ["15389-1"],
 				"Tasks": {
 					"~|Jed Hunter (miniquest)|~ 1": "Quest"
 				},
@@ -86487,7 +86487,7 @@
 			"~|Jed Hunter (miniquest)|~ 2b": {
 				"BaseQuest": "Jed Hunter (miniquest)",
 				"Description": "Complete the requests for Higgs",
-				"Chunks": ["-11"],
+				"Chunks": ["15134"],
 				"Tasks": {
 					"~|Jed Hunter (miniquest)|~ 1": "Quest"
 				},
@@ -86496,7 +86496,7 @@
 			"~|Jed Hunter (miniquest)|~ 2c": {
 				"BaseQuest": "Jed Hunter (miniquest)",
 				"Description": "Complete the requests for Jemi",
-				"Chunks": ["-5"],
+				"Chunks": ["15649"],
 				"Items": ["Tortle shell bowl"],
 				"Tasks": {
 					"~|Jed Hunter (miniquest)|~ 1": "Quest"
@@ -86506,7 +86506,7 @@
 			"~|Jed Hunter (miniquest)|~ 2d": {
 				"BaseQuest": "Jed Hunter (miniquest)",
 				"Description": "Complete the requests for Gully",
-				"Chunks": ["-11"],
+				"Chunks": ["15134"],
 				"Items": ["Driftwood", "Sea shells", "Taijitu"],
 				"Tasks": {
 					"~|Jed Hunter (miniquest)|~ 1": "Quest"
@@ -86516,7 +86516,7 @@
 			"~|Jed Hunter (miniquest)|~ 3": {
 				"BaseQuest": "Jed Hunter (miniquest)",
 				"Description": "Confront Jed",
-				"Chunks": ["-8"],
+				"Chunks": ["15135"],
 				"Tasks": {
 					"~|Jed Hunter (miniquest)|~ 2a": "Quest",
 					"~|Jed Hunter (miniquest)|~ 2b": "Quest",
@@ -86527,7 +86527,7 @@
 			},
 			"~|Jed Hunter (miniquest)|~ Complete the miniquest": {
 				"BaseQuest": "Jed Hunter (miniquest)",
-				"Chunks": ["-8"],
+				"Chunks": ["15135"],
 				"Tasks": {
 					"~|Jed Hunter (miniquest)|~ 3": "Quest"
 				},
@@ -97727,7 +97727,7 @@
 			"~|Spiritual Enlightenment (miniquest)|~ 1": {
 				"BaseQuest": "Spiritual Enlightenment (miniquest)",
 				"Description": "Speak to Ling on Aminishi",
-				"Chunks": ["-28-1", "Player-Owned Port"],
+				"Chunks": ["16153-1", "Player-Owned Port"],
 				"Tasks": {
 					"~|Impressing the Locals|~ Complete the quest": "Quest"
 				},
@@ -97740,7 +97740,7 @@
 			"~|Spiritual Enlightenment (miniquest)|~ 2": {
 				"BaseQuest": "Spiritual Enlightenment (miniquest)",
 				"Description": "Bring the three books to Ling and interact with the Well of Spirits",
-				"Chunks": ["-28-1", "-29"],
+				"Chunks": ["16153-1", "-29"],
 				"Items": ["The Path of the Monk", "The Path of the Elemental", "The Path of the Dragon"],
 				"Tasks": {
 					"~|Spiritual Enlightenment (miniquest)|~ 1": "Quest"
@@ -97758,7 +97758,7 @@
 			},
 			"~|Spiritual Enlightenment (miniquest)|~ Complete the miniquest": {
 				"BaseQuest": "Spiritual Enlightenment (miniquest)",
-				"Chunks": ["-28-1"],
+				"Chunks": ["16153-1"],
 				"Tasks": {
 					"~|Spiritual Enlightenment (miniquest)|~ 3": "Quest"
 				},
@@ -100299,7 +100299,7 @@
 			"~|Tuai Leit's Own (miniquest)|~ 1": {
 				"BaseQuest": "Tuai Leit's Own (miniquest)",
 				"Description": "Speak to Seasinger Jemi on Tuai Leit",
-				"Chunks": ["-1"],
+				"Chunks": ["14884"],
 				"Tasks": {
 					"~|Impressing the Locals|~ Complete the quest": "Quest",
 					"~|Harbinger (miniquest)|~ Complete the miniquest": "Quest"
@@ -100315,7 +100315,7 @@
 			"~|Tuai Leit's Own (miniquest)|~ 2": {
 				"BaseQuest": "Tuai Leit's Own (miniquest)",
 				"Description": "Speak to Sensei Hakase",
-				"Chunks": ["-3"],
+				"Chunks": ["15139"],
 				"Tasks": {
 					"~|Tuai Leit's Own (miniquest)|~ 1": "Quest"
 				},
@@ -100324,7 +100324,7 @@
 			"~|Tuai Leit's Own (miniquest)|~ 3": {
 				"BaseQuest": "Tuai Leit's Own (miniquest)",
 				"Description": "Give 30 rumberries to Cheri, return to Hakase and give the concoction to Ekahi, then return to Hakase again",
-				"Chunks": ["-4", "-3", "-1"],
+				"Chunks": ["14883", "15139", "14884"],
 				"Items": ["Rumberry"],
 				"Tasks": {
 					"~|Tuai Leit's Own (miniquest)|~ 2": "Quest"
@@ -100334,7 +100334,7 @@
 			"~|Tuai Leit's Own (miniquest)|~ 4": {
 				"BaseQuest": "Tuai Leit's Own (miniquest)",
 				"Description": "Speak to the Tuai Leit moai",
-				"Chunks": ["-4"],
+				"Chunks": ["14883"],
 				"Tasks": {
 					"~|Tuai Leit's Own (miniquest)|~ 3": "Quest"
 				},
@@ -100343,7 +100343,7 @@
 			"~|Tuai Leit's Own (miniquest)|~ 3": {
 				"BaseQuest": "Tuai Leit's Own (miniquest)",
 				"Description": "Give 30 positive energy to Yulong, then return to Ekahi and Hakase",
-				"Chunks": ["Aminishi Spirit Realm", "-3"],
+				"Chunks": ["Aminishi Spirit Realm", "15139"],
 				"Items": ["Positive energy"],
 				"Tasks": {
 					"~|Tuai Leit's Own (miniquest)|~ 2": "Quest"
@@ -100353,7 +100353,7 @@
 			"~|Tuai Leit's Own (miniquest)|~ 4": {
 				"BaseQuest": "Tuai Leit's Own (miniquest)",
 				"Description": "Speak to Sojobo and defeat Ekahi",
-				"Chunks": ["-11"],
+				"Chunks": ["15134"],
 				"Tasks": {
 					"~|Tuai Leit's Own (miniquest)|~ 3": "Quest"
 				},
@@ -100361,7 +100361,7 @@
 			},
 			"~|Tuai Leit's Own (miniquest)|~ Complete the miniquest": {
 				"BaseQuest": "Tuai Leit's Own (miniquest)",
-				"Chunks": ["-8"],
+				"Chunks": ["15135"],
 				"Tasks": {
 					"~|Tuai Leit's Own (miniquest)|~ 4": "Quest"
 				},
@@ -117782,7 +117782,7 @@
 				"Category": ["MQC achievements"],
 				"Description": "Loot the trunk in the Temple of Aminishi.",
 				"BaseQuest": "Completionist achievements",
-				"Chunks": ["-16-1", "Temple of Aminishi", "-32-1"],
+				"Chunks": ["17950-1", "Temple of Aminishi", "16667-1"],
 				"Tasks": {
 					"~|Curse of the Black Stone|~ 5": "Quest"
 				},
@@ -121754,7 +121754,7 @@
 				"Category": ["Comp achievements"],
 				"Description": "Activate all tortle portals on The Islands That Once Were Turtles.",
 				"BaseQuest": "Completionist achievements",
-				"Chunks": ["-20", "-22", "-23"],
+				"Chunks": ["16923", "16668", "16155"],
 				"Skills": {
 					"Divination": 80
 				},
@@ -122839,7 +122839,7 @@
 				"Category": ["Comp achievements"],
 				"Description": "Purchase some unlocks from the Waiko reward shop.",
 				"BaseQuest": "Completionist achievements",
-				"Chunks": ["-11"],
+				"Chunks": ["15134"],
 				"Tasks": {
 					"~|Impressing the Locals|~ Complete the quest": "Quest"
 				},
@@ -122856,7 +122856,7 @@
 				"Category": ["Comp achievements"],
 				"Description": "Purchase the first tier of upgrades in the Waiko reward shop.",
 				"BaseQuest": "Completionist achievements",
-				"Chunks": ["-11"],
+				"Chunks": ["15134"],
 				"Tasks": {
 					"~|Impressing the Locals|~ Complete the quest": "Quest"
 				},
@@ -123066,7 +123066,7 @@
 				"Category": ["Comp achievements", "Trim achievements"],
 				"Description": "Unlock the bonecrusher upgrade from Waiko reward shop.",
 				"BaseQuest": "Completionist achievements",
-				"Chunks": ["-11"],
+				"Chunks": ["15134"],
 				"Items": ["Bonecrusher"],
 				"Skills": {
 					"Dungeoneering": 25
@@ -123084,7 +123084,7 @@
 					"12849", "12337-1", "12338-1", "13366-1", "10804", "11824", "12082-1", "13107-1", "12340-1", "12595", "11826", "12854", "10548", "12084-1", "11574", "11061", "10291", "10292", "11061", "10807-1", "13364", "13111", "13106-1",
 					"13878-1", "13879", "13365-1", "12341-1", "11057", "9777-3", "9776", "10288-1", "10039", "9781", "10036-2", "11317-1", "13104-2",
 					"12090", "12856", "10293", "10040", "11318-2", "11065-1", "13105", "11569-1", "11310-1",
-					"TzHaar City", "9524-1", "-11", "13623", "14646-1", "12586", "Invention Guild", "Dragontooth Island resource dungeon", "8757", "12086"
+					"TzHaar City", "9524-1", "15134", "13623", "14646-1", "12586", "Invention Guild", "Dragontooth Island resource dungeon", "8757", "12086"
 				],
 				"Items": ["Plank*", "Oak plank*", "Teak plank*", "Mahogany plank*", "Steel nails*", "Gold leaf*"],
 				"Skills": {
@@ -123867,7 +123867,7 @@
 				"Category": ["Comp achievements", "Trim achievements"],
 				"Description": "Fully explore what the Arc has to offer, and earn the right to claim the 'Salty' title.",
 				"BaseQuest": "Completionist achievements",
-				"Chunks": ["-11", "12082-1", "-3", "-4", "-26", "Uncharted Isles"],
+				"Chunks": ["15134", "12082-1", "15139", "14883", "17176-1", "Uncharted Isles"],
 				"Objects": [
 					"Mushroom cluster#Uncharted Isles",
 					"Mushroom cluster#Goshima",
@@ -125003,7 +125003,7 @@
 			"~|hidey-hole|~: northern Waiko docks": {
 				"Category": ["Fill Stash"],
 				"Label": "Fill hidey-holes",
-				"Chunks": ["-11"],
+				"Chunks": ["15134"],
 				"Items": ["Culinaromancer's gloves 10", "Infinity boots", "Dark bow"],
 				"Tasks": {
 					"Build a master ~|hidey-hole|~": "Construction"
@@ -125186,7 +125186,7 @@
 			"Obtain ~|Iago|~": {
 				"Category": ["Arc Log", "Pets"],
 				"Label": "Pets",
-				"Chunks": ["-26-1"],
+				"Chunks": ["17176-1"],
 				"Tasks": {
 					"Spot the ~|Cyclosis Cockatiel|~": "Extra",
 					"Spot the ~|Pumpkin Limpkin|~": "Extra",
@@ -125214,7 +125214,7 @@
 			"Obtain the ~|Berries of the Arc|~ achievement": {
 				"Category": ["Arc Log", "Achievement"],
 				"Label": "Achievement",
-				"Chunks": ["-3"],
+				"Chunks": ["15139"],
 				"Items": ["Rumberry", "Exuberry", "Fireberry", "Blisterberry", "Mournberry", "Stoneberry", "Stormberry", "Rosaberry", "Squiffberry", "Meloberry", "Jitterberry", "Cocoaberry", "Smoulderberry", "Sourberry", "Gloomberry", "Musaberry"]
 			},
 			"Obtain the ~|Mushrooms of the Arc|~ achievement": {
@@ -142695,7 +142695,7 @@
 			"Obtain the ~|Salty|~ title": {
 				"Category": ["Titles", "Arc Log"],
 				"Label": "Titles",
-				"Chunks": ["-11", "12082-1", "-3", "-4", "-26", "Uncharted Isles"],
+				"Chunks": ["15134", "12082-1", "15139", "14883", "17176-1", "Uncharted Isles"],
 				"Objects": [
 					"Message in a bottle (Milky Bay)",
 					"Message in a bottle (The Goon Docks)",
@@ -148950,8 +148950,8 @@
 				"Not F2P": true
 			},
 			
-			"-16-1 to -16-2": {
-				"Sections": ["-16-1", "-16-2"],
+			"17950-1 to 17950-2": {
+				"Sections": ["17950-1", "17950-2"],
 				"Tasks": {
 					"~|Curse of the Black Stone|~ 5": "Quest"
 				},
@@ -159720,115 +159720,115 @@
 				"Not F2P": true
 			},
 			"First island, south of the tortle portal, right by the docks.": {
-				"Chunks": ["-20"],
+				"Chunks": ["16923"],
 				"ClueTier": "master",
 				"ClueType": "Scan",
 				"Not F2P": true
 			},
 			"First island, south inside the encampment.": {
-				"Chunks": ["-20"],
+				"Chunks": ["16923"],
 				"ClueTier": "master",
 				"ClueType": "Scan",
 				"Not F2P": true
 			},
 			"First island, centre inside the encampment, two paces south of a barrel.": {
-				"Chunks": ["-20"],
+				"Chunks": ["16923"],
 				"ClueTier": "master",
 				"ClueType": "Scan",
 				"Not F2P": true
 			},
 			"First island, just outside the broken lighthouse.": {
-				"Chunks": ["-20-1"],
+				"Chunks": ["16924-1"],
 				"ClueTier": "master",
 				"ClueType": "Scan",
 				"Not F2P": true
 			},
 			"First island, in the middle of west coast of the island.": {
-				"Chunks": ["-20"],
+				"Chunks": ["16923"],
 				"ClueTier": "master",
 				"ClueType": "Scan",
 				"Not F2P": true
 			},
 			"First island, in the southern part of the east coast east of the southern gate.": {
-				"Chunks": ["-20"],
+				"Chunks": ["16923"],
 				"ClueTier": "master",
 				"ClueType": "Scan",
 				"Not F2P": true
 			},
 			"First island, in the middle of the east coast and south-east of the watchtower.": {
-				"Chunks": ["-20"],
+				"Chunks": ["16923"],
 				"ClueTier": "master",
 				"ClueType": "Scan",
 				"Not F2P": true
 			},
 			"First island, in the middle of the east coast and north-east of the watchtower.": {
-				"Chunks": ["-20"],
+				"Chunks": ["16923"],
 				"ClueTier": "master",
 				"ClueType": "Scan",
 				"Not F2P": true
 			},
 			"First island, northernmost coast, south of mushroom cluster.": {
-				"Chunks": ["-21-1"],
+				"Chunks": ["16924-1"],
 				"ClueTier": "master",
 				"ClueType": "Scan",
 				"Not F2P": true
 			},
 			"Second island, on east coast of island, north-east of the tortle portal from the first island.": {
-				"Chunks": ["-22"],
+				"Chunks": ["16668"],
 				"ClueTier": "master",
 				"ClueType": "Scan",
 				"Not F2P": true
 			},
 			"Second island, south-east of Halia (divine merchant), and four paces east of the southern of the two palm trees.": {
-				"Chunks": ["-22"],
+				"Chunks": ["16668"],
 				"ClueTier": "master",
 				"ClueType": "Scan",
 				"Not F2P": true
 			},
 			"South-east of Halia (divine merchant).": {
-				"Chunks": ["-22"],
+				"Chunks": ["16668"],
 				"ClueTier": "master",
 				"ClueType": "Scan",
 				"Not F2P": true
 			},
 			"Second island, south-east of the volcano near the teleport to the third island.": {
-				"Chunks": ["-22"],
+				"Chunks": ["16668"],
 				"ClueTier": "master",
 				"ClueType": "Scan",
 				"Not F2P": true
 			},
 			"Second island, south-west of Halia.": {
-				"Chunks": ["-22"],
+				"Chunks": ["16668"],
 				"ClueTier": "master",
 				"ClueType": "Scan",
 				"Not F2P": true
 			},
 			"Third island, between the portals.": {
-				"Chunks": ["-23"],
+				"Chunks": ["16155"],
 				"ClueTier": "master",
 				"ClueType": "Scan",
 				"Not F2P": true
 			},
 			"Third island, north-west of mushroom cluster.": {
-				"Chunks": ["-23"],
+				"Chunks": ["16155"],
 				"ClueTier": "master",
 				"ClueType": "Scan",
 				"Not F2P": true
 			},
 			"Third island, south-west corner by the palm tree.": {
-				"Chunks": ["-23"],
+				"Chunks": ["16155"],
 				"ClueTier": "master",
 				"ClueType": "Scan",
 				"Not F2P": true
 			},
 			"Third island, three paces south of the southern edge of the mushroom cluster.": {
-				"Chunks": ["-23"],
+				"Chunks": ["16155"],
 				"ClueTier": "master",
 				"ClueType": "Scan",
 				"Not F2P": true
 			},
 			"Third island, north-east of the dead moai.": {
-				"Chunks": ["-23"],
+				"Chunks": ["16155"],
 				"ClueTier": "master",
 				"ClueType": "Scan",
 				"Not F2P": true
@@ -160254,187 +160254,187 @@
 				"Not F2P": true
 			},
 			"Up the first stairway, by the statue near the sotapanna.": {
-				"Chunks": ["-28-1"],
+				"Chunks": ["16153-1"],
 				"ClueTier": "master",
 				"ClueType": "Compass",
 				"Not F2P": true
 			},
 			"East of Ling on the beach, three paces east of the south-eastern corner of the campfire.": {
-				"Chunks": ["-28-1"],
+				"Chunks": ["16153-1"],
 				"ClueTier": "master",
 				"ClueType": "Compass",
 				"Not F2P": true
 			},
 			"South of the Well of Spirits.": {
-				"Chunks": ["-29-1"],
+				"Chunks": ["16409"],
 				"ClueTier": "master",
 				"ClueType": "Compass",
 				"Not F2P": true
 			},
 			"South of the entrance to the Temple of Aminishi.": {
-				"Chunks": ["-30-1"],
+				"Chunks": ["16154-1"],
 				"ClueTier": "master",
 				"ClueType": "Compass",
 				"Not F2P": true
 			},
 			"South of the rock where the Aminishi moai is located before completing Head of the Family (miniquest).": {
-				"Chunks": ["-30-2"],
+				"Chunks": ["16154-2"],
 				"ClueTier": "master",
 				"ClueType": "Compass",
 				"Not F2P": true
 			},
 			"On the beach where the salty crabletines are located, in between four palm trees.": {
-				"Chunks": ["-27-1"],
+				"Chunks": ["16920-1"],
 				"ClueTier": "master",
 				"ClueType": "Compass",
 				"Not F2P": true
 			},
 			"Right next to Odd Billy.": {
-				"Chunks": ["-26-1"],
+				"Chunks": ["17176-1"],
 				"ClueTier": "master",
 				"ClueType": "Compass",
 				"Not F2P": true
 			},
 			"In the graveyard, east of the dead moai.": {
-				"Chunks": ["-24"],
+				"Chunks": ["16919"],
 				"ClueTier": "master",
 				"ClueType": "Compass",
 				"Not F2P": true
 			},
 			"On the south-eastern beach.": {
-				"Chunks": ["-25-2"],
+				"Chunks": ["17175-2"],
 				"ClueTier": "master",
 				"ClueType": "Compass",
 				"Not F2P": true
 			},
 			"At the stairs on Goshima.": {
-				"Chunks": ["-16-2"],
+				"Chunks": ["17950-2"],
 				"ClueTier": "master",
 				"ClueType": "Compass",
 				"Not F2P": true
 			},
 			"At the trees on Goshima.": {
-				"Chunks": ["-15"],
+				"Chunks": ["17693"],
 				"ClueTier": "master",
 				"ClueType": "Compass",
 				"Not F2P": true
 			},
 			"Next to dead druid south of the main pier.": {
-				"Chunks": ["-15"],
+				"Chunks": ["17693"],
 				"ClueTier": "master",
 				"ClueType": "Compass",
 				"Not F2P": true
 			},
 			"North of the stairs, two paces north-east of the upper part of the corpse.": {
-				"Chunks": ["-16-2"],
+				"Chunks": ["17950-2"],
 				"ClueTier": "master",
 				"ClueType": "Compass",
 				"Not F2P": true
 			},
 			"North side of the first island.": {
-				"Chunks": ["-21-2"],
+				"Chunks": ["16924-2"],
 				"ClueTier": "master",
 				"ClueType": "Compass",
 				"Not F2P": true
 			},
 			"North of the tortle portal on the second island.": {
-				"Chunks": ["-22"],
+				"Chunks": ["16668"],
 				"ClueTier": "master",
 				"ClueType": "Compass",
 				"Not F2P": true
 			},
 			"South-west of the boulder on the third island.": {
-				"Chunks": ["-23"],
+				"Chunks": ["16155"],
 				"ClueTier": "master",
 				"ClueType": "Compass",
 				"Not F2P": true
 			},
 			"South of the tower on the first island, by the skeletons.": {
-				"Chunks": ["-21-1"],
+				"Chunks": ["16924-1"],
 				"ClueTier": "master",
 				"ClueType": "Compass",
 				"Not F2P": true
 			},
 			"South-east of the dock stairs.": {
-				"Chunks": ["-1"],
+				"Chunks": ["14884"],
 				"ClueTier": "master",
 				"ClueType": "Compass",
 				"Not F2P": true
 			},
 			"South-west of the dock stairs.": {
-				"Chunks": ["-1"],
+				"Chunks": ["14884"],
 				"ClueTier": "master",
 				"ClueType": "Compass",
 				"Not F2P": true
 			},
 			"In the bamboo forest north of the junction between the temple and the rumberry bush field.": {
-				"Chunks": ["-4"],
+				"Chunks": ["14883"],
 				"ClueTier": "master",
 				"ClueType": "Compass",
 				"Not F2P": true
 			},
 			"Directly west of Azalea Oakheart and the gnomecopter.": {
-				"Chunks": ["-4"],
+				"Chunks": ["14883"],
 				"ClueTier": "master",
 				"ClueType": "Compass",
 				"Not F2P": true
 			},
 			"North of Waiko moai. Three paces west of the middle of the bench under the cherry blossom.": {
-				"Chunks": ["-9"],
+				"Chunks": ["15391"],
 				"ClueTier": "master",
 				"ClueType": "Compass",
 				"Not F2P": true
 			},
 			"On the beach north of Rosie (supplies). Right east of the green starfish.": {
-				"Chunks": ["-11"],
+				"Chunks": ["15134"],
 				"ClueTier": "master",
 				"ClueType": "Compass",
 				"Not F2P": true
 			},
 			"East of Khan's house.": {
-				"Chunks": ["-12"],
+				"Chunks": ["15390"],
 				"ClueTier": "master",
 				"ClueType": "Compass",
 				"Not F2P": true
 			},
 			"Southern beach, five paces east and three north of the green starfish.": {
-				"Chunks": ["-13-1"],
+				"Chunks": ["15389-1"],
 				"ClueTier": "master",
 				"ClueType": "Compass",
 				"Not F2P": true
 			},
 			"West of Ted and his campfire.": {
-				"Chunks": ["-6"],
+				"Chunks": ["15905"],
 				"ClueTier": "master",
 				"ClueType": "Compass",
 				"Not F2P": true
 			},
 			"In the shipwreck north of the tortle hunting spot. Two paces south-east of the entrance in the stern.": {
-				"Chunks": ["-5"],
+				"Chunks": ["15649"],
 				"ClueTier": "master",
 				"ClueType": "Compass",
 				"Not F2P": true
 			},
 			"East of the shipwreck on the far west of the island, west of the tortle hunting spot.": {
-				"Chunks": ["-5"],
+				"Chunks": ["15649"],
 				"ClueTier": "master",
 				"ClueType": "Compass",
 				"Not F2P": true
 			},
 			"South-west of the khan's house, just west of the moai stump.": {
-				"Chunks": ["-6"],
+				"Chunks": ["15905"],
 				"ClueTier": "master",
 				"ClueType": "Compass",
 				"Not F2P": true
 			},
 			"South of the pool in the middle of the island, on the grass.": {
-				"Chunks": ["-6"],
+				"Chunks": ["15905"],
 				"ClueTier": "master",
 				"ClueType": "Compass",
 				"Not F2P": true
 			},
 			"South-east of the easternmost house up against the fence.": {
-				"Chunks": ["-7"],
+				"Chunks": ["16161"],
 				"ClueTier": "master",
 				"ClueType": "Compass",
 				"Not F2P": true
@@ -163243,7 +163243,7 @@
 		}
 	},
 	"chunks": {
-		"-1": {
+		"14884": {
 			"Object": {
 				"Water barrel": 1
 			},
@@ -163266,10 +163266,10 @@
 			},
 			"Nickname": "Tuai Leit Dock"
 		},
-		"-2": {
+		"15140": {
 			"Nickname": "Tuai Leit East Shore"
 		},
-		"-3": {
+		"15139": {
 			"Object": {
 				"Bank chest": 1,
 				"Berry planter": 2
@@ -163287,7 +163287,7 @@
 			},
 			"Nickname": "Berry Planter"
 		},
-		"-4": {
+		"14883": {
 			"Object": {
 				"Water barrel": 1,
 				"Bamboo (tree)": 2,
@@ -163323,7 +163323,7 @@
 			"Nickname": "Tuai Leit Gnome Colony"
 		},
 		
-		"-5": {
+		"15649": {
 			"Object": {
 				"Sand": 4
 			},
@@ -163341,7 +163341,7 @@
 			},
 			"Nickname": "Tortle Hunter Area"
 		},
-		"-6": {
+		"15905": {
 			"Object": {
 				"Water barrel": 1,
 				"Fishing spot (Whale's Maw)": 6,
@@ -163364,7 +163364,7 @@
 			},
 			"Nickname": "Whale's Maw Dock"
 		},
-		"-7": {
+		"16161": {
 			"Object": {
 				"Fishing spot (Whale's Maw)": 5,
 				"Deposit box": 1
@@ -163381,7 +163381,7 @@
 			"Nickname": "East Whale's Maw"
 		},
 		
-		"-8": {
+		"15135": {
 			"Object": {
 				"Water barrel": 1
 			},
@@ -163403,7 +163403,7 @@
 			},
 			"Nickname": "Waiko Northern Docks"
 		},
-		"-9": {
+		"15391": {
 			"Quest": {
 				"Curse of the Black Stone": "step"
 			},
@@ -163412,7 +163412,7 @@
 			},
 			"Nickname": "Cherry Blossom Bench"
 		},
-		"-10": {
+		"14878": {
 			"Object": {
 				"Water barrel": 1
 			},
@@ -163424,7 +163424,7 @@
 			},
 			"Nickname": "Waiko Western Docks"
 		},
-		"-11": {
+		"15134": {
 			"Object": {
 				"Water barrel": 11,
 				"Bank chest": 1,
@@ -163475,7 +163475,7 @@
 			},
 			"Nickname": "Waiko Marketplace"
 		},
-		"-12": {
+		"15390": {
 			"Object": {
 				"Water barrel": 2,
 				"Bamboo (tree)": 4,
@@ -163496,7 +163496,7 @@
 			},
 			"Nickname": "Khan's House"
 		},
-		"-12.5": {
+		"15133": {
 			"Object": {
 				"Fishing spot (Waiko)": 3
 			},
@@ -163508,7 +163508,7 @@
 			},
 			"Nickname": "Waiko Southern Docks"
 		},
-		"-13": {
+		"15389": {
 			"Sections": {
 				"1": {
 					"Object": {
@@ -163534,7 +163534,7 @@
 			"Nickname": "Waiko Village"
 		},
 		
-		"-14": {
+		"17694": {
 			"Object": {
 				"Mushroom cluster#Goshima": 1
 			},
@@ -163557,7 +163557,7 @@
 			},
 			"Nickname": "Goshima Docks"
 		},
-		"-15": {
+		"17693": {
 			"Object": {
 				"Water barrel": 1,
 				"Mushroom cluster#Goshima": 1,
@@ -163580,7 +163580,7 @@
 			},
 			"Nickname": "Ravished Druid Colony"
 		},
-		"-16": {
+		"17950": {
 			"Sections": {
 				"1": {
 					"Object": {
@@ -163608,7 +163608,7 @@
 			},
 			"Nickname": "Gongdung Gate"
 		},
-		"-17": {
+		"17949": {
 			"Sections": {
 				"1": {
 					"Object": {
@@ -163619,13 +163619,13 @@
 			},
 			"Nickname": "South Gongdung"
 		},
-		"-18": {
+		"18206": {
 			"Object": {
 				"Trunk": 2
 			},
 			"Nickname": "North-East Gongdung"
 		},
-		"-19": {
+		"18205": {
 			"Object": {
 				"Trunk": 2
 			},
@@ -163633,7 +163633,7 @@
 		},
 		
 		
-		"-20": {
+		"16923": {
 			"Object": {
 				"Mushroom cluster#The Islands That Once Were Turtles": 1,
 				"Skulls pirate": 1,
@@ -163658,7 +163658,7 @@
 			},
 			"Nickname": "Southern Island That Once Was a Big Turtle"
 		},
-		"-21": {
+		"16924": {
 			"Sections": {
 				"1": {
 					"Object": {
@@ -163688,7 +163688,7 @@
 			},
 			"Nickname": "Northern Island That Once Was a Big Turtle"
 		},
-		"-22": {
+		"16668": {
 			"Object": {
 				"Mushroom cluster#The Islands That Once Were Turtles": 1,
 				"Message in a bottle (The Hamlet)": 1
@@ -163704,7 +163704,7 @@
 			},
 			"Nickname": "North Island That Once Was a Turtle"
 		},
-		"-23": {
+		"16155": {
 			"Object": {
 				"Mushroom cluster#The Islands That Once Were Turtles": 1,
 				"Message in a bottle (Quis-land)": 1
@@ -163719,7 +163719,7 @@
 			"Nickname": "West Island That Once Was a Turtle"
 		},
 		
-		"-24": {
+		"16919": {
 			"NPC": {
 				"Quartermaster Gully": 1,
 				"Navigator Jemi": 1,
@@ -163743,7 +163743,7 @@
 			},
 			"Nickname": "Cyclosis Main Dock"
 		},
-		"-25": {
+		"17175": {
 			"Sections": {
 				"1": {
 					"Object": {
@@ -163777,7 +163777,7 @@
 			},
 			"Nickname": "Cyclosis Southern Dock"
 		},
-		"-26": {
+		"17176": {
 			"Sections": {
 				"1": {
 					"Object": {
@@ -163806,7 +163806,7 @@
 			},
 			"Nickname": "Ichi's Tower"
 		},
-		"-27": {
+		"16920": {
 			"Sections": {
 				"1": {
 					"NPC": {
@@ -163825,7 +163825,7 @@
 			"Nickname": "Salty Crabletines"
 		},
 		
-		"-28": {
+		"16153": {
 			"Sections": {
 				"1": {
 					"Object": {
@@ -163867,7 +163867,7 @@
 			
 			"Nickname": "Aminishi Dock"
 		},
-		"-29": {
+		"16409": {
 			"Object": {
 				"The Well of Spirits": 1
 			},
@@ -163885,7 +163885,7 @@
 			},
 			"Nickname": "The Well of Spirits"
 		},
-		"-30": {
+		"16154": {
 			"Sections": {
 				"1": {
 					"Object": {
@@ -163916,7 +163916,7 @@
 			},
 			"Nickname": "Temple of Aminishi"
 		},
-		"-31": {
+		"16410": {
 			"Sections": {
 				"1": {},
 				"2": {},
@@ -163924,7 +163924,7 @@
 			},
 			"Nickname": "Bridge to the Azure Room"
 		},
-		"-32": {
+		"16667": {
 			"Sections": {
 				"1": {
 					"Object": {
@@ -163936,7 +163936,7 @@
 			},
 			"Nickname": "North-Eastest Aminishi"
 		},
-		"-33": {
+		"16666": {
 			"Object": {
 				"Bamboo (tree)": 8,
 				"Bank deposit box": 1,
@@ -163947,7 +163947,7 @@
 			},
 			"Nickname": "North-East Aminishi Mine"
 		},
-		"-34": {
+		"16411": {
 			"Nickname": "North-East Aminishi Western Beach"
 		},
 		
@@ -163962,14 +163962,13 @@
 				"Dusky Wigglebill": 1
 			},
 			"Connect": {
-				"-29": true
+				"16409": true
 			},
 			"Quest": {
 				"Spiritual Enlightenment (miniquest)": "step",
 				"Tuai Leit's Own (miniquest)": "step"
 			}
 		},
-		
 		"Uncharted Isles": {
 			"Object": {
 				"Bamboo (tree)": 1,
@@ -164008,13 +164007,13 @@
 				"Cocoa Macaw": 1
 			},
 			"Connect": {
-				"-1": true,
-				"-6": true,
-				"-8": true,
-				"-14": true,
-				"-20": true,
-				"-24": true,
-				"-28": true
+				"14884": true,
+				"15905": true,
+				"15135": true,
+				"17694": true,
+				"16923": true,
+				"16919": true,
+				"16153": true
 			}
 		},
 		
@@ -211297,7 +211296,7 @@
 				"Seiryu the Azure Serpent": 1
 			},
 			"Connect": {
-				"-30": true
+				"16154": true
 			},
 			"Quest": {
 				"Curse of the Black Stone": "step"
@@ -211313,7 +211312,7 @@
 				"Shackle Platform": 2
 			},
 			"Connect": {
-				"-30": true
+				"16154": true
 			},
 			"Quest": {
 				"Curse of the Black Stone": "step"
@@ -219238,7 +219237,7 @@
 			"LarryChunks[+]": ["10810-1", "10291"],
 			"LumbridgeSwampChunks[+]": ["12849", "12593"],
 			"Lunar/Ancients[+]": ["8508", "Jaldraocht Pyramid"],
-			"MasterHideyHoles[+]": ["TzHaar City", "9524-1", "-11", "13623", "14646-1", "Grand Library of Menaphos", "Invention Guild", "9053", "12594", "12086", "8757"],
+			"MasterHideyHoles[+]": ["TzHaar City", "9524-1", "15134", "13623", "14646-1", "Grand Library of Menaphos", "Invention Guild", "9053", "12594", "12086", "8757"],
 			"TheMeasureChunks[+]": ["15939-1", "Freneskae#The Elder Halls"],			
 			"MagesGnomeRestaurant[+]": ["12337-1", "10288-1"],
 			"MediumHideyHoles[+]": ["13878-1", "13879", "12341-1", "11056", "9776", "10039", "9781", "10288-1", "9777-3", "10036-1", "13365-1", "13104-2"],
@@ -219267,7 +219266,7 @@
 			"SoulObelisks[+]": ["12843-1", "12586", "12587-1", "12585"],
 			"StrangeChunks[+]": ["11570", "11830-1", "12081-1", "12083-1", "12085-1", "12339", "12341-1", "12851-1", "12852", "12854", "13107-1", "13363"],
 			"TaiBwoWannaiChunks[+]": ["11056", "11055-1"],
-			"The Arc[+]": ["-1", "-2", "-3", "-4", "-5", "-6", "-7", "-9", "-10", "-11", "-12", "-12.5", "-13-1", "-13-2", "-14", "-15", "-16-2", "-17-2", "-20", "-21-1", "-21-2", "-21-3", "-28-1", "-28-2", "-29", "-30", "-24", "-25-1", "-25-2", "-26-1", "-26-2", "-27-1", "-27-2"],
+			"The Arc[+]": ["14884", "15140", "15139", "14883", "15649", "15905", "16161", "15391", "14878", "15134", "15390", "15133", "-13-1", "-13-2", "-14", "17693", "17950-2", "17949-2", "-20", "16924-1", "16924-2", "16924-3", "16153-1", "16153-2", "16409", "16154", "16919", "17175-1", "17175-2", "17176-1", "17176-2", "16920-1", "16920-2"],
 			"Thievesguild[+]": ["Thieves' Guild after Caper 2", "Thieves' Guild Complete"],
 			"Tirannwn[+]": ["8754-1", "8754-2", "8754-3", "8753-1", "8753-2", "8753-3", "9010-1", "9010-2", "9010-3", "9009-1", "9009-2"],
 			"VibrantOrBetterWisps[+]": ["9516", "13879", "Freneskae#The Elder Halls", "13619-1", "15159", "13097-1", "9007"],
@@ -223048,28 +223047,28 @@
 			"Lumbridge Swamp Caves": true
 		},
 		"master": {
-			"-1": true,
-			"-4": true,
-			"-5": true,
-			"-6": true,
-			"-7": true,
-			"-9": true,
-			"-11": true,
-			"-12": true,
-			"-13": true,
-			"-15": true,
-			"-16": true,
-			"-20": true,
-			"-21": true,
-			"-22": true,
-			"-23": true,
-			"-24": true,
-			"-25": true,
-			"-26": true,
-			"-27": true,
-			"-28": true,
-			"-29": true,
-			"-30": true,
+			"14884": true,
+			"14883": true,
+			"15649": true,
+			"15905": true,
+			"16161": true,
+			"15391": true,
+			"15134": true,
+			"15390": true,
+			"15389": true,
+			"17693": true,
+			"17950": true,
+			"16923": true,
+			"16924": true,
+			"16668": true,
+			"16155": true,
+			"16919": true,
+			"17175": true,
+			"17176": true,
+			"16920": true,
+			"16153": true,
+			"16409": true,
+			"16154": true,
 			"7472": true,
 			"7473": true,
 			"7727": true,
@@ -276602,7 +276601,7 @@
 		"Crocodile Tears": "13099, Uzer Mastaba, 13871, 13354, 12591, Water Ravine Dungeon, 12329, Crondis Tomb, 13356",
 		"A Cultist's Journey": "11575, 13364, 10030, Senntisten",
 		"The Curse of Arrav": "13613, Lamistard's Tunnels, 11324, Uzer Mastaba, 12854, Chaos Temple Dungeon",
-		"Curse of the Black Stone": "13625, -5, -4, -15, -17, -16, -16, Temple of Aminishi, Mr Mordaut's Office, 13881, Adamant dragon dungeon, Dragonkin Laboratory, 12337, 12086, 13617, 12087, 13356, -9, -8, -10, -11, -12, -12.5, -13, Taverley Dungeon, 12087, The Shadow Reef",
+		"Curse of the Black Stone": "13625, 15649, 14883, 17693, 17949, 17950, Temple of Aminishi, Mr Mordaut's Office, 13881, Adamant dragon dungeon, Dragonkin Laboratory, 12337, 12086, 13617, 12087, 13356, 15391, 15135, 14878, 15134, 15390, 15133, 15389, Taverley Dungeon, 12087, The Shadow Reef",
 		"The Darkness of Hallowvale": "Burgh de Rott Myreque Hideout, 14129, 14385, 14386, Meiyerditch Myreque base, Paterdomus, 13622, 12854, 14387, 14388, 14132, Meiyerditch Laboratories",
 		"Daughter of Chaos": "11828, 12599",
 		"Dead and Buried": "13111, Old Crypt, 12854",
@@ -276862,7 +276861,7 @@
 		"Civil War II (miniquest)": "12599, 12342",
 		"Civil War III (miniquest)": "12599, 13107, 11828",
 		"The Curse of Zaros (miniquest)": "10037, CurseOfZaros1[+], CurseOfZaros2[+], CurseOfZaros3[+], CurseOfZaros4[+], CurseOfZaros5[+]",
-		"Damage Control (miniquest)": "-11, -14, -16, -15, -17",
+		"Damage Control (miniquest)": "15134, 17694, 17950, 17693, 17949",
 		"Desert Slayer Dungeon (miniquest)": "Pollnivneach Slayer Dungeon",
 		"Doric's Task I (miniquest)": "11829, 12084",
 		"Doric's Task II (miniquest)": "11829, 11575",
@@ -276873,22 +276872,22 @@
 		"Doric's Task VII (miniquest)": "11829, Keldagrim",
 		"Doric's Task VIII (miniquest)": "11829, 11828",
 		"Enter the Abyss (miniquest)": "12343, 12852, EnterTheAbyss3[+]x3",
-		"Eye for an Eye (miniquest)": "-25, -26, -24, -27",
+		"Eye for an Eye (miniquest)": "17175, 17176, 16919, 16920",
 		"Father and Son (miniquest)": "15683, 10553",
-		"Final Destination (miniquest)": "-14, -15, -16",
-		"Flag Fall (miniquest)": "-11",
+		"Final Destination (miniquest)": "17694, 17693, 17950",
+		"Flag Fall (miniquest)": "15134",
 		"From Tiny Acorns (miniquest)": "Thieves' Guild Start, 12853",
 		"Fur 'n Seek#Wish List": "13366",
 		"The General's Shadow (miniquest)": "10808, 10806, 11311, 9780, 12340, 13104, Goblin Cave",
-		"Ghosts from the Past (miniquest)": "-20, -21",
+		"Ghosts from the Past (miniquest)": "16923, 16924",
 		"A Guild of Our Own (miniquest)": "Thieves' Guild after Caper 2, 10547, 12851",
-		"Harbinger (miniquest)": "-24, -1",
-		"Head of the Family (miniquest)": "-12, -30, -13, -11, -5, -28",
+		"Harbinger (miniquest)": "16919, 14884",
+		"Head of the Family (miniquest)": "15390, 16154, 15389, 15134, 15649, 16153",
 		"Helping Laniakea (miniquest)": "15939, 15425, 15935, 16703, 15683, 16708, 16453, 15172",
 		"Hopespear's Will (miniquest)": "Goblin Temple, Yu'biusk",
 		"The Hunt for Surok (miniquest)": "13110, Tunnel of Chaos",
 		"In Memory of the Myreque (miniquest)": "13879",
-		"Jed Hunter (miniquest)": "-8, -13, -11, -5",
+		"Jed Hunter (miniquest)": "15135, 15389, 15134, 15649",
 		"Koschei's Troubles (miniquest)": "10553, 10552",
 		"Lair of Tarn Razorlor (miniquest)": "Lair of Tarn Razorlor (dungeon)",
 		"Lost Her Marbles (miniquest)": "Thieves' Guild after Caper 1, 12851",
@@ -276903,7 +276902,7 @@
 		"Purple Cat (miniquest)": "12339, Betty's Basement",
 		"Restoring Senliten": "12338, Uzer Mastaba, 13106, 12854, 13107",
 		"Sheep Shearer (miniquest)": "12851, 12595",
-		"Spiritual Enlightenment (miniquest)": "-28, Player-Owned Port, -29, Aminishi Spirit Realm",
+		"Spiritual Enlightenment (miniquest)": "16153, Player-Owned Port, 16409, Aminishi Spirit Realm",
 		"Tales of Nomad (miniquest)": "Death's Office, 12342, 12853, 9778, Nomad's temple, Lumbridge Catacombs, 13109, 8748, 11828, 12087, 9007",
 		"Tales of the God Wars (miniquest)": "13356, 9007, The Barrows, God Wars Dungeon, Grotworm Lair 1, Grotworm Lair 2, Grotworm Lair 3",
 		"Thok It To 'Em (abridged saga)": "13626, 13882, 13625",
@@ -276913,7 +276912,7 @@
 		"Three's Company (abridged saga)": "13626, 13882, 13625",
 		"Three's Company (unabridged saga)": "13626, 13882, 13625",
 		"Tortle Combat (miniquest)": "12854, 10548, Varrock Sewers, 12598",
-		"Tuai Leit's Own (miniquest)": "-1, -3, -4, Aminishi Spirit Realm, -11, -8",
+		"Tuai Leit's Own (miniquest)": "14884, 15139, 14883, Aminishi Spirit Realm, 15134, 15135",
 		"Vengeance (abridged saga)": "13626, 13882, 13625",
 		"Vengeance (unabridged saga)": "13626, 13882, 13625",
 		"Wandering Ga'al (miniquest)": "Fight Cauldron",
@@ -324285,168 +324284,168 @@
 		"Imperial ranger akh": 117
 	},
 	"sections": {
-		"-1": {
+		"14884": {
 			"0": [
-				"-2",
-				"-4"
+				"15140",
+				"14883"
 			]
 		},
-		"-2": {
+		"15140": {
 			"0": [
-				"-1",
-				"-3"
+				"14884",
+				"15139"
 			]
 		},
-		"-3": {
+		"15139": {
 			"0": [
-				"-2",
-				"-4"
+				"15140",
+				"14883"
 			]
 		},
-		"-4": {
+		"14883": {
 			"0": [
-				"-1",
-				"-3"
+				"14884",
+				"15139"
 			]
 		},
 		
-		"-5": {
+		"15649": {
 			"0": [
-				"-6"
+				"15905"
 			]
 		},
-		"-6": {
+		"15905": {
 			"0": [
-				"-7",
-				"-5"
+				"16161",
+				"15649"
 			]
 		},
-		"-7": {
+		"16161": {
 			"0": [
-				"-6"
+				"15905"
 			]
 		},
 		
-		"-8": {
+		"15135": {
 			"0": [
-				"-11"
+				"15134"
 			]
 		},
-		"-9": {
+		"15391": {
 			"0": [
-				"-12"
+				"15390"
 			]
 		},
-		"-10": {
+		"14878": {
 			"0": [
-				"-11"
+				"15134"
 			]
 		},
-		"-11": {
+		"15134": {
 			"0": [
-				"-8",
-				"-12",
-				"-12.5",
-				"-10"
+				"15135",
+				"15390",
+				"15133",
+				"14878"
 			]
 		},
-		"-12": {
+		"15390": {
 			"0": [
-				"-9",
-				"-13-1",
-				"-13-2"
+				"15391",
+				"15389-1",
+				"15389-2"
 			]
 		},
-		"-12.5": {
+		"15133": {
 			"0": [
-				"-11",
-				"-13-1"
+				"15134",
+				"15389-1"
 			]
 		},
-		"-13": {
+		"15389": {
 			"1": [
-				"-12",
-				"-12.5"
+				"15390",
+				"15133"
 			],
 			"2": [
-				"-12"
+				"15390"
 			]
 		},
 		
-		"-14": {
+		"17694": {
 			"0": [
-				"-16-2",
-				"-15"
+				"17950-2",
+				"17693"
 			]
 		},
-		"-15": {
+		"17693": {
 			"0": [
-				"-14",
-				"-17-2"
+				"17694",
+				"17949-2"
 			]
 		},
-		"-16": {
+		"17950": {
 			"1": [
-				"-18",
-				"-17-1"
+				"18206",
+				"17949-1"
 			],
 			"2": [
-				"-17-2",
-				"-14"
+				"17949-2",
+				"17694"
 			]
 		},
-		"-17": {
+		"17949": {
 			"1": [
-				"-16-1",
-				"-19"
+				"17950-1",
+				"18205"
 			],
 			"2": [
-				"-16-2",
-				"-15"
+				"17950-2",
+				"17693"
 			]
 		},
-		"-18": {
+		"18206": {
 			"0": [
-				"-16-1",
-				"-19"
+				"17950-1",
+				"18205"
 			]
 		},
-		"-19": {
+		"18205": {
 			"0": [
-				"-18",
-				"-17-1"
+				"18206",
+				"17949-1"
 			]
 		},
 		
-		"-20": {
+		"16923": {
 			"0": [
-				"-21-1",
-				"-21-2",
-				"-21-3",
-				"-23-2"
+				"16924-1",
+				"16924-2",
+				"16924-3",
+				"16667-2"
 			]
 		},
-		"-21": {
+		"16924": {
 			"1": [
-				"-20"
+				"16923"
 			],
 			"2": [
-				"-20"
+				"16923"
 			],
 			"3": [
-				"-20"
+				"16923"
 			]
 		},
-		"-22": {
+		"16668": {
 			"0": []
 		},
-		"-23": {
+		"16155": {
 			"0": []
 		},
 		
-		"-24": {
+		"16919": {
 			"0": [
-				"-27-1",
+				"16920-1",
 				"-25-1",
 				"-25-2",
 				"-25-3"
@@ -324455,97 +324454,97 @@
 		"-25": {
 			"1": [
 				"-26-1",
-				"-24"
+				"16919"
 			],
 			"2": [
-				"-24"
+				"16919"
 			],
 			"3": [
-				"-24"
+				"16919"
 			]
 		},
 		"-26": {
 			"1": [
 				"-25-1",
-				"-27-1",
-				"-27-2"
+				"16920-1",
+				"16920-2"
 			],
 			"2": [
-				"-27-1"
+				"16920-1"
 			],
 			"3": [
-				"-27-1"
+				"16920-1"
 			]
 		},
-		"-27": {
+		"16920": {
 			"1": [
 				"-26-1",
 				"-26-2",
 				"-26-3",
-				"-24"
+				"16919"
 			],
 			"2": [
 				"-26-1",
-				"-24"
+				"16919"
 			]
 		},
 		
-		"-28": {
+		"16153": {
 			"1": [
-				"-30-1",
-				"-30-2",
-				"-29"
+				"16154-1",
+				"16154-2",
+				"16409"
 			],
 			"2": [
-				"-30"
+				"16154"
 			]
 		},
-		"-29": {
+		"16409": {
 			"0": [
-				"-31-2",
-				"-28-1"
+				"16410-2",
+				"16153-1"
 			]
 		},
-		"-30": {
+		"16154": {
 			"1": [
-				"-28-1",
-				"-31-3"
+				"16153-1",
+				"16410-3"
 			],
 			"2": [
-				"-28-2"
+				"16153-2"
 			]
 		},
-		"-31": {
+		"16410": {
 			"1": [
-				"-34",
-				"-33"
+				"16411",
+				"16666"
 			],
 			"2": [
-				"-29"
+				"16409"
 			],
 			"3": [
-				"-30"
+				"16154"
 			]
 		},
-		"-32": {
+		"16667": {
 			"1": [
-				"-33",
-				"-34"
+				"16666",
+				"16411"
 			],
 			"2": [
-				"-20"
+				"16923"
 			]
 		},
-		"-33": {
+		"16666": {
 			"0": [
-				"-32",
-				"-31-1"
+				"16667-1",
+				"16410-1"
 			]
 		},
-		"-34": {
+		"16411": {
 			"0": [
-				"-32-1",
-				"-31"
+				"16667-1",
+				"16410-1"
 			]
 		},
 		

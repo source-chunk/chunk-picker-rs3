@@ -29,8 +29,8 @@ let zoom = 350;                                                                 
 let fontZoom = 16;                                                              // Font size zoom
 let labelZoom = 96;                                                             // Selected label font size zoom
 let scale = 30;                                                                 // Amount zoomed every 'zoom' action
-let fullSize = 1254;                                                            // Amount of chunks present
-let rowSize = 38;                                                               // Amount of chunks per row
+let fullSize = 2150;                                                            // Amount of chunks present
+let rowSize = 43;                                                               // Amount of chunks per row
 let scrollLeft = 0;                                                             // Amount the board is scrolled left offscreen
 let prevScrollLeft = 0;                                                         // Amount the board was previously scrolled left offscreen
 let scrollTop = 0;                                                              // Amount the board is scrolled up offscreen
@@ -41,13 +41,13 @@ let chunkInfo = {};                                                             
 let infoLockedId = -1;                                                          // Id of chunk locked for info
 let userName = '';                                                              // Runescape Username of user
 
-let ratio = 4217 / 4868;                                                        // Image ratio
+let ratio = 5504 / 6400;                                                        // Image ratio
 let movedNum = 0;                                                               // Amount of times mouse is moved while dragging
 let selectedNum = 1;                                                            // Current index of selected chunks
 let unlockedChunks = 0;                                                         // Number of unlocked chunks
 let selectedChunks = 0;                                                         // Number of selected chunks
 let startingIndex = 7495;                                                       // Index to start chunk numbering at
-let skip = 218;                                                                 // Number of indices to skip between columns for chunk numbering
+let skip = 213;                                                                 // Number of indices to skip between columns for chunk numbering
 
 let prevValueMid = '';                                                          // Previous value of map id at login
 let prevValuePinNew = '';                                                       // Previous value of pin at signup
