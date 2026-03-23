@@ -4777,6 +4777,7 @@
   "~|Disassemble|~ any item that gives Cywir components": "t_4884",
   "~|Disassemble|~ any item that gives Fortunate components": "t_4885",
   "~|Disassemble|~ any item that gives Manufactured components": "t_4886",
+  "~|Disassemble|~ any item that gives Ecliptic components": "t_118076",
   "~|Disassemble|~ any item that gives Historic components": "t_4887",
   "~|Disassemble|~ any item that gives Classic components": "t_4888",
   "~|Disassemble|~ any item that gives Timeworn components": "t_4889",
@@ -4880,6 +4881,7 @@
   "Build a ~|partial potion producer|~": "t_4985",
   "Create a ~|pogo stick|~": "t_4986",
   "Create a ~|spirit tree re-rooter|~": "t_4987",
+  "Discover ~|Ecliptic components|~": "t_118077",
   "Build an ~|automatic hide tanner|~": "t_4988",
   "Create an ~|enhanced pyro-matic|~": "t_4989",
   "Create an ~|enhanced fishing rod-o-matic|~": "t_4990",
@@ -88274,6 +88276,8 @@
   "Lumbridge General Store: ~|Chisel|~": "t_50663",
   "Lumbridge General Store: ~|Newcomer map|~": "t_50664",
   "Lumbridge General Store: ~|Security book|~": "t_50665",
+  "Lumbridge General Store: ~|Bird snare|~": "t_118078",
+  "Lumbridge General Store: ~|Box trap|~": "t_118079",
   "Lundail's Arena-side Rune Shop: ~|Fire rune|~": "t_50666",
   "Lundail's Arena-side Rune Shop: ~|Water rune|~": "t_50667",
   "Lundail's Arena-side Rune Shop: ~|Air rune|~": "t_50668",
@@ -90475,5 +90479,5 @@
   "Pizazz points: ~|Death rune|~": "t_52854",
   "Pizazz points: ~|Soul rune|~": "t_52856",
   "Pizazz points: ~|Blood rune|~": "t_52857",
-  "currentNextIndex": 118076
+  "currentNextIndex": 118080
 }
