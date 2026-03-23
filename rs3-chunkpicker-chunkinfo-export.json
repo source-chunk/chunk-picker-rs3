@@ -163243,780 +163243,6 @@
 		}
 	},
 	"chunks": {
-		"14884": {
-			"Object": {
-				"Water barrel": 1
-			},
-			"NPC": {
-				"Quartermaster Gully": 1,
-				"Navigator Jemi": 1,
-				"Bosun Higgs": 1,
-				"Lookout Ekahi": 1,
-				"Flippers McGraw": 1
-			},
-			"Connect": {
-				"53": true
-			},
-			"Quest": {
-				"Tuai Leit's Own (miniquest)": "first",
-				"Harbinger (miniquest)": "step"
-			},
-			"Clue": {
-				"master": 2
-			},
-			"Nickname": "Tuai Leit Dock"
-		},
-		"15140": {
-			"Nickname": "Tuai Leit East Shore"
-		},
-		"15139": {
-			"Object": {
-				"Bank chest": 1,
-				"Berry planter": 2
-			},
-			"NPC": {
-				"Alder (bamboo merchant)": 1,
-				"Sensei Hakase": 1,
-				"Name": 1
-			},
-			"Shop": {
-				"Big Bada Bamboo": true
-			},
-			"Quest": {
-				"Tuai Leit's Own (miniquest)": "step"
-			},
-			"Nickname": "Berry Planter"
-		},
-		"14883": {
-			"Object": {
-				"Water barrel": 1,
-				"Bamboo (tree)": 2,
-				"Inferior bamboo": 5,
-				"Rumberry bush": 10,
-				"Tuai Leit moai": 1
-			},
-			"NPC": {
-				"Terri (fruit merchant)": 1,
-				"Ani (farming merchant)": 1,
-				"Sensei Seaworth": 1,
-				"Keri": 1,
-				"Cheri": 1,
-				"Gnome colonist": 4,
-				"Tuai Leit Toucan": 4,
-				"Azalea Oakheart": 1
-			},
-			"Shop": {
-				"Ani's Seed Store by the Sea Shore": true,
-				"Spirited Away": true,
-				"Terri's Merry Berry Bar": true
-			},
-			"Spawn": {
-				"Tuai Leit Toucan": 1
-			},
-			"Quest": {
-				"Tuai Leit's Own (miniquest)": "step",
-				"Curse of the Black Stone": "step"
-			},
-			"Clue": {
-				"master": 3
-			},
-			"Nickname": "Tuai Leit Gnome Colony"
-		},
-		
-		"15649": {
-			"Object": {
-				"Sand": 4
-			},
-			"NPC": {
-				"Tortle": 24,
-				"Sea Witch Kaula": 1
-			},
-			"Quest": {
-				"Jed Hunter (miniquest)": "step",
-				"Head of the Family (miniquest)": "step",
-				"Curse of the Black Stone": "step"
-			},
-			"Clue": {
-				"master": 2
-			},
-			"Nickname": "Tortle Hunter Area"
-		},
-		"15905": {
-			"Object": {
-				"Water barrel": 1,
-				"Fishing spot (Whale's Maw)": 6,
-				"Camp fire": 1,
-				"Message in a bottle (The Goon Docks)": 1
-			},
-			"NPC": {
-				"Quartermaster Gully": 1,
-				"Navigator Jemi": 1,
-				"Bosun Higgs": 1,
-				"Lookout Ekahi": 1,
-				"Flippers McGraw": 1,
-				"Ted (Whale's Maw)": 1
-			},
-			"Connect": {
-				"53": true
-			},
-			"Clue": {
-				"master": 3
-			},
-			"Nickname": "Whale's Maw Dock"
-		},
-		"16161": {
-			"Object": {
-				"Fishing spot (Whale's Maw)": 5,
-				"Deposit box": 1
-			},
-			"NPC": {
-				"Hubbub (contracts)": 1
-			},
-			"Spawn": {
-				"Crested Sillago Snatcher": 1
-			},
-			"Clue": {
-				"master": 1
-			},
-			"Nickname": "East Whale's Maw"
-		},
-		
-		"15135": {
-			"Object": {
-				"Water barrel": 1
-			},
-			"NPC": {
-				"Waiko islander": 6,
-				"Quartermaster Gully": 1,
-				"Navigator Jemi": 1,
-				"Bosun Higgs": 1,
-				"Lookout Ekahi": 1,
-				"Flippers McGraw": 1
-			},
-			"Connect": {
-				"53": true
-			},
-			"Quest": {
-				"Jed Hunter (miniquest)": "first",
-				"Tuai Leit's Own (miniquest)": "step",
-				"Curse of the Black Stone": "step"
-			},
-			"Nickname": "Waiko Northern Docks"
-		},
-		"15391": {
-			"Quest": {
-				"Curse of the Black Stone": "step"
-			},
-			"Clue": {
-				"master": 1
-			},
-			"Nickname": "Cherry Blossom Bench"
-		},
-		"14878": {
-			"Object": {
-				"Water barrel": 1
-			},
-			"NPC": {
-				"Waiko islander": 2
-			},
-			"Quest": {
-				"Cure of the Black Stone": "step"
-			},
-			"Nickname": "Waiko Western Docks"
-		},
-		"15134": {
-			"Object": {
-				"Water barrel": 11,
-				"Bank chest": 1,
-				"Bamboo (tree)": 11,
-				"Grill": 1,
-				"Contract board": 2,
-				"Message in a bottle (Springbreak Island)": 1
-			},
-			"NPC": {
-				"Waiko islander": 24,
-				"Sharkborne": 1,
-				"Lidylla": 1,
-				"Salmon Max (fish merchant)": 1,
-				"Zhuka (bamboo merchant)": 1,
-				"Yi Yan (salt merchant)": 1,
-				"'Reggie' (tortle shell merchant)": 1,
-				"Tang (food merchant)": 1,
-				"Rosie (supplies)": 1,
-				"Boni (rewards)": 1,
-				"Sojobo (contracts)": 1,
-				"Port staff": 2,
-				"X-Runes": 1
-			},
-			"Monster": {
-				"Pekin": 6
-			},
-			"Shop": {
-				"Waiko Reward Shop": true,
-				"Ports Reward Shop": true,
-				"Fish Oil Sales": true,
-				"Tang Chufang": true,
-				"Salty Goods": true,
-				"Bamboo Market 101": true
-			},
-			"Spawn": {
-				"Waiko Warbler": 1
-			},
-			"Quest": {
-				"Damage Control (miniquest)": "first",
-				"Flag Fall (miniquest)": "step",
-				"Head of the Family (miniquest)": "step",
-				"Jed Hunter (miniquest)": "step",
-				"Tuai Leit's Own(miniquest)": "step",
-				"Curse of the Black Stone": "step"
-			},
-			"Clue": {
-				"master": 1
-			},
-			"Nickname": "Waiko Marketplace"
-		},
-		"15390": {
-			"Object": {
-				"Water barrel": 2,
-				"Bamboo (tree)": 4,
-				"Waiko moai": 1,
-				"Khan's house": 1,
-				"Material cache (soapstone)": 4
-			},
-			"NPC": {
-				"Waiko islander": 6,
-				"Archaeologist (excavation sites)": 1
-			},
-			"Quest": {
-				"Head of the Family (miniquest)": "first",
-				"Curse of the Black Stone": "step"
-			},
-			"Clue": {
-				"master": 1
-			},
-			"Nickname": "Khan's House"
-		},
-		"15133": {
-			"Object": {
-				"Fishing spot (Waiko)": 3
-			},
-			"NPC": {
-				"Waiko islander": 15
-			},
-			"Quest": {
-				"Curse of the Black Stone": "step"
-			},
-			"Nickname": "Waiko Southern Docks"
-		},
-		"15389": {
-			"Sections": {
-				"1": {
-					"Object": {
-						"Water barrel": 1,
-						"Message in a bottle (Milky Bay)": 1
-					},
-					"NPC": {
-						"Waiko islander": 4,
-						"Cap'n Ekahi": 1,
-						"Yuehanxun the Dealer": 1
-					},
-					"Quest": {
-						"Head of the Family (miniquest)": "step",
-						"Jed Hunter (miniquest)": "step",
-						"Curse of the Black Stone": "step"
-					},
-					"Clue": {
-						"master": 1
-					}
-				},
-				"2": {}
-			},
-			"Nickname": "Waiko Village"
-		},
-		
-		"17694": {
-			"Object": {
-				"Mushroom cluster#Goshima": 1
-			},
-			"NPC": {
-				"Quartermaster Gully": 1,
-				"Navigator Jemi": 1,
-				"Bosun Higgs": 1,
-				"Lookout Ekahi": 1,
-				"Flippers McGraw": 1,
-				"Negative energy": 4,
-				"Captain Cora": 1,
-				"Jiangshi": 1
-			},
-			"Connect": {
-				"53": true
-			},
-			"Quest": {
-				"Damage Control (miniquest)": "step",
-				"Final Destination (miniquest)": "first"
-			},
-			"Nickname": "Goshima Docks"
-		},
-		"17693": {
-			"Object": {
-				"Water barrel": 1,
-				"Mushroom cluster#Goshima": 1,
-				"Sand": 1,
-				"Message in a bottle (Agar Atoll)": 1
-			},
-			"Monster": {
-				"Undead pekin": 8
-			},
-			"Spawn": {
-				"Gongdung Peligorn": 1
-			},
-			"Quest": {
-				"Damage Control (miniquest)": "step",
-				"Final Destination (miniquest)": "step",
-				"Curse of the Black Stone": "step"
-			},
-			"Clue": {
-				"master": 2
-			},
-			"Nickname": "Ravished Druid Colony"
-		},
-		"17950": {
-			"Sections": {
-				"1": {
-					"Object": {
-						"Trunk": 6,
-						"Souls vampyres": 1,
-						"Cora's log": 1
-					},
-					"Quest": {
-						"Curse of the Black Stone": "step"
-					}
-				},
-				"2": {
-					"Object": {
-						"Mushroom cluster#Goshima": 1
-					},
-					"Quest": {
-						"Damage Control (miniquest)": "step",
-						"Final Destination (miniquest)": "step",
-						"Curse of the Black Stone": "step"
-					},
-					"Clue": {
-						"master": 2
-					}
-				}
-			},
-			"Nickname": "Gongdung Gate"
-		},
-		"17949": {
-			"Sections": {
-				"1": {
-					"Object": {
-						"Trunk": 4
-					}
-				},
-				"2": {}
-			},
-			"Nickname": "South Gongdung"
-		},
-		"18206": {
-			"Object": {
-				"Trunk": 2
-			},
-			"Nickname": "North-East Gongdung"
-		},
-		"18205": {
-			"Object": {
-				"Trunk": 2
-			},
-			"Nickname": "South-East Gongdung"
-		},
-		
-		
-		"16923": {
-			"Object": {
-				"Mushroom cluster#The Islands That Once Were Turtles": 1,
-				"Skulls pirate": 1,
-				"Skulls mercenary": 1,
-				"Crumbling wall (The Islands That Once Were Turtles)": 1
-			},
-			"NPC": {
-				"Quartermaster Gully": 1,
-				"Navigator Jemi": 1,
-				"Bosun Higgs": 1,
-				"Lookout Ekahi": 1,
-				"Flippers McGraw": 1
-			},
-			"Connect": {
-				"53": true
-			},
-			"Quest": {
-				"Ghosts from the Past (miniquest)": "first"
-			},
-			"Clue": {
-				"master": 7
-			},
-			"Nickname": "Southern Island That Once Was a Big Turtle"
-		},
-		"16924": {
-			"Sections": {
-				"1": {
-					"Object": {
-						"Skulls thief": 1
-					},
-					"Quest": {
-						"Ghosts from the Past (miniquest)": "step"
-					},
-					"Clue": {
-						"master": 2
-					}
-				},
-				"2": {
-					"Object": {
-						"Mushroom cluster#The Islands That Once Were Turtles": 1,
-						"Message in a bottle (Eisetes Cretor)": 1
-					},
-					"Clue": {
-						"master": 2
-					}
-				},
-				"3": {
-					"Spawn": {
-						"Titchy Tinamou": 1
-					}
-				}
-			},
-			"Nickname": "Northern Island That Once Was a Big Turtle"
-		},
-		"16668": {
-			"Object": {
-				"Mushroom cluster#The Islands That Once Were Turtles": 1,
-				"Message in a bottle (The Hamlet)": 1
-			},
-			"NPC": {
-				"Halia (divine merchant)": 1
-			},
-			"Shop": {
-				"Power of the Ancestors": true
-			},
-			"Clue": {
-				"master": 6
-			},
-			"Nickname": "North Island That Once Was a Turtle"
-		},
-		"16155": {
-			"Object": {
-				"Mushroom cluster#The Islands That Once Were Turtles": 1,
-				"Message in a bottle (Quis-land)": 1
-			},
-			"NPC": {
-				"Positive energy": 2,
-				"Negative energy": 2
-			},
-			"Clue": {
-				"master": 6
-			},
-			"Nickname": "West Island That Once Was a Turtle"
-		},
-		
-		"16919": {
-			"NPC": {
-				"Quartermaster Gully": 1,
-				"Navigator Jemi": 1,
-				"Bosun Higgs": 1,
-				"Lookout Ekahi": 1,
-				"Flippers McGraw": 1,
-				"Positive energy": 4,
-				"See": 1,
-				"Daya": 1,
-				"Villager": 2
-			},
-			"Connect": {
-				"53": true
-			},
-			"Quest": {
-				"Eye for an Eye (miniquest)": "step",
-				"Harbinger (miniquest)": "first"
-			},
-			"Clue": {
-				"master": 1
-			},
-			"Nickname": "Cyclosis Main Dock"
-		},
-		"17175": {
-			"Sections": {
-				"1": {
-					"Object": {
-						"Water barrel": 1
-					},
-					"NPC": {
-						"Villager": 1,
-						"Ichi": 1,
-						"Ember": 1,
-						"Kotahi": 1,
-						"Banky crablet": 1,
-						"Cyclops (Cyclosis)": 2
-					},
-					"Quest": {
-						"Eye for an Eye (miniquest)": "first"
-					}
-				},
-				"2": {
-					"Object": {
-						"Water barrel": 1,
-						"Message in a bottle (Cannonball Run)": 1
-					},
-					"Spawn": {
-						"Cyclosis Cockatiel": 1
-					},
-					"Clue": {
-						"master": 1
-					}
-				},
-				"3": {}
-			},
-			"Nickname": "Cyclosis Southern Dock"
-		},
-		"17176": {
-			"Sections": {
-				"1": {
-					"Object": {
-						"Water barrel": 1
-					},
-					"NPC": {
-						"Villager": 1,
-						"Cyclops (Cyclosis)": 2,
-						"Sinuman (food merchant)": 1,
-						"Wan Pian (flotsam merchant)": 1,
-						"Odd Billy": 1
-					},
-					"Shops": {
-						"Sweet Goods": true,
-						"The Junk of One Cyclops": true
-					},
-					"Quest": {
-						"Eye for an Eye (miniquest)": "step"
-					},
-					"Clue": {
-						"master": 1
-					}
-				},
-				"2": {},
-				"3": {}
-			},
-			"Nickname": "Ichi's Tower"
-		},
-		"16920": {
-			"Sections": {
-				"1": {
-					"NPC": {
-						"Salty crabletine": 10,
-						"Villager": 2
-					},
-					"Quest": {
-						"Eye for an Eye (miniquest)": "step"
-					},
-					"Clue": {
-						"master": 1
-					}
-				},
-				"2": {}
-			},
-			"Nickname": "Salty Crabletines"
-		},
-		
-		"16153": {
-			"Sections": {
-				"1": {
-					"Object": {
-						"Message in a bottle (The Island Which May or May Not Have Monkeys on It)": 1
-					},
-					"NPC": {
-						"Quartermaster Gully": 1,
-						"Navigator Jemi": 1,
-						"Bosun Higgs": 1,
-						"Lookout Ekahi": 1,
-						"Flippers McGraw": 1,
-						"Cap'n Ekahi": 1,
-						"Ling (contracts)": 1,
-						"Bryll Thoksdottir": 1
-					},
-					"Monster": {
-						"Sotapanna": 11,
-						"Sakadagami": 3
-					},
-					"Shop": {
-						"Elite Dungeon Reward Shop": true
-					},
-					"Spawn": {
-						"Shrine Ibis": 1
-					},
-					"Connect": {
-						"53": true
-					},
-					"Quest": {
-						"Eye for an Eye (miniquest)": "step",
-						"Spiritual Enlightenment (miniquest)": "first"
-					},
-					"Clue": {
-						"master": 2
-					}
-				},
-				"2": {}
-			},
-			
-			"Nickname": "Aminishi Dock"
-		},
-		"16409": {
-			"Object": {
-				"The Well of Spirits": 1
-			},
-			"Monster": {
-				"Sakadagami": 12
-			},
-			"Connect": {
-				"42": true
-			},
-			"Quest": {
-				"Spiritual Enlightenment (miniquest)": "step"
-			},
-			"Clue": {
-				"master": 1
-			},
-			"Nickname": "The Well of Spirits"
-		},
-		"16154": {
-			"Sections": {
-				"1": {
-					"Object": {
-						"Temple of Aminishi": 1
-					},
-					"Monster": {
-						"Anagami": 7
-					},
-					"Connect": {
-						"18063": true,
-						"49": true
-					},
-					"Clue": {
-						"master": 1
-					}
-				},
-				"2": {
-					"NPC": {
-						"Cyclops labourer": 2
-					},
-					"Quest": {
-						"Head of the Family (miniquest)": "step"
-					},
-					"Clue": {
-						"master": 1
-					}
-				}
-			},
-			"Nickname": "Temple of Aminishi"
-		},
-		"16410": {
-			"Sections": {
-				"1": {},
-				"2": {},
-				"3": {}
-			},
-			"Nickname": "Bridge to the Azure Room"
-		},
-		"16667": {
-			"Sections": {
-				"1": {
-					"Object": {
-						"Trunk": 3,
-						"Sand": 1
-					}
-				},
-				"2": {}
-			},
-			"Nickname": "North-Eastest Aminishi"
-		},
-		"16666": {
-			"Object": {
-				"Bamboo (tree)": 8,
-				"Bank deposit box": 1,
-				"Trunk": 5
-			},
-			"NPC": {
-				"Salty crabletine": 7
-			},
-			"Nickname": "North-East Aminishi Mine"
-		},
-		"16411": {
-			"Nickname": "North-East Aminishi Western Beach"
-		},
-		
-		"Aminishi Spirit Realm": {
-			"Object": {
-				"Message in a bottle (Christmas Island)": 1
-			},
-			"Monster": {
-				"Arhat": 22
-			},
-			"Spawn": {
-				"Dusky Wigglebill": 1
-			},
-			"Connect": {
-				"16409": true
-			},
-			"Quest": {
-				"Spiritual Enlightenment (miniquest)": "step",
-				"Tuai Leit's Own (miniquest)": "step"
-			}
-		},
-		"Uncharted Isles": {
-			"Object": {
-				"Bamboo (tree)": 1,
-				"Golden bamboo (tree)": 1,
-				"Exuberry bush": 1,
-				"Mushroom cluster#Uncharted Isles": 1,
-				"Wobbegong spot": 1
-			},
-			"NPC": {
-				"Salty crablet": 1,
-				"Idol crablet": 1,
-				"Tortle": 1,
-				"Alaea crablet": 1,
-				"Ancestral energy": 1,
-				"Ornate tortle": 1
-			},
-			"Monster": {
-				"Armoured zombie (Uncharted Isles)": 1,
-				"Crassian scout (Uncharted Isles)": 1,
-				"Crassion warrior (Uncharted Isles)": 1,
-				"Death Lotus rogue": 1,
-				"Eastern soldier": 1,
-				"Flying jellyfish": 1,
-				"Gu ronin": 1,
-				"Scorpion (Uncharted Isles)": 1,
-				"Seasinger priestess": 1,
-				"Skeleton (Uncharted Isles)": 1,
-				"Skulls mercenary (Uncharted Isles)": 1,
-				"Tormented soul (Uncharted Isles)": 1,
-				"Zombie (Uncharted Isles)": 1
-			},
-			"Spawn": {
-				"Dusky Wigglebill": 1,
-				"Titchy Tinamolu": 1,
-				"Fluffy Jublet": 1,
-				"Cocoa Macaw": 1
-			},
-			"Connect": {
-				"14884": true,
-				"15905": true,
-				"15135": true,
-				"17694": true,
-				"16923": true,
-				"16919": true,
-				"16153": true
-			}
-		},
-		
 		"1": {
 			"Name": "Lair of the Rex Matriarchs"
 		},
@@ -164162,7 +163388,7 @@
 			"Name": "Asuran Arsenal"
 		},
 		"49": {
-			"Name": "Temple of Aminish (Story Mode)"
+			"Name": "Temple of Aminishi (Story Mode)"
 		},
 		"50": {
 			"Name": "Dragonkin Laboratory (Story Mode)"
@@ -194279,6 +193505,76 @@
 			},
 			"Name": "Port Phasmatys Basement Brewery"
 		},
+		"14878": {
+			"Object": {
+				"Water barrel": 1
+			},
+			"NPC": {
+				"Waiko islander": 2
+			},
+			"Quest": {
+				"Cure of the Black Stone": "step"
+			},
+			"Nickname": "Waiko Western Docks"
+		},
+		"14883": {
+			"Object": {
+				"Water barrel": 1,
+				"Bamboo (tree)": 2,
+				"Inferior bamboo": 5,
+				"Rumberry bush": 10,
+				"Tuai Leit moai": 1
+			},
+			"NPC": {
+				"Terri (fruit merchant)": 1,
+				"Ani (farming merchant)": 1,
+				"Sensei Seaworth": 1,
+				"Keri": 1,
+				"Cheri": 1,
+				"Gnome colonist": 4,
+				"Tuai Leit Toucan": 4,
+				"Azalea Oakheart": 1
+			},
+			"Shop": {
+				"Ani's Seed Store by the Sea Shore": true,
+				"Spirited Away": true,
+				"Terri's Merry Berry Bar": true
+			},
+			"Spawn": {
+				"Tuai Leit Toucan": 1
+			},
+			"Quest": {
+				"Tuai Leit's Own (miniquest)": "step",
+				"Curse of the Black Stone": "step"
+			},
+			"Clue": {
+				"master": 3
+			},
+			"Nickname": "Tuai Leit Gnome Colony"
+		},
+		"14884": {
+			"Object": {
+				"Water barrel": 1
+			},
+			"NPC": {
+				"Quartermaster Gully": 1,
+				"Navigator Jemi": 1,
+				"Bosun Higgs": 1,
+				"Lookout Ekahi": 1,
+				"Flippers McGraw": 1
+			},
+			"Connect": {
+				"53": true
+			},
+			"Quest": {
+				"Tuai Leit's Own (miniquest)": "first",
+				"Harbinger (miniquest)": "step"
+			},
+			"Clue": {
+				"master": 2
+			},
+			"Nickname": "Tuai Leit Dock"
+		},
 		"14893": {
 			"Object": {
 				"Fairy ring": 1
@@ -194855,6 +194151,112 @@
 			},
 			"Name": "Mos Le'Harmless caves"
 		},
+		"15133": {
+			"Object": {
+				"Fishing spot (Waiko)": 3
+			},
+			"NPC": {
+				"Waiko islander": 15
+			},
+			"Quest": {
+				"Curse of the Black Stone": "step"
+			},
+			"Nickname": "Waiko Southern Docks"
+		},
+		"15134": {
+			"Object": {
+				"Water barrel": 11,
+				"Bank chest": 1,
+				"Bamboo (tree)": 11,
+				"Grill": 1,
+				"Contract board": 2,
+				"Message in a bottle (Springbreak Island)": 1
+			},
+			"NPC": {
+				"Waiko islander": 24,
+				"Sharkborne": 1,
+				"Lidylla": 1,
+				"Salmon Max (fish merchant)": 1,
+				"Zhuka (bamboo merchant)": 1,
+				"Yi Yan (salt merchant)": 1,
+				"'Reggie' (tortle shell merchant)": 1,
+				"Tang (food merchant)": 1,
+				"Rosie (supplies)": 1,
+				"Boni (rewards)": 1,
+				"Sojobo (contracts)": 1,
+				"Port staff": 2,
+				"X-Runes": 1
+			},
+			"Monster": {
+				"Pekin": 6
+			},
+			"Shop": {
+				"Waiko Reward Shop": true,
+				"Ports Reward Shop": true,
+				"Fish Oil Sales": true,
+				"Tang Chufang": true,
+				"Salty Goods": true,
+				"Bamboo Market 101": true
+			},
+			"Spawn": {
+				"Waiko Warbler": 1
+			},
+			"Quest": {
+				"Damage Control (miniquest)": "first",
+				"Flag Fall (miniquest)": "step",
+				"Head of the Family (miniquest)": "step",
+				"Jed Hunter (miniquest)": "step",
+				"Tuai Leit's Own(miniquest)": "step",
+				"Curse of the Black Stone": "step"
+			},
+			"Clue": {
+				"master": 1
+			},
+			"Nickname": "Waiko Marketplace"
+		},
+		"15135": {
+			"Object": {
+				"Water barrel": 1
+			},
+			"NPC": {
+				"Waiko islander": 6,
+				"Quartermaster Gully": 1,
+				"Navigator Jemi": 1,
+				"Bosun Higgs": 1,
+				"Lookout Ekahi": 1,
+				"Flippers McGraw": 1
+			},
+			"Connect": {
+				"53": true
+			},
+			"Quest": {
+				"Jed Hunter (miniquest)": "first",
+				"Tuai Leit's Own (miniquest)": "step",
+				"Curse of the Black Stone": "step"
+			},
+			"Nickname": "Waiko Northern Docks"
+		},
+		"15139": {
+			"Object": {
+				"Bank chest": 1,
+				"Berry planter": 2
+			},
+			"NPC": {
+				"Alder (bamboo merchant)": 1,
+				"Sensei Hakase": 1,
+				"Name": 1
+			},
+			"Shop": {
+				"Big Bada Bamboo": true
+			},
+			"Quest": {
+				"Tuai Leit's Own (miniquest)": "step"
+			},
+			"Nickname": "Berry Planter"
+		},
+		"15140": {
+			"Nickname": "Tuai Leit East Shore"
+		},
 		"15148": {
 			"Object": {
 				"Locker": 1,
@@ -195410,6 +194812,61 @@
 				"Fame": 1
 			}
 		},
+		"15389": {
+			"Sections": {
+				"1": {
+					"Object": {
+						"Water barrel": 1,
+						"Message in a bottle (Milky Bay)": 1
+					},
+					"NPC": {
+						"Waiko islander": 4,
+						"Cap'n Ekahi": 1,
+						"Yuehanxun the Dealer": 1
+					},
+					"Quest": {
+						"Head of the Family (miniquest)": "step",
+						"Jed Hunter (miniquest)": "step",
+						"Curse of the Black Stone": "step"
+					},
+					"Clue": {
+						"master": 1
+					}
+				},
+				"2": {}
+			},
+			"Nickname": "Waiko Village"
+		},
+		"15390": {
+			"Object": {
+				"Water barrel": 2,
+				"Bamboo (tree)": 4,
+				"Waiko moai": 1,
+				"Khan's house": 1,
+				"Material cache (soapstone)": 4
+			},
+			"NPC": {
+				"Waiko islander": 6,
+				"Archaeologist (excavation sites)": 1
+			},
+			"Quest": {
+				"Head of the Family (miniquest)": "first",
+				"Curse of the Black Stone": "step"
+			},
+			"Clue": {
+				"master": 1
+			},
+			"Nickname": "Khan's House"
+		},
+		"15391": {
+			"Quest": {
+				"Curse of the Black Stone": "step"
+			},
+			"Clue": {
+				"master": 1
+			},
+			"Nickname": "Cherry Blossom Bench"
+		},
 		"15406": {
 			"Clue": {
 				"elite": 1
@@ -195713,6 +195170,24 @@
 			"Object": {
 				"Teleportation device": 1
 			}
+		},
+		"15649": {
+			"Object": {
+				"Sand": 4
+			},
+			"NPC": {
+				"Tortle": 24,
+				"Sea Witch Kaula": 1
+			},
+			"Quest": {
+				"Jed Hunter (miniquest)": "step",
+				"Head of the Family (miniquest)": "step",
+				"Curse of the Black Stone": "step"
+			},
+			"Clue": {
+				"master": 2
+			},
+			"Nickname": "Tortle Hunter Area"
 		},
 		"15679": {
 			"Object": {
@@ -196044,6 +195519,29 @@
 			"Object": {
 				"Rockface": 4
 			}
+		},
+		"15905": {
+			"Object": {
+				"Water barrel": 1,
+				"Fishing spot (Whale's Maw)": 6,
+				"Camp fire": 1,
+				"Message in a bottle (The Goon Docks)": 1
+			},
+			"NPC": {
+				"Quartermaster Gully": 1,
+				"Navigator Jemi": 1,
+				"Bosun Higgs": 1,
+				"Lookout Ekahi": 1,
+				"Flippers McGraw": 1,
+				"Ted (Whale's Maw)": 1
+			},
+			"Connect": {
+				"53": true
+			},
+			"Clue": {
+				"master": 3
+			},
+			"Nickname": "Whale's Maw Dock"
 		},
 		"15935": {
 			"NPC": {
@@ -196449,6 +195947,109 @@
 				"Myreque": 1
 			}
 		},
+		"16153": {
+			"Sections": {
+				"1": {
+					"Object": {
+						"Message in a bottle (The Island Which May or May Not Have Monkeys on It)": 1
+					},
+					"NPC": {
+						"Quartermaster Gully": 1,
+						"Navigator Jemi": 1,
+						"Bosun Higgs": 1,
+						"Lookout Ekahi": 1,
+						"Flippers McGraw": 1,
+						"Cap'n Ekahi": 1,
+						"Ling (contracts)": 1,
+						"Bryll Thoksdottir": 1
+					},
+					"Monster": {
+						"Sotapanna": 11,
+						"Sakadagami": 3
+					},
+					"Shop": {
+						"Elite Dungeon Reward Shop": true
+					},
+					"Spawn": {
+						"Shrine Ibis": 1
+					},
+					"Connect": {
+						"53": true
+					},
+					"Quest": {
+						"Eye for an Eye (miniquest)": "step",
+						"Spiritual Enlightenment (miniquest)": "first"
+					},
+					"Clue": {
+						"master": 2
+					}
+				},
+				"2": {}
+			},
+			
+			"Nickname": "Aminishi Dock"
+		},
+		"16154": {
+			"Sections": {
+				"1": {
+					"Object": {
+						"Temple of Aminishi": 1
+					},
+					"Monster": {
+						"Anagami": 7
+					},
+					"Connect": {
+						"18063": true,
+						"49": true
+					},
+					"Clue": {
+						"master": 1
+					}
+				},
+				"2": {
+					"NPC": {
+						"Cyclops labourer": 2
+					},
+					"Quest": {
+						"Head of the Family (miniquest)": "step"
+					},
+					"Clue": {
+						"master": 1
+					}
+				}
+			},
+			"Nickname": "Temple of Aminishi"
+		},
+		"16155": {
+			"Object": {
+				"Mushroom cluster#The Islands That Once Were Turtles": 1,
+				"Message in a bottle (Quis-land)": 1
+			},
+			"NPC": {
+				"Positive energy": 2,
+				"Negative energy": 2
+			},
+			"Clue": {
+				"master": 6
+			},
+			"Nickname": "West Island That Once Was a Turtle"
+		},
+		"16161": {
+			"Object": {
+				"Fishing spot (Whale's Maw)": 5,
+				"Deposit box": 1
+			},
+			"NPC": {
+				"Hubbub (contracts)": 1
+			},
+			"Spawn": {
+				"Crested Sillago Snatcher": 1
+			},
+			"Clue": {
+				"master": 1
+			},
+			"Nickname": "East Whale's Maw"
+		},
 		"16191": {
 			"Object": {
 				"Loom": 32,
@@ -196769,6 +196370,40 @@
 				"Young Goebie": 7
 			},
 			"Name": "Mazcab"
+		},
+		"16409": {
+			"Object": {
+				"The Well of Spirits": 1
+			},
+			"Monster": {
+				"Sakadagami": 12
+			},
+			"Connect": {
+				"42": true
+			},
+			"Quest": {
+				"Spiritual Enlightenment (miniquest)": "step"
+			},
+			"Clue": {
+				"master": 1
+			},
+			"Nickname": "The Well of Spirits"
+		},
+		"16410": {
+			"Sections": {
+				"1": {
+					"Connect": {
+						"18063": true,
+						"49": true
+					}
+				},
+				"2": {},
+				"3": {}
+			},
+			"Nickname": "Bridge to the Azure Room"
+		},
+		"16411": {
+			"Nickname": "North-East Aminishi Western Beach"
 		},
 		"16447": {
 			"Sections": {
@@ -197225,6 +196860,45 @@
 			},
 			"Name": "Mazcab"
 		},
+		"16666": {
+			"Object": {
+				"Bamboo (tree)": 8,
+				"Bank deposit box": 1,
+				"Trunk": 5
+			},
+			"NPC": {
+				"Salty crabletine": 7
+			},
+			"Nickname": "North-East Aminishi Mine"
+		},
+		"16667": {
+			"Sections": {
+				"1": {
+					"Object": {
+						"Trunk": 3,
+						"Sand": 1
+					}
+				},
+				"2": {}
+			},
+			"Nickname": "North-Eastest Aminishi"
+		},
+		"16668": {
+			"Object": {
+				"Mushroom cluster#The Islands That Once Were Turtles": 1,
+				"Message in a bottle (The Hamlet)": 1
+			},
+			"NPC": {
+				"Halia (divine merchant)": 1
+			},
+			"Shop": {
+				"Power of the Ancestors": true
+			},
+			"Clue": {
+				"master": 6
+			},
+			"Nickname": "North Island That Once Was a Turtle"
+		},
 		"16701": {
 			"Object": {
 				"Woodchip": 8
@@ -197615,6 +197289,103 @@
 			},
 			"Name": "Mazcab"
 		},
+		"16919": {
+			"NPC": {
+				"Quartermaster Gully": 1,
+				"Navigator Jemi": 1,
+				"Bosun Higgs": 1,
+				"Lookout Ekahi": 1,
+				"Flippers McGraw": 1,
+				"Positive energy": 4,
+				"See": 1,
+				"Daya": 1,
+				"Villager": 2
+			},
+			"Connect": {
+				"53": true
+			},
+			"Quest": {
+				"Eye for an Eye (miniquest)": "step",
+				"Harbinger (miniquest)": "first"
+			},
+			"Clue": {
+				"master": 1
+			},
+			"Nickname": "Cyclosis Main Dock"
+		},
+		"16920": {
+			"Sections": {
+				"1": {
+					"NPC": {
+						"Salty crabletine": 10,
+						"Villager": 2
+					},
+					"Quest": {
+						"Eye for an Eye (miniquest)": "step"
+					},
+					"Clue": {
+						"master": 1
+					}
+				},
+				"2": {}
+			},
+			"Nickname": "Salty Crabletines"
+		},
+		"16923": {
+			"Object": {
+				"Mushroom cluster#The Islands That Once Were Turtles": 1,
+				"Skulls pirate": 1,
+				"Skulls mercenary": 1,
+				"Crumbling wall (The Islands That Once Were Turtles)": 1
+			},
+			"NPC": {
+				"Quartermaster Gully": 1,
+				"Navigator Jemi": 1,
+				"Bosun Higgs": 1,
+				"Lookout Ekahi": 1,
+				"Flippers McGraw": 1
+			},
+			"Connect": {
+				"53": true
+			},
+			"Quest": {
+				"Ghosts from the Past (miniquest)": "first"
+			},
+			"Clue": {
+				"master": 7
+			},
+			"Nickname": "Southern Island That Once Was a Big Turtle"
+		},
+		"16924": {
+			"Sections": {
+				"1": {
+					"Object": {
+						"Skulls thief": 1
+					},
+					"Quest": {
+						"Ghosts from the Past (miniquest)": "step"
+					},
+					"Clue": {
+						"master": 2
+					}
+				},
+				"2": {
+					"Object": {
+						"Mushroom cluster#The Islands That Once Were Turtles": 1,
+						"Message in a bottle (Eisetes Cretor)": 1
+					},
+					"Clue": {
+						"master": 2
+					}
+				},
+				"3": {
+					"Spawn": {
+						"Titchy Tinamou": 1
+					}
+				}
+			},
+			"Nickname": "Northern Island That Once Was a Big Turtle"
+		},
 		"16957": {
 			"Object": {
 				"Bench": 134,
@@ -197872,6 +197643,69 @@
 				"12334": true
 			},
 			"Name": "Mazcab"
+		},
+		"17175": {
+			"Sections": {
+				"1": {
+					"Object": {
+						"Water barrel": 1
+					},
+					"NPC": {
+						"Villager": 1,
+						"Ichi": 1,
+						"Ember": 1,
+						"Kotahi": 1,
+						"Banky crablet": 1,
+						"Cyclops (Cyclosis)": 2
+					},
+					"Quest": {
+						"Eye for an Eye (miniquest)": "first"
+					}
+				},
+				"2": {
+					"Object": {
+						"Water barrel": 1,
+						"Message in a bottle (Cannonball Run)": 1
+					},
+					"Spawn": {
+						"Cyclosis Cockatiel": 1
+					},
+					"Clue": {
+						"master": 1
+					}
+				},
+				"3": {}
+			},
+			"Nickname": "Cyclosis Southern Dock"
+		},
+		"17176": {
+			"Sections": {
+				"1": {
+					"Object": {
+						"Water barrel": 1
+					},
+					"NPC": {
+						"Villager": 1,
+						"Cyclops (Cyclosis)": 2,
+						"Sinuman (food merchant)": 1,
+						"Wan Pian (flotsam merchant)": 1,
+						"Odd Billy": 1
+					},
+					"Shops": {
+						"Sweet Goods": true,
+						"The Junk of One Cyclops": true
+					},
+					"Quest": {
+						"Eye for an Eye (miniquest)": "step"
+					},
+					"Clue": {
+						"master": 1
+					}
+				},
+				"2": {},
+				"3": {}
+			},
+			"Nickname": "Ichi's Tower"
 		},
 		"17213": {
 			"Object": {
@@ -198422,6 +198256,52 @@
 				"Evergreen": 49
 			}
 		},
+		"17693": {
+			"Object": {
+				"Water barrel": 1,
+				"Mushroom cluster#Goshima": 1,
+				"Sand": 1,
+				"Message in a bottle (Agar Atoll)": 1
+			},
+			"Monster": {
+				"Undead pekin": 8
+			},
+			"Spawn": {
+				"Gongdung Peligorn": 1
+			},
+			"Quest": {
+				"Damage Control (miniquest)": "step",
+				"Final Destination (miniquest)": "step",
+				"Curse of the Black Stone": "step"
+			},
+			"Clue": {
+				"master": 2
+			},
+			"Nickname": "Ravished Druid Colony"
+		},
+		"17694": {
+			"Object": {
+				"Mushroom cluster#Goshima": 1
+			},
+			"NPC": {
+				"Quartermaster Gully": 1,
+				"Navigator Jemi": 1,
+				"Bosun Higgs": 1,
+				"Lookout Ekahi": 1,
+				"Flippers McGraw": 1,
+				"Negative energy": 4,
+				"Captain Cora": 1,
+				"Jiangshi": 1
+			},
+			"Connect": {
+				"53": true
+			},
+			"Quest": {
+				"Damage Control (miniquest)": "step",
+				"Final Destination (miniquest)": "first"
+			},
+			"Nickname": "Goshima Docks"
+		},
 		"17677": {
 			"NPC": {
 				"Goebie supplier": 1
@@ -198551,6 +198431,45 @@
 			},
 			"Name": "Slayer Tower Mausoleum"
 		},
+		"17949": {
+			"Sections": {
+				"1": {
+					"Object": {
+						"Trunk": 4
+					}
+				},
+				"2": {}
+			},
+			"Nickname": "South Gongdung"
+		},
+		"17950": {
+			"Sections": {
+				"1": {
+					"Object": {
+						"Trunk": 6,
+						"Souls vampyres": 1,
+						"Cora's log": 1
+					},
+					"Quest": {
+						"Curse of the Black Stone": "step"
+					}
+				},
+				"2": {
+					"Object": {
+						"Mushroom cluster#Goshima": 1
+					},
+					"Quest": {
+						"Damage Control (miniquest)": "step",
+						"Final Destination (miniquest)": "step",
+						"Curse of the Black Stone": "step"
+					},
+					"Clue": {
+						"master": 2
+					}
+				}
+			},
+			"Nickname": "Gongdung Gate"
+		},
 		"17983": {
 			"Object": {
 				"Woodchip": 48,
@@ -198655,6 +198574,18 @@
 			"Object": {
 				"Tunnel": 1
 			}
+		},
+		"18205": {
+			"Object": {
+				"Trunk": 2
+			},
+			"Nickname": "South-East Gongdung"
+		},
+		"18206": {
+			"Object": {
+				"Trunk": 2
+			},
+			"Nickname": "North-East Gongdung"
 		},
 		"18030": {
 			"Object": {
@@ -211296,7 +211227,8 @@
 				"Seiryu the Azure Serpent": 1
 			},
 			"Connect": {
-				"16154": true
+				"16154": true,
+				"16410": true
 			},
 			"Quest": {
 				"Curse of the Black Stone": "step"
@@ -211312,7 +211244,8 @@
 				"Shackle Platform": 2
 			},
 			"Connect": {
-				"16154": true
+				"16154": true,
+				"16410": true
 			},
 			"Quest": {
 				"Curse of the Black Stone": "step"
@@ -211915,6 +211848,71 @@
 			},
 			"Connect": {
 				"16960": true
+			}
+		},
+		"Aminishi Spirit Realm": {
+			"Object": {
+				"Message in a bottle (Christmas Island)": 1
+			},
+			"Monster": {
+				"Arhat": 22
+			},
+			"Spawn": {
+				"Dusky Wigglebill": 1
+			},
+			"Connect": {
+				"16409": true
+			},
+			"Quest": {
+				"Spiritual Enlightenment (miniquest)": "step",
+				"Tuai Leit's Own (miniquest)": "step"
+			}
+		},
+		"Uncharted Isles": {
+			"Object": {
+				"Bamboo (tree)": 1,
+				"Golden bamboo (tree)": 1,
+				"Exuberry bush": 1,
+				"Mushroom cluster#Uncharted Isles": 1,
+				"Wobbegong spot": 1
+			},
+			"NPC": {
+				"Salty crablet": 1,
+				"Idol crablet": 1,
+				"Tortle": 1,
+				"Alaea crablet": 1,
+				"Ancestral energy": 1,
+				"Ornate tortle": 1
+			},
+			"Monster": {
+				"Armoured zombie (Uncharted Isles)": 1,
+				"Crassian scout (Uncharted Isles)": 1,
+				"Crassion warrior (Uncharted Isles)": 1,
+				"Death Lotus rogue": 1,
+				"Eastern soldier": 1,
+				"Flying jellyfish": 1,
+				"Gu ronin": 1,
+				"Scorpion (Uncharted Isles)": 1,
+				"Seasinger priestess": 1,
+				"Skeleton (Uncharted Isles)": 1,
+				"Skulls mercenary (Uncharted Isles)": 1,
+				"Tormented soul (Uncharted Isles)": 1,
+				"Zombie (Uncharted Isles)": 1
+			},
+			"Spawn": {
+				"Dusky Wigglebill": 1,
+				"Titchy Tinamolu": 1,
+				"Fluffy Jublet": 1,
+				"Cocoa Macaw": 1
+			},
+			"Connect": {
+				"14884": true,
+				"15905": true,
+				"15135": true,
+				"17694": true,
+				"16923": true,
+				"16919": true,
+				"16153": true
 			}
 		}
 	},
