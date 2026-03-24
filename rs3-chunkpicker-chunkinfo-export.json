@@ -24179,6 +24179,14 @@
 				"Priority": 111,
 				"Partial": true
 			},
+			"Unlock the ~|Death Lotus|~ scrolls in the Ports Reward Shop": {
+				"Category": ["Timegated"],
+				"Chunks": ["15134", "Player-Owned Port"],
+				"Level": 90,
+				"Primary": false,
+				"Priority": 112,
+				"Partial": true
+			},
 			"Craft a ~|sirenic mask|~": {
 				"Items": ["Sirenic scale*", "Algarum Thread*"],
 				"Level": 91,
@@ -29638,6 +29646,14 @@
 				"Primary": false,
 				"Priority": 3,
 				"Output": "Senntisten scroll",
+				"NoPet": true
+			},
+			"Unlock the ~|scrimshaw|~ scrolls in the Ports Reward Shop": {
+				"Category": ["Timegated"],
+				"Chunks": ["15134", "Player-Owned Port"],
+				"Level": 80,
+				"Primary": false,
+				"Priority": 1000,
 				"NoPet": true
 			}
 		},
@@ -43612,7 +43628,7 @@
 			},
 			"Catch a ~|tropical wagtail|~": {
 				"Items": ["Bird snare"],
-				"NPCs": ["Tropical Wagtail"],
+				"NPCs": ["Tropical wagtail"],
 				"Level": 19,
 				"Output": "TropicalWagtail",
 				"Primary": true,
@@ -59759,6 +59775,13 @@
 				"Priority": 12,
 				"Partial": true
 			},
+			"Unlock the ~|seasinger|~ scrolls in the Ports Reward Shop": {
+				"Category": ["Timegated"],
+				"Chunks": ["15134", "Player-Owned Port"],
+				"Level": 90,
+				"Primary": false,
+				"Priority": 12
+			},
 			"Feed a ~|starved ancient effigy|~ with runecrafting": {
 				"Items": ["Starved ancient effigy (runecrafting/summoning)"],
 				"Level": 91,
@@ -64266,6 +64289,14 @@
 					"Crafting to Your Own Rune*": "Nonskill"
 				},
 				"Output": "Grounded masterwork staff base",
+				"Primary": false,
+				"Priority": 14,
+				"Partial": true
+			},
+			"Unlock the ~|tetsu|~ scrolls in the Waiko Reward Store": {
+				"Category": ["Timegated"],
+				"Chunks": ["15134", "Player-Owned Port"],
+				"Level": 90,
 				"Primary": false,
 				"Priority": 14,
 				"Partial": true
@@ -75547,7 +75578,7 @@
 				"Description": "Dry the wet seaweed at the Abbey by Al Kharid",
 				"Chunks": ["13617-1"],
 				"Tasks": {
-					"~|Curse of the Black Stone|~ 18": "Quest"
+					"~|Curse of the Black Stone|~ 17": "Quest"
 				},
 				"Not F2P": true
 			},
@@ -75557,7 +75588,7 @@
 				"Items": ["RawFish[+]", "Law rune"],
 				"Chunks": ["12337-1"],
 				"Tasks": {
-					"~|Curse of the Black Stone|~ 19": "Quest"
+					"~|Curse of the Black Stone|~ 17": "Quest"
 				},
 				"Not F2P": true
 			},
@@ -83302,7 +83333,7 @@
 				"Not F2P": true,
 				"NoBoost": true
 			},
-			"~|Ghosts from the Past (miniquest)|~ 1": {
+			"~|Ghosts from the Past (miniquest)|~ 2": {
 				"BaseQuest": "Ghosts from the Past (miniquest)",
 				"Description": "Speak to the third skeleton in the observatory, then talk to the Quartermaster again",
 				"Chunks": ["16924-1"],
@@ -86523,7 +86554,7 @@
 				"BaseQuest": "Jed Hunter (miniquest)",
 				"Description": "Complete the requests for Gully",
 				"Chunks": ["15134"],
-				"Items": ["Driftwood", "Sea shells", "Taijitu"],
+				"Items": ["Driftwood", "Sea shell", "Taijitu"],
 				"Tasks": {
 					"~|Jed Hunter (miniquest)|~ 1": "Quest"
 				},
@@ -97768,7 +97799,7 @@
 				"Description": "Find Yulong and finish up the quest",
 				"Chunks": ["Aminishi Spirit Realm"],
 				"Tasks": {
-					"~|Spiritual Enlightenment (miniquest)|~ 1": "Quest"
+					"~|Spiritual Enlightenment (miniquest)|~ 2": "Quest"
 				},
 				"Not F2P": true
 			},
@@ -148912,11 +148943,10 @@
 					"Enter the ~|Asuran Arsenal|~": "Thieving"
 				}
 			},
-			
 			"Aminishi Spirit Realm": {
 				"UnlocksArea": true,
 				"Tasks": {
-					"~|Spiritual Enlightenment|~ 2": "Quest"
+					"~|Spiritual Enlightenment (miniquest)|~ 2": "Quest"
 				}
 			},
 			"Uncharted Isles": {
@@ -148924,7 +148954,6 @@
 				"Category": ["Uncharted"],
 				"NPCs": ["Rosie (supplies)"]
 			},
-			
 			"Zanaris to 8752-4": {
 				"Sections": ["Zanaris", "8752-4"],
 				"Tasks": {
@@ -148965,7 +148994,6 @@
 				"ConnectsSections": true,
 				"Not F2P": true
 			},
-			
 			"17950-1 to 17950-2": {
 				"Sections": ["17950-1", "17950-2"],
 				"Tasks": {
@@ -148974,7 +149002,6 @@
 				"ConnectsSections": true,
 				"Not F2P": true
 			},
-			
 			"Paterdomus to 13622-2": {
 				"Sections": ["Paterdomus", "13622-2"],
 				"ConnectsSections": true,
@@ -153496,30 +153523,6 @@
 			"Pick up items on an Uncharted Isle": {
 				"Chunks": ["Uncharted Isles"],
 				"Output": "Washed ashore loot"
-			},
-			"Unlock the Waiko ~|seasinger|~ scrolls": {
-				"Category": ["Timegated"],
-				"Skills": {
-					"Runecrafting": 90
-				}
-			},
-			"Unlock the Waiko ~|tetsu|~ scrolls": {
-				"Category": ["Timegated"],
-				"Skills": {
-					"Smithing": 90
-				}
-			},
-			"Unlock the Waiko ~|Death Lotus|~ scrolls": {
-				"Category": ["Timegated"],
-				"Skills": {
-					"Crafting": 90
-				}
-			},
-			"Unlock the Waiko ~|scrimshaw|~ scrolls": {
-				"Category": ["Timegated"],
-				"Skills": {
-					"Divination": 80
-				}
 			},
 			"Collect Ports scrolls": {
 				"Category": ["Ports Scrolls"],
@@ -165911,8 +165914,7 @@
 				"8368": true,
 				"9134": true,
 				"9138": true,
-				"9909": true,
-				"12082": true
+				"9909": true
 			},
 			"Name": "The Arc"
 		},
@@ -166101,8 +166103,7 @@
 				"8368": true,
 				"9134": true,
 				"9138": true,
-				"9909": true,
-				"12082": true
+				"9909": true
 			},
 			"Name": "The Arc"
 		},
@@ -167074,8 +167075,7 @@
 				"8368": true,
 				"9134": true,
 				"9138": true,
-				"9909": true,
-				"12082": true
+				"9909": true
 			},
 			"Name": "The Arc"
 		},
@@ -167477,8 +167477,7 @@
 				"8120": true,
 				"9134": true,
 				"9138": true,
-				"9909": true,
-				"12082": true
+				"9909": true
 			},
 			"Shop": {
 				"Elite Dungeon Reward Shop": true
@@ -169684,8 +169683,7 @@
 				"8120": true,
 				"8368": true,
 				"9138": true,
-				"9909": true,
-				"12082": true
+				"9909": true
 			},
 			"Name": "The Arc"
 		},
@@ -169716,8 +169714,7 @@
 				"8368": true,
 				"8883": true,
 				"9134": true,
-				"9909": true,
-				"12082": true
+				"9909": true
 			},
 			"Name": "The Arc"
 		},
@@ -172665,8 +172662,7 @@
 				"8120": true,
 				"8368": true,
 				"9134": true,
-				"9138": true,
-				"12082": true
+				"9138": true
 			},
 			"Name": "The Arc"
 		},
@@ -183077,7 +183073,6 @@
 					},
 					"Connect": {
 						"6473": true,
-						"7099": true,
 						"12870": true,
 						"17781": true
 					},
@@ -196338,7 +196333,7 @@
 				"Sakadagami": 12
 			},
 			"Connect": {
-				"42": true
+				"52": true
 			},
 			"Quest": {
 				"Spiritual Enlightenment (miniquest)": "step"
@@ -278537,28 +278532,28 @@
 				"~|What Lies Below|~ Complete the quest": "Quest"
 			}],
 			"Seasinger gloves scroll^": [{
-				"Unlock the Waiko ~|seasinger|~ scrolls": "Nonskill"
+				"Unlock the ~|seasinger|~ scrolls in the Ports Reward Shop": "Runecrafting"
 			}],
 			"Seasinger boots scroll^": [{
-				"Unlock the Waiko ~|seasinger|~ scrolls": "Nonskill"
+				"Unlock the ~|seasinger|~ scrolls in the Ports Reward Shop": "Runecrafting"
 			}],
 			"Tetsu gloves scroll^": [{
-				"Unlock the Waiko ~|tetsu|~ scrolls": "Nonskill"
+				"Unlock the ~|tetsu|~ scrolls in the Ports Reward Shop": "Smithing"
 			}],
 			"Tetsu boots scroll^": [{
-				"Unlock the Waiko ~|tetsu|~ scrolls": "Nonskill"
+				"Unlock the ~|tetsu|~ scrolls in the Ports Reward Shop": "Smithing"
 			}],
 			"Death Lotus gloves scroll^": [{
-				"Unlock the Waiko ~|Death Lotus|~ scrolls": "Nonskill"
+				"Unlock the ~|Death Lotus|~ scrolls in the Ports Reward Shop": "Crafting"
 			}],
 			"Death Lotus boots scroll^": [{
-				"Unlock the Waiko ~|Death Lotus|~ scrolls": "Nonskill"
+				"Unlock the ~|Death Lotus|~ scrolls in the Ports Reward Shop": "Crafting"
 			}],
 			"Memory-crushing scrimshaw scroll^": [{
-				"Unlock the Waiko ~|scrimshaw|~ scrolls": "Nonskill"
+				"Unlock the ~|scrimshaw|~ scrolls in the Ports Reward Shop": "Divination"
 			}],
 			"Energy-gathering scrimshaw scroll^": [{
-				"Unlock the Waiko ~|scrimshaw|~ scrolls": "Nonskill"
+				"Unlock the ~|scrimshaw|~ scrolls in the Ports Reward Shop": "Divination"
 			}],
 			"Death Lotus rogue outfit^": [{
 				"Collect Ports scrolls": "Nonskill"

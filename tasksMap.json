@@ -2531,6 +2531,7 @@
   "Craft a ~|smoothed catalysed elemental diamond|~": "t_2556",
   "Craft an ~|unhoused masterwork focus|~": "t_2557",
   "Craft a ~|wrapped masterwork staff grip|~": "t_2558",
+  "Unlock the ~|Death Lotus|~ scrolls in the Ports Reward Shop": "t_118080",
   "Craft a ~|sirenic mask|~": "t_2559",
   "Craft an ~|elite sirenic mask|~": "t_2560",
   "Craft an ~|alchemical onyx necklace|~": "t_2561",
@@ -3090,6 +3091,7 @@
   "Create an ~|enchantment of metaphysics|~": "t_3144",
   "Create an ~|enchantment of heroism|~": "t_3145",
   "Transmute ~|Senntisten crystals|~": "t_3146",
+  "Unlock the ~|scrimshaw|~ scrolls in the Ports Reward Shop": "t_118081",
   "Buy Dungeoneering xp with ~|Dungeoneering tokens|~": "t_3147",
   "Unlock ~|frozen floors|~": "t_3148",
   "Participate in ~|Elite Dungeons|~": "t_3149",
@@ -6052,6 +6054,7 @@
   "Create a ~|grasping rune pouch|~": "t_6156",
   "Craft a ~|noxious sapphire (unimbued)|~": "t_6157",
   "Craft a ~|ascended sapphire (unimbued)|~": "t_6158",
+  "Unlock the ~|seasinger|~ scrolls in the Ports Reward Shop": "t_118083",
   "Feed a ~|starved ancient effigy|~ with runecrafting": "t_6159",
   "Feed a ~|nourished ancient effigy|~ with runecrafting": "t_6160",
   "Feed a ~|sated ancient effigy|~ with runecrafting": "t_6161",
@@ -6462,6 +6465,7 @@
   "Forge the ~|Hatchet of Ember and Glade|~": "t_6515",
   "Forge a ~|masterwork focus bracket|~": "t_6516",
   "Forge a ~|grounded masterwork staff base|~": "t_6517",
+  "Unlock the ~|tetsu|~ scrolls in the Waiko Reward Store": "t_118084",
   "Forge ~|tetsu weapons|~": "t_6518",
   "Smelt a ~|concentrated alloy bar|~": "t_6519",
   "Forge ~|masterwork melee armour trim|~": "t_6520",
@@ -8306,6 +8310,7 @@
   "~|Ghosts Ahoy|~ 15": "t_8298",
   "~|Ghosts Ahoy|~ Complete the quest": "t_8299",
   "~|Ghosts from the Past (miniquest)|~ 1": "t_8300",
+  "~|Ghosts from the Past (miniquest)|~ 2": "t_118085",
   "~|Ghosts from the Past (miniquest)|~ Complete the miniquest": "t_8301",
   "~|The Giant Dwarf|~ 1": "t_8302",
   "~|The Giant Dwarf|~ 2": "t_8303",
@@ -90479,5 +90484,5 @@
   "Pizazz points: ~|Death rune|~": "t_52854",
   "Pizazz points: ~|Soul rune|~": "t_52856",
   "Pizazz points: ~|Blood rune|~": "t_52857",
-  "currentNextIndex": 118080
+  "currentNextIndex": 118086
 }
