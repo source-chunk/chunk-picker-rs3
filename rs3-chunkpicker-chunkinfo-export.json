@@ -43626,7 +43626,7 @@
 				"Primary" : false,
 				"Priority": 3
 			},
-			"Catch a ~|Tropical wagtail|~": {
+			"Catch a ~|tropical wagtail|~": {
 				"Items": ["Bird snare"],
 				"NPCs": ["Tropical wagtail"],
 				"Level": 19,
