@@ -150932,6 +150932,10 @@
 				"NPCs": ["Sheep"],
 				"Output": "Wool"
 			},
+			"Sheer black sheep*": {
+				"NPCs": ["Sheep (black)"],
+				"Output": "Black wool"
+			},
 			"Kill a living rock creature*": {
 				"Chunks": ["Living Rock Caverns"],
 				"Output Object": "Living rock remains",
@@ -163421,6 +163425,18 @@
 		"53": {
 			"Name": "Uncharted Isles"
 		},
+		"54": {
+			"Name": "Hermit Cave"
+		},
+		"55": {
+			"Name": "Highweald Ruins"
+		},
+		"56": {
+			"Name": "Blighted Cave"
+		},
+		"57": {
+			"Name": "Hollow Hill"
+		},
 		"258": {
 			"Spawn": {
 				"Broken glass": 8
@@ -164096,7 +164112,7 @@
 		},
 		"4423": {
 			"Monster": {
-				"Hill Giant": 11
+				"Hill giant": 11
 			},
 			"Connect": {
 				"12441": true
@@ -170812,7 +170828,7 @@
 					},
 					"Monster": {
 						"Duck": 3,
-						"Hill Giant": 6,
+						"Hill giant": 6,
 						"Mounted terrorbird gnome": 2
 					},
 					"Spawn": {
@@ -171817,7 +171833,7 @@
 					},
 					"Monster": {
 						"Black bear": 2,
-						"Hill Giant": 6,
+						"Hill giant": 6,
 						"Monk of Zamorak": 9,
 						"Ghost": 6,
 						"Grave scorpion": 5
@@ -172970,7 +172986,7 @@
 						"Giant rat": 2,
 						"Wolf": 2,
 						"Black bear": 1,
-						"Hill Giant": 3,
+						"Hill giant": 3,
 						"Terrorbird": 2,
 						"Ogre": 1,
 						"Goblin#Drop table 2": 6,
@@ -180664,7 +180680,8 @@
 					"NPC": {
 						"Tanner": 1,
 						"Master Crafter": 1,
-						"Sheep": 17,
+						"Sheep": 7,
+						"Sheep (black)": 10,
 						"Makeover Mage": 1,
 						"Frog": 1,
 						"Almost Master Crafter": 2,
@@ -181291,7 +181308,7 @@
 				"Tree": 2
 			},
 			"Monster": {
-				"Hill Giant": 1,
+				"Hill giant": 1,
 				"Terrorbird": 2,
 				"Goblin": 1
 			},
@@ -181509,7 +181526,7 @@
 			"Monster": {
 				"Baby blue dragon": 3,
 				"Poison Scorpion": 5,
-				"Hill Giant": 5,
+				"Hill giant": 5,
 				"Chaos dwarf": 6
 			},
 			"Name": "Taverley Dungeon"
@@ -184132,7 +184149,7 @@
 			"Monster": {
 				"Shadow spider": 12,
 				"Fire giant": 5,
-				"Hill Giant": 6,
+				"Hill giant": 6,
 				"Chaos dwarf (Wilderness)": 4
 			},
 			"Name": "Deep Wilderness Dungeon"
@@ -185204,7 +185221,7 @@
 				"Crate": 5
 			},
 			"Monster": {
-				"Hill Giant": 12
+				"Hill giant": 12
 			},
 			"Connect": {
 				"4423": true,
@@ -185734,7 +185751,8 @@
 				"Ram": 3
 			},
 			"NPC": {
-				"Sheep": 7,
+				"Sheep": 5,
+				"Sheep (black)": 2,
 				"Beefy Bill": 1,
 				"Millie Miller": 1,
 				"Li'l lamb": 1,
@@ -188887,7 +188905,7 @@
 			"Monster": {
 				"Skeleton#Armed": 5,
 				"Ghost": 6,
-				"Hill Giant": 2
+				"Hill giant": 2
 			},
 			"NPC": {
 				"Black salamander": 11
@@ -196004,6 +196022,43 @@
 			},
 			"Nickname": "East Whale's Maw"
 		},
+		"16179": {
+			"Sections": {
+				"1": {
+					"Object": {
+						"Lobster pool": 1,
+						"Broken shark pool": 1,
+						"Broken swordfish pool": 1,
+						"Broken giant crayfish pool": 1,
+						"Crate o' clams": 1,
+						"Food dispenser controls": 1,
+						"Food hatch": 4
+					},
+					"NPC": {
+						"Maya": 1
+					},
+					"Monster": {
+						"Juvinile boulder crab": 1
+					}
+				},
+				"2": {
+					"Object": {
+						"Oars": 1,
+						"Fishing net (Cyclosis)": 1
+					},
+					"NPC": {
+						"Captain Lorris": 1
+					},
+					"Quest": {
+						"Visions of Havenhythe": "step"
+					}
+				}
+			},
+			"Nickname": "Wendlewick Fish Farm"
+		},
+		"16180": {
+			"Nickname": "North of Wendlewick Dock"
+		},
 		"16191": {
 			"Object": {
 				"Loom": 32,
@@ -196358,6 +196413,134 @@
 		},
 		"16411": {
 			"Nickname": "North-East Aminishi Western Beach"
+		},
+		"16434": {
+			"Object": {
+				"Fern": 2,
+				"Poppies": 2,
+				"Tree": 2
+			},
+			"Nickname": "Western Shore Overlook"
+		},
+		"16435": {
+			"Sections": {
+				"1": {
+					"Object": {
+						"Tree": 1,
+						"Deposit box": 1,
+						"Fishing spot (small fishing net, bait)": 2,
+						"Fishing spot (cage, harpoon)": 2,
+						"Range": 1,
+						"Sink": 1,
+						"Stairs": 2,
+						"Ladder": 2,
+						"Beacon": 1
+					},
+					"NPC": {
+						"Fisherwoman": 1,
+						"Fisherman": 1,
+						"Old Man Jocko": 1
+					},
+					"Monster": {
+						"Juvinile boulder crab": 4
+					},
+					"Spawn": {
+						"Fishing bait": 4,
+						"Seaweed": 4,
+						"Empty pot": 1
+					},
+					"Shop": {
+						"Fishing Shop (Wendlewick)": 1
+					}
+				},
+				"2": {},
+				"3": {
+					"Object": {
+						"Pottery table": 1
+					}
+				}
+			},
+			"Nickname": "Wendlewick Fishing Shop"
+		},
+		"16436": {
+			"Sections": {
+				"1": {
+					"Object": {
+						"Limestone rock": 3,
+						"Bench": 1,
+						"Ladder": 2,
+						"Well": 1,
+						"Range": 1,
+						"Tree": 2
+					},
+					"NPC": {
+						"Mathilda": 1,
+						"Candle-maker Zeeva": 1
+					},
+					"Monster": {
+						"Juvinile boulder crab": 8
+					},
+					"Spawn": {
+						"Seaweed": 6,
+						"Bucket of wax": 1,
+						"White candle (lit)": 1
+					},
+					"Shop": {
+						"Wendle's Wicks": true
+					}
+				},
+				"2": {
+					"Object": {
+						"Tailor's dummy": 1,
+						"Tailor's display": 1
+					},
+					"Spawn": {
+						"Thread": 1
+					}
+				},
+				"3": {
+					"Object": {
+						"Pottery wheel": 1
+					},
+					"Spawn": {
+						"Empty pot": 1
+					}
+				}
+			},
+			"Nickname": "Wendle's Wicks"
+		},
+		"16437": {
+			"Object": {
+				"Limestone rock": 2
+			},
+			"Monster": {
+				"Juvinile boulder crab": 4
+			},
+			"Connect": {
+				"54": true
+			},
+			"Spawn": {
+				"Seaweed": 4
+			},
+			"Nickname": "Hermit Cave Entrance"
+		},
+		"16438": {
+			"Object": {
+				"Tree": 5,
+				"Beacon": 1,
+				"Outhouse": 1,
+				"Dung": 1,
+				"Creeping ivy": 3,
+				"Sink": 1,
+				"Crate": 1
+			},
+			"NPC": {
+				"Geva": 1
+			},
+			"Spawn": {
+				"Kaleb's travel journal - volume II": 1
+			},
+			"Nickname": "Precarious Outhouse"
 		},
 		"16447": {
 			"Sections": {
@@ -196853,6 +197036,229 @@
 			},
 			"Nickname": "North Island That Once Was a Turtle"
 		},
+		"16689": {
+			"Sections": {
+				"1": {
+					"Object": {
+						"Tree": 9,
+						"Oak": 7
+					}
+				},
+				"2": {},
+				"3": {
+					"Object": {
+						"Empty tree plot": 2
+					}
+				}
+			},
+			"Nickname": "South-West Havenhythe Shore"
+		},
+		"16690": {
+			"Sections": {
+				"1": {
+					"Object": {
+						"Empty tree plot": 3,
+						"Fruit tree patch": 1,
+						"Tree patch": 1,
+						"Birdhouse plot": 1,
+						"Well": 1,
+						"Bank chest": 1,
+						"Bench": 2,
+						"Door": 2,
+						"Ladder": 2,
+						"Tree": 15,
+						"Oak": 14
+					},
+					"NPC": {
+						"Tool leprechaun": 1,
+						"Dalia": 1
+					},
+					"Monster": {
+						"Rabbit": 3
+					},
+					"Connect": {
+						"6473": true
+					},
+					"Spawn": {
+						"Cup of tea": 1
+					},
+					"Shop": {
+						"Farmer's Supplies": true
+					}
+				},
+				"2": {
+					"Object": {
+						"Well": 1,
+						"Door": 1,
+						"Tree": 1,
+						"Range": 1
+					}
+				}
+			},
+			"Nickname": "Dalia's Tree Nursery"
+		},
+		"16691": {
+			"Sections": {
+				"1": {
+					"Object": {
+						"Beehive": 3,
+						"Birdhouse plot": 1,
+						"Wendlewick lodestone": 1,
+						"Stairs": 8,
+						"Bench": 4,
+						"Log bench": 1,
+						"Dilapidated canoe station": 1,
+						"Apple barrel": 1,
+						"Barrel (brewing)": 1,
+						"Fermenting vat": 1,
+						"Fishing spot (crayfish)": 1,
+						"Tree": 12,
+						"Oak": 2
+					},
+					"NPC": {
+						"Groundskeeper (Wendlewick)": 1,
+						"Villager (Wendlewick)": 12,
+						"Bartender Gefen": 1,
+						"Malt (Wendlewick)": 1,
+						"'Shady' Sullivan": 1,
+						"Matthew (Wendlewick)": 1,
+						"Miriam": 1,
+						"Jacob": 1,
+						"Shopkeeper Tom": 1
+					},
+					"Monster": {},
+					"Connect": {},
+					"Spawn": {
+						"Beer": 1,
+						"Beer glass": 1,
+						"Jug of wine": 1
+					},
+					"Shop": {
+						"Tom's Trove": true,
+						"Burnt Lobster Tavern": true,
+						"The Birds and the Bees": true
+					}
+				},
+				"2": {
+					"Object": {
+						"Water trough": 1
+					},
+					"NPC": {
+						"Esther": 1
+					}
+				},
+				"3": {
+					"Spawn": {
+						"Empty pot": 1
+					}
+				}
+			},
+			"Nickname": "Burned Lobster Tavern"
+		},
+		"16692": {
+			"Object": {
+				"Pottery oven": 1,
+				"Creeping ivy": 5,
+				"Drafting table": 1,
+				"Pattern table": 1,
+				"Loom": 1,
+				"Spinning wheel": 1,
+				"Oven": 1,
+				"Sink": 2,
+				"Bench": 2,
+				"Bank booth": 1,
+				"Stairs": 2,
+				"Ladder": 8,
+				"Bakery stall": 2,
+				"Fish stall": 2,
+				"Wine stall": 1,
+				"Vegetable stall": 2,
+				"Well": 1,
+				"Target": 2,
+				"Crate": 1,
+				"Anvil": 2,
+				"Forge": 2,
+				"Furnace": 1,
+				"Tree": 1,
+				"Oak": 15,
+				"Crypt": 1
+			},
+			"NPC": {
+				"Isaac (Havenhythe)": 1,
+				"Villager (Wendlewick)": 4,
+				"Naomi": 1,
+				"Banker Nathan": 1,
+				"Baker Lev": 1,
+				"Adam": 1,
+				"Zeke (Wendlewick)": 1,
+				"Grocer Hannah": 1,
+				"Liat": 1,
+				"Town crier": 1,
+				"Baker's assistant": 1,
+				"Fishmonger's assistant": 1,
+				"Grocer's assistant": 1,
+				"Hawk (Havenhythe)": 1,
+				"Winifred": 1
+			},
+			"Monster": {
+				"Ranger": 2
+			},
+			"Spawn": {
+				"Pie dish": 5,
+				"Cake tin": 1,
+				"Bucket": 1,
+				"Chisel": 1,
+				"Shortbow": 1
+			},
+			"Shop": {
+				"Lev's Baked Delights": true,
+				"The Village Grocery": true,
+				"Fishing Shop (Wendlewick)": true
+			},
+			"Nickname": "Wendlewick"
+		},
+		"16693": {
+			"Sections": {
+				"1": {
+					"Object": {
+						"Abandoned crate": 1,
+						"Hollow tree (Highweald Forest)": 1,
+						"Tree": 26,
+						"Oak": 6
+					}
+				},
+				"2": {}
+			},
+			"Nickname": "Abandoned Cart"
+		},	
+		"16694": {
+			"Sections": {
+				"1": {
+					"Object": {
+						"Hollow tree (Highweald Forest)": 1,
+						"Tree": 17
+					},
+					"Monster": {
+						"Wolf": 5
+					}
+				},
+				"2": {
+					"Object": {
+						"Cave entrance": 1,
+						"Copper rock": 2,
+						"Coal rock": 4,
+						"Silver rock": 2
+					},
+					"NPC": {
+						"Gidon": 1
+					},
+					"Connect": {
+						"55": true
+					}
+				}
+			},
+			"Nickname": "Highweald Mine"
+		},
 		"16701": {
 			"Object": {
 				"Woodchip": 8
@@ -197340,6 +197746,243 @@
 			},
 			"Nickname": "Northern Island That Once Was a Big Turtle"
 		},
+		"16944": {
+			"Object": {
+				"Tree": 3,
+				"Fishing spot (crayfish)": 2,
+				"Fishing spot (cage, harpoon)": 2,
+				"Log bench": 1
+			},
+			"Monster": {
+				"Crab": 3
+			},
+			"NPC": {
+				"Shelly": 1,
+				"Finn (Wendlewick)": 1,
+				"Kai (Wendlewick)": 1,
+				"Sandy (Wendlewick)": 1
+			},
+			"Spawn": {
+				"Seaweed": 2,
+				"Lobster pot": 1,
+				"Oyster": 1
+			},
+			"Nickname": "Here Be Crabs"
+		},
+		"16945": {
+			"Sections": {
+				"1": {
+					"Object": {
+						"Jackalope burrow": 5,
+						"Log bench": 1,
+						"Tree": 24,
+						"Oak": 21,
+						"Stepping stones (Wendlewick)": 1
+					},
+					"Monster": {
+						"Unicorn": 1,
+						"Badger": 1,
+						"Hedgehog": 2,
+						"Duck": 1,
+						"Duckling": 1
+					}
+				},
+				"2": {
+					"Object": {
+						"Ladder": 1
+					}
+				}
+			},
+			"Nickname": "Jackalope Burrows"
+		},
+		"16946": {
+			"Sections": {
+				"1": {
+					"Object": {
+						"Flax": 19,
+						"Ladder": 2,
+						"Range": 1,
+						"Sink": 2,
+						"Creeping ivy": 4,
+						"Well": 1,
+						"Birdhouse plot": 2,
+						"Obelisk": 2,
+						"Empowered obelisk": 1,
+						"Altar of Inanna": 1,
+						"Tree": 15,
+						"Oak": 20,
+						"Magic tree": 3
+					},
+					"NPC": {
+						"Shrine Tender Jedediah": 1,
+						"Pikkenflix": 1,
+						"Shrine Tender Joanna": 1,
+						"Farmer Sharon": 1
+					},
+					"Spawn": {
+						"Fire rune": 1
+					},
+					"Shop": {
+						"Summoning Supplies (Wendlewick)": true,
+						"Shrine of the Spirit Wolves": true
+					}
+				},
+				"2": {
+					"Object": {
+						"Oak": 3
+					}
+				}
+			},
+			"Nickname": "Shrine of Innana"
+		},
+		"16947": {
+			"Object": {
+				"Potato": 13,
+				"Onion": 13,
+				"Allotment": 2,
+				"Herb patch": 1,
+				"Flower patch": 1,
+				"Compost bin": 1,
+				"Dead cabbages": 9,
+				"Dead potatoes": 11,
+				"Dead onions": 11,
+				"Sink": 1,
+				"Well": 1,
+				"Dairy churn": 1,
+				"Dairy cow": 1,
+				"Birdhouse plot": 2,
+				"Range": 1,
+				"Wheat": 69,
+				"Hopper": 1,
+				"Hopper controls": 1,
+				"Tree": 11,
+				"Oak": 2,
+				"Willow": 6
+			},
+			"Monster": {
+				"Chicken": 4,
+				"Rooster": 1,
+				"Chick": 2,
+				"Calf": 2,
+				"Cow": 4,
+				"Bull": 1
+			},
+			"NPC": {
+				"Gil": 1,
+				"Master Farmer Lilah": 1,
+				"Farmer": 1,
+				"Demetrius": 1,
+				"Tool leprechaun": 1,
+				"Ben (Wiz Kid)": 1,
+				"Onyx the Black": 1,
+				"Master Farmer David": 1,
+				"Villager (Wendlewick)": 1,
+				"Musician": 1
+			},
+			"Connect": {
+				"6473": true,
+				"10307": true
+			},
+			"Spawn": {
+				"Red onion": 1,
+				"Bowl of water": 1,
+				"Bucket": 1,
+				"Egg": 1,
+				"Bucket of milk": 1,
+				"Empty pot": 1
+			},
+			"Shop": {
+				"Farmer's Supplies": true
+			},
+			"Nickname": "Marigold Farm"
+		},
+		"16948": {
+			"Object": {
+				"Sink": 1,
+				"Bench": 1,
+				"Ladder": 2,
+				"Stairs": 2,
+				"Reuben's journal": 1,
+				"Tree": 8,
+				"Oak": 26
+			},
+			"Monster": {
+				"Rabbit": 2
+			},
+			"NPC": {
+				"Reuben": 1,
+				"Tali": 1
+			},
+			"Spawn": {
+				"Knife": 1
+			},
+			"Nickname": "Reuben's Tannery"
+		},
+		"16949": {
+			"Sections": {
+				"1": {
+					"Object": {
+						"Hollow tree (Highweald Forest)": 2,
+						"Creeping ivy": 3,
+						"Raz's stash": 1,
+						"Planks (Highweald Forest)": 1,
+						"Log balance (Highweald Forest)": 1,
+						"Giant crayfish (fishing spot)": 2,
+						"Tree": 32,
+						"Oak": 4
+					},
+					"Monster": {
+						"Grizzly bear": 1
+					},
+					"NPC": {
+						"Raz": 1
+					},
+					"Spawn": {
+						"Butterfly net": 1
+					}
+				},
+				"2": {
+					"Object": {
+						"Tree": 3
+					}
+				},
+				"3": {}
+			},
+			"Nickname": "Raz's Hut"
+		},
+		"16950": {
+			"Sections": {
+				"1": {
+					"Object": {
+						"Tree": 9,
+						"Tin rock": 3,
+						"Iron rock": 3,
+						"Log balance (Highweald Forest)": 1
+					},
+					"Spawn": {
+						"Steel pickaxe": 1
+					}
+				},
+				"2": {
+					"Object": {
+						"Tree": 5
+					}
+				},
+				"3": {
+					"Object": {
+						"Tree": 1,
+						"Log balance (Highweald Forest)": 1 
+					}
+				},
+				"4": {},
+				"5": {
+					"Object": {
+						"Tree": 1
+					}
+				}
+			},
+			"Nickname": "Highweald Forest Waterfall"
+		},
 		"16957": {
 			"Object": {
 				"Bench": 134,
@@ -197661,6 +198304,197 @@
 			},
 			"Nickname": "Ichi's Tower"
 		},
+		"17200": {
+			"Sections": {
+				"1": {
+					"Object": {
+						"Gravestone": 1,
+						"Tree": 1,
+						"Oak": 4
+					},
+					"Spawn": {
+						"Marigolds": 1
+					}
+				},
+				"2": {
+					"Object": {
+						"Tree": 2
+					}
+				},
+				"3": {
+					"Spawn": {
+						"Seaweed": 1
+					}
+				}
+			},
+			"Nickname": "Felix's Gravestone"
+		},
+		"17201": {
+			"Object": {
+				"Stepping stones (Wendlewick)": 1,
+				"Dilapidated canoe station": 1,
+				"Birdhouse plot": 1,
+				"Crate": 1,
+				"Tree": 28,
+				"Oak": 18
+			},
+			"Monster": {
+				"Duck": 2,
+				"Duckling": 1,
+				"Fox": 1,
+				"Goblin#Drop table 1": 3
+			},
+			"NPC": {
+				"Anya": 1,
+				"Barkfoot": 1,
+				"Tiptup": 1,
+				"Weakback": 1,
+				"Mossbrain": 1,
+				"Snakearms": 1
+			},
+			"Spawn": {
+				"Bones": 1,
+				"Burnt bread": 1
+			},
+			"Nickname": "Anya's Tent"
+		},
+		"17202": {
+			"Object": {
+				"Fairy ring": 1,
+				"Outhouse": 1,
+				"Birdhouse plot": 1,
+				"Bench": 1,
+				"Well": 1,
+				"Spinning wheel": 1,
+				"Ladder": 2,
+				"Tree": 16,
+				"Oak": 13,
+				"Willow": 3
+			},
+			"Monster": {
+				"Ram": 2
+			},
+			"NPC": {
+				"Sheep (black)": 2,
+				"Sheep": 8,
+				"Farmer Rachel": 1,
+				"Lamb": 3
+			},
+			"Connect": {
+				"9541": true
+			},
+			"Spawn": {
+				"Ball of wool": 1,
+				"Wool": 1,
+				"Shears": 1
+			},
+			"Nickname": "Eastfold Farm"
+		},
+		"17203": {
+			"Sections": {
+				"1": {
+					"Object": {
+						"Evil tree": 1,
+						"Fishing spot (lure, bait)": 2,
+						"Log balance (Wendlewick)": 1,
+						"Tree": 6,
+						"Oak": 17,
+						"Cave entrance": 1
+					},
+					"Monster": {
+						"Sanguine crawler": 6
+					},
+					"Connect": {
+						"56": true
+					}
+				},
+				"2": {
+					"Object": {
+						"Log balance (Wendlewick)": 1,
+						"Willow": 3
+					}
+				}
+			},
+			"Nickname": "Sanguine Crawlers"
+		},
+		"17204": {
+			"Object": {
+				"Crate": 1,
+				"Trapdoor": 1,
+				"Tree": 15,
+				"Oak": 17
+			},
+			"NPC": {
+				"Ranger": 1
+			},
+			"Nickname": "Ruins East of Wendlewick"
+		},
+		"17205": {
+			"Sections": {
+				"1": {
+					"Object": {
+						"Tree": 4,
+						"Oak": 1,
+						"Material cache (fossilised bone)": 3
+					},
+					"Monster": {
+						"Ivar, King of Bones": 1,
+						"Hill giant": 4
+					},
+					"NPC": {},
+					"Connect": {},
+					"Spawn": {
+						"Tali's mattock": 1,
+						"Tali's brush": 1,
+						"Burnt bones": 3,
+						"Burnt meat": 3
+					}
+				},
+				"2": {
+					"Object": {
+						"Tree": 13
+					},
+					"Monster": {
+						"Volatile chinchompa": 7
+					}
+				},
+				"3": {
+					"Object": {
+						"Tree": 2,
+						"Oak": 1
+					}
+				}
+			},
+			"Nickname": "Hill Giant Camp"
+		},
+		"17206": {
+			"Sections": {
+				"1": {
+					"Object": {
+						"Tree": 19,
+						"Material cache (leather scraps)": 3
+					},
+					"NPC": {
+						"Tali": 1,
+						"Reuben": 1
+					}
+				},
+				"2": {
+					"Object": {
+						"Tree": 2
+					}
+				},
+				"3": {
+					"Object": {
+						"Cave": 1
+					},
+					"Connect": {
+						"57": true
+					}
+				}
+			},
+			"Nickname": "Saradominist Watchtower Ruins"
+		},
 		"17213": {
 			"Object": {
 				"Altar": 1,
@@ -197954,6 +198788,109 @@
 				"Mazcab Emergency Merchants": true
 			},
 			"Name": "Mazcab"
+		},
+		"17456": {
+			"Sections": {
+				"1": {
+					"Spawn": {
+						"Seaweed": 2
+					}
+				},
+				"2": {
+					"Object": {
+						"Fishing spot (big fishing net, harpoon)": 4
+					},
+					"Spawn": {
+						"Harpoon": 1
+					}
+				}
+			},
+			"Nickname": "Harpoon Shore"
+		},
+		"17457": {
+			"Sections": {
+				"1": {
+					"Object": {
+						"Clay rock": 3,
+						"Uncommon gem rock": 3,
+						"Tree": 2,
+						"Oak": 2
+					},
+					"Monster": {
+						"Goblin#Drop table 1": 4
+					},
+					"NPC": {
+						"Frogtongue": 1,
+						"Maggotscratch": 1
+					},
+					"Connect": {},
+					"Spawn": {
+						"Kaleb's travel journal - volume I": 1,
+						"Burnt lobster": 1,
+						"Broken fishing rod": 1
+					}
+				},
+				"2": {
+					"Object": {
+						"Giant crayfish (fishing spot)": 2
+					}
+				}
+			},
+			"Nickname": "Deserted Mine"
+		},
+		"17458": {
+			"Object": {
+				"Tree": 2,
+				"Oak": 2
+			},
+			"Nickname": "Next Update Overlook"
+		},
+		"17459": {
+			"Sections": {
+				"1": {
+					"Object": {
+						"Oak": 3,
+						"Willow": 3,
+						"Tree": 2
+					}
+				},
+				"2": {
+					"Object": {
+						"Sanguine patch": 1,
+						"Oak": 1
+					},
+					"Monster": {
+						"Sanguine crawler": 6
+					}
+				}
+			},
+			"Nickname": "Wolf's Crossing"
+		},
+		"17460": {
+			"Object": {
+				"Dilapidated canoe station": 1,
+				"Tree": 2,
+				"Oak": 2
+			},
+			"Nickname": "Eastern Canoe Station"
+		},
+		"17461": {
+			"Sections": {
+				"1": {},
+				"2": {
+					"Object": {
+						"Tree": 2
+					}
+				},
+				"3": {}
+			},
+			"Nickname": "Waterfall Pathway"
+		},
+		"17462": {
+			"Objects": {
+				"Chest": 1
+			},
+			"Nickname": "Loot Under the Waterfall"
 		},
 		"17469": {
 			"Object": {
@@ -202369,6 +203306,7 @@
 				"14893": true,
 				"15961": true,
 				"16729": true,
+				"17202": true,
 				"18512": true
 			},
 			"Monster": {
@@ -202920,7 +203858,7 @@
                 "Black Knight": 43,
                 "Jailer": 1,
                 "Poison Scorpion": 5,
-                "Hill Giant": 5,
+                "Hill giant": 5,
                 "Chaos dwarf": 6,
 				"Baby blue dragon": 9,
                 "Blue dragon": 3,
@@ -204711,6 +205649,7 @@
 				"13622": true,
 				"14391": true,
 				"15942": true,
+				"16690": true,
 				"23": true
 			}
 		},
@@ -206907,7 +207846,7 @@
 		"Edgeville Dungeon": {
 			"Monster": {
 				"Chaos druid": 23,
-				"Hill Giant": 12,
+				"Hill giant": 12,
 				"Rat": 31,
 				"Giant spider": 7,
 				"Giant rat": 12,
@@ -207335,7 +208274,7 @@
 		},
 		"Edgeville Dungeon hill giant dungeon": {
 			"Monster": {
-				"Hill Giant": 10
+				"Hill giant": 10
 			},
 			"Spawn": {
 				"Limpwurt root": 4
@@ -211867,6 +212806,93 @@
 				"16923": true,
 				"16919": true,
 				"16153": true
+			}
+		},
+		"Hermit Cave": {
+			"Object": {},
+			"NPC": {
+				"Hermit (Wendlewick)": 1
+			},
+			"Monster": {
+				"Crab": 9
+			},
+			"Connect": {
+				"16437": true
+			},
+			"Quest": {
+				"Hermit Permits": "step"
+			}
+		},
+		"Highweald Ruins": {
+			"Object": {
+				"Cave exit": 1,
+				"Havensilver rock": 3,
+				"Necrite rock": 4,
+				"Phasmatite rock": 4,
+				"Platinum rock": 4,
+				"Primeval rocks": 1
+			},
+			"NPC": {
+				"Gidon": 1
+			},
+			"Connect": {
+				"16694": true
+			}
+		},
+		"Blighted Cave": {
+			"Object": {
+				"Cave ventricle": 1,
+				"Cave exit": 1
+			},
+			"Monster": {
+				"Silverquill, the Dreadhog": 1
+			},
+			"Connect": {
+				"17203": true
+			}
+		},
+		"Hollow Hill": {
+			"Object": {
+				"Bonfire": 1,
+				"Hollow tree (Hollow Hill)": 3,
+				"Fox's hunting supplies box": 2,
+				"Chinchompa pen": 1,
+				"Kebbit pen": 1,
+				"Crate": 1
+			},
+			"NPC": {
+				"Scratchy": 1,
+				"Grenwall": 10,
+				"Pawya": 10,
+				"Fur trader (Hollow Hill)": 1,
+				"Meat trader": 1,
+				"Hunter trader": 1,
+				"Odds": 1,
+				"Bone trader": 1,
+				"Giant chinchompa": 1,
+				"Giant carnivorous chinchompa": 1,
+				"Giant volatile chinchompa": 1,
+				"Giant golden chinchompa": 1,
+				"Giant kebbit": 1,
+				"Giant spiked kebbit": 1,
+				"Giant diseased kebbit": 1,
+				"Giant dashing kebbit": 1
+			},
+			"Monster": {
+				"Rat": 4
+			},
+			"Connect": {
+				"17206": true
+			},
+			"Spawn": {
+				"Tali's journal": 1
+			},
+			"Shop": {
+				"Furs": true,
+				"Old Meats": true,
+				"Trappy Stuff": true,
+				"Odd's Sods": true,
+				"Tools": true
 			}
 		}
 	},
@@ -221188,7 +222214,7 @@
 				"Hellhound (HoG)":true
 			},
 			"Hill giants": {
-				"Hill Giant": true
+				"Hill giant": true
 			},
 			"Hobgoblins": {
 				"Hobgoblin#Armed": true,
@@ -247000,7 +248026,7 @@
 				"1": "19/400"
 			}
 		},
-		"Hill Giant": {
+		"Hill giant": {
 			"Big bones": {
 				"1": "Always"
 			},
@@ -280389,7 +281415,8 @@
 			{ "color": "#8B4513", "x": 3222, "y": 3512 },
 			{ "color": "#8B4513", "x": 2653, "y": 3412 },
 			{ "color": "#8B4513", "x": 2909, "y": 2895 },
-			{ "color": "#8B4513", "x": 2450, "y": 3348 }
+			{ "color": "#8B4513", "x": 2450, "y": 3348 },
+			{ "color": "#8B4513", "x": 4308, "y": 3265 }
 		],
 		"Familiarisation": [
 			{ "color": "#40E0D0", "x": 2932, "y": 3347 },
@@ -280443,7 +281470,8 @@
 			{ "color": "#708090", "x": 2975, "y": 3401 },
 			{ "color": "#708090", "x": 3305, "y": 3268 },
 			{ "color": "#708090", "x": 2603, "y": 3623 },
-			{ "color": "#708090", "x": 3646, "y": 3523 }
+			{ "color": "#708090", "x": 3646, "y": 3523 },
+			{ "color": "#708090", "x": 4246, "y": 3425 }
 		],
 		"Big Chinchompa": [
 			{ "color": "#87CEEB", "x": 2556, "y": 2930 },
