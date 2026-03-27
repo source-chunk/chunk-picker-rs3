@@ -181709,7 +181709,7 @@
 			},
 			"Name": "Ghorrock Fortress Dungeon"
 		},
-		"11801": {
+		"11901": {
 			"Object": {
 				"Tunnel": 2,
 				"Exit": 1,
@@ -181721,26 +181721,6 @@
 				"Exiled kalphite paragon": 5,
 				"Exiled kalphite guardian": 10,
 				"Exiled kalphite marauder": 7
-			},
-			"Name": "Exiled Kalphite Hive"
-		},
-		"11802": {
-			"Object": {
-				"Slope": 1
-			},
-			"Monster": {
-				"Exiled kalphite guardian": 2,
-				"Exiled kalphite marauder": 2,
-				"Exiled Kalphite Queen": 1
-			},
-			"Name": "Exiled Kalphite Hive"
-		},
-		"11803": {
-			"Monser": {
-				"Kalphite King": 1
-			},
-			"Object": {
-				"Tunnel": 1
 			},
 			"Name": "Exiled Kalphite Hive"
 		},
@@ -182884,21 +182864,6 @@
 				"11837": true
 			},
 			"Name": "Wilderness Agility Course Pit"
-		},
-		"12057": {
-			"Object": {
-				"Ogrewatch sign": 1,
-				"Special delivery sign": 1
-			},
-			"NPC": {
-				"Rabbit": 3,
-				"Ogre": 1,
-				"Wolly?": 4,
-				"Gunther": 1,
-				"Keg": 1,
-				"Barmaid": 1,
-				"Drunken Dwarf": 6
-			}
 		},
 		"12073": {
 			"NPC": {
@@ -185312,21 +185277,6 @@
 			},
 			"Name": "Forinthry Dungeon"
 		},
-		"12569": {
-			"Object": {
-				"Cooking range": 1,
-				"Crate": 1,
-				"Spinning wheel": 1,
-				"Sink": 2,
-				"Drawers": 6,
-				"Oak": 1,
-				"Tree": 2,
-				"Bookcase": 2,
-				"Clan Cup plaque": 1,
-				"Chest": 2,
-				"Portal": 1
-			}
-		},
 		"12584": {
 			"Object": {
 				"Port portal": 1
@@ -186612,7 +186562,7 @@
 				"Grand Vizier Hassan": 1
 			},
 			"Connect": {
-				"11801": true
+				"11901": true
 			},
 			"Quest": {
 				"The Jack of Spades": "step",
@@ -189387,7 +189337,7 @@
 				"11601": true,
 				"11602": true,
 				"11603": true,
-				"11801": true,
+				"11901": true,
 				"11829": true,
 				"11844": true,
 				"12086": true,
@@ -195971,7 +195921,7 @@
 						"Anagami": 7
 					},
 					"Connect": {
-						"18063": true,
+						"18163": true,
 						"49": true
 					},
 					"Clue": {
@@ -196402,7 +196352,7 @@
 			"Sections": {
 				"1": {
 					"Connect": {
-						"18063": true,
+						"18163": true,
 						"49": true
 					}
 				},
@@ -198495,83 +198445,6 @@
 			},
 			"Nickname": "Saradominist Watchtower Ruins"
 		},
-		"17213": {
-			"Object": {
-				"Altar": 1,
-				"Bench": 56,
-				"Lever": 1,
-				"Podium": 1
-			},
-			"Name": "Clan Citadel"
-		},
-		"17215": {
-			"Object": {
-				"Loom": 32,
-				"Ore container": 16,
-				"Precious Ore container": 8
-			},
-			"Name": "Clan Citadel"
-		},
-		"17216": {
-			"Object": {
-				"Gear crate": 1,
-				"Tent": 1,
-				"Noticeboard": 1
-			},
-			"Name": "Clan Citadel"
-		},
-		"17217": {
-			"Object": {
-				"Bench": 68,
-				"Podium": 1
-			},
-			"Name": "Clan Citadel"
-		},
-		"17218": {
-			"Object": {
-				"Gear crate": 1,
-				"Tent": 1,
-				"Noticeboard": 1
-			},
-			"Name": "Clan Citadel"
-		},
-		"17219": {
-			"Object": {
-				"Bench": 60,
-				"Podium": 1
-			},
-			"Name": "Clan Citadel"
-		},
-		"17220": {
-			"Object": {
-				"Gear crate": 1,
-				"Tent": 1,
-				"Noticeboard": 1
-			},
-			"Name": "Clan Citadel"
-		},
-		"17221": {
-			"Object": {
-				"Bench": 60,
-				"Podium": 1
-			},
-			"Name": "Clan Citadel"
-		},
-		"17222": {
-			"Object": {
-				"Gear crate": 1,
-				"Tent": 1,
-				"Noticeboard": 1
-			},
-			"Name": "Clan Citadel"
-		},
-		"17223": {
-			"Object": {
-				"Bench": 56,
-				"Podium": 1
-			},
-			"Name": "Clan Citadel"
-		},
 		"17224": {
 			"Object": {
 				"Gear crate": 1,
@@ -198892,68 +198765,6 @@
 			},
 			"Nickname": "Loot Under the Waterfall"
 		},
-		"17469": {
-			"Object": {
-				"Altar": 1,
-				"Bench": 40
-			},
-			"Name": "Clan Citadel"
-		},
-		"17472": {
-			"Object": {
-				"Portal": 1
-			},
-			"Name": "Clan Citadel"
-		},
-		"17473": {
-			"Object": {
-				"Bench": 68,
-				"Altar": 1,
-				"Lever": 1
-			},
-			"Name": "Clan Citadel"
-		},
-		"17474": {
-			"Object": {
-				"Portal": 1
-			},
-			"Name": "Clan Citadel"
-		},
-		"17475": {
-			"Object": {
-				"Bench": 60,
-				"Altar": 1,
-				"Lever": 1
-			},
-			"Name": "Clan Citadel"
-		},
-		"17476": {
-			"Object": {
-				"Portal": 1
-			},
-			"Name": "Clan Citadel"
-		},
-		"17477": {
-			"Object": {
-				"Bench": 60,
-				"Altar": 1,
-				"Lever": 1
-			},
-			"Name": "Clan Citadel"
-		},
-		"17478": {
-			"Object": {
-				"Portal": 1
-			},
-			"Name": "Clan Citadel"
-		},
-		"17479": {
-			"Object": {
-				"Bench": 56,
-				"Lever": 1
-			},
-			"Name": "Clan Citadel"
-		},
 		"17480": {
 			"Object": {
 				"Portal": 1
@@ -199193,47 +199004,6 @@
 			},
 			"Nickname": "Goshima Docks"
 		},
-		"17677": {
-			"NPC": {
-				"Goebie supplier": 1
-			},
-			"Name": "Mazcab"
-		},
-		"17729": {
-			"Object": {
-				"Altar": 1,
-				"Bench": 136,
-				"Lever": 1,
-				"Podium": 1
-			},
-			"Name": "Clan Citadel"
-		},
-		"17731": {
-			"Object": {
-				"Altar": 1,
-				"Bench": 120,
-				"Lever": 1,
-				"Podium": 1
-			},
-			"Name": "Clan Citadel"
-		},
-		"17733": {
-			"Object": {
-				"Altar": 1,
-				"Bench": 120,
-				"Lever": 1,
-				"Podium": 1
-			},
-			"Name": "Clan Citadel"
-		},
-		"17735": {
-			"Object": {
-				"Bench": 112,
-				"Lever": 1,
-				"Podium": 1
-			},
-			"Name": "Clan Citadel"
-		},
 		"17737": {
 			"Object": {
 				"Bench": 112,
@@ -199361,51 +199131,6 @@
 			},
 			"Nickname": "Gongdung Gate"
 		},
-		"17983": {
-			"Object": {
-				"Woodchip": 48,
-				"Stewing Pot": 26,
-				"Large Chopping Board": 26,
-				"Grill": 26
-			},
-			"Name": "Clan Citadel"
-		},
-		"17984": {
-			"Object": {
-				"Gear crate": 1,
-				"Tent": 1,
-				"Portal": 1,
-				"Noticeboard": 1
-			},
-			"Name": "Clan Citadel"
-		},
-		"17986": {
-			"Object": {
-				"Gear crate": 1,
-				"Tent": 1,
-				"Portal": 1,
-				"Noticeboard": 1
-			},
-			"Name": "Clan Citadel"
-		},
-		"17988": {
-			"Object": {
-				"Gear crate": 1,
-				"Tent": 1,
-				"Portal": 1,
-				"Noticeboard": 1
-			},
-			"Name": "Clan Citadel"
-		},
-		"17990": {
-			"Object": {
-				"Gear crate": 1,
-				"Tent": 1,
-				"Portal": 1,
-				"Noticeboard": 1
-			},
-			"Name": "Clan Citadel"
-		},
 		"17992": {
 			"Object": {
 				"Gear crate": 1,
@@ -199478,16 +199203,6 @@
 			},
 			"Nickname": "North-East Gongdung"
 		},
-		"18030": {
-			"Object": {
-				"Rope": 1
-			}
-		},
-		"18032": {
-			"Object": {
-				"Shrine": 1
-			}
-		},
 		"18033": {
 			"Object": {
 				"Tome": 1
@@ -199498,62 +199213,8 @@
 				"Primrose": 1
 			}
 		},
-		"18060": {
-			"Object": {
-				"Mysterious lectern": 1,
-				"Discarded pages": 1,
-				"Armament log": 1,
-				"Discarded scraps": 1
-			},
+		"18163": {
 			"Name": "Temple of Aminishi"
-		},
-		"18063": {
-			"Name": "Temple of Aminishi"
-		},
-		"18239": {
-			"Object": {
-				"Loom": 32,
-				"Ore container": 14,
-				"Precious Ore container": 6,
-				"Ore Container": 2,
-				"Precious Ore Container": 2
-			},
-			"Name": "Clan Citadel"
-		},
-		"18241": {
-			"Object": {
-				"Altar": 1,
-				"Bench": 136,
-				"Lever": 1,
-				"Podium": 1
-			},
-			"Name": "Clan Citadel"
-		},
-		"18243": {
-			"Object": {
-				"Altar": 1,
-				"Bench": 120,
-				"Lever": 1,
-				"Podium": 1
-			},
-			"Name": "Clan Citadel"
-		},
-		"18245": {
-			"Object": {
-				"Altar": 1,
-				"Bench": 120,
-				"Lever": 1,
-				"Podium": 1
-			},
-			"Name": "Clan Citadel"
-		},
-		"18247": {
-			"Object": {
-				"Bench": 112,
-				"Lever": 1,
-				"Podium": 1
-			},
-			"Name": "Clan Citadel"
 		},
 		"18249": {
 			"Object": {
