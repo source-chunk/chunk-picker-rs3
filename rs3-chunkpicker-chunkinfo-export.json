@@ -1057,6 +1057,17 @@
 				"Priority": 1001,
 				"NoPet": true
 			},
+			"Pickpocket a ~|ranger|~ for quadruple loot": {
+				"Category": ["Multiple Agility"],
+				"Level": 70,
+				"Monsters": ["Ranger"],
+				"Skills": {
+					"Agility": 60
+				},
+				"Output": "Coins",
+				"Primary": true,
+				"Priority": 1002
+			},
 			"Cross the ~|stile (Tree Gnome Stronghold)|~": {
 				"Category": ["Shortcut"],
 				"Objects": ["Stile (Tree Gnome Stronghold)"],
@@ -18026,6 +18037,15 @@
 				"Primary": true,
 				"Priority": 4
 			},
+			"Make ~|apex sinew|~": {
+				"Items": ["Raw giant meat[+]*"],
+				"Objects": ["Cooking range[+]"],
+				"Level": 90,
+				"Output": "Apex sinew",
+				"Primary": true,
+				"Priority": 5,
+				"Partial": true
+			},
 			"Make a ~|Milestone cape (90)|~": {
 				"Category": ["Skillcape"],
 				"Items": ["Balls of wool"],
@@ -18063,7 +18083,7 @@
 					"Thieving": 90,
 					"Woodcutting": 90
 				},
-				"Priority": 5,
+				"Priority": 1000,
 				"Not F2P": true
 			},
 			"Cook a ~|manta ray|~": {
@@ -18305,6 +18325,22 @@
 				"Primary": true,
 				"Priority": 3
 			},
+			"Cook ~|giant chinchompa meat|~": {
+				"Items": ["Raw giant chinchompa meat*"],
+				"Objects": ["Cooking object[+]"],
+				"Level": 99,
+				"Output": "Giant chinchompa meat",
+				"Primary": true,
+				"Priority": 4
+			},
+			"Cook ~|giant kebbit meat|~": {
+				"Items": ["Raw giant kebbit meat*"],
+				"Objects": ["Cooking object[+]"],
+				"Level": 99,
+				"Output": "Giant kebbit meat",
+				"Primary": true,
+				"Priority": 5
+			},
 			"Buy the ~|Cooking cape|~": {
 				"Category": ["Skillcape"],
 				"NPCs": ["Head chef"],
@@ -18328,26 +18364,26 @@
 			"Make a ~|primal starter|~": {
 				"Items": ["Raw oculi apoterrasaur meat*", "Rainbow sweetcorn*", "Cannonball cabbage*", "Sweet potato*"],
 				"Objects": ["Cooking range[+]"],
-				"Level": 115,
+				"Level": 99,
 				"Output": "Primal starter",
 				"Primary": true,
-				"Priority": 6
+				"Priority": 1000
 			},
 			"Make a ~|primal main course|~": {
 				"Items": ["Raw malletops meat*", "Raw pavosaurus rew meat*", "Red onion*", "Heirloom tomato*"],
 				"Objects": ["Cooking range[+]"],
-				"Level": 115,
+				"Level": 99,
 				"Output": "Primal main course",
 				"Primary": true,
-				"Priority": 7
+				"Priority": 1000
 			},
 			"Make a ~|primal dessert|~": {
 				"Items": ["White strawberry*", "Golden watermelon*", "Dragonfruit*", "Mango*"],
 				"Objects": ["Cooking range[+]"],
-				"Level": 115,
+				"Level": 99,
 				"Output": "Primal dessert",
 				"Primary": true,
-				"Priority": 8
+				"Priority": 1000
 			},
 			"Make a ~|Moray & edicap potato|~": {
 				"Category": ["Daemonheim tasks"],
@@ -19097,6 +19133,17 @@
 				"Primary": true,
 				"Priority": 3
 			},
+			"Fletch a ~|birdhouse|~": {
+				"Items": ["Logs*", "Clockwork"],
+				"Level": 5,
+				"Skills": {
+					"Fletching": 10
+				},
+				"Output": "Birdhouse",
+				"Primary": true,
+				"Priority": 4,
+				"Not F2P": true
+			},
 			"Craft a ~|gold necklace|~": {
 				"Items": ["Gold bar*"],
 				"Level": 6,
@@ -19214,6 +19261,17 @@
 				"Output": "Wooden cat",
 				"Primary": true,
 				"Priority": 3,
+				"Not F2P": true
+			},
+			"Fletch an ~|oak birdhouse|~": {
+				"Items": ["Oak logs*", "Clockwork"],
+				"Level": 10,
+				"Skills": {
+					"Fletching": 10
+				},
+				"Output": "Oak birdhouse",
+				"Primary": true,
+				"Priority": 4,
 				"Not F2P": true
 			},
 			"Craft ~|leather vambraces|~": {
@@ -19966,6 +20024,17 @@
 				"Priority": 5,
 				"Partial": true
 			},
+			"Fletch a ~|willow birdhouse|~": {
+				"Items": ["Willow logs*", "Clockwork"],
+				"Level": 20,
+				"Skills": {
+					"Fletching": 10
+				},
+				"Output": "Willow birdhouse",
+				"Primary": true,
+				"Priority": 6,
+				"Not F2P": true
+			},
 			"Craft ~|spider silk boots|~": {
 				"Items": ["Spider silk*", "Thread*"],
 				"Level": 21,
@@ -20421,6 +20490,17 @@
 				"Output": "Clockwork suit",
 				"Primary": true,
 				"Priority": 5,
+				"Not F2P": true
+			},
+			"Fletch a ~|teak birdhouse|~": {
+				"Items": ["Teak logs*", "Clockwork"],
+				"Level": 30,
+				"Skills": {
+					"Fletching": 10
+				},
+				"Output": "Teak birdhouse",
+				"Primary": true,
+				"Priority": 6,
 				"Not F2P": true
 			},
 			"Craft ~|carapace boots|~": {
@@ -21021,11 +21101,22 @@
 				"Primary": true,
 				"Priority": 9
 			},
+			"Fletch a ~|maple birdhouse|~": {
+				"Items": ["Maple logs*", "Clockwork"],
+				"Level": 40,
+				"Skills": {
+					"Fletching": 10
+				},
+				"Output": "Maple birdhouse",
+				"Primary": true,
+				"Priority": 10,
+				"Not F2P": true
+			},
 			"Enter the ~|Crafting Guild|~": {
 				"Chunks": ["11571-1"],
 				"Level": 40,
 				"Primary": false,
-				"Priority": 10
+				"Priority": 99
 			},
 			"Create a willow ~|pyre ship|~": {
 				"Items": ["Willow logs*", "Mangled bones*"],
@@ -21549,6 +21640,17 @@
 				"Priority": 10,
 				"Not F2P": true,
 				"Partial": true
+			},
+			"Fletch an ~|acadia birdhouse|~": {
+				"Items": ["Acadia logs*", "Clockwork"],
+				"Level": 50,
+				"Skills": {
+					"Fletching": 10
+				},
+				"Output": "Acadia birdhouse",
+				"Primary": true,
+				"Priority": 11,
+				"Not F2P": true
 			},
 			"Craft ~|snakeskin chaps|~": {
 				"Items": ["Snakeskin*", "Thread*"],
@@ -22170,6 +22272,17 @@
 				"Priority": 9,
 				"Not F2P": true
 			},
+			"Fletch a ~|mahogany birdhouse|~": {
+				"Items": ["Mahogany logs*", "Clockwork"],
+				"Level": 60,
+				"Skills": {
+					"Fletching": 10
+				},
+				"Output": "Mahogany birdhouse",
+				"Primary": true,
+				"Priority": 10,
+				"Not F2P": true
+			},
 			"Read the ~|scroll of dexterity|~": {
 				"Items": ["Scroll of dexterity"],
 				"Level": 60,
@@ -22632,6 +22745,17 @@
 				},
 				"Primary": false,
 				"Priority": 10,
+				"Not F2P": true
+			},
+			"Fletch a ~|yew birdhouse|~": {
+				"Items": ["Yew logs*", "Clockwork"],
+				"Level": 70,
+				"Skills": {
+					"Fletching": 10
+				},
+				"Output": "Yew birdhouse",
+				"Primary": true,
+				"Priority": 11,
 				"Not F2P": true
 			},
 			"Create a yew ~|pyre ship|~": {
@@ -23334,6 +23458,17 @@
 				"Primary": true,
 				"Output": "Farsight blood necklace",
 				"Priority": 13,
+				"Not F2P": true
+			},
+			"Fletch a ~|magic birdhouse|~": {
+				"Items": ["Magic logs*", "Clockwork"],
+				"Level": 80,
+				"Skills": {
+					"Fletching": 10
+				},
+				"Output": "Magic birdhouse",
+				"Primary": true,
+				"Priority": 14,
 				"Not F2P": true
 			},
 			"Unlock ~|Invention|~": {
@@ -24105,6 +24240,17 @@
 				"Primary": true,
 				"Priority": 30
 			},
+			"Fletch an ~|elder birdhouse|~": {
+				"Items": ["Elder logs*", "Clockwork"],
+				"Level": 90,
+				"Skills": {
+					"Fletching": 10
+				},
+				"Output": "Elder birdhouse",
+				"Primary": true,
+				"Priority": 31,
+				"Not F2P": true
+			},
 			"Enter a tier three ~|Shifting Tombs|~": {
 				"Chunks": ["Shifting Tombs"],
 				"Level": 90,
@@ -24668,13 +24814,29 @@
 				"Primary": true,
 				"Priority": 3
 			},
+			"Design, draft and craft a piece of ~|apex hide equipment|~ (except the body)": {
+				"Items": ["Apex leather*", "Apex sinew*", "Steel studs*"],
+				"Level": 100,
+				"Objects": ["Pattern table", "Drafting table", "Tailor's dummy"],
+				"Output": "Apex hide equipment",
+				"Primary": true,
+				"Priority": 4
+			},
+			"Design, draft and craft a ~|apex hide body|~": {
+				"Items": ["Apex leather*", "Apex sinew*", "Steel studs*", "Steel bar*"],
+				"Level": 100,
+				"Objects": ["Pattern table", "Drafting table", "Tailor's dummy"],
+				"Output": "Apex hide torso equipment",
+				"Primary": true,
+				"Priority": 4
+			},
 			"Create ~|soft porcelain clay|~ with a container": {
 				"Category": ["Token"],
 				"Items": ["Porcelain clay*", "WaterItem[+]"],
 				"Level": 100,
 				"Output": "Soft porcelain clay",
 				"Primary": true,
-				"Priority": 4,
+				"Priority": 5,
 				"Not F2P": true,
 				"Partial": true
 			},
@@ -24685,8 +24847,35 @@
 				"Output": "Soft porcelain clay",
 				"Objects": ["WaterSource[+]"],
 				"Primary": true,
-				"Priority": 5,
+				"Priority": 6,
 				"Not F2P": true,
+				"Partial": true
+			},
+			"Fletch an ~|eternal magic birdhouse|~": {
+				"Items": ["Eternal magic logs*", "Clockwork"],
+				"Level": 100,
+				"Skills": {
+					"Fletching": 10
+				},
+				"Output": "Eternal magic birdhouse",
+				"Primary": true,
+				"Priority": 6,
+				"Not F2P": true
+			},
+			"Design and draft an ~|unfinished starbloom draft|~": {
+				"Items": ["Starbloom cloth*"],
+				"Level": 100,
+				"Objects": ["Pattern table", "Drafting table"],
+				"Primary": true,
+				"Priority": 100,
+				"Partial": true
+			},
+			"Design and draft an ~|unfinished apex hide draft|~": {
+				"Items": ["Apex leather*", "Apex sinew*", "Steel studs*"],
+				"Level": 100,
+				"Objects": ["Pattern table", "Drafting table"],
+				"Primary": true,
+				"Priority": 101,
 				"Partial": true
 			},
 			"Craft an ~|exquisite mining urn (unfired)|~": {
@@ -25197,6 +25386,107 @@
 				"Output": "Exquisite farming urn",
 				"Primary": true,
 				"Priority": 14
+			},
+			"Make ~|masterwork sinew|~": {
+				"Items": ["Thread*", "Sinew*", "Apex sinew*"],
+				"Objects": ["Spinning wheel"],
+				"Level": 110,
+				"Tasks": {
+					"It Should Have Been Called Chinskin*": "Nonskill"
+				},
+				"Output": "Masterwork sinew",
+				"Primary": true,
+				"Priority": 15,
+				"Partial": true
+			},
+			"Inlay a ~|draconic plate|~": {
+				"Items": ["Masterwork ranged plate*", "Draconic shards*", "Lacquer"],
+				"Objects": ["Spinning wheel"],
+				"Level": 110,
+				"Tasks": {
+					"It Should Have Been Called Chinskin*": "Nonskill"
+				},
+				"Output": "Draconic plate",
+				"Primary": true,
+				"Priority": 16,
+				"Partial": true
+			},
+			"Line a ~|lined draconic plate|~": {
+				"Items": ["Draconic plate*", "Apex leather*"],
+				"Level": 110,
+				"Tasks": {
+					"It Should Have Been Called Chinskin*": "Nonskill"
+				},
+				"Output": "Lined draconic plate",
+				"Primary": true,
+				"Priority": 17,
+				"Partial": true
+			},
+			"Craft ~|masterwork monochromatic dragon leather|~": {
+				"Items": ["Black dragon leather*", "Royal dragon leather*", "Undead dragon leather*", "Dinosaur leather*", "Masterwork thread*"],
+				"Level": 110,
+				"Tasks": {
+					"It Should Have Been Called Chinskin*": "Nonskill"
+				},
+				"Output": "Masterwork monochromatic dragon leather",
+				"Primary": true,
+				"Priority": 18,
+				"Partial": true
+			},
+			"Craft ~|masterwork elasticated leather|~": {
+				"Items": ["Snakeskin*", "Carapace*", "Dagannoth hide*", "Leather*", "Masterwork thread*"],
+				"Level": 110,
+				"Tasks": {
+					"It Should Have Been Called Chinskin*": "Nonskill"
+				},
+				"Output": "Masterwork elasticated leather",
+				"Primary": true,
+				"Priority": 19,
+				"Partial": true
+			},
+			"Craft ~|masterwork chromatic dragon leather|~": {
+				"Items": ["Green dragon leather*", "Blue dragon leahter*", "Red dragon leather*", "Hard leather*", "Masterwork thread*"],
+				"Level": 110,
+				"Tasks": {
+					"It Should Have Been Called Chinskin*": "Nonskill"
+				},
+				"Output": "Masterwork chromatic dragon leather",
+				"Primary": true,
+				"Priority": 20,
+				"Partial": true
+			},
+			"Design, draft and craft a ~|masterwork ranged cowl|~": {
+				"Items": ["Masterwork monochromatic dragon leather*", "Masterwork elasticated leather*", "Masterwork chromatic dragon leather*", "Ethereal draconic plate*", "Masterwork sinew*", "Algarum thread*"],
+				"Level": 110,
+				"Objects": ["Pattern table", "Drafting table", "Tailor's dummy"],
+				"Tasks": {
+					"It Should Have Been Called Chinskin*": "Nonskill"
+				},
+				"Output": "Masterwork ranged cowl",
+				"Primary": true,
+				"Priority": 21
+			},
+			"Design, draft and craft a piece of ~|masterwork ranged equipment|~ except the cowl": {
+				"Items": ["Masterwork monochromatic dragon leather*", "Masterwork elasticated leather*", "Ethereal draconic plate*", "Masterwork sinew*", "Algarum thread*"],
+				"Level": 110,
+				"Objects": ["Pattern table", "Drafting table", "Tailor's dummy"],
+				"Tasks": {
+					"It Should Have Been Called Chinskin*": "Nonskill"
+				},
+				"Output": "Masterwork ranged equipment",
+				"Primary": true,
+				"Priority": 22
+			},
+			"Design, draft and craft a ~|masterwork ranged cape|~": {
+				"Items": ["Masterwork white cloth", "Masterwork chromatic dragon leather*", "Masterwork sinew*"],
+				"Level": 110,
+				"Objects": ["Pattern table", "Drafting table", "Tailor's dummy"],
+				"Tasks": {
+					"It Should Have Been Called Chinskin*": "Nonskill"
+				},
+				"Output": "Masterwork ranged cape",
+				"Primary": true,
+				"Priority": 23
 			},
 			"Buy the ~|Crafting master cape|~": {
 				"Category": ["Master skillcape"],
@@ -38399,6 +38689,127 @@
 				"Primary": true,
 				"Priority": 3
 			},
+			"Fletch a ~|birdhouse|~": {
+				"Items": ["Logs*", "Clockwork"],
+				"Level": 10,
+				"Skills": {
+					"Crafting": 5
+				},
+				"Output": "Birdhouse",
+				"Primary": true,
+				"Priority": 100,
+				"Not F2P": true
+			},
+			"Fletch an ~|oak birdhouse|~": {
+				"Items": ["Oak logs*", "Clockwork"],
+				"Level": 10,
+				"Skills": {
+					"Crafting": 10
+				},
+				"Output": "Oak birdhouse",
+				"Primary": true,
+				"Priority": 101,
+				"Not F2P": true
+			},
+			"Fletch a ~|willow birdhouse|~": {
+				"Items": ["Willow logs*", "Clockwork"],
+				"Level": 10,
+				"Skills": {
+					"Crafting": 20
+				},
+				"Output": "Willow birdhouse",
+				"Primary": true,
+				"Priority": 102,
+				"Not F2P": true
+			},
+			"Fletch a ~|teak birdhouse|~": {
+				"Items": ["Teak logs*", "Clockwork"],
+				"Level": 10,
+				"Skills": {
+					"Crafting": 30
+				},
+				"Output": "Teak birdhouse",
+				"Primary": true,
+				"Priority": 103,
+				"Not F2P": true
+			},
+			"Fletch a ~|maple birdhouse|~": {
+				"Items": ["Maple logs*", "Clockwork"],
+				"Level": 10,
+				"Skills": {
+					"Crafting": 40
+				},
+				"Output": "Maple birdhouse",
+				"Primary": true,
+				"Priority": 104,
+				"Not F2P": true
+			},
+			"Fletch an ~|acadia birdhouse|~": {
+				"Items": ["Acadia logs*", "Clockwork"],
+				"Level": 10,
+				"Skills": {
+					"Crafting": 50
+				},
+				"Output": "Acadia birdhouse",
+				"Primary": true,
+				"Priority": 105,
+				"Not F2P": true
+			},
+			"Fletch a ~|mahogany birdhouse|~": {
+				"Items": ["Mahogany logs*", "Clockwork"],
+				"Level": 10,
+				"Skills": {
+					"Crafting": 60
+				},
+				"Output": "Mahogany birdhouse",
+				"Primary": true,
+				"Priority": 106,
+				"Not F2P": true
+			},
+			"Fletch a ~|yew birdhouse|~": {
+				"Items": ["Yew logs*", "Clockwork"],
+				"Level": 10,
+				"Skills": {
+					"Crafting": 70
+				},
+				"Output": "Yew birdhouse",
+				"Primary": true,
+				"Priority": 107,
+				"Not F2P": true
+			},
+			"Fletch a ~|magic birdhouse|~": {
+				"Items": ["Magic logs*", "Clockwork"],
+				"Level": 10,
+				"Skills": {
+					"Crafting": 80
+				},
+				"Output": "Magic birdhouse",
+				"Primary": true,
+				"Priority": 108,
+				"Not F2P": true
+			},
+			"Fletch an ~|elder birdhouse|~": {
+				"Items": ["Elder logs*", "Clockwork"],
+				"Level": 10,
+				"Skills": {
+					"Crafting": 90
+				},
+				"Output": "Elder birdhouse",
+				"Primary": true,
+				"Priority": 109,
+				"Not F2P": true
+			},
+			"Fletch an ~|eternal magic birdhouse|~": {
+				"Items": ["Eternal magic logs*", "Clockwork"],
+				"Level": 10,
+				"Skills": {
+					"Crafting": 10
+				},
+				"Output": "Eternal magic birdhouse",
+				"Primary": true,
+				"Priority": 110,
+				"Not F2P": true
+			},
 			"Fletch ~|opal bolt tips|~": {
 				"Items": ["Opal*"],
 				"Level": 11,
@@ -39833,6 +40244,17 @@
 				"Primary": true,
 				"Priority": 30,
 				"Not F2P": true
+			},
+			"Make ~|draconic shards|~": {
+				"Items": ["Draconic visage*"],
+				"Level": 90,
+				"Tasks": {
+					"It Should Have Been Called Chinskin*": "Nonskill"
+				},
+				"Output": "Masterwork sinew",
+				"Primary": true,
+				"Priority": 31,
+				"Partial": true
 			},
 			"Tip ~|jade bakriminel bolts|~": {
 				"Items": ["Bakriminel bolts*", "Jade bolt tips*"],
@@ -43610,6 +44032,15 @@
 				"Priority": 1,
 				"Not F2P": true
 			},
+			"Set up a ~|birdhouse|~": {
+				"Items": ["Birdhouse"],
+				"Objects": ["Birdhouse plot"],
+				"Level": 5,
+				"Output": "Birdhouse loot",
+				"Primary": true,
+				"Priority": 1,
+				"Not F2P": true
+			},
 			"Catch a ~|Feldip weasel|~": {
 				"Chunks": ["10029"],
 				"Level": 7,
@@ -43638,6 +44069,15 @@
 				"Output": "CeruleanTwitch",
 				"Primary": true,
 				"Priority": 1
+			},
+			"Set up an ~|oak birdhouse|~": {
+				"Items": ["Oak birdhouse"],
+				"Objects": ["Birdhouse plot"],
+				"Level": 11,
+				"Output": "Birdhouse loot",
+				"Primary": true,
+				"Priority": 2,
+				"Not F2P": true
 			},
 			"Catch a ~|desert devil|~": {
 				"Chunks": ["13616"],
@@ -43699,6 +44139,14 @@
 				"Primary" : false,
 				"Priority": 3
 			},
+			"Catch a ~|gold spirit moth|~ with a net": {
+				"Objects": ["Hollow tree (Highweald Forest)"],
+				"Items": ["ButterflyNet[+]"],
+				"Level": 18,
+				"Output": "Gold spirit moth",
+				"Primary": true,
+				"Priority": 1
+			},
 			"Catch a ~|tropical wagtail|~": {
 				"Items": ["Bird snare"],
 				"NPCs": ["Tropical wagtail"],
@@ -43713,6 +44161,15 @@
 				"Objects": ["Flower basket (built)"],
 				"Level": 20,
 				"Output": "DazzlingWhirligig",
+				"Primary": true,
+				"Priority": 1,
+				"Not F2P": true
+			},
+			"Set up a ~|willow birdhouse|~": {
+				"Items": ["Willow birdhouse"],
+				"Objects": ["Birdhouse plot"],
+				"Level": 21,
+				"Output": "Birdhouse loot",
 				"Primary": true,
 				"Priority": 1,
 				"Not F2P": true
@@ -43914,6 +44371,23 @@
 				"Primary": true,
 				"Priority": 1
 			},
+			"Set up a ~|teak birdhouse|~": {
+				"Items": ["Teak birdhouse"],
+				"Objects": ["Birdhouse plot"],
+				"Level": 31,
+				"Output": "Birdhouse loot",
+				"Primary": true,
+				"Priority": 2,
+				"Not F2P": true
+			},
+			"Catch a ~|green spirit moth|~ with a net": {
+				"Objects": ["Hollow tree (Highweald Forest)"],
+				"Items": ["ButterflyNet[+]"],
+				"Level": 32,
+				"Output": "Green spirit moth",
+				"Primary": true,
+				"Priority": 1
+			},
 			"Catch a ~|barb-tailed kebbit|~": {
 				"NPCs": ["Barb-tailed kebbit"],
 				"Items": ["Logs"],
@@ -44010,6 +44484,15 @@
 				"Output": "HornedGraahk",
 				"Primary": true,
 				"Priority": 1
+			},
+			"Set up a ~|maple birdhouse|~": {
+				"Items": ["Maple birdhouse"],
+				"Objects": ["Birdhouse plot"],
+				"Level": 41,
+				"Output": "Birdhouse loot",
+				"Primary": true,
+				"Priority": 2,
+				"Not F2P": true
 			},
 			"Catch an ~|essence impling|~ in Puro-Puro": {
 				"Chunks": ["Puro-Puro"],
@@ -44119,6 +44602,14 @@
 				"Primary": true,
 				"Priority": 1
 			},
+			"Catch a ~|crimson spirit moth|~ with a net": {
+				"Objects": ["Hollow tree (Highweald Forest)"],
+				"Items": ["ButterflyNet[+]"],
+				"Level": 49,
+				"Output": "Crimson spirit moth",
+				"Primary": true,
+				"Priority": 2
+			},
 			"Wield a ~|sacred clay butterfly net|~": {
 				"Items": ["Sacred clay butterfly net"],
 				"Level": 50,
@@ -44180,6 +44671,15 @@
 				"Output": "Penguin",
 				"Primary": true,
 				"Priority": 2
+			},
+			"Set up an ~|acadia birdhouse|~": {
+				"Items": ["Acadia birdhouse"],
+				"Objects": ["Birdhouse plot"],
+				"Level": 51,
+				"Output": "Birdhouse loot",
+				"Primary": true,
+				"Priority": 2,
+				"Not F2P": true
 			},
 			"Wear the ~|kyatt outfit|~": {
 				"Items": ["KyattOutfit[+]"],
@@ -44299,11 +44799,28 @@
 				"Primary": true,
 				"Priority": 1
 			},
+			"Set up a ~|mahogany birdhouse|~": {
+				"Items": ["Mahogany birdhouse"],
+				"Objects": ["Birdhouse plot"],
+				"Level": 61,
+				"Output": "Birdhouse loot",
+				"Primary": true,
+				"Priority": 1,
+				"Not F2P": true
+			},
 			"Catch a ~|carnivorous chinchompa|~": {
 				"Items": ["Box trap"],
 				"Monsters": ["Carnivorous chinchompa"],
 				"Level": 63,
 				"Output": "RedChinchompa",
+				"Primary": true,
+				"Priority": 1
+			},
+			"Catch a ~|blue spirit moth|~ with a net": {
+				"Objects": ["Hollow tree (Highweald Forest)"],
+				"Items": ["ButterflyNet[+]"],
+				"Level": 64,
+				"Output": "Blue spirit moth",
 				"Primary": true,
 				"Priority": 1
 			},
@@ -44488,6 +45005,15 @@
 				"Primary": true,
 				"Priority": 2
 			},
+			"Set up a ~|yew birdhouse|~": {
+				"Items": ["Yew birdhouse"],
+				"Objects": ["Birdhouse plot"],
+				"Level": 71,
+				"Output": "Birdhouse loot",
+				"Primary": true,
+				"Priority": 3,
+				"Not F2P": true
+			},
 			"Catch a ~|charm sprite|~": {
 				"Items": ["YaktweeStick[+]", "Sprite lure"],
 				"NPCs": ["Charm sprite"],
@@ -44503,6 +45029,14 @@
 				"Output": "PloverBird",
 				"Primary": true,
 				"Priority": 1
+			},
+			"Catch a ~|volatile chinchompa|~": {
+				"Items": ["Box trap"],
+				"Monsters": ["Volatile chinchompa"],
+				"Level": 73,
+				"Output": "Volatile chinchompa",
+				"Primary": true,
+				"Priority": 2
 			},
 			"Catch an ~|igneous jadinko|~ in the Herblore Habitat": {
 				"NPCs": ["Igneous jadinko"],
@@ -44686,14 +45220,6 @@
 				"Primary": true,
 				"Priority": 3
 			},
-			"Catch a ~|grenwall|~ in the Gorajo Resource Dungeon": {
-				"Chunks": ["Gorajo resource dungeon"],
-				"Items": ["Box trap", "Pawya meat"],
-				"Level": 77,
-				"Output": "Grenwall",
-				"Primary": true,
-				"Priority": 5
-			},
 			"Catch multiple ~|carnivorous chinchompas|~ in one trap": {
 				"Category": ["Multiple Agility"],
 				"Level": 77,
@@ -44860,6 +45386,15 @@
 				"Primary": true,
 				"Priority": 1
 			},
+			"Set up a ~|magic birdhouse|~": {
+				"Items": ["Magic birdhouse"],
+				"Objects": ["Birdhouse plot"],
+				"Level": 81,
+				"Output": "Birdhouse loot",
+				"Primary": true,
+				"Priority": 2,
+				"Not F2P": true
+			},
 			"Catch a ~|dragon impling|~ in Puro-Puro": {
 				"Category": ["Extra implings"],
 				"Chunks": ["Puro-Puro"],
@@ -44932,6 +45467,15 @@
 				"Output": "CannibalJadinko",
 				"Primary": true,
 				"Priority": 2
+			},
+			"Barehand catch a ~|spirit moth|~": {
+				"Objects": ["Hollow tree (Highweald Forest)"],
+				"Level": 85,
+				"Skills": {
+					"Agility": 80
+				},
+				"Primary": true,
+				"Priority": 3
 			},
 			"Catch a ~|yellow salamander|~": {
 				"Items": ["Small fishing net", "Rope"],
@@ -45266,6 +45810,15 @@
 				"Primary": true,
 				"Priority": 3
 			},
+			"Set up an ~|elder birdhouse|~": {
+				"Items": ["Elder birdhouse"],
+				"Objects": ["Birdhouse plot"],
+				"Level": 91,
+				"Output": "Birdhouse loot",
+				"Primary": true,
+				"Priority": 4,
+				"Not F2P": true
+			},
 			"Catch ~|enriched fungal spore|~": {
 				"Objects": ["Decaying Lumbridge guard"],
 				"Level": 92,
@@ -45416,6 +45969,25 @@
 				"Primary": true,
 				"Priority": 2
 			},
+			"Hunt a ~|giant chinchompa|~ during Big Game Hunter": {
+				"NPCs": ["Giant chinchompa"],
+				"Items": ["Raw shark*"],
+				"Level": 96,
+				"Skills": {
+					"Slayer": 77
+				},
+				"Output": "Giant chinchompa",
+				"Primary": true,
+				"Priority": 3
+			},
+			"Catch a ~|sugilite moth|~ with a net": {
+				"Objects": ["Hollow tree (Hollow Hill)"],
+				"Items": ["Butterfly jar", "ButterflyNet[+]"],
+				"Level": 96,
+				"Output": "Sugilite moth jar",
+				"Primary": true,
+				"Priority": 4
+			},
 			"Catch a ~|crystal skillchompa|~": {
 				"Items": ["Box trap"],
 				"Monsters": ["Crystal skillchompa"],
@@ -45423,6 +45995,14 @@
 				"Output": "CrystalSkillchompa",
 				"Primary": true,
 				"Priority": 1
+			},
+			"Catch a ~|calcite moth|~ with a net": {
+				"Objects": ["Hollow tree (Hollow Hill)"],
+				"Items": ["Butterfly jar", "ButterflyNet[+]"],
+				"Level": 97,
+				"Output": "Calcite moth jar",
+				"Primary": true,
+				"Priority": 2
 			},
 			"Catch multiple ~|crystal skillchompas|~ in one trap": {
 				"Category": ["Multiple Agility"],
@@ -45460,6 +46040,25 @@
 				"Primary": false,
 				"Priority": 2
 			},
+			"Hunt a ~|giant kebbit|~ during Big Game Hunter": {
+				"NPCs": ["Giant kebbit"],
+				"Items": ["Raw giant chinchompa meat*", "Grenwall spikes*"],
+				"Level": 98,
+				"Skills": {
+					"Slayer": 77
+				},
+				"Output": "Giant kebbit",
+				"Primary": true,
+				"Priority": 1
+			},
+			"Catch a ~|azurite moth|~ with a net": {
+				"Objects": ["Hollow tree (Hollow Hill)"],
+				"Items": ["Butterfly jar", "ButterflyNet[+]"],
+				"Level": 98,
+				"Output": "Azurite moth jar",
+				"Primary": true,
+				"Priority": 2
+			},
 			"Buy the ~|Hunter cape|~": {
 				"Category": ["Skillcape"],
 				"NPCs": ["Hunting expert"],
@@ -45468,6 +46067,108 @@
 				"Primary": false,
 				"NoBoost": true,
 				"Priority": 2
+			},
+			"Hunt a ~|giant carnivorous chinchompa|~ during Big Game Hunter": {
+				"NPCs": ["Giant carnivorous chinchompa"],
+				"Items": ["Raw giant kebbit meat*"],
+				"Level": 100,
+				"Skills": {
+					"Slayer": 81
+				},
+				"Output": "Giant carnivorous chinchompa",
+				"Primary": true,
+				"Priority": 1
+			},
+			"Set up an ~|eternal magic birdhouse|~": {
+				"Items": ["Eternal magic birdhouse"],
+				"Objects": ["Birdhouse plot"],
+				"Level": 101,
+				"Output": "Birdhouse loot",
+				"Primary": true,
+				"Priority": 1,
+				"Not F2P": true
+			},
+			"Barehand catch a ~|sugilite moth|~": {
+				"Objects": ["Hollow tree (Hollow Hill)"],
+				"Level": 101,
+				"Skills": {
+					"Agility": 96
+				},
+				"Primary": true,
+				"Priority": 2
+			},
+			"Hunt a ~|giant spiked kebbit|~ during Big Game Hunter": {
+				"NPCs": ["Giant spiked kebbit"],
+				"Items": ["Raw giant chinchompa meat*", "Grenwall spikes*"],
+				"Level": 102,
+				"Skills": {
+					"Slayer": 81
+				},
+				"Output": "Giant spiked kebbit",
+				"Primary": true,
+				"Priority": 1
+			},
+			"Barehand catch a ~|sugilite moth|~": {
+				"Objects": ["Hollow tree (Hollow Hill)"],
+				"Level": 102,
+				"Skills": {
+					"Agility": 97
+				},
+				"Primary": true,
+				"Priority": 2
+			},
+			"Barehand catch a ~|sugilite moth|~": {
+				"Objects": ["Hollow tree (Hollow Hill)"],
+				"Level": 103,
+				"Skills": {
+					"Agility": 98
+				},
+				"Primary": true,
+				"Priority": 1
+			},
+			"Hunt a ~|giant volatile chinchompa|~ during Big Game Hunter": {
+				"NPCs": ["Giant volatile chinchompa"],
+				"Items": ["Raw giant kebbit meat*"],
+				"Level": 104,
+				"Skills": {
+					"Slayer": 85
+				},
+				"Output": "Giant volatile chinchompa",
+				"Primary": true,
+				"Priority": 1
+			},
+			"Hunt a ~|giant diseased kebbit|~ during Big Game Hunter": {
+				"NPCs": ["Giant diseased kebbit"],
+				"Items": ["Raw giant chinchompa meat*", "Grenwall spikes*"],
+				"Level": 106,
+				"Skills": {
+					"Slayer": 85
+				},
+				"Output": "Giant diseased kebbit",
+				"Primary": true,
+				"Priority": 1
+			},
+			"Hunt a ~|giant golden chinchompa|~ during Big Game Hunter": {
+				"NPCs": ["Giant golden chinchompa"],
+				"Items": ["Raw giant kebbit meat*"],
+				"Level": 108,
+				"Skills": {
+					"Slayer": 91
+				},
+				"Output": "Giant golden chinchompa",
+				"Primary": true,
+				"Priority": 1
+			},
+			"Hunt a ~|giant dashing kebbit|~ during Big Game Hunter": {
+				"NPCs": ["Giant dashing kebbit"],
+				"Items": ["Raw giant chinchompa meat*", "Grenwall spikes*"],
+				"Level": 110,
+				"Skills": {
+					"Slayer": 91
+				},
+				"Output": "Giant dashing kebbit",
+				"Primary": true,
+				"Priority": 1
 			},
 			"Buy the ~|Hunter master cape|~": {
 				"Category": ["Master skillcape"],
@@ -50903,14 +51604,27 @@
 				"Level": 90,
 				"Output": "Pearlescent substrate",
 				"Primary": true,
-				"Priority": 1003
+				"Priority": 1003,
+				"Partial": true
 			},
 			"Imbue an ~|ethereal pearlescent plate|~": {
 				"Items": ["Lined pearlescent plate*"],
 				"Level": 90,
 				"Output": "Ethereal pearlescent plate",
 				"Primary": true,
-				"Priority": 1004
+				"Priority": 1004,
+				"Partial": true
+			},
+			"Imbue an ~|ethereal draconic plate|~": {
+				"Items": ["Lined draconic plate (unimbued)*"],
+				"Level": 90,
+				"Tasks": {
+					"It Should Have Been Called Chinskin*": "Nonskill"
+				},
+				"Output": "Ethereal draconic plate",
+				"Primary": true,
+				"Priority": 1005,
+				"Partial": true
 			},
 			"Make a ~|Milestone cape (90)|~": {
 				"Category": ["Skillcape"],
@@ -59295,6 +60009,16 @@
 				"Priority": 5,
 				"Not F2P": true
 			},
+			"Craft a ~|lined draconic plate (unimbued)|~": {
+				"Items": ["Lined draconic plate*"],
+				"Level": 90,
+				"Tasks": {
+					"It Should Have Been Called Chinskin*": "Nonskill"
+				},
+				"Output": "Lined draconic plate (unimbued)",
+				"Primary": true,
+				"Priority": 1006
+			},
 			"Craft ~|sea singer robes|~": {
 				"Items": ["Chi*"],
 				"Level": 90,
@@ -62887,6 +63611,86 @@
 				"Primary": true,
 				"Priority": 8
 			},
+			"Hunt a ~|giant chinchompa|~ during Big Game Hunter": {
+				"NPCs": ["Giant chinchompa"],
+				"Items": ["Raw shark"],
+				"Level": 77,
+				"Skills": {
+					"Hunter": 96
+				},
+				"Primary": true,
+				"Priority": 10
+			},
+			"Hunt a ~|giant kebbit|~ during Big Game Hunter": {
+				"NPCs": ["Giant kebbit"],
+				"Items": ["Raw giant chinchompa meat"],
+				"Level": 77,
+				"Skills": {
+					"Hunter": 98
+				},
+				"Primary": true,
+				"Priority": 11
+			},
+			"Hunt a ~|giant carnivorous chinchompa|~ during Big Game Hunter": {
+				"NPCs": ["Giant carnivorous chinchompa"],
+				"Items": ["Raw giant kebbit meat"],
+				"Level": 81,
+				"Skills": {
+					"Hunter": 100
+				},
+				"Primary": true,
+				"Priority": 10
+			},
+			"Hunt a ~|giant spiked kebbit|~ during Big Game Hunter": {
+				"NPCs": ["Giant spiked kebbit"],
+				"Items": ["Raw giant chinchompa meat"],
+				"Level": 81,
+				"Skills": {
+					"Hunter": 102
+				},
+				"Primary": true,
+				"Priority": 11
+			},
+			"Hunt a ~|giant volatile chinchompa|~ during Big Game Hunter": {
+				"NPCs": ["Giant volatile chinchompa"],
+				"Items": ["Raw giant kebbit meat"],
+				"Level": 85,
+				"Skills": {
+					"Hunter": 104
+				},
+				"Primary": true,
+				"Priority": 10
+			},
+			"Hunt a ~|giant diseased kebbit|~ during Big Game Hunter": {
+				"NPCs": ["Giant diseased kebbit"],
+				"Items": ["Raw giant chinchompa meat"],
+				"Level": 85,
+				"Skills": {
+					"Hunter": 106
+				},
+				"Primary": true,
+				"Priority": 11
+			},
+			"Hunt a ~|giant golden chinchompa|~ during Big Game Hunter": {
+				"NPCs": ["Giant golden chinchompa"],
+				"Items": ["Raw giant kebbit meat"],
+				"Level": 91,
+				"Skills": {
+					"Hunter": 108
+				},
+				"Primary": true,
+				"Priority": 10
+			},
+			"Hunt a ~|giant dashing kebbit|~ during Big Game Hunter": {
+				"NPCs": ["Giant dashing kebbit"],
+				"Items": ["Raw giant chinchompa meat"],
+				"Level": 91,
+				"Skills": {
+					"Hunter": 110
+				},
+				"Primary": true,
+				"Priority": 11
+			},
 			"Build a ~|crawling hand (mounted)|~": {
 				"Category": ["InsidePOH Primary"],
 				"Chunks": ["Player-owned house"],
@@ -64210,6 +65014,18 @@
 				"Primary": true,
 				"Priority": 3
 			},
+			"Forge a ~|masterwork ranged plate|~": {
+				"Items": ["Glorious bar*", "Praesulic essence (ranged)*", "Sirenic essence*"],
+				"Objects": ["Anvil[+]", "Forge[+]"],
+				"Level": 99,
+				"Tasks": {
+					"It Should Have Been Called Chinskin*": "Nonskill"
+				},
+				"Output": "Masterwork ranged plate",
+				"Primary": true,
+				"Priority": 15,
+				"Partial": true
+			},
 			"Forge ~|primal|~": {
 				"Items": ["Primal bar*"],
 				"Level": 100,
@@ -64719,6 +65535,15 @@
 				"Output": "Crystalline essence",
 				"Primary": true,
 				"Priority": 34,
+				"Partial": true
+			},
+			"Extract ~|sirenic essence|~ from sirenic equipment": {
+				"Items": ["Sirenic scale*", "Algarum thread*"],
+				"Level": 99,
+				"Objects": ["Dragonkin anvil"],
+				"Output": "Sirenic essence",
+				"Primary": true,
+				"Priority": 35,
 				"Partial": true
 			},
 			"Forge an ~|Orthen furnace core|~": {
@@ -68395,6 +69220,13 @@
 				"Primary": true,
 				"Priority": 1
 			},
+			"Pickpocket a ~|ranger|~": {
+				"Level": 40,
+				"Monsters": ["Ranger"],
+				"Output": "Coins",
+				"Primary": true,
+				"Priority": 2
+			},
 			"Pickpocket a ~|farmer|~ for quadruple loot": {
 				"Category": ["Multiple Agility"],
 				"Level": 40,
@@ -68854,6 +69686,17 @@
 				"Output": "Coins",
 				"Primary": false,
 				"Priority": 1000
+			},
+			"Pickpocket a ~|ranger|~ for quadruple loot": {
+				"Category": ["Multiple Agility"],
+				"Level": 70,
+				"Monsters": ["Ranger"],
+				"Skills": {
+					"Agility": 60
+				},
+				"Output": "Coins",
+				"Primary": true,
+				"Priority": 1001
 			},
 			"Loot a ~|chest (Dwarven mines, Thieving)|~": {
 				"Level": 71,
@@ -150095,6 +150938,11 @@
 				"NPCs": ["Tanner[+]"],
 				"Output": "Undead dragon leather"
 			},
+			"Tan apex leather*": {
+				"Items": ["Apex hide"],
+				"NPCs": ["Tanner[+]"],
+				"Output": "Apex leather"
+			},
 			"Cure yak-hide*": {
 				"Items": ["Yak-hide"],
 				"NPCs": ["Thakkrad Sigmundson"],
@@ -152677,6 +153525,9 @@
 			"Crafting to Your Own Rune*": {
 				"Chunks": ["Ourania Cave"],
 				"Items": ["Eternal magic staff (saturated)", "Eternal magic orb (saturated)", "Eternal magic wand (saturated)"]
+			},
+			"It Should Have Been Called Chinskin*": {
+				"Items": ["Apex hide cowl + 5", "Apex hide body + 5", "Apex hide chaps + 5", "Apex hide vambraces + 5", "Apex hide boots + 5"]
 			},
 			"It Should Have Been Called Ancestral*": {
 				"Items": ["Starbloom hat + 5", "Starbloom robe top + 5", "Starbloom robe bottom + 5", "Starbloom gloves + 5", "Starbloom boots + 5"]
@@ -214784,8 +215635,7 @@
 			"ButterflyNet[+]": [
 				"Butterfly net",
 				"Magic butterfly net",
-				"Sacred clay butterfly net",
-				"Volatile clay butterfly net"
+				"Tellervo's net"
 			],
 			"CarapaceArmour[+]": [
 				"Carapace boots",
@@ -216953,6 +217803,7 @@
 			],
 			"RasialWeapon[+]": ["Omni guard", "Soulbound lantern"],
 			"RawFish[+]": ["Raw shrimps", "Raw crayfish", "Raw minnow", "Raw karambwanji", "Raw sardine", "Raw herring", "Raw anchovies", "Raw mackerel", "Raw trout", "Raw cod", "Raw pike", "Slimy eel", "Raw salmon", "Raw tuna", "Raw rainbow fish", "Raw cave eel", "Raw lobster", "Raw bass", "Leaping trout", "Raw swordfish", "Raw desert sole", "Raw lava eel", "Leaping salmon", "Raw catfish", "Raw monkfish", "Raw karambwan", "Raw green blubber jellyfish", "Magnetic minnow", "Leaping sturgeon", "Raw beltfish", "Raw shark", "Raw sea turtle", "Raw great white shark", "Raw manta ray", "Raw cavefish", "Raw rocktail", "Raw tarpon", "Raw blue blubber jellyfish", "Raw seerfish", "Raw sillago", "Raw wobbegong", "Raw sailfish"],
+			"Raw giant meat[+]": ["Raw giant kebbit meat", "Raw giant chinchompa meat"],
 			"RawMeat[+]": [
 				"Raw bear meat",
 				"Raw beef",
@@ -219720,6 +220571,7 @@
 			"RawFish[+]": "Any raw fish",
 			"RasialArmour[+]": "Any armour piece of the first necromancer",
 			"RasialWeapon[+]": "Any omni necromancy weapon",
+			"Raw giant meat[+]": "Raw meat from a giant animal",
 			"RawMeat[+]": "Any meat that can be used to make cooked meat",
 			"Raw shark rocktail sailfish[+]": "Raw shark, raw rocktial or raw sailfish",
 			"RedBlackDragonEgg[+]": "Any breedable red or black dragon variant",
@@ -220172,8 +221024,8 @@
 			"AnyExcavationSpot[+]": ["Venator remains", "Legionary remains", "Castra debris", "Lodge bar storage", "Lodge art storage", "Administratum debris", "Cultist footlocker", "Sacrificial altar", "Prodromoi remains", "Dis dungeon debris", "Praesidio remains", "Monoceros remains", "Amphitheatre debris", "Ceramics studio debris", "Carcerem debris", "Ministry remains", "Stadio debris", "Cathedral debris", "Marketplace debris", "Inquisitor remains", "Infernal art", "Gladiator remains", "Citizen remains", "Shakroth remains", "Dominion Games podium", "Ikovian memorial", "Oikos studio debris", "Kharid-et chapel debris", "Gladiatorial goblin remains", "Keshik ger", "Animal trophies", "Pontifex remains", "Cricible stand debris", "Tailory debris", "Goblin dorm debris", "Oikos fishing hut remnants", "Weapons research debris", "Orcus altar", "Dis overspill", "Big High War God shrine", "Orthen rubble", "Varanusaur remains", "Gravitron research debris", "Acropolis debris", "Armarium debris", "Yu'biusk animal pen", "Keshik tower debris", "Dragonkin reliquary", "Goblin trainee remains", "Byzroth remains", "Destroyed golem", "Dragonkin coffin", "Icyene weapon rack", "Culinarum debris", "Kyzaj champion's boudoir", "Autopsy table", "Experiment workbench", "Keshik weapon rack", "Hellfire forge", "Warforge scrap pile", "Stockpiled art", "Aughra remains", "Ancient magick munitions", "Moksha device", "Bibliotheke debris", "Warforge weapon rack", "Flight research debris", "Atherium forge", "Xolo mine", "Praetorian remains", "Bandos's sanctum debris", "Tsutsaroth remains", "Optimatoi remains", "War table debris", "Howl's workshop debris", "Makeshift pie oven", "Xolo remains", "Saurthen debris"],
 			"Bank[+]": ["Bank", "Bank boat", "Bank booth", "Bank chest", "Banker"],
 			"Coal rock[+]": ["Coal rock", "Coal vein"],
-			"Cooking object[+]": ["Fire", "Cooking range", "Clay oven", "Campfire", "Fireplace", "Stove", "Cooking pot", "Sulphur pit", "Player fire", "Oven (City of Um)", "Grill"],
-			"Cooking range[+]": ["Cooking range", "Stove", "Clay oven", "Oven (City of Um)", "Grill"],
+			"Cooking object[+]": ["Fire", "Cooking range", "Range", "Clay oven", "Campfire", "Fireplace", "Stove", "Cooking pot", "Sulphur pit", "Player fire", "Oven (City of Um)", "Grill"],
+			"Cooking range[+]": ["Cooking range", "Range", "Stove", "Clay oven", "Oven (City of Um)", "Grill"],
 			"CraftingFurnace[+]": ["Furnace", "Furnace (Dorgesh)", "Fremennik Furnace"],
 			"CurePatch[+]": ["Allotment", "Flower patch", "Herb patch", "Tree patch", "Fruit tree patch", "Hops patch", "Bush patch"],
 			"Drakolith rock[+]": ["Drakolith rock", "Drakolith vein"],
@@ -294816,6 +295668,114 @@
 				"Starbloom boots + 5": {
 					"1": "Always"
 				}
+			},
+			"Apex hide equipment": {
+				"Apex hide cowl": {
+					"1": "Always"
+				},
+				"Apex hide cowl + 1": {
+					"1": "Always"
+				},
+				"Apex hide cowl + 2": {
+					"1": "Always"
+				},
+				"Apex hide cowl + 3": {
+					"1": "Always"
+				},
+				"Apex hide cowl + 4": {
+					"1": "Always"
+				},
+				"Apex hide cowl + 5": {
+					"1": "Always"
+				},
+				"Apex hide body": {
+					"1": "Always"
+				},
+				"Apex hide chaps + 1": {
+					"1": "Always"
+				},
+				"Apex hide chaps + 2": {
+					"1": "Always"
+				},
+				"Apex hide chaps + 3": {
+					"1": "Always"
+				},
+				"Apex hide chaps + 4": {
+					"1": "Always"
+				},
+				"Apex hide chaps + 5": {
+					"1": "Always"
+				},
+				"Apex hide vambraces": {
+					"1": "Always"
+				},
+				"Apex hide vambraces + 1": {
+					"1": "Always"
+				},
+				"Apex hide vambraces + 2": {
+					"1": "Always"
+				},
+				"Apex hide vambraces + 3": {
+					"1": "Always"
+				},
+				"Apex hide vambraces + 4": {
+					"1": "Always"
+				},
+				"Apex hide vambraces + 5": {
+					"1": "Always"
+				},
+				"Apex hide boots": {
+					"1": "Always"
+				},
+				"Apex hide boots + 1": {
+					"1": "Always"
+				},
+				"Apex hide boots + 2": {
+					"1": "Always"
+				},
+				"Apex hide boots + 3": {
+					"1": "Always"
+				},
+				"Apex hide boots + 4": {
+					"1": "Always"
+				},
+				"Apex hide boots + 5": {
+					"1": "Always"
+				}
+			},
+			"Apex hide torso equipment": {
+				"Apex hide body": {
+					"1": "Always"
+				},
+				"Apex hide body + 1": {
+					"1": "Always"
+				},
+				"Apex hide body + 2": {
+					"1": "Always"
+				},
+				"Apex hide body + 3": {
+					"1": "Always"
+				},
+				"Apex hide body + 4": {
+					"1": "Always"
+				},
+				"Apex hide body + 5": {
+					"1": "Always"
+				}
+			},
+			"Masterwork ranged equipment": {
+				"Masterwork ranged body": {
+					"1": "Always"
+				},
+				"Masterwork ranged chaps": {
+					"1": "Always"
+				},
+				"Masterwork ranged vambraces": {
+					"1": "Always"
+				},
+				"Masterwork ranged boots": {
+					"1": "Always"
+				}
 			}
 		},
 		"Divination": {
@@ -299082,6 +300042,14 @@
 					"1": "Rare"
 				}
 			},
+			"Volatile chinchompa": {
+				"Black chinchompa": {
+					"1-6": "Always"
+				},
+				"Volatile chinchompa (unchecked)": {
+					"1": "1/1500"
+				}
+			},
 			"IgneousJadinko": {
 				"Marble vine": {
 					"1": "Always"
@@ -302296,6 +303264,452 @@
 				},
 				"A Massacrer of Moles": {
 					"1": "Rare"
+				}
+			},
+			"Birdhouse loot": {
+				"Raw bird meat": {
+					"3-6": "Always"
+				},
+				"Bird's nest (egg)": {
+					"1": "1/6"
+				},
+				"Bird's nest (ring)": {
+					"1": "1/6"
+				},
+				"Bird's nest (seeds)": {
+					"1": "1/6"
+				},
+				"Feather": {
+					"10-36": "Always"
+				}
+			},
+			"Gold spirit moth": {
+				"Gold charm": {
+					"1": "Always"
+				},
+				"Spirit shard": {
+					"1": "1/32"
+				}
+			},
+			"Green spirit moth": {
+				"Green charm": {
+					"1": "Always"
+				},
+				"Spirit shard": {
+					"1": "1/32"
+				}
+			},
+			"Crimson spirit moth": {
+				"Crimson charm": {
+					"1": "Always"
+				},
+				"Spirit shard": {
+					"1": "1/32"
+				}
+			},
+			"Blue spirit moth": {
+				"Blue charm": {
+					"1": "Always"
+				},
+				"Spirit shard": {
+					"1": "1/32"
+				}
+			},
+			"Giant chinchompa": {
+				"Apex hide": {
+					"9-11 (noted)": "Always"
+				},
+				"Raw giant chinchompa meat": {
+					"1-4": "Always"
+				},
+				"Big bones": {
+					"8-9": "Always"
+				},
+				"Eternal magic wood spirit": {
+					"3-5": "1/14"
+				},
+				"Battlestaff": {
+					"3-5 (noted)": "1/14"
+				},
+				"Poison ivy berries": {
+					"10 (noted)": "1/14"
+				},
+				"Uncut dragonstone": {
+					"5 (noted)": "1/14"
+				},
+				"Crystal key": {
+					"1": "1/14"
+				},
+				"Mud rune": {
+					"20": "1/14"
+				},
+				"Chinchompa": {
+					"25": "1/14"
+				},
+				"Unicorn horn": {
+					"10-15 (noted)": "1/14"
+				},
+				"Mystic air staff": {
+					"1": "1/14"
+				},
+				"Starbloom flower seed": {
+					"1": "1/14"
+				},
+				"White berries": {
+					"10-11 (noted)": "1/14"
+				},
+				"Raw shark": {
+					"16 (noted)": "1/14"
+				},
+				"Uncut diamond": {
+					"10 (noted)": "1/14"
+				},
+				"Papaya fruit": {
+					"10 (noted)": "1/14"
+				},
+				"Grey chinchompa (unchecked)": {
+					"1": "1/100"
+				}
+			},
+			"Giant kebbit": {
+				"Apex hide": {
+					"10-12 (noted)": "Always"
+				},
+				"Raw giant kebbit meat": {
+					"1-3": "Always"
+				},
+				"Big bones": {
+					"8-9": "Always"
+				},
+				"Stinkshroom spore": {
+					"2": "1/10"
+				},
+				"Tombshroom spore": {
+					"2": "1/10"
+				},
+				"Grimy irit": {
+					"3-5 (noted)": "1/10"
+				},
+				"Grimy kwuarm": {
+					"3-5 (noted)": "1/10"
+				},
+				"Elder seed": {
+					"1": "1/10"
+				},
+				"Eternal magic wood spirit": {
+					"4": "1/10"
+				},
+				"Battlestaff": {
+					"3-5 (noted)": "1/10"
+				},
+				"Poison ivy berries": {
+					"10-11": "1/10"
+				},
+				"Small plated rune salvage": {
+					"3-5 (noted)": "1/10"
+				},
+				"Uncut dragonstone": {
+					"5 (noted)": "1/10"
+				}
+			},
+			"Giant carnivorous chinchompa": {
+				"Apex hide": {
+					"10-13 (noted)": "Always"
+				},
+				"Raw giant chinchompa meat": {
+					"1-4": "Always"
+				},
+				"Big bones": {
+					"8-9": "Always"
+				},
+				"Primal stone spirit": {
+					"4-6": "1/12"
+				},
+				"Small plated rune salvage": {
+					"1": "1/12"
+				},
+				"Mystic air staff": {
+					"1": "1/12"
+				},
+				"Poison ivy berries": {
+					"11 (noted)": "1/12"
+				},
+				"White berries": {
+					"12 (noted)": "1/12"
+				},
+				"Crystal key": {
+					"1": "1/12"
+				},
+				"Uncut ruby": {
+					"10-15 (noted)": "1/12"
+				},
+				"Uncut diamond": {
+					"10-15 (noted)": "1/12"
+				},
+				"Elder wood spirit": {
+					"5": "1/12"
+				},
+				"Raw shark": {
+					"15-20 (noted)": "1/12"
+				},
+				"Red chinchompa": {
+					"25": "1/12"
+				},
+				"Starbloom flower seed": {
+					"1": "1/12"
+				},
+				"Crimson chinchompa (unchecked)": {
+					"1": "1/100"
+				}
+			},
+			"Giant spiked kebbit": {
+				"Apex hide": {
+					"10-14 (noted)": "Always"
+				},
+				"Raw giant kebbit meat": {
+					"1-5": "Always"
+				},
+				"Big bones": {
+					"8-9": "Always"
+				},
+				"Yew logs": {
+					"10-15 (noted)": "1/14"
+				},
+				"Yew plank": {
+					"5 (noted)": "1/14"
+				},
+				"Small plated rune salvage": {
+					"3-5 (noted)": "1/14"
+				},
+				"Grimy irit": {
+					"3-5 (noted)": "1/14"
+				},
+				"Grimt avantoe": {
+					"3-5 (noted)": "1/14"
+				},
+				"Grimy kwuarm": {
+					"3-5 (noted)": "1/14"
+				},
+				"Grimy cadantine": {
+					"3-5 (noted)": "1/14"
+				},
+				"Grimy torstol": {
+					"3-5 (noted)": "1/14"
+				},
+				"Grimy lantadyme": {
+					"3-5 (noted)": "1/14"
+				},
+				"Primal stone spirit": {
+					"4": "1/14"
+				},
+				"Magic seed": {
+					"1": "1/14"
+				},
+				"Elder seed": {
+					"1": "1/14"
+				},
+				"Stinkshroom spore": {
+					"1": "1/14"
+				},
+				"Tombshroom spore": {
+					"1": "1/14"
+				}
+			},
+			"Giant volatile chinchompa": {
+				"Apex hide": {
+					"9-11 (noted)": "Always"
+				},
+				"Raw giant chinchompa meat": {
+					"1-4": "Always"
+				},
+				"Big bones": {
+					"8-9": "Always"
+				},
+				"Medium plated rune salvage": {
+					"1": "1/11"
+				},
+				"Starbloom flower seed": {
+					"1": "1/11"
+				},
+				"Dragonfruit seed": {
+					"3-5": "1/11"
+				},
+				"Mud rune": {
+					"20-25": "1/11"
+				},
+				"Uncut diamond": {
+					"10-15 (noted)": "1/11"
+				},
+				"Uncut ruby": {
+					"10-15 (noted)": "1/11"
+				},
+				"White berries": {
+					"10 (noted)": "1/11"
+				},
+				"Elder wood spirit": {
+					"5-10": "1/11"
+				},
+				"Papaya fruit": {
+					"10-15 (noted)": "1/11"
+				},
+				"Black chinchompa": {
+					"25": "1/11"
+				},
+				"Raw rocktail": {
+					"15-20 (noted)": "1/11"
+				},
+				"Volatine chinchompa (unchecked)": {
+					"1": "1/100"
+				}
+			},
+			"Giant diseased kebbit": {
+				"Apex hide": {
+					"10-16 (noted)": "Always"
+				},
+				"Raw giant kebbit meat": {
+					"1-5": "Always"
+				},
+				"Big bones": {
+					"8-10": "Always"
+				},
+				"Grimy torstol": {
+					"3-5 (noted)": "Unknown"
+				},
+				"Grimy lantadyme": {
+					"3-5 (noted)": "Unknown"
+				},
+				"Small plated rune salvage": {
+					"3-5 (noted)": "Unknown"
+				}
+			},
+			"Giant golden chinchompa": {
+				"Apex hide": {
+					"10-18 (noted)": "Always"
+				},
+				"Raw giant chinchompa meat": {
+					"1-6": "Always"
+				},
+				"Big bones": {
+					"8-10": "Always"
+				},
+				"Battlestaff": {
+					"10 (noted)": "1/20"
+				},
+				"Mystic air staff": {
+					"1": "1/20"
+				},
+				"White barries": {
+					"10 (noted)": "1/20"
+				},
+				"Poison ivy berries": {
+					"10-12 (noted)": "1/20"
+				},
+				"Gold bar": {
+					"15 (noted)": "1/20"
+				},
+				"Uncut ruby": {
+					"10-15 (noted)": "1/20"
+				},
+				"Uncut diamond": {
+					"10-15 (noted)": "1/20"
+				},
+				"Uncut dragonstone": {
+					"5-10 (noted)": "1/20"
+				},
+				"Unicorn horn": {
+					"10-15 (noted)": "1/20"
+				},
+				"Eternal magic wood spirit": {
+					"5-10": "1/20"
+				},
+				"Elder wood spirit": {
+					"5-10": "1/20"
+				},
+				"Grimy irit": {
+					"10-15 (noted)": "1/20"
+				},
+				"Papaya fruit": {
+					"10-15 (noted)": "1/20"
+				},
+				"Raw rocktail": {
+					"15-20 (noted)": "1/20"
+				},
+				"Huge plated rune salvage": {
+					"1-2": "1/20"
+				},
+				"Large plated orikalkum salvage": {
+					"2": "1/20"
+				},
+				"Coins": {
+					"150000": "1/20"
+				},
+				"Golden dragonfruit seed": {
+					"1-3": "1/20"
+				}
+			},
+			"Giant dashing kebbit": {
+				"Apex hide": {
+					"10-18 (noted)": "Always"
+				},
+				"Raw giant kebbit meat": {
+					"1-6": "Always"
+				},
+				"Big bones": {
+					"8-9": "Always"
+				},
+				"Cannonball": {
+					"20-25": "1/20"
+				},
+				"Elder logs": {
+					"5-10 (noted)": "1/20"
+				},
+				"Morchella mushroom": {
+					"5-10 (noted)": "1/20"
+				},
+				"Grimy avantoe": {
+					"5-10 (noted)": "1/20"
+				},
+				"Grimy irit": {
+					"5-10 (noted)": "1/20"
+				},
+				"Grimy lantadyme": {
+					"5-10 (noted)": "1/20"
+				},
+				"Grimy dwarf weed ": {
+					"5-10 (noted)": "1/20"
+				},
+				"Grimy cadantine": {
+					"5-10 (noted)": "1/20"
+				},
+				"Grimy kwuarm": {
+					"5-10 (noted)": "1/20"
+				},
+				"Grimy torstol": {
+					"5-10 (noted)": "1/20"
+				},
+				"Water talisman": {
+					"10-20 (noted)": "1/20"
+				},
+				"Fellstalk seed": {
+					"1-3": "1/20"
+				},
+				"Magic seed": {
+					"1-3": "1/20"
+				},
+				"Elder seed": {
+					"1": "1/20"
+				},
+				"Primal stone spirit": {
+					"5-10": "1/20"
+				},
+				"Platinum stone spirit": {
+					"5-10": "1/20"
+				},
+				"Small plated rune salvage": {
+					"6 (noted)": "1/20"
+				},
+				"Medium spiky orikalkum salvage": {
+					"1 (noted)": "1/20"
 				}
 			}
 		},
