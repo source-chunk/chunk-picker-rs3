@@ -183,6 +183,14 @@
 				"Priority": 1,
 				"NoPet": true
 			},
+			"Cross the ~|log balance (Wendlewick)|~": {
+				"Category": ["Shortcut"],
+				"Objects": ["Log balance (Wendlewick)"],
+				"Level": 14,
+				"Primary": false,
+				"Priority": 1,
+				"NoPet": true
+			},
 			"Cross the ~|monkey bars (Edgeville Dungeon)|~": {
 				"Category": ["Shortcut"],
 				"Chunks": ["Edgeville Dungeon"],
@@ -305,6 +313,14 @@
 				"Priority": 1,
 				"NoPet": true
 			},
+			"Cross the ~|stepping stones (Wendlewick)|~": {
+				"Category": ["Shortcut"],
+				"Objects": ["Stepping stones (Wendlewick)"],
+				"Level": 27,
+				"Primary": false,
+				"Priority": 1,
+				"NoPet": true
+			},
 			"Cross the ~|broken railing|~": {
 				"Category": ["Shortcut"],
 				"Objects": ["Broken railing"],
@@ -413,6 +429,14 @@
 				"Priority": 2,
 				"NoPet": true
 			},
+			"Cross the ~|planks (Highweald Forest)|~": {
+				"Category": ["Shortcut"],
+				"Objects": ["Planks (Highweald Forest)"],
+				"Level": 32,
+				"Primary": false,
+				"Priority": 3,
+				"NoPet": true
+			},
 			"Cross the ~|log balance (East Ardougne)|~": {
 				"Category": ["Shortcut"],
 				"Chunks": ["10292"],
@@ -427,6 +451,14 @@
 				"Level": 34,
 				"Primary": true,
 				"Priority": 1,
+				"NoPet": true
+			},
+			"Cross the ~|log balance (Highweald Forest)|~": {
+				"Category": ["Shortcut"],
+				"Objects": ["Log balance (Highweald Forest)"],
+				"Level": 34,
+				"Primary": false,
+				"Priority": 2,
 				"NoPet": true
 			},
 			"Complete a lap of the ~|barbarian outpost agility course|~": {
@@ -1454,7 +1486,17 @@
 				},
 				"Output": "SapphireGlacialis",
 				"Primary": true,
-				"Priority": 1000,
+				"Priority": 5,
+				"NoPet": true
+			},
+			"Barehand catch a ~|spirit moth|~": {
+				"Objects": ["Hollow tree (Highweald Forest)"],
+				"Level": 80,
+				"Skills": {
+					"Hunter": 85
+				},
+				"Primary": true,
+				"Priority": 6,
 				"NoPet": true
 			},
 			"Catch a ~|torn blueprint fragment|~": {
@@ -1588,6 +1630,18 @@
 				"Level": 86,
 				"Primary": true,
 				"Priority": 1,
+				"NoPet": true
+			},
+			"Catch multiple ~|volatile chinchompas|~ in one trap": {
+				"Category": ["Multiple Agility"],
+				"Level": 87,
+				"Monsters": ["Volatile chinchompa"],
+				"Output": "Black chinchompa",
+				"Skills": {
+					"Hunter": 73
+				},
+				"Primary": false,
+				"Priority": 1000,
 				"NoPet": true
 			},
 			"Complete a lap of the ~|advanced barbarian outpost agility course|~": {
@@ -1842,6 +1896,16 @@
 				"Priority": 10,
 				"NoPet": true
 			},
+			"Barehand catch a ~|sugilite moth|~": {
+				"Objects": ["Hollow tree (Hollow Hill)"],
+				"Level": 96,
+				"Skills": {
+					"Hunter": 101
+				},
+				"Primary": true,
+				"Priority": 11,
+				"NoPet": true
+			},
 			"Swing across a ~|railing (Asuran Arsenal)|~": {
 				"Category": ["Shortcut"],
 				"Objects": ["Railing (Asuran Arsenal)"],
@@ -1850,11 +1914,31 @@
 				"Priority": 1,
 				"NoPet": true
 			},
+			"Barehand catch a ~|calcite moth|~": {
+				"Objects": ["Hollow tree (Hollow Hill)"],
+				"Level": 97,
+				"Skills": {
+					"Hunter": 102
+				},
+				"Primary": true,
+				"Priority": 2,
+				"NoPet": true
+			},
 			"Feed a ~|gorged ancient effigy|~ with agility": {
 				"Items": ["Gorged ancient effigy (agility/crafting)"],
 				"Level": 97,
 				"Primary": false,
 				"Priority": 100,
+				"NoPet": true
+			},
+			"Barehand catch an ~|azurite moth|~": {
+				"Objects": ["Hollow tree (Hollow Hill)"],
+				"Level": 98,
+				"Skills": {
+					"Hunter": 103
+				},
+				"Primary": true,
+				"Priority": 1,
 				"NoPet": true
 			},
 			"Pickpocket an ~|archaeologist|~ for quadruple loot": {
