@@ -1,14 +1,6 @@
 {
 	"challenges": {
 		"Agility": {
-			"Use an ~|experience lamp|~ from the Waiko Reward Shop on Agility": {
-				"Category": ["XP Lamps"],
-				"Items": ["Ports XP Lamp"],
-				"Level": 1,
-				"Priamry": 1,
-				"Priority": 1000,
-				"NoPet": true
-			},
 			"Complete a lap of the ~|Burthorpe agility course|~": {
 				"Chunks": ["11575-1"],
 				"Level": 1,
@@ -21,893 +13,12 @@
 				"Primary": true,
 				"Priority": 2
 			},
-			"Read an Agility tome from ~|Temple Trekking|~": {
-				"Category": ["DnD"],
-				"Chunks": ["Temple Trekking Routes"],
-				"Level": 1,
-				"Primary": true,
-				"Priority": 11
-			},
-			"Complete a lap of the ~|advanced Gnome Stronghold agility course|~": {
-				"Chunks": ["9781"],
-				"Level": 85,
-				"Primary": true,
-				"Output": "Agile legs",
-				"Priority": 1
-			},
-			"Cross an obstacle on the east side of the ~|Anachronia agility course|~": {
-				"Objects": ["EastAnachroniaObstacle[+]"],
-				"Level": 85,
-				"Primary": true,
-				"Priority": 3
-			},
-			"Complete section D of the ~|Anachronia agility course|~": {
-				"Chunks": ["16706-1", "16706-2", "16707-1", "16707-7", "16707-8", "16708-2", "16708-4", "16963-1", "16963-2"],
-				"Level": 85,
-				"Primary": true,
-				"Output": "AnachroniaCourse",
-				"Priority": 2
-			},
-			"Complete the whole ~|Anachronia agility course|~": {
-				"Chunks": ["15426-1", "15426-2", "15426-3", "15427-2", "15427-3", "15681-2", "15682-2", "15682-3", "15683-1", "15683-2", "15683-3", "15684", "15936", "15937-1", "15937-2", "15941", "16192-1", "16193-1", "16193-3", "16193-5", "16194-1", "16194-2", "16194-4", "16197-1", "16450-1", "16450-2", "16450-3", "16450-5", "16453-2", "16453-3", "16706-1", "16706-2", "16707-1", "16707-7", "16707-8", "16708-2", "16708-3", "16708-4", "16963-1", "16963-2"],
-				"Level": 85,
-				"Primary": true,
-				"Output": "Codex page",
-				"Priority": 3
-			},
-			"Barehand catch a ~|snowy knight|~": {
-				"NPCs": ["Snowy knight"],
-				"Level": 85,
-				"Skills": {
-					"Hunter": 90
-				},
-				"Output": "SnowyKnight",
-				"Primary": true,
-				"Priority": 5,
-				"NoPet": true
-			},
-			"Pickpocket a ~|watchman|~ for quadruple loot": {
-				"Category": ["Multiple Agility"],
-				"Level": 85,
-				"Monsters": ["Watchman"],
-				"Skills": {
-					"Thieving": 95
-				},
-				"Output": "Watchman",
-				"Primary": false,
-				"Priority": 6,
-				"NoPet": true
-			},
-			"Pickpocket a ~|Menaphite thug|~ for quadruple loot": {
-				"Category": ["Multiple Agility"],
-				"Level": 85,
-				"Items": ["Blackjack[+]"],
-				"Monsters": ["Menaphite thug"],
-				"Skills": {
-					"Thieving": 95
-				},
-				"Output": "Coins",
-				"Primary": false,
-				"Priority": 7,
-				"NoPet": true
-			},
-			"Pickpocket a ~|Crux Eqal Knight|~ for triple loot": {
-				"Category": ["Multiple Agility"],
-				"Level": 93,
-				"NPCs": ["Crux Eqal Knight"],
-				"Skills": {
-					"Thieving": 103
-				},
-				"Primary": false,
-				"Priority": 8,
-				"NoPet": true
-			},
-			"Pickpocket a ~|Crux Eqal Knight|~ for quadruple loot": {
-				"Category": ["Multiple Agility"],
-				"Level": 103,
-				"NPCs": ["Crux Eqal Knight"],
-				"Skills": {
-					"Thieving": 113
-				},
-				"Primary": false,
-				"Priority": 1000,
-				"NoPet": true
-			},
-			"Pickpocket a ~|gnome|~ for quadruple loot": {
-				"Category": ["Multiple Agility"],
-				"Level": 95,
-				"Monsters": ["Gnome[+]"],
-				"Skills": {
-					"Thieving": 105
-				},
-				"Primary": false,
-				"Priority": 8,
-				"NoPet": true
-			},
-			"Pickpocket an ~|elf|~ for triple loot": {
-				"Category": ["Multiple Agility"],
-				"Level": 95,
-				"NPCs": ["Elf"],
-				"Skills": {
-					"Thieving": 105
-				},
-				"Primary": false,
-				"Priority": 9,
-				"NoPet": true
-			},
-			"Pickpocket an ~|elf|~ for quadrple loot": {
-				"Category": ["Multiple Agility"],
-				"Level": 105,
-				"NPCs": ["Elf"],
-				"Skills": {
-					"Thieving": 115
-				},
-				"Primary": false,
-				"Priority": 1000,
-				"NoPet": true
-			},
-			"Pickpocket a ~|trader|~ for double loot": {
-				"Category": ["Multiple Agility"],
-				"Level": 90,
-				"NPCs": ["Trader"],
-				"Skills": {
-					"Thieving": 90
-				},
-				"Output": "Trader",
-				"Primary": false,
-				"Priority": 1002
-			},
-			"Pickpocket a ~|trader|~ for triple loot": {
-				"Category": ["Multiple Agility"],
-				"Level": 100,
-				"NPCs": ["Trader"],
-				"Skills": {
-					"Thieving": 110
-				},
-				"Output": "Trader",
-				"Primary": false,
-				"Priority": 1002
-			},
-			"Pickpocket a ~|trader|~ for quadruple loot": {
-				"Category": ["Multiple Agility"],
-				"Level": 110,
-				"NPCs": ["Trader"],
-				"Skills": {
-					"Thieving": 120
-				},
-				"Output": "Trader",
-				"Primary": false,
-				"Priority": 1002
-			},
-			"Pickpocket a ~|vyrewatch tither|~ for double loot": {
-				"Category": ["Multiple Agility"],
-				"Level": 100,
-				"NPCs": ["Vyrewatch tither"],
-				"Skills": {
-					"Thieving": 110
-				},
-				"Output": "Vyrewatch tither",
-				"Primary": false,
-				"Priority": 1002
-			},
-			"Pickpocket a ~|vyrewatch tither|~ for triple loot": {
-				"Category": ["Multiple Agility"],
-				"Level": 110,
-				"NPCs": ["Vyrewatch tither"],
-				"Skills": {
-					"Thieving": 120
-				},
-				"Output": "Vyrewatch tither",
-				"Primary": false,
-				"Priority": 1002
-			},
-			"Pickpocket a ~|goebie scavenger|~ for double loot": {
-				"Category": ["Multiple Agility"],
-				"Level": 102,
-				"NPCs": ["Goebie scavenger"],
-				"Skills": {
-					"Thieving": 112
-				},
-				"Output": "Goebie scavenger",
-				"Primary": false,
-				"Priority": 1002
-			},
-			"Pickpocket a ~|Menaphos market guard|~ for double loot": {
-				"Category": ["Multiple Agility"],
-				"Level": 104,
-				"NPCs": ["Menaphos market guard"],
-				"Skills": {
-					"Thieving": 114
-				},
-				"Output": "Menaphos market guard",
-				"Primary": false,
-				"Priority": 1002
-			},
-			"Rummage a ~|dead legionary|~ for double loot": {
-				"Category": ["Multiple Agility"],
-				"Level": 95,
-				"Chunks": ["Vault of Hereditas"],
-				"Skills": {
-					"Thieving": 105
-				},
-				"Primary": false,
-				"Priority": 10,
-				"NoPet": true
-			},
-			"Rummage a ~|dead legionary|~ for triple loot": {
-				"Category": ["Multiple Agility"],
-				"Level": 105,
-				"Chunks": ["Vault of Hereditas"],
-				"Skills": {
-					"Thieving": 115
-				},
-				"Primary": false,
-				"Priority": 10,
-				"NoPet": true
-			},
-			"Pickpocket a ~|trainee archaeologist|~ for quadruple loot": {
-				"Category": ["Multiple Agility"],
-				"Level": 70,
-				"NPCs": ["Trainee archaeologist[+]"],
-				"Skills": {
-					"Thieving": 80
-				},
-				"Primary": false,
-				"Priority": 1001
-			},
-			"Pickpocket a ~|Wizards' Tower mage|~ for quadruple loot": {
-				"Category": ["Multiple Agility"],
-				"Level": 84,
-				"NPCs": ["Wizards' Tower mage"],
-				"Skills": {
-					"Thieving": 94
-				},
-				"Primary": false,
-				"Priority": 1000
-			},
-			"Pickpocket an ~|archaeologist|~ for quadruple loot": {
-				"Category": ["Multiple Agility"],
-				"Level": 98,
-				"NPCs": ["Archaeologist[+]"],
-				"Skills": {
-					"Thieving": 108
-				},
-				"Primary": false,
-				"Priority": 1001
-			},
-			"Squeeze through a ~|crevice (Asuran Arsenal)|~": {
-				"Category": ["Shortcut"],
-				"Objects": ["Crevice (Asuran Arsenal)"],
-				"Level": 85,
-				"Primary": true,
-				"Priority": 10,
-				"NoPet": true
-			},
 			"Access the ~|Brimhaven agility arena|~ low level obstacles": {
 				"Chunks": ["Brimhaven agility arena"],
 				"Level": 1,
 				"Primary": true,
 				"Priority": 3
 			},
-			"Access the ~|Brimhaven agility arena|~ medium level obstacles": {
-				"Chunks": ["Brimhaven agility arena"],
-				"Level": 20,
-				"Primary": true,
-				"Priority": 1
-			},
-			"Access the ~|Brimhaven agility arena|~ high level obstacles": {
-				"Chunks": ["Brimhaven agility arena"],
-				"Level": 40,
-				"Primary": true,
-				"Priority": 1
-			},
-			"Cross the ~|rope (Agility Pyramid)|~": {
-				"Category": ["Shortcut"],
-				"Chunks": ["13356-2"],
-				"Items": ["Rope"],
-				"Level": 40,
-				"Primary": false,
-				"Priority": 2,
-				"NoPet": true
-			},
-			"Complete a lap of ~|werewolf skullball|~": {
-				"Chunks": ["Werewolf Agility Course"],
-				"Level": 25,
-				"Primary": true,
-				"Priority": 1
-			},
-			"Complete a lap of the ~|agility pyramid|~": {
-				"Chunks": ["13356-1"],
-				"Level": 30,
-				"Primary": true,
-				"Priority": 1
-			},
-			"Complete a lap of the ~|penguin agility course|~": {
-				"Chunks": ["10559"],
-				"Level": 30,
-				"Primary": true,
-				"Priority": 2
-			},
-			"Cross a beginner obstacle in the ~|Anachronia agility course|~": {
-				"Objects": ["BeginnerAnachroniaObstacle[+]"],
-				"Level": 30,
-				"Primary": true,
-				"Priority": 3
-			},
-			"Complete section A of the ~|Anachronia agility course|~": {
-				"Chunks": ["15426-1", "15426-2", "15426-3", "15427-2", "15427-3", "15682-2", "15682-3", "15683-1", "15683-2", "15683-3"],
-				"Level": 30,
-				"Primary": true,
-				"Output": "AnachroniaCourse",
-				"Priority": 3
-			},
-			"Complete section G of the ~|Anachronia agility course|~": {
-				"Chunks": ["15684", "15941"],
-				"Level": 30,
-				"Primary": true,
-				"Output": "AnachroniaCourse",
-				"Priority": 4
-			},
-			"Catch a ~|leaping trout|~": {
-				"Items": ["Barbarian bait[+]"],
-				"Level": 15,
-				"Objects": ["Fishing spot (barbarian)"],
-				"Primary": true,
-				"Output": "Leaping trout",
-				"Tasks": {
-					"~|Barbarian Training|~ 2b3": "Quest"
-				},
-				"Skills": {
-					"Fishing": 48,
-					"Strength": 15
-				},
-				"Priority": 1,
-				"NoPet": true
-			},
-			"Catch a ~|leaping salmon|~": {
-				"Items": ["Barbarian bait[+]"],
-				"Level": 30,
-				"Objects": ["Fishing spot (barbarian)"],
-				"Primary": true,
-				"Output": "Leaping salmon",
-				"Tasks": {
-					"~|Barbarian Training|~ 2b3": "Quest"
-				},
-				"Skills": {
-					"Fishing": 58,
-					"Strength": 30
-				},
-				"Priority": 6,
-				"NoPet": true
-			},
-			"Cross the ~|stepping stones (Karamja)|~": {
-				"Category": ["Shortcut"],
-				"Objects": ["Stepping stones (Karamja)"],
-				"Level": 30,
-				"Primary": false,
-				"Priority": 7,
-				"NoPet": true
-			},
-			"Pickpocket a ~|farmer|~ for quadruple loot": {
-				"Category": ["Multiple Agility"],
-				"Level": 30,
-				"Mix": ["Farmer[+]"],
-				"Skills": {
-					"Thieving": 40
-				},
-				"Output": "Farmer",
-				"Primary": false,
-				"Priority": 8,
-				"NoPet": true
-			},
-			"Complete a lap of the ~|barbarian outpost agility course|~": {
-				"Chunks": ["10039"],
-				"Tasks": {
-					"~|Bar Crawl (miniquest)|~ Complete the miniquest": "Quest"
-				},
-				"Level": 35,
-				"Primary": true,
-				"Priority": 1
-			},
-			"Enter the ~|Polar eagle|~ eyrie|~": {
-				"Chunks": ["10811"],
-				"Level": 35,
-				"Primary": false,
-				"Priority": 2,
-				"NoPet": true
-			},
-			"Pickpocket a ~|H.A.M. member|~ for quadruple loot": {
-				"Category": ["Multiple Agility"],
-				"Level": 35,
-				"NPCs": ["H.A.M. member"],
-				"Output": "Ham member",
-				"Skills": {
-					"Thieving": 45
-				},
-				"Primary": false,
-				"Priority": 3,
-				"NoPet": true
-			},
-			"Catch two ~|raw tuna|~ in one attempt": {
-				"Category": ["Multiple Agility"],
-				"Level": 35,
-				"Objects": ["Fishing spot (cage, harpoon)"],
-				"Output": "Raw tuna",
-				"Skills": {
-					"Fishing": 35
-				},
-				"Primary": false,
-				"Priority": 4,
-				"NoPet": true
-			},
-			"Catch two ~|raw swordfish|~ in one attempt": {
-				"Category": ["Multiple Agility"],
-				"Level": 50,
-				"Objects": ["Fishing spot (cage, harpoon)"],
-				"Output": "Raw swordfish",
-				"Skills": {
-					"Fishing": 50
-				},
-				"Primary": false,
-				"Priority": 4,
-				"NoPet": true
-			},
-			"Catch two ~|raw sharks|~ in one attempt": {
-				"Category": ["Multiple Agility"],
-				"Level": 76,
-				"Objects": ["Fishing spot (big fishing net, harpoon)"],
-				"Output": "Raw shark",
-				"Skills": {
-					"Fishing": 76
-				},
-				"Primary": false,
-				"Priority": 4,
-				"NoPet": true
-			},
-			"Catch multiple ~|cobalt skillchompas|~ in one trap": {
-				"Category": ["Multiple Agility"],
-				"Level": 42,
-				"Monsters": ["Cobalt skillchompa"],
-				"Output": "Cobalt skillchompa",
-				"Skills": {
-					"Hunter": 27
-				},
-				"Primary": false,
-				"Priority": 1000,
-				"NoPet": true
-			},
-			"Catch multiple ~|viridian skillchompas|~ in one trap": {
-				"Category": ["Multiple Agility"],
-				"Level": 64,
-				"Monsters": ["Viridian skillchompa"],
-				"Output": "Viridian skillchompa",
-				"Skills": {
-					"Hunter": 46
-				},
-				"Primary": false,
-				"Priority": 1000,
-				"NoPet": true
-			},
-			"Catch multiple ~|chinchompas|~ in one trap": {
-				"Category": ["Multiple Agility"],
-				"Level": 70,
-				"Monsters": ["Chinchompa"],
-				"Output": "Chinchompa",
-				"Skills": {
-					"Hunter": 70
-				},
-				"Primary": false,
-				"Priority": 1000,
-				"NoPet": true
-			},
-			"Catch multiple ~|carnivorous chinchompas|~ in one trap": {
-				"Category": ["Multiple Agility"],
-				"Level": 77,
-				"Monsters": ["Carnivorous chinchompa"],
-				"Output": "Red chinchompa",
-				"Skills": {
-					"Hunter": 77
-				},
-				"Primary": false,
-				"Priority": 1000,
-				"NoPet": true
-			},
-			"Catch multiple ~|azure skillchompas|~ in one trap": {
-				"Category": ["Multiple Agility"],
-				"Level": 81,
-				"Monsters": ["Azure skillchompa"],
-				"Output": "Azure skillchompa",
-				"Skills": {
-					"Hunter": 68
-				},
-				"Primary": false,
-				"Priority": 1000,
-				"NoPet": true
-			},
-			"Catch multiple ~|crimson skillchompas|~ in one trap": {
-				"Category": ["Multiple Agility"],
-				"Level": 94,
-				"Monsters": ["Crimson skillchompa"],
-				"Output": "Crimson skillchompa",
-				"Skills": {
-					"Hunter": 89
-				},
-				"Primary": false,
-				"Priority": 1000,
-				"NoPet": true
-			},
-			"Catch multiple ~|crystal skillchompas|~ in one trap": {
-				"Category": ["Multiple Agility"],
-				"Level": 99,
-				"Monsters": ["Crystal skillchompa"],
-				"Output": "Crystal skillchompa",
-				"Skills": {
-					"Hunter": 97
-				},
-				"Primary": false,
-				"Priority": 1000,
-				"NoPet": true
-			},
-			"Complete a lap of the ~|advanced barbarian outpost agility course|~": {
-				"Chunks": ["10039"],
-				"Tasks": {
-					"~|Bar Crawl (miniquest)|~ Complete the miniquest": "Quest"
-				},
-				"Level": 90,
-				"Output": "Agile top",
-				"Primary": true,
-				"Priority": 1
-			},
-			"Access the ~|Ape Atoll agility course|~": {
-				"Chunks": ["11050-3"],
-				"Level": 48,
-				"Primary": true,
-				"Priority": 1
-			},
-			"Complete a lap of the ~|wilderness agility course|~": {
-				"Chunks": ["11837"],
-				"Level": 52,
-				"Primary": true,
-				"Priority": 1
-			},
-			"Complete a lap of the ~|Bandos agility course|~": {
-				"Chunks": ["Bandos's throne room"],
-				"Items": ["Mithril grapple", "GrappleCrossbow[+]"],
-				"Level": 60,
-				"Primary": true,
-				"Skills": {
-					"Strength": 60,
-					"Ranged": 60
-				},
-				"Priority": 1
-			},
-			"Complete a lap of the ~|werewolf agility course|~": {
-				"Chunks": ["Werewolf Agility Course"],
-				"Level": 60,
-				"Primary": true,
-				"Priority": 2
-			},
-			"Unlock the ~|Livid farm|~ spells": {
-				"Level": 60,
-				"Chunks": ["8253-1"],
-				"Primary": true,
-				"Skills": {
-					"Construction": 50,
-					"Crafting": 60,
-					"Farming": 60,
-					"Magic": 70
-				},
-				"Tasks": {
-					"~|Lunar Diplomacy|~ Complete the quest": "Quest"
-				},
-				"Priority": 3,
-				"NoPet": true
-			},
-			"Build the first tier of the spa in your ~|Anachronia base camp|~": {
-				"Chunks": ["15939-1"],
-				"Level": 40,
-				"Primary": false,
-				"Priority": 20
-			},
-			"Build the second tier of the spa in your ~|Anachronia base camp|~": {
-				"Chunks": ["15939-1"],
-				"Level": 70,
-				"Primary": false,
-				"Priority": 20
-			},
-			"Build the third tier of the spa in your ~|Anachronia base camp|~": {
-				"Chunks": ["15939-1"],
-				"Items": ["Essential oils*"],
-				"Level": 90,
-				"Primary": false,
-				"Priority": 20
-			},
-			"Cross the ~|boulder (God Wars Dungeon)|~": {
-				"Category": ["Shortcut"],
-				"Chunks": ["11577-1"],
-				"Level": 60,
-				"Primary": false,
-				"Priority": 4,
-				"NoPet": true
-			},
-			"Cross the ~|rocky handholds (God Wars Dungeon/Wilderness)|~": {
-				"Category": ["Shortcut"],
-				"Chunks": ["11578-1"],
-				"Level": 60,
-				"Primary": false,
-				"Priority": 5,
-				"NoPet": true
-			},
-			"Cross the easy ~|shortcut (Monastery of Ascension)|~": {
-				"Category": ["Shortcut"],
-				"Chunks": ["Ascension Dungeon"],
-				"Level": 60,
-				"Primary": true,
-				"Priority": 6,
-				"NoPet": true
-			},
-			"Pickpocket a ~|guard|~ for quadruple loot": {
-				"Category": ["Multiple Agility"],
-				"Level": 60,
-				"Monsters": ["Guard[+]"],
-				"Skills": {
-					"Thieving": 70
-				},
-				"Output": "Coins",
-				"Primary": false,
-				"Priority": 7,
-				"NoPet": true
-			},
-			"Use the ~|serenity posts|~": {
-				"Chunks": ["8757"],
-				"Level": 75,
-				"Primary": false,
-				"Priority": 1
-			},
-			"Complete the ~|flash powder factory|~ minigame": {
-				"Category": ["Minigame"],
-				"Level": 75,
-				"Chunks": ["Rogues' Den"],
-				"Output": "FlashPowder",
-				"Skills": {
-					"Thieving": 75,
-					"Herblore": 50
-				},
-				"Primary": true,
-				"Priority": 2,
-				"NoPet": true
-			},
-			"Barehand catch a ~|ruby harvest|~ in Piscatoris": {
-				"NPCs": ["Ruby harvest"],
-				"Level": 75,
-				"Skills": {
-					"Hunter": 80
-				},
-				"Output": "RubyHarvest",
-				"Primary": true,
-				"Priority": 3,
-				"NoPet": true
-			},
-			"Barehand catch a ~|ruby harvest|~ on Anachronia": {
-				"NPCs": ["Ruby harvest (Anachronia)"],
-				"Level": 75,
-				"Skills": {
-					"Hunter": 80
-				},
-				"Output": "RubyHarvestAnachronia",
-				"Primary": true,
-				"Priority": 4,
-				"NoPet": true
-			},
-			"Pickpocket a ~|bandit (Pollnivneach)|~ for quadruple loot": {
-				"Category": ["Multiple Agility"],
-				"Level": 75,
-				"Items": ["Blackjack[+]"],
-				"Monsters": ["Bandit (Pollnivneach)"],
-				"Skills": {
-					"Thieving": 85
-				},
-				"Output": "Coins",
-				"Primary": false,
-				"Priority": 5,
-				"NoPet": true
-			},
-			"Pickpocket a ~|knight of Ardougne|~ for quadruple loot": {
-				"Category": ["Multiple Agility"],
-				"Level": 75,
-				"Monsters": ["Knight of Ardougne"],
-				"Skills": {
-					"Thieving": 85
-				},
-				"Output": "Knight of Ardougne",
-				"Primary": false,
-				"Priority": 6,
-				"NoPet": true
-			},
-			"Complete a lap of the ~|Hefin agility course|~": {
-				"Chunks": ["8501-1", "8757"],
-				"Level": 77,
-				"Primary": true,
-				"Output": "Hefin Course Rewards",
-				"Priority": 1
-			},
-			"Complete a lap of the ~|Dorgesh-Kaan agility course|~": {
-				"Chunks": ["Dorgesh-Kaan Agility Course"],
-				"Level": 80,
-				"Primary": true,
-				"Priority": 1
-			},
-			"Complete a lap of the ~|Dorgesh-Kaan agility course|~ grapple route": {
-				"Chunks": ["Dorgesh-Kaan Agility Course"],
-				"Items": ["Mithril grapple", "GrappleCrossbow[+]"],
-				"Level": 80,
-				"Primary": true,
-				"Skills": {
-					"Strength": 80,
-					"Ranged": 80
-				},
-				"Priority": 2
-			},
-			"Cross the ~|strange floor|~": {
-				"Category": ["Shortcut"],
-				"Chunks": ["Taverley Dungeon"],
-				"Level": 80,
-				"Primary": true,
-				"Priority": 3,
-				"NoPet": true
-			},
-			"Cross the advanced ~|shortcut (Monastery of Ascension)|~": {
-				"Category": ["Shortcut"],
-				"Chunks": ["Ascension Dungeon"],
-				"Level": 80,
-				"Primary": true,
-				"Priority": 4,
-				"NoPet": true
-			},
-			"Barehand catch a ~|sapphire glacialis|~": {
-				"NPCs": ["Sapphire glacialis"],
-				"Level": 80,
-				"Skills": {
-					"Hunter": 85
-				},
-				"Output": "SapphireGlacialis",
-				"Primary": true,
-				"Priority": 5,
-				"NoPet": true
-			},
-			"Catch a ~|torn blueprint fragment|~": {
-				"Chunks": ["Stormguard citadel"],
-				"Items": ["Wingsuit[+]"],
-				"Level": 80,
-				"Skills": {
-					"Hunter": 85
-				},
-				"Output": "Torn blueprint fragment",
-				"Primary": true,
-				"Priority": 6,
-				"NoPet": true
-			},
-			"Pickpocket a ~|paladin|~ for quadruple loot": {
-				"Category": ["Multiple Agility"],
-				"Level": 90,
-				"Monsters": ["Paladin"],
-				"Skills": {
-					"Thieving": 100
-				},
-				"Output": "Paladin",
-				"Primary": false,
-				"Priority": 7,
-				"NoPet": true
-			},
-			"Pickpocket a ~|hero|~ for triple loot": {
-				"Category": ["Multiple Agility"],
-				"Level": 90,
-				"Monsters": ["Hero"],
-				"Skills": {
-					"Thieving": 100
-				},
-				"Output": "Hero",
-				"Primary": false,
-				"Priority": 8,
-				"NoPet": true
-			},
-			"Enter the ~|Apmeken tomb|~": {
-				"Chunks": ["12846-2"],
-				"Level": 80,
-				"Tasks": {
-					"~|Do No Evil|~ Complete the quest": "Quest"
-				},
-				"Primary": true,
-				"Priority": 9
-			},
-			"Cross a novice obstacle in the ~|Anachronia agility course|~": {
-				"Objects": ["NoviceAnachroniaObstacle[+]"],
-				"Level": 50,
-				"Primary": true,
-				"Priority": 3
-			},
-			"Complete section B of the ~|Anachronia agility course|~": {
-				"Chunks": ["15681-2", "15936", "15937-1", "15937-2", "16192-1", "16193-1", "16193-5"],
-				"Level": 50,
-				"Primary": true,
-				"Output": "AnachroniaCourse",
-				"Priority": 1
-			},
-			"Cross an advanced obstacle in the ~|Anachronia agility course|~": {
-				"Objects": ["AdvancedAnachroniaObstacle[+]"],
-				"Level": 30,
-				"Primary": true,
-				"Priority": 3
-			},
-			"Complete section C of the ~|Anachronia agility course|~": {
-				"Chunks": ["16193-1", "16193-3", "16194-1", "16194-2", "16194-4", "16450-1", "16450-2", "16450-3", "16450-5"],
-				"Level": 70,
-				"Primary": true,
-				"Output": "AnachroniaCourse",
-				"Priority": 1
-			},
-			"Complete section E of the ~|Anachronia agility course|~": {
-				"Chunks": ["16453-2", "16453-3", "16708-2", "16708-3"],
-				"Level": 70,
-				"Primary": true,
-				"Output": "AnachroniaCourse",
-				"Priority": 2
-			},
-			"Complete section F of the ~|Anachronia agility course|~": {
-				"Chunks": ["15941", "16197-1", "16453-2"],
-				"Level": 50,
-				"Primary": true,
-				"Output": "AnachroniaCourse",
-				"Priority": 2
-			},
-			"Play a game of ~|Gnome ball|~": {
-				"Category": ["Gnomeball"],
-				"Chunks": ["9526-1"],
-				"Level": 1,
-				"Primary": true,
-				"Skills": {
-					"Ranged": 1
-				},
-				"Priority": 4,
-				"Output": "Gnomeball",
-				"NoPet": true
-			},
-			"Catch a ~|leaping sturgeon|~": {
-				"Items": ["Barbarian bait[+]"],
-				"Level": 45,
-				"Objects": ["Fishing spot (barbarian)"],
-				"Primary": true,
-				"Output": "Leaping sturgeon",
-				"Tasks": {
-					"~|Barbarian Training|~ 2b3": "Quest"
-				},
-				"Skills": {
-					"Fishing": 70,
-					"Strength": 45
-				},
-				"Priority": 1,
-				"NoPet": true
-			},
-			"Cross the ~|log balance (Tirannwn)|~": {
-				"Category": ["Shortcut"],
-				"Chunks": ["8754-1"],
-				"Level": 45,
-				"Primary": false,
-				"Priority": 2,
-				"NoPet": true
-			},
-			"Pickpocket a ~|warrior woman|~ for quadruple loot": {
-				"Category": ["Multiple Agility"],
-				"Level": 45,
-				"Monsters": ["Warrior woman"],
-				"Skills": {
-					"Thieving": 55
-				},
-				"Output": "Court summons",
-				"Primary": false,
-				"Priority": 3,
-				"NoPet": true
-			},	
 			"Cross a stile ~|shortcut|~": {
 				"Category": ["Shortcut"],
 				"Objects": ["Stile"],
@@ -930,6 +41,88 @@
 				"Level": 1,
 				"Primary": true,
 				"Priority": 7,
+				"NoPet": true
+			},
+			"Climb up ~|handholds (Asuran Arsenal)|~": {
+				"Category": ["Shortcut"],
+				"Objects": ["Handholds (Asuran Arsenal)"],
+				"Level": 1,
+				"Primary": true,
+				"Priority": 8,
+				"NoPet": true
+			},
+			"Climb down ~|dropdown (Asuran Arsenal)|~": {
+				"Category": ["Shortcut"],
+				"Objects": ["Dropdown (Asuran Arsenal)"],
+				"Level": 1,
+				"Primary": true,
+				"Priority": 9,
+				"NoPet": true
+			},
+			"Cross the ~|bridge (Nature Grotto)|~": {
+				"Category": ["Shortcut", "Token"],
+				"Objects": ["Bridge (Nature Grotto)"],
+				"Level": 1,
+				"Primary": true,
+				"Priority": 10,
+				"NoPet": true
+			},
+			"Jump a ~|low wall (Asuran Arsenal)|~": {
+				"Category": ["Shortcut"],
+				"Objects": ["Low wall (Asuran Arsenal)"],
+				"Level": 1,
+				"Primary": true,
+				"Priority": 11,
+				"NoPet": true
+			},
+			"Play a game of ~|Gnome ball|~": {
+				"Category": ["Gnomeball"],
+				"Chunks": ["9526-1"],
+				"Level": 1,
+				"Primary": true,
+				"Skills": {
+					"Ranged": 1
+				},
+				"Priority": 100,
+				"Output": "Gnomeball",
+				"NoPet": true
+			},
+			"Read an Agility tome from ~|Temple Trekking|~": {
+				"Category": ["DnD"],
+				"Chunks": ["Temple Trekking Routes"],
+				"Level": 1,
+				"Primary": true,
+				"Priority": 101
+			},
+			"Use an ~|experience lamp|~ from the Waiko Reward Shop on Agility": {
+				"Category": ["XP Lamps"],
+				"Items": ["Ports XP Lamp"],
+				"Level": 1,
+				"Priamry": 1,
+				"Priority": 103,
+				"NoPet": true
+			},
+			"Grow a ~|barberry bush|~": {
+				"Items": ["Barberry seed"],
+				"Objects": ["Bush patch"],
+				"Level": 1,
+				"Skills": {
+					"Farming": 77
+				},
+				"Primary": true,
+				"Priority": 104,
+				"NoPet": true
+			},
+			"Eggsperiment with ~|accidental fletching and firemaking|~": {
+				"Category": ["Token"],
+				"Chunks": ["14915-1"],
+				"Level": 1,
+				"Skills": {
+					"Firemaking": 95
+				},
+				"Output": "Dinosaur 'propellant'",
+				"Primary": true,
+				"priority": 105,
 				"NoPet": true
 			},
 			"Cross the ~|crumbling wall (Falador)|~": {
@@ -959,22 +152,6 @@
 				"Level": 10,
 				"Primary": true,
 				"Priority": 1,
-				"NoPet": true
-			},
-			"Climb up ~|handholds (Asuran Arsenal)|~": {
-				"Category": ["Shortcut"],
-				"Objects": ["Handholds (Asuran Arsenal)"],
-				"Level": 1,
-				"Primary": true,
-				"Priority": 2,
-				"NoPet": true
-			},
-			"Climb down ~|dropdown (Asuran Arsenal)|~": {
-				"Category": ["Shortcut"],
-				"Objects": ["Dropdown (Asuran Arsenal)"],
-				"Level": 1,
-				"Primary": true,
-				"Priority": 3,
 				"NoPet": true
 			},
 			"Cross the ~|wall (Falador)|~": {
@@ -1011,7 +188,23 @@
 				"Chunks": ["Edgeville Dungeon"],
 				"Level": 15,
 				"Primary": true,
-				"Priority": 2,
+				"Priority": 1,
+				"NoPet": true
+			},
+			"Catch a ~|leaping trout|~": {
+				"Items": ["Barbarian bait[+]"],
+				"Level": 15,
+				"Objects": ["Fishing spot (barbarian)"],
+				"Primary": true,
+				"Output": "Leaping trout",
+				"Tasks": {
+					"~|Barbarian Training|~ 2b3": "Quest"
+				},
+				"Skills": {
+					"Fishing": 48,
+					"Strength": 15
+				},
+				"Priority": 100,
 				"NoPet": true
 			},
 			"Cross the ~|underwall tunnel (Yanille)|~": {
@@ -1041,6 +234,12 @@
 				"Priority": 1,
 				"NoPet": true
 			},
+			"Access the ~|Brimhaven agility arena|~ medium level obstacles": {
+				"Chunks": ["Brimhaven agility arena"],
+				"Level": 20,
+				"Primary": true,
+				"Priority": 1
+			},
 			"Cross the ~|log balance (Coal trucks)|~": {
 				"Category": ["Shortcut"],
 				"Objects": ["Log balance (Coal trucks)"],
@@ -1057,26 +256,15 @@
 				"Priority": 1,
 				"NoPet": true
 			},
-			"Pickpocket a ~|man|~ for quadruple loot": {
+			"Pickpocket a ~|citizen|~ for quadruple loot": {
 				"Category": ["Multiple Agility"],
 				"Level": 21,
-				"Monsters": ["Man"],
+				"Mix": ["Citizen[+]"],
 				"Skills": {
 					"Thieving": 31
 				},
 				"Primary": false,
 				"Priority": 2,
-				"NoPet": true
-			},
-			"Pickpocket a ~|woman|~ for quadruple loot": {
-				"Category": ["Multiple Agility"],
-				"Level": 21,
-				"Monsters": ["Woman"],
-				"Skills": {
-					"Thieving": 31
-				},
-				"Primary": false,
-				"Priority": 3,
 				"NoPet": true
 			},
 			"Cross the ~|pipe (Brimhaven Dungeon entrance)|~": {
@@ -1094,6 +282,12 @@
 				"Primary": false,
 				"Priority": 1,
 				"NoPet": true
+			},
+			"Complete a lap of ~|werewolf skullball|~": {
+				"Chunks": ["Werewolf Agility Course"],
+				"Level": 25,
+				"Primary": true,
+				"Priority": 1
 			},
 			"Cross the ~|rocks (Eagles' Peak)|~": {
 				"Category": ["Shortcut"],
@@ -1127,6 +321,82 @@
 				"Priority": 1,
 				"NoPet": true
 			},
+			"Complete a lap of the ~|agility pyramid|~": {
+				"Chunks": ["13356-1"],
+				"Level": 30,
+				"Primary": true,
+				"Priority": 1
+			},
+			"Complete a lap of the ~|penguin agility course|~": {
+				"Chunks": ["10559"],
+				"Level": 30,
+				"Primary": true,
+				"Priority": 2
+			},
+			"Cross a beginner obstacle in the ~|Anachronia agility course|~": {
+				"Objects": ["BeginnerAnachroniaObstacle[+]"],
+				"Level": 30,
+				"Primary": true,
+				"Priority": 3
+			},
+			"Complete section A of the ~|Anachronia agility course|~": {
+				"Chunks": ["15426-1", "15426-2", "15426-3", "15427-2", "15427-3", "15682-2", "15682-3", "15683-1", "15683-2", "15683-3"],
+				"Level": 30,
+				"Primary": true,
+				"Output": "AnachroniaCourse",
+				"Priority": 4
+			},
+			"Complete section G of the ~|Anachronia agility course|~": {
+				"Chunks": ["15684", "15941"],
+				"Level": 30,
+				"Primary": true,
+				"Output": "AnachroniaCourse",
+				"Priority": 5
+			},
+			"Cross the ~|stepping stones (Karamja)|~": {
+				"Category": ["Shortcut"],
+				"Objects": ["Stepping stones (Karamja)"],
+				"Level": 30,
+				"Primary": false,
+				"Priority": 7,
+				"NoPet": true
+			},
+			"Pickpocket a ~|farmer|~ for quadruple loot": {
+				"Category": ["Multiple Agility"],
+				"Level": 30,
+				"Mix": ["Farmer[+]"],
+				"Skills": {
+					"Thieving": 40
+				},
+				"Output": "Farmer",
+				"Primary": false,
+				"Priority": 100,
+				"NoPet": true
+			},
+			"Catch a ~|leaping salmon|~": {
+				"Items": ["Barbarian bait[+]"],
+				"Level": 30,
+				"Objects": ["Fishing spot (barbarian)"],
+				"Primary": true,
+				"Output": "Leaping salmon",
+				"Tasks": {
+					"~|Barbarian Training|~ 2b3": "Quest"
+				},
+				"Skills": {
+					"Fishing": 58,
+					"Strength": 30
+				},
+				"Priority": 101,
+				"NoPet": true
+			},
+			"Cross the ~|stepping stone (Shilo Village)|~": {
+				"Category": ["Shortcut"],
+				"Objects": ["Stepping stone (Shilo Village)"],
+				"Level": 32,
+				"Primary": true,
+				"Priority": 1,
+				"NoPet": true
+			},
 			"Cross the ~|rocks (Catherby)|~": {
 				"Category": ["Shortcut"],
 				"Objects": ["Rocks (Catherby)"],
@@ -1140,7 +410,7 @@
 				"Tasks": {
 					"~|Fishing Contest|~ Complete the quest": "Quest"
 				},
-				"Priority": 1,
+				"Priority": 2,
 				"NoPet": true
 			},
 			"Cross the ~|log balance (East Ardougne)|~": {
@@ -1157,6 +427,46 @@
 				"Level": 34,
 				"Primary": true,
 				"Priority": 1,
+				"NoPet": true
+			},
+			"Complete a lap of the ~|barbarian outpost agility course|~": {
+				"Chunks": ["10039"],
+				"Tasks": {
+					"~|Bar Crawl (miniquest)|~ Complete the miniquest": "Quest"
+				},
+				"Level": 35,
+				"Primary": true,
+				"Priority": 1
+			},
+			"Enter the ~|Polar eagle|~ eyrie|~": {
+				"Chunks": ["10811"],
+				"Level": 35,
+				"Primary": false,
+				"Priority": 2,
+				"NoPet": true
+			},
+			"Pickpocket a ~|H.A.M. member|~ for quadruple loot": {
+				"Category": ["Multiple Agility"],
+				"Level": 35,
+				"NPCs": ["H.A.M. member"],
+				"Output": "Ham member",
+				"Skills": {
+					"Thieving": 45
+				},
+				"Primary": false,
+				"Priority": 100,
+				"NoPet": true
+			},
+			"Catch two ~|raw tuna|~ in one attempt": {
+				"Category": ["Multiple Agility"],
+				"Level": 35,
+				"Objects": ["Fishing spot (cage, harpoon)"],
+				"Output": "Raw tuna",
+				"Skills": {
+					"Fishing": 35
+				},
+				"Primary": false,
+				"Priority": 101,
 				"NoPet": true
 			},
 			"Cross the ~|grapple column|~": {
@@ -1204,6 +514,27 @@
 				"Priority": 1,
 				"NoPet": true
 			},
+			"Access the ~|Brimhaven agility arena|~ high level obstacles": {
+				"Chunks": ["Brimhaven agility arena"],
+				"Level": 40,
+				"Primary": true,
+				"Priority": 1
+			},
+			"Cross the ~|rope (Agility Pyramid)|~": {
+				"Category": ["Shortcut"],
+				"Chunks": ["13356-2"],
+				"Items": ["Rope"],
+				"Level": 40,
+				"Primary": false,
+				"Priority": 2,
+				"NoPet": true
+			},
+			"Build the first tier of the spa in your ~|Anachronia base camp|~": {
+				"Chunks": ["15939-1"],
+				"Level": 40,
+				"Primary": false,
+				"Priority": 100
+			},
 			"Cross the ~|cliffside (Trollheim easy)|~": {
 				"Category": ["Shortcut"],
 				"Objects": ["Cliffside (Trollheim easy)"],
@@ -1220,6 +551,18 @@
 				"Priority": 1,
 				"NoPet": true
 			},
+			"Catch multiple ~|cobalt skillchompas|~ in one trap": {
+				"Category": ["Multiple Agility"],
+				"Level": 42,
+				"Monsters": ["Cobalt skillchompa"],
+				"Output": "Cobalt skillchompa",
+				"Skills": {
+					"Hunter": 27
+				},
+				"Primary": false,
+				"Priority": 1000,
+				"NoPet": true
+			},
 			"Cross the ~|cliffside (Trollheim medium)|~": {
 				"Category": ["Shortcut"],
 				"Objects": ["Cliffside (Trollheim easy)"],
@@ -1228,12 +571,56 @@
 				"Priority": 1,
 				"NoPet": true
 			},
+			"Cross the ~|crevice (Fremennik Slayer Dungeon)|~": {
+				"Category": ["Shortcut"],
+				"Chunks": ["Fremennik Slayer Dungeon"],
+				"Level": 43,
+				"Primary": false,
+				"Priority": 2,
+				"NoPet": true
+			},
 			"Cross the ~|cliffside (Trollheim advanced)|~": {
 				"Category": ["Shortcut"],
 				"Objects": ["Cliffside (Trollheim advanced)"],
 				"Level": 44,
 				"Primary": true,
 				"Priority": 1,
+				"NoPet": true
+			},
+			"Cross the ~|log balance (Tirannwn)|~": {
+				"Category": ["Shortcut"],
+				"Chunks": ["8754-1"],
+				"Level": 45,
+				"Primary": false,
+				"Priority": 1,
+				"NoPet": true
+			},
+			"Pickpocket a ~|warrior woman|~ for quadruple loot": {
+				"Category": ["Multiple Agility"],
+				"Level": 45,
+				"Monsters": ["Warrior woman"],
+				"Skills": {
+					"Thieving": 55
+				},
+				"Output": "Court summons",
+				"Primary": false,
+				"Priority": 1000,
+				"NoPet": true
+			},	
+			"Catch a ~|leaping sturgeon|~": {
+				"Items": ["Barbarian bait[+]"],
+				"Level": 45,
+				"Objects": ["Fishing spot (barbarian)"],
+				"Primary": true,
+				"Output": "Leaping sturgeon",
+				"Tasks": {
+					"~|Barbarian Training|~ 2b3": "Quest"
+				},
+				"Skills": {
+					"Fishing": 70,
+					"Strength": 45
+				},
+				"Priority": 1001,
 				"NoPet": true
 			},
 			"Cross the easy ~|jutting wall (Zanaris)|~": {
@@ -1252,6 +639,12 @@
 				"Priority": 1,
 				"NoPet": true
 			},
+			"Access the ~|Ape Atoll agility course|~": {
+				"Chunks": ["11050-3"],
+				"Level": 48,
+				"Primary": true,
+				"Priority": 1
+			},
 			"Cross the ~|log balance (Fremennik Province)|~": {
 				"Category": ["Shortcut"],
 				"Objects": ["Log balance (Fremennik Province)"],
@@ -1268,12 +661,216 @@
 				"Priority": 1,
 				"NoPet": true
 			},
+			"Cross a novice obstacle in the ~|Anachronia agility course|~": {
+				"Objects": ["NoviceAnachroniaObstacle[+]"],
+				"Level": 50,
+				"Primary": true,
+				"Priority": 1
+			},
+			"Complete section B of the ~|Anachronia agility course|~": {
+				"Chunks": ["15681-2", "15936", "15937-1", "15937-2", "16192-1", "16193-1", "16193-5"],
+				"Level": 50,
+				"Primary": true,
+				"Output": "AnachroniaCourse",
+				"Priority": 2
+			},
+			"Complete section F of the ~|Anachronia agility course|~": {
+				"Chunks": ["15941", "16197-1", "16453-2"],
+				"Level": 50,
+				"Primary": true,
+				"Output": "AnachroniaCourse",
+				"Priority": 3
+			},
 			"Cross the ~|shortcut (Grotworm Lair)|~": {
 				"Category": ["Shortcut"],
 				"Chunks": ["Grotworm Lair 1", "Grotworm Lair 3"],
 				"Level": 50,
 				"Primary": false,
-				"Priority": 3,
+				"Priority": 4,
+				"NoPet": true
+			},
+			"Wield a ~|crystal bow|~": {
+				"Items": ["Crystal bow"],
+				"Level": 50,
+				"Primary": false,
+				"Skills": {
+					"Ranged": 70
+				},
+				"Priority": 1000,
+				"NoPet": true
+			},
+			"Wield a ~|crystal chakram|~": {
+				"Items": ["Crystal chakram"],
+				"Level": 50,
+				"Primary": false,
+				"Skills": {
+					"Ranged": 70
+				},
+				"Priority": 1001,
+				"NoPet": true
+			},
+			"Wield an ~|off-hand crystal chakram|~": {
+				"Items": ["Off-hand crystal chakram"],
+				"Level": 50,
+				"Primary": false,
+				"Skills": {
+					"Ranged": 70
+				},
+				"Priority": 1002,
+				"NoPet": true
+			},
+			"Wield an ~|attuned crystal deflector|~": {
+				"Items": ["Attuned crystal deflector"],
+				"Level": 50,
+				"Primary": false,
+				"Skills": {
+					"Ranged": 80
+				},
+				"Priority": 1003,
+				"NoPet": true
+			},
+			"Wield an ~|attuned crystal chakram|~": {
+				"Items": ["Attuned crystal chakram"],
+				"Level": 50,
+				"Primary": false,
+				"Skills": {
+					"Ranged": 80
+				},
+				"Priority": 1004,
+				"NoPet": true
+			},
+			"Wield an ~|off-hand attuned crystal chakram|~": {
+				"Items": ["Off-hand attuned crystal chakram"],
+				"Level": 50,
+				"Primary": false,
+				"Skills": {
+					"Ranged": 80
+				},
+				"Priority": 1005,
+				"NoPet": true
+			},
+			"Enter a tier one ~|Shifting Tombs|~": {
+				"Chunks": ["Shifting Tombs"],
+				"Level": 50,
+				"Skills": {
+					"Dungeoneering": 50,
+					"Thieving": 50,
+					"Construction": 50
+				},
+				"Primary": true,
+				"Priority": 100,
+				"NoPet": true
+			},
+			"Wield a ~|crystal staff|~": {
+				"Items": ["Crystal staff"],
+				"Level": 50,
+				"Primary": true,
+				"Skills": {
+					"Magic": 70
+				},
+				"Priority": 1006,
+				"NoPet": true
+			},
+			"Wield a ~|crystal wand|~": {
+				"Items": ["Crystal wand"],
+				"Level": 50,
+				"Primary": true,
+				"Skills": {
+					"Magic": 70
+				},
+				"Priority": 1007,
+				"NoPet": true
+			},
+			"Wield a ~|crystal orb|~": {
+				"Items": ["Crystal orb"],
+				"Level": 50,
+				"Primary": true,
+				"Skills": {
+					"Magic": 70
+				},
+				"Priority": 1008,
+				"NoPet": true
+			},
+			"Wield an ~|attuned crystal staff|~": {
+				"Items": ["Attuned crystal staff"],
+				"Level": 50,
+				"Primary": true,
+				"Skills": {
+					"Magic": 80
+				},
+				"Priority": 1009,
+				"NoPet": true
+			},
+			"Wield an ~|attuned crystal wand|~": {
+				"Items": ["Attuned crystal wand"],
+				"Level": 50,
+				"Primary": true,
+				"Skills": {
+					"Magic": 80
+				},
+				"Priority": 1010,
+				"NoPet": true
+			},
+			"Wield an ~|attuned crystal orb|~": {
+				"Items": ["Attuned crystal orb"],
+				"Level": 50,
+				"Primary": true,
+				"Skills": {
+					"Magic": 80
+				},
+				"Priority": 1011,
+				"NoPet": true
+			},
+			"Wield an ~|attuned crystal weapon|~": {
+				"Items": ["AttunedCrystalWeapon[+]"],
+				"Level": 50,
+				"Skills": {
+					"Attack": 80
+				},
+				"Primary": false,
+				"Priority": 1012,
+				"NoPet": true
+			},
+			"Wield a ~|crystal weapon|~": {
+				"Items": ["CrystalWeapon[+]"],
+				"Level": 50,
+				"Skills": {
+					"Attack": 70
+				},
+				"Primary": false,
+				"Priority": 1013,
+				"NoPet": true
+			},
+			"Wield one of the ~|crystal shields|~": {
+				"Items": ["CrystalShield[+]"],
+				"Level": 50,
+				"Skills": {
+					"Defence": 70
+				},
+				"Primary": false,
+				"Priority": 1014,
+				"NoPet": true
+			},
+			"Wield one of the ~|attuned crystal shields|~": {
+				"Items": ["AttunedCrystalShield[+]"],
+				"Level": 50,
+				"Skills": {
+					"Defence": 80
+				},
+				"Primary": false,
+				"Priority": 1015,
+				"NoPet": true
+			},
+			"Catch two ~|raw swordfish|~ in one attempt": {
+				"Category": ["Multiple Agility"],
+				"Level": 50,
+				"Objects": ["Fishing spot (cage, harpoon)"],
+				"Output": "Raw swordfish",
+				"Skills": {
+					"Fishing": 50
+				},
+				"Primary": false,
+				"Priority": 1016,
 				"NoPet": true
 			},
 			"Cross the ~|pipe (Edgeville Dungeon/Varrock Sewers)|~": {
@@ -1283,6 +880,12 @@
 				"Primary": true,
 				"Priority": 1,
 				"NoPet": true
+			},
+			"Complete a lap of the ~|wilderness agility course|~": {
+				"Chunks": ["11837"],
+				"Level": 52,
+				"Primary": true,
+				"Priority": 1
 			},
 			"Cross the ~|stepping stone (Taverley)|~": {
 				"Category": ["Shortcut"],
@@ -1308,7 +911,7 @@
 			"Cross the ~|lava moat|~": {
 				"Category": ["Shortcut"],
 				"Objects": ["Lava moat"],
-				"Level":54,
+				"Level": 54,
 				"Primary": false,
 				"Priority": 1,
 				"NoPet": true
@@ -1330,7 +933,7 @@
 				},
 				"Output": "Cave goblin",
 				"Primary": false,
-				"Priority": 1,
+				"Priority": 1000,
 				"NoPet": true
 			},
 			"Cross the ~|weathered wall|~": {
@@ -1350,7 +953,76 @@
 				},
 				"Output": "Master Farmer",
 				"Primary": false,
-				"Priority": 1,
+				"Priority": 1000,
+				"NoPet": true
+			},
+			"Complete a lap of the ~|Bandos agility course|~": {
+				"Chunks": ["Bandos's throne room"],
+				"Items": ["Mithril grapple", "GrappleCrossbow[+]"],
+				"Level": 60,
+				"Primary": true,
+				"Skills": {
+					"Strength": 60,
+					"Ranged": 60
+				},
+				"Priority": 1
+			},
+			"Complete a lap of the ~|werewolf agility course|~": {
+				"Chunks": ["Werewolf Agility Course"],
+				"Level": 60,
+				"Primary": true,
+				"Priority": 2
+			},
+			"Cross the ~|boulder (God Wars Dungeon)|~": {
+				"Category": ["Shortcut"],
+				"Chunks": ["11577-1"],
+				"Level": 60,
+				"Primary": false,
+				"Priority": 3,
+				"NoPet": true
+			},
+			"Cross the ~|rocky handholds (God Wars Dungeon/Wilderness)|~": {
+				"Category": ["Shortcut"],
+				"Chunks": ["11578-1"],
+				"Level": 60,
+				"Primary": false,
+				"Priority": 4,
+				"NoPet": true
+			},
+			"Cross the easy ~|shortcut (Monastery of Ascension)|~": {
+				"Category": ["Shortcut"],
+				"Chunks": ["Ascension Dungeon"],
+				"Level": 60,
+				"Primary": true,
+				"Priority": 5,
+				"NoPet": true
+			},
+			"Unlock the ~|Livid farm|~ spells": {
+				"Level": 60,
+				"Chunks": ["8253-1"],
+				"Primary": true,
+				"Skills": {
+					"Construction": 50,
+					"Crafting": 60,
+					"Farming": 60,
+					"Magic": 70
+				},
+				"Tasks": {
+					"~|Lunar Diplomacy|~ Complete the quest": "Quest"
+				},
+				"Priority": 1000,
+				"NoPet": true
+			},
+			"Pickpocket a ~|guard|~ for quadruple loot": {
+				"Category": ["Multiple Agility"],
+				"Level": 60,
+				"Monsters": ["Guard[+]"],
+				"Skills": {
+					"Thieving": 70
+				},
+				"Output": "Coins",
+				"Primary": false,
+				"Priority": 1001,
 				"NoPet": true
 			},
 			"Cross the ~|stile (Tree Gnome Stronghold)|~": {
@@ -1361,12 +1033,12 @@
 				"Priority": 1,
 				"NoPet": true
 			},
-			"Cross the ~|crevice (Fremennik Slayer Dungeon)|~": {
+			"Cross the ~|chasm (Fremennik Slayer Dungeon)|~": {
 				"Category": ["Shortcut"],
 				"Chunks": ["Fremennik Slayer Dungeon"],
-				"Level": 43,
+				"Level": 61,
 				"Primary": false,
-				"Priority": 1,
+				"Priority": 2,
 				"NoPet": true
 			},
 			"Cross the ~|crumbling wall (The Islands That Once Were Turtles)|~": {
@@ -1385,32 +1057,44 @@
 				"Priority": 1,
 				"NoPet": true
 			},
-			"Cross the ~|broken Saradomin statue|~": {
-				"Category": ["Shortcut"],
-				"Objects": ["Broken Saradomin statue"],
-				"Level": 65,
+			"Catch multiple ~|viridian skillchompas|~ in one trap": {
+				"Category": ["Multiple Agility"],
+				"Level": 64,
+				"Monsters": ["Viridian skillchompa"],
+				"Output": "Viridian skillchompa",
+				"Skills": {
+					"Hunter": 46
+				},
 				"Primary": false,
-				"Priority": 1,
+				"Priority": 1000,
 				"NoPet": true
 			},
 			"Access the ~|Het's Oasis Agility Course|~": {
 				"Chunks": ["13362-1"],
 				"Level": 65,
 				"Primary": true,
-				"Output": "Het's Course Rewards",
-				"Priority": 2
+				"Priority": 1
 			},
 			"Complete the ~|Het's Oasis Agility Course|~": {
 				"Chunks": ["13362-1", "13362-2", "13106"],
 				"Level": 65,
 				"Primary": true,
+				"Output": "Het's Course Rewards",
 				"Priority": 2
+			},
+			"Cross the ~|broken Saradomin statue|~": {
+				"Category": ["Shortcut"],
+				"Objects": ["Broken Saradomin statue"],
+				"Level": 65,
+				"Primary": false,
+				"Priority": 3,
+				"NoPet": true
 			},
 			"Cross the jutting wall to the ~|Meiyerditch laboratories": {
 				"Chunks": ["Meiyerditch Laboratories"],
 				"Level": 65,
 				"Primary": true,
-				"Priority": 3,
+				"Priority": 4,
 				"NoPet": true
 			},
 			"Pickpocket a ~|Fremennik citizen|~ for quadruple loot": {
@@ -1422,7 +1106,7 @@
 				},
 				"Output": "Coins",
 				"Primary": false,
-				"Priority": 4,
+				"Priority": 1000,
 				"NoPet": true
 			},
 			"Pickpocket a ~|brigand|~ for quadruple loot": {
@@ -1435,14 +1119,14 @@
 				},
 				"Output": "Coins",
 				"Primary": false,
-				"Priority": 5,
+				"Priority": 1001,
 				"NoPet": true
 			},
 			"Pedal on an ~|manual auto-cycle|~": {
 				"Chunks": ["Empty Throne Room"],
 				"Level": 65,
 				"Primary": false,
-				"Priority": 6,
+				"Priority": 1002,
 				"Output": "Senntisten scroll",
 				"NoPet": true
 			},
@@ -1462,12 +1146,32 @@
 				"Priority": 1,
 				"NoPet": true
 			},
+			"Cross an advanced obstacle in the ~|Anachronia agility course|~": {
+				"Objects": ["AdvancedAnachroniaObstacle[+]"],
+				"Level": 70,
+				"Primary": true,
+				"Priority": 1
+			},
+			"Complete section C of the ~|Anachronia agility course|~": {
+				"Chunks": ["16193-1", "16193-3", "16194-1", "16194-2", "16194-4", "16450-1", "16450-2", "16450-3", "16450-5"],
+				"Level": 70,
+				"Primary": true,
+				"Output": "AnachroniaCourse",
+				"Priority": 2
+			},
+			"Complete section E of the ~|Anachronia agility course|~": {
+				"Chunks": ["16453-2", "16453-3", "16708-2", "16708-3"],
+				"Level": 70,
+				"Primary": true,
+				"Output": "AnachroniaCourse",
+				"Priority": 3
+			},
 			"Cross the ~|rocky wall (God Wars Dungeon)|~": {
 				"Category": ["Shortcut"],
 				"Chunks": ["God Wars Dungeon"],
 				"Level": 70,
 				"Primary": false,
-				"Priority": 3,
+				"Priority": 4,
 				"NoPet": true
 			},
 			"Cross the ~|obstacle pipe (Taverley Dungeon)|~": {
@@ -1475,7 +1179,7 @@
 				"Chunks": ["Taverley Dungeon"],
 				"Level": 70,
 				"Primary": true,
-				"Priority": 4,
+				"Priority": 5,
 				"NoPet": true
 			},
 			"Cross the medium ~|shortcut (Monastery of Ascension)|~": {
@@ -1483,8 +1187,52 @@
 				"Chunks": ["Ascension Dungeon"],
 				"Level": 70,
 				"Primary": true,
-				"Priority": 5,
+				"Priority": 6,
 				"NoPet": true
+			},
+			"Enter a tier two ~|Shifting Tombs|~": {
+				"Chunks": ["Shifting Tombs"],
+				"Level": 70,
+				"Skills": {
+					"Dungeoneering": 70,
+					"Thieving": 70,
+					"Construction": 70,
+					"Crafting": 70,
+					"Runecrafting": 70,
+					"Prayer": 70,
+					"Divination": 70
+				},
+				"Primary": false,
+				"Priority": 1000,
+				"NoPet": true
+			},
+			"Pickpocket a ~|trainee archaeologist|~ for quadruple loot": {
+				"Category": ["Multiple Agility"],
+				"Level": 70,
+				"NPCs": ["Trainee archaeologist[+]"],
+				"Skills": {
+					"Thieving": 80
+				},
+				"Primary": false,
+				"Priority": 1001
+			},
+			"Catch multiple ~|chinchompas|~ in one trap": {
+				"Category": ["Multiple Agility"],
+				"Level": 70,
+				"Monsters": ["Chinchompa"],
+				"Output": "Chinchompa",
+				"Skills": {
+					"Hunter": 70
+				},
+				"Primary": false,
+				"Priority": 1002,
+				"NoPet": true
+			},
+			"Build the second tier of the spa in your ~|Anachronia base camp|~": {
+				"Chunks": ["15939-1"],
+				"Level": 70,
+				"Primary": false,
+				"Priority": 1003
 			},
 			"Cross the ~|plank (Slayer Tower)|~": {
 				"Category": ["Shortcut"],
@@ -1527,15 +1275,7 @@
 				},
 				"Output": "Bandit (Kharidian Desert Bandit Camp)",
 				"Primary": false,
-				"Priority": 2,
-				"NoPet": true
-			},
-			"Cross the ~|stepping stone (Shilo Village)|~": {
-				"Category": ["Shortcut"],
-				"Objects": ["Stepping stone (Shilo Village)"],
-				"Level": 32,
-				"Primary": true,
-				"Priority": 1,
+				"Priority": 1000,
 				"NoPet": true
 			},
 			"Cross the ~|tunnel (Shilo Village)|~": {
@@ -1557,7 +1297,7 @@
 					"~|Plague's End|~ Complete the quest": "Quest"
 				},
 				"Primary": false,
-				"Priority": 20,
+				"Priority": 1,
 				"NoPet": true
 			},
 			"Jump over ~|rubble (Asuran Arsenal)|~": {
@@ -1565,7 +1305,104 @@
 				"Objects": ["Rubble (Asuran Arsenal)"],
 				"Level": 75,
 				"Primary": true,
-				"Priority": 7,
+				"Priority": 2,
+				"NoPet": true
+			},
+			"Use the ~|serenity posts|~": {
+				"Chunks": ["8757"],
+				"Level": 75,
+				"Primary": false,
+				"Priority": 3
+			},
+			"Complete the ~|flash powder factory|~ minigame": {
+				"Category": ["Minigame"],
+				"Level": 75,
+				"Chunks": ["Rogues' Den"],
+				"Output": "FlashPowder",
+				"Skills": {
+					"Thieving": 75,
+					"Herblore": 50
+				},
+				"Primary": true,
+				"Priority": 4,
+				"NoPet": true
+			},
+			"Barehand catch a ~|ruby harvest|~ in Piscatoris": {
+				"NPCs": ["Ruby harvest"],
+				"Level": 75,
+				"Skills": {
+					"Hunter": 80
+				},
+				"Output": "RubyHarvest",
+				"Primary": true,
+				"Priority": 1000,
+				"NoPet": true
+			},
+			"Barehand catch a ~|ruby harvest|~ on Anachronia": {
+				"NPCs": ["Ruby harvest (Anachronia)"],
+				"Level": 75,
+				"Skills": {
+					"Hunter": 80
+				},
+				"Output": "RubyHarvestAnachronia",
+				"Primary": true,
+				"Priority": 1001,
+				"NoPet": true
+			},
+			"Pickpocket a ~|bandit (Pollnivneach)|~ for quadruple loot": {
+				"Category": ["Multiple Agility"],
+				"Level": 75,
+				"Items": ["Blackjack[+]"],
+				"Monsters": ["Bandit (Pollnivneach)"],
+				"Skills": {
+					"Thieving": 85
+				},
+				"Output": "Coins",
+				"Primary": false,
+				"Priority": 1003,
+				"NoPet": true
+			},
+			"Pickpocket a ~|knight of Ardougne|~ for quadruple loot": {
+				"Category": ["Multiple Agility"],
+				"Level": 75,
+				"Monsters": ["Knight of Ardougne"],
+				"Skills": {
+					"Thieving": 85
+				},
+				"Output": "Knight of Ardougne",
+				"Primary": false,
+				"Priority": 1004,
+				"NoPet": true
+			},
+			"Catch two ~|raw sharks|~ in one attempt": {
+				"Category": ["Multiple Agility"],
+				"Level": 76,
+				"Objects": ["Fishing spot (big fishing net, harpoon)"],
+				"Output": "Raw shark",
+				"Skills": {
+					"Fishing": 76
+				},
+				"Primary": false,
+				"Priority": 1,
+				"NoPet": true
+			},
+			"Complete a lap of the ~|Hefin agility course|~": {
+				"Chunks": ["8501-1", "8757"],
+				"Level": 77,
+				"Primary": true,
+				"Output": "Hefin Course Rewards",
+				"Priority": 1
+			},
+			"Catch multiple ~|carnivorous chinchompas|~ in one trap": {
+				"Category": ["Multiple Agility"],
+				"Level": 77,
+				"Monsters": ["Carnivorous chinchompa"],
+				"Output": "Red chinchompa",
+				"Skills": {
+					"Hunter": 77
+				},
+				"Primary": false,
+				"Priority": 1000,
 				"NoPet": true
 			},
 			"Cross the hard ~|tunnel (Kalphite Hive)|~": {
@@ -1576,12 +1413,173 @@
 				"Priority": 1,
 				"NoPet": true
 			},
-			"Cross the ~|chasm (Fremennik Slayer Dungeon)|~": {
+			"Complete a lap of the ~|Dorgesh-Kaan agility course|~": {
+				"Chunks": ["Dorgesh-Kaan Agility Course"],
+				"Level": 80,
+				"Primary": true,
+				"Priority": 1
+			},
+			"Complete a lap of the ~|Dorgesh-Kaan agility course|~ grapple route": {
+				"Chunks": ["Dorgesh-Kaan Agility Course"],
+				"Items": ["Mithril grapple", "GrappleCrossbow[+]"],
+				"Level": 80,
+				"Primary": true,
+				"Skills": {
+					"Strength": 80,
+					"Ranged": 80
+				},
+				"Priority": 2
+			},
+			"Cross the ~|strange floor|~": {
 				"Category": ["Shortcut"],
-				"Chunks": ["Fremennik Slayer Dungeon"],
-				"Level": 61,
+				"Chunks": ["Taverley Dungeon"],
+				"Level": 80,
+				"Primary": true,
+				"Priority": 3,
+				"NoPet": true
+			},
+			"Cross the advanced ~|shortcut (Monastery of Ascension)|~": {
+				"Category": ["Shortcut"],
+				"Chunks": ["Ascension Dungeon"],
+				"Level": 80,
+				"Primary": true,
+				"Priority": 4,
+				"NoPet": true
+			},
+			"Barehand catch a ~|sapphire glacialis|~": {
+				"NPCs": ["Sapphire glacialis"],
+				"Level": 80,
+				"Skills": {
+					"Hunter": 85
+				},
+				"Output": "SapphireGlacialis",
+				"Primary": true,
+				"Priority": 1000,
+				"NoPet": true
+			},
+			"Catch a ~|torn blueprint fragment|~": {
+				"Chunks": ["Stormguard citadel"],
+				"Items": ["Wingsuit[+]"],
+				"Level": 80,
+				"Skills": {
+					"Hunter": 85
+				},
+				"Output": "Torn blueprint fragment",
+				"Primary": true,
+				"Priority": 1001,
+				"NoPet": true
+			},
+			"Enter the ~|Apmeken tomb|~": {
+				"Chunks": ["12846-2"],
+				"Level": 80,
+				"Tasks": {
+					"~|Do No Evil|~ Complete the quest": "Quest"
+				},
+				"Primary": true,
+				"Priority": 1002
+			},
+			"Catch multiple ~|azure skillchompas|~ in one trap": {
+				"Category": ["Multiple Agility"],
+				"Level": 81,
+				"Monsters": ["Azure skillchompa"],
+				"Output": "Azure skillchompa",
+				"Skills": {
+					"Hunter": 68
+				},
 				"Primary": false,
+				"Priority": 1000,
+				"NoPet": true
+			},
+			"Catch a ~|charming moth|~": {
+				"NPCs": ["Charming moth"],
+				"Level": 83,
+				"Skills": {
+					"Hunter": 88
+				},
+				"Output": "CharmingMoth",
+				"Primary": true,
 				"Priority": 1,
+				"NoPet": true
+			},
+			"Pickpocket a ~|Wizards' Tower mage|~ for quadruple loot": {
+				"Category": ["Multiple Agility"],
+				"Level": 84,
+				"NPCs": ["Wizards' Tower mage"],
+				"Skills": {
+					"Thieving": 94
+				},
+				"Primary": false,
+				"Priority": 1000
+			},
+			"Complete a lap of the ~|advanced Gnome Stronghold agility course|~": {
+				"Chunks": ["9781"],
+				"Level": 85,
+				"Primary": true,
+				"Output": "Agile legs",
+				"Priority": 1
+			},
+			"Cross an obstacle on the east side of the ~|Anachronia agility course|~": {
+				"Objects": ["EastAnachroniaObstacle[+]"],
+				"Level": 85,
+				"Primary": true,
+				"Priority": 2
+			},
+			"Complete section D of the ~|Anachronia agility course|~": {
+				"Chunks": ["16706-1", "16706-2", "16707-1", "16707-7", "16707-8", "16708-2", "16708-4", "16963-1", "16963-2"],
+				"Level": 85,
+				"Primary": true,
+				"Output": "AnachroniaCourse",
+				"Priority": 3
+			},
+			"Complete the whole ~|Anachronia agility course|~": {
+				"Chunks": ["15426-1", "15426-2", "15426-3", "15427-2", "15427-3", "15681-2", "15682-2", "15682-3", "15683-1", "15683-2", "15683-3", "15684", "15936", "15937-1", "15937-2", "15941", "16192-1", "16193-1", "16193-3", "16193-5", "16194-1", "16194-2", "16194-4", "16197-1", "16450-1", "16450-2", "16450-3", "16450-5", "16453-2", "16453-3", "16706-1", "16706-2", "16707-1", "16707-7", "16707-8", "16708-2", "16708-3", "16708-4", "16963-1", "16963-2"],
+				"Level": 85,
+				"Primary": true,
+				"Output": "Codex page",
+				"Priority": 4
+			},
+			"Squeeze through a ~|crevice (Asuran Arsenal)|~": {
+				"Category": ["Shortcut"],
+				"Objects": ["Crevice (Asuran Arsenal)"],
+				"Level": 85,
+				"Primary": true,
+				"Priority": 5,
+				"NoPet": true
+			},
+			"Barehand catch a ~|snowy knight|~": {
+				"NPCs": ["Snowy knight"],
+				"Level": 85,
+				"Skills": {
+					"Hunter": 90
+				},
+				"Output": "SnowyKnight",
+				"Primary": true,
+				"Priority": 5,
+				"NoPet": true
+			},
+			"Pickpocket a ~|watchman|~ for quadruple loot": {
+				"Category": ["Multiple Agility"],
+				"Level": 85,
+				"Monsters": ["Watchman"],
+				"Skills": {
+					"Thieving": 95
+				},
+				"Output": "Watchman",
+				"Primary": false,
+				"Priority": 1000,
+				"NoPet": true
+			},
+			"Pickpocket a ~|Menaphite thug|~ for quadruple loot": {
+				"Category": ["Multiple Agility"],
+				"Level": 85,
+				"Items": ["Blackjack[+]"],
+				"Monsters": ["Menaphite thug"],
+				"Skills": {
+					"Thieving": 95
+				},
+				"Output": "Coins",
+				"Primary": false,
+				"Priority": 1001,
 				"NoPet": true
 			},
 			"Cross the ~|low wall (Kuradal's Dungeon)|~": {
@@ -1591,6 +1589,16 @@
 				"Primary": true,
 				"Priority": 1,
 				"NoPet": true
+			},
+			"Complete a lap of the ~|advanced barbarian outpost agility course|~": {
+				"Chunks": ["10039"],
+				"Tasks": {
+					"~|Bar Crawl (miniquest)|~ Complete the miniquest": "Quest"
+				},
+				"Level": 90,
+				"Output": "Agile top",
+				"Primary": true,
+				"Priority": 1
 			},
 			"Cross the ~|gap (Kuradal's Dungeon)|~": {
 				"Category": ["Shortcut"],
@@ -1608,227 +1616,6 @@
 				"Priority": 3,
 				"NoPet": true
 			},
-			"Cross the ~|low wall (Port Phasmatys)|~": {
-				"Category": ["Shortcut"],
-				"Objects": ["Low wall (Port Phasmatys)"],
-				"Level": 92,
-				"Primary": false,
-				"Tasks": {
-					"~|Ghosts Ahoy|~ Complete the quest": "Quest"
-				},
-				"Priority": 1,
-				"NoPet": true
-			},
-			"Cross the ~|crevice (Gemstone cavern)|~": {
-				"Category": ["Shortcut"],
-				"Chunks": ["Gemstone cavern"],
-				"Level": 94,
-				"Primary": false,
-				"Priority": 1,
-				"NoPet": true
-			},
-			"Wield a ~|crystal bow|~": {
-				"Items": ["Crystal bow"],
-				"Level": 50,
-				"Primary": false,
-				"Skills": {
-					"Ranged": 70
-				},
-				"Priority": 4,
-				"NoPet": true
-			},
-			"Wield a ~|crystal chakram|~": {
-				"Items": ["Crystal chakram"],
-				"Level": 50,
-				"Primary": false,
-				"Skills": {
-					"Ranged": 70
-				},
-				"Priority": 5,
-				"NoPet": true
-			},
-			"Wield an ~|off-hand crystal chakram|~": {
-				"Items": ["Off-hand crystal chakram"],
-				"Level": 50,
-				"Primary": false,
-				"Skills": {
-					"Ranged": 70
-				},
-				"Priority": 6,
-				"NoPet": true
-			},
-			"Wield an ~|attuned crystal deflector|~": {
-				"Items": ["Attuned crystal deflector"],
-				"Level": 50,
-				"Primary": false,
-				"Skills": {
-					"Ranged": 80
-				},
-				"Priority": 7,
-				"NoPet": true
-			},
-			"Wield an ~|attuned crystal chakram|~": {
-				"Items": ["Attuned crystal chakram"],
-				"Level": 50,
-				"Primary": false,
-				"Skills": {
-					"Ranged": 80
-				},
-				"Priority": 8,
-				"NoPet": true
-			},
-			"Wield an ~|off-hand attuned crystal chakram|~": {
-				"Items": ["Off-hand attuned crystal chakram"],
-				"Level": 50,
-				"Primary": false,
-				"Skills": {
-					"Ranged": 80
-				},
-				"Priority": 9,
-				"NoPet": true
-			},
-			"Unlock ~|the tengu|~ in the player-owned port": {
-				"Category": ["PortSkills"],
-				"Chunks": ["Player-Owned Port"],
-				"Level": 90,
-				"Primary": false,
-				"Priority": 4,
-				"NoBoost": true,
-				"NoPet": true
-			},
-			"Wield a ~|crystal staff|~": {
-				"Items": ["Crystal staff"],
-				"Level": 50,
-				"Primary": true,
-				"Skills": {
-					"Magic": 70
-				},
-				"Priority": 10,
-				"NoPet": true
-			},
-			"Wield a ~|crystal wand|~": {
-				"Items": ["Crystal wand"],
-				"Level": 50,
-				"Primary": true,
-				"Skills": {
-					"Magic": 70
-				},
-				"Priority": 11,
-				"NoPet": true
-			},
-			"Wield a ~|crystal orb|~": {
-				"Items": ["Crystal orb"],
-				"Level": 50,
-				"Primary": true,
-				"Skills": {
-					"Magic": 70
-				},
-				"Priority": 12,
-				"NoPet": true
-			},
-			"Wield an ~|attuned crystal staff|~": {
-				"Items": ["Attuned crystal staff"],
-				"Level": 50,
-				"Primary": true,
-				"Skills": {
-					"Magic": 80
-				},
-				"Priority": 13,
-				"NoPet": true
-			},
-			"Wield an ~|attuned crystal wand|~": {
-				"Items": ["Attuned crystal wand"],
-				"Level": 50,
-				"Primary": true,
-				"Skills": {
-					"Magic": 80
-				},
-				"Priority": 14,
-				"NoPet": true
-			},
-			"Wield an ~|attuned crystal orb|~": {
-				"Items": ["Attuned crystal orb"],
-				"Level": 50,
-				"Primary": true,
-				"Skills": {
-					"Magic": 80
-				},
-				"Priority": 15,
-				"NoPet": true
-			},
-			"Wield an ~|attuned crystal weapon|~": {
-				"Items": ["AttunedCrystalWeapon[+]"],
-				"Level": 50,
-				"Skills": {
-					"Attack": 80
-				},
-				"Primary": false,
-				"Priority": 16,
-				"NoPet": true
-			},
-			"Wield a ~|crystal weapon|~": {
-				"Items": ["CrystalWeapon[+]"],
-				"Level": 50,
-				"Skills": {
-					"Attack": 70
-				},
-				"Primary": false,
-				"Priority": 17,
-				"NoPet": true
-			},
-			"Wield one of the ~|crystal shields|~": {
-				"Items": ["CrystalShield[+]"],
-				"Level": 50,
-				"Skills": {
-					"Defence": 70
-				},
-				"Primary": false,
-				"Priority": 18,
-				"NoPet": true
-			},
-			"Wield one of the ~|attuned crystal shields|~": {
-				"Items": ["AttunedCrystalShield[+]"],
-				"Level": 50,
-				"Skills": {
-					"Defence": 80
-				},
-				"Primary": false,
-				"Priority": 19,
-				"NoPet": true
-			},
-			"Buy the ~|Agility cape|~": {
-				"Category": ["Skillcape"],
-				"NPCs": ["Cap'n Izzy No-Beard"],
-				"Level": 99,
-				"Output": "Agility cape",
-				"Primary": false,
-				"Priority": 3,
-				"NoBoost": true,
-				"NoPet": true,
-				"Not F2P": true
-			},
-			"Buy the ~|Agility master cape|~": {
-				"Category": ["Master skillcape"],
-				"NPCs": ["Cap'n Izzy No-Beard"],
-				"Level": 120,
-				"Output": "Agility master cape",
-				"Primary": false,
-				"Priority": 3,
-				"NoBoost": true,
-				"NoPet": true,
-				"Not F2P": true
-			},
-			"Catch a ~|charming moth|~": {
-				"NPCs": ["Charming moth"],
-				"Level": 83,
-				"Skills": {
-					"Hunter": 88
-				},
-				"Output": "CharmingMoth",
-				"Primary": true,
-				"Priority": 1,
-				"NoPet": true
-			},
 			"Barehand catch a ~|black warlock|~ in the Feldip Hills": {
 				"NPCs": ["Black warlock"],
 				"Level": 90,
@@ -1837,7 +1624,7 @@
 				},
 				"Output": "BlackWarlock",
 				"Primary": true,
-				"Priority": 5,
+				"Priority": 4,
 				"NoPet": true
 			},
 			"Barehand catch a ~|black warlock|~ on Anachronia": {
@@ -1851,55 +1638,13 @@
 				"Priority": 6,
 				"NoPet": true
 			},
-			"Grow a ~|barberry bush|~": {
-				"Items": ["Barberry seed"],
-				"Objects": ["Bush patch"],
-				"Level": 1,
-				"Skills": {
-					"Farming": 77
-				},
-				"Primary": true,
-				"Priority": 7,
-				"NoPet": true
-			},
-			"Eggsperiment with ~|accidental fletching and firemaking|~": {
-				"Category": ["Token"],
-				"Chunks": ["14915-1"],
-				"Level": 1,
-				"Skills": {
-					"Firemaking": 95
-				},
-				"Output": "Dinosaur 'propellant'",
-				"Primary": true,
-				"priority": 8,
-				"NoPet": true
-			},
-			"Enter a tier one ~|Shifting Tombs|~": {
-				"Chunks": ["Shifting Tombs"],
-				"Level": 50,
-				"Skills": {
-					"Dungeoneering": 50,
-					"Thieving": 50,
-					"Construction": 50
-				},
-				"Primary": true,
-				"Priority": 20,
-				"NoPet": true
-			},
-			"Enter a tier two ~|Shifting Tombs|~": {
-				"Chunks": ["Shifting Tombs"],
-				"Level": 70,
-				"Skills": {
-					"Dungeoneering": 70,
-					"Thieving": 70,
-					"Construction": 70,
-					"Crafting": 70,
-					"Runecrafting": 70,
-					"Prayer": 70,
-					"Divination": 70
-				},
+			"Unlock ~|the tengu|~ in the player-owned port": {
+				"Category": ["PortSkills"],
+				"Chunks": ["Player-Owned Port"],
+				"Level": 90,
 				"Primary": false,
-				"Priority": 6,
+				"Priority": 1000,
+				"NoBoost": true,
 				"NoPet": true
 			},
 			"Enter a tier three ~|Shifting Tombs|~": {
@@ -1915,60 +1660,50 @@
 					"Divination": 90
 				},
 				"Primary": false,
-				"Priority": 7,
+				"Priority": 1001,
 				"NoPet": true
 			},
-			"Cross the ~|bridge (Nature Grotto)|~": {
-				"Category": ["Shortcut", "Token"],
-				"Objects": ["Bridge (Nature Grotto)"],
-				"Level": 1,
-				"Primary": true,
-				"Priority": 9,
-				"NoPet": true
-			},
-			"Jump a ~|low wall (Asuran Arsenal)|~": {
-				"Category": ["Shortcut"],
-				"Objects": ["Low wall (Asuran Arsenal)"],
-				"Level": 1,
-				"Primary": true,
-				"Priority": 10,
-				"NoPet": true
-			},
-			"Feed a ~|starved ancient effigy|~ with agility": {
-				"Items": ["Starved ancient effigy (agility/crafting)"],
-				"Level": 91,
+			"Pickpocket a ~|hero|~ for triple loot": {
+				"Category": ["Multiple Agility"],
+				"Level": 90,
+				"Monsters": ["Hero"],
+				"Skills": {
+					"Thieving": 100
+				},
+				"Output": "Hero",
 				"Primary": false,
-				"Priority": 1,
+				"Priority": 1002,
 				"NoPet": true
 			},
-			"Feed a ~|nourished ancient effigy|~ with agility": {
-				"Items": ["Nourished ancient effigy (agility/crafting)"],
-				"Level": 93,
+			"Pickpocket a ~|paladin|~ for quadruple loot": {
+				"Category": ["Multiple Agility"],
+				"Level": 90,
+				"Monsters": ["Paladin"],
+				"Skills": {
+					"Thieving": 100
+				},
+				"Output": "Paladin",
 				"Primary": false,
-				"Priority": 1,
+				"Priority": 1003,
 				"NoPet": true
 			},
-			"Feed a ~|sated ancient effigy|~ with agility": {
-				"Items": ["Sated ancient effigy (agility/crafting)"],
-				"Level": 95,
+			"Pickpocket a ~|trader|~ for double loot": {
+				"Category": ["Multiple Agility"],
+				"Level": 90,
+				"NPCs": ["Trader"],
+				"Skills": {
+					"Thieving": 100
+				},
+				"Output": "Trader",
 				"Primary": false,
-				"Priority": 1,
-				"NoPet": true
+				"Priority": 1004
 			},
-			"Feed a ~|gorged ancient effigy|~ with agility": {
-				"Items": ["Gorged ancient effigy (agility/crafting)"],
-				"Level": 97,
+			"Build the third tier of the spa in your ~|Anachronia base camp|~": {
+				"Chunks": ["15939-1"],
+				"Items": ["Essential oils*"],
+				"Level": 90,
 				"Primary": false,
-				"Priority": 100,
-				"NoPet": true
-			},
-			"Swing across a ~|railing (Asuran Arsenal)|~": {
-				"Category": ["Shortcut"],
-				"Objects": ["Railing (Asuran Arsenal)"],
-				"Level": 97,
-				"Primary": true,
-				"Priority": 1,
-				"NoPet": true
+				"Priority": 1007
 			},
 			"Make a ~|Milestone cape (90)|~": {
 				"Category": ["Skillcape"],
@@ -2006,10 +1741,154 @@
 					"Thieving": 90,
 					"Woodcutting": 90
 				},
-				"Priority": 8,
+				"Priority": 1008,
 				"NoBoost": true,
 				"NoPet": true,
 				"Not F2P": true
+			},
+			"Feed a ~|starved ancient effigy|~ with agility": {
+				"Items": ["Starved ancient effigy (agility/crafting)"],
+				"Level": 91,
+				"Primary": false,
+				"Priority": 1000,
+				"NoPet": true
+			},
+			"Cross the ~|low wall (Port Phasmatys)|~": {
+				"Category": ["Shortcut"],
+				"Objects": ["Low wall (Port Phasmatys)"],
+				"Level": 92,
+				"Primary": false,
+				"Tasks": {
+					"~|Ghosts Ahoy|~ Complete the quest": "Quest"
+				},
+				"Priority": 1,
+				"NoPet": true
+			},
+			"Pickpocket a ~|Crux Eqal Knight|~ for triple loot": {
+				"Category": ["Multiple Agility"],
+				"Level": 93,
+				"NPCs": ["Crux Eqal Knight"],
+				"Skills": {
+					"Thieving": 103
+				},
+				"Primary": false,
+				"Priority": 8,
+				"NoPet": true
+			},
+			"Feed a ~|nourished ancient effigy|~ with agility": {
+				"Items": ["Nourished ancient effigy (agility/crafting)"],
+				"Level": 93,
+				"Primary": false,
+				"Priority": 1,
+				"NoPet": true
+			},
+			"Cross the ~|crevice (Gemstone cavern)|~": {
+				"Category": ["Shortcut"],
+				"Chunks": ["Gemstone cavern"],
+				"Level": 94,
+				"Primary": false,
+				"Priority": 1,
+				"NoPet": true
+			},
+			"Catch multiple ~|crimson skillchompas|~ in one trap": {
+				"Category": ["Multiple Agility"],
+				"Level": 94,
+				"Monsters": ["Crimson skillchompa"],
+				"Output": "Crimson skillchompa",
+				"Skills": {
+					"Hunter": 89
+				},
+				"Primary": false,
+				"Priority": 1000,
+				"NoPet": true
+			},
+			"Feed a ~|sated ancient effigy|~ with agility": {
+				"Items": ["Sated ancient effigy (agility/crafting)"],
+				"Level": 95,
+				"Primary": false,
+				"Priority": 1,
+				"NoPet": true
+			},
+			"Pickpocket a ~|gnome|~ for quadruple loot": {
+				"Category": ["Multiple Agility"],
+				"Level": 95,
+				"Monsters": ["Gnome[+]"],
+				"Skills": {
+					"Thieving": 105
+				},
+				"Primary": false,
+				"Priority": 8,
+				"NoPet": true
+			},
+			"Pickpocket an ~|elf|~ for triple loot": {
+				"Category": ["Multiple Agility"],
+				"Level": 95,
+				"NPCs": ["Elf"],
+				"Skills": {
+					"Thieving": 105
+				},
+				"Primary": false,
+				"Priority": 9,
+				"NoPet": true
+			},
+			"Rummage a ~|dead legionary|~ for double loot": {
+				"Category": ["Multiple Agility"],
+				"Level": 95,
+				"Chunks": ["Vault of Hereditas"],
+				"Skills": {
+					"Thieving": 105
+				},
+				"Primary": false,
+				"Priority": 10,
+				"NoPet": true
+			},
+			"Swing across a ~|railing (Asuran Arsenal)|~": {
+				"Category": ["Shortcut"],
+				"Objects": ["Railing (Asuran Arsenal)"],
+				"Level": 97,
+				"Primary": true,
+				"Priority": 1,
+				"NoPet": true
+			},
+			"Feed a ~|gorged ancient effigy|~ with agility": {
+				"Items": ["Gorged ancient effigy (agility/crafting)"],
+				"Level": 97,
+				"Primary": false,
+				"Priority": 100,
+				"NoPet": true
+			},
+			"Pickpocket an ~|archaeologist|~ for quadruple loot": {
+				"Category": ["Multiple Agility"],
+				"Level": 98,
+				"NPCs": ["Archaeologist[+]"],
+				"Skills": {
+					"Thieving": 108
+				},
+				"Primary": false,
+				"Priority": 1001
+			},
+			"Buy the ~|Agility cape|~": {
+				"Category": ["Skillcape"],
+				"NPCs": ["Cap'n Izzy No-Beard"],
+				"Level": 99,
+				"Output": "Agility cape",
+				"Primary": false,
+				"Priority": 1,
+				"NoBoost": true,
+				"NoPet": true,
+				"Not F2P": true
+			},
+			"Catch multiple ~|crystal skillchompas|~ in one trap": {
+				"Category": ["Multiple Agility"],
+				"Level": 99,
+				"Monsters": ["Crystal skillchompa"],
+				"Output": "Crystal skillchompa",
+				"Skills": {
+					"Hunter": 97
+				},
+				"Primary": false,
+				"Priority": 1000,
+				"NoPet": true
 			},
 			"Pickpocket a ~|hero|~ for quadruple loot": {
 				"Category": ["Multiple Agility"],
@@ -2020,8 +1899,118 @@
 				},
 				"Output": "Hero",
 				"Primary": false,
-				"Priority": 100,
+				"Priority": 1000,
 				"NoPet": true
+			},
+			"Pickpocket a ~|trader|~ for triple loot": {
+				"Category": ["Multiple Agility"],
+				"Level": 100,
+				"NPCs": ["Trader"],
+				"Skills": {
+					"Thieving": 110
+				},
+				"Output": "Trader",
+				"Primary": false,
+				"Priority": 1001
+			},
+			"Pickpocket a ~|vyrewatch tither|~ for double loot": {
+				"Category": ["Multiple Agility"],
+				"Level": 100,
+				"NPCs": ["Vyrewatch tither"],
+				"Skills": {
+					"Thieving": 110
+				},
+				"Output": "Vyrewatch tither",
+				"Primary": false,
+				"Priority": 1002
+			},
+			"Pickpocket a ~|goebie scavenger|~ for double loot": {
+				"Category": ["Multiple Agility"],
+				"Level": 102,
+				"NPCs": ["Goebie scavenger"],
+				"Skills": {
+					"Thieving": 112
+				},
+				"Output": "Goebie scavenger",
+				"Primary": false,
+				"Priority": 1002
+			},
+			"Pickpocket a ~|Crux Eqal Knight|~ for quadruple loot": {
+				"Category": ["Multiple Agility"],
+				"Level": 103,
+				"NPCs": ["Crux Eqal Knight"],
+				"Skills": {
+					"Thieving": 113
+				},
+				"Primary": false,
+				"Priority": 1000,
+				"NoPet": true
+			},
+			"Pickpocket a ~|Menaphos market guard|~ for double loot": {
+				"Category": ["Multiple Agility"],
+				"Level": 104,
+				"NPCs": ["Menaphos market guard"],
+				"Skills": {
+					"Thieving": 114
+				},
+				"Output": "Menaphos market guard",
+				"Primary": false,
+				"Priority": 1002
+			},
+			"Pickpocket an ~|elf|~ for quadrple loot": {
+				"Category": ["Multiple Agility"],
+				"Level": 105,
+				"NPCs": ["Elf"],
+				"Skills": {
+					"Thieving": 115
+				},
+				"Primary": false,
+				"Priority": 1000,
+				"NoPet": true
+			},
+			"Rummage a ~|dead legionary|~ for triple loot": {
+				"Category": ["Multiple Agility"],
+				"Level": 105,
+				"Chunks": ["Vault of Hereditas"],
+				"Skills": {
+					"Thieving": 115
+				},
+				"Primary": false,
+				"Priority": 10,
+				"NoPet": true
+			},
+			"Pickpocket a ~|trader|~ for quadruple loot": {
+				"Category": ["Multiple Agility"],
+				"Level": 110,
+				"NPCs": ["Trader"],
+				"Skills": {
+					"Thieving": 120
+				},
+				"Output": "Trader",
+				"Primary": false,
+				"Priority": 1001
+			},
+			"Pickpocket a ~|vyrewatch tither|~ for triple loot": {
+				"Category": ["Multiple Agility"],
+				"Level": 110,
+				"NPCs": ["Vyrewatch tither"],
+				"Skills": {
+					"Thieving": 120
+				},
+				"Output": "Vyrewatch tither",
+				"Primary": false,
+				"Priority": 1002
+			},
+			"Buy the ~|Agility master cape|~": {
+				"Category": ["Master skillcape"],
+				"NPCs": ["Cap'n Izzy No-Beard"],
+				"Level": 120,
+				"Output": "Agility master cape",
+				"Primary": false,
+				"Priority": 3,
+				"NoBoost": true,
+				"NoPet": true,
+				"Not F2P": true
 			}
 		},
 		"Archaeology": {
@@ -68263,25 +68252,15 @@
 				"Primary": true,
 				"Priority": 2
 			},
-			"Pickpocket a ~|man|~ for quadruple loot": {
+			"Pickpocket a ~|citizen|~ for quadruple loot": {
 				"Category": ["Multiple Agility"],
 				"Level": 31,
-				"Monsters": ["Man"],
+				"Mix": ["Citizen[+]"],
 				"Skills": {
 					"Agility": 21
 				},
 				"Primary": false,
 				"Priority": 1000
-			},
-			"Pickpocket a ~|woman|~ for quadruple loot": {
-				"Category": ["Multiple Agility"],
-				"Level": 31,
-				"Monsters": ["Woman"],
-				"Skills": {
-					"Agility": 21
-				},
-				"Primary": false,
-				"Priority": 1001
 			},
 			"Pickpocket a ~|rogue|~": {
 				"Level": 32,
