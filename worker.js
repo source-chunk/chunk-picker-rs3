@@ -220,7 +220,7 @@ let highestSkillLevels = {
     "Magic": 120,
     "Farming": 120,
     "Herblore": 120,
-    "Hunter": 99,
+    "Hunter": 110,
     "Cooking": 99,
     "Woodcutting": 110,
     "Firemaking": 110,

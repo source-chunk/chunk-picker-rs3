@@ -391,7 +391,7 @@
 			"Pickpocket a ~|farmer|~ for quadruple loot": {
 				"Category": ["Multiple Agility"],
 				"Level": 30,
-				"Monsters": ["Farmer"],
+				"Mix": ["Farmer[+]"],
 				"Skills": {
 					"Thieving": 40
 				},
@@ -68023,7 +68023,7 @@
 			},
 			"Pickpocket a ~|farmer|~": {
 				"Level": 10,
-				"Monsters": ["Farmer"],
+				"Mix": ["Farmer[+]"],
 				"Output": "Farmer",
 				"Primary": true,
 				"Priority": 2
@@ -68033,7 +68033,7 @@
 				"Tasks": {
 					"~|Lost Her Marbles (miniquest)|~ Complete the miniquest": "Quest"
 				},
-				"Monsters": ["Farmer"],
+				"Mix": ["Farmer[+]"],
 				"Output": "Farmer (lhm)",
 				"Primary": true,
 				"Priority": 1
@@ -68335,7 +68335,7 @@
 			"Pickpocket a ~|farmer|~ for quadruple loot": {
 				"Category": ["Multiple Agility"],
 				"Level": 40,
-				"Monsters": ["Farmer"],
+				"Mix": ["Farmer[+]"],
 				"Skills": {
 					"Agility": 30
 				},
@@ -69897,7 +69897,7 @@
 			},	
 			"Cut ~|choking ivy|~": {
 				"Level": 68,
-				"Objects": ["Ivy"],
+				"Objects": ["Choking ivy"],
 				"Primary": true,
 				"Priority": 1,
 				"Not F2P": true
@@ -120380,7 +120380,7 @@
 				"Category": ["MQC achievements"],
 				"Description": "Complete all quests to obtain the quest cape.",
 				"BaseQuest": "Completionist achievements",
-				"QuestPointsNeeded": 465,
+				"QuestPointsNeeded": 469,
 				"Tasks": {
 					"~|Aftermath|~ Complete the quest": "Quest",
 					"~|Battle of the Monolith|~ Complete the quest": "Quest",
@@ -122440,7 +122440,7 @@
 				"Category": ["Comp achievements", "Skillcape"],
 				"Description": "Increase all skills to mastery level.",
 				"BaseQuest": "Completionist achievements",
-				"TotalLevelNeeded": 3200,
+				"TotalLevelNeeded": 3211,
 				"NoBoost": true,
 				"Not F2P": true
 			},
@@ -122473,7 +122473,7 @@
 				"Category": ["Comp achievements"],
 				"Description": "Unlock all music tracks.",
 				"BaseQuest": "Completionist achievements",
-				"QuestPointsNeeded": 465,
+				"QuestPointsNeeded": 469,
 				"Tasks": {
 					"~|Completionist achievements#Completionist Cape|~ Mysteries - Stormguard Citadel": "Diary",
 					"~|Completionist achievements#Completionist Cape|~ Mysteries - Warforge": "Diary",
@@ -122620,7 +122620,7 @@
 				"Category": ["Comp achievements"],
 				"Description": "Complete all quests to obtain the quest cape.",
 				"BaseQuest": "Completionist achievements",
-				"QuestPointsNeeded": 465,
+				"QuestPointsNeeded": 469,
 				"Tasks": {
 					"~|Aftermath|~ Complete the quest": "Quest",
 					"~|Battle of the Monolith|~ Complete the quest": "Quest",
@@ -142222,7 +142222,7 @@
 					"Constitution": 70,
 					"Strength": 70
 				},
-				"QuestPointsNeeded": 465,
+				"QuestPointsNeeded": 469,
 				"Tasks": {
 					"~|Plague's End|~ Complete the quest": "Quest",
 					"~|As a First Resort|~ Complete the quest": "Quest",
@@ -142336,7 +142336,7 @@
 					"~|Fate of the Gods|~ Complete the quest": "Quest",
 					"~|A Fairy Tale II - Cure a Queen|~ 2": "Quest"
 				},
-				"QuestPointsNeeded": 465
+				"QuestPointsNeeded": 469
 			},
 			"Obtain the ~|the Meandering|~ title": {
 				"Category": ["Titles"],
@@ -169304,7 +169304,7 @@
 						"Spinning wheel": 1,
 						"Water pool": 1,
 						"Meilyr": 2,
-						"Ivy": 9,
+						"Choking ivy": 9,
 						"Herb patch": 1,
 						"Bush patch": 1,
 						"Elder tree patch": 1,
@@ -170706,7 +170706,7 @@
 			"Object": {
 				"Tree": 31,
 				"Achey Tree": 28,
-				"Ivy": 7,
+				"Choking ivy": 7,
 				"Evil tree": 1
 			},
 			"NPC": {
@@ -174290,7 +174290,7 @@
 						"Inventor's workbench": 2,
 						"Anvil": 2,
 						"Forge": 2,
-						"Ivy": 6,
+						"Choking ivy": 6,
 						"Hops patch": 1,
 						"Evil tree": 1,
 						"Crashed star": 1,
@@ -174493,7 +174493,7 @@
 				"Philipe's painting set": 1,
 				"Inventor's workbench": 2,
 				"Furnace": 1,
-				"Ivy": 5
+				"Choking ivy": 5
 			},
 			"Monster": {
 				"Warrior woman": 3,
@@ -180869,7 +180869,7 @@
 				"Hopper controls": 1,
 				"Water barrel": 1,
 				"Stepping stone": 2,
-				"Ivy": 5,
+				"Choking ivy": 5,
 				"Crashed star": 1
 			},
 			"NPC": {
@@ -183177,7 +183177,7 @@
 						"Stile": 2,
 						"Dairy churn": 1,
 						"Elder tree": 1,
-						"Ivy": 7,
+						"Choking ivy": 7,
 						"Allotment": 2,
 						"Flower patch": 1,
 						"Herb patch": 1
@@ -183341,7 +183341,7 @@
 						"Tree": 7,
 						"Evergreen": 37,
 						"Anniversary tree": 1,
-						"Ivy": 7
+						"Choking ivy": 7
 					},
 					"Monster": {
 						"Dwarf": 8,
@@ -187374,7 +187374,7 @@
 				"Crate": 1,
 				"Bank chest": 1,
 				"Lift": 1,
-				"Ivy": 9,
+				"Choking ivy": 9,
 				"Tree patch": 1,
 				"Evil tree": 1
 			},
@@ -212608,11 +212608,11 @@
 				"Tali's journal": 1
 			},
 			"Shop": {
-				"Furs": true,
+				"Furs (Shop)": true,
 				"Old Meats": true,
 				"Trappy Stuff": true,
 				"Odd's Sods": true,
-				"Tools": true
+				"Tools (Shop)": true
 			}
 		}
 	},
@@ -220134,7 +220134,7 @@
 			"Phasmatite rock[+]": ["Phasmatite rock", "Phasmatite vein"],
 			"SnowPile[+]": ["Snow pile", "Snow drift"],
 			"Tier1Grove[+]": ["Tree", "Oak"],
-			"Tier2Grove[+]": ["Willow", "Yew", "Ivy"],
+			"Tier2Grove[+]": ["Willow", "Yew", "Choking ivy"],
 			"Tier3Grove[+]": ["Elder tree"],
 			"RangersWorkroom[+]": ["Spinning wheel", "Fletching workbench"],
 			"Tier1Workshop[+]": ["Furnace", "Anvil", "Forge"],
@@ -220227,6 +220227,7 @@
 				"Kezalam, Devourer Eternal"
 			],
 			"Dagannoth[+]": ["Dagannoth (Lighthouse)", "Dagannoth fledgling", "Dagannoth spawn", "Dagannoth#Ranged", "Dagannoth#Melee"],
+			"Farmer[+]": ["Farmer", "Farmer (Marigold Farm)", "Farmer Sharon", "Farmer Rachel"],
 			"GhostOrZombie[+]": ["Ghost", "Zombie"],
 			"Gnome[+]": ["Gnome", "Gnome woman", "Gnome child"],
 			"Guard[+]": ["Port Sarim guard", "Guard (Varrock)", "Guard (Ardougne)", "Guard (Edgeville)", "Guard (Falador)"],
@@ -220633,6 +220634,7 @@
 			"BlackKnightMonsters[+]": "Any monster that gives white knight ranking",
 			"Citizen[+]": "Any pickpocketable citizen",
 			"Corrupted devourers": "Any corrupted creature or soul devourer",
+			"Farmer[+]": "Any pickpocketable farmer",
 			"Dagannoth[+]": "Any dagannoth that can be killed for the Axe'll Grease achievement",
 			"GhostOrZombie[+]": "Any ghost or zombie",
 			"Gnome[+]": "Any pickpocketable gnome",
@@ -220715,10 +220717,12 @@
 				"Woman (Lumbridge Market)",
 				"Villager (Wendlewick)"
 			],
+			"Farmer[+]": ["Farmer", "Farmer (Marigold Farm)", "Farmer Sharon", "Farmer Rachel"],
 			"HAMMember[+]": ["H.A.M. Member", "Guard (H.A.M.)"]
 		},
 		"mixPlusNames": {
 			"Citizen[+]": "Any pickpocketable citizen",
+			"Farmer[+]": "Any pickpocketable farmer",
 			"HAMMember[+]": "Anything that counts as a H.A.M. Member for 'Lost My Marbles'"
 		},
 		"npcsPlus": {
@@ -220753,16 +220757,17 @@
 				"Villager (Wendlewick)"
 			],
 			"Dyer[+]": ["Aggie", "Rana the dyer"],
+			"Farmer[+]": ["Farmer", "Farmer (Marigold Farm)", "Farmer Sharon", "Farmer Rachel"],
 			"Gecko[+]": ["Gecko", "Baby gecko"],
 			"GodEmissaries[+]": ["Endwyr, Emissary of Seren", "Hannu, Emissary of V", "Holstein, Emissary of the Godless", "Julienne, Emissary of Saradomin", "Moldark, Emissary of Zamorak", "Murknose, Emissary of Bandos", "Relomia, Emissary of Sliske", "Soran, Emissary of Zaros", "Taw'Paak, Emissary of Armadyl"],
 			"HAMMember[+]": ["H.A.M. Member", "H.A.M. Member"],
 			"HetCrocodile[+]": ["Chito", "Frito"],
-			"Master Farmer[+]": ["Master Farmer", "Martin the Master Gardener"],
+			"Master Farmer[+]": ["Master Farmer", "Martin the Master Gardener", "Master Farmer David", "Master Farmer Lilah"],
 			"WildernessCapeSellers[+]": ["William", "Darren", "Edmond (cape merchant)", "Ian (cape merchant)", "Neil", "Sam (cape merchant)", "Simon"],
 			"Salty crablet[+]": ["Salty crablet", "Salty crabletine"],
 			"SawmillOperator[+]": ["Sawmill operator (Prifddinas)", "Plank maker"],
 			"StrengthMaster[+]": ["Sloane", "Yadech Strongarm"],
-			"Tanner[+]": ["Tanner", "Ellis", "Sbott", "Tanya Hyde", "Leatherworker"],
+			"Tanner[+]": ["Tanner", "Ellis", "Sbott", "Tanya Hyde", "Leatherworker", "Reuben"],
 			"Tool leprechaun[+]": ["Tool leprechaun", "Tool leprechaun (Herblore Habitat)", "Hemlock", "Nhitpyx"],
 			"Trainee archaeologist[+]": [
 				"Trainee archaeologist#Archaeology Campus",
@@ -220784,6 +220789,7 @@
 			"Archaeologist[+]": "A pickpocketable archaeologist at any dig site",
 			"Citizen[+]": "Any pickpocketable citizen",
 			"Dyer[+]": "Access to either Rana or Aggie",
+			"Farmer[+]": "Any pickpocketable farmer",
 			"Gecko[+]": "Any catchable gecko pet",
 			"GodEmissaries[+]": "Any God Emissary",
 			"HAMMember[+]": "Anything that counts as a H.A.M. Member for 'Lost My Marbles'",
@@ -283506,6 +283512,18 @@
 			"Batwing book": true,
 			"Batwing shield": true
 		},
+		"The Birds and the Bees": {
+			"Honeycomb": true,
+			"Insect repellent": true,
+			"Bucket": true,
+			"Bird snare": true,
+			"Rabbit snare": true,
+			"Teasing stick": true,
+			"Clockwork": true,
+			"Logs": true,
+			"Chisel": true,
+			"Hammer": true
+		},
 		"Blades by Urbi": {
 			"Bronze dagger": true,
 			"Bronze off hand dagger": true,
@@ -283629,6 +283647,11 @@
 			"Mithril off hand battleaxe": true,
 			"Adamant battleaxe": true,
 			"Adamant off hand battleaxe": true
+		},
+		"Burnt Lobster Tavern": {
+			"Beer": true,
+			"Wendlewick ale": true,
+			"Mead": true
 		},
 		"Buried Bargains": {
 			"Death guard (tier 10)": true,
@@ -284589,6 +284612,15 @@
 			"Feather": true,
 			"Feather pack": true
 		},
+		"Fishing Shop": {
+			"Small fishing net": true,
+			"Fishing rod": true,
+			"Harpoon": true,
+			"Lobster pot": true,
+			"Fishing bait": true,
+			"Feather": true,
+			"Big fishing net": true
+		},
 		"Flosi's Fishmongers": {
 			"Raw salmon": true,
 			"Raw cod": true
@@ -284723,6 +284755,10 @@
 			"Knife": true,
 			"Cocktail guide": true,
 			"Cocktail glass": true
+		},
+		"Furs (Shop)": {
+			"Bear fur": true,
+			"Grey wolf fur": true
 		},
 		"Gabooty's Tai Bwo Wannai Cooperative": {
 			"Tribal top (brown)": true,
@@ -285518,6 +285554,17 @@
 			"Cocktail glass": true,
 			"Rock (ore)": true
 		},
+		"Lev's Baked Delights": {
+			"Bread": true,
+			"Roll": true,
+			"Triangle sandwich": true,
+			"Square sandwich": true,
+			"Rabbit sandwich": true,
+			"Cream tea": true,
+			"Chocolate cake": true,
+			"Slice of cake": true,
+			"Fish and chips": true
+		},
 		"Lletya Archery Shop": {
 			"Iron arrow": true,
 			"Steel arrow": true,
@@ -286161,6 +286208,22 @@
 		"Ocellus's Store": {
 			"Algarum thread": true
 		},
+		"Odd's Sods": {
+			"Needle": true,
+			"Thread": true,
+			"Empty pot": true,
+			"Bucket": true,
+			"Jug": true,
+			"Tinderbox": true,
+			"Chisel": true,
+			"Hammer": true,
+			"Knife": true,
+			"Burnt bread": true,
+			"Burnt bones": true,
+			"Burnt meat": true,
+			"Bones": true,
+			"Broken glass": true
+		},
 		"Off-hand longsword shop": {
 			"Bronze off hand longsword": true,
 			"Iron off hand longsword": true,
@@ -286172,6 +286235,20 @@
 			"Off-hand necronium longsword": true,
 			"Off-hand bane longsword": true,
 			"Off-hand elder rune longsword": true
+		},
+		"Old Meats": {
+			"Raw rabbit pack": true,
+			"Raw beef pack": true,
+			"Raw bird meat pack": true,
+			"Raw rabbit": true,
+			"Raw beef": true,
+			"Raw bird meat": true,
+			"Raw rat meat": true,
+			"Raw bear meat": true,
+			"Raw chicken": true,
+			"Cooked rabbit": true,
+			"Cooked meat": true,
+			"Cooked chicken": true
 		},
 		"Ore Store": {
 			"Copper ore": true,
@@ -287021,6 +287098,16 @@
 		"Shop of Distaste": {
 			"Rotten tomato": true
 		},
+		"Shrine of the Spirit Wolves": {
+			"Shaman's headdress": true,
+			"Shaman's poncho": true,
+			"Shaman's leggings": true,
+			"Shaman's moccasins": true,
+			"Shaman's hand wraps": true,
+			"Shaman's headdress add-on": true,
+			"Fang of Mohegan": true,
+			"'the Spirit Wolf' title": true
+		},
 		"Sigmund the Merchant (shop)": {
 			"Tinderbox": true,
 			"Rope": true,
@@ -287280,6 +287367,12 @@
 			"Pouch": true,
 			"Spirit shard pack": true
 		},
+		"Summoning Supplies (Pikkenflix)": {
+			"Spirit shards": true,
+			"Pouch": true,
+			"Spirit shard pack": true,
+			"Wolf bones": true
+		},
 		"Summoning Supplies (Wishing well)": {
 			"Antlers": true,
 			"Lizard skull": true,
@@ -287492,8 +287585,30 @@
 			"Onyx bolt tips": true,
 			"Ring of stone": true
 		},
+		"Tom's Trove": {
+			"Empty pot": true,
+			"Jug": true,
+			"Bucket": true,
+			"Bowl": true,
+			"Beer glass": true,
+			"Cake tin": true,
+			"Pie dish": true,
+			"Tinderbox": true,
+			"Chisel": true,
+			"Hammer": true,
+			"Knife": true,
+			"Shears": true
+		},
 		"Tony's Pizza Bases": {
 			"Pizza base": true
+		},
+		"Tools (Shop)": {
+			"Bones": true,
+			"Big bones": true,
+			"Burnt bones": true,
+			"Bar bones": true,
+			"Wolf bones": true,
+			"Dragon bones": true
 		},
 		"Torts R Us": {
 			"Tortle trap": true
@@ -287561,6 +287676,17 @@
 			"Raw chicken": true,
 			"Raw rat meat": true,
 			"Raw bear meat": true
+		},
+		"Trappy Stuff": {
+			"Butterfly net": true,
+			"Butterfly jar": true,
+			"Magic box": true,
+			"Noose wand": true,
+			"Bird snare": true,
+			"Box trap": true,
+			"Teasing stick": true,
+			"Unlit torch": true,
+			"Rabbit snare": true
 		},
 		"Tutab's Magical Market": {
 			"Fire rune": true,
@@ -287767,6 +287893,21 @@
 			"Adamant off hand warhammer": true,
 			"Dragon warhammer": true,
 			"Off-hand dragon warhammer": true
+		},
+		"The Village Grocery": {
+			"Cabbage": true,
+			"Onion": true,
+			"Raw potato": true,
+			"Sweetcorn": true,
+			"Tomato": true,
+			"Orange": true,
+			"Strawberry": true,
+			"Cooking apple": true,
+			"Cheese": true,
+			"Egg": true,
+			"Bucket of milk": true,
+			"Pat of butter": true,
+			"Pot of cream": true
 		},
 		"Void Knight Archery Store": {
 			"Bronze javelin": true,
@@ -288008,6 +288149,10 @@
 			"Mithril claws": true,
 			"Mithril off hand claws": true,
 			"Mithril 2h sword": true
+		},
+		"Wendle's Wicks": {
+			"White candle": true,
+			"Black candle": true
 		},
 		"West Ardougne General Store": {
 			"Empty pot": true,
@@ -318500,6 +318645,9 @@
 				}
 			},
 			"Farmer": {
+				"Coins": {
+					"20": "199/418"
+				},
 				"Potato seed": {
 					"1-3": "15/209"
 				},
@@ -318580,6 +318728,9 @@
 				},
 				"Asgarnian seed": {
 					"1": "13/209"
+				},
+				"Wendlewick seed": {
+					"1": "10/209"
 				},
 				"Jute seed": {
 					"1": "9/209"
