@@ -19712,6 +19712,28 @@
 				"Output": "Deathwarden boots (tier 20)",
 				"Priority": 22
 			},
+			"Craft a ~|crab amulet (unstrung)|~": {
+				"Items": ["Fresh crab claw*"],
+				"Level": 15,
+				"Output": "Crab amulet (unstrung)",
+				"Tasks": {
+					"~|Hermit Permits|~ 4": "Quest"
+				},
+				"Primary": true,
+				"Priority": 23,
+				"Not F2P": true
+			},
+			"String a ~|crab amulet|~": {
+				"Items": ["Crab amulet (unstrung)*", "Ball of wool"],
+				"Level": 15,
+				"Output": "Crab amulet",
+				"Tasks": {
+					"~|Hermit Permits|~ 4": "Quest"
+				},
+				"Primary": true,
+				"Priority": 23,
+				"Not F2P": true
+			},
 			"Craft an ~|imp horn wand|~": {
 				"Items": ["Imphide*", "Thread*", "Logs*"],
 				"Level": 16,
@@ -41171,6 +41193,50 @@
 				"Primary": true,
 				"Priority": 22
 			},
+			"Extract poison while hunting an ~|arcane apoterrasaur|~": {
+				"NPCs": ["Arcane apoterrasaur"],
+				"Items": ["Raw shark*"],
+				"Level": 1,
+				"Requirements": {
+					"Slayer": 75,
+					"Hunter": 55
+				},
+				"Primary": true,
+				"Priority": 23
+			},
+			"Extract poison while hunting a ~|scimitops|~": {
+				"NPCs": ["Scimitops"],
+				"Items": ["Raw sailfish*"],
+				"Level": 1,
+				"Requirements": {
+					"Slayer": 75,
+					"Hunter": 55
+				},
+				"Primary": true,
+				"Priority": 24
+			},
+			"Extract poison while hunting a ~|bagrada rex|~": {
+				"NPCs": ["Bagrada rex"],
+				"Items": ["Raw manta ray*"],
+				"Level": 1,
+				"Requirements": {
+					"Slayer": 75,
+					"Hunter": 55
+				},
+				"Primary": true,
+				"Priority": 25
+			},
+			"Extract poison during ~|Havenhythe Big Game Hunter|~": {
+				"Chunks": ["Hollow Hill"],
+				"Items": ["Raw giant chinchompa meat*", "Grenwall spikes*"],
+				"Level": 1,
+				"Requirements": {
+					"Slayer": 77,
+					"Hunter": 98
+				},
+				"Primary": true,
+				"Priority": 26
+			},
 			"Use an ~|experience lamp|~ from the Waiko Reward Shop on Herblore": {
 				"Category": ["XP Lamps"],
 				"Items": ["Ports XP Lamp"],
@@ -48338,6 +48404,14 @@
 				"Priority": 11,
 				"Not F2P": true
 			},
+			"Cast ~|Wendlewick teleport|~": {
+				"Category": ["Spells", "Combat and Teleport Spells"],
+				"Chunks": ["16692"],
+				"Items": ["Law rune*", "Water rune[+]*", "Air rune[+]*"],
+				"Level": 28,
+				"Primary": true,
+				"Priority": 1
+			},
 			"Cast ~|Earth Bolt|~": {
 				"Category": ["Spells", "Combat and Teleport Spells"],
 				"Items": ["Earth rune[+]*", "Air rune[+]*"],
@@ -52064,6 +52138,13 @@
 				"Primary": true,
 				"Output": "Rock (ore)",
 				"Priority": 8
+			},
+			"Mine a ~|havensilver rock|~": {
+				"Level": 1,
+				"Objects": ["Havensilver rock"],
+				"Primary": true,
+				"Output": "Havensilver ore",
+				"Priority": 9
 			},
 			"Mine a ~|gem rock (Tai Bwo Wannai)|~": {
 				"Level": 1,
@@ -63663,133 +63744,11 @@
 			}
 		},
 		"Smithing": {
-			"Smelt an ~|iron bar|~": {
-				"Items": ["Iron ore*"],
-				"Level": 10,
-				"Objects": ["Furnace[+]"],
-				"Output": "Iron bar",
-				"Primary": true,
-				"Priority": 1
-			},
-			"Smelt a ~|silver bar|~": {
-				"Items": ["Silver ore*"],
-				"Level": 20,
-				"Objects": ["Furnace[+]"],
-				"Output": "Silver bar",
-				"Primary": true,
-				"Priority": 1
-			},
-			"Smelt a ~|blurite bar|~": {
-				"Items": ["Blurite ore*"],
-				"Level": 10,
-				"Tasks": {
-					"~|The Knight's Sword|~ Complete the quest": "Quest"
-				},
-				"Objects": ["Furnace[+]"],
-				"Output": "Blurite bar",
-				"Primary": true,
-				"Priority": 1
-			},
-			"Smelt a ~|steel bar|~": {
-				"Items": ["Iron ore*", "Coal*"],
-				"Level": 20,
-				"Objects": ["Furnace[+]"],
-				"Output": "Steel bar",
-				"Primary": true,
-				"Priority": 2
-			},
-			"Smelt a ~|mithril bar|~": {
-				"Items": ["Mithril ore*", "Coal*"],
-				"Level": 30,
-				"Objects": ["Furnace[+]"],
-				"Output": "Mithril bar",
-				"Primary": true,
-				"Priority": 1
-			},
-			"Smelt a ~|gold bar|~": {
-				"Items": ["Gold ore*"],
-				"Level": 40,
-				"Objects": ["Furnace[+]"],
-				"Output": "Gold bar",
-				"Primary": true,
-				"Priority": 1
-			},
-			"Smelt a ~|gold bar|~ in New Varrock": {
-				"Chunks": ["New Varrock"],
-				"Level": 40,
-				"Primary": true,
-				"Priority": 100,
-				"Not F2P": true
-			},
-			"Smelt an ~|adamant bar|~": {
-				"Items": ["Adamantite ore*", "Luminite*"],
-				"Level": 40,
-				"Objects": ["Furnace[+]"],
-				"Output": "Adamant bar",
-				"Primary": true,
-				"Priority": 2
-			},
-			"Smelt a ~|rune bar|~": {
-				"Items": ["Runite ore*", "Luminite*"],
-				"Level": 50,
-				"Objects": ["Furnace[+]"],
-				"Output": "Rune bar",
-				"Primary": true,
-				"Priority": 1
-			},
-			"Smelt an ~|orikalkum bar|~": {
-				"Items": ["Orichalcite ore*", "Drakolith*"],
-				"Level": 60,
-				"Objects": ["Furnace[+]"],
-				"Output": "Orikalkum bar",
-				"Primary": true,
-				"Priority": 1
-			},
-			"Smelt a ~|necronium bar|~": {
-				"Items": ["Necrite ore*", "Phasmatite*"],
-				"Level": 70,
-				"Objects": ["Furnace[+]"],
-				"Output": "Necronium bar",
-				"Primary": true,
-				"Priority": 1
-			},
-			"Smelt a ~|bane bar|~": {
-				"Items": ["Banite ore*"],
-				"Level": 80,
-				"Objects": ["Furnace[+]"],
-				"Output": "Bane bar",
-				"Primary": true,
-				"Priority": 1
-			},
-			"Smelt an ~|elder rune bar|~": {
-				"Items": ["Rune bar*", "Light animica*", "Dark animica*"],
-				"Level": 90,
-				"Objects": ["Furnace[+]"],
-				"Output": "Elder rune bar",
-				"Primary": true,
-				"Priority": 1
-			},
 			"Smelt a ~|bronze bar|~": {
 				"Items": ["Copper ore*", "Tin ore*"],
 				"Level": 1,
 				"Objects": ["Furnace[+]"],
 				"Output": "Bronze bar",
-				"Primary": true,
-				"Priority": 1
-			},
-			"Smelt a ~|primal bar|~": {
-				"Items": ["Novite ore*", "Bathus ore*", "Marmaros ore*", "Kratonium ore*", "Fractite ore*", "Zephyrium ore*", "Argonite ore*", "Katagon ore*", "Gorgonite ore*", "Promethium ore*"],
-				"Level": 100,
-				"Objects": ["Furnace[+]"],
-				"Output": "Primal bar",
-				"Primary": true,
-				"Priority": 1
-			},
-			"Smelt a ~|platinum bar|~": {
-				"Items": ["Platinum ore*"],
-				"Level": 104,
-				"Objects": ["Furnace[+]"],
-				"Output": "Platinum bar",
 				"Primary": true,
 				"Priority": 1
 			},
@@ -63801,87 +63760,38 @@
 				"Primary": true,
 				"Priority": 2
 			},
-			"Complete a ~|cracked smithing urn|~": {
-				"Category": ["Token"],
-				"Items": ["Cracked smithing urn (no rune)*", "Fire rune*"],
+			"Smelt a ~|havensilver bar|~": {
+				"Items": ["Havensilver ore"],
 				"Level": 1,
-				"Skills": {
-					"Crafting": 4
+				"Objects": ["Furnace[+]"],
+				"Tasks": {
+					"~|Hearts of Sanguine|~ 14": "Quest"
 				},
-				"Output": "Cracked smithing urn",
+				"Output": "Havensilver bar",
+				"Primary": true,
+				"Priority": 3
+			},
+			"Forge a ~|havensilver greatsword|~": {
+				"Items": ["Havensilver bar*"],
+				"Level": 1,
+				"Objects": ["Anvil[+]", "Forge[+]"],
+				"Tasks": {
+					"~|Hearts of Sanguine|~ 14": "Quest"
+				},
+				"Output": "Havensilver greatsword",
 				"Primary": true,
 				"Priority": 4
 			},
-			"Complete a ~|fragile smithing urn|~": {
-				"Category": ["Token"],
-				"Items": ["Fragile smithing urn (no rune)*", "Fire rune*"],
+			"Forge a refined ~|havensilver weapon|~": {
+				"Items": ["Havensilver bar"],
 				"Level": 1,
-				"Skills": {
-					"Crafting": 17
+				"Objects": ["Forge[+]", "Anvil[+]"],
+				"Tasks": {
+					"~|Silver Lining|~ Complete the lore acitivty": "Quest"
 				},
-				"Output": "Fragile smithing urn",
+				"Output": "Havensilver weapons",
 				"Primary": true,
 				"Priority": 5
-			},
-			"Complete a ~|plain smithing urn|~": {
-				"Category": ["Token"],
-				"Items": ["Plain smithing urn (no rune)*", "Fire rune*"],
-				"Level": 1,
-				"Skills": {
-					"Crafting": 35
-				},
-				"Output": "Plain smithing urn",
-				"Primary": true,
-				"Priority": 6
-			},
-			"Complete a ~|strong smithing urn|~": {
-				"Category": ["Token"],
-				"Items": ["Strong smithing urn (no rune)*", "Fire rune*"],
-				"Level": 1,
-				"Skills": {
-					"Crafting": 49
-				},
-				"Output": "Strong smithing urn",
-				"Primary": true,
-				"Priority": 7
-			},
-			"Complete a ~|decorated smithing urn|~": {
-				"Category": ["Token"],
-				"Items": ["Decorated smithing urn (no rune)*", "Fire rune*"],
-				"Level": 1,
-				"Skills": {
-					"Crafting": 80
-				},
-				"Output": "Decorated smithing urn",
-				"Primary": true,
-				"Priority": 8
-			},
-			"Complete an ~|exquisite smithing urn|~": {
-				"Category": ["Token"],
-				"Items": ["Exquisite smithing urn (no rune)*", "Fire rune*"],
-				"Level": 1,
-				"Skills": {
-					"Crafting": 105
-				},
-				"Output": "Exquisite smithing urn",
-				"Primary": true,
-				"Priority": 9
-			},
-			"Train Smithing in ~|Daemonheim|~": {
-				"Category": ["Daemonheim training"],
-				"Tasks": {
-					"Unlock ~|frozen floors|~": "Dungeoneering"
-				},
-				"Level": 1,
-				"Primary": true,
-				"Priority": 9
-			},
-			"Train Smithing in ~|New Varrock|~": {
-				"Chunks": ["New Varrock"],
-				"Level": 1,
-				"Primary": true,
-				"Priority": 10,
-				"Not F2P": true
 			},
 			"Smith an ~|imcando mattock|~": {
 				"Tasks": {
@@ -63895,7 +63805,7 @@
 					"Archaeology": 81
 				},
 				"Primary": false,
-				"Priority": 3
+				"Priority": 100
 			},
 			"Smelt a ~|lesser unensouled bar|~": {
 				"Category": ["Token"],
@@ -63910,8 +63820,7 @@
 				},
 				"Primary": true,
 				"Output": "Lesser unensouled bar",
-				"Priority": 10,
-				"Partial": true
+				"Priority": 101
 			},
 			"Smelt an ~|unensouled bar|~": {
 				"Category": ["Token"],
@@ -63926,8 +63835,7 @@
 				},
 				"Primary": true,
 				"Output": "Unensouled bar",
-				"Priority": 11,
-				"Partial": true
+				"Priority": 102
 			},
 			"Smelt a ~|greater unensouled bar|~": {
 				"Category": ["Token"],
@@ -63942,47 +63850,121 @@
 				},
 				"Primary": true,
 				"Output": "Greater unensouled bar",
-				"Priority": 12,
-				"Partial": true
+				"Priority": 103
 			},
-			"Forge a ~|bronze hasta|~": {
-				"Items": ["Bronze bar*", "Logs*"],
-				"Level": 5,
-				"Objects": ["Barbarian forge", "Barbarian anvil"],
-				"Output": "Bronze hasta",
+			"Train Smithing in ~|New Varrock|~": {
+				"Chunks": ["New Varrock"],
+				"Level": 1,
 				"Primary": true,
-				"Priority": 1
+				"Priority": 1000,
+				"Not F2P": true
+			},
+			"Train Smithing in ~|Daemonheim|~": {
+				"Category": ["Daemonheim training"],
+				"Tasks": {
+					"Unlock ~|frozen floors|~": "Dungeoneering"
+				},
+				"Level": 1,
+				"Primary": true,
+				"Priority": 1001
+			},
+			"Complete a ~|cracked smithing urn|~": {
+				"Category": ["Token"],
+				"Items": ["Cracked smithing urn (no rune)*", "Fire rune*"],
+				"Level": 1,
+				"Skills": {
+					"Crafting": 4
+				},
+				"Output": "Cracked smithing urn",
+				"Primary": true,
+				"Priority": 1003
+			},
+			"Complete a ~|fragile smithing urn|~": {
+				"Category": ["Token"],
+				"Items": ["Fragile smithing urn (no rune)*", "Fire rune*"],
+				"Level": 1,
+				"Skills": {
+					"Crafting": 17
+				},
+				"Output": "Fragile smithing urn",
+				"Primary": true,
+				"Priority": 1004
+			},
+			"Complete a ~|plain smithing urn|~": {
+				"Category": ["Token"],
+				"Items": ["Plain smithing urn (no rune)*", "Fire rune*"],
+				"Level": 1,
+				"Skills": {
+					"Crafting": 35
+				},
+				"Output": "Plain smithing urn",
+				"Primary": true,
+				"Priority": 1005
+			},
+			"Complete a ~|strong smithing urn|~": {
+				"Category": ["Token"],
+				"Items": ["Strong smithing urn (no rune)*", "Fire rune*"],
+				"Level": 1,
+				"Skills": {
+					"Crafting": 49
+				},
+				"Output": "Strong smithing urn",
+				"Primary": true,
+				"Priority": 1006
+			},
+			"Complete a ~|decorated smithing urn|~": {
+				"Category": ["Token"],
+				"Items": ["Decorated smithing urn (no rune)*", "Fire rune*"],
+				"Level": 1,
+				"Skills": {
+					"Crafting": 80
+				},
+				"Output": "Decorated smithing urn",
+				"Primary": true,
+				"Priority": 1007
+			},
+			"Complete an ~|exquisite smithing urn|~": {
+				"Category": ["Token"],
+				"Items": ["Exquisite smithing urn (no rune)*", "Fire rune*"],
+				"Level": 1,
+				"Skills": {
+					"Crafting": 105
+				},
+				"Output": "Exquisite smithing urn",
+				"Primary": true,
+				"Priority": 1008
 			},
 			"Forge a ~|bronze spear|~": {
 				"Items": ["Bronze bar*"],
 				"Level": 5,
 				"Objects": ["Barbarian forge", "Barbarian anvil"],
-				"Output": "Bronze spear",
-				"Primary": true,
-				"Priority": 2
-			},
-			"Forge a ~|cannon part|~": {
-				"Items": ["Bronze bar*"],
-				"Level": 18,
-				"Chunks": ["11829-1"],
 				"Tasks": {
-					"~|Doric's Task II (miniquest)|~ 4": "Quest"
+					"~|Barbarian Training|~ 2b4a3": "Quest",
+					"~|Tai Bwo Wannai Trio|~ Complete the quest": "Quest"
 				},
-				"Output": "Cannon part",
+				"Output": "Bronze spear",
 				"Primary": true,
 				"Priority": 1
 			},
-			"Forge a ~|bronze dart tip|~": {
-				"Items": ["Bronze bar*"],
-				"Level": 20,
-				"Objects": ["Forge[+]", "Anvil[+]"],
+			"Forge a ~|bronze hasta|~": {
+				"Items": ["Bronze bar*", "Logs*"],
+				"Level": 5,
+				"Objects": ["Barbarian forge", "Barbarian anvil"],
 				"Tasks": {
-					"~|The Tourist Trap|~ Complete the quest": "Quest"
+					"~|Barbarian Training|~ 2b4a7": "Quest",
+					"~|Tai Bwo Wannai Trio|~ Complete the quest": "Quest"
 				},
-				"Output": "Bronze dart tip",
+				"Output": "Bronze hasta",
 				"Primary": true,
-				"Priority": 3,
-				"Partial": true
+				"Priority": 2
+			},
+			"Smelt an ~|iron bar|~": {
+				"Items": ["Iron ore*"],
+				"Level": 10,
+				"Objects": ["Furnace[+]"],
+				"Output": "Iron bar",
+				"Primary": true,
+				"Priority": 1
 			},
 			"Forge ~|iron|~": {
 				"Items": ["Iron bar*"],
@@ -63992,19 +63974,22 @@
 				"Primary": true,
 				"Priority": 2
 			},
-			"Forge an ~|iron hasta|~": {
-				"Items": ["Iron bar*", "Oak logs*"],
+			"Smelt a ~|blurite bar|~": {
+				"Items": ["Blurite ore*"],
 				"Level": 10,
-				"Objects": ["Barbarian forge", "Barbarian anvil"],
-				"Output": "Iron hasta",
+				"Tasks": {
+					"~|The Knight's Sword|~ Complete the quest": "Quest"
+				},
+				"Objects": ["Furnace[+]"],
+				"Output": "Blurite bar",
 				"Primary": true,
 				"Priority": 3
 			},
-			"Forge an ~|iron spear|~": {
-				"Items": ["Iron bar*", "Oak logs*"],
+			"Forge ~|blurite|~": {
+				"Items": ["Blurite bar*"],
 				"Level": 10,
-				"Objects": ["Barbarian forge", "Barbarian anvil"],
-				"Output": "Iron spear",
+				"Objects": ["Forge[+]", "Anvil[+]"],
+				"Output": "BluriteGear",
 				"Primary": true,
 				"Priority": 4
 			},
@@ -64024,13 +64009,29 @@
 				"Primary": true,
 				"Priority": 6
 			},
-			"Forge ~|blurite|~": {
-				"Items": ["Blurite bar*"],
+			"Forge an ~|iron spear|~": {
+				"Items": ["Iron bar*", "Oak logs*"],
 				"Level": 10,
-				"Objects": ["Forge[+]", "Anvil[+]"],
-				"Output": "BluriteGear",
+				"Objects": ["Barbarian forge", "Barbarian anvil"],
+				"Tasks": {
+					"~|Barbarian Training|~ 2b4a3": "Quest",
+					"~|Tai Bwo Wannai Trio|~ Complete the quest": "Quest"
+				},
+				"Output": "Iron spear",
 				"Primary": true,
-				"Priority": 4
+				"Priority": 7
+			},
+			"Forge an ~|iron hasta|~": {
+				"Items": ["Iron bar*", "Oak logs*"],
+				"Level": 10,
+				"Objects": ["Barbarian forge", "Barbarian anvil"],
+				"Tasks": {
+					"~|Barbarian Training|~ 2b4a7": "Quest",
+					"~|Tai Bwo Wannai Trio|~ Complete the quest": "Quest"
+				},
+				"Output": "Iron hasta",
+				"Primary": true,
+				"Priority": 8
 			},
 			"Smith a ~|death gaurd (tier 20)|~": {
 				"Objects": ["Soul forge"],
@@ -64054,6 +64055,100 @@
 				"Output": "Skull lantern (tier 20)",
 				"Priority": 2
 			},
+			"Smelt a ~|steel bar|~": {
+				"Items": ["Iron ore*", "Coal*"],
+				"Level": 20,
+				"Objects": ["Furnace[+]"],
+				"Output": "Steel bar",
+				"Primary": true,
+				"Priority": 1
+			},
+			"Forge ~|steel|~": {
+				"Items": ["Steel bar*"],
+				"Level": 20,
+				"Objects": ["Forge[+]", "Anvil[+]"],
+				"Output": "SteelGear",
+				"Primary": true,
+				"Priority": 2
+			},
+			"Smelt a ~|silver bar|~": {
+				"Items": ["Silver ore*"],
+				"Level": 20,
+				"Objects": ["Furnace[+]"],
+				"Output": "Silver bar",
+				"Primary": true,
+				"Priority": 3
+			},
+			"Smelt an ~|elemental bar|~": {
+				"Items": ["Elemental ore*", "Coal*"],
+				"Level": 20,
+				"Objects": ["Elemental furnace"],
+				"Output": "Elemental bar",
+				"Primary": true,
+				"Priority": 4,
+				"Not F2P": true
+			},
+			"Forge a ~|steel ore box|~": {
+				"Items": ["Steel bar*", "Iron bar*", "Bronze bar*"],
+				"Level": 20,
+				"Objects": ["Forge[+]", "Anvil[+]"],
+				"Output": "Steel ore box",
+				"Primary": true,
+				"Priority": 5
+			},
+			"Forge a ~|steel spear|~": {
+				"Items": ["Steel bar*", "Willow logs*"],
+				"Level": 20,
+				"Objects": ["Barbarian forge", "Barbarian anvil"],
+				"Tasks": {
+					"~|Barbarian Training|~ 2b4a3": "Quest",
+					"~|Tai Bwo Wannai Trio|~ Complete the quest": "Quest"
+				},
+				"Output": "Steel spear",
+				"Primary": true,
+				"Priority": 6
+			},
+			"Forge a ~|steel hasta|~": {
+				"Items": ["Steel bar*", "Willow logs*"],
+				"Level": 20,
+				"Objects": ["Barbarian forge", "Barbarian anvil"],
+				"Tasks": {
+					"~|Barbarian Training|~ 2b4a7": "Quest",
+					"~|Tai Bwo Wannai Trio|~ Complete the quest": "Quest"
+				},
+				"Output": "Steel hasta",
+				"Primary": true,
+				"Priority": 7
+			},
+			"Forge a ~|crane claw|~": {
+				"Items": ["Elemental bar*", "Crane schematic"],
+				"Level": 20,
+				"Objects": ["Elemental anvil"],
+				"Output": "Crane claw",
+				"Primary": true,
+				"Priority": 8,
+				"Partial": true
+			},
+			"Forge an ~|elemental shield|~": {
+				"Items": ["Elemental bar*"],
+				"Level": 20,
+				"Objects": ["Elemental anvil"],
+				"Output": "Elemental shield",
+				"Primary": true,
+				"Priority": 9
+			},
+			"Forge a ~|bronze dart tip|~": {
+				"Items": ["Bronze bar*"],
+				"Level": 20,
+				"Objects": ["Forge[+]", "Anvil[+]"],
+				"Tasks": {
+					"~|The Tourist Trap|~ Complete the quest": "Quest"
+				},
+				"Output": "Bronze dart tip",
+				"Primary": true,
+				"Priority": 100,
+				"Partial": true
+			},
 			"Forge an ~|iron dart tip|~": {
 				"Items": ["Iron bar*"],
 				"Level": 20,
@@ -64063,67 +64158,8 @@
 				},
 				"Output": "Iron dart tip",
 				"Primary": true,
-				"Priority": 4,
+				"Priority": 101,
 				"Partial": true
-			},
-			"Forge ~|steel|~": {
-				"Items": ["Steel bar*"],
-				"Level": 20,
-				"Objects": ["Forge[+]", "Anvil[+]"],
-				"Output": "SteelGear",
-				"Primary": true,
-				"Priority": 5
-			},
-			"Forge a ~|steel hasta|~": {
-				"Items": ["Steel bar*", "Willow logs*"],
-				"Level": 20,
-				"Objects": ["Barbarian forge", "Barbarian anvil"],
-				"Output": "Steel hasta",
-				"Primary": true,
-				"Priority": 6
-			},
-			"Forge a ~|steel spear|~": {
-				"Items": ["Steel bar*", "Willow logs*"],
-				"Level": 20,
-				"Objects": ["Barbarian forge", "Barbarian anvil"],
-				"Output": "Steel spear",
-				"Primary": true,
-				"Priority": 7
-			},
-			"Forge a ~|steel ore box|~": {
-				"Items": ["Steel bar*", "Iron bar*", "Bronze bar*"],
-				"Level": 20,
-				"Objects": ["Forge[+]", "Anvil[+]"],
-				"Output": "Steel ore box",
-				"Primary": true,
-				"Priority": 8
-			},
-			"Smelt an ~|elemental bar|~": {
-				"Items": ["Elemental ore*", "Coal*"],
-				"Level": 20,
-				"Objects": ["Elemental furnace"],
-				"Output": "Elemental bar",
-				"Primary": true,
-				"Priority": 9,
-				"Not F2P": true,
-				"Partial": true
-			},
-			"Forge a ~|crane claw|~": {
-				"Items": ["Elemental bar*", "Crane schematic"],
-				"Level": 20,
-				"Objects": ["Elemental anvil"],
-				"Output": "Crane claw",
-				"Primary": true,
-				"Priority": 10,
-				"Partial": true
-			},
-			"Forge an ~|elemental shield|~": {
-				"Items": ["Elemental bar*"],
-				"Level": 20,
-				"Objects": ["Elemental anvil"],
-				"Output": "Elemental shield",
-				"Primary": true,
-				"Priority": 11
 			},
 			"Forge a ~|steel dart tip|~": {
 				"Items": ["Steel bar*"],
@@ -64134,7 +64170,7 @@
 				},
 				"Output": "Steel dart tip",
 				"Primary": true,
-				"Priority": 12,
+				"Priority": 100,
 				"Partial": true
 			},
 			"Smith a ~|death gaurd (tier 30)|~": {
@@ -64159,66 +64195,13 @@
 				"Output": "Skull lantern (tier 30)",
 				"Priority": 2
 			},
-			"Forge a ~|cannonball|~": {
-				"Items": ["Steel bar*"],
-				"Level": 35,
+			"Smelt a ~|mithril bar|~": {
+				"Items": ["Mithril ore*", "Coal*"],
+				"Level": 30,
 				"Objects": ["Furnace[+]"],
-				"Tasks": {
-					"~|Dwarf Cannon|~ Complete the quest": "Quest"
-				},
-				"Output": "Cannonball",
+				"Output": "Mithril bar",
 				"Primary": true,
 				"Priority": 1
-			},
-			"Equip a ~|smithing autoheater|~": {
-				"Items": ["Smithing autoheater"],
-				"Level": 35,
-				"Primary": false,
-				"Skills": {
-					"Dungeoneering": 35
-				},
-				"Priority": 2
-			},
-			"Smith a ~|death gaurd (tier 40)|~": {
-				"Objects": ["Soul forge"],
-				"Items": ["Death guard (tier 30)", "Lesser ensouled bar"],
-				"Tasks": {
-					"Complete ~|Kili's Knowledge II|~": "Extra"
-				},
-				"Level": 35,
-				"Primary": true,
-				"Output": "Death guard (tier 40)",
-				"Priority": 3
-			},
-			"Smith a ~|skull lantern (tier 40)|~": {
-				"Objects": ["Soul forge"],
-				"Items": ["Skull lantern (tier 30)", "Lesser ensouled bar"],
-				"Tasks": {
-					"Complete ~|Kili's Knowledge II|~": "Extra"
-				},
-				"Level": 35,
-				"Primary": true,
-				"Output": "Skull lantern (tier 40)",
-				"Priority": 4
-			},
-			"Forge ~|masterwork rivets|~": {
-				"Items": ["Steel bar*"],
-				"Level": 99,
-				"Objects": ["Forge[+]", "Anvil[+]"],
-				"Output": "Masterwork rivets",
-				"Primary": true,
-				"Priority": 2,
-				"Partial": true,
-				"Not F2P": true
-			},
-			"Forge ~|masterwork rivets|~ in New Varrock": {
-				"Category": ["Multi Step Processing", "Highest Level"],
-				"Chunks": ["New Varrock"],
-				"Level": 99,
-				"Primary": true,
-				"Priority": 1,
-				"Not F2P": true,
-				"Partial": true
 			},
 			"Forge ~|mithril|~": {
 				"Items": ["Mithril bar*"],
@@ -64228,21 +64211,52 @@
 				"Primary": true,
 				"Priority": 2
 			},
-			"Forge a ~|mithril hasta|~": {
-				"Items": ["Mithril bar*", "Maple logs*"],
+			"Upgrade a ~|havensilver weapon|~ once": {
+				"Items": ["Havensilver weapon[+]*", "Havensilver bar*", "Sanguine matter*"],
 				"Level": 30,
-				"Objects": ["Barbarian forge", "Barbarian anvil"],
-				"Output": "Mithril hasta",
+				"Objects": ["Forge[+]", "Anvil[+]"],
+				"Tasks": {
+					"~|Silver Lining|~ Complete the lore acitivty": "Quest"
+				},
+				"Output": "Havensilver weapons + 1",
 				"Primary": true,
 				"Priority": 3
 			},
-			"Forge a ~|mithril spear|~": {
-				"Items": ["Mithril bar*", "Maple logs*"],
+			"Forge an ~|elemental helmet|~": {
+				"Items": ["Elemental bar*"],
 				"Level": 30,
-				"Objects": ["Barbarian forge", "Barbarian anvil"],
-				"Output": "Mithril spear",
+				"Objects": ["Elemental anvil"],
+				"Output": "Elemental helmet",
 				"Primary": true,
 				"Priority": 4
+			},
+			"Forge a ~|mind shield|~": {
+				"Items": ["Mind bar*"],
+				"Level": 30,
+				"Objects": ["Elemental anvil"],
+				"Output": "Mind shield",
+				"Primary": true,
+				"Priority": 5
+			},
+			"Forge a ~|mind helmet|~": {
+				"Items": ["Mind bar*"],
+				"Level": 30,
+				"Objects": ["Elemental anvil"],
+				"Output": "Mind helmet",
+				"Primary": true,
+				"Priority": 6
+			},
+			"Forge a ~|mithril dart tip|~": {
+				"Items": ["Mithril bar*"],
+				"Level": 30,
+				"Objects": ["Forge[+]", "Anvil[+]"],
+				"Tasks": {
+					"~|The Tourist Trap|~ Complete the quest": "Quest"
+				},
+				"Output": "Mithril dart tip",
+				"Primary": true,
+				"Priority": 7,
+				"Partial": true
 			},
 			"Forge a ~|mithril ore box|~": {
 				"Items": ["Mithril bar*", "Steel bar*", "Iron bar*", "Bronze bar*"],
@@ -64250,7 +64264,31 @@
 				"Objects": ["Forge[+]", "Anvil[+]"],
 				"Output": "Mithril ore box",
 				"Primary": true,
-				"Priority": 5
+				"Priority": 8
+			},
+			"Forge a ~|mithril spear|~": {
+				"Items": ["Mithril bar*", "Maple logs*"],
+				"Level": 30,
+				"Objects": ["Barbarian forge", "Barbarian anvil"],
+				"Tasks": {
+					"~|Barbarian Training|~ 2b4a3": "Quest",
+					"~|Tai Bwo Wannai Trio|~ Complete the quest": "Quest"
+				},
+				"Output": "Mithril spear",
+				"Primary": true,
+				"Priority": 9
+			},
+			"Forge a ~|mithril hasta|~": {
+				"Items": ["Mithril bar*", "Maple logs*"],
+				"Level": 30,
+				"Objects": ["Barbarian forge", "Barbarian anvil"],
+				"Tasks": {
+					"~|Barbarian Training|~ 2b4a7": "Quest",
+					"~|Tai Bwo Wannai Trio|~ Complete the quest": "Quest"
+				},
+				"Output": "Mithril hasta",
+				"Primary": true,
+				"Priority": 10
 			},
 			"Build a ~|mithril armour stand|~": {
 				"Category": ["InsidePOH Primary"],
@@ -64261,43 +64299,7 @@
 					"Construction": 28
 				},
 				"Primary": true,
-				"Priority": 6
-			},
-			"Forge a ~|mind shield|~": {
-				"Items": ["Mind bar*"],
-				"Level": 30,
-				"Objects": ["Elemental anvil"],
-				"Output": "Mind shield",
-				"Primary": true,
-				"Priority": 7
-			},
-			"Forge a ~|mind helmet|~": {
-				"Items": ["Mind bar*"],
-				"Level": 30,
-				"Objects": ["Elemental anvil"],
-				"Output": "Mind helmet",
-				"Primary": true,
-				"Priority": 8
-			},
-			"Forge a ~|mithril dart tip|~": {
-				"Items": ["Mithril bar*"],
-				"Level": 20,
-				"Objects": ["Forge[+]", "Anvil[+]"],
-				"Tasks": {
-					"~|The Tourist Trap|~ Complete the quest": "Quest"
-				},
-				"Output": "Mithril dart tip",
-				"Primary": true,
-				"Priority": 9,
-				"Partial": true
-			},
-			"Forge an ~|elemental helmet|~": {
-				"Items": ["Elemental bar*"],
-				"Level": 30,
-				"Objects": ["Elemental anvil"],
-				"Output": "Elemental helmet",
-				"Primary": true,
-				"Priority": 9
+				"Priority": 100
 			},
 			"Forge an ~|elemental body|~": {
 				"Items": ["Elemental bar*"],
@@ -64339,7 +64341,49 @@
 				"Primary": true,
 				"Priority": 5
 			},
-			"Forge an ~|elemental gloves|~": {
+			"Smith a ~|death gaurd (tier 40)|~": {
+				"Objects": ["Soul forge"],
+				"Items": ["Death guard (tier 30)", "Lesser ensouled bar"],
+				"Tasks": {
+					"Complete ~|Kili's Knowledge II|~": "Extra"
+				},
+				"Level": 35,
+				"Primary": true,
+				"Output": "Death guard (tier 40)",
+				"Priority": 1
+			},
+			"Smith a ~|skull lantern (tier 40)|~": {
+				"Objects": ["Soul forge"],
+				"Items": ["Skull lantern (tier 30)", "Lesser ensouled bar"],
+				"Tasks": {
+					"Complete ~|Kili's Knowledge II|~": "Extra"
+				},
+				"Level": 35,
+				"Primary": true,
+				"Output": "Skull lantern (tier 40)",
+				"Priority": 2
+			},
+			"Forge a ~|cannonball|~": {
+				"Items": ["Steel bar*"],
+				"Level": 35,
+				"Objects": ["Furnace[+]"],
+				"Tasks": {
+					"~|Dwarf Cannon|~ Complete the quest": "Quest"
+				},
+				"Output": "Cannonball",
+				"Primary": true,
+				"Priority": 3
+			},
+			"Equip a ~|smithing autoheater|~": {
+				"Items": ["Smithing autoheater"],
+				"Level": 35,
+				"Primary": false,
+				"Skills": {
+					"Dungeoneering": 35
+				},
+				"Priority": 100
+			},
+			"Forge ~|elemental gloves|~": {
 				"Items": ["Elemental bar*"],
 				"Level": 38,
 				"Objects": ["Elemental anvil"],
@@ -64347,7 +64391,7 @@
 				"Primary": true,
 				"Priority": 1
 			},
-			"Forge a ~|mind gloves|~": {
+			"Forge ~|mind gloves|~": {
 				"Items": ["Mind bar*"],
 				"Level": 38,
 				"Objects": ["Elemental anvil"],
@@ -64355,7 +64399,7 @@
 				"Primary": true,
 				"Priority": 2
 			},
-			"Forge a ~|body gloves|~": {
+			"Forge ~|body gloves|~": {
 				"Items": ["Body bar*"],
 				"Level": 38,
 				"Objects": ["Elemental anvil"],
@@ -64363,7 +64407,7 @@
 				"Primary": true,
 				"Priority": 3
 			},
-			"Forge a ~|cosmic gloves|~": {
+			"Forge ~|cosmic gloves|~": {
 				"Items": ["Cosmic bar*"],
 				"Level": 38,
 				"Objects": ["Elemental anvil"],
@@ -64395,19 +64439,35 @@
 				"Primary": true,
 				"Priority": 7
 			},
+			"Smelt an ~|adamant bar|~": {
+				"Items": ["Adamantite ore*", "Luminite*"],
+				"Level": 40,
+				"Objects": ["Furnace[+]"],
+				"Output": "Adamant bar",
+				"Primary": true,
+				"Priority": 1
+			},
 			"Forge ~|adamant|~": {
 				"Items": ["Adamant bar*"],
 				"Level": 40,
 				"Objects": ["Forge[+]", "Anvil[+]"],
 				"Output": "AdamantGear",
 				"Primary": true,
+				"Priority": 2
+			},
+			"Smelt a ~|gold bar|~": {
+				"Items": ["Gold ore*"],
+				"Level": 40,
+				"Objects": ["Furnace[+]"],
+				"Output": "Gold bar",
+				"Primary": true,
 				"Priority": 3
 			},
-			"Forge an ~|adamant hasta|~": {
-				"Items": ["Adamant bar*", "Yew logs*"],
+			"Forge an ~|adamant ore box|~": {
+				"Items": ["Adamant bar*", "Mithril bar*", "Steel bar*", "Iron bar*", "Bronze bar*"],
 				"Level": 40,
-				"Objects": ["Barbarian forge", "Barbarian anvil"],
-				"Output": "Adamant hasta",
+				"Objects": ["Forge[+]", "Anvil[+]"],
+				"Output": "Adamant ore box",
 				"Primary": true,
 				"Priority": 4
 			},
@@ -64415,15 +64475,23 @@
 				"Items": ["Adamant bar*", "Yew logs*"],
 				"Level": 40,
 				"Objects": ["Barbarian forge", "Barbarian anvil"],
+				"Tasks": {
+					"~|Barbarian Training|~ 2b4a3": "Quest",
+					"~|Tai Bwo Wannai Trio|~ Complete the quest": "Quest"
+				},
 				"Output": "Adamant spear",
 				"Primary": true,
 				"Priority": 5
 			},
-			"Forge an ~|adamant ore box|~": {
-				"Items": ["Adamant bar*", "Mithril bar*", "Steel bar*", "Iron bar*", "Bronze bar*"],
+			"Forge an ~|adamant hasta|~": {
+				"Items": ["Adamant bar*", "Yew logs*"],
 				"Level": 40,
-				"Objects": ["Forge[+]", "Anvil[+]"],
-				"Output": "Adamant ore box",
+				"Objects": ["Barbarian forge", "Barbarian anvil"],
+				"Tasks": {
+					"~|Barbarian Training|~ 2b4a7": "Quest",
+					"~|Tai Bwo Wannai Trio|~ Complete the quest": "Quest"
+				},
+				"Output": "Adamant hasta",
 				"Primary": true,
 				"Priority": 6
 			},
@@ -64439,7 +64507,28 @@
 				"Priority": 7,
 				"Partial": true
 			},
-			"Forge an ~|elemental boots|~": {
+			"Restore a ~|Wingsuit v1|~": {
+				"Tasks": {
+					"Complete the ~|Archaeology tutorial|~": "Archaeology"
+				},
+				"Items": ["Wingsuit v1 (damaged)*", "Samite silk*", "Stormguard steel*", "Armadylean yellow*", "Leather scraps*"],
+				"Objects": ["Archaeologist's workbench"],
+				"Level": 40,
+				"Skills": {
+					"Archaeology": 76
+				},
+				"Output": "Wingsuit v1",
+				"Primary": false,
+				"Priority": 1000
+			},
+			"Smelt a ~|gold bar|~ in New Varrock": {
+				"Chunks": ["New Varrock"],
+				"Level": 40,
+				"Primary": true,
+				"Priority": 1001,
+				"Not F2P": true
+			},
+			"Forge ~|elemental boots|~": {
 				"Items": ["Elemental bar*"],
 				"Level": 42,
 				"Objects": ["Elemental anvil"],
@@ -64447,7 +64536,7 @@
 				"Primary": true,
 				"Priority": 1
 			},
-			"Forge a ~|mind boots|~": {
+			"Forge ~|mind boots|~": {
 				"Items": ["Mind bar*"],
 				"Level": 42,
 				"Objects": ["Elemental anvil"],
@@ -64455,7 +64544,7 @@
 				"Primary": true,
 				"Priority": 2
 			},
-			"Forge a ~|body boots|~": {
+			"Forge ~|body boots|~": {
 				"Items": ["Body bar*"],
 				"Level": 42,
 				"Objects": ["Elemental anvil"],
@@ -64463,7 +64552,7 @@
 				"Primary": true,
 				"Priority": 3
 			},
-			"Forge a ~|cosmic boots|~": {
+			"Forge ~|cosmic boots|~": {
 				"Items": ["Cosmic bar*"],
 				"Level": 42,
 				"Objects": ["Elemental anvil"],
@@ -64471,7 +64560,7 @@
 				"Primary": true,
 				"Priority": 4
 			},
-			"Forge a ~|chaos boots|~": {
+			"Forge ~|chaos boots|~": {
 				"Items": ["Chaos bar*"],
 				"Level": 42,
 				"Objects": ["Elemental anvil"],
@@ -64479,7 +64568,7 @@
 				"Primary": true,
 				"Priority": 5
 			},
-			"Forge a ~|chaos gloves|~": {
+			"Forge ~|chaos gloves|~": {
 				"Items": ["Chaos bar*"],
 				"Level": 42,
 				"Objects": ["Elemental anvil"],
@@ -64533,6 +64622,14 @@
 				"Output": "Skull lantern (tier 50)",
 				"Priority": 2
 			},
+			"Smelt a ~|rune bar|~": {
+				"Items": ["Runite ore*", "Luminite*"],
+				"Level": 50,
+				"Objects": ["Furnace[+]"],
+				"Output": "Rune bar",
+				"Primary": true,
+				"Priority": 1
+			},
 			"Forge ~|rune|~": {
 				"Items": ["Rune bar*"],
 				"Level": 50,
@@ -64541,11 +64638,11 @@
 				"Primary": true,
 				"Priority": 2
 			},
-			"Forge a ~|rune hasta|~": {
-				"Items": ["Rune bar*", "Magic logs*"],
+			"Forge a ~|rune ore box|~": {
+				"Items": ["Rune bar*", "Adamant bar*", "Mithril bar*", "Steel bar*", "Iron bar*", "Bronze bar*"],
 				"Level": 50,
-				"Objects": ["Barbarian forge", "Barbarian anvil"],
-				"Output": "Rune hasta",
+				"Objects": ["Forge[+]", "Anvil[+]"],
+				"Output": "Rune ore box",
 				"Primary": true,
 				"Priority": 3
 			},
@@ -64554,16 +64651,36 @@
 				"Level": 50,
 				"Objects": ["Barbarian forge", "Barbarian anvil"],
 				"Output": "Rune spear",
+				"Tasks": {
+					"~|Barbarian Training|~ 2b4a3": "Quest",
+					"~|Tai Bwo Wannai Trio|~ Complete the quest": "Quest"
+				},
 				"Primary": true,
 				"Priority": 4
 			},
-			"Forge a ~|rune ore box|~": {
-				"Items": ["Rune bar*", "Adamant bar*", "Mithril bar*", "Steel bar*", "Iron bar*", "Bronze bar*"],
+			"Forge a ~|rune hasta|~": {
+				"Items": ["Rune bar*", "Magic logs*"],
 				"Level": 50,
-				"Objects": ["Forge[+]", "Anvil[+]"],
-				"Output": "Rune ore box",
+				"Objects": ["Barbarian forge", "Barbarian anvil"],
+				"Tasks": {
+					"~|Barbarian Training|~ 2b4a7": "Quest",
+					"~|Tai Bwo Wannai Trio|~ Complete the quest": "Quest"
+				},
+				"Output": "Rune hasta",
 				"Primary": true,
 				"Priority": 5
+			},
+			"Forge a ~|rune dart tip|~": {
+				"Items": ["Rune bar*"],
+				"Level": 50,
+				"Objects": ["Forge[+]", "Anvil[+]"],
+				"Tasks": {
+					"~|The Tourist Trap|~ Complete the quest": "Quest"
+				},
+				"Output": "Rune dart tip",
+				"Primary": true,
+				"Priority": 6,
+				"Partial": true
 			},
 			"Build a ~|rune armour stand|~": {
 				"Category": ["InsidePOH Primary"],
@@ -64574,19 +64691,55 @@
 					"Smithing": 28
 				},
 				"Primary": true,
-				"Priority": 6
+				"Priority": 1000
 			},
-			"Forge a ~|rune dart tip|~": {
-				"Items": ["Rune bar*"],
-				"Level": 20,
-				"Objects": ["Forge[+]", "Anvil[+]"],
+			"Smith a ~|death gaurd (tier 60)|~": {
+				"Objects": ["Soul forge"],
+				"Items": ["Death guard (tier 50)", "Ensouled bar", "Bone rune"],
 				"Tasks": {
-					"~|The Tourist Trap|~ Complete the quest": "Quest"
+					"Complete ~|Kili's Knowledge IV|~": "Extra"
 				},
-				"Output": "Rune dart tip",
+				"Level": 55,
 				"Primary": true,
-				"Priority": 7,
-				"Partial": true
+				"Output": "Death guard (tier 60)",
+				"Priority": 1
+			},
+			"Smith a ~|skull lantern (tier 60)|~": {
+				"Objects": ["Soul forge"],
+				"Items": ["Skull lantern (tier 50)", "Ensouled bar", "Bone rune"],
+				"Tasks": {
+					"Complete ~|Kili's Knowledge IV|~": "Extra"
+				},
+				"Level": 55,
+				"Primary": true,
+				"Output": "Skull lantern (tier 60)",
+				"Priority": 2
+			},
+			"Read the ~|scroll of efficiency|~": {
+				"Items": ["Scroll of efficiency"],
+				"Level": 55,
+				"Skills": {
+					"Dungeoneering": 55
+				},
+				"Primary": false,
+				"Priority": 100,
+				"Not F2P": true
+			},
+			"Repair the climbing pegs in burthorpe to reach the ~|Beacon Network|~ beacon": {
+				"Chunks": ["11575-1"],
+				"Items": ["Iron bar*"],
+				"Level": 56,
+				"Primary": false,
+				"Priority": 1,
+				"Not F2P": true
+			},
+			"Smelt an ~|orikalkum bar|~": {
+				"Items": ["Orichalcite ore*", "Drakolith*"],
+				"Level": 60,
+				"Objects": ["Furnace[+]"],
+				"Output": "Orikalkum bar",
+				"Primary": true,
+				"Priority": 1
 			},
 			"Forge ~|orikalkum|~": {
 				"Items": ["Orikalkum bar*"],
@@ -64596,13 +64749,24 @@
 				"Primary": true,
 				"Priority": 2
 			},
+			"Upgrade a ~|havensilver weapon|~ twice": {
+				"Items": ["Havensilver weapon[+]*", "Havensilver bar*", "Sanguine matter*"],
+				"Level": 60,
+				"Objects": ["Forge[+]", "Anvil[+]"],
+				"Tasks": {
+					"~|Silver Lining|~ Complete the lore acitivty": "Quest"
+				},
+				"Output": "Havensilver weapons + 2",
+				"Primary": true,
+				"Priority": 3
+			},
 			"Forge an ~|orikalkum ore box|~": {
 				"Items": ["Orikalkum bar*", "Rune bar*", "Adamant bar*", "Mithril bar*", "Steel bar*", "Iron bar*", "Bronze bar*"],
 				"Level": 60,
 				"Objects": ["Forge[+]", "Anvil[+]"],
 				"Output": "Orikalkum ore box",
 				"Primary": true,
-				"Priority": 3
+				"Priority": 4
 			},
 			"Break down ~|damaged chitin|~": {
 				"Items": ["Damaged chitin*"],
@@ -64610,7 +64774,7 @@
 				"Objects": ["Anvil[+]"],
 				"Output": "Chitin scraps",
 				"Primary": true,
-				"Priority": 3
+				"Priority": 100
 			},
 			"Smith a ~|death gaurd (tier 70)|~": {
 				"Objects": ["Soul forge"],
@@ -64634,6 +64798,14 @@
 				"Output": "Skull lantern (tier 70)",
 				"Priority": 2
 			},
+			"Smelt a ~|necronium bar|~": {
+				"Items": ["Necrite ore*", "Phasmatite*"],
+				"Level": 70,
+				"Objects": ["Furnace[+]"],
+				"Output": "Necronium bar",
+				"Primary": true,
+				"Priority": 1
+			},
 			"Forge ~|necronium|~": {
 				"Items": ["Necronium bar*"],
 				"Level": 70,
@@ -64649,6 +64821,31 @@
 				"Output": "Necronium ore box",
 				"Primary": true,
 				"Priority": 3
+			},
+			"Forge the ~|royal crossbow|~ in dragonfire": {
+				"Items": ["Royal crossbow (unforged)"],
+				"Monsters": ["Queen Black Dragon"],
+				"Level": 70,
+				"Output": "Royal crossbow",
+				"Primary": false,
+				"Priority": 4
+			},
+			"Repair the ~|Beacon Network|~ beacon near the Wilderness temple (smithing)": {
+				"Chunks": ["11835"],
+				"Items": ["Iron bar"],
+				"Level": 70,
+				"Primary": false,
+				"Priority": 1000
+			},
+			"Equip an ~|advanced smithing autoheater|~": {
+				"Items": ["Advanced smithing autoheater"],
+				"Level": 70,
+				"Primary": false,
+				"Skills": {
+					"Dungeoneering": 70
+				},
+				"Priority": 1001,
+				"Not F2P": true
 			},
 			"Smith a ~|death gaurd (tier 80)|~": {
 				"Objects": ["Soul forge"],
@@ -64671,38 +64868,6 @@
 				"Primary": true,
 				"Output": "Skull lantern (tier 80)",
 				"Priority": 2
-			},
-			"Forge ~|enhanced gloves of passage|~": {
-				"Items": ["Necronium bar*", "Glacor remnants*", "Leng artefact*", "Gloves of passage*"],
-				"Level": 90,
-				"Objects": ["Forge[+]", "Anvil[+]"],
-				"Output": "Enhanced gloves of passage",
-				"Primary": true,
-				"Priority": 2
-			},
-			"Forge ~|bane|~": {
-				"Items": ["Bane bar*"],
-				"Level": 80,
-				"Objects": ["Forge[+]", "Anvil[+]"],
-				"Output": "BaneGear",
-				"Primary": true,
-				"Priority": 2
-			},
-			"Forge a ~|bane ore box|~": {
-				"Items": ["Bane bar*", "Necronium bar*", "Orikalkum bar*", "Rune bar*", "Adamant bar*", "Mithril bar*", "Steel bar*", "Iron bar*", "Bronze bar*"],
-				"Level": 80,
-				"Objects": ["Forge[+]", "Anvil[+]"],
-				"Output": "Bane ore box",
-				"Primary": true,
-				"Priority": 3
-			},
-			"Forge ~|Tagga's corehammer|~": {
-				"Items": ["Croesus sporehammer*", "Bane bar*", "Croesus flakes*", "Calcified fungus*", "Fungal algae*"],
-				"Level": 80,
-				"Objects": ["Forge[+]", "Anvil[+]"],
-				"Output": "Tagga's corehammer",
-				"Primary": true,
-				"Priority": 4
 			},
 			"Smelt an ~|abyssalbane bar|~": {
 				"Items": ["Abyssalbanite ore*"],
@@ -64736,133 +64901,45 @@
 				"Primary": true,
 				"Priority": 4
 			},
-			"Forge ~|abyssalbane|~ ammo": {
-				"Items": ["Abyssalbane bar*"],
+			"Smelt a ~|bane bar|~": {
+				"Items": ["Banite ore*"],
 				"Level": 80,
-				"Objects": ["Kethsian anvil"],
-				"Output": "AbyssalbaneAmmo",
+				"Objects": ["Furnace[+]"],
+				"Output": "Bane bar",
 				"Primary": true,
-				"Priority": 5
+				"Priority": 1
 			},
-			"Forge ~|basiliskbane|~ ammo": {
-				"Items": ["Basiliskbane bar*"],
-				"Level": 80,
-				"Objects": ["Kethsian anvil"],
-				"Output": "BasiliskbaneAmmo",
-				"Primary": true,
-				"Priority": 6
-			},
-			"Forge ~|dragonbane|~ ammo": {
-				"Items": ["Dragonbane bar*"],
-				"Level": 80,
-				"Objects": ["Kethsian anvil"],
-				"Output": "DragonbaneAmmo",
-				"Primary": true,
-				"Priority": 7
-			},
-			"Forge ~|wallasalkibane|~ ammo": {
-				"Items": ["Wallasalkibane bar*"],
-				"Level": 80,
-				"Objects": ["Kethsian anvil"],
-				"Output": "WallasalkibaneAmmo",
-				"Primary": true,
-				"Priority": 8
-			},
-			"Forge an ~|abyssal bane longsword|~": {
-				"Items": ["Bane longsword + 4*", "Abyssal whip*"],
+			"Forge ~|bane|~": {
+				"Items": ["Bane bar*"],
 				"Level": 80,
 				"Objects": ["Forge[+]", "Anvil[+]"],
-				"Output": "Abyssal bane longsword",
+				"Output": "BaneGear",
 				"Primary": true,
-				"Priority": 9
+				"Priority": 2
 			},
-			"Forge an ~|abyssal bane 2h sword|~": {
-				"Items": ["Bane 2h sword + 4*", "Abyssal whip*"],
+			"Forge a ~|bane ore box|~": {
+				"Items": ["Bane bar*", "Necronium bar*", "Orikalkum bar*", "Rune bar*", "Adamant bar*", "Mithril bar*", "Steel bar*", "Iron bar*", "Bronze bar*"],
 				"Level": 80,
 				"Objects": ["Forge[+]", "Anvil[+]"],
-				"Output": "Abyssal bane 2h sword",
+				"Output": "Bane ore box",
 				"Primary": true,
-				"Priority": 10
+				"Priority": 3
 			},
-			"Forge an ~|abyssal bane off hand longsword|~": {
-				"Items": ["Bane off hand longsword + 4*", "Abyssal whip*"],
+			"Forge ~|Tagga's corehammer|~": {
+				"Items": ["Croesus sporehammer*", "Bane bar*", "Croesus flakes*", "Calcified fungus*", "Fungal algae*"],
 				"Level": 80,
 				"Objects": ["Forge[+]", "Anvil[+]"],
-				"Output": "Abyssal bane off hand longsword",
+				"Output": "Tagga's corehammer",
 				"Primary": true,
-				"Priority": 11
+				"Priority": 4
 			},
-			"Forge an ~|abyssal bane square shield|~": {
-				"Items": ["Bane square shield + 4*", "Abyssal whip*"],
-				"Level": 80,
+			"Forge the ~|godsword blade|~": {
+				"Items": ["Godsword shard 1*", "Godsword shard 2*", "Godsword shard 3*"],
 				"Objects": ["Forge[+]", "Anvil[+]"],
-				"Output": "Abyssal bane square shield",
-				"Primary": true,
-				"Priority": 12
-			},
-			"Forge a ~|dragon bane longsword|~": {
-				"Items": ["Bane longsword + 4*", "Draconic visage*"],
 				"Level": 80,
-				"Objects": ["Forge[+]", "Anvil[+]"],
-				"Output": "Dragon bane longsword",
-				"Primary": true,
-				"Priority": 13
-			},
-			"Forge a ~|dragon bane 2h sword|~": {
-				"Items": ["Bane 2h sword + 4*", "Draconic visage*"],
-				"Level": 80,
-				"Objects": ["Forge[+]", "Anvil[+]"],
-				"Output": "Dragon bane 2h sword",
-				"Primary": true,
-				"Priority": 14
-			},
-			"Forge a ~|dragon bane off hand longsword|~": {
-				"Items": ["Bane off hand longsword + 4*", "Draconic visage*"],
-				"Level": 80,
-				"Objects": ["Forge[+]", "Anvil[+]"],
-				"Output": "Dragon bane off hand longsword",
-				"Primary": true,
-				"Priority": 15
-			},
-			"Forge a ~|dragon bane square shield|~": {
-				"Items": ["Bane square shield + 4*", "Draconic visage*"],
-				"Level": 80,
-				"Objects": ["Forge[+]", "Anvil[+]"],
-				"Output": "Dragon bane square shield",
-				"Primary": true,
-				"Priority": 16
-			},
-			"Forge ~|revenant bane longsword|~": {
-				"Items": ["Bane long sword + 4*", "CorruptMeleeWeapon[+]*"],
-				"Level": 80,
-				"Objects": ["Forge[+]", "Anvil[+]"],
-				"Output": "Revenant bane Longsword",
-				"Primary": true,
-				"Priority": 17
-			},
-			"Forge ~|revenant bane 2h sword|~": {
-				"Items": ["Bane 2h sword + 4*", "CorruptMeleeWeapon[+]*"],
-				"Level": 80,
-				"Objects": ["Forge[+]", "Anvil[+]"],
-				"Output": "Revenant bane 2h sword",
-				"Primary": true,
-				"Priority": 18
-			},
-			"Forge ~|revenant bane off hand longsword|~": {
-				"Items": ["Bane off hand longsword + 4*", "CorruptMeleeWeapon[+]*"],
-				"Level": 80,
-				"Objects": ["Forge[+]", "Anvil[+]"],
-				"Output": "Revenant bane off hand longsword",
-				"Primary": true,
-				"Priority": 19
-			},
-			"Forge ~|revenant bane square shield|~": {
-				"Items": ["Bane square shield + 4*", "CorruptMeleeWeapon[+]*"],
-				"Level": 80,
-				"Objects": ["Forge[+]", "Anvil[+]"],
-				"Output": "Revenant bane square shield",
-				"Primary": true,
-				"Priority": 20
+				"primary": true,
+				"Priority": 5,
+				"Partial": true
 			},
 			"Unlock ~|Invention|~": {
 				"Chunks": ["Invention Guild"],
@@ -64873,53 +64950,247 @@
 					"Invention": 1
 				},
 				"Primary": false,
-				"Priority": 21,
+				"Priority": 6,
 				"Not F2P": true
 			},
-			"Forge the ~|godsword blade|~": {
-				"Items": ["Godsword shard 1*", "Godsword shard 2*", "Godsword shard 3*"],
-				"Objects": ["Forge[+]", "Anvil[+]"],
+			"Forge ~|abyssalbane|~ ammo": {
+				"Items": ["Abyssalbane bar*"],
 				"Level": 80,
-				"primary": true,
-				"Priority": 22,
-				"Partial": true
+				"Objects": ["Kethsian anvil"],
+				"Output": "AbyssalbaneAmmo",
+				"Primary": true,
+				"Priority": 100
+			},
+			"Forge ~|basiliskbane|~ ammo": {
+				"Items": ["Basiliskbane bar*"],
+				"Level": 80,
+				"Objects": ["Kethsian anvil"],
+				"Output": "BasiliskbaneAmmo",
+				"Primary": true,
+				"Priority": 200
+			},
+			"Forge ~|dragonbane|~ ammo": {
+				"Items": ["Dragonbane bar*"],
+				"Level": 80,
+				"Objects": ["Kethsian anvil"],
+				"Output": "DragonbaneAmmo",
+				"Primary": true,
+				"Priority": 300
+			},
+			"Forge ~|wallasalkibane|~ ammo": {
+				"Items": ["Wallasalkibane bar*"],
+				"Level": 80,
+				"Objects": ["Kethsian anvil"],
+				"Output": "WallasalkibaneAmmo",
+				"Primary": true,
+				"Priority": 400
+			},
+			"Forge an ~|abyssal bane longsword|~": {
+				"Items": ["Bane longsword + 4*", "Abyssal whip*"],
+				"Level": 80,
+				"Objects": ["Forge[+]", "Anvil[+]"],
+				"Output": "Abyssal bane longsword",
+				"Primary": true,
+				"Priority": 101
+			},
+			"Forge an ~|abyssal bane 2h sword|~": {
+				"Items": ["Bane 2h sword + 4*", "Abyssal whip*"],
+				"Level": 80,
+				"Objects": ["Forge[+]", "Anvil[+]"],
+				"Output": "Abyssal bane 2h sword",
+				"Primary": true,
+				"Priority": 102
+			},
+			"Forge an ~|abyssal bane off hand longsword|~": {
+				"Items": ["Bane off hand longsword + 4*", "Abyssal whip*"],
+				"Level": 80,
+				"Objects": ["Forge[+]", "Anvil[+]"],
+				"Output": "Abyssal bane off hand longsword",
+				"Primary": true,
+				"Priority": 103
+			},
+			"Forge an ~|abyssal bane square shield|~": {
+				"Items": ["Bane square shield + 4*", "Abyssal whip*"],
+				"Level": 80,
+				"Objects": ["Forge[+]", "Anvil[+]"],
+				"Output": "Abyssal bane square shield",
+				"Primary": true,
+				"Priority": 104
+			},
+			"Forge a ~|dragon bane longsword|~": {
+				"Items": ["Bane longsword + 4*", "Draconic visage*"],
+				"Level": 80,
+				"Objects": ["Forge[+]", "Anvil[+]"],
+				"Output": "Dragon bane longsword",
+				"Primary": true,
+				"Priority": 201
+			},
+			"Forge a ~|dragon bane 2h sword|~": {
+				"Items": ["Bane 2h sword + 4*", "Draconic visage*"],
+				"Level": 80,
+				"Objects": ["Forge[+]", "Anvil[+]"],
+				"Output": "Dragon bane 2h sword",
+				"Primary": true,
+				"Priority": 202
+			},
+			"Forge a ~|dragon bane off hand longsword|~": {
+				"Items": ["Bane off hand longsword + 4*", "Draconic visage*"],
+				"Level": 80,
+				"Objects": ["Forge[+]", "Anvil[+]"],
+				"Output": "Dragon bane off hand longsword",
+				"Primary": true,
+				"Priority": 203
+			},
+			"Forge a ~|dragon bane square shield|~": {
+				"Items": ["Bane square shield + 4*", "Draconic visage*"],
+				"Level": 80,
+				"Objects": ["Forge[+]", "Anvil[+]"],
+				"Output": "Dragon bane square shield",
+				"Primary": true,
+				"Priority": 204
+			},
+			"Forge ~|revenant bane longsword|~": {
+				"Items": ["Bane long sword + 4*", "CorruptMeleeWeapon[+]*"],
+				"Level": 80,
+				"Objects": ["Forge[+]", "Anvil[+]"],
+				"Output": "Revenant bane Longsword",
+				"Primary": true,
+				"Priority": 301
+			},
+			"Forge ~|revenant bane 2h sword|~": {
+				"Items": ["Bane 2h sword + 4*", "CorruptMeleeWeapon[+]*"],
+				"Level": 80,
+				"Objects": ["Forge[+]", "Anvil[+]"],
+				"Output": "Revenant bane 2h sword",
+				"Primary": true,
+				"Priority": 302
+			},
+			"Forge ~|revenant bane off hand longsword|~": {
+				"Items": ["Bane off hand longsword + 4*", "CorruptMeleeWeapon[+]*"],
+				"Level": 80,
+				"Objects": ["Forge[+]", "Anvil[+]"],
+				"Output": "Revenant bane off hand longsword",
+				"Primary": true,
+				"Priority": 303
+			},
+			"Forge ~|revenant bane square shield|~": {
+				"Items": ["Bane square shield + 4*", "CorruptMeleeWeapon[+]*"],
+				"Level": 80,
+				"Objects": ["Forge[+]", "Anvil[+]"],
+				"Output": "Revenant bane square shield",
+				"Primary": true,
+				"Priority": 304
 			},
 			"Create an ~|enchantment of savagery|~": {
 				"Items": ["Sliver of pain*", "Glorious bar*", "Ork cleaver sword*"],
 				"Level": 80,
 				"Output": "Enchantment of savagery",
 				"Primary": true,
-				"Priority": 50
+				"Priority": 1000
 			},
-			"Forge a ~|Dark Shard of Leng|~": {
-				"Items": ["Glacor remnants*", "Dark nilas*", "Dark ice shard*", "Frozen core of Leng*"],
-				"Level": 95,
+			"Smith a ~|death gaurd (tier 90)|~": {
+				"Objects": ["Soul forge"],
+				"Items": ["Death guard (tier 80)", "Greater ensouled bar", "Miasma rune", "Spirit rune", "Bone rune", "Flesh rune"],
+				"Tasks": {
+					"Kili'sKnowledgeVII[+]": "Extra"
+				},
+				"Level": 85,
+				"Primary": true,
+				"Output": "Death guard (tier 90)",
+				"Priority": 1
+			},
+			"Smith a ~|skull lantern (tier 90)|~": {
+				"Objects": ["Soul forge"],
+				"Items": ["Skull lantern (tier 80)", "Greater ensouled bar", "Miasma rune", "Spirit rune", "Bone rune", "Flesh rune"],
+				"Tasks": {
+					"Kili'sKnowledgeVII[+]": "Extra"
+				},
+				"Level": 85,
+				"Primary": true,
+				"Output": "Skull lantern (tier 90)",
+				"Priority": 2
+			},
+			"Forge a ~|dark ice shard|~": {
+				"Items": ["Glacor remnants*", "Dark nilas*", "Black stone heart*", "Glorious bar*"],
+				"Level": 85,
 				"Objects": ["Forge[+]", "Anvil[+]"],
 				"Output": "Dark ice shard",
 				"Skills": {
-					"Crafting": 95
+					"Crafting": 85
 				},
 				"Primary": true,
 				"Priority": 3
 			},
-			"Forge a ~|Dark Sliver of Leng|~": {
-				"Items": ["Glacor remnants*", "Dark nilas*", "Dark ice sliver*", "Frozen core of Leng*"],
-				"Level": 95,
+			"Forge a ~|dark ice sliver|~": {
+				"Items": ["Glacor remnants*", "Dark nilas*", "Black stone heart*", "Glorious bar*"],
+				"Level": 85,
 				"Objects": ["Forge[+]", "Anvil[+]"],
 				"Output": "Dark ice sliver",
 				"Skills": {
-					"Crafting": 95
+					"Crafting": 85
 				},
 				"Primary": true,
-				"Priority": 2
-			},
-			"Forge the ~|Ek-ZekKil|~": {
-				"Items": ["Obsidian blade*", "Magma core*", "Ancient hilt*"],
-				"Level": 95,
-				"Objects": ["Forge[+]", "Anvil[+]"],
-				"Output": "Ek-ZekKil",
-				"Primary": true,
 				"Priority": 4
+			},
+			"Cast a ~|meteorite cannonball|~": {
+				"Level": 85,
+				"Items": ["Meteorite dust*", "Cannonball*"],
+				"Objects": ["Furnace[+]"],
+				"Tasks": {
+					"~|Dwarf Cannon|~ Complete the quest": "Quest"
+				},
+				"Output": "Meteorite cannonball",
+				"Priority": 5,
+				"Primary": true,
+				"Not F2P": true
+			},
+			"Attach an ~|arcane sigil|~ to a blessed spirit shield|~": {
+				"Items": ["Arcane sigil*", "Blessed spirit shield*"],
+				"Level": 85,
+				"Primary": true,
+				"Skills": {
+					"Prayer": 90
+				},
+				"Output": "Arcane spirit shield",
+				"Priority": 100
+			},
+			"Attach a ~|divine sigil|~ to a blessed spirit shield|~": {
+				"Items": ["Divine sigil*", "Blessed spirit shield*"],
+				"Level": 85,
+				"Primary": true,
+				"Skills": {
+					"Prayer": 90
+				},
+				"Output": "Divine spirit shield",
+				"Priority": 101
+			},
+			"Attach an ~|elysian sigil|~ to a blessed spirit shield|~": {
+				"Items": ["Elysian sigil*", "Blessed spirit shield*"],
+				"Level": 85,
+				"Primary": true,
+				"Skills": {
+					"Prayer": 90
+				},
+				"Output": "Elysian spirit shield",
+				"Priority": 102
+			},
+			"Attach a ~|spectral sigil|~ to a blessed spirit shield|~": {
+				"Items": ["Spectral sigil*", "Blessed spirit shield*"],
+				"Level": 85,
+				"Primary": true,
+				"Skills": {
+					"Prayer": 90
+				},
+				"Output": "Spectral spirit shield",
+				"Priority": 103
+			},
+			"Smelt an ~|elder rune bar|~": {
+				"Items": ["Rune bar*", "Light animica*", "Dark animica*"],
+				"Level": 90,
+				"Objects": ["Furnace[+]"],
+				"Output": "Elder rune bar",
+				"Primary": true,
+				"Priority": 1
 			},
 			"Forge ~|elder rune|~": {
 				"Items": ["Elder rune bar*"],
@@ -64927,52 +65198,15 @@
 				"Objects": ["Forge[+]", "Anvil[+]"],
 				"Output": "ElderRuneGear",
 				"Primary": true,
-				"Priority": 3
+				"Priority": 2
 			},
-			"Forge a ~|masterwork ranged plate|~": {
-				"Items": ["Glorious bar*", "Praesulic essence (ranged)*", "Sirenic essence*"],
-				"Objects": ["Anvil[+]", "Forge[+]"],
-				"Level": 99,
-				"Tasks": {
-					"It Should Have Been Called Chinskin*": "Nonskill"
-				},
-				"Output": "Masterwork ranged plate",
-				"Primary": true,
-				"Priority": 15,
-				"Partial": true
-			},
-			"Forge ~|primal|~": {
-				"Items": ["Primal bar*"],
-				"Level": 100,
-				"Objects": ["Forge[+]", "Anvil[+]"],
-				"Output": "PrimalGear",
-				"Primary": true,
-				"Priority": 1
-			},
-			"Forge an ~|elder rune ore box|~": {
-				"Items": ["Elder rune bar*", "Bane bar*", "Necronium bar*", "Orikalkum bar*", "Rune bar*", "Adamant bar*", "Mithril bar*", "Steel bar*", "Iron bar*", "Bronze bar*"],
+			"Forge ~|enhanced gloves of passage|~": {
+				"Items": ["Necronium bar*", "Glacor remnants*", "Leng artefact*", "Gloves of passage*"],
 				"Level": 90,
 				"Objects": ["Forge[+]", "Anvil[+]"],
-				"Output": "Elder rune ore box",
+				"Output": "Enhanced gloves of passage",
 				"Primary": true,
-				"Priority": 50
-			},
-			"Forge a ~|primal ore box|~": {
-				"Items": ["Primal bar*", "Elder rune bar*", "Bane bar*", "Necronium bar*", "Orikalkum bar*", "Rune bar*", "Adamant bar*", "Mithril bar*", "Steel bar*", "Iron bar*", "Bronze bar*"],
-				"Level": 100,
-				"Objects": ["Forge[+]", "Anvil[+]"],
-				"Output": "Primal ore box",
-				"Primary": true,
-				"Priority": 50
-			},
-			"Forge a ~|pearlescent plate|~": {
-				"Items": ["Pearlescent substrate*", "Platinum bar*"],
-				"Level": 104,
-				"Objects": ["Forge[+]", "Anvil[+]"],
-				"Output": "Pearlescent plate",
-				"Primary": true,
-				"Priority": 2,
-				"Partial": true
+				"Priority": 3
 			},
 			"Forge a ~|dragonfire deflector|~": {
 				"Items": ["Draconic visage*", "Anti-dragon shield*"],
@@ -64980,7 +65214,7 @@
 				"Objects": ["Forge[+]", "Anvil[+]"],
 				"Output": "Dragonfire deflector",
 				"Primary": true,
-				"Priority": 5
+				"Priority": 4
 			},
 			"Forge a ~|dragonfire shield|~": {
 				"Items": ["Draconic visage*", "Anti-dragon shield*"],
@@ -64988,7 +65222,7 @@
 				"Objects": ["Forge[+]", "Anvil[+]"],
 				"Output": "Dragonfire shield",
 				"Primary": true,
-				"Priority": 6
+				"Priority": 5
 			},
 			"Forge a ~|dragonfire ward|~": {
 				"Items": ["Draconic visage*", "Anti-dragon shield*"],
@@ -64996,7 +65230,7 @@
 				"Objects": ["Forge[+]", "Anvil[+]"],
 				"Output": "Dragonfire ward",
 				"Primary": true,
-				"Priority": 7
+				"Priority": 6
 			},
 			"Forge a ~|dragonfire shroud|~": {
 				"Items": ["Draconic visage*", "Anti-dragon shield*"],
@@ -65004,7 +65238,7 @@
 				"Objects": ["Forge[+]", "Anvil[+]"],
 				"Output": "Dragonfire shroud",
 				"Primary": true,
-				"Priority": 8
+				"Priority": 7
 			},
 			"Forge ~|tetsu armour|~": {
 				"Items": ["Plate*"],
@@ -65012,7 +65246,75 @@
 				"Objects": ["Port workshop"],
 				"Output": "TetsuArmour",
 				"Primary": true,
+				"Priority": 8
+			},
+			"Forge the ~|Pickaxe of Earth and Song|~": {
+				"Items": ["Dragon pickaxe*", "Harmonic dust*", "Redberry pie*"],
+				"Level": 90,
+				"Chunks": ["11825-1", "Lava Flow Mine", "8756-3"],
+				"Objects": ["Dragonkin anvil"],
+				"Tasks": {
+					"~|While Guthix Sleeps|~ Complete the quest": "Quest",
+					"~|Birthright of the Dwarves|~ Complete the quest": "Quest",
+					"~|Plague's End|~ Complete the quest": "Quest"
+				},
+				"Output": "Pickaxe of Earth and Song",
+				"Primary": true,
 				"Priority": 9
+			},
+			"Forge the ~|Hatchet of Ember and Glade|~": {
+				"Items": ["Dragon hatchet*", "Harmonic dust*", "Redberry pie*", "Imcando hatchet fragment*"],
+				"Level": 90,
+				"Chunks": ["11825-1", "8756-3", "11829-1"],
+				"Objects": ["Dragonkin anvil"],
+				"Tasks": {
+					"~|While Guthix Sleeps|~ Complete the quest": "Quest",
+					"~|Birthright of the Dwarves|~ Complete the quest": "Quest",
+					"~|Plague's End|~ Complete the quest": "Quest"
+				},
+				"Output": "Hatchet of Ember and Glade",
+				"Primary": true,
+				"Priority": 10
+			},
+			"Forge an ~|elder rune ore box|~": {
+				"Items": ["Elder rune bar*", "Bane bar*", "Necronium bar*", "Orikalkum bar*", "Rune bar*", "Adamant bar*", "Mithril bar*", "Steel bar*", "Iron bar*", "Bronze bar*"],
+				"Level": 90,
+				"Objects": ["Forge[+]", "Anvil[+]"],
+				"Output": "Elder rune ore box",
+				"Primary": true,
+				"Priority": 11
+			},
+			"Forge a ~|masterwork focus bracket|~": {
+				"Items": ["Gold bar*", "Glorious bar*"],
+				"Objects": ["Anvil[+]"],
+				"Level": 90,
+				"Tasks": {
+					"Crafting to Your Own Rune*": "Nonskill"
+				},
+				"Output": "Masterwork focus bracket",
+				"Primary": false,
+				"Priority": 100,
+				"Partial": true
+			},
+			"Forge a ~|grounded masterwork staff base|~": {
+				"Items": ["Gold bar*", "Volatile runic brick*", "Crystalline essence*"],
+				"Objects": ["Anvil[+]"],
+				"Level": 90,
+				"Tasks": {
+					"Crafting to Your Own Rune*": "Nonskill"
+				},
+				"Output": "Grounded masterwork staff base",
+				"Primary": false,
+				"Priority": 101,
+				"Partial": true
+			},
+			"Unlock the ~|tetsu|~ scrolls in the Waiko Reward Store": {
+				"Category": ["Timegated"],
+				"Chunks": ["15134", "Player-Owned Port"],
+				"Level": 90,
+				"Primary": false,
+				"Priority": 102,
+				"Partial": true
 			},
 			"Make a ~|Milestone cape (90)|~": {
 				"Category": ["Skillcape"],
@@ -65051,68 +65353,14 @@
 					"Thieving": 90,
 					"Woodcutting": 90
 				},
-				"Priority": 10,
+				"Priority": 1000,
 				"Not F2P": true
 			},
-			"Forge the ~|Pickaxe of Earth and Song|~": {
-				"Items": ["Dragon pickaxe*", "Harmonic dust*", "Redberry pie*"],
-				"Level": 90,
-				"Chunks": ["11825-1", "Lava Flow Mine", "8756-3"],
-				"Objects": ["Dragonkin anvil"],
-				"Tasks": {
-					"~|While Guthix Sleeps|~ Complete the quest": "Quest",
-					"~|Birthright of the Dwarves|~ Complete the quest": "Quest",
-					"~|Plague's End|~ Complete the quest": "Quest"
-				},
-				"Output": "Pickaxe of Earth and Song",
-				"Primary": true,
-				"Priority": 11
-			},
-			"Forge the ~|Hatchet of Ember and Glade|~": {
-				"Items": ["Dragon hatchet*", "Harmonic dust*", "Redberry pie*", "Imcando hatchet fragment*"],
-				"Level": 90,
-				"Chunks": ["11825-1", "8756-3", "11829-1"],
-				"Objects": ["Dragonkin anvil"],
-				"Tasks": {
-					"~|While Guthix Sleeps|~ Complete the quest": "Quest",
-					"~|Birthright of the Dwarves|~ Complete the quest": "Quest",
-					"~|Plague's End|~ Complete the quest": "Quest"
-				},
-				"Output": "Hatchet of Ember and Glade",
-				"Primary": true,
-				"Priority": 12
-			},
-			"Forge a ~|masterwork focus bracket|~": {
-				"Items": ["Gold bar*", "Glorious bar*"],
-				"Objects": ["Anvil[+]"],
-				"Level": 90,
-				"Tasks": {
-					"Crafting to Your Own Rune*": "Nonskill"
-				},
-				"Output": "Masterwork focus bracket",
+			"Feed a ~|starved ancient effigy|~ with smithing": {
+				"Items": ["Starved ancient effigy (mining/smithing)"],
+				"Level": 91,
 				"Primary": false,
-				"Priority": 13,
-				"Partial": true
-			},
-			"Forge a ~|grounded masterwork staff base|~": {
-				"Items": ["Gold bar*", "Volatile runic brick*", "Crystalline essence*"],
-				"Objects": ["Anvil[+]"],
-				"Level": 90,
-				"Tasks": {
-					"Crafting to Your Own Rune*": "Nonskill"
-				},
-				"Output": "Grounded masterwork staff base",
-				"Primary": false,
-				"Priority": 14,
-				"Partial": true
-			},
-			"Unlock the ~|tetsu|~ scrolls in the Waiko Reward Store": {
-				"Category": ["Timegated"],
-				"Chunks": ["15134", "Player-Owned Port"],
-				"Level": 90,
-				"Primary": false,
-				"Priority": 14,
-				"Partial": true
+				"Priority": 1
 			},
 			"Forge ~|tetsu weapons|~": {
 				"Items": ["Plate*", "Pearls*", "Tengu tsuba*"],
@@ -65122,48 +65370,70 @@
 				"Primary": true,
 				"Priority": 1
 			},
+			"Feed a ~|nourished ancient effigy|~ with smithing": {
+				"Items": ["Starved ancient effigy (mining/smithing)"],
+				"Level": 93,
+				"Primary": false,
+				"Priority": 1
+			},
+			"Forge a ~|Dark Shard of Leng|~": {
+				"Items": ["Glacor remnants*", "Dark nilas*", "Dark ice shard*", "Frozen core of Leng*"],
+				"Level": 95,
+				"Objects": ["Forge[+]", "Anvil[+]"],
+				"Output": "Dark ice shard",
+				"Skills": {
+					"Crafting": 95
+				},
+				"Primary": true,
+				"Priority": 1
+			},
+			"Forge a ~|Dark Sliver of Leng|~": {
+				"Items": ["Glacor remnants*", "Dark nilas*", "Dark ice sliver*", "Frozen core of Leng*"],
+				"Level": 95,
+				"Objects": ["Forge[+]", "Anvil[+]"],
+				"Output": "Dark ice sliver",
+				"Skills": {
+					"Crafting": 95
+				},
+				"Primary": true,
+				"Priority": 2
+			},
+			"Forge the ~|Ek-ZekKil|~": {
+				"Items": ["Obsidian blade*", "Magma core*", "Ancient hilt*"],
+				"Level": 95,
+				"Objects": ["Forge[+]", "Anvil[+]"],
+				"Output": "Ek-ZekKil",
+				"Primary": true,
+				"Priority": 3
+			},
+			"Feed a ~|sated ancient effigy|~ with smithing": {
+				"Items": ["Starved ancient effigy (mining/smithing)"],
+				"Level": 95,
+				"Primary": false,
+				"Priority": 4
+			},
+			"Feed a ~|gorged ancient effigy|~ with smithing": {
+				"Items": ["Starved ancient effigy (mining/smithing)"],
+				"Level": 97,
+				"Primary": false,
+				"Priority": 1
+			},
 			"Smelt a ~|concentrated alloy bar|~": {
 				"Items": ["Bronze bar*", "Iron bar*", "Steel bar*", "Mithril bar*", "Adamant bar*", "Rune bar*", "Orikalkum bar*", "Necronium bar*", "Bane bar*", "Elder rune bar*"],
 				"Level": 99,
 				"Objects": ["Furnace[+]"],
 				"Output": "Concentrated alloy bar",
 				"Primary": true,
-				"Priority": 3,
+				"Priority": 1,
 				"Partial": true
 			},
-			"Forge ~|masterwork melee armour trim|~": {
-				"Items": ["Elder rune bar*", "Malevolent essence*", "Praesulic essence (melee)*"],
-				"Level": 99,
-				"Objects": ["Forge[+]", "Anvil[+]"],
-				"Output": "Masterwork melee armour trim",
-				"Primary": true,
-				"Priority": 4,
-				"Partial": true
-			},
-			"Forge ~|masterwork sword trim|~": {
-				"Items": ["Elder rune bar*", "Kalphite essence*", "Demonic essence*"],
-				"Level": 110,
-				"Objects": ["Forge[+]", "Anvil[+]"],
-				"Output": "Masterwork sword trim",
-				"Primary": true,
-				"Priority": 14,
-				"Partial": true
-			},
-			"Forge ~|armour spikes (alloy)|~ from a concentrated alloy bar": {
-				"Items": ["Armour spikes*", "Concentrated alloy bar*"],
-				"Level": 99,
-				"Objects": ["Forge[+]", "Anvil[+]"],
-				"Output": "Armour spikes (alloy)",
-				"Primary": true,
-				"Priority": 5
-			},
-			"Smelt a ~|glorious bar|~ from a concentrated alloy bar": {
-				"Items": ["Concentrated alloy bar*"],
+			"Smelt a ~|glorious bar|~": {
+				"Items": ["Bronze bar*", "Iron bar*", "Steel bar*", "Mithril bar*", "Adamant bar*", "Rune bar*", "Orikalkum bar*", "Necronium bar*", "Bane bar*", "Elder rune bar*"],
 				"Level": 99,
 				"Objects": ["Furnace[+]"],
 				"Output": "Glorious bar",
 				"Primary": true,
-				"Priority": 6,
+				"Priority": 2,
 				"Partial": true
 			},
 			"Forge ~|armour spikes (alloy)|~": {
@@ -65172,15 +65442,268 @@
 				"Objects": ["Forge[+]", "Anvil[+]"],
 				"Output": "Armour spikes (alloy)",
 				"Primary": true,
-				"Priority": 12
+				"Priority": 3
 			},
-			"Smelt a ~|glorious bar|~": {
-				"Items": ["Bronze bar*", "Iron bar*", "Steel bar*", "Mithril bar*", "Adamant bar*", "Rune bar*", "Orikalkum bar*", "Necronium bar*", "Bane bar*", "Elder rune bar*"],
+			"Forge a ~|glorious bar|~": {
+				"Items": ["Partially folded alloy bar*"],
+				"Level": 99,
+				"Objects": ["Forge[+]", "Anvil[+]"],
+				"Output": "Glorious bar",
+				"Primary": true,
+				"Priority": 4,
+				"Partial": true
+			},
+			"Forge the ~|prepared masterwork Spear of Annihilation|~": {
+				"Items": ["Spear of Annihilation*", "Masterwork melee armour trim*", "Glorious bar*"],
+				"Level": 99,
+				"Objects": ["Forge[+]", "Anvil[+]"],
+				"Output": "Prepared masterwork Spear of Annihilation",
+				"Primary": true,
+				"Priority": 5,
+				"Partial": true
+			},
+			"Forge the ~|masterwork Spear of Annihilation|~": {
+				"Items": ["Prepared masterwork Spear of Annihilation*", "Masterwork melee armour trim*", "Glorious bar*", "Masterwork rivets*"],
+				"Level": 99,
+				"Objects": ["Forge[+]", "Anvil[+]"],
+				"Output": "Masterwork Spear of Annihilation",
+				"Primary": true,
+				"Priority": 6
+			},
+			"Forge ~|masterwork melee armour trim|~": {
+				"Items": ["Elder rune bar*", "Malevolent essence*", "Praesulic essence (melee)*"],
+				"Level": 99,
+				"Objects": ["Forge[+]", "Anvil[+]"],
+				"Output": "Masterwork melee armour trim",
+				"Primary": true,
+				"Priority": 7,
+				"Partial": true
+			},
+			"Forge a ~|curved masterwork plate|~": {
+				"Items": ["Glorious bar*"],
+				"Level": 99,
+				"Objects": ["Forge[+]", "Anvil[+]"],
+				"Output": "Curved masterwork plate",
+				"Primary": true,
+				"Priority": 8,
+				"Partial": true
+			},
+			"Forge a ~|lined masterwork melee armour piece|~ from a glorious bar": {
+				"Items": ["Glorious bar*", "Leather*"],
+				"Level": 99,
+				"Objects": ["Forge[+]", "Anvil[+]"],
+				"Output": "Lined masterwork melee armour piece",
+				"Primary": true,
+				"Priority": 9,
+				"Partial": true
+			},
+			"Forge an ~|Orthen furnace core|~": {
+				"Tasks": {
+					"Complete the ~|Archaeology tutorial|~": "Archaeology"
+				},
+				"Items": ["Dragon burner*", "Draconic energy*", "Curved masterwork plate*", "Vital spark*", "Magic logs*", "Extra fine sand*", "Orichalcite stone spirit*", "Drakolith stone spirit*", "Tarromin incense sticks*", "Swamp tar*"],
+				"Level": 99,
+				"Objects": ["Forge[+]", "Anvil[+]"],
+				"Output": "Orthen furnace core",
+				"Skills": {
+					"Archaeology": 102
+				},
+				"Primary": true,
+				"Priority": 10
+			},
+			"Forge an ~|untempered masterwork melee armour piece|~": {
+				"Items": ["Curved masterwork plate*"],
+				"Level": 99,
+				"Objects": ["Forge[+]", "Anvil[+]"],
+				"Output": "Untempered masterwork melee armour piece",
+				"Primary": true,
+				"Priority": 11,
+				"Partial": true
+			},
+			"Forge a ~|masterwork melee armour piece|~": {
+				"Items": ["Untempered masterwork melee armour piece*"],
+				"Level": 99,
+				"Objects": ["Forge[+]", "Anvil[+]"],
+				"Output": "Masterwork melee armour piece",
+				"Primary": true,
+				"Priority": 12,
+				"Partial": true
+			},
+			"Forge a ~|lined masterwork melee armour piece|~": {
+				"Items": ["Masterwork melee armour piece*", "Leather*"],
+				"Level": 99,
+				"Objects": ["Forge[+]", "Anvil[+]"],
+				"Output": "Lined masterwork melee armour piece",
+				"Primary": true,
+				"Priority": 13,
+				"Partial": true
+			},
+			"Finish ~|masterwork|~": {
+				"Category": ["Multi Step Processing"],
+				"Items": ["Tin ore*", "Copper ore*", "Iron ore*", "Coal*", "Mithril ore*", "Adamantite ore*", "Runite ore*", "Luminite*", "Orichalcite ore*", "Drakolith*", "Necrite ore*", "Phasmatite*", "Banite ore*", "Light animica*", "Dark animica*", "Steel bar*", "Leather*"],
+				"Level": 99,
+				"Tasks": {
+					"It Should Have Been Called Aetherium*": "Nonskill"
+				},
+				"Objects": ["Forge[+]", "Anvil[+]"],
+				"Output": "MasterworkGear",
+				"Primary": true,
+				"Priority": 14
+			},
+			"Trim ~|masterwork|~": {
+				"Items": ["Masterwork melee armour trim*", "MasterworkArmour[+]*"],
+				"Level": 99,
+				"Objects": ["Forge[+]", "Anvil[+]"],
+				"Output": "TrimmedMasterwork",
+				"Primary": true,
+				"Priority": 15
+			},
+			"Forge ~|masterwork rivets|~": {
+				"Items": ["Steel bar*"],
+				"Level": 99,
+				"Objects": ["Forge[+]", "Anvil[+]"],
+				"Output": "Masterwork rivets",
+				"Primary": true,
+				"Priority": 16,
+				"Partial": true,
+				"Not F2P": true
+			},
+			"Forge a ~|masterwork ranged plate|~": {
+				"Items": ["Glorious bar*", "Praesulic essence (ranged)*", "Sirenic essence*"],
+				"Objects": ["Anvil[+]", "Forge[+]"],
+				"Level": 99,
+				"Tasks": {
+					"It Should Have Been Called Chinskin*": "Nonskill"
+				},
+				"Output": "Masterwork ranged plate",
+				"Primary": true,
+				"Priority": 17,
+				"Partial": true
+			},
+			"Extract ~|malevolent essence|~ from malevolent armour": {
+				"Items": ["MalevolentArmour[+]*"],
+				"Level": 99,
+				"Objects": ["Dragonkin anvil"],
+				"Output": "Malevolent essence",
+				"Primary": true,
+				"Priority": 100,
+				"Partial": true
+			},
+			"Extract ~|praesulic essence (melee)|~ from Torva armour": {
+				"Items": ["Torva[+]*"],
+				"Level": 99,
+				"Objects": ["Dragonkin anvil"],
+				"Output": "Praesulic essence (melee)",
+				"Primary": true,
+				"Priority": 101,
+				"Partial": true
+			},
+			"Extract ~|kalphite essence|~ from Drygore weapons": {
+				"Items": ["DrygoreWeapon[+]*"],
+				"Level": 99,
+				"Objects": ["Dragonkin anvil"],
+				"Output": "Kalphite essence",
+				"Primary": true,
+				"Priority": 102,
+				"Partial": true
+			},
+			"Extract ~|chaotic essence|~ from Chaotic weapons": {
+				"Items": ["ChaoticWeapon[+]*"],
+				"Level": 99,
+				"Objects": ["Dragonkin anvil"],
+				"Output": "Chaotic essence",
+				"Primary": true,
+				"Priority": 103,
+				"Partial": true
+			},
+			"Extract ~|demonic essence|~ from Fury weapons": {
+				"Items": ["FuryBlade[+]*"],
+				"Level": 99,
+				"Objects": ["Dragonkin anvil"],
+				"Output": "Demonic essence",
+				"Primary": true,
+				"Priority": 104,
+				"Partial": true
+			},
+			"Extract ~|noxious essence|~ from Noxious weapons": {
+				"Items": ["NoxWeapons[+]*"],
+				"Level": 99,
+				"Objects": ["Dragonkin anvil"],
+				"Output": "Noxious essence",
+				"Primary": true,
+				"Priority": 105,
+				"Partial": true
+			},
+			"Extract ~|ascended essence|~ from Ascenscion weapons": {
+				"Items": ["Ascensions[+]*"],
+				"Level": 99,
+				"Objects": ["Dragonkin anvil"],
+				"Output": "Ascended essence",
+				"Primary": true,
+				"Priority": 106,
+				"Partial": true
+			},
+			"Extract ~|melodic essence|~ from Cywir weapons": {
+				"Items": ["Wand of the Cywir elders*"],
+				"Level": 99,
+				"Skills": {
+					"Runecrafting": 99
+				},
+				"Objects": ["Dragonkin anvil"],
+				"Output": "Melodic essence",
+				"Primary": true,
+				"Priority": 107,
+				"Partial": true
+			},
+			"Extract ~|binding essence|~ from seismic weapons": {
+				"Items": ["Seismic wand*"],
+				"Level": 99,
+				"Skills": {
+					"Runecrafting": 99
+				},
+				"Objects": ["Dragonkin anvil"],
+				"Output": "Binding essence",
+				"Primary": true,
+				"Priority": 108,
+				"Partial": true
+			},
+			"Extract ~|crystalline essence|~ from attuned crystal magic weapons": {
+				"Chunks": ["8500"],
+				"Items": ["Attuned crystal weapon seed*"],
+				"Level": 99,
+				"Skills": {
+					"Runecrafting": 99
+				},
+				"Objects": ["Dragonkin anvil"],
+				"Output": "Crystalline essence",
+				"Primary": true,
+				"Priority": 109,
+				"Partial": true
+			},
+			"Extract ~|sirenic essence|~ from sirenic equipment": {
+				"Items": ["Sirenic scale*", "Algarum thread*"],
+				"Level": 99,
+				"Objects": ["Dragonkin anvil"],
+				"Output": "Sirenic essence",
+				"Primary": true,
+				"Priority": 110,
+				"Partial": true
+			},
+			"Forge ~|armour spikes (alloy)|~ from a concentrated alloy bar": {
+				"Items": ["Armour spikes*", "Concentrated alloy bar*"],
+				"Level": 99,
+				"Objects": ["Forge[+]", "Anvil[+]"],
+				"Output": "Armour spikes (alloy)",
+				"Primary": true,
+				"Priority": 1000
+			},
+			"Smelt a ~|glorious bar|~ from a concentrated alloy bar": {
+				"Items": ["Concentrated alloy bar*"],
 				"Level": 99,
 				"Objects": ["Furnace[+]"],
 				"Output": "Glorious bar",
 				"Primary": true,
-				"Priority": 25,
+				"Priority": 1001,
 				"Partial": true
 			},
 			"Smelt a ~|glorious bar|~ from an enriched alloy bar": {
@@ -65189,7 +65712,201 @@
 				"Objects": ["Furnace[+]"],
 				"Output": "Glorious bar",
 				"Primary": true,
-				"Priority": 7,
+				"Priority": 1002,
+				"Partial": true
+			},
+			"Forge a ~|glorious bar|~ from an immaculate alloy bar": {
+				"Items": ["Immaculate alloy bar*"],
+				"Level": 99,
+				"Objects": ["Forge[+]", "Anvil[+]"],
+				"Output": "Glorious bar",
+				"Primary": true,
+				"Priority": 1003,
+				"Partial": true
+			},
+			"Buy the ~|Smithing cape|~": {
+				"Category": ["Skillcape"],
+				"NPCs": ["Thurgo"],
+				"Level": 99,
+				"Output": "Smithing cape",
+				"Primary": false,
+				"NoBoost": true,
+				"Priority": 1004,
+				"Not F2P": true
+			},
+			"Forge a ~|Promethium platebody|~": {
+				"Category": ["Daemonheim tasks"],
+				"Tasks": {
+					"Unlock ~|frozen floors|~": "Dungeoneering"
+				},
+				"Level": 99,
+				"Primary": false,
+				"Priority": 1005
+			},
+			"Forge ~|masterwork rivets|~ in New Varrock": {
+				"Category": ["Multi Step Processing", "Highest Level"],
+				"Chunks": ["New Varrock"],
+				"Level": 99,
+				"Primary": true,
+				"Priority": 1006,
+				"Not F2P": true,
+				"Partial": true
+			},
+			"Smelt a ~|primal bar|~": {
+				"Items": ["Novite ore*", "Bathus ore*", "Marmaros ore*", "Kratonium ore*", "Fractite ore*", "Zephyrium ore*", "Argonite ore*", "Katagon ore*", "Gorgonite ore*", "Promethium ore*"],
+				"Level": 100,
+				"Objects": ["Furnace[+]"],
+				"Output": "Primal bar",
+				"Primary": true,
+				"Priority": 1
+			},
+			"Forge ~|primal|~": {
+				"Items": ["Primal bar*"],
+				"Level": 100,
+				"Objects": ["Forge[+]", "Anvil[+]"],
+				"Output": "PrimalGear",
+				"Primary": true,
+				"Priority": 2
+			},
+			"Forge the ~|Pickaxe of Life and Death|~": {
+				"Items": [
+					"Pickaxe of Earth and Song*", 
+					"Ensouled moonstone*", 
+					"Copper stone spirit*", 
+					"Tin stone spirit*", 
+					"Iron stone spirit*", 
+					"Coal stone spirit*", 
+					"Mithril stone spirit*", 
+					"Adamantite stone spirit*", 
+					"Runite stone spirit*", 
+					"Luminite stone spirit*", 
+					"Orichalcite stone spirit*", 
+					"Drakolith stone spirit*", 
+					"Necrite stone spirit*", 
+					"Phasmatite stone spirit*", 
+					"Banite stone spirit*", 
+					"Light animica stone spirit*", 
+					"Dark animica stone spirit*",
+					"RitualLightSource[+]*", 
+					"Basic ghostly ink*", 
+					"Regular ghostly ink*", 
+					"Greater ghostly ink*", 
+					"Uncut moonstone*", 
+					"Brown apron"
+				],
+				"Objects": [
+					"Copper rock", 
+					"Tin rock", 
+					"Iron rock", 
+					"Coal rock", 
+					"Mithril rock", 
+					"Adamantite rock", 
+					"Runite rock", 
+					"Luminite rock", 
+					"Orichalcite rock", 
+					"Drakolith rock", 
+					"Necrite rock", 
+					"Phasmatite rock", 
+					"Banite rock", 
+					"Light animica rock", 
+					"Dark animica rock", 
+					"Novite rock", 
+					"Bathus rock", 
+					"Marmaros rock", 
+					"Kratonium rock", 
+					"Fractite rock", 
+					"Zephyrium rock", 
+					"Argonite rock", 
+					"Katagon rock", 
+					"Gorgonite rock", 
+					"Promethium rock",
+					"Crashed star"
+				],
+				"Level": 100,
+				"Tasks": {
+					"Learn how to forge the Pickaxe of Life and Death": "Nonskill"
+				},
+				"Skills": {
+					"Necromancy": 90
+				},
+				"Chunks": ["Camdozaal", "14894", "City of Um"],
+				"Output": "Pickaxe of Life and Death",
+				"Primary": true,
+				"Priority": 3
+			},
+			"Forge the ~|Hatchet of Bloom and Blight|~": {
+				"Items": [
+					"Hatchet of Ember and Glade*", 
+					"Ensouled moonstone*", 
+					"Wood spirit*", 
+					"Oak wood spirit*", 
+					"Willow wood spirit*", 
+					"Teak wood spirit*", 
+					"Maple wood spirit*", 
+					"Acadia wood spirit*", 
+					"Mahogany wood spirit*", 
+					"Yew wood spirit*", 
+					"Magic wood spirit*", 
+					"Elder wood spirit*", 
+					"RitualLightSource[+]*", 
+					"Basic ghostly ink*", 
+					"Regular ghostly ink*", 
+					"Greater ghostly ink*", 
+					"Uncut moonstone*", 
+					"Brown apron"
+				],
+				"Objects": [
+					"Tree", 
+					"Oak", 
+					"Willow", 
+					"Teak", 
+					"Maple tree", 
+					"Acadia tree", 
+					"Mahogany", 
+					"Yew", 
+					"Magic tree", 
+					"Elder tree", 
+					"Eternal magic tree", 
+					"Overgrown idol#Karamja"
+				],
+				"Level": 100,
+				"Tasks": {
+					"Learn how to forge the Hatchet of Bloom and Blight": "Nonskill",
+					"~|Pieces of Hate|~ Complete the quest": "Quest"
+				},
+				"Skills": {
+					"Necromancy": 90,
+					"Woodcutting": 100,
+					"Fletching": 100
+				},
+				"Chunks": ["Camdozaal", "Braindeath Island", "City of Um"],
+				"Output": "Hatchet of Bloom and Blight",
+				"Primary": true,
+				"Priority": 4
+			},
+			"Forge a ~|primal ore box|~": {
+				"Items": ["Primal bar*", "Elder rune bar*", "Bane bar*", "Necronium bar*", "Orikalkum bar*", "Rune bar*", "Adamant bar*", "Mithril bar*", "Steel bar*", "Iron bar*", "Bronze bar*"],
+				"Level": 100,
+				"Objects": ["Forge[+]", "Anvil[+]"],
+				"Output": "Primal ore box",
+				"Primary": true,
+				"Priority": 100
+			},
+			"Smelt a ~|platinum bar|~": {
+				"Items": ["Platinum ore*"],
+				"Level": 104,
+				"Objects": ["Furnace[+]"],
+				"Output": "Platinum bar",
+				"Primary": true,
+				"Priority": 1
+			},
+			"Forge a ~|pearlescent plate|~": {
+				"Items": ["Pearlescent substrate*", "Platinum bar*"],
+				"Level": 104,
+				"Objects": ["Forge[+]", "Anvil[+]"],
+				"Output": "Pearlescent plate",
+				"Primary": true,
+				"Priority": 2,
 				"Partial": true
 			},
 			"Smelt a ~|primed glorious bar|~ from an glorious bar": {
@@ -65199,15 +65916,6 @@
 				"Output": "Primed glorious bar",
 				"Primary": true,
 				"Priority": 1,
-				"Partial": true
-			},
-			"Forge a ~|glorious bar|~ from an immaculate alloy bar": {
-				"Items": ["Immaculate alloy bar*"],
-				"Level": 99,
-				"Objects": ["Forge[+]", "Anvil[+]"],
-				"Output": "Glorious bar",
-				"Primary": true,
-				"Priority": 8,
 				"Partial": true
 			},
 			"Forge a ~|masterwork sword pommel|~": {
@@ -65308,349 +66016,14 @@
 				"Primary": true,
 				"Priority": 13
 			},
-			"Forge a ~|glorious bar|~": {
-				"Items": ["Partially folded alloy bar*"],
-				"Level": 99,
+			"Forge ~|masterwork sword trim|~": {
+				"Items": ["Elder rune bar*", "Kalphite essence*", "Demonic essence*"],
+				"Level": 110,
 				"Objects": ["Forge[+]", "Anvil[+]"],
-				"Output": "Glorious bar",
+				"Output": "Masterwork sword trim",
 				"Primary": true,
-				"Priority": 9,
+				"Priority": 14,
 				"Partial": true
-			},
-			"Forge the ~|prepared masterwork Spear of Annihilation|~": {
-				"Items": ["Spear of Annihilation*", "Masterwork melee armour trim*", "Glorious bar*"],
-				"Level": 99,
-				"Objects": ["Forge[+]", "Anvil[+]"],
-				"Output": "Prepared masterwork Spear of Annihilation",
-				"Primary": true,
-				"Priority": 10,
-				"Partial": true
-			},
-			"Forge the ~|masterwork Spear of Annihilation|~": {
-				"Items": ["Prepared masterwork Spear of Annihilation*", "Masterwork melee armour trim*", "Glorious bar*", "Masterwork rivets*"],
-				"Level": 99,
-				"Objects": ["Forge[+]", "Anvil[+]"],
-				"Output": "Masterwork Spear of Annihilation",
-				"Primary": true,
-				"Priority": 11
-			},
-			"Forge a ~|curved masterwork plate|~": {
-				"Items": ["Glorious bar*"],
-				"Level": 99,
-				"Objects": ["Forge[+]", "Anvil[+]"],
-				"Output": "Curved masterwork plate",
-				"Primary": true,
-				"Priority": 13,
-				"Partial": true
-			},
-			"Forge a ~|lined masterwork melee armour piece|~ from a glorious bar": {
-				"Items": ["Glorious bar*", "Leather*"],
-				"Level": 99,
-				"Objects": ["Forge[+]", "Anvil[+]"],
-				"Output": "Lined masterwork melee armour piece",
-				"Primary": true,
-				"Priority": 26,
-				"Partial": true
-			},
-			"Extract ~|malevolent essence|~ from malevolent armour": {
-				"Items": ["MalevolentArmour[+]*"],
-				"Level": 99,
-				"Objects": ["Dragonkin anvil"],
-				"Output": "Malevolent essence",
-				"Primary": true,
-				"Priority": 27,
-				"Partial": true
-			},
-			"Extract ~|praesulic essence (melee)|~ from Torva armour": {
-				"Items": ["Torva[+]*"],
-				"Level": 99,
-				"Objects": ["Dragonkin anvil"],
-				"Output": "Praesulic essence (melee)",
-				"Primary": true,
-				"Priority": 27,
-				"Partial": true
-			},
-			"Extract ~|kalphite essence|~ from Drygore weapons": {
-				"Items": ["DrygoreWeapon[+]*"],
-				"Level": 99,
-				"Objects": ["Dragonkin anvil"],
-				"Output": "Kalphite essence",
-				"Primary": true,
-				"Priority": 28,
-				"Partial": true
-			},
-			"Extract ~|chaotic essence|~ from Chaotic weapons": {
-				"Items": ["ChaoticWeapon[+]*"],
-				"Level": 99,
-				"Objects": ["Dragonkin anvil"],
-				"Output": "Chaotic essence",
-				"Primary": true,
-				"Priority": 29,
-				"Partial": true
-			},
-			"Extract ~|demonic essence|~ from Fury weapons": {
-				"Items": ["FuryBlade[+]*"],
-				"Level": 99,
-				"Objects": ["Dragonkin anvil"],
-				"Output": "Demonic essence",
-				"Primary": true,
-				"Priority": 29,
-				"Partial": true
-			},
-			"Extract ~|noxious essence|~ from Noxious weapons": {
-				"Items": ["NoxWeapons[+]*"],
-				"Level": 99,
-				"Objects": ["Dragonkin anvil"],
-				"Output": "Noxious essence",
-				"Primary": true,
-				"Priority": 30,
-				"Partial": true
-			},
-			"Extract ~|ascended essence|~ from Ascenscion weapons": {
-				"Items": ["Ascensions[+]*"],
-				"Level": 99,
-				"Objects": ["Dragonkin anvil"],
-				"Output": "Ascended essence",
-				"Primary": true,
-				"Priority": 31,
-				"Partial": true
-			},
-			"Extract ~|melodic essence|~ from Cywir weapons": {
-				"Items": ["Wand of the Cywir elders*"],
-				"Level": 99,
-				"Skills": {
-					"Runecrafting": 99
-				},
-				"Objects": ["Dragonkin anvil"],
-				"Output": "Melodic essence",
-				"Primary": true,
-				"Priority": 32,
-				"Partial": true
-			},
-			"Extract ~|binding essence|~ from seismic weapons": {
-				"Items": ["Seismic wand*"],
-				"Level": 99,
-				"Skills": {
-					"Runecrafting": 99
-				},
-				"Objects": ["Dragonkin anvil"],
-				"Output": "Binding essence",
-				"Primary": true,
-				"Priority": 33,
-				"Partial": true
-			},
-			"Extract ~|crystalline essence|~ from attuned crystal magic weapons": {
-				"Chunks": ["8500"],
-				"Items": ["Attuned crystal weapon seed*"],
-				"Level": 99,
-				"Skills": {
-					"Runecrafting": 99
-				},
-				"Objects": ["Dragonkin anvil"],
-				"Output": "Crystalline essence",
-				"Primary": true,
-				"Priority": 34,
-				"Partial": true
-			},
-			"Extract ~|sirenic essence|~ from sirenic equipment": {
-				"Items": ["Sirenic scale*", "Algarum thread*"],
-				"Level": 99,
-				"Objects": ["Dragonkin anvil"],
-				"Output": "Sirenic essence",
-				"Primary": true,
-				"Priority": 35,
-				"Partial": true
-			},
-			"Forge an ~|Orthen furnace core|~": {
-				"Tasks": {
-					"Complete the ~|Archaeology tutorial|~": "Archaeology"
-				},
-				"Items": ["Dragon burner*", "Draconic energy*", "Curved masterwork plate*", "Vital spark*", "Magic logs*", "Extra fine sand*", "Orichalcite stone spirit*", "Drakolith stone spirit*", "Tarromin incense sticks*", "Swamp tar*"],
-				"Level": 99,
-				"Objects": ["Forge[+]", "Anvil[+]"],
-				"Output": "Orthen furnace core",
-				"Skills": {
-					"Archaeology": 102
-				},
-				"Primary": true,
-				"Priority": 14
-			},
-			"Forge an ~|untempered masterwork melee armour piece|~": {
-				"Items": ["Curved masterwork plate*"],
-				"Level": 99,
-				"Objects": ["Forge[+]", "Anvil[+]"],
-				"Output": "Untempered masterwork melee armour piece",
-				"Primary": true,
-				"Priority": 15,
-				"Partial": true
-			},
-			"Forge a ~|masterwork melee armour piece|~": {
-				"Items": ["Untempered masterwork melee armour piece*"],
-				"Level": 99,
-				"Objects": ["Forge[+]", "Anvil[+]"],
-				"Output": "Masterwork melee armour piece",
-				"Primary": true,
-				"Priority": 16,
-				"Partial": true
-			},
-			"Forge a ~|lined masterwork melee armour piece|~": {
-				"Items": ["Masterwork melee armour piece*", "Leather*"],
-				"Level": 99,
-				"Objects": ["Forge[+]", "Anvil[+]"],
-				"Output": "Lined masterwork melee armour piece",
-				"Primary": true,
-				"Priority": 17,
-				"Partial": true
-			},
-			"Finish ~|masterwork|~": {
-				"Category": ["Multi Step Processing"],
-				"Items": ["Tin ore*", "Copper ore*", "Iron ore*", "Coal*", "Mithril ore*", "Adamantite ore*", "Runite ore*", "Luminite*", "Orichalcite ore*", "Drakolith*", "Necrite ore*", "Phasmatite*", "Banite ore*", "Light animica*", "Dark animica*", "Steel bar*", "Leather*"],
-				"Level": 99,
-				"Tasks": {
-					"It Should Have Been Called Aetherium*": "Nonskill"
-				},
-				"Objects": ["Forge[+]", "Anvil[+]"],
-				"Output": "MasterworkGear",
-				"Primary": true,
-				"Priority": 20
-			},
-			"Trim ~|masterwork|~": {
-				"Items": ["Masterwork melee armour trim*", "MasterworkArmour[+]*"],
-				"Level": 99,
-				"Objects": ["Forge[+]", "Anvil[+]"],
-				"Output": "TrimmedMasterwork",
-				"Primary": true,
-				"Priority": 21
-			},
-			"Forge a ~|Promethium platebody|~": {
-				"Category": ["Daemonheim tasks"],
-				"Tasks": {
-					"Unlock ~|frozen floors|~": "Dungeoneering"
-				},
-				"Level": 99,
-				"Primary": false,
-				"Priority": 24
-			},
-			"Forge a ~|dark ice shard|~": {
-				"Items": ["Glacor remnants*", "Dark nilas*", "Black stone heart*", "Glorious bar*"],
-				"Level": 85,
-				"Objects": ["Forge[+]", "Anvil[+]"],
-				"Output": "Dark ice shard",
-				"Skills": {
-					"Crafting": 85
-				},
-				"Primary": true,
-				"Priority": 1
-			},
-			"Forge a ~|dark ice sliver|~": {
-				"Items": ["Glacor remnants*", "Dark nilas*", "Black stone heart*", "Glorious bar*"],
-				"Level": 85,
-				"Objects": ["Forge[+]", "Anvil[+]"],
-				"Output": "Dark ice sliver",
-				"Skills": {
-					"Crafting": 85
-				},
-				"Primary": true,
-				"Priority": 2
-			},
-			"Attach an ~|arcane sigil|~ to a blessed spirit shield|~": {
-				"Items": ["Arcane sigil*", "Blessed spirit shield*"],
-				"Level": 85,
-				"Primary": true,
-				"Skills": {
-					"Prayer": 90
-				},
-				"Output": "Arcane spirit shield",
-				"Priority": 3
-			},
-			"Attach a ~|divine sigil|~ to a blessed spirit shield|~": {
-				"Items": ["Divine sigil*", "Blessed spirit shield*"],
-				"Level": 85,
-				"Primary": true,
-				"Skills": {
-					"Prayer": 90
-				},
-				"Output": "Divine spirit shield",
-				"Priority": 4
-			},
-			"Attach an ~|elysian sigil|~ to a blessed spirit shield|~": {
-				"Items": ["Elysian sigil*", "Blessed spirit shield*"],
-				"Level": 85,
-				"Primary": true,
-				"Skills": {
-					"Prayer": 90
-				},
-				"Output": "Elysian spirit shield",
-				"Priority": 5
-			},
-			"Attach a ~|spectral sigil|~ to a blessed spirit shield|~": {
-				"Items": ["Spectral sigil*", "Blessed spirit shield*"],
-				"Level": 85,
-				"Primary": true,
-				"Skills": {
-					"Prayer": 90
-				},
-				"Output": "Spectral spirit shield",
-				"Priority": 6
-			},
-			"Smith a ~|death gaurd (tier 90)|~": {
-				"Objects": ["Soul forge"],
-				"Items": ["Death guard (tier 80)", "Greater ensouled bar", "Miasma rune", "Spirit rune", "Bone rune", "Flesh rune"],
-				"Tasks": {
-					"Kili'sKnowledgeVII[+]": "Extra"
-				},
-				"Level": 85,
-				"Primary": true,
-				"Output": "Death guard (tier 90)",
-				"Priority": 7
-			},
-			"Smith a ~|skull lantern (tier 90)|~": {
-				"Objects": ["Soul forge"],
-				"Items": ["Skull lantern (tier 80)", "Greater ensouled bar", "Miasma rune", "Spirit rune", "Bone rune", "Flesh rune"],
-				"Tasks": {
-					"Kili'sKnowledgeVII[+]": "Extra"
-				},
-				"Level": 85,
-				"Primary": true,
-				"Output": "Skull lantern (tier 90)",
-				"Priority": 8
-			},
-			"Cast a ~|meteorite cannonball|~": {
-				"Level": 85,
-				"Items": ["Meteorite dust*", "Cannonball*"],
-				"Objects": ["Furnace[+]"],
-				"Tasks": {
-					"~|Dwarf Cannon|~ Complete the quest": "Quest"
-				},
-				"Output": "Meteorite cannonball",
-				"Priority": 38,
-				"Primary": true,
-				"Not F2P": true
-			},
-			"Repair the ~|Beacon Network|~ beacon near the Wilderness temple (smithing)": {
-				"Chunks": ["11835"],
-				"Items": ["Iron bar"],
-				"Level": 70,
-				"Primary": false,
-				"Priority": 4
-			},
-			"Repair the climbing pegs in burthorpe to reach the ~|Beacon Network|~ beacon": {
-				"Chunks": ["11575-1"],
-				"Items": ["Iron bar*"],
-				"Level": 56,
-				"Primary": false,
-				"Priority": 1,
-				"Not F2P": true
-			},
-			"Buy the ~|Smithing cape|~": {
-				"Category": ["Skillcape"],
-				"NPCs": ["Thurgo"],
-				"Level": 99,
-				"Output": "Smithing cape",
-				"Primary": false,
-				"NoBoost": true,
-				"Priority": 22,
-				"Not F2P": true
 			},
 			"Buy the ~|Smithing master cape|~": {
 				"Category": ["Master skillcape"],
@@ -65661,210 +66034,6 @@
 				"NoBoost": true,
 				"Priority": 3,
 				"Not F2P": true
-			},
-			"Restore a ~|Wingsuit v1|~": {
-				"Tasks": {
-					"Complete the ~|Archaeology tutorial|~": "Archaeology"
-				},
-				"Items": ["Wingsuit v1 (damaged)*", "Samite silk*", "Stormguard steel*", "Armadylean yellow*", "Leather scraps*"],
-				"Objects": ["Archaeologist's workbench"],
-				"Level": 40,
-				"Skills": {
-					"Archaeology": 76
-				},
-				"Output": "Wingsuit v1",
-				"Primary": false,
-				"Priority": 7
-			},
-			"Equip an ~|advanced smithing autoheater|~": {
-				"Items": ["Advanced smithing autoheater"],
-				"Level": 70,
-				"Primary": false,
-				"Skills": {
-					"Dungeoneering": 70
-				},
-				"Priority": 5,
-				"Not F2P": true
-			},
-			"Forge the ~|royal crossbow|~ in dragonfire": {
-				"Items": ["Royal crossbow (unforged)"],
-				"Monsters": ["Queen Black Dragon"],
-				"Level": 70,
-				"Output": "Royal crossbow",
-				"Primary": false,
-				"Priority": 6
-			},
-			"Read the ~|scroll of efficiency|~": {
-				"Items": ["Scroll of efficiency"],
-				"Level": 55,
-				"Skills": {
-					"Dungeoneering": 55
-				},
-				"Primary": false,
-				"Priority": 1,
-				"Not F2P": true
-			},
-			"Smith a ~|death gaurd (tier 60)|~": {
-				"Objects": ["Soul forge"],
-				"Items": ["Death guard (tier 50)", "Ensouled bar", "Bone rune"],
-				"Tasks": {
-					"Complete ~|Kili's Knowledge IV|~": "Extra"
-				},
-				"Level": 55,
-				"Primary": true,
-				"Output": "Death guard (tier 60)",
-				"Priority": 2
-			},
-			"Smith a ~|skull lantern (tier 60)|~": {
-				"Objects": ["Soul forge"],
-				"Items": ["Skull lantern (tier 50)", "Ensouled bar", "Bone rune"],
-				"Tasks": {
-					"Complete ~|Kili's Knowledge IV|~": "Extra"
-				},
-				"Level": 55,
-				"Primary": true,
-				"Output": "Skull lantern (tier 60)",
-				"Priority": 3
-			},
-			"Feed a ~|starved ancient effigy|~ with smithing": {
-				"Items": ["Starved ancient effigy (mining/smithing)"],
-				"Level": 91,
-				"Primary": false,
-				"Priority": 1
-			},
-			"Feed a ~|nourished ancient effigy|~ with smithing": {
-				"Items": ["Starved ancient effigy (mining/smithing)"],
-				"Level": 93,
-				"Primary": false,
-				"Priority": 1
-			},
-			"Feed a ~|sated ancient effigy|~ with smithing": {
-				"Items": ["Starved ancient effigy (mining/smithing)"],
-				"Level": 95,
-				"Primary": false,
-				"Priority": 1
-			},
-			"Feed a ~|gorged ancient effigy|~ with smithing": {
-				"Items": ["Starved ancient effigy (mining/smithing)"],
-				"Level": 97,
-				"Primary": false,
-				"Priority": 1
-			},
-			"Forge the ~|Pickaxe of Life and Death|~": {
-				"Items": [
-					"Pickaxe of Earth and Song*", 
-					"Ensouled moonstone*", 
-					"Copper stone spirit*", 
-					"Tin stone spirit*", 
-					"Iron stone spirit*", 
-					"Coal stone spirit*", 
-					"Mithril stone spirit*", 
-					"Adamantite stone spirit*", 
-					"Runite stone spirit*", 
-					"Luminite stone spirit*", 
-					"Orichalcite stone spirit*", 
-					"Drakolith stone spirit*", 
-					"Necrite stone spirit*", 
-					"Phasmatite stone spirit*", 
-					"Banite stone spirit*", 
-					"Light animica stone spirit*", 
-					"Dark animica stone spirit*",
-					"RitualLightSource[+]*", 
-					"Basic ghostly ink*", 
-					"Regular ghostly ink*", 
-					"Greater ghostly ink*", 
-					"Uncut moonstone*", 
-					"Brown apron"
-				],
-				"Objects": [
-					"Copper rock", 
-					"Tin rock", 
-					"Iron rock", 
-					"Coal rock", 
-					"Mithril rock", 
-					"Adamantite rock", 
-					"Runite rock", 
-					"Luminite rock", 
-					"Orichalcite rock", 
-					"Drakolith rock", 
-					"Necrite rock", 
-					"Phasmatite rock", 
-					"Banite rock", 
-					"Light animica rock", 
-					"Dark animica rock", 
-					"Novite rock", 
-					"Bathus rock", 
-					"Marmaros rock", 
-					"Kratonium rock", 
-					"Fractite rock", 
-					"Zephyrium rock", 
-					"Argonite rock", 
-					"Katagon rock", 
-					"Gorgonite rock", 
-					"Promethium rock",
-					"Crashed star"
-				],
-				"Level": 100,
-				"Tasks": {
-					"Learn how to forge the Pickaxe of Life and Death": "Nonskill"
-				},
-				"Skills": {
-					"Necromancy": 90
-				},
-				"Chunks": ["Camdozaal", "14894", "City of Um"],
-				"Output": "Pickaxe of Life and Death",
-				"Primary": true,
-				"Priority": 6
-			},
-			"Forge the ~|Hatchet of Bloom and Blight|~": {
-				"Items": [
-					"Hatchet of Ember and Glade*", 
-					"Ensouled moonstone*", 
-					"Wood spirit*", 
-					"Oak wood spirit*", 
-					"Willow wood spirit*", 
-					"Teak wood spirit*", 
-					"Maple wood spirit*", 
-					"Acadia wood spirit*", 
-					"Mahogany wood spirit*", 
-					"Yew wood spirit*", 
-					"Magic wood spirit*", 
-					"Elder wood spirit*", 
-					"RitualLightSource[+]*", 
-					"Basic ghostly ink*", 
-					"Regular ghostly ink*", 
-					"Greater ghostly ink*", 
-					"Uncut moonstone*", 
-					"Brown apron"
-				],
-				"Objects": [
-					"Tree", 
-					"Oak", 
-					"Willow", 
-					"Teak", 
-					"Maple tree", 
-					"Acadia tree", 
-					"Mahogany", 
-					"Yew", 
-					"Magic tree", 
-					"Elder tree", 
-					"Eternal magic tree", 
-					"Overgrown idol#Karamja"
-				],
-				"Level": 100,
-				"Tasks": {
-					"Learn how to forge the Hatchet of Bloom and Blight": "Nonskill",
-					"~|Pieces of Hate|~ Complete the quest": "Quest"
-				},
-				"Skills": {
-					"Necromancy": 90,
-					"Woodcutting": 100,
-					"Fletching": 100
-				},
-				"Chunks": ["Camdozaal", "Braindeath Island", "City of Um"],
-				"Output": "Hatchet of Bloom and Blight",
-				"Primary": true,
-				"Priority": 6
 			}
 		},
 		"Strength": {
@@ -86061,6 +86230,7 @@
 				"Tasks": {
 					"~|Hermit Permits|~ 4": "Quest"
 				},
+				"Reward": ["Crabulet"],
 				"Not F2P": true
 			},
 			"~|Hermit Permits|~ 6": {
@@ -140472,6 +140642,12 @@
 				"Label": "Follower Pets",
 				"Items": ["Star sprite"]
 			},
+			"Unlock ~|Scarlett|~": {
+				"Category": ["Permanent Unlockables", "Pets"],
+				"Label": "Follower Pets",
+				"Objects": ["Sanguine patch"],
+				"Items": ["Tainted seed"]
+			},
 			"Unlock all ~|Dundee's Crocodile Upgrades|~": {
 				"Category": ["Permanent Unlockables"],
 				"Label": "Permanent Unlockables",
@@ -142242,6 +142418,15 @@
 				"Category": ["Permanent Unlockables"],
 				"Label": "Permanent Unlockables",
 				"Items": ["Scare Tactics*"]
+			},
+			"Unlock the eternal magic trees at ~|Dalia's Tree Nursery|~": {
+				"Category": ["Permanent Unlockables"],
+				"Label": "Permanent Unlockables",
+				"Objects": ["Empty tree plot"],
+				"Chunks": ["9272-1"],
+				"Tasks": {
+					"~|The Lute of Love|~ Complete the lore activity": "Quest"
+				}
 			},
 			"Unlock the ~|Warrior of Het armour|~": {
 				"Category": ["Permanent Unlockables", "Cosmetics"],
@@ -320863,6 +321048,39 @@
 					"1": "Always"
 				},
 				"Trimmed masterwork melee platelegs": {
+					"1": "Always"
+				}
+			},
+			"Havensilver weapons": {
+				"Havensilver bolts (unf)": {
+					"1": "Always"
+				},
+				"Havensilver longsword": {
+					"1": "Always"
+				},
+				"Havensilver off-hand longsword": {
+					"1": "Always"
+				}
+			},
+			"Havensilver weapons + 1": {
+				"Havensilver greatsword + 1": {
+					"1": "Always"
+				},
+				"Havensilver longsword + 1": {
+					"1": "Always"
+				},
+				"Havensilver off-hand longsword + 1": {
+					"1": "Always"
+				}
+			},
+			"Havensilver weapons + 2": {
+				"Havensilver greatsword + 2": {
+					"1": "Always"
+				},
+				"Havensilver longsword + 2": {
+					"1": "Always"
+				},
+				"Havensilver off-hand longsword + 2": {
 					"1": "Always"
 				}
 			}
