@@ -12426,6 +12426,19 @@
 				"Primary": true,
 				"Priority": 21
 			},
+			"Build the swordfish pool at the ~|Wendlewick fish farm|~": {
+				"Items": ["Big fishing net*", "Acadia plank*", "Steel nails*"],
+				"Level": 50,
+				"Objects": ["Broken swordfish pool"],
+				"Tasks": {
+					"~|Maya Use Your Fish Farm?|~ Complete the lore activity": "Quest"
+				},
+				"Skills": {
+					"Fishing": 55
+				},
+				"Primary": false,
+				"Priority": 22
+			},
 			"Build ~|teak drawers|~": {
 				"Category": ["InsidePOH Primary"],
 				"Chunks": ["Player-owned house"],
@@ -13594,6 +13607,19 @@
 				"Primary": true,
 				"Priority": 13
 			},
+			"Build the shark pool at the ~|Wendlewick fish farm|~": {
+				"Items": ["Big fishing net*", "Yew plank*", "Adamant nails*"],
+				"Level": 70,
+				"Objects": ["Broken shark pool"],
+				"Tasks": {
+					"~|Maya Use Your Fish Farm?|~ Complete the lore activity": "Quest"
+				},
+				"Skills": {
+					"Fishing": 79
+				},
+				"Primary": false,
+				"Priority": 14
+			},
 			"Build ~|ranging pedestals|~": {
 				"Category": ["InsidePOH Primary"],
 				"Chunks": ["Player-owned house"],
@@ -14254,6 +14280,19 @@
 				"Level": 80,
 				"Primary": true,
 				"Priority": 14
+			},
+			"Build the giant crayfish pool at the ~|Wendlewick fish farm|~": {
+				"Items": ["Big fishing net*", "Magic plank*", "Rune nails*", "Bolt of cloth*"],
+				"Level": 80,
+				"Objects": ["Broken giant crayfish pool"],
+				"Tasks": {
+					"~|Maya Use Your Fish Farm?|~ Complete the lore activity": "Quest"
+				},
+				"Skills": {
+					"Fishing": 84
+				},
+				"Primary": false,
+				"Priority": 15
 			},
 			"Build a ~|gilded throne|~": {
 				"Category": ["InsidePOH Primary"],
@@ -31896,6 +31935,17 @@
 				"Primary": false,
 				"Priority": 3
 			},
+			"Fish at the ~|Wendlewick fish farm|~": {
+				"Level": 25,
+				"Tasks": {
+					"~|Maya Use Your Fish Farm?|~ Complete the lore activity": "Quest"
+				},
+				"Skills": {
+					"Fishing": 45
+				},
+				"Primary": true,
+				"Priority": 4
+			},
 			"Grow a ~|limpwurt plant|~": {
 				"Category": ["Normal Farming"],
 				"Items": ["Limpwurt seed"],
@@ -37758,6 +37808,17 @@
 				"Primary": false,
 				"Priority": 1000
 			},
+			"Fish at the ~|Wendlewick fish farm|~": {
+				"Level": 45,
+				"Tasks": {
+					"~|Maya Use Your Fish Farm?|~ Complete the lore activity": "Quest"
+				},
+				"Skills": {
+					"Fishing": 25
+				},
+				"Primary": true,
+				"Priority": 1
+			},
 			"Catch a ~|raw bass|~": {
 				"Level": 46,
 				"Objects": ["Fishing spot (big fishing net, harpoon)"],
@@ -37829,6 +37890,19 @@
 				"Objects": ["Fishing spot (lava)"],
 				"Primary": true,
 				"Output": "Raw lava eel loot",
+				"Priority": 1
+			},
+			"Build the swordfish pool at the ~|Wendlewick fish farm|~": {
+				"Items": ["Big fishing net*", "Acadia plank*", "Steel nails*"],
+				"Level": 55,
+				"Objects": ["Broken swordfish pool"],
+				"Tasks": {
+					"~|Maya Use Your Fish Farm?|~ Complete the lore activity": "Quest"
+				},
+				"Skills": {
+					"Construction": 50
+				},
+				"Primary": false,
 				"Priority": 1
 			},
 			"Catch a ~|raw tuna|~ barehanded": {
@@ -38022,6 +38096,19 @@
 				"Output": "Raw sea turtle",
 				"Priority": 1
 			},
+			"Build the shark pool at the ~|Wendlewick fish farm|~": {
+				"Items": ["Big fishing net*", "Yew plank*", "Adamant nails*"],
+				"Level": 79,
+				"Objects": ["Broken shark pool"],
+				"Tasks": {
+					"~|Maya Use Your Fish Farm?|~ Complete the lore activity": "Quest"
+				},
+				"Skills": {
+					"Construction": 50
+				},
+				"Primary": false,
+				"Priority": 2
+			},
 			"Catch a ~|raw great white shark|~": {
 				"Items": ["Great white shark bait"],
 				"Level": 80,
@@ -38062,6 +38149,19 @@
 				"Objects": ["Magical fishing spot"],
 				"Primary": true,
 				"Output": "Raw manta ray",
+				"Priority": 1
+			},
+			"Build the giant crayfish pool at the ~|Wendlewick fish farm|~": {
+				"Items": ["Big fishing net*", "Magic plank*", "Rune nails*", "Bolt of cloth*"],
+				"Level": 84,
+				"Objects": ["Broken giant crayfish pool"],
+				"Tasks": {
+					"~|Maya Use Your Fish Farm?|~ Complete the lore activity": "Quest"
+				},
+				"Skills": {
+					"Construction": 80
+				},
+				"Primary": false,
 				"Priority": 1
 			},
 			"Catch a ~|raw cavefish|~": {
@@ -41265,6 +41365,26 @@
 				"Primary": true,
 				"Priority": 2
 			},
+			"Mix ~|antisanguine|~": {
+				"Items": ["Marrentill potion (unfinished)*", "Sanguine matter*"],
+				"Level": 15,
+				"Tasks": {
+					"~|Hearts of Sanguine|~ Complete the quest": "Quest"
+				},
+				"Output": "Antisanguine (3)",
+				"Primary": true,
+				"Priority": 1
+			},
+			"Mix ~|antisanguine|~ from scratch": {
+				"Items": ["Grimy marentil*", "Vial of water", "Sanguine matter*"],
+				"Level": 15,
+				"Tasks": {
+					"~|Hearts of Sanguine|~ Complete the quest": "Quest"
+				},
+				"Output": "Antisanguine (3)",
+				"Primary": true,
+				"Priority": 2
+			},
 			"Mix an ~|antipoison mix|~": {
 				"Items": ["AntipoisonPotion[+]*", "Roe*"],
 				"Tasks": {
@@ -41273,7 +41393,7 @@
 				"Level": 15,
 				"Output": "Antipoison mix (2)",
 				"Primary": true,
-				"Priority": 1
+				"Priority": 3
 			},
 			"Mix ~|serum 207|~": {
 				"Items": ["Tarromin potion (unfinished)*", "Ashes*"],
@@ -41283,7 +41403,7 @@
 					"~|Shades of Mort'ton|~ 1": "Quest"
 				},
 				"Primary": true,
-				"Priority": 2
+				"Priority": 4
 			},
 			"Mix ~|serum 207|~ from scratch": {
 				"Chunks": ["13875-1"],
@@ -41294,7 +41414,7 @@
 					"~|Shades of Mort'ton|~ 1": "Quest"
 				},
 				"Primary": true,
-				"Priority": 3
+				"Priority": 5
 			},
 			"Sanctify ~|serum 208|~": {
 				"Chunks": ["13875-1"],
@@ -41302,7 +41422,7 @@
 				"Level": 15,
 				"Output": "Serum 208 (3)",
 				"Primary": false,
-				"Priority": 3
+				"Priority": 6
 			},
 			"Mix a ~|Guthix rest|~": {
 				"Items": ["Harralander potion (unfinished)*", "Clean marrentill*"],
@@ -44051,8 +44171,8 @@
 				"Priority": 4
 			},
 			"Catch a ~|white rabbit|~": {
-				"Items": ["Rabbit snare", "Ferret"],
-				"Objects": ["Rabbit hole"],
+				"Items": ["Rabbit snare", "Ferret[+]"],
+				"Objects": ["Rabbit burrow"],
 				"Level": 27,
 				"Output": "WhiteRabbit",
 				"Primary": true,
@@ -44167,6 +44287,14 @@
 				"Output": "Green spirit moth",
 				"Primary": true,
 				"Priority": 1
+			},
+			"Catch a ~|jackalope|~": {
+				"Items": ["Rabbit snare", "Ferret[+]"],
+				"Objects": ["Jackalope burrow"],
+				"Level": 27,
+				"Output": "Jackalope",
+				"Primary": true,
+				"Priority": 2
 			},
 			"Catch a ~|barb-tailed kebbit|~": {
 				"NPCs": ["Barb-tailed kebbit"],
@@ -66373,7 +66501,7 @@
 			}
 		},
 		"Summoning": {
-			"Create a ~|spirit wolf|~ pouch": {
+			"Create a ~|spirit wolf pouch|~": {
 				"Items": ["Gold charm*", "Wolf bones*", "Pouch*", "Spirit shard*"],
 				"Level": 1,
 				"Objects": ["Obelisk"],
@@ -66381,7 +66509,7 @@
 				"Primary": true,
 				"Priority": 1
 			},
-			"Create a ~|dreadfowl|~ pouch": {
+			"Create a ~|dreadfowl pouch|~": {
 				"Items": ["Gold charm*", "Raw chicken*", "Pouch*", "Spirit shard*"],
 				"Level": 4,
 				"Objects": ["Obelisk"],
@@ -66389,7 +66517,7 @@
 				"Primary": true,
 				"Priority": 1
 			},
-			"Create a ~|spirit spider|~ pouch": {
+			"Create a ~|spirit spider pouch|~": {
 				"Items": ["Gold charm*", "Spider carcass*", "Pouch*", "Spirit shard*"],
 				"Level": 10,
 				"Objects": ["Obelisk"],
@@ -66397,7 +66525,7 @@
 				"Primary": true,
 				"Priority": 1
 			},
-			"Create a ~|thorny snail|~ pouch": {
+			"Create a ~|thorny snail pouch|~": {
 				"Items": ["Gold charm*", "Thin snail*", "Pouch*", "Spirit shard*"],
 				"Level": 13,
 				"Objects": ["Obelisk"],
@@ -66405,7 +66533,7 @@
 				"Primary": true,
 				"Priority": 1
 			},
-			"Create a ~|granite crab|~ pouch": {
+			"Create a ~|granite crab pouch|~": {
 				"Items": ["Gold charm*", "Iron ore*", "Pouch*", "Spirit shard*"],
 				"Level": 16,
 				"Objects": ["Obelisk"],
@@ -66413,7 +66541,7 @@
 				"Primary": true,
 				"Priority": 1
 			},
-			"Create a ~|spirit mosquito|~ pouch": {
+			"Create a ~|spirit mosquito pouch|~": {
 				"Items": ["Gold charm*", "Proboscis*", "Pouch*", "Spirit shard*"],
 				"Level": 17,
 				"Objects": ["Obelisk"],
@@ -66421,7 +66549,7 @@
 				"Primary": true,
 				"Priority": 1
 			},
-			"Create a ~|desert wyrm|~ pouch": {
+			"Create a ~|desert wyrm pouch|~": {
 				"Items": ["Green charm*", "Bucket of sand*", "Pouch*", "Spirit shard*"],
 				"Level": 18,
 				"Objects": ["Obelisk"],
@@ -66429,7 +66557,7 @@
 				"Primary": true,
 				"Priority": 1
 			},
-			"Create a ~|spirit scorpion|~ pouch": {
+			"Create a ~|spirit scorpion pouch|~": {
 				"Items": ["Crimson charm*", "Bronze claws*", "Pouch*", "Spirit shard*"],
 				"Level": 19,
 				"Objects": ["Obelisk"],
@@ -66437,7 +66565,7 @@
 				"Primary": true,
 				"Priority": 1
 			},
-			"Create a ~|spirit Tz-Kih|~ pouch": {
+			"Create a ~|spirit Tz-Kih pouch|~": {
 				"Items": ["Crimson charm*", "Obsidian charm*", "Pouch*", "Spirit shard*"],
 				"Level": 22,
 				"Objects": ["Obelisk"],
@@ -66445,7 +66573,7 @@
 				"Primary": true,
 				"Priority": 1
 			},
-			"Create a ~|albino rat|~ pouch": {
+			"Create a ~|albino rat pouch|~": {
 				"Items": ["Blue charm*", "Raw rat meat*", "Pouch*", "Spirit shard*"],
 				"Level": 23,
 				"Objects": ["Obelisk"],
@@ -66453,7 +66581,7 @@
 				"Primary": true,
 				"Priority": 1
 			},
-			"Create a ~|spirit kalphite|~ pouch": {
+			"Create a ~|spirit kalphite pouch|~": {
 				"Items": ["Blue charm*", "Potato cactus*", "Pouch*", "Spirit shard*"],
 				"Level": 25,
 				"Objects": ["Obelisk"],
@@ -66461,7 +66589,7 @@
 				"Primary": true,
 				"Priority": 1
 			},
-			"Create a ~|compost mound|~ pouch": {
+			"Create a ~|compost mound pouch|~": {
 				"Items": ["Green charm*", "Compost*", "Pouch*", "Spirit shard*"],
 				"Level": 28,
 				"Objects": ["Obelisk"],
@@ -66469,7 +66597,7 @@
 				"Primary": true,
 				"Priority": 1
 			},
-			"Create a ~|giant chinchompa|~ pouch": {
+			"Create a ~|giant chinchompa pouch|~": {
 				"Items": ["Blue charm*", "Chinchompa*", "Pouch*", "Spirit shard*"],
 				"Level": 29,
 				"Objects": ["Obelisk"],
@@ -66477,7 +66605,23 @@
 				"Primary": true,
 				"Priority": 1
 			},
-			"Create a ~|vampyre bat|~ pouch": {
+			"Create a ~|jackalope pouch|~": {
+				"Items": ["Gold charm*", "Jackalope antlers*", "Pouch*", "Spirit shard*"],
+				"Level": 30,
+				"Objects": ["Obelisk"],
+				"Output": "Jackalope pouch",
+				"Primary": true,
+				"Priority": 1
+			},
+			"Create a ~|jackalope scroll (Dig for Soil)|~": {
+				"Items": ["Jackalope scroll (Dig for Soil)*"],
+				"Level": 30,
+				"Objects": ["Obelisk"],
+				"Output": "Jackalope scroll (Dig for Soil)",
+				"Primary": true,
+				"Priority": 2
+			},
+			"Create a ~|vampyre bat pouch|~": {
 				"Items": ["Crimson charm*", "Vampyre dust*", "Pouch*", "Spirit shard*"],
 				"Level": 31,
 				"Objects": ["Obelisk"],
@@ -66485,7 +66629,7 @@
 				"Primary": true,
 				"Priority": 1
 			},
-			"Create a ~|honey badger|~ pouch": {
+			"Create a ~|honey badger pouch|~": {
 				"Items": ["Crimson charm*", "Honeycomb*", "Pouch*", "Spirit shard*"],
 				"Level": 32,
 				"Objects": ["Obelisk"],
@@ -66493,7 +66637,7 @@
 				"Primary": true,
 				"Priority": 1
 			},
-			"Create a ~|beaver|~ pouch": {
+			"Create a ~|beaver pouch|~": {
 				"Items": ["Green charm*", "Willow logs*", "Pouch*", "Spirit shard*"],
 				"Level": 33,
 				"Objects": ["Obelisk"],
@@ -66501,7 +66645,7 @@
 				"Primary": true,
 				"Priority": 1
 			},
-			"Create a ~|void ravager|~ pouch": {
+			"Create a ~|void ravager pouch|~": {
 				"Items": ["Green charm*", "Ravager charm*", "Pouch*", "Spirit shard*"],
 				"Level": 34,
 				"Objects": ["Obelisk"],
@@ -66509,7 +66653,7 @@
 				"Primary": true,
 				"Priority": 2
 			},
-			"Create a ~|void shifter|~ pouch": {
+			"Create a ~|void shifter pouch|~": {
 				"Items": ["Blue charm*", "Shifter charm*", "Pouch*", "Spirit shard*"],
 				"Level": 34,
 				"Objects": ["Obelisk"],
@@ -66517,7 +66661,7 @@
 				"Primary": true,
 				"Priority": 1
 			},
-			"Create a ~|void spinner|~ pouch": {
+			"Create a ~|void spinner pouch|~": {
 				"Items": ["Blue charm*", "Spinner charm*", "Pouch*", "Spirit shard*"],
 				"Level": 34,
 				"Objects": ["Obelisk"],
@@ -66525,7 +66669,7 @@
 				"Primary": true,
 				"Priority": 3
 			},
-			"Create a ~|void torcher|~ pouch": {
+			"Create a ~|void torcher pouch|~": {
 				"Items": ["Blue charm*", "Torcher charm*", "Pouch*", "Spirit shard*"],
 				"Level": 34,
 				"Objects": ["Obelisk"],
@@ -66533,7 +66677,7 @@
 				"Primary": true,
 				"Priority": 4
 			},
-			"Create a ~|bronze minotaur|~ pouch": {
+			"Create a ~|bronze minotaur pouch|~": {
 				"Items": ["Blue charm*", "Bronze bar*", "Pouch*", "Spirit shard*"],
 				"Level": 36,
 				"Objects": ["Obelisk"],
@@ -66541,7 +66685,7 @@
 				"Primary": true,
 				"Priority": 1
 			},
-			"Create a ~|bull ant|~ pouch": {
+			"Create a ~|bull ant pouch|~": {
 				"Items": ["Gold charm*", "Marigolds*", "Pouch*", "Spirit shard*"],
 				"Level": 40,
 				"Objects": ["Obelisk"],
@@ -66549,7 +66693,7 @@
 				"Primary": true,
 				"Priority": 1
 			},
-			"Create a ~|macaw|~ pouch": {
+			"Create a ~|macaw pouch|~": {
 				"Items": ["Green charm*", "Clean guam*", "Pouch*", "Spirit shard*"],
 				"Level": 41,
 				"Objects": ["Obelisk"],
@@ -66557,7 +66701,7 @@
 				"Primary": true,
 				"Priority": 1
 			},
-			"Create a ~|evil turnip (familiar)|~ pouch": {
+			"Create a ~|evil turnip (familiar) pouch|~": {
 				"Items": ["Crimson charm*", "Carved evil turnip*", "Pouch*", "Spirit shard*"],
 				"Level": 42,
 				"Objects": ["Obelisk"],
@@ -66565,7 +66709,7 @@
 				"Primary": true,
 				"Priority": 1
 			},
-			"Create a ~|spirit cockatrice|~ pouch": {
+			"Create a ~|spirit cockatrice pouch|~": {
 				"Items": ["Green charm*", "Cockatrice egg*", "Pouch*", "Spirit shard*"],
 				"Level": 43,
 				"Objects": ["Obelisk"],
@@ -66573,7 +66717,7 @@
 				"Primary": true,
 				"Priority": 1
 			},
-			"Create a ~|spirit guthatrice|~ pouch": {
+			"Create a ~|spirit guthatrice pouch|~": {
 				"Items": ["Green charm*", "Guthatrice egg*", "Pouch*", "Spirit shard*"],
 				"Level": 43,
 				"Objects": ["Obelisk"],
@@ -66581,7 +66725,7 @@
 				"Primary": true,
 				"Priority": 2
 			},
-			"Create a ~|spirit saratrice|~ pouch": {
+			"Create a ~|spirit saratrice pouch|~": {
 				"Items": ["Green charm*", "Saratrice egg*", "Pouch*", "Spirit shard*"],
 				"Level": 43,
 				"Objects": ["Obelisk"],
@@ -66589,7 +66733,7 @@
 				"Primary": true,
 				"Priority": 3
 			},
-			"Create a ~|spirit zamatrice|~ pouch": {
+			"Create a ~|spirit zamatrice pouch|~": {
 				"Items": ["Green charm*", "Zamatrice egg*", "Pouch*", "Spirit shard*"],
 				"Level": 43,
 				"Objects": ["Obelisk"],
@@ -66597,7 +66741,7 @@
 				"Primary": true,
 				"Priority": 4
 			},
-			"Create a ~|spirit pengatrice|~ pouch": {
+			"Create a ~|spirit pengatrice pouch|~": {
 				"Items": ["Green charm*", "Pengatrice egg*", "Pouch*", "Spirit shard*"],
 				"Level": 43,
 				"Objects": ["Obelisk"],
@@ -66605,7 +66749,7 @@
 				"Primary": true,
 				"Priority": 5
 			},
-			"Create a ~|spirit coraxatrice|~ pouch": {
+			"Create a ~|spirit coraxatrice pouch|~": {
 				"Items": ["Green charm*", "Coraxatrice egg*", "Pouch*", "Spirit shard*"],
 				"Level": 43,
 				"Objects": ["Obelisk"],
@@ -66613,7 +66757,7 @@
 				"Primary": true,
 				"Priority": 6
 			},
-			"Create a ~|spirit vulatrice|~ pouch": {
+			"Create a ~|spirit vulatrice pouch|~": {
 				"Items": ["Green charm*", "Vulatrice egg*", "Pouch*", "Spirit shard*"],
 				"Level": 43,
 				"Objects": ["Obelisk"],
@@ -66621,7 +66765,7 @@
 				"Primary": true,
 				"Priority": 7
 			},
-			"Create a ~|iron minotaur|~ pouch": {
+			"Create a ~|iron minotaur pouch|~": {
 				"Items": ["Blue charm*", "Iron bar*", "Pouch*", "Spirit shard*"],
 				"Level": 46,
 				"Objects": ["Obelisk"],
@@ -66629,7 +66773,7 @@
 				"Primary": true,
 				"Priority": 1
 			},
-			"Create a ~|pyrelord|~ pouch": {
+			"Create a ~|pyrelord pouch|~": {
 				"Items": ["Crimson charm*", "Tinderbox*", "Pouch*", "Spirit shard*"],
 				"Level": 46,
 				"Objects": ["Obelisk"],
@@ -66637,7 +66781,7 @@
 				"Primary": true,
 				"Priority": 2
 			},
-			"Create a ~|magpie|~ pouch": {
+			"Create a ~|magpie pouch|~": {
 				"Items": ["Green charm*", "Gold ring*", "Pouch*", "Spirit shard*"],
 				"Level": 47,
 				"Objects": ["Obelisk"],
@@ -66645,7 +66789,7 @@
 				"Primary": true,
 				"Priority": 1
 			},
-			"Create a ~|bloated leech|~ pouch": {
+			"Create a ~|bloated leech pouch|~": {
 				"Items": ["Crimson charm*", "Raw beef*", "Pouch*", "Spirit shard*"],
 				"Level": 49,
 				"Objects": ["Obelisk"],
@@ -66653,7 +66797,7 @@
 				"Primary": true,
 				"Priority": 1
 			},
-			"Create a ~|spirit terrorbird|~ pouch": {
+			"Create a ~|spirit terrorbird pouch|~": {
 				"Items": ["Gold charm*", "Raw bird meat*", "Pouch*", "Spirit shard*"],
 				"Level": 52,
 				"Objects": ["Obelisk"],
@@ -66661,7 +66805,7 @@
 				"Primary": true,
 				"Priority": 1
 			},
-			"Create a ~|abyssal parasite|~ pouch": {
+			"Create a ~|abyssal parasite pouch|~": {
 				"Items": ["Green charm*", "Abyssal charm*", "Pouch*", "Spirit shard*"],
 				"Level": 54,
 				"Objects": ["Obelisk"],
@@ -66669,7 +66813,7 @@
 				"Primary": true,
 				"Priority": 1
 			},
-			"Create a ~|spirit jelly|~ pouch": {
+			"Create a ~|spirit jelly pouch|~": {
 				"Items": ["Blue charm*", "Jug of water*", "Pouch*", "Spirit shard*"],
 				"Level": 55,
 				"Objects": ["Obelisk"],
@@ -66677,7 +66821,7 @@
 				"Primary": true,
 				"Priority": 1
 			},
-			"Create a ~|ibis|~ pouch": {
+			"Create a ~|ibis pouch|~": {
 				"Items": ["Green charm*", "Harpoon*", "Pouch*", "Spirit shard*"],
 				"Level": 56,
 				"Objects": ["Obelisk"],
@@ -66685,7 +66829,7 @@
 				"Primary": true,
 				"Priority": 1
 			},
-			"Create a ~|steel minotaur|~ pouch": {
+			"Create a ~|steel minotaur pouch|~": {
 				"Items": ["Blue charm*", "Steel bar*", "Pouch*", "Spirit shard*"],
 				"Level": 56,
 				"Objects": ["Obelisk"],
@@ -66693,7 +66837,7 @@
 				"Primary": true,
 				"Priority": 2
 			},
-			"Create a ~|spirit graahk|~ pouch": {
+			"Create a ~|spirit graahk pouch|~": {
 				"Items": ["Blue charm*", "Graahk fur*", "Pouch*", "Spirit shard*"],
 				"Level": 57,
 				"Objects": ["Obelisk"],
@@ -66701,7 +66845,7 @@
 				"Primary": true,
 				"Priority": 1
 			},
-			"Create a ~|spirit kyatt|~ pouch": {
+			"Create a ~|spirit kyatt pouch|~": {
 				"Items": ["Blue charm*", "Kyatt fur*", "Pouch*", "Spirit shard*"],
 				"Level": 57,
 				"Objects": ["Obelisk"],
@@ -66709,7 +66853,7 @@
 				"Primary": true,
 				"Priority": 2
 			},
-			"Create a ~|spirit larupia|~ pouch": {
+			"Create a ~|spirit larupia pouch|~": {
 				"Items": ["Blue charm*", "Larupia fur*", "Pouch*", "Spirit shard*"],
 				"Level": 57,
 				"Objects": ["Obelisk"],
@@ -66717,7 +66861,7 @@
 				"Primary": true,
 				"Priority": 3
 			},
-			"Create a ~|Karam. overlord|~ pouch": {
+			"Create a ~|Karam. overlord pouch|~": {
 				"Items": ["Blue charm*", "Fishbowl*", "Pouch*", "Spirit shard*"],
 				"Level": 58,
 				"Objects": ["Obelisk"],
@@ -66725,7 +66869,7 @@
 				"Primary": true,
 				"Priority": 1
 			},
-			"Create a ~|smoke devil|~ pouch": {
+			"Create a ~|smoke devil pouch|~": {
 				"Items": ["Crimson charm*", "Goat horn dust*", "Pouch*", "Spirit shard*"],
 				"Level": 61,
 				"Objects": ["Obelisk"],
@@ -66733,7 +66877,7 @@
 				"Primary": true,
 				"Priority": 1
 			},
-			"Create a ~|abyssal lurker|~ pouch": {
+			"Create a ~|abyssal lurker pouch|~": {
 				"Items": ["Green charm*", "Abyssal charm*", "Pouch*", "Spirit shard*"],
 				"Level": 62,
 				"Objects": ["Obelisk"],
@@ -66741,7 +66885,7 @@
 				"Primary": true,
 				"Priority": 1
 			},
-			"Create a ~|spirit cobra|~ pouch": {
+			"Create a ~|spirit cobra pouch|~": {
 				"Items": ["Crimson charm*", "Snake hide*", "Pouch*", "Spirit shard*"],
 				"Level": 63,
 				"Objects": ["Obelisk"],
@@ -66749,7 +66893,7 @@
 				"Primary": true,
 				"Priority": 1
 			},
-			"Create a ~|stranger plant|~ pouch": {
+			"Create a ~|stranger plant pouch|~": {
 				"Items": ["Crimson charm*", "Bagged plant 1*", "Pouch*", "Spirit shard*"],
 				"Level": 64,
 				"Objects": ["Obelisk"],
@@ -66757,7 +66901,7 @@
 				"Primary": true,
 				"Priority": 1
 			},
-			"Create a ~|barker toad|~ pouch": {
+			"Create a ~|barker toad pouch|~": {
 				"Items": ["Gold charm*", "Swamp toad*", "Pouch*", "Spirit shard*"],
 				"Level": 66,
 				"Objects": ["Obelisk"],
@@ -66765,7 +66909,7 @@
 				"Primary": true,
 				"Priority": 1
 			},
-			"Create a ~|mithril minotaur|~ pouch": {
+			"Create a ~|mithril minotaur pouch|~": {
 				"Items": ["Blue charm*", "Mithril bar*", "Pouch*", "Spirit shard*"],
 				"Level": 66,
 				"Objects": ["Obelisk"],
@@ -66773,7 +66917,7 @@
 				"Primary": true,
 				"Priority": 2
 			},
-			"Create a ~|war tortoise|~ pouch": {
+			"Create a ~|war tortoise pouch|~": {
 				"Items": ["Gold charm*", "Tortoise shell*", "Pouch*", "Spirit shard*"],
 				"Level": 67,
 				"Objects": ["Obelisk"],
@@ -66781,7 +66925,7 @@
 				"Primary": true,
 				"Priority": 1
 			},
-			"Create a ~|bunyip|~ pouch": {
+			"Create a ~|bunyip pouch|~": {
 				"Items": ["Green charm*", "Raw shark*", "Pouch*", "Spirit shard*"],
 				"Level": 68,
 				"Objects": ["Obelisk"],
@@ -66789,7 +66933,7 @@
 				"Primary": true,
 				"Priority": 1
 			},
-			"Create a ~|fruit bat|~ pouch": {
+			"Create a ~|fruit bat pouch|~": {
 				"Items": ["Green charm*", "Banana*", "Pouch*", "Spirit shard*"],
 				"Level": 69,
 				"Objects": ["Obelisk"],
@@ -66797,7 +66941,7 @@
 				"Primary": true,
 				"Priority": 1
 			},
-			"Create a ~|ravenous locust|~ pouch": {
+			"Create a ~|ravenous locust pouch|~": {
 				"Items": ["Crimson charm*", "Pot of flour*", "Pouch*", "Spirit shard*"],
 				"Level": 70,
 				"Objects": ["Obelisk"],
@@ -66805,7 +66949,7 @@
 				"Primary": true,
 				"Priority": 1
 			},
-			"Create a ~|arctic bear|~ pouch": {
+			"Create a ~|arctic bear pouch|~": {
 				"Items": ["Gold charm*", "Polar kebbit fur*", "Pouch*", "Spirit shard*"],
 				"Level": 71,
 				"Objects": ["Obelisk"],
@@ -66813,7 +66957,7 @@
 				"Primary": true,
 				"Priority": 1
 			},
-			"Create a ~|phoenix (familiar)|~ pouch": {
+			"Create a ~|phoenix (familiar) pouch|~": {
 				"Items": ["Crimson charm*", "Phoenix quill*", "Pouch*", "Spirit shard*"],
 				"Level": 72,
 				"Objects": ["Obelisk"],
@@ -66821,7 +66965,7 @@
 				"Primary": true,
 				"Priority": 1
 			},
-			"Create a ~|obsidian golem|~ pouch": {
+			"Create a ~|obsidian golem pouch|~": {
 				"Items": ["Blue charm*", "Obsidian charm*", "Pouch*", "Spirit shard*"],
 				"Level": 73,
 				"Objects": ["Obelisk"],
@@ -66829,7 +66973,7 @@
 				"Primary": true,
 				"Priority": 1
 			},
-			"Create a ~|granite lobster|~ pouch": {
+			"Create a ~|granite lobster pouch|~": {
 				"Items": ["Crimson charm*", "Granite (500g)*", "Pouch*", "Spirit shard*"],
 				"Level": 74,
 				"Objects": ["Obelisk"],
@@ -66837,7 +66981,7 @@
 				"Primary": true,
 				"Priority": 1
 			},
-			"Create a ~|praying mantis|~ pouch": {
+			"Create a ~|praying mantis pouch|~": {
 				"Items": ["Crimson charm*", "Red flowers*", "Pouch*", "Spirit shard*"],
 				"Level": 75,
 				"Objects": ["Obelisk"],
@@ -66845,7 +66989,7 @@
 				"Primary": true,
 				"Priority": 1
 			},
-			"Create a ~|forge regent|~ pouch": {
+			"Create a ~|forge regent pouch|~": {
 				"Items": ["Green charm*", "Ruby harvest*", "Pouch*", "Spirit shard*"],
 				"Level": 76,
 				"Objects": ["Obelisk"],
@@ -66853,7 +66997,7 @@
 				"Primary": true,
 				"Priority": 1
 			},
-			"Create a ~|adamant minotaur|~ pouch": {
+			"Create a ~|adamant minotaur pouch|~": {
 				"Items": ["Blue charm*", "Adamant bar*", "Pouch*", "Spirit shard*"],
 				"Level": 76,
 				"Objects": ["Obelisk"],
@@ -66861,7 +67005,7 @@
 				"Primary": true,
 				"Priority": 2
 			},
-			"Create a ~|talon beast|~ pouch": {
+			"Create a ~|talon beast pouch|~": {
 				"Items": ["Crimson charm*", "Talon beast charm*", "Pouch*", "Spirit shard*"],
 				"Level": 77,
 				"Objects": ["Obelisk"],
@@ -66869,7 +67013,7 @@
 				"Primary": true,
 				"Priority": 1
 			},
-			"Create a ~|giant ent|~ pouch": {
+			"Create a ~|giant ent pouch|~": {
 				"Items": ["Green charm*", "Willow branch*", "Pouch*", "Spirit shard*"],
 				"Level": 78,
 				"Objects": ["Obelisk"],
@@ -66877,7 +67021,7 @@
 				"Primary": true,
 				"Priority": 1
 			},
-			"Create a ~|fire titan|~ pouch": {
+			"Create a ~|fire titan pouch|~": {
 				"Items": ["Blue charm*", "Fire talisman*", "Pouch*", "Spirit shard*"],
 				"Level": 79,
 				"Objects": ["Obelisk"],
@@ -66885,7 +67029,7 @@
 				"Primary": true,
 				"Priority": 1
 			},
-			"Create a ~|moss titan|~ pouch": {
+			"Create a ~|moss titan pouch|~": {
 				"Items": ["Blue charm*", "Earth talisman*", "Pouch*", "Spirit shard*"],
 				"Level": 79,
 				"Objects": ["Obelisk"],
@@ -66893,7 +67037,7 @@
 				"Primary": true,
 				"Priority": 2
 			},
-			"Create a ~|ice titan|~ pouch": {
+			"Create a ~|ice titan pouch|~": {
 				"Items": ["Blue charm*", "Air talisman*", "Water talisman*", "Pouch*", "Spirit shard*"],
 				"Level": 79,
 				"Objects": ["Obelisk"],
@@ -66901,7 +67045,7 @@
 				"Primary": true,
 				"Priority": 3
 			},
-			"Create a ~|hydra|~ pouch": {
+			"Create a ~|hydra pouch|~": {
 				"Items": ["Green charm*", "Water orb*", "Pouch*", "Spirit shard*"],
 				"Level": 80,
 				"Objects": ["Obelisk"],
@@ -66909,7 +67053,7 @@
 				"Primary": true,
 				"Priority": 1
 			},
-			"Create a ~|demon brawler|~ pouch": {
+			"Create a ~|demon brawler pouch|~": {
 				"Items": ["Crimson charm*", "Demon claw*", "Pouch*", "Spirit shard*"],
 				"Level": 82,
 				"Objects": ["Obelisk"],
@@ -66917,7 +67061,7 @@
 				"Primary": true,
 				"Priority": 1
 			},
-			"Create a ~|demon deacon|~ pouch": {
+			"Create a ~|demon deacon pouch|~": {
 				"Items": ["Crimson charm*", "Demon claw*", "Pouch*", "Spirit shard*"],
 				"Level": 82,
 				"Objects": ["Obelisk"],
@@ -66925,7 +67069,7 @@
 				"Primary": true,
 				"Priority": 2
 			},
-			"Create a ~|demon executioner|~ pouch": {
+			"Create a ~|demon executioner pouch|~": {
 				"Items": ["Crimson charm*", "Demon claw*", "Pouch*", "Spirit shard*"],
 				"Level": 82,
 				"Objects": ["Obelisk"],
@@ -66933,7 +67077,7 @@
 				"Primary": true,
 				"Priority": 3
 			},
-			"Create a ~|spirit dagannoth|~ pouch": {
+			"Create a ~|spirit dagannoth pouch|~": {
 				"Items": ["Crimson charm*", "Dagannoth hide*", "Pouch*", "Spirit shard*"],
 				"Level": 83,
 				"Objects": ["Obelisk"],
@@ -66941,7 +67085,7 @@
 				"Primary": true,
 				"Priority": 1
 			},
-			"Create a ~|lava titan|~ pouch": {
+			"Create a ~|lava titan pouch|~": {
 				"Items": ["Blue charm*", "Obsidian charm*", "Pouch*", "Spirit shard*"],
 				"Level": 83,
 				"Objects": ["Obelisk"],
@@ -66949,7 +67093,7 @@
 				"Primary": true,
 				"Priority": 2
 			},
-			"Create a ~|reborn phoenix|~ pouch": {
+			"Create a ~|reborn phoenix pouch|~": {
 				"Items": ["Crimson charm*", "Phoenix quill*", "Pouch*", "Spirit shard*"],
 				"Level": 84,
 				"Objects": ["Obelisk"],
@@ -66957,7 +67101,7 @@
 				"Primary": true,
 				"Priority": 4
 			},
-			"Create a ~|swamp titan|~ pouch": {
+			"Create a ~|swamp titan pouch|~": {
 				"Items": ["Crimson charm*", "Green salamander*", "Pouch*", "Spirit shard*"],
 				"Level": 85,
 				"Objects": ["Obelisk"],
@@ -66965,7 +67109,7 @@
 				"Primary": true,
 				"Priority": 1
 			},
-			"Create a ~|rune minotaur|~ pouch": {
+			"Create a ~|rune minotaur pouch|~": {
 				"Items": ["Blue charm*", "Rune bar*", "Pouch*", "Spirit shard*"],
 				"Level": 86,
 				"Objects": ["Obelisk"],
@@ -66973,7 +67117,7 @@
 				"Primary": true,
 				"Priority": 1
 			},
-			"Create a ~|unicorn stallion|~ pouch": {
+			"Create a ~|unicorn stallion pouch|~": {
 				"Items": ["Green charm*", "Unicorn horn*", "Pouch*", "Spirit shard*"],
 				"Level": 88,
 				"Objects": ["Obelisk"],
@@ -66981,7 +67125,7 @@
 				"Primary": true,
 				"Priority": 1
 			},
-			"Create a ~|light creature (familiar)|~ pouch": {
+			"Create a ~|light creature (familiar) pouch|~": {
 				"Items": ["Blue charm*", "Light core*", "Pouch*", "Spirit shard*"],
 				"Level": 88,
 				"Objects": ["Obelisk"],
@@ -66989,7 +67133,7 @@
 				"Primary": true,
 				"Priority": 2
 			},
-			"Create a ~|geyser titan|~ pouch": {
+			"Create a ~|geyser titan pouch|~": {
 				"Items": ["Blue charm*", "Water talisman*", "Pouch*", "Spirit shard*"],
 				"Level": 89,
 				"Objects": ["Obelisk"],
@@ -66997,7 +67141,7 @@
 				"Primary": true,
 				"Priority": 1
 			},
-			"Create a ~|wolpertinger|~ pouch": {
+			"Create a ~|wolpertinger pouch|~": {
 				"Items": ["Crimson charm*", "Raw rabbit*", "Wolf bones*", "Pouch*", "Spirit shard*"],
 				"Level": 92,
 				"Objects": ["Obelisk"],
@@ -67005,7 +67149,7 @@
 				"Primary": true,
 				"Priority": 1
 			},
-			"Create a ~|abyssal titan|~ pouch": {
+			"Create a ~|abyssal titan pouch|~": {
 				"Items": ["Green charm*", "Abyssal charm*", "Pouch*", "Spirit shard*"],
 				"Level": 93,
 				"Objects": ["Obelisk"],
@@ -67013,7 +67157,7 @@
 				"Primary": true,
 				"Priority": 1
 			},
-			"Create a ~|iron titan|~ pouch": {
+			"Create a ~|iron titan pouch|~": {
 				"Items": ["Crimson charm*", "Iron ingot*", "Pouch*", "Spirit shard*"],
 				"Level": 95,
 				"Objects": ["Obelisk"],
@@ -67021,7 +67165,7 @@
 				"Primary": true,
 				"Priority": 1
 			},
-			"Create a ~|pack yak|~ pouch": {
+			"Create a ~|pack yak pouch|~": {
 				"Items": ["Crimson charm*", "Yak-hide*", "Pouch*", "Spirit shard*"],
 				"Level": 96,
 				"Objects": ["Obelisk"],
@@ -67029,7 +67173,7 @@
 				"Primary": true,
 				"Priority": 1
 			},
-			"Create a ~|pack mammoth|~ pouch": {
+			"Create a ~|pack mammoth pouch|~": {
 				"Items": ["Crimson charm*", "Mammoth tusk*", "Pouch*", "Spirit shard*"],
 				"Level": 99,
 				"Objects": ["Obelisk"],
@@ -67037,7 +67181,7 @@
 				"Primary": true,
 				"Priority": 2
 			},
-			"Create a ~|steel titan|~ pouch": {
+			"Create a ~|steel titan pouch|~": {
 				"Items": ["Crimson charm*", "Steel ingot*", "Pouch*", "Spirit shard*"],
 				"Level": 99,
 				"Objects": ["Obelisk"],
@@ -67045,7 +67189,7 @@
 				"Primary": true,
 				"Priority": 3
 			},
-			"Create a ~|nightmare muspah|~ pouch": {
+			"Create a ~|nightmare muspah pouch|~": {
 				"Items": ["Elder charm*", "Muspah spine*", "Pouch*", "Elder energy*"],
 				"Level": 81,
 				"Objects": ["Obelisk"],
@@ -67053,7 +67197,7 @@
 				"Primary": true,
 				"Priority": 1
 			},
-			"Create a ~|blood nihil|~ pouch": {
+			"Create a ~|blood nihil pouch|~": {
 				"Items": ["Elder charm*", "Vampyre fangs*", "Pouch*", "Elder energy*"],
 				"Level": 87,
 				"Objects": ["Obelisk"],
@@ -67061,7 +67205,7 @@
 				"Primary": true,
 				"Priority": 1
 			},
-			"Create a ~|ice nihil|~ pouch": {
+			"Create a ~|ice nihil pouch|~": {
 				"Items": ["Elder charm*", "Icyene feather*", "Pouch*", "Elder energy*"],
 				"Level": 87,
 				"Objects": ["Obelisk"],
@@ -67069,7 +67213,7 @@
 				"Primary": true,
 				"Priority": 2
 			},
-			"Create a ~|shadow nihil|~ pouch": {
+			"Create a ~|shadow nihil pouch|~": {
 				"Items": ["Elder charm*", "Demon horn*", "Pouch*", "Elder energy*"],
 				"Level": 87,
 				"Objects": ["Obelisk"],
@@ -67077,7 +67221,7 @@
 				"Primary": true,
 				"Priority": 3
 			},
-			"Create a ~|smoke nihil|~ pouch": {
+			"Create a ~|smoke nihil pouch|~": {
 				"Items": ["Elder charm*", "Aviansie talons*", "Pouch*", "Elder energy*"],
 				"Level": 87,
 				"Objects": ["Obelisk"],
@@ -68577,7 +68721,7 @@
 				"NoPet": true,
 				"NoBoost": true
 			},
-			"Create a ~|Sachem skinweaver|~ pouch": {
+			"Create a ~|Sachem skinweaver pouch|~": {
 				"Category": ["Daemonheim tasks"],
 				"Tasks": {
 					"Unlock ~|frozen floors|~": "Dungeoneering"
@@ -70530,6 +70674,14 @@
 				"Output": "Teak logs",
 				"Primary": true,
 				"Priority": 1
+			},
+			"Cut ~|creeping ivy|~": {
+				"Level": 35,
+				"Objects": ["Creeping ivy"],
+				"Primary": true,
+				"Priority": 1,
+				"Output": "Creeping ivy loot",
+				"Not F2P": true
 			},	
 			"Cut ~|maple logs|~": {
 				"Level": 40,
@@ -70594,7 +70746,7 @@
 				"Primary": true,
 				"Priority": 1,
 				"Not F2P": true
-			},	
+			},
 			"Cut ~|magic logs|~": {
 				"Level": 80,
 				"Objects": ["Magic tree"],
@@ -98174,6 +98326,52 @@
 				},
 				"BaseQuest": "Shilo Village",
 				"Chunks": ["11054"],
+				"Not F2P": true
+			},
+			"~|Silver Lining|~ 1": {
+				"BaseQuest": "Silver Lining",
+				"Description": "Speak to Liat at the Wendlewick smithy and grab the old key",
+				"Chunks": ["16692"],
+				"Tasks": {
+					"~|Hearts of Sanguine|~ Complete the quest": "Quest"
+				},
+				"Not F2P": true
+			},
+			"~|Silver Lining|~ 2": {
+				"BaseQuest": "Silver Lining",
+				"Description": "Loot the chest behind the waterfall",
+				"Chunks": ["17462"],
+				"Tasks": {
+					"~|Silver Lining|~ 1": "Quest"
+				},
+				"Not F2P": true
+			},
+			"~|Silver Lining|~ 3": {
+				"BaseQuest": "Silver Lining",
+				"Description": "Return to Liat",
+				"Chunks": ["16692"],
+				"Tasks": {
+					"~|Silver Lining|~ 2": "Quest"
+				},
+				"Not F2P": true
+			},
+			"~|Silver Lining|~ 4": {
+				"BaseQuest": "Silver Lining",
+				"Description": "Smith a havensilver longsword and a havensilver off-hand longsword",
+				"Items": ["Havensilver bar"],
+				"Objects": ["Forge[+]", "Anvil[+]"],
+				"Tasks": {
+					"~|Silver Lining|~ 3": "Quest"
+				},
+				"Not F2P": true
+			},
+			"~|Silver Lining|~ Complete the lore activity": {
+				"BaseQuest": "Silver Lining",
+				"Chunks": ["16692"],
+				"Tasks": {
+					"~|Silver Lining|~ 4": "Quest"
+				},
+				"QuestPoints": 0,
 				"Not F2P": true
 			},
 			"~|Sins of the Father|~ 1": {
@@ -171389,7 +171587,7 @@
 				"1": {
 					"Object": {
 						"Boulder": 10,
-						"Rabbit hole": 6,
+						"Rabbit burrow": 6,
 						"Plant": 24,
 						"Bush": 8,
 						"Burrow": 3,
@@ -171430,7 +171628,7 @@
 				"1": {
 					"Object": {
 						"Boulder": 10,
-						"Rabbit hole": 12,
+						"Rabbit burrow": 12,
 						"Plant": 25,
 						"Bush": 8,
 						"Burrow": 3,
@@ -198584,7 +198782,8 @@
 				"Hermit Permits": "step",
 				"Hearts of Sanguine": "step",
 				"The Lute of Love": "step",
-				"Trader Woes": "step"
+				"Trader Woes": "step",
+				"Silver Lining": "first"
 			},
 			"Nickname": "Wendlewick"
 		},
@@ -200220,6 +200419,9 @@
 		"17462": {
 			"Objects": {
 				"Chest": 1
+			},
+			"Quest": {
+				"Silver Lining": "step"
 			},
 			"Nickname": "Loot Under the Waterfall"
 		},
@@ -216932,6 +217134,7 @@
 				"Stripy feather",
 				"Yellow feather"
 			],
+			"Ferret[+]": ["Ferret", "Teasing stick"],
 			"FighterHat[+]": [
 				"Fighter hat",
 				"Hardened fighter hat"
@@ -220873,6 +221076,7 @@
 			"FairyTaleI9[+]": "Any items needed to enchant the magic secateurs",
 			"FallfacedSheep[+]": "Any breedable fallfaced sheep",
 			"Feather[+]": "Any fletchable feathers",
+			"Ferret[+]": "A ferret or a teasing stick",
 			"FighterHat[+]": "Any fighter hat variant",
 			"FighterTorso[+]": "Any fighter torso variant",
 			"Fire rune[+]": "Any fire rune equivalent",
@@ -279372,6 +279576,7 @@
 		"Purple Cat (miniquest)": "12339, Betty's Basement",
 		"Restoring Senliten": "12338, Uzer Mastaba, 13106, 12854, 13107",
 		"Sheep Shearer (miniquest)": "12851, 12595",
+		"Silver Lining": "16692, 17462",
 		"Spiritual Enlightenment (miniquest)": "16153, Player-Owned Port, 16409, Aminishi Spirit Realm",
 		"Tales of Nomad (miniquest)": "Death's Office, 12342, 12853, 9778, Nomad's temple, Lumbridge Catacombs, 13109, 8748, 11828, 12087, 9007",
 		"Tales of the God Wars (miniquest)": "13356, 9007, The Barrows, God Wars Dungeon, Grotworm Lair 1, Grotworm Lair 2, Grotworm Lair 3",
@@ -281593,6 +281798,13 @@
 			"Scorpion": {
 				"Temple of Ikov": [{
 					"~|Temple of Ikov|~ 1": "Quest"
+				}]
+			},
+			"Silverquill, the Dreadhog": {
+				"Blighted Cave": [{
+					"~|Hearts of Sanguine|~ Complete the quest": "Quest"
+				}, {
+					"Members only": "Nonskill"
 				}]
 			},
 			"Sir Mordred": {
@@ -303921,6 +304133,9 @@
 				},
 				"Feather": {
 					"10-36": "Always"
+				},
+				"Oaken key": {
+					"1": "1/128"
 				}
 			},
 			"Gold spirit moth": {
@@ -303937,6 +304152,17 @@
 				},
 				"Spirit shard": {
 					"1": "1/32"
+				}
+			},
+			"Jackalope": {
+				"Bones": {
+					"1": "Always"
+				},
+				"Jackalope antlers": {
+					"1": "Always"
+				},
+				"Raw rabbit": {
+					"1": "Always"
 				}
 			},
 			"Crimson spirit moth": {
@@ -324926,6 +325152,9 @@
 			}
 		},
 		"Woodcutting": {
+			"Creeping ivy loot": {
+				"Oaken key": "1/128"
+			},
 			"Overgrown idol": {
 				"Compacted leaves": {
 					"1": "Rare"
