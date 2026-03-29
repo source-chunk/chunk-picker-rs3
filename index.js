@@ -4173,7 +4173,7 @@ $(document).ready(function() {
     const currentDate = new Date(new Date().toLocaleString('en-US', { timeZone: 'Europe/London' }));
     if (currentDate.getDate() === 1 && currentDate.getMonth() === 3) { // April 1
         $('html').addClass('hide-cursor');
-        const cursors = ["Colossal_blade.png", "Curved_bone.png", "Dragon_2h_sword.png", "Dragon_dagger(p++).png", "Dragon_longsword.png", "Dragon_spear.png", "Hill_giant_club.png", "Knife.png", "Mithril_scimitar.png", "Obsidian_cape.png", "Osmumten's_fang.png", "Skull_sceptre_(i).png", "Trout.png", "Twinflame_staff.png", "Wolfbane.png", "Armadyl_godsword.png"];
+        const cursors = ["Ana_in_a_barrel.png", "Bronze_dagger.png", "Dragon_spear.png", "Ek-ZekKil.png", "Elder_shieldbow_(unstrung).png", "Fractured_Staff_of_Armadyl.png", "Grey_chinchompa.png", "Igneous_Kat-Ket.png", "Korasi's_sword.png", "Noxious_longbow.png", "Noxious_scythe.png", "Noxious_staff.png", "Omni_guard.png", "Sunspear_(melee).png", "Varanus's_Mercy.png"];
         let midNumTotal = currentDate.getUTCFullYear() + 7;
         if (!!window.location.href.split('?')[1]) {
             window.location.href.split('?')[1].split('').forEach((letter) => {

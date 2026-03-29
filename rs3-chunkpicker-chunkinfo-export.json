@@ -10847,13 +10847,11 @@
 				"Primary": true,
 				"Priority": 13
 			},
-			"Build the tier 1 ~|Kitchen (Fort Forinthry)|~": {
-				"Tasks": {
-					"~|Murder on the Border|~ 1": "Quest"
-				},
-				"Items": ["Willow frame*", "Stone wall segment*"],
-				"Level": 30,
-				"Primary": true,
+			"Repair a ~|dilapidated canoe station|~": {
+				"Items": ["Willow plank*", "Steel nails*"],
+				"Objects": ["Dilapidated canoe station"],
+				"Level": 20,
+				"Primary": false,
 				"Priority": 14
 			},
 			"Build a ~|shaving stand|~": {
@@ -10940,11 +10938,11 @@
 				"Primary": false,
 				"Priority": 4
 			},
-			"Train Construction in ~|Daemonheim|~": {
-				"Category": ["Daemonheim training"],
+			"Build the tier 1 ~|Kitchen (Fort Forinthry)|~": {
 				"Tasks": {
-					"Unlock ~|frozen floors|~": "Dungeoneering"
+					"~|Murder on the Border|~ 1": "Quest"
 				},
+				"Items": ["Willow frame*", "Stone wall segment*"],
 				"Level": 25,
 				"Primary": true,
 				"Priority": 5
@@ -10957,6 +10955,15 @@
 				"Level": 25,
 				"Primary": true,
 				"Priority": 6
+			},
+			"Train Construction in ~|Daemonheim|~": {
+				"Category": ["Daemonheim training"],
+				"Tasks": {
+					"Unlock ~|frozen floors|~": "Dungeoneering"
+				},
+				"Level": 25,
+				"Primary": true,
+				"Priority": 1000
 			},
 			"Build an ~|oak armchair|~": {
 				"Category": ["InsidePOH Primary"],
@@ -16158,6 +16165,15 @@
 				"Priority": 9,
 				"Not F2P": true
 			},
+			"Brew ~|mead|~": {
+				"Items": ["Honeycomb*", "Ale yeast*", "Beer glass"],
+				"Objects": ["Fermenting vat"],
+				"Level": 14,
+				"Output": "Mead",
+				"Primary": true,
+				"Priority": 10,
+				"Not F2P": true
+			},
 			"Cook ~|lean snail meat|~": {
 				"Items": ["Lean snail*"],
 				"Objects": ["Cooking object[+]"],
@@ -16542,6 +16558,15 @@
 				"Output": "Worm batta",
 				"Primary": true,
 				"Priority": 3
+			},
+			"Brew ~|wendlewick ale|~": {
+				"Items": ["Apple mush*", "Ale yeast*", "Beer glass"],
+				"Objects": ["Fermenting vat"],
+				"Level": 14,
+				"Output": "Wendlewick ale",
+				"Primary": true,
+				"Priority": 4,
+				"Not F2P": true
 			},
 			"Cook ~|cooked sweetcorn|~": {
 				"Items": ["Sweetcorn*"],
@@ -18007,6 +18032,14 @@
 				"Output": "Sliced mushrooms (The Arc)",
 				"Primary": true,
 				"Priority": 1
+			},
+			"Cook a ~|giant crayfish|~": {
+				"Items": ["Raw giant crayfish*"],
+				"Objects": ["Cooking object[+]"],
+				"Level": 86,
+				"Output": "Giant crayfish",
+				"Primary": true,
+				"Priority": 2
 			},
 			"Cook a ~|cavefish|~": {
 				"Items": ["Raw cavefish*"],
@@ -31692,6 +31725,15 @@
 				"Primary": false,
 				"Priority": 1
 			},
+			"Grow ~|wendlewick hops|~": {
+				"Category": ["Normal Farming"],
+				"Items": ["Wendlewick seed"],
+				"Objects": ["Hops patch"],
+				"Level": 13,
+				"Output": "Wendlewick hops",
+				"Primary": false,
+				"Priority": 1
+			},
 			"Grow a ~|tomato|~": {
 				"Category": ["Normal Farming"],
 				"Items": ["Tomato seed"],
@@ -32957,6 +32999,15 @@
 				"Output": "CrimsonChinOutput",
 				"Primary": false,
 				"Priority": 6
+			},
+			"Raise a ~|volatile chinchompa|~": {
+				"Category": ["Normal Farming"],
+				"Objects": ["Small animal pen"],
+				"Items": ["Volatile chinchompa (unchecked)"],
+				"Level": 54,
+				"Output": "VolatileChinOutput",
+				"Primary": false,
+				"Priority": 7
 			},
 			"Raise a ~|crystal chinchompa|~": {
 				"Category": ["Normal Farming"],
@@ -38173,6 +38224,13 @@
 				"Output": "Raw manta ray",
 				"Priority": 1
 			},
+			"Catch a ~|raw giant crayfish|~": {
+				"Level": 82,
+				"Objects": ["Giant crayfish (fishing spot)"],
+				"Primary": true,
+				"Output": "Raw giant crayfish",
+				"Priority": 1
+			},
 			"Build the giant crayfish pool at the ~|Wendlewick fish farm|~": {
 				"Items": ["Big fishing net*", "Magic plank*", "Rune nails*", "Bolt of cloth*"],
 				"Level": 84,
@@ -38532,12 +38590,22 @@
 				"Primary": true,
 				"Priority": 1
 			},
+			"Feather ~|havensilver bolts|~": {
+				"Items": ["Havensilver bolts (unf)*", "Feather[+]*"],
+				"Level": 9,
+				"Tasks": {
+					"~|Silver Lining|~ Complete the lore activity": "Quest"
+				},
+				"Output": "Havensilver bolts",
+				"Primary": true,
+				"Priority": 2
+			},
 			"Fletch a ~|wooden stock|~": {
 				"Items": ["Logs*"],
 				"Level": 9,
 				"Output": "Wooden stock",
 				"Primary": true,
-				"Priority": 2,
+				"Priority": 3,
 				"Partial": true
 			},
 			"Fletch a ~|bronze crossbow (unstrung)|~": {
@@ -38545,7 +38613,7 @@
 				"Level": 9,
 				"Output": "Bronze crossbow (unstrung)",
 				"Primary": true,
-				"Priority": 3,
+				"Priority": 4,
 				"Partial": true
 			},
 			"String a ~|bronze crossbow|~": {
@@ -38553,21 +38621,21 @@
 				"Level": 9,
 				"Output": "Bronze crossbow",
 				"Primary": true,
-				"Priority": 4
+				"Priority": 5
 			},
 			"String a ~|bronze 2h crossbow|~": {
 				"Items": ["Bronze crossbow (unstrung)*", "Crossbow string*"],
 				"Level": 9,
 				"Output": "Bronze 2h crossbow",
 				"Primary": true,
-				"Priority": 5
+				"Priority": 6
 			},
 			"String an ~|off-hand bronze crossbow|~": {
 				"Items": ["Bronze crossbow (unstrung)*", "Crossbow string*"],
 				"Level": 9,
 				"Output": "Off-hand bronze crossbow",
 				"Primary": true,
-				"Priority": 6
+				"Priority": 7
 			},
 			"Fletch a ~|shieldbow (unstrung)|~": {
 				"Items": ["Logs*"],
@@ -39142,6 +39210,16 @@
 				"Primary": true,
 				"Priority": 2
 			},
+			"Tip a ~|havensilver bolts + 1|~": {
+				"Items": ["Havensilver bolts*", "Silver spines*"],
+				"Level": 48,
+				"Tasks": {
+					"~|Silver Lining|~ Complete the lore activity": "Quest"
+				},
+				"Output": "Havensilver bolts + 1",
+				"Primary": true,
+				"Priority": 3
+			},
 			"Fletch ~|mithril brutals|~": {
 				"Items": ["Mithril nails*", "Flighted ogre arrow*"],
 				"Level": 49,
@@ -39464,12 +39542,22 @@
 				"Primary": true,
 				"Priority": 4
 			},
+			"Tip ~|havensilver bolts + 2|~": {
+				"Items": ["Havensilver bolts + 1*", "Sanguine spines*"],
+				"Level": 65,
+				"Tasks": {
+					"~|Silver Lining|~ Complete the lore activity": "Quest"
+				},
+				"Output": "Havensilver bolts + 2",
+				"Primary": true,
+				"Priority": 3
+			},
 			"Tip ~|diamond bolts|~ in New Varrock": {
 				"Category": ["Mutli Step Processing", "Highest Level"],
 				"Chunks": ["New Varrock"],
 				"Level": 65,
 				"Primary": true,
-				"Priority": 1,
+				"Priority": 1000,
 				"Not F2P": true
 			},
 			"Feather ~|adamant darts|~": {
@@ -114780,6 +114868,22 @@
 				"Not F2P": true,
 				"CombatScore": 1
 			},
+			"~|Combat Mastery achievements#Easy|~ The Hedge Knight's Dilemma": {
+				"Category": ["Combat Mastery achievements"],
+				"Description": "Defeat Silverquill, the Dreadhog, solo, using only melee and without receiving any reflect damage.",
+				"Monsters": ["Silverquill, the Dreadhog"],
+				"BaseQuest": "Combat Mastery achievements",
+				"Not F2P": true,
+				"CombatScore": 1
+			},
+			"~|Combat Mastery achievements#Easy|~ Hedge Your Bets": {
+				"Category": ["Combat Mastery achievements"],
+				"Description": "Defeat Silverquill, the Dreadhog, solo, after using 'Resonance' or 'Diverte' to mitigate all of her 'Blood Hog' attacks.",
+				"Monsters": ["Silverquill, the Dreadhog"],
+				"BaseQuest": "Combat Mastery achievements",
+				"Not F2P": true,
+				"CombatScore": 1
+			},
 			"~|Combat Mastery achievements#Easy|~ Kalphite Queen Novice Speed Killer": {
 				"Category": ["Combat Mastery achievements", "Speed Killer Achievements"],
 				"Description": "Defeat the Kalphite Queen solo in less than 02:30.",
@@ -114824,6 +114928,14 @@
 				"Category": ["Combat Mastery achievements"],
 				"Description": "Defeat any of the Barrows brothers after using the correct protection prayer against all of their basic attacks.",
 				"Monsters": ["Barrows"],
+				"BaseQuest": "Combat Mastery achievements",
+				"Not F2P": true,
+				"CombatScore": 1
+			},
+			"~|Combat Mastery achievements#Easy|~ Protect from Ivar": {
+				"Category": ["Combat Mastery achievements"],
+				"Description": "Defeat Ivar, King of Bones, solo, using the correct prayer at least once each against his Bone Bludgeon, Skeletal Shrapnel and Conk Blast attacks.",
+				"Monsters": ["Ivar, King of Bones"],
 				"BaseQuest": "Combat Mastery achievements",
 				"Not F2P": true,
 				"CombatScore": 1
@@ -114873,7 +114985,7 @@
 				"BaseQuest": "Combat Mastery achievements",
 				"Not F2P": true,
 				"ManualShow": true,
-				"CombatScoreNeeded": 19
+				"CombatScoreNeeded": 22
 			},
 			"~|Combat Mastery achievements#Medium|~ All Aboard": {
 				"Category": ["Combat Mastery achievements"],
@@ -114895,6 +115007,14 @@
 				"Category": ["Combat Mastery achievements"],
 				"Description": "Defeat Kree'arra 25 times",
 				"Monsters": ["Kree'arra"],
+				"BaseQuest": "Combat Mastery achievements",
+				"Not F2P": true,
+				"CombatScore": 2
+			},
+			"~|Combat Mastery achievements#Medium|~ Broken Bones III": {
+				"Category": ["Combat Mastery achievements"],
+				"Description": "Defeat Ivar, King of Bones 25 times.",
+				"Monsters": ["Ivar, King of Bones"],
 				"BaseQuest": "Combat Mastery achievements",
 				"Not F2P": true,
 				"CombatScore": 2
@@ -115076,6 +115196,14 @@
 				"Description": "Get the Corporeal Beast to devour a variety of delicious familiars. Can only be completed in solo instance.",
 				"Monsters": ["Corporeal Beast"],
 				"Items": ["Pack pig pouch", "Dreadfowl pouch", "Thorny snail pouch", "Evil turnip pouch", "War tortoise pouch", "Fruit bat pouch", "Granite lobster pouch"],
+				"BaseQuest": "Combat Mastery achievements",
+				"Not F2P": true,
+				"CombatScore": 2
+			},
+			"~|Combat Mastery achievements#Medium|~ Hedge Trimmer III": {
+				"Category": ["Combat Mastery achievements"],
+				"Description": "Defeat Silverquill, the Dreadhog 25 times.",
+				"Monsters": ["Silverquill, the Dreadhog"],
 				"BaseQuest": "Combat Mastery achievements",
 				"Not F2P": true,
 				"CombatScore": 2
@@ -115361,7 +115489,7 @@
 				"BaseQuest": "Combat Mastery achievements",
 				"Not F2P": true,
 				"ManualShow": true,
-				"CombatScoreNeeded": 135
+				"CombatScoreNeeded": 142
 			},
 			"~|Combat Mastery achievements#Hard|~ Aerial Pursuit": {
 				"Category": ["Combat Mastery achievements"],
@@ -130405,6 +130533,26 @@
 				"Label": "Boss Pets",
 				"Items": ["Hermod's armour spike"]
 			},
+			"(Ivar) Obtain the ~|bonecrusher maul|~": {
+				"Category": ["Collection Log", "Boss Collection Log"],
+				"Label": "Boss Collection Log",
+				"Items": ["Bonecrusher maul"]
+			},
+			"(Ivar) Obtain the ~|magic skull mask|~": {
+				"Category": ["Collection Log", "Boss Collection Log"],
+				"Label": "Boss Collection Log",
+				"Items": ["Magic skull mask"]
+			},
+			"(Ivar) Obtain the ~|colossal bone|~": {
+				"Category": ["Collection Log", "Boss Collection Log"],
+				"Label": "Boss Collection Log",
+				"Items": ["Colossal bone"]
+			},
+			"(Ivar) Obtain ~|Ivarsson|~": {
+				"Category": ["Collection Log", "Boss Collection Log", "Pets"],
+				"Label": "Boss Collection Log",
+				"Items": ["Ivar's loincloth"]
+			},
 			"(Kalphite King) Obtain a ~|drygore longsword|~": {
 				"Category": ["Collection Log", "Boss Collection Log"],
 				"Label": "Boss Collection Log",
@@ -131387,6 +131535,21 @@
 				"Label": "Boss Pets",
 				"Items": ["Umbral urn"]
 			},
+			"(Silverquill) Obtain ~|silver spines|~": {
+				"Category": ["Collection Log", "Boss Collection Log"],
+				"Label": "Boss Collection Log",
+				"Items": ["Silver spines"]
+			},
+			"(Silverquill) Obtain ~|sanguine spines|~": {
+				"Category": ["Collection Log", "Boss Collection Log"],
+				"Label": "Boss Collection Log",
+				"Items": ["Sanguine spines"]
+			},
+			"(Silverquill) Obtain ~|Needlemouse|~": {
+				"Category": ["Collection Log", "Boss Collection Log", "Pets"],
+				"Label": "Boss Collection Log",
+				"Items": ["Silverquill's blood-filled cyst"]
+			},
 			"(Solak) Obtain a ~|blightbound crossbow|~": {
 				"Category": ["Collection Log", "Boss Collection Log"],
 				"Label": "Boss Collection Log",
@@ -131837,6 +132000,12 @@
 				"Label": "Player-Owned Farm Breeding Log",
 				"Chunks": ["10548"],
 				"Items": ["Carnivorous chinchompa (unchecked)"]
+			},
+			"(Chinchompas) Breed a ~|volatile chinchompa|~": {
+				"Category": ["Collection Log", "Breeding Log"],
+				"Label": "Player-Owned Farm Breeding Log",
+				"Chunks": ["10548"],
+				"Items": ["Volatile chinchompa (unchecked)"]
 			},
 			"(Chinchompas) Breed a ~|cobalt chinchompa|~": {
 				"Category": ["Collection Log", "Breeding Log"],
@@ -134643,12 +134812,15 @@
 					"~|Combat Mastery achievements#Easy|~ Giant Mole Novice Speed Killer": "Diary",
 					"~|Combat Mastery achievements#Easy|~ Giant Mole (HM) Novice Speed Killer": "Diary",
 					"~|Combat Mastery achievements#Easy|~ Hail to the Queen": "Diary",
+					"~|Combat Mastery achievements#Easy|~ The Hedge Knight's Dilemma": "Diary",
+					"~|Combat Mastery achievements#Easy|~ Hedge Your Bets": "Diary",
 					"~|Combat Mastery achievements#Easy|~ Kalphite Queen Novice Speed Killer": "Diary",
 					"~|Combat Mastery achievements#Easy|~ King Black Dragon Novice Speed Killer": "Diary",
 					"~|Combat Mastery achievements#Easy|~ Layering Up": "Diary",
 					"~|Combat Mastery achievements#Easy|~ Mole Removal III": "Diary",
 					"~|Combat Mastery achievements#Easy|~ Naturist": "Diary",
 					"~|Combat Mastery achievements#Easy|~ Oh Ye of Little Faith": "Diary",
+					"~|Combat Mastery achievements#Easy|~ Protect from Ivar": "Diary",
 					"~|Combat Mastery achievements#Easy|~ A Slippery Slope II": "Diary",
 					"~|Combat Mastery achievements#Easy|~ Something Barrowed III": "Diary",
 					"~|Combat Mastery achievements#Easy|~ Stunned and Done": "Diary",
@@ -134666,6 +134838,7 @@
 					"~|Combat Mastery achievements#Medium|~ All Aboard": "Diary",
 					"~|Combat Mastery achievements#Medium|~ Anti-antifire": "Diary",
 					"~|Combat Mastery achievements#Medium|~ Bird is the Word III": "Diary",
+					"~|Combat Mastery achievements#Medium|~ Broken Bones III": "Diary",
 					"~|Combat Mastery achievements#Medium|~ Commander Zilyana Beginner Speed Killer": "Diary",
 					"~|Combat Mastery achievements#Medium|~ Core Problem": "Diary",
 					"~|Combat Mastery achievements#Medium|~ Corporeal Beast Beginner Speed Killer": "Diary",
@@ -134687,6 +134860,7 @@
 					"~|Combat Mastery achievements#Medium|~ Giant Mole Beginner Speed Killer": "Diary",
 					"~|Combat Mastery achievements#Medium|~ Giant Mole (HM) Beginner Speed Killer": "Diary",
 					"~|Combat Mastery achievements#Medium|~ Glutton for Punishment": "Diary",
+					"~|Combat Mastery achievements#Medium|~ Hedge Trimmer III": "Diary",
 					"~|Combat Mastery achievements#Medium|~ Helwyr Beginner Speed Killer": "Diary",
 					"~|Combat Mastery achievements#Medium|~ Hermod Beginner Speed Killer": "Diary",
 					"~|Combat Mastery achievements#Medium|~ Hydra Halitosis": "Diary",
@@ -146994,24 +147168,37 @@
 				},
 				"Not F2P": true
 			},
+			"Obtain ~|Tellervo's net|~": {
+				"Category": ["BIS Skilling"],
+				"Label": "BIS Skilling",
+				"Items": ["Tellervo's net"],
+				"Priority": 1,
+				"Set": "BIS Butterfly net"
+			},
 			"Obtain a ~|magic butterfly net|~": {
 				"Category": ["BIS Skilling"],
 				"Label": "BIS Skilling",
 				"Items": ["Magic butterfly net"],
-				"Priority": 1,
+				"Priority": 2,
 				"Set": "BIS Butterfly net"
 			},
 			"Obtain a ~|butterfly net|~": {
 				"Category": ["BIS Skilling"],
 				"Label": "BIS Skilling",
 				"Items": ["Butterfly net"],
-				"Priority": 2,
+				"Priority": 3,
 				"Set": "BIS Butterfly net"
 			},
 			"Obtain the ~|hunter's Catalyst fragment|~": {
 				"Category": ["BIS Skilling"],
 				"Label": "BIS Skilling",
 				"Items": ["Hunter's Catalyst fragment"],
+				"Not F2P": true
+			},
+			"Obtain ~|Tellervo's lantern|~": {
+				"Category": ["BIS Skilling"],
+				"Label": "BIS Skilling",
+				"Items": ["Tellervo's lantern"],
 				"Not F2P": true
 			},
 			"Obtain a ~|shaman's headdres|~": {
@@ -153145,13 +153332,18 @@
 				"Output": "Cadava berries"
 			},
 			"Buy Ale yeast from metarialus*": {
-				"Items": ["Empty pot", "Ecto-token"],
+				"Items": ["Empty pot", "Ecto-token", "Ghostspeak amulet"],
 				"NPCs": ["Metarialus"],
 				"Output": "Ale yeast"
 			},
 			"Buy Ale yeast from Blandebir*": {
 				"Items": ["Empty pot"],
 				"NPCs": ["Blandebir"],
+				"Output": "Ale yeast"
+			},
+			"Buy Ale yeast from Malt*": {
+				"Items": ["Empty pot"],
+				"NPCs": ["Malt (Wendlewick)"],
 				"Output": "Ale yeast"
 			},
 			"Make a spined body*": {
@@ -165023,6 +165215,10 @@
 					"Agility": 52
 				},
 				"Output": "Wilderness Flash Event loot"
+			},
+			"Search hollow trees": {
+				"Objects": ["Hollow tree (Highweald forest)"],
+				"Output": "Hollow tree loot"
 			}
 		}
 	},
@@ -215569,6 +215765,7 @@
 			"AllChins[+]": [
 				"Azure chinchompa (unchecked)",
 				"Carnivorous chinchompa (unchecked)",
+				"Volatile chinchompa (unchecked)",
 				"Cobalt chinchompa (unchecked)",
 				"Crimson chinchompa (unchecked)",
 				"Crystal chinchompa (unchecked)",
@@ -218239,6 +218436,7 @@
 				"Daemoncap zygomite (unchecked)",
 				"Arcspore zygomite (unchecked)",
 				"Azure chinchompa (unchecked)",
+				"Volatile chinchompa (unchecked)",
 				"Carnivorous chinchompa (unchecked)",
 				"Cobalt chinchompa (unchecked)",
 				"Crimson chinchompa (unchecked)",
@@ -219755,6 +219953,7 @@
 			],
 			"VariantChin[+]": [
 				"Azure chinchompa (unchecked)",
+				"Volatile chinchompa (unchecked)",
 				"Carnivorous chinchompa (unchecked)",
 				"Cobalt chinchompa (unchecked)",
 				"Crimson chinchompa (unchecked)",
@@ -224617,7 +224816,8 @@
 				"Spicy stew (Big Day)": 6,
 				"Spirit Terrorbird scroll (Tireless Run)": 2,
 				"Stamina potion (3)": 6,
-				"Summer pie": 5
+				"Summer pie": 5,
+				"Mead": "1%+1"
 			},
 			"Archaeology": {
 				"Archaeology cape": 1,
@@ -252469,6 +252669,9 @@
 			"Curved bone": {
 				"1": "1/5000"
 			},
+			"Grimy tarromin": {
+				"3 (F2P)": "Common"
+			},
 			"Potato seed": {
 				"5 (F2P)": "Common"
 			},
@@ -265650,43 +265853,43 @@
 				"1": "1/2"
 			},
 			"Oak wood spirit": {
-				"8": "Unknown"
+				"8": "Common"
 			},
 			"Willow wood spirit": {
-				"8": "Unknown"
+				"8": "Common"
 			},
 			"Acadia wood spirit": {
-				"4": "Unknown"
+				"4": "Common"
 			},
 			"Teak wood spirit": {
-				"4": "Unknown"
+				"4": "Common"
 			},
 			"Elemental anima stone": {
-				"5-10": "Unknown"
+				"5-10": "Common"
 			},
 			"Sanguine matter": {
 				"1": "1/14"
 			},
 			"Clean spirit weed": {
-				"2-3": "Unknown"
+				"2-3": "Common"
 			},
 			"Blood rune": {
-				"10-15": "Unknown"
+				"10-15": "Common"
 			},
 			"Emerald bolt tips": {
-				"10-14": "Unknown"
+				"10-14": "Common"
 			},
 			"Sapphire bolt tips": {
-				"10-14": "Unknown"
+				"10-14": "Common"
 			},
 			"Uncut ruby": {
-				"5-7 (noted)": "Unknown"
+				"5-7 (noted)": "Common"
 			},
 			"Uncut diamond": {
-				"2-5 (noted)": "Unknown"
+				"3-5 (noted)": "Common"
 			},
 			"Uncut dragonstone": {
-				"2-3 (noted)": "Unknown"
+				"2-3 (noted)": "Uncommon"
 			},
 			"Congealed blood": {
 				"5": "1/33"
@@ -265695,10 +265898,10 @@
 				"1": "1/33"
 			},
 			"Ashes": {
-				"10 (noted)": "Unknown"
+				"10 (noted)": "Common"
 			},
 			"Flax": {
-				"20-30 (noted)": "Unknown"
+				"20-30 (noted)": "Common"
 			},
 			"Rune 2h crossbow": {
 				"1": "1/50"
@@ -279947,6 +280150,9 @@
 			"Frying pan^": [{
 				"RecipeSub[+]x4": "Quest"
 			}],
+			"Gold stone spirit^Ivar, King of Bones": {
+				"Members only": "Nonskill"
+			},
 			"Hazelmere's signet ring^": [{
 				"Luck of the Dwarves": "Nonskill"
 			}],
@@ -279980,6 +280186,9 @@
 			"Meat tenderiser^": [{
 				"RecipeSub[+]x8": "Quest"
 			}],
+			"Mithril stone spirit^Ivar, King of Bones": {
+				"Members only": "Nonskill"
+			},
 			"Monk's robe (top)^Monk": [{
 				"Monk's drops": "Nonskill"
 			}],
@@ -280622,6 +280831,9 @@
 				"~|Player-owned farm tutorial|~ Complete the tutorial": "Quest"
 			}],
 			"Carnivorous chinchompa (unchecked)^": [{
+				"~|Player-owned farm tutorial|~ Complete the tutorial": "Quest"
+			}],
+			"Volatile chinchompa (unchecked)^": [{
 				"~|Player-owned farm tutorial|~ Complete the tutorial": "Quest"
 			}],
 			"Cobalt chinchompa (unchecked)^": [{
@@ -281500,7 +281712,28 @@
 			}],
 			"Archaeologist's boots^": [{
 				"Become an ~|archaeology associate|~": "Archaeology"
-			}]
+			}],
+			"Willow logs^Ivar, King of Bones": {
+				"Members only": "Nonskill"
+			},
+			"Death rune^Ivar, King of Bones": {
+				"Members only": "Nonskill"
+			},
+			"Maple plank^Ivar, King of Bones": {
+				"Members only": "Nonskill"
+			},
+			"Snape grass^Ivar, King of Bones": {
+				"Members only": "Nonskill"
+			},
+			"Earth battlestaff^Ivar, King of Bones": {
+				"Members only": "Nonskill"
+			},
+			"Rune chainbody^Ivar, King of Bones": {
+				"Members only": "Nonskill"
+			},
+			"Dragonstone amulet^Ivar, King of Bones": {
+				"Members only": "Nonskill"
+			}
 		},
 		"Monsters": {
 			"Amascut, the Devourer": {
@@ -297263,6 +297496,14 @@
 					"1": "Always"
 				},
 				"Crimson skillchompa": {
+					"1": "Always"
+				}
+			},
+			"VolatileChinOutput": {
+				"Chinchompa residue": {
+					"1": "Always"
+				},
+				"Black chinchompa": {
 					"1": "Always"
 				}
 			},
@@ -327962,6 +328203,14 @@
 				},
 				"Dark onyx core": {
 					"1": "3/100"
+				}
+			},
+			"Hollow tree loot": {
+				"Tellervo's net": {
+					"1": "1/50"
+				},
+				"Tellervo's lantern": {
+					"1": "1/50"
 				}
 			}
 		}
