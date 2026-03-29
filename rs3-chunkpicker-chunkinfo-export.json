@@ -53188,6 +53188,13 @@
 				"Priority": 1,
 				"Not F2P": true
 			},
+			"Mine ~|primeval slabs|~": {
+				"Level": 104,
+				"Objects": ["Primeval slabs"],
+				"Primary": false,
+				"Priority": 1000,
+				"Not F2P": true
+			},
 			"Buy the ~|Mining master cape|~": {
 				"Category": ["Master skillcape"],
 				"NPCs": ["Gadrin"],
@@ -82510,6 +82517,49 @@
 				"Reward": ["Chimes", "Taijitu"],
 				"Not F2P": true
 			},
+			"~|Finding Tali|~ 1": {
+				"BaseQuest": "Finding Tali",
+				"Description": "Speak to Reuben north of the Marigold Farm",
+				"Chunks": ["16948"],
+				"Not F2P": true
+			},
+			"~|Finding Tali|~ 2": {
+				"BaseQuest": "Finding Tali",
+				"Description": "Find Tali near the ruined Saradominist tower up north",
+				"Chunks": ["17206-1"],
+				"Tasks": {
+					"~|Finding Tali|~ 1": "Quest"
+				},
+				"Not F2P": true
+			},
+			"~|Finding Tali|~ 3": {
+				"BaseQuest": "Finding Tali",
+				"Description": "Find Tali's archaeology items and return them",
+				"Chunks": ["17206-1"],
+				"Items": ["Tali's mattock", "Tali's brush", "Tali's journal"],
+				"Tasks": {
+					"~|Finding Tali|~ 2": "Quest"
+				},
+				"Not F2P": true
+			},
+			"~|Finding Tali|~ 4": {
+				"BaseQuest": "Finding Tali",
+				"Description": "Return to Reuben",
+				"Chunks": ["16948"],
+				"Tasks": {
+					"~|Finding Tali|~ 3": "Quest"
+				},
+				"Not F2P": true
+			},
+			"~|Finding Tali|~ Complete the lore activity": {
+				"BaseQuest": "Finding Tali",
+				"Chunks": ["16948"],
+				"Tasks": {
+					"~|Finding Tali|~ 4": "Quest"
+				},
+				"QuestPoints": 0,
+				"Not F2P": true
+			},
 			"~|The Firemaker's Curse|~ 1": {
 				"BaseQuest": "The Firemaker's Curse",
 				"Description": "Speak to one of the firemakers north of the World Gate",
@@ -85736,6 +85786,173 @@
 				},
 				"Not F2P": true
 			},
+			"~|Hearts of Sanguine|~ 1": {
+				"BaseQuest": "Hearts of Sanguine",
+				"Description": "Speak to Adam in Wendlewick",
+				"Chunks": ["16692"],
+				"Tasks": {
+					"~|Visions of Havenhythe|~ Complete the quest": "Quest"
+				}
+			},
+			"~|Hearts of Sanguine|~ 2a1": {
+				"BaseQuest": "Hearts of Sanguine",
+				"Description": "Speak to Raz",
+				"Chunks": ["16949-1"],
+				"Tasks": {
+					"~|Hearts of Sanguine|~ 1": "Quest"
+				}
+			},
+			"~|Hearts of Sanguine|~ 2a2": {
+				"BaseQuest": "Hearts of Sanguine",
+				"Description": "Investigate the dead bear... while being observed. Then return to Raz",
+				"Chunks": ["16950-2"],
+				"Tasks": {
+					"~|Hearts of Sanguine|~ 2a1": "Quest"
+				}
+			},
+			"~|Hearts of Sanguine|~ 2b": {
+				"BaseQuest": "Hearts of Sanguine",
+				"Description": "Speak to Gefen in the Burnt Lobster Tavern and gather gossip",
+				"Chunks": ["16691-1"],
+				"Tasks": {
+					"~|Hearts of Sanguine|~ 1": "Quest"
+				}
+			},
+			"~|Hearts of Sanguine|~ 3": {
+				"BaseQuest": "Hearts of Sanguine",
+				"Description": "Speak to Farmer Rachel at the Eastfold Farm",
+				"Chunks": ["17202"],
+				"Tasks": {
+					"~|Hearts of Sanguine|~ 2a2": "Quest",
+					"~|Hearts of Sanguine|~ 2b": "Quest"
+				}
+			},
+			"~|Hearts of Sanguine|~ 4": {
+				"BaseQuest": "Hearts of Sanguine",
+				"Description": "Follow the blood splatters to the Blighted Cave, and meet Anya.",
+				"Chunks": ["Blighted Cave"],
+				"Tasks": {
+					"~|Hearts of Sanguine|~ 3": "Quest"
+				}
+			},
+			"~|Hearts of Sanguine|~ 5": {
+				"BaseQuest": "Hearts of Sanguine",
+				"Description": "Ask Esther for help with the Sanguine",
+				"Chunks": ["16691-2"],
+				"Tasks": {
+					"~|Hearts of Sanguine|~ 4": "Quest"
+				}
+			},
+			"~|Hearts of Sanguine|~ 6a": {
+				"BaseQuest": "Hearts of Sanguine",
+				"Description": "Gather poppies",
+				"Chunks": ["16434"],
+				"Tasks": {
+					"~|Hearts of Sanguine|~ 5": "Quest"
+				}
+			},
+			"~|Hearts of Sanguine|~ 6b": {
+				"BaseQuest": "Hearts of Sanguine",
+				"Description": "Gather wolf's tongue mushrooms",
+				"Chunks": ["17202"],
+				"Tasks": {
+					"~|Hearts of Sanguine|~ 5": "Quest"
+				}
+			},
+			"~|Hearts of Sanguine|~ 6c": {
+				"BaseQuest": "Hearts of Sanguine",
+				"Description": "Gather hedgehog spines",
+				"Monsters": ["Hedgehog"],
+				"Tasks": {
+					"~|Hearts of Sanguine|~ 5": "Quest"
+				}
+			},
+			"~|Hearts of Sanguine|~ 7": {
+				"BaseQuest": "Hearts of Sanguine",
+				"Description": "Return to Esther and figure out the right combination for an antisanguine potion",
+				"Chunks": ["16691-2"],
+				"Tasks": {
+					"~|Hearts of Sanguine|~ 6a": "Quest",
+					"~|Hearts of Sanguine|~ 6b": "Quest",
+					"~|Hearts of Sanguine|~ 6c": "Quest"
+				}
+			},
+			"~|Hearts of Sanguine|~ 8": {
+				"BaseQuest": "Hearts of Sanguine",
+				"Description": "Test the potion on the hedgehog",
+				"Chunks": ["16945-1"],
+				"Tasks": {
+					"~|Hearts of Sanguine|~ 7": "Quest"
+				}
+			},
+			"~|Hearts of Sanguine|~ 9": {
+				"BaseQuest": "Hearts of Sanguine",
+				"Description": "Test the potion the duck and the badger",
+				"Chunks": ["17201"],
+				"Tasks": {
+					"~|Hearts of Sanguine|~ 8": "Quest"
+				}
+			},
+			"~|Hearts of Sanguine|~ 10": {
+				"BaseQuest": "Hearts of Sanguine",
+				"Description": "Speak to Liat in the Wendlewick smithy",
+				"Chunks": ["16692"],
+				"Tasks": {
+					"~|Hearts of Sanguine|~ 9": "Quest"
+				}
+			},
+			"~|Hearts of Sanguine|~ 11": {
+				"BaseQuest": "Hearts of Sanguine",
+				"Description": "Search for Gidon in Highweald Forest",
+				"Chunks": ["16694-2"],
+				"Tasks": {
+					"~|Hearts of Sanguine|~ 10": "Quest"
+				}
+			},
+			"~|Hearts of Sanguine|~ 12": {
+				"BaseQuest": "Hearts of Sanguine",
+				"Description": "Return to Liat and deliver 10 copper and 10 tin",
+				"Chunks": ["16692"],
+				"Items": ["Copper ore", "Tin ore"],
+				"Tasks": {
+					"~|Hearts of Sanguine|~ 11": "Quest"
+				}
+			},
+			"~|Hearts of Sanguine|~ 13": {
+				"BaseQuest": "Hearts of Sanguine",
+				"Description": "Check on Gidon and mine some havensilver",
+				"Chunks": ["Highweald Ruins"],
+				"Tasks": {
+					"~|Hearts of Sanguine|~ 12": "Quest"
+				}
+			},
+			"~|Hearts of Sanguine|~ 14": {
+				"BaseQuest": "Hearts of Sanguine",
+				"Description": "Learn how to forge havensilver from Liat, and forge a greatsword",
+				"Chunks": ["16692"],
+				"Tasks": {
+					"~|Hearts of Sanguine|~ 13": "Quest"
+				}
+			},
+			"~|Hearts of Sanguine|~ 15": {
+				"BaseQuest": "Hearts of Sanguine",
+				"Description": "Meet up with your allies at the blighted cave and defeat the sanguine heart",
+				"Chunks": ["Blighted Cave", "17203-1"],
+				"Tasks": {
+					"~|Hearts of Sanguine|~ 14": "Quest"
+				}
+			},"~|Hearts of Sanguine|~ Complete the quest": {
+				"BaseQuest": "Hearts of Sanguine",
+				"Chunks": ["17203-1"],
+				"Tasks": {
+					"~|Hearts of Sanguine|~ 15": "Quest"
+				},
+				"QuestPoints": 1,
+				"XpReward": {
+					"Herblore": 250,
+					"Smithing": 250
+				}
+			},
 			"~|Heartstealer|~ 1": {
 				"BaseQuest": "Heartstealer",
 				"Description": "Speak to Caelyn in Edgeville and prepare for a heist",
@@ -85864,6 +86081,95 @@
 				},
 				"QuestPoints": 0,
 				"Reward": ["Totem of Intimidation middle"],
+				"Not F2P": true
+			},
+			"~|Hermit Permits|~ 1": {
+				"BaseQuest": "Hermit Permits",
+				"Description": "Check the noticeboard at the Burnt Lobster and read about crabs",
+				"Chunks": ["16691-1"],
+				"Skills": {
+					"Constuction": 5,
+					"Crafting": 15
+				},
+				"Not F2P": true,
+				"NoBoost": true
+			},
+			"~|Hermit Permits|~ 2": {
+				"BaseQuest": "Hermit Permits",
+				"Description": "Speak to Grocer Hannah about the crab problem",
+				"Chunks": ["16692"],
+				"Tasks": {
+					"~|Hermit Permits|~ 1": "Quest"
+				},
+				"Not F2P": true
+			},
+			"~|Hermit Permits|~ 3": {
+				"BaseQuest": "Hermit Permits",
+				"Description": "Follow Shelly",
+				"Chunks": ["16692", "16693-1", "16437"],
+				"Tasks": {
+					"~|Hermit Permits|~ 2": "Quest"
+				},
+				"Not F2P": true
+			},
+			"~|Hermit Permits|~ 4": {
+				"BaseQuest": "Hermit Permits",
+				"Description": "Enter the Hermit Cave and speak to the hermit",
+				"Chunks": ["Hermit Cave"],
+				"Tasks": {
+					"~|Hermit Permits|~ 3": "Quest"
+				},
+				"Not F2P": true
+			},
+			"~|Hermit Permits|~ 5": {
+				"BaseQuest": "Hermit Permits",
+				"Description": "Craft a crab amulet and have the hermit enchant it into a crabulet",
+				"Chunks": ["Hermit Cave"],
+				"Items": ["Ball of wool"],
+				"Tasks": {
+					"~|Hermit Permits|~ 4": "Quest"
+				},
+				"Not F2P": true
+			},
+			"~|Hermit Permits|~ 6": {
+				"BaseQuest": "Hermit Permits",
+				"Description": "Return to Hannah, then speak with the crab on the southern beach",
+				"Chunks": ["16692", "16944"],
+				"Tasks": {
+					"~|Hermit Permits|~ 5": "Quest"
+				},
+				"Not F2P": true
+			},
+			"~|Hermit Permits|~ 7": {
+				"BaseQuest": "Hermit Permits",
+				"Description": "Get permission from Adam, Zeke, Esther and 5 random Wendlewickians",
+				"Chunks": ["16692", "16692-2"],
+				"Tasks": {
+					"~|Hermit Permits|~ 6": "Quest"
+				},
+				"Not F2P": true
+			},
+			"~|Hermit Permits|~ 8": {
+				"BaseQuest": "Hermit Permits",
+				"Description": "Return to the southern beach and build three crab huts",
+				"Chunks": ["16944"],
+				"Items": ["Rope", "Seaweed"],
+				"Tasks": {
+					"~|Hermit Permits|~ 7": "Quest"
+				},
+				"Not F2P": true
+			},
+			"~|Hermit Permits|~ Complete the quest": {
+				"BaseQuest": "Hermit Permits",
+				"Chunks": ["16944"],
+				"Tasks": {
+					"~|Hermit Permits|~ 8": "Quest"
+				},
+				"XpReward": {
+					"Crafting": 1000,
+					"Construction": 500
+				},
+				"QuestPoints": 1,
 				"Not F2P": true
 			},
 			"~|Hero's Welcome|~ 1": {
@@ -89669,6 +89975,64 @@
 				"Reward": ["Astral rune"],
 				"Not F2P": true
 			},
+			"~|The Lute of Love|~ 1": {
+				"BaseQuest": "The Lute of Love",
+				"Description": "Speak to Dalia at the tree nursery",
+				"Chunks": ["16690-1"],
+				"Tasks": {
+					"~|Visions of Havenhythe|~ Complete the quest": "Quest"
+				},
+				"Not F2P": true
+			},
+			"~|The Lute of Love|~ 2": {
+				"BaseQuest": "The Lute of Love",
+				"Description": "Talk to Adam about the lute",
+				"Chunks": ["16692"],
+				"Tasks": {
+					"~|The Lute of Love|~ 1": "Quest"
+				},
+				"Not F2P": true
+			},
+			"~|The Lute of Love|~ 3": {
+				"BaseQuest": "The Lute of Love",
+				"Description": "Fletch the lute",
+				"Items": ["Yew logs", "Maple logs"],
+				"Tasks": {
+					"~|The Lute of Love|~ 2": "Quest"
+				},
+				"Skills": {
+					"Fletching": 40,
+					"Crafting": 20
+				},
+				"Not F2P": true
+			},
+			"~|The Lute of Love|~ 4": {
+				"BaseQuest": "The Lute of Love",
+				"Description": "String the lute",
+				"Items": ["Sinew"],
+				"Tasks": {
+					"~|The Lute of Love|~ 3": "Quest"
+				},
+				"Not F2P": true
+			},
+			"~|The Lute of Love|~ 5": {
+				"BaseQuest": "The Lute of Love",
+				"Description": "Return the lute to Dalia",
+				"Chunks": ["16690-1"],
+				"Tasks": {
+					"~|The Lute of Love|~ 4": "Quest"
+				},
+				"Not F2P": true
+			},
+			"~|The Lute of Love|~ Complete the lore activity": {
+				"BaseQuest": "The Lute of Love",
+				"Chunks": ["16690-1"],
+				"Tasks": {
+					"~|The Lute of Love|~ 5": "Quest"
+				},
+				"QuestPoints": 0,
+				"Not F2P": true
+			},
 			"~|Mahjarrat Memories (miniquest)|~ 1": {
 				"BaseQuest": "Mahjarrat Memories (miniquest)",
 				"Description": "Speak to Kharshai underneath Rellekka",
@@ -89945,6 +90309,69 @@
 				"Chunks": ["9780-1"],
 				"Not F2P": true
 			},
+			"~|Maya Use Your Fish Farm?|~ 1": {
+				"BaseQuest": "Maya Use Your Fish Farm?",
+				"Description": "Speak to Maya",
+				"Chunks": ["16179-1"],
+				"Tasks": {
+					"~|Visions of Havenhythe|~ Complete the quest": "Quest",
+					"~|Trader Woes|~ 2b4": "Quest"
+				},
+				"Not F2P": true
+			},
+			"~|Maya Use Your Fish Farm?|~ 2": {
+				"BaseQuest": "Maya Use Your Fish Farm?",
+				"Description": "Populate the lobster pool with 10 raw lobsters and talk to Maya again",
+				"Chunks": ["16179-1"],
+				"Items": ["Raw lobster"],
+				"Tasks": {
+					"~|Maya Use Your Fish Farm?|~ 1": "Quest"
+				},
+				"Not F2P": true
+			},
+			"~|Maya Use Your Fish Farm?|~ 3": {
+				"BaseQuest": "Maya Use Your Fish Farm?",
+				"Description": "Fill the food hatch with lesser fish than lobster and talk to Maya again",
+				"Chunks": ["16179-1"],
+				"Items": ["LesserThanLobster[+]"],
+				"Tasks": {
+					"~|Maya Use Your Fish Farm?|~ 2": "Quest"
+				},
+				"Not F2P": true
+			},
+			"~|Maya Use Your Fish Farm?|~ 4": {
+				"BaseQuest": "Maya Use Your Fish Farm?",
+				"Description": "Operate the food dispenser controls until the pool is full",
+				"Chunks": ["16179-1"],
+				"Tasks": {
+					"~|Maya Use Your Fish Farm?|~ 3": "Quest"
+				},
+				"Skills": {
+					"Farming": 25
+				},
+				"Not F2P": true
+			},
+			"~|Maya Use Your Fish Farm?|~ 5": {
+				"BaseQuest": "Maya Use Your Fish Farm?",
+				"Description": "Empty the lobster pool",
+				"Chunks": ["16179-1"],
+				"Tasks": {
+					"~|Maya Use Your Fish Farm?|~ 4": "Quest"
+				},
+				"Skills": {
+					"Fishing": 45
+				},
+				"Not F2P": true
+			},
+			"~|Maya Use Your Fish Farm?|~ Complete the lore activity": {
+				"BaseQuest": "Maya Use Your Fish Farm?",
+				"Chunks": ["16179-1"],
+				"Tasks": {
+					"~|Maya Use Your Fish Farm?|~ 5": "Quest"
+				},
+				"QuestPoints": 0,
+				"Not F2P": true
+			},
 			"~|Meeting History|~ 1": {
 				"BaseQuest": "Meeting History",
 				"Description": "Speak to Jorral in the Ardougne outpost",
@@ -90033,9 +90460,9 @@
 			},
 			"~|Merlin's Crystal|~ 4a": {
 				"BaseQuest": "Merlin's Crystal",
-				"Description": "Have the candle maker create a black candle",
+				"Description": "Have the candle maker create a black candle, or bring one from Havenhythe",
 				"Chunks": ["11061"],
-				"Items": ["Bucket of wax"],
+				"Items": ["Merlin's Crystal step 4[+]"],
 				"Tasks": {
 					"~|Merlin's Crystal|~ 3": "Quest"
 				},
@@ -101018,6 +101445,88 @@
 				"Chunks": ["Tower of Life#Basement"],
 				"Not F2P": true
 			},
+			"~|Trader Woes|~ 1": {
+				"BaseQuest": "Trader Woes",
+				"Description": "Speak to Banker Nathan",
+				"Chunks": ["16692"],
+				"Tasks": {
+					"~|Visions of Havenhythe|~ Complete the quest": "Quest"
+				}
+			},
+			"~|Trader Woes|~ 2a1": {
+				"BaseQuest": "Trader Woes",
+				"Description": "Speak to Adam about Nathan's trade plans",
+				"Chunks": ["16692"],
+				"Tasks": {
+					"~|Trader Woes|~ 1": "Quest"
+				}
+			},
+			"~|Trader Woes|~ 2a2": {
+				"BaseQuest": "Trader Woes",
+				"Description": "Speak to Geva and light the beacon",
+				"Chunks": ["16438"],
+				"Tasks": {
+					"~|Trader Woes|~ 2a1": "Quest"
+				}
+			},
+			"~|Trader Woes|~ 2a3": {
+				"BaseQuest": "Trader Woes",
+				"Description": "Return to Adam",
+				"Chunks": ["16692"],
+				"Tasks": {
+					"~|Trader Woes|~ 2a2": "Quest"
+				}
+			},
+			"~|Trader Woes|~ 2b1": {
+				"BaseQuest": "Trader Woes",
+				"Description": "Speak to Maya about using her ship",
+				"Chunks": ["16179-1"],
+				"Tasks": {
+					"~|Trader Woes|~ 1": "Quest"
+				}
+			},
+			"~|Trader Woes|~ 2b2": {
+				"BaseQuest": "Trader Woes",
+				"Description": "Find and push Maya's boat on the river Avon",
+				"Chunks": ["17204"],
+				"Tasks": {
+					"~|Trader Woes|~ 2b1": "Quest"
+				}
+			},
+			"~|Trader Woes|~ 2b3": {
+				"BaseQuest": "Trader Woes",
+				"Description": "Find and repair Maya's boat at the shore",
+				"Chunks": ["16435-1"],
+				"Items": ["Iron nails"],
+				"Tasks": {
+					"~|Trader Woes|~ 2b2": "Quest"
+				}
+			},
+			"~|Trader Woes|~ 2b4": {
+				"BaseQuest": "Trader Woes",
+				"Description": "Speak to Maya again",
+				"Chunks": ["16179-1"],
+				"Tasks": {
+					"~|Trader Woes|~ 2b3": "Quest"
+				}
+			},
+			"~|Trader Woes|~ 3": {
+				"BaseQuest": "Trader Woes",
+				"Description": "Return to Nathan",
+				"Chunks": ["16692"],
+				"Tasks": {
+					"~|Trader Woes|~ 2a3": "Quest",
+					"~|Trader Woes|~ 2b4": "Quest"
+				}
+			},
+			"~|Trader Woes|~ Complete the lore activity": {
+				"BaseQuest": "Trader Woes",
+				"Chunks": ["16692"],
+				"Tasks": {
+					"~|Trader Woes|~ 3": "Quest"
+				},
+				"QuestPoints": 0
+			},
 			"~|Tree Gnome Village|~ 1": {
 				"BaseQuest": "Tree Gnome Village",
 				"Description": "Talk to King Bolren",
@@ -101954,6 +102463,77 @@
 				"XpReward": {
 					"Anyx3": 4000
 				}
+			},
+			"~|Visions of Havenhythe|~ 1": {
+				"BaseQuest": "Visions of Havenhythe",
+				"Description": "Speak the bartender at the Rusty Anchor, then to 'Shady' Sullivan",
+				"Chunks": ["12082-1"],
+				"NoBoost": true
+			},
+			"~|Visions of Havenhythe|~ 2": {
+				"BaseQuest": "Visions of Havenhythe",
+				"Description": "Speak to Captain Lorris to set sail to Havenhythe",
+				"Chunks": ["12082-1", "16179-2"],
+				"Tasks": {
+					"~|Visions of Havenhythe|~ 1": "Quest"
+				}
+			},
+			"~|Visions of Havenhythe|~ 3": {
+				"BaseQuest": "Visions of Havenhythe",
+				"Description": "Speak to Old Man Jocko",
+				"Chunks": ["16435-1"],
+				"Tasks": {
+					"~|Visions of Havenhythe|~ 2": "Quest"
+				}
+			},
+			"~|Visions of Havenhythe|~ 4": {
+				"BaseQuest": "Visions of Havenhythe",
+				"Description": "Speak to Adam in Wendlewick",
+				"Chunks": ["16692"],
+				"Tasks": {
+					"~|Visions of Havenhythe|~ 3": "Quest"
+				}
+			},
+			"~|Visions of Havenhythe|~ 5": {
+				"BaseQuest": "Visions of Havenhythe",
+				"Description": "Speak to Shrine Tender Joanna, then return to Adam. Speak to Zeke",
+				"Chunks": ["16946-1"],
+				"Tasks": {
+					"~|Visions of Havenhythe|~ 4": "Quest"
+				}
+			},
+			"~|Visions of Havenhythe|~ 6": {
+				"BaseQuest": "Visions of Havenhythe",
+				"Description": "Kill 10 juvinile boulder crabs and bring the limestone to Adam",
+				"Chunks": ["16692"],
+				"Monsters": ["Juvinile boulder crab"],
+				"Tasks": {
+					"~|Visions of Havenhythe|~ 5": "Quest"
+				}
+			},
+			"~|Visions of Havenhythe|~ 7": {
+				"BaseQuest": "Visions of Havenhythe",
+				"Description": "Speak to Esther",
+				"Chunks": ["16691-2"],
+				"Tasks": {
+					"~|Visions of Havenhythe|~ 6": "Quest"
+				}
+			},
+			"~|Visions of Havenhythe|~ 8": {
+				"BaseQuest": "Visions of Havenhythe",
+				"Description": "Build the Havenhythe lodestone",
+				"Chunks": ["16691-1"],
+				"Tasks": {
+					"~|Visions of Havenhythe|~ 7": "Quest"
+				}
+			},
+			"~|Visions of Havenhythe|~ Complete the quest": {
+				"BaseQuest": "Visions of Havenhythe",
+				"Chunks": ["16691-1"],
+				"Tasks": {
+					"~|Visions of Havenhythe|~ 8": "Quest"
+				},
+				"QuestPoints": 1
 			},
 			"~|A Void Dance|~ 1": {
 				"BaseQuest": "A Void Dance",
@@ -103327,6 +103907,56 @@
 					"Fletching": 20000,
 					"Ranged": 20000,
 					"Woodcutting": 20000
+				},
+				"Not F2P": true
+			},
+			"~|Wiz Kid|~ 1": {
+				"BaseQuest": "Wiz Kid",
+				"Description": "Speak to Ben at the Marigold Farm",
+				"Chunks": ["16947"],
+				"Skils": {
+					"Magic": 33
+				},
+				"Not F2P": true,
+				"NoBoost": true
+			},
+			"~|Wiz Kid|~ 2": {
+				"BaseQuest": "Wiz Kid",
+				"Description": "Give Ben the runes for Wendlewick Teleport, Telekenetic Grab and Bones to Bananas. This part of the quest is instanced.",
+				"Items": ["Air rune", "Water rune", "Earth rune", "Nature rune", "Law rune"],
+				"Chunks": ["16947"],
+				"Tasks": {
+					"~|Wiz Kid|~ 1": "Quest"
+				},
+				"Not F2P": true
+			},
+			"~|Wiz Kid|~ 3": {
+				"BaseQuest": "Wiz Kid",
+				"Description": "After the spell demonstrations, speak to Archmage Sedridor at the Wizards' Tower, then to Wizard Isidor",
+				"Chunks": ["12337-1"],
+				"Tasks": {
+					"~|Wiz Kid|~ 2": "Quest"
+				},
+				"Not F2P": true
+			},
+			"~|Wiz Kid|~ 4": {
+				"BaseQuest": "Wiz Kid",
+				"Description": "Return to Ben",
+				"Chunks": ["16947"],
+				"Tasks": {
+					"~|Wiz Kid|~ 3": "Quest"
+				},
+				"Not F2P": true
+			},
+			"~|Wiz Kid|~ Complete the quest": {
+				"BaseQuest": "Wiz Kid",
+				"Chunks": ["16947"],
+				"Tasks": {
+					"~|Wiz Kid|~ 4": "Quest"
+				},
+				"QuestPoints": 1,
+				"XpReward": {
+					"Magic": 3500
 				},
 				"Not F2P": true
 			},
@@ -149878,13 +150508,13 @@
 			"Highweald Ruins": {
 				"UnlocksArea": true,
 				"Tasks": {
-					"~|Hearts of Sanguine|~ XXX": "Quest"
+					"~|Hearts of Sanguine|~ 12": "Quest"
 				}
 			},
 			"Blighted Cave": {
 				"UnlocksArea": true,
 				"Tasks": {
-					"~|Hearts of Sanguine|~ XXX": "Quest"
+					"~|Hearts of Sanguine|~ 3": "Quest"
 				}
 			},
 			"Hollow Hill": {
@@ -184056,7 +184686,8 @@
 						"A Shadow over Ashdale": "first",
 						"Swept Away": "step",
 						"A Void Dance": "step",
-						"While Guthix Sleeps": "step"
+						"While Guthix Sleeps": "step",
+						"Visions of Havenhythe": "first"
 					},
 					"Clue": {
 						"easy": 5,
@@ -185290,7 +185921,8 @@
 						"Rune Mysteries": "first",
 						"Tomes of the Warlock": "step",
 						"Duck Quest": "step",
-						"Stellar Born": "step"
+						"Stellar Born": "step",
+						"Wiz Kid": "step"
 					},
 					"Clue": {
 						"easy": 1,
@@ -196962,6 +197594,10 @@
 					},
 					"Monster": {
 						"Juvinile boulder crab": 1
+					},
+					"Quest": {
+						"Maya Use Your Fish Farm?": "first",
+						"Trader Woes": "step"
 					}
 				},
 				"2": {
@@ -197343,6 +197979,9 @@
 				"Poppies": 2,
 				"Tree": 2
 			},
+			"Quest": {
+				"Hearts of Sanguine": "step"
+			},
 			"Nickname": "Western Shore Overlook"
 		},
 		"16435": {
@@ -197374,6 +198013,10 @@
 					},
 					"Shop": {
 						"Fishing Shop (Wendlewick)": 1
+					},
+					"Quest": {
+						"Visions of Havenhythe": "step",
+						"Trader Woes": "step"
 					}
 				},
 				"2": {},
@@ -197445,6 +198088,9 @@
 			"Spawn": {
 				"Seaweed": 4
 			},
+			"Quest": {
+				"Visions of Havenhythe": "step"
+			},
 			"Nickname": "Hermit Cave Entrance"
 		},
 		"16438": {
@@ -197462,6 +198108,9 @@
 			},
 			"Spawn": {
 				"Kaleb's travel journal - volume II": 1
+			},
+			"Quest": {
+				"Trader Woes": "step"
 			},
 			"Nickname": "Precarious Outhouse"
 		},
@@ -198007,6 +198656,9 @@
 					},
 					"Shop": {
 						"Farmer's Supplies": true
+					},
+					"Quest": {
+						"The Lute of Love": "first"
 					}
 				},
 				"2": {
@@ -198060,6 +198712,11 @@
 						"Tom's Trove": true,
 						"Burnt Lobster Tavern": true,
 						"The Birds and the Bees": true
+					},
+					"Quest": {
+						"Visions of Havenhythe": "step",
+						"Hermit Pertmits": "first",
+						"Hearts of Sanguine": "step"
 					}
 				},
 				"2": {
@@ -198068,6 +198725,10 @@
 					},
 					"NPC": {
 						"Esther": 1
+					},
+					"Quest": {
+						"Visions of Havenhythe": "step",
+						"Hearts of Sanguine": "step"
 					}
 				},
 				"3": {
@@ -198138,6 +198799,13 @@
 				"The Village Grocery": true,
 				"Fishing Shop (Wendlewick)": true
 			},
+			"Quest": {
+				"Visions of Havenhythe": "step",
+				"Hermit Permits": "step",
+				"Hearts of Sanguine": "step",
+				"The Lute of Love": "step",
+				"Trader Woes": "step"
+			},
 			"Nickname": "Wendlewick"
 		},
 		"16693": {
@@ -198148,6 +198816,9 @@
 						"Hollow tree (Highweald Forest)": 1,
 						"Tree": 26,
 						"Oak": 6
+					},
+					"Quest": {
+						"Hermit Permits": "step"
 					}
 				},
 				"2": {}
@@ -198690,6 +199361,9 @@
 				"Lobster pot": 1,
 				"Oyster": 1
 			},
+			"Quest": {
+				"Hermit Permits": "step"
+			},
 			"Nickname": "Here Be Crabs"
 		},
 		"16945": {
@@ -198708,6 +199382,10 @@
 						"Hedgehog": 2,
 						"Duck": 1,
 						"Duckling": 1
+					},
+					"Quest": {
+						"Visions of Havenhythe": "step",
+						"Hearts of Sanguine": "step"
 					}
 				},
 				"2": {
@@ -198748,6 +199426,9 @@
 					"Shop": {
 						"Summoning Supplies (Wendlewick)": true,
 						"Shrine of the Spirit Wolves": true
+					},
+					"Quest": {
+						"Visions of Havenhythe": "step"
 					}
 				},
 				"2": {
@@ -198817,6 +199498,9 @@
 			"Shop": {
 				"Farmer's Supplies": true
 			},
+			"Quest": {
+				"Wiz Kid": "first"
+			},
 			"Nickname": "Marigold Farm"
 		},
 		"16948": {
@@ -198838,6 +199522,9 @@
 			},
 			"Spawn": {
 				"Knife": 1
+			},
+			"Quest": {
+				"Finding Tali": "step"
 			},
 			"Nickname": "Reuben's Tannery"
 		},
@@ -198862,6 +199549,9 @@
 					},
 					"Spawn": {
 						"Butterfly net": 1
+					},
+					"Quest": {
+						"Hearts of Adventure": "step"
 					}
 				},
 				"2": {
@@ -198889,6 +199579,9 @@
 				"2": {
 					"Object": {
 						"Tree": 5
+					},
+					"Quest": {
+						"Hearts of Sanguine": "step"
 					}
 				},
 				"3": {
@@ -199311,6 +200004,9 @@
 				"Wool": 1,
 				"Shears": 1
 			},
+			"Quest": {
+				"Hearts of Sanguine": "step"
+			},
 			"Nickname": "Eastfold Farm"
 		},
 		"17203": {
@@ -199329,6 +200025,9 @@
 					},
 					"Connect": {
 						"56": true
+					},
+					"Quest": {
+						"Hearts of Sanguine": "step"
 					}
 				},
 				"2": {
@@ -199349,6 +200048,9 @@
 			},
 			"NPC": {
 				"Ranger": 1
+			},
+			"Quest": {
+				"Trader Woes": "step"
 			},
 			"Nickname": "Ruins East of Wendlewick"
 		},
@@ -199400,6 +200102,9 @@
 					"NPC": {
 						"Tali": 1,
 						"Reuben": 1
+					},
+					"Quest": {
+						"Trader Woes": "step"
 					}
 				},
 				"2": {
@@ -213464,13 +214169,16 @@
 				"Necrite rock": 4,
 				"Phasmatite rock": 4,
 				"Platinum rock": 4,
-				"Primeval rocks": 1
+				"Primeval slabs": 1
 			},
 			"NPC": {
 				"Gidon": 1
 			},
 			"Connect": {
 				"16694": true
+			},
+			"Quest": {
+				"Hearts of Sanguine": "step"
 			}
 		},
 		"Blighted Cave": {
@@ -213483,6 +214191,9 @@
 			},
 			"Connect": {
 				"17203": true
+			},
+			"Quest": {
+				"Hearts of Sanguine": "step"
 			}
 		},
 		"Hollow Hill": {
@@ -217016,6 +217727,7 @@
 				"Demon deacon pouch",
 				"Demon executioner pouch"
 			],
+			"LesserThanLobster[+]": ["Raw shrimps", "Raw crayfish", "Raw sardine", "Raw herring", "Raw anchovies", "Raw mackerel", "Raw trout", "Raw cod", "Raw pike", "Raw salmon", "Raw tuna"],
 			"Level1Bow[+]": [
 				"Shortbow",
 				"Shieldbow"
@@ -217224,6 +217936,7 @@
 				"Sacred clay platebody",
 				"Sacred clay platelegs"
 			],
+			"Merlin's Crystal step 4[+]": ["Bucket of wax", "Black candle"],
 			"MiningPotion[+]": [
 				"Mining potion (1)",
 				"Mining potion (2)",
@@ -220506,6 +221219,7 @@
 			"MasterworkArmour[+]": "Any piece of masterwork melee armour",
 			"MasterworkMagicArmour[+]": "Any piece of masterwork magic armour",
 			"MeleeSacredClay[+]": "Any piece of sacred clay melee armour",
+			"Merlin's Crystal step 4[+]": "Either a bucket of wax, or a black candle from Wendlewick",
 			"MiningPotion[+]": "Any mining potion",
 			"Mirror[+]": "Any item that protects from a cockatrice or basilisk gaze",
 			"MiscGift[+]": "Any gift for the prince or princess during 'Throne of Miscellania'",
@@ -278640,7 +279354,9 @@
 		"Haunted Mine": "13618, Abandoned Mine",
 		"Hazeel Cult": "10291, 10290, Southern Ardougne Sewer",
 		"Heart of Stone": "12337, 11316, 11313, 11318, 13355, 12849",
+		"Hearts of Sanguine": "16692, 16949, 16950, 16691, 17202, Blighted Cave, 16434, 16945, Highweald Ruins, 17203-1",
 		"Heartstealer": "12342, 12853",
+		"Hermit Permits": "16691, 16692, 16693, 16437, 16944",
 		"Hero's Welcome": "10553, V's Island (interior), 8763, Ancient Cavern, Dragonkin Lair, Grotworm Lair 3, Tarshak's sanctum",
 		"Heroes' Quest": "11574, Ice Queen's lair, 11316, 12082, 12596, 11057, Phoenix Gang Hideout",
 		"Holy Grail": "11062, 11316, 10294, 12340, 10802, Fisher Realm, 11830",
@@ -278797,6 +279513,7 @@
 		"Vessel of the Harbinger": "City of Um, 13879, 14646, 14647",
 		"Violet is Blue": "11318, Land of Snow",
 		"Violet is Blue Too": "11318, Land of Snow",
+		"Visions of Havenhythe": "12082, 16179, 16435, 16692, 16946, 16691",
 		"A Void Dance": "10537, 12082, 11826, 11569, 11570, 11828, 11572, 11827, 12083, 12086",
 		"The Void Stares Back": "11828, 12087, Taverley Dungeon",
 		"Wanted!": "11828, Taverley Dungeon, 12852, 13878, SolusLocation[+], 12596, 11062, Dorgesh-Kaan mine, Rune Essence mine",
@@ -278807,6 +279524,7 @@
 		"While Guthix Sleeps": "10804, 11573, 12854, 10029, 10289, 10034, Movario's base, 10550, 10806, 11828, 12338, 12082, 11310, 10544, 11575, 13878, 11319, 12087, Black Knights' catacombs, 11579, 11835, Tears of Guthix cavern, Ancient Guthix Temple",
 		"Witch's House": "11572, Witch's House Underground",
 		"Within the Light": "9265, Mourner MQ, Mourner Tunnels & Temple of Light, Death Rune Temple",
+		"Wiz Kid": "16947, 12337",
 		"Wolf Whistle": "11573, 11318, Taverley Well Cave",
 		"The World Wakes": "10804, Guthixian ruins",
 		"You Are It": "10550, 12854, 12850, 12849, 11826, 12340",
@@ -278836,6 +279554,7 @@
 		"Eye for an Eye (miniquest)": "17175, 17176, 16919, 16920",
 		"Father and Son (miniquest)": "15683, 10553",
 		"Final Destination (miniquest)": "17694, 17693, 17950",
+		"Finding Tali": "16948, 17206",
 		"Flag Fall (miniquest)": "15134",
 		"From Tiny Acorns (miniquest)": "Thieves' Guild Start, 12853",
 		"Fur 'n Seek#Wish List": "13366",
@@ -278853,7 +279572,9 @@
 		"Lair of Tarn Razorlor (miniquest)": "Lair of Tarn Razorlor (dungeon)",
 		"Lost Her Marbles (miniquest)": "Thieves' Guild after Caper 1, 12851",
 		"The Lost Toys (miniquest)": "13878, 13622, 14390, Araxyte lair, Paterdomus, 13877, Burgh de Rott Myreque Hideout, Meiyerditch Laboratories, Meiyerditch Mine, 14132, Cave (Burgh de Rott), 14641",
+		"The Lute of Love": "16690-1, 16692",
 		"Mahjarrat Memories (miniquest)": "10553, VibrantOrBetterWisps[+], Enakhra's Temple, Jaldraocht Pyramid, 13626, Southern Ardougne Sewer, Erjolf's cave, Lamistard's Tunnels, 12342, Senntisten Temple, 11580, 11581, Empyrean Citadel, 13613, Chaos Temple Dungeon",
+		"Maya Use Your Fish Farm?": "16179",
 		"Mogre (lore activity)": "11825",
 		"Nadir (abridged saga)": "13626, 13882, 13625",
 		"Nadir (unabridged saga)": "13626, 13882, 13625",
@@ -278873,6 +279594,7 @@
 		"Three's Company (abridged saga)": "13626, 13882, 13625",
 		"Three's Company (unabridged saga)": "13626, 13882, 13625",
 		"Tortle Combat (miniquest)": "12854, 10548, Varrock Sewers, 12598",
+		"Trader Woes": "16692, 16438, 16179, 17204, 16435",
 		"Tuai Leit's Own (miniquest)": "14884, 15139, 14883, Aminishi Spirit Realm, 15134, 15135",
 		"Vengeance (abridged saga)": "13626, 13882, 13625",
 		"Vengeance (unabridged saga)": "13626, 13882, 13625",
@@ -281451,12 +282173,32 @@
 				"11571-1": [{
 					"Enter the ~|Crafting Guild|~": "Crafting"
 				}]
+			},
+			"Reuben": {
+				"16948": [{
+					"~|Finding Tali|~ Complete the lore activity": "Quest"
+				}]
+			},
+			"Tool leprechaun": {
+				"16690-1": [{
+					"~|The Lute of Love|~ Complete the lore activity": "Quest"
+				}]
 			}
 		},
 		"Objects": {
 			"Cactus patch": {
 				"12587-2": [{
 					"Repair the Menaphos cactus patch": "Nonskill"
+				}]
+			},
+			"Tree patch": {
+				"16690-1": [{
+					"~|The Lute of Love|~ Complete the lore activity": "Quest"
+				}]
+			},
+			"Fruit tree patch": {
+				"16690-1": [{
+					"~|The Lute of Love|~ Complete the lore activity": "Quest"
 				}]
 			},
 			"Cooking range": {
@@ -281499,11 +282241,6 @@
 			"Herb patch": {
 				"11065-2": [{
 					"~|My Arm's Big Adventure|~ Complete the quest": "Quest"
-				}]
-			},
-			"Phasmatite rock": {
-				"Dwarven Mine resource dungeon": [{
-					"~|Daemonheim Achievements#Hard|~ Complete the Hard Achievements": "Diary"
 				}]
 			},
 			"Dragonkin anvil": {
@@ -281700,6 +282437,11 @@
 			"Phasmatite vein": {
 				"Abandoned Mine": [{
 					"~|Haunted Mine|~ 2": "Quest"
+				}]
+			},
+			"Platinum rock": {
+				"Highweald Ruins": [{
+					"Mine ~|primeval slabs|~": "Mining"
 				}]
 			},
 			"Yew": {
