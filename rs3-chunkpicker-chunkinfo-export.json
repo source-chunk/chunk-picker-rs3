@@ -37427,98 +37427,6 @@
 			}
 		},
 		"Fishing": {
-			"Catch a ~|leaping trout|~": {
-				"Items": ["Barbarian bait[+]*"],
-				"Level": 48,
-				"Objects": ["Fishing spot (barbarian)"],
-				"Tasks": {
-					"~|Barbarian Training|~ 2b3": "Quest"
-				},
-				"Primary": true,
-				"Output": "Leaping trout",
-				"Skills": {
-					"Agility": 15,
-					"Strength": 15
-				},
-				"Priority": 1
-			},
-			"Catch ~|golden leaping trout eggs|~": {
-				"Items": ["Barbarian bait[+]*"],
-				"Level": 48,
-				"Objects": ["Fishing spot (barbarian)"],
-				"Tasks": {
-					"~|Barbarian Training|~ 2b3": "Quest"
-				},
-				"Primary": true,
-				"Output": "Golden leaping trout eggs",
-				"Skills": {
-					"Agility": 15,
-					"Strength": 15
-				},
-				"Priority": 2
-			},
-			"Catch a ~|leaping salmon|~": {
-				"Items": ["Barbarian bait[+]*"],
-				"Level": 58,
-				"Objects": ["Fishing spot (barbarian)"],
-				"Tasks": {
-					"~|Barbarian Training|~ 2b3": "Quest"
-				},
-				"Primary": true,
-				"Output": "Leaping salmon",
-				"Skills": {
-					"Agility": 30,
-					"Strength": 30
-				},
-				"Priority": 1
-			},
-			"Catch ~|golden leaping salmon eggs|~": {
-				"Items": ["Barbarian bait[+]*"],
-				"Level": 58,
-				"Objects": ["Fishing spot (barbarian)"],
-				"Tasks": {
-					"~|Barbarian Training|~ 2b3": "Quest"
-				},
-				"Primary": true,
-				"Output": "Golden leaping salmon eggs",
-				"Skills": {
-					"Agility": 30,
-					"Strength": 30
-				},
-				"Priority": 2,
-				"Not F2P": true
-			},
-			"Catch a ~|leaping sturgeon|~": {
-				"Items": ["Barbarian bait[+]*"],
-				"Level": 70,
-				"Objects": ["Fishing spot (barbarian)"],
-				"Tasks": {
-					"~|Barbarian Training|~ 2b3": "Quest"
-				},
-				"Primary": true,
-				"Output": "Leaping sturgeon",
-				"Skills": {
-					"Agility": 45,
-					"Strength": 45
-				},
-				"Priority": 1
-			},
-			"Catch ~|golden leaping sturgeon eggs|~": {
-				"Items": ["Barbarian bait[+]*"],
-				"Level": 70,
-				"Objects": ["Fishing spot (barbarian)"],
-				"Tasks": {
-					"~|Barbarian Training|~ 2b3": "Quest"
-				},
-				"Primary": true,
-				"Output": "Golden leaping sturgeon eggs",
-				"Skills": {
-					"Agility": 45,
-					"Strength": 45
-				},
-				"Priority": 2,
-				"Not F2P": true
-			},
 			"Catch ~|raw shrimps|~": {
 				"Level": 1,
 				"Objects": ["Fishing spot (small fishing net, bait)"],
@@ -37541,6 +37449,41 @@
 				"Output": "Raw minnow",
 				"Priority": 3
 			},
+			"Compete in ~|Fish Flingers|~": {
+				"Chunks": ["10295"],
+				"Level": 1,
+				"Primary": true,
+				"Output": "Fish Flingers rewards",
+				"Priority": 101
+			},
+			"Fish for sea cucumber for the ~|Giant Oyster|~": {
+				"Category": ["DnD", "Not Daily DnD"],
+				"Chunks": ["Sunken Tutorial Island"],
+				"Level": 1,
+				"Primary": true,
+				"Priority": 102
+			},
+			"Read a Fishing tome from ~|Temple Trekking|~": {
+				"Category": ["DnD"],
+				"Chunks": ["Temple Trekking Routes"],
+				"Level": 1,
+				"Primary": true,
+				"Priority": 103
+			},
+			"Catch ~|fungal algae|~ in a Croesus encounter": {
+				"Chunks": ["Senntisten"],
+				"Level": 1,
+				"Primary": true,
+				"Priority": 104
+			},
+			"Use an ~|experience lamp|~ from the Waiko Reward Shop on Fishing": {
+				"Category": ["XP Lamps"],
+				"Items": ["Ports XP Lamp"],
+				"Level": 1,
+				"Priamry": 1,
+				"Priority": 105,
+				"NoPet": true
+			},
 			"Complete a ~|cracked fishing urn|~": {
 				"Category": ["Token"],
 				"Items": ["Cracked fishing urn (no rune)*", "Water rune*"],
@@ -37550,7 +37493,7 @@
 				},
 				"Output": "Cracked fishing urn",
 				"Primary": true,
-				"Priority": 8
+				"Priority": 1000
 			},
 			"Complete a ~|fragile fishing urn|~": {
 				"Category": ["Token"],
@@ -37561,7 +37504,7 @@
 				},
 				"Output": "Fragile fishing urn",
 				"Primary": true,
-				"Priority": 9
+				"Priority": 1001
 			},
 			"Complete a ~|plain fishing urn|~": {
 				"Category": ["Token"],
@@ -37572,7 +37515,7 @@
 				},
 				"Output": "Plain fishing urn",
 				"Primary": true,
-				"Priority": 10
+				"Priority": 1002
 			},
 			"Complete a ~|strong fishing urn|~": {
 				"Category": ["Token"],
@@ -37583,7 +37526,7 @@
 				},
 				"Output": "Strong fishing urn",
 				"Primary": true,
-				"Priority": 11
+				"Priority": 1003
 			},
 			"Complete a ~|decorated fishing urn|~": {
 				"Category": ["Token"],
@@ -37594,7 +37537,7 @@
 				},
 				"Output": "Decorated fishing urn",
 				"Primary": true,
-				"Priority": 12
+				"Priority": 1004
 			},
 			"Complete an ~|exquisite fishing urn|~": {
 				"Category": ["Token"],
@@ -37605,7 +37548,7 @@
 				},
 				"Output": "Exquisite fishing urn",
 				"Primary": true,
-				"Priority": 13
+				"Priority": 1005
 			},
 			"Train Fishing in ~|Daemonheim|~": {
 				"Category": ["Daemonheim training"],
@@ -37614,56 +37557,40 @@
 				},
 				"Level": 1,
 				"Primary": true,
-				"Priority": 13
+				"Priority": 1006
 			},
-			"Compete in ~|Fish Flingers|~": {
-				"Chunks": ["10295"],
+			"Build a ~|mounted sea bass|~": {
+				"Category": ["InsidePOH Primary"],
+				"Chunks": ["Player-owned house"],
+				"Items": ["Oak plank", "Big bass (stuffed)"],
 				"Level": 1,
+				"Skills": {
+					"Construction": 36
+				},
 				"Primary": true,
-				"Output": "Fish Flingers rewards",
-				"Priority": 14
+				"Priority": 1008
 			},
-			"Fish for sea cucumber for the ~|Giant Oyster|~": {
-				"Category": ["DnD", "Not Daily DnD"],
-				"Chunks": ["Sunken Tutorial Island"],
+			"Build a ~|mounted swordfish|~": {
+				"Category": ["InsidePOH Primary"],
+				"Chunks": ["Player-owned house"],
+				"Items": ["Teak plank", "Big swordfish (stuffed)"],
 				"Level": 1,
+				"Skills": {
+					"Construction": 56
+				},
 				"Primary": true,
-				"Priority": 22
+				"Priority": 1009
 			},
-			"Read a Fishing tome from ~|Temple Trekking|~": {
-				"Category": ["DnD"],
-				"Chunks": ["Temple Trekking Routes"],
+			"Build a ~|mounted shark|~": {
+				"Category": ["InsidePOH Primary"],
+				"Chunks": ["Player-owned house"],
+				"Items": ["Mahogany plank", "Big shark (stuffed)"],
 				"Level": 1,
+				"Skills": {
+					"Construction": 76
+				},
 				"Primary": true,
-				"Priority": 23
-			},
-			"Catch ~|fungal algae|~ in a Croesus encounter": {
-				"Chunks": ["Senntisten"],
-				"Level": 1,
-				"Primary": true,
-				"Priority": 25
-			},
-			"Use an ~|experience lamp|~ from the Waiko Reward Shop on Fishing": {
-				"Category": ["XP Lamps"],
-				"Items": ["Ports XP Lamp"],
-				"Level": 1,
-				"Priamry": 1,
-				"Priority": 1000,
-				"NoPet": true
-			},
-			"Catch ~|raw shrimps|~ in the holy lake": {
-				"Level": 5,
-				"Objects": ["Fishing spot (karambwanji)"],
-				"Primary": true,
-				"Output": "Raw shrimps",
-				"Priority": 3
-			},
-			"Catch a ~|raw Karambwanji|~": {
-				"Level": 5,
-				"Objects": ["Fishing spot (karambwanji)"],
-				"Primary": true,
-				"Output": "Raw karambwanji",
-				"Priority": 2
+				"Priority": 1010
 			},
 			"Catch a ~|raw sardine|~": {
 				"Items": ["Fishing bait*"],
@@ -37672,6 +37599,20 @@
 				"Primary": true,
 				"Output": "Raw sardine",
 				"Priority": 1
+			},
+			"Catch a ~|raw Karambwanji|~": {
+				"Level": 5,
+				"Objects": ["Fishing spot (karambwanji)"],
+				"Primary": true,
+				"Output": "Raw karambwanji",
+				"Priority": 2
+			},
+			"Catch ~|raw shrimps|~ in the holy lake": {
+				"Level": 5,
+				"Objects": ["Fishing spot (karambwanji)"],
+				"Primary": true,
+				"Output": "Raw shrimps",
+				"Priority": 3
 			},
 			"Catch a ~|raw herring|~": {
 				"Items": ["Fishing bait*"],
@@ -37709,17 +37650,8 @@
 				"Level": 20,
 				"Objects": ["Fishing spot (lure, bait)"],
 				"Primary": true,
-				"Output": "Raw trout",
+				"Output": "Raw trout loot",
 				"Priority": 1
-			},
-			"Catch ~|golden trout eggs|~": {
-				"Items": ["Feather[+]*"],
-				"Level": 20,
-				"Objects": ["Fishing spot (lure, bait)"],
-				"Primary": true,
-				"Output": "Golden trout eggs",
-				"Priority": 2,
-				"Not F2P": true
 			},
 			"Catch a ~|raw cod|~": {
 				"Level": 23,
@@ -37737,60 +37669,40 @@
 				"Output": "Raw pike",
 				"Priority": 1
 			},
-			"Catch a ~|slimy eel|~ in Morytania": {
-				"Items": ["Fishing bait"],
-				"Level": 28,
-				"Objects": ["Fishing spot (slimy eels)"],
-				"Primary": true,
-				"Output": "Slimy eel",
-				"Priority": 2
-			},
 			"Catch a ~|slimy eel|~": {
 				"Items": ["Fishing bait"],
 				"Level": 28,
-				"Objects": ["Fishing spot (frog spawn, eels)"],
+				"Objects": ["Slimy eel spot[+]"],
 				"Primary": true,
 				"Output": "Slimy eel",
-				"Priority": 1,
-				"Not F2P": true
-			},
-			"Catch a ~|slimy eel|~ in the Meiyerditch dungeon": {
-				"Items": ["Fishing bait"],
-				"Level": 28,
-				"Objects": ["Fishing spot (meiyerditch)"],
-				"Primary": true,
-				"Output": "Slimy eel",
-				"Priority": 3,
-				"Not F2P": true
+				"Priority": 1
 			},
 			"Catch a ~|raw salmon|~": {
 				"Items": ["Feather[+]*"],
 				"Level": 30,
 				"Objects": ["Fishing spot (lure, bait)"],
 				"Primary": true,
-				"Output": "Raw salmon",
+				"Output": "Raw salmon loot",
 				"Priority": 1
 			},
-			"Catch ~|golden salmon eggs|~": {
-				"Items": ["Feather[+]*"],
-				"Level": 30,
-				"Objects": ["Fishing spot (lure, bait)"],
-				"Primary": true,
-				"Output": "Golden salmon eggs",
-				"Priority": 2,
-				"Not F2P": true
+			"Fish with a ~|cobalt skillchompa|~": {
+				"Items": ["Cobalt skillchompa"],
+				"Level": 31,
+				"Objects": ["Fish[+]"],
+				"Primary": false,
+				"Priority": 1000
 			},
 			"Catch a ~|frog spawn|~": {
 				"Level": 33,
 				"Objects": ["Fishing spot (frog spawn, eels)"],
 				"Primary": true,
-				"Output": "EelSpawn",
+				"Output": "Frog spawn",
 				"Priority": 1,
 				"Not F2P": true
 			},
 			"Catch a ~|raw tuna|~": {
 				"Level": 35,
-				"Objects": ["Fishing spot (cage, harpoon)"],
+				"Objects": ["Tuna spot[+]"],
 				"Primary": true,
 				"Output": "Raw tuna",
 				"Priority": 1
@@ -37800,15 +37712,8 @@
 				"Objects": ["Fishing spot (cage, harpoon)"],
 				"Primary": true,
 				"Output": "Golden tuna eggs",
-				"Priority": 2,
+				"Priority": 1000,
 				"Not F2P": true
-			},
-			"Catch a ~|raw tuna|~ in the Piscatoris fishing colony": {
-				"Level": 35,
-				"Objects": ["Fishing spot (Piscatoris Fishing Colony)"],
-				"Primary": true,
-				"Output": "Raw tuna",
-				"Priority": 3
 			},
 			"Catch two ~|raw tuna|~ in one attempt": {
 				"Category": ["Multiple Agility"],
@@ -37819,7 +37724,7 @@
 					"Agility": 35
 				},
 				"Primary": false,
-				"Priority": 4,
+				"Priority": 1001,
 				"NoPet": true
 			},
 			"Catch a ~|raw rainbow fish|~": {
@@ -37827,107 +37732,80 @@
 				"Level": 38,
 				"Objects": ["Fishing spot (lure, bait)"],
 				"Primary": true,
-				"Output": "Raw rainbow fish",
+				"Output": "Raw rainbow fish loot",
 				"Priority": 1,
-				"Not F2P": true
-			},
-			"Catch ~|golden rainbow fish eggs|~": {
-				"Items": ["Stripy feathers"],
-				"Level": 38,
-				"Objects": ["Fishing spot (lure, bait)"],
-				"Primary": true,
-				"Output": "Golden rainbow fish eggs",
-				"Priority": 2,
 				"Not F2P": true
 			},
 			"Catch a ~|raw cave eel|~": {
 				"Items": ["Fishing bait"],
 				"Level": 38,
-				"Objects": ["Fishing spot (frog spawn, eels)"],
+				"Objects": ["Cave eel spot[+]"],
 				"Primary": true,
 				"Output": "Raw cave eel",
-				"Priority": 3
-			},
-			"Catch a ~|raw cave eel|~ in the Meiyerditch dungeon": {
-				"Items": ["Fishing bait"],
-				"Level": 38,
-				"Objects": ["Fishing spot (meiyerditch)"],
-				"Primary": true,
-				"Output": "Raw cave eel",
-				"Priority": 4
+				"Priority": 2
 			},
 			"Catch a ~|raw lobster|~": {
 				"Level": 40,
 				"Objects": ["Fishing spot (cage, harpoon)"],
 				"Primary": true,
-				"Output": "Raw lobster",
+				"Output": "Raw lobster loot",
 				"Priority": 1
 			},
-			"Catch ~|golden lobster eggs|~": {
-				"Level": 40,
-				"Objects": ["Fishing spot (cage, harpoon)"],
-				"Primary": true,
-				"Output": "Golden lobster eggs",
-				"Priority": 2,
-				"Not F2P": true
+			"Fish with a ~|viridian skillchompa|~": {
+				"Items": ["Viridian skillchompa"],
+				"Level": 41,
+				"Objects": ["Fish[+]"],
+				"Primary": false,
+				"Priority": 1000
 			},
 			"Catch a ~|raw bass|~": {
 				"Level": 46,
 				"Objects": ["Fishing spot (big fishing net, harpoon)"],
 				"Primary": true,
-				"Output": "Raw bass",
+				"Output": "Raw bass loot",
 				"Priority": 1,
 				"Not F2P": true
 			},
-			"Catch a ~|big bass|~": {
-				"Level": 46,
-				"Objects": ["Fishing spot (big fishing net, harpoon)"],
+			"Catch a ~|leaping trout|~": {
+				"Items": ["Barbarian bait[+]*"],
+				"Level": 48,
+				"Objects": ["Fishing spot (barbarian)"],
+				"Tasks": {
+					"~|Barbarian Training|~ 2b3": "Quest"
+				},
 				"Primary": true,
-				"Output": "Big bass",
-				"Priority": 2,
-				"Not F2P": true
+				"Output": "Leaping trout loot",
+				"Skills": {
+					"Agility": 15,
+					"Strength": 15
+				},
+				"Priority": 1
 			},
 			"Catch a ~|raw swordfish|~": {
 				"Level": 50,
-				"Objects": ["Fishing spot (cage, harpoon)"],
+				"Objects": ["Swordfish spot[+]"],
 				"Primary": true,
-				"Output": "Raw swordfish",
+				"Output": "Raw swordfish loot",
 				"Priority": 1
-			},
-			"Catch a ~|big swordfish|~": {
-				"Level": 50,
-				"Objects": ["Fishing spot (cage, harpoon)"],
-				"Primary": true,
-				"Output": "Big swordfish",
-				"Priority": 2
-			},
-			"Catch ~|golden swordfish eggs|~": {
-				"Level": 50,
-				"Objects": ["Fishing spot (cage, harpoon)"],
-				"Primary": true,
-				"Output": "Golden swordfish eggs",
-				"Priority": 3,
-				"Not F2P": true,
-				"Not F2P": true
-			},
-			"Catch a ~|raw swordfish|~ in the Piscatoris fishing colony": {
-				"Level": 50,
-				"Objects": ["Fishing spot (Piscatoris Fishing Colony)"],
-				"Primary": true,
-				"Output": "Raw swordfish",
-				"Priority": 4
 			},
 			"Catch two ~|raw swordfish|~ in one attempt": {
 				"Category": ["Multiple Agility"],
 				"Level": 50,
-				"Objects": ["Fishing spot (cage, harpoon)"],
+				"Objects": ["Swordfish spot[+]"],
 				"Output": "Raw swordfish",
 				"Skills": {
 					"Agility": 50
 				},
 				"Primary": false,
-				"Priority": 5,
+				"Priority": 1002,
 				"NoPet": true
+			},
+			"Fish with an ~|azure skillchompa|~": {
+				"Items": ["Azure skillchompa"],
+				"Level": 51,
+				"Objects": ["Fish[+]"],
+				"Primary": false,
+				"Priority": 1000
 			},
 			"Catch a ~|raw desert sole|~": {
 				"Items": ["Fishing bait"],
@@ -37950,17 +37828,38 @@
 				"Level": 53,
 				"Objects": ["Fishing spot (lava)"],
 				"Primary": true,
-				"Output": "Raw lava eel",
+				"Output": "Raw lava eel loot",
 				"Priority": 1
 			},
-			"Catch ~|golden lava eel eggs|~": {
-				"Items": ["Oily fishing rod", "Fishing bait"],
-				"Level": 53,
-				"Objects": ["Fishing spot (lava)"],
+			"Catch a ~|raw tuna|~ barehanded": {
+				"NPCs": ["Otto Godblessed"],
+				"Level": 55,
+				"Objects": ["Fishing spot (cage, harpoon)"],
 				"Primary": true,
-				"Output": "Golden lava eel eggs",
-				"Priority": 2,
+				"Skills": {
+					"Strength": 35
+				},
+				"Tasks": {
+					"~|Barbarian Training|~ 2b4a2": "Quest"
+				},
+				"Output": "Raw tuna",
+				"Priority": 1000,
 				"Not F2P": true
+			},
+			"Catch a ~|leaping salmon|~": {
+				"Items": ["Barbarian bait[+]*"],
+				"Level": 58,
+				"Objects": ["Fishing spot (barbarian)"],
+				"Tasks": {
+					"~|Barbarian Training|~ 2b3": "Quest"
+				},
+				"Primary": true,
+				"Output": "Leaping salmon",
+				"Skills": {
+					"Agility": 30,
+					"Strength": 30
+				},
+				"Priority": 1
 			},
 			"Catch a ~|raw catfish|~": {
 				"Items": ["Fishing bait"],
@@ -37978,20 +37877,19 @@
 				"Priority": 2,
 				"Not F2P": true
 			},
+			"Fish with a ~|crimson skillchompa|~": {
+				"Items": ["Crimson skillchompa"],
+				"Level": 61,
+				"Objects": ["Fish[+]"],
+				"Primary": false,
+				"Priority": 1000
+			},
 			"Catch a ~|raw monkfish|~": {
 				"Level": 62,
 				"Objects": ["Fishing spot (Piscatoris Fishing Colony)"],
 				"Primary": true,
-				"Output": "Raw monkfish",
+				"Output": "Raw monkfish loot",
 				"Priority": 1
-			},
-			"Catch ~|golden monkfish eggs|~": {
-				"Level": 62,
-				"Objects": ["Fishing spot (Piscatoris Fishing Colony)"],
-				"Primary": true,
-				"Output": "Golden monkfish eggs",
-				"Priority": 2,
-				"Not F2P": true
 			},
 			"Catch a ~|raw karambwan|~": {
 				"Items": ["Karambwan vessel"],
@@ -38028,7 +37926,7 @@
 			"Fish at a ~|swarm|~": {
 				"Level": 68,
 				"Objects": ["Swarm"],
-				"Output": " Swarm fishing",
+				"Output": "Swarm fishing",
 				"Primary": true,
 				"Priority": 3
 			},
@@ -38036,7 +37934,50 @@
 				"Chunks": ["10292"],
 				"Level": 68,
 				"Primary": true,
-				"Priority": 4
+				"Priority": 1000
+			},
+			"Catch a ~|leaping sturgeon|~": {
+				"Items": ["Barbarian bait[+]*"],
+				"Level": 70,
+				"Objects": ["Fishing spot (barbarian)"],
+				"Tasks": {
+					"~|Barbarian Training|~ 2b3": "Quest"
+				},
+				"Primary": true,
+				"Output": "Leaping sturgeon loot",
+				"Skills": {
+					"Agility": 45,
+					"Strength": 45
+				},
+				"Priority": 1
+			},
+			"Equip a ~|superior whopper-baiting scrimshaw|~": {
+				"Items": ["Superior whopper-baiting scrimshaw"],
+				"Level": 70,
+				"Primary": false,
+				"Priority": 100
+			},
+			"Catch a ~|raw swordfish|~ barehanded": {
+				"NPCs": ["Otto Godblessed"],
+				"Level": 70,
+				"Objects": ["Fishing spot (cage, harpoon)"],
+				"Primary": true,
+				"Skills": {
+					"Strength": 50
+				},
+				"Tasks": {
+					"~|Barbarian Training|~ 2b4a2": "Quest"
+				},
+				"Output": "Raw swordfish",
+				"Priority": 1000,
+				"Not F2P": true
+			},
+			"Fish with a ~|crystal skillchompa|~": {
+				"Items": ["Crystal skillchompa"],
+				"Level": 71,
+				"Objects": ["Fish[+]"],
+				"Primary": false,
+				"Priority": 1000
 			},
 			"Catch a ~|raw beltfish|~": {
 				"Items": ["Fishing bait"],
@@ -38057,34 +37998,19 @@
 				"Level": 76,
 				"Objects": ["Fishing spot (big fishing net, harpoon)"],
 				"Primary": true,
-				"Output": "Raw shark",
-				"Priority": 2
+				"Output": "Raw shark loot",
+				"Priority": 1
 			},
-			"Catch a ~|big shark|~": {
-				"Level": 76,
-				"Objects": ["Fishing spot (big fishing net, harpoon)"],
-				"Primary": true,
-				"Output": "Big shark",
-				"Priority": 3
-			},
-			"Catch ~|golden shark eggs|~": {
-				"Level": 76,
-				"Objects": ["Fishing spot (big fishing net, harpoon)"],
-				"Primary": true,
-				"Output": "Golden shark eggs",
-				"Priority": 4,
-				"Not F2P": true
-			},
-			"Catch two ~|raw tuna|~ in one attempt": {
+			"Catch two ~|raw sharks|~ in one attempt": {
 				"Category": ["Multiple Agility"],
 				"Level": 76,
 				"Objects": ["Fishing spot (cage, harpoon)"],
-				"Output": "Raw tuna",
+				"Output": "Raw shark",
 				"Skills": {
 					"Agility": 76
 				},
 				"Primary": false,
-				"Priority": 5,
+				"Priority": 1002,
 				"NoPet": true,
 				"Not F2P": true
 			},
@@ -38094,9 +38020,17 @@
 				"Objects": ["Magical fishing spot)"],
 				"Primary": true,
 				"Output": "Raw sea turtle",
-				"Priority": 2
+				"Priority": 1
 			},
 			"Catch a ~|raw great white shark|~": {
+				"Items": ["Great white shark bait"],
+				"Level": 80,
+				"Objects": ["Magical fishing spot"],
+				"Primary": true,
+				"Output": "Raw great white shark",
+				"Priority": 1
+			},
+			"Catch a ~|raw great white shark|~ after unlocking the prawnbroker perk": {
 				"Tasks": {
 					"Build a ~|driftwood prawnbroker|~": "Construction"
 				},
@@ -38104,15 +38038,13 @@
 				"Objects": ["Fishing spot (big fishing net, harpoon)"],
 				"Primary": true,
 				"Output": "Raw great white shark",
-				"Priority": 2
+				"Priority": 100
 			},
-			"Catch a ~|raw great white shark|~ while deep sea fishing": {
-				"Items": ["Great white shark bait"],
+			"Equip a ~|superior casket-salvaging scrimshaw|~": {
+				"Items": ["Superior casket-salvaging scrimshaw"],
 				"Level": 80,
-				"Objects": ["Magical fishing spot"],
-				"Primary": true,
-				"Output": "Raw great white shark",
-				"Priority": 1
+				"Primary": false,
+				"Priority": 101
 			},
 			"Create the ~|fury shark outfit|~": {
 				"Objects": ["Inventor's workbench"],
@@ -38122,13 +38054,7 @@
 				},
 				"Primary": false,
 				"Output": "SharkOutfit",
-				"Priority": 3
-			},
-			"Equip a ~|superior casket-salvaging scrimshaw|~": {
-				"Items": ["Superior casket-salvaging scrimshaw"],
-				"Level": 80,
-				"Primary": false,
-				"Priority": 4
+				"Priority": 1000
 			},
 			"Catch a ~|raw manta ray|~": {
 				"Items": ["Manta ray bait"],
@@ -38136,24 +38062,15 @@
 				"Objects": ["Magical fishing spot"],
 				"Primary": true,
 				"Output": "Raw manta ray",
-				"Priority": 2
+				"Priority": 1
 			},
 			"Catch a ~|raw cavefish|~": {
 				"Items": ["Fishing bait"],
 				"Level": 85,
 				"Objects": ["Cavefish shoal"],
 				"Primary": true,
-				"Output": "Raw cavefish",
+				"Output": "Raw cavefish loot",
 				"Priority": 1
-			},
-			"Catch ~|golden cavefish eggs|~": {
-				"Items": ["Fishing bait"],
-				"Level": 85,
-				"Objects": ["Cavefish shoal"],
-				"Primary": true,
-				"Output": "Golden cavefish eggs",
-				"Priority": 2,
-				"Not F2P": true
 			},
 			"Catch ~|fungal algae|~": {
 				"Objects": ["Colonised Varrock guard"],
@@ -38167,17 +38084,8 @@
 				"Level": 90,
 				"Objects": ["Rocktail shoal"],
 				"Primary": true,
-				"Output": "Raw rocktail",
+				"Output": "Raw rocktail loot",
 				"Priority": 1
-			},
-			"Catch ~|golden rocktail eggs|~": {
-				"Items": ["Living minerals"],
-				"Level": 90,
-				"Objects": ["Rocktail shoal"],
-				"Primary": true,
-				"Output": "Golden rocktail eggs",
-				"Priority": 2,
-				"Not F2P": true
 			},
 			"Catch a ~|raw tarpon|~": {
 				"Items": ["Wushanko fishing bait"],
@@ -38185,232 +38093,7 @@
 				"Objects": ["Fishing spot (Waiko)"],
 				"Primary": true,
 				"Output": "Raw tarpon",
-				"Priority": 3
-			},
-			"Catch a ~|raw blue blubber jellyfish|~": {
-				"Items": ["Fishing bait"],
-				"Level": 91,
-				"Objects": ["Blue blubber jellyfish spot"],
-				"Primary": true,
-				"Output": "Raw blue blubber jellyfish",
-				"Priority": 1
-			},
-			"Catch a ~|raw seerfish|~ on Waiko": {
-				"Items": ["Wushanko fishing bait"],
-				"Level": 91,
-				"Objects": ["Fishing spot (Waiko)"],
-				"Primary": true,
-				"Output": "Raw seerfish",
 				"Priority": 2
-			},
-			"Catch a ~|raw seerfish|~ on Whale's Maw": {
-				"Level": 91,
-				"Objects": ["Fishing spot (Whale's Maw)"],
-				"Primary": true,
-				"Output": "Raw seerfish",
-				"Priority": 2
-			},
-			"Catch a ~|raw sillago|~": {
-				"Level": 92,
-				"Objects": ["Fishing spot (Whale's Maw)"],
-				"Primary": true,
-				"Output": "Raw sillago",
-				"Priority": 1
-			},
-			"Catch ~|enriched fungal algae|~": {
-				"Objects": ["Colonised Lumbridge guard"],
-				"Level": 92,
-				"Output": "Enriched fungal algae",
-				"Primary": true,
-				"Priority": 2
-			},
-			"Catch a ~|raw wobbegong|~": {
-				"Level": 96,
-				"Objects": ["Wobbegong spot"],
-				"Primary": true,
-				"Output": "Raw wobbegong",
-				"Priority": 1
-			},
-			"Catch a ~|raw sailfish|~": {
-				"Items": ["Fishing bait"],
-				"Level": 97,
-				"Objects": ["Sailfish spot"],
-				"Primary": true,
-				"Output": "Raw sailfish",
-				"Priority": 1
-			},
-			"Fish the ~|fishing frenzy|~": {
-				"Level": 94,
-				"Objects": ["Fish (frenzy)"],
-				"Primary": true,
-				"Priority": 1
-			},
-			"Catch a ~|raw baron shark|~": {
-				"Items": ["Juju fishing potion"],
-				"Level": 76,
-				"Objects": ["Fishing spot (big fishing net, harpoon)"],
-				"Primary": true,
-				"Output": "Raw baron shark",
-				"Priority": 5
-			},
-			"Catch a ~|small crystal urchin|~": {
-				"Level": 93,
-				"Objects": ["Fishing spot (waterfal)"],
-				"Primary": true,
-				"Output": "Small Urchin Loot",
-				"Priority": 1
-			},
-			"Catch a ~|medium crystal urchin|~": {
-				"Level": 95,
-				"Objects": ["Fishing spot (waterfal)"],
-				"Primary": true,
-				"Output": "Medium Urchin Loot",
-				"Priority": 1
-			},
-			"Catch a ~|large crystal urchin|~": {
-				"Level": 97,
-				"Objects": ["Fishing spot (waterfal)"],
-				"Primary": true,
-				"Output": "Large Urchin Loot",
-				"Priority": 2
-			},
-			"Feed a ~|starved ancient effigy|~ with fishing": {
-				"Items": ["Starved ancient effigy (farming/fishing)"],
-				"Level": 91,
-				"Primary": false,
-				"Priority": 3,
-				"Not F2P": true
-			},
-			"Feed a ~|nourished ancient effigy|~ with fishing": {
-				"Items": ["Nourished ancient effigy (farming/fishing)"],
-				"Level": 93,
-				"Primary": false,
-				"Priority": 2,
-				"Not F2P": true
-			},
-			"Feed a ~|sated ancient effigy|~ with fishing": {
-				"Items": ["Sated ancient effigy (farming/fishing)"],
-				"Level": 95,
-				"Primary": false,
-				"Priority": 2,
-				"Not F2P": true
-			},
-			"Feed a ~|gorged ancient effigy|~ with fishing": {
-				"Items": ["Gorged ancient effigy (farming/fishing)"],
-				"Level": 97,
-				"Primary": false,
-				"Priority": 3,
-				"Not F2P": true
-			},
-			"Fish with a ~|cobalt skillchompa|~": {
-				"Items": ["Cobalt skillchompa"],
-				"Level": 31,
-				"Objects": ["Fish[+]"],
-				"Primary": false,
-				"Priority": 1
-			},
-			"Fish with a ~|viridian skillchompa|~": {
-				"Items": ["Viridian skillchompa"],
-				"Level": 41,
-				"Objects": ["Fish[+]"],
-				"Primary": false,
-				"Priority": 1
-			},
-			"Fish with an ~|azure skillchompa|~": {
-				"Items": ["Azure skillchompa"],
-				"Level": 51,
-				"Objects": ["Fish[+]"],
-				"Primary": false,
-				"Priority": 1
-			},
-			"Fish with a ~|crimson skillchompa|~": {
-				"Items": ["Crimson skillchompa"],
-				"Level": 61,
-				"Objects": ["Fish[+]"],
-				"Primary": false,
-				"Priority": 1
-			},
-			"Fish with a ~|crystal skillchompa|~": {
-				"Items": ["Crystal skillchompa"],
-				"Level": 71,
-				"Objects": ["Fish[+]"],
-				"Primary": false,
-				"Priority": 1
-			},
-			"Catch a ~|raw tuna|~ barehanded": {
-				"NPCs": ["Otto Godblessed"],
-				"Level": 55,
-				"Objects": ["Fishing spot (cage, harpoon)"],
-				"Primary": true,
-				"Skills": {
-					"Strength": 35
-				},
-				"Tasks": {
-					"~|Barbarian Training|~ 2b4a2": "Quest"
-				},
-				"Output": "Raw tuna",
-				"Priority": 1,
-				"Not F2P": true
-			},
-			"Catch a ~|raw swordfish|~ barehanded": {
-				"NPCs": ["Otto Godblessed"],
-				"Level": 70,
-				"Objects": ["Fishing spot (cage, harpoon)"],
-				"Primary": true,
-				"Skills": {
-					"Strength": 50
-				},
-				"Tasks": {
-					"~|Barbarian Training|~ 2b4a2": "Quest"
-				},
-				"Output": "Raw swordfish",
-				"Priority": 3,
-				"Not F2P": true
-			},
-			"Equip a ~|superior whopper-baiting scrimshaw|~": {
-				"Items": ["Superior whopper-baiting scrimshaw"],
-				"Level": 70,
-				"Primary": false,
-				"Priority": 4
-			},
-			"Catch a ~|raw shark|~ barehanded": {
-				"NPCs": ["Otto Godblessed"],
-				"Level": 96,
-				"Objects": ["Fishing spot (big fishing net, harpoon)"],
-				"Primary": true,
-				"Skills": {
-					"Strength": 76
-				},
-				"Tasks": {
-					"~|Barbarian Training|~ 2b4a2": "Quest"
-				},
-				"Output": "Raw shark",
-				"Priority": 2,
-				"Not F2P": true
-			},
-			"Catch a ~|raw baron shark|~ barehanded": {
-				"Items": ["Juju fishing potion"],
-				"Level": 96,
-				"Objects": ["Fishing spot (big fishing net, harpoon)"],
-				"Primary": true,
-				"Skills": {
-					"Strength": 76
-				},
-				"Tasks": {
-					"~|Barbarian Training|~ 2b4a2": "Quest"
-				},
-				"Output": "Raw baron shark",
-				"Priority": 3,
-				"Not F2P": true
-			},
-			"Unlock ~|the whaler|~ in the player-owned port": {
-				"Category": ["PortSkills"],
-				"Chunks": ["Player-Owned Port"],
-				"Level": 90,
-				"Primary": false,
-				"NoBoost": true,
-				"NoPet": true,
-				"Priority": 5
 			},
 			"Catch ~|raw cave moray|~": {
 				"Category": ["Daemonheim tasks"],
@@ -38419,7 +38102,16 @@
 				},
 				"Level": 90,
 				"Primary": false,
-				"Priority": 6
+				"Priority": 100
+			},
+			"Unlock ~|the whaler|~ in the player-owned port": {
+				"Category": ["PortSkills"],
+				"Chunks": ["Player-Owned Port"],
+				"Level": 90,
+				"Primary": false,
+				"NoBoost": true,
+				"NoPet": true,
+				"Priority": 101
 			},
 			"Make a ~|Milestone cape (90)|~": {
 				"Category": ["Skillcape"],
@@ -38458,7 +38150,128 @@
 					"Thieving": 90,
 					"Woodcutting": 90
 				},
-				"Priority": 7,
+				"Priority": 1001,
+				"Not F2P": true
+			},
+			"Catch a ~|raw blue blubber jellyfish|~": {
+				"Items": ["Fishing bait"],
+				"Level": 91,
+				"Objects": ["Blue blubber jellyfish spot"],
+				"Primary": true,
+				"Output": "Raw blue blubber jellyfish",
+				"Priority": 1
+			},
+			"Catch a ~|raw seerfish|~ on Waiko": {
+				"Items": ["Wushanko fishing bait"],
+				"Level": 91,
+				"Objects": ["Fishing spot (Waiko)"],
+				"Primary": true,
+				"Output": "Raw seerfish",
+				"Priority": 2
+			},
+			"Catch a ~|raw seerfish|~ on Whale's Maw": {
+				"Level": 91,
+				"Objects": ["Fishing spot (Whale's Maw)"],
+				"Primary": true,
+				"Output": "Raw seerfish",
+				"Priority": 2
+			},
+			"Feed a ~|starved ancient effigy|~ with fishing": {
+				"Items": ["Starved ancient effigy (farming/fishing)"],
+				"Level": 91,
+				"Primary": false,
+				"Priority": 1000,
+				"Not F2P": true
+			},
+			"Catch a ~|raw sillago|~": {
+				"Level": 92,
+				"Objects": ["Fishing spot (Whale's Maw)"],
+				"Primary": true,
+				"Output": "Raw sillago",
+				"Priority": 1
+			},
+			"Catch ~|enriched fungal algae|~": {
+				"Objects": ["Colonised Lumbridge guard"],
+				"Level": 92,
+				"Output": "Enriched fungal algae",
+				"Primary": true,
+				"Priority": 2
+			},
+			"Catch a ~|small crystal urchin|~": {
+				"Level": 93,
+				"Objects": ["Fishing spot (waterfal)"],
+				"Primary": true,
+				"Output": "Small Urchin Loot",
+				"Priority": 1
+			},
+			"Feed a ~|nourished ancient effigy|~ with fishing": {
+				"Items": ["Nourished ancient effigy (farming/fishing)"],
+				"Level": 93,
+				"Primary": false,
+				"Priority": 1000,
+				"Not F2P": true
+			},
+			"Fish the ~|fishing frenzy|~": {
+				"Level": 94,
+				"Objects": ["Fish (frenzy)"],
+				"Primary": true,
+				"Priority": 1
+			},
+			"Catch a ~|medium crystal urchin|~": {
+				"Level": 95,
+				"Objects": ["Fishing spot (waterfal)"],
+				"Primary": true,
+				"Output": "Medium Urchin Loot",
+				"Priority": 1
+			},
+			"Feed a ~|sated ancient effigy|~ with fishing": {
+				"Items": ["Sated ancient effigy (farming/fishing)"],
+				"Level": 95,
+				"Primary": false,
+				"Priority": 1000,
+				"Not F2P": true
+			},
+			"Catch a ~|raw wobbegong|~": {
+				"Level": 96,
+				"Objects": ["Wobbegong spot"],
+				"Primary": true,
+				"Output": "Raw wobbegong",
+				"Priority": 1
+			},
+			"Catch a ~|raw shark|~ barehanded": {
+				"NPCs": ["Otto Godblessed"],
+				"Level": 96,
+				"Objects": ["Fishing spot (big fishing net, harpoon)"],
+				"Primary": true,
+				"Skills": {
+					"Strength": 76
+				},
+				"Tasks": {
+					"~|Barbarian Training|~ 2b4a2": "Quest"
+				},
+				"Output": "Raw shark",
+				"Priority": 1000,
+				"Not F2P": true
+			},
+			"Catch a ~|raw sailfish|~": {
+				"Level": 97,
+				"Objects": ["Sailfish spot"],
+				"Primary": true,
+				"Output": "Raw sailfish",
+				"Priority": 1
+			},
+			"Catch a ~|large crystal urchin|~": {
+				"Level": 97,
+				"Objects": ["Fishing spot (waterfal)"],
+				"Primary": true,
+				"Output": "Large Urchin Loot",
+				"Priority": 2
+			},
+			"Feed a ~|gorged ancient effigy|~ with fishing": {
+				"Items": ["Gorged ancient effigy (farming/fishing)"],
+				"Level": 97,
+				"Primary": false,
+				"Priority": 1000,
 				"Not F2P": true
 			},
 			"Buy the ~|Fishing cape|~": {
@@ -38468,7 +38281,7 @@
 				"Output": "Fishing cape",
 				"Primary": true,
 				"NoBoost": true,
-				"Priority": 2,
+				"Priority": 1000,
 				"Not F2P": true
 			},
 			"Buy the ~|Fishing master cape|~": {
@@ -38478,41 +38291,8 @@
 				"Output": "Fishing master cape",
 				"Primary": false,
 				"NoBoost": true,
-				"Priority": 3,
+				"Priority": 1000,
 				"Not F2P": true
-			},
-			"Build a ~|mounted sea bass|~": {
-				"Category": ["InsidePOH Primary"],
-				"Chunks": ["Player-owned house"],
-				"Items": ["Oak plank", "Big bass (stuffed)"],
-				"Level": 1,
-				"Skills": {
-					"Construction": 36
-				},
-				"Primary": true,
-				"Priority": 5
-			},
-			"Build a ~|mounted swordfish|~": {
-				"Category": ["InsidePOH Primary"],
-				"Chunks": ["Player-owned house"],
-				"Items": ["Teak plank", "Big swordfish (stuffed)"],
-				"Level": 1,
-				"Skills": {
-					"Construction": 56
-				},
-				"Primary": true,
-				"Priority": 6
-			},
-			"Build a ~|mounted shark|~": {
-				"Category": ["InsidePOH Primary"],
-				"Chunks": ["Player-owned house"],
-				"Items": ["Mahogany plank", "Big shark (stuffed)"],
-				"Level": 1,
-				"Skills": {
-					"Construction": 76
-				},
-				"Primary": true,
-				"Priority": 7
 			}
 		},
 		"Fletching": {
@@ -221737,6 +221517,7 @@
 			"Anvil[+]": ["Anvil", "Tri-Anvil", "Fremennik Anvil"],
 			"AnyExcavationSpot[+]": ["Venator remains", "Legionary remains", "Castra debris", "Lodge bar storage", "Lodge art storage", "Administratum debris", "Cultist footlocker", "Sacrificial altar", "Prodromoi remains", "Dis dungeon debris", "Praesidio remains", "Monoceros remains", "Amphitheatre debris", "Ceramics studio debris", "Carcerem debris", "Ministry remains", "Stadio debris", "Cathedral debris", "Marketplace debris", "Inquisitor remains", "Infernal art", "Gladiator remains", "Citizen remains", "Shakroth remains", "Dominion Games podium", "Ikovian memorial", "Oikos studio debris", "Kharid-et chapel debris", "Gladiatorial goblin remains", "Keshik ger", "Animal trophies", "Pontifex remains", "Cricible stand debris", "Tailory debris", "Goblin dorm debris", "Oikos fishing hut remnants", "Weapons research debris", "Orcus altar", "Dis overspill", "Big High War God shrine", "Orthen rubble", "Varanusaur remains", "Gravitron research debris", "Acropolis debris", "Armarium debris", "Yu'biusk animal pen", "Keshik tower debris", "Dragonkin reliquary", "Goblin trainee remains", "Byzroth remains", "Destroyed golem", "Dragonkin coffin", "Icyene weapon rack", "Culinarum debris", "Kyzaj champion's boudoir", "Autopsy table", "Experiment workbench", "Keshik weapon rack", "Hellfire forge", "Warforge scrap pile", "Stockpiled art", "Aughra remains", "Ancient magick munitions", "Moksha device", "Bibliotheke debris", "Warforge weapon rack", "Flight research debris", "Atherium forge", "Xolo mine", "Praetorian remains", "Bandos's sanctum debris", "Tsutsaroth remains", "Optimatoi remains", "War table debris", "Howl's workshop debris", "Makeshift pie oven", "Xolo remains", "Saurthen debris"],
 			"Bank[+]": ["Bank", "Bank boat", "Bank booth", "Bank chest", "Banker"],
+			"Cave eel spot[+]": ["Fishing spot (frog spawn, eel)", "Fishing spot (meiyerditch)"],
 			"Coal rock[+]": ["Coal rock", "Coal vein"],
 			"Cooking object[+]": ["Fire", "Cooking range", "Range", "Clay oven", "Campfire", "Fireplace", "Stove", "Cooking pot", "Sulphur pit", "Player fire", "Oven (City of Um)", "Grill"],
 			"Cooking range[+]": ["Cooking range", "Range", "Stove", "Clay oven", "Oven (City of Um)", "Grill"],
@@ -221761,13 +221542,16 @@
 			"Ore[+]": ["Copper rock", "Tin rock", "Common gem rock", "Feldip swamp rock", "Clay rock", "Rune essence rock"],
 			"PotatoPatch[+]": ["Allotment", "Potato patch"],
 			"Phasmatite rock[+]": ["Phasmatite rock", "Phasmatite vein"],
+			"RangersWorkroom[+]": ["Spinning wheel", "Fletching workbench"],
+			"Slimy eel spot[+]": ["Fishing spot (slimy eels)", "Fishing spot (frog spawn, eels)", "Fishing spot (meiyerditch)"],
 			"SnowPile[+]": ["Snow pile", "Snow drift"],
+			"Swordfish spot[+]": ["Fishing spot (cage, harpoon)", "Fishing spot (Piscatoris Fishing Colony)"],
 			"Tier1Grove[+]": ["Tree", "Oak"],
 			"Tier2Grove[+]": ["Willow", "Yew", "Choking ivy"],
 			"Tier3Grove[+]": ["Elder tree"],
-			"RangersWorkroom[+]": ["Spinning wheel", "Fletching workbench"],
 			"Tier1Workshop[+]": ["Furnace", "Anvil", "Forge"],
 			"Tree[+]": ["Tree", "Burnt tree", "Dead tree (Timbo)", "Dead tree covered in snow", "Dead tree", "Dying tree", "Evergreen", "Jungle Bush", "Jungle Tree", "Swamp tree", "Palm tree (choppable)"],
+			"Tuna spot[+]": ["Fishing spot (cage, harpoon)", "Fishing spot (Piscatoris Fishing Colony)"],
 			"WaterSource[+]": ["Sink", "Fountain", "Waterpump", "Water barrel", "Well", "Large Geyser", "Water trough", "Water pump"],
 			"EastAnachroniaObstacle[+]": ["Roots (Anachronia Agility Course)#Level 85", "Sunken column (Anachronia Agility Course)", "Big block (Anachronia Agility Course)"],
 			"BeginnerAnachroniaObstacle[+]": ["Temple wall (Anachronia Agility Course)", "Cliff face (Anachronia Agility Course)#Level 30", "Vines (Anachornia Agility Course)", "Root (Anachronia Agility Course)#Level 30", "Tree (Anachronia Agility Course)", "Ruined temple (Anachronia Agility Course)#Level 30", "Cave entrance (Anachronia Agility Course)"],
@@ -221777,6 +221561,7 @@
 		"objectsPlusNames": {
 			"Anvil[+]": "Any anvil you can forge on",
 			"AnyExcavationSpot[+]": "Any excavation spot where relics can be found",
+			"Cave eel spot[+]": "Any cave eel fishing spot",
 			"Coal rock[+]": "A coal rock or a coal vein",
 			"Cooking object[+]": "Any object that counts for cooking",
 			"Cooking range[+]": "Any object that counts as a range for cooking",
@@ -221801,12 +221586,15 @@
 			"Ore[+]": "Any level 1 mining object",
 			"PotatoPatch[+]": "Any patch where potatoes can be planted",
 			"Phasmatite rock[+]": "A phasmatite rock or a phasmatite vein",
+			"Slimy eel spot[+]": "Any slimy eel fishing spot",
 			"SnowPile[+]": "Any object where a polar kebbit trace can be started",
+			"Swordfish spot[+]": "Any swordfish fishing spot",
 			"Tier1Grove[+]": "New trees accessible after building the tier 1 grove",
 			"Tier2Grove[+]": "New trees accessible after building the tier 2 grove",
 			"Tier3Grove[+]": "New trees accessible after building the tier 3 grove",
 			"Tier1Workshop[+]": "All objects created when building the tier 1 workshop at Fort Forinthry",
 			"Tree[+]": "Any level 1 woodcuttable tree",
+			"Tuna spot[+]": "Any tuna fishing spot",
 			"WaterSource[+]": "Any object that can fill an item with water"
 		},
 		"monstersPlus": {
@@ -298316,6 +298104,124 @@
 			}
 		},
 		"Fishing": {
+			"Raw trout loot": {
+				"Raw trout": {
+					"1": "Always"
+				},
+				"Golden trout eggs": {
+					"1": "1/1000"
+				}
+			},
+			"Raw salmon loot": {
+				"Raw salmon": {
+					"1": "Always"
+				},
+				"Golden salmon eggs": {
+					"1": "1/1000"
+				}
+			},
+			"Raw rainbow fish loot": {
+				"Raw rainbow fish": {
+					"1": "Always"
+				},
+				"Golden rainbow fish eggs": {
+					"1": "1/1000"
+				}
+			},
+			"Raw lobster loot": {
+				"Raw lobster": {
+					"1": "Always"
+				},
+				"Golden lobster eggs": {
+					"1": "1/1000"
+				}
+			},
+			"Raw bass loot": {
+				"Raw bass": {
+					"1": "Always"
+				},
+				"Big bass": {
+					"1": "1/1000"
+				}
+			},
+			"Leaping trout loot": {
+				"Leaping trout": {
+					"1": "Always"
+				},
+				"Golden leaping trout eggs": {
+					"1": "1/1000"
+				}
+			},
+			"Raw swordfish loot": {
+				"Raw swordfish": {
+					"1": "Always"
+				},
+				"Golden swordfish eggs": {
+					"1": "1/1000"
+				},
+				"Big swordfish": {
+					"1": "1/2500"
+				}
+			},
+			"Raw lava eel loot": {
+				"Raw lava eel": {
+					"1": "Always"
+				},
+				"Golden lava eel eggs": {
+					"1": "1/1000"
+				}
+			},
+			"Leaping salmon loot": {
+				"Leaping salmon": {
+					"1": "Always"
+				},
+				"Golden leaping salmon eggs": {
+					"1": "1/1000"
+				}
+			},
+			"Raw monkfish loot": {
+				"Raw monkfish": {
+					"1": "Always"
+				},
+				"Golden monkfish eggs": {
+					"1": "1/1000"
+				}
+			},
+			"Leaping sturgeon loot": {
+				"Leaping sturgeon": {
+					"1": "Always"
+				},
+				"Golden leaping sturgeon eggs": {
+					"1": "1/1000"
+				}
+			},
+			"Raw shark loot": {
+				"Raw shark": {
+					"1": "Always"
+				},
+				"Golden shark eggs": {
+					"1": "1/1000"
+				},
+				"Big shark": {
+					"1": "1/5000"
+				}
+			},
+			"Raw cavefish loot": {
+				"Raw cavefish": {
+					"1": "Always"
+				},
+				"Golden cavefish eggs": {
+					"1": "1/1000"
+				}
+			},
+			"Raw rocktail loot": {
+				"Raw rocktail": {
+					"1": "Always"
+				},
+				"Golden rocktail eggs": {
+					"1": "1/1000"
+				}
+			},
 			"Deep sea fishing": {
 				"Fishing notes": {
 					"1": "Rare"
@@ -298671,14 +298577,6 @@
 				},
 				"Fury shark feet": {
 					"1": "Always"
-				}
-			},
-			"EelSpawn": {
-				"Frog spawn": {
-					"1": "Common"
-				},
-				"Slimy eel": {
-					"1": "Common"
 				}
 			},
 			"Small Urchin Loot": {
