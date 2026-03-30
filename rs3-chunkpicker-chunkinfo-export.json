@@ -7855,14 +7855,6 @@
 				"NoBoost": true,
 				"Not F2P": true
 			},
-			"Wear a ~|bladestorm drape|~": {
-				"Items": ["Bladestorm drape"],
-				"Level": 1,
-				"Primary": false,
-				"Priority": 18,
-				"NoPet": true,
-				"NoBoost": true
-			},
 			"Wield a ~|bronze defender|~": {
 				"Items": ["Bronze defender"],
 				"Level": 1,
@@ -7890,6 +7882,14 @@
 				"NoPet": true,
 				"NoBoost": true
 			},
+			"Wield a ~|havensilver weapon|~": {
+				"Items": ["Havensilver weapon[+]"],
+				"Level": 1,
+				"Primary": false,
+				"Priority": 22,
+				"NoPet": true,
+				"NoBoost": true
+			},
 			"Train Attack in ~|Daemonheim|~": {
 				"Category": ["Daemonheim training"],
 				"Tasks": {
@@ -7897,7 +7897,7 @@
 				},
 				"Level": 1,
 				"Primary": true,
-				"Priority": 22
+				"Priority": 1000
 			},
 			"Wield a ~|keenblade|~": {
 				"Items": ["Keenblade"],
@@ -8193,6 +8193,14 @@
 				"NoPet": true,
 				"NoBoost": true
 			},
+			"Wield an upgraded ~|havensilver weapon|~": {
+				"Items": ["Havensilver weapon + 1[+]"],
+				"Level": 30,
+				"Primary": false,
+				"Priority": 10,
+				"NoPet": true,
+				"NoBoost": true
+			},
 			"Wield an ~|adamant cane|~": {
 				"Items": ["Adamant cane"],
 				"Level": 38,
@@ -8289,6 +8297,17 @@
 				"Level": 40,
 				"Primary": false,
 				"Priority": 10,
+				"NoPet": true,
+				"NoBoost": true
+			},
+			"Wield a ~|bonecrusher maul|~": {
+				"Items": ["Bonecrusher maul"],
+				"Level": 40,
+				"Skills": {
+					"Strength": 40
+				},
+				"Primary": false,
+				"Priority": 11,
 				"NoPet": true,
 				"NoBoost": true
 			},
@@ -8507,6 +8526,14 @@
 				"NoPet": true,
 				"NoBoost": true,
 				"Not F2P": true
+			},
+			"Wield a double upgraded ~|havensilver weapon|~": {
+				"Items": ["Havensilver weapon + 2[+]"],
+				"Level": 1,
+				"Primary": false,
+				"Priority": 9,
+				"NoPet": true,
+				"NoBoost": true
 			},
 			"Wear the ~|ring of vigour|~": {
 				"Items": ["Ring of vigour"],
@@ -26091,6 +26118,14 @@
 				"NoBoost": true,
 				"Not F2P": true
 			},
+			"Wear ~|vampyrism gloves|~": {
+				"Items": ["Vampyrism gloves"],
+				"Level": 25,
+				"Primary": false,
+				"Priority": 8,
+				"NoPet": true,
+				"NoBoost": true
+			},
 			"Wear a piece of ~|mithril armour|~": {
 				"Items": ["MithrilArmour[+]"],
 				"Level": 30,
@@ -26498,6 +26533,17 @@
 				},
 				"Primary": false,
 				"Priority": 26,
+				"NoPet": true,
+				"NoBoost": true
+			},
+			"Wear a ~|magic skull mask|~": {
+				"Items": ["Magic skull mask"],
+				"Level": 40,
+				"Skills": {
+					"Magic": 40
+				},
+				"Primary": false,
+				"Priority": 27,
 				"NoPet": true,
 				"NoBoost": true
 			},
@@ -28591,11 +28637,28 @@
 				"NoBoost": true,
 				"Not F2P": true
 			},
+			"Wear a piece of ~|apex hide armour|~": {
+				"Items": ["ApexHideArmour[+]"],
+				"Level": 99,
+				"Primary": false,
+				"Priority": 3,
+				"NoPet": true,
+				"NoBoost": true
+			},
 			"Wear a piece of ~|masterwork magic equipment|~": {
 				"Items": ["MasterworkMagicArmour[+]"],
 				"Level": 99,
 				"Primary": false,
-				"Priority": 3,
+				"Priority": 4,
+				"NoPet": true,
+				"NoBoost": true,
+				"Not F2P": true
+			},
+			"Wear a piece of ~|masterwork ranged equipment|~": {
+				"Items": ["MasterworkRangedArmour[+]"],
+				"Level": 99,
+				"Primary": false,
+				"Priority": 5,
 				"NoPet": true,
 				"NoBoost": true,
 				"Not F2P": true
@@ -48094,6 +48157,14 @@
 				"NoPet": true,
 				"NoBoost": true
 			},
+			"Wield ~|butterfly net|~": {
+				"Items": ["ButterflyNet[+]"],
+				"Level": 1,
+				"Primary": false,
+				"Priority": 12,
+				"NoPet": true,
+				"NoBoost": true
+			},
 			"Train Magic in ~|Daemonheim|~": {
 				"Category": ["Daemonheim training"],
 				"Tasks": {
@@ -48101,13 +48172,13 @@
 				},
 				"Level": 1,
 				"Primary": true,
-				"Priority": 13
+				"Priority": 1000
 			},
 			"Train Magic in ~|New Varrock|~": {
 				"Chunks": ["New Varrock"],
 				"Level": 1,
 				"Primary": true,
-				"Priority": 1000
+				"Priority": 1001
 			},
 			"Cast ~|Enchant Crossbow Bolt (Opal)|~": {
 				"Category": ["Spells"],
@@ -48692,6 +48763,17 @@
 					"Defence": 40
 				},
 				"Priority": 8,
+				"NoPet": true,
+				"NoBoost": true
+			},
+			"Wear a ~|magic skull mask|~": {
+				"Items": ["Magic skull mask"],
+				"Level": 40,
+				"Skills": {
+					"Defence": 40
+				},
+				"Primary": false,
+				"Priority": 9,
 				"NoPet": true,
 				"NoBoost": true
 			},
@@ -56444,6 +56526,14 @@
 				"NoPet": true,
 				"NoBoost": true
 			},
+			"Equip a ~|havensilver bolt|~": {
+				"Items": ["Havensilver bolts"],
+				"Level": 1,
+				"Primary": false,
+				"Priority": 22,
+				"NoPet": true,
+				"NoBoost": true
+			},
 			"Train Ranged in ~|Daemonheim|~": {
 				"Category": ["Daemonheim training"],
 				"Tasks": {
@@ -56451,7 +56541,7 @@
 				},
 				"Level": 1,
 				"Primary": true,
-				"Priority": 22
+				"Priority": 1000
 			},
 			"Wield a ~|quickbow|~": {
 				"Items": ["Quickbow"],
@@ -57141,6 +57231,14 @@
 				"Not F2P": true,
 				"NoBoost": true,
 				"NoPet": true
+			},
+			"Equip a ~|havensilver bolt + 1|~": {
+				"Items": ["Havensilver bolts + 1"],
+				"Level": 5,
+				"Primary": false,
+				"Priority": 4,
+				"NoPet": true,
+				"NoBoost": true
 			},
 			"Equip an ~|adamant brutal|~": {
 				"Items": ["Adamant brutal"],
@@ -58043,6 +58141,14 @@
 				"NoBoost": true,
 				"Not F2P": true
 			},
+			"Equip a ~|havensilver bolt + 2|~": {
+				"Items": ["Havensilver bolts + 2"],
+				"Level": 60,
+				"Primary": false,
+				"Priority": 33,
+				"NoPet": true,
+				"NoBoost": true
+			},
 			"Wield an ~|elder shieldbow (sighted)|~": {
 				"Items": ["Elder shieldbow (sighted)"],
 				"Level": 65,
@@ -58056,6 +58162,15 @@
 				"NoBoost": true,
 				"Not F2P": true
 			},
+			"Wield a ~|black chinchompa|~": {
+				"Items": ["Black chinchompa"],
+				"Level": 55,
+				"Primary": false,
+				"Priority": 2,
+				"NoPet": true,
+				"NoBoost": true,
+				"Not F2P": true
+			},
 			"Equip a piece of ~|third age ranger equipment|~": {
 				"Items": ["ThirdAgeRangedArmour[+]"],
 				"Level": 65,
@@ -58063,7 +58178,7 @@
 				"Skills": {
 					"Defence": 65
 				},
-				"Priority": 2,
+				"Priority": 3,
 				"NoPet": true,
 				"NoBoost": true,
 				"Not F2P": true
@@ -66327,6 +66442,17 @@
 					"Attack": 60
 				},
 				"Priority": 1,
+				"NoPet": true,
+				"NoBoost": true
+			},
+			"Wield a ~|bonecrusher maul|~": {
+				"Items": ["Bonecrusher maul"],
+				"Level": 40,
+				"Skills": {
+					"Attack": 1
+				},
+				"Primary": false,
+				"Priority": 11,
 				"NoPet": true,
 				"NoBoost": true
 			},
@@ -216420,6 +216546,38 @@
 				"Soul talisman",
 				"Water talisman"
 			],
+			"ApexHideArmour[+]": [
+				"Apex hide cowl + 5",
+				"Apex hide cowl + 4",
+				"Apex hide cowl + 3",
+				"Apex hide cowl + 2",
+				"Apex hide cowl + 1",
+				"Apex hide cowl",
+				"Apex hide body + 5",
+				"Apex hide body + 4",
+				"Apex hide body + 3",
+				"Apex hide body + 2",
+				"Apex hide body + 1",
+				"Apex hide body",
+				"Apex hide chaps + 5",
+				"Apex hide chaps + 4",
+				"Apex hide chaps + 3",
+				"Apex hide chaps + 2",
+				"Apex hide chaps + 1",
+				"Apex hide chaps",
+				"Apex hide boots + 5",
+				"Apex hide boots + 4",
+				"Apex hide boots + 3",
+				"Apex hide boots + 2",
+				"Apex hide boots + 1",
+				"Apex hide boots",
+				"Apex hide vambraces + 5",
+				"Apex hide vambraces + 4",
+				"Apex hide vambraces + 3",
+				"Apex hide vambraces + 2",
+				"Apex hide vambraces + 1",
+				"Apex hide vambraces"
+			],
 			"ArchaeologyDirt[+]": [
 				"Aerated sediment",
 				"Ancient gravel",
@@ -218075,6 +218233,9 @@
 				"Hard leather gloves",
 				"Hard leather shield"
 			],
+			"Havensilver weapon[+]": ["Havensilver greatsword", "Havensilver longsword", "Havensilver off-hand longsword"],
+			"Havensilver weapon + 1[+]": ["Havensilver greatsword + 1", "Havensilver longsword + 1", "Havensilver off-hand longsword + 1"],
+			"Havensilver weapon + 2[+]": ["Havensilver greatsword + 2", "Havensilver longsword + 2", "Havensilver off-hand longsword + 2"],
 			"HavocVestments[+]": ["Vestments of havoc hood", "Vestments of havoc robe top", "Vestments of havoc robe bottom", "Vestments of havoc boots"],
 			"HealerHat[+]": [
 				"Hardened healer hat",
@@ -218545,6 +218706,13 @@
 				"Masterwork magic hat",
 				"Masterwork magic robe top",
 				"Masterwork magic robe bottom"
+			],
+			"MasterworkRangedArmour[+]": [
+				"Masterwork ranged boots",
+				"Masterwork ranged vambraces",
+				"Masterwork ranged cowl",
+				"Masterwork ranged chaps",
+				"Masterwork ranged body"
 			],
 			"Marm's Armoury[+]": ["Bonecrusher", "Smithing autoheater", "Gem bag", "Herbicide", "Charming imp"],
 			"MeleeSacredClay[+]": [
@@ -221547,6 +221715,7 @@
 			"AnySkillcape[+]": "Any type of skillcape",
 			"AnySword[+]": "Any type of sword",
 			"AnyTalisman[+]": "Any runecrafting talisman",
+			"ApexHideArmour[+]": "Any piece of apex hide armour",
 			"ArchaeologyDirt[+]": "Any variant of archaeology dirt",
 			"ArcFish[+]": "Any fish from the Arc",
 			"ArcMushrooms[+]": "Any type of mushroom from the Arc",
@@ -221838,6 +222007,7 @@
             "Marm's Armoury[+]": "A smithing autoheater, bonecrusher, gem bag, herbicide, or charming imp",
 			"MasterworkArmour[+]": "Any piece of masterwork melee armour",
 			"MasterworkMagicArmour[+]": "Any piece of masterwork magic armour",
+			"MasterworkRangedArmour[+]": "Any piece of masterwork ranged armour",
 			"MeleeSacredClay[+]": "Any piece of sacred clay melee armour",
 			"Merlin's Crystal step 4[+]": "Either a bucket of wax, or a black candle from Wendlewick",
 			"MiningPotion[+]": "Any mining potion",
@@ -223344,6 +223514,7 @@
 				"Wield an ~|imphide book|~", 
 				"Wield an ~|imp horn wand|~", 
 				"Wield a ~|mindspike|~", 
+				"Wield ~|butterfly net|~",
 				"Wield a ~|was|~", 
 				"Wield an ~|avernic book|~", 
 				"Wield an ~|avernic wand|~", 
@@ -339259,6 +339430,516 @@
 			"prayer": 0,
 			"accuracy": 0
 		},
+		"Apex hide cowl": {
+			"ranged_damage": 0,
+			"requirements": {
+				"Defence": 99
+			},
+			"class": "ranged",
+			"lp": 850,
+			"tier": 85,
+			"speed": 0,
+			"type": "Tank armour",
+			"armour": 435.6,
+			"slot": "head",
+			"melee_damage": 0,
+			"magic_damage": 0,
+			"prayer": 0,
+			"accuracy": 0
+		},
+		"Apex hide body": {
+			"ranged_damage": 0,
+			"requirements": {
+				"Defence": 99
+			},
+			"class": "ranged",
+			"lp": 1275,
+			"tier": 85,
+			"speed": 0,
+			"type": "Tank armour",
+			"armour": 500.9,
+			"slot": "torso",
+			"melee_damage": 0,
+			"magic_damage": 0,
+			"prayer": 0,
+			"accuracy": 0
+		},
+		"Apex hide chaps": {
+			"ranged_damage": 0,
+			"requirements": {
+				"Defence": 99
+			},
+			"class": "ranged",
+			"lp": 1275,
+			"tier": 85,
+			"speed": 0,
+			"type": "Tank armour",
+			"armour": 479.1,
+			"slot": "legs",
+			"melee_damage": 0,
+			"magic_damage": 0,
+			"prayer": 0,
+			"accuracy": 0
+		},
+		"Apex hide vambraces": {
+			"ranged_damage": 0,
+			"requirements": {
+				"Defence": 99
+			},
+			"class": "ranged",
+			"lp": 425,
+			"tier": 85,
+			"speed": 0,
+			"type": "Tank armour",
+			"armour": 108.9,
+			"slot": "hands",
+			"melee_damage": 0,
+			"magic_damage": 0,
+			"prayer": 0,
+			"accuracy": 0
+		},
+		"Apex hide boots": {
+			"ranged_damage": 0,
+			"requirements": {
+				"Defence": 99
+			},
+			"class": "ranged",
+			"lp": 425,
+			"tier": 85,
+			"speed": 0,
+			"type": "Tank armour",
+			"armour": 108.9,
+			"slot": "feet",
+			"melee_damage": 0,
+			"magic_damage": 0,
+			"prayer": 0,
+			"accuracy": 0
+		},
+		"Apex hide cowl + 1": {
+			"ranged_damage": 0,
+			"requirements": {
+				"Defence": 99
+			},
+			"class": "ranged",
+			"lp": 860,
+			"tier": 86,
+			"speed": 0,
+			"type": "Tank armour",
+			"armour": 446.4,
+			"slot": "head",
+			"melee_damage": 0,
+			"magic_damage": 0,
+			"prayer": 0,
+			"accuracy": 0
+		},
+		"Apex hide body + 1": {
+			"ranged_damage": 0,
+			"requirements": {
+				"Defence": 99
+			},
+			"class": "ranged",
+			"lp": 1290,
+			"tier": 86,
+			"speed": 0,
+			"type": "Tank armour",
+			"armour": 513.3,
+			"slot": "torso",
+			"melee_damage": 0,
+			"magic_damage": 0,
+			"prayer": 0,
+			"accuracy": 0
+		},
+		"Apex hide chaps + 1": {
+			"ranged_damage": 0,
+			"requirements": {
+				"Defence": 99
+			},
+			"class": "ranged",
+			"lp": 1290,
+			"tier": 86,
+			"speed": 0,
+			"type": "Tank armour",
+			"armour": 491,
+			"slot": "legs",
+			"melee_damage": 0,
+			"magic_damage": 0,
+			"prayer": 0,
+			"accuracy": 0
+		},
+		"Apex hide vambraces + 1": {
+			"ranged_damage": 0,
+			"requirements": {
+				"Defence": 99
+			},
+			"class": "ranged",
+			"lp": 430,
+			"tier": 86,
+			"speed": 0,
+			"type": "Tank armour",
+			"armour": 111.6,
+			"slot": "hands",
+			"melee_damage": 0,
+			"magic_damage": 0,
+			"prayer": 0,
+			"accuracy": 0
+		},
+		"Apex hide boots + 1": {
+			"ranged_damage": 0,
+			"requirements": {
+				"Defence": 99
+			},
+			"class": "ranged",
+			"lp": 430,
+			"tier": 86,
+			"speed": 0,
+			"type": "Tank armour",
+			"armour": 111.6,
+			"slot": "feet",
+			"melee_damage": 0,
+			"magic_damage": 0,
+			"prayer": 0,
+			"accuracy": 0
+		},
+		"Apex hide cowl + 2": {
+			"ranged_damage": 0,
+			"requirements": {
+				"Defence": 99
+			},
+			"class": "ranged",
+			"lp": 870,
+			"tier": 87,
+			"speed": 0,
+			"type": "Tank armour",
+			"armour": 457.4,
+			"slot": "head",
+			"melee_damage": 0,
+			"magic_damage": 0,
+			"prayer": 0,
+			"accuracy": 0
+		},
+		"Apex hide body + 2": {
+			"ranged_damage": 0,
+			"requirements": {
+				"Defence": 99
+			},
+			"class": "ranged",
+			"lp": 1305,
+			"tier": 87,
+			"speed": 0,
+			"type": "Tank armour",
+			"armour": 526,
+			"slot": "torso",
+			"melee_damage": 0,
+			"magic_damage": 0,
+			"prayer": 0,
+			"accuracy": 0
+		},
+		"Apex hide chaps + 2": {
+			"ranged_damage": 0,
+			"requirements": {
+				"Defence": 99
+			},
+			"class": "ranged",
+			"lp": 1305,
+			"tier": 87,
+			"speed": 0,
+			"type": "Tank armour",
+			"armour": 503.1,
+			"slot": "legs",
+			"melee_damage": 0,
+			"magic_damage": 0,
+			"prayer": 0,
+			"accuracy": 0
+		},
+		"Apex hide vambraces + 2": {
+			"ranged_damage": 0,
+			"requirements": {
+				"Defence": 99
+			},
+			"class": "ranged",
+			"lp": 435,
+			"tier": 87,
+			"speed": 0,
+			"type": "Tank armour",
+			"armour": 114.3,
+			"slot": "hands",
+			"melee_damage": 0,
+			"magic_damage": 0,
+			"prayer": 0,
+			"accuracy": 0
+		},
+		"Apex hide boots + 2": {
+			"ranged_damage": 0,
+			"requirements": {
+				"Defence": 99
+			},
+			"class": "ranged",
+			"lp": 435,
+			"tier": 87,
+			"speed": 0,
+			"type": "Tank armour",
+			"armour": 114.3,
+			"slot": "feet",
+			"melee_damage": 0,
+			"magic_damage": 0,
+			"prayer": 0,
+			"accuracy": 0
+		},
+		"Apex hide cowl + 3": {
+			"ranged_damage": 0,
+			"requirements": {
+				"Defence": 99
+			},
+			"class": "ranged",
+			"lp": 880,
+			"tier": 88,
+			"speed": 0,
+			"type": "Tank armour",
+			"armour": 468.6,
+			"slot": "head",
+			"melee_damage": 0,
+			"magic_damage": 0,
+			"prayer": 0,
+			"accuracy": 0
+		},
+		"Apex hide body + 3": {
+			"ranged_damage": 0,
+			"requirements": {
+				"Defence": 99
+			},
+			"class": "ranged",
+			"lp": 1320,
+			"tier": 88,
+			"speed": 0,
+			"type": "Tank armour",
+			"armour": 538.8,
+			"slot": "torso",
+			"melee_damage": 0,
+			"magic_damage": 0,
+			"prayer": 0,
+			"accuracy": 0
+		},
+		"Apex hide chaps + 3": {
+			"ranged_damage": 0,
+			"requirements": {
+				"Defence": 99
+			},
+			"class": "ranged",
+			"lp": 1320,
+			"tier": 88,
+			"speed": 0,
+			"type": "Tank armour",
+			"armour": 515.4,
+			"slot": "legs",
+			"melee_damage": 0,
+			"magic_damage": 0,
+			"prayer": 0,
+			"accuracy": 0
+		},
+		"Apex hide vambraces + 3": {
+			"ranged_damage": 0,
+			"requirements": {
+				"Defence": 99
+			},
+			"class": "ranged",
+			"lp": 440,
+			"tier": 88,
+			"speed": 0,
+			"type": "Tank armour",
+			"armour": 117.1,
+			"slot": "hands",
+			"melee_damage": 0,
+			"magic_damage": 0,
+			"prayer": 0,
+			"accuracy": 0
+		},
+		"Apex hide boots + 3": {
+			"ranged_damage": 0,
+			"requirements": {
+				"Defence": 99
+			},
+			"class": "ranged",
+			"lp": 440,
+			"tier": 88,
+			"speed": 0,
+			"type": "Tank armour",
+			"armour": 117.1,
+			"slot": "feet",
+			"melee_damage": 0,
+			"magic_damage": 0,
+			"prayer": 0,
+			"accuracy": 0
+		},
+		"Apex hide cowl + 4": {
+			"ranged_damage": 0,
+			"requirements": {
+				"Defence": 99
+			},
+			"class": "ranged",
+			"lp": 890,
+			"tier": 89,
+			"speed": 0,
+			"type": "Tank armour",
+			"armour": 480,
+			"slot": "head",
+			"melee_damage": 0,
+			"magic_damage": 0,
+			"prayer": 0,
+			"accuracy": 0
+		},
+		"Apex hide body + 4": {
+			"ranged_damage": 0,
+			"requirements": {
+				"Defence": 99
+			},
+			"class": "ranged",
+			"lp": 1335,
+			"tier": 89,
+			"speed": 0,
+			"type": "Tank armour",
+			"armour": 552,
+			"slot": "torso",
+			"melee_damage": 0,
+			"magic_damage": 0,
+			"prayer": 0,
+			"accuracy": 0
+		},
+		"Apex hide chaps + 4": {
+			"ranged_damage": 0,
+			"requirements": {
+				"Defence": 99
+			},
+			"class": "ranged",
+			"lp": 1335,
+			"tier": 89,
+			"speed": 0,
+			"type": "Tank armour",
+			"armour": 528,
+			"slot": "legs",
+			"melee_damage": 0,
+			"magic_damage": 0,
+			"prayer": 0,
+			"accuracy": 0
+		},
+		"Apex hide vambraces + 4": {
+			"ranged_damage": 0,
+			"requirements": {
+				"Defence": 99
+			},
+			"class": "ranged",
+			"lp": 445,
+			"tier": 89,
+			"speed": 0,
+			"type": "Tank armour",
+			"armour": 120,
+			"slot": "hands",
+			"melee_damage": 0,
+			"magic_damage": 0,
+			"prayer": 0,
+			"accuracy": 0
+		},
+		"Apex hide boots + 4": {
+			"ranged_damage": 0,
+			"requirements": {
+				"Defence": 99
+			},
+			"class": "ranged",
+			"lp": 445,
+			"tier": 89,
+			"speed": 0,
+			"type": "Tank armour",
+			"armour": 120,
+			"slot": "feet",
+			"melee_damage": 0,
+			"magic_damage": 0,
+			"prayer": 0,
+			"accuracy": 0
+		},
+		"Apex hide cowl + 5": {
+			"ranged_damage": 0,
+			"requirements": {
+				"Defence": 99
+			},
+			"class": "ranged",
+			"lp": 890,
+			"tier": 90,
+			"speed": 0,
+			"type": "Tank armour",
+			"armour": 480,
+			"slot": "head",
+			"melee_damage": 0,
+			"magic_damage": 0,
+			"prayer": 0,
+			"accuracy": 0
+		},
+		"Apex hide body + 5": {
+			"ranged_damage": 0,
+			"requirements": {
+				"Defence": 99
+			},
+			"class": "ranged",
+			"lp": 1335,
+			"tier": 90,
+			"speed": 0,
+			"type": "Tank armour",
+			"armour": 552,
+			"slot": "torso",
+			"melee_damage": 0,
+			"magic_damage": 0,
+			"prayer": 0,
+			"accuracy": 0
+		},
+		"Apex hide chaps + 5": {
+			"ranged_damage": 0,
+			"requirements": {
+				"Defence": 99
+			},
+			"class": "ranged",
+			"lp": 1335,
+			"tier": 90,
+			"speed": 0,
+			"type": "Tank armour",
+			"armour": 528,
+			"slot": "legs",
+			"melee_damage": 0,
+			"magic_damage": 0,
+			"prayer": 0,
+			"accuracy": 0
+		},
+		"Apex hide vambraces + 5": {
+			"ranged_damage": 0,
+			"requirements": {
+				"Defence": 99
+			},
+			"class": "ranged",
+			"lp": 445,
+			"tier": 90,
+			"speed": 0,
+			"type": "Tank armour",
+			"armour": 120,
+			"slot": "hands",
+			"melee_damage": 0,
+			"magic_damage": 0,
+			"prayer": 0,
+			"accuracy": 0
+		},
+		"Apex hide boots + 5": {
+			"ranged_damage": 0,
+			"requirements": {
+				"Defence": 99
+			},
+			"class": "ranged",
+			"lp": 445,
+			"tier": 90,
+			"speed": 0,
+			"type": "Tank armour",
+			"armour": 120,
+			"slot": "feet",
+			"melee_damage": 0,
+			"magic_damage": 0,
+			"prayer": 0,
+			"accuracy": 0
+		},
 		"Apprentice wand": {
 			"ranged_damage": 0,
 			"slot": "main hand weapon",
@@ -342939,6 +343620,27 @@
 			"prayer": 0,
 			"accuracy": 0
 		},
+		"Black chinchompa": {
+			"ranged_damage": 0,
+			"slot": "main hand weapon",
+			"is_consumable": true,
+			"prayer": 0,
+			"style": "thrown",
+			"ability_damage": 681.6,
+			"magic_damage": 0,
+			"melee_damage": 0,
+			"armour": 0,
+			"requirements": {
+				"Ranged": 65
+			},
+			"speed": 4,
+			"tier": 65,
+			"lp": 0,
+			"attack_range": 9,
+			"class": "ranged",
+			"accuracy": 1299,
+			"auto_damage": 869.8
+		},
 		"Black claw": {
 			"ranged_damage": 0,
 			"slot": "main hand weapon",
@@ -345439,6 +346141,27 @@
 			"class": "melee",
 			"accuracy": 257,
 			"auto_damage": 335.3
+		},
+		"Bonecrusher maul": {
+			"ranged_damage": 0,
+			"slot": "2h weapon",
+			"prayer": 0,
+			"style": "crush",
+			"ability_damage": 720,
+			"magic_damage": 0,
+			"melee_damage": 0,
+			"armour": 0,
+			"requirements": {
+				"Attack": 40,
+				"Strength": 40
+			},
+			"speed": 6,
+			"tier": 50,
+			"lp": 0,
+			"attack_range": 1,
+			"class": "melee",
+			"accuracy": 850,
+			"auto_damage": 1117.5
 		},
 		"Book of Death": {
 			"ranged_damage": 11.7,
@@ -355955,7 +356678,7 @@
 			"style": "spell-casting",
 			"ability_damage": 408,
 			"magic_damage": 0,
-			"slot": "off hand weapon",
+			"slot": "off-hand weapon",
 			"requirements": {
 				"Magic": 85
 			},
@@ -355973,7 +356696,7 @@
 			"style": "spell-casting",
 			"ability_damage": 432,
 			"magic_damage": 0,
-			"slot": "off hand weapon",
+			"slot": "off-hand weapon",
 			"requirements": {
 				"Magic": 99
 			},
@@ -359472,6 +360195,238 @@
 			"class": "melee",
 			"accuracy": 2178
 		},
+		"Havensilver greatsword": {
+			"ranged_damage": 0,
+			"requirements": {},
+			"slot": "2h weapon",
+			"prayer": 0,
+			"style": "slash",
+			"ability_damage": 72,
+			"magic_damage": 0,
+			"melee_damage": 0,
+			"armour": 0,
+			"speed": 5,
+			"tier": 1,
+			"lp": 0,
+			"attack_range": 1,
+			"class": "melee",
+			"accuracy": 150,
+			"auto_damage": 111.8
+		},
+		"Havensilver greatsword + 1": {
+			"ranged_damage": 0,
+			"requirements": {
+				"Attack": 30
+			},
+			"slot": "2h weapon",
+			"prayer": 0,
+			"style": "slash",
+			"ability_damage": 432,
+			"magic_damage": 0,
+			"melee_damage": 0,
+			"armour": 0,
+			"speed": 5,
+			"tier": 30,
+			"lp": 0,
+			"attack_range": 1,
+			"class": "melee",
+			"accuracy": 454,
+			"auto_damage": 670.5
+		},
+		"Havensilver greatsword + 2": {
+			"ranged_damage": 0,
+			"requirements": {
+				"Attack": 60
+			},
+			"slot": "2h weapon",
+			"prayer": 0,
+			"style": "slash",
+			"ability_damage": 864,
+			"magic_damage": 0,
+			"melee_damage": 0,
+			"armour": 0,
+			"speed": 5,
+			"tier": 60,
+			"lp": 0,
+			"attack_range": 1,
+			"class": "melee",
+			"accuracy": 1132,
+			"auto_damage": 1341
+		},
+		"Havensilver longsword": {
+			"ranged_damage": 0,
+			"requirements": {},
+			"slot": "main hand weapon",
+			"prayer": 0,
+			"style": "slash",
+			"ability_damage": 48,
+			"magic_damage": 0,
+			"melee_damage": 0,
+			"armour": 0,
+			"speed": 5,
+			"tier": 1,
+			"lp": 0,
+			"attack_range": 1,
+			"class": "melee",
+			"accuracy": 150,
+			"auto_damage": 61.3
+		},
+		"Havensilver longsword + 1": {
+			"ranged_damage": 0,
+			"requirements": {
+				"Attack": 30
+			},
+			"slot": "main hand weapon",
+			"prayer": 0,
+			"style": "slash",
+			"ability_damage": 288,
+			"magic_damage": 0,
+			"melee_damage": 0,
+			"armour": 0,
+			"speed": 5,
+			"tier": 30,
+			"lp": 0,
+			"attack_range": 1,
+			"class": "melee",
+			"accuracy": 545,
+			"auto_damage": 367.5
+		},
+		"Havensilver longsword + 2": {
+			"ranged_damage": 0,
+			"requirements": {
+				"Attack": 60
+			},
+			"slot": "main hand weapon",
+			"prayer": 0,
+			"style": "slash",
+			"ability_damage": 576,
+			"magic_damage": 0,
+			"melee_damage": 0,
+			"armour": 0,
+			"speed": 5,
+			"tier": 60,
+			"lp": 0,
+			"attack_range": 1,
+			"class": "melee",
+			"accuracy": 1132,
+			"auto_damage": 735
+		},
+		"Havensilver off-hand longsword": {
+			"ranged_damage": 0,
+			"requirements": {},
+			"slot": "off-hand weapon",
+			"prayer": 0,
+			"style": "slash",
+			"ability_damage": 24,
+			"magic_damage": 0,
+			"melee_damage": 0,
+			"armour": 0,
+			"speed": 5,
+			"tier": 1,
+			"lp": 0,
+			"attack_range": 1,
+			"class": "melee",
+			"accuracy": 150,
+			"auto_damage": 30.6
+		},
+		"Havensilver off-hand longsword + 1": {
+			"ranged_damage": 0,
+			"requirements": {
+				"Attack": 30
+			},
+			"slot": "off-hand weapon",
+			"prayer": 0,
+			"style": "slash",
+			"ability_damage": 144,
+			"magic_damage": 0,
+			"melee_damage": 0,
+			"armour": 0,
+			"speed": 5,
+			"tier": 30,
+			"lp": 0,
+			"attack_range": 1,
+			"class": "melee",
+			"accuracy": 454,
+			"auto_damage": 183.7
+		},
+		"Havensilver off-hand longsword + 2": {
+			"ranged_damage": 0,
+			"requirements": {
+				"Attack": 60
+			},
+			"slot": "off-hand weapon",
+			"prayer": 0,
+			"style": "slash",
+			"ability_damage": 288,
+			"magic_damage": 0,
+			"melee_damage": 0,
+			"armour": 0,
+			"speed": 5,
+			"tier": 60,
+			"lp": 0,
+			"attack_range": 1,
+			"class": "melee",
+			"accuracy": 1132,
+			"auto_damage": 367.5
+		},
+		"Havensilver bolts": {
+			"ranged_damage": 0,
+			"requirements": {},
+			"class": "ranged",
+			"lp": 0,
+			"tier": 5,
+			"speed": 0,
+			"armour": 0,
+			"slot": "ammo",
+			"is_consumable": true,
+			"melee_damage": 0,
+			"magic_damage": 0,
+			"ability_damage": 72,
+			"style": "bolts",
+			"prayer": 0,
+			"accuracy": 0,
+			"auto_damage": 48
+		},
+		"Havensilver bolts + 1": {
+			"ranged_damage": 0,
+			"requirements": {
+				"Ranged": 30
+			},
+			"class": "ranged",
+			"lp": 0,
+			"tier": 30,
+			"speed": 0,
+			"armour": 0,
+			"slot": "ammo",
+			"is_consumable": true,
+			"melee_damage": 0,
+			"magic_damage": 0,
+			"ability_damage": 432,
+			"style": "bolts",
+			"prayer": 0,
+			"accuracy": 0,
+			"auto_damage": 288
+		},
+		"Havensilver bolts + 2": {
+			"ranged_damage": 0,
+			"requirements": {
+				"Ranged": 60
+			},
+			"class": "ranged",
+			"lp": 0,
+			"tier": 60,
+			"speed": 0,
+			"armour": 0,
+			"slot": "ammo",
+			"is_consumable": true,
+			"melee_damage": 0,
+			"magic_damage": 0,
+			"ability_damage": 864,
+			"style": "bolts",
+			"prayer": 0,
+			"accuracy": 0,
+			"auto_damage": 576
+		},
 		"Hazelmere's signet ring (i)": {
 			"ranged_damage": 29.6,
 			"requirements": {},
@@ -362911,7 +363866,7 @@
 			"style": "bolts",
 			"ability_damage": 672,
 			"magic_damage": 0,
-			"slot": "main-hand weapon",
+			"slot": "main hand weapon",
 			"requirements": {
 				"Ranged": 70
 			},
@@ -364159,6 +365114,25 @@
 			"class": "magic",
 			"accuracy": 150
 		},
+		"Magic skull mask": {
+			"ranged_damage": 0,
+			"requirements": {
+				"Magic": 40,
+				"Defence": 40
+			},
+			"class": "all",
+			"lp": 0,
+			"tier": 40,
+			"speed": 0,
+			"armour": 125.6,
+			"slot": "head",
+			"melee_damage": 0,
+			"magic_damage": 11.2,
+			"magic_accuracy": 29,
+			"necromancy_damage": 0,
+			"prayer": 0,
+			"accuracy": 0
+		},
 		"Malevolent cuirass": {
 			"ranged_damage": 0,
 			"requirements": {
@@ -364915,6 +365889,91 @@
 			"attack_range": 8,
 			"class": "magic",
 			"accuracy": 3100
+		},
+		"Masterwork ranged body": {
+			"ranged_damage": 37.5,
+			"requirements": {
+				"Defence": 99
+			},
+			"class": "ranged",
+			"lp": 1425,
+			"tier": 100,
+			"speed": 0,
+			"type": "Power armour",
+			"armour": 635.9,
+			"slot": "torso",
+			"melee_damage": 0,
+			"magic_damage": 0,
+			"prayer": 3,
+			"accuracy": 0
+		},
+		"Masterwork ranged boots": {
+			"ranged_damage": 15.6,
+			"requirements": {
+				"Defence": 99
+			},
+			"class": "ranged",
+			"lp": 475,
+			"tier": 100,
+			"speed": 0,
+			"type": "Power armour",
+			"armour": 138.2,
+			"slot": "feet",
+			"melee_damage": 0,
+			"magic_damage": 0,
+			"prayer": 2,
+			"accuracy": 0
+		},
+		"Masterwork ranged chaps": {
+			"ranged_damage": 31.2,
+			"requirements": {
+				"Defence": 99
+			},
+			"class": "magic",
+			"lp": 1425,
+			"tier": 100,
+			"speed": 0,
+			"type": "Power armour",
+			"armour": 608.3,
+			"slot": "legs",
+			"melee_damage": 0,
+			"magic_damage": 0,
+			"prayer": 2,
+			"accuracy": 0
+		},
+		"Masterwork ranged cowl": {
+			"ranged_damage": 25,
+			"requirements": {
+				"Defence": 99
+			},
+			"class": "ranged",
+			"lp": 950,
+			"tier": 100,
+			"speed": 0,
+			"type": "Power armour",
+			"armour": 553,
+			"slot": "head",
+			"melee_damage": 0,
+			"magic_damage": 0,
+			"prayer": 2,
+			"accuracy": 0
+		},
+		"Masterwork ranged vambraces": {
+			"ranged_damage": 15.6,
+			"requirements": {
+				"Defence": 99
+			},
+			"class": "ranged",
+			"lp": 475,
+			"tier": 100,
+			"speed": 0,
+			"type": "Power armour",
+			"armour": 138.2,
+			"slot": "hands",
+			"melee_damage": 0,
+			"magic_damage": 0,
+			"prayer": 2,
+			"accuracy": 0
 		},
 		"Masterwork magic boots": {
 			"ranged_damage": 0,
@@ -373875,7 +374934,7 @@
 				"Defence": 99
 			},
 			"class": "melee",
-			"lp": 990,
+			"lp": 850,
 			"tier": 85,
 			"speed": 0,			"type": "Tank armour",
 			"armour": 435.6,
@@ -373892,7 +374951,7 @@
 				"Defence": 99
 			},
 			"class": "melee",
-			"lp": 990,
+			"lp": 860,
 			"tier": 86,
 			"speed": 0,			"type": "Tank armour",
 			"armour": 446.4,
@@ -373909,7 +374968,7 @@
 				"Defence": 99
 			},
 			"class": "melee",
-			"lp": 990,
+			"lp": 870,
 			"tier": 87,
 			"speed": 0,			"type": "Tank armour",
 			"armour": 457.4,
@@ -373926,7 +374985,7 @@
 				"Defence": 99
 			},
 			"class": "melee",
-			"lp": 990,
+			"lp": 880,
 			"tier": 88,
 			"speed": 0,			"type": "Tank armour",
 			"armour": 468.6,
@@ -373943,7 +375002,7 @@
 				"Defence": 99
 			},
 			"class": "melee",
-			"lp": 990,
+			"lp": 890,
 			"tier": 89,
 			"speed": 0,			"type": "Tank armour",
 			"armour": 480.0,
@@ -373960,7 +375019,7 @@
 				"Defence": 99
 			},
 			"class": "melee",
-			"lp": 990,
+			"lp": 900,
 			"tier": 90,
 			"speed": 0,			"type": "Tank armour",
 			"armour": 491.6,
@@ -373977,7 +375036,7 @@
 				"Defence": 99
 			},
 			"class": "melee",
-			"lp": 495,
+			"lp": 425,
 			"tier": 85,
 			"speed": 0,			"type": "Tank armour",
 			"armour": 108.9,
@@ -373994,7 +375053,7 @@
 				"Defence": 99
 			},
 			"class": "melee",
-			"lp": 495,
+			"lp": 430,
 			"tier": 86,
 			"speed": 0,			"type": "Tank armour",
 			"armour": 111.6,
@@ -374011,7 +375070,7 @@
 				"Defence": 99
 			},
 			"class": "melee",
-			"lp": 495,
+			"lp": 435,
 			"tier": 87,
 			"speed": 0,			"type": "Tank armour",
 			"armour": 114.3,
@@ -374028,7 +375087,7 @@
 				"Defence": 99
 			},
 			"class": "melee",
-			"lp": 495,
+			"lp": 440,
 			"tier": 88,
 			"speed": 0,			"type": "Tank armour",
 			"armour": 117.1,
@@ -374045,7 +375104,7 @@
 				"Defence": 99
 			},
 			"class": "melee",
-			"lp": 495,
+			"lp": 445,
 			"tier": 89,
 			"speed": 0,			"type": "Tank armour",
 			"armour": 120.0,
@@ -374062,7 +375121,7 @@
 				"Defence": 99
 			},
 			"class": "melee",
-			"lp": 495,
+			"lp": 450,
 			"tier": 90,
 			"speed": 0,			"type": "Tank armour",
 			"armour": 122.9,
@@ -374200,7 +375259,7 @@
 				"Defence": 99
 			},
 			"class": "melee",
-			"lp": 1485,
+			"lp": 1275,
 			"tier": 85,
 			"speed": 0,			"type": "Tank armour",
 			"armour": 500.9,
@@ -374217,7 +375276,7 @@
 				"Defence": 99
 			},
 			"class": "melee",
-			"lp": 1485,
+			"lp": 1290,
 			"tier": 86,
 			"speed": 0,			"type": "Tank armour",
 			"armour": 513.3,
@@ -374234,7 +375293,7 @@
 				"Defence": 99
 			},
 			"class": "melee",
-			"lp": 1485,
+			"lp": 1305,
 			"tier": 87,
 			"speed": 0,			"type": "Tank armour",
 			"armour": 526.0,
@@ -374251,7 +375310,7 @@
 				"Defence": 99
 			},
 			"class": "melee",
-			"lp": 1485,
+			"lp": 1320,
 			"tier": 88,
 			"speed": 0,			"type": "Tank armour",
 			"armour": 538.8,
@@ -374268,7 +375327,7 @@
 				"Defence": 99
 			},
 			"class": "melee",
-			"lp": 1485,
+			"lp": 1335,
 			"tier": 89,
 			"speed": 0,			"type": "Tank armour",
 			"armour": 552.0,
@@ -374285,7 +375344,7 @@
 				"Defence": 99
 			},
 			"class": "melee",
-			"lp": 1485,
+			"lp": 1350,
 			"tier": 90,
 			"speed": 0,			"type": "Tank armour",
 			"armour": 565.3,
@@ -374302,7 +375361,7 @@
 				"Defence": 99
 			},
 			"class": "melee",
-			"lp": 1485,
+			"lp": 1275,
 			"tier": 85,
 			"speed": 0,			"type": "Tank armour",
 			"armour": 479.1,
@@ -374319,7 +375378,7 @@
 				"Defence": 99
 			},
 			"class": "melee",
-			"lp": 1485,
+			"lp": 1290,
 			"tier": 86,
 			"speed": 0,			"type": "Tank armour",
 			"armour": 491,
@@ -374336,7 +375395,7 @@
 				"Defence": 99
 			},
 			"class": "melee",
-			"lp": 1485,
+			"lp": 1305,
 			"tier": 87,
 			"speed": 0,			"type": "Tank armour",
 			"armour": 503.1,
@@ -374353,7 +375412,7 @@
 				"Defence": 99
 			},
 			"class": "melee",
-			"lp": 1485,
+			"lp": 1320,
 			"tier": 88,
 			"speed": 0,			"type": "Tank armour",
 			"armour": 515.4,
@@ -374370,7 +375429,7 @@
 				"Defence": 99
 			},
 			"class": "melee",
-			"lp": 1485,
+			"lp": 1335,
 			"tier": 89,
 			"speed": 0,			"type": "Tank armour",
 			"armour": 528.0,
@@ -374387,7 +375446,7 @@
 				"Defence": 99
 			},
 			"class": "melee",
-			"lp": 1485,
+			"lp": 1350,
 			"tier": 90,
 			"speed": 0,			"type": "Tank armour",
 			"armour": 540.7,
@@ -384489,7 +385548,7 @@
 				"Defence": 99
 			},
 			"class": "magic",
-			"lp": 990,
+			"lp": 850,
 			"tier": 85,
 			"speed": 0,			"type": "Tank armour",
 			"armour": 435.6,
@@ -384505,7 +385564,7 @@
 				"Defence": 99
 			},
 			"class": "magic",
-			"lp": 1485,
+			"lp": 1275,
 			"tier": 85,
 			"speed": 0,			"type": "Tank armour",
 			"armour": 500.9,
@@ -384521,7 +385580,7 @@
 				"Defence": 99
 			},
 			"class": "magic",
-			"lp": 1485,
+			"lp": 1275,
 			"tier": 85,
 			"speed": 0,			"type": "Tank armour",
 			"armour": 479.1,
@@ -384537,7 +385596,7 @@
 				"Defence": 99
 			},
 			"class": "magic",
-			"lp": 495,
+			"lp": 425,
 			"tier": 85,
 			"speed": 0,			"type": "Tank armour",
 			"armour": 108.9,
@@ -384553,7 +385612,7 @@
 				"Defence": 99
 			},
 			"class": "magic",
-			"lp": 495,
+			"lp": 425,
 			"tier": 85,
 			"speed": 0,			"type": "Tank armour",
 			"armour": 108.9,
@@ -384569,7 +385628,7 @@
 				"Defence": 99
 			},
 			"class": "magic",
-			"lp": 990,
+			"lp": 860,
 			"tier": 86,
 			"speed": 0,			"type": "Tank armour",
 			"armour": 446.4,
@@ -384585,7 +385644,7 @@
 				"Defence": 99
 			},
 			"class": "magic",
-			"lp": 1485,
+			"lp": 1290,
 			"tier": 86,
 			"speed": 0,			"type": "Tank armour",
 			"armour": 513.3,
@@ -384601,7 +385660,7 @@
 				"Defence": 99
 			},
 			"class": "magic",
-			"lp": 1485,
+			"lp": 1290,
 			"tier": 86,
 			"speed": 0,			"type": "Tank armour",
 			"armour": 491,
@@ -384617,7 +385676,7 @@
 				"Defence": 99
 			},
 			"class": "magic",
-			"lp": 495,
+			"lp": 430,
 			"tier": 86,
 			"speed": 0,			"type": "Tank armour",
 			"armour": 111.6,
@@ -384633,7 +385692,7 @@
 				"Defence": 99
 			},
 			"class": "magic",
-			"lp": 495,
+			"lp": 430,
 			"tier": 86,
 			"speed": 0,			"type": "Tank armour",
 			"armour": 111.6,
@@ -384649,7 +385708,7 @@
 				"Defence": 99
 			},
 			"class": "magic",
-			"lp": 990,
+			"lp": 870,
 			"tier": 87,
 			"speed": 0,			"type": "Tank armour",
 			"armour": 457.4,
@@ -384665,7 +385724,7 @@
 				"Defence": 99
 			},
 			"class": "magic",
-			"lp": 1485,
+			"lp": 1305,
 			"tier": 87,
 			"speed": 0,			"type": "Tank armour",
 			"armour": 526,
@@ -384681,7 +385740,7 @@
 				"Defence": 99
 			},
 			"class": "magic",
-			"lp": 1485,
+			"lp": 1305,
 			"tier": 87,
 			"speed": 0,			"type": "Tank armour",
 			"armour": 503.1,
@@ -384697,7 +385756,7 @@
 				"Defence": 99
 			},
 			"class": "magic",
-			"lp": 495,
+			"lp": 435,
 			"tier": 87,
 			"speed": 0,			"type": "Tank armour",
 			"armour": 114.3,
@@ -384713,7 +385772,7 @@
 				"Defence": 99
 			},
 			"class": "magic",
-			"lp": 495,
+			"lp": 435,
 			"tier": 87,
 			"speed": 0,			"type": "Tank armour",
 			"armour": 114.3,
@@ -384729,7 +385788,7 @@
 				"Defence": 99
 			},
 			"class": "magic",
-			"lp": 990,
+			"lp": 880,
 			"tier": 88,
 			"speed": 0,			"type": "Tank armour",
 			"armour": 468.6,
@@ -384745,7 +385804,7 @@
 				"Defence": 99
 			},
 			"class": "magic",
-			"lp": 1485,
+			"lp": 1320,
 			"tier": 88,
 			"speed": 0,			"type": "Tank armour",
 			"armour": 538.8,
@@ -384761,7 +385820,7 @@
 				"Defence": 99
 			},
 			"class": "magic",
-			"lp": 1485,
+			"lp": 1320,
 			"tier": 88,
 			"speed": 0,			"type": "Tank armour",
 			"armour": 515.4,
@@ -384777,7 +385836,7 @@
 				"Defence": 99
 			},
 			"class": "magic",
-			"lp": 495,
+			"lp": 440,
 			"tier": 88,
 			"speed": 0,			"type": "Tank armour",
 			"armour": 117.1,
@@ -384793,7 +385852,7 @@
 				"Defence": 99
 			},
 			"class": "magic",
-			"lp": 495,
+			"lp": 440,
 			"tier": 88,
 			"speed": 0,			"type": "Tank armour",
 			"armour": 117.1,
@@ -384809,7 +385868,7 @@
 				"Defence": 99
 			},
 			"class": "magic",
-			"lp": 990,
+			"lp": 890,
 			"tier": 89,
 			"speed": 0,			"type": "Tank armour",
 			"armour": 480,
@@ -384825,7 +385884,7 @@
 				"Defence": 99
 			},
 			"class": "magic",
-			"lp": 1485,
+			"lp": 1335,
 			"tier": 89,
 			"speed": 0,			"type": "Tank armour",
 			"armour": 552,
@@ -384841,7 +385900,7 @@
 				"Defence": 99
 			},
 			"class": "magic",
-			"lp": 1485,
+			"lp": 1335,
 			"tier": 89,
 			"speed": 0,			"type": "Tank armour",
 			"armour": 528,
@@ -384857,7 +385916,7 @@
 				"Defence": 99
 			},
 			"class": "magic",
-			"lp": 495,
+			"lp": 445,
 			"tier": 89,
 			"speed": 0,			"type": "Tank armour",
 			"armour": 120,
@@ -384873,7 +385932,7 @@
 				"Defence": 99
 			},
 			"class": "magic",
-			"lp": 495,
+			"lp": 445,
 			"tier": 89,
 			"speed": 0,			"type": "Tank armour",
 			"armour": 120,
@@ -384889,7 +385948,7 @@
 				"Defence": 99
 			},
 			"class": "magic",
-			"lp": 990,
+			"lp": 900,
 			"tier": 90,
 			"speed": 0,			"type": "Tank armour",
 			"armour": 491.6,
@@ -384905,7 +385964,7 @@
 				"Defence": 99
 			},
 			"class": "magic",
-			"lp": 1485,
+			"lp": 1350,
 			"tier": 90,
 			"speed": 0,			"type": "Tank armour",
 			"armour": 565.3,
@@ -384921,7 +385980,7 @@
 				"Defence": 99
 			},
 			"class": "magic",
-			"lp": 1485,
+			"lp": 1350,
 			"tier": 90,
 			"speed": 0,			"type": "Tank armour",
 			"armour": 540.7,
@@ -384937,7 +385996,7 @@
 				"Defence": 99
 			},
 			"class": "magic",
-			"lp": 495,
+			"lp": 450,
 			"tier": 90,
 			"speed": 0,			"type": "Tank armour",
 			"armour": 122.9,
@@ -384953,7 +386012,7 @@
 				"Defence": 99
 			},
 			"class": "magic",
-			"lp": 495,
+			"lp": 450,
 			"tier": 90,
 			"speed": 0,			"type": "Tank armour",
 			"armour": 122.9,
@@ -389924,6 +390983,24 @@
 			"prayer": 3,
 			"accuracy": 0
 		},
+		"Tellervo's net": {
+			"formatted_name": "Tellervo's net",
+			"ranged_damage": 0,
+			"slot": "main hand weapon",
+			"prayer": 0,
+			"style": "spell-casting",
+			"ability_damage": 9.6,
+			"magic_damage": 0,
+			"melee_damage": 0,
+			"armour": 0,
+			"requirements": {},
+			"speed": 3,
+			"tier": 1,
+			"lp": 0,
+			"attack_range": 8,
+			"class": "magic",
+			"accuracy": 110
+		},
 		"Tempest body": {
 			"ranged_damage": 0,
 			"requirements": {
@@ -391515,6 +392592,24 @@
 			"class": "melee",
 			"accuracy": 202,
 			"auto_damage": 149
+		},
+		"Vampyrism gloves": {
+			"ranged_damage": 2.1,
+			"requirements": {
+				"Defence": 25
+			},
+			"class": "hybrid",
+			"lp": 0,
+			"tier": 90,
+			"speed": 0,
+			"type": "Power armour",
+			"armour": 10.1,
+			"slot": "hands",
+			"melee_damage": 2.1,
+			"magic_damage": 2.1,
+			"necromancy_damage": 2.1,
+			"prayer": 0,
+			"accuracy": 0
 		},
 		"Vanquish (magic)": {
 			"ranged_damage": 0,
