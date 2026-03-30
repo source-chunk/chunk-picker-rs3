@@ -14728,6 +14728,17 @@
   "Unlock ~|Chomper|~": "t_13379",
   "Unlock the ~|star sprite (pet)|~": "t_116042",
   "Unlock ~|Scarlett|~": "t_118592",
+  "Unlock the ~|Zamorak hawk|~": "t_118718",
+  "Unlock the ~|Saradomin owl|~": "t_118719",
+  "Unlock the ~|Guthix raptor|~": "t_118720",
+  "Unlock the ~|raven|~ pet": "t_118721",
+  "Unlock the ~|penguin (pet)|~": "t_118722",
+  "Unlock the ~|vulture (pet)|~": "t_118723",
+  "Unlock the ~|chameleon|~ pet": "t_118724",
+  "Unlock the ~|baby green dragon|~ pet": "t_118725",
+  "Unlock the ~|baby blue dragon|~ pet": "t_118726",
+  "Unlock the ~|baby red dragon|~ pet": "t_118727",
+  "Unlock the ~|baby black dragon|~ pet": "t_118728",
   "Unlock all ~|Dundee's Crocodile Upgrades|~": "t_14495",
   "~|Innate Mastery|~: Ek-ZekKil": "t_109754",
   "~|Innate Mastery|~: Dark Shard of Leng and Dark Sliver of Leng": "t_109755",
@@ -48503,6 +48514,7 @@
   "Ivar, King of Bones: ~|Giant Champion's scroll|~ (1) (1/5,000)": "t_118162",
   "Ivar, King of Bones: ~|Long bone|~ (1) (1/500)": "t_118163",
   "Ivar, King of Bones: ~|Curved bone|~ (1) (1/5,000)": "t_118164",
+  "Ivar, King of Bones: ~|Grimy guam|~ (3 (F2P)) (Common)": "t_118729",
   "Ivar, King of Bones: ~|Grimy tarromin|~ (3 (F2P)) (Common)": "t_118619",
   "Ivar, King of Bones: ~|Potato seed|~ (5 (F2P)) (Common)": "t_118165",
   "Ivar, King of Bones: ~|Onion seed|~ (5 (F2P)) (Common)": "t_118166",
@@ -91074,5 +91086,5 @@
   "Pizazz points: ~|Death rune|~": "t_52854",
   "Pizazz points: ~|Soul rune|~": "t_52856",
   "Pizazz points: ~|Blood rune|~": "t_52857",
-  "currentNextIndex": 118718
+  "currentNextIndex": 118730
 }
