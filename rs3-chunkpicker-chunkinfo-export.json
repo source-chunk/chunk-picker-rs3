@@ -21790,6 +21790,17 @@
 				"Primary": true,
 				"Priority": 5
 			},
+			"Craft a ~|clockwork box trap|~": {
+				"Items": ["Box trap*", "Clockwork"],
+				"Level": 51,
+				"Skills": {
+					"Fletching": 13
+				},
+				"Output": "Clockwork box trap",
+				"Primary": true,
+				"Priority": 6,
+				"Not F2P": true
+			},
 			"Craft a ~|strong runecrafting urn (unfired)|~": {
 				"Items": ["Soft clay*"],
 				"Level": 52,
@@ -38594,7 +38605,7 @@
 				"Items": ["Havensilver bolts (unf)*", "Feather[+]*"],
 				"Level": 9,
 				"Tasks": {
-					"~|Silver Lining|~ Complete the lore activity": "Quest"
+					"~|A Sliver of Silver Helps the Sanguine Go Down|~ Complete the lore activity": "Quest"
 				},
 				"Output": "Havensilver bolts",
 				"Primary": true,
@@ -38808,6 +38819,17 @@
 				"Output": "Off-hand bronze dart",
 				"Primary": true,
 				"Priority": 4
+			},
+			"Craft a ~|clockwork box trap|~": {
+				"Items": ["Box trap*", "Clockwork"],
+				"Level": 13,
+				"Skills": {
+					"Crafting": 51
+				},
+				"Output": "Clockwork box trap",
+				"Primary": true,
+				"Priority": 5,
+				"Not F2P": true
 			},
 			"Fletch ~|arrow shafts|~ using oak logs": {
 				"Items": ["Oak logs*"],
@@ -39214,7 +39236,7 @@
 				"Items": ["Havensilver bolts*", "Silver spines*"],
 				"Level": 48,
 				"Tasks": {
-					"~|Silver Lining|~ Complete the lore activity": "Quest"
+					"~|A Sliver of Silver Helps the Sanguine Go Down|~ Complete the lore activity": "Quest"
 				},
 				"Output": "Havensilver bolts + 1",
 				"Primary": true,
@@ -39546,7 +39568,7 @@
 				"Items": ["Havensilver bolts + 1*", "Sanguine spines*"],
 				"Level": 65,
 				"Tasks": {
-					"~|Silver Lining|~ Complete the lore activity": "Quest"
+					"~|A Sliver of Silver Helps the Sanguine Go Down|~ Complete the lore activity": "Quest"
 				},
 				"Output": "Havensilver bolts + 2",
 				"Primary": true,
@@ -44811,6 +44833,13 @@
 				"Output": "SabreKyatt",
 				"Primary": true,
 				"Priority": 2
+			},
+			"Set a ~|clockwork box trap|~": {
+				"Items": ["Clockwork box trap"],
+				"Level": 55,
+				"Primary": false,
+				"Priority": 3,
+				"Not F2P": true
 			},
 			"Catch a ~|penguin|~ with a box trap": {
 				"Chunks": ["10814"],
@@ -63875,7 +63904,7 @@
 				"Level": 1,
 				"Objects": ["Forge[+]", "Anvil[+]"],
 				"Tasks": {
-					"~|Silver Lining|~ Complete the lore acitivty": "Quest"
+					"~|A Sliver of Silver Helps the Sanguine Go Down|~ Complete the lore acitivty": "Quest"
 				},
 				"Output": "Havensilver weapons",
 				"Primary": true,
@@ -64304,7 +64333,7 @@
 				"Level": 30,
 				"Objects": ["Forge[+]", "Anvil[+]"],
 				"Tasks": {
-					"~|Silver Lining|~ Complete the lore acitivty": "Quest"
+					"~|A Sliver of Silver Helps the Sanguine Go Down|~ Complete the lore acitivty": "Quest"
 				},
 				"Output": "Havensilver weapons + 1",
 				"Primary": true,
@@ -64842,7 +64871,7 @@
 				"Level": 60,
 				"Objects": ["Forge[+]", "Anvil[+]"],
 				"Tasks": {
-					"~|Silver Lining|~ Complete the lore acitivty": "Quest"
+					"~|A Sliver of Silver Helps the Sanguine Go Down|~ Complete the lore acitivty": "Quest"
 				},
 				"Output": "Havensilver weapons + 2",
 				"Primary": true,
@@ -98586,8 +98615,8 @@
 				"Chunks": ["11054"],
 				"Not F2P": true
 			},
-			"~|Silver Lining|~ 1": {
-				"BaseQuest": "Silver Lining",
+			"~|A Sliver of Silver Helps the Sanguine Go Down|~ 1": {
+				"BaseQuest": "A Sliver of Silver Helps the Sanguine Go Down",
 				"Description": "Speak to Liat at the Wendlewick smithy and grab the old key",
 				"Chunks": ["16692"],
 				"Tasks": {
@@ -98595,39 +98624,39 @@
 				},
 				"Not F2P": true
 			},
-			"~|Silver Lining|~ 2": {
-				"BaseQuest": "Silver Lining",
+			"~|A Sliver of Silver Helps the Sanguine Go Down|~ 2": {
+				"BaseQuest": "A Sliver of Silver Helps the Sanguine Go Down",
 				"Description": "Loot the chest behind the waterfall",
 				"Chunks": ["17462"],
 				"Tasks": {
-					"~|Silver Lining|~ 1": "Quest"
+					"~|A Sliver of Silver Helps the Sanguine Go Down|~ 1": "Quest"
 				},
 				"Not F2P": true
 			},
-			"~|Silver Lining|~ 3": {
-				"BaseQuest": "Silver Lining",
+			"~|A Sliver of Silver Helps the Sanguine Go Down|~ 3": {
+				"BaseQuest": "A Sliver of Silver Helps the Sanguine Go Down",
 				"Description": "Return to Liat",
 				"Chunks": ["16692"],
 				"Tasks": {
-					"~|Silver Lining|~ 2": "Quest"
+					"~|A Sliver of Silver Helps the Sanguine Go Down|~ 2": "Quest"
 				},
 				"Not F2P": true
 			},
-			"~|Silver Lining|~ 4": {
-				"BaseQuest": "Silver Lining",
+			"~|A Sliver of Silver Helps the Sanguine Go Down|~ 4": {
+				"BaseQuest": "A Sliver of Silver Helps the Sanguine Go Down",
 				"Description": "Smith a havensilver longsword and a havensilver off-hand longsword",
 				"Items": ["Havensilver bar"],
 				"Objects": ["Forge[+]", "Anvil[+]"],
 				"Tasks": {
-					"~|Silver Lining|~ 3": "Quest"
+					"~|A Sliver of Silver Helps the Sanguine Go Down|~ 3": "Quest"
 				},
 				"Not F2P": true
 			},
-			"~|Silver Lining|~ Complete the lore activity": {
-				"BaseQuest": "Silver Lining",
+			"~|A Sliver of Silver Helps the Sanguine Go Down|~ Complete the lore activity": {
+				"BaseQuest": "A Sliver of Silver Helps the Sanguine Go Down",
 				"Chunks": ["16692"],
 				"Tasks": {
-					"~|Silver Lining|~ 4": "Quest"
+					"~|A Sliver of Silver Helps the Sanguine Go Down|~ 4": "Quest"
 				},
 				"QuestPoints": 0,
 				"Not F2P": true
@@ -112278,7 +112307,7 @@
 				"Category": ["Show Diary Tasks"]
 			},
 			"~|Tirannwn Achievements#Easy|~ Arandar-bout Way": {
-				"Description": "Enter through the gates of the Arandar Pass while wearing only a full set of Mourner gear.",
+				"Description": "Enter through the gates of the Arandar Pass while wearing only a full mourner outfit.",
 				"Chunks": ["9524-1"],
 				"Tasks": {
 					"~|Regicide|~ Complete the quest": "Quest"
@@ -119754,7 +119783,7 @@
 				"Category": ["MQC achievements"],
 				"Description": "Fully upgrade the cramulet.",
 				"BaseQuest": "Completionist achievements",
-				"Items": ["Cramulet", "Camulet", "Catspeak amulet (e)", "Crocspeak amulet", "Cabbagespeak amulet"],
+				"Items": ["Cramulet", "Camulet", "Catspeak amulet (e)", "Crocspeak amulet", "Cabbagespeak amulet", "Crabulet"],
 				"Tasks": {
 					"~|Do No Evil|~ Complete the quest": "Quest"
 				},
@@ -120839,6 +120868,12 @@
 				},
 				"Not F2P": true
 			},
+			"~|Completionist achievements#Master Quest Cape|~ An Exploration of Havenhythe": {
+				"Category": ["MQC achievements"],
+				"Description": "Find all volumes of Kaleb's Travel Journal.",
+				"BaseQuest": "Completionist achievements",
+				"Items": ["Kaleb's travel journal - volume I", "Kaleb's travel journal - volume II"]
+			},
 			"~|Completionist achievements#Master Quest Cape|~ Explore for Nestor": {
 				"Category": ["MQC achievements"],
 				"Description": "Find and read the explorer's notes in the Keldagrim library.",
@@ -120868,6 +120903,15 @@
 				"Chunks": ["City of Um"],
 				"Tasks": {
 					"~|The Spirit of War|~ Complete the quest": "Quest"
+				},
+				"Not F2P": true
+			},
+			"~|Completionist achievements#Master Quest Cape|~ Finding Tali": {
+				"Category": ["MQC achievements"],
+				"Description": "Find Tali and convince her to return home.",
+				"BaseQuest": "Completionist achievements",
+				"Tasks": {
+					"~|Finding Tali|~ Complete the lore activity": "Quest"
 				},
 				"Not F2P": true
 			},
@@ -121080,6 +121124,15 @@
 				},
 				"Tasks": {
 					"~|What's Mine is Yours|~ Complete the quest": "Quest"
+				},
+				"Not F2P": true
+			},
+			"~|Completionist achievements#Master Quest Cape|~ Hello, I Like Money": {
+				"Category": ["MQC achievements"],
+				"Description": "Claim 1000 coins from Hannah after solving her crab problem.",
+				"BaseQuest": "Completionist achievements",
+				"Tasks": {
+					"~|Hermit Permits|~ Complete the quest": "Quest"
 				},
 				"Not F2P": true
 			},
@@ -121567,6 +121620,15 @@
 				},
 				"Not F2P": true
 			},
+			"~|Completionist achievements#Master Quest Cape|~ The Lute of Love": {
+				"Category": ["MQC achievements"],
+				"Description": "Craft a lute for Dalia the lumberjack.",
+				"BaseQuest": "Completionist achievements",
+				"Tasks": {
+					"~|The Lute of Love|~ Complete the lore activity": "Quest"
+				},
+				"Not F2P": true
+			},
 			"~|Completionist achievements#Master Quest Cape|~ Madness and Malediction": {
 				"Category": ["MQC achievements"],
 				"Description": "Find and read 'Archaeology Journal - H.F.A', found in the Zamorakian Undercity.",
@@ -121638,6 +121700,15 @@
 				"Monsters": ["Chompy bird"],
 				"Tasks": {
 					"~|Big Chompy Bird Hunting|~ Complete the quest": "Quest"
+				},
+				"Not F2P": true
+			},
+			"~|Completionist achievements#Master Quest Cape|~ Maya Use Your Fish Farm?": {
+				"Category": ["MQC achievements"],
+				"Description": "Learn how to use the Wendlewick fish farm.",
+				"BaseQuest": "Completionist achievements",
+				"Tasks": {
+					"~|Maya Use Your Fish Farm?|~ Complete the lore activity": "Quest"
 				},
 				"Not F2P": true
 			},
@@ -122399,6 +122470,7 @@
 					"~|What Lies Below|~ Complete the quest": "Quest",
 					"~|Desert Treasure|~ Complete the quest": "Quest",
 					"~|The Golem|~ Complete the quest": "Quest",
+					"~|Finding Tali|~ Complete the lore activity": "Quest",
 					"~|Completionist achievements#Master Quest Cape|~ Mysteries - Kharid-et": "Diary",
 					"~|Completionist achievements#Master Quest Cape|~ Mysteries - Everlight": "Diary",
 					"~|Completionist achievements#Master Quest Cape|~ Mysteries - Infernal Source": "Diary",
@@ -122555,6 +122627,16 @@
 				},
 				"Not F2P": true
 			},
+			"~|Completionist achievements#Master Quest Cape|~ Selene's Lessons": {
+				"Category": ["MQC achievements"],
+				"Description": "Find all 9 pages of 'Selene's Lessons' and return the finished book to Raz.",
+				"BaseQuest": "Completionist achievements",
+				"Chunks": ["16949-1", "16438", "17201", "17200", "17204", "17202", "16946-1", "Hollow Hill"],
+				"Tasks": {
+					"~|Visions of Havenhythe|~ Complete the quest": "Quest"
+				},
+				"Not F2P": true
+			},
 			"~|Completionist achievements#Master Quest Cape|~ Sentient Letters": {
 				"Category": ["MQC achievements"],
 				"Description": "Collect all of the letters from the Senntisten dig.",
@@ -122626,6 +122708,14 @@
 					"~|Sliske's Endgame|~ Complete the quest": "Quest"
 				},
 				"Not F2P": true
+			},
+			"~|Completionist achievements#Master Quest Cape|~ A Sliver of Silver Helps the Sanguine Go Down": {
+				"Category": ["MQC achievements"],
+				"Description": "Learn how to smith more durable havensilver.",
+				"BaseQuest": "Completionist achievements",
+				"Tasks": {
+					"~|A Sliver of Silver Helps the Sanguine Go Down|~ Complete the lore activity": "Quest"
+				}
 			},
 			"~|Completionist achievements#Master Quest Cape|~ Soft Dragon, Warm Dragon": {
 				"Category": ["MQC achievements"],
@@ -122938,6 +123028,14 @@
 					"~|Soul Searching|~ Complete the quest": "Quest"
 				},
 				"Not F2P": true
+			},
+			"~|Completionist achievements#Master Quest Cape|~ Trader Woes": {
+				"Category": ["MQC achievements"],
+				"Description": "Help Nathan the banker set up a trade venture.",
+				"BaseQuest": "Completionist achievements",
+				"Tasks": {
+					"~|Trader Woes|~ Complete the lore activity": "Quest"
+				}
 			},
 			"~|Completionist achievements#Master Quest Cape|~ Trials of the Heart": {
 				"Category": ["MQC achievements"],
@@ -123332,8 +123430,10 @@
 					"~|Completionist achievements#Master Quest Cape|~ Epi Logueque Experience": "Diary",
 					"~|Completionist achievements#Master Quest Cape|~ Experience the Fate of the Gods": "Diary",
 					"~|Completionist achievements#Master Quest Cape|~ Explore for Nestor": "Diary",
+					"~|Completionist achievements#Master Quest Cape|~ An Exploration of Havenhythe": "Diary",
 					"~|Completionist achievements#Master Quest Cape|~ Family Spirit Tree": "Diary",
 					"~|Completionist achievements#Master Quest Cape|~ Final Destination Unlocked": "Diary",
+					"~|Completionist achievements#Master Quest Cape|~ Finding Tali": "Diary",
 					"~|Completionist achievements#Master Quest Cape|~ Fires are Mostly Harmless": "Diary",
 					"~|Completionist achievements#Master Quest Cape|~ Flippers ": "Diary",
 					"~|Completionist achievements#Master Quest Cape|~ Fly You Fool": "Diary",
@@ -123390,6 +123490,7 @@
 					"~|Completionist achievements#Master Quest Cape|~ Looting the Demon Throne": "Diary",
 					"~|Completionist achievements#Master Quest Cape|~ Lovingly Crafted": "Diary",
 					"~|Completionist achievements#Master Quest Cape|~ Lurgon's Run": "Diary",
+					"~|Completionist achievements#Master Quest Cape|~ The Lute of Love": "Diary",
 					"~|Completionist achievements#Master Quest Cape|~ Madness and Malediction": "Diary",
 					"~|Completionist achievements#Master Quest Cape|~ Mage Arena ": "Diary",
 					"~|Completionist achievements#Master Quest Cape|~ Make Them Bleed": "Diary",
@@ -123397,6 +123498,7 @@
 					"~|Completionist achievements#Master Quest Cape|~ Marmaros and Thok Letters": "Diary",
 					"~|Completionist achievements#Master Quest Cape|~ Mask of Dragith Nurn ": "Diary",
 					"~|Completionist achievements#Master Quest Cape|~ Master Bogreman": "Diary",
+					"~|Completionist achievements#Master Quest Cape|~ Maya Use Your Fish Farm?": "Diary",
 					"~|Completionist achievements#Master Quest Cape|~ Measure of Old": "Diary",
 					"~|Completionist achievements#Master Quest Cape|~ Meeting your Idols": "Diary",
 					"~|Completionist achievements#Master Quest Cape|~ Memoirs of the Devourer": "Diary",
@@ -123473,6 +123575,7 @@
 					"~|Completionist achievements#Master Quest Cape|~ Scorpvino": "Diary",
 					"~|Completionist achievements#Master Quest Cape|~ Scribbling in the Depths": "Diary",
 					"~|Completionist achievements#Master Quest Cape|~ Scribblings of a Dragonkin": "Diary",
+					"~|Completionist achievements#Master Quest Cape|~ Selene's Lessons": "Diary",
 					"~|Completionist achievements#Master Quest Cape|~ Sentient Letters": "Diary",
 					"~|Completionist achievements#Master Quest Cape|~ Seren Memories": "Diary",
 					"~|Completionist achievements#Master Quest Cape|~ Shadow Hanging Over Me": "Diary",
@@ -123480,6 +123583,7 @@
 					"~|Completionist achievements#Master Quest Cape|~ Sing for the Lady": "Diary",
 					"~|Completionist achievements#Master Quest Cape|~ Skeletal Wishes": "Diary",
 					"~|Completionist achievements#Master Quest Cape|~ Sliske's New Game Plus": "Diary",
+					"~|Completionist achievements#Master Quest Cape|~ A Sliver of Silver Helps the Sanguine Go Down": "Diary",
 					"~|Completionist achievements#Master Quest Cape|~ Soft Dragon, Warm Dragon": "Diary",
 					"~|Completionist achievements#Master Quest Cape|~ Some Old Dusty Journals": "Diary",
 					"~|Completionist achievements#Master Quest Cape|~ Squael for Coins": "Diary",
@@ -123507,6 +123611,7 @@
 					"~|Completionist achievements#Master Quest Cape|~ To Dream, Perchance to Keep": "Diary",
 					"~|Completionist achievements#Master Quest Cape|~ To Thaw a Frozen Heart": "Diary",
 					"~|Completionist achievements#Master Quest Cape|~ Tome Raider": "Diary",
+					"~|Completionist achievements#Master Quest Cape|~ Trader Woes": "Diary",
 					"~|Completionist achievements#Master Quest Cape|~ Trials of the Heart": "Diary",
 					"~|Completionist achievements#Master Quest Cape|~ Trickster's Trinkets": "Diary",
 					"~|Completionist achievements#Master Quest Cape|~ Triple Trouble": "Diary",
@@ -124181,6 +124286,16 @@
 				},
 				"Not F2P": true
 			},
+			"~|Completionist achievements#Completionist Cape|~ It Should Have Been Called Chinskin": {
+				"Category": ["Comp achievements"],
+				"Description": "Unlock the ability to craft masterwork ranged armour by making and upgrading to +5 a full set of apex hide armour.",
+				"BaseQuest": "Completionist achievements",
+				"Items": ["Apex hide cowl + 5", "Apex hide body + 5", "Apex hide chaps + 5", "Apex hide vambraces + 5", "Apex hide boots + 5"],
+				"Skills": {
+					"Crafting": 100
+				},
+				"Not F2P": true
+			},
 			"~|Completionist achievements#Completionist Cape|~ It Still Should Have Been Called Aetherium": {
 				"Category": ["Comp achievements"],
 				"Description": "Unlock the ability to smith masterwork swords by making and upgrading to +5 a full set of primal armour.",
@@ -124256,6 +124371,25 @@
 				"NoBoost": true,
 				"Not F2P": true
 			},
+			"~|Completionist achievements#Completionist Cape|~ Maximum Poolpulation": {
+				"Category": ["Comp achievements", "Skillcape"],
+				"Description": "Reach the maximum number of fish in each pool at the Wendlewick fish farm with all four pools active.",
+				"BaseQuest": "Completionist achievements",
+				"Items": [
+					"LesserThanLobster[+]", 
+					"Big fishing net", "Acadia plank", "Yew plank", "Magic plank", "Steel nails", "Adamant nails", "Rune nails", "Bolt of cloth",
+					"Raw lobster", "Raw swordfish", "Raw shark", "Raw giant crayfish"
+				],
+				"Skills": {
+					"Construction": 80,
+					"Farming": 25,
+					"Fishing": 84
+				},
+				"Tasks": {
+					"~|Maya Use Your Fish Farm?|~ Complete the lore activity": "Quest"
+				},
+				"Not F2P": true
+			},
 			"~|Completionist achievements#Completionist Cape|~ Memories of Guthix": {
 				"Category": ["Comp achievements"],
 				"Description": "Attune and hand all engrams in to the Memorial to Guthix.",
@@ -124325,6 +124459,14 @@
 				"Skills": {
 					"Necromancy": 50
 				},
+				"Not F2P": true
+			},
+			"~|Completionist achievements#Completionist Cape|~ No Need to Pikkenchoose": {
+				"Category": ["Comp achievements"],
+				"Description": "Unlock everything from the Pikkenflix's Shrine of the Spirit Wolf shop south of Wendlewick.",
+				"BaseQuest": "Completionist achievements",
+				"Chunks": ["16946-1"],
+				"Items": ["Gold charm"],
 				"Not F2P": true
 			},
 			"~|Completionist achievements#Completionist Cape|~ Out into the Ourania": {
@@ -124659,7 +124801,7 @@
 				},
 				"Not F2P": true
 			},
-			"~|Completionist achievements#Completionist Cape|~ Uncorrupted Ore|~ achievement": {
+			"~|Completionist achievements#Completionist Cape|~ Uncorrupted Ore": {
 				"Category": ["Comp achievements"],
 				"Description": "Aid Lady Trahaearn in removing some corruption.",
 				"BaseQuest": "Completionist achievements",
@@ -124828,18 +124970,23 @@
 					"~|Completionist achievements#Completionist Cape|~ In Rituals We Trust": "Diary",
 					"~|Completionist achievements#Completionist Cape|~ Invention Gives Me the Blues": "Diary",
 					"~|Completionist achievements#Completionist Cape|~ It Should Have Been Called Aetherium": "Diary",
+					"~|Completionist achievements#Completionist Cape|~ It Should Have Been Called Ancestral": "Diary",
+					"~|Completionist achievements#Completionist Cape|~ It Should Have Been Called Chinskin": "Diary",
+					"~|Completionist achievements#Completionist Cape|~ It Should Still Have Been Called Aetherium": "Diary",
 					"~|Completionist achievements#Completionist Cape|~ Kiln Fighter": "Diary",
 					"~|Completionist achievements#Completionist Cape|~ Kudos to You": "Diary",
 					"~|Completionist achievements#Completionist Cape|~ Long Live the Queen": "Diary",
 					"~|Completionist achievements#Completionist Cape|~ Lunar Master": "Diary",
 					"~|Completionist achievements#Completionist Cape|~ Make Them Bleed": "Diary",
 					"~|Completionist achievements#Completionist Cape|~ Master Skiller": "Diary",
+					"~|Completionist achievements#Completionist Cape|~ Maximum Poolpulation": "Diary",
 					"~|Completionist achievements#Completionist Cape|~ Memories of Guthix": "Diary",
 					"~|Completionist achievements#Completionist Cape|~ Minor Wisdom": "Diary",
 					"~|Completionist achievements#Completionist Cape|~ Music Maestro": "Diary",
 					"~|Completionist achievements#Completionist Cape|~ My Last Resort": "Diary",
 					"~|Completionist achievements#Completionist Cape|~ Myreque in Memoriam": "Diary",
 					"~|Completionist achievements#Completionist Cape|~ Mystical Moonstone": "Diary",
+					"~|Completionist achievements#Completionist Cape|~ No Need to Pikkenchoose": "Diary",
 					"~|Completionist achievements#Completionist Cape|~ Out into the Ourania": "Diary",
 					"~|Completionist achievements#Completionist Cape|~ Peachy Bones": "Diary",
 					"~|Completionist achievements#Completionist Cape|~ Pious Prayers": "Diary",
@@ -124966,6 +125113,17 @@
 					"~|The Jack of Spades|~ Complete the quest": "Quest",
 					"~|One of a Kind|~ Complete the quest": "Quest",
 					"~|Plague's End|~ Complete the quest": "Quest"
+				},
+				"Not F2P": true
+			},
+			"~|Completionist achievements#Trimmed Completionist Cape|~ Canoe Fix It? Yes You Can!": {
+				"Category": ["Comp achievements", "Trim achievements"],
+				"Description": "Repair all the canoe stations around Havenhythe.",
+				"BaseQuest": "Completionist achievements",
+				"Items": ["Willow plank", "Steel nails"],
+				"Chunks": ["16691-1", "17460", "17201"],
+				"Skills": {
+					"Construction": 20
 				},
 				"Not F2P": true
 			},
@@ -125335,7 +125493,7 @@
 				"Items": ["AnyTotem[+]x7"],
 				"Not F2P": true
 			},
-			"~|Completionist achievements#Trimmed Completionist Cape|~ Kal'Gerion Commaner": {
+			"~|Completionist achievements#Trimmed Completionist Cape|~ Kal'Gerion Commander": {
 				"Category": ["Comp achievements", "Trim achievements"],
 				"Description": "Unlock the Kal'gerion battle commendation titles.",
 				"BaseQuest": "Completionist achievements",
@@ -125345,6 +125503,60 @@
 				},
 				"Skills": {
 					"Dungeoneering": 113
+				},
+				"Not F2P": true
+			},
+			"~|Completionist achievements#Trimmed Completionist Cape|~ Like Farming Fish in a Pool - Giant Crayfish": {
+				"Category": ["Comp achievements", "Trim achievements"],
+				"Description": "Catch 250 giant crayfish at the Wendlewick fish farm.",
+				"BaseQuest": "Completionist achievements",
+				"Items": [
+					"Raw giant crayfish", "LesserThanLobster[+]", 
+					"Big fishing net", "Magic plank", "Rune nails", "Bolt of cloth"
+				],
+				"Tasks": {
+					"~|Maya Use Your Fish Farm?|~ Complete the lore activity": "Quest"
+				},
+				"Skills": {
+					"Construction": 70,
+					"Farming": 25,
+					"Fishing": 79
+				},
+				"Not F2P": true
+			},
+			"~|Completionist achievements#Trimmed Completionist Cape|~ Like Farming Fish in a Pool - Shark": {
+				"Category": ["Comp achievements", "Trim achievements"],
+				"Description": "Catch 250 sharks at the Wendlewick fish farm.",
+				"BaseQuest": "Completionist achievements",
+				"Items": [
+					"Raw shark", "LesserThanLobster[+]", 
+					"Big fishing net", "Yew plank", "Adamant nails"
+				],
+				"Tasks": {
+					"~|Maya Use Your Fish Farm?|~ Complete the lore activity": "Quest"
+				},
+				"Skills": {
+					"Construction": 80,
+					"Farming": 25,
+					"Fishing": 84
+				},
+				"Not F2P": true
+			},
+			"~|Completionist achievements#Trimmed Completionist Cape|~ Like Farming Fish in a Pool - Swordfish": {
+				"Category": ["Comp achievements", "Trim achievements"],
+				"Description": "Catch 250 swordfish at the Wendlewick fish farm.",
+				"BaseQuest": "Completionist achievements",
+				"Items": [
+					"Raw swordfish", "LesserThanLobster[+]", 
+					"Big fishing net", "Acadia plank", "Steel nails"
+				],
+				"Tasks": {
+					"~|Maya Use Your Fish Farm?|~ Complete the lore activity": "Quest"
+				},
+				"Skills": {
+					"Construction": 50,
+					"Farming": 25,
+					"Fishing": 55
 				},
 				"Not F2P": true
 			},
@@ -125642,7 +125854,9 @@
 					"Arch-Glacor",
 					"Kerapac, the bound",
 					"TzKal-Zuk",
-					"Flesh-hatcher Mhekarnahz"
+					"Flesh-hatcher Mhekarnahz",
+					"Ivar, King of Bones",
+					"Silverquill, the Dreadhog"
 				],
 				"Not F2P": true
 			},
@@ -125909,7 +126123,7 @@
 				"Category": ["Comp achievements", "Trim achievements"],
 				"Description": "Fully complete the slayer codex.",
 				"BaseQuest": "Completionist achievements",
-				"Items": ["Filled Ushabti[+]x172"],
+				"Items": ["Filled Ushabti[+]x173"],
 				"Skills": {
 					"Slayer": 115
 				},
@@ -125973,6 +126187,7 @@
 					"~|Completionist achievements#Trimmed Completionist Cape|~ All Your Energies": "Diary",
 					"~|Completionist achievements#Trimmed Completionist Cape|~ Bone to Pick With You": "Diary",
 					"~|Completionist achievements#Trimmed Completionist Cape|~ Build Them All!": "Diary",
+					"~|Completionist achievements#Trimmed Completionist Cape|~ Canoe Fix It? Yes You Can!": "Diary",
 					"~|Completionist achievements#Trimmed Completionist Cape|~ Champions. What Champions?": "Diary",
 					"~|Completionist achievements#Trimmed Completionist Cape|~ Chompy Massacre": "Diary",
 					"~|Completionist achievements#Trimmed Completionist Cape|~ Collectors Assemble": "Diary",
@@ -125997,7 +126212,10 @@
 					"~|Completionist achievements#Trimmed Completionist Cape|~ Jack of the Circus": "Diary",
 					"~|Completionist achievements#Trimmed Completionist Cape|~ Jail break": "Diary",
 					"~|Completionist achievements#Trimmed Completionist Cape|~ Jurassic Perk": "Diary",
-					"~|Completionist achievements#Trimmed Completionist Cape|~ Kal'Gerion Commaner": "Diary",
+					"~|Completionist achievements#Trimmed Completionist Cape|~ Kal'Gerion Commander": "Diary",
+					"~|Completionist achievements#Trimmed Completionist Cape|~ Like Farming Fish in a Pool - Giant Crayfish": "Diary",
+					"~|Completionist achievements#Trimmed Completionist Cape|~ Like Farming Fish in a Pool - Shark": "Diary",
+					"~|Completionist achievements#Trimmed Completionist Cape|~ Like Farming Fish in a Pool - Swordfish": "Diary",
 					"~|Completionist achievements#Trimmed Completionist Cape|~ Maria, You Gotta See Her": "Diary",
 					"~|Completionist achievements#Trimmed Completionist Cape|~ Master Angler": "Diary",
 					"~|Completionist achievements#Trimmed Completionist Cape|~ Master Builder": "Diary",
@@ -137317,35 +137535,40 @@
 				"Label": "Untracked Minigame Uniques",
 				"Items": ["Mega-phonus"]
 			},
-			"(Familiarisation) Obtain a ~|shaman's headdress|~": {
-				"Category": ["Untracked Uniques", "Untracked Uniques Minigames"],
-				"Label": "Untracked Minigame Uniques",
+			"(Shrine of the Spirit Wolves) Obtain a ~|shaman's headdress|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Skilling"],
+				"Label": "Untracked Skilling Uniques",
 				"Items": ["Shaman's headdress"]
 			},
-			"(Familiarisation) Obtain a ~|shaman's headdress add-on|~": {
-				"Category": ["Untracked Uniques", "Untracked Uniques Minigames"],
-				"Label": "Untracked Minigame Uniques",
+			"(Shrine of the Spirit Wolves) Obtain a ~|shaman's headdress add-on|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Skilling"],
+				"Label": "Untracked Skilling Uniques",
 				"Items": ["Shaman's headdress add-on"]
 			},
-			"(Familiarisation) Obtain a ~|shaman's poncho|~": {
-				"Category": ["Untracked Uniques", "Untracked Uniques Minigames"],
-				"Label": "Untracked Minigame Uniques",
+			"(Shrine of the Spirit Wolves) Obtain a ~|shaman's poncho|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Skilling"],
+				"Label": "Untracked Skilling Uniques",
 				"Items": ["Shaman's poncho"]
 			},
-			"(Familiarisation) Obtain ~|shaman's leggings|~": {
-				"Category": ["Untracked Uniques", "Untracked Uniques Minigames"],
-				"Label": "Untracked Minigame Uniques",
+			"(Shrine of the Spirit Wolves) Obtain ~|shaman's leggings|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Skilling"],
+				"Label": "Untracked Skilling Uniques",
 				"Items": ["Shaman's leggings"]
 			},
-			"(Familiarisation) Obtain ~|shaman's hand wraps|~": {
-				"Category": ["Untracked Uniques", "Untracked Uniques Minigames"],
-				"Label": "Untracked Minigame Uniques",
+			"(Shrine of the Spirit Wolves) Obtain ~|shaman's hand wraps|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Skilling"],
+				"Label": "Untracked Skilling Uniques",
 				"Items": ["Shaman's hand wraps"]
 			},
-			"(Familiarisation) Obtain ~|shaman's moccasins|~": {
-				"Category": ["Untracked Uniques", "Untracked Uniques Minigames"],
-				"Label": "Untracked Minigame Uniques",
+			"(Shrine of the Spirit Wolves) Obtain ~|shaman's moccasins|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Skilling"],
+				"Label": "Untracked Skilling Uniques",
 				"Items": ["Shaman's moccasins"]
+			},
+			"(Shrine of the Spirit Wolves) Obtain ~|shaman's moccasins|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Skilling"],
+				"Label": "Untracked Skilling Uniques",
+				"Items": ["Fang of Mohegan"]
 			},
 			"(Herby Werby) Obtain an ~|ancient seed|~": {
 				"Category": ["Untracked Uniques", "Untracked Uniques Minigames"],
@@ -140504,6 +140727,14 @@
 				"Items": ["Ushabti"],
 				"Monster": ["Beastmaster's hound"],
 				"Output": "Ushabti (beastmaster's hound)",
+				"Not F2P": true
+			},
+			"Collect a ~|sanguine crawler|~ soul": {
+				"Category": ["Slayer Souls"],
+				"Label": "Slayer Codex",
+				"Items": ["Ushabti"],
+				"Monster": ["Sanguine crawler"],
+				"Output": "Ushabti (sanguine crawler)",
 				"Not F2P": true
 			},
 			"Unlock ~|Remy|~": {
@@ -144347,7 +144578,7 @@
 				"Category": ["Titles"],
 				"Label": "Titles",
 				"Chunks": ["8755"],
-				"Items": ["Filled Ushabti[+]x172"],
+				"Items": ["Filled Ushabti[+]x173"],
 				"Requirements": {
 					"Slayer": 95,
 					"Dungeoneering": 90
@@ -144438,7 +144669,9 @@
 					"Nakatra, Devourer Eternal",
 					"Beastmaster Durzag",
 					"Yakamaru",
-					"Flesh-hatcher Mhekarnahz"
+					"Flesh-hatcher Mhekarnahz",
+					"Ivar, King of Bones",
+					"Silverquill, the Dreadhog"
 				]
 			},
 			"Obtain the ~|Insane Final Boss|~ title": {
@@ -144517,7 +144750,9 @@
 					"Nakatra, Devourer Eternal (Hard Mode)",
 					"Beastmaster Durzag",
 					"Yakamaru",
-					"Flesh-hatcher Mhekarnahz"
+					"Flesh-hatcher Mhekarnahz",
+					"Ivar, King of Bones",
+					"Silverquill, the Dreadhog"
 				],
 				"Items": [
 					"King black dragon scale",
@@ -144575,7 +144810,10 @@
 					"Calcified heart",
 					"Nefthys' Tooth",
 					"Fragment of the Gate",
-					"Amascut's promise"
+					"Amascut's promise",
+					"Mhekarnahz's eye",
+					"Ivar's loincloth",
+					"Silverquill's blood-filled cyst"
 				]
 			},
 			"Obtain the ~|the Reaper|~ title": {
@@ -144618,7 +144856,9 @@
 					"Arch-Glacor",
 					"Kerapac, the bound",
 					"TzKal-Zuk",
-					"Flesh-hatcher Mhekarnahz"
+					"Flesh-hatcher Mhekarnahz",
+					"Ivar, King of Bones",
+					"Silverquill, the Dreadhog"
 				]
 			},
 			"Obtain the ~|Salty|~ title": {
@@ -144867,6 +145107,11 @@
 				"Tasks": {
 					"~|The Branches of Darkmeyer|~ Complete the quest": "Quest"
 				}
+			},
+			"Obtain the ~|the Spirit Wolf|~ title": {
+				"Category": ["Titles"],
+				"Label": "Titles",
+				"Items": ["'the Spirit Wolf' title"]
 			},
 			"Obtain a ~|dwarven army axe|~": {
 				"Category": ["BIS Skilling"],
@@ -165216,9 +165461,12 @@
 				},
 				"Output": "Wilderness Flash Event loot"
 			},
-			"Search hollow trees": {
+			"Search hollow trees*": {
 				"Objects": ["Hollow tree (Highweald forest)"],
 				"Output": "Hollow tree loot"
+			},
+			"Obtain Blessings of the Wolf*": {
+				"Items": ["Gold charm*"]
 			}
 		}
 	},
@@ -198355,7 +198603,8 @@
 						"Sink": 1,
 						"Stairs": 2,
 						"Ladder": 2,
-						"Beacon": 1
+						"Beacon": 1,
+						"Small obelisk#Havenhythe": 1
 					},
 					"NPC": {
 						"Fisherwoman": 1,
@@ -199164,7 +199413,7 @@
 				"Hearts of Sanguine": "step",
 				"The Lute of Love": "step",
 				"Trader Woes": "step",
-				"Silver Lining": "first"
+				"A Sliver of Silver Helps the Sanguine Go Down": "first"
 			},
 			"Nickname": "Wendlewick"
 		},
@@ -199871,7 +200120,8 @@
 				"Stairs": 2,
 				"Reuben's journal": 1,
 				"Tree": 8,
-				"Oak": 26
+				"Oak": 26,
+				"Small obelisk#Havenhythe": 1
 			},
 			"Monster": {
 				"Rabbit": 2
@@ -199886,7 +200136,7 @@
 			"Quest": {
 				"Finding Tali": "step"
 			},
-			"Nickname": "Reuben's Tannery"
+			"Nickname": "Reuben's Home"
 		},
 		"16949": {
 			"Sections": {
@@ -200802,7 +201052,7 @@
 				"Chest": 1
 			},
 			"Quest": {
-				"Silver Lining": "step"
+				"A Sliver of Silver Helps the Sanguine Go Down": "step"
 			},
 			"Nickname": "Loot Under the Waterfall"
 		},
@@ -217687,10 +217937,10 @@
 			],
 			"GoldRing[+]": ["Gold ring", "Sapphire ring", "Emerald ring", "Ruby ring", "Diamong ring", "Dragonstone ring"],
 			"GoodDivine[+]": [
-				"Divine herb patch II",
-				"Divine mithril rock",
-				"Divine swordfish bubble",
-				"Divine yew tree"
+				"Mithril ore",
+				"Yew logs",
+				"Raw swordfish",
+				"Clean irit"
 			],
 			"GraahkFur[+]": [
 				"Graahk fur",
@@ -217883,15 +218133,16 @@
 				"Luminous energy"
 			],
 			"InferiorDivine[+]": [
-				"Divine bronze rock",
-				"Divine crayfish bubble",
-				"Divine herb patch I",
-				"Divine herring bubble",
-				"Divine iron rock",
-				"Divine oak tree",
-				"Divine salmon bubble",
-				"Divine tree",
-				"Divine trout bubble"
+				"Copper ore",
+				"Tin ore",
+				"Iron ore",
+				"Logs",
+				"Oak logs",
+				"Raw crayfish",
+				"Raw herring",
+				"Raw trout",
+				"Raw salmon",
+				"Clean guam"
 			],
 			"InfinityRobes[+]": [
 				"Infinity boots",
@@ -218706,10 +218957,10 @@
 				"Polar camo top"
 			],
 			"PoorDivine[+]": [
-				"Divine coal rock",
-				"Divine lobster bubble",
-				"Divine maple tree",
-				"Divine willow tree"
+				"Coal",
+				"Willow logs",
+				"Maple logs",
+				"Raw lobster"
 			],
 			"Potion[+]": [
 				"Strength potion (1)",
@@ -219662,11 +219913,11 @@
 				"Superior Vesta's spear"
 			],
 			"SuperiorDivine[+]": [
-				"Divine adamantite rock",
-				"Divine cavefish bubble",
-				"Divine herb patch III",
-				"Divine magic tree",
-				"Divine shark bubble"
+				"Adamantite ore",
+				"Magic logs",
+				"Raw shark",
+				"Raw cavefish",
+				"Clean cadantine"
 			],
 			"SuperiorDragonWeapon[+]": [
 				"Superior dragon claw",
@@ -221067,6 +221318,7 @@
 				"Elder rune mattock"
 			],
 			"Filled Ushabti[+]": [
+				"Ushabti (sanguine crawler)",
 				"Ushabti (beastmaster's hound)",
 				"Ushabti (ravenous ghoul)",
 				"Ushabti (profane scabarite)",
@@ -221495,7 +221747,7 @@
 			"GodBooks[+]": "Any good book variant",
 			"Godsword[+]": "Any god wars dungeon 1 godsword variant",
 			"GoldRing[+]": "Any type of gold ring",
-            "GoodDivine[+]": "Any divine location that can be used to create a good locator",
+            "GoodDivine[+]": "Any resource that can be used to create a good locator",
 			"GraahkFur[+]": "Any graahk fur variant",
 			"GraahkOutfit[+]": "Any piece of the graahk fur outfit",
 			"Granite[+]": "Granite of any size",
@@ -221525,7 +221777,7 @@
 			"ImpBead[+]": "Any imp bead that can be used for magic potions",
 			"ImphideRobes[+]": "Any piece of imphide robes",
 			"Incandescentboon[+]": "Any type of energy that can be used to create an incandescent boon",
-			"InferiorDivine[+]": "Any divine location that can be used to make an inferior locator",
+			"InferiorDivine[+]": "Any resource that can be used to make an inferior locator",
 			"InfinityRobes[+]": "Any pieces of infinity robes",
 			"Initiate[+]": "Any piece of initiate armour",
 			"IntricateDecorativeArmour[+]": "Any piece of intricate decorative armour",
@@ -221634,7 +221886,7 @@
 			"PlankTeakUp[+]": "Teak planks or better",
 			"PlankMahoganyUp[+]": "Mahogany planks or better",
 			"PolarCamo[+]": "Any piece of the polar camo outfit",
-			"PoorDivine[+]": "Any divine location that can be used to make a poor locator",
+			"PoorDivine[+]": "Any resource that can be used to make a poor locator",
 			"Potion[+]": "Any potion that can be emptied to create a vial",
 			"PowerfulCommunionBones[+]": "Any item that can be used in a powerful communion ritual",
 			"PrayerPotion[+]": "Any prayer potion",
@@ -221754,7 +222006,7 @@
 			"SuperInventionPotion[+]": "Any super invention potion",
 			"SuperiorAncientWarriorArmour[+]": "Any piece of superior ancient warrior armour",
 			"SuperiorAncientWarriorWeapon[+]": "Any superior ancient warrior melee weapon",
-			"SuperiorDivine[+]": "Any divine location that can be used to create a superior locator",
+			"SuperiorDivine[+]": "Any resource that can be used to create a superior locator",
 			"SuperiorDragonWeapon[+]": "Any superior dragon melee weapon",
 			"SuperiorKyzaj[+]": "Any superior kyzaj variant",
 			"SuperiorRockShellArmour[+]": "Any piece of superior rock shell armour",
@@ -222186,7 +222438,7 @@
 			"WaterSource[+]": "Any object that can fill an item with water"
 		},
 		"monstersPlus": {
-			"AnyBoss[+]": ["Amascut, the Devourer", "The Ambassador", "Araxxor", "Arch-Glacor", "Barrows", "Barrows: Rise of the Six", "Black stone dragon", "Chaos Elemental", "Commander Zilyana", "Croesus", "Flesh-hatcher Mhekarnahz", "Dagannoth Kings", "The Gate of Elidinis", "General Graardor", "Giant mole", "Gregorovic", "Har-Aken", "Helwyr", "Hermod, the Spirit of War", "Kalphite Queen", "Kalphite King", "Kerapac, the bound", "King Black Dragon", "Kree'arra", "K'ril Tsutsaroth", "Legiones", "The Magister", "Nex", "Nex, Angel of Death", "Queen Black Dragon", "Raksha, the Shadow Colossus", "Rasial, the First Necromancer", "Rex Matriarchs", "Seiryu the Azure Serpent", "Solak, Guardian of the Grove", "Telos, the Warden", "Twin Furies", "TzKal-Zuk", "TzTok-Jad", "Vindicta", "Gorvek", "Vorago", "Zamorak, Lord of Chaos", "Osseous", "Vermyx, Brood Mother", "Kezalam, the Wanderer", "Nakatra, Devourer Eternal"],
+			"AnyBoss[+]": ["Amascut, the Devourer", "The Ambassador", "Araxxor", "Arch-Glacor", "Barrows", "Barrows: Rise of the Six", "Black stone dragon", "Chaos Elemental", "Commander Zilyana", "Croesus", "Flesh-hatcher Mhekarnahz", "Dagannoth Kings", "The Gate of Elidinis", "General Graardor", "Giant mole", "Gregorovic", "Har-Aken", "Helwyr", "Hermod, the Spirit of War", "Ivar, King of Bones", "Kalphite Queen", "Kalphite King", "Kerapac, the bound", "King Black Dragon", "Kree'arra", "K'ril Tsutsaroth", "Legiones", "The Magister", "Nex", "Nex, Angel of Death", "Queen Black Dragon", "Raksha, the Shadow Colossus", "Rasial, the First Necromancer", "Rex Matriarchs", "Seiryu the Azure Serpent", "Silverquill, the Dreadhog", "Solak, Guardian of the Grove", "Telos, the Warden", "Twin Furies", "TzKal-Zuk", "TzTok-Jad", "Vindicta", "Gorvek", "Vorago", "Zamorak, Lord of Chaos", "Osseous", "Vermyx, Brood Mother", "Kezalam, the Wanderer", "Nakatra, Devourer Eternal"],
 			"AnyDemon[+]": ["Abyssal beast", "Abyssal demon", "Abyssal savage", "Balfrug Kreeyath", "Black demon", "Gargoyle", "Greater demon", "Greater demon ash lord", "Greater demon berserker", "Greater demon brute", "Greater demon pyromancer", "Greater demon sage", "Greater demon savage", "Imp", "Imp scavenger", "K'ril Tsutsaroth", "Kal'gerion demon", "Lesser demon", "Ripper Demon", "Tormented demon", "Tstanon Karlak", "Zakl'n Gritch"],
 			"AnyDragon[+]": ["Adamant dragon", "Astellarn", "Baby blue dragon", "Baby red dragon", "Black dragon", "Black stone dragon", "Blue dragon", "Bronze dragon", "Brutal green dragon", "Celestial dragon", "Dragonstone dragon", "Frost dragon", "Green dragon", "Hydrix dragon", "Iron dragon", "King Black Dragon", "Mithril dragon", "Nodon artificer", "Nodon guard", "Nodon hunter", "Onyx dragon", "Queen Black Dragon", "Rune dragon", "Steel dragon", "Verak Lith"],
 			"AnyUndead[+]": ["Aberrant spectre", "Ahrim the Blighted", "Akrisae the Doomed", "Animated spade", "Ankou", "Armoured phantom", "Armoured zombie", "Banshee", "Bloated monstrosity", "Bound skeleton", "Corpse archer", "Corpse carrier", "Corpse mage", "Corpse spider", "Crawling corpse torso", "Crawling hand", "Dharok the Wretched", "Dragith Nurn", "Edimmu", "Fetid zombie", "Ghast", "Ghost", "Ghostly troll bruiser", "Ghostly troll thrower", "Guthan the Infested", "Karil the Tainted", "Linza the Disgraced", "Magic axe", "Monkey Zombie", "Mummy (Jaldraocht Pyramid)", "Mummy (Ullek)", "Phantom sorcerer", "Phantom wizard", "Possessed pickaxe", "Revenant cyclops", "Revenant dark beast", "Revenant demon", "Revenant dragon", "Revenant goblin", "Revenant hellhound", "Revenant hobgoblin", "Revenant icefiend", "Revenant imp", "Revenant knight", "Revenant ork", "Revenant pyrefiend", "Revenant vampyre", "Revenant werewolf", "Risen ghost", "Shade", "Shadow warrior", "Skeletal Wyvern", "Skeletal hand", "Skeleton#Armed", "Skeleton#Unarmed", "Skeleton Mage", "Skeleton knight", "Skoblin", "Skogre", "Small scarab", "Spiritual mage", "Spiritual ranger", "Spiritual warrior", "Taraket the Necromancer", "Torag the Corrupted", "Tormented wraith", "Undead chicken", "Undead cow", "Undead pekin", "Undead troll", "Verac the Defiled", "Wight", "Wight ranger", "Zogre", "Zombie#Level 12", "Zombie#Level 22", "Zombie#Level 29", "Zombie hand", "Zombie knight", "Zombie pirate", "Zombie swab", "Zombie warrior"],
@@ -223951,7 +224203,8 @@
 				"Hellhound (HoG)":true
 			},
 			"Hill giants": {
-				"Hill giant": true
+				"Hill giant": true,
+				"Ivar, King of Bones": true
 			},
 			"Hobgoblins": {
 				"Hobgoblin#Armed": true,
@@ -224637,6 +224890,9 @@
 			"Hermod, the Spirit of War": {
 				"Hermod, the Spirit of War": true
 			},
+			"Ivar, King of Bones": {
+				"Ivar, King of Bones": true
+			},
 			"Kalphite King": {
 				"Kalphite King": true
 			},
@@ -224697,6 +224953,9 @@
 			"Seiryu the Azure Serpent": {
 				"Seiryu the Azure Serpent": true
 			},
+			"Silverquill, the Dreadhog": {
+				"Silverquill, the Dreadhog": true
+			},
 			"Solak, Guardian of the Grove": {
 				"Solak, Guardian of the Grove": true
 			},
@@ -224754,6 +225013,7 @@
 			"Har-Aken": true,
 			"Helwyr": true,
 			"Hermod, the Spirit of War": true,
+			"Ivar, King of Bones": true,
 			"Kalphite Queen": true,
 			"Kalphite King": true,
 			"Kerapac, the bound": true,
@@ -224774,6 +225034,7 @@
 			"Raksha, the Shadow Colossus": true,
 			"Rasial, the First Necromancer": true,
 			"Seiryu the Azure Serpent": true,
+			"Silverquill, the Dreadhog": true,
 			"Solak, Guardian of the Grove": true,
 			"Telos, the Warden": true,
 			"Twin Furies": true,
@@ -279964,7 +280225,7 @@
 		"Purple Cat (miniquest)": "12339, Betty's Basement",
 		"Restoring Senliten": "12338, Uzer Mastaba, 13106, 12854, 13107",
 		"Sheep Shearer (miniquest)": "12851, 12595",
-		"Silver Lining": "16692, 17462",
+		"A Sliver of Silver Helps the Sanguine Go Down": "16692, 17462",
 		"Spiritual Enlightenment (miniquest)": "16153, Player-Owned Port, 16409, Aminishi Spirit Realm",
 		"Tales of Nomad (miniquest)": "Death's Office, 12342, 12853, 9778, Nomad's temple, Lumbridge Catacombs, 13109, 8748, 11828, 12087, 9007",
 		"Tales of the God Wars (miniquest)": "13356, 9007, The Barrows, God Wars Dungeon, Grotworm Lair 1, Grotworm Lair 2, Grotworm Lair 3",
@@ -280150,9 +280411,9 @@
 			"Frying pan^": [{
 				"RecipeSub[+]x4": "Quest"
 			}],
-			"Gold stone spirit^Ivar, King of Bones": {
+			"Gold stone spirit^Ivar, King of Bones": [{
 				"Members only": "Nonskill"
-			},
+			}],
 			"Hazelmere's signet ring^": [{
 				"Luck of the Dwarves": "Nonskill"
 			}],
@@ -280186,9 +280447,9 @@
 			"Meat tenderiser^": [{
 				"RecipeSub[+]x8": "Quest"
 			}],
-			"Mithril stone spirit^Ivar, King of Bones": {
+			"Mithril stone spirit^Ivar, King of Bones": [{
 				"Members only": "Nonskill"
-			},
+			}],
 			"Monk's robe (top)^Monk": [{
 				"Monk's drops": "Nonskill"
 			}],
@@ -281713,27 +281974,27 @@
 			"Archaeologist's boots^": [{
 				"Become an ~|archaeology associate|~": "Archaeology"
 			}],
-			"Willow logs^Ivar, King of Bones": {
+			"Willow logs^Ivar, King of Bones": [{
 				"Members only": "Nonskill"
-			},
-			"Death rune^Ivar, King of Bones": {
+			}],
+			"Death rune^Ivar, King of Bones": [{
 				"Members only": "Nonskill"
-			},
-			"Maple plank^Ivar, King of Bones": {
+			}],
+			"Maple plank^Ivar, King of Bones": [{
 				"Members only": "Nonskill"
-			},
-			"Snape grass^Ivar, King of Bones": {
+			}],
+			"Snape grass^Ivar, King of Bones": [{
 				"Members only": "Nonskill"
-			},
-			"Earth battlestaff^Ivar, King of Bones": {
+			}],
+			"Earth battlestaff^Ivar, King of Bones": [{
 				"Members only": "Nonskill"
-			},
-			"Rune chainbody^Ivar, King of Bones": {
+			}],
+			"Rune chainbody^Ivar, King of Bones": [{
 				"Members only": "Nonskill"
-			},
-			"Dragonstone amulet^Ivar, King of Bones": {
+			}],
+			"Dragonstone amulet^Ivar, King of Bones": [{
 				"Members only": "Nonskill"
-			}
+			}]
 		},
 		"Monsters": {
 			"Amascut, the Devourer": {
@@ -283217,6 +283478,11 @@
 			"Sigmund the Merchant": {
 				"10553": [{
 					"~|The Fremennik Trials|~ Complete the quest": "Quest"
+				}]
+			},
+			"Shrine of the Spirit Wolves": {
+				"16946-1": [{
+					"Obtain Blessings of the Wolf*": "Nonskill"
 				}]
 			},
 			"Skulgrimen's Battle Gear": {
@@ -326174,26 +326440,6 @@
 				},
 				"Menaphyrite": {
 					"1": "1/100"
-				}
-			},
-			"Familiarisation rewards": {
-				"Shaman's headdress": {
-					"1": "Always"
-				},
-				"Shaman's poncho": {
-					"1": "Always"
-				},
-				"Shaman's leggings": {
-					"1": "Always"
-				},
-				"Shaman's hand wraps": {
-					"1": "Always"
-				},
-				"Shaman's moccasins": {
-					"1": "Always"
-				},
-				"Shaman's headdress add-on": {
-					"1": "Always"
 				}
 			},
 			"Guthixian Cache rewards": {
@@ -395725,6 +395971,13 @@
 				},
 				"Weight": 1
 			},
+			"Ivar, King of Bones": {
+				"CombatLevel": 50,
+				"Tasks": {
+					"~|Visions of Havenhythe|~ Complete the quest": "Quest"
+				},
+				"Weight": 1
+			},
 			"Kalphite King": {
 				"CombatLevel": 105,
 				"Tasks": {
@@ -395844,6 +396097,13 @@
 				"CombatLevel": 115,
 				"Tasks": {
 					"Elite Dungeon Access[+]": "Nonskill"
+				},
+				"Weight": 1
+			},
+			"Silverquill, the Dreadhog": {
+				"CombatLevel": 50,
+				"Tasks": {
+					"~|Hearts of Sanguine|~ Complete the quest": "Quest"
 				},
 				"Weight": 1
 			},
