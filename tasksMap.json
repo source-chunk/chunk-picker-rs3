@@ -19535,7 +19535,7 @@
   "Kill X ~|Sea Snake Hatchling|~": "t_18654",
   "Kill X ~|Jungle spider|~": "t_18655",
   "Kill X ~|Invrigar the Necromancer|~": "t_18656",
-  "Kill X ~|Necromancer|~": "t_18657",
+  "Kill X ~|Necromancer (monster)|~": "t_18657",
   "Kill X ~|Hero|~": "t_18658",
   "Kill X ~|Guard dog|~": "t_18659",
   "Kill X ~|Fox|~": "t_18660",
@@ -19845,6 +19845,7 @@
   "Kill X ~|Seren mage|~": "t_18949",
   "Kill X ~|Automaton (Heart of Gielinor)|~": "t_18950",
   "Kill X ~|Automaton champion|~": "t_18951",
+  "Kill X ~|Necromancer|~": "t_118730",
   "Kill X ~|Wight ranger|~": "t_18952",
   "Kill X ~|Wight|~": "t_18953",
   "Kill X ~|Cave goblin (monster)|~": "t_53321",
@@ -23153,6 +23154,7 @@
   "Red dragon leather": "t_116714",
   "Gold ore": "t_116200",
   "Diamond necklace": "t_116715",
+  "Dragonstone necklace": "t_118731",
   "Fayrg bones": "t_22571",
   "Raurg bones": "t_22572",
   "Ourg bones": "t_21787",
@@ -84974,6 +84976,8 @@
   "[Thieving] Chest (Ardougne Castle): ~|Ruby ring|~ (1) (Common)": "t_116916",
   "[Thieving] Chest (Ardougne Castle): ~|Diamond necklace|~ (1) (Common)": "t_116917",
   "[Thieving] Chest (Ardougne Castle): ~|Diamond ring|~ (1) (Common)": "t_116918",
+  "[Thieving] Chest (Ardougne Castle): ~|Dragonstone necklace|~ (1) (1/200)": "t_118732",
+  "[Thieving] Chest (Ardougne Castle): ~|Dragonstone amulet|~ (1) (1/400)": "t_118733",
   "[Thieving] Reinforced Chest (Dorgesh-Kaan): ~|Coins|~ (750) (Common)": "t_116919",
   "[Thieving] Reinforced Chest (Dorgesh-Kaan): ~|Gold charm|~ (1-2) (Common)": "t_116920",
   "[Thieving] Reinforced Chest (Dorgesh-Kaan): ~|Blue charm|~ (1) (Common)": "t_116921",
@@ -91086,5 +91090,5 @@
   "Pizazz points: ~|Death rune|~": "t_52854",
   "Pizazz points: ~|Soul rune|~": "t_52856",
   "Pizazz points: ~|Blood rune|~": "t_52857",
-  "currentNextIndex": 118730
+  "currentNextIndex": 118734
 }

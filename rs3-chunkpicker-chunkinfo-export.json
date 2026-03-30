@@ -177965,7 +177965,7 @@
 					},
 					"Monster": {
 						"Invrigar the Necromancer": 1,
-						"Necromancer": 1,
+						"Necromancer (monster)": 1,
 						"Imp": 9
 					},
 					"NPC": {
@@ -179678,7 +179678,7 @@
 			"NPC": {
 				"Penguin": 38
 			},
-			"Shops": {
+			"Shop": {
 				"Ruined boat": true
 			},
 			"Nickname": "Iceberg Island"
@@ -192111,7 +192111,7 @@
 						"Shortbow": 1,
 						"Bronze arrow": 3
 					},
-					"Shops": {
+					"Shop": {
 						"Dominion Tower Rewards": true
 					},
 					"Monster": {
@@ -200803,7 +200803,7 @@
 						"Wan Pian (flotsam merchant)": 1,
 						"Odd Billy": 1
 					},
-					"Shops": {
+					"Shop": {
 						"Sweet Goods": true,
 						"The Junk of One Cyclops": true
 					},
@@ -324527,6 +324527,12 @@
 				},
 				"Diamond ring": {
 					"1": "Common"
+				},
+				"Dragonstone necklace": {
+					"1": "1/200"
+				},
+				"Dragonstone amulet": {
+					"1": "1/400"
 				}
 			},
 			"Reinforced Chest (Dorgesh-Kaan)": {
