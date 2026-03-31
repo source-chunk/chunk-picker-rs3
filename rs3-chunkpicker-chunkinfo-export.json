@@ -28402,47 +28402,30 @@
 			}
 		},
 		"Divination": {
-			"Harvest with a ~|cobalt skillchompa|~": {
-				"Items": ["Cobalt skillchompa"],
-				"Level": 31,
-				"NPCs": ["Wisp[+]"],
-				"Primary": false,
-				"Priority": 1
-			},
-			"Harvest with a ~|viridian skillchompa|~": {
-				"Items": ["Viridian skillchompa"],
-				"Level": 41,
-				"NPCs": ["Wisp[+]"],
-				"Primary": false,
-				"Priority": 1
-			},
-			"Harvest with an ~|azure skillchompa|~": {
-				"Items": ["Azure skillchompa"],
-				"Level": 51,
-				"NPCs": ["Wisp[+]"],
-				"Primary": false,
-				"Priority": 1
-			},
-			"Harvest with a ~|crimson skillchompa|~": {
-				"Items": ["Crimson skillchompa"],
-				"Level": 61,
-				"NPCs": ["Wisp[+]"],
-				"Primary": false,
-				"Priority": 1
-			},
-			"Harvest with a ~|crystal skillchompa|~": {
-				"Items": ["Crystal skillchompa"],
-				"Level": 71,
-				"NPCs": ["Wisp[+]"],
-				"Primary": false,
-				"Priority": 1
-			},
 			"Harvest a ~|pale wisp|~": {
 				"NPCs": ["Pale wisp"],
 				"Level": 1,
 				"Output": "Pale energy",
 				"Primary": true,
 				"Priority": 1
+			},
+			"Complete a run through ~|Shifting Tombs|~": {
+				"Chunks": ["Shifting Tombs"],
+				"Tasks": {
+					"Enter a tier one ~|Shifting Tombs|~": "Agility"
+				},
+				"Level": 1,
+				"Primary": true,
+				"Priority": 100
+			},
+			"Train Divination in ~|Daemonheim|~": {
+				"Category": ["Daemonheim training"],
+				"Tasks": {
+					"Unlock ~|frozen floors|~": "Dungeoneering"
+				},
+				"Level": 1,
+				"Primary": true,
+				"Priority": 101
 			},
 			"Complete a ~|cracked divination urn|~": {
 				"Category": ["Token"],
@@ -28453,7 +28436,7 @@
 				},
 				"Output": "Cracked divination urn",
 				"Primary": true,
-				"Priority": 6
+				"Priority": 1000
 			},
 			"Complete a ~|fragile divination urn|~": {
 				"Category": ["Token"],
@@ -28464,7 +28447,7 @@
 				},
 				"Output": "Fragile divination urn",
 				"Primary": true,
-				"Priority": 7
+				"Priority": 1001
 			},
 			"Complete a ~|plain divination urn|~": {
 				"Category": ["Token"],
@@ -28475,7 +28458,7 @@
 				},
 				"Output": "Plain divination urn",
 				"Primary": true,
-				"Priority": 8
+				"Priority": 1002
 			},
 			"Complete a ~|strong divination urn|~": {
 				"Category": ["Token"],
@@ -28486,7 +28469,7 @@
 				},
 				"Output": "Strong divination urn",
 				"Primary": true,
-				"Priority": 9
+				"Priority": 1003
 			},
 			"Complete a ~|decorated divination urn|~": {
 				"Category": ["Token"],
@@ -28497,7 +28480,7 @@
 				},
 				"Output": "Decorated divination urn",
 				"Primary": true,
-				"Priority": 10
+				"Priority": 1004
 			},
 			"Complete an ~|exquisite divination urn|~": {
 				"Category": ["Token"],
@@ -28508,217 +28491,15 @@
 				},
 				"Output": "Exquisite divination urn",
 				"Primary": true,
-				"Priority": 10
-			},
-			"Train Divination in ~|Daemonheim|~": {
-				"Category": ["Daemonheim training"],
-				"Tasks": {
-					"Unlock ~|frozen floors|~": "Dungeoneering"
-				},
-				"Level": 1,
-				"Primary": true,
-				"Priority": 12
-			},
-			"Complete a run through ~|Shifting Tombs|~": {
-				"Chunks": ["Shifting Tombs"],
-				"Tasks": {
-					"Enter a tier one ~|Shifting Tombs|~": "Agility"
-				},
-				"Level": 1,
-				"Primary": true,
-				"Priority": 15
-			},
-			"Harvest a ~|flickering wisp|~": {
-				"NPCs": ["Flickering wisp"],
-				"Level": 10,
-				"Output": "Flickering energy",
-				"Primary": true,
-				"Priority": 1
+				"Priority": 1005
 			},
 			"Use an ~|experience lamp|~ from the Waiko Reward Shop on Divination": {
 				"Category": ["XP Lamps"],
 				"Items": ["Ports XP Lamp"],
 				"Level": 1,
 				"Priamry": 1,
-				"Priority": 1000,
+				"Priority": 1006,
 				"NoPet": true
-			},
-			"Harvest a ~|bright wisp|~": {
-				"NPCs": ["Bright wisp"],
-				"Level": 20,
-				"Output": "Bright energy",
-				"Primary": true,
-				"Priority": 1
-			},
-			"Harvest a ~|glowing wisp|~": {
-				"NPCs": ["Glowing wisp"],
-				"Level": 30,
-				"Output": "Glowing energy",
-				"Primary": true,
-				"Priority": 1
-			},
-			"Harvest a ~|sparkling wisp|~": {
-				"NPCs": ["Sparkling wisp"],
-				"Level": 40,
-				"Output": "Sparkling energy",
-				"Primary": true,
-				"Priority": 1
-			},
-			"Harvest a ~|gleaming wisp|~": {
-				"NPCs": ["Gleaming wisp"],
-				"Level": 50,
-				"Output": "Gleaming energy",
-				"Primary": true,
-				"Priority": 1
-			},
-			"Harvest a ~|vibrant wisp|~": {
-				"NPCs": ["Vibrant wisp"],
-				"Level": 60,
-				"Output": "Vibrant energy",
-				"Primary": true,
-				"Priority": 1
-			},
-			"Harvest a ~|lustrous wisp|~": {
-				"NPCs": ["Lustrous wisp"],
-				"Level": 70,
-				"Output": "Lustrous energy",
-				"Primary": true,
-				"Priority": 1
-			},
-			"Harvest an ~|elder wisp|~": {
-				"NPCs": ["Elder wisp"],
-				"Level": 75,
-				"Output": "Elder energy",
-				"Primary": true,
-				"Priority": 1
-			},
-			"Harvest a ~|brilliant wisp|~": {
-				"NPCs": ["Brilliant wisp"],
-				"Level": 80,
-				"Output": "Brilliant energy",
-				"Primary": true,
-				"Priority": 1
-			},
-			"Harvest a ~|radiant wisp|~": {
-				"NPCs": ["Radiant wisp"],
-				"Level": 85,
-				"Output": "Radiant energy",
-				"Primary": true,
-				"Priority": 1
-			},
-			"Harvest a ~|luminous wisp|~": {
-				"NPCs": ["Luminous wisp"],
-				"Level": 90,
-				"Output": "Luminous wisp loot",
-				"Primary": true,
-				"Priority": 1
-			},
-			"Harvest an ~|incandescent wisp|~": {
-				"NPCs": ["Incandescent wisp"],
-				"Level": 95,
-				"Output": "Incandescent energy",
-				"Primary": true,
-				"Priority": 1
-			},
-			"Harvest ~|positive energy|~": {
-				"NPCs": ["Positive energy"],
-				"Level": 90,
-				"Output": "Positive energy spring",
-				"Primary": true,
-				"Priority": 2
-			},
-			"Harvest ~|negative energy|~": {
-				"NPCs": ["Negative energy"],
-				"Level": 90,
-				"Output": "Negative energy spring",
-				"Primary": true,
-				"Priority": 3
-			},
-			"Create ~|ancestral energy|~": {
-				"Items": ["Positive energy*", "Negative energy*"],
-				"Level": 95,
-				"Output": "Ancestral energy",
-				"Primary": true,
-				"Priority": 2
-			},
-			"Harvest ~|ancestral energy|~": {
-				"NPCs": ["Ancestral energy"],
-				"Level": 95,
-				"Output": "Ancestral energy spring",
-				"Primary": true,
-				"Priority": 9
-			},
-			"Create a ~|boon of flickering energy|~": {
-				"Items": ["Flickerboon[+]*"],
-				"Level": 10,
-				"Primary": false,
-				"Priority": 3
-			},
-			"Create a ~|boon of bright energy|~": {
-				"Items": ["Brightboon[+]*"],
-				"Level": 20,
-				"Primary": false,
-				"Priority": 3
-			},
-			"Create a ~|boon of glowing energy|~": {
-				"Items": ["Glowingboon[+]*"],
-				"Level": 30,
-				"Primary": false,
-				"Priority": 3
-			},
-			"Create a ~|boon of sparkling energy|~": {
-				"Items": ["Sparklingboon[+]*"],
-				"Level": 40,
-				"Primary": false,
-				"Priority": 3
-			},
-			"Create a ~|boon of gleaming energy|~": {
-				"Items": ["Gleamingboon[+]*"],
-				"Level": 50,
-				"Primary": false,
-				"Priority": 3
-			},
-			"Create a ~|boon of vibrant energy|~": {
-				"Items": ["Vibrantboon[+]*"],
-				"Level": 60,
-				"Primary": false,
-				"Priority": 3
-			},
-			"Create a ~|boon of lustrous energy|~": {
-				"Items": ["Lustrousboon[+]*"],
-				"Level": 70,
-				"Primary": false,
-				"Priority": 3
-			},
-			"Create a ~|boon of elder energy|~": {
-				"Items": ["Elderboon[+]*"],
-				"Level": 75,
-				"Primary": false,
-				"Priority": 2
-			},
-			"Create a ~|boon of brilliant energy|~": {
-				"Items": ["Brilliantboon[+]*"],
-				"Level": 80,
-				"Primary": false,
-				"Priority": 3
-			},
-			"Create a ~|boon of radiant energy|~": {
-				"Items": ["Radiantboon[+]*"],
-				"Level": 85,
-				"Primary": false,
-				"Priority": 3
-			},
-			"Create a ~|boon of luminous energy|~": {
-				"Items": ["Luminousboon[+]*"],
-				"Level": 90,
-				"Primary": false,
-				"Priority": 5
-			},
-			"Create a ~|boon of incandescent energy|~": {
-				"Items": ["Incandescentboon[+]*"],
-				"Level": 95,
-				"Primary": false,
-				"Priority": 4
 			},
 			"Create a ~|portent of restoration I|~": {
 				"Items": ["Pale energy*", "RestoI[+]*"],
@@ -28747,287 +28528,12 @@
 				"Primary": true,
 				"Priority": 2
 			},
-			"Create a ~|portent of restoration II|~": {
-				"Items": ["Flickering energy*", "Trout*"],
-				"Level": 15,
-				"Output": "Portent of restoration II",
-				"Primary": true,
-				"Skills": {
-					"Constitution": 15
-				},
-				"Priority": 1
-			},
-			"Create a ~|attuned portent of restoration II|~": {
-				"Items": ["Flickering energy*", "Trout*"],
-				"Level": 18,
-				"Output": "Attuned portent of restoration II",
-				"Primary": true,
-				"Skills": {
-					"Constitution": 15
-				},
-				"Priority": 1
-			},
-			"Create a ~|portent of restoration III|~": {
-				"Items": ["Bright energy*", "Salmon*"],
-				"Level": 25,
-				"Output": "Portent of restoration III",
-				"Primary": true,
-				"Skills": {
-					"Constitution": 25
-				},
-				"Priority": 1
-			},
-			"Create a ~|attuned portent of restoration III|~": {
-				"Items": ["Bright energy*", "Salmon*"],
-				"Level": 27,
-				"Output": "Attuned portent of restoration III",
-				"Primary": true,
-				"Skills": {
-					"Constitution": 25
-				},
-				"Priority": 1
-			},
-			"Create a ~|portent of restoration IV|~": {
-				"Items": ["Glowing energy*", "Tuna*"],
-				"Level": 35,
-				"Output": "Portent of restoration IV",
-				"Primary": true,
-				"Skills": {
-					"Constitution": 30
-				},
-				"Priority": 1
-			},
-			"Create a ~|attuned portent of restoration IV|~": {
-				"Items": ["Glowing energy*", "Tuna*"],
-				"Level": 37,
-				"Output": "Attuned portent of restoration IV",
-				"Primary": true,
-				"Skills": {
-					"Constitution": 30
-				},
-				"Priority": 1
-			},
-			"Create a ~|portent of restoration V|~": {
-				"Items": ["Sparkling energy*", "Lobster*"],
-				"Level": 45,
-				"Output": "Portent of restoration V",
-				"Primary": true,
-				"Skills": {
-					"Constitution": 40
-				},
-				"Priority": 1
-			},
-			"Create a ~|attuned portent of restoration V|~": {
-				"Items": ["Sparkling energy*", "Lobster*"],
-				"Level": 47,
-				"Output": "Attuned portent of restoration V",
-				"Primary": true,
-				"Skills": {
-					"Constitution": 40
-				},
-				"Priority": 1
-			},
-			"Create a ~|portent of restoration VI|~": {
-				"Items": ["Gleaming energy*", "Swordfish*"],
-				"Level": 55,
-				"Output": "Portent of restoration VI",
-				"Primary": true,
-				"Skills": {
-					"Constitution": 50
-				},
-				"Priority": 1
-			},
-			"Create a ~|attuned portent of restoration VI|~": {
-				"Items": ["Gleaming energy*", "Swordfish*"],
-				"Level": 57,
-				"Output": "Attuned portent of restoration VI",
-				"Primary": true,
-				"Skills": {
-					"Constitution": 50
-				},
-				"Priority": 1
-			},
-			"Create a ~|portent of restoration VII|~": {
-				"Items": ["Vibrant energy*", "Monkfish*"],
-				"Level": 65,
-				"Output": "Portent of restoration VII",
-				"Primary": true,
-				"Skills": {
-					"Constitution": 62
-				},
-				"Priority": 1
-			},
-			"Create a ~|attuned portent of restoration VII|~": {
-				"Items": ["Vibrant energy*", "Monkfish*"],
-				"Level": 67,
-				"Output": "Attuned portent of restoration VII",
-				"Primary": true,
-				"Skills": {
-					"Constitution": 62
-				},
-				"Priority": 1
-			},
-			"Create a ~|portent of restoration VIII|~": {
-				"Items": ["Lustrous energy*", "Shark*"],
-				"Level": 75,
-				"Output": "Portent of restoration VIII",
-				"Primary": true,
-				"Skills": {
-					"Constitution": 80
-				},
-				"Priority": 3
-			},
-			"Create a ~|attuned portent of restoration VIII|~": {
-				"Items": ["Lustrous energy*", "Shark*"],
-				"Level": 77,
-				"Output": "Attuned portent of restoration VIII",
-				"Primary": true,
-				"Skills": {
-					"Constitution": 80
-				},
-				"Priority": 3
-			},
-			"Create a ~|portent of restoration IX|~": {
-				"Items": ["Radiant energy*", "Cavefish*"],
-				"Level": 86,
-				"Output": "Portent of restoration IX",
-				"Primary": true,
-				"Skills": {
-					"Constitution": 88
-				},
-				"Priority": 2
-			},
-			"Create a ~|attuned portent of restoration IX|~": {
-				"Items": ["Radiant energy*", "Cavefish*"],
-				"Level": 87,
-				"Output": "Attuned portent of restoration IX",
-				"Primary": true,
-				"Skills": {
-					"Constitution": 88
-				},
-				"Priority": 2
-			},
-			"Create a ~|portent of restoration X|~": {
-				"Items": ["Incandescent energy*", "Rocktail*"],
-				"Level": 97,
-				"Output": "Portent of restoration X",
-				"Primary": true,
-				"Skills": {
-					"Constitution": 95
-				},
-				"Priority": 3
-			},
-			"Create a ~|attuned portent of restoration X|~": {
-				"Items": ["Incandescent energy*", "Rocktail*"],
-				"Level": 98,
-				"Output": "Attuned portent of restoration X",
-				"Primary": true,
-				"Skills": {
-					"Constitution": 95
-				},
-				"Priority": 1
-			},
-			"Create a ~|portent of degradation I|~": {
-				"Items": ["Elder energy*", "Shark*"],
-				"Level": 77,
-				"Output": "Portent of degradation I",
-				"Primary": true,
-				"Skills": {
-					"Constitution": 80
-				},
-				"Priority": 2
-			},
-			"Create a ~|attuned portent of degradation I|~": {
-				"Items": ["Elder energy*", "Shark*"],
-				"Level": 77,
-				"Output": "Attuned portent of degradation I",
-				"Primary": true,
-				"Skills": {
-					"Constitution": 80
-				},
-				"Priority": 1
-			},
-			"Create a ~|portent of degradation II|~": {
-				"Items": ["Elder energy*", "Cavefish*"],
-				"Level": 86,
-				"Output": "Portent of degradation II",
-				"Primary": true,
-				"Skills": {
-					"Constitution": 88
-				},
-				"Priority": 1
-			},
-			"Create a ~|attuned portent of degradation II|~": {
-				"Items": ["Elder energy*", "Cavefish*"],
-				"Level": 87,
-				"Output": "Attuned portent of degradation II",
-				"Primary": true,
-				"Skills": {
-					"Constitution": 88
-				},
-				"Priority": 1
-			},
-			"Create a ~|portent of degradation III|~": {
-				"Items": ["Elder energy*", "Rocktail*"],
-				"Level": 97,
-				"Output": "Portent of degradation III",
-				"Primary": true,
-				"Skills": {
-					"Constitution": 93
-				},
-				"Priority": 2
-			},
-			"Create a ~|attuned portent of degradation III|~": {
-				"Items": ["Elder energy*", "Rocktail*"],
-				"Level": 97,
-				"Output": "Attuned portent of degradation III",
-				"Primary": true,
-				"Skills": {
-					"Constitution": 93
-				},
-				"Priority": 1
-			},
-			"Create a ~|portent of restoration X|~ in Daemonheim": {
-				"Category": ["Daemonheim tasks"],
-				"Tasks": {
-					"Unlock ~|frozen floors|~": "Dungeoneering"
-				},
-				"Level": 97,
-				"Skills": {
-					"Constitution": 90
-				},
-				"Primary": false,
-				"Priority": 4
-			},
-			"Create a ~|portent of passage X|~": {
-				"Category": ["Daemonheim tasks"],
-				"Tasks": {
-					"Unlock ~|frozen floors|~": "Dungeoneering"
-				},
-				"Level": 97,
-				"Primary": false,
-				"Priority": 5
-			},
-			"Create a ~|portent of item protection|~": {
-				"Items": ["Luminous energy*", "Prayer potion[+]*"],
-				"Level": 92,
-				"Output": "Portent of item protection",
+			"Create a ~|sign of the porter I|~": {
+				"Items": ["Pale energy*", "Sapphire necklace*"],
+				"Level": 6,
+				"Output": "Sign of the porter I",
 				"Primary": true,
 				"Priority": 1
-			},
-			"Create a ~|portent of life|~": {
-				"Items": ["Incandescent energy*", "Diamond ring*"],
-				"Level": 99,
-				"Output": "Portent of life",
-				"Primary": true,
-				"Priority": 2
-			},
-			"Create a ~|portent of death|~": {
-				"Items": ["Elder energy*", "Diamond ring*"],
-				"Level": 99,
-				"Output": "Portent of death",
-				"Primary": true,
-				"Priority": 3
 			},
 			"Create a ~|sign of respite I|~": {
 				"Items": ["Pale energy*", "Limestone*"],
@@ -29036,147 +28542,34 @@
 				"Primary": true,
 				"Priority": 1
 			},
-			"Create a ~|sign of respite II|~": {
-				"Items": ["Bright energy*", "Limestone*"],
-				"Level": 23,
-				"Output": "Sign of respite II",
+			"Harvest a ~|flickering wisp|~": {
+				"NPCs": ["Flickering wisp"],
+				"Level": 10,
+				"Output": "Flickering energy",
 				"Primary": true,
 				"Priority": 1
 			},
-			"Create a ~|sign of respite III|~": {
-				"Items": ["Glowing energy*", "Limestone*"],
-				"Level": 38,
-				"Output": "Sign of respite III",
-				"Primary": true,
-				"Priority": 1
-			},
-			"Create a ~|sign of the porter I|~": {
-				"Items": ["Pale energy*", "Sapphire necklace*"],
-				"Level": 6,
-				"Output": "Sign of the porter I",
-				"Primary": true,
-				"Priority": 1
-			},
-			"Create a ~|sign of the porter II|~": {
-				"Items": ["Bright energy*", "Sapphire necklace*"],
-				"Level": 28,
-				"Output": "Sign of the porter II",
-				"Primary": true,
-				"Priority": 1
-			},
-			"Create a ~|sign of the porter III|~": {
-				"Items": ["Sparkling energy*", "Emerald necklace*"],
-				"Level": 48,
-				"Output": "Sign of the porter III",
-				"Primary": true,
-				"Priority": 1
-			},
-			"Create a ~|sign of the porter IV|~": {
-				"Items": ["Vibrant energy*", "Emerald necklace*"],
-				"Level": 68,
-				"Output": "Sign of the porter IV",
-				"Primary": true,
-				"Priority": 1
-			},
-			"Create a ~|sign of the porter V|~": {
-				"Items": ["Radiant energy*", "Ruby necklace*"],
-				"Level": 88,
-				"Output": "Sign of the porter V",
-				"Primary": true,
-				"Priority": 1
-			},
-			"Create a ~|sign of the porter VI|~": {
-				"Items": ["Luminous energy*", "Diamond necklace*"],
-				"Level": 94,
-				"Output": "Sign of the porter VI",
-				"Primary": true,
-				"Priority": 1
-			},
-			"Create a ~|sign of the porter VII|~": {
-				"Items": ["Incandescent energy*", "Dragonstone necklace*"],
-				"Level": 99,
-				"Output": "Sign of the porter VII",
-				"Primary": true,
-				"Priority": 4
-			},
-			"Create a ~|sign of item protection|~": {
-				"Items": ["Vibrant energy*", "Prayer potion*"],
-				"Level": 69,
-				"Output": "Sign of item protection",
-				"Primary": true,
-				"Priority": 1
-			},
-			"Create a ~|sign of life|~": {
-				"Items": ["Luminous energy*", "Diamond ring*"],
-				"Level": 78,
-				"Output": "Sign of life",
-				"Primary": true,
-				"Priority": 1
-			},
-			"Transmute a broken memento to a ~|fragile memento|~": {
-				"Items": ["Bright energy*", "Broken memento*"],
-				"Level": 21,
-				"Output": "Fragile memento",
-				"Primary": true,
-				"Priority": 2
-			},
-			"Transmute a fragile memento to a ~|spirit memento|~": {
-				"Items": ["Vibrant energy*", "Fragile memento*"],
-				"Level": 60,
-				"Output": "Spirit memento",
-				"Primary": true,
-				"Priority": 6
-			},
-			"Enter a ~|Guthixian cache|~": {
-				"Chunks": ["Guthixian Cache"],
-				"Level": 35,
-				"Primary": true,
-				"Priority": 12,
-				"Not F2P": true
-			},
-			"Subdue an ~|enraged automaton|~": {
-				"Chunks": ["Guthixian Cache"],
-				"Level": 85,
+			"Create a ~|boon of flickering energy|~": {
+				"Items": ["Flickerboon[+]*"],
+				"Level": 10,
 				"Primary": false,
-				"Priority": 5
-			},
-			"Create an ~|inferior locator|~": {
-				"Items": ["Bright energy*", "InferiorDivine[+]*"],
-				"level": 24,
-				"Primary": true,
-				"Priority": 2
-			},
-			"Create a ~|poor locator|~": {
-				"Items": ["Sparkling energy*", "PoorDivine[+]*"],
-				"level": 41,
-				"Primary": true,
 				"Priority": 3
-			},
-			"Create a ~|good locator|~": {
-				"Items": ["Vibrant energy*", "GoodDivine[+]*"],
-				"level": 62,
-				"Primary": true,
-				"Priority": 2
-			},
-			"Create a ~|superior locator|~": {
-				"Items": ["Brilliant energy*", "SuperiorDivine[+]*"],
-				"level": 81,
-				"Primary": true,
-				"Priority": 1
-			},
-			"Throw a ~|blissful shadow core|~ in the large rift of the Amlodd district": {
-				"Level": 81,
-				"Items": ["Blissful shadow core"],
-				"Chunks": ["8500"],
-				"Output": "Light core",
-				"Primary": true,
-				"Priority": 2
 			},
 			"Transmute logs to ~|oak logs|~": {
 				"Items": ["Flickering energy*", "Logs*"],
 				"Level": 13,
 				"Output": "Oak logs",
 				"Primary": true,
+				"Priority": 1
+			},
+			"Create a ~|portent of restoration II|~": {
+				"Items": ["Flickering energy*", "Trout*"],
+				"Level": 15,
+				"Output": "Portent of restoration II",
+				"Primary": true,
+				"Skills": {
+					"Constitution": 15
+				},
 				"Priority": 1
 			},
 			"Transmute copper ore to ~|iron ore|~": {
@@ -29221,10 +28614,47 @@
 				"Primary": true,
 				"Priority": 4
 			},
+			"Create a ~|attuned portent of restoration II|~": {
+				"Items": ["Flickering energy*", "Trout*"],
+				"Level": 18,
+				"Output": "Attuned portent of restoration II",
+				"Primary": true,
+				"Skills": {
+					"Constitution": 15
+				},
+				"Priority": 1
+			},
+			"Harvest a ~|bright wisp|~": {
+				"NPCs": ["Bright wisp"],
+				"Level": 20,
+				"Output": "Bright energy",
+				"Primary": true,
+				"Priority": 1
+			},
+			"Create a ~|boon of bright energy|~": {
+				"Items": ["Brightboon[+]*"],
+				"Level": 20,
+				"Primary": false,
+				"Priority": 3
+			},
+			"Transmute a broken memento to a ~|fragile memento|~": {
+				"Items": ["Bright energy*", "Broken memento*"],
+				"Level": 21,
+				"Output": "Fragile memento",
+				"Primary": true,
+				"Priority": 2
+			},
 			"Transmute iron ore to ~|silver ore|~": {
 				"Items": ["Bright energy*", "Iron ore*"],
 				"Level": 22,
 				"Output": "Silver ore",
+				"Primary": true,
+				"Priority": 1
+			},
+			"Create a ~|sign of respite II|~": {
+				"Items": ["Bright energy*", "Limestone*"],
+				"Level": 23,
+				"Output": "Sign of respite II",
 				"Primary": true,
 				"Priority": 1
 			},
@@ -29233,13 +28663,66 @@
 				"Level": 24,
 				"Output": "Coal",
 				"Primary": true,
-				"Priority": 3
+				"Priority": 1
+			},
+			"Create an ~|inferior locator|~": {
+				"Items": ["Bright energy*", "InferiorDivine[+]*"],
+				"level": 24,
+				"Primary": true,
+				"Priority": 2
+			},
+			"Create a ~|portent of restoration III|~": {
+				"Items": ["Bright energy*", "Salmon*"],
+				"Level": 25,
+				"Output": "Portent of restoration III",
+				"Primary": true,
+				"Skills": {
+					"Constitution": 25
+				},
+				"Priority": 1
 			},
 			"Transmute uncut sapphire to ~|uncut emerald|~": {
 				"Items": ["Bright energy*", "Uncut sapphire*"],
 				"Level": 26,
 				"Output": "Uncut emerald",
 				"Primary": true,
+				"Priority": 1
+			},
+			"Create a ~|attuned portent of restoration III|~": {
+				"Items": ["Bright energy*", "Salmon*"],
+				"Level": 27,
+				"Output": "Attuned portent of restoration III",
+				"Primary": true,
+				"Skills": {
+					"Constitution": 25
+				},
+				"Priority": 1
+			},
+			"Create a ~|sign of the porter II|~": {
+				"Items": ["Bright energy*", "Sapphire necklace*"],
+				"Level": 28,
+				"Output": "Sign of the porter II",
+				"Primary": true,
+				"Priority": 1
+			},
+			"Harvest a ~|glowing wisp|~": {
+				"NPCs": ["Glowing wisp"],
+				"Level": 30,
+				"Output": "Glowing energy",
+				"Primary": true,
+				"Priority": 1
+			},
+			"Create a ~|boon of glowing energy|~": {
+				"Items": ["Glowingboon[+]*"],
+				"Level": 30,
+				"Primary": false,
+				"Priority": 3
+			},
+			"Harvest with a ~|cobalt skillchompa|~": {
+				"Items": ["Cobalt skillchompa"],
+				"Level": 31,
+				"NPCs": ["Wisp[+]"],
+				"Primary": false,
 				"Priority": 1
 			},
 			"Transmute oak logs to ~|willow logs|~": {
@@ -29256,11 +28739,39 @@
 				"Primary": true,
 				"Priority": 1
 			},
+			"Create a ~|portent of restoration IV|~": {
+				"Items": ["Glowing energy*", "Tuna*"],
+				"Level": 35,
+				"Output": "Portent of restoration IV",
+				"Primary": true,
+				"Skills": {
+					"Constitution": 30
+				},
+				"Priority": 1
+			},
+			"Enter a ~|Guthixian cache|~": {
+				"Chunks": ["Energy rift"],
+				"Level": 35,
+				"Primary": true,
+				"Priority": 100,
+				"Not F2P": true,
+				"NoBoost": true
+			},
 			"Transmute raw trout to ~|raw tuna|~": {
 				"Items": ["Glowing energy*", "Raw trout*"],
 				"Level": 36,
 				"Output": "Raw tuna",
 				"Primary": true,
+				"Priority": 1
+			},
+			"Create a ~|attuned portent of restoration IV|~": {
+				"Items": ["Glowing energy*", "Tuna*"],
+				"Level": 37,
+				"Output": "Attuned portent of restoration IV",
+				"Primary": true,
+				"Skills": {
+					"Constitution": 30
+				},
 				"Priority": 1
 			},
 			"Transmute coal to ~|mithril ore|~": {
@@ -29270,12 +28781,45 @@
 				"Primary": true,
 				"Priority": 2
 			},
+			"Create a ~|sign of respite III|~": {
+				"Items": ["Glowing energy*", "Limestone*"],
+				"Level": 38,
+				"Output": "Sign of respite III",
+				"Primary": true,
+				"Priority": 1
+			},
 			"Transmute silver ore to ~|gold ore|~": {
 				"Items": ["Glowing energy*", "Silver ore*"],
 				"Level": 39,
 				"Output": "Gold ore",
 				"Primary": true,
 				"Priority": 1
+			},
+			"Harvest a ~|sparkling wisp|~": {
+				"NPCs": ["Sparkling wisp"],
+				"Level": 40,
+				"Output": "Sparkling energy",
+				"Primary": true,
+				"Priority": 1
+			},
+			"Create a ~|boon of sparkling energy|~": {
+				"Items": ["Sparklingboon[+]*"],
+				"Level": 40,
+				"Primary": false,
+				"Priority": 2
+			},
+			"Harvest with a ~|viridian skillchompa|~": {
+				"Items": ["Viridian skillchompa"],
+				"Level": 41,
+				"NPCs": ["Wisp[+]"],
+				"Primary": false,
+				"Priority": 1
+			},
+			"Create a ~|poor locator|~": {
+				"Items": ["Sparkling energy*", "PoorDivine[+]*"],
+				"level": 41,
+				"Primary": true,
+				"Priority": 2
 			},
 			"Transmute uncut ruby to ~|uncut diamond|~": {
 				"Items": ["Sparkling energy*", "Uncut ruby*"],
@@ -29291,10 +28835,37 @@
 				"Primary": true,
 				"Priority": 1
 			},
+			"Create a ~|portent of restoration V|~": {
+				"Items": ["Sparkling energy*", "Lobster*"],
+				"Level": 45,
+				"Output": "Portent of restoration V",
+				"Primary": true,
+				"Skills": {
+					"Constitution": 40
+				},
+				"Priority": 1
+			},
 			"Transmute raw tuna to ~|raw bass|~": {
 				"Items": ["Sparkling energy*", "Raw tuna*"],
 				"Level": 46,
 				"Output": "Raw bass",
+				"Primary": true,
+				"Priority": 1
+			},
+			"Create a ~|attuned portent of restoration V|~": {
+				"Items": ["Sparkling energy*", "Lobster*"],
+				"Level": 47,
+				"Output": "Attuned portent of restoration V",
+				"Primary": true,
+				"Skills": {
+					"Constitution": 40
+				},
+				"Priority": 1
+			},
+			"Create a ~|sign of the porter III|~": {
+				"Items": ["Sparkling energy*", "Emerald necklace*"],
+				"Level": 48,
+				"Output": "Sign of the porter III",
 				"Primary": true,
 				"Priority": 1
 			},
@@ -29312,19 +28883,59 @@
 				"Primary": true,
 				"Priority": 1
 			},
+			"Harvest a ~|gleaming wisp|~": {
+				"NPCs": ["Gleaming wisp"],
+				"Level": 50,
+				"Output": "Gleaming energy",
+				"Primary": true,
+				"Priority": 1
+			},
 			"Transmute adamantite ore to ~|runite ore|~": {
 				"Items": ["Gleaming energy*", "Adamantite ore*"],
 				"Level": 50,
 				"Output": "Runite ore",
 				"Primary": true,
-				"Priority": 5
+				"Priority": 2
 			},
 			"Transmute luminite to ~|runite ore|~": {
 				"Items": ["Gleaming energy*", "Luminite*"],
 				"Level": 50,
 				"Output": "Runite ore",
 				"Primary": true,
-				"Priority": 6
+				"Priority": 3
+			},
+			"Create a ~|boon of gleaming energy|~": {
+				"Items": ["Gleamingboon[+]*"],
+				"Level": 50,
+				"Primary": false,
+				"Priority": 4
+			},
+			"Harvest with an ~|azure skillchompa|~": {
+				"Items": ["Azure skillchompa"],
+				"Level": 51,
+				"NPCs": ["Wisp[+]"],
+				"Primary": false,
+				"Priority": 1
+			},
+			"Create a ~|portent of restoration VI|~": {
+				"Items": ["Gleaming energy*", "Swordfish*"],
+				"Level": 55,
+				"Output": "Portent of restoration VI",
+				"Primary": true,
+				"Skills": {
+					"Constitution": 50
+				},
+				"Priority": 1
+			},
+			"Create a ~|attuned portent of restoration VI|~": {
+				"Items": ["Gleaming energy*", "Swordfish*"],
+				"Level": 57,
+				"Output": "Attuned portent of restoration VI",
+				"Primary": true,
+				"Skills": {
+					"Constitution": 50
+				},
+				"Priority": 1
 			},
 			"Transmute uncut diamond to ~|uncut dragonstone|~": {
 				"Items": ["Gleaming energy*", "Uncut diamond*"],
@@ -29332,6 +28943,39 @@
 				"Output": "Uncut dragonstone",
 				"Primary": true,
 				"Priority": 1
+			},
+			"Harvest a ~|vibrant wisp|~": {
+				"NPCs": ["Vibrant wisp"],
+				"Level": 60,
+				"Output": "Vibrant energy",
+				"Primary": true,
+				"Priority": 1
+			},
+			"Transmute a fragile memento to a ~|spirit memento|~": {
+				"Items": ["Vibrant energy*", "Fragile memento*"],
+				"Level": 60,
+				"Output": "Spirit memento",
+				"Primary": true,
+				"Priority": 2
+			},
+			"Create a ~|boon of vibrant energy|~": {
+				"Items": ["Vibrantboon[+]*"],
+				"Level": 60,
+				"Primary": false,
+				"Priority": 3
+			},
+			"Harvest with a ~|crimson skillchompa|~": {
+				"Items": ["Crimson skillchompa"],
+				"Level": 61,
+				"NPCs": ["Wisp[+]"],
+				"Primary": false,
+				"Priority": 1
+			},
+			"Create a ~|good locator|~": {
+				"Items": ["Vibrant energy*", "GoodDivine[+]*"],
+				"level": 62,
+				"Primary": true,
+				"Priority": 2
 			},
 			"Transmute runite ore to ~|orichalcite ore|~": {
 				"Items": ["Vibrant energy*", "Runite ore*"],
@@ -29347,6 +28991,16 @@
 				"Primary": true,
 				"Priority": 2
 			},
+			"Create a ~|portent of restoration VII|~": {
+				"Items": ["Vibrant energy*", "Monkfish*"],
+				"Level": 65,
+				"Output": "Portent of restoration VII",
+				"Primary": true,
+				"Skills": {
+					"Constitution": 62
+				},
+				"Priority": 1
+			},
 			"Transmute runite ore to ~|drakolith|~": {
 				"Items": ["Vibrant energy*", "Runite ore*"],
 				"Level": 65,
@@ -29354,11 +29008,109 @@
 				"Primary": true,
 				"Priority": 2
 			},
+			"Transmute ~|Senntisten crystals|~": {
+				"Chunks": ["Empty Throne Room"],
+				"Level": 65,
+				"Primary": false,
+				"Priority": 3,
+				"Output": "Senntisten scroll",
+				"NoPet": true
+			},
 			"Transmute raw bass to ~|raw monkfish|~": {
 				"Items": ["Vibrant energy*", "Raw bass*"],
 				"Level": 66,
 				"Output": "Raw monkfish",
 				"Primary": true,
+				"Priority": 1
+			},
+			"Create a ~|attuned portent of restoration VII|~": {
+				"Items": ["Vibrant energy*", "Monkfish*"],
+				"Level": 67,
+				"Output": "Attuned portent of restoration VII",
+				"Primary": true,
+				"Skills": {
+					"Constitution": 62
+				},
+				"Priority": 1
+			},
+			"Create a ~|sign of the porter IV|~": {
+				"Items": ["Vibrant energy*", "Emerald necklace*"],
+				"Level": 68,
+				"Output": "Sign of the porter IV",
+				"Primary": true,
+				"Priority": 1
+			},
+			"Create a ~|sign of item protection|~": {
+				"Items": ["Vibrant energy*", "Prayer potion*"],
+				"Level": 69,
+				"Output": "Sign of item protection",
+				"Primary": true,
+				"Priority": 1
+			},
+			"Harvest a ~|lustrous wisp|~": {
+				"NPCs": ["Lustrous wisp"],
+				"Level": 70,
+				"Output": "Lustrous energy",
+				"Primary": true,
+				"Priority": 1
+			},
+			"Harvest ~|faded memories|~": {
+				"NPCs": ["Faded emories"],
+				"Level": 70,
+				"Primary": true,
+				"Priority": 2
+			},
+			"Harvest ~|lustrous memories|~": {
+				"NPCs": ["Lustrous memories"],
+				"Level": 70,
+				"Primary": true,
+				"Priority": 3
+			},
+			"Enter a tier two ~|Shifting Tombs|~": {
+				"Chunks": ["Shifting Tombs"],
+				"Level": 70,
+				"Skills": {
+					"Agility": 70,
+					"Thieving": 70,
+					"Construction": 70,
+					"Crafting": 70,
+					"Runecrafting": 70,
+					"Prayer": 70,
+					"Dungeoneering": 70
+				},
+				"Primary": false,
+				"Priority": 100
+			},
+			"Activate the ~|Orthen teleportation device|~ at the Xolo city": {
+				"Tasks": {
+					"Complete the ~|Archaeology tutorial|~": "Archaeology"
+				},
+				"Chunks": ["16704-1"],
+				"Items": ["Quintessence"],
+				"Level": 70,
+				"Skills": {
+					"Archaeology": 90
+				},
+				"Primary": false,
+				"Priority": 101
+			},
+			"Equip a ~|superior memory-crushing scrimshaw|~": {
+				"Items": ["Superior memory-crushing scrimshaw"],
+				"Level": 70,
+				"Primary": false,
+				"Priority": 10
+			},
+			"Create a ~|boon of lustrous energy|~": {
+				"Items": ["Lustrousboon[+]*"],
+				"Level": 70,
+				"Primary": false,
+				"Priority": 102
+			},
+			"Harvest with a ~|crystal skillchompa|~": {
+				"Items": ["Crystal skillchompa"],
+				"Level": 71,
+				"NPCs": ["Wisp[+]"],
+				"Primary": false,
 				"Priority": 1
 			},
 			"Transmute orichalcite ore to ~|necrite ore|~": {
@@ -29390,6 +29142,29 @@
 				"Primary": true,
 				"Priority": 1
 			},
+			"Harvest an ~|elder wisp|~": {
+				"NPCs": ["Elder wisp"],
+				"Level": 75,
+				"Output": "Elder energy",
+				"Primary": true,
+				"Priority": 1
+			},
+			"Create a ~|portent of restoration VIII|~": {
+				"Items": ["Lustrous energy*", "Shark*"],
+				"Level": 75,
+				"Output": "Portent of restoration VIII",
+				"Primary": true,
+				"Skills": {
+					"Constitution": 80
+				},
+				"Priority": 3
+			},
+			"Create a ~|boon of elder energy|~": {
+				"Items": ["Elderboon[+]*"],
+				"Level": 75,
+				"Primary": false,
+				"Priority": 100
+			},
 			"Transmute raw monkfish to ~|raw shark|~": {
 				"Items": ["Lustrous energy*", "Raw monkfish*"],
 				"Level": 76,
@@ -29397,12 +29172,144 @@
 				"Primary": true,
 				"Priority": 1
 			},
+			"Create a ~|attuned portent of degradation I|~": {
+				"Items": ["Elder energy*", "Shark*"],
+				"Level": 77,
+				"Output": "Attuned portent of degradation I",
+				"Primary": true,
+				"Skills": {
+					"Constitution": 80
+				},
+				"Priority": 1
+			},
+			"Create a ~|portent of degradation I|~": {
+				"Items": ["Elder energy*", "Shark*"],
+				"Level": 77,
+				"Output": "Portent of degradation I",
+				"Primary": true,
+				"Skills": {
+					"Constitution": 80
+				},
+				"Priority": 2
+			},
+			"Create a ~|attuned portent of restoration VIII|~": {
+				"Items": ["Lustrous energy*", "Shark*"],
+				"Level": 77,
+				"Output": "Attuned portent of restoration VIII",
+				"Primary": true,
+				"Skills": {
+					"Constitution": 80
+				},
+				"Priority": 3
+			},
 			"Transmute drakolith to ~|phasmatite|~": {
 				"Items": ["Lustrous energy*", "Drakolith*"],
 				"Level": 77,
 				"Output": "Phasmatite",
 				"Primary": true,
 				"Priority": 4
+			},
+			"Create a ~|sign of life|~": {
+				"Items": ["Luminous energy*", "Diamond ring*"],
+				"Level": 78,
+				"Output": "Sign of life",
+				"Primary": true,
+				"Priority": 1
+			},
+			"Harvest a ~|brilliant wisp|~": {
+				"NPCs": ["Brilliant wisp"],
+				"Level": 80,
+				"Output": "Brilliant energy",
+				"Primary": true,
+				"Priority": 1
+			},
+			"Harvest ~|brilliant memories|~": {
+				"NPCs": ["Brilliant memories"],
+				"Level": 80,
+				"Primary": true,
+				"Priority": 2
+			},
+			"Wield a ~|memory dowser|~": {
+				"Items": ["Memory dowser"],
+				"Level": 80,
+				"Primary": false,
+				"Priority": 3
+			},
+			"Equip a ~|superior energy-gathering scrimshaw|~": {
+				"Items": ["Superior energy-gathering scrimshaw"],
+				"Level": 80,
+				"Primary": false,
+				"Priority": 100
+			},
+			"Create a ~|boon of brilliant energy|~": {
+				"Items": ["Brilliantboon[+]*"],
+				"Level": 80,
+				"Primary": false,
+				"Priority": 101
+			},
+			"Unlock ~|Invention|~": {
+				"Chunks": ["Invention Guild"],
+				"Level": 80,
+				"Skills": {
+					"Crafting": 80,
+					"Smithing": 80
+				},
+				"Primary": false,
+				"Priority": 102,
+				"Not F2P": true
+			},
+			"Create the ~|elder divination outfit|~": {
+				"Objects": ["Inventor's workbench"],
+				"Level": 80,
+				"Skills": {
+					"Invention": 20
+				},
+				"Primary": false,
+				"Output": "DivinationOutfit",
+				"Priority": 103
+			},
+			"Create an ~|enchantment of shadows|~": {
+				"Items": ["Sliver of power*", "Tracking gloves*", "Scrimshaw of ranging*", "Brilliant energy*"],
+				"Level": 80,
+				"Output": "Enchantment of shadows",
+				"Primary": true,
+				"Priority": 200
+			},
+			"Create an ~|enchantment of metaphysics|~": {
+				"Items": ["Sliver of pain*", "Static gloves*", "Scrimshaw of magic*", "Brilliant energy*"],
+				"Level": 80,
+				"Output": "Enchantment of metaphysics",
+				"Primary": true,
+				"Priority": 201
+			},
+			"Create an ~|enchantment of heroism|~": {
+				"Items": ["Sliver of strength*", "Pneumatic gloves*", "Scrimshaw of attack*", "Brilliant energy*"],
+				"Level": 80,
+				"Output": "Enchantment of heroism",
+				"Primary": true,
+				"Priority": 202
+			},
+			"Unlock the ~|scrimshaw|~ scrolls in the Ports Reward Shop": {
+				"Category": ["Timegated"],
+				"Chunks": ["15134", "Player-Owned Port"],
+				"Level": 80,
+				"Primary": false,
+				"Priority": 1000,
+				"NoPet": true
+			},
+			"Create a ~|superior locator|~": {
+				"Items": ["Brilliant energy*", "SuperiorDivine[+]*"],
+				"level": 81,
+				"Primary": true,
+				"Priority": 1
+			},
+			"Throw a ~|blissful shadow core|~ in the large rift of the Amlodd district": {
+				"Level": 81,
+				"Items": ["Blissful shadow core"],
+				"Chunks": ["8500"],
+				"Output": "Light core",
+				"Primary": true,
+				"Priority": 2
 			},
 			"Transmute raw shark to ~|raw sea turtle|~": {
 				"Items": ["Brilliant energy*", "Raw shark*"],
@@ -29418,244 +29325,30 @@
 				"Primary": true,
 				"Priority": 1
 			},
-			"Transmute necrite ore to ~|banite ore|~": {
-				"Items": ["Radiant energy*", "Necrite ore*"],
-				"Level": 86,
-				"Output": "Banite ore",
+			"Harvest a ~|radiant wisp|~": {
+				"NPCs": ["Radiant wisp"],
+				"Level": 85,
+				"Output": "Radiant energy",
 				"Primary": true,
-				"Priority": 3
+				"Priority": 1
 			},
-			"Transmute phasmatite to ~|banite ore|~": {
-				"Items": ["Radiant energy*", "Phasmatite*"],
-				"Level": 86,
-				"Output": "Banite ore",
-				"Primary": true,
-				"Priority": 3
-			},
-			"Transmute raw sea turtle to ~|raw cavefish|~": {
-				"Items": ["Radiant energy*", "Raw sea turtle*"],
-				"Level": 87,
-				"Output": "Raw cavefish",
-				"Primary": true,
-				"Priority": 3
-			},
-			"Transmute raw tarpon to ~|raw seerfish|~": {
-				"Items": ["Ancestral energy*", "Raw tarpon*"],
-				"Level": 90,
-				"Output": "Raw seerfish",
-				"Primary": true,
-				"Priority": 9
-			},
-			"Transmute raw seerfish to ~|raw sillago|~": {
-				"Items": ["Ancestral energy*", "Raw seerfish*"],
-				"Level": 91,
-				"Output": "Raw sillago",
+			"Harvest ~|radiant memories|~": {
+				"NPCs": ["Radiant memories"],
+				"Level": 85,
 				"Primary": true,
 				"Priority": 2
 			},
-			"Throw a ~|manifest shadow core|~ in the large rift of the Amlodd district": {
-				"Level": 91,
-				"Items": ["Manifest shadow core"],
-				"Chunks": ["8500"],
-				"Output": "Light core",
-				"Primary": true,
-				"Priority": 3
+			"Create a ~|boon of radiant energy|~": {
+				"Items": ["Radiantboon[+]*"],
+				"Level": 85,
+				"Primary": false,
+				"Priority": 100
 			},
-			"Transmute moonstone dust to an ~|uncut moonstone|~": {
-				"Items": ["Luminous energy*", "Moonstone dust*"],
-				"Level": 91,
-				"Output": "Uncut moonstone",
-				"Primary": true,
-				"Priority": 4
-			},
-			"Transmute raw sillago to ~|raw wobbegong|~": {
-				"Items": ["Ancestral energy*", "Raw sillago*"],
-				"Level": 92,
-				"Output": "Raw wobbegong",
-				"Primary": true,
-				"Priority": 4
-			},
-			"Convert an ~|ancient memory|~": {
+			"Subdue an ~|enraged automaton|~": {
 				"Chunks": ["Guthixian Cache"],
-				"Tasks": {
-					"~|Children of Mah|~ Complete the quest": "Quest"
-				},
-				"Level": 92,
+				"Level": 85,
 				"Primary": false,
-				"Priority": 5
-			},
-			"Transmute shall chippings to ~|shiny shell chippings|~": {
-				"Items": ["Ancestral energy*", "Shell chippings*"],
-				"Level": 93,
-				"Output": "Shiny shell chippings",
-				"Primary": true,
-				"Priority": 1
-			},
-			"Transmute yew logs to ~|magic logs|~": {
-				"Items": ["Luminous energy*", "Yew logs*"],
-				"Level": 93,
-				"Output": "Magic logs",
-				"Primary": true,
-				"Priority": 2
-			},
-			"Transmute raw cavefish to ~|raw manta ray|~": {
-				"Items": ["Luminous energy*", "Raw cavefish*"],
-				"Level": 93,
-				"Output": "Raw manta ray",
-				"Primary": true,
-				"Priority": 3
-			},
-			"Transmute sea salt to ~|alaea sea salt|~": {
-				"Items": ["Ancestral energy*", "Sea salt*"],
-				"Level": 94,
-				"Output": "Alaea sea salt",
-				"Primary": true,
-				"Priority": 2
-			},
-			"Transmute driftwood to ~|sliced mushrooms (The Arc)|~": {
-				"Items": ["Ancestral energy*", "Driftwood*"],
-				"Level": 95,
-				"Output": "Sliced mushrooms (The Arc)",
-				"Primary": true,
-				"Priority": 7
-			},
-			"Transmute banite ore to ~|dark animica|~": {
-				"Items": ["Incandescent energy*", "Banite ore*"],
-				"Level": 95,
-				"Output": "Dark animica",
-				"Primary": true,
-				"Priority": 8
-			},
-			"Transmute an ~|Ek-ZekKil|~ weapon piece": {
-				"Items": ["Incandescent energy*", "EZKWeaponPiece[+]*"],
-				"Level": 95,
-				"Output": "EZK weapon piece",
-				"Primary": true,
-				"Priority": 9
-			},
-			"Transmute a ~|Bow of the Last Guardian|~ weapon piece": {
-				"Items": ["Incandescent energy*", "BOLGWeaponPiece[+]*"],
-				"Level": 95,
-				"Output": "BOLG weapon piece",
-				"Primary": true,
-				"Priority": 10
-			},
-			"Transmute an ~|eldritch crossbow|~ weapon piece": {
-				"Items": ["Incandescent energy*", "ECBWeaponPiece[+]*"],
-				"Level": 92,
-				"Output": "ECB weapon piece",
-				"Primary": true,
-				"Priority": 11
-			},
-			"Transmute a ~|fractured Staff of Armadyl|~ weapon piece": {
-				"Items": ["Incandescent energy*", "FSOAWeaponPiece[+]*"],
-				"Level": 95,
-				"Output": "FSOA weapon piece",
-				"Primary": true,
-				"Priority": 12
-			},
-			"Create a ~|sign of runic protection|~": {
-				"Items": ["Incandescent energy*"],
-				"Level": 95,
-				"Output": "Sign of runic protection",
-				"Primary": true,
-				"Priority": 13
-			},
-			"Transmute alaea sea salt to ~|wobbegong oil|~": {
-				"Items": ["Ancestral energy*", "Alaea sea salt*"],
-				"Level": 96,
-				"Output": "Wobbegong oil",
-				"Primary": true,
-				"Priority": 1
-			},
-			"Transmute banite ore to ~|light animica|~": {
-				"Items": ["Incandescent energy*", "Banite ore*"],
-				"Level": 97,
-				"Output": "Light animica",
-				"Primary": true,
-				"Priority": 4
-			},
-			"Transmute wobbegong oil to ~|shiny tortle shell bowl|~": {
-				"Items": ["Ancestral energy*", "Wobbegong oil*"],
-				"Level": 97,
-				"Output": "Shiny tortle shell bowl",
-				"Primary": true,
-				"Priority": 5
-			},
-			"Transmute onyx dust to ~|uncut onyx|~": {
-				"Items": ["Incandescent energy*", "Onyx dust*"],
-				"Level": 97,
-				"Output": "Uncut onyx",
-				"Primary": true,
-				"Priority": 6
-			},
-			"Transmute raw manta ray to ~|raw rocktail|~": {
-				"Items": ["Incandescent energy*", "Raw manta ray*"],
-				"Level": 98,
-				"Output": "Raw rocktail",
-				"Primary": true,
-				"Priority": 2
-			},
-			"Unlock ~|the memory|~ in the player-owned port": {
-				"Category": ["PortSkills"],
-				"Chunks": ["Player-Owned Port"],
-				"Level": 90,
-				"Primary": false,
-				"NoBoost": true,
-				"NoPet": true,
-				"Priority": 10
-			},
-			"Buy the ~|Divination cape|~": {
-				"Category": ["Skillcape"],
-				"NPCs": ["Orla Fairweather"],
-				"Level": 99,
-				"Output": "Divination cape",
-				"Primary": false,
-				"NoBoost": true,
-				"Priority": 5
-			},
-			"Buy the ~|Divination master cape|~": {
-				"Category": ["Master skillcape"],
-				"NPCs": ["Orla Fairweather"],
-				"Level": 120,
-				"Output": "Divination master cape",
-				"Primary": false,
-				"NoBoost": true,
-				"Priority": 3
-			},
-			"Unlock ~|Invention|~": {
-				"Chunks": ["Invention Guild"],
-				"Level": 80,
-				"Skills": {
-					"Crafting": 80,
-					"Smithing": 80
-				},
-				"Primary": false,
-				"Priority": 6,
-				"Not F2P": true
-			},
-			"Create the ~|elder divination outfit|~": {
-				"Objects": ["Inventor's workbench"],
-				"Level": 80,
-				"Skills": {
-					"Invention": 20
-				},
-				"Primary": false,
-				"Output": "DivinationOutfit",
-				"Priority": 7
-			},
-			"Activate the ~|Orthen teleportation device|~ at the Xolo city": {
-				"Tasks": {
-					"Complete the ~|Archaeology tutorial|~": "Archaeology"
-				},
-				"Chunks": ["16704-1"],
-				"Items": ["Quintessence"],
-				"Level": 70,
-				"Skills": {
-					"Archaeology": 90
-				},
-				"Primary": false,
-				"Priority": 6
+				"Priority": 101
 			},
 			"Create a ~|golem framework|~": {
 				"Tasks": {
@@ -29670,83 +29363,131 @@
 				},
 				"Output": "Golem framework",
 				"Primary": false,
-				"Priority": 5
+				"Priority": 102
 			},
-			"Enter a tier two ~|Shifting Tombs|~": {
-				"Chunks": ["Shifting Tombs"],
-				"Level": 70,
+			"Create a ~|portent of degradation II|~": {
+				"Items": ["Elder energy*", "Cavefish*"],
+				"Level": 86,
+				"Output": "Portent of degradation II",
+				"Primary": true,
 				"Skills": {
-					"Agility": 70,
-					"Thieving": 70,
-					"Construction": 70,
-					"Crafting": 70,
-					"Runecrafting": 70,
-					"Prayer": 70,
-					"Dungeoneering": 70
+					"Constitution": 88
 				},
-				"Primary": false,
-				"Priority": 7
+				"Priority": 1
 			},
-			"Harvest ~|faded memories|~": {
-				"NPCs": ["Faded emories"],
-				"Level": 70,
+			"Transmute necrite ore to ~|banite ore|~": {
+				"Items": ["Radiant energy*", "Necrite ore*"],
+				"Level": 86,
+				"Output": "Banite ore",
 				"Primary": true,
-				"Priority": 8
+				"Priority": 2
 			},
-			"Harvest ~|lustrous memories|~": {
-				"NPCs": ["Lustrous memories"],
-				"Level": 70,
+			"Transmute phasmatite to ~|banite ore|~": {
+				"Items": ["Radiant energy*", "Phasmatite*"],
+				"Level": 86,
+				"Output": "Banite ore",
 				"Primary": true,
-				"Priority": 9
+				"Priority": 3
 			},
-			"Equip a ~|superior memory-crushing scrimshaw|~": {
-				"Items": ["Superior memory-crushing scrimshaw"],
-				"Level": 70,
-				"Primary": false,
-				"Priority": 10
-			},
-			"Harvest ~|brilliant memories|~": {
-				"NPCs": ["Brilliant memories"],
-				"Level": 80,
+			"Create a ~|portent of restoration IX|~": {
+				"Items": ["Radiant energy*", "Cavefish*"],
+				"Level": 86,
+				"Output": "Portent of restoration IX",
 				"Primary": true,
-				"Priority": 8
+				"Skills": {
+					"Constitution": 88
+				},
+				"Priority": 4
 			},
-			"Equip a ~|superior energy-gathering scrimshaw|~": {
-				"Items": ["Superior energy-gathering scrimshaw"],
-				"Level": 80,
-				"Primary": false,
-				"Priority": 9
-			},
-			"Wield a ~|memory dowser|~": {
-				"Items": ["Memory dowser"],
-				"Level": 80,
-				"Primary": false,
-				"Priority": 10
-			},
-			"Harvest ~|radiant memories|~": {
-				"NPCs": ["Radiant memories"],
-				"Level": 85,
+			"Create a ~|attuned portent of degradation II|~": {
+				"Items": ["Elder energy*", "Cavefish*"],
+				"Level": 87,
+				"Output": "Attuned portent of degradation II",
 				"Primary": true,
-				"Priority": 6
+				"Skills": {
+					"Constitution": 88
+				},
+				"Priority": 1
+			},
+			"Create a ~|attuned portent of restoration IX|~": {
+				"Items": ["Radiant energy*", "Cavefish*"],
+				"Level": 87,
+				"Output": "Attuned portent of restoration IX",
+				"Primary": true,
+				"Skills": {
+					"Constitution": 88
+				},
+				"Priority": 2
+			},
+			"Transmute raw sea turtle to ~|raw cavefish|~": {
+				"Items": ["Radiant energy*", "Raw sea turtle*"],
+				"Level": 87,
+				"Output": "Raw cavefish",
+				"Primary": true,
+				"Priority": 3
+			},
+			"Create a ~|sign of the porter V|~": {
+				"Items": ["Radiant energy*", "Ruby necklace*"],
+				"Level": 88,
+				"Output": "Sign of the porter V",
+				"Primary": true,
+				"Priority": 1
+			},
+			"Harvest a ~|luminous wisp|~": {
+				"NPCs": ["Luminous wisp"],
+				"Level": 90,
+				"Output": "Luminous wisp loot",
+				"Primary": true,
+				"Priority": 1
+			},
+			"Harvest ~|positive energy|~": {
+				"NPCs": ["Positive energy"],
+				"Level": 90,
+				"Output": "Positive energy spring",
+				"Primary": true,
+				"Priority": 2
+			},
+			"Harvest ~|negative energy|~": {
+				"NPCs": ["Negative energy"],
+				"Level": 90,
+				"Output": "Negative energy spring",
+				"Primary": true,
+				"Priority": 3
 			},
 			"Harvest ~|luminous memories|~": {
 				"NPCs": ["Luminous memories"],
 				"Level": 90,
 				"Primary": true,
-				"Priority": 12
+				"Priority": 4
 			},
-			"Harvest ~|incandescent memories|~": {
-				"NPCs": ["Incandescent memories"],
-				"Level": 95,
+			"Transmute a spirit memento to a ~|robust memento|~": {
+				"Items": ["Luminous energy*", "Spirit memento*"],
+				"Level": 90,
+				"Output": "Robust memento",
 				"Primary": true,
-				"Priority": 9
+				"Priority": 5
 			},
-			"Transmute a robust memento to a ~|powerful memento|~": {
-				"Items": ["Incandescent energy*", "Robust memento*"],
-				"Level": 95,
-				"Output": "Powerful memento",
+			"Transmute raw tarpon to ~|raw seerfish|~": {
+				"Items": ["Ancestral energy*", "Raw tarpon*"],
+				"Level": 90,
+				"Output": "Raw seerfish",
 				"Primary": true,
-				"Priority": 10
+				"Priority": 6
+			},
+			"Create a ~|boon of luminous energy|~": {
+				"Items": ["Luminousboon[+]*"],
+				"Level": 90,
+				"Primary": false,
+				"Priority": 100
+			},
+			"Unlock ~|the memory|~ in the player-owned port": {
+				"Category": ["PortSkills"],
+				"Chunks": ["Player-Owned Port"],
+				"Level": 90,
+				"Primary": false,
+				"NoBoost": true,
+				"NoPet": true,
+				"Priority": 101
 			},
 			"Enter a tier three ~|Shifting Tombs|~": {
 				"Chunks": ["Shifting Tombs"],
@@ -29761,7 +29502,7 @@
 					"Dungeoneering": 90
 				},
 				"Primary": false,
-				"Priority": 11
+				"Priority": 102
 			},
 			"Make a ~|Milestone cape (90)|~": {
 				"Category": ["Skillcape"],
@@ -29800,51 +29541,311 @@
 					"Thieving": 90,
 					"Woodcutting": 90
 				},
-				"Priority": 13
+				"Priority": 1000
 			},
-			"Transmute a spirit memento to a ~|robust memento|~": {
-				"Items": ["Luminous energy*", "Spirit memento*"],
-				"Level": 90,
-				"Output": "Robust memento",
+			"Transmute raw seerfish to ~|raw sillago|~": {
+				"Items": ["Ancestral energy*", "Raw seerfish*"],
+				"Level": 91,
+				"Output": "Raw sillago",
 				"Primary": true,
-				"Priority": 14
+				"Priority": 2
 			},
-			"Create an ~|enchantment of shadows|~": {
-				"Items": ["Sliver of power*", "Tracking gloves*", "Scrimshaw of ranging*", "Brilliant energy*"],
-				"Level": 80,
-				"Output": "Enchantment of shadows",
+			"Throw a ~|manifest shadow core|~ in the large rift of the Amlodd district": {
+				"Level": 91,
+				"Items": ["Manifest shadow core"],
+				"Chunks": ["8500"],
+				"Output": "Light core",
 				"Primary": true,
-				"Priority": 20
+				"Priority": 3
 			},
-			"Create an ~|enchantment of metaphysics|~": {
-				"Items": ["Sliver of pain*", "Static gloves*", "Scrimshaw of magic*", "Brilliant energy*"],
-				"Level": 80,
-				"Output": "Enchantment of metaphysics",
+			"Transmute moonstone dust to an ~|uncut moonstone|~": {
+				"Items": ["Luminous energy*", "Moonstone dust*"],
+				"Level": 91,
+				"Output": "Uncut moonstone",
 				"Primary": true,
-				"Priority": 21
+				"Priority": 4
 			},
-			"Create an ~|enchantment of heroism|~": {
-				"Items": ["Sliver of strength*", "Pneumatic gloves*", "Scrimshaw of attack*", "Brilliant energy*"],
-				"Level": 80,
-				"Output": "Enchantment of heroism",
+			"Create a ~|portent of item protection|~": {
+				"Items": ["Luminous energy*", "Prayer potion[+]*"],
+				"Level": 92,
+				"Output": "Portent of item protection",
 				"Primary": true,
-				"Priority": 20
+				"Priority": 1
 			},
-			"Transmute ~|Senntisten crystals|~": {
-				"Chunks": ["Empty Throne Room"],
-				"Level": 65,
+			"Transmute raw sillago to ~|raw wobbegong|~": {
+				"Items": ["Ancestral energy*", "Raw sillago*"],
+				"Level": 92,
+				"Output": "Raw wobbegong",
+				"Primary": true,
+				"Priority": 2
+			},
+			"Convert an ~|ancient memory|~": {
+				"Chunks": ["Guthixian Cache"],
+				"Tasks": {
+					"~|Children of Mah|~ Complete the quest": "Quest"
+				},
+				"Level": 92,
 				"Primary": false,
-				"Priority": 3,
-				"Output": "Senntisten scroll",
-				"NoPet": true
+				"Priority": 3
 			},
-			"Unlock the ~|scrimshaw|~ scrolls in the Ports Reward Shop": {
-				"Category": ["Timegated"],
-				"Chunks": ["15134", "Player-Owned Port"],
-				"Level": 80,
+			"Transmute an ~|eldritch crossbow|~ weapon piece": {
+				"Items": ["Incandescent energy*", "ECBWeaponPiece[+]*"],
+				"Level": 92,
+				"Output": "ECB weapon piece",
+				"Primary": true,
+				"Priority": 4
+			},
+			"Transmute shall chippings to ~|shiny shell chippings|~": {
+				"Items": ["Ancestral energy*", "Shell chippings*"],
+				"Level": 93,
+				"Output": "Shiny shell chippings",
+				"Primary": true,
+				"Priority": 1
+			},
+			"Transmute yew logs to ~|magic logs|~": {
+				"Items": ["Luminous energy*", "Yew logs*"],
+				"Level": 93,
+				"Output": "Magic logs",
+				"Primary": true,
+				"Priority": 2
+			},
+			"Transmute raw cavefish to ~|raw manta ray|~": {
+				"Items": ["Luminous energy*", "Raw cavefish*"],
+				"Level": 93,
+				"Output": "Raw manta ray",
+				"Primary": true,
+				"Priority": 3
+			},
+			"Create a ~|sign of the porter VI|~": {
+				"Items": ["Luminous energy*", "Diamond necklace*"],
+				"Level": 94,
+				"Output": "Sign of the porter VI",
+				"Primary": true,
+				"Priority": 1
+			},
+			"Transmute sea salt to ~|alaea sea salt|~": {
+				"Items": ["Ancestral energy*", "Sea salt*"],
+				"Level": 94,
+				"Output": "Alaea sea salt",
+				"Primary": true,
+				"Priority": 2
+			},
+			"Harvest an ~|incandescent wisp|~": {
+				"NPCs": ["Incandescent wisp"],
+				"Level": 95,
+				"Output": "Incandescent energy",
+				"Primary": true,
+				"Priority": 1
+			},
+			"Create ~|ancestral energy|~": {
+				"Items": ["Positive energy*", "Negative energy*"],
+				"Level": 95,
+				"Output": "Ancestral energy",
+				"Primary": true,
+				"Priority": 2
+			},
+			"Harvest ~|ancestral energy|~": {
+				"NPCs": ["Ancestral energy"],
+				"Level": 95,
+				"Output": "Ancestral energy spring",
+				"Primary": true,
+				"Priority": 3
+			},
+			"Harvest ~|incandescent memories|~": {
+				"NPCs": ["Incandescent memories"],
+				"Level": 95,
+				"Primary": true,
+				"Priority": 4
+			},
+			"Transmute driftwood to ~|sliced mushrooms (The Arc)|~": {
+				"Items": ["Ancestral energy*", "Driftwood*"],
+				"Level": 95,
+				"Output": "Sliced mushrooms (The Arc)",
+				"Primary": true,
+				"Priority": 5
+			},
+			"Transmute banite ore to ~|dark animica|~": {
+				"Items": ["Incandescent energy*", "Banite ore*"],
+				"Level": 95,
+				"Output": "Dark animica",
+				"Primary": true,
+				"Priority": 6
+			},
+			"Transmute an ~|Ek-ZekKil|~ weapon piece": {
+				"Items": ["Incandescent energy*", "EZKWeaponPiece[+]*"],
+				"Level": 95,
+				"Output": "EZK weapon piece",
+				"Primary": true,
+				"Priority": 7
+			},
+			"Transmute a ~|Bow of the Last Guardian|~ weapon piece": {
+				"Items": ["Incandescent energy*", "BOLGWeaponPiece[+]*"],
+				"Level": 95,
+				"Output": "BOLG weapon piece",
+				"Primary": true,
+				"Priority": 8
+			},
+			"Transmute a ~|fractured Staff of Armadyl|~ weapon piece": {
+				"Items": ["Incandescent energy*", "FSOAWeaponPiece[+]*"],
+				"Level": 95,
+				"Output": "FSOA weapon piece",
+				"Primary": true,
+				"Priority": 9
+			},
+			"Create a ~|sign of runic protection|~": {
+				"Items": ["Incandescent energy*"],
+				"Level": 95,
+				"Output": "Sign of runic protection",
+				"Primary": true,
+				"Priority": 10
+			},
+			"Transmute a robust memento to a ~|powerful memento|~": {
+				"Items": ["Incandescent energy*", "Robust memento*"],
+				"Level": 95,
+				"Output": "Powerful memento",
+				"Primary": true,
+				"Priority": 11
+			},
+			"Create a ~|boon of incandescent energy|~": {
+				"Items": ["Incandescentboon[+]*"],
+				"Level": 95,
 				"Primary": false,
-				"Priority": 1000,
-				"NoPet": true
+				"Priority": 100
+			},
+			"Transmute alaea sea salt to ~|wobbegong oil|~": {
+				"Items": ["Ancestral energy*", "Alaea sea salt*"],
+				"Level": 96,
+				"Output": "Wobbegong oil",
+				"Primary": true,
+				"Priority": 1
+			},
+			"Create a ~|attuned portent of degradation III|~": {
+				"Items": ["Elder energy*", "Rocktail*"],
+				"Level": 97,
+				"Output": "Attuned portent of degradation III",
+				"Primary": true,
+				"Skills": {
+					"Constitution": 93
+				},
+				"Priority": 1
+			},
+			"Create a ~|portent of degradation III|~": {
+				"Items": ["Elder energy*", "Rocktail*"],
+				"Level": 97,
+				"Output": "Portent of degradation III",
+				"Primary": true,
+				"Skills": {
+					"Constitution": 93
+				},
+				"Priority": 2
+			},
+			"Create a ~|portent of restoration X|~": {
+				"Items": ["Incandescent energy*", "Rocktail*"],
+				"Level": 97,
+				"Output": "Portent of restoration X",
+				"Primary": true,
+				"Skills": {
+					"Constitution": 95
+				},
+				"Priority": 3
+			},
+			"Transmute banite ore to ~|light animica|~": {
+				"Items": ["Incandescent energy*", "Banite ore*"],
+				"Level": 97,
+				"Output": "Light animica",
+				"Primary": true,
+				"Priority": 4
+			},
+			"Transmute wobbegong oil to ~|shiny tortle shell bowl|~": {
+				"Items": ["Ancestral energy*", "Wobbegong oil*"],
+				"Level": 97,
+				"Output": "Shiny tortle shell bowl",
+				"Primary": true,
+				"Priority": 5
+			},
+			"Transmute onyx dust to ~|uncut onyx|~": {
+				"Items": ["Incandescent energy*", "Onyx dust*"],
+				"Level": 97,
+				"Output": "Uncut onyx",
+				"Primary": true,
+				"Priority": 6
+			},
+			"Create a ~|portent of restoration X|~ in Daemonheim": {
+				"Category": ["Daemonheim tasks"],
+				"Tasks": {
+					"Unlock ~|frozen floors|~": "Dungeoneering"
+				},
+				"Level": 97,
+				"Skills": {
+					"Constitution": 90
+				},
+				"Primary": false,
+				"Priority": 1000
+			},
+			"Create a ~|portent of passage X|~": {
+				"Category": ["Daemonheim tasks"],
+				"Tasks": {
+					"Unlock ~|frozen floors|~": "Dungeoneering"
+				},
+				"Level": 97,
+				"Primary": false,
+				"Priority": 1001
+			},
+			"Create a ~|attuned portent of restoration X|~": {
+				"Items": ["Incandescent energy*", "Rocktail*"],
+				"Level": 98,
+				"Output": "Attuned portent of restoration X",
+				"Primary": true,
+				"Skills": {
+					"Constitution": 95
+				},
+				"Priority": 1
+			},
+			"Transmute raw manta ray to ~|raw rocktail|~": {
+				"Items": ["Incandescent energy*", "Raw manta ray*"],
+				"Level": 98,
+				"Output": "Raw rocktail",
+				"Primary": true,
+				"Priority": 2
+			},
+			"Create a ~|portent of life|~": {
+				"Items": ["Incandescent energy*", "Diamond ring*"],
+				"Level": 99,
+				"Output": "Portent of life",
+				"Primary": true,
+				"Priority": 1
+			},
+			"Create a ~|portent of death|~": {
+				"Items": ["Elder energy*", "Diamond ring*"],
+				"Level": 99,
+				"Output": "Portent of death",
+				"Primary": true,
+				"Priority": 2
+			},
+			"Create a ~|sign of the porter VII|~": {
+				"Items": ["Incandescent energy*", "Dragonstone necklace*"],
+				"Level": 99,
+				"Output": "Sign of the porter VII",
+				"Primary": true,
+				"Priority": 3
+			},
+			"Buy the ~|Divination cape|~": {
+				"Category": ["Skillcape"],
+				"NPCs": ["Orla Fairweather"],
+				"Level": 99,
+				"Output": "Divination cape",
+				"Primary": false,
+				"NoBoost": true,
+				"Priority": 1000
+			},
+			"Buy the ~|Divination master cape|~": {
+				"Category": ["Master skillcape"],
+				"NPCs": ["Orla Fairweather"],
+				"Level": 120,
+				"Output": "Divination master cape",
+				"Primary": false,
+				"NoBoost": true,
+				"Priority": 1000
 			}
 		},
 		"Dungeoneering": {
