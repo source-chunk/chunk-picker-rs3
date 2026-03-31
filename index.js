@@ -609,7 +609,7 @@ let ruleNames = {
 	"Slayer Contracts": "Completing Slayer contracts off-task counts as a primary training method",
 	"Hide Partial Products": "Exclude partial and unfinished products as a skilling task<span class='partialProductsRuleTooltip'></span>",
 	"Timegated": "Must complete tasks that require consistent engagement with a time-gated activity across multiple weeks (Player-Owned Port, Player-Owned Farm, etc.)<span class='rule-asterisk noscroll'>*</span>",
-	"Secondary Bird Nests": "Allow items from bird nests gotten through secondary methods (e.g. birdhouses, monster drops) to generate chunk tasks"
+	"Secondary Bird Nests": "Allow items from bird nests and geodes gotten through secondary methods (e.g. birdhouses, monster drops) to generate chunk tasks"
 };                                                                              // List of rule definitions
 
 let rulePresets = {
