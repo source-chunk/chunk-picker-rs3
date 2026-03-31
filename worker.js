@@ -5447,13 +5447,13 @@ let calcBIS = function(completedOnly) {
             }
             rules['Consumable Primary BiS'] && chunkInfo['equipment'][equip].is_consumable && Object.keys(baseChunkData['items'][equip]).filter(source => !baseChunkData['items'][equip][source].includes('secondary-')).length === 0 && (validWearable = false);
             let bestAmmo = null;
-            Object.keys(chunkInfo['codeItems']['ammoTools']).filter(ammo => { return chunkInfo['codeItems']['ammoTools'][ammo].hasOwnProperty(equip) && baseChunkData['items'].hasOwnProperty(ammo) && (!rules['Consumable Primary BiS'] || !chunkInfo['equipment'][ammo].is_consumable || Object.keys(baseChunkData['items'][ammo]).filter(source => !baseChunkData['items'][ammo][source].includes('secondary-')).length > 0) }).forEach((ammo) => {
+            Object.keys(chunkInfo['codeItems']['ammoTools']).filter(ammo => { return chunkInfo['codeItems']['ammoTools'][ammo].hasOwnProperty(equip) && (!rules['Consumable Primary BiS'] || !chunkInfo['equipment'][ammo].is_consumable || Object.keys(baseChunkData['items'][ammo]).filter(source => !baseChunkData['items'][ammo][source].includes('secondary-')).length > 0) }).forEach((ammo) => {
                 if (ammo === 'No ammo') {
                     //
                 } else {
                     if (ammo.replaceAll(/\*/g, '').includes('[+]')) {
                         !!itemsPlus[ammo.replaceAll(/\*/g, '')] && itemsPlus[ammo.replaceAll(/\*/g, '')].filter((plus) => { return !!baseChunkData['items'][plus] }).forEach((plus) => {
-                            if (bestAmmo === null || chunkInfo['equipment'][plus].ranged_strength > chunkInfo['equipment'][bestAmmo].ranged_strength) {
+                            if (bestAmmo === null || chunkInfo['equipment'][plus].ability_damage > chunkInfo['equipment'][bestAmmo].ability_damage) {
                                 let tempTempValidAmmo = false;
                                 !!baseChunkData['items'][plus] && Object.keys(baseChunkData['items'][plus]).filter(source => !baseChunkData['items'][plus][source].includes('-') || !processingSkill[baseChunkData['items'][plus][source].split('-')[1]] || rules['Wield Crafted Items'] || baseChunkData['items'][plus][source].split('-')[1] === 'Slayer').length > 0 && (tempTempValidAmmo = true);
                                 let articleAmmo = vowels.includes(plus.toLowerCase().charAt(0)) ? ' an ' : ' a ';
@@ -5473,7 +5473,7 @@ let calcBIS = function(completedOnly) {
                             }
                         });
                     } else if (chunkInfo['equipment'].hasOwnProperty(ammo)) {
-                        if (bestAmmo === null || chunkInfo['equipment'][ammo].ranged_strength > chunkInfo['equipment'][bestAmmo].ranged_strength) {
+                        if (bestAmmo === null || chunkInfo['equipment'][ammo].ability_damage > chunkInfo['equipment'][bestAmmo].ability_damage) {
                             let tempTempValidAmmo = false;
                             !!baseChunkData['items'][ammo] && Object.keys(baseChunkData['items'][ammo]).filter(source => !baseChunkData['items'][ammo][source].includes('-') || !processingSkill[baseChunkData['items'][ammo][source].split('-')[1]] || rules['Wield Crafted Items'] || baseChunkData['items'][ammo][source].split('-')[1] === 'Slayer').length > 0 && (tempTempValidAmmo = true);
                             let articleAmmo = vowels.includes(ammo.toLowerCase().charAt(0)) ? ' an ' : ' a ';
@@ -5753,7 +5753,7 @@ let calcBIS = function(completedOnly) {
                 } else if (skill === 'Ranged' && (chunkInfo['equipment'][equip].class === 'ranged' || chunkInfo['equipment'][equip].class === 'hybrid' || chunkInfo['equipment'][equip].class === 'all' || chunkInfo['equipment'][equip].class === 'none')) {
                     if (chunkInfo['equipment'][equip].speed > 1) {
                         let bestAmmo = null;
-                        Object.keys(chunkInfo['codeItems']['ammoTools']).filter(ammo => { return chunkInfo['codeItems']['ammoTools'][ammo].hasOwnProperty(equip) && baseChunkData['items'].hasOwnProperty(ammo) && (!rules['Consumable Primary BiS'] || !chunkInfo['equipment'][ammo].is_consumable || Object.keys(baseChunkData['items'][ammo]).filter(source => !baseChunkData['items'][ammo][source].includes('secondary-')).length > 0) }).forEach((ammo) => {
+                        Object.keys(chunkInfo['codeItems']['ammoTools']).filter(ammo => { return chunkInfo['codeItems']['ammoTools'][ammo].hasOwnProperty(equip) && (!rules['Consumable Primary BiS'] || !chunkInfo['equipment'][ammo].is_consumable || Object.keys(baseChunkData['items'][ammo]).filter(source => !baseChunkData['items'][ammo][source].includes('secondary-')).length > 0) }).forEach((ammo) => {
                             if (ammo === 'No ammo') {
                                 //
                             } else {
@@ -6405,18 +6405,20 @@ let calcBIS = function(completedOnly) {
             delete bestEquipment['2h weapon'];
             skill === 'Ranged' && (bestEquipment['ammo'] = bestAmmoSaved['main hand weapon']);
         }
-        if (shieldPower > offHandPower) {
-            if (rules['Show Best in Slot Shield']) {
-                savedWeaponBis['off-hand weapon'] = bestEquipment['off-hand weapon'];
+        if (twoHPower <= weaponShieldPower || rules['Show Best in Slot 1H and 2H']) {
+            if (shieldPower > offHandPower) {
+                if (rules['Show Best in Slot Shield']) {
+                    savedWeaponBis['off-hand weapon'] = bestEquipment['off-hand weapon'];
+                }
+                delete bestEquipment['off-hand weapon'];
+                skill === 'Ranged' && (bestEquipment['ammo'] = bestAmmoSaved['off-hand']);
+            } else {
+                if (rules['Show Best in Slot Shield']) {
+                    savedWeaponBis['off-hand'] = bestEquipment['off-hand'];
+                }
+                delete bestEquipment['off-hand'];
+                skill === 'Ranged' && (bestEquipment['ammo'] = bestAmmoSaved['off-hand weapon']);
             }
-            delete bestEquipment['off-hand weapon'];
-            skill === 'Ranged' && (bestEquipment['ammo'] = bestAmmoSaved['off-hand']);
-        } else {
-            if (rules['Show Best in Slot Shield']) {
-                savedWeaponBis['off-hand'] = bestEquipment['off-hand'];
-            }
-            delete bestEquipment['off-hand'];
-            skill === 'Ranged' && (bestEquipment['ammo'] = bestAmmoSaved['off-hand weapon']);
         }
         if (!bestEquipment['ammo'] || bestEquipment['ammo'] === null || bestEquipment['ammo'] === undefined) {
             delete bestEquipment['ammo'];
