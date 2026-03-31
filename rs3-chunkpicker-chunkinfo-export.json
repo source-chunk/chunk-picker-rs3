@@ -215061,7 +215061,8 @@
 				"Toktz-xil-ul": true,
 				"Bone blowpipe": true,
 				"Upgraded bone blowpipe": true,
-				"Holy water": true
+				"Holy water": true,
+				"Decimation": true
 			}
 		},
 		"boneItems": ["Impious ashes", "Accursed ashes", "Infernal ashes", "Tortured ashes", "Searing ashes", "Druid pouch", "Ectoplasmator", "Bones", "Wolf bones", "Burnt bones", "monkey bones", "Bat bones", "Big bones", "Jogre bones", "Zogre bones", "Shaikahan bones", "Baby dragon bones", "Wyvern bones", "Dragon bones", "Fayrg bones", "Raurg bones", "Dagannoth bones", "Airut bones", "Ourg bones (General Graardor)", "Ourg bones", "Hardened dragon bones", "Dragonkin bones", "Dinosaur bones", "Frost dragon bones", "Reinforced dragon bones"],
@@ -352567,6 +352568,27 @@
 			"prayer": 0,
 			"accuracy": 0
 		},
+		"Decimation": {
+			"ranged_damage": 0,
+			"melee_damage": 0,
+			"prayer": 0,
+			"charges": 60000,
+			"style": "arrows",
+			"ability_damage": 1252.8,
+			"magic_damage": 0,
+			"slot": "2h weapon",
+			"requirements": {
+				"Ranged": 87
+			},
+			"armour": 0,
+			"speed": 5,
+			"tier": 87,
+			"lp": 0,
+			"attack_range": 1,
+			"class": "ranged",
+			"accuracy": 2287,
+			"auto_damage": 1944.5
+		},
 		"Defence cape (t)": {
 			"ranged_damage": 22.5,
 			"requirements": {
@@ -371434,6 +371456,27 @@
 			"necromancy_damage": 34.5,
 			"prayer": 0,
 			"accuracy": 0
+		},
+		"Obliteration": {
+			"ranged_damage": 0,
+			"melee_damage": 0,
+			"prayer": 0,
+			"charges": 60000,
+			"style": "spell-casting",
+			"ability_damage": 1252.8,
+			"magic_damage": 0,
+			"slot": "2h weapon",
+			"requirements": {
+				"Magic": 87
+			},
+			"armour": 0,
+			"speed": 5,
+			"tier": 87,
+			"lp": 0,
+			"attack_range": 1,
+			"class": "magic",
+			"accuracy": 2287,
+			"auto_damage": 1944.5
 		},
 		"Ode to Deceit": {
 			"formatted_name": "Ode to Deceit",

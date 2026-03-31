@@ -16684,6 +16684,7 @@
   "Obtain a ~|deathwarden robe bottom (tier 90)|~": "t_15884",
   "Obtain ~|deathwarden gloves (tier 90)|~": "t_15885",
   "Obtain ~|deathwarden boots (tier 90)|~": "t_15886",
+  "Obtain a ~|decimation|~": "t_118744",
   "Obtain a ~|defence cape (t)|~": "t_15911",
   "Obtain a ~|defence cape|~": "t_15912",
   "Obtain a ~|defence master cape|~": "t_15913",
@@ -17738,6 +17739,7 @@
   "Obtain an ~|obsidian ranger helm|~": "t_16928",
   "Obtain an ~|obsidian warrior helm|~": "t_16929",
   "Obtain an ~|occultist's ring|~": "t_117582",
+  "Obtain an ~|obliteration|~": "t_118745",
   "Obtain an ~|Ode to Deceit|~": "t_109773",
   "Obtain an ~|off-hand armadyl crossbow|~": "t_16931",
   "Obtain an ~|off-hand blightbound crossbow|~": "t_16932",
@@ -91044,5 +91046,5 @@
   "Pizazz points: ~|Death rune|~": "t_52854",
   "Pizazz points: ~|Soul rune|~": "t_52856",
   "Pizazz points: ~|Blood rune|~": "t_52857",
-  "currentNextIndex": 118744
+  "currentNextIndex": 118746
 }
