@@ -18502,40 +18502,12 @@
 			}
 		},
 		"Crafting": {
-			"Craft ~|leather gloves|~": {
+			"Craft a piece of ~|soft leather armour|~": {
 				"Items": ["Leather*"],
 				"Level": 1,
-				"Output": "Leather gloves",
+				"Output": "Soft leather armour",
 				"Primary": true,
 				"Priority": 1
-			},
-			"Craft ~|leather boots|~": {
-				"Items": ["Leather*"],
-				"Level": 1,
-				"Output": "Leather boots",
-				"Primary": true,
-				"Priority": 2
-			},
-			"Craft a ~|leather cowl|~": {
-				"Items": ["Leather*"],
-				"Level": 1,
-				"Output": "Leather cowl",
-				"Primary": true,
-				"Priority": 3
-			},
-			"Craft a ~|leather body|~": {
-				"Items": ["Leather*"],
-				"Level": 1,
-				"Output": "Leather body",
-				"Primary": true,
-				"Priority": 4
-			},
-			"Craft ~|leather chaps|~": {
-				"Items": ["Leather*"],
-				"Level": 1,
-				"Output": "Leather chaps",
-				"Primary": true,
-				"Priority": 5
 			},
 			"Spin a ~|ball of wool|~": {
 				"Items": ["Wool*"],
@@ -18573,75 +18545,19 @@
 				"Priority": 9,
 				"Partial": true
 			},
-			"Craft ~|wizard gloves|~": {
+			"Craft a piece of ~|wizard equipment|~": {
 				"Items": ["Strip of cloth*", "Thread*"],
 				"Level": 1,
-				"Output": "Wizard gloves",
+				"Output": "Wizard equipment",
 				"Primary": true,
 				"Priority": 10
 			},
-			"Craft ~|black wizard gloves|~": {
+			"Craft a piece of ~|wizard equipment#black|~": {
 				"Items": ["Strip of black cloth*", "Thread*"],
 				"Level": 1,
-				"Output": "Black wizard gloves",
+				"Output": "Black wizard equipment",
 				"Primary": true,
 				"Priority": 11
-			},
-			"Craft ~|wizard boots|~": {
-				"Items": ["Strip of cloth*", "Thread*"],
-				"Level": 1,
-				"Output": "Wizard boots",
-				"Primary": true,
-				"Priority": 12
-			},
-			"Craft ~|black wizard boots|~": {
-				"Items": ["Strip of black cloth*", "Thread*"],
-				"Level": 1,
-				"Output": "Black wizard boots",
-				"Primary": true,
-				"Priority": 13
-			},
-			"Craft a ~|wizard hat|~": {
-				"Items": ["Strip of cloth*", "Thread*"],
-				"Level": 1,
-				"Output": "Wizard hat",
-				"Primary": true,
-				"Priority": 14
-			},
-			"Craft a ~|black wizard hat|~": {
-				"Items": ["Strip of black cloth*", "Thread*"],
-				"Level": 1,
-				"Output": "Black wizard hat",
-				"Primary": true,
-				"Priority": 15
-			},
-			"Craft a ~|wizard robe skirt|~": {
-				"Items": ["Strip of cloth*", "Thread*"],
-				"Level": 1,
-				"Output": "Wizard robe skirt",
-				"Primary": true,
-				"Priority": 16
-			},
-			"Craft a ~|black wizard robe skirt|~": {
-				"Items": ["Strip of black cloth*", "Thread*"],
-				"Level": 1,
-				"Output": "Black wizard robe skirt",
-				"Primary": true,
-				"Priority": 17
-			},
-			"Craft a ~|wizard robe top|~": {
-				"Items": ["Strip of cloth*", "Thread*"],
-				"Level": 1,
-				"Output": "Wizard robe top",
-				"Primary": true,
-				"Priority": 18
-			},
-			"Craft a ~|black wizard robe top|~": {
-				"Items": ["Strip of black cloth*", "Thread*"],
-				"Level": 1,
-				"Output": "Black wizard robe top",
-				"Primary": true,
-				"Priority": 19
 			},
 			"Craft a ~|wizard book|~": {
 				"Items": ["Strip of cloth*", "Thread*"],
@@ -18684,20 +18600,6 @@
 				},
 				"Primary": true,
 				"Priority": 24
-			},
-			"Craft a ~|wizard shield|~": {
-				"Items": ["Strip of cloth*", "Thread*"],
-				"Level": 1,
-				"Output": "Wizard shield",
-				"Primary": true,
-				"Priority": 25
-			},
-			"Craft a ~|black wizard shield|~": {
-				"Items": ["Strip of black cloth*", "Thread*"],
-				"Level": 1,
-				"Output": "Black wizard shield",
-				"Primary": true,
-				"Priority": 26
 			},
 			"Create ~|soft clay|~ with a container": {
 				"Category": ["Token"],
@@ -21141,47 +21043,12 @@
 				"Priority": 6,
 				"Not F2P": true
 			},
-			"Craft ~|green dragonhide vambraces|~": {
+			"Craft a piece of ~|green dragonhide armour|~": {
 				"Items": ["Green dragon leather*", "Thread*"],
 				"Level": 40,
-				"Output": "Green dragonhide vambraces",
+				"Output": "Green dragonhide armour",
 				"Primary": true,
 				"Priority": 1
-			},
-			"Craft ~|green dragonhide boots|~": {
-				"Items": ["Green dragon leather*", "Thread*"],
-				"Level": 40,
-				"Output": "Green dragonhide boots",
-				"Primary": true,
-				"Priority": 2
-			},
-			"Craft ~|green dragonhide chaps|~": {
-				"Items": ["Green dragon leather*", "Thread*"],
-				"Level": 40,
-				"Output": "Green dragonhide chaps",
-				"Primary": true,
-				"Priority": 3
-			},
-			"Craft a ~|green dragonhide coif|~": {
-				"Items": ["Green dragon leather*", "Thread*"],
-				"Level": 40,
-				"Output": "Green dragonhide coif",
-				"Primary": true,
-				"Priority": 4
-			},
-			"Craft a ~|green dragonhide body|~": {
-				"Items": ["Green dragon leather*", "Thread*"],
-				"Level": 40,
-				"Output": "Green dragonhide body",
-				"Primary": true,
-				"Priority": 5
-			},
-			"Craft a ~|green dragonhide shield|~": {
-				"Items": ["Green dragon leather*", "Thread*"],
-				"Level": 40,
-				"Output": "Green dragonhide shield",
-				"Primary": true,
-				"Priority": 6
 			},
 			"Craft a ~|plain farming urn (unfired)|~": {
 				"Items": ["Soft clay*"],
@@ -21687,47 +21554,12 @@
 				"Not F2P": true,
 				"Partial": true
 			},
-			"Craft ~|blue dragonhide vambraces|~": {
+			"Craft a piece of ~|blue dragonhide armour|~": {
 				"Items": ["Blue dragon leather*", "Thread*"],
 				"Level": 50,
-				"Output": "Blue dragonhide vambraces",
+				"Output": "Blue dragonhide armour",
 				"Primary": true,
 				"Priority": 1
-			},
-			"Craft ~|blue dragonhide boots|~": {
-				"Items": ["Blue dragon leather*", "Thread*"],
-				"Level": 50,
-				"Output": "Blue dragonhide boots",
-				"Primary": true,
-				"Priority": 2
-			},
-			"Craft ~|blue dragonhide chaps|~": {
-				"Items": ["Blue dragon leather*", "Thread*"],
-				"Level": 50,
-				"Output": "Blue dragonhide chaps",
-				"Primary": true,
-				"Priority": 3
-			},
-			"Craft a ~|blue dragonhide coif|~": {
-				"Items": ["Blue dragon leather*", "Thread*"],
-				"Level": 50,
-				"Output": "Blue dragonhide coif",
-				"Primary": true,
-				"Priority": 4
-			},
-			"Craft a ~|blue dragonhide body|~": {
-				"Items": ["Blue dragonhide leather*", "Thread*"],
-				"Level": 50,
-				"Output": "Blue dragonhide body",
-				"Primary": true,
-				"Priority": 5
-			},
-			"Craft a ~|blue dragonhide shield|~": {
-				"Items": ["Blue dragonhide leather*", "Thread*"],
-				"Level": 50,
-				"Output": "Blue dragonhide shield",
-				"Primary": true,
-				"Priority": 6
 			},
 			"Craft ~|mystic gloves|~": {
 				"Items": ["Mystic cloth*", "Thread*"],
@@ -21962,52 +21794,12 @@
 				"Priority": 4,
 				"Not F2P": true
 			},
-			"Craft ~|red dragonhide vambraces|~": {
+			"Craft a piece of ~|red dragonhide armour|~": {
 				"Items": ["Red dragon leather*", "Thread*"],
 				"Level": 55,
-				"Output": "Red dragonhide vambraces",
+				"Output": "Red dragonhide armour",
 				"Primary": true,
 				"Priority": 1,
-				"Not F2P": true
-			},
-			"Craft ~|red dragonhide boots|~": {
-				"Items": ["Red dragon leather*", "Thread*"],
-				"Level": 55,
-				"Output": "Red dragonhide boots",
-				"Primary": true,
-				"Priority": 2,
-				"Not F2P": true
-			},
-			"Craft ~|red dragonhide chaps|~": {
-				"Items": ["Red dragon leather*", "Thread*"],
-				"Level": 55,
-				"Output": "Red dragonhide chaps",
-				"Primary": true,
-				"Priority": 3,
-				"Not F2P": true
-			},
-			"Craft a ~|red dragonhide coif|~": {
-				"Items": ["Red dragon leather*", "Thread*"],
-				"Level": 55,
-				"Output": "Red dragonhide coif",
-				"Primary": true,
-				"Priority": 4,
-				"Not F2P": true
-			},
-			"Craft a ~|red dragonhide body|~": {
-				"Items": ["Red dragonhide leather*", "Thread*"],
-				"Level": 55,
-				"Output": "Red dragonhide body",
-				"Primary": true,
-				"Priority": 5,
-				"Not F2P": true
-			},
-			"Craft a ~|red dragonhide shield|~": {
-				"Items": ["Red dragonhide leather*", "Thread*"],
-				"Level": 55,
-				"Output": "Red dragonhide shield",
-				"Primary": true,
-				"Priority": 6,
 				"Not F2P": true
 			},
 			"Craft a ~|mystic robe top|~": {
@@ -22331,52 +22123,12 @@
 				"Priority": 5,
 				"Not F2P": true
 			},
-			"Craft ~|black dragonhide vambraces|~": {
+			"Craft a piece of ~|black dragonhide armour|~": {
 				"Items": ["Black dragon leather*", "Thread*"],
 				"Level": 60,
-				"Output": "Black dragonhide vambraces",
+				"Output": "Black dragonhide armour",
 				"Primary": true,
 				"Priority": 1,
-				"Not F2P": true
-			},
-			"Craft ~|black dragonhide boots|~": {
-				"Items": ["Black dragon leather*", "Thread*"],
-				"Level": 60,
-				"Output": "Black dragonhide boots",
-				"Primary": true,
-				"Priority": 2,
-				"Not F2P": true
-			},
-			"Craft ~|black dragonhide chaps|~": {
-				"Items": ["Black dragon leather*", "Thread*"],
-				"Level": 60,
-				"Output": "Black dragonhide chaps",
-				"Primary": true,
-				"Priority": 3,
-				"Not F2P": true
-			},
-			"Craft a ~|black dragonhide coif|~": {
-				"Items": ["Black dragon leather*", "Thread*"],
-				"Level": 60,
-				"Output": "Black dragonhide coif",
-				"Primary": true,
-				"Priority": 4,
-				"Not F2P": true
-			},
-			"Craft a ~|black dragonhide body|~": {
-				"Items": ["Black dragon leather*", "Thread*"],
-				"Level": 60,
-				"Output": "Black dragonhide body",
-				"Primary": true,
-				"Priority": 5,
-				"Not F2P": true
-			},
-			"Craft a ~|black dragonhide shield|~": {
-				"Items": ["Black dragon leather*", "Thread*"],
-				"Level": 60,
-				"Output": "Black dragonhide shield",
-				"Primary": true,
-				"Priority": 6,
 				"Not F2P": true
 			},
 			"Craft a ~|grifolic visor|~": {
@@ -22617,44 +22369,12 @@
 				"Priority": 3,
 				"Not F2P": true
 			},
-			"Craft ~|royal dragonhide vambraces|~": {
+			"Craft a piece of ~|royal dragonhide armour|~": {
 				"Items": ["Royal dragon leather*", "Thread*"],
 				"Level": 65,
-				"Output": "Royal dragonhide vambraces",
+				"Output": "Royal dragonhide armour",
 				"Primary": true,
 				"Priority": 1,
-				"Not F2P": true
-			},
-			"Craft ~|royal dragonhide boots|~": {
-				"Items": ["Royal dragon leather*", "Thread*"],
-				"Level": 65,
-				"Output": "Royal dragonhide boots",
-				"Primary": true,
-				"Priority": 2,
-				"Not F2P": true
-			},
-			"Craft ~|royal dragonhide chaps|~": {
-				"Items": ["Royal dragon leather*", "Thread*"],
-				"Level": 65,
-				"Output": "Royal dragonhide chaps",
-				"Primary": true,
-				"Priority": 3,
-				"Not F2P": true
-			},
-			"Craft a ~|royal dragonhide coif|~": {
-				"Items": ["Royal dragon leather*", "Thread*"],
-				"Level": 65,
-				"Output": "Royal dragonhide coif",
-				"Primary": true,
-				"Priority": 4,
-				"Not F2P": true
-			},
-			"Craft a ~|royal dragonhide body|~": {
-				"Items": ["Royal dragon leather*", "Thread*"],
-				"Level": 65,
-				"Output": "Royal dragonhide body",
-				"Primary": true,
-				"Priority": 5,
 				"Not F2P": true
 			},
 			"Craft a ~|Deathwarden hood (tier 70)|~": {
@@ -23116,44 +22836,12 @@
 				"Output": "Deathdealer boots (tier 80)",
 				"Priority": 10
 			},
-			"Craft an ~|undead dragonhide body|~": {
+			"Craft a piece of ~|undead dragonhide armour|~": {
 				"Items": ["Undead dragon leather*", "Thread*"],
 				"Level": 75,
-				"Output": "Undead dragonhide body",
+				"Output": "Undead dragonhide armour",
 				"Primary": true,
 				"Priority": 12,
-				"Not F2P": true
-			},
-			"Craft ~|undead dragonhide boots|~": {
-				"Items": ["Undead dragon leather*", "Thread*"],
-				"Level": 75,
-				"Output": "Undead dragonhide boots",
-				"Primary": true,
-				"Priority": 13,
-				"Not F2P": true
-			},
-			"Craft ~|undead dragonhide chaps|~": {
-				"Items": ["Undead dragon leather*", "Thread*"],
-				"Level": 75,
-				"Output": "Undead dragonhide chaps",
-				"Primary": true,
-				"Priority": 14,
-				"Not F2P": true
-			},
-			"Craft an ~|undead dragonhide coif|~": {
-				"Items": ["Undead dragon leather*", "Thread*"],
-				"Level": 75,
-				"Output": "Undead dragonhide coif",
-				"Primary": true,
-				"Priority": 15,
-				"Not F2P": true
-			},
-			"Craft ~|undead dragonhide vambraces|~": {
-				"Items": ["Undead dragon leather*", "Thread*"],
-				"Level": 75,
-				"Output": "Undead dragonhide vambraces",
-				"Primary": true,
-				"Priority": 16,
 				"Not F2P": true
 			},
 			"Craft a ~|ganodermic visor|~": {
@@ -24716,40 +24404,12 @@
 				"Primary": true,
 				"Priority": 2
 			},
-			"Craft a ~|dinosaurhide body|~": {
+			"Craft a piece of ~|dinosaurhide armour|~": {
 				"Items": ["Dinosaur scale*", "Dinosaur leather*", "Thread*"],
 				"Level": 93,
 				"Output": "Dinosaurhide body",
 				"Primary": true,
 				"Priority": 4
-			},
-			"Craft ~|dinosaurhide boots|~": {
-				"Items": ["Dinosaur scale*", "Dinosaur leather*", "Thread*"],
-				"Level": 93,
-				"Output": "Dinosaurhide boots",
-				"Primary": true,
-				"Priority": 5
-			},
-			"Craft ~|dinosaurhide chaps|~": {
-				"Items": ["Dinosaur scale*", "Dinosaur leather*", "Thread*"],
-				"Level": 93,
-				"Output": "Dinosaurhide chaps",
-				"Primary": true,
-				"Priority": 6
-			},
-			"Craft a ~|dinosaurhide cowl|~": {
-				"Items": ["Dinosaur scale*", "Dinosaur leather*", "Thread*"],
-				"Level": 93,
-				"Output": "Dinosaurhide cowl",
-				"Primary": true,
-				"Priority": 7
-			},
-			"Craft ~|dinosaurhide gloves|~": {
-				"Items": ["Dinosaur scale*", "Dinosaur leather*", "Thread*"],
-				"Level": 93,
-				"Output": "Dinosaurhide gloves",
-				"Primary": true,
-				"Priority": 8
 			},
 			"Feed a ~|nourished ancient effigy|~ with crafting": {
 				"Items": ["Nourished ancient effigy (agility/crafting)"],
@@ -297431,6 +297091,200 @@
 					"1": "Always"
 				},
 				"Superior Death Lotus chaps": {
+					"1": "Always"
+				}
+			},
+			"Soft leather armour": {
+				"Leather cowl": {
+					"1": "Always"
+				},
+				"Leather body": {
+					"1": "Always"
+				},
+				"Leather gloves": {
+					"1": "Always"
+				},
+				"Leather chaps": {
+					"1": "Always"
+				},
+				"Leather boots": {
+					"1": "Always"
+				}
+			},
+			"Wizard equipment": {
+				"Wizard hat": {
+					"1": "Always"
+				},
+				"Wizard robe top": {
+					"1": "Always"
+				},
+				"Wizard robe skirt": {
+					"1": "Always"
+				},
+				"Wizard gloves": {
+					"1": "Always"
+				},
+				"Wizard boots": {
+					"1": "Always"
+				},
+				"Wizard shield": {
+					"1": "Always"
+				}
+			},
+			"Black wizard equipment": {
+				"Black wizard hat": {
+					"1": "Always"
+				},
+				"Black wizard robe top": {
+					"1": "Always"
+				},
+				"Black wizard robe skirt": {
+					"1": "Always"
+				},
+				"Black wizard gloves": {
+					"1": "Always"
+				},
+				"Black wizard boots": {
+					"1": "Always"
+				},
+				"Black wizard shield": {
+					"1": "Always"
+				}
+			},
+			"Green dragonhide armour": {
+				"Green dragonhide coif": {
+					"1": "Always"
+				},
+				"Green dragonhide body": {
+					"1": "Always"
+				},
+				"Green dragonhide vambraces": {
+					"1": "Always"
+				},
+				"Green dragonhide chaps": {
+					"1": "Always"
+				},
+				"Green dragonhide boots": {
+					"1": "Always"
+				},
+				"Green dragonhide shield": {
+					"1": "Always"
+				}
+			},
+			"Blue dragonhide armour": {
+				"Blue dragonhide coif": {
+					"1": "Always"
+				},
+				"Blue dragonhide body": {
+					"1": "Always"
+				},
+				"Blue dragonhide vambraces": {
+					"1": "Always"
+				},
+				"Blue dragonhide chaps": {
+					"1": "Always"
+				},
+				"Blue dragonhide boots": {
+					"1": "Always"
+				},
+				"Blue dragonhide shield": {
+					"1": "Always"
+				}
+			},
+			"Red dragonhide armour": {
+				"Red dragonhide coif": {
+					"1": "Always"
+				},
+				"Red dragonhide body": {
+					"1": "Always"
+				},
+				"Red dragonhide vambraces": {
+					"1": "Always"
+				},
+				"Red dragonhide chaps": {
+					"1": "Always"
+				},
+				"Red dragonhide boots": {
+					"1": "Always"
+				},
+				"Red dragonhide shield": {
+					"1": "Always"
+				}
+			},
+			"Black dragonhide armour": {
+				"Black dragonhide coif": {
+					"1": "Always"
+				},
+				"Black dragonhide body": {
+					"1": "Always"
+				},
+				"Black dragonhide vambraces": {
+					"1": "Always"
+				},
+				"Black dragonhide chaps": {
+					"1": "Always"
+				},
+				"Black dragonhide boots": {
+					"1": "Always"
+				},
+				"Black dragonhide shield": {
+					"1": "Always"
+				}
+			},
+			"Royal dragonhide armour": {
+				"Royal dragonhide coif": {
+					"1": "Always"
+				},
+				"Royal dragonhide body": {
+					"1": "Always"
+				},
+				"Royal dragonhide vambraces": {
+					"1": "Always"
+				},
+				"Royal dragonhide chaps": {
+					"1": "Always"
+				},
+				"Royal dragonhide boots": {
+					"1": "Always"
+				},
+				"Royal dragonhide shield": {
+					"1": "Always"
+				}
+			},
+			"Undead dragonhide armour": {
+				"Undead dragonhide coif": {
+					"1": "Always"
+				},
+				"Undead dragonhide body": {
+					"1": "Always"
+				},
+				"Undead dragonhide vambraces": {
+					"1": "Always"
+				},
+				"Undead dragonhide chaps": {
+					"1": "Always"
+				},
+				"Undead dragonhide boots": {
+					"1": "Always"
+				},
+				"Undead dragonhide shield": {
+					"1": "Always"
+				}
+			},
+			"Dinosaurhide armour": {
+				"Dinosaurhide cowl": {
+					"1": "Always"
+				},
+				"Dinosaurhide body": {
+					"1": "Always"
+				},
+				"Dinosaurhide chaps": {
+					"1": "Always"
+				},
+				"Dinosaurhide boots": {
+					"1": "Always"
+				},
+				"Dinosaurhide gloves": {
 					"1": "Always"
 				}
 			},
