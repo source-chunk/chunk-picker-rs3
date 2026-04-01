@@ -474,7 +474,8 @@ let rules = {
 	"Slayer Contracts": false,
 	"Hide Partial Products": false,
 	"Timegated": false,
-	"Cosmetics": false
+	"Cosmetics": false,
+	"Secondary Bird Nests": false
 };                                                                              // List of rules and their on/off state
 
 let ruleNames = {
@@ -521,7 +522,7 @@ let ruleNames = {
     "Minigame": "Allow items obtained from minigame rewards to count towards chunk tasks",
 	"DnD": "Allow items obtained from and activities inside Distractions and Diversions to count towards chunk tasks<span class='rule-asterisk noscroll'>*</span>",
 	"Not Daily DnD": "Include Distractions and Diversions that reset less frequently than once a day<span class='rule-asterisk noscroll'>†</span>",
-	"DnD Flash Events": "Include Wilderness Flash Events, Demon Flash Mobs and Goblin Raids<span class='rule-asterisk noscroll'>*</span>",
+	"DnD Flash Events": "Include Demon Flash Mobs and Goblin Raids<span class='rule-asterisk noscroll'>*</span>",
     "Shortcut Task": "Allow Agility shortcuts to count as an Agility skill task",
     "Shortcut": "Allow Agility shortcuts to count as a primary method for training Agility",
     "Wield Crafted Items": "Crafted items (e.g. bows, metal armour/weapons, etc.) can be wielded as part of chunks tasks (as BiS gear, wielding requirements, training methods, etc.)<span class='rule-asterisk noscroll'>*</span>",
@@ -607,7 +608,8 @@ let ruleNames = {
 	"Kili Knowledge": "Must complete Kili Knowledge when possible",
 	"Slayer Contracts": "Completing Slayer contracts off-task counts as a primary training method",
 	"Hide Partial Products": "Exclude partial and unfinished products as a skilling task<span class='partialProductsRuleTooltip'></span>",
-	"Timegated": "Must complete tasks that require consistent engagement with a time-gated activity across multiple weeks (Player-Owned Port, Player-Owned Farm, etc.)<span class='rule-asterisk noscroll'>*</span>"
+	"Timegated": "Must complete tasks that require consistent engagement with a time-gated activity across multiple weeks (Player-Owned Port, Player-Owned Farm, etc.)<span class='rule-asterisk noscroll'>*</span>",
+	"Secondary Bird Nests": "Allow items from bird nests and geodes gotten through secondary methods (e.g. birdhouses, monster drops) to generate chunk tasks"
 };                                                                              // List of rule definitions
 
 let rulePresets = {
@@ -641,7 +643,8 @@ let rulePresets = {
 		"Cleaning Herbs Primary": true,
 		"Uncharted": true,
 		"Vinesweeper": true,
-		"Primary Spawn": true
+		"Primary Spawn": true,
+		"Secondary Bird Nests": true
     },
     "Extreme Chunker": {
         "Skillcape": true,
@@ -726,7 +729,8 @@ let rulePresets = {
 		"Cleaning Herbs Primary": true,
 		"Permanent Unlockables": true,
 		"Timegated": true,
-		"Combat Mastery achievements": true
+		"Combat Mastery achievements": true,
+		"Secondary Bird Nests": true
     },
     "Supreme Chunker": {
         "Skillcape": true,
@@ -826,7 +830,8 @@ let rulePresets = {
 		"Timegated": true,
 		"Combat Mastery achievements": true,
 		"Speed Killer Achievements": true,
-		"Combat Master+": true
+		"Combat Master+": true,
+		"Secondary Bird Nests": true
     }
 };                                                                              // List of rules that are part of each preset
 
@@ -948,6 +953,7 @@ let ruleStructure = {
         "Rare Drop": ["KeyItem Bosses"],
         "RDT": true,
         "Crystal chests": true,
+		"Secondary Bird Nests": true,
 		"Universal Tertiary": true,
         "Primary Spawns": true,
 		"Every Drop": ["Every Drop Implings", "Every Drop Thieving", "Every Drop BGH"],
@@ -2209,7 +2215,7 @@ let drawCanvas = function(ctxIn = ctx) {
     // Overlays
     ctxIn.save();
     !!chunkInfo['mapOverlays'] && selectedOverlay !== 'None' && selectedOverlay !== 'Locked Slayer Task|Slayer task' && !!chunkInfo['mapOverlays'][selectedOverlay] && chunkInfo['mapOverlays'][selectedOverlay].forEach((overlayEl, i) => {
-        if ((selectedOverlay !== 'Clues' || selectedOverlayClues[overlayEl.type]) && (selectedOverlayIds.length === 0 || i !== selectedOverlayId) && overlayEl.x >= 1856 && overlayEl.x <= 4287 && overlayEl.y >= 2496 && overlayEl.y <= 4607 && (!unlockedOverlayOnly || (!!tempChunks['unlocked'] && tempChunks['unlocked'].hasOwnProperty(convertToChunkNum(Math.floor((overlayEl.x - 1856)/64), (fullSize / rowSize) - Math.floor((overlayEl.y - 2496)/64) - 1))))) {
+        if ((selectedOverlay !== 'Clues' || selectedOverlayClues[overlayEl.type]) && (selectedOverlayIds.length === 0 || i !== selectedOverlayId) && overlayEl.x >= 1856 && overlayEl.x <= 4608 && overlayEl.y >= 1410 && overlayEl.y <= 4607 && (!unlockedOverlayOnly || (!!tempChunks['unlocked'] && tempChunks['unlocked'].hasOwnProperty(convertToChunkNum(Math.floor((overlayEl.x - 1856)/64), (fullSize / rowSize) - Math.floor((overlayEl.y - 2496)/64) - 1))))) {
             ctxIn.textAlign = 'center';
             ctxIn.font = '900 ' + 36 + 'px "Font Awesome 6 Free"';
             ctxIn.fillStyle = 'white';
@@ -4199,7 +4205,7 @@ $(document).ready(function() {
     const currentDate = new Date(new Date().toLocaleString('en-US', { timeZone: 'Europe/London' }));
     if (currentDate.getDate() === 1 && currentDate.getMonth() === 3) { // April 1
         $('html').addClass('hide-cursor');
-        const cursors = ["Colossal_blade.png", "Curved_bone.png", "Dragon_2h_sword.png", "Dragon_dagger(p++).png", "Dragon_longsword.png", "Dragon_spear.png", "Hill_giant_club.png", "Knife.png", "Mithril_scimitar.png", "Obsidian_cape.png", "Osmumten's_fang.png", "Skull_sceptre_(i).png", "Trout.png", "Twinflame_staff.png", "Wolfbane.png", "Armadyl_godsword.png"];
+        const cursors = ["Ana_in_a_barrel.png", "Bronze_dagger.png", "Dragon_spear.png", "Ek-ZekKil.png", "Elder_shieldbow_(unstrung).png", "Fractured_Staff_of_Armadyl.png", "Grey_chinchompa.png", "Igneous_Kal-Ket.png", "Korasi's_sword.png", "Noxious_longbow.png", "Noxious_scythe.png", "Noxious_staff.png", "Omni_guard.png", "Sunspear_(melee).png", "Varanus's_Mercy.png"];
         let midNumTotal = currentDate.getUTCFullYear() + 7;
         if (!!window.location.href.split('?')[1]) {
             window.location.href.split('?')[1].split('').forEach((letter) => {
@@ -13077,6 +13083,10 @@ let loadData = async function(startup) {
 		
 		if (!rulesTemp.hasOwnProperty('Bakami')) {
             rulesTemp['Bakami'] = rulesTemp.hasOwnProperty('Puro-Puro') ? rulesTemp['Puro-Puro'] : false;
+        }
+		
+		if (!rulesTemp.hasOwnProperty('Secondary Bird Nests')) {
+            rulesTemp['Secondary Bird Nests'] = rulesTemp.hasOwnProperty('Puro-Puro') ? rulesTemp['Puro-Puro'] : false;
         }
         
         if (!rulesTemp.hasOwnProperty('Kill X Boss')) {
