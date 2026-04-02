@@ -16194,7 +16194,7 @@
 			"Brew ~|mead|~": {
 				"Items": ["Honeycomb*", "Ale yeast*", "Beer glass"],
 				"Objects": ["Fermenting vat"],
-				"Level": 14,
+				"Level": 16,
 				"Output": "Mead",
 				"Primary": true,
 				"Priority": 10,
@@ -43831,13 +43831,21 @@
 				"Priority": 1,
 				"Not F2P": true
 			},
-			"Set up a ~|birdhouse|~": {
+			"Set up and loot a ~|birdhouse|~": {
 				"Items": ["Birdhouse"],
-				"Objects": ["Birdhouse plot"],
+				"Objects": ["Birdhouse plot", "Seeds[+]"],
 				"Level": 5,
 				"Output": "Birdhouse loot",
 				"Primary": true,
 				"Priority": 1,
+				"Not F2P": true
+			},
+			"Set up a ~|birdhouse|~": {
+				"Items": ["Birdhouse"],
+				"Objects": ["Birdhouse plot"],
+				"Level": 5,
+				"Primary": false,
+				"Priority": 2,
 				"Not F2P": true
 			},
 			"Catch a ~|Feldip weasel|~": {
@@ -43869,13 +43877,21 @@
 				"Primary": true,
 				"Priority": 1
 			},
-			"Set up an ~|oak birdhouse|~": {
+			"Set up and loot an ~|oak birdhouse|~": {
 				"Items": ["Oak birdhouse"],
-				"Objects": ["Birdhouse plot"],
+				"Objects": ["Birdhouse plot", "Seeds[+]"],
 				"Level": 11,
 				"Output": "Birdhouse loot",
 				"Primary": true,
 				"Priority": 2,
+				"Not F2P": true
+			},
+			"Set up an ~|oak birdhouse|~": {
+				"Items": ["Oak birdhouse"],
+				"Objects": ["Birdhouse plot"],
+				"Level": 11,
+				"Primary": false,
+				"Priority": 3,
 				"Not F2P": true
 			},
 			"Catch a ~|desert devil|~": {
@@ -43964,13 +43980,21 @@
 				"Priority": 1,
 				"Not F2P": true
 			},
-			"Set up a ~|willow birdhouse|~": {
-				"Items": ["Willow birdhouse"],
+			"Set up and loot a ~|willow birdhouse|~": {
+				"Items": ["Willow birdhouse", "Seeds[+]"],
 				"Objects": ["Birdhouse plot"],
 				"Level": 21,
 				"Output": "Birdhouse loot",
 				"Primary": true,
 				"Priority": 1,
+				"Not F2P": true
+			},
+			"Set up a ~|willow birdhouse|~": {
+				"Items": ["Willow birdhouse"],
+				"Objects": ["Birdhouse plot"],
+				"Level": 21,
+				"Primary": false,
+				"Priority": 2,
 				"Not F2P": true
 			},
 			"Catch a ~|young impling|~ in Puro-Puro": {
@@ -44170,13 +44194,21 @@
 				"Primary": true,
 				"Priority": 1
 			},
-			"Set up a ~|teak birdhouse|~": {
-				"Items": ["Teak birdhouse"],
+			"Set up nd loot a ~|teak birdhouse|~": {
+				"Items": ["Teak birdhouse", "Seeds[+]"],
 				"Objects": ["Birdhouse plot"],
 				"Level": 31,
 				"Output": "Birdhouse loot",
 				"Primary": true,
 				"Priority": 2,
+				"Not F2P": true
+			},
+			"Set up a ~|teak birdhouse|~": {
+				"Items": ["Teak birdhouse"],
+				"Objects": ["Birdhouse plot"],
+				"Level": 31,
+				"Primary": false,
+				"Priority": 3,
 				"Not F2P": true
 			},
 			"Catch a ~|green spirit moth|~ with a net": {
@@ -44292,13 +44324,21 @@
 				"Primary": true,
 				"Priority": 1
 			},
-			"Set up a ~|maple birdhouse|~": {
-				"Items": ["Maple birdhouse"],
+			"Set up and loot a ~|maple birdhouse|~": {
+				"Items": ["Maple birdhouse", "Seeds[+]"],
 				"Objects": ["Birdhouse plot"],
 				"Level": 41,
 				"Output": "Birdhouse loot",
 				"Primary": true,
 				"Priority": 2,
+				"Not F2P": true
+			},
+			"Set up a ~|maple birdhouse|~": {
+				"Items": ["Maple birdhouse"],
+				"Objects": ["Birdhouse plot"],
+				"Level": 41,
+				"Primary": false,
+				"Priority": 3,
 				"Not F2P": true
 			},
 			"Catch an ~|essence impling|~ in Puro-Puro": {
@@ -44479,13 +44519,21 @@
 				"Primary": true,
 				"Priority": 2
 			},
-			"Set up an ~|acadia birdhouse|~": {
-				"Items": ["Acadia birdhouse"],
+			"Set up and loot an ~|acadia birdhouse|~": {
+				"Items": ["Acadia birdhouse", "Seeds[+]"],
 				"Objects": ["Birdhouse plot"],
 				"Level": 51,
 				"Output": "Birdhouse loot",
 				"Primary": true,
 				"Priority": 2,
+				"Not F2P": true
+			},
+			"Set up an ~|acadia birdhouse|~": {
+				"Items": ["Acadia birdhouse"],
+				"Objects": ["Birdhouse plot"],
+				"Level": 51,
+				"Primary": false,
+				"Priority": 3,
 				"Not F2P": true
 			},
 			"Wear the ~|kyatt outfit|~": {
@@ -44613,13 +44661,21 @@
 				"Primary": true,
 				"Priority": 1
 			},
-			"Set up a ~|mahogany birdhouse|~": {
-				"Items": ["Mahogany birdhouse"],
+			"Set up and loot a ~|mahogany birdhouse|~": {
+				"Items": ["Mahogany birdhouse", "Seeds[+]"],
 				"Objects": ["Birdhouse plot"],
 				"Level": 61,
 				"Output": "Birdhouse loot",
 				"Primary": true,
 				"Priority": 1,
+				"Not F2P": true
+			},
+			"Set up a ~|mahogany birdhouse|~": {
+				"Items": ["Mahogany birdhouse"],
+				"Objects": ["Birdhouse plot"],
+				"Level": 61,
+				"Primary": false,
+				"Priority": 2,
 				"Not F2P": true
 			},
 			"Catch a ~|carnivorous chinchompa|~": {
@@ -44819,13 +44875,21 @@
 				"Primary": true,
 				"Priority": 2
 			},
-			"Set up a ~|yew birdhouse|~": {
-				"Items": ["Yew birdhouse"],
+			"Set up and loot a ~|yew birdhouse|~": {
+				"Items": ["Yew birdhouse", "Seeds[+]"],
 				"Objects": ["Birdhouse plot"],
 				"Level": 71,
 				"Output": "Birdhouse loot",
 				"Primary": true,
 				"Priority": 3,
+				"Not F2P": true
+			},
+			"Set up a ~|yew birdhouse|~": {
+				"Items": ["Yew birdhouse"],
+				"Objects": ["Birdhouse plot"],
+				"Level": 71,
+				"Primary": false,
+				"Priority": 4,
 				"Not F2P": true
 			},
 			"Catch a ~|charm sprite|~": {
@@ -45200,13 +45264,21 @@
 				"Primary": true,
 				"Priority": 1
 			},
-			"Set up a ~|magic birdhouse|~": {
-				"Items": ["Magic birdhouse"],
+			"Set up and loot a ~|magic birdhouse|~": {
+				"Items": ["Magic birdhouse", "Seeds[+]"],
 				"Objects": ["Birdhouse plot"],
 				"Level": 81,
 				"Output": "Birdhouse loot",
 				"Primary": true,
 				"Priority": 2,
+				"Not F2P": true
+			},
+			"Set up a ~|magic birdhouse|~": {
+				"Items": ["Magic birdhouse"],
+				"Objects": ["Birdhouse plot"],
+				"Level": 81,
+				"Primary": false,
+				"Priority": 3,
 				"Not F2P": true
 			},
 			"Catch a ~|dragon impling|~ in Puro-Puro": {
@@ -45624,13 +45696,21 @@
 				"Primary": true,
 				"Priority": 3
 			},
-			"Set up an ~|elder birdhouse|~": {
-				"Items": ["Elder birdhouse"],
+			"Set up and loot an ~|elder birdhouse|~": {
+				"Items": ["Elder birdhouse", "Seeds[+]"],
 				"Objects": ["Birdhouse plot"],
 				"Level": 91,
 				"Output": "Birdhouse loot",
 				"Primary": true,
 				"Priority": 4,
+				"Not F2P": true
+			},
+			"Set up an ~|elder birdhouse|~": {
+				"Items": ["Elder birdhouse"],
+				"Objects": ["Birdhouse plot"],
+				"Level": 91,
+				"Primary": false,
+				"Priority": 5,
 				"Not F2P": true
 			},
 			"Catch ~|enriched fungal spore|~": {
@@ -45893,13 +45973,21 @@
 				"Primary": true,
 				"Priority": 1
 			},
-			"Set up an ~|eternal magic birdhouse|~": {
-				"Items": ["Eternal magic birdhouse"],
+			"Set up and loot an ~|eternal magic birdhouse|~": {
+				"Items": ["Eternal magic birdhouse", "Seeds[+]"],
 				"Objects": ["Birdhouse plot"],
 				"Level": 101,
 				"Output": "Birdhouse loot",
 				"Primary": true,
 				"Priority": 1,
+				"Not F2P": true
+			},
+			"Set up an ~|eternal magic birdhouse|~": {
+				"Items": ["Eternal magic birdhouse"],
+				"Objects": ["Birdhouse plot"],
+				"Level": 101,
+				"Primary": false,
+				"Priority": 2,
 				"Not F2P": true
 			},
 			"Barehand catch a ~|sugilite moth|~": {
@@ -45909,7 +45997,7 @@
 					"Agility": 96
 				},
 				"Primary": true,
-				"Priority": 2
+				"Priority": 3
 			},
 			"Hunt a ~|giant spiked kebbit|~ during Big Game Hunter": {
 				"NPCs": ["Giant spiked kebbit"],
@@ -102555,9 +102643,9 @@
 			},
 			"~|Visions of Havenhythe|~ 6": {
 				"BaseQuest": "Visions of Havenhythe",
-				"Description": "Kill 10 juvinile boulder crabs and bring the limestone to Adam",
+				"Description": "Kill 10 juvenile boulder crabs and bring the limestone to Adam",
 				"Chunks": ["16692"],
-				"Monsters": ["Juvinile boulder crab"],
+				"Monsters": ["Juvenile boulder crab"],
 				"Tasks": {
 					"~|Visions of Havenhythe|~ 5": "Quest"
 				}
@@ -126797,7 +126885,8 @@
 				"Chunks": ["10040"],
 				"Items": ["Blue dragonhide body", "Blue dragonhide vambraces"],
 				"Tasks": {
-					"Build a hard ~|hidey-hole|~": "Construction"
+					"Build a hard ~|hidey-hole|~": "Construction",
+					"~|Horror from the Deep|~ 3": "Quest"
 				}
 			},
 			"~|hidey-hole|~: Jamila's craft stall in Sophanem": {
@@ -175701,7 +175790,7 @@
 						"Guard": 3,
 						"Advisor Ghrim": 1,
 						"Derrik": 1,
-						"Farmer": 1,
+						"Farmer (Miscellania)": 1,
 						"Flower Girl": 1,
 						"Fishmonger": 1,
 						"Greengrocer": 1,
@@ -183094,7 +183183,7 @@
 				"Ayleth Beaststalker": 1,
 				"Jack Oval": 1,
 				"Nicholas Angle": 1,
-				"Farmer": 2,
+				"Farmer (Taverley)": 2,
 				"Herbalist": 1,
 				"Druid": 3,
 				"Druidess": 2,
@@ -186659,7 +186748,7 @@
 			"NPC": {
 				"Morgan": 1,
 				"Crow": 12,
-				"Farmer": 1,
+				"Farmer (Draynor Village)": 1,
 				"Maris": 1,
 				"Potter": 1,
 				"Man (Draynor Village)": 1,
@@ -189113,7 +189202,7 @@
 					"NPC": {
 						"Seth Groats": 1,
 						"Crow": 3,
-						"Farmer": 1,
+						"Farmer (Varrock)": 1,
 						"Vasquen": 1,
 						"Gillie Groats": 1,
 						"Dwarf": 1,
@@ -198154,7 +198243,7 @@
 						"Maya": 1
 					},
 					"Monster": {
-						"Juvinile boulder crab": 1
+						"Juvenile boulder crab": 1
 					},
 					"Quest": {
 						"Maya Use Your Fish Farm?": "first",
@@ -198566,7 +198655,7 @@
 						"Old Man Jocko": 1
 					},
 					"Monster": {
-						"Juvinile boulder crab": 4
+						"Juvenile boulder crab": 4
 					},
 					"Spawn": {
 						"Fishing bait": 4,
@@ -198606,7 +198695,7 @@
 						"Candle-maker Zeeva": 1
 					},
 					"Monster": {
-						"Juvinile boulder crab": 8
+						"Juvenile boulder crab": 8
 					},
 					"Spawn": {
 						"Seaweed": 6,
@@ -198642,7 +198731,7 @@
 				"Limestone rock": 2
 			},
 			"Monster": {
-				"Juvinile boulder crab": 4
+				"Juvenile boulder crab": 4
 			},
 			"Connect": {
 				"54": true
@@ -200040,7 +200129,7 @@
 			"NPC": {
 				"Gil": 1,
 				"Master Farmer Lilah": 1,
-				"Farmer": 1,
+				"Farmer (Marigold Farm)": 1,
 				"Demetrius": 1,
 				"Tool leprechaun": 1,
 				"Ben (Wiz Kid)": 1,
@@ -207521,7 +207610,7 @@
 			"NPC": {
 				"Mud": 326,
 				"Rabbit": 8,
-				"Farmer": 24,
+				"Farmer (Vinesweeper)": 24,
 				"Farmer Blinkin": 1,
 				"Mrs. Winkin": 1
 			},
@@ -209939,7 +210028,7 @@
 				"Zamorakian hunter": 1,
 				"Zamorakian ritual keeper": 1,
 				"Berserk Archaeologist": 1,
-				"Cerberus Juvinile": 1,
+				"Cerberus Juvenile": 1,
 				"Denizen of Infernus": 1,
 				"Desha, Guardian of the Hounds": 1,
 				"Maelstrom, Raging Waterfiend": 1,
@@ -219510,6 +219599,97 @@
 			"Secateurs[+]": [
 				"Magic secateurs",
 				"Secateurs"
+			],
+			"Seeds[+]": [
+				"Potato seed",
+				"Onion seed",
+				"Cabbage seed",
+				"Tomato seed",
+				"Sweetcorn seed",
+				"Strawberry seed",
+				"Watermelon seed",
+				"Snape grass seed",
+				"Sunchoke seed",
+				"Fly trap seed",
+				"Marigold seed",
+				"Rosemary seed",
+				"Nasturtium seed",
+				"Woad seed",
+				"Limpwurt seed",
+				"White lily seed",
+				"Butterfly flower seed",
+				"Starbloom flower seed",
+				"Guam seed",
+				"Marrentill seed",
+				"Tarromin seed",
+				"Harralander seed",
+				"Gout tuber",
+				"Ranarr seed",
+				"Spirit weed seed",
+				"Toadflax seed",
+				"Irit seed",
+				"Wergali seed",
+				"Aventoe seed",
+				"Kwuarm seed",
+				"Bloodweed seed",
+				"Snapdragon seed",
+				"Cadantine seed",
+				"Lantadyme seed",
+				"Arbuck seed",
+				"Dwarf weed seed",
+				"Torstol seed",
+				"Fellstalk seed",
+				"Barley seed",
+				"Hammerstone seed",
+				"Asgarnian seed",
+				"Wendlewick seed",
+				"Jute seed",
+				"Yanillian seed",
+				"Krandorian seed",
+				"Wildblood seed",
+				"Grapevine seed",
+				"Reed seed",
+				"Godly grapevine seed",
+				"Redberry seed",
+				"Cadavaberry seed",
+				"Dwellberry seed",
+				"Jangerberry seed",
+				"Whiteberry seed",
+				"Poison ivy seed",
+				"Barberry seed",
+				"Avocado seed",
+				"Mango seed",
+				"Lychee seed",
+				"Acorn",
+				"Willow seed",
+				"Maple seed",
+				"Yew seed",
+				"Magic seed",
+				"Apple tree seed",
+				"Banana tree seed",
+				"Orange tree seed",
+				"Curry tree seed",
+				"Pineapple seed",
+				"Papaya tree seed",
+				"Palm tree seed",
+				"Ciku seed",
+				"Guarana seed",
+				"Carambola seed",
+				"Cactus seed",
+				"Prickly pear seed",
+				"Potato cactus seed",
+				"Dragonfruit seed",
+				"Golden dragonfruit seed",
+				"Bittercap mushroom spore",
+				"Morchella mushroom spore",
+				"Stinkshroom spore",
+				"Tombshroom spore",
+				"Evil turnip seed",
+				"Cave nightshade seed",
+				"Calquat tree seed",
+				"Spirit seed",
+				"Elder seed",
+				"Money tree seed"
 			],
 			"SecondAgeMageArmour[+]": [
 				"Second-age mage mask",
@@ -253989,7 +254169,7 @@
 				"1": "9/128"
 			}
 		},
-		"Juvinile boulder crab": {
+		"Juvenile boulder crab": {
 			"Limestone": {
 				"1": "Common"
 			},
@@ -283258,6 +283438,11 @@
 			"Commendation Rewards": {
 				"10537": [{
 					"Pest Control rewards": "Nonskill"
+				}]
+			},
+			"Construction Supplies (Fort Forinthry)": {
+				"13111": [{
+					"~|New Foundations|~ 2": "Quest"
 				}]
 			},
 			"Culinaromancer's Chest": {
