@@ -1105,18 +1105,20 @@ let settingStructure = {
         "shiftUnlock": true,
         "rollWarning": true
     },
-    "Customization": {
+    "Visual Customization": {
         "theme": true,
-        "startingChunk": true,
-        "ids": true,
         "cinematicRoll": true,
-        "newTasks": true,
+        "ids": true,
         "highvis": true,
         "numTasksPercent": true,
         "completedTaskStrikethrough": true,
         "completedTaskColor": true,
         "defaultStickerColor": true,
         "unlockedBorderColor": true
+    },
+    "Miscellaneous": {
+        "startingChunk": true,
+        "newTasks": true
     }
 };                                                                              // Structure of the settings
 
@@ -1578,10 +1580,10 @@ let topbarElements = {
     'Sandbox Mode': `<div><span class='noscroll' onclick="enableTestMode()"><i class="gosandbox fa-solid fa-flask" title='Sandbox Mode'></i></span></div>`,
 };
 
-let currentVersion = '6.9.43';
-let currentEnforcedVersion = '6.9.39.1';
+let currentVersion = '6.9.45';
+let currentEnforcedVersion = '6.9.45';
 let patchNotesVersion = '6.9.8.2';
-let updateLevel = 'difference';
+let updateLevel = 'maintenance-mode';
 
 // Patreon Test Server Data
 let onTestServer = false;
@@ -1728,7 +1730,7 @@ mapImg.addEventListener("load", e => {
         centerCanvas('quick');
     }
 });
-mapImg.src = "runescape_world_map.png?v=6.9.43";
+mapImg.src = "runescape_world_map.png?v=6.9.45";
 
 // Rounded rectangle
 CanvasRenderingContext2D.prototype.roundRect = function (x, y, w, h, r) {
@@ -3314,7 +3316,7 @@ let pickCanvas = function(both, override) {
         helpFunc();
         return;
     }
-    if (settings['rollWarning'] && !override) {
+    if (settings['rollWarning'] && !override && !testMode) {
         warnPickChunk(both);
         return;
     }
@@ -3653,7 +3655,7 @@ let calcCurrentChallengesCanvas = function(useOld, proceed, fromLoadData, inputT
         setCalculating('.panel-active', useOld);
         setCurrentChallenges(['No tasks currently backlogged.'], ['No tasks currently completed.'], true, true);
         myWorker.terminate();
-        myWorker = new Worker("./worker.js?v=6.9.43");
+        myWorker = new Worker("./worker.js?v=6.9.45");
         myWorker.onmessage = workerOnMessage;
         myWorker.postMessage(['current', tempChunks['unlocked'], rules, chunkInfo, skillNames, processingSkill, maybePrimary, combatSkills, monstersPlus, objectsPlus, chunksPlus, itemsPlus, mixPlus, npcsPlus, tasksPlus, tools, elementalRunes, manualTasks, completedChallenges, backlog, "1/" + rules['Rare Drop Amount'], universalPrimary, elementalStaves, rangedItems, boneItems, highestCurrent, dropTables, possibleAreas, randomLoot, magicTools, bossLogs, bossMonsters, minigameShops, manualEquipment, checkedChallenges, backloggedSources, altChallenges, manualMonsters, slayerLocked, passiveSkill, f2pSkills, assignedXpRewards, mid === diary2Tier, manualAreas, "1/" + rules['Secondary Primary Amount'], mid === manualAreasOnly, tempSections, maxSkill, userTasks, manualPrimary, updateLevel]);
         workersOut['current'] = true;
@@ -3957,8 +3959,8 @@ $(document).ready(function() {
 // ------------------------------------------------------------
 
 // Recieve message from worker
-let myWorker = new Worker("./worker.js?v=6.9.43");
-let myWorker2 = new Worker("./worker.js?v=6.9.43");
+let myWorker = new Worker("./worker.js?v=6.9.45");
+let myWorker2 = new Worker("./worker.js?v=6.9.45");
 let workerOnMessage = function(e) {
     if (e.data[0] === 'reload') {
         window.location.reload();
@@ -6925,7 +6927,7 @@ let calcFutureChallenges = function() {
     }
     tempSections = combineJSONs(tempSections, manualSections);
     myWorker2.terminate();
-    myWorker2 = new Worker("./worker.js?v=6.9.43");
+    myWorker2 = new Worker("./worker.js?v=6.9.45");
     myWorker2.onmessage = workerOnMessage;
     myWorker2.postMessage(['future', chunks, rules, chunkInfo, skillNames, processingSkill, maybePrimary, combatSkills, monstersPlus, objectsPlus, chunksPlus, itemsPlus, mixPlus, npcsPlus, tasksPlus, tools, elementalRunes, manualTasks, completedChallenges, backlog, "1/" + rules['Rare Drop Amount'], universalPrimary, elementalStaves, rangedItems, boneItems, highestCurrent, dropTables, possibleAreas, randomLoot, magicTools, bossLogs, bossMonsters, minigameShops, manualEquipment, checkedChallenges, backloggedSources, altChallenges, manualMonsters, slayerLocked, passiveSkill, f2pSkills, assignedXpRewards, mid === diary2Tier, manualAreas, "1/" + rules['Secondary Primary Amount'], mid === manualAreasOnly, tempSections, maxSkill, userTasks, manualPrimary, updateLevel]);
     workersOut['future'] = infoLockedId;
@@ -12051,7 +12053,7 @@ let unbacklogChallenge = function(challenge, skill) {
         $(`.panel-backlog .challenge.${skill + '-' + challenge.replaceAll(' ', '_').replace(/[!"#$%&'()*+,.\/:;<=>?@\[\\\]\^\`{|}~]/g, '').toLowerCase() + '-challenge'}`).remove();
     } else {
         $(`.panel-backlog .challenge.${skill}-challenge`).each(function(index) {
-            if ($(this).text().includes(challenge.replaceAll(/\|/g, '').replaceAll(/~/g, '').replaceAll(/\./g, '').replaceAll(/\:/g, '').replaceAll(/\//g, ''))) {
+            if ($(this).text().replaceAll(/\|/g, '').replaceAll(/~/g, '').replaceAll(/\./g, '').replaceAll(/\:/g, '').replaceAll(/\//g, '').includes(challenge.replaceAll(/\|/g, '').replaceAll(/~/g, '').replaceAll(/\./g, '').replaceAll(/\:/g, '').replaceAll(/\//g, ''))) {
                 $(this).remove();
             }
         });
@@ -12359,6 +12361,18 @@ let toggleChangePin2NewVis = function() {
     $('.pin.old2.third').attr('type', $('.pin.old2.third').attr('type') === 'text' ? 'password' : 'text');
 }
 
+// Set the site to maintenance mode
+let setUnderMaintenance = function() {
+    atHome = true;
+    $('.loading, .ui-loader-header').remove();
+    $('.menu, .menu2, .menu3, .menu4, .menu5, .menu6, .menu7, .menu8, .menu9, .menu10, .settings-menu, .topnav, #beta, .hiddenInfo, #entry-menu, #highscore-menu, #highscore-menu2, #import-menu, #help-menu, .canvasDiv, .menu11, .menu12, .menu13, .menu14').hide();
+    $('#home-menu, .entry-home-menu-container, .entry-home-menu-extra').hide();
+    onMobile && $('#amaintenance-menu').addClass('mobile');
+    $('.background-img').show();
+    $('#amaintenance-menu').show();
+    $('html, body').addClass('amaintenance');
+}
+
 // Checks the MID from the url
 let checkMID = function(mid) {
     if (mid === 'change-password') {
@@ -12635,6 +12649,11 @@ let loadData = async function(startup) {
     !!chunkInfo['challenges']['Quest'] && Object.keys(chunkInfo['challenges']['Quest']).forEach((name) => {
         if (chunkInfo['challenges']['Quest'][name].hasOwnProperty('QuestPoints')) {
             questLastStep['~|' + chunkInfo['challenges']['Quest'][name]['BaseQuest'] + '|~ Complete the quest'] = name;
+        }
+    });
+    databaseRef.child('underMaintenance').on('value', function(snap) {
+        if (snap.val()) {
+            setUnderMaintenance();
         }
     });
     myRef.child('chunkOrder').once('value', function(snap) {

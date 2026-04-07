@@ -9,7 +9,7 @@
 
     gtag('config', 'G-8P0V9GSFJ2');
   </script>
-  <link rel="stylesheet" href="./index.css?v=6.9.43" />
+  <link rel="stylesheet" href="./index.css?v=6.9.45" />
   <meta charset="UTF-8">
   <meta name="description" content="The Chunk Picker RS3 is an all-in-one companion tool to the Runescape 3 unofficial gamemode: OneChunkMan. The site allows you to randomly roll chunks, get chunk tasks, and track and share your progress with others.">
   <meta name="author" content="Source Chunk">
@@ -26,10 +26,11 @@
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/lodash@4.17.10/lodash.min.js"></script>
-  <script src="https://www.gstatic.com/firebasejs/6.6.0/firebase-app.js"></script>
-  <script src="https://www.gstatic.com/firebasejs/6.6.0/firebase-auth.js"></script>
-  <script src="https://www.gstatic.com/firebasejs/6.6.0/firebase-database.js"></script>
-  <script src="https://www.gstatic.com/firebasejs/6.6.0/firebase-functions.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/8.10.1/firebase-app.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/8.10.1/firebase-auth.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/8.10.1/firebase-database.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/8.10.1/firebase-functions.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/8.10.1/firebase-storage.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/dompurify/3.0.3/purify.min.js"></script>
   <script>
@@ -57,14 +58,14 @@
 <span style="font-family: Roboto Condensed; visibility: hidden">Roboto Condensed</span>
 
 <img class='background-img' draggable='false' src='./Background-chunk.PNG' />
-<img id='mapImg' style="display:none" src='./runescape_world_map.png?v=6.9.43' />
+<img id='mapImg' style="display:none" src='./runescape_world_map.png?v=6.9.45' />
 
 <div class='loading'><div class='loading-inner'></div><div class='loading-hint-1'>Chunk Picker RS3</div><div class='loading-hint-2'></div></div>
 
 <div class='body' data-role="page" ondragstart="() => {return false;}" ondrop="() => {return false;}">
-  <script src="./tooltip.js?v=6.9.43"></script>
-  <script src="./modal.js?v=6.9.43"></script>
-  <script src="./index.js?v=6.9.43"></script>
+  <script src="./tooltip.js?v=6.9.45"></script>
+  <script src="./modal.js?v=6.9.45"></script>
+  <script src="./index.js?v=6.9.45"></script>
   <ul class='active-context-menu'>
     <li onclick="switchActiveContext(event, 'backlog')">Backlog</li>
     <li onclick="switchActiveContext(event, 'backlog note')">Backlog Options</li>
@@ -1311,6 +1312,20 @@
           <div><b><a class='noscroll link' href='?patch-notes'>/?patch-notes</a></b> - An archive of past patch notes for the website</div>
           <div><b><a class='noscroll link' href='?change-password'>/?change-password</a></b> - A page to change the password to your map</div>
         </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div id='amaintenance-menu' style="display:none">
+  <div id='page13' class='content13'>
+    <div>
+      <div class='title'><i class="fa-solid fa-screwdriver-wrench noscroll"></i> Maintenance <i class="fa-solid fa-screwdriver-wrench noscroll"></i></div>
+    </div>
+    <div>
+      <div class='amaintenance-body'>
+        <h4>The Chunk Picker is currently down for maintenance.</h4>
+        <p>We'll try to get the site up and working again as soon as we can.<br />Thank you for your patience!</p>
       </div>
     </div>
   </div>
