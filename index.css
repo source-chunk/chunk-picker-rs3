@@ -1220,6 +1220,10 @@ button.menu2 {
     padding-bottom: 20px;
 }
 
+.mobile .content11 {
+    width: 95%;
+}
+
 .a404-sub-body {
     text-align: left;
     padding: 0px 20px;
@@ -1238,6 +1242,10 @@ button.menu2 {
     overflow-y: auto;
     margin-bottom: 100px;
     padding-bottom: 20px;
+}
+
+.mobile .content13 {
+    width: 95%;
 }
 
 .mobile #page8 {
