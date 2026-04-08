@@ -6287,7 +6287,7 @@ let calcBIS = function(completedOnly) {
                     if (chunkInfo['codeItems']['ammoTools']['No ammo'][bestEquipment['off-hand weapon']]) {
                         offAmmoDamage = 0;
                     }
-                    weaponShieldPower = chunkInfo['equipment'][bestEquipment['main hand weapon']].accuracy + (!!mainAmmoDamage ? Math.min(chunkInfo['equipment'][bestEquipment['main hand weapon']].ability_damage, (2/3) * mainAmmoDamage) : chunkInfo['equipment'][bestEquipment['main hand weapon']].ability_damage) + (!!offAmmoDamage ? Math.min(chunkInfo['equipment'][bestEquipment['off-hand weapon']].ability_damage, (1/3) * chunkInfo['equipment'][offAmmoDamage].ability_damage) : chunkInfo['equipment'][bestEquipment['off-hand weapon']].ability_damage);
+                    weaponShieldPower = chunkInfo['equipment'][bestEquipment['main hand weapon']].accuracy + (!!mainAmmoDamage ? Math.min(chunkInfo['equipment'][bestEquipment['main hand weapon']].ability_damage, (2/3) * mainAmmoDamage) : chunkInfo['equipment'][bestEquipment['main hand weapon']].ability_damage) + (!!offAmmoDamage ? Math.min(chunkInfo['equipment'][bestEquipment['off-hand weapon']].ability_damage, (1/3) * offAmmoDamage) : chunkInfo['equipment'][bestEquipment['off-hand weapon']].ability_damage);
                 } else {
                     weaponShieldPower = chunkInfo['equipment'][bestEquipment['main hand weapon']].accuracy + (!!bestAmmoSaved['main hand weapon'] ? Math.min(chunkInfo['equipment'][bestEquipment['main hand weapon']].ability_damage, chunkInfo['equipment'][bestAmmoSaved['main hand weapon']].ability_damage) : chunkInfo['equipment'][bestEquipment['main hand weapon']].ability_damage);
                 }
