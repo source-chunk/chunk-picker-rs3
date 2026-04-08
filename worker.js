@@ -5817,13 +5817,19 @@ let calcBIS = function(completedOnly) {
                             }
                         });
                         if (!(Object.keys(chunkInfo['codeItems']['ammoTools']).filter(ammo => { return chunkInfo['codeItems']['ammoTools'][ammo].hasOwnProperty(equip) }).length > 0) || bestAmmo !== null || (Object.keys(chunkInfo['codeItems']['ammoTools']).filter(ammo => { return chunkInfo['codeItems']['ammoTools'][ammo].hasOwnProperty(equip) }).length === 1 && Object.keys(chunkInfo['codeItems']['ammoTools']).filter(ammo => { return chunkInfo['codeItems']['ammoTools'][ammo].hasOwnProperty(equip) })[0] === 'No ammo')) {
+                            let ammoMultiplier = 1;
+                            if (chunkInfo['equipment'][equip].slot === 'main hand weapon') {
+                                ammoMultiplier = (2 / 3);
+                            } else if (chunkInfo['equipment'][equip].slot === 'off-hand weapon') {
+                                ammoMultiplier = (1 / 3);
+                            }
                             if (!completedOnly && (chunkInfo['equipment'][equip].accuracy > 0 && chunkInfo['equipment'][equip].ability_damage > 0)) {
                                 if (!bisUpgrades[skill.replaceAll(' ', '_') + '-' + chunkInfo['equipment'][equip].slot]) {
                                     bisUpgrades[skill.replaceAll(' ', '_') + '-' + chunkInfo['equipment'][equip].slot] = {};
                                 }
-                                bisUpgrades[skill.replaceAll(' ', '_') + '-' + chunkInfo['equipment'][equip].slot][equip] = chunkInfo['equipment'][equip].accuracy + chunkInfo['equipment'][equip].ability_damage + (!!bestAmmo ? chunkInfo['equipment'][bestAmmo].ability_damage : 0);
+                                bisUpgrades[skill.replaceAll(' ', '_') + '-' + chunkInfo['equipment'][equip].slot][equip] = chunkInfo['equipment'][equip].accuracy + (!!bestAmmo ? Math.min(chunkInfo['equipment'][equip].ability_damage, ammoMultiplier * chunkInfo['equipment'][bestAmmo].ability_damage) : chunkInfo['equipment'][equip].ability_damage);
                             }
-                            if ((!bestEquipment[chunkInfo['equipment'][equip].slot] || ((chunkInfo['equipment'][equip].accuracy + chunkInfo['equipment'][equip].ability_damage + (!!bestAmmo ? chunkInfo['equipment'][bestAmmo].ability_damage : 0)) > (chunkInfo['equipment'][bestEquipment[chunkInfo['equipment'][equip].slot]].accuracy + chunkInfo['equipment'][bestEquipment[chunkInfo['equipment'][equip].slot]].ability_damage + (!!bestAmmoSaved[chunkInfo['equipment'][equip].slot] ? chunkInfo['equipment'][bestAmmoSaved[chunkInfo['equipment'][equip].slot]].ability_damage : 0)))) && chunkInfo['equipment'][equip].ability_damage > 0) {
+                            if ((!bestEquipment[chunkInfo['equipment'][equip].slot] || ((chunkInfo['equipment'][equip].accuracy + (!!bestAmmo ? Math.min(chunkInfo['equipment'][equip].ability_damage, ammoMultiplier * chunkInfo['equipment'][bestAmmo].ability_damage) : chunkInfo['equipment'][equip].ability_damage)) > (chunkInfo['equipment'][bestEquipment[chunkInfo['equipment'][equip].slot]].accuracy + (!!bestAmmoSaved[chunkInfo['equipment'][equip].slot] ? Math.min(chunkInfo['equipment'][bestEquipment[chunkInfo['equipment'][equip].slot]], chunkInfo['equipment'][bestEquipment[chunkInfo['equipment'][equip].slot]].ability_damage) : chunkInfo['equipment'][bestEquipment[chunkInfo['equipment'][equip].slot]].ability_damage)))) && chunkInfo['equipment'][equip].ability_damage > 0) {
                                 let tempTempValid = false;
                                 Object.keys(baseChunkData['items'][equip]).filter(source => !baseChunkData['items'][equip][source].includes('-') || !chunkInfo['challenges'][baseChunkData['items'][equip][source].split('-')[1]] || !chunkInfo['challenges'][baseChunkData['items'][equip][source].split('-')[1]][source] || (!chunkInfo['challenges'][baseChunkData['items'][equip][source].split('-')[1]][source]['ProcessingSource'] && !processingSkill[baseChunkData['items'][equip][source].split('-')[1]]) || rules['Wield Crafted Items'] || baseChunkData['items'][equip][source].split('-')[1] === 'Slayer' || (chunkInfo['challenges'].hasOwnProperty(baseChunkData['items'][equip][source].split('-')[1]) && chunkInfo['challenges'][baseChunkData['items'][equip][source].split('-')[1]].hasOwnProperty(source) && chunkInfo['challenges'][baseChunkData['items'][equip][source].split('-')[1]][source].hasOwnProperty('NoXp'))).length > 0 && (tempTempValid = true);
                                 tempTempValid && (!backlog['BiS'] || (!backlog['BiS'].hasOwnProperty('Obtain' + article + '~|' + formatEquip(equip) + '|~') && !backlog['BiS'].hasOwnProperty('Obtain' + article + '~|' + formatEquip(equip).replaceAll('#', '/') + '|~'))) && (bestEquipment[chunkInfo['equipment'][equip].slot] = equip);
@@ -5836,7 +5842,7 @@ let calcBIS = function(completedOnly) {
                                 } else if (bestEquipment[chunkInfo['equipment'][equip].slot] === equip) {
                                     delete bestAmmoSaved[chunkInfo['equipment'][equip].slot];
                                 }
-                            } else if ((!bestEquipment[chunkInfo['equipment'][equip].slot] || ((chunkInfo['equipment'][equip].accuracy + chunkInfo['equipment'][equip].ability_damage + (!!bestAmmo ? chunkInfo['equipment'][bestAmmo].ability_damage : 0)) === (chunkInfo['equipment'][bestEquipment[chunkInfo['equipment'][equip].slot]].accuracy + chunkInfo['equipment'][bestEquipment[chunkInfo['equipment'][equip].slot]].ability_damage + (!!bestAmmoSaved[chunkInfo['equipment'][equip].slot] ? chunkInfo['equipment'][bestAmmoSaved[chunkInfo['equipment'][equip].slot]].ability_damage : 0)))) && chunkInfo['equipment'][equip].ability_damage > 0) {
+                            } else if ((!bestEquipment[chunkInfo['equipment'][equip].slot] || ((chunkInfo['equipment'][equip].accuracy + (!!bestAmmo ? Math.min(chunkInfo['equipment'][equip].ability_damage, ammoMultiplier * chunkInfo['equipment'][bestAmmo].ability_damage) : chunkInfo['equipment'][equip].ability_damage)) === (chunkInfo['equipment'][bestEquipment[chunkInfo['equipment'][equip].slot]].accuracy + (!!bestAmmoSaved[chunkInfo['equipment'][equip].slot] ? Math.min(chunkInfo['equipment'][bestEquipment[chunkInfo['equipment'][equip].slot]], chunkInfo['equipment'][bestEquipment[chunkInfo['equipment'][equip].slot]].ability_damage) : chunkInfo['equipment'][bestEquipment[chunkInfo['equipment'][equip].slot]].ability_damage)))) && (chunkInfo['equipment'][equip].accuracy + (!!bestAmmo ? Math.min(chunkInfo['equipment'][equip].ability_damage, ammoMultiplier * chunkInfo['equipment'][bestAmmo].ability_damage) : chunkInfo['equipment'][equip].ability_damage)) > 0) {
                                 let tempTempValid = false;
                                 Object.keys(baseChunkData['items'][equip]).filter(source => !baseChunkData['items'][equip][source].includes('-') || !chunkInfo['challenges'][baseChunkData['items'][equip][source].split('-')[1]] || !chunkInfo['challenges'][baseChunkData['items'][equip][source].split('-')[1]][source] || (!chunkInfo['challenges'][baseChunkData['items'][equip][source].split('-')[1]][source]['ProcessingSource'] && !processingSkill[baseChunkData['items'][equip][source].split('-')[1]]) || rules['Wield Crafted Items'] || baseChunkData['items'][equip][source].split('-')[1] === 'Slayer' || (chunkInfo['challenges'].hasOwnProperty(baseChunkData['items'][equip][source].split('-')[1]) && chunkInfo['challenges'][baseChunkData['items'][equip][source].split('-')[1]].hasOwnProperty(source) && chunkInfo['challenges'][baseChunkData['items'][equip][source].split('-')[1]][source].hasOwnProperty('NoXp'))).length > 0 && (tempTempValid = true);
                                 if (tempTempValid && (!backlog['BiS'] || (!backlog['BiS'].hasOwnProperty('Obtain' + article + '~|' + formatEquip(equip) + '|~') && !backlog['BiS'].hasOwnProperty('Obtain' + article + '~|' + formatEquip(equip).replaceAll('#', '/') + '|~')))) {
@@ -6254,17 +6260,40 @@ let calcBIS = function(completedOnly) {
             }
         } else if (skill === 'Ranged') {
             if (bestEquipment.hasOwnProperty('2h weapon')) {
-                twoHPower = chunkInfo['equipment'][bestEquipment['2h weapon']].accuracy + chunkInfo['equipment'][bestEquipment['2h weapon']].ability_damage;
+                twoHPower = chunkInfo['equipment'][bestEquipment['2h weapon']].accuracy + (!!bestAmmoSaved['2h weapon'] ? Math.min(chunkInfo['equipment'][bestEquipment['2h weapon']].ability_damage, chunkInfo['equipment'][bestAmmoSaved['2h weapon']].ability_damage) : chunkInfo['equipment'][bestEquipment['2h weapon']].ability_damage);
             }
             if (bestEquipment.hasOwnProperty('main hand weapon')) {
                 if (bestEquipment.hasOwnProperty('off-hand weapon')) {
-                    weaponShieldPower = ((chunkInfo['equipment'][bestEquipment['main hand weapon']].accuracy + chunkInfo['equipment'][bestEquipment['off-hand weapon']].accuracy) / 2) + (chunkInfo['equipment'][bestEquipment['main hand weapon']].ability_damage + chunkInfo['equipment'][bestEquipment['off-hand weapon']].ability_damage);
+                    let mainAmmoDamage = 0;
+                    let offAmmoDamage = 0;
+                    if (!bestAmmoSaved['main hand weapon'] && !!bestAmmoSaved['off-hand weapon']) {
+                        mainAmmoDamage = chunkInfo['equipment'][bestAmmoSaved['off-hand weapon']].ability_damage;
+                        offAmmoDamage = chunkInfo['equipment'][bestAmmoSaved['off-hand weapon']].ability_damage;
+                    } else if (!bestAmmoSaved['off-hand weapon'] && !!bestAmmoSaved['main hand weapon']) {
+                        mainAmmoDamage = chunkInfo['equipment'][bestAmmoSaved['main hand weapon']].ability_damage;
+                        offAmmoDamage = chunkInfo['equipment'][bestAmmoSaved['main hand weapon']].ability_damage;
+                    } else if (!!bestAmmoSaved['main hand weapon'] && !!bestAmmoSaved['off-hand weapon']) {
+                        if (chunkInfo['equipment'][bestAmmoSaved['main hand weapon']].ability_damage > chunkInfo['equipment'][bestAmmoSaved['off-hand weapon']].ability_damage) {
+                            mainAmmoDamage = chunkInfo['equipment'][bestAmmoSaved['off-hand weapon']].ability_damage;
+                            offAmmoDamage = chunkInfo['equipment'][bestAmmoSaved['off-hand weapon']].ability_damage;
+                        } else {
+                            mainAmmoDamage = chunkInfo['equipment'][bestAmmoSaved['main hand weapon']].ability_damage;
+                            offAmmoDamage = chunkInfo['equipment'][bestAmmoSaved['main hand weapon']].ability_damage;
+                        }
+                    }
+                    if (chunkInfo['codeItems']['ammoTools']['No ammo'][bestEquipment['main hand weapon']]) {
+                        mainAmmoDamage = 0;
+                    }
+                    if (chunkInfo['codeItems']['ammoTools']['No ammo'][bestEquipment['off-hand weapon']]) {
+                        offAmmoDamage = 0;
+                    }
+                    weaponShieldPower = chunkInfo['equipment'][bestEquipment['main hand weapon']].accuracy + (!!mainAmmoDamage ? Math.min(chunkInfo['equipment'][bestEquipment['main hand weapon']].ability_damage, (2/3) * mainAmmoDamage) : chunkInfo['equipment'][bestEquipment['main hand weapon']].ability_damage) + (!!offAmmoDamage ? Math.min(chunkInfo['equipment'][bestEquipment['off-hand weapon']].ability_damage, (1/3) * chunkInfo['equipment'][offAmmoDamage].ability_damage) : chunkInfo['equipment'][bestEquipment['off-hand weapon']].ability_damage);
                 } else {
-                    weaponShieldPower = chunkInfo['equipment'][bestEquipment['main hand weapon']].accuracy + chunkInfo['equipment'][bestEquipment['main hand weapon']].ability_damage;
+                    weaponShieldPower = chunkInfo['equipment'][bestEquipment['main hand weapon']].accuracy + (!!bestAmmoSaved['main hand weapon'] ? Math.min(chunkInfo['equipment'][bestEquipment['main hand weapon']].ability_damage, chunkInfo['equipment'][bestAmmoSaved['main hand weapon']].ability_damage) : chunkInfo['equipment'][bestEquipment['main hand weapon']].ability_damage);
                 }
             }
             if (bestEquipment.hasOwnProperty('off-hand weapon')) {
-                offHandPower = chunkInfo['equipment'][bestEquipment['off-hand weapon']].accuracy + chunkInfo['equipment'][bestEquipment['off-hand weapon']].ability_damage;
+                offHandPower = !!bestAmmoSaved['off-hand weapon'] ? Math.min(chunkInfo['equipment'][bestEquipment['off-hand weapon']].ability_damage, (1/3) * chunkInfo['equipment'][bestAmmoSaved['off-hand weapon']].ability_damage) : chunkInfo['equipment'][bestEquipment['off-hand weapon']].ability_damage;
             }
             if (bestEquipment.hasOwnProperty('off-hand')) {
                 shieldPower = chunkInfo['equipment'][bestEquipment['off-hand']].accuracy;
