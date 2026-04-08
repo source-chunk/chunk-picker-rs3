@@ -191875,9 +191875,6 @@
 					"Shop": {
 						"Dominion Tower Rewards": true
 					},
-					"Monster": {
-						"Dominion Tower Rewards": true
-					},
 					"Clue": {
 						"elite": 6
 					}
@@ -209152,23 +209149,6 @@
 			},
 			"Connect": {
 				"13360": true
-			},
-			"NPC": {
-				"General Khazard": 1,
-				"Tumeken's shadow": 1,
-				"Koschei the Deathless": 1
-			},
-			"Monster": {
-				"The Draugen": 1,
-				"Elvarg": 1,
-				"Bouncer": 1,
-				"The Untouchable": 1,
-				"The Kendal": 1,
-				"Karamel": 1,
-				"Evil Chicken": 1,
-				"Jungle demon": 1,
-				"The Inadequacy": 1,
-				"Barrelchest": 1
 			}
 		},
 		"Isle of Sann": {
@@ -222559,7 +222539,7 @@
 			"Anvil[+]": ["Anvil", "Tri-Anvil", "Fremennik Anvil"],
 			"AnyExcavationSpot[+]": ["Venator remains", "Legionary remains", "Castra debris", "Lodge bar storage", "Lodge art storage", "Administratum debris", "Cultist footlocker", "Sacrificial altar", "Prodromoi remains", "Dis dungeon debris", "Praesidio remains", "Monoceros remains", "Amphitheatre debris", "Ceramics studio debris", "Carcerem debris", "Ministry remains", "Stadio debris", "Cathedral debris", "Marketplace debris", "Inquisitor remains", "Infernal art", "Gladiator remains", "Citizen remains", "Shakroth remains", "Dominion Games podium", "Ikovian memorial", "Oikos studio debris", "Kharid-et chapel debris", "Gladiatorial goblin remains", "Keshik ger", "Animal trophies", "Pontifex remains", "Cricible stand debris", "Tailory debris", "Goblin dorm debris", "Oikos fishing hut remnants", "Weapons research debris", "Orcus altar", "Dis overspill", "Big High War God shrine", "Orthen rubble", "Varanusaur remains", "Gravitron research debris", "Acropolis debris", "Armarium debris", "Yu'biusk animal pen", "Keshik tower debris", "Dragonkin reliquary", "Goblin trainee remains", "Byzroth remains", "Destroyed golem", "Dragonkin coffin", "Icyene weapon rack", "Culinarum debris", "Kyzaj champion's boudoir", "Autopsy table", "Experiment workbench", "Keshik weapon rack", "Hellfire forge", "Warforge scrap pile", "Stockpiled art", "Aughra remains", "Ancient magick munitions", "Moksha device", "Bibliotheke debris", "Warforge weapon rack", "Flight research debris", "Atherium forge", "Xolo mine", "Praetorian remains", "Bandos's sanctum debris", "Tsutsaroth remains", "Optimatoi remains", "War table debris", "Howl's workshop debris", "Makeshift pie oven", "Xolo remains", "Saurthen debris"],
 			"Bank[+]": ["Bank", "Bank boat", "Bank booth", "Bank chest", "Banker"],
-			"Cave eel spot[+]": ["Fishing spot (frog spawn, eel)", "Fishing spot (meiyerditch)"],
+			"Cave eel spot[+]": ["Fishing spot (frog spawn, eels)", "Fishing spot (meiyerditch)"],
 			"Coal rock[+]": ["Coal rock", "Coal vein"],
 			"Cooking object[+]": ["Fire", "Cooking range", "Range", "Clay oven", "Campfire", "Fireplace", "Stove", "Cooking pot", "Sulphur pit", "Player fire", "Oven (City of Um)", "Grill"],
 			"Cooking range[+]": ["Cooking range", "Range", "Stove", "Clay oven", "Oven (City of Um)", "Grill"],

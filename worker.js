@@ -2830,7 +2830,7 @@ let calcChallenges = function(chunks, baseChunkData) {
                 'Archaeology': 'Archie',
                 'Attack': 'Sifu',
                 'Constitution': 'Morty',
-                'Construction': 'Baby Yaga%27s house',
+                'Construction': "Baby Yaga's House",
                 'Cooking': 'Ramsay',
                 'Crafting': 'Gemi',
                 'Defence': 'Wallace',
