@@ -6455,7 +6455,7 @@ let calcBIS = function(completedOnly) {
             delete bestEquipment['2h weapon'];
             skill === 'Ranged' && (bestEquipment['ammo'] = bestAmmoSaved['main hand weapon']);
         }
-        if (twoHPower <= weaponShieldPower || rules['Show Best in Slot 1H and 2H']) {
+        if ((twoHPower <= weaponShieldPower || rules['Show Best in Slot 1H and 2H']) && Math.max(shieldPower, offHandPower) > 0) {
             if (shieldPower > offHandPower) {
                 if (rules['Show Best in Slot Shield']) {
                     savedWeaponBis['off-hand weapon'] = bestEquipment['off-hand weapon'];
