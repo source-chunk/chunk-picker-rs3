@@ -189,6 +189,7 @@ let manualAreas;
 let secondaryPrimaryNum;
 let isOnlyManualAreas = false;
 let bestEquipmentAltsGlobal = {};
+let altAmmoGlobal = {};
 let manualSections = {};
 let unlockedSections = {};
 let maxSkill;
@@ -435,7 +436,7 @@ onmessage = function(e) {
         //console.log(nonValids);
         //console.log(baseChunkData);
 
-        postMessage([type, globalValids, baseChunkData, chunkInfo, highestCurrent, tempChallengeArr, type === 'current' ? questPointTotal : 1, highestOverall, type === 'current' ? dropRatesGlobal : {}, questProgress, diaryProgress, skillQuestXp, chunks, type === 'current' ? dropTablesGlobal : {}, bestEquipmentAltsGlobal, unlockedSections, type === 'current' ? combatScoreTotal : 0, highestOverallCompleted, bisUpgradesOutput, globalValidsBoosts]);
+        postMessage([type, globalValids, baseChunkData, chunkInfo, highestCurrent, tempChallengeArr, type === 'current' ? questPointTotal : 1, highestOverall, type === 'current' ? dropRatesGlobal : {}, questProgress, diaryProgress, skillQuestXp, chunks, type === 'current' ? dropTablesGlobal : {}, bestEquipmentAltsGlobal, unlockedSections, type === 'current' ? combatScoreTotal : 0, highestOverallCompleted, bisUpgradesOutput, globalValidsBoosts, altAmmoGlobal]);
     } catch (err) {
         postMessage(['error', err]);
     }
@@ -5841,6 +5842,7 @@ let calcBIS = function(completedOnly) {
                                     let articleAmmo = vowels.includes(bestAmmo.toLowerCase().charAt(0)) ? ' an ' : ' a ';
                                     articleAmmo = (bestAmmo.toLowerCase().charAt(bestAmmo.toLowerCase().length - 1) === 's' || (bestAmmo.toLowerCase().charAt(bestAmmo.toLowerCase().length - 1) === ')' && bestAmmo.toLowerCase().split('(')[0].trim().charAt(bestAmmo.toLowerCase().split('(')[0].trim().length - 1) === 's')) ? ' ' : articleAmmo;
                                     tempTempValidAmmo && (!backlog['BiS'] || (!backlog['BiS'].hasOwnProperty('Obtain' + articleAmmo + '~|' + bestAmmo.toLowerCase() + '|~') && !backlog['BiS'].hasOwnProperty('Obtain' + articleAmmo + '~|' + bestAmmo.toLowerCase().replaceAll('#', '/') + '|~'))) && (bestAmmoSaved[chunkInfo['equipment'][equip].slot] = bestAmmo);
+                                    tempTempValidAmmo && (!backlog['BiS'] || (!backlog['BiS'].hasOwnProperty('Obtain' + articleAmmo + '~|' + bestAmmo.toLowerCase() + '|~') && !backlog['BiS'].hasOwnProperty('Obtain' + articleAmmo + '~|' + bestAmmo.toLowerCase().replaceAll('#', '/') + '|~'))) && (altAmmoGlobal[equip] = bestAmmo);
                                 } else if (bestEquipment[chunkInfo['equipment'][equip].slot] === equip) {
                                     delete bestAmmoSaved[chunkInfo['equipment'][equip].slot];
                                 }
@@ -5852,6 +5854,7 @@ let calcBIS = function(completedOnly) {
                                         bestEquipmentAlts[chunkInfo['equipment'][equip].slot] = {};
                                     }
                                     bestEquipmentAlts[chunkInfo['equipment'][equip].slot][equip] = bestEquipment[chunkInfo['equipment'][equip].slot];
+                                    altAmmoGlobal[equip] = bestAmmo;
                                     if (!!bestAmmo) {
                                         let tempTempValidAmmo = false;
                                         Object.keys(baseChunkData['items'][bestAmmo]).filter(source => !baseChunkData['items'][bestAmmo][source].includes('-') || !processingSkill[baseChunkData['items'][bestAmmo][source].split('-')[1]] || rules['Wield Crafted Items'] || baseChunkData['items'][bestAmmo][source].split('-')[1] === 'Slayer').length > 0 && (tempTempValidAmmo = true);
@@ -9454,6 +9457,17 @@ let calcBIS = function(completedOnly) {
                 equipToAdd['Obtain' + article + '~|' + formatEquip(item) + '|~'] = [];
             }
             equipToAdd['Obtain' + article + '~|' + formatEquip(item) + '|~'].push(label);
+            if (!!altAmmoGlobal[item]) {
+                let article2 = vowels.includes(altAmmoGlobal[item].toLowerCase().charAt(0)) ? ' an ' : ' a ';
+                chunkInfo['challenges']['BiS']['Obtain' + article2 + '~|' + formatEquip(altAmmoGlobal[item]) + '|~'] = {
+                    'ItemsDetails': [altAmmoGlobal[item]],
+                    'Label': `<span class='noscroll ${label.split(' BiS ')[0]}-bis-highlight'>` + label.split(' BiS ')[0] + '</span> BiS ammo'
+                }
+                if (!equipToAdd['Obtain' + article2 + '~|' + formatEquip(altAmmoGlobal[item]) + '|~']) {
+                    equipToAdd['Obtain' + article2 + '~|' + formatEquip(altAmmoGlobal[item]) + '|~'] = [];
+                }
+                equipToAdd['Obtain' + article2 + '~|' + formatEquip(altAmmoGlobal[item]) + '|~'].push(label.split(' BiS ')[0] + 'BiS ammo');
+            }
         });
     });
     !!equipToAdd && Object.keys(equipToAdd).filter((line) => !globalValids['BiS'].hasOwnProperty(line)).forEach((line) => {

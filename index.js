@@ -1517,6 +1517,7 @@ let highestTab2;
 let dropRatesGlobal = {};
 let dropTablesGlobal = {};
 let bestEquipmentAltsGlobal = {};
+let altAmmoGlobal = {};
 let unlockedSections = {};
 let questProgress = {};
 let diaryProgress = {};
@@ -4056,6 +4057,7 @@ let workerOnMessage = function(e) {
             highestOverallCompleted = e.data[17];
             bisUpgrades = e.data[18];
             globalValidsBoosts = e.data[19];
+            altAmmoGlobal = e.data[20];
             possibleAreas = {};
             Object.keys(e.data[12]).filter(area => { return e.data[12][area] === true }).forEach((area) => {
                 possibleAreas[area] = true;
@@ -6591,6 +6593,13 @@ let setupCurrentChallenges = function(tempChallengeArr, noDisplay, noClear) {
                 if (globalValids['BiS'][challenge].split(' BiS ')[1] === '2h weapon' && !rules['Show Best in Slot 1H and 2H']) {
                     realSlot = 'main hand weapon';
                     highestOverall[bit.replaceAll(' ', '_') + '-' + realSlot.split(' BiS ').join('-')] = altChallenges['BiS'][bit + ' BiS ' + globalValids['BiS'][challenge].split(' BiS ')[1]].split('|')[1].charAt(0).toUpperCase() + altChallenges['BiS'][bit + ' BiS ' + globalValids['BiS'][challenge].split(' BiS ')[1]].split('|')[1].slice(1);
+                }
+                if (altAmmoGlobal.hasOwnProperty(highestOverall[bit.replaceAll(' ', '_') + '-' + realSlot.split(' BiS ').join('-')])) {
+                    if (!altAmmoGlobal[highestOverall[bit.replaceAll(' ', '_') + '-' + realSlot.split(' BiS ').join('-')]]) {
+                        delete highestOverall[bit.replaceAll(' ', '_') + '-ammo'];
+                    } else {
+                        highestOverall[bit.replaceAll(' ', '_') + '-ammo'] = altAmmoGlobal[highestOverall[bit.replaceAll(' ', '_') + '-' + realSlot.split(' BiS ').join('-')]];
+                    }
                 }
             }
         });
