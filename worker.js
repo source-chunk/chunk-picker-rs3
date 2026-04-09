@@ -9459,6 +9459,7 @@ let calcBIS = function(completedOnly) {
             equipToAdd['Obtain' + article + '~|' + formatEquip(item) + '|~'].push(label);
             if (!!altAmmoGlobal[item]) {
                 let article2 = vowels.includes(altAmmoGlobal[item].toLowerCase().charAt(0)) ? ' an ' : ' a ';
+                article2 = (altAmmoGlobal[item].toLowerCase().charAt(altAmmoGlobal[item].toLowerCase().length - 1) === 's' || (altAmmoGlobal[item].toLowerCase().charAt(altAmmoGlobal[item].toLowerCase().length - 1) === ')' && altAmmoGlobal[item].toLowerCase().split('(')[0].trim().charAt(altAmmoGlobal[item].toLowerCase().split('(')[0].trim().length - 1) === 's')) ? ' ' : article2;
                 chunkInfo['challenges']['BiS']['Obtain' + article2 + '~|' + formatEquip(altAmmoGlobal[item]) + '|~'] = {
                     'ItemsDetails': [altAmmoGlobal[item]],
                     'Label': `<span class='noscroll ${label.split(' BiS ')[0]}-bis-highlight'>` + label.split(' BiS ')[0] + '</span> BiS ammo'
