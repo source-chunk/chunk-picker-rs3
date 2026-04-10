@@ -208,6 +208,7 @@ let didRestart = false;
 let bisUpgrades = {};
 let globalValidsBoosts = {};
 let bringAlongTasks = {};
+let globalEveryDropAltMap = {};
 let unconnectedAreas = ['Zanaris', 'Puro-Puro', 'Player-owned house', 'Player-Owned Port', 'Vinesweeper', 'Guthixian Cache', "Balthazar Beauregard's Big Top Bonanza", 'Sinkhole', 'Chinchompa cave', 'Rune Essence mine', 'Paterdomus', 'Uncharted Isles'];
 let highestSkillLevels = {
     "Slayer": 120,
@@ -245,7 +246,7 @@ let highestSkillLevels = {
 onmessage = function(e) {
     try {
         eGlobal = e;
-        [
+        ({
             type,
             chunks,
             rules,
@@ -296,11 +297,11 @@ onmessage = function(e) {
             maxSkill,
             userTasks,
             manualPrimary,
-            updateLevel,
-        ] = eGlobal.data;
+            updateLevel
+        } = eGlobal.data);
 
         if (updateLevel !== 'maintenance-mode') {
-            postMessage(['reload']);
+            postMessage({ type: 'reload' });
         }
 
         if (isDiary2Tier) {
@@ -342,10 +343,10 @@ onmessage = function(e) {
 
         chunks = getAllChunkAreas(chunks);
         baseChunkData = gatherChunksInfo(chunks);
-        type === 'current' && postMessage('5%');
+        type === 'current' && postMessage({ type: 'loading-update', percentage: '5%' });
         globalValids = calcChallenges(chunks, baseChunkData);
         baseChunkData = tempChunkData;
-        type === 'current' && postMessage('95%');
+        type === 'current' && postMessage({ type: 'loading-update', percentage: '95%' });
         highestOverall = calcBIS();
         
         let restartCalcs = false;
@@ -427,7 +428,7 @@ onmessage = function(e) {
                 globalValids[skill][bringAlongTasks[skill][name]] = chunkInfo['challenges'][skill][bringAlongTasks[skill][name]]['Level'];
             });
         });
-        type === 'current' && postMessage('100%');
+        type === 'current' && postMessage({ type: 'loading-update', percentage: '100%' });
         //console.log(globalValids);
 
         let tempChallengeArr;
@@ -436,9 +437,32 @@ onmessage = function(e) {
         //console.log(nonValids);
         //console.log(baseChunkData);
 
-        postMessage([type, globalValids, baseChunkData, chunkInfo, highestCurrent, tempChallengeArr, type === 'current' ? questPointTotal : 1, highestOverall, type === 'current' ? dropRatesGlobal : {}, questProgress, diaryProgress, skillQuestXp, chunks, type === 'current' ? dropTablesGlobal : {}, bestEquipmentAltsGlobal, unlockedSections, type === 'current' ? combatScoreTotal : 0, highestOverallCompleted, bisUpgradesOutput, globalValidsBoosts, altAmmoGlobal]);
+        postMessage({
+            type,
+            globalValids,
+            baseChunkData,
+            chunkInfo,
+            highestCurrent,
+            tempChallengeArrSaved: tempChallengeArr,
+            questPointTotal: type === 'current' ? questPointTotal : 1,
+            highestOverall,
+            dropRatesGlobal: type === 'current' ? dropRatesGlobal : {},
+            questProgress,
+            diaryProgress,
+            skillQuestXp,
+            savedChunks: chunks,
+            dropTablesGlobal: type === 'current' ? dropTablesGlobal : {},
+            bestEquipmentAltsGlobal,
+            unlockedSections,
+            combatScoreTotal: type === 'current' ? combatScoreTotal : 0,
+            highestOverallCompleted,
+            bisUpgrades: bisUpgradesOutput,
+            globalValidsBoosts,
+            globalEveryDropAltMap,
+            altAmmoGlobal
+        });
     } catch (err) {
-        postMessage(['error', err]);
+        postMessage({ type: 'error', err });
     }
 }
 
@@ -1163,7 +1187,7 @@ let calcChallenges = function(chunks, baseChunkData) {
 
     do {
         i++;
-        type === 'current' && postMessage(((Math.max(i, .1)) * 5.5) + '%');
+        type === 'current' && postMessage({ type: 'loading-update', percentage: ((Math.max(i, .1)) * 5.5) + '%' });
         !!tempItemSkill && Object.keys(tempItemSkill).forEach((skill) => {
             let skillMax = Math.max(...Object.values(newValids[skill]));
             !!tempItemSkill[skill] && Object.keys(tempItemSkill[skill]).forEach((item) => {
@@ -1541,7 +1565,7 @@ let calcChallenges = function(chunks, baseChunkData) {
                 });
             });
             leftoversCount++;
-            type === 'current' && postMessage(((Math.max(i, .1) + (.16 * Math.min(leftoversCount, 5))) * 5.5) + '%');
+            type === 'current' && postMessage({ type: 'loading-update', percentage: ((Math.max(i, .1) + (.16 * Math.min(leftoversCount, 5))) * 5.5) + '%' });
         }
         Object.keys(newValids).filter((skill) => { return skill !== 'BiS' }).forEach((skill) => {
             let skillIsPrimary = checkPrimaryMethod(skill, newValids, baseChunkData);
@@ -3810,7 +3834,7 @@ let calcChallengesWork = function(chunks, baseChunkData, oldTempItemSkill) {
             }
 
             if (chunkInfo['challenges'][skill][name].hasOwnProperty('Tasks')) {
-                chunkInfo['challenges'][skill][name]['Task RequirementsDetails'].push(...Object.keys(chunkInfo['challenges'][skill][name]['Tasks']).filter((key) => key !== name && !key.includes('[+]') && chunkInfo['challenges'][skill][name]['Tasks'][key] !== 'Nonskill').map((key) => key + '||' + chunkInfo['challenges'][skill][name]['Tasks'][key]));
+                chunkInfo['challenges'][skill][name]['Task RequirementsDetails'].push(...Object.keys(chunkInfo['challenges'][skill][name]['Tasks']).filter((key) => key.split('--')[0] !== name && !key.includes('[+]') && chunkInfo['challenges'][skill][name]['Tasks'][key] !== 'Nonskill' && (chunkInfo['challenges'][skill][name]['Tasks'][key] !== 'Diary' || skill !== 'Diary')).map((key) => key + '||' + chunkInfo['challenges'][skill][name]['Tasks'][key]));
             }
 
             delete chunkInfo['challenges'][skill][name]['NeverShow'];
@@ -4868,6 +4892,7 @@ let calcChallengesWork = function(chunks, baseChunkData, oldTempItemSkill) {
     }
     // Every Drop
     if (rules['Every Drop']) {
+        globalEveryDropAltMap = {};
         let drops = {};
         if (!valids['Extra']) {
             valids['Extra'] = {};
@@ -4889,7 +4914,6 @@ let calcChallengesWork = function(chunks, baseChunkData, oldTempItemSkill) {
                                 }
                                 dropRatesGlobal[monster][drop] = findFraction(parseFloat(dropTables[item][drop].split('@')[0].split('/')[0].replaceAll('~', '')) / parseFloat(dropTables[item][drop].split('@')[0].split('/')[1].split('@')[0]), item.includes('GeneralSeedDropTable'));
                                 if (!drops[drop] && !!dropRatesGlobal[realSource] && !!dropRatesGlobal[realSource][drop] && !dropTables.hasOwnProperty(drop) && !drop.includes('^')) {
-                                    drops[drop] = true;
                                     valids['Extra'][realSource.replaceAll('[+]', '') + ': ~|' + drop + '|~ (' + dropRatesGlobal[realSource][drop] + ')'] = 'Every Drop';
                                     if (!chunkInfo['challenges']['Extra']) {
                                         chunkInfo['challenges']['Extra'] = {};
@@ -4901,6 +4925,10 @@ let calcChallengesWork = function(chunks, baseChunkData, oldTempItemSkill) {
                                         'Label': 'Every Drop',
                                         'Permanent': false
                                     }
+                                    if (!globalEveryDropAltMap[drop]) {
+                                        globalEveryDropAltMap[drop] = [];
+                                    }
+                                    globalEveryDropAltMap[drop].push(realSource.replaceAll('[+]', '') + ': ~|' + drop + '|~ (' + dropRatesGlobal[realSource][drop] + ')');
                                 }
                             });
                         });
@@ -4926,7 +4954,6 @@ let calcChallengesWork = function(chunks, baseChunkData, oldTempItemSkill) {
                                     }
                                     dropRatesGlobal[realSource][drop] = findFraction((parseFloat(chunkInfo['skillItems']['Thieving'][monster][lootItem.replaceAll('*', '')][quantityDrop].split('/')[0].replaceAll('~', '')) * parseFloat(dropTables[lootItem][drop].split('@')[0].split('/')[0].replaceAll('~', ''))) / (parseFloat(chunkInfo['skillItems']['Thieving'][monster][lootItem.replaceAll('*', '')][quantityDrop].split('/')[1].replaceAll('~', '')) * parseFloat(dropTables[lootItem][drop].split('@')[0].split('/')[1].split('@')[0])), lootItem.includes('GeneralSeedDropTable'));
                                     if (!drops[drop] && !!dropRatesGlobal[realSource] && !!dropRatesGlobal[realSource][drop] && !dropTables.hasOwnProperty(drop) && !drop.includes('^')) {
-                                        drops[drop] = true;
                                         valids['Extra'][realSource.replaceAll('[+]', '') + ': ~|' + drop + '|~ (' + dropRatesGlobal[realSource][drop] + ')'] = 'Every Drop';
                                         if (!chunkInfo['challenges']['Extra']) {
                                             chunkInfo['challenges']['Extra'] = {};
@@ -4938,6 +4965,10 @@ let calcChallengesWork = function(chunks, baseChunkData, oldTempItemSkill) {
                                             'Label': 'Every Drop',
                                             'Permanent': false
                                         }
+                                        if (!globalEveryDropAltMap[drop]) {
+                                            globalEveryDropAltMap[drop] = [];
+                                        }
+                                        globalEveryDropAltMap[drop].push(realSource.replaceAll('[+]', '') + ': ~|' + drop + '|~ (' + dropRatesGlobal[realSource][drop] + ')');
                                     }
                                 });
                             });
@@ -4974,7 +5005,6 @@ let calcChallengesWork = function(chunks, baseChunkData, oldTempItemSkill) {
                     });
                 }
                 if (!drops[item.replaceAll('*', '')] && !!dropRatesGlobal[realSource] && !!dropRatesGlobal[realSource][item.replaceAll('*', '')] && !dropTables.hasOwnProperty(item.replaceAll('*', '')) && !item.replaceAll('*', '').includes('^')) {
-                    drops[item.replaceAll('*', '')] = true;
                     valids['Extra'][realSource.replaceAll('[+]', '') + ': ~|' + item.replaceAll('*', '') + '|~ (' + dropRatesGlobal[realSource][item.replaceAll('*', '')] + ')'] = 'Every Drop';
                     if (!chunkInfo['challenges']['Extra']) {
                         chunkInfo['challenges']['Extra'] = {};
@@ -4986,9 +5016,14 @@ let calcChallengesWork = function(chunks, baseChunkData, oldTempItemSkill) {
                         'Label': 'Every Drop',
                         'Permanent': false
                     }
+                    if (!globalEveryDropAltMap[item.replaceAll('*', '')]) {
+                        globalEveryDropAltMap[item.replaceAll('*', '')] = [];
+                    }
+                    globalEveryDropAltMap[item.replaceAll('*', '')].push(realSource.replaceAll('[+]', '') + ': ~|' + item.replaceAll('*', '') + '|~ (' + dropRatesGlobal[realSource][item.replaceAll('*', '')] + ')');
                 }
             });
         });
+        Object.keys(globalEveryDropAltMap).forEach((it) => globalEveryDropAltMap[it].sort());
     }
     // All Droptables
     if (rules['All Droptables']) {
@@ -10602,7 +10637,7 @@ let gatherChunksInfo = function(chunksIn) {
         }
     });
 
-    !intitalDataPosted && type === 'current' && postMessage(['initial-data', {items: items, objects: objects, monsters: monsters, npcs: npcs, shops: shops}]);
+    !intitalDataPosted && type === 'current' && postMessage({ type: 'initial-data', baseChunkData: {items: items, objects: objects, monsters: monsters, npcs: npcs, shops: shops} });
     intitalDataPosted = true;
     return {items: items, objects: objects, monsters: monsters, npcs: npcs, shops: shops};
 }
