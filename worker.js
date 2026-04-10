@@ -189,6 +189,7 @@ let manualAreas;
 let secondaryPrimaryNum;
 let isOnlyManualAreas = false;
 let bestEquipmentAltsGlobal = {};
+let altAmmoGlobal = {};
 let manualSections = {};
 let unlockedSections = {};
 let maxSkill;
@@ -207,6 +208,7 @@ let didRestart = false;
 let bisUpgrades = {};
 let globalValidsBoosts = {};
 let bringAlongTasks = {};
+let globalEveryDropAltMap = {};
 let unconnectedAreas = ['Zanaris', 'Puro-Puro', 'Player-owned house', 'Player-Owned Port', 'Vinesweeper', 'Guthixian Cache', "Balthazar Beauregard's Big Top Bonanza", 'Sinkhole', 'Chinchompa cave', 'Rune Essence mine', 'Paterdomus', 'Uncharted Isles'];
 let highestSkillLevels = {
     "Slayer": 120,
@@ -244,7 +246,7 @@ let highestSkillLevels = {
 onmessage = function(e) {
     try {
         eGlobal = e;
-        [
+        ({
             type,
             chunks,
             rules,
@@ -295,11 +297,11 @@ onmessage = function(e) {
             maxSkill,
             userTasks,
             manualPrimary,
-            updateLevel,
-        ] = eGlobal.data;
+            updateLevel
+        } = eGlobal.data);
 
-        if (updateLevel !== 'difference') {
-            postMessage(['reload']);
+        if (updateLevel !== 'maintenance-mode') {
+            postMessage({ type: 'reload' });
         }
 
         if (isDiary2Tier) {
@@ -324,6 +326,9 @@ onmessage = function(e) {
         if (!secondaryPrimaryNum) {
             secondaryPrimaryNum = "1/1";
         }
+        if (!secondaryPrimaryNum.includes("/")) {
+            secondaryPrimaryNum = secondaryPrimaryNum.length > 0 ? (secondaryPrimaryNum + "/1") : "1/1";
+        }
         if (!chunkInfo) {
             return;
         }
@@ -338,10 +343,10 @@ onmessage = function(e) {
 
         chunks = getAllChunkAreas(chunks);
         baseChunkData = gatherChunksInfo(chunks);
-        type === 'current' && postMessage('5%');
+        type === 'current' && postMessage({ type: 'loading-update', percentage: '5%' });
         globalValids = calcChallenges(chunks, baseChunkData);
         baseChunkData = tempChunkData;
-        type === 'current' && postMessage('95%');
+        type === 'current' && postMessage({ type: 'loading-update', percentage: '95%' });
         highestOverall = calcBIS();
         
         let restartCalcs = false;
@@ -423,7 +428,7 @@ onmessage = function(e) {
                 globalValids[skill][bringAlongTasks[skill][name]] = chunkInfo['challenges'][skill][bringAlongTasks[skill][name]]['Level'];
             });
         });
-        type === 'current' && postMessage('100%');
+        type === 'current' && postMessage({ type: 'loading-update', percentage: '100%' });
         //console.log(globalValids);
 
         let tempChallengeArr;
@@ -432,9 +437,32 @@ onmessage = function(e) {
         //console.log(nonValids);
         //console.log(baseChunkData);
 
-        postMessage([type, globalValids, baseChunkData, chunkInfo, highestCurrent, tempChallengeArr, type === 'current' ? questPointTotal : 1, highestOverall, type === 'current' ? dropRatesGlobal : {}, questProgress, diaryProgress, skillQuestXp, chunks, type === 'current' ? dropTablesGlobal : {}, bestEquipmentAltsGlobal, unlockedSections, type === 'current' ? combatScoreTotal : 0, highestOverallCompleted, bisUpgradesOutput, globalValidsBoosts]);
+        postMessage({
+            type,
+            globalValids,
+            baseChunkData,
+            chunkInfo,
+            highestCurrent,
+            tempChallengeArrSaved: tempChallengeArr,
+            questPointTotal: type === 'current' ? questPointTotal : 1,
+            highestOverall,
+            dropRatesGlobal: type === 'current' ? dropRatesGlobal : {},
+            questProgress,
+            diaryProgress,
+            skillQuestXp,
+            savedChunks: chunks,
+            dropTablesGlobal: type === 'current' ? dropTablesGlobal : {},
+            bestEquipmentAltsGlobal,
+            unlockedSections,
+            combatScoreTotal: type === 'current' ? combatScoreTotal : 0,
+            highestOverallCompleted,
+            bisUpgrades: bisUpgradesOutput,
+            globalValidsBoosts,
+            globalEveryDropAltMap,
+            altAmmoGlobal
+        });
     } catch (err) {
-        postMessage(['error', err]);
+        postMessage({ type: 'error', err });
     }
 }
 
@@ -1159,7 +1187,7 @@ let calcChallenges = function(chunks, baseChunkData) {
 
     do {
         i++;
-        type === 'current' && postMessage(((Math.max(i, .1)) * 5.5) + '%');
+        type === 'current' && postMessage({ type: 'loading-update', percentage: ((Math.max(i, .1)) * 5.5) + '%' });
         !!tempItemSkill && Object.keys(tempItemSkill).forEach((skill) => {
             let skillMax = Math.max(...Object.values(newValids[skill]));
             !!tempItemSkill[skill] && Object.keys(tempItemSkill[skill]).forEach((item) => {
@@ -1537,7 +1565,7 @@ let calcChallenges = function(chunks, baseChunkData) {
                 });
             });
             leftoversCount++;
-            type === 'current' && postMessage(((Math.max(i, .1) + (.16 * Math.min(leftoversCount, 5))) * 5.5) + '%');
+            type === 'current' && postMessage({ type: 'loading-update', percentage: ((Math.max(i, .1) + (.16 * Math.min(leftoversCount, 5))) * 5.5) + '%' });
         }
         Object.keys(newValids).filter((skill) => { return skill !== 'BiS' }).forEach((skill) => {
             let skillIsPrimary = checkPrimaryMethod(skill, newValids, baseChunkData);
@@ -3806,7 +3834,7 @@ let calcChallengesWork = function(chunks, baseChunkData, oldTempItemSkill) {
             }
 
             if (chunkInfo['challenges'][skill][name].hasOwnProperty('Tasks')) {
-                chunkInfo['challenges'][skill][name]['Task RequirementsDetails'].push(...Object.keys(chunkInfo['challenges'][skill][name]['Tasks']).filter((key) => key !== name && !key.includes('[+]') && chunkInfo['challenges'][skill][name]['Tasks'][key] !== 'Nonskill').map((key) => key + '||' + chunkInfo['challenges'][skill][name]['Tasks'][key]));
+                chunkInfo['challenges'][skill][name]['Task RequirementsDetails'].push(...Object.keys(chunkInfo['challenges'][skill][name]['Tasks']).filter((key) => key.split('--')[0] !== name && !key.includes('[+]') && chunkInfo['challenges'][skill][name]['Tasks'][key] !== 'Nonskill' && (chunkInfo['challenges'][skill][name]['Tasks'][key] !== 'Diary' || skill !== 'Diary')).map((key) => key + '||' + chunkInfo['challenges'][skill][name]['Tasks'][key]));
             }
 
             delete chunkInfo['challenges'][skill][name]['NeverShow'];
@@ -4864,6 +4892,7 @@ let calcChallengesWork = function(chunks, baseChunkData, oldTempItemSkill) {
     }
     // Every Drop
     if (rules['Every Drop']) {
+        globalEveryDropAltMap = {};
         let drops = {};
         if (!valids['Extra']) {
             valids['Extra'] = {};
@@ -4885,7 +4914,6 @@ let calcChallengesWork = function(chunks, baseChunkData, oldTempItemSkill) {
                                 }
                                 dropRatesGlobal[monster][drop] = findFraction(parseFloat(dropTables[item][drop].split('@')[0].split('/')[0].replaceAll('~', '')) / parseFloat(dropTables[item][drop].split('@')[0].split('/')[1].split('@')[0]), item.includes('GeneralSeedDropTable'));
                                 if (!drops[drop] && !!dropRatesGlobal[realSource] && !!dropRatesGlobal[realSource][drop] && !dropTables.hasOwnProperty(drop) && !drop.includes('^')) {
-                                    drops[drop] = true;
                                     valids['Extra'][realSource.replaceAll('[+]', '') + ': ~|' + drop + '|~ (' + dropRatesGlobal[realSource][drop] + ')'] = 'Every Drop';
                                     if (!chunkInfo['challenges']['Extra']) {
                                         chunkInfo['challenges']['Extra'] = {};
@@ -4897,6 +4925,10 @@ let calcChallengesWork = function(chunks, baseChunkData, oldTempItemSkill) {
                                         'Label': 'Every Drop',
                                         'Permanent': false
                                     }
+                                    if (!globalEveryDropAltMap[drop]) {
+                                        globalEveryDropAltMap[drop] = [];
+                                    }
+                                    globalEveryDropAltMap[drop].push(realSource.replaceAll('[+]', '') + ': ~|' + drop + '|~ (' + dropRatesGlobal[realSource][drop] + ')');
                                 }
                             });
                         });
@@ -4922,7 +4954,6 @@ let calcChallengesWork = function(chunks, baseChunkData, oldTempItemSkill) {
                                     }
                                     dropRatesGlobal[realSource][drop] = findFraction((parseFloat(chunkInfo['skillItems']['Thieving'][monster][lootItem.replaceAll('*', '')][quantityDrop].split('/')[0].replaceAll('~', '')) * parseFloat(dropTables[lootItem][drop].split('@')[0].split('/')[0].replaceAll('~', ''))) / (parseFloat(chunkInfo['skillItems']['Thieving'][monster][lootItem.replaceAll('*', '')][quantityDrop].split('/')[1].replaceAll('~', '')) * parseFloat(dropTables[lootItem][drop].split('@')[0].split('/')[1].split('@')[0])), lootItem.includes('GeneralSeedDropTable'));
                                     if (!drops[drop] && !!dropRatesGlobal[realSource] && !!dropRatesGlobal[realSource][drop] && !dropTables.hasOwnProperty(drop) && !drop.includes('^')) {
-                                        drops[drop] = true;
                                         valids['Extra'][realSource.replaceAll('[+]', '') + ': ~|' + drop + '|~ (' + dropRatesGlobal[realSource][drop] + ')'] = 'Every Drop';
                                         if (!chunkInfo['challenges']['Extra']) {
                                             chunkInfo['challenges']['Extra'] = {};
@@ -4934,6 +4965,10 @@ let calcChallengesWork = function(chunks, baseChunkData, oldTempItemSkill) {
                                             'Label': 'Every Drop',
                                             'Permanent': false
                                         }
+                                        if (!globalEveryDropAltMap[drop]) {
+                                            globalEveryDropAltMap[drop] = [];
+                                        }
+                                        globalEveryDropAltMap[drop].push(realSource.replaceAll('[+]', '') + ': ~|' + drop + '|~ (' + dropRatesGlobal[realSource][drop] + ')');
                                     }
                                 });
                             });
@@ -4970,7 +5005,6 @@ let calcChallengesWork = function(chunks, baseChunkData, oldTempItemSkill) {
                     });
                 }
                 if (!drops[item.replaceAll('*', '')] && !!dropRatesGlobal[realSource] && !!dropRatesGlobal[realSource][item.replaceAll('*', '')] && !dropTables.hasOwnProperty(item.replaceAll('*', '')) && !item.replaceAll('*', '').includes('^')) {
-                    drops[item.replaceAll('*', '')] = true;
                     valids['Extra'][realSource.replaceAll('[+]', '') + ': ~|' + item.replaceAll('*', '') + '|~ (' + dropRatesGlobal[realSource][item.replaceAll('*', '')] + ')'] = 'Every Drop';
                     if (!chunkInfo['challenges']['Extra']) {
                         chunkInfo['challenges']['Extra'] = {};
@@ -4982,9 +5016,14 @@ let calcChallengesWork = function(chunks, baseChunkData, oldTempItemSkill) {
                         'Label': 'Every Drop',
                         'Permanent': false
                     }
+                    if (!globalEveryDropAltMap[item.replaceAll('*', '')]) {
+                        globalEveryDropAltMap[item.replaceAll('*', '')] = [];
+                    }
+                    globalEveryDropAltMap[item.replaceAll('*', '')].push(realSource.replaceAll('[+]', '') + ': ~|' + item.replaceAll('*', '') + '|~ (' + dropRatesGlobal[realSource][item.replaceAll('*', '')] + ')');
                 }
             });
         });
+        Object.keys(globalEveryDropAltMap).forEach((it) => globalEveryDropAltMap[it].sort());
     }
     // All Droptables
     if (rules['All Droptables']) {
@@ -5046,15 +5085,28 @@ let calcChallengesWork = function(chunks, baseChunkData, oldTempItemSkill) {
             Object.keys(items[item]).filter((source) => { return items[item][source].includes('-Thieving') && chunkInfo['challenges']['Thieving'].hasOwnProperty(source) && chunkInfo['challenges']['Thieving'][source].hasOwnProperty('Output') }).forEach((source) => {
                 let monster = chunkInfo['challenges']['Thieving'][source]['Output'];
                 !!chunkInfo['skillItems']['Thieving'] && !!chunkInfo['skillItems']['Thieving'][monster] && Object.keys(chunkInfo['skillItems']['Thieving'][monster]).filter((drop) => !items.hasOwnProperty(drop + '*^^')).forEach((drop) => {
-                    !!chunkInfo['skillItems']['Thieving'][monster][drop] && Object.keys(chunkInfo['skillItems']['Thieving'][monster][drop]).filter(quantityDrop => (rules['Rare Drop'] || isNaN(parseFloat(chunkInfo['skillItems']['Thieving'][monster][drop][quantityDrop].split('/')[0].replaceAll('~', '')) / parseFloat(chunkInfo['skillItems']['Thieving'][monster][drop][quantityDrop].split('/')[1])) || (parseFloat(chunkInfo['skillItems']['Thieving'][monster][drop][quantityDrop].split('/')[0].replaceAll('~', '')) / parseFloat(chunkInfo['skillItems']['Thieving'][monster][drop][quantityDrop].split('/')[1])) > (parseFloat(rareDropNum.split('/')[0].replaceAll('~', '')) / parseFloat(rareDropNum.split('/')[1])))).forEach((quantityDrop) => {
-                        let addon = chunkInfo['challenges']['Thieving'][source].hasOwnProperty('Mix') ? '-mix' :chunkInfo['challenges']['Thieving'][source].hasOwnProperty('NPCs') ? '-npc' : chunkInfo['challenges']['Thieving'][source].hasOwnProperty('Objects') ? '-object' : '';
-                        if (!dropTablesGlobal['[Thieving] ' + monster + addon]) {
-                            dropTablesGlobal['[Thieving] ' + monster + addon] = {};
+                    !!chunkInfo['skillItems']['Thieving'][monster][drop] && Object.keys(chunkInfo['skillItems']['Thieving'][monster][drop]).forEach((quantityDrop) => {
+                        if (!!dropTables[drop] && ((drop !== 'RareDropTable+' && drop !== 'GemDropTable+') || rules['RDT'])) {
+                            Object.keys(dropTables[drop]).filter((tableItem) => { return (rules['Rare Drop'] || isNaN(parseFloat(chunkInfo['skillItems']['Thieving'][monster][drop][quantityDrop].split('/')[0].replaceAll('~', '')) / parseFloat(chunkInfo['skillItems']['Thieving'][monster][drop][quantityDrop].split('/')[1])) || ((parseFloat(chunkInfo['skillItems']['Thieving'][monster][drop][quantityDrop].split('/')[0].replaceAll('~', '')) / parseFloat(chunkInfo['skillItems']['Thieving'][monster][drop][quantityDrop].split('/')[1]) * parseFloat(dropTables[drop][tableItem].split('@')[0].split('/')[0].replaceAll('~', '')) / parseFloat(dropTables[drop][tableItem].split('@')[0].split('/')[1]))) > (parseFloat(rareDropNum.split('/')[0].replaceAll('~', '')) / parseFloat(rareDropNum.split('/')[1]))) && (rules['Boss'] || !bossMonsters.hasOwnProperty(monster)) }).forEach((tableItem) => {
+                                let addon = chunkInfo['challenges']['Thieving'][source].hasOwnProperty('Mix') ? '-mix' :chunkInfo['challenges']['Thieving'][source].hasOwnProperty('NPCs') ? '-npc' : chunkInfo['challenges']['Thieving'][source].hasOwnProperty('Objects') ? '-object' : '';
+                                if (!dropTablesGlobal['[Thieving] ' + monster + addon]) {
+                                    dropTablesGlobal['[Thieving] ' + monster + addon] = {};
+                                }
+                                if (!dropTablesGlobal['[Thieving] ' + monster + addon][tableItem]) {
+                                    dropTablesGlobal['[Thieving] ' + monster + addon][tableItem] = {};
+                                }
+                                dropTablesGlobal['[Thieving] ' + monster + addon][tableItem][quantityDrop] = (chunkInfo['skillItems']['Thieving'][monster][drop][quantityDrop].split('/').length <= 1) ? chunkInfo['skillItems']['Thieving'][monster][drop][quantityDrop] : findFraction(((parseFloat(chunkInfo['skillItems']['Thieving'][monster][drop][quantityDrop].split('/')[0].replaceAll('~', '')) / parseFloat(chunkInfo['skillItems']['Thieving'][monster][drop][quantityDrop].split('/')[1]) * parseFloat(dropTables[drop][tableItem].split('@')[0].split('/')[0].replaceAll('~', '')) / parseFloat(dropTables[drop][tableItem].split('@')[0].split('/')[1]))));
+                            });
+                        } else if (rules['Rare Drop'] || isNaN(parseFloat(chunkInfo['skillItems']['Thieving'][monster][drop][quantityDrop].split('/')[0].replaceAll('~', '')) / parseFloat(chunkInfo['skillItems']['Thieving'][monster][drop][quantityDrop].split('/')[1])) || (parseFloat(chunkInfo['skillItems']['Thieving'][monster][drop][quantityDrop].split('/')[0].replaceAll('~', '')) / parseFloat(chunkInfo['skillItems']['Thieving'][monster][drop][quantityDrop].split('/')[1])) > (parseFloat(rareDropNum.split('/')[0].replaceAll('~', '')) / parseFloat(rareDropNum.split('/')[1]))) {
+                            let addon = chunkInfo['challenges']['Thieving'][source].hasOwnProperty('Mix') ? '-mix' :chunkInfo['challenges']['Thieving'][source].hasOwnProperty('NPCs') ? '-npc' : chunkInfo['challenges']['Thieving'][source].hasOwnProperty('Objects') ? '-object' : '';
+                            if (!dropTablesGlobal['[Thieving] ' + monster + addon]) {
+                                dropTablesGlobal['[Thieving] ' + monster + addon] = {};
+                            }
+                            if (!dropTablesGlobal['[Thieving] ' + monster + addon][drop]) {
+                                dropTablesGlobal['[Thieving] ' + monster + addon][drop] = {};
+                            }
+                            dropTablesGlobal['[Thieving] ' + monster + addon][drop][quantityDrop] = (chunkInfo['skillItems']['Thieving'][monster][drop][quantityDrop].split('/').length <= 1) ? chunkInfo['skillItems']['Thieving'][monster][drop][quantityDrop] : findFraction(parseFloat(chunkInfo['skillItems']['Thieving'][monster][drop][quantityDrop].split('/')[0].replaceAll('~', '')) / parseFloat(chunkInfo['skillItems']['Thieving'][monster][drop][quantityDrop].split('/')[1].replaceAll('~', '')));
                         }
-                        if (!dropTablesGlobal['[Thieving] ' + monster + addon][drop]) {
-                            dropTablesGlobal['[Thieving] ' + monster + addon][drop] = {};
-                        }
-                        dropTablesGlobal['[Thieving] ' + monster + addon][drop][quantityDrop] = (chunkInfo['skillItems']['Thieving'][monster][drop][quantityDrop].split('/').length <= 1) ? chunkInfo['skillItems']['Thieving'][monster][drop][quantityDrop] : findFraction(parseFloat(chunkInfo['skillItems']['Thieving'][monster][drop][quantityDrop].split('/')[0].replaceAll('~', '')) / parseFloat(chunkInfo['skillItems']['Thieving'][monster][drop][quantityDrop].split('/')[1].replaceAll('~', '')));
                     });
                 });
             });
@@ -5801,13 +5853,21 @@ let calcBIS = function(completedOnly) {
                             }
                         });
                         if (!(Object.keys(chunkInfo['codeItems']['ammoTools']).filter(ammo => { return chunkInfo['codeItems']['ammoTools'][ammo].hasOwnProperty(equip) }).length > 0) || bestAmmo !== null || (Object.keys(chunkInfo['codeItems']['ammoTools']).filter(ammo => { return chunkInfo['codeItems']['ammoTools'][ammo].hasOwnProperty(equip) }).length === 1 && Object.keys(chunkInfo['codeItems']['ammoTools']).filter(ammo => { return chunkInfo['codeItems']['ammoTools'][ammo].hasOwnProperty(equip) })[0] === 'No ammo')) {
+                            let ammoMultiplier = 1;
+                            let isAccuracyNeeded = true;
+                            if (chunkInfo['equipment'][equip].slot === 'main hand weapon') {
+                                ammoMultiplier = (2 / 3);
+                            } else if (chunkInfo['equipment'][equip].slot === 'off-hand weapon') {
+                                ammoMultiplier = (1 / 3);
+                                !!bestAmmo && (isAccuracyNeeded = false);
+                            }
                             if (!completedOnly && (chunkInfo['equipment'][equip].accuracy > 0 && chunkInfo['equipment'][equip].ability_damage > 0)) {
                                 if (!bisUpgrades[skill.replaceAll(' ', '_') + '-' + chunkInfo['equipment'][equip].slot]) {
                                     bisUpgrades[skill.replaceAll(' ', '_') + '-' + chunkInfo['equipment'][equip].slot] = {};
                                 }
-                                bisUpgrades[skill.replaceAll(' ', '_') + '-' + chunkInfo['equipment'][equip].slot][equip] = chunkInfo['equipment'][equip].accuracy + chunkInfo['equipment'][equip].ability_damage + (!!bestAmmo ? chunkInfo['equipment'][bestAmmo].ability_damage : 0);
+                                bisUpgrades[skill.replaceAll(' ', '_') + '-' + chunkInfo['equipment'][equip].slot][equip] = (isAccuracyNeeded ? chunkInfo['equipment'][equip].accuracy : 0) + (!!bestAmmo ? Math.min(chunkInfo['equipment'][equip].ability_damage, ammoMultiplier * chunkInfo['equipment'][bestAmmo].ability_damage) : chunkInfo['equipment'][equip].ability_damage);
                             }
-                            if ((!bestEquipment[chunkInfo['equipment'][equip].slot] || ((chunkInfo['equipment'][equip].accuracy + chunkInfo['equipment'][equip].ability_damage + (!!bestAmmo ? chunkInfo['equipment'][bestAmmo].ability_damage : 0)) > (chunkInfo['equipment'][bestEquipment[chunkInfo['equipment'][equip].slot]].accuracy + chunkInfo['equipment'][bestEquipment[chunkInfo['equipment'][equip].slot]].ability_damage + (!!bestAmmoSaved[chunkInfo['equipment'][equip].slot] ? chunkInfo['equipment'][bestAmmoSaved[chunkInfo['equipment'][equip].slot]].ability_damage : 0)))) && chunkInfo['equipment'][equip].ability_damage > 0) {
+                            if ((!bestEquipment[chunkInfo['equipment'][equip].slot] || (((isAccuracyNeeded ? chunkInfo['equipment'][equip].accuracy : 0) + (!!bestAmmo ? Math.min(chunkInfo['equipment'][equip].ability_damage, ammoMultiplier * chunkInfo['equipment'][bestAmmo].ability_damage) : chunkInfo['equipment'][equip].ability_damage)) > ((isAccuracyNeeded ? chunkInfo['equipment'][bestEquipment[chunkInfo['equipment'][equip].slot]].accuracy : 0) + (!!bestAmmoSaved[chunkInfo['equipment'][equip].slot] ? Math.min(chunkInfo['equipment'][bestEquipment[chunkInfo['equipment'][equip].slot]].ability_damage, chunkInfo['equipment'][bestEquipment[chunkInfo['equipment'][equip].slot]].ability_damage) : chunkInfo['equipment'][bestEquipment[chunkInfo['equipment'][equip].slot]].ability_damage)))) && chunkInfo['equipment'][equip].ability_damage > 0) {
                                 let tempTempValid = false;
                                 Object.keys(baseChunkData['items'][equip]).filter(source => !baseChunkData['items'][equip][source].includes('-') || !chunkInfo['challenges'][baseChunkData['items'][equip][source].split('-')[1]] || !chunkInfo['challenges'][baseChunkData['items'][equip][source].split('-')[1]][source] || (!chunkInfo['challenges'][baseChunkData['items'][equip][source].split('-')[1]][source]['ProcessingSource'] && !processingSkill[baseChunkData['items'][equip][source].split('-')[1]]) || rules['Wield Crafted Items'] || baseChunkData['items'][equip][source].split('-')[1] === 'Slayer' || (chunkInfo['challenges'].hasOwnProperty(baseChunkData['items'][equip][source].split('-')[1]) && chunkInfo['challenges'][baseChunkData['items'][equip][source].split('-')[1]].hasOwnProperty(source) && chunkInfo['challenges'][baseChunkData['items'][equip][source].split('-')[1]][source].hasOwnProperty('NoXp'))).length > 0 && (tempTempValid = true);
                                 tempTempValid && (!backlog['BiS'] || (!backlog['BiS'].hasOwnProperty('Obtain' + article + '~|' + formatEquip(equip) + '|~') && !backlog['BiS'].hasOwnProperty('Obtain' + article + '~|' + formatEquip(equip).replaceAll('#', '/') + '|~'))) && (bestEquipment[chunkInfo['equipment'][equip].slot] = equip);
@@ -5817,10 +5877,11 @@ let calcBIS = function(completedOnly) {
                                     let articleAmmo = vowels.includes(bestAmmo.toLowerCase().charAt(0)) ? ' an ' : ' a ';
                                     articleAmmo = (bestAmmo.toLowerCase().charAt(bestAmmo.toLowerCase().length - 1) === 's' || (bestAmmo.toLowerCase().charAt(bestAmmo.toLowerCase().length - 1) === ')' && bestAmmo.toLowerCase().split('(')[0].trim().charAt(bestAmmo.toLowerCase().split('(')[0].trim().length - 1) === 's')) ? ' ' : articleAmmo;
                                     tempTempValidAmmo && (!backlog['BiS'] || (!backlog['BiS'].hasOwnProperty('Obtain' + articleAmmo + '~|' + bestAmmo.toLowerCase() + '|~') && !backlog['BiS'].hasOwnProperty('Obtain' + articleAmmo + '~|' + bestAmmo.toLowerCase().replaceAll('#', '/') + '|~'))) && (bestAmmoSaved[chunkInfo['equipment'][equip].slot] = bestAmmo);
+                                    tempTempValidAmmo && (!backlog['BiS'] || (!backlog['BiS'].hasOwnProperty('Obtain' + articleAmmo + '~|' + bestAmmo.toLowerCase() + '|~') && !backlog['BiS'].hasOwnProperty('Obtain' + articleAmmo + '~|' + bestAmmo.toLowerCase().replaceAll('#', '/') + '|~'))) && (altAmmoGlobal[equip] = bestAmmo);
                                 } else if (bestEquipment[chunkInfo['equipment'][equip].slot] === equip) {
                                     delete bestAmmoSaved[chunkInfo['equipment'][equip].slot];
                                 }
-                            } else if ((!bestEquipment[chunkInfo['equipment'][equip].slot] || ((chunkInfo['equipment'][equip].accuracy + chunkInfo['equipment'][equip].ability_damage + (!!bestAmmo ? chunkInfo['equipment'][bestAmmo].ability_damage : 0)) === (chunkInfo['equipment'][bestEquipment[chunkInfo['equipment'][equip].slot]].accuracy + chunkInfo['equipment'][bestEquipment[chunkInfo['equipment'][equip].slot]].ability_damage + (!!bestAmmoSaved[chunkInfo['equipment'][equip].slot] ? chunkInfo['equipment'][bestAmmoSaved[chunkInfo['equipment'][equip].slot]].ability_damage : 0)))) && chunkInfo['equipment'][equip].ability_damage > 0) {
+                            } else if ((!bestEquipment[chunkInfo['equipment'][equip].slot] || (((isAccuracyNeeded ? chunkInfo['equipment'][equip].accuracy : 0) + (!!bestAmmo ? Math.min(chunkInfo['equipment'][equip].ability_damage, ammoMultiplier * chunkInfo['equipment'][bestAmmo].ability_damage) : chunkInfo['equipment'][equip].ability_damage)) === ((isAccuracyNeeded ? chunkInfo['equipment'][bestEquipment[chunkInfo['equipment'][equip].slot]].accuracy : 0) + (!!bestAmmoSaved[chunkInfo['equipment'][equip].slot] ? Math.min(chunkInfo['equipment'][bestEquipment[chunkInfo['equipment'][equip].slot]].ability_damage, chunkInfo['equipment'][bestEquipment[chunkInfo['equipment'][equip].slot]].ability_damage) : chunkInfo['equipment'][bestEquipment[chunkInfo['equipment'][equip].slot]].ability_damage)))) && ((isAccuracyNeeded ? chunkInfo['equipment'][equip].accuracy : 0) + (!!bestAmmo ? Math.min(chunkInfo['equipment'][equip].ability_damage, ammoMultiplier * chunkInfo['equipment'][bestAmmo].ability_damage) : chunkInfo['equipment'][equip].ability_damage)) > 0) {
                                 let tempTempValid = false;
                                 Object.keys(baseChunkData['items'][equip]).filter(source => !baseChunkData['items'][equip][source].includes('-') || !chunkInfo['challenges'][baseChunkData['items'][equip][source].split('-')[1]] || !chunkInfo['challenges'][baseChunkData['items'][equip][source].split('-')[1]][source] || (!chunkInfo['challenges'][baseChunkData['items'][equip][source].split('-')[1]][source]['ProcessingSource'] && !processingSkill[baseChunkData['items'][equip][source].split('-')[1]]) || rules['Wield Crafted Items'] || baseChunkData['items'][equip][source].split('-')[1] === 'Slayer' || (chunkInfo['challenges'].hasOwnProperty(baseChunkData['items'][equip][source].split('-')[1]) && chunkInfo['challenges'][baseChunkData['items'][equip][source].split('-')[1]].hasOwnProperty(source) && chunkInfo['challenges'][baseChunkData['items'][equip][source].split('-')[1]][source].hasOwnProperty('NoXp'))).length > 0 && (tempTempValid = true);
                                 if (tempTempValid && (!backlog['BiS'] || (!backlog['BiS'].hasOwnProperty('Obtain' + article + '~|' + formatEquip(equip) + '|~') && !backlog['BiS'].hasOwnProperty('Obtain' + article + '~|' + formatEquip(equip).replaceAll('#', '/') + '|~')))) {
@@ -5828,6 +5889,7 @@ let calcBIS = function(completedOnly) {
                                         bestEquipmentAlts[chunkInfo['equipment'][equip].slot] = {};
                                     }
                                     bestEquipmentAlts[chunkInfo['equipment'][equip].slot][equip] = bestEquipment[chunkInfo['equipment'][equip].slot];
+                                    altAmmoGlobal[equip] = bestAmmo;
                                     if (!!bestAmmo) {
                                         let tempTempValidAmmo = false;
                                         Object.keys(baseChunkData['items'][bestAmmo]).filter(source => !baseChunkData['items'][bestAmmo][source].includes('-') || !processingSkill[baseChunkData['items'][bestAmmo][source].split('-')[1]] || rules['Wield Crafted Items'] || baseChunkData['items'][bestAmmo][source].split('-')[1] === 'Slayer').length > 0 && (tempTempValidAmmo = true);
@@ -6238,17 +6300,40 @@ let calcBIS = function(completedOnly) {
             }
         } else if (skill === 'Ranged') {
             if (bestEquipment.hasOwnProperty('2h weapon')) {
-                twoHPower = chunkInfo['equipment'][bestEquipment['2h weapon']].accuracy + chunkInfo['equipment'][bestEquipment['2h weapon']].ability_damage;
+                twoHPower = chunkInfo['equipment'][bestEquipment['2h weapon']].accuracy + (!!bestAmmoSaved['2h weapon'] ? Math.min(chunkInfo['equipment'][bestEquipment['2h weapon']].ability_damage, chunkInfo['equipment'][bestAmmoSaved['2h weapon']].ability_damage) : chunkInfo['equipment'][bestEquipment['2h weapon']].ability_damage);
             }
             if (bestEquipment.hasOwnProperty('main hand weapon')) {
                 if (bestEquipment.hasOwnProperty('off-hand weapon')) {
-                    weaponShieldPower = ((chunkInfo['equipment'][bestEquipment['main hand weapon']].accuracy + chunkInfo['equipment'][bestEquipment['off-hand weapon']].accuracy) / 2) + (chunkInfo['equipment'][bestEquipment['main hand weapon']].ability_damage + chunkInfo['equipment'][bestEquipment['off-hand weapon']].ability_damage);
+                    let mainAmmoDamage = 0;
+                    let offAmmoDamage = 0;
+                    if (!bestAmmoSaved['main hand weapon'] && !!bestAmmoSaved['off-hand weapon']) {
+                        mainAmmoDamage = chunkInfo['equipment'][bestAmmoSaved['off-hand weapon']].ability_damage;
+                        offAmmoDamage = chunkInfo['equipment'][bestAmmoSaved['off-hand weapon']].ability_damage;
+                    } else if (!bestAmmoSaved['off-hand weapon'] && !!bestAmmoSaved['main hand weapon']) {
+                        mainAmmoDamage = chunkInfo['equipment'][bestAmmoSaved['main hand weapon']].ability_damage;
+                        offAmmoDamage = chunkInfo['equipment'][bestAmmoSaved['main hand weapon']].ability_damage;
+                    } else if (!!bestAmmoSaved['main hand weapon'] && !!bestAmmoSaved['off-hand weapon']) {
+                        if (chunkInfo['equipment'][bestAmmoSaved['main hand weapon']].ability_damage > chunkInfo['equipment'][bestAmmoSaved['off-hand weapon']].ability_damage) {
+                            mainAmmoDamage = chunkInfo['equipment'][bestAmmoSaved['off-hand weapon']].ability_damage;
+                            offAmmoDamage = chunkInfo['equipment'][bestAmmoSaved['off-hand weapon']].ability_damage;
+                        } else {
+                            mainAmmoDamage = chunkInfo['equipment'][bestAmmoSaved['main hand weapon']].ability_damage;
+                            offAmmoDamage = chunkInfo['equipment'][bestAmmoSaved['main hand weapon']].ability_damage;
+                        }
+                    }
+                    if (chunkInfo['codeItems']['ammoTools']['No ammo'][bestEquipment['main hand weapon']]) {
+                        mainAmmoDamage = 0;
+                    }
+                    if (chunkInfo['codeItems']['ammoTools']['No ammo'][bestEquipment['off-hand weapon']]) {
+                        offAmmoDamage = 0;
+                    }
+                    weaponShieldPower = chunkInfo['equipment'][bestEquipment['main hand weapon']].accuracy + (!!mainAmmoDamage ? Math.min(chunkInfo['equipment'][bestEquipment['main hand weapon']].ability_damage, (2/3) * mainAmmoDamage) : chunkInfo['equipment'][bestEquipment['main hand weapon']].ability_damage) + (!!offAmmoDamage ? Math.min(chunkInfo['equipment'][bestEquipment['off-hand weapon']].ability_damage, (1/3) * offAmmoDamage) : chunkInfo['equipment'][bestEquipment['off-hand weapon']].ability_damage);
                 } else {
-                    weaponShieldPower = chunkInfo['equipment'][bestEquipment['main hand weapon']].accuracy + chunkInfo['equipment'][bestEquipment['main hand weapon']].ability_damage;
+                    weaponShieldPower = chunkInfo['equipment'][bestEquipment['main hand weapon']].accuracy + (!!bestAmmoSaved['main hand weapon'] ? Math.min(chunkInfo['equipment'][bestEquipment['main hand weapon']].ability_damage, chunkInfo['equipment'][bestAmmoSaved['main hand weapon']].ability_damage) : chunkInfo['equipment'][bestEquipment['main hand weapon']].ability_damage);
                 }
             }
             if (bestEquipment.hasOwnProperty('off-hand weapon')) {
-                offHandPower = chunkInfo['equipment'][bestEquipment['off-hand weapon']].accuracy + chunkInfo['equipment'][bestEquipment['off-hand weapon']].ability_damage;
+                offHandPower = !!bestAmmoSaved['off-hand weapon'] ? Math.min(chunkInfo['equipment'][bestEquipment['off-hand weapon']].ability_damage, (1/3) * chunkInfo['equipment'][bestAmmoSaved['off-hand weapon']].ability_damage) : chunkInfo['equipment'][bestEquipment['off-hand weapon']].ability_damage;
             }
             if (bestEquipment.hasOwnProperty('off-hand')) {
                 shieldPower = chunkInfo['equipment'][bestEquipment['off-hand']].accuracy;
@@ -6405,7 +6490,7 @@ let calcBIS = function(completedOnly) {
             delete bestEquipment['2h weapon'];
             skill === 'Ranged' && (bestEquipment['ammo'] = bestAmmoSaved['main hand weapon']);
         }
-        if (twoHPower <= weaponShieldPower || rules['Show Best in Slot 1H and 2H']) {
+        if ((twoHPower <= weaponShieldPower || rules['Show Best in Slot 1H and 2H']) && Math.max(shieldPower, offHandPower) > 0) {
             if (shieldPower > offHandPower) {
                 if (rules['Show Best in Slot Shield']) {
                     savedWeaponBis['off-hand weapon'] = bestEquipment['off-hand weapon'];
@@ -9407,6 +9492,18 @@ let calcBIS = function(completedOnly) {
                 equipToAdd['Obtain' + article + '~|' + formatEquip(item) + '|~'] = [];
             }
             equipToAdd['Obtain' + article + '~|' + formatEquip(item) + '|~'].push(label);
+            if (!!altAmmoGlobal[item]) {
+                let article2 = vowels.includes(altAmmoGlobal[item].toLowerCase().charAt(0)) ? ' an ' : ' a ';
+                article2 = (altAmmoGlobal[item].toLowerCase().charAt(altAmmoGlobal[item].toLowerCase().length - 1) === 's' || (altAmmoGlobal[item].toLowerCase().charAt(altAmmoGlobal[item].toLowerCase().length - 1) === ')' && altAmmoGlobal[item].toLowerCase().split('(')[0].trim().charAt(altAmmoGlobal[item].toLowerCase().split('(')[0].trim().length - 1) === 's')) ? ' ' : article2;
+                chunkInfo['challenges']['BiS']['Obtain' + article2 + '~|' + formatEquip(altAmmoGlobal[item]) + '|~'] = {
+                    'ItemsDetails': [altAmmoGlobal[item]],
+                    'Label': `<span class='noscroll ${label.split(' BiS ')[0]}-bis-highlight'>` + label.split(' BiS ')[0] + '</span> BiS ammo'
+                }
+                if (!equipToAdd['Obtain' + article2 + '~|' + formatEquip(altAmmoGlobal[item]) + '|~']) {
+                    equipToAdd['Obtain' + article2 + '~|' + formatEquip(altAmmoGlobal[item]) + '|~'] = [];
+                }
+                equipToAdd['Obtain' + article2 + '~|' + formatEquip(altAmmoGlobal[item]) + '|~'].push(label.split(' BiS ')[0] + 'BiS ammo');
+            }
         });
     });
     !!equipToAdd && Object.keys(equipToAdd).filter((line) => !globalValids['BiS'].hasOwnProperty(line)).forEach((line) => {
@@ -10540,7 +10637,7 @@ let gatherChunksInfo = function(chunksIn) {
         }
     });
 
-    !intitalDataPosted && type === 'current' && postMessage(['initial-data', {items: items, objects: objects, monsters: monsters, npcs: npcs, shops: shops}]);
+    !intitalDataPosted && type === 'current' && postMessage({ type: 'initial-data', baseChunkData: {items: items, objects: objects, monsters: monsters, npcs: npcs, shops: shops} });
     intitalDataPosted = true;
     return {items: items, objects: objects, monsters: monsters, npcs: npcs, shops: shops};
 }
