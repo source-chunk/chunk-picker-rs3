@@ -39444,12 +39444,20 @@
 				"Priority": 10,
 				"Not F2P": true
 			},
+			"Fletch ~|blisterwood stakes (ammo)|~": {
+				"Items": ["Blisterwood logs*"],
+				"Level": 70,
+				"Output": "Blisterwood stakes (ammo)",
+				"Primary": true,
+				"Priority": 11,
+				"Not F2P": true
+			},
 			"Fletch a ~|blisterwood orb|~": {
 				"Items": ["Blisterwood logs*"],
 				"Level": 70,
 				"Output": "Blisterwood orb",
 				"Primary": true,
-				"Priority": 11,
+				"Priority": 12,
 				"Not F2P": true
 			},
 			"Fletch a ~|blisterwood polearm|~": {
@@ -39457,7 +39465,7 @@
 				"Level": 70,
 				"Output": "Blisterwood polearm",
 				"Primary": true,
-				"Priority": 12,
+				"Priority": 13,
 				"Not F2P": true
 			},
 			"Fletch a ~|blisterwood staff|~": {
@@ -39465,7 +39473,7 @@
 				"Level": 70,
 				"Output": "Blisterwood staff",
 				"Primary": true,
-				"Priority": 13,
+				"Priority": 14,
 				"Not F2P": true
 			},
 			"Fletch a ~|yew wood box|~": {
@@ -39473,7 +39481,7 @@
 				"Level": 70,
 				"Output": "Yew wood box",
 				"Primary": true,
-				"Priority": 14,
+				"Priority": 15,
 				"Not F2P": true
 			},
 			"Fletch ~|dragon bolt tips|~": {
@@ -51705,9 +51713,9 @@
 			},
 			"Cast ~|Enchant Crossbow Bolt (Emerald bakriminel)|~": {
 				"Category": ["Spells"],
-				"Items": ["Blood rune*", "Nature rune*", "Cosmic rune*", "Air rune[+]*", "Emerald bakriminel bolt*"],
+				"Items": ["Blood rune*", "Nature rune*", "Cosmic rune*", "Air rune[+]*", "Emerald bakriminel bolts*"],
 				"Level": 93,
-				"Output": "Emerald bakriminel bolt (e)",
+				"Output": "Emerald bakriminel bolts (e)",
 				"Primary": true,
 				"Priority": 2,
 				"Not F2P": true
@@ -57258,7 +57266,7 @@
 				"Not F2P": true
 			},
 			"Wield a ~|hunters' crossbow|~": {
-				"Items": ["Hunters' Crossbow"],
+				"Items": ["Hunters' crossbow"],
 				"Level": 50,
 				"Primary": false,
 				"Priority": 7,
@@ -72527,7 +72535,6 @@
 				"Chunks": ["10547-1"],
 				"Tasks": {
 					"~|The Hand in the Sand|~ Complete the quest": "Quest",
-					"~|One Small Favour|~ Complete the quest": "Quest",
 					"~|Tribal Totem|~ Complete the quest": "Quest"
 				},
 				"Skills": {
@@ -191875,9 +191882,6 @@
 					"Shop": {
 						"Dominion Tower Rewards": true
 					},
-					"Monster": {
-						"Dominion Tower Rewards": true
-					},
 					"Clue": {
 						"elite": 6
 					}
@@ -209152,23 +209156,6 @@
 			},
 			"Connect": {
 				"13360": true
-			},
-			"NPC": {
-				"General Khazard": 1,
-				"Tumeken's shadow": 1,
-				"Koschei the Deathless": 1
-			},
-			"Monster": {
-				"The Draugen": 1,
-				"Elvarg": 1,
-				"Bouncer": 1,
-				"The Untouchable": 1,
-				"The Kendal": 1,
-				"Karamel": 1,
-				"Evil Chicken": 1,
-				"Jungle demon": 1,
-				"The Inadequacy": 1,
-				"Barrelchest": 1
 			}
 		},
 		"Isle of Sann": {
@@ -222559,7 +222546,7 @@
 			"Anvil[+]": ["Anvil", "Tri-Anvil", "Fremennik Anvil"],
 			"AnyExcavationSpot[+]": ["Venator remains", "Legionary remains", "Castra debris", "Lodge bar storage", "Lodge art storage", "Administratum debris", "Cultist footlocker", "Sacrificial altar", "Prodromoi remains", "Dis dungeon debris", "Praesidio remains", "Monoceros remains", "Amphitheatre debris", "Ceramics studio debris", "Carcerem debris", "Ministry remains", "Stadio debris", "Cathedral debris", "Marketplace debris", "Inquisitor remains", "Infernal art", "Gladiator remains", "Citizen remains", "Shakroth remains", "Dominion Games podium", "Ikovian memorial", "Oikos studio debris", "Kharid-et chapel debris", "Gladiatorial goblin remains", "Keshik ger", "Animal trophies", "Pontifex remains", "Cricible stand debris", "Tailory debris", "Goblin dorm debris", "Oikos fishing hut remnants", "Weapons research debris", "Orcus altar", "Dis overspill", "Big High War God shrine", "Orthen rubble", "Varanusaur remains", "Gravitron research debris", "Acropolis debris", "Armarium debris", "Yu'biusk animal pen", "Keshik tower debris", "Dragonkin reliquary", "Goblin trainee remains", "Byzroth remains", "Destroyed golem", "Dragonkin coffin", "Icyene weapon rack", "Culinarum debris", "Kyzaj champion's boudoir", "Autopsy table", "Experiment workbench", "Keshik weapon rack", "Hellfire forge", "Warforge scrap pile", "Stockpiled art", "Aughra remains", "Ancient magick munitions", "Moksha device", "Bibliotheke debris", "Warforge weapon rack", "Flight research debris", "Atherium forge", "Xolo mine", "Praetorian remains", "Bandos's sanctum debris", "Tsutsaroth remains", "Optimatoi remains", "War table debris", "Howl's workshop debris", "Makeshift pie oven", "Xolo remains", "Saurthen debris"],
 			"Bank[+]": ["Bank", "Bank boat", "Bank booth", "Bank chest", "Banker"],
-			"Cave eel spot[+]": ["Fishing spot (frog spawn, eel)", "Fishing spot (meiyerditch)"],
+			"Cave eel spot[+]": ["Fishing spot (frog spawn, eels)", "Fishing spot (meiyerditch)"],
 			"Coal rock[+]": ["Coal rock", "Coal vein"],
 			"Cooking object[+]": ["Fire", "Cooking range", "Range", "Clay oven", "Campfire", "Fireplace", "Stove", "Cooking pot", "Sulphur pit", "Player fire", "Oven (City of Um)", "Grill"],
 			"Cooking range[+]": ["Cooking range", "Range", "Stove", "Clay oven", "Oven (City of Um)", "Grill"],
@@ -288843,18 +288830,6 @@
 			"Bones": true,
 			"Broken glass": true
 		},
-		"Off-hand longsword shop": {
-			"Bronze off hand longsword": true,
-			"Iron off hand longsword": true,
-			"Steel off hand longsword": true,
-			"Mithril off hand longsword": true,
-			"Adamant off hand longsword": true,
-			"Rune off hand longsword": true,
-			"Mining_and_Smithing_beta#Scrapped_content": true,
-			"Off-hand necronium longsword": true,
-			"Off-hand bane longsword": true,
-			"Off-hand elder rune longsword": true
-		},
 		"Old Meats": {
 			"Raw rabbit pack": true,
 			"Raw beef pack": true,
@@ -327174,7 +327149,7 @@
 				"Rune arrow": {
 					"1": "Always"
 				},
-				"Rune bolt": {
+				"Rune bolts": {
 					"1": "Always"
 				},
 				"Big bones": {
@@ -336195,7 +336170,7 @@
 			"accuracy": 0,
 			"auto_damage": 576
 		},
-		"Abyssalbane bolt": {
+		"Abyssalbane bolts": {
 			"ranged_damage": 0,
 			"requirements": {
 				"Ranged": 60
@@ -343998,7 +343973,7 @@
 			"accuracy": 0,
 			"auto_damage": 576
 		},
-		"Basiliskbane bolt": {
+		"Basiliskbane bolts": {
 			"ranged_damage": 0,
 			"requirements": {
 				"Ranged": 60
@@ -354614,7 +354589,7 @@
 			"accuracy": 0,
 			"auto_damage": 576
 		},
-		"Dragonbane bolt": {
+		"Dragonbane bolts": {
 			"ranged_damage": 0,
 			"requirements": {
 				"Ranged": 60
@@ -394432,7 +394407,7 @@
 			"accuracy": 0,
 			"auto_damage": 576
 		},
-		"Wallasalkibane bolt": {
+		"Wallasalkibane bolts": {
 			"ranged_damage": 0,
 			"requirements": {
 				"Ranged": 60

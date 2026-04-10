@@ -13246,11 +13246,11 @@ let loadData = async function(startup) {
         }
 		
 		if (!rulesTemp.hasOwnProperty('Bakami')) {
-            rulesTemp['Bakami'] = rulesTemp.hasOwnProperty('Puro-Puro') ? rulesTemp['Puro-Puro'] : false;
+            rulesTemp['Bakami'] = rulesTemp.hasOwnProperty('Extra implings') ? rulesTemp['Extra implings'] : false;
         }
 		
 		if (!rulesTemp.hasOwnProperty('Secondary Bird Nests')) {
-            rulesTemp['Secondary Bird Nests'] = rulesTemp.hasOwnProperty('Puro-Puro') ? rulesTemp['Puro-Puro'] : false;
+            rulesTemp['Secondary Bird Nests'] = true;
         }
         
         if (!rulesTemp.hasOwnProperty('Kill X Boss')) {
