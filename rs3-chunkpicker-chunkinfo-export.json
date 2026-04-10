@@ -39444,7 +39444,7 @@
 				"Priority": 10,
 				"Not F2P": true
 			},
-			"Fletch a ~|blisterwood stakes (ammo)|~": {
+			"Fletch ~|blisterwood stakes (ammo)|~": {
 				"Items": ["Blisterwood logs*"],
 				"Level": 70,
 				"Output": "Blisterwood stakes (ammo)",
