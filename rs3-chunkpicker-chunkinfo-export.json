@@ -39444,12 +39444,20 @@
 				"Priority": 10,
 				"Not F2P": true
 			},
+			"Fletch a ~|blisterwood stakes (ammo)|~": {
+				"Items": ["Blisterwood logs*"],
+				"Level": 70,
+				"Output": "Blisterwood stakes (ammo)",
+				"Primary": true,
+				"Priority": 11,
+				"Not F2P": true
+			},
 			"Fletch a ~|blisterwood orb|~": {
 				"Items": ["Blisterwood logs*"],
 				"Level": 70,
 				"Output": "Blisterwood orb",
 				"Primary": true,
-				"Priority": 11,
+				"Priority": 12,
 				"Not F2P": true
 			},
 			"Fletch a ~|blisterwood polearm|~": {
@@ -39457,7 +39465,7 @@
 				"Level": 70,
 				"Output": "Blisterwood polearm",
 				"Primary": true,
-				"Priority": 12,
+				"Priority": 13,
 				"Not F2P": true
 			},
 			"Fletch a ~|blisterwood staff|~": {
@@ -39465,7 +39473,7 @@
 				"Level": 70,
 				"Output": "Blisterwood staff",
 				"Primary": true,
-				"Priority": 13,
+				"Priority": 14,
 				"Not F2P": true
 			},
 			"Fletch a ~|yew wood box|~": {
@@ -39473,7 +39481,7 @@
 				"Level": 70,
 				"Output": "Yew wood box",
 				"Primary": true,
-				"Priority": 14,
+				"Priority": 15,
 				"Not F2P": true
 			},
 			"Fletch ~|dragon bolt tips|~": {
@@ -51705,9 +51713,9 @@
 			},
 			"Cast ~|Enchant Crossbow Bolt (Emerald bakriminel)|~": {
 				"Category": ["Spells"],
-				"Items": ["Blood rune*", "Nature rune*", "Cosmic rune*", "Air rune[+]*", "Emerald bakriminel bolt*"],
+				"Items": ["Blood rune*", "Nature rune*", "Cosmic rune*", "Air rune[+]*", "Emerald bakriminel bolts*"],
 				"Level": 93,
-				"Output": "Emerald bakriminel bolt (e)",
+				"Output": "Emerald bakriminel bolts (e)",
 				"Primary": true,
 				"Priority": 2,
 				"Not F2P": true
@@ -57258,7 +57266,7 @@
 				"Not F2P": true
 			},
 			"Wield a ~|hunters' crossbow|~": {
-				"Items": ["Hunters' Crossbow"],
+				"Items": ["Hunters' crossbow"],
 				"Level": 50,
 				"Primary": false,
 				"Priority": 7,
@@ -72527,7 +72535,6 @@
 				"Chunks": ["10547-1"],
 				"Tasks": {
 					"~|The Hand in the Sand|~ Complete the quest": "Quest",
-					"~|One Small Favour|~ Complete the quest": "Quest",
 					"~|Tribal Totem|~ Complete the quest": "Quest"
 				},
 				"Skills": {
@@ -288823,18 +288830,6 @@
 			"Bones": true,
 			"Broken glass": true
 		},
-		"Off-hand longsword shop": {
-			"Bronze off hand longsword": true,
-			"Iron off hand longsword": true,
-			"Steel off hand longsword": true,
-			"Mithril off hand longsword": true,
-			"Adamant off hand longsword": true,
-			"Rune off hand longsword": true,
-			"Mining_and_Smithing_beta#Scrapped_content": true,
-			"Off-hand necronium longsword": true,
-			"Off-hand bane longsword": true,
-			"Off-hand elder rune longsword": true
-		},
 		"Old Meats": {
 			"Raw rabbit pack": true,
 			"Raw beef pack": true,
@@ -327154,7 +327149,7 @@
 				"Rune arrow": {
 					"1": "Always"
 				},
-				"Rune bolt": {
+				"Rune bolts": {
 					"1": "Always"
 				},
 				"Big bones": {
@@ -336175,7 +336170,7 @@
 			"accuracy": 0,
 			"auto_damage": 576
 		},
-		"Abyssalbane bolt": {
+		"Abyssalbane bolts": {
 			"ranged_damage": 0,
 			"requirements": {
 				"Ranged": 60
@@ -343978,7 +343973,7 @@
 			"accuracy": 0,
 			"auto_damage": 576
 		},
-		"Basiliskbane bolt": {
+		"Basiliskbane bolts": {
 			"ranged_damage": 0,
 			"requirements": {
 				"Ranged": 60
@@ -354594,7 +354589,7 @@
 			"accuracy": 0,
 			"auto_damage": 576
 		},
-		"Dragonbane bolt": {
+		"Dragonbane bolts": {
 			"ranged_damage": 0,
 			"requirements": {
 				"Ranged": 60
@@ -394412,7 +394407,7 @@
 			"accuracy": 0,
 			"auto_damage": 576
 		},
-		"Wallasalkibane bolt": {
+		"Wallasalkibane bolts": {
 			"ranged_damage": 0,
 			"requirements": {
 				"Ranged": 60
