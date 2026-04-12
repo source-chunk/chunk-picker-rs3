@@ -8536,6 +8536,7 @@
 				"NoBoost": true
 			},
 			"Wield an ~|argonite weapon|~ in Daemonheim": {
+			    "Category": ["Daemonheim tasks"],
 			    "Tasks": {
 			        "Unlock ~|frozen floors|~": "Dungeoneering"
 			    },
