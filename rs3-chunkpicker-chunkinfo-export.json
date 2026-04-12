@@ -8529,11 +8529,20 @@
 			},
 			"Wield a double upgraded ~|havensilver weapon|~": {
 				"Items": ["Havensilver weapon + 2[+]"],
-				"Level": 1,
+				"Level": 60,
 				"Primary": false,
 				"Priority": 9,
 				"NoPet": true,
 				"NoBoost": true
+			},
+			"Wield an ~|argonite weapon|~ in Daemonheim": {
+			    "Tasks": {
+			        "Unlock ~|frozen floors|~": "Dungeoneering"
+			    },
+			    "Level": 60,
+			    "Primary": false,
+			    "NoPet": true,
+			    "Priority": 10000
 			},
 			"Wear the ~|ring of vigour|~": {
 				"Items": ["Ring of vigour"],
@@ -9627,6 +9636,19 @@
 		        "Priority": 13,
 				"Not F2P": true
 		    },
+			"Create a ~|portent of restoration I (Dungeoneering)|~ in Daemonheim": {
+			    "Category": ["Daemonheim tasks"],
+			    "Tasks": {
+			        "Unlock ~|frozen floors|~": "Dungeoneering"
+			    },
+			    "Level": 10,
+			    "Skills": {
+			        "Divination": 2
+			    },
+			    "Primary": false,
+			    "NoPet": true,
+			    "Priority": 1000
+			},
 		    "Use a ~|portent of restoration II|~": {
 		        "Items": ["Portent of restoration II"],
 		        "Level": 15,
@@ -9948,19 +9970,6 @@
 		        "NoPet": true,
 		        "Priority": 1
 		    },
-		    "Create a ~|portent of restoration X|~ in Daemonheim": {
-			    "Category": ["Daemonheim tasks"],
-			    "Tasks": {
-			        "Unlock ~|frozen floors|~": "Dungeoneering"
-			    },
-			    "Level": 90,
-			    "Skills": {
-			        "Divination": 97
-			    },
-			    "Primary": false,
-			    "NoPet": true,
-			    "Priority": 3
-			},
 			"Wear a ~|ring of retribution|~": {
 			    "Items": ["Ring of retribution"],
 			    "Level": 90,
@@ -10007,6 +10016,20 @@
 			        "Woodcutting": 90
 			    },
 			    "Priority": 7,
+				"Not F2P": true
+			},
+			"Create a ~|portent of restoration X (Dungeoneering)|~ in Daemonheim": {
+			    "Category": ["Daemonheim tasks"],
+			    "Tasks": {
+			        "Unlock ~|frozen floors|~": "Dungeoneering"
+			    },
+			    "Level": 90,
+			    "Skills": {
+			        "Divination": 97
+			    },
+			    "Primary": false,
+			    "NoPet": true,
+			    "Priority": 1000,
 				"Not F2P": true
 			},
 			"Unlock the ~|Ice Asylum|~ ability": {
@@ -13951,8 +13974,8 @@
 				"Primary": false,
 				"Priority": 12
 			},
-			"Build a ~|Prayer altar|~ in Daemonheim": {
-				"Category": ["Daemonheim tasks"],
+			"Build an ~|altar (Dungeoneering, starting room)|~ in Daemonheim": {
+				"Category": ["Daemonheim tasks", "Mutli Step Processing"],
 				"Tasks": {
 					"Unlock ~|frozen floors|~": "Dungeoneering"
 				},
@@ -17534,6 +17557,15 @@
 				"Primary": true,
 				"Priority": 3
 			},
+			"Cook a ~|web snipper|~ in Daemonheim": {
+				"Category": ["Daemonheim tasks"],
+				"Tasks": {
+					"Unlock ~|frozen floors|~": "Dungeoneering"
+				},
+				"Level": 50,
+				"Primary": false,
+				"Priority": 1000
+			},
 			"Make an ~|egg potato|~": {
 				"Items": ["Potato with butter*", "Egg and tomato*"],
 				"Level": 51,
@@ -18184,6 +18216,16 @@
 				"Priority": 1000,
 				"Not F2P": true
 			},
+			"Cook a ~|cave moray|~ in Daemonheim": {
+				"Category": ["Daemonheim tasks"],
+				"Tasks": {
+					"Unlock ~|frozen floors|~": "Dungeoneering"
+				},
+				"Level": 90,
+				"Primary": false,
+				"Priority": 1001,
+				"Not F2P": true
+			},
 			"Cook a ~|manta ray|~": {
 				"Items": ["Raw manta ray*"],
 				"Objects": ["Cooking object[+]"],
@@ -18483,14 +18525,15 @@
 				"Primary": true,
 				"Priority": 1000
 			},
-			"Make a ~|Moray & edicap potato|~": {
-				"Category": ["Daemonheim tasks"],
+			"Make a ~|moray & edicap potato|~ in Daemonheim": {
+				"Category": ["Daemonheim tasks", "Multi Step Processing"],
 				"Tasks": {
 					"Unlock ~|frozen floors|~": "Dungeoneering"
 				},
 				"Level": 99,
 				"Primary": false,
-				"Priority": 9
+				"Priority": 1000,
+				"Not F2P": true
 			},
 			"Make a ~|primal feast|~": {
 				"Items": ["Primal starter*", "Primal main course*", "Primal dessert*"],
@@ -21659,6 +21702,15 @@
 				"Priority": 6,
 				"Not F2P": true
 			},
+			"Craft ~|spinoleather vambraces|~ in Daemonheim": {
+				"Category": ["Daemonheim tasks"],
+				"Tasks": {
+					"Unlock ~|frozen floors|~": "Dungeoneering"
+				},
+				"Level": 51,
+				"Primary": false,
+				"Priority": 1000
+			},
 			"Craft a ~|strong runecrafting urn (unfired)|~": {
 				"Items": ["Soft clay*"],
 				"Level": 52,
@@ -22122,6 +22174,15 @@
 				"Primary": true,
 				"Priority": 5,
 				"Not F2P": true
+			},
+			"Craft a ~|spinoleather body|~ in Daemonheim": {
+				"Category": ["Daemonheim tasks", "Highest Level"],
+				"Tasks": {
+					"Unlock ~|frozen floors|~": "Dungeoneering"
+				},
+				"Level": 59,
+				"Primary": false,
+				"Priority": 1000
 			},
 			"Craft a piece of ~|black dragonhide armour|~": {
 				"Items": ["Black dragon leather*", "Thread*"],
@@ -24261,6 +24322,16 @@
 				"Primary": false,
 				"Priority": 100
 			},
+			"Craft ~|tyrannoleather vambraces|~ in Daemonheim": {
+				"Category": ["Daemonheim tasks"],
+				"Tasks": {
+					"Unlock ~|frozen floors|~": "Dungeoneering"
+				},
+				"Level": 91,
+				"Primary": false,
+				"Priority": 1000,
+				"Not F2P": true
+			},
 			"Craft ~|sirenic chaps|~": {
 				"Items": ["Sirenic scale*", "Algarum Thread*"],
 				"Level": 92,
@@ -24520,8 +24591,8 @@
 				"Primary": true,
 				"Priority": 4
 			},
-			"Craft a ~|Tyrannoleather body|~": {
-				"Category": ["Daemonheim tasks"],
+			"Craft a ~|tyrannoleather body|~ in Daemonheim": {
+				"Category": ["Daemonheim tasks", "Highest Level"],
 				"Tasks": {
 					"Unlock ~|frozen floors|~": "Dungeoneering"
 				},
@@ -26760,6 +26831,17 @@
 				"NoPet": true,
 				"NoBoost": true
 			},
+			"Wear a piece of ~|argonite armour|~ in Daemonheim (or another Tier 7 set)": {
+				"Category": ["Daemonheim tasks"],
+				"Tasks": {
+					"Unlock ~|frozen floors|~": "Dungeoneering"
+				},
+				"Level": 60,
+				"Primary": false,
+				"Priority": 101,
+				"NoPet": true,
+				"NoBoost": true
+			},
 			"Wear a piece of ~|third age melee armour|~": {
 				"Items": ["ThirdAgeMeleeArmour[+]"],
 				"Level": 65,
@@ -28333,7 +28415,7 @@
 				"NoBoost": true,
 				"Not F2P": true
 			},
-			"Wear a piece of ~|primal armour (Dungeoneering)|~": {
+			"Wear a piece of ~|primal armour (Dungeoneering)|~ in Daemonheim (or another Tier 11 set)": {
 				"Category": ["Daemonheim tasks"],
 				"Tasks": {
 					"Unlock ~|frozen floors|~": "Dungeoneering"
@@ -28341,30 +28423,6 @@
 				"Level": 99,
 				"Primary": false,
 				"Priority": 101,
-				"NoPet": true,
-				"NoBoost": true,
-				"Not F2P": true
-			},
-			"Wear a piece of ~|sagittarian armour|~": {
-				"Category": ["Daemonheim tasks"],
-				"Tasks": {
-					"Unlock ~|frozen floors|~": "Dungeoneering"
-				},
-				"Level": 99,
-				"Primary": false,
-				"Priority": 102,
-				"NoPet": true,
-				"NoBoost": true,
-				"Not F2P": true
-			},
-			"Wear a piece of ~|celestial armour|~": {
-				"Category": ["Daemonheim tasks"],
-				"Tasks": {
-					"Unlock ~|frozen floors|~": "Dungeoneering"
-				},
-				"Level": 99,
-				"Primary": false,
-				"Priority": 103,
 				"NoPet": true,
 				"NoBoost": true,
 				"Not F2P": true
@@ -28510,6 +28568,19 @@
 					"Constitution": 10
 				},
 				"Priority": 1
+			},
+			"Create a ~|portent of restoration I (Dungeoneering)|~ in Daemonheim": {
+			    "Category": ["Daemonheim tasks"],
+			    "Tasks": {
+			        "Unlock ~|frozen floors|~": "Dungeoneering"
+			    },
+			    "Level": 2,
+			    "Skills": {
+			        "Constitution": 10
+			    },
+			    "Primary": false,
+			    "NoPet": true,
+			    "Priority": 1000
 			},
 			"Create a ~|attuned portent of restoration I|~": {
 				"Items": ["Pale energy*", "RestoI[+]*"],
@@ -29770,7 +29841,7 @@
 				"Primary": true,
 				"Priority": 6
 			},
-			"Create a ~|portent of restoration X|~ in Daemonheim": {
+			"Create a ~|portent of restoration X (Dungeoneering)|~ in Daemonheim": {
 				"Category": ["Daemonheim tasks"],
 				"Tasks": {
 					"Unlock ~|frozen floors|~": "Dungeoneering"
@@ -29780,16 +29851,8 @@
 					"Constitution": 90
 				},
 				"Primary": false,
-				"Priority": 1000
-			},
-			"Create a ~|portent of passage X|~": {
-				"Category": ["Daemonheim tasks"],
-				"Tasks": {
-					"Unlock ~|frozen floors|~": "Dungeoneering"
-				},
-				"Level": 97,
-				"Primary": false,
-				"Priority": 1001
+				"Priority": 1000,
+				"Not F2P": true
 			},
 			"Create a ~|attuned portent of restoration X|~": {
 				"Items": ["Incandescent energy*", "Rocktail*"],
@@ -30805,7 +30868,7 @@
 				"Primary": true,
 				"Priority": 10
 			},
-			"Nurture a ~|normal evil tree|~ sapling": {
+			"Nurture an ~|evil tree|~ sapling": {
 				"Category": ["DnD"],
 				"Objects": ["Evil tree"],
 				"Level": 1,
@@ -31363,7 +31426,8 @@
 				},
 				"Level": 1,
 				"Primary": true,
-				"Priority": 61
+				"Priority": 61,
+				"Not F2P": true
 			},
 			"Harvest seaweed for the ~|Giant Oyster|~": {
 				"Category": ["DnD", "Not Daily DnD"],
@@ -31418,9 +31482,10 @@
 				"Priority": 1
 			},
 			"Nurture an ~|evil oak tree|~ sapling": {
-				"Objects": ["Evil oak tree"],
+				"Category": ["DnD"],
+				"Objects": ["Evil tree"],
 				"Level": 7,
-				"Primary": false,
+				"Primary": true,
 				"Priority": 2
 			},
 			"Grow ~|Asgarnian hops|~": {
@@ -31522,9 +31587,10 @@
 				"Priority": 3
 			},
 			"Nurture an ~|evil willow tree|~ sapling": {
-				"Objects": ["Evil willow tree"],
+				"Category": ["DnD"],
+				"Objects": ["Evil tree"],
 				"Level": 15,
-				"Primary": false,
+				"Primary": true,
 				"Priority": 4
 			},
 			"Grow ~|Yanillian hops|~": {
@@ -31665,9 +31731,10 @@
 				"Priority": 1
 			},
 			"Nurture an ~|evil maple tree|~ sapling": {
-				"Objects": ["Evil maple tree"],
+				"Category": ["DnD"],
+				"Objects": ["Evil tree"],
 				"Level": 22,
-				"Primary": false,
+				"Primary": true,
 				"Priority": 2
 			},
 			"Gather a ~|hay sack|~": {
@@ -31935,9 +32002,10 @@
 				"Priority": 3
 			},
 			"Nurture an ~|evil yew tree|~ sapling": {
-				"Objects": ["Evil yew tree"],
+				"Category": ["DnD"],
+				"Objects": ["Evil tree"],
 				"Level": 30,
-				"Primary": false,
+				"Primary": true,
 				"Priority": 4
 			},
 			"Cultivate a ~|rose bush|~": {
@@ -32182,10 +32250,12 @@
 				"Priority": 2
 			},
 			"Nurture an ~|evil magic tree|~ sapling": {
-				"Objects": ["Evil magic tree"],
+				"Category": ["DnD"],
+				"Objects": ["Evil tree"],
 				"Level": 37,
-				"Primary": false,
-				"Priority":1
+				"Primary": true,
+				"Priority": 1,
+				"Not F2P": true
 			},
 			"Grow a ~|grimy toadflax|~": {
 				"Category": ["Normal Farming"],
@@ -32256,10 +32326,12 @@
 				"Priority": 4
 			},
 			"Nurture an ~|evil elder tree|~ sapling": {
-				"Objects": ["Evil elder tree"],
+				"Category": ["DnD"],
+				"Objects": ["Evil tree"],
 				"Level": 45,
-				"Primary": false,
-				"Priority": 1
+				"Primary": true,
+				"Priority": 1,
+				"Not F2P": true
 			},
 			"Raise a ~|common green frog|~": {
 				"Category": ["Normal Farming"],
@@ -32332,13 +32404,6 @@
 				"Output": "GoldenFrogBreed",
 				"Primary": false,
 				"Priority": 12
-			},
-			"Nurture an ~|evil tree (elder)|~": {
-				"Category": ["DnD"],
-				"Level": 42,
-				"Objects": ["Evil tree"],
-				"Primary": true,
-				"Priority": 13
 			},
 			"Build a small dinosaur pen in your ~|Ranch out of Time|~": {
 				"Chunks": ["14916"],
@@ -34332,7 +34397,7 @@
 				"Primary": false,
 				"Priority": 3
 			},
-			"Grow a ~|buckthorn|~": {
+			"Grow a ~|buckthorn|~ in Daemonheim": {
 				"Category": ["Daemonheim tasks"],
 				"Tasks": {
 					"Unlock ~|frozen floors|~": "Dungeoneering"
@@ -36134,6 +36199,15 @@
 				"Primary": true,
 				"Priority": 9
 			},
+			"Burn ~|bovistrangler branches|~ in Daemonheim": {
+				"Category": ["Daemonheim tasks"],
+				"Tasks": {
+					"Unlock ~|frozen floors|~": "Dungeoneering"
+				},
+				"Level": 50,
+				"Primary": false,
+				"Priority": 1000
+			},
 			"Repair a lamp using a ~|light orb|~": {
 				"Chunks": ["Dorgesh-Kaan"],
 				"Items": ["Light orb*"],
@@ -36684,7 +36758,8 @@
 				"Level": 75,
 				"Objects": ["Evil tree"],
 				"Primary": true,
-				"Priority": 3
+				"Priority": 3,
+				"Not F2P": true
 			},
 			"Craft ~|magic incense sticks|~": {
 				"Items": ["Magic logs*"],
@@ -36953,16 +37028,18 @@
 				"Level": 90,
 				"Objects": ["Evil tree"],
 				"Primary": true,
-				"Priority": 3
+				"Priority": 3,
+				"Not F2P": true
 			},
-			"Burn ~|grave creeper branches|~": {
+			"Burn ~|grave creeper branches|~ in Daemonheim": {
 				"Category": ["Daemonheim tasks"],
 				"Tasks": {
 					"Unlock ~|frozen floors|~": "Dungeoneering"
 				},
 				"Level": 90,
 				"Primary": false,
-				"Priority": 4
+				"Priority": 4,
+				"Not F2P": true
 			},
 			"Make a ~|Milestone cape (90)|~": {
 				"Category": ["Skillcape"],
@@ -37668,6 +37745,15 @@
 				"Priority": 1002,
 				"NoPet": true
 			},
+			"Catch a ~|raw web snipper|~ in Daemonheim": {
+				"Category": ["Daemonheim tasks"],
+				"Tasks": {
+					"Unlock ~|frozen floors|~": "Dungeoneering"
+				},
+				"Level": 50,
+				"Primary": false,
+				"Priority": 1003
+			},
 			"Fish with an ~|azure skillchompa|~": {
 				"Items": ["Azure skillchompa"],
 				"Level": 51,
@@ -38009,14 +38095,15 @@
 				"Output": "Raw tarpon",
 				"Priority": 2
 			},
-			"Catch ~|raw cave moray|~": {
+			"Catch a ~|raw cave moray|~ in Daemonheim": {
 				"Category": ["Daemonheim tasks"],
 				"Tasks": {
 					"Unlock ~|frozen floors|~": "Dungeoneering"
 				},
 				"Level": 90,
 				"Primary": false,
-				"Priority": 100
+				"Priority": 100,
+				"Not F2P": true
 			},
 			"Unlock ~|the whaler|~ in the player-owned port": {
 				"Category": ["PortSkills"],
@@ -38995,6 +39082,15 @@
 				"Primary": true,
 				"Priority": 3
 			},
+			"Fletch ~|arrow shafts (Dungeoneering)|~ from bovistrangler branches in Daemonheim": {
+				"Category": ["Daemonheim tasks"],
+				"Tasks": {
+					"Unlock ~|frozen floors|~": "Dungeoneering"
+				},
+				"Level": 50,
+				"Primary": false,
+				"Priority": 1000
+			},
 			"Tip ~|barbed bolts|~": {
 				"Items": ["Bronze bolts*", "Barb bolttips*"],
 				"Level": 51,
@@ -39134,6 +39230,15 @@
 				"Output": "Emerald bolts",
 				"Primary": true,
 				"Priority": 2
+			},
+			"Fletch a ~|bovistrangler staff|~ in Daemonheim": {
+				"Category": ["Daemonheim tasks", "Highest Level"],
+				"Tasks": {
+					"Unlock ~|frozen floors|~": "Dungeoneering"
+				},
+				"Level": 58,
+				"Primary": false,
+				"Priority": 1000
 			},
 			"Tip a ~|mithril grapple (unf)|~": {
 				"Items": ["Mithril bolts", "Mithril grapple tip"],
@@ -39999,6 +40104,16 @@
 				"Priority": 31,
 				"Partial": true
 			},
+			"Fletch ~|arrow shafts (Dungeoneering)|~ from grave creeper branches in Daemonheim": {
+				"Category": ["Daemonheim tasks"],
+				"Tasks": {
+					"Unlock ~|frozen floors|~": "Dungeoneering"
+				},
+				"Level": 90,
+				"Primary": false,
+				"Priority": 1000,
+				"Not F2P": true
+			},
 			"Tip ~|jade bakriminel bolts|~": {
 				"Items": ["Bakriminel bolts*", "Jade bolt tips*"],
 				"Level": 91,
@@ -40351,6 +40466,16 @@
 				"Primary": true,
 				"Priority": 1
 			},
+			"Fletch a ~|grave creeper staff|~ in Daemonheim": {
+				"Category": ["Daemonheim tasks", "Highest Level"],
+				"Tasks": {
+					"Unlock ~|frozen floors|~": "Dungeoneering"
+				},
+				"Level": 98,
+				"Primary": false,
+				"Priority": 1000,
+				"Not F2P": true
+			},
 			"Tip ~|hydrix bakriminel bolts|~": {
 				"Items": ["Bakriminel bolts*", "Hydrix bolt tips*"],
 				"Level": 99,
@@ -40376,14 +40501,14 @@
 				"Priority": 4,
 				"Not F2P": true
 			},
-			"Fletch ~|promethium arrows|~": {
-				"Category": ["Daemonheim tasks"],
+			"Fletch ~|promethium arrows|~ in Daemonheim": {
+				"Category": ["Daemonheim tasks", "Multi Step Processing"],
 				"Tasks": {
 					"Unlock ~|frozen floors|~": "Dungeoneering"
 				},
 				"Level": 99,
 				"Primary": false,
-				"Priority": 6,
+				"Priority": 1000,
 				"Not F2P": true
 			},
 			"Buy the ~|Fletching master cape|~": {
@@ -41015,7 +41140,8 @@
 				},
 				"Level": 3,
 				"Primary": true,
-				"Priority": 6
+				"Priority": 6,
+				"Not F2P": true
 			},
 			"Train Herblore in ~|New Varrock|~": {
 				"Category": ["Cleaning Herbs Primary"],
@@ -41799,6 +41925,7 @@
 				"Priority": 2
 			},
 			"Complete the ~|flash powder factory|~ minigame": {
+				"Category": ["Minigame"],
 				"Level": 50,
 				"Chunks": ["Rogues' Den"],
 				"Output": "FlashPowder",
@@ -42523,6 +42650,15 @@
 				"Primary": true,
 				"Priority": 3
 			},
+			"Clean a ~|grimy buckthorn|~ in Daemonheim": {
+				"Category": ["Daemonheim tasks"],
+				"Tasks": {
+					"Unlock ~|frozen floors|~": "Dungeoneering"
+				},
+				"Level": 74,
+				"Primary": false,
+				"Priority": 10000
+			},
 			"Mix a ~|Saradomin's blessing|~": {
 				"Items": ["Samaden potion (unfinished)*", "Saradomin vine*"],
 				"Level": 75,
@@ -42626,6 +42762,15 @@
 				"Output": "Dream of Iaia loot",
 				"Primary": true,
 				"Priority": 18
+			},
+			"Mix a ~|strong defence potion|~ in Daemonheim": {
+				"Category": ["Daemonheim tasks", "Multi Step Processing"],
+				"Tasks": {
+					"Unlock ~|frozen floors|~": "Dungeoneering"
+				},
+				"Level": 75,
+				"Primary": false,
+				"Priority": 7
 			},
 			"Mix a ~|super magic potion|~": {
 				"Items": ["Lantadyme potion (unfinished)*", "Potato cactus*"],
@@ -43489,8 +43634,8 @@
 				"NoBoost": true,
 				"Priority": 5
 			},
-			"Mix a ~|strong survivalist's potion|~": {
-				"Category": ["Daemonheim tasks"],
+			"Mix a ~|strong survivalist's potion|~ in Daemonheim": {
+				"Category": ["Daemonheim tasks", "Multi Step Processing", "Highest Level"],
 				"Tasks": {
 					"Unlock ~|frozen floors|~": "Dungeoneering"
 				},
@@ -43779,7 +43924,8 @@
 				},
 				"Level": 1,
 				"Primary": true,
-				"Priority": 16
+				"Priority": 16,
+				"Not F2P": true
 			},
 			"Catch a ~|Hell-Rat|~": {
 				"NPCs": ["Hell-Rat"],
@@ -49133,6 +49279,17 @@
 				"NoPet": true,
 				"NoBoost": true
 			},
+			"Wield a ~|thigat staff|~ in Daemonheim (or another Tier 7 weapon)": {
+				"Category": ["Daemonheim tasks"],
+				"Tasks": {
+					"Unlock ~|frozen floors|~": "Dungeoneering"
+				},
+				"Level": 60,
+				"Primary": false,
+				"Priority": 6,
+				"NoPet": true,
+				"NoBoost": true
+			},
 			"Cast ~|God Wars Dungeon Teleport|~": {
 				"Category": ["Spells", "Combat and Teleport Spells"],
 				"Chunks": ["11578-1"],
@@ -49210,6 +49367,17 @@
 				"Level": 64,
 				"Primary": true,
 				"Priority": 2
+			},
+			"Cast ~|Group Gatestone Teleport|~ in Daemonheim": {
+				"Category": ["Daemonheim tasks", "Spells"],
+				"Tasks": {
+					"Unlock ~|frozen floors|~": "Dungeoneering"
+				},
+				"Level": 65,
+				"Primary": false,
+				"Priority": 1000,
+				"NoPet": true,
+				"NoBoost": true
 			},
 			"Cast ~|Bake Pie|~ on an uncooked berry pie": {
 				"Category": ["Spells"],
@@ -51949,7 +52117,7 @@
 				"NoBoost": true,
 				"Not F2P": true
 			},
-			"Wield a ~|celestial catalytic staff/wand|~": {
+			"Wield a ~|celestial catalytic staff|~ in Daemonheim (or another Tier 11 weapon)": {
 				"Category": ["Daemonheim tasks"],
 				"Tasks": {
 					"Unlock ~|frozen floors|~": "Dungeoneering"
@@ -51958,7 +52126,8 @@
 				"Primary": false,
 				"Priority": 6,
 				"NoPet": true,
-				"NoBoost": true
+				"NoBoost": true,
+				"Not F2P": true
 			},
 			"Wield an ~|eternal magic wand (saturated)|~": {
 				"Items": ["Eternal magic wand (saturated)"],
@@ -52029,6 +52198,9 @@
 				"Level": 99,
 				"Skills": {
 					"Runecrafting": 99
+				},
+				"Tasks": {
+					"~|Rune Memories|~ Complete the quest": "Quest"
 				},
 				"Primary": false,
 				"Priority": 7,
@@ -52569,6 +52741,15 @@
 				"Primary": false,
 				"Priority": 1002
 			},
+			"Mine ~|zephyrium ore (Dungeoneering)|~ in Daemonheim": {
+				"Category": ["Daemonheim tasks"],
+				"Tasks": {
+					"Unlock ~|frozen floors|~": "Dungeoneering"
+				},
+				"Level": 50,
+				"Primary": false,
+				"Priority": 1000
+			},
 			"Mine with an ~|azure skillchompa|~": {
 				"Items": ["Azure skillchompa"],
 				"Level": 51,
@@ -52992,7 +53173,7 @@
 				"Priority": 1,
 				"Not F2P": true
 			},
-			"Mine with a ~|primal pickaxe (Dungeoneering)|~": {
+			"Mine with a ~|primal pickaxe (Dungeoneering)|~ in Daemonheim": {
 				"Category": ["Daemonheim tasks"],
 				"Tasks": {
 					"Unlock ~|frozen floors|~": "Dungeoneering"
@@ -57905,6 +58086,17 @@
 				"NoPet": true,
 				"NoBoost": true
 			},
+			"Wield a ~|thigat shortbow|~ in Daemonheim (or another Tier 7 weapon)": {
+				"Category": ["Daemonheim tasks"],
+				"Tasks": {
+					"Unlock ~|frozen floors|~": "Dungeoneering"
+				},
+				"Level": 60,
+				"Primary": false,
+				"Priority": 15,
+				"NoPet": true,
+				"NoBoost": true
+			},
 			"Wield an ~|elder shieldbow (sighted)|~": {
 				"Items": ["Elder shieldbow (sighted)"],
 				"Level": 65,
@@ -59068,7 +59260,7 @@
 				"NoBoost": true,
 				"Not F2P": true
 			},
-			"Wield a ~|sagittarian|~ ranged weapon or arrows": {
+			"Wield a ~|Sagittarian|~ weapon in Daemonheim (or primal knives)": {
 				"Category": ["Daemonheim tasks"],
 				"Tasks": {
 					"Unlock ~|frozen floors|~": "Dungeoneering"
@@ -59078,29 +59270,6 @@
 				"Priority": 15,
 				"NoPet": true,
 				"NoBoost": true,
-				"Not F2P": true
-			},
-			"Wield ~|primal knives (Dungeoneering)|~": {
-				"Category": ["Daemonheim tasks"],
-				"Tasks": {
-					"Unlock ~|frozen floors|~": "Dungeoneering"
-				},
-				"Level": 99,
-				"Primary": false,
-				"Priority": 16,
-				"NoPet": true,
-				"NoBoost": true,
-				"Not F2P": true
-			},
-			"Wield a ~|sagittarian shortbow|~ in Daemonheim": {
-			    "Category": ["Daemonheim tasks"],
-			    "Tasks": {
-			        "Unlock ~|frozen floors|~": "Dungeoneering"
-			    },
-			    "Level": 99,
-			    "Primary": false,
-			    "NoPet": true,
-			    "Priority": 10000,
 				"Not F2P": true
 			},
 			"Equip a ~|primal arrow|~": {
@@ -59113,7 +59282,7 @@
 				"Not F2P": true
 			},
 			"Equip a ~|primal bolt|~": {
-				"Items": ["Primal arrow"],
+				"Items": ["Primal bolt"],
 				"Level": 99,
 				"Primary": false,
 				"Priority": 14,
@@ -59805,6 +59974,15 @@
 				"Priority": 5,
 				"Not F2P": true
 			},
+			"Craft ~|death runes|~ in Daemonheim": {
+				"Category": ["Daemonheim tasks"],
+				"Tasks": {
+					"Unlock ~|frozen floors|~": "Dungeoneering"
+				},
+				"Level": 65,
+				"Primary": false,
+				"Priority": 4
+			},
 			"Climb the ~|bone ladder|~": {
 				"Chunks": ["The Runespan"],
 				"Level": 66,
@@ -59873,6 +60051,16 @@
 			},
 			"Cross a ~|greater missile platform|~": {
 				"Chunks": ["The Runespan"],
+				"Level": 77,
+				"Primary": false,
+				"Priority": 4,
+				"Not F2P": true
+			},
+			"Craft ~|blood runes|~ in Daemonheim": {
+				"Category": ["Daemonheim tasks"],
+				"Tasks": {
+					"Unlock ~|frozen floors|~": "Dungeoneering"
+				},
 				"Level": 77,
 				"Primary": false,
 				"Priority": 4,
@@ -60333,34 +60521,14 @@
 				"Priority": 2,
 				"Not F2P": true
 			},
-			"Imbue a ~|spiritbloom orb|~": {
-				"Category": ["Daemonheim tasks"],
+			"Imbue an ~|empowered catalytic orb|~ in Daemonheim (or another empowered catalytic weapon)": {
+				"Category": ["Daemonheim tasks", "Mutli Step Processing"],
 				"Tasks": {
 					"Unlock ~|frozen floors|~": "Dungeoneering"
 				},
 				"Level": 99,
 				"Primary": false,
 				"Priority": 4,
-				"Not F2P": true
-			},
-			"Imbue a ~|grave creeper wand|~": {
-				"Category": ["Daemonheim tasks"],
-				"Tasks": {
-					"Unlock ~|frozen floors|~": "Dungeoneering"
-				},
-				"Level": 99,
-				"Primary": false,
-				"Priority": 5,
-				"Not F2P": true
-			},
-			"Imbue a ~|grave creeper staff|~": {
-				"Category": ["Daemonheim tasks"],
-				"Tasks": {
-					"Unlock ~|frozen floors|~": "Dungeoneering"
-				},
-				"Level": 99,
-				"Primary": false,
-				"Priority": 6,
 				"Not F2P": true
 			},
 			"Extract ~|praesulic essence (magic)|~ from Virtus armour": {
@@ -60598,8 +60766,12 @@
 				"Skills": {
 					"Magic": 99
 				},
+				"Tasks": {
+					"~|Rune Memories|~ Complete the quest": "Quest"
+				},
 				"Primary": false,
-				"Priority": 7
+				"Priority": 7,
+				"Not F2P": true
 			},
 			"Anchor the ~|time altar|~": {
 				"Chunks": ["15430"],
@@ -64681,6 +64853,15 @@
 				"Primary": true,
 				"Priority": 1000
 			},
+			"Smelt a ~|zephyrium bar|~ in Daemonheim": {
+				"Category": ["Daemonheim tasks"],
+				"Tasks": {
+					"Unlock ~|frozen floors|~": "Dungeoneering"
+				},
+				"Level": 50,
+				"Primary": false,
+				"Priority": 1001
+			},
 			"Smith a ~|death gaurd (tier 60)|~": {
 				"Objects": ["Soul forge"],
 				"Items": ["Death guard (tier 50)", "Ensouled bar", "Bone rune"],
@@ -64720,6 +64901,15 @@
 				"Primary": false,
 				"Priority": 1,
 				"Not F2P": true
+			},
+			"Forge a ~|zephyrium platebody|~ in Daemonheim": {
+				"Category": ["Daemonheim tasks", "Multi Step Processing"],
+				"Tasks": {
+					"Unlock ~|frozen floors|~": "Dungeoneering"
+				},
+				"Level": 59,
+				"Primary": false,
+				"Priority": 1000
 			},
 			"Smelt an ~|orikalkum bar|~": {
 				"Items": ["Orichalcite ore*", "Drakolith*"],
@@ -65344,6 +65534,16 @@
 				"Priority": 1000,
 				"Not F2P": true
 			},
+			"Smelt a ~|promethium bar|~ in Daemonheim": {
+				"Category": ["Daemonheim tasks"],
+				"Tasks": {
+					"Unlock ~|frozen floors|~": "Dungeoneering"
+				},
+				"Level": 90,
+				"Primary": false,
+				"Priority": 1001,
+				"Not F2P": true
+			},
 			"Feed a ~|starved ancient effigy|~ with smithing": {
 				"Items": ["Starved ancient effigy (mining/smithing)"],
 				"Level": 91,
@@ -65722,14 +65922,15 @@
 				"Priority": 1004,
 				"Not F2P": true
 			},
-			"Forge a ~|Promethium platebody|~": {
-				"Category": ["Daemonheim tasks"],
+			"Forge a ~|promethium platebody|~ in Daemonheim": {
+				"Category": ["Daemonheim tasks", "Multi Step Processing", "Highest Level"],
 				"Tasks": {
 					"Unlock ~|frozen floors|~": "Dungeoneering"
 				},
 				"Level": 99,
 				"Primary": false,
-				"Priority": 1005
+				"Priority": 1005,
+				"Not F2P": true
 			},
 			"Forge ~|masterwork rivets|~ in New Varrock": {
 				"Category": ["Multi Step Processing", "Highest Level"],
@@ -66253,6 +66454,17 @@
 				"NoPet": true,
 				"NoBoost": true
 			},
+			"Wield an ~|argonite maul|~ in Daemonheim": {
+				"Category": ["Daemonheim tasks"],
+				"Tasks": {
+					"Unlock ~|frozen floors|~": "Dungeoneering"
+				},
+				"Level": 60,
+				"Primary": false,
+				"Priority": 1000,
+				"NoPet": true,
+				"NoBoost": true
+			},
 			"Gain access to the ~|Warriors' Guild|~": {
 				"Chunks": ["11319-1"],
 				"Level": 65,
@@ -66625,7 +66837,7 @@
 				"NoBoost": true,
 				"Not F2P": true
 			},
-			"Wield a ~|Primal maul (Dungeoneering)|~": {
+			"Wield a ~|primal maul (Dungeoneering)|~ in Daemonheim": {
 				"Category": ["Daemonheim tasks"],
 				"Tasks": {
 					"Unlock ~|frozen floors|~": "Dungeoneering"
@@ -67581,7 +67793,8 @@
 				},
 				"Level": 1,
 				"Primary": true,
-				"Priority": 3
+				"Priority": 3,
+				"Not F2P": true
 			},
 			"Create a ~|dreadfowl scroll (dreadfowl strike)|~": {
 				"Items": ["Dreadfowl pouch*"],
@@ -68877,6 +69090,16 @@
 				"NoPet": true,
 				"NoBoost": true
 			},
+			"Create a ~|sachem hoardstalker pouch|~ in Daemonheim": {
+				"Category": ["Daemonheim tasks"],
+				"Tasks": {
+					"Unlock ~|frozen floors|~": "Dungeoneering"
+				},
+				"Level": 97,
+				"Primary": false,
+				"Priority": 1000,
+				"NoBoost": true
+			},
 			"Obtain a ~|Frosty|~ pet": {
 				"Category": ["Pets"],
 				"Level": 99,
@@ -68889,14 +69112,14 @@
 				"NoPet": true,
 				"NoBoost": true
 			},
-			"Create a ~|Sachem skinweaver pouch|~": {
-				"Category": ["Daemonheim tasks"],
+			"Create a ~|sachem skinweaver pouch|~ in Daemonheim": {
+				"Category": ["Daemonheim tasks", "Multi Step Processing"],
 				"Tasks": {
 					"Unlock ~|frozen floors|~": "Dungeoneering"
 				},
 				"Level": 99,
 				"Primary": false,
-				"Priority": 13,
+				"Priority": 1000,
 				"NoBoost": true
 			}
 		},
@@ -68959,7 +69182,8 @@
 				},
 				"Level": 1,
 				"Primary": true,
-				"Priority": 1001
+				"Priority": 1001,
+				"Not F2P": true
 			},
 			"Read a Thieving tome from ~|Temple Trekking|~": {
 				"Category": ["DnD"],
@@ -71017,7 +71241,7 @@
 				"Primary": true,
 				"Priority": 2
 			},
-			"Chop an ~|evil tree (elder)|~": {
+			"Chop an ~|evil elder tree|~": {
 				"Category": ["DnD"],
 				"Level": 90,
 				"Objects": ["Evil tree"],
@@ -71516,43 +71740,43 @@
 				"Primary": true,
 				"Priority": 14
 			},
-			"Chop an ~|evil tree (oak)|~": {
+			"Chop an ~|evil oak tree|~": {
 				"Category": ["DnD"],
 				"Level": 15,
 				"Objects": ["Evil tree"],
-				"Output": "Oak logs (noted)",
+				"Output": "Oak logs",
 				"Primary": true,
 				"Priority": 3
 			},
-			"Chop an ~|evil tree (willow)|~": {
+			"Chop an ~|evil willow tree|~": {
 				"Category": ["DnD"],
 				"Level": 30,
 				"Objects": ["Evil tree"],
-				"Output": "Willow logs (noted)",
+				"Output": "Willow logs",
 				"Primary": true,
 				"Priority": 3
 			},
-			"Chop an ~|evil tree (maple)|~": {
+			"Chop an ~|evil maple tree|~": {
 				"Category": ["DnD"],
 				"Level": 45,
 				"Objects": ["Evil tree"],
-				"Output": "Maple logs (noted)",
+				"Output": "Maple logs",
 				"Primary": true,
 				"Priority": 3
 			},
-			"Chop an ~|evil tree (yew)|~": {
+			"Chop an ~|evil yew tree|~": {
 				"Category": ["DnD"],
 				"Level": 60,
 				"Objects": ["Evil tree"],
-				"Output": "Yew logs (noted)",
+				"Output": "Yew logs",
 				"Primary": true,
 				"Priority": 3
 			},
-			"Chop an ~|evil tree (magic)|~": {
+			"Chop an ~|evil magic tree|~": {
 				"Category": ["DnD"],
 				"Level": 75,
 				"Objects": ["Evil tree"],
-				"Output": "Magic logs (noted)",
+				"Output": "Magic logs",
 				"Primary": true,
 				"Priority": 3,
 				"Not F2P": true
@@ -71620,7 +71844,17 @@
 				},
 				"Level": 99,
 				"Primary": false,
-				"Priority": 4,
+				"Priority": 1000,
+				"Not F2P": true
+			},
+			"Cut a ~|bovistrangler tree|~ in Daemonheim": {
+				"Category": ["Daemonheim tasks"],
+				"Tasks": {
+					"Unlock ~|frozen floors|~": "Dungeoneering"
+				},
+				"Level": 50,
+				"Primary": false,
+				"Priority": 1000,
 				"Not F2P": true
 			},
 			"Buy the ~|Woodcutting master cape|~": {
@@ -107167,7 +107401,8 @@
 					"Unlock ~|frozen floors|~": "Dungeoneering"
 				},
 				"BaseQuest": "Daemonheim Achievements",
-				"Category": ["Show Diary Tasks"]
+				"Category": ["Show Diary Tasks"],
+				"Not F2P": true
 			},
 			"~|Daemonheim Achievements#Easy|~ You're Not the Boss of Me": {
 				"Description": "Defeat the boss on floor 1, solo.",
@@ -107234,7 +107469,8 @@
 					"Divination": 10
 				},
 				"BaseQuest": "Daemonheim Achievements",
-				"Category": ["Show Diary Tasks"]
+				"Category": ["Show Diary Tasks"],
+				"Not F2P": true
 			},
 			"~|Daemonheim Achievements#Easy|~ Complete the Easy Achievements": {
 				"Chunks": ["13626-1"],
@@ -107328,7 +107564,8 @@
 					"Unlock ~|frozen floors|~": "Dungeoneering"
 				},
 				"BaseQuest": "Daemonheim Achievements",
-				"Category": ["Show Diary Tasks"]
+				"Category": ["Show Diary Tasks"],
+				"Not F2P": true
 			},
 			"~|Daemonheim Achievements#Medium|~ Totem Pole Position": {
 				"Description": "Enter the 6 resource dungeons with an entry requirement equal to or less than Dungeoneering level 35 within 6 minutes, or hand in 20 items in a single sinkhole.",
@@ -107378,7 +107615,8 @@
 					"Unlock ~|frozen floors|~": "Dungeoneering"
 				},
 				"BaseQuest": "Daemonheim Achievements",
-				"Category": ["Show Diary Tasks"]
+				"Category": ["Show Diary Tasks"],
+				"Not F2P": true
 			},
 			"~|Daemonheim Achievements#Medium|~ Spinal Trap": {
 				"Description": "Set a spinebeam trap that you made yourself.",
@@ -107391,7 +107629,8 @@
 					"Unlock ~|frozen floors|~": "Dungeoneering"
 				},
 				"BaseQuest": "Daemonheim Achievements",
-				"Category": ["Show Diary Tasks"]
+				"Category": ["Show Diary Tasks"],
+				"Not F2P": true
 			},
 			"~|Daemonheim Achievements#Medium|~ Cache Box": {
 				"Description": "Unlock a level 40+ chest.",
@@ -107403,7 +107642,8 @@
 					"Unlock ~|frozen floors|~": "Dungeoneering"
 				},
 				"BaseQuest": "Daemonheim Achievements",
-				"Category": ["Show Diary Tasks"]
+				"Category": ["Show Diary Tasks"],
+				"Not F2P": true
 			},
 			"~|Daemonheim Achievements#Medium|~ Up to the Gods": {
 				"Description": "Sacrifice a frost dragon bone on a prayer altar from a dragon you killed yourself in a solo dungeon.",
@@ -107450,7 +107690,8 @@
 					"Unlock ~|occult floors|~": "Dungeoneering"
 				},
 				"BaseQuest": "Daemonheim Achievements",
-				"Category": ["Show Diary Tasks"]
+				"Category": ["Show Diary Tasks"],
+				"Not F2P": true
 			},
 			"~|Daemonheim Achievements#Hard|~ Stacked": {
 				"Description": "Start a floor with 225 of any type of ammo bound to you.",
@@ -107460,7 +107701,8 @@
 					"Unlock ~|frozen floors|~": "Dungeoneering"
 				},
 				"BaseQuest": "Daemonheim Achievements",
-				"Category": ["Show Diary Tasks"]
+				"Category": ["Show Diary Tasks"],
+				"Not F2P": true
 			},
 			"~|Daemonheim Achievements#Hard|~ Kinprovements": {
 				"Description": "Wear a ring of kinship with a fully upgraded role. e.g. Tank, Medic.",
@@ -107469,7 +107711,8 @@
 					"Unlock ~|frozen floors|~": "Dungeoneering"
 				},
 				"BaseQuest": "Daemonheim Achievements",
-				"Category": ["Show Diary Tasks"]
+				"Category": ["Show Diary Tasks"],
+				"Not F2P": true
 			},
 			"~|Daemonheim Achievements#Hard|~ Lawful Crafting": {
 				"Description": "Craft some law runes while inside a dungeon.",
@@ -107493,7 +107736,8 @@
 					"Unlock ~|frozen floors|~": "Dungeoneering"
 				},
 				"BaseQuest": "Daemonheim Achievements",
-				"Category": ["Show Diary Tasks"]
+				"Category": ["Show Diary Tasks"],
+				"Not F2P": true
 			},
 			"~|Daemonheim Achievements#Hard|~ Healing Factor": {
 				"Description": "Use the Rapid Renewal prayer for 1 minute within a dungeon.",
@@ -107507,7 +107751,8 @@
 					"Unlock ~|frozen floors|~": "Dungeoneering"
 				},
 				"BaseQuest": "Daemonheim Achievements",
-				"Category": ["Show Diary Tasks"]
+				"Category": ["Show Diary Tasks"],
+				"Not F2P": true
 			},
 			"~|Daemonheim Achievements#Hard|~ Alcrabholic": {
 				"Description": "Kill a 'rum'-pumped crab in the 'Rum'geon on Braindeath Island.",
@@ -107520,7 +107765,8 @@
 					"~|A Clockwork Syringe|~ Complete the quest": "Quest"
 				},
 				"BaseQuest": "Daemonheim Achievements",
-				"Category": ["Show Diary Tasks"]
+				"Category": ["Show Diary Tasks"],
+				"Not F2P": true
 			},
 			"~|Daemonheim Achievements#Hard|~ Hoof Rot": {
 				"Description": "Have Bal'Lak the Pummeller walk onto his own rifts in a solo dungeon.",
@@ -107545,7 +107791,8 @@
 					"Unlock ~|frozen floors|~": "Dungeoneering"
 				},
 				"BaseQuest": "Daemonheim Achievements",
-				"Category": ["Show Diary Tasks"]
+				"Category": ["Show Diary Tasks"],
+				"Not F2P": true
 			},
 			"~|Daemonheim Achievements#Hard|~ The Wanderer": {
 				"Description": "Imbue a catalytic wand on the runecrafting altar.",
@@ -107570,7 +107817,8 @@
 					"Unlock ~|frozen floors|~": "Dungeoneering"
 				},
 				"BaseQuest": "Daemonheim Achievements",
-				"Category": ["Show Diary Tasks"]
+				"Category": ["Show Diary Tasks"],
+				"Not F2P": true
 			},
 			"~|Daemonheim Achievements#Hard|~ Epic Epic": {
 				"Description": "Complete all Sagas with 100%.",
@@ -107589,7 +107837,8 @@
 					"Unlock ~|occult floors|~": "Dungeoneering"
 				},
 				"BaseQuest": "Daemonheim Achievements",
-				"Category": ["Show Diary Tasks"]
+				"Category": ["Show Diary Tasks"],
+				"Not F2P": true
 			},
 			"~|Daemonheim Achievements#Hard|~ Complete the Hard Achievements": {
 				"Chunks": ["13625-1"],
@@ -107626,7 +107875,8 @@
 					"Unlock ~|frozen floors|~": "Dungeoneering"
 				},
 				"BaseQuest": "Daemonheim Achievements",
-				"Category": ["Show Diary Tasks"]
+				"Category": ["Show Diary Tasks"],
+				"Not F2P": true
 			},
 			"~|Daemonheim Achievements#Elite|~ Orbful": {
 				"Description": "Craft and wield a spiritbloom orb.",
@@ -107639,7 +107889,8 @@
 					"Unlock ~|frozen floors|~": "Dungeoneering"
 				},
 				"BaseQuest": "Daemonheim Achievements",
-				"Category": ["Show Diary Tasks"]
+				"Category": ["Show Diary Tasks"],
+				"Not F2P": true
 			},
 			"~|Daemonheim Achievements#Elite|~ Top Hat": {
 				"Description": "Create a promethium full helm from scratch.",
@@ -107651,7 +107902,8 @@
 					"Unlock ~|frozen floors|~": "Dungeoneering"
 				},
 				"BaseQuest": "Daemonheim Achievements",
-				"Category": ["Show Diary Tasks"]
+				"Category": ["Show Diary Tasks"],
+				"Not F2P": true
 			},
 			"~|Daemonheim Achievements#Elite|~ In the Darkness Bind Them": {
 				"Description": "Wear 4 bound items.",
@@ -107675,7 +107927,8 @@
 					"Unlock ~|frozen floors|~": "Dungeoneering"
 				},
 				"BaseQuest": "Daemonheim Achievements",
-				"Category": ["Show Diary Tasks"]
+				"Category": ["Show Diary Tasks"],
+				"Not F2P": true
 			},
 			"~|Daemonheim Achievements#Elite|~ Gulega-d to Rest": {
 				"Description": "Kill the warped gulega, but avoid his 1 lifepoint attack in a solo dungeon.",
@@ -107687,7 +107940,8 @@
 					"Unlock ~|warped floors|~": "Dungeoneering"
 				},
 				"BaseQuest": "Daemonheim Achievements",
-				"Category": ["Show Diary Tasks"]
+				"Category": ["Show Diary Tasks"],
+				"Not F2P": true
 			},
 			"~|Daemonheim Achievements#Elite|~ Complete the Elite Achievements": {
 				"Chunks": ["13625-1"],
@@ -138082,7 +138336,7 @@
 				},
 				"Not F2P": true
 			},
-			"(Any Floor) Obtain a ~|magical surgebox|~": {
+			"(Any Floor) Obtain a ~|magic blastbox|~": {
 				"Category": ["Untracked Uniques", "Untracked Uniques Daemonheim"],
 				"Label": "Daemonheim Uniques",
 				"Tasks": {
@@ -143017,7 +143271,11 @@
 				"Requirements": {
 					"Magic": 99,
 					"Runecrafting": 99
-				}
+				},
+				"Tasks": {
+					"~|Rune Memories|~ Complete the quest": "Quest"
+				},
+				"Not F2P": true
 			},
 			"Obtain the ~|the Terrifying|~ title": {
 				"Category": ["Titles"],
@@ -143981,7 +144239,8 @@
 			"Obtain the ~|Stakemaster|~ title": {
 				"Category": ["Titles"],
 				"Label": "Titles",
-				"Chunks": ["13362-4"]
+				"Chunks": ["13362-4"],
+				"Not F2P": true
 			},
 			"Obtain the ~|Steakmaster|~ title": {
 				"Category": ["Titles"],
@@ -146962,7 +147221,7 @@
 			"Obtain ~|factory boots|~": {
 				"Category": ["BIS Skilling"],
 				"Label": "BIS Skilling",
-				"Items": ["Factory mask"],
+				"Items": ["Factory boots"],
 				"Not F2P": true
 			},
 			"Obtain ~|gloves of silence|~": {
@@ -154663,8 +154922,7 @@
 			"Evil Tree rewards*": {
 				"Category": ["DnD"],
 				"Objects": ["Evil tree"],
-				"Output": "Evil Tree rewards",
-				"Not F2P": true
+				"Output": "Evil Tree rewards"
 			},
 			"Goblin Raid (farm) rewards*": {
 				"Category": ["DnD Flash Events", "DnD"],
@@ -192365,6 +192623,7 @@
 					},
 					"Shop": {
 						"Elite Dungeon Reward Shop": true,
+						"Elite Dungeon Reward Shop (F2P)": true,
 						"Edward's Wilderness Cape Shop": true
 					},
 					"Clue": {
@@ -193067,6 +193326,7 @@
 					},
 					"Shop": {
 						"Elite Dungeon Reward Shop": true,
+						"Elite Dungeon Reward Shop (F2P)": true,
 						"Daemonheim Rewards": true,
 						"Daemonheim Rewards (F2P)": true
 					},
@@ -283501,6 +283761,18 @@
 					"Construction Contracts rewards": "Nonskill"
 				}]
 			},
+			"Elite Dungeon Reward Shop": {
+				"13372-1": [{
+					"Access Daemonheim Rewards": "Nonskill"
+				}, {
+					"Members only": "Nonskill"
+				}],
+				"13625-1": [{
+					"Access Daemonheim Rewards": "Nonskill"
+				}, {
+					"Members only": "Nonskill"
+				}]
+			},
 			"Farmers' Market": {
 				"10548": [{
 					"~|Player-owned farm tutorial|~ Complete the tutorial": "Quest"
@@ -287028,6 +287300,11 @@
 			"Dragon trinket": true,
 			"Metallic dragon trinket": true
 		},
+		"Elite Dungeon Reward Shop (F2P)": {
+			"Daemonheim skill door boost": true,
+			"Dragon trinket": true,
+			"Metallic dragon trinket": true
+		},
 		"Elnock's Backup Supply": {
 			"Impling jar": true
 		},
@@ -290201,8 +290478,7 @@
 			"Big bones": true,
 			"Burnt bones": true,
 			"Bar bones": true,
-			"Wolf bones": true,
-			"Dragon bones": true
+			"Wolf bones": true
 		},
 		"Torts R Us": {
 			"Tortle trap": true

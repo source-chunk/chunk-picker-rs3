@@ -3844,23 +3844,42 @@ let calcChallengesWork = function(chunks, baseChunkData, oldTempItemSkill) {
                 nonValids[name] = wrongThings;
                 return;
             }
-            if (chunkInfo['challenges'][skill][name].hasOwnProperty('Not F2P') && rules['F2P']) {
-                validChallenge = false;
-                wrongThings.push('F2P');
-                nonValids[name] = wrongThings;
-                return;
-            }
-			if((skill == "Archaeology" || skill == "Necormancy") && chunkInfo['challenges'][skill][name]['Level'] > 20 && rules['F2P']) {
-				validChallenge = false;
-                wrongThings.push('F2P');
-                nonValids[name] = wrongThings;
-                return;
-			}
-			else if(!f2pSkills.includes(skill) && chunkInfo['challenges'][skill][name]['Level'] > 5 && rules['F2P']) {
-				validChallenge = false;
-                wrongThings.push('F2P');
-                nonValids[name] = wrongThings;
-                return;
+			if(rules['F2P']) {
+				if (chunkInfo['challenges'][skill][name].hasOwnProperty('Not F2P')) {
+					validChallenge = false;
+					wrongThings.push('F2P');
+					nonValids[name] = wrongThings;
+					return;
+				}
+				if((skill == "Archaeology" || skill == "Necormancy") && chunkInfo['challenges'][skill][name]['Level'] > 20) {
+					validChallenge = false;
+					wrongThings.push('F2P');
+					nonValids[name] = wrongThings;
+					return;
+				}
+				if(!f2pSkills.includes(skill) && chunkInfo['challenges'][skill][name]['Level'] > 5) {
+					validChallenge = false;
+					wrongThings.push('F2P');
+					nonValids[name] = wrongThings;
+					return;
+				}
+				if(chunkInfo['challenges'][skill][name].hasOwnProperty('Skills'))
+				{
+					Object.keys(chunkInfo['challenges'][skill][name]['Skills']).forEach((subSkill) => {
+						if((subSkill == "Archaeology" || subSkill == "Necormancy") && chunkInfo['challenges'][skill][name]['Skills'][subSkill] > 20) {
+							validChallenge = false;
+							wrongThings.push('F2P');
+							nonValids[name] = wrongThings;
+							return;
+						}
+						if(!f2pSkills.includes(subSkill) && chunkInfo['challenges'][skill][name]['Skills'][subSkill] > 5) {
+							validChallenge = false;
+							wrongThings.push('F2P');
+							nonValids[name] = wrongThings;
+							return;
+						}
+					});
+				}
 			}
             if (chunkInfo['challenges'][skill][name].hasOwnProperty('Not Skiller') && rules['Skiller']) {
                 validChallenge = false;
