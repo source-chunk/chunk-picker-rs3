@@ -49596,6 +49596,13 @@
 				"Primary": true,
 				"Priority": 1
 			},
+			"Cast ~|Penance|~": {
+				"Category": ["Spells"],
+				"Items": ["Body rune*", "Chaos rune*", "Law rune*", "Soul rune*"],
+				"Level": 67,
+				"Primary": true,
+				"Priority": 2
+			},
 			"Cast ~|Lvl-5 Enchant|~": {
 				"Category": ["Spells"],
 				"Items": ["Earth rune[+]*", "Water rune[+]*", "Cosmic rune*", "Lvl-5 Jewelry[+]*"],
@@ -49770,6 +49777,16 @@
 				"Level": 69,
 				"Primary": true,
 				"Priority": 1
+			},
+			"Cast ~|Vampyrism|~": {
+				"Category": ["Spells"],
+				"Items": ["Fire rune[+]*", "Death rune*", "Blood rune*", "Soul rune*"],
+				"Tasks": {
+					"~|Desert Treasure|~ Complete the quest": "Quest"
+				},
+				"Level": 69,
+				"Primary": true,
+				"Priority": 2
 			},
 			"Cast ~|Earth Wave|~": {
 				"Category": ["Spells", "Combat and Teleport Spells"],
@@ -107491,7 +107508,6 @@
 					"~|Daemonheim Achievements#Easy|~ Tales of Old": "Diary",
 					"~|Daemonheim Achievements#Easy|~ A Flicker in Darkness": "Diary"
 				},
-				"Reward": ["Daemonheim aura 1"],
 				"XpReward": {
 					"Any": 2000
 				},
@@ -107671,7 +107687,6 @@
 					"~|Daemonheim Achievements#Medium|~ I Want It All": "Diary",
 					"~|Daemonheim Achievements#Medium|~ You Got Some Nice Drapes There": "Diary"
 				},
-				"Reward": ["Daemonheim aura 2"],
 				"XpReward": {
 					"Any": 8000
 				},
@@ -107856,7 +107871,6 @@
 					"~|Daemonheim Achievements#Hard|~ Get Stuffed": "Diary",
 					"~|Daemonheim Achievements#Hard|~ Epic Epic": "Diary"
 				},
-				"Reward": ["Daemonheim aura 3"],
 				"XpReward": {
 					"Any": 20000
 				},
@@ -107953,7 +107967,6 @@
 					"~|Daemonheim Achievements#Elite|~ Pass the Port": "Diary",
 					"~|Daemonheim Achievements#Elite|~ Gulega-d to Rest": "Diary"
 				},
-				"Reward": ["Daemonheim aura 4"],
 				"XpReward": {
 					"Any": 210000
 				},
@@ -126303,7 +126316,7 @@
 			},
 			"~|Completionist achievements#Trimmed Completionist Cape|~ Work on Your Artisan II": {
 				"Category": ["Comp achievements", "Trim achievements"],
-				"Description": "Unlock all rewards from the Artisans' Workshop (including outfits and excluding auras).",
+				"Description": "Unlock all rewards from the Artisans' Workshop (including outfits).",
 				"BaseQuest": "Completionist achievements",
 				"NPCs": ["Egil"],
 				"Not F2P": true
@@ -133336,10 +133349,10 @@
 				"Label": "Untracked Skilling Uniques",
 				"Items": ["Totem of Summoning base"]
 			},
-			"(Anachronia Totems) Obtain the ~|Totem of Auras base|~": {
+			"(Anachronia Totems) Obtain the ~|Totem of Vitality base|~": {
 				"Category": ["Untracked Uniques", "Untracked Uniques Skilling"],
 				"Label": "Untracked Skilling Uniques",
-				"Items": ["Totem of Auras base"]
+				"Items": ["Totem of Vitality base"]
 			},
 			"(Anachronia Totems) Obtain the ~|Remototem top|~": {
 				"Category": ["Untracked Uniques", "Untracked Uniques Skilling"],
@@ -134716,10 +134729,10 @@
 				"Label": "Untracked Skilling Uniques",
 				"Items": ["Dinosaur tooth"]
 			},
-			"(Anachronia Totems) Obtain a ~|Totem of Auras middle|~": {
+			"(Anachronia Totems) Obtain a ~|Totem of Vitality middle|~": {
 				"Category": ["Untracked Uniques", "Untracked Uniques Combat"],
 				"Label": "Untracked Skilling Uniques",
-				"Items": ["Totem of Auras middle"]
+				"Items": ["Totem of Vitality middle"]
 			},
 			"(Anachronia Totems) Obtain a ~|Totem of Summoning middle|~": {
 				"Category": ["Untracked Uniques", "Untracked Uniques Combat"],
@@ -134967,18 +134980,6 @@
 				"Category": ["Untracked Uniques", "Untracked Uniques Combat"],
 				"Label": "Untracked Combat Uniques",
 				"Items": ["Manuscript of Ful"],
-				"Not F2P": true
-			},
-			"(Untracked Boss) Obtain the ~|devourer aura (Sanctum of Rebirth)|~": {
-				"Category": ["Untracked Uniques", "Untracked Uniques Combat", "Cosmetics"],
-				"Label": "Untracked Combat Uniques",
-				"Items": ["Devourer aura (Sanctum of Rebirth)"],
-				"Not F2P": true
-			},
-			"(Untracked Boss) Obtain the ~|devourer aura (Amascut)|~": {
-				"Category": ["Untracked Uniques", "Untracked Uniques Combat", "Cosmetics"],
-				"Label": "Untracked Combat Uniques",
-				"Items": ["Devourer aura (Amascut)"],
 				"Not F2P": true
 			},
 			"(Untracked Boss) Obtain a ~|sinister key|~": {
@@ -137010,11 +137011,6 @@
 				"Label": "Untracked Minigame Uniques",
 				"Items": ["Off-hand khopesh of the Kharidian"] 
 			},
-			"(Shifting Tombs) Obtain the ~|desert pantheon aura|~": {
-				"Category": ["Untracked Uniques", "Untracked Uniques Minigames"],
-				"Label": "Untracked Minigame Uniques",
-				"Items": ["Desert Pantheon fragment"] 
-			},
 			"(Trouble Brewing) Obtain a ~|blue naval shirt|~": {
 				"Category": ["Untracked Uniques", "Untracked Uniques Minigames", "Cosmetics"],
 				"Label": "Untracked Minigame Uniques",
@@ -138314,10 +138310,10 @@
 				"Label": "Untracked Skilling Uniques",
 				"Items": ["Totem of Intimidation middle"]
 			},
-			"(Anachronia Totems) Obtain the ~|Totem of Auras top|~": {
+			"(Anachronia Totems) Obtain the ~|Totem of Vitality top|~": {
 				"Category": ["Untracked Uniques", "Untracked Uniques Skilling"],
 				"Label": "Untracked Skilling Uniques",
-				"Items": ["Totem of Auras top"]
+				"Items": ["Totem of Vitality top"]
 			},
 			"(Anachronia Totems) Obtain the ~|Remototem base|~": {
 				"Category": ["Untracked Uniques", "Untracked Uniques Skilling"],
@@ -141504,6 +141500,11 @@
 				"Label": "Permanent Unlockables",
 				"Items": ["Bountiful Harvest"]
 			},
+			"Unlock Bountiful Harvest 2 from ~|Sydekix's Shop of Balance|~": {
+				"Category": ["Permanent Unlockables"],
+				"Label": "Permanent Unlockables",
+				"Items": ["Bountiful Harvest 2"]
+			},
 			"Unlock Speedy Growth from ~|Sydekix's Shop of Balance|~": {
 				"Category": ["Permanent Unlockables"],
 				"Label": "Permanent Unlockables",
@@ -142920,6 +142921,11 @@
 				"Label": "Permanent Unlockables",
 				"Items": ["Portal redirection"]
 			},
+			"Unlock ~|Focused Siphoning|~": {
+				"Category": ["Permanent Unlockables"],
+				"Label": "Permanent Unlockables",
+				"Items": ["Focused Siphoning"]
+			},
 			"Fully upgrade the ~|portable telescope|~": {
 				"Category": ["Permanent Unlockables"],
 				"Label": "Permanent Unlockables",
@@ -143067,6 +143073,38 @@
 					"~|The Lute of Love|~ Complete the lore activity": "Quest"
 				}
 			},
+			"Unlock the ~|one finger discount|~": {
+				"Category": ["Permanent Unlockables"],
+				"Label": "Permanent Unlockables",
+				"Items": ["One finger discount"]
+			},
+			"Unlock the ~|two finger discount|~": {
+				"Category": ["Permanent Unlockables"],
+				"Label": "Permanent Unlockables",
+				"Items": ["Two finger discount"]
+			},
+			"Unlock the ~|three finger discount|~": {
+				"Category": ["Permanent Unlockables"],
+				"Label": "Permanent Unlockables",
+				"Items": ["Three finger discount"]
+			},
+			"Unlock the ~|four finger discount|~": {
+				"Category": ["Permanent Unlockables"],
+				"Label": "Permanent Unlockables",
+				"Items": ["Four finger discount"]
+			},
+			"Unlock the ~|five finger discount|~": {
+				"Category": ["Permanent Unlockables"],
+				"Label": "Permanent Unlockables",
+				"Items": ["Five finger discount"]
+			},
+			"Fully unlock the potential of the ~|Sunspear|~": {
+				"Category": ["Permanent Unlockables"],
+				"Label": "Permanent Unlockables",
+				"Tasks": {
+					"Burn vyre corpse[+]": "Firemaking"
+				}
+			},
 			"Unlock the ~|Warrior of Het armour|~": {
 				"Category": ["Permanent Unlockables", "Cosmetics"],
 				"Label": "Cosmetic Overrides",
@@ -143207,6 +143245,18 @@
 				"Category": ["Permanent Unlockables", "Cosmetics"],
 				"Label": "Cosmetic Overrides",
 				"Items": ["Abyssal Knights' armour override"]
+			},
+			"Unlock the ~|devourer aura (Sanctum of Rebirth)|~ override": {
+				"Category": ["Permanent Unlockables", "Cosmetics"],
+				"Label": "Cosmetic Overrides",
+				"Items": ["Devourer aura (Sanctum of Rebirth)"],
+				"Not F2P": true
+			},
+			"Unlock the ~|devourer aura (Amascut)|~ override": {
+				"Category": ["Permanent Unlockables", "Cosmetics"],
+				"Label": "Cosmetic Overrides",
+				"Items": ["Devourer aura (Amascut)"],
+				"Not F2P": true
 			},
 			"Obtain ~|the Castaway|~ title": {
 				"Category": ["Arc Log", "Titles"],
@@ -154806,8 +154856,7 @@
 				"Not F2P": true
 			},
 			"Safecracking rewards": {
-				"Category": ["Minigame"],
-				"Chunks": ["Thieves' Guild Complete"],
+				"Chunks": ["Thieves' Guild after Caper 2"],
 				"Items": ["Pilfer points"],
 				"Not F2P": true
 			},
@@ -155177,9 +155226,9 @@
 				"Items": ["AncientZygomites[+]x40"],
 				"Output": "Totem of Navigation middle"
 			},
-			"Obtain the Totem of Auras top": {
+			"Obtain the Totem of Vitality top": {
 				"Items": ["AncientZygomites[+]x60"],
-				"Output": "Totem of Auras top"
+				"Output": "Totem of Vitality top"
 			},
 			"Obtain the ~|Remototem top|~*": {
 				"Chunks": ["14916"],
@@ -155217,9 +155266,9 @@
 				"Items": ["Totem of Summoning top", "Totem of Summoning middle", "Totem of Summoning base"],
 				"Output": "Totem of Summoning"
 			},
-			"Assemble the Totem of Auras": {
-				"Items": ["Totem of Auras top", "Totem of Auras middle", "Totem of Auras base"],
-				"Output": "Totem of Auras"
+			"Assemble the Totem of Vitality": {
+				"Items": ["Totem of Vitality top", "Totem of Vitality middle", "Totem of Vitality base"],
+				"Output": "Totem of Vitality"
 			},
 			"Assemble the Remototem": {
 				"Items": ["Remototem top", "Remototem middle", "Remototem base"],
@@ -221688,7 +221737,7 @@
 				"Totem of the Abyss",
 				"Totem of Intimidation",
 				"Totem of Summoning",
-				"Totem of Auras"
+				"Totem of Vitality"
 			],
 			"BushSeed[+]": [
 				"Redberry seed",
@@ -224016,7 +224065,17 @@
 			"Abyssal beast task[+]": ["Abyssal demon base task", "Abyssal beast wilderness task"],
 			"Abyssal lord task[+]": ["Abyssal demon base task", "Abyssal lord wilderness task"],
 			"Wyvern task[+]": ["Wyvern base task", "Wyvern wilderness task"],
-			"Acheron mammoth task[+]": ["Acheron mammoth base task", "Acheron mammoth wilderness task"]
+			"Acheron mammoth task[+]": ["Acheron mammoth base task", "Acheron mammoth wilderness task"],
+			"Burn vyre corpse[+]": [
+				"Burn a vyre corpse using ~|teak pyre logs|~",
+				"Burn a vyre corpse using ~|arctic pyre logs|~",
+				"Burn a vyre corpse using ~|maple pyre logs|~",
+				"Burn a vyre corpse using ~|mahogany pyre logs|~",
+				"Burn a vyre corpse using ~|eucalyptus pyre logs|~",
+				"Burn a vyre corpse using ~|yew pyre logs|~",
+				"Burn a vyre corpse using ~|magic pyre logs|~",
+				"Burn a vyre corpse using ~|elder pyre logs|~"
+			]
 		},
 		"tasksPlusNames": {
 			"A Taste of the Exotic[+]": "Any subtasks for A Taste of the Exotic",
@@ -280974,7 +281033,10 @@
 			"TokHaar-Kal-Mor^": [{
 				"~|Necromancy!|~ Complete the quest": "Quest"
 			}],
-			"Pilfer points^": [{
+			"Pilfer points^High-level safes": [{
+				"~|A Guild of Our Own (miniquest)|~ Complete the miniquest": "Quest"
+			}],
+			"Pilfer points^Low-level safes": [{
 				"~|A Guild of Our Own (miniquest)|~ Complete the miniquest": "Quest"
 			}],
 			"Prayer potion (2)^Barrows": [{
@@ -287045,7 +287107,12 @@
 			"Master thief's stethoscope": true,
 			"Medium loot bag": true,
 			"Large loot bag": true,
-			"Huge loot bag": true
+			"Huge loot bag": true,
+			"One finger discount": true,
+			"Two finger discount": true,
+			"Three finger discount": true,
+			"Four finger discount": true,
+			"Five finger discount": true
 		},
 		"Dodgy Mike's Second-hand Clothing": {
 			"Pirate bandana (white)": true,
@@ -290276,6 +290343,7 @@
 			"Plant Power (Tier 3)": true,
 			"Plant Power (Tier 4)": true,
 			"Bountiful Harvest": true,
+			"Bountiful Harvest 2": true,
 			"Speedy Growth": true,
 			"Quick-cense": true,
 			"Makes-cense": true,
@@ -291110,8 +291178,8 @@
 			"Law altar teleport": true,
 			"Death altar teleport": true,
 			"Blood altar teleport": true,
-			"Wicked hood teleport token": true,
-			"Hungry hood": true
+			"Hungry hood": true,
+			"Focused Siphoning": true
 		},
 		"Wydin's Food Store": {
 			"Pot of flour": true,
@@ -291279,7 +291347,7 @@
 				"Totem of Summoning top": {
 					"1": "1/100"
 				},
-				"Totem of Auras base": {
+				"Totem of Vitality base": {
 					"1": "1/100"
 				},
 				"Compacted leaves": {
@@ -309123,7 +309191,7 @@
 				"Sealed clue scroll (master)": {
 					"1": "1/25600"
 				},
-				"Totem of Auras middle": {
+				"Totem of Vitality middle": {
 					"1": "1/300"
 				},
 				"Totem of Summoning middle": {
@@ -311250,7 +311318,7 @@
 				"Dinosaur tooth": {
 					"1": "1/800"
 				},
-				"Totem of Auras middle": {
+				"Totem of Vitality middle": {
 					"1": "1/900"
 				},
 				"Totem of Summoning middle": {
@@ -311931,7 +311999,7 @@
 				"Sealed clue scroll (master)": {
 					"1": "1/25600"
 				},
-				"Totem of Auras middle": {
+				"Totem of Vitality middle": {
 					"1": "1/900"
 				},
 				"Totem of Summoning middle": {
@@ -313942,7 +314010,7 @@
 				"Dinosaur tooth": {
 					"1": "1/800"
 				},
-				"Totem of Auras middle": {
+				"Totem of Vitality middle": {
 					"1": "1/900"
 				},
 				"Totem of Summoning middle": {
@@ -314723,7 +314791,7 @@
 				"Dinosaur tooth": {
 					"1": "1/800"
 				},
-				"Totem of Auras middle": {
+				"Totem of Vitality middle": {
 					"1": "1/900"
 				},
 				"Totem of Summoning middle": {
@@ -314920,7 +314988,7 @@
 				"Dinosaur tooth": {
 					"1": "1/800"
 				},
-				"Totem of Auras middle": {
+				"Totem of Vitality middle": {
 					"1": "1/900"
 				},
 				"Totem of Summoning middle": {
@@ -316831,7 +316899,7 @@
 				"Sealed clue scroll (master)": {
 					"1": "1/25600"
 				},
-				"Totem of Auras middle": {
+				"Totem of Vitality middle": {
 					"1": "1/900"
 				},
 				"Totem of Summoning middle": {
@@ -319376,7 +319444,7 @@
 				"Sealed clue scroll (master)": {
 					"1": "1/25600"
 				},
-				"Totem of Auras middle": {
+				"Totem of Vitality middle": {
 					"1": "1/900"
 				},
 				"Totem of Summoning middle": {
@@ -325296,9 +325364,6 @@
 				}
 			},
 			"Shifting Tombs loot": {
-				"Desert pantheon fragments": {
-					"1": "Always"
-				},
 				"Menaphite gift offering (small)": {
 					"1": "Uncommon"
 				},
@@ -325388,6 +325453,9 @@
 				},
 				"Dwarf weed seed": {
 					"1-5": "50/1000"
+				},
+				"Pilfer points": {
+					"1-15": "Always"
 				}
 			},
 			"Asuran Arsenal loot": {
@@ -325451,6 +325519,9 @@
 				},
 				"Grimy kwuarm": {
 					"5-10": "50/1000"
+				},
+				"Pilfer points": {
+					"1-15": "Always"
 				}
 			},
 			"Chest (Dwarven mines, Thieving)": {
