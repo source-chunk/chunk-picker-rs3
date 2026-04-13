@@ -1361,8 +1361,7 @@
 				"Category": ["Minigame"],
 				"Level": 75,
 				"Chunks": ["Rogues' Den"],
-				"Output": "FlashPowder",
-				"Skills": {
+				"SkillsNeeded": {
 					"Thieving": 75,
 					"Herblore": 50
 				},
@@ -41929,8 +41928,7 @@
 				"Category": ["Minigame"],
 				"Level": 50,
 				"Chunks": ["Rogues' Den"],
-				"Output": "FlashPowder",
-				"Skills": {
+				"SkillsNeeded": {
 					"Agility": 75,
 					"Thieving": 75
 				},
@@ -70075,7 +70073,7 @@
 				"Level": 75,
 				"Chunks": ["Rogues' Den"],
 				"Output": "FlashPowder",
-				"Skills": {
+				"SkillsNeeded": {
 					"Agility": 75,
 					"Herblore": 50
 				},
