@@ -163,6 +163,7 @@ let highestCurrent;
 let dropTables;
 let questPointTotal;
 let combatScoreTotal;
+let runeScoreTotal;
 let questProgress = {};
 let diaryProgress = {};
 let skillQuestXp = {};
@@ -455,6 +456,7 @@ onmessage = function(e) {
             bestEquipmentAltsGlobal,
             unlockedSections,
             combatScoreTotal: type === 'current' ? combatScoreTotal : 0,
+            runeScoreTotal: type === 'current' ? runeScoreTotal : 0,
             highestOverallCompleted,
             bisUpgrades: bisUpgradesOutput,
             globalValidsBoosts,
@@ -1274,7 +1276,7 @@ let calcChallenges = function(chunks, baseChunkData) {
                             }
                         });
                     }
-                    if (((!checkPrimaryMethod(skill, newValids, baseChunkData) && (!passiveSkill || !passiveSkill.hasOwnProperty(skill) || passiveSkill[skill] <= 1 || (chunkInfo['challenges'][skill][challenge]['Level'] - (bestBoost + (ownsCrystalSaw ? 3 : 0))) > passiveSkill[skill]) && (!skillQuestXp || !skillQuestXp.hasOwnProperty(skill) || (chunkInfo['challenges'][skill][challenge]['Level'] - (bestBoost + (ownsCrystalSaw ? 3 : 0))) > skillQuestXp[skill]['level'])) && !!chunkInfo['challenges'][skill][challenge] && chunkInfo['challenges'][skill][challenge]['Level'] > 1 && !chunkInfo['challenges'][skill][challenge]['ManualValid']) || ((chunkInfo['challenges'][skill][challenge]['Level'] - (bestBoost + (ownsCrystalSaw ? 3 : 0))) > highestSkillLevels[skill])) {
+                    if (((!checkPrimaryMethod(skill, newValids, baseChunkData) && (!passiveSkill || !passiveSkill.hasOwnProperty(skill) || passiveSkill[skill] <= 1 || (chunkInfo['challenges'][skill][challenge]['Level'] - (bestBoost + (ownsCrystalSaw ? 3 : 0))) > passiveSkill[skill]) && (!skillQuestXp || !skillQuestXp.hasOwnProperty(skill) || (chunkInfo['challenges'][skill][challenge]['Level'] - (bestBoost + (ownsCrystalSaw ? 3 : 0))) > skillQuestXp[skill]['level'])) && !!chunkInfo['challenges'][skill][challenge] && chunkInfo['challenges'][skill][challenge]['Level'] > 1 && !chunkInfo['challenges'][skill][challenge]['ManualValid']) || ((chunkInfo['challenges'][skill][challenge]['Level'] - (bestBoost + (ownsCrystalSaw ? 3 : 0))) > highestSkillLevels[skill] && !chunkInfo['challenges'][skill][challenge]['Allow Virtual'])) {
                         let highestCompletedLevel = 0;
                         !!completedChallenges && completedChallenges.hasOwnProperty(skill) && Object.keys(completedChallenges[skill]).forEach((task) => {
                             if (!!chunkInfo['challenges'][skill] && !!chunkInfo['challenges'][skill][task] && !!chunkInfo['challenges'][skill][task]['Level'] && chunkInfo['challenges'][skill][task]['Level'] > highestCompletedLevel) {
@@ -1338,7 +1340,7 @@ let calcChallenges = function(chunks, baseChunkData) {
                                     highestCompletedLevel = chunkInfo['challenges'][subSkill][task]['Level'];
                                 }
                             });
-                            if ((!checkPrimaryMethod(subSkill, newValids, baseChunkData) && ((subSkill !== 'Slayer' || !slayerLocked || (chunkInfo['challenges'][skill][challenge]['Skills'][subSkill] - (bestBoost + (ownsCrystalSaw ? 3 : 0))) > slayerLocked['level'])) && (!passiveSkill || !passiveSkill.hasOwnProperty(subSkill) || passiveSkill[subSkill] <= 1 || (chunkInfo['challenges'][skill][challenge]['Skills'][subSkill] - (bestBoost + (ownsCrystalSaw ? 3 : 0))) > passiveSkill[subSkill]) && (highestCompletedLevel <= 1 || highestCompletedLevel <= chunkInfo['challenges'][skill][challenge]['Skills'][subSkill]) && chunkInfo['challenges'][skill][challenge]['Skills'][subSkill] > 1) || (subSkill === 'Slayer' && !!slayerLocked && chunkInfo['challenges'][skill][challenge]['Skills'][subSkill] > slayerLocked['level']) || (!!maxSkill && maxSkill.hasOwnProperty(subSkill) && chunkInfo['challenges'][skill][challenge]['Skills'][subSkill] > maxSkill[subSkill]) || ((chunkInfo['challenges'][skill][challenge]['Level'] - (bestBoost + (ownsCrystalSaw ? 3 : 0))) > highestSkillLevels[skill])) {
+                            if ((!checkPrimaryMethod(subSkill, newValids, baseChunkData) && ((subSkill !== 'Slayer' || !slayerLocked || (chunkInfo['challenges'][skill][challenge]['Skills'][subSkill] - (bestBoost + (ownsCrystalSaw ? 3 : 0))) > slayerLocked['level'])) && (!passiveSkill || !passiveSkill.hasOwnProperty(subSkill) || passiveSkill[subSkill] <= 1 || (chunkInfo['challenges'][skill][challenge]['Skills'][subSkill] - (bestBoost + (ownsCrystalSaw ? 3 : 0))) > passiveSkill[subSkill]) && (highestCompletedLevel <= 1 || highestCompletedLevel <= chunkInfo['challenges'][skill][challenge]['Skills'][subSkill]) && chunkInfo['challenges'][skill][challenge]['Skills'][subSkill] > 1) || (subSkill === 'Slayer' && !!slayerLocked && chunkInfo['challenges'][skill][challenge]['Skills'][subSkill] > slayerLocked['level']) || (!!maxSkill && maxSkill.hasOwnProperty(subSkill) && chunkInfo['challenges'][skill][challenge]['Skills'][subSkill] > maxSkill[subSkill]) || ((chunkInfo['challenges'][skill][challenge]['Level'] - (bestBoost + (ownsCrystalSaw ? 3 : 0))) > highestSkillLevels[skill] && !chunkInfo['challenges'][skill][challenge]['Allow Virtual'])) {
                                 if (!nonValids.hasOwnProperty(challenge)) {
                                     nonValids[challenge] = [];
                                 }
@@ -3485,6 +3487,7 @@ let calcChallenges = function(chunks, baseChunkData) {
         questPointTotal = 1;
         questProgress = {};
         combatScoreTotal = 0;
+        runeScoreTotal = 0;
         diaryProgress = {};
         skillQuestXp = {};
         !!newValids && !!newValids['Quest'] && Object.keys(newValids['Quest']).forEach((line) => {
@@ -3541,6 +3544,9 @@ let calcChallenges = function(chunks, baseChunkData) {
             tier = line.split('|')[1].split('#')[1];
             if (chunkInfo['challenges']['Diary'].hasOwnProperty(line) && chunkInfo['challenges']['Diary'][line].hasOwnProperty('CombatScore') && (!backlog['Diary'] || (!backlog['Diary'].hasOwnProperty(line) && !backlog['Diary'].hasOwnProperty(line.replaceAll('#', '/'))))) {
                 combatScoreTotal += chunkInfo['challenges']['Diary'][line]['CombatScore'];
+            }
+			if (chunkInfo['challenges']['Diary'].hasOwnProperty(line) && chunkInfo['challenges']['Diary'][line].hasOwnProperty('RuneScore') && (!backlog['Diary'] || (!backlog['Diary'].hasOwnProperty(line) && !backlog['Diary'].hasOwnProperty(line.replaceAll('#', '/'))))) {
+                runeScoreTotal += chunkInfo['challenges']['Diary'][line]['RuneScore'];
             }
             if (chunkInfo['challenges']['Diary'].hasOwnProperty(line) && chunkInfo['challenges']['Diary'][line].hasOwnProperty('Reward')) {
                 if (!diaryProgress[chunkInfo['challenges']['Diary'][line]['BaseQuest']]) {
@@ -9813,7 +9819,7 @@ let calcCurrentChallenges2 = function() {
                             }
                         });
                     }
-                    if ((!checkPrimaryMethod(subSkill, globalValids, baseChunkData) && (!passiveSkill || !passiveSkill.hasOwnProperty(subSkill) || passiveSkill[subSkill] < (chunkInfo['challenges'][skill][challenge]['Skills'][subSkill] - (bestBoost + (ownsCrystalSaw ? 3 : 0))))) || (subSkill === 'Slayer' && !!slayerLocked && (chunkInfo['challenges'][skill][challenge]['Skills'][subSkill] - (bestBoost + (ownsCrystalSaw ? 3 : 0))) > slayerLocked['level']) || (!!maxSkill && maxSkill.hasOwnProperty(subSkill) && chunkInfo['challenges'][skill][challenge]['Skills'][subSkill] > maxSkill[subSkill]) || ((chunkInfo['challenges'][skill][challenge]['Skills'][subSkill] - (bestBoost + (ownsCrystalSaw ? 3 : 0))) > highestSkillLevels[subSkill])) {
+                    if ((!checkPrimaryMethod(subSkill, globalValids, baseChunkData) && (!passiveSkill || !passiveSkill.hasOwnProperty(subSkill) || passiveSkill[subSkill] < (chunkInfo['challenges'][skill][challenge]['Skills'][subSkill] - (bestBoost + (ownsCrystalSaw ? 3 : 0))))) || (subSkill === 'Slayer' && !!slayerLocked && (chunkInfo['challenges'][skill][challenge]['Skills'][subSkill] - (bestBoost + (ownsCrystalSaw ? 3 : 0))) > slayerLocked['level']) || (!!maxSkill && maxSkill.hasOwnProperty(subSkill) && chunkInfo['challenges'][skill][challenge]['Skills'][subSkill] > maxSkill[subSkill]) || ((chunkInfo['challenges'][skill][challenge]['Skills'][subSkill] - (bestBoost + (ownsCrystalSaw ? 3 : 0))) > highestSkillLevels[subSkill] && !chunkInfo['challenges'][skill][challenge]['Allow Virtual'])) {
                         tempValid = false;
                         return true;
                     }

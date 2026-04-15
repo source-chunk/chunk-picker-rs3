@@ -470,6 +470,7 @@ let rules = {
 	"Trim achievements": false,
 	"MQC achievements": false,
 	"Misc achievements": false,
+	"No RuneScore": false,
 	"Kili Knowledge": false,
 	"Slayer Contracts": false,
 	"Hide Partial Products": false,
@@ -603,7 +604,9 @@ let ruleNames = {
 	"Comp achievements": "Must complete Completionist achievements<span class='rule-asterisk noscroll'>*</span>",
 	"Trim achievements": "Also include Trimmed Completionist Cape achievements<span class='rule-asterisk noscroll'>*</span>",
 	"MQC achievements": "Must complete Master Quest Cape achievements<span class='rule-asterisk noscroll'>*</span>",
-	"Misc achievements": "WIP- Must complete other achievements, excluding level-up achievements.",
+	"Misc achievements": "Must complete achievements that are not already part of the above categories.<span class='rule-asterisk noscroll'>*</span>",
+	"No RuneScore": "Include achievements that don't award RuneScore.<span class='rule-asterisk noscroll'>†</span>",
+	"Level-up achievements": "Include level-up achievements.<span class='rule-asterisk noscroll'>†</span>",
 	"XP Lamps": "Using skills-specific experience lamps counts as a primary training method<span class='rule-asterisk noscroll'>*</span>",
 	"Kili Knowledge": "Must complete Kili Knowledge when possible",
 	"Slayer Contracts": "Completing Slayer contracts off-task counts as a primary training method",
@@ -637,7 +640,6 @@ let rulePresets = {
 		"Unlock Abilities": true,
         "Unlock Prayers": true,
 		"Material Blueprints": true,
-		"Achievement": true,
 		"Kili Knowledge": true,
 		"Slayer Contracts": true,
 		"Cleaning Herbs Primary": true,
@@ -723,6 +725,7 @@ let rulePresets = {
 		"Comp achievements": true,
 		"Trim achievements": true,
 		"MQC achievements": true,
+		"Misc achievements": true,
 		"XP Lamps": true,
 		"Kili Knowledge": true,
 		"Slayer Contracts": true,
@@ -822,6 +825,9 @@ let rulePresets = {
 		"Comp achievements": true,
 		"Trim achievements": true,
 		"MQC achievements": true,
+		"Misc achievements": true,
+		"No RuneScore": true,
+		"Level-up achievements": true,
 		"Universal Tertiary": true,
 		"XP Lamps": true,
 		"Kili Knowledge": true,
@@ -854,7 +860,7 @@ let ruleStructure = {
 		"Combat Mastery achievements": ["Speed Killer Achievements", "Combat Master+"],
 		"Comp achievements": ["Trim achievements"],
 		"MQC achievements": true,
-		"Misc achievements": true
+		"Misc achievements": ["Level-up achievements", "No RuneScore"]
 	},
     "Overall Skill": {
         "Skillcape": ["Master skillcape"],
@@ -1436,6 +1442,7 @@ let workersOut = {
 let gotData = false;
 let questPointTotal = 0;
 let combatScoreTotal = 0;
+let runeScoreTotal = 0;
 let highestOverallCompleted = {};
 let bisUpgrades = {};
 let globalValidsBoosts = {};
@@ -4111,6 +4118,7 @@ let workerOnMessage = function(e) {
                 bestEquipmentAltsGlobal,
                 unlockedSections,
                 combatScoreTotal,
+                runeScoreTotal,
                 highestOverallCompleted,
                 bisUpgrades,
                 globalValidsBoosts,
@@ -9392,7 +9400,8 @@ let openHighest2 = function(notScrollTop) {
                     $(`.${combatStyle.replaceAll(' ', '_')}-body`).empty().append(`<div class='highest-subtitle noscroll'>${combatStyle}</div><div class='noscroll qps'>Quest Points: ${questPointTotal}<i class="noscroll fa-solid fa-filter" title="Filter" onclick="openQuestFilterContextMenu()"></i></div>`).append(`<div class="noscroll results"><span class="noscroll holder"><span class="noscroll topline">No quests ${questFilterType}</span></span></div>`);
                 }
             } else if (combatStyle === 'Diaries') {
-                rules['Combat Mastery achievements'] && rules['Achievement'] && $(`.${combatStyle.replaceAll(' ', '_')}-body`).append(`<div class='noscroll cps'>CombatScore: ${combatScoreTotal}</div>`);
+                rules['Achievement'] && $(`.${combatStyle.replaceAll(' ', '_')}-body`).append(`<div class='noscroll cps'>RuneScore: ${runeScoreTotal}</div>`);
+				rules['Combat Mastery achievements'] && rules['Achievement'] && $(`.${combatStyle.replaceAll(' ', '_')}-body`).append(`<div class='noscroll cps'>CombatScore: ${combatScoreTotal}</div>`);
                 let tooltipBase = `<span class="diary-question">What do the colors indicate? <i class="fa-solid fa-question-circle question-help"></i></span>`;
                 $(`.${combatStyle.replaceAll(' ', '_')}-body`).append(`<div class="diary-question-outer">${tooltip.generate('diariesColorTooltip', tooltipBase, 'diariesColorTooltip', onMobile ? 'bottom' : 'right')}</div>`);
                 Object.keys(chunkInfo['diaries']).forEach((diary) => {
@@ -13225,10 +13234,6 @@ let loadData = async function(startup) {
             rulesTemp['Menaphos Log'] = rulesTemp.hasOwnProperty('Arc Log') ? rulesTemp['Arc Log'] : false;
         }
 		
-		if (!rulesTemp.hasOwnProperty('Misc achievements')) {
-            rulesTemp['Misc achievements'] = rulesTemp.hasOwnProperty('Achievement') ? rulesTemp['Achievement'] : false;
-        }
-		
 		if (!rulesTemp.hasOwnProperty('Comp achievements')) {
             rulesTemp['Comp achievements'] = rulesTemp.hasOwnProperty('Achievement') ? rulesTemp['Achievement'] : false;
         }
@@ -13239,6 +13244,10 @@ let loadData = async function(startup) {
 		
 		if (!rulesTemp.hasOwnProperty('MQC achievements')) {
             rulesTemp['MQC achievements'] = rulesTemp.hasOwnProperty('Achievement') ? rulesTemp['Achievement'] : false;
+        }
+		
+		if (!rulesTemp.hasOwnProperty('Misc achievements')) {
+            rulesTemp['Misc achievements'] = rulesTemp.hasOwnProperty('Trim achievements') ? rulesTemp['Trim achievements'] : false;
         }
 		
 		if (!rulesTemp.hasOwnProperty('Multiple Agility')) {

@@ -126415,6 +126415,1708 @@
 				"Reward": ["Completionist cape (t)"],
 				"ManualShow": true,
 				"Not F2P": true
+			},
+			"~|Achievements#Skills|~ Agility 5": {
+				"Category": ["Misc achievements", "Level-up achievements"],
+				"Description": "Reach level 5 in the Agility skill.",
+				"BaseQuest": "Achievements",
+				"Skills": {
+					"Agility": 5
+				},
+				"RuneScore": 5
+			},
+			"~|Achievements#Skills|~ Agility 99": {
+				"Category": ["Misc achievements", "Level-up achievements"],
+				"Description": "Reach level 99 in the Agility skill.",
+				"BaseQuest": "Achievements",
+				"Skills": {
+					"Agility": 99
+				},
+				"Not F2P": true,
+				"RuneScore": 55
+			},
+			"~|Achievements#Skills|~ Agility 120": {
+				"Category": ["Misc achievements", "Level-up achievements", "No RuneScore"],
+				"Description": "Reach level 120 in the Agility skill.",
+				"BaseQuest": "Achievements",
+				"Skills": {
+					"Agility": 120
+				},
+				"Not F2P": true,
+				"Allow Virtual": true
+			},
+			"~|Achievements#Skills|~ I Meant To Do That": {
+				"Category": ["Misc achievements"],
+				"Description": "Surge a distance of one tile.",
+				"BaseQuest": "Achievements",
+				"Skills": {
+					"Agility": 5
+				},
+				"RuneScore": 10
+			},
+			"~|Achievements#Skills|~ A Little Overdressed": {
+				"Category": ["Misc achievements"],
+				"Description": "Wear a full diving outfit to go diving in Everlight.",
+				"BaseQuest": "Achievements",
+				"Chunks": ["Underwater Cave Excavation Site"],
+				"Items": ["Diving apparatus", "Fishbowl helmet"],
+				"Skills": {
+					"Archaeology": 69
+				},
+				"RuneScore": 10,
+				"Not F2P": true
+			},
+			"~|Achievements#Skills|~ A New Age": {
+				"Category": ["Misc achievements"],
+				"Description": "Solve this mystery.",
+				"BaseQuest": "Achievements",
+				"Tasks": {
+					"Archaeology Mystery: ~|A New Age|~ Complete the mystery": "Quest"
+				},
+				"RuneScore": 15,
+				"Not F2P": true
+			},
+			"~|Achievements#Skills|~ A New Form": {
+				"Category": ["Misc achievements"],
+				"Description": "Solve this mystery.",
+				"BaseQuest": "Achievements",
+				"Tasks": {
+					"Archaeology Mystery: ~|A New Form|~ Complete the mystery": "Quest"
+				},
+				"RuneScore": 15,
+				"Not F2P": true
+			},
+			"~|Achievements#Skills|~ A New Home": {
+				"Category": ["Misc achievements"],
+				"Description": "Solve this mystery.",
+				"BaseQuest": "Achievements",
+				"Tasks": {
+					"Archaeology Mystery: ~|A New Home|~ Complete the mystery": "Quest"
+				},
+				"RuneScore": 15,
+				"Not F2P": true
+			},
+			"~|Achievements#Skills|~ A Study in Aether": {
+				"Category": ["Misc achievements"],
+				"Description": "Solve this mystery.",
+				"BaseQuest": "Achievements",
+				"Tasks": {
+					"Archaeology Mystery: ~|A Study in Aether|~ Complete the mystery": "Quest"
+				},
+				"RuneScore": 15,
+				"Not F2P": true
+			},
+			"~|Achievements#Skills|~ Abbinah Resting Here For a While": {
+				"Category": ["Misc achievements"],
+				"Description": "Find every ancient aviansie spirit at Stormguard.",
+				"BaseQuest": "Achievements",
+				"Chunks": ["Stormguard Citadel"],
+				"Items": ["Wingsuit v2"],
+				"RuneScore": 10,
+				"Not F2P": true
+			},
+			"~|Achievements#Skills|~ Any Port in a Storm": {
+				"Category": ["Misc achievements"],
+				"Description": "Activate all portals within the citadel.",
+				"BaseQuest": "Achievements",
+				"Chunks": ["Stormguard Citadel"],
+				"Items": ["Quintessence", "Wingsuit v1"],
+				"Skills": {
+					"Archaeology": 76,
+					"Divination": 70,
+					"Smithing": 40
+				},
+				"RuneScore": 10,
+				"Not F2P": true
+			},
+			"~|Achievements#Skills|~ Aquatic Escape": {
+				"Category": ["Misc achievements"],
+				"Description": "Escape Kharid-et by boat.",
+				"BaseQuest": "Achievements",
+				"Chunks": ["13360-1"],
+				"Tasks": {
+					"~|The Vault of Shadows|~ 2b": "Quest"
+				},
+				"RuneScore": 10,
+				"Not F2P": true
+			},
+			"~|Achievements#Skills|~ Archaeology 20": {
+				"Category": ["Misc achievements", "Level-up achievements"],
+				"Description": "Reach level 20 in the Archaeology skill.",
+				"BaseQuest": "Achievements",
+				"Skills": {
+					"Archaeology": 20
+				},
+				"RuneScore": 15,
+				"NoBoost": true
+			},
+			"~|Achievements#Skills|~ Archaeology 120": {
+				"Category": ["Misc achievements", "Level-up achievements"],
+				"Description": "Reach level 120 in the Archaeology skill.",
+				"BaseQuest": "Achievements",
+				"Skills": {
+					"Archaeology": 20
+				},
+				"RuneScore": 60,
+				"Not F2P": true,
+				"NoBoost": true
+			},
+			"~|Achievements#Skills|~ Art Critic Jacques: Anarchic Abstraction": {
+				"Category": ["Archaeology Collections"],
+				"Label": "Archaeology Collections",
+				"Items": ["'Disorder' painting", "'The Lake of Fire' painting", "'Pandemonium' tapestry"],
+				"NPCs": ["Art Critic Jacques"],
+				"RuneScore": 10
+			},
+			"~|Achievements#Skills|~ Art Critic Jacques: Radiant Renaissance": {
+				"Category": ["Archaeology Collections"],
+				"Label": "Archaeology Collections",
+				"Items": ["'Hallowed Be the Everlight' painting", "'The Lord of Light' painting", "'The Pride of Padosan' painting"],
+				"NPCs": ["Art Critic Jacques"],
+				"RuneScore": 10
+			},
+			"~|Achievements#Skills|~ Art Critic Jacques: Imperial Impressionism": {
+				"Category": ["Archaeology Collections"],
+				"Label": "Archaeology Collections",
+				"Items": ["'Solem in Umbra' painting", "'Consensus ad Idem' painting", "'Prima Legio' painting"],
+				"NPCs": ["Art Critic Jacques"],
+				"RuneScore": 10
+			},
+			"~|Achievements#Skills|~ Atonement": {
+				"Category": ["Misc achievements"],
+				"Description": "Solve this mystery.",
+				"BaseQuest": "Achievements",
+				"Tasks": {
+					"Archaeology Mystery: ~|Atonement|~ Complete the mystery": "Quest"
+				},
+				"RuneScore": 15,
+				"Not F2P": true
+			},
+			"~|Achievements#Skills|~ Breaking the Seal": {
+				"Category": ["Misc achievements"],
+				"Description": "Solve this mystery.",
+				"BaseQuest": "Achievements",
+				"Tasks": {
+					"Archaeology Mystery: ~|Breaking the Seal|~ Complete the mystery": "Quest"
+				},
+				"RuneScore": 5
+			},
+			"~|Achievements#Skills|~ Breaking the Sound Barrier": {
+				"Category": ["Misc achievements"],
+				"Description": "Fly across Stormguard harnessing something powerful.",
+				"BaseQuest": "Achievements",
+				"Chunks": ["Stomguard Citadel"],
+				"Items": ["Wingsuit v2"],
+				"Skills": {
+					"Agility": 5
+				},
+				"RuneScore": 10,
+				"Not F2P": true
+			},
+			"~|Achievements#Skills|~ Chief Tess: Blingy Fings": {
+				"Category": ["Archaeology Collections"],
+				"Label": "Archaeology Collections",
+				"Items": ["Ancient timepiece", "Legatus pendant", "Pontifex signet ring", "Bronze Dominion medal", "Silver Dominion medal"],
+				"NPCs": ["Chief Tess"],
+				"RuneScore": 10
+			},
+			"~|Achievements#Skills|~ Chief Tess: Hitty Fings": {
+				"Category": ["Archaeology Collections"],
+				"Label": "Archaeology Collections",
+				"Items": ["Ceremonial mace", "Pontifex crozier", "Fishing trident", "High priest crozier", "High priest orb"],
+				"NPCs": ["Chief Tess"],
+				"RuneScore": 10
+			},
+			"~|Achievements#Skills|~ Chief Tess: Showy Fings": {
+				"Category": ["Archaeology Collections"],
+				"Label": "Archaeology Collections",
+				"Items": ["Crest of Dagon", "Legatus Maximus figurine", "'Lust' metal sculpture", "Pontifex Maximus figurine", "Ceremonial plume", "Rod of Asclepius"],
+				"NPCs": ["Chief Tess"],
+				"RuneScore": 10
+			},
+			"~|Achievements#Skills|~ Chief Tess: Smoky Fings": {
+				"Category": ["Archaeology Collections"],
+				"Label": "Archaeology Collections",
+				"Items": ["Hookah pipe", "Opulent wine goblet", "Everlight trumpet", "Dominion torch", "Pontifex censer"],
+				"NPCs": ["Chief Tess"],
+				"RuneScore": 10
+			},
+			"~|Achievements#Skills|~ Collectors Assemble I": {
+				"Category": ["Misc achievements"],
+				"Description": "Complete 1 unique collection for an archaeological collector",
+				"BaseQuest": "Achievements",
+				"Tasks": {
+					"AnyCollection[+]": "Nonskill"
+				},
+				"RuneScore": 5,
+				"Not F2P": true
+			},
+			"~|Achievements#Skills|~ Collectors Assemble II": {
+				"Category": ["Misc achievements"],
+				"Description": "Complete 2 unique collection for an archaeological collector",
+				"BaseQuest": "Achievements",
+				"Tasks": {
+					"AnyCollection[+]x2": "Nonskill"
+				},
+				"RuneScore": 10,
+				"Not F2P": true
+			},
+			"~|Achievements#Skills|~ Collectors Assemble III": {
+				"Category": ["Misc achievements"],
+				"Description": "Complete 5 unique collection for an archaeological collector",
+				"BaseQuest": "Achievements",
+				"Tasks": {
+					"AnyCollection[+]x5": "Nonskill"
+				},
+				"RuneScore": 10,
+				"Not F2P": true
+			},
+			"~|Achievements#Skills|~ Collectors Assemble IV": {
+				"Category": ["Misc achievements"],
+				"Description": "Complete 10 unique collection for an archaeological collector",
+				"BaseQuest": "Achievements",
+				"Tasks": {
+					"AnyCollection[+]x10": "Nonskill"
+				},
+				"RuneScore": 15,
+				"Not F2P": true
+			},
+			"~|Achievements#Skills|~ Collectors Assemble V": {
+				"Category": ["Misc achievements"],
+				"Description": "Complete 15 unique collection for an archaeological collector",
+				"BaseQuest": "Achievements",
+				"Tasks": {
+					"AnyCollection[+]x15": "Nonskill"
+				},
+				"RuneScore": 25,
+				"Not F2P": true
+			},
+			"~|Achievements#Skills|~ Collectors Assemble VI": {
+				"Category": ["Misc achievements"],
+				"Description": "Complete 20 unique collection for an archaeological collector",
+				"BaseQuest": "Achievements",
+				"Tasks": {
+					"AnyCollection[+]x20": "Nonskill"
+				},
+				"RuneScore": 40,
+				"Not F2P": true
+			},
+			"~|Achievements#Skills|~ Collectors Assemble VII": {
+				"Category": ["Misc achievements"],
+				"Description": "Complete 25 unique collection for an archaeological collector",
+				"BaseQuest": "Achievements",
+				"Tasks": {
+					"AnyCollection[+]x25": "Nonskill"
+				},
+				"RuneScore": 60,
+				"Not F2P": true
+			},
+			"~|Achievements#Skills|~ Collectors Assemble VIII": {
+				"Category": ["Misc achievements"],
+				"Description": "Complete 50 unique collection for an archaeological collector",
+				"BaseQuest": "Achievements",
+				"Tasks": {
+					"AnyCollection[+]x50": "Nonskill"
+				},
+				"RuneScore": 75,
+				"Not F2P": true
+			},
+			"~|Achievements#Skills|~ Contract Claws": {
+				"Category": ["Misc achievements"],
+				"Description": "Solve this mystery.",
+				"BaseQuest": "Achievements",
+				"Tasks": {
+					"Archaeology Mystery: ~|Contract Claws|~ Complete the mystery": "Quest"
+				},
+				"RuneScore": 5,
+				"Not F2P": true
+			},
+			"~|Achievements#Skills|~ Crypt o' Zoology": {
+				"Category": ["Misc achievements"],
+				"Description": "Solve this mystery.",
+				"BaseQuest": "Achievements",
+				"Tasks": {
+					"Archaeology Mystery: ~|Crypt o' Zoology|~ Complete the mystery": "Quest"
+				},
+				"RuneScore": 15,
+				"Not F2P": true
+			},
+			"~|Achievements#Skills|~ Dagon Bye": {
+				"Category": ["Misc achievements"],
+				"Description": "Solve this mystery.",
+				"BaseQuest": "Achievements",
+				"Tasks": {
+					"Archaeology Mystery: ~|Dagon Bye|~ Complete the mystery": "Quest"
+				},
+				"RuneScore": 10,
+				"Not F2P": true
+			},
+			"~|Achievements#Skills|~ Death Watch": {
+				"Category": ["Misc achievements"],
+				"Description": "Solve this mystery.",
+				"BaseQuest": "Achievements",
+				"Tasks": {
+					"Archaeology Mystery: ~|Death Watch|~ Complete the mystery": "Quest"
+				},
+				"RuneScore": 15,
+				"Not F2P": true
+			},
+			"~|Achievements#Skills|~ Decimation": {
+				"Category": ["Misc achievements"],
+				"Description": "Solve this mystery.",
+				"BaseQuest": "Achievements",
+				"Tasks": {
+					"Archaeology Mystery: ~|Decimation|~ Complete the mystery": "Quest"
+				},
+				"RuneScore": 20,
+				"Not F2P": true
+			},
+			"~|Achievements#Skills|~ Demonic Ingenuity": {
+				"Category": ["Misc achievements"],
+				"Description": "Test the structural integrity of the gargoyle at the Infernal Source",
+				"BaseQuest": "Achievements",
+				"Chunks": ["Infernal Source"],
+				"Items": ["Rock hammer"],
+				"RuneScore": 25,
+				"Not F2P": true
+			},
+			"~|Achievements#Skills|~ Die! Die! Die!": {
+				"Category": ["Misc achievements"],
+				"Description": "Harness the power of the infernal d% dice.",
+				"BaseQuest": "Achievements",
+				"Chunks": ["Infernal Source"],
+				"RuneScore": 25,
+				"Not F2P": true
+			},
+			"~|Achievements#Skills|~ Elbis: Entertaining the Masses": {
+				"Category": ["Archaeology Collections"],
+				"Label": "Archaeology Collections",
+				"Items": ["Decorative amphora", "Gladiator helmet", "Gladiator sword", "Model chariot"],
+				"NPCs": ["Eblis"],
+				"RuneScore": 10
+			},
+			"~|Achievements#Skills|~ Elbis: Finery of the Inquisition": {
+				"Category": ["Archaeology Collections"],
+				"Label": "Archaeology Collections",
+				"Items": ["Inquisitor's ceremonial armour", "Inquisitor's ceremonial mask", "Inquisitor's seal"],
+				"NPCs": ["Eblis"],
+				"RuneScore": 10
+			},
+			"~|Achievements#Skills|~ Elbis: Imperial Sorcery": {
+				"Category": ["Archaeology Collections"],
+				"Label": "Archaeology Collections",
+				"Items": ["'Incite Fear' spell scroll", "Curse tablet", "Hand of the Ancients", "'Exsanguinate' spell scroll", "Necromantic focus", "'Smoke Cloud' spell scroll", "Ancient magic tablet", "'Animate Dead' spell scroll"],
+				"NPCs": ["Eblis"],
+				"RuneScore": 10
+			},
+			"~|Achievements#Skills|~ Elbis: Religious Iconography": {
+				"Category": ["Archaeology Collections"],
+				"Label": "Archaeology Collections",
+				"Items": ["Apex cap", "Infula robes", "Loarnab rod", "'The Serpent's Fall' carving"],
+				"NPCs": ["Eblis"],
+				"RuneScore": 10
+			},
+			"~|Achievements#Skills|~ Elbis: Urns of the Empire": {
+				"Category": ["Archaeology Collections"],
+				"Label": "Archaeology Collections",
+				"Items": ["Funerary urn of shadow", "Funerary urn of smoke", "Funerary urn of ice", "Funerary urn of blood", "Funerary urn of miasma"],
+				"NPCs": ["Eblis"],
+				"RuneScore": 10
+			},
+			"~|Achievements#Skills|~ Eipy Rreb Dere Voli": {
+				"Category": ["Misc achievements"],
+				"Description": "Cook Thalmund's favourite dish within Thalmund's forge.",
+				"BaseQuest": "Achievements",
+				"Chunks": ["Thalmund's Forge"],
+				"Items": ["Pastry dough", "Pie dish", "Redberries", "Astral rune", "Water rune", "Fire rune"],
+				"Skills": {
+					"Magic": 60,
+					"Cooking": 10
+				},
+				"Tasks": {
+					"~|Lunar Diplomacy|~ Complete the quest": "Quest"
+				},
+				"RuneScore": 25,
+				"Not F2P": true
+			},
+			"~|Achievements#Skills|~ Embrace the Chaos": {
+				"Category": ["Misc achievements"],
+				"Description": "Solve this mystery.",
+				"BaseQuest": "Achievements",
+				"Tasks": {
+					"Archaeology Mystery: ~|Embrace the Chaos|~ Complete the mystery": "Quest"
+				},
+				"RuneScore": 5,
+				"Not F2P": true
+			},
+			"~|Achievements#Skills|~ Empty Children": {
+				"Category": ["Misc achievements"],
+				"Description": "Solve this mystery.",
+				"BaseQuest": "Achievements",
+				"Tasks": {
+					"Archaeology Mystery: ~|Empty Children|~ Complete the mystery": "Quest"
+				},
+				"RuneScore": 15,
+				"Not F2P": true
+			},
+			"~|Achievements#Skills|~ Eyes in Their Stars": {
+				"Category": ["Misc achievements"],
+				"Description": "Solve this mystery.",
+				"BaseQuest": "Achievements",
+				"Tasks": {
+					"Archaeology Mystery: ~|Eyes in Their Stars|~ Complete the mystery": "Quest"
+				},
+				"RuneScore": 5,
+				"Not F2P": true
+			},
+			"~|Achievements#Skills|~ Fall and Rise": {
+				"Category": ["Misc achievements"],
+				"Description": "Solve this mystery.",
+				"BaseQuest": "Achievements",
+				"Tasks": {
+					"Archaeology Mystery: ~|Fall and Rise|~ Complete the mystery": "Quest"
+				},
+				"RuneScore": 10,
+				"Not F2P": true
+			},
+			"~|Achievements#Skills|~ Fallen Angels": {
+				"Category": ["Misc achievements"],
+				"Description": "Solve this mystery.",
+				"BaseQuest": "Achievements",
+				"Tasks": {
+					"Archaeology Mystery: ~|Fallen Angels|~ Complete the mystery": "Quest"
+				},
+				"RuneScore": 10,
+				"Not F2P": true
+			},
+			"~|Achievements#Skills|~ Forge War!": {
+				"Category": ["Misc achievements"],
+				"Description": "Solve this mystery.",
+				"BaseQuest": "Achievements",
+				"Tasks": {
+					"Archaeology Mystery: ~|Forge War!|~ Complete the mystery": "Quest"
+				},
+				"RuneScore": 15,
+				"Not F2P": true
+			},
+			"~|Achievements#Skills|~ Fragmented Memories": {
+				"Category": ["Misc achievements"],
+				"Description": "Solve this mystery.",
+				"BaseQuest": "Achievements",
+				"Tasks": {
+					"Archaeology Mystery: ~|Fragmented Memories|~ Complete the mystery": "Quest"
+				},
+				"RuneScore": 15,
+				"Not F2P": true
+			},
+			"~|Achievements#Skills|~ Free Your Mind": {
+				"Category": ["Misc achievements"],
+				"Description": "Solve this mystery.",
+				"BaseQuest": "Achievements",
+				"Tasks": {
+					"Archaeology Mystery: ~|Free Your Mind|~ Complete the mystery": "Quest"
+				},
+				"RuneScore": 15,
+				"Not F2P": true
+			},
+			"~|Achievements#Skills|~ From Across the Keramos": {
+				"Category": ["Misc achievements"],
+				"Description": "Swish a sweet hoop at Everlight.",
+				"BaseQuest": "Achievements",
+				"Chunks": ["15153"],
+				"Items": ["Gnomeball"],
+				"RuneScore": 10,
+				"Not F2P": true
+			},
+			"~|Achievements#Skills|~ Goblin Generals: Red Rum Relics I": {
+				"Category": ["Archaeology Collections"],
+				"Label": "Archaeology Collections",
+				"Items": ["Ork cleaver sword", "Ogre Kyzaj axe", "Beastkeeper helm", "'Nosorog!' sculpture"],
+				"NPCs": ["General Bentnoze"],
+				"RuneScore": 10
+			},
+			"~|Achievements#Skills|~ Goblin Generals: Red Rum Relics II": {
+				"Category": ["Archaeology Collections"],
+				"Label": "Archaeology Collections",
+				"Items": ["Ourg megahitter", "Ourg tower/goblin cower shield", "'Forged in War' sculpture", "Hobgoblin mansticker"],
+				"NPCs": ["General Bentnoze"],
+				"RuneScore": 10
+			},
+			"~|Achievements#Skills|~ Goblin Generals: Red Rum Relics III": {
+				"Category": ["Archaeology Collections"],
+				"Label": "Archaeology Collections",
+				"Items": ["Kal-i-kra chieftan crown", "Kal-i-kra mace", "Kal-i-kra warhorn", "'Da Boss Man' sculpture"],
+				"NPCs": ["General Bentnoze"],
+				"RuneScore": 10
+			},
+			"~|Achievements#Skills|~ Goblin Generals: Green Gobbo Goodies I": {
+				"Category": ["Archaeology Collections"],
+				"Label": "Archaeology Collections",
+				"Items": ["Ekeleshuun blinder mask", "Narogoshuun 'Hob-da-Gob' ball", "Rekeshuun war tether", "Thorobshuun battle standard", "Yurkolgokh stink grenade"],
+				"NPCs": ["General Wartface"],
+				"RuneScore": 10
+			},
+			"~|Achievements#Skills|~ Goblin Generals: Green Gobbo Goodies II": {
+				"Category": ["Archaeology Collections"],
+				"Label": "Archaeology Collections",
+				"Items": ["High priest crozier", "High priest mitre", "High priest orb", "Idithuun horn ring", "Garagorshuun anchor"],
+				"NPCs": ["General Wartface"],
+				"RuneScore": 10
+			},
+			"~|Achievements#Skills|~ Goblin Generals: Green Gobbo Goodies III": {
+				"Category": ["Archaeology Collections"],
+				"Label": "Archaeology Collections",
+				"Items": ["Dorgeshuun spear", "Huzamogaarb chaos crown", "Saragorgak star crown", "Drogokishuun hook sword", "Horogothgar cooking pot", "'Da Boss Man' sculpture"],
+				"NPCs": ["General Wartface"],
+				"RuneScore": 10
+			},
+			"~|Achievements#Skills|~ Giles: Desperate for Artefacts": {
+				"Category": ["Archaeology Collections"],
+				"Label": "Archaeology Collections",
+				"Chunks": ["16709-2"],
+				"Items": ["Orthenglass"],
+				"Requirements": {
+					"Archaeology": 90
+				},
+				"Tasks": {
+					"~|Desperate Measures|~ Complete the quest": "Quest"
+				},
+				"NPCs": ["Giles"],
+				"RuneScore": 10
+			},
+			"~|Achievements#Skills|~ Goblin Tutorial": {
+				"Category": ["Misc achievements"],
+				"Description": "Smith a bronze dagger from scratch within the Warforge.",
+				"BaseQuest": "Achievements",
+				"Chunks": ["Warforge Tunnels", "Thalmund's Forge"],
+				"RuneScore": 25,
+				"Not F2P": true
+			},
+			"~|Achievements#Skills|~ Hallowed Be...": {
+				"Category": ["Misc achievements"],
+				"Description": "Solve this mystery.",
+				"BaseQuest": "Achievements",
+				"Tasks": {
+					"Archaeology Mystery: ~|Hallowed Be...|~ Complete the mystery": "Quest"
+				},
+				"RuneScore": 20,
+				"Not F2P": true
+			},
+			"~|Achievements#Skills|~ Heart of the Forge": {
+				"Category": ["Misc achievements"],
+				"Description": "Solve this mystery.",
+				"BaseQuest": "Achievements",
+				"Tasks": {
+					"Archaeology Mystery: ~|Heart of the Forge|~ Complete the mystery": "Quest"
+				},
+				"RuneScore": 25,
+				"Not F2P": true
+			},
+			"~|Achievements#Skills|~ Hey, Look! Over Here!": {
+				"Category": ["Misc achievements"],
+				"Description": "Acquire 100% sprite focus five times without losing focus of the time sprite.",
+				"BaseQuest": "Achievements",
+				"Objects": ["AnyExcavationSpot[+]"],
+				"Tasks": {
+					"Complete the ~|Archaeology tutorial|~": "Archaeology"
+				},
+				"RuneScore": 10
+			},
+			"~|Achievements#Skills|~ How Do You Do, Fellow Ghost?": {
+				"Category": ["Misc achievements"],
+				"Description": "Talk to one of the ghostly inhabitants of Kharid-et while wearing a full set of ghostly equipment.",
+				"BaseQuest": "Achievements",
+				"Chunks": ["Kharid-et - Barracks excavation site"],
+				"Tasks": {
+					"~|The Curse of Zaros (miniquest)|~ Complete the miniquest": "Quest"
+				},
+				"RuneScore": 25,
+				"Not F2P": true
+			},
+			"~|Achievements#Skills|~ Howl's Floating Workshop": {
+				"Category": ["Misc achievements"],
+				"Description": "Solve this mystery.",
+				"BaseQuest": "Achievements",
+				"Tasks": {
+					"Archaeology Mystery: ~|Howl's Floating Workshop|~ Complete the mystery": "Quest"
+				},
+				"RuneScore": 20,
+				"Not F2P": true
+			},
+			"~|Achievements#Skills|~ I Am Become Death": {
+				"Category": ["Misc achievements"],
+				"Description": "Solve this mystery.",
+				"BaseQuest": "Achievements",
+				"Tasks": {
+					"Archaeology Mystery: ~|I Am Become Death|~ Complete the mystery": "Quest"
+				},
+				"RuneScore": 15,
+				"Not F2P": true
+			},
+			"~|Achievements#Skills|~ I Am Inevitable": {
+				"Category": ["Misc achievements"],
+				"Description": "Try to repower the war golem arm at Stormguard.",
+				"BaseQuest": "Achievements",
+				"Chunks": ["Stormguard Citadel"],
+				"Items": ["Wingsuit v2", "Sapphire", "Emerald", "Ruby", "Diamond", "Dragonstone", "Onyx"],
+				"RuneScore": 25,
+				"Not F2P": true
+			},
+			"~|Achievements#Skills|~ I Made Dis": {
+				"Category": ["Misc achievements"],
+				"Description": "Use a ritual dagger on the sacrificial altar in the Order of Dis cult area while wearing a full set of Dagon'hai robes.",
+				"BaseQuest": "Achievements",
+				"Chunks": ["Dungeon of Disorder"],
+				"Items": ["Dagon'hai hat", "Dagon'hai robe top", "Dagon'hai robe bottom", "Ritual dagger"],
+				"Skills": {
+					"Defence": 40
+				},
+				"Tasks": {
+					"~|The Hunt for Surok (miniquest)|~ Complete the miniquest": "Quest"
+				},
+				"RuneScore": 25,
+				"Not F2P": true
+			},
+			"~|Achievements#Skills|~ Icarus": {
+				"Category": ["Misc achievements"],
+				"Description": "Fly beyond the limits of Stormguard.",
+				"BaseQuest": "Achievements",
+				"Chunks": ["Stormguard Citadel"],
+				"Items": ["Wingsuit v2"],
+				"RuneScore": 10,
+				"Not F2P": true
+			},
+			"~|Achievements#Skills|~ Into the Forge": {
+				"Category": ["Misc achievements"],
+				"Description": "Solve this mystery.",
+				"BaseQuest": "Achievements",
+				"Tasks": {
+					"Archaeology Mystery: ~|Into the Forge|~ Complete the mystery": "Quest"
+				},
+				"RuneScore": 15,
+				"Not F2P": true
+			},
+			"~|Achievements#Skills|~ Isaura: Zamorakian I": {
+				"Category": ["Archaeology Collections"],
+				"Label": "Archaeology Collections",
+				"Items": ["Hookah pipe", "Opulent wine goblet", "Crest of Dagon", "'Disorder' painting", "Imp mask", "Lesser demon mask", "Greater demon mask", "Order of Dis robes", "Ritual dagger"],
+				"NPCs": ["Isaura"],
+				"RuneScore": 10
+			},
+			"~|Achievements#Skills|~ Isaura: Zamorakian II": {
+				"Category": ["Archaeology Collections"],
+				"Label": "Archaeology Collections",
+				"Items": ["Branding iron", "Manacles", "'The Lake of Fire' painting", "'Lust' metal sculpture", "Chaos star", "Spiked dog collar", "Larupia trophy", "Lion trophy", "She-wolf trophy"],
+				"NPCs": ["Isaura"],
+				"RuneScore": 10
+			},
+			"~|Achievements#Skills|~ Isaura: Zamorakian III": {
+				"Category": ["Archaeology Collections"],
+				"Label": "Archaeology Collections",
+				"Items": ["'Torment' metal sculpture", "'Pandemonium' tapestry", "Hellfire haladie", "Hellfire katar", "Hellfire zaghnal", "'Possession' metal sculpture", "Trishula", "Tsutsaroth piercing"],
+				"NPCs": ["Isaura"],
+				"RuneScore": 10
+			},
+			"~|Achievements#Skills|~ Isaura: Zamorakian IV": {
+				"Category": ["Archaeology Collections"],
+				"Label": "Archaeology Collections",
+				"Items": ["Chaos Elemental trophy", "Virius trophy", "Tsutsaroth helm", "Tsutsaroth pauldron", "Tsutsaroth urumi"],
+				"NPCs": ["Isaura"],
+				"RuneScore": 10
+			},
+			"~|Achievements#Skills|~ Know Thy Measure": {
+				"Category": ["Misc achievements"],
+				"Description": "Solve this mystery.",
+				"BaseQuest": "Achievements",
+				"Tasks": {
+					"Archaeology Mystery: ~|Know Thy Measure|~ Complete the mystery": "Quest"
+				},
+				"RuneScore": 15,
+				"Not F2P": true
+			},
+			"~|Achievements#Skills|~ Leap of Faith": {
+				"Category": ["Misc achievements"],
+				"Description": "Solve this mystery.",
+				"BaseQuest": "Achievements",
+				"Tasks": {
+					"Archaeology Mystery: ~|Leap of Faith|~ Complete the mystery": "Quest"
+				},
+				"RuneScore": 10,
+				"Not F2P": true
+			},
+			"~|Achievements#Skills|~ Light and Shadow": {
+				"Category": ["Misc achievements"],
+				"Description": "Power all the shadow anchors at Kharid-et",
+				"BaseQuest": "Achievements",
+				"Chunks": ["Kharid-et - Barracks excavation site"],
+				"Items": ["Pontifex signet ring", "Pylon battery"],
+				"RuneScore": 25,
+				"Not F2P": true
+			},
+			"~|Achievements#Skills|~ Looting Stars": {
+				"Category": ["Misc achievements"],
+				"Description": "Loot all of the abandoned chests in the Star Lodge",
+				"BaseQuest": "Achievements",
+				"Chunks": ["Star Lodge"],
+				"RuneScore": 10,
+				"Not F2P": true
+			},
+			"~|Achievements#Skills|~ Lowe: Armadylean I": {
+				"Category": ["Archaeology Collections"],
+				"Label": "Archaeology Collections",
+				"Items": ["Ikovian gerege", "Toy glider", "Toy war golem", "Avian song-egg player", "Keshik drum", "Morin khuur", "Aviansie dreamcoat", "Ceremonial plume", "Peacocking parasol"],
+				"NPCs": ["Lowse"],
+				"RuneScore": 10
+			},
+			"~|Achievements#Skills|~ Lowe: Armadylean II": {
+				"Category": ["Archaeology Collections"],
+				"Label": "Archaeology Collections",
+				"Items": ["Hawkeye lens multi-vision scope", "Talon-3 razor wing", "Prototype gravimeter", "Songbird recorder", "Dayguard shield", "Stormguard gerege", "Golem heart", "Golem instruction"],
+				"NPCs": ["Lowse"],
+				"RuneScore": 10
+			},
+			"~|Achievements#Skills|~ Lowe: Armadylean III": {
+				"Category": ["Archaeology Collections"],
+				"Label": "Archaeology Collections",
+				"Items": ["Blackfire lance", "Nightguard shield", "Flat cap", "Night owl flight goggles", "Prototype godbow", "Prototype godstaff", "Prototype godsword", "Chuluu stone", "Quintessence counter", "Spherical astrolabe"],
+				"NPCs": ["Lowse"],
+				"RuneScore": 10
+			},
+			"~|Achievements#Skills|~ Monolithic Power": {
+				"Category": ["Misc achievements"],
+				"Description": "Harness the power of three relics at once",
+				"BaseQuest": "Achievements",
+				"Chunks": ["13364"],
+				"Items": ["Relic[+]x3"],
+				"RuneScore": 20,
+				"Not F2P": true
+			},
+			"~|Achievements#Skills|~ Mysterious City": {
+				"Category": ["Misc achievements"],
+				"Description": "Solve this mystery.",
+				"BaseQuest": "Achievements",
+				"Tasks": {
+					"Archaeology Mystery: ~|Mysterious City|~ Complete the mystery": "Quest"
+				},
+				"RuneScore": 15,
+				"Not F2P": true
+			},
+			"~|Achievements#Skills|~ Myster Solver I": {
+				"Category": ["Misc achievements"],
+				"Description": "Solve 1 of Gielinor's greatest mysteries.",
+				"BaseQuest": "Achievements",
+				"Tasks": {
+					"AnyMystery[+]": "Quest"
+				},
+				"RuneScore": 5
+			},
+			"~|Achievements#Skills|~ Myster Solver II": {
+				"Category": ["Misc achievements"],
+				"Description": "Solve 2 of Gielinor's greatest mysteries.",
+				"BaseQuest": "Achievements",
+				"Tasks": {
+					"AnyMystery[+]x2": "Quest"
+				},
+				"RuneScore": 10
+			},
+			"~|Achievements#Skills|~ Myster Solver III": {
+				"Category": ["Misc achievements"],
+				"Description": "Solve 5 of Gielinor's greatest mysteries.",
+				"BaseQuest": "Achievements",
+				"Tasks": {
+					"AnyMystery[+]x5": "Quest"
+				},
+				"RuneScore": 10,
+				"Not F2P": true
+			},
+			"~|Achievements#Skills|~ Myster Solver IV": {
+				"Category": ["Misc achievements"],
+				"Description": "Solve 10 of Gielinor's greatest mysteries.",
+				"BaseQuest": "Achievements",
+				"Tasks": {
+					"AnyMystery[+]x10": "Quest"
+				},
+				"RuneScore": 15,
+				"Not F2P": true
+			},
+			"~|Achievements#Skills|~ Myster Solver V": {
+				"Category": ["Misc achievements"],
+				"Description": "Solve 15 of Gielinor's greatest mysteries.",
+				"BaseQuest": "Achievements",
+				"Tasks": {
+					"AnyMystery[+]x15": "Quest"
+				},
+				"RuneScore": 25,
+				"Not F2P": true
+			},
+			"~|Achievements#Skills|~ Myster Solver VI": {
+				"Category": ["Misc achievements"],
+				"Description": "Solve 20 of Gielinor's greatest mysteries.",
+				"BaseQuest": "Achievements",
+				"Tasks": {
+					"AnyMystery[+]x20": "Quest"
+				},
+				"RuneScore": 40,
+				"Not F2P": true
+			},
+			"~|Achievements#Skills|~ Myster Solver VII": {
+				"Category": ["Misc achievements"],
+				"Description": "Solve 25 of Gielinor's greatest mysteries.",
+				"BaseQuest": "Achievements",
+				"Tasks": {
+					"AnyMystery[+]x25": "Quest"
+				},
+				"RuneScore": 60,
+				"Not F2P": true
+			},
+			"~|Achievements#Skills|~ Myster Solver VIII": {
+				"Category": ["Misc achievements"],
+				"Description": "Solve 30 of Gielinor's greatest mysteries.",
+				"BaseQuest": "Achievements",
+				"Tasks": {
+					"AnyMystery[+]x30": "Quest"
+				},
+				"RuneScore": 75,
+				"Not F2P": true
+			},
+			"~|Achievements#Skills|~ Neverlight": {
+				"Category": ["Misc achievements"],
+				"Description": "Find out what happens when dark en light meet.",
+				"BaseQuest": "Achievements",
+				"Chunks": ["14898"],
+				"Items": ["Darklight"],
+				"Tasks": {
+					"Archaeology Mystery: ~|The Everlight|~ Complete the mystery": "Quest"
+				},
+				"RuneScore": 25,
+				"Not F2P": true
+			},
+			"~|Achievements#Skills|~ Night Theatre": {
+				"Category": ["Misc achievements"],
+				"Description": "Solve this mystery.",
+				"BaseQuest": "Achievements",
+				"Tasks": {
+					"Archaeology Mystery: ~|Night Theatre|~ Complete the mystery": "Quest"
+				},
+				"RuneScore": 15,
+				"Not F2P": true
+			},
+			"~|Achievements#Skills|~ No Fighting in the Warforge!": {
+				"Category": ["Misc achievements"],
+				"Description": "Start a duel in the Crucible area within the Warforge.",
+				"BaseQuest": "Achievements",
+				"Chunks": ["Warforge Crucible"],
+				"RuneScore": 10,
+				"Not F2P": true
+			},
+			"~|Achievements#Skills|~ No Secrets Left to Steal": {
+				"Category": ["Misc achievements"],
+				"Description": "Restore and claim from the statues of four famous icyene",
+				"BaseQuest": "Achievements",
+				"Chunks": ["14899-1", "14897", "14641-2", "15154"],
+				"Items": ["White marble", "Hallowed lantern", "Everlight harp", "Dominion torch", "Rod of Asclepius"],
+				"Skills": {
+					"Construction": 40
+				},
+				"RuneScore": 10,
+				"Not F2P": true
+			},
+			"~|Achievements#Skills|~ Oops! Wrong Tunnel!": {
+				"Category": ["Misc achievements"],
+				"Description": "Wear a full H.A.M. outfit while entering the Warforge.",
+				"BaseQuest": "Achievements",
+				"Chunks": ["Warforge Crucible"],
+				"Items": ["H.A.M. hood", "H.A.M. shirt", "H.A.M. robe", "H.A.M. gloves", "H.A.M. boots", "H.A.M. cloak", "H.A.M. logo"],
+				"RuneScore": 10,
+				"Not F2P": true
+			},
+			"~|Achievements#Skills|~ Out of the Crucible": {
+				"Category": ["Misc achievements"],
+				"Description": "Solve this mystery.",
+				"BaseQuest": "Achievements",
+				"Tasks": {
+					"Archaeology Mystery: ~|Out of the Crucible|~ Complete the mystery": "Quest"
+				},
+				"RuneScore": 15,
+				"Not F2P": true
+			},
+			"~|Achievements#Skills|~ Plunder Hunter": {
+				"Category": ["Misc achievements"],
+				"Description": "Pick up all of the chests in the Warforge.",
+				"BaseQuest": "Achievements",
+				"Chunks": ["Thalmund's Forge", "Bandos's Sanctum", "Warforge Crucible", "Warforge Tunnels"],
+				"RuneScore": 25,
+				"Not F2P": true
+			},
+			"~|Achievements#Skills|~ Ponti-Nex": {
+				"Category": ["Misc achievements"],
+				"Description": "Pray at the altar in the Kharid-et chapel while wearing a full set of ancient ceremonial robes.",
+				"BaseQuest": "Achievements",
+				"Chunks": ["Kharid-et - Barracks excavation site"],
+				"Items": ["Pontifex signet ring", "Ancient ceremonial mask", "Ancient ceremonial top", "Ancient ceremonial legs", "Ancient ceremonical gloves", "Ancient ceremonial boots"],
+				"RuneScore": 30,
+				"Not F2P": true
+			},
+			"~|Achievements#Skills|~ Prison Break": {
+				"Category": ["Misc achievements"],
+				"Description": "Solve this mystery.",
+				"BaseQuest": "Achievements",
+				"Tasks": {
+					"Archaeology Mystery: ~|Prison Break|~ Complete the mystery": "Quest"
+				},
+				"RuneScore": 5
+			},
+			"~|Achievements#Skills|~ Qualification - Assistant": {
+				"Category": ["Misc achievements"],
+				"Description": "Complete all of the listed achievements and attend the qualification ceremony.",
+				"BaseQuest": "Achievements",
+				"NPCs": ["Acting Guildmaster Reiniger"],
+				"Skills": {
+					"Archaeology": 40
+				},
+				"Tasks": {
+					"Complete the ~|Archaeology tutorial|~": "Archaeology",
+					"Excavate any artifact": "Nonskill",
+					"AnyCollection[+]": "Nonskill",
+					"AnyAssistantMystery[+]": "Quest"
+				},
+				"RuneScore": 10,
+				"Not F2P": true,
+				"NoBoost": true
+			},
+			"~|Achievements#Skills|~ Qualification - Associate": {
+				"Category": ["Misc achievements"],
+				"Description": "Complete all of the listed achievements and attend the qualification ceremony.",
+				"BaseQuest": "Achievements",
+				"NPCs": ["Acting Guildmaster Reiniger"],
+				"Skills": {
+					"Archaeology": 70
+				},
+				"Tasks": {
+					"Complete the ~|Archaeology tutorial|~": "Archaeology",
+					"Excavate any artifact": "Nonskill",
+					"AnyCollection[+]x5": "Nonskill",
+					"AnyMystery[+]x10": "Quest"
+				},
+				"RuneScore": 25,
+				"Not F2P": true,
+				"NoBoost": true
+			},
+			"~|Achievements#Skills|~ Qualification - Intern": {
+				"Category": ["Misc achievements"],
+				"Description": "Complete the Archaeology tutorial.",
+				"BaseQuest": "Achievements",
+				"NPCs": ["Acting Guildmaster Reiniger"],
+				"Tasks": {
+					"Complete the ~|Archaeology tutorial|~": "Archaeology"
+				},
+				"RuneScore": 5,
+				"NoBoost": true
+			},
+			"~|Achievements#Skills|~ Qualification - Professor": {
+				"Category": ["Misc achievements"],
+				"Description": "Complete all of the listed achievements and attend the qualification ceremony.",
+				"BaseQuest": "Achievements",
+				"NPCs": ["Acting Guildmaster Reiniger"],
+				"Skills": {
+					"Archaeology": 90
+				},
+				"Tasks": {
+					"Complete the ~|Archaeology tutorial|~": "Archaeology",
+					"Excavate any artifact": "Nonskill",
+					"AnyCollection[+]x20": "Nonskill",
+					"AnyMystery[+]x15": "Quest"
+				},
+				"RuneScore": 50,
+				"Not F2P": true,
+				"NoBoost": true
+			},
+			"~|Achievements#Skills|~ Queen of the Icyene": {
+				"Category": ["Misc achievements"],
+				"Description": "Solve this mystery.",
+				"BaseQuest": "Achievements",
+				"Tasks": {
+					"Archaeology Mystery: ~|Queen of the Icyene|~ Complete the mystery": "Quest"
+				},
+				"RuneScore": 10,
+				"Not F2P": true
+			},
+			"~|Achievements#Skills|~ Relic-weary": {
+				"Category": ["Misc achievements", "No RunScore"],
+				"Description": "Unlock all relic powers at the monolith.",
+				"BaseQuest": "Achievements",
+				"Chunks": ["13364"],
+				"Items": ["Relic[+]x32"],
+				"Not F2P": true
+			},
+			"~|Achievements#Skills|~ Secrets of the Inquisition": {
+				"Category": ["Misc achievements"],
+				"Description": "Solve this mystery.",
+				"BaseQuest": "Achievements",
+				"Tasks": {
+					"Archaeology Mystery: ~|Secrets of the Inquisition|~ Complete the mystery": "Quest"
+				},
+				"RuneScore": 15,
+				"Not F2P": true
+			},
+			"~|Achievements#Skills|~ Secrets of the Monolith": {
+				"Category": ["Misc achievements"],
+				"Description": "Solve this mystery.",
+				"BaseQuest": "Achievements",
+				"Tasks": {
+					"Archaeology Mystery: ~|Secrets of the Monolith|~ Complete the mystery": "Quest"
+				},
+				"RuneScore": 5,
+				"Not F2P": true
+			},
+			"~|Achievements#Skills|~ Shadow Fall": {
+				"Category": ["Misc achievements"],
+				"Description": "Solve this mystery.",
+				"BaseQuest": "Achievements",
+				"Tasks": {
+					"Archaeology Mystery: ~|Shadow Fall|~ Complete the mystery": "Quest"
+				},
+				"RuneScore": 20,
+				"Not F2P": true
+			},
+			"~|Achievements#Skills|~ Sharrigan: Dragonkin I": {
+				"Category": ["Archaeology Collections"],
+				"Label": "Archaeology Collections",
+				"Items": ["Pasaha", "Ritual bell", "Kilaya", "Vazara", "Death mask", "Dragonkin calendar", "Dragonkin staff"],
+				"NPCs": ["Sharrigan"],
+				"RuneScore": 10
+			},
+			"~|Achievements#Skills|~ Sharrigan: Dragonkin II": {
+				"Category": ["Archaeology Collections"],
+				"Label": "Archaeology Collections",
+				"Items": ["Dragon scalpel", "Protective goggles", "Dragon burner", "Orthenglass flask"],
+				"NPCs": ["Sharrigan"],
+				"RuneScore": 10
+			},
+			"~|Achievements#Skills|~ Sharrigan: Dragonkin III": {
+				"Category": ["Archaeology Collections"],
+				"Label": "Archaeology Collections",
+				"Items": ["Meditation pipe", "Personal totem", "Singing bowl", "Lingam stone", "Master control"],
+				"NPCs": ["Sharrigan"],
+				"RuneScore": 10
+			},
+			"~|Achievements#Skills|~ Sharrigan: Dragonkin IV": {
+				"Category": ["Archaeology Collections"],
+				"Label": "Archaeology Collections",
+				"Items": ["Xolo hard hat", "Xolo pickaxe", "Xolo shield", "Xolo spear", "Gold dish", "'Raksha' idol"],
+				"NPCs": ["Sharrigan"],
+				"RuneScore": 10
+			},
+			"~|Achievements#Skills|~ Sharrigan: Dragonkin V": {
+				"Category": ["Archaeology Collections"],
+				"Label": "Archaeology Collections",
+			    "Items": ["Castle gatestone", "Engraved ring of kinship", "Exploratory totem", "Excavator portal mine"],
+			    "NPCs": ["Sharrigan"],
+				"RuneScore": 10
+			},
+			"~|Achievements#Skills|~ Sharrigan: Dragonkin VI": {
+				"Category": ["Archaeology Collections"],
+				"Label": "Archaeology Collections",
+			    "Items": ["Storage totem", "Plant seed satchel", "Snuff box", "Spent summoning charm", "'Friendship bracelet'", "Homely totem"],
+			    "NPCs": ["Sharrigan"],
+				"Output": "Pastkeeper's tapestry",
+				"RuneScore": 10
+			},
+			"~|Achievements#Skills|~ Sharrigan: Dragonkin VII": {
+				"Category": ["Archaeology Collections"],
+				"Label": "Archaeology Collections",
+			    "Items": ["Projection attuner", "Golden projection 'needle'", "Comfort gatestone", "Halak's cube", "Portable portal generator", "Warped trinket"],
+			    "NPCs": ["Sharrigan"],
+				"RuneScore": 10
+			},
+			"~|Achievements#Skills|~ Sir Atcha: Saradominist I": {
+				"Category": ["Archaeology Collections"],
+				"Label": "Archaeology Collections",
+				"Items": ["'Frying pan'", "Hallowed lantern", "Ceremonial unicorn ornament", "Ceremonial unicorn saddle", "Everlight harp", "Everlight trumpet", "Everlight violin", "Folded-arm figurine (female)", "Folded-arm figurine (male)"],
+				"NPCs": ["Sir Atcha"],
+				"RuneScore": 10
+			},
+			"~|Achievements#Skills|~ Sir Atcha: Saradominist II": {
+				"Category": ["Archaeology Collections"],
+				"Label": "Archaeology Collections",
+				"Items": ["Dominion discus", "Dominion javelin", "Dominion pelte shield", "Bronze Dominion medal", "Silver Dominion medal", "Dominion torch", "Decorative vase", "Kantharos cup", "Patera bowl"],
+				"NPCs": ["Sir Atcha"],
+				"RuneScore": 10
+			},
+			"~|Achievements#Skills|~ Sir Atcha: Saradominist III": {
+				"Category": ["Archaeology Collections"],
+				"Label": "Archaeology Collections",
+				"Items": ["Dominarian device", "Fishing trident", "Amphora", "Rod of Asclepius", "Kopis dagger", "Xiphos short sword"],
+				"NPCs": ["Sir Atcha"],
+				"RuneScore": 10
+			},
+			"~|Achievements#Skills|~ Sir Atcha: Saradominist IV": {
+				"Category": ["Archaeology Collections"],
+				"Label": "Archaeology Collections",
+				"Items": ["'The Pride of Padosan' painting", "'Hallowed Be the Everlight' painting", "'The Lord of Light' painting", "'The Enlightened Soul' scroll", "'The Eudoxian Elements' tablet", "Doru spear", "Kontos lance"],
+				"NPCs": ["Sir Atcha"],
+				"RuneScore": 10
+			},
+			"~|Achievements#Skills|~ Soils of the Past": {
+				"Category": ["Misc achievements"],
+				"Description": "Own the Master Archaeologist's outfit.",
+				"BaseQuest": "Achievements",
+				"Items": ["Master archaeologist's hat", "Master archaeologist's jacket", "Master archaeologist's trousers", "Master archaeologist's gloves", "Master archaeologist's boots"],
+				"RuneScore": 10,
+				"Not F2P": true
+			},
+			"~|Achievements#Skills|~ Soran: Zarosian I": {
+				"Category": ["Archaeology Collections"],
+				"Label": "Archaeology Collections",
+				"Items": ["Venator dagger", "Venator light crossbow", "Primis Elementis standard", "Legionary gladius", "Legionary square shield", "Zaros effigy", "Zarosian training dummy", "Legatus Maximus figurine", "'Solem in Umbra' painting"],
+				"NPCs": ["Soran, Emissary of Zaros"],
+				"RuneScore": 10
+			},
+			"~|Achievements#Skills|~ Soran: Zarosian II": {
+				"Category": ["Archaeology Collections"],
+				"Label": "Archaeology Collections",
+				"Items": ["Ancient timepiece", "Legatus pendant", "'Incite Fear' spell scroll", "Pontifex signet ring", "Ceremonial mace", "Pontifex Maximus figurine", "'Consensus ad Idem' painting", "Pontifex censer", "Pontifex crozier", "Pontifex mitre"],
+				"NPCs": ["Soran, Emissary of Zaros"],
+				"RuneScore": 10
+			},
+			"~|Achievements#Skills|~ Soran: Zarosian III": {
+				"Category": ["Archaeology Collections"],
+				"Label": "Archaeology Collections",
+				"Items": ["'Exsanguinate' spell scroll", "Necromantic focus", "Zarosian ewer", "Zarosian stein", "'Smoke Cloud' spell scroll", "Vigorem vial", "Ancient magic tablet", "'Animate Dead' spell scroll", "Portable phylactery"],
+				"NPCs": ["Soran, Emissary of Zaros"],
+				"RuneScore": 10
+			},
+			"~|Achievements#Skills|~ Soran: Zarosian IV": {
+				"Category": ["Archaeology Collections"],
+				"Label": "Archaeology Collections",
+				"Items": ["Praetorian hood", "Praetorian robes", "Praetorian staff", "Ancient globe", "Battle plans", "'Prima Legio' painting"],
+				"NPCs": ["Soran, Emissary of Zaros"],
+				"RuneScore": 10
+			},
+			"~|Achievements#Skills|~ Stick It to Da Boss Man": {
+				"Category": ["Misc achievements"],
+				"Description": "Use a Dorgeshuun spear on Bandos's throne.",
+				"BaseQuest": "Achievements",
+				"Chunks": ["Warforge Crucible"],
+				"Items": ["Dorgeshuun spear"],
+				"RuneScore": 10,
+				"Not F2P": true
+			},
+			"~|Achievements#Skills|~ Superhot": {
+				"Category": ["Misc achievements"],
+				"Description": "Excavate in the Infernal Source while having the Superheat Form curse active.",
+				"BaseQuest": "Achievements",
+				"Chunks": ["Infernal Source"],
+				"Skills": {
+					"Prayer": 91
+				},
+				"Tasks": {
+					"~|The Light Within|~ Complete the quest": "Quest"
+				},
+				"RuneScore": 25,
+				"Not F2P": true
+			},
+			"~|Achievements#Skills|~ Tasty Pastry": {
+				"Category": ["Misc achievements"],
+				"Description": "Give Thurgo a redberry pie in the Warforge.",
+				"BaseQuest": "Achievements",
+				"Chunks": ["Thalmund's Forge"],
+				"Items": ["Redberry pie"],
+				"RuneScore": 10,
+				"Not F2P": true
+			},
+			"~|Achievements#Skills|~ Teacher's Pet": {
+				"Category": ["Misc achievements"],
+				"Description": "Bring Helen the perfect cup of tea at the Archaeology campus",
+				"BaseQuest": "Achievements",
+				"Chunks": ["13364"],
+				"Items": ["Cup of soil tea"],
+				"RuneScore": 5,
+				"Not F2P": true
+			},
+			"~|Achievements#Skills|~ Teleport Node On": {
+				"Category": ["Misc achievements"],
+				"Description": "Solve this mystery.",
+				"BaseQuest": "Achievements",
+				"Tasks": {
+					"Archaeology Mystery: ~|Teleport Node On|~ Complete the mystery": "Quest"
+				},
+				"RuneScore": 15,
+				"Not F2P": true
+			},
+			"~|Achievements#Skills|~ That's Not How it Works": {
+				"Category": ["Misc achievements"],
+				"Description": "Experiment with one of Howl's prototype weapons.",
+				"BaseQuest": "Achievements",
+				"Items": ["Prototype godsword (damaged)", "Armadyl hilt"],
+				"RuneScore": 10,
+				"Not F2P": true
+			},
+			"~|Achievements#Skills|~ The Contributor VIII": {
+				"Category": ["Misc achievements"],
+				"Description": "Contribute all items to any collection 200 times.",
+				"BaseQuest": "Achievements",
+				"Skills": {
+					"AnyCollection[+]": "Nonskill"
+				},
+				"RuneScore": 245,
+				"Not F2P": true
+			},
+			"~|Achievements#Skills|~ The Cult of Orcus": {
+				"Category": ["Misc achievements"],
+				"Description": "Solve this mystery.",
+				"BaseQuest": "Achievements",
+				"Tasks": {
+					"Archaeology Mystery: ~|The Cult of Orcus|~ Complete the mystery": "Quest"
+				},
+				"RuneScore": 15,
+				"Not F2P": true
+			},
+			"~|Achievements#Skills|~ The Discoverer X": {
+				"Category": ["Misc achievements"],
+				"Description": "Excavate 2,500 damaged artefacts.",
+				"BaseQuest": "Achievements",
+				"Skills": {
+					"Excavate any artifact": "Nonskill"
+				},
+				"RuneScore": 265
+			},
+			"~|Achievements#Skills|~ The Donator V": {
+				"Category": ["Misc achievements"],
+				"Description": "Donate 250 artefacts to the museum.",
+				"BaseQuest": "Achievements",
+				"Skills": {
+					"Excavate any artifact": "Nonskill"
+				},
+				"RuneScore": 105
+			},
+			"~|Achievements#Skills|~ The Dour of Bable": {
+				"Category": ["Misc achievements"],
+				"Description": "Solve this mystery.",
+				"BaseQuest": "Achievements",
+				"Tasks": {
+					"Archaeology Mystery: ~|The Dour of Bable|~ Complete the mystery": "Quest"
+				},
+				"RuneScore": 15,
+				"Not F2P": true
+			},
+			"~|Achievements#Skills|~ The Epic of Hebe": {
+				"Category": ["Misc achievements"],
+				"Description": "Solve this mystery.",
+				"BaseQuest": "Achievements",
+				"Tasks": {
+					"Archaeology Mystery: ~|The Epic of Hebe|~ Complete the mystery": "Quest"
+				},
+				"RuneScore": 15,
+				"Not F2P": true
+			},
+			"~|Achievements#Skills|~ The Everlight": {
+				"Category": ["Misc achievements"],
+				"Description": "Solve this mystery.",
+				"BaseQuest": "Achievements",
+				"Tasks": {
+					"Archaeology Mystery: ~|The Everlight|~ Complete the mystery": "Quest"
+				},
+				"RuneScore": 25,
+				"Not F2P": true
+			},
+			"~|Achievements#Skills|~ The Feast and the Famine": {
+				"Category": ["Misc achievements"],
+				"Description": "Attempt to be funny and show a primal feast to someone who won't appreciate it at Stormguard",
+				"BaseQuest": "Achievements",
+				"Chunks": ["Stormguard Citadel"],
+				"Items": ["Primal feast"],
+				"RuneScore": 10,
+				"Not F2P": true
+			},
+			"~|Achievements#Skills|~ The First Commander": {
+				"Category": ["Misc achievements"],
+				"Description": "Solve this mystery.",
+				"BaseQuest": "Achievements",
+				"Tasks": {
+					"Archaeology Mystery: ~|The First Commander|~ Complete the mystery": "Quest"
+				},
+				"RuneScore": 15,
+				"Not F2P": true
+			},
+			"~|Achievements#Skills|~ The Forgotten Prisoner": {
+				"Category": ["Misc achievements"],
+				"Description": "Solve this mystery.",
+				"BaseQuest": "Achievements",
+				"Tasks": {
+					"Archaeology Mystery: ~|The Forgotten Prisoner|~ Complete the mystery": "Quest"
+				},
+				"RuneScore": 10,
+				"Not F2P": true
+			},
+			"~|Achievements#Skills|~ The Researcher VII": {
+				"Category": ["Misc achievements", "Timegated"],
+				"Description": "Send your research team out on field studies for 1,440 hours.",
+				"BaseQuest": "Achievements",
+				"Chunks": ["13364"],
+				"Skills": {
+					"Become an ~|archaeology assistant|~": "Archaeology"
+				},
+				"RuneScore": 125,
+				"Not F2P": true
+			},
+			"~|Achievements#Skills|~ The Restorer X": {
+				"Category": ["Misc achievements"],
+				"Description": "Restore 2,500 damaged artefacts.",
+				"BaseQuest": "Achievements",
+				"Skills": {
+					"Excavate any artifact": "Nonskill"
+				},
+				"RuneScore": 265
+			},
+			"~|Achievements#Skills|~ The Seeker's Job": {
+				"Category": ["Misc achievements"],
+				"Description": "Catch the golden butterfly",
+				"BaseQuest": "Achievements",
+				"Chunks": ["14898"],
+				"Skills": {
+					"Hunter": 6
+				},
+				"RuneScore": 20,
+				"Not F2P": true
+			},
+			"~|Achievements#Skills|~ The Spy Who Loved Metal": {
+				"Category": ["Misc achievements"],
+				"Description": "Solve this mystery.",
+				"BaseQuest": "Achievements",
+				"Tasks": {
+					"Archaeology Mystery: ~|The Spy Who Loved Metal|~ Complete the mystery": "Quest"
+				},
+				"RuneScore": 15,
+				"Not F2P": true
+			},
+			"~|Achievements#Skills|~ The Vault of Shadows": {
+				"Category": ["Misc achievements"],
+				"Description": "Solve this mystery.",
+				"BaseQuest": "Achievements",
+				"Tasks": {
+					"Archaeology Mystery: ~|The Vault of Shadows (mystery)|~ Complete the mystery": "Quest"
+				},
+				"RuneScore": 25,
+				"Not F2P": true
+			},
+			"~|Achievements#Skills|~ This One Time...": {
+				"Category": ["Misc achievements"],
+				"Description": "Conduct a musical performance within the amphitheatre at Everlight",
+				"BaseQuest": "Achievements",
+				"Chunks": ["14899-1"],
+				"Items": ["Instrument[+]"],
+				"RuneScore": 25,
+				"Not F2P": true
+			},
+			"~|Achievements#Skills|~ Time Served": {
+				"Category": ["Misc achievements"],
+				"Description": "Solve this mystery.",
+				"BaseQuest": "Achievements",
+				"Tasks": {
+					"Archaeology Mystery: ~|Time Served|~ Complete the mystery": "Quest"
+				},
+				"RuneScore": 10,
+				"Not F2P": true
+			},
+			"~|Achievements#Skills|~ Velucia: Museum - Zamorakian I": {
+				"Category": ["Archaeology Collections"],
+				"Label": "Archaeology Collections",
+				"Items": ["Hookah pipe", "Opulent wine goblet", "Crest of Dagon", "'Disorder' painting", "Imp mask", "Lesser demon mask", "Greater demon mask", "Order of Dis robes", "Ritual dagger"],
+				"NPCs": ["Velucia"],
+				"RuneScore": 10
+			},
+			"~|Achievements#Skills|~ Velucia: Museum - Armadylean I": {
+				"Category": ["Archaeology Collections"],
+				"Label": "Archaeology Collections",
+				"Items": ["Ikovian gerege", "Toy glider", "Toy war golem", "Avian song-egg player", "Keshik drum", "Morin khuur", "Aviansie dreamcoat", "Ceremonial plume", "Peacocking parasol"],
+				"NPCs": ["Velucia"],
+				"RuneScore": 10
+			},
+			"~|Achievements#Skills|~ Velucia: Museum - Armadylean II": {
+				"Category": ["Archaeology Collections"],
+				"Label": "Archaeology Collections",
+				"Items": ["Hawkeye lens multi-vision scope", "Talon-3 razor wing", "Prototype gravimeter", "Songbird recorder", "Dayguard shield", "Stormguard gerege", "Golem heart", "Golem instruction"],
+				"NPCs": ["Velucia"],
+				"RuneScore": 10
+			},
+			"~|Achievements#Skills|~ Velucia: Museum - Armadylean III": {
+				"Category": ["Archaeology Collections"],
+				"Label": "Archaeology Collections",
+				"Items": ["Blackfire lance", "Nightguard shield", "Flat cap", "Night owl flight goggles", "Prototype godbow", "Prototype godstaff", "Prototype godsword", "Chuluu stone", "Quintessence counter", "Spherical astrolabe"],
+				"NPCs": ["Velucia"],
+				"RuneScore": 10
+			},
+			"~|Achievements#Skills|~ Velucia: Museum - Bandosian I": {
+				"Category": ["Archaeology Collections"],
+				"Label": "Archaeology Collections",
+				"Items": ["Ekeleshuun blinder mask", "Narogoshuun 'Hob-da-Gob' ball", "Rekeshuun war tether", "Ogre Kyzaj axe", "Ork cleaver sword", "Thorobshuun battle standard", "Yurkolgokh stink grenade", "High priest crozier", "High priest mitre", "High priest orb"],
+				"NPCs": ["Velucia"],
+				"RuneScore": 10
+			},
+			"~|Achievements#Skills|~ Velucia: Museum - Bandosian II": {
+				"Category": ["Archaeology Collections"],
+				"Label": "Archaeology Collections",
+				"Items": ["Beastkeeper helm", "Idithuun horn ring", "'Nosorog!' sculpture", "Ourg megahitter", "Ourg tower/goblin cower shield", "Garagorshuun anchor", "Dorgeshuun spear", "'Forged in War' sculpture"],
+				"NPCs": ["Velucia"],
+				"RuneScore": 10
+			},
+			"~|Achievements#Skills|~ Velucia: Museum - Bandosian III": {
+				"Category": ["Archaeology Collections"],
+				"Label": "Archaeology Collections",
+				"Items": ["Huzamogaarb chaos crown", "Saragorgak star crown", "Drogokishuun hook sword", "Hobgoblin mansticker", "Kal-i-kra chieftan crown", "Kal-i-kra mace", "Kal-i-kra warhorn", "'Da Boss Man' sculpture", "Horogothgar cooking pot"],
+				"NPCs": ["Velucia"],
+				"RuneScore": 10
+			},
+			"~|Achievements#Skills|~ Velucia: Museum - Dragonkin I": {
+				"Category": ["Archaeology Collections"],
+				"Label": "Archaeology Collections",
+				"Items": ["Pasaha", "Ritual bell", "Kilaya", "Vazara", "Death mask", "Dragonkin calendar", "Dragonkin staff"],
+				"NPCs": ["Velucia"],
+				"RuneScore": 10
+			},
+			"~|Achievements#Skills|~ Velucia: Museum - Dragonkin II": {
+				"Category": ["Archaeology Collections"],
+				"Label": "Archaeology Collections",
+				"Items": ["Dragon scalpel", "Protective goggles", "Dragon burner", "Orthenglass flask"],
+				"NPCs": ["Velucia"],
+				"RuneScore": 10
+			},
+			"~|Achievements#Skills|~ Velucia: Museum - Dragonkin III": {
+				"Category": ["Archaeology Collections"],
+				"Label": "Archaeology Collections",
+				"Items": ["Meditation pipe", "Personal totem", "Singing bowl", "Lingam stone", "Master control"],
+				"NPCs": ["Velucia"],
+				"RuneScore": 10
+			},
+			"~|Achievements#Skills|~ Velucia: Museum - Dragonkin IV":  {
+				"Category": ["Archaeology Collections"],
+				"Label": "Archaeology Collections",
+			    "Items": ["Xolo hard hat", "Xolo pickaxe", "Xolo shield", "Xolo spear", "Gold dish", "'Raksha' idol"],
+			    "NPCs": ["Velucia"],
+				"RuneScore": 10
+			},
+			"~|Achievements#Skills|~ Velucia: Museum - Dragonkin V":  {
+				"Category": ["Archaeology Collections"],
+				"Label": "Archaeology Collections",
+			    "Items": ["Castle gatestone", "Engraved ring of kinship", "Exploratory totem", "Excavator portal mine"],
+			    "NPCs": ["Velucia"],
+				"RuneScore": 10
+			},
+			"~|Achievements#Skills|~ Velucia: Museum - Dragonkin VI":  {
+				"Category": ["Archaeology Collections"],
+				"Label": "Archaeology Collections",
+			    "Items": ["Storage totem", "Plant seed satchel", "Snuff box", "Spent summoning charm", "'Friendship bracelet'", "Homely totem"],
+			    "NPCs": ["Velucia"],
+				"RuneScore": 10
+			},
+			"~|Achievements#Skills|~ Velucia: Museum - Dragonkin VII":  {
+				"Category": ["Archaeology Collections"],
+				"Label": "Archaeology Collections",
+			    "Items": ["Projection attuner", "Golden projection 'needle'", "Comfort gatestone", "Halak's cube", "Portable portal generator", "Warped trinket"],
+			    "NPCs": ["Velucia"],
+				"RuneScore": 10
+			},
+			"~|Achievements#Skills|~ Velucia: Museum - Saradominist I": {
+				"Category": ["Archaeology Collections"],
+				"Label": "Archaeology Collections",
+				"Items": ["'Frying pan'", "Hallowed lantern", "Ceremonial unicorn ornament", "Ceremonial unicorn saddle", "Everlight harp", "Everlight trumpet", "Everlight violin", "Folded-arm figurine (female)", "Folded-arm figurine (male)"],
+				"NPCs": ["Velucia"],
+				"RuneScore": 10
+			},
+			"~|Achievements#Skills|~ Velucia: Museum - Saradominist II": {
+				"Category": ["Archaeology Collections"],
+				"Label": "Archaeology Collections",
+				"Items": ["Dominion discus", "Dominion javelin", "Dominion pelte shield", "Bronze Dominion medal", "Silver Dominion medal", "Dominion torch", "Decorative vase", "Kantharos cup", "Patera bowl"],
+				"NPCs": ["Velucia"],
+				"RuneScore": 10
+			},
+			"~|Achievements#Skills|~ Velucia: Museum - Saradominist III": {
+				"Category": ["Archaeology Collections"],
+				"Label": "Archaeology Collections",
+				"Items": ["Dominarian device", "Fishing trident", "Amphora", "Rod of Asclepius", "Kopis dagger", "Xiphos short sword"],
+				"NPCs": ["Velucia"],
+				"RuneScore": 10
+			},
+			"~|Achievements#Skills|~ Velucia: Museum - Saradominist IV": {
+				"Category": ["Archaeology Collections"],
+				"Label": "Archaeology Collections",
+				"Items": ["'The Pride of Padosan' painting", "'Hallowed Be the Everlight' painting", "'The Lord of Light' painting", "'The Enlightened Soul' scroll", "'The Eudoxian Elements' tablet", "Doru spear", "Kontos lance"],
+				"NPCs": ["Velucia"],
+				"RuneScore": 10
+			},
+			"~|Achievements#Skills|~ Velucia: Museum - Zamorakian II": {
+				"Category": ["Archaeology Collections"],
+				"Label": "Archaeology Collections",
+				"Items": ["Branding iron", "Manacles", "'The Lake of Fire' painting", "'Lust' metal sculpture", "Chaos star", "Spiked dog collar", "Larupia trophy", "Lion trophy", "She-wolf trophy"],
+				"NPCs": ["Velucia"],
+				"RuneScore": 10
+			},
+			"~|Achievements#Skills|~ Velucia: Museum - Zamorakian III": {
+				"Category": ["Archaeology Collections"],
+				"Label": "Archaeology Collections",
+				"Items": ["'Torment' metal sculpture", "'Pandemonium' tapestry", "Hellfire haladie", "Hellfire katar", "Hellfire zaghnal", "'Possession' metal sculpture", "Trishula", "Tsutsaroth piercing"],
+				"NPCs": ["Velucia"],
+				"RuneScore": 10
+			},
+			"~|Achievements#Skills|~ Velucia: Museum - Zamorakian IV": {
+				"Category": ["Archaeology Collections"],
+				"Label": "Archaeology Collections",
+				"Items": ["Chaos Elemental trophy", "Virius trophy", "Tsutsaroth helm", "Tsutsaroth pauldron", "Tsutsaroth urumi"],
+				"NPCs": ["Velucia"],
+				"RuneScore": 10
+			},
+			"~|Achievements#Skills|~ Velucia: Museum - Zarosian I": {
+				"Category": ["Archaeology Collections"],
+				"Label": "Archaeology Collections",
+				"Items": ["Venator dagger", "Venator light crossbow", "Primis Elementis standard", "Legionary gladius", "Legionary square shield", "Zaros effigy", "Zarosian training dummy", "Legatus Maximus figurine", "'Solem in Umbra' painting"],
+				"NPCs": ["Velucia"],
+				"RuneScore": 10
+			},
+			"~|Achievements#Skills|~ Velucia: Museum - Zarosian II": {
+				"Category": ["Archaeology Collections"],
+				"Label": "Archaeology Collections",
+				"Items": ["Ancient timepiece", "Legatus pendant", "'Incite Fear' spell scroll", "Pontifex signet ring", "Ceremonial mace", "Pontifex Maximus figurine", "'Consensus ad Idem' painting", "Pontifex censer", "Pontifex crozier", "Pontifex mitre"],
+				"NPCs": ["Velucia"],
+				"RuneScore": 10
+			},
+			"~|Achievements#Skills|~ Velucia: Museum - Zarosian III": {
+				"Category": ["Archaeology Collections"],
+				"Label": "Archaeology Collections",
+				"Items": ["'Exsanguinate' spell scroll", "Necromantic focus", "Zarosian ewer", "Zarosian stein", "'Smoke Cloud' spell scroll", "Vigorem vial", "Ancient magic tablet", "'Animate Dead' spell scroll", "Portable phylactery"],
+				"NPCs": ["Velucia"],
+				"RuneScore": 10
+			},
+			"~|Achievements#Skills|~ Velucia: Museum - Zarosian IV": {
+				"Category": ["Archaeology Collections"],
+				"Label": "Archaeology Collections",
+				"Items": ["Praetorian hood", "Praetorian robes", "Praetorian staff", "Ancient globe", "Battle plans", "'Prima Legio' painting"],
+				"NPCs": ["Velucia"],
+				"RuneScore": 10
+			},
+			"~|Achievements#Skills|~ Velucia: Museum - Zarosian V": {
+				"Category": ["Archaeology Collections"],
+				"Label": "Archaeology Collections",
+				"Items": ["Apex cap", "Curse tablet", "Funerary urn of shadow", "Infula robes", "Funerary urn of smoke", "Hand of the Ancients"],
+				"NPCs": ["Velucia"],
+				"RuneScore": 10
+			},
+			"~|Achievements#Skills|~ Velucia: Museum - Zarosian VI": {
+				"Category": ["Archaeology Collections"],
+				"Label": "Archaeology Collections",
+				"Items": ["Decorative amphora", "Funerary urn of ice", "Loarnab rod", "Inquisitor's ceremonial armour", "Inquisitor's ceremonial mask", "Inquisitor's seal"],
+				"NPCs": ["Velucia"],
+				"RuneScore": 10
+			},
+			"~|Achievements#Skills|~ Velucia: Museum - Zarosian VII": {
+				"Category": ["Archaeology Collections"],
+				"Label": "Archaeology Collections",
+				"Items": ["Gladiator helmet", "Gladiator sword", "Funerary urn of blood", "Funerary urn of miasma", "Model chariot", "'The Serpent's Fall' carving"],
+				"NPCs": ["Velucia"],
+				"RuneScore": 10
+			},
+			"~|Achievements#Skills|~ Warm Glow": {
+				"Category": ["Misc achievements"],
+				"Description": "Excavate at Kharid-et whilst the pylons are active.",
+				"BaseQuest": "Achievements",
+				"Chunks": ["Kharid-et - Barracks excavation site"],
+				"RuneScore": 10,
+				"Not F2P": true
+			},
+			"~|Achievements#Skills|~ Who's a Bad Boy?": {
+				"Category": ["Misc achievements"],
+				"Description": "Adorn a hellhound with some fabulously retro infernal fashion",
+				"BaseQuest": "Achievements",
+				"Monsters": ["Hellhound"],
+				"Items": ["Spiked dog collar"],
+				"RuneScore": 25,
+				"Not F2P": true
+			},
+			"~|Achievements#Skills|~ Whoa, Double Chaos": {
+				"Category": ["Misc achievements"],
+				"Description": "Use one of the chaos portals while wearing a full set of chaos equipment.",
+				"BaseQuest": "Achievements",
+				"Chunks": ["Infernal Source"],
+				"Items": ["Chaos helmet", "Chaos body", "Chaos shield", "Chaos gloves", "Chaos boots"],
+				"Skills": {
+					"Defence": 50
+				},
+				"RuneScore": 10,
+				"Not F2P": true
+			},
+			"~|Achievements#Skills|~ Wing Out": {
+				"Category": ["Misc achievements"],
+				"Description": "Solve this mystery.",
+				"BaseQuest": "Achievements",
+				"Tasks": {
+					"Archaeology Mystery: ~|Wing Out|~ Complete the mystery": "Quest"
+				},
+				"RuneScore": 15,
+				"Not F2P": true
+			},
+			"~|Achievements#Skills|~ Wise Old Man: Hat Hoarder": {
+				"Category": ["Archaeology Collections"],
+				"Label": "Archaeology Collections",
+				"Items": ["Lesser demon mask", "Greater demon mask", "Ceremonial unicorn ornament", "Pontifex mitre", "Saragorgak star crown", "Kal-i-kra chieftan crown", "Tsutsaroth helm"],
+				"NPCs": ["Wise Old Man"],
+				"RuneScore": 10
+			},
+			"~|Achievements#Skills|~ Wise Old Man: Hat Problem": {
+				"Category": ["Archaeology Collections"],
+				"Label": "Archaeology Collections",
+				"Items": ["Imp mask", "Ekeleshuun blinder mask", "High priest mitre", "Beastkeeper helm", "Huzamogaarb chaos crown", "Flat cap", "Praetorian hood"],
+				"NPCs": ["Wise Old Man"],
+				"RuneScore": 10
+			},
+			"~|Achievements#Skills|~ Wise Old Man: Knowledge is Power": {
+				"Category": ["Archaeology Collections"],
+				"Label": "Archaeology Collections",
+				"Items": ["Crest of Dagon", "Ikovian gerege", "Necromantic focus", "Golem instruction", "'The Enlightened Soul' scroll", "'The Eudoxian Elements' tablet", "'Da Boss Man' sculpture"],
+				"NPCs": ["Wise Old Man"],
+				"RuneScore": 10
+			},
+			"~|Achievements#Skills|~ Wise Old Man: Magic Man": {
+				"Category": ["Archaeology Collections"],
+				"Label": "Archaeology Collections",
+				"Items": ["Legatus Maximus figurine", "Ritual dagger", "Ancient timepiece", "'Incite Fear' spell scroll", "'Exsanguinate' spell scroll", "High priest mitre", "'Smoke Cloud' spell scroll", "'Animate Dead' spell scroll", "Portable phylactery", "Chuluu stone"],
+				"NPCs": ["Wise Old Man"],
+				"RuneScore": 10
+			},
+			"~|Achievements#Skills|~ Wise Old Man: Wise Am the Music Man": {
+				"Category": ["Archaeology Collections"],
+				"Label": "Archaeology Collections",
+				"Items": ["Everlight harp", "Everlight trumpet", "Everlight violin", "Avian song-egg player", "Keshik drum", "Morin khuur", "Songbird recorder"],
+				"NPCs": ["Wise Old Man"],
+				"RuneScore": 10
+			},
+			"~|Achievements#Skills|~ Writings on the Walls": {
+				"Category": ["Misc achievements"],
+				"Description": "Solve this mystery.",
+				"BaseQuest": "Achievements",
+				"Tasks": {
+					"Archaeology Mystery: ~|Writings on the Walls|~ Complete the mystery": "Quest"
+				},
+				"RuneScore": 5,
+				"Not F2P": true
+			},
+			"~|Achievements#Skills|~ You Have Chosen...": {
+				"Category": ["Misc achievements"],
+				"Description": "Solve this mystery.",
+				"BaseQuest": "Achievements",
+				"Tasks": {
+					"Archaeology Mystery: ~|You Have Chosen...|~ Complete the mystery": "Quest"
+				},
+				"RuneScore": 25,
+				"Not F2P": true
+			},
+			
+			
+			
+			"~|Achievements#Skills|~ Complete the Skills achievements": {
+				"Category": ["Misc achievements"],
+				"BaseQuest": "Achievements",
+				"ManualShow": true,
+				"Not F2P": true
 			}
 		},
 		"Extra": {
@@ -149030,175 +150732,175 @@
 				"Items": ["Superior energy-gathering scrimshaw"],
 				"Not F2P": true
 			},
-			"(Art Critic Jacques) Complete ~|Anarchic Abstraction|~":{
+			"(Art Critic Jacques) Complete ~|Anarchic Abstraction|~": {
 				"Category": ["Archaeology Collections"],
 				"Label": "Archaeology Collections",
 				"Items": ["'Disorder' painting", "'The Lake of Fire' painting", "'Pandemonium' tapestry"],
 				"NPCs": ["Art Critic Jacques"]
 			},
-			"(Art Critic Jacques) Complete ~|Radiant Renaissance|~":{
+			"(Art Critic Jacques) Complete ~|Radiant Renaissance|~": {
 				"Category": ["Archaeology Collections"],
 				"Label": "Archaeology Collections",
 				"Items": ["'Hallowed Be the Everlight' painting", "'The Lord of Light' painting", "'The Pride of Padosan' painting"],
 				"NPCs": ["Art Critic Jacques"]
 			},
-			"(Art Critic Jacques) Complete ~|Imperial Impressionism|~":{
+			"(Art Critic Jacques) Complete ~|Imperial Impressionism|~": {
 				"Category": ["Archaeology Collections"],
 				"Label": "Archaeology Collections",
 				"Items": ["'Solem in Umbra' painting", "'Consensus ad Idem' painting", "'Prima Legio' painting"],
 				"NPCs": ["Art Critic Jacques"]
 			},
-			"(Chief Tess) Complete ~|Blingy Fings|~":{
+			"(Chief Tess) Complete ~|Blingy Fings|~": {
 				"Category": ["Archaeology Collections"],
 				"Label": "Archaeology Collections",
 				"Items": ["Ancient timepiece", "Legatus pendant", "Pontifex signet ring", "Bronze Dominion medal", "Silver Dominion medal"],
 				"NPCs": ["Chief Tess"]
 			},
-			"(Chief Tess) Complete ~|Smoky Fings|~":{
+			"(Chief Tess) Complete ~|Smoky Fings|~": {
 				"Category": ["Archaeology Collections"],
 				"Label": "Archaeology Collections",
 				"Items": ["Hookah pipe", "Opulent wine goblet", "Everlight trumpet", "Dominion torch", "Pontifex censer"],
 				"NPCs": ["Chief Tess"]
 			},
-			"(Chief Tess) Complete ~|Hitty Fings|~":{
+			"(Chief Tess) Complete ~|Hitty Fings|~": {
 				"Category": ["Archaeology Collections"],
 				"Label": "Archaeology Collections",
 				"Items": ["Ceremonial mace", "Pontifex crozier", "Fishing trident", "High priest crozier", "High priest orb"],
 				"NPCs": ["Chief Tess"]
 			},
-			"(Chief Tess) Complete ~|Showy Fings|~":{
+			"(Chief Tess) Complete ~|Showy Fings|~": {
 				"Category": ["Archaeology Collections"],
 				"Label": "Archaeology Collections",
 				"Items": ["Crest of Dagon", "Legatus Maximus figurine", "'Lust' metal sculpture", "Pontifex Maximus figurine", "Ceremonial plume", "Rod of Asclepius"],
 				"NPCs": ["Chief Tess"]
 			},
-			"(Elbis) Complete ~|Finery of the Inquisition|~":{
+			"(Elbis) Complete ~|Finery of the Inquisition|~": {
 				"Category": ["Archaeology Collections"],
 				"Label": "Archaeology Collections",
 				"Items": ["Inquisitor's ceremonial armour", "Inquisitor's ceremonial mask", "Inquisitor's seal"],
 				"NPCs": ["Eblis"]
 			},
-			"(Elbis) Complete ~|Religious Iconography|~":{
+			"(Elbis) Complete ~|Religious Iconography|~": {
 				"Category": ["Archaeology Collections"],
 				"Label": "Archaeology Collections",
 				"Items": ["Apex cap", "Infula robes", "Loarnab rod", "'The Serpent's Fall' carving"],
 				"NPCs": ["Eblis"]
 			},
-			"(Elbis) Complete ~|Urns of the Empire|~":{
+			"(Elbis) Complete ~|Urns of the Empire|~": {
 				"Category": ["Archaeology Collections"],
 				"Label": "Archaeology Collections",
 				"Items": ["Funerary urn of shadow", "Funerary urn of smoke", "Funerary urn of ice", "Funerary urn of blood", "Funerary urn of miasma"],
 				"NPCs": ["Eblis"]
 			},
-			"(Elbis) Complete ~|Entertaining the Masses|~":{
+			"(Elbis) Complete ~|Entertaining the Masses|~": {
 				"Category": ["Archaeology Collections"],
 				"Label": "Archaeology Collections",
 				"Items": ["Decorative amphora", "Gladiator helmet", "Gladiator sword", "Model chariot"],
 				"NPCs": ["Eblis"]
 			},
-			"(Elbis) Complete ~|Imperial Sorcery|~":{
+			"(Elbis) Complete ~|Imperial Sorcery|~": {
 				"Category": ["Archaeology Collections"],
 				"Label": "Archaeology Collections",
 				"Items": ["'Incite Fear' spell scroll", "Curse tablet", "Hand of the Ancients", "'Exsanguinate' spell scroll", "Necromantic focus", "'Smoke Cloud' spell scroll", "Ancient magic tablet", "'Animate Dead' spell scroll"],
 				"NPCs": ["Eblis"]
 			},
-			"(Goblin Generals) Complete ~|Red Rum Relics I|~":{
+			"(Goblin Generals) Complete ~|Red Rum Relics I|~": {
 				"Category": ["Archaeology Collections"],
 				"Label": "Archaeology Collections",
 				"Items": ["Ork cleaver sword", "Ogre Kyzaj axe", "Beastkeeper helm", "'Nosorog!' sculpture"],
 				"NPCs": ["General Bentnoze"]
 			},
-			"(Goblin Generals) Complete ~|Red Rum Relics II|~":{
+			"(Goblin Generals) Complete ~|Red Rum Relics II|~": {
 				"Category": ["Archaeology Collections"],
 				"Label": "Archaeology Collections",
 				"Items": ["Ourg megahitter", "Ourg tower/goblin cower shield", "'Forged in War' sculpture", "Hobgoblin mansticker"],
 				"NPCs": ["General Bentnoze"]
 			},
-			"(Goblin Generals) Complete ~|Red Rum Relics III|~":{
+			"(Goblin Generals) Complete ~|Red Rum Relics III|~": {
 				"Category": ["Archaeology Collections"],
 				"Label": "Archaeology Collections",
 				"Items": ["Kal-i-kra chieftan crown", "Kal-i-kra mace", "Kal-i-kra warhorn", "'Da Boss Man' sculpture"],
 				"NPCs": ["General Bentnoze"]
 			},
-			"(Goblin Generals) Complete ~|Green Gobbo Goodies I|~":{
+			"(Goblin Generals) Complete ~|Green Gobbo Goodies I|~": {
 				"Category": ["Archaeology Collections"],
 				"Label": "Archaeology Collections",
 				"Items": ["Ekeleshuun blinder mask", "Narogoshuun 'Hob-da-Gob' ball", "Rekeshuun war tether", "Thorobshuun battle standard", "Yurkolgokh stink grenade"],
 				"NPCs": ["General Wartface"]
 			},
-			"(Goblin Generals) Complete ~|Green Gobbo Goodies II|~":{
+			"(Goblin Generals) Complete ~|Green Gobbo Goodies II|~": {
 				"Category": ["Archaeology Collections"],
 				"Label": "Archaeology Collections",
 				"Items": ["High priest crozier", "High priest mitre", "High priest orb", "Idithuun horn ring", "Garagorshuun anchor"],
 				"NPCs": ["General Wartface"]
 			},
-			"(Goblin Generals) Complete ~|Green Gobbo Goodies III|~":{
+			"(Goblin Generals) Complete ~|Green Gobbo Goodies III|~": {
 				"Category": ["Archaeology Collections"],
 				"Label": "Archaeology Collections",
 				"Items": ["Dorgeshuun spear", "Huzamogaarb chaos crown", "Saragorgak star crown", "Drogokishuun hook sword", "Horogothgar cooking pot", "'Da Boss Man' sculpture"],
 				"NPCs": ["General Wartface"]
 			},
-			"(Isaura) Complete ~|Zamorakian I|~":{
+			"(Isaura) Complete ~|Zamorakian I|~": {
 				"Category": ["Archaeology Collections"],
 				"Label": "Archaeology Collections",
 				"Items": ["Hookah pipe", "Opulent wine goblet", "Crest of Dagon", "'Disorder' painting", "Imp mask", "Lesser demon mask", "Greater demon mask", "Order of Dis robes", "Ritual dagger"],
 				"NPCs": ["Isaura"]
 			},
-			"(Isaura) Complete ~|Zamorakian II|~":{
+			"(Isaura) Complete ~|Zamorakian II|~": {
 				"Category": ["Archaeology Collections"],
 				"Label": "Archaeology Collections",
 				"Items": ["Branding iron", "Manacles", "'The Lake of Fire' painting", "'Lust' metal sculpture", "Chaos star", "Spiked dog collar", "Larupia trophy", "Lion trophy", "She-wolf trophy"],
 				"NPCs": ["Isaura"]
 			},
-			"(Isaura) Complete ~|Zamorakian III|~":{
+			"(Isaura) Complete ~|Zamorakian III|~": {
 				"Category": ["Archaeology Collections"],
 				"Label": "Archaeology Collections",
 				"Items": ["'Torment' metal sculpture", "'Pandemonium' tapestry", "Hellfire haladie", "Hellfire katar", "Hellfire zaghnal", "'Possession' metal sculpture", "Trishula", "Tsutsaroth piercing"],
 				"NPCs": ["Isaura"]
 			},
-			"(Isaura) Complete ~|Zamorakian IV|~":{
+			"(Isaura) Complete ~|Zamorakian IV|~": {
 				"Category": ["Archaeology Collections"],
 				"Label": "Archaeology Collections",
 				"Items": ["Chaos Elemental trophy", "Virius trophy", "Tsutsaroth helm", "Tsutsaroth pauldron", "Tsutsaroth urumi"],
 				"NPCs": ["Isaura"]
 			},
-			"(Lowe) Complete ~|Armadylean I|~":{
+			"(Lowe) Complete ~|Armadylean I|~": {
 				"Category": ["Archaeology Collections"],
 				"Label": "Archaeology Collections",
 				"Items": ["Ikovian gerege", "Toy glider", "Toy war golem", "Avian song-egg player", "Keshik drum", "Morin khuur", "Aviansie dreamcoat", "Ceremonial plume", "Peacocking parasol"],
 				"NPCs": ["Lowse"]
 			},
-			"(Lowe) Complete ~|Armadylean II|~":{
+			"(Lowe) Complete ~|Armadylean II|~": {
 				"Category": ["Archaeology Collections"],
 				"Label": "Archaeology Collections",
 				"Items": ["Hawkeye lens multi-vision scope", "Talon-3 razor wing", "Prototype gravimeter", "Songbird recorder", "Dayguard shield", "Stormguard gerege", "Golem heart", "Golem instruction"],
 				"NPCs": ["Lowse"]
 			},
-			"(Lowe) Complete ~|Armadylean III|~":{
+			"(Lowe) Complete ~|Armadylean III|~": {
 				"Category": ["Archaeology Collections"],
 				"Label": "Archaeology Collections",
 				"Items": ["Blackfire lance", "Nightguard shield", "Flat cap", "Night owl flight goggles", "Prototype godbow", "Prototype godstaff", "Prototype godsword", "Chuluu stone", "Quintessence counter", "Spherical astrolabe"],
 				"NPCs": ["Lowse"]
 			},
-			"(Sharrigan) Complete ~|Dragonkin I|~":{
+			"(Sharrigan) Complete ~|Dragonkin I|~": {
 				"Category": ["Archaeology Collections"],
 				"Label": "Archaeology Collections",
 				"Items": ["Pasaha", "Ritual bell", "Kilaya", "Vazara", "Death mask", "Dragonkin calendar", "Dragonkin staff"],
 				"NPCs": ["Sharrigan"]
 			},
-			"(Sharrigan) Complete ~|Dragonkin II|~":{
+			"(Sharrigan) Complete ~|Dragonkin II|~": {
 				"Category": ["Archaeology Collections"],
 				"Label": "Archaeology Collections",
 				"Items": ["Dragon scalpel", "Protective goggles", "Dragon burner", "Orthenglass flask"],
 				"NPCs": ["Sharrigan"]
 			},
-			"(Sharrigan) Complete ~|Dragonkin III|~":{
+			"(Sharrigan) Complete ~|Dragonkin III|~": {
 				"Category": ["Archaeology Collections"],
 				"Label": "Archaeology Collections",
 				"Items": ["Meditation pipe", "Personal totem", "Singing bowl", "Lingam stone", "Master control"],
 				"NPCs": ["Sharrigan"]
 			},
-			"(Sharrigan) Complete ~|Dragonkin IV|~":{
+			"(Sharrigan) Complete ~|Dragonkin IV|~": {
 				"Category": ["Archaeology Collections"],
 				"Label": "Archaeology Collections",
 				"Items": ["Xolo hard hat", "Xolo pickaxe", "Xolo shield", "Xolo spear", "Gold dish", "'Raksha' idol"],
@@ -149223,109 +150925,109 @@
 			    "Items": ["Projection attuner", "Golden projection 'needle'", "Comfort gatestone", "Halak's cube", "Portable portal generator", "Warped trinket"],
 			    "NPCs": ["Sharrigan"]
 			},
-			"(Sire Atcha) Complete ~|Saradominist I|~":{
+			"(Sir Atcha) Complete ~|Saradominist I|~": {
 				"Category": ["Archaeology Collections"],
 				"Label": "Archaeology Collections",
 				"Items": ["'Frying pan'", "Hallowed lantern", "Ceremonial unicorn ornament", "Ceremonial unicorn saddle", "Everlight harp", "Everlight trumpet", "Everlight violin", "Folded-arm figurine (female)", "Folded-arm figurine (male)"],
 				"NPCs": ["Sir Atcha"]
 			},
-			"(Sire Atcha) Complete ~|Saradominist II|~":{
+			"(Sir Atcha) Complete ~|Saradominist II|~": {
 				"Category": ["Archaeology Collections"],
 				"Label": "Archaeology Collections",
 				"Items": ["Dominion discus", "Dominion javelin", "Dominion pelte shield", "Bronze Dominion medal", "Silver Dominion medal", "Dominion torch", "Decorative vase", "Kantharos cup", "Patera bowl"],
 				"NPCs": ["Sir Atcha"]
 			},
-			"(Sire Atcha) Complete ~|Saradominist III|~":{
+			"(Sir Atcha) Complete ~|Saradominist III|~": {
 				"Category": ["Archaeology Collections"],
 				"Label": "Archaeology Collections",
 				"Items": ["Dominarian device", "Fishing trident", "Amphora", "Rod of Asclepius", "Kopis dagger", "Xiphos short sword"],
 				"NPCs": ["Sir Atcha"]
 			},
-			"(Sire Atcha) Complete ~|Saradominist IV|~":{
+			"(Sir Atcha) Complete ~|Saradominist IV|~": {
 				"Category": ["Archaeology Collections"],
 				"Label": "Archaeology Collections",
 				"Items": ["'The Pride of Padosan' painting", "'Hallowed Be the Everlight' painting", "'The Lord of Light' painting", "'The Enlightened Soul' scroll", "'The Eudoxian Elements' tablet", "Doru spear", "Kontos lance"],
 				"NPCs": ["Sir Atcha"]
 			},
-			"(Soran) Complete ~|Zarosian I|~":{
+			"(Soran) Complete ~|Zarosian I|~": {
 				"Category": ["Archaeology Collections"],
 				"Label": "Archaeology Collections",
 				"Items": ["Venator dagger", "Venator light crossbow", "Primis Elementis standard", "Legionary gladius", "Legionary square shield", "Zaros effigy", "Zarosian training dummy", "Legatus Maximus figurine", "'Solem in Umbra' painting"],
 				"NPCs": ["Soran, Emissary of Zaros"]
 			},
-			"(Soran) Complete ~|Zarosian II|~":{
+			"(Soran) Complete ~|Zarosian II|~": {
 				"Category": ["Archaeology Collections"],
 				"Label": "Archaeology Collections",
 				"Items": ["Ancient timepiece", "Legatus pendant", "'Incite Fear' spell scroll", "Pontifex signet ring", "Ceremonial mace", "Pontifex Maximus figurine", "'Consensus ad Idem' painting", "Pontifex censer", "Pontifex crozier", "Pontifex mitre"],
 				"NPCs": ["Soran, Emissary of Zaros"]
 			},
-			"(Soran) Complete ~|Zarosian III|~":{
+			"(Soran) Complete ~|Zarosian III|~": {
 				"Category": ["Archaeology Collections"],
 				"Label": "Archaeology Collections",
 				"Items": ["'Exsanguinate' spell scroll", "Necromantic focus", "Zarosian ewer", "Zarosian stein", "'Smoke Cloud' spell scroll", "Vigorem vial", "Ancient magic tablet", "'Animate Dead' spell scroll", "Portable phylactery"],
 				"NPCs": ["Soran, Emissary of Zaros"]
 			},
-			"(Soran) Complete ~|Zarosian IV|~":{
+			"(Soran) Complete ~|Zarosian IV|~": {
 				"Category": ["Archaeology Collections"],
 				"Label": "Archaeology Collections",
 				"Items": ["Praetorian hood", "Praetorian robes", "Praetorian staff", "Ancient globe", "Battle plans", "'Prima Legio' painting"],
 				"NPCs": ["Soran, Emissary of Zaros"]
 			},
-			"(Velucia) Complete ~|Museum - Zamorakian I|~":{
+			"(Velucia) Complete ~|Museum - Zamorakian I|~": {
 				"Category": ["Archaeology Collections"],
 				"Label": "Archaeology Collections",
 				"Items": ["Hookah pipe", "Opulent wine goblet", "Crest of Dagon", "'Disorder' painting", "Imp mask", "Lesser demon mask", "Greater demon mask", "Order of Dis robes", "Ritual dagger"],
 				"NPCs": ["Velucia"]
 			},
-			"(Velucia) Complete ~|Museum - Zamorakian II|~":{
+			"(Velucia) Complete ~|Museum - Zamorakian II|~": {
 				"Category": ["Archaeology Collections"],
 				"Label": "Archaeology Collections",
 				"Items": ["Branding iron", "Manacles", "'The Lake of Fire' painting", "'Lust' metal sculpture", "Chaos star", "Spiked dog collar", "Larupia trophy", "Lion trophy", "She-wolf trophy"],
 				"NPCs": ["Velucia"]
 			},
-			"(Velucia) Complete ~|Museum - Zamorakian III|~":{
+			"(Velucia) Complete ~|Museum - Zamorakian III|~": {
 				"Category": ["Archaeology Collections"],
 				"Label": "Archaeology Collections",
 				"Items": ["'Torment' metal sculpture", "'Pandemonium' tapestry", "Hellfire haladie", "Hellfire katar", "Hellfire zaghnal", "'Possession' metal sculpture", "Trishula", "Tsutsaroth piercing"],
 				"NPCs": ["Velucia"]
 			},
-			"(Velucia) Complete ~|Museum - Zamorakian IV|~":{
+			"(Velucia) Complete ~|Museum - Zamorakian IV|~": {
 				"Category": ["Archaeology Collections"],
 				"Label": "Archaeology Collections",
 				"Items": ["Chaos Elemental trophy", "Virius trophy", "Tsutsaroth helm", "Tsutsaroth pauldron", "Tsutsaroth urumi"],
 				"NPCs": ["Velucia"]
 			},
-			"(Velucia) Complete ~|Museum - Armadylean I|~":{
+			"(Velucia) Complete ~|Museum - Armadylean I|~": {
 				"Category": ["Archaeology Collections"],
 				"Label": "Archaeology Collections",
 				"Items": ["Ikovian gerege", "Toy glider", "Toy war golem", "Avian song-egg player", "Keshik drum", "Morin khuur", "Aviansie dreamcoat", "Ceremonial plume", "Peacocking parasol"],
 				"NPCs": ["Velucia"]
 			},
-			"(Velucia) Complete ~|Museum - Armadylean II|~":{
+			"(Velucia) Complete ~|Museum - Armadylean II|~": {
 				"Category": ["Archaeology Collections"],
 				"Label": "Archaeology Collections",
 				"Items": ["Hawkeye lens multi-vision scope", "Talon-3 razor wing", "Prototype gravimeter", "Songbird recorder", "Dayguard shield", "Stormguard gerege", "Golem heart", "Golem instruction"],
 				"NPCs": ["Velucia"]
 			},
-			"(Velucia) Complete ~|Museum - Armadylean III|~":{
+			"(Velucia) Complete ~|Museum - Armadylean III|~": {
 				"Category": ["Archaeology Collections"],
 				"Label": "Archaeology Collections",
 				"Items": ["Blackfire lance", "Nightguard shield", "Flat cap", "Night owl flight goggles", "Prototype godbow", "Prototype godstaff", "Prototype godsword", "Chuluu stone", "Quintessence counter", "Spherical astrolabe"],
 				"NPCs": ["Velucia"]
 			},
-			"(Velucia) Complete ~|Museum - Dragonkin I|~":{
+			"(Velucia) Complete ~|Museum - Dragonkin I|~": {
 				"Category": ["Archaeology Collections"],
 				"Label": "Archaeology Collections",
 				"Items": ["Pasaha", "Ritual bell", "Kilaya", "Vazara", "Death mask", "Dragonkin calendar", "Dragonkin staff"],
 				"NPCs": ["Velucia"]
 			},
-			"(Velucia) Complete ~|Museum - Dragonkin II|~":{
+			"(Velucia) Complete ~|Museum - Dragonkin II|~": {
 				"Category": ["Archaeology Collections"],
 				"Label": "Archaeology Collections",
 				"Items": ["Dragon scalpel", "Protective goggles", "Dragon burner", "Orthenglass flask"],
 				"NPCs": ["Velucia"]
 			},
-			"(Velucia) Complete ~|Museum - Dragonkin III|~":{
+			"(Velucia) Complete ~|Museum - Dragonkin III|~": {
 				"Category": ["Archaeology Collections"],
 				"Label": "Archaeology Collections",
 				"Items": ["Meditation pipe", "Personal totem", "Singing bowl", "Lingam stone", "Master control"],
@@ -149355,121 +151057,121 @@
 			    "Items": ["Projection attuner", "Golden projection 'needle'", "Comfort gatestone", "Halak's cube", "Portable portal generator", "Warped trinket"],
 			    "NPCs": ["Velucia"]
 			},
-			"(Velucia) Complete ~|Museum - Saradominist I|~":{
+			"(Velucia) Complete ~|Museum - Saradominist I|~": {
 				"Category": ["Archaeology Collections"],
 				"Label": "Archaeology Collections",
 				"Items": ["'Frying pan'", "Hallowed lantern", "Ceremonial unicorn ornament", "Ceremonial unicorn saddle", "Everlight harp", "Everlight trumpet", "Everlight violin", "Folded-arm figurine (female)", "Folded-arm figurine (male)"],
 				"NPCs": ["Velucia"]
 			},
-			"(Velucia) Complete ~|Museum - Saradominist II|~":{
+			"(Velucia) Complete ~|Museum - Saradominist II|~": {
 				"Category": ["Archaeology Collections"],
 				"Label": "Archaeology Collections",
 				"Items": ["Dominion discus", "Dominion javelin", "Dominion pelte shield", "Bronze Dominion medal", "Silver Dominion medal", "Dominion torch", "Decorative vase", "Kantharos cup", "Patera bowl"],
 				"NPCs": ["Velucia"]
 			},
-			"(Velucia) Complete ~|Museum - Saradominist III|~":{
+			"(Velucia) Complete ~|Museum - Saradominist III|~": {
 				"Category": ["Archaeology Collections"],
 				"Label": "Archaeology Collections",
 				"Items": ["Dominarian device", "Fishing trident", "Amphora", "Rod of Asclepius", "Kopis dagger", "Xiphos short sword"],
 				"NPCs": ["Velucia"]
 			},
-			"(Velucia) Complete ~|Museum - Saradominist IV|~":{
+			"(Velucia) Complete ~|Museum - Saradominist IV|~": {
 				"Category": ["Archaeology Collections"],
 				"Label": "Archaeology Collections",
 				"Items": ["'The Pride of Padosan' painting", "'Hallowed Be the Everlight' painting", "'The Lord of Light' painting", "'The Enlightened Soul' scroll", "'The Eudoxian Elements' tablet", "Doru spear", "Kontos lance"],
 				"NPCs": ["Velucia"]
 			},
-			"(Velucia) Complete ~|Museum - Zarosian I|~":{
+			"(Velucia) Complete ~|Museum - Zarosian I|~": {
 				"Category": ["Archaeology Collections"],
 				"Label": "Archaeology Collections",
 				"Items": ["Venator dagger", "Venator light crossbow", "Primis Elementis standard", "Legionary gladius", "Legionary square shield", "Zaros effigy", "Zarosian training dummy", "Legatus Maximus figurine", "'Solem in Umbra' painting"],
 				"NPCs": ["Velucia"]
 			},
-			"(Velucia) Complete ~|Museum - Zarosian II|~":{
+			"(Velucia) Complete ~|Museum - Zarosian II|~": {
 				"Category": ["Archaeology Collections"],
 				"Label": "Archaeology Collections",
 				"Items": ["Ancient timepiece", "Legatus pendant", "'Incite Fear' spell scroll", "Pontifex signet ring", "Ceremonial mace", "Pontifex Maximus figurine", "'Consensus ad Idem' painting", "Pontifex censer", "Pontifex crozier", "Pontifex mitre"],
 				"NPCs": ["Velucia"]
 			},
-			"(Velucia) Complete ~|Museum - Zarosian III|~":{
+			"(Velucia) Complete ~|Museum - Zarosian III|~": {
 				"Category": ["Archaeology Collections"],
 				"Label": "Archaeology Collections",
 				"Items": ["'Exsanguinate' spell scroll", "Necromantic focus", "Zarosian ewer", "Zarosian stein", "'Smoke Cloud' spell scroll", "Vigorem vial", "Ancient magic tablet", "'Animate Dead' spell scroll", "Portable phylactery"],
 				"NPCs": ["Velucia"]
 			},
-			"(Velucia) Complete ~|Museum - Zarosian IV|~":{
+			"(Velucia) Complete ~|Museum - Zarosian IV|~": {
 				"Category": ["Archaeology Collections"],
 				"Label": "Archaeology Collections",
 				"Items": ["Praetorian hood", "Praetorian robes", "Praetorian staff", "Ancient globe", "Battle plans", "'Prima Legio' painting"],
 				"NPCs": ["Velucia"]
 			},
-			"(Velucia) Complete ~|Museum - Zarosian V|~":{
+			"(Velucia) Complete ~|Museum - Zarosian V|~": {
 				"Category": ["Archaeology Collections"],
 				"Label": "Archaeology Collections",
 				"Items": ["Apex cap", "Curse tablet", "Funerary urn of shadow", "Infula robes", "Funerary urn of smoke", "Hand of the Ancients"],
 				"NPCs": ["Velucia"]
 			},
-			"(Velucia) Complete ~|Museum - Zarosian VI|~":{
+			"(Velucia) Complete ~|Museum - Zarosian VI|~": {
 				"Category": ["Archaeology Collections"],
 				"Label": "Archaeology Collections",
 				"Items": ["Decorative amphora", "Funerary urn of ice", "Loarnab rod", "Inquisitor's ceremonial armour", "Inquisitor's ceremonial mask", "Inquisitor's seal"],
 				"NPCs": ["Velucia"]
 			},
-			"(Velucia) Complete ~|Museum - Zarosian VII|~":{
+			"(Velucia) Complete ~|Museum - Zarosian VII|~": {
 				"Category": ["Archaeology Collections"],
 				"Label": "Archaeology Collections",
 				"Items": ["Gladiator helmet", "Gladiator sword", "Funerary urn of blood", "Funerary urn of miasma", "Model chariot", "'The Serpent's Fall' carving"],
 				"NPCs": ["Velucia"]
 			},
-			"(Velucia) Complete ~|Museum - Bandosian I|~":{
+			"(Velucia) Complete ~|Museum - Bandosian I|~": {
 				"Category": ["Archaeology Collections"],
 				"Label": "Archaeology Collections",
 				"Items": ["Ekeleshuun blinder mask", "Narogoshuun 'Hob-da-Gob' ball", "Rekeshuun war tether", "Ogre Kyzaj axe", "Ork cleaver sword", "Thorobshuun battle standard", "Yurkolgokh stink grenade", "High priest crozier", "High priest mitre", "High priest orb"],
 				"NPCs": ["Velucia"]
 			},
-			"(Velucia) Complete ~|Museum - Bandosian II|~":{
+			"(Velucia) Complete ~|Museum - Bandosian II|~": {
 				"Category": ["Archaeology Collections"],
 				"Label": "Archaeology Collections",
 				"Items": ["Beastkeeper helm", "Idithuun horn ring", "'Nosorog!' sculpture", "Ourg megahitter", "Ourg tower/goblin cower shield", "Garagorshuun anchor", "Dorgeshuun spear", "'Forged in War' sculpture"],
 				"NPCs": ["Velucia"]
 			},
-			"(Velucia) Complete ~|Museum - Bandosian III|~":{
+			"(Velucia) Complete ~|Museum - Bandosian III|~": {
 				"Category": ["Archaeology Collections"],
 				"Label": "Archaeology Collections",
 				"Items": ["Huzamogaarb chaos crown", "Saragorgak star crown", "Drogokishuun hook sword", "Hobgoblin mansticker", "Kal-i-kra chieftan crown", "Kal-i-kra mace", "Kal-i-kra warhorn", "'Da Boss Man' sculpture", "Horogothgar cooking pot"],
 				"NPCs": ["Velucia"]
 			},
-			"(Wise Old Man) Complete ~|Wise Am the Music Man|~":{
+			"(Wise Old Man) Complete ~|Wise Am the Music Man|~": {
 				"Category": ["Archaeology Collections"],
 				"Label": "Archaeology Collections",
 				"Items": ["Everlight harp", "Everlight trumpet", "Everlight violin", "Avian song-egg player", "Keshik drum", "Morin khuur", "Songbird recorder"],
 				"NPCs": ["Wise Old Man"]
 			},
-			"(Wise Old Man) Complete ~|Hat Problem|~":{
+			"(Wise Old Man) Complete ~|Hat Problem|~": {
 				"Category": ["Archaeology Collections"],
 				"Label": "Archaeology Collections",
 				"Items": ["Imp mask", "Ekeleshuun blinder mask", "High priest mitre", "Beastkeeper helm", "Huzamogaarb chaos crown", "Flat cap", "Praetorian hood"],
 				"NPCs": ["Wise Old Man"]
 			},
-			"(Wise Old Man) Complete ~|Hat Hoarder|~":{
+			"(Wise Old Man) Complete ~|Hat Hoarder|~": {
 				"Category": ["Archaeology Collections"],
 				"Label": "Archaeology Collections",
 				"Items": ["Lesser demon mask", "Greater demon mask", "Ceremonial unicorn ornament", "Pontifex mitre", "Saragorgak star crown", "Kal-i-kra chieftan crown", "Tsutsaroth helm"],
 				"NPCs": ["Wise Old Man"]
 			},
-			"(Wise Old Man) Complete ~|Magic Man|~":{
+			"(Wise Old Man) Complete ~|Magic Man|~": {
 				"Category": ["Archaeology Collections"],
 				"Label": "Archaeology Collections",
 				"Items": ["Legatus Maximus figurine", "Ritual dagger", "Ancient timepiece", "'Incite Fear' spell scroll", "'Exsanguinate' spell scroll", "High priest mitre", "'Smoke Cloud' spell scroll", "'Animate Dead' spell scroll", "Portable phylactery", "Chuluu stone"],
 				"NPCs": ["Wise Old Man"]
 			},
-			"(Wise Old Man) Complete ~|Knowledge is Power|~":{
+			"(Wise Old Man) Complete ~|Knowledge is Power|~": {
 				"Category": ["Archaeology Collections"],
 				"Label": "Archaeology Collections",
 				"Items": ["Crest of Dagon", "Ikovian gerege", "Necromantic focus", "Golem instruction", "'The Enlightened Soul' scroll", "'The Eudoxian Elements' tablet", "'Da Boss Man' sculpture"],
 				"NPCs": ["Wise Old Man"]
 			},
-			"(Giles) Complete ~|Desperate for Artefacts|~*":{
+			"(Giles) Complete ~|Desperate for Artefacts|~*": {
 				"Category": ["Archaeology Collections"],
 				"Label": "Archaeology Collections",
 				"Chunks": ["16709-2"],
@@ -151329,7 +153031,7 @@
 			},
 			"Plague's End Areas": {
 				"UnlocksArea": true,
-				"Tasks":{
+				"Tasks": {
 					"~|Plague's End|~ 1": "Quest"	
 				}
 			},
@@ -153993,119 +155695,119 @@
 					"Complete the ~|Archaeology tutorial|~": "Archaeology"
 				}
 			},
-			"Complete the archaeology collection 'Anarchic Abstraction'":{
+			"Complete the archaeology collection 'Anarchic Abstraction'": {
 				"Items": ["'Disorder' painting", "'The Lake of Fire' painting", "'Pandemonium' tapestry"],
 				"NPCs": ["Art Critic Jacques"]
 			},
-			"Complete the archaeology collection 'Radiant Renaissance'":{
+			"Complete the archaeology collection 'Radiant Renaissance'": {
 				"Items": ["'Hallowed Be the Everlight' painting", "'The Lord of Light' painting", "'The Pride of Padosan' painting"],
 				"NPCs": ["Art Critic Jacques"]
 			},
-			"Complete the archaeology collection 'Imperial Impressionism'":{
+			"Complete the archaeology collection 'Imperial Impressionism'": {
 				"Items": ["'Solem in Umbra' painting", "'Consensus ad Idem' painting", "'Prima Legio' painting"],
 				"NPCs": ["Art Critic Jacques"]
 			},
-			"Complete the archaeology collection 'Blingy Fings'":{
+			"Complete the archaeology collection 'Blingy Fings'": {
 				"Items": ["Ancient timepiece", "Legatus pendant", "Pontifex signet ring", "Bronze Dominion medal", "Silver Dominion medal"],
 				"NPCs": ["Chief Tess"]
 			},
-			"Complete the archaeology collection 'Smoky Fings'":{
+			"Complete the archaeology collection 'Smoky Fings'": {
 				"Items": ["Hookah pipe", "Opulent wine goblet", "Everlight trumpet", "Dominion torch", "Pontifex censer"],
 				"NPCs": ["Chief Tess"]
 			},
-			"Complete the archaeology collection 'Hitty Fings'":{
+			"Complete the archaeology collection 'Hitty Fings'": {
 				"Items": ["Ceremonial mace", "Pontifex crozier", "Fishing trident", "High priest crozier", "High priest orb"],
 				"NPCs": ["Chief Tess"]
 			},
-			"Complete the archaeology collection 'Showy Fings'":{
+			"Complete the archaeology collection 'Showy Fings'": {
 				"Items": ["Crest of Dagon", "Legatus Maximus figurine", "'Lust' metal sculpture", "Pontifex Maximus figurine", "Ceremonial plume", "Rod of Asclepius"],
 				"NPCs": ["Chief Tess"]
 			},
-			"Complete the archaeology collection 'Finery of the Inquisition'":{
+			"Complete the archaeology collection 'Finery of the Inquisition'": {
 				"Items": ["Inquisitor's ceremonial armour", "Inquisitor's ceremonial mask", "Inquisitor's seal"],
 				"NPCs": ["Eblis"]
 			},
-			"Complete the archaeology collection 'Religious Iconography'":{
+			"Complete the archaeology collection 'Religious Iconography'": {
 				"Items": ["Apex cap", "Infula robes", "Loarnab rod", "'The Serpent's Fall' carving"],
 				"NPCs": ["Eblis"]
 			},
-			"Complete the archaeology collection 'Urns of the Empire'":{
+			"Complete the archaeology collection 'Urns of the Empire'": {
 				"Items": ["Funerary urn of shadow", "Funerary urn of smoke", "Funerary urn of ice", "Funerary urn of blood", "Funerary urn of miasma"],
 				"NPCs": ["Eblis"]
 			},
-			"Complete the archaeology collection 'Entertaining the Masses'":{
+			"Complete the archaeology collection 'Entertaining the Masses'": {
 				"Items": ["Decorative amphora", "Gladiator helmet", "Gladiator sword", "Model chariot"],
 				"NPCs": ["Eblis"]
 			},
-			"Complete the archaeology collection 'Imperial Sorcery'":{
+			"Complete the archaeology collection 'Imperial Sorcery'": {
 				"Items": ["'Incite Fear' spell scroll", "Curse tablet", "Hand of the Ancients", "'Exsanguinate' spell scroll", "Necromantic focus", "'Smoke Cloud' spell scroll", "Ancient magic tablet", "'Animate Dead' spell scroll"],
 				"NPCs": ["Eblis"]
 			},
-			"Complete the archaeology collection 'Red Rum Relics I'":{
+			"Complete the archaeology collection 'Red Rum Relics I'": {
 				"Items": ["Ork cleaver sword", "Ogre Kyzaj axe", "Beastkeeper helm", "'Nosorog!' sculpture"],
 				"NPCs": ["General Bentnoze"]
 			},
-			"Complete the archaeology collection 'Red Rum Relics II'":{
+			"Complete the archaeology collection 'Red Rum Relics II'": {
 				"Items": ["Ourg megahitter", "Ourg tower/goblin cower shield", "'Forged in War' sculpture", "Hobgoblin mansticker"],
 				"NPCs": ["General Bentnoze"]
 			},
-			"Complete the archaeology collection 'Red Rum Relics III'":{
+			"Complete the archaeology collection 'Red Rum Relics III'": {
 				"Items": ["Kal-i-kra chieftan crown", "Kal-i-kra mace", "Kal-i-kra warhorn", "'Da Boss Man' sculpture"],
 				"NPCs": ["General Bentnoze"]
 			},
-			"Complete the archaeology collection 'Green Gobbo Goodies I'":{
+			"Complete the archaeology collection 'Green Gobbo Goodies I'": {
 				"Items": ["Ekeleshuun blinder mask", "Narogoshuun 'Hob-da-Gob' ball", "Rekeshuun war tether", "Thorobshuun battle standard", "Yurkolgokh stink grenade"],
 				"NPCs": ["General Wartface"]
 			},
-			"Complete the archaeology collection 'Green Gobbo Goodies II'":{
+			"Complete the archaeology collection 'Green Gobbo Goodies II'": {
 				"Items": ["High priest crozier", "High priest mitre", "High priest orb", "Idithuun horn ring", "Garagorshuun anchor"],
 				"NPCs": ["General Wartface"]
 			},
-			"Complete the archaeology collection 'Green Gobbo Goodies III'":{
+			"Complete the archaeology collection 'Green Gobbo Goodies III'": {
 				"Items": ["Dorgeshuun spear", "Huzamogaarb chaos crown", "Saragorgak star crown", "Drogokishuun hook sword", "Horogothgar cooking pot", "'Da Boss Man' sculpture"],
 				"NPCs": ["General Wartface"]
 			},
-			"Complete the archaeology collection 'Zamorakian I'":{
+			"Complete the archaeology collection 'Zamorakian I'": {
 				"Items": ["Hookah pipe", "Opulent wine goblet", "Crest of Dagon", "'Disorder' painting", "Imp mask", "Lesser demon mask", "Greater demon mask", "Order of Dis robes", "Ritual dagger"],
 				"NPCs": ["Isaura"]
 			},
-			"Complete the archaeology collection 'Zamorakian II'":{
+			"Complete the archaeology collection 'Zamorakian II'": {
 				"Items": ["Branding iron", "Manacles", "'The Lake of Fire' painting", "'Lust' metal sculpture", "Chaos star", "Spiked dog collar", "Larupia trophy", "Lion trophy", "She-wolf trophy"],
 				"NPCs": ["Isaura"]
 			},
-			"Complete the archaeology collection 'Zamorakian III'":{
+			"Complete the archaeology collection 'Zamorakian III'": {
 				"Items": ["'Torment' metal sculpture", "'Pandemonium' tapestry", "Hellfire haladie", "Hellfire katar", "Hellfire zaghnal", "'Possession' metal sculpture", "Trishula", "Tsutsaroth piercing"],
 				"NPCs": ["Isaura"]
 			},
-			"Complete the archaeology collection 'Zamorakian IV'":{
+			"Complete the archaeology collection 'Zamorakian IV'": {
 				"Items": ["Chaos Elemental trophy", "Virius trophy", "Tsutsaroth helm", "Tsutsaroth pauldron", "Tsutsaroth urumi"],
 				"NPCs": ["Isaura"]
 			},
-			"Complete the archaeology collection 'Armadylean I'":{
+			"Complete the archaeology collection 'Armadylean I'": {
 				"Items": ["Ikovian gerege", "Toy glider", "Toy war golem", "Avian song-egg player", "Keshik drum", "Morin khuur", "Aviansie dreamcoat", "Ceremonial plume", "Peacocking parasol"],
 				"NPCs": ["Lowse"]
 			},
-			"Complete the archaeology collection 'Armadylean II'":{
+			"Complete the archaeology collection 'Armadylean II'": {
 				"Items": ["Hawkeye lens multi-vision scope", "Talon-3 razor wing", "Prototype gravimeter", "Songbird recorder", "Dayguard shield", "Stormguard gerege", "Golem heart", "Golem instruction"],
 				"NPCs": ["Lowse"]
 			},
-			"Complete the archaeology collection 'Armadylean III'":{
+			"Complete the archaeology collection 'Armadylean III'": {
 				"Items": ["Blackfire lance", "Nightguard shield", "Flat cap", "Night owl flight goggles", "Prototype godbow", "Prototype godstaff", "Prototype godsword", "Chuluu stone", "Quintessence counter", "Spherical astrolabe"],
 				"NPCs": ["Lowse"]
 			},
-			"Complete the archaeology collection 'Dragonkin I'":{
+			"Complete the archaeology collection 'Dragonkin I'": {
 				"Items": ["Pasaha", "Ritual bell", "Kilaya", "Vazara", "Death mask", "Dragonkin calendar", "Dragonkin staff"],
 				"NPCs": ["Sharrigan"]
 			},
-			"Complete the archaeology collection 'Dragonkin II'":{
+			"Complete the archaeology collection 'Dragonkin II'": {
 				"Items": ["Dragon scalpel", "Protective goggles", "Dragon burner", "Orthenglass flask"],
 				"NPCs": ["Sharrigan"]
 			},
-			"Complete the archaeology collection 'Dragonkin III'":{
+			"Complete the archaeology collection 'Dragonkin III'": {
 				"Items": ["Meditation pipe", "Personal totem", "Singing bowl", "Lingam stone", "Master control"],
 				"NPCs": ["Sharrigan"]
 			},
-			"Complete the archaeology collection 'Dragonkin IV'":{
+			"Complete the archaeology collection 'Dragonkin IV'": {
 				"Items": ["Xolo hard hat", "Xolo pickaxe", "Xolo shield", "Xolo spear", "Gold dish", "'Raksha' idol"],
 				"NPCs": ["Sharrigan"]
 			},
@@ -154122,75 +155824,75 @@
 			    "Items": ["Projection attuner", "Golden projection 'needle'", "Comfort gatestone", "Halak's cube", "Portable portal generator", "Warped trinket"],
 			    "NPCs": ["Sharrigan"]
 			},
-			"Complete the archaeology collection 'Saradominist I'":{
+			"Complete the archaeology collection 'Saradominist I'": {
 				"Items": ["'Frying pan'", "Hallowed lantern", "Ceremonial unicorn ornament", "Ceremonial unicorn saddle", "Everlight harp", "Everlight trumpet", "Everlight violin", "Folded-arm figurine (female)", "Folded-arm figurine (male)"],
 				"NPCs": ["Sir Atcha"]
 			},
-			"Complete the archaeology collection 'Saradominist II'":{
+			"Complete the archaeology collection 'Saradominist II'": {
 				"Items": ["Dominion discus", "Dominion javelin", "Dominion pelte shield", "Bronze Dominion medal", "Silver Dominion medal", "Dominion torch", "Decorative vase", "Kantharos cup", "Patera bowl"],
 				"NPCs": ["Sir Atcha"]
 			},
-			"Complete the archaeology collection 'Saradominist III'":{
+			"Complete the archaeology collection 'Saradominist III'": {
 				"Items": ["Dominarian device", "Fishing trident", "Amphora", "Rod of Asclepius", "Kopis dagger", "Xiphos short sword"],
 				"NPCs": ["Sir Atcha"]
 			},
-			"Complete the archaeology collection 'Saradominist IV'":{
+			"Complete the archaeology collection 'Saradominist IV'": {
 				"Items": ["'The Pride of Padosan' painting", "'Hallowed Be the Everlight' painting", "'The Lord of Light' painting", "'The Enlightened Soul' scroll", "'The Eudoxian Elements' tablet", "Doru spear", "Kontos lance"],
 				"NPCs": ["Sir Atcha"]
 			},
-			"Complete the archaeology collection 'Zarosian I'":{
+			"Complete the archaeology collection 'Zarosian I'": {
 				"Items": ["Venator dagger", "Venator light crossbow", "Primis Elementis standard", "Legionary gladius", "Legionary square shield", "Zaros effigy", "Zarosian training dummy", "Legatus Maximus figurine", "'Solem in Umbra' painting"],
 				"NPCs": ["Soran, Emissary of Zaros"]
 			},
-			"Complete the archaeology collection 'Zarosian II'":{
+			"Complete the archaeology collection 'Zarosian II'": {
 				"Items": ["Ancient timepiece", "Legatus pendant", "'Incite Fear' spell scroll", "Pontifex signet ring", "Ceremonial mace", "Pontifex Maximus figurine", "'Consensus ad Idem' painting", "Pontifex censer", "Pontifex crozier", "Pontifex mitre"],
 				"NPCs": ["Soran, Emissary of Zaros"]
 			},
-			"Complete the archaeology collection 'Zarosian III'":{
+			"Complete the archaeology collection 'Zarosian III'": {
 				"Items": ["'Exsanguinate' spell scroll", "Necromantic focus", "Zarosian ewer", "Zarosian stein", "'Smoke Cloud' spell scroll", "Vigorem vial", "Ancient magic tablet", "'Animate Dead' spell scroll", "Portable phylactery"],
 				"NPCs": ["Soran, Emissary of Zaros"]
 			},
-			"Complete the archaeology collection 'Zarosian IV'":{
+			"Complete the archaeology collection 'Zarosian IV'": {
 				"Items": ["Praetorian hood", "Praetorian robes", "Praetorian staff", "Ancient globe", "Battle plans", "'Prima Legio' painting"],
 				"NPCs": ["Soran, Emissary of Zaros"]
 			},
-			"Complete the archaeology collection 'Museum - Zamorakian I'":{
+			"Complete the archaeology collection 'Museum - Zamorakian I'": {
 				"Items": ["Hookah pipe", "Opulent wine goblet", "Crest of Dagon", "'Disorder' painting", "Imp mask", "Lesser demon mask", "Greater demon mask", "Order of Dis robes", "Ritual dagger"],
 				"NPCs": ["Velucia"]
 			},
-			"Complete the archaeology collection 'Museum - Zamorakian II'":{
+			"Complete the archaeology collection 'Museum - Zamorakian II'": {
 				"Items": ["Branding iron", "Manacles", "'The Lake of Fire' painting", "'Lust' metal sculpture", "Chaos star", "Spiked dog collar", "Larupia trophy", "Lion trophy", "She-wolf trophy"],
 				"NPCs": ["Velucia"]
 			},
-			"Complete the archaeology collection 'Museum - Zamorakian III'":{
+			"Complete the archaeology collection 'Museum - Zamorakian III'": {
 				"Items": ["'Torment' metal sculpture", "'Pandemonium' tapestry", "Hellfire haladie", "Hellfire katar", "Hellfire zaghnal", "'Possession' metal sculpture", "Trishula", "Tsutsaroth piercing"],
 				"NPCs": ["Velucia"]
 			},
-			"Complete the archaeology collection 'Museum - Zamorakian IV'":{
+			"Complete the archaeology collection 'Museum - Zamorakian IV'": {
 				"Items": ["Chaos Elemental trophy", "Virius trophy", "Tsutsaroth helm", "Tsutsaroth pauldron", "Tsutsaroth urumi"],
 				"NPCs": ["Velucia"]
 			},
-			"Complete the archaeology collection 'Museum - Armadylean I'":{
+			"Complete the archaeology collection 'Museum - Armadylean I'": {
 				"Items": ["Ikovian gerege", "Toy glider", "Toy war golem", "Avian song-egg player", "Keshik drum", "Morin khuur", "Aviansie dreamcoat", "Ceremonial plume", "Peacocking parasol"],
 				"NPCs": ["Velucia"]
 			},
-			"Complete the archaeology collection 'Museum - Armadylean II'":{
+			"Complete the archaeology collection 'Museum - Armadylean II'": {
 				"Items": ["Hawkeye lens multi-vision scope", "Talon-3 razor wing", "Prototype gravimeter", "Songbird recorder", "Dayguard shield", "Stormguard gerege", "Golem heart", "Golem instruction"],
 				"NPCs": ["Velucia"]
 			},
-			"Complete the archaeology collection 'Museum - Armadylean III'":{
+			"Complete the archaeology collection 'Museum - Armadylean III'": {
 				"Items": ["Blackfire lance", "Nightguard shield", "Flat cap", "Night owl flight goggles", "Prototype godbow", "Prototype godstaff", "Prototype godsword", "Chuluu stone", "Quintessence counter", "Spherical astrolabe"],
 				"NPCs": ["Velucia"]
 			},
-			"Complete the archaeology collection 'Museum - Dragonkin I'":{
+			"Complete the archaeology collection 'Museum - Dragonkin I'": {
 				"Items": ["Pasaha", "Ritual bell", "Kilaya", "Vazara", "Death mask", "Dragonkin calendar", "Dragonkin staff"],
 				"NPCs": ["Velucia"]
 			},
-			"Complete the archaeology collection 'Museum - Dragonkin II'":{
+			"Complete the archaeology collection 'Museum - Dragonkin II'": {
 				"Items": ["Dragon scalpel", "Protective goggles", "Dragon burner", "Orthenglass flask"],
 				"NPCs": ["Velucia"]
 			},
-			"Complete the archaeology collection 'Museum - Dragonkin III'":{
+			"Complete the archaeology collection 'Museum - Dragonkin III'": {
 				"Items": ["Meditation pipe", "Personal totem", "Singing bowl", "Lingam stone", "Master control"],
 				"NPCs": ["Velucia"]
 			},
@@ -154210,83 +155912,83 @@
 			    "Items": ["Projection attuner", "Golden projection 'needle'", "Comfort gatestone", "Halak's cube", "Portable portal generator", "Warped trinket"],
 			    "NPCs": ["Velucia"]
 			},
-			"Complete the archaeology collection 'Museum - Saradominist I'":{
+			"Complete the archaeology collection 'Museum - Saradominist I'": {
 				"Items": ["'Frying pan'", "Hallowed lantern", "Ceremonial unicorn ornament", "Ceremonial unicorn saddle", "Everlight harp", "Everlight trumpet", "Everlight violin", "Folded-arm figurine (female)", "Folded-arm figurine (male)"],
 				"NPCs": ["Velucia"]
 			},
-			"Complete the archaeology collection 'Museum - Saradominist II'":{
+			"Complete the archaeology collection 'Museum - Saradominist II'": {
 				"Items": ["Dominion discus", "Dominion javelin", "Dominion pelte shield", "Bronze Dominion medal", "Silver Dominion medal", "Dominion torch", "Decorative vase", "Kantharos cup", "Patera bowl"],
 				"NPCs": ["Velucia"]
 			},
-			"Complete the archaeology collection 'Museum - Saradominist III'":{
+			"Complete the archaeology collection 'Museum - Saradominist III'": {
 				"Items": ["Dominarian device", "Fishing trident", "Amphora", "Rod of Asclepius", "Kopis dagger", "Xiphos short sword"],
 				"NPCs": ["Velucia"]
 			},
-			"Complete the archaeology collection 'Museum - Saradominist IV'":{
+			"Complete the archaeology collection 'Museum - Saradominist IV'": {
 				"Items": ["'The Pride of Padosan' painting", "'Hallowed Be the Everlight' painting", "'The Lord of Light' painting", "'The Enlightened Soul' scroll", "'The Eudoxian Elements' tablet", "Doru spear", "Kontos lance"],
 				"NPCs": ["Velucia"]
 			},
-			"Complete the archaeology collection 'Museum - Zarosian I'":{
+			"Complete the archaeology collection 'Museum - Zarosian I'": {
 				"Items": ["Venator dagger", "Venator light crossbow", "Primis Elementis standard", "Legionary gladius", "Legionary square shield", "Zaros effigy", "Zarosian training dummy", "Legatus Maximus figurine", "'Solem in Umbra' painting"],
 				"NPCs": ["Velucia"]
 			},
-			"Complete the archaeology collection 'Museum - Zarosian II'":{
+			"Complete the archaeology collection 'Museum - Zarosian II'": {
 				"Items": ["Ancient timepiece", "Legatus pendant", "'Incite Fear' spell scroll", "Pontifex signet ring", "Ceremonial mace", "Pontifex Maximus figurine", "'Consensus ad Idem' painting", "Pontifex censer", "Pontifex crozier", "Pontifex mitre"],
 				"NPCs": ["Velucia"]
 			},
-			"Complete the archaeology collection 'Museum - Zarosian III'":{
+			"Complete the archaeology collection 'Museum - Zarosian III'": {
 				"Items": ["'Exsanguinate' spell scroll", "Necromantic focus", "Zarosian ewer", "Zarosian stein", "'Smoke Cloud' spell scroll", "Vigorem vial", "Ancient magic tablet", "'Animate Dead' spell scroll", "Portable phylactery"],
 				"NPCs": ["Velucia"]
 			},
-			"Complete the archaeology collection 'Museum - Zarosian IV'":{
+			"Complete the archaeology collection 'Museum - Zarosian IV'": {
 				"Items": ["Praetorian hood", "Praetorian robes", "Praetorian staff", "Ancient globe", "Battle plans", "'Prima Legio' painting"],
 				"NPCs": ["Velucia"]
 			},
-			"Complete the archaeology collection 'Museum - Zarosian V'":{
+			"Complete the archaeology collection 'Museum - Zarosian V'": {
 				"Items": ["Apex cap", "Curse tablet", "Funerary urn of shadow", "Infula robes", "Funerary urn of smoke", "Hand of the Ancients"],
 				"NPCs": ["Velucia"]
 			},
-			"Complete the archaeology collection 'Museum - Zarosian VI'":{
+			"Complete the archaeology collection 'Museum - Zarosian VI'": {
 				"Items": ["Decorative amphora", "Funerary urn of ice", "Loarnab rod", "Inquisitor's ceremonial armour", "Inquisitor's ceremonial mask", "Inquisitor's seal"],
 				"NPCs": ["Velucia"]
 			},
-			"Complete the archaeology collection 'Museum - Zarosian VII'":{
+			"Complete the archaeology collection 'Museum - Zarosian VII'": {
 				"Items": ["Gladiator helmet", "Gladiator sword", "Funerary urn of blood", "Funerary urn of miasma", "Model chariot", "'The Serpent's Fall' carving"],
 				"NPCs": ["Velucia"]
 			},
-			"Complete the archaeology collection 'Museum - Bandosian I'":{
+			"Complete the archaeology collection 'Museum - Bandosian I'": {
 				"Items": ["Ekeleshuun blinder mask", "Narogoshuun 'Hob-da-Gob' ball", "Rekeshuun war tether", "Ogre Kyzaj axe", "Ork cleaver sword", "Thorobshuun battle standard", "Yurkolgokh stink grenade", "High priest crozier", "High priest mitre", "High priest orb"],
 				"NPCs": ["Velucia"]
 			},
-			"Complete the archaeology collection 'Museum - Bandosian II'":{
+			"Complete the archaeology collection 'Museum - Bandosian II'": {
 				"Items": ["Beastkeeper helm", "Idithuun horn ring", "'Nosorog!' sculpture", "Ourg megahitter", "Ourg tower/goblin cower shield", "Garagorshuun anchor", "Dorgeshuun spear", "'Forged in War' sculpture"],
 				"NPCs": ["Velucia"]
 			},
-			"Complete the archaeology collection 'Museum - Bandosian III'":{
+			"Complete the archaeology collection 'Museum - Bandosian III'": {
 				"Items": ["Huzamogaarb chaos crown", "Saragorgak star crown", "Drogokishuun hook sword", "Hobgoblin mansticker", "Kal-i-kra chieftan crown", "Kal-i-kra mace", "Kal-i-kra warhorn", "'Da Boss Man' sculpture", "Horogothgar cooking pot"],
 				"NPCs": ["Velucia"]
 			},
-			"Complete the archaeology collection 'Wise Am the Music Man'":{
+			"Complete the archaeology collection 'Wise Am the Music Man'": {
 				"Items": ["Everlight harp", "Everlight trumpet", "Everlight violin", "Avian song-egg player", "Keshik drum", "Morin khuur", "Songbird recorder"],
 				"NPCs": ["Wise Old Man"]
 			},
-			"Complete the archaeology collection 'Hat Problem'":{
+			"Complete the archaeology collection 'Hat Problem'": {
 				"Items": ["Imp mask", "Ekeleshuun blinder mask", "High priest mitre", "Beastkeeper helm", "Huzamogaarb chaos crown", "Flat cap", "Praetorian hood"],
 				"NPCs": ["Wise Old Man"]
 			},
-			"Complete the archaeology collection 'Hat Hoarder'":{
+			"Complete the archaeology collection 'Hat Hoarder'": {
 				"Items": ["Lesser demon mask", "Greater demon mask", "Ceremonial unicorn ornament", "Pontifex mitre", "Saragorgak star crown", "Kal-i-kra chieftan crown", "Tsutsaroth helm"],
 				"NPCs": ["Wise Old Man"]
 			},
-			"Complete the archaeology collection 'Magic Man'":{
+			"Complete the archaeology collection 'Magic Man'": {
 				"Items": ["Legatus Maximus figurine", "Ritual dagger", "Ancient timepiece", "'Incite Fear' spell scroll", "'Exsanguinate' spell scroll", "High priest mitre", "'Smoke Cloud' spell scroll", "'Animate Dead' spell scroll", "Portable phylactery", "Chuluu stone"],
 				"NPCs": ["Wise Old Man"]
 			},
-			"Complete the archaeology collection 'Knowledge is Power'":{
+			"Complete the archaeology collection 'Knowledge is Power'": {
 				"Items": ["Crest of Dagon", "Ikovian gerege", "Necromantic focus", "Golem instruction", "'The Enlightened Soul' scroll", "'The Eudoxian Elements' tablet", "'Da Boss Man' sculpture"],
 				"NPCs": ["Wise Old Man"]
 			},
-			"Complete the archaeology collection ~|'Desperate for Artefacts'|~*":{
+			"Complete the archaeology collection ~|'Desperate for Artefacts'|~*": {
 				"Chunks": ["16709-2"],
 				"Items": ["Orthenglass"],
 				"Skills": {
@@ -182011,7 +183713,7 @@
 						"Let Them Eat Pie": "step"
 					}
 				},
-				"6":{
+				"6": {
 					"Object": {
 						"Land of Snow portal": 1
 					},
@@ -218543,6 +220245,7 @@
 				"Infinity hat",
 				"Infinity top"
 			],
+			"Instrument[+]": ["Enchanted lyre", "Holy Cithara"],
 			"Initiate[+]": [
 				"Initiate cruisse",
 				"Initiate hauberk",
@@ -219580,6 +221283,40 @@
 				"Refined anima core body of Zaros",
 				"Refined anima core helm of Zaros",
 				"Refined anima core legs of Zaros"
+			],
+			"Relic[+]": [
+				"The Mortal Cup",
+				"Dharok's Memento",
+				"Aurelius's Mask",
+				"Eye of Het (broken)",
+				"Ring of Solomon",
+				"Goblin Warpaints",
+				"The Rings of Razulei",
+				"Cup of Nectar",
+				"Experimental Aether Reactor",
+				"Seal of the Praefectus",
+				"Threads of Fate",
+				"Abyssal Gatestone",
+				"Oo'glog Wellspring",
+				"Queen Mab's Moonstone",
+				"Seed of the Charyou Tree",
+				"Andvaranaut",
+				"Koschei's Death Egg",
+				"Cres Framework",
+				"Evil Bob's Catspaw",
+				"Soma",
+				"Kaladanda",
+				"The Subtle Blade",
+				"Amascut's Enchanted Gem",
+				"Hand of Glory (Ring of Luck)",
+				"Hand of Glory (Ring of Wealth)",
+				"Hand of Glory (Ring of Fortune)",
+				"Hand of Glory (Luck of the Dwarves)",
+				"Pastkeeper's tapestry",
+				"Ariadne's Diadem",
+				"Petasos",
+				"Howl's Thinking Cap",
+				"Helm of Terror"
 			],
 			"RelicHelm[+]": [
 				"Relic helm of Armadyl",
@@ -222270,6 +224007,7 @@
 			"Incandescentboon[+]": "Any type of energy that can be used to create an incandescent boon",
 			"InferiorDivine[+]": "Any resource that can be used to make an inferior locator",
 			"InfinityRobes[+]": "Any pieces of infinity robes",
+			"Instrument[+]": "Any instrument to perform at Everlight",
 			"Initiate[+]": "Any piece of initiate armour",
 			"IntricateDecorativeArmour[+]": "Any piece of intricate decorative armour",
 			"InventionPotion[+]": "Any invention potion",
@@ -222407,6 +224145,7 @@
 			"RefinedSliskeAnimaCore[+]": "Any piece of refined Sliske anima core armour",
 			"RefinedZamorakAnimaCore[+]": "Any piece of refined Zamorak anime core armour",
 			"RefinedZarosAnimaCore[+]": "Any piece of refined Zaros anime core armour",
+			"Relic[+]": "Any Archaeology relic",
 			"RelicHelm[+]": "Any god relic helm",
 			"RelicymBalm[+]": "Any Relicym's balm vial",
 			"RemoteViewFamiliar[+]": "Any familiar with the 'Remote view' ability",
@@ -226016,7 +227755,8 @@
 		"Varrock Achievements": "Easy, Medium, Hard, Elite",
 		"Wilderness Achievements": "Easy, Medium, Hard, Elite",
 		"Combat Mastery achievements": "Easy, Medium, Hard, Elite, Master, Grandmaster",
-		"Completionist achievements": "Master Quest Cape, Completionist Cape, Trimmed Completionist Cape"
+		"Completionist achievements": "Master Quest Cape, Completionist Cape, Trimmed Completionist Cape",
+		"Achievements": "Skills, Exploration, Combat, Lore, Activities"
 	},
 	"clues": {
 		"easy": {
@@ -304853,7 +306593,7 @@
 				"Reinforced dinosaur pelt": {
 					"1": "1/150"
 				},
-				"Dinosaur rib bone":{
+				"Dinosaur rib bone": {
 					"1": "1/150"
 				},
 				"Compacted hides": {
@@ -305040,7 +306780,7 @@
 				"Reinforced dinosaur pelt": {
 					"1": "1/150"
 				},
-				"Dinosaur rib bone":{
+				"Dinosaur rib bone": {
 					"1": "1/150"
 				},
 				"Compacted hides": {
@@ -305304,7 +307044,7 @@
 				"Reinforced dinosaur pelt": {
 					"1": "1/150"
 				},
-				"Dinosaur rib bone":{
+				"Dinosaur rib bone": {
 					"1": "1/150"
 				},
 				"Compacted hides": {
