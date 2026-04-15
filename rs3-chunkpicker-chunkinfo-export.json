@@ -10168,49 +10168,49 @@
 			},
 			"Change the walls in your ~|house style|~ to basic wood": {
 				"Category": ["Construction Milestone"],
-				"NPCs": ["Estate agent"],
+				"NPCs": ["Estate agent[+]"],
 				"Level": 1,
 				"Primary": false,
 				"Priority": 7
 			},
 			"Change the ground in your ~|house style|~ to green floor": {
 				"Category": ["Construction Milestone"],
-				"NPCs": ["Estate agent"],
+				"NPCs": ["Estate agent[+]"],
 				"Level": 1,
 				"Primary": false,
 				"Priority": 8
 			},
 			"Change the ground in your ~|house style|~ to blue floor": {
 				"Category": ["Construction Milestone"],
-				"NPCs": ["Estate agent"],
+				"NPCs": ["Estate agent[+]"],
 				"Level": 1,
 				"Primary": false,
 				"Priority": 9
 			},
 			"Change the ground in your ~|house style|~ to rough grass": {
 				"Category": ["Construction Milestone"],
-				"NPCs": ["Estate agent"],
+				"NPCs": ["Estate agent[+]"],
 				"Level": 1,
 				"Primary": false,
 				"Priority": 10
 			},
 			"Change the dungeon in your ~|house style|~ to rough stone": {
 				"Category": ["Construction Milestone"],
-				"NPCs": ["Estate agent"],
+				"NPCs": ["Estate agent[+]"],
 				"Level": 1,
 				"Primary": false,
 				"Priority": 11
 			},
 			"Change the lighting in your ~|house style|~ to day": {
 				"Category": ["Construction Milestone"],
-				"NPCs": ["Estate agent"],
+				"NPCs": ["Estate agent[+]"],
 				"Level": 1,
 				"Primary": false,
 				"Priority": 12
 			},
 			"Move your ~|player-owned house|~ to Rimmington": {
 				"Category": ["Construction Milestone"],
-				"NPCs": ["Estate agent"],
+				"NPCs": ["Estate agent[+]"],
 				"Chunks": ["11826"],
 				"Level": 1,
 				"Primary": false,
@@ -10218,7 +10218,7 @@
 			},
 			"Move your ~|player-owned house|~ to Taverley": {
 				"Category": ["Construction Milestone"],
-				"NPCs": ["Estate agent"],
+				"NPCs": ["Estate agent[+]"],
 				"Chunks": ["11573"],
 				"Level": 1,
 				"Primary": false,
@@ -10532,14 +10532,14 @@
 			},
 			"Change the walls in your ~|house style|~ to basic stone": {
 				"Category": ["Construction Milestone"],
-				"NPCs": ["Estate agent"],
+				"NPCs": ["Estate agent[+]"],
 				"Level": 10,
 				"Primary": false,
 				"Priority": 5
 			},
 			"Change the dungeon in your ~|house style|~ to smooth stone": {
 				"Category": ["Construction Milestone"],
-				"NPCs": ["Estate agent"],
+				"NPCs": ["Estate agent[+]"],
 				"Level": 10,
 				"Primary": false,
 				"Priority": 6
@@ -10805,21 +10805,21 @@
 			},
 			"Change the walls in your ~|house style|~ to whitewashed stone": {
 				"Category": ["Construction Milestone"],
-				"NPCs": ["Estate agent"],
+				"NPCs": ["Estate agent[+]"],
 				"Level": 20,
 				"Primary": false,
 				"Priority": 3
 			},
 			"Change the ground in your ~|house style|~ to desert": {
 				"Category": ["Construction Milestone"],
-				"NPCs": ["Estate agent"],
+				"NPCs": ["Estate agent[+]"],
 				"Level": 20,
 				"Primary": false,
 				"Priority": 4
 			},
 			"Change the dungeon in your ~|house style|~ to desert dungeon": {
 				"Category": ["Construction Milestone"],
-				"NPCs": ["Estate agent"],
+				"NPCs": ["Estate agent[+]"],
 				"Level": 20,
 				"Primary": false,
 				"Priority": 5
@@ -11216,21 +11216,21 @@
 			},
 			"Change the walls in your ~|house style|~ to Fremennik-style wood": {
 				"Category": ["Construction Milestone"],
-				"NPCs": ["Estate agent"],
+				"NPCs": ["Estate agent[+]"],
 				"Level": 30,
 				"Primary": false,
 				"Priority": 4
 			},
 			"Change the ground in your ~|house style|~ to barren earth": {
 				"Category": ["Construction Milestone"],
-				"NPCs": ["Estate agent"],
+				"NPCs": ["Estate agent[+]"],
 				"Level": 30,
 				"Primary": false,
 				"Priority": 5
 			},
 			"Change the dungeon in your ~|house style|~ to mountain mine": {
 				"Category": ["Construction Milestone"],
-				"NPCs": ["Estate agent"],
+				"NPCs": ["Estate agent[+]"],
 				"Level": 30,
 				"Primary": false,
 				"Priority": 6
@@ -11657,21 +11657,21 @@
 			},
 			"Change the walls in your ~|house style|~ to tropical wood": {
 				"Category": ["Construction Milestone"],
-				"NPCs": ["Estate agent"],
+				"NPCs": ["Estate agent[+]"],
 				"Level": 40,
 				"Primary": false,
 				"Priority": 6
 			},
 			"Change the ground in your ~|house style|~ to mown grass": {
 				"Category": ["Construction Milestone"],
-				"NPCs": ["Estate agent"],
+				"NPCs": ["Estate agent[+]"],
 				"Level": 40,
 				"Primary": false,
 				"Priority": 7
 			},
 			"Change the dungeon in your ~|house style|~ to tropical cave": {
 				"Category": ["Construction Milestone"],
-				"NPCs": ["Estate agent"],
+				"NPCs": ["Estate agent[+]"],
 				"Level": 40,
 				"Primary": false,
 				"Priority": 8
@@ -12360,14 +12360,14 @@
 			},
 			"Change the walls in your ~|house style|~ to fancy stone": {
 				"Category": ["Construction Milestone"],
-				"NPCs": ["Estate agent"],
+				"NPCs": ["Estate agent[+]"],
 				"Level": 50,
 				"Primary": false,
 				"Priority": 8
 			},
 			"Change the dungeon in your ~|house style|~ to stone blocks": {
 				"Category": ["Construction Milestone"],
-				"NPCs": ["Estate agent"],
+				"NPCs": ["Estate agent[+]"],
 				"Level": 50,
 				"Primary": false,
 				"Priority": 9
@@ -13492,7 +13492,7 @@
 			},
 			"Change the walls in your ~|house style|~ to dark stone": {
 				"Category": ["Construction Milestone"],
-				"NPCs": ["Estate agent"],
+				"NPCs": ["Estate agent[+]"],
 				"Level": 68,
 				"Primary": false,
 				"Priority": 8
@@ -13596,7 +13596,7 @@
 			},
 			"Change the ground in your ~|house style|~ to tundra": {
 				"Category": ["Construction Milestone"],
-				"NPCs": ["Estate agent"],
+				"NPCs": ["Estate agent[+]"],
 				"Level": 70,
 				"Primary": false,
 				"Priority": 6
@@ -13948,7 +13948,7 @@
 			},
 			"Change the lighting in your ~|house style|~ to dusk": {
 				"Category": ["Construction Milestone"],
-				"NPCs": ["Estate agent"],
+				"NPCs": ["Estate agent[+]"],
 				"Level": 75,
 				"Primary": false,
 				"Priority": 9
@@ -14560,7 +14560,7 @@
 			},
 			"Change the lighting in your ~|house style|~ to night": {
 				"Category": ["Construction Milestone"],
-				"NPCs": ["Estate agent"],
+				"NPCs": ["Estate agent[+]"],
 				"Level": 85,
 				"Primary": false,
 				"Priority": 4
@@ -35208,6 +35208,7 @@
 				"Level": 119,
 				"Output": "Money tree cash bag",
 				"Primary": false,
+				"NoBoost": true,
 				"Priority": 1
 			},
 			"Buy the ~|Farming master cape|~": {
@@ -46163,7 +46164,7 @@
 				"Primary": true,
 				"Priority": 1
 			},
-			"Barehand catch a ~|sugilite moth|~": {
+			"Barehand catch a ~|calcite moth|~": {
 				"Objects": ["Hollow tree (Hollow Hill)"],
 				"Level": 102,
 				"Skills": {
@@ -46172,7 +46173,7 @@
 				"Primary": true,
 				"Priority": 2
 			},
-			"Barehand catch a ~|sugilite moth|~": {
+			"Barehand catch a ~|azurite moth|~": {
 				"Objects": ["Hollow tree (Hollow Hill)"],
 				"Level": 103,
 				"Skills": {
@@ -149857,7 +149858,7 @@
 				"UnlocksArea": true
 			},
 			"Player-owned house": {
-				"NPCs": ["Estate agent"],
+				"NPCs": ["Estate agent[+]"],
 				"UnlocksArea": true
 			},
 			"Fremennik Trials Maze": {
@@ -199803,7 +199804,8 @@
 						"Cave entrance": 1,
 						"Copper rock": 2,
 						"Coal rock": 4,
-						"Silver rock": 2
+						"Silver rock": 2,
+						"Crashed star": 1
 					},
 					"NPC": {
 						"Gidon": 1
@@ -200536,8 +200538,7 @@
 						"Tree": 9,
 						"Tin rock": 3,
 						"Iron rock": 3,
-						"Log balance (Highweald Forest)": 1,
-						"Crashed star": 1
+						"Log balance (Highweald Forest)": 1
 					},
 					"Spawn": {
 						"Steel pickaxe": 1
@@ -215499,7 +215500,7 @@
 				"Medium spiky orikalkum salvage": "1/65536@3-5 (noted)",
 				"Large blunt necronium salvage": "1/87381@2 (noted)",
 				"Wine of Saradomin": "1/163840@14-16 (noted)",
-				"Aura refresh": "1/52428@1",
+				"Starbloom flower seed": "1/52428@4",
 				"Distraction & Diversion reset token (daily)": "1/131072@1",
 				"Distraction & Diversion reset token (weekly)": "1/131072@1",
 				"Distraction & Diversion reset token (monthly)": "1/131072@1",
@@ -215553,7 +215554,7 @@
 				"Medium spiky orikalkum salvage": "1/512@3-5 (noted)",
 				"Large blunt necronium salvage": "1/683@2 (noted)",
 				"Wine of Saradomin": "1/1280@14-16 (noted)",
-				"Aura refresh": "1/410@1",
+				"Starbloom flower seed": "1/410@1",
 				"Distraction & Diversion reset token (daily)": "1/1024@1",
 				"Distraction & Diversion reset token (weekly)": "1/1024@1",
 				"Distraction & Diversion reset token (monthly)": "1/1024@1",
@@ -215593,7 +215594,7 @@
 				"Medium spiky orikalkum salvage": "20/640@3-5 (noted)",
 				"Large blunt necronium salvage": "15/640@2 (noted)",
 				"Wine of Saradomin": "8/640@14-16 (noted)",
-				"Aura refresh": "25/640@1",
+				"Starbloom flower seed": "25/640@1",
 				"Distraction & Diversion reset token (daily)": "10/640@1",
 				"Distraction & Diversion reset token (weekly)": "10/640@1",
 				"Distraction & Diversion reset token (monthly)": "10/640@1",
@@ -223506,6 +223507,7 @@
 				"Villager (Wendlewick)"
 			],
 			"Dyer[+]": ["Aggie", "Rana the dyer"],
+			"Estate agent[+]": ["Estate agent", "Alfred Stonemason"],
 			"Farmer[+]": ["Farmer", "Farmer (Marigold Farm)", "Farmer Sharon", "Farmer Rachel"],
 			"Gecko[+]": ["Gecko", "Baby gecko"],
 			"GodEmissaries[+]": ["Endwyr, Emissary of Seren", "Hannu, Emissary of V", "Holstein, Emissary of the Godless", "Julienne, Emissary of Saradomin", "Moldark, Emissary of Zamorak", "Murknose, Emissary of Bandos", "Relomia, Emissary of Sliske", "Soran, Emissary of Zaros", "Taw'Paak, Emissary of Armadyl"],
@@ -223538,6 +223540,7 @@
 			"Archaeologist[+]": "A pickpocketable archaeologist at any dig site",
 			"Citizen[+]": "Any pickpocketable citizen",
 			"Dyer[+]": "Access to either Rana or Aggie",
+			"Estate agent[+]": "Any NPC that will sell you a house",
 			"Farmer[+]": "Any pickpocketable farmer",
 			"Gecko[+]": "Any catchable gecko pet",
 			"GodEmissaries[+]": "Any God Emissary",
@@ -284318,7 +284321,7 @@
 			{ "color": "#000000", "x": 3061, "y": 3894 },
 			{ "color": "#000000", "x": 3050, "y": 3941 },
 			{ "color": "#000000", "x": 3092, "y": 3963 },
-			{ "color": "#D1B771", "x": 4225, "y": 3475 },
+			{ "color": "#D1B771", "x": 4221, "y": 3475 },
 			{ "color": "#D1B771", "x": 4372, "y": 3161 }
 		],
 		"Evil Trees": [
@@ -284430,7 +284433,8 @@
 			{ "color": "#ffc719", "x": 3160, "y": 3299 },
 			{ "color": "#ffc719", "x": 2619, "y": 3344 },
 			{ "color": "#ffc719", "x": 3212, "y": 3345 },
-			{ "color": "#ffc719", "x": 2538, "y": 3845 }
+			{ "color": "#ffc719", "x": 2538, "y": 3845 },
+			{ "color": "#ffc719", "x": 4264, "y": 3295 }
 		],
 		"Goblin Raids": [
 			{ "color": "#556B2F", "x": 2873, "y": 3502 },
@@ -374198,7 +374202,6 @@
 			"slot": "main hand weapon",
 			"prayer": 0,
 			"style": "necromancy",
-			"ability_damage": 0,
 			"magic_damage": 0,
 			"melee_damage": 0,
 			"armour": 0,
