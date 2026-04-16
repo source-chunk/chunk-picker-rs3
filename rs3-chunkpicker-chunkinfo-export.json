@@ -9901,24 +9901,6 @@
 		        "NoPet": true,
 		        "Priority": 4
 		    },
-		    "Eat a piece of ~|scorpion meat|~": {
-		        "Category": ["Full Healing"],
-		        "Items": ["Scorpion meat"],
-		        "Level": 85,
-		        "Primary": false,
-		        "Not Equip": false,
-		        "NoPet": true,
-		        "Priority": 5
-		    },
-		    "Get the full amount of healing from ~|cavefish|~": {
-		        "Category": ["Full Healing"],
-		        "Items": ["Cavefish"],
-		        "Level": 88,
-		        "Primary": false,
-		        "Not Equip": false,
-		        "NoPet": true,
-		        "Priority": 1
-		    },
 		    "Use a ~|portent of restoration IX|~": {
 		        "Items": ["Portent of restoration IX"],
 		        "Level": 88,
