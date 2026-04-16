@@ -126437,7 +126437,7 @@
 			},
 			"~|Achievements#Skills|~ Agility 120": {
 				"Category": ["Misc achievements", "Level-up achievements", "No RuneScore"],
-				"Description": "Reach level 120 in the Agility skill.",
+				"Description": "Reach virtual level 120 in the Agility skill.",
 				"BaseQuest": "Achievements",
 				"Skills": {
 					"Agility": 120
@@ -128108,6 +128108,282 @@
 				},
 				"RuneScore": 25,
 				"Not F2P": true
+			},
+			"~|Achievements#Skills|~ Attack 120": {
+				"Category": ["Misc achievements", "Level-up achievements"],
+				"Description": "Reach level 120 in the Attack skill.",
+				"BaseQuest": "Achievements",
+				"Skills": {
+					"Attack": 120
+				},
+				"RuneScore": 75,
+				"NoBoost": true
+			},
+			"~|Achievements#Skills|~ Constitution 99": {
+				"Category": ["Misc achievements", "Level-up achievements"],
+				"Description": "Reach level 99 in the Constitution skill.",
+				"BaseQuest": "Achievements",
+				"Skills": {
+					"Constitution": 99
+				},
+				"RuneScore": 55,
+				"NoBoost": true
+			},
+			"~|Achievements#Skills|~ Constitution 120": {
+				"Category": ["Misc achievements", "Level-up achievements", "No RuneScore"],
+				"Description": "Reach virtual level 120 in the Constitution skill.",
+				"BaseQuest": "Achievements",
+				"Skills": {
+					"Constitution": 120
+				},
+				"NoBoost": true,
+				"Allow Virtual": true
+			},
+			"~|Achievements#Skills|~ Construction 5": {
+				"Category": ["Misc achievements", "Level-up achievements"],
+				"Description": "Reach level 5 in the Construction skill.",
+				"BaseQuest": "Achievements",
+				"Skills": {
+					"Construction": 5
+				},
+				"RuneScore": 5,
+				"NoBoost": true
+			},
+			"~|Achievements#Skills|~ Construction 99": {
+				"Category": ["Misc achievements", "Level-up achievements"],
+				"Description": "Reach level 99 in the Construction skill.",
+				"BaseQuest": "Achievements",
+				"Skills": {
+					"Construction": 99
+				},
+				"Not F2P": true,
+				"RuneScore": 55,
+				"NoBoost": true
+			},
+			"~|Achievements#Skills|~ Construction 120": {
+				"Category": ["Misc achievements", "Level-up achievements", "No RuneScore"],
+				"Description": "Reach virtual level 120 in the Construction skill.",
+				"BaseQuest": "Achievements",
+				"Skills": {
+					"Construction": 120
+				},
+				"Not F2P": true,
+				"Allow Virtual": true,
+				"NoBoost": true
+			},
+			"~|Achievements#Skills|~ Wen Mah Aquarium Jas Got A Bik Too Ful": {
+				"Category": ["Misc achievements"],
+				"Description": "Place a Stone of Jas plug in your aquarium.",
+				"BaseQuest": "Achievements",
+				"Chunks": ["Player-owned house"],
+				"Items": [
+					"Golden trout eggs",
+					"Golden salmon eggs",
+					"Golden tuna eggs",
+					"Golden rainbow fish eggs",
+					"Golden lobster eggs",
+					"Golden leaping trout eggs",
+					"Golden swordfish eggs",
+					"Golden lava eel eggs",
+					"Golden leaping salmon eggs",
+					"Golden monkfish eggs",
+					"Golden leaping sturgeon eggs",
+					"Golden shark eggs",
+					"Golden cavefish eggs",
+					"Golden rocktail eggs"
+				],
+				"Skills": {
+					"Construction": 63
+				},
+				"RuneScore": 30,
+				"Not F2P": true
+			},
+			"~|Achievements#Skills|~ Construction Contracts V": {
+				"Category": ["Misc achievements"],
+				"Description": "Complete 100 construction contracts.",
+				"BaseQuest": "Achievements",
+				"Items": ["White candle", "Bolt of cloth", "Steel bar", "Plank[+]", "Nails[+]", "ConstructionMetalBar[+]"],
+				"Chunks": ["12338-1", "12850-1", "12853-1", "12342-1"],
+				"NPCs": ["Estate agent"],
+				"Skills": {
+					"Construction": 40
+				},
+				"RuneScore": 30,
+				"Not F2P": true
+			},
+			"~|Achievements#Skills|~ Five Star Review": {
+				"Category": ["Misc achievements"],
+				"Description": "Earn 5 credits from a construction contract.",
+				"BaseQuest": "Achievements",
+				"Items": ["White candle", "Bolt of cloth", "Steel bar", "Mahogany plank", "Nails[+]", "ConstructionMetalBar[+]"],
+				"Chunks": ["Construction Contracts[+]"],
+				"NPCs": ["Estate agent"],
+				"Skills": {
+					"Construction": 70
+				},
+				"RuneScore": 5,
+				"Not F2P": true
+			},
+			"~|Achievements#Skills|~ One Star Review": {
+				"Category": ["Misc achievements"],
+				"Description": "Earn only 1 credit from a construction contract.",
+				"BaseQuest": "Achievements",
+				"Items": ["White candle", "Bolt of cloth", "Steel bar", "Plank", "Nails[+]", "ConstructionMetalBar[+]"],
+				"Chunks": ["Construction Contracts[+]"],
+				"NPCs": ["Estate agent"],
+				"Skills": {
+					"Construction": 40
+				},
+				"RuneScore": 5,
+				"Not F2P": true
+			},
+			"~|Achievements#Skills|~ Cooking 99": {
+				"Category": ["Misc achievements", "Level-up achievements"],
+				"Description": "Reach level 99 in the Cooking skill.",
+				"BaseQuest": "Achievements",
+				"Skills": {
+					"Cooking": 99
+				},
+				"RuneScore": 60,
+				"NoBoost": true
+			},
+			"~|Achievements#Skills|~ Cooking 120": {
+				"Category": ["Misc achievements", "Level-up achievements", "No RuneScore"],
+				"Description": "Reach virtual level 120 in the Cooking skill.",
+				"BaseQuest": "Achievements",
+				"Skills": {
+					"Cooking": 120
+				},
+				"Allow Virtual": true,
+				"NoBoost": true
+			},
+			"~|Achievements#Skills|~ Cheese and Biscuits": {
+				"Category": ["Misc achievements"],
+				"Description": "Make one of each kind of cheesecake.",
+				"BaseQuest": "Achievements",
+				"Items": ["Cake tin", "Pot of cream", "Cream cheese", "Biscuits", "Vanilla cream cheese", "Chocolate cream cheese", "Strawberry cream cheese", "Lemon", "Bacon"],
+				"Tasks": {
+					"~|Chef's Assistant|~ Complete the quest": "Quest",
+					"~|Bringing Home the Bacon|~ Complete the quest": "Quest"
+				},
+				"Skills": {
+					"Cooking": 57
+				},
+				"RuneScore": 10,
+				"Not F2P": true
+			},
+			"~|Achievements#Skills|~ Life Feeds On Life": {
+				"Category": ["Misc achievements", "No RuneScore"],
+				"Description": "Cook a shrimp on a range in Lumbridge (can be completed on a fire).",
+				"BaseQuest": "Achievements",
+				"Chunks": ["12850"],
+				"Items": ["Raw shrimps"]
+			},
+			"~|Achievements#Skills|~ The Great Gnomish Shake Off": {
+				"Category": ["Misc achievements"],
+				"Description": "Create all gnome cocktails.",
+				"BaseQuest": "Achievements",
+				"Chunks": ["9782"],
+				"Items": ["Pineapple", "Lemon", "Orange", "Lime", "Vodka", "Gin", "Whisky", "Brandy", "Equa leaves", "Dwellberries", "Pot of cream", "Chocolate bar", "Bucket of milk", "Chocolate dust", "Cocktail glass"],
+				"Skills": {
+					"Cooking": 37
+				},
+				"RuneScore": 10,
+				"Not F2P": true
+			},
+			"~|Achievements#Skills|~ Crafting 110": {
+				"Category": ["Misc achievements", "Level-up achievements"],
+				"Description": "Reach level 110 in the Crafting skill.",
+				"BaseQuest": "Achievements",
+				"Skills": {
+					"Crafting": 99
+				},
+				"RuneScore": 65,
+				"NoBoost": true
+			},
+			"~|Achievements#Skills|~ Crafting 120": {
+				"Category": ["Misc achievements", "Level-up achievements", "No RuneScore"],
+				"Description": "Reach virtual level 120 in the Crafting skill.",
+				"BaseQuest": "Achievements",
+				"Skills": {
+					"Crafting": 120
+				},
+				"Allow Virtual": true,
+				"NoBoost": true
+			},
+			"~|Achievements#Skills|~ The School of Jewels": {
+				"Category": ["Misc achievements"],
+				"Description": "Cut each type of gem.",
+				"BaseQuest": "Achievements",
+				"Items": ["Uncut opal", "Uncut jade", "Uncut red topaz", "Uncut sapphire", "Uncut emerald", "Uncut ruby", "Uncut diamond", "Uncut dragonstone", "Uncut moonstone", "Uncut onyx", "Uncut hydrix"],
+				"Skills": {
+					"Crafting": 79
+				},
+				"RuneScore": 20,
+				"Not F2P": true
+			},
+			
+			
+			
+			
+			
+			"~|Achievements#Skills|~ ": {
+				"Category": ["Misc achievements"],
+				"Description": "",
+				"BaseQuest": "Achievements",
+				"Chunks": [""],
+				"Items": [""],
+				"Skills": {
+					
+				},
+				"RuneScore": 10,
+				"Not F2P": true
+			},
+			
+			
+			
+			
+			"~|Achievements#Skills|~ Defence 99": {
+				"Category": ["Misc achievements", "Level-up achievements"],
+				"Description": "Reach level 99 in the Defence skill.",
+				"BaseQuest": "Achievements",
+				"Skills": {
+					"Defence": 99
+				},
+				"RuneScore": 60,
+				"NoBoost": true
+			},
+			"~|Achievements#Skills|~ Defence 120": {
+				"Category": ["Misc achievements", "Level-up achievements", "No RuneScore"],
+				"Description": "Reach virtual level 120 in the Defence skill.",
+				"BaseQuest": "Achievements",
+				"Skills": {
+					"Defence": 120
+				},
+				"NoBoost": true,
+				"Allow Virtual": true
+			},
+			
+			"~|Achievements#Skills|~ Ranged 120": {
+				"Category": ["Misc achievements", "Level-up achievements"],
+				"Description": "Reach level 120 in the Ranged skill.",
+				"BaseQuest": "Achievements",
+				"Skills": {
+					"Ranged": 120
+				},
+				"RuneScore": 75,
+				"NoBoost": true
+			},
+			
+			"~|Achievements#Skills|~ Strength 120": {
+				"Category": ["Misc achievements", "Level-up achievements"],
+				"Description": "Reach virtual level 120 in the Strength skill.",
+				"BaseQuest": "Achievements",
+				"Skills": {
+					"Strength": 120
+				},
+				"RuneScore": 75,
+				"NoBoost": true
 			},
 			
 			
@@ -224399,6 +224675,7 @@
 			"CarpetChunks[+]": ["12591", "12844", "13100", "13104-1","13357-2", "13358-1", "13613", "13872"],
 			"ChaosAltar[+]": ["12856", "11835"],
 			"ChaosTunnelEntrance[+]": ["12343-1", "12599", "12600", "12344", "12087-1"],
+			"Construction Contract[+]": ["12338-1", "12850-1", "12853-1", "12342-1"],
 			"CoolStoryBroChunks[+]": ["9275", "9531-1"],
 			"CorruptedScarabs[+]": ["12587-1", "12843-1", "13098-1", "12586", "12585"],
 			"CropCircle[+]": ["9782-1", "10044-1", "10288-1", "10292", "11058", "11062-1", "11826", "11829-1", "12339", "12595", "12598", "12852", "14639"],
@@ -224498,6 +224775,7 @@
 			"CarpetChunks[+]": "Any chunks used for carpet rides",
 			"ChaosAltarChunks[+]": "The Chaos altar at Level 12 or Level 38 Wilderness",
 			"ChaosTunnelEntrance[+]": "Any Wilderness chunk from which you can enter the Chaos Tunnels",
+			"Construction Contract[+]": "Any location used in Construction Contracts",
 			"CoolStoryBroChunks[+]": "Any chunk from which you can watch the Fremennik Isle tower guard shouting match",
 			"CorruptedScarabs[+]": "Any chunk in which Corrupted Scarabs spawn",
 			"CreatureOfFenkenstrain1[+]": "Any chunk where you can start 'Creature of Fenkenstrain'",
