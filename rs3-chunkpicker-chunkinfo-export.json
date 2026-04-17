@@ -28792,7 +28792,7 @@
 			"Harvest with a ~|cobalt skillchompa|~": {
 				"Items": ["Cobalt skillchompa"],
 				"Level": 31,
-				"NPCs": ["Wisp[+]"],
+				"NPCs": ["Lvl-1 Wisp[+]"],
 				"Primary": false,
 				"Priority": 1
 			},
@@ -28882,7 +28882,7 @@
 			"Harvest with a ~|viridian skillchompa|~": {
 				"Items": ["Viridian skillchompa"],
 				"Level": 41,
-				"NPCs": ["Wisp[+]"],
+				"NPCs": ["Lvl-1 Wisp[+]"],
 				"Primary": false,
 				"Priority": 1
 			},
@@ -28984,7 +28984,7 @@
 			"Harvest with an ~|azure skillchompa|~": {
 				"Items": ["Azure skillchompa"],
 				"Level": 51,
-				"NPCs": ["Wisp[+]"],
+				"NPCs": ["Lvl-1 Wisp[+]"],
 				"Primary": false,
 				"Priority": 1
 			},
@@ -29038,7 +29038,7 @@
 			"Harvest with a ~|crimson skillchompa|~": {
 				"Items": ["Crimson skillchompa"],
 				"Level": 61,
-				"NPCs": ["Wisp[+]"],
+				"NPCs": ["Lvl-1 Wisp[+]"],
 				"Primary": false,
 				"Priority": 1
 			},
@@ -29180,7 +29180,7 @@
 			"Harvest with a ~|crystal skillchompa|~": {
 				"Items": ["Crystal skillchompa"],
 				"Level": 71,
-				"NPCs": ["Wisp[+]"],
+				"NPCs": ["Lvl-1 Wisp[+]"],
 				"Primary": false,
 				"Priority": 1
 			},
@@ -126416,48 +126416,64 @@
 				"ManualShow": true,
 				"Not F2P": true
 			},
-			"~|Achievements#Skills|~ Agility 5": {
+			"~|Skills achievements#Agility|~ Agility 5": {
 				"Category": ["Misc achievements", "Level-up achievements"],
 				"Description": "Reach level 5 in the Agility skill.",
-				"BaseQuest": "Achievements",
+				"BaseQuest": "Skills achievements",
 				"Skills": {
 					"Agility": 5
 				},
 				"RuneScore": 5
 			},
-			"~|Achievements#Skills|~ Agility 99": {
+			"~|Skills achievements#Agility|~ Agility 99": {
 				"Category": ["Misc achievements", "Level-up achievements"],
 				"Description": "Reach level 99 in the Agility skill.",
-				"BaseQuest": "Achievements",
+				"BaseQuest": "Skills achievements",
 				"Skills": {
 					"Agility": 99
+				},
+				"Tasks": {
+					"~|Skills achievements#Divination|~ Agility 5": "Diary"
 				},
 				"Not F2P": true,
 				"RuneScore": 55
 			},
-			"~|Achievements#Skills|~ Agility 120": {
+			"~|Skills achievements#Agility|~ Agility 120": {
 				"Category": ["Misc achievements", "Level-up achievements", "No RuneScore"],
 				"Description": "Reach virtual level 120 in the Agility skill.",
-				"BaseQuest": "Achievements",
+				"BaseQuest": "Skills achievements",
 				"Skills": {
 					"Agility": 120
+				},
+				"Tasks": {
+					"~|Skills achievements#Divination|~ Agility 99": "Diary"
 				},
 				"Not F2P": true,
 				"Allow Virtual": true
 			},
-			"~|Achievements#Skills|~ I Meant To Do That": {
+			"~|Skills achievements#Agility|~ I Meant To Do That": {
 				"Category": ["Misc achievements"],
 				"Description": "Surge a distance of one tile.",
-				"BaseQuest": "Achievements",
+				"BaseQuest": "Skills achievements",
 				"Skills": {
 					"Agility": 5
 				},
 				"RuneScore": 10
 			},
-			"~|Achievements#Skills|~ A Little Overdressed": {
+			"~|Skills achievements#Agility|~ Complete the Agility achievements": {
+				"Category": ["Misc achievements"],
+				"BaseQuest": "Skills achievements",
+				"Tasks": {
+					"~|Skills achievements#Agility|~ Agility 120": "Diary",
+					"~|Skills achievements#Agility|~ I Meant To Do That": "Diary"
+				},
+				"ManualShow": true,
+				"Not F2P": true
+			},
+			"~|Skills achievements#Archaeology|~ A Little Overdressed": {
 				"Category": ["Misc achievements"],
 				"Description": "Wear a full diving outfit to go diving in Everlight.",
-				"BaseQuest": "Achievements",
+				"BaseQuest": "Skills achievements",
 				"Chunks": ["Underwater Cave Excavation Site"],
 				"Items": ["Diving apparatus", "Fishbowl helmet"],
 				"Skills": {
@@ -126466,59 +126482,59 @@
 				"RuneScore": 10,
 				"Not F2P": true
 			},
-			"~|Achievements#Skills|~ A New Age": {
+			"~|Skills achievements#Archaeology|~ A New Age": {
 				"Category": ["Misc achievements"],
 				"Description": "Solve this mystery.",
-				"BaseQuest": "Achievements",
+				"BaseQuest": "Skills achievements",
 				"Tasks": {
 					"Archaeology Mystery: ~|A New Age|~ Complete the mystery": "Quest"
 				},
 				"RuneScore": 15,
 				"Not F2P": true
 			},
-			"~|Achievements#Skills|~ A New Form": {
+			"~|Skills achievements#Archaeology|~ A New Form": {
 				"Category": ["Misc achievements"],
 				"Description": "Solve this mystery.",
-				"BaseQuest": "Achievements",
+				"BaseQuest": "Skills achievements",
 				"Tasks": {
 					"Archaeology Mystery: ~|A New Form|~ Complete the mystery": "Quest"
 				},
 				"RuneScore": 15,
 				"Not F2P": true
 			},
-			"~|Achievements#Skills|~ A New Home": {
+			"~|Skills achievements#Archaeology|~ A New Home": {
 				"Category": ["Misc achievements"],
 				"Description": "Solve this mystery.",
-				"BaseQuest": "Achievements",
+				"BaseQuest": "Skills achievements",
 				"Tasks": {
 					"Archaeology Mystery: ~|A New Home|~ Complete the mystery": "Quest"
 				},
 				"RuneScore": 15,
 				"Not F2P": true
 			},
-			"~|Achievements#Skills|~ A Study in Aether": {
+			"~|Skills achievements#Archaeology|~ A Study in Aether": {
 				"Category": ["Misc achievements"],
 				"Description": "Solve this mystery.",
-				"BaseQuest": "Achievements",
+				"BaseQuest": "Skills achievements",
 				"Tasks": {
 					"Archaeology Mystery: ~|A Study in Aether|~ Complete the mystery": "Quest"
 				},
 				"RuneScore": 15,
 				"Not F2P": true
 			},
-			"~|Achievements#Skills|~ Abbinah Resting Here For a While": {
+			"~|Skills achievements#Archaeology|~ Abbinah Resting Here For a While": {
 				"Category": ["Misc achievements"],
 				"Description": "Find every ancient aviansie spirit at Stormguard.",
-				"BaseQuest": "Achievements",
+				"BaseQuest": "Skills achievements",
 				"Chunks": ["Stormguard Citadel"],
 				"Items": ["Wingsuit v2"],
 				"RuneScore": 10,
 				"Not F2P": true
 			},
-			"~|Achievements#Skills|~ Any Port in a Storm": {
+			"~|Skills achievements#Archaeology|~ Any Port in a Storm": {
 				"Category": ["Misc achievements"],
 				"Description": "Activate all portals within the citadel.",
-				"BaseQuest": "Achievements",
+				"BaseQuest": "Skills achievements",
 				"Chunks": ["Stormguard Citadel"],
 				"Items": ["Quintessence", "Wingsuit v1"],
 				"Skills": {
@@ -126529,10 +126545,10 @@
 				"RuneScore": 10,
 				"Not F2P": true
 			},
-			"~|Achievements#Skills|~ Aquatic Escape": {
+			"~|Skills achievements#Archaeology|~ Aquatic Escape": {
 				"Category": ["Misc achievements"],
 				"Description": "Escape Kharid-et by boat.",
-				"BaseQuest": "Achievements",
+				"BaseQuest": "Skills achievements",
 				"Chunks": ["13360-1"],
 				"Tasks": {
 					"~|The Vault of Shadows|~ 2b": "Quest"
@@ -126540,71 +126556,74 @@
 				"RuneScore": 10,
 				"Not F2P": true
 			},
-			"~|Achievements#Skills|~ Archaeology 20": {
+			"~|Skills achievements#Archaeology|~ Archaeology 20": {
 				"Category": ["Misc achievements", "Level-up achievements"],
 				"Description": "Reach level 20 in the Archaeology skill.",
-				"BaseQuest": "Achievements",
+				"BaseQuest": "Skills achievements",
 				"Skills": {
 					"Archaeology": 20
 				},
 				"RuneScore": 15,
 				"NoBoost": true
 			},
-			"~|Achievements#Skills|~ Archaeology 120": {
+			"~|Skills achievements#Archaeology|~ Archaeology 120": {
 				"Category": ["Misc achievements", "Level-up achievements"],
 				"Description": "Reach level 120 in the Archaeology skill.",
-				"BaseQuest": "Achievements",
+				"BaseQuest": "Skills achievements",
 				"Skills": {
 					"Archaeology": 20
+				},
+				"Tasks": {
+					"~|Skills achievements#Divination|~ Archaeology 20": "Diary"
 				},
 				"RuneScore": 60,
 				"Not F2P": true,
 				"NoBoost": true
 			},
-			"~|Achievements#Skills|~ Art Critic Jacques: Anarchic Abstraction": {
+			"~|Skills achievements#Archaeology|~ Art Critic Jacques: Anarchic Abstraction": {
 				"Category": ["Archaeology Collections"],
 				"Label": "Archaeology Collections",
 				"Items": ["'Disorder' painting", "'The Lake of Fire' painting", "'Pandemonium' tapestry"],
 				"NPCs": ["Art Critic Jacques"],
 				"RuneScore": 10
 			},
-			"~|Achievements#Skills|~ Art Critic Jacques: Radiant Renaissance": {
+			"~|Skills achievements#Archaeology|~ Art Critic Jacques: Radiant Renaissance": {
 				"Category": ["Archaeology Collections"],
 				"Label": "Archaeology Collections",
 				"Items": ["'Hallowed Be the Everlight' painting", "'The Lord of Light' painting", "'The Pride of Padosan' painting"],
 				"NPCs": ["Art Critic Jacques"],
 				"RuneScore": 10
 			},
-			"~|Achievements#Skills|~ Art Critic Jacques: Imperial Impressionism": {
+			"~|Skills achievements#Archaeology|~ Art Critic Jacques: Imperial Impressionism": {
 				"Category": ["Archaeology Collections"],
 				"Label": "Archaeology Collections",
 				"Items": ["'Solem in Umbra' painting", "'Consensus ad Idem' painting", "'Prima Legio' painting"],
 				"NPCs": ["Art Critic Jacques"],
 				"RuneScore": 10
 			},
-			"~|Achievements#Skills|~ Atonement": {
+			"~|Skills achievements#Archaeology|~ Atonement": {
 				"Category": ["Misc achievements"],
 				"Description": "Solve this mystery.",
-				"BaseQuest": "Achievements",
+				"BaseQuest": "Skills achievements",
 				"Tasks": {
 					"Archaeology Mystery: ~|Atonement|~ Complete the mystery": "Quest"
 				},
 				"RuneScore": 15,
 				"Not F2P": true
 			},
-			"~|Achievements#Skills|~ Breaking the Seal": {
+			"~|Skills achievements#Archaeology|~ Breaking the Seal": {
 				"Category": ["Misc achievements"],
 				"Description": "Solve this mystery.",
-				"BaseQuest": "Achievements",
+				"BaseQuest": "Skills achievements",
 				"Tasks": {
 					"Archaeology Mystery: ~|Breaking the Seal|~ Complete the mystery": "Quest"
 				},
 				"RuneScore": 5
 			},
-			"~|Achievements#Skills|~ Breaking the Sound Barrier": {
+			"~|Skills achievements#Archaeology|~ Breaking the Sound Barrier": {
 				"Category": ["Misc achievements"],
 				"Description": "Fly across Stormguard harnessing something powerful.",
-				"BaseQuest": "Achievements",
+				"BaseQuest": "Skills achievements",
 				"Chunks": ["Stomguard Citadel"],
 				"Items": ["Wingsuit v2"],
 				"Skills": {
@@ -126613,220 +126632,227 @@
 				"RuneScore": 10,
 				"Not F2P": true
 			},
-			"~|Achievements#Skills|~ Chief Tess: Blingy Fings": {
+			"~|Skills achievements#Archaeology|~ Chief Tess: Blingy Fings": {
 				"Category": ["Archaeology Collections"],
 				"Label": "Archaeology Collections",
 				"Items": ["Ancient timepiece", "Legatus pendant", "Pontifex signet ring", "Bronze Dominion medal", "Silver Dominion medal"],
 				"NPCs": ["Chief Tess"],
 				"RuneScore": 10
 			},
-			"~|Achievements#Skills|~ Chief Tess: Hitty Fings": {
+			"~|Skills achievements#Archaeology|~ Chief Tess: Hitty Fings": {
 				"Category": ["Archaeology Collections"],
 				"Label": "Archaeology Collections",
 				"Items": ["Ceremonial mace", "Pontifex crozier", "Fishing trident", "High priest crozier", "High priest orb"],
 				"NPCs": ["Chief Tess"],
 				"RuneScore": 10
 			},
-			"~|Achievements#Skills|~ Chief Tess: Showy Fings": {
+			"~|Skills achievements#Archaeology|~ Chief Tess: Showy Fings": {
 				"Category": ["Archaeology Collections"],
 				"Label": "Archaeology Collections",
 				"Items": ["Crest of Dagon", "Legatus Maximus figurine", "'Lust' metal sculpture", "Pontifex Maximus figurine", "Ceremonial plume", "Rod of Asclepius"],
 				"NPCs": ["Chief Tess"],
 				"RuneScore": 10
 			},
-			"~|Achievements#Skills|~ Chief Tess: Smoky Fings": {
+			"~|Skills achievements#Archaeology|~ Chief Tess: Smoky Fings": {
 				"Category": ["Archaeology Collections"],
 				"Label": "Archaeology Collections",
 				"Items": ["Hookah pipe", "Opulent wine goblet", "Everlight trumpet", "Dominion torch", "Pontifex censer"],
 				"NPCs": ["Chief Tess"],
 				"RuneScore": 10
 			},
-			"~|Achievements#Skills|~ Collectors Assemble I": {
+			"~|Skills achievements#Archaeology|~ Collectors Assemble I": {
 				"Category": ["Misc achievements"],
 				"Description": "Complete 1 unique collection for an archaeological collector",
-				"BaseQuest": "Achievements",
+				"BaseQuest": "Skills achievements",
 				"Tasks": {
 					"AnyCollection[+]": "Nonskill"
 				},
 				"RuneScore": 5,
 				"Not F2P": true
 			},
-			"~|Achievements#Skills|~ Collectors Assemble II": {
+			"~|Skills achievements#Archaeology|~ Collectors Assemble II": {
 				"Category": ["Misc achievements"],
 				"Description": "Complete 2 unique collection for an archaeological collector",
-				"BaseQuest": "Achievements",
+				"BaseQuest": "Skills achievements",
 				"Tasks": {
-					"AnyCollection[+]x2": "Nonskill"
+					"AnyCollection[+]x2": "Nonskill",
+					"~|Skills achievements#Archaeology|~ Collectors Assemble I": "Diary"
 				},
 				"RuneScore": 10,
 				"Not F2P": true
 			},
-			"~|Achievements#Skills|~ Collectors Assemble III": {
+			"~|Skills achievements#Archaeology|~ Collectors Assemble III": {
 				"Category": ["Misc achievements"],
 				"Description": "Complete 5 unique collection for an archaeological collector",
-				"BaseQuest": "Achievements",
+				"BaseQuest": "Skills achievements",
 				"Tasks": {
-					"AnyCollection[+]x5": "Nonskill"
+					"AnyCollection[+]x5": "Nonskill",
+					"~|Skills achievements#Archaeology|~ Collectors Assemble II": "Diary"
 				},
 				"RuneScore": 10,
 				"Not F2P": true
 			},
-			"~|Achievements#Skills|~ Collectors Assemble IV": {
+			"~|Skills achievements#Archaeology|~ Collectors Assemble IV": {
 				"Category": ["Misc achievements"],
 				"Description": "Complete 10 unique collection for an archaeological collector",
-				"BaseQuest": "Achievements",
+				"BaseQuest": "Skills achievements",
 				"Tasks": {
-					"AnyCollection[+]x10": "Nonskill"
+					"AnyCollection[+]x10": "Nonskill",
+					"~|Skills achievements#Archaeology|~ Collectors Assemble III": "Diary"
 				},
 				"RuneScore": 15,
 				"Not F2P": true
 			},
-			"~|Achievements#Skills|~ Collectors Assemble V": {
+			"~|Skills achievements#Archaeology|~ Collectors Assemble V": {
 				"Category": ["Misc achievements"],
 				"Description": "Complete 15 unique collection for an archaeological collector",
-				"BaseQuest": "Achievements",
+				"BaseQuest": "Skills achievements",
 				"Tasks": {
-					"AnyCollection[+]x15": "Nonskill"
+					"AnyCollection[+]x15": "Nonskill",
+					"~|Skills achievements#Archaeology|~ Collectors Assemble IV": "Diary"
 				},
 				"RuneScore": 25,
 				"Not F2P": true
 			},
-			"~|Achievements#Skills|~ Collectors Assemble VI": {
+			"~|Skills achievements#Archaeology|~ Collectors Assemble VI": {
 				"Category": ["Misc achievements"],
 				"Description": "Complete 20 unique collection for an archaeological collector",
-				"BaseQuest": "Achievements",
+				"BaseQuest": "Skills achievements",
 				"Tasks": {
-					"AnyCollection[+]x20": "Nonskill"
+					"AnyCollection[+]x20": "Nonskill",
+					"~|Skills achievements#Archaeology|~ Collectors Assemble V": "Diary"
 				},
 				"RuneScore": 40,
 				"Not F2P": true
 			},
-			"~|Achievements#Skills|~ Collectors Assemble VII": {
+			"~|Skills achievements#Archaeology|~ Collectors Assemble VII": {
 				"Category": ["Misc achievements"],
 				"Description": "Complete 25 unique collection for an archaeological collector",
-				"BaseQuest": "Achievements",
+				"BaseQuest": "Skills achievements",
 				"Tasks": {
-					"AnyCollection[+]x25": "Nonskill"
+					"AnyCollection[+]x25": "Nonskill",
+					"~|Skills achievements#Archaeology|~ Collectors Assemble VI": "Diary"
 				},
 				"RuneScore": 60,
 				"Not F2P": true
 			},
-			"~|Achievements#Skills|~ Collectors Assemble VIII": {
+			"~|Skills achievements#Archaeology|~ Collectors Assemble VIII": {
 				"Category": ["Misc achievements"],
 				"Description": "Complete 50 unique collection for an archaeological collector",
-				"BaseQuest": "Achievements",
+				"BaseQuest": "Skills achievements",
 				"Tasks": {
-					"AnyCollection[+]x50": "Nonskill"
+					"AnyCollection[+]x50": "Nonskill",
+					"~|Skills achievements#Archaeology|~ Collectors Assemble VII": "Diary"
 				},
 				"RuneScore": 75,
 				"Not F2P": true
 			},
-			"~|Achievements#Skills|~ Contract Claws": {
+			"~|Skills achievements#Archaeology|~ Contract Claws": {
 				"Category": ["Misc achievements"],
 				"Description": "Solve this mystery.",
-				"BaseQuest": "Achievements",
+				"BaseQuest": "Skills achievements",
 				"Tasks": {
 					"Archaeology Mystery: ~|Contract Claws|~ Complete the mystery": "Quest"
 				},
 				"RuneScore": 5,
 				"Not F2P": true
 			},
-			"~|Achievements#Skills|~ Crypt o' Zoology": {
+			"~|Skills achievements#Archaeology|~ Crypt o' Zoology": {
 				"Category": ["Misc achievements"],
 				"Description": "Solve this mystery.",
-				"BaseQuest": "Achievements",
+				"BaseQuest": "Skills achievements",
 				"Tasks": {
 					"Archaeology Mystery: ~|Crypt o' Zoology|~ Complete the mystery": "Quest"
 				},
 				"RuneScore": 15,
 				"Not F2P": true
 			},
-			"~|Achievements#Skills|~ Dagon Bye": {
+			"~|Skills achievements#Archaeology|~ Dagon Bye": {
 				"Category": ["Misc achievements"],
 				"Description": "Solve this mystery.",
-				"BaseQuest": "Achievements",
+				"BaseQuest": "Skills achievements",
 				"Tasks": {
 					"Archaeology Mystery: ~|Dagon Bye|~ Complete the mystery": "Quest"
 				},
 				"RuneScore": 10,
 				"Not F2P": true
 			},
-			"~|Achievements#Skills|~ Death Watch": {
+			"~|Skills achievements#Archaeology|~ Death Watch": {
 				"Category": ["Misc achievements"],
 				"Description": "Solve this mystery.",
-				"BaseQuest": "Achievements",
+				"BaseQuest": "Skills achievements",
 				"Tasks": {
 					"Archaeology Mystery: ~|Death Watch|~ Complete the mystery": "Quest"
 				},
 				"RuneScore": 15,
 				"Not F2P": true
 			},
-			"~|Achievements#Skills|~ Decimation": {
+			"~|Skills achievements#Archaeology|~ Decimation": {
 				"Category": ["Misc achievements"],
 				"Description": "Solve this mystery.",
-				"BaseQuest": "Achievements",
+				"BaseQuest": "Skills achievements",
 				"Tasks": {
 					"Archaeology Mystery: ~|Decimation|~ Complete the mystery": "Quest"
 				},
 				"RuneScore": 20,
 				"Not F2P": true
 			},
-			"~|Achievements#Skills|~ Demonic Ingenuity": {
+			"~|Skills achievements#Archaeology|~ Demonic Ingenuity": {
 				"Category": ["Misc achievements"],
 				"Description": "Test the structural integrity of the gargoyle at the Infernal Source",
-				"BaseQuest": "Achievements",
+				"BaseQuest": "Skills achievements",
 				"Chunks": ["Infernal Source"],
 				"Items": ["Rock hammer"],
 				"RuneScore": 25,
 				"Not F2P": true
 			},
-			"~|Achievements#Skills|~ Die! Die! Die!": {
+			"~|Skills achievements#Archaeology|~ Die! Die! Die!": {
 				"Category": ["Misc achievements"],
 				"Description": "Harness the power of the infernal d% dice.",
-				"BaseQuest": "Achievements",
+				"BaseQuest": "Skills achievements",
 				"Chunks": ["Infernal Source"],
 				"RuneScore": 25,
 				"Not F2P": true
 			},
-			"~|Achievements#Skills|~ Elbis: Entertaining the Masses": {
+			"~|Skills achievements#Archaeology|~ Elbis: Entertaining the Masses": {
 				"Category": ["Archaeology Collections"],
 				"Label": "Archaeology Collections",
 				"Items": ["Decorative amphora", "Gladiator helmet", "Gladiator sword", "Model chariot"],
 				"NPCs": ["Eblis"],
 				"RuneScore": 10
 			},
-			"~|Achievements#Skills|~ Elbis: Finery of the Inquisition": {
+			"~|Skills achievements#Archaeology|~ Elbis: Finery of the Inquisition": {
 				"Category": ["Archaeology Collections"],
 				"Label": "Archaeology Collections",
 				"Items": ["Inquisitor's ceremonial armour", "Inquisitor's ceremonial mask", "Inquisitor's seal"],
 				"NPCs": ["Eblis"],
 				"RuneScore": 10
 			},
-			"~|Achievements#Skills|~ Elbis: Imperial Sorcery": {
+			"~|Skills achievements#Archaeology|~ Elbis: Imperial Sorcery": {
 				"Category": ["Archaeology Collections"],
 				"Label": "Archaeology Collections",
 				"Items": ["'Incite Fear' spell scroll", "Curse tablet", "Hand of the Ancients", "'Exsanguinate' spell scroll", "Necromantic focus", "'Smoke Cloud' spell scroll", "Ancient magic tablet", "'Animate Dead' spell scroll"],
 				"NPCs": ["Eblis"],
 				"RuneScore": 10
 			},
-			"~|Achievements#Skills|~ Elbis: Religious Iconography": {
+			"~|Skills achievements#Archaeology|~ Elbis: Religious Iconography": {
 				"Category": ["Archaeology Collections"],
 				"Label": "Archaeology Collections",
 				"Items": ["Apex cap", "Infula robes", "Loarnab rod", "'The Serpent's Fall' carving"],
 				"NPCs": ["Eblis"],
 				"RuneScore": 10
 			},
-			"~|Achievements#Skills|~ Elbis: Urns of the Empire": {
+			"~|Skills achievements#Archaeology|~ Elbis: Urns of the Empire": {
 				"Category": ["Archaeology Collections"],
 				"Label": "Archaeology Collections",
 				"Items": ["Funerary urn of shadow", "Funerary urn of smoke", "Funerary urn of ice", "Funerary urn of blood", "Funerary urn of miasma"],
 				"NPCs": ["Eblis"],
 				"RuneScore": 10
 			},
-			"~|Achievements#Skills|~ Eipy Rreb Dere Voli": {
+			"~|Skills achievements#Archaeology|~ Eipy Rreb Dere Voli": {
 				"Category": ["Misc achievements"],
 				"Description": "Cook Thalmund's favourite dish within Thalmund's forge.",
-				"BaseQuest": "Achievements",
+				"BaseQuest": "Skills achievements",
 				"Chunks": ["Thalmund's Forge"],
 				"Items": ["Pastry dough", "Pie dish", "Redberries", "Astral rune", "Water rune", "Fire rune"],
 				"Skills": {
@@ -126839,138 +126865,138 @@
 				"RuneScore": 25,
 				"Not F2P": true
 			},
-			"~|Achievements#Skills|~ Embrace the Chaos": {
+			"~|Skills achievements#Archaeology|~ Embrace the Chaos": {
 				"Category": ["Misc achievements"],
 				"Description": "Solve this mystery.",
-				"BaseQuest": "Achievements",
+				"BaseQuest": "Skills achievements",
 				"Tasks": {
 					"Archaeology Mystery: ~|Embrace the Chaos|~ Complete the mystery": "Quest"
 				},
 				"RuneScore": 5,
 				"Not F2P": true
 			},
-			"~|Achievements#Skills|~ Empty Children": {
+			"~|Skills achievements#Archaeology|~ Empty Children": {
 				"Category": ["Misc achievements"],
 				"Description": "Solve this mystery.",
-				"BaseQuest": "Achievements",
+				"BaseQuest": "Skills achievements",
 				"Tasks": {
 					"Archaeology Mystery: ~|Empty Children|~ Complete the mystery": "Quest"
 				},
 				"RuneScore": 15,
 				"Not F2P": true
 			},
-			"~|Achievements#Skills|~ Eyes in Their Stars": {
+			"~|Skills achievements#Archaeology|~ Eyes in Their Stars": {
 				"Category": ["Misc achievements"],
 				"Description": "Solve this mystery.",
-				"BaseQuest": "Achievements",
+				"BaseQuest": "Skills achievements",
 				"Tasks": {
 					"Archaeology Mystery: ~|Eyes in Their Stars|~ Complete the mystery": "Quest"
 				},
 				"RuneScore": 5,
 				"Not F2P": true
 			},
-			"~|Achievements#Skills|~ Fall and Rise": {
+			"~|Skills achievements#Archaeology|~ Fall and Rise": {
 				"Category": ["Misc achievements"],
 				"Description": "Solve this mystery.",
-				"BaseQuest": "Achievements",
+				"BaseQuest": "Skills achievements",
 				"Tasks": {
 					"Archaeology Mystery: ~|Fall and Rise|~ Complete the mystery": "Quest"
 				},
 				"RuneScore": 10,
 				"Not F2P": true
 			},
-			"~|Achievements#Skills|~ Fallen Angels": {
+			"~|Skills achievements#Archaeology|~ Fallen Angels": {
 				"Category": ["Misc achievements"],
 				"Description": "Solve this mystery.",
-				"BaseQuest": "Achievements",
+				"BaseQuest": "Skills achievements",
 				"Tasks": {
 					"Archaeology Mystery: ~|Fallen Angels|~ Complete the mystery": "Quest"
 				},
 				"RuneScore": 10,
 				"Not F2P": true
 			},
-			"~|Achievements#Skills|~ Forge War!": {
+			"~|Skills achievements#Archaeology|~ Forge War!": {
 				"Category": ["Misc achievements"],
 				"Description": "Solve this mystery.",
-				"BaseQuest": "Achievements",
+				"BaseQuest": "Skills achievements",
 				"Tasks": {
 					"Archaeology Mystery: ~|Forge War!|~ Complete the mystery": "Quest"
 				},
 				"RuneScore": 15,
 				"Not F2P": true
 			},
-			"~|Achievements#Skills|~ Fragmented Memories": {
+			"~|Skills achievements#Archaeology|~ Fragmented Memories": {
 				"Category": ["Misc achievements"],
 				"Description": "Solve this mystery.",
-				"BaseQuest": "Achievements",
+				"BaseQuest": "Skills achievements",
 				"Tasks": {
 					"Archaeology Mystery: ~|Fragmented Memories|~ Complete the mystery": "Quest"
 				},
 				"RuneScore": 15,
 				"Not F2P": true
 			},
-			"~|Achievements#Skills|~ Free Your Mind": {
+			"~|Skills achievements#Archaeology|~ Free Your Mind": {
 				"Category": ["Misc achievements"],
 				"Description": "Solve this mystery.",
-				"BaseQuest": "Achievements",
+				"BaseQuest": "Skills achievements",
 				"Tasks": {
 					"Archaeology Mystery: ~|Free Your Mind|~ Complete the mystery": "Quest"
 				},
 				"RuneScore": 15,
 				"Not F2P": true
 			},
-			"~|Achievements#Skills|~ From Across the Keramos": {
+			"~|Skills achievements#Archaeology|~ From Across the Keramos": {
 				"Category": ["Misc achievements"],
 				"Description": "Swish a sweet hoop at Everlight.",
-				"BaseQuest": "Achievements",
+				"BaseQuest": "Skills achievements",
 				"Chunks": ["15153"],
 				"Items": ["Gnomeball"],
 				"RuneScore": 10,
 				"Not F2P": true
 			},
-			"~|Achievements#Skills|~ Goblin Generals: Red Rum Relics I": {
+			"~|Skills achievements#Archaeology|~ Goblin Generals: Red Rum Relics I": {
 				"Category": ["Archaeology Collections"],
 				"Label": "Archaeology Collections",
 				"Items": ["Ork cleaver sword", "Ogre Kyzaj axe", "Beastkeeper helm", "'Nosorog!' sculpture"],
 				"NPCs": ["General Bentnoze"],
 				"RuneScore": 10
 			},
-			"~|Achievements#Skills|~ Goblin Generals: Red Rum Relics II": {
+			"~|Skills achievements#Archaeology|~ Goblin Generals: Red Rum Relics II": {
 				"Category": ["Archaeology Collections"],
 				"Label": "Archaeology Collections",
 				"Items": ["Ourg megahitter", "Ourg tower/goblin cower shield", "'Forged in War' sculpture", "Hobgoblin mansticker"],
 				"NPCs": ["General Bentnoze"],
 				"RuneScore": 10
 			},
-			"~|Achievements#Skills|~ Goblin Generals: Red Rum Relics III": {
+			"~|Skills achievements#Archaeology|~ Goblin Generals: Red Rum Relics III": {
 				"Category": ["Archaeology Collections"],
 				"Label": "Archaeology Collections",
 				"Items": ["Kal-i-kra chieftan crown", "Kal-i-kra mace", "Kal-i-kra warhorn", "'Da Boss Man' sculpture"],
 				"NPCs": ["General Bentnoze"],
 				"RuneScore": 10
 			},
-			"~|Achievements#Skills|~ Goblin Generals: Green Gobbo Goodies I": {
+			"~|Skills achievements#Archaeology|~ Goblin Generals: Green Gobbo Goodies I": {
 				"Category": ["Archaeology Collections"],
 				"Label": "Archaeology Collections",
 				"Items": ["Ekeleshuun blinder mask", "Narogoshuun 'Hob-da-Gob' ball", "Rekeshuun war tether", "Thorobshuun battle standard", "Yurkolgokh stink grenade"],
 				"NPCs": ["General Wartface"],
 				"RuneScore": 10
 			},
-			"~|Achievements#Skills|~ Goblin Generals: Green Gobbo Goodies II": {
+			"~|Skills achievements#Archaeology|~ Goblin Generals: Green Gobbo Goodies II": {
 				"Category": ["Archaeology Collections"],
 				"Label": "Archaeology Collections",
 				"Items": ["High priest crozier", "High priest mitre", "High priest orb", "Idithuun horn ring", "Garagorshuun anchor"],
 				"NPCs": ["General Wartface"],
 				"RuneScore": 10
 			},
-			"~|Achievements#Skills|~ Goblin Generals: Green Gobbo Goodies III": {
+			"~|Skills achievements#Archaeology|~ Goblin Generals: Green Gobbo Goodies III": {
 				"Category": ["Archaeology Collections"],
 				"Label": "Archaeology Collections",
 				"Items": ["Dorgeshuun spear", "Huzamogaarb chaos crown", "Saragorgak star crown", "Drogokishuun hook sword", "Horogothgar cooking pot", "'Da Boss Man' sculpture"],
 				"NPCs": ["General Wartface"],
 				"RuneScore": 10
 			},
-			"~|Achievements#Skills|~ Giles: Desperate for Artefacts": {
+			"~|Skills achievements#Archaeology|~ Giles: Desperate for Artefacts": {
 				"Category": ["Archaeology Collections"],
 				"Label": "Archaeology Collections",
 				"Chunks": ["16709-2"],
@@ -126984,48 +127010,48 @@
 				"NPCs": ["Giles"],
 				"RuneScore": 10
 			},
-			"~|Achievements#Skills|~ Goblin Tutorial": {
+			"~|Skills achievements#Archaeology|~ Goblin Tutorial": {
 				"Category": ["Misc achievements"],
 				"Description": "Smith a bronze dagger from scratch within the Warforge.",
-				"BaseQuest": "Achievements",
+				"BaseQuest": "Skills achievements",
 				"Chunks": ["Warforge Tunnels", "Thalmund's Forge"],
 				"RuneScore": 25,
 				"Not F2P": true
 			},
-			"~|Achievements#Skills|~ Hallowed Be...": {
+			"~|Skills achievements#Archaeology|~ Hallowed Be...": {
 				"Category": ["Misc achievements"],
 				"Description": "Solve this mystery.",
-				"BaseQuest": "Achievements",
+				"BaseQuest": "Skills achievements",
 				"Tasks": {
 					"Archaeology Mystery: ~|Hallowed Be...|~ Complete the mystery": "Quest"
 				},
 				"RuneScore": 20,
 				"Not F2P": true
 			},
-			"~|Achievements#Skills|~ Heart of the Forge": {
+			"~|Skills achievements#Archaeology|~ Heart of the Forge": {
 				"Category": ["Misc achievements"],
 				"Description": "Solve this mystery.",
-				"BaseQuest": "Achievements",
+				"BaseQuest": "Skills achievements",
 				"Tasks": {
 					"Archaeology Mystery: ~|Heart of the Forge|~ Complete the mystery": "Quest"
 				},
 				"RuneScore": 25,
 				"Not F2P": true
 			},
-			"~|Achievements#Skills|~ Hey, Look! Over Here!": {
+			"~|Skills achievements#Archaeology|~ Hey, Look! Over Here!": {
 				"Category": ["Misc achievements"],
 				"Description": "Acquire 100% sprite focus five times without losing focus of the time sprite.",
-				"BaseQuest": "Achievements",
+				"BaseQuest": "Skills achievements",
 				"Objects": ["AnyExcavationSpot[+]"],
 				"Tasks": {
 					"Complete the ~|Archaeology tutorial|~": "Archaeology"
 				},
 				"RuneScore": 10
 			},
-			"~|Achievements#Skills|~ How Do You Do, Fellow Ghost?": {
+			"~|Skills achievements#Archaeology|~ How Do You Do, Fellow Ghost?": {
 				"Category": ["Misc achievements"],
 				"Description": "Talk to one of the ghostly inhabitants of Kharid-et while wearing a full set of ghostly equipment.",
-				"BaseQuest": "Achievements",
+				"BaseQuest": "Skills achievements",
 				"Chunks": ["Kharid-et - Barracks excavation site"],
 				"Tasks": {
 					"~|The Curse of Zaros (miniquest)|~ Complete the miniquest": "Quest"
@@ -127033,39 +127059,39 @@
 				"RuneScore": 25,
 				"Not F2P": true
 			},
-			"~|Achievements#Skills|~ Howl's Floating Workshop": {
+			"~|Skills achievements#Archaeology|~ Howl's Floating Workshop": {
 				"Category": ["Misc achievements"],
 				"Description": "Solve this mystery.",
-				"BaseQuest": "Achievements",
+				"BaseQuest": "Skills achievements",
 				"Tasks": {
 					"Archaeology Mystery: ~|Howl's Floating Workshop|~ Complete the mystery": "Quest"
 				},
 				"RuneScore": 20,
 				"Not F2P": true
 			},
-			"~|Achievements#Skills|~ I Am Become Death": {
+			"~|Skills achievements#Archaeology|~ I Am Become Death": {
 				"Category": ["Misc achievements"],
 				"Description": "Solve this mystery.",
-				"BaseQuest": "Achievements",
+				"BaseQuest": "Skills achievements",
 				"Tasks": {
 					"Archaeology Mystery: ~|I Am Become Death|~ Complete the mystery": "Quest"
 				},
 				"RuneScore": 15,
 				"Not F2P": true
 			},
-			"~|Achievements#Skills|~ I Am Inevitable": {
+			"~|Skills achievements#Archaeology|~ I Am Inevitable": {
 				"Category": ["Misc achievements"],
 				"Description": "Try to repower the war golem arm at Stormguard.",
-				"BaseQuest": "Achievements",
+				"BaseQuest": "Skills achievements",
 				"Chunks": ["Stormguard Citadel"],
 				"Items": ["Wingsuit v2", "Sapphire", "Emerald", "Ruby", "Diamond", "Dragonstone", "Onyx"],
 				"RuneScore": 25,
 				"Not F2P": true
 			},
-			"~|Achievements#Skills|~ I Made Dis": {
+			"~|Skills achievements#Archaeology|~ I Made Dis": {
 				"Category": ["Misc achievements"],
 				"Description": "Use a ritual dagger on the sacrificial altar in the Order of Dis cult area while wearing a full set of Dagon'hai robes.",
-				"BaseQuest": "Achievements",
+				"BaseQuest": "Skills achievements",
 				"Chunks": ["Dungeon of Disorder"],
 				"Items": ["Dagon'hai hat", "Dagon'hai robe top", "Dagon'hai robe bottom", "Ritual dagger"],
 				"Skills": {
@@ -127077,212 +127103,219 @@
 				"RuneScore": 25,
 				"Not F2P": true
 			},
-			"~|Achievements#Skills|~ Icarus": {
+			"~|Skills achievements#Archaeology|~ Icarus": {
 				"Category": ["Misc achievements"],
 				"Description": "Fly beyond the limits of Stormguard.",
-				"BaseQuest": "Achievements",
+				"BaseQuest": "Skills achievements",
 				"Chunks": ["Stormguard Citadel"],
 				"Items": ["Wingsuit v2"],
 				"RuneScore": 10,
 				"Not F2P": true
 			},
-			"~|Achievements#Skills|~ Into the Forge": {
+			"~|Skills achievements#Archaeology|~ Into the Forge": {
 				"Category": ["Misc achievements"],
 				"Description": "Solve this mystery.",
-				"BaseQuest": "Achievements",
+				"BaseQuest": "Skills achievements",
 				"Tasks": {
 					"Archaeology Mystery: ~|Into the Forge|~ Complete the mystery": "Quest"
 				},
 				"RuneScore": 15,
 				"Not F2P": true
 			},
-			"~|Achievements#Skills|~ Isaura: Zamorakian I": {
+			"~|Skills achievements#Archaeology|~ Isaura: Zamorakian I": {
 				"Category": ["Archaeology Collections"],
 				"Label": "Archaeology Collections",
 				"Items": ["Hookah pipe", "Opulent wine goblet", "Crest of Dagon", "'Disorder' painting", "Imp mask", "Lesser demon mask", "Greater demon mask", "Order of Dis robes", "Ritual dagger"],
 				"NPCs": ["Isaura"],
 				"RuneScore": 10
 			},
-			"~|Achievements#Skills|~ Isaura: Zamorakian II": {
+			"~|Skills achievements#Archaeology|~ Isaura: Zamorakian II": {
 				"Category": ["Archaeology Collections"],
 				"Label": "Archaeology Collections",
 				"Items": ["Branding iron", "Manacles", "'The Lake of Fire' painting", "'Lust' metal sculpture", "Chaos star", "Spiked dog collar", "Larupia trophy", "Lion trophy", "She-wolf trophy"],
 				"NPCs": ["Isaura"],
 				"RuneScore": 10
 			},
-			"~|Achievements#Skills|~ Isaura: Zamorakian III": {
+			"~|Skills achievements#Archaeology|~ Isaura: Zamorakian III": {
 				"Category": ["Archaeology Collections"],
 				"Label": "Archaeology Collections",
 				"Items": ["'Torment' metal sculpture", "'Pandemonium' tapestry", "Hellfire haladie", "Hellfire katar", "Hellfire zaghnal", "'Possession' metal sculpture", "Trishula", "Tsutsaroth piercing"],
 				"NPCs": ["Isaura"],
 				"RuneScore": 10
 			},
-			"~|Achievements#Skills|~ Isaura: Zamorakian IV": {
+			"~|Skills achievements#Archaeology|~ Isaura: Zamorakian IV": {
 				"Category": ["Archaeology Collections"],
 				"Label": "Archaeology Collections",
 				"Items": ["Chaos Elemental trophy", "Virius trophy", "Tsutsaroth helm", "Tsutsaroth pauldron", "Tsutsaroth urumi"],
 				"NPCs": ["Isaura"],
 				"RuneScore": 10
 			},
-			"~|Achievements#Skills|~ Know Thy Measure": {
+			"~|Skills achievements#Archaeology|~ Know Thy Measure": {
 				"Category": ["Misc achievements"],
 				"Description": "Solve this mystery.",
-				"BaseQuest": "Achievements",
+				"BaseQuest": "Skills achievements",
 				"Tasks": {
 					"Archaeology Mystery: ~|Know Thy Measure|~ Complete the mystery": "Quest"
 				},
 				"RuneScore": 15,
 				"Not F2P": true
 			},
-			"~|Achievements#Skills|~ Leap of Faith": {
+			"~|Skills achievements#Archaeology|~ Leap of Faith": {
 				"Category": ["Misc achievements"],
 				"Description": "Solve this mystery.",
-				"BaseQuest": "Achievements",
+				"BaseQuest": "Skills achievements",
 				"Tasks": {
 					"Archaeology Mystery: ~|Leap of Faith|~ Complete the mystery": "Quest"
 				},
 				"RuneScore": 10,
 				"Not F2P": true
 			},
-			"~|Achievements#Skills|~ Light and Shadow": {
+			"~|Skills achievements#Archaeology|~ Light and Shadow": {
 				"Category": ["Misc achievements"],
 				"Description": "Power all the shadow anchors at Kharid-et",
-				"BaseQuest": "Achievements",
+				"BaseQuest": "Skills achievements",
 				"Chunks": ["Kharid-et - Barracks excavation site"],
 				"Items": ["Pontifex signet ring", "Pylon battery"],
 				"RuneScore": 25,
 				"Not F2P": true
 			},
-			"~|Achievements#Skills|~ Looting Stars": {
+			"~|Skills achievements#Archaeology|~ Looting Stars": {
 				"Category": ["Misc achievements"],
 				"Description": "Loot all of the abandoned chests in the Star Lodge",
-				"BaseQuest": "Achievements",
+				"BaseQuest": "Skills achievements",
 				"Chunks": ["Star Lodge"],
 				"RuneScore": 10,
 				"Not F2P": true
 			},
-			"~|Achievements#Skills|~ Lowe: Armadylean I": {
+			"~|Skills achievements#Archaeology|~ Lowe: Armadylean I": {
 				"Category": ["Archaeology Collections"],
 				"Label": "Archaeology Collections",
 				"Items": ["Ikovian gerege", "Toy glider", "Toy war golem", "Avian song-egg player", "Keshik drum", "Morin khuur", "Aviansie dreamcoat", "Ceremonial plume", "Peacocking parasol"],
 				"NPCs": ["Lowse"],
 				"RuneScore": 10
 			},
-			"~|Achievements#Skills|~ Lowe: Armadylean II": {
+			"~|Skills achievements#Archaeology|~ Lowe: Armadylean II": {
 				"Category": ["Archaeology Collections"],
 				"Label": "Archaeology Collections",
 				"Items": ["Hawkeye lens multi-vision scope", "Talon-3 razor wing", "Prototype gravimeter", "Songbird recorder", "Dayguard shield", "Stormguard gerege", "Golem heart", "Golem instruction"],
 				"NPCs": ["Lowse"],
 				"RuneScore": 10
 			},
-			"~|Achievements#Skills|~ Lowe: Armadylean III": {
+			"~|Skills achievements#Archaeology|~ Lowe: Armadylean III": {
 				"Category": ["Archaeology Collections"],
 				"Label": "Archaeology Collections",
 				"Items": ["Blackfire lance", "Nightguard shield", "Flat cap", "Night owl flight goggles", "Prototype godbow", "Prototype godstaff", "Prototype godsword", "Chuluu stone", "Quintessence counter", "Spherical astrolabe"],
 				"NPCs": ["Lowse"],
 				"RuneScore": 10
 			},
-			"~|Achievements#Skills|~ Monolithic Power": {
+			"~|Skills achievements#Archaeology|~ Monolithic Power": {
 				"Category": ["Misc achievements"],
 				"Description": "Harness the power of three relics at once",
-				"BaseQuest": "Achievements",
+				"BaseQuest": "Skills achievements",
 				"Chunks": ["13364"],
 				"Items": ["Relic[+]x3"],
 				"RuneScore": 20,
 				"Not F2P": true
 			},
-			"~|Achievements#Skills|~ Mysterious City": {
+			"~|Skills achievements#Archaeology|~ Mysterious City": {
 				"Category": ["Misc achievements"],
 				"Description": "Solve this mystery.",
-				"BaseQuest": "Achievements",
+				"BaseQuest": "Skills achievements",
 				"Tasks": {
 					"Archaeology Mystery: ~|Mysterious City|~ Complete the mystery": "Quest"
 				},
 				"RuneScore": 15,
 				"Not F2P": true
 			},
-			"~|Achievements#Skills|~ Myster Solver I": {
+			"~|Skills achievements#Archaeology|~ Myster Solver I": {
 				"Category": ["Misc achievements"],
 				"Description": "Solve 1 of Gielinor's greatest mysteries.",
-				"BaseQuest": "Achievements",
+				"BaseQuest": "Skills achievements",
 				"Tasks": {
 					"AnyMystery[+]": "Quest"
 				},
 				"RuneScore": 5
 			},
-			"~|Achievements#Skills|~ Myster Solver II": {
+			"~|Skills achievements#Archaeology|~ Myster Solver II": {
 				"Category": ["Misc achievements"],
 				"Description": "Solve 2 of Gielinor's greatest mysteries.",
-				"BaseQuest": "Achievements",
+				"BaseQuest": "Skills achievements",
 				"Tasks": {
-					"AnyMystery[+]x2": "Quest"
+					"AnyMystery[+]x2": "Quest",
+					"~|Skills achievements#Archaeology|~ Myster Solver I": "Diary"
 				},
 				"RuneScore": 10
 			},
-			"~|Achievements#Skills|~ Myster Solver III": {
+			"~|Skills achievements#Archaeology|~ Myster Solver III": {
 				"Category": ["Misc achievements"],
 				"Description": "Solve 5 of Gielinor's greatest mysteries.",
-				"BaseQuest": "Achievements",
+				"BaseQuest": "Skills achievements",
 				"Tasks": {
-					"AnyMystery[+]x5": "Quest"
+					"AnyMystery[+]x5": "Quest",
+					"~|Skills achievements#Archaeology|~ Myster Solver II": "Diary"
 				},
 				"RuneScore": 10,
 				"Not F2P": true
 			},
-			"~|Achievements#Skills|~ Myster Solver IV": {
+			"~|Skills achievements#Archaeology|~ Myster Solver IV": {
 				"Category": ["Misc achievements"],
 				"Description": "Solve 10 of Gielinor's greatest mysteries.",
-				"BaseQuest": "Achievements",
+				"BaseQuest": "Skills achievements",
 				"Tasks": {
-					"AnyMystery[+]x10": "Quest"
+					"AnyMystery[+]x10": "Quest",
+					"~|Skills achievements#Archaeology|~ Myster Solver III": "Diary"
 				},
 				"RuneScore": 15,
 				"Not F2P": true
 			},
-			"~|Achievements#Skills|~ Myster Solver V": {
+			"~|Skills achievements#Archaeology|~ Myster Solver V": {
 				"Category": ["Misc achievements"],
 				"Description": "Solve 15 of Gielinor's greatest mysteries.",
-				"BaseQuest": "Achievements",
+				"BaseQuest": "Skills achievements",
 				"Tasks": {
-					"AnyMystery[+]x15": "Quest"
+					"AnyMystery[+]x15": "Quest",
+					"~|Skills achievements#Archaeology|~ Myster Solver IV": "Diary"
 				},
 				"RuneScore": 25,
 				"Not F2P": true
 			},
-			"~|Achievements#Skills|~ Myster Solver VI": {
+			"~|Skills achievements#Archaeology|~ Myster Solver VI": {
 				"Category": ["Misc achievements"],
 				"Description": "Solve 20 of Gielinor's greatest mysteries.",
-				"BaseQuest": "Achievements",
+				"BaseQuest": "Skills achievements",
 				"Tasks": {
-					"AnyMystery[+]x20": "Quest"
+					"AnyMystery[+]x20": "Quest",
+					"~|Skills achievements#Archaeology|~ Myster Solver V": "Diary"
 				},
 				"RuneScore": 40,
 				"Not F2P": true
 			},
-			"~|Achievements#Skills|~ Myster Solver VII": {
+			"~|Skills achievements#Archaeology|~ Myster Solver VII": {
 				"Category": ["Misc achievements"],
 				"Description": "Solve 25 of Gielinor's greatest mysteries.",
-				"BaseQuest": "Achievements",
+				"BaseQuest": "Skills achievements",
 				"Tasks": {
-					"AnyMystery[+]x25": "Quest"
+					"AnyMystery[+]x25": "Quest",
+					"~|Skills achievements#Archaeology|~ Myster Solver VI": "Diary"
 				},
 				"RuneScore": 60,
 				"Not F2P": true
 			},
-			"~|Achievements#Skills|~ Myster Solver VIII": {
+			"~|Skills achievements#Archaeology|~ Myster Solver VIII": {
 				"Category": ["Misc achievements"],
 				"Description": "Solve 30 of Gielinor's greatest mysteries.",
-				"BaseQuest": "Achievements",
+				"BaseQuest": "Skills achievements",
 				"Tasks": {
-					"AnyMystery[+]x30": "Quest"
+					"AnyMystery[+]x30": "Quest",
+					"~|Skills achievements#Archaeology|~ Myster Solver VII": "Diary"
 				},
 				"RuneScore": 75,
 				"Not F2P": true
 			},
-			"~|Achievements#Skills|~ Neverlight": {
+			"~|Skills achievements#Archaeology|~ Neverlight": {
 				"Category": ["Misc achievements"],
 				"Description": "Find out what happens when dark en light meet.",
-				"BaseQuest": "Achievements",
+				"BaseQuest": "Skills achievements",
 				"Chunks": ["14898"],
 				"Items": ["Darklight"],
 				"Tasks": {
@@ -127291,28 +127324,28 @@
 				"RuneScore": 25,
 				"Not F2P": true
 			},
-			"~|Achievements#Skills|~ Night Theatre": {
+			"~|Skills achievements#Archaeology|~ Night Theatre": {
 				"Category": ["Misc achievements"],
 				"Description": "Solve this mystery.",
-				"BaseQuest": "Achievements",
+				"BaseQuest": "Skills achievements",
 				"Tasks": {
 					"Archaeology Mystery: ~|Night Theatre|~ Complete the mystery": "Quest"
 				},
 				"RuneScore": 15,
 				"Not F2P": true
 			},
-			"~|Achievements#Skills|~ No Fighting in the Warforge!": {
+			"~|Skills achievements#Archaeology|~ No Fighting in the Warforge!": {
 				"Category": ["Misc achievements"],
 				"Description": "Start a duel in the Crucible area within the Warforge.",
-				"BaseQuest": "Achievements",
+				"BaseQuest": "Skills achievements",
 				"Chunks": ["Warforge Crucible"],
 				"RuneScore": 10,
 				"Not F2P": true
 			},
-			"~|Achievements#Skills|~ No Secrets Left to Steal": {
+			"~|Skills achievements#Archaeology|~ No Secrets Left to Steal": {
 				"Category": ["Misc achievements"],
 				"Description": "Restore and claim from the statues of four famous icyene",
-				"BaseQuest": "Achievements",
+				"BaseQuest": "Skills achievements",
 				"Chunks": ["14899-1", "14897", "14641-2", "15154"],
 				"Items": ["White marble", "Hallowed lantern", "Everlight harp", "Dominion torch", "Rod of Asclepius"],
 				"Skills": {
@@ -127321,55 +127354,55 @@
 				"RuneScore": 10,
 				"Not F2P": true
 			},
-			"~|Achievements#Skills|~ Oops! Wrong Tunnel!": {
+			"~|Skills achievements#Archaeology|~ Oops! Wrong Tunnel!": {
 				"Category": ["Misc achievements"],
 				"Description": "Wear a full H.A.M. outfit while entering the Warforge.",
-				"BaseQuest": "Achievements",
+				"BaseQuest": "Skills achievements",
 				"Chunks": ["Warforge Crucible"],
 				"Items": ["H.A.M. hood", "H.A.M. shirt", "H.A.M. robe", "H.A.M. gloves", "H.A.M. boots", "H.A.M. cloak", "H.A.M. logo"],
 				"RuneScore": 10,
 				"Not F2P": true
 			},
-			"~|Achievements#Skills|~ Out of the Crucible": {
+			"~|Skills achievements#Archaeology|~ Out of the Crucible": {
 				"Category": ["Misc achievements"],
 				"Description": "Solve this mystery.",
-				"BaseQuest": "Achievements",
+				"BaseQuest": "Skills achievements",
 				"Tasks": {
 					"Archaeology Mystery: ~|Out of the Crucible|~ Complete the mystery": "Quest"
 				},
 				"RuneScore": 15,
 				"Not F2P": true
 			},
-			"~|Achievements#Skills|~ Plunder Hunter": {
+			"~|Skills achievements#Archaeology|~ Plunder Hunter": {
 				"Category": ["Misc achievements"],
 				"Description": "Pick up all of the chests in the Warforge.",
-				"BaseQuest": "Achievements",
+				"BaseQuest": "Skills achievements",
 				"Chunks": ["Thalmund's Forge", "Bandos's Sanctum", "Warforge Crucible", "Warforge Tunnels"],
 				"RuneScore": 25,
 				"Not F2P": true
 			},
-			"~|Achievements#Skills|~ Ponti-Nex": {
+			"~|Skills achievements#Archaeology|~ Ponti-Nex": {
 				"Category": ["Misc achievements"],
 				"Description": "Pray at the altar in the Kharid-et chapel while wearing a full set of ancient ceremonial robes.",
-				"BaseQuest": "Achievements",
+				"BaseQuest": "Skills achievements",
 				"Chunks": ["Kharid-et - Barracks excavation site"],
 				"Items": ["Pontifex signet ring", "Ancient ceremonial mask", "Ancient ceremonial top", "Ancient ceremonial legs", "Ancient ceremonical gloves", "Ancient ceremonial boots"],
 				"RuneScore": 30,
 				"Not F2P": true
 			},
-			"~|Achievements#Skills|~ Prison Break": {
+			"~|Skills achievements#Archaeology|~ Prison Break": {
 				"Category": ["Misc achievements"],
 				"Description": "Solve this mystery.",
-				"BaseQuest": "Achievements",
+				"BaseQuest": "Skills achievements",
 				"Tasks": {
 					"Archaeology Mystery: ~|Prison Break|~ Complete the mystery": "Quest"
 				},
 				"RuneScore": 5
 			},
-			"~|Achievements#Skills|~ Qualification - Assistant": {
+			"~|Skills achievements#Archaeology|~ Qualification - Assistant": {
 				"Category": ["Misc achievements"],
 				"Description": "Complete all of the listed achievements and attend the qualification ceremony.",
-				"BaseQuest": "Achievements",
+				"BaseQuest": "Skills achievements",
 				"NPCs": ["Acting Guildmaster Reiniger"],
 				"Skills": {
 					"Archaeology": 40
@@ -127384,10 +127417,10 @@
 				"Not F2P": true,
 				"NoBoost": true
 			},
-			"~|Achievements#Skills|~ Qualification - Associate": {
+			"~|Skills achievements#Archaeology|~ Qualification - Associate": {
 				"Category": ["Misc achievements"],
 				"Description": "Complete all of the listed achievements and attend the qualification ceremony.",
-				"BaseQuest": "Achievements",
+				"BaseQuest": "Skills achievements",
 				"NPCs": ["Acting Guildmaster Reiniger"],
 				"Skills": {
 					"Archaeology": 70
@@ -127402,10 +127435,10 @@
 				"Not F2P": true,
 				"NoBoost": true
 			},
-			"~|Achievements#Skills|~ Qualification - Intern": {
+			"~|Skills achievements#Archaeology|~ Qualification - Intern": {
 				"Category": ["Misc achievements"],
 				"Description": "Complete the Archaeology tutorial.",
-				"BaseQuest": "Achievements",
+				"BaseQuest": "Skills achievements",
 				"NPCs": ["Acting Guildmaster Reiniger"],
 				"Tasks": {
 					"Complete the ~|Archaeology tutorial|~": "Archaeology"
@@ -127413,10 +127446,10 @@
 				"RuneScore": 5,
 				"NoBoost": true
 			},
-			"~|Achievements#Skills|~ Qualification - Professor": {
+			"~|Skills achievements#Archaeology|~ Qualification - Professor": {
 				"Category": ["Misc achievements"],
 				"Description": "Complete all of the listed achievements and attend the qualification ceremony.",
-				"BaseQuest": "Achievements",
+				"BaseQuest": "Skills achievements",
 				"NPCs": ["Acting Guildmaster Reiniger"],
 				"Skills": {
 					"Archaeology": 90
@@ -127431,90 +127464,90 @@
 				"Not F2P": true,
 				"NoBoost": true
 			},
-			"~|Achievements#Skills|~ Queen of the Icyene": {
+			"~|Skills achievements#Archaeology|~ Queen of the Icyene": {
 				"Category": ["Misc achievements"],
 				"Description": "Solve this mystery.",
-				"BaseQuest": "Achievements",
+				"BaseQuest": "Skills achievements",
 				"Tasks": {
 					"Archaeology Mystery: ~|Queen of the Icyene|~ Complete the mystery": "Quest"
 				},
 				"RuneScore": 10,
 				"Not F2P": true
 			},
-			"~|Achievements#Skills|~ Relic-weary": {
+			"~|Skills achievements#Archaeology|~ Relic-weary": {
 				"Category": ["Misc achievements", "No RunScore"],
 				"Description": "Unlock all relic powers at the monolith.",
-				"BaseQuest": "Achievements",
+				"BaseQuest": "Skills achievements",
 				"Chunks": ["13364"],
 				"Items": ["Relic[+]x32"],
 				"Not F2P": true
 			},
-			"~|Achievements#Skills|~ Secrets of the Inquisition": {
+			"~|Skills achievements#Archaeology|~ Secrets of the Inquisition": {
 				"Category": ["Misc achievements"],
 				"Description": "Solve this mystery.",
-				"BaseQuest": "Achievements",
+				"BaseQuest": "Skills achievements",
 				"Tasks": {
 					"Archaeology Mystery: ~|Secrets of the Inquisition|~ Complete the mystery": "Quest"
 				},
 				"RuneScore": 15,
 				"Not F2P": true
 			},
-			"~|Achievements#Skills|~ Secrets of the Monolith": {
+			"~|Skills achievements#Archaeology|~ Secrets of the Monolith": {
 				"Category": ["Misc achievements"],
 				"Description": "Solve this mystery.",
-				"BaseQuest": "Achievements",
+				"BaseQuest": "Skills achievements",
 				"Tasks": {
 					"Archaeology Mystery: ~|Secrets of the Monolith|~ Complete the mystery": "Quest"
 				},
 				"RuneScore": 5,
 				"Not F2P": true
 			},
-			"~|Achievements#Skills|~ Shadow Fall": {
+			"~|Skills achievements#Archaeology|~ Shadow Fall": {
 				"Category": ["Misc achievements"],
 				"Description": "Solve this mystery.",
-				"BaseQuest": "Achievements",
+				"BaseQuest": "Skills achievements",
 				"Tasks": {
 					"Archaeology Mystery: ~|Shadow Fall|~ Complete the mystery": "Quest"
 				},
 				"RuneScore": 20,
 				"Not F2P": true
 			},
-			"~|Achievements#Skills|~ Sharrigan: Dragonkin I": {
+			"~|Skills achievements#Archaeology|~ Sharrigan: Dragonkin I": {
 				"Category": ["Archaeology Collections"],
 				"Label": "Archaeology Collections",
 				"Items": ["Pasaha", "Ritual bell", "Kilaya", "Vazara", "Death mask", "Dragonkin calendar", "Dragonkin staff"],
 				"NPCs": ["Sharrigan"],
 				"RuneScore": 10
 			},
-			"~|Achievements#Skills|~ Sharrigan: Dragonkin II": {
+			"~|Skills achievements#Archaeology|~ Sharrigan: Dragonkin II": {
 				"Category": ["Archaeology Collections"],
 				"Label": "Archaeology Collections",
 				"Items": ["Dragon scalpel", "Protective goggles", "Dragon burner", "Orthenglass flask"],
 				"NPCs": ["Sharrigan"],
 				"RuneScore": 10
 			},
-			"~|Achievements#Skills|~ Sharrigan: Dragonkin III": {
+			"~|Skills achievements#Archaeology|~ Sharrigan: Dragonkin III": {
 				"Category": ["Archaeology Collections"],
 				"Label": "Archaeology Collections",
 				"Items": ["Meditation pipe", "Personal totem", "Singing bowl", "Lingam stone", "Master control"],
 				"NPCs": ["Sharrigan"],
 				"RuneScore": 10
 			},
-			"~|Achievements#Skills|~ Sharrigan: Dragonkin IV": {
+			"~|Skills achievements#Archaeology|~ Sharrigan: Dragonkin IV": {
 				"Category": ["Archaeology Collections"],
 				"Label": "Archaeology Collections",
 				"Items": ["Xolo hard hat", "Xolo pickaxe", "Xolo shield", "Xolo spear", "Gold dish", "'Raksha' idol"],
 				"NPCs": ["Sharrigan"],
 				"RuneScore": 10
 			},
-			"~|Achievements#Skills|~ Sharrigan: Dragonkin V": {
+			"~|Skills achievements#Archaeology|~ Sharrigan: Dragonkin V": {
 				"Category": ["Archaeology Collections"],
 				"Label": "Archaeology Collections",
 			    "Items": ["Castle gatestone", "Engraved ring of kinship", "Exploratory totem", "Excavator portal mine"],
 			    "NPCs": ["Sharrigan"],
 				"RuneScore": 10
 			},
-			"~|Achievements#Skills|~ Sharrigan: Dragonkin VI": {
+			"~|Skills achievements#Archaeology|~ Sharrigan: Dragonkin VI": {
 				"Category": ["Archaeology Collections"],
 				"Label": "Archaeology Collections",
 			    "Items": ["Storage totem", "Plant seed satchel", "Snuff box", "Spent summoning charm", "'Friendship bracelet'", "Homely totem"],
@@ -127522,90 +127555,90 @@
 				"Output": "Pastkeeper's tapestry",
 				"RuneScore": 10
 			},
-			"~|Achievements#Skills|~ Sharrigan: Dragonkin VII": {
+			"~|Skills achievements#Archaeology|~ Sharrigan: Dragonkin VII": {
 				"Category": ["Archaeology Collections"],
 				"Label": "Archaeology Collections",
 			    "Items": ["Projection attuner", "Golden projection 'needle'", "Comfort gatestone", "Halak's cube", "Portable portal generator", "Warped trinket"],
 			    "NPCs": ["Sharrigan"],
 				"RuneScore": 10
 			},
-			"~|Achievements#Skills|~ Sir Atcha: Saradominist I": {
+			"~|Skills achievements#Archaeology|~ Sir Atcha: Saradominist I": {
 				"Category": ["Archaeology Collections"],
 				"Label": "Archaeology Collections",
 				"Items": ["'Frying pan'", "Hallowed lantern", "Ceremonial unicorn ornament", "Ceremonial unicorn saddle", "Everlight harp", "Everlight trumpet", "Everlight violin", "Folded-arm figurine (female)", "Folded-arm figurine (male)"],
 				"NPCs": ["Sir Atcha"],
 				"RuneScore": 10
 			},
-			"~|Achievements#Skills|~ Sir Atcha: Saradominist II": {
+			"~|Skills achievements#Archaeology|~ Sir Atcha: Saradominist II": {
 				"Category": ["Archaeology Collections"],
 				"Label": "Archaeology Collections",
 				"Items": ["Dominion discus", "Dominion javelin", "Dominion pelte shield", "Bronze Dominion medal", "Silver Dominion medal", "Dominion torch", "Decorative vase", "Kantharos cup", "Patera bowl"],
 				"NPCs": ["Sir Atcha"],
 				"RuneScore": 10
 			},
-			"~|Achievements#Skills|~ Sir Atcha: Saradominist III": {
+			"~|Skills achievements#Archaeology|~ Sir Atcha: Saradominist III": {
 				"Category": ["Archaeology Collections"],
 				"Label": "Archaeology Collections",
 				"Items": ["Dominarian device", "Fishing trident", "Amphora", "Rod of Asclepius", "Kopis dagger", "Xiphos short sword"],
 				"NPCs": ["Sir Atcha"],
 				"RuneScore": 10
 			},
-			"~|Achievements#Skills|~ Sir Atcha: Saradominist IV": {
+			"~|Skills achievements#Archaeology|~ Sir Atcha: Saradominist IV": {
 				"Category": ["Archaeology Collections"],
 				"Label": "Archaeology Collections",
 				"Items": ["'The Pride of Padosan' painting", "'Hallowed Be the Everlight' painting", "'The Lord of Light' painting", "'The Enlightened Soul' scroll", "'The Eudoxian Elements' tablet", "Doru spear", "Kontos lance"],
 				"NPCs": ["Sir Atcha"],
 				"RuneScore": 10
 			},
-			"~|Achievements#Skills|~ Soils of the Past": {
+			"~|Skills achievements#Archaeology|~ Soils of the Past": {
 				"Category": ["Misc achievements"],
 				"Description": "Own the Master Archaeologist's outfit.",
-				"BaseQuest": "Achievements",
+				"BaseQuest": "Skills achievements",
 				"Items": ["Master archaeologist's hat", "Master archaeologist's jacket", "Master archaeologist's trousers", "Master archaeologist's gloves", "Master archaeologist's boots"],
 				"RuneScore": 10,
 				"Not F2P": true
 			},
-			"~|Achievements#Skills|~ Soran: Zarosian I": {
+			"~|Skills achievements#Archaeology|~ Soran: Zarosian I": {
 				"Category": ["Archaeology Collections"],
 				"Label": "Archaeology Collections",
 				"Items": ["Venator dagger", "Venator light crossbow", "Primis Elementis standard", "Legionary gladius", "Legionary square shield", "Zaros effigy", "Zarosian training dummy", "Legatus Maximus figurine", "'Solem in Umbra' painting"],
 				"NPCs": ["Soran, Emissary of Zaros"],
 				"RuneScore": 10
 			},
-			"~|Achievements#Skills|~ Soran: Zarosian II": {
+			"~|Skills achievements#Archaeology|~ Soran: Zarosian II": {
 				"Category": ["Archaeology Collections"],
 				"Label": "Archaeology Collections",
 				"Items": ["Ancient timepiece", "Legatus pendant", "'Incite Fear' spell scroll", "Pontifex signet ring", "Ceremonial mace", "Pontifex Maximus figurine", "'Consensus ad Idem' painting", "Pontifex censer", "Pontifex crozier", "Pontifex mitre"],
 				"NPCs": ["Soran, Emissary of Zaros"],
 				"RuneScore": 10
 			},
-			"~|Achievements#Skills|~ Soran: Zarosian III": {
+			"~|Skills achievements#Archaeology|~ Soran: Zarosian III": {
 				"Category": ["Archaeology Collections"],
 				"Label": "Archaeology Collections",
 				"Items": ["'Exsanguinate' spell scroll", "Necromantic focus", "Zarosian ewer", "Zarosian stein", "'Smoke Cloud' spell scroll", "Vigorem vial", "Ancient magic tablet", "'Animate Dead' spell scroll", "Portable phylactery"],
 				"NPCs": ["Soran, Emissary of Zaros"],
 				"RuneScore": 10
 			},
-			"~|Achievements#Skills|~ Soran: Zarosian IV": {
+			"~|Skills achievements#Archaeology|~ Soran: Zarosian IV": {
 				"Category": ["Archaeology Collections"],
 				"Label": "Archaeology Collections",
 				"Items": ["Praetorian hood", "Praetorian robes", "Praetorian staff", "Ancient globe", "Battle plans", "'Prima Legio' painting"],
 				"NPCs": ["Soran, Emissary of Zaros"],
 				"RuneScore": 10
 			},
-			"~|Achievements#Skills|~ Stick It to Da Boss Man": {
+			"~|Skills achievements#Archaeology|~ Stick It to Da Boss Man": {
 				"Category": ["Misc achievements"],
 				"Description": "Use a Dorgeshuun spear on Bandos's throne.",
-				"BaseQuest": "Achievements",
+				"BaseQuest": "Skills achievements",
 				"Chunks": ["Warforge Crucible"],
 				"Items": ["Dorgeshuun spear"],
 				"RuneScore": 10,
 				"Not F2P": true
 			},
-			"~|Achievements#Skills|~ Superhot": {
+			"~|Skills achievements#Archaeology|~ Superhot": {
 				"Category": ["Misc achievements"],
 				"Description": "Excavate in the Infernal Source while having the Superheat Form curse active.",
-				"BaseQuest": "Achievements",
+				"BaseQuest": "Skills achievements",
 				"Chunks": ["Infernal Source"],
 				"Skills": {
 					"Prayer": 91
@@ -127616,143 +127649,143 @@
 				"RuneScore": 25,
 				"Not F2P": true
 			},
-			"~|Achievements#Skills|~ Tasty Pastry": {
+			"~|Skills achievements#Archaeology|~ Tasty Pastry": {
 				"Category": ["Misc achievements"],
 				"Description": "Give Thurgo a redberry pie in the Warforge.",
-				"BaseQuest": "Achievements",
+				"BaseQuest": "Skills achievements",
 				"Chunks": ["Thalmund's Forge"],
 				"Items": ["Redberry pie"],
 				"RuneScore": 10,
 				"Not F2P": true
 			},
-			"~|Achievements#Skills|~ Teacher's Pet": {
+			"~|Skills achievements#Archaeology|~ Teacher's Pet": {
 				"Category": ["Misc achievements"],
 				"Description": "Bring Helen the perfect cup of tea at the Archaeology campus",
-				"BaseQuest": "Achievements",
+				"BaseQuest": "Skills achievements",
 				"Chunks": ["13364"],
 				"Items": ["Cup of soil tea"],
 				"RuneScore": 5,
 				"Not F2P": true
 			},
-			"~|Achievements#Skills|~ Teleport Node On": {
+			"~|Skills achievements#Archaeology|~ Teleport Node On": {
 				"Category": ["Misc achievements"],
 				"Description": "Solve this mystery.",
-				"BaseQuest": "Achievements",
+				"BaseQuest": "Skills achievements",
 				"Tasks": {
 					"Archaeology Mystery: ~|Teleport Node On|~ Complete the mystery": "Quest"
 				},
 				"RuneScore": 15,
 				"Not F2P": true
 			},
-			"~|Achievements#Skills|~ That's Not How it Works": {
+			"~|Skills achievements#Archaeology|~ That's Not How it Works": {
 				"Category": ["Misc achievements"],
 				"Description": "Experiment with one of Howl's prototype weapons.",
-				"BaseQuest": "Achievements",
+				"BaseQuest": "Skills achievements",
 				"Items": ["Prototype godsword (damaged)", "Armadyl hilt"],
 				"RuneScore": 10,
 				"Not F2P": true
 			},
-			"~|Achievements#Skills|~ The Contributor VIII": {
+			"~|Skills achievements#Archaeology|~ The Contributor VIII": {
 				"Category": ["Misc achievements"],
 				"Description": "Contribute all items to any collection 200 times.",
-				"BaseQuest": "Achievements",
+				"BaseQuest": "Skills achievements",
 				"Skills": {
 					"AnyCollection[+]": "Nonskill"
 				},
 				"RuneScore": 245,
 				"Not F2P": true
 			},
-			"~|Achievements#Skills|~ The Cult of Orcus": {
+			"~|Skills achievements#Archaeology|~ The Cult of Orcus": {
 				"Category": ["Misc achievements"],
 				"Description": "Solve this mystery.",
-				"BaseQuest": "Achievements",
+				"BaseQuest": "Skills achievements",
 				"Tasks": {
 					"Archaeology Mystery: ~|The Cult of Orcus|~ Complete the mystery": "Quest"
 				},
 				"RuneScore": 15,
 				"Not F2P": true
 			},
-			"~|Achievements#Skills|~ The Discoverer X": {
+			"~|Skills achievements#Archaeology|~ The Discoverer X": {
 				"Category": ["Misc achievements"],
 				"Description": "Excavate 2,500 damaged artefacts.",
-				"BaseQuest": "Achievements",
+				"BaseQuest": "Skills achievements",
 				"Skills": {
 					"Excavate any artifact": "Nonskill"
 				},
 				"RuneScore": 265
 			},
-			"~|Achievements#Skills|~ The Donator V": {
+			"~|Skills achievements#Archaeology|~ The Donator V": {
 				"Category": ["Misc achievements"],
 				"Description": "Donate 250 artefacts to the museum.",
-				"BaseQuest": "Achievements",
+				"BaseQuest": "Skills achievements",
 				"Skills": {
 					"Excavate any artifact": "Nonskill"
 				},
 				"RuneScore": 105
 			},
-			"~|Achievements#Skills|~ The Dour of Bable": {
+			"~|Skills achievements#Archaeology|~ The Dour of Bable": {
 				"Category": ["Misc achievements"],
 				"Description": "Solve this mystery.",
-				"BaseQuest": "Achievements",
+				"BaseQuest": "Skills achievements",
 				"Tasks": {
 					"Archaeology Mystery: ~|The Dour of Bable|~ Complete the mystery": "Quest"
 				},
 				"RuneScore": 15,
 				"Not F2P": true
 			},
-			"~|Achievements#Skills|~ The Epic of Hebe": {
+			"~|Skills achievements#Archaeology|~ The Epic of Hebe": {
 				"Category": ["Misc achievements"],
 				"Description": "Solve this mystery.",
-				"BaseQuest": "Achievements",
+				"BaseQuest": "Skills achievements",
 				"Tasks": {
 					"Archaeology Mystery: ~|The Epic of Hebe|~ Complete the mystery": "Quest"
 				},
 				"RuneScore": 15,
 				"Not F2P": true
 			},
-			"~|Achievements#Skills|~ The Everlight": {
+			"~|Skills achievements#Archaeology|~ The Everlight": {
 				"Category": ["Misc achievements"],
 				"Description": "Solve this mystery.",
-				"BaseQuest": "Achievements",
+				"BaseQuest": "Skills achievements",
 				"Tasks": {
 					"Archaeology Mystery: ~|The Everlight|~ Complete the mystery": "Quest"
 				},
 				"RuneScore": 25,
 				"Not F2P": true
 			},
-			"~|Achievements#Skills|~ The Feast and the Famine": {
+			"~|Skills achievements#Archaeology|~ The Feast and the Famine": {
 				"Category": ["Misc achievements"],
 				"Description": "Attempt to be funny and show a primal feast to someone who won't appreciate it at Stormguard",
-				"BaseQuest": "Achievements",
+				"BaseQuest": "Skills achievements",
 				"Chunks": ["Stormguard Citadel"],
 				"Items": ["Primal feast"],
 				"RuneScore": 10,
 				"Not F2P": true
 			},
-			"~|Achievements#Skills|~ The First Commander": {
+			"~|Skills achievements#Archaeology|~ The First Commander": {
 				"Category": ["Misc achievements"],
 				"Description": "Solve this mystery.",
-				"BaseQuest": "Achievements",
+				"BaseQuest": "Skills achievements",
 				"Tasks": {
 					"Archaeology Mystery: ~|The First Commander|~ Complete the mystery": "Quest"
 				},
 				"RuneScore": 15,
 				"Not F2P": true
 			},
-			"~|Achievements#Skills|~ The Forgotten Prisoner": {
+			"~|Skills achievements#Archaeology|~ The Forgotten Prisoner": {
 				"Category": ["Misc achievements"],
 				"Description": "Solve this mystery.",
-				"BaseQuest": "Achievements",
+				"BaseQuest": "Skills achievements",
 				"Tasks": {
 					"Archaeology Mystery: ~|The Forgotten Prisoner|~ Complete the mystery": "Quest"
 				},
 				"RuneScore": 10,
 				"Not F2P": true
 			},
-			"~|Achievements#Skills|~ The Researcher VII": {
+			"~|Skills achievements#Archaeology|~ The Researcher VII": {
 				"Category": ["Misc achievements", "Timegated"],
 				"Description": "Send your research team out on field studies for 1,440 hours.",
-				"BaseQuest": "Achievements",
+				"BaseQuest": "Skills achievements",
 				"Chunks": ["13364"],
 				"Skills": {
 					"Become an ~|archaeology assistant|~": "Archaeology"
@@ -127760,19 +127793,19 @@
 				"RuneScore": 125,
 				"Not F2P": true
 			},
-			"~|Achievements#Skills|~ The Restorer X": {
+			"~|Skills achievements#Archaeology|~ The Restorer X": {
 				"Category": ["Misc achievements"],
 				"Description": "Restore 2,500 damaged artefacts.",
-				"BaseQuest": "Achievements",
+				"BaseQuest": "Skills achievements",
 				"Skills": {
 					"Excavate any artifact": "Nonskill"
 				},
 				"RuneScore": 265
 			},
-			"~|Achievements#Skills|~ The Seeker's Job": {
+			"~|Skills achievements#Archaeology|~ The Seeker's Job": {
 				"Category": ["Misc achievements"],
 				"Description": "Catch the golden butterfly",
-				"BaseQuest": "Achievements",
+				"BaseQuest": "Skills achievements",
 				"Chunks": ["14898"],
 				"Skills": {
 					"Hunter": 6
@@ -127780,262 +127813,262 @@
 				"RuneScore": 20,
 				"Not F2P": true
 			},
-			"~|Achievements#Skills|~ The Spy Who Loved Metal": {
+			"~|Skills achievements#Archaeology|~ The Spy Who Loved Metal": {
 				"Category": ["Misc achievements"],
 				"Description": "Solve this mystery.",
-				"BaseQuest": "Achievements",
+				"BaseQuest": "Skills achievements",
 				"Tasks": {
 					"Archaeology Mystery: ~|The Spy Who Loved Metal|~ Complete the mystery": "Quest"
 				},
 				"RuneScore": 15,
 				"Not F2P": true
 			},
-			"~|Achievements#Skills|~ The Vault of Shadows": {
+			"~|Skills achievements#Archaeology|~ The Vault of Shadows": {
 				"Category": ["Misc achievements"],
 				"Description": "Solve this mystery.",
-				"BaseQuest": "Achievements",
+				"BaseQuest": "Skills achievements",
 				"Tasks": {
 					"Archaeology Mystery: ~|The Vault of Shadows (mystery)|~ Complete the mystery": "Quest"
 				},
 				"RuneScore": 25,
 				"Not F2P": true
 			},
-			"~|Achievements#Skills|~ This One Time...": {
+			"~|Skills achievements#Archaeology|~ This One Time...": {
 				"Category": ["Misc achievements"],
 				"Description": "Conduct a musical performance within the amphitheatre at Everlight",
-				"BaseQuest": "Achievements",
+				"BaseQuest": "Skills achievements",
 				"Chunks": ["14899-1"],
 				"Items": ["Instrument[+]"],
 				"RuneScore": 25,
 				"Not F2P": true
 			},
-			"~|Achievements#Skills|~ Time Served": {
+			"~|Skills achievements#Archaeology|~ Time Served": {
 				"Category": ["Misc achievements"],
 				"Description": "Solve this mystery.",
-				"BaseQuest": "Achievements",
+				"BaseQuest": "Skills achievements",
 				"Tasks": {
 					"Archaeology Mystery: ~|Time Served|~ Complete the mystery": "Quest"
 				},
 				"RuneScore": 10,
 				"Not F2P": true
 			},
-			"~|Achievements#Skills|~ Velucia: Museum - Zamorakian I": {
+			"~|Skills achievements#Archaeology|~ Velucia: Museum - Zamorakian I": {
 				"Category": ["Archaeology Collections"],
 				"Label": "Archaeology Collections",
 				"Items": ["Hookah pipe", "Opulent wine goblet", "Crest of Dagon", "'Disorder' painting", "Imp mask", "Lesser demon mask", "Greater demon mask", "Order of Dis robes", "Ritual dagger"],
 				"NPCs": ["Velucia"],
 				"RuneScore": 10
 			},
-			"~|Achievements#Skills|~ Velucia: Museum - Armadylean I": {
+			"~|Skills achievements#Archaeology|~ Velucia: Museum - Armadylean I": {
 				"Category": ["Archaeology Collections"],
 				"Label": "Archaeology Collections",
 				"Items": ["Ikovian gerege", "Toy glider", "Toy war golem", "Avian song-egg player", "Keshik drum", "Morin khuur", "Aviansie dreamcoat", "Ceremonial plume", "Peacocking parasol"],
 				"NPCs": ["Velucia"],
 				"RuneScore": 10
 			},
-			"~|Achievements#Skills|~ Velucia: Museum - Armadylean II": {
+			"~|Skills achievements#Archaeology|~ Velucia: Museum - Armadylean II": {
 				"Category": ["Archaeology Collections"],
 				"Label": "Archaeology Collections",
 				"Items": ["Hawkeye lens multi-vision scope", "Talon-3 razor wing", "Prototype gravimeter", "Songbird recorder", "Dayguard shield", "Stormguard gerege", "Golem heart", "Golem instruction"],
 				"NPCs": ["Velucia"],
 				"RuneScore": 10
 			},
-			"~|Achievements#Skills|~ Velucia: Museum - Armadylean III": {
+			"~|Skills achievements#Archaeology|~ Velucia: Museum - Armadylean III": {
 				"Category": ["Archaeology Collections"],
 				"Label": "Archaeology Collections",
 				"Items": ["Blackfire lance", "Nightguard shield", "Flat cap", "Night owl flight goggles", "Prototype godbow", "Prototype godstaff", "Prototype godsword", "Chuluu stone", "Quintessence counter", "Spherical astrolabe"],
 				"NPCs": ["Velucia"],
 				"RuneScore": 10
 			},
-			"~|Achievements#Skills|~ Velucia: Museum - Bandosian I": {
+			"~|Skills achievements#Archaeology|~ Velucia: Museum - Bandosian I": {
 				"Category": ["Archaeology Collections"],
 				"Label": "Archaeology Collections",
 				"Items": ["Ekeleshuun blinder mask", "Narogoshuun 'Hob-da-Gob' ball", "Rekeshuun war tether", "Ogre Kyzaj axe", "Ork cleaver sword", "Thorobshuun battle standard", "Yurkolgokh stink grenade", "High priest crozier", "High priest mitre", "High priest orb"],
 				"NPCs": ["Velucia"],
 				"RuneScore": 10
 			},
-			"~|Achievements#Skills|~ Velucia: Museum - Bandosian II": {
+			"~|Skills achievements#Archaeology|~ Velucia: Museum - Bandosian II": {
 				"Category": ["Archaeology Collections"],
 				"Label": "Archaeology Collections",
 				"Items": ["Beastkeeper helm", "Idithuun horn ring", "'Nosorog!' sculpture", "Ourg megahitter", "Ourg tower/goblin cower shield", "Garagorshuun anchor", "Dorgeshuun spear", "'Forged in War' sculpture"],
 				"NPCs": ["Velucia"],
 				"RuneScore": 10
 			},
-			"~|Achievements#Skills|~ Velucia: Museum - Bandosian III": {
+			"~|Skills achievements#Archaeology|~ Velucia: Museum - Bandosian III": {
 				"Category": ["Archaeology Collections"],
 				"Label": "Archaeology Collections",
 				"Items": ["Huzamogaarb chaos crown", "Saragorgak star crown", "Drogokishuun hook sword", "Hobgoblin mansticker", "Kal-i-kra chieftan crown", "Kal-i-kra mace", "Kal-i-kra warhorn", "'Da Boss Man' sculpture", "Horogothgar cooking pot"],
 				"NPCs": ["Velucia"],
 				"RuneScore": 10
 			},
-			"~|Achievements#Skills|~ Velucia: Museum - Dragonkin I": {
+			"~|Skills achievements#Archaeology|~ Velucia: Museum - Dragonkin I": {
 				"Category": ["Archaeology Collections"],
 				"Label": "Archaeology Collections",
 				"Items": ["Pasaha", "Ritual bell", "Kilaya", "Vazara", "Death mask", "Dragonkin calendar", "Dragonkin staff"],
 				"NPCs": ["Velucia"],
 				"RuneScore": 10
 			},
-			"~|Achievements#Skills|~ Velucia: Museum - Dragonkin II": {
+			"~|Skills achievements#Archaeology|~ Velucia: Museum - Dragonkin II": {
 				"Category": ["Archaeology Collections"],
 				"Label": "Archaeology Collections",
 				"Items": ["Dragon scalpel", "Protective goggles", "Dragon burner", "Orthenglass flask"],
 				"NPCs": ["Velucia"],
 				"RuneScore": 10
 			},
-			"~|Achievements#Skills|~ Velucia: Museum - Dragonkin III": {
+			"~|Skills achievements#Archaeology|~ Velucia: Museum - Dragonkin III": {
 				"Category": ["Archaeology Collections"],
 				"Label": "Archaeology Collections",
 				"Items": ["Meditation pipe", "Personal totem", "Singing bowl", "Lingam stone", "Master control"],
 				"NPCs": ["Velucia"],
 				"RuneScore": 10
 			},
-			"~|Achievements#Skills|~ Velucia: Museum - Dragonkin IV":  {
+			"~|Skills achievements#Archaeology|~ Velucia: Museum - Dragonkin IV":  {
 				"Category": ["Archaeology Collections"],
 				"Label": "Archaeology Collections",
 			    "Items": ["Xolo hard hat", "Xolo pickaxe", "Xolo shield", "Xolo spear", "Gold dish", "'Raksha' idol"],
 			    "NPCs": ["Velucia"],
 				"RuneScore": 10
 			},
-			"~|Achievements#Skills|~ Velucia: Museum - Dragonkin V":  {
+			"~|Skills achievements#Archaeology|~ Velucia: Museum - Dragonkin V":  {
 				"Category": ["Archaeology Collections"],
 				"Label": "Archaeology Collections",
 			    "Items": ["Castle gatestone", "Engraved ring of kinship", "Exploratory totem", "Excavator portal mine"],
 			    "NPCs": ["Velucia"],
 				"RuneScore": 10
 			},
-			"~|Achievements#Skills|~ Velucia: Museum - Dragonkin VI":  {
+			"~|Skills achievements#Archaeology|~ Velucia: Museum - Dragonkin VI":  {
 				"Category": ["Archaeology Collections"],
 				"Label": "Archaeology Collections",
 			    "Items": ["Storage totem", "Plant seed satchel", "Snuff box", "Spent summoning charm", "'Friendship bracelet'", "Homely totem"],
 			    "NPCs": ["Velucia"],
 				"RuneScore": 10
 			},
-			"~|Achievements#Skills|~ Velucia: Museum - Dragonkin VII":  {
+			"~|Skills achievements#Archaeology|~ Velucia: Museum - Dragonkin VII":  {
 				"Category": ["Archaeology Collections"],
 				"Label": "Archaeology Collections",
 			    "Items": ["Projection attuner", "Golden projection 'needle'", "Comfort gatestone", "Halak's cube", "Portable portal generator", "Warped trinket"],
 			    "NPCs": ["Velucia"],
 				"RuneScore": 10
 			},
-			"~|Achievements#Skills|~ Velucia: Museum - Saradominist I": {
+			"~|Skills achievements#Archaeology|~ Velucia: Museum - Saradominist I": {
 				"Category": ["Archaeology Collections"],
 				"Label": "Archaeology Collections",
 				"Items": ["'Frying pan'", "Hallowed lantern", "Ceremonial unicorn ornament", "Ceremonial unicorn saddle", "Everlight harp", "Everlight trumpet", "Everlight violin", "Folded-arm figurine (female)", "Folded-arm figurine (male)"],
 				"NPCs": ["Velucia"],
 				"RuneScore": 10
 			},
-			"~|Achievements#Skills|~ Velucia: Museum - Saradominist II": {
+			"~|Skills achievements#Archaeology|~ Velucia: Museum - Saradominist II": {
 				"Category": ["Archaeology Collections"],
 				"Label": "Archaeology Collections",
 				"Items": ["Dominion discus", "Dominion javelin", "Dominion pelte shield", "Bronze Dominion medal", "Silver Dominion medal", "Dominion torch", "Decorative vase", "Kantharos cup", "Patera bowl"],
 				"NPCs": ["Velucia"],
 				"RuneScore": 10
 			},
-			"~|Achievements#Skills|~ Velucia: Museum - Saradominist III": {
+			"~|Skills achievements#Archaeology|~ Velucia: Museum - Saradominist III": {
 				"Category": ["Archaeology Collections"],
 				"Label": "Archaeology Collections",
 				"Items": ["Dominarian device", "Fishing trident", "Amphora", "Rod of Asclepius", "Kopis dagger", "Xiphos short sword"],
 				"NPCs": ["Velucia"],
 				"RuneScore": 10
 			},
-			"~|Achievements#Skills|~ Velucia: Museum - Saradominist IV": {
+			"~|Skills achievements#Archaeology|~ Velucia: Museum - Saradominist IV": {
 				"Category": ["Archaeology Collections"],
 				"Label": "Archaeology Collections",
 				"Items": ["'The Pride of Padosan' painting", "'Hallowed Be the Everlight' painting", "'The Lord of Light' painting", "'The Enlightened Soul' scroll", "'The Eudoxian Elements' tablet", "Doru spear", "Kontos lance"],
 				"NPCs": ["Velucia"],
 				"RuneScore": 10
 			},
-			"~|Achievements#Skills|~ Velucia: Museum - Zamorakian II": {
+			"~|Skills achievements#Archaeology|~ Velucia: Museum - Zamorakian II": {
 				"Category": ["Archaeology Collections"],
 				"Label": "Archaeology Collections",
 				"Items": ["Branding iron", "Manacles", "'The Lake of Fire' painting", "'Lust' metal sculpture", "Chaos star", "Spiked dog collar", "Larupia trophy", "Lion trophy", "She-wolf trophy"],
 				"NPCs": ["Velucia"],
 				"RuneScore": 10
 			},
-			"~|Achievements#Skills|~ Velucia: Museum - Zamorakian III": {
+			"~|Skills achievements#Archaeology|~ Velucia: Museum - Zamorakian III": {
 				"Category": ["Archaeology Collections"],
 				"Label": "Archaeology Collections",
 				"Items": ["'Torment' metal sculpture", "'Pandemonium' tapestry", "Hellfire haladie", "Hellfire katar", "Hellfire zaghnal", "'Possession' metal sculpture", "Trishula", "Tsutsaroth piercing"],
 				"NPCs": ["Velucia"],
 				"RuneScore": 10
 			},
-			"~|Achievements#Skills|~ Velucia: Museum - Zamorakian IV": {
+			"~|Skills achievements#Archaeology|~ Velucia: Museum - Zamorakian IV": {
 				"Category": ["Archaeology Collections"],
 				"Label": "Archaeology Collections",
 				"Items": ["Chaos Elemental trophy", "Virius trophy", "Tsutsaroth helm", "Tsutsaroth pauldron", "Tsutsaroth urumi"],
 				"NPCs": ["Velucia"],
 				"RuneScore": 10
 			},
-			"~|Achievements#Skills|~ Velucia: Museum - Zarosian I": {
+			"~|Skills achievements#Archaeology|~ Velucia: Museum - Zarosian I": {
 				"Category": ["Archaeology Collections"],
 				"Label": "Archaeology Collections",
 				"Items": ["Venator dagger", "Venator light crossbow", "Primis Elementis standard", "Legionary gladius", "Legionary square shield", "Zaros effigy", "Zarosian training dummy", "Legatus Maximus figurine", "'Solem in Umbra' painting"],
 				"NPCs": ["Velucia"],
 				"RuneScore": 10
 			},
-			"~|Achievements#Skills|~ Velucia: Museum - Zarosian II": {
+			"~|Skills achievements#Archaeology|~ Velucia: Museum - Zarosian II": {
 				"Category": ["Archaeology Collections"],
 				"Label": "Archaeology Collections",
 				"Items": ["Ancient timepiece", "Legatus pendant", "'Incite Fear' spell scroll", "Pontifex signet ring", "Ceremonial mace", "Pontifex Maximus figurine", "'Consensus ad Idem' painting", "Pontifex censer", "Pontifex crozier", "Pontifex mitre"],
 				"NPCs": ["Velucia"],
 				"RuneScore": 10
 			},
-			"~|Achievements#Skills|~ Velucia: Museum - Zarosian III": {
+			"~|Skills achievements#Archaeology|~ Velucia: Museum - Zarosian III": {
 				"Category": ["Archaeology Collections"],
 				"Label": "Archaeology Collections",
 				"Items": ["'Exsanguinate' spell scroll", "Necromantic focus", "Zarosian ewer", "Zarosian stein", "'Smoke Cloud' spell scroll", "Vigorem vial", "Ancient magic tablet", "'Animate Dead' spell scroll", "Portable phylactery"],
 				"NPCs": ["Velucia"],
 				"RuneScore": 10
 			},
-			"~|Achievements#Skills|~ Velucia: Museum - Zarosian IV": {
+			"~|Skills achievements#Archaeology|~ Velucia: Museum - Zarosian IV": {
 				"Category": ["Archaeology Collections"],
 				"Label": "Archaeology Collections",
 				"Items": ["Praetorian hood", "Praetorian robes", "Praetorian staff", "Ancient globe", "Battle plans", "'Prima Legio' painting"],
 				"NPCs": ["Velucia"],
 				"RuneScore": 10
 			},
-			"~|Achievements#Skills|~ Velucia: Museum - Zarosian V": {
+			"~|Skills achievements#Archaeology|~ Velucia: Museum - Zarosian V": {
 				"Category": ["Archaeology Collections"],
 				"Label": "Archaeology Collections",
 				"Items": ["Apex cap", "Curse tablet", "Funerary urn of shadow", "Infula robes", "Funerary urn of smoke", "Hand of the Ancients"],
 				"NPCs": ["Velucia"],
 				"RuneScore": 10
 			},
-			"~|Achievements#Skills|~ Velucia: Museum - Zarosian VI": {
+			"~|Skills achievements#Archaeology|~ Velucia: Museum - Zarosian VI": {
 				"Category": ["Archaeology Collections"],
 				"Label": "Archaeology Collections",
 				"Items": ["Decorative amphora", "Funerary urn of ice", "Loarnab rod", "Inquisitor's ceremonial armour", "Inquisitor's ceremonial mask", "Inquisitor's seal"],
 				"NPCs": ["Velucia"],
 				"RuneScore": 10
 			},
-			"~|Achievements#Skills|~ Velucia: Museum - Zarosian VII": {
+			"~|Skills achievements#Archaeology|~ Velucia: Museum - Zarosian VII": {
 				"Category": ["Archaeology Collections"],
 				"Label": "Archaeology Collections",
 				"Items": ["Gladiator helmet", "Gladiator sword", "Funerary urn of blood", "Funerary urn of miasma", "Model chariot", "'The Serpent's Fall' carving"],
 				"NPCs": ["Velucia"],
 				"RuneScore": 10
 			},
-			"~|Achievements#Skills|~ Warm Glow": {
+			"~|Skills achievements#Archaeology|~ Warm Glow": {
 				"Category": ["Misc achievements"],
 				"Description": "Excavate at Kharid-et whilst the pylons are active.",
-				"BaseQuest": "Achievements",
+				"BaseQuest": "Skills achievements",
 				"Chunks": ["Kharid-et - Barracks excavation site"],
 				"RuneScore": 10,
 				"Not F2P": true
 			},
-			"~|Achievements#Skills|~ Who's a Bad Boy?": {
+			"~|Skills achievements#Archaeology|~ Who's a Bad Boy?": {
 				"Category": ["Misc achievements"],
 				"Description": "Adorn a hellhound with some fabulously retro infernal fashion",
-				"BaseQuest": "Achievements",
+				"BaseQuest": "Skills achievements",
 				"Monsters": ["Hellhound"],
 				"Items": ["Spiked dog collar"],
 				"RuneScore": 25,
 				"Not F2P": true
 			},
-			"~|Achievements#Skills|~ Whoa, Double Chaos": {
+			"~|Skills achievements#Archaeology|~ Whoa, Double Chaos": {
 				"Category": ["Misc achievements"],
 				"Description": "Use one of the chaos portals while wearing a full set of chaos equipment.",
-				"BaseQuest": "Achievements",
+				"BaseQuest": "Skills achievements",
 				"Chunks": ["Infernal Source"],
 				"Items": ["Chaos helmet", "Chaos body", "Chaos shield", "Chaos gloves", "Chaos boots"],
 				"Skills": {
@@ -128044,115 +128077,351 @@
 				"RuneScore": 10,
 				"Not F2P": true
 			},
-			"~|Achievements#Skills|~ Wing Out": {
+			"~|Skills achievements#Archaeology|~ Wing Out": {
 				"Category": ["Misc achievements"],
 				"Description": "Solve this mystery.",
-				"BaseQuest": "Achievements",
+				"BaseQuest": "Skills achievements",
 				"Tasks": {
 					"Archaeology Mystery: ~|Wing Out|~ Complete the mystery": "Quest"
 				},
 				"RuneScore": 15,
 				"Not F2P": true
 			},
-			"~|Achievements#Skills|~ Wise Old Man: Hat Hoarder": {
+			"~|Skills achievements#Archaeology|~ Wise Old Man: Hat Hoarder": {
 				"Category": ["Archaeology Collections"],
 				"Label": "Archaeology Collections",
 				"Items": ["Lesser demon mask", "Greater demon mask", "Ceremonial unicorn ornament", "Pontifex mitre", "Saragorgak star crown", "Kal-i-kra chieftan crown", "Tsutsaroth helm"],
 				"NPCs": ["Wise Old Man"],
 				"RuneScore": 10
 			},
-			"~|Achievements#Skills|~ Wise Old Man: Hat Problem": {
+			"~|Skills achievements#Archaeology|~ Wise Old Man: Hat Problem": {
 				"Category": ["Archaeology Collections"],
 				"Label": "Archaeology Collections",
 				"Items": ["Imp mask", "Ekeleshuun blinder mask", "High priest mitre", "Beastkeeper helm", "Huzamogaarb chaos crown", "Flat cap", "Praetorian hood"],
 				"NPCs": ["Wise Old Man"],
 				"RuneScore": 10
 			},
-			"~|Achievements#Skills|~ Wise Old Man: Knowledge is Power": {
+			"~|Skills achievements#Archaeology|~ Wise Old Man: Knowledge is Power": {
 				"Category": ["Archaeology Collections"],
 				"Label": "Archaeology Collections",
 				"Items": ["Crest of Dagon", "Ikovian gerege", "Necromantic focus", "Golem instruction", "'The Enlightened Soul' scroll", "'The Eudoxian Elements' tablet", "'Da Boss Man' sculpture"],
 				"NPCs": ["Wise Old Man"],
 				"RuneScore": 10
 			},
-			"~|Achievements#Skills|~ Wise Old Man: Magic Man": {
+			"~|Skills achievements#Archaeology|~ Wise Old Man: Magic Man": {
 				"Category": ["Archaeology Collections"],
 				"Label": "Archaeology Collections",
 				"Items": ["Legatus Maximus figurine", "Ritual dagger", "Ancient timepiece", "'Incite Fear' spell scroll", "'Exsanguinate' spell scroll", "High priest mitre", "'Smoke Cloud' spell scroll", "'Animate Dead' spell scroll", "Portable phylactery", "Chuluu stone"],
 				"NPCs": ["Wise Old Man"],
 				"RuneScore": 10
 			},
-			"~|Achievements#Skills|~ Wise Old Man: Wise Am the Music Man": {
+			"~|Skills achievements#Archaeology|~ Wise Old Man: Wise Am the Music Man": {
 				"Category": ["Archaeology Collections"],
 				"Label": "Archaeology Collections",
 				"Items": ["Everlight harp", "Everlight trumpet", "Everlight violin", "Avian song-egg player", "Keshik drum", "Morin khuur", "Songbird recorder"],
 				"NPCs": ["Wise Old Man"],
 				"RuneScore": 10
 			},
-			"~|Achievements#Skills|~ Writings on the Walls": {
+			"~|Skills achievements#Archaeology|~ Writings on the Walls": {
 				"Category": ["Misc achievements"],
 				"Description": "Solve this mystery.",
-				"BaseQuest": "Achievements",
+				"BaseQuest": "Skills achievements",
 				"Tasks": {
 					"Archaeology Mystery: ~|Writings on the Walls|~ Complete the mystery": "Quest"
 				},
 				"RuneScore": 5,
 				"Not F2P": true
 			},
-			"~|Achievements#Skills|~ You Have Chosen...": {
+			"~|Skills achievements#Archaeology|~ You Have Chosen...": {
 				"Category": ["Misc achievements"],
 				"Description": "Solve this mystery.",
-				"BaseQuest": "Achievements",
+				"BaseQuest": "Skills achievements",
 				"Tasks": {
 					"Archaeology Mystery: ~|You Have Chosen...|~ Complete the mystery": "Quest"
 				},
 				"RuneScore": 25,
 				"Not F2P": true
 			},
-			"~|Achievements#Skills|~ Attack 120": {
+			"~|Skills achievements#Archaeology|~ Complete the Archaeology achievements": {
+				"Category": ["Misc achievements"],
+				"BaseQuest": "Skills achievements",
+				"Tasks": {
+					"~|Skills achievements#Archaeology|~ A New Age": "Diary",
+					"~|Skills achievements#Archaeology|~ A New Form": "Diary",
+					"~|Skills achievements#Archaeology|~ A New Home": "Diary",
+					"~|Skills achievements#Archaeology|~ A Study in Aether": "Diary",
+					"~|Skills achievements#Archaeology|~ Abbinah Resting Here For a While": "Diary",
+					"~|Skills achievements#Archaeology|~ Any Port in a Storm": "Diary",
+					"~|Skills achievements#Archaeology|~ Aquatic Escape": "Diary",
+					"~|Skills achievements#Archaeology|~ Archaeology 120": "Diary",
+					"~|Skills achievements#Archaeology|~ Art Critic Jacques: Anarchic Abstraction": "Diary",
+					"~|Skills achievements#Archaeology|~ Art Critic Jacques: Radiant Renaissance": "Diary",
+					"~|Skills achievements#Archaeology|~ Art Critic Jacques: Imperial Impressionism": "Diary",
+					"~|Skills achievements#Archaeology|~ Atonement": "Diary",
+					"~|Skills achievements#Archaeology|~ Breaking the Seal": "Diary",
+					"~|Skills achievements#Archaeology|~ Breaking the Sound Barrier": "Diary",
+					"~|Skills achievements#Archaeology|~ Chief Tess: Blingy Fings": "Diary",
+					"~|Skills achievements#Archaeology|~ Chief Tess: Hitty Fings": "Diary",
+					"~|Skills achievements#Archaeology|~ Chief Tess: Showy Fings": "Diary",
+					"~|Skills achievements#Archaeology|~ Chief Tess: Smoky Fings": "Diary",
+					"~|Skills achievements#Archaeology|~ Collectors Assemble VIII": "Diary",
+					"~|Skills achievements#Archaeology|~ Contract Claws": "Diary",
+					"~|Skills achievements#Archaeology|~ Crypt o' Zoology": "Diary",
+					"~|Skills achievements#Archaeology|~ Dagon Bye": "Diary",
+					"~|Skills achievements#Archaeology|~ Death Watch": "Diary",
+					"~|Skills achievements#Archaeology|~ Decimation": "Diary",
+					"~|Skills achievements#Archaeology|~ Demonic Ingenuity": "Diary",
+					"~|Skills achievements#Archaeology|~ Die! Die! Die!": "Diary",
+					"~|Skills achievements#Archaeology|~ Elbis: Entertaining the Masses": "Diary",
+					"~|Skills achievements#Archaeology|~ Elbis: Finery of the Inquisition": "Diary",
+					"~|Skills achievements#Archaeology|~ Elbis: Imperial Sorcery": "Diary",
+					"~|Skills achievements#Archaeology|~ Elbis: Religious Iconography": "Diary",
+					"~|Skills achievements#Archaeology|~ Elbis: Urns of the Empire": "Diary",
+					"~|Skills achievements#Archaeology|~ Eipy Rreb Dere Voli": "Diary",
+					"~|Skills achievements#Archaeology|~ Embrace the Chaos": "Diary",
+					"~|Skills achievements#Archaeology|~ Empty Children": "Diary",
+					"~|Skills achievements#Archaeology|~ Eyes in Their Stars": "Diary",
+					"~|Skills achievements#Archaeology|~ Fall and Rise": "Diary",
+					"~|Skills achievements#Archaeology|~ Fallen Angels": "Diary",
+					"~|Skills achievements#Archaeology|~ Forge War!": "Diary",
+					"~|Skills achievements#Archaeology|~ Fragmented Memories": "Diary",
+					"~|Skills achievements#Archaeology|~ Free Your Mind": "Diary",
+					"~|Skills achievements#Archaeology|~ From Across the Keramos": "Diary",
+					"~|Skills achievements#Archaeology|~ Goblin Generals: Red Rum Relics I": "Diary",
+					"~|Skills achievements#Archaeology|~ Goblin Generals: Red Rum Relics II": "Diary",
+					"~|Skills achievements#Archaeology|~ Goblin Generals: Red Rum Relics III": "Diary",
+					"~|Skills achievements#Archaeology|~ Goblin Generals: Green Gobbo Goodies I": "Diary",
+					"~|Skills achievements#Archaeology|~ Goblin Generals: Green Gobbo Goodies II": "Diary",
+					"~|Skills achievements#Archaeology|~ Goblin Generals: Green Gobbo Goodies III": "Diary",
+					"~|Skills achievements#Archaeology|~ Giles: Desperate for Artefacts": "Diary",
+					"~|Skills achievements#Archaeology|~ Goblin Tutorial": "Diary",
+					"~|Skills achievements#Archaeology|~ Hallowed Be...": "Diary",
+					"~|Skills achievements#Archaeology|~ Heart of the Forge": "Diary",
+					"~|Skills achievements#Archaeology|~ Hey, Look! Over Here!": "Diary",
+					"~|Skills achievements#Archaeology|~ How Do You Do, Fellow Ghost?": "Diary",
+					"~|Skills achievements#Archaeology|~ Howl's Floating Workshop": "Diary",
+					"~|Skills achievements#Archaeology|~ I Am Become Death": "Diary",
+					"~|Skills achievements#Archaeology|~ I Am Inevitable": "Diary",
+					"~|Skills achievements#Archaeology|~ I Made Dis": "Diary",
+					"~|Skills achievements#Archaeology|~ Icarus": "Diary",
+					"~|Skills achievements#Archaeology|~ Into the Forge": "Diary",
+					"~|Skills achievements#Archaeology|~ Isaura: Zamorakian I": "Diary",
+					"~|Skills achievements#Archaeology|~ Isaura: Zamorakian II": "Diary",
+					"~|Skills achievements#Archaeology|~ Isaura: Zamorakian III": "Diary",
+					"~|Skills achievements#Archaeology|~ Isaura: Zamorakian IV": "Diary",
+					"~|Skills achievements#Archaeology|~ Know Thy Measure": "Diary",
+					"~|Skills achievements#Archaeology|~ Leap of Faith": "Diary",
+					"~|Skills achievements#Archaeology|~ Light and Shadow": "Diary",
+					"~|Skills achievements#Archaeology|~ Looting Stars": "Diary",
+					"~|Skills achievements#Archaeology|~ Lowe: Armadylean I": "Diary",
+					"~|Skills achievements#Archaeology|~ Lowe: Armadylean II": "Diary",
+					"~|Skills achievements#Archaeology|~ Lowe: Armadylean III": "Diary",
+					"~|Skills achievements#Archaeology|~ Monolithic Power": "Diary",
+					"~|Skills achievements#Archaeology|~ Mysterious City": "Diary",
+					"~|Skills achievements#Archaeology|~ Myster Solver VIII": "Diary",
+					"~|Skills achievements#Archaeology|~ Neverlight": "Diary",
+					"~|Skills achievements#Archaeology|~ Night Theatre": "Diary",
+					"~|Skills achievements#Archaeology|~ No Fighting in the Warforge!": "Diary",
+					"~|Skills achievements#Archaeology|~ No Secrets Left to Steal": "Diary",
+					"~|Skills achievements#Archaeology|~ Oops! Wrong Tunnel!": "Diary",
+					"~|Skills achievements#Archaeology|~ Out of the Crucible": "Diary",
+					"~|Skills achievements#Archaeology|~ Plunder Hunter": "Diary",
+					"~|Skills achievements#Archaeology|~ Ponti-Nex": "Diary",
+					"~|Skills achievements#Archaeology|~ Prison Break": "Diary",
+					"~|Skills achievements#Archaeology|~ Qualification - Assistant": "Diary",
+					"~|Skills achievements#Archaeology|~ Qualification - Associate": "Diary",
+					"~|Skills achievements#Archaeology|~ Qualification - Intern": "Diary",
+					"~|Skills achievements#Archaeology|~ Qualification - Professor": "Diary",
+					"~|Skills achievements#Archaeology|~ Queen of the Icyene": "Diary",
+					"~|Skills achievements#Archaeology|~ Relic-weary": "Diary",
+					"~|Skills achievements#Archaeology|~ Secrets of the Inquisition": "Diary",
+					"~|Skills achievements#Archaeology|~ Secrets of the Monolith": "Diary",
+					"~|Skills achievements#Archaeology|~ Shadow Fall": "Diary",
+					"~|Skills achievements#Archaeology|~ Sharrigan: Dragonkin I": "Diary",
+					"~|Skills achievements#Archaeology|~ Sharrigan: Dragonkin II": "Diary",
+					"~|Skills achievements#Archaeology|~ Sharrigan: Dragonkin III": "Diary",
+					"~|Skills achievements#Archaeology|~ Sharrigan: Dragonkin IV": "Diary",
+					"~|Skills achievements#Archaeology|~ Sharrigan: Dragonkin V": "Diary",
+					"~|Skills achievements#Archaeology|~ Sharrigan: Dragonkin VI": "Diary",
+					"~|Skills achievements#Archaeology|~ Sharrigan: Dragonkin VII": "Diary",
+					"~|Skills achievements#Archaeology|~ Sir Atcha: Saradominist I": "Diary",
+					"~|Skills achievements#Archaeology|~ Sir Atcha: Saradominist II": "Diary",
+					"~|Skills achievements#Archaeology|~ Sir Atcha: Saradominist III": "Diary",
+					"~|Skills achievements#Archaeology|~ Sir Atcha: Saradominist IV": "Diary",
+					"~|Skills achievements#Archaeology|~ Soils of the Past": "Diary",
+					"~|Skills achievements#Archaeology|~ Soran: Zarosian I": "Diary",
+					"~|Skills achievements#Archaeology|~ Soran: Zarosian II": "Diary",
+					"~|Skills achievements#Archaeology|~ Soran: Zarosian III": "Diary",
+					"~|Skills achievements#Archaeology|~ Soran: Zarosian IV": "Diary",
+					"~|Skills achievements#Archaeology|~ Stick It to Da Boss Man": "Diary",
+					"~|Skills achievements#Archaeology|~ Superhot": "Diary",
+					"~|Skills achievements#Archaeology|~ Tasty Pastry": "Diary",
+					"~|Skills achievements#Archaeology|~ Teacher's Pet": "Diary",
+					"~|Skills achievements#Archaeology|~ Teleport Node On": "Diary",
+					"~|Skills achievements#Archaeology|~ That's Not How it Works": "Diary",
+					"~|Skills achievements#Archaeology|~ The Contributor VIII": "Diary",
+					"~|Skills achievements#Archaeology|~ The Cult of Orcus": "Diary",
+					"~|Skills achievements#Archaeology|~ The Discoverer X": "Diary",
+					"~|Skills achievements#Archaeology|~ The Donator V": "Diary",
+					"~|Skills achievements#Archaeology|~ The Dour of Bable": "Diary",
+					"~|Skills achievements#Archaeology|~ The Epic of Hebe": "Diary",
+					"~|Skills achievements#Archaeology|~ The Everlight": "Diary",
+					"~|Skills achievements#Archaeology|~ The Feast and the Famine": "Diary",
+					"~|Skills achievements#Archaeology|~ The First Commander": "Diary",
+					"~|Skills achievements#Archaeology|~ The Forgotten Prisoner": "Diary",
+					"~|Skills achievements#Archaeology|~ The Researcher VII": "Diary",
+					"~|Skills achievements#Archaeology|~ The Restorer X": "Diary",
+					"~|Skills achievements#Archaeology|~ The Seeker's Job": "Diary",
+					"~|Skills achievements#Archaeology|~ The Spy Who Loved Metal": "Diary",
+					"~|Skills achievements#Archaeology|~ The Vault of Shadows": "Diary",
+					"~|Skills achievements#Archaeology|~ This One Time...": "Diary",
+					"~|Skills achievements#Archaeology|~ Time Served": "Diary",
+					"~|Skills achievements#Archaeology|~ Velucia: Museum - Zamorakian I": "Diary",
+					"~|Skills achievements#Archaeology|~ Velucia: Museum - Armadylean I": "Diary",
+					"~|Skills achievements#Archaeology|~ Velucia: Museum - Armadylean II": "Diary",
+					"~|Skills achievements#Archaeology|~ Velucia: Museum - Armadylean III": "Diary",
+					"~|Skills achievements#Archaeology|~ Velucia: Museum - Bandosian I": "Diary",
+					"~|Skills achievements#Archaeology|~ Velucia: Museum - Bandosian II": "Diary",
+					"~|Skills achievements#Archaeology|~ Velucia: Museum - Bandosian III": "Diary",
+					"~|Skills achievements#Archaeology|~ Velucia: Museum - Dragonkin I": "Diary",
+					"~|Skills achievements#Archaeology|~ Velucia: Museum - Dragonkin II": "Diary",
+					"~|Skills achievements#Archaeology|~ Velucia: Museum - Dragonkin III": "Diary",
+					"~|Skills achievements#Archaeology|~ Velucia: Museum - Dragonkin IV": "Diary",
+					"~|Skills achievements#Archaeology|~ Velucia: Museum - Dragonkin V": "Diary",
+					"~|Skills achievements#Archaeology|~ Velucia: Museum - Dragonkin VI": "Diary",
+					"~|Skills achievements#Archaeology|~ Velucia: Museum - Dragonkin VII": "Diary",
+					"~|Skills achievements#Archaeology|~ Velucia: Museum - Saradominist I": "Diary",
+					"~|Skills achievements#Archaeology|~ Velucia: Museum - Saradominist II": "Diary",
+					"~|Skills achievements#Archaeology|~ Velucia: Museum - Saradominist III": "Diary",
+					"~|Skills achievements#Archaeology|~ Velucia: Museum - Saradominist IV": "Diary",
+					"~|Skills achievements#Archaeology|~ Velucia: Museum - Zamorakian II": "Diary",
+					"~|Skills achievements#Archaeology|~ Velucia: Museum - Zamorakian III": "Diary",
+					"~|Skills achievements#Archaeology|~ Velucia: Museum - Zamorakian IV": "Diary",
+					"~|Skills achievements#Archaeology|~ Velucia: Museum - Zarosian I": "Diary",
+					"~|Skills achievements#Archaeology|~ Velucia: Museum - Zarosian II": "Diary",
+					"~|Skills achievements#Archaeology|~ Velucia: Museum - Zarosian III": "Diary",
+					"~|Skills achievements#Archaeology|~ Velucia: Museum - Zarosian IV": "Diary",
+					"~|Skills achievements#Archaeology|~ Velucia: Museum - Zarosian V": "Diary",
+					"~|Skills achievements#Archaeology|~ Velucia: Museum - Zarosian VI": "Diary",
+					"~|Skills achievements#Archaeology|~ Velucia: Museum - Zarosian VII": "Diary",
+					"~|Skills achievements#Archaeology|~ Warm Glow": "Diary",
+					"~|Skills achievements#Archaeology|~ Who's a Bad Boy?": "Diary",
+					"~|Skills achievements#Archaeology|~ Whoa, Double Chaos": "Diary",
+					"~|Skills achievements#Archaeology|~ Wing Out": "Diary",
+					"~|Skills achievements#Archaeology|~ Wise Old Man: Hat Hoarder": "Diary",
+					"~|Skills achievements#Archaeology|~ Wise Old Man: Hat Problem": "Diary",
+					"~|Skills achievements#Archaeology|~ Wise Old Man: Knowledge is Power": "Diary",
+					"~|Skills achievements#Archaeology|~ Wise Old Man: Magic Man": "Diary",
+					"~|Skills achievements#Archaeology|~ Wise Old Man: Wise Am the Music Man": "Diary",
+					"~|Skills achievements#Archaeology|~ Writings on the Walls": "Diary",
+					"~|Skills achievements#Archaeology|~ You Have Chosen...": "Diary"
+				},
+				"ManualShow": true,
+				"Not F2P": true
+			},
+			"~|Skills achievements#Combat (Skills)|~ Attack 120": {
 				"Category": ["Misc achievements", "Level-up achievements"],
 				"Description": "Reach level 120 in the Attack skill.",
-				"BaseQuest": "Achievements",
+				"BaseQuest": "Skills achievements",
 				"Skills": {
 					"Attack": 120
 				},
 				"RuneScore": 75,
 				"NoBoost": true
 			},
-			"~|Achievements#Skills|~ Constitution 99": {
+			"~|Skills achievements#Combat (Skills)|~ Constitution 99": {
 				"Category": ["Misc achievements", "Level-up achievements"],
 				"Description": "Reach level 99 in the Constitution skill.",
-				"BaseQuest": "Achievements",
+				"BaseQuest": "Skills achievements",
 				"Skills": {
 					"Constitution": 99
 				},
 				"RuneScore": 55,
 				"NoBoost": true
 			},
-			"~|Achievements#Skills|~ Constitution 120": {
+			"~|Skills achievements#Combat (Skills)|~ Constitution 120": {
 				"Category": ["Misc achievements", "Level-up achievements", "No RuneScore"],
 				"Description": "Reach virtual level 120 in the Constitution skill.",
-				"BaseQuest": "Achievements",
+				"BaseQuest": "Skills achievements",
 				"Skills": {
 					"Constitution": 120
+				},
+				"Tasks": {
+					"~|Skills achievements#Divination|~ Constitution 99": "Diary"
 				},
 				"NoBoost": true,
 				"Allow Virtual": true
 			},
-			"~|Achievements#Skills|~ Construction 5": {
+			"~|Skills achievements#Combat (Skills)|~ Defence 99": {
+				"Category": ["Misc achievements", "Level-up achievements"],
+				"Description": "Reach level 99 in the Defence skill.",
+				"BaseQuest": "Skills achievements",
+				"Skills": {
+					"Defence": 99
+				},
+				"RuneScore": 60,
+				"NoBoost": true
+			},
+			"~|Skills achievements#Combat (Skills)|~ Defence 120": {
+				"Category": ["Misc achievements", "Level-up achievements", "No RuneScore"],
+				"Description": "Reach virtual level 120 in the Defence skill.",
+				"BaseQuest": "Skills achievements",
+				"Skills": {
+					"Defence": 120
+				},
+				"Tasks": {
+					"~|Skills achievements#Divination|~ Defence 99": "Diary"
+				},
+				"NoBoost": true,
+				"Allow Virtual": true
+			},
+			"~|Skills achievements#Combat (Skills)|~ Ranged 120": {
+				"Category": ["Misc achievements", "Level-up achievements"],
+				"Description": "Reach level 120 in the Ranged skill.",
+				"BaseQuest": "Skills achievements",
+				"Skills": {
+					"Ranged": 120
+				},
+				"RuneScore": 75,
+				"NoBoost": true
+			},
+			"~|Skills achievements#Combat (Skills)|~ Strength 120": {
+				"Category": ["Misc achievements", "Level-up achievements"],
+				"Description": "Reach virtual level 120 in the Strength skill.",
+				"BaseQuest": "Skills achievements",
+				"Skills": {
+					"Strength": 120
+				},
+				"RuneScore": 75,
+				"NoBoost": true
+			},
+			"~|Skills achievements#Combat (Skills)|~ Complete the Combat (Skills) achievements": {
+				"Category": ["Misc achievements"],
+				"BaseQuest": "Skills achievements",
+				"Tasks": {
+					"~|Skills achievements#Combat (Skills)|~ Attack 120": "Diary",
+					"~|Skills achievements#Combat (Skills)|~ Constitution 120": "Diary",
+					"~|Skills achievements#Combat (Skills)|~ Defence 120": "Diary",
+					"~|Skills achievements#Combat (Skills)|~ Ranged 120": "Diary",
+					"~|Skills achievements#Combat (Skills)|~ Strength 120": "Diary"
+				},
+				"ManualShow": true,
+				"Not F2P": true
+			},
+			"~|Skills achievements#Construction|~ Construction 5": {
 				"Category": ["Misc achievements", "Level-up achievements"],
 				"Description": "Reach level 5 in the Construction skill.",
-				"BaseQuest": "Achievements",
+				"BaseQuest": "Skills achievements",
 				"Skills": {
 					"Construction": 5
 				},
 				"RuneScore": 5,
 				"NoBoost": true
 			},
-			"~|Achievements#Skills|~ Construction 99": {
+			"~|Skills achievements#Construction|~ Construction 99": {
 				"Category": ["Misc achievements", "Level-up achievements"],
 				"Description": "Reach level 99 in the Construction skill.",
-				"BaseQuest": "Achievements",
+				"BaseQuest": "Skills achievements",
 				"Skills": {
 					"Construction": 99
 				},
@@ -128160,10 +128429,10 @@
 				"RuneScore": 55,
 				"NoBoost": true
 			},
-			"~|Achievements#Skills|~ Construction 120": {
+			"~|Skills achievements#Construction|~ Construction 120": {
 				"Category": ["Misc achievements", "Level-up achievements", "No RuneScore"],
 				"Description": "Reach virtual level 120 in the Construction skill.",
-				"BaseQuest": "Achievements",
+				"BaseQuest": "Skills achievements",
 				"Skills": {
 					"Construction": 120
 				},
@@ -128171,10 +128440,10 @@
 				"Allow Virtual": true,
 				"NoBoost": true
 			},
-			"~|Achievements#Skills|~ Wen Mah Aquarium Jas Got A Bik Too Ful": {
+			"~|Skills achievements#Construction|~ Wen Mah Aquarium Jas Got A Bik Too Ful": {
 				"Category": ["Misc achievements"],
 				"Description": "Place a Stone of Jas plug in your aquarium.",
-				"BaseQuest": "Achievements",
+				"BaseQuest": "Skills achievements",
 				"Chunks": ["Player-owned house"],
 				"Items": [
 					"Golden trout eggs",
@@ -128198,10 +128467,10 @@
 				"RuneScore": 30,
 				"Not F2P": true
 			},
-			"~|Achievements#Skills|~ Construction Contracts V": {
+			"~|Skills achievements#Construction|~ Construction Contracts V": {
 				"Category": ["Misc achievements"],
 				"Description": "Complete 100 construction contracts.",
-				"BaseQuest": "Achievements",
+				"BaseQuest": "Skills achievements",
 				"Items": ["White candle", "Bolt of cloth", "Steel bar", "Plank[+]", "Nails[+]", "ConstructionMetalBar[+]"],
 				"Chunks": ["12338-1", "12850-1", "12853-1", "12342-1"],
 				"NPCs": ["Estate agent"],
@@ -128211,10 +128480,10 @@
 				"RuneScore": 30,
 				"Not F2P": true
 			},
-			"~|Achievements#Skills|~ Five Star Review": {
+			"~|Skills achievements#Construction|~ Five Star Review": {
 				"Category": ["Misc achievements"],
 				"Description": "Earn 5 credits from a construction contract.",
-				"BaseQuest": "Achievements",
+				"BaseQuest": "Skills achievements",
 				"Items": ["White candle", "Bolt of cloth", "Steel bar", "Mahogany plank", "Nails[+]", "ConstructionMetalBar[+]"],
 				"Chunks": ["Construction Contracts[+]"],
 				"NPCs": ["Estate agent"],
@@ -128224,10 +128493,10 @@
 				"RuneScore": 5,
 				"Not F2P": true
 			},
-			"~|Achievements#Skills|~ One Star Review": {
+			"~|Skills achievements#Construction|~ One Star Review": {
 				"Category": ["Misc achievements"],
 				"Description": "Earn only 1 credit from a construction contract.",
-				"BaseQuest": "Achievements",
+				"BaseQuest": "Skills achievements",
 				"Items": ["White candle", "Bolt of cloth", "Steel bar", "Plank", "Nails[+]", "ConstructionMetalBar[+]"],
 				"Chunks": ["Construction Contracts[+]"],
 				"NPCs": ["Estate agent"],
@@ -128237,30 +128506,46 @@
 				"RuneScore": 5,
 				"Not F2P": true
 			},
-			"~|Achievements#Skills|~ Cooking 99": {
+			"~|Skills achievements#Construction|~ Complete the Construction achievements": {
+				"Category": ["Misc achievements"],
+				"BaseQuest": "Skills achievements",
+				"Tasks": {
+					"~|Skills achievements#Construction|~ Construction 120": "Diary",
+					"~|Skills achievements#Construction|~ Wen Mah Aquarium Jas Got A Bik Too Ful": "Diary",
+					"~|Skills achievements#Construction|~ Construction Contracts V": "Diary",
+					"~|Skills achievements#Construction|~ Five Star Review": "Diary",
+					"~|Skills achievements#Construction|~ One Star Review": "Diary"
+				},
+				"ManualShow": true,
+				"Not F2P": true
+			},
+			"~|Skills achievements#Cooking|~ Cooking 99": {
 				"Category": ["Misc achievements", "Level-up achievements"],
 				"Description": "Reach level 99 in the Cooking skill.",
-				"BaseQuest": "Achievements",
+				"BaseQuest": "Skills achievements",
 				"Skills": {
 					"Cooking": 99
 				},
 				"RuneScore": 60,
 				"NoBoost": true
 			},
-			"~|Achievements#Skills|~ Cooking 120": {
+			"~|Skills achievements#Cooking|~ Cooking 120": {
 				"Category": ["Misc achievements", "Level-up achievements", "No RuneScore"],
 				"Description": "Reach virtual level 120 in the Cooking skill.",
-				"BaseQuest": "Achievements",
+				"BaseQuest": "Skills achievements",
 				"Skills": {
 					"Cooking": 120
+				},
+				"Tasks": {
+					"~|Skills achievements#Divination|~ Cooking 99": "Diary"
 				},
 				"Allow Virtual": true,
 				"NoBoost": true
 			},
-			"~|Achievements#Skills|~ Cheese and Biscuits": {
+			"~|Skills achievements#Cooking|~ Cheese and Biscuits": {
 				"Category": ["Misc achievements"],
 				"Description": "Make one of each kind of cheesecake.",
-				"BaseQuest": "Achievements",
+				"BaseQuest": "Skills achievements",
 				"Items": ["Cake tin", "Pot of cream", "Cream cheese", "Biscuits", "Vanilla cream cheese", "Chocolate cream cheese", "Strawberry cream cheese", "Lemon", "Bacon"],
 				"Tasks": {
 					"~|Chef's Assistant|~ Complete the quest": "Quest",
@@ -128272,17 +128557,17 @@
 				"RuneScore": 10,
 				"Not F2P": true
 			},
-			"~|Achievements#Skills|~ Life Feeds On Life": {
+			"~|Skills achievements#Cooking|~ Life Feeds On Life": {
 				"Category": ["Misc achievements", "No RuneScore"],
 				"Description": "Cook a shrimp on a range in Lumbridge (can be completed on a fire).",
-				"BaseQuest": "Achievements",
+				"BaseQuest": "Skills achievements",
 				"Chunks": ["12850"],
 				"Items": ["Raw shrimps"]
 			},
-			"~|Achievements#Skills|~ The Great Gnomish Shake Off": {
+			"~|Skills achievements#Cooking|~ The Great Gnomish Shake Off": {
 				"Category": ["Misc achievements"],
 				"Description": "Create all gnome cocktails.",
-				"BaseQuest": "Achievements",
+				"BaseQuest": "Skills achievements",
 				"Chunks": ["9782"],
 				"Items": ["Pineapple", "Lemon", "Orange", "Lime", "Vodka", "Gin", "Whisky", "Brandy", "Equa leaves", "Dwellberries", "Pot of cream", "Chocolate bar", "Bucket of milk", "Chocolate dust", "Cocktail glass"],
 				"Skills": {
@@ -128291,30 +128576,45 @@
 				"RuneScore": 10,
 				"Not F2P": true
 			},
-			"~|Achievements#Skills|~ Crafting 110": {
+			"~|Skills achievements#Cooking|~ Complete the Cooking achievements": {
+				"Category": ["Misc achievements"],
+				"BaseQuest": "Skills achievements",
+				"Tasks": {
+					"~|Skills achievements#Cooking|~ Cooking 120": "Diary",
+					"~|Skills achievements#Cooking|~ Cheese and Biscuits": "Diary",
+					"~|Skills achievements#Cooking|~ Life Feeds On Life": "Diary",
+					"~|Skills achievements#Cooking|~ The Great Gnomish Shake Off": "Diary"
+				},
+				"ManualShow": true,
+				"Not F2P": true
+			},
+			"~|Skills achievements#Crafting|~ Crafting 110": {
 				"Category": ["Misc achievements", "Level-up achievements"],
 				"Description": "Reach level 110 in the Crafting skill.",
-				"BaseQuest": "Achievements",
+				"BaseQuest": "Skills achievements",
 				"Skills": {
 					"Crafting": 99
 				},
 				"RuneScore": 65,
 				"NoBoost": true
 			},
-			"~|Achievements#Skills|~ Crafting 120": {
+			"~|Skills achievements#Crafting|~ Crafting 120": {
 				"Category": ["Misc achievements", "Level-up achievements", "No RuneScore"],
 				"Description": "Reach virtual level 120 in the Crafting skill.",
-				"BaseQuest": "Achievements",
+				"BaseQuest": "Skills achievements",
 				"Skills": {
 					"Crafting": 120
+				},
+				"Tasks": {
+					"~|Skills achievements#Divination|~ Crafting 110": "Diary"
 				},
 				"Allow Virtual": true,
 				"NoBoost": true
 			},
-			"~|Achievements#Skills|~ The School of Jewels": {
+			"~|Skills achievements#Crafting|~ The School of Jewels": {
 				"Category": ["Misc achievements"],
 				"Description": "Cut each type of gem.",
-				"BaseQuest": "Achievements",
+				"BaseQuest": "Skills achievements",
 				"Items": ["Uncut opal", "Uncut jade", "Uncut red topaz", "Uncut sapphire", "Uncut emerald", "Uncut ruby", "Uncut diamond", "Uncut dragonstone", "Uncut moonstone", "Uncut onyx", "Uncut hydrix"],
 				"Skills": {
 					"Crafting": 79
@@ -128322,15 +128622,355 @@
 				"RuneScore": 20,
 				"Not F2P": true
 			},
+			"~|Skills achievements#Crafting|~ Complete the Crafting achievements": {
+				"Category": ["Misc achievements"],
+				"BaseQuest": "Skills achievements",
+				"Tasks": {
+					"~|Skills achievements#Crafting|~ Crafting 120": "Diary",
+					"~|Skills achievements#Crafting|~ The School of Jewels": "Diary"
+				},
+				"ManualShow": true,
+				"Not F2P": true
+			},
+			"~|Skills achievements#Divination|~ Business Is Booning!": {
+				"Category": ["Misc achievements"],
+				"Description": "Unlock a boon.",
+				"BaseQuest": "Skills achievements",
+				"Tasks": {
+					"Harvest a wisp[+]": "Divination"
+				},
+				"RuneScore": 5,
+				"Not F2P": true
+			},
+			"~|Skills achievements#Divination|~ Collecting Memorabilia": {
+				"Category": ["Misc achievements"],
+				"Description": "Gather a memory of any tier.",
+				"BaseQuest": "Skills achievements",
+				"Tasks": {
+					"Harvest a wisp[+]": "Divination"
+				},
+				"RuneScore": 5
+			},
+			"~|Skills achievements#Divination|~ Divination 5": {
+				"Category": ["Misc achievements", "Level-up achievements"],
+				"Description": "Reach level 5 in the Divination skill.",
+				"BaseQuest": "Skills achievements",
+				"Skills": {
+					"Divination": 5
+				},
+				"RuneScore": 5,
+				"NoBoost": true
+			},
+			"~|Skills achievements#Divination|~ Divination 99": {
+				"Category": ["Misc achievements", "Level-up achievements"],
+				"Description": "Reach level 99 in the Divination skill.",
+				"BaseQuest": "Skills achievements",
+				"Skills": {
+					"Divination": 99
+				},
+				"Tasks": {
+					"~|Skills achievements#Divination|~ Divination 5": "Diary"
+				},
+				"Not F2P": true,
+				"RuneScore": 55,
+				"NoBoost": true
+			},
+			"~|Skills achievements#Divination|~ Divination 120": {
+				"Category": ["Misc achievements", "Level-up achievements", "No RuneScore"],
+				"Description": "Reach virtual level 120 in the Divination skill.",
+				"BaseQuest": "Skills achievements",
+				"Skills": {
+					"Divination": 120
+				},
+				"Tasks": {
+					"~|Skills achievements#Divination|~ Divination 99": "Diary"
+				},
+				"Not F2P": true,
+				"Allow Virtual": true,
+				"NoBoost": true
+			},
+			"~|Skills achievements#Divination|~ Divine Retribution": {
+				"Category": ["Misc achievements"],
+				"Description": "Complete the 9 Divination achievements and claim your reward.",
+				"BaseQuest": "Skills achievements",
+				"NPCs": ["Orla Fairweather"],
+				"Tasks": {
+					"Harvest a wisp[+]": "Divination"
+				},
+				"RuneScore": 10
+			},
+			"~|Skills achievements#Divination|~ Energy Genrator": {
+				"Category": ["Misc achievements"],
+				"Description": "Convert a memory, or an enriched memory, into energy.",
+				"BaseQuest": "Skills achievements",
+				"Objects": ["Energy rift"],
+				"Tasks": {
+					"Harvest a wisp[+]": "Divination"
+				},
+				"RuneScore": 5
+			},
+			"~|Skills achievements#Divination|~ Enrichment Programme": {
+				"Category": ["Misc achievements"],
+				"Description": "Gather an enriched memory of any type.",
+				"BaseQuest": "Skills achievements",
+				"Tasks": {
+					"Harvest a wisp[+]": "Divination"
+				},
+				"RuneScore": 5,
+				"Not F2P": true
+			},
+			"~|Skills achievements#Divination|~ Just Give Me a Sign": {
+				"Category": ["Misc achievements"],
+				"Description": "Create a sign.",
+				"BaseQuest": "Skills achievements",
+				"Tasks": {
+					"Harvest a wisp[+]": "Divination"
+				},
+				"RuneScore": 5,
+				"Not F2P": true
+			},
+			"~|Skills achievements#Divination|~ Let's Enhance": {
+				"Category": ["Misc achievements"],
+				"Description": "Convert a memory, or an enriched memory, into enhanced experience.",
+				"BaseQuest": "Skills achievements",
+				"Objects": ["Energy rift"],
+				"Tasks": {
+					"Harvest a wisp[+]": "Divination"
+				},
+				"RuneScore": 5
+			},
+			"~|Skills achievements#Divination|~ Mighty Morphing": {
+				"Category": ["Misc achievements"],
+				"Description": "Transmute an item.",
+				"BaseQuest": "Skills achievements",
+				"Items": ["DivinationEnergy[+]"],
+				"Tasks": {
+					"Divination": 13
+				},
+				"RuneScore": 5,
+				"Not F2P": true
+			},
+			"~|Skills achievements#Divination|~ Portentially Hazardous": {
+				"Category": ["Misc achievements"],
+				"Description": "Create a portent.",
+				"BaseQuest": "Skills achievements",
+				"Items": ["DivinationEnergy[+]"],
+				"Tasks": {
+					"Divination": 2
+				},
+				"RuneScore": 5
+			},
+			"~|Skills achievements#Divination|~ Snippets of Memory": {
+				"Category": ["Misc achievements"],
+				"Description": "Own the Elder Divination outfit.",
+				"BaseQuest": "Skills achievements",
+				"Objects": ["Inventor's workbench"],
+				"Skills": {
+					"Diviation": 80,
+					"Invention": 20
+				},
+				"RuneScore": 10,
+				"Not F2P": true
+			},
+			"~|Skills achievements#Divination|~ The Archivist": {
+				"Category": ["Misc achievements"],
+				"Description": "Recover data for 50 backup memory-storage bots in the Hall of Memories",
+				"BaseQuest": "Skills achievements",
+				"Chunks": ["Hall of Memories"],
+				"Skills": {
+					"Divination": 95
+				},
+				"RuneScore": 95,
+				"Not F2P": true
+			},
+			"~|Skills achievements#Divination|~ What an Experience": {
+				"Category": ["Misc achievements"],
+				"Description": "Convert a memory, or an enriched memory, into experience.",
+				"BaseQuest": "Skills achievements",
+				"Objects": ["Energy rift"],
+				"Tasks": {
+					"Harvest a wisp[+]": "Divination"
+				},
+				"RuneScore": 5,
+				"Not F2P": true
+			},
+			"~|Skills achievements#Divination|~ Complete the Divination achievements": {
+				"Category": ["Misc achievements"],
+				"BaseQuest": "Skills achievements",
+				"Tasks": {
+					"~|Skills achievements#Divination|~ Business Is Booning!": "Diary",
+					"~|Skills achievements#Divination|~ Collecting Memorabilia": "Diary",
+					"~|Skills achievements#Divination|~ Divination 120": "Diary",
+					"~|Skills achievements#Divination|~ Divine Retribution": "Diary",
+					"~|Skills achievements#Divination|~ Energy Genrator": "Diary",
+					"~|Skills achievements#Divination|~ Enrichment Programme": "Diary",
+					"~|Skills achievements#Divination|~ Just Give Me a Sign": "Diary",
+					"~|Skills achievements#Divination|~ Let's Enhance": "Diary",
+					"~|Skills achievements#Divination|~ Mighty Morphing": "Diary",
+					"~|Skills achievements#Divination|~ Portentially Hazardous": "Diary",
+					"~|Skills achievements#Divination|~ Snippets of Memory": "Diary",
+					"~|Skills achievements#Divination|~ The Archivist": "Diary",
+					"~|Skills achievements#Divination|~ What an Experience": "Diary"
+				},
+				"ManualShow": true,
+				"Not F2P": true
+			},
+			"~|Skills achievements#Dungeoneering|~ Dungeoneering 120": {
+				"Category": ["Misc achievements", "Level-up achievements"],
+				"Description": "Reach level 120 in the Dungeoneering skill.",
+				"BaseQuest": "Skills achievements",
+				"Skills": {
+					"Dungeoneering": 120
+				},
+				"RuneScore": 75,
+				"NoBoost": true
+			},
+			"~|Skills achievements#|~ Dungeon Mage": {
+				"Category": ["Misc achievements"],
+				"Description": "Fully upgrade the magic roles on your ring of kinship.",
+				"BaseQuest": "Skills achievements",
+				"Chunks": ["13625"],
+				"Items": ["Dungeoneering token"],
+				"RuneScore": 20,
+				"Not F2P": true
+			},
+			"~|Skills achievements#|~ Dungeon Ranger": {
+				"Category": ["Misc achievements"],
+				"Description": "Fully upgrade the ranged roles on your ring of kinship.",
+				"BaseQuest": "Skills achievements",
+				"Chunks": ["13625"],
+				"Items": ["Dungeoneering token"],
+				"RuneScore": 20,
+				"Not F2P": true
+			},
+			"~|Skills achievements#|~ Dungeoneer Ring": {
+				"Category": ["Misc achievements"],
+				"Description": "Fully upgrade your ring of kinship.",
+				"BaseQuest": "Skills achievements",
+				"Chunks": ["13625"],
+				"Items": ["Dungeoneering token"],
+				"Tasks": {
+					"~|Skills achievements#|~ Dungeon Mage": "Diary",
+					"~|Skills achievements#|~ Dungeon Ranger": "Diary",
+					"~|Skills achievements#|~ Dungeon Skiller": "Diary",
+					"~|Skills achievements#|~ Dungeon Warrior": "Diary"
+				},
+				"RuneScore": 20,
+				"Not F2P": true
+			},
+			"~|Skills achievements#|~ Dungeon Skiller": {
+				"Category": ["Misc achievements"],
+				"Description": "Fully upgrade the skiller roles on your ring of kinship.",
+				"BaseQuest": "Skills achievements",
+				"Chunks": ["13625"],
+				"Items": ["Dungeoneering token"],
+				"RuneScore": 20,
+				"Not F2P": true
+			},
+			"~|Skills achievements#|~ Dungeon Warrior": {
+				"Category": ["Misc achievements"],
+				"Description": "Fully upgrade the melee roles on your ring of kinship.",
+				"BaseQuest": "Skills achievements",
+				"Chunks": ["13625"],
+				"Items": ["Dungeoneering token"],
+				"RuneScore": 20,
+				"Not F2P": true
+			},
+			"~|Skills achievements#Dungeoneering|~ Scraps of the Gorajo": {
+				"Category": ["Misc achievements"],
+				"Description": "Own the Warped Gorajan Trailblazer outfit.",
+				"BaseQuest": "Skills achievements",
+				"Objects": ["Inventor's workbench"],
+				"Skills": {
+					"Dungeoneering": 80,
+					"Invention": 20
+				},
+				"Tasks": {
+					"Unlock ~|frozen floors|~": "Dungeoneering"
+				},
+				"RuneScore": 10
+			},
+			"~|Skills achievements#Dungeoneering|~ The Home of Daemons": {
+				"Category": ["Misc achievements"],
+				"Description": "Beat every boss in Daemonheim",
+				"BaseQuest": "Skills achievements",
+				"Skills": {
+					"Dungeoneering": 113
+				},
+				"Tasks": {
+					"Unlock ~|frozen floors|~": "Dungeoneering"
+				},
+				"RuneScore": 50,
+				"Not F2P": true,
+				"NoBoost": true
+			},
+			"~|Skills achievements#Dungeoneering|~ Very Resourceful": {
+				"Category": ["Misc achievements"],
+				"Description": "Visit the listed resource dungeons",
+				"BaseQuest": "Skills achievements",
+				"Chunks": [
+					"Edgeville Dungeon chaos druids dungeon",
+					"Dwarven Mine resource dungeon",
+					"Edgeville Dungeon hill giant resource dungeon",
+					"Karamja Volcano resource dungeon",
+					"13880",
+					"Baxtorian Falls resource dungeon",
+					"Mining Guild resource dungeon",
+					"'Rum'geon",
+					"Taverley hellhound resource dungeon",
+					"Taverley blue dragon resource dungeon",
+					"Varrock Sewers resource dungeon",
+					"Dragontooth Island resource dungeon",
+					"Chaos Tunnels resource dungeon",
+					"Al Kharid resource dungeon",
+					"Brimhaven Dungeon resource dungeon",
+					"Polypore Dungeon resource dungeon",
+					"Asgarnian Ice Dungeon resource dungeon",
+					"Kal'gerion resource dungeon",
+					"Gorajo resource dungeon",
+					"Edimmu resource dungeon",
+					"Morytania Slayer Tower dungeon"
+				],
+				"Skills": {
+					"Dungeoneering": 115
+				},
+				"RuneScore": 10,
+				"Not F2P": true,
+				"NoBoost": true
+			},
+			"~|Skills achievements#Dungeoneering|~ Without Blinking an Eye": {
+				"Category": ["Misc achievements"],
+				"Description": "Kill Blink in a solo Dungeoneering instance, without dying.",
+				"BaseQuest": "Skills achievements",
+				"Tasks": {
+					"Unlock ~|warped floors|~": "Dungeoneering"
+				},
+				"RuneScore": 40,
+				"Not F2P": true
+			},
+			"~|Skills achievements#Dungeoneering|~ Complete the Dungeoneering achievements": {
+				"Category": ["Misc achievements"],
+				"BaseQuest": "Skills achievements",
+				"Tasks": {
+					"~|Skills achievements#Dungeoneering|~ Dungeoneering 120": "Diary",
+					"~|Skills achievements#|~ Dungeoneer Ring": "Diary",
+					"~|Skills achievements#Dungeoneering|~ Scraps of the Gorajo": "Diary",
+					"~|Skills achievements#Dungeoneering|~ The Home of Daemons": "Diary",
+					"~|Skills achievements#Dungeoneering|~ Very Resourceful": "Diary",
+					"~|Skills achievements#Dungeoneering|~ Without Blinking an Eye": "Diary"
+				},
+				"ManualShow": true,
+				"Not F2P": true
+			},
 			
 			
 			
 			
 			
-			"~|Achievements#Skills|~ ": {
+			"~|Skills achievements#Dungeoneering|~ ": {
 				"Category": ["Misc achievements"],
 				"Description": "",
-				"BaseQuest": "Achievements",
+				"BaseQuest": "Skills achievements",
 				"Chunks": [""],
 				"Items": [""],
 				"Skills": {
@@ -128343,57 +128983,20 @@
 			
 			
 			
-			"~|Achievements#Skills|~ Defence 99": {
-				"Category": ["Misc achievements", "Level-up achievements"],
-				"Description": "Reach level 99 in the Defence skill.",
-				"BaseQuest": "Achievements",
-				"Skills": {
-					"Defence": 99
-				},
-				"RuneScore": 60,
-				"NoBoost": true
-			},
-			"~|Achievements#Skills|~ Defence 120": {
-				"Category": ["Misc achievements", "Level-up achievements", "No RuneScore"],
-				"Description": "Reach virtual level 120 in the Defence skill.",
-				"BaseQuest": "Achievements",
-				"Skills": {
-					"Defence": 120
-				},
-				"NoBoost": true,
-				"Allow Virtual": true
-			},
-			
-			"~|Achievements#Skills|~ Ranged 120": {
-				"Category": ["Misc achievements", "Level-up achievements"],
-				"Description": "Reach level 120 in the Ranged skill.",
-				"BaseQuest": "Achievements",
-				"Skills": {
-					"Ranged": 120
-				},
-				"RuneScore": 75,
-				"NoBoost": true
-			},
-			
-			"~|Achievements#Skills|~ Strength 120": {
-				"Category": ["Misc achievements", "Level-up achievements"],
-				"Description": "Reach virtual level 120 in the Strength skill.",
-				"BaseQuest": "Achievements",
-				"Skills": {
-					"Strength": 120
-				},
-				"RuneScore": 75,
-				"NoBoost": true
-			},
 			
 			
 			
-			"~|Achievements#Skills|~ Complete the Skills achievements": {
+			
+			"~|Skills achievements#|~ Complete the Skills achievements": {
 				"Category": ["Misc achievements"],
-				"BaseQuest": "Achievements",
+				"BaseQuest": "Skills achievements",
+				"Tasks": {
+					
+				},
 				"ManualShow": true,
 				"Not F2P": true
 			}
+			
 		},
 		"Extra": {
 			"Complete the ~|little leaguer|~ achievement": {
@@ -225546,7 +226149,7 @@
 				"Trainee archaeologist#Warforge",
 				"Trainee archaeologist#Orthen"
 			],
-			"Wisp[+]": ["Pale wisp", "Cursed wisp"],
+			"Lvl-1 Wisp[+]": ["Pale wisp", "Cursed wisp"],
 			"CrystalToolNPC[+]": ["Ilfeen", "Eluned", "Islwyn", "Rhodri Dail"],
 			"GoldenWarbler[+]": ["Golden warbler", "Golden warbler (Anachronia)"],
 			"Vyrelord consumer[+]": ["Vyrelord consumer", "Vyrelady consumer"]
@@ -225568,7 +226171,7 @@
 			"Tanner[+]": "Any hide tanner",
 			"Tool leprechaun[+]": "Any leprechaun that can take you to Vinesweeper",
 			"Trainee archaeologist[+]": "A trainee archaeologist at any dig site",
-			"Wisp[+]": "Any level 1 wisp",
+			"Lvl-1 Wisp[+]": "Any level 1 wisp",
 			"GoldenWarbler[+]": "Any golden warbler variant",
 			"Vyrelord consumer[+]": "A vyrelord or vyrelady consumer"
 		},
@@ -226086,6 +226689,21 @@
 				"Burn a vyre corpse using ~|yew pyre logs|~",
 				"Burn a vyre corpse using ~|magic pyre logs|~",
 				"Burn a vyre corpse using ~|elder pyre logs|~"
+			],
+			"Harvest a wisp[+]": [
+				"Harvest a ~|pale wisp|~",
+				"Harvest a ~|flickering wisp|~",
+				"Harvest a ~|bright wisp|~",
+				"Harvest a ~|glowing wisp|~",
+				"Harvest a ~|sparkling wisp|~",
+				"Harvest a ~|gleaming wisp|~",
+				"Harvest a ~|vibrant wisp|~",
+				"Harvest a ~|lustrous wisp|~",
+				"Harvest a ~|elder wisp|~",
+				"Harvest a ~|brilliant wisp|~",
+				"Harvest a ~|radiant wisp|~",
+				"Harvest a ~|luminous wisp|~",
+				"Harvest a ~|incandescent wisp|~"
 			]
 		},
 		"tasksPlusNames": {
@@ -228034,7 +228652,7 @@
 		"Wilderness Achievements": "Easy, Medium, Hard, Elite",
 		"Combat Mastery achievements": "Easy, Medium, Hard, Elite, Master, Grandmaster",
 		"Completionist achievements": "Master Quest Cape, Completionist Cape, Trimmed Completionist Cape",
-		"Achievements": "Skills, Exploration, Combat, Lore, Activities"
+		"Skills achievements": "Agility, Archaeology, Combat (Skills), Cooking, Construction, Crafting, Dungeoneering, Divination, Farming, Fishing, Firemaking, Fletching, Gathering, Herblore, Hunter, Invention, Magic, Mining, Necromancy, Prayer, Runecrafting, Slayer, Smithing, Summoning, Thieving, Woodcutting, Croesus, The Gate of Elidinis"
 	},
 	"clues": {
 		"easy": {
