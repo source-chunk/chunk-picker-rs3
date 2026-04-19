@@ -129727,11 +129727,388 @@
 				"ManualShow": true,
 				"Not F2P": true
 			},
+			"~|Skills achievements#Invention|~ Invention 120": {
+				"Category": ["Misc achievements", "Level-up achievements"],
+				"Description": "Reach level 120 in the Invention skill.",
+				"BaseQuest": "Skills achievements",
+				"Skills": {
+					"Invention": 120
+				},
+				"Not F2P": true,
+				"RuneScore": 75
+			},
+			"~|Skills achievements#Invention|~ Ancient Gizmos": {
+				"Category": ["Misc achievements", "No RuneScore"],
+				"Description": "Study an 'ancient gizmos' blueprint (tradeable or untradeable).",
+				"BaseQuest": "Skills achievements",
+				"Items": ["'Ancient gizmos' blueprint"],
+				"Skills": {
+					"Invention": 85
+				},
+				"Not F2P": true
+			},
+			"~|Skills achievements#Invention|~ Ancient Tools": {
+				"Category": ["Misc achievements", "No RuneScore"],
+				"Description": "Study an 'ancient tools' blueprint (tradeable or untradeable).",
+				"BaseQuest": "Skills achievements",
+				"Items": ["'Ancient tools' blueprint"],
+				"Skills": {
+					"Invention": 93
+				},
+				"Not F2P": true
+			},
+			"~|Skills achievements#Invention|~ Ancient XP Capacitor": {
+				"Category": ["Misc achievements", "No RuneScore"],
+				"Description": "Study an 'XP Capacitor' blueprint (tradeable or untradeable).",
+				"BaseQuest": "Skills achievements",
+				"Items": ["'XP Capacitor' blueprint"],
+				"Skills": {
+					"Invention": 106
+				},
+				"Not F2P": true
+			},
+			"~|Skills achievements#Invention|~ Great Responsibility": {
+				"Category": ["Misc achievements"],
+				"Description": "Have over 490,000 charges in a jumbo generator in the Invention Guild.",
+				"BaseQuest": "Skills achievements",
+				"Chunks": ["Invention Guild"],
+				"Items": ["Divine charge", "Powerful components", "Precious components", "Magic parts", "Metallic parts", "Delicate parts", "Base parts", "Clear parts", "Smooth parts", "Connector parts", "Simple parts"],
+				"Skills": {
+					"Invention": 102
+				},
+				"RuneScore": 10,
+				"Not F2P": true
+			},
+			"~|Skills achievements#Invention|~ I Said Disassemble, Not Dismember": {
+				"Category": ["Misc achievements"],
+				"Description": "Get called a monster while trying to disassemble a living creature.",
+				"BaseQuest": "Skills achievements",
+				"Items": ["Living creature[+]"],
+				"Skills": {
+					"Invention": 2
+				},
+				"RuneScore": 5,
+				"Not F2P": true
+			},
+			"~|Skills achievements#Invention|~ Light 'Em Up!": {
+				"Category": ["Misc achievements"],
+				"Description": "Burn at least 15 logs at once using the Pyromaniac perk.",
+				"BaseQuest": "Skills achievements",
+				"Chunks": ["Logs[+]"],
+				"Items": ["Pyro-matic", "Direct components"],
+				"Skills": {
+					"Invention": 22
+				},
+				"RuneScore": 10,
+				"Not F2P": true
+			},
+			"~|Skills achievements#Invention|~ Complete the Invention achievements": {
+				"Category": ["Misc achievements"],
+				"BaseQuest": "Skills achievements",
+				"Tasks": {
+					"~|Skills achievements#Invention|~ Invention 120": "Diary",
+					"~|Skills achievements#Invention|~ Ancient Gizmos": "Diary",
+					"~|Skills achievements#Invention|~ Ancient Tools": "Diary",
+					"~|Skills achievements#Invention|~ Ancient XP Capacitor": "Diary",
+					"~|Skills achievements#Invention|~ Great Responsibility": "Diary",
+					"~|Skills achievements#Invention|~ I Said Disassemble, Not Dismember": "Diary",
+					"~|Skills achievements#Invention|~ Light 'Em Up!": "Diary"
+				},
+				"ManualShow": true,
+				"Not F2P": true
+			},
+			"~|Skills achievements#Magic|~ Magic 120": {
+				"Category": ["Misc achievements", "Level-up achievements"],
+				"Description": "Reach level 120 in the Magic skill.",
+				"BaseQuest": "Skills achievements",
+				"Skills": {
+					"Magic": 120
+				},
+				"RuneScore": 75,
+				"NoBoost": true
+			},
+			"~|Skills achievements#Magic|~ Is This a Bad Time?": {
+				"Category": ["Misc achievements"],
+				"Description": "Use the NPC Contact lunar spell to talk to someone on the toilet.",
+				"BaseQuest": "Skills achievements",
+				"Items": ["Air rune[+]", "Cosmic rune", "Astral rune"],
+				"Skills": {
+					"Magic": 67
+				},
+				"Tasks": {
+					"~|Dream Mentor|~ Complete the quest": "Quest"
+				},
+				"RuneScore": 10,
+				"Not F2P": true
+			},
+			"~|Skills achievements#Magic|~ Livid": {
+				"Category": ["Misc achievements"],
+				"Description": "Throw a rotten tomato at Pauline Polaris in New Varrock, after having unlocked all Livid Farm spells.",
+				"BaseQuest": "Skills achievements",
+				"Chunks": ["8253-2", "8509-1", "New Varrock"],
+				"Skills": {
+					"Magic": 70,
+					"Agility": 60,
+					"Crafting": 60,
+					"Farming": 60,
+					"Construction": 50
+				},
+				"Tasks": {
+					"~|Lunar Diplomacy|~ Complete the quest": "Quest"
+				},
+				"RuneScore": 40,
+				"Not F2P": true
+			},
+			"~|Skills achievements#Magic|~ Complete the Magic achievements": {
+				"Category": ["Misc achievements"],
+				"BaseQuest": "Skills achievements",
+				"Tasks": {
+					"~|Skills achievements#Magic|~ Magic 120": "Diary",
+					"~|Skills achievements#Magic|~ Is This a Bad Time?": "Diary",
+					"~|Skills achievements#Magic|~ Livid": "Diary"
+				},
+				"ManualShow": true,
+				"Not F2P": true
+			},
+			"~|Skills achievements#Mining|~ Mining 110": {
+				"Category": ["Misc achievements", "Level-up achievements"],
+				"Description": "Reach level 110 in the Mining skill.",
+				"BaseQuest": "Skills achievements",
+				"Skills": {
+					"Mining": 110
+				},
+				"RuneScore": 65,
+				"NoBoost": true
+			},
+			"~|Skills achievements#Mining|~ Mining 120": {
+				"Category": ["Misc achievements", "Level-up achievements", "No RuneScore"],
+				"Description": "Reach virtual level 120 in the Mining skill.",
+				"BaseQuest": "Skills achievements",
+				"Skills": {
+					"Mining": 120
+				},
+				"Tasks": {
+					"~|Skills achievements#Mining|~ Mining 110": "Diary"
+				},
+				"Allow Virtual": true,
+				"NoBoost": true
+			},
+			"~|Skills achievements#Mining|~ A Life of Death and Pickaxes": {
+				"Category": ["Misc achievements"],
+				"Description": "Work with Ramarno (in Camdozaal) to obtain a pickaxe of life and death.",
+				"BaseQuest": "Skills achievements",
+				"Items": ["Pickaxe of Life and Death"],
+				"RuneScore": 30,
+				"Not F2P": true
+			},
+			"~|Skills achievements#Mining|~ A Song of Earth and Pickaxes": {
+				"Category": ["Misc achievements"],
+				"Description": "Work with the blast furnace foreman (in Keldagrim) to obtain a pickaxe of earth and song.",
+				"BaseQuest": "Skills achievements",
+				"Items": ["Pickaxe of Earth and Song"],
+				"RuneScore": 30,
+				"Not F2P": true
+			},
+			"~|Skills achievements#Mining|~ All Mine!": {
+				"Category": ["Misc achievements", "No RuneScore"],
+				"Description": "Mine one of each of the listed ores.",
+				"BaseQuest": "Skills achievements",
+				"Objects": ["Novite rock", "Bathus rock", "Marmaros rock", "Kratonium rock", "Fractite rock", "Zephyrium rock", "Argonite rock", "Katagon rock", "Gorgonite rock", "Promethium rock", "Porcelain clay rock", "Platinum rock"],
+				"Skills": {
+					"Mining": 104
+				},
+				"Not F2P": true
+			},
+			"~|Skills achievements#Mining|~ Banebane": {
+				"Category": ["Misc achievements"],
+				"Description": "Mine banite ore using a bane pickaxe + 4 while wearing a full set of bane armour + 4 and listening to the music track 'Bane of Summer'.",
+				"BaseQuest": "Skills achievements",
+				"Objects": ["Bane rock"],
+				"Items": ["Bane pickaxe + 4", "Bane full helm + 4", "Bane platebody + 4", "Bane platelegs + 4", "Bane gauntlets + 4", "Bane armoured boots + 4"],
+				"Skills": {
+					"Defence": 80,
+					"Mining": 80
+				},
+				"Tasks": {
+					"~|Summer's End|~ Complete the quest": "Quest"
+				},
+				"RuneScore": 20,
+				"Not F2P": true
+			},
+			"~|Skills achievements#Mining|~ Imcando Attitude": {
+				"Category": ["Misc achievements"],
+				"Description": "Work with Thurgo (south of Port Sarim) to obtain an Imcando pickaxe.",
+				"BaseQuest": "Skills achievements",
+				"Items": ["Imcando pickaxe"],
+				"RuneScore": 30,
+				"Not F2P": true
+			},
+			"~|Skills achievements#Mining|~ It's Mine!": {
+				"Category": ["Misc achievements"],
+				"Description": "Mine one of each of the listed ores.",
+				"BaseQuest": "Skills achievements",
+				"Objects": [
+					"Copper rock",
+					"Tin rock",
+					"Common gem rock",
+					"Rune essence rock",
+					"Iron rock",
+					"Limestone rock",
+					"Coal rock",
+					"Silver rock",
+					"Mithril rock",
+					"Sandstone rock",
+					"Adamantite rock",
+					"Luminite rock",
+					"Gold rock",
+					"Granite rock",
+					"Runite rock",
+					"Orichalcite rock",
+					"Drakolith rock",
+					"Necrite rock",
+					"Phasmatite rock",
+					"Banite rock",
+					"Light animica rock",
+					"Dark animica rock"
+				],
+				"Skills": {
+					"Mining": 90
+				},
+				"RuneScore": 15,
+				"Not F2P": true
+			},
+			"~|Skills achievements#Mining|~ My Sick Four Tick Trick": {
+				"Category": ["Misc achievements"],
+				"Description": "Maintain nearly maximum stamina when mining for 60 seconds.",
+				"BaseQuest": "Skills achievements",
+				"Objects": ["Ore[+]"],
+				"RuneScore": 5
+			},
+			"~|Skills achievements#Mining|~ Prime Time": {
+				"Category": ["Misc achievements"],
+				"Description": "Mine each of the 10 ores on the surface of the Daemonheim peninsula in under 5 minutes.",
+				"BaseQuest": "Skills achievements",
+				"Objects": ["Bathus rock", "Marmaros rock", "Gorgonite rock", "Promethium rock", "Fractite rock", "Zephyrium rock", "Novite rock", "Argonite rock", "Katagon rock", "Kratonium rock"],
+				"Skills": {
+					"Mining": 100
+				},
+				"RuneScore": 5,
+				"Not F2P": true
+			},
+			"~|Skills achievements#Mining|~ Purple Reign": {
+				"Category": ["Misc achievements"],
+				"Description": "Use the shard of Zaros on a dark animica rock.",
+				"BaseQuest": "Skills achievements",
+				"Objects": ["Dark animica rock"],
+				"Tasks": {
+					"~|Fate of the Gods|~ Complete the quest": "Quest"
+				},
+				"RuneScore": 10,
+				"Not F2P": true
+			},
+			"~|Skills achievements#Mining|~ Shards of the Earth": {
+				"Category": ["Misc achievements"],
+				"Description": "",
+				"BaseQuest": "Skills achievements",
+				"Objects": ["Inventor's workbench"],
+				"Skills": {
+					"Mining": 80,
+					"Invention": 20
+				},
+				"RuneScore": 10,
+				"Not F2P": true
+			},
+			"~|Skills achievements#Mining|~ Shine On You Crazy Diamond": {
+				"Category": ["Misc achievements"],
+				"Description": "Mine a diamond from a gem rock in Prifddinas while the Voice of Seren shines on the Trahaearn district.",
+				"BaseQuest": "Skills achievements",
+				"Chunks": ["8755"],
+				"RuneScore": 10,
+				"Not F2P": true
+			},
+			"~|Skills achievements#Mining|~ Suity Level Maximum": {
+				"Category": ["Misc achievements"],
+				"Description": "Deal at least 2,475 damage to a rock in a single swing. (Includes critical hits and rockertunities.)",
+				"BaseQuest": "Skills achievements",
+				"Objects": ["Ore[+]"],
+				"Items": ["Elder rune pickaxe + 5", "Crystal skillchompa", "Binding contract (gargoyle)"],
+				"Skills": {
+					"Mining": 90
+				},
+				"RuneScore": 10,
+				"Not F2P": true
+			},
+			"~|Skills achievements#Mining|~ Swift Pick": {
+				"Category": ["Misc achievements", "No RuneScore"],
+				"Description": "Use a steel pickaxe or better to mine some ore.",
+				"BaseQuest": "Skills achievements",
+				"Objects": ["Ore[+]"],
+				"Items": ["DillPickaxe[+]"]
+			},
+			"~|Skills achievements#Mining|~ The Light Begins To Shine": {
+				"Category": ["Misc achievements"],
+				"Description": "Mine light animica while the Voice of Seren shines on the Trahaearn district.",
+				"BaseQuest": "Skills achievements",
+				"Chunks": ["8756-5"],
+				"Skills": {
+					"Mining": 90
+				},
+				"RuneScore": 20,
+				"Not F2P": true
+			},
+			"~|Skills achievements#Mining|~ Complete the Mining achievements": {
+				"Category": ["Misc achievements"],
+				"BaseQuest": "Skills achievements",
+				"Tasks": {
+					"~|Skills achievements#Mining|~ Mining 120": "Diary",
+					"~|Skills achievements#Mining|~ A Life of Death and Pickaxes": "Diary",
+					"~|Skills achievements#Mining|~ A Song of Earth and Pickaxes": "Diary",
+					"~|Skills achievements#Mining|~ All Mine!": "Diary",
+					"~|Skills achievements#Mining|~ Banebane": "Diary",
+					"~|Skills achievements#Mining|~ Imcando Attitude": "Diary",
+					"~|Skills achievements#Mining|~ It's Mine!": "Diary",
+					"~|Skills achievements#Mining|~ My Sick Four Tick Trick": "Diary",
+					"~|Skills achievements#Mining|~ Prime Time": "Diary",
+					"~|Skills achievements#Mining|~ Purple Reign": "Diary",
+					"~|Skills achievements#Mining|~ Shards of the Earth": "Diary",
+					"~|Skills achievements#Mining|~ Shine On You Crazy Diamond": "Diary",
+					"~|Skills achievements#Mining|~ Suity Level Maximum": "Diary",
+					"~|Skills achievements#Mining|~ Swift Pick": "Diary",
+					"~|Skills achievements#Mining|~ The Light Begins To Shine": "Diary"
+				},
+				"ManualShow": true,
+				"Not F2P": true
+			},
+			"~|Skills achievements#Necromancy|~ Necromancy 20": {
+				"Category": ["Misc achievements", "Level-up achievements"],
+				"Description": "Reach level 20 in the Necromancy skill.",
+				"BaseQuest": "Skills achievements",
+				"Skills": {
+					"Necromancy": 20
+				},
+				"RuneScore": 15,
+				"NoBoost": true
+			},
+			"~|Skills achievements#Necromancy|~ Necromancy 120": {
+				"Category": ["Misc achievements", "Level-up achievements"],
+				"Description": "Reach level 120 in the Necromancy skill.",
+				"BaseQuest": "Skills achievements",
+				"Skills": {
+					"Necromancy": 20
+				},
+				"Tasks": {
+					"~|Skills achievements#Necromancy|~ Necromancy 20": "Diary"
+				},
+				"RuneScore": 60,
+				"Not F2P": true,
+				"NoBoost": true
+			},
 			
 			
 			
 			
-			"~|Skills achievements#Hunter|~ ": {
+			
+			"~|Skills achievements#Necromancy|~ ": {
 				"Category": ["Misc achievements"],
 				"Description": "",
 				"BaseQuest": "Skills achievements",
@@ -129751,7 +130128,7 @@
 			
 			
 			
-			"~|Skills achievements#Hunter|~ Complete the Hunter achievements": {
+			"~|Skills achievements#Necromancy|~ Complete the Necromancy achievements": {
 				"Category": ["Misc achievements"],
 				"BaseQuest": "Skills achievements",
 				"Tasks": {
@@ -222108,6 +222485,13 @@
 				"Linza's helm",
 				"Linza's shield"
 			],
+			"Living creature[+]": [
+				"Fishing bait",
+				"Dreadnip",
+				"Chinchompa",
+				"Red chinchompa",
+				"Black chinchompa"
+			],
 			"Lockpick[+]": ["Lockpick", "Hairclip"],
 			"Logs[+]": [
 				"Elder logs",
@@ -225708,6 +226092,7 @@
 			"Light source[+]": "Any light source",
             "LimitlessStaff[+]": "Any limitless elemental staff variant",
 			"LinzaArmour[+]": "Any piece of Linza's armour",
+			"Living creature[+]": "Any living creature you could try to disassemble, you monster!",
 			"Lockpick[+]": "Any item usable as a lockpick",
 			"Logs[+]": "Any logs that can be used to light beacons",
 			"Luminousboon[+]": "Any type of energy that can be used to create a luminous boon",
@@ -226049,7 +226434,10 @@
 			"BushSeed[+]": "Any bush seed",
 			"RogueTrader2c2[+]": "Any dye or animal hide for Rogue Trader",
 			"GoldenFishEggs[+]": "Any golden fish egg",
+			"CactusSeed[+]": "Any cactus seed",
 			"HerbSeed[+]": "Any herb seed",
+			"HopsSeed[+]": "Any hops seed",
+			"MushroomSpore[+]": "Any mushroom spore",
 			"Mattock[+]": "Any tier of matock",
 			"Filled Ushabti[+]": "Any ushabti that has a captured soul"
 		},
