@@ -75623,7 +75623,7 @@
 				"BaseQuest": "Civil War III (miniquest)",
 				"Description": "Talk to Polletix in the Garden of Kharid, and purchase the first tier of Plant Power",
 				"Chunks": ["13107-1"],
-				"Items": ["HerbSeeds[+]"],
+				"Items": ["HerbSeed[+]"],
 				"Tasks": {
 					"~|Civil War III (miniquest)|~ 1": "Quest"
 				},
@@ -126433,7 +126433,7 @@
 					"Agility": 99
 				},
 				"Tasks": {
-					"~|Skills achievements#Divination|~ Agility 5": "Diary"
+					"~|Skills achievements#Agility|~ Agility 5": "Diary"
 				},
 				"Not F2P": true,
 				"RuneScore": 55
@@ -126446,7 +126446,7 @@
 					"Agility": 120
 				},
 				"Tasks": {
-					"~|Skills achievements#Divination|~ Agility 99": "Diary"
+					"~|Skills achievements#Agility|~ Agility 99": "Diary"
 				},
 				"Not F2P": true,
 				"Allow Virtual": true
@@ -126574,7 +126574,7 @@
 					"Archaeology": 20
 				},
 				"Tasks": {
-					"~|Skills achievements#Divination|~ Archaeology 20": "Diary"
+					"~|Skills achievements#Archaeology|~ Archaeology 20": "Diary"
 				},
 				"RuneScore": 60,
 				"Not F2P": true,
@@ -128347,7 +128347,7 @@
 					"Constitution": 120
 				},
 				"Tasks": {
-					"~|Skills achievements#Divination|~ Constitution 99": "Diary"
+					"~|Skills achievements#Combat (Skills)|~ Constitution 99": "Diary"
 				},
 				"NoBoost": true,
 				"Allow Virtual": true
@@ -128370,7 +128370,7 @@
 					"Defence": 120
 				},
 				"Tasks": {
-					"~|Skills achievements#Divination|~ Defence 99": "Diary"
+					"~|Skills achievements#Combat (Skills)|~ Defence 99": "Diary"
 				},
 				"NoBoost": true,
 				"Allow Virtual": true
@@ -128537,7 +128537,7 @@
 					"Cooking": 120
 				},
 				"Tasks": {
-					"~|Skills achievements#Divination|~ Cooking 99": "Diary"
+					"~|Skills achievements#Cooking|~ Cooking 99": "Diary"
 				},
 				"Allow Virtual": true,
 				"NoBoost": true
@@ -128606,7 +128606,7 @@
 					"Crafting": 120
 				},
 				"Tasks": {
-					"~|Skills achievements#Divination|~ Crafting 110": "Diary"
+					"~|Skills achievements#Crafting|~ Crafting 110": "Diary"
 				},
 				"Allow Virtual": true,
 				"NoBoost": true
@@ -128825,7 +128825,7 @@
 				"RuneScore": 75,
 				"NoBoost": true
 			},
-			"~|Skills achievements#|~ Dungeon Mage": {
+			"~|Skills achievements#Dungeoneering|~ Dungeon Mage": {
 				"Category": ["Misc achievements"],
 				"Description": "Fully upgrade the magic roles on your ring of kinship.",
 				"BaseQuest": "Skills achievements",
@@ -128834,7 +128834,7 @@
 				"RuneScore": 20,
 				"Not F2P": true
 			},
-			"~|Skills achievements#|~ Dungeon Ranger": {
+			"~|Skills achievements#Dungeoneering|~ Dungeon Ranger": {
 				"Category": ["Misc achievements"],
 				"Description": "Fully upgrade the ranged roles on your ring of kinship.",
 				"BaseQuest": "Skills achievements",
@@ -128843,7 +128843,7 @@
 				"RuneScore": 20,
 				"Not F2P": true
 			},
-			"~|Skills achievements#|~ Dungeoneer Ring": {
+			"~|Skills achievements#Dungeoneering|~ Dungeoneer Ring": {
 				"Category": ["Misc achievements"],
 				"Description": "Fully upgrade your ring of kinship.",
 				"BaseQuest": "Skills achievements",
@@ -128858,7 +128858,7 @@
 				"RuneScore": 20,
 				"Not F2P": true
 			},
-			"~|Skills achievements#|~ Dungeon Skiller": {
+			"~|Skills achievements#Dungeoneering|~ Dungeon Skiller": {
 				"Category": ["Misc achievements"],
 				"Description": "Fully upgrade the skiller roles on your ring of kinship.",
 				"BaseQuest": "Skills achievements",
@@ -128867,7 +128867,7 @@
 				"RuneScore": 20,
 				"Not F2P": true
 			},
-			"~|Skills achievements#|~ Dungeon Warrior": {
+			"~|Skills achievements#Dungeoneering|~ Dungeon Warrior": {
 				"Category": ["Misc achievements"],
 				"Description": "Fully upgrade the melee roles on your ring of kinship.",
 				"BaseQuest": "Skills achievements",
@@ -128953,7 +128953,7 @@
 				"BaseQuest": "Skills achievements",
 				"Tasks": {
 					"~|Skills achievements#Dungeoneering|~ Dungeoneering 120": "Diary",
-					"~|Skills achievements#|~ Dungeoneer Ring": "Diary",
+					"~|Skills achievements#Dungeoneering|~ Dungeoneer Ring": "Diary",
 					"~|Skills achievements#Dungeoneering|~ Scraps of the Gorajo": "Diary",
 					"~|Skills achievements#Dungeoneering|~ The Home of Daemons": "Diary",
 					"~|Skills achievements#Dungeoneering|~ Very Resourceful": "Diary",
@@ -128962,12 +128962,776 @@
 				"ManualShow": true,
 				"Not F2P": true
 			},
+			"~|Skills achievements#Farming|~ Animal Whisperer": {
+				"Category": ["Misc achievements", "Timegated"],
+				"Description": "Cure 100 animals of their ailments.",
+				"BaseQuest": "Skills achievements",
+				"Chunks": ["10548"],
+				"Tasks": {
+					"~|Player-owned farm tutorial|~ Complete the tutorial": "Quest"
+				},
+				"RuneScore": 10,
+				"Not F2P": true
+			},
+			"~|Skills achievements#Farming|~ Barooooo!": {
+				"Category": ["Misc achievements", "Timegated"],
+				"Description": "Adopt a baby yak.",
+				"BaseQuest": "Skills achievements",
+				"Monsters": ["Yak"],
+				"Items": [""],
+				"Tasks": {
+					"~|Player-owned farm tutorial|~ Complete the tutorial": "Quest"
+				},
+				"RuneScore": 10,
+				"Not F2P": true
+			},
+			"~|Skills achievements#Farming|~ Bean Counter IV": {
+				"Category": ["Misc achievements", "Timegated"],
+				"Description": "Earn a total amount of 1,000,000 beans.",
+				"BaseQuest": "Skills achievements",
+				"Tasks": {
+					"~|Player-owned farm tutorial|~ Complete the tutorial": "Quest"
+				},
+				"RuneScore": 95,
+				"Not F2P": true
+			},
+			"~|Skills achievements#Farming|~ Blow Out the Cobwebs": {
+				"Category": ["Misc achievements", "Timegated"],
+				"Description": "Drink a super invention potion.",
+				"BaseQuest": "Skills achievements",
+				"Items": ["Vial of water", "Clean snapdragon", "Chinchompa residue", "Spider fangs"],
+				"Skills": {
+					"Herblore": 87
+				},
+				"RuneScore": 5,
+				"Not F2P": true
+			},
+			"~|Skills achievements#Farming|~ Ever So Clever": {
+				"Category": ["Misc achievements", "Timegated"],
+				"Description": "Hand in a magical zygomite called Trevor with the Loyal trait to Granny P.",
+				"BaseQuest": "Skills achievements",
+				"Chunks": ["10548"],
+				"Items": ["AllZygomites[+]"],
+				"Tasks": {
+					"~|Player-owned farm tutorial|~ Complete the tutorial": "Quest",
+					"Build a medium pen in your ~|player-owned farm|~": "Construction"
+				},
+				"RuneScore": 20,
+				"Not F2P": true
+			},
+			"~|Skills achievements#Farming|~ Farming 5": {
+				"Category": ["Misc achievements", "Level-up achievements"],
+				"Description": "Reach level 5 in the Farming skill.",
+				"BaseQuest": "Skills achievements",
+				"Skills": {
+					"Farming": 5
+				},
+				"RuneScore": 5
+			},
+			"~|Skills achievements#Farming|~ Farming 120": {
+				"Category": ["Misc achievements", "Level-up achievements"],
+				"Description": "Reach level 120 in the Farming skill.",
+				"BaseQuest": "Skills achievements",
+				"Skills": {
+					"Farming": 120
+				},
+				"Tasks": {
+					"~|Skills achievements#Farming|~ Farming 5": "Diary"
+				},
+				"Not F2P": true,
+				"RuneScore": 70
+			},
+			"~|Skills achievements#Farming|~ Four Seasons": {
+				"Category": ["Misc achievements", "Timegated"],
+				"Description": "Unlock all four seasonal variation music tracks (possibly using the seasonaliser).",
+				"BaseQuest": "Skills achievements",
+				"Chunks": ["10548"],
+				"Tasks": {
+					"~|Player-owned farm tutorial|~ Complete the tutorial": "Quest"
+				},
+				"RuneScore": 10,
+				"Not F2P": true
+			},
+			"~|Skills achievements#Farming|~ Gotta Patch 'Em All": {
+				"Category": ["Misc achievements"],
+				"Description": "Have something planted and living in all farming patches.",
+				"BaseQuest": "Skills achievements",
+				"Chunks": [
+					"12083-1",
+					"11062-1",
+					"10548",
+					"14391",
+					"15148",
+					"16947",
+					"12596-1",
+					"11570",
+					"10300",
+					"10290",
+					"9012-1",
+					"8757",
+					"12603-1",
+					"11065-2",
+					"13107-1",
+					"11821-1",
+					"10288-1",
+					"11316",
+					"12851-1",
+					"10551-1",
+					"12082-1",
+					"11058",
+					"9781",
+					"9777-2",
+					"11317-1",
+					"9265-1",
+					"16690-1",
+					"11574",
+					"11828",
+					"12594",
+					"12854",
+					"13367",
+					"12340-1",
+					"11056",
+					"10547-1",
+					"11833-1",
+					"13106-1",
+					"13362-3",
+					"15942-3",
+					"12587-2",
+					"13622-2",
+					"8752-2",
+					"City of Um",
+					"Zolarea"
+				],
+				"Items": ["FruitTreeSeed[+]", "HerbSeed[+]", "TreeSeed[+]", "CactusSeed[+]", "MushroomSeed[+]", "HopsSeed[+]", "Potato seed", "BushSeed[+]", "Limpwurt seed", "Bloodweed seed", "Calquat tree seed", "Spirit seed", "Elder seed", "Cave nightshade seed", "Evil turnip seed"],
+				"Tasks": {
+					"~|Back to my Roots|~ Complete the quest": "Quest",
+					"~|The Fremennik Trials|~ Complete the quest": "Quest",
+					"~|The Great Brain Robbery|~ Complete the quest": "Quest",
+					"~|The Jack of Spades|~ 3": "Quest",
+					"~|My Arm's Big Adventure|~ Complete the quest": "Quest",
+					"~|Necromancy!|~ Complete the quest": "Quest",
+					"~|Plague's End|~ Complete the quest": "Quest",
+					"~|The Prisoner of Glouphrie|~ Complete the quest": "Quest",
+					"~|Mourning's End Part I|~ Complete the quest": "Quest",
+					"~|Stellar Born|~ Complete the quest": "Quest",
+					"~|Summer's End|~ Complete the quest": "Quest",
+					"~|Unwelcome Guests|~ Complete the quest": "Quest",
+					"Gain access to Morytania": "Nonskill",
+					"~|Tirannwn Achievements#Medium|~ Complete the Medium achievements": "Diary",
+					"~|The Lute of Love|~ Complete the lore activity": "Quest"
+				},
+				"Skills": {
+					"Agility": 55,
+					"Farming": 114,
+					"Necromancy": 80
+				},
+				"RuneScore": 50,
+				"NoBoost": true,
+				"Not F2P": true
+			},
+			"~|Skills achievements#Farming|~ Granny Knows Best": {
+				"Category": ["Misc achievements", "Timegated"],
+				"Description": "Leanr how many beans make five (complete the Player Owned Farm tutorial).",
+				"BaseQuest": "Skills achievements",
+				"Chunks": ["10548"],
+				"Tasks": {
+					"~|Player-owned farm tutorial|~ Complete the tutorial": "Quest"
+				},
+				"RuneScore": 5,
+				"Not F2P": true
+			},
+			"~|Skills achievements#Farming|~ Herb Your Enthusiasm": {
+				"Category": ["Misc achievements"],
+				"Description": "Harvest each of the listed herbs.",
+				"BaseQuest": "Skills achievements",
+				"Chunks": ["11821-1", "12603-1"],
+				"Objects": ["Herb patch"],
+				"Items": ["Guam seed", "Marrentill seed", "Tarromin seed", "Harralander seed", "Ranarr seed", "Spirit weed seed", "Toadflax seed", "Irit seed", "Wergali seed", "Avantoe seed", "Kwuarm seed", "Bloodweed seed", "Snapdragon seed", "Cadantine seed", "Lantadyme seed", "Dwarf weed seed", "Torstol seed", "Fellstalk seed"],
+				"Skills": {
+					"Farming": 91
+				},
+				"RuneScore": 20,
+				"Not F2P": true
+			},
+			"~|Skills achievements#Farming|~ Honey, Honey": {
+				"Category": ["Misc achievements", "Timegated"],
+				"Description": "Feed one of each honeycomb to any animal on your farm.",
+				"BaseQuest": "Skills achievements",
+				"Chunks": ["10548"],
+				"Items": ["Delicious honeycomb", "Medicinal honeycomb", "Dense honeycomb", "Runny honeycomb", "Sweet honeycomb", "Fertile honeycomb", "Candied honeycomb", "Nutritious honeycomb", "Moreish honeycomb", "Shimmering honeycomb"],
+				"Tasks": {
+					"~|Player-owned farm tutorial|~ Complete the tutorial": "Quest"
+				},
+				"RuneScore": 10,
+				"Not F2P": true
+			},
+			"~|Skills achievements#Farming|~ Honourary Dragonkin": {
+				"Category": ["Misc achievements", "Timegated"],
+				"Description": "Successfully breed a royal dragon.",
+				"BaseQuest": "Skills achievements",
+				"Chunks": ["10548"],
+				"Objects": ["Large animal pen"],
+				"Items": ["BlackDragonEgg[+]"],
+				"Tasks": {
+					"~|Player-owned farm tutorial|~ Complete the tutorial": "Quest"
+				},
+				"RuneScore": 20,
+				"Not F2P": true
+			},
+			"~|Skills achievements#Farming|~ I Hardly Manure": {
+				"Category": ["Misc achievements", "Timegated"],
+				"Description": "Clean up after cows 20 times.",
+				"BaseQuest": "Skills achievements",
+				"Objects": ["Large animal pen"],
+				"Chunks": ["10548"],
+				"Tasks": {
+					"~|Player-owned farm tutorial|~ Complete the tutorial": "Quest"
+				},
+				"RuneScore": 5,
+				"Not F2P": true
+			},
+			"~|Skills achievements#Farming|~ In a Pickle": {
+				"Category": ["Misc achievements"],
+				"Description": "Talk to Pickle the cat once his kill count has hit double figures.",
+				"BaseQuest": "Skills achievements",
+				"Chunks": ["10548"],
+				"Tasks": {
+					"~|Icthlarin's Little Helper|~ Complete the quest": "Quest"
+				},
+				"RuneScore": 5,
+				"Not F2P": true
+			},
+			"~|Skills achievements#Farming|~ Life, Uh, Found a Way": {
+				"Category": ["Misc achievements", "Timegated"],
+				"Description": "Hand in a lizard chicken called Malcolm with the Chaotic trait to Granny P.",
+				"BaseQuest": "Skills achievements",
+				"Chunks": ["10548"],
+				"Tasks": {
+					"~|Player-owned farm tutorial|~ Complete the tutorial": "Quest"
+				},
+				"RuneScore": 20,
+				"Not F2P": true
+			},
+			"~|Skills achievements#Farming|~ Perk Out!": {
+				"Category": ["Misc achievements", "Timegated"],
+				"Description": "Have at least 9 tier I animal perks from Manor Farm active at the same time.",
+				"BaseQuest": "Skills achievements",
+				"Chunks": ["10548"],
+				"Items": ["AllChins[+]", "Common white hen (unchecked)", "Rooster (unchecked)", "Spider spider (unchecked)", "White ewe (unchecked)", "White ram (unchecked)", "Kandarin cow (unchecked)", "Bull (unchecked)", "ManureDragon[+]"],
+				"Tasks": {
+					"~|Player-owned farm tutorial|~ Complete the tutorial": "Quest"
+				},
+				"Skills": {
+					"Farming": 92,
+					"Construction": 20
+				},
+				"RuneScore": 20,
+				"Not F2P": true
+			},
+			"~|Skills achievements#Farming|~ Perk Up!": {
+				"Category": ["Misc achievements", "Timegated"],
+				"Description": "Have at least 6 tier II animal perks from Manor Farm active at the same time.",
+				"BaseQuest": "Skills achievements",
+				"Chunks": ["10548"],
+				"Tasks": {
+					"~|Player-owned farm tutorial|~ Complete the tutorial": "Quest"
+				},
+				"RuneScore": 20,
+				"Not F2P": true
+			},
+			"~|Skills achievements#Farming|~ Power Planeter I": {
+				"Category": ["Misc achievements"],
+				"Description": "Unlock Plant Power (Tier 1) from Sydekix's Reward Store at the Garden of Kharid.",
+				"BaseQuest": "Skills achievements",
+				"Items": ["Plant Power (Tier 1)"],
+				"Skills": {
+					"Farming": 50
+				},
+				"RuneScore": 10,
+				"Not F2P": true
+			},
+			"~|Skills achievements#Farming|~ Rabbit, Rabbit, Rabbit": {
+				"Category": ["Misc achievements", "Timegated"],
+				"Description": "Fill both small pens with rabbits.",
+				"BaseQuest": "Skills achievements",
+				"Chunks": ["10548"],
+				"Tasks": {
+					"~|Player-owned farm tutorial|~ Complete the tutorial": "Quest",
+					"Build a second small pen in your ~|player-owned farm|~": "Construction"
+				},
+				"RuneScore": 10,
+				"Not F2P": true
+			},
+			"~|Skills achievements#Farming|~ Ram-bow": {
+				"Category": ["Misc achievements", "Timegated"],
+				"Description": "Have the four different seasonal rams in a pen at the same time.",
+				"BaseQuest": "Skills achievements",
+				"Chunks": ["10548"],
+				"Items": ["Fallfaced ram (unchecked)", "Springsheared ram (unchecked)", "Summerdown ram (unchecked)", "Winterwold ram (unchecked)"],
+				"Tasks": {
+					"~|Player-owned farm tutorial|~ Complete the tutorial": "Quest"
+				},
+				"RuneScore": 20,
+				"Not F2P": true
+			},
+			"~|Skills achievements#Farming|~ Smartest Harvest": {
+				"Category": ["Misc achievements"],
+				"Description": "Harvest 60 things from fruit tree patches in 4 minutes.",
+				"BaseQuest": "Skills achievements",
+				"Items": ["FruitTreeSeed[+]"],
+				"Chunks": ["9781", "8757", "9265-1", "9777-2", "11821-1", "11058", "11317-1"],
+				"Skills": {
+					"Farming": 27
+				},
+				"RuneScore": 30,
+				"Not F2P": true
+			},
+			"~|Skills achievements#Farming|~ Tickety Boom!": {
+				"Category": ["Misc achievements"],
+				"Description": "Make a chinchompa explode (by accident).",
+				"BaseQuest": "Skills achievements",
+				"Chunks": ["10548"],
+				"Items": ["AllChins[+]"],
+				"Tasks": {
+					"~|Player-owned farm tutorial|~ Complete the tutorial": "Quest"
+				},
+				"RuneScore": 10,
+				"Not F2P": true
+			},
+			"~|Skills achievements#Farming|~ Complete the Farming achievements": {
+				"Category": ["Misc achievements"],
+				"BaseQuest": "Skills achievements",
+				"Tasks": {
+					"~|Skills achievements#Farming|~ Animal Whisperer": "Diary",
+					"~|Skills achievements#Farming|~ Barooooo!": "Diary",
+					"~|Skills achievements#Farming|~ Bean Counter IV": "Diary",
+					"~|Skills achievements#Farming|~ Blow Out the Cobwebs": "Diary",
+					"~|Skills achievements#Farming|~ Ever So Clever": "Diary",
+					"~|Skills achievements#Farming|~ Farming 120": "Diary",
+					"~|Skills achievements#Farming|~ Four Seasons": "Diary",
+					"~|Skills achievements#Farming|~ Gotta Patch 'Em All": "Diary",
+					"~|Skills achievements#Farming|~ Granny Knows Best": "Diary",
+					"~|Skills achievements#Farming|~ Herb Your Enthusiasm": "Diary",
+					"~|Skills achievements#Farming|~ Honey, Honey": "Diary",
+					"~|Skills achievements#Farming|~ Honourary Dragonkin": "Diary",
+					"~|Skills achievements#Farming|~ I Hardly Manure": "Diary",
+					"~|Skills achievements#Farming|~ In a Pickle": "Diary",
+					"~|Skills achievements#Farming|~ Life, Uh, Found a Way": "Diary",
+					"~|Skills achievements#Farming|~ Perk Out!": "Diary",
+					"~|Skills achievements#Farming|~ Perk Up!": "Diary",
+					"~|Skills achievements#Farming|~ Power Planeter I": "Diary",
+					"~|Skills achievements#Farming|~ Rabbit, Rabbit, Rabbit": "Diary",
+					"~|Skills achievements#Farming|~ Ram-bow": "Diary",
+					"~|Skills achievements#Farming|~ Smartest Harvest": "Diary",
+					"~|Skills achievements#Farming|~ Tickety Boom!": "Diary"
+				},
+				"ManualShow": true,
+				"Not F2P": true
+			},
+			"~|Skills achievements#Firemaking|~ Firemaking 110": {
+				"Category": ["Misc achievements", "Level-up achievements"],
+				"Description": "Reach level 110 in the Firemaking skill.",
+				"BaseQuest": "Skills achievements",
+				"Skills": {
+					"Firemaking": 110
+				},
+				"RuneScore": 65,
+				"NoBoost": true
+			},
+			"~|Skills achievements#Firemaking|~ Firemaking 120": {
+				"Category": ["Misc achievements", "Level-up achievements", "No RuneScore"],
+				"Description": "Reach virtual level 120 in the Firemaking skill.",
+				"BaseQuest": "Skills achievements",
+				"Skills": {
+					"Firemaking": 120
+				},
+				"Tasks": {
+					"~|Skills achievements#Firemaking|~ Firemaking 110": "Diary"
+				},
+				"Allow Virtual": true,
+				"NoBoost": true
+			},
+			"~|Skills achievements#Firemaking|~ A Firemaker's Log": {
+				"Category": ["Misc achievements"],
+				"Description": "Burn each of the listed logs",
+				"BaseQuest": "Skills achievements",
+				"Items": ["Logs", "Achey logs", "Oak logs", "Willow logs", "Teak logs", "Arctic pine logs", "Maple logs", "Acadia logs", "Mahogany logs", "Eucalyptus logs", "Yew logs", "Magic logs", "Corrupted magic logs", "Blisterwood logs", "Cursed magic logs", "Curly root", "Elder logs", "Driftwood", "Eternal magic logs"],
+				"Skills": {
+					"Firemaking": 100,
+					"Woodcutting": 83
+				},
+				"RuneScore": 20,
+				"Not F2P": true
+			},
+			"~|Skills achievements#Firemaking|~ Complete the Firemaking achievements": {
+				"Category": ["Misc achievements"],
+				"BaseQuest": "Skills achievements",
+				"Tasks": {
+						"~|Skills achievements#Firemaking|~ Firemaking 120": "Diary",
+						"~|Skills achievements#Firemaking|~ A Firemaker's Log": "Diary"
+				},
+				"ManualShow": true,
+				"Not F2P": true
+			},
+			"~|Skills achievements#Fishing|~ Fishing 99": {
+				"Category": ["Misc achievements", "Level-up achievements"],
+				"Description": "Reach level 99 in the Fishing skill.",
+				"BaseQuest": "Skills achievements",
+				"Skills": {
+					"Fishing": 99
+				},
+				"RuneScore": 60,
+				"NoBoost": true
+			},
+			"~|Skills achievements#Fishing|~ Fishing 120": {
+				"Category": ["Misc achievements", "Level-up achievements", "No RuneScore"],
+				"Description": "Reach virtual level 120 in the Fishing skill.",
+				"BaseQuest": "Skills achievements",
+				"Skills": {
+					"Fishing": 120
+				},
+				"Tasks": {
+					"~|Skills achievements#Cooking|~ Fishing 99": "Diary"
+				},
+				"Allow Virtual": true,
+				"NoBoost": true
+			},
+			"~|Skills achievements#Fishing|~ Boosted Animal": {
+				"Category": ["Misc achievements"],
+				"Description": "Have all deep sea boosts active at the same time.",
+				"BaseQuest": "Skills achievements",
+				"Chunks": ["Deep Sea Fishing Hub"],
+				"RuneScore": 20,
+				"Not F2P": true
+			},
+			"~|Skills achievements#Fishing|~ Catch and Release": {
+				"Category": ["Misc achievements"],
+				"Description": "Attempt to release a raw fish back into a fishing spot.",
+				"BaseQuest": "Skills achievements",
+				"Objects": ["AnyFishingSpot[+]"],
+				"RuneScore": 5
+			},
+			"~|Skills achievements#Fishing|~ Fancy Turtle-Back": {
+				"Category": ["Misc achievements", "Timegated"],
+				"Description": "Interact with the deep sea treasure turtle.",
+				"BaseQuest": "Skills achievements",
+				"Chunks": ["Deep Sea Fishing Hub"],
+				"RuneScore": 5,
+				"Not F2P": true
+			},
+			"~|Skills achievements#Fishing|~ Frenzied": {
+				"Category": ["Misc achievements"],
+				"Description": "Obtain the highest boost available in the 'Fishing Frenzy' activity.",
+				"BaseQuest": "Skills achievements",
+				"Chunks": ["Deep Sea Fishing Hub"],
+				"Skills": {
+					"Fishing": 94
+				},
+				"RuneScore": 20,
+				"Not F2P": true
+			},
+			"~|Skills achievements#Fishing|~ Make A Wish": {
+				"Category": ["Misc achievements"],
+				"Description": "Throw coins into the deep sea whirlpool.",
+				"BaseQuest": "Skills achievements",
+				"Chunks": ["Deep Sea Fishing Hub"],
+				"RuneScore": 5,
+				"Not F2P": true
+			},
+			"~|Skills achievements#Fishing|~ Maximum Carpacity": {
+				"Category": ["Misc achievements"],
+				"Description": "Repair all pools at the Wendlewick fish farm.",
+				"BaseQuest": "Skills achievements",
+				"Chunks": ["16179-1"],
+				"Items": ["Big fishing net", "Steel nails", "Adamant nails", "Rune nails", "Acadia plank", "Yew plank", "Magic plank", "Bolt of cloth"],
+				"Skills": {
+					"Fishing": 84,
+					"Farming": 25,
+					"Construction": 80
+				},
+				"Tasks": {
+					"~|Maya Use Your Fish Farm?|~ Complete the lore activity": "Quest"
+				},
+				"RuneScore": 15,
+				"Not F2P": true
+			},
+			"~|Skills achievements#Fishing|~ Maximum Effishency": {
+				"Category": ["Misc achievements"],
+				"Description": "Reach the maximum number of fish in each pool at the Wendlewick fish farm with all four pools active and without a single algae spawning.",
+				"BaseQuest": "Skills achievements",
+				"Chunks": ["16179-1"],
+				"Items": ["Raw lobster", "Raw swordfish", "Raw shark", "Raw giant crayfish", "LesserThanLobster[+]"],
+				"Tasks": {
+					"~|Skills achievements#Fishing|~ Maximum Carpacity": "Diary"
+				},
+				"RuneScore": 20,
+				"Not F2P": true
+			},
+			"~|Skills achievements#Fishing|~ Ruler of the Sea": {
+				"Category": ["Misc achievements"],
+				"Description": "Successfully complete all deep sea encounters.",
+				"BaseQuest": "Skills achievements",
+				"Chunks": ["Deep Sea Fishing Hub"],
+				"RuneScore": 20,
+				"Not F2P": true
+			},
+			"~|Skills achievements#Fishing|~ Scales of the Sea": {
+				"Category": ["Misc achievements"],
+				"Description": "Own the Fury Shark outfit.",
+				"BaseQuest": "Skills achievements",
+				"Objects": ["Inventor's workbench"],
+				"Skills": {
+					"Fishing": 80,
+					"Invention": 20
+				},
+				"RuneScore": 10,
+				"Not F2P": true
+			},
+			"~|Skills achievements#Fishing|~ Complete the Fishing achievements": {
+				"Category": ["Misc achievements"],
+				"BaseQuest": "Skills achievements",
+				"Tasks": {
+					"~|Skills achievements#Fishing|~ Fishing 120": "Diary",
+					"~|Skills achievements#Fishing|~ Boosted Animal": "Diary",
+					"~|Skills achievements#Fishing|~ Catch and Release": "Diary",
+					"~|Skills achievements#Fishing|~ Fancy Turtle-Back": "Diary",
+					"~|Skills achievements#Fishing|~ Frenzied": "Diary",
+					"~|Skills achievements#Fishing|~ Make A Wish": "Diary",
+					"~|Skills achievements#Fishing|~ Maximum Effishency": "Diary",
+					"~|Skills achievements#Fishing|~ Ruler of the Sea": "Diary",
+					"~|Skills achievements#Fishing|~ Scales of the Sea": "Diary"
+				},
+				"ManualShow": true,
+				"Not F2P": true
+			},
+			"~|Skills achievements#Fletching|~ Fletching 110": {
+				"Category": ["Misc achievements", "Level-up achievements"],
+				"Description": "Reach level 110 in the Fletching skill.",
+				"BaseQuest": "Skills achievements",
+				"Skills": {
+					"Fletching": 110
+				},
+				"RuneScore": 65,
+				"NoBoost": true
+			},
+			"~|Skills achievements#Fletching|~ Fletching 120": {
+				"Category": ["Misc achievements", "Level-up achievements", "No RuneScore"],
+				"Description": "Reach virtual level 120 in the Fletching skill.",
+				"BaseQuest": "Skills achievements",
+				"Skills": {
+					"Fletching": 120
+				},
+				"Tasks": {
+					"~|Skills achievements#Fletching|~ Fletching 110": "Diary"
+				},
+				"Allow Virtual": true,
+				"NoBoost": true
+			},
+			"~|Skills achievements#Fletching|~ Bakriminel Minds": {
+				"Category": ["Misc achievements"],
+				"Description": "Enchant each of the listed crossbow bolts.",
+				"BaseQuest": "Skills achievements",
+				"Items": [
+					"Opal bolts",
+					"Jade bolts",
+					"Peal bolts",
+					"Topaz bolts",
+					"Sapphire bolts",
+					"Emerald bolts",
+					"Ruby bolts",
+					"Diamond bolts",
+					"Dragon bolts",
+					"Onyx bolts",
+					"Ascendri bolts",
+					"Opal bakriminel bolts",
+					"Jade bakriminel bolts",
+					"Peal bakriminel bolts",
+					"Topaz bakriminel bolts",
+					"Sapphire bakriminel bolts",
+					"Emerald bakriminel bolts",
+					"Ruby bakriminel bolts",
+					"Diamond bakriminel bolts",
+					"Dragon bakriminel bolts",
+					"Onyx bakriminel bolts",
+					"Hydrix bakriminel bolts",
+					"Cosmic rune",
+					"Air rune[+]",
+					"Water rune[+]",
+					"Mind rune",
+					"Earth rune[+]",
+					"Nature rune",
+					"Fire rune[+]",
+					"Blood rune",
+					"Law rune",
+					"Death rune"
+				],
+				"Skills": {
+					"Magic": 99,
+					"Fletching": 99
+				},
+				"RuneScore": 10,
+				"Not F2P": true
+			},
+			"~|Skills achievements#Fletching|~ Complete the Fletching achievements": {
+				"Category": ["Misc achievements"],
+				"BaseQuest": "Skills achievements",
+				"Tasks": {
+					"~|Skills achievements#Fletching|~ Fletching 120": "Diary",
+					"~|Skills achievements#Fletching|~ Bakriminel Minds": "Diary"
+				},
+				"ManualShow": true,
+				"Not F2P": true
+			},
+			"~|Skills achievements#Herblore|~ Herblore 5": {
+				"Category": ["Misc achievements", "Level-up achievements"],
+				"Description": "Reach level 5 in the Herblore skill.",
+				"BaseQuest": "Skills achievements",
+				"Skills": {
+					"Herblore": 5
+				},
+				"RuneScore": 5
+			},
+			"~|Skills achievements#Herblore|~ Herblore 120": {
+				"Category": ["Misc achievements", "Level-up achievements"],
+				"Description": "Reach level 120 in the Herblore skill.",
+				"BaseQuest": "Skills achievements",
+				"Skills": {
+					"Herblore": 120
+				},
+				"Tasks": {
+					"~|Skills achievements#Herblore|~ Herblore 5": "Diary"
+				},
+				"Not F2P": true,
+				"RuneScore": 70
+			},
+			"~|Skills achievements#Herblore|~ Complete the Herblore achievements": {
+				"Category": ["Misc achievements"],
+				"BaseQuest": "Skills achievements",
+				"Tasks": {
+					"~|Skills achievements#Herblore|~ Herblore 120": "Diary"
+				},
+				"ManualShow": true,
+				"Not F2P": true
+			},
+			"~|Skills achievements#Hunter|~ Hunter 5": {
+				"Category": ["Misc achievements", "Level-up achievements"],
+				"Description": "Reach level 5 in the Hunter skill.",
+				"BaseQuest": "Skills achievements",
+				"Skills": {
+					"Hunter": 5
+				},
+				"RuneScore": 5
+			},
+			"~|Skills achievements#Hunter|~ Hunter 110": {
+				"Category": ["Misc achievements", "Level-up achievements"],
+				"Description": "Reach level 110 in the Hunter skill.",
+				"BaseQuest": "Skills achievements",
+				"Skills": {
+					"Hunter": 110
+				},
+				"Tasks": {
+					"~|Skills achievements#Hunter|~ Hunter 5": "Diary"
+				},
+				"Not F2P": true,
+				"RuneScore": 60
+			},
+			"~|Skills achievements#Hunter|~ Hunter 120": {
+				"Category": ["Misc achievements", "Level-up achievements", "No RuneScore"],
+				"Description": "Reach virtual level 120 in the Hunter skill.",
+				"BaseQuest": "Skills achievements",
+				"Skills": {
+					"Hunter": 120
+				},
+				"Tasks": {
+					"~|Skills achievements#Hunter|~ Hunter 110": "Diary"
+				},
+				"Not F2P": true,
+				"Allow Virtual": true
+			},
+			"~|Skills achievements#Hunter|~ Jadinko Bingo": {
+				"Category": ["Misc achievements"],
+				"Description": "Catch each of the listed Jadinkos.",
+				"BaseQuest": "Skills achievements",
+				"Chunks": ["11851-1"],
+				"Items": ["Apple tree seed", "Banana tree seed", "Orange tree seed", "JujuHunterPotion[+]"],
+				"Skills": {
+					"Hunter": 81
+				},
+				"RuneScore": 30,
+				"Not F2P": true
+			},
+			"~|Skills achievements#Hunter|~ Sonic Crystal": {
+				"Category": ["Misc achievements"],
+				"Description": "Catch a grenwall in a crystallised trap.",
+				"BaseQuest": "Skills achievements",
+				"NPCs": ["Grenwall"],
+				"Items": ["Box trap", "Raw pawya meat", "Fire rune[+]", "Water rune[+]", "Chaos rune", "Soul rune"],
+				"Skills": {
+					"Hunter": 77,
+					"Magic": 88
+				},
+				"Tasks": {
+					"~|The Light Within|~ Complete the quest": "Quest"
+				},
+				"RuneScore": 10,
+				"Not F2P": true
+			},
+			"~|Skills achievements#Hunter|~ Giant Chinchompa Hunter": {
+				"Category": ["Misc achievements"],
+				"Description": "Take down each giant chinchompa in Big Game Hunter.",
+				"BaseQuest": "Skills achievements",
+				"Chunks": ["Hollow Hill"],
+				"Skills": {
+					"Hunter": 108,
+					"Slayer": 91
+				},
+				"RuneScore": 10,
+				"Not F2P": true
+			},
+			"~|Skills achievements#Hunter|~ Giant Kebbit Hunter": {
+				"Category": ["Misc achievements"],
+				"Description": "Take down each giant kebbit in Big Game Hunter.",
+				"BaseQuest": "Skills achievements",
+				"Chunks": ["Hollow Hill"],
+				"Items": ["Box trap"],
+				"Skills": {
+					"Hunter": 110,
+					"Slayer": 91
+				},
+				"RuneScore": 10,
+				"Not F2P": true
+			},
+			"~|Skills achievements#Hunter|~ Giant Game Hunter": {
+				"Category": ["Misc achievements"],
+				"Description": "Take down a giant chinchompa or a giant kebbit in Big Game Hunter.",
+				"BaseQuest": "Skills achievements",
+				"Chunks": ["Hollow Hill"],
+				"Skills": {
+					"Hunter": 96,
+					"Slayer": 77
+				},
+				"RuneScore": 5,
+				"Not F2P": true
+			},
+			"~|Skills achievements#Hunter|~ Complete the Hunter achievements": {
+				"Category": ["Misc achievements"],
+				"BaseQuest": "Skills achievements",
+				"Tasks": {
+					"~|Skills achievements#Hunter|~ Hunter 120": "Diary",
+					"~|Skills achievements#Hunter|~ Jadinko Bingo": "Diary",
+					"~|Skills achievements#Hunter|~ Sonic Crystal": "Diary",
+					"~|Skills achievements#Hunter|~ Giant Chinchompa Hunter": "Diary",
+					"~|Skills achievements#Hunter|~ Giant Kebbit Hunter": "Diary",
+					"~|Skills achievements#Hunter|~ Giant Game Hunter": "Diary"
+				},
+				"ManualShow": true,
+				"Not F2P": true
+			},
 			
 			
 			
 			
-			
-			"~|Skills achievements#Dungeoneering|~ ": {
+			"~|Skills achievements#Hunter|~ ": {
 				"Category": ["Misc achievements"],
 				"Description": "",
 				"BaseQuest": "Skills achievements",
@@ -128987,7 +129751,7 @@
 			
 			
 			
-			"~|Skills achievements#|~ Complete the Skills achievements": {
+			"~|Skills achievements#Hunter|~ Complete the Hunter achievements": {
 				"Category": ["Misc achievements"],
 				"BaseQuest": "Skills achievements",
 				"Tasks": {
@@ -168320,7 +169084,7 @@
 			"Fully harvest the wilderness herb patch": {
 				"Category": ["Timegated"],
 				"Chunks": ["12603"],
-				"Items": ["HerbSeeds[+]"],
+				"Items": ["HerbSeed[+]"],
 				"Requirements": {
 					"Farming": 5
 				},
@@ -193912,7 +194676,7 @@
 				"Archaeologist's workbench": 1,
 				"Material storage container": 1,
 				"Invention Machines": 1,
-				"Invention workbench": 1,
+				"Inventor's workbench": 1,
 				"Bank chest": 4,
 				"Fort Forinthry blueprints": 1,
 				"Trap door": 1,
@@ -221061,7 +221825,6 @@
 				"Steel kiteshield",
 				"Rune kiteshield"
 			],
-			"HerbSeeds[+]": ["Guam seed", "Marrentill seed", "Tarromin seed", "Harralander seed", "Ranarr seed", "Spirit weed seed", "Toadflax seed", "Irit seed", "Wergali seed", "Avantoe seed", "Kwuarm seed", "Snapdragon seed", "Cadantine seed", "Lantadyme seed", "Arbuck seed", "Dwarf weed seed", "Torstol seed", "Felsltalk seed"],
 			"HighArmourOfHanto[+]": [
 				"High Armour of Hanto cuirass",
 				"High Armour of Hanto handguards",
@@ -224391,6 +225154,13 @@
 				"Golden cavefish eggs",
 				"Golden rocktail eggs"
 			],
+			"CactusSeed[+]": [
+				"Cactus seed",
+				"Prickly pear seed",
+				"Potato cactus seed",
+				"Dragonfruit seed",
+				"Golden dragonfruit seed"
+			],
 			"HerbSeed[+]": [
 				"Guam seed", 
 				"Marrentill seed", 
@@ -224409,6 +225179,25 @@
 				"Dwarf weed seed", 
 				"Torstol seed", 
 				"Fellstalk seed"
+			],
+			"HopsSeed[+]": [
+				"Barley seed",
+				"Hammerstone seed",
+				"Asgarnian seed",
+				"Wendlewick seed",
+				"Jute seed",
+				"Yanillian seed",
+				"Krandorian seed",
+				"Wildblood seed",
+				"Grapevine seed",
+				"Reed seed",
+				"Godly grapevine seed"
+			],
+			"MushroomSpore[+]": [
+				"Bittercap mushroom spore",
+				"Morchella mushroom spore",
+				"Stinkshroom spore",
+				"Tombshrom spore"
 			],
 			"Mattock[+]": [
 				"Bronze mattock",
@@ -224836,7 +225625,7 @@
 			"FrogLeatherArmour[+]": "Any piece of frog-leather armour",
 			"Flowers[+]": "Any type of wieldable flowers",
 			"FlowersAll[+]": "Any type of flower",
-			"FruitTreeSeed[+]": "Any fruit tree seed that can be grown at the brimhaven fruit tree patch",
+			"FruitTreeSeed[+]": "Any fruit tree seed",
 			"FSOAWeaponPiece[+]": "Any piece of the fractured Staff of Armadyl",
 			"FungalArmour[+]": "Any piece of fungal armour",
 			"Fungicide[+]": "Any kind of fungicide spray",
@@ -224876,7 +225665,6 @@
 			"HealerHat[+]": "Any healer hat variant",
 			"HeraldicHelm[+]": "Any full helm that can be decorated at a poh",
 			"HeraldicShield[+]": "Any kiteshield that can be decorated at a poh",
-			"HerbSeeds[+]": "Any herb seed",
 			"HighArmourOfHanto[+]": "Any piece of the High Armour of Hanto",
 			"HolyOverloadPotion[+]": "Any holy overload potion",
 			"HunterPotion[+]": "Any hunter potion",
@@ -225468,6 +226256,7 @@
 		"objectsPlus": {
 			"Anvil[+]": ["Anvil", "Tri-Anvil", "Fremennik Anvil"],
 			"AnyExcavationSpot[+]": ["Venator remains", "Legionary remains", "Castra debris", "Lodge bar storage", "Lodge art storage", "Administratum debris", "Cultist footlocker", "Sacrificial altar", "Prodromoi remains", "Dis dungeon debris", "Praesidio remains", "Monoceros remains", "Amphitheatre debris", "Ceramics studio debris", "Carcerem debris", "Ministry remains", "Stadio debris", "Cathedral debris", "Marketplace debris", "Inquisitor remains", "Infernal art", "Gladiator remains", "Citizen remains", "Shakroth remains", "Dominion Games podium", "Ikovian memorial", "Oikos studio debris", "Kharid-et chapel debris", "Gladiatorial goblin remains", "Keshik ger", "Animal trophies", "Pontifex remains", "Cricible stand debris", "Tailory debris", "Goblin dorm debris", "Oikos fishing hut remnants", "Weapons research debris", "Orcus altar", "Dis overspill", "Big High War God shrine", "Orthen rubble", "Varanusaur remains", "Gravitron research debris", "Acropolis debris", "Armarium debris", "Yu'biusk animal pen", "Keshik tower debris", "Dragonkin reliquary", "Goblin trainee remains", "Byzroth remains", "Destroyed golem", "Dragonkin coffin", "Icyene weapon rack", "Culinarum debris", "Kyzaj champion's boudoir", "Autopsy table", "Experiment workbench", "Keshik weapon rack", "Hellfire forge", "Warforge scrap pile", "Stockpiled art", "Aughra remains", "Ancient magick munitions", "Moksha device", "Bibliotheke debris", "Warforge weapon rack", "Flight research debris", "Atherium forge", "Xolo mine", "Praetorian remains", "Bandos's sanctum debris", "Tsutsaroth remains", "Optimatoi remains", "War table debris", "Howl's workshop debris", "Makeshift pie oven", "Xolo remains", "Saurthen debris"],
+			"AnyFishingSpot[+]": ["Fishing spot (Piscatoris Fishing Colony)", "Fishing spot (barbarian)", "Fishing spot (big fishing net, harpoon)", "Fishing spot (crayfish)", "Fishing spot (frog spawn, eels)", "Fishing spot (ghostly sole)", "Fishing spot (lava)", "Fishing spot (lure, bait))", "Fishing spot (meiyerditch)", "Fishing spot (menaphos)", "Fishing spot (minnow)", "Fishing spot (rocking)", "Fishing spot (slimy eels)", "Fishing spot (small fishing net, bait)", "Fishing spot (waterfall)"],
 			"Bank[+]": ["Bank", "Bank boat", "Bank booth", "Bank chest", "Banker"],
 			"Cave eel spot[+]": ["Fishing spot (frog spawn, eels)", "Fishing spot (meiyerditch)"],
 			"Coal rock[+]": ["Coal rock", "Coal vein"],
@@ -228652,7 +229441,7 @@
 		"Wilderness Achievements": "Easy, Medium, Hard, Elite",
 		"Combat Mastery achievements": "Easy, Medium, Hard, Elite, Master, Grandmaster",
 		"Completionist achievements": "Master Quest Cape, Completionist Cape, Trimmed Completionist Cape",
-		"Skills achievements": "Agility, Archaeology, Combat (Skills), Cooking, Construction, Crafting, Dungeoneering, Divination, Farming, Fishing, Firemaking, Fletching, Gathering, Herblore, Hunter, Invention, Magic, Mining, Necromancy, Prayer, Runecrafting, Slayer, Smithing, Summoning, Thieving, Woodcutting, Croesus, The Gate of Elidinis"
+		"Skills achievements": "Agility, Archaeology, Combat (Skills), Cooking, Construction, Crafting, Dungeoneering, Divination, Farming, Fishing, Firemaking, Fletching, Herblore, Hunter, Invention, Magic, Mining, Necromancy, Prayer, Runecrafting, Slayer, Smithing, Summoning, Thieving, Woodcutting, Croesus, The Gate of Elidinis"
 	},
 	"clues": {
 		"easy": {
