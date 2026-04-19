@@ -37681,7 +37681,7 @@
 					"~|Maya Use Your Fish Farm?|~ Complete the lore activity": "Quest"
 				},
 				"Skills": {
-					"Fishing": 25
+					"Farming": 25
 				},
 				"Primary": true,
 				"Priority": 1
@@ -135768,16 +135768,6 @@
 					"~|Combat Mastery achievements#Grandmaster|~ Amascut, the Devourer (unorthodox)": "Diary"
 				},
 				"Not F2P": true
-			},
-			"(Artisans' Workshop) Obtain the ~|dwarven instinct fragment 1|~": {
-				"Category": ["Untracked Uniques", "Untracked Uniques Minigames"],
-				"Label": "Untracked Minigame Uniques",
-				"Items": ["Dwarven instinct fragment 1"]
-			},
-			"(Artisans' Workshop) Obtain the ~|dwarven instinct fragment 2|~": {
-				"Category": ["Untracked Uniques", "Untracked Uniques Minigames"],
-				"Label": "Untracked Minigame Uniques",
-				"Items": ["Dwarven instinct fragment 2"]
 			},
 			"(Artisans' Workshop) Obtain the ~|gold dwarf multicannon|~": {
 				"Category": ["Untracked Uniques", "Untracked Uniques Minigames"],
@@ -286120,8 +286110,6 @@
 			"Blacksmith's apron": true,
 			"Blacksmith's boots": true,
 			"Blacksmith's helmet add-on": true,
-			"Dwarven instinct fragment 1": true,
-			"Dwarven instinct fragment 2": true,
 			"Gold dwarf multicannon": true,
 			"Royale cannon": true,
 			"Sword Polishing Kit": true,
