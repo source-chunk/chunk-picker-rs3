@@ -207272,15 +207272,15 @@
 				"Soldier": 23,
 				"Builder": 2,
 				"Banker": 2,
-				"Farmer": 2,
+				"Farmer (Taverley)": 2,
 				"Druidess": 2,
 				"Druid": 2,
 				"Fisherman": 2,
-				"Man": 6,
+				"Man (Burthorpe Games Room)": 6,
 				"Nurse": 2,
-				"Cook": 2,
+				"Cook (Burthorpe Games rOOM°": 2,
 				"Shady Character": 1,
-				"Woman": 6
+				"Woman (Burthorpe Games Room)": 6
 			},
 			"Connect": {
 				"11575": true
