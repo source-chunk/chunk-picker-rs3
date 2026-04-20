@@ -19643,60 +19643,17 @@
 				"Priority": 17,
 				"Not F2P": true
 			},
-			"Craft a ~|Deathwarden hood (tier 20)|~": {
+			"Craft a piece of ~|deathwarden robe armour#tier 20|~": {
 				"Objects": ["Soul forge"],
-				"Items": ["Deathwarden hood (tier 10)", "Lesser ensouled cloth"],
+				"Chunks": ["City of Um"],
+				"Items": ["Lesser ensouled cloth*"],
 				"Level": 15,
 				"Tasks": {
 					"~|Kili Row|~ Complete the quest": "Quest"
 				},
 				"Primary": true,
-				"Output": "Deathwarden hood (tier 20)",
+				"Output": "t20 deathwarden armour",
 				"Priority": 18
-			},
-			"Craft a ~|Deathwarden robe top (tier 20)|~": {
-				"Objects": ["Soul forge"],
-				"Items": ["Deathwarden robe top (tier 10)", "Lesser ensouled cloth"],
-				"Level": 15,
-				"Tasks": {
-					"~|Kili Row|~ Complete the quest": "Quest"
-				},
-				"Primary": true,
-				"Output": "Deathwarden robe top (tier 20)",
-				"Priority": 19
-			},
-			"Craft a ~|Deathwarden robe bottom (tier 20)|~": {
-				"Objects": ["Soul forge"],
-				"Items": ["Deathwarden robe bottom (tier 10)", "Lesser ensouled cloth"],
-				"Level": 15,
-				"Tasks": {
-					"~|Kili Row|~ Complete the quest": "Quest"
-				},
-				"Primary": true,
-				"Output": "Deathwarden robe bottom (tier 20)",
-				"Priority": 20
-			},
-			"Craft ~|Deathwarden gloves (tier 20)|~": {
-				"Objects": ["Soul forge"],
-				"Items": ["Deathwarden gloves (tier 10)", "Lesser ensouled cloth"],
-				"Level": 15,
-				"Tasks": {
-					"~|Kili Row|~ Complete the quest": "Quest"
-				},
-				"Primary": true,
-				"Output": "Deathwarden gloves (tier 20)",
-				"Priority": 21
-			},
-			"Craft ~|Deathwarden boots (tier 20)|~": {
-				"Objects": ["Soul forge"],
-				"Items": ["Deathwarden boots (tier 10)", "Lesser ensouled cloth"],
-				"Level": 15,
-				"Tasks": {
-					"~|Kili Row|~ Complete the quest": "Quest"
-				},
-				"Primary": true,
-				"Output": "Deathwarden boots (tier 20)",
-				"Priority": 22
 			},
 			"Craft a ~|crab amulet (unstrung)|~": {
 				"Items": ["Fresh crab claw*"],
@@ -20311,60 +20268,17 @@
 				"Primary": false,
 				"Priority": 10
 			},
-			"Craft a ~|Deathwarden hood (tier 30)|~": {
+			"Craft a piece of ~|deathwarden robe armour#tier 30|~": {
 				"Objects": ["Soul forge"],
-				"Items": ["Deathwarden hood (tier 20)", "Lesser ensouled cloth"],
+				"Chunks": ["City of Um"],
+				"Items": ["Lesser ensouled cloth*"],
 				"Level": 25,
 				"Tasks": {
-					"Complete ~|Kili's Knowledge I|~": "Extra"
+					"~|Kili's Knowledge|~ I": "Quest"
 				},
 				"Primary": true,
-				"Output": "Deathwarden hood (tier 30)",
+				"Output": "t30 deathwarden armour",
 				"Priority": 11
-			},
-			"Craft a ~|Deathwarden robe top (tier 30)|~": {
-				"Objects": ["Soul forge"],
-				"Items": ["Deathwarden robe top (tier 20)", "Lesser ensouled cloth"],
-				"Level": 25,
-				"Tasks": {
-					"Complete ~|Kili's Knowledge I|~": "Extra"
-				},
-				"Primary": true,
-				"Output": "Deathwarden robe top (tier 30)",
-				"Priority": 12
-			},
-			"Craft a ~|Deathwarden robe bottom (tier 30)|~": {
-				"Objects": ["Soul forge"],
-				"Items": ["Deathwarden robe bottom (tier 20)", "Lesser ensouled cloth"],
-				"Level": 25,
-				"Tasks": {
-					"Complete ~|Kili's Knowledge I|~": "Extra"
-				},
-				"Primary": true,
-				"Output": "Deathwarden robe bottom (tier 30)",
-				"Priority": 13
-			},
-			"Craft ~|Deathwarden gloves (tier 30)|~": {
-				"Objects": ["Soul forge"],
-				"Items": ["Deathwarden gloves (tier 20)", "Lesser ensouled cloth"],
-				"Level": 25,
-				"Tasks": {
-					"Complete ~|Kili's Knowledge I|~": "Extra"
-				},
-				"Primary": true,
-				"Output": "Deathwarden gloves (tier 30)",
-				"Priority": 14
-			},
-			"Craft ~|Deathwarden boots (tier 30)|~": {
-				"Objects": ["Soul forge"],
-				"Items": ["Deathwarden boots (tier 20)", "Lesser ensouled cloth"],
-				"Level": 25,
-				"Tasks": {
-					"Complete ~|Kili's Knowledge I|~": "Extra"
-				},
-				"Primary": true,
-				"Output": "Deathwarden boots (tier 30)",
-				"Priority": 15
 			},
 			"Craft a ~|spider silk wand|~": {
 				"Items": ["Spider silk*", "Thread*"],
@@ -20867,60 +20781,17 @@
 				"Priority": 7,
 				"Not F2P": true
 			},
-			"Craft a ~|Deathwarden hood (tier 40)|~": {
+			"Craft a piece of ~|deathwarden robe armour#tier 40|~": {
 				"Objects": ["Soul forge"],
-				"Items": ["Deathwarden hood (tier 30)", "Lesser ensouled cloth", "Lesser ensouled thread"],
+				"Chunks": ["City of Um"],
+				"Items": ["Lesser ensouled cloth*", "Lesser ensouled thread*"],
 				"Level": 35,
 				"Tasks": {
-					"Complete ~|Kili's Knowledge II|~": "Extra"
+					"~|Kili's Knowledge|~ II": "Quest"
 				},
 				"Primary": true,
-				"Output": "Deathwarden hood (tier 40)",
+				"Output": "t40 deathwarden armour",
 				"Priority": 9
-			},
-			"Craft a ~|Deathwarden robe top (tier 40)|~": {
-				"Objects": ["Soul forge"],
-				"Items": ["Deathwarden robe top (tier 30)", "Lesser ensouled cloth", "Lesser ensouled thread"],
-				"Level": 35,
-				"Tasks": {
-					"Complete ~|Kili's Knowledge II|~": "Extra"
-				},
-				"Primary": true,
-				"Output": "Deathwarden robe top (tier 40)",
-				"Priority": 10
-			},
-			"Craft a ~|Deathwarden robe bottom (tier 40)|~": {
-				"Objects": ["Soul forge"],
-				"Items": ["Deathwarden robe bottom (tier 30)", "Lesser ensouled cloth", "Lesser ensouled thread"],
-				"Level": 35,
-				"Tasks": {
-					"Complete ~|Kili's Knowledge II|~": "Extra"
-				},
-				"Primary": true,
-				"Output": "Deathwarden robe bottom (tier 40)",
-				"Priority": 11
-			},
-			"Craft ~|Deathwarden gloves (tier 40)|~": {
-				"Objects": ["Soul forge"],
-				"Items": ["Deathwarden gloves (tier 30)", "Lesser ensouled cloth", "Lesser ensouled thread"],
-				"Level": 35,
-				"Tasks": {
-					"Complete ~|Kili's Knowledge II|~": "Extra"
-				},
-				"Primary": true,
-				"Output": "Deathwarden gloves (tier 40)",
-				"Priority": 12
-			},
-			"Craft ~|Deathwarden boots (tier 40)|~": {
-				"Objects": ["Soul forge"],
-				"Items": ["Deathwarden boots (tier 30)", "Lesser ensouled cloth", "Lesser ensouled thread"],
-				"Level": 35,
-				"Tasks": {
-					"Complete ~|Kili's Knowledge II|~": "Extra"
-				},
-				"Primary": true,
-				"Output": "Deathwarden boots (tier 40)",
-				"Priority": 13
 			},
 			"Craft a ~|carapace shield|~": {
 				"Items": ["Carapace*", "Thread*"],
@@ -21411,60 +21282,17 @@
 				"Priority": 7,
 				"Not F2P": true
 			},
-			"Craft a ~|Deathwarden hood (tier 50)|~": {
+			"Craft a piece of ~|deathwarden robe armour#tier 50|~": {
 				"Objects": ["Soul forge"],
-				"Items": ["Deathwarden hood (tier 40)", "Lesser ensouled cloth", "Lesser ensouled thread", "Spirit rune"],
+				"Chunks": ["City of Um"],
+				"Items": ["Lesser ensouled cloth*", "Lesser ensouled thread*", "Spirit rune*"],
 				"Level": 45,
 				"Tasks": {
-					"Complete ~|Kili's Knowledge III|~": "Extra"
+					"~|Kili's Knowledge|~ III": "Quest"
 				},
 				"Primary": true,
-				"Output": "Deathwarden hood (tier 50)",
+				"Output": "t50 deathwarden armour",
 				"Priority": 8
-			},
-			"Craft a ~|Deathwarden robe top (tier 50)|~": {
-				"Objects": ["Soul forge"],
-				"Items": ["Deathwarden robe top (tier 40)", "Lesser ensouled cloth", "Lesser ensouled thread", "Spirit rune"],
-				"Level": 45,
-				"Tasks": {
-					"Complete ~|Kili's Knowledge III|~": "Extra"
-				},
-				"Primary": true,
-				"Output": "Deathwarden robe top (tier 50)",
-				"Priority": 9
-			},
-			"Craft a ~|Deathwarden robe bottom (tier 50)|~": {
-				"Objects": ["Soul forge"],
-				"Items": ["Deathwarden robe bottom (tier 40)", "Lesser ensouled cloth", "Lesser ensouled thread", "Spirit rune"],
-				"Level": 45,
-				"Tasks": {
-					"Complete ~|Kili's Knowledge III|~": "Extra"
-				},
-				"Primary": true,
-				"Output": "Deathwarden robe bottom (tier 50)",
-				"Priority": 10
-			},
-			"Craft ~|Deathwarden gloves (tier 50)|~": {
-				"Objects": ["Soul forge"],
-				"Items": ["Deathwarden gloves (tier 40)", "Lesser ensouled cloth", "Lesser ensouled thread", "Spirit rune"],
-				"Level": 45,
-				"Tasks": {
-					"Complete ~|Kili's Knowledge III|~": "Extra"
-				},
-				"Primary": true,
-				"Output": "Deathwarden gloves (tier 50)",
-				"Priority": 11
-			},
-			"Craft ~|Deathwarden boots (tier 50)|~": {
-				"Objects": ["Soul forge"],
-				"Items": ["Deathwarden boots (tier 40)", "Lesser ensouled cloth", "Lesser ensouled thread", "Spirit rune"],
-				"Level": 45,
-				"Tasks": {
-					"Complete ~|Kili's Knowledge III|~": "Extra"
-				},
-				"Primary": true,
-				"Output": "Deathwarden boots (tier 50)",
-				"Priority": 12
 			},
 			"Craft ~|yak-hide armour (top)|~": {
 				"Items": ["Cured yak-hide*", "Thread*"],
@@ -21860,60 +21688,17 @@
 				"Priority": 9,
 				"Not F2P": true
 			},
-			"Craft a ~|Deathwarden hood (tier 60)|~": {
+			"Craft a piece of ~|deathwarden robe armour#tier 60|~": {
 				"Objects": ["Soul forge"],
-				"Items": ["Deathwarden hood (tier 50)", "Ensouled cloth", "Ensouled thread", "Spirit rune"],
+				"Chunks": ["City of Um"],
+				"Items": ["Lesser ensouled cloth*", "Lesser ensouled thread*", "Spirit rune*", "Ensouled cloth*", "Ensouled thread*"],
 				"Level": 55,
 				"Tasks": {
-					"Complete ~|Kili's Knowledge IV|~": "Extra"
+					"~|Kili's Knowledge|~ IV": "Quest"
 				},
 				"Primary": true,
-				"Output": "Deathwarden hood (tier 60)",
+				"Output": "t60 deathwarden armour",
 				"Priority": 10
-			},
-			"Craft a ~|Deathwarden robe top (tier 60)|~": {
-				"Objects": ["Soul forge"],
-				"Items": ["Deathwarden robe top (tier 50)", "Ensouled cloth", "Ensouled thread", "Spirit rune"],
-				"Level": 55,
-				"Tasks": {
-					"Complete ~|Kili's Knowledge IV|~": "Extra"
-				},
-				"Primary": true,
-				"Output": "Deathwarden robe top (tier 60)",
-				"Priority": 11
-			},
-			"Craft a ~|Deathwarden robe bottom (tier 60)|~": {
-				"Objects": ["Soul forge"],
-				"Items": ["Deathwarden robe bottom (tier 50)", "Ensouled cloth", "Ensouled thread", "Spirit rune"],
-				"Level": 55,
-				"Tasks": {
-					"Complete ~|Kili's Knowledge IV|~": "Extra"
-				},
-				"Primary": true,
-				"Output": "Deathwarden robe bottom (tier 60)",
-				"Priority": 12
-			},
-			"Craft ~|Deathwarden gloves (tier 60)|~": {
-				"Objects": ["Soul forge"],
-				"Items": ["Deathwarden gloves (tier 50)", "Ensouled cloth", "Ensouled thread", "Spirit rune"],
-				"Level": 55,
-				"Tasks": {
-					"Complete ~|Kili's Knowledge IV|~": "Extra"
-				},
-				"Primary": true,
-				"Output": "Deathwarden gloves (tier 60)",
-				"Priority": 13
-			},
-			"Craft ~|Deathwarden boots (tier 60)|~": {
-				"Objects": ["Soul forge"],
-				"Items": ["Deathwarden boots (tier 50)", "Ensouled cloth", "Ensouled thread", "Spirit rune"],
-				"Level": 55,
-				"Tasks": {
-					"Complete ~|Kili's Knowledge IV|~": "Extra"
-				},
-				"Primary": true,
-				"Output": "Deathwarden boots (tier 60)",
-				"Priority": 14
 			},
 			"Craft a ~|strong hunter urn (unfired)|~": {
 				"Items": ["Soft clay*"],
@@ -22420,115 +22205,29 @@
 				"Priority": 1,
 				"Not F2P": true
 			},
-			"Craft a ~|Deathwarden hood (tier 70)|~": {
+			"Craft a piece of ~|deathwarden robe armour#tier 70|~": {
 				"Objects": ["Soul forge"],
-				"Items": ["Deathwarden hood (tier 60)", "Ensouled cloth", "Ensouled thread", "Flesh rune"],
+				"Chunks": ["City of Um"],
+				"Items": ["Lesser ensouled cloth*", "Lesser ensouled thread*", "Spirit rune*", "Ensouled cloth*", "Ensouled thread*", "Flesh rune*"],
 				"Level": 65,
 				"Tasks": {
-					"Complete ~|Kili's Knowledge V|~": "Extra"
+					"~|Kili's Knowledge|~ V": "Quest"
 				},
 				"Primary": true,
-				"Output": "Deathwarden hood (tier 70)",
+				"Output": "t70 deathwarden armour",
 				"Priority": 2
 			},
-			"Craft a ~|Deathwarden robe top (tier 70)|~": {
+			"Craft a piece of ~|deathdealer robe armour#tier 70|~": {
 				"Objects": ["Soul forge"],
-				"Items": ["Deathwarden robe top (tier 60)", "Ensouled cloth", "Ensouled thread", "Flesh rune"],
+				"Chunks": ["City of Um"],
+				"Items": ["Lesser ensouled cloth*", "Lesser ensouled thread*", "Spirit rune*", "Ensouled cloth*", "Ensouled thread*", "Hermodic plate*", "Bone rune*"],
 				"Level": 65,
 				"Tasks": {
-					"Complete ~|Kili's Knowledge V|~": "Extra"
+					"~|Kili's Knowledge|~ V (power)": "Quest"
 				},
 				"Primary": true,
-				"Output": "Deathwarden robe top (tier 70)",
+				"Output": "t70 deathdealer armour",
 				"Priority": 3
-			},
-			"Craft a ~|Deathwarden robe bottom (tier 70)|~": {
-				"Objects": ["Soul forge"],
-				"Items": ["Deathwarden robe bottom (tier 60)", "Ensouled cloth", "Ensouled thread", "Flesh rune"],
-				"Level": 65,
-				"Tasks": {
-					"Complete ~|Kili's Knowledge V|~": "Extra"
-				},
-				"Primary": true,
-				"Output": "Deathwarden robe bottom (tier 70)",
-				"Priority": 4
-			},
-			"Craft ~|Deathwarden gloves (tier 70)|~": {
-				"Objects": ["Soul forge"],
-				"Items": ["Deathwarden gloves (tier 60)", "Ensouled cloth", "Ensouled thread", "Flesh rune"],
-				"Level": 65,
-				"Tasks": {
-					"Complete ~|Kili's Knowledge V|~": "Extra"
-				},
-				"Primary": true,
-				"Output": "Deathwarden gloves (tier 70)",
-				"Priority": 5
-			},
-			"Craft ~|Deathwarden boots (tier 70)|~": {
-				"Objects": ["Soul forge"],
-				"Items": ["Deathwarden boots (tier 60)", "Ensouled cloth", "Ensouled thread", "Flesh rune"],
-				"Level": 65,
-				"Tasks": {
-					"Complete ~|Kili's Knowledge V|~": "Extra"
-				},
-				"Primary": true,
-				"Output": "Deathwarden boots (tier 70)",
-				"Priority": 6
-			},
-			"Craft a ~|Deathdealer hood (tier 70)|~": {
-				"Objects": ["Soul forge"],
-				"Items": ["Deathwarden hood (tier 60)", "Ensouled cloth", "Ensouled thread", "Bone rune", "Hermodic plate"],
-				"Level": 65,
-				"Tasks": {
-					"Complete ~|Kili's Knowledge V (power)|~": "Extra"
-				},
-				"Primary": true,
-				"Output": "Deathdealer hood (tier 70)",
-				"Priority": 7
-			},
-			"Craft a ~|Deathdealer robe top (tier 70)|~": {
-				"Objects": ["Soul forge"],
-				"Items": ["Deathwarden robe top (tier 60)", "Ensouled cloth", "Ensouled thread", "Bone rune", "Hermodic plate"],
-				"Level": 65,
-				"Tasks": {
-					"Complete ~|Kili's Knowledge V (power)|~": "Extra"
-				},
-				"Primary": true,
-				"Output": "Deathdealer robe top (tier 70)",
-				"Priority": 8
-			},
-			"Craft a ~|Deathdealer robe bottom (tier 70)|~": {
-				"Objects": ["Soul forge"],
-				"Items": ["Deathwarden robe bottom (tier 60)", "Ensouled cloth", "Ensouled thread", "Bone rune", "Hermodic plate"],
-				"Level": 65,
-				"Tasks": {
-					"Complete ~|Kili's Knowledge V (power)|~": "Extra"
-				},
-				"Primary": true,
-				"Output": "Deathdealer robe bottom (tier 70)",
-				"Priority": 9
-			},
-			"Craft ~|Deathdealer gloves (tier 70)|~": {
-				"Objects": ["Soul forge"],
-				"Items": ["Deathwarden gloves (tier 60)", "Ensouled cloth", "Ensouled thread", "Bone rune", "Hermodic plate"],
-				"Level": 65,
-				"Tasks": {
-					"Complete ~|Kili's Knowledge V (power)|~": "Extra"
-				},
-				"Primary": true,
-				"Output": "Deathdealer gloves (tier 70)",
-				"Priority": 10
-			},
-			"Craft ~|Deathdealer boots (tier 70)|~": {
-				"Objects": ["Soul forge"],
-				"Items": ["Deathwarden boots (tier 60)", "Ensouled cloth", "Ensouled thread", "Bone rune", "Hermodic plate"],
-				"Level": 65,
-				"Tasks": {
-					"Complete ~|Kili's Knowledge V (power)|~": "Extra"
-				},
-				"Primary": true,
-				"Output": "Deathdealer boots (tier 70)",
-				"Priority": 11
 			},
 			"Craft an ~|air battlestaff|~": {
 				"Items": ["Battlestaff*", "Air orb*"],
@@ -22769,115 +22468,29 @@
 				"Priority": 1,
 				"Not F2P": true
 			},
-			"Craft a ~|Deathwarden hood (tier 80)|~": {
+			"Craft a piece of ~|deathwarden robe armour#tier 80|~": {
 				"Objects": ["Soul forge"],
-				"Items": ["Deathwarden hood (tier 70)", "Greater ensouled cloth", "Greater ensouled thread", "Flesh rune"],
+				"Chunks": ["City of Um"],
+				"Items": ["Lesser ensouled cloth*", "Lesser ensouled thread*", "Spirit rune*", "Ensouled cloth*", "Ensouled thread*", "Flesh rune*", "Greater ensouled cloth*", "Greater ensouled thread*"],
 				"Level": 75,
 				"Tasks": {
-					"Complete ~|Kili's Knowledge VI|~": "Extra"
+					"~|Kili's Knowledge|~ VI": "Quest"
 				},
 				"Primary": true,
-				"Output": "Deathwarden hood (tier 80)",
+				"Output": "t80 deathwarden armour",
 				"Priority": 1
 			},
-			"Craft a ~|Deathwarden robe top (tier 80)|~": {
+			"Craft a piece of ~|deathdealer robe armour#tier 80|~": {
 				"Objects": ["Soul forge"],
-				"Items": ["Deathwarden robe top (tier 70)", "Greater ensouled cloth", "Greater ensouled thread", "Flesh rune"],
+				"Chunks": ["City of Um"],
+				"Items": ["Lesser ensouled cloth*", "Lesser ensouled thread*", "Spirit rune*", "Ensouled cloth*", "Ensouled thread*", "Hermodic plate*", "Bone rune*", "Greater ensouled cloth*", "Greater ensouled thread*", "Miasma rune*"],
 				"Level": 75,
 				"Tasks": {
-					"Complete ~|Kili's Knowledge VI|~": "Extra"
+					"~|Kili's Knowledge|~ VI (power)": "Quest"
 				},
 				"Primary": true,
-				"Output": "Deathwarden robe top (tier 80)",
+				"Output": "t80 deathdealer armour",
 				"Priority": 2
-			},
-			"Craft a ~|Deathwarden robe bottom (tier 80)|~": {
-				"Objects": ["Soul forge"],
-				"Items": ["Deathwarden robe bottom (tier 70)", "Greater ensouled cloth", "Greater ensouled thread", "Flesh rune"],
-				"Level": 75,
-				"Tasks": {
-					"Complete ~|Kili's Knowledge VI|~": "Extra"
-				},
-				"Primary": true,
-				"Output": "Deathwarden robe bottom (tier 80)",
-				"Priority": 3
-			},
-			"Craft ~|Deathwarden gloves (tier 80)|~": {
-				"Objects": ["Soul forge"],
-				"Items": ["Deathwarden gloves (tier 70)", "Greater ensouled cloth", "Greater ensouled thread", "Flesh rune"],
-				"Level": 75,
-				"Tasks": {
-					"Complete ~|Kili's Knowledge VI|~": "Extra"
-				},
-				"Primary": true,
-				"Output": "Deathwarden gloves (tier 80)",
-				"Priority": 4
-			},
-			"Craft ~|Deathwarden boots (tier 80)|~": {
-				"Objects": ["Soul forge"],
-				"Items": ["Deathwarden boots (tier 70)", "Greater ensouled cloth", "Greater ensouled thread", "Flesh rune"],
-				"Level": 75,
-				"Tasks": {
-					"Complete ~|Kili's Knowledge VI|~": "Extra"
-				},
-				"Primary": true,
-				"Output": "Deathwarden boots (tier 80)",
-				"Priority": 5
-			},
-			"Craft a ~|Deathdealer hood (tier 80)|~": {
-				"Objects": ["Soul forge"],
-				"Items": ["Deathdealer hood (tier 70)", "Greater ensouled cloth", "Greater ensouled thread", "Miasma rune", "Hermodic plate"],
-				"Level": 75,
-				"Tasks": {
-					"Complete ~|Kili's Knowledge VI (power)|~": "Extra"
-				},
-				"Primary": true,
-				"Output": "Deathdealer hood (tier 80)",
-				"Priority": 6
-			},
-			"Craft a ~|Deathdealer robe top (tier 80)|~": {
-				"Objects": ["Soul forge"],
-				"Items": ["Deathdealer robe top (tier 70)", "Greater ensouled cloth", "Greater ensouled thread", "Miasma rune", "Hermodic plate"],
-				"Level": 75,
-				"Tasks": {
-					"Complete ~|Kili's Knowledge VI (power)|~": "Extra"
-				},
-				"Primary": true,
-				"Output": "Deathdealer robe top (tier 80)",
-				"Priority": 7
-			},
-			"Craft a ~|Deathdealer robe bottom (tier 80)|~": {
-				"Objects": ["Soul forge"],
-				"Items": ["Deathdealer robe bottom (tier 70)", "Greater ensouled cloth", "Greater ensouled thread", "Miasma rune", "Hermodic plate"],
-				"Level": 75,
-				"Tasks": {
-					"Complete ~|Kili's Knowledge VI (power)|~": "Extra"
-				},
-				"Primary": true,
-				"Output": "Deathdealer robe bottom (tier 80)",
-				"Priority": 8
-			},
-			"Craft ~|Deathdealer gloves (tier 80)|~": {
-				"Objects": ["Soul forge"],
-				"Items": ["Deathdealer gloves (tier 70)", "Greater ensouled cloth", "Greater ensouled thread", "Miasma rune", "Hermodic plate"],
-				"Level": 75,
-				"Tasks": {
-					"Complete ~|Kili's Knowledge VI (power)|~": "Extra"
-				},
-				"Primary": true,
-				"Output": "Deathdealer gloves (tier 80)",
-				"Priority": 9
-			},
-			"Craft ~|Deathdealer boots (tier 80)|~": {
-				"Objects": ["Soul forge"],
-				"Items": ["Deathdealer boots (tier 70)", "Greater ensouled cloth", "Greater ensouled thread", "Miasma rune", "Hermodic plate"],
-				"Level": 75,
-				"Tasks": {
-					"Complete ~|Kili's Knowledge VI (power)|~": "Extra"
-				},
-				"Primary": true,
-				"Output": "Deathdealer boots (tier 80)",
-				"Priority": 10
 			},
 			"Craft a piece of ~|undead dragonhide armour|~": {
 				"Items": ["Undead dragon leather*", "Thread*"],
@@ -23663,115 +23276,29 @@
 				"Priority": 25,
 				"Not F2P": true
 			},
-			"Craft a ~|Deathwarden hood (tier 90)|~": {
+			"Craft a piece of ~|deathwarden robe armour#tier 90|~": {
 				"Objects": ["Soul forge"],
-				"Items": ["Deathwarden hood (tier 80)", "Greater ensouled cloth", "Greater ensouled thread", "Flesh rune", "Spirit rune", "Bone rune", "Miasma rune"],
+				"Chunks": ["City of Um"],
+				"Items": ["Lesser ensouled cloth*", "Lesser ensouled thread*", "Spirit rune*", "Ensouled cloth*", "Ensouled thread*", "Flesh rune*", "Greater ensouled cloth*", "Greater ensouled thread*", "Bone rune*", "Miasma rune*"],
 				"Level": 85,
 				"Tasks": {
-					"Complete ~|Kili's Knowledge VII|~": "Extra"
+					"~|Kili's Knowledge|~ VII": "Quest"
 				},
 				"Primary": true,
-				"Output": "Deathwarden hood (tier 90)",
+				"Output": "t90 deathwarden armour",
 				"Priority": 26
 			},
-			"Craft a ~|Deathwarden robe top (tier 90)|~": {
+			"Craft a piece of ~|deathdealer robe armour#tier 90|~": {
 				"Objects": ["Soul forge"],
-				"Items": ["Deathwarden robe top (tier 80)", "Greater ensouled cloth", "Greater ensouled thread", "Flesh rune", "Spirit rune", "Bone rune", "Miasma rune"],
+				"Chunks": ["City of Um"],
+				"Items": ["Lesser ensouled cloth*", "Lesser ensouled thread*", "Spirit rune*", "Ensouled cloth*", "Ensouled thread*", "Hermodic plate*", "Bone rune*", "Greater ensouled cloth*", "Greater ensouled thread*", "Miasma rune*", "Bone rune*"],
 				"Level": 85,
 				"Tasks": {
-					"Complete ~|Kili's Knowledge VII|~": "Extra"
+					"~|Kili's Knowledge|~ VII (power)": "Quest"
 				},
 				"Primary": true,
-				"Output": "Deathwarden robe top (tier 90)",
+				"Output": "t90 deathdealer armour",
 				"Priority": 27
-			},
-			"Craft a ~|Deathwarden robe bottom (tier 90)|~": {
-				"Objects": ["Soul forge"],
-				"Items": ["Deathwarden robe bottom (tier 80)", "Greater ensouled cloth", "Greater ensouled thread", "Flesh rune", "Spirit rune", "Bone rune", "Miasma rune"],
-				"Level": 85,
-				"Tasks": {
-					"Complete ~|Kili's Knowledge VII|~": "Extra"
-				},
-				"Primary": true,
-				"Output": "Deathwarden robe bottom (tier 90)",
-				"Priority": 28
-			},
-			"Craft ~|Deathwarden gloves (tier 90)|~": {
-				"Objects": ["Soul forge"],
-				"Items": ["Deathwarden gloves (tier 80)", "Greater ensouled cloth", "Greater ensouled thread", "Flesh rune", "Spirit rune", "Bone rune", "Miasma rune"],
-				"Level": 85,
-				"Tasks": {
-					"Complete ~|Kili's Knowledge VII|~": "Extra"
-				},
-				"Primary": true,
-				"Output": "Deathwarden gloves (tier 90)",
-				"Priority": 29
-			},
-			"Craft ~|Deathwarden boots (tier 90)|~": {
-				"Objects": ["Soul forge"],
-				"Items": ["Deathwarden boots (tier 80)", "Greater ensouled cloth", "Greater ensouled thread", "Flesh rune", "Spirit rune", "Bone rune", "Miasma rune"],
-				"Level": 85,
-				"Tasks": {
-					"Complete ~|Kili's Knowledge VII|~": "Extra"
-				},
-				"Primary": true,
-				"Output": "Deathwarden boots (tier 90)",
-				"Priority": 30
-			},
-			"Craft a ~|Deathdealer hood (tier 90)|~": {
-				"Objects": ["Soul forge"],
-				"Items": ["Deathdealer hood (tier 80)", "Greater ensouled cloth", "Greater ensouled thread", "Flesh rune", "Spirit rune", "Bone rune", "Miasma rune", "Hermodic plate"],
-				"Level": 85,
-				"Tasks": {
-					"Complete ~|Kili's Knowledge VII (power)|~": "Extra"
-				},
-				"Primary": true,
-				"Output": "Deathdealer hood (tier 90)",
-				"Priority": 31
-			},
-			"Craft a ~|Deathdealer robe top (tier 90)|~": {
-				"Objects": ["Soul forge"],
-				"Items": ["Deathdealer robe top (tier 80)", "Greater ensouled cloth", "Greater ensouled thread", "Flesh rune", "Spirit rune", "Bone rune", "Miasma rune", "Hermodic plate"],
-				"Level": 85,
-				"Tasks": {
-					"Complete ~|Kili's Knowledge VII (power)|~": "Extra"
-				},
-				"Primary": true,
-				"Output": "Deathdealer robe top (tier 90)",
-				"Priority": 32
-			},
-			"Craft a ~|Deathdealer robe bottom (tier 90)|~": {
-				"Objects": ["Soul forge"],
-				"Items": ["Deathdealer robe bottom (tier 80)", "Greater ensouled cloth", "Greater ensouled thread", "Flesh rune", "Spirit rune", "Bone rune", "Miasma rune", "Hermodic plate"],
-				"Level": 85,
-				"Tasks": {
-					"Complete ~|Kili's Knowledge VII (power)|~": "Extra"
-				},
-				"Primary": true,
-				"Output": "Deathdealer robe bottom (tier 90)",
-				"Priority": 33
-			},
-			"Craft ~|Deathdealer gloves (tier 90)|~": {
-				"Objects": ["Soul forge"],
-				"Items": ["Deathdealer gloves (tier 80)", "Greater ensouled cloth", "Greater ensouled thread", "Flesh rune", "Spirit rune", "Bone rune", "Miasma rune", "Hermodic plate"],
-				"Level": 85,
-				"Tasks": {
-					"Complete ~|Kili's Knowledge VII (power)|~": "Extra"
-				},
-				"Primary": true,
-				"Output": "Deathdealer gloves (tier 90)",
-				"Priority": 34
-			},
-			"Craft ~|Deathdealer boots (tier 90)|~": {
-				"Objects": ["Soul forge"],
-				"Items": ["Deathdealer boots (tier 80)", "Greater ensouled cloth", "Greater ensouled thread", "Flesh rune", "Spirit rune", "Bone rune", "Miasma rune", "Hermodic plate"],
-				"Level": 85,
-				"Tasks": {
-					"Complete ~|Kili's Knowledge VII (power)|~": "Extra"
-				},
-				"Primary": true,
-				"Output": "Deathdealer boots (tier 90)",
-				"Priority": 35
 			},
 			"Craft a ~|moonstone amulet (unstrung)|~": {
 				"Items": ["Moonstone*", "Ensouled bar"],
@@ -25957,7 +25484,7 @@
 				"Items": ["t30NecroTankArmour[+]"],
 				"Level": 30,
 				"Tasks": {
-					"Complete ~|Kili's Knowledge I|~": "Extra"
+					"~|Kili's Knowledge|~ I": "Quest"
 				},
 				"Primary": false,
 				"Priority": 13,
@@ -26241,7 +25768,7 @@
 				"Items": ["t40NecroTankArmour[+]"],
 				"Level": 40,
 				"Tasks": {
-					"Complete ~|Kili's Knowledge II|~": "Extra"
+					"~|Kili's Knowledge|~ II": "Quest"
 				},
 				"Primary": false,
 				"Priority": 26,
@@ -26503,7 +26030,7 @@
 				"Items": ["t50NecroTankArmour[+]"],
 				"Level": 50,
 				"Tasks": {
-					"Complete ~|Kili's Knowledge III|~": "Extra"
+					"~|Kili's Knowledge|~ III": "Quest"
 				},
 				"Primary": false,
 				"Priority": 19,
@@ -26806,7 +26333,7 @@
 				"Items": ["t60NecroTankArmour[+]"],
 				"Level": 60,
 				"Tasks": {
-					"Complete ~|Kili's Knowledge IV|~": "Extra"
+					"~|Kili's Knowledge|~ IV": "Quest"
 				},
 				"Primary": false,
 				"Priority": 18,
@@ -27260,7 +26787,7 @@
 				"Items": ["t70NecroTankArmour[+]"],
 				"Level": 70,
 				"Tasks": {
-					"Complete ~|Kili's Knowledge V|~": "Extra"
+					"~|Kili's Knowledge|~ V": "Quest"
 				},
 				"Primary": false,
 				"Priority": 31,
@@ -27272,7 +26799,7 @@
 				"Items": ["t70NecroPowerArmour[+]"],
 				"Level": 70,
 				"Tasks": {
-					"Complete ~|Kili's Knowledge V (power)|~": "Extra"
+					"~|Kili's Knowledge|~ V (power)": "Quest"
 				},
 				"Skills": {
 					"Necromancy": 70
@@ -27703,7 +27230,7 @@
 				"Items": ["t80NecroTankArmour[+]"],
 				"Level": 80,
 				"Tasks": {
-					"Complete ~|Kili's Knowledge VI|~": "Extra"
+					"~|Kili's Knowledge|~ VI": "Quest"
 				},
 				"Primary": false,
 				"Priority": 29,
@@ -27716,7 +27243,7 @@
 				"Items": ["t80NecroPowerArmour[+]"],
 				"Level": 80,
 				"Tasks": {
-					"Complete ~|Kili's Knowledge VI (power)|~": "Extra"
+					"~|Kili's Knowledge|~ VI (power)": "Quest"
 				},
 				"Skills": {
 					"Necromancy": 80
@@ -28241,7 +27768,7 @@
 				"Items": ["t90NecroTankArmour[+]"],
 				"Level": 90,
 				"Tasks": {
-					"Complete ~|Kili's Knowledge VII|~": "Extra"
+					"~|Kili's Knowledge|~ VII": "Quest"
 				},
 				"Primary": false,
 				"Priority": 27,
@@ -28254,7 +27781,7 @@
 				"Items": ["t90NecroPowerArmour[+]"],
 				"Level": 90,
 				"Tasks": {
-					"Complete ~|Kili's Knowledge VII (power)|~": "Extra"
+					"~|Kili's Knowledge|~ VII (power)": "Quest"
 				},
 				"Skills": {
 					"Necromancy": 90
@@ -37681,7 +37208,7 @@
 					"~|Maya Use Your Fish Farm?|~ Complete the lore activity": "Quest"
 				},
 				"Skills": {
-					"Fishing": 25
+					"Farming": 25
 				},
 				"Primary": true,
 				"Priority": 1
@@ -49583,6 +49110,9 @@
 				"Category": ["Spells"],
 				"Items": ["Body rune*", "Chaos rune*", "Law rune*", "Soul rune*"],
 				"Level": 67,
+				"Tasks": {
+					"~|Desert Treasure|~ Complete the quest": "Quest"
+				},
 				"Primary": true,
 				"Priority": 2
 			},
@@ -53465,7 +52995,7 @@
 				"Items": ["t30NecroWeapon[+]"],
 				"Level": 30,
 				"Tasks": {
-					"Complete ~|Kili's Knowledge I|~": "Extra"
+					"~|Kili's Knowledge|~ I": "Quest"
 				},
 				"Primary": false,
 				"Priority": 1,
@@ -53490,7 +53020,7 @@
 				"Items": ["t40NecroWeapon[+]"],
 				"Level": 40,
 				"Tasks": {
-					"Complete ~|Kili's Knowledge II|~": "Extra"
+					"~|Kili's Knowledge|~ II": "Quest"
 				},
 				"Primary": false,
 				"Priority": 1,
@@ -53545,7 +53075,7 @@
 				"Items": ["t50NecroWeapon[+]"],
 				"Level": 50,
 				"Tasks": {
-					"Complete ~|Kili's Knowledge III|~": "Extra"
+					"~|Kili's Knowledge|~ III": "Quest"
 				},
 				"Primary": false,
 				"Priority": 1,
@@ -53580,7 +53110,7 @@
 				"Items": ["t60NecroWeapon[+]"],
 				"Level": 60,
 				"Tasks": {
-					"Complete ~|Kili's Knowledge IV|~": "Extra"
+					"~|Kili's Knowledge|~ IV": "Quest"
 				},
 				"Primary": false,
 				"Priority": 2,
@@ -53791,7 +53321,7 @@
 				"Items": ["t70NecroWeapon[+]"],
 				"Level": 70,
 				"Tasks": {
-					"Kili'sKnowledgeV[+]": "Extra"
+					"Kili'sKnowledgeV[+]": "Quest"
 				},
 				"Primary": false,
 				"Priority": 3,
@@ -53802,7 +53332,7 @@
 				"Items": ["t70NecroPowerArmour[+]"],
 				"Level": 70,
 				"Tasks": {
-					"Complete ~|Kili's Knowledge V (power)|~": "Extra"
+					"~|Kili's Knowledge|~ V (power)": "Quest"
 				},
 				"Skills": {
 					"Defence": 70
@@ -53900,7 +53430,7 @@
 				"Items": ["t80NecroWeapon[+]"],
 				"Level": 80,
 				"Tasks": {
-					"Kili'sKnowledgeVI[+]": "Extra"
+					"Kili'sKnowledgeVI[+]": "Quest"
 				},
 				"Primary": false,
 				"Priority": 1,
@@ -53911,7 +53441,7 @@
 				"Items": ["t80NecroPowerArmour[+]"],
 				"Level": 80,
 				"Tasks": {
-					"Complete ~|Kili's Knowledge VI (power)|~": "Extra"
+					"~|Kili's Knowledge|~ VI (power)": "Quest"
 				},
 				"Skills": {
 					"Defence": 80
@@ -54079,7 +53609,7 @@
 				"Items": ["t90NecroWeapon[+]"],
 				"Level": 90,
 				"Tasks": {
-					"Kili'sKnowledgeVII[+]": "Extra"
+					"Kili'sKnowledgeVII[+]": "Quest"
 				},
 				"Primary": false,
 				"Priority": 2,
@@ -54090,7 +53620,7 @@
 				"Items": ["t90NecroPowerArmour[+]"],
 				"Level": 90,
 				"Tasks": {
-					"Complete ~|Kili's Knowledge VII (power)|~": "Extra"
+					"~|Kili's Knowledge|~ VII (power)": "Quest"
 				},
 				"Skills": {
 					"Defence": 90
@@ -64192,27 +63722,17 @@
 				"Primary": true,
 				"Priority": 8
 			},
-			"Smith a ~|death gaurd (tier 20)|~": {
+			"Smith a piece of ~|Death Skull equipment#tier 20|~": {
 				"Objects": ["Soul forge"],
-				"Items": ["Death guard (tier 10)", "Lesser ensouled bar"],
+				"Chunks": ["City of Um"],
+				"Items": ["Lesser ensouled bar*"],
 				"Tasks": {
 					"~|Kili Row|~ Complete the quest": "Quest"
 				},
 				"Level": 15,
 				"Primary": true,
-				"Output": "Death guard (tier 20)",
+				"Output": "t20 death skull weapon",
 				"Priority": 1
-			},
-			"Smith a ~|skull lantern (tier 20)|~": {
-				"Objects": ["Soul forge"],
-				"Items": ["Skull lantern (tier 10)", "Lesser ensouled bar"],
-				"Tasks": {
-					"~|Kili Row|~ Complete the quest": "Quest"
-				},
-				"Level": 15,
-				"Primary": true,
-				"Output": "Skull lantern (tier 20)",
-				"Priority": 2
 			},
 			"Smelt a ~|steel bar|~": {
 				"Items": ["Iron ore*", "Coal*"],
@@ -64332,27 +63852,17 @@
 				"Priority": 100,
 				"Partial": true
 			},
-			"Smith a ~|death gaurd (tier 30)|~": {
+			"Smith a piece of ~|Death Skull equipment#tier 30|~": {
 				"Objects": ["Soul forge"],
-				"Items": ["Death guard (tier 20)", "Lesser ensouled bar"],
+				"Chunks": ["City of Um"],
+				"Items": ["Lesser ensouled bar*"],
 				"Tasks": {
-					"Complete ~|Kili's Knowledge I|~": "Extra"
+					"~|Kili's Knowledge|~ I": "Quest"
 				},
 				"Level": 25,
 				"Primary": true,
-				"Output": "Death guard (tier 30)",
+				"Output": "t30 death skull weapon",
 				"Priority": 1
-			},
-			"Smith a ~|skull lantern (tier 30)|~": {
-				"Objects": ["Soul forge"],
-				"Items": ["Skull lantern (tier 20)", "Lesser ensouled bar"],
-				"Tasks": {
-					"Complete ~|Kili's Knowledge I|~": "Extra"
-				},
-				"Level": 25,
-				"Primary": true,
-				"Output": "Skull lantern (tier 30)",
-				"Priority": 2
 			},
 			"Smelt a ~|mithril bar|~": {
 				"Items": ["Mithril ore*", "Coal*"],
@@ -64500,27 +64010,17 @@
 				"Primary": true,
 				"Priority": 5
 			},
-			"Smith a ~|death gaurd (tier 40)|~": {
+			"Smith a piece of ~|Death Skull equipment#tier 40|~": {
 				"Objects": ["Soul forge"],
-				"Items": ["Death guard (tier 30)", "Lesser ensouled bar"],
+				"Chunks": ["City of Um"],
+				"Items": ["Lesser ensouled bar*"],
 				"Tasks": {
-					"Complete ~|Kili's Knowledge II|~": "Extra"
+					"~|Kili's Knowledge|~ II": "Quest"
 				},
 				"Level": 35,
 				"Primary": true,
-				"Output": "Death guard (tier 40)",
+				"Output": "t40 death skull weapon",
 				"Priority": 1
-			},
-			"Smith a ~|skull lantern (tier 40)|~": {
-				"Objects": ["Soul forge"],
-				"Items": ["Skull lantern (tier 30)", "Lesser ensouled bar"],
-				"Tasks": {
-					"Complete ~|Kili's Knowledge II|~": "Extra"
-				},
-				"Level": 35,
-				"Primary": true,
-				"Output": "Skull lantern (tier 40)",
-				"Priority": 2
 			},
 			"Forge a ~|cannonball|~": {
 				"Items": ["Steel bar*"],
@@ -64759,27 +64259,17 @@
 				"Primary": true,
 				"Priority": 9
 			},
-			"Smith a ~|death gaurd (tier 50)|~": {
+			"Smith a piece of ~|Death Skull equipment#tier 50|~": {
 				"Objects": ["Soul forge"],
-				"Items": ["Death guard (tier 40)", "Lesser ensouled bar"],
+				"Chunks": ["City of Um"],
+				"Items": ["Lesser ensouled bar*"],
 				"Tasks": {
-					"Complete ~|Kili's Knowledge III|~": "Extra"
+					"~|Kili's Knowledge|~ III": "Quest"
 				},
 				"Level": 45,
 				"Primary": true,
-				"Output": "Death guard (tier 50)",
+				"Output": "t50 death skull weapon",
 				"Priority": 1
-			},
-			"Smith a ~|skull lantern (tier 50)|~": {
-				"Objects": ["Soul forge"],
-				"Items": ["Skull lantern (tier 40)", "Lesser ensouled bar"],
-				"Tasks": {
-					"Complete ~|Kili's Knowledge III|~": "Extra"
-				},
-				"Level": 45,
-				"Primary": true,
-				"Output": "Skull lantern (tier 50)",
-				"Priority": 2
 			},
 			"Smelt a ~|rune bar|~": {
 				"Items": ["Runite ore*", "Luminite*"],
@@ -64861,27 +64351,17 @@
 				"Primary": false,
 				"Priority": 1001
 			},
-			"Smith a ~|death gaurd (tier 60)|~": {
+			"Smith a piece of ~|Death Skull equipment#tier 60|~": {
 				"Objects": ["Soul forge"],
-				"Items": ["Death guard (tier 50)", "Ensouled bar", "Bone rune"],
+				"Chunks": ["City of Um"],
+				"Items": ["Lesser ensouled bar*", "Ensouled bar*", "Bone rune*"],
 				"Tasks": {
-					"Complete ~|Kili's Knowledge IV|~": "Extra"
+					"~|Kili's Knowledge|~ IV": "Quest"
 				},
 				"Level": 55,
 				"Primary": true,
-				"Output": "Death guard (tier 60)",
+				"Output": "t60 death skull weapon",
 				"Priority": 1
-			},
-			"Smith a ~|skull lantern (tier 60)|~": {
-				"Objects": ["Soul forge"],
-				"Items": ["Skull lantern (tier 50)", "Ensouled bar", "Bone rune"],
-				"Tasks": {
-					"Complete ~|Kili's Knowledge IV|~": "Extra"
-				},
-				"Level": 55,
-				"Primary": true,
-				"Output": "Skull lantern (tier 60)",
-				"Priority": 2
 			},
 			"Read the ~|scroll of efficiency|~": {
 				"Items": ["Scroll of efficiency"],
@@ -64953,27 +64433,17 @@
 				"Primary": true,
 				"Priority": 100
 			},
-			"Smith a ~|death gaurd (tier 70)|~": {
+			"Smith a piece of ~|Death Skull equipment#tier 70|~": {
 				"Objects": ["Soul forge"],
-				"Items": ["Death guard (tier 60)", "Ensouled bar", "Bone rune"],
+				"Chunks": ["City of Um"],
+				"Items": ["Lesser ensouled bar*", "Ensouled bar*", "Bone rune*"],
 				"Tasks": {
-					"Kili'sKnowledgeV[+]": "Extra"
+					"Kili'sKnowledgeV[+]": "Quest"
 				},
 				"Level": 65,
 				"Primary": true,
-				"Output": "Death guard (tier 70)",
+				"Output": "t70 death skull weapon",
 				"Priority": 1
-			},
-			"Smith a ~|skull lantern (tier 70)|~": {
-				"Objects": ["Soul forge"],
-				"Items": ["Skull lantern (tier 60)", "Ensouled bar", "Bone rune"],
-				"Tasks": {
-					"Kili'sKnowledgeV[+]": "Extra"
-				},
-				"Level": 65,
-				"Primary": true,
-				"Output": "Skull lantern (tier 70)",
-				"Priority": 2
 			},
 			"Smelt a ~|necronium bar|~": {
 				"Items": ["Necrite ore*", "Phasmatite*"],
@@ -65024,27 +64494,17 @@
 				"Priority": 1001,
 				"Not F2P": true
 			},
-			"Smith a ~|death gaurd (tier 80)|~": {
+			"Smith a piece of ~|Death Skull equipment#tier 80|~": {
 				"Objects": ["Soul forge"],
-				"Items": ["Death guard (tier 70)", "Greater ensouled bar", "Miasma rune"],
+				"Chunks": ["City of Um"],
+				"Items": ["Lesser ensouled bar*", "Ensouled bar*", "Bone rune*", "Greater ensouled bar*", "Miasma rune*"],
 				"Tasks": {
-					"Kili'sKnowledgeVI[+]": "Extra"
+					"Kili'sKnowledgeVI[+]": "Quest"
 				},
 				"Level": 75,
 				"Primary": true,
-				"Output": "Death guard (tier 80)",
+				"Output": "t80 death skull weapon",
 				"Priority": 1
-			},
-			"Smith a ~|skull lantern (tier 80)|~": {
-				"Objects": ["Soul forge"],
-				"Items": ["Skull lantern (tier 70)", "Greater ensouled bar", "Miasma rune"],
-				"Tasks": {
-					"Kili'sKnowledgeVI[+]": "Extra"
-				},
-				"Level": 75,
-				"Primary": true,
-				"Output": "Skull lantern (tier 80)",
-				"Priority": 2
 			},
 			"Smelt an ~|abyssalbane bar|~": {
 				"Items": ["Abyssalbanite ore*"],
@@ -65265,27 +64725,17 @@
 				"Primary": true,
 				"Priority": 1000
 			},
-			"Smith a ~|death gaurd (tier 90)|~": {
+			"Smith a piece of ~|Death Skull equipment#tier 90|~": {
 				"Objects": ["Soul forge"],
-				"Items": ["Death guard (tier 80)", "Greater ensouled bar", "Miasma rune", "Spirit rune", "Bone rune", "Flesh rune"],
+				"Chunks": ["City of Um"],
+				"Items": ["Lesser ensouled bar*", "Ensouled bar*", "Bone rune*", "Greater ensouled bar*", "Miasma rune*", "Spirit rune*", "Flesh rune*"],
 				"Tasks": {
-					"Kili'sKnowledgeVII[+]": "Extra"
+					"Kili'sKnowledgeVII[+]": "Quest"
 				},
 				"Level": 85,
 				"Primary": true,
-				"Output": "Death guard (tier 90)",
+				"Output": "t90 death skull weapon",
 				"Priority": 1
-			},
-			"Smith a ~|skull lantern (tier 90)|~": {
-				"Objects": ["Soul forge"],
-				"Items": ["Skull lantern (tier 80)", "Greater ensouled bar", "Miasma rune", "Spirit rune", "Bone rune", "Flesh rune"],
-				"Tasks": {
-					"Kili'sKnowledgeVII[+]": "Extra"
-				},
-				"Level": 85,
-				"Primary": true,
-				"Output": "Skull lantern (tier 90)",
-				"Priority": 2
 			},
 			"Forge a ~|dark ice shard|~": {
 				"Items": ["Glacor remnants*", "Dark nilas*", "Black stone heart*", "Glorious bar*"],
@@ -86420,7 +85870,7 @@
 				"Description": "Check the noticeboard at the Burnt Lobster and read about crabs",
 				"Chunks": ["16691-1"],
 				"Skills": {
-					"Constuction": 5,
+					"Construction": 5,
 					"Crafting": 15
 				},
 				"Not F2P": true,
@@ -88276,6 +87726,190 @@
 				},
 				"QuestPoints": 1,
 				"Not F2P": true
+			},
+			"~|Kili's Knowledge|~ I": {
+				"BaseQuest": "Kili's Knowledge",
+				"Description": "Learn how to make t30 necromancy equipment.",
+				"Chunks": ["City of Um"],
+				"Tasks": {
+					"SoulUrnI[+]": "Nonskill",
+					"~|Kili Row|~ Complete the quest": "Quest"
+				},
+				"Skills": {
+					"Necromancy": 30
+				},
+				"Not F2P": true,
+				"NoBoost": true
+			},
+			"~|Kili's Knowledge|~ II": {
+				"BaseQuest": "Kili's Knowledge",
+				"Description": "Learn how to make t40 necromancy equipment.",
+				"Chunks": ["City of Um"],
+				"Items": ["Meat pie"],
+				"Tasks": {
+					"SoulUrnII[+]": "Nonskill",
+					"~|Kili's Knowledge|~ I": "Quest"
+				},
+				"Skills": {
+					"Necromancy": 40
+				},
+				"Not F2P": true,
+				"NoBoost": true
+			},
+			"~|Kili's Knowledge|~ III": {
+				"BaseQuest": "Kili's Knowledge",
+				"Description": "Learn how to make t50 necromancy equipment.",
+				"Chunks": ["11824", "City of Um"],
+				"Items": ["Apple pie", "Fishing explosive"],
+				"Tasks": {
+					"SoulUrnIII[+]": "Nonskill",
+					"~|Kili's Knowledge|~ II": "Quest",
+					"~|Mogre (lore activity)|~ Complete the lore activity": "Quest"
+				},
+				"Skills": {
+					"Necromancy": 50
+				},
+				"Not F2P": true,
+				"NoBoost": true
+			},
+			"~|Kili's Knowledge|~ IV": {
+				"BaseQuest": "Kili's Knowledge",
+				"Description": "Learn how to make t60 necromancy equipment.",
+				"Chunks": ["City of Um"],
+				"Monsters": ["Ankou"],
+				"Items": ["Garden pie"],
+				"Tasks": {
+					"~|Kili's Knowledge|~ III": "Quest"
+				},
+				"Skills": {
+					"Necromancy": 60
+				},
+				"Not F2P": true,
+				"NoBoost": true
+			},
+			"~|Kili's Knowledge|~ V": {
+				"BaseQuest": "Kili's Knowledge",
+				"Description": "Learn how to make t70 necromancy equipment.",
+				"Chunks": ["City of Um", "The Barrows"],
+				"Items": ["Fish pie", "Greater necroplasm"],
+				"Tasks": {
+					"~|Kili's Knowledge|~ IV": "Quest",
+					"SoulUrnV[+]": "Nonskill",
+					"~|The Spirit of War|~ Complete the quest": "Quest"
+				},
+				"Skills": {
+					"Necromancy": 70
+				},
+				"Not F2P": true,
+				"NoBoost": true
+			},
+			"~|Kili's Knowledge|~ V (power)": {
+				"BaseQuest": "Kili's Knowledge",
+				"Description": "Learn how to make t70 necromancy power equipment.",
+				"Chunks": ["City of Um"],
+				"Monsters": ["Giant mole", "Kalphite Queen"],
+				"Tasks": {
+					"~|Kili's Knowledge|~ IV": "Quest",
+					"~|The Spirit of War|~ Complete the quest": "Quest"
+				},
+				"Skills": {
+					"Necromancy": 70
+				},
+				"Not F2P": true,
+				"NoBoost": true
+			},
+			"~|Kili's Knowledge|~ VI": {
+				"BaseQuest": "Kili's Knowledge",
+				"Description": "Learn how to make t80 necromancy equipment.",
+				"Chunks": ["City of Um", "God Wars Dungeon"],
+				"Items": ["Redberry pie"],
+				"Tasks": {
+					"Kili'sKnowledgeV[+]": "Quest",
+					"SoulUrnVI[+]": "Nonskill",
+					"~|Troll Stronghold|~ Complete the quest": "Quest"
+				},
+				"Skills": {
+					"Necromancy": 80,
+					"Agility": 70,
+					"Constitution": 70,
+					"Ranged": 70,
+					"Strength": 70
+				},
+				"Not F2P": true,
+				"NoBoost": true
+			},
+			"~|Kili's Knowledge|~ VI (power)": {
+				"BaseQuest": "Kili's Knowledge",
+				"Description": "Learn how to make t80 necromancy power equipment.",
+				"Chunks": ["City of Um"],
+				"Monsters": ["Nex", "Queen Black Dragon"],
+				"Tasks": {
+					"Kili'sKnowledgeV[+]": "Quest",
+					"~|The Dig Site|~ Complete the quest": "Quest",
+					"~|Troll Stronghold|~ Complete the quest": "Quest"
+				},
+				"Skills": {
+					"Necromancy": 80,
+					"Agility": 70,
+					"Constitution": 70,
+					"Ranged": 70,
+					"Strength": 70,
+					"Summoning": 60
+				},
+				"Not F2P": true,
+				"NoBoost": true
+			},
+			"~|Kili's Knowledge|~ VII": {
+				"BaseQuest": "Kili's Knowledge",
+				"Description": "Learn how to make t90 necromancy equipment.",
+				"Chunks": ["City of Um", "ScapeRune", "11064-1", "Fight Cave", "The Heart", "Necromantic Rune Temple", "Star Lodge"],
+				"Items": ["Pie dish", "Pot of flour", "Uncut onyx", "Greater necroplasm", "Crystal key", "Impure essence"],
+				"Objects": ["Spinning wheel", "Cooking object[+]", "Archaeologist's workbench", "Crystal chest"],
+				"Monsters": ["AnyDragon[+]"],
+				"Tasks": {
+					"Kili'sKnowledgeVI[+]": "Quest",
+					"SoulUrnVII[+]": "Nonskill",
+					"~|A Fairy Tale II - Cure a Queen|~ Complete the quest": "Quest",
+					"~|The Fremennik Trials|~ Complete the quest": "Quest",
+					"~|Rune Mythos|~ Complete the quest": "Quest"
+				},
+				"Skills": {
+					"Necromancy": 90,
+					"Attack": 80,
+					"Magic": 80,
+					"Ranged": 80,
+					"Prayer": 80,
+					"Runecrafting": 60,
+					"Archaeology": 20
+				},
+				"Not F2P": true,
+				"NoBoost": true
+			},
+			"~|Kili's Knowledge|~ VII (power)": {
+				"BaseQuest": "Kili's Knowledge",
+				"Description": "Learn how to make t90 necromancy power equipment.",
+				"Chunks": ["City of Um"],
+				"Monsters": ["Araxxi", "KiliVIIBosses[+]", "The Ambassador"],
+				"Items": ["Greater ensouled cloth"],
+				"Tasks": {
+					"Kili'sKnowledgeVI[+]": "Quest"
+				},
+				"Skills": {
+					"Necromancy": 90
+				},
+				"Not F2P": true,
+				"NoBoost": true
+			},
+			"~|Kili's Knowledge|~ Complete the lore activity": {
+				"BaseQuest": "Kindred Spirits",
+				"Chunks": ["14131"],
+				"Tasks": {
+					"~|Kili's Knoweldge|~ VII": "Quest",
+					"~|Kili's Knoweldge|~ VII (power)": "Quest"
+				},
+				"QuestPoints": 0,
+				"Not F2P": true,
+				"NoBoost": true
 			},
 			"~|Kindred Spirits|~ 1": {
 				"BaseQuest": "Kindred Spirits",
@@ -113513,7 +113147,7 @@
 				"Chunks": ["City of Um"],
 				"Items": ["Lesser ensouled cloth", "Lesser ensouled thread", "Spirit rune", "Lesser ensouled bar"],
 				"Tasks": {
-					"Complete ~|Kili's Knowledge III|~": "Extra",
+					"~|Kili's Knowledge|~ III": "Quest",
 					"~|Underworld Achievements#Easy|~ Complete the Easy Achievements": "Diary"
 				},
 				"Skills": {
@@ -113711,7 +113345,7 @@
 				"Description": "Give a blueberry pie to Thalmund in the City of Um",
 				"Chunks": ["City of Um"],
 				"Tasks": {
-					"Kili'sKnowledgeVII[+]": "Extra",
+					"~|Kili's Knowledge|~ VII": "Quest",
 					"~|Underworld Achievements#Hard|~ Complete the Hard Achievements": "Diary"
 				},
 				"BaseQuest": "Underworld Achievements",
@@ -124811,16 +124445,7 @@
 					"Necromancy": 90
 				},
 				"Tasks": {
-					"Complete ~|Kili's Knowledge I|~": "Extra",
-					"Complete ~|Kili's Knowledge II|~": "Extra",
-					"Complete ~|Kili's Knowledge III|~": "Extra",
-					"Complete ~|Kili's Knowledge IV|~": "Extra",
-					"Complete ~|Kili's Knowledge V|~": "Extra",
-					"Complete ~|Kili's Knowledge V (power)|~": "Extra",
-					"Complete ~|Kili's Knowledge VI|~": "Extra",
-					"Complete ~|Kili's Knowledge VI (power)|~": "Extra",
-					"Complete ~|Kili's Knowledge VII|~": "Extra",
-					"Complete ~|Kili's Knowledge VII (power)|~": "Extra"
+					"~|Kili's Knowledge|~ Complete the lore activity": "Quest"
 				},
 				"Not F2P": true
 			},
@@ -126031,7 +125656,7 @@
 			},
 			"~|Completionist achievements#Trimmed Completionist Cape|~ Remotely Possible": {
 				"Category": ["Comp achievements", "Trim achievements"],
-				"Description": "Build the Remote Totem Charging Point in the base camp on Anachronia.",
+				"Description": "Build the Remote Totem Access Point in the base camp on Anachronia.",
 				"BaseQuest": "Completionist achievements",
 				"Tasks": {
 					"Unlock the Anachronia Base Camp": "Nonskill"
@@ -126429,169 +126054,6 @@
 				"Chunks": ["City of Um"],
 				"NPCs": ["Ghost cat"],
 				"Items": ["GhostlySole[+]"]
-			},
-			"Complete ~|Kili's Knowledge I|~": {
-				"Category": ["Kili Knowledge"],
-				"Label": ["Necromancy progression"],
-				"Chunks": ["City of Um"],
-				"Tasks": {
-					"SoulUrnI[+]": "Nonskill",
-					"~|Kili Row|~ Complete the quest": "Quest"
-				},
-				"Skills": {
-					"Necromancy": 30
-				},
-				"AllowMulti": true
-			},
-			"Complete ~|Kili's Knowledge II|~": {
-				"Category": ["Kili Knowledge"],
-				"Label": ["Necromancy progression"],
-				"Chunks": ["City of Um"],
-				"Items": ["Meat pie"],
-				"Tasks": {
-					"SoulUrnII[+]": "Nonskill",
-					"Complete ~|Kili's Knowledge I|~": "Extra"
-				},
-				"Requirements": {
-					"Necromancy": 40
-				},
-				"AllowMulti": true
-			},
-			"Complete ~|Kili's Knowledge III|~": {
-				"Category": ["Kili Knowledge"],
-				"Label": ["Necromancy progression"],
-				"Chunks": ["11824", "City of Um"],
-				"Items": ["Apple pie", "Fishing explosive"],
-				"Tasks": {
-					"SoulUrnIII[+]": "Nonskill",
-					"Complete ~|Kili's Knowledge II|~": "Extra",
-					"~|Mogre (lore activity)|~ Complete the lore activity": "Quest"
-				},
-				"Requirements": {
-					"Necromancy": 50
-				},
-				"AllowMulti": true
-			},
-			"Complete ~|Kili's Knowledge IV|~": {
-				"Category": ["Kili Knowledge"],
-				"Label": ["Necromancy progression"],
-				"Chunks": ["City of Um"],
-				"Monsters": ["Ankou"],
-				"Items": ["Garden pie"],
-				"Tasks": {
-					"Complete ~|Kili's Knowledge III|~": "Extra"
-				},
-				"Requirements": {
-					"Necromancy": 60
-				},
-				"AllowMulti": true
-			},
-			"Complete ~|Kili's Knowledge V|~": {
-				"Category": ["Kili Knowledge"],
-				"Label": ["Necromancy progression"],
-				"Chunks": ["City of Um", "The Barrows"],
-				"Items": ["Fish pie", "Greater necroplasm"],
-				"Tasks": {
-					"Complete ~|Kili's Knowledge IV|~": "Extra",
-					"SoulUrnV[+]": "Nonskill",
-					"~|The Spirit of War|~ Complete the quest": "Quest"
-				},
-				"Requirements": {
-					"Necromancy": 70
-				},
-				"AllowMulti": true
-			},
-			"Complete ~|Kili's Knowledge V (power)|~": {
-				"Category": ["Kili Knowledge"],
-				"Label": ["Necromancy progression"],
-				"Chunks": ["City of Um"],
-				"Monsters": ["Giant mole", "Kalphite Queen"],
-				"Tasks": {
-					"Complete ~|Kili's Knowledge IV|~": "Extra",
-					"~|The Spirit of War|~ Complete the quest": "Quest"
-				},
-				"Requirements": {
-					"Necromancy": 70
-				},
-				"AllowMulti": true
-			},
-			"Complete ~|Kili's Knowledge VI|~": {
-				"Category": ["Kili Knowledge"],
-				"Label": ["Necromancy progression"],
-				"Chunks": ["City of Um", "God Wars Dungeon"],
-				"Items": ["Redberry pie"],
-				"Tasks": {
-					"Complete ~|Kili's Knowledge V|~": "Extra",
-					"SoulUrnVI[+]": "Nonskill",
-					"~|Troll Stronghold|~ Complete the quest": "Quest"
-				},
-				"Requirements": {
-					"Necromancy": 80,
-					"Agility": 70,
-					"Constitution": 70,
-					"Ranged": 70,
-					"Strength": 70
-				},
-				"AllowMulti": true
-			},
-			"Complete ~|Kili's Knowledge VI (power)|~": {
-				"Category": ["Kili Knowledge"],
-				"Label": ["Necromancy progression"],
-				"Chunks": ["City of Um"],
-				"Monsters": ["Nex", "Queen Black Dragon"],
-				"Tasks": {
-					"Complete ~|Kili's Knowledge V (power)|~": "Extra",
-					"~|The Dig Site|~ Complete the quest": "Quest",
-					"~|Troll Stronghold|~ Complete the quest": "Quest"
-				},
-				"Requirements": {
-					"Necromancy": 80,
-					"Agility": 70,
-					"Constitution": 70,
-					"Ranged": 70,
-					"Strength": 70,
-					"Summoning": 60
-				},
-				"AllowMulti": true
-			},
-			"Complete ~|Kili's Knowledge VII|~": {
-				"Category": ["Kili Knowledge"],
-				"Label": ["Necromancy progression"],
-				"Chunks": ["City of Um", "ScapeRune", "11064-1", "Fight Cave", "The Heart", "Necromantic Rune Temple", "Star Lodge"],
-				"Items": ["Pie dish", "Pot of flour", "Uncut onyx", "Greater necroplasm", "Crystal key", "Impure essence"],
-				"Objects": ["Spinning wheel", "Cooking object[+]", "Archaeologist's workbench", "Crystal chest"],
-				"Monsters": ["AnyDragon[+]"],
-				"Tasks": {
-					"Complete ~|Kili's Knowledge VI|~": "Extra",
-					"SoulUrnVII[+]": "Nonskill",
-					"~|A Fairy Tale II - Cure a Queen|~ Complete the quest": "Quest",
-					"~|The Fremennik Trials|~ Complete the quest": "Quest",
-					"~|Rune Mythos|~ Complete the quest": "Quest"
-				},
-				"Requirements": {
-					"Necromancy": 90,
-					"Attack": 80,
-					"Magic": 80,
-					"Ranged": 80,
-					"Prayer": 80,
-					"Runecrafting": 60,
-					"Archaeology": 20
-				},
-				"AllowMulti": true
-			},
-			"Complete ~|Kili's Knowledge VII (power)|~": {
-				"Category": ["Kili Knowledge"],
-				"Label": ["Necromancy progression"],
-				"Chunks": ["City of Um"],
-				"Monsters": ["Araxxi", "KiliVIIBosses[+]", "The Ambassador"],
-				"Items": ["Greater ensouled cloth"],
-				"Tasks": {
-					"Complete ~|Kili's Knowledge VI (power)|~": "Extra"
-				},
-				"Requirements": {
-					"Necromancy": 90
-				},
-				"AllowMulti": true
 			},
 			"Unlock the ~|Lumbridge lodestone|~": {
 				"Category": ["Achievement", "Misc achievements"],
@@ -135768,16 +135230,6 @@
 					"~|Combat Mastery achievements#Grandmaster|~ Amascut, the Devourer (unorthodox)": "Diary"
 				},
 				"Not F2P": true
-			},
-			"(Artisans' Workshop) Obtain the ~|dwarven instinct fragment 1|~": {
-				"Category": ["Untracked Uniques", "Untracked Uniques Minigames"],
-				"Label": "Untracked Minigame Uniques",
-				"Items": ["Dwarven instinct fragment 1"]
-			},
-			"(Artisans' Workshop) Obtain the ~|dwarven instinct fragment 2|~": {
-				"Category": ["Untracked Uniques", "Untracked Uniques Minigames"],
-				"Label": "Untracked Minigame Uniques",
-				"Items": ["Dwarven instinct fragment 2"]
 			},
 			"(Artisans' Workshop) Obtain the ~|gold dwarf multicannon|~": {
 				"Category": ["Untracked Uniques", "Untracked Uniques Minigames"],
@@ -180931,7 +180383,8 @@
 						"Golden fleece": true
 					},
 					"Quest": {
-						"The Fremennik Trials": "step"
+						"The Fremennik Trials": "step",
+						"Kili's Knowledge": "step"
 					},
 					"Clue": {
 						"elite": 3
@@ -184413,7 +183866,8 @@
 			},
 			"Quest": {
 				"Beneath Cursed Tides": "step",
-				"Benedict's World Tour (miniquest)": "step"
+				"Benedict's World Tour (miniquest)": "step",
+				"Kili's Knowledge": "step"
 			},
 			"Clue": {
 				"easy": 1,
@@ -206051,7 +205505,8 @@
 				"11601": true
 			},
 			"Quest": {
-				"Tales of the God Wars (miniquest)": "step"
+				"Tales of the God Wars (miniquest)": "step",
+				"Kili's Knowledge": "step"
 			}
 		},
 		"Ancient Prison": {
@@ -207653,6 +207108,9 @@
 				"Evil Bob": 1,
 				"Servant": 1
 			},
+			"Quest": {
+				"Kili's Knowledge": "step"
+			},
 			"Connect": {
 				"9541": true
 			}
@@ -208951,6 +208409,9 @@
 				"TzTok-Jad": 1,
 				"Yt-HurKot": 4
 			},
+			"Quest": {
+				"Kili's Knowledge": "step"
+			},
 			"Connect": {
 				"18512": true
 			}
@@ -209657,7 +209118,8 @@
 				"12854": true
 			},
 			"Quest": {
-				"Eyes in Their Stars": "first"
+				"Eyes in Their Stars": "first",
+				"Kili's Knowledge": "step"
 			}
 		},
 		"Dungeon of Disorder": {
@@ -209952,7 +209414,8 @@
 			},
 			"Quest": {
 				"Tales of the God Wars (miniquest)": "step",
-				"The Temple at Senntisten": "step"
+				"The Temple at Senntisten": "step",
+				"Kili's Knowledge": "step"
 			}
 		},
 		"Gorak Plane": {
@@ -213965,7 +213428,8 @@
 				"13357": true
 			},
 			"Quest": {
-				"Azzanadra's Quest": "step"
+				"Azzanadra's Quest": "step",
+				"Kili's Knowledge": "step"
 			},
 			"Clue": {
 				"master": 27
@@ -214597,7 +214061,8 @@
 				"Requiem for a Dragon": "step",
 				"Soul Searching": "first",
 				"Ode of the Devourer": "step",
-				"Eclipse of the Heart": "step"
+				"Eclipse of the Heart": "step",
+				"Kili's Knowledge": "first"
 			},
 			"Shop": {
 				"Buried Bargains": true,
@@ -214617,7 +214082,8 @@
 		},
 		"Necromantic Rune Temple": {
 			"Quest": {
-				"Rune Mythos": "step"
+				"Rune Mythos": "step",
+				"Kili's Knowledge": "step"
 			},
 			"Connect": {
 				"23": true
@@ -223732,9 +223198,9 @@
 			"It Spoiled My View[+]": ["Hard Falador tasks ~|It Spoiled My View|~ (Yew)*", "Hard Falador tasks ~|It Spoiled My View|~ (Magic)*"],
 			"KBD Kudos[+]": ["King Black Dragon kudos (Flash Event)", "King Black Dragon kudos (Boss)"],
 			"KiliRowSoulUrnStep[+]": ["~|Kili Row|~ 3a", "~|Kili Row|~ 3b"],
-			"Kili'sKnowledgeV[+]": ["Complete ~|Kili's Knowledge V|~", "Complete ~|Kili's Knowledge V (power)|~"],
-			"Kili'sKnowledgeVI[+]": ["Complete ~|Kili's Knowledge VI|~", "Complete ~|Kili's Knowledge VI (power)|~"],
-			"Kili'sKnowledgeVII[+]": ["Complete ~|Kili's Knowledge VII|~", "Complete ~|Kili's Knowledge VII (power)|~"],
+			"Kili'sKnowledgeV[+]": ["~|Kili's Knowledge|~ V", "~|Kili's Knowledge|~ V (power)"],
+			"Kili'sKnowledgeVI[+]": ["~|Kili's Knowledge|~ VI", "~|Kili's Knowledge|~ VI (power)"],
+			"Kili'sKnowledgeVII[+]": ["~|Kili's Knowledge|~ VII", "~|Kili's Knowledge|~ VII (power)"],
 			"LawAccess[+]": ["Access the law rune temple with a talisman*", "Access the law rune temple through the abyss*"],
 			"LostHerMarblesTargets[+]": ["(LHM) Pickpocket a citizen", "(LHM) Pickpocket a farmer", "(LHM) Pickpocket a master farmer", "(LHM) Pickpocket a H.A.M. member", "(LHM) Pickpocket a warrior", "(LHM) Pickpocket a guard", "(LHM) Pickpocket a rogue", "(LHM) Pickpocket a cave goblin"],
 			"MagicWeapon[+]": [
@@ -224078,9 +223544,9 @@
 			"HeroesQuestCandlestick[+]": "Obtain the candlestick through either gang",
 			"It Spoiled My View[+]": "Any subtask for It Spoiled My View",
 			"KiliRowSoulUrnStep[+]": "Any way to fill soul urn IV",
-			"Kili'sKnowledgeV[+]": "Any of the Kili knowledge V requests",
-			"Kili'sKnowledgeVI[+]": "Any of the Kili knowledge VI requests",
-			"Kili'sKnowledgeVII[+]": "Any of the Kili knowledge VII requests",
+			"Kili'sKnowledgeV[+]": "Any of the Kili's Knowledge V requests",
+			"Kili'sKnowledgeVI[+]": "Any of the Kili's Knowledge VI requests",
+			"Kili'sKnowledgeVII[+]": "Any of the Kili's Knowledge VII requests",
 			"LostHerMarblesTargets[+]": "Pickpocket any of the targets for the 'Lost Her Marbles' caper",
 			"LawAccess[+]": "Any way to access the law rune temple",
 			"MagicWeapon[+]": "Any magic weapon you can wield",
@@ -280507,6 +279973,7 @@
 		"Jungle Potion": "11056, 11055, 11312, 11311, Pothole Dungeon",
 		"Kennith's Concerns": "10803, Witchaven Dungeon, 10804",
 		"Kili Row": "City of Um",
+		"Kili's Knowledge": "City of Um, 11824, The Barrows, God Wars Dungeon, ScapeRune, 11064-1, Fight Cave, The Heart, Necromantic Rune Temple, Star Lodge",
 		"Kindred Spirits": "11574, 12338, 13881, 14131",
 		"King of the Dwarves": "Keldagrim, Lava Flow Mine, Barendir, Pretty Flower's Cave",
 		"King's Ransom": "10807, 10806, 11062, 11061, 10547, 12086",
@@ -286120,8 +285587,6 @@
 			"Blacksmith's apron": true,
 			"Blacksmith's boots": true,
 			"Blacksmith's helmet add-on": true,
-			"Dwarven instinct fragment 1": true,
-			"Dwarven instinct fragment 2": true,
 			"Gold dwarf multicannon": true,
 			"Royale cannon": true,
 			"Sword Polishing Kit": true,
@@ -297971,6 +297436,193 @@
 					"1": "Always"
 				},
 				"Masterwork ranged boots": {
+					"1": "Always"
+				}
+			},
+			"t20 deathwarden armour": {
+				"Deathwarden hood (tier 20)": {
+					"1": "Always"
+				},
+				"Deathwarden robe top (tier 20)": {
+					"1": "Always"
+				},
+				"Deathwarden robe bottom (tier 20)": {
+					"1": "Always"
+				},
+				"Deathwarden gloves (tier 20)": {
+					"1": "Always"
+				},
+				"Deathwarden boots (tier 20)": {
+					"1": "Always"
+				}
+			},
+			"t30 deathwarden armour": {
+				"Deathwarden hood (tier 30)": {
+					"1": "Always"
+				},
+				"Deathwarden robe top (tier 30)": {
+					"1": "Always"
+				},
+				"Deathwarden robe bottom (tier 30)": {
+					"1": "Always"
+				},
+				"Deathwarden gloves (tier 30)": {
+					"1": "Always"
+				},
+				"Deathwarden boots (tier 30)": {
+					"1": "Always"
+				}
+			},
+			"t40 deathwarden armour": {
+				"Deathwarden hood (tier 40)": {
+					"1": "Always"
+				},
+				"Deathwarden robe top (tier 40)": {
+					"1": "Always"
+				},
+				"Deathwarden robe bottom (tier 40)": {
+					"1": "Always"
+				},
+				"Deathwarden gloves (tier 40)": {
+					"1": "Always"
+				},
+				"Deathwarden boots (tier 40)": {
+					"1": "Always"
+				}
+			},
+			"t50 deathwarden armour": {
+				"Deathwarden hood (tier 50)": {
+					"1": "Always"
+				},
+				"Deathwarden robe top (tier 50)": {
+					"1": "Always"
+				},
+				"Deathwarden robe bottom (tier 50)": {
+					"1": "Always"
+				},
+				"Deathwarden gloves (tier 50)": {
+					"1": "Always"
+				},
+				"Deathwarden boots (tier 50)": {
+					"1": "Always"
+				}
+			},
+			"t60 deathwarden armour": {
+				"Deathwarden hood (tier 60)": {
+					"1": "Always"
+				},
+				"Deathwarden robe top (tier 60)": {
+					"1": "Always"
+				},
+				"Deathwarden robe bottom (tier 60)": {
+					"1": "Always"
+				},
+				"Deathwarden gloves (tier 60)": {
+					"1": "Always"
+				},
+				"Deathwarden boots (tier 60)": {
+					"1": "Always"
+				}
+			},
+			"t70 deathwarden armour": {
+				"Deathwarden hood (tier 70)": {
+					"1": "Always"
+				},
+				"Deathwarden robe top (tier 70)": {
+					"1": "Always"
+				},
+				"Deathwarden robe bottom (tier 70)": {
+					"1": "Always"
+				},
+				"Deathwarden gloves (tier 70)": {
+					"1": "Always"
+				},
+				"Deathwarden boots (tier 70)": {
+					"1": "Always"
+				}
+			},
+			"t80 deathwarden armour": {
+				"Deathwarden hood (tier 80)": {
+					"1": "Always"
+				},
+				"Deathwarden robe top (tier 80)": {
+					"1": "Always"
+				},
+				"Deathwarden robe bottom (tier 80)": {
+					"1": "Always"
+				},
+				"Deathwarden gloves (tier 80)": {
+					"1": "Always"
+				},
+				"Deathwarden boots (tier 80)": {
+					"1": "Always"
+				}
+			},
+			"t90 deathwarden armour": {
+				"Deathwarden hood (tier 90)": {
+					"1": "Always"
+				},
+				"Deathwarden robe top (tier 90)": {
+					"1": "Always"
+				},
+				"Deathwarden robe bottom (tier 90)": {
+					"1": "Always"
+				},
+				"Deathwarden gloves (tier 90)": {
+					"1": "Always"
+				},
+				"Deathwarden boots (tier 90)": {
+					"1": "Always"
+				}
+			},
+			"t70 deathdealer armour": {
+				"Deathdealer hood (tier 70)": {
+					"1": "Always"
+				},
+				"Deathdealer robe top (tier 70)": {
+					"1": "Always"
+				},
+				"Deathdealer robe bottom (tier 70)": {
+					"1": "Always"
+				},
+				"Deathdealer gloves (tier 70)": {
+					"1": "Always"
+				},
+				"Deathdealer boots (tier 70)": {
+					"1": "Always"
+				}
+			},
+			"t80 deathdealer armour": {
+				"Deathdealer hood (tier 80)": {
+					"1": "Always"
+				},
+				"Deathdealer robe top (tier 80)": {
+					"1": "Always"
+				},
+				"Deathdealer robe bottom (tier 80)": {
+					"1": "Always"
+				},
+				"Deathdealer gloves (tier 80)": {
+					"1": "Always"
+				},
+				"Deathdealer boots (tier 80)": {
+					"1": "Always"
+				}
+			},
+			"t90 deathdealer armour": {
+				"Deathdealer hood (tier 90)": {
+					"1": "Always"
+				},
+				"Deathdealer robe top (tier 90)": {
+					"1": "Always"
+				},
+				"Deathdealer robe bottom (tier 90)": {
+					"1": "Always"
+				},
+				"Deathdealer gloves (tier 90)": {
+					"1": "Always"
+				},
+				"Deathdealer boots (tier 90)": {
 					"1": "Always"
 				}
 			}
@@ -322546,6 +322198,70 @@
 				},
 				"Havensilver off-hand longsword + 2": {
 					"1": "Always"
+				}
+			},
+			"t20 death skull weapon": {
+				"Death guard (tier 20)": { 
+					"1": "Always" 
+				},
+				"Skull lantern (tier 20)": { 
+					"1": "Always" 
+				}
+			},
+			"t30 death skull weapon": {
+				"Death guard (tier 30)": { 
+					"1": "Always" 
+				},
+				"Skull lantern (tier 30)": { 
+					"1": "Always" 
+				}
+			},
+			"t40 death skull weapon": {
+				"Death guard (tier 40)": { 
+					"1": "Always" 
+				},
+				"Skull lantern (tier 40)": { 
+					"1": "Always" 
+				}
+			},
+			"t50 death skull weapon": {
+				"Death guard (tier 50)": { 
+					"1": "Always" 
+				},
+				"Skull lantern (tier 50)": { 
+					"1": "Always" 
+				}
+			},
+			"t60 death skull weapon": {
+				"Death guard (tier 60)": { 
+					"1": "Always" 
+				},
+				"Skull lantern (tier 60)": { 
+					"1": "Always" 
+				}
+			},
+			"t70 death skull weapon": {
+				"Death guard (tier 70)": { 
+					"1": "Always" 
+				},
+				"Skull lantern (tier 70)": { 
+					"1": "Always" 
+				}
+			},
+			"t80 death skull weapon": {
+				"Death guard (tier 80)": { 
+					"1": "Always" 
+					},
+				"Skull lantern (tier 80)": { 
+					"1": "Always" 
+				}
+			},
+			"t90 death skull weapon": {
+				"Death guard (tier 90)": { 
+					"1": "Always" 
+				},
+					"Skull lantern (tier 90)": { 
+					"1": "Always" 
 				}
 			}
 		},
