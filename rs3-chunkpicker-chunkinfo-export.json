@@ -49110,6 +49110,9 @@
 				"Category": ["Spells"],
 				"Items": ["Body rune*", "Chaos rune*", "Law rune*", "Soul rune*"],
 				"Level": 67,
+				"Tasks": {
+					"~|Desert Treasure|~ Complete the quest": "Quest"
+				},
 				"Primary": true,
 				"Priority": 2
 			},
@@ -125653,7 +125656,7 @@
 			},
 			"~|Completionist achievements#Trimmed Completionist Cape|~ Remotely Possible": {
 				"Category": ["Comp achievements", "Trim achievements"],
-				"Description": "Build the Remote Totem Charging Point in the base camp on Anachronia.",
+				"Description": "Build the Remote Totem Access Point in the base camp on Anachronia.",
 				"BaseQuest": "Completionist achievements",
 				"Tasks": {
 					"Unlock the Anachronia Base Camp": "Nonskill"
