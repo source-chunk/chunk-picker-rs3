@@ -129711,41 +129711,1085 @@
 				"Not F2P": true,
 				"NoBoost": true
 			},
-			
-			
-			
-			
-			
-			"~|Skills achievements#Necromancy|~ ": {
+			"~|Skills achievements#Necromancy|~ Altered Efficiency": {
 				"Category": ["Misc achievements"],
-				"Description": "",
+				"Description": "Have every alteration active at once.",
 				"BaseQuest": "Skills achievements",
-				"Chunks": [""],
-				"Items": [""],
+				"Chunks": ["RitualSite[+]"],
+				"Items": ["Ectoplasm", "Regulary ghostly ink", "Basic ghostly ink"],
 				"Skills": {
-					
+					"Necromancy": 61
 				},
 				"RuneScore": 10,
 				"Not F2P": true
 			},
-			
-			
-			
-			
-			
-			
-			
-			
+			"~|Skills achievements#Necromancy|~ Dress to Kili I": {
+				"Category": ["Misc achievements"],
+				"Description": "Upgrade a set of Death Skull and Deathwarden equipment to tier 20",
+				"BaseQuest": "Skills achievements",
+				"Items": ["Death guard (tier 20)", "Skull lantern (tier 20)", "Deathwarden hood (tier 20)", "Deathwarden robe top (tier 20)", "Deathwarden robe bottom (tier 20)", "Deathwarden gloves (tier 20)", "Deathwarden boots (tier 20)"],
+				"RuneScore": 10,
+				"Not F2P": true
+			},
+			"~|Skills achievements#Necromancy|~ Dress to Kili II": {
+				"Category": ["Misc achievements"],
+				"Description": "Upgrade a set of Death Skull and Deathwarden equipment to tier 30",
+				"BaseQuest": "Skills achievements",
+				"Items": ["Death guard (tier 30)", "Skull lantern (tier 30)", "Deathwarden hood (tier 30)", "Deathwarden robe top (tier 30)", "Deathwarden robe bottom (tier 30)", "Deathwarden gloves (tier 30)", "Deathwarden boots (tier 30)"],
+				"RuneScore": 10,
+				"Not F2P": true
+			},
+			"~|Skills achievements#Necromancy|~ Dress to Kili III": {
+				"Category": ["Misc achievements"],
+				"Description": "Upgrade a set of Death Skull and Deathwarden equipment to tier 40",
+				"BaseQuest": "Skills achievements",
+				"Items": ["Death guard (tier 40)", "Skull lantern (tier 40)", "Deathwarden hood (tier 40)", "Deathwarden robe top (tier 40)", "Deathwarden robe bottom (tier 40)", "Deathwarden gloves (tier 40)", "Deathwarden boots (tier 40)"],
+				"RuneScore": 10,
+				"Not F2P": true
+			},
+			"~|Skills achievements#Necromancy|~ Dress to Kili IV": {
+				"Category": ["Misc achievements"],
+				"Description": "Upgrade a set of Death Skull and Deathwarden equipment to tier 50",
+				"BaseQuest": "Skills achievements",
+				"Items": ["Death guard (tier 50)", "Skull lantern (tier 50)", "Deathwarden hood (tier 50)", "Deathwarden robe top (tier 50)", "Deathwarden robe bottom (tier 50)", "Deathwarden gloves (tier 50)", "Deathwarden boots (tier 50)"],
+				"RuneScore": 10,
+				"Not F2P": true
+			},
+			"~|Skills achievements#Necromancy|~ Dress to Kili V": {
+				"Category": ["Misc achievements"],
+				"Description": "Upgrade a set of Death Skull and Deathwarden equipment to tier 60",
+				"BaseQuest": "Skills achievements",
+				"Items": ["Death guard (tier 60)", "Skull lantern (tier 60)", "Deathwarden hood (tier 60)", "Deathwarden robe top (tier 60)", "Deathwarden robe bottom (tier 60)", "Deathwarden gloves (tier 60)", "Deathwarden boots (tier 60)"],
+				"RuneScore": 10,
+				"Not F2P": true
+			},
+			"~|Skills achievements#Necromancy|~ If Looks Could Kili I": {
+				"Category": ["Misc achievements"],
+				"Description": "Upgrade a set of Deathwarden equipment to tier 70",
+				"BaseQuest": "Skills achievements",
+				"Items": ["Deathwarden hood (tier 70)", "Deathwarden robe top (tier 70)", "Deathwarden robe bottom (tier 70)", "Deathwarden gloves (tier 70)", "Deathwarden boots (tier 70)"],
+				"RuneScore": 10,
+				"Not F2P": true
+			},
+			"~|Skills achievements#Necromancy|~ If Looks Could Kili II": {
+				"Category": ["Misc achievements"],
+				"Description": "Upgrade a set of Deathwarden equipment to tier 80",
+				"BaseQuest": "Skills achievements",
+				"Items": ["Deathwarden hood (tier 80)", "Deathwarden robe top (tier 80)", "Deathwarden robe bottom (tier 80)", "Deathwarden gloves (tier 80)", "Deathwarden boots (tier 80)"],
+				"RuneScore": 10,
+				"Not F2P": true
+			},
+			"~|Skills achievements#Necromancy|~ If Looks Could Kili III": {
+				"Category": ["Misc achievements"],
+				"Description": "Upgrade a set of Deathwarden equipment to tier 90",
+				"BaseQuest": "Skills achievements",
+				"Items": ["Deathwarden hood (tier 90)", "Deathwarden robe top (tier 90)", "Deathwarden robe bottom (tier 90)", "Deathwarden gloves (tier 90)", "Deathwarden boots (tier 90)"],
+				"RuneScore": 10,
+				"Not F2P": true
+			},
+			"~|Skills achievements#Necromancy|~ Kili Confirmed I": {
+				"Category": ["Misc achievements"],
+				"Description": "Upgrade a set of Death Skull to tier 70",
+				"BaseQuest": "Skills achievements",
+				"Items": ["Death guard (tier 70)", "Skull lantern (tier 70)"],
+				"RuneScore": 10,
+				"Not F2P": true
+			},
+			"~|Skills achievements#Necromancy|~ Kili Confirmed II": {
+				"Category": ["Misc achievements"],
+				"Description": "Upgrade a set of Death Skull to tier 80",
+				"BaseQuest": "Skills achievements",
+				"Items": ["Death guard (tier 80)", "Skull lantern (tier 80)"],
+				"RuneScore": 10,
+				"Not F2P": true
+			},
+			"~|Skills achievements#Necromancy|~ Kili Confirmed III": {
+				"Category": ["Misc achievements"],
+				"Description": "Upgrade a set of Death Skull to tier 90",
+				"BaseQuest": "Skills achievements",
+				"Items": ["Death guard (tier 90)", "Skull lantern (tier 90)"],
+				"RuneScore": 10,
+				"Not F2P": true
+			},
+			"~|Skills achievements#Necromancy|~ Kili with Kindness I": {
+				"Category": ["Misc achievements"],
+				"Description": "Upgrade a set of Deathdealer equipment to tier 70",
+				"BaseQuest": "Skills achievements",
+				"Items": ["Deathdealer hood (tier 70)", "Deathdealer robe top (tier 70)", "Deathdealer robe bottom (tier 70)", "Deathdealer gloves (tier 70)", "Deathdealer boots (tier 70)"],
+				"RuneScore": 10,
+				"Not F2P": true
+			},
+			"~|Skills achievements#Necromancy|~ Kili with Kindness II": {
+				"Category": ["Misc achievements"],
+				"Description": "Upgrade a set of Deathdealer equipment to tier 80",
+				"BaseQuest": "Skills achievements",
+				"Items": ["Deathdealer hood (tier 80)", "Deathdealer robe top (tier 80)", "Deathdealer robe bottom (tier 80)", "Deathdealer gloves (tier 80)", "Deathdealer boots (tier 80)"],
+				"RuneScore": 10,
+				"Not F2P": true
+			},
+			"~|Skills achievements#Necromancy|~ Kili with Kindness III": {
+				"Category": ["Misc achievements"],
+				"Description": "Upgrade a set of Deathdealer equipment to tier 90",
+				"BaseQuest": "Skills achievements",
+				"Items": ["Deathdealer hood (tier 90)", "Deathdealer robe top (tier 90)", "Deathdealer robe bottom (tier 90)", "Deathdealer gloves (tier 90)", "Deathdealer boots (tier 90)"],
+				"RuneScore": 10,
+				"Not F2P": true
+			},
+			"~|Skills achievements#Necromancy|~ Kili's Knowledge I": {
+				"Category": ["Misc achievements"],
+				"Description": "Learn how to upgrade your Death Skull and Deathwarden equipment to tier 30 from Kili.",
+				"BaseQuest": "Skills achievements",
+				"Tasks": {
+					"~|Kili's Knowledge|~ I": "Quest"
+				},
+				"RuneScore": 10,
+				"Not F2P": true
+			},
+			"~|Skills achievements#Necromancy|~ Kili's Knowledge II": {
+				"Category": ["Misc achievements"],
+				"Description": "Learn how to upgrade your Death Skull and Deathwarden equipment to tier 40 from Kili.",
+				"BaseQuest": "Skills achievements",
+				"Tasks": {
+					"~|Kili's Knowledge|~ II": "Quest",
+					"~|Skills achievements#Necromancy|~ Kili's Knowledge I": "Diary"
+				},
+				"RuneScore": 10,
+				"Not F2P": true
+			},
+			"~|Skills achievements#Necromancy|~ Kili's Knowledge III": {
+				"Category": ["Misc achievements"],
+				"Description": "Learn how to upgrade your Death Skull and Deathwarden equipment to tier 50 from Kili.",
+				"BaseQuest": "Skills achievements",
+				"Tasks": {
+					"~|Kili's Knowledge|~ III": "Quest",
+					"~|Skills achievements#Necromancy|~ Kili's Knowledge II": "Diary"
+				},
+				"RuneScore": 10,
+				"Not F2P": true
+			},
+			"~|Skills achievements#Necromancy|~ Kili's Knowledge IV": {
+				"Category": ["Misc achievements"],
+				"Description": "Learn how to upgrade your Death Skull and Deathwarden equipment to tier 60 from Kili.",
+				"BaseQuest": "Skills achievements",
+				"Tasks": {
+					"~|Kili's Knowledge|~ IV": "Quest",
+					"~|Skills achievements#Necromancy|~ Kili's Knowledge III": "Diary"
+				},
+				"RuneScore": 10,
+				"Not F2P": true
+			},
+			"~|Skills achievements#Necromancy|~ Kili's Knowledge V": {
+				"Category": ["Misc achievements"],
+				"Description": "Learn how to upgrade your Death Skull and Deathwarden equipment to tier 70 from Kili.",
+				"BaseQuest": "Skills achievements",
+				"Tasks": {
+					"~|Kili's Knowledge|~ V": "Quest",
+					"~|Skills achievements#Necromancy|~ Kili's Knowledge IV": "Diary"
+				},
+				"RuneScore": 10,
+				"Not F2P": true
+			},
+			"~|Skills achievements#Necromancy|~ Kili's Knowledge VI": {
+				"Category": ["Misc achievements"],
+				"Description": "Learn how to upgrade your Death Skull and Deathwarden equipment to tier 80 from Kili.",
+				"BaseQuest": "Skills achievements",
+				"Tasks": {
+					"~|Kili's Knowledge|~ VI": "Quest",
+					"~|Skills achievements#Necromancy|~ Kili's Knowledge V": "Diary"
+				},
+				"RuneScore": 15,
+				"Not F2P": true
+			},
+			"~|Skills achievements#Necromancy|~ Kili's Knowledge VII": {
+				"Category": ["Misc achievements"],
+				"Description": "Learn how to upgrade your Death Skull and Deathwarden equipment to tier 90 from Kili.",
+				"BaseQuest": "Skills achievements",
+				"Tasks": {
+					"~|Kili's Knowledge|~ VII": "Quest",
+					"~|Skills achievements#Necromancy|~ Kili's Knowledge VI": "Diary"
+				},
+				"RuneScore": 20,
+				"Not F2P": true
+			},
+			"~|Skills achievements#Necromancy|~ Kili's Knowledge V (power)": {
+				"Category": ["Misc achievements"],
+				"Description": "Learn how to upgrade your Death Skull equipment to tier 70, and upgrade your Deathwarden equipment to tier 70 Deathdealer from Kili.",
+				"BaseQuest": "Skills achievements",
+				"Tasks": {
+					"~|Kili's Knowledge|~ V (power)": "Quest",
+					"~|Skills achievements#Necromancy|~ Kili's Knowledge V": "Diary"
+				},
+				"RuneScore": 10,
+				"Not F2P": true
+			},
+			"~|Skills achievements#Necromancy|~ Kili's Knowledge VI (power)": {
+				"Category": ["Misc achievements"],
+				"Description": "Learn how to upgrade your Death Skull and Deathdealer equipment to tier 30 from Kili.",
+				"BaseQuest": "Skills achievements",
+				"Tasks": {
+					"~|Kili's Knowledge|~ VI (power)": "Quest",
+					"~|Skills achievements#Necromancy|~ Kili's Knowledge V (power)": "Diary"
+				},
+				"RuneScore": 15,
+				"Not F2P": true
+			},
+			"~|Skills achievements#Necromancy|~ Kili's Knowledge VII (power)": {
+				"Category": ["Misc achievements"],
+				"Description": "Learn how to upgrade your Death Skull and Deathdealer equipment to tier 90 from Kili.",
+				"BaseQuest": "Skills achievements",
+				"Tasks": {
+					"~|Kili's Knowledge|~ VII (power)": "Quest",
+					"~|Skills achievements#Necromancy|~ Kili's Knowledge VI (power)": "Diary"
+				},
+				"RuneScore": 20,
+				"Not F2P": true
+			},
 			"~|Skills achievements#Necromancy|~ Complete the Necromancy achievements": {
 				"Category": ["Misc achievements"],
 				"BaseQuest": "Skills achievements",
 				"Tasks": {
-					
+					"~|Skills achievements#Necromancy|~ Necromancy 120": "Diary",
+					"~|Skills achievements#Necromancy|~ Altered Efficiency": "Diary",
+					"~|Skills achievements#Necromancy|~ Dress to Kili I": "Diary",
+					"~|Skills achievements#Necromancy|~ Dress to Kili II": "Diary",
+					"~|Skills achievements#Necromancy|~ Dress to Kili III": "Diary",
+					"~|Skills achievements#Necromancy|~ Dress to Kili IV": "Diary",
+					"~|Skills achievements#Necromancy|~ Dress to Kili V": "Diary",
+					"~|Skills achievements#Necromancy|~ If Looks Could Kili I": "Diary",
+					"~|Skills achievements#Necromancy|~ If Looks Could Kili II": "Diary",
+					"~|Skills achievements#Necromancy|~ If Looks Could Kili III": "Diary",
+					"~|Skills achievements#Necromancy|~ Kili Confirmed I": "Diary",
+					"~|Skills achievements#Necromancy|~ Kili Confirmed II": "Diary",
+					"~|Skills achievements#Necromancy|~ Kili Confirmed III": "Diary",
+					"~|Skills achievements#Necromancy|~ Kili with Kindness I": "Diary",
+					"~|Skills achievements#Necromancy|~ Kili with Kindness II": "Diary",
+					"~|Skills achievements#Necromancy|~ Kili with Kindness III": "Diary",
+					"~|Skills achievements#Necromancy|~ Kili's Knowledge VII": "Diary",
+					"~|Skills achievements#Necromancy|~ Kili's Knowledge VII (power)": "Diary"
+				},
+				"ManualShow": true,
+				"Not F2P": true
+			},
+			"~|Skills achievements#Prayer|~ Prayer 99": {
+				"Category": ["Misc achievements", "Level-up achievements"],
+				"Description": "Reach level 99 in the Prayer skill.",
+				"BaseQuest": "Skills achievements",
+				"Skills": {
+					"Prayer": 99
+				},
+				"RuneScore": 60,
+				"NoBoost": true
+			},
+			"~|Skills achievements#Prayer|~ Prayer 120": {
+				"Category": ["Misc achievements", "Level-up achievements", "No RuneScore"],
+				"Description": "Reach virtual level 120 in the Prayer skill.",
+				"BaseQuest": "Skills achievements",
+				"Skills": {
+					"Prayer": 120
+				},
+				"Tasks": {
+					"~|Skills achievements#Prayer|~ Prayer 99": "Diary"
+				},
+				"Allow Virtual": true,
+				"NoBoost": true
+			},
+			"~|Skills achievements#Prayer|~ Bury All": {
+				"Category": ["Misc achievements"],
+				"Description": "Manually bury or scatter each of the listed bones and ashes.",
+				"BaseQuest": "Skills achievements",
+				"Items": [
+					"Bones", "Burnt bones", "Wolf bones", "Monkey bones", "Bat bones", "Big bones", "Jogre bones", "Zogre bones", "Shaikahan bones", "Baby dragon bones", "Wyvern bones", "Dragon bones", "Fayrg bones", "Raurg bones", "Airut bones", "Ourg bones", "Hardened dragon bones", "Frost dragon bones", "Reinforced dragon bones",
+					"Impious ashes", "Accursed ashes", "Infernal ashes", "Tortured ashes", "Searing ashes"
+				],
+				"RuneScore": 20,
+				"Not F2P": true
+			},
+			"~|Skills achievements#Prayer|~ Complete the Prayer achievements": {
+				"Category": ["Misc achievements"],
+				"BaseQuest": "Skills achievements",
+				"Tasks": {
+					"~|Skills achievements#Prayer|~ Prayer 120": "Diary",
+					"~|Skills achievements#Prayer|~ Bury All": "Diary"
+				},
+				"ManualShow": true,
+				"Not F2P": true
+			},
+			"~|Skills achievements#Runecrafting|~ Runecrafting 110": {
+				"Category": ["Misc achievements", "Level-up achievements"],
+				"Description": "Reach level 110 in the Runecrafting skill.",
+				"BaseQuest": "Skills achievements",
+				"Skills": {
+					"Runecrafting": 110
+				},
+				"RuneScore": 65,
+				"NoBoost": true
+			},
+			"~|Skills achievements#Runecrafting|~ Runecrafting 120": {
+				"Category": ["Misc achievements", "Level-up achievements", "No RuneScore"],
+				"Description": "Reach virtual level 120 in the Runecrafting skill.",
+				"BaseQuest": "Skills achievements",
+				"Skills": {
+					"Runecrafting": 120
+				},
+				"Tasks": {
+					"~|Skills achievements#Runecrafting|~ Runecrafting 110": "Diary"
+				},
+				"Allow Virtual": true,
+				"NoBoost": true
+			},
+			"~|Skills achievements#Runecrafting|~ All Good": {
+				"Category": ["Misc achievements"],
+				"Description": "Fully upgrade the wicked hood.",
+				"BaseQuest": "Skills achievements",
+				"Items": ["Wicked hood", "Elemental talisman", "Omni-talisman"],
+				"RuneScore": 5,
+				"Not F2P": true
+			},
+			"~|Skills achievements#Runecrafting|~ Altar Native": {
+				"Category": ["Misc achievements"],
+				"Description": "Craft at least one of each type of rune, on their respective altars.",
+				"BaseQuest": "Skills achievements",
+				"Chunks": ["Air Rune Temple", "Mind Rune Temple", "Water Rune Temple", "Earth Rune Temple", "Fire Rune Temple", "Body Rune Temple", "Cosmic Rune Temple", "Cosmic Rune Temple", "Nature Rune Temple", "Law Rune Temple", "Death Rune Temple", "8508-1", "Blood Rune Temple", "Soul Rune Temple", "Time Rune Temple", "Necromantic Rune Temple"],
+				"Items": ["Pure essence", "Impure essence", "Shards of Armadyl", "Air talisman", "Water talisman", "Earth talisman", "Fire talisman", "Air rune", "Water rune", "Earth rune", "Fire rune"],
+				"Skills": {
+					"Runecrafting": 100
+				},
+				"RuneScore": 50,
+				"Not F2P": true
+			},
+			"~|Skills achievements#Runecrafting|~ Energy Aficionado": {
+				"Category": ["Misc achievements"],
+				"Description": "Siphon all of the different types of energy nodes in the Runespan.",
+				"BaseQuest": "Skills achievements",
+				"Chunks": ["The Runespan"],
+				"Skills": {
+					"Runecrafting": 95
+				},
+				"RuneScore": 20,
+				"Not F2P": true
+			},
+			"~|Skills achievements#Runecrafting|~ Rinsit Transit": {
+				"Category": ["Misc achievements"],
+				"Description": "Unlock the runespan portal redirect.",
+				"BaseQuest": "Skills achievements",
+				"Items": ["Portal redirection"],
+				"RuneScore": 5,
+				"Not F2P": true
+			},
+			"~|Skills achievements#Runecrafting|~ Splinters of Power": {
+				"Category": ["Misc achievements"],
+				"Description": "Own the Infinity Ethereal outfit.",
+				"BaseQuest": "Skills achievements",
+				"Objects": ["Inventor's workbench"],
+				"Skills": {
+					"Runecrafting": 80,
+					"Invention": 20
+				},
+				"RuneScore": 10,
+				"Not F2P": true
+			},
+			"~|Skills achievements#Runecrafting|~ Y'all Got Any More of that Rune Dust? IV": {
+				"Category": ["Misc achievements", "DnD"],
+				"Description": "Hand in rune dust to a runesphere 25 times.",
+				"BaseQuest": "Skills achievements",
+				"Chunks": ["The Runespan"],
+				"RuneScore": 65,
+				"Not F2P": true
+			},
+			"~|Skills achievements#Runecrafting|~ Complete the Runecrafting achievements": {
+				"Category": ["Misc achievements"],
+				"BaseQuest": "Skills achievements",
+				"Tasks": {
+					"~|Skills achievements#Runecrafting|~ Runecrafting 120": "Diary",
+					"~|Skills achievements#Runecrafting|~ All Good": "Diary",
+					"~|Skills achievements#Runecrafting|~ Altar Native": "Diary",
+					"~|Skills achievements#Runecrafting|~ Energy Aficionado": "Diary",
+					"~|Skills achievements#Runecrafting|~ Rinsit Transit": "Diary",
+					"~|Skills achievements#Runecrafting|~ Splinters of Power": "Diary"
+				},
+				"ManualShow": true,
+				"Not F2P": true
+			},
+			"~|Skills achievements#Croesus|~ Suspicious Fungus VI": {
+				"Category": ["Misc achievements", "Group Content"],
+				"Description": "Defeat Croesus 100 times.",
+				"BaseQuest": "Skills achievements",
+				"Monsters": ["Croesus"],
+				"RuneScore": 30,
+				"Not F2P": true
+			},
+			"~|Skills achievements#Croesus|~ Gor Thanks": {
+				"Category": ["Misc achievements", "Group Content"],
+				"Description": "Receive thanks from Gorvek after defeating Croesus.",
+				"BaseQuest": "Skills achievements",
+				"Monsters": ["Croesus"],
+				"RuneScore": 5,
+				"Not F2P": true
+			},
+			"~|Skills achievements#Croesus|~ The Fungus is Fungone": {
+				"Category": ["Misc achievements", "Group Content"],
+				"Description": "Slow down the regrowth of the fungus on a dead creature during a Croesus encounter.",
+				"BaseQuest": "Skills achievements",
+				"Monsters": ["Croesus"],
+				"RuneScore": 5,
+				"Not F2P": true
+			},
+			"~|Skills achievements#Croesus|~ Complete the Croesus achievements": {
+				"Category": ["Misc achievements"],
+				"BaseQuest": "Skills achievements",
+				"Tasks": {
+					"~|Skills achievements#Croesus|~ Suspicious Fungus VI": "Diary",
+					"~|Skills achievements#Croesus|~ Gor Thanks": "Diary",
+					"~|Skills achievements#Croesus|~ The Fungus is Fungone": "Diary"
+				},
+				"ManualShow": true,
+				"Not F2P": true
+			},
+			"~|Skills achievements#The Gate of Elidinis|~ Pull Yourself Together VI": {
+				"Category": ["Misc achievements", "Group Content"],
+				"Description": "Cleanse the Gate of Elidinis 100 times.",
+				"BaseQuest": "Skills achievements",
+				"Monsters": ["Croesus"],
+				"RuneScore": 30,
+				"Not F2P": true
+			},
+			"~|Skills achievements#The Gate of Elidinis|~ Complete the The Gate of Elidinis achievements": {
+				"Category": ["Misc achievements"],
+				"BaseQuest": "Skills achievements",
+				"Tasks": {
+					"~|Skills achievements#The Gate of Elidinis|~ Pull Yourself Together VI": "Diary"
+				},
+				"ManualShow": true,
+				"Not F2P": true
+			},
+			"~|Skills achievements#Slayer|~ Slayer 5": {
+				"Category": ["Misc achievements", "Level-up achievements"],
+				"Description": "Reach level 5 in the Slayer skill.",
+				"BaseQuest": "Skills achievements",
+				"Skills": {
+					"Slayer": 5
+				},
+				"RuneScore": 5
+			},
+			"~|Skills achievements#Slayer|~ Slayer 120": {
+				"Category": ["Misc achievements", "Level-up achievements"],
+				"Description": "Reach level 120 in the Slayer skill.",
+				"BaseQuest": "Skills achievements",
+				"Skills": {
+					"Slayer": 120
+				},
+				"Tasks": {
+					"~|Skills achievements#Slayer|~ Slayer 5": "Diary"
+				},
+				"Not F2P": true,
+				"RuneScore": 70
+			},
+			"~|Skills achievements#Slayer|~ Am I a Slayer Master Yet?": {
+				"Category": ["Misc achievements"],
+				"Description": "Place souls in every spot in your slayer dungeon inside the sunken pyramid.",
+				"BaseQuest": "Skills achievements",
+				"Chunks": ["Sunken Pyramid"],
+				"Items": ["Filled Ushabti[+]"],
+				"Skills": {
+					"Slayer": 99
+				},
+				"RuneScore": 40,
+				"NoBoost": true,
+				"Not F2P": true
+			},
+			"~|Skills achievements#Slayer|~ Beating Your Meat": {
+				"Category": ["Misc achievements"],
+				"Description": "Use a meat tenderiser on a super cow.",
+				"BaseQuest": "Skills achievements",
+				"Items": ["Meat tenderiser"],
+				"Monsters": ["Cow"],
+				"RuneScore": 10,
+				"Not F2P": true
+			},
+			"~|Skills achievements#Slayer|~ Order of Slayers": {
+				"Category": ["Misc achievements"],
+				"Description": "Complete a task from each Slayer Master consecutively, starting with Turael and ending with Laniakea.",
+				"BaseQuest": "Skills achievements",
+				"NPCs": [
+					"Turael",
+					"Jacquelyn",
+					"Vannaka",
+					"Mazchna",
+					"Chaeldar",
+					"Sumona",
+					"Duradel",
+					"Kuradal",
+					"Morvran",
+					"Mandrith",
+					"Laniakea"
+				],
+				"Skills": {
+					"Slayer": 95,
+					"Combat": 120
+				},
+				"Tasks": {
+					"~|Smoking Kills|~ Complete the quest": "Quest"
+				},
+				"RuneScore": 30,
+				"Not F2P": true
+			},
+			"~|Skills achievements#Slayer|~ Complete the Slayer achievements": {
+				"Category": ["Misc achievements"],
+				"BaseQuest": "Skills achievements",
+				"Tasks": {
+					"~|Skills achievements#Slayer|~ Slayer 120": "Diary",
+					"~|Skills achievements#Slayer|~ Am I a Slayer Master Yet?": "Diary",
+					"~|Skills achievements#Slayer|~ Beating Your Meat": "Diary",
+					"~|Skills achievements#Slayer|~ Order of Slayers": "Diary"
+				},
+				"ManualShow": true,
+				"Not F2P": true
+			},
+			"~|Skills achievements#Smithing|~ Smithing 110": {
+				"Category": ["Misc achievements", "Level-up achievements"],
+				"Description": "Reach level 110 in the Smithing skill.",
+				"BaseQuest": "Skills achievements",
+				"Skills": {
+					"Smithing": 110
+				},
+				"RuneScore": 65,
+				"NoBoost": true
+			},
+			"~|Skills achievements#Smithing|~ Smithing 120": {
+				"Category": ["Misc achievements", "Level-up achievements", "No RuneScore"],
+				"Description": "Reach virtual level 120 in the Smithing skill.",
+				"BaseQuest": "Skills achievements",
+				"Skills": {
+					"Smithing": 120
+				},
+				"Tasks": {
+					"~|Skills achievements#Smithing|~ Smithing 110": "Diary"
+				},
+				"Allow Virtual": true,
+				"NoBoost": true
+			},
+			"~|Skills achievements#Smithing|~ Come Together": {
+				"Category": ["Misc achievements"],
+				"Description": "Use a luminite injector in the Artisans' Workshop on world 70.",
+				"BaseQuest": "Skills achievements",
+				"Chunks": ["12084-1"],
+				"Items": ["Luminite injector"],
+				"RuneScore": 5,
+				"Not F2P": true
+			},
+			"~|Skills achievements#Smithing|~ Hot In Here": {
+				"Category": ["Misc achievements"],
+				"Description": "Smith an item that requires at least 60 Smithing without letting heat fall below high heat.",
+				"BaseQuest": "Skills achievements",
+				"Objects": ["Anvil[+]", "Forge[+]"],
+				"Items": ["Orikalkum bar+[+]"],
+				"Skills": {
+					"Smithing": 60
+				},
+				"RuneScore": 5,
+				"Not F2P": true
+			},
+			"~|Skills achievements#Smithing|~ Imcando Magic Can't Melt Elder Rune Boots": {
+				"Category": ["Misc achievements"],
+				"Description": "Heat a pair of unfinished elder rune boots to 100% heat using only the superheat item spell.",
+				"BaseQuest": "Skills achievements",
+				"Items": ["Elder rune bar", "Fire rune[+]", "Nature rune"],
+				"Skills": {
+					"Smithing": 90,
+					"Magic": 43
+				},
+				"RuneScore": 10,
+				"Not F2P": true
+			},
+			"~|Skills achievements#Smithing|~ Ritual of the Murderbat": {
+				"Category": ["Misc achievements"],
+				"Description": "Tune a bane sword or two-handed sword.",
+				"BaseQuest": "Skills achievements",
+				"Objects": ["Anvil[+]"],
+				"Items": ["Bane bar", "Bane tune item[+]"],
+				"Skills": {
+					"Smithing": 80
+				},
+				"RuneScore": 15,
+				"Not F2P": true
+			},
+			"~|Skills achievements#Smithing|~ The Knight Begins to Shine": {
+				"Category": ["Misc achievements"],
+				"Description": "Repair a piece of armour at an anvil.",
+				"BaseQuest": "Skills achievements",
+				"Objects": ["Anvil[+]"],
+				"Items": ["Necronium bar+[+]"],
+				"Skills": {
+					"Smithing": 70
+				},
+				"RuneScore": 5,
+				"Not F2P": true
+			},
+			"~|Skills achievements#Smithing|~ We Will Bury Them": {
+				"Category": ["Misc achievements"],
+				"Description": "Smith a full set of fully upgrades armour into burial armour in the Artisans' Workshop, donating it to the dwarves in the process.",
+				"BaseQuest": "Skills achievements",
+				"Chunks": ["12084-1"],
+				"Skills": {
+					"Smithing": 40
+				},
+				"RuneScore": 5,
+				"Not F2P": true
+			},
+			"~|Skills achievements#Smithing|~ Work on Your Artisan": {
+				"Category": ["Misc achievements"],
+				"Description": "Unlock all rewards from the Artisans' Workshop (excluding outfits).",
+				"BaseQuest": "Skills achievements",
+				"Chunks": ["12084-1"],
+				"Skills": {
+					"Smithing": 12
+				},
+				"RuneScore": 20,
+				"Not F2P": true
+			},
+			"~|Skills achievements#Smithing|~ Complete the Smithing achievements": {
+				"Category": ["Misc achievements"],
+				"BaseQuest": "Skills achievements",
+				"Tasks": {
+					"~|Skills achievements#Smithing|~ Smithing 120": "Diary",
+					"~|Skills achievements#Smithing|~ Come Together": "Diary",
+					"~|Skills achievements#Smithing|~ Hot In Here": "Diary",
+					"~|Skills achievements#Smithing|~ Imcando Magic Can't Melt Elder Rune Boots": "Diary",
+					"~|Skills achievements#Smithing|~ Ritual of the Murderbat": "Diary",
+					"~|Skills achievements#Smithing|~ The Knight Begins to Shine": "Diary",
+					"~|Skills achievements#Smithing|~ We Will Bury Them": "Diary",
+					"~|Skills achievements#Smithing|~ Work on Your Artisan": "Diary"
+				},
+				"ManualShow": true,
+				"Not F2P": true
+			},
+			"~|Skills achievements#Summoning|~ Summoning 5": {
+				"Category": ["Misc achievements", "Level-up achievements"],
+				"Description": "Reach level 5 in the Summoning skill.",
+				"BaseQuest": "Skills achievements",
+				"Skills": {
+					"Summoning": 5
+				},
+				"RuneScore": 5
+			},
+			"~|Skills achievements#Summoning|~ Summoning 99": {
+				"Category": ["Misc achievements", "Level-up achievements"],
+				"Description": "Reach level 99 in the Summoning skill.",
+				"BaseQuest": "Skills achievements",
+				"Skills": {
+					"Summoning": 99
+				},
+				"Tasks": {
+					"~|Skills achievements#Summoning|~ Summoning 5": "Diary"
+				},
+				"Not F2P": true,
+				"RuneScore": 60
+			},
+			"~|Skills achievements#Summoning|~ Summoning 120": {
+				"Category": ["Misc achievements", "Level-up achievements", "No RuneScore"],
+				"Description": "Reach virtual level 120 in the Summoning skill.",
+				"BaseQuest": "Skills achievements",
+				"Skills": {
+					"Summoning": 120
+				},
+				"Tasks": {
+					"~|Skills achievements#Summoning|~ Summoning 99": "Diary"
+				},
+				"Not F2P": true,
+				"Allow Virtual": true
+			},
+			"~|Skills achievements#Summoning|~ A Charm Saved is a Charm Earned": {
+				"Category": ["Misc achievements"],
+				"Description": "Charge or combine a spirit gem.",
+				"BaseQuest": "Skills achievements",
+				"Items": ["Spirit sapphire"],
+				"RuneScore": 10,
+				"Not F2P": true
+			},
+			"~|Skills achievements#Summoning|~ Charmer Chameleon": {
+				"Category": ["Misc achievements"],
+				"Description": "Complete each of the listed summoning pouch achievements.",
+				"BaseQuest": "Skills achievements",
+				"Tasks": {
+					"~|Skills achievements#Summoning|~ Loving Would Be Easy": "Diary",
+					"~|Skills achievements#Summoning|~ If Your Colours Were Like My Dreams": "Diary",
+					"~|Skills achievements#Summoning|~ Red": "Diary",
+					"~|Skills achievements#Summoning|~ Gold": "Diary",
+					"~|Skills achievements#Summoning|~ And Green": "Diary"
+				},
+				"RuneScore": 20,
+				"Not F2P": true
+			},
+			"~|Skills achievements#Summoning|~ Loving Would Be Easy": {
+				"Category": ["Misc achievements"],
+				"Description": "Use elder charms to create each of the listed summoning pouches.",
+				"BaseQuest": "Skills achievements",
+				"Objects": ["Obelisk"],
+				"Items": ["Elder charm", "Summoning pouch", "Elder energy",
+					"Muspah spine", "Aviansie talons", "Demon horn", "Vampyre fangs", "Icyene feather"
+				],
+				"Skills": {
+					"Summoning": 87
+				},
+				"RuneScore": 20,
+				"Not F2P": true
+			},
+			"~|Skills achievements#Summoning|~ If Your Colours Were Like My Dreams": {
+				"Category": ["Misc achievements"],
+				"Description": "Use blue charms to create each of the listed summoning pouches.",
+				"BaseQuest": "Skills achievements",
+				"Objects": ["Obelisk"],
+				"Items": ["Blue charm", "Summoning pouch", "Spirit shards",
+					"Raw rat meat", "Potato cactus", "Chinchompa", "Shifter charm", "Spinner charm", "Torcher charm", "Bronze bar", "Iron bar", "Jug of water", "Steel bar", "Graahk fur", "Kyatt fur", "Larupia fur", "Fishbowl", "Mithril bar", "Obsidian charm", "Adamant bar", "Fire talisman", "Air talisman", "Water talisman", "Earth talisman", "Rune bar", "Light core"
+				],
+				"Skills": {
+					"Summoning": 89
+				},
+				"RuneScore": 20,
+				"Not F2P": true
+			},
+			"~|Skills achievements#Summoning|~ Red": {
+				"Category": ["Misc achievements"],
+				"Description": "Use red charms to create each of the listed summoning pouches.",
+				"BaseQuest": "Skills achievements",
+				"Objects": ["Obelisk"],
+				"Items": ["Red charm", "Summoning pouch", "Spirit shards",
+					"Bronze claw", "Obsidian charm", "Vampyre dust", "Honeycomb", "Carved evil turnip", "Tinderbox", "Raw beef", "Goat horn dust", "Snake hide", "Bagged plant 1", "Pot of flour", "Phoenix quill", "Granite (500g)", "Red flowers", "Talon beast charm", "Demon claw", "Dagannoth hide", "Green salamander", "Raw rabbit", "Wolf bones", "Iron ingot", "Yak-hide", "Steel ingot", "Mammoth tusk"
+				],
+				"Skills": {
+					"Summoning": 99
+				},
+				"RuneScore": 20,
+				"Not F2P": true
+			},
+			"~|Skills achievements#Summoning|~ Gold": {
+				"Category": ["Misc achievements"],
+				"Description": "Use gold charms to create each of the listed summoning pouches.",
+				"BaseQuest": "Skills achievements",
+				"Objects": ["Obelisk"],
+				"Items": ["Blue charm", "Summoning pouch", "Spirit shards",
+					"Wolf bones", "Raw chicken", "Spider carcass", "Thin snail", "Iron ore", "Proboscis", "Jackalope antler", "Marigolds", "Raw bird meat", "Swamp toad", "Tortoise shell", "Polar kebbit fir", "Pack pig tooth", "Prayer pig tooth", "War pig tooth"
+				],
+				"Skills": {
+					"Summoning": 71
+				},
+				"RuneScore": 20,
+				"Not F2P": true
+			},
+			"~|Skills achievements#Summoning|~ And Green": {
+				"Category": ["Misc achievements"],
+				"Description": "Use blue charms to create each of the listed summoning pouches.",
+				"BaseQuest": "Skills achievements",
+				"Objects": ["Obelisk"],
+				"Items": ["Green charm", "Summoning pouch", "Spirit shards",
+					"Bucket of sand", "Compost", "Willow logs", "Ravager charm", "Clean guam", "Cockatrice egg", "Guthatrice egg", "Saratrice egg", "Zamatrice egg", "Pengatrice egg", "Coraxatrice egg", "Vulatrice egg", "Gold ring", "Abyssal charm", "Harpoon", "Raw shark", "Banana", "Ruby harvest", "Willow branch", "Water orb", "Plain whirligig shell", "Gliding whirligig shell", "Swift whirligig shell", "Hasty whirligig shell", "Speedy whirligig shell", "Unicorn horn"
+				],
+				"Skills": {
+					"Summoning": 90
+				},
+				"RuneScore": 20,
+				"Not F2P": true
+			},
+			"~|Skills achievements#Summoning|~ Dialed In": {
+				"Category": ["Misc achievements"],
+				"Description": "Reach 100% spirit plane connection by infusing pouches at empowered obelisks.",
+				"BaseQuest": "Skills achievements",
+				"Objects": ["Empowered obelisk"],
+				"Items": ["Gold charm"],
+				"RuneScore": 5,
+				"Not F2P": true
+			},
+			"~|Skills achievements#Summoning|~ Getting Familiar": {
+				"Category": ["Misc achievements"],
+				"Description": "Offer spirit shards to a visiting spirit at obelisks with a strong connection to the spirit plane.",
+				"BaseQuest": "Skills achievements",
+				"Objects": ["Empowered obelisk"],
+				"Items": ["Gold charm", "Spirit shards"],
+				"RuneScore": 5,
+				"Not F2P": true
+			},
+			"~|Skills achievements#Summoning|~ Complete the Summoning achievements": {
+				"Category": ["Misc achievements"],
+				"BaseQuest": "Skills achievements",
+				"Tasks": {
+					"~|Skills achievements#Summoning|~ Summoning 120": "Diary",
+					"~|Skills achievements#Summoning|~ A Charm Saved is a Charm Earned": "Diary",
+					"~|Skills achievements#Summoning|~ Charmer Chameleon": "Diary",
+					"~|Skills achievements#Summoning|~ Dialed In": "Diary",
+					"~|Skills achievements#Summoning|~ Getting Familiar": "Diary"
+				},
+				"ManualShow": true,
+				"Not F2P": true
+			},
+			"~|Skills achievements#Thieving|~ Thieving 5": {
+				"Category": ["Misc achievements", "Level-up achievements"],
+				"Description": "Reach level 5 in the Thieving skill.",
+				"BaseQuest": "Skills achievements",
+				"Skills": {
+					"Thieving": 5
+				},
+				"RuneScore": 5
+			},
+			"~|Skills achievements#Thieving|~ Thieving 120": {
+				"Category": ["Misc achievements", "Level-up achievements"],
+				"Description": "Reach level 120 in the Thieving skill.",
+				"BaseQuest": "Skills achievements",
+				"Skills": {
+					"Thieving": 120
+				},
+				"Tasks": {
+					"~|Skills achievements#Thieving|~ Thieving 5": "Diary"
+				},
+				"Not F2P": true,
+				"RuneScore": 75
+			},
+			"~|Skills achievements#Thieving|~ A Thief Beyond Belief": {
+				"Category": ["Misc achievements"],
+				"Description": "Steal from each of the listed types of merchant stalls.",
+				"BaseQuest": "Skills achievements",
+				"Objects": ["Vegetable stall", "Bakery stall", "Crafting stall", "Tea stall", "Silk stall", "Wine stall", "Seed stall", "Fur stall", "Fish stall", "Lamp stall", "Crossbow stall", "Silver stall", "Spice stall", "Scimital stall", "Gem stall", "Zanaris Market spirit stall", "Zanrais Market trinket stall", "Darkmeyer meat stall", "Darkmeyer potion stall"],
+				"Skills": {
+					"Thieving": 119
+				},
+				"RuneScore": 20,
+				"Not F2P": true
+			},
+			"~|Skills achievements#Thieving|~ Pilferin' in Asgarnia": {
+				"Category": ["Misc achievements"],
+				"Description": "Loot from all safes within Asgarnia.",
+				"BaseQuest": "Skills achievements",
+				"Chunks": ["11575-1", "11828", "12082-1", "12084-1", "12087-3"],
+				"Skills": {
+					"Thieving": 76
+				},
+				"RuneScore": 10,
+				"Not F2P": true
+			},
+			"~|Skills achievements#Thieving|~ Pilferin' in Kandarin": {
+				"Category": ["Misc achievements"],
+				"Description": "Loot from all safes within Kandarin.",
+				"BaseQuest": "Skills achievements",
+				"Chunks": ["10032-1", "10291", "10547-1", "10806-2"],
+				"Skills": {
+					"Thieving": 83
+				},
+				"RuneScore": 10,
+				"Not F2P": true
+			},
+			"~|Skills achievements#Thieving|~ Pilferin' in Kharidian Desert": {
+				"Category": ["Misc achievements"],
+				"Description": "Loot from all safes within the Kharidian Desert.",
+				"BaseQuest": "Skills achievements",
+				"Chunks": ["12329-1", "12330", "12585", "12843-1", "13105", "13358-1", "13613"],
+				"Skills": {
+					"Thieving": 69
+				},
+				"Tasks": {
+					"~|The Jack of Spades|~ Complete the quest": "Quest"
+				},
+				"RuneScore": 5,
+				"Not F2P": true
+			},
+			"~|Skills achievements#Thieving|~ Pilferin' in Misthalin": {
+				"Category": ["Misc achievements"],
+				"Description": "Loot from all safes within Misthalin.",
+				"BaseQuest": "Skills achievements",
+				"Chunks": ["12337-1", "12338-1", "12340-1", "12342-1", "12850-1", "12854"],
+				"Skills": {
+					"Thieving": 65
+				},
+				"RuneScore": 5,
+				"Not F2P": true
+			},
+			"~|Skills achievements#Thieving|~ Pilferin' the Hidden Ones": {
+				"Category": ["Misc achievements"],
+				"Description": "Loot from all safes hidden around less frequently visited places.",
+				"BaseQuest": "Skills achievements",
+				"Chunks": ["13117", "Zanaris", "11324"],
+				"Items": ["Diamond"],
+				"Skills": {
+					"Thieving": 96
+				},
+				"Tasks": {
+					"~|The Curse of Arrav|~ Complete the quest": "Quest",
+					"~|Lost City|~ Complete the quest": "Quest"
+				},
+				"RuneScore": 20,
+				"Not F2P": true
+			},
+			"~|Skills achievements#Thieving|~ Slivers of Camouflage": {
+				"Category": ["Misc achievements"],
+				"Description": "Own the Master Camouflage outfit.",
+				"BaseQuest": "Skills achievements",
+				"Objects": ["Inventor's workbench"],
+				"Skills": {
+					"Thieving": 80,
+					"Invention": 20
+				},
+				"RuneScore": 10,
+				"Not F2P": true
+			},
+			"~|Skills achievements#Thieving|~ The World is a Safe Place": {
+				"Category": ["Misc achievements", "No RuneScore"],
+				"Description": "Loot from all safes within Gielinor.",
+				"BaseQuest": "Skills achievements",
+				"Tasks": {
+					"~|Skills achievements#Thieving|~ Pilferin' in Misthalin": "Diary",
+					"~|Skills achievements#Thieving|~ Pilferin' in Kharidian Desert": "Diary",
+					"~|Skills achievements#Thieving|~ Pilferin' in Asgarnia": "Diary",
+					"~|Skills achievements#Thieving|~ Pilferin' in Kandarin": "Diary",
+					"~|Skills achievements#Thieving|~ Pilferin' the Hidden Ones": "Diary"
+				},
+				"Not F2P": true
+			},
+			"~|Skills achievements#Thieving|~ Vault of Hereditas: Smash 'n' Grab": {
+				"Category": ["Misc achievements"],
+				"Description": "Search the rare chest in the Vault of Hereditas Heist in 6 minutes or less.",
+				"BaseQuest": "Skills achievements",
+				"Chunks": ["Vault of Hereditas"],
+				"RuneScore": 20,
+				"Not F2P": true
+			},
+			"~|Skills achievements#Thieving|~ Vault of Hereditas: The Perfect Job": {
+				"Category": ["Misc achievements"],
+				"Description": "Search the rare chest in the Vault of Hereditas Heist without being caught.",
+				"BaseQuest": "Skills achievements",
+				"Chunks": ["Vault of Hereditas"],
+				"RuneScore": 20,
+				"Not F2P": true
+			},
+			"~|Skills achievements#Thieving|~ Vault of Hereditas: Clean Sweep": {
+				"Category": ["Misc achievements"],
+				"Description": "Pick all pockets, open all chests and crack all safes in the Vault of Hereditas Heist before searching the rare chest.",
+				"BaseQuest": "Skills achievements",
+				"Chunks": ["Vault of Hereditas"],
+				"Skills": {
+					"Thieving": 102
+				},
+				"RuneScore": 20,
+				"Not F2P": true
+			},
+			"~|Skills achievements#Thieving|~ Asuran Arsenal: Smash 'n' Grab": {
+				"Category": ["Misc achievements"],
+				"Description": "Search the rare chest in the Asuran Arsenal Heist in 6 minutes or less.",
+				"BaseQuest": "Skills achievements",
+				"Chunks": ["Asuran Arsenal"],
+				"RuneScore": 20,
+				"Not F2P": true
+			},
+			"~|Skills achievements#Thieving|~ Asuran Arsenal: The Perfect Job": {
+				"Category": ["Misc achievements"],
+				"Description": "Search the rare chest in the Asuran Arsenal Heist without being caught by The Keeper or hit by traps.",
+				"BaseQuest": "Skills achievements",
+				"Chunks": ["Asuran Arsenal"],
+				"RuneScore": 20,
+				"Not F2P": true
+			},
+			"~|Skills achievements#Thieving|~ Asuran Arsenal: Clean Sweep": {
+				"Category": ["Misc achievements"],
+				"Description": "Pick all pockets, open all chests and crack all safes in the Asuran Arsenal Heist before searching the rare chest.",
+				"BaseQuest": "Skills achievements",
+				"Chunks": ["Asuran Arsenal"],
+				"Skills": {
+					"Thieving": 114
+				},
+				"RuneScore": 20,
+				"Not F2P": true
+			},
+			"~|Skills achievements#Thieving|~ Complete the Thieving achievements": {
+				"Category": ["Misc achievements"],
+				"BaseQuest": "Skills achievements",
+				"Tasks": {
+					"~|Skills achievements#Thieving|~ Thieving 120": "Diary",
+					"~|Skills achievements#Thieving|~ A Thief Beyond Belief": "Diary",
+					"~|Skills achievements#Thieving|~ Slivers of Camouflage": "Diary",
+					"~|Skills achievements#Thieving|~ The World is a Safe Place": "Diary",
+					"~|Skills achievements#Thieving|~ Vault of Hereditas: Smash 'n' Grab": "Diary",
+					"~|Skills achievements#Thieving|~ Vault of Hereditas: The Perfect Job": "Diary",
+					"~|Skills achievements#Thieving|~ Vault of Hereditas: Clean Sweep": "Diary",
+					"~|Skills achievements#Thieving|~ Asuran Arsenal: Smash 'n' Grab": "Diary",
+					"~|Skills achievements#Thieving|~ Asuran Arsenal: The Perfect Job": "Diary",
+					"~|Skills achievements#Thieving|~ Asuran Arsenal: Clean Sweep": "Diary"
+				},
+				"ManualShow": true,
+				"Not F2P": true
+			},
+			"~|Skills achievements#Woodcutting|~ Woodcutting 110": {
+				"Category": ["Misc achievements", "Level-up achievements"],
+				"Description": "Reach level 110 in the Woodcutting skill.",
+				"BaseQuest": "Skills achievements",
+				"Skills": {
+					"Woodcutting": 110
+				},
+				"RuneScore": 65,
+				"NoBoost": true
+			},
+			"~|Skills achievements#Woodcutting|~ Woodcutting 120": {
+				"Category": ["Misc achievements", "Level-up achievements", "No RuneScore"],
+				"Description": "Reach virtual level 120 in the Woodcutting skill.",
+				"BaseQuest": "Skills achievements",
+				"Skills": {
+					"Woodcutting": 120
+				},
+				"Tasks": {
+					"~|Skills achievements#Woodcutting|~ Woodcutting 110": "Diary"
+				},
+				"Allow Virtual": true,
+				"NoBoost": true
+			},
+			"~|Skills achievements#Woodcutting|~ A Hidden Gem IV": {
+				"Category": ["Misc achievements"],
+				"Description": "Shatter 25 crystal geodes.",
+				"BaseQuest": "Skills achievements",
+				"Items": ["Crystal geode"],
+				"RuneScore": 75,
+				"Not F2P": true
+			},
+			"~|Skills achievements#Woodcutting|~ Hacks": {
+				"Category": ["Misc achievements", "DnD"],
+				"Description": "Participate in the culling of an evil tree.",
+				"BaseQuest": "Skills achievements",
+				"Objects": ["Evil tree"],
+				"RuneScore": 10
+			},
+			"~|Skills achievements#Woodcutting|~ Imcadno at a Tree": {
+				"Category": ["Misc achievements"],
+				"Description": "Work with Thurgo (south of Port Sarim) to obtain an Imcando hatchet.",
+				"BaseQuest": "Skills achievements",
+				"Items": ["Imcando hatchet"],
+				"RuneScore": 30,
+				"Not F2P": true
+			},
+			"~|Skills achievements#Woodcutting|~ A Glade of Ember and Hatchets": {
+				"Category": ["Misc achievements"],
+				"Description": "Work with Wilfred (near Falador lodestone) to obtain a hatchet of ember and glade.",
+				"BaseQuest": "Skills achievements",
+				"Items": ["Hatchet of Ember and Glade"],
+				"RuneScore": 30,
+				"Not F2P": true
+			},
+			"~|Skills achievements#Woodcutting|~ A Blight of Bloom and Hatchets": {
+				"Category": ["Misc achievements"],
+				"Description": "Work with Ramarno (in Camdozaal) to obtain a hatchet of bloom and blight",
+				"BaseQuest": "Skills achievements",
+				"Items": ["Hatchet of Bloom and Blight"],
+				"RuneScore": 30,
+				"Not F2P": true
+			},
+			"~|Skills achievements#Woodcutting|~ Complete the Woodcutting achievements": {
+				"Category": ["Misc achievements"],
+				"BaseQuest": "Skills achievements",
+				"Tasks": {
+					"~|Skills achievements#Woodcutting|~ Woodcutting 120": "Diary",
+					"~|Skills achievements#Woodcutting|~ A Hidden Gem IV": "Diary",
+					"~|Skills achievements#Woodcutting|~ Hacks": "Diary",
+					"~|Skills achievements#Woodcutting|~ Imcadno at a Tree": "Diary",
+					"~|Skills achievements#Woodcutting|~ A Glade of Ember and Hatchets": "Diary",
+					"~|Skills achievements#Woodcutting|~ A Blight of Bloom and Hatchets": "Diary"
 				},
 				"ManualShow": true,
 				"Not F2P": true
 			}
-			
 		},
 		"Extra": {
 			"Complete the ~|little leaguer|~ achievement": {
@@ -220263,6 +221307,13 @@
 				"Bane pickaxe +4",
 				"Bane pickaxe"
 			],
+			"Bane tune item[+]": [
+				"Draconic visage",
+				"Abyssal whip",
+				"Satius's warhammer",
+				"Vesta's longsword",
+				"Vesta's spear"
+			],
 			"BaneWeapon[+]": [
 				"Abyssal bane 2h sword",
 				"Abyssal bane longsword",
@@ -222350,6 +223401,7 @@
 				"Necronium platelegs + 4",
 				"Necronium platelegs"
 			],
+			"Necronium bar+[+]": ["Necronium bar", "Bane bar", "Elder rune bar"],
 			"Necroniumpick[+]": [
 				"Necronium pickaxe + 1",
 				"Necronium pickaxe + 2",
@@ -222452,6 +223504,7 @@
 				"Orikalkum platelegs + 3",
 				"Orikalkum platelegs"
 			],
+			"Orikalkum bar+[+]": ["Orikalkum bar", "Necronium bar", "Bane bar", "Elder rune bar"],
 			"OrikalkumOrNecronium[+]": ["Orikalkum bar", "Necronium bar"],
 			"Orikalkumpick[+]": [
 				"Orikalkum pickaxe + 1",
@@ -225296,6 +226349,7 @@
 			"BandosArmour[+]": "Any piece of Bandos armour",
 			"BaneArmour[+]": "Any piece of bane armour",
 			"Banepick[+]": "Any bane pickaxe",
+			"Bane tune item[+]": "Any item to tune a bane melee weapon",
 			"BaneWeapon[+]": "Any bane melee weapon",
 			"Barbarian bait[+]": "Any item that can be used as bait for barbarian fishing",
 			"BarrowsWeapon[+]": "Any barrows melee weapon",
@@ -225588,6 +226642,7 @@
 			"Nails[+]": "Any nails",
 			"NecromancerRobes[+]": "Any piece of necromancer robes",
 			"NecroniumArmour[+]": "Any piece of necronium armour",
+			"Necronium bar+[+]": "A necronium bar or better",
 			"Necroniumpick[+]": "Any necronium pickaxe",
 			"NecroniumWeapon[+]": "Any necronium melee weapon",
 			"NettleTea[+]": "Any kind of nettle tea",
@@ -225600,6 +226655,7 @@
 			"Onslaught[+]": "Any codex that unlocks the onslaught abiltiy",
 			"Opal[+]": "Either a cut or an uncut opal",
             "OrikalkumArmour[+]": "Any piece of orikalkum armour",
+			"Orikalkum bar+[+]": "Orikalkum bar or better",
 			"OrikalkumOrNecronium[+]": "Orikalkum or necronium bars",
 			"Orikalkumpick[+]": "Any orikalkum pickaxe",
 			"OrikalkumWeapon[+]": "Any orikalkum melee weapon",
