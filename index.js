@@ -471,7 +471,6 @@ let rules = {
 	"MQC achievements": false,
 	"Misc achievements": false,
 	"No RuneScore": false,
-	"Kili Knowledge": false,
 	"Slayer Contracts": false,
 	"Hide Partial Products": false,
 	"Timegated": false,
@@ -608,7 +607,6 @@ let ruleNames = {
 	"No RuneScore": "Include achievements that don't award RuneScore.<span class='rule-asterisk noscroll'>†</span>",
 	"Level-up achievements": "Include level-up achievements.<span class='rule-asterisk noscroll'>†</span>",
 	"XP Lamps": "Using skills-specific experience lamps counts as a primary training method<span class='rule-asterisk noscroll'>*</span>",
-	"Kili Knowledge": "Must complete Kili Knowledge when possible",
 	"Slayer Contracts": "Completing Slayer contracts off-task counts as a primary training method",
 	"Hide Partial Products": "Exclude partial and unfinished products as a skilling task<span class='partialProductsRuleTooltip'></span>",
 	"Timegated": "Must complete tasks that require consistent engagement with a time-gated activity across multiple weeks (Player-Owned Port, Player-Owned Farm, etc.)<span class='rule-asterisk noscroll'>*</span>",
@@ -640,7 +638,7 @@ let rulePresets = {
 		"Unlock Abilities": true,
         "Unlock Prayers": true,
 		"Material Blueprints": true,
-		"Kili Knowledge": true,
+		"Achievement": true,
 		"Slayer Contracts": true,
 		"Cleaning Herbs Primary": true,
 		"Uncharted": true,
@@ -727,7 +725,6 @@ let rulePresets = {
 		"MQC achievements": true,
 		"Misc achievements": true,
 		"XP Lamps": true,
-		"Kili Knowledge": true,
 		"Slayer Contracts": true,
 		"Cleaning Herbs Primary": true,
 		"Permanent Unlockables": true,
@@ -830,7 +827,6 @@ let rulePresets = {
 		"Level-up achievements": true,
 		"Universal Tertiary": true,
 		"XP Lamps": true,
-		"Kili Knowledge": true,
 		"Slayer Contracts": true,
 		"Cleaning Herbs Primary": true,
 		"Timegated": true,
@@ -920,9 +916,6 @@ let ruleStructure = {
     },
 	"Mining": {
 		"Shooting Stars": true
-	},
-	"Necromancy": {
-		"Kili Knowledge": true
 	},
     "Prayer": {
         "Prayers": true,
@@ -6865,7 +6858,7 @@ let setupCurrentChallengesFromSaved = function() {
             challengeArr.push(`<div class="challenge quest-challenge noscroll clickable ${'Quest-' + challenge.replaceAll(' ', '_').replace(/[!"#$%&'()*+,.\/:;<=>?@\[\\\]\^\`{|}~]/g, '').toLowerCase() + '-challenge'} ${(!!checkedChallenges['Quest'] && !!checkedChallenges['Quest'][challenge]) && 'hide-backlog'} ${!activeSubTabs['quest'] ? 'stay-hidden' : ''}"><label class="checkbox noscroll checkbox--disabled"><span class="checkbox__input noscroll"><input type="checkbox" name="checkbox" ${(!!checkedChallenges['Quest'] && !!checkedChallenges['Quest'][challenge]) ? "checked" : ''} class='noscroll' disabled><span class="checkbox__control noscroll"><svg viewBox='0 0 24 24' aria-hidden="true" focusable="false"><path fill='none' stroke='currentColor' stroke-width='3' d='M1.73 12.91l6.37 6.37L22.79 4.59' /></svg></span></span><span class="radio__label noscroll"><b class="noscroll">[Quest] <span class="inner noscroll"><a class='link noscroll' href="${"https://runescape.wiki/w/" + encodeForUrl(challenge.split('~')[1].split('|').join(''))}" target="_blank">${challenge.split('~')[1].split('|').join('')}</a></b>: Up to step ${challenge.split('~')[2]}</span></span></label></span></div>`);
         }
     });
-    !!activeTasks['Diary'] && Object.keys(activeTasks['Diary']).length > 0  && challengeArr.push(`<div class="marker marker-diary noscroll" onclick="expandActive('diary')"><i class="expand-button fa-solid ${activeSubTabs['diary'] ? 'fa-caret-down' : 'fa-caret-right'} noscroll"></i><span class="noscroll">Diary Tasks</span></div>`);
+    !!activeTasks['Diary'] && Object.keys(activeTasks['Diary']).length > 0  && challengeArr.push(`<div class="marker marker-diary noscroll" onclick="expandActive('diary')"><i class="expand-button fa-solid ${activeSubTabs['diary'] ? 'fa-caret-down' : 'fa-caret-right'} noscroll"></i><span class="noscroll">Achievement Tasks</span></div>`);
     !!activeTasks['Diary'] && Object.keys(activeTasks['Diary']).forEach((challenge) => {
         challengeArr.push(`<div class="challenge diary-challenge noscroll clickable ${'Diary-' + challenge.replaceAll(' ', '_').replace(/[!"#$%&'()*+,.\/:;<=>?@\[\\\]\^\`{|}~]/g, '').toLowerCase() + '-challenge'} ${(!!checkedChallenges['Diary'] && !!checkedChallenges['Diary'][challenge]) && 'hide-backlog'} ${!activeSubTabs['diary'] ? 'stay-hidden' : ''}"><label class="checkbox noscroll checkbox--disabled"><span class="checkbox__input noscroll"><input type="checkbox" name="checkbox" ${(!!checkedChallenges['Diary'] && !!checkedChallenges['Diary'][challenge]) ? "checked" : ''} class='noscroll' disabled><span class="checkbox__control noscroll"><svg viewBox='0 0 24 24' aria-hidden="true" focusable="false"><path fill='none' stroke='currentColor' stroke-width='3' d='M1.73 12.91l6.37 6.37L22.79 4.59' /></svg></span></span><span class="radio__label noscroll"><b class="noscroll">[Achievement] <span class="inner noscroll"><a class='link noscroll' href="${"https://runescape.wiki/w/" + encodeForUrl(challenge.split('~')[1].split('|').join(''))}" target="_blank">${challenge.split('~')[1].split('|').join('')}</a></b>: ${challenge.split('~')[2]}</span></span></label></span></div>`);
     });
@@ -13180,10 +13173,6 @@ let loadData = async function(startup) {
 		
 		if (!rulesTemp.hasOwnProperty('Unlock Abilities')) {
             rulesTemp['Unlock Abilities'] = true;
-        }
-		
-		if (!rulesTemp.hasOwnProperty('Kili Knowledge')) {
-            rulesTemp['Kili Knowledge'] = true;
         }
 		
 		 if (!rulesTemp.hasOwnProperty('DnD Flash Events')) {
