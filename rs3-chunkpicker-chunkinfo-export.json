@@ -687,7 +687,7 @@
 			},
 			"Cross the ~|obstacle pipe (Yanille Agility dungeon)|~": {
 				"Category": ["Shortcut"],
-				"Chunks": ["10388"],
+				"Chunks": ["Yanilla Agility Dungeon"],
 				"Level": 49,
 				"Primary": true,
 				"Priority": 1,
@@ -970,7 +970,7 @@
 			},
 			"Cross the ~|weathered wall|~": {
 				"Category": ["Shortcut"],
-				"Chunks": ["14746"],
+				"Chunks": ["Ectofuntus"],
 				"Level": 58,
 				"Primary": false,
 				"Priority": 1,
@@ -1183,7 +1183,7 @@
 			},
 			"Cross the ~|pile of rubble|~": {
 				"Category": ["Shortcut"],
-				"Chunks": ["10388"],
+				"Chunks": ["Yanilla Agility Dungeon"],
 				"Level": 67,
 				"Primary": true,
 				"Priority": 1,
@@ -1636,7 +1636,7 @@
 			},
 			"Cross the ~|low wall (Kuradal's Dungeon)|~": {
 				"Category": ["Shortcut"],
-				"Chunks": ["Kuradals Dungeon"],
+				"Chunks": ["Kuradal's Dungeon"],
 				"Level": 86,
 				"Primary": true,
 				"Priority": 1,
@@ -1666,7 +1666,7 @@
 			},
 			"Cross the ~|gap (Kuradal's Dungeon)|~": {
 				"Category": ["Shortcut"],
-				"Chunks": ["Kuradals Dungeon"],
+				"Chunks": ["Kuradal's Dungeon"],
 				"Level": 90,
 				"Primary": true,
 				"Priority": 2,
@@ -7353,7 +7353,7 @@
 				"Tasks": {
 					"Complete the ~|Archaeology tutorial|~": "Archaeology"
 				},
-				"Items": ["Spear of Annihilation with shaft + spokes", "Vulcaninsed rubber", "Malachite green", "Goldrune"],
+				"Items": ["Spear of Annihilation with shaft + spokes", "Vulcanised rubber", "Malachite green", "Goldrune"],
 				"Objects": ["Archaeologist's workbench"],
 				"Level": 115,
 				"Output": "Spear of Annihilation",
@@ -20977,7 +20977,7 @@
 				"Priority": 9
 			},
 			"Craft a ~|ruby necklace|~": {
-				"Chunks": ["Ruby*", "Gold bar*"],
+				"Items": ["Ruby*", "Gold bar*"],
 				"Level": 40,
 				"Output": "Ruby necklace",
 				"Objects": ["CraftingFurnace[+]"],
@@ -23325,7 +23325,7 @@
 			},
 			"Crush some ~|meteorite dust|~": {
 				"Level": 85,
-				"Objects": ["Meteorite chunk"],
+				"Items": ["Meteorite chunk"],
 				"Primary": true,
 				"Output": "Meteorite dust",
 				"Priority": 38,
@@ -23796,14 +23796,14 @@
 				"Partial": true
 			},
 			"Craft a ~|sirenic mask|~": {
-				"Items": ["Sirenic scale*", "Algarum Thread*"],
+				"Items": ["Sirenic scale*", "Algarum thread*"],
 				"Level": 91,
 				"Output": "Sirenic mask",
 				"Primary": true,
 				"Priority": 1
 			},
 			"Craft an ~|elite sirenic mask|~": {
-				"Items": ["Ancient scale*", "Algarum Thread*", "Praesulic essence (ranged)*"],
+				"Items": ["Ancient scale*", "Algarum thread*", "Praesulic essence (ranged)*"],
 				"Level": 91,
 				"Output": "Elite sirenic mask",
 				"Primary": true,
@@ -23842,14 +23842,14 @@
 				"Not F2P": true
 			},
 			"Craft ~|sirenic chaps|~": {
-				"Items": ["Sirenic scale*", "Algarum Thread*"],
+				"Items": ["Sirenic scale*", "Algarum thread*"],
 				"Level": 92,
 				"Output": "Sirenic chaps",
 				"Primary": true,
 				"Priority": 1
 			},
 			"Craft ~|elite sirenic chaps|~": {
-				"Items": ["Ancient scale*", "Algarum Thread*", "Praesulic essence (ranged*)"],
+				"Items": ["Ancient scale*", "Algarum thread*", "Praesulic essence (ranged*)"],
 				"Level": 92,
 				"Output": "Elite sirenic chaps",
 				"Primary": true,
@@ -23971,14 +23971,14 @@
 				"Not F2P": true
 			},
 			"Craft a ~|sirenic hauberk|~": {
-				"Items": ["Sirenic scale*", "Algarum Thread*"],
+				"Items": ["Sirenic scale*", "Algarum thread*"],
 				"Level": 93,
 				"Output": "Sirenic hauberk",
 				"Primary": true,
 				"Priority": 1
 			},
 			"Craft an ~|elite sirenic hauberk|~": {
-				"Items": ["Ancient scale*", "Algarum Thread*", "Praesulic essence (ranged)*", "Chaotic spike*"],
+				"Items": ["Ancient scale*", "Algarum thread*", "Praesulic essence (ranged)*", "Chaotic spike*"],
 				"Level": 93,
 				"Output": "Elite sirenic hauberk",
 				"Primary": true,
@@ -24816,7 +24816,7 @@
 				"Partial": true
 			},
 			"Craft ~|masterwork chromatic dragon leather|~": {
-				"Items": ["Green dragon leather*", "Blue dragon leahter*", "Red dragon leather*", "Hard leather*", "Masterwork thread*"],
+				"Items": ["Green dragon leather*", "Blue dragon leather*", "Red dragon leather*", "Hard leather*", "Masterwork thread*"],
 				"Level": 110,
 				"Tasks": {
 					"It Should Have Been Called Chinskin*": "Nonskill"
@@ -28330,7 +28330,7 @@
 				"Priority": 1
 			},
 			"Enter a ~|Guthixian cache|~": {
-				"Chunks": ["Energy rift"],
+				"Objects": ["Energy rift"],
 				"Level": 35,
 				"Primary": true,
 				"Priority": 100,
@@ -28934,8 +28934,9 @@
 				"Tasks": {
 					"Complete the ~|Archaeology tutorial|~": "Archaeology"
 				},
+				"Chunks": ["Howl's Workshop"],
 				"Items": ["Golem heart*", "Golem instruction*", "Historic components*", "Tensile parts*", "Classic components*", "Enhancing components*"],
-				"Objects": ["Inventor's workbench", "Theoretical blueprint"],
+				"Objects": ["Inventor's workbench"],
 				"Level": 85,
 				"Skills": {
 					"Invention": 86,
@@ -29604,7 +29605,7 @@
 				"Priority": 1
 			},
 			"Enter the ~|Baxtorian Falls resource dungeon|~": {
-				"Chunks": ["Baxtorian Falls"],
+				"Chunks": ["Waterfall cave"],
 				"Level": 35,
 				"Primary": false,
 				"Priority": 2,
@@ -44392,15 +44393,15 @@
 			},
 			"Catch a ~|pawya|~ in Tirannwn": {
 				"NPCs": ["Pawya"],
-				"Items": ["Box trap", "Papaya"],
+				"Items": ["Box trap", "Papaya fruit"],
 				"Level": 66,
-				"Output": "Pawya",
+				"Output": "Pawya loot",
 				"Primary": true,
 				"Priority": 1
 			},
 			"Catch a ~|pawya|~ on Anachronia": {
 				"NPCs": ["Pawya (Anachronia)"],
-				"Items": ["Box trap", "Papaya"],
+				"Items": ["Box trap", "Papaya fruit"],
 				"Level": 66,
 				"Output": "PawyaAnachronia",
 				"Primary": true,
@@ -47147,7 +47148,7 @@
 					"Complete the ~|Archaeology tutorial|~": "Archaeology",
 					"~|The World Wakes|~ Complete the quest": "Quest"
 				},
-				"Items": ["Shard of the Blade*", "Prototype godsword*", "Historic components*", "Base parts*", "Timeworn components*", "Vintage components*"],
+				"Items": ["Prototype godsword*", "Historic components*", "Base parts*", "Timeworn components*", "Vintage components*"],
 				"Objects": ["Inventor's workbench"],
 				"Chunks": ["Howl's Workshop", "10804"],
 				"Level": 111,
@@ -63476,7 +63477,7 @@
 				"Level": 1,
 				"Objects": ["Forge[+]", "Anvil[+]"],
 				"Tasks": {
-					"~|A Sliver of Silver Helps the Sanguine Go Down|~ Complete the lore acitivty": "Quest"
+					"~|A Sliver of Silver Helps the Sanguine Go Down|~ Complete the lore activity": "Quest"
 				},
 				"Output": "Havensilver weapons",
 				"Primary": true,
@@ -63885,7 +63886,7 @@
 				"Level": 30,
 				"Objects": ["Forge[+]", "Anvil[+]"],
 				"Tasks": {
-					"~|A Sliver of Silver Helps the Sanguine Go Down|~ Complete the lore acitivty": "Quest"
+					"~|A Sliver of Silver Helps the Sanguine Go Down|~ Complete the lore activity": "Quest"
 				},
 				"Output": "Havensilver weapons + 1",
 				"Primary": true,
@@ -64411,7 +64412,7 @@
 				"Level": 60,
 				"Objects": ["Forge[+]", "Anvil[+]"],
 				"Tasks": {
-					"~|A Sliver of Silver Helps the Sanguine Go Down|~ Complete the lore acitivty": "Quest"
+					"~|A Sliver of Silver Helps the Sanguine Go Down|~ Complete the lore activity": "Quest"
 				},
 				"Output": "Havensilver weapons + 2",
 				"Primary": true,
@@ -87904,8 +87905,8 @@
 				"BaseQuest": "Kindred Spirits",
 				"Chunks": ["14131"],
 				"Tasks": {
-					"~|Kili's Knoweldge|~ VII": "Quest",
-					"~|Kili's Knoweldge|~ VII (power)": "Quest"
+					"~|Kili's Knowledge|~ VII": "Quest",
+					"~|Kili's Knowledge|~ VII (power)": "Quest"
 				},
 				"QuestPoints": 0,
 				"Not F2P": true,
@@ -107130,6 +107131,7 @@
 				},
 				"BaseQuest": "Daemonheim Achievements",
 				"Category": ["Show Diary Tasks"],
+				"Rewards": [],
 				"ManualShow": true
 			},
 			"~|Daemonheim Achievements#Medium|~ You Got Some Nice Drapes There": {
@@ -107309,6 +107311,7 @@
 				},
 				"BaseQuest": "Daemonheim Achievements",
 				"Category": ["Show Diary Tasks"],
+				"Rewards": [],
 				"ManualShow": true
 			},
 			"~|Daemonheim Achievements#Hard|~ Occult Classic": {
@@ -107493,6 +107496,7 @@
 				},
 				"BaseQuest": "Daemonheim Achievements",
 				"Category": ["Show Diary Tasks"],
+				"Rewards": [],
 				"ManualShow": true
 			},
 			"~|Daemonheim Achievements#Elite|~ Any fin is Possible": {
@@ -107589,6 +107593,7 @@
 				},
 				"BaseQuest": "Daemonheim Achievements",
 				"Category": ["Show Diary Tasks"],
+				"Rewards": [],
 				"ManualShow": true
 			},
 			"~|Desert Achievements#Easy|~ Assassin's Feed": {
@@ -108296,7 +108301,7 @@
 				"Tasks": {
 					"~|Falador Achievements#Easy|~ Amulet of Weedspeak": "Diary",
 					"~|Falador Achievements#Easy|~ The Good Stuff": "Diary",
-					"~|Falador Achievements#Easy|~ Cahin Store": "Diary",
+					"~|Falador Achievements#Easy|~ Chain Store": "Diary",
 					"~|Falador Achievements#Easy|~ Sir Mitt": "Diary",
 					"~|Falador Achievements#Easy|~ Family Values": "Diary",
 					"~|Falador Achievements#Easy|~ Sniffing Out the Mole": "Diary",
@@ -110039,7 +110044,7 @@
 					"~|Lumbridge Achievements#Beginner|~ Tower Power": "Diary",
 					"~|Lumbridge Achievements#Beginner|~ Beware of Pigzilla": "Diary",
 					"~|Lumbridge Achievements#Beginner|~ Wait, That's Not a Sheep": "Diary",
-					"~|Lumbridge Achievements#Beginner|~ The Nexus Has You": "Diary",
+					"~|Lumbridge Achievements#Beginner|~ Herald the Dawn": "Diary",
 					"~|Lumbridge Achievements#Beginner|~ The Fruit of the Sea": "Diary",
 					"~|Lumbridge Achievements#Beginner|~ Clay More": "Diary",
 					"~|Lumbridge Achievements#Beginner|~ Just Add Water": "Diary",
@@ -149267,7 +149272,7 @@
 			"Barbarian Assault": {
 				"UnlocksArea": true
 			},
-			"Kuradals dungeon": {
+			"Kuradal's Dungeon": {
 				"Tasks": {
 					"Receive a slayer assignment from ~|Kuradal|~": "Slayer"
 				},
@@ -150821,7 +150826,7 @@
 			"Hermit Cave": {
 				"UnlocksArea": true,
 				"Tasks": {
-					"~|Hermit Permits|~ XXX": "Quest"
+					"~|Hermit Permits|~ 3": "Quest"
 				}
 			},
 			"Highweald Ruins": {
@@ -167398,7 +167403,7 @@
 				"Dark beast": 6,
 				"Airut": 1
 			},
-			"Name": "Kuradals dungeon"
+			"Name": "Kuradal's Dungeon"
 		},
 		"6483": {
 			"Object": {
@@ -183122,7 +183127,7 @@
 						"Rocks": 1,
 						"Cliffside (Trollheim hard)": 1,
 						"Cliffside (Trollheim advanced)": 1,
-						"Cliffside (Trollheim/wilderness)": 1,
+						"Cliffside (Trollheim/Wilderness)": 1,
 						"Small obelisk": 1,
 						"Boulder": 1
 					},
@@ -207007,7 +207012,7 @@
 				"Private Paldon": 1
 			}
 		},
-		"Kuradals dungeon": {
+		"Kuradal's Dungeon": {
 			"Object": {
 				"Small obelisk": 1,
 				"Cave": 1,
@@ -222107,7 +222112,7 @@
 			"BlastAndHellfire[+]": ["12593", "12851", "12850", "Lumbridge Catacombs"],
 			"CaptainsGnomeRestaurant[+]": ["13105", "Dwarven Tunnel"],
 			"CarpetChunks[+]": ["12591", "12844", "13100", "13104-1","13357-2", "13358-1", "13613", "13872"],
-			"ChaosAltar[+]": ["12856", "11835"],
+			"ChaosAltarChunks[+]": ["12856", "11835"],
 			"ChaosTunnelEntrance[+]": ["12343-1", "12599", "12600", "12344", "12087-1"],
 			"CoolStoryBroChunks[+]": ["9275", "9531-1"],
 			"CorruptedScarabs[+]": ["12587-1", "12843-1", "13098-1", "12586", "12585"],
@@ -301586,7 +301591,7 @@
 					"1": "1/21"
 				}
 			},
-			"Pawya": {
+			"Pawya loot": {
 				"Raw pawya meat": {
 					"1": "Always"
 				},
