@@ -107131,7 +107131,7 @@
 				},
 				"BaseQuest": "Daemonheim Achievements",
 				"Category": ["Show Diary Tasks"],
-				"Rewards": [],
+				"Reward": [],
 				"ManualShow": true
 			},
 			"~|Daemonheim Achievements#Medium|~ You Got Some Nice Drapes There": {
@@ -107311,7 +107311,7 @@
 				},
 				"BaseQuest": "Daemonheim Achievements",
 				"Category": ["Show Diary Tasks"],
-				"Rewards": [],
+				"Reward": [],
 				"ManualShow": true
 			},
 			"~|Daemonheim Achievements#Hard|~ Occult Classic": {
@@ -107496,7 +107496,7 @@
 				},
 				"BaseQuest": "Daemonheim Achievements",
 				"Category": ["Show Diary Tasks"],
-				"Rewards": [],
+				"Reward": [],
 				"ManualShow": true
 			},
 			"~|Daemonheim Achievements#Elite|~ Any fin is Possible": {
@@ -107593,7 +107593,7 @@
 				},
 				"BaseQuest": "Daemonheim Achievements",
 				"Category": ["Show Diary Tasks"],
-				"Rewards": [],
+				"Reward": [],
 				"ManualShow": true
 			},
 			"~|Desert Achievements#Easy|~ Assassin's Feed": {
