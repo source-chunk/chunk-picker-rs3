@@ -470,6 +470,7 @@ let rules = {
 	"Trim achievements": false,
 	"MQC achievements": false,
 	"Misc achievements": false,
+	"Level Up Achievements": false,
 	"No RuneScore": false,
 	"Slayer Contracts": false,
 	"Hide Partial Products": false,
@@ -603,9 +604,9 @@ let ruleNames = {
 	"Comp achievements": "Must complete Completionist achievements<span class='rule-asterisk noscroll'>*</span>",
 	"Trim achievements": "Also include Trimmed Completionist Cape achievements<span class='rule-asterisk noscroll'>*</span>",
 	"MQC achievements": "Must complete Master Quest Cape achievements<span class='rule-asterisk noscroll'>*</span>",
-	"Misc achievements": "Must complete achievements that are not already part of the above categories.<span class='rule-asterisk noscroll'>*</span>",
-	"No RuneScore": "Include achievements that don't award RuneScore.<span class='rule-asterisk noscroll'>†</span>",
-	"Level-up achievements": "Include level-up achievements.<span class='rule-asterisk noscroll'>†</span>",
+	"Misc achievements": "Must complete achievements that are not already part of the above categories<span class='rule-asterisk noscroll'>*</span>",
+	"No RuneScore": "Include achievements that don't award RuneScore<span class='rule-asterisk noscroll'>†</span>",
+	"Level Up Achievements": "Include level-up achievements<span class='rule-asterisk noscroll'>†</span>",
 	"XP Lamps": "Using skills-specific experience lamps counts as a primary training method<span class='rule-asterisk noscroll'>*</span>",
 	"Slayer Contracts": "Completing Slayer contracts off-task counts as a primary training method",
 	"Hide Partial Products": "Exclude partial and unfinished products as a skilling task<span class='partialProductsRuleTooltip'></span>",
@@ -824,7 +825,7 @@ let rulePresets = {
 		"MQC achievements": true,
 		"Misc achievements": true,
 		"No RuneScore": true,
-		"Level-up achievements": true,
+		"Level Up Achievements": true,
 		"Universal Tertiary": true,
 		"XP Lamps": true,
 		"Slayer Contracts": true,
@@ -856,7 +857,7 @@ let ruleStructure = {
 		"Combat Mastery achievements": ["Speed Killer Achievements", "Combat Master+"],
 		"Comp achievements": ["Trim achievements"],
 		"MQC achievements": true,
-		"Misc achievements": ["Level-up achievements", "No RuneScore"]
+		"Misc achievements": ["Level Up Achievements", "No RuneScore"]
 	},
     "Overall Skill": {
         "Skillcape": ["Master skillcape"],
