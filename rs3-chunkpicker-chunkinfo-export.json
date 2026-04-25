@@ -40600,6 +40600,48 @@
 				"Output": "Duckspeak potion",
 				"Priority": 23
 			},
+			"Grind ~|powder of defence|~": {
+				"Items": ["Plain whirligig shell"],
+				"Level": 1,
+				"Primary": true,
+				"Output": "Powder of defence",
+				"Priority": 24
+			},
+			"Grind ~|powder of protection|~": {
+				"Items": ["Gliding whirligig shell"],
+				"Level": 1,
+				"Primary": true,
+				"Output": "Powder of protection",
+				"Priority": 24
+			},
+			"Grind ~|powder of item protection|~": {
+				"Items": ["Swift whirligig shell"],
+				"Level": 1,
+				"Primary": true,
+				"Output": "Powder of item protection",
+				"Priority": 25
+			},
+			"Grind ~|powder of pulverising|~": {
+				"Items": ["Hasty whirligig shell"],
+				"Level": 1,
+				"Primary": true,
+				"Output": "Powder of pulverising",
+				"Priority": 26
+			},
+			"Grind ~|powder of burials|~": {
+				"Items": ["Speedy whirligig shell"],
+				"Level": 1,
+				"Primary": true,
+				"Output": "Powder of burials",
+				"Priority": 27
+			},
+			"Grind ~|powder of penance|~": {
+				"Items": ["Dazzling whirligig shell"],
+				"Level": 1,
+				"Primary": true,
+				"Output": "Powder of penance",
+				"Priority": 28
+			},
 			"Mix a ~|ranging potion|~": {
 				"Items": ["Guam potion (unfinished)*", "Redberries*"],
 				"Level": 3,
@@ -131166,6 +131208,7 @@
 					"~|Exploration achievements#Lodestones|~ Menaphos": "Diary",
 					"~|Exploration achievements#Lodestones|~ Anachronia": "Diary"
 				},
+				"Reward": [],
 				"ManualShow": true,
 				"Not F2P": true
 			},
@@ -131329,6 +131372,7 @@
 					"~|Exploration achievements#Anachronia|~ Do You Think He Saw Us?": "Diary",
 					"~|Exploration achievements#Anachronia|~ In and Out, Nice and Slow": "Diary"
 				},
+				"Reward": [],
 				"ManualShow": true,
 				"Not F2P": true
 			},
@@ -131465,6 +131509,1221 @@
 					"~|Exploration achievements#City of Um|~ Ghost in the Machine": "Diary",
 					"~|Exploration achievements#City of Um|~ Fleur-de-lich": "Diary"
 				},
+				"Reward": [],
+				"ManualShow": true,
+				"Not F2P": true
+			},
+			"~|Exploration achievements#Fort Forinthry|~ Perfect Build": {
+				"Category": ["Misc achievements"],
+				"Description": "Achieve a 100% Perfect Build score within Fort Forinthry.",
+				"BaseQuest": "Exploration achievements",
+				"Tasks": {
+					"~|New Foundations|~ Complete the quest": "Quest"
+				},
+				"RuneScore": 25,
+				"Not F2P": true
+			},
+			"~|Exploration achievements#Fort Forinthry|~ Wonderful Walls": {
+				"Category": ["Misc achievements"],
+				"Description": "Fully fortify Fort Forinthry by building up all the walls and gates.",
+				"BaseQuest": "Exploration achievements",
+				"Tasks": {
+					"~|New Foundations|~ Complete the quest": "Quest"
+				},
+				"RuneScore": 10,
+				"Not F2P": true
+			},
+			"~|Exploration achievements#Fort Forinthry|~ Fort Experiment": {
+				"Category": ["Misc achievements"],
+				"Description": "Upgrade the workshop in Fort Forinthry to Tier 3.",
+				"BaseQuest": "Exploration achievements",
+				"Chunks": ["13111"],
+				"Items": ["Wooden frame", "Teak frame", "Yew frame", "Stone wall segment"],
+				"Skills": {
+					"Construction": 75
+				},
+				"Tasks": {
+					"~|New Foundations|~ Complete the quest": "Quest"
+				},
+				"RuneScore": 5,
+				"Not F2P": true
+			},
+			"~|Exploration achievements#Fort Forinthry|~ Spiritual Comfort": {
+				"Category": ["Misc achievements"],
+				"Description": "Upgrade the chapel in Fort Forinthry to Tier 3.",
+				"BaseQuest": "Exploration achievements",
+				"Chunks": ["13111", "13367-2"],
+				"Items": ["Oak frame", "Acadia frame", "Elder frame", "Stone wall segment"],
+				"Skills": {
+					"Construction": 90
+				},
+				"Tasks": {
+					"~|New Foundations|~ Complete the quest": "Quest"
+				},
+				"RuneScore": 5,
+				"Not F2P": true
+			},
+			"~|Exploration achievements#Fort Forinthry|~ Forty Winks": {
+				"Category": ["Misc achievements"],
+				"Description": "Upgrade the townhall in Fort Forinthry to Tier 3.",
+				"BaseQuest": "Exploration achievements",
+				"Chunks": ["13111"],
+				"Items": ["Oak frame", "Maple frame", "Magic frame", "Stone wall segment"],
+				"Skills": {
+					"Construction": 80
+				},
+				"Tasks": {
+					"~|New Foundations|~ Complete the quest": "Quest"
+				},
+				"RuneScore": 5,
+				"Not F2P": true
+			},
+			"~|Exploration achievements#Fort Forinthry|~ Managing your Fortune": {
+				"Category": ["Misc achievements"],
+				"Description": "Upgrade the command centre in Fort Forinthry to Tier 3.",
+				"BaseQuest": "Exploration achievements",
+				"Chunks": ["13111"],
+				"Items": ["Willow frame", "Yew frame", "Elder frame", "Stone wall segment"],
+				"Skills": {
+					"Construction": 99
+				},
+				"Tasks": {
+					"~|New Foundations|~ Complete the quest": "Quest"
+				},
+				"RuneScore": 5,
+				"Not F2P": true
+			},
+			"~|Exploration achievements#Fort Forinthry|~ Fort Fullness": {
+				"Category": ["Misc achievements"],
+				"Description": "Upgrade the kitchen in Fort Forinthry to Tier 3.",
+				"BaseQuest": "Exploration achievements",
+				"Chunks": ["13111"],
+				"Items": ["Willow frame", "Acadia frame", "Magic frame", "Stone wall segment"],
+				"Skills": {
+					"Construction": 85
+				},
+				"Tasks": {
+					"~|Murder on the Border|~ Complete the quest": "Quest"
+				},
+				"RuneScore": 5,
+				"Not F2P": true
+			},
+			"~|Exploration achievements#Fort Forinthry|~ Fortified": {
+				"Category": ["Misc achievements"],
+				"Description": "Upgrade the guardhouse in Fort Forinthry to Tier 3.",
+				"BaseQuest": "Exploration achievements",
+				"Chunks": ["13111"],
+				"Items": ["Maple frame", "Mahogany frame", "Elder frame", "Stone wall segment"],
+				"Skills": {
+					"Construction": 95
+				},
+				"Tasks": {
+					"~|Unwelcome Guests|~ Complete the quest": "Quest"
+				},
+				"RuneScore": 5,
+				"Not F2P": true
+			},
+			"~|Exploration achievements#Fort Forinthry|~ Lack of Forefort": {
+				"Category": ["Misc achievements"],
+				"Description": "Upgrade the grove in Fort Forinthry to Tier 3.",
+				"BaseQuest": "Exploration achievements",
+				"Chunks": ["13367-1"],
+				"Items": ["Wooden frame", "Teak frame", "Mahogany frame", "Stone wall segment"],
+				"Skills": {
+					"Construction": 60
+				},
+				"Tasks": {
+					"~|Unwelcome Guests|~ Complete the quest": "Quest"
+				},
+				"RuneScore": 5,
+				"Not F2P": true
+			},
+			"~|Exploration achievements#Fort Forinthry|~ A New Discovery": {
+				"Category": ["Misc achievements"],
+				"Description": "After upgrading the workshop in Fort Forinthry to Tier 3, return to Oak to learn about this new discovery.",
+				"BaseQuest": "Exploration achievements",
+				"Chunks": ["13367-2"],
+				"Tasks": {
+					"~|Exploration achievements#Fort Forinthry|~ Lack of Forefort": "Diary"
+				},
+				"RuneScore": 5,
+				"Not F2P": true
+			},
+			"~|Exploration achievements#Fort Forinthry|~ Botany more of those plants?": {
+				"Category": ["Misc achievements"],
+				"Description": "Upgrade the Botanist's bench in Fort Forinthry to Tier 3.",
+				"BaseQuest": "Exploration achievements",
+				"Chunks": ["13111"],
+				"Items": ["Acadia frame", "Yew frame", "Elder frame", "Stone wall segment"],
+				"Skills": {
+					"Construction": 92
+				},
+				"Tasks": {
+					"~|Ancient Awakening|~ Complete the quest": "Quest"
+				},
+				"RuneScore": 5,
+				"Not F2P": true
+			},
+			"~|Exploration achievements#Fort Forinthry|~ Complete the Fort Forinthry achievements": {
+				"Category": ["Misc achievements"],
+				"BaseQuest": "Exploration achievements",
+				"Tasks": {
+					"~|Exploration achievements#Fort Forinthry|~ Perfect Build": "Diary",
+					"~|Exploration achievements#Fort Forinthry|~ Wonderful Walls": "Diary",
+					"~|Exploration achievements#Fort Forinthry|~ Fort Experiment": "Diary",
+					"~|Exploration achievements#Fort Forinthry|~ Spiritual Comfort": "Diary",
+					"~|Exploration achievements#Fort Forinthry|~ Forty Winks": "Diary",
+					"~|Exploration achievements#Fort Forinthry|~ Managing your Fortune": "Diary",
+					"~|Exploration achievements#Fort Forinthry|~ Fort Fullness": "Diary",
+					"~|Exploration achievements#Fort Forinthry|~ Fortified": "Diary",
+					"~|Exploration achievements#Fort Forinthry|~ A New Discovery": "Diary",
+					"~|Exploration achievements#Fort Forinthry|~ Botany more of those plants?": "Diary"
+				},
+				"Reward": [],
+				"ManualShow": true,
+				"Not F2P": true
+			},
+			"~|Exploration achievements#Havenhythe|~ Round One": {
+				"Category": ["Misc achievements"],
+				"Description": "Buy a round of beer for the patrons of the Burnt Lobster Tavern.",
+				"BaseQuest": "Exploration achievements",
+				"Chunks": ["16691-1"],
+				"Items": ["Beer"],
+				"RuneScore": 5
+			},
+			"~|Exploration achievements#Havenhythe|~ From Here to Eternity": {
+				"Category": ["Misc achievements"],
+				"Description": "Plant an eternal magic tree in Dalia's tree nursery.",
+				"BaseQuest": "Exploration achievements",
+				"Objects": ["Empty tree plot"],
+				"NPCs": ["Heedi"],
+				"Tasks": {
+					"~|The Lute of Love|~ Complete the lore activity": "Quest"
+				},
+				"RuneScore": 5,
+				"Not F2P": true
+			},
+			"~|Exploration achievements#Havenhythe|~ Oh Yeah!": {
+				"Category": ["Misc achievements"],
+				"Description": "Open the way to the platinum rocks in the Highweald ruins.",
+				"BaseQuest": "Exploration achievements",
+				"Chunks": ["Highweald Ruins"],
+				"Skills": {
+					"Mining": 104
+				},
+				"RuneScore": 15,
+				"Not F2P": true
+			},
+			"~|Exploration achievements#Havenhythe|~ Can I Pet That Dog?": {
+				"Category": ["Misc achievements"],
+				"Description": "",
+				"BaseQuest": "Exploration achievements",
+				"NPCs": ["Bear (Wendlewick)", "Marigold (Wendlewick)", "Humphrey", "Onyx the Black", "Pork Pie (cat)", "Scratchy"],
+				"RuneScore": 5,
+				"Not F2P": true
+			},
+			"~|Exploration achievements#Havenhythe|~ Cray-zy for Crayfish": {
+				"Category": ["Misc achievements"],
+				"Description": "Catch and cook a giant crayfish.",
+				"BaseQuest": "Exploration achievements",
+				"Objects": ["Giant crayfish (fishing spot)", "Cooking object[+]"],
+				"Skills": {
+					"Cooking": 86,
+					"Fishing": 82
+				},
+				"RuneScore": 15,
+				"Not F2P": true
+			},
+			"~|Exploration achievements#Havenhythe|~ Oaken Sesame": {
+				"Category": ["Misc achievements"],
+				"Description": "Use an oaken key to open Raz's stash in her hut north of Wendlewick.",
+				"BaseQuest": "Exploration achievements",
+				"Objects": ["Raz's stash"],
+				"Items": ["Oaken key"],
+				"RuneScore": 5,
+				"Not F2P": true
+			},
+			"~|Exploration achievements#Havenhythe|~ Laid to Rest": {
+				"Category": ["Misc achievements"],
+				"Description": "Take a doll to its rightful place.",
+				"BaseQuest": "Exploration achievements",
+				"Chunks": ["16693-1", "16436-1", "16438", "16947", "16692", "17202", "16691-1"],
+				"RuneScore": 10,
+				"Not F2P": true
+			},
+			"~|Exploration achievements#Havenhythe|~ Mad for Mead": {
+				"Category": ["Misc achievements"],
+				"Description": "Give the drunken villager his favourite drink.",
+				"BaseQuest": "Exploration achievements",
+				"NPCs": ["Drunken villager"],
+				"Items": ["Mead"],
+				"RuneScore": 5,
+				"Not F2P": true
+			},
+			"~|Exploration achievements#Havenhythe|~ The Five Stages of Leaf": {
+				"Category": ["Misc achievements"],
+				"Description": "Mourn all of the vegetables while wearing a full mourner outfit.",
+				"BaseQuest": "Exploration achievements",
+				"Chunks": ["16947"],
+				"Items": ["Gas mask", "Mourner top", "Mourner trousers", "Mourner boots", "Mourner gloves", "Mourner cloak"],
+				"RuneScore": 5,
+				"Not F2P": true
+			},
+			"~|Exploration achievements#Havenhythe|~ When a Mummy Bird Loves a Daddy Bird": {
+				"Category": ["Misc achievements"],
+				"Description": "Learn about the birds and the bees from the groundskeeper.",
+				"BaseQuest": "Exploration achievements",
+				"Chunks": ["16691-1"],
+				"NPCs": ["Groundskepeer (Wendlewick)"],
+				"RuneScore": 5,
+				"Not F2P": true
+			},
+			"~|Exploration achievements#Havenhythe|~ Silver Lining": {
+				"Category": ["Misc achievements"],
+				"Description": "Craft yourself a set of Havensilver longswords.",
+				"BaseQuest": "Exploration achievements",
+				"Items": ["Havensilver longsword", "Havensilver off-hand longsword"],
+				"RuneScore": 5,
+				"Not F2P": true
+			},
+			"~|Exploration achievements#Havenhythe|~ Complete the Havenhythe achievements": {
+				"Category": ["Misc achievements"],
+				"BaseQuest": "Exploration achievements",
+				"Tasks": {
+					"~|Exploration achievements#Havenhythe|~ Round One": "Diary",
+					"~|Exploration achievements#Havenhythe|~ From Here to Eternity": "Diary",
+					"~|Exploration achievements#Havenhythe|~ Oh Yeah!": "Diary",
+					"~|Exploration achievements#Havenhythe|~ Can I Pet That Dog?": "Diary",
+					"~|Exploration achievements#Havenhythe|~ Cray-zy for Crayfish": "Diary",
+					"~|Exploration achievements#Havenhythe|~ Oaken Sesame": "Diary",
+					"~|Exploration achievements#Havenhythe|~ Laid to Rest": "Diary",
+					"~|Exploration achievements#Havenhythe|~ Mad for Mead": "Diary",
+					"~|Exploration achievements#Havenhythe|~ The Five Stages of Leaf": "Diary",
+					"~|Exploration achievements#Havenhythe|~ When a Mummy Bird Loves a Daddy Bird": "Diary",
+					"~|Exploration achievements#Havenhythe|~ Silver Lining": "Diary"
+				},
+				"Reward": [],
+				"ManualShow": true,
+				"Not F2P": true
+			},
+			"~|Exploration achievements#Het's Oasis|~ Back In My Day...": {
+				"Category": ["Misc achievements"],
+				"Description": "Throw some money into the oasis.",
+				"BaseQuest": "Exploration achievements",
+				"Chunks": ["13362-4"],
+				"RuneScore": 5,
+				"Not F2P": true
+			},
+			"~|Exploration achievements#Het's Oasis|~ Fruit Glorious Fruit": {
+				"Category": ["Misc achievements"],
+				"Description": "Feed Frito her favourite fruit.",
+				"BaseQuest": "Exploration achievements",
+				"Chunks": ["13362-4"],
+				"Items": ["Coconut", "Crocspeak amulet"],
+				"RuneScore": 5,
+				"Not F2P": true
+			},
+			"~|Exploration achievements#Het's Oasis|~ Golden Fingers": {
+				"Category": ["Misc achievements"],
+				"Description": "Harvest some golden roses from a flower bush.",
+				"BaseQuest": "Exploration achievements",
+				"Items": ["Golden roses"],
+				"RuneScore": 10,
+				"Not F2P": true
+			},
+			"~|Exploration achievements#Het's Oasis|~ Overpowdered": {
+				"Category": ["Misc achievements"],
+				"Description": "Have all 6 prayer powders active at once.",
+				"BaseQuest": "Exploration achievements",
+				"Items": ["Powder of defence", "Powder of protection", "Powder of item protection", "Powder of pulverising", "Powder of burials", "Powder of penance"],
+				"RuneScore": 10,
+				"Not F2P": true
+			},
+			"~|Exploration achievements#Het's Oasis|~ Primitive Technology": {
+				"Category": ["Misc achievements"],
+				"Description": "Help out Nen with delivering water to Naida.",
+				"BaseQuest": "Exploration achievements",
+				"Chunks": ["13362-1"],
+				"Items": ["Bronze bar", "Silver bar", "Bucket of sand", "Big fishing net", "Bucket of water"],
+				"Skills": {
+					"Construction": 20
+				},
+				"RuneScore": 5,
+				"Not F2P": true
+			},
+			"~|Exploration achievements#Het's Oasis|~ This Gnome is on Fire": {
+				"Category": ["Misc achievements"],
+				"Description": "Deliver some extra spicy crunchies to Dundee.",
+				"BaseQuest": "Exploration achievements",
+				"Chunks": ["13362-1"],
+				"Items": ["Gnome spice", "Spicy crunchies"],
+				"Skills": {
+					"Cooking": 12
+				},
+				"RuneScore": 5,
+				"Not F2P": true
+			},
+			"~|Exploration achievements#Het's Oasis|~ Top of the Food Chain": {
+				"Category": ["Misc achievements"],
+				"Description": "Feed a baby troll to Chito.",
+				"BaseQuest": "Exploration achievements",
+				"Chunks": ["13362-1"],
+				"Items": ["Baby troll", "Crocspeak amulet"],
+				"RuneScore": 5,
+				"Not F2P": true
+			},
+			"~|Exploration achievements#Het's Oasis|~ Vegan Unfriendly": {
+				"Category": ["Misc achievements"],
+				"Description": "Feed all the crocodiles some steak.",
+				"BaseQuest": "Exploration achievements",
+				"Chunks": ["13362-1", "13362-2", "13362-3", "13362-4"],
+				"Items": ["Cooked meat"],
+				"Skills": {
+					"Agility": 65
+				},
+				"RuneScore": 10,
+				"Not F2P": true
+			},
+			"~|Exploration achievements#Het's Oasis|~ Tooth Fairy": {
+				"Category": ["Misc achievements"],
+				"Description": "Help find Toothless' tooth",
+				"BaseQuest": "Exploration achievements",
+				"Chunks": ["13362-1"],
+				"Tasks": {
+					"Build the ~|water filtration system|~ at Het's Oasis": "Construction"
+				},
+				"RuneScore": 5,
+				"Not F2P": true
+			},
+			"~|Exploration achievements#Het's Oasis|~ Unlicensed Chiropractor": {
+				"Category": ["Misc achievements"],
+				"Description": "Jump across a crocodile's back.",
+				"BaseQuest": "Exploration achievements",
+				"Chunks": ["13362-2"],
+				"Skills": {
+					"Agility": 65
+				},
+				"RuneScore": 10,
+				"Not F2P": true
+			},
+			"~|Exploration achievements#Het's Oasis|~ Complete the Het's Oasis achievements": {
+				"Category": ["Misc achievements"],
+				"BaseQuest": "Exploration achievements",
+				"Tasks": {
+					"~|Exploration achievements#Het's Oasis|~ Back In My Day...": "Diary",
+					"~|Exploration achievements#Het's Oasis|~ Fruit Glorious Fruit": "Diary",
+					"~|Exploration achievements#Het's Oasis|~ Golden Fingers": "Diary",
+					"~|Exploration achievements#Het's Oasis|~ Overpowdered": "Diary",
+					"~|Exploration achievements#Het's Oasis|~ Primitive Technology": "Diary",
+					"~|Exploration achievements#Het's Oasis|~ This Gnome is on Fire": "Diary",
+					"~|Exploration achievements#Het's Oasis|~ Top of the Food Chain": "Diary",
+					"~|Exploration achievements#Het's Oasis|~ Vegan Unfriendly": "Diary",
+					"~|Exploration achievements#Het's Oasis|~ Tooth Fairy": "Diary",
+					"~|Exploration achievements#Het's Oasis|~ Unlicensed Chiropractor": "Diary"
+				},
+				"Reward": [],
+				"ManualShow": true,
+				"Not F2P": true
+			},
+			"~|Exploration achievements#Menaphos|~ Menaphos Pyramid Scheme": {
+				"Category": ["Misc achievements"],
+				"Description": "Complete various achievements within Menaphos.",
+				"BaseQuest": "Exploration achievements",
+				"Tasks": {
+					"~|'Phite Club|~ Complete the quest": "Quest"
+				},
+				"RuneScore": 50,
+				"Not F2P": true
+			},
+			"~|Exploration achievements#Menaphos|~ All Abuzz": {
+				"Category": ["Misc achievements"],
+				"Description": "Recover the Grand Library's collection of valuable and unique insects.",
+				"BaseQuest": "Exploration achievements",
+				"Items": [
+					"Menaphite honey bee in amber",
+					"Pygmy giant scarab in amber",
+					"Clicker kalphite in amber",
+					"Desert locust in amber",
+					"Kalphite wanderer in amber",
+					"Hornless unicornfly in amber",
+					"Fly dragon in amber",
+					"Fruit fly in amber",
+					"Menaphite honey bee",
+					"Pygmy giant scarab",
+					"Clicker kalphite",
+					"Desert locust",
+					"Kalphite wanderer",
+					"Hornless unicornfly",
+					"Fly dragon",
+					"Fruit fly"
+				],
+				"RuneScore": 25,
+				"Not F2P": true
+			},
+			"~|Exploration achievements#Menaphos|~ Dare You Enter the Dungeon?": {
+				"Category": ["Misc achievements", "No RuneScore"],
+				"Description": "Enter the Menaphos Slayer Dungeon.",
+				"BaseQuest": "Exploration achievements",
+				"Chunks": ["Sophanem Slayer Dungeon"],
+				"Not F2P": true
+			},
+			"~|Exploration achievements#Menaphos|~ Feline Good": {
+				"Category": ["Misc achievements"],
+				"Description": "Restore the Grand Library's register of notable cat citizens of Menaphos.",
+				"BaseQuest": "Exploration achievements",
+				"Chunks": [
+					"12586",
+					"Shifting Tombs",
+					"12585",
+					"AnyMenaphosCatLocation[+]",
+					"Pyramid Plunder",
+					"Sophanem Slayer Dungeon",
+					"12587-1",
+					"12843-1",
+					"12588-1",
+					"Soul Rune Temple",
+					"12330"
+				],
+				"RuneScore": 25,
+				"Not F2P": true
+			},
+			"~|Exploration achievements#Menaphos|~ Fishing is Good for the Sole": {
+				"Category": ["Misc achievements", "No RuneScore"],
+				"Description": "Catch a fish in the Ports District.",
+				"BaseQuest": "Exploration achievements",
+				"Objects": ["Fishing spot (Menaphos)"],
+				"Items": ["Fishing bait"],
+				"Skills": {
+					"Fishing": 52
+				},
+				"Not F2P": true
+			},
+			"~|Exploration achievements#Menaphos|~ Follow the Gold-Brick Road": {
+				"Category": ["Misc achievements", "No RuneScore"],
+				"Description": "Solve the mystery of the Golden Path",
+				"BaseQuest": "Exploration achievements",
+				"Chunks": ["Grand Library of Menaphos"],
+				"Not F2P": true
+			},
+			"~|Exploration achievements#Menaphos|~ Game of Tombs V": {
+				"Category": ["Misc achievements"],
+				"Description": "Adventure down 200 shifting tombs and successfully escape.",
+				"BaseQuest": "Exploration achievements",
+				"Chunks": ["Shifting Tombs"],
+				"Skills": {
+					"Agility": 50,
+					"Construction": 50,
+					"Dungeoneering": 50,
+					"Thieving": 50
+				},
+				"NoBoost": true,
+				"RuneScore": 75,
+				"Not F2P": true
+			},
+			"~|Exploration achievements#Menaphos|~ Gotta Catch 'Em Both!": {
+				"Category": ["Misc achievements"],
+				"Description": "Find the hidden pets in Menaphos",
+				"BaseQuest": "Exploration achievements",
+				"Chunks": ["CorruptedEggSpawn[+]"],
+				"Items": ["Slimy egg"],
+				"RuneScore": 10,
+				"Not F2P": true
+			},
+			"~|Exploration achievements#Menaphos|~ Jack of all Menaphos": {
+				"Category": ["Misc achievements", "No RuneScore"],
+				"Description": "Do a bit of everything in Menaphos and claim the cape of the palapa from Urluk.",
+				"BaseQuest": "Exploration achievements",
+				"Chunks": ["12587-1", "12841-1", "12843-1", "12586", "Shifting Tombs", "Sophanem Slayer Dungeon", "13097-1"],
+				"Skills": {
+					"Fishing": 52,
+					"Thieving": 20,
+					"Hunter": 73,
+					"Woodcutting": 50
+				},
+				"Tasks": {
+					"~|The Jack of Spades|~ Complete the quest": "Quest"
+				},
+				"Not F2P": true
+			},
+			"~|Exploration achievements#Menaphos|~ Make a Name for Yourself": {
+				"Category": ["Misc achievements", "No RuneScore"],
+				"Description": "Gain 6,000 reputation with any faction in Menaphos.",
+				"BaseQuest": "Exploration achievements",
+				"Tasks": {
+					"~|The Jack of Spades|~ Complete the quest": "Quest"
+				},
+				"Not F2P": true
+			},
+			"~|Exploration achievements#Menaphos|~ Mining Away": {
+				"Category": ["Misc achievements", "No RuneScore"],
+				"Description": "Mine a rock in the Worker District.",
+				"BaseQuest": "Exploration achievements",
+				"Chunks": ["12587-1"],
+				"Not F2P": true
+			},
+			"~|Exploration achievements#Menaphos|~ Reputation - Boys to Menaphites": {
+				"Category": ["Misc achievements"],
+				"Description": "Earn tier 10 Menaphos reputation.",
+				"BaseQuest": "Exploration achievements",
+				"Tasks": {
+					"~|The Jack of Spades|~ Complete the quest": "Quest"
+				},
+				"RuneScore": 50,
+				"Not F2P": true
+			},
+			"~|Exploration achievements#Menaphos|~ Rock and Roll": {
+				"Category": ["Misc achievements"],
+				"Description": "Recover the Grand Library's collection of valuable and unique gemstones.",
+				"BaseQuest": "Exploration achievements",
+				"Items": [
+					"Phenakite",
+					"Menaphyrite",
+					"Waikonite",
+					"Corundum",
+					"Wavecrest opal",
+					"Maw coral",
+					"Crondite",
+					"Alaeite",
+					"Hetite stone",
+					"Aminishi miststone",
+					"Hauyne",
+					"Tuai Leit sparkle",
+					"Idocrase",
+					"Apmeken amethyst",
+					"Umesco arpos"
+				],
+				"RuneScore": 25,
+				"Not F2P": true
+			},
+			"~|Exploration achievements#Menaphos|~ Slay Bells Ring V": {
+				"Category": ["Misc achievements"],
+				"Description": "Slay a combination of 10,000 corrupted or devourer creatures.",
+				"BaseQuest": "Exploration achievements",
+				"Chunks": ["Sophanem Slayer Dungeon"],
+				"Skills": {
+					"Slayer": 88
+				},
+				"RuneScore": 75,
+				"Not F2P": true
+			},
+			"~|Exploration achievements#Menaphos|~ Squishing Level V": {
+				"Category": ["Misc achievements"],
+				"Description": "Squish 200 corrupted scarabs.",
+				"BaseQuest": "Exploration achievements",
+				"Chunks": ["CorruptedScarabs[+]"],
+				"RuneScore": 75,
+				"Not F2P": true
+			},
+			"~|Exploration achievements#Menaphos|~ Stealing from a Merchant": {
+				"Category": ["Misc achievements", "No RuneScore"],
+				"Description": "Steal from a merchant in the Merchant District.",
+				"BaseQuest": "Exploration achievements",
+				"Chunks": ["12843-1"],
+				"Skills": {
+					"Thieving": 46
+				},
+				"Not F2P": true
+			},
+			"~|Exploration achievements#Menaphos|~ Trip to the Dentist": {
+				"Category": ["Misc achievements", "No RuneScore"],
+				"Description": "Hunt a plover bird in Sophanem",
+				"BaseQuest": "Exploration achievements",
+				"Chunks": ["13097-1"],
+				"Skills": {
+					"Hunter": 73
+				},
+				"Not F2P": true
+			},
+			"~|Exploration achievements#Menaphos|~ Who's the King?": {
+				"Category": ["Misc achievements", "No RuneScore"],
+				"Description": "Discover the Throne Room.",
+				"BaseQuest": "Exploration achievements",
+				"Chunks": ["12586"],
+				"Tasks": {
+					"~|The Jack of Spades|~ Complete the quest": "Quest"
+				},
+				"Not F2P": true
+			},
+			"~|Exploration achievements#Menaphos|~ Complete the Menaphos achievements": {
+				"Category": ["Misc achievements"],
+				"BaseQuest": "Exploration achievements",
+				"Tasks": {
+					"~|Exploration achievements#Menaphos|~ Menaphos Pyramid Scheme": "Diary",
+					"~|Exploration achievements#Menaphos|~ All Abuzz": "Diary",
+					"~|Exploration achievements#Menaphos|~ Dare You Enter the Dungeon?": "Diary",
+					"~|Exploration achievements#Menaphos|~ Feline Good": "Diary",
+					"~|Exploration achievements#Menaphos|~ Fishing is Good for the Sole": "Diary",
+					"~|Exploration achievements#Menaphos|~ Follow the Gold-Brick Road": "Diary",
+					"~|Exploration achievements#Menaphos|~ Game of Tombs V": "Diary",
+					"~|Exploration achievements#Menaphos|~ Gotta Catch 'Em Both!": "Diary",
+					"~|Exploration achievements#Menaphos|~ Jack of all Menaphos": "Diary",
+					"~|Exploration achievements#Menaphos|~ Make a Name for Yourself": "Diary",
+					"~|Exploration achievements#Menaphos|~ Mining Away": "Diary",
+					"~|Exploration achievements#Menaphos|~ Reputation - Boys to Menaphites": "Diary",
+					"~|Exploration achievements#Menaphos|~ Rock and Roll": "Diary",
+					"~|Exploration achievements#Menaphos|~ Slay Bells Ring V": "Diary",
+					"~|Exploration achievements#Menaphos|~ Squishing Level V": "Diary",
+					"~|Exploration achievements#Menaphos|~ Stealing from a Merchant": "Diary",
+					"~|Exploration achievements#Menaphos|~ Trip to the Dentist": "Diary",
+					"~|Exploration achievements#Menaphos|~ Who's the King?": "Diary"
+				},
+				"Reward": [],
+				"ManualShow": true,
+				"Not F2P": true
+			},
+			"~|Exploration achievements#Prifddinas|~ Herald of Light": {
+				"Category": ["Misc achievements"],
+				"Description": "Complete a Seren symbol.",
+				"BaseQuest": "Exploration achievements",
+				"Items": [
+					"Amlodd symbol piece",
+					"Cadarn symbol piece",
+					"Crwys symbol piece",
+					"Hefin symbol piece",
+					"Iorwerth symbol piece",
+					"Ithell symbol piece",
+					"Meilyr symbol piece",
+					"Trahaearn symbol piece"
+				],
+				"Skills": {
+					"Thieving": 98
+				},
+				"RuneScore": 40,
+				"Not F2P": true
+			},
+			"~|Exploration achievements#Prifddinas|~ Perfectly Balanced IV": {
+				"Category": ["Misc achievements"],
+				"Description": "Train on a serenity post 25 times.",
+				"BaseQuest": "Exploration achievements",
+				"Chunks": ["8757"],
+				"Skills": {
+					"Agility": 75
+				},
+				"RuneScore": 65,
+				"Not F2P": true
+			},
+			"~|Exploration achievements#Prifddinas|~ The Ravensworn": {
+				"Category": ["Misc achievements", "Timegated"],
+				"Description": "Obtain the Ravensworn title by spotting 13 ravens in Prifddinas.",
+				"BaseQuest": "Exploration achievements",
+				"Chunks": ["8756-4", "8756-6", "9012-1", "8755"],
+				"RuneScore": 20,
+				"Not F2P": true
+			},
+			"~|Exploration achievements#Prifddinas|~ Complete the Prifddinas achievements": {
+				"Category": ["Misc achievements"],
+				"BaseQuest": "Exploration achievements",
+				"Tasks": {
+					"~|Exploration achievements#Prifddinas|~ Herald of Light": "Diary",
+					"~|Exploration achievements#Prifddinas|~ Perfectly Balanced IV": "Diary",
+					"~|Exploration achievements#Prifddinas|~ The Ravensworn": "Diary"
+				},
+				"Reward": [],
+				"ManualShow": true,
+				"Not F2P": true
+			},
+			"~|Exploration achievements#Senntisten|~ Paranormal Activity": {
+				"Category": ["Misc achievements"],
+				"Description": "Find Rowena 5 times.",
+				"BaseQuest": "Exploration achievements",
+				"Chunks": ["Senntisten"],
+				"RuneScore": 5,
+				"Not F2P": true
+			},
+			"~|Exploration achievements#Senntisten|~ Petruccio's Feaher": {
+				"Category": ["Misc achievements"],
+				"Description": "Find and return Petruccio's feather.",
+				"BaseQuest": "Exploration achievements",
+				"Chunks": ["Senntisten"],
+				"RuneScore": 5,
+				"Not F2P": true
+			},
+			"~|Exploration achievements#Senntisten|~ Silent Assassin": {
+				"Category": ["Misc achievements"],
+				"Description": "Sabotage a Nodon siege engine.",
+				"BaseQuest": "Exploration achievements",
+				"Chunks": ["Senntisten"],
+				"Items": ["Siege engine parts"],
+				"Skills": {
+					"Slayer": 92,
+					"Thieving": 90
+				},
+				"RuneScore": 10,
+				"Not F2P": true
+			},
+			"~|Exploration achievements#Senntisten|~ Whack-a-Nodon": {
+				"Category": ["Misc achievements"],
+				"Description": "Kill 10 Nodon dragonkin with a siege engine.",
+				"BaseQuest": "Exploration achievements",
+				"Chunks": ["Senntisten"],
+				"Items": ["Siege engine parts"],
+				"Skills": {
+					"Slayer": 92,
+					"Construction": 90
+				},
+				"RuneScore": 10,
+				"Not F2P": true
+			},
+			"~|Exploration achievements#Senntisten|~ You Know, I'm Something of an Engineer Myself": {
+				"Category": ["Misc achievements"],
+				"Description": "Repair a Nodon siege engine.",
+				"BaseQuest": "Exploration achievements",
+				"Chunks": ["Senntisten"],
+				"Items": ["Siege engine parts"],
+				"Skills": {
+					"Slayer": 92,
+					"Construction": 90
+				},
+				"RuneScore": 5,
+				"Not F2P": true
+			},
+			"~|Exploration achievements#Senntisten|~ Say No to Food Waste": {
+				"Category": ["Misc achievements"],
+				"Description": "Eat some perfectly cooked ox meat.",
+				"BaseQuest": "Exploration achievements",
+				"Chunks": ["Senntisten"],
+				"Items": ["Law rune", "Air rune[+]"],
+				"Skills": {
+					"Magic": 33
+				},
+				"RuneScore": 5,
+				"Not F2P": true
+			},
+			"~|Exploration achievements#Senntisten|~ Ful Metal Alchemist": {
+				"Category": ["Misc achievements"],
+				"Description": "Cast the High alchemy spell on a bar of obsidian in TzKal-Zuk's arena.",
+				"BaseQuest": "Exploration achievements",
+				"Chunks": ["Senntisten sewers"],
+				"Items": ["Obsidian bar", "Nature rune", "Fire rune[+]"],
+				"Skills": {
+					"Magic": 55
+				},
+				"RuneScore": 5,
+				"Not F2P": true
+			},
+			"~|Exploration achievements#Senntisten|~ Bad Exchange Rate": {
+				"Category": ["Misc achievements"],
+				"Description": "Find and cast the Low alchemy spell on a piece of polished ToKul in TzKal-Zuk's arena.",
+				"BaseQuest": "Exploration achievements",
+				"Chunks": ["Senntisten sewers"],
+				"Items": ["Fire rune[+]", "Nature rune"],
+				"Skills": {
+					"Magic": 21
+				},
+				"RuneScore": 5,
+				"Not F2P": true
+			},
+			"~|Exploration achievements#Senntisten|~ I've Got Fire Powers Too!": {
+				"Category": ["Misc achievements"],
+				"Description": "Cast the Superheat spell whilst helping out the mages defend against the Arch-Glacor",
+				"BaseQuest": "Exploration achievements",
+				"Chunks": [""],
+				"Items": ["Gold ore", "Fire rune[+]", "Nature rune"],
+				"Skills": {
+					"Magic": 43
+				},
+				"RuneScore": 5,
+				"Not F2P": true
+			},
+			"~|Exploration achievements#Senntisten|~ Just Peachy": {
+				"Category": ["Misc achievements"],
+				"Description": "Cast the Bones ot peaches spell on some bones within Senntisten.",
+				"BaseQuest": "Exploration achievements",
+				"Chunks": ["Senntisten"],
+				"Items": ["Bones to Peaches spell", "Bones", "Water rune[+]", "Earth rune[+]", "Nature rune"],
+				"Skills": {
+					"Magic": 60
+				},
+				"RuneScore": 5,
+				"Not F2P": true
+			},
+			"~|Exploration achievements#Senntisten|~ Five a Day": {
+				"Category": ["Misc achievements"],
+				"Description": "Cast the Bones to bananas spell on some bones within Senntisten.",
+				"BaseQuest": "Exploration achievements",
+				"Chunks": ["Senntisten"],
+				"Items": ["Bones", "Water rune[+]", "Earth rune[+]", "Nature rune"],
+				"Skills": {
+					"Magic": 15
+				},
+				"RuneScore": 5,
+				"Not F2P": true
+			},
+			"~|Exploration achievements#Senntisten|~ TzKal-Zuk! Ice Cream!": {
+				"Category": ["Misc achievements"],
+				"Description": "Bring TzKal-Zuk a Chimp Ice",
+				"BaseQuest": "Exploration achievements",
+				"Chunks": ["13613", "Senntisten sewers"],
+				"Items": ["Water rune[+]", "AncientMagicRunes[+]"],
+				"Skills": {
+					"Magic": 70
+				},
+				"Tasks": {
+					"~|Do No Evil|~ 5": "Quest"
+				},
+				"RuneScore": 5,
+				"Not F2P": true
+			},
+			"~|Exploration achievements#Senntisten|~ Could Do with a Few Cushions": {
+				"Category": ["Misc achievements"],
+				"Description": "Have a rest on TzKal-Zuk's seat after defeating him.",
+				"BaseQuest": "Exploration achievements",
+				"Monsters": ["TzKal-Zuk"],
+				"RuneScore": 5,
+				"Not F2P": true
+			},
+			"~|Exploration achievements#Senntisten|~ Who Needs Ancient Magicks?": {
+				"Category": ["Misc achievements"],
+				"Description": "Complete the following set of achievements.",
+				"BaseQuest": "Exploration achievements",
+				"Tasks": {
+					"~|Exploration achievements#Senntisten|~ Say No to Food Waste": "Diary",
+					"~|Exploration achievements#Senntisten|~ Ful Metal Alchemist": "Diary",
+					"~|Exploration achievements#Senntisten|~ Bad Exchange Rate": "Diary",
+					"~|Exploration achievements#Senntisten|~ I've Got Fire Powers Too!": "Diary",
+					"~|Exploration achievements#Senntisten|~ Just Peachy": "Diary",
+					"~|Exploration achievements#Senntisten|~ Five a Day": "Diary"
+				},
+				"RuneScore": 25,
+				"Not F2P": true
+			},
+			"~|Exploration achievements#Senntisten|~ Complete the Senntisten achievements": {
+				"Category": ["Misc achievements"],
+				"BaseQuest": "Exploration achievements",
+				"Tasks": {
+					"~|Exploration achievements#Senntisten|~ Paranormal Activity": "Diary",
+					"~|Exploration achievements#Senntisten|~ Petruccio's Feaher": "Diary",
+					"~|Exploration achievements#Senntisten|~ Silent Assassin": "Diary",
+					"~|Exploration achievements#Senntisten|~ Whack-a-Nodon": "Diary",
+					"~|Exploration achievements#Senntisten|~ You Know, I'm Something of an Engineer Myself": "Diary",
+					"~|Exploration achievements#Senntisten|~ TzKal-Zuk! Ice Cream!": "Diary",
+					"~|Exploration achievements#Senntisten|~ Could Do with a Few Cushions": "Diary",
+					"~|Exploration achievements#Senntisten|~ Who Needs Ancient Magicks?": "Diary"
+				},
+				"Reward": [],
+				"ManualShow": true,
+				"Not F2P": true
+			},
+			"~|Exploration achievements#The Arc|~ Arc Journal": {
+				"Category": ["Misc achievements"],
+				"Description": "Complete the Arc journal.",
+				"BaseQuest": "Exploration achievements",
+				"Objects": [
+					"Message in a bottle (Milky Bay)",
+					"Message in a bottle (The Goon Docks)",
+					"Message in a bottle (Christmas Island)",
+					"Message in a bottle (The Island Which May or May Not Have Monkeys on It)",
+					"Message in a bottle (Springbreak Island)",
+					"Message in a bottle (Cannonball Run)",
+					"Message in a bottle (Eisetes Cretor)",
+					"Message in a bottle (The Hamlet)",
+					"Message in a bottle (Quis-land)",
+					"Message in a bottle (Agar Atoll)"
+				],
+				"Tasks": {
+					"~|Exploration achievements#The Arc|~ Birds of the Arc": "Diary",
+					"~|Exploration achievements#The Arc|~ Mushrooms of the Arc": "Diary",
+					"~|Exploration achievements#The Arc|~ Berries of the Arc": "Diary",
+					"~|Exploration achievements#The Arc|~ Kami Spirits of the Arc": "Diary",
+					"~|Final Destination (miniquest)|~ Complete the miniquest": "Quest"
+				},
+				"RuneScore": 50,
+				"Not F2P": true
+			},
+			"~|Exploration achievements#The Arc|~ Berries of the Arc": {
+				"Category": ["Misc achievements"],
+				"Description": "Discover all the Arc berries.",
+				"BaseQuest": "Exploration achievements",
+				"Chunks": ["15139"],
+				"Items": [
+					"Rumberry", 
+					"Exuberry", 
+					"Fireberry", 
+					"Blisterberry", 
+					"Mournberry", 
+					"Stoneberry", 
+					"Stormberry", 
+					"Rosaberry", 
+					"Squiffberry", 
+					"Meloberry", 
+					"Jitterberry", 
+					"Cocoaberry", 
+					"Smoulderberry", 
+					"Sourberry", 
+					"Gloomberry", 
+					"Musaberry"
+				],
+				"RuneScore": 25,
+				"Not F2P": true
+			},
+			"~|Exploration achievements#The Arc|~ Birds of the Arc": {
+				"Category": ["Misc achievements"],
+				"Description": "Discover all the Arc birds.",
+				"BaseQuest": "Exploration achievements",
+				"Items": [
+					"Cyclosis Cockatiel",
+					"Pumpkin Limpkin",
+					"Cyansoul Kakapo",
+					"Tortleshell Plover",
+					"Dusky Wigglebill",
+					"Titchy Tinamou",
+					"Azure parrot",
+					"Awah Guan",
+					"Great Pecker",
+					"Tuai Leit Toucan",
+					"Waiko Warbler",
+					"Fluffy Jublet",
+					"Cocoa Macaw",
+					"Gongdung Peligorn",
+					"Crested Sillago Snatcher",
+					"Shrine Ibis"
+				],
+				"RuneScore": 25,
+				"Not F2P": true
+			},
+			"~|Exploration achievements#The Arc|~ Crying Over Foraged Milk": {
+				"Category": ["Misc achievements"],
+				"Description": "Cry after harvesting a Lactarius mushroom in the Arc.",
+				"BaseQuest": "Exploration achievements",
+				"Objects": ["Mushroom cluster#The Islands That Once Were Turtles"],
+				"Skills": {
+					"Farming": 90
+				},
+				"RuneScore": 5,
+				"Not F2P": true
+			},
+			"~|Exploration achievements#The Arc|~ Gumbo Jumbo": {
+				"Category": ["Misc achievements"],
+				"Description": "Cook both variations of soup from the Arc region.",
+				"BaseQuest": "Exploration achievements",
+				"Objects": ["Cooking object[+]"],
+				"Items": ["Uncooked shark soup", "Uncooked arc gumbo"],
+				"Skills": {
+					"Cooking": 96
+				},
+				"RuneScore": 20,
+				"Not F2P": true
+			},
+			"~|Exploration achievements#The Arc|~ Kami Spirits of the Arc": {
+				"Category": ["Misc achievements"],
+				"Description": "Discover all the Arc kami spirits.",
+				"BaseQuest": "Exploration achievements",
+				"Chunks": ["Uncharted Isles", "The Arc[+]"],
+				"Items": ["Impling jar"],
+				"Skills": {
+					"Hunter": 95
+				},
+				"RuneScore": 25,
+				"Not F2P": true
+			},
+			"~|Exploration achievements#The Arc|~ Mushrooms of the Arc": {
+				"Category": ["Misc achievements"],
+				"Description": "Discover all the Arc mushrooms.",
+				"BaseQuest": "Exploration achievements",
+				"Items": [
+					"Wushroom",
+					"Corpsebloom",
+					"Lactarius",
+					"Paraspore",
+					"Buttercap",
+					"Blushroom",
+					"Purple bellow",
+					"Snufftruffle",
+					"Inky cap",
+					"Sporcini",
+					"Toastool",
+					"Honeyfungus",
+					"Arc puffball",
+					"Russula",
+					"Summertwirl"
+				],
+				"RuneScore": 25,
+				"Not F2P": true
+			},
+			"~|Exploration achievements#The Arc|~ Rewards of the Arc": {
+				"Category": ["Misc achievements"],
+				"Description": "Collect your rewards for completing all Arc collections.",
+				"BaseQuest": "Exploration achievements",
+				"Chunks": ["17176-1", "14883"],
+				"Tasks": {
+					"~|Exploration achievements#The Arc|~ Birds of the Arc": "Diary",
+					"~|Exploration achievements#The Arc|~ Ani of the Arc": "Diary",
+					"~|Exploration achievements#The Arc|~ Sensei seaworth of the Arc": "Diary"
+				},
+				"RuneScore": 5,
+				"Not F2P": true
+			},
+			"~|Exploration achievements#The Arc|~ Uncharted VI": {
+				"Category": ["Misc achievements"],
+				"Description": "Travel to 100 uncharted islands.",
+				"BaseQuest": "Exploration achievements",
+				"Chunks": ["Uncharted Isles"],
+				"RuneScore": 155,
+				"Not F2P": true
+			},
+			"~|Exploration achievements#The Arc|~ Upgrading Waiko II": {
+				"Category": ["Misc achievements"],
+				"Description": "Purchase all tiers of upgrades in the Waiko reward shop.",
+				"BaseQuest": "Exploration achievements",
+				"Chunks": ["15134"],
+				"Items": ["Taijitu"],
+				"RuneScore": 30,
+				"Not F2P": true
+			},
+			"~|Exploration achievements#The Arc|~ Unlocking Waiko II": {
+				"Category": ["Misc achievements"],
+				"Description": "Purchase additional unlocks from the Waiko reward shop.",
+				"BaseQuest": "Exploration achievements",
+				"Chunks": ["15134"],
+				"Items": ["Taijitu", "Mask of gu"],
+				"Skills": {
+					"Agility": 90
+				},
+				"RuneScore": 30,
+				"Not F2P": true
+			},
+			"~|Exploration achievements#The Arc|~ Complete the The Arc achievements": {
+				"Category": ["Misc achievements"],
+				"BaseQuest": "Exploration achievements",
+				"Tasks": {
+					"~|Exploration achievements#The Arc|~ Arc Journal": "Diary",
+					"~|Exploration achievements#The Arc|~ Crying Over Foraged Milk": "Diary",
+					"~|Exploration achievements#The Arc|~ Gumbo Jumbo": "Diary",
+					"~|Exploration achievements#The Arc|~ Rewards of the Arc": "Diary",
+					"~|Exploration achievements#The Arc|~ Uncharted VI": "Diary",
+					"~|Exploration achievements#The Arc|~ Upgrading Waiko II": "Diary",
+					"~|Exploration achievements#The Arc|~ Unlocking Waiko II": "Diary"
+				},
+				"Reward": [],
+				"ManualShow": true,
+				"Not F2P": true
+			},
+			"~|Exploration achievements#Zolarea|~ Astrobotany Expert": {
+				"Category": ["Misc achievements"],
+				"Description": "Harvest a starbloom on Zolarea.",
+				"BaseQuest": "Exploration achievements",
+				"Chunks": ["Zolarea"],
+				"Items": ["Starbloom flower seed", "Battlestaff"],
+				"Skills": {
+					"Farming": 100
+				},
+				"Tasks": {
+					"~|Stellar Born|~ Complete the quest": "Quest"
+				},
+				"RuneScore": 10,
+				"Not F2P": true
+			},
+			"~|Exploration achievements#Zolarea|~ Dude, Where's My Star?": {
+				"Category": ["Misc achievements"],
+				"Description": "Find a lost star sprite on Zolarea.",
+				"BaseQuest": "Exploration achievements",
+				"Chunks": ["Zolarea"],
+				"Tasks": {
+					"~|Stellar Born|~ Complete the quest": "Quest"
+				},
+				"RuneScore": 5,
+				"Not F2P": true
+			},
+			"~|Exploration achievements#Zolarea|~ Faster Than Light": {
+				"Category": ["Misc achievements"],
+				"Description": "Double surge in space.",
+				"BaseQuest": "Exploration achievements",
+				"Chunks": ["Zolarea"],
+				"Items": ["Double Surge codex"],
+				"Skills": {
+					"Agility": 5
+				},
+				"Tasks": {
+					"~|Stellar Born|~ Complete the quest": "Quest"
+				},
+				"RuneScore": 10,
+				"Not F2P": true
+			},
+			"~|Exploration achievements#Zolarea|~ Feeling Starsick": {
+				"Category": ["Misc achievements"],
+				"Description": "Bring your star sprite back to their house.",
+				"BaseQuest": "Exploration achievements",
+				"Chunks": ["Zolarea"],
+				"Items": ["Star sprite (pet)"],
+				"Tasks": {
+					"~|Stellar Born|~ Complete the quest": "Quest"
+				},
+				"RuneScore": 10,
+				"Not F2P": true
+			},
+			"~|Exploration achievements#Zolarea|~ Gielinor Attacks!": {
+				"Category": ["Misc achievements"],
+				"Description": "Attempt to use a cannon on Zolarea.",
+				"BaseQuest": "Exploration achievements",
+				"Chunks": ["Zolarea"],
+				"Tasks": {
+					"~|Stellar Born|~ Complete the quest": "Quest",
+					"~|Dwarf Cannon|~ Complete the quest": "Quest"
+				},
+				"RuneScore": 5,
+				"Not F2P": true
+			},
+			"~|Exploration achievements#Zolarea|~ I Can See My House From Here!": {
+				"Category": ["Misc achievements"],
+				"Description": "Use a telescope on Zolarea.",
+				"BaseQuest": "Exploration achievements",
+				"Chunks": ["Zolarea"],
+				"Items": ["Portable telescope"],
+				"Tasks": {
+					"~|Stellar Born|~ Complete the quest": "Quest"
+				},
+				"RuneScore": 10,
+				"Not F2P": true
+			},
+			"~|Exploration achievements#Zolarea|~ One Of Us! One Of Us!": {
+				"Category": ["Misc achievements"],
+				"Description": "Transform into a native of Zolarea in front of one.",
+				"BaseQuest": "Exploration achievements",
+				"Chunks": ["Zolarea"],
+				"Tasks": {
+					"~|Stellar Born|~ Complete the quest": "Quest"
+				},
+				"RuneScore": 5,
+				"Not F2P": true
+			},
+			"~|Exploration achievements#Zolarea|~ One Small Step For Fleakind": {
+				"Category": ["Misc achievements"],
+				"Description": "Befriend a space flea.",
+				"BaseQuest": "Exploration achievements",
+				"Chunks": ["Zolarea"],
+				"Items": ["Zolarea flea brush[+]"],
+				"Tasks": {
+					"~|Stellar Born|~ Complete the quest": "Quest"
+				},
+				"RuneScore": 5,
+				"Not F2P": true
+			},
+			"~|Exploration achievements#Zolarea|~ The Dark Star Stares Back": {
+				"Category": ["Misc achievements"],
+				"Description": "Gaze into the dark star.",
+				"BaseQuest": "Exploration achievements",
+				"Chunks": ["Zolarea"],
+				"Tasks": {
+					"~|Stellar Born|~ Complete the quest": "Quest"
+				},
+				"RuneScore": 5,
+				"Not F2P": true
+			},
+			"~|Exploration achievements#Zolarea|~ Complete the Zolarea achievements": {
+				"Category": ["Misc achievements"],
+				"BaseQuest": "Exploration achievements",
+				"Tasks": {
+					"~|Exploration achievements#Zolarea|~ Astrobotany Expert": "Diary",
+					"~|Exploration achievements#Zolarea|~ Dude, Where's My Star?": "Diary",
+					"~|Exploration achievements#Zolarea|~ Faster Than Light": "Diary",
+					"~|Exploration achievements#Zolarea|~ Feeling Starsick": "Diary",
+					"~|Exploration achievements#Zolarea|~ Gielinor Attacks!": "Diary",
+					"~|Exploration achievements#Zolarea|~ I Can See My House From Here!": "Diary",
+					"~|Exploration achievements#Zolarea|~ One Of Us! One Of Us!": "Diary",
+					"~|Exploration achievements#Zolarea|~ One Small Step For Fleakind": "Diary",
+					"~|Exploration achievements#Zolarea|~ The Dark Star Stares Back": "Diary"
+				},
+				"Reward": [],
 				"ManualShow": true,
 				"Not F2P": true
 			}
@@ -131474,20 +132733,6 @@
 				"Category": ["Achievement", "Misc achievements"],
 				"Label": "Achievement",
 				"Chunks": ["9526-1"]
-			},
-			"Complete the ~|Sole to Soul|~ achievement": {
-				"Category": ["Achievement", "Misc achievements"],
-				"Label": "Achievement",
-				"Chunks": ["City of Um"],
-				"NPCs": ["Ghost cat"],
-				"Items": ["GhostlySole[+]"]
-			},
-			"Complete the ~|Tasty Bobbles|~ achievement": {
-				"Category": ["Achievement", "Misc achievements"],
-				"Label": "Achievement",
-				"Tasks": {
-					"~|Gower Quest|~ Complete the quest": "Quest"
-				}
 			},
 			"~|hidey-hole|~: Lumbridge Swamp shed": {
 				"Category": ["Fill Stash"],
@@ -132096,28 +133341,6 @@
 				"Label": "Arc Journal",
 				"Items": ["Shrine Ibis"]
 			},
-			"Obtain the ~|Birds of the Arc|~ achievement": {
-				"Category": ["Arc Log", "Achievement"],
-				"Label": "Achievement",
-				"Tasks": {
-					"Spot the ~|Cyclosis Cockatiel|~": "Extra",
-					"Spot the ~|Pumpkin Limpkin|~": "Extra",
-					"Spot the ~|Cyansoul Kakapo|~": "Extra",
-					"Spot the ~|Tortleshell Plover|~": "Extra",
-					"Spot the ~|Dusky Wigglebill|~": "Extra",
-					"Spot the ~|Titchy Tinamou|~": "Extra",
-					"Spot the ~|Azure parrot|~": "Extra",
-					"Spot the ~|Awah Guan|~": "Extra",
-					"Spot the ~|Great Pecker|~": "Extra",
-					"Spot the ~|Tuai Leit Toucan|~": "Extra",
-					"Spot the ~|Waiko Warbler|~": "Extra",
-					"Spot the ~|Fluffy Jublet|~": "Extra",
-					"Spot the ~|Cocoa Macaw|~": "Extra",
-					"Spot the ~|Gongdung Peligorn|~": "Extra",
-					"Spot the ~|Crested Sillago Snatcher|~": "Extra",
-					"Spot the ~|Shrine Ibis|~": "Extra"
-				}
-			},
 			"Obtain ~|Iago|~": {
 				"Category": ["Arc Log", "Pets"],
 				"Label": "Pets",
@@ -132145,42 +133368,6 @@
 				"Category": ["Pets"],
 				"Label": "Pets",
 				"Chunks": ["12084-1"]
-			},
-			"Obtain the ~|Berries of the Arc|~ achievement": {
-				"Category": ["Arc Log", "Achievement"],
-				"Label": "Achievement",
-				"Chunks": ["15139"],
-				"Items": ["Rumberry", "Exuberry", "Fireberry", "Blisterberry", "Mournberry", "Stoneberry", "Stormberry", "Rosaberry", "Squiffberry", "Meloberry", "Jitterberry", "Cocoaberry", "Smoulderberry", "Sourberry", "Gloomberry", "Musaberry"]
-			},
-			"Obtain the ~|Mushrooms of the Arc|~ achievement": {
-				"Category": ["Arc Log", "Achievement"],
-				"Label": "Achievement",
-				"Items": ["Wushroom", "Corpsebloom", "Immorel", "Lactarius", "Paraspore", "Buttercap", "Blushroom", "Purple bellow", "Snufftruffle", "Inky cap", "Sporcini", "Toastool", "Honeyfungus", "Arc puffball", "Russula", "Summertwirl"]
-			},
-			"Obtain the ~|Kami Spirits of the Arc|~ achievement": {
-				"Category": ["Arc Log", "Achievement"],
-				"Label": "Achievement",
-				"Tasks": {
-					"Catch an ~|oily bakami|~": "Hunter",
-					"Catch a ~|bundling bakami|~": "Hunter",
-					"Catch a ~|salty bakami|~": "Hunter",
-					"Catch a ~|stalking bakami|~": "Hunter",
-					"Catch a ~|foraging bakami|~": "Hunter",
-					"Catch an ~|ancestral bakami|~": "Hunter",
-					"Catch a ~|murderous bakami|~": "Hunter",
-					"Catch an ~|fortunate bakami|~": "Hunter",
-					"Catch an ~|oily orokami|~": "Hunter",
-					"Catch a ~|bundling orokami|~": "Hunter",
-					"Catch a ~|salty orokami|~": "Hunter",
-					"Catch a ~|stalking orokami|~": "Hunter",
-					"Catch a ~|foraging orokami|~": "Hunter",
-					"Catch an ~|ancestral orokami|~": "Hunter",
-					"Catch a ~|murderous orokami|~": "Hunter",
-					"Catch an ~|fortunate orokami|~": "Hunter"
-				},
-				"XpReward": {
-					"Hunter": 50000
-				}
 			},
 			"Find ~|Milky Joel|~": {
 				"Category": ["Arc Log"],
@@ -132241,28 +133428,6 @@
 				"Label": "Arc Journal",
 				"Objects": ["Message in a bottle (Agar Atoll)"],
 				"Reward": ["Taijitu"]
-			},
-			"Obtain the ~|Castaways of the Arc|~ achievement": {
-				"Category": ["Arc Log", "Achievement"],
-				"Label": "Achievement",
-				"Tasks": {
-					"Find ~|Milky Joel|~": "Extra",
-					"Find ~|One-Eyed Willy|~": "Extra",
-					"Find ~|Manti Claws|~": "Extra",
-					"Find ~|Swabbie Steve|~": "Extra",
-					"Find ~|TzHaar-Ga'al-Knot|~": "Extra",
-					"Find ~|The Cannonballs|~": "Extra",
-					"Find ~|Azalea Oakheart|~": "Extra",
-					"Find ~|Harley|~": "Extra",
-					"Find ~|Squick|~": "Extra",
-					"Find ~|Salmon Ella|~": "Extra"
-				}
-			},
-			"Obtain the ~|Flippers (achievement)|~ achievement": {
-				"Category": ["Achievement", "Misc achievements"],
-				"Label": "Achievement",
-				"NPCs": ["Flipper McGraw"],
-				"Items": ["ArcFish[+]"]
 			},
 			"Find a ~|Menaphite honey bee in amber|~": {
 				"Category": ["Menaphos Log"],
@@ -145867,7 +147032,7 @@
 			"Unlock the ~|star sprite (pet)|~": {
 				"Category": ["Permanent Unlockables", "Pets"],
 				"Label": "Follower Pets",
-				"Items": ["Star sprite"]
+				"Items": ["Star sprite (pet)"]
 			},
 			"Unlock ~|Scarlett|~": {
 				"Category": ["Permanent Unlockables", "Pets"],
@@ -146510,14 +147675,6 @@
 				},
 				"Requirements": {
 					"Construction": 92
-				}
-			},
-			"Unlock the ~|Fort Forinthry lodestone|~": {
-				"Category": ["Permanent Unlockables"],
-				"Label": "Permanent Unlockables",
-				"Items": ["Limestone brick*"],
-				"Tasks": {
-					"~|New Foundations|~ Complete the quest": "Quest"
 				}
 			},
 			"Unlock the ~|slayer helmet stand|~": {
@@ -147968,17 +149125,30 @@
 			"Obtain ~|the Voyager|~ title": {
 				"Category": ["Arc Log", "Titles"],
 				"Label": "Titles",
+				"Chunks": ["The Arc[+]", "Uncharted Isles"],
+				"Objects": [
+					"Message in a bottle (Milky Bay)",
+					"Message in a bottle (The Goon Docks)",
+					"Message in a bottle (Christmas Island)",
+					"Message in a bottle (The Island Which May or May Not Have Monkeys on It)",
+					"Message in a bottle (Springbreak Island)",
+					"Message in a bottle (Cannonball Run)",
+					"Message in a bottle (Eisetes Cretor)",
+					"Message in a bottle (The Hamlet)",
+					"Message in a bottle (Quis-land)",
+					"Message in a bottle (Agar Atoll)"
+				],
+				"Items": [
+					"Wushroom", "Corpsebloom", "Lactarius", "Paraspore", "Buttercap", "Blushroom", "Purple bellow", "Snufftruffle", "Inky cap", "Sporcini", "Toastool", "Honeyfungus", "Arc puffball", "Russula", "Summertwirl",
+					"Rumberry", "Exuberry", "Fireberry", "Blisterberry", "Mournberry", "Stoneberry", "Stormberry", "Rosaberry", "Squiffberry", "Meloberry", "Jitterberry", "Cocoaberry", "Smoulderberry", "Sourberry", "Gloomberry", "Musaberry",
+					"Cyclosis Cockatiel", "Pumpkin Limpkin", "Cyansoul Kakapo", "Tortleshell Plover", "Dusky Wigglebill", "Titchy Tinamou", "Azure parrot", "Awah Guan", "Great Pecker", "Tuai Leit Toucan", "Waiko Warbler", "Fluffy Jublet", "Cocoa Macaw", "Gongdung Peligorn", "Crested Sillago Snatcher", "Shrine Ibis"
+				],
 				"Requirements": {
 					"Farming": 94,
 					"Hunter": 95,
 					"Divination": 90
 				},
 				"Tasks": {
-					"Obtain the ~|Castaways of the Arc|~ achievement": "Extra",
-					"Obtain the ~|Kami Spirits of the Arc|~ achievement": "Extra",
-					"Obtain the ~|Mushrooms of the Arc|~ achievement": "Extra",
-					"Obtain the ~|Berries of the Arc|~ achievement": "Extra",
-					"Obtain the ~|Birds of the Arc|~ achievement": "Extra",
 					"~|Final Destination (miniquest)|~ Complete the miniquest": "Quest"
 				}
 			},
@@ -149455,7 +150625,7 @@
 				}
 			},
 			"Obtain the ~|the Ravensworn|~ title": {
-				"Category": ["Titles"],
+				"Category": ["Titles", "Timegated"],
 				"Label": "Titles",
 				"Chunks": ["8756-4", "8756-6", "9012-1", "8755"]
 			},
@@ -204350,7 +205520,9 @@
 						"Matthew (Wendlewick)": 1,
 						"Miriam": 1,
 						"Jacob": 1,
-						"Shopkeeper Tom": 1
+						"Shopkeeper Tom": 1,
+						"Marigold (Wendlewick)": 1,
+						"Drunken villager": 1
 					},
 					"Monster": {},
 					"Connect": {},
@@ -204436,7 +205608,9 @@
 				"Fishmonger's assistant": 1,
 				"Grocer's assistant": 1,
 				"Hawk (Havenhythe)": 1,
-				"Winifred": 1
+				"Winifred": 1,
+				"Bear (Wendlewick)": 1,
+				"Pork Pie (cat)": 1
 			},
 			"Monster": {
 				"Ranger": 2
@@ -205137,7 +206311,8 @@
 				"Onyx the Black": 1,
 				"Master Farmer David": 1,
 				"Villager (Wendlewick)": 1,
-				"Musician": 1
+				"Musician": 1,
+				"Humphrey": 1
 			},
 			"Connect": {
 				"6473": true,
@@ -225808,6 +226983,7 @@
 				"Ancient globe",
 				"'Prima Legio' painting"
 			],
+			"Zolarea flea brush[+]": ["Balarak's sash brush", "Small fishing net", "Big fishing net", "Specimen brush", "Butterfly net", "Magic butterfly net", "Ivory comb"],
 			"BrassicanComps[+]": [
 				"Cabbage", 
 				"Chaos relic (rare)", 
@@ -227394,6 +228570,7 @@
 			"ZanarianZygoParents[+]": "Any breedable zygomyte variant",
 			"ZarosAnimaCore[+]": "Any piece of Zaros anima core armour",
 			"Zarosian Artefact[+]": "Any artefact from Zarosian culture",
+			"Zolarea flea brush[+]": "Any item to befriend a space flea",
 			"BrassicanComps[+]": "Any source for Brassican components",
 			"KnightlyComps[+]": "Any source for knightly components",
 			"DragonfireComps[+]": "Any source for dragonfire components",
@@ -227451,6 +228628,7 @@
 			"ChaosTunnelEntrance[+]": ["12343-1", "12599", "12600", "12344", "12087-1"],
 			"Construction Contract[+]": ["12338-1", "12850-1", "12853-1", "12342-1"],
 			"CoolStoryBroChunks[+]": ["9275", "9531-1"],
+			"CorruptedEggSpawn[+]": ["12841-1", "12842", "12331-1", "12330", "13098-1", "13099"],
 			"CorruptedScarabs[+]": ["12587-1", "12843-1", "13098-1", "12586", "12585"],
 			"CropCircle[+]": ["9782-1", "10044-1", "10288-1", "10292", "11058", "11062-1", "11826", "11829-1", "12339", "12595", "12598", "12852", "14639"],
 			"CreatureOfFenkenstrain1[+]": ["13878-1", "14135"],
@@ -227552,6 +228730,7 @@
 			"Construction Contract[+]": "Any location used in Construction Contracts",
 			"CoolStoryBroChunks[+]": "Any chunk from which you can watch the Fremennik Isle tower guard shouting match",
 			"CorruptedScarabs[+]": "Any chunk in which Corrupted Scarabs spawn",
+			"CorruptedEggSpawn[+]": "Any chunk in which the corrupted egg might appear",
 			"CreatureOfFenkenstrain1[+]": "Any chunk where you can start 'Creature of Fenkenstrain'",
 			"CropCircle[+]": "Any chunk where a crop circle can spawn",
 			"CursedEnergyRift[+]": "Any Chunk where you can obtain and deposit cursed energy",

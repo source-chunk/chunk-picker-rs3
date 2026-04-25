@@ -3500,6 +3500,9 @@ let calcChallenges = function(chunks, baseChunkData) {
                 }
                 questProgress[chunkInfo['challenges']['Quest'][line]['BaseQuest']].push(line);
             }
+			if (chunkInfo['challenges']['Quest'].hasOwnProperty(line) && chunkInfo['challenges']['Quest'][line].hasOwnProperty('RuneScore') && (!backlog['Quest'] || (!backlog['Quest'].hasOwnProperty(line) && !backlog['Quest'].hasOwnProperty(line.replaceAll('#', '/'))))) {
+                runeScoreTotal += chunkInfo['challenges']['Quest'][line]['RuneScore'];
+            }
             if (chunkInfo['challenges']['Quest'].hasOwnProperty(line) && chunkInfo['challenges']['Quest'][line].hasOwnProperty('XpReward')) {
                 Object.keys(chunkInfo['challenges']['Quest'][line]['XpReward']).filter((skill) => { return !passiveSkill || !passiveSkill.hasOwnProperty(skill) || passiveSkill[skill] <= 1 }).forEach((skill) => {
                     if (!skillQuestXp[skill]) {
