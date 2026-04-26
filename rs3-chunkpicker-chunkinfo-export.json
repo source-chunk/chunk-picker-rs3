@@ -687,7 +687,7 @@
 			},
 			"Cross the ~|obstacle pipe (Yanille Agility dungeon)|~": {
 				"Category": ["Shortcut"],
-				"Chunks": ["10388"],
+				"Chunks": ["Yanille Agility Dungeon"],
 				"Level": 49,
 				"Primary": true,
 				"Priority": 1,
@@ -970,7 +970,7 @@
 			},
 			"Cross the ~|weathered wall|~": {
 				"Category": ["Shortcut"],
-				"Chunks": ["14746"],
+				"Chunks": ["Ectofuntus"],
 				"Level": 58,
 				"Primary": false,
 				"Priority": 1,
@@ -1183,7 +1183,7 @@
 			},
 			"Cross the ~|pile of rubble|~": {
 				"Category": ["Shortcut"],
-				"Chunks": ["10388"],
+				"Chunks": ["Yanille Agility Dungeon"],
 				"Level": 67,
 				"Primary": true,
 				"Priority": 1,
@@ -1636,7 +1636,7 @@
 			},
 			"Cross the ~|low wall (Kuradal's Dungeon)|~": {
 				"Category": ["Shortcut"],
-				"Chunks": ["Kuradals Dungeon"],
+				"Chunks": ["Kuradal's Dungeon"],
 				"Level": 86,
 				"Primary": true,
 				"Priority": 1,
@@ -1666,7 +1666,7 @@
 			},
 			"Cross the ~|gap (Kuradal's Dungeon)|~": {
 				"Category": ["Shortcut"],
-				"Chunks": ["Kuradals Dungeon"],
+				"Chunks": ["Kuradal's Dungeon"],
 				"Level": 90,
 				"Primary": true,
 				"Priority": 2,
@@ -7353,7 +7353,7 @@
 				"Tasks": {
 					"Complete the ~|Archaeology tutorial|~": "Archaeology"
 				},
-				"Items": ["Spear of Annihilation with shaft + spokes", "Vulcaninsed rubber", "Malachite green", "Goldrune"],
+				"Items": ["Spear of Annihilation with shaft + spokes", "Vulcanised rubber", "Malachite green", "Goldrune"],
 				"Objects": ["Archaeologist's workbench"],
 				"Level": 115,
 				"Output": "Spear of Annihilation",
@@ -20977,7 +20977,7 @@
 				"Priority": 9
 			},
 			"Craft a ~|ruby necklace|~": {
-				"Chunks": ["Ruby*", "Gold bar*"],
+				"Items": ["Ruby*", "Gold bar*"],
 				"Level": 40,
 				"Output": "Ruby necklace",
 				"Objects": ["CraftingFurnace[+]"],
@@ -23325,7 +23325,7 @@
 			},
 			"Crush some ~|meteorite dust|~": {
 				"Level": 85,
-				"Objects": ["Meteorite chunk"],
+				"Items": ["Meteorite chunk"],
 				"Primary": true,
 				"Output": "Meteorite dust",
 				"Priority": 38,
@@ -23796,14 +23796,14 @@
 				"Partial": true
 			},
 			"Craft a ~|sirenic mask|~": {
-				"Items": ["Sirenic scale*", "Algarum Thread*"],
+				"Items": ["Sirenic scale*", "Algarum thread*"],
 				"Level": 91,
 				"Output": "Sirenic mask",
 				"Primary": true,
 				"Priority": 1
 			},
 			"Craft an ~|elite sirenic mask|~": {
-				"Items": ["Ancient scale*", "Algarum Thread*", "Praesulic essence (ranged)*"],
+				"Items": ["Ancient scale*", "Algarum thread*", "Praesulic essence (ranged)*"],
 				"Level": 91,
 				"Output": "Elite sirenic mask",
 				"Primary": true,
@@ -23842,14 +23842,14 @@
 				"Not F2P": true
 			},
 			"Craft ~|sirenic chaps|~": {
-				"Items": ["Sirenic scale*", "Algarum Thread*"],
+				"Items": ["Sirenic scale*", "Algarum thread*"],
 				"Level": 92,
 				"Output": "Sirenic chaps",
 				"Primary": true,
 				"Priority": 1
 			},
 			"Craft ~|elite sirenic chaps|~": {
-				"Items": ["Ancient scale*", "Algarum Thread*", "Praesulic essence (ranged*)"],
+				"Items": ["Ancient scale*", "Algarum thread*", "Praesulic essence (ranged*)"],
 				"Level": 92,
 				"Output": "Elite sirenic chaps",
 				"Primary": true,
@@ -23971,14 +23971,14 @@
 				"Not F2P": true
 			},
 			"Craft a ~|sirenic hauberk|~": {
-				"Items": ["Sirenic scale*", "Algarum Thread*"],
+				"Items": ["Sirenic scale*", "Algarum thread*"],
 				"Level": 93,
 				"Output": "Sirenic hauberk",
 				"Primary": true,
 				"Priority": 1
 			},
 			"Craft an ~|elite sirenic hauberk|~": {
-				"Items": ["Ancient scale*", "Algarum Thread*", "Praesulic essence (ranged)*", "Chaotic spike*"],
+				"Items": ["Ancient scale*", "Algarum thread*", "Praesulic essence (ranged)*", "Chaotic spike*"],
 				"Level": 93,
 				"Output": "Elite sirenic hauberk",
 				"Primary": true,
@@ -23987,7 +23987,7 @@
 			"Craft a piece of ~|dinosaurhide armour|~": {
 				"Items": ["Dinosaur scale*", "Dinosaur leather*", "Thread*"],
 				"Level": 93,
-				"Output": "Dinosaurhide body",
+				"Output": "Dinosaurhide armour",
 				"Primary": true,
 				"Priority": 4
 			},
@@ -24816,7 +24816,7 @@
 				"Partial": true
 			},
 			"Craft ~|masterwork chromatic dragon leather|~": {
-				"Items": ["Green dragon leather*", "Blue dragon leahter*", "Red dragon leather*", "Hard leather*", "Masterwork thread*"],
+				"Items": ["Green dragon leather*", "Blue dragon leather*", "Red dragon leather*", "Hard leather*", "Masterwork thread*"],
 				"Level": 110,
 				"Tasks": {
 					"It Should Have Been Called Chinskin*": "Nonskill"
@@ -25112,6 +25112,15 @@
 				},
 				"Primary": false,
 				"Priority": 8,
+				"NoPet": true,
+				"NoBoost": true,
+				"Not F2P": true
+			},
+			"Wear the ~|ancient gladiator helm|~": {
+				"Chunks": ["14897"],
+				"Level": 18,
+				"Primary": false,
+				"Priority": 24,
 				"NoPet": true,
 				"NoBoost": true,
 				"Not F2P": true
@@ -27177,15 +27186,6 @@
 				"NoBoost": true,
 				"Not F2P": true
 			},
-			"Wear the ~|ancient gladiator helm|~": {
-				"Chunks": ["14897"],
-				"Level": 80,
-				"Primary": false,
-				"Priority": 24,
-				"NoPet": true,
-				"NoBoost": true,
-				"Not F2P": true
-			},
 			"Wear a piece of ~|gemstone armour|~": {
 				"Items": ["GemstoneArmour[+]"],
 				"Level": 80,
@@ -28330,7 +28330,7 @@
 				"Priority": 1
 			},
 			"Enter a ~|Guthixian cache|~": {
-				"Chunks": ["Energy rift"],
+				"Objects": ["Energy rift"],
 				"Level": 35,
 				"Primary": true,
 				"Priority": 100,
@@ -28934,8 +28934,9 @@
 				"Tasks": {
 					"Complete the ~|Archaeology tutorial|~": "Archaeology"
 				},
+				"Chunks": ["Howl's Workshop"],
 				"Items": ["Golem heart*", "Golem instruction*", "Historic components*", "Tensile parts*", "Classic components*", "Enhancing components*"],
-				"Objects": ["Inventor's workbench", "Theoretical blueprint"],
+				"Objects": ["Inventor's workbench"],
 				"Level": 85,
 				"Skills": {
 					"Invention": 86,
@@ -29604,7 +29605,7 @@
 				"Priority": 1
 			},
 			"Enter the ~|Baxtorian Falls resource dungeon|~": {
-				"Chunks": ["Baxtorian Falls"],
+				"Chunks": ["Waterfall cave"],
 				"Level": 35,
 				"Primary": false,
 				"Priority": 2,
@@ -31247,7 +31248,6 @@
 				"Priority": 2
 			},
 			"Gather a ~|hay sack|~": {
-				"Category": ["Normal Farming"],
 				"Items": ["Empty sack"],
 				"Objects": ["Haystack[+]"],
 				"Level": 23,
@@ -31256,7 +31256,6 @@
 				"Priority": 1
 			},
 			"Make a ~|hay sack (spear)|~": {
-				"Category": ["Normal Farming"],
 				"Items": ["Hay sack", "Bronze spear"],
 				"Objects": ["Haystack[+]"],
 				"Level": 23,
@@ -31265,7 +31264,6 @@
 				"Priority": 2
 			},
 			"Construct a ~|scarecrow|~": {
-				"Category": ["Normal Farming"],
 				"Items": ["Hay sack (spear)", "Watermelon"],
 				"Objects": ["Haystack[+]"],
 				"Level": 23,
@@ -44434,15 +44432,15 @@
 			},
 			"Catch a ~|pawya|~ in Tirannwn": {
 				"NPCs": ["Pawya"],
-				"Items": ["Box trap", "Papaya"],
+				"Items": ["Box trap", "Papaya fruit"],
 				"Level": 66,
-				"Output": "Pawya",
+				"Output": "Pawya loot",
 				"Primary": true,
 				"Priority": 1
 			},
 			"Catch a ~|pawya|~ on Anachronia": {
 				"NPCs": ["Pawya (Anachronia)"],
-				"Items": ["Box trap", "Papaya"],
+				"Items": ["Box trap", "Papaya fruit"],
 				"Level": 66,
 				"Output": "PawyaAnachronia",
 				"Primary": true,
@@ -47189,7 +47187,7 @@
 					"Complete the ~|Archaeology tutorial|~": "Archaeology",
 					"~|The World Wakes|~ Complete the quest": "Quest"
 				},
-				"Items": ["Shard of the Blade*", "Prototype godsword*", "Historic components*", "Base parts*", "Timeworn components*", "Vintage components*"],
+				"Items": ["Prototype godsword*", "Historic components*", "Base parts*", "Timeworn components*", "Vintage components*"],
 				"Objects": ["Inventor's workbench"],
 				"Chunks": ["Howl's Workshop", "10804"],
 				"Level": 111,
@@ -63518,7 +63516,7 @@
 				"Level": 1,
 				"Objects": ["Forge[+]", "Anvil[+]"],
 				"Tasks": {
-					"~|A Sliver of Silver Helps the Sanguine Go Down|~ Complete the lore acitivty": "Quest"
+					"~|A Sliver of Silver Helps the Sanguine Go Down|~ Complete the lore activity": "Quest"
 				},
 				"Output": "Havensilver weapons",
 				"Primary": true,
@@ -63927,7 +63925,7 @@
 				"Level": 30,
 				"Objects": ["Forge[+]", "Anvil[+]"],
 				"Tasks": {
-					"~|A Sliver of Silver Helps the Sanguine Go Down|~ Complete the lore acitivty": "Quest"
+					"~|A Sliver of Silver Helps the Sanguine Go Down|~ Complete the lore activity": "Quest"
 				},
 				"Output": "Havensilver weapons + 1",
 				"Primary": true,
@@ -64453,7 +64451,7 @@
 				"Level": 60,
 				"Objects": ["Forge[+]", "Anvil[+]"],
 				"Tasks": {
-					"~|A Sliver of Silver Helps the Sanguine Go Down|~ Complete the lore acitivty": "Quest"
+					"~|A Sliver of Silver Helps the Sanguine Go Down|~ Complete the lore activity": "Quest"
 				},
 				"Output": "Havensilver weapons + 2",
 				"Primary": true,
@@ -87946,8 +87944,8 @@
 				"BaseQuest": "Kindred Spirits",
 				"Chunks": ["14131"],
 				"Tasks": {
-					"~|Kili's Knoweldge|~ VII": "Quest",
-					"~|Kili's Knoweldge|~ VII (power)": "Quest"
+					"~|Kili's Knowledge|~ VII": "Quest",
+					"~|Kili's Knowledge|~ VII (power)": "Quest"
 				},
 				"QuestPoints": 0,
 				"Not F2P": true,
@@ -107173,6 +107171,7 @@
 				"BaseQuest": "Daemonheim Achievements",
 				"Reward": [],
 				"Category": ["Show Diary Tasks"],
+				"Reward": [],
 				"ManualShow": true
 			},
 			"~|Daemonheim Achievements#Medium|~ You Got Some Nice Drapes There": {
@@ -107353,6 +107352,7 @@
 				"BaseQuest": "Daemonheim Achievements",
 				"Reward": [],
 				"Category": ["Show Diary Tasks"],
+				"Reward": [],
 				"ManualShow": true
 			},
 			"~|Daemonheim Achievements#Hard|~ Occult Classic": {
@@ -107538,6 +107538,7 @@
 				"BaseQuest": "Daemonheim Achievements",
 				"Reward": [],
 				"Category": ["Show Diary Tasks"],
+				"Reward": [],
 				"ManualShow": true
 			},
 			"~|Daemonheim Achievements#Elite|~ Any fin is Possible": {
@@ -107635,6 +107636,7 @@
 				"BaseQuest": "Daemonheim Achievements",
 				"Reward": [],
 				"Category": ["Show Diary Tasks"],
+				"Reward": [],
 				"ManualShow": true
 			},
 			"~|Desert Achievements#Easy|~ Assassin's Feed": {
@@ -108342,7 +108344,7 @@
 				"Tasks": {
 					"~|Falador Achievements#Easy|~ Amulet of Weedspeak": "Diary",
 					"~|Falador Achievements#Easy|~ The Good Stuff": "Diary",
-					"~|Falador Achievements#Easy|~ Cahin Store": "Diary",
+					"~|Falador Achievements#Easy|~ Chain Store": "Diary",
 					"~|Falador Achievements#Easy|~ Sir Mitt": "Diary",
 					"~|Falador Achievements#Easy|~ Family Values": "Diary",
 					"~|Falador Achievements#Easy|~ Sniffing Out the Mole": "Diary",
@@ -124464,7 +124466,7 @@
 			},
 			"~|Completionist achievements#Completionist Cape|~ Stacks on Stacks": {
 				"Category": ["Comp achievements"],
-				"Description": "Complete the ritual to activate a totem on Anachronia.",
+				"Description": "Place a totem on Anachronia.",
 				"BaseQuest": "Completionist achievements",
 				"Chunks": ["AnyTotemChunk[+]"],
 				"Items": ["AnyTotem[+]"],
@@ -155693,7 +155695,7 @@
 			"Barbarian Assault": {
 				"UnlocksArea": true
 			},
-			"Kuradals dungeon": {
+			"Kuradal's Dungeon": {
 				"Tasks": {
 					"Receive a slayer assignment from ~|Kuradal|~": "Slayer"
 				},
@@ -157247,7 +157249,7 @@
 			"Hermit Cave": {
 				"UnlocksArea": true,
 				"Tasks": {
-					"~|Hermit Permits|~ XXX": "Quest"
+					"~|Hermit Permits|~ 3": "Quest"
 				}
 			},
 			"Highweald Ruins": {
@@ -173824,7 +173826,7 @@
 				"Dark beast": 6,
 				"Airut": 1
 			},
-			"Name": "Kuradals dungeon"
+			"Name": "Kuradal's Dungeon"
 		},
 		"6483": {
 			"Object": {
@@ -176818,7 +176820,6 @@
 						"Crystal tree patch": 1
 					},
 					"NPC": {
-						"Challenge Mistress Heriau": 1,
 						"Auron Ithell": 1,
 						"Grand Exchange clerk": 4,
 						"Banker": 2,
@@ -180483,7 +180484,7 @@
 			"Sections": {
 				"1": {
 					"Object": {
-						"Hay bale": 2,
+						"Hay bale#Fillable": 2,
 						"Dead tree": 4,
 						"Cupboard": 1,
 						"Closed chest": 1,
@@ -181655,8 +181656,8 @@
 			"Sections": {
 				"1": {
 					"Object": {
-						"Hay bales": 1,
-						"Haystack": 1,
+						"Hay bales#Fillable": 1,
+						"Haystack#Fillable": 1,
 						"Bookcase": 4,
 						"Glarial's tombstone": 1,
 						"Fireplace": 1,
@@ -181782,6 +181783,7 @@
 				"Dead tree": 2,
 				"Balancing ledge": 1,
 				"Crates": 7,
+				"Hay bale#Fillable": 2,
 				"Blackboard": 1,
 				"Penance fighter statue": 1,
 				"Penance healer statue": 1,
@@ -184130,9 +184132,10 @@
 		},
 		"10549": {
 			"Object": {
-				"Hay bales": 2,
-				"Haystack": 1,
-				"Hay bale": 2,
+				"Hay bales#Fillable": 2,
+				"Haystack#Fillable": 1,
+				"Hay bale#Fillable": 1,
+				"Hay bale": 1,
 				"Closed chest": 2,
 				"Target": 5,
 				"Robust Chest": 3,
@@ -184330,7 +184333,7 @@
 		},
 		"10553": {
 			"Object": {
-				"Hay bale": 6,
+				"Hay bale#Fillable": 6,
 				"Potato": 7,
 				"Cabbage": 7,
 				"Chest": 3,
@@ -185362,7 +185365,8 @@
 						"Tree": 7,
 						"Maple tree": 22,
 						"Dead tree": 38,
-						"Fishing spot (lure, bait)": 4
+						"Fishing spot (lure, bait)": 4,
+						"Haystack#Fillable": 1
 					},
 					"NPC": {
 						"Donovan the Family Handyman": 1,
@@ -189548,7 +189552,7 @@
 						"Rocks": 1,
 						"Cliffside (Trollheim hard)": 1,
 						"Cliffside (Trollheim advanced)": 1,
-						"Cliffside (Trollheim/wilderness)": 1,
+						"Cliffside (Trollheim/Wilderness)": 1,
 						"Small obelisk": 1,
 						"Boulder": 1
 					},
@@ -194108,8 +194112,8 @@
 				"Dairy cow": 1,
 				"Wheat": 87,
 				"Crate": 1,
-				"Hay bale": 5,
-				"Hay bales": 6,
+				"Hay bale#Fillable": 5,
+				"Hay bales#Fillable": 6,
 				"Willow": 3,
 				"Oak": 6,
 				"Yew": 3,
@@ -195568,7 +195572,7 @@
 			"Sections": {
 				"1": {
 					"Object": {
-						"Hay bales": 2,
+						"Hay bales#Fillable": 2,
 						"Cage": 3,
 						"Bank booth": 6,
 						"Chest": 1,
@@ -211514,7 +211518,7 @@
 		},
 		"Troll Stronghold": {
 			"Object": {
-				"Hay bale": 4,
+				"Hay bale#Fillable": 4,
 				"Exit": 2,
 				"Kitchen Drawers": 2,
 				"Rack": 1,
@@ -213438,7 +213442,7 @@
 				"Private Paldon": 1
 			}
 		},
-		"Kuradals dungeon": {
+		"Kuradal's Dungeon": {
 			"Object": {
 				"Small obelisk": 1,
 				"Cave": 1,
@@ -213703,15 +213707,15 @@
 				"Soldier": 23,
 				"Builder": 2,
 				"Banker": 2,
-				"Farmer": 2,
+				"Farmer (Taverley)": 2,
 				"Druidess": 2,
 				"Druid": 2,
 				"Fisherman": 2,
-				"Man": 6,
+				"Man (Burthorpe Games Room)": 6,
 				"Nurse": 2,
-				"Cook": 2,
+				"Cook (Burthorpe Games rOOM°": 2,
 				"Shady Character": 1,
-				"Woman": 6
+				"Woman (Burthorpe Games Room)": 6
 			},
 			"Connect": {
 				"11575": true
@@ -216571,8 +216575,8 @@
 		},
 		"Fisher Realm": {
 			"Object": {
-				"Hay bales": 3,
-				"Haystack": 1,
+				"Hay bales#Fillable": 3,
+				"Haystack#Fillable": 1,
 				"Potato": 86,
 				"Closed chest": 3,
 				"Cabbage": 38,
@@ -228624,7 +228628,7 @@
 			"BlastAndHellfire[+]": ["12593", "12851", "12850", "Lumbridge Catacombs"],
 			"CaptainsGnomeRestaurant[+]": ["13105", "Dwarven Tunnel"],
 			"CarpetChunks[+]": ["12591", "12844", "13100", "13104-1","13357-2", "13358-1", "13613", "13872"],
-			"ChaosAltar[+]": ["12856", "11835"],
+			"ChaosAltarChunks[+]": ["12856", "11835"],
 			"ChaosTunnelEntrance[+]": ["12343-1", "12599", "12600", "12344", "12087-1"],
 			"Construction Contract[+]": ["12338-1", "12850-1", "12853-1", "12342-1"],
 			"CoolStoryBroChunks[+]": ["9275", "9531-1"],
@@ -228833,7 +228837,7 @@
 			"Forge[+]": ["Forge", "Fremennik Forge"],
 			"Furnace[+]": ["Furnace", "Lava Furnace", "Fremennik Furnace"],
 			"HarpoonFishingSpot[+]": ["Fishing spot (cage, harpoon)", "Fishing spot (big fishing net, harpoon)"],
-			"Haystack[+]": ["Haystack", "Hay bale"],
+			"Haystack[+]": ["Haystack#Fillable", "Hay bale#Fillable", "Hay bales#Fillable"],
 			"HeavyMetalMithril[+]": ["Mithril rock", "Coal rock", "Concentrated coal deposit"],
 			"HeavyMetalAdamant[+]": ["Adamantite rock", "Luminite rock"],
 			"HeavyMetalRune[+]": ["Runite rock", "Luminite rock"],
@@ -289428,6 +289432,24 @@
 					"Complete the ~|Crossing that Bridge|~ research": "Archaeology"
 				}]
 			},
+			"Haystack#Fillable": {
+				"10549": [{
+					"Enter the ~|Ranging Guild|~": "Ranged"
+				}]
+			},
+			"Hay bale#Fillable": {
+				"10039": [{
+					"~|Bar Crawl (miniquest)|~ Complete the miniquest": "Quest"
+				}],
+				"10549": [{
+					"Enter the ~|Ranging Guild|~": "Ranged"
+				}]
+			},
+			"Hay bales#Fillable": {
+				"10549": [{
+					"Enter the ~|Ranging Guild|~": "Ranged"
+				}]
+			},
 			"Hopper": {
 				"12597-1": [{
 					"Enter the ~|Cooks' Guild|~": "Cooking"
@@ -308127,7 +308149,7 @@
 					"1": "1/21"
 				}
 			},
-			"Pawya": {
+			"Pawya loot": {
 				"Raw pawya meat": {
 					"1": "Always"
 				},
@@ -342462,8 +342484,8 @@
 				"Defence": 80
 			},
 			"class": "melee",
-			"lp": 0,
-			"tier": 79,
+			"lp": 350,
+			"tier": 80,
 			"speed": 0,			"type": "Shield",
 			"armour": 375.2,
 			"slot": "off-hand",
@@ -343303,7 +343325,7 @@
 				"Defence": 40
 			},
 			"class": "melee",
-			"lp": 200,
+			"lp": 205,
 			"tier": 41,
 			"speed": 0,			"type": "Tank armour",
 			"armour": 32.4,
@@ -343319,7 +343341,7 @@
 				"Defence": 40
 			},
 			"class": "melee",
-			"lp": 200,
+			"lp": 210,
 			"tier": 42,
 			"speed": 0,			"type": "Tank armour",
 			"armour": 33.4,
@@ -343591,7 +343613,7 @@
 				"Defence": 40
 			},
 			"class": "melee",
-			"lp": 600,
+			"lp": 615,
 			"tier": 41,
 			"speed": 0,			"type": "Tank armour",
 			"armour": 149,
@@ -343607,7 +343629,7 @@
 				"Defence": 40
 			},
 			"class": "melee",
-			"lp": 600,
+			"lp": 630,
 			"tier": 42,
 			"speed": 0,			"type": "Tank armour",
 			"armour": 153.6,
@@ -343891,7 +343913,7 @@
 				"Defence": 40
 			},
 			"class": "melee",
-			"lp": 400,
+			"lp": 410,
 			"tier": 41,
 			"speed": 0,			"type": "Tank armour",
 			"armour": 129.6,
@@ -343907,7 +343929,7 @@
 				"Defence": 40
 			},
 			"class": "melee",
-			"lp": 400,
+			"lp": 420,
 			"tier": 42,
 			"speed": 0,			"type": "Tank armour",
 			"armour": 133.6,
@@ -343939,7 +343961,7 @@
 				"Defence": 40
 			},
 			"class": "melee",
-			"lp": 200,
+			"lp": 205,
 			"tier": 41,
 			"speed": 0,			"type": "Tank armour",
 			"armour": 32.4,
@@ -343955,7 +343977,7 @@
 				"Defence": 40
 			},
 			"class": "melee",
-			"lp": 200,
+			"lp": 210,
 			"tier": 42,
 			"speed": 0,			"type": "Tank armour",
 			"armour": 33.4,
@@ -344388,7 +344410,7 @@
 				"Defence": 40
 			},
 			"class": "melee",
-			"lp": 400,
+			"lp": 410,
 			"tier": 41,
 			"speed": 0,			"type": "Tank armour",
 			"armour": 129.6,
@@ -344404,7 +344426,7 @@
 				"Defence": 40
 			},
 			"class": "melee",
-			"lp": 400,
+			"lp": 420,
 			"tier": 42,
 			"speed": 0,			"type": "Tank armour",
 			"armour": 133.6,
@@ -345082,7 +345104,7 @@
 				"Defence": 40
 			},
 			"class": "melee",
-			"lp": 600,
+			"lp": 615,
 			"tier": 41,
 			"speed": 0,			"type": "Tank armour",
 			"armour": 149,
@@ -345098,7 +345120,7 @@
 				"Defence": 40
 			},
 			"class": "melee",
-			"lp": 600,
+			"lp": 630,
 			"tier": 42,
 			"speed": 0,			"type": "Tank armour",
 			"armour": 153.6,
@@ -345242,7 +345264,7 @@
 				"Defence": 40
 			},
 			"class": "melee",
-			"lp": 600,
+			"lp": 615,
 			"tier": 41,
 			"speed": 0,			"type": "Tank armour",
 			"armour": 142.5,
@@ -345258,7 +345280,7 @@
 				"Defence": 40
 			},
 			"class": "melee",
-			"lp": 600,
+			"lp": 630,
 			"tier": 42,
 			"speed": 0,			"type": "Tank armour",
 			"armour": 146.9,
@@ -345402,7 +345424,7 @@
 				"Defence": 40
 			},
 			"class": "melee",
-			"lp": 600,
+			"lp": 615,
 			"tier": 41,
 			"speed": 0,			"type": "Tank armour",
 			"armour": 142.5,
@@ -345418,7 +345440,7 @@
 				"Defence": 40
 			},
 			"class": "melee",
-			"lp": 600,
+			"lp": 630,
 			"tier": 42,
 			"speed": 0,			"type": "Tank armour",
 			"armour": 146.9,
@@ -346462,13 +346484,13 @@
 		"Ancient gladiator helm": {
 			"ranged_damage": 0,
 			"requirements": {
-				"Defence": 80
+				"Defence": 18
 			},
 			"class": "melee",
-			"lp": 0,
+			"lp": 180,
 			"tier": 18,
 			"speed": 0,			"type": "Tank armour",
-			"armour": 58.3,
+			"armour": 58.4,
 			"slot": "head",
 			"melee_damage": 0,
 			"magic_damage": 0,
@@ -349109,7 +349131,7 @@
 				"Defence": 80
 			},
 			"class": "melee",
-			"lp": 400,
+			"lp": 380,
 			"tier": 76,
 			"speed": 0,			"type": "Tank armour",
 			"armour": 86.9,
@@ -349126,7 +349148,7 @@
 				"Defence": 80
 			},
 			"class": "melee",
-			"lp": 400,
+			"lp": 385,
 			"tier": 77,
 			"speed": 0,			"type": "Tank armour",
 			"armour": 89.1,
@@ -349143,7 +349165,7 @@
 				"Defence": 80
 			},
 			"class": "melee",
-			"lp": 400,
+			"lp": 390,
 			"tier": 78,
 			"speed": 0,			"type": "Tank armour",
 			"armour": 91.4,
@@ -349160,7 +349182,7 @@
 				"Defence": 80
 			},
 			"class": "melee",
-			"lp": 400,
+			"lp": 395,
 			"tier": 79,
 			"speed": 0,			"type": "Tank armour",
 			"armour": 93.8,
@@ -349177,7 +349199,7 @@
 				"Defence": 80
 			},
 			"class": "melee",
-			"lp": 400,
+			"lp": 375,
 			"tier": 75,
 			"speed": 0,			"type": "Tank armour",
 			"armour": 84.7,
@@ -349194,7 +349216,7 @@
 				"Defence": 80
 			},
 			"class": "melee",
-			"lp": 800,
+			"lp": 760,
 			"tier": 76,
 			"speed": 0,			"type": "Tank armour",
 			"armour": 347.6,
@@ -349211,7 +349233,7 @@
 				"Defence": 80
 			},
 			"class": "melee",
-			"lp": 800,
+			"lp": 770,
 			"tier": 77,
 			"speed": 0,			"type": "Tank armour",
 			"armour": 356.6,
@@ -349228,7 +349250,7 @@
 				"Defence": 80
 			},
 			"class": "melee",
-			"lp": 800,
+			"lp": 780,
 			"tier": 78,
 			"speed": 0,			"type": "Tank armour",
 			"armour": 365.8,
@@ -349245,7 +349267,7 @@
 				"Defence": 80
 			},
 			"class": "melee",
-			"lp": 800,
+			"lp": 790,
 			"tier": 79,
 			"speed": 0,			"type": "Tank armour",
 			"armour": 375.2,
@@ -349262,7 +349284,7 @@
 				"Defence": 80
 			},
 			"class": "melee",
-			"lp": 800,
+			"lp": 750,
 			"tier": 75,
 			"speed": 0,			"type": "Tank armour",
 			"armour": 338.8,
@@ -349279,7 +349301,7 @@
 				"Defence": 80
 			},
 			"class": "melee",
-			"lp": 400,
+			"lp": 380,
 			"tier": 76,
 			"speed": 0,			"type": "Tank armour",
 			"armour": 86.9,
@@ -349296,7 +349318,7 @@
 				"Defence": 80
 			},
 			"class": "melee",
-			"lp": 400,
+			"lp": 385,
 			"tier": 77,
 			"speed": 0,			"type": "Tank armour",
 			"armour": 89.1,
@@ -349313,7 +349335,7 @@
 				"Defence": 80
 			},
 			"class": "melee",
-			"lp": 400,
+			"lp": 390,
 			"tier": 78,
 			"speed": 0,			"type": "Tank armour",
 			"armour": 91.4,
@@ -349330,7 +349352,7 @@
 				"Defence": 80
 			},
 			"class": "melee",
-			"lp": 400,
+			"lp": 395,
 			"tier": 79,
 			"speed": 0,			"type": "Tank armour",
 			"armour": 93.8,
@@ -349347,7 +349369,7 @@
 				"Defence": 80
 			},
 			"class": "melee",
-			"lp": 400,
+			"lp": 375,
 			"tier": 75,
 			"speed": 0,			"type": "Tank armour",
 			"armour": 84.7,
@@ -349702,7 +349724,7 @@
 				"Defence": 80
 			},
 			"class": "melee",
-			"lp": 1200,
+			"lp": 1140,
 			"tier": 76,
 			"speed": 0,			"type": "Tank armour",
 			"armour": 399.7,
@@ -349719,7 +349741,7 @@
 				"Defence": 80
 			},
 			"class": "melee",
-			"lp": 1200,
+			"lp": 1155,
 			"tier": 77,
 			"speed": 0,			"type": "Tank armour",
 			"armour": 410,
@@ -349736,7 +349758,7 @@
 				"Defence": 80
 			},
 			"class": "melee",
-			"lp": 1200,
+			"lp": 1170,
 			"tier": 78,
 			"speed": 0,			"type": "Tank armour",
 			"armour": 420.6,
@@ -349753,7 +349775,7 @@
 				"Defence": 80
 			},
 			"class": "melee",
-			"lp": 1200,
+			"lp": 1185,
 			"tier": 79,
 			"speed": 0,			"type": "Tank armour",
 			"armour": 431.4,
@@ -349770,7 +349792,7 @@
 				"Defence": 80
 			},
 			"class": "melee",
-			"lp": 1200,
+			"lp": 1125,
 			"tier": 75,
 			"speed": 0,			"type": "Tank armour",
 			"armour": 389.6,
@@ -349787,7 +349809,7 @@
 				"Defence": 80
 			},
 			"class": "melee",
-			"lp": 1200,
+			"lp": 1140,
 			"tier": 76,
 			"speed": 0,			"type": "Tank armour",
 			"armour": 382.3,
@@ -349804,7 +349826,7 @@
 				"Defence": 80
 			},
 			"class": "melee",
-			"lp": 1200,
+			"lp": 1155,
 			"tier": 77,
 			"speed": 0,			"type": "Tank armour",
 			"armour": 392.2,
@@ -349821,7 +349843,7 @@
 				"Defence": 80
 			},
 			"class": "melee",
-			"lp": 1200,
+			"lp": 1170,
 			"tier": 78,
 			"speed": 0,			"type": "Tank armour",
 			"armour": 402.3,
@@ -349838,7 +349860,7 @@
 				"Defence": 80
 			},
 			"class": "melee",
-			"lp": 1200,
+			"lp": 1185,
 			"tier": 79,
 			"speed": 0,			"type": "Tank armour",
 			"armour": 412.7,
@@ -349855,7 +349877,7 @@
 				"Defence": 80
 			},
 			"class": "melee",
-			"lp": 1200,
+			"lp": 1125,
 			"tier": 75,
 			"speed": 0,			"type": "Tank armour",
 			"armour": 372.6,
@@ -351058,7 +351080,7 @@
 				"Defence": 25
 			},
 			"class": "melee",
-			"lp": 375,
+			"lp": 345,
 			"tier": 23,
 			"speed": 0,			"type": "Tank armour",
 			"armour": 81.4,
@@ -351494,7 +351516,7 @@
 				"Defence": 25
 			},
 			"class": "melee",
-			"lp": 250,
+			"lp": 230,
 			"tier": 23,
 			"speed": 0,			"type": "Tank armour",
 			"armour": 70.8,
@@ -351620,7 +351642,7 @@
 				"Defence": 10
 			},
 			"class": "melee",
-			"lp": 0,
+			"lp": 100,
 			"tier": 10,
 			"speed": 0,			"type": "Tank armour",
 			"armour": 40.4,
@@ -352252,7 +352274,7 @@
 				"Defence": 1
 			},
 			"class": "magic",
-			"lp": 0,
+			"lp": 25,
 			"tier": 5,
 			"speed": 0,			"type": "Tank armour",
 			"armour": 7.5,
@@ -352268,7 +352290,7 @@
 				"Defence": 1
 			},
 			"class": "magic",
-			"lp": 0,
+			"lp": 25,
 			"tier": 5,
 			"speed": 0,			"type": "Tank armour",
 			"armour": 7.5,
@@ -352282,7 +352304,7 @@
 			"ranged_damage": 0,
 			"requirements": {},
 			"class": "magic",
-			"lp": 0,
+			"lp": 50,
 			"tier": 5,
 			"speed": 0,			"type": "Tank armour",
 			"armour": 30,
@@ -352296,7 +352318,7 @@
 			"ranged_damage": 0,
 			"requirements": {},
 			"class": "magic",
-			"lp": 0,
+			"lp": 75,
 			"tier": 5,
 			"speed": 0,			"type": "Tank armour",
 			"armour": 33,
@@ -352310,8 +352332,8 @@
 			"ranged_damage": 0,
 			"requirements": {},
 			"class": "magic",
-			"lp": 0,
-			"tier": 1,
+			"lp": 75,
+			"tier": 5,
 			"speed": 0,			"type": "Tank armour",
 			"armour": 25.3,
 			"slot": "torso",
@@ -353367,7 +353389,7 @@
 				"Defence": 33
 			},
 			"class": "magic",
-			"lp": 0,
+			"lp": 150,
 			"tier": 10,
 			"speed": 0,			"type": "Tank armour",
 			"armour": 46.4,
@@ -353383,7 +353405,7 @@
 				"Defence": 33
 			},
 			"class": "magic",
-			"lp": 0,
+			"lp": 50,
 			"tier": 10,
 			"speed": 0,			"type": "Tank armour",
 			"armour": 10.1,
@@ -353399,7 +353421,7 @@
 				"Defence": 33
 			},
 			"class": "magic",
-			"lp": 0,
+			"lp": 50,
 			"tier": 10,
 			"speed": 0,			"type": "Tank armour",
 			"armour": 10.1,
@@ -353415,7 +353437,7 @@
 				"Defence": 33
 			},
 			"class": "magic",
-			"lp": 0,
+			"lp": 100,
 			"tier": 10,
 			"speed": 0,			"type": "Tank armour",
 			"armour": 40.4,
@@ -353948,7 +353970,7 @@
 				"Defence": 1
 			},
 			"class": "melee",
-			"lp": 5,
+			"lp": 25,
 			"tier": 5,
 			"speed": 0,			"type": "Tank armour",
 			"armour": 7.5,
@@ -354040,7 +354062,7 @@
 				"Defence": 1
 			},
 			"class": "melee",
-			"lp": 15,
+			"lp": 75,
 			"tier": 5,
 			"speed": 0,			"type": "Tank armour",
 			"armour": 34.5,
@@ -354208,7 +354230,7 @@
 				"Defence": 1
 			},
 			"class": "melee",
-			"lp": 10,
+			"lp": 50,
 			"tier": 5,
 			"speed": 0,			"type": "Tank armour",
 			"armour": 30,
@@ -354224,7 +354246,7 @@
 				"Defence": 1
 			},
 			"class": "melee",
-			"lp": 0,
+			"lp": 25,
 			"tier": 5,
 			"speed": 0,			"type": "Tank armour",
 			"armour": 7.5,
@@ -354415,7 +354437,7 @@
 				"Defence": 1
 			},
 			"class": "melee",
-			"lp": 10,
+			"lp": 50,
 			"tier": 5,
 			"speed": 0,			"type": "Tank armour",
 			"armour": 30,
@@ -354608,7 +354630,7 @@
 				"Defence": 1
 			},
 			"class": "melee",
-			"lp": 15,
+			"lp": 75,
 			"tier": 5,
 			"speed": 0,			"type": "Tank armour",
 			"armour": 34.5,
@@ -354624,7 +354646,7 @@
 				"Defence": 1
 			},
 			"class": "melee",
-			"lp": 15,
+			"lp": 75,
 			"tier": 5,
 			"speed": 0,			"type": "Tank armour",
 			"armour": 33,
@@ -354640,7 +354662,7 @@
 				"Defence": 1
 			},
 			"class": "melee",
-			"lp": 15,
+			"lp": 75,
 			"tier": 5,
 			"speed": 0,			"type": "Tank armour",
 			"armour": 33,
@@ -355100,7 +355122,7 @@
 				"Defence": 50
 			},
 			"class": "magic",
-			"lp": 750,
+			"lp": 450,
 			"tier": 30,
 			"speed": 0,			"type": "Tank armour",
 			"armour": 104.4,
@@ -355116,7 +355138,7 @@
 				"Defence": 50
 			},
 			"class": "magic",
-			"lp": 250,
+			"lp": 150,
 			"tier": 30,
 			"speed": 0,			"type": "Tank armour",
 			"armour": 22.7,
@@ -355145,7 +355167,7 @@
 				"Defence": 50
 			},
 			"class": "magic",
-			"lp": 250,
+			"lp": 150,
 			"tier": 30,
 			"speed": 0,			"type": "Tank armour",
 			"armour": 22.7,
@@ -355161,7 +355183,7 @@
 				"Defence": 50
 			},
 			"class": "magic",
-			"lp": 500,
+			"lp": 300,
 			"tier": 30,
 			"speed": 0,			"type": "Tank armour",
 			"armour": 90.8,
@@ -356593,7 +356615,7 @@
 				"Defence": 40
 			},
 			"class": "magic",
-			"lp": 600,
+			"lp": 375,
 			"tier": 25,
 			"speed": 0,			"type": "Tank armour",
 			"armour": 87.6,
@@ -356609,7 +356631,7 @@
 				"Defence": 40
 			},
 			"class": "magic",
-			"lp": 200,
+			"lp": 125,
 			"tier": 25,
 			"speed": 0,			"type": "Tank armour",
 			"armour": 19,
@@ -356625,7 +356647,7 @@
 				"Defence": 40
 			},
 			"class": "magic",
-			"lp": 200,
+			"lp": 125,
 			"tier": 25,
 			"speed": 0,			"type": "Tank armour",
 			"armour": 19,
@@ -356641,7 +356663,7 @@
 				"Defence": 40
 			},
 			"class": "magic",
-			"lp": 400,
+			"lp": 250,
 			"tier": 25,
 			"speed": 0,			"type": "Tank armour",
 			"armour": 76.2,
@@ -358128,7 +358150,7 @@
 				"Defence": 85
 			},
 			"class": "ranged",
-			"lp": 1275,
+			"lp": 1245,
 			"tier": 83,
 			"speed": 0,			"type": "Tank armour",
 			"armour": 456.2,
@@ -358145,7 +358167,7 @@
 				"Defence": 85
 			},
 			"class": "ranged",
-			"lp": 1275,
+			"lp": 1245,
 			"tier": 83,
 			"speed": 0,			"type": "Tank armour",
 			"armour": 477,
@@ -358183,7 +358205,7 @@
 				"Defence": 85
 			},
 			"class": "ranged",
-			"lp": 850,
+			"lp": 830,
 			"tier": 83,
 			"speed": 0,			"type": "Tank armour",
 			"armour": 414.8,
@@ -360049,7 +360071,7 @@
 			"ranged_damage": 0,
 			"requirements": {},
 			"class": "melee",
-			"lp": 0,
+			"lp": 25,
 			"tier": 5,
 			"speed": 0,			"armour": 7.5,
 			"slot": "hands",
@@ -362014,7 +362036,7 @@
 				"Defence": 90
 			},
 			"class": "melee",
-			"lp": 450,
+			"lp": 405,
 			"tier": 81,
 			"speed": 0,			"type": "Tank armour",
 			"armour": 98.6,
@@ -362031,7 +362053,7 @@
 				"Defence": 90
 			},
 			"class": "melee",
-			"lp": 450,
+			"lp": 410,
 			"tier": 82,
 			"speed": 0,			"type": "Tank armour",
 			"armour": 101.1,
@@ -362048,7 +362070,7 @@
 				"Defence": 90
 			},
 			"class": "melee",
-			"lp": 450,
+			"lp": 415,
 			"tier": 83,
 			"speed": 0,			"type": "Tank armour",
 			"armour": 103.7,
@@ -362065,7 +362087,7 @@
 				"Defence": 90
 			},
 			"class": "melee",
-			"lp": 450,
+			"lp": 420,
 			"tier": 84,
 			"speed": 0,			"type": "Tank armour",
 			"armour": 106.2,
@@ -362082,7 +362104,7 @@
 				"Defence": 90
 			},
 			"class": "melee",
-			"lp": 450,
+			"lp": 425,
 			"tier": 85,
 			"speed": 0,			"type": "Tank armour",
 			"armour": 108.9,
@@ -362099,7 +362121,7 @@
 				"Defence": 90
 			},
 			"class": "melee",
-			"lp": 450,
+			"lp": 400,
 			"tier": 80,
 			"speed": 0,			"type": "Tank armour",
 			"armour": 96.2,
@@ -362116,7 +362138,7 @@
 				"Defence": 90
 			},
 			"class": "melee",
-			"lp": 900,
+			"lp": 810,
 			"tier": 81,
 			"speed": 0,			"type": "Tank armour",
 			"armour": 394.6,
@@ -362133,7 +362155,7 @@
 				"Defence": 90
 			},
 			"class": "melee",
-			"lp": 900,
+			"lp": 820,
 			"tier": 82,
 			"speed": 0,			"type": "Tank armour",
 			"armour": 404.6,
@@ -362150,7 +362172,7 @@
 				"Defence": 90
 			},
 			"class": "melee",
-			"lp": 900,
+			"lp": 830,
 			"tier": 83,
 			"speed": 0,			"type": "Tank armour",
 			"armour": 414.8,
@@ -362167,7 +362189,7 @@
 				"Defence": 90
 			},
 			"class": "melee",
-			"lp": 900,
+			"lp": 840,
 			"tier": 84,
 			"speed": 0,			"type": "Tank armour",
 			"armour": 425,
@@ -362184,7 +362206,7 @@
 				"Defence": 90
 			},
 			"class": "melee",
-			"lp": 900,
+			"lp": 850,
 			"tier": 85,
 			"speed": 0,			"type": "Tank armour",
 			"armour": 435.6,
@@ -362201,7 +362223,7 @@
 				"Defence": 90
 			},
 			"class": "melee",
-			"lp": 900,
+			"lp": 800,
 			"tier": 80,
 			"speed": 0,			"type": "Tank armour",
 			"armour": 384.8,
@@ -362218,7 +362240,7 @@
 				"Defence": 90
 			},
 			"class": "melee",
-			"lp": 450,
+			"lp": 405,
 			"tier": 81,
 			"speed": 0,			"type": "Tank armour",
 			"armour": 98.6,
@@ -362235,7 +362257,7 @@
 				"Defence": 90
 			},
 			"class": "melee",
-			"lp": 450,
+			"lp": 410,
 			"tier": 82,
 			"speed": 0,			"type": "Tank armour",
 			"armour": 101.1,
@@ -362252,7 +362274,7 @@
 				"Defence": 90
 			},
 			"class": "melee",
-			"lp": 450,
+			"lp": 415,
 			"tier": 83,
 			"speed": 0,			"type": "Tank armour",
 			"armour": 103.7,
@@ -362269,7 +362291,7 @@
 				"Defence": 90
 			},
 			"class": "melee",
-			"lp": 450,
+			"lp": 420,
 			"tier": 84,
 			"speed": 0,			"type": "Tank armour",
 			"armour": 106.2,
@@ -362286,7 +362308,7 @@
 				"Defence": 90
 			},
 			"class": "melee",
-			"lp": 450,
+			"lp": 425,
 			"tier": 85,
 			"speed": 0,			"type": "Tank armour",
 			"armour": 108.9,
@@ -362303,7 +362325,7 @@
 				"Defence": 90
 			},
 			"class": "melee",
-			"lp": 450,
+			"lp": 400,
 			"tier": 80,
 			"speed": 0,			"type": "Tank armour",
 			"armour": 96.2,
@@ -362717,7 +362739,7 @@
 				"Defence": 90
 			},
 			"class": "melee",
-			"lp": 1350,
+			"lp": 1215,
 			"tier": 81,
 			"speed": 0,			"type": "Tank armour",
 			"armour": 453.7,
@@ -362734,7 +362756,7 @@
 				"Defence": 90
 			},
 			"class": "melee",
-			"lp": 1350,
+			"lp": 1230,
 			"tier": 82,
 			"speed": 0,			"type": "Tank armour",
 			"armour": 465.2,
@@ -362751,7 +362773,7 @@
 				"Defence": 90
 			},
 			"class": "melee",
-			"lp": 1350,
+			"lp": 1245,
 			"tier": 83,
 			"speed": 0,			"type": "Tank armour",
 			"armour": 477,
@@ -362768,7 +362790,7 @@
 				"Defence": 90
 			},
 			"class": "melee",
-			"lp": 1350,
+			"lp": 1260,
 			"tier": 84,
 			"speed": 0,			"type": "Tank armour",
 			"armour": 488.7,
@@ -362785,7 +362807,7 @@
 				"Defence": 90
 			},
 			"class": "melee",
-			"lp": 1350,
+			"lp": 1275,
 			"tier": 85,
 			"speed": 0,			"type": "Tank armour",
 			"armour": 500.9,
@@ -362802,7 +362824,7 @@
 				"Defence": 90
 			},
 			"class": "melee",
-			"lp": 1350,
+			"lp": 1200,
 			"tier": 80,
 			"speed": 0,			"type": "Tank armour",
 			"armour": 442.5,
@@ -362819,7 +362841,7 @@
 				"Defence": 90
 			},
 			"class": "melee",
-			"lp": 1350,
+			"lp": 1215,
 			"tier": 81,
 			"speed": 0,			"type": "Tank armour",
 			"armour": 434,
@@ -362836,7 +362858,7 @@
 				"Defence": 90
 			},
 			"class": "melee",
-			"lp": 1350,
+			"lp": 1230,
 			"tier": 82,
 			"speed": 0,			"type": "Tank armour",
 			"armour": 445,
@@ -362853,7 +362875,7 @@
 				"Defence": 90
 			},
 			"class": "melee",
-			"lp": 1350,
+			"lp": 1245,
 			"tier": 83,
 			"speed": 0,			"type": "Tank armour",
 			"armour": 456.2,
@@ -362870,7 +362892,7 @@
 				"Defence": 90
 			},
 			"class": "melee",
-			"lp": 1350,
+			"lp": 1260,
 			"tier": 84,
 			"speed": 0,			"type": "Tank armour",
 			"armour": 467.5,
@@ -362887,7 +362909,7 @@
 				"Defence": 90
 			},
 			"class": "melee",
-			"lp": 1350,
+			"lp": 1275,
 			"tier": 85,
 			"speed": 0,			"type": "Tank armour",
 			"armour": 479.1,
@@ -362904,7 +362926,7 @@
 				"Defence": 90
 			},
 			"class": "melee",
-			"lp": 1350,
+			"lp": 1200,
 			"tier": 80,
 			"speed": 0,			"type": "Tank armour",
 			"armour": 423.2,
@@ -364500,7 +364522,7 @@
 			"ranged_damage": 0,
 			"requirements": {},
 			"class": "melee",
-			"lp": 0,
+			"lp": 25,
 			"tier": 5,
 			"speed": 0,			"type": "Tank armour",
 			"armour": 7.5,
@@ -364714,7 +364736,7 @@
 			"ranged_damage": 0,
 			"requirements": {},
 			"class": "melee",
-			"lp": 0,
+			"lp": 25,
 			"tier": 5,
 			"speed": 0,			"type": "Tank armour",
 			"armour": 7.5,
@@ -364823,7 +364845,7 @@
 			"ranged_damage": 0,
 			"requirements": {},
 			"class": "magic",
-			"lp": 0,
+			"lp": 100,
 			"tier": 10,
 			"speed": 0,			"type": "Tank armour",
 			"armour": 40.4,
@@ -364837,7 +364859,7 @@
 			"ranged_damage": 0,
 			"requirements": {},
 			"class": "magic",
-			"lp": 0,
+			"lp": 100,
 			"tier": 10,
 			"speed": 0,			"type": "Tank armour",
 			"armour": 40.4,
@@ -364851,7 +364873,7 @@
 			"ranged_damage": 0,
 			"requirements": {},
 			"class": "magic",
-			"lp": 0,
+			"lp": 100,
 			"tier": 10,
 			"speed": 0,			"type": "Tank armour",
 			"armour": 40.4,
@@ -364865,7 +364887,7 @@
 			"ranged_damage": 0,
 			"requirements": {},
 			"class": "magic",
-			"lp": 0,
+			"lp": 100,
 			"tier": 10,
 			"speed": 0,			"type": "Tank armour",
 			"armour": 40.4,
@@ -364879,7 +364901,7 @@
 			"ranged_damage": 0,
 			"requirements": {},
 			"class": "magic",
-			"lp": 0,
+			"lp": 150,
 			"tier": 10,
 			"speed": 0,			"type": "Tank armour",
 			"armour": 44.4,
@@ -364893,7 +364915,7 @@
 			"ranged_damage": 0,
 			"requirements": {},
 			"class": "magic",
-			"lp": 0,
+			"lp": 150,
 			"tier": 10,
 			"speed": 0,			"type": "Tank armour",
 			"armour": 44.4,
@@ -364907,7 +364929,7 @@
 			"ranged_damage": 0,
 			"requirements": {},
 			"class": "magic",
-			"lp": 0,
+			"lp": 150,
 			"tier": 10,
 			"speed": 0,			"type": "Tank armour",
 			"armour": 44.4,
@@ -364921,7 +364943,7 @@
 			"ranged_damage": 0,
 			"requirements": {},
 			"class": "magic",
-			"lp": 0,
+			"lp": 150,
 			"tier": 10,
 			"speed": 0,			"type": "Tank armour",
 			"armour": 44.4,
@@ -364935,7 +364957,7 @@
 			"ranged_damage": 0,
 			"requirements": {},
 			"class": "magic",
-			"lp": 0,
+			"lp": 150,
 			"tier": 10,
 			"speed": 0,			"type": "Tank armour",
 			"armour": 46.4,
@@ -364949,7 +364971,7 @@
 			"ranged_damage": 0,
 			"requirements": {},
 			"class": "magic",
-			"lp": 0,
+			"lp": 150,
 			"tier": 10,
 			"speed": 0,			"type": "Tank armour",
 			"armour": 46.4,
@@ -364963,7 +364985,7 @@
 			"ranged_damage": 0,
 			"requirements": {},
 			"class": "magic",
-			"lp": 0,
+			"lp": 150,
 			"tier": 10,
 			"speed": 0,			"type": "Tank armour",
 			"armour": 46.4,
@@ -364977,7 +364999,7 @@
 			"ranged_damage": 0,
 			"requirements": {},
 			"class": "magic",
-			"lp": 0,
+			"lp": 150,
 			"tier": 10,
 			"speed": 0,			"type": "Tank armour",
 			"armour": 46.4,
@@ -367157,7 +367179,7 @@
 			"ranged_damage": 0,
 			"requirements": {},
 			"class": "ranged",
-			"lp": 0,
+			"lp": 200,
 			"tier": 20,
 			"speed": 0,			"type": "Tank armour",
 			"armour": 63.2,
@@ -369494,7 +369516,7 @@
 				"Defence": 10
 			},
 			"class": "melee",
-			"lp": 0,
+			"lp": 55,
 			"tier": 11,
 			"speed": 0,			"type": "Tank armour",
 			"armour": 10.6,
@@ -369510,7 +369532,7 @@
 				"Defence": 10
 			},
 			"class": "melee",
-			"lp": 0,
+			"lp": 50,
 			"tier": 10,
 			"speed": 0,			"type": "Tank armour",
 			"armour": 10.1,
@@ -369726,7 +369748,7 @@
 				"Defence": 10
 			},
 			"class": "melee",
-			"lp": 150,
+			"lp": 165,
 			"tier": 11,
 			"speed": 0,			"type": "Tank armour",
 			"armour": 48.9,
@@ -369938,7 +369960,7 @@
 				"Defence": 10
 			},
 			"class": "melee",
-			"lp": 100,
+			"lp": 110,
 			"tier": 11,
 			"speed": 0,			"type": "Tank armour",
 			"armour": 42.6,
@@ -369970,7 +369992,7 @@
 				"Defence": 10
 			},
 			"class": "melee",
-			"lp": 50,
+			"lp": 55,
 			"tier": 11,
 			"speed": 0,			"type": "Tank armour",
 			"armour": 10.6,
@@ -370235,7 +370257,7 @@
 				"Defence": 10
 			},
 			"class": "melee",
-			"lp": 100,
+			"lp": 110,
 			"tier": 11,
 			"speed": 0,			"type": "Tank armour",
 			"armour": 42.6,
@@ -370622,7 +370644,7 @@
 				"Defence": 10
 			},
 			"class": "melee",
-			"lp": 150,
+			"lp": 165,
 			"tier": 11,
 			"speed": 0,			"type": "Tank armour",
 			"armour": 48.9,
@@ -370654,7 +370676,7 @@
 				"Defence": 10
 			},
 			"class": "melee",
-			"lp": 150,
+			"lp": 165,
 			"tier": 11,
 			"speed": 0,			"type": "Tank armour",
 			"armour": 46.8,
@@ -370686,7 +370708,7 @@
 				"Defence": 10
 			},
 			"class": "melee",
-			"lp": 150,
+			"lp": 165,
 			"tier": 11,
 			"speed": 0,			"type": "Tank armour",
 			"armour": 46.8,
@@ -371479,6 +371501,40 @@
 			"accuracy": 850,
 			"auto_damage": 480
 		},
+		"Khazard armour": {
+			"ranged_damage": 0,
+			"requirements": {
+				"Defence": 1
+			},
+			"class": "melee",
+			"lp": 75,
+			"tier": 5,
+			"speed": 0,
+			"type": "Tank armour",
+			"armour": 34.5,
+			"slot": "torso",
+			"melee_damage": 0,
+			"magic_damage": 0,
+			"prayer": 0,
+			"accuracy": 0
+		},
+		"Khazard helm": {
+			"ranged_damage": 0,
+			"requirements": {
+				"Defence": 1
+			},
+			"class": "melee",
+			"lp": 50,
+			"tier": 5,
+			"speed": 0,
+			"type": "Tank armour",
+			"armour": 30,
+			"slot": "head",
+			"melee_damage": 0,
+			"magic_damage": 0,
+			"prayer": 0,
+			"accuracy": 0
+		},
 		"Khopesh of Elidinis": {
 			"ranged_damage": 0,
 			"melee_damage": 0,
@@ -371777,7 +371833,7 @@
 			"ranged_damage": 0,
 			"requirements": {},
 			"class": "ranged",
-			"lp": 0,
+			"lp": 75,
 			"tier": 5,
 			"speed": 0,			"type": "Tank armour",
 			"armour": 34.5,
@@ -371805,7 +371861,7 @@
 			"ranged_damage": 0,
 			"requirements": {},
 			"class": "ranged",
-			"lp": 0,
+			"lp": 75,
 			"tier": 5,
 			"speed": 0,			"type": "Tank armour",
 			"armour": 33,
@@ -371819,7 +371875,7 @@
 			"ranged_damage": 0,
 			"requirements": {},
 			"class": "ranged",
-			"lp": 0,
+			"lp": 50,
 			"tier": 5,
 			"speed": 0,			"type": "Tank armour",
 			"armour": 30,
@@ -372864,7 +372920,7 @@
 			"ranged_damage": 0,
 			"requirements": {},
 			"class": "melee",
-			"lp": 0,
+			"lp": 100,
 			"tier": 10,
 			"speed": 0,			"type": "Tank armour",
 			"armour": 40.4,
@@ -373947,7 +374003,7 @@
 			"ranged_damage": 0,
 			"requirements": {},
 			"class": "magic",
-			"lp": 0,
+			"lp": 75,
 			"tier": 5,
 			"speed": 0,			"type": "Tank armour",
 			"armour": 34.5,
@@ -373961,7 +374017,7 @@
 			"ranged_damage": 0,
 			"requirements": {},
 			"class": "magic",
-			"lp": 0,
+			"lp": 25,
 			"tier": 5,
 			"speed": 0,			"type": "Tank armour",
 			"armour": 7.5,
@@ -373975,7 +374031,7 @@
 			"ranged_damage": 0,
 			"requirements": {},
 			"class": "magic",
-			"lp": 0,
+			"lp": 25,
 			"tier": 5,
 			"speed": 0,			"type": "Tank armour",
 			"armour": 7.5,
@@ -373989,7 +374045,7 @@
 			"ranged_damage": 0,
 			"requirements": {},
 			"class": "magic",
-			"lp": 0,
+			"lp": 50,
 			"tier": 5,
 			"speed": 0,			"type": "Tank armour",
 			"armour": 30,
@@ -374271,7 +374327,7 @@
 				"Defence": 30
 			},
 			"class": "melee",
-			"lp":150,
+			"lp": 155,
 			"tier": 31,
 			"speed": 0,			"type": "Tank armour",
 			"armour": 23.5,
@@ -374287,7 +374343,7 @@
 				"Defence": 30
 			},
 			"class": "melee",
-			"lp":150,
+			"lp": 160,
 			"tier": 32,
 			"speed": 0,			"type": "Tank armour",
 			"armour": 24.3,
@@ -374303,7 +374359,7 @@
 				"Defence": 30
 			},
 			"class": "melee",
-			"lp":150,
+			"lp": 150,
 			"tier": 30,
 			"speed": 0,			"type": "Tank armour",
 			"armour": 22.7,
@@ -374539,7 +374595,7 @@
 				"Defence": 30
 			},
 			"class": "melee",
-			"lp":450,
+			"lp": 465,
 			"tier": 31,
 			"speed": 0,			"type": "Tank armour",
 			"armour": 108.1,
@@ -374555,7 +374611,7 @@
 				"Defence": 30
 			},
 			"class": "melee",
-			"lp":450,
+			"lp": 480,
 			"tier": 32,
 			"speed": 0,			"type": "Tank armour",
 			"armour": 111.7,
@@ -374571,7 +374627,7 @@
 				"Defence": 30
 			},
 			"class": "melee",
-			"lp":450,
+			"lp": 450,
 			"tier": 30,
 			"speed": 0,			"type": "Tank armour",
 			"armour": 104.4,
@@ -374807,7 +374863,7 @@
 				"Defence": 30
 			},
 			"class": "melee",
-			"lp": 300,
+			"lp": 310,
 			"tier": 31,
 			"speed": 0,			"type": "Tank armour",
 			"armour": 94,
@@ -374823,7 +374879,7 @@
 				"Defence": 30
 			},
 			"class": "melee",
-			"lp": 300,
+			"lp": 320,
 			"tier": 32,
 			"speed": 0,			"type": "Tank armour",
 			"armour": 97.2,
@@ -374855,7 +374911,7 @@
 				"Defence": 30
 			},
 			"class": "melee",
-			"lp": 150,
+			"lp": 155,
 			"tier": 31,
 			"speed": 0,			"type": "Tank armour",
 			"armour": 23.5,
@@ -374871,7 +374927,7 @@
 				"Defence": 30
 			},
 			"class": "melee",
-			"lp": 150,
+			"lp": 160,
 			"tier": 32,
 			"speed": 0,			"type": "Tank armour",
 			"armour": 24.3,
@@ -375192,7 +375248,7 @@
 				"Defence": 30
 			},
 			"class": "melee",
-			"lp": 300,
+			"lp": 310,
 			"tier": 31,
 			"speed": 0,			"type": "Tank armour",
 			"armour": 94,
@@ -375208,7 +375264,7 @@
 				"Defence": 30
 			},
 			"class": "melee",
-			"lp": 300,
+			"lp": 320,
 			"tier": 32,
 			"speed": 0,			"type": "Tank armour",
 			"armour": 97.2,
@@ -375774,7 +375830,7 @@
 				"Defence": 30
 			},
 			"class": "melee",
-			"lp": 450,
+			"lp": 465,
 			"tier": 31,
 			"speed": 0,			"type": "Tank armour",
 			"armour": 108.1,
@@ -375790,7 +375846,7 @@
 				"Defence": 30
 			},
 			"class": "melee",
-			"lp": 450,
+			"lp": 480,
 			"tier": 32,
 			"speed": 0,			"type": "Tank armour",
 			"armour": 111.7,
@@ -375822,7 +375878,7 @@
 				"Defence": 30
 			},
 			"class": "melee",
-			"lp": 450,
+			"lp": 465,
 			"tier": 31,
 			"speed": 0,			"type": "Tank armour",
 			"armour": 103.4,
@@ -375838,7 +375894,7 @@
 				"Defence": 30
 			},
 			"class": "melee",
-			"lp": 450,
+			"lp": 480,
 			"tier": 32,
 			"speed": 0,			"type": "Tank armour",
 			"armour": 106.9,
@@ -375870,7 +375926,7 @@
 				"Defence": 30
 			},
 			"class": "melee",
-			"lp": 450,
+			"lp": 465,
 			"tier": 31,
 			"speed": 0,			"type": "Tank armour",
 			"armour": 103.4,
@@ -375886,7 +375942,7 @@
 				"Defence": 30
 			},
 			"class": "melee",
-			"lp": 450,
+			"lp": 480,
 			"tier": 32,
 			"speed": 0,			"type": "Tank armour",
 			"armour": 106.9,
@@ -376963,7 +377019,7 @@
 				"Defence": 70
 			},
 			"class": "melee",
-			"lp": 350,
+			"lp": 355,
 			"tier": 71,
 			"speed": 0,			"type": "Tank armour",
 			"armour": 76.3,
@@ -376980,7 +377036,7 @@
 				"Defence": 70
 			},
 			"class": "melee",
-			"lp": 350,
+			"lp": 360,
 			"tier": 72,
 			"speed": 0,			"type": "Tank armour",
 			"armour": 78.3,
@@ -376997,7 +377053,7 @@
 				"Defence": 70
 			},
 			"class": "melee",
-			"lp": 350,
+			"lp": 365,
 			"tier": 73,
 			"speed": 0,			"type": "Tank armour",
 			"armour": 80.4,
@@ -377014,7 +377070,7 @@
 				"Defence": 70
 			},
 			"class": "melee",
-			"lp": 350,
+			"lp": 370,
 			"tier": 74,
 			"speed": 0,			"type": "Tank armour",
 			"armour": 82.5,
@@ -377153,7 +377209,7 @@
 				"Defence": 70
 			},
 			"class": "melee",
-			"lp": 700,
+			"lp": 710,
 			"tier": 71,
 			"speed": 0,			"type": "Tank armour",
 			"armour": 305.2,
@@ -377170,7 +377226,7 @@
 				"Defence": 70
 			},
 			"class": "melee",
-			"lp": 700,
+			"lp": 720,
 			"tier": 72,
 			"speed": 0,			"type": "Tank armour",
 			"armour": 313.2,
@@ -377187,7 +377243,7 @@
 				"Defence": 70
 			},
 			"class": "melee",
-			"lp": 700,
+			"lp": 730,
 			"tier": 73,
 			"speed": 0,			"type": "Tank armour",
 			"armour": 321.6,
@@ -377204,7 +377260,7 @@
 				"Defence": 70
 			},
 			"class": "melee",
-			"lp": 700,
+			"lp": 740,
 			"tier": 74,
 			"speed": 0,			"type": "Tank armour",
 			"armour": 330,
@@ -377238,7 +377294,7 @@
 				"Defence": 70
 			},
 			"class": "melee",
-			"lp": 350,
+			"lp": 355,
 			"tier": 71,
 			"speed": 0,			"type": "Tank armour",
 			"armour": 76.3,
@@ -377255,7 +377311,7 @@
 				"Defence": 70
 			},
 			"class": "melee",
-			"lp": 350,
+			"lp": 360,
 			"tier": 72,
 			"speed": 0,			"type": "Tank armour",
 			"armour": 78.3,
@@ -377272,7 +377328,7 @@
 				"Defence": 70
 			},
 			"class": "melee",
-			"lp": 350,
+			"lp": 365,
 			"tier": 73,
 			"speed": 0,			"type": "Tank armour",
 			"armour": 80.4,
@@ -377289,7 +377345,7 @@
 				"Defence": 70
 			},
 			"class": "melee",
-			"lp": 350,
+			"lp": 370,
 			"tier": 74,
 			"speed": 0,			"type": "Tank armour",
 			"armour": 82.5,
@@ -377640,7 +377696,7 @@
 				"Defence": 70
 			},
 			"class": "melee",
-			"lp": 1050,
+			"lp": 1065,
 			"tier": 71,
 			"speed": 0,			"type": "Tank armour",
 			"armour": 350.9,
@@ -377657,7 +377713,7 @@
 				"Defence": 70
 			},
 			"class": "melee",
-			"lp": 1050,
+			"lp": 1080,
 			"tier": 72,
 			"speed": 0,			"type": "Tank armour",
 			"armour": 360.1,
@@ -377674,7 +377730,7 @@
 				"Defence": 70
 			},
 			"class": "melee",
-			"lp": 1050,
+			"lp": 1095,
 			"tier": 73,
 			"speed": 0,			"type": "Tank armour",
 			"armour": 369.8,
@@ -377691,7 +377747,7 @@
 				"Defence": 70
 			},
 			"class": "melee",
-			"lp": 1050,
+			"lp": 1110,
 			"tier": 74,
 			"speed": 0,			"type": "Tank armour",
 			"armour": 379.5,
@@ -377725,7 +377781,7 @@
 				"Defence": 70
 			},
 			"class": "melee",
-			"lp": 1050,
+			"lp": 1065,
 			"tier": 71,
 			"speed": 0,			"type": "Tank armour",
 			"armour": 335.7,
@@ -377742,7 +377798,7 @@
 				"Defence": 70
 			},
 			"class": "melee",
-			"lp": 1050,
+			"lp": 1080,
 			"tier": 72,
 			"speed": 0,			"type": "Tank armour",
 			"armour": 344.5,
@@ -377759,7 +377815,7 @@
 				"Defence": 70
 			},
 			"class": "melee",
-			"lp": 1050,
+			"lp": 1095,
 			"tier": 73,
 			"speed": 0,			"type": "Tank armour",
 			"armour": 353.7,
@@ -377776,7 +377832,7 @@
 				"Defence": 70
 			},
 			"class": "melee",
-			"lp": 1050,
+			"lp": 1110,
 			"tier": 74,
 			"speed": 0,			"type": "Tank armour",
 			"armour": 363,
@@ -380806,7 +380862,7 @@
 				"Defence": 60
 			},
 			"class": "melee",
-			"lp": 300,
+			"lp": 305,
 			"tier": 61,
 			"speed": 0,			"type": "Tank armour",
 			"armour": 58.2,
@@ -380822,7 +380878,7 @@
 				"Defence": 60
 			},
 			"class": "melee",
-			"lp": 300,
+			"lp": 310,
 			"tier": 62,
 			"speed": 0,			"type": "Tank armour",
 			"armour": 59.8,
@@ -380838,7 +380894,7 @@
 				"Defence": 60
 			},
 			"class": "melee",
-			"lp": 300,
+			"lp": 315,
 			"tier": 63,
 			"speed": 0,			"type": "Tank armour",
 			"armour": 61.5,
@@ -380870,7 +380926,7 @@
 				"Defence": 60
 			},
 			"class": "melee",
-			"lp": 600,
+			"lp": 610,
 			"tier": 61,
 			"speed": 0,			"type": "Tank armour",
 			"armour": 232.8,
@@ -380886,7 +380942,7 @@
 				"Defence": 60
 			},
 			"class": "melee",
-			"lp": 600,
+			"lp": 620,
 			"tier": 62,
 			"speed": 0,			"type": "Tank armour",
 			"armour": 239.4,
@@ -380902,7 +380958,7 @@
 				"Defence": 60
 			},
 			"class": "melee",
-			"lp": 600,
+			"lp": 630,
 			"tier": 63,
 			"speed": 0,			"type": "Tank armour",
 			"armour": 246,
@@ -380934,7 +380990,7 @@
 				"Defence": 60
 			},
 			"class": "melee",
-			"lp": 300,
+			"lp": 305,
 			"tier": 61,
 			"speed": 0,			"type": "Tank armour",
 			"armour": 58.2,
@@ -380950,7 +381006,7 @@
 				"Defence": 60
 			},
 			"class": "melee",
-			"lp": 300,
+			"lp": 310,
 			"tier": 62,
 			"speed": 0,			"type": "Tank armour",
 			"armour": 59.8,
@@ -380966,7 +381022,7 @@
 				"Defence": 60
 			},
 			"class": "melee",
-			"lp": 300,
+			"lp": 315,
 			"tier": 63,
 			"speed": 0,			"type": "Tank armour",
 			"armour": 61.5,
@@ -381232,7 +381288,7 @@
 				"Defence": 60
 			},
 			"class": "melee",
-			"lp": 900,
+			"lp": 915,
 			"tier": 61,
 			"speed": 0,			"type": "Tank armour",
 			"armour": 267.7,
@@ -381248,7 +381304,7 @@
 				"Defence": 60
 			},
 			"class": "melee",
-			"lp": 900,
+			"lp": 930,
 			"tier": 62,
 			"speed": 0,			"type": "Tank armour",
 			"armour": 275.3,
@@ -381264,7 +381320,7 @@
 				"Defence": 60
 			},
 			"class": "melee",
-			"lp": 900,
+			"lp": 945,
 			"tier": 63,
 			"speed": 0,			"type": "Tank armour",
 			"armour": 282.9,
@@ -381296,7 +381352,7 @@
 				"Defence": 60
 			},
 			"class": "melee",
-			"lp": 900,
+			"lp": 915,
 			"tier": 61,
 			"speed": 0,			"type": "Tank armour",
 			"armour": 256,
@@ -381312,7 +381368,7 @@
 				"Defence": 60
 			},
 			"class": "melee",
-			"lp": 900,
+			"lp": 930,
 			"tier": 62,
 			"speed": 0,			"type": "Tank armour",
 			"armour": 263.3,
@@ -381328,7 +381384,7 @@
 				"Defence": 60
 			},
 			"class": "melee",
-			"lp": 900,
+			"lp": 945,
 			"tier": 63,
 			"speed": 0,			"type": "Tank armour",
 			"armour": 270.6,
@@ -382245,7 +382301,7 @@
 				"Defence": 99
 			},
 			"class": "melee",
-			"lp": 495,
+			"lp": 425,
 			"tier": 85,
 			"speed": 0,			"type": "Tank armour",
 			"armour": 108.9,
@@ -382262,7 +382318,7 @@
 				"Defence": 99
 			},
 			"class": "melee",
-			"lp": 495,
+			"lp": 430,
 			"tier": 86,
 			"speed": 0,			"type": "Tank armour",
 			"armour": 111.6,
@@ -382279,7 +382335,7 @@
 				"Defence": 99
 			},
 			"class": "melee",
-			"lp": 495,
+			"lp": 435,
 			"tier": 87,
 			"speed": 0,			"type": "Tank armour",
 			"armour": 114.3,
@@ -382296,7 +382352,7 @@
 				"Defence": 99
 			},
 			"class": "melee",
-			"lp": 495,
+			"lp": 440,
 			"tier": 88,
 			"speed": 0,			"type": "Tank armour",
 			"armour": 117.1,
@@ -382313,7 +382369,7 @@
 				"Defence": 99
 			},
 			"class": "melee",
-			"lp": 495,
+			"lp": 445,
 			"tier": 89,
 			"speed": 0,			"type": "Tank armour",
 			"armour": 120.0,
@@ -382330,7 +382386,7 @@
 				"Defence": 99
 			},
 			"class": "melee",
-			"lp": 495,
+			"lp": 450,
 			"tier": 90,
 			"speed": 0,			"type": "Tank armour",
 			"armour": 122.9,
@@ -383571,7 +383627,7 @@
 				"Defence": 8
 			},
 			"class": "melee",
-			"lp": 0,
+			"lp": 90,
 			"tier": 6,
 			"speed": 0,			"type": "Tank armour",
 			"armour": 36.8,
@@ -383617,7 +383673,7 @@
 			"ranged_damage": 0,
 			"requirements": {},
 			"class": "melee",
-			"lp": 0,
+			"lp": 250,
 			"tier": 25,
 			"speed": 0,			"type": "Tank armour",
 			"armour": 76.2,
@@ -385422,7 +385478,7 @@
 				"Defence": 50
 			},
 			"class": "melee",
-			"lp": 250,
+			"lp": 255,
 			"tier": 51,
 			"speed": 0,			"type": "Tank armour",
 			"armour": 43.7,
@@ -385438,7 +385494,7 @@
 				"Defence": 50
 			},
 			"class": "melee",
-			"lp": 250,
+			"lp": 260,
 			"tier": 52,
 			"speed": 0,			"type": "Tank armour",
 			"armour": 45,
@@ -385454,7 +385510,7 @@
 				"Defence": 50
 			},
 			"class": "melee",
-			"lp": 250,
+			"lp": 265,
 			"tier": 53,
 			"speed": 0,			"type": "Tank armour",
 			"armour": 46.4,
@@ -385746,7 +385802,7 @@
 				"Defence": 50
 			},
 			"class": "melee",
-			"lp": 750,
+			"lp": 765,
 			"tier": 51,
 			"speed": 0,			"type": "Tank armour",
 			"armour": 201.2,
@@ -385762,7 +385818,7 @@
 				"Defence": 50
 			},
 			"class": "melee",
-			"lp": 750,
+			"lp": 795,
 			"tier": 52,
 			"speed": 0,			"type": "Tank armour",
 			"armour": 207.2,
@@ -386214,7 +386270,7 @@
 				"Defence": 50
 			},
 			"class": "melee",
-			"lp": 500,
+			"lp": 510,
 			"tier": 51,
 			"speed": 0,			"type": "Tank armour",
 			"armour": 175,
@@ -386230,7 +386286,7 @@
 				"Defence": 50
 			},
 			"class": "melee",
-			"lp": 500,
+			"lp": 520,
 			"tier": 52,
 			"speed": 0,			"type": "Tank armour",
 			"armour": 180.2,
@@ -386246,7 +386302,7 @@
 				"Defence": 50
 			},
 			"class": "melee",
-			"lp": 500,
+			"lp": 530,
 			"tier": 53,
 			"speed": 0,			"type": "Tank armour",
 			"armour": 185.6,
@@ -386278,7 +386334,7 @@
 				"Defence": 50
 			},
 			"class": "melee",
-			"lp": 250,
+			"lp": 255,
 			"tier": 51,
 			"speed": 0,			"type": "Tank armour",
 			"armour": 43.7,
@@ -386294,7 +386350,7 @@
 				"Defence": 50
 			},
 			"class": "melee",
-			"lp": 250,
+			"lp": 260,
 			"tier": 52,
 			"speed": 0,			"type": "Tank armour",
 			"armour": 45,
@@ -386310,7 +386366,7 @@
 				"Defence": 50
 			},
 			"class": "melee",
-			"lp": 250,
+			"lp": 265,
 			"tier": 53,
 			"speed": 0,			"type": "Tank armour",
 			"armour": 46.4,
@@ -387407,7 +387463,7 @@
 				"Defence": 50
 			},
 			"class": "melee",
-			"lp": 500,
+			"lp": 510,
 			"tier": 51,
 			"speed": 0,			"type": "Tank armour",
 			"armour": 175,
@@ -387423,7 +387479,7 @@
 				"Defence": 50
 			},
 			"class": "melee",
-			"lp": 500,
+			"lp": 520,
 			"tier": 52,
 			"speed": 0,			"type": "Tank armour",
 			"armour": 180.2,
@@ -387439,7 +387495,7 @@
 				"Defence": 50
 			},
 			"class": "melee",
-			"lp": 500,
+			"lp": 530,
 			"tier": 53,
 			"speed": 0,			"type": "Tank armour",
 			"armour": 185.6,
@@ -388407,7 +388463,7 @@
 				"Defence": 50
 			},
 			"class": "melee",
-			"lp": 750,
+			"lp": 765,
 			"tier": 51,
 			"speed": 0,			"type": "Tank armour",
 			"armour": 201.2,
@@ -388423,7 +388479,7 @@
 				"Defence": 50
 			},
 			"class": "melee",
-			"lp": 750,
+			"lp": 780,
 			"tier": 52,
 			"speed": 0,			"type": "Tank armour",
 			"armour": 207.2,
@@ -388439,7 +388495,7 @@
 				"Defence": 50
 			},
 			"class": "melee",
-			"lp": 750,
+			"lp": 795,
 			"tier": 53,
 			"speed": 0,			"type": "Tank armour",
 			"armour": 213.4,
@@ -388695,7 +388751,7 @@
 				"Defence": 50
 			},
 			"class": "melee",
-			"lp": 750,
+			"lp": 765,
 			"tier": 51,
 			"speed": 0,			"type": "Tank armour",
 			"armour": 192.5,
@@ -388711,7 +388767,7 @@
 				"Defence": 50
 			},
 			"class": "melee",
-			"lp": 750,
+			"lp": 780,
 			"tier": 52,
 			"speed": 0,			"type": "Tank armour",
 			"armour": 198.2,
@@ -388727,7 +388783,7 @@
 				"Defence": 50
 			},
 			"class": "melee",
-			"lp": 750,
+			"lp": 795,
 			"tier": 53,
 			"speed": 0,			"type": "Tank armour",
 			"armour": 204.1,
@@ -388983,7 +389039,7 @@
 				"Defence": 50
 			},
 			"class": "melee",
-			"lp": 750,
+			"lp": 765,
 			"tier": 51,
 			"speed": 0,			"type": "Tank armour",
 			"armour": 192.5,
@@ -388999,7 +389055,7 @@
 				"Defence": 50
 			},
 			"class": "melee",
-			"lp": 750,
+			"lp": 780,
 			"tier": 52,
 			"speed": 0,			"type": "Tank armour",
 			"armour": 198.2,
@@ -389015,7 +389071,7 @@
 				"Defence": 50
 			},
 			"class": "melee",
-			"lp": 750,
+			"lp": 795,
 			"tier": 53,
 			"speed": 0,			"type": "Tank armour",
 			"armour": 204.1,
@@ -389893,7 +389949,7 @@
 			"ranged_damage": 0,
 			"requirements": {},
 			"class": "melee",
-			"lp": 0,
+			"lp": 25,
 			"tier": 5,
 			"speed": 0,			"type": "Tank armour",
 			"armour": 7.5,
@@ -390192,7 +390248,7 @@
 			"ranged_damage": 0,
 			"requirements": {},
 			"class": "magic",
-			"lp": 0,
+			"lp": 200,
 			"tier": 20,
 			"speed": 0,			"type": "Tank armour",
 			"armour": 63.2,
@@ -390661,7 +390717,7 @@
 				"Defence": 85
 			},
 			"class": "magic",
-			"lp": 850,
+			"lp": 830,
 			"tier": 83,
 			"speed": 0,			"type": "Tank armour",
 			"armour": 414.8,
@@ -390678,7 +390734,7 @@
 				"Defence": 85
 			},
 			"class": "magic",
-			"lp": 1275,
+			"lp": 1245,
 			"tier": 83,
 			"speed": 0,			"type": "Tank armour",
 			"armour": 456.2,
@@ -390695,7 +390751,7 @@
 				"Defence": 85
 			},
 			"class": "magic",
-			"lp": 1275,
+			"lp": 1245,
 			"tier": 83,
 			"speed": 0,			"type": "Tank armour",
 			"armour": 477,
@@ -392365,7 +392421,7 @@
 				"Defence": 5
 			},
 			"class": "melee",
-			"lp": 0,
+			"lp": 100,
 			"tier": 10,
 			"speed": 0,			"type": "Tank armour",
 			"armour": 40.4,
@@ -393611,7 +393667,7 @@
 				"Defence": 20
 			},
 			"class": "melee",
-			"lp": 100,
+			"lp": 105,
 			"tier": 21,
 			"speed": 0,			"type": "Tank armour",
 			"armour": 16.4,
@@ -393860,7 +393916,7 @@
 				"Defence": 20
 			},
 			"class": "melee",
-			"lp": 0,
+			"lp": 315,
 			"tier": 21,
 			"speed": 0,			"type": "Tank armour",
 			"armour": 75.6,
@@ -393876,7 +393932,7 @@
 				"Defence": 20
 			},
 			"class": "melee",
-			"lp": 0,
+			"lp": 300,
 			"tier": 20,
 			"speed": 0,			"type": "Tank armour",
 			"armour": 72.6,
@@ -394072,7 +394128,7 @@
 				"Defence": 20
 			},
 			"class": "melee",
-			"lp": 200,
+			"lp": 210,
 			"tier": 21,
 			"speed": 0,			"type": "Tank armour",
 			"armour": 65.8,
@@ -394104,7 +394160,7 @@
 				"Defence": 20
 			},
 			"class": "melee",
-			"lp": 100,
+			"lp": 105,
 			"tier": 21,
 			"speed": 0,			"type": "Tank armour",
 			"armour": 16.4,
@@ -394865,7 +394921,7 @@
 				"Defence": 20
 			},
 			"class": "melee",
-			"lp": 200,
+			"lp": 210,
 			"tier": 21,
 			"speed": 0,			"type": "Tank armour",
 			"armour": 65.8,
@@ -395253,7 +395309,7 @@
 				"Defence": 20
 			},
 			"class": "melee",
-			"lp": 300,
+			"lp": 315,
 			"tier": 21,
 			"speed": 0,			"type": "Tank armour",
 			"armour": 75.6,
@@ -395285,7 +395341,7 @@
 				"Defence": 20
 			},
 			"class": "melee",
-			"lp": 300,
+			"lp": 315,
 			"tier": 21,
 			"speed": 0,			"type": "Tank armour",
 			"armour": 72.3,
@@ -395317,7 +395373,7 @@
 				"Defence": 20
 			},
 			"class": "melee",
-			"lp": 300,
+			"lp": 315,
 			"tier": 21,
 			"speed": 0,			"type": "Tank armour",
 			"armour": 72.3,
@@ -397443,7 +397499,7 @@
 				"Prayer": 22
 			},
 			"class": "magic",
-			"lp": 0,
+			"lp": 520,
 			"tier": 52,
 			"speed": 0,			"type": "Tank armour",
 			"armour": 180.2,
@@ -397465,7 +397521,7 @@
 				"Prayer": 22
 			},
 			"class": "melee",
-			"lp": 0,
+			"lp": 520,
 			"tier": 52,
 			"speed": 0,			"type": "Tank armour",
 			"armour": 180.2,
@@ -397487,7 +397543,7 @@
 				"Prayer": 22
 			},
 			"class": "ranged",
-			"lp": 0,
+			"lp": 520,
 			"tier": 52,
 			"speed": 0,			"type": "Tank armour",
 			"armour": 180.2,
@@ -398687,7 +398743,7 @@
 				"Defence": 85
 			},
 			"class": "melee",
-			"lp": 1275,
+			"lp": 1245,
 			"tier": 83,
 			"speed": 0,			"type": "Tank armour",
 			"armour": 477,
@@ -398704,7 +398760,7 @@
 				"Defence": 85
 			},
 			"class": "melee",
-			"lp": 950,
+			"lp": 830,
 			"tier": 83,
 			"speed": 0,			"type": "Tank armour",
 			"armour": 414.8,
@@ -398721,7 +398777,7 @@
 				"Defence": 85
 			},
 			"class": "melee",
-			"lp": 1275,
+			"lp": 1245,
 			"tier": 83,
 			"speed": 0,			"type": "Tank armour",
 			"armour": 456.2,
@@ -401723,7 +401779,7 @@
 				"Prayer": 25
 			},
 			"class": "melee",
-			"lp": 375,
+			"lp": 345,
 			"tier": 23,
 			"speed": 0,			"type": "Tank armour",
 			"armour": 81.4,
@@ -401853,7 +401909,7 @@
 				"Prayer": 25
 			},
 			"class": "melee",
-			"lp": 200,
+			"lp": 230,
 			"tier": 23,
 			"speed": 0,			"type": "Tank armour",
 			"armour": 70.8,
@@ -402421,7 +402477,7 @@
 				"Defence": 1
 			},
 			"class": "magic",
-			"lp": 5,
+			"lp": 25,
 			"tier": 5,
 			"speed": 0,			"type": "Tank armour",
 			"armour": 7.5,
@@ -402437,7 +402493,7 @@
 				"Defence": 1
 			},
 			"class": "magic",
-			"lp": 5,
+			"lp": 25,
 			"tier": 5,
 			"speed": 0,			"type": "Tank armour",
 			"armour": 7.5,
@@ -402451,10 +402507,10 @@
 			"ranged_damage": 0,
 			"requirements": {},
 			"class": "magic",
-			"lp": 0,
-			"tier": 1,
+			"lp": 50,
+			"tier": 5,
 			"speed": 0,			"type": "Tank armour",
-			"armour": 22,
+			"armour": 30,
 			"slot": "head",
 			"melee_damage": 0,
 			"magic_damage": 0,
@@ -402465,7 +402521,7 @@
 			"ranged_damage": 0,
 			"requirements": {},
 			"class": "magic",
-			"lp": 0,
+			"lp": 50,
 			"tier": 5,
 			"speed": 0,			"type": "Tank armour",
 			"armour": 30,
@@ -402479,7 +402535,7 @@
 			"ranged_damage": 0,
 			"requirements": {},
 			"class": "magic",
-			"lp": 0,
+			"lp": 50,
 			"tier": 5,
 			"speed": 0,			"type": "Tank armour",
 			"armour": 30,
@@ -402493,7 +402549,7 @@
 			"ranged_damage": 0,
 			"requirements": {},
 			"class": "magic",
-			"lp": 0,
+			"lp": 75,
 			"tier": 5,
 			"speed": 0,			"type": "Tank armour",
 			"armour": 33,
@@ -402507,7 +402563,7 @@
 			"ranged_damage": 0,
 			"requirements": {},
 			"class": "magic",
-			"lp": 0,
+			"lp": 75,
 			"tier": 5,
 			"speed": 0,			"type": "Tank armour",
 			"armour": 33,
@@ -402521,7 +402577,7 @@
 			"ranged_damage": 0,
 			"requirements": {},
 			"class": "magic",
-			"lp": 0,
+			"lp": 75,
 			"tier": 5,
 			"speed": 0,			"type": "Tank armour",
 			"armour": 33,
@@ -402535,7 +402591,7 @@
 			"ranged_damage": 0,
 			"requirements": {},
 			"class": "magic",
-			"lp": 0,
+			"lp": 75,
 			"tier": 5,
 			"speed": 0,			"type": "Tank armour",
 			"armour": 34.5,
@@ -402549,7 +402605,7 @@
 			"ranged_damage": 0,
 			"requirements": {},
 			"class": "magic",
-			"lp": 0,
+			"lp": 75,
 			"tier": 5,
 			"speed": 0,			"type": "Tank armour",
 			"armour": 34.5,
@@ -402563,7 +402619,7 @@
 			"ranged_damage": 0,
 			"requirements": {},
 			"class": "magic",
-			"lp": 0,
+			"lp": 75,
 			"tier": 1,
 			"speed": 0,			"type": "Tank armour",
 			"armour": 25.3,
@@ -402791,7 +402847,7 @@
 				"Defence": 20
 			},
 			"class": "melee",
-			"lp": 300,
+			"lp": 375,
 			"tier": 25,
 			"speed": 0,			"type": "Tank armour",
 			"armour": 83.8,
@@ -402807,7 +402863,7 @@
 				"Defence": 20
 			},
 			"class": "melee",
-			"lp": 300,
+			"lp": 375,
 			"tier": 25,
 			"speed": 0,			"type": "Tank armour",
 			"armour": 87.6,
@@ -403062,7 +403118,7 @@
 			"ranged_damage": 0,
 			"requirements": {},
 			"class": "melee",
-			"lp": 0,
+			"lp": 200,
 			"tier": 20,
 			"speed": 0,			"type": "Tank armour",
 			"armour": 63.2,
@@ -403112,7 +403168,7 @@
 			"ranged_damage": 0,
 			"requirements": {},
 			"class": "magic",
-			"lp": 0,
+			"lp": 75,
 			"tier": 5,
 			"speed": 0,			"type": "Tank armour",
 			"armour": 34.5,
@@ -403126,7 +403182,7 @@
 			"ranged_damage": 0,
 			"requirements": {},
 			"class": "magic",
-			"lp": 0,
+			"lp": 75,
 			"tier": 5,
 			"speed": 0,
 			"type": "Tank armour",

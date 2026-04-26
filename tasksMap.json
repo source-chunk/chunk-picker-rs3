@@ -2627,6 +2627,7 @@
   "Wield an ~|oak shieldbow|~": "t_2668",
   "Wear a ~|slayer helmet|~": "t_2669",
   "Wear a ~|black mask|~": "t_2670",
+  "Wear the ~|ancient gladiator helm|~": "t_2856",
   "Wear a piece of ~|steel armour|~": "t_2671",
   "Wear a piece of ~|studded leather armour|~": "t_2672",
   "Wear a piece of ~|combat robes|~": "t_2673",
@@ -2816,7 +2817,6 @@
   "Wear ~|blast diffusion boots|~": "t_2853",
   "Wear ~|swift gloves|~": "t_2854",
   "Wear ~|spellcaster gloves|~": "t_2855",
-  "Wear the ~|ancient gladiator helm|~": "t_2856",
   "Wear a piece of ~|gemstone armour|~": "t_2857",
   "Wear ~|atrocious rogue gloves|~": "t_2858",
   "Wear ~|fleeting boots|~": "t_2859",
@@ -17903,6 +17903,8 @@
   "Obtain a ~|keenblade|~": "t_16567",
   "Obtain ~|kerapac's wrist wraps|~": "t_16568",
   "Obtain ~|keris|~": "t_16569",
+  "Obtain a ~|khazard armour|~": "t_119938",
+  "Obtain a ~|khazard helm|~": "t_119939",
   "Obtain ~|khopesh of elidinis|~": "t_16570",
   "Obtain a ~|khopesh of tumeken|~": "t_16571",
   "Obtain a ~|khopesh of the kharidian|~": "t_16572",
@@ -91575,5 +91577,5 @@
   "Pizazz points: ~|Death rune|~": "t_52854",
   "Pizazz points: ~|Soul rune|~": "t_52856",
   "Pizazz points: ~|Blood rune|~": "t_52857",
-  "currentNextIndex": 119938
+  "currentNextIndex": 119940
 }
