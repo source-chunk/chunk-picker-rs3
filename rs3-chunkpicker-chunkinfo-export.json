@@ -31248,7 +31248,6 @@
 				"Priority": 2
 			},
 			"Gather a ~|hay sack|~": {
-				"Category": ["Normal Farming"],
 				"Items": ["Empty sack"],
 				"Objects": ["Haystack[+]"],
 				"Level": 23,
@@ -31257,7 +31256,6 @@
 				"Priority": 1
 			},
 			"Make a ~|hay sack (spear)|~": {
-				"Category": ["Normal Farming"],
 				"Items": ["Hay sack", "Bronze spear"],
 				"Objects": ["Haystack[+]"],
 				"Level": 23,
@@ -31266,7 +31264,6 @@
 				"Priority": 2
 			},
 			"Construct a ~|scarecrow|~": {
-				"Category": ["Normal Farming"],
 				"Items": ["Hay sack (spear)", "Watermelon"],
 				"Objects": ["Haystack[+]"],
 				"Level": 23,
@@ -174062,7 +174059,7 @@
 			"Sections": {
 				"1": {
 					"Object": {
-						"Hay bale": 2,
+						"Hay bale#Fillable": 2,
 						"Dead tree": 4,
 						"Cupboard": 1,
 						"Closed chest": 1,
@@ -175234,8 +175231,8 @@
 			"Sections": {
 				"1": {
 					"Object": {
-						"Hay bales": 1,
-						"Haystack": 1,
+						"Hay bales#Fillable": 1,
+						"Haystack#Fillable": 1,
 						"Bookcase": 4,
 						"Glarial's tombstone": 1,
 						"Fireplace": 1,
@@ -175361,6 +175358,7 @@
 				"Dead tree": 2,
 				"Balancing ledge": 1,
 				"Crates": 7,
+				"Hay bale#Fillable": 2,
 				"Blackboard": 1,
 				"Penance fighter statue": 1,
 				"Penance healer statue": 1,
@@ -177709,9 +177707,10 @@
 		},
 		"10549": {
 			"Object": {
-				"Hay bales": 2,
-				"Haystack": 1,
-				"Hay bale": 2,
+				"Hay bales#Fillable": 2,
+				"Haystack#Fillable": 1,
+				"Hay bale#Fillable": 1,
+				"Hay bale": 1,
 				"Closed chest": 2,
 				"Target": 5,
 				"Robust Chest": 3,
@@ -177909,7 +177908,7 @@
 		},
 		"10553": {
 			"Object": {
-				"Hay bale": 6,
+				"Hay bale#Fillable": 6,
 				"Potato": 7,
 				"Cabbage": 7,
 				"Chest": 3,
@@ -178941,7 +178940,8 @@
 						"Tree": 7,
 						"Maple tree": 22,
 						"Dead tree": 38,
-						"Fishing spot (lure, bait)": 4
+						"Fishing spot (lure, bait)": 4,
+						"Haystack#Fillable": 1
 					},
 					"NPC": {
 						"Donovan the Family Handyman": 1,
@@ -187687,8 +187687,8 @@
 				"Dairy cow": 1,
 				"Wheat": 87,
 				"Crate": 1,
-				"Hay bale": 5,
-				"Hay bales": 6,
+				"Hay bale#Fillable": 5,
+				"Hay bales#Fillable": 6,
 				"Willow": 3,
 				"Oak": 6,
 				"Yew": 3,
@@ -189147,7 +189147,7 @@
 			"Sections": {
 				"1": {
 					"Object": {
-						"Hay bales": 2,
+						"Hay bales#Fillable": 2,
 						"Cage": 3,
 						"Bank booth": 6,
 						"Chest": 1,
@@ -205088,7 +205088,7 @@
 		},
 		"Troll Stronghold": {
 			"Object": {
-				"Hay bale": 4,
+				"Hay bale#Fillable": 4,
 				"Exit": 2,
 				"Kitchen Drawers": 2,
 				"Rack": 1,
@@ -210145,8 +210145,8 @@
 		},
 		"Fisher Realm": {
 			"Object": {
-				"Hay bales": 3,
-				"Haystack": 1,
+				"Hay bales#Fillable": 3,
+				"Haystack#Fillable": 1,
 				"Potato": 86,
 				"Closed chest": 3,
 				"Cabbage": 38,
@@ -222316,7 +222316,7 @@
 			"Forge[+]": ["Forge", "Fremennik Forge"],
 			"Furnace[+]": ["Furnace", "Lava Furnace", "Fremennik Furnace"],
 			"HarpoonFishingSpot[+]": ["Fishing spot (cage, harpoon)", "Fishing spot (big fishing net, harpoon)"],
-			"Haystack[+]": ["Haystack", "Hay bale"],
+			"Haystack[+]": ["Haystack#Fillable", "Hay bale#Fillable", "Hay bales#Fillable"],
 			"HeavyMetalMithril[+]": ["Mithril rock", "Coal rock", "Concentrated coal deposit"],
 			"HeavyMetalAdamant[+]": ["Adamantite rock", "Luminite rock"],
 			"HeavyMetalRune[+]": ["Runite rock", "Luminite rock"],
@@ -282890,6 +282890,24 @@
 			"Citizen remains": {
 				"Senntisten": [{
 					"Complete the ~|Crossing that Bridge|~ research": "Archaeology"
+				}]
+			},
+			"Haystack#Fillable": {
+				"10549": [{
+					"Enter the ~|Ranging Guild|~": "Ranged"
+				}]
+			},
+			"Hay bale#Fillable": {
+				"10039": [{
+					"~|Bar Crawl (miniquest)|~ Complete the miniquest": "Quest"
+				}],
+				"10549": [{
+					"Enter the ~|Ranging Guild|~": "Ranged"
+				}]
+			},
+			"Hay bales#Fillable": {
+				"10549": [{
+					"Enter the ~|Ranging Guild|~": "Ranged"
 				}]
 			},
 			"Hopper": {
