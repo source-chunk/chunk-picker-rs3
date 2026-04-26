@@ -23987,7 +23987,7 @@
 			"Craft a piece of ~|dinosaurhide armour|~": {
 				"Items": ["Dinosaur scale*", "Dinosaur leather*", "Thread*"],
 				"Level": 93,
-				"Output": "Dinosaurhide body",
+				"Output": "Dinosaurhide armour",
 				"Primary": true,
 				"Priority": 4
 			},
