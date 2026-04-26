@@ -687,7 +687,7 @@
 			},
 			"Cross the ~|obstacle pipe (Yanille Agility dungeon)|~": {
 				"Category": ["Shortcut"],
-				"Chunks": ["Yanilla Agility Dungeon"],
+				"Chunks": ["Yanille Agility Dungeon"],
 				"Level": 49,
 				"Primary": true,
 				"Priority": 1,
@@ -1183,7 +1183,7 @@
 			},
 			"Cross the ~|pile of rubble|~": {
 				"Category": ["Shortcut"],
-				"Chunks": ["Yanilla Agility Dungeon"],
+				"Chunks": ["Yanille Agility Dungeon"],
 				"Level": 67,
 				"Primary": true,
 				"Priority": 1,
