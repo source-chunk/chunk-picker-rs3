@@ -16047,7 +16047,7 @@
 				"Items": ["Apple mush*", "Ale yeast*", "Beer glass"],
 				"Objects": ["Fermenting vat"],
 				"Level": 14,
-				"Output": "Cider",
+				"Output": "Cider brewing output",
 				"Primary": true,
 				"Priority": 2,
 				"Not F2P": true
@@ -16200,7 +16200,7 @@
 				"Items": ["Honeycomb*", "Ale yeast*", "Beer glass"],
 				"Objects": ["Fermenting vat"],
 				"Level": 16,
-				"Output": "Mead",
+				"Output": "Mead brewing output",
 				"Primary": true,
 				"Priority": 10,
 				"Not F2P": true
@@ -16244,7 +16244,7 @@
 				"Items": ["Hammerstone hops*", "Ale yeast*", "Bucket of water", "Barley malt*", "Beer glass"],
 				"Objects": ["Fermenting vat"],
 				"Level": 19,
-				"Output": "Dwarven stout",
+				"Output": "Dwarven stout brewing output",
 				"Primary": true,
 				"Priority": 1,
 				"Not F2P": true
@@ -16437,7 +16437,7 @@
 				"Items": ["Asgarnian hops*", "Ale yeast*", "Bucket of water", "Barley malt*", "Beer glass"],
 				"Objects": ["Fermenting vat"],
 				"Level": 24,
-				"Output": "Asgarnian ale",
+				"Output": "Asgarnian ale brewing output",
 				"Primary": true,
 				"Priority": 1
 			},
@@ -16594,7 +16594,7 @@
 				"Items": ["Apple mush*", "Ale yeast*", "Beer glass"],
 				"Objects": ["Fermenting vat"],
 				"Level": 14,
-				"Output": "Wendlewick ale",
+				"Output": "Wendlewick ale brewing output",
 				"Primary": true,
 				"Priority": 4,
 				"Not F2P": true
@@ -16643,7 +16643,7 @@
 				"Items": ["Clean harralander*", "Ale yeast*", "Bucket of water", "Barley malt*", "Beer glass"],
 				"Objects": ["Fermenting vat"],
 				"Level": 29,
-				"Output": "Greenman's ale",
+				"Output": "Greenman's ale brewing output",
 				"Primary": true,
 				"Priority": 1
 			},
@@ -17044,7 +17044,7 @@
 				"Items": ["Yanillian hops*", "Ale yeast*", "Bucket of water", "Barley malt*", "Beer glass"],
 				"Objects": ["Fermenting vat"],
 				"Level": 34,
-				"Output": "Wizard's mind bomb",
+				"Output": "Wizard's mind bomb brewing output",
 				"Primary": true,
 				"Priority": 8
 			},
@@ -17203,7 +17203,7 @@
 				"Items": ["Krandorian hops*", "Ale yeast*", "Bucket of water", "Barley malt*", "Beer glass"],
 				"Objects": ["Fermenting vat"],
 				"Level": 39,
-				"Output": "Dragon bitter",
+				"Output": "Dragon bitter brewing output",
 				"Primary": true,
 				"Priority": 2
 			},
@@ -17349,7 +17349,7 @@
 				"Items": ["Bittercap mushroom*", "Ale yeast*", "Bucket of water", "Barley malt*", "Beer glass"],
 				"Objects": ["Fermenting vat"],
 				"Level": 44,
-				"Output": "Moonlight mead",
+				"Output": "Moonlight mead brewing output",
 				"Primary": true,
 				"Priority": 1
 			},
@@ -17511,7 +17511,7 @@
 				"Items": ["Oak roots*", "Ale yeast*", "Bucket of water", "Barley malt*", "Beer glass"],
 				"Objects": ["Fermenting vat"],
 				"Level": 49,
-				"Output": "Axeman's folly",
+				"Output": "Axeman's folly brewing output",
 				"Primary": true,
 				"Priority": 1
 			},
@@ -17583,7 +17583,7 @@
 				"Items": ["Chocolate dust*", "Ale yeast*", "Bucket of water", "Barley malt*", "Beer glass"],
 				"Objects": ["Fermenting vat"],
 				"Level": 54,
-				"Output": "Chef's delight",
+				"Output": "Chef's delight brewing output",
 				"Primary": true,
 				"Priority": 1
 			},
@@ -17674,7 +17674,7 @@
 				"Items": ["Wildblood hops*", "Ale yeast*", "Bucket of water", "Barley malt*", "Beer glass"],
 				"Objects": ["Fermenting vat"],
 				"Level": 59,
-				"Output": "Slayer's respite",
+				"Output": "Slayer's respite brewing output",
 				"Primary": true,
 				"Priority": 1
 			},
@@ -17724,7 +17724,7 @@
 				"Items": ["Raw bacon*", "Ale yeast*", "Bucket of water", "Barley malt*", "Beer glass"],
 				"Objects": ["Fermenting vat"],
 				"Level": 64,
-				"Output": "Pigswill",
+				"Output": "Pigswill brewing output",
 				"Primary": true,
 				"Priority": 2
 			},
@@ -132728,14 +132728,1154 @@
 				"Reward": [],
 				"ManualShow": true,
 				"Not F2P": true
+			},
+			"~|Activities achievements#'Accidental' Skilling|~ A Hatching Pair": {
+				"Category": ["Misc achievements"],
+				"Description": "After Extinction quest, ask Prehistoric Potterington at the Anachronia dinosaur farm about zygomites.",
+				"BaseQuest": "Activities achievements",
+				"Chunks": ["14916"],
+				"Tasks": {
+					"~|Extinction|~ Complete the quest": "Quest"
+				},
+				"RuneScore": 5,
+				"Not F2P": true
+			},
+			"~|Activities achievements#'Accidental' Skilling|~ Off to See the Lizard": {
+				"Category": ["Misc achievements"],
+				"Description": "Help Galgalar the ilujanka near the incubator south of the Anachronia dinosaur farm.",
+				"BaseQuest": "Activities achievements",
+				"Chunks": ["14915-1"],
+				"Skills": {
+					"Firemaking": 87
+				},
+				"Tasks": {
+					"~|Extinction|~ Complete the quest": "Quest"
+				},
+				"RuneScore": 5,
+				"Not F2P": true
+			},
+			"~|Activities achievements#'Accidental' Skilling|~ Egg McGuffin": {
+				"Category": ["Misc achievements"],
+				"Description": "Help Ben the ancient zygomite near the mystical tree south of the Anachronia dinosaur farm.",
+				"BaseQuest": "Activities achievements",
+				"Chunks": ["14916", "14915-1"],
+				"Items": ["Tempered fungal shaft"],
+				"Tasks": {
+					"~|Extinction|~ Complete the quest": "Quest"
+				},
+				"RuneScore": 5,
+				"Not F2P": true
+			},
+			"~|Activities achievements#'Accidental' Skilling|~ Mycomanagement": {
+				"Category": ["Misc achievements"],
+				"Description": "Help Bill the ancient zygomite near the mystical tree on the west coast of Anachronia.",
+				"BaseQuest": "Activities achievements",
+				"Chunks": ["14916", "15170-1"],
+				"Items": ["Dinosaur 'propellant'"],
+				"Skills": {
+					"Firemaking": 95
+				},
+				"Tasks": {
+					"~|Extinction|~ Complete the quest": "Quest"
+				},
+				"RuneScore": 5,
+				"Not F2P": true
+			},
+			"~|Activities achievements#'Accidental' Skilling|~ Fibbin' Archery Sequence": {
+				"Category": ["Misc achievements"],
+				"Description": "Help Salusan the ilujanka near the mystical tree on the west coast of Anachronia",
+				"BaseQuest": "Activities achievements",
+				"Chunks": ["15170-1"],
+				"Items": ["Dinarrow", "ResonantAnima[+]"],
+				"Skills": {
+					"Fletching": 95
+				},
+				"Tasks": {
+					"~|Extinction|~ Complete the quest": "Quest"
+				},
+				"RuneScore": 5,
+				"NoBoost": true,
+				"Not F2P": true
+			},
+			"~|Activities achievements#'Accidental' Skilling|~ Needles from Skips": {
+				"Category": ["Misc achievements", "No RuneScore"],
+				"Description": "Show an elder god arrow to Prehistoric Potterington",
+				"BaseQuest": "Activities achievements",
+				"Chunks": ["14916", "14915-1", "15170-1"],
+				"Items": ["Dinarrow", "ResonantAnima[+]"],
+				"Skills": {
+					"Firemaking": 95,
+					"Fletching": 95
+				},
+				"Tasks": {
+					"~|Extinction|~ Complete the quest": "Quest"
+				},
+				"Not F2P": true
+			},
+			"~|Activities achievements#'Accidental' Skilling|~ The Plop Thickens": {
+				"Category": ["Misc achievements"],
+				"Description": "Use Potterington Blend #102 Fertiliser or dinosaur 'propellant' on Prehistoric Potterington.",
+				"BaseQuest": "Activities achievements",
+				"Chunks": ["14916"],
+				"Items": ["Dinosaur 'propellant'"],
+				"Tasks": {
+					"~|Extinction|~ Complete the quest": "Quest"
+				},
+				"RuneScore": 5,
+				"Not F2P": true
+			},
+			"~|Activities achievements#'Accidental' Skilling|~ Can I Offer You An Egg In This Trying Time?": {
+				"Category": ["Misc achievements"],
+				"Description": "Find an unchecked egg in the pile of dinosaur eggs south of Anachronia dinosaur farm.",
+				"BaseQuest": "Activities achievements",
+				"Chunks": ["14915-1"],
+				"Skills": {
+					"Firemaking": 87
+				},
+				"Tasks": {
+					"~|Extinction|~ Complete the quest": "Quest"
+				},
+				"RuneScore": 10,
+				"Not F2P": true
+			},
+			"~|Activities achievements#'Accidental' Skilling|~ Mycotherapy": {
+				"Category": ["Misc achievements"],
+				"Description": "Find an unchecked zygomite while carestyling south of Anachronia dinosaur farm.",
+				"BaseQuest": "Activities achievements",
+				"Chunks": ["14915-1"],
+				"Skills": {
+					"Firemaking": 82,
+					"Fletching": 82
+				},
+				"Tasks": {
+					"~|Extinction|~ Complete the quest": "Quest"
+				},
+				"RuneScore": 10,
+				"Not F2P": true
+			},
+			"~|Activities achievements#'Accidental' Skilling|~ Complete the 'Accidental' Skilling achievements": {
+				"Category": ["Misc achievements"],
+				"BaseQuest": "Activities achievements",
+				"Tasks": {
+					"~|Activities achievements#'Accidental' Skilling|~ A Hatching Pair": "Diary",
+					"~|Activities achievements#'Accidental' Skilling|~ Off to See the Lizard": "Diary",
+					"~|Activities achievements#'Accidental' Skilling|~ Egg McGuffin": "Diary",
+					"~|Activities achievements#'Accidental' Skilling|~ Mycomanagement": "Diary",
+					"~|Activities achievements#'Accidental' Skilling|~ Fibbin' Archery Sequence": "Diary",
+					"~|Activities achievements#'Accidental' Skilling|~ Needles from Skips": "Diary",
+					"~|Activities achievements#'Accidental' Skilling|~ The Plop Thickens": "Diary",
+					"~|Activities achievements#'Accidental' Skilling|~ Can I Offer You An Egg In This Trying Time?": "Diary",
+					"~|Activities achievements#'Accidental' Skilling|~ Mycotherapy": "Diary"
+				},
+				"Reward": [],
+				"ManualShow": true,
+				"Not F2P": true
+			},
+			"~|Activities achievements#Distractions & Diversions|~ A Bit TOO Familiar": {
+				"Category": ["Misc achievements", "DnD", "Not Daily DnD"],
+				"Description": "Play as the following familiars in Familiarisation",
+				"BaseQuest": "Activities achievements",
+				"Objects": ["Small obelisk"],
+				"RuneScore": 40,
+				"Not F2P": true
+			},
+			"~|Activities achievements#Distractions & Diversions|~ A Swift Two Fifty": {
+				"Category": ["Misc achievements", "DnD"],
+				"Description": "Collect 250 or more tears from a single entry in Tears of Guthix.",
+				"BaseQuest": "Activities achievements",
+				"Chunks": ["Tears of Guthix cavern"],
+				"Tasks": {
+					"~|Tears of Guthix|~ Complete the quest": "Quest"
+				},
+				"RuneScore": 40,
+				"QuestPointsNeeded": 350,
+				"Not F2P": true
+			},
+			"~|Activities achievements#Distractions & Diversions|~ Bone I Fired": {
+				"Category": ["Misc achievements", "DnD", "Not Daily DnD"],
+				"Description": "Defeat the Skeletal Horror whilst wielding Zanik's crossbow and using bone bolts.",
+				"BaseQuest": "Activities achievements",
+				"Chunks": ["13366-1"],
+				"Items": ["Zanik's crossbow", "Bone bolts"],
+				"Skills": {
+					"Ranged": 48
+				},
+				"Tasks": {
+					"~|The Chosen Commander|~ Complete the quest": "Quest",
+					"~|Fur 'n Seek#Wish List|~ Complete the lore activity": "Quest"
+				},
+				"RuneScore": 10,
+				"Not F2P": true
+			},
+			"~|Activities achievements#Distractions & Diversions|~ Like a Boss": {
+				"Category": ["Misc achievements", "DnD"],
+				"Description": "Kill a goblin raider boss in the Goblin Village.",
+				"BaseQuest": "Activities achievements",
+				"Chunks": ["11830-1"],
+				"RuneScore": 5,
+				"Not F2P": true
+			},
+			"~|Activities achievements#Distractions & Diversions|~ Regard My Shards": {
+				"Category": ["Misc achievements", "DnD", "Not Daily DnD"],
+				"Description": "Collect 60 shards in Familiarisation",
+				"BaseQuest": "Activities achievements",
+				"Objects": ["Small obelisk"],
+				"RuneScore": 40,
+				"Not F2P": true
+			},
+			"~|Activities achievements#Distractions & Diversions|~ Reverent Sculptor": {
+				"Category": ["Misc achievements", "DnD", "Not Daily DnD"],
+				"Description": "Unlock all 5 of the god chisels from the sculpting god statues and then talk to Copernicus Glyph.",
+				"BaseQuest": "Activities achievements",
+				"Chunks": ["8244"],
+				"Items": ["Sculpting chisel"],
+				"Tasks": {
+					"~|Plague's End|~ Complete the quest": "Quest"
+				},
+				"RuneScore": 30,
+				"Not F2P": true
+			},
+			"~|Activities achievements#Distractions & Diversions|~ The Distracted": {
+				"Category": ["Misc achievements", "DnD", "Not Daily DnD", "No RuneScore"],
+				"Description": "Obtain the Distracted title by completing distractions and diversions.",
+				"BaseQuest": "Activities achievements",
+				"NPCs": ["Cornelius Glyph"],
+				"Objects": ["Small obelisk", "Evil tree", "Crashed star"],
+				"Chunks": ["11319-1", "Effigy Incubator", "Balthazar Beauregard's Big Top Bonanza", "Player-Owned Port", "10291", "8755", "Tears of Guthix cavern", "13366-1",
+					"Chaos Tunnels", "Chinchompa cave", "10295", "Guthixian Cache", "Phoenix Lair", "Champions' Aerna", "Sinkhole", "Runecrafting Guild", "10806-1"],
+				"Tasks": {
+					"~|A Shadow over Ashdale|~ Complete the quest": "Quest",
+					"~|Sins of the Father|~ Complete the quest": "Quest",
+					"~|In Pyre Need|~ Complete the quest": "Quest",
+					"~|Fur 'n' Seek#Wish List|~ Complete the lore activity": "Quest",
+					"~|The Hunt for Surok (miniquest)|~ Complete the miniquest": "Quest",
+					"~|King's Ransom|~ Complete the quest": "Quest"
+				},
+				"Not F2P": true
+			},
+			"~|Activities achievements#Distractions & Diversions|~ Cracking Open A Cold One": {
+				"Category": ["Misc achievements", "DnD", "Not Daily DnD"],
+				"Description": "Fill an effigy with knowledge, then crack it open.",
+				"BaseQuest": "Activities achievements",
+				"Chunks": ["Effigy Incubator"],
+				"Tasks": {
+					"~|Sins of the Father|~ Complete the quest": "Quest"
+				},
+				"RuneScore": 5,
+				"Not F2P": true
+			},
+			"~|Activities achievements#Distractions & Diversions|~ Cracking Open A Four Pack": {
+				"Category": ["Misc achievements", "DnD", "Not Daily DnD"],
+				"Description": "Fill and crack open at least one of each effigy.",
+				"BaseQuest": "Activities achievements",
+				"Chunks": ["Effigy Incubator"],
+				"Tasks": {
+					"~|Sins of the Father|~ Complete the quest": "Quest"
+				},
+				"RuneScore": 10,
+				"Not F2P": true
+			},
+			"~|Activities achievements#Distractions & Diversions|~ Effigy Scavenger": {
+				"Category": ["Misc achievements", "DnD", "Not Daily DnD"],
+				"Description": "Fill and crack open at least one of each effigy.",
+				"BaseQuest": "Activities achievements",
+				"Chunks": ["Effigy Incubator"],
+				"Tasks": {
+					"~|Sins of the Father|~ Complete the quest": "Quest"
+				},
+				"RuneScore": 10,
+				"Not F2P": true
+			},
+			"~|Activities achievements#Distractions & Diversions|~ I C U K G P": {
+				"Category": ["Misc achievements", "DnD", "Not Daily DnD"],
+				"Description": "Find 12 penguin spies and the polar bear in a single week and report your findings.",
+				"BaseQuest": "Activities achievements",
+				"Chunks": ["10290"],
+				"Tasks": {
+					"~|Back to the Freezer|~ Complete the quest": "Quest"
+				},
+				"RuneScore": 40,
+				"Not F2P": true
+			},
+			"~|Activities achievements#Distractions & Diversions|~ Ultimate Birdwatcher": {
+				"Category": ["Misc achievements", "DnD", "Not Daily DnD"],
+				"Description": "Have at least 50 Penguin Points at once.",
+				"BaseQuest": "Activities achievements",
+				"Chunks": ["10290"],
+				"RuneScore": 40,
+				"Not F2P": true
+			},
+			"~|Activities achievements#Distractions & Diversions|~ It's Late and I'm Awake": {
+				"Category": ["Misc achievements", "DnD"],
+				"Description": "Mine 200 stardust from a shooting star.",
+				"BaseQuest": "Activities achievements",
+				"Objects": ["Crashed star"],
+				"Skills": {
+					"Mining": 10
+				},
+				"RuneScore": 10
+			},
+			"~|Activities achievements#Distractions & Diversions|~ Starstruck": {
+				"Category": ["Misc achievements", "DnD"],
+				"Description": "Get knocked out by a shooting star.",
+				"BaseQuest": "Activities achievements",
+				"Objects": ["Crashed star"],
+				"RuneScore": 5
+			},
+			"~|Activities achievements#Distractions & Diversions|~ Bagsy Shooting Star": {
+				"Category": ["Misc achievements", "DnD"],
+				"Description": "Be the first player to find a crashed star.",
+				"BaseQuest": "Activities achievements",
+				"Objects": ["Crashed star"],
+				"RuneScore": 5
+			},
+			"~|Activities achievements#Distractions & Diversions|~ Friend of the Star Sprites": {
+				"Category": ["Misc achievements", "DnD"],
+				"Description": "Mine 10 crashed stars and talk to the star sprites within.",
+				"BaseQuest": "Activities achievements",
+				"Objects": ["Crashed star"],
+				"Skills": {
+					"Mining": 10
+				},
+				"RuneScore": 10
+			},
+			"~|Activities achievements#Distractions & Diversions|~ Complete the Distractions & Diversions achievements": {
+				"Category": ["Misc achievements"],
+				"BaseQuest": "Activities achievements",
+				"Tasks": {
+					"~|Activities achievements#Distractions & Diversions|~ A Bit TOO Familiar": "Diary",
+					"~|Activities achievements#Distractions & Diversions|~ A Swift Two Fifty": "Diary",
+					"~|Activities achievements#Distractions & Diversions|~ Bone I Fired": "Diary",
+					"~|Activities achievements#Distractions & Diversions|~ Like a Boss": "Diary",
+					"~|Activities achievements#Distractions & Diversions|~ Regard My Shards": "Diary",
+					"~|Activities achievements#Distractions & Diversions|~ Reverent Sculptor": "Diary",
+					"~|Activities achievements#Distractions & Diversions|~ The Distracted": "Diary",
+					"~|Activities achievements#Distractions & Diversions|~ Cracking Open A Cold One": "Diary",
+					"~|Activities achievements#Distractions & Diversions|~ Cracking Open A Four Pack": "Diary",
+					"~|Activities achievements#Distractions & Diversions|~ Effigy Scavenger": "Diary",
+					"~|Activities achievements#Distractions & Diversions|~ I C U K G P": "Diary",
+					"~|Activities achievements#Distractions & Diversions|~ Ultimate Birdwatcher": "Diary",
+					"~|Activities achievements#Distractions & Diversions|~ It's Late and I'm Awake": "Diary",
+					"~|Activities achievements#Distractions & Diversions|~ Starstruck": "Diary",
+					"~|Activities achievements#Distractions & Diversions|~ Bagsy Shooting Star": "Diary",
+					"~|Activities achievements#Distractions & Diversions|~ Friend of the Star Sprites": "Diary"
+				},
+				"Reward": [],
+				"ManualShow": true,
+				"Not F2P": true
+			},
+			"~|Activities achievements#Eating|~ Who Ate All the Pies?": {
+				"Category": ["Misc achievements"],
+				"Description": "Sample all of the listed pies.",
+				"BaseQuest": "Activities achievements",
+				"Items": [
+					"Redberry pie",
+					"Meat pie",
+					"Mud pie",
+					"Apple pie",
+					"Garden pie",
+					"Fish pie",
+					"Admiral pie",
+					"Pork pie",
+					"Wild pie",
+					"Wilder pie",
+					"Summer pie"
+				],
+				"RuneScore": 10,
+				"Not F2P": true
+			},
+			"~|Activities achievements#Eating|~ You Wanna Pizza Me?": {
+				"Category": ["Misc achievements"],
+				"Description": "Sample all of the listed pizzas.",
+				"BaseQuest": "Activities achievements",
+				"Items": [
+					"Plain pizza",
+					"Meat pizza",
+					"Anchovy pizza",
+					"Pineapple pizza",
+					"Banana pizza"
+				],
+				"RuneScore": 10,
+				"Not F2P": true
+			},
+			"~|Activities achievements#Eating|~ Fishy Dishes": {
+				"Category": ["Misc achievements"],
+				"Description": "Sample all of the listed fish dishes.",
+				"BaseQuest": "Activities achievements",
+				"Items": [
+					"Crayfish",
+					"Shrimps",
+					"Sardine",
+					"Anchovies",
+					"Herring",
+					"Mackerel",
+					"Trout",
+					"Cod",
+					"Pike",
+					"Salmon",
+					"Tuna",
+					"Rainbow fish",
+					"Cave eel",
+					"Lobster",
+					"Bass",
+					"Swordfish",
+					"Desert sole",
+					"Lava eel",
+					"Catfish",
+					"Monkfish",
+					"Beltfish",
+					"Green blubber jellyfish",
+					"Shark",
+					"Sea turtle",
+					"Cavefish",
+					"Manta ray",
+					"Rocktail soup",
+					"Tiger shark",
+					"Blue blubber jellyfish",
+					"Sailfish soup",
+					"Ghostly sole",
+					"Giant grayfish"
+				],
+				"RuneScore": 30,
+				"Not F2P": true
+			},
+			"~|Activities achievements#Eating|~ Nice to Meat You": {
+				"Category": ["Misc achievements"],
+				"Description": "Sample all of the listed meat dishes.",
+				"BaseQuest": "Activities achievements",
+				"Items": [
+					"Cooked meat",
+					"Cooked chicken",
+					"Ugthanki meat",
+					"Cooked rabbit",
+					"Roast bird meat",
+					"Bacon",
+					"Roast rabbit",
+					"Spider on stick",
+					"Spider on shaft",
+					"Cooked crab meat",
+					"Roast beast meat",
+					"Bacon stack",
+					"Cooked chompy",
+					"Bacon pile",
+					"Cooked jubbly",
+					"Bacon heap",
+					"Cooked oomlie wrap",
+					"Bacon mound",
+					"Cooked pekin"
+				],
+				"RuneScore": 20,
+				"Not F2P": true
+			},
+			"~|Activities achievements#Eating|~ A Flood of Spuds": {
+				"Category": ["Misc achievements"],
+				"Description": "Sample all of the listed baked potatoes.",
+				"BaseQuest": "Activities achievements",
+				"Items": [
+					"Baked potato",
+					"Potato with butter",
+					"Chilli potato",
+					"Potato with cheese",
+					"Egg potato",
+					"Mushroom potato",
+					"Tuna potato"
+				],
+				"RuneScore": 10,
+				"Not F2P": true
+			},
+			"~|Activities achievements#Eating|~ Gnome More, I'm Full": {
+				"Category": ["Misc achievements"],
+				"Description": "Sample all of Gnome's listed dishes.",
+				"BaseQuest": "Activities achievements",
+				"Items": [
+					"Premade toad crunchies",
+					"Premade spicy crunchies",
+					"Premade worm crunchies",
+					"Premade chocolate chip crunchies",
+					"Premade fruit batta",
+					"Premade toad batta",
+					"Premade worm batta",
+					"Premade veg batta",
+					"Premade c+t batta",
+					"Premade worm hole",
+					"Premade veg ball",
+					"Premade ttl",
+					"Premade choc bomb",
+					"Premade Fruit Blast",
+					"Premade Pineapple Punch",
+					"Premade Wizard Blizzard",
+					"Premade Short Green Guy",
+					"Premade Drunk Dragon",
+					"Premade Chocolate Saturday",
+					"Premade Blurberry Special"
+				],
+				"RuneScore": 20,
+				"Not F2P": true
+			},
+			"~|Activities achievements#Eating|~ Don't Choke": {
+				"Category": ["Misc achievements"],
+				"Description": "Eat food and then drink a Saradomin brew less than a second apart.",
+				"BaseQuest": "Activities achievements",
+				"Items": ["Saradomin brew"],
+				"RuneScore": 10,
+				"Not F2P": true
+			},
+			"~|Activities achievements#Eating|~ Complete the Eating achievements": {
+				"Category": ["Misc achievements"],
+				"BaseQuest": "Activities achievements",
+				"Tasks": {
+					"~|Activities achievements#Eating|~ Who Ate All the Pies?": "Diary",
+					"~|Activities achievements#Eating|~ You Wanna Pizza Me?": "Diary",
+					"~|Activities achievements#Eating|~ Fishy Dishes": "Diary",
+					"~|Activities achievements#Eating|~ Nice to Meat You": "Diary",
+					"~|Activities achievements#Eating|~ A Flood of Spuds": "Diary",
+					"~|Activities achievements#Eating|~ Gnome More, I'm Full": "Diary",
+					"~|Activities achievements#Eating|~ Don't Choke": "Diary"
+				},
+				"Reward": [],
+				"ManualShow": true,
+				"Not F2P": true
+			},
+			"~|Activities achievements#Just For Fun|~ Calm Down, Dear": {
+				"Category": ["Misc achievements"],
+				"Description": "Remove the effects on an aggression potion by drinking tea.",
+				"BaseQuest": "Activities achievements",
+				"Items": ["Aggression potion", "Cup of tea"],
+				"RuneScore": 5,
+				"Not F2P": true
+			},
+			"~|Activities achievements#Just For Fun|~ Dragonstone Dragonstone Dragonstone": {
+				"Category": ["Misc achievements"],
+				"Description": "Kill a dragonstone dragon, while wearing dragonstone armour and dragonstone jewelry, using dragonstone bolts, with an inventory full of dragonstones.",
+				"BaseQuest": "Activities achievements",
+				"Monsters": ["Dragonstone dragon"],
+				"Items": ["Dragonstone", "Dragon bolts", "Dragonstone ring", "Dragonstone necklace", "Dragonstone bracelet", "Dragonstone amulet", "Dragonstone helm", "Dragonstone hauberk", "Dragonstone gauntlets", "Dragonstone greaves", "Dragonstone boots"],
+				"Skills": {
+					"Defence": 50,
+					"Slayer": 95
+				},
+				"RuneScore": 20,
+				"Not F2P": true
+			},
+			"~|Activities achievements#Just For Fun|~ Fruitful Labour": {
+				"Category": ["Misc achievements"],
+				"Description": "Fill up Luthas' create near the Musa Point plantation with bananas and receive 30 coins for your work.",
+				"BaseQuest": "Activities achievements",
+				"Chunks": ["11569-1"],
+				"RuneScore": 10
+			},
+			"~|Activities achievements#Just For Fun|~ Going For A Punt": {
+				"Category": ["Misc achievements"],
+				"Description": "Ride a waka canoe from Lumbridge to the Wilderness whilst wearing a straw boater.",
+				"BaseQuest": "Activities achievements",
+				"Chunks": ["12850-1", "12603-1"],
+				"Items": ["Straw boater"],
+				"Skills": {
+					"Woodcutting": 57
+				},
+				"RuneScore": 10
+			},
+			"~|Activities achievements#Just For Fun|~ Great Gielinor Run": {
+				"Category": ["Misc achievements"],
+				"Description": "Without teleporting or using third party travel methods, run from Camp Tyras to Castle Drakan.",
+				"BaseQuest": "Activities achievements",
+				"Chunks": ["8753-3", "14388-1"],
+				"Tasks": {
+					"~|Regicide|~ Complete the quest": "Quest",
+					"~|The Branches of Darkmeyer|~ Complete the quest": "Quest"
+				},
+				"RuneScore": 50,
+				"Not F2P": true
+			},
+			"~|Activities achievements#Just For Fun|~ Handles for Forks": {
+				"Category": ["Misc achievements"],
+				"Description": "Attempt to purchase four candles from a candle seller.",
+				"BaseQuest": "Activities achievements",
+				"Chunks": ["Candle seller[+]"],
+				"RuneScore": 5
+			},
+			"~|Activities achievements#Just For Fun|~ I Know You Are But What Am I": {
+				"Category": ["Misc achievements"],
+				"Description": "Attempt to use the special dragonfire attack from a dragonfire shield on a dragon.",
+				"BaseQuest": "Activities achievements",
+				"Items": ["Dragonfire shield"],
+				"Monsters": ["AnyDragon[+]"],
+				"Skills": {
+					"Defence": 70
+				},
+				"RuneScore": 10,
+				"Not F2P": true
+			},
+			"~|Activities achievements#Just For Fun|~ Life Saver": {
+				"Category": ["Misc achievements"],
+				"Description": "Get rescured by the Sign of Life effect 50 times.",
+				"BaseQuest": "Activities achievements",
+				"Items": ["Sign of Life"],
+				"RuneScore": 20,
+				"Not F2P": true
+			},
+			"~|Activities achievements#Just For Fun|~ Open Bar": {
+				"Category": ["Misc achievements"],
+				"Description": "Talk to the Drunken Dwarf while carrying 28 different ales.",
+				"BaseQuest": "Activities achievements",
+				"Chunks": ["Keldagrim"],
+				"Items": ["Ale[+]x28"],
+				"RuneScore": 5,
+				"Not F2P": true
+			},
+			"~|Activities achievements#Just For Fun|~ Questioning Your Sanity": {
+				"Category": ["Misc achievements"],
+				"Description": "Bank stand for one hour. I'm sorry this is a chunk task, but if you didn't want your time wasted you probably shouldn't be chunking anyway.",
+				"BaseQuest": "Activities achievements",
+				"Objects": ["Bank[+]"],
+				"RuneScore": 10
+			},
+			"~|Activities achievements#Just For Fun|~ Second Shrubbery": {
+				"Category": ["Misc achievements"],
+				"Description": "Try to find out which is the mightiest tree in the forest.",
+				"BaseQuest": "Activities achievements",
+				"Objects": ["Tree[+]"],
+				"Items": ["Raw herring"],
+				"RuneScore": 10,
+				"Not F2P": true
+			},
+			"~|Activities achievements#Just For Fun|~ Seven Colours in Their Hat": {
+				"Category": ["Misc achievements"],
+				"Description": "Show the Wise Old Man your chromatic party hat.",
+				"BaseQuest": "Activities achievements",
+				"Chunks": ["New Varrock", "12338-1"],
+				"RuneScore": 50,
+				"Not F2P": true
+			},
+			"~|Activities achievements#Just For Fun|~ Stand and Deliver": {
+				"Category": ["Misc achievements"],
+				"Description": "Deliver a pizza to a hungry highwayman.",
+				"BaseQuest": "Activities achievements",
+				"Monsters": ["Highwayman"],
+				"Items": ["Banana pizza"],
+				"RuneScore": 10,
+				"Not F2P": true
+			},
+			"~|Activities achievements#Just For Fun|~ Well, Would You Look At That": {
+				"Category": ["Misc achievements"],
+				"Description": "Find a needle in a haystack.",
+				"BaseQuest": "Activities achievements",
+				"Objects": ["Haystack[+]"],
+				"RuneScore": 10
+			},
+			"~|Activities achievements#Just For Fun|~ Tiffy Time": {
+				"Category": ["Misc achievements"],
+				"Description": "Sit down with Tiffy in Falador Park.",
+				"BaseQuest": "Activities achievements",
+				"Chunks": ["11828"],
+				"RuneScore": 5
+			},
+			"~|Activities achievements#Just For Fun|~ Questioning Your Energy": {
+				"Category": ["Misc achievements"],
+				"Description": "Rest for a total of 150 minutes. I'm sorry that this is a chunk task, but it's an Extreme's rite of passage.",
+				"BaseQuest": "Activities achievements",
+				"RuneScore": 20
+			},
+			"~|Activities achievements#Just For Fun|~ Complete the Just For Fun achievements": {
+				"Category": ["Misc achievements"],
+				"BaseQuest": "Activities achievements",
+				"Tasks": {
+					"~|Activities achievements#Just For Fun|~ Calm Down, Dear": "Diary",
+					"~|Activities achievements#Just For Fun|~ Dragonstone Dragonstone Dragonstone": "Diary",
+					"~|Activities achievements#Just For Fun|~ Fruitful Labour": "Diary",
+					"~|Activities achievements#Just For Fun|~ Going For A Punt": "Diary",
+					"~|Activities achievements#Just For Fun|~ Great Gielinor Run": "Diary",
+					"~|Activities achievements#Just For Fun|~ Handles for Forks": "Diary",
+					"~|Activities achievements#Just For Fun|~ I Know You Are But What Am I": "Diary",
+					"~|Activities achievements#Just For Fun|~ Life Saver": "Diary",
+					"~|Activities achievements#Just For Fun|~ Open Bar": "Diary",
+					"~|Activities achievements#Just For Fun|~ Questioning Your Sanity": "Diary",
+					"~|Activities achievements#Just For Fun|~ Second Shrubbery": "Diary",
+					"~|Activities achievements#Just For Fun|~ Seven Colours in Their Hat": "Diary",
+					"~|Activities achievements#Just For Fun|~ Stand and Deliver": "Diary",
+					"~|Activities achievements#Just For Fun|~ Well, Would You Look At That": "Diary",
+					"~|Activities achievements#Just For Fun|~ Tiffy Time": "Diary",
+					"~|Activities achievements#Just For Fun|~ Questioning Your Energy": "Diary"
+				},
+				"Reward": [],
+				"ManualShow": true,
+				"Not F2P": true
+			},
+			"~|Activities achievements#Memory of Nomad|~ Race for the Soul: 20 Minutes": {
+				"Category": ["Misc achievements"],
+				"Description": "Defeat the Memory of Nomad encounter in under 20 minutes.",
+				"BaseQuest": "Activities achievements",
+				"Chunks": ["Death's Office"],
+				"Tasks": {
+					"~|Nomad's Elegy|~ Complete the quest": "Quest"
+				},
+				"RuneScore": 5,
+				"Not F2P": true
+			},
+			"~|Activities achievements#Memory of Nomad|~ Race for the Soul: 16 Minutes": {
+				"Category": ["Misc achievements"],
+				"Description": "Defeat the Memory of Nomad encounter in under 16 minutes.",
+				"BaseQuest": "Activities achievements",
+				"Chunks": ["Death's Office"],
+				"Tasks": {
+					"~|Nomad's Elegy|~ Complete the quest": "Quest",
+					"~|Activities achievements#Memory of Nomad|~ Race for the Soul: 20 Minutes": "Diary"
+				},
+				"RuneScore": 5,
+				"Not F2P": true
+			},
+			"~|Activities achievements#Memory of Nomad|~ Race for the Soul: 14 Minutes": {
+				"Category": ["Misc achievements"],
+				"Description": "Defeat the Memory of Nomad encounter in under 14 minutes.",
+				"BaseQuest": "Activities achievements",
+				"Chunks": ["Death's Office"],
+				"Tasks": {
+					"~|Nomad's Elegy|~ Complete the quest": "Quest",
+					"~|Activities achievements#Memory of Nomad|~ Race for the Soul: 16 Minutes": "Diary"
+				},
+				"RuneScore": 5,
+				"Not F2P": true
+			},
+			"~|Activities achievements#Memory of Nomad|~ Race for the Soul: 12 Minutes": {
+				"Category": ["Misc achievements"],
+				"Description": "Defeat the Memory of Nomad encounter in under 12 minutes.",
+				"BaseQuest": "Activities achievements",
+				"Chunks": ["Death's Office"],
+				"Tasks": {
+					"~|Nomad's Elegy|~ Complete the quest": "Quest",
+					"~|Activities achievements#Memory of Nomad|~ Race for the Soul: 14 Minutes": "Diary"
+				},
+				"RuneScore": 5,
+				"Not F2P": true
+			},
+			"~|Activities achievements#Memory of Nomad|~ Race for the Soul: 10 Minutes": {
+				"Category": ["Misc achievements"],
+				"Description": "Defeat the Memory of Nomad encounter in under 10 minutes. Imagine that.",
+				"BaseQuest": "Activities achievements",
+				"Chunks": ["Death's Office"],
+				"Tasks": {
+					"~|Nomad's Elegy|~ Complete the quest": "Quest",
+					"~|Activities achievements#Memory of Nomad|~ Race for the Soul: 12 Minutes": "Diary"
+				},
+				"RuneScore": 5,
+				"Not F2P": true
+			},
+			"~|Activities achievements#Memory of Nomad|~ Race for the Soul: 8 Minutes": {
+				"Category": ["Misc achievements"],
+				"Description": "Defeat the Memory of Nomad encounter in under 8 minutes. Almost there...",
+				"BaseQuest": "Activities achievements",
+				"Chunks": ["Death's Office"],
+				"Tasks": {
+					"~|Nomad's Elegy|~ Complete the quest": "Quest",
+					"~|Activities achievements#Memory of Nomad|~ Race for the Soul: 10 Minutes": "Diary"
+				},
+				"RuneScore": 5,
+				"Not F2P": true
+			},
+			"~|Activities achievements#Memory of Nomad|~ Race for the Soul: 6 Minutes": {
+				"Category": ["Misc achievements"],
+				"Description": "Defeat the Memory of Nomad encounter in under 6 minutes. Talk about task bloat!",
+				"BaseQuest": "Activities achievements",
+				"Chunks": ["Death's Office"],
+				"Tasks": {
+					"~|Nomad's Elegy|~ Complete the quest": "Quest",
+					"~|Activities achievements#Memory of Nomad|~ Race for the Soul: 8 Minutes": "Diary"
+				},
+				"RuneScore": 5,
+				"Not F2P": true
+			},
+			"~|Activities achievements#Memory of Nomad|~ Complete the Memory of Nomad achievements": {
+				"Category": ["Misc achievements"],
+				"BaseQuest": "Activities achievements",
+				"Tasks": {
+					"~|Activities achievements#Memory of Nomad|~ Race for the Soul: 6 Minutes": "Diary"
+				},
+				"Reward": [],
+				"ManualShow": true,
+				"Not F2P": true
+			},
+			"~|Activities achievements#Minigames|~ Altar Explorer": {
+				"Category": ["Misc achievements", "Minigame", "Group Content"],
+				"Description": "Play a round of Great Orb Project on each different altar map.",
+				"BaseQuest": "Activities achievements",
+				"Chunks": ["Runecrafting Guild"],
+				"Skills": {
+					"Runecrafting": 50
+				},
+				"RuneScore": 10,
+				"Not F2P": true
+			},
+			"~|Activities achievements#Minigames|~ A-Voiding Conflict": {
+				"Category": ["Misc achievements", "Minigame", "Group Content"],
+				"Description": "Win a Pest Control game after repairing all the barricades to full.",
+				"BaseQuest": "Activities achievements",
+				"Chunks": ["10537", "10536"],
+				"Skills": {
+					"Combat": 35
+				},
+				"RuneScore": 25,
+				"Not F2P": true
+			},
+			"~|Activities achievements#Minigames|~ Beggars Can't Be Choosers": {
+				"Category": ["Misc achievements", "Minigame"],
+				"Description": "Feed a survivor in the Temple Trekking scenario using only great gunkan or great maki to progress.",
+				"BaseQuest": "Activities achievements",
+				"Chunks": ["Temple Trekking Routes"],
+				"Items": ["Great maki"],
+				"RuneScore": 5,
+				"Not F2P": true
+			},
+			"~|Activities achievements#Minigames|~ Careful, There Are Snakes": {
+				"Category": ["Misc achievements", "Minigame"],
+				"Description": "Loot 20 urns in a single run of Pyramid Plunder without disturbing a snake.",
+				"BaseQuest": "Activities achievements",
+				"Chunks": ["Pyramid Plunder"],
+				"Skills": {
+					"Thieving": 31
+				},
+				"RuneScore": 20,
+				"Not F2P": true
+			},
+			"~|Activities achievements#Minigames|~ Claymation": {
+				"Category": ["Misc achievements", "Minigame", "Group Content"],
+				"Description": "Fully exhaust all gathering plots in a Stealing Creation match.",
+				"BaseQuest": "Activities achievements",
+				"Chunks": ["Stealing Creation"],
+				"RuneScore": 20,
+				"Not F2P": true
+			},
+			"~|Activities achievements#Minigames|~ Conquest Adore": {
+				"Category": ["Misc achievements", "Minigame", "Group Content"],
+				"Description": "Achieve 1,250+ rank in the Conquest minigame.",
+				"BaseQuest": "Activities achievements",
+				"Chunks": ["10537"],
+				"Skills": {
+					"Combat": 55
+				},
+				"RuneScore": 10,
+				"Not F2P": true
+			},
+			"~|Activities achievements#Minigames|~ Disowned": {
+				"Category": ["Misc achievements", "Minigame"],
+				"Description": "Defeat Vanstrom Klause in the Dominion Tower whilst wielding a reforged Sunspear and a full set of House Drakan robes.",
+				"BaseQuest": "Activities achievements",
+				"Chunks": ["Dominion Tower"],
+				"Items": ["Sunspear (melee)", "House Drakan hood", "House Drakan top", "House Drakan trousers", "House Drakan boots"],
+				"Tasks": {
+					"~|River of Bloom|~ Complete the quest": "Quest",
+					"Gain access to the Dominion Tower": "Nonskill"
+				},
+				"RuneScore": 40,
+				"Not F2P": true
+			},
+			"~|Activities achievements#Minigames|~ How Many Games?": {
+				"Category": ["Misc achievements", "Minigame", "Group Content"],
+				"Description": "Show a full set of profoudn armour to Lanthus. That's what you get for being a Supreme.",
+				"BaseQuest": "Activities achievements",
+				"Chunks": ["9776", "9520"],
+				"RuneScore": 70,
+				"Not F2P": true
+			},
+			"~|Activities achievements#Minigames|~ It's Not Called Surging Tombs": {
+				"Category": ["Misc achievements", "Minigame"],
+				"Description": "Complete all objectives solo in a Shifting Tombs without using Surge, Escape or Bladed Dive... or normal Dive.",
+				"BaseQuest": "Activities achievements",
+				"Chunks": ["Shifting Tombs"],
+				"Skills": {
+					"Agility": 50,
+					"Dungeoneering": 50,
+					"Thieving": 50,
+					"Construction": 50
+				},
+				"RuneScore": 15,
+				"Not F2P": true
+			},
+			"~|Activities achievements#Minigames|~ Little Leaguer": {
+				"Category": ["Misc achievements", "Minigame"],
+				"Description": "Score a goal in the best sport on all of Gielinor: Gnome Ball.",
+				"BaseQuest": "Activities achievements",
+				"Chunks": ["9526-1"],
+				"RuneScore": 10,
+				"Not F2P": true
+			},
+			"~|Activities achievements#Minigames|~ Magister Smagister": {
+				"Category": ["Misc achievements", "Minigame", "Group Content"],
+				"Description": "Obtain 100 soul fragments within Soul Wars and offer them all at once to the Soul Obelisk.",
+				"BaseQuest": "Activities achievements",
+				"Chunks": ["8749"],
+				"RuneScore": 20,
+				"Not F2P": true
+			},
+			"~|Activities achievements#Minigames|~ Master of Assault": {
+				"Category": ["Misc achievements", "Minigame", "Group Content"],
+				"Description": "Achieve maximum rank in each Barbarian Assault role.",
+				"BaseQuest": "Activities achievements",
+				"Chunks": ["10039"],
+				"RuneScore": 40,
+				"Not F2P": true
+			},
+			"~|Activities achievements#Minigames|~ Penance to the King": {
+				"Category": ["Misc achievements", "Minigame", "Group Content"],
+				"Description": "Kill the penance king in Barbarian Assault.",
+				"BaseQuest": "Activities achievements",
+				"Chunks": ["10039"],
+				"RuneScore": 20,
+				"Not F2P": true
+			},
+			"~|Activities achievements#Minigames|~ Shattering Worlds VI": {
+				"Category": ["Misc achievements", "Minigame"],
+				"Description": "Complete world 200 in Shattered Worlds.",
+				"BaseQuest": "Activities achievements",
+				"Chunks": ["10537"],
+				"RuneScore": 30,
+				"Not F2P": true
+			},
+			"~|Activities achievements#Minigames|~ Something 'bout that Sq'irk, Sq'irk, Sq'irk, Sq'irk, Sq'irk": {
+				"Category": ["Misc achievements", "Minigame"],
+				"Description": "Hand in each of the four Sq'irkjuices from the Sorceress's Garden minigame in one go.",
+				"BaseQuest": "Activities achievements",
+				"Chunks": ["13105"],
+				"Items": ["Winter sq'irkjuice", "Spring sq'irkjuice", "Autumn sq'irkjuice", "Summer sq'irkjuice"],
+				"Tasks": {
+					"~|Diamond in the Rough|~ Complete the quest":" Quest"
+				},
+				"RuneScore": 20,
+				"Not F2P": true
+			},
+			"~|Activities achievements#Minigames|~ Source of Denial": {
+				"Category": ["Misc achievements", "Minigame"],
+				"Description": "Pick fruit from a sq'irk tree in the Sorceress' Garden without stopping.",
+				"BaseQuest": "Activities achievements",
+				"Chunks": ["Sorceress' Garden"],
+				"RuneScore": 10,
+				"Not F2P": true
+			},
+			"~|Activities achievements#Minigames|~ The Ominous Sarcophagous Metropolis IV": {
+				"Category": ["Misc achievements", "Minigame"],
+				"Description": "Complete 25 perfect shifting tombs runs with a shifting tombs reward enhancer.",
+				"BaseQuest": "Activities achievements",
+				"Chunks": ["Shifting Tombs"],
+				"Items": ["Shifting tombs reward enhancer"],
+				"Skills": {
+					"Agility": 50,
+					"Dungeoneering": 50,
+					"Thieving": 50,
+					"Construction": 50
+				},
+				"RuneScore": 65,
+				"Not F2P": true
+			},
+			"~|Activities achievements#Minigames|~ TokHaar-Mok": {
+				"Category": ["Misc achievements", "Minigame"],
+				"Description": "Defeat TokHaar-Hok in the Fight Cauldron minigame using only obsidian equipment.",
+				"BaseQuest": "Activities achievements",
+				"Chunks": ["Fight Cauldron"],
+				"Items": [
+					"Obsidian warrior helm",
+					"Obsidian platebody",
+					"Obsidian platelegs",
+					"Obsidian gloves",
+					"Obsidian boots",
+					"TzHaar-Ket-Om",
+					"TokKul-Zo",
+					"Obsidian cape"
+				],
+				"Skills": {
+					"Smithing": 80
+				},
+				"RuneScore": 25,
+				"Not F2P": true
+			},
+			"~|Activities achievements#Minigames|~ Unlucky For Some": {
+				"Category": ["Misc achievements", "Minigame"],
+				"Description": "In Vinesweeper, dig up 13 potato seeds. It's the Vinesweeper tax.",
+				"BaseQuest": "Activities achievements",
+				"Chunks": ["Vinesweeper"],
+				"RuneScore": 10,
+				"Not F2P": true
+			},
+			"~|Activities achievements#Minigames|~ Varrock Calls for Aid!": {
+				"Category": ["Misc achievements", "Minigame"],
+				"Description": "Light all 14 beacons without using any of the log storage boxes.",
+				"BaseQuest": "Activities achievements",
+				"Items": ["Logs[+]"],
+				"Tasks": {
+					"~|All Fired Up|~ Complete the quest": "Quest",
+					"BeaconTasks[+]x14": "Firemaking"
+				},
+				"RuneScore": 20,
+				"Not F2P": true
+			},
+			"~|Activities achievements#Minigames|~ What Year Is It?": {
+				"Category": ["Misc achievements", "Minigame", "Group Content"],
+				"Description": "Ice Barrage 99 times in Castle Wars",
+				"BaseQuest": "Activities achievements",
+				"Chunks": ["9776", "9520"],
+				"Skills": {
+					"Magic": 94
+				},
+				"Tasks": {
+					"~|Desert Treasure|~ Complete the quest": "Quest"
+				},
+				"RuneScore": 20,
+				"Not F2P": true
+			},
+			"~|Activities achievements#Minigames|~ Who Do Broodoo?": {
+				"Category": ["Misc achievements", "Minigame"],
+				"Description": "Defeat each different type of broodoo victim whilst wearing their coloured mask.",
+				"BaseQuest": "Activities achievements",
+				"Items": ["Tribal mask (blue)", "Tribal mask (orange)", "Tribal mask (green"],
+				"RuneScore": 10,
+				"Not F2P": true
+			},
+			"~|Activities achievements#Minigames|~ You're It": {
+				"Category": ["Misc achievements", "Minigame"],
+				"Description": "Tag 30 correct pillars in a row successfully in the Brimhaven Agility Arena.",
+				"BaseQuest": "Activities achievements",
+				"Chunks": ["Brimhaven agility arena"],
+				"RuneScore": 20,
+				"Not F2P": true
+			},
+			"~|Activities achievements#Minigames|~ Mobilise This": {
+				"Category": ["Misc achievements", "Minigame", "No RuneScore"],
+				"Description": "Unlock each of the A.R.M.S. titles",
+				"BaseQuest": "Activities achievements",
+				"Items": ["Thaler"],
+				"Not F2P": true
+			},
+			"~|Activities achievements#Minigames|~ Complete the Minigames achievements": {
+				"Category": ["Misc achievements"],
+				"BaseQuest": "Activities achievements",
+				"Tasks": {
+					"~|Activities achievements#Minigames|~ Altar Explorer": "Diary",
+					"~|Activities achievements#Minigames|~ A-Voiding Conflict": "Diary",
+					"~|Activities achievements#Minigames|~ Beggars Can't Be Choosers": "Diary",
+					"~|Activities achievements#Minigames|~ Careful, There Are Snakes": "Diary",
+					"~|Activities achievements#Minigames|~ Claymation": "Diary",
+					"~|Activities achievements#Minigames|~ Conquest Adore": "Diary",
+					"~|Activities achievements#Minigames|~ Disowned": "Diary",
+					"~|Activities achievements#Minigames|~ How Many Games?": "Diary",
+					"~|Activities achievements#Minigames|~ It's Not Called Surging Tombs": "Diary",
+					"~|Activities achievements#Minigames|~ Little Leaguer": "Diary",
+					"~|Activities achievements#Minigames|~ Magister Smagister": "Diary",
+					"~|Activities achievements#Minigames|~ Master of Assault": "Diary",
+					"~|Activities achievements#Minigames|~ Penance to the King": "Diary",
+					"~|Activities achievements#Minigames|~ Shattering Worlds VI": "Diary",
+					"~|Activities achievements#Minigames|~ Something 'bout that Sq'irk, Sq'irk, Sq'irk, Sq'irk, Sq'irk": "Diary",
+					"~|Activities achievements#Minigames|~ Source of Denial": "Diary",
+					"~|Activities achievements#Minigames|~ The Ominous Sarcophagous Metropolis IV": "Diary",
+					"~|Activities achievements#Minigames|~ TokHaar-Mok": "Diary",
+					"~|Activities achievements#Minigames|~ Unlucky For Some": "Diary",
+					"~|Activities achievements#Minigames|~ Varrock Calls for Aid!": "Diary",
+					"~|Activities achievements#Minigames|~ What Year Is It?": "Diary",
+					"~|Activities achievements#Minigames|~ Who Do Broodoo?": "Diary",
+					"~|Activities achievements#Minigames|~ You're It": "Diary",
+					"~|Activities achievements#Minigames|~ Mobilise This": "Diary"
+				},
+				"Reward": [],
+				"ManualShow": true,
+				"Not F2P": true
+			},
+			"~|Activities achievements#Player-Owned Port|~ Death Lotus Assassin": {
+				"Category": ["Misc achievements"],
+				"Description": "Craft an entire set of armour and weapons worthy of a Death Lotus assassin",
+				"BaseQuest": "Activities achievements",
+				"Chunks": ["Player-Owned Port"],
+				"Items": ["Superior death lotus hood", "Superior death lotus chestplate", "Superior death lotus chaps", 
+				"Superior death lotus tekoh", "Superior death lotus tabi", "Death Lotus boots scroll", "Death Lotus gloves scroll",
+				"Death lotus dart", "Off-hand death lotus dart"],
+				"Skills": {
+					"Crafting": 90,
+					"Fletching": 92
+				},
+				"RuneScore": 30,
+				"Not F2P": true
+			},
+			"~|Activities achievements#Player-Owned Port|~ Portnight": {
+				"Category": ["Misc achievements", "Timegated"],
+				"Description": "Send off at least one voyage from your player-owned port every day for fourteen consecutive days.",
+				"BaseQuest": "Activities achievements",
+				"Chunks": ["Player-Owned Port"],
+				"RuneScore": 40,
+				"Not F2P": true
+			},
+			"~|Activities achievements#Player-Owned Port|~ Seasinger": {
+				"Category": ["Misc achievements"],
+				"Description": "Craft an entire set of armour and weapons worthy of a Death Lotus assassin",
+				"BaseQuest": "Activities achievements",
+				"Chunks": ["Player-Owned Port"],
+				"Items": ["Superior seasinger's hood", "Superior seasinger's robe top", "Superior seasinger's robe bottom", 
+				"Superior seasinger aonori", "Superior seasinger asari", "Seasinger boots scroll", "Seasinger gloves scroll",
+				"Seasinger kiba", "Seasinger makigai"],
+				"Skills": {
+					"Runecrafting": 92
+				},
+				"RuneScore": 30,
+				"Not F2P": true
+			},
+			"~|Activities achievements#Player-Owned Port|~ Tetsu Warrior": {
+				"Category": ["Misc achievements"],
+				"Description": "Craft an entire set of armour and weapons worthy of a Death Lotus assassin",
+				"BaseQuest": "Activities achievements",
+				"Chunks": ["Player-Owned Port"],
+				"Items": ["Superior tetsu helm", "Superior tetsu body", "Superior tetsu platelegs", 
+				"Superior tetsu kote", "Superior tetsu kogake", "Tetsu boots scroll", "Tetsu gloves scroll",
+				"Tetsu katana", "Tetzu wakizashi"],
+				"Skills": {
+					"Smithing": 92
+				},
+				"RuneScore": 30,
+				"Not F2P": true
+			},
+			"~|Activities achievements#Player-Owned Port|~ Very Important VII": {
+				"Category": ["Misc achievements", "Timegated"],
+				"Description": "Unlock the title 'Admiral of the Fleet' at the player-owned port by reaching a port score of 3,500.",
+				"BaseQuest": "Activities achievements",
+				"Chunks": ["Player-Owned Port"],
+				"RuneScore": 35,
+				"Not F2P": true
+			},
+			"~|Activities achievements#Player-Owned Port|~ Very Important VIII": {
+				"Category": ["Misc achievements", "Timegated"],
+				"Description": "Unlock the title 'Portmaster' at the player-owned port by reaching a port score of 4,500.",
+				"BaseQuest": "Activities achievements",
+				"Chunks": ["Player-Owned Port"],
+				"Skills": {
+					"Agility": 90,
+					"Constuction": 90,
+					"Cooking": 90,
+					"Divination": 90,
+					"Dungeoneering": 90,
+					"Fishing": 90,
+					"Herblore": 90,
+					"Hunter": 90,
+					"Prayer": 90,
+					"Runecrafting": 90,
+					"Slayer": 90,
+					"Thieving": 90
+				},
+				"Tasks": {
+					"~|Activities achievements#Player-Owned Port|~ Very Important VII": "Diary"
+				},
+				"RuneScore": 5,
+				"Not F2P": true
+			},
+			"~|Activities achievements#Player-Owned Port|~ Complete the Player-Owned Port achievements": {
+				"Category": ["Misc achievements"],
+				"BaseQuest": "Activities achievements",
+				"Tasks": {
+					"~|Activities achievements#Player-Owned Port|~ Death Lotus Assassin": "Diary",
+					"~|Activities achievements#Player-Owned Port|~ Portnight": "Diary",
+					"~|Activities achievements#Player-Owned Port|~ Seasinger": "Diary",
+					"~|Activities achievements#Player-Owned Port|~ Tetsu Warrior": "Diary",
+					"~|Activities achievements#Player-Owned Port|~ Very Important VIII": "Diary"
+				},
+				"Reward": [],
+				"ManualShow": true,
+				"Not F2P": true
 			}
 		},
 		"Extra": {
-			"Complete the ~|little leaguer|~ achievement": {
-				"Category": ["Achievement", "Misc achievements"],
-				"Label": "Achievement",
-				"Chunks": ["9526-1"]
-			},
 			"~|hidey-hole|~: Lumbridge Swamp shed": {
 				"Category": ["Fill Stash"],
 				"Label": "Fill hidey-holes",
@@ -151186,47 +152326,47 @@
 				}
 			},
 			"Obtain the ~|Attacker|~ title": {
-				"Category": ["Titles", "Minigames"],
+				"Category": ["Titles", "Minigame"],
 				"Label": "Titles",
 				"Chunks": ["10039"]
 			},
 			"Obtain the ~|Collector|~ title": {
-				"Category": ["Titles", "Minigames"],
+				"Category": ["Titles", "Minigame"],
 				"Label": "Titles",
 				"Items": ["Barbarian Assault titles"]
 			},
 			"Obtain the ~|Defender|~ title": {
-				"Category": ["Titles", "Minigames"],
+				"Category": ["Titles", "Minigame"],
 				"Label": "Titles",
 				"Chunks": ["10039"]
 			},
 			"Obtain the ~|Healer|~ title": {
-				"Category": ["Titles", "Minigames"],
+				"Category": ["Titles", "Minigame"],
 				"Label": "Titles",
 				"Chunks": ["10039"]
 			},
 			"Obtain the ~|Supreme Attacker|~ title": {
-				"Category": ["Titles", "Minigames", "Group Content"],
+				"Category": ["Titles", "Minigame", "Group Content"],
 				"Label": "Titles",
 				"Items": ["Barbarian Assault titles"]
 			},
 			"Obtain the ~|Supreme Collector|~ title": {
-				"Category": ["Titles", "Minigames", "Group Content"],
+				"Category": ["Titles", "Minigame", "Group Content"],
 				"Label": "Titles",
 				"Items": ["Barbarian Assault titles"]
 			},
 			"Obtain the ~|Supreme Defender|~ title": {
-				"Category": ["Titles", "Minigames", "Group Content"],
+				"Category": ["Titles", "Minigame", "Group Content"],
 				"Label": "Titles",
 				"Items": ["Barbarian Assault titles"]
 			},
 			"Obtain the ~|Supreme Healer|~ title": {
-				"Category": ["Titles", "Minigames", "Group Content"],
+				"Category": ["Titles", "Minigame", "Group Content"],
 				"Label": "Titles",
 				"Items": ["Barbarian Assault titles"]
 			},
 			"Obtain the ~|the Penance Slayer|~ title": {
-				"Category": ["Titles", "Minigames", "Group Content"],
+				"Category": ["Titles", "Minigame", "Group Content"],
 				"Label": "Titles",
 				"Chunks": ["10039"]
 			},
@@ -171683,6 +172823,9 @@
 			"Obtain a penguin egg*": {
 				"NPCs": ["Penguin keeper"],
 				"Output": "Penguin egg"
+			},
+			"Get skulled": {
+				"Chunks": ["SkullChunks[+]"]
 			}
 		}
 	},
@@ -222220,6 +223363,43 @@
 				"Akrisae's robe skirt",
 				"Akrisae's robe top"
 			],
+			"Ale[+]": [
+				"The Alms of Death",
+				"Asgarnian ale",
+				"Asgarnian ale (m)",
+				"Asgoldian ale",
+				"Axeman's folly",
+				"Axeman's folly (m)",
+				"Bandit's brew",
+				"Beer",
+				"Beer (tankard)",
+				"Chef's delight",
+				"Chef's delight (m)",
+				"Cider",
+				"Mature cider",
+				"Dragon bitter",
+				"Dragon bitter (m)",
+				"Dwarven stout",
+				"Dwarven stout (m)",
+				"Greenman's ale",
+				"Greenman's ale (m)",
+				"Grog",
+				"Mead",
+				"Mature mead",
+				"Moonlight mead",
+				"Moonlight mead (m)",
+				"Pigswill",
+				"Mature pigswill",
+				"Ranger's aid",
+				"Rainger's aid (m)",
+				"Slayer's respite",
+				"Slayer's respite (m)",
+				"Squeck juice",
+				"Wendlewick ale",
+				"Wendlewick ale (m)",
+				"Wizard's mind bomb",
+				"Wizard's mind bomb (m)"
+			], 
 			"AllArcaneApoterrasaurs[+]": [
 				"Arcane apoterrasaur (unchecked)",
 				"Arcane apoterrasaur natura (unchecked)",
@@ -228626,6 +229806,14 @@
 			"ArdougneGuardChunks[+]": ["10547-1", "10291", "10292"],
 			"Asgarnian safes[+]": ["11575-1", "11828", "12082-1", "12084-1", "12087-3"],
 			"BlastAndHellfire[+]": ["12593", "12851", "12850", "Lumbridge Catacombs"],
+			"Candle seller[+]": [
+				"11061",
+				"16436-1",
+				"15939-1",
+				"Keldagrim",
+				"11056",
+				"11310-1"
+			],
 			"CaptainsGnomeRestaurant[+]": ["13105", "Dwarven Tunnel"],
 			"CarpetChunks[+]": ["12591", "12844", "13100", "13104-1","13357-2", "13358-1", "13613", "13872"],
 			"ChaosAltarChunks[+]": ["12856", "11835"],
@@ -228692,6 +229880,7 @@
 			"SeerChunk[+]": ["10806-1", "11062-1", "11061", "11317-1"],
 			"SeersVillageYews[+]": ["10806-1", "11061"],
 			"SenntistenChunks[+]": ["13364", "13365-1"],
+			"SkullChunks[+]": ["12342-1", "12343-1"],
 			"SlayerMasterChunks[+]": ["8755", "Ancient Cavern", "11310-1", "12342-1", "11575-1", "13111", "13878-1", "Zanaris", "12093", "12850-1", "16704-1"],
 			"SolusLocation[+]": ["11569-1", "10032-1", "10547-1", "12596-1", "Dorgesh-Kaan mine", "9782-1", "13623", "11057", "13106-1", "10553", "Lumbridge Swamp Caves", "11830-1", "10550", "9776", "12338-1", "9778-1", "12337-1"],
 			"SoulObelisks[+]": ["12843-1", "12586", "12587-1", "12585"],
@@ -228727,6 +229916,7 @@
 			"ArdougneGuardChunks[+]": "Any chunks with guards in Ardougne",
 			"Asgarnian safes[+]": "Any chunk in Asgarnia with safes",
 			"BlastAndHellfire[+]": "Any chunk where the Blast and Hellfire achievement may be completed",
+			"Candle seller[+]": "Any requirementless candle seller",
 			"CaptainsGnomeRestaurant[+]": "Any chunk with a hard Gnome Restaurant delivery that accesses the gnome pilot loot table",
 			"CarpetChunks[+]": "Any chunks used for carpet rides",
 			"ChaosAltarChunks[+]": "The Chaos altar at Level 12 or Level 38 Wilderness",
@@ -228793,6 +229983,7 @@
 			"SenntistenChunks[+]": "Any chunk that the Dig Site pendant can teleport to",
 			"SeerChunk[+]": "Any chunk in which you can complete twisted firestarter",
 			"SeersVillageYew[+]": "Any chunk in the Seers Village area with a yew tree in",
+			"SkullChunks[+]": "Any chunk wherein you can force yourself to be skulled",
 			"SlayerMasterChunks[+]": "Any chunk with a slayer master in it",
 			"SoulObelisks[+]": "Any chunks in which a soul obelisk spawns",
 			"SolusLocation[+]": "Any location Solus Dellagar might show up",
@@ -232011,7 +233202,7 @@
 		"Combat Mastery achievements": "Easy, Medium, Hard, Elite, Master, Grandmaster",
 		"Completionist achievements": "Master Quest Cape, Completionist Cape, Trimmed Completionist Cape",
 		"Skills achievements": "Agility, Archaeology, Combat (Skills), Cooking, Construction, Crafting, Dungeoneering, Divination, Farming, Fishing, Firemaking, Fletching, Herblore, Hunter, Invention, Magic, Mining, Necromancy, Prayer, Runecrafting, Slayer, Smithing, Summoning, Thieving, Woodcutting, Croesus, The Gate of Elidinis",
-		"Exploration achievements": "Lodestones, Anachronia, The Arc, City of Um, Fort Forinthry, Havenhythe, Het's Oasis, Menaphos, New Varrock, Prifddinas, Senntisten, Zolarea",
+		"Exploration achievements": "Lodestones, Anachronia, The Arc, City of Um, Fort Forinthry, Havenhythe, Het's Oasis, Menaphos, Prifddinas, Senntisten, Zolarea",
 		"Activities achievements": "'Accidental' Skilling, Distractions & Diversions, Eating, Just for Fun, Memory of Nomad, Minigames, Player-Owned Port"
 	},
 	"clues": {
@@ -289738,6 +290929,11 @@
 					"~|Do No Evil|~ Complete the quest": "Quest"
 				}]
 			},
+			"Bandit Duty Free": {
+				"12089": [{
+					"Get skulled": "Nonskill"
+				}]
+			},
 			"Castle Wars Ticket Exchange": {
 				"9776": [{
 					"Castle Wars rewards": "Nonskill"
@@ -303151,6 +304347,110 @@
 				},
 				"Azure Parrot": {
 					"1": "1/200"
+				}
+			},
+			"Cider brewing output": {
+				"Cider": {
+					"1": "19/20"
+				},
+				"Mature cider": {
+					"1": "1/20"
+				}
+			},
+			"Mead brewing output": {
+				"Mead": {
+					"1": "19/20"
+				},
+				"Mature mead": {
+					"1": "1/20"
+				}
+			},
+			"Dwarven stout brewing output": {
+				"Dwarven stout": {
+					"1": "19/20"
+				},
+				"Dwarven stout (m)": {
+					"1": "1/20"
+				}
+			},
+			"Asgarnian ale brewing output": {
+				"Asgarnian ale": {
+					"1": "19/20"
+				},
+				"Asgarnian ale (m)": {
+					"1": "1/20"
+				}
+			},
+			"Wendlewick ale brewing output": {
+				"Wendlewick ale": {
+					"1": "19/20"
+				},
+				"Wendlewick ale (m)": {
+					"1": "1/20"
+				}
+			},
+			"Greenman's ale brewing output": {
+				"Greenman's ale": {
+					"1": "19/20"
+				},
+				"Greenman's ale (m)": {
+					"1": "1/20"
+				}
+			},
+			"Wizard's mind bomb brewing output": {
+				"Wizard's mind bomb": {
+					"1": "19/20"
+				},
+				"Wizard's mind bomb (m)": {
+					"1": "1/20"
+				}
+			},
+			"Dragon bitter brewing output": {
+				"Dragon bitter": {
+					"1": "19/20"
+				},
+				"Dragon bitter (m)": {
+					"1": "1/20"
+				}
+			},
+			"Moonlight mead brewing output": {
+				"Moonlight mead": {
+					"1": "19/20"
+				},
+				"Moonlight mead (m)": {
+					"1": "1/20"
+				}
+			},
+			"Axeman's folly brewing output": {
+				"Axeman's folly": {
+					"1": "19/20"
+				},
+				"Axeman's folly (m)": {
+					"1": "1/20"
+				}
+			},
+			"Chef's delight brewing output": {
+				"Chef's delight": {
+					"1": "19/20"
+				},
+				"Chef's delight (m)": {
+					"1": "1/20"
+				}
+			},
+			"Slayer's respite brewing output": {
+				"Slayer's respite": {
+					"1": "19/20"
+				},
+				"Slayer's respite (m)": {
+					"1": "1/20"
+				}
+			},
+			"Pigswill brewing output": {
+				"Pigswill": {
+					"1": "19/20"
+				},
+				"Mature pigswill": {
+					"1": "1/20"
 				}
 			}
 		},
