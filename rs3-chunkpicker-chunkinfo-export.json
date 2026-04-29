@@ -119476,6 +119476,7 @@
 				"Description": "Find and read the scruffy note in the Scabarite Cavern",
 				"BaseQuest": "Completionist achievements",
 				"Chunks": ["Scabarite Cavern"],
+				"RuneScore": 5,
 				"Not F2P": true
 			},
 			"~|Completionist achievements#Master Quest Cape|~ A Cultist's Journey": {
@@ -119485,6 +119486,7 @@
 				"Tasks": {
 					"~|A Cultist's Journey|~ Complete the lore activity": "Quest"
 				},
+				"RuneScore": 5,
 				"Not F2P": true
 			},
 			"~|Completionist achievements#Master Quest Cape|~ A Mini Shipment": {
@@ -119495,17 +119497,7 @@
 				"Tasks": {
 					"~|Curse of the Black Stone|~ 5": "Quest"
 				},
-				"Not F2P": true
-			},
-			"~|Completionist achievements#Master Quest Cape|~ Am I a good boy yet?": {
-				"Category": ["MQC achievements"],
-				"Description": "Get a gift from the stray dog after he moves into Fort Forinthry.",
-				"BaseQuest": "Completionist achievements",
-				"Tasks": {
-					"~|Princess and the Pauper|~ Complete the quest": "Quest"
-				},
-				"Chunks": ["13111"],
-				"Items": ["Dog food[+]"],
+				"RuneScore": 5,
 				"Not F2P": true
 			},
 			"~|Completionist achievements#Master Quest Cape|~ A New Direction": {
@@ -119514,7 +119506,17 @@
 				"BaseQuest": "Completionist achievements",
 				"Items": ["Compass arrow"],
 				"Chunks": ["15683-1", "15170-1"],
+				"RuneScore": 10,
 				"Not F2P": true
+			},
+			"~|Completionist achievements#Master Quest Cape|~ A Sliver of Silver Helps the Sanguine Go Down": {
+				"Category": ["MQC achievements"],
+				"Description": "Learn how to smith more durable havensilver.",
+				"BaseQuest": "Completionist achievements",
+				"Tasks": {
+					"~|A Sliver of Silver Helps the Sanguine Go Down|~ Complete the lore activity": "Quest"
+				},
+				"RuneScore": 5
 			},
 			"~|Completionist achievements#Master Quest Cape|~ Advanced Sweeping": {
 				"Category": ["MQC achievements"],
@@ -119528,6 +119530,7 @@
 				"Skills": {
 					"Magic": 93
 				},
+				"RuneScore": 15,
 				"Not F2P": true
 			},
 			"~|Completionist achievements#Master Quest Cape|~ Aereck's Old Bones": {
@@ -119537,7 +119540,8 @@
 				"Chunks": ["12850-1"],
 				"Tasks": {
 					"~|The Restless Ghost|~ Complete the quest": "Quest"
-				}
+				},
+				"RuneScore": 5
 			},
 			"~|Completionist achievements#Master Quest Cape|~ After the Close": {
 				"Category": ["MQC achievements"],
@@ -119547,6 +119551,7 @@
 				"Tasks": {
 					"~|Once Upon a Time in Gielinor|~ Complete the quest": "Quest"
 				},
+				"RuneScore": 10,
 				"Not F2P": true
 			},
 			"~|Completionist achievements#Master Quest Cape|~ After the Flood ": {
@@ -119554,6 +119559,7 @@
 				"Description": "Find and read Elidinis' memoir.",
 				"BaseQuest": "Completionist achievements",
 				"Items": ["After The Flood"],
+				"RuneScore": 10,
 				"Not F2P": true
 			},
 			"~|Completionist achievements#Master Quest Cape|~ Aged Journal ": {
@@ -119561,6 +119567,7 @@
 				"Description": "Find and read the Aged Journal in Daemonheim.",
 				"BaseQuest": "Completionist achievements",
 				"Chunks": ["Daemonheim - Depths excavation site"],
+				"RuneScore": 10,
 				"Not F2P": true
 			},
 			"~|Completionist achievements#Master Quest Cape|~ Ali the Trader": {
@@ -119570,6 +119577,7 @@
 				"Tasks": {
 					"~|Rogue Trader|~ Complete the lore activity": "Quest"
 				},
+				"RuneScore": 15,
 				"Not F2P": true
 			},
 			"~|Completionist achievements#Master Quest Cape|~ All Rise": {
@@ -119578,7 +119586,26 @@
 				"BaseQuest": "Completionist achievements",
 				"Chunks": ["10806-1"],
 				"Items": ["Court summons"],
+				"RuneScore": 50,
 				"Not F2P": true
+			},
+			"~|Completionist achievements#Master Quest Cape|~ Am I a good boy yet?": {
+				"Category": ["MQC achievements"],
+				"Description": "Get a gift from the stray dog after he moves into Fort Forinthry.",
+				"BaseQuest": "Completionist achievements",
+				"Tasks": {
+					"~|Princess and the Pauper|~ Complete the quest": "Quest"
+				},
+				"Chunks": ["13111"],
+				"Items": ["Dog food[+]"],
+				"RuneScore": 5,
+				"Not F2P": true
+			},
+			"~|Completionist achievements#Master Quest Cape|~ An Exploration of Havenhythe": {
+				"Category": ["MQC achievements"],
+				"Description": "Find all volumes of Kaleb's Travel Journal.",
+				"BaseQuest": "Completionist achievements",
+				"Items": ["Kaleb's travel journal - volume I", "Kaleb's travel journal - volume II"]
 			},
 			"~|Completionist achievements#Master Quest Cape|~ Angs Off My Ring": {
 				"Category": ["MQC achievements"],
@@ -119589,6 +119616,7 @@
 				"Tasks": {
 					"~|The Light Within|~ Complete the quest": "Quest"
 				},
+				"RuneScore": 15,
 				"Not F2P": true
 			},
 			"~|Completionist achievements#Master Quest Cape|~ Animalingual": {
@@ -119599,6 +119627,7 @@
 				"Tasks": {
 					"~|Do No Evil|~ Complete the quest": "Quest"
 				},
+				"RuneScore": 15,
 				"Not F2P": true
 			},
 			"~|Completionist achievements#Master Quest Cape|~ Annihilator": {
@@ -119609,6 +119638,7 @@
 				"Tasks": {
 					"~|Fate of the Gods|~ Complete the quest": "Quest"
 				},
+				"RuneScore": 20,
 				"Not F2P": true
 			},
 			"~|Completionist achievements#Master Quest Cape|~ Another One Scabarites The Dust": {
@@ -119619,6 +119649,7 @@
 				"Tasks": {
 					"~|Beneath Scabaras' Sands|~ Complete the quest": "Quest"
 				},
+				"RuneScore": 10,
 				"Not F2P": true
 			},
 			"~|Completionist achievements#Master Quest Cape|~ Any Odd Chicken": {
@@ -119628,7 +119659,8 @@
 				"Chunks": ["12340-1"],
 				"Tasks": {
 					"~|Ernest the Chicken|~ Complete the quest": "Quest"
-				}
+				},
+				"RuneScore": 5
 			},
 			"~|Completionist achievements#Master Quest Cape|~ Ape A'hollow": {
 				"Category": ["MQC achievements"],
@@ -119638,6 +119670,7 @@
 				"Tasks": {
 					"~|A Fairy Tale III - Battle at Ork's Rift|~ Complete the quest": "Quest"
 				},
+				"RuneScore": 15,
 				"Not F2P": true
 			},
 			"~|Completionist achievements#Master Quest Cape|~ Are You Needing Access?": {
@@ -119648,6 +119681,7 @@
 				"Tasks": {
 					"~|Do No Evil|~ Complete the quest": "Quest"
 				},
+				"RuneScore": 10,
 				"Not F2P": true
 			},
 			"~|Completionist achievements#Master Quest Cape|~ Are You The Keymaster?": {
@@ -119655,6 +119689,7 @@
 				"Description": "Add all valid keys to the steel key ring after 'One Small Favour'.",
 				"BaseQuest": "Completionist achievements",
 				"Items": ["Brass key", "Metal key", "Dusty key", "Maze key", "Ancestral key", "New key", "Shiny key", "Wrought iron key", "Battered key", "Crystal-mine key", "Shortcut key"],
+				"RuneScore": 20,
 				"Not F2P": true
 			},
 			"~|Completionist achievements#Master Quest Cape|~ Arise from the Ash": {
@@ -119668,6 +119703,7 @@
 				"Tasks": {
 					"~|In Pyre Need|~ Complete the quest": "Quest"
 				},
+				"RuneScore": 10,
 				"Not F2P": true
 			},
 			"~|Completionist achievements#Master Quest Cape|~ Armadylean Expert": {
@@ -119717,6 +119753,7 @@
 				"Tasks": {
 					"~|Enlightened Journey|~ Complete the quest": "Quest"
 				},
+				"RuneScore": 15,
 				"Not F2P": true
 			},
 			"~|Completionist achievements#Master Quest Cape|~ As Clear as a Crystal Seed": {
@@ -119727,6 +119764,7 @@
 				"Tasks": {
 					"~|Within the Light|~ Complete the quest": "Quest"
 				},
+				"RuneScore": 15,
 				"Not F2P": true
 			},
 			"~|Completionist achievements#Master Quest Cape|~ As Taxed as a Yak": {
@@ -119737,6 +119775,7 @@
 				"Tasks": {
 					"~|The Fremennik Isles|~ Complete the quest": "Quest"
 				},
+				"RuneScore": 10,
 				"Not F2P": true
 			},
 			"~|Completionist achievements#Master Quest Cape|~ Azacorax's Rewards": {
@@ -119751,6 +119790,7 @@
 				"Tasks": {
 					"~|Rune Memories|~ Complete the quest": "Quest"
 				},
+				"RuneScore": 10,
 				"Not F2P": true
 			},
 			"~|Completionist achievements#Master Quest Cape|~ Azdaran Birthright": {
@@ -119764,6 +119804,7 @@
 				"Tasks": {
 					"~|Birthright of the Dwarves|~ Complete the quest": "Quest"
 				},
+				"RuneScore": 15,
 				"Not F2P": true
 			},
 			"~|Completionist achievements#Master Quest Cape|~ Bandos's Memories ": {
@@ -119774,6 +119815,7 @@
 				"Tasks": {
 					"~|The Mighty Fall|~ Complete the quest": "Quest"
 				},
+				"RuneScore": 15,
 				"Not F2P": true
 			},
 			"~|Completionist achievements#Master Quest Cape|~ Bandosian Expert": {
@@ -119819,6 +119861,7 @@
 				"Tasks": {
 					"~|Ritual of the Mahjarrat|~ 6": "Quest"
 				},
+				"RuneScore": 25,
 				"Not F2P": true
 			},
 			"~|Completionist achievements#Master Quest Cape|~ Banking History": {
@@ -119828,6 +119871,7 @@
 				"Tasks": {
 					"~|Enchanted Key|~ Complete the lore activity": "Quest"
 				},
+				"RuneScore": 25,
 				"Not F2P": true
 			},
 			"~|Completionist achievements#Master Quest Cape|~ Behemoth Notes ": {
@@ -119840,6 +119884,7 @@
 				"Skills": {
 					"Dungeoneering": 101
 				},
+				"RuneScore": 25,
 				"Not F2P": true
 			},
 			"~|Completionist achievements#Master Quest Cape|~ Bill & Ben's Egg/Salon Joint Venture": {
@@ -119868,6 +119913,7 @@
 				"Tasks": {
 					"~|Housing of Parliament|~ Complete the quest": "Quest"
 				},
+				"RuneScore": 20,
 				"NoBoost": true,
 				"Not F2P": true
 			},
@@ -119880,6 +119926,7 @@
 				"Tasks": {
 					"~|Defender of Varrock|~ 6": "Quest"
 				},
+				"RuneScore": 10,
 				"Not F2P": true
 			},
 			"~|Completionist achievements#Master Quest Cape|~ Bloodstained Treasure": {
@@ -119890,6 +119937,7 @@
 				"Tasks": {
 					"~|Legacy of Seergaze|~ Complete the quest": "Quest"
 				},
+				"RuneScore": 15,
 				"Not F2P": true
 			},
 			"~|Completionist achievements#Master Quest Cape|~ Bridge over Fremmy Waters": {
@@ -119913,6 +119961,7 @@
 					"~|Nadir (unabridged saga)|~ Complete the unabridged saga": "Quest",
 					"~|Thok Your Block Off (unabridged saga)|~ Complete the unabridged saga": "Quest"
 				},
+				"RuneScore": 15,
 				"Not F2P": true
 			},
 			"~|Completionist achievements#Master Quest Cape|~ Brothers Gower": {
@@ -119939,7 +119988,8 @@
 				},
 				"Tasks": {
 					"~|Gower Quest|~ Complete the quest": "Quest"
-				}
+				},
+				"RuneScore": 15
 			},
 			"~|Completionist achievements#Master Quest Cape|~ Brutal Stuffsies": {
 				"Category": ["MQC achievements"],
@@ -119950,6 +120000,7 @@
 				"Tasks": {
 					"~|Zogre Flesh Eaters|~ Complete the quest": "Quest"
 				},
+				"RuneScore": 15,
 				"Not F2P": true
 			},
 			"~|Completionist achievements#Master Quest Cape|~ Bugs in the Walls": {
@@ -119957,6 +120008,7 @@
 				"Description": "Find and read the High Priest of Scabaras' notes.",
 				"BaseQuest": "Completionist achievements",
 				"Items": ["Priest's Notes"],
+				"RuneScore": 10,
 				"Not F2P": true
 			},
 			"~|Completionist achievements#Master Quest Cape|~ Buy and Sell Some XP": {
@@ -119970,6 +120022,7 @@
 				"Tasks": {
 					"~|Buyers and Cellars|~ Complete the quest": "Quest"
 				},
+				"RuneScore": 10,
 				"Not F2P": true
 			},
 			"~|Completionist achievements#Master Quest Cape|~ Buying Up Ancient Artefacts": {
@@ -119980,6 +120033,7 @@
 				"Tasks": {
 					"~|Desert Treasure|~ Complete the quest": "Quest"
 				},
+				"RuneScore": 10,
 				"Not F2P": true
 			},
 			"~|Completionist achievements#Master Quest Cape|~ Carnillean Riches": {
@@ -119990,6 +120044,7 @@
 				"Tasks": {
 					"~|Carnillean Rising|~ Complete the quest": "Quest"
 				},
+				"RuneScore": 5,
 				"Not F2P": true
 			},
 			"~|Completionist achievements#Master Quest Cape|~ Castaways of the Arc": {
@@ -120015,6 +120070,7 @@
 					"~|Impressing the Locals|~ Complete the quest": "Quest",
 					"~|Spiritual Enlightenment (miniquest)|~ Complete the miniquest": "Quest"
 				},
+				"RuneScore": 25,
 				"Not F2P": true
 			},
 			"~|Completionist achievements#Master Quest Cape|~ Caving into the Gains": {
@@ -120030,6 +120086,7 @@
 				"Tasks": {
 					"~|Myths of the White Lands|~ Complete the quest": "Quest"
 				},
+				"RuneScore": 5,
 				"Not F2P": true
 			},
 			"~|Completionist achievements#Master Quest Cape|~ Cecilia, I'm Begging You, Please...": {
@@ -120039,7 +120096,8 @@
 				"Chunks": ["13617-1"],
 				"Tasks": {
 					"~|One Piercing Note|~ Complete the quest": "Quest"
-				}
+				},
+				"RuneScore": 5
 			},
 			"~|Completionist achievements#Master Quest Cape|~ Centaur of Attention": {
 				"Category": ["MQC achievements"],
@@ -120050,7 +120108,8 @@
 				"Skills": {
 					"Archaeology": "42",
 					"Mining": "102"
-				}
+				},
+				"RuneScore": 5
 			},
 			"~|Completionist achievements#Master Quest Cape|~ Challenge Maria": {
 				"Category": ["MQC achievements"],
@@ -120090,6 +120149,7 @@
 				"Tasks": {
 					"~|Broken Home|~ Complete the quest": "Quest"
 				},
+				"RuneScore": 35,
 				"NoBoost": true,
 				"Not F2P": true
 			},
@@ -120098,6 +120158,7 @@
 				"Description": "Hear Vorago's introduction dialogue.",
 				"BaseQuest": "Completionist achievements",
 				"Chunks": ["Borehole"],
+				"RuneScore": 5,
 				"Not F2P": true
 			},
 			"~|Completionist achievements#Master Quest Cape|~ Chilling with Arrav": {
@@ -120108,6 +120169,7 @@
 				"Tasks": {
 					"~|Ritual of the Mahjarrat|~ Complete the quest": "Quest"
 				},
+				"RuneScore": 20,
 				"Not F2P": true
 			},
 			"~|Completionist achievements#Master Quest Cape|~ Chippy Transport": {
@@ -120118,6 +120180,7 @@
 				"Tasks": {
 					"~|Love Story|~ Complete the quest": "Quest"
 				},
+				"RuneScore": 10,
 				"Not F2P": true
 			},
 			"~|Completionist achievements#Master Quest Cape|~ Chivalry is Dead": {
@@ -120131,6 +120194,7 @@
 				"Tasks": {
 					"~|The Death of Chivalry|~ Complete the quest": "Quest"
 				},
+				"RuneScore": 10,
 				"NoBoost": true,
 				"Not F2P": true
 			},
@@ -120146,6 +120210,7 @@
 				"Tasks": {
 					"~|The Death of Chivalry|~ Complete the quest": "Quest"
 				},
+				"RuneScore": 10,
 				"Not F2P": true
 			},
 			"~|Completionist achievements#Master Quest Cape|~ Chivalry is Threads": {
@@ -120155,6 +120220,7 @@
 				"Tasks": {
 					"~|The Death of Chivalry|~ Complete the quest": "Quest"
 				},
+				"RuneScore": 10,
 				"Not F2P": true
 			},
 			"~|Completionist achievements#Master Quest Cape|~ Circus of Fire": {
@@ -120165,6 +120231,7 @@
 				"Tasks": {
 					"~|The Firemaker's Curse|~ Complete the quest": "Quest"
 				},
+				"RuneScore": 5,
 				"Not F2P": true
 			},
 			"~|Completionist achievements#Master Quest Cape|~ Claiming Azzanadra's Heart": {
@@ -120176,6 +120243,7 @@
 					"~|The Temple at Senntisten|~ Complete the quest": "Quest",
 					"~|Heart of Stone|~ Complete the quest": "Quest"
 				},
+				"RuneScore": 10,
 				"Not F2P": true
 			},
 			"~|Completionist achievements#Master Quest Cape|~ Claiming the Knight's Experience": {
@@ -120185,7 +120253,8 @@
 				"Chunks": ["11828"],
 				"Tasks": {
 					"~|The Knight's Sword|~ Complete the quest": "Quest"
-				}
+				},
+				"RuneScore": 10
 			},
 			"~|Completionist achievements#Master Quest Cape|~ Claus is Rising": {
 				"Category": ["MQC achievements"],
@@ -120195,6 +120264,7 @@
 				"Tasks": {
 					"~|Carnillean Rising|~ Complete the quest": "Quest"
 				},
+				"RuneScore": 10,
 				"Not F2P": true
 			},
 			"~|Completionist achievements#Master Quest Cape|~ Clue's in the Monkey Drool": {
@@ -120206,13 +120276,15 @@
 				"Tasks": {
 					"~|Monkey Madness|~ 16": "Quest"
 				},
+				"RuneScore": 10,
 				"Not F2P": true
 			},
 			"~|Completionist achievements#Master Quest Cape|~ Collection of Zamorakian Notes ": {
 				"Category": ["MQC achievements"],
 				"Description": "Find all 5 Zamorakian notes, dropped by those dedicated to Zamorak.",
 				"BaseQuest": "Completionist achievements",
-				"Items": ["Bloodstained note", "Elegant note", "Burnt note", "Crumpled note (Zamorak's demon invasion)", "Mysterious note (Zamorak's demon invasion)"]
+				"Items": ["Bloodstained note", "Elegant note", "Burnt note", "Crumpled note (Zamorak's demon invasion)", "Mysterious note (Zamorak's demon invasion)"],
+				"RuneScore": 10
 			},
 			"~|Completionist achievements#Master Quest Cape|~ A Complete History of Droalak": {
 				"Category": ["MQC achievements"],
@@ -120222,6 +120294,7 @@
 				"Tasks": {
 					"~|Making History|~ Complete the quest": "Quest"
 				},
+				"RuneScore": 10,
 				"Not F2P": true
 			},
 			"~|Completionist achievements#Master Quest Cape|~ A Complete Trekky": {
@@ -120232,6 +120305,7 @@
 				"Tasks": {
 					"~|The Darkness of Hallowvale|~ Complete the quest": "Quest"
 				},
+				"RuneScore": 40,
 				"Not F2P": true
 			},
 			"~|Completionist achievements#Master Quest Cape|~ Cook's Delights": {
@@ -120241,7 +120315,8 @@
 				"Chunks": ["12850-1"],
 				"Tasks": {
 					"~|Cook's Assistant|~ Complete the quest": "Quest"
-				}
+				},
+				"RuneScore": 5
 			},
 			"~|Completionist achievements#Master Quest Cape|~ Count All Light Fingers": {
 				"Category": ["MQC achievements"],
@@ -120250,6 +120325,7 @@
 				"Tasks": {
 					"~|A Guild of Our Own (miniquest)|~ Complete the miniquest": "Quest"
 				},
+				"RuneScore": 20,
 				"Not F2P": true
 			},
 			"~|Completionist achievements#Master Quest Cape|~ Cower Behind the Chosen Commander": {
@@ -120260,6 +120336,7 @@
 				"Tasks": {
 					"~|The Chosen Commander|~ Complete the quest": "Quest"
 				},
+				"RuneScore": 10,
 				"Not F2P": true
 			},
 			"~|Completionist achievements#Master Quest Cape|~ Cran Door's Secret": {
@@ -120269,7 +120346,8 @@
 				"Chunks": ["Elvarg's Lair"],
 				"Tasks": {
 					"~|Dragon Slayer|~ 7": "Quest"
-				}
+				},
+				"RuneScore": 10
 			},
 			"~|Completionist achievements#Master Quest Cape|~ Culinary Exchange": {
 				"Category": ["MQC achievements"],
@@ -120280,6 +120358,7 @@
 				"Tasks": {
 					"~|The Path of Glouphrie|~ Complete the quest": "Quest"
 				},
+				"RuneScore": 5,
 				"Not F2P": true
 			},
 			"~|Completionist achievements#Master Quest Cape|~ Curses!": {
@@ -120290,6 +120369,7 @@
 				"Tasks": {
 					"~|The Temple at Senntisten|~ Complete the quest": "Quest"
 				},
+				"RuneScore": 10,
 				"Not F2P": true
 			},
 			"~|Completionist achievements#Master Quest Cape|~ Daemonology of Celerity": {
@@ -120297,6 +120377,7 @@
 				"Description": "Claim the malleus daemoniorum.",
 				"BaseQuest": "Completionist achievements",
 				"Monsters": ["Demon Boss"],
+				"RuneScore": 10,
 				"Not F2P": true
 			},
 			"~|Completionist achievements#Master Quest Cape|~ Daero Take This Experience?": {
@@ -120307,6 +120388,7 @@
 				"Tasks": {
 					"~|Monkey Madness|~ Complete the quest": "Quest"
 				},
+				"RuneScore": 10,
 				"Not F2P": true
 			},
 			"~|Completionist achievements#Master Quest Cape|~ Dark Reading Material": {
@@ -120317,6 +120399,7 @@
 				"Skills": {
 					"Archaeology": 20
 				},
+				"RuneScore": 5,
 				"Not F2P": true
 			},
 			"~|Completionist achievements#Master Quest Cape|~ Data Recovery": {
@@ -120327,6 +120410,7 @@
 				"Skills": {
 					"Divination": 95
 				},
+				"RuneScore": 20,
 				"Not F2P": true
 			},
 			"~|Completionist achievements#Master Quest Cape|~ Deadlier Catch": {
@@ -120337,6 +120421,7 @@
 				"Tasks": {
 					"~|Deadliest Catch|~ Complete the quest": "Quest"
 				},
+				"RuneScore": 10,
 				"Not F2P": true
 			},
 			"~|Completionist achievements#Master Quest Cape|~ Death to the Mahjarrat": {
@@ -120346,6 +120431,7 @@
 				"Tasks": {
 					"~|Children of Mah|~ 5": "Quest"
 				},
+				"RuneScore": 20,
 				"Not F2P": true
 			},
 			"~|Completionist achievements#Master Quest Cape|~ Deep and Bloody Experience": {
@@ -120356,6 +120442,7 @@
 				"Tasks": {
 					"~|Blood Runs Deep|~ Complete the quest": "Quest"
 				},
+				"RuneScore": 15,
 				"Not F2P": true
 			},
 			"~|Completionist achievements#Master Quest Cape|~ Diamonds in the Dung": {
@@ -120366,6 +120453,7 @@
 				"Tasks": {
 					"~|Diamond in the Rough|~ Complete the quest": "Quest"
 				},
+				"RuneScore": 10,
 				"Not F2P": true
 			},
 			"~|Completionist achievements#Master Quest Cape|~ Diaries of the Clans": {
@@ -120373,6 +120461,7 @@
 				"Description": "Find the clan journal pages from the Hefin Agility Course in Prifddinas.",
 				"BaseQuest": "Completionist achievements",
 				"Items": ["Voice of the Elders lore page"],
+				"RuneScore": 10,
 				"Not F2P": true
 			},
 			"~|Completionist achievements#Master Quest Cape|~ Diary of Oreb": {
@@ -120383,6 +120472,7 @@
 				"Skills": {
 					"Slayer": 88
 				},
+				"RuneScore": 25,
 				"Not F2P": true
 			},
 			"~|Completionist achievements#Master Quest Cape|~ Diary of the Gods": {
@@ -120396,6 +120486,7 @@
 					"Agility": 70,
 					"Ranged": 70
 				},
+				"RuneScore": 25,
 				"Not F2P": true
 			},
 			"~|Completionist achievements#Master Quest Cape|~ Dishonourable Gains": {
@@ -120434,6 +120525,7 @@
 				"Tasks": {
 					"~|Dishonour among Thieves|~ 2": "Quest"
 				},
+				"RuneScore": 15,
 				"Not F2P": true,
 				"NoBoost": true
 			},
@@ -120445,6 +120537,7 @@
 				"Tasks": {
 					"~|Dishonour among Thieves|~ Complete the quest": "Quest"
 				},
+				"RuneScore": 15,
 				"Not F2P": true
 			},
 			"~|Completionist achievements#Master Quest Cape|~ Distorted Div": {
@@ -120456,6 +120549,7 @@
 					"~|Mahjarrat Memories (miniquest)|~ Complete the miniquest": "Quest",
 					"~|Fate of the Gods|~ Complete the quest": "Quest"
 				},
+				"RuneScore": 10,
 				"Not F2P": true
 			},
 			"~|Completionist achievements#Master Quest Cape|~ Do a Minion, Take Notes": {
@@ -120466,6 +120560,7 @@
 				"Tasks": {
 					"Gain access to the Dominion Tower": "Nonskill"
 				},
+				"RuneScore": 25,
 				"Not F2P": true
 			},
 			"~|Completionist achievements#Master Quest Cape|~ Do No Elite": {
@@ -120476,6 +120571,7 @@
 				"Tasks": {
 					"~|Do No Evil|~ Complete the quest": "Quest"
 				},
+				"RuneScore": 10,
 				"Not F2P": true
 			},
 			"~|Completionist achievements#Master Quest Cape|~ Don't Fear the Ripper": {
@@ -120486,6 +120582,7 @@
 				"Skills": {
 					"Slayer": 96
 				},
+				"RuneScore": 25,
 				"Not F2P": true
 			},
 			"~|Completionist achievements#Master Quest Cape|~ Dragon Ink": {
@@ -120493,6 +120590,7 @@
 				"Description": "Collect the following lore books from bosses inside the Dragonkin Laboratory.",
 				"BaseQuest": "Completionist achievements",
 				"Items": ["Diary of an Overzealous Gnome", "Redacted Dragonkin Research"],
+				"RuneScore": 20,
 				"Not F2P": true
 			},
 			"~|Completionist achievements#Master Quest Cape|~ Dragonkin Diary": {
@@ -120503,6 +120601,7 @@
 				"Skills": {
 					"Slayer": 92
 				},
+				"RuneScore": 25,
 				"Not F2P": true
 			},
 			"~|Completionist achievements#Master Quest Cape|~ Dragonkin Expert": {
@@ -120559,6 +120658,7 @@
 				"Tasks": {
 					"~|Hero's Welcome|~ Complete the quest": "Quest"
 				},
+				"RuneScore": 20,
 				"Not F2P": true
 			},
 			"~|Completionist achievements#Master Quest Cape|~ Draugr Me to Hela": {
@@ -120569,6 +120669,7 @@
 				"Tasks": {
 					"~|Remains of the Necrolord|~ Complete the quest": "Quest"
 				},
+				"RuneScore": 5,
 				"Not F2P": true
 			},
 			"~|Completionist achievements#Master Quest Cape|~ Dusting Murial": {
@@ -120585,6 +120686,7 @@
 					"~|One of a Kind|~ Complete the quest": "Quest",
 					"~|Fate of the Gods|~ Complete the quest": "Quest"
 				},
+				"RuneScore": 25,
 				"Not F2P": true
 			},
 			"~|Completionist achievements#Master Quest Cape|~ Eastern Adventurer: Quin": {
@@ -120597,6 +120699,7 @@
 					"Runecrafting": 90,
 					"Slayer": 90
 				},
+				"RuneScore": 5,
 				"Not F2P": true
 			},
 			"~|Completionist achievements#Master Quest Cape|~ Eastern Adventurer: Hyu-Ji": {
@@ -120609,6 +120712,7 @@
 					"Prayer": 90,
 					"Thieving": 90
 				},
+				"RuneScore": 5,
 				"Not F2P": true
 			},
 			"~|Completionist achievements#Master Quest Cape|~ Eastern Adventurer: Eastern Curiosities": {
@@ -120621,6 +120725,7 @@
 					"Cooking": 90,
 					"Hunter": 90
 				},
+				"RuneScore": 5,
 				"Not F2P": true
 			},
 			"~|Completionist achievements#Master Quest Cape|~ Eastern Adventurer: Guardians of the World": {
@@ -120633,6 +120738,7 @@
 					"Divination": 90,
 					"Dungeoneering": 90
 				},
+				"RuneScore": 15,
 				"Not F2P": true
 			},
 			"~|Completionist achievements#Master Quest Cape|~ EEEEAGLE!": {
@@ -120648,6 +120754,7 @@
 					"~|Eagles' Peak|~ Complete the quest": "Quest",
 					"~|Back to my Roots|~ Complete the quest": "Quest"
 				},
+				"RuneScore": 15,
 				"Not F2P": true
 			},
 			"~|Completionist achievements#Master Quest Cape|~ Enough of the Crazy Walking": {
@@ -120655,6 +120762,7 @@
 				"Description": "Purchase the Mad Ramblings.",
 				"BaseQuest": "Completionist achievements",
 				"Items": ["The Account of Aesa Fellsdottir (Part 1)", "The Account of Aesa Fellsdottir (Part 2)"],
+				"RuneScore": 20,
 				"Not F2P": true
 			},
 			"~|Completionist achievements#Master Quest Cape|~ Epi Logueque Experience": {
@@ -120665,6 +120773,7 @@
 				"Tasks": {
 					"~|While Guthix Sleeps|~ Complete the quest": "Quest"
 				},
+				"RuneScore": 15,
 				"Not F2P": true
 			},
 			"~|Completionist achievements#Master Quest Cape|~ Experience the Fate of the Gods": {
@@ -120678,19 +120787,15 @@
 					"~|Fate of the Gods|~ Complete the quest": "Quest",
 					"~|Ritual of the Mahjarrat|~ Complete the quest": "Quest"
 				},
+				"RuneScore": 20,
 				"Not F2P": true
-			},
-			"~|Completionist achievements#Master Quest Cape|~ An Exploration of Havenhythe": {
-				"Category": ["MQC achievements"],
-				"Description": "Find all volumes of Kaleb's Travel Journal.",
-				"BaseQuest": "Completionist achievements",
-				"Items": ["Kaleb's travel journal - volume I", "Kaleb's travel journal - volume II"]
 			},
 			"~|Completionist achievements#Master Quest Cape|~ Explore for Nestor": {
 				"Category": ["MQC achievements"],
 				"Description": "Find and read the explorer's notes in the Keldagrim library.",
 				"BaseQuest": "Completionist achievements",
 				"Chunks": ["Keldagrim"],
+				"RuneScore": 10,
 				"Not F2P": true
 			},
 			"~|Completionist achievements#Master Quest Cape|~ Family Spirit Tree": {
@@ -120706,6 +120811,7 @@
 					"~|Plague's End|~ Complete the quest": "Quest",
 					"~|The Prisoner of Glouphrie|~ Complete the quest": "Quest"
 				},
+				"RuneScore": 10,
 				"Not F2P": true
 			},
 			"~|Completionist achievements#Master Quest Cape|~ Final Destination Unlocked": {
@@ -120716,6 +120822,7 @@
 				"Tasks": {
 					"~|The Spirit of War|~ Complete the quest": "Quest"
 				},
+				"RuneScore": 5,
 				"Not F2P": true
 			},
 			"~|Completionist achievements#Master Quest Cape|~ Finding Tali": {
@@ -120725,6 +120832,7 @@
 				"Tasks": {
 					"~|Finding Tali|~ Complete the lore activity": "Quest"
 				},
+				"RuneScore": 10,
 				"Not F2P": true
 			},
 			"~|Completionist achievements#Master Quest Cape|~ Fires are Mostly Harmless": {
@@ -120739,6 +120847,7 @@
 				"Tasks": {
 					"~|A Fairy Tale III - Battle at Ork's Rift|~ Complete the quest": "Quest"
 				},
+				"RuneScore": 15,
 				"Not F2P": true
 			},
 			"~|Completionist achievements#Master Quest Cape|~ Flippers": {
@@ -120750,6 +120859,7 @@
 				"Tasks": {
 					"~|Impressing the Locals|~ Complete the quest": "Quest"
 				},
+				"RuneScore": 5,
 				"Not F2P": true
 			},
 			"~|Completionist achievements#Master Quest Cape|~ Fly You Fool": {
@@ -120757,6 +120867,7 @@
 				"Description": "Convince Velrak the Explorer to escape Taverley Dungeon.",
 				"BaseQuest": "Completionist achievements",
 				"Chunks": ["Taverley Dungeon"],
+				"RuneScore": 5,
 				"Not F2P": true
 			},
 			"~|Completionist achievements#Master Quest Cape|~ Following In The Footsteps": {
@@ -120767,6 +120878,7 @@
 				"Tasks": {
 					"~|Sins of the Father|~ Complete the quest": "Quest"
 				},
+				"RuneScore": 20,
 				"Not F2P": true
 			},
 			"~|Completionist achievements#Master Quest Cape|~ For the Love of Mabel": {
@@ -120777,6 +120889,7 @@
 				"Tasks": {
 					"~|Love Story|~ Complete the quest": "Quest"
 				},
+				"RuneScore": 15,
 				"Not F2P": true
 			},
 			"~|Completionist achievements#Master Quest Cape|~ Forcae's Mettle": {
@@ -120784,6 +120897,7 @@
 				"Description": "Complete Forcae's journal.",
 				"BaseQuest": "Completionist achievements",
 				"Items": ["Forcae's journal page"],
+				"RuneScore": 15,
 				"Not F2P": true
 			},
 			"~|Completionist achievements#Master Quest Cape|~ Fred's Shearings": {
@@ -120792,7 +120906,8 @@
 				"BaseQuest": "Completionist achievements",
 				"Tasks": {
 					"~|Sheep Shearer (miniquest)|~ Complete the miniquest": "Quest"
-				}
+				},
+				"RuneScore": 5
 			},
 			"~|Completionist achievements#Master Quest Cape|~ Free Beer Here": {
 				"Category": ["MQC achievements"],
@@ -120802,6 +120917,7 @@
 				"Tasks": {
 					"~|The Feud|~ Complete the quest": "Quest"
 				},
+				"RuneScore": 5,
 				"Not F2P": true
 			},
 			"~|Completionist achievements#Master Quest Cape|~ Friend of the Imcando": {
@@ -120812,6 +120928,7 @@
 				"Tasks": {
 					"~|Kili Row|~ Complete the quest": "Quest"
 				},
+				"RuneScore": 20,
 				"Not F2P": true
 			},
 			"~|Completionist achievements#Master Quest Cape|~ Gift from Sliske": {
@@ -120827,6 +120944,7 @@
 					"~|The Firemaker's Curse|~ Complete the quest": "Quest",
 					"~|The Void Stares Back|~ Complete the quest": "Quest"
 				},
+				"RuneScore": 15,
 				"Not F2P": true
 			},
 			"~|Completionist achievements#Master Quest Cape|~ God Wars ": {
@@ -120844,6 +120962,7 @@
 				"Skills": {
 					"Hunter": 70
 				},
+				"RuneScore": 10,
 				"Not F2P": true
 			},
 			"~|Completionist achievements#Master Quest Cape|~ Goebie Relics": {
@@ -120851,6 +120970,7 @@
 				"Description": "Find all Mazcab stone fragments and take them to the ancient statue.",
 				"BaseQuest": "Completionist achievements",
 				"Chunks": ["Mazcab"],
+				"RuneScore": 5,
 				"Not F2P": true
 			},
 			"~|Completionist achievements#Master Quest Cape|~ Got a Vyre Reputation": {
@@ -120861,6 +120981,7 @@
 				"Tasks": {
 					"~|The Branches of Darkmeyer|~ 8": "Quest"
 				},
+				"RuneScore": 10,
 				"Not F2P": true
 			},
 			"~|Completionist achievements#Master Quest Cape|~ Goulash! Get Your Free Goulash!": {
@@ -120870,7 +120991,8 @@
 				"Chunks": ["12339"],
 				"Tasks": {
 					"~|Swept Away|~ Complete the quest": "Quest"
-				}
+				},
+				"RuneScore": 5
 			},
 			"~|Completionist achievements#Master Quest Cape|~ Grave Records": {
 				"Category": ["MQC achievements"],
@@ -120884,6 +121006,7 @@
 				"Tasks": {
 					"~|Soul Searching|~ Complete the quest": "Quest"
 				},
+				"RuneScore": 20,
 				"Not F2P": true
 			},
 			"~|Completionist achievements#Master Quest Cape|~ Grondaban's Legacy": {
@@ -120891,6 +121014,7 @@
 				"Description": "Obtain Grondaban's stalker notes from the stalker dungeon.",
 				"BaseQuest": "Completionist achievements",
 				"Chunks": ["Stalker dungeon"],
+				"RuneScore": 5,
 				"Not F2P": true
 			},
 			"~|Completionist achievements#Master Quest Cape|~ Gunning for Jewellery": {
@@ -120903,7 +121027,8 @@
 				},
 				"Tasks": {
 					"~|Gunnar's Ground|~ Complete the quest": "Quest"
-				}
+				},
+				"RuneScore": 10
 			},
 			"~|Completionist achievements#Master Quest Cape|~ Guthix and the Chamber of Secrets": {
 				"Category": ["MQC achievements"],
@@ -120913,6 +121038,7 @@
 				"Skills": {
 					"Divination": 70
 				},
+				"RuneScore": 10,
 				"Not F2P": true,
 				"NoBoost": true
 			},
@@ -120924,6 +121050,7 @@
 				"Tasks": {
 					"~|Dealing with Scabaras|~ Complete the quest": "Quest"
 				},
+				"RuneScore": 10,
 				"Not F2P": true
 			},
 			"~|Completionist achievements#Master Quest Cape|~ Heavy Metal": {
@@ -120946,6 +121073,7 @@
 				"Tasks": {
 					"~|Hermit Permits|~ Complete the quest": "Quest"
 				},
+				"RuneScore": 5,
 				"Not F2P": true
 			},
 			"~|Completionist achievements#Master Quest Cape|~ Herbi's Flax": {
@@ -120956,6 +121084,7 @@
 				"Tasks": {
 					"~|Shades of Mort'ton|~ Complete the quest": "Quest"
 				},
+				"RuneScore": 10,
 				"Not F2P": true
 			},
 			"~|Completionist achievements#Master Quest Cape|~ Here Was a Scabaras Mask": {
@@ -120969,6 +121098,7 @@
 				"Tasks": {
 					"~|Diamond in the Rough|~ Complete the quest": "Quest"
 				},
+				"RuneScore": 5,
 				"Not F2P": true
 			},
 			"~|Completionist achievements#Master Quest Cape|~ Heroes of the Graveyard": {
@@ -120976,6 +121106,7 @@
 				"Description": "Find and read all four books about the heroes buried in Senntisten graveyard.",
 				"BaseQuest": "Completionist achievements",
 				"Items": ["The Great Beast", "Kings and Queens", "A Life in Colour", "A Massacrer of Moles"],
+				"RuneScore": 10,
 				"Not F2P": true
 			},
 			"~|Completionist achievements#Master Quest Cape|~ History of Bilrach": {
@@ -120988,6 +121119,7 @@
 				"Skills": {
 					"Dungeoneering": 117
 				},
+				"RuneScore": 40,
 				"Not F2P": true,
 				"NoBoost": true
 			},
@@ -121003,6 +121135,7 @@
 				"Tasks": {
 					"Archaeology Mystery: ~|Leap of Faith|~ Complete the mystery": "Quest"
 				},
+				"RuneScore": 15,
 				"Not F2P": true
 			},
 			"~|Completionist achievements#Master Quest Cape|~ I Can See For Miles and Miles": {
@@ -121032,6 +121165,7 @@
 					"~|My Arm's Big Adventure|~ Complete the quest": "Quest",
 					"BeaconTasks[+]x14": "Firemaking"
 				},
+				"RuneScore": 30,
 				"Not F2P": true
 			},
 			"~|Completionist achievements#Master Quest Cape|~ I Dig This Transportation": {
@@ -121042,6 +121176,7 @@
 				"Tasks": {
 					"~|The Dig Site|~ Complete the quest": "Quest"
 				},
+				"RuneScore": 10,
 				"Not F2P": true
 			},
 			"~|Completionist achievements#Master Quest Cape|~ I Know. I Was There...": {
@@ -121052,6 +121187,7 @@
 				"Tasks": {
 					"~|Ritual of the Mahjarrat|~ Complete the quest": "Quest"
 				},
+				"RuneScore": 5,
 				"Not F2P": true
 			},
 			"~|Completionist achievements#Master Quest Cape|~ I Presume These Rewards are Mine, Death?": {
@@ -121067,6 +121203,7 @@
 				"Tasks": {
 					"~|Missing, Presumed Death|~ Complete the quest": "Quest"
 				},
+				"RuneScore": 20,
 				"Not F2P": true
 			},
 			"~|Completionist achievements#Master Quest Cape|~ I Want a New Duck": {
@@ -121076,7 +121213,8 @@
 				"Chunks": ["Paddlington"],
 				"Tasks": {
 					"~|Duck Quest|~ Complete the quest": "Quest"
-				}
+				},
+				"RuneScore": 5
 			},
 			"~|Completionist achievements#Master Quest Cape|~ I'm Forever Washing Shadows": {
 				"Category": ["MQC achievements"],
@@ -121090,6 +121228,7 @@
 				"Tasks": {
 					"~|Plague's End|~ Complete the quest": "Quest"
 				},
+				"RuneScore": 10,
 				"Not F2P": true
 			},
 			"~|Completionist achievements#Master Quest Cape|~ I've Got a Little List (of Miniquests)": {
@@ -121137,6 +121276,7 @@
 				"Tasks": {
 					"~|Do No Evil|~ Complete the quest": "Quest"
 				},
+				"RuneScore": 25,
 				"Not F2P": true
 			},
 			"~|Completionist achievements#Master Quest Cape|~ Icthlarin's Little Chest": {
@@ -121147,6 +121287,7 @@
 				"Tasks": {
 					"~|Icthlarin's Little Helper|~ 2": "Quest"
 				},
+				"RuneScore": 10,
 				"Not F2P": true
 			},
 			"~|Completionist achievements#Master Quest Cape|~ Impressing Char": {
@@ -121160,6 +121301,7 @@
 				"Tasks": {
 					"~|The Firemaker's Curse|~ Complete the quest": "Quest"
 				},
+				"RuneScore": 10,
 				"NoBoost": true,
 				"Not F2P": true
 			},
@@ -121172,6 +121314,7 @@
 				"Tasks": {
 					"~|Ritual of the Mahjarrat|~ Complete the quest": "Quest"
 				},
+				"RuneScore": 5,
 				"Not F2P": true
 			},
 			"~|Completionist achievements#Master Quest Cape|~ It's Like God Book Illuminations in Here": {
@@ -121188,6 +121331,7 @@
 					"~|The Dig Site|~ Complete the quest": "Quest",
 					"~|Horror from the Deep|~ Complete the quest": "Quest"
 				},
+				"RuneScore": 30,
 				"Not F2P": true
 			},
 			"~|Completionist achievements#Master Quest Cape|~ Ivan is Flailing": {
@@ -121202,6 +121346,7 @@
 				"Tasks": {
 					"~|Legacy of Seergaze|~ 18": "Quest"
 				},
+				"RuneScore": 10,
 				"Not F2P": true
 			},
 			"~|Completionist achievements#Master Quest Cape|~ Jas not Meant for Mortal Hands": {
@@ -121213,6 +121358,7 @@
 					"~|One of a Kind|~ Complete the quest": "Quest",
 					"~|Ritual of the Mahjarrat|~ Complete the quest": "Quest"
 				},
+				"RuneScore": 5,
 				"Not F2P": true
 			},
 			"~|Completionist achievements#Master Quest Cape|~ Kaiki's Tusks": {
@@ -121223,6 +121369,7 @@
 				"Skills": {
 					"Slayer": 92
 				},
+				"RuneScore": 20,
 				"Not F2P": true
 			},
 			"~|Completionist achievements#Master Quest Cape|~ Kal'gerion Notes ": {
@@ -121235,6 +121382,7 @@
 				"Skills": {
 					"Dungeoneering": 113
 				},
+				"RuneScore": 35,
 				"NoBoost": true,
 				"Not F2P": true
 			},
@@ -121250,6 +121398,7 @@
 					"~|Carnillean Rising|~ Complete the quest": "Quest"
 				},
 				"QuestPointsNeeded": 400,
+				"RuneScore": 15,
 				"Not F2P": true
 			},
 			"~|Completionist achievements#Master Quest Cape|~ Koschei's Cache": {
@@ -121264,6 +121413,7 @@
 				"Tasks": {
 					"~|Koschei's Troubles (miniquest)|~ Complete the miniquest": "Quest"
 				},
+				"RuneScore": 15,
 				"Not F2P": true
 			},
 			"~|Completionist achievements#Master Quest Cape|~ Kudos to You": {
@@ -121271,6 +121421,7 @@
 				"Description": "Reach full Kudos with the Varrock Museum.",
 				"BaseQuest": "Completionist achievements",
 				"KudosNeeded": 198,
+				"RuneScore": 25,
 				"Not F2P": true
 			},
 			"~|Completionist achievements#Master Quest Cape|~ Lamp of Luxury": {
@@ -121330,6 +121481,7 @@
 				"Tasks": {
 					"~|Bringing Home the Bacon|~ Complete the quest": "Quest"
 				},
+				"RuneScore": 10,
 				"Not F2P": true
 			},
 			"~|Completionist achievements#Master Quest Cape|~ Learning from Mr Mordaut": {
@@ -121340,6 +121492,7 @@
 				"Tasks": {
 					"~|One of a Kind|~ Complete the quest": "Quest"
 				},
+				"RuneScore": 10,
 				"Not F2P": true
 			},
 			"~|Completionist achievements#Master Quest Cape|~ Legal Entitlement": {
@@ -121350,6 +121503,7 @@
 				"Tasks": {
 					"~|Vessel of the Harbinger|~ Complete the quest": "Quest"
 				},
+				"RuneScore": 5,
 				"Not F2P": true
 			},
 			"~|Completionist achievements#Master Quest Cape|~ Let Us Give Ugthanks": {
@@ -121360,6 +121514,7 @@
 				"Skills": {
 					"Slayer": 96
 				},
+				"RuneScore": 25,
 				"Not F2P": true
 			},
 			"~|Completionist achievements#Master Quest Cape|~ Let's Hope it Doesn't Un-Shrink": {
@@ -121370,6 +121525,7 @@
 				"Tasks": {
 					"~|Once Upon a Slime|~ Complete the quest": "Quest"
 				},
+				"RuneScore": 5,
 				"Not F2P": true
 			},
 			"~|Completionist achievements#Master Quest Cape|~ Library of Nex": {
@@ -121386,6 +121542,7 @@
 				"Tasks": {
 					"~|The Dig Site|~ Complete the quest": "Quest"
 				},
+				"RuneScore": 25,
 				"Not F2P": true
 			},
 			"~|Completionist achievements#Master Quest Cape|~ Load of Bakulla": {
@@ -121396,6 +121553,7 @@
 				"Tasks": {
 					"~|The Fremennik Trials|~ Complete the quest": "Quest"
 				},
+				"RuneScore": 5,
 				"Not F2P": true
 			},
 			"~|Completionist achievements#Master Quest Cape|~ Looting the Demon Throne": {
@@ -121406,6 +121564,7 @@
 				"Tasks": {
 					"~|The Golem|~ 7": "Quest"
 				},
+				"RuneScore": 10,
 				"Not F2P": true
 			},
 			"~|Completionist achievements#Master Quest Cape|~ Lovingly Crafted": {
@@ -121420,6 +121579,7 @@
 					"~|Cabin Fever|~ Complete the quest": "Quest",
 					"~|Fur 'n Seek#Wish List|~ Complete the lore activity": "Quest"
 				},
+				"RuneScore": 10,
 				"Not F2P": true
 			},
 			"~|Completionist achievements#Master Quest Cape|~ Lurgon's Run": {
@@ -121430,15 +121590,7 @@
 				"Tasks": {
 					"~|Death to the Dorgeshuun|~ Complete the quest": "Quest"
 				},
-				"Not F2P": true
-			},
-			"~|Completionist achievements#Master Quest Cape|~ The Lute of Love": {
-				"Category": ["MQC achievements"],
-				"Description": "Craft a lute for Dalia the lumberjack.",
-				"BaseQuest": "Completionist achievements",
-				"Tasks": {
-					"~|The Lute of Love|~ Complete the lore activity": "Quest"
-				},
+				"RuneScore": 10,
 				"Not F2P": true
 			},
 			"~|Completionist achievements#Master Quest Cape|~ Madness and Malediction": {
@@ -121447,6 +121599,7 @@
 				"BaseQuest": "Completionist achievements",
 				"Chunks": ["Zamorakian Undercity"],
 				"Items": ["Archaeology Journal - H.F.A"],
+				"RuneScore": 20,
 				"Not F2P": true
 			},
 			"~|Completionist achievements#Master Quest Cape|~ Mage Arena ": {
@@ -121457,6 +121610,7 @@
 				"Skills": {
 					"Magic": 60
 				},
+				"RuneScore": 10,
 				"Not F2P": true
 			},
 			"~|Completionist achievements#Master Quest Cape|~ Make Them Bleed": {
@@ -121470,6 +121624,7 @@
 				"Tasks": {
 					"~|Plague's End|~ Complete the quest": "Quest"
 				},
+				"RuneScore": 20,
 				"Not F2P": true
 			},
 			"~|Completionist achievements#Master Quest Cape|~ Many Shades of a Cure": {
@@ -121481,6 +121636,7 @@
 				"Tasks": {
 					"~|Shades of Mort'ton|~ Complete the quest": "Quest"
 				},
+				"RuneScore": 10,
 				"Not F2P": true
 			},
 			"~|Completionist achievements#Master Quest Cape|~ Marmaros and Thok Letters": {
@@ -121493,6 +121649,7 @@
 				"Skills": {
 					"Dungeoneering": 107
 				},
+				"RuneScore": 20,
 				"Not F2P": true
 			},
 			"~|Completionist achievements#Master Quest Cape|~ Mask of Dragith Nurn ": {
@@ -121503,6 +121660,7 @@
 				"Tasks": {
 					"~|The Blood Pact|~ Complete the quest": "Quest"
 				},
+				"RuneScore": 10,
 				"Not F2P": true
 			},
 			"~|Completionist achievements#Master Quest Cape|~ Master Bogreman": {
@@ -121513,6 +121671,7 @@
 				"Tasks": {
 					"~|Big Chompy Bird Hunting|~ Complete the quest": "Quest"
 				},
+				"RuneScore": 10,
 				"Not F2P": true
 			},
 			"~|Completionist achievements#Master Quest Cape|~ Maya Use Your Fish Farm?": {
@@ -121522,6 +121681,7 @@
 				"Tasks": {
 					"~|Maya Use Your Fish Farm?|~ Complete the lore activity": "Quest"
 				},
+				"RuneScore": 5,
 				"Not F2P": true
 			},
 			"~|Completionist achievements#Master Quest Cape|~ Measure of Old": {
@@ -121532,6 +121692,7 @@
 				"Tasks": {
 					"~|Fate of the Gods|~ Complete the quest": "Quest"
 				},
+				"RuneScore": 10,
 				"Not F2P": true
 			},
 			"~|Completionist achievements#Master Quest Cape|~ Meeting your Idols": {
@@ -121539,6 +121700,7 @@
 				"Description": "Investigate an overgrown Karamjan idol to discover an ancient tale.",
 				"BaseQuest": "Completionist achievements",
 				"Items": ["The End of Gara-Dul"],
+				"RuneScore": 5,
 				"Not F2P": true
 			},
 			"~|Completionist achievements#Master Quest Cape|~ Memoirs of the Devourer": {
@@ -121549,6 +121711,7 @@
 				"Tasks": {
 					"~|Eclipse of the Heart|~ Complete the quest": "Quest"
 				},
+				"RuneScore": 20,
 				"Not F2P": true
 			},
 			"~|Completionist achievements#Master Quest Cape|~ Memories of Guthix ": {
@@ -121560,6 +121723,7 @@
 				"Tasks": {
 					"~|Lost City|~ Complete the quest": "Quest"
 				},
+				"RuneScore": 20,
 				"Not F2P": true
 			},
 			"~|Completionist achievements#Master Quest Cape|~ Message from the Abyss": {
@@ -121567,6 +121731,7 @@
 				"Description": "Find and read 'Scions of Erebus', dropped by an Abyssal lord.",
 				"BaseQuest": "Completionist achievements",
 				"Items": ["Scions of Erebus"],
+				"RuneScore": 25,
 				"Not F2P": true
 			},
 			"~|Completionist achievements#Master Quest Cape|~ Met Het Yet?": {
@@ -121580,6 +121745,7 @@
 				"Tasks": {
 					"~|Our Man in the North|~ Complete the quest": "Quest"
 				},
+				"RuneScore": 5,
 				"Not F2P": true
 			},
 			"~|Completionist achievements#Master Quest Cape|~ Milk of Chocolate, Snape of Grass": {
@@ -121589,6 +121755,7 @@
 				"Tasks": {
 					"~|Mogre (lore activity)|~ Complete the lore activity": "Quest"
 				},
+				"RuneScore": 5,
 				"Not F2P": true
 			},
 			"~|Completionist achievements#Master Quest Cape|~ Milky Teeth": {
@@ -121606,6 +121773,7 @@
 					"~|Lunar Diplomacy|~ Complete the quest": "Quest",
 					"~|Monkey Madness|~ Complete the quest": "Quest"
 				},
+				"RuneScore": 10,
 				"Not F2P": true
 			},
 			"~|Completionist achievements#Master Quest Cape|~ Miniature Monolith Maestro": {
@@ -121619,6 +121787,7 @@
 				"Tasks": {
 					"~|Desperate Measures|~ Complete the quest": "Quest"
 				},
+				"RuneScore": 5,
 				"Not F2P": true
 			},
 			"~|Completionist achievements#Master Quest Cape|~ Miscellaneous Notes": {
@@ -121631,6 +121800,7 @@
 				"Skills": {
 					"Dungeoneering": 95
 				},
+				"RuneScore": 15,
 				"Not F2P": true
 			},
 			"~|Completionist achievements#Master Quest Cape|~ Mixing in Ancient Circles": {
@@ -121642,6 +121812,7 @@
 				"Tasks": {
 					"~|A Fairy Tale II - Cure a Queen|~ Complete the quest": "Quest"
 				},
+				"RuneScore": 10,
 				"Not F2P": true
 			},
 			"~|Completionist achievements#Master Quest Cape|~ My Adze is Bigger Than Yours": {
@@ -121649,6 +121820,7 @@
 				"Description": "Speak to King Roald with the inferno adze equipped.",
 				"BaseQuest": "Completionist achievements",
 				"Items": ["Inferno adze"],
+				"RuneScore": 25,
 				"Not F2P": true
 			},
 			"~|Completionist achievements#Master Quest Cape|~ My Precious!": {
@@ -121659,6 +121831,7 @@
 				"Skills": {
 					"Fishing": 68
 				},
+				"RuneScore": 10,
 				"Not F2P": true
 			},
 			"~|Completionist achievements#Master Quest Cape|~ Myreque in Memoriam": {
@@ -121669,6 +121842,7 @@
 					"~|In Memory of the Myreque (miniquest)|~ Complete the miniquest": "Quest",
 					"~|River of Blood|~ Complete the quest": "Quest"
 				},
+				"RuneScore": 15,
 				"Not F2P": true
 			},
 			"~|Completionist achievements#Master Quest Cape|~ Mysteries - Daemonheim": {
@@ -121798,6 +121972,7 @@
 				"Tasks": {
 					"~|One of a Kind|~ Complete the quest": "Quest"
 				},
+				"RuneScore": 15,
 				"Not F2P": true
 			},
 			"~|Completionist achievements#Master Quest Cape|~ Nano to Kipple, Come in Kipple": {
@@ -121808,6 +121983,7 @@
 				"Tasks": {
 					"~|Heart of Stone|~ Complete the quest": "Quest"
 				},
+				"RuneScore": 5,
 				"Not F2P": true
 			},
 			"~|Completionist achievements#Master Quest Cape|~ Naturally Muspah": {
@@ -121818,6 +121994,7 @@
 				"Tasks": {
 					"~|The Tale of the Muspah|~ Complete the quest": "Quest"
 				},
+				"RuneScore": 10,
 				"Not F2P": true
 			},
 			"~|Completionist achievements#Master Quest Cape|~ New Varrock Set Tasks - Easy": {
@@ -121827,6 +122004,7 @@
 				"Tasks": {
 					"~|New Varrock Achievements#Easy|~ Complete the Easy Achievements": "Diary"
 				},
+				"RuneScore": 5,
 				"Not F2P": true
 			},
 			"~|Completionist achievements#Master Quest Cape|~ New Varrock Set Tasks - Medium": {
@@ -121836,6 +122014,7 @@
 				"Tasks": {
 					"~|New Varrock Achievements#Medium|~ Complete the Medium Achievements": "Diary"
 				},
+				"RuneScore": 10,
 				"Not F2P": true
 			},
 			"~|Completionist achievements#Master Quest Cape|~ New Varrock Set Tasks - Hard": {
@@ -121845,6 +122024,7 @@
 				"Tasks": {
 					"~|New Varrock Achievements#Hard|~ Complete the Hard Achievements": "Diary"
 				},
+				"RuneScore": 15,
 				"Not F2P": true
 			},
 			"~|Completionist achievements#Master Quest Cape|~ New Varrock Set Tasks - Elite": {
@@ -121854,6 +122034,7 @@
 				"Tasks": {
 					"~|New Varrock Achievements#Elite|~ Complete the Elite Achievements": "Diary"
 				},
+				"RuneScore": 25,
 				"Not F2P": true
 			},
 			"~|Completionist achievements#Master Quest Cape|~ No Secrets Left to Steal": {
@@ -121866,6 +122047,7 @@
 					"Construction": 40,
 					"Archaeology": 92
 				},
+				"RuneScore": 10,
 				"Not F2P": true
 			},
 			"~|Completionist achievements#Master Quest Cape|~ Now That's What I Call a Dead Parrot": {
@@ -121879,6 +122061,7 @@
 				"Tasks": {
 					"~|Rocking Out|~ Complete the quest": "Quest"
 				},
+				"RuneScore": 5,
 				"Not F2P": true
 			},
 			"~|Completionist achievements#Master Quest Cape|~ Ocellus Virius Notus": {
@@ -121889,6 +122072,7 @@
 				"Skills": {
 					"Slayer": 51
 				},
+				"RuneScore": 20,
 				"Not F2P": true,
 				"NoBoost": true
 			},
@@ -121897,6 +122081,7 @@
 				"Description": "Collect the following lore books from bosses inside the Shadow Reef.",
 				"BaseQuest": "Completionist achievements",
 				"Items": ["The Last Offering", "Kranon's Ancient Journal"],
+				"RuneScore": 20,
 				"Not F2P": true
 			},
 			"~|Completionist achievements#Master Quest Cape|~ On a Mission from...the Gods": {
@@ -121908,6 +122093,7 @@
 					"~|God Emissaries Skilling|~ Complete the taskset": "Quest",
 					"~|God Emissaries Exploration|~ Complete the taskset": "Quest"
 				},
+				"RuneScore": 10,
 				"Not F2P": true
 			},
 			"~|Completionist achievements#Master Quest Cape|~ One Final Ride": {
@@ -121915,6 +122101,7 @@
 				"Description": "Find and read the Last Riders book, dropped by the King Black Dragon.",
 				"BaseQuest": "Completionist achievements",
 				"Items": ["Last riders"],
+				"RuneScore": 20,
 				"Not F2P": true
 			},
 			"~|Completionist achievements#Master Quest Cape|~ One Man's Junk...Is Mine": {
@@ -121924,6 +122111,7 @@
 				"Tasks": {
 					"~|While Guthix Sleeps|~ 9": "Quest"
 				},
+				"RuneScore": 20,
 				"Not F2P": true
 			},
 			"~|Completionist achievements#Master Quest Cape|~ Ornate Crockery": {
@@ -121938,6 +122126,7 @@
 				"Tasks": {
 					"~|Tears of Guthix|~ Complete the quest": "Quest"
 				},
+				"RuneScore": 10,
 				"Not F2P": true
 			},
 			"~|Completionist achievements#Master Quest Cape|~ Otto the Ancient": {
@@ -121945,6 +122134,7 @@
 				"Description": "Find all barbarian notes in the Ancient Cavern.",
 				"BaseQuest": "Completionist achievements",
 				"Items": ["Ancient page"],
+				"RuneScore": 30,
 				"Not F2P": true
 			},
 			"~|Completionist achievements#Master Quest Cape|~ Out into the Ourania": {
@@ -121955,6 +122145,7 @@
 				"Tasks": {
 					"~|Lunar Diplomacy|~ Complete the quest": "Quest"
 				},
+				"RuneScore": 15,
 				"Not F2P": true
 			},
 			"~|Completionist achievements#Master Quest Cape|~ Out of the Past": {
@@ -121965,6 +122156,7 @@
 				"Tasks": {
 					"~|Extinction|~ Complete the quest": "Quest"
 				},
+				"RuneScore": 10,
 				"Not F2P": true
 			},
 			"~|Completionist achievements#Master Quest Cape|~ Oyster Mash": {
@@ -121975,6 +122167,7 @@
 				"Tasks": {
 					"~|Beneath Cursed Tides|~ Complete the quest": "Quest"
 				},
+				"RuneScore": 5,
 				"Not F2P": true
 			},
 			"~|Completionist achievements#Master Quest Cape|~ Paint It Red": {
@@ -121985,6 +122178,7 @@
 				"Tasks": {
 					"~|River of Blood|~ Complete the quest": "Quest"
 				},
+				"RuneScore": 20,
 				"Not F2P": true
 			},
 			"~|Completionist achievements#Master Quest Cape|~ Pane in the Glass": {
@@ -121997,6 +122191,7 @@
 					"Archaeology": 60,
 					"Crafting": 80
 				},
+				"RuneScore": 25,
 				"Not F2P": true
 			},
 			"~|Completionist achievements#Master Quest Cape|~ Penny For Your Life": {
@@ -122007,6 +122202,7 @@
 				"Tasks": {
 					"~|Dimension of Disaster|~ Complete the quest": "Quest"
 				},
+				"RuneScore": 45,
 				"Not F2P": true
 			},
 			"~|Completionist achievements#Master Quest Cape|~ Potion For a Lady": {
@@ -122022,6 +122218,7 @@
 					"~|Plague's End|~ Complete the quest": "Quest",
 					"Unlock ~|warped floors|~": "Dungeoneering"
 				},
+				"RuneScore": 15,
 				"Not F2P": true
 			},
 			"~|Completionist achievements#Master Quest Cape|~ Potting Is Such Sweet Sorrow": {
@@ -122036,6 +122233,7 @@
 				"Tasks": {
 					"~|Extinction|~ Complete the quest": "Quest"
 				},
+				"RuneScore": 5,
 				"Not F2P": true
 			},
 			"~|Completionist achievements#Master Quest Cape|~ Power of Three Spirits": {
@@ -122050,6 +122248,7 @@
 					"~|Plague's End|~ Complete the quest": "Quest",
 					"~|The Prisoner of Glouphrie|~ Complete the quest": "Quest"
 				},
+				"RuneScore": 10,
 				"Not F2P": true
 			},
 			"~|Completionist achievements#Master Quest Cape|~ Pulling on the Threads": {
@@ -122060,6 +122259,7 @@
 				"Tasks": {
 					"~|The Needle Skips|~ Complete the quest": "Quest"
 				},
+				"RuneScore": 10,
 				"Not F2P": true
 			},
 			"~|Completionist achievements#Master Quest Cape|~ Pure Newbstalgia": {
@@ -122069,6 +122269,7 @@
 				"Tasks": {
 					"~|Beneath Cursed Tides|~ Complete the quest": "Quest"
 				},
+				"RuneScore": 5,
 				"Not F2P": true
 			},
 			"~|Completionist achievements#Master Quest Cape|~ Quest Cape": {
@@ -122096,6 +122297,7 @@
 				"Skills": {
 					"Summoning": 60
 				},
+				"RuneScore": 30,
 				"Not F2P": true
 			},
 			"~|Completionist achievements#Master Quest Cape|~ Red Sky All the Time, Shepherds Confused": {
@@ -122106,6 +122308,7 @@
 				"Tasks": {
 					"~|River of Blood|~ Complete the quest": "Quest"
 				},
+				"RuneScore": 5,
 				"Not F2P": true
 			},
 			"~|Completionist achievements#Master Quest Cape|~ Redistribution of knowledge": {
@@ -122119,6 +122322,7 @@
 				"Tasks": {
 					"~|Heartstealer|~ Complete the quest": "Quest"
 				},
+				"RuneScore": 5,
 				"Not F2P": true
 			},
 			"~|Completionist achievements#Master Quest Cape|~ Relight My Fire": {
@@ -122132,6 +122336,7 @@
 				"Tasks": {
 					"~|While Guthix Sleeps|~ 8": "Quest"
 				},
+				"RuneScore": 20,
 				"Not F2P": true
 			},
 			"~|Completionist achievements#Master Quest Cape|~ Reliquary of Cithara": {
@@ -122139,6 +122344,7 @@
 				"Description": "Claim XP from the Holy Cithara.",
 				"BaseQuest": "Completionist achievements",
 				"Items": ["Holy Cithara"],
+				"RuneScore": 10,
 				"Not F2P": true
 			},
 			"~|Completionist achievements#Master Quest Cape|~ Research - Daemonheim": {
@@ -122290,6 +122496,7 @@
 					"~|Completionist achievements#Master Quest Cape|~ Mysteries - Warforge": "Diary",
 					"~|Completionist achievements#Master Quest Cape|~ Mysteries - Orthen": "Diary"
 				},
+				"RuneScore": 40,
 				"Not F2P": true
 			},
 			"~|Completionist achievements#Master Quest Cape|~ Respect the Balance": {
@@ -122304,6 +122511,7 @@
 				"Tasks": {
 					"~|The World Wakes|~ Complete the quest": "Quest"
 				},
+				"RuneScore": 15,
 				"Not F2P": true
 			},
 			"~|Completionist achievements#Master Quest Cape|~ Resting Lich Place": {
@@ -122314,6 +122522,7 @@
 				"Tasks": {
 					"Complete the ~|Nom-Nom-Nom-Nom|~ research": "Archaeology"
 				},
+				"RuneScore": 15,
 				"Not F2P": true
 			},
 			"~|Completionist achievements#Master Quest Cape|~ Roake Kal": {
@@ -122330,6 +122539,7 @@
 				"Tasks": {
 					"~|Pieces of Hate|~ Complete the quest": "Quest"
 				},
+				"RuneScore": 10,
 				"Not F2P": true
 			},
 			"~|Completionist achievements#Master Quest Cape|~ Rogue Down": {
@@ -122341,6 +122551,7 @@
 				"Tasks": {
 					"~|Summer's End|~ Complete the quest": "Quest"
 				},
+				"RuneScore": 15,
 				"Not F2P": true
 			},
 			"~|Completionist achievements#Master Quest Cape|~ Rusty Reward": {
@@ -122351,6 +122562,7 @@
 				"Tasks": {
 					"~|Rocking Out|~ Complete the quest": "Quest"
 				},
+				"RuneScore": 15,
 				"Not F2P": true
 			},
 			"~|Completionist achievements#Master Quest Cape|~ Saradominist Expert": {
@@ -122401,6 +122613,7 @@
 				"Tasks": {
 					"~|Dealing with Scabaras|~ Complete the quest": "Quest"
 				},
+				"RuneScore": 10,
 				"Not F2P": true
 			},
 			"~|Completionist achievements#Master Quest Cape|~ Scorpvino": {
@@ -122411,6 +122624,7 @@
 				"Tasks": {
 					"~|Observatory Quest|~ Complete the quest": "Quest"
 				},
+				"RuneScore": 5,
 				"Not F2P": true
 			},
 			"~|Completionist achievements#Master Quest Cape|~ Scribbling in the Depths": {
@@ -122424,6 +122638,7 @@
 				"Tasks": {
 					"~|Song from the Depths|~ Complete the quest": "Quest"
 				},
+				"RuneScore": 10,
 				"NoBoost": true
 			},
 			"~|Completionist achievements#Master Quest Cape|~ Scribblings of a Dragonkin": {
@@ -122437,6 +122652,7 @@
 				"Tasks": {
 					"~|Plague's End|~ Complete the quest": "Quest"
 				},
+				"RuneScore": 25,
 				"Not F2P": true
 			},
 			"~|Completionist achievements#Master Quest Cape|~ Selene's Lessons": {
@@ -122447,6 +122663,7 @@
 				"Tasks": {
 					"~|Visions of Havenhythe|~ Complete the quest": "Quest"
 				},
+				"RuneScore": 20,
 				"Not F2P": true
 			},
 			"~|Completionist achievements#Master Quest Cape|~ Sentient Letters": {
@@ -122455,6 +122672,7 @@
 				"BaseQuest": "Completionist achievements",
 				"Chunks": ["Empty Throne Room"],
 				"Items": ["Senntisten scroll"],
+				"RuneScore": 10,
 				"Not F2P": true
 			},
 			"~|Completionist achievements#Master Quest Cape|~ Seren Memories": {
@@ -122465,6 +122683,7 @@
 				"Tasks": {
 					"~|Fate of the Gods|~ Complete the quest": "Quest"
 				},
+				"RuneScore": 20,
 				"Not F2P": true
 			},
 			"~|Completionist achievements#Master Quest Cape|~ Shadow Hanging Over Me": {
@@ -122474,7 +122693,8 @@
 				"Chunks": ["12082-1"],
 				"Tasks": {
 					"~|A Shadow over Ashdale|~ Complete the quest": "Quest"
-				}
+				},
+				"RuneScore": 5
 			},
 			"~|Completionist achievements#Master Quest Cape|~ Shell-Shocked": {
 				"Category": ["MQC achievements"],
@@ -122484,6 +122704,7 @@
 				"Tasks": {
 					"~|Tortle Combat (miniquest)|~ Complete the miniquest": "Quest"
 				},
+				"RuneScore": 5,
 				"Not F2P": true
 			},
 			"~|Completionist achievements#Master Quest Cape|~ Sing for the Lady": {
@@ -122498,6 +122719,7 @@
 				"Tasks": {
 					"~|Plague's End|~ Complete the quest": "Quest"
 				},
+				"RuneScore": 10,
 				"Not F2P": true
 			},
 			"~|Completionist achievements#Master Quest Cape|~ Skeletal Wishes": {
@@ -122509,6 +122731,7 @@
 					"~|Rag and Bone Man#Wish List|~ Complete the lore activity": "Quest",
 					"~|Fur 'n Seek#Wish List|~ Complete the lore activity": "Quest"
 				},
+				"RuneScore": 15,
 				"Not F2P": true
 			},
 			"~|Completionist achievements#Master Quest Cape|~ Sliske's New Game Plus": {
@@ -122519,15 +122742,8 @@
 				"Tasks": {
 					"~|Sliske's Endgame|~ Complete the quest": "Quest"
 				},
+				"RuneScore": 25,
 				"Not F2P": true
-			},
-			"~|Completionist achievements#Master Quest Cape|~ A Sliver of Silver Helps the Sanguine Go Down": {
-				"Category": ["MQC achievements"],
-				"Description": "Learn how to smith more durable havensilver.",
-				"BaseQuest": "Completionist achievements",
-				"Tasks": {
-					"~|A Sliver of Silver Helps the Sanguine Go Down|~ Complete the lore activity": "Quest"
-				}
 			},
 			"~|Completionist achievements#Master Quest Cape|~ Soft Dragon, Warm Dragon": {
 				"Category": ["MQC achievements"],
@@ -122537,6 +122753,7 @@
 				"Tasks": {
 					"~|Requiem for a Dragon|~ Complete the quest": "Quest"
 				},
+				"RuneScore": 5,
 				"Not F2P": true
 			},
 			"~|Completionist achievements#Master Quest Cape|~ Some Old Dusty Journals": {
@@ -122547,6 +122764,7 @@
 				"Tasks": {
 					"~|The Light Within|~ Complete the quest": "Quest"
 				},
+				"RuneScore": 20,
 				"Not F2P": true
 			},
 			"~|Completionist achievements#Master Quest Cape|~ Squael for Coins": {
@@ -122557,6 +122775,7 @@
 				"Tasks": {
 					"~|The Mighty Fall|~ Complete the quest": "Quest"
 				},
+				"RuneScore": 15,
 				"Not F2P": true
 			},
 			"~|Completionist achievements#Master Quest Cape|~ Stalker Notes": {
@@ -122569,19 +122788,22 @@
 				"Skills": {
 					"Dungeoneering": 107
 				},
+				"RuneScore": 30,
 				"Not F2P": true
 			},
 			"~|Completionist achievements#Master Quest Cape|~ Stay Safe": {
 				"Category": ["MQC achievements"],
 				"Description": "Fully complete the Stronghold of Player Safety.",
 				"BaseQuest": "Completionist achievements",
-				"Chunks": ["Stronghold of Player Safety"]
+				"Chunks": ["Stronghold of Player Safety"],
+				"RuneScore": 5
 			},
 			"~|Completionist achievements#Master Quest Cape|~ Stay Secure": {
 				"Category": ["MQC achievements"],
 				"Description": "Fully complete the Stronghold of Security.",
 				"BaseQuest": "Completionist achievements",
-				"Chunks": ["Stronghold of Security"]
+				"Chunks": ["Stronghold of Security"],
+				"RuneScore": 5
 			},
 			"~|Completionist achievements#Master Quest Cape|~ Stealing Sedridor's Stones": {
 				"Category": ["MQC achievements"],
@@ -122594,6 +122816,7 @@
 				"Tasks": {
 					"~|Rune Memories|~ Complete the quest": "Quest"
 				},
+				"RuneScore": 20,
 				"Not F2P": true,
 				"NoBoost": true
 			},
@@ -122602,6 +122825,7 @@
 				"Description": "Observe all the large dragonkin statues around Anachronia.",
 				"BaseQuest": "Completionist achievements",
 				"Chunks": ["15426-4", "15684", "16709-2", "16963-1", "16704-1"],
+				"RuneScore": 5,
 				"Not F2P": true
 			},
 			"~|Completionist achievements#Master Quest Cape|~ Summary Spirits": {
@@ -122620,6 +122844,7 @@
 				"Tasks": {
 					"~|Summer's End|~ Complete the quest": "Quest"
 				},
+				"RuneScore": 20,
 				"Not F2P": true
 			},
 			"~|Completionist achievements#Master Quest Cape|~ Supply and Demand": {
@@ -122632,7 +122857,8 @@
 				},
 				"Tasks": {
 					"~|Death Plateau|~ Complete the quest": "Quest"
-				}
+				},
+				"RuneScore": 10
 			},
 			"~|Completionist achievements#Master Quest Cape|~ Tactless Analysis": {
 				"Category": ["MQC achievements"],
@@ -122643,6 +122869,7 @@
 				"Skills": {
 					"Magic": 33
 				},
+				"RuneScore": 20,
 				"Not F2P": true
 			},
 			"~|Completionist achievements#Master Quest Cape|~ Take it to Sir Tiffy in a Jiffy": {
@@ -122650,6 +122877,7 @@
 				"Description": "Deliver the knight's notes from the God Wars Dungeon to Sir Tiffy Cashien.",
 				"BaseQuest": "Completionist achievements",
 				"Chunks": ["11578-1", "11828"],
+				"RuneScore": 5,
 				"Not F2P": true
 			},
 			"~|Completionist achievements#Master Quest Cape|~ Tasty Bobbles": {
@@ -122659,6 +122887,7 @@
 				"Tasks": {
 					"~|Gower Quest|~ Complete the quest": "Quest"
 				},
+				"RuneScore": 15,
 				"Not F2P": true
 			},
 			"~|Completionist achievements#Master Quest Cape|~ That'll Teach Bill": {
@@ -122669,6 +122898,7 @@
 				"Tasks": {
 					"~|Cabin Fever|~ Complete the quest": "Quest"
 				},
+				"RuneScore": 10,
 				"Not F2P": true
 			},
 			"~|Completionist achievements#Master Quest Cape|~ That's a Lot of Books": {
@@ -122693,6 +122923,7 @@
 				"Tasks": {
 					"~|Impressing the Locals|~ Complete the quest": "Quest"
 				},
+				"RuneScore": 20,
 				"Not F2P": true
 			},
 			"~|Completionist achievements#Master Quest Cape|~ The Elder Ring": {
@@ -122707,6 +122938,7 @@
 				"Tasks": {
 					"~|City of Senntisten|~ Complete the quest": "Quest"
 				},
+				"RuneScore": 5,
 				"Not F2P": true
 			},
 			"~|Completionist achievements#Master Quest Cape|~ The Firemaker's Pet": {
@@ -122720,6 +122952,7 @@
 				"Tasks": {
 					"~|The Firemaker's Curse|~ Complete the quest": "Quest"
 				},
+				"RuneScore": 5,
 				"Not F2P": true
 			},
 			"~|Completionist achievements#Master Quest Cape|~ The History of Slayer": {
@@ -122734,6 +122967,7 @@
 				"Tasks": {
 					"~|The Jack of Spades|~ Complete the quest": "Quest"
 				},
+				"RuneScore": 25,
 				"Not F2P": true,
 				"NoBoost": true
 			},
@@ -122742,6 +122976,17 @@
 				"Description": "Obtain the Journal of Fell Arnessen from the Arch Glacor.",
 				"BaseQuest": "Completionist achievements",
 				"Items": ["The Journal of Fell Arnessen"],
+				"RuneScore": 20,
+				"Not F2P": true
+			},
+			"~|Completionist achievements#Master Quest Cape|~ The Lute of Love": {
+				"Category": ["MQC achievements"],
+				"Description": "Craft a lute for Dalia the lumberjack.",
+				"BaseQuest": "Completionist achievements",
+				"Tasks": {
+					"~|The Lute of Love|~ Complete the lore activity": "Quest"
+				},
+				"RuneScore": 10,
 				"Not F2P": true
 			},
 			"~|Completionist achievements#Master Quest Cape|~ The Many Hands That Write": {
@@ -122749,6 +122994,7 @@
 				"Description": "Collect the following lore books from bosses inside the Temple of Aminishi.",
 				"BaseQuest": "Completionist achievements",
 				"Items": ["Crassian Allegiance", "Himiko's Vision"],
+				"RuneScore": 20,
 				"Not F2P": true
 			},
 			"~|Completionist achievements#Master Quest Cape|~ The Worst Witch's Grimoire": {
@@ -122760,6 +123006,7 @@
 				"Skills": {
 					"Magic": 33
 				},
+				"RuneScore": 20,
 				"Not F2P": true
 			},
 			"~|Completionist achievements#Master Quest Cape|~ Three's a Kiln": {
@@ -122771,6 +123018,7 @@
 				"Tasks": {
 					"~|The Elder Kiln|~ Complete the quest": "Quest"
 				},
+				"RuneScore": 15,
 				"Not F2P": true
 			},
 			"~|Completionist achievements#Master Quest Cape|~ Through the Eye of the Needle": {
@@ -122778,6 +123026,7 @@
 				"Description": "Witness Jas task Kerapac with retrieving her kin.",
 				"BaseQuest": "Completionist achievements",
 				"Chunks": ["Senntisten"],
+				"RuneScore": 5,
 				"Not F2P": true
 			},
 			"~|Completionist achievements#Master Quest Cape|~ To Dream, Perchance to Keep": {
@@ -122788,6 +123037,7 @@
 				"Tasks": {
 					"~|Extinction|~ Complete the quest": "Quest"
 				},
+				"RuneScore": 25,
 				"Not F2P": true
 			},
 			"~|Completionist achievements#Master Quest Cape|~ To Thaw a Frozen Heart": {
@@ -122828,6 +123078,7 @@
 				"Tasks": {
 					"~|Violet is Blue|~ Complete the quest": "Quest"
 				},
+				"RuneScore": 10,
 				"Not F2P": true,
 				"NoBoost": true
 			},
@@ -122839,6 +123090,7 @@
 				"Tasks": {
 					"~|Soul Searching|~ Complete the quest": "Quest"
 				},
+				"RuneScore": 20,
 				"Not F2P": true
 			},
 			"~|Completionist achievements#Master Quest Cape|~ Trader Woes": {
@@ -122847,7 +123099,8 @@
 				"BaseQuest": "Completionist achievements",
 				"Tasks": {
 					"~|Trader Woes|~ Complete the lore activity": "Quest"
-				}
+				},
+				"RuneScore": 10
 			},
 			"~|Completionist achievements#Master Quest Cape|~ Trials of the Heart": {
 				"Category": ["MQC achievements"],
@@ -122855,6 +123108,7 @@
 				"BaseQuest": "Completionist achievements",
 				"Chunks": ["12849"],
 				"QuestPointsNeeded": 300,
+				"RuneScore": 20,
 				"Not F2P": true
 			},
 			"~|Completionist achievements#Master Quest Cape|~ Trickster's Trinkets": {
@@ -122865,6 +123119,7 @@
 				"Tasks": {
 					"~|You Are It|~ Complete the quest": "Quest"
 				},
+				"RuneScore": 5,
 				"Not F2P": true
 			},
 			"~|Completionist achievements#Master Quest Cape|~ Triple Trouble": {
@@ -122875,6 +123130,7 @@
 				"Tasks": {
 					"~|Tai Bwo Wannai Trio|~ Complete the quest": "Quest"
 				},
+				"RuneScore": 10,
 				"Not F2P": true
 			},
 			"~|Completionist achievements#Master Quest Cape|~ Troublesome Crystals": {
@@ -122892,6 +123148,7 @@
 					"~|Fate of the Gods|~ Complete the quest": "Quest",
 					"~|A Fairy Tale II - Cure a Queen|~ 2": "Quest"
 				},
+				"RuneScore": 10,
 				"Not F2P": true
 			},
 			"~|Completionist achievements#Master Quest Cape|~ Two Rites Don't Make a Wrong": {
@@ -122903,6 +123160,7 @@
 				"Tasks": {
 					"~|Icthlarin's Little Helper|~ Complete the quest": "Quest"
 				},
+				"RuneScore": 5,
 				"Not F2P": true
 			},
 			"~|Completionist achievements#Master Quest Cape|~ Ultimate Codex": {
@@ -122919,6 +123177,7 @@
 				"Tasks": {
 					"~|The Dig Site|~ Complete the quest": "Quest"
 				},
+				"RuneScore": 10,
 				"Not F2P": true
 			},
 			"~|Completionist achievements#Master Quest Cape|~ Umbral Diplomacy ": {
@@ -122930,6 +123189,7 @@
 				"Skills": {
 					"Magic": 33
 				},
+				"RuneScore": 20,
 				"Not F2P": true
 			},
 			"~|Completionist achievements#Master Quest Cape|~ Uncorrupted Ore": {
@@ -122945,6 +123205,7 @@
 				"Tasks": {
 					"~|Plague's End|~ Complete the quest": "Quest"
 				},
+				"RuneScore": 10,
 				"Not F2P": true
 			},
 			"~|Completionist achievements#Master Quest Cape|~ Under Croc and Key": {
@@ -122958,6 +123219,7 @@
 				"Tasks": {
 					"~|Crocodile Tears|~ Complete the quest": "Quest"
 				},
+				"RuneScore": 5,
 				"Not F2P": true
 			},
 			"~|Completionist achievements#Master Quest Cape|~ Unholy Crafting": {
@@ -122968,6 +123230,7 @@
 				"Tasks": {
 					"~|Observatory Quest|~ Complete the quest": "Quest"
 				},
+				"RuneScore": 5,
 				"Not F2P": true
 			},
 			"~|Completionist achievements#Master Quest Cape|~ Uzer Master": {
@@ -122978,6 +123241,7 @@
 				"Tasks": {
 					"~|Missing My Mummy|~ Complete the quest": "Quest"
 				},
+				"RuneScore": 10,
 				"Not F2P": true
 			},
 			"~|Completionist achievements#Master Quest Cape|~ What's Mine is Also Doric's": {
@@ -122988,6 +123252,7 @@
 					"~|Boric's Task III (miniquest)|~ Complete the miniquest": "Quest",
 					"~|Doric's Task VIII (miniquest)|~ Complete the miniquest": "Quest"
 				},
+				"RuneScore": 10,
 				"Not F2P": true
 			},
 			"~|Completionist achievements#Master Quest Cape|~ White Knight Rises": {
@@ -122998,6 +123263,7 @@
 				"Tasks": {
 					"~|Wanted!|~ Complete the quest": "Quest"
 				},
+				"RuneScore": 20,
 				"Not F2P": true
 			},
 			"~|Completionist achievements#Master Quest Cape|~ Work For Idol Hands": {
@@ -123007,7 +123273,8 @@
 				"Chunks": ["Lumbridge Catacombs"],
 				"Tasks": {
 					"~|The Blood Pact|~ Complete the quest": "Quest"
-				}
+				},
+				"RuneScore": 10
 			},
 			"~|Completionist achievements#Master Quest Cape|~ You Mistag This Brooch": {
 				"Category": ["MQC achievements"],
@@ -123017,6 +123284,7 @@
 				"Tasks": {
 					"~|The Lost Tribe|~ Complete the quest": "Quest"
 				},
+				"RuneScore": 10,
 				"Not F2P": true
 			},
 			"~|Completionist achievements#Master Quest Cape|~ You're Not My Real Mah": {
@@ -123027,6 +123295,7 @@
 				"Tasks": {
 					"~|Fate of the Gods|~ Complete the quest": "Quest"
 				},
+				"RuneScore": 25,
 				"Not F2P": true
 			},
 			"~|Completionist achievements#Master Quest Cape|~ Zamorakian Expert": {
@@ -123136,6 +123405,7 @@
 				"Tasks": {
 					"~|Fate of the Gods|~ Complete the quest": "Quest"
 				},
+				"RuneScore": 20,
 				"Not F2P": true
 			},
 			"~|Completionist achievements#Master Quest Cape|~ Complete the Master Quest Cape achievements": {
@@ -123476,6 +123746,7 @@
 				"Tasks": {
 					"~|Unwelcome Guests|~ Complete the quest": "Quest"
 				},
+				"RuneScore": 20,
 				"Not F2P": true,
 				"NoBoost": true
 			},
@@ -123488,6 +123759,7 @@
 				"Tasks": {
 					"~|Requiem for a Dragon|~ Complete the quest": "Quest"
 				},
+				"RuneScore": 20,
 				"Not F2P": true
 			},
 			"~|Completionist achievements#Completionist Cape|~ Absolute Planker": {
@@ -123500,6 +123772,7 @@
 				"NPCs": ["Estate agent"],
 				"Items": ["White candle", "Bolt of cloth", "Steel bar", "Plank[+]", "Nails[+]", "ConstructionMetalBar[+]"],
 				"Chunks": ["12338-1", "12850-1", "12853-1", "12342-1"],
+				"RuneScore": 10,
 				"Not F2P": true
 			},
 			"~|Completionist achievements#Completionist Cape|~ Abyssal Shortcut": {
@@ -123511,6 +123784,7 @@
 				"Skills": {
 					"Slayer": 115
 				},
+				"RuneScore": 10,
 				"Not F2P": true
 			},
 			"~|Completionist achievements#Completionist Cape|~ Almost as Perky as a Prawn": {
@@ -123522,6 +123796,7 @@
 				"Skills": {
 					"Construction": 63
 				},
+				"RuneScore": 20,
 				"Not F2P": true
 			},
 			"~|Completionist achievements#Completionist Cape|~ An Essential Accessory": {
@@ -123533,6 +123808,7 @@
 					"Runecrafting": 105,
 					"Divination": 95
 				},
+				"RuneScore": 20,
 				"Not F2P": true
 			},
 			"~|Completionist achievements#Completionist Cape|~ Ancient Eastern Tortle Portals": {
@@ -123543,6 +123819,7 @@
 				"Skills": {
 					"Divination": 80
 				},
+				"RuneScore": 10,
 				"Not F2P": true
 			},
 			"~|Completionist achievements#Completionist Cape|~ Annihilator": {
@@ -123553,6 +123830,7 @@
 				"Tasks": {
 					"~|Fate of the Gods|~ Complete the quest": "Quest"
 				},
+				"RuneScore": 20,
 				"Not F2P": true
 			},
 			"~|Completionist achievements#Completionist Cape|~ Bag of Herbs": {
@@ -123560,6 +123838,7 @@
 				"Description": "Purchase the herb bag and the herb bag upgrade from the Herby Werby reward shop.",
 				"BaseQuest": "Completionist achievements",
 				"Items": ["Herb bag"],
+				"RuneScore": 10,
 				"Not F2P": true
 			},
 			"~|Completionist achievements#Completionist Cape|~ Balanced Combat Triangle": {
@@ -123567,6 +123846,7 @@
 				"Description": "Solve a lockbox puzzle.",
 				"BaseQuest": "Completionist achievements",
 				"Items": ["Lockbox puzzle"],
+				"RuneScore": 5,
 				"Not F2P": true
 			},
 			"~|Completionist achievements#Completionist Cape|~ Bandos's Memories": {
@@ -123577,6 +123857,7 @@
 				"Tasks": {
 					"~|The Mighty Fall|~ Complete the quest": "Quest"
 				},
+				"RuneScore": 15,
 				"Not F2P": true
 			},
 			"~|Completionist achievements#Completionist Cape|~ Bane Tuner": {
@@ -123587,6 +123868,7 @@
 				"Tasks": {
 					"~|Ritual of the Mahjarrat|~ 6": "Quest"
 				},
+				"RuneScore": 25,
 				"Not F2P": true
 			},
 			"~|Completionist achievements#Completionist Cape|~ Bean There, Done That": {
@@ -123601,6 +123883,7 @@
 				"Tasks": {
 					"~|Player-owned farm tutorial|~ Complete the tutorial": "Quest"
 				},
+				"RuneScore": 20,
 				"Not F2P": true
 			},
 			"~|Completionist achievements#Completionist Cape|~ Bean There, Done That, Got the Postcard": {
@@ -123621,6 +123904,7 @@
 				"Description": "Score 1,111 in a session of the Big Chinchompa minigame.",
 				"BaseQuest": "Completionist achievements",
 				"Chunks": ["Chinchompa cave"],
+				"RuneScore": 5,
 				"Not F2P": true
 			},
 			"~|Completionist achievements#Completionist Cape|~ Bill & Ben's Egg/Salon Joint Venture": {
@@ -123646,6 +123930,7 @@
 				"Skills": {
 					"Slayer": 92
 				},
+				"RuneScore": 10,
 				"Not F2P": true
 			},
 			"~|Completionist achievements#Completionist Cape|~ Bridge over Fremmy Waters": {
@@ -123669,6 +123954,7 @@
 					"~|Nadir (unabridged saga)|~ Complete the unabridged saga": "Quest",
 					"~|Thok Your Block Off (unabridged saga)|~ Complete the unabridged saga": "Quest"
 				},
+				"RuneScore": 15,
 				"Not F2P": true
 			},
 			"~|Completionist achievements#Completionist Cape|~ Claus is Rising": {
@@ -123679,6 +123965,7 @@
 				"Tasks": {
 					"~|Carnillean Rising|~ Complete the quest": "Quest"
 				},
+				"RuneScore": 10,
 				"Not F2P": true
 			},
 			"~|Completionist achievements#Completionist Cape|~ Crafting to Your Own Rune": {
@@ -123688,7 +123975,8 @@
 				"Items": ["Eternal magic staff (saturated)", "Eternal magic wand (saturated)", "Eternal magic orb (saturated)"],
 				"Skills": {
 					"Runecrafting": 104
-				}
+				},
+				"RuneScore": 20
 			},
 			"~|Completionist achievements#Completionist Cape|~ Da Vinci Who?": {
 				"Category": ["Comp achievements"],
@@ -123700,6 +123988,7 @@
 					"Invention": 85,
 					"Crafting": 70
 				},
+				"RuneScore": 20,
 				"Not F2P": true
 			},
 			"~|Completionist achievements#Completionist Cape|~ Data Recovery": {
@@ -123710,6 +123999,7 @@
 				"Skills": {
 					"Divination": 95
 				},
+				"RuneScore": 20,
 				"Not F2P": true
 			},
 			"~|Completionist achievements#Completionist Cape|~ Deadlier Catch": {
@@ -123720,6 +124010,7 @@
 				"Tasks": {
 					"~|Deadliest Catch|~ Complete the quest": "Quest"
 				},
+				"RuneScore": 10,
 				"Not F2P": true
 			},
 			"~|Completionist achievements#Completionist Cape|~ Diaries of the Clans": {
@@ -123727,6 +124018,7 @@
 				"Description": "Find the clan journal pages from the Hefin Agility Course in Prifddinas.",
 				"BaseQuest": "Completionist achievements",
 				"Items": ["Voice of the Elders lore page"],
+				"RuneScore": 10,
 				"Not F2P": true
 			},
 			"~|Completionist achievements#Completionist Cape|~ Dinosaur Hunter": {
@@ -123739,6 +124031,7 @@
 					"Hunter": 96,
 					"Slayer": 76
 				},
+				"RuneScore": 10,
 				"Not F2P": true
 			},
 			"~|Completionist achievements#Completionist Cape|~ Draconic Decoctions": {
@@ -123746,6 +124039,7 @@
 				"Description": "Discover all of the listed potion recipes.",
 				"BaseQuest": "Completionist achievements",
 				"Items": ["Archaeology potion recipe", "Holy aggroverload recipe", "Powerburst of opportunity recipe", "Spirit attraction recipe", "Summoning renewal recipe"],
+				"RuneScore": 20,
 				"Not F2P": true
 			},
 			"~|Completionist achievements#Completionist Cape|~ Elven Titles": {
@@ -123767,6 +124061,7 @@
 					"~|Plague's End|~ Complete the quest": "Quest",
 					"~|As a First Resort|~ Complete the quest": "Quest"
 				},
+				"RuneScore": 25,
 				"Not F2P": true
 			},
 			"~|Completionist achievements#Completionist Cape|~ Everything Is Oresome": {
@@ -123793,6 +124088,7 @@
 				"Skills": {
 					"Mining": 90
 				},
+				"RuneScore": 20,
 				"Not F2P": true
 			},
 			"~|Completionist achievements#Completionist Cape|~ Everything Is Still Oresome": {
@@ -123814,6 +124110,7 @@
 				"Skills": {
 					"Mining": 100
 				},
+				"RuneScore": 20,
 				"Not F2P": true
 			},
 			"~|Completionist achievements#Completionist Cape|~ Everything Is Treemendous": {
@@ -123835,6 +124132,7 @@
 				"Skills": {
 					"Woodcutting": 90
 				},
+				"RuneScore": 20,
 				"Not F2P": true
 			},
 			"~|Completionist achievements#Completionist Cape|~ Everything Is Still Treemendous": {
@@ -123845,6 +124143,7 @@
 				"Skills": {
 					"Woodcutting": 100
 				},
+				"RuneScore": 20,
 				"Not F2P": true
 			},
 			"~|Completionist achievements#Completionist Cape|~ Family Spirit Tree": {
@@ -123860,6 +124159,7 @@
 					"~|Plague's End|~ Complete the quest": "Quest",
 					"~|The Prisoner of Glouphrie|~ Complete the quest": "Quest"
 				},
+				"RuneScore": 10,
 				"Not F2P": true
 			},
 			"~|Completionist achievements#Completionist Cape|~ Famous": {
@@ -123888,6 +124188,7 @@
 				"Tasks": {
 					"~|Plague's End|~ Complete the quest": "Quest"
 				},
+				"RuneScore": 50,
 				"Not F2P": true
 			},
 			"~|Completionist achievements#Completionist Cape|~ Fletch Quest": {
@@ -123900,6 +124201,7 @@
 					"Fletching": 103,
 					"Smithing": 100
 				},
+				"RuneScore": 20,
 				"Not F2P": true
 			},
 			"~|Completionist achievements#Completionist Cape|~ From Ardougne with Love": {
@@ -123907,6 +124209,7 @@
 				"Description": "Fully upgrade the penguin spy device by tracking penguin spies around the world.",
 				"BaseQuest": "Completionist achievements",
 				"Chunks": ["10291"],
+				"RuneScore": 20,
 				"Not F2P": true
 			},
 			"~|Completionist achievements#Completionist Cape|~ Gaps, Traps and Laps": {
@@ -123939,13 +124242,15 @@
 					"~|The Chosen Commander|~ Complete the quest": "Quest",
 					"~|Cold War|~ Complete the quest": "Quest",
 					"~|Monkey Madness|~ 12": "Quest"
-				}
+				},
+				"RuneScore": 20
 			},
 			"~|Completionist achievements#Completionist Cape|~ Gross Misconduct": {
 				"Category": ["Comp achievements"],
 				"Description": "Slay an entire cohort of Zamorak's most powerful minions by killing 144 demons in the Wilderness.",
 				"BaseQuest": "Completionist achievements",
 				"Chunks": ["WildernessDemonChunks[+]"],
+				"RuneScore": 10,
 				"Not F2P": true
 			},
 			"~|Completionist achievements#Completionist Cape|~ Heal, Quickly": {
@@ -123957,6 +124262,7 @@
 					"Dungeoneering": 65,
 					"Prayer": 65
 				},
+				"RuneScore": 15,
 				"Not F2P": true
 			},
 			"~|Completionist achievements#Completionist Cape|~ Here to Slay": {
@@ -123973,6 +124279,7 @@
 					"~|Smoking Kills|~ Complete the quest": "Quest",
 					"~|Necromancy!|~ Complete the quest": "Quest"
 				},
+				"RuneScore": 20,
 				"Not F2P": true
 			},
 			"~|Completionist achievements#Completionist Cape|~ I'm Forever Washing Shadows": {
@@ -123987,6 +124294,7 @@
 				"Tasks": {
 					"~|Plague's End|~ Complete the quest": "Quest"
 				},
+				"RuneScore": 10,
 				"Not F2P": true
 			},
 			"~|Completionist achievements#Completionist Cape|~ I've Got a Little List (of Miniquests)": {
@@ -124038,6 +124346,7 @@
 					"~|Plague's End|~ Complete the quest": "Quest",
 					"~|Rocking Out|~ Complete the quest": "Quest"
 				},
+				"RuneScore": 25,
 				"Not F2P": true
 			},
 			"~|Completionist achievements#Completionist Cape|~ In Rituals We Trust": {
@@ -124062,6 +124371,7 @@
 					"EnsoulMaterial[+]": "Necromancy",
 					"GreaterEnsoulMaterial[+]": "Necromancy"
 				},
+				"RuneScore": 20,
 				"Not F2P": true
 			},
 			"~|Completionist achievements#Completionist Cape|~ Invention Gives Me the Blues": {
@@ -124086,6 +124396,7 @@
 				"Skills": {
 					"Smithing": 90
 				},
+				"RuneScore": 15,
 				"Not F2P": true
 			},
 			"~|Completionist achievements#Completionist Cape|~ It Should Have Been Called Ancestral": {
@@ -124096,6 +124407,7 @@
 				"Skills": {
 					"Crafting": 100
 				},
+				"RuneScore": 20,
 				"Not F2P": true
 			},
 			"~|Completionist achievements#Completionist Cape|~ It Should Have Been Called Chinskin": {
@@ -124106,6 +124418,7 @@
 				"Skills": {
 					"Crafting": 100
 				},
+				"RuneScore": 20,
 				"Not F2P": true
 			},
 			"~|Completionist achievements#Completionist Cape|~ It Still Should Have Been Called Aetherium": {
@@ -124116,6 +124429,7 @@
 				"Skills": {
 					"Smithing": 100
 				},
+				"RuneScore": 20,
 				"Not F2P": true
 			},
 			"~|Completionist achievements#Completionist Cape|~ Kiln Fighter": {
@@ -124126,6 +124440,7 @@
 				"Tasks": {
 					"~|The Elder Kiln|~ Complete the quest": "Quest"
 				},
+				"RuneScore": 20,
 				"Not F2P": true
 			},
 			"~|Completionist achievements#Completionist Cape|~ Kudos to You": {
@@ -124133,6 +124448,7 @@
 				"Description": "Reach full Kudos with the Varrock Museum.",
 				"BaseQuest": "Completionist achievements",
 				"KudosNeeded": 198,
+				"RuneScore": 25,
 				"Not F2P": true
 			},
 			"~|Completionist achievements#Completionist Cape|~ Long Live the Queen": {
@@ -124143,6 +124459,7 @@
 				"Skills": {
 					"Summoning": 60
 				},
+				"RuneScore": 10,
 				"Not F2P": true
 			},
 			"~|Completionist achievements#Completionist Cape|~ Lunar Master": {
@@ -124160,6 +124477,7 @@
 				"Tasks": {
 					"~|Lunar Diplomacy|~ Complete the quest": "Quest"
 				},
+				"RuneScore": 25,
 				"Not F2P": true
 			},
 			"~|Completionist achievements#Completionist Cape|~ Make Them Bleed": {
@@ -124173,6 +124491,7 @@
 				"Tasks": {
 					"~|Plague's End|~ Complete the quest": "Quest"
 				},
+				"RuneScore": 20,
 				"Not F2P": true
 			},
 			"~|Completionist achievements#Completionist Cape|~ Master Skiller": {
@@ -124200,6 +124519,7 @@
 				"Tasks": {
 					"~|Maya Use Your Fish Farm?|~ Complete the lore activity": "Quest"
 				},
+				"RuneScore": 15,
 				"Not F2P": true
 			},
 			"~|Completionist achievements#Completionist Cape|~ Memories of Guthix": {
@@ -124211,6 +124531,7 @@
 				"Tasks": {
 					"~|Lost City|~ Complete the quest": "Quest"
 				},
+				"RuneScore": 20,
 				"Not F2P": true
 			},
 			"~|Completionist achievements#Completionist Cape|~ Minor Wisdom": {
@@ -124225,6 +124546,7 @@
 					"~|Dead and Buried|~ Complete the quest": "Quest",
 					"Build the tier 3 ~|Ranger's Workroom|~": "Construction"
 				},
+				"RuneScore": 5,
 				"Not F2P": true
 			},
 			"~|Completionist achievements#Completionist Cape|~ Music Maestro": {
@@ -124260,6 +124582,7 @@
 					"~|In Memory of the Myreque (miniquest)|~ Complete the miniquest": "Quest",
 					"~|River of Blood|~ Complete the quest": "Quest"
 				},
+				"RuneScore": 15,
 				"Not F2P": true
 			},
 			"~|Completionist achievements#Completionist Cape|~ Mystical Moonstone": {
@@ -124271,6 +124594,7 @@
 				"Skills": {
 					"Necromancy": 50
 				},
+				"RuneScore": 10,
 				"Not F2P": true
 			},
 			"~|Completionist achievements#Completionist Cape|~ No Need to Pikkenchoose": {
@@ -124279,6 +124603,7 @@
 				"BaseQuest": "Completionist achievements",
 				"Chunks": ["16946-1"],
 				"Items": ["Gold charm"],
+				"RuneScore": 20,
 				"Not F2P": true
 			},
 			"~|Completionist achievements#Completionist Cape|~ Out into the Ourania": {
@@ -124289,6 +124614,7 @@
 				"Tasks": {
 					"~|Lunar Diplomacy|~ Complete the quest": "Quest"
 				},
+				"RuneScore": 15,
 				"Not F2P": true
 			},
 			"~|Completionist achievements#Completionist Cape|~ Peachy Bones": {
@@ -124300,6 +124626,7 @@
 				"Skills": {
 					"Magic": 33
 				},
+				"RuneScore": 10,
 				"Not F2P": true
 			},
 			"~|Completionist achievements#Completionist Cape|~ Pious Prayers": {
@@ -124314,6 +124641,7 @@
 				"Tasks": {
 					"~|King's Ransom|~ Complete the quest": "Quest"
 				},
+				"RuneScore": 15,
 				"Not F2P": true
 			},
 			"~|Completionist achievements#Completionist Cape|~ Port Life": {
@@ -124321,6 +124649,7 @@
 				"Description": "Complete the Player Owned Port tutorial.",
 				"BaseQuest": "Completionist achievements",
 				"Chunks": ["Player-Owned Port"],
+				"RuneScore": 5,
 				"Not F2P": true
 			},
 			"~|Completionist achievements#Completionist Cape|~ Potion For a Lady": {
@@ -124336,6 +124665,7 @@
 					"~|Plague's End|~ Complete the quest": "Quest",
 					"Unlock ~|warped floors|~": "Dungeoneering"
 				},
+				"RuneScore": 15,
 				"Not F2P": true
 			},
 			"~|Completionist achievements#Completionist Cape|~ Potion Mixer Master I": {
@@ -124347,6 +124677,7 @@
 					"~|Plague's End|~ Complete the quest": "Quest",
 					"Unlock ~|warped floors|~": "Dungeoneering"
 				},
+				"RuneScore": 60,
 				"Not F2P": true
 			},
 			"~|Completionist achievements#Completionist Cape|~ Potion Mixer Master II": {
@@ -124358,6 +124689,7 @@
 					"~|Plague's End|~ Complete the quest": "Quest",
 					"Unlock ~|warped floors|~": "Dungeoneering"
 				},
+				"RuneScore": 20,
 				"Not F2P": true
 			},
 			"~|Completionist achievements#Completionist Cape|~ Power Planter II": {
@@ -124369,6 +124701,7 @@
 				"Skills": {
 					"Farming": 110
 				},
+				"RuneScore": 10,
 				"Not F2P": true,
 				"NoBoost": true
 			},
@@ -124380,6 +124713,7 @@
 				"Tasks": {
 					"Become an ~|archaeology guildmaster|~": "Archaeology"
 				},
+				"RuneScore": 75,
 				"Not F2P": true
 			},
 			"~|Completionist achievements#Completionist Cape|~ Quest Cape": {
@@ -124408,6 +124742,7 @@
 				"Tasks": {
 					"~|Plague's End|~ Complete the quest": "Quest"
 				},
+				"RuneScore": 50,
 				"Not F2P": true
 			},
 			"~|Completionist achievements#Completionist Cape|~ Seren Memories": {
@@ -124418,6 +124753,7 @@
 				"Tasks": {
 					"~|Fate of the Gods|~ Complete the quest": "Quest"
 				},
+				"RuneScore": 20,
 				"Not F2P": true
 			},
 			"~|Completionist achievements#Completionist Cape|~ Sing for the Lady": {
@@ -124432,6 +124768,7 @@
 				"Tasks": {
 					"~|Plague's End|~ Complete the quest": "Quest"
 				},
+				"RuneScore": 10,
 				"Not F2P": true
 			},
 			"~|Completionist achievements#Completionist Cape|~ Slayer Master ": {
@@ -124454,6 +124791,7 @@
 					"~|The World Wakes|~ Complete the quest": "Quest",
 					"~|Fate of the Gods|~ Complete the quest": "Quest"
 				},
+				"RuneScore": 45,
 				"Not F2P": true,
 				"NoBoost": true
 			},
@@ -124462,6 +124800,7 @@
 				"Description": "Solve a puzzle box.",
 				"BaseQuest": "Completionist achievements",
 				"Items": ["Puzzle box"],
+				"RuneScore": 5,
 				"Not F2P": true
 			},
 			"~|Completionist achievements#Completionist Cape|~ Stacks on Stacks": {
@@ -124470,19 +124809,22 @@
 				"BaseQuest": "Completionist achievements",
 				"Chunks": ["AnyTotemChunk[+]"],
 				"Items": ["AnyTotem[+]"],
+				"RuneScore": 5,
 				"Not F2P": true
 			},
 			"~|Completionist achievements#Completionist Cape|~ Stay Safe": {
 				"Category": ["Comp achievements"],
 				"Description": "Fully complete the Stronghold of Player Safety.",
 				"BaseQuest": "Completionist achievements",
-				"Chunks": ["Stronghold of Player Safety"]
+				"Chunks": ["Stronghold of Player Safety"],
+				"RuneScore": 5
 			},
 			"~|Completionist achievements#Completionist Cape|~ Stay Secure": {
 				"Category": ["Comp achievements"],
 				"Description": "Fully complete the Stronghold of Security.",
 				"BaseQuest": "Completionist achievements",
-				"Chunks": ["Stronghold of Security"]
+				"Chunks": ["Stronghold of Security"],
+				"RuneScore": 5
 			},
 			"~|Completionist achievements#Completionist Cape|~ Student Becomes the Master": {
 				"Category": ["Comp achievements"],
@@ -124495,6 +124837,7 @@
 				"Tasks": {
 					"~|Kili's Knowledge|~ Complete the lore activity": "Quest"
 				},
+				"RuneScore": 30,
 				"Not F2P": true
 			},
 			"~|Completionist achievements#Completionist Cape|~ Talented in Necromancy": {
@@ -124510,6 +124853,7 @@
 					"~|The Temple at Senntisten|~ Complete the quest": "Quest",
 					"~|Rune Mythos|~ Complete the quest": "Quest"
 				},
+				"RuneScore": 50,
 				"Not F2P": true
 			},
 			"~|Completionist achievements#Completionist Cape|~ Task Master": {
@@ -124541,6 +124885,7 @@
 				"Skills": {
 					"Hunter": 16
 				},
+				"RuneScore": 15,
 				"Not F2P": true
 			},
 			"~|Completionist achievements#Completionist Cape|~ The Greatest Gift of All": {
@@ -124553,6 +124898,7 @@
 					"Invention": 82,
 					"Crafting": 80
 				},
+				"RuneScore": 5,
 				"Not F2P": true
 			},
 			"~|Completionist achievements#Completionist Cape|~ Tiers of Treasure": {
@@ -124560,6 +124906,7 @@
 				"Description": "Complete 1 clue of each tier.",
 				"BaseQuest": "Completionist achievements",
 				"Items": ["Sealed clue scroll (easy)", "Sealed clue scroll (medium)", "Sealed clue scroll (hard)", "Sealed clue scroll (elite)", "Sealed clue scroll (master)"],
+				"RuneScore": 10,
 				"Not F2P": true
 			},
 			"~|Completionist achievements#Completionist Cape|~ Top Town Hall": {
@@ -124569,6 +124916,7 @@
 				"Tasks": {
 					"Unlock the Anachronia Base Camp": "Nonskill"
 				},
+				"RuneScore": 15,
 				"Not F2P": true
 			},
 			"~|Completionist achievements#Completionist Cape|~ Towering Over Us All": {
@@ -124576,6 +124924,7 @@
 				"Description": "Solve a Towers puzzle.",
 				"BaseQuest": "Completionist achievements",
 				"Items": ["Towers puzzle"],
+				"RuneScore": 5,
 				"Not F2P": true
 			},
 			"~|Completionist achievements#Completionist Cape|~ Trip to the East": {
@@ -124585,6 +124934,7 @@
 				"Tasks": {
 					"Trip to the East[+]": "Nonskill"
 				},
+				"RuneScore": 15,
 				"Not F2P": true
 			},
 			"~|Completionist achievements#Completionist Cape|~ Troublesome Crystals": {
@@ -124602,6 +124952,7 @@
 					"~|Fate of the Gods|~ Complete the quest": "Quest",
 					"~|A Fairy Tale II - Cure a Queen|~ 2": "Quest"
 				},
+				"RuneScore": 10,
 				"Not F2P": true
 			},
 			"~|Completionist achievements#Completionist Cape|~ Uncorrupted Ore": {
@@ -124617,6 +124968,7 @@
 				"Tasks": {
 					"~|Plague's End|~ Complete the quest": "Quest"
 				},
+				"RuneScore": 10,
 				"Not F2P": true
 			},
 			"~|Completionist achievements#Completionist Cape|~ Undead to Rites": {
@@ -124631,6 +124983,7 @@
 				"Tasks": {
 					"~|Requiem for a Dragon|~ Complete the quest": "Quest"
 				},
+				"RuneScore": 10,
 				"Not F2P": true
 			},
 			"~|Completionist achievements#Completionist Cape|~ Unliving on a Prayer": {
@@ -124644,8 +124997,8 @@
 				"Tasks": {
 					"~|King's Ransom|~ Complete the quest": "Quest",
 					"~|The Temple at Senntisten|~ Complete the quest": "Quest"
-					
 				},
+				"RuneScore": 30,
 				"Not F2P": true
 			},
 			"~|Completionist achievements#Completionist Cape|~ Unlocking Waiko I": {
@@ -124656,6 +125009,7 @@
 				"Tasks": {
 					"~|Impressing the Locals|~ Complete the quest": "Quest"
 				},
+				"RuneScore": 30,
 				"Not F2P": true
 			},
 			"~|Completionist achievements#Completionist Cape|~ Untangled": {
@@ -124663,6 +125017,7 @@
 				"Description": "Solve a celtic knot.",
 				"BaseQuest": "Completionist achievements",
 				"Items": ["Celtic knot"],
+				"RuneScore": 5,
 				"Not F2P": true
 			},
 			"~|Completionist achievements#Completionist Cape|~ Upgrading Waiko I": {
@@ -124673,6 +125028,7 @@
 				"Tasks": {
 					"~|Impressing the Locals|~ Complete the quest": "Quest"
 				},
+				"RuneScore": 30,
 				"Not F2P": true
 			},
 			"~|Completionist achievements#Completionist Cape|~ Walking the Reef": {
@@ -124680,6 +125036,7 @@
 				"Description": "Find all reefwalker's cape scroll pieces in Player Owned Ports.",
 				"BaseQuest": "Completionist achievements",
 				"Chunks": ["Player-Owned Port"],
+				"RuneScore": 15,
 				"Not F2P": true
 			},
 			"~|Completionist achievements#Completionist Cape|~ What's Mine is Also Doric's": {
@@ -124690,6 +125047,7 @@
 					"~|Boric's Task III (miniquest)|~ Complete the miniquest": "Quest",
 					"~|Doric's Task VIII (miniquest)|~ Complete the miniquest": "Quest"
 				},
+				"RuneScore": 10,
 				"Not F2P": true
 			},
 			"~|Completionist achievements#Completionist Cape|~ Whodunnit? I Dunnit!": {
@@ -124700,6 +125058,7 @@
 				"Tasks": {
 					"~|Ancient Awakening|~ Complete the quest": "Quest"
 				},
+				"RuneScore": 5,
 				"Not F2P": true
 			},
 			"~|Completionist achievements#Completionist Cape|~ Yaktwee's a Charm": {
@@ -124710,6 +125069,7 @@
 				"Skills": {
 					"Hunter": 72
 				},
+				"RuneScore": 10,
 				"Not F2P": true
 			},
 			"~|Completionist achievements#Completionist Cape|~ Zarosian Memories": {
@@ -124720,6 +125080,7 @@
 				"Tasks": {
 					"~|Fate of the Gods|~ Complete the quest": "Quest"
 				},
+				"RuneScore": 20,
 				"Not F2P": true
 			},
 			"~|Completionist achievements#Completionist Cape|~ Complete the Completionist Cape achievements": {
@@ -124844,6 +125205,7 @@
 				"Skills": {
 					"Farming": 110
 				},
+				"RuneScore": 25,
 				"Not F2P": true,
 				"NoBoost": true
 			},
@@ -124852,6 +125214,7 @@
 				"Description": "Defeat the Arch-Glacor at 100% enrage.",
 				"BaseQuest": "Completionist achievements",
 				"Monsters": ["Arch-Glacor (Hard Mode)"],
+				"RuneScore": 5,
 				"Not F2P": true
 			},
 			"~|Completionist achievements#Trimmed Completionist Cape|~ Agile from Head to Toe": {
@@ -124865,6 +125228,7 @@
 				"Tasks": {
 					"~|Bar Crawl (miniquest)|~ Complete the miniquest": "Quest"
 				},
+				"RuneScore": 20,
 				"Not F2P": true
 			},
 			"~|Completionist achievements#Trimmed Completionist Cape|~ All Your Energies": {
@@ -124878,6 +125242,7 @@
 				"Tasks": {
 					"~|Impressing the Locals|~ Complete the quest": "Quest"
 				},
+				"RuneScore": 10,
 				"Not F2P": true
 			},
 			"~|Completionist achievements#Trimmed Completionist Cape|~ Bone to Pick With You": {
@@ -124892,6 +125257,7 @@
 				"Tasks": {
 					"~|Impressing the Locals|~ Complete the quest": "Quest"
 				},
+				"RuneScore": 10,
 				"Not F2P": true
 			},
 			"~|Completionist achievements#Trimmed Completionist Cape|~ Build Them All!": {
@@ -124917,6 +125283,7 @@
 					"~|One of a Kind|~ Complete the quest": "Quest",
 					"~|Plague's End|~ Complete the quest": "Quest"
 				},
+				"RuneScore": 15,
 				"Not F2P": true
 			},
 			"~|Completionist achievements#Trimmed Completionist Cape|~ Canoe Fix It? Yes You Can!": {
@@ -124954,6 +125321,7 @@
 					"Slayer": 60
 				},
 				"QuestPointsNeeded": 33,
+				"RuneScore": 75,
 				"Not F2P": true
 			},
 			"~|Completionist achievements#Trimmed Completionist Cape|~ Chompy Massacre": {
@@ -124961,6 +125329,7 @@
 				"Description": "Kill 4,000 chompy birds.",
 				"BaseQuest": "Completionist achievements",
 				"Monsters": ["Chompy bird"],
+				"RuneScore": 50,
 				"Not F2P": true
 			},
 			"~|Completionist achievements#Trimmed Completionist Cape|~ Collectors Assemble": {
@@ -124982,6 +125351,7 @@
 					"Strength": 60,
 					"Agility": 60
 				},
+				"RuneScore": 30,
 				"Not F2P": true
 			},
 			"~|Completionist achievements#Trimmed Completionist Cape|~ Death Effect": {
@@ -124993,6 +125363,7 @@
 				"Skills": {
 					"Combat": 50
 				},
+				"RuneScore": 75,
 				"Not F2P": true
 			},
 			"~|Completionist achievements#Trimmed Completionist Cape|~ Don't Crush My Memories": {
@@ -125006,6 +125377,7 @@
 				"Tasks": {
 					"~|Impressing the Locals|~ Complete the quest": "Quest"
 				},
+				"RuneScore": 10,
 				"Not F2P": true
 			},
 			"~|Completionist achievements#Trimmed Completionist Cape|~ Draught Includer": {
@@ -125040,6 +125412,7 @@
 					"~|Completionist achievements#Master Quest Cape|~ Mysteries - Warforge": "Diary",
 					"~|Completionist achievements#Master Quest Cape|~ Mysteries - Orthen": "Diary"
 				},
+				"RuneScore": 50,
 				"Not F2P": true
 			},
 			"~|Completionist achievements#Trimmed Completionist Cape|~ E-I-E-DI-NO": {
@@ -125088,6 +125461,7 @@
 				"Description": "Explore the Eastern Lands as far as the Shield from your port.",
 				"BaseQuest": "Completionist achievements",
 				"Chunks": ["Player-Owned Port"],
+				"RuneScore": 40,
 				"Not F2P": true
 			},
 			"~|Completionist achievements#Trimmed Completionist Cape|~ Elder Wisdom": {
@@ -125102,6 +125476,7 @@
 					"~|Dead and Buried|~ Complete the quest": "Quest",
 					"Build the tier 3 ~|Ranger's Workroom|~": "Construction"
 				},
+				"RuneScore": 20,
 				"Not F2P": true
 			},
 			"~|Completionist achievements#Trimmed Completionist Cape|~ Ferocious Upgrade": {
@@ -125116,6 +125491,7 @@
 				"Tasks": {
 					"~|Plague's End|~ Complete the quest": "Quest"
 				},
+				"RuneScore": 20,
 				"Not F2P": true
 			},
 			"~|Completionist achievements#Trimmed Completionist Cape|~ Finish Him!": {
@@ -125123,6 +125499,7 @@
 				"Description": "Personally defeat Vorago with the Maul of Omens.",
 				"BaseQuest": "Completionist achievements",
 				"Monsters": ["Borehole"],
+				"RuneScore": 25,
 				"Not F2P": true
 			},
 			"~|Completionist achievements#Trimmed Completionist Cape|~ Finished unpacking!": {
@@ -125137,6 +125514,7 @@
 					"~|Eclipse of the Heart|~ Complete the quest": "Quest",
 					"SlayerPointMasters[+]": "Slayer"
 				},
+				"RuneScore": 15,
 				"Not F2P": true,
 				"NoBoost": true
 			},
@@ -125203,6 +125581,7 @@
 					"Complete the ~|Archaeology tutorial|~": "Archaeology",
 					"Unlock ~|Invention|~": "Invention"
 				},
+				"RuneScore": 20,
 				"Not F2P": true,
 				"NoBoost": true
 			},
@@ -125212,6 +125591,7 @@
 				"BaseQuest": "Completionist achievements",
 				"Items": ["Globetrotter jacket", "Globetrotter shorts", "Globetrotter boots", "Globetrotter arm guards", "Globetrotter backpack"],
 				"Chunks": ["12598"],
+				"RuneScore": 50,
 				"Not F2P": true
 			},
 			"~|Completionist achievements#Trimmed Completionist Cape|~ God of the Grind": {
@@ -125219,10 +125599,11 @@
 				"Description": "Fully repair the statue of Het.",
 				"BaseQuest": "Completionist achievements",
 				"Items": ["Piece of Het"],
+				"RuneScore": 25,
 				"Not F2P": true
 			},
 			"~|Completionist achievements#Trimmed Completionist Cape|~ Granny's Favourite Farmer": {
-				"Category": ["Comp achievements", "Trim achievements", "Timegated"],
+				"Category": ["Comp achievements", "Trim achievements", "Normal Farming"],
 				"Description": "Gain max reputation with the Farming Guild.",
 				"BaseQuest": "Completionist achievements",
 				"Chunks": ["10548"],
@@ -125230,6 +125611,7 @@
 					"Farming": 17,
 					"Construction": 20
 				},
+				"RuneScore": 50,
 				"Not F2P": true
 			},
 			"~|Completionist achievements#Trimmed Completionist Cape|~ Hard as Daemons": {
@@ -125243,6 +125625,7 @@
 					"All Daemonheim tasks": "Nonskill",
 					"Unlock ~|warped floors|~": "Dungeoneering"
 				},
+				"RuneScore": 25,
 				"Not F2P": true
 			},
 			"~|Completionist achievements#Trimmed Completionist Cape|~ Honourary Imcando": {
@@ -125269,6 +125652,7 @@
 				"Tasks": {
 					"~|Completionist achievements#Completionist Cape|~ Student Becomes the Master": "Diary"
 				},
+				"RuneScore": 50,
 				"Not F2P": true
 			},
 			"~|Completionist achievements#Trimmed Completionist Cape|~ Jack of the Circus": {
@@ -125279,6 +125663,7 @@
 				"Tasks": {
 					"~|The Firemaker's Curse|~ Complete the quest": "Quest"
 				},
+				"RuneScore": 25,
 				"Not F2P": true
 			},
 			"~|Completionist achievements#Trimmed Completionist Cape|~ Jail break": {
@@ -125287,6 +125672,7 @@
 				"BaseQuest": "Completionist achievements",
 				"Chunks": ["Lair of the Rex Matriarchs"],
 				"Items": ["Jail cell key"],
+				"RuneScore": 30,
 				"Not F2P": true
 			},
 			"~|Completionist achievements#Trimmed Completionist Cape|~ Jurassic Perk": {
@@ -125294,6 +125680,7 @@
 				"Description": "Discover all the totem pieces on Anachronia.",
 				"BaseQuest": "Completionist achievements",
 				"Items": ["AnyTotem[+]x7"],
+				"RuneScore": 30,
 				"Not F2P": true
 			},
 			"~|Completionist achievements#Trimmed Completionist Cape|~ Kal'Gerion Commander": {
@@ -125307,6 +125694,7 @@
 				"Skills": {
 					"Dungeoneering": 113
 				},
+				"RuneScore": 35,
 				"Not F2P": true
 			},
 			"~|Completionist achievements#Trimmed Completionist Cape|~ Like Farming Fish in a Pool - Giant Crayfish": {
@@ -125325,6 +125713,7 @@
 					"Farming": 25,
 					"Fishing": 79
 				},
+				"RuneScore": 20,
 				"Not F2P": true
 			},
 			"~|Completionist achievements#Trimmed Completionist Cape|~ Like Farming Fish in a Pool - Shark": {
@@ -125343,6 +125732,7 @@
 					"Farming": 25,
 					"Fishing": 84
 				},
+				"RuneScore": 15,
 				"Not F2P": true
 			},
 			"~|Completionist achievements#Trimmed Completionist Cape|~ Like Farming Fish in a Pool - Swordfish": {
@@ -125361,6 +125751,7 @@
 					"Farming": 25,
 					"Fishing": 55
 				},
+				"RuneScore": 10,
 				"Not F2P": true
 			},
 			"~|Completionist achievements#Trimmed Completionist Cape|~ Maria, You Gotta See Her": {
@@ -125371,13 +125762,14 @@
 				"Tasks": {
 					"~|Broken Home|~ Complete the quest": "Quest"
 				},
-				"Not F2P": true
+				"RuneScore": 25
 			},
 			"~|Completionist achievements#Trimmed Completionist Cape|~ Master Angler": {
 				"Category": ["Comp achievements", "Trim achievements"],
 				"Description": "Purchase the champion's tackle box from the Fish Flingers fisherman.",
 				"BaseQuest": "Completionist achievements",
 				"Items": ["Champion's tackle box"],
+				"RuneScore": 30,
 				"Not F2P": true
 			},
 			"~|Completionist achievements#Trimmed Completionist Cape|~ Master Builder": {
@@ -125394,6 +125786,7 @@
 					"Hunter": 90,
 					"Slayer": 90
 				},
+				"RuneScore": 30,
 				"Not F2P": true
 			},
 			"~|Completionist achievements#Trimmed Completionist Cape|~ Master Otto": {
@@ -125403,6 +125796,7 @@
 				"Tasks": {
 					"~|Barbarian Training|~ Complete the lore activity": "Quest"
 				},
+				"RuneScore": 25,
 				"Not F2P": true
 			},
 			"~|Completionist achievements#Trimmed Completionist Cape|~ Mastery - Daemonheim": {
@@ -125503,6 +125897,7 @@
 				"Description": "Unlock the Mazcab Teleport spell.",
 				"BaseQuest": "Completionist achievements",
 				"Items": ["Mazcab teleport codex"],
+				"RuneScore": 15,
 				"Not F2P": true
 			},
 			"~|Completionist achievements#Trimmed Completionist Cape|~ Memorialised More Than Once": {
@@ -125515,6 +125910,7 @@
 					"~|Lost City|~ Complete the quest": "Quest",
 					"~|The World Wakes|~ Complete the quest": "Quest"
 				},
+				"RuneScore": 50,
 				"Not F2P": true
 			},
 			"~|Completionist achievements#Trimmed Completionist Cape|~ Mitts and Waders - Death Lotus": {
@@ -125525,6 +125921,7 @@
 				"Tasks": {
 					"~|Impressing the Locals|~ Complete the quest": "Quest"
 				},
+				"RuneScore": 15,
 				"Not F2P": true
 			},
 			"~|Completionist achievements#Trimmed Completionist Cape|~ Mitts and Waders - Seasinger": {
@@ -125535,6 +125932,7 @@
 				"Tasks": {
 					"~|Impressing the Locals|~ Complete the quest": "Quest"
 				},
+				"RuneScore": 15,
 				"Not F2P": true
 			},
 			"~|Completionist achievements#Trimmed Completionist Cape|~ Mitts and Waders - Tetsu": {
@@ -125545,6 +125943,7 @@
 				"Tasks": {
 					"~|Impressing the Locals|~ Complete the quest": "Quest"
 				},
+				"RuneScore": 15,
 				"Not F2P": true
 			},
 			"~|Completionist achievements#Trimmed Completionist Cape|~ My Goebie Homies": {
@@ -125552,6 +125951,7 @@
 				"Description": "Obtain maximum reputation with the goebies on Mazcab.",
 				"BaseQuest": "Completionist achievements",
 				"Chunks": ["Mazcab"],
+				"RuneScore": 20,
 				"Not F2P": true
 			},
 			"~|Completionist achievements#Trimmed Completionist Cape|~ Nomad's Mirage": {
@@ -125562,6 +125962,7 @@
 				"Tasks": {
 					"~|Nomad's Elegy|~ Complete the quest": "Quest"
 				},
+				"RuneScore": 20,
 				"Not F2P": true
 			},
 			"~|Completionist achievements#Trimmed Completionist Cape|~ On a Rune High": {
@@ -125571,6 +125972,7 @@
 				"Tasks": {
 					"~|Rogue Trader|~ 2a2": "Quest"
 				},
+				"RuneScore": 10,
 				"Not F2P": true
 			},
 			"~|Completionist achievements#Trimmed Completionist Cape|~ Out of this World": {
@@ -125579,6 +125981,7 @@
 				"BaseQuest": "Completionist achievements",
 				"Chunks": ["12337-1"],
 				"Items": ["Stardust"],
+				"RuneScore": 15,
 				"Not F2P": true
 			},
 			"~|Completionist achievements#Trimmed Completionist Cape|~ Penguin Adoption Agency": {
@@ -125586,6 +125989,7 @@
 				"Description": "Adopt Sheldon the penguin by tracking penguin spies around the world.",
 				"BaseQuest": "Completionist achievements",
 				"Chunks": ["10291"],
+				"RuneScore": 30,
 				"Not F2P": true
 			},
 			"~|Completionist achievements#Trimmed Completionist Cape|~ Perky as a Prawn": {
@@ -125597,6 +126001,7 @@
 				"Skills": {
 					"Construction": 63
 				},
+				"RuneScore": 25,
 				"Not F2P": true
 			},
 			"~|Completionist achievements#Trimmed Completionist Cape|~ Rank: Master Finix": {
@@ -125604,6 +126009,7 @@
 				"Description": "Obtain rank 1 esteem from Wizard Finix.",
 				"BaseQuest": "Completionist achievements",
 				"Chunks": ["The Runespan"],
+				"RuneScore": 30,
 				"Not F2P": true
 			},
 			"~|Completionist achievements#Trimmed Completionist Cape|~ Raptor's Revenge": {
@@ -125614,6 +126020,7 @@
 				"Tasks": {
 					"~|Ancient Awakening|~ Complete the quest": "Quest"
 				},
+				"RuneScore": 5,
 				"Not F2P": true
 			},
 			"~|Completionist achievements#Trimmed Completionist Cape|~ Reaper Crew": {
@@ -125714,6 +126121,7 @@
 					"Farming": 42,
 					"Mining": 40
 				},
+				"RuneScore": 5,
 				"Not F2P": true
 			},
 			"~|Completionist achievements#Trimmed Completionist Cape|~ Reputation - Class Crown": {
@@ -125722,7 +126130,8 @@
 				"BaseQuest": "Completionist achievements",
 				"Tasks": {
 					"~|The Jack of Spades|~ Complete the quest": "Quest"
-				}
+				},
+				"RuneScore": 40
 			},
 			"~|Completionist achievements#Trimmed Completionist Cape|~ Reputation - Lock, Stock and Barrel": {
 				"Category": ["Comp achievements", "Trim achievements"],
@@ -125730,7 +126139,8 @@
 				"BaseQuest": "Completionist achievements",
 				"Tasks": {
 					"~|The Jack of Spades|~ Complete the quest": "Quest"
-				}
+				},
+				"RuneScore": 40
 			},
 			"~|Completionist achievements#Trimmed Completionist Cape|~ Reputation - Seagullible": {
 				"Category": ["Comp achievements", "Trim achievements"],
@@ -125738,7 +126148,8 @@
 				"BaseQuest": "Completionist achievements",
 				"Tasks": {
 					"~|The Jack of Spades|~ Complete the quest": "Quest"
-				}
+				},
+				"RuneScore": 40
 			},
 			"~|Completionist achievements#Trimmed Completionist Cape|~ Reputation - To the Bone": {
 				"Category": ["Comp achievements", "Trim achievements"],
@@ -125746,7 +126157,8 @@
 				"BaseQuest": "Completionist achievements",
 				"Tasks": {
 					"~|The Jack of Spades|~ Complete the quest": "Quest"
-				}
+				},
+				"RuneScore": 40
 			},
 			"~|Completionist achievements#Trimmed Completionist Cape|~ Salty ": {
 				"Category": ["Comp achievements", "Trim achievements"],
@@ -125784,6 +126196,7 @@
 					"~|Impressing the Locals|~ Complete the quest": "Quest",
 					"~|Final Destination (miniquest)|~ Complete the miniquest": "Quest"
 				},
+				"RuneScore": 30,
 				"Not F2P": true
 			},
 			"~|Completionist achievements#Trimmed Completionist Cape|~ Sandy ": {
@@ -125852,6 +126265,7 @@
 					"Scroll of Daemonheim",
 					"Scroll of dexterity"
 				],
+				"RuneScore": 20,
 				"Not F2P": true
 			},
 			"~|Completionist achievements#Trimmed Completionist Cape|~ Shadows Below": {
@@ -125859,6 +126273,7 @@
 				"Description": "Survive the shadow beneath the barrows.",
 				"BaseQuest": "Completionist achievements",
 				"Monsters": ["Barrows: Rise of the Six"],
+				"RuneScore": 50,
 				"Not F2P": true
 			},
 			"~|Completionist achievements#Trimmed Completionist Cape|~ Sort of Crystally": {
@@ -125875,6 +126290,7 @@
 					"~|Completionist achievements#Trimmed Completionist Cape|~ Who Will Be Her Lover?": "Diary",
 					"~|Completionist achievements#Completionist Cape|~ Quest Cape": "Diary"
 				},
+				"RuneScore": 25,
 				"Not F2P": true
 			},
 			"~|Completionist achievements#Trimmed Completionist Cape|~ Special Slayer Delivery": {
@@ -125885,6 +126301,7 @@
 					"~|Smoking Kills|~ Complete the quest": "Quest",
 					"SlayerPointMasters[+]": "Slayer"
 				},
+				"RuneScore": 30,
 				"Not F2P": true
 			},
 			"~|Completionist achievements#Trimmed Completionist Cape|~ Stone's Throw Away": {
@@ -125893,6 +126310,7 @@
 				"BaseQuest": "Completionist achievements",
 				"Chunks": ["Player-owned house", "12853-1"],
 				"Items": ["Strange rock (Shattered Heart)"],
+				"RuneScore": 50,
 				"Not F2P": true
 			},
 			"~|Completionist achievements#Trimmed Completionist Cape|~ Telos If You're Angry II": {
@@ -125900,6 +126318,7 @@
 				"Description": "Defeat Telos at 100% enrage.",
 				"BaseQuest": "Completionist achievements",
 				"Monsters": ["Telos, the Warden"],
+				"RuneScore": 5,
 				"Not F2P": true
 			},
 			"~|Completionist achievements#Trimmed Completionist Cape|~ The Golden Crocodile Hunter": {
@@ -125910,6 +126329,7 @@
 				"Skills": {
 					"Hunter": 16
 				},
+				"RuneScore": 25,
 				"Not F2P": true
 			},
 			"~|Completionist achievements#Trimmed Completionist Cape|~ The Prodigal Spender": {
@@ -125920,6 +126340,7 @@
 				"Tasks": {
 					"Become an ~|archaeology guildmaster|~": "Archaeology"
 				},
+				"RuneScore": 30,
 				"Not F2P": true
 			},
 			"~|Completionist achievements#Trimmed Completionist Cape|~ To Be a Master": {
@@ -125947,6 +126368,7 @@
 					"~|Icthlarin's Little Helper|~ Complete the quest": "Quest",
 					"~|Housing of Parliament|~ Complete the quest": "Quest"
 				},
+				"RuneScore": 20,
 				"NoBoost": true,
 				"Not F2P": true
 			},
@@ -125968,6 +126390,7 @@
 				"Tasks": {
 					"~|Plague's End|~ Complete the quest": "Quest"
 				},
+				"RuneScore": 75,
 				"Not F2P": true
 			},
 			"~|Completionist achievements#Trimmed Completionist Cape|~ Work on Your Artisan II": {

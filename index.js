@@ -600,7 +600,7 @@ let ruleNames = {
 	"Combat Mastery achievements": "Must complete Combat Mastery achievements when possible.<span class='rule-asterisk noscroll'>*</span>",
 	"Speed Killer Achievements": "Also include Speed Killer achievements.<span class='rule-asterisk noscroll'>†</span>",
 	"Combat Master+": "Must complete the Master and Grandmaster tier.<span class='rule-asterisk noscroll'>†</span>",
-	"Misc Combat achievements": "Include Combat achievements that don't award CombatScore.<span class='rule-asterisk noscroll'>*</span>",
+	"Misc Combat achievements": "Include Combat achievements that don't award CombatScore<span class='rule-asterisk noscroll'>*</span>",
 	"Menaphos Events": "Allow soul obelisks and corrupted scarabs in Menaphos to count as primary training methods<span class='rule-asterisk noscroll'>*</span>",
 	"Material Blueprints": "Count discovering material blueprints as a skilling task",
 	"Comp achievements": "Must complete Completionist achievements<span class='rule-asterisk noscroll'>*</span>",
