@@ -858,7 +858,7 @@ let ruleStructure = {
 	},
 	"Achievements": {
 		"Show Diary Tasks": ["Show Diary Tasks Complete", "Show Diary Tasks Any"],
-		"Combat Mastery achievements": ["Speed Killer Achievements", "Combat Master+"],
+		"Combat Mastery achievements": ["Speed Killer Achievements", "Combat Master+", "Misc Combat achievements"],
 		"Comp achievements": ["Trim achievements"],
 		"MQC achievements": true,
 		"Misc achievements": ["Level Up Achievements", "No RuneScore"]
@@ -13245,7 +13245,7 @@ let loadData = async function(startup) {
         }
 		
 		if (!rulesTemp.hasOwnProperty('Misc Combat achievements')) {
-            rulesTemp['Misc achievements'] = (rulesTemp.hasOwnProperty('Combat Mastery achievements') || rulesTemp.hasOwnProperty('Misc achievements')) ? (rulesTemp['Combat Mastery achievements'] || rulesTemp.hasOwnProperty('Misc achievements')) : false;
+            rulesTemp['Misc achievements'] = (rulesTemp.hasOwnProperty('Combat Mastery achievements') && rulesTemp.hasOwnProperty('Misc achievements')) ? (rulesTemp['Combat Mastery achievements'] && rulesTemp.hasOwnProperty('Misc achievements')) : false;
         }
 		
 		if (!rulesTemp.hasOwnProperty('Multiple Agility')) {

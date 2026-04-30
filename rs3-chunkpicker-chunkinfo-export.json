@@ -135580,6 +135580,1607 @@
 				"Reward": [],
 				"ManualShow": true,
 				"Not F2P": true
+			},
+			"~|Combat achievements#Bosses (A-K)|~ You Cat To Be Kitten Me Right Meow VI": {
+				"Category": ["Misc Combat achievements", "Combat Mastery achievements"],
+				"Description": "Defeat Amascut, the Devourer 100 times.",
+				"BaseQuest": "Combat achievements",
+				"Monsters": ["Amascut, the Devourer"],
+				"RuneScore": 45,
+				"Not F2P": true
+			},
+			"~|Combat achievements#Bosses (A-K)|~ I'm Feline It VI": {
+				"Category": ["Misc Combat achievements", "Combat Mastery achievements"],
+				"Description": "Defeat Amascut, the Devourer 100 times in enrage mode.",
+				"BaseQuest": "Combat achievements",
+				"Monsters": ["Amascut, the Devourer (Hard Mode)"],
+				"RuneScore": 25,
+				"Not F2P": true
+			},
+			"~|Combat achievements#Bosses (A-K)|~ Can't Stop Me Meow III": {
+				"Category": ["Misc Combat achievements", "Combat Mastery achievements"],
+				"Description": "Defeat Amascut, the Devourer at 1000% enrage.",
+				"BaseQuest": "Combat achievements",
+				"Monsters": ["Amascut, the Devourer (Hard Mode)"],
+				"RuneScore": 10,
+				"Not F2P": true
+			},
+			"~|Combat achievements#Bosses (A-K)|~ Professional Mouser": {
+				"Category": ["Misc Combat achievements", "Combat Mastery achievements"],
+				"Description": "Use a ball of wool, mouse toy or toy mouse on Amascut once she's been defeated.",
+				"BaseQuest": "Combat achievements",
+				"Monsters": ["Amascut, the Devourer"],
+				"Items": ["Ball of wool"],
+				"RuneScore": 5,
+				"Not F2P": true
+			},
+			"~|Combat achievements#Bosses (A-K)|~ A Purr-fect Toss": {
+				"Category": ["Misc Combat achievements", "Combat Mastery achievements"],
+				"Description": "Throw an Explosive Scarab Akh at Amascut, the Devourer",
+				"BaseQuest": "Combat achievements",
+				"Monsters": ["Amascut, the Devourer"],
+				"RuneScore": 5,
+				"Not F2P": true
+			},
+			"~|Combat achievements#Bosses (A-K)|~ Friend of the Feline": {
+				"Category": ["Misc Combat achievements", "Combat Mastery achievements"],
+				"Description": "Speak to Amascut, the Devourer while you have a cat follower once she's been defeated.",
+				"BaseQuest": "Combat achievements",
+				"Monsters": ["Amascut, the Devourer"],
+				"RuneScore": 10,
+				"Not F2P": true
+			},
+			"~|Combat achievements#Bosses (A-K)|~ Along Came a Spider VI": {
+				"Category": ["Misc Combat achievements", "Combat Mastery achievements"],
+				"Description": "Defeat Araxxi 100 times.",
+				"BaseQuest": "Combat achievements",
+				"Monsters": ["Araxxor"],
+				"RuneScore": 25,
+				"Not F2P": true
+			},
+			"~|Combat achievements#Bosses (A-K)|~ A Slippery Slope VI": {
+				"Category": ["Misc Combat achievements", "Combat Mastery achievements"],
+				"Description": "Defeat the Arch-Glacor 100 times.",
+				"BaseQuest": "Combat achievements",
+				"Monsters": ["Arch-Glacor"],
+				"RuneScore": 25,
+				"Not F2P": true
+			},
+			"~|Combat achievements#Bosses (A-K)|~ Snowfall VI": {
+				"Category": ["Misc Combat achievements", "Combat Mastery achievements"],
+				"Description": "Defeat the Arch-Glacor 100 times in hard mode.",
+				"BaseQuest": "Combat achievements",
+				"Monsters": ["Arch-Glacor (Hard Mode)"],
+				"RuneScore": 25,
+				"Not F2P": true
+			},
+			"~|Combat achievements#Bosses (A-K)|~ A Song of Ice and Ire VI": {
+				"Category": ["Misc Combat achievements", "Combat Mastery achievements"],
+				"Description": "Defeat the Arch-Glacor at 1,000% enrage.",
+				"BaseQuest": "Combat achievements",
+				"Monsters": ["Arch-Glacor (Hard Mode)"],
+				"RuneScore": 25,
+				"Not F2P": true
+			},
+			"~|Combat achievements#Bosses (A-K)|~ Something Barrowed VI": {
+				"Category": ["Misc Combat achievements", "Combat Mastery achievements"],
+				"Description": "Defeat the six Barrows Brothers and loot their chest 100 times.",
+				"BaseQuest": "Combat achievements",
+				"Monsters": ["Barrows"],
+				"RuneScore": 25,
+				"Not F2P": true
+			},
+			"~|Combat achievements#Bosses (A-K)|~ Brothers in Arms": {
+				"Category": ["Misc Combat achievements", "Combat Mastery achievements"],
+				"Description": "Defeat each of the Barrows Brothers, dealing the killing blow with their own weapon.",
+				"BaseQuest": "Combat achievements",
+				"Monsters": ["Barrows"],
+				"Items": ["Ahrim's staff", "Akrisae's war mace", "Dharok's greataxe", "Guthan's warspear", "Karil's crossbow", "Linza's hammer", "Torag's hammer", "Verac's flail"],
+				"RuneScore": 20,
+				"Not F2P": true
+			},
+			"~|Combat achievements#Bosses (A-K)|~ Barrowed Power VI": {
+				"Category": ["Misc Combat achievements", "Combat Mastery achievements"],
+				"Description": "Defeat the empowered Barrows Brothers 100 times.",
+				"BaseQuest": "Combat achievements",
+				"Monsters": ["Barrows: Rise of the Six"],
+				"RuneScore": 25,
+				"Not F2P": true
+			},
+			"~|Combat achievements#Bosses (A-K)|~ eLeMeNtAl kIlL cHaOs VI": {
+				"Category": ["Misc Combat achievements", "Combat Mastery achievements"],
+				"Description": "dEfEaT tHe cHaOs eLeMeNtAl 1o0 tImEs.",
+				"BaseQuest": "Combat achievements",
+				"Monsters": ["Chaos Elemental"],
+				"RuneScore": 25
+			},
+			"~|Combat achievements#Bosses (A-K)|~ Corporeal Punishment VI": {
+				"Category": ["Misc Combat achievements", "Combat Mastery achievements"],
+				"Description": "Defeat the Corporeal Beast 100 times.",
+				"BaseQuest": "Combat achievements",
+				"Monsters": ["Corporeal Beast"],
+				"RuneScore": 25,
+				"Not F2P": true
+			},
+			"~|Combat achievements#Bosses (A-K)|~ Dagannoth For Everyone VI": {
+				"Category": ["Misc Combat achievements", "Combat Mastery achievements"],
+				"Description": "Defeat any of the Dagannoth Kings 100 times.",
+				"BaseQuest": "Combat achievements",
+				"Monsters": ["Dagannoth Rex"],
+				"RuneScore": 25,
+				"Not F2P": true
+			},
+			"~|Combat achievements#Bosses (A-K)|~ Baroo Quality": {
+				"Category": ["Misc Combat achievements", "Combat Mastery achievements"],
+				"Description": "Defeat a Dagannoth King solo whilst wearing full yak-hide armour and a Fremennik round shield.",
+				"BaseQuest": "Combat achievements",
+				"Monsters": ["Dagannoth Rex"],
+				"Items": ["Yak-hide armour (top)", "Yak-hide armour (legs)", "Fremennik round shield"],
+				"RuneScore": 35,
+				"Not F2P": true
+			},
+			"~|Combat achievements#Bosses (A-K)|~ Dagannoth Traffic Wardens": {
+				"Category": ["Misc Combat achievements", "Combat Mastery achievements"],
+				"Description": "Defeat the Dagannoth Supreme solo with each colour variation of Balmung.",
+				"BaseQuest": "Combat achievements",
+				"Monsters": ["Dagannoth Supreme"],
+				"Items": ["Cobalt Balmung", "Crimson Balmung", "Viridian Balmung", "Balmung"],
+				"RuneScore": 40,
+				"Not F2P": true
+			},
+			"~|Combat achievements#Bosses (A-K)|~ Eye See You VI": {
+				"Category": ["Misc Combat achievements", "Combat Mastery achievements"],
+				"Description": "Defeat Flesh-hatcher Mhekarnahz 100 times.",
+				"BaseQuest": "Combat achievements",
+				"Monsters": ["Flesh-hatcher Mhekarnahz"],
+				"RuneScore": 25,
+				"Not F2P": true
+			},
+			"~|Combat achievements#Bosses (A-K)|~ Mole Removal VI": {
+				"Category": ["Misc Combat achievements", "Combat Mastery achievements"],
+				"Description": "Defeat the giant mole 100 times.",
+				"BaseQuest": "Combat achievements",
+				"Monsters": ["Giant mole"],
+				"RuneScore": 25
+			},
+			"~|Combat achievements#Bosses (A-K)|~ Whack a Mole VI": {
+				"Category": ["Misc Combat achievements", "Combat Mastery achievements"],
+				"Description": "Defeat the giant mole 100 times in hard mode.",
+				"BaseQuest": "Combat achievements",
+				"Monsters": ["Giant mole (Hard Mode)"],
+				"RuneScore": 25
+			},
+			"~|Combat achievements#Bosses (A-K)|~ Hardly a Challenge VI": {
+				"Category": ["Misc Combat achievements", "Combat Mastery achievements"],
+				"Description": "Defeat the Har-Aken 100 times.",
+				"BaseQuest": "Combat achievements",
+				"Monsters": ["Har-Aken"],
+				"RuneScore": 25,
+				"Not F2P": true
+			},
+			"~|Combat achievements#Bosses (A-K)|~ Spirit War VI": {
+				"Category": ["Misc Combat achievements", "Combat Mastery achievements"],
+				"Description": "Defeat Hermod, the Spirit of War 100 times.",
+				"BaseQuest": "Combat achievements",
+				"Monsters": ["Hermod, the Spirit of War"],
+				"RuneScore": 25,
+				"Not F2P": true
+			},
+			"~|Combat achievements#Bosses (A-K)|~ Broken Bones": {
+				"Category": ["Misc Combat achievements", "Combat Mastery achievements"],
+				"Description": "Defeat Ivar, King of Bones 100 times.",
+				"BaseQuest": "Combat achievements",
+				"Monsters": ["Ivar, King of Bones"],
+				"RuneScore": 25
+			},
+			"~|Combat achievements#Bosses (A-K)|~ Big Gains Hunter": {
+				"Category": ["Misc Combat achievements", "Combat Mastery achievements"],
+				"Description": "Give Ivar, King of Bones a high-level bone he does not own.",
+				"BaseQuest": "Combat achievements",
+				"Monsters": ["Ivar, King of Bones"],
+				"Items": ["Dinosaur bones"],
+				"RuneScore": 5
+			},
+			"~|Combat achievements#Bosses (A-K)|~ The Skeleton Dance": {
+				"Category": ["Misc Combat achievements", "Combat Mastery achievements"],
+				"Description": "Bury a human skeleton's worth of bones while in Ivar, King of Bones's arena.",
+				"BaseQuest": "Combat achievements",
+				"Monsters": ["Ivar, King of Bones"],
+				"Items": ["Bones"],
+				"RuneScore": 5,
+				"Not F2P": true
+			},
+			"~|Combat achievements#Bosses (A-K)|~ Bug Zapper VI": {
+				"Category": ["Misc Combat achievements", "Combat Mastery achievements"],
+				"Description": "Defeat the Kalphite King 100 times.",
+				"BaseQuest": "Combat achievements",
+				"Monsters": ["Kalphite King"],
+				"RuneScore": 25,
+				"Not F2P": true
+			},
+			"~|Combat achievements#Bosses (A-K)|~ Bug Swatter VI": {
+				"Category": ["Misc Combat achievements", "Combat Mastery achievements"],
+				"Description": "Defeat the Kalphite Queen 100 times.",
+				"BaseQuest": "Combat achievements",
+				"Monsters": ["Kalphite Queen"],
+				"RuneScore": 25,
+				"Not F2P": true
+			},
+			"~|Combat achievements#Bosses (A-K)|~ Time Flies VI": {
+				"Category": ["Misc Combat achievements", "Combat Mastery achievements"],
+				"Description": "Defeat Kerapac 100 times.",
+				"BaseQuest": "Combat achievements",
+				"Monsters": ["Kerapac, the bound"],
+				"RuneScore": 25,
+				"Not F2P": true
+			},
+			"~|Combat achievements#Bosses (A-K)|~ Attack of the Clones VI": {
+				"Category": ["Misc Combat achievements", "Combat Mastery achievements"],
+				"Description": "Defeat Kerapac 100 times in hard mode.",
+				"BaseQuest": "Combat achievements",
+				"Monsters": ["Kerapac, the bound (Hard Mode)"],
+				"RuneScore": 25,
+				"Not F2P": true
+			},
+			"~|Combat achievements#Bosses (A-K)|~ Three Heads Are Deader Than One VI": {
+				"Category": ["Misc Combat achievements", "Combat Mastery achievements"],
+				"Description": "Defeat the King Black Dragon 100 times.",
+				"BaseQuest": "Combat achievements",
+				"Monsters": ["King Black Dragon"],
+				"RuneScore": 25
+			},
+			"~|Combat achievements#Bosses (A-K)|~ Changing of the Guard": {
+				"Category": ["Misc Combat achievements", "Combat Mastery achievements"],
+				"Description": "Defeat the King Black Dragon while wearing black dragonhide in six equipment slots.",
+				"BaseQuest": "Combat achievements",
+				"Monsters": ["King Black Dragon"],
+				"Items": ["Black dragonhide coif", "Black dragonhide body", "Black dragonhide chaps", "Black dragonhide vambraces", "Black dragonhide boots", "Black dragonhide shield"],
+				"RuneScore": 20,
+				"Not F2P": true
+			},
+			"~|Combat achievements#Bosses (A-K)|~ Loyal Subject": {
+				"Category": ["Misc Combat achievements", "Combat Mastery achievements"],
+				"Description": "Get the King Black Dragon to fully degrade a mole anti-dragon shield.",
+				"BaseQuest": "Combat achievements",
+				"Monsters": ["King Black Dragon"],
+				"Items": ["Mole anti-dragon shield"],
+				"RuneScore": 20
+			},
+			"~|Combat achievements#Bosses (A-K)|~ Complete the Bosses (A-K) achievements": {
+				"Category": ["Misc Combat achievements", "Combat Mastery achievements"],
+				"BaseQuest": "Combat achievements",
+				"Tasks": {
+					"~|Combat achievements#Bosses (A-K)|~ You Cat To Be Kitten Me Right Meow VI": "Diary",
+					"~|Combat achievements#Bosses (A-K)|~ I'm Feline It VI": "Diary",
+					"~|Combat achievements#Bosses (A-K)|~ Can't Stop Me Meow III": "Diary",
+					"~|Combat achievements#Bosses (A-K)|~ Professional Mouser": "Diary",
+					"~|Combat achievements#Bosses (A-K)|~ A Purr-fect Toss": "Diary",
+					"~|Combat achievements#Bosses (A-K)|~ Friend of the Feline": "Diary",
+					"~|Combat achievements#Bosses (A-K)|~ Along Came a Spider VI": "Diary",
+					"~|Combat achievements#Bosses (A-K)|~ A Slippery Slope VI": "Diary",
+					"~|Combat achievements#Bosses (A-K)|~ Snowfall VI": "Diary",
+					"~|Combat achievements#Bosses (A-K)|~ A Song of Ice and Ire VI": "Diary",
+					"~|Combat achievements#Bosses (A-K)|~ Something Barrowed VI": "Diary",
+					"~|Combat achievements#Bosses (A-K)|~ Brothers in Arms": "Diary",
+					"~|Combat achievements#Bosses (A-K)|~ Barrowed Power VI": "Diary",
+					"~|Combat achievements#Bosses (A-K)|~ eLeMeNtAl kIlL cHaOs VI": "Diary",
+					"~|Combat achievements#Bosses (A-K)|~ Corporeal Punishment VI": "Diary",
+					"~|Combat achievements#Bosses (A-K)|~ Dagannoth For Everyone VI": "Diary",
+					"~|Combat achievements#Bosses (A-K)|~ Baroo Quality": "Diary",
+					"~|Combat achievements#Bosses (A-K)|~ Dagannoth Traffic Wardens": "Diary",
+					"~|Combat achievements#Bosses (A-K)|~ Eye See You VI": "Diary",
+					"~|Combat achievements#Bosses (A-K)|~ Mole Removal VI": "Diary",
+					"~|Combat achievements#Bosses (A-K)|~ Whack a Mole VI": "Diary",
+					"~|Combat achievements#Bosses (A-K)|~ Hardly a Challenge VI": "Diary",
+					"~|Combat achievements#Bosses (A-K)|~ Spirit War VI": "Diary",
+					"~|Combat achievements#Bosses (A-K)|~ Broken Bones": "Diary",
+					"~|Combat achievements#Bosses (A-K)|~ Big Gains Hunter": "Diary",
+					"~|Combat achievements#Bosses (A-K)|~ The Skeleton Dance": "Diary",
+					"~|Combat achievements#Bosses (A-K)|~ Bug Zapper VI": "Diary",
+					"~|Combat achievements#Bosses (A-K)|~ Bug Swatter VI": "Diary",
+					"~|Combat achievements#Bosses (A-K)|~ Time Flies VI": "Diary",
+					"~|Combat achievements#Bosses (A-K)|~ Attack of the Clones VI": "Diary",
+					"~|Combat achievements#Bosses (A-K)|~ Three Heads Are Deader Than One VI": "Diary",
+					"~|Combat achievements#Bosses (A-K)|~ Changing of the Guard": "Diary",
+					"~|Combat achievements#Bosses (A-K)|~ Loyal Subject": "Diary"
+				},
+				"Reward": [],
+				"ManualShow": true,
+				"Not F2P": true
+			},
+			"~|Combat achievements#Bosses (L-Z)|~ Descension VI": {
+				"Category": ["Misc Combat achievements", "Combat Mastery achievements"],
+				"Description": "Defeat any of the Ascension Legiones 100 times.",
+				"BaseQuest": "Combat achievements",
+				"Monsters": ["Legio Primus"],
+				"RuneScore": 25,
+				"Not F2P": true
+			},
+			"~|Combat achievements#Bosses (L-Z)|~ Master of Beatings VI": {
+				"Category": ["Misc Combat achievements", "Combat Mastery achievements"],
+				"Description": "Defeat Beastmaster Durzag 100 times.",
+				"BaseQuest": "Combat achievements",
+				"Monsters": ["Beastmaster Durzag"],
+				"RuneScore": 25,
+				"Not F2P": true
+			},
+			"~|Combat achievements#Bosses (L-Z)|~ Yak and Ruin VI": {
+				"Category": ["Misc Combat achievements", "Combat Mastery achievements"],
+				"Description": "Defeat Yakamaru 100 times.",
+				"BaseQuest": "Combat achievements",
+				"Monsters": ["Yakamaru"],
+				"RuneScore": 25,
+				"Not F2P": true
+			},
+			"~|Combat achievements#Bosses (L-Z)|~ Crossing Over VI": {
+				"Category": ["Misc Combat achievements", "Combat Mastery achievements"],
+				"Description": "Defeat the Magister 100 times.",
+				"BaseQuest": "Combat achievements",
+				"Monsters": ["The Magister"],
+				"RuneScore": 25,
+				"Not F2P": true
+			},
+			"~|Combat achievements#Bosses (L-Z)|~ Brass Nex VI": {
+				"Category": ["Misc Combat achievements", "Combat Mastery achievements"],
+				"Description": "Defeat Nex 100 times.",
+				"BaseQuest": "Combat achievements",
+				"Monsters": ["Nex"],
+				"RuneScore": 25,
+				"Not F2P": true
+			},
+			"~|Combat achievements#Bosses (L-Z)|~ Gielinor's Most Expensive Doorstop": {
+				"Category": ["Misc Combat achievements", "Combat Mastery achievements"],
+				"Description": "Have Ashuelot Reis permanently open the doors to Nex for you.",
+				"BaseQuest": "Combat achievements",
+				"Chunks": ["Ancient Prison"],
+				"Items": ["Ancient ceremonial mask", "Ancient ceremonial top", "Ancient ceremonial legs", "Ancient ceremonial gloves", "Ancient ceremonial boots", "Frozen key"],
+				"RuneScore": 10,
+				"Not F2P": true
+			},
+			"~|Combat achievements#Bosses (L-Z)|~ Nex Pls VI": {
+				"Category": ["Misc Combat achievements", "Combat Mastery achievements"],
+				"Description": "Defeat Nex, the Angel of Death 100 times.",
+				"BaseQuest": "Combat achievements",
+				"Monsters": ["Nex, Angel of Death"],
+				"RuneScore": 25,
+				"Not F2P": true
+			},
+			"~|Combat achievements#Bosses (L-Z)|~ Loot Pinata VI": {
+				"Category": ["Misc Combat achievements", "Combat Mastery achievements"],
+				"Description": "Defeat the Queen Black Dragon 100 times.",
+				"BaseQuest": "Combat achievements",
+				"Monsters": ["Queen Black Dragon"],
+				"RuneScore": 25,
+				"Not F2P": true
+			},
+			"~|Combat achievements#Bosses (L-Z)|~ Ju-raksha Park VI": {
+				"Category": ["Misc Combat achievements", "Combat Mastery achievements"],
+				"Description": "Defeat Raksha, the Shadow Colossus 100 times.",
+				"BaseQuest": "Combat achievements",
+				"Monsters": ["Raksha, the Shadow Colossus"],
+				"RuneScore": 25,
+				"Not F2P": true
+			},
+			"~|Combat achievements#Bosses (L-Z)|~ No-more-mancer VI": {
+				"Category": ["Misc Combat achievements", "Combat Mastery achievements"],
+				"Description": "Defeat Rasial, the First Necromancer 100 times.",
+				"BaseQuest": "Combat achievements",
+				"Monsters": ["Rasial, the First Necromancer"],
+				"RuneScore": 25,
+				"Not F2P": true
+			},
+			"~|Combat achievements#Bosses (L-Z)|~ I Came In Like a Rex-ing Ball VI": {
+				"Category": ["Misc Combat achievements", "Combat Mastery achievements"],
+				"Description": "Defeat any of the Rex Matriarchs 100 times.",
+				"BaseQuest": "Combat achievements",
+				"Monsters": ["Orikalka"],
+				"RuneScore": 25,
+				"Not F2P": true
+			},
+			"~|Combat achievements#Bosses (L-Z)|~ Where's my Dakr Bow? VI": {
+				"Category": ["Misc Combat achievements", "Combat Mastery achievements"],
+				"Description": "Defeat Kezalam, the Wanderer 100 times.",
+				"BaseQuest": "Combat achievements",
+				"Monsters": ["Kezalam, the Wanderer"],
+				"RuneScore": 25,
+				"Not F2P": true
+			},
+			"~|Combat achievements#Bosses (L-Z)|~ Should've Wandered Somewhere Else VI": {
+				"Category": ["Misc Combat achievements", "Combat Mastery achievements"],
+				"Description": "Defeat Kezalam,the Wanderer 100 times in hard mode.",
+				"BaseQuest": "Combat achievements",
+				"Monsters": ["Kezalam,the Wanderer (Hard Mode)"],
+				"RuneScore": 25,
+				"Not F2P": true
+			},
+			"~|Combat achievements#Bosses (L-Z)|~ Eternal No More VI": {
+				"Category": ["Misc Combat achievements", "Combat Mastery achievements"],
+				"Description": "Defeat Nakatra, Devourer Eternal 100 times.",
+				"BaseQuest": "Combat achievements",
+				"Monsters": ["Nakatra, Devourer Eternal"],
+				"RuneScore": 25,
+				"Not F2P": true
+			},
+			"~|Combat achievements#Bosses (L-Z)|~ Splittin' Souls and Smashin' Skulls VI": {
+				"Category": ["Misc Combat achievements", "Combat Mastery achievements"],
+				"Description": "Defeat Nakatra, Devourer Eternal 100 times in hard mode.",
+				"BaseQuest": "Combat achievements",
+				"Monsters": ["Nakatra, Devourer Eternal (Hard Mode)"],
+				"RuneScore": 25,
+				"Not F2P": true
+			},
+			"~|Combat achievements#Bosses (L-Z)|~ Why the Long Face? VI": {
+				"Category": ["Misc Combat achievements", "Combat Mastery achievements"],
+				"Description": "Defeat Vermyx, Brood Mother 100 times.",
+				"BaseQuest": "Combat achievements",
+				"Monsters": ["Vermyx, Brood Mother"],
+				"RuneScore": 25,
+				"Not F2P": true
+			},
+			"~|Combat achievements#Bosses (L-Z)|~ Get Your Heads in the Game VI": {
+				"Category": ["Misc Combat achievements", "Combat Mastery achievements"],
+				"Description": "Defeat Vermyx, Brood Mother 100 times in hard mode.",
+				"BaseQuest": "Combat achievements",
+				"Monsters": ["Vermyx, Brood Mother (Hard Mode)"],
+				"RuneScore": 25,
+				"Not F2P": true
+			},
+			"~|Combat achievements#Bosses (L-Z)|~ Hedge Trimmer VI": {
+				"Category": ["Misc Combat achievements", "Combat Mastery achievements"],
+				"Description": "Defeat Silverquill, the Dreadhog",
+				"BaseQuest": "Combat achievements",
+				"Monsters": ["Silverquill, the Dreadhog"],
+				"RuneScore": 25,
+				"Not F2P": true
+			},
+			"~|Combat achievements#Bosses (L-Z)|~ Silver the Hedgehog": {
+				"Category": ["Misc Combat achievements", "Combat Mastery achievements"],
+				"Description": "Defeat Silverquill, the Dreadhog, solo, using only havensilver weapons.",
+				"BaseQuest": "Combat achievements",
+				"Monsters": ["Silverquill, the Dreadhog"],
+				"Items": ["Havensilver greatsword"],
+				"RuneScore": 5,
+				"Not F2P": true
+			},
+			"~|Combat achievements#Bosses (L-Z)|~ Wool Kill Again VI": {
+				"Category": ["Misc Combat achievements", "Combat Mastery achievements"],
+				"Description": "Defeat Solak 100 times.",
+				"BaseQuest": "Combat achievements",
+				"Monsters": ["Solak, Guardian of the Grove"],
+				"RuneScore": 25,
+				"Not F2P": true
+			},
+			"~|Combat achievements#Bosses (L-Z)|~ Telos Where It Hurts VI": {
+				"Category": ["Misc Combat achievements", "Combat Mastery achievements"],
+				"Description": "Defeat Telos 100 times.",
+				"BaseQuest": "Combat achievements",
+				"Monsters": ["Telos, the Warden"],
+				"RuneScore": 25,
+				"Not F2P": true
+			},
+			"~|Combat achievements#Bosses (L-Z)|~ Telos If You're Angry VI": {
+				"Category": ["Misc Combat achievements", "Combat Mastery achievements"],
+				"Description": "Defeat Telos at 1,000% enrage",
+				"BaseQuest": "Combat achievements",
+				"Monsters": ["Telos, the Warden"],
+				"RuneScore": 25,
+				"Not F2P": true
+			},
+			"~|Combat achievements#Bosses (L-Z)|~ You Zuk VI": {
+				"Category": ["Misc Combat achievements", "Combat Mastery achievements"],
+				"Description": "Defeat TzKal-Zuk 100 times.",
+				"BaseQuest": "Combat achievements",
+				"Monsters": ["TzKal-Zuk"],
+				"RuneScore": 25,
+				"Not F2P": true
+			},
+			"~|Combat achievements#Bosses (L-Z)|~ You Really Zuk VI": {
+				"Category": ["Misc Combat achievements", "Combat Mastery achievements"],
+				"Description": "Defeat TzKal-Zuk 100 times in hard mode.",
+				"BaseQuest": "Combat achievements",
+				"Monsters": ["TzKal-Zuk (Hard Mode)"],
+				"RuneScore": 25,
+				"Not F2P": true
+			},
+			"~|Combat achievements#Bosses (L-Z)|~ Living On a Prayer Switch VI": {
+				"Category": ["Misc Combat achievements", "Combat Mastery achievements"],
+				"Description": "Defeat TzTok-Jad 100 times.",
+				"BaseQuest": "Combat achievements",
+				"Monsters": ["TzTok-Jad"],
+				"RuneScore": 25,
+				"Not F2P": true
+			},
+			"~|Combat achievements#Bosses (L-Z)|~ Seeing Lava": {
+				"Category": ["Misc Combat achievements", "Combat Mastery achievements"],
+				"Description": "Use your fire cape on TzTok-Jad before defeating them.",
+				"BaseQuest": "Combat achievements",
+				"Monsters": ["TzTok-Jad"],
+				"Items": ["Fire cape"],
+				"RuneScore": 25,
+				"Not F2P": true
+			},
+			"~|Combat achievements#Bosses (L-Z)|~ Come And Have Vorago VI": {
+				"Category": ["Misc Combat achievements", "Combat Mastery achievements"],
+				"Description": "Defeat Vorago 100 times, if you think you're hard enough.",
+				"BaseQuest": "Combat achievements",
+				"Monsters": ["Vorago"],
+				"RuneScore": 25,
+				"Not F2P": true
+			},
+			"~|Combat achievements#Bosses (L-Z)|~ Here We Rago Again VI": {
+				"Category": ["Misc Combat achievements", "Combat Mastery achievements"],
+				"Description": "Defeat Vorago 100 times in hard mode.",
+				"BaseQuest": "Combat achievements",
+				"Monsters": ["Vorago (Hard Mode)"],
+				"RuneScore": 25,
+				"Not F2P": true
+			},
+			"~|Combat achievements#Bosses (L-Z)|~ Who's Your Daddy?": {
+				"Category": ["Misc Combat achievements", "Combat Mastery achievements"],
+				"Description": "Defeat Vorago whilst holding your pet rock for the whole kill.",
+				"BaseQuest": "Combat achievements",
+				"Monsters": ["Vorago"],
+				"Items": ["Pet rock"],
+				"RuneScore": 50,
+				"Not F2P": true
+			},
+			"~|Combat achievements#Bosses (L-Z)|~ Maul's Fair in Love and War": {
+				"Category": ["Misc Combat achievements", "Combat Mastery achievements"],
+				"Description": "Defeat Vorago in hard mode by personally using the Maul of Omens on him on every rotation.",
+				"BaseQuest": "Combat achievements",
+				"Monsters": ["Vorago (Hard Mode)"],
+				"RuneScore": 25,
+				"Not F2P": true
+			},
+			"~|Combat achievements#Bosses (L-Z)|~ Zemouregal & Vorkath VI": {
+				"Category": ["Misc Combat achievements", "Combat Mastery achievements"],
+				"Description": "Defeat Zemouregal & Vorkath 100 times.",
+				"BaseQuest": "Combat achievements",
+				"Monsters": ["Zemouregal & Vorkath"],
+				"RuneScore": 25,
+				"Not F2P": true
+			},
+			"~|Combat achievements#Bosses (L-Z)|~ Ex-Ex-Dragon VI": {
+				"Category": ["Misc Combat achievements", "Combat Mastery achievements"],
+				"Description": "Defeat Zemouregal & Vorkath 100 times in hard mode.",
+				"BaseQuest": "Combat achievements",
+				"Monsters": ["Zemouregal & Vorkath (Hard Mode)"],
+				"RuneScore": 25,
+				"Not F2P": true
+			},
+			"~|Combat achievements#Bosses (L-Z)|~ Complete the Bosses (L-Z) achievements": {
+				"Category": ["Misc Combat achievements", "Combat Mastery achievements"],
+				"BaseQuest": "Combat achievements",
+				"Tasks": {
+					"~|Combat achievements#Bosses (L-Z)|~ Descension VI": "Diary",
+					"~|Combat achievements#Bosses (L-Z)|~ Master of Beatings VI": "Diary",
+					"~|Combat achievements#Bosses (L-Z)|~ Yak and Ruin VI": "Diary",
+					"~|Combat achievements#Bosses (L-Z)|~ Crossing Over VI": "Diary",
+					"~|Combat achievements#Bosses (L-Z)|~ Brass Nex VI": "Diary",
+					"~|Combat achievements#Bosses (L-Z)|~ Gielinor's Most Expensive Doorstop": "Diary",
+					"~|Combat achievements#Bosses (L-Z)|~ Nex Pls VI": "Diary",
+					"~|Combat achievements#Bosses (L-Z)|~ Loot Pinata VI": "Diary",
+					"~|Combat achievements#Bosses (L-Z)|~ Ju-raksha Park VI": "Diary",
+					"~|Combat achievements#Bosses (L-Z)|~ No-more-mancer VI": "Diary",
+					"~|Combat achievements#Bosses (L-Z)|~ I Came In Like a Rex-ing Ball VI": "Diary",
+					"~|Combat achievements#Bosses (L-Z)|~ Where's my Dakr Bow? VI": "Diary",
+					"~|Combat achievements#Bosses (L-Z)|~ Should've Wandered Somewhere Else VI": "Diary",
+					"~|Combat achievements#Bosses (L-Z)|~ Eternal No More VI": "Diary",
+					"~|Combat achievements#Bosses (L-Z)|~ Splittin' Souls and Smashin' Skulls VI": "Diary",
+					"~|Combat achievements#Bosses (L-Z)|~ Why the Long Face? VI": "Diary",
+					"~|Combat achievements#Bosses (L-Z)|~ Get Your Heads in the Game VI": "Diary",
+					"~|Combat achievements#Bosses (L-Z)|~ Hedge Trimmer VI": "Diary",
+					"~|Combat achievements#Bosses (L-Z)|~ Silver the Hedgehog": "Diary",
+					"~|Combat achievements#Bosses (L-Z)|~ Wool Kill Again VI": "Diary",
+					"~|Combat achievements#Bosses (L-Z)|~ Telos Where It Hurts VI": "Diary",
+					"~|Combat achievements#Bosses (L-Z)|~ Telos If You're Angry VI": "Diary",
+					"~|Combat achievements#Bosses (L-Z)|~ You Zuk VI": "Diary",
+					"~|Combat achievements#Bosses (L-Z)|~ You Really Zuk VI": "Diary",
+					"~|Combat achievements#Bosses (L-Z)|~ Living On a Prayer Switch VI": "Diary",
+					"~|Combat achievements#Bosses (L-Z)|~ Seeing Lava": "Diary",
+					"~|Combat achievements#Bosses (L-Z)|~ Come And Have Vorago VI": "Diary",
+					"~|Combat achievements#Bosses (L-Z)|~ Here We Rago Again VI": "Diary",
+					"~|Combat achievements#Bosses (L-Z)|~ Who's Your Daddy?": "Diary",
+					"~|Combat achievements#Bosses (L-Z)|~ Maul's Fair in Love and War": "Diary",
+					"~|Combat achievements#Bosses (L-Z)|~ Zemouregal & Vorkath VI": "Diary",
+					"~|Combat achievements#Bosses (L-Z)|~ Ex-Ex-Dragon VI": "Diary"
+				},
+				"Reward": [],
+				"ManualShow": true,
+				"Not F2P": true
+			},
+			"~|Combat achievements#God Wars Dungeon|~ God Wars Dungeon": {
+				"Category": ["Misc Combat achievements", "Combat Mastery achievements"],
+				"Description": "Defeat the four Generals in the God Wars Dungeon.",
+				"BaseQuest": "Combat achievements",
+				"Monsters": ["General Graardor", "Commander Zilyana", "Kree'arra", "K'ril Tsutsaroth"],
+				"RuneScore": 10,
+				"Not F2P": true
+			},
+			"~|Combat achievements#God Wars Dungeon|~ Kill Count Still Counts": {
+				"Category": ["Misc Combat achievements", "Combat Mastery achievements"],
+				"Description": "Create an omni soulstone from the Saradominist, Zamorakian, Bandosian and Armadylean soulstones dropped by the hard mode bosses in the God Wars Dungeon.",
+				"BaseQuest": "Combat achievements",
+				"Items": ["Omni soulstone"],
+				"RuneScore": 30,
+				"Not F2P": true
+			},
+			"~|Combat achievements#God Wars Dungeon|~ Zilly Way To Die VI": {
+				"Category": ["Misc Combat achievements", "Combat Mastery achievements"],
+				"Description": "Defeat Commander Zilyana 100 times.",
+				"BaseQuest": "Combat achievements",
+				"Monsters": ["Commander Zilyana"],
+				"RuneScore": 25,
+				"Not F2P": true
+			},
+			"~|Combat achievements#God Wars Dungeon|~ Zillier Way To Die VI": {
+				"Category": ["Misc Combat achievements", "Combat Mastery achievements"],
+				"Description": "Defeat Commander Zilyana 100 times in hard mode.",
+				"BaseQuest": "Combat achievements",
+				"Monsters": ["Commander Zilyana (Hard Mode)"],
+				"RuneScore": 25,
+				"Not F2P": true
+			},
+			"~|Combat achievements#God Wars Dungeon|~ Traitorous": {
+				"Category": ["Misc Combat achievements", "Combat Mastery achievements"],
+				"Description": "Defeat Commander Zilyana whilst wearing a full set of Proselyte Armour.",
+				"BaseQuest": "Combat achievements",
+				"Monsters": ["Commander Zilyana"],
+				"Items": ["Proselyte sallet", "Proselyte hauberk", "Proselyte cuisse"],
+				"RuneScore": 30,
+				"Not F2P": true
+			},
+			"~|Combat achievements#God Wars Dungeon|~ General Mayhem VI": {
+				"Category": ["Misc Combat achievements", "Combat Mastery achievements"],
+				"Description": "Defeat General Graardor 100 times.",
+				"BaseQuest": "Combat achievements",
+				"Monsters": ["General Graardor"],
+				"RuneScore": 25,
+				"Not F2P": true
+			},
+			"~|Combat achievements#God Wars Dungeon|~ General Disaster VI": {
+				"Category": ["Misc Combat achievements", "Combat Mastery achievements"],
+				"Description": "Defeat General Graardor 100 times in hard mode.",
+				"BaseQuest": "Combat achievements",
+				"Monsters": ["General Graardor (Hard Mode)"],
+				"RuneScore": 25,
+				"Not F2P": true
+			},
+			"~|Combat achievements#God Wars Dungeon|~ Fist Contact": {
+				"Category": ["Misc Combat achievements", "Combat Mastery achievements"],
+				"Description": "Defeat General Graardor using only your fists.",
+				"BaseQuest": "Combat achievements",
+				"Monsters": ["General Graardor"],
+				"RuneScore": 50,
+				"Not F2P": true
+			},
+			"~|Combat achievements#God Wars Dungeon|~ Kill K'ril VI": {
+				"Category": ["Misc Combat achievements", "Combat Mastery achievements"],
+				"Description": "Defeat K'ril Tsutsaroth 100 times",
+				"BaseQuest": "Combat achievements",
+				"Monsters": ["K'ril Tsutsaroth"],
+				"RuneScore": 25,
+				"Not F2P": true
+			},
+			"~|Combat achievements#God Wars Dungeon|~ Kill K'ril Vol 2 VI": {
+				"Category": ["Misc Combat achievements", "Combat Mastery achievements"],
+				"Description": "Defeat K'ril Tsutsaroth 100 in hard mode.",
+				"BaseQuest": "Combat achievements",
+				"Monsters": ["K'ril Tsutsaroth (Hard Mode)"],
+				"RuneScore": 10,
+				"Not F2P": true
+			},
+			"~|Combat achievements#God Wars Dungeon|~ K'rilow": {
+				"Category": ["Misc Combat achievements", "Combat Mastery achievements"],
+				"Description": "Defeat K'ril with a willow weapon.",
+				"BaseQuest": "Combat achievements",
+				"Monsters": ["K'ril Tsutsaroth"],
+				"Items": ["Willow shortbow"],
+				"RuneScore": 40,
+				"Not F2P": true
+			},
+			"~|Combat achievements#God Wars Dungeon|~ Bird is the Word VI": {
+				"Category": ["Misc Combat achievements", "Combat Mastery achievements"],
+				"Description": "Defeat Kree'arra 100 times.",
+				"BaseQuest": "Combat achievements",
+				"Monsters": ["Kree'arra"],
+				"RuneScore": 25,
+				"Not F2P": true
+			},
+			"~|Combat achievements#God Wars Dungeon|~ Birdstrike VI": {
+				"Category": ["Misc Combat achievements", "Combat Mastery achievements"],
+				"Description": "Defeat Kree'arra 100 times in hard mode.",
+				"BaseQuest": "Combat achievements",
+				"Monsters": ["Kree'arra (Hard Mode)"],
+				"RuneScore": 25,
+				"Not F2P": true
+			},
+			"~|Combat achievements#God Wars Dungeon|~ Complete the God Wars Dungeon achievements": {
+				"Category": ["Misc Combat achievements", "Combat Mastery achievements"],
+				"BaseQuest": "Combat achievements",
+				"Tasks": {
+					"~|Combat achievements#God Wars Dungeon|~ God Wars Dungeon": "Diary",
+					"~|Combat achievements#God Wars Dungeon|~ Kill Count Still Counts": "Diary",
+					"~|Combat achievements#God Wars Dungeon|~ Zilly Way To Die VI": "Diary",
+					"~|Combat achievements#God Wars Dungeon|~ Zillier Way To Die VI": "Diary",
+					"~|Combat achievements#God Wars Dungeon|~ Traitorous": "Diary",
+					"~|Combat achievements#God Wars Dungeon|~ General Mayhem VI": "Diary",
+					"~|Combat achievements#God Wars Dungeon|~ General Disaster VI": "Diary",
+					"~|Combat achievements#God Wars Dungeon|~ Fist Contact": "Diary",
+					"~|Combat achievements#God Wars Dungeon|~ Kill K'ril VI": "Diary",
+					"~|Combat achievements#God Wars Dungeon|~ Kill K'ril Vol 2 VI": "Diary",
+					"~|Combat achievements#God Wars Dungeon|~ K'rilow": "Diary",
+					"~|Combat achievements#God Wars Dungeon|~ Bird is the Word VI": "Diary",
+					"~|Combat achievements#God Wars Dungeon|~ Birdstrike VI": "Diary"
+				},
+				"Reward": [],
+				"ManualShow": true,
+				"Not F2P": true
+			},
+			"~|Combat achievements#Heart of Gielinor|~ Seren's Per-faction-ist": {
+				"Category": ["Misc Combat achievements", "Combat Mastery achievements"],
+				"Description": "Reach maximum reputation with the Seren faction in the Heart of Gielinor.",
+				"BaseQuest": "Combat achievements",
+				"Chunks": ["The Heart"],
+				"RuneScore": 20,
+				"Not F2P": true
+			},
+			"~|Combat achievements#Heart of Gielinor|~ Silske's Per-faction-ist": {
+				"Category": ["Misc Combat achievements", "Combat Mastery achievements"],
+				"Description": "Reach maximum reputation with the Silske faction in the Heart of Gielinor.",
+				"BaseQuest": "Combat achievements",
+				"Chunks": ["The Heart"],
+				"RuneScore": 20,
+				"Not F2P": true
+			},
+			"~|Combat achievements#Heart of Gielinor|~ Zamorak's Per-faction-ist": {
+				"Category": ["Misc Combat achievements", "Combat Mastery achievements"],
+				"Description": "Reach maximum reputation with the Zamorak faction in the Heart of Gielinor.",
+				"BaseQuest": "Combat achievements",
+				"Chunks": ["The Heart"],
+				"RuneScore": 20,
+				"Not F2P": true
+			},
+			"~|Combat achievements#Heart of Gielinor|~ Zaros's Per-faction-ist": {
+				"Category": ["Misc Combat achievements", "Combat Mastery achievements"],
+				"Description": "Reach maximum reputation with the Zaros faction in the Heart of Gielinor.",
+				"BaseQuest": "Combat achievements",
+				"Chunks": ["The Heart"],
+				"RuneScore": 20,
+				"Not F2P": true
+			},
+			"~|Combat achievements#Heart of Gielinor|~ Heart of Gielinor": {
+				"Category": ["Misc Combat achievements", "Combat Mastery achievements"],
+				"Description": "Defeat the four Generals in the Heart of Gielinor.",
+				"BaseQuest": "Combat achievements",
+				"Monsters": ["Gregorovic", "Twin Furies", "Vindicta", "Helwyr"],
+				"RuneScore": 10,
+				"Not F2P": true
+			},
+			"~|Combat achievements#Heart of Gielinor|~ Gregorgeous VI": {
+				"Category": ["Misc Combat achievements", "Combat Mastery achievements"],
+				"Description": "Defeat Gregorovic 100 times.",
+				"BaseQuest": "Combat achievements",
+				"Monsters": ["Gregorovic"],
+				"RuneScore": 25,
+				"Not F2P": true
+			},
+			"~|Combat achievements#Heart of Gielinor|~ Gregore-y VI": {
+				"Category": ["Misc Combat achievements", "Combat Mastery achievements"],
+				"Description": "Defeat Gregorovic 100 times in hard mode.",
+				"BaseQuest": "Combat achievements",
+				"Monsters": ["Gregorovic (Hard Mode)"],
+				"RuneScore": 25,
+				"Not F2P": true
+			},
+			"~|Combat achievements#Heart of Gielinor|~ This Helwyr In VI": {
+				"Category": ["Misc Combat achievements", "Combat Mastery achievements"],
+				"Description": "Defeat Helwyr 100 times.",
+				"BaseQuest": "Combat achievements",
+				"Monsters": ["Helwyr"],
+				"RuneScore": 25,
+				"Not F2P": true
+			},
+			"~|Combat achievements#Heart of Gielinor|~ Hel in a Handbasket VI": {
+				"Category": ["Misc Combat achievements", "Combat Mastery achievements"],
+				"Description": "Defeat Helwyr 100 times in hard mode.",
+				"BaseQuest": "Combat achievements",
+				"Monsters": ["Helwyr (Hard Mode)"],
+				"RuneScore": 25,
+				"Not F2P": true
+			},
+			"~|Combat achievements#Heart of Gielinor|~ Unionised": {
+				"Category": ["Misc Combat achievements", "Combat Mastery achievements"],
+				"Description": "Defeat Helwyr solo whilst wearing the full Prifddinian worker's outfit.",
+				"BaseQuest": "Combat achievements",
+				"Monsters": ["Helwyr"],
+				"Items": ["Prifddinian worker's robes", "Prifddinian worker's trousers", "Prifddinian worker's gloves", "Prifddinian worker's boots"],
+				"RuneScore": 40,
+				"Not F2P": true
+			},
+			"~|Combat achievements#Heart of Gielinor|~ Fast and Furious VI": {
+				"Category": ["Misc Combat achievements", "Combat Mastery achievements"],
+				"Description": "Defeat Avaryss and Nymora 100 times.",
+				"BaseQuest": "Combat achievements",
+				"Monsters": ["Twin Furies"],
+				"RuneScore": 25,
+				"Not F2P": true
+			},
+			"~|Combat achievements#Heart of Gielinor|~ More Fast More Furious VI": {
+				"Category": ["Misc Combat achievements", "Combat Mastery achievements"],
+				"Description": "Defeat Avaryss and Nymora 100 times in hard mode.",
+				"BaseQuest": "Combat achievements",
+				"Monsters": ["Twin Furies (Hard Mode)"],
+				"RuneScore": 25,
+				"Not F2P": true
+			},
+			"~|Combat achievements#Heart of Gielinor|~ Brint It All Back": {
+				"Category": ["Misc Combat achievements", "Combat Mastery achievements"],
+				"Description": "Defeat the Twin Furies using fury blades.",
+				"BaseQuest": "Combat achievements",
+				"Monsters": ["Twin Furies"],
+				"Items": ["Blade of Avaryss", "Blade of Nymora"],
+				"RuneScore": 40,
+				"Not F2P": true
+			},
+			"~|Combat achievements#Heart of Gielinor|~ Vindictive and Vexatious VI": {
+				"Category": ["Misc Combat achievements", "Combat Mastery achievements"],
+				"Description": "Defeat Vindicta and Gorvec 100 times.",
+				"BaseQuest": "Combat achievements",
+				"Monsters": ["Vindicta"],
+				"RuneScore": 25,
+				"Not F2P": true
+			},
+			"~|Combat achievements#Heart of Gielinor|~ Vindictive VI": {
+				"Category": ["Misc Combat achievements", "Combat Mastery achievements"],
+				"Description": "Defeat Vindicta and Gorvec 100 times in hard mode.",
+				"BaseQuest": "Combat achievements",
+				"Monsters": ["Vindicta (Hard Mode)"],
+				"RuneScore": 25,
+				"Not F2P": true
+			},
+			"~|Combat achievements#Heart of Gielinor|~ Complete the Heart of Gielinor achievements": {
+				"Category": ["Misc Combat achievements", "Combat Mastery achievements"],
+				"BaseQuest": "Combat achievements",
+				"Tasks": {
+					"~|Combat achievements#Heart of Gielinor|~ Seren's Per-faction-ist": "Diary",
+					"~|Combat achievements#Heart of Gielinor|~ Silske's Per-faction-ist": "Diary",
+					"~|Combat achievements#Heart of Gielinor|~ Zamorak's Per-faction-ist": "Diary",
+					"~|Combat achievements#Heart of Gielinor|~ Zaros's Per-faction-ist": "Diary",
+					"~|Combat achievements#Heart of Gielinor|~ Heart of Gielinor": "Diary",
+					"~|Combat achievements#Heart of Gielinor|~ Gregorgeous VI": "Diary",
+					"~|Combat achievements#Heart of Gielinor|~ Gregore-y VI": "Diary",
+					"~|Combat achievements#Heart of Gielinor|~ This Helwyr In VI": "Diary",
+					"~|Combat achievements#Heart of Gielinor|~ Hel in a Handbasket VI": "Diary",
+					"~|Combat achievements#Heart of Gielinor|~ Unionised": "Diary",
+					"~|Combat achievements#Heart of Gielinor|~ Fast and Furious VI": "Diary",
+					"~|Combat achievements#Heart of Gielinor|~ More Fast More Furious VI": "Diary",
+					"~|Combat achievements#Heart of Gielinor|~ Brint It All Back": "Diary",
+					"~|Combat achievements#Heart of Gielinor|~ Vindictive and Vexatious VI": "Diary",
+					"~|Combat achievements#Heart of Gielinor|~ Vindictive VI": "Diary"
+				},
+				"Reward": [],
+				"ManualShow": true,
+				"Not F2P": true
+			},
+			"~|Combat achievements#Temple of Aminishi|~ Aminishi? Completed It, Mate": {
+				"Category": ["Misc Combat achievements", "Combat Mastery achievements"],
+				"Description": "Defeat every miniboss inside the Temple of Aminishi",
+				"BaseQuest": "Combat achievements",
+				"Chunks": ["Temple of Aminishi (Story Mode)"],
+				"RuneScore": 20,
+				"Not F2P": true
+			},
+			"~|Combat achievements#Temple of Aminishi|~ Died by the Blade!": {
+				"Category": ["Misc Combat achievements", "Combat Mastery achievements"],
+				"Description": "Die by the blade!",
+				"BaseQuest": "Combat achievements",
+				"Chunks": ["Temple of Aminishi (Story Mode)"],
+				"RuneScore": 20,
+				"Not F2P": true
+			},
+			"~|Combat achievements#Temple of Aminishi|~ Oops! Wrong Cult!": {
+				"Category": ["Misc Combat achievements", "Combat Mastery achievements"],
+				"Description": "Enter the Temple of Aminishi wearing H.A.M. clothing.",
+				"BaseQuest": "Combat achievements",
+				"Chunks": ["Temple of Aminishi (Story Mode)"],
+				"Items": ["H.A.M. hood", "H.A.M. shirt", "H.A.M. robe", "H.A.M. gloves", "H.A.M. boots", "G.A.M. cloak"],
+				"RuneScore": 5,
+				"Not F2P": true
+			},
+			"~|Combat achievements#Temple of Aminishi|~ The Purple Dart": {
+				"Category": ["Misc Combat achievements", "Combat Mastery achievements"],
+				"Description": "Defeat the Violet Lotus miniboss using elite death lotus darts.",
+				"BaseQuest": "Combat achievements",
+				"Chunks": ["Temple of Aminishi"],
+				"Items": ["Elite Death Lotus dart"],
+				"RuneScore": 10,
+				"Not F2P": true
+			},
+			"~|Combat achievements#Temple of Aminishi|~ What Does Monster Examine Say About His Combat Level?": {
+				"Category": ["Misc Combat achievements", "Combat Mastery achievements"],
+				"Description": "Deal over 9,000 damage to Goku the Unrelenting in one hit.",
+				"BaseQuest": "Combat achievements",
+				"Chunks": ["Temple of Aminishi (Story Mode)"],
+				"RuneScore": 10,
+				"Not F2P": true
+			},
+			"~|Combat achievements#Temple of Aminishi|~ Masuta Master VI": {
+				"Category": ["Misc Combat achievements", "Combat Mastery achievements"],
+				"Description": "Defeat Masuta the Ascended 100 times.",
+				"BaseQuest": "Combat achievements",
+				"Monsters": ["Masuta the Ascended"],
+				"RuneScore": 25,
+				"Not F2P": true
+			},
+			"~|Combat achievements#Temple of Aminishi|~ Masuta Master Solo Kills VI": {
+				"Category": ["Misc Combat achievements", "Combat Mastery achievements"],
+				"Description": "Defeat Masuta the Ascended 100 times solo.",
+				"BaseQuest": "Combat achievements",
+				"Monsters": ["Masuta the Ascended"],
+				"RuneScore": 30,
+				"Not F2P": true
+			},
+			"~|Combat achievements#Temple of Aminishi|~ I'll Pulverise You!": {
+				"Category": ["Misc Combat achievements", "Combat Mastery achievements"],
+				"Description": "Use Pulverise on Masuta the Ascended at the same time he uses it.",
+				"BaseQuest": "Combat achievements",
+				"Chunks": ["Temple of Aminishi (Story Mode)"],
+				"RuneScore": 20,
+				"Not F2P": true
+			},
+			"~|Combat achievements#Temple of Aminishi|~ Crabtivating VI": {
+				"Category": ["Misc Combat achievements", "Combat Mastery achievements"],
+				"Description": "Defeat the Sanctum Guardian 100 times.",
+				"BaseQuest": "Combat achievements",
+				"Monsters": ["Sanctum Guardian"],
+				"RuneScore": 25,
+				"Not F2P": true
+			},
+			"~|Combat achievements#Temple of Aminishi|~ Crabtivating Solo Kills VI": {
+				"Category": ["Misc Combat achievements", "Combat Mastery achievements"],
+				"Description": "Defeat the Sanctum Guardian 100 times solo.",
+				"BaseQuest": "Combat achievements",
+				"Monsters": ["Sanctum Guardian"],
+				"RuneScore": 30,
+				"Not F2P": true
+			},
+			"~|Combat achievements#Temple of Aminishi|~ Slay-ryu VI": {
+				"Category": ["Misc Combat achievements", "Combat Mastery achievements"],
+				"Description": "Defeat Seiryu the Azure Serpent 100 times.",
+				"BaseQuest": "Combat achievements",
+				"Monsters": ["Seiryu the Azure Serpent"],
+				"RuneScore": 25,
+				"Not F2P": true
+			},
+			"~|Combat achievements#Temple of Aminishi|~ Slay-ryu Solo Kills VI": {
+				"Category": ["Misc Combat achievements", "Combat Mastery achievements"],
+				"Description": "Defeat Seiryu the Azure Serpent 100 times solo.",
+				"BaseQuest": "Combat achievements",
+				"Monsters": ["Seiryu the Azure Serpent"],
+				"RuneScore": 30,
+				"Not F2P": true
+			},
+			"~|Combat achievements#Temple of Aminishi|~ Bless You, Seiryu": {
+				"Category": ["Misc Combat achievements", "Combat Mastery achievements"],
+				"Description": "Make Seiryu sneeze.",
+				"BaseQuest": "Combat achievements",
+				"Chunks": ["Temple of Aminishi (Story Mode)"],
+				"Items": ["Feather"],
+				"RuneScore": 5,
+				"Not F2P": true
+			},
+			"~|Combat achievements#Temple of Aminishi|~ Complete the Temple of Aminishi achievements": {
+				"Category": ["Misc Combat achievements", "Combat Mastery achievements"],
+				"BaseQuest": "Combat achievements",
+				"Chunks": ["Temple of Aminishi"],
+				"Tasks": {
+					"~|Combat achievements#Temple of Aminishi|~ Aminishi? Completed It, Mate": "Diary",
+					"~|Combat achievements#Temple of Aminishi|~ Died by the Blade!": "Diary",
+					"~|Combat achievements#Temple of Aminishi|~ Oops! Wrong Cult!": "Diary",
+					"~|Combat achievements#Temple of Aminishi|~ The Purple Dart": "Diary",
+					"~|Combat achievements#Temple of Aminishi|~ What Does Monster Examine Say About His Combat Level?": "Diary",
+					"~|Combat achievements#Temple of Aminishi|~ Masuta Master VI": "Diary",
+					"~|Combat achievements#Temple of Aminishi|~ Masuta Master Solo Kills VI": "Diary",
+					"~|Combat achievements#Temple of Aminishi|~ I'll Pulverise You!": "Diary",
+					"~|Combat achievements#Temple of Aminishi|~ Crabtivating VI": "Diary",
+					"~|Combat achievements#Temple of Aminishi|~ Crabtivating Solo Kills VI": "Diary",
+					"~|Combat achievements#Temple of Aminishi|~ Slay-ryu VI": "Diary",
+					"~|Combat achievements#Temple of Aminishi|~ Slay-ryu Solo Kills VI": "Diary",
+					"~|Combat achievements#Temple of Aminishi|~ Bless You, Seiryu": "Diary"
+				},
+				"Reward": [],
+				"RuneScore": 50,
+				"ManualShow": true,
+				"Not F2P": true
+			},
+			"~|Combat achievements#Dragonkin Laboratory|~ Chill Out, Bro!": {
+				"Category": ["Misc Combat achievements", "Combat Mastery achievements"],
+				"Description": "Hit at least 4 magma golems at the same time with Tsunami.",
+				"BaseQuest": "Combat achievements",
+				"Chunks": ["Dragonkin Laboratory (Story Mode)"],
+				"RuneScore": 10,
+				"Not F2P": true
+			},
+			"~|Combat achievements#Dragonkin Laboratory|~ Ebony and Irony": {
+				"Category": ["Misc Combat achievements", "Combat Mastery achievements"],
+				"Description": "Heal yourself using Resonance against Alanogard the Black while wielding a black dragonhide shield.",
+				"BaseQuest": "Combat achievements",
+				"Chunks": ["Dragonkin Laboratory (Story Mode)"],
+				"Items": ["Black dragonhide shield"],
+				"RuneScore": 10,
+				"Not F2P": true
+			},
+			"~|Combat achievements#Dragonkin Laboratory|~ Elder Souls": {
+				"Category": ["Misc Combat achievements", "Combat Mastery achievements"],
+				"Description": "Defeat the Emberbound Soul while having the chronicle attraction curse active.",
+				"BaseQuest": "Combat achievements",
+				"Chunks": ["Dragonkin Laboratory"],
+				"Tasks": {
+					"~|The Light Within|~ Complete the quest": "Quest"
+				},
+				"RuneScore": 10,
+				"Not F2P": true
+			},
+			"~|Combat achievements#Dragonkin Laboratory|~ Elite Dungeons and Dragons": {
+				"Category": ["Misc Combat achievements", "Combat Mastery achievements"],
+				"Description": "Defeat every miniboss inside the Dragonkin Laboratory.",
+				"BaseQuest": "Combat achievements",
+				"Chunks": ["Dragonkin Laboratory (Story Mode)"],
+				"RuneScore": 20,
+				"Not F2P": true
+			},
+			"~|Combat achievements#Dragonkin Laboratory|~ Goopy Bloop Boop": {
+				"Category": ["Misc Combat achievements", "Combat Mastery achievements"],
+				"Description": "Knockback a Laboratory Slime.",
+				"BaseQuest": "Combat achievements",
+				"Chunks": ["Dragonkin Laboratory (Story Mode)"],
+				"Items": ["Scare Tactics"],
+				"RuneScore": 5,
+				"Not F2P": true
+			},
+			"~|Combat achievements#Dragonkin Laboratory|~ Psychedelic Relics": {
+				"Category": ["Misc Combat achievements", "Combat Mastery achievements"],
+				"Description": "Disassemble 5 rare relics from elite dungeons.",
+				"BaseQuest": "Combat achievements",
+				"Items": ["Laboratory relic (rare)"],
+				"Tasks": {
+					"Unlock ~|Invention|~": "Invention"
+				},
+				"RuneScore": 10,
+				"Not F2P": true
+			},
+			"~|Combat achievements#Dragonkin Laboratory|~ Smoulders and Skully": {
+				"Category": ["Misc Combat achievements", "Combat Mastery achievements"],
+				"Description": "Kill Smoulders while wearing the Demonic Skull.",
+				"BaseQuest": "Combat achievements",
+				"Chunks": ["Dragonkin Laboratory"],
+				"Items": ["Demonic Skull"],
+				"RuneScore": 10,
+				"Not F2P": true
+			},
+			"~|Combat achievements#Dragonkin Laboratory|~ Spiderlogical Warfare": {
+				"Category": ["Misc Combat achievements", "Combat Mastery achievements"],
+				"Description": "Defeat Spyndra with one of Araxxi's legs, eyes, fang or web in your inventory.",
+				"BaseQuest": "Combat achievements",
+				"Chunks": ["Dragonkin Laboratory"],
+				"Items": ["Spider leg"],
+				"RuneScore": 10,
+				"Not F2P": true
+			},
+			"~|Combat achievements#Dragonkin Laboratory|~ You Won't Like Me When I'm Sangri": {
+				"Category": ["Misc Combat achievements", "Combat Mastery achievements"],
+				"Description": "Kill Sangri the Red while under the effect of Beserk.",
+				"BaseQuest": "Combat achievements",
+				"Chunks": ["Dragonkin Laboratory"],
+				"RuneScore": 10,
+				"Not F2P": true
+			},
+			"~|Combat achievements#Dragonkin Laboratory|~ Besting the Celestial VI": {
+				"Category": ["Misc Combat achievements", "Combat Mastery achievements"],
+				"Description": "Defeat Astellarn the First Celestial 100 times",
+				"BaseQuest": "Combat achievements",
+				"Monsters": ["Astellarn"],
+				"RuneScore": 25,
+				"Not F2P": true
+			},
+			"~|Combat achievements#Dragonkin Laboratory|~ Besting the Celestial Solo Kills VI": {
+				"Category": ["Misc Combat achievements", "Combat Mastery achievements"],
+				"Description": "Defeat Astellarn the First Celestial 100 times solo",
+				"BaseQuest": "Combat achievements",
+				"Monsters": ["Astellarn"],
+				"RuneScore": 30,
+				"Not F2P": true
+			},
+			"~|Combat achievements#Dragonkin Laboratory|~ Whack Stone Dragon VI": {
+				"Category": ["Misc Combat achievements", "Combat Mastery achievements"],
+				"Description": "Defeat the Black Stone Dragon 100 times",
+				"BaseQuest": "Combat achievements",
+				"Monsters": ["Black Stone Dragon"],
+				"RuneScore": 25,
+				"Not F2P": true
+			},
+			"~|Combat achievements#Dragonkin Laboratory|~ Whack Stone Dragon Solo Kills VI": {
+				"Category": ["Misc Combat achievements", "Combat Mastery achievements"],
+				"Description": "Defeat the Black Stone Dragon 100 times solo",
+				"BaseQuest": "Combat achievements",
+				"Monsters": ["Black Stone Dragon"],
+				"RuneScore": 25,
+				"Not F2P": true
+			},
+			"~|Combat achievements#Dragonkin Laboratory|~ Get Back, Hand!": {
+				"Category": ["Misc Combat achievements", "Combat Mastery achievements"],
+				"Description": "Use Backhand against a black hand during the Black Stone Dragon fight.",
+				"BaseQuest": "Combat achievements",
+				"Chunks": ["Dragonkin Laboratory (Story Mode)"],
+				"RuneScore": 5,
+				"Not F2P": true
+			},
+			"~|Combat achievements#Dragonkin Laboratory|~ Shadow Wave": {
+				"Category": ["Misc Combat achievements", "Combat Mastery achievements"],
+				"Description": "Wave goodbye to a black hand.",
+				"BaseQuest": "Combat achievements",
+				"Chunks": ["Dragonkin Laboratory (Story Mode)"],
+				"RuneScore": 5,
+				"Not F2P": true
+			},
+			"~|Combat achievements#Dragonkin Laboratory|~ Superiority Complex VI": {
+				"Category": ["Misc Combat achievements", "Combat Mastery achievements"],
+				"Description": "Defeat the Verak Lithn 100 times",
+				"BaseQuest": "Combat achievements",
+				"Monsters": ["Verak Lith"],
+				"RuneScore": 25,
+				"Not F2P": true
+			},
+			"~|Combat achievements#Dragonkin Laboratory|~ Superiority Complex Solo Kills VI": {
+				"Category": ["Misc Combat achievements", "Combat Mastery achievements"],
+				"Description": "Defeat the Verak Lithn 100 times solo",
+				"BaseQuest": "Combat achievements",
+				"Monsters": ["Verak Lith"],
+				"RuneScore": 30,
+				"Not F2P": true
+			},
+			"~|Combat achievements#Dragonkin Laboratory|~ Complete the Dragonkin Laboratory achievements": {
+				"Category": ["Misc Combat achievements", "Combat Mastery achievements"],
+				"BaseQuest": "Combat achievements",
+				"Chunks": ["Dragonkin Laboratory"],
+				"Tasks": {
+					"~|Combat achievements#Dragonkin Laboratory|~ Chill Out, Bro!": "Diary",
+					"~|Combat achievements#Dragonkin Laboratory|~ Ebony and Irony": "Diary",
+					"~|Combat achievements#Dragonkin Laboratory|~ Elder Souls": "Diary",
+					"~|Combat achievements#Dragonkin Laboratory|~ Elite Dungeons and Dragons": "Diary",
+					"~|Combat achievements#Dragonkin Laboratory|~ Goopy Bloop Boop": "Diary",
+					"~|Combat achievements#Dragonkin Laboratory|~ Psychedelic Relics": "Diary",
+					"~|Combat achievements#Dragonkin Laboratory|~ Smoulders and Skully": "Diary",
+					"~|Combat achievements#Dragonkin Laboratory|~ Spiderlogical Warfare": "Diary",
+					"~|Combat achievements#Dragonkin Laboratory|~ You Won't Like Me When I'm Sangri": "Diary",
+					"~|Combat achievements#Dragonkin Laboratory|~ Besting the Celestial VI": "Diary",
+					"~|Combat achievements#Dragonkin Laboratory|~ Besting the Celestial Solo Kills VI": "Diary",
+					"~|Combat achievements#Dragonkin Laboratory|~ Whack Stone Dragon VI": "Diary",
+					"~|Combat achievements#Dragonkin Laboratory|~ Whack Stone Dragon Solo Kills VI": "Diary",
+					"~|Combat achievements#Dragonkin Laboratory|~ Get Back, Hand!": "Diary",
+					"~|Combat achievements#Dragonkin Laboratory|~ Shadow Wave": "Diary",
+					"~|Combat achievements#Dragonkin Laboratory|~ Superiority Complex VI": "Diary",
+					"~|Combat achievements#Dragonkin Laboratory|~ Superiority Complex Solo Kills VI": "Diary"
+				},
+				"Reward": [],
+				"RuneScore": 50,
+				"ManualShow": true,
+				"Not F2P": true
+			},
+			"~|Combat achievements#Shadow Reef|~ Demon Duty": {
+				"Category": ["Misc Combat achievements", "Combat Mastery achievements"],
+				"Description": "Defeat Yor'Get the Deceiver while on a Kal'gerion demon slayer task.",
+				"BaseQuest": "Combat achievements",
+				"Chunks": ["The Shadow Reef"],
+				"NPCs": ["Kuradal"],
+				"RuneScore": 5,
+				"Not F2P": true
+			},
+			"~|Combat achievements#Shadow Reef|~ Griefing the Reef": {
+				"Category": ["Misc Combat achievements", "Combat Mastery achievements"],
+				"Description": "Defeat every miniboss inside the Shadow Reef.",
+				"BaseQuest": "Combat achievements",
+				"Chunks": ["The Shadow Reef (Story Mode)"],
+				"RuneScore": 20,
+				"Not F2P": true
+			},
+			"~|Combat achievements#Shadow Reef|~ I'm the Masuta Now": {
+				"Category": ["Misc Combat achievements", "Combat Mastery achievements"],
+				"Description": "Defeating Masuta the Descended while wielding Masuta's warspear.",
+				"BaseQuest": "Combat achievements",
+				"Chunks": ["The Shadow Reef"],
+				"Items": ["Masuta's warspear"],
+				"RuneScore": 5,
+				"Not F2P": true
+			},
+			"~|Combat achievements#Shadow Reef|~ Island Getaway": {
+				"Category": ["Misc Combat achievements", "Combat Mastery achievements"],
+				"Description": "Defeat Hanto while it is at least 4 tiles away from where it started.",
+				"BaseQuest": "Combat achievements",
+				"Chunks": ["The Shadow Reef"],
+				"Items": ["Scare Tactics"],
+				"RuneScore": 5,
+				"Not F2P": true
+			},
+			"~|Combat achievements#Shadow Reef|~ I've Got Your Face": {
+				"Category": ["Misc Combat achievements", "Combat Mastery achievements"],
+				"Description": "Defeat Quetzathog while wearing a black mask.",
+				"BaseQuest": "Combat achievements",
+				"Chunks": ["The Shadow Reef"],
+				"Items": ["Black mask"],
+				"RuneScore": 5,
+				"Not F2P": true
+			},
+			"~|Combat achievements#Shadow Reef|~ Kraken the Whip": {
+				"Category": ["Misc Combat achievements", "Combat Mastery achievements"],
+				"Description": "Hit Boggoth using a lava whip's special attack.",
+				"BaseQuest": "Combat achievements",
+				"Chunks": ["The Shadow Reef (Story Mode)"],
+				"Items": ["Lava whip"],
+				"RuneScore": 5,
+				"Not F2P": true
+			},
+			"~|Combat achievements#Shadow Reef|~ Monkey Sadness": {
+				"Category": ["Misc Combat achievements", "Combat Mastery achievements"],
+				"Description": "Defeat Bossy McBossface's first mate.",
+				"BaseQuest": "Combat achievements",
+				"Chunks": ["The Shadow Reef"],
+				"RuneScore": 5,
+				"Not F2P": true
+			},
+			"~|Combat achievements#Shadow Reef|~ She Smells Sea Smells by the Sea Floor": {
+				"Category": ["Misc Combat achievements", "Combat Mastery achievements"],
+				"Description": "Show Shrine Maiden Elei some sushi.",
+				"BaseQuest": "Combat achievements",
+				"Chunks": ["The Shadow Reef (Story Mode)"],
+				"Items": ["Great maki"],
+				"RuneScore": 5,
+				"Not F2P": true
+			},
+			"~|Combat achievements#Shadow Reef|~ The Black Stone Trilogy": {
+				"Category": ["Misc Combat achievements", "Combat Mastery achievements"],
+				"Description": "Defeat Seiryu the Azure Serpent, the Black Stone Dragon and the Ambassador consecutively",
+				"BaseQuest": "Combat achievements",
+				"Chunks": ["The Shadow Reef", "The Temple of Aminishi", "Dragonkin Laboratory"],
+				"RuneScore": 20,
+				"Not F2P": true
+			},
+			"~|Combat achievements#Shadow Reef|~ Ambassador No Maw VI": {
+				"Category": ["Misc Combat achievements", "Combat Mastery achievements"],
+				"Description": "Defeat the Ambassador 100 times",
+				"BaseQuest": "Combat achievements",
+				"Monsters": ["The Ambassador"],
+				"RuneScore": 25,
+				"Not F2P": true
+			},
+			"~|Combat achievements#Shadow Reef|~ Ambassador No Maw Solo Kills VI": {
+				"Category": ["Misc Combat achievements", "Combat Mastery achievements"],
+				"Description": "Defeat the Ambassador 100 times solo",
+				"BaseQuest": "Combat achievements",
+				"Monsters": ["The Ambassador"],
+				"RuneScore": 30,
+				"Not F2P": true
+			},
+			"~|Combat achievements#Shadow Reef|~ Denied the Hydra VI": {
+				"Category": ["Misc Combat achievements", "Combat Mastery achievements"],
+				"Description": "Defeat the Crassian Leviathan 100 times",
+				"BaseQuest": "Combat achievements",
+				"Monsters": ["Crassian Leviathan"],
+				"RuneScore": 25,
+				"Not F2P": true
+			},
+			"~|Combat achievements#Shadow Reef|~ Denied the Hydra Solo Kills VI": {
+				"Category": ["Misc Combat achievements", "Combat Mastery achievements"],
+				"Description": "Defeat the Crassian Leviathan 100 times solo",
+				"BaseQuest": "Combat achievements",
+				"Monsters": ["Crassian Leviathan"],
+				"RuneScore": 30,
+				"Not F2P": true
+			},
+			"~|Combat achievements#Shadow Reef|~ Hail Hydra": {
+				"Category": ["Misc Combat achievements", "Combat Mastery achievements"],
+				"Description": "Hit the Crassian Leviathan using Ice Barrage.",
+				"BaseQuest": "Combat achievements",
+				"Chunks": ["The Shadow Reef (Story Mode)"],
+				"RuneScore": 10,
+				"Items": ["Blood rune", "Water rune[+]"],
+				"Not F2P": true
+			},
+			"~|Combat achievements#Shadow Reef|~ Reset To Phylactery Settings VI": {
+				"Category": ["Misc Combat achievements", "Combat Mastery achievements"],
+				"Description": "Defeat Taraket the Necromancer 100 times",
+				"BaseQuest": "Combat achievements",
+				"Monsters": ["Taraket the Necromancer"],
+				"RuneScore": 25,
+				"Not F2P": true
+			},
+			"~|Combat achievements#Shadow Reef|~ Reset To Phylactery Settings Solo Kills VI": {
+				"Category": ["Misc Combat achievements", "Combat Mastery achievements"],
+				"Description": "Defeat Taraket the Necromancer 100 times solo",
+				"BaseQuest": "Combat achievements",
+				"Monsters": ["Taraket the Necromancer"],
+				"RuneScore": 30,
+				"Not F2P": true
+			},
+			"~|Combat achievements#Shadow Reef|~ Complete the Shadow Reef achievements": {
+				"Category": ["Misc Combat achievements", "Combat Mastery achievements"],
+				"BaseQuest": "Combat achievements",
+				"Chunks": ["The Shadow Reef"],
+				"Tasks": {
+					"~|Combat achievements#Shadow Reef|~ Demon Duty": "Diary",
+					"~|Combat achievements#Shadow Reef|~ Griefing the Reef": "Diary",
+					"~|Combat achievements#Shadow Reef|~ I'm the Masuta Now": "Diary",
+					"~|Combat achievements#Shadow Reef|~ Island Getaway": "Diary",
+					"~|Combat achievements#Shadow Reef|~ I've Got Your Face": "Diary",
+					"~|Combat achievements#Shadow Reef|~ Kraken the Whip": "Diary",
+					"~|Combat achievements#Shadow Reef|~ Monkey Sadness": "Diary",
+					"~|Combat achievements#Shadow Reef|~ She Smells Sea Smells by the Sea Floor": "Diary",
+					"~|Combat achievements#Shadow Reef|~ The Black Stone Trilogy": "Diary",
+					"~|Combat achievements#Shadow Reef|~ Ambassador No Maw VI": "Diary",
+					"~|Combat achievements#Shadow Reef|~ Ambassador No Maw Solo Kills VI": "Diary",
+					"~|Combat achievements#Shadow Reef|~ Denied the Hydra VI": "Diary",
+					"~|Combat achievements#Shadow Reef|~ Denied the Hydra Solo Kills VI": "Diary",
+					"~|Combat achievements#Shadow Reef|~ Hail Hydra": "Diary",
+					"~|Combat achievements#Shadow Reef|~ Reset To Phylactery Settings VI": "Diary",
+					"~|Combat achievements#Shadow Reef|~ Reset To Phylactery Settings Solo Kills VI": "Diary"
+				},
+				"Reward": [],
+				"RuneScore": 50,
+				"ManualShow": true,
+				"Not F2P": true
+			},
+			"~|Combat achievements#Zamorakian Undercity|~ Zamo-whacked VI": {
+				"Category": ["Misc Combat achievements", "Combat Mastery achievements"],
+				"Description": "Defeat Zamorak, Lord of Chaos 100 times",
+				"BaseQuest": "Combat achievements",
+				"Monsters": ["Zamorak, Lord of Chaos"],
+				"RuneScore": 25,
+				"Not F2P": true
+			},
+			"~|Combat achievements#Zamorakian Undercity|~ Are You Winning, Zam? V": {
+				"Category": ["Misc Combat achievements", "Combat Mastery achievements"],
+				"Description": "Defeat Zamorak at 750% enrage in a solo encouter.",
+				"BaseQuest": "Combat achievements",
+				"Monsters": ["Zamorak, Lord of Chaos"],
+				"RuneScore": 55,
+				"Not F2P": true
+			},
+			"~|Combat achievements#Zamorakian Undercity|~ Lord of Chaos (Bronze)": {
+				"Category": ["Misc Combat achievements", "Combat Mastery achievements"],
+				"Description": "Defeat Zamorak, Lord of Chaos in a group at 1,000% enrage",
+				"BaseQuest": "Combat achievements",
+				"Monsters": ["Zamorak, Lord of Chaos"],
+				"RuneScore": 25,
+				"Not F2P": true
+			},
+			"~|Combat achievements#Zamorakian Undercity|~ Dont Go Wandering Down Dark Alleys Alone": {
+				"Category": ["Misc Combat achievements", "Combat Mastery achievements"],
+				"Description": "Defeat every miniboss inside the Zamorakian Undercity.",
+				"BaseQuest": "Combat achievements",
+				"Chunks": ["Zamorakian Undercity"],
+				"RuneScore": 20,
+				"Not F2P": true
+			},
+			"~|Combat achievements#Zamorakian Undercity|~ You Ain't Nothin' But A Hound Dog": {
+				"Category": ["Misc Combat achievements", "Combat Mastery achievements"],
+				"Description": "Kill Cerberus Juvenile whilst using a hellhound familiar",
+				"BaseQuest": "Combat achievements",
+				"Chunks": ["Zamorakian Undercity"],
+				"Items": ["Binding contract (hellhound)"],
+				"RuneScore": 5,
+				"Not F2P": true
+			},
+			"~|Combat achievements#Zamorakian Undercity|~ IT'S SUPER EFFECTIVE!": {
+				"Category": ["Misc Combat achievements", "Combat Mastery achievements"],
+				"Description": "Kill Smoulders whilst using a waterfiend familiar.",
+				"BaseQuest": "Combat achievements",
+				"Chunks": ["Zamorakian Undercity"],
+				"Items": ["Binding contract (waterfiend)"],
+				"RuneScore": 5,
+				"Not F2P": true
+			},
+			"~|Combat achievements#Zamorakian Undercity|~ How Do You Do, Fellow Demon": {
+				"Category": ["Misc Combat achievements", "Combat Mastery achievements"],
+				"Description": "Use a Great Demon Mask on the Denizen of Infernus.",
+				"BaseQuest": "Combat achievements",
+				"Chunks": ["Zamorakian Undercity"],
+				"Items": ["Greater demon mask"],
+				"RuneScore": 5,
+				"Not F2P": true
+			},
+			"~|Combat achievements#Zamorakian Undercity|~ By Three They Come": {
+				"Category": ["Misc Combat achievements", "Combat Mastery achievements"],
+				"Description": "Offer up three sets of bones to a sacrificial altar.",
+				"BaseQuest": "Combat achievements",
+				"Chunks": ["Zamorakian Undercity"],
+				"Items": ["Bones"],
+				"RuneScore": 5,
+				"Not F2P": true
+			},
+			"~|Combat achievements#Zamorakian Undercity|~ The Red Wedding": {
+				"Category": ["Misc Combat achievements", "Combat Mastery achievements"],
+				"Description": "Take a part in a Zamorakian wedding ceremony inside the chaos church. Requires a preacher with an unholy book, and at least two participants with the Retribution prayer active.",
+				"BaseQuest": "Combat achievements",
+				"Chunks": ["Zamorakian Undercity"],
+				"RuneScore": 5,
+				"Not F2P": true
+			},
+			"~|Combat achievements#Zamorakian Undercity|~ The Infernal Sauce": {
+				"Category": ["Misc Combat achievements", "Combat Mastery achievements"],
+				"Description": "Find and follow the recipe for the Infernal Sauce.",
+				"BaseQuest": "Combat achievements",
+				"Chunks": ["Zamorakian Undercity", "Basement of Doom"],
+				"Items": ["Fire rune", "Lava rune", "Tomato", "Onion", "Red hot sauce"],
+				"Tasks": {
+					"~|Recipe for Disaster: Freeing Evil Dave|~ Complete the subquest": "Quest"
+				},
+				"RuneScore": 10,
+				"Not F2P": true
+			},
+			"~|Combat achievements#Zamorakian Undercity|~ Complete the Zamorakian Undercity achievements": {
+				"Category": ["Misc Combat achievements", "Combat Mastery achievements"],
+				"BaseQuest": "Combat achievements",
+				"Chunks": ["Zamorakian Undercity"],
+				"Tasks": {
+					"~|Combat achievements#Zamorakian Undercity|~ Zamo-whacked VI": "Diary",
+					"~|Combat achievements#Zamorakian Undercity|~ Are You Winning, Zam? V": "Diary",
+					"~|Combat achievements#Zamorakian Undercity|~ Lord of Chaos (Bronze)": "Diary",
+					"~|Combat achievements#Zamorakian Undercity|~ Dont Go Wandering Down Dark Alleys Alone": "Diary",
+					"~|Combat achievements#Zamorakian Undercity|~ You Ain't Nothin' But A Hound Dog": "Diary",
+					"~|Combat achievements#Zamorakian Undercity|~ IT'S SUPER EFFECTIVE!": "Diary",
+					"~|Combat achievements#Zamorakian Undercity|~ How Do You Do, Fellow Demon": "Diary",
+					"~|Combat achievements#Zamorakian Undercity|~ By Three They Come": "Diary",
+					"~|Combat achievements#Zamorakian Undercity|~ The Red Wedding": "Diary",
+					"~|Combat achievements#Zamorakian Undercity|~ The Infernal Sauce": "Diary"
+				},
+				"Reward": [],
+				"RuneScore": 50,
+				"ManualShow": true,
+				"Not F2P": true
+			},
+			"~|Combat achievements#War's Retreat|~ On the Warpath": {
+				"Category": ["Misc Combat achievements", "Combat Mastery achievements", "No RuneScore"],
+				"Description": "Gain combat level 60, the recommended level to train under War in his retreat.",
+				"BaseQuest": "Combat achievements",
+				"Chunks": ["War's Retreat"],
+				"Skills": {
+					"Combat": 60
+				}
+			},
+			"~|Combat achievements#War's Retreat|~ Relight My Fire": {
+				"Category": ["Misc Combat achievements", "Combat Mastery achievements"],
+				"Description": "Unlock the mentioned bonfire upgrades from War's store.",
+				"BaseQuest": "Combat achievements",
+				"Chunks": ["War's Retreat"],
+				"Monsters": ["AnyBoss[+]"],
+				"Items": ["Oak logs", "Willow logs", "Maple logs", "Yew logs", "Magic logs", "Elder logs", "Eternal magic logs"],
+				"RuneScore": 30,
+				"Not F2P": true
+			},
+			"~|Combat achievements#War's Retreat|~ Tactical Retreat": {
+				"Category": ["Misc Combat achievements", "Combat Mastery achievements"],
+				"Description": "Unlock the War's Retreat teleport spell.",
+				"BaseQuest": "Combat achievements",
+				"Chunks": ["War's Retreat"],
+				"Monsters": ["AnyBoss[+]"],
+				"RuneScore": 5
+			},
+			"~|Combat achievements#War's Retreat|~ Fighting on Two Fronts": {
+				"Category": ["Misc Combat achievements", "Combat Mastery achievements"],
+				"Description": "Unlock the second attunable portal at War's Retreat.",
+				"BaseQuest": "Combat achievements",
+				"Chunks": ["War's Retreat"],
+				"Monsters": ["AnyBoss[+]"],
+				"RuneScore": 10
+			},
+			"~|Combat achievements#War's Retreat|~ On a Mission from War": {
+				"Category": ["Misc Combat achievements", "Combat Mastery achievements"],
+				"Description": "Unlock the Altar of War at War's Retreat.",
+				"BaseQuest": "Combat achievements",
+				"Chunks": ["War's Retreat"],
+				"Monsters": ["AnyBoss[+]"],
+				"RuneScore": 15
+			},
+			"~|Combat achievements#War's Retreat|~ Channelled Fury": {
+				"Category": ["Misc Combat achievements", "Combat Mastery achievements"],
+				"Description": "Unlock the adrenaline crystal at War's Retreat",
+				"BaseQuest": "Combat achievements",
+				"Chunks": ["War's Retreat"],
+				"Monsters": ["AnyBoss[+]"],
+				"RuneScore": 30
+			},
+			"~|Combat achievements#War's Retreat|~ Second Wind": {
+				"Category": ["Misc Combat achievements", "Combat Mastery achievements"],
+				"Description": "Unlock the ability to refresh the cooldown of adrenaline potions using the adrenaline crystals at War's Retreat.",
+				"BaseQuest": "Combat achievements",
+				"Chunks": ["War's Retreat"],
+				"Monsters": ["AnyBoss[+]"],
+				"RuneScore": 30
+			},
+			"~|Combat achievements#War's Retreat|~ Cooling down": {
+				"Category": ["Misc Combat achievements", "Combat Mastery achievements"],
+				"Description": "Unlock the ability to refresh ability cooldowns at the Altar of War Upgrade at War's Retreat",
+				"BaseQuest": "Combat achievements",
+				"Chunks": ["War's Retreat"],
+				"Monsters": ["AnyBoss[+]"],
+				"RuneScore": 15
+			},
+			"~|Combat achievements#War's Retreat|~ A Change of Pace": {
+				"Category": ["Misc Combat achievements", "Combat Mastery achievements"],
+				"Description": "Unlock the ability to change your spellbook using War's Grimoire at War's Retreat",
+				"BaseQuest": "Combat achievements",
+				"Chunks": ["War's Retreat"],
+				"Monsters": ["AnyBoss[+]"],
+				"RuneScore": 30
+			},
+			"~|Combat achievements#War's Retreat|~ Complete the War's Retreat achievements": {
+				"Category": ["Misc Combat achievements", "Combat Mastery achievements"],
+				"BaseQuest": "Combat achievements",
+				"Chunks": ["War's Retreat"],
+				"Tasks": {
+					"~|Combat achievements#War's Retreat|~ On the Warpath": "Diary",
+					"~|Combat achievements#War's Retreat|~ Relight My Fire": "Diary",
+					"~|Combat achievements#War's Retreat|~ Tactical Retreat": "Diary",
+					"~|Combat achievements#War's Retreat|~ Fighting on Two Fronts": "Diary",
+					"~|Combat achievements#War's Retreat|~ On a Mission from War": "Diary",
+					"~|Combat achievements#War's Retreat|~ Channelled Fury": "Diary",
+					"~|Combat achievements#War's Retreat|~ Second Wind": "Diary",
+					"~|Combat achievements#War's Retreat|~ Cooling down": "Diary",
+					"~|Combat achievements#War's Retreat|~ A Change of Pace": "Diary"
+				},
+				"Reward": [],
+				"RuneScore": 50,
+				"ManualShow": true,
+				"Not F2P": true
+			},
+			"~|Combat achievements#Misc|~ Who's the Boss? VI": {
+				"Category": ["Misc Combat achievements", "Combat Mastery achievements"],
+				"Description": "Kill 5,000 total bosses.",
+				"BaseQuest": "Combat achievements",
+				"Monsters": ["AnyBoss[+]"],
+				"RuneScore": 30
+			},
+			"~|Combat achievements#Misc|~ Unlocking Expertise": {
+				"Category": ["Misc Combat achievements", "Combat Mastery achievements"],
+				"Description": "Unlock all unlockable abilities",
+				"BaseQuest": "Combat achievements",
+				"Items": [
+					"Codex Ultimatus", 
+					"Tuska's Wrath ability codex", 
+					"Mazcab ability codex", 
+					"Reprisal ability codex", 
+					"Bladed Dive ability", 
+					"Greater Fury ability codex", 
+					"Great Flurry ability codex", 
+					"Greater Barge ability codex",
+					"Divert ability codex",
+					"Greater Chain ability codex",
+					"Greater Ricochet ability codex",
+					"Greater Concentrated blast ability codex",
+					"Magma Tempest ability codex",
+					"Chaos Roar ability codex",
+					"Greater Death's Swiftness ability codex",
+					"Greater Sunshine ability codex",
+					"Greater Sonic Wave ability codex"
+				],
+				"Tasks": {
+					"~|The Dig Site|~ Complete the quest": "Quest",
+					"~|The World Wakes|~ Complete the quest": "Quest",
+					"~|One Piercing Note|~ Complete the quest": "Quest"
+				},
+				"RuneScore": 75
+			},
+			"~|Combat achievements#Misc|~ Complete the Misc achievements": {
+				"Category": ["Misc Combat achievements", "Combat Mastery achievements"],
+				"BaseQuest": "Combat achievements",
+				"Tasks": {
+					"~|Combat achievements#Misc|~ Who's the Boss? VI": "Diary",
+					"~|Combat achievements#Misc|~ Unlocking Expertise": "Diary"
+				},
+				"Reward": [],
+				"ManualShow": true,
+				"Not F2P": true
 			}
 		},
 		"Extra": {
@@ -234910,7 +236511,8 @@
 		"Completionist achievements": "Master Quest Cape, Completionist Cape, Trimmed Completionist Cape",
 		"Skills achievements": "Agility, Archaeology, Combat (Skills), Cooking, Construction, Crafting, Dungeoneering, Divination, Farming, Fishing, Firemaking, Fletching, Herblore, Hunter, Invention, Magic, Mining, Necromancy, Prayer, Runecrafting, Slayer, Smithing, Summoning, Thieving, Woodcutting, Croesus, The Gate of Elidinis",
 		"Exploration achievements": "Lodestones, Anachronia, The Arc, City of Um, Fort Forinthry, Havenhythe, Het's Oasis, Menaphos, Prifddinas, Senntisten, Zolarea",
-		"Activities achievements": "'Accidental' Skilling, Distractions & Diversions, Eating, Just for Fun, Memory of Nomad, Minigames, Player-Owned Port"
+		"Activities achievements": "'Accidental' Skilling, Distractions & Diversions, Eating, Just for Fun, Memory of Nomad, Minigames, Player-Owned Port",
+		"Combat achievements": "Bosses A-K, Bosses L-Z, God Wars Dungeon, Heart of Gielinor, Temple of Aminishi, Dragonkin Laboratory, Shadow Reef, Zamorakian Undercity, War's Retreat, Misc"
 	},
 	"clues": {
 		"easy": {
