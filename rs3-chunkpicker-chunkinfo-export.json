@@ -100508,8 +100508,7 @@
 				"Description": "Speak to Lady Grey",
 				"Chunks": ["City of Um"],
 				"Tasks": {
-					"~|Necromancy!|~ Complete the quest": "Quest",
-					"~|The Blood Pact|~ Complete the quest": "Quest"
+					"~|Necromancy!|~ Complete the quest": "Quest"
 				},
 				"Skills": {
 					"Necromancy": 32
@@ -100517,17 +100516,49 @@
 				"Not F2P": true,
 				"NoBoost": true
 			},
-			"~|That Old Black Magic|~ 2": {
-				"BaseQuest": "That Old Black Magic",
-				"Description": "Kill Dragith Nurn and bring back Lady Grey's guitar",
-				"Chunks": ["Lumbridge Catacombs", "City of Um"],
+			"~|That Old Black Magic: My One and Only Lute|~ 1": {
+				"BaseQuest": "That Old Black Magic: My One and Only Lute",
+				"Description": "Speak to Lady Grey",
+				"Chunks": ["City of Um"],
 				"Tasks": {
-					"~|That Old Black Magic|~ 1": "Quest"
+					"~|That Old Black Magic|~ 1": "Quest",
+					"~|The Blood Pact|~ Complete the quest": "Quest"
 				},
 				"Not F2P": true
 			},
-			"~|That Old Black Magic|~ 3a1": {
-				"BaseQuest": "That Old Black Magic",
+			"~|That Old Black Magic: My One and Only Lute|~ 2": {
+				"BaseQuest": "That Old Black Magic: My One and Only Lute",
+				"Description": "Kill Dragith Nurn and bring back Lady Grey's guitar",
+				"Chunks": ["Lumbridge Catacombs", "City of Um"],
+				"Tasks": {
+					"~|That Old Black Magic: My One and Only Lute|~ 1": "Quest"
+				},
+				"Not F2P": true
+			},
+			"~|That Old Black Magic: My One and Only Lute|~ Complete the subquest": {
+				"BaseQuest": "That Old Black Magic: My One and Only Lute",
+				"Chunks": ["City of Um"],
+				"Tasks": {
+					"~|That Old Black Magic: My One and Only Lute|~ 2": "Quest"
+				},
+				"QuestPoints": 0,
+				"RuneScore": 10,
+				"XpReward": {
+					"Necromancy": 5000
+				},
+				"Not F2P": true
+			},
+			"~|That Old Black Magic: Skelly By Everlight|~ 1": {
+				"BaseQuest": "That Old Black Magic: Skelly By Everlight",
+				"Description": "Speak to Lady Grey",
+				"Chunks": ["City of Um"],
+				"Tasks": {
+					"~|That Old Black Magic: My One and Only Lute|~ Complete the subquest": "Quest"
+				},
+				"Not F2P": true
+			},
+			"~|That Old Black Magic: Skelly By Everlight|~ 2": {
+				"BaseQuest": "That Old Black Magic: Skelly By Everlight",
 				"Description": "Perform any ritual using a Speed I glyph, then speak to 'No Gums' Murray",
 				"Chunks": ["City of Um"],
 				"Items": ["Ectoplasm", "Regular ghostly ink", "Basic ghostly ink"],
@@ -100535,98 +100566,153 @@
 					"Necromancy": 45
 				},
 				"Tasks": {
-					"~|That Old Black Magic|~ 2": "Quest"
+					"~|That Old Black Magic: Skelly By Everlight|~ 1": "Quest"
 				},
+				"NoBoost": true,
 				"Not F2P": true
 			},
-			"~|That Old Black Magic|~ 3a2": {
+			"~|That Old Black Magic: Skelly By Everlight|~ 3": {
 				"BaseQuest": "That Old Black Magic",
 				"Description": "Return to Murray with a restored Everlight Trumpet",
 				"Chunks": ["City of Um"],
 				"Items": ["Everlight trumpet"],
 				"Tasks": {
-					"~|That Old Black Magic|~ 3a1": "Quest"
+					"~|That Old Black Magic: Skelly By Everlight|~ 2": "Quest"
 				},
 				"Not F2P": true
 			},
-			"~|That Old Black Magic|~ 3a3": {
-				"BaseQuest": "That Old Black Magic",
+			"~|That Old Black Magic: Skelly By Everlight|~ 4": {
+				"BaseQuest": "That Old Black Magic: Skelly By Everlight",
 				"Description": "Perform an ensoul trumpet ritual and speak to Murray again",
 				"Chunks": ["City of Um"],
 				"Items": ["Basic ghostly ink", "Regular ghostly ink", "RitualLightSource[+]", "Everlight trumpet"],
 				"Tasks": {
-					"~|That Old Black Magic|~ 3a2": "Quest"
+					"~|That Old Black Magic: Skelly By Everlight|~ 3": "Quest"
 				},
 				"Not F2P": true
 			},
-			"~|That Old Black Magic|~ 3b1": {
-				"BaseQuest": "That Old Black Magic",
+			"~|That Old Black Magic: Skelly By Everlight|~ Complete the subquest": {
+				"BaseQuest": "That Old Black Magic: Skelly By Everlight",
+				"Chunks": ["City of Um"],
+				"Tasks": {
+					"~|That Old Black Magic: Skelly By Everlight|~ 4": "Quest"
+				},
+				"QuestPoints": 0,
+				"RuneScore": 10,
+				"XpReward": {
+					"Necromancy": 7500
+				},
+				"Not F2P": true
+			},
+			"~|That Old Black Magic: Flesh and Bone|~ 1": {
+				"BaseQuest": "That Old Black Magic: Flesh and Bone",
 				"Description": "Speak to Zommy 'Brains' Walker",
 				"Chunks": ["City of Um"],
 				"Skills": {
 					"Necromancy": 50
 				},
 				"Tasks": {
-					"~|That Old Black Magic|~ 2": "Quest"
+					"~|That Old Black Magic: My One and Only Lute|~ Complete the subquest": "Quest"
 				},
+				"NoBoost": true,
 				"Not F2P": true
 			},
-			"~|That Old Black Magic|~ 3b2": {
-				"BaseQuest": "That Old Black Magic",
+			"~|That Old Black Magic: Flesh and Bone|~ 2": {
+				"BaseQuest": "That Old Black Magic: Flesh and Bone",
 				"Description": "Bring the Former Master Crafter 520 bone runes and 360 flesh runes",
 				"Chunks": ["City of Um"],
 				"Items": ["Bone rune", "Flesh rune"],
 				"Tasks": {
-					"~|That Old Black Magic|~ 3b1": "Quest"
+					"~|That Old Black Magic: Flesh and Bone|~ 1": "Quest"
 				},
 				"Not F2P": true
 			},
-			"~|That Old Black Magic|~ 3b3": {
-				"BaseQuest": "That Old Black Magic",
+			"~|That Old Black Magic: Flesh and Bone|~ 3": {
+				"BaseQuest": "That Old Black Magic: Flesh and Bone",
 				"Description": "Return to Zommy",
 				"Chunks": ["City of Um"],
 				"Tasks": {
-					"~|That Old Black Magic|~ 3b2": "Quest"
+					"~|That Old Black Magic: Flesh and Bone|~ 2": "Quest"
 				},
 				"Not F2P": true
 			},
-			"~|That Old Black Magic|~ 3c1": {
-				"BaseQuest": "That Old Black Magic",
+			"~|That Old Black Magic: Flesh and Bone|~ Complete the subquest": {
+				"BaseQuest": "That Old Black Magic: Flesh and Bone",
+				"Chunks": ["City of Um"],
+				"Tasks": {
+					"~|That Old Black Magic: Flesh and Bone|~ 3": "Quest"
+				},
+				"QuestPoints": 0,
+				"RuneScore": 10,
+				"XpReward": {
+					"Necromancy": 12500
+				},
+				"Not F2P": true
+			},
+			"~|That Old Black Magic: Hermy and Bass|~ 1": {
+				"BaseQuest": "That Old Black Magic: Hermy and Bass",
+				"Description": "Speak to Lady Grey",
+				"Chunks": ["Rasial's Citadel", "City of Um"],
+				"Tasks": {
+					"~|That Old Black Magic: My One and Only Lute|~ Complete the subquest": "Quest",
+					"~|The Spirit of War|~ Complete the quest": "Quest"
+				},
+				"Skills": {
+					"Necromancy": 65
+				},
+				"NoBoost": true,
+				"Not F2P": true
+			},
+			"~|That Old Black Magic: Hermy and Bass|~ 2": {
+				"BaseQuest": "That Old Black Magic: Hermy and Bass",
 				"Description": "Defeat Hermod and free The Spirit of Rhythm, and talk to him in Um",
 				"Chunks": ["Rasial's Citadel", "City of Um"],
 				"Tasks": {
-					"~|That Old Black Magic|~ 2": "Quest",
-					"~|The Spirit of War|~ Complete the quest": "Quest"
+					"~|That Old Black Magic: Hermy and Bass|~ 1": "Quest"
 				},
 				"Not F2P": true
 			},
-			"~|That Old Black Magic|~ 3c2": {
-				"BaseQuest": "That Old Black Magic",
+			"~|That Old Black Magic: Hermy and Bass|~ 3": {
+				"BaseQuest": "That Old Black Magic: Hermy and Bass",
 				"Description": "Obtain the animated drumsticks from Hermod and speak to Lady Grey",
 				"Chunks": ["City of Um"],
 				"Items": ["Animated drumsticks"],
 				"Tasks": {
-					"~|That Old Black Magic|~ 3c1": "Quest"
+					"~|That Old Black Magic: Hermy and Bass|~ 2": "Quest"
 				},
 				"Not F2P": true
 			},
-			"~|That Old Black Magic|~ 3c3": {
-				"BaseQuest": "That Old Black Magic",
+			"~|That Old Black Magic: Hermy and Bass|~ 4": {
+				"BaseQuest": "That Old Black Magic: Hermy and Bass",
 				"Description": "Speak to the drummer, then to Ed, then find the four drums on the lake. Finally, return to the drummer.",
 				"Chunks": ["City of Um"],
 				"Tasks": {
-					"~|That Old Black Magic|~ 3c2": "Quest"
+					"~|That Old Black Magic: Hermy and Bass|~ 3": "Quest"
 				},
 				"Not F2P": true
 			},
-			"~|That Old Black Magic|~ 4": {
+			"~|That Old Black Magic: Hermy and Bass|~ Complete the subquest": {
+				"BaseQuest": "That Old Black Magic: Hermy and Bass",
+				"Chunks": ["City of Um"],
+				"Tasks": {
+					"~|That Old Black Magic: Hermy and Bass|~ 4": "Quest"
+				},
+				"QuestPoints": 0,
+				"RuneScore": 10,
+				"XpReward": {
+					"Necromancy": 20000
+				},
+				"Not F2P": true
+			},
+			"~|That Old Black Magic|~ 2": {
 				"BaseQuest": "That Old Black Magic",
 				"Description": "Reunite the band and enjoy Scape Jazz",
 				"Chunks": ["City of Um"],
 				"Tasks": {
-					"~|That Old Black Magic|~ 3a3": "Quest",
-					"~|That Old Black Magic|~ 3b3": "Quest",
-					"~|That Old Black Magic|~ 3c3": "Quest"
+					"~|That Old Black Magic: My One and Only Lute|~ Complete the subquest": "Quest",
+					"~|That Old Black Magic: Skelly By Everlight|~ Complete the subquest": "Quest",
+					"~|That Old Black Magic: Flesh and Bone|~ Complete the subquest": "Quest",
+					"~|That Old Black Magic: Hermy and Bass|~ Complete the subquest": "Quest"
 				},
 				"Not F2P": true
 			},
@@ -100634,7 +100720,7 @@
 				"BaseQuest": "That Old Black Magic",
 				"Chunks": ["City of Um"],
 				"Tasks": {
-					"~|That Old Black Magic|~ 4": "Quest"
+					"~|That Old Black Magic|~ 2": "Quest"
 				},
 				"QuestPoints": 1,
 				"XpReward": {
@@ -218736,7 +218822,7 @@
 			"Quest": {
 				"The Blood Pact": "step",
 				"Tales of Nomad (miniquest)": "step",
-				"That Old Black Magic": "step"
+				"That Old Black Magic: My One and Only Lute": "step"
 			}
 		},
 		"Crucible": {
@@ -224982,6 +225068,10 @@
 				"Rune Mythos": "first",
 				"The Spirit of War": "first",
 				"That Old Black Magic": "first",
+				"That Old Black Magic: My One and Only Lute": "first",
+				"That Old Black Magic: Skelly By Everlight": "first",
+				"That Old Black Magic: Flesh and Bone": "first",
+				"That Old Black Magic: Hermy and Bass": "first",
 				"Tomes of the Warlock": "first",
 				"Vessel of the Harbinger": "first",
 				"Housing of Parliament": "first",
@@ -225041,7 +225131,7 @@
 			"Quest": {
 				"Alpha vs Omega": "step",
 				"The Spirit of War": "step",
-				"That Old Black Magic": "step"
+				"That Old Black Magic: Hermy and Bass": "step"
 			},
 			"Connect": {
 				"23": true
@@ -291182,7 +291272,11 @@
 		"Tears of Guthix": "Tears of Guthix cavern",
 		"The Temple at Senntisten": "13613, 13364, Senntisten Temple, The Barrows, Ghorrock Fortress Dungeon, 13365",
 		"Temple of Ikov": "10291, Temple of Ikov, 12342",
-		"That Old Black Magic": "City of Um, Lumbridge Catacombs, Rasial's Citadel",
+		"That Old Black Magic": "City of Um",
+		"That Old Black Magic: My One and Only Lute": "City of Um, Lumbridge Catacombs",
+		"That Old Black Magic: Skelly By Everlight": "City of Um",
+		"That Old Black Magic: Flesh and Bone": "City of Um",
+		"That Old Black Magic: Hermy and Bass": "City of Um, Rasial's Citadel",
 		"Throne of Miscellania": "10044, 10300",
 		"TokTz-Ket-Dill": "TzHaar City, 12854, TzHaar Caves",
 		"Tomes of the Warlock": "City of Um, 10288, 12337, 12586, 12853, 12854, 13361, 13364",
@@ -292833,10 +292927,10 @@
 				"Members only": "Nonskill"
 			}],
 			"Lady Grey's guitar^": [{
-				"~|That Old Black Magic|~ 2": "Quest"
+				"~|That Old Black Magic: My One and Only Lute|~ 1": "Quest"
 			}],
 			"Animated drumsticks^": [{
-				"~|That Old Black Magic|~ 3c1": "Quest"
+				"~|That Old Black Magic: Hermy and Bass|~ 2": "Quest"
 			}],
 			"Corruption sigil^": [{
 				"Obtain a dragon defender": "Nonskill"
