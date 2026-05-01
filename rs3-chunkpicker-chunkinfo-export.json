@@ -72858,6 +72858,7 @@
 					"~|Battle of the Monolith|~ 2": "Quest"
 				},
 				"QuestPoints": 0,
+				"RuneScore": 10,
 				"Reward": ["Shard of Erebus"],
 				"Not F2P": true
 			},
@@ -73222,6 +73223,7 @@
 					"~|Benedict's World Tour (miniquest)|~ 2p": "Quest"
 				},
 				"QuestPoints": 0,
+				"RuneScore": 10,
 				"Not F2P": true
 			},
 			"~|Between a Rock...|~ 1": {
@@ -76660,6 +76662,7 @@
 					"TheCurseOfZarosFinal[+]": "Quest"
 				},
 				"QuestPoints": 0,
+				"RuneScore": 15,
 				"Not F2P": true
 			},
 			"~|Damage Control (miniquest)|~ 1": {
@@ -76708,6 +76711,7 @@
 					"~|Damage Control (miniquest)|~ 4": "Quest"
 				},
 				"QuestPoints": 0,
+				"RuneScore": 10,
 				"Reward": ["Chimes", "Taijitu"],
 				"Not F2P": true
 			},
@@ -77609,6 +77613,7 @@
 					"~|Desert Slayer Dungeon (miniquest)|~ 2d": "Quest"
 				},
 				"QuestPoints": 0,
+				"RuneScore": 20,
 				"Not F2P": true
 			},
 			"~|Desert Treasure|~ 1": {
@@ -81029,6 +81034,7 @@
 					"~|Enter the Abyss (miniquest)|~ 4": "Quest"
 				},
 				"QuestPoints": 0,
+				"RuneScore": 10,
 				"XpReward": {
 					"Runecrafting": 1000
 				},
@@ -81343,6 +81349,7 @@
 					"~|Eye for an Eye (miniquest)|~ 5": "Quest"
 				},
 				"QuestPoints": 0,
+				"RuneScore": 10,
 				"Reward": ["Chimes", "Taijitu", "Bank crablet"],
 				"Not F2P": true
 			},
@@ -81411,6 +81418,7 @@
 					"~|Eye of Het I|~ 6": "Quest"
 				},
 				"QuestPoints": 0,
+				"RuneScore": 10,
 				"Not F2P": true
 			},
 			"~|Eye of Het II|~ 1": {
@@ -81465,6 +81473,7 @@
 					"~|Eye of Het II|~ 5": "Quest"
 				},
 				"QuestPoints": 0,
+				"RuneScore": 10,
 				"Reward": ["Eye of Het (broken)"],
 				"Not F2P": true
 			},
@@ -82164,6 +82173,7 @@
 					"~|Father and Son (miniquest)|~ 3": "Quest"
 				},
 				"QuestPoints": 0,
+				"RuneScore": 10,
 				"Not F2P": true
 			},
 			"~|The Feud|~ 1": {
@@ -82336,6 +82346,7 @@
 					"~|Final Destination (miniquest)|~ 5": "Quest"
 				},
 				"QuestPoints": 0,
+				"RuneScore": 10,
 				"Reward": ["Chimes", "Taijitu"],
 				"Not F2P": true
 			},
@@ -82504,6 +82515,7 @@
 					"~|Flag Fall (miniquest)|~ 2": "Quest"
 				},
 				"QuestPoints": 0,
+				"RuneScore": 10,
 				"Reward": ["Chimes", "Taijitu"],
 				"Not F2P": true
 			},
@@ -83069,6 +83081,7 @@
 					"~|From Tiny Acorns (miniquest)|~ 3": "Quest"
 				},
 				"QuestPoints": 0,
+				"RuneScore": 5,
 				"XpReward": {
 					"Thieving": 1000
 				},
@@ -83864,6 +83877,7 @@
 					"~|The General's Shadow (miniquest)|~ 6": "Quest"
 				},
 				"QuestPoints": 0,
+				"RuneScore": 5,
 				"XpReward": {
 					"Slayer": 2000
 				},
@@ -84137,6 +84151,7 @@
 					"~|Ghosts from the Past (miniquest)|~ 2": "Quest"
 				},
 				"QuestPoints": 0,
+				"RuneScore": 10,
 				"Reward": ["Chimes", "Taijitu"],
 				"Not F2P": true
 			},
@@ -85128,6 +85143,7 @@
 					"~|A Guild of Our Own (miniquest)|~ 4": "Quest"
 				},
 				"QuestPoints": 0,
+				"RuneScore": 5,
 				"XpReward": {
 					"Thieving": 30000,
 					"Herblore": 4000
@@ -85297,6 +85313,7 @@
 					"~|Harbinger (miniquest)|~ 2": "Quest"
 				},
 				"QuestPoints": 0,
+				"RuneScore": 10,
 				"Reward": ["Chimes", "Taijitu"],
 				"Not F2P": true
 			},
@@ -85522,6 +85539,7 @@
 					"~|Head of the Family (miniquest)|~ 9": "Quest"
 				},
 				"QuestPoints": 0,
+				"RuneScore": 10,
 				"Reward": ["Bundle of bamboo", "Fish oil", "Chimes", "Taijitu"],
 				"Not F2P": true
 			},
@@ -85902,6 +85920,7 @@
 					"~|Helping Laniakea (miniquest)|~ 5": "Quest"
 				},
 				"QuestPoints": 0,
+				"RuneScore": 10,
 				"Reward": ["Totem of Intimidation middle"],
 				"Not F2P": true
 			},
@@ -86428,6 +86447,7 @@
 					"~|Hopespear's Will (miniquest)|~ 2": "Quest"
 				},
 				"QuestPoints": 0,
+				"RuneScore": 10,
 				"XpReward": {
 					"Prayer": 13750
 				},
@@ -86716,7 +86736,8 @@
 				"Tasks": {
 					"~|The Hunt for Surok (miniquest)|~ 3": "Quest"
 				},
-				"QuestPoints": 1,
+				"QuestPoints": 0,
+				"RuneScore": 5,
 				"XpReward": {
 					"Slayer": 5000
 				},
@@ -87623,6 +87644,7 @@
 					"~|Jed Hunter (miniquest)|~ 3": "Quest"
 				},
 				"QuestPoints": 0,
+				"RuneScore": 10,
 				"Reward": ["Chimes", "Taijitu"],
 				"Not F2P": true
 			},
@@ -88347,6 +88369,7 @@
 					"~|Lair of Tarn Razorlor (miniquest)|~ 1": "Quest"
 				},
 				"QuestPoints": 0,
+				"RuneScore": 15,
 				"XpReward": {
 					"Slayer": 5000
 				},
@@ -89358,6 +89381,7 @@
 					"~|Lost Her Marbles (miniquest)|~ 2": "Quest"
 				},
 				"QuestPoints": 0,
+				"RuneScore": 5,
 				"XpReward": {
 					"Thieving": 9800
 				},
@@ -89497,6 +89521,7 @@
 					"~|The Lost Toys (miniquest)|~ 3": "Quest"
 				},
 				"QuestPoints": 0,
+				"RuneScore": 10,
 				"Reward": ["Shiny columbarium key"],
 				"Not F2P": true
 			},
@@ -90220,6 +90245,7 @@
 					"~|Mahjarrat Memories (miniquest)|~ 3": "Quest"
 				},
 				"QuestPoints": 0,
+				"RuneScore": 30,
 				"XpReward": {
 					"Divination": 375000
 				},
@@ -92686,6 +92712,7 @@
 					"~|Once Upon a Time in Gielinor: Foreshadowing|~ 7": "Quest"
 				},
 				"QuestPoints": 0,
+				"RuneScore": 10,
 				"Not F2P": true
 			},
 			"~|Once Upon a Time in Gielinor: Flashback|~ 1": {
@@ -92731,6 +92758,7 @@
 					"~|Once Upon a Time in Gielinor: Flashback|~ 4": "Quest"
 				},
 				"QuestPoints": 0,
+				"RuneScore": 10,
 				"Not F2P": true
 			},
 			"~|Once Upon a Time in Gielinor: Fortunes|~ 1": {
@@ -92803,6 +92831,7 @@
 					"~|Once Upon a Time in Gielinor: Fortunes|~ 7": "Quest"
 				},
 				"QuestPoints": 0,
+				"RuneScore": 10,
 				"Not F2P": true
 			},
 			"~|Once Upon a Time in Gielinor: Finale|~ 1": {
@@ -92821,6 +92850,7 @@
 					"~|Once Upon a Time in Gielinor: Finale|~ 1": "Quest"
 				},
 				"QuestPoints": 0,
+				"RuneScore": 10,
 				"Not F2P": true
 			},
 			"~|One Foot in the Grave (miniquest)|~ 1": {
@@ -92876,6 +92906,7 @@
 					"~|One Foot in the Grave (miniquest)|~ 5": "Quest"
 				},
 				"QuestPoints": 0,
+				"RuneScore": 15,
 				"XpReward": {
 					"Magic": 10000
 				},
@@ -94805,7 +94836,8 @@
 				"Tasks": {
 					"~|Purple Cat (miniquest)|~ 3": "Quest"
 				},
-				"QuestPoints": 0
+				"QuestPoints": 0,
+				"RuneScore": 10
 			},
 			"~|Quiet Before the Swarm|~ 1": {
 				"BaseQuest": "Quiet Before the Swarm",
@@ -95624,6 +95656,7 @@
 					"~|Rebuilding Edgeville (miniquest)|~ 3": "Quest"
 				},
 				"QuestPoints": 0,
+				"RuneScore": 5,
 				"XpReward": {
 					"Magic": 50000,
 					"Construction": 18000,
@@ -98222,6 +98255,7 @@
 					"~|Sheep Shearer (miniquest)|~ 2": "Quest"
 				},
 				"QuestPoints": 0,
+				"RuneScore": 5,
 				"XpReward": {
 					"Crafting": 300
 				},
@@ -99205,6 +99239,7 @@
 					"~|Spiritual Enlightenment (miniquest)|~ 3": "Quest"
 				},
 				"QuestPoints": 0,
+				"RuneScore": 10,
 				"Reward": ["Chimes", "Taijitu"],
 				"Not F2P": true
 			},
@@ -100216,6 +100251,7 @@
 					"~|Tales of Nomad (miniquest)|~ 12": "Quest"
 				},
 				"QuestPoints": 1,
+				"RuneScore": 15,
 				"XpReward": {
 					"Anyx3": 1500
 				},
@@ -100285,7 +100321,8 @@
 				"Tasks": {
 					"~|Tales of the God Wars (miniquest)|~ 3": "Quest"
 				},
-				"QuestPoints": 1,
+				"QuestPoints": 0,
+				"RuneScore": 20,
 				"XpReward": {
 					"Magic": 30000,
 					"Summoning": 5000,
@@ -101283,6 +101320,7 @@
 					"~|Tortle Combat (miniquest)|~ 12": "Quest"
 				},
 				"QuestPoints": 0,
+				"RuneScore": 5,
 				"XpReward": {
 					"Construction": 10000,
 					"Farming": 1000,
@@ -101890,6 +101928,7 @@
 					"~|Tuai Leit's Own (miniquest)|~ 4": "Quest"
 				},
 				"QuestPoints": 0,
+				"RuneScore": 10,
 				"Reward": ["Chimes", "Taijitu", "Rumberry", "Ancestral energy"],
 				"Not F2P": true
 			},
@@ -102859,6 +102898,7 @@
 					"~|Wandering Ga'al (miniquest)|~ 2": "Quest"
 				},
 				"QuestPoints": 0,
+				"RuneScore": 10,
 				"Not F2P": true
 			},
 			"~|Wanted!|~ 1": {
@@ -103863,6 +103903,7 @@
 					"~|Witch's Potion (miniquest)|~ 2": "Quest"
 				},
 				"QuestPoints": 0,
+				"RuneScore": 5,
 				"XpReward": {
 					"Magic": 325
 				},
