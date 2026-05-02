@@ -204,7 +204,6 @@
 				"Level": 15,
 				"Objects": ["Fishing spot (barbarian)"],
 				"Primary": true,
-				"Output": "Leaping trout",
 				"Tasks": {
 					"~|Barbarian Training|~ 2b3": "Quest"
 				},
@@ -394,7 +393,6 @@
 				"Level": 30,
 				"Objects": ["Fishing spot (barbarian)"],
 				"Primary": true,
-				"Output": "Leaping salmon",
 				"Tasks": {
 					"~|Barbarian Training|~ 2b3": "Quest"
 				},
@@ -644,7 +642,6 @@
 				"Level": 45,
 				"Objects": ["Fishing spot (barbarian)"],
 				"Primary": true,
-				"Output": "Leaping sturgeon",
 				"Tasks": {
 					"~|Barbarian Training|~ 2b3": "Quest"
 				},
@@ -1510,7 +1507,7 @@
 				"NoPet": true
 			},
 			"Catch a ~|torn blueprint fragment|~": {
-				"Chunks": ["Stormguard citadel"],
+				"Chunks": ["Stormguard Citadel"],
 				"Items": ["Wingsuit[+]"],
 				"Level": 80,
 				"Skills": {
@@ -3934,9 +3931,9 @@
 			},
 			"Unlock ~|Ancient Summoning|~": {
 				"Tasks": {
-					"Complete the ~|Archaeology tutorial|~": "Archaeology"
+					"Complete the ~|Archaeology tutorial|~": "Archaeology",
+					"Archaeology Mystery: ~|Dagon Bye|~ Complete the mystery": "Quest"
 				},
-				"Items": ["Pact with Dagon"],
 				"Level": 68,
 				"Primary": false,
 				"Priority": 4,
@@ -7303,14 +7300,14 @@
 				"Primary": true,
 				"Priority": 2
 			},
-			"Restore a ~|Kal-i-kra chieftan crown|~": {
+			"Restore a ~|Kal-i-kra chieftain crown|~": {
 				"Tasks": {
 					"Complete the ~|Archaeology tutorial|~": "Archaeology"
 				},
-				"Items": ["Kal-i-kra chieftan crown (damaged)", "Yu'biusk clay", "Animal furs"],
+				"Items": ["Kal-i-kra chieftain crown (damaged)", "Yu'biusk clay", "Animal furs"],
 				"Objects": ["Archaeologist's workbench"],
 				"Level": 115,
-				"Output": "Kal-i-kra chieftan crown",
+				"Output": "Kal-i-kra chieftain crown",
 				"Primary": true,
 				"Priority": 3
 			},
@@ -12678,7 +12675,7 @@
 			},
 			"Build a dinosaur breeding pen in your ~|Ranch out of Time|~": {
 				"Chunks": ["14659"],
-				"Items": ["Dinosaur breeding pen deed I"],
+				"Items": ["Dinosaur breeding pen"],
 				"Level": 55,
 				"Tasks": {
 					"Unlock the Anachronia Base Camp": "Nonskill",
@@ -15498,7 +15495,7 @@
 			},
 			"Grind ~|ground kelp|~": {
 				"Category": ["Token"],
-				"Items": ["Kelp (Mogre Camp)*"],
+				"Objects": ["Kelp (Mogre Camp)*"],
 				"Level": 1,
 				"Output": "Ground kelp",
 				"Primary": true,
@@ -15639,6 +15636,27 @@
 				"Primary": false,
 				"Priority": 63
 			},
+			"Gut ~|sea turtle bait|~ from magnetic minnow": {
+				"Items": ["Magnetic minnow*"],
+				"Level": 1,
+				"Output": "Sea turtle bait",
+				"Primary": true,
+				"Priority": 63
+			},
+			"Gut ~|great white shark bait|~ from magnetic minnow": {
+				"Items": ["Magnetic minnow*"],
+				"Level": 1,
+				"Output": "Great white shark bait",
+				"Primary": true,
+				"Priority": 64
+			},
+			"Gut ~|manta ray bait|~ from magnetic minnow": {
+				"Items": ["Magnetic minnow*"],
+				"Level": 1,
+				"Output": "Manta ray bait",
+				"Primary": true,
+				"Priority": 65
+			},
 			"Complete a ~|cracked cooking urn|~": {
 				"Category": ["Token"],
 				"Items": ["Cracked cooking urn (no rune)*", "Fire rune*"],
@@ -15648,7 +15666,7 @@
 				},
 				"Output": "Cracked cooking urn",
 				"Primary": true,
-				"Priority": 64
+				"Priority": 164
 			},
 			"Complete a ~|fragile cooking urn|~": {
 				"Category": ["Token"],
@@ -15659,7 +15677,7 @@
 				},
 				"Output": "Fragile cooking urn",
 				"Primary": true,
-				"Priority": 65
+				"Priority": 165
 			},
 			"Complete a ~|plain cooking urn|~": {
 				"Category": ["Token"],
@@ -15670,7 +15688,7 @@
 				},
 				"Output": "Plain cooking urn",
 				"Primary": true,
-				"Priority": 66
+				"Priority": 166
 			},
 			"Complete a ~|strong cooking urn|~": {
 				"Category": ["Token"],
@@ -15681,7 +15699,7 @@
 				},
 				"Output": "Strong cooking urn",
 				"Primary": true,
-				"Priority": 67,
+				"Priority": 167,
 				"Not F2P": true
 			},
 			"Complete a ~|decorated cooking urn|~": {
@@ -15693,7 +15711,7 @@
 				},
 				"Output": "Decorated cooking urn",
 				"Primary": true,
-				"Priority": 68,
+				"Priority": 168,
 				"Not F2P": true
 			},
 			"Complete an ~|exquisite cooking urn|~": {
@@ -15705,7 +15723,7 @@
 				},
 				"Output": "Exquisite cooking urn",
 				"Primary": true,
-				"Priority": 69,
+				"Priority": 169,
 				"Not F2P": true
 			},
 			"Train Cooking in ~|Daemonheim|~": {
@@ -16616,7 +16634,7 @@
 				"Priority": 2
 			},
 			"Make a ~|half made veg batta|~": {
-				"Items": ["Half baked batta*", "Tomato*", "Dwellberries*", "Onions*", "Cabbage*", "Cheese*"],
+				"Items": ["Half baked batta*", "Tomato*", "Dwellberries*", "Onion*", "Cabbage*", "Cheese*"],
 				"Level": 28,
 				"Output": "Half made veg batta",
 				"Primary": false,
@@ -16868,7 +16886,7 @@
 			"Make ~|biscuit dough|~": {
 				"Category": ["Token"],
 				"Items": ["Pot of flour*", "Pat of butter*"],
-				"NPCs": ["Head Chef"],
+				"NPCs": ["Head chef"],
 				"Level": 32,
 				"Output": "Biscuit dough",
 				"Primary": true,
@@ -16876,7 +16894,7 @@
 			},
 			"Bake ~|biscuits|~": {
 				"Items": ["Biscuit dough*"],
-				"NPCs": ["Head Chef"],
+				"NPCs": ["Head chef"],
 				"Objects": ["Cooking range[+]"],
 				"Level": 32,
 				"Output": "Biscuits",
@@ -16885,7 +16903,7 @@
 			},
 			"Churn ~|cream cheese|~": {
 				"Items": ["Bucket of milk*"],
-				"NPCs": ["Head Chef"],
+				"NPCs": ["Head chef"],
 				"Objects": ["Dairy churn"],
 				"Level": 32,
 				"Output": "Cream cheese",
@@ -16895,7 +16913,7 @@
 			},
 			"Make a ~|cheesecake|~": {
 				"Items": ["Biscuits*", "Cream cheese*", "Pot of cream*", "Cake tin"],
-				"NPCs": ["Head Chef"],
+				"NPCs": ["Head chef"],
 				"Level": 32,
 				"Output": "Cheesecake",
 				"Primary": true,
@@ -17132,7 +17150,7 @@
 			},
 			"Churn ~|vanilla cream cheese|~": {
 				"Items": ["Vanilla milk*"],
-				"NPCs": ["Head Chef"],
+				"NPCs": ["Head chef"],
 				"Objects": ["Dairy churn"],
 				"Level": 35,
 				"Output": "Vanilla cream cheese",
@@ -17158,7 +17176,7 @@
 			},
 			"Make a ~|vanilla cheesecake|~": {
 				"Items": ["Biscuits*", "Vanilla cream cheese*", "Pot of cream*", "Cake tin"],
-				"NPCs": ["Head Chef"],
+				"NPCs": ["Head chef"],
 				"Level": 37,
 				"Output": "Vanilla cheesecake",
 				"Primary": true,
@@ -17245,7 +17263,7 @@
 			},
 			"Churn ~|chocolate cream cheese|~": {
 				"Items": ["Chocolatey milk*"],
-				"NPCs": ["Head Chef"],
+				"NPCs": ["Head chef"],
 				"Objects": ["Dairy churn"],
 				"Level": 40,
 				"Output": "Chocolate cream cheese",
@@ -17257,7 +17275,7 @@
 			"Make a ~|half made toad bowl|~": {
 				"Items": ["Half baked bowl*", "Toad's legs*", "Gnome spice*", "Dwellberries*", "Equa leaves*", "Cheese*"],
 				"Level": 40,
-				"Output": "Half made veg bowl",
+				"Output": "Half made toad bowl",
 				"Primary": false,
 				"Priority": 5,
 				"Partial": true
@@ -17321,7 +17339,7 @@
 			},
 			"Make a ~|chocolate cheesecake|~": {
 				"Items": ["Biscuits*", "Chocolate cream cheese*", "Pot of cream*", "Cake tin"],
-				"NPCs": ["Head Chef"],
+				"NPCs": ["Head chef"],
 				"Level": 42,
 				"Output": "Chocolate cheesecake",
 				"Primary": true,
@@ -17388,7 +17406,7 @@
 			},
 			"Churn ~|strawberry cream cheese|~": {
 				"Items": ["Strawberry milk*"],
-				"NPCs": ["Head Chef"],
+				"NPCs": ["Head chef"],
 				"Objects": ["Dairy churn"],
 				"Level": 45,
 				"Output": "Strawberry cream cheese",
@@ -17465,7 +17483,7 @@
 			},
 			"Make a ~|strawberry cheesecake|~": {
 				"Items": ["Biscuits*", "Strawberry cream cheese*", "Pot of cream*", "Cake tin"],
-				"NPCs": ["Head Chef"],
+				"NPCs": ["Head chef"],
 				"Level": 47,
 				"Output": "Strawberry cheesecake",
 				"Primary": true,
@@ -17565,7 +17583,7 @@
 			},
 			"Make a ~|lemon cheesecake|~": {
 				"Items": ["Biscuits*", "Cream cheese*", "Pot of cream*", "Lemon*", "Cake tin"],
-				"NPCs": ["Head Chef"],
+				"NPCs": ["Head chef"],
 				"Level": 52,
 				"Output": "Lemon cheesecake",
 				"Primary": true,
@@ -17633,7 +17651,7 @@
 			},
 			"Make a ~|bacon cheesecake|~": {
 				"Items": ["Biscuits*", "Cream cheese*", "Pot of cream*", "Bacon*", "Cake tin"],
-				"NPCs": ["Head Chef"],
+				"NPCs": ["Head chef"],
 				"Level": 57,
 				"Output": "Bacon cheesecake",
 				"Primary": true,
@@ -18958,7 +18976,7 @@
 				"Partial": true
 			},
 			"Fire a ~|cracked divination urn (no rune)|~": {
-				"Items": ["Cracked divination urn (unf*)"],
+				"Items": ["Cracked divination urn (unfired)*"],
 				"Level": 3,
 				"Output": "Cracked divination urn (no rune)",
 				"Objects": ["Pottery oven"],
@@ -19989,6 +20007,16 @@
 				"Priority": 3,
 				"Not F2P": true
 			},
+			"Craft a ~|magic string|~": {
+				"Items": ["Magic roots*"],
+				"Objects": ["Spinning wheel"],
+				"Level": 19,
+				"Output": "Magic string",
+				"Primary": true,
+				"Priority": 4,
+				"Not F2P": true,
+				"Partial": true
+			},
 			"Craft ~|spider silk gloves|~": {
 				"Items": ["Spider silk*", "Thread*"],
 				"Level": 20,
@@ -20311,7 +20339,7 @@
 				"Partial": true
 			},
 			"Fire an ~|accursed urn (no rune)|~": {
-				"Items": ["Accrused urn (unfired)*"],
+				"Items": ["Accursed urn (unfired)*"],
 				"Level": 26,
 				"Output": "Accursed urn (no rune)",
 				"Objects": ["Pottery oven"],
@@ -20365,6 +20393,15 @@
 				"Objects": ["CraftingFurnace[+]"],
 				"Primary": true,
 				"Priority": 4
+			},
+			"Craft an ~|opal amulet|~": {
+				"Items": ["Opal*", "Silver bar*", "Ball of wool*"],
+				"Level": 27,
+				"Output": "Opal amulet",
+				"Objects": ["CraftingFurnace[+]"],
+				"Primary": true,
+				"Priority": 5,
+				"Not F2P": true
 			},
 			"Craft a ~|hard leather body|~": {
 				"Items": ["Hard leather*", "Thread*"],
@@ -20994,6 +21031,25 @@
 				"Primary": true,
 				"Priority": 10,
 				"Not F2P": true
+			},
+			"Craft a piece of ~|splitbark armour|~": {
+				"NPCs": ["Wizard Jalarast"],
+				"Items": ["Bark*", "Fine cloth*"],
+				"Level": 40,
+				"Primary": false,
+				"Output": "Splitbark armour",
+				"Priority": 11
+			},
+			"Craft a ~|splitbark|~ weapon or shield": {
+				"NPCs": ["Wizard Jalarast"],
+				"Items": ["Bark*"],
+				"Level": 40,
+				"Skills": {
+					"Runecrafting": "40"
+				},
+				"Primary": false,
+				"Output": "Splitbark weapons",
+				"Priority": 11
 			},
 			"Enter the ~|Crafting Guild|~": {
 				"Chunks": ["11571-1"],
@@ -22153,7 +22209,7 @@
 				"Items": ["Strong woodcutting urn (no rune)*", "Earth rune*"],
 				"Level": 61,
 				"Skills": {
-					"Woddcutting": 1
+					"Woodcutting": 1
 				},
 				"Output": "Strong woodcutting urn",
 				"Primary": true,
@@ -22583,12 +22639,12 @@
 				"Partial": true
 			},
 			"Complete a ~|decorated woddcutting urn|~": {
-				"Items": ["Decorated woddcutting urn (no rune)*", "Earth rune*"],
+				"Items": ["Decorated woodcutting urn (no rune)*", "Earth rune*"],
 				"Level": 76,
 				"Skills": {
 					"Woodcutting": 1
 				},
-				"Output": "Decorated woddcutting urn",
+				"Output": "Decorated woodcutting urn",
 				"Primary": true,
 				"Priority": 5
 			},
@@ -22603,7 +22659,7 @@
 				"Partial": true
 			},
 			"Fire a ~|decorated runecrafting urn (no rune)|~": {
-				"Items": ["Decorated runecrafting (unf)*"],
+				"Items": ["Decorated runecrafting (unfired)*"],
 				"Level": 77,
 				"Output": "Decorated runecrafting urn (no rune)",
 				"Objects": ["Pottery oven"],
@@ -22749,12 +22805,21 @@
 				"Primary": true,
 				"Priority": 8
 			},
+			"Craft an ~|uncut hydrix|~": {
+				"Items": ["Incomplete hydrix*", "Onyx"],
+				"Level": 79,
+				"Output": "Uncut hydrix",
+				"Primary": true,
+				"Priority": 8,
+				"Not F2P": true,
+				"Partial": true
+			},
 			"Cut a ~|hydrix|~": {
 				"Items": ["Uncut hydrix*"],
 				"Level": 79,
 				"Output": "Hydrix",
 				"Primary": true,
-				"Priority": 8,
+				"Priority": 9,
 				"Not F2P": true
 			},
 			"Craft a ~|hydrix ring|~": {
@@ -22763,7 +22828,7 @@
 				"Output": "Hydrix ring",
 				"Objects": ["CraftingFurnace[+]"],
 				"Primary": true,
-				"Priority": 9,
+				"Priority": 10,
 				"Not F2P": true
 			},
 			"Craft a ~|moonstone bracelet|~": {
@@ -22774,9 +22839,10 @@
 				},
 				"Output": "Moonstone bracelet",
 				"Primary": true,
-				"Priority": 10,
+				"Priority": 11,
 				"Not F2P": true
 			},
+			
 			"Craft a ~|decorated smithing urn (unfired)|~": {
 				"Items": ["Soft clay*"],
 				"Level": 80,
@@ -23863,7 +23929,7 @@
 				"Priority": 3
 			},
 			"Craft a ~|Seren godbow|~": {
-				"Items": ["Dormant seren godbow*", "Orb of pure anima*", "Orb of volcanic anima*", "Orb of corrupted anima*"],
+				"Items": ["Dormant Seren godbow*", "Orb of pure anima*", "Orb of volcanic anima*", "Orb of corrupted anima*"],
 				"Level": 92,
 				"Output": "Seren godbow",
 				"Primary": true,
@@ -23884,7 +23950,7 @@
 				"Priority": 6
 			},
 			"Craft a ~|khopesh of the Elidinis|~": {
-				"Items": ["Off-hand khopesh of the kharidian*", "Blessing of the sand*", "Blessing of the sky*", "Blessing of the sea*"],
+				"Items": ["Off-hand khopesh of the Kharidian*", "Blessing of the sand*", "Blessing of the sky*", "Blessing of the sea*"],
 				"Level": 92,
 				"Output": "Khopesh of the Elidinis",
 				"Primary": true,
@@ -24041,7 +24107,7 @@
 				"Priority": 100
 			},
 			"Craft a ~|blessed flask|~": {
-				"Items": ["Blessed flask shell*", "Glorious silvthril chain*", "Holy elixir*", "Holy water*", "Light core*", "Holy overload potion (6)*", "Extreme prayer (4)*", "Postive energy*"],
+				"Items": ["Blessed flask shell*", "Glorious silvthril chain*", "Holy elixir*", "Holy water*", "Light core*", "HolyOverloadPotion[+]*", "Extreme prayer (3)*", "Postive energy*"],
 				"Level": 96,
 				"Skills": {
 					"Herblore": 118
@@ -31706,7 +31772,7 @@
 			"Harvest ~|manure|~ from a sheep": {
 				"Category": ["Normal Farming"],
 				"Objects": ["Medium animal pen"],
-				"Items": ["ManureSheep[+]", "Empty bucket"],
+				"Items": ["ManureSheep[+]", "Bucket"],
 				"Level": 35,
 				"Output": "Manure",
 				"Primary": false,
@@ -31723,7 +31789,7 @@
 			"Harvest ~|green manure|~ from a sheep": {
 				"Category": ["Normal Farming"],
 				"Objects": ["Medium animal pen"],
-				"Items": ["ManureSheep[+]", "Empty bucket"],
+				"Items": ["ManureSheep[+]", "Bucket"],
 				"Level": 35,
 				"Output": "Green manure",
 				"Primary": false,
@@ -32102,7 +32168,7 @@
 			"Harvest ~|manure|~ from a cow": {
 				"Category": ["Normal Farming"],
 				"Objects": ["Large animal pen"],
-				"Items": ["ManureCow[+]", "Empty bucket"],
+				"Items": ["ManureCow[+]", "Bucket"],
 				"Level": 49,
 				"Output": "Manure",
 				"Primary": false,
@@ -32119,7 +32185,7 @@
 			"Harvest ~|green manure|~ from a cow": {
 				"Category": ["Normal Farming"],
 				"Objects": ["Large animal pen"],
-				"Items": ["ManureCow[+]", "Empty bucket"],
+				"Items": ["ManureCow[+]", "Bucket"],
 				"Level": 49,
 				"Output": "Green manure",
 				"Primary": false,
@@ -32142,12 +32208,12 @@
 				"Primary": false,
 				"Priority": 14
 			},
-			"Grow a ~|grimy aventoe|~": {
+			"Grow a ~|grimy avantoe|~": {
 				"Category": ["Normal Farming"],
-				"Items": ["Aventoe seed*"],
+				"Items": ["avantoe seed*"],
 				"Objects": ["Herb patch"],
 				"Level": 50,
-				"Output": "Grimy aventoe",
+				"Output": "Grimy avantoe",
 				"Primary": false,
 				"Priority": 1
 			},
@@ -32405,7 +32471,7 @@
 			},
 			"Grow a ~|whiteberry bush|~": {
 				"Category": ["Normal Farming"],
-				"Items": ["White berry seed"],
+				"Items": ["Whiteberry seed"],
 				"Objects": ["Bush patch"],
 				"Level": 59,
 				"Output": "White berries",
@@ -32739,7 +32805,7 @@
 			"Harvest ~|manure|~ from a yak": {
 				"Category": ["Normal Farming"],
 				"Objects": ["Large animal pen"],
-				"Items": ["ManureYak[+]", "Empty bucket"],
+				"Items": ["ManureYak[+]", "Bucket"],
 				"Level": 71,
 				"Output": "Manure",
 				"Primary": false,
@@ -32756,7 +32822,7 @@
 			"Harvest ~|green manure|~ from a yak": {
 				"Category": ["Normal Farming"],
 				"Objects": ["Large animal pen"],
-				"Items": ["ManureYak[+]", "Empty bucket"],
+				"Items": ["ManureYak[+]", "Bucket"],
 				"Level": 71,
 				"Output": "Green manure",
 				"Primary": false,
@@ -32852,7 +32918,7 @@
 			"Harvest a ~|moreish honeycomb|~ from a beehive": {
 				"Category": ["Normal Farming"],
 				"Chunks": ["10548"],
-				"Items": ["Hollylocks"],
+				"Items": ["Hollyhocks"],
 				"Level": 75,
 				"Output": "Moreish honeycomb",
 				"Primary": false,
@@ -33256,7 +33322,7 @@
 			"Grow a ~|spirit tree|~": {
 				"Category": ["Normal Farming"],
 				"Items": ["Spirit sapling"],
-				"Objects": ["Sprit tree patch"],
+				"Objects": ["Spirit tree patch"],
 				"Level": 83,
 				"Output Object": "Spirit tree",
 				"Primary": false,
@@ -33763,7 +33829,7 @@
 			"Harvest ~|green manure|~ from a baby dragon": {
 				"Category": ["Normal Farming"],
 				"Objects": ["Large animal pen"],
-				"Items": ["ManureDragon[+]", "Empty bucket"],
+				"Items": ["ManureDragon[+]", "Bucket"],
 				"Level": 92,
 				"Output": "Green manure",
 				"Primary": false,
@@ -33780,7 +33846,7 @@
 			"Harvest ~|dragon manure|~ from a dragon": {
 				"Category": ["Normal Farming"],
 				"Objects": ["Large animal pen"],
-				"Items": ["ManureDragon[+]", "Empty bucket"],
+				"Items": ["ManureDragon[+]", "Bucket"],
 				"Level": 92,
 				"Output": "Dragon manure",
 				"Primary": false,
@@ -34593,7 +34659,7 @@
 			},
 			"Grow a ~|golden dragonfruit cactus|~": {
 				"Category": ["Normal Farming"],
-				"Items": ["Golden dragonfruit sapling"],
+				"Items": ["Golden dragonfruit seed"],
 				"Objects": ["Cactus patch"],
 				"Level": 116,
 				"Output": "Golden dragonfruit",
@@ -34884,7 +34950,7 @@
 					"Prayer": 1
 				},
 				"Output": "LoarRemains",
-				"Objects": ["Funeral pyre"],
+				"Objects": ["Funeral Pyre"],
 				"Primary": true,
 				"Priority": 2
 			},
@@ -34894,7 +34960,7 @@
 				"Skills": {
 					"Prayer": 1
 				},
-				"Objects": ["Funeral pyre"],
+				"Objects": ["Funeral Pyre"],
 				"Output": "PhrinRemains",
 				"Primary": true,
 				"Priority": 3
@@ -35040,7 +35106,7 @@
 					"Prayer": 1
 				},
 				"Output": "LoarRemains",
-				"Objects": ["Funeral pyre"],
+				"Objects": ["Funeral Pyre"],
 				"Primary": true,
 				"Priority": 6
 			},
@@ -35050,7 +35116,7 @@
 				"Skills": {
 					"Prayer": 1
 				},
-				"Objects": ["Funeral pyre"],
+				"Objects": ["Funeral Pyre"],
 				"Output": "PhrinRemains",
 				"Primary": true,
 				"Priority": 7
@@ -35246,7 +35312,7 @@
 					"Prayer": 1
 				},
 				"Output": "LoarRemains",
-				"Objects": ["Funeral pyre"],
+				"Objects": ["Funeral Pyre"],
 				"Primary": true,
 				"Priority": 4
 			},
@@ -35256,7 +35322,7 @@
 				"Skills": {
 					"Prayer": 1
 				},
-				"Objects": ["Funeral pyre"],
+				"Objects": ["Funeral Pyre"],
 				"Output": "PhrinRemains",
 				"Primary": true,
 				"Priority": 5
@@ -35267,7 +35333,7 @@
 				"Skills": {
 					"Prayer": 1
 				},
-				"Objects": ["Funeral pyre"],
+				"Objects": ["Funeral Pyre"],
 				"Output": "RiylRemains",
 				"Primary": true,
 				"Priority": 6
@@ -35310,7 +35376,7 @@
 					"Prayer": 1
 				},
 				"Output": "LoarRemains",
-				"Objects": ["Funeral pyre"],
+				"Objects": ["Funeral Pyre"],
 				"Primary": true,
 				"Priority": 2
 			},
@@ -35320,7 +35386,7 @@
 				"Skills": {
 					"Prayer": 1
 				},
-				"Objects": ["Funeral pyre"],
+				"Objects": ["Funeral Pyre"],
 				"Output": "PhrinRemains",
 				"Primary": true,
 				"Priority": 3
@@ -35331,7 +35397,7 @@
 				"Skills": {
 					"Prayer": 1
 				},
-				"Objects": ["Funeral pyre"],
+				"Objects": ["Funeral Pyre"],
 				"Output": "RiylRemains",
 				"Primary": true,
 				"Priority": 4
@@ -35342,7 +35408,7 @@
 				"Skills": {
 					"Prayer": 1
 				},
-				"Objects": ["Funeral pyre (columbarium)"],
+				"Objects": ["Funeral Pyre (columbarium)"],
 				"Output": "Columbarium key",
 				"Primary": true,
 				"Priority": 5
@@ -35509,7 +35575,7 @@
 					"Prayer": 1
 				},
 				"Output": "LoarRemains",
-				"Objects": ["Funeral pyre"],
+				"Objects": ["Funeral Pyre"],
 				"Primary": true,
 				"Priority": 2
 			},
@@ -35519,7 +35585,7 @@
 				"Skills": {
 					"Prayer": 1
 				},
-				"Objects": ["Funeral pyre"],
+				"Objects": ["Funeral Pyre"],
 				"Output": "PhrinRemains",
 				"Primary": true,
 				"Priority": 3
@@ -35530,7 +35596,7 @@
 				"Skills": {
 					"Prayer": 1
 				},
-				"Objects": ["Funeral pyre"],
+				"Objects": ["Funeral Pyre"],
 				"Output": "RiylRemains",
 				"Primary": true,
 				"Priority": 4
@@ -35541,7 +35607,7 @@
 				"Skills": {
 					"Prayer": 1
 				},
-				"Objects": ["Funeral pyre (columbarium)"],
+				"Objects": ["Funeral Pyre (columbarium)"],
 				"Output": "Columbarium key",
 				"Primary": true,
 				"Priority": 5
@@ -35652,7 +35718,7 @@
 					"Prayer": 1
 				},
 				"Output": "LoarRemains",
-				"Objects": ["Funeral pyre"],
+				"Objects": ["Funeral Pyre"],
 				"Primary": true,
 				"Priority": 4
 			},
@@ -35662,7 +35728,7 @@
 				"Skills": {
 					"Prayer": 1
 				},
-				"Objects": ["Funeral pyre"],
+				"Objects": ["Funeral Pyre"],
 				"Output": "PhrinRemains",
 				"Primary": true,
 				"Priority": 5
@@ -35673,7 +35739,7 @@
 				"Skills": {
 					"Prayer": 1
 				},
-				"Objects": ["Funeral pyre"],
+				"Objects": ["Funeral Pyre"],
 				"Output": "RiylRemains",
 				"Primary": true,
 				"Priority": 6
@@ -35684,7 +35750,7 @@
 				"Skills": {
 					"Prayer": 1
 				},
-				"Objects": ["Funeral pyre (columbarium)"],
+				"Objects": ["Funeral Pyre (columbarium)"],
 				"Output": "Columbarium key",
 				"Primary": true,
 				"Priority": 7
@@ -35780,7 +35846,7 @@
 					"Prayer": 1
 				},
 				"Output": "LoarRemains",
-				"Objects": ["Funeral pyre"],
+				"Objects": ["Funeral Pyre"],
 				"Primary": true,
 				"Priority": 2
 			},
@@ -35790,7 +35856,7 @@
 				"Skills": {
 					"Prayer": 1
 				},
-				"Objects": ["Funeral pyre"],
+				"Objects": ["Funeral Pyre"],
 				"Output": "PhrinRemains",
 				"Primary": true,
 				"Priority": 3
@@ -35801,7 +35867,7 @@
 				"Skills": {
 					"Prayer": 1
 				},
-				"Objects": ["Funeral pyre"],
+				"Objects": ["Funeral Pyre"],
 				"Output": "RiylRemains",
 				"Primary": true,
 				"Priority": 4
@@ -35812,7 +35878,7 @@
 				"Skills": {
 					"Prayer": 1
 				},
-				"Objects": ["Funeral pyre (columbarium)"],
+				"Objects": ["Funeral Pyre (columbarium)"],
 				"Output": "Columbarium key",
 				"Primary": true,
 				"Priority": 5
@@ -35995,7 +36061,7 @@
 					"Prayer": 1
 				},
 				"Output": "LoarRemains",
-				"Objects": ["Funeral pyre"],
+				"Objects": ["Funeral Pyre"],
 				"Primary": true,
 				"Priority": 2
 			},
@@ -36005,7 +36071,7 @@
 				"Skills": {
 					"Prayer": 1
 				},
-				"Objects": ["Funeral pyre"],
+				"Objects": ["Funeral Pyre"],
 				"Output": "PhrinRemains",
 				"Primary": true,
 				"Priority": 3
@@ -36016,7 +36082,7 @@
 				"Skills": {
 					"Prayer": 1
 				},
-				"Objects": ["Funeral pyre"],
+				"Objects": ["Funeral Pyre"],
 				"Output": "RiylRemains",
 				"Primary": true,
 				"Priority": 4
@@ -36027,7 +36093,7 @@
 				"Skills": {
 					"Prayer": 1
 				},
-				"Objects": ["Funeral pyre (columbarium)"],
+				"Objects": ["Funeral Pyre (columbarium)"],
 				"Output": "Columbarium key",
 				"Primary": true,
 				"Priority": 5
@@ -36038,7 +36104,7 @@
 				"Skills": {
 					"Prayer": 1
 				},
-				"Objects": ["Funeral pyre"],
+				"Objects": ["Funeral Pyre"],
 				"Output": "AsynRemains",
 				"Primary": true,
 				"Priority": 6
@@ -36057,7 +36123,7 @@
 					"Prayer": 1
 				},
 				"Output": "LoarRemains",
-				"Objects": ["Funeral pyre"],
+				"Objects": ["Funeral Pyre"],
 				"Primary": true,
 				"Priority": 2
 			},
@@ -36067,7 +36133,7 @@
 				"Skills": {
 					"Prayer": 1
 				},
-				"Objects": ["Funeral pyre"],
+				"Objects": ["Funeral Pyre"],
 				"Output": "PhrinRemains",
 				"Primary": true,
 				"Priority": 3
@@ -36078,7 +36144,7 @@
 				"Skills": {
 					"Prayer": 1
 				},
-				"Objects": ["Funeral pyre"],
+				"Objects": ["Funeral Pyre"],
 				"Output": "RiylRemains",
 				"Primary": true,
 				"Priority": 4
@@ -36089,7 +36155,7 @@
 				"Skills": {
 					"Prayer": 1
 				},
-				"Objects": ["Funeral pyre (columbarium)"],
+				"Objects": ["Funeral Pyre (columbarium)"],
 				"Output": "Columbarium key",
 				"Primary": true,
 				"Priority": 5
@@ -36100,7 +36166,7 @@
 				"Skills": {
 					"Prayer": 1
 				},
-				"Objects": ["Funeral pyre"],
+				"Objects": ["Funeral Pyre"],
 				"Output": "AsynRemains",
 				"Primary": true,
 				"Priority": 6
@@ -36372,7 +36438,7 @@
 					"Prayer": 1
 				},
 				"Output": "LoarRemains",
-				"Objects": ["Funeral pyre"],
+				"Objects": ["Funeral Pyre"],
 				"Primary": true,
 				"Priority": 2
 			},
@@ -36382,7 +36448,7 @@
 				"Skills": {
 					"Prayer": 1
 				},
-				"Objects": ["Funeral pyre"],
+				"Objects": ["Funeral Pyre"],
 				"Output": "PhrinRemains",
 				"Primary": true,
 				"Priority": 3
@@ -36393,7 +36459,7 @@
 				"Skills": {
 					"Prayer": 1
 				},
-				"Objects": ["Funeral pyre"],
+				"Objects": ["Funeral Pyre"],
 				"Output": "RiylRemains",
 				"Primary": true,
 				"Priority": 4
@@ -36404,7 +36470,7 @@
 				"Skills": {
 					"Prayer": 1
 				},
-				"Objects": ["Funeral pyre (columbarium)"],
+				"Objects": ["Funeral Pyre (columbarium)"],
 				"Output": "Shiny columbarium key",
 				"Primary": true,
 				"Priority": 5
@@ -36415,7 +36481,7 @@
 				"Skills": {
 					"Prayer": 1
 				},
-				"Objects": ["Funeral pyre"],
+				"Objects": ["Funeral Pyre"],
 				"Output": "AsynRemains",
 				"Primary": true,
 				"Priority": 6
@@ -36426,7 +36492,7 @@
 				"Skills": {
 					"Prayer": 1
 				},
-				"Objects": ["Funeral pyre"],
+				"Objects": ["Funeral Pyre"],
 				"Output": "FiyrRemains",
 				"Primary": true,
 				"Priority": 7
@@ -36650,7 +36716,7 @@
 					"Prayer": 1
 				},
 				"Output": "LoarRemains",
-				"Objects": ["Funeral pyre"],
+				"Objects": ["Funeral Pyre"],
 				"Primary": true,
 				"Priority": 2
 			},
@@ -36660,7 +36726,7 @@
 				"Skills": {
 					"Prayer": 1
 				},
-				"Objects": ["Funeral pyre"],
+				"Objects": ["Funeral Pyre"],
 				"Output": "PhrinRemains",
 				"Primary": true,
 				"Priority": 3
@@ -36671,7 +36737,7 @@
 				"Skills": {
 					"Prayer": 1
 				},
-				"Objects": ["Funeral pyre"],
+				"Objects": ["Funeral Pyre"],
 				"Output": "RiylRemains",
 				"Primary": true,
 				"Priority": 4
@@ -36682,7 +36748,7 @@
 				"Skills": {
 					"Prayer": 1
 				},
-				"Objects": ["Funeral pyre (columbarium)"],
+				"Objects": ["Funeral Pyre (columbarium)"],
 				"Output": "Shiny columbarium key",
 				"Primary": true,
 				"Priority": 5
@@ -36693,7 +36759,7 @@
 				"Skills": {
 					"Prayer": 1
 				},
-				"Objects": ["Funeral pyre"],
+				"Objects": ["Funeral Pyre"],
 				"Output": "AsynRemains",
 				"Primary": true,
 				"Priority": 6
@@ -36704,7 +36770,7 @@
 				"Skills": {
 					"Prayer": 1
 				},
-				"Objects": ["Funeral pyre"],
+				"Objects": ["Funeral Pyre"],
 				"Output": "FiyrRemains",
 				"Primary": true,
 				"Priority": 7
@@ -36715,7 +36781,7 @@
 				"Skills": {
 					"Prayer": 1
 				},
-				"Objects": ["Funeral pyre"],
+				"Objects": ["Funeral Pyre"],
 				"Output": "TorturedSoul",
 				"Primary": true,
 				"Priority": 8
@@ -37170,7 +37236,7 @@
 				"NoPet": true
 			},
 			"Catch a ~|raw rainbow fish|~": {
-				"Items": ["Stripy feathers"],
+				"Items": ["Stripy feather"],
 				"Level": 38,
 				"Objects": ["Fishing spot (lure, bait)"],
 				"Primary": true,
@@ -37329,7 +37395,7 @@
 					"~|Barbarian Training|~ 2b3": "Quest"
 				},
 				"Primary": true,
-				"Output": "Leaping salmon",
+				"Output": "Leaping salmon loot",
 				"Skills": {
 					"Agility": 30,
 					"Strength": 30
@@ -37708,7 +37774,7 @@
 			},
 			"Catch a ~|small crystal urchin|~": {
 				"Level": 93,
-				"Objects": ["Fishing spot (waterfal)"],
+				"Objects": ["Fishing spot (waterfall)"],
 				"Primary": true,
 				"Output": "Small Urchin Loot",
 				"Priority": 1
@@ -37728,7 +37794,7 @@
 			},
 			"Catch a ~|medium crystal urchin|~": {
 				"Level": 95,
-				"Objects": ["Fishing spot (waterfal)"],
+				"Objects": ["Fishing spot (waterfall)"],
 				"Primary": true,
 				"Output": "Medium Urchin Loot",
 				"Priority": 1
@@ -37771,7 +37837,7 @@
 			},
 			"Catch a ~|large crystal urchin|~": {
 				"Level": 97,
-				"Objects": ["Fishing spot (waterfal)"],
+				"Objects": ["Fishing spot (waterfall)"],
 				"Primary": true,
 				"Output": "Large Urchin Loot",
 				"Priority": 2
@@ -38118,7 +38184,7 @@
 				"Partial": true
 			},
 			"Tip ~|opal bolts|~": {
-				"Items": ["Opal tips*", "Bronze bolts*"],
+				"Items": ["Opal bolt tips*", "Bronze bolts*"],
 				"Level": 11,
 				"Output": "Opal bolts",
 				"Primary": true,
@@ -39607,7 +39673,7 @@
 				"Tasks": {
 					"It Should Have Been Called Chinskin*": "Nonskill"
 				},
-				"Output": "Masterwork sinew",
+				"Output": "Draconic shards",
 				"Primary": true,
 				"Priority": 31,
 				"Partial": true
@@ -40456,7 +40522,7 @@
 			},
 			"Grind ~|gorak claw powder|~": {
 				"Category": ["Token"],
-				"Items": ["Gorak claw*"],
+				"Items": ["Gorak claws*"],
 				"Level": 1,
 				"Output": "Gorak claw powder",
 				"Primary": true,
@@ -40959,7 +41025,7 @@
 				"Priority": 1
 			},
 			"Mix ~|antisanguine|~ from scratch": {
-				"Items": ["Grimy marentil*", "Vial of water", "Sanguine matter*"],
+				"Items": ["Grimy marrentill*", "Vial of water", "Sanguine matter*"],
 				"Level": 15,
 				"Tasks": {
 					"~|Hearts of Sanguine|~ Complete the quest": "Quest"
@@ -41156,7 +41222,7 @@
 				"Category": ["Token"],
 				"Items": ["Clean toadflax*", "Vial of water"],
 				"Level": 30,
-				"Output": "Toadlfax potion (unfinished)",
+				"Output": "Toadflax potion (unfinished)",
 				"Primary": true,
 				"Priority": 2
 			},
@@ -41168,7 +41234,7 @@
 				"Priority": 1
 			},
 			"Mix a ~|super fishing explosive|~": {
-				"Items": ["Grime guam*", "Vial of water", "Rubium*"],
+				"Items": ["Grimy guam*", "Vial of water", "Rubium*"],
 				"Level": 31,
 				"Output": "Super fishing explosive",
 				"Primary": true,
@@ -41425,7 +41491,7 @@
 				"Priority": 3
 			},
 			"Mix a ~|super antipoison|~ from scratch": {
-				"Items": ["grimy irit*", "Vial of water", "Unicorn horn*"],
+				"Items": ["Grimy irit*", "Vial of water", "Unicorn horn*"],
 				"Level": 48,
 				"Output": "Super antipoison (3)",
 				"Primary": true,
@@ -41677,7 +41743,7 @@
 				"Priority": 2
 			},
 			"Mix ~|magic essence|~ from scratch": {
-				"Items": ["Star flower*", "Vial of water", "Gorak claw*"],
+				"Items": ["Star flower*", "Vial of water", "Gorak claws*"],
 				"Level": 57,
 				"Output": "Magic essence (3)",
 				"Primary": true,
@@ -42011,7 +42077,7 @@
 				"Priority": 2
 			},
 			"Mix an ~|antipoison+|~ from scratch": {
-				"Items": ["Coconut )open)*", "Vial", "Grimy toadflax*", "Yew roots*"],
+				"Items": ["Coconut (open)*", "Vial", "Grimy toadflax*", "Yew roots*"],
 				"Level": 68,
 				"Output": "Antipoison+ (4)",
 				"Primary": true,
@@ -42775,7 +42841,7 @@
 			"Make ~|primal extract|~": {
 				"Items": ["Primal fruit pulp*", "Vial"],
 				"Level": 90,
-				"Output": "Primal fruit pulp",
+				"Output": "Primal extract",
 				"Primary": true,
 				"Priority": 7
 			},
@@ -43329,7 +43395,7 @@
 				"Priority": 1
 			},
 			"Craft a ~|blessed flask|~": {
-				"Items": ["Blessed flask shell*", "Glorious silvthril chain*", "Holy elixir*", "Holy water*", "Light core*", "Holy overload potion (6)*", "Extreme prayer (4)*", "Postive energy*"],
+				"Items": ["Blessed flask shell*", "Glorious silvthril chain*", "Holy elixir*", "Holy water*", "Light core*", "HolyOverloadPotion[+]*", "Extreme prayer (3)*", "Postive energy*"],
 				"Level": 118,
 				"Skills": {
 					"Crafting": 96
@@ -44205,6 +44271,15 @@
 				"Primary": false,
 				"Priority": 5
 			},
+			"Catch a ~|swift whirligig|~": {
+				"Items": ["Irises"],
+				"NPCs": ["HetCrocodile[+]"],
+				"Objects": ["Flower basket (built)"],
+				"Level": 50,
+				"Output": "SwiftWhirligig",
+				"Primary": true,
+				"Priority": 6
+			},
 			"Catch a ~|sabre-toothed kebbit|~": {
 				"NPCs": ["Sabre-toothed kebbit"],
 				"Items": ["Logs"],
@@ -44294,8 +44369,11 @@
 			},
 			"Catch a ~|wild broav|~": {
 				"Items": ["Logs", "Teasing stick", "Mort myre fungus"],
-				"Monsters": ["Wild broav"],
+				"Chunks": ["10029"],
 				"Level": 55,
+				"Tasks": {
+					"~|While Guthix Sleeps|~ 4": "Quest"
+				},
 				"Output": "Unconscious broav",
 				"Primary": true,
 				"Priority": 1
@@ -44453,15 +44531,6 @@
 				"NoBoost": true,
 				"Priority": 3
 			},
-			"Catch a ~|pawya|~ in the Gorajo Resource Dungeon": {
-				"Chunks": ["Gorajo resource dungeon"],
-				"Items": ["Box trap", "Papaya"],
-				"NPCs": ["Pawya"],
-				"Level": 66,
-				"Output": "Pawya",
-				"Primary": true,
-				"Priority": 5
-			},
 			"Catch a ~|black salamander|~": {
 				"Items": ["Small fishing net", "Rope"],
 				"NPCs": ["Black salamander"],
@@ -44514,7 +44583,6 @@
 			},
 			"Catch a ~|common jadinko|~ in the Herblore Habitat": {
 				"Items": ["Marasamaw plant"],
-				"NPCs": ["Common jadinko"],
 				"Chunks": ["11821-1"],
 				"Level": 70,
 				"Output": "CommonJadinko",
@@ -44571,7 +44639,6 @@
 				"Priority": 1
 			},
 			"Catch a ~|shadow jadinko|~ in the Herblore Habitat": {
-				"NPCs": ["Shadow jadinko"],
 				"Chunks": ["11821-1"],
 				"Level": 71,
 				"Output": "ShadowJadinko",
@@ -44620,7 +44687,6 @@
 				"Priority": 2
 			},
 			"Catch an ~|igneous jadinko|~ in the Herblore Habitat": {
-				"NPCs": ["Igneous jadinko"],
 				"Chunks": ["11821-1"],
 				"Items": ["Marasamaw plant"],
 				"Level": 74,
@@ -44654,8 +44720,7 @@
 				"Priority": 3
 			},
 			"Catch a ~|cannibal jadinko|~ in the Herblore Habitat": {
-				"NPCs": ["Cannibal jadinko"],
-				"Items": ["Marasamaw plant"],
+				"Items": ["Marasamaw plant", "JujuHunterPotion[+]"],
 				"Chunks": ["11821-1"],
 				"Level": 75,
 				"Output": "CannibalJadinko",
@@ -44712,8 +44777,7 @@
 				"Priority": 6
 			},
 			"Catch a ~|aquatic jadinko|~ in the Herblore Habitat": {
-				"NPCs": ["Aquatic jadinko"],
-				"Items": ["Marasamaw plant"],
+				"Items": ["Marasamaw plant", "JujuHunterPotion[+]"],
 				"Chunks": ["11821-1"],
 				"Level": 76,
 				"Output": "AquaticJadinko",
@@ -44793,7 +44857,6 @@
 				"Priority": 2
 			},
 			"Catch a ~|amphibious jadinko|~ in the Herblore Habitat": {
-				"NPCs": ["Amphibious jadinko"],
 				"Items": ["Marasamaw plant"],
 				"Chunks": ["11821-1"],
 				"Level": 77,
@@ -44814,7 +44877,6 @@
 				"NoPet": true
 			},
 			"Catch a ~|carrion jadinko|~ in the Herblore Habitat": {
-				"NPCs": ["Carrion jadinko"],
 				"Items": ["Marasamaw plant"],
 				"Chunks": ["11821-1"],
 				"Level": 78,
@@ -44823,7 +44885,6 @@
 				"Priority": 1
 			},
 			"Catch a ~|diseased jadinko|~ in the Herblore Habitat": {
-				"NPCs": ["Diseased jadinko"],
 				"Chunks": ["11821-1"],
 				"Level": 78,
 				"Output": "DiseasedJadinko",
@@ -44839,7 +44900,7 @@
 				"Priority": 3
 			},
 			"Catch a ~|camouflaged jadinko|~ in the Herblore Habitat": {
-				"NPCs": ["Camouflaged jadinko"],
+				"Items": ["JujuHunterPotion[+]"],
 				"Chunks": ["11821-1"],
 				"Level": 79,
 				"Output": "CamouflagedJadinko",
@@ -44883,7 +44944,7 @@
 				"Priority": 1
 			},
 			"Catch a ~|draconic jadinko|~ in the Herblore Habitat": {
-				"NPCs": ["Draconic jadinko"],
+				"Items": ["JujuHunterPotion[+]"],
 				"Chunks": ["11821-1"],
 				"Level": 80,
 				"Output": "DraconicJadinko",
@@ -44936,7 +44997,7 @@
 				"Priority": 7
 			},
 			"Catch a ~|Saradomin jadinko|~": {
-				"NPCs": ["Saradomin jadinko"],
+				"Items": ["JujuHunterPotion[+]"],
 				"Chunks": ["11821-1"],
 				"Level": 81,
 				"Output": "SaradominJadinko",
@@ -44944,7 +45005,7 @@
 				"Priority": 1
 			},
 			"Catch a ~|Guthix jadinko|~": {
-				"NPCs": ["Guthix jadinko"],
+				"Items": ["JujuHunterPotion[+]"],
 				"Chunks": ["11821-1"],
 				"Level": 81,
 				"Output": "GuthixJadinko",
@@ -44952,7 +45013,7 @@
 				"Priority": 2
 			},
 			"Catch a ~|Zamorak jadinko|~": {
-				"NPCs": ["Zamorak jadinko"],
+				"Items": ["JujuHunterPotion[+]"],
 				"Chunks": ["11821-1"],
 				"Level": 81,
 				"Output": "ZamorakJadinko",
@@ -45028,7 +45089,7 @@
 				"Priority": 1
 			},
 			"Catch a ~|torn blueprint fragment|~": {
-				"Chunks": ["Stormguard citadel"],
+				"Chunks": ["Stormguard Citadel"],
 				"Items": ["Wingsuit[+]"],
 				"Level": 85,
 				"Skills": {
@@ -50006,7 +50067,7 @@
 			},
 			"Cast ~|String Jewelry|~ on an unstrung opal amulet": {
 				"Category": ["Spells"],
-				"Items": ["Astral rune*", "Earth rune[+]*", "Water rune[+]*", "Unstrung opal amulet*"],
+				"Items": ["Astral rune*", "Earth rune[+]*", "Water rune[+]*", "Opal amulet (unstrung)*"],
 				"Tasks": {
 					"~|Lunar Diplomacy|~ Complete the quest": "Quest"
 				},
@@ -50017,7 +50078,7 @@
 			},
 			"Cast ~|String Jewelry|~ on an unstrung jade amulet": {
 				"Category": ["Spells"],
-				"Items": ["Astral rune*", "Earth rune[+]*", "Water rune[+]*", "Unstrung jade amulet*"],
+				"Items": ["Astral rune*", "Earth rune[+]*", "Water rune[+]*", "Jade amulet (unstrung)*"],
 				"Tasks": {
 					"~|Lunar Diplomacy|~ Complete the quest": "Quest"
 				},
@@ -50028,7 +50089,7 @@
 			},
 			"Cast ~|String Jewelry|~ on an unstrung topaz amulet": {
 				"Category": ["Spells"],
-				"Items": ["Astral rune*", "Earth rune[+]*", "Water rune[+]*", "Unstrung topaz amulet*"],
+				"Items": ["Astral rune*", "Earth rune[+]*", "Water rune[+]*", "Topaz amulet (unstrung)*"],
 				"Tasks": {
 					"~|Lunar Diplomacy|~ Complete the quest": "Quest"
 				},
@@ -50039,7 +50100,7 @@
 			},
 			"Cast ~|String Jewelry|~ on an unstrung gold amulet": {
 				"Category": ["Spells"],
-				"Items": ["Astral rune*", "Earth rune[+]*", "Water rune[+]*", "Unstrung gold amulet*"],
+				"Items": ["Astral rune*", "Earth rune[+]*", "Water rune[+]*", "Gold amulet (unstrung)*"],
 				"Tasks": {
 					"~|Lunar Diplomacy|~ Complete the quest": "Quest"
 				},
@@ -50050,7 +50111,7 @@
 			},
 			"Cast ~|String Jewelry|~ on an unstrung sapphire amulet": {
 				"Category": ["Spells"],
-				"Items": ["Astral rune*", "Earth rune[+]*", "Water rune[+]*", "Unstrung sapphire amulet*"],
+				"Items": ["Astral rune*", "Earth rune[+]*", "Water rune[+]*", "Sapphire amulet (unstrung)*"],
 				"Tasks": {
 					"~|Lunar Diplomacy|~ Complete the quest": "Quest"
 				},
@@ -50061,7 +50122,7 @@
 			},
 			"Cast ~|String Jewelry|~ on an unstrung emerald amulet": {
 				"Category": ["Spells"],
-				"Items": ["Astral rune*", "Earth rune[+]*", "Water rune[+]*", "Unstrung emerald amulet*"],
+				"Items": ["Astral rune*", "Earth rune[+]*", "Water rune[+]*", "Emerald amulet (unstrung)*"],
 				"Tasks": {
 					"~|Lunar Diplomacy|~ Complete the quest": "Quest"
 				},
@@ -50072,7 +50133,7 @@
 			},
 			"Cast ~|String Jewelry|~ on an unstrung ruby amulet": {
 				"Category": ["Spells"],
-				"Items": ["Astral rune*", "Earth rune[+]*", "Water rune[+]*", "Unstrung ruby amulet*"],
+				"Items": ["Astral rune*", "Earth rune[+]*", "Water rune[+]*", "Ruby amulet (unstrung)*"],
 				"Tasks": {
 					"~|Lunar Diplomacy|~ Complete the quest": "Quest"
 				},
@@ -50083,7 +50144,7 @@
 			},
 			"Cast ~|String Jewelry|~ on an unstrung diamond amulet": {
 				"Category": ["Spells"],
-				"Items": ["Astral rune*", "Earth rune[+]*", "Water rune[+]*", "Unstrung diamond amulet*"],
+				"Items": ["Astral rune*", "Earth rune[+]*", "Water rune[+]*", "Diamond amulet (unstrung)*"],
 				"Tasks": {
 					"~|Lunar Diplomacy|~ Complete the quest": "Quest"
 				},
@@ -50105,7 +50166,7 @@
 			},
 			"Cast ~|String Jewelry|~ on an unstrung dragonstone amulet": {
 				"Category": ["Spells"],
-				"Items": ["Astral rune*", "Earth rune[+]*", "Water rune[+]*", "Unstrung dragonstone amulet*"],
+				"Items": ["Astral rune*", "Earth rune[+]*", "Water rune[+]*", "Dragonstone amulet (unstrung)*"],
 				"Tasks": {
 					"~|Lunar Diplomacy|~ Complete the quest": "Quest"
 				},
@@ -50994,7 +51055,7 @@
 			},
 			"Cast ~|Tune Banite Ore|~ to make abyssalbanite ore": {
 				"Category": ["Spells"],
-				"Items": ["Astral rune*", "Earth rune[+]*", "Banite ore*", "Tune Banite Ore scroll", "Abyssal head"],
+				"Items": ["Astral rune*", "Earth rune[+]*", "Banite ore*", "Tune banite ore scroll", "Abyssal head"],
 				"Level": 87,
 				"Output": "Abyssalbanite ore",
 				"Primary": true,
@@ -51002,7 +51063,7 @@
 			},
 			"Cast ~|Tune Banite Ore|~ to make basiliskbanite ore": {
 				"Category": ["Spells"],
-				"Items": ["Astral rune*", "Earth rune[+]*", "Banite ore*", "Tune Banite Ore scroll", "Basilisk head"],
+				"Items": ["Astral rune*", "Earth rune[+]*", "Banite ore*", "Tune banite ore scroll", "Basilisk head"],
 				"Level": 87,
 				"Output": "Basiliskbanite ore",
 				"Primary": true,
@@ -51010,7 +51071,7 @@
 			},
 			"Cast ~|Tune Banite Ore|~ to make dragonbanite ore": {
 				"Category": ["Spells"],
-				"Items": ["Astral rune*", "Earth rune[+]*", "Banite ore*", "Tune Banite Ore scroll", "DragonFocus[+]"],
+				"Items": ["Astral rune*", "Earth rune[+]*", "Banite ore*", "Tune banite ore scroll", "DragonFocus[+]"],
 				"Level": 87,
 				"Output": "Dragonbanite ore",
 				"Primary": true,
@@ -51018,7 +51079,7 @@
 			},
 			"Cast ~|Tune Banite Ore|~ to make wallasalkibanite ore": {
 				"Category": ["Spells"],
-				"Items": ["Astral rune*", "Earth rune[+]*", "Banite ore*", "Tune Banite Ore scroll", "WallasalkiFocus[+]"],
+				"Items": ["Astral rune*", "Earth rune[+]*", "Banite ore*", "Tune banite ore scroll", "WallasalkiFocus[+]"],
 				"Level": 87,
 				"Output": "Wallasalkibanite ore",
 				"Primary": true,
@@ -52285,7 +52346,7 @@
 				"Not F2P": true
 			},
 			"Mine with an ~|inferno Adze|~": {
-				"Items": ["Inferno Adze|~"],
+				"Items": ["Inferno Adze"],
 				"Level": 50,
 				"Objects": ["Ore[+]"],
 				"Primary": false,
@@ -54850,7 +54911,7 @@
 					"Firemaking": 6
 				},
 				"Output": "LoarRemains",
-				"Objects": ["Funeral pyre"],
+				"Objects": ["Funeral Pyre"],
 				"Primary": true,
 				"Priority": 2
 			},
@@ -54860,7 +54921,7 @@
 				"Skills": {
 					"Firemaking": 6
 				},
-				"Objects": ["Funeral pyre"],
+				"Objects": ["Funeral Pyre"],
 				"Output": "PhrinRemains",
 				"Primary": true,
 				"Priority": 3
@@ -54872,7 +54933,7 @@
 					"Firemaking": 20
 				},
 				"Output": "LoarRemains",
-				"Objects": ["Funeral pyre"],
+				"Objects": ["Funeral Pyre"],
 				"Primary": true,
 				"Priority": 4
 			},
@@ -54882,7 +54943,7 @@
 				"Skills": {
 					"Firemaking": 20
 				},
-				"Objects": ["Funeral pyre"],
+				"Objects": ["Funeral Pyre"],
 				"Output": "PhrinRemains",
 				"Primary": true,
 				"Priority": 5
@@ -54916,7 +54977,7 @@
 					"Firemaking": 35
 				},
 				"Output": "LoarRemains",
-				"Objects": ["Funeral pyre"],
+				"Objects": ["Funeral Pyre"],
 				"Primary": true,
 				"Priority": 8
 			},
@@ -54926,7 +54987,7 @@
 				"Skills": {
 					"Firemaking": 35
 				},
-				"Objects": ["Funeral pyre"],
+				"Objects": ["Funeral Pyre"],
 				"Output": "PhrinRemains",
 				"Primary": true,
 				"Priority": 9
@@ -54937,7 +54998,7 @@
 				"Skills": {
 					"Firemaking": 35
 				},
-				"Objects": ["Funeral pyre"],
+				"Objects": ["Funeral Pyre"],
 				"Output": "RiylRemains",
 				"Primary": true,
 				"Priority": 10
@@ -54949,7 +55010,7 @@
 					"Firemaking": 40
 				},
 				"Output": "LoarRemains",
-				"Objects": ["Funeral pyre"],
+				"Objects": ["Funeral Pyre"],
 				"Primary": true,
 				"Priority": 11
 			},
@@ -54959,7 +55020,7 @@
 				"Skills": {
 					"Firemaking": 40
 				},
-				"Objects": ["Funeral pyre"],
+				"Objects": ["Funeral Pyre"],
 				"Output": "PhrinRemains",
 				"Primary": true,
 				"Priority": 12
@@ -54970,7 +55031,7 @@
 				"Skills": {
 					"Firemaking": 40
 				},
-				"Objects": ["Funeral pyre"],
+				"Objects": ["Funeral Pyre"],
 				"Output": "RiylRemains",
 				"Primary": true,
 				"Priority": 13
@@ -54981,7 +55042,7 @@
 				"Skills": {
 					"Firemaking": 40
 				},
-				"Objects": ["Funeral pyre (columbarium)"],
+				"Objects": ["Funeral Pyre (columbarium)"],
 				"Output": "Columbarium key",
 				"Primary": true,
 				"Priority": 14
@@ -55004,7 +55065,7 @@
 					"Firemaking": 47
 				},
 				"Output": "LoarRemains",
-				"Objects": ["Funeral pyre"],
+				"Objects": ["Funeral Pyre"],
 				"Primary": true,
 				"Priority": 16
 			},
@@ -55014,7 +55075,7 @@
 				"Skills": {
 					"Firemaking": 47
 				},
-				"Objects": ["Funeral pyre"],
+				"Objects": ["Funeral Pyre"],
 				"Output": "PhrinRemains",
 				"Primary": true,
 				"Priority": 17
@@ -55025,7 +55086,7 @@
 				"Skills": {
 					"Firemaking": 47
 				},
-				"Objects": ["Funeral pyre"],
+				"Objects": ["Funeral Pyre"],
 				"Output": "RiylRemains",
 				"Primary": true,
 				"Priority": 18
@@ -55036,7 +55097,7 @@
 				"Skills": {
 					"Firemaking": 47
 				},
-				"Objects": ["Funeral pyre (columbarium)"],
+				"Objects": ["Funeral Pyre (columbarium)"],
 				"Output": "Columbarium key",
 				"Primary": true,
 				"Priority": 19
@@ -55059,7 +55120,7 @@
 					"Firemaking": 50
 				},
 				"Output": "LoarRemains",
-				"Objects": ["Funeral pyre"],
+				"Objects": ["Funeral Pyre"],
 				"Primary": true,
 				"Priority": 21
 			},
@@ -55069,7 +55130,7 @@
 				"Skills": {
 					"Firemaking": 50
 				},
-				"Objects": ["Funeral pyre"],
+				"Objects": ["Funeral Pyre"],
 				"Output": "PhrinRemains",
 				"Primary": true,
 				"Priority": 22
@@ -55080,7 +55141,7 @@
 				"Skills": {
 					"Firemaking": 50
 				},
-				"Objects": ["Funeral pyre"],
+				"Objects": ["Funeral Pyre"],
 				"Output": "RiylRemains",
 				"Primary": true,
 				"Priority": 23
@@ -55091,7 +55152,7 @@
 				"Skills": {
 					"Firemaking": 50
 				},
-				"Objects": ["Funeral pyre (columbarium)"],
+				"Objects": ["Funeral Pyre (columbarium)"],
 				"Output": "Columbarium key",
 				"Primary": true,
 				"Priority": 24
@@ -55103,7 +55164,7 @@
 					"Firemaking": 55
 				},
 				"Output": "LoarRemains",
-				"Objects": ["Funeral pyre"],
+				"Objects": ["Funeral Pyre"],
 				"Primary": true,
 				"Priority": 25
 			},
@@ -55113,7 +55174,7 @@
 				"Skills": {
 					"Firemaking": 55
 				},
-				"Objects": ["Funeral pyre"],
+				"Objects": ["Funeral Pyre"],
 				"Output": "PhrinRemains",
 				"Primary": true,
 				"Priority": 26
@@ -55124,7 +55185,7 @@
 				"Skills": {
 					"Firemaking": 55
 				},
-				"Objects": ["Funeral pyre"],
+				"Objects": ["Funeral Pyre"],
 				"Output": "RiylRemains",
 				"Primary": true,
 				"Priority": 27
@@ -55135,7 +55196,7 @@
 				"Skills": {
 					"Firemaking": 55
 				},
-				"Objects": ["Funeral pyre (columbarium)"],
+				"Objects": ["Funeral Pyre (columbarium)"],
 				"Output": "Columbarium key",
 				"Primary": true,
 				"Priority": 28
@@ -55147,7 +55208,7 @@
 					"Firemaking": 63
 				},
 				"Output": "LoarRemains",
-				"Objects": ["Funeral pyre"],
+				"Objects": ["Funeral Pyre"],
 				"Primary": true,
 				"Priority": 29
 			},
@@ -55157,7 +55218,7 @@
 				"Skills": {
 					"Firemaking": 63
 				},
-				"Objects": ["Funeral pyre"],
+				"Objects": ["Funeral Pyre"],
 				"Output": "PhrinRemains",
 				"Primary": true,
 				"Priority": 30
@@ -55168,7 +55229,7 @@
 				"Skills": {
 					"Firemaking": 63
 				},
-				"Objects": ["Funeral pyre"],
+				"Objects": ["Funeral Pyre"],
 				"Output": "RiylRemains",
 				"Primary": true,
 				"Priority": 31
@@ -55179,7 +55240,7 @@
 				"Skills": {
 					"Firemaking": 63
 				},
-				"Objects": ["Funeral pyre (columbarium)"],
+				"Objects": ["Funeral Pyre (columbarium)"],
 				"Output": "Columbarium key",
 				"Primary": true,
 				"Priority": 32
@@ -55190,7 +55251,7 @@
 				"Skills": {
 					"Firemaking": 63
 				},
-				"Objects": ["Funeral pyre"],
+				"Objects": ["Funeral Pyre"],
 				"Output": "AsynRemains",
 				"Primary": true,
 				"Priority": 33
@@ -55202,7 +55263,7 @@
 					"Firemaking": 65
 				},
 				"Output": "LoarRemains",
-				"Objects": ["Funeral pyre"],
+				"Objects": ["Funeral Pyre"],
 				"Primary": true,
 				"Priority": 34
 			},
@@ -55212,7 +55273,7 @@
 				"Skills": {
 					"Firemaking": 65
 				},
-				"Objects": ["Funeral pyre"],
+				"Objects": ["Funeral Pyre"],
 				"Output": "PhrinRemains",
 				"Primary": true,
 				"Priority": 35
@@ -55223,7 +55284,7 @@
 				"Skills": {
 					"Firemaking": 65
 				},
-				"Objects": ["Funeral pyre"],
+				"Objects": ["Funeral Pyre"],
 				"Output": "RiylRemains",
 				"Primary": true,
 				"Priority": 36
@@ -55234,7 +55295,7 @@
 				"Skills": {
 					"Firemaking": 65
 				},
-				"Objects": ["Funeral pyre (columbarium)"],
+				"Objects": ["Funeral Pyre (columbarium)"],
 				"Output": "Columbarium key",
 				"Primary": true,
 				"Priority": 37
@@ -55245,7 +55306,7 @@
 				"Skills": {
 					"Firemaking": 65
 				},
-				"Objects": ["Funeral pyre"],
+				"Objects": ["Funeral Pyre"],
 				"Output": "AsynRemains",
 				"Primary": true,
 				"Priority": 38
@@ -55292,7 +55353,7 @@
 					"Firemaking": 80
 				},
 				"Output": "LoarRemains",
-				"Objects": ["Funeral pyre"],
+				"Objects": ["Funeral Pyre"],
 				"Primary": true,
 				"Priority": 41
 			},
@@ -55302,7 +55363,7 @@
 				"Skills": {
 					"Firemaking": 80
 				},
-				"Objects": ["Funeral pyre"],
+				"Objects": ["Funeral Pyre"],
 				"Output": "PhrinRemains",
 				"Primary": true,
 				"Priority": 42
@@ -55313,7 +55374,7 @@
 				"Skills": {
 					"Firemaking": 80
 				},
-				"Objects": ["Funeral pyre"],
+				"Objects": ["Funeral Pyre"],
 				"Output": "RiylRemains",
 				"Primary": true,
 				"Priority": 43
@@ -55324,7 +55385,7 @@
 				"Skills": {
 					"Firemaking": 80
 				},
-				"Objects": ["Funeral pyre (columbarium)"],
+				"Objects": ["Funeral Pyre (columbarium)"],
 				"Output": "Shiny columbarium key",
 				"Primary": true,
 				"Priority": 44
@@ -55335,7 +55396,7 @@
 				"Skills": {
 					"Firemaking": 80
 				},
-				"Objects": ["Funeral pyre"],
+				"Objects": ["Funeral Pyre"],
 				"Output": "AsynRemains",
 				"Primary": true,
 				"Priority": 45
@@ -55346,7 +55407,7 @@
 				"Skills": {
 					"Firemaking": 80
 				},
-				"Objects": ["Funeral pyre"],
+				"Objects": ["Funeral Pyre"],
 				"Output": "FiyrRemains",
 				"Primary": true,
 				"Priority": 46
@@ -55358,7 +55419,7 @@
 					"Firemaking": 95
 				},
 				"Output": "LoarRemains",
-				"Objects": ["Funeral pyre"],
+				"Objects": ["Funeral Pyre"],
 				"Primary": true,
 				"Priority": 47
 			},
@@ -55368,7 +55429,7 @@
 				"Skills": {
 					"Firemaking": 95
 				},
-				"Objects": ["Funeral pyre"],
+				"Objects": ["Funeral Pyre"],
 				"Output": "PhrinRemains",
 				"Primary": true,
 				"Priority": 48
@@ -55379,7 +55440,7 @@
 				"Skills": {
 					"Firemaking": 95
 				},
-				"Objects": ["Funeral pyre"],
+				"Objects": ["Funeral Pyre"],
 				"Output": "RiylRemains",
 				"Primary": true,
 				"Priority": 49
@@ -55390,7 +55451,7 @@
 				"Skills": {
 					"Firemaking": 95
 				},
-				"Objects": ["Funeral pyre (columbarium)"],
+				"Objects": ["Funeral Pyre (columbarium)"],
 				"Output": "Shiny columbarium key",
 				"Primary": true,
 				"Priority": 50
@@ -55401,7 +55462,7 @@
 				"Skills": {
 					"Firemaking": 95
 				},
-				"Objects": ["Funeral pyre"],
+				"Objects": ["Funeral Pyre"],
 				"Output": "AsynRemains",
 				"Primary": true,
 				"Priority": 51
@@ -55412,7 +55473,7 @@
 				"Skills": {
 					"Firemaking": 95
 				},
-				"Objects": ["Funeral pyre"],
+				"Objects": ["Funeral Pyre"],
 				"Output": "FiyrRemains",
 				"Primary": true,
 				"Priority": 52
@@ -55423,7 +55484,7 @@
 				"Skills": {
 					"Firemaking": 95
 				},
-				"Objects": ["Funeral pyre"],
+				"Objects": ["Funeral Pyre"],
 				"Output": "TorturedSoul",
 				"Primary": true,
 				"Priority": 53
@@ -59375,6 +59436,17 @@
 				"Primary": true,
 				"Priority": 3,
 				"Not F2P": true
+			},
+			"Craft a ~|splitbark|~ weapon or shield": {
+				"NPCs": ["Wizard Jalarast"],
+				"Items": ["Bark*"],
+				"Level": 40,
+				"Skills": {
+					"Runecrafting": "40"
+				},
+				"Primary": false,
+				"Output": "Splitbark weapons",
+				"Priority": 4
 			},
 			"Craft ~|nature runes|~ at the nature rune temple": {
 				"Chunks": ["Nature Rune Temple"],
@@ -64630,6 +64702,22 @@
 				"Priority": 6,
 				"Not F2P": true
 			},
+			"Smelt an ~|obsidian bar|~": {
+				"Items": ["Obsidian shard*"],
+				"Level": 80,
+				"Objects": ["Furnace[+]"],
+				"Output": "Obsidian bar",
+				"Primary": true,
+				"Priority": 7
+			},
+			"Forge ~|obsidian|~": {
+				"Items": ["Obsidian bar*"],
+				"Level": 80,
+				"Objects": ["Forge[+]", "Anvil[+]"],
+				"Output": "ObsidianGear",
+				"Primary": true,
+				"Priority": 8
+			},
 			"Forge ~|abyssalbane|~ ammo": {
 				"Items": ["Abyssalbane bar*"],
 				"Level": 80,
@@ -65747,7 +65835,6 @@
 					"~|Barbarian Training|~ 2b3": "Quest"
 				},
 				"Primary": true,
-				"Output": "Leaping trout",
 				"Skills": {
 					"Fishing": 48,
 					"Agility": 15
@@ -65762,7 +65849,6 @@
 					"~|Barbarian Training|~ 2b3": "Quest"
 				},
 				"Primary": true,
-				"Output": "Leaping salmon",
 				"Skills": {
 					"Fishing": 58,
 					"Agility": 30
@@ -65777,7 +65863,6 @@
 					"~|Barbarian Training|~ 2b3": "Quest"
 				},
 				"Primary": true,
-				"Output": "Leaping sturgeon",
 				"Skills": {
 					"Fishing": 70,
 					"Agility": 45
@@ -68797,7 +68882,7 @@
 			},
 			"Steal a ~|cowbell|~ from a dairy cow": {
 				"Level": 15,
-				"NPCs": ["Dairy cow"],
+				"Objects": ["Dairy cow"],
 				"Tasks": {
 					"~|Cold War|~ 1": "Quest"
 				},
@@ -70659,7 +70744,7 @@
 			},	
 			"Cut ~|overgrown idol|~": {
 				"Level": 81,
-				"Objects": ["Overgrown idol (Anachronia)"],
+				"Objects": ["Overgrown Idol (Anachronia)"],
 				"Output": "Totem of Navigation base",
 				"Primary": true,
 				"Priority": 1
@@ -85985,7 +86070,7 @@
 			"~|Hermit Permits|~ 7": {
 				"BaseQuest": "Hermit Permits",
 				"Description": "Get permission from Adam, Zeke, Esther and 5 random Wendlewickians",
-				"Chunks": ["16692", "16692-2"],
+				"Chunks": ["16692", "16691-2"],
 				"Tasks": {
 					"~|Hermit Permits|~ 6": "Quest"
 				},
@@ -96787,6 +96872,7 @@
 				"Tasks": {
 					"~|Ritual of the Mahjarrat|~ 5": "Quest"
 				},
+				"Reward": ["Tune banite ore scroll"],
 				"Not F2P": true
 			},
 			"~|Ritual of the Mahjarrat|~ 7": {
@@ -121256,7 +121342,7 @@
 					"Saragorgak star crown",
 					"Drogokishuun hook sword",
 					"Hobgoblin mansticker",
-					"Kal-i-kra chieftan crown",
+					"Kal-i-kra chieftain crown",
 					"Kal-i-kra mace",
 					"Kal-i-kra warhorn",
 					"'Da Boss Man' sculpture",
@@ -122516,7 +122602,7 @@
 				"Category": ["MQC achievements"],
 				"Description": "Find and read all four books about the heroes buried in Senntisten graveyard.",
 				"BaseQuest": "Completionist achievements",
-				"Items": ["The Great Beast", "Kings and Queens", "A Life in Colour", "A Massacrer of Moles"],
+				"Items": ["The Great Beast", "Kings and Queens", "A Life in Colour", "The Massacrer of Moles"],
 				"RuneScore": 10,
 				"Not F2P": true
 			},
@@ -127438,7 +127524,7 @@
 				"Category": ["Comp achievements", "Trim achievements"],
 				"Description": "Defeat all bosses at least once.",
 				"BaseQuest": "Completionist achievements",
-				"Chunks": ["7729-1", "12586", "14131", "Borehole", "Sanctum of Rebirth", "Zamorakian Undercity", "Temple of Aminishi", "The Shadow Reef", "Dragonkin Laboratory", "Exhiled Kalphite Hive", "Elder God Wars Dungeon", "Ancient Prison", "Mazcab"],
+				"Chunks": ["7729-1", "12586", "14131", "Borehole", "Sanctum of Rebirth", "Zamorakian Undercity", "Temple of Aminishi", "The Shadow Reef", "Dragonkin Laboratory", "Exiled Kalphite Hive", "Elder God Wars Dungeon", "Ancient Prison", "Mazcab"],
 				"Tasks": {
 					"~|Eclipse of the Heart|~ Complete the quest": "Quest"
 				},
@@ -128477,7 +128563,7 @@
 				"Category": ["Misc achievements"],
 				"Description": "Contribute all items to the collection.",
 				"BaseQuest": "Skills achievements",
-				"Items": ["Kal-i-kra chieftan crown", "Kal-i-kra mace", "Kal-i-kra warhorn", "'Da Boss Man' sculpture"],
+				"Items": ["Kal-i-kra chieftain crown", "Kal-i-kra mace", "Kal-i-kra warhorn", "'Da Boss Man' sculpture"],
 				"NPCs": ["General Bentnoze"],
 				"RuneScore": 10
 			},
@@ -128903,7 +128989,7 @@
 				"Description": "Pray at the altar in the Kharid-et chapel while wearing a full set of ancient ceremonial robes.",
 				"BaseQuest": "Skills achievements",
 				"Chunks": ["Kharid-et - Barracks excavation site"],
-				"Items": ["Pontifex signet ring", "Ancient ceremonial mask", "Ancient ceremonial top", "Ancient ceremonial legs", "Ancient ceremonical gloves", "Ancient ceremonial boots"],
+				"Items": ["Pontifex signet ring", "Ancient ceremonial mask", "Ancient ceremonial top", "Ancient ceremonial legs", "Ancient ceremonial gloves", "Ancient ceremonial boots"],
 				"RuneScore": 30,
 				"Not F2P": true
 			},
@@ -129436,7 +129522,7 @@
 				"Category": ["Misc achievements"],
 				"Description": "Contribute all items to the collection.",
 				"BaseQuest": "Skills achievements",
-				"Items": ["Huzamogaarb chaos crown", "Saragorgak star crown", "Drogokishuun hook sword", "Hobgoblin mansticker", "Kal-i-kra chieftan crown", "Kal-i-kra mace", "Kal-i-kra warhorn", "'Da Boss Man' sculpture", "Horogothgar cooking pot"],
+				"Items": ["Huzamogaarb chaos crown", "Saragorgak star crown", "Drogokishuun hook sword", "Hobgoblin mansticker", "Kal-i-kra chieftain crown", "Kal-i-kra mace", "Kal-i-kra warhorn", "'Da Boss Man' sculpture", "Horogothgar cooking pot"],
 				"NPCs": ["Velucia"],
 				"RuneScore": 10
 			},
@@ -129651,7 +129737,7 @@
 				"Category": ["Misc achievements"],
 				"Description": "Contribute all items to the collection.",
 				"BaseQuest": "Skills achievements",
-				"Items": ["Lesser demon mask", "Greater demon mask", "Ceremonial unicorn ornament", "Pontifex mitre", "Saragorgak star crown", "Kal-i-kra chieftan crown", "Tsutsaroth helm"],
+				"Items": ["Lesser demon mask", "Greater demon mask", "Ceremonial unicorn ornament", "Pontifex mitre", "Saragorgak star crown", "Kal-i-kra chieftain crown", "Tsutsaroth helm"],
 				"NPCs": ["Wise Old Man"],
 				"RuneScore": 10
 			},
@@ -130550,7 +130636,6 @@
 				"Description": "Adopt a baby yak.",
 				"BaseQuest": "Skills achievements",
 				"Monsters": ["Yak"],
-				"Items": [""],
 				"Tasks": {
 					"~|Player-owned farm tutorial|~ Complete the tutorial": "Quest"
 				},
@@ -130674,7 +130759,7 @@
 					"City of Um",
 					"Zolarea"
 				],
-				"Items": ["FruitTreeSeed[+]", "HerbSeed[+]", "TreeSeed[+]", "CactusSeed[+]", "MushroomSeed[+]", "HopsSeed[+]", "Potato seed", "BushSeed[+]", "Limpwurt seed", "Bloodweed seed", "Calquat tree seed", "Spirit seed", "Elder seed", "Cave nightshade seed", "Evil turnip seed"],
+				"Items": ["FruitTreeSeed[+]", "HerbSeed[+]", "TreeSeed[+]", "CactusSeed[+]", "MushroomSpore[+]", "HopsSeed[+]", "Potato seed", "BushSeed[+]", "Limpwurt seed", "Bloodweed seed", "Calquat tree seed", "Spirit seed", "Elder seed", "Cave nightshade seed", "Evil turnip seed"],
 				"Tasks": {
 					"~|Back to my Roots|~ Complete the quest": "Quest",
 					"~|The Fremennik Trials|~ Complete the quest": "Quest",
@@ -130789,7 +130874,7 @@
 				"Description": "Have at least 9 tier I animal perks from Manor Farm active at the same time.",
 				"BaseQuest": "Skills achievements",
 				"Chunks": ["10548"],
-				"Items": ["AllChins[+]", "Common white hen (unchecked)", "Rooster (unchecked)", "Spider spider (unchecked)", "White ewe (unchecked)", "White ram (unchecked)", "Kandarin cow (unchecked)", "Bull (unchecked)", "ManureDragon[+]"],
+				"Items": ["AllChins[+]", "Common white hen (unchecked)", "Rooster (unchecked)", "Spirit spider (unchecked)", "White ewe (unchecked)", "White ram (unchecked)", "Kandarin cow (unchecked)", "Bull (unchecked)", "ManureDragon[+]"],
 				"Tasks": {
 					"~|Player-owned farm tutorial|~ Complete the tutorial": "Quest"
 				},
@@ -130928,7 +131013,7 @@
 				"Category": ["Misc achievements"],
 				"Description": "Burn each of the listed logs",
 				"BaseQuest": "Skills achievements",
-				"Items": ["Logs", "Achey logs", "Oak logs", "Willow logs", "Teak logs", "Arctic pine logs", "Maple logs", "Acadia logs", "Mahogany logs", "Eucalyptus logs", "Yew logs", "Magic logs", "Corrupted magic logs", "Blisterwood logs", "Cursed magic logs", "Curly root", "Elder logs", "Driftwood", "Eternal magic logs"],
+				"Items": ["Logs", "Achey tree logs", "Oak logs", "Willow logs", "Teak logs", "Arctic pine logs", "Maple logs", "Acadia logs", "Mahogany logs", "Eucalyptus logs", "Yew logs", "Magic logs", "Corrupted magic logs", "Blisterwood logs", "Cursed magic logs", "Curly root", "Elder logs", "Driftwood", "Eternal magic logs"],
 				"Skills": {
 					"Firemaking": 100,
 					"Woodcutting": 83
@@ -131503,7 +131588,7 @@
 				"Category": ["Misc achievements"],
 				"Description": "Mine banite ore using a bane pickaxe + 4 while wearing a full set of bane armour + 4 and listening to the music track 'Bane of Summer'.",
 				"BaseQuest": "Skills achievements",
-				"Objects": ["Bane rock"],
+				"Objects": ["Banite rock"],
 				"Items": ["Bane pickaxe + 4", "Bane full helm + 4", "Bane platebody + 4", "Bane platelegs + 4", "Bane gauntlets + 4", "Bane armoured boots + 4"],
 				"Skills": {
 					"Defence": 80,
@@ -131689,7 +131774,7 @@
 				"Description": "Have every alteration active at once.",
 				"BaseQuest": "Skills achievements",
 				"Chunks": ["RitualSite[+]"],
-				"Items": ["Ectoplasm", "Regulary ghostly ink", "Basic ghostly ink"],
+				"Items": ["Ectoplasm", "Regular ghostly ink", "Basic ghostly ink"],
 				"Skills": {
 					"Necromancy": 61
 				},
@@ -132024,7 +132109,7 @@
 				"Category": ["Misc achievements"],
 				"Description": "Craft at least one of each type of rune, on their respective altars.",
 				"BaseQuest": "Skills achievements",
-				"Chunks": ["Air Rune Temple", "Mind Rune Temple", "Water Rune Temple", "Earth Rune Temple", "Fire Rune Temple", "Body Rune Temple", "Cosmic Rune Temple", "Cosmic Rune Temple", "Nature Rune Temple", "Law Rune Temple", "Death Rune Temple", "8508-1", "Blood Rune Temple", "Soul Rune Temple", "Time Rune Temple", "Necromantic Rune Temple"],
+				"Chunks": ["Air Rune Temple", "Mind Rune Temple", "Water Rune Temple", "Earth Rune Temple", "Fire Rune Temple", "Body Rune Temple", "Cosmic Rune Temple", "Cosmic Rune Temple", "Nature Rune Temple", "Law Rune Temple", "Death Rune Temple", "8508", "Blood Rune Temple", "Soul Rune Temple", "Time Rune Temple", "Necromantic Rune Temple"],
 				"Items": ["Pure essence", "Impure essence", "Shards of Armadyl", "Air talisman", "Water talisman", "Earth talisman", "Fire talisman", "Air rune", "Water rune", "Earth rune", "Fire rune"],
 				"Skills": {
 					"Runecrafting": 100
@@ -132166,7 +132251,7 @@
 				"Category": ["Misc achievements"],
 				"Description": "Place souls in every spot in your slayer dungeon inside the sunken pyramid.",
 				"BaseQuest": "Skills achievements",
-				"Chunks": ["Sunken Pyramid"],
+				"Chunks": ["12073"],
 				"Items": ["Filled Ushabti[+]"],
 				"Skills": {
 					"Slayer": 99
@@ -132405,7 +132490,7 @@
 				"Description": "Use elder charms to create each of the listed summoning pouches.",
 				"BaseQuest": "Skills achievements",
 				"Objects": ["Obelisk"],
-				"Items": ["Elder charm", "Summoning pouch", "Elder energy",
+				"Items": ["Elder charm", "Pouch", "Elder energy",
 					"Muspah spine", "Aviansie talons", "Demon horn", "Vampyre fangs", "Icyene feather"
 				],
 				"Skills": {
@@ -132419,7 +132504,7 @@
 				"Description": "Use blue charms to create each of the listed summoning pouches.",
 				"BaseQuest": "Skills achievements",
 				"Objects": ["Obelisk"],
-				"Items": ["Blue charm", "Summoning pouch", "Spirit shards",
+				"Items": ["Blue charm", "Pouch", "Spirit shards",
 					"Raw rat meat", "Potato cactus", "Chinchompa", "Shifter charm", "Spinner charm", "Torcher charm", "Bronze bar", "Iron bar", "Jug of water", "Steel bar", "Graahk fur", "Kyatt fur", "Larupia fur", "Fishbowl", "Mithril bar", "Obsidian charm", "Adamant bar", "Fire talisman", "Air talisman", "Water talisman", "Earth talisman", "Rune bar", "Light core"
 				],
 				"Skills": {
@@ -132433,7 +132518,7 @@
 				"Description": "Use red charms to create each of the listed summoning pouches.",
 				"BaseQuest": "Skills achievements",
 				"Objects": ["Obelisk"],
-				"Items": ["Red charm", "Summoning pouch", "Spirit shards",
+				"Items": ["Crimson charm", "Pouch", "Spirit shards",
 					"Bronze claw", "Obsidian charm", "Vampyre dust", "Honeycomb", "Carved evil turnip", "Tinderbox", "Raw beef", "Goat horn dust", "Snake hide", "Bagged plant 1", "Pot of flour", "Phoenix quill", "Granite (500g)", "Red flowers", "Talon beast charm", "Demon claw", "Dagannoth hide", "Green salamander", "Raw rabbit", "Wolf bones", "Iron ingot", "Yak-hide", "Steel ingot", "Mammoth tusk"
 				],
 				"Skills": {
@@ -132447,7 +132532,7 @@
 				"Description": "Use gold charms to create each of the listed summoning pouches.",
 				"BaseQuest": "Skills achievements",
 				"Objects": ["Obelisk"],
-				"Items": ["Blue charm", "Summoning pouch", "Spirit shards",
+				"Items": ["Blue charm", "Pouch", "Spirit shards",
 					"Wolf bones", "Raw chicken", "Spider carcass", "Thin snail", "Iron ore", "Proboscis", "Jackalope antler", "Marigolds", "Raw bird meat", "Swamp toad", "Tortoise shell", "Polar kebbit fir", "Pack pig tooth", "Prayer pig tooth", "War pig tooth"
 				],
 				"Skills": {
@@ -132461,7 +132546,7 @@
 				"Description": "Use blue charms to create each of the listed summoning pouches.",
 				"BaseQuest": "Skills achievements",
 				"Objects": ["Obelisk"],
-				"Items": ["Green charm", "Summoning pouch", "Spirit shards",
+				"Items": ["Green charm", "Pouch", "Spirit shards",
 					"Bucket of sand", "Compost", "Willow logs", "Ravager charm", "Clean guam", "Cockatrice egg", "Guthatrice egg", "Saratrice egg", "Zamatrice egg", "Pengatrice egg", "Coraxatrice egg", "Vulatrice egg", "Gold ring", "Abyssal charm", "Harpoon", "Raw shark", "Banana", "Ruby harvest", "Willow branch", "Water orb", "Plain whirligig shell", "Gliding whirligig shell", "Swift whirligig shell", "Hasty whirligig shell", "Speedy whirligig shell", "Unicorn horn"
 				],
 				"Skills": {
@@ -132528,7 +132613,7 @@
 				"Category": ["Misc achievements"],
 				"Description": "Steal from each of the listed types of merchant stalls.",
 				"BaseQuest": "Skills achievements",
-				"Objects": ["Vegetable stall", "Bakery stall", "Crafting stall", "Tea stall", "Silk stall", "Wine stall", "Seed stall", "Fur stall", "Fish stall", "Lamp stall", "Crossbow stall", "Silver stall", "Spice stall", "Scimital stall", "Gem stall", "Zanaris Market spirit stall", "Zanrais Market trinket stall", "Darkmeyer meat stall", "Darkmeyer potion stall"],
+				"Objects": ["Vegetable stall", "Bakery stall", "Crafting stall", "Tea stall", "Silk stall", "Wine stall", "Seed stall", "Fur stall", "Fish stall", "Lamp stall", "Crossbow stall", "Silver stall", "Spice stall", "Scimitar stall", "Gem stall", "Zanaris Market spirit stall", "Zanrais Market trinket stall", "Darkmeyer meat stall", "Darkmeyer potion stall"],
 				"Skills": {
 					"Thieving": 119
 				},
@@ -133247,7 +133332,7 @@
 				"BaseQuest": "Exploration achievements",
 				"Chunks": ["City of Um"],
 				"Tasks": {
-					"~|Ghost Ahoy|~ 5c2": "Quest"
+					"~|Ghosts Ahoy|~ 5c2": "Quest"
 				},
 				"RuneScore": 5,
 				"Not F2P": true
@@ -133276,7 +133361,7 @@
 				"Description": "Buy Zanik the Alms of Death.",
 				"BaseQuest": "Exploration achievements",
 				"Chunks": ["City of Um"],
-				"Items": ["Alms of Death"],
+				"Items": ["The Alms of Death"],
 				"Skills": {
 					"Necromancy": 33
 				},
@@ -133610,7 +133695,7 @@
 				"Description": "Learn about the birds and the bees from the groundskeeper.",
 				"BaseQuest": "Exploration achievements",
 				"Chunks": ["16691-1"],
-				"NPCs": ["Groundskepeer (Wendlewick)"],
+				"NPCs": ["Groundskeeper (Wendlewick)"],
 				"RuneScore": 5,
 				"Not F2P": true
 			},
@@ -133911,6 +133996,7 @@
 				"Category": ["Misc achievements"],
 				"Description": "Recover the Grand Library's collection of valuable and unique gemstones.",
 				"BaseQuest": "Exploration achievements",
+				"Chunks": ["12584"],
 				"Items": [
 					"Phenakite",
 					"Menaphyrite",
@@ -133919,7 +134005,6 @@
 					"Wavecrest opal",
 					"Maw coral",
 					"Crondite",
-					"Alaeite",
 					"Hetite stone",
 					"Aminishi miststone",
 					"Hauyne",
@@ -134153,7 +134238,7 @@
 				"Category": ["Misc achievements"],
 				"Description": "Cast the Superheat spell whilst helping out the mages defend against the Arch-Glacor",
 				"BaseQuest": "Exploration achievements",
-				"Chunks": [""],
+				"Chunks": ["Senntisten"],
 				"Items": ["Gold ore", "Fire rune[+]", "Nature rune"],
 				"Skills": {
 					"Magic": 43
@@ -134303,7 +134388,7 @@
 					"Tortleshell Plover",
 					"Dusky Wigglebill",
 					"Titchy Tinamou",
-					"Azure parrot",
+					"Azure Parrot",
 					"Awah Guan",
 					"Great Pecker",
 					"Tuai Leit Toucan",
@@ -134968,7 +135053,7 @@
 					"Blue blubber jellyfish",
 					"Sailfish soup",
 					"Ghostly sole",
-					"Giant grayfish"
+					"Giant crayfish"
 				],
 				"RuneScore": 30,
 				"Not F2P": true
@@ -135050,7 +135135,7 @@
 				"Category": ["Misc achievements"],
 				"Description": "Eat food and then drink a Saradomin brew less than a second apart.",
 				"BaseQuest": "Activities achievements",
-				"Items": ["Saradomin brew"],
+				"Items": ["SaradominPotion[+]"],
 				"RuneScore": 10,
 				"Not F2P": true
 			},
@@ -135074,7 +135159,7 @@
 				"Category": ["Misc achievements"],
 				"Description": "Remove the effects on an aggression potion by drinking tea.",
 				"BaseQuest": "Activities achievements",
-				"Items": ["Aggression potion", "Cup of tea"],
+				"Items": ["AggressionPotion[+]", "Cup of tea"],
 				"RuneScore": 5,
 				"Not F2P": true
 			},
@@ -135396,7 +135481,7 @@
 				"Chunks": ["Dominion Tower"],
 				"Items": ["Sunspear (melee)", "House Drakan hood", "House Drakan top", "House Drakan trousers", "House Drakan boots"],
 				"Tasks": {
-					"~|River of Bloom|~ Complete the quest": "Quest",
+					"~|River of BlooD|~ Complete the quest": "Quest",
 					"Gain access to the Dominion Tower": "Nonskill"
 				},
 				"RuneScore": 40,
@@ -135471,7 +135556,7 @@
 				"Chunks": ["13105"],
 				"Items": ["Winter sq'irkjuice", "Spring sq'irkjuice", "Autumn sq'irkjuice", "Summer sq'irkjuice"],
 				"Tasks": {
-					"~|Diamond in the Rough|~ Complete the quest":" Quest"
+					"~|Diamond in the Rough|~ Complete the quest": "Quest"
 				},
 				"RuneScore": 20,
 				"Not F2P": true
@@ -135558,7 +135643,7 @@
 				"Category": ["Misc achievements", "Minigame"],
 				"Description": "Defeat each different type of broodoo victim whilst wearing their coloured mask.",
 				"BaseQuest": "Activities achievements",
-				"Items": ["Tribal mask (blue)", "Tribal mask (orange)", "Tribal mask (green"],
+				"Items": ["Tribal mask (blue)", "Tribal mask (orange)", "Tribal mask (green)"],
 				"RuneScore": 10,
 				"Not F2P": true
 			},
@@ -135615,7 +135700,7 @@
 				"Description": "Craft an entire set of armour and weapons worthy of a Death Lotus assassin",
 				"BaseQuest": "Activities achievements",
 				"Chunks": ["Player-Owned Port"],
-				"Items": ["Superior death lotus hood", "Superior death lotus chestplate", "Superior death lotus chaps", 
+				"Items": ["Superior Death Lotus hood", "Superior Death Lotus chestplate", "Superior Death Lotus chaps", 
 				"Superior death lotus tekoh", "Superior death lotus tabi", "Death Lotus boots scroll", "Death Lotus gloves scroll",
 				"Death lotus dart", "Off-hand death lotus dart"],
 				"Skills": {
@@ -137770,7 +137855,7 @@
 				"Category": ["Fill Stash"],
 				"Label": "Fill hidey-holes",
 				"Chunks": ["13623"],
-				"Items": ["Imphide hood", "Priffdinian musician's robe top", "Amulet of magic"],
+				"Items": ["Imphide hood", "Prifddinian musician's robe top", "Amulet of magic"],
 				"Tasks": {
 					"Build a master ~|hidey-hole|~": "Construction"
 				}
@@ -137871,7 +137956,7 @@
 			"Spot the ~|Azure parrot|~": {
 				"Category": ["Arc Log"],
 				"Label": "Arc Journal",
-				"Items": ["Azure parrot"]
+				"Items": ["Azure Parrot"]
 			},
 			"Spot the ~|Awah Guan|~": {
 				"Category": ["Arc Log"],
@@ -138445,7 +138530,7 @@
 				"Tasks": {
 					"~|The World Wakes|~ Complete the quest": "Quest"
 				},
-				"Items": ["Greater Deaths' Swiftness ability codex"],
+				"Items": ["Greater Sunshine ability codex"],
 				"NoBoost": true
 			},
 			"(Melee) Unlock the ~|Greater Fury|~ ability": {
@@ -138743,7 +138828,7 @@
 				"Tasks": {
 					"~|The World Wakes|~ Complete the quest": "Quest"
 				},
-				"Items": ["Greater Deaths' Swiftness ability codex"],
+				"Items": ["Greater Death's Swiftness ability codex"],
 				"NoBoost": true
 			},
 			"(Sigil) Unlock the ~|Slayer's Insight|~ ability": {
@@ -139135,7 +139220,7 @@
 				"Category": ["Collection Log", "Slayer Collection Log", "Pets"],
 				"Label": "Slayer Pets",
 				"Items": ["Soulgazer's charm"],
-				"Chunks": ["Soulgazer dungeon"]
+				"Chunks": ["Stalker dungeon"]
 			},
 			"(Daemonheim) Obtain a ~|blood necklace shard|~": {
 				"Category": ["Collection Log", "Slayer Collection Log"],
@@ -139392,10 +139477,10 @@
 				"Label": "Slayer Collection Log",
 				"Items": ["Toktz-xil-ek"]
 			},
-			"(Karamja) Obtain a ~|Tzhaar-ket-om|~": {
+			"(Karamja) Obtain a ~|TzHaar-Ket-Om|~": {
 				"Category": ["Collection Log", "Slayer Collection Log"],
 				"Label": "Slayer Collection Log",
-				"Items": ["Tzhaar-ket-om"]
+				"Items": ["TzHaar-Ket-Om"]
 			},
 			"(Karamja) Obtain a ~|Toktz-ket-xil|~": {
 				"Category": ["Collection Log", "Slayer Collection Log"],
@@ -139494,10 +139579,10 @@
 				"Label": "Slayer Collection Log",
 				"Items": ["Khopesh of the Kharidian"]
 			},
-			"(Kharidian Desert) Obtain a ~|Key of the Crossing|~": {
+			"(Kharidian Desert) Obtain a ~|Key to the Crossing|~": {
 				"Category": ["Collection Log", "Slayer Collection Log"],
 				"Label": "Slayer Collection Log",
-				"Items": ["Key of the Crossing"]
+				"Items": ["Key to the Crossing"]
 			},
 			"(Kharidian Desert) Obtain a ~|Raptor key part 2|~": {
 				"Category": ["Collection Log", "Slayer Collection Log"],
@@ -139741,7 +139826,7 @@
 				"Items": ["Abyssal whip"]
 			},
 			"(Morytania) Obtain a ~|crawling hand (item)|~": {
-				"Category": ["Collection Log", "Slayer Collection Log", "Stuffables"],
+				"Category": ["Collection Log", "Slayer Collection Log"],
 				"Label": "Slayer Collection Log",
 				"Items": ["Crawling hand (item)"]
 			},
@@ -139888,7 +139973,7 @@
 			"(Other Worlds) Obtain a ~|ragefire gland|~": {
 				"Category": ["Collection Log", "Slayer Collection Log"],
 				"Label": "Slayer Collection Log",
-				"Items": ["ragefire gland"]
+				"Items": ["Ragefire gland"]
 			},
 			"(Other Worlds) Obtain a ~|Kethsi ring (5)|~": {
 				"Category": ["Collection Log", "Slayer Collection Log"],
@@ -141668,10 +141753,10 @@
 				"Label": "Boss Collection Log",
 				"Items": ["Warpriest of Zamorak boots"]
 			},
-			"(K'ril Tsutsaroth) Obtain a ~|Zamorak spear|~": {
+			"(K'ril Tsutsaroth) Obtain a ~|Zamorakian spear|~": {
 				"Category": ["Collection Log", "Boss Collection Log"],
 				"Label": "Boss Collection Log",
-				"Items": ["Zamorak spear"]
+				"Items": ["Zamorakian spear"]
 			},
 			"(K'ril Tsutsaroth) Obtain a ~|steam battlestaff|~": {
 				"Category": ["Collection Log", "Boss Collection Log"],
@@ -142507,7 +142592,7 @@
 			"(Twin Furies) Obtain ~|Ava (pet)|~": {
 				"Category": ["Collection Log", "Boss Collection Log", "Pets"],
 				"Label": "Boss Pets",
-				"Items": ["Avaryss' Braid"]
+				"Items": ["Avaryss' braid"]
 			},
 			"(TzHaar) Obtain the ~|fire cape|~": {
 				"Category": ["Collection Log", "Boss Collection Log"],
@@ -143176,11 +143261,11 @@
 				"Chunks": ["14659"],
 				"Items": ["Feral dinosaur (unchecked)"]
 			},
-			"(Varanusaurs) Breed a ~|venemous dinosaur|~": {
+			"(Varanusaurs) Breed a ~|venomous dinosaur|~": {
 				"Category": ["Collection Log", "Breeding Log"],
 				"Label": "Ranch out of Time Breeding Log",
 				"Chunks": ["14659"],
-				"Items": ["Venemous dinosaur (unchecked)"]
+				"Items": ["Venomous dinosaur (unchecked)"]
 			},
 			"(Varanusaurs) Breed a ~|ripper dinosaur|~": {
 				"Category": ["Collection Log", "Breeding Log"],
@@ -143893,107 +143978,107 @@
 				"Label": "Untracked Skilling Uniques",
 				"Items": ["Senntisten scroll"]
 			},
-			"(Priffdinas Skilling) Obtain a ~|crystal weapon seed|~": {
+			"(Prifddinas Skilling) Obtain a ~|crystal weapon seed|~": {
 				"Category": ["Untracked Uniques", "Untracked Uniques Skilling"],
 				"Label": "Untracked Skilling Uniques",
 				"Items": ["Crystal weapon seed"]
 			},
-			"(Priffdinas Skilling) Obtain a ~|crystal armour seed|~": {
+			"(Prifddinas Skilling) Obtain a ~|crystal armour seed|~": {
 				"Category": ["Untracked Uniques", "Untracked Uniques Skilling"],
 				"Label": "Untracked Skilling Uniques",
 				"Items": ["Crystal armour seed"]
 			},
-			"(Priffdinas Skilling) Obtain a ~|crystal tool seed|~": {
+			"(Prifddinas Skilling) Obtain a ~|crystal tool seed|~": {
 				"Category": ["Untracked Uniques", "Untracked Uniques Skilling"],
 				"Label": "Untracked Skilling Uniques",
 				"Items": ["Crystal tool seed"]
 			},
-			"(Priffdinas Skilling) Obtain a ~|crystal acorn|~": {
+			"(Prifddinas Skilling) Obtain a ~|crystal acorn|~": {
 				"Category": ["Untracked Uniques", "Untracked Uniques Skilling"],
 				"Label": "Untracked Skilling Uniques",
 				"Items": ["Crystal acorn"]
 			},
-			"(Priffdinas) Obtain ~|priffdinian worker's robes|~": {
+			"(Prifddinas) Obtain ~|Prifddinian worker's robes|~": {
 				"Category": ["Untracked Uniques", "Untracked Uniques Skilling", "Cosmetics"],
 				"Label": "Untracked Skilling Uniques",
-				"Items": ["Priffdinian worker's robes"]
+				"Items": ["Prifddinian worker's robes"]
 			},
-			"(Priffdinas) Obtain ~|priffdinian worker's trousers|~": {
+			"(Prifddinas) Obtain ~|Prifddinian worker's trousers|~": {
 				"Category": ["Untracked Uniques", "Untracked Uniques Skilling"],
 				"Label": "Untracked Skilling Uniques",
-				"Items": ["Priffdinian worker's trousers"]
+				"Items": ["Prifddinian worker's trousers"]
 			},
-			"(Priffdinas) Obtain ~|priffdinian worker's gloves|~": {
+			"(Prifddinas) Obtain ~|Prifddinian worker's gloves|~": {
 				"Category": ["Untracked Uniques", "Untracked Uniques Skilling", "Cosmetics"],
 				"Label": "Untracked Skilling Uniques",
-				"Items": ["Priffdinian worker's gloves"]
+				"Items": ["Prifddinian worker's gloves"]
 			},
-			"(Priffdinas) Obtain ~|priffdinian worker's boots|~": {
+			"(Prifddinas) Obtain ~|Prifddinian worker's boots|~": {
 				"Category": ["Untracked Uniques", "Untracked Uniques Skilling", "Cosmetics"],
 				"Label": "Untracked Skilling Uniques",
-				"Items": ["Priffdinian worker's boots"]
+				"Items": ["Prifddinian worker's boots"]
 			},
-			"(Priffdinas) Obtain a ~|priffdinian musician's robe top|~": {
+			"(Prifddinas) Obtain a ~|Prifddinian musician's robe top|~": {
 				"Category": ["Untracked Uniques", "Untracked Uniques Skilling"],
 				"Label": "Untracked Skilling Uniques",
-				"Items": ["Priffdinian musician's robe top"]
+				"Items": ["Prifddinian musician's robe top"]
 			},
-			"(Priffdinas) Obtain a ~|priffdinian musician's robe bottom|~": {
+			"(Prifddinas) Obtain a ~|Prifddinian musician's robe bottom|~": {
 				"Category": ["Untracked Uniques", "Untracked Uniques Skilling", "Cosmetics"],
 				"Label": "Untracked Skilling Uniques",
-				"Items": ["Priffdinian musician's robe bottom"]
+				"Items": ["Prifddinian musician's robe bottom"]
 			},
-			"(Priffdinas) Obtain ~|priffdinian musician's gloves|~": {
+			"(Prifddinas) Obtain ~|Prifddinian musician's gloves|~": {
 				"Category": ["Untracked Uniques", "Untracked Uniques Skilling", "Cosmetics"],
 				"Label": "Untracked Skilling Uniques",
-				"Items": ["Priffdinian musician's gloves"]
+				"Items": ["Prifddinian musician's gloves"]
 			},
-			"(Priffdinas) Obtain ~|priffdinian musician's boots|~": {
+			"(Prifddinas) Obtain ~|Prifddinian musician's boots|~": {
 				"Category": ["Untracked Uniques", "Untracked Uniques Skilling", "Cosmetics"],
 				"Label": "Untracked Skilling Uniques",
-				"Items": ["Priffdinian musician's boots"]
+				"Items": ["Prifddinian musician's boots"]
 			},
-			"(Priffdinas) Obtain ~|The Voice of the Elders|~": {
+			"(Prifddinas) Obtain ~|The Voice of the Elders|~": {
 				"Category": ["Untracked Uniques", "Untracked Uniques Skilling"],
 				"Label": "Untracked Skilling Uniques",
 				"Items": ["The Voice of the Elders"]
 			},
-			"(Priffdinas) Obtain an ~|Amlodd symbol piece|~": {
+			"(Prifddinas) Obtain an ~|Amlodd symbol piece|~": {
 				"Category": ["Untracked Uniques", "Untracked Uniques Skilling"],
 				"Label": "Untracked Skilling Uniques",
 				"Items": ["Amlodd symbol piece"]
 			},
-			"(Priffdinas) Obtain a ~|Cadarn symbol piece|~": {
+			"(Prifddinas) Obtain a ~|Cadarn symbol piece|~": {
 				"Category": ["Untracked Uniques", "Untracked Uniques Skilling"],
 				"Label": "Untracked Skilling Uniques",
 				"Items": ["Cadarn symbol piece"]
 			},
-			"(Priffdinas) Obtain a ~|Crwys symbol piece|~": {
+			"(Prifddinas) Obtain a ~|Crwys symbol piece|~": {
 				"Category": ["Untracked Uniques", "Untracked Uniques Skilling"],
 				"Label": "Untracked Skilling Uniques",
 				"Items": ["Crwys symbol piece"]
 			},
-			"(Priffdinas) Obtain a ~|Hefin symbol piece|~": {
+			"(Prifddinas) Obtain a ~|Hefin symbol piece|~": {
 				"Category": ["Untracked Uniques", "Untracked Uniques Skilling"],
 				"Label": "Untracked Skilling Uniques",
 				"Items": ["Hefin symbol piece"]
 			},
-			"(Priffdinas) Obtain an ~|Iowerth symbol piece|~": {
+			"(Prifddinas) Obtain an ~|Iowerth symbol piece|~": {
 				"Category": ["Untracked Uniques", "Untracked Uniques Skilling"],
 				"Label": "Untracked Skilling Uniques",
 				"Items": ["Iowerth symbol piece"]
 			},
-			"(Priffdinas) Obtain an ~|Ithell symbol piece|~": {
+			"(Prifddinas) Obtain an ~|Ithell symbol piece|~": {
 				"Category": ["Untracked Uniques", "Untracked Uniques Skilling"],
 				"Label": "Untracked Skilling Uniques",
 				"Items": ["Ithell symbol piece"]
 			},
-			"(Priffdinas) Obtain a ~|Meilyr symbol piece|~": {
+			"(Prifddinas) Obtain a ~|Meilyr symbol piece|~": {
 				"Category": ["Untracked Uniques", "Untracked Uniques Skilling"],
 				"Label": "Untracked Skilling Uniques",
 				"Items": ["Meilyr symbol piece"]
 			},
-			"(Priffdinas) Obtain a ~|Trahaearn symbol piece|~": {
+			"(Prifddinas) Obtain a ~|Trahaearn symbol piece|~": {
 				"Category": ["Untracked Uniques", "Untracked Uniques Skilling"],
 				"Label": "Untracked Skilling Uniques",
 				"Items": ["Trahaearn symbol piece"]
@@ -144198,25 +144283,25 @@
 				"Label": "Untracked Skilling Uniques",
 				"Items": ["Crux Eqal hood"]
 			},
-			"(Archaeology) Obtain a ~|tetracompas piece (left)|~": {
+			"(Archaeology) Obtain a ~|tetracompass piece (left)|~": {
 				"Category": ["Untracked Uniques", "Untracked Uniques Skilling"],
 				"Label": "Untracked Skilling Uniques",
-				"Items": ["Tetracompas piece (left)"]
+				"Items": ["Tetracompass piece (left)"]
 			},
-			"(Archaeology) Obtain a ~|tetracompas piece (right)|~": {
+			"(Archaeology) Obtain a ~|tetracompass piece (right)|~": {
 				"Category": ["Untracked Uniques", "Untracked Uniques Skilling"],
 				"Label": "Untracked Skilling Uniques",
-				"Items": ["Tetracompas piece (right)"]
+				"Items": ["Tetracompass piece (right)"]
 			},
-			"(Archaeology) Obtain a ~|tetracompas piece (dial)|~": {
+			"(Archaeology) Obtain a ~|tetracompass piece (dial)|~": {
 				"Category": ["Untracked Uniques", "Untracked Uniques Skilling"],
 				"Label": "Untracked Skilling Uniques",
-				"Items": ["Tetracompas piece (dial)"]
+				"Items": ["Tetracompass piece (dial)"]
 			},
-			"(Archaeology) Obtain a ~|tetracompas piece (needle)|~": {
+			"(Archaeology) Obtain a ~|tetracompass piece (needle)|~": {
 				"Category": ["Untracked Uniques", "Untracked Uniques Skilling"],
 				"Label": "Untracked Skilling Uniques",
-				"Items": ["Tetracompas piece (needle)"]
+				"Items": ["Tetracompass piece (needle)"]
 			},
 			"(Archaeology) Obtain a ~|slice of imcando metal|~": {
 				"Category": ["Untracked Uniques", "Untracked Uniques Skilling"],
@@ -144241,7 +144326,7 @@
 			"(Archaeology) Obtain ~|'The Epic of Hebe'|~": {
 				"Category": ["Untracked Uniques", "Untracked Uniques Skilling"],
 				"Label": "Untracked Skilling Uniques",
-				"Chunks": ["14897", "14989"],
+				"Chunks": ["14897", "14898"],
 				"Items": ["White marble", "Hallowed lantern"],
 				"Requirements": {
 					"Construction": 40,
@@ -144604,7 +144689,7 @@
 			"(Abyss Monsters) Obtain an ~|elemental talisman|~": {
 				"Category": ["Untracked Uniques", "Untracked Uniques Combat"],
 				"Label": "Untracked Combat Uniques",
-				"Items": ["Elemental Talisman"],
+				"Items": ["Elemental talisman"],
 				"Not F2P": true
 			},
 			"(Senntisten) Obtain a ~|gate key|~": {
@@ -144647,10 +144732,10 @@
 				"Label": "Untracked Combat Uniques",
 				"Items": ["Kalibath's journal"]
 			},
-			"(Lore Books) Obtain ~|Phalaks's experiment log|~": {
+			"(Lore Books) Obtain ~|Phalaks' experiment log|~": {
 				"Category": ["Untracked Uniques", "Untracked Uniques Combat"],
 				"Label": "Untracked Combat Uniques",
-				"Items": ["Phalaks's experiment log"]
+				"Items": ["Phalaks' experiment log"]
 			},
 			"(Lore Books) Obtain the ~|Archaeology Journal - H.F.A|~": {
 				"Category": ["Untracked Uniques", "Untracked Uniques Combat"],
@@ -145217,27 +145302,27 @@
 				"Items": ["Mysterious note (Zamorak's demon invasion)"],
 				"Not F2P": true
 			},
-			"(Priffdinas Combat) Obtain a ~|crystal weapon seed|~": {
+			"(Prifddinas Combat) Obtain a ~|crystal weapon seed|~": {
 				"Category": ["Untracked Uniques", "Untracked Uniques Combat"],
 				"Label": "Untracked Combat Uniques",
 				"Items": ["Crystal weapon seed"]
 			},
-			"(Priffdinas) Obtain a ~|crystal armour seed|~": {
+			"(Prifddinas) Obtain a ~|crystal armour seed|~": {
 				"Category": ["Untracked Uniques", "Untracked Uniques Combat"],
 				"Label": "Untracked Combat Uniques",
 				"Items": ["Crystal armour seed"]
 			},
-			"(Priffdinas Combat) Obtain a ~|crystal tool seed|~": {
+			"(Prifddinas Combat) Obtain a ~|crystal tool seed|~": {
 				"Category": ["Untracked Uniques", "Untracked Uniques Combat"],
 				"Label": "Untracked Combat Uniques",
 				"Items": ["Crystal tool seed"]
 			},
-			"(Priffdinas Combat) Obtain a ~|crystal acorn|~": {
+			"(Prifddinas Combat) Obtain a ~|crystal acorn|~": {
 				"Category": ["Untracked Uniques", "Untracked Uniques Combat"],
 				"Label": "Untracked Combat Uniques",
 				"Items": ["Crystal acorn"]
 			},
-			"(Priffdinas) Obtain an ~|elder seed|~": {
+			"(Prifddinas) Obtain an ~|elder seed|~": {
 				"Category": ["Untracked Uniques", "Untracked Uniques Combat"],
 				"Label": "Untracked Combat Uniques",
 				"Items": ["Elder seed"]
@@ -145257,12 +145342,12 @@
 			"(Chaos Druids) Obtain a ~|druid's robe (top)|~": {
 				"Category": ["Untracked Uniques", "Untracked Uniques Combat"],
 				"Label": "Untracked Combat Uniques",
-				"Items": ["druid's robe (top)"]
+				"Items": ["Druid's robe (top)"]
 			},
 			"(Chaos Druids) Obtain a ~|druid's robe (bottom)|~": {
 				"Category": ["Untracked Uniques", "Untracked Uniques Combat"],
 				"Label": "Untracked Combat Uniques",
-				"Items": ["druid's robe (bottom)"]
+				"Items": ["Druid's robe (bottom)"]
 			},
 			"(Wilderness Artefacts) Obtain a ~|broken statue headdress|~": {
 				"Category": ["Untracked Uniques", "Untracked Uniques Combat"],
@@ -145330,40 +145415,40 @@
 				"Items": ["Ruby chalice"],
 				"Not F2P": true
 			},
-			"(Wilderness Artefacts) Obtain a ~|Bandos satuette|~": {
+			"(Wilderness Artefacts) Obtain a ~|Bandos statuette|~": {
 				"Category": ["Untracked Uniques", "Untracked Uniques Combat"],
 				"Label": "Untracked Combat Uniques",
-				"Items": ["Bandos satuette"],
+				"Items": ["Bandos statuette"],
 				"Not F2P": true
 			},
-			"(Wilderness Artefacts) Obtain a ~|Saradomin satuette|~": {
+			"(Wilderness Artefacts) Obtain a ~|Saradomin statuette|~": {
 				"Category": ["Untracked Uniques", "Untracked Uniques Combat"],
 				"Label": "Untracked Combat Uniques",
-				"Items": ["Saradomin satuette"],
+				"Items": ["Saradomin statuette"],
 				"Not F2P": true
 			},
-			"(Wilderness Artefacts) Obtain a ~|Zamorak satuette|~": {
+			"(Wilderness Artefacts) Obtain a ~|Zamorak statuette|~": {
 				"Category": ["Untracked Uniques", "Untracked Uniques Combat"],
 				"Label": "Untracked Combat Uniques",
-				"Items": ["Zamorak satuette"],
+				"Items": ["Zamorak statuette"],
 				"Not F2P": true
 			},
-			"(Wilderness Artefacts) Obtain a ~|Armadyl satuette|~": {
+			"(Wilderness Artefacts) Obtain a ~|Armadyl statuette|~": {
 				"Category": ["Untracked Uniques", "Untracked Uniques Combat"],
 				"Label": "Untracked Combat Uniques",
-				"Items": ["Armadyl satuette"],
+				"Items": ["Armadyl statuette"],
 				"Not F2P": true
 			},
-			"(Wilderness Artefacts) Obtain a ~|Seren satuette|~": {
+			"(Wilderness Artefacts) Obtain a ~|Seren statuette|~": {
 				"Category": ["Untracked Uniques", "Untracked Uniques Combat"],
 				"Label": "Untracked Combat Uniques",
-				"Items": ["Seren satuette"],
+				"Items": ["Seren statuette"],
 				"Not F2P": true
 			},
-			"(Wilderness Artefacts) Obtain a ~|Ancient satuette|~": {
+			"(Wilderness Artefacts) Obtain a ~|Ancient statuette|~": {
 				"Category": ["Untracked Uniques", "Untracked Uniques Combat"],
 				"Label": "Untracked Combat Uniques",
-				"Items": ["Ancient satuette"],
+				"Items": ["Ancient statuette"],
 				"Not F2P": true
 			},
 			"(Untracked Slayer) Obtain a ~|soul talisman|~": {
@@ -147042,7 +147127,7 @@
 			"(Dominion Tower) Obtain ~|spellcaster gloves|~": {
 				"Category": ["Untracked Uniques", "Untracked Uniques Minigames"],
 				"Label": "Untracked Minigame Uniques",
-				"Items": ["Spellcater gloves"]
+				"Items": ["Spellcaster gloves"]
 			},
 			"(Dominion Tower) Obtain ~|swift gloves|~": {
 				"Category": ["Untracked Uniques", "Untracked Uniques Minigames"],
@@ -147675,7 +147760,7 @@
 			"(Cabbage Facepunch Bonanza) Obtain a ~|seedicide|~": {
 				"Category": ["Untracked Uniques", "Untracked Uniques Minigames"],
 				"Label": "Untracked Minigame Uniques",
-				"Items": ["Seedice"]
+				"Items": ["Seedicide"]
 			},
 			"(Cabbage Facepunch Bonanza) Obtain a ~|Slayer VIP ticket|~": {
 				"Category": ["Untracked Uniques", "Untracked Uniques Minigames"],
@@ -151860,7 +151945,7 @@
 			"Unlock the ~|Enchanted Notepaper (blueprint)|~": {
 				"Category": ["Permanent Unlockables"],
 				"Label": "Permanent Unlockables",
-				"Items": ["Notepaper nlueprint", "Dungeoneering token*"]
+				"Items": ["Notepaper blueprint", "Dungeoneering token*"]
 			},
 			"Unlock the ~|Dungeoneering outfit piece (blueprint)|~": {
 				"Category": ["Permanent Unlockables"],
@@ -153044,7 +153129,7 @@
 				},
 				"Not F2P": true
 			},
-			"Build the grapple hidey-hole from the ~|convenient rock (Priffdinas Waterfall)|~": {
+			"Build the grapple hidey-hole from the ~|convenient rock (Prifddinas Waterfall)|~": {
 				"Category": ["Permanent Unlockables"],
 				"Label": "Permanent Unlockables",
 				"Chunks": ["9013"],
@@ -153718,7 +153803,7 @@
 				"Items": [
 					"Wushroom", "Corpsebloom", "Lactarius", "Paraspore", "Buttercap", "Blushroom", "Purple bellow", "Snufftruffle", "Inky cap", "Sporcini", "Toastool", "Honeyfungus", "Arc puffball", "Russula", "Summertwirl",
 					"Rumberry", "Exuberry", "Fireberry", "Blisterberry", "Mournberry", "Stoneberry", "Stormberry", "Rosaberry", "Squiffberry", "Meloberry", "Jitterberry", "Cocoaberry", "Smoulderberry", "Sourberry", "Gloomberry", "Musaberry",
-					"Cyclosis Cockatiel", "Pumpkin Limpkin", "Cyansoul Kakapo", "Tortleshell Plover", "Dusky Wigglebill", "Titchy Tinamou", "Azure parrot", "Awah Guan", "Great Pecker", "Tuai Leit Toucan", "Waiko Warbler", "Fluffy Jublet", "Cocoa Macaw", "Gongdung Peligorn", "Crested Sillago Snatcher", "Shrine Ibis"
+					"Cyclosis Cockatiel", "Pumpkin Limpkin", "Cyansoul Kakapo", "Tortleshell Plover", "Dusky Wigglebill", "Titchy Tinamou", "Azure Parrot", "Awah Guan", "Great Pecker", "Tuai Leit Toucan", "Waiko Warbler", "Fluffy Jublet", "Cocoa Macaw", "Gongdung Peligorn", "Crested Sillago Snatcher", "Shrine Ibis"
 				],
 				"Requirements": {
 					"Farming": 94,
@@ -154193,7 +154278,7 @@
 			"Obtain the ~|the Master Fisherman/Fisherwoman|~ title": {
 				"Category": ["Titles"],
 				"Label": "Titles",
-				"Items": ["'the Master Fisherman/Fisherwoman' title"]
+				"Items": ["'The Master Fisherman/Fisherwoman' title"]
 			},
 			"Obtain the ~|Novice Baiter|~ title": {
 				"Category": ["Titles"],
@@ -154333,7 +154418,7 @@
 					"Saragorgak star crown",
 					"Drogokishuun hook sword",
 					"Hobgoblin mansticker",
-					"Kal-i-kra chieftan crown",
+					"Kal-i-kra chieftain crown",
 					"Kal-i-kra mace",
 					"Kal-i-kra warhorn",
 					"'Da Boss Man' sculpture",
@@ -155189,7 +155274,7 @@
 			"Obtain the ~|the Mourner|~ title": {
 				"Category": ["Titles"],
 				"Label": "Titles",
-				"NPCs": ["Lady Ithel"],
+				"NPCs": ["Lady Ithell"],
 				"Items": ["Gas mask", "Mourner top", "Mourner trousers", "Mourner boots", "Mourner gloves", "Mourner cloak"]
 			},
 			"Obtain the ~|of the Naragi|~ title": {
@@ -155224,13 +155309,13 @@
 			"Obtain the ~|the Stupendous|~ title": {
 				"Category": ["Titles"],
 				"Label": "Titles",
-				"Chunks": ["Priffdinas[+]"],
+				"Chunks": ["Prifddinas[+]"],
 				"Items": ["Bowl of water", "Cooked meat", "Raw potato", "Mud pie"]
 			},
 			"Obtain the ~|Sweet Tooth|~ title": {
 				"Category": ["Titles"],
 				"Label": "Titles",
-				"Chunks": ["Priffdinas[+]"],
+				"Chunks": ["Prifddinas[+]"],
 				"Items": ["Chocolate cake", "Chocolate bar", "Chocchip crunchies", "Chocolate bomb", "Choc ice", "Cake", "Summer pie", "Redberry pie", "Apple pie", "Fruit batta"]
 			},
 			"Obtain the ~|Sword Artist|~ title": {
@@ -155546,7 +155631,7 @@
 			"Obtain the ~|the Reaper|~ title": {
 				"Category": ["Titles"],
 				"Label": "Titles",
-				"Chunks": ["7729-1", "12586", "14131", "Borehole", "Sanctum of Rebirth", "Zamorakian Undercity", "Temple of Aminishi", "The Shadow Reef", "Dragonkin Laboratory", "Exhiled Kalphite Hive", "Elder God Wars Dungeon", "Ancient Prison", "Mazcab"],
+				"Chunks": ["7729-1", "12586", "14131", "Borehole", "Sanctum of Rebirth", "Zamorakian Undercity", "Temple of Aminishi", "The Shadow Reef", "Dragonkin Laboratory", "Exiled Kalphite Hive", "Elder God Wars Dungeon", "Ancient Prison", "Mazcab"],
 				"Tasks": {
 					"~|Eclipse of the Heart|~ Complete the quest": "Quest"
 				},
@@ -159555,7 +159640,7 @@
 			"(Goblin Generals) Complete ~|Red Rum Relics III|~": {
 				"Category": ["Archaeology Collections"],
 				"Label": "Archaeology Collections",
-				"Items": ["Kal-i-kra chieftan crown", "Kal-i-kra mace", "Kal-i-kra warhorn", "'Da Boss Man' sculpture"],
+				"Items": ["Kal-i-kra chieftain crown", "Kal-i-kra mace", "Kal-i-kra warhorn", "'Da Boss Man' sculpture"],
 				"NPCs": ["General Bentnoze"]
 			},
 			"(Goblin Generals) Complete ~|Green Gobbo Goodies I|~": {
@@ -159874,7 +159959,7 @@
 			"(Velucia) Complete ~|Museum - Bandosian III|~": {
 				"Category": ["Archaeology Collections"],
 				"Label": "Archaeology Collections",
-				"Items": ["Huzamogaarb chaos crown", "Saragorgak star crown", "Drogokishuun hook sword", "Hobgoblin mansticker", "Kal-i-kra chieftan crown", "Kal-i-kra mace", "Kal-i-kra warhorn", "'Da Boss Man' sculpture", "Horogothgar cooking pot"],
+				"Items": ["Huzamogaarb chaos crown", "Saragorgak star crown", "Drogokishuun hook sword", "Hobgoblin mansticker", "Kal-i-kra chieftain crown", "Kal-i-kra mace", "Kal-i-kra warhorn", "'Da Boss Man' sculpture", "Horogothgar cooking pot"],
 				"NPCs": ["Velucia"]
 			},
 			"(Wise Old Man) Complete ~|Wise Am the Music Man|~": {
@@ -159892,7 +159977,7 @@
 			"(Wise Old Man) Complete ~|Hat Hoarder|~": {
 				"Category": ["Archaeology Collections"],
 				"Label": "Archaeology Collections",
-				"Items": ["Lesser demon mask", "Greater demon mask", "Ceremonial unicorn ornament", "Pontifex mitre", "Saragorgak star crown", "Kal-i-kra chieftan crown", "Tsutsaroth helm"],
+				"Items": ["Lesser demon mask", "Greater demon mask", "Ceremonial unicorn ornament", "Pontifex mitre", "Saragorgak star crown", "Kal-i-kra chieftain crown", "Tsutsaroth helm"],
 				"NPCs": ["Wise Old Man"]
 			},
 			"(Wise Old Man) Complete ~|Magic Man|~": {
@@ -160953,6 +161038,9 @@
 				"UnlocksArea": true
 			},
 			"Arposandra": {
+				"UnlocksArea": true
+			},
+			"Port Phasmatys Basement Brewery": {
 				"UnlocksArea": true
 			},
 			"Viyeldi Caves": {
@@ -162018,7 +162106,7 @@
 			"9778-1 to 9778-3": {
 				"Sections": ["9778-1", "9778-3"],
 				"Tasks": {
-					"~|The Prissoner of Glouphrie|~ 2": "Quest"
+					"~|The Prisoner of Glouphrie|~ 2": "Quest"
 				},
 				"ConnectsSections": true,
 				"Not F2P": true
@@ -162278,7 +162366,7 @@
 			"11567-1 to 11567-2": {
 				"Sections": ["11567-1", "11567-2"],
 				"Tasks": {
-					"Access the Karamja wooden log ~|shortcut|~": "Agility"
+					"Cross the Karamja wooden log ~|shortcut|~": "Agility"
 				},
 				"ConnectsSections": true,
 				"Not F2P": true
@@ -162914,7 +163002,7 @@
 				"Output": "Bowl of water"
 			},
 			"Fill a bucket of water*": {
-				"Items": ["Empty bucket"],
+				"Items": ["Bucket"],
 				"Objects": ["WaterSource[+]"],
 				"Output": "Bucket of water"
 			},
@@ -162929,7 +163017,7 @@
 				"Output": "Vial of water"
 			},
 			"Fill a bucket of milk*": {
-				"Items": ["Empty bucket"],
+				"Items": ["Bucket"],
 				"Objects": ["Dairy cow"],
 				"Output": "Bucket of milk"
 			},
@@ -163123,12 +163211,12 @@
 			"Get a woodland camo top made*": {
 				"Items": ["Common kebbit fur"],
 				"NPCs": ["Fancy-dress shop owner"],
-				"Output": "Woodland camo top"
+				"Output": "Wood camo top"
 			},
 			"Get woodland camo legs made*": {
 				"Items": ["Common kebbit fur"],
 				"NPCs": ["Fancy-dress shop owner"],
-				"Output": "Woodland camo legs"
+				"Output": "Wood camo legs"
 			},
 			"Get a jungle camo top made*": {
 				"Items": ["Feldip weasel fur"],
@@ -163594,7 +163682,7 @@
 			"Hard Ardougne tasks ~|A Taste of the Exotic|~ (Papaya)*": {
 				"Description": "Pick a papaya fruit or coconut from the fruit tree patch near Tree Gnome Village.",
 				"Chunks": ["9777-2"],
-				"Items": ["Papaya seed"],
+				"Items": ["Papaya tree seed"],
 				"Skills": {
 					"Farming": 57
 				}
@@ -163664,7 +163752,7 @@
 				"Output": "Vial"
 			},
 			"Fill a bucket with sand*": {
-				"Items": ["Empty bucket"],
+				"Items": ["Bucket"],
 				"Objects": ["Sand pit"],
 				"Output": "Bucket of sand"
 			},
@@ -163970,7 +164058,7 @@
 				"Items": ["BlackFullHelm[+]", "BlackPlatebody[+]", "BlackPlatelegs[+]"]
 			},
 			"Black Knights' Fortress Entry (Dagon'hai robes)*": {
-				"Items": ["Dagon'hai hat", "Dagon'hai robe top", "Dagon'hai robe bottm"]
+				"Items": ["Dagon'hai hat", "Dagon'hai robe top", "Dagon'hai robe bottom"]
 			},
 			"Black Knights' Fortress Entry (elite black armour)*": {
 				"Items": ["Elite black full helm", "Elite black platebody", "Elite black platelegs"]
@@ -164488,7 +164576,7 @@
 				"NPCs": ["General Bentnoze"]
 			},
 			"Complete the archaeology collection 'Red Rum Relics III'": {
-				"Items": ["Kal-i-kra chieftan crown", "Kal-i-kra mace", "Kal-i-kra warhorn", "'Da Boss Man' sculpture"],
+				"Items": ["Kal-i-kra chieftain crown", "Kal-i-kra mace", "Kal-i-kra warhorn", "'Da Boss Man' sculpture"],
 				"NPCs": ["General Bentnoze"]
 			},
 			"Complete the archaeology collection 'Green Gobbo Goodies I'": {
@@ -164701,7 +164789,7 @@
 				"NPCs": ["Velucia"]
 			},
 			"Complete the archaeology collection 'Museum - Bandosian III'": {
-				"Items": ["Huzamogaarb chaos crown", "Saragorgak star crown", "Drogokishuun hook sword", "Hobgoblin mansticker", "Kal-i-kra chieftan crown", "Kal-i-kra mace", "Kal-i-kra warhorn", "'Da Boss Man' sculpture", "Horogothgar cooking pot"],
+				"Items": ["Huzamogaarb chaos crown", "Saragorgak star crown", "Drogokishuun hook sword", "Hobgoblin mansticker", "Kal-i-kra chieftain crown", "Kal-i-kra mace", "Kal-i-kra warhorn", "'Da Boss Man' sculpture", "Horogothgar cooking pot"],
 				"NPCs": ["Velucia"]
 			},
 			"Complete the archaeology collection 'Wise Am the Music Man'": {
@@ -164713,7 +164801,7 @@
 				"NPCs": ["Wise Old Man"]
 			},
 			"Complete the archaeology collection 'Hat Hoarder'": {
-				"Items": ["Lesser demon mask", "Greater demon mask", "Ceremonial unicorn ornament", "Pontifex mitre", "Saragorgak star crown", "Kal-i-kra chieftan crown", "Tsutsaroth helm"],
+				"Items": ["Lesser demon mask", "Greater demon mask", "Ceremonial unicorn ornament", "Pontifex mitre", "Saragorgak star crown", "Kal-i-kra chieftain crown", "Tsutsaroth helm"],
 				"NPCs": ["Wise Old Man"]
 			},
 			"Complete the archaeology collection 'Magic Man'": {
@@ -165593,8 +165681,8 @@
 					"~|The Lost Tribe|~ 2": "Quest"
 				}
 			}, 
-			"Access the Lumbridge Swamp Caves via 12953": {
-				"Chunks": ["12953"],
+			"Access the Lumbridge Swamp Caves via 12593": {
+				"Chunks": ["12593"],
 				"Items": ["Rope"]
 			},
 			"Cosecrate the primed keris*": {
@@ -165968,7 +166056,7 @@
 			},
 			"Abyssal beast task": {
 				"Tasks": {
-					"Abyssal beast task[+]": "Noskill"
+					"Abyssal beast task[+]": "Nonskill"
 				},
 				"Not F2P": true
 			},
@@ -166271,7 +166359,7 @@
 				"Items": ["Crystal key*"],
 				"Objects": ["Crystal chest"],
 				"Chunks": ["8755"],
-				"Output": "Crystal chest (Priffdinas)"
+				"Output": "Crystal chest (Prifddinas)"
 			},
 			"Triskelion loot*": {
 				"Category": ["Crystal chests"],
@@ -167398,7 +167486,7 @@
 			},
 			"The dead, red dragon watches over this chest. He must really dig the view.": {
 				"Chunks": ["13364"],
-				"Items": ["Barbarian#Version 1"],
+				"Monsters": ["Barbarian#Version 1"],
 				"ClueTier": "medium",
 				"ClueType": "Cryptic",
 				"Not F2P": true
@@ -167788,7 +167876,7 @@
 			},
 			"Blow a raspberry at the monkey cage in Ardougne Zoo (Studded body, bronze platelegs, Mud pie)": {
 				"Chunks": ["10291"],
-				"Items": ["Studded body", "Bronze platelegd", "Mud pie"],
+				"Items": ["Studded body", "Bronze platelegs", "Mud pie"],
 				"Skills": {
 					"Defence": 20
 				},
@@ -168272,7 +168360,7 @@
 			},
 			"Blow a Raspberry at the celestial dragons on Dragontooth Island (Dragon mask, Dragon Rider amulet, Dragon defender)": {
 				"Chunks": ["Dragontooth Island resource dungeon"],
-				"Items": ["Dragon mask[+], Dragon Rider amulet, Dragon defender"],
+				"Items": ["Dragon mask[+]", "Dragon Rider amulet", "Dragon defender"],
 				"Skills": {
 					"Defence": 60,
 					"Attack": 60
@@ -169161,7 +169249,7 @@
 				"Not F2P": true
 			},
 			"The God of Order requires a sacrifice of strength but in return restores me. If only we could keep that feeling in his absence.": {
-				"Items": ["Clean toadflax", "Vial of water", "Crushed bird nest"],
+				"Items": ["Clean toadflax", "Vial of water", "Crushed nest"],
 				"Skills": {
 					"Herblore": 81
 				},
@@ -172581,7 +172669,7 @@
 				"ClueType": "Scan",
 				"Not F2P": true
 			},
-			"At the eastern entrance of Priffdinas.": {
+			"At the eastern entrance of Prifddinas.": {
 				"Chunks": ["9012-1"],
 				"ClueTier": "master",
 				"ClueType": "Scan",
@@ -176261,6 +176349,25 @@
 			},
 			"Get skulled": {
 				"Chunks": ["SkullChunks[+]"]
+			},
+			"Buy an incomplete hydrix": {
+				"Chunks": ["Death's Office"],
+				"Skills": {
+					"Slayer": 45,
+					"Combat": 50
+				},
+				"Monsters": ["AnyBoss[+]"],
+				"Output": "Incomplete hydrix"
+			},
+			"Create an ascension crossbow": {
+				"NPCs": ["Ocellus"],
+				"Items": ["Dragon crossbow", "Ascension signet I", "Ascension signet II", "Ascension signet III", "Ascension signet IV", "Ascension signet V", "Ascension signet VI", "Ascension shard"],
+				"Output": "Ascension crossbow"
+			},
+			"Create an off-hand ascension crossbow": {
+				"NPCs": ["Ocellus"],
+				"Items": ["Ascension crossbow", "Ascension shard"],
+				"Output": "Off-hand ascension crossbow"
 			}
 		}
 	},
@@ -180621,7 +180728,7 @@
 					}
 				}
 			},
-			"Nickname": "South-west Priffdinas"
+			"Nickname": "South-west Prifddinas"
 		},
 		"8500": {
 			"Object": {
@@ -188353,7 +188460,8 @@
 				"Willow": 5,
 				"Dead tree": 5,
 				"Achey Tree": 7,
-				"Feldip swamp rock": 3
+				"Feldip swamp rock": 3,
+				"Ogre spit-roast": 1
 			},
 			"Monster": {
 				"Chompy bird": 1
@@ -200084,7 +200192,6 @@
 				"Storage Chest": 1,
 				"Elder tree": 1,
 				"Canoe station": 1,
-				"Nettles": 2,
 				"Maple tree": 3
 			},
 			"NPC": {
@@ -204101,7 +204208,7 @@
 		},
 		"13723": {
 			"Object": {
-				"Funeral pyre": 7,
+				"Funeral Pyre": 7,
 				"Wooden recess": 6,
 				"Lectern": 1
 			},
@@ -221379,7 +221486,7 @@
 		"Mogre Camp": {
 			"Object": {
                 "Anchor": 2,
-                "Kelp": 51
+                "Kelp (Mogre Camp)": 51
             },
 			"NPC": {
                 "Mogre Guard": 4,
@@ -222332,7 +222439,7 @@
 		},
 		"Columbarium": {
 			"Object": {
-				"Funeral pyre (columbarium)": 7,
+				"Funeral Pyre (columbarium)": 7,
 				"Wooden recess": 6,
 				"Lectern": 1
 			},
@@ -223870,6 +223977,12 @@
 			"Object": {
 				"Memoriam crystal": 1
 			},
+			"Monster": {
+				"Blood nihil": 4,
+				"Ice nihil": 4,
+				"Shadow nihil": 4,
+				"Smoke nihil": 4
+			},
 			"Connect": {
 				"9268": true
 			}
@@ -223878,6 +223991,11 @@
 			"Object": {
 				"Memoriam crystal": 1,
 				"Ledge": 2
+			},
+			"Monster": {
+				"Force muspah": 3,
+				"Bladed muspah": 3,
+				"Throwing muspah": 3
 			},
 			"Connect": {
 				"9268": true
@@ -225497,7 +225615,8 @@
 				"Handhold (Asuran Arsenal)": 3,
 				"Rubble (Asuran Arsenal)": 5,
 				"Dropdown (Asuran Arsenal)": 3,
-				"Railing (Asuran Arsenal)": 1
+				"Railing (Asuran Arsenal)": 1,
+				"Handholds (Asuran Arsenal)": 1
 			},
 			"Connect": {
 				"16960": true
@@ -227335,7 +227454,7 @@
 				"Snufftruffle",
 				"Sporcini",
 				"Summertwirl",
-				"Toadstool",
+				"Toastool",
 				"Wushroom"
 			],
 			"ArcZygoParents[+]": [
@@ -227994,7 +228113,6 @@
 				"Cooking potion (3)",
 				"Cooking potion (4)"
 			],
-			"CopperOrTin[+]": ["Copper rock", "Tin rock"],
 			"CorruptDragonArmour[+]": [
 				"Corrupt dragon chainbody",
 				"Corrupt dragon helm",
@@ -228652,7 +228770,7 @@
 				"Extreme necromancy (3)",
 				"Extreme necromancy (4)"
 			],
-			"FairyTaleI9[+]": ["Clean aventoe", "Baby dragon bones", "Blue dragon scale", "Charcoal", "Crushed gem", "Edible seaweed", "Fat snail", "Clean irit", "Grapes", "Jangerberries", "Jogre bones", "King worm", "Lime", "Mort myre fungus", "Mort myre pear", "Mort myre stem", "Nature talisman", "Oyster", "Potato cactus", "Proboscis", "Raw cave eel", "Red spiders' eggs", "Red vine worm", "Slimy eel", "Clean snapdragon", "Snape grass", "Supercompost", "Uncut diamond", "Uncut ruby", "Dragon bones", "White berries"],
+			"FairyTaleI9[+]": ["Clean avantoe", "Baby dragon bones", "Blue dragon scale", "Charcoal", "Crushed gem", "Edible seaweed", "Fat snail", "Clean irit", "Grapes", "Jangerberries", "Jogre bones", "King worm", "Lime", "Mort myre fungus", "Mort myre pear", "Mort myre stem", "Nature talisman", "Oyster", "Potato cactus", "Proboscis", "Raw cave eel", "Red spiders' eggs", "Red vine worm", "Slimy eel", "Clean snapdragon", "Snape grass", "Supercompost", "Uncut diamond", "Uncut ruby", "Dragon bones", "White berries"],
 			"FallfacedSheep[+]": [
 				"Fallfaced ewe (unchecked)",
 				"Fallfaced ram (unchecked)"
@@ -230472,7 +230590,7 @@
 				"Toadflax seed",
 				"Irit seed",
 				"Wergali seed",
-				"Aventoe seed",
+				"Avantoe seed",
 				"Kwuarm seed",
 				"Bloodweed seed",
 				"Snapdragon seed",
@@ -230733,7 +230851,7 @@
 				"Rune nails",
 				"Steel nails"
 			],
-			"SteelOrMithril": ["Steel bar", "Mithril bar"],
+			"SteelOrMithril[+]": ["Steel bar", "Mithril bar"],
 			"Steelpick[+]": [
 				"Steel pickaxe + 1",
 				"Steel pickaxe"
@@ -232061,11 +232179,11 @@
 			"OceanicComps[+]": [
 				"Elite seasinger kiba", 
 				"Elite seasinger makigai", 
-				"Superior seasinger aonori", 
-				"Superior seasinger asari", 
-				"Superior seasinger hood", 
-				"Superior seasinger robe top", 
-				"Superior seasinger robe bottom", 
+				"Superior seasinger's aonori", 
+				"Superior seasinger's asari", 
+				"Superior seasinger's hood", 
+				"Superior seasinger's robe top", 
+				"Superior seasinger's robe bottom", 
 				"Chaos relic (rare)", 
 				"Igneous stone", 
 				"Laboratory relic (rare)", 
@@ -232701,7 +232819,6 @@
 			"CookedMeat[+]": "Any meat that can be used in chili con carne",
 			"CookingGuildEntryItem[+]": "Any item that gives access to the Cooks' Guild",
 			"CookingPotion[+]": "Any cooking potion",
-			"CopperOrTin[+]": "A Copper or Tin rock",
 			"CorruptDragonArmour[+]": "Any piece of corrupt dragon armour",
 			"CorruptDragonWeapon[+]": "Any corrupt dragon melee weapon",
 			"CorruptMeleeWeapon[+]": "Any corrupt ancient warrior melee weapon",
@@ -233310,7 +233427,7 @@
 			"Pet shop[+]": ["10288-1", "11573"],
 			"PoisonWasteChunks[+]": ["8752-1", "8752-4", "9008-1"],
 			"PrayerAltarChunks[+]": ["11828", "10290", "10806-1", "12854", "Underground Pass", "10035-1", "10291", "12850-1", "Sunken Tutorial Island", "11825-1", "11574", "11575-1", "13617-1", "12086", "11316", "Goblin Temple", "8757", "8755", "9265-1", "Jaldraocht Pyramid", "12331-1", "13622-1", "13098-1", "10803", "Nature Grotto", "War's Retreat", "Senntisten Temple", "God Wars Dungeon", "Kharid-et - Barracks excavation site", "14388-1", "12087-3", "11830-1", "12852", "12856", "11835", "Yanille Agility Dungeon", "9778-1", "9012-1", "11056", "11051-1", "Uzer Mastaba", "8508", "13613", "11829-1", "7995"],
-			"Priffdinas[+]": ["8501-1", "8501-2", "8500", "8499-1", "8499-2", "8757", "8756-1", "8756-2", "8756-3", "8756-4", "8756-5", "8756-6", "8756-7", "8755", "9013", "9012-1", "9012-2", "9011-1", "9011-2", "9011-5"],
+			"Prifddinas[+]": ["8501-1", "8501-2", "8500", "8499-1", "8499-2", "8757", "8756-1", "8756-2", "8756-3", "8756-4", "8756-5", "8756-6", "8756-7", "8755", "9013", "9012-1", "9012-2", "9011-1", "9011-2", "9011-5"],
 			"PVP[+]": ["8493", "9005", "9520", "11831-1", "11832-1", "11833-1", "11834", "11837", "12087-1", "12088", "12089", "12090", "12091-1", "12091-2", "12092-1", "12092-2", "12092-3", "12092-4", "12092-5", "12092-6", "12343-1", "12344", "12347-1", "12347-2", "12348-1", "12348-2", "12599", "12600", "12603-1", "12603-2", "12604-1", "12604-2", "12604-3", "12605", "12855", "12856", "12859-1", "12859-2", "13111", "13114", "13367-3", "13368-1", "13372-1", "13372-2", "Forinthry Dungeon", "Gamers' Grotto", "TzHaar City"],
 			"RitualSite[+]": ["City of Um", "Ungael ritual site"],
 			"RockCrabChunks[+]": ["10810-1", "10042-1"],
@@ -233456,6 +233573,7 @@
 			"Bank[+]": ["Bank", "Bank boat", "Bank booth", "Bank chest", "Banker"],
 			"Cave eel spot[+]": ["Fishing spot (frog spawn, eels)", "Fishing spot (meiyerditch)"],
 			"Coal rock[+]": ["Coal rock", "Coal vein"],
+			"CopperOrTin[+]": ["Copper rock", "Tin rock"],
 			"Cooking object[+]": ["Fire", "Cooking range", "Range", "Clay oven", "Campfire", "Fireplace", "Stove", "Cooking pot", "Sulphur pit", "Player fire", "Oven (City of Um)", "Grill"],
 			"Cooking range[+]": ["Cooking range", "Range", "Stove", "Clay oven", "Oven (City of Um)", "Grill"],
 			"CraftingFurnace[+]": ["Furnace", "Furnace (Dorgesh)", "Fremennik Furnace"],
@@ -233500,6 +233618,7 @@
 			"AnyExcavationSpot[+]": "Any excavation spot where relics can be found",
 			"Cave eel spot[+]": "Any cave eel fishing spot",
 			"Coal rock[+]": "A coal rock or a coal vein",
+			"CopperOrTin[+]": "A Copper or Tin rock",
 			"Cooking object[+]": "Any object that counts for cooking",
 			"Cooking range[+]": "Any object that counts as a range for cooking",
 			"CraftingFurnace[+]": "Any furnace you can smelt jewelry in",
@@ -234574,7 +234693,7 @@
 				"Charge dragonstone jewelry using a geyser titan",
 				"Charge dragonstone jewelry after the Legends' Quest"
 			],
-			"Access the Lumbridge Swamp Caves[+]": ["Access the Lumbridge Swamp Caves via Lumbridge Cellar", "Access the Lumbridge Swamp Caves via 12953"],
+			"Access the Lumbridge Swamp Caves[+]": ["Access the Lumbridge Swamp Caves via Lumbridge Cellar", "Access the Lumbridge Swamp Caves via 12593"],
 			"LesserEnsoulMaterial[+]": ["Ensoul a ~|lesser ensouled bar|~", "Ensoul ~|lesser ensouled cloth|~", "Ensoul ~|lesser ensouled thread|~"],
 			"EnsoulMaterial[+]": ["Ensoul an ~|ensouled bar|~", "Ensoul ~|ensouled cloth|~", "Ensoul ~|ensouled thread|~"],
 			"GreaterEnsoulMaterial[+]": ["Ensoul a ~|greater ensouled bar|~", "Ensoul ~|greater ensouled cloth|~", "Ensoul ~|greater ensouled thread|~"],
@@ -270481,7 +270600,7 @@
 			"Cursed amascut sand": {
 				"1": "1/1111"
 			},
-			"The Beast of Darkness": {
+			"Death and Devourers": {
 				"1": "1/16"
 			},
 			"Manuscript of Amascut": {
@@ -270589,7 +270708,7 @@
 			"Cursed amascut sand": {
 				"1": "1/1111"
 			},
-			"The Beast of Darkness": {
+			"Death and Devourers": {
 				"1": "1/16"
 			},
 			"Manuscript of Amascut": {
@@ -285429,7 +285548,7 @@
 			"Cursed amascut sand": {
 				"1": "1/1111"
 			},
-			"The Beast of Darkness": {
+			"The Brood Mother": {
 				"1": "1/16"
 			},
 			"Manuscript of Amascut": {
@@ -285528,7 +285647,7 @@
 			"Cursed amascut sand": {
 				"1": "1/1111"
 			},
-			"The Beast of Darkness": {
+			"The Brood Mother": {
 				"1": "1/16"
 			},
 			"Manuscript of Amascut": {
@@ -289489,6 +289608,12 @@
 			"Vorkath's spike": {
 				"4-7": "1/45"
 			},
+			"Vorkath's claw": {
+				"1": "1/2000"
+			},
+			"Zemouregal's nexus": {
+				"1": "Always"
+			},
 			"Congealed blood": {
 				"28-42": "75/1000"
 			},
@@ -289559,6 +289684,12 @@
 			},
 			"Vorkath's scale": {
 				"1": "1/150"
+			},
+			"Vorkath's claw": {
+				"1": "1/1000"
+			},
+			"Zemouregal's nexus": {
+				"1": "Always"
 			},
 			"Congealed blood": {
 				"84-126": "75/1000"
@@ -291567,16 +291698,16 @@
 				"~|Kindred spirits|~ Complete the quest": "Quest"
 			}],
 			"Linza's cuirass^": [{
-				"~|Kindred spirits|~ Complete the quest": "Quest"
+				"~|Kindred Spirits|~ Complete the quest": "Quest"
 			}],
 			"Linza's greaves^": [{
-				"~|Kindred spirits|~ Complete the quest": "Quest"
+				"~|Kindred Spirits|~ Complete the quest": "Quest"
 			}],
 			"Linza's shield^": [{
-				"~|Kindred spirits|~ Complete the quest": "Quest"
+				"~|Kindred Spirits|~ Complete the quest": "Quest"
 			}],
 			"Linza's hammer^": [{
-				"~|Kindred spirits|~ Complete the quest": "Quest"
+				"~|Kindred Spirits|~ Complete the quest": "Quest"
 			}],
 			"Long bone^": [{
 				"Members only": "Nonskill"
@@ -292114,7 +292245,7 @@
 			"Swift gloves^": [{
 				"~|The Void Stares Back|~ Complete the quest": "Quest"
 			}, {
-				"~|Love Sotry|~ Complete the quest": "Quest"
+				"~|Love Story|~ Complete the quest": "Quest"
 			}, {
 				"~|Desert Treasure|~ Complete the quest": "Quest"
 			}, {
@@ -292841,7 +292972,7 @@
 			"Kalibath's journal": [{
 				"~|Hero's Welcome|~ Complete the quest": "Quest"
 			}],
-			"Phalaks's experiment log": [{
+			"Phalaks' experiment log": [{
 				"~|Hero's Welcome|~ Complete the quest": "Quest"
 			}],
 			"Butterfly net^": [{
@@ -293905,7 +294036,7 @@
 					"~|Biohazard|~ Complete the quest": "Quest"
 				}]
 			},
-			"Ogre chieftan": {
+			"Ogre chieftain": {
 				"10031": [{
 					"~|Watchtower|~ 7": "Quest"
 				}]
@@ -293917,12 +294048,12 @@
 			},
 			"Magic axe": {
 				"12605": [{
-					"Lockpick the door to the ~|magic axe hut|~": "Thieving"
+					"Unlock the door to the ~|magic axe hut|~": "Thieving"
 				}]
 			},
 			"Ghostly warrior": {
 				"Spirit Realm Magic Axe Hut": [{
-					"Lockpick the door to the ~|magic axe hut|~": "Thieving"
+					"Unlock the door to the ~|magic axe hut|~": "Thieving"
 				}]
 			},
 			"Guard (Desert Mining Camp)": {
@@ -294051,10 +294182,10 @@
 			},
 			"Chest (Magic Axe Hut)": {
 				"12605": [{
-					"Lockpick the door to the ~|magic axe hut|~": "Thieving"
+					"Unlock the door to the ~|magic axe hut|~": "Thieving"
 				}],
 				"Spirit Realm Magic Axe Hut": [{
-					"Lockpick the door to the ~|magic axe hut|~": "Thieving"
+					"Unlock the door to the ~|magic axe hut|~": "Thieving"
 				}]
 			},
 			"Chest (Wizards' Guild)": {
@@ -296372,7 +296503,7 @@
 			{ "color": "#00fbff", "text": "Jig in the Edgeville Monastery garden. (Holy Cithara, Saradomin's murmur, ring of devotion)", "type": "Master", "x":3056, "y":3499 },
 			{ "color": "#00fbff", "text": "Salute in the Max Guild Garden. (Nothing)", "type": "Master", "x":2276, "y":3328 },
 			{ "color": "#00fbff", "text": "Shrug in the Lumbridge Fishing Supplies shop. (Demon slayer gloves, boater, cape of legends)", "type": "Master", "x":3198, "y":3258 },
-			{ "color": "#00fbff", "text": "Think in the Hefin district of Prifddinas. (Ancient staff, Priffdinian worker's trousers, berserker ring)", "type": "Master", "x":2181, "y":3402 },
+			{ "color": "#00fbff", "text": "Think in the Hefin district of Prifddinas. (Ancient staff, Prifddinian worker's trousers, berserker ring)", "type": "Master", "x":2181, "y":3402 },
 			{ "color": "#00fbff", "text": "Wave in front of the entrance to the Grand Library of Menaphos. (Asylum surgeon's ring, Scabaras mask)", "type": "Master", "x":3172, "y":2711 },
 			{ "color": "#00fbff", "text": "Darkmeyer scan. East of bloodwood tree", "type": "Master", "x":3631, "y":3358 },
 			{ "color": "#00fbff", "text": "Darkmeyer scan. House south of Castle Drakan entrance", "type": "Master", "x":3611, "y":3328 },
@@ -298830,7 +298961,7 @@
 			"Quick traps": true,
 			"Dinosaur lure": true,
 			"Frog repellent": true,
-			"Ranked ‘Baiter' title": true,
+			"Ranked 'Baiter' title": true,
 			"Elite trapper outfit blueprint": true,
 			"Medium Hunter lamp": true,
 			"Medium Slayer lamp (Hunter Marks)": true,
@@ -306456,7 +306587,7 @@
 				"Yu'biusk clay": {
 					"1": "2/10"
 				},
-				"Kal-i-kra chieftan crown (damaged)": {
+				"Kal-i-kra chieftain crown (damaged)": {
 					"1": "1/3"
 				},
 				"Kal-i-kra mace (damaged)": {
@@ -308932,6 +309063,34 @@
 				"Deathdealer boots (tier 90)": {
 					"1": "Always"
 				}
+			},
+			"Splitbark armour": {
+				"Splitbark helm": {
+					"1": "Always"
+				},
+				"Splitbark body": {
+					"1": "Always"
+				},
+				"Splitbark legs": {
+					"1": "Always"
+				},
+				"Splitbark gauntlets": {
+					"1": "Always"
+				},
+				"Splitbark boots": {
+					"1": "Always"
+				}
+			},
+			"Splitbark weapons": {
+				"Splitbark shield": {
+					"1": "Always"
+				},
+				"Splitbark wand": {
+					"1": "Always"
+				},
+				"Splitbark orb": {
+					"1": "Always"
+				}
 			}
 		},
 		"Divination": {
@@ -309789,7 +309948,7 @@
 				"Purple bellow": {
 					"1": "385/9138"
 				},
-				"Toadstool": {
+				"Toastool": {
 					"1": "22/9138"
 				},
 				"Gloomshroom zygomite (unchecked)": {
@@ -311253,7 +311412,7 @@
 				"A Life in Colour": {
 					"1": "Rare"
 				},
-				"A Massacrer of Moles": {
+				"The Massacrer of Moles": {
 					"1": "Rare"
 				}
 			},
@@ -313115,6 +313274,26 @@
 				},
 				"Hunter Mark": {
 					"1": "Uncommon"
+				}
+			},
+			"SwiftWhirligig": {
+				"Swift whirligig shell": {
+					"1": "Always"
+				},
+				"Piece of Het": {
+					"1": "Uncommon"
+				},
+				"Warrior of Het armour": {
+					"1": "Very rare"
+				},
+				"'of the Ruination' title": {
+					"1": "Very rare"
+				},
+				"Gators": {
+					"1": "Very rare"
+				},
+				"Chomper": {
+					"1": "Very rare"
 				}
 			},
 			"HastyWhirligig": {
@@ -316536,7 +316715,7 @@
 				"A Life in Colour": {
 					"1": "Rare"
 				},
-				"A Massacrer of Moles": {
+				"The Massacrer of Moles": {
 					"1": "Rare"
 				}
 			},
@@ -317616,7 +317795,7 @@
 				"A Life in Colour": {
 					"1": "Rare"
 				},
-				"A Massacrer of Moles": {
+				"The Massacrer of Moles": {
 					"1": "Rare"
 				}
 			},
@@ -317955,10 +318134,10 @@
 				"Superior seasinger's robe bottom": {
 					"1": "Always"
 				},
-				"Superior seasinger's aonori": {
+				"Superior seasinger aonori": {
 					"1": "Always"
 				},
-				"Superior seasinger's asari": {
+				"Superior seasinger asari": {
 					"1": "Always"
 				}
 			},
@@ -317976,6 +318155,17 @@
 					"1": "Always"
 				},
 				"Infinity ethereal feet": {
+					"1": "Always"
+				}
+			},
+			"Splitbark weapons": {
+				"Splitbark shield": {
+					"1": "Always"
+				},
+				"Splitbark wand": {
+					"1": "Always"
+				},
+				"Splitbark orb": {
 					"1": "Always"
 				}
 			}
@@ -333396,6 +333586,15 @@
 				},
 				"Tetsu platelegs": {
 					"1": "Always"
+				},
+				"Superior tetsu helm": {
+					"1": "Always"
+				},
+				"Superior tetsu body": {
+					"1": "Always"
+				},
+				"Superior tetsu platelegs": {
+					"1": "Always"
 				}
 			},
 			"TetsuWeapon": {
@@ -333567,7 +333766,36 @@
 				"Death guard (tier 90)": { 
 					"1": "Always" 
 				},
-					"Skull lantern (tier 90)": { 
+				"Skull lantern (tier 90)": { 
+					"1": "Always" 
+				}
+			},
+			"ObsidianGear": {
+				"Obsidian warrior helm": { 
+					"1": "Always" 
+				},
+				"Obsidian ranger helm": { 
+					"1": "Always" 
+				},
+				"Obsidian mage helm": { 
+					"1": "Always" 
+				},
+				"Obsidian platebody": { 
+					"1": "Always" 
+				},
+				"Obsidian platelegs": { 
+					"1": "Always" 
+				},
+				"Obsidian plateskirt": { 
+					"1": "Always" 
+				},
+				"Obsidian kiteshield": { 
+					"1": "Always" 
+				},
+				"Obsidian gloves": { 
+					"1": "Always" 
+				},
+				"Obsidian boots": { 
 					"1": "Always" 
 				}
 			}
@@ -337965,7 +338193,7 @@
 				"A Life in Colour": {
 					"1": "Rare"
 				},
-				"A Massacrer of Moles": {
+				"The Massacrer of Moles": {
 					"1": "Rare"
 				}
 			},
@@ -338297,7 +338525,7 @@
 				"Magic seed": {
 					"1-3": "Very rare"
 				},
-				"Sous chef's tonque": {
+				"Sous chef's toque": {
 					"1": "Common"
 				},
 				"Sous chef's jacket": {
@@ -338312,7 +338540,7 @@
 				"Sous chef's shoes": {
 					"1": "Common"
 				},
-				"Sous chef's tonque add-on": {
+				"Sous chef's toque add-on": {
 					"1": "Common"
 				}
 			},
@@ -338523,7 +338751,7 @@
 				"Super dominion medallion": {
 					"1": "Always"
 				},
-				"Exteme dominion medallion": {
+				"Extreme dominion medallion": {
 					"1": "Always"
 				},
 				"Dominion marker (stage 4)": {
@@ -339006,7 +339234,7 @@
 					"1": "1/125"
 				}
 			},
-			"Crystal chest (Priffdinas)": {
+			"Crystal chest (Prifddinas)": {
 				"Uncut dragonstone": {
 					"1" :"Always"
 				},

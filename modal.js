@@ -66,9 +66,6 @@ const modalContents = {
             <div id='rulesmining' class='accordion' onclick="toggleRulesPanel('mining')"><span class='exp'><i
                 class="acc pic fa-solid fa-plus"></i></span><span class="accordion-title">Mining</span></div>
             <div class="panel panel-mining"></div>
-            <div id='rulesnecromancy' class='accordion' onclick="toggleRulesPanel('necromancy')"><span class='exp'><i
-                class="acc pic fa-solid fa-plus"></i></span><span class="accordion-title">Necromancy</span></div>
-            <div class="panel panel-necromancy"></div>
             <div id='rulesprayer' class='accordion' onclick="toggleRulesPanel('prayer')"><span class='exp'><i
                 class="acc pic fa-solid fa-plus"></i></span><span class="accordion-title">Prayer</span></div>
             <div class="panel panel-prayer"></div>
@@ -107,7 +104,6 @@ const modalContents = {
                 <div id='rulesinvention' class='accordion-sidebar' onclick="toggleRulesPanel('invention')"><span class="accordion-title">Invention</span></div>
                 <div id='rulesmagic' class='accordion-sidebar' onclick="toggleRulesPanel('magic')"><span class="accordion-title">Magic</span></div>
                 <div id='rulesmining' class='accordion-sidebar' onclick="toggleRulesPanel('mining')"><span class="accordion-title">Mining</span></div>
-                <div id='rulesnecromancy' class='accordion-sidebar' onclick="toggleRulesPanel('necromancy')"><span class="accordion-title">Necromancy</span></div>
                 <div id='rulesprayer' class='accordion-sidebar' onclick="toggleRulesPanel('prayer')"><span class="accordion-title">Prayer</span></div>
                 <div id='rulesranged' class='accordion-sidebar' onclick="toggleRulesPanel('ranged')"><span class="accordion-title">Ranged</span></div>
                 <div id='rulesrunecrafting' class='accordion-sidebar' onclick="toggleRulesPanel('runecrafting')"><span class="accordion-title">Runecrafting</span></div>
@@ -130,7 +126,6 @@ const modalContents = {
                 <div class="panel panel-invention"></div>
                 <div class="panel panel-magic"></div>
                 <div class="panel panel-mining"></div>
-                <div class="panel panel-necromancy"></div>
                 <div class="panel panel-prayer"></div>
                 <div class="panel panel-ranged"></div>
                 <div class="panel panel-runecrafting"></div>

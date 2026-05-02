@@ -869,7 +869,6 @@ let ruleStructure = {
         "Multi Step Processing": ["Hide Partial Products"],
         "Wield Crafted Items": ["Wield Crafted Items Override"],
         "Secondary Primary": true,
-        "Quest Skill Reqs": true,
         "Boosting": true,
 		"XP Lamps": true,
 		"DnD": ["Not Daily DnD", "DnD Flash Events"],
@@ -1006,6 +1005,7 @@ let taskGeneratingRules = {
     "Show Diary Tasks Complete": true,
     "Show Diary Tasks Any": true,
     "Combat Mastery achievements": true,
+    "Misc achievements": true,
     "Collection Log Bosses": true,
     "Collection Log Raids": true,
     "Collection Log Clues": true,
@@ -13245,7 +13245,7 @@ let loadData = async function(startup) {
         }
 		
 		if (!rulesTemp.hasOwnProperty('Misc Combat achievements')) {
-            rulesTemp['Misc achievements'] = (rulesTemp.hasOwnProperty('Combat Mastery achievements') && rulesTemp.hasOwnProperty('Misc achievements')) ? (rulesTemp['Combat Mastery achievements'] && rulesTemp.hasOwnProperty('Misc achievements')) : false;
+            rulesTemp['Misc Combat achievements'] = (rulesTemp.hasOwnProperty('Combat Mastery achievements') && rulesTemp.hasOwnProperty('Misc achievements')) ? (rulesTemp['Combat Mastery achievements'] && rulesTemp.hasOwnProperty('Misc achievements')) : false;
         }
 		
 		if (!rulesTemp.hasOwnProperty('Multiple Agility')) {
