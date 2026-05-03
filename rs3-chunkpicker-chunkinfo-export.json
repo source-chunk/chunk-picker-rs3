@@ -132969,7 +132969,7 @@
 				"Objects": ["Evil tree"],
 				"RuneScore": 10
 			},
-			"~|Skills achievements#Woodcutting|~ Imcadno at a Tree": {
+			"~|Skills achievements#Woodcutting|~ Imcando at a Tree": {
 				"Category": ["Misc achievements"],
 				"Description": "Work with Thurgo (south of Port Sarim) to obtain an Imcando hatchet.",
 				"BaseQuest": "Skills achievements",
@@ -134620,8 +134620,8 @@
 				"Chunks": ["17176-1", "14883"],
 				"Tasks": {
 					"~|Exploration achievements#The Arc|~ Birds of the Arc": "Diary",
-					"~|Exploration achievements#The Arc|~ Ani of the Arc": "Diary",
-					"~|Exploration achievements#The Arc|~ Sensei seaworth of the Arc": "Diary"
+					"~|Exploration achievements#The Arc|~ Berries of the Arc": "Diary",
+					"~|Exploration achievements#The Arc|~ Kami Spirits of the Arc": "Diary"
 				},
 				"RuneScore": 5,
 				"Not F2P": true
@@ -135641,7 +135641,7 @@
 			},
 			"~|Activities achievements#Minigames|~ How Many Games?": {
 				"Category": ["Misc achievements", "Minigame", "Group Content"],
-				"Description": "Show a full set of profoudn armour to Lanthus. That's what you get for being a Supreme.",
+				"Description": "Show a full set of profound armour to Lanthus. That's what you get for being a Supreme.",
 				"BaseQuest": "Activities achievements",
 				"Chunks": ["9776", "9520"],
 				"RuneScore": 70,
@@ -135913,7 +135913,7 @@
 				"Chunks": ["Player-Owned Port"],
 				"Skills": {
 					"Agility": 90,
-					"Constuction": 90,
+					"Construction": 90,
 					"Cooking": 90,
 					"Divination": 90,
 					"Dungeoneering": 90,
