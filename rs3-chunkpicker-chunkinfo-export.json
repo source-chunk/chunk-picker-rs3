@@ -1884,7 +1884,7 @@
 			"Pickpocket an ~|elf|~ for triple loot": {
 				"Category": ["Multiple Agility"],
 				"Level": 95,
-				"NPCs": ["Elf"],
+				"NPCs": ["Elf[+]"],
 				"Skills": {
 					"Thieving": 105
 				},
@@ -2051,7 +2051,7 @@
 			"Pickpocket an ~|elf|~ for quadrple loot": {
 				"Category": ["Multiple Agility"],
 				"Level": 105,
-				"NPCs": ["Elf"],
+				"NPCs": ["Elf[+]"],
 				"Skills": {
 					"Thieving": 115
 				},
@@ -2760,7 +2760,7 @@
 				"NPCs": ["Isaura"],
 				"Items": ["Giant pouch", "Hookah pipe", "Opulent wine goblet", "Crest of Dagon", "'Disorder' painting", "Imp mask", "Lesser demon mask", "Greater demon mask", "Order of Dis robes", "Ritual dagger"],
 				"Level": 36,
-				"Ouput": "Threads of Fate",
+				"Output": "Threads of Fate",
 				"Primary": false,
 				"Priority": 8
 			},
@@ -69997,7 +69997,7 @@
 			},
 			"Pickpocket an ~|elf|~": {
 				"Level": 85,
-				"NPCs": ["Elf"],
+				"NPCs": ["Elf[+]"],
 				"Output": "Elf",
 				"Primary": true,
 				"Priority": 1
@@ -70431,7 +70431,7 @@
 			"Pickpocket an ~|elf|~ for triple loot": {
 				"Category": ["Multiple Agility"],
 				"Level": 105,
-				"NPCs": ["Elf"],
+				"NPCs": ["Elf[+]"],
 				"Skills": {
 					"Agility": 95
 				},
@@ -70658,7 +70658,7 @@
 			"Pickpocket an ~|elf|~ for triple loot": {
 				"Category": ["Multiple Agility"],
 				"Level": 115,
-				"NPCs": ["Elf"],
+				"NPCs": ["Elf[+]"],
 				"Skills": {
 					"Agility": 105
 				},
@@ -79874,7 +79874,8 @@
 				"Chunks": ["12596-1"],
 				"Tasks": {
 					"~|Dragon Slayer|~ 4": "Quest"
-				}
+				},
+				"Reward": ["Maze key"]
 			},
 			"~|Dragon Slayer|~ 5b2": {
 				"BaseQuest": "Dragon Slayer",
@@ -163529,19 +163530,19 @@
 				"Output": "Ground thistle"
 			},
 			"Create the Hand of Glory (Ring of Luck)*": {
-				"Items": ["Hand of glory (Infernal Source)", "Ring of Luck"],
+				"Items": ["Hand of glory[+]", "Ring of Luck"],
 				"Output": "Hand of Glory (Ring of Luck)"
 			},
 			"Create the Hand of Glory (Ring of Wealth)*": {
-				"Items": ["Hand of glory (Everlight)", "Ring of Wealth"],
+				"Items": ["Hand of glory[+]x2", "Ring of Wealth", "Ring of Luck"],
 				"Output": "Hand of Glory (Ring of Wealth)"
 			},
 			"Create the Hand of Glory (Ring of Fortune)*": {
-				"Items": ["Hand of glory (Kharid-et)", "Ring of Fortune"],
+				"Items": ["Hand of glory[+]x3", "Ring of Fortune", "Ring of Wealth", "Ring of Luck"],
 				"Output": "Hand of Glory (Ring of Fortune)"
 			},
 			"Create the Hand of Glory (Luck of the Dwarves)*": {
-				"Items": ["Hand of glory (Warforge)", "Luck of the Dwarves"],
+				"Items": ["Hand of glory[+]x4", "Luck of the Dwarves", "Ring of Fortune", "Ring of Wealth", "Ring of Luck"],
 				"Output": "Hand of Glory (Luck of the Dwarves)"
 			},
 			"Pick a black mushroom*": {
@@ -169348,7 +169349,7 @@
 				"Not F2P": true
 			},
 			"The crystals tempt most however, there are other riches to gain for the quick-fingered.": {
-				"NPCs": ["Elf"],
+				"NPCs": ["Elf[+]"],
 				"Skills": {
 					"Thieving": 85
 				},
@@ -176547,6 +176548,101 @@
 			},
 			"Shaikahan kill requirement": {
 				"Items": ["Spears[+]", "WeaponPoison[+]"]
+			},
+			"Bronze Chest loot*": {
+				"Category": ["Minigame"],
+				"Items": ["Bronze key[+]"],
+				"Objects": ["Bronze Chest"],
+				"Output": "Bronze Chest loot",
+				"Not F2P": true
+			},
+			"Steel Chest loot*": {
+				"Category": ["Minigame"],
+				"Items": ["Steel key[+]"],
+				"Objects": ["Steel Chest"],
+				"Output": "Steel Chest loot",
+				"Not F2P": true
+			},
+			"Black Chest loot*": {
+				"Category": ["Minigame"],
+				"Items": ["Black key[+]"],
+				"Objects": ["Black Chest"],
+				"Output": "Black Chest loot",
+				"Not F2P": true
+			},
+			"Silver Chest loot*": {
+				"Category": ["Minigame"],
+				"Items": ["Silver key[+]"],
+				"Objects": ["Silver Chest"],
+				"Output": "Silver Chest loot",
+				"Not F2P": true
+			},
+			"Gold Chest loot*": {
+				"Category": ["Minigame"],
+				"Items": ["Gold key"],
+				"Objects": ["Gold Chest"],
+				"Output": "Gold Chest loot",
+				"Not F2P": true
+			},
+			"Cure an afflicted with serum 207*": {
+				"Monsters": ["Afflicted"],
+				"Items": ["Serum 207 (3)"],
+				"Output": "Serum 207 loot",
+				"Not F2P": true
+			},
+			"Cure an afflicted with serum 208*": {
+				"Monsters": ["Afflicted"],
+				"Items": ["Serum 208 (3)"],
+				"Output": "Serum 208 loot",
+				"Not F2P": true
+			},
+			"Complete 1 RFD subquest": {
+				"Tasks": {
+					"RecipeSub[+]": "Quest"
+				},
+				"Not F2P": true
+			},
+			"Complete 2 RFD subquests": {
+				"Tasks": {
+					"RecipeSub[+]x2": "Quest"
+				},
+				"Not F2P": true
+			},
+			"Complete 13 RFD subquests": {
+				"Tasks": {
+					"RecipeSub[+]x3": "Quest"
+				},
+				"Not F2P": true
+			},
+			"Complete 4 RFD subquests": {
+				"Tasks": {
+					"RecipeSub[+]x4": "Quest"
+				},
+				"Not F2P": true
+			},
+			"Complete 5 RFD subquests": {
+				"Tasks": {
+					"RecipeSub[+]x5": "Quest"
+				},
+				"Not F2P": true
+			},
+			"Complete 6 RFD subquests": {
+				"Tasks": {
+					"RecipeSub[+]x6": "Quest"
+				},
+				"Not F2P": true
+			},
+			"Complete 7 RFD subquests": {
+				"Tasks": {
+					"RecipeSub[+]x7": "Quest"
+				},
+				"Not F2P": true
+			},
+			"Complete 8 RFD subquests": {
+				"Tasks": {
+					"RecipeSub[+]x8": "Quest"
+				},
+				"Not F2P": true
 			}
 		}
 	},
@@ -183106,7 +183202,8 @@
 						"Ilfeen": 1,
 						"Gwir": 1,
 						"Arianwyn": 1,
-						"Adyna": 1
+						"Adyna": 1,
+						"Kelyn": 1
 					},
 					"Monster": {
 						"Elf warrior#Lletya": 4,
@@ -205059,26 +205156,10 @@
 		},
 		"13975": {
 			"Object": {
-				"Bronze Chest (red)": 2,
-				"Bronze Chest (brown)": 2,
-				"Bronze Chest (crimson)": 2,
-				"Bronze Chest (black)": 2,
-				"Bronze Chest (purple)": 2,
-				"Steel Chest (red)": 6,
-				"Steel Chest (brown)": 6,
-				"Steel Chest (crimson)": 6,
-				"Steel Chest (black)": 6,
-				"Steel Chest (purple)": 6,
-				"Black Chest (red)": 10,
-				"Black Chest (brown)": 12,
-				"Black Chest (crimson)": 10,
-				"Black Chest (black)": 10,
-				"Black Chest (purple)": 10,
-				"Silver Chest (red)": 1,
-				"Silver Chest (brown)": 2,
-				"Silver Chest (crimson)": 2,
-				"Silver Chest (black)": 2,
-				"Silver Chest (purple)": 2,
+				"Bronze Chest10": 2,
+				"Steel Chest": 30,
+				"Black Chest": 52,
+				"Silver Chest": 9,
 				"Gold Chest": 3
 			},
 			"Monster": {
@@ -216928,6 +217009,9 @@
                 "Isaura": 1,
 				"Ikadia the Exile": 1
             },
+			"Spawn": {
+				"Dusty key": 1
+			},
             "Quest": {
 				"Birthright of the Dwarves": "step",
 				"Curse of the Black Stone": "step",
@@ -220430,6 +220514,9 @@
 				"Sacrificial altar": 1,
 				"Dis dungeon debris": 1
 			},
+			"Spawn": {
+				"Hand of glory (Infernal Source)": 1
+			},
 			"Connect": {
 				"6": true,
 				"7": true
@@ -220910,7 +220997,8 @@
 			},
 			"Spawn": {
 				"Brass necklace": 2,
-				"Bronze arrow": 2
+				"Bronze arrow": 2,
+				"Brass key": 1
 			},
 			"Object": {
 				"Crate": 22,
@@ -222118,6 +222206,9 @@
 				"Warforge weapon rack": 1,
 				"Makeshift pie oven": 1,
 				"Imcando anvil": 1
+			},
+			"Spawn": {
+				"Hand of glory (Warforge)": 1
 			},
 			"Connect": {
 				"14": true
@@ -223403,26 +223494,10 @@
 		},
 		"Shade Catacombs": {
 			"Object": {
-				"Bronze Chest (red)": 2,
-				"Bronze Chest (brown)": 2,
-				"Bronze Chest (crimson)": 2,
-				"Bronze Chest (black)": 2,
-				"Bronze Chest (purple)": 2,
-				"Steel Chest (red)": 6,
-				"Steel Chest (brown)": 6,
-				"Steel Chest (crimson)": 6,
-				"Steel Chest (black)": 6,
-				"Steel Chest (purple)": 6,
-				"Black Chest (red)": 10,
-				"Black Chest (brown)": 12,
-				"Black Chest (crimson)": 10,
-				"Black Chest (black)": 10,
-				"Black Chest (purple)": 10,
-				"Silver Chest (red)": 1,
-				"Silver Chest (brown)": 2,
-				"Silver Chest (crimson)": 2,
-				"Silver Chest (black)": 2,
-				"Silver Chest (purple)": 2,
+				"Bronze Chest": 10,
+				"Steel Chest": 30,
+				"Black Chest": 62,
+				"Silver Chest": 9,
 				"Gold Chest": 3
 			},
 			"Monster": {
@@ -225037,6 +225112,9 @@
 				"Orcus altar": 1,
 				"Armarium debris": 1,
 				"Culinarum debris": 1
+			},
+			"Spawn": {
+				"Hand of glory (Kharid-et)": 1
 			},
 			"Connect": {
 				"3": true,
@@ -228014,6 +228092,7 @@
 				"Willow-blackjack",
 				"Willow-blackjack(d)"
 			],
+			"Black key[+]": ["Black key red", "Black key brown", "Black key crimson", "Black key black", "Black key purple"],
 			"BlackPlatebody[+]": ["Black platebody", "Black platebody (t)", "Black platebody (g)", "Black platebody (h1)", "Black platebody (h2)", "Black platebody (h3)", "Black platebody (h4)", "Black platebody (h5)"],
 			"BlackPlatelegs[+]": ["Black platelegs", "Black platelegs (t)", "Black platelegs (g)", "Black platelegs (h1)", "Black platelegs (h2)", "Black platelegs (h3)", "Black platelegs (h4)", "Black platelegs (h5)"],
 			"BlackSheep[+]": [
@@ -228133,6 +228212,7 @@
 				"Bronze plateskirt",
 				"Bronze square shield"
 			],
+			"Bronze key[+]": ["Bronze key red", "Bronze key brown", "Bronze key crimson", "Bronze key black", "Bronze key purple"],
 			"BronzeWeapon[+]": [
 				"Bronze 2h sword",
 				"Bronze battleaxe",
@@ -229270,6 +229350,7 @@
 				"Guthix rest (3)",
 				"Guthix rest (4)"
 			],
+			"Hand of glory[+]": ["Hand of glory (Infernal Source)", "Hand of glory (Everlight)", "Hand of glory (Kharid-et)", "Hand of glory (Warforge)"],
 			"HardLeatherArmour[+]": [
 				"Hard leather body",
 				"Hard leather boots",
@@ -230864,6 +230945,7 @@
 				"Merciless kiteshield",
 				"Vengeful kiteshield"
 			],
+			"Silver key[+]": ["Silver key red", "Silver key brown", "Silver key crimson", "Silver key black", "Silver key purple"],
 			"SinewMeat[+]": [
 				"Raw bear meat",
 				"Raw beef",
@@ -231030,6 +231112,7 @@
 				"Steel square shield + 1",
 				"Steel square shield"
 			],
+			"Steel key[+]": ["Steel key red", "Steel key brown", "Steel key crimson", "Steel key black", "Steel key purple"],
 			"SteelNails[+]": [
 				"Adamant nails",
 				"Black nails",
@@ -232975,6 +233058,7 @@
 			"BlackDragonhideArmour[+]": "Any piece of black dragonhide armour",
 			"BlackFullHelm[+]": "Any variant of a black full helm",
 			"Blackjack[+]": "Any kind of blackjack",
+			"Black key[+]": "Any key that can open a Black Chest in the Shades Catacombs",
 			"BlackPlatebody[+]": "Any variant of a black platebody",
 			"BlackPlatelegs[+]": "Any variant of black platelegs",
 			"BlackSheep[+]": "Any kind of breedable black sheep",
@@ -232996,6 +233080,7 @@
 			"Brilliantboon[+]": "Any energy that can be used to make a brilliant boon",
 			"BroadLeaf[+]": "Any gear that can be used to kill turoths or kurasks",
 			"BronzeArmour[+]": "Any bronze armour",
+			"Bronze key[+]": "Any key that can open a Bronze Chest in the Shades Catacombs",
 			"BronzeWeapon[+]": "Any bronze melee weapon",
 			"BugLantern[+]": "Any slayer bug lantern",
 			"ButterflyNet[+]": "Any butterfly net",
@@ -233358,6 +233443,7 @@
             "SelfHarm[+]": "Any way to inflict damage on yourself",
 			"SerenAnimaCore[+]": "Any piece of Seren anima core armour",
 			"ShadowRealmShield[+]": "Any shadow realm shield variant",
+			"Silver key[+]": "Any key that can open a Silver Chest in the Shades Catacombs",
 			"SinewMeat[+]": "Any meat that can be used to make sinew",
 			"SirenicArmour[+]": "Any piece of sirenic armour",
 			"SkeletalArmour[+]": "Any piece of skeletal armour",
@@ -233381,6 +233467,7 @@
 			"StaminaPotion[+]": "Any stamina potion",
 			"StarbloomArmour[+]": "Any piece of starbloom armour",
 			"SteelArmour[+]": "Any piece of steel armour",
+			"Steel key[+]": "Any key that can open a Steel Chest in the Shades Catacombs",
 			"SteelNails[+]": "Any nails that can be used to build the small pen in the POF",
 			"SteelOrMithril[+]": "Steel or mithril bars",
 			"Steelpick[+]": "Any steel pickaxe",
@@ -234461,6 +234548,7 @@
 				"Villager (Wendlewick)"
 			],
 			"Dyer[+]": ["Aggie", "Rana the dyer"],
+			"Elf[+]": ["Arvel", "Goreu", "Kelyn", "Mawrth", "Ysgawyn", "Bronwyn"],
 			"Estate agent[+]": ["Estate agent", "Alfred Stonemason"],
 			"Farmer[+]": ["Farmer", "Farmer (Marigold Farm)", "Farmer Sharon", "Farmer Rachel"],
 			"Fremennik citizen[+]": [
@@ -234506,6 +234594,7 @@
 			"Archaeologist[+]": "A pickpocketable archaeologist at any dig site",
 			"Citizen[+]": "Any pickpocketable citizen",
 			"Dyer[+]": "Access to either Rana or Aggie",
+			"Elf[+]": "Any pickpocketable elf in Lletya",
 			"Estate agent[+]": "Any NPC that will sell you a house",
 			"Farmer[+]": "Any pickpocketable farmer",
 			"Fremennik citizen[+]": "Any pickpocketable citizen of Rellekka",
@@ -291852,28 +291941,28 @@
 				"~|King's Ransom|~ Complete the quest": "Quest"
 			}],
 			"Culinaromancer's gloves 2^": [{
-				"RecipeSub[+]": "Nonskill"
+				"Complete 1 RFD subquest": "Nonskill"
 			}],
             "Culinaromancer's gloves 3^": [{
-				"RecipeSub[+]x2": "Nonskill"
+				"Complete 2 RFD subquests": "Nonskill"
 			}],
             "Culinaromancer's gloves 4^": [{
-				"RecipeSub[+]x3": "Nonskill"
+				"Complete 3 RFD subquests": "Nonskill"
 			}],
             "Culinaromancer's gloves 5^": [{
-				"RecipeSub[+]x4": "Nonskill"
+				"Complete 4 RFD subquests": "Nonskill"
 			}],
             "Culinaromancer's gloves 6^": [{
-				"RecipeSub[+]x5": "Nonskill"
+				"Complete 5 RFD subquests": "Nonskill"
 			}],
             "Culinaromancer's gloves 7^": [{
-				"RecipeSub[+]x6": "Nonskill"
+				"Complete 6 RFD subquests": "Nonskill"
 			}],
             "Culinaromancer's gloves 8^": [{
-				"RecipeSub[+]x7": "Nonskill"
+				"Complete 7 RFD subquests": "Nonskill"
 			}],
             "Culinaromancer's gloves 9^": [{
-				"RecipeSub[+]x8": "Nonskill"
+				"Complete 8 RFD subquests": "Nonskill"
 			}],
             "Culinaromancer's gloves 10^": [{
 				"~|Recipe for Disaster: Defeating the Culinaromancer|~ Complete the subquest": "Quest"
@@ -291927,13 +292016,13 @@
 				"Members only": "Nonskill"
 			}],
 			"Egg whisk^": [{
-				"RecipeSub[+]": "Quest"
+				"Complete 1 RFD subquest": "Quest"
 			}],
 			"Farseer helm": [{
 				"~|The Fremennik Trials|~ Complete the quest": "Quest"
 			}],
 			"Frying pan^": [{
-				"RecipeSub[+]x4": "Quest"
+				"Complete 4 RFD subquests": "Quest"
 			}],
 			"Gold stone spirit^Ivar, King of Bones": [{
 				"Members only": "Nonskill"
@@ -291945,7 +292034,7 @@
 				"Obtain a ~|hungry hood|~": "Runecrafting"
 			}],
 			"Kitchen knife^": [{
-				"RecipeSub[+]x7": "Quest"
+				"Complete 7 RFD subquests": "Quest"
 			}],
 			"Linza's helm^": [{
 				"~|Kindred Spirits|~ Complete the quest": "Quest"
@@ -291969,7 +292058,7 @@
 				"Members only": "Nonskill"
 			}],
 			"Meat tenderiser^": [{
-				"RecipeSub[+]x8": "Quest"
+				"Complete 8 RFD subquests": "Quest"
 			}],
 			"Micah^": [{
 				"~|Combat achievements#Dragonkin Laboratory|~ Chill Out, Bro!": "Diary"
@@ -292014,7 +292103,7 @@
 				"Members only": "Nonskill"
 			}],
 			"Rolling pin^": [{
-				"RecipeSub[+]x6": "Quest"
+				"Complete 6 RFD subquests": "Quest"
 			}],
 			"Shark^Barrows": [{
 				"Tier 2 luck or higher*": "Nonskill"
@@ -292113,16 +292202,16 @@
 				"~|The Fremennik Trials|~ Complete the quest": "Quest"
 			}],
 			"Skewer^": [{
-				"RecipeSub[+]x5": "Quest"
+				"Complete 5 RFD subquests": "Quest"
 			}],
 			"Slayer's staff^": [{
 				"Members only": "Nonskill"
 			}],
 			"Spatula^": [{
-				"RecipeSub[+]x3": "Quest"
+				"Complete 3 RFD subquests": "Quest"
 			}],
 			"Spork^": [{
-				"RecipeSub[+]x2": "Quest"
+				"Complete 2 RFD subquests": "Quest"
 			}],
 			"Super defence (2)^Barrows": [{
 				"Tier 2 luck or higher*": "Nonskill"
@@ -294550,6 +294639,16 @@
 					"Enter the ~|Crafting Guild|~": "Crafting"
 				}]
 			},
+			"Orcus altar": {
+				"Kharid-et - Barracks excavation site": [{
+					"Enter the Kharid-et Chapel": "Nonskill"
+				}]
+			},
+			"Pontifex remains": {
+				"Kharid-et - Barracks excavation site": [{
+					"Enter the Kharid-et Chapel": "Nonskill"
+				}]
+			},
 			"Potter's wheel": {
 				"11571-1": [{
 					"Enter the ~|Crafting Guild|~": "Crafting"
@@ -294626,6 +294725,11 @@
 			"Fur stall": {
 				"10553": [{
 					"~|The Fremennik Trials|~ Complete the quest": "Quest"
+				}]
+			},
+			"Material cache (Blood of Orcus)": {
+				"Kharid-et - Barracks excavation site": [{
+					"Enter the Kharid-et Chapel": "Nonskill"
 				}]
 			},
 			"Tin rock": {
@@ -295220,6 +295324,11 @@
 			"Big fishing net": {
 				"10293": [{
 					"Enter the ~|Fishing Guild|~": "Fishing"
+				}]
+			},
+			"Hand of glory (Kharid-et)": {
+				"Kharid-et - Barracks excavation site": [{
+					"Enter the Kharid-et Chapel": "Nonskill"
 				}]
 			},
 			"Harpoon": {
@@ -341462,6 +341571,533 @@
 				},
 				"Crystal shield": {
 					"1": "Always"
+				}
+			},
+			"Bronze Chest loot": {
+				"Magic staff": {
+					"1": "6/100"
+				},
+				"Medium spiky steel salvage": {
+					"1": "4/100"
+				},
+				"Black hatchet": {
+					"1": "1/100"
+				},
+				"Black dagger": {
+					"1": "3/100"
+				},
+				"Off-hand black dagger": {
+					"1": "3/100"
+				},
+				"Black spear": {
+					"1": "1/3000"
+				},
+				"Black mace": {
+					"1": "1/100"
+				},
+				"Off-hand black mace": {
+					"1": "1/100"
+				},
+				"Tiny plated steel salvage": {
+					"1": "5/100"
+				},
+				"Tiny bladed steel salvage": {
+					"1": "6/100"
+				},
+				"Tiny blunt steel salvage": {
+					"1": "3/100"
+				},
+				"Small bladed steel salvage": {
+					"1": "3/100"
+				},
+				"Tiny spiky steel salvage": {
+					"1": "1/3000"
+				},
+				"Tiny spiky mithril salvage": {
+					"1": "5/100"
+				},
+				"Chaos rune": {
+					"12-29": "14/100"
+				},
+				"Sapphire ring": {
+					"1": "2/100"
+				},
+				"Amulet of defence": {
+					"1": "7/100"
+				},
+				"Silver stone spirit": {
+					"3": "6/100"
+				},
+				"Gold stone spirit": {
+					"3": "5/100"
+				},
+				"Mithril stone spirit": {
+					"3": "5/100"
+				},
+				"Fine cloth": {
+					"1": "1/100"
+				},
+				"Sealend clue scroll (easy)": {
+					"1": "2/100"
+				},
+				"Coins": {
+					"1-270": "Common"
+				},
+				"Swamp paste": {
+					"5-10": "Always"
+				}
+			},
+			"Steel Chest loot": {
+				"Studded chaps": {
+					"1": "5/135"
+				},
+				"Black helm": {
+					"1": "7/135"
+				},
+				"Black warhammer": {
+					"1": "3/135"
+				},
+				"Off-hand black warhammer": {
+					"1": "3/135"
+				},
+				"Black scimitar": {
+					"1": "5/135"
+				},
+				"Off-hand black scimitar": {
+					"1": "5/135"
+				},
+				"Black sword": {
+					"1": "3/270"
+				},
+				"Off-hand black sword": {
+					"1": "3/270"
+				},
+				"Black longsword": {
+					"1": "1/135"
+				},
+				"Off-hand black longsword": {
+					"1": "1/135"
+				},
+				"Black spear": {
+					"1": ""
+				},
+				"Medium spiky mithril salvage": {
+					"1": "4/135"
+				},
+				"Medium plated steel salvage": {
+					"1": "7/135"
+				},
+				"Tiny plated mithril salvage": {
+					"1": "3/135"
+				},
+				"Medium blunt steel salvage": {
+					"1": "7/135"
+				},
+				"Medium bladed steel salvage": {
+					"1": "6/135"
+				},
+				"Tiny blunt mithril salvage": {
+					"1": "7/135"
+				},
+				"Tiny spiky mithril salvage": {
+					"1": "3/135"
+				},
+				"Tiny spiky adamant salvage": {
+					"1": "5/135"
+				},
+				"Chaos rune": {
+					"10-29": "11/135"
+				},
+				"Nature rune": {
+					"10-29": "15/135"
+				},
+				"Emerald ring": {
+					"1": "2/135"
+				},
+				"Amulet of strength": {
+					"1": "6/135"
+				},
+				"Fine cloth": {
+					"1": "6/135"
+				},
+				"Willow logs": {
+					"5-14 (noted)": "10/135"
+				},
+				"Adamantite stone spirit": {
+					"3": "6/135"
+				},
+				"Sealed clue scroll (medium)": {
+					"1": "3/135"
+				},
+				"Coins": {
+					"1-800": "Common"
+				},
+				"Swamp paste": {
+					"15-30": "Always"
+				}
+			},
+			"Black Chest loot": {
+				"Black chainbody": {
+					"1": "5/140"
+				},
+				"Black kiteshield": {
+					"1": "6/140"
+				},
+				"Black sq shield": {
+					"1": "9/140"
+				},
+				"Black platelegs": {
+					"1": "2/140"
+				},
+				"Black plateskirt": {
+					"1": "2/140"
+				},
+				"Black full helm": {
+					"1": "3/140"
+				},
+				"Staff of air": {
+					"1": "1/140"
+				},
+				"Staff of water": {
+					"1": "1/140"
+				},
+				"Staff of earth": {
+					"1": "1/140"
+				},
+				"Staff of fire": {
+					"1": "1/140"
+				},
+				"Black spear": {
+					"1": "4/140"
+				},
+				"Black battleaxe": {
+					"1": "3/280"
+				},
+				"Off-hand black battleaxe": {
+					"1": "3/280"
+				},
+				"Black 2h sword": {
+					"1": "2/140"
+				},
+				"Huge plated steel salvage": {
+					"1": "2/140"
+				},
+				"Small plated mithril salvage": {
+					"1": "10/140"
+				},
+				"Medium plated mithril salvage": {
+					"1": "6/140"
+				},
+				"Tiny plated adamant salvage": {
+					"1": "2/140"
+				},
+				"Small bladed mithril salvage": {
+					"1": "8/140"
+				},
+				"Medium blunt mithril salvage": {
+					"1": "2/140"
+				},
+				"Medium bladed mithril salvage": {
+					"1": "4/140"
+				},
+				"Small bladed adamant salvage": {
+					"1": "2/140"
+				},
+				"Tiny blunt adamant salvage": {
+					"1": "6/140"
+				},
+				"Tiny spiky adamant salvage": {
+					"1": "2/140"
+				},
+				"Tiny bladed adamant salvage": {
+					"1": "6/140"
+				},
+				"Nature rune": {
+					"10-29": "7/140"
+				},
+				"Death rune": {
+					"10-29": "5/140"
+				},
+				"Ruby ring": {
+					"1": "7/140"
+				},
+				"Amulet of magic": {
+					"1": "2/140"
+				},
+				"Fine cloth": {
+					"1": "7/140"
+				},
+				"Willow logs": {
+					"5-14 (noted)": "10/140"
+				},
+				"Yew logs": {
+					"5-14 (noted)": "6/140"
+				},
+				"Sealed clue scroll (medium)": {
+					"1": "4/140"
+				},
+				"Flamtaer hammer": {
+					"1": "1/140"
+				},
+				"Coins": {
+					"1-1000": "Common"
+				},
+				"Swamp paste": {
+					"25-40": "Always"
+				}
+			},
+			"Silver Chest loot": {
+				"Black platebody": {
+					"1": "4/152"
+				},
+				"Black spear": {
+					"1": "6/152"
+				},
+				"Medium spiky adamant salvage": {
+					"1": "22/152"
+				},
+				"Battlestaff": {
+					"1": "9/152"
+				},
+				"Huge plated mithril salvage": {
+					"1": "2/152"
+				},
+				"Medium plated mithril salvage": {
+					"1": "4/152"
+				},
+				"Small plated adamant salvage": {
+					"1": "2/152"
+				},
+				"Huge plated adamant salvage": {
+					"1": "2/152"
+				},
+				"Medium plated adamant salvage": {
+					"1": "9/152"
+				},
+				"Tiny plated rune salvage": {
+					"1": "3/152"
+				},
+				"Large plated rune salvage": {
+					"1": "1/152"
+				},
+				"Medium bladed adamant salvage": {
+					"1": "6/152"
+				},
+				"Small bladed adamant salvage": {
+					"1": "3/152"
+				},
+				"Medium blunt adamant salvage": {
+					"1": "3/152"
+				},
+				"Tiny spiky rune salvage": {
+					"1": "3/152"
+				},
+				"Medium bladed rune salvage": {
+					"1": "3/152"
+				},
+				"Death rune": {
+					"10-30": "9/152"
+				},
+				"Blood rune": {
+					"10-30": "6/152"
+				},
+				"Diamond ring": {
+					"1": "6/152"
+				},
+				"Amulet of power": {
+					"1": "2/152"
+				},
+				"Fine cloth": {
+					"1": "16/152"
+				},
+				"Yew logs": {
+					"5-14 (noted)": "3/152"
+				},
+				"Magic logs": {
+					"5-14 (noted)": "2/152"
+				},
+				"Sealed clue scroll (hard)": {
+					"1": "2/152"
+				},
+				"Flamtaer hammer": {
+					"1": "11/152"
+				},
+				"Coins": {
+					"1-2326": "Common"
+				},
+				"Swamp paste": {
+					"25-40": "Always"
+				}
+			},
+			"Gold Chest loot": {
+				"Medium plated mithril salvage": {
+					"1": "Common"
+				},
+				"Small plated adamant salvage": {
+					"1": "Common"
+				},
+				"Medium blunt adamant salvage": {
+					"1": "Common"
+				},
+				"Medium spiky adamant salvage": {
+					"1": "Common"
+				},
+				"Huge plated adamant salvage": {
+					"1": "Common"
+				},
+				"Large plated rune salvage": {
+					"1": "Uncommon"
+				},
+				"Medium bladed rune salvage": {
+					"1": "Uncommon"
+				},
+				"Medium plated rune salvage": {
+					"1": "Uncommon"
+				},
+				"Battlestaff": {
+					"1": "Uncommon"
+				},
+				"Dragon dagger": {
+					"1": "Uncommon"
+				},
+				"Off-hand dragon dagger": {
+					"1": "Uncommon"
+				},
+				"Dragon battleaxe": {
+					"1": "Rare"
+				},
+				"Off-hand dragon battleaxe": {
+					"1": "Rare"
+				},
+				"Blood rune": {
+					"20-55": "Common"
+				},
+				"Diamond ring": {
+					"1": "Common"
+				},
+				"Amulet of power": {
+					"1": "Common"
+				},
+				"Magic logs": {
+					"1-20 (noted)": "Uncommon"
+				},
+				"Rune stone spirit": {
+					"10-20": "Uncommon"
+				},
+				"Fine cloth": {
+					"1-4": "Common"
+				},
+				"Flamtaer hammer": {
+					"1": "Uncommon"
+				},
+				"Shade skull": {
+					"1": "Rare"
+				},
+				"Shade master kit": {
+					"1": "Rare"
+				},
+				"Sealed clue scroll (elite)": {
+					"1": "2/300"
+				},
+				"Sealed clue scroll (master)": {
+					"1": "2/30000"
+				},
+				"Coins": {
+					"1-3000": "Common"
+				},
+				"Swamp paste": {
+					"30-50": "Always"
+				}
+			},
+			"Serum 207 loot": {
+				"Coins": {
+					"10-20": "/59256"
+				},
+				"Logs": {
+					"1-5": "40/256"
+				},
+				"Grimy tarromin": {
+					"1-3": "34/256"
+				},
+				"Vial of water": {
+					"1-3": "30/256"
+				},
+				"Swamp paste": {
+					"1-20": "26/256"
+				},
+				"Olive oil (1)": {
+					"1-3": "20/256"
+				},
+				"Olive oil (2)": {
+					"1-3": "15/256"
+				},
+				"Olive oil (3)": {
+					"1": "8/256"
+				},
+				"Olive oil (4)": {
+					"1": "11/256"
+				},
+				"Vial": {
+					"1-3": "10/256"
+				},
+				"Hammer": {
+					"1": "3/256"
+				}
+			},
+			"Serum 208 loot": {
+				"Coins": {
+					"30-40": "30/128"
+				},
+				"Grimy tarromin": {
+					"2-5": "16/128"
+				},
+				"Limestone brick": {
+					"1-5": "14/128"
+				},
+				"Swamp paste": {
+					"10-35": "14/128"
+				},
+				"Olive oil (1)": {
+					"2-5": "10/128"
+				},
+				"Olive oil (2)": {
+					"2-5": "7/128"
+				},
+				"Olive oil (3)": {
+					"1-3": "4/128"
+				},
+				"Olive oil (4)": {
+					"1-3": "5/128"
+				},
+				"Logs": {
+					"1-5": "5/128"
+				},
+				"Oak logs": {
+					"1-5": "4/128"
+				},
+				"Willow logs": {
+					"1-5": "2/128"
+				},
+				"Maple logs": {
+					"1-5": "1/128"
+				},
+				"Bronze key red": {
+					"1": "4/128"
+				},
+				"Bronze key crimson": {
+					"1": "3/128"
+				},
+				"Bronze key brown": {
+					"1": "3/128"
+				},
+				"Lean snail": {
+					"1-3": "2/128"
+				},
+				"Thin snail": {
+					"1-3": "2/128"
+				},
+				"Fat snail": {
+					"1-3": "1/128"
 				}
 			}
 		}
