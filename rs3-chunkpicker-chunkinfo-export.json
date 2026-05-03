@@ -10819,7 +10819,7 @@
 				"Chunks": ["13362-1"],
 				"Items": ["Bronze bar*", "Silver bar*", "Bucket of sand*", "Big fishing net*"],
 				"Level": 20,
-				"Output": "FiltrationSystem",
+				"Output Object": "Water filtration system",
 				"Primary": true,
 				"Priority": 8
 			},
@@ -210541,7 +210541,8 @@
 				"Furnace": 1,
 				"Tree": 1,
 				"Oak": 15,
-				"Crypt": 1
+				"Crypt": 1,
+				"Bank booth": 1
 			},
 			"NPC": {
 				"Isaac (Havenhythe)": 1,
