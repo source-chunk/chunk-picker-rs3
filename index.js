@@ -462,6 +462,7 @@ let rules = {
 	"Combat Mastery achievements": false,
 	"Speed Killer Achievements": false,
     "Combat Master+": false,
+	"Misc Combat Achievements": false,
 	"Menaphos Events": false,
 	"Hunter Marks Slayer": false,
 	"Material Blueprints": false,
@@ -470,6 +471,8 @@ let rules = {
 	"Trim achievements": false,
 	"MQC achievements": false,
 	"Misc achievements": false,
+	"Level Up Achievements": false,
+	"No RuneScore": false,
 	"Slayer Contracts": false,
 	"Hide Partial Products": false,
 	"Timegated": false,
@@ -597,12 +600,15 @@ let ruleNames = {
 	"Combat Mastery achievements": "Must complete Combat Mastery achievements when possible.<span class='rule-asterisk noscroll'>*</span>",
 	"Speed Killer Achievements": "Also include Speed Killer achievements.<span class='rule-asterisk noscroll'>†</span>",
 	"Combat Master+": "Must complete the Master and Grandmaster tier.<span class='rule-asterisk noscroll'>†</span>",
+	"Misc Combat achievements": "Include Combat achievements that don't award CombatScore<span class='rule-asterisk noscroll'>*</span>",
 	"Menaphos Events": "Allow soul obelisks and corrupted scarabs in Menaphos to count as primary training methods<span class='rule-asterisk noscroll'>*</span>",
 	"Material Blueprints": "Count discovering material blueprints as a skilling task",
 	"Comp achievements": "Must complete Completionist achievements<span class='rule-asterisk noscroll'>*</span>",
 	"Trim achievements": "Also include Trimmed Completionist Cape achievements<span class='rule-asterisk noscroll'>*</span>",
 	"MQC achievements": "Must complete Master Quest Cape achievements<span class='rule-asterisk noscroll'>*</span>",
-	"Misc achievements": "WIP- Must complete other achievements, excluding level-up achievements.",
+	"Misc achievements": "Must complete achievements that are not already part of the above categories<span class='rule-asterisk noscroll'>*</span>",
+	"No RuneScore": "Include achievements that don't award RuneScore<span class='rule-asterisk noscroll'>†</span>",
+	"Level Up Achievements": "Include level-up achievements<span class='rule-asterisk noscroll'>†</span>",
 	"XP Lamps": "Using skills-specific experience lamps counts as a primary training method<span class='rule-asterisk noscroll'>*</span>",
 	"Slayer Contracts": "Completing Slayer contracts off-task counts as a primary training method",
 	"Hide Partial Products": "Exclude partial and unfinished products as a skilling task<span class='partialProductsRuleTooltip'></span>",
@@ -720,12 +726,14 @@ let rulePresets = {
 		"Comp achievements": true,
 		"Trim achievements": true,
 		"MQC achievements": true,
+		"Misc achievements": true,
 		"XP Lamps": true,
 		"Slayer Contracts": true,
 		"Cleaning Herbs Primary": true,
 		"Permanent Unlockables": true,
 		"Timegated": true,
 		"Combat Mastery achievements": true,
+		"Misc Combat achievements": true,
 		"Secondary Bird Nests": true
     },
     "Supreme Chunker": {
@@ -818,12 +826,16 @@ let rulePresets = {
 		"Comp achievements": true,
 		"Trim achievements": true,
 		"MQC achievements": true,
+		"Misc achievements": true,
+		"No RuneScore": true,
+		"Level Up Achievements": true,
 		"Universal Tertiary": true,
 		"XP Lamps": true,
 		"Slayer Contracts": true,
 		"Cleaning Herbs Primary": true,
 		"Timegated": true,
 		"Combat Mastery achievements": true,
+		"Misc Combat achievements": true,
 		"Speed Killer Achievements": true,
 		"Combat Master+": true,
 		"Secondary Bird Nests": true
@@ -846,10 +858,10 @@ let ruleStructure = {
 	},
 	"Achievements": {
 		"Show Diary Tasks": ["Show Diary Tasks Complete", "Show Diary Tasks Any"],
-		"Combat Mastery achievements": ["Speed Killer Achievements", "Combat Master+"],
+		"Combat Mastery achievements": ["Speed Killer Achievements", "Combat Master+", "Misc Combat achievements"],
 		"Comp achievements": ["Trim achievements"],
 		"MQC achievements": true,
-		"Misc achievements": true
+		"Misc achievements": ["Level Up Achievements", "No RuneScore"]
 	},
     "Overall Skill": {
         "Skillcape": ["Master skillcape"],
@@ -857,7 +869,6 @@ let ruleStructure = {
         "Multi Step Processing": ["Hide Partial Products"],
         "Wield Crafted Items": ["Wield Crafted Items Override"],
         "Secondary Primary": true,
-        "Quest Skill Reqs": true,
         "Boosting": true,
 		"XP Lamps": true,
 		"DnD": ["Not Daily DnD", "DnD Flash Events"],
@@ -994,6 +1005,7 @@ let taskGeneratingRules = {
     "Show Diary Tasks Complete": true,
     "Show Diary Tasks Any": true,
     "Combat Mastery achievements": true,
+    "Misc achievements": true,
     "Collection Log Bosses": true,
     "Collection Log Raids": true,
     "Collection Log Clues": true,
@@ -1428,6 +1440,7 @@ let workersOut = {
 let gotData = false;
 let questPointTotal = 0;
 let combatScoreTotal = 0;
+let runeScoreTotal = 0;
 let highestOverallCompleted = {};
 let bisUpgrades = {};
 let globalValidsBoosts = {};
@@ -4103,6 +4116,7 @@ let workerOnMessage = function(e) {
                 bestEquipmentAltsGlobal,
                 unlockedSections,
                 combatScoreTotal,
+                runeScoreTotal,
                 highestOverallCompleted,
                 bisUpgrades,
                 globalValidsBoosts,
@@ -9384,11 +9398,25 @@ let openHighest2 = function(notScrollTop) {
                     $(`.${combatStyle.replaceAll(' ', '_')}-body`).empty().append(`<div class='highest-subtitle noscroll'>${combatStyle}</div><div class='noscroll qps'>Quest Points: ${questPointTotal}<i class="noscroll fa-solid fa-filter" title="Filter" onclick="openQuestFilterContextMenu()"></i></div>`).append(`<div class="noscroll results"><span class="noscroll holder"><span class="noscroll topline">No quests ${questFilterType}</span></span></div>`);
                 }
             } else if (combatStyle === 'Diaries') {
-                rules['Combat Mastery achievements'] && rules['Achievement'] && $(`.${combatStyle.replaceAll(' ', '_')}-body`).append(`<div class='noscroll cps'>CombatScore: ${combatScoreTotal}</div>`);
+                rules['Achievement'] && $(`.${combatStyle.replaceAll(' ', '_')}-body`).append(`<div class='noscroll cps'>RuneScore: ${runeScoreTotal}</div>`);
+				rules['Combat Mastery achievements'] && rules['Achievement'] && $(`.${combatStyle.replaceAll(' ', '_')}-body`).append(`<div class='noscroll cps'>CombatScore: ${combatScoreTotal}</div>`);
                 let tooltipBase = `<span class="diary-question">What do the colors indicate? <i class="fa-solid fa-question-circle question-help"></i></span>`;
                 $(`.${combatStyle.replaceAll(' ', '_')}-body`).append(`<div class="diary-question-outer">${tooltip.generate('diariesColorTooltip', tooltipBase, 'diariesColorTooltip', onMobile ? 'bottom' : 'right')}</div>`);
                 Object.keys(chunkInfo['diaries']).forEach((diary) => {
-                    $(`.${combatStyle.replaceAll(' ', '_')}-body`).append(`<div class='noscroll row ${diary.replaceAll(' ', '_').replaceAll("'", '')}'><span class='noscroll outer-diary-text'>${diary.replaceAll(/~/g, '').replaceAll(/\|/g, '')}</div>`);
+                    if(diary === 'Combat Mastery achievements') {
+						if (!rules['Combat Mastery achievements']) return;
+						else $(`.${combatStyle.replaceAll(' ', '_')}-body`).append(`<hr class='noscroll' />`);
+					}
+                    else if(diary === 'Completionist achievements') {
+						if (!(rules['Comp achievements'] || rules['MQC achievements'])) return;
+						else $(`.${combatStyle.replaceAll(' ', '_')}-body`).append(`<hr class='noscroll' />`); 
+					}
+					else if (diary === 'Skills achievements' || diary === 'Exploration achievements' || diary == 'Activities achievements') {
+						if(!rules['Misc achievements']) return;
+						else if (diary === 'Skills achievements') $(`.${combatStyle.replaceAll(' ', '_')}-body`).append(`<hr class='noscroll' />`); 
+					}
+                    if(diary === 'Combat achievements' && !rules['Misc Combat achievements']) return;
+					$(`.${combatStyle.replaceAll(' ', '_')}-body`).append(`<div class='noscroll row ${diary.replaceAll(' ', '_').replaceAll("'", '')}'><span class='noscroll outer-diary-text'>${diary.replaceAll(/~/g, '').replaceAll(/\|/g, '')}</div>`);
                     chunkInfo['diaries'][diary].split(', ').forEach((tier) => {
                         $(`.${combatStyle.replaceAll(' ', '_')}-body > .${diary.replaceAll(' ', '_').replaceAll("'", '')}`).append(`<div class='noscroll diary-tier-button${(diaryProgress.hasOwnProperty(diary) && diaryProgress[diary].hasOwnProperty(tier)) ? (diaryProgress[diary][tier]['done'] ? ' complete' : ' incomplete') : ''}'><span class='noscroll diary-text internal-link' onclick="openQuestSteps('Diary', '~|${encodeRFC5987ValueChars(diary)}#XX${encodeRFC5987ValueChars(tier)}|~')">${tier}</span>${(testMode || !(viewOnly || inEntry || locked)) && (diaryProgress.hasOwnProperty(diary) && diaryProgress[diary].hasOwnProperty(tier) && diaryProgress[diary][tier]['done']) ? `<span class='noscroll xp-button${(!assignedXpRewards.hasOwnProperty('Diary') || !assignedXpRewards['Diary'].hasOwnProperty(`~|${diary}#${tier}|~ Complete the ${tier} Diary`) || Object.keys(assignedXpRewards['Diary'][`~|${diary}#${tier}|~ Complete the ${tier} Diary`]).includes('None')) ? ' unset' : ''}' onclick="openXpRewardModalWithFormat('Diary', '~|${diary}#${tier}|~ Complete the ${tier} Diary')">xp</span>` : ''}</div>`);
                     });
@@ -13213,10 +13241,6 @@ let loadData = async function(startup) {
             rulesTemp['Menaphos Log'] = rulesTemp.hasOwnProperty('Arc Log') ? rulesTemp['Arc Log'] : false;
         }
 		
-		if (!rulesTemp.hasOwnProperty('Misc achievements')) {
-            rulesTemp['Misc achievements'] = rulesTemp.hasOwnProperty('Achievement') ? rulesTemp['Achievement'] : false;
-        }
-		
 		if (!rulesTemp.hasOwnProperty('Comp achievements')) {
             rulesTemp['Comp achievements'] = rulesTemp.hasOwnProperty('Achievement') ? rulesTemp['Achievement'] : false;
         }
@@ -13227,6 +13251,14 @@ let loadData = async function(startup) {
 		
 		if (!rulesTemp.hasOwnProperty('MQC achievements')) {
             rulesTemp['MQC achievements'] = rulesTemp.hasOwnProperty('Achievement') ? rulesTemp['Achievement'] : false;
+        }
+		
+		if (!rulesTemp.hasOwnProperty('Misc achievements')) {
+            rulesTemp['Misc achievements'] = rulesTemp.hasOwnProperty('Trim achievements') ? rulesTemp['Trim achievements'] : false;
+        }
+		
+		if (!rulesTemp.hasOwnProperty('Misc Combat achievements')) {
+            rulesTemp['Misc Combat achievements'] = (rulesTemp.hasOwnProperty('Combat Mastery achievements') && rulesTemp.hasOwnProperty('Misc achievements')) ? (rulesTemp['Combat Mastery achievements'] && rulesTemp.hasOwnProperty('Misc achievements')) : false;
         }
 		
 		if (!rulesTemp.hasOwnProperty('Multiple Agility')) {

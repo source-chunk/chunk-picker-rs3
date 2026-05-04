@@ -33,9 +33,6 @@ const modalContents = {
             <div id='rulesvisibletasks' class='accordion' onclick="toggleRulesPanel('visibletasks')"><span class='exp'><i
                 class="acc pic fa-solid fa-plus"></i></span><span class="accordion-title">Visible Tasks</span></div>
             <div class="panel panel-visibletasks"></div>
-            <div id='rulesachievements' class='accordion' onclick="toggleRulesPanel('achievements')"><span class='exp'><i
-                class="acc pic fas fa-plus"></i></span><span class="accordion-title">Achievements</span></div>
-            <div class="panel panel-achievements"></div>
             <div id='rulesoverallskill' class='accordion' onclick="toggleRulesPanel('overallskill')"><span class='exp'><i
                 class="acc pic fa-solid fa-plus"></i></span><span class="accordion-title">Overall Skill</span></div>
             <div class="panel panel-overallskill"></div>
@@ -66,9 +63,6 @@ const modalContents = {
             <div id='rulesmining' class='accordion' onclick="toggleRulesPanel('mining')"><span class='exp'><i
                 class="acc pic fa-solid fa-plus"></i></span><span class="accordion-title">Mining</span></div>
             <div class="panel panel-mining"></div>
-            <div id='rulesnecromancy' class='accordion' onclick="toggleRulesPanel('necromancy')"><span class='exp'><i
-                class="acc pic fa-solid fa-plus"></i></span><span class="accordion-title">Necromancy</span></div>
-            <div class="panel panel-necromancy"></div>
             <div id='rulesprayer' class='accordion' onclick="toggleRulesPanel('prayer')"><span class='exp'><i
                 class="acc pic fa-solid fa-plus"></i></span><span class="accordion-title">Prayer</span></div>
             <div class="panel panel-prayer"></div>
@@ -84,6 +78,9 @@ const modalContents = {
             <div id='rulessmithing' class='accordion' onclick="toggleRulesPanel('smithing')"><span class='exp'><i
                 class="acc pic fa-solid fa-plus"></i></span><span class="accordion-title">Smithing</span></div>
             <div class="panel panel-smithing"></div>
+			<div id='rulesachievements' class='accordion' onclick="toggleRulesPanel('achievements')"><span class='exp'><i
+                class="acc pic fas fa-plus"></i></span><span class="accordion-title">Achievements</span></div>
+            <div class="panel panel-achievements"></div>
             <div id='rulescollections' class='accordion' onclick="toggleRulesPanel('collections')"><span class='exp'><i
                 class="acc pic fa-solid fa-plus"></i></span><span class="accordion-title">Collections</span></div>
             <div class="panel panel-collections"></div>
@@ -95,8 +92,7 @@ const modalContents = {
             <div class="panel panel-miscellaneous"></div>
             <div class="panel panel-search"></div>
             <div class="rules-names">
-                <div id='rulesvisibletasks' class='accordion-sidebar' onclick="toggleRulesPanel('visibletasks')"><span class="accordion-title">Visible Tasks</span></div>
-                <div id='rulesachievements' class='accordion-sidebar' onclick="toggleRulesPanel('achievements')"><span class="accordion-title">Achievements</span></div>         
+                <div id='rulesvisibletasks' class='accordion-sidebar' onclick="toggleRulesPanel('visibletasks')"><span class="accordion-title">Visible Tasks</span></div>     
                 <div id='rulesoverallskill' class='accordion-sidebar' onclick="toggleRulesPanel('overallskill')"><span class="accordion-title">Overall Skill</span></div>
                 <div id='rulesagility' class='accordion-sidebar' onclick="toggleRulesPanel('agility')"><span class="accordion-title">Agility</span></div>
                 <div id='rulescombat' class='accordion-sidebar' onclick="toggleRulesPanel('combat')"><span class="accordion-title">Combat</span></div>
@@ -107,19 +103,18 @@ const modalContents = {
                 <div id='rulesinvention' class='accordion-sidebar' onclick="toggleRulesPanel('invention')"><span class="accordion-title">Invention</span></div>
                 <div id='rulesmagic' class='accordion-sidebar' onclick="toggleRulesPanel('magic')"><span class="accordion-title">Magic</span></div>
                 <div id='rulesmining' class='accordion-sidebar' onclick="toggleRulesPanel('mining')"><span class="accordion-title">Mining</span></div>
-                <div id='rulesnecromancy' class='accordion-sidebar' onclick="toggleRulesPanel('necromancy')"><span class="accordion-title">Necromancy</span></div>
                 <div id='rulesprayer' class='accordion-sidebar' onclick="toggleRulesPanel('prayer')"><span class="accordion-title">Prayer</span></div>
                 <div id='rulesranged' class='accordion-sidebar' onclick="toggleRulesPanel('ranged')"><span class="accordion-title">Ranged</span></div>
                 <div id='rulesrunecrafting' class='accordion-sidebar' onclick="toggleRulesPanel('runecrafting')"><span class="accordion-title">Runecrafting</span></div>
                 <div id='rulesslayer' class='accordion-sidebar' onclick="toggleRulesPanel('slayer')"><span class="accordion-title">Slayer</span></div>
                 <div id='rulessmithing' class='accordion-sidebar' onclick="toggleRulesPanel('smithing')"><span class="accordion-title">Smithing</span></div>
+				<div id='rulesachievements' class='accordion-sidebar' onclick="toggleRulesPanel('achievements')"><span class="accordion-title">Achievements</span></div>   
                 <div id='rulescollections' class='accordion-sidebar' onclick="toggleRulesPanel('collections')"><span class="accordion-title">Collections</span></div>
                 <div id='rulesitemsources' class='accordion-sidebar' onclick="toggleRulesPanel('itemsources')"><span class="accordion-title">Item Sources</span></div>
                 <div id='rulesmiscellaneous' class='accordion-sidebar' onclick="toggleRulesPanel('miscellaneous')"><span class="accordion-title">Miscellaneous</span></div>
             </div>
             <div class="rules-content">
                 <div class="panel panel-visibletasks"></div>
-                <div class="panel panel-achievements"></div>
                 <div class="panel panel-overallskill"></div>
                 <div class="panel panel-agility"></div>
                 <div class="panel panel-combat"></div>
@@ -130,12 +125,12 @@ const modalContents = {
                 <div class="panel panel-invention"></div>
                 <div class="panel panel-magic"></div>
                 <div class="panel panel-mining"></div>
-                <div class="panel panel-necromancy"></div>
                 <div class="panel panel-prayer"></div>
                 <div class="panel panel-ranged"></div>
                 <div class="panel panel-runecrafting"></div>
                 <div class="panel panel-slayer"></div>
                 <div class="panel panel-smithing"></div>
+				<div class="panel panel-achievements"></div>
                 <div class="panel panel-collections"></div>
                 <div class="panel panel-itemsources"></div>
                 <div class="panel panel-miscellaneous"></div>
