@@ -1060,6 +1060,7 @@ let settings = {
     "chunkNeighboursOptions": { "neighbors": true, "walkableRollable": true, "autoWalkableRollable": false, "remove": false },
     "defaultChunkinfo": 'monsters',
     "taskSearchbar": false,
+	"hideAchievements": false,
 };                                                                              // Current state of all settings
 
 let settingNames = {
@@ -1087,7 +1088,8 @@ let settingNames = {
     "rollWarning": "Show a confirmation window after clicking the Pick Chunk or Roll 2 button",
     "unlockedBorderColor": "Change the color of the border surrounding your unlocked chunks",
     "defaultChunkinfo": 'Select the default tab when first opening the Chunk Info Panel',
-    "taskSearchbar": "Show a searchbar at the top of your Active Tasks to allow filtering. Useful for maps with large task lists that have trouble finding specific tasks"
+    "taskSearchbar": "Show a searchbar at the top of your Active Tasks to allow filtering. Useful for maps with large task lists that have trouble finding specific tasks",
+	"hideAchievements": "Only show achievements in the Activity Info window that are required according to your ruleset"
 };                                                                              // Descriptions of the settings
 
 let settingStructure = {
@@ -1103,7 +1105,7 @@ let settingStructure = {
         "recent": true,
         "info": ["defaultChunkinfo"],
         "chunkTasks": ["taskSidebar", "hideChecked", "taskSearchbar"],
-        "topButtons": ["allTasks"]
+        "topButtons": ["allTasks", "hideAchievements"]
     },
     "Warnings": {
         "shiftUnlock": true,
@@ -8220,7 +8222,7 @@ let openQuestSteps = function(skill, challenge) {
         let quest = skill === 'Diary' ? challenge.split('~')[1].split('|').join('').split('#')[0] : challenge.split('~')[1].split('|').join('');
         $('.quest-steps-title').html(`<a class='noscroll link' href="${"https://runescape.wiki/w/" + encodeForUrl(quest)}" target='_blank'>${quest}</a>`);
         $('.quest-steps-data').empty();
-        $('.quest-steps-data').append(`<div class='noscroll step step-header'><span class='noscroll step-table-header ${skill === 'Diary' ? 'diary-size' : ''}'>Step</span><span class='noscroll description-table-header ${skill === 'Diary' ? 'diary-size' : ''}'>Description</span></div>`);
+        $('.quest-steps-data').append(`<div class='noscroll step step-header'><span class='noscroll step-table-header ${skill === 'Diary' ? 'diary-size' : ''}'>Step</span><span class='noscroll description-table-header ${skill === 'Diary' ? 'diary-size' : ''}'>Description</span>${skill === 'Diary' ? "<span class='noscroll achievement-score-table-header'><img class='noscroll skill-icon' src='./resources/RuneScore.png' /></span></span>" : ''}</div>`);
         let savedLastLine = '';
         if (challenge.split('~').length > 2 && challenge.split('~')[2] === '') {
             if (skill === 'Diary') {
@@ -8228,7 +8230,7 @@ let openQuestSteps = function(skill, challenge) {
                     if (savedLastLine.length > 0 && line.split('|~')[0] !== savedLastLine.split('|~')[0]) {
                         $('.quest-steps-data').append('<hr class="quest-steps-hr" />');
                     }
-                    $('.quest-steps-data').append(`<div class='noscroll step${diaryProgress.hasOwnProperty(challenge.split('|')[1]) && diaryProgress[challenge.split('|')[1]]['allTasks'].includes(line) ? ' highlighted' : ''}${line.split('|')[1].split('#')[1] === tier ? ' diary-start' : ''}'><span class='noscroll step-step diary-size'>${line.split('|~')[1]}</span><span class='noscroll step-description diary-size'>${chunkInfo['challenges'][skill][line]['Description']}</span><span class="quest-steps-info" onclick="showDetails('${encodeRFC5987ValueChars(line)}', '${skill}', '')"><i class="info-icon fa-solid fa-info-circle"></i></span></div>`);
+                    $('.quest-steps-data').append(`<div class='noscroll step${diaryProgress.hasOwnProperty(challenge.split('|')[1]) && diaryProgress[challenge.split('|')[1]]['allTasks'].includes(line) ? ' highlighted' : ''}${line.split('|')[1].split('#')[1] === tier ? ' diary-start' : ''}'><span class='noscroll step-step diary-size'>${line.split('|~')[1]}</span><span class='noscroll step-description diary-size'>${chunkInfo['challenges'][skill][line]['Description']}</span><span class="quest-steps-info" onclick="showDetails('${encodeRFC5987ValueChars(line)}', '${skill}', '')"><i class="info-icon fa-solid fa-info-circle"></i></span><span class='step-achievement-score '>${chunkInfo['challenges'][skill][line].hasOwnProperty('RuneScore') ? chunkInfo['challenges'][skill][line]['RuneScore'] : '0'}</span></div>`);
                     savedLastLine = line;
                 });
             } else {
@@ -9403,22 +9405,22 @@ let openHighest2 = function(notScrollTop) {
                 let tooltipBase = `<span class="diary-question">What do the colors indicate? <i class="fa-solid fa-question-circle question-help"></i></span>`;
                 $(`.${combatStyle.replaceAll(' ', '_')}-body`).append(`<div class="diary-question-outer">${tooltip.generate('diariesColorTooltip', tooltipBase, 'diariesColorTooltip', onMobile ? 'bottom' : 'right')}</div>`);
                 Object.keys(chunkInfo['diaries']).forEach((diary) => {
-                    if(diary === 'Combat Mastery achievements') {
-						if (!rules['Combat Mastery achievements']) return;
+					if(diary === 'Combat Mastery achievements') {
+						if (!rules['Combat Mastery achievements'] && settings['hideAchievements']) return;
 						else $(`.${combatStyle.replaceAll(' ', '_')}-body`).append(`<hr class='noscroll' />`);
 					}
-                    else if(diary === 'Completionist achievements') {
-						if (!(rules['Comp achievements'] || rules['MQC achievements'])) return;
+					else if(diary === 'Completionist achievements') {
+						if (!(rules['Comp achievements'] || rules['MQC achievements']) && settings['hideAchievements']) return;
 						else $(`.${combatStyle.replaceAll(' ', '_')}-body`).append(`<hr class='noscroll' />`); 
 					}
 					else if (diary === 'Skills achievements' || diary === 'Exploration achievements' || diary == 'Activities achievements') {
-						if(!rules['Misc achievements']) return;
+						if(!rules['Misc achievements'] && settings['hideAchievements']) return;
 						else if (diary === 'Skills achievements') $(`.${combatStyle.replaceAll(' ', '_')}-body`).append(`<hr class='noscroll' />`); 
 					}
-                    if(diary === 'Combat achievements' && !rules['Misc Combat achievements']) return;
+                    if(diary === 'Combat achievements' && !rules['Misc Combat achievements'] && settings['hideAchievements']) return;
 					$(`.${combatStyle.replaceAll(' ', '_')}-body`).append(`<div class='noscroll row ${diary.replaceAll(' ', '_').replaceAll("'", '')}'><span class='noscroll outer-diary-text'>${diary.replaceAll(/~/g, '').replaceAll(/\|/g, '')}</div>`);
                     chunkInfo['diaries'][diary].split(', ').forEach((tier) => {
-                        $(`.${combatStyle.replaceAll(' ', '_')}-body > .${diary.replaceAll(' ', '_').replaceAll("'", '')}`).append(`<div class='noscroll diary-tier-button${(diaryProgress.hasOwnProperty(diary) && diaryProgress[diary].hasOwnProperty(tier)) ? (diaryProgress[diary][tier]['done'] ? ' complete' : ' incomplete') : ''}'><span class='noscroll diary-text internal-link' onclick="openQuestSteps('Diary', '~|${encodeRFC5987ValueChars(diary)}#XX${encodeRFC5987ValueChars(tier)}|~')">${tier}</span>${(testMode || !(viewOnly || inEntry || locked)) && (diaryProgress.hasOwnProperty(diary) && diaryProgress[diary].hasOwnProperty(tier) && diaryProgress[diary][tier]['done']) ? `<span class='noscroll xp-button${(!assignedXpRewards.hasOwnProperty('Diary') || !assignedXpRewards['Diary'].hasOwnProperty(`~|${diary}#${tier}|~ Complete the ${tier} Diary`) || Object.keys(assignedXpRewards['Diary'][`~|${diary}#${tier}|~ Complete the ${tier} Diary`]).includes('None')) ? ' unset' : ''}' onclick="openXpRewardModalWithFormat('Diary', '~|${diary}#${tier}|~ Complete the ${tier} Diary')">xp</span>` : ''}</div>`);
+						$(`.${combatStyle.replaceAll(' ', '_')}-body > .${diary.replaceAll(' ', '_').replaceAll("'", '')}`).append(`<div class='noscroll diary-tier-button${(diaryProgress.hasOwnProperty(diary) && diaryProgress[diary].hasOwnProperty(tier)) ? (diaryProgress[diary][tier]['done'] ? ' complete' : ' incomplete') : ''}'><span class='noscroll diary-text internal-link' onclick="openQuestSteps('Diary', '~|${encodeRFC5987ValueChars(diary)}#XX${encodeRFC5987ValueChars(tier)}|~')">${tier}</span>${(testMode || !(viewOnly || inEntry || locked)) && (diaryProgress.hasOwnProperty(diary) && diaryProgress[diary].hasOwnProperty(tier) && diaryProgress[diary][tier]['done']) ? `<span class='noscroll xp-button${(!assignedXpRewards.hasOwnProperty('Diary') || !assignedXpRewards['Diary'].hasOwnProperty(`~|${diary}#${tier}|~ Complete the ${tier} Diary`) || Object.keys(assignedXpRewards['Diary'][`~|${diary}#${tier}|~ Complete the ${tier} Diary`]).includes('None')) ? ' unset' : ''}' onclick="openXpRewardModalWithFormat('Diary', '~|${diary}#${tier}|~ Complete the ${tier} Diary')">xp</span>` : ''}</div>`);
                     });
                 });
             } else if (combatStyle === 'Clues') {
@@ -12879,6 +12881,10 @@ let loadData = async function(startup) {
         if (settingsTemp['topButtons'] === undefined) {
             settingsTemp['topButtons'] = true;
         }
+		
+		if (settingsTemp['hideAchievements'] === undefined) {
+            settingsTemp['hideAchievements'] = true;
+        }
         
         (!settingsTemp['mapIntro'] || (!settingsTemp['startingChunk'] || settingsTemp['startingChunk'] === '0000' || settingsTemp['startingChunk'] === '00000')) && (mapIntroOpenSoon = true);
         justStartingChunkSet = (settingsTemp['mapIntro'] && (!settingsTemp['startingChunk'] || settingsTemp['startingChunk'] === '0000' || settingsTemp['startingChunk'] === '00000'));
@@ -13490,7 +13496,8 @@ let setData = function() {
             rollWarning: settings['rollWarning'],
             info: chunkInfoOn,
             'defaultChunkinfo': settings['defaultChunkinfo'],
-            'taskSearchbar': settings['taskSearchbar']
+            'taskSearchbar': settings['taskSearchbar'],
+			'hideAchievements': settings['hideAchievements']
         }, //TEMP (highscore not enabled)
         chunkinfo: {
             checkedChallenges: encodeObject(convertToIds(checkedChallenges), true),
