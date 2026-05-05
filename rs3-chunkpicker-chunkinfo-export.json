@@ -129228,14 +129228,6 @@
 				"RuneScore": 10,
 				"Not F2P": true
 			},
-			"~|Skills achievements#Archaeology|~ Relic-weary": {
-				"Category": ["Misc achievements", "No RunScore"],
-				"Description": "Unlock all relic powers at the monolith.",
-				"BaseQuest": "Skills achievements",
-				"Chunks": ["13364"],
-				"Items": ["Relic[+]x32"],
-				"Not F2P": true
-			},
 			"~|Skills achievements#Archaeology|~ Secrets of the Inquisition": {
 				"Category": ["Misc achievements"],
 				"Description": "Solve this mystery.",
@@ -130035,7 +130027,6 @@
 					"~|Skills achievements#Archaeology|~ Qualification - Intern": "Diary",
 					"~|Skills achievements#Archaeology|~ Qualification - Professor": "Diary",
 					"~|Skills achievements#Archaeology|~ Queen of the Icyene": "Diary",
-					"~|Skills achievements#Archaeology|~ Relic-weary": "Diary",
 					"~|Skills achievements#Archaeology|~ Secrets of the Inquisition": "Diary",
 					"~|Skills achievements#Archaeology|~ Secrets of the Monolith": "Diary",
 					"~|Skills achievements#Archaeology|~ Shadow Fall": "Diary",
