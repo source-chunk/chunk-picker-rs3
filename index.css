@@ -8100,7 +8100,7 @@ input#searchMonsters {
 
 .step-table-header.diary-size {
     width: 25%;
-    padding-right: 2%;
+    padding-right: 1%;
 }
 
 .description-table-header {
@@ -8112,8 +8112,15 @@ input#searchMonsters {
 }
 
 .description-table-header.diary-size {
-    width: 75%;
-    padding-left: 3%;
+    width: 70%;
+	padding-left: 1%;
+}
+
+.achievement-score-table-header {
+	width: 5%;
+    min-width: 25px;
+    text-align: center;
+    border-left: solid 1px var(--color8)
 }
 
 .step-step {
@@ -8135,8 +8142,15 @@ input#searchMonsters {
 }
 
 .step-description.diary-size {
-    width: 75%;
-    padding-left: 3%;
+    width: 70%;
+	padding-left: 1%;
+}
+
+.step-achievement-score {
+    font-size: 20px;
+	text-align: center;
+    width: 5%;
+    border-left: solid 1px var(--color8);
 }
 
 .quest-steps-data hr {

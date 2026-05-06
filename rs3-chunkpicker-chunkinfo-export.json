@@ -129228,14 +129228,6 @@
 				"RuneScore": 10,
 				"Not F2P": true
 			},
-			"~|Skills achievements#Archaeology|~ Relic-weary": {
-				"Category": ["Misc achievements", "No RunScore"],
-				"Description": "Unlock all relic powers at the monolith.",
-				"BaseQuest": "Skills achievements",
-				"Chunks": ["13364"],
-				"Items": ["Relic[+]x32"],
-				"Not F2P": true
-			},
 			"~|Skills achievements#Archaeology|~ Secrets of the Inquisition": {
 				"Category": ["Misc achievements"],
 				"Description": "Solve this mystery.",
@@ -129458,7 +129450,7 @@
 				"Category": ["Misc achievements"],
 				"Description": "Contribute all items to any collection 200 times.",
 				"BaseQuest": "Skills achievements",
-				"Skills": {
+				"Tasks": {
 					"AnyCollection[+]": "Nonskill"
 				},
 				"RuneScore": 245,
@@ -129478,7 +129470,7 @@
 				"Category": ["Misc achievements"],
 				"Description": "Excavate 2,500 damaged artefacts.",
 				"BaseQuest": "Skills achievements",
-				"Skills": {
+				"Tasks": {
 					"Excavate any artifact": "Nonskill"
 				},
 				"RuneScore": 265
@@ -129487,7 +129479,7 @@
 				"Category": ["Misc achievements"],
 				"Description": "Donate 250 artefacts to the museum.",
 				"BaseQuest": "Skills achievements",
-				"Skills": {
+				"Tasks": {
 					"Excavate any artifact": "Nonskill"
 				},
 				"RuneScore": 105
@@ -129556,7 +129548,7 @@
 				"Description": "Send your research team out on field studies for 1,440 hours.",
 				"BaseQuest": "Skills achievements",
 				"Chunks": ["13364"],
-				"Skills": {
+				"Tasks": {
 					"Become an ~|archaeology assistant|~": "Archaeology"
 				},
 				"RuneScore": 125,
@@ -129566,7 +129558,7 @@
 				"Category": ["Misc achievements"],
 				"Description": "Restore 2,500 damaged artefacts.",
 				"BaseQuest": "Skills achievements",
-				"Skills": {
+				"Tasks": {
 					"Excavate any artifact": "Nonskill"
 				},
 				"RuneScore": 265
@@ -130035,7 +130027,6 @@
 					"~|Skills achievements#Archaeology|~ Qualification - Intern": "Diary",
 					"~|Skills achievements#Archaeology|~ Qualification - Professor": "Diary",
 					"~|Skills achievements#Archaeology|~ Queen of the Icyene": "Diary",
-					"~|Skills achievements#Archaeology|~ Relic-weary": "Diary",
 					"~|Skills achievements#Archaeology|~ Secrets of the Inquisition": "Diary",
 					"~|Skills achievements#Archaeology|~ Secrets of the Monolith": "Diary",
 					"~|Skills achievements#Archaeology|~ Shadow Fall": "Diary",
@@ -130658,10 +130649,10 @@
 				"Chunks": ["13625"],
 				"Items": ["Dungeoneering token"],
 				"Tasks": {
-					"~|Skills achievements#|~ Dungeon Mage": "Diary",
-					"~|Skills achievements#|~ Dungeon Ranger": "Diary",
-					"~|Skills achievements#|~ Dungeon Skiller": "Diary",
-					"~|Skills achievements#|~ Dungeon Warrior": "Diary"
+					"~|Skills achievements#Dungeoneering|~ Dungeon Mage": "Diary",
+					"~|Skills achievements#Dungeoneering|~ Dungeon Ranger": "Diary",
+					"~|Skills achievements#Dungeoneering|~ Dungeon Skiller": "Diary",
+					"~|Skills achievements#Dungeoneering|~ Dungeon Warrior": "Diary"
 				},
 				"RuneScore": 20,
 				"Not F2P": true
@@ -131823,7 +131814,7 @@
 			},
 			"~|Skills achievements#Mining|~ Shards of the Earth": {
 				"Category": ["Misc achievements"],
-				"Description": "",
+				"Description": "Own the Magic Golem outfit.",
 				"BaseQuest": "Skills achievements",
 				"Objects": ["Inventor's workbench"],
 				"Skills": {
@@ -135699,7 +135690,8 @@
 				"BaseQuest": "Activities achievements",
 				"Chunks": ["10537"],
 				"RuneScore": 30,
-				"Not F2P": true
+				"Not F2P": true,
+				"Not Skiller": true
 			},
 			"~|Activities achievements#Minigames|~ Something 'bout that Sq'irk, Sq'irk, Sq'irk, Sq'irk, Sq'irk": {
 				"Category": ["Misc achievements", "Minigame"],
@@ -210438,6 +210430,9 @@
 						"Door": 1,
 						"Tree": 1,
 						"Range": 1
+					},
+					"NPC": {
+						"Groundskeeper (Wendlewick)": 1
 					}
 				}
 			},
@@ -210462,7 +210457,6 @@
 						"Oak": 2
 					},
 					"NPC": {
-						"Groundskeeper (Wendlewick)": 1,
 						"Villager (Wendlewick)": 12,
 						"Bartender Gefen": 1,
 						"Malt (Wendlewick)": 1,
@@ -293982,6 +293976,11 @@
 			"Ice warrior": {
 				"11318-2": [{
 					"Members only": "Nonskill"
+				}]
+			},
+			"Ivar, King of Bones": {
+				"17205-1": [{
+					"~|Visions of Havenhythe|~ Complete the quest": "Quest"
 				}]
 			},
 			"Jail guard": {
