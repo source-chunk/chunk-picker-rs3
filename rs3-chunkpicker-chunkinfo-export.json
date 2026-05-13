@@ -130594,6 +130594,7 @@
 				"Description": "Own the Elder Divination outfit.",
 				"BaseQuest": "Skills achievements",
 				"Objects": ["Inventor's workbench"],
+				"Items": ["Divination fragments"],
 				"Skills": {
 					"Divination": 80,
 					"Invention": 20
@@ -130721,6 +130722,7 @@
 				"Description": "Own the Warped Gorajan Trailblazer outfit.",
 				"BaseQuest": "Skills achievements",
 				"Objects": ["Inventor's workbench"],
+				"Items": ["Dungeoneering fragments"],
 				"Skills": {
 					"Dungeoneering": 80,
 					"Invention": 20
@@ -131322,6 +131324,7 @@
 				"Description": "Own the Fury Shark outfit.",
 				"BaseQuest": "Skills achievements",
 				"Objects": ["Inventor's workbench"],
+				"Items": ["Shark fragments"],
 				"Skills": {
 					"Fishing": 80,
 					"Invention": 20
@@ -131858,6 +131861,7 @@
 				"Description": "Own the Magic Golem outfit.",
 				"BaseQuest": "Skills achievements",
 				"Objects": ["Inventor's workbench"],
+				"Items": ["Gemstone golem fragments"],
 				"Skills": {
 					"Mining": 80,
 					"Invention": 20
@@ -132323,6 +132327,7 @@
 				"Description": "Own the Infinity Ethereal outfit.",
 				"BaseQuest": "Skills achievements",
 				"Objects": ["Inventor's workbench"],
+				"Items": ["Rune ethereal fragments"],
 				"Skills": {
 					"Runecrafting": 80,
 					"Invention": 20
@@ -132870,6 +132875,7 @@
 				"Description": "Own the Master Camouflage outfit.",
 				"BaseQuest": "Skills achievements",
 				"Objects": ["Inventor's workbench"],
+				"Items": ["Camouflage fragments"],
 				"Skills": {
 					"Thieving": 80,
 					"Invention": 20
