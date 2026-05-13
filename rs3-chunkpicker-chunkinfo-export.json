@@ -100839,7 +100839,7 @@
 				"Not F2P": true
 			},
 			"~|That Old Black Magic: Skelly By Everlight|~ 3": {
-				"BaseQuest": "That Old Black Magic",
+				"BaseQuest": "That Old Black Magic: Skelly By Everlight",
 				"Description": "Return to Murray with a restored Everlight Trumpet",
 				"Chunks": ["City of Um"],
 				"Items": ["Everlight trumpet"],
@@ -160839,10 +160839,7 @@
 				"Not F2P": true
 			},
 			"Thieves' Guild": {
-				"UnlocksArea": true,
-				"Tasks": {
-					"~|Buyers and Cellars|~ Complete the quest": "Quest"
-				}
+				"UnlocksArea": true
 			},
 			"Rogues' Den": {
 				"UnlocksArea": true,
