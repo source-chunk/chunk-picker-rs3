@@ -3025,6 +3025,16 @@
 				"Primary": false,
 				"Priority": 13
 			},
+			"Read the ~|scroll of restoration|~": {
+				"Items": ["Scroll of restoration"],
+				"Level": 44,
+				"Skills": {
+					"Dungeoneering": 44
+				},
+				"Primary": false,
+				"Priority": 1,
+				"Not F2P": true
+			},
 			"Excavate ~|Dis dungeon debris|~": {
 				"Tasks": {
 					"Complete the ~|Archaeology tutorial|~": "Archaeology"
@@ -3946,7 +3956,7 @@
 				"Items": ["Chaotic gatestone", "Chaos star"],
 				"Level": 68,
 				"Skills": {
-					"Dungeoneering": 80
+					"Dungeoneering": 60
 				},
 				"Output": "Abyssal Gatestone",
 				"Primary": false,
@@ -8135,7 +8145,7 @@
 				"Items": ["Brawler's jab necklace"],
 				"Level": 30,
 				"Skills": {
-					"Dungeoneering": 30
+					"Dungeoneering": 21
 				},
 				"Primary": false,
 				"Priority": 3,
@@ -8362,7 +8372,7 @@
 				"Items": ["Brawler's hook necklace"],
 				"Level": 50,
 				"Skills": {
-					"Dungeoneering": 50
+					"Dungeoneering": 41
 				},
 				"Primary": false,
 				"Priority": 3,
@@ -8398,11 +8408,11 @@
 				"NoPet": true,
 				"NoBoost": true
 			},
-			"Wield a ~|gravite weapon|~": {
-				"Items": ["GraviteWeapon[+]"],
+			"Wield a ~|gravite melee weapon|~": {
+				"Items": ["GraviteMeleeWeapon[+]"],
 				"Level": 55,
 				"Skills": {
-					"Dungeoneering": 45
+					"Dungeoneering": 35
 				},
 				"Primary": false,
 				"Priority": 1,
@@ -8847,11 +8857,11 @@
 				"NoBoost": true,
 				"Not F2P": true
 			},
-			"Wield a ~|chaotic weapon|~": {
-				"Items": ["ChaoticWeapon[+]"],
+			"Wield a ~|chaotic melee weapon|~": {
+				"Items": ["ChaoticMeleeWeapon[+]"],
 				"Level": 80,
 				"Skills": {
-					"Dungeoneering": 80
+					"Dungeoneering": 70
 				},
 				"Primary": false,
 				"Priority": 2,
@@ -8875,7 +8885,7 @@
 				"Items": ["Brawler's knockout necklace"],
 				"Level": 80,
 				"Skills": {
-					"Dungeoneering": 70
+					"Dungeoneering": 60
 				},
 				"Primary": false,
 				"Priority": 4,
@@ -9201,6 +9211,16 @@
 				"NoPet": true,
 				"NoBoost": true,
 				"Not F2P": true
+			},
+			"Wield a ~|ruinous melee weapon|~": {
+				"Items": ["RuinousMeleeWeapon[+]"],
+				"Level": 90,
+				"Skills": {
+					"Dungeoneering": 90
+				},
+				"Primary": false,
+				"Priority": 5,
+				"NoBoost": true
 			},
 			"Make a ~|Milestone cape (90)|~": {
 				"Category": ["Skillcape"],
@@ -20294,7 +20314,7 @@
 				"Priority": 9,
 				"Not F2P": true
 			},
-			"Equip a ~|gem bag|~": {
+			"Buy a ~|gem bag|~": {
 				"Items": ["Gem bag"],
 				"Level": 25,
 				"Skills": {
@@ -21305,11 +21325,11 @@
 			},
 			"Craft a ~|gem bag (upgraded)|~": {
 				"Items": ["Gem bag*"],
-				"NPCs": ["Rewards trader"],
+				"NPCs": ["Marmaros the rewards trader"],
 				"Level": 45,
 				"Output": "Gem bag (upgraded)",
 				"Skills": {
-					"Dungeoneering": 40
+					"Dungeoneering": 35
 				},
 				"Primary": false,
 				"Priority": 5,
@@ -23007,7 +23027,7 @@
 				"Level": 80,
 				"Primary": true,
 				"Output": "Brawler's blood necklace",
-				"Priority": 13,
+				"Priority": 14,
 				"Not F2P": true
 			},
 			"Create a ~|farsight blood necklace|~": {
@@ -23015,7 +23035,15 @@
 				"Level": 80,
 				"Primary": true,
 				"Output": "Farsight blood necklace",
-				"Priority": 13,
+				"Priority": 15,
+				"Not F2P": true
+			},
+			"Create an ~|occultist's blood necklace|~": {
+				"Items": ["Occultist's hex necklace*", "Blood necklace shard*"],
+				"Level": 80,
+				"Primary": true,
+				"Output": "Occultist's blood necklace",
+				"Priority": 16,
 				"Not F2P": true
 			},
 			"Fletch a ~|magic birdhouse|~": {
@@ -23026,7 +23054,7 @@
 				},
 				"Output": "Magic birdhouse",
 				"Primary": true,
-				"Priority": 14,
+				"Priority": 17,
 				"Not F2P": true
 			},
 			"Craft ~|refined anima core helm of Zaros|~": {
@@ -27010,7 +27038,7 @@
 				"Primary": false,
 				"Skills": {
 					"Ranged": 73,
-					"Dungeoneering": 73
+					"Dungeoneering": 60
 				},
 				"Priority": 1,
 				"NoPet": true,
@@ -27198,11 +27226,11 @@
 				"NoBoost": true,
 				"Not F2P": true
 			},
-			"Wear a piece of ~|chaotic armour|~": {
-				"Items": ["ChaoticArmour[+]"],
+			"Wear a ~|chaotic shield|~": {
+				"Items": ["ChaoticShield[+]"],
 				"Level": 80,
 				"Skills": {
-					"Dungeoneering": 80
+					"Dungeoneering": 60
 				},
 				"Not F2P": true,
 				"Primary": false,
@@ -29033,16 +29061,6 @@
 				"Priority": 102,
 				"Not F2P": true
 			},
-			"Create the ~|elder divination outfit|~": {
-				"Objects": ["Inventor's workbench"],
-				"Level": 80,
-				"Skills": {
-					"Invention": 20
-				},
-				"Primary": false,
-				"Output": "DivinationOutfit",
-				"Priority": 103
-			},
 			"Create an ~|enchantment of shadows|~": {
 				"Items": ["Sliver of power*", "Tracking gloves*", "Scrimshaw of ranging*", "Brilliant energy*"],
 				"Level": 80,
@@ -29662,47 +29680,72 @@
 				"Level": 10,
 				"Primary": false,
 				"Priority": 1,
-				"Not F2P": true
+				"Not F2P": true,
+				"NoBoost": true
 			},
 			"Enter the ~|Dwarven Mine resource dungeon|~": {
 				"Chunks": ["Dwarven Mine"],
 				"Level": 15,
 				"Primary": false,
-				"Priority": 1
+				"Priority": 1,
+				"NoBoost": true
 			},
 			"Enter the ~|Edgeville Dungeon hill giants dungeon|~": {
 				"Chunks": ["Edgeville Dungeon"],
 				"Level": 20,
 				"Primary": false,
-				"Priority": 1
+				"Priority": 1,
+				"NoBoost": true
 			},
-			"Use the ~|bonecrusher|~": {
-				"Items": ["Bonecrusher"],
+			"Wear an ~|arcane pulse necklace|~": {
+				"Items": ["Arcane pulse necklace"],
 				"Level": 21,
 				"Primary": false,
 				"Skills": {
-					"Prayer": 21
+					"Magic": 30
 				},
-				"Priority": 1
+				"Priority": 1,
+				"NoBoost": true
 			},
-			"Equip the ~|herbicide|~": {
-				"Items": ["Herbicide"],
+			"Wear a ~|farsight quick shot necklace|~": {
+				"Items": ["Farsight quick shot necklace"],
 				"Level": 21,
-				"Skills": {
-					"Herblore": 21
-				},
 				"Primary": false,
-				"Priority": 2
+				"Skills": {
+					"Ranged": 30
+				},
+				"Priority": 2,
+				"NoBoost": true
 			},
-			"Equip the ~|charming imp|~": {
-				"Items": ["Charming imp"],
+			"Wear the ~|brawler's jab necklace|~": {
+				"Items": ["Brawler's jab necklace"],
 				"Level": 21,
 				"Skills": {
-					"Summoning": 21
+					"Attack": 30
 				},
 				"Primary": false,
 				"Priority": 3,
-				"Not F2P": true
+				"NoBoost": true
+			},
+			"Wear an ~|occultist's undead necklace|~": {
+				"Items": ["Occultist's undead necklace"],
+				"Level": 21,
+				"Primary": false,
+				"Skills": {
+					"Necromancy": 30
+				},
+				"Priority": 4,
+				"NoBoost": true
+			},
+			"Wear a ~|twisted bird skull necklace|~": {
+				"Items": ["Twisted bird skull necklace"],
+				"Level": 21,
+				"Primary": false,
+				"Skills": {
+					"Prayer": 30
+				},
+				"Priority": 5,
+				"NoBoost": true
 			},
 			"Unlock ~|abandoned floors|~": {
 				"Chunks": ["13626-1", "13882-1"],
@@ -29733,7 +29776,8 @@
 				"Chunks": ["Karamja Volcano Dungeon"],
 				"Level": 25,
 				"Primary": false,
-				"Priority": 3
+				"Priority": 3,
+				"NoBoost": true
 			},
 			"Unlock ~|furnished floors|~": {
 				"Chunks": ["13626-1", "13882-1"],
@@ -29741,57 +29785,12 @@
 				"Primary": false,
 				"Priority": 1
 			},
-			"Wear an ~|arcane pulse necklace|~": {
-				"Items": ["Arcane pulse necklace"],
-				"Level": 30,
-				"Primary": false,
-				"Skills": {
-					"Magic": 30
-				},
-				"Priority": 1
-			},
-			"Wear a ~|farsight quick shot necklace|~": {
-				"Items": ["Farsight quick shot necklace"],
-				"Level": 30,
-				"Primary": false,
-				"Skills": {
-					"Ranged": 30
-				},
-				"Priority": 2
-			},
-			"Wear the ~|brawler's jab necklace|~": {
-				"Items": ["Brawler's jab necklace"],
-				"Level": 30,
-				"Skills": {
-					"Attack": 30
-				},
-				"Primary": false,
-				"Priority": 3
-			},
-			"Wear a ~|twisted bird skull necklace|~": {
-				"Items": ["Twisted bird skull necklace"],
-				"Level": 30,
-				"Primary": false,
-				"Skills": {
-					"Prayer": 30
-				},
-				"Priority": 4
-			},
-			"Wield a ~|magical blastbox|~": {
-				"Items": ["Magical blastbox"],
-				"Level": 30,
-				"Primary": false,
-				"Skills": {
-					"Runecrafting": 30,
-					"Magic": 30
-				},
-				"Priority": 5
-			},
 			"Enter the ~|Daemonheim Peninsula resource dungeon|~": {
 				"Chunks": ["13881"],
 				"Level": 30,
 				"Primary": false,
-				"Priority": 6
+				"Priority": 6,
+				"NoBoost": true
 			},
 			"Equip a ~|smithing autoheater|~": {
 				"Items": ["Smithing autoheater"],
@@ -29807,25 +29806,163 @@
 				"Level": 35,
 				"Primary": false,
 				"Priority": 2,
-				"Not F2P": true
+				"Not F2P": true,
+				"NoBoost": true
 			},
 			"Craft ~|gem bag (upgraded)|~": {
 				"Items": ["Gem bag"],
-				"NPCs": ["Rewards trader"],
-				"Level": 40,
+				"NPCs": ["Marmaros the rewards trader"],
+				"Level": 35,
 				"Output": "Gem bag (upgraded)",
 				"Skills": {
 					"Crafting": 45
 				},
 				"Primary": false,
-				"Priority": 1,
+				"Priority": 3,
 				"Not F2P": true
+			},
+			"Wield a ~|gravite magic weapon|~": {
+				"Items": ["GraviteMagicWeapon[+]"],
+				"Level": 35,
+				"Primary": false,
+				"Skills": {
+					"Magic": 55
+				},
+				"Priority": 4,
+				"NoBoost": true
+			},
+			"Wield a ~|gravite melee weapon|~": {
+				"Items": ["GraviteMeleeWeapon[+]"],
+				"Level": 35,
+				"Skills": {
+					"Attack": 55
+				},
+				"Primary": false,
+				"Priority": 5,
+				"NoBoost": true
+			},
+			"Wield a ~|gravite ranged weapon|~": {
+				"Items": ["GraviteRangedWeapon[+]"],
+				"Level": 35,
+				"Primary": false,
+				"Skills": {
+					"Ranged": 55
+				},
+				"Priority": 6,
+				"NoBoost": true
+			},
+			"Wield a ~|gravite necromancy weapon|~": {
+				"Items": ["GraviteNecroWeapon[+]"],
+				"Level": 35,
+				"Primary": false,
+				"Skills": {
+					"Necromancy": 55
+				},
+				"Priority": 7,
+				"NoBoost": true
+			},
+			"Wear an ~|amulet of zealots|~": {
+				"Items": ["Amulet of zealots"],
+				"Level": 38,
+				"Primary": false,
+				"Skills": {
+					"Prayer": 48
+				},
+				"Priority": 1
 			},
 			"Access the ~|Flesh-hatcher Mhekarnahz|~ dungeon": {
 				"Objects": ["Mysterious entrance (Flesh-hatcher Mhekarnahz)"],
 				"Level": 40,
 				"Primary": false,
 				"Priority": 2,
+				"Not F2P": true
+			},
+			"Wear an ~|arcane blast necklace|~": {
+				"Items": ["Arcane blast necklace"],
+				"Level": 41,
+				"Primary": false,
+				"Skills": {
+					"Magic": 50
+				},
+				"Priority": 1,
+				"NoBoost": true
+			},
+			"Wield a ~|farsight snap shot necklace|~": {
+				"Items": ["Farsight snap shot necklace"],
+				"Level": 41,
+				"Primary": false,
+				"Skills": {
+					"Ranged": 50
+				},
+				"Priority": 2,
+				"NoBoost": true
+			},
+			"Wear the ~|brawler's hook necklace|~": {
+				"Items": ["Brawler's hook necklace"],
+				"Level": 41,
+				"Skills": {
+					"Attack": 50
+				},
+				"Primary": false,
+				"Priority": 3,
+				"NoBoost": true
+			},
+			"Wear an ~|occultist's revival necklace|~": {
+				"Items": ["Occultist's revival necklace"],
+				"Level": 41,
+				"Primary": false,
+				"Skills": {
+					"Necromancy": 50
+				},
+				"Priority": 4,
+				"NoBoost": true
+			},
+			"Use the ~|bonecrusher|~": {
+				"Items": ["Bonecrusher"],
+				"Level": 41,
+				"Primary": false,
+				"Skills": {
+					"Prayer": 21
+				},
+				"Priority": 5
+			},
+			"Equip the ~|herbicide|~": {
+				"Items": ["Herbicide"],
+				"Level": 41,
+				"Skills": {
+					"Herblore": 21
+				},
+				"Primary": false,
+				"Priority": 6
+			},
+			"Equip the ~|charming imp|~": {
+				"Items": ["Charming imp"],
+				"Level": 41,
+				"Skills": {
+					"Summoning": 21
+				},
+				"Primary": false,
+				"Priority": 7,
+				"Not F2P": true
+			},
+			"Wear a ~|split dragontooth necklace|~": {
+				"Items": ["Split dragontooth necklace"],
+				"Level": 41,
+				"Primary": false,
+				"Skills": {
+					"Prayer": 60
+				},
+				"Priority": 5,
+				"Not F2P": true
+			},
+			"Read the ~|scroll of restoration|~": {
+				"Items": ["Scroll of restoration"],
+				"Level": 44,
+				"Skills": {
+					"Archaeology": 44
+				},
+				"Primary": false,
+				"Priority": 6,
 				"Not F2P": true
 			},
 			"Wield a ~|maple shieldbow (sighted)|~": {
@@ -29868,38 +30005,12 @@
 				},
 				"Priority": 4
 			},
-			"Wield a ~|gravite mage weapon|~": {
-				"Items": ["GraviteMageWeapon[+]"],
-				"Level": 55,
-				"Primary": false,
-				"Skills": {
-					"Dungeoneering": 45
-				},
-				"Priority": 5
-			},
-			"Wield a ~|gravite weapon|~": {
-				"Items": ["GraviteWeapon[+]"],
-				"Level": 45,
-				"Skills": {
-					"Attack": 55
-				},
-				"Primary": false,
-				"Priority": 6
-			},
-			"Wield a ~|gravite chargebow|~": {
-				"Items": ["Gravite chargebow"],
-				"Level": 45,
-				"Primary": false,
-				"Skills": {
-					"Ranged": 55
-				},
-				"Priority": 7
-			},
 			"Enter the ~|Mining Guild resource dungeon|~": {
 				"Chunks": ["Dwarven Mine"],
 				"Level": 45,
 				"Primary": false,
-				"Priority": 8
+				"Priority": 8,
+				"NoBoost": true
 			},
 			"Wield a ~|tome of frost|~": {
 				"Items": ["Tome of frost"],
@@ -29909,15 +30020,6 @@
 					"Magic": 48
 				},
 				"Priority": 1
-			},
-			"Wear an ~|amulet of zealots|~": {
-				"Items": ["Amulet of zealots"],
-				"Level": 48,
-				"Primary": false,
-				"Skills": {
-					"Prayer": 48
-				},
-				"Priority": 2
 			},
 			"Read the ~|scroll of cleansing|~": {
 				"Items": ["Scroll of cleansing"],
@@ -29958,39 +30060,13 @@
 				"Primary": false,
 				"Priority": 1
 			},
-			"Wear an ~|arcane blast necklace|~": {
-				"Items": ["Arcane blast necklace"],
-				"Level": 50,
-				"Primary": false,
-				"Skills": {
-					"Magic": 50
-				},
-				"Priority": 2
-			},
-			"Wield a ~|farsight snap shot necklace|~": {
-				"Items": ["Farsight snap shot necklace"],
-				"Level": 50,
-				"Primary": false,
-				"Skills": {
-					"Ranged": 50
-				},
-				"Priority": 3
-			},
-			"Wear the ~|brawler's hook necklace|~": {
-				"Items": ["Brawler's hook necklace"],
-				"Level": 50,
-				"Skills": {
-					"Attack": 50
-				},
-				"Primary": false,
-				"Priority": 2
-			},
 			"Enter the ~|Braindeath Island 'Rum'-geon|~": {
 				"Chunks": ["Braindeath Island"],
 				"Level": 50,
 				"Primary": false,
 				"Priority": 3,
-				"Not F2P": true
+				"Not F2P": true,
+				"NoBoost": true
 			},
 			"Enter a tier one ~|Shifting Tombs|~": {
 				"Chunks": ["Shifting Tombs"],
@@ -30008,23 +30084,14 @@
 				"Level": 55,
 				"Primary": false,
 				"Priority": 1,
-				"Not F2P": true
+				"Not F2P": true,
+				"NoBoost": true
 			},
 			"Unlock ~|abandoned 2 floors|~": {
 				"Chunks": ["13626-1", "13882-1"],
 				"Level": 59,
 				"Primary": true,
 				"Priority": 1
-			},
-			"Wear a ~|split dragontooth necklace|~": {
-				"Items": ["Split dragontooth necklace"],
-				"Level": 60,
-				"Primary": false,
-				"Skills": {
-					"Prayer": 60
-				},
-				"Priority": 1,
-				"Not F2P": true
 			},
 			"Wield an ~|anti-poison totem|~": {
 				"Items": ["Anti-poison totem"],
@@ -30081,6 +30148,50 @@
 				"Level": 60,
 				"Primary": false,
 				"Priority": 8,
+				"Not F2P": true,
+				"NoBoost": true
+			},
+			"Equip a ~|chaotic grimoire|~": {
+				"Items": ["Chaotic grimoire"],
+				"Level": 60,
+				"Priority": 5,
+				"Primary": false,
+				"NoBoost": true
+			},
+			"Craft the ~|Abyssal Gatestone|~": {
+				"Tasks": {
+					"Complete the ~|Archaeology tutorial|~": "Archaeology"
+				},
+				"Items": ["Chaotic gatestone", "Chaos star"],
+				"Level": 60,
+				"Skills": {
+					"Archaeology": 68
+				},
+				"Output": "Abyssal Gatestone",
+				"Primary": false,
+				"Priority": 6,
+				"Not F2P": true
+			},
+			"Buy a ~|chaotic remnant|~": {
+				"Chunks": ["13625-1"],
+				"Items": ["Dungeoneering token"],
+				"Level": 60,
+				"Output": "Chaotic remnant",
+				"Primary": false,
+				"Priority": 7,
+				"Not F2P": true
+			},
+			"Wear ~|mercenary's gloves|~": {
+				"Items": ["Mercenary's gloves"],
+				"Level": 60,
+				"Primary": false,
+				"Skills": {
+					"Ranged": 73,
+					"Defence": 73
+				},
+				"Priority": 8,
+				"NoPet": true,
+				"NoBoost": true,
 				"Not F2P": true
 			},
 			"Wear the ~|ring of vigour|~": {
@@ -30112,7 +30223,8 @@
 				"Level": 65,
 				"Primary": false,
 				"Priority": 2,
-				"Not F2P": true
+				"Not F2P": true,
+				"NoBoost": true
 			},
 			"Enter the ~|Dragontooth Island resource dungeon|~": {
 				"Chunks": ["15159"],
@@ -30122,7 +30234,8 @@
 				},
 				"Primary": false,
 				"Priority": 1,
-				"Not F2P": true
+				"Not F2P": true,
+				"NoBoost": true
 			},
 			"Equip an ~|advanced smithing autoheater|~": {
 				"Items": ["Advanced smithing autoheater"],
@@ -30132,22 +30245,6 @@
 					"Smithing": 70
 				},
 				"Priority": 1,
-				"Not F2P": true
-			},
-			"Read the ~|scroll of Daemonheim|~": {
-				"Items": ["Scroll of Daemonheim"],
-				"Level": 70,
-				"Primary": false,
-				"Priority": 2,
-				"Not F2P": true
-			},
-			"Buy a ~|chaotic remnant|~": {
-				"Chunks": ["13625-1"],
-				"Items": ["Dungeoneering token"],
-				"Level": 70,
-				"Output": "Chaotic remnant",
-				"Primary": false,
-				"Priority": 6,
 				"Not F2P": true
 			},
 			"Wield a ~|celestial surgebox|~": {
@@ -30166,7 +30263,73 @@
 				"Level": 70,
 				"Primary": false,
 				"Priority": 8,
-				"Not F2P": true
+				"Not F2P": true,
+				"NoBoost": true
+			},
+			"Buy a ~|chaotic spike|~": {
+				"Chunks": ["13625-1"],
+				"Items": ["Dungeoneering token"],
+				"Level": 70,
+				"Output": "Chaotic spike",
+				"Not F2P": true,
+				"Primary": false,
+				"NoBoost": true,
+				"Priority": 9
+			},
+			"Wield a ~|chaotic melee weapon|~": {
+				"Items": ["ChaoticMeleeWeapon[+]"],
+				"Level": 70,
+				"Skills": {
+					"Attack": 80
+				},
+				"Not F2P": true,
+				"Primary": false,
+				"NoBoost": true,
+				"Priority": 10
+			},
+			"Wield a ~|chaotic magic weapon|~": {
+				"Items": ["ChaoticMagicWeapon[+]"],
+				"Level": 70,
+				"Primary": false,
+				"Skills": {
+					"Magic": 80
+				},
+				"Not F2P": true,
+				"NoBoost": true,
+				"Priority": 11
+			},
+			"Wear a ~|chaotic shield|~": {
+				"Items": ["ChaoticShield[+]"],
+				"Level": 70,
+				"Skills": {
+					"Defence": 80
+				},
+				"Not F2P": true,
+				"Primary": false,
+				"NoBoost": true,
+				"Priority": 12
+			},
+			"Wield a ~|chaotic ranged weapon|~": {
+				"Items": ["ChaoticRangedWeapon[+]"],
+				"Level": 70,
+				"Skills": {
+					"Ranged": 80
+				},
+				"Primary": false,
+				"Priority": 13,
+				"Not F2P": true,
+				"NoBoost": true
+			},
+			"Wield a ~|chaotic necromancy weapon|~": {
+				"Items": ["ChaoticNecromancyWeapon[+]"],
+				"Level": 70,
+				"Skills": {
+					"Necromancy": 80
+				},
+				"Primary": false,
+				"Priority": 14,
+				"Not F2P": true,
+				"NoBoost": true
 			},
 			"Enter a tier two ~|Shifting Tombs|~": {
 				"Chunks": ["Shifting Tombs"],
@@ -30181,27 +30344,15 @@
 					"Divination": 70
 				},
 				"Primary": false,
-				"Priority": 9,
-				"Not F2P": true
+				"Priority": 1000,
+				"Not F2P": true,
+				"NoBoost": true
 			},
 			"Unlock ~|occult floors|~": {
 				"Chunks": ["13626-1", "13882-1"],
 				"Level": 71,
 				"Primary": true,
 				"Priority": 1,
-				"Not F2P": true
-			},
-			"Wear ~|mercenary's gloves|~": {
-				"Items": ["Mercenary's gloves"],
-				"Level": 73,
-				"Primary": false,
-				"Skills": {
-					"Ranged": 73,
-					"Defence": 73
-				},
-				"Priority": 1,
-				"NoPet": true,
-				"NoBoost": true,
 				"Not F2P": true
 			},
 			"Unlock the ability to find a ~|Meilyr potion recipe|~": {
@@ -30216,122 +30367,69 @@
 				"Chunks": ["13107-1"],
 				"Level": 75,
 				"Primary": false,
-				"Priority": 2
+				"Priority": 2,
+				"NoBoost": true
 			},
-			"Buy a ~|chaotic spike|~": {
-				"Chunks": ["13625-1"],
-				"Items": ["Dungeoneering token"],
-				"Level": 80,
-				"Output": "Chaotic spike",
-				"Not F2P": true,
-				"Primary": false,
-				"Priority": 1
-			},
-			"Wield a ~|chaotic weapon|~": {
-				"Items": ["ChaoticWeapon[+]"],
-				"Level": 80,
-				"Skills": {
-					"Attack": 80
-				},
-				"Not F2P": true,
-				"Primary": false,
-				"Priority": 2
-			},
-			"Wield a ~|chaotic mage weapon|~": {
-				"Items": ["ChaoticMageWeapon[+]"],
-				"Level": 80,
+			"Wear a ~|demon horn necklace|~": {
+				"Items": ["Demon horn necklace"],
+				"Level": 75,
 				"Primary": false,
 				"Skills": {
-					"Magic": 80
+					"Prayer": 90
 				},
-				"Not F2P": true,
-				"Priority": 3
-			},
-			"Wear a piece of ~|chaotic armour|~": {
-				"Items": ["ChaoticArmor[+]"],
-				"Level": 80,
-				"Skills": {
-					"Defence": 80
-				},
-				"Not F2P": true,
-				"Primary": false,
-				"Priority": 4
-			},
-			"Craft the ~|Abyssal Gatestone|~": {
-				"Tasks": {
-					"Complete the ~|Archaeology tutorial|~": "Archaeology"
-				},
-				"Items": ["Chaotic gatestone", "Chaos star"],
-				"Level": 80,
-				"Skills": {
-					"Archaeology": 68
-				},
-				"Output": "Abyssal Gatestone",
-				"Primary": false,
-				"Priority": 5,
+				"Priority": 3,
+				"NoPet": true,
+				"NoBoost": true,
 				"Not F2P": true
 			},
 			"Obtain a ~|sneakerpeeper spawn|~": {
 				"Category": ["Pets"],
 				"Level": 80,
-				"NPCs": ["Rewards trader"],
+				"NPCs": ["Marmaros the rewards trader"],
 				"Primary": false,
 				"Skills": {
 					"Summoning": 80
 				},
 				"Output": "Sneakerpeeper",
-				"Priority": 6,
+				"Priority": 1,
 				"Not F2P": true
+			},
+			"Use a ~|frozen dye kit|~": {
+				"Items": ["Frozen dye kit[+]"],
+				"Level": 80,
+				"Primary": false,
+				"Priority": 2,
+				"Not F2P": true,
+				"NoBoost": true
+			},
+			"Use a ~|warped dye kit|~": {
+				"Items": ["Warped dye kit[+]"],
+				"Level": 80,
+				"Primary": false,
+				"Priority": 3,
+				"Not F2P": true,
+				"NoBoost": true
 			},
 			"Enter the ~|Brimhaven Dungeon resource dungeon|~": {
 				"Chunks": ["Brimhaven Dungeon"],
 				"Level": 80,
 				"Primary": false,
-				"Priority": 7,
-				"Not F2P": true
-			},
-			"Create the ~|warped gorajan trailblazer outfit|~": {
-				"Objects": ["Inventor's workbench"],
-				"Level": 80,
-				"Skills": {
-					"Invention": 20
-				},
-				"Primary": false,
-				"Output": "TrailblazerOutfit",
-				"Priority": 8,
-				"Not F2P": true
-			},
-			"Wield a ~|chaotic crossbow|~": {
-				"Items": ["Chaotic crossbow"],
-				"Level": 80,
-				"Skills": {
-					"Ranged": 80
-				},
-				"Primary": false,
-				"Priority": 9,
-				"Not F2P": true
-			},
-			"Wield an ~|off-hand chaotic crossbow|~": {
-				"Items": ["Off-hand chaotic crossbow"],
-				"Level": 80,
-				"Skills": {
-					"Ranged": 80
-				},
-				"Primary": false,
-				"Priority": 10,
-				"Not F2P": true
+				"Priority": 4,
+				"Not F2P": true,
+				"NoBoost": true
 			},
 			"Enter the ~|Polypore Dungeon resource dungeon|~": {
 				"Chunks": ["Polypore Dungeon"],
 				"Level": 82,
 				"Primary": false,
 				"Priority": 1,
-				"Not F2P": true
+				"Not F2P": true,
+				"NoBoost": true
 			},
 			"Obtain a ~|Frosty|~ pet": {
 				"Category": ["Pets"],
 				"Level": 85,
-				"NPCs": ["Rewards trader"],
+				"NPCs": ["Marmaros the rewards trader"],
 				"Primary": false,
 				"Skills": {
 					"Summoning": 99
@@ -30344,7 +30442,8 @@
 				"Level": 85,
 				"Primary": false,
 				"Priority": 2,
-				"Not F2P": true
+				"Not F2P": true,
+				"NoBoost": true
 			},
 			"Unlock ~|the exile|~ in the player-owned port": {
 				"Category": ["PortSkills"],
@@ -30361,7 +30460,8 @@
 				"Level": 90,
 				"Primary": false,
 				"Priority": 2,
-				"Not F2P": true
+				"Not F2P": true,
+				"NoBoost": true
 			},
 			"Enter a tier three ~|Shifting Tombs|~": {
 				"Chunks": ["Shifting Tombs"],
@@ -30377,19 +30477,48 @@
 				},
 				"Primary": false,
 				"Priority": 3,
-				"Not F2P": true
+				"Not F2P": true,
+				"NoBoost": true
 			},
-			"Wear a ~|demon horn necklace|~": {
-				"Items": ["Demon horn necklace"],
+			"Wield a ~|ruinous magic weapon|~": {
+				"Items": ["RuinousMagicWeapon[+]"],
 				"Level": 90,
 				"Primary": false,
 				"Skills": {
-					"Prayer": 90
+					"Magic": 90
+				},
+				"Priority": 2,
+				"NoBoost": true
+			},
+			"Wield a ~|ruinous melee weapon|~": {
+				"Items": ["RuinousMeleeWeapon[+]"],
+				"Level": 90,
+				"Skills": {
+					"Attack": 90
+				},
+				"Primary": false,
+				"Priority": 3,
+				"NoBoost": true
+			},
+			"Wield a ~|ruinous ranged weapon|~": {
+				"Items": ["RuinousRangedWeapon[+]"],
+				"Level": 90,
+				"Primary": false,
+				"Skills": {
+					"Ranged": 90
 				},
 				"Priority": 4,
-				"NoPet": true,
-				"NoBoost": true,
-				"Not F2P": true
+				"NoBoost": true
+			},
+			"Wield a ~|ruinous necromancy weapon|~": {
+				"Items": ["RuinousNecroWeapon[+]"],
+				"Level": 90,
+				"Primary": false,
+				"Skills": {
+					"Necromancy": 90
+				},
+				"Priority": 5,
+				"NoBoost": true
 			},
 			"Make a ~|Milestone cape (90)|~": {
 				"Category": ["Skillcape"],
@@ -30436,6 +30565,7 @@
 				"Level": 95,
 				"Primary": true,
 				"Priority": 1,
+				"Output": "Warped floors loot",
 				"NoBoost": true,
 				"Not F2P": true
 			},
@@ -30452,7 +30582,8 @@
 				"Level": 95,
 				"Primary": false,
 				"Priority": 3,
-				"Not F2P": true
+				"Not F2P": true,
+				"NoBoost": true
 			},
 			"Buy the ~|Dungeoneering cape|~": {
 				"Category": ["Skillcape"],
@@ -30469,14 +30600,25 @@
 				"Level": 100,
 				"Primary": false,
 				"Priority": 1,
-				"Not F2P": true
+				"Not F2P": true,
+				"NoBoost": true
 			},
 			"Obtain a ~|Hope Nibbler|~ pet": {
 				"Category": ["Pets"],
 				"Level": 101,
-				"NPCs": ["Rewards trader"],
+				"NPCs": ["Marmaros the rewards trader"],
 				"Primary": false,
 				"Priority": 1,
+				"Output": "Hope Nibbler",
+				"Not F2P": true
+			},
+			"Obtain a ~|ferret|~ pet": {
+				"Category": ["Pets"],
+				"Level": 101,
+				"NPCs": ["Marmaros the rewards trader"],
+				"Primary": false,
+				"Priority": 1,
+				"Output": "Ferret of Doom",
 				"Not F2P": true
 			},
 			"Enter the ~|Edimmu resource dungeon|~": {
@@ -30484,7 +30626,8 @@
 				"Level": 115,
 				"Primary": false,
 				"Priority": 1,
-				"Not F2P": true
+				"Not F2P": true,
+				"NoBoost": true
 			},
 			"Buy the ~|Dungeoneering master cape|~": {
 				"Category": ["Master skillcape"],
@@ -33341,17 +33484,6 @@
 				"Output": "Grimy samaden",
 				"Primary": false,
 				"Priority": 3
-			},
-			"Create the ~|master farmer outfit|~": {
-				"Items": ["Master farmer outfit blueprint"],
-				"Objects": ["Inventor's workbench"],
-				"Level": 80,
-				"Skills": {
-					"Invention": 20
-				},
-				"Primary": false,
-				"Output": "MasterFarmerOutfit",
-				"Priority": 4
 			},
 			"Harvest a ~|shimmering honeycomb|~ from a beehive": {
 				"Category": ["Normal Farming"],
@@ -37667,7 +37799,7 @@
 			"Catch two ~|raw sharks|~ in one attempt": {
 				"Category": ["Multiple Agility"],
 				"Level": 76,
-				"Objects": ["Fishing spot (cage, harpoon)"],
+				"Objects": ["Fishing spot (big fishing net, harpoon)"],
 				"Output": "Raw shark",
 				"Skills": {
 					"Agility": 76
@@ -37721,16 +37853,6 @@
 				"Level": 80,
 				"Primary": false,
 				"Priority": 101
-			},
-			"Create the ~|fury shark outfit|~": {
-				"Objects": ["Inventor's workbench"],
-				"Level": 80,
-				"Skills": {
-					"Invention": 20
-				},
-				"Primary": false,
-				"Output": "SharkOutfit",
-				"Priority": 1000
 			},
 			"Catch a ~|raw manta ray|~": {
 				"Items": ["Manta ray bait"],
@@ -41250,7 +41372,7 @@
 				"Items": ["Herbicide"],
 				"Level": 21,
 				"Skills": {
-					"Dungeoneering": 21
+					"Dungeoneering": 41
 				},
 				"Primary": false,
 				"Priority": 1
@@ -42508,15 +42630,6 @@
 				"Primary": true,
 				"Priority": 18
 			},
-			"Mix a ~|strong defence potion|~ in Daemonheim": {
-				"Category": ["Daemonheim tasks", "Multi Step Processing"],
-				"Tasks": {
-					"Unlock ~|frozen floors|~": "Dungeoneering"
-				},
-				"Level": 75,
-				"Primary": false,
-				"Priority": 7
-			},
 			"Mix a ~|super magic potion|~": {
 				"Items": ["Lantadyme potion (unfinished)*", "Potato cactus*"],
 				"Level": 76,
@@ -43263,6 +43376,15 @@
 				"Output": "Aggroverload (6)",
 				"Primary": true,
 				"Priority": 3
+			},
+			"Mix an ~|overload (Dungeoneering)|~ in Daemonheim": {
+				"Category": ["Daemonheim tasks", "Multi Step Processing"],
+				"Tasks": {
+					"Unlock ~|frozen floors|~": "Dungeoneering"
+				},
+				"Level": 96,
+				"Primary": false,
+				"Priority": 100000
 			},
 			"Mix an ~|overload salve|~": {
 				"Chunks": ["8757"],
@@ -44121,7 +44243,7 @@
 			"Catch a ~|jackalope|~": {
 				"Items": ["Rabbit snare", "Ferret[+]"],
 				"Objects": ["Jackalope burrow"],
-				"Level": 27,
+				"Level": 32,
 				"Output": "Jackalope",
 				"Primary": true,
 				"Priority": 2
@@ -45100,17 +45222,6 @@
 				"Output": "RubyHarvestAnachronia",
 				"Primary": true,
 				"Priority": 4
-			},
-			"Create the ~|volcanic trapper outfit|~": {
-				"Items": ["Elite trapper outfit blueprint"],
-				"Objects": ["Inventor's workbench"],
-				"Level": 80,
-				"Skills": {
-					"Invention": 20
-				},
-				"Primary": false,
-				"Output": "TrapperOutfit",
-				"Priority": 5
 			},
 			"Catch a ~|common jadinko|~ on Anachronia": {
 				"Items": ["Marasamaw plant"],
@@ -46255,99 +46366,6 @@
 				"Output": "Augmentation dissolver",
 				"Priority": 3
 			},
-			"Create the ~|volcanic trapper outfit|~": {
-				"Items": ["Elite trapper outfit blueprint"],
-				"Objects": ["Inventor's workbench"],
-				"Level": 20,
-				"Skills": {
-					"Hunter": 80
-				},
-				"Primary": false,
-				"Output": "TrapperOutfit",
-				"Priority": 1
-			},
-			"Create the ~|master farmer outfit|~": {
-				"Items": ["Master farmer outfit blueprint"],
-				"Objects": ["Inventor's workbench"],
-				"Level": 20,
-				"Skills": {
-					"Farming": 80
-				},
-				"Primary": false,
-				"Output": "MasterFarmerOutfit",
-				"Priority": 2
-			},
-			"Create the ~|elder divination outfit|~": {
-				"Objects": ["Inventor's workbench"],
-				"Level": 20,
-				"Skills": {
-					"Divination": 80
-				},
-				"Primary": false,
-				"Output": "DivinationOutfit",
-				"Priority": 3
-			},
-			"Create the ~|warped gorajan trailblazer outfit|~": {
-				"Objects": ["Inventor's workbench"],
-				"Items": ["Elite Dungeoneering outfit blueprint"],
-				"Level": 20,
-				"Skills": {
-					"Dungeoneering": 80
-				},
-				"Primary": false,
-				"Output": "TrailblazerOutfit",
-				"Priority": 4
-			},
-			"Create the ~|fury shark outfit|~": {
-				"Objects": ["Inventor's workbench"],
-				"Level": 20,
-				"Skills": {
-					"Fishing": 80
-				},
-				"Primary": false,
-				"Output": "SharkOutfit",
-				"Priority": 5
-			},
-			"Create the ~|magic golem outfit|~": {
-				"Objects": ["Inventor's workbench"],
-				"Level": 20,
-				"Skills": {
-					"Mining": 80
-				},
-				"Primary": false,
-				"Output": "GolemOutfit",
-				"Priority": 6
-			},
-			"Create the ~|infinity ethereal outfit|~": {
-				"Objects": ["Inventor's workbench"],
-				"Level": 20,
-				"Skills": {
-					"Runecrafting": 80
-				},
-				"Primary": false,
-				"Output": "EtherealOutfit",
-				"Priority": 7
-			},
-			"Create the ~|master camouflage outfit|~": {
-				"Objects": ["Inventor's workbench"],
-				"Level": 20,
-				"Skills": {
-					"Thieving": 80
-				},
-				"Primary": false,
-				"Output": "CamouflageOutfit",
-				"Priority": 8
-			},
-			"Create the ~|nature's sentinel outfit|~": {
-				"Objects": ["Inventor's workbench"],
-				"Level": 20,
-				"Skills": {
-					"Woodcutting": 80
-				},
-				"Primary": false,
-				"Output": "SentinelOutfit",
-				"Priority": 9
-			},
 			"Discover ~|refined components|~": {
 				"Category": ["Material Blueprints"],
 				"Objects": ["Inventor's workbench"],
@@ -46732,18 +46750,6 @@
 				"Primary": true,
 				"Output": "Electrified trap",
 				"Priority": 1
-			},
-			"Create a ~|dungeoneering party simulator|~": {
-				"Items": ["Dungeoneering token*", "Connector parts*", "Padded parts*", "Evasive components*"],
-				"Chunks": ["Dorgesh-Kaan"],
-				"Objects": ["Inventor's workbench"],
-				"Level": 70,
-				"Tasks": {
-					"~|Death to the Dorgeshuun|~ Complete the quest": "Quest"
-				},
-				"Primary": true,
-				"Output": "Dungeoneering party simulator",
-				"Priority": 2
 			},
 			"Create an ~|Oldak coil|~": {
 				"Items": ["Rune bar*", "Metallic parts*", "Heavy components*", "Imbued components*"],
@@ -47607,18 +47613,6 @@
 				"NoPet": true,
 				"NoBoost": true
 			},		
-			"Wield a ~|magical blastbox|~": {
-				"Items": ["Magical blastbox"],
-				"Level": 30,
-				"Primary": false,
-				"Skills": {
-					"Dungeoneering": 30,
-					"Runecrafting": 30
-				},
-				"Priority": 1,
-				"NoPet": true,
-				"NoBoost": true
-			},
 			"Wield a ~|lesser runic staff|~": {
 				"Items": ["Lesser runic staff"],
 				"Level": 30,
@@ -48309,7 +48303,7 @@
 				"Level": 30,
 				"Primary": false,
 				"Skills": {
-					"Dungeoneering": 30
+					"Dungeoneering": 21
 				},
 				"Priority": 7,
 				"NoPet": true,
@@ -48679,7 +48673,7 @@
 				"Level": 50,
 				"Primary": false,
 				"Skills": {
-					"Dungeoneering": 50
+					"Dungeoneering": 41
 				},
 				"Priority": 13,
 				"NoPet": true,
@@ -48765,12 +48759,12 @@
 				"Primary": true,
 				"Priority": 1
 			},
-			"Wield a ~|gravite mage weapon|~": {
-				"Items": ["GraviteMageWeapon[+]"],
+			"Wield a ~|gravite magic weapon|~": {
+				"Items": ["GraviteMagicWeapon[+]"],
 				"Level": 55,
 				"Primary": false,
 				"Skills": {
-					"Dungeoneering": 45
+					"Dungeoneering": 35
 				},
 				"Priority": 2,
 				"NoPet": true,
@@ -49118,17 +49112,6 @@
 				"Level": 64,
 				"Primary": true,
 				"Priority": 2
-			},
-			"Cast ~|Group Gatestone Teleport|~ in Daemonheim": {
-				"Category": ["Daemonheim tasks", "Spells"],
-				"Tasks": {
-					"Unlock ~|frozen floors|~": "Dungeoneering"
-				},
-				"Level": 65,
-				"Primary": false,
-				"Priority": 1000,
-				"NoPet": true,
-				"NoBoost": true
 			},
 			"Cast ~|Bake Pie|~ on an uncooked berry pie": {
 				"Category": ["Spells"],
@@ -50369,12 +50352,12 @@
 				"NoPet": true,
 				"NoBoost": true
 			},
-			"Wield a ~|chaotic mage weapon|~": {
-				"Items": ["ChaoticMageWeapon[+]"],
+			"Wield a ~|chaotic magic weapon|~": {
+				"Items": ["ChaoticMagicWeapon[+]"],
 				"Level": 80,
 				"Primary": false,
 				"Skills": {
-					"Dungeoneering": 80
+					"Dungeoneering": 70
 				},
 				"Not F2P": true,
 				"Priority": 18,
@@ -50457,7 +50440,7 @@
 				"Level": 80,
 				"Primary": false,
 				"Skills": {
-					"Dungeoneering": 70
+					"Dungeoneering": 60
 				},
 				"Priority": 26,
 				"NoPet": true,
@@ -50467,9 +50450,6 @@
 				"Items": ["Arcane blood necklace"],
 				"Level": 80,
 				"Primary": false,
-				"Skills": {
-					"Dungeoneering": 70
-				},
 				"Priority": 27,
 				"NoPet": true,
 				"NoBoost": true
@@ -51452,6 +51432,16 @@
 				"Primary": false,
 				"Priority": 13,
 				"NoPet": true,
+				"NoBoost": true
+			},
+			"Wield a ~|ruinous magic weapon|~": {
+				"Items": ["RuinousMagicWeapon[+]"],
+				"Level": 90,
+				"Primary": false,
+				"Skills": {
+					"Dungeoneering": 90
+				},
+				"Priority": 2,
 				"NoBoost": true
 			},
 			"Imbue ~|chaos-infused moonstone|~": {
@@ -52743,16 +52733,6 @@
 				"Priority": 1002,
 				"Not F2P": true
 			},
-			"Create the ~|magic golem outfit|~": {
-				"Objects": ["Inventor's workbench"],
-				"Level": 80,
-				"Skills": {
-					"Invention": 20
-				},
-				"Primary": false,
-				"Output": "GolemOutfit",
-				"Priority": 1003
-			},
 			"Equip a ~|superior gem-finding scrimshaw|~": {
 				"Items": ["Superior gem-finding scrimshaw"],
 				"Level": 80,
@@ -53109,6 +53089,15 @@
 				"Primary": true,
 				"Priority": 1
 			},
+			"Train Necromancy in ~|Daemonheim|~": {
+				"Category": ["Daemonheim training"],
+				"Tasks": {
+					"Unlock ~|frozen floors|~": "Dungeoneering"
+				},
+				"Level": 1,
+				"Primary": true,
+				"Priority": 100
+			},
 			"Perform a ~|lesser necroplasm ritual|~": {
 				"Chunks": ["RitualSite[+]"],
 				"Items": ["Basic ghostly ink*", "Weak necroplasm*", "RitualLightSource[+]*"],
@@ -53221,6 +53210,16 @@
 				"NoPet": true,
 				"NoBoost": true
 			},
+			"Wield a ~|marmaros guard|~ in Daemonheim": {
+			    "Category": ["Daemonheim tasks"],
+			    "Tasks": {
+			        "Unlock ~|frozen floors|~": "Dungeoneering"
+			    },
+			    "Level": 20,
+			    "Primary": false,
+			    "NoPet": true,
+			    "Priority": 10000
+			},
 			"Perform a ~|lesser essence ritual|~": {
 				"Chunks": ["RitualSite[+]"],
 				"Items": ["RitualLightSource[+]*", "Basic ghostly ink*", "Regular ghostly ink*", "Pure essence*"],
@@ -53250,6 +53249,16 @@
 				"Level": 30,
 				"Primary": true,
 				"Priority": 2
+			},
+			"Wear an ~|occultist's undead necklace|~": {
+				"Items": ["Occultist's undead necklace"],
+				"Level": 30,
+				"Skills": {
+					"Dungeoneering": 30
+				},
+				"Priority": 3,
+				"Primary": false,
+				"NoBoost": true
 			},
 			"Draw a ~|Protection I|~ glyph": {
 				"Chunks": ["RitualSite[+]"],
@@ -53331,6 +53340,26 @@
 				"Primary": false,
 				"Priority": 2,
 				"NoPet": true,
+				"NoBoost": true
+			},
+			"Wear an ~|occultist's revival necklace|~": {
+				"Items": ["Occultist's revival necklace"],
+				"Level": 50,
+				"Skills": {
+					"Dungeoneering": 50
+				},
+				"Priority": 3,
+				"Primary": false,
+				"NoBoost": true
+			},
+			"Wield a ~|gravite necromancy weapon|~": {
+				"Items": ["GraviteNecroWeapon[+]"],
+				"Level": 55,
+				"Primary": false,
+				"Skills": {
+					"Dungeoneering": 35
+				},
+				"Priority": 5,
 				"NoBoost": true
 			},
 			"Unlock and use the ~|Sanctity|~ prayer": {
@@ -53609,6 +53638,14 @@
 				"NoPet": true,
 				"NoBoost": true
 			},
+			"Wear a ~|Saradomin's hum|~": {
+				"Items": ["Saradomin's hum"],
+				"Level": 70,
+				"Primary": false,
+				"Priority": 8,
+				"NoPet": true,
+				"NoBoost": true
+			},
 			"Unlock and cast the ~|Greater Bone Shield|~ incantation": {
 				"Chunks": ["City of Um"],
 				"Items": ["Spirit rune", "Bone rune", "Flesh rune"],
@@ -53800,6 +53837,17 @@
 				"NoPet": true,
 				"NoBoost": true
 			},
+			"Wield a ~|chaotic necromancy weapon|~": {
+				"Items": ["ChaoticNecroWeapon[+]"],
+				"Level": 80,
+				"Primary": false,
+				"Skills": {
+					"Dungeoneering": 70
+				},
+				"Priority": 14,
+				"Not F2P": true,
+				"NoBoost": true
+			},
 			"Draw a ~|Speed II|~ glyph": {
 				"Chunks": ["RitualSite[+]"],
 				"Items": ["Ectoplasm", "Regular ghostly ink", "Basic ghostly ink"],
@@ -53919,6 +53967,16 @@
 				"Level": 90,
 				"Primary": true,
 				"Priority": 9
+			},
+			"Wield a ~|ruinous necromancy weapon|~": {
+				"Items": ["RuinousNecroWeapon[+]"],
+				"Level": 90,
+				"Primary": false,
+				"Skills": {
+					"Necromancy": 90
+				},
+				"Priority": 5,
+				"NoBoost": true
 			},
 			"Make a ~|Milestone cape (90)|~": {
 				"Category": ["Skillcape"],
@@ -54072,6 +54130,17 @@
 				"NoPet": true,
 				"NoBoost": true
 			},
+			"Wield a piece of ~|entropic equipment|~ in Daemonheim": {
+			    "Category": ["Daemonheim tasks"],
+			    "Tasks": {
+			        "Unlock ~|frozen floors|~": "Dungeoneering"
+			    },
+			    "Level": 99,
+			    "Primary": false,
+			    "NoPet": true,
+			    "Priority": 10000,
+				"Not F2P": true
+			},
 			"Draw a ~|Protection III|~ glyph": {
 				"Chunks": ["RitualSite[+]"],
 				"Items": ["Ectoplasm", "Powerful ghostly ink", "Greater ghostly ink"],
@@ -54185,7 +54254,7 @@
 				"Level": 21,
 				"Primary": true,
 				"Skills": {
-					"Dungeoneering": 21
+					"Dungeoneering": 41
 				},
 				"Priority": 1,
 				"NoPet": true,
@@ -54229,7 +54298,7 @@
 				"Level": 30,
 				"Primary": false,
 				"Skills": {
-					"Dungeoneering": 30
+					"Dungeoneering": 21
 				},
 				"Priority": 1,
 				"NoPet": true,
@@ -54422,7 +54491,7 @@
 				"Level": 60,
 				"Primary": false,
 				"Skills": {
-					"Dungeoneering": 60
+					"Dungeoneering": 41
 				},
 				"Priority": 6,
 				"NoPet": true,
@@ -54877,7 +54946,7 @@
 				"Level": 90,
 				"Primary": false,
 				"Skills": {
-					"Dungeoneering": 90
+					"Dungeoneering": 60
 				},
 				"Priority": 5,
 				"NoPet": true,
@@ -56871,7 +56940,7 @@
 				"Level": 30,
 				"Primary": false,
 				"Skills": {
-					"Dungeoneering": 30
+					"Dungeoneering": 21
 				},
 				"Priority": 17,
 				"NoPet": true,
@@ -57398,6 +57467,9 @@
 				"Items": ["Farsight snap shot necklace"],
 				"Level": 50,
 				"Primary": false,
+				"Skills": {
+					"Dungeoneering": 41
+				},
 				"Priority": 27,
 				"NoPet": true,
 				"NoBoost": true
@@ -57514,12 +57586,12 @@
 				"NoBoost": true,
 				"Not F2P": true
 			},
-			"Wield a ~|gravite chargebow|~": {
-				"Items": ["Gravite chargebow"],
+			"Wield a ~|gravite ranged weapon|~": {
+				"Items": ["GraviteRangedWeapon[+]"],
 				"Level": 55,
 				"Primary": false,
 				"Skills": {
-					"Dungeoneering": 45
+					"Dungeoneering": 35
 				},
 				"Priority": 1,
 				"NoPet": true,
@@ -58129,7 +58201,7 @@
 				"Primary": false,
 				"Skills": {
 					"Defence": 73,
-					"Dungeoneering": 73
+					"Dungeoneering": 60
 				},
 				"Priority": 1,
 				"NoPet": true,
@@ -58280,26 +58352,14 @@
 				"NoBoost": true,
 				"Not F2P": true
 			},
-			"Wield a ~|chaotic crossbow|~": {
-				"Items": ["Chaotic crossbow"],
+			"Wield a ~|chaotic ranged weapon|~": {
+				"Items": ["ChaoticRangedWeapon[+]"],
 				"Level": 80,
 				"Skills": {
-					"Dungeoneering": 80
+					"Dungeoneering": 60
 				},
 				"Primary": false,
 				"Priority": 4,
-				"NoPet": true,
-				"NoBoost": true,
-				"Not F2P": true
-			},
-			"Wield an ~|off-hand chaotic crossbow|~": {
-				"Items": ["Off-hand chaotic crossbow"],
-				"Level": 80,
-				"Skills": {
-					"Dungeoneering": 80
-				},
-				"Primary": false,
-				"Priority": 5,
 				"NoPet": true,
 				"NoBoost": true,
 				"Not F2P": true
@@ -58374,7 +58434,7 @@
 				"Level": 80,
 				"Primary": false,
 				"Skills": {
-					"Dungeoneering": 70
+					"Dungeoneering": 60
 				},
 				"Priority": 12,
 				"NoPet": true,
@@ -58809,6 +58869,16 @@
 				"NoPet": true,
 				"NoBoost": true,
 				"Not F2P": true
+			},
+			"Wield a ~|ruinous ranged weapon|~": {
+				"Items": ["RuinousRangedWeapon[+]"],
+				"Level": 90,
+				"Primary": false,
+				"Skills": {
+					"Dungeoneering": 90
+				},
+				"Priority": 22,
+				"NoBoost": true
 			},
 			"Make a ~|Milestone cape (90)|~": {
 				"Category": ["Skillcape"],
@@ -59468,16 +59538,6 @@
 				"Priority": 4,
 				"Not F2P": true
 			},
-			"Wield a ~|magical blastbox|~": {
-				"Items": ["Magical blastbox"],
-				"Level": 30,
-				"Primary": false,
-				"Skills": {
-					"Dungeoneering": 30,
-					"Magic": 30
-				},
-				"Priority": 1
-			},
 			"Wear ~|earth runecrafting gloves|~": {
 				"Items": ["Earth runecrafting gloves"],
 				"Level": 30,
@@ -59853,17 +59913,6 @@
 				"Level": 80,
 				"Primary": false,
 				"Priority": 1,
-				"Not F2P": true
-			},
-			"Create the ~|infinity ethereal outfit|~": {
-				"Objects": ["Inventor's workbench"],
-				"Level": 80,
-				"Skills": {
-					"Invention": 20
-				},
-				"Primary": false,
-				"Output": "EtherealOutfit",
-				"Priority": 2,
 				"Not F2P": true
 			},
 			"Create the ~|Ur-Glacor's Adornment|~": {
@@ -65213,7 +65262,7 @@
 				"Priority": 101,
 				"Partial": true
 			},
-			"Unlock the ~|tetsu|~ scrolls in the Waiko Reward Store": {
+			"Unlock the ~|tetsu|~ scrolls in the Ports Reward Shop": {
 				"Category": ["Timegated"],
 				"Chunks": ["15134", "Player-Owned Port"],
 				"Level": 90,
@@ -68563,7 +68612,7 @@
 			"Obtain a ~|sneakerpeeper spawn|~": {
 				"Category": ["Pets"],
 				"Level": 80,
-				"NPCs": ["Rewards trader"],
+				"NPCs": ["Marmaros the rewards trader"],
 				"Primary": false,
 				"Skills": {
 					"Dungeoneering": 80
@@ -68763,7 +68812,7 @@
 				"Items": ["Charming imp"],
 				"Level": 21,
 				"Skills": {
-					"Dungeoneering": 21
+					"Dungeoneering": 41
 				},
 				"Primary": false,
 				"Priority": 1,
@@ -68827,7 +68876,7 @@
 			"Obtain a ~|Frosty|~ pet": {
 				"Category": ["Pets"],
 				"Level": 99,
-				"NPCs": ["Rewards trader"],
+				"NPCs": ["Marmaros the rewards trader"],
 				"Primary": false,
 				"Skills": {
 					"Dungeoneering": 85
@@ -69929,16 +69978,6 @@
 				"Output": "Hero",
 				"Primary": true,
 				"Priority": 1
-			},
-			"Create the ~|master camouflage outfit|~": {
-				"Objects": ["Inventor's workbench"],
-				"Level": 80,
-				"Skills": {
-					"Invention": 20
-				},
-				"Primary": false,
-				"Output": "CamouflageOutfit",
-				"Priority": 1000
 			},
 			"Pickpocket a ~|trainee archaeologist|~ for quadruple loot": {
 				"Category": ["Multiple Agility"],
@@ -71068,16 +71107,6 @@
 				"Output": "Perfect eternal magic branch",
 				"Priority": 1,
 				"NoBoost": true
-			},
-			"Create the ~|nature's sentinel outfit|~": {
-				"Objects": ["Inventor's workbench"],
-				"Level": 80,
-				"Skills": {
-					"Invention": 20
-				},
-				"Primary": false,
-				"Output": "SentinelOutfit",
-				"Priority": 2
 			},
 			"Equip a ~|superior tree-shaking scrimshaw|~": {
 				"Items": ["Superior tree-shaking scrimshaw"],
@@ -74619,7 +74648,7 @@
 			"~|Buyers and Cellars|~ 1": {
 				"BaseQuest": "Buyers and Cellars",
 				"Description": "Speak to Daren Lightfinger in the Thieves' Guild",
-				"Chunks": ["Thieves' Guild Start"],
+				"Chunks": ["Thieves' Guild"],
 				"Skills": {
 					"Thieving": 5
 				},
@@ -74648,7 +74677,7 @@
 			"~|Buyers and Cellars|~ 4": {
 				"BaseQuest": "Buyers and Cellars",
 				"Description": "Report back to Darren Lightfinger",
-				"Chunks": ["Thieves' Guild Start"],
+				"Chunks": ["Thieves' Guild"],
 				"Tasks": {
 					"~|Buyers and Cellars|~ 3": "Quest"
 				},
@@ -74656,7 +74685,7 @@
 			},
 			"~|Buyers and Cellars|~ Complete the quest": {
 				"BaseQuest": "Buyers and Cellars",
-				"Chunks": ["Thieves' Guild Start"],
+				"Chunks": ["Thieves' Guild"],
 				"Tasks": {
 					"~|Buyers and Cellars|~ 4": "Quest"
 				},
@@ -83283,7 +83312,7 @@
 			"~|From Tiny Acorns (miniquest)|~ 1": {
 				"BaseQuest": "From Tiny Acorns (miniquest)",
 				"Description": "Speak to Darren Lightfinger in the Thieves' Guild",
-				"Chunks": ["Thieves' Guild Start"],
+				"Chunks": ["Thieves' Guild"],
 				"Tasks": {
 					"~|Buyers and Cellars|~ Complete the quest": "Quest"
 				},
@@ -83305,7 +83334,7 @@
 			"~|From Tiny Acorns (miniquest)|~ 3": {
 				"BaseQuest": "From Tiny Acorns (miniquest)",
 				"Description": "Return to Darren Lightfinger",
-				"Chunks": ["Thieves' Guild Start"],
+				"Chunks": ["Thieves' Guild"],
 				"Tasks": {
 					"~|From Tiny Acorns (miniquest)|~ 2": "Quest"
 				},
@@ -83313,7 +83342,7 @@
 			},
 			"~|From Tiny Acorns (miniquest)|~ Complete the miniquest": {
 				"BaseQuest": "From Tiny Acorns (miniquest)",
-				"Chunks": ["Thieves' Guild Start"],
+				"Chunks": ["Thieves' Guild"],
 				"Tasks": {
 					"~|From Tiny Acorns (miniquest)|~ 3": "Quest"
 				},
@@ -85264,7 +85293,7 @@
 			"~|Grim Tales|~ 2b2": {
 				"BaseQuest": "Grim Tales",
 				"Description": "Enter the mouse hole and retrieve the pendant",
-				"Chunks": ["11572-1", "Mouse Hole", "Witch's House Underground"],
+				"Chunks": ["11572-1", "Mouse Hole", "Witch's House#Cellar"],
 				"Items": ["Clean tarromin", "Leather gloves", "Vial of water"],
 				"Tasks": {
 					"~|Grim Tales|~ 2b1": "Quest"
@@ -85331,7 +85360,7 @@
 			"~|A Guild of Our Own (miniquest)|~ 1": {
 				"BaseQuest": "A Guild of Our Own (miniquest)",
 				"Description": "Speak to Darren Lightfinger in the Thieves' Guild",
-				"Chunks": ["Thieves' Guild after Caper 2"],
+				"Chunks": ["Thieves' Guild"],
 				"Tasks": {
 					"~|Lost Her Marbles (miniquest)|~ Complete the miniquest": "Quest",
 					"~|The Feud|~ 7": "Quest"
@@ -85347,7 +85376,7 @@
 			"~|A Guild of Our Own (miniquest)|~ 2": {
 				"BaseQuest": "A Guild of Our Own (miniquest)",
 				"Description": "Make a vial of stench and have Chief Thief Robin activate it",
-				"Chunks": ["Thieves' Guild after Caper 2"],
+				"Chunks": ["Thieves' Guild"],
 				"Items": ["Chopped onion", "Irit potion (unfinished)"],
 				"Tasks": {
 					"~|A Guild of Our Own (miniquest)|~ 1": "Quest"
@@ -85367,7 +85396,7 @@
 			"~|A Guild of Our Own (miniquest)|~ 4": {
 				"BaseQuest": "A Guild of Our Own (miniquest)",
 				"Description": "Return to Darren Lightfinger",
-				"Chunks": ["Thieves' Guild after Caper 2"],
+				"Chunks": ["Thieves' Guild"],
 				"Tasks": {
 					"~|A Guild of Our Own (miniquest)|~ 3": "Quest"
 				},
@@ -89591,7 +89620,7 @@
 			"~|Lost Her Marbles (miniquest)|~ 1": {
 				"BaseQuest": "Lost Her Marbles (miniquest)",
 				"Description": "Speak to Daren Lightfinger in the Thieves' Guild",
-				"Chunks": ["Thieves' Guild after Caper 1"],
+				"Chunks": ["Thieves' Guild"],
 				"Tasks": {
 					"~|From Tiny Acorns (miniquest)|~ Complete the miniquest": "Quest"
 				},
@@ -89604,7 +89633,7 @@
 			"~|Lost Her Marbles (miniquest)|~ 2": {
 				"BaseQuest": "Lost Her Marbles (miniquest)",
 				"Description": "Collect 32 flame fragments and return to Darren Lightfinger",
-				"Chunks": ["Thieves' Guild after Caper 1"],
+				"Chunks": ["Thieves' Guild"],
 				"Tasks": {
 					"~|Lost Her Marbles (miniquest)|~ 1": "Quest",
 					"LostHerMarblesTargets[+]x6": "Nonskill"
@@ -100745,7 +100774,8 @@
 				"Description": "Speak to Lady Grey",
 				"Chunks": ["City of Um"],
 				"Tasks": {
-					"~|Necromancy!|~ Complete the quest": "Quest"
+					"~|Necromancy!|~ Complete the quest": "Quest",
+					"~|The Blood Pact|~ Complete the quest": "Quest"
 				},
 				"Skills": {
 					"Necromancy": 32
@@ -104165,7 +104195,7 @@
 			"~|Witch's House|~ 2": {
 				"BaseQuest": "Witch's House",
 				"Description": "Obtain the magnet",
-				"Chunks": ["Witch's House Underground"],
+				"Chunks": ["Witch's House#Cellar"],
 				"Items": ["Leather gloves"],
 				"Tasks": {
 					"~|Witch's House|~ 1": "Quest"
@@ -107442,7 +107472,7 @@
 				"RuneScore": 5
 			},
 			"~|Daemonheim Achievements#Easy|~ It's Dangerous to go Alone": {
-				"Description": "Complete a medium coplexity 6 dungeon.",
+				"Description": "Complete a medium, high coplexity dungeon.",
 				"Tasks": {
 					"Unlock ~|frozen floors|~": "Dungeoneering"
 				},
@@ -107634,7 +107664,7 @@
 				"RuneScore": 10
 			},
 			"~|Daemonheim Achievements#Medium|~ I Want It All": {
-				"Description": "Gain the Beast Mode title on a complexity 6 floor solo.",
+				"Description": "Gain the Beast Mode title on a high complexity floor solo.",
 				"Tasks": {
 					"~|Daemonheim Achievements#Easy|~ Complete the Easy Achievements": "Diary",
 					"Unlock ~|frozen floors|~": "Dungeoneering"
@@ -107644,7 +107674,7 @@
 				"RuneScore": 10
 			},
 			"~|Daemonheim Achievements#Medium|~ And I Want It Now": {
-				"Description": "Complete a complexity 6 floor solo in under 6 minutes.",
+				"Description": "Complete a high complexity floor solo in under 6 minutes.",
 				"Tasks": {
 					"~|Daemonheim Achievements#Easy|~ Complete the Easy Achievements": "Diary",
 					"Unlock ~|frozen floors|~": "Dungeoneering"
@@ -113666,15 +113696,16 @@
 				"RuneScore": 25
 			},
 			"~|Tirannwn Achievements#Elite|~ Ace of Dungeons": {
-				"Description": "Complete a Daemonheim dungeon while you have one of the gorajo cards active.",
+				"Description": "Talk to the gorajo hoardstalker while under the influence of a perfect dungeoneering juju potion.",
 				"Chunks": ["Gorajo resource dungeon"],
+				"Items": ["Zamorak's favour (3)", "Harmony moss"],
 				"Skills": {
-					"Dungeoneering": 95
+					"Dungeoneering": 95,
+					"Herblore": 91
 				},
 				"Tasks": {
 					"~|Tirannwn Achievements#Hard|~ Complete the Hard Achievements": "Diary",
-					"~|Plague's End|~ Complete the quest": "Quest",
-					"Unlock ~|frozen floors|~": "Dungeoneering"
+					"~|Plague's End|~ Complete the quest": "Quest"
 				},
 				"BaseQuest": "Tirannwn Achievements",
 				"Category": ["Show Diary Tasks"],
@@ -121663,7 +121694,7 @@
 				"Category": ["MQC achievements"],
 				"Description": "Claim Thieving XP after 'Buyers and Cellars'.",
 				"BaseQuest": "Completionist achievements",
-				"Chunks": ["Thieves' Guild Start"],
+				"Chunks": ["Thieves' Guild"],
 				"Skills": {
 					"Thieving": 62
 				},
@@ -127910,8 +127941,8 @@
 					"Scroll of proficiency",
 					"Scroll of quick teleportation",
 					"Scroll of efficiency",
-					"Scroll of Daemonheim",
-					"Scroll of dexterity"
+					"Scroll of dexterity",
+					"Scroll of restoration"
 				],
 				"RuneScore": 20,
 				"Not F2P": true
@@ -130624,6 +130655,15 @@
 				"RuneScore": 75,
 				"NoBoost": true
 			},
+			"~|Skills achievements#Dungeoneering|~ Dungeon Necromancer": {
+				"Category": ["Misc achievements"],
+				"Description": "Fully upgrade the necromancy roles on your ring of kinship.",
+				"BaseQuest": "Skills achievements",
+				"Chunks": ["13625"],
+				"Items": ["Dungeoneering token"],
+				"RuneScore": 20,
+				"Not F2P": true
+			},
 			"~|Skills achievements#Dungeoneering|~ Dungeon Mage": {
 				"Category": ["Misc achievements"],
 				"Description": "Fully upgrade the magic roles on your ring of kinship.",
@@ -130649,6 +130689,7 @@
 				"Chunks": ["13625"],
 				"Items": ["Dungeoneering token"],
 				"Tasks": {
+					"~|Skills achievements#Dungeoneering|~ Dungeon Necromancer": "Diary",
 					"~|Skills achievements#Dungeoneering|~ Dungeon Mage": "Diary",
 					"~|Skills achievements#Dungeoneering|~ Dungeon Ranger": "Diary",
 					"~|Skills achievements#Dungeoneering|~ Dungeon Skiller": "Diary",
@@ -132352,7 +132393,7 @@
 				"Category": ["Misc achievements"],
 				"Description": "Cleanse the Gate of Elidinis 100 times.",
 				"BaseQuest": "Skills achievements",
-				"Monsters": ["Croesus"],
+				"Monsters": ["The Gate of Elidinis"],
 				"RuneScore": 30,
 				"Not F2P": true
 			},
@@ -133939,7 +133980,7 @@
 				"Description": "Feed all the crocodiles some steak.",
 				"BaseQuest": "Exploration achievements",
 				"Chunks": ["13362-1", "13362-2", "13362-3", "13362-4"],
-				"Items": ["Cooked meat"],
+				"Items": ["Cooked meat", "Crocspeak amulet"],
 				"Skills": {
 					"Agility": 65
 				},
@@ -139179,6 +139220,11 @@
 				"Label": "Skilling Collection Log",
 				"Items": ["Jal-tok-yt"]
 			},
+			"(Dungeoneering) Obtain a ~|warped stone|~": {
+				"Category": ["Collection Log", "Skilling Collection Log"],
+				"Label": "Skilling Collection Log",
+				"Items": ["Warped stone"]
+			},
 			"(Asgarnia & Misthalin) Obtain a ~|goblin mail|~": {
 				"Category": ["Collection Log", "Slayer Collection Log"],
 				"Label": "Slayer Collection Log",
@@ -141063,6 +141109,11 @@
 				"Category": ["Collection Log", "Boss Collection Log"],
 				"Label": "Boss Collection Log",
 				"Items": ["Saradomin's hiss"]
+			},
+			"(Commander Zilyana) Obtain ~|Saradomin's hum|~": {
+				"Category": ["Collection Log", "Boss Collection Log"],
+				"Label": "Boss Collection Log",
+				"Items": ["Saradomin's hum"]
 			},
 			"(Commander Zilyana) Obtain ~|Saradomin's murmur|~": {
 				"Category": ["Collection Log", "Boss Collection Log"],
@@ -149471,6 +149522,83 @@
 				},
 				"Not F2P": true
 			},
+			"(Entropic Equipment) Obtain an ~|entropic hood|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Daemonheim"],
+				"Label": "Daemonheim Uniques",
+				"Tasks": {
+					"Unlock ~|frozen floors|~": "Dungeoneering"
+				},
+				"Requirements": {
+					"Dungeoneering": 71
+				},
+				"Not F2P": true
+			},
+			"(Entropic Equipment) Obtain an ~|entropic robe top|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Daemonheim"],
+				"Label": "Daemonheim Uniques",
+				"Tasks": {
+					"Unlock ~|frozen floors|~": "Dungeoneering"
+				},
+				"Requirements": {
+					"Dungeoneering": 107
+				},
+				"Not F2P": true
+			},
+			"(Entropic Equipment) Obtain an ~|entropic robe bottom|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Daemonheim"],
+				"Label": "Daemonheim Uniques",
+				"Tasks": {
+					"Unlock ~|frozen floors|~": "Dungeoneering"
+				},
+				"Requirements": {
+					"Dungeoneering": 59
+				},
+				"Not F2P": true
+			},
+			"(Entropic Equipment) Obtain ~|entropic gloves|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Daemonheim"],
+				"Label": "Daemonheim Uniques",
+				"Tasks": {
+					"Unlock ~|frozen floors|~": "Dungeoneering"
+				},
+				"Requirements": {
+					"Dungeoneering": 23
+				},
+				"Not F2P": true
+			},
+			"(Entropic Equipment) Obtain ~|entropic shoes|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Daemonheim"],
+				"Label": "Daemonheim Uniques",
+				"Tasks": {
+					"Unlock ~|frozen floors|~": "Dungeoneering"
+				},
+				"Requirements": {
+					"Dungeoneering": 11
+				},
+				"Not F2P": true
+			},
+			"(Entropic Equipment) Obtain an ~|entropic guard|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Daemonheim"],
+				"Label": "Daemonheim Uniques",
+				"Tasks": {
+					"Unlock ~|frozen floors|~": "Dungeoneering"
+				},
+				"Requirements": {
+					"Dungeoneering": 29
+				},
+				"Not F2P": true
+			},
+			"(Entropic Equipment) Obtain an ~|entropic lantern|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Daemonheim"],
+				"Label": "Daemonheim Uniques",
+				"Tasks": {
+					"Unlock ~|frozen floors|~": "Dungeoneering"
+				},
+				"Requirements": {
+					"Dungeoneering": 23
+				},
+				"Not F2P": true
+			},
 			"(Frozen Floors) Obtain a ~|frostbite dagger|~": {
 				"Category": ["Untracked Uniques", "Untracked Uniques Daemonheim"],
 				"Label": "Daemonheim Uniques",
@@ -151697,6 +151825,11 @@
 				"Label": "Follower Pets",
 				"Items": ["Hope Nibbler"]
 			},
+			"Unlock the ~|Ferret of Doom|~ and its color variations": {
+				"Category": ["Permanent Unlockables", "Pets"],
+				"Label": "Follower Pets",
+				"Items": ["Ferret of Doom"]
+			},
 			"Unlock ~|Micah|~": {
 				"Category": ["Permanent Unlockables", "Pets"],
 				"Label": "Follower Pets",
@@ -153768,6 +153901,11 @@
 				"Category": ["Permanent Unlockables", "Cosmetics"],
 				"Label": "Cosmetic Overrides",
 				"Items": ["Retro primal armour set"]
+			},
+			"Unlock the ~|Retro Celestial Robes Set|~": {
+				"Category": ["Permanent Unlockables", "Cosmetics"],
+				"Label": "Cosmetic Overrides",
+				"Items": ["Retro celestial robes set"]
 			},
 			"Unlock the Helmet piece of the ~|Kethsi (override)|~": {
 				"Category": ["Permanent Unlockables", "Cosmetics"],
@@ -156686,6 +156824,16 @@
 				},
 				"Set": "BIS Mattock"
 			},
+			"Obtain a ~|scroll of restoration|~": {
+				"Category": ["BIS Skilling"],
+				"Label": "BIS Skilling",
+				"Items": ["Scroll of restoration"],
+				"Requirements": {
+					"Archaeology": 44,
+					"Dungeoneering": 44
+				},
+				"Not F2P": true
+			},
 			"Obtain a ~|charming imp|~": {
 				"Category": ["BIS Skilling"],
 				"Label": "BIS Skilling",
@@ -158678,15 +158826,6 @@
 				},
 				"Set": "BIS Skillchompa"
 			},
-			"Obtain a ~|scroll of Daemonheim|~": {
-				"Category": ["BIS Skilling"],
-				"Label": "BIS Skilling",
-				"Items": ["Scroll of Daemonheim"],
-				"Requirements": {
-					"Dungeoneering": 70
-				},
-				"Not F2P": true
-			},
 			"Obtain a ~|scroll of gathering|~": {
 				"Category": ["BIS Skilling"],
 				"Label": "BIS Skilling",
@@ -160409,7 +160548,13 @@
 			"Phoenix Gang Hideout": {
 				"UnlocksArea": true
 			},
-			"Witch's House Underground": {
+			"Witch's House#Cellar": {
+				"UnlocksArea": true
+			},
+			"Witch's House#Manhole": {
+				"Tasks": {
+					"~|Grim Tales|~ 2b1": "Quest"
+				},
 				"UnlocksArea": true
 			},
 			"Grotworm Lair 1": {
@@ -160559,6 +160704,9 @@
 			},
 			"Mouse Hole": {
 				"UnlocksArea": true,
+				"Tasks": {
+					"~|Grim Tales|~ 2b1": "Quest"
+				},
 				"Not F2P": true
 			},
 			"Cosmic Rune Temple": {
@@ -160690,25 +160838,10 @@
 				},
 				"Not F2P": true
 			},
-			"Thieves' Guild Start": {
-				"UnlocksArea": true
-			},
-			"Thieves' Guild after Caper 1": {
+			"Thieves' Guild": {
 				"UnlocksArea": true,
 				"Tasks": {
-					"~|From Tiny Acorns (miniquest)|~ Complete the miniquest": "Quest"
-				}
-			},
-			"Thieves' Guild after Caper 2": {
-				"UnlocksArea": true,
-				"Tasks": {
-					"~|Lost Her Marbles (miniquest)|~ Complete the miniquest": "Quest"
-				}
-			},
-			"Thieves' Guild Complete": {
-				"UnlocksArea": true,
-				"Tasks": {
-					"~|A Guild of Our Own (miniquest)|~ Complete the miniquest": "Quest"
+					"~|Buyers and Cellars|~ Complete the quest": "Quest"
 				}
 			},
 			"Rogues' Den": {
@@ -165483,8 +165616,11 @@
 				"Not F2P": true
 			},
 			"Safecracking rewards": {
-				"Chunks": ["Thieves' Guild after Caper 2"],
+				"Chunks": ["Thieves' Guild"],
 				"Items": ["Pilfer points"],
+				"Tasks": {
+					"~|A Guild of Our Own (miniquest)|~ Complete the miniquest": "Quest"
+				},
 				"Not F2P": true
 			},
 			"Archaeology rewards": {
@@ -173358,7 +173494,7 @@
 				"ClueType": "Compass",
 				"Not F2P": true
 			},
-			"South of Daemonheim Castle. Just east of the steps south of the Rewards Trader.": {
+			"South of Daemonheim Castle. Just east of the steps south of Marmaros.": {
 				"Chunks": ["13625-1"],
 				"ClueTier": "elite",
 				"ClueType": "Compass",
@@ -176358,9 +176494,14 @@
 				"Output": "Farsight sniper necklace",
 				"Not F2P": true
 			},
-			"Create the brawler's knockout necklace": {
+			"Create a brawler's knockout necklace": {
 				"Items": ["Chaotic remnant", "Saradomin's whisper"],
 				"Output": "Brawler's knockout necklace",
+				"Not F2P": true
+			},
+			"Create an occultist's hex necklace": {
+				"Items": ["Chaotic remnant", "Saradomin's hum"],
+				"Output": "Occultist's hex necklace",
 				"Not F2P": true
 			},
 			"Fully harvest the wilderness herb patch": {
@@ -176449,7 +176590,18 @@
 				"Output": "Penguin egg"
 			},
 			"Get skulled": {
-				"Chunks": ["SkullChunks[+]"]
+				"Tasks": {
+					"Get skulled[+]": "Nonskill"
+				}
+			},
+			"Get skulled by speaking to Vala": {
+				"Chunks": ["12342-1"]
+			},
+			"Get skulled with a demonic skull": {
+				"Items": ["Demonic skull"]
+			},
+			"Obtain a warped stone": {
+				"Items": ["Warped stone"]
 			},
 			"Buy an incomplete hydrix": {
 				"Chunks": ["Death's Office"],
@@ -176809,6 +176961,9 @@
 		},
 		"57": {
 			"Name": "Hollow Hill"
+		},
+		"58": {
+			"Name": "Witch's House#Manhole"
 		},
 		"258": {
 			"Spawn": {
@@ -180868,9 +181023,6 @@
 				"9138": true,
 				"9909": true
 			},
-			"Shop": {
-				"Elite Dungeon Reward Shop": true
-			},
 			"Name": "The Arc"
 		},
 		"8369": {
@@ -181900,7 +182052,6 @@
 				"7098": true
 			},
 			"Shop": {
-				"Daemonheim Rewards": true,
 				"Meilyr Clan Store": true,
 				"Recipe Shop": true,
 				"Hefin Cathedral (shop)": true
@@ -192251,7 +192402,7 @@
 				"Winkin": 1,
 				"Cage": 4
 			},
-			"Name": "Witch's House Underground"
+			"Name": "Witch's House#Cellar"
 		},
 		"11164": {
 			"Object": {
@@ -194157,7 +194308,8 @@
 					},
 					"Connect": {
 						"9046": true,
-						"11160": true
+						"11160": true,
+						"58": true
 					}
 				},
 				"2": {
@@ -203487,8 +203639,6 @@
 						"50": true
 					},
 					"Shop": {
-						"Elite Dungeon Reward Shop": true,
-						"Elite Dungeon Reward Shop (F2P)": true,
 						"Edward's Wilderness Cape Shop": true
 					},
 					"Clue": {
@@ -204177,7 +204327,7 @@
 					},
 					"NPC": {
 						"Skaldrun": 1,
-						"Rewards trader": 1,
+						"Marmaros the rewards trader": 1,
 						"Thok, Master of Dungeoneering": 1,
 						"Estrith": 1,
 						"Wiglaf": 1,
@@ -204190,10 +204340,7 @@
 						"Trainee archaeologist#Daemonheim": 3
 					},
 					"Shop": {
-						"Elite Dungeon Reward Shop": true,
-						"Elite Dungeon Reward Shop (F2P)": true,
-						"Daemonheim Rewards": true,
-						"Daemonheim Rewards (F2P)": true
+						"Daemonheim Rewards": true
 					},
 					"Quest": {
 						"Curse of the Black Stone": "first",
@@ -209255,9 +209402,6 @@
 					"Monster": {
 						"Sotapanna": 11,
 						"Sakadagami": 3
-					},
-					"Shop": {
-						"Elite Dungeon Reward Shop": true
 					},
 					"Spawn": {
 						"Shrine Ibis": 1
@@ -217985,13 +218129,32 @@
 				"Shield of Arrav": "step"
 			}
 		},
-		"Witch's House Underground": {
+		"Witch's House#Cellar": {
 			"Object": {
 				"Cupboard": 1,
-				"Boxes": 2,
 				"Sacks": 1,
 				"Drawers": 4,
 				"Crate": 3
+			},
+			"NPC": {
+				"Cage": 4
+			},
+			"Spawn": {
+				"Leather gloves": 1
+			},
+			"Connect": {
+				"11572": true
+			},
+			"Quest": {
+				"Grim Tales": "step",
+				"Witch's House": "step"
+			}
+		},
+		"Witch's House#Manhole": {
+			"Object": {
+				"Boxes": 2,
+				"Broken cart wheel": 1,
+				"Broken experiment tube": 2
 			},
 			"Monster": {
 				"Experiment No.2": 6
@@ -218000,12 +218163,11 @@
 				"Winkin": 1,
 				"Cage": 4
 			},
+			"Spawn": {
+				"Leather gloves": 1
+			},
 			"Connect": {
 				"11572": true
-			},
-			"Quest": {
-				"Grim Tales": "step",
-				"Witch's House": "step"
 			}
 		},
 		"Grotworm Lair 1": {
@@ -219402,53 +219564,16 @@
 				"Back to the Freezer": "step"
 			}
 		},
-		"Thieves' Guild Start": {
+		"Thieves' Guild": {
             "Object": {
                 "Registry strongbox": 1,
                 "Boxes": 2,
-                "Mark 1": 1
-            },
-            "NPC": {
-                "Guildmaster Darren Lightfinger": 1,
-                "Chief Thief Robin": 1
-            },
-			"Connect": {
-				"12851": true,
-				"19036": true
-			},
-			"Quest": {
-				"Buyers and Cellars": "first",
-				"From Tiny Acorns (miniquest)": "first"
-			}
-		},
-		"Thieves' Guild after Caper 1": {
-            "Object": {
-                "Caper board": 1,
-                "Practice chest": 6,
+                "Mark 1": 1,
+				"Caper board": 1,
                 "Mark 1": 1,
                 "Mark 2": 4,
-                "Drawers": 1
-            },
-            "NPC": {
-                "Guildmaster Darren Lightfinger": 1,
-                "Chief Thief Robin": 1,
-                "Pickpocketing trainer": 1,
-                "Pickpocketing volunteer": 3,
-                "Coshing volunteer": 3,
-                "Locks and traps trainer": 1,
-                "Advanced pickpocketing trainer": 1
-            },
-			"Connect": {
-				"18522": true,
-				"18524": true
-			},
-			"Quest": {
-				"Lost Her Marbles (miniquest)": "first"
-			}
-        },
-		"Thieves' Guild after Caper 2": {	
-			"Object": {
-                "Safe": 1,
+                "Drawers": 1,
+				"Safe": 1,
                 "Caper board": 1,
                 "Practice chest": 9,
                 "Mark 1": 1,
@@ -219463,52 +219588,25 @@
                 "Pickpocketing volunteer": 3,
                 "Coshing volunteer": 3,
                 "Locks and traps trainer": 1,
-                "Safe-cracking trainer": 1,
+				"Safe-cracking trainer": 1,
                 "Advanced pickpocketing trainer": 1,
-                "Dodgy Derek": 1
+				"Dodgy Derek": 1,
+				"Mr Pinsworth": 1
             },
-            "Shop": {
-                "Dodgy Derek's Dirty Deals": true
-            },
-			"Connect": {
-				"19034":true,
-				"19036": true
-			},
-			"Quest": {
-				"A Guild of Our Own (miniquest)": "first"
-			}
-		},
-		"Thieves' Guild Complete": {	
-			"Object": {
-                "Safe": 1,
-                "Caper board": 1,
-                "Practice chest": 9,
-                "Mark 1": 1,
-                "Mark 2": 4,
-                "Bank booth": 1,
-                "Drawers": 5,
-                "Bureau": 2
-            },
-            "NPC": {
-                "Guildmaster Darren Lightfinger": 1,
-                "Chief Thief Robin": 1,
-                "Pickpocketing trainer": 1,
-                "Pickpocketing volunteer": 3,
-                "Coshing volunteer": 3,
-                "Locks and traps trainer": 1,
-                "Safe-cracking trainer": 1,
-                "Advanced pickpocketing trainer": 1,
-                "Dodgy Derek": 1,
-                "Mr Pinsworth": 1
-            },
-            "Shop": {
+			"Shop": {
                 "Dodgy Derek's Dirty Deals": true,
 				"Dodgy Derek's Dirty Deals#Reward Shop": true
             },
 			"Connect": {
-				"18522": true
+				"12851": true
+			},
+			"Quest": {
+				"Buyers and Cellars": "first",
+				"From Tiny Acorns (miniquest)": "first",
+				"Lost Her Marbles (miniquest)": "first",
+				"A Guild of Our Own (miniquest)": "first"
 			}
-        },
+		},
 		"Rogues' Den": {
 			"Object": {
 				"Fire": 2,
@@ -228290,17 +228388,17 @@
 				"Chaos helmet",
 				"Chaos shield"
 			],
-			"ChaoticArmour[+]": [
+			"ChaoticShield[+]": [
 				"Chaotic kiteshield",
 				"Eagle-eye kiteshield",
 				"Farseer kiteshield"
 			],
-			"ChaoticMageWeapon[+]": [
+			"ChaoticMagicWeapon[+]": [
 				"Chaotic staff",
 				"Chaotic wand",
 				"Chaotic orb"
 			],
-			"ChaoticWeapon[+]": [
+			"ChaoticMeleeWeapon[+]": [
 				"Chaotic claw",
 				"Chaotic longsword",
 				"Chaotic maul",
@@ -228309,6 +228407,14 @@
 				"Off-hand chaotic claw",
 				"Off-hand chaotic longsword",
 				"Off-hand chaotic rapier"
+			],
+			"ChaoticNecroWeapon[+]": [
+				"Chaotic guard",
+				"Chaotic lantern"
+			],
+			"ChaoticRangedWeapon[+]": [
+				"Chaotic crossbow",
+				"Off-hand chaotic crossbow"
 			],
 			"ChewedBones[+]": ["Mangled bones", "Chewed bones"],
 			"Chocolate[+]": [
@@ -229137,6 +229243,7 @@
 				"Fractured stabilisation gem",
 				"Staff of Armadyl's fractured shaft"
 			],
+			"Frozen dye kit": ["Chaotic rapier frozen dye kit", "Chaotic maul frozen dye kit", "Chaotic crossbow frozen dye kit"],
 			"FruitTreeSeed[+]": ["Apple tree seed", "Banana tree seed", "Orange tree seed", "Curry tree seed", "Pineapple seed", "Papaya tree seed", "Palm tree seed", "Ciku seed", "Guarana seed", "Carambola seed"],
 			"FungalArmour[+]": [
 				"Fungal leggings",
@@ -229295,12 +229402,26 @@
 				"Wyvern crossbow",
 				"Zanik's crossbow"
 			],
-			"GraviteWeapon[+]": [
+			"GraviteMagicWeapon[+]": [
+				"Gravite staff",
+				"Gravite wand",
+				"Gravite orb"
+			],
+			"GraviteMeleeWeapon[+]": [
 				"Gravite 2h sword",
 				"Gravite longsword",
 				"Gravite rapier",
 				"Off-hand gravite longsword",
 				"Off-hand gravite rapier"
+			],
+			"GraviteNecroWeapon[+]": [
+				"Gravite guard",
+				"Gravite lantern"
+			],
+			"GraviteRangedWeapon[+]": [
+				"Gravite chargebow",
+				"Gravite knife",
+				"Off-hand gravite knife"
 			],
 			"GreaterCommunionBones[+]": ["Dragon bones", "Dagannoth bones", "Airut bones", "Ourg bones (General Graardor)", "Ourg bones", "Hardened dragon bones", "Dragonkin bones", "Spirit memento"],
 			"Greegree[+]": ["Monkey greegree", "Ninja monkey greegree (small)", "Ninja monkey greegree", "Zombie monkey greegree (small)", "Zombie monkey greegree", "Gorilla greegree", "Gorilla greegree (bearded)", "Gorilla greegree (ancient)"],
@@ -230596,6 +230717,22 @@
 				"Royal dragonhide vambraces",
 				"Royal spiky vambraces"
 			],
+			"RuinousMagicWeapon[+]": [
+				"Ruinous staff"
+			],
+			"RuinousMeleeWeapon[+]": [
+				"Ruinous rapier",
+				"Ruinous off-hand rapier",
+				"Ruinous maul"
+			],
+			"RuinousNecroWeapon[+]": [
+				"Ruinous guard",
+				"Ruinous lantern"
+			],
+			"RuinousRangedWeapon[+]": [
+				"Ruinous crossbow",
+				"Off-hand ruinous crossbow"
+			],
 			"RuneArmour[+]": [
 				"Rune armoured boots + 1",
 				"Rune armoured boots + 2",
@@ -231780,6 +231917,7 @@
 				"Ribcage piece",
 				"Skull piece"
 			],
+			"Warped dye kit": ["Chaotic rapier warped dye kit", "Chaotic maul warped dye kit", "Chaotic crossbow warped dye kit"],
 			"Warpriest[+]": [
 				"Warpriest of Armadyl boots",
 				"Warpriest of Armadyl cape",
@@ -233086,9 +233224,11 @@
 			"Cavalier[+]": "Any cavalier for the master emote clue",
 			"ClockTowerCooling[+]": "Any item used to cool the black cog during the Clock Tower quest",
 			"ChaosArmour[+]": "Any piece of elemental workshop chaos armour",
-			"ChaoticArmour[+]": "Any chaotic shield variant",
-			"ChaoticMageWeapon[+]": "Any chaotic mage weapon",
-			"ChaoticWeapon[+]": "Any chaotic melee weapon",
+			"ChaoticShield[+]": "Any chaotic shield variant",
+			"ChaoticMagicWeapon[+]": "Any chaotic magic weapon",
+			"ChaoticMeleeWeapon[+]": "Any chaotic melee weapon",
+			"ChaoticNecroWeapon[+]": "Any chaotic necromancy weapon",
+			"ChaoticRangedWeapon[+]": "Any chaotic ranged weapon",
 			"ChampionScrolls[+]": "Any champion scroll",
 			"ChewedBones[+]": "Any item that can be put into a pyre ship",
 			"Chocolate[+]": "Any cooking chocolate",
@@ -233203,6 +233343,7 @@
 			"FrogLeatherArmour[+]": "Any piece of frog-leather armour",
 			"Flowers[+]": "Any type of wieldable flowers",
 			"FlowersAll[+]": "Any type of flower",
+			"Frozen dye kit[+]": "A frozen dye kit for any chaotic weapon",
 			"FruitTreeSeed[+]": "Any fruit tree seed",
 			"FSOAWeaponPiece[+]": "Any piece of the fractured Staff of Armadyl",
 			"FungalArmour[+]": "Any piece of fungal armour",
@@ -233228,7 +233369,7 @@
             "GraniteArmour[+]": "Any piece of granite armour",
 			"GraniteWeapon[+]": "Any granite melee weapon",
 			"GrappleCrossbow[+]": "Any crossbow that can be used with a mithril grapple",
-			"GraviteWeapon[+]": "Any gravite melee weapon",
+			"GraviteMeleeWeapon[+]": "Any gravite melee weapon",
 			"GreaterCommunionBones[+]": "Any items that can be used for a greater communion ritual",
 			"Greegree[+]": "Any type of monkey greegree",
 			"GreenBlueDragonEgg[+]": "Any breedable green or blue dragon variant",
@@ -233574,6 +233715,7 @@
 			"Voidpouch[+]": "Any pouch that can be used to create a call to arms scroll",
 			"VyrePyreLogs[+]": "Any tier of pyre logs that can be used for vyre cremation",
             "WallasalkiFocus[+]": "Any item that can be used to tune banite ore to wallasalkis",
+			"Warped dye kit[+]": "A warped dye kit for any chaotic weapon",
 			"Warpriest[+]": "Any piece of warpriest armour",
 			"Water rune[+]": "Any water rune equivalent",
 			"WateringCan[+]": "Any watering can variant",
@@ -233723,14 +233865,12 @@
 			"SeerChunk[+]": ["10806-1", "11062-1", "11061", "11317-1"],
 			"SeersVillageYews[+]": ["10806-1", "11061"],
 			"SenntistenChunks[+]": ["13364", "13365-1"],
-			"SkullChunks[+]": ["12342-1", "12343-1"],
 			"SlayerMasterChunks[+]": ["8755", "Ancient Cavern", "11310-1", "12342-1", "11575-1", "13111", "13878-1", "Zanaris", "12093", "12850-1", "16704-1"],
 			"SolusLocation[+]": ["11569-1", "10032-1", "10547-1", "12596-1", "Dorgesh-Kaan mine", "9782-1", "13623", "11057", "13106-1", "10553", "Lumbridge Swamp Caves", "11830-1", "10550", "9776", "12338-1", "9778-1", "12337-1"],
 			"SoulObelisks[+]": ["12843-1", "12586", "12587-1", "12585"],
 			"StrangeChunks[+]": ["11570", "11830-1", "12081-1", "12083-1", "12085-1", "12339", "12341-1", "12851-1", "12852", "12854", "13107-1", "13363"],
 			"TaiBwoWannaiChunks[+]": ["11056", "11055-1"],
 			"The Arc[+]": ["14884", "15140", "15139", "14883", "15649", "15905", "16161", "15391", "14878", "15134", "15390", "15133", "15389-1", "15389-2", "17694", "17693", "17950-2", "17949-2", "16923", "16924-1", "16924-2", "16924-3", "16153-1", "16153-2", "16409", "16154", "16919", "17175-1", "17175-2", "17176-1", "17176-2", "16920-1", "16920-2"],
-			"Thievesguild[+]": ["Thieves' Guild after Caper 2", "Thieves' Guild Complete"],
 			"Tirannwn[+]": ["8754-1", "8754-2", "8754-3", "8753-1", "8753-2", "8753-3", "9010-1", "9010-2", "9010-3", "9009-1", "9009-2"],
 			"VibrantOrBetterWisps[+]": ["9516", "13879", "Freneskae#The Elder Halls", "13619-1", "15159", "13097-1", "9007"],
 			"WarbandsChunks[+]": ["12088", "13114", "12347-1"],
@@ -233826,14 +233966,12 @@
 			"SenntistenChunks[+]": "Any chunk that the Dig Site pendant can teleport to",
 			"SeerChunk[+]": "Any chunk in which you can complete twisted firestarter",
 			"SeersVillageYew[+]": "Any chunk in the Seers Village area with a yew tree in",
-			"SkullChunks[+]": "Any chunk wherein you can force yourself to be skulled",
 			"SlayerMasterChunks[+]": "Any chunk with a slayer master in it",
 			"SoulObelisks[+]": "Any chunks in which a soul obelisk spawns",
 			"SolusLocation[+]": "Any location Solus Dellagar might show up",
 			"StrangeChunks[+]": "Any chunks with strange fragments in them",
 			"TaiBwoWannaiChunks[+]": "Any chunks in which you can gain Taii Bwo Wannai favour",
 			"The Arc[+]": "Any chunks in The Arc",
-			"Thievesguild[+]": "Any chunk that is part of the thieves' guild",
 			"Tirannwn[+]": "Any chunk that is part of the Tirannwn woods",
 			"VibrantOrBetterWisps[+]": "Any chunk that has a vibrant wisp colony or better in it",
 			"WarbandsChunks[+]": "Any chunks with warbands in them",
@@ -234835,7 +234973,7 @@
 				"Wield an ~|attuned crystal wand|~", 
 				"Wield an ~|attuned crystal staff|~", 
 				"Wield a ~|second-age staff|~", 
-				"Wield a ~|chaotic mage weapon|~", 
+				"Wield a ~|chaotic magic weapon|~", 
 				"Wield a ~|Virtus book|~", 
 				"Wield a ~|Virtus wand|~", 
 				"Wield ~|Sunspear (magic)|~",
@@ -234867,7 +235005,7 @@
 				"Wield a ~|Zamorak staff|~", 
 				"Wield a ~|dragon battlestaff|~", 
 				"Wield a ~|teacher wand|~", 
-				"Wield a ~|gravite mage weapon|~", 
+				"Wield a ~|gravite magic weapon|~", 
 				"Wield a ~|nature staff|~", 
 				"Wield a ~|apprentice wand|~", 
 				"Wield a ~|sacred clay staff|~", 
@@ -235139,7 +235277,8 @@
 				"Harvest a ~|radiant wisp|~",
 				"Harvest a ~|luminous wisp|~",
 				"Harvest an ~|incandescent wisp|~"
-			]
+			],
+			"Get skulled[+]": ["Get skulled by speaking to Vala", "Get skulled with a demonic skull"]
 		},
 		"tasksPlusNames": {
 			"A Taste of the Exotic[+]": "Any subtasks for A Taste of the Exotic",
@@ -244142,6 +244281,9 @@
 			"Saradomin's whisper": {
 				"1": "1/40960"
 			},
+			"Saradomin's hum": {
+				"1": "1/40960"
+			},
 			"Godsword shard 1": {
 				"1": "1/1536"
 			},
@@ -247151,22 +247293,25 @@
 				"19500-20000": "31/512"
 			},
 			"Saradomin sword": {
-				"1": "1/320"
+				"1": "1/384"
 			},
 			"Armadyl crossbow": {
-				"1": "1/640"
+				"1": "1/768"
 			},
 			"Off-hand Armadyl crossbow": {
-				"1": "1/640"
+				"1": "1/768"
 			},
 			"Saradomin's murmur": {
-				"1": "1/320"
+				"1": "1/384"
 			},
 			"Saradomin's hiss": {
-				"1": "1/320"
+				"1": "1/384"
 			},
 			"Saradomin's whisper": {
-				"1": "1/320"
+				"1": "1/384"
+			},
+			"Saradomin's hum": {
+				"1": "1/384"
 			},
 			"Godsword shard 1": {
 				"1": "1/768"
@@ -247240,22 +247385,25 @@
 				"1": "Always"
 			},
 			"Saradomin sword": {
-				"1": "1/320"
+				"1": "1/384"
 			},
 			"Armadyl crossbow": {
-				"1": "1/640"
+				"1": "1/768"
 			},
 			"Off-hand Armadyl crossbow": {
-				"1": "1/640"
+				"1": "1/768"
 			},
 			"Saradomin's murmur": {
-				"1": "1/320"
+				"1": "1/384"
 			},
 			"Saradomin's hiss": {
-				"1": "1/320"
+				"1": "1/384"
 			},
 			"Saradomin's whisper": {
-				"1": "1/320"
+				"1": "1/384"
+			},
+			"Saradomin's hum": {
+				"1": "1/384"
 			},
 			"Godsword shard 1": {
 				"1": "1/768"
@@ -260152,6 +260300,9 @@
 				"1": "1/40960"
 			},
 			"Saradomin's whisper": {
+				"1": "1/40960"
+			},
+			"Saradomin's hum": {
 				"1": "1/40960"
 			},
 			"Godsword shard 1": {
@@ -281016,6 +281167,9 @@
 			"Saradomin's whisper": {
 				"1": "1/40960"
 			},
+			"Saradomin's hum": {
+				"1": "1/40960"
+			},
 			"Godsword shard 1": {
 				"1": "1/1536"
 			},
@@ -291502,7 +291656,7 @@
 		"Bringing Home the Bacon": "12083, Falador Farm storm cellar, 12338, 12082, 12850, 12853, 11828, 10547",
 		"The Brink of Extinction": "TzHaar City, Fight Kiln, Fight Cauldron",
 		"Broken Home": "13366",
-		"Buyers and Cellars": "Thieves' Guild Start, 12850, 12849",
+		"Buyers and Cellars": "Thieves' Guild, 12850, 12849",
 		"Cabin Fever": "14646, 14902, 14638",
 		"Call of the Ancestors": "12335, Mazcab",
 		"Carnillean Rising": "10291, Claus' Kitchen",
@@ -291592,7 +291746,7 @@
 		"Gower Quest": "12852, Dwarven Mine",
 		"The Grand Tree": "9782, 10544, 11823, 9526, Grand Tree Mine",
 		"The Great Brain Robbery": "14638, 15148, 12086, 14135, 13878",
-		"Grim Tales": "11572, 11318, 11830, Mouse Hole, Witch's House Underground",
+		"Grim Tales": "11572, 11318, 11830, Mouse Hole, Witch's House#Cellar",
 		"Gunnar's Ground": "12341, 12342",
 		"The Hand in the Sand": "10032, 10288, 11057, 11316",
 		"Haunted Mine": "13618, Abandoned Mine",
@@ -291771,7 +291925,7 @@
 		"What Lies Below": "13108, 12342, 12854, Chaos Rune Temple, 12853",
 		"What's Mine is Yours": "11829, Dwarven Mine, 11826, 13108, 12596, 12084, 11828",
 		"While Guthix Sleeps": "10804, 11573, 12854, 10029, 10289, 10034, Movario's base, 10550, 10806, 11828, 12338, 12082, 11310, 10544, 11575, 13878, 11319, 12087, Black Knights' catacombs, 11579, 11835, Tears of Guthix cavern, Ancient Guthix Temple",
-		"Witch's House": "11572, Witch's House Underground",
+		"Witch's House": "11572, Witch's House#Cellar",
 		"Within the Light": "9265, Mourner MQ, Mourner Tunnels & Temple of Light, Death Rune Temple",
 		"Wiz Kid": "16947, 12337",
 		"Wolf Whistle": "11573, 11318, Taverley Well Cave",
@@ -291805,11 +291959,11 @@
 		"Final Destination (miniquest)": "17694, 17693, 17950",
 		"Finding Tali": "16948, 17206",
 		"Flag Fall (miniquest)": "15134",
-		"From Tiny Acorns (miniquest)": "Thieves' Guild Start, 12853",
+		"From Tiny Acorns (miniquest)": "Thieves' Guild, 12853",
 		"Fur 'n Seek#Wish List": "13366",
 		"The General's Shadow (miniquest)": "10808, 10806, 11311, 9780, 12340, 13104, Goblin Cave",
 		"Ghosts from the Past (miniquest)": "16923, 16924",
-		"A Guild of Our Own (miniquest)": "Thieves' Guild after Caper 2, 10547, 12851",
+		"A Guild of Our Own (miniquest)": "Thieves' Guild, 10547, 12851",
 		"Harbinger (miniquest)": "16919, 14884",
 		"Head of the Family (miniquest)": "15390, 16154, 15389, 15134, 15649, 16153",
 		"Helping Laniakea (miniquest)": "15939, 15425, 15935, 16703, 15683, 16708, 16453, 15172",
@@ -291819,7 +291973,7 @@
 		"Jed Hunter (miniquest)": "15135, 15389, 15134, 15649",
 		"Koschei's Troubles (miniquest)": "10553, 10552",
 		"Lair of Tarn Razorlor (miniquest)": "Lair of Tarn Razorlor (dungeon)",
-		"Lost Her Marbles (miniquest)": "Thieves' Guild after Caper 1, 12851",
+		"Lost Her Marbles (miniquest)": "Thieves' Guild, 12851",
 		"The Lost Toys (miniquest)": "13878, 13622, 14390, Araxyte lair, Paterdomus, 13877, Burgh de Rott Myreque Hideout, Meiyerditch Laboratories, Meiyerditch Mine, 14132, Cave (Burgh de Rott), 14641",
 		"The Lute of Love": "16690-1, 16692",
 		"Mahjarrat Memories (miniquest)": "10553, VibrantOrBetterWisps[+], Enakhra's Temple, Jaldraocht Pyramid, 13626, Southern Ardougne Sewer, Erjolf's cave, Lamistard's Tunnels, 12342, Senntisten Temple, 11580, 11581, Empyrean Citadel, 13613, Chaos Temple Dungeon",
@@ -293620,6 +293774,309 @@
 			}],
 			"Imcando hatchet fragment^": [{
 				"Build the tier 3 ~|Grove Cabin|~": "Construction"
+			}],
+			"Gem bag (upgraded)^": [{
+				"Members only": "Nonskill"
+			}],
+			"Bonecrusher^": [{
+				"Members only": "Nonskill"
+			}],
+			"Herbicide^": [{
+				"Members only": "Nonskill"
+			}],
+			"Charming imp^": [{
+				"Members only": "Nonskill"
+			}],
+			"Anti-poison totem^": [{
+				"Members only": "Nonskill"
+			}],
+			"Gold accumulator^": [{
+				"Members only": "Nonskill"
+			}],
+			"Advanced gold accumulator^": [{
+				"Members only": "Nonskill"
+			}],
+			"Advanced smithing autoheater^": [{
+				"Members only": "Nonskill"
+			}],
+			"Wild card^": [{
+				"Members only": "Nonskill"
+			}],
+			"Scroll of gathering^": [{
+				"Members only": "Nonskill"
+			}],
+			"Notepaper blueprint^": [{
+				"Members only": "Nonskill"
+			}],
+			"Elite Dungeoneering outfit blueprint^": [{
+				"Members only": "Nonskill"
+			}],
+			"Scrimshaw of aggression+ scroll^": [{
+				"Members only": "Nonskill"
+			}],
+			"Scrimshaw of sacrifice+ scroll^": [{
+				"Members only": "Nonskill"
+			}],
+			"Scrimshaw of corruption+ scroll^": [{
+				"Members only": "Nonskill"
+			}],
+			"Recipe: Black stone arrows^": [{
+				"Members only": "Nonskill"
+			}],
+			"Elite dungeon chest upgrade^": [{
+				"Members only": "Nonskill"
+			}],
+			"Scroll of life^": [{
+				"Members only": "Nonskill"
+			}],
+			"Scroll of restoration^": [{
+				"Members only": "Nonskill"
+			}],
+			"Scroll of cleansing^": [{
+				"Members only": "Nonskill"
+			}],
+			"Scroll of efficiency^": [{
+				"Members only": "Nonskill"
+			}],
+			"Scroll of proficiency^": [{
+				"Members only": "Nonskill"
+			}],
+			"Scroll of dexterity^": [{
+				"Members only": "Nonskill"
+			}],
+			"Scroll of quick teleportation^": [{
+				"Members only": "Nonskill"
+			}],
+			"Scroll of renewal^": [{
+				"Members only": "Nonskill"
+			}],
+			"Demon Slayer ability codex blueprint^": [{
+				"Members only": "Nonskill"
+			}],
+			"Dragon Slayer ability codex blueprint^": [{
+				"Members only": "Nonskill"
+			}],
+			"Undead Slayer ability codex blueprint^": [{
+				"Members only": "Nonskill"
+			}],
+			"Occultist's undead neckalace^": [{
+				"Members only": "Nonskill"
+			}],
+			"Twisted bird skull necklace^": [{
+				"Members only": "Nonskill"
+			}],
+			"Amulet of zealots^": [{
+				"Members only": "Nonskill"
+			}],
+			"Occultist's revival necklace^": [{
+				"Members only": "Nonskill"
+			}],
+			"Split dragontooth necklace^": [{
+				"Members only": "Nonskill"
+			}],
+			"Demon horn necklace^": [{
+				"Members only": "Nonskill"
+			}],
+			"Spirit cape^": [{
+				"Members only": "Nonskill"
+			}],
+			"Ring of vigour^": [{
+				"Members only": "Nonskill"
+			}],
+			"Mercenary's gloves^": [{
+				"Members only": "Nonskill"
+			}],
+			"Chaotic rapier^": [{
+				"Members only": "Nonskill"
+			}],
+			"Off-hand chaotic rapier^": [{
+				"Members only": "Nonskill"
+			}],
+			"Chaotic longsword^": [{
+				"Members only": "Nonskill"
+			}],
+			"Off-hand chaotic longsword^": [{
+				"Members only": "Nonskill"
+			}],
+			"Chaotic maul^": [{
+				"Members only": "Nonskill"
+			}],
+			"Chaotic staff^": [{
+				"Members only": "Nonskill"
+			}],
+			"Chaotic crossbow^": [{
+				"Members only": "Nonskill"
+			}],
+			"Off-hand chaotic crossbow^": [{
+				"Members only": "Nonskill"
+			}],
+			"Chaotic guard^": [{
+				"Members only": "Nonskill"
+			}],
+			"Chaotic lantern^": [{
+				"Members only": "Nonskill"
+			}],
+			"Chaotic kiteshield^": [{
+				"Members only": "Nonskill"
+			}],
+			"Eagle-eye kiteshield^": [{
+				"Members only": "Nonskill"
+			}],
+			"Farseer kiteshield^": [{
+				"Members only": "Nonskill"
+			}],
+			"Ruinous guard^": [{
+				"Obtain a warped stone": "Nonskill"
+			}],
+			"Ruinous lantern^": [{
+				"Obtain a warped stone": "Nonskill"
+			}],
+			"Ruinous rapier^": [{
+				"Obtain a warped stone": "Nonskill"
+			}],
+			"Ruinous off-hand rapier^": [{
+				"Obtain a warped stone": "Nonskill"
+			}],
+			"Ruinous maul^": [{
+				"Obtain a warped stone": "Nonskill"
+			}],
+			"Ruinous staff^": [{
+				"Obtain a warped stone": "Nonskill"
+			}],
+			"Ruinous crossbow^": [{
+				"Obtain a warped stone": "Nonskill"
+			}],
+			"Ruinous off-hand crossbow^": [{
+				"Obtain a warped stone": "Nonskill"
+			}],
+			"Ferret pet (blue)^": [{
+				"Members only": "Nonskill"
+			}],
+			"Ferret pet (green)^": [{
+				"Members only": "Nonskill"
+			}],
+			"Ferret pet (yellow)^": [{
+				"Members only": "Nonskill"
+			}],
+			"Ferret pet (orange)^": [{
+				"Members only": "Nonskill"
+			}],
+			"Ferret pet (red)^": [{
+				"Members only": "Nonskill"
+			}],
+			"Retro primal armour set^": [{
+				"Members only": "Nonskill"
+			}],
+			"Retro celestial robes^": [{
+				"Members only": "Nonskill"
+			}],
+			"Micah^": [{
+				"Members only": "Nonskill"
+			}],
+			"Tetch^": [{
+				"Members only": "Nonskill"
+			}],
+			"Acolyte of Seiryu headdress^": [{
+				"Members only": "Nonskill"
+			}],
+			"Acolyte of Seiryu jacket^": [{
+				"Members only": "Nonskill"
+			}],
+			"Acolyte of Seiryu trousers^": [{
+				"Members only": "Nonskill"
+			}],
+			"Acolyte of Seiryu handwraps^": [{
+				"Members only": "Nonskill"
+			}],
+			"Acolyte of Seiryu footwraps^": [{
+				"Members only": "Nonskill"
+			}],
+			"Sakadagami headdress^": [{
+				"Members only": "Nonskill"
+			}],
+			"Sakadagami jacket^": [{
+				"Members only": "Nonskill"
+			}],
+			"Sakadagami trousers^": [{
+				"Members only": "Nonskill"
+			}],
+			"Sakadagami handwraps^": [{
+				"Members only": "Nonskill"
+			}],
+			"Sakadagami footwraps^": [{
+				"Members only": "Nonskill"
+			}],
+			"Sneakerpeeper^": [{
+				"Members only": "Nonskill"
+			}],
+			"Frosty^": [{
+				"Members only": "Nonskill"
+			}],
+			"Mini-Blink^": [{
+				"Members only": "Nonskill"
+			}],
+			"Hope Nibbler^": [{
+				"Members only": "Nonskill"
+			}],
+			"Chaotic splint^": [{
+				"Members only": "Nonskill"
+			}],
+			"Lucky Charm (Temple of Aminishi)^": [{
+				"Members only": "Nonskill"
+			}],
+			"Lucky Charm (Dragonkin Lab)^": [{
+				"Members only": "Nonskill"
+			}],
+			"Lucky Charm (Shadow Reef)^": [{
+				"Members only": "Nonskill"
+			}],
+			"Lucky Charm (ZamorakianUndercity)^": [{
+				"Members only": "Nonskill"
+			}],
+			"Sophanem slayer dungeon drop enhancer^": [{
+				"Members only": "Nonskill"
+			}],
+			"Player-owned ports enhancer^": [{
+				"Members only": "Nonskill"
+			}],
+			"Vital spark drop enhancer^": [{
+				"Members only": "Nonskill"
+			}],
+			"Shifting tombs reward enhancer^": [{
+				"Members only": "Nonskill"
+			}],
+			"Death Lotus extract^": [{
+				"Members only": "Nonskill"
+			}],
+			"Chaotic gatestone^": [{
+				"Members only": "Nonskill"
+			}],
+			"Chaotic remnant^": [{
+				"Members only": "Nonskill"
+			}],
+			"Chaotic spike^": [{
+				"Members only": "Nonskill"
+			}],
+			"Meilyr potion recipe^": [{
+				"Members only": "Nonskill"
+			}],
+			"Chaotic rapier frozen dye kit^": [{
+				"Members only": "Nonskill"
+			}],
+			"Chaotic rapier warped dye kit^": [{
+				"Members only": "Nonskill"
+			}],
+			"Chaotic maul frozen dye kit^": [{
+				"Members only": "Nonskill"
+			}],
+			"Chaotic maul warped dye kit^": [{
+				"Members only": "Nonskill"
+			}],
+			"Chaotic crossbow frozen dye kit^": [{
+				"Members only": "Nonskill"
+			}],
+			"Chaotic crossbow warped dye kit^": [{
+				"Members only": "Nonskill"
 			}]
 		},
 		"Monsters": {
@@ -293813,11 +294270,6 @@
 					"Flash Events enabled": "Nonskill"
 				}, {
 					"Members only": "Nonskill"
-				}]
-			},
-			"Experiment No.2": {
-				"Witch's House Underground": [{
-					"~|Grim Tales|~ 2b1": "Quest"
 				}]
 			},
 			"Flesh-hatcher Mhekarnahz": {
@@ -294821,6 +295273,16 @@
 				"Zanaris": [{
 					"Access Zanaris Market": "Nonskill"
 				}]
+			},
+			"Practice chest": {
+				"Thieves' Guild": [{
+					"~|From Tiny Acorns (miniquest)|~ Complete the miniquest": "Quest"
+				}]
+			},
+			"Safe": {
+				"Thieves' Guild": [{
+					"~|Lost Her Marbles (miniquest)|~ Complete the miniquest": "Quest"
+				}]
 			}
 		},
 		"Shops": {
@@ -294874,6 +295336,11 @@
 					"Get skulled": "Nonskill"
 				}]
 			},
+			"Battle Runes": {
+				"12343-1": [{
+					"~|Enter the Abyss (miniquest)|~ Complete the quest": "Quest"
+				}]
+			},
 			"Castle Wars Ticket Exchange": {
 				"9776": [{
 					"Castle Wars rewards": "Nonskill"
@@ -294915,18 +295382,6 @@
 				}]
 			},
 			"Daemonheim Rewards": {
-				"8757": [{
-					"Access Daemonheim Rewards": "Nonskill"
-				}, {
-					"Members only": "Nonskill"
-				}],
-				"13625-1": [{
-					"Access Daemonheim Rewards": "Nonskill"
-				}, {
-					"Members only": "Nonskill"
-				}]
-			},
-			"Daemonheim Rewards (F2P)": {
 				"13625-1": [{
 					"Access Daemonheim Rewards": "Nonskill"
 				}]
@@ -294946,8 +295401,13 @@
 					"~|Monkey Madness|~ Complete the quest": "Quest"
 				}]
 			},
+			"Dodgy Derek's Dirty Deals": {
+				"Thieves' Guild": [{
+					"~|Lost Her Marbles (miniquest)|~ Complete the quest": "Quest"
+				}]
+			},
 			"Dodgy Derek's Dirty Deals#Reward Shop": {
-				"Thieves' Guild Complete": [{
+				"Thieves' Guild": [{
 					"Safecracking rewards": "Nonskill"
 				}]
 			},
@@ -294966,18 +295426,6 @@
 				}],
 				"8500": [{
 					"Construction Contracts rewards": "Nonskill"
-				}]
-			},
-			"Elite Dungeon Reward Shop": {
-				"13372-1": [{
-					"Access Daemonheim Rewards": "Nonskill"
-				}, {
-					"Members only": "Nonskill"
-				}],
-				"13625-1": [{
-					"Access Daemonheim Rewards": "Nonskill"
-				}, {
-					"Members only": "Nonskill"
 				}]
 			},
 			"Farmers' Market": {
@@ -298381,7 +298829,6 @@
 			"Advanced gold accumulator": true,
 			"Ring of vigour": true,
 			"Scroll of renewal": true,
-			"Scroll of Daemonheim": true,
 			"Mercenary's gloves": true,
 			"Chaotic splint": true,
 			"Chaotic spike": true,
@@ -298405,37 +298852,74 @@
 			"Meilyr potion recipe": true,
 			"Scroll of quick teleportation": true,
 			"Scroll of gathering": true,
-			"Retro primal armour set": true
-		},
-		"Daemonheim Rewards (F2P)": {
-			"Gem bag": true,
-			"Arcane pulse necklace": true,
-			"Farsight quick shot necklace": true,
-			"Brawler's jab necklace": true,
-			"Twisted bird skull necklace": true,
-			"Smithing autoheater": true,
-			"Shieldbow sight": true,
-			"Law staff": true,
-			"Gravite rapier": true,
-			"Off-hand gravite rapier": true,
-			"Gravite longsword": true,
-			"Off-hand gravite longsword": true,
-			"Gravite 2h sword": true,
-			"Gravite wand": true,
-			"Gravite orb": true,
-			"Gravite staff": true,
-			"Gravite knife": true,
-			"Off-hand gravite knife": true,
-			"Gravite chargebow": true,
-			"Tome of frost": true,
-			"Amulet of zealots": true,
-			"Nature staff": true,
-			"Scroll of efficiency": true,
-			"Arcane blast necklace": true,
-			"Farsight snap shot necklace": true,
-			"Brawler's hook necklace": true,
-			"Scroll of dexterity": true,
-			"Scroll of quick teleportation": true
+			"Retro primal armour set": true,
+			"Scroll of excavating": true,
+			"Occultist's undead necklace": true,
+			"Occultist's revival necklace": true,
+			"Ferret pet (blue)": true,
+			"Ferret pet (green)": true,
+			"Ferret pet (yellow)": true,
+			"Ferret pet (orange)": true,
+			"Ferret pet (red)": true,
+			"Retro celestial robes": true,
+			"Chaotic grimoire": true,
+			"Torn chaotic page": true,
+			"Gravite guard": true,
+			"Gravite lantern": true,
+			"Chaotic guard": true,
+			"Chaotic lantern": true,
+			"Ruinous guard": true,
+			"Ruinous lantern": true,
+			"Ruinous rapier": true,
+			"Ruinous off-hand rapier": true,
+			"Ruinous maul": true,
+			"Ruinous staff": true,
+			"Ruinous crossbow": true,
+			"Ruinous off-hand crossbow": true,
+			"Notepaper blueprint": true,
+			"Elite Dungeoneering outfit blueprint": true,
+			"Daemonheim skill door boost": true,
+			"Scrimshaw of aggression+ scroll": true,
+			"Scrimshaw of sacrifice+ scroll": true,
+			"Scrimshaw of corruption+ scroll": true,
+			"Recipe: Black stone arrows": true,
+			"Elite dungeon chest upgrade": true,
+			"Demon Slayer ability codex blueprint": true,
+			"Dragon Slayer ability codex blueprint": true,
+			"Undead Slayer ability codex blueprint": true,
+			"Magma golem pet": true,
+			"Crassian scuttler pet": true,
+			"Acolyte of Seiryu headdress": true,
+			"Acolyte of Seiryu jacket": true,
+			"Acolyte of Seiryu trousers": true,
+			"Acolyte of Seiryu handwraps": true,
+			"Acolyte of Seiryu footwraps": true,
+			"Sakadagami headdress": true,
+			"Sakadagami jacket": true,
+			"Sakadagami trousers": true,
+			"Sakadagami handwraps": true,
+			"Sakadagami footwraps": true,
+			"Aminishi teleport": true,
+			"Dragonkin Laboratory teleport": true,
+			"Shadow Reef teleport": true,
+			"Lucky Charm (Temple of Aminishi)": true,
+			"Lucky Charm (Dragonkin Laboratory)": true,
+			"Lucky Charm (Shadow Reef)": true,
+			"Lucky Charm (Zamorakian Undercity)": true,
+			"Sophanem slayer dungeon drop enhancer": true,
+			"Player-Owned Port enhancer": true,
+			"Vital spark drop enhancer": true,
+			"Shifting tombs reward enhancer": true,
+			"Death Lotus extract": true,
+			"Dragon trinket": true,
+			"Metallic dragon trinket": true,
+			"Micah": true,
+			"Chaotic rapier frozen dye kit": true,
+			"Chaotic rapier warped dye kit": true,
+			"Chaotic maul frozen dye kit": true,
+			"Chaotic maul warped dye kit": true,
+			"Chaotic crossbow frozen dye kit": true,
+			"Chaotic crossbow warped dye kit": true
 		},
 		"Dwarven Shopping Store": {
 			"Empty pot": true,
@@ -298478,51 +298962,6 @@
 			"Geffy": true,
 			"Leffy": true,
 			"Seffy": true
-		},
-		"Elite Dungeon Reward Shop": {
-			"Notepaper blueprint": true,
-			"Elite Dungeoneering outfit blueprint": true,
-			"Daemonheim skill door boost": true,
-			"Scrimshaw of aggression+ scroll": true,
-			"Scrimshaw of sacrifice+ scroll": true,
-			"Scrimshaw of corruption+ scroll": true,
-			"Recipe: Black stone arrows": true,
-			"Elite dungeon chest upgrade": true,
-			"Demon Slayer ability codex blueprint": true,
-			"Dragon Slayer ability codex blueprint": true,
-			"Undead Slayer ability codex blueprint": true,
-			"Magma golem pet": true,
-			"Crassian scuttler pet": true,
-			"Acolyte of Seiryu headdress": true,
-			"Acolyte of Seiryu jacket": true,
-			"Acolyte of Seiryu trousers": true,
-			"Acolyte of Seiryu handwraps": true,
-			"Acolyte of Seiryu footwraps": true,
-			"Sakadagami headdress": true,
-			"Sakadagami jacket": true,
-			"Sakadagami trousers": true,
-			"Sakadagami handwraps": true,
-			"Sakadagami footwraps": true,
-			"Aminishi teleport": true,
-			"Dragonkin Laboratory teleport": true,
-			"Shadow Reef teleport": true,
-			"Lucky Charm (Temple of Aminishi)": true,
-			"Lucky Charm (Dragonkin Laboratory)": true,
-			"Lucky Charm (Shadow Reef)": true,
-			"Lucky Charm (Zamorakian Undercity)": true,
-			"Sophanem slayer dungeon drop enhancer": true,
-			"Player-Owned Port enhancer": true,
-			"Vital spark drop enhancer": true,
-			"Shifting tombs reward enhancer": true,
-			"Death Lotus extract": true,
-			"Dragon trinket": true,
-			"Metallic dragon trinket": true,
-			"Micah": true
-		},
-		"Elite Dungeon Reward Shop (F2P)": {
-			"Daemonheim skill door boost": true,
-			"Dragon trinket": true,
-			"Metallic dragon trinket": true
 		},
 		"Elnock's Backup Supply": {
 			"Impling jar": true
@@ -309666,6 +310105,11 @@
 				},
 				"'the Naabe' title": {
 					"1": "Rare"
+				}
+			},
+			"Warped floors loot": {
+				"Warped stone": {
+					"1": "1/100"
 				}
 			}
 		},
@@ -353459,6 +353903,7 @@
 			"slot": "neck",
 			"melee_damage": 0,
 			"magic_damage": 28.7,
+			"magic_accuracy": 40,
 			"prayer": 0,
 			"accuracy": 0
 		},
@@ -353474,6 +353919,7 @@
 			"slot": "neck",
 			"melee_damage": 0,
 			"magic_damage": 46,
+			"magic_accuracy": 84,
 			"prayer": 0,
 			"accuracy": 0
 		},
@@ -353489,6 +353935,7 @@
 			"slot": "neck",
 			"melee_damage": 0,
 			"magic_damage": 17.2,
+			"magic_accuracy": 23,
 			"prayer": 0,
 			"accuracy": 0
 		},
@@ -353521,6 +353968,7 @@
 			"slot": "neck",
 			"melee_damage": 0,
 			"magic_damage": 46,
+			"magic_accuracy": 84,
 			"prayer": 0,
 			"accuracy": 0
 		},
@@ -359794,6 +360242,7 @@
 			"speed": 0,			"armour": 0,
 			"slot": "neck",
 			"melee_damage": 46,
+			"melee_accuracy": 84,
 			"magic_damage": 0,
 			"prayer": 0,
 			"accuracy": 0
@@ -359809,6 +360258,7 @@
 			"speed": 0,			"armour": 0,
 			"slot": "neck",
 			"melee_damage": 28.7,
+			"melee_accuracy": 40,
 			"magic_damage": 0,
 			"prayer": 0,
 			"accuracy": 0
@@ -359824,6 +360274,7 @@
 			"speed": 0,			"armour": 0,
 			"slot": "neck",
 			"melee_damage": 17.2,
+			"melee_accuracy": 23,
 			"magic_damage": 0,
 			"prayer": 0,
 			"accuracy": 0
@@ -359839,6 +360290,7 @@
 			"speed": 0,			"armour": 0,
 			"slot": "neck",
 			"melee_damage": 46,
+			"melee_accuracy": 84,
 			"magic_damage": 0,
 			"prayer": 0,
 			"accuracy": 0
@@ -361284,6 +361736,42 @@
 			"class": "ranged",
 			"accuracy": 1924
 		},
+		"Chaotic grimoire": {
+			"ranged_damage": 10.9,
+			"requirements": {},
+			"class": "none",
+			"lp": 0,
+			"tier": 0,
+			"speed": 0,
+			"armour": 0,
+			"slot": "pocket",
+			"melee_damage": 10.9,
+			"magic_damage": 10.9,
+			"necromancy_damage": 10.9,
+			"prayer": 4,
+			"accuracy": 0
+		},
+		"Chaotic guard": {
+			"ranged_damage": 0,
+			"melee_damage": 0,
+			"prayer": 0,
+			"charges": 30000,
+			"style": "necromancy",
+			"ability_damage": 768,
+			"magic_damage": 0,
+			"slot": "main hand weapon",
+			"requirements": {
+				"Necromancy": 80,
+				"Dungeoneering": 70
+			},
+			"armour": 0,
+			"speed": 3,
+			"tier": 80,
+			"lp": 0,
+			"attack_range": 7,
+			"class": "necromancy",
+			"accuracy": 1924
+		},
 		"Chaotic kiteshield": {
 			"ranged_damage": 0,
 			"requirements": {
@@ -361300,6 +361788,27 @@
 			"charges": 30000,
 			"prayer": 0,
 			"accuracy": 0
+		},
+		"Chaotic lantern": {
+			"ranged_damage": 0,
+			"melee_damage": 0,
+			"prayer": 0,
+			"charges": 30000,
+			"style": "necromancy",
+			"ability_damage": 384,
+			"magic_damage": 0,
+			"slot": "off-hand weapon",
+			"requirements": {
+				"Attack": 80
+			},
+			"armour": 0,
+			"speed": 3,
+			"tier": 80,
+			"lp": 0,
+			"attack_range": 1,
+			"class": "necromancy",
+			"accuracy": 1924,
+			"auto_damage": 384
 		},
 		"Chaotic longsword": {
 			"ranged_damage": 0,
@@ -370614,6 +371123,7 @@
 		},
 		"Farsight blood necklace": {
 			"ranged_damage": 46,
+			"ranged_accuracy": 84,
 			"requirements": {
 				"Ranged": 80
 			},
@@ -370630,6 +371140,7 @@
 		},
 		"Farsight quick shot necklace": {
 			"ranged_damage": 17.2,
+			"ranged_accuracy": 23,
 			"requirements": {
 				"Ranged": 30
 			},
@@ -370645,6 +371156,7 @@
 		},
 		"Farsight snap shot necklace": {
 			"ranged_damage": 28.7,
+			"ranged_accuracy": 40,
 			"requirements": {
 				"Ranged": 50
 			},
@@ -370660,6 +371172,7 @@
 		},
 		"Farsight sniper necklace": {
 			"ranged_damage": 46,
+			"ranged_accuracy": 84,
 			"requirements": {
 				"Ranged": 80
 			},
@@ -372455,6 +372968,27 @@
 			"accuracy": 983,
 			"auto_damage": 1010.6
 		},
+		"Gravite guard": {
+			"ranged_damage": 0,
+			"melee_damage": 0,
+			"prayer": 0,
+			"charges": 30000,
+			"style": "necromancy",
+			"ability_damage": 264,
+			"magic_damage": 0,
+			"slot": "main hand weapon",
+			"requirements": {
+				"Necromancy": 55
+			},
+			"armour": 0,
+			"speed": 3,
+			"tier": 55,
+			"lp": 0,
+			"attack_range": 4,
+			"class": "necromancy",
+			"accuracy": 983,
+			"auto_damage": 528
+		},
 		"Gravite knife": {
 			"ranged_damage": 0,
 			"melee_damage": 0,
@@ -372475,6 +373009,27 @@
 			"class": "ranged",
 			"accuracy": 983,
 			"auto_damage": 528
+		},
+		"Gravite lantern": {
+			"ranged_damage": 0,
+			"melee_damage": 0,
+			"prayer": 0,
+			"charges": 30000,
+			"style": "necromancy",
+			"ability_damage": 528,
+			"magic_damage": 0,
+			"slot": "off-hand weapon",
+			"requirements": {
+				"Necromancy": 55
+			},
+			"armour": 0,
+			"speed": 3,
+			"tier": 55,
+			"lp": 0,
+			"attack_range": 4,
+			"class": "necromancy",
+			"accuracy": 983,
+			"auto_damage": 264
 		},
 		"Gravite longsword": {
 			"ranged_damage": 0,
@@ -384241,6 +384796,60 @@
 			"prayer": 0,
 			"accuracy": 0
 		},
+		"Occultist's blood necklace": {
+			"ranged_damage": 0,
+			"requirements": {
+				"Necromancy": 70
+			},
+			"class": "necromancy",
+			"lp": 0,
+			"tier": 0,
+			"speed": 0,
+			"armour": 0,
+			"slot": "neck",
+			"melee_damage": 0,
+			"magic_damage": 0,
+			"necromancy_damage": 46,
+			"necromancy_accuracy": 84,
+			"prayer": 0,
+			"accuracy": 0
+		},
+		"Occultist's hex necklace": {
+			"ranged_damage": 0,
+			"requirements": {
+				"Necromancy": 70
+			},
+			"class": "necromancy",
+			"lp": 0,
+			"tier": 0,
+			"speed": 0,
+			"armour": 0,
+			"slot": "neck",
+			"melee_damage": 0,
+			"magic_damage": 0,
+			"necromancy_damage": 46,
+			"necromancy_accuracy": 84,
+			"prayer": 0,
+			"accuracy": 0
+		},
+		"Occultist's revival necklace": {
+			"ranged_damage": 0,
+			"requirements": {
+				"Necromancy": 50
+			},
+			"class": "necromancy",
+			"lp": 0,
+			"tier": 0,
+			"speed": 0,
+			"armour": 0,
+			"slot": "neck",
+			"melee_damage": 0,
+			"magic_damage": 0,
+			"necromancy_damage": 28.7,
+			"necromancy_accuracy": 40,
+			"prayer": 0,
+			"accuracy": 0
+		},
 		"Occultist's ring": {
 			"ranged_damage": 0,
 			"requirements": {},
@@ -384253,6 +384862,24 @@
 			"melee_damage": 0,
 			"magic_damage": 0,
 			"necromancy_damage": 34.5,
+			"prayer": 0,
+			"accuracy": 0
+		},
+		"Occultist's undead necklace": {
+			"ranged_damage": 0,
+			"requirements": {
+				"Necromancy": 30
+			},
+			"class": "necromancy",
+			"lp": 0,
+			"tier": 0,
+			"speed": 0,
+			"armour": 0,
+			"slot": "neck",
+			"melee_damage": 0,
+			"magic_damage": 0,
+			"necromancy_damage": 17.2,
+			"necromancy_accuracy": 23,
 			"prayer": 0,
 			"accuracy": 0
 		},
@@ -391371,6 +391998,182 @@
 			"prayer": 0,
 			"accuracy": 0
 		},
+		"Ruinous crossbow": {
+			"ranged_damage": 0,
+			"melee_damage": 0,
+			"prayer": 0,
+			"charges": 30000,
+			"style": "bolts",
+			"ability_damage": 864,
+			"magic_damage": 0,
+			"slot": "main hand weapon",
+			"requirements": {
+				"Ranged": 90,
+				"Dungeoneering": 90
+			},
+			"armour": 0,
+			"speed": 5,
+			"tier": 90,
+			"lp": 0,
+			"attack_range": 6,
+			"class": "ranged",
+			"accuracy": 3100,
+			"auto_damage": 670
+		},
+		"Ruinous guard": {
+			"ranged_damage": 0,
+			"melee_damage": 0,
+			"prayer": 0,
+			"charges": 30000,
+			"style": "necromancy",
+			"ability_damage": 864,
+			"magic_damage": 0,
+			"slot": "main hand weapon",
+			"requirements": {
+				"Necromancy": 90,
+				"Dungeoneering": 90
+			},
+			"armour": 0,
+			"speed": 5,
+			"tier": 90,
+			"lp": 0,
+			"attack_range": 6,
+			"class": "necromancy",
+			"accuracy": 3100,
+			"auto_damage": 1341
+		},
+		"Ruinous lantern": {
+			"ranged_damage": 0,
+			"melee_damage": 0,
+			"prayer": 0,
+			"charges": 30000,
+			"style": "necromancy",
+			"ability_damage": 432,
+			"magic_damage": 0,
+			"slot": "off-hand weapon",
+			"requirements": {
+				"Necromancy": 90,
+				"Dungeoneering": 90
+			},
+			"armour": 0,
+			"speed": 5,
+			"tier": 90,
+			"lp": 0,
+			"attack_range": 6,
+			"class": "necromancy",
+			"accuracy": 3100,
+			"auto_damage": 670
+		},
+		"Ruinous maul": {
+			"ranged_damage": 0,
+			"melee_damage": 0,
+			"prayer": 0,
+			"charges": 30000,
+			"style": "crush",
+			"ability_damage": 1296,
+			"magic_damage": 0,
+			"slot": "2h weapon",
+			"requirements": {
+				"Attack": 90,
+				"Dungeoneering": 90
+			},
+			"armour": 0,
+			"speed": 5,
+			"tier": 90,
+			"lp": 0,
+			"attack_range": 6,
+			"class": "melee",
+			"accuracy": 3100,
+			"auto_damage": 670
+		},
+		"Ruinous off-hand crossbow": {
+			"ranged_damage": 0,
+			"melee_damage": 0,
+			"prayer": 0,
+			"charges": 30000,
+			"style": "bolts",
+			"ability_damage": 432,
+			"magic_damage": 0,
+			"slot": "off-hand weapon",
+			"requirements": {
+				"Ranged": 90,
+				"Dungeoneering": 90
+			},
+			"armour": 0,
+			"speed": 5,
+			"tier": 90,
+			"lp": 0,
+			"attack_range": 6,
+			"class": "ranged",
+			"accuracy": 3100,
+			"auto_damage": 670
+		},
+		"Ruinous off-hand rapier": {
+			"ranged_damage": 0,
+			"melee_damage": 0,
+			"prayer": 0,
+			"charges": 30000,
+			"style": "stab",
+			"ability_damage": 432,
+			"magic_damage": 0,
+			"slot": "off-hand weapon",
+			"requirements": {
+				"Attack": 90,
+				"Dungeoneering": 90
+			},
+			"armour": 0,
+			"speed": 5,
+			"tier": 90,
+			"lp": 0,
+			"attack_range": 6,
+			"class": "melee",
+			"accuracy": 3100,
+			"auto_damage": 670
+		},
+		"Ruinous rapier": {
+			"ranged_damage": 0,
+			"melee_damage": 0,
+			"prayer": 0,
+			"charges": 30000,
+			"style": "stab",
+			"ability_damage": 864,
+			"magic_damage": 0,
+			"slot": "main hand weapon",
+			"requirements": {
+				"Attack": 90,
+				"Dungeoneering": 90
+			},
+			"armour": 0,
+			"speed": 5,
+			"tier": 90,
+			"lp": 0,
+			"attack_range": 6,
+			"class": "melee",
+			"accuracy": 3100,
+			"auto_damage": 1341
+		},
+		"Ruinous staff": {
+			"ranged_damage": 0,
+			"melee_damage": 0,
+			"prayer": 0,
+			"charges": 30000,
+			"style": "spell-casting",
+			"ability_damage": 1296,
+			"magic_damage": 0,
+			"slot": "2h weapon",
+			"requirements": {
+				"Magic": 90,
+				"Dungeoneering": 90
+			},
+			"armour": 0,
+			"speed": 5,
+			"tier": 90,
+			"lp": 0,
+			"attack_range": 6,
+			"class": "magic",
+			"accuracy": 3100,
+			"auto_damage": 670
+		},
 		"Rune 2h crossbow": {
 			"ranged_damage": 0,
 			"slot": "2h weapon",
@@ -396406,6 +397209,23 @@
 			"slot": "neck",
 			"melee_damage": 0,
 			"magic_damage": 40.2,
+			"prayer": 2,
+			"accuracy": 0
+		},
+		"Saradomin's hum": {
+			"ranged_damage": 0,
+			"requirements": {
+				"Necromancy": 70
+			},
+			"class": "none",
+			"lp": 0,
+			"tier": 0,
+			"speed": 0,
+			"armour": 0,
+			"slot": "neck",
+			"melee_damage": 0,
+			"necromancy_damage": 0,
+			"magic_damage": 0,
 			"prayer": 2,
 			"accuracy": 0
 		},
