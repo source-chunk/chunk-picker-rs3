@@ -234949,6 +234949,7 @@
 			"LawAccess[+]": ["Access the law rune temple with a talisman*", "Access the law rune temple through the abyss*"],
 			"LostHerMarblesTargets[+]": ["(LHM) Pickpocket a citizen", "(LHM) Pickpocket a farmer", "(LHM) Pickpocket a master farmer", "(LHM) Pickpocket a H.A.M. member", "(LHM) Pickpocket a warrior", "(LHM) Pickpocket a guard", "(LHM) Pickpocket a rogue", "(LHM) Pickpocket a cave goblin"],
 			"MagicWeapon[+]": [
+				"Wield a ~|ruinous magic weapon|~", 
 				"Wield a ~|Roar of Awakening|~", 
 				"Wield an ~|Ode to Deceit|~", 
 				"Wield a ~|fractured Staff of Armadyl|~", 
@@ -235048,8 +235049,7 @@
 				"Wield a ~|greater runic staff|~", 
 				"Wield a ~|celestial surgebox|~", 
 				"Equip ~|void knight equipment|~", 
-				"Wield a ~|slayer's staff|~", 
-				"Wield a ~|magical blastbox|~", 
+				"Wield a ~|slayer's staff|~",
 				"Wield a ~|lesser runic staff|~", 
 				"Wield a ~|runic staff|~"
 			],
