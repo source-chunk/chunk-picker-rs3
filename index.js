@@ -1286,7 +1286,7 @@ let universalPrimary = {
     "Defence": ["Monster[+]"],
     "Strength": ["Monster[+]"],
     "Constitution": ["Monster[+]"],
-    "Ranged": ["Ranged[+]"],
+    "Ranged": ["Ranged[+]", "Primary[+]"],
     "Prayer": ["Primary[+]", "Bones[+]"],
     "Runecrafting": ["Primary[+]"],
     "Magic": ["Primary[+]"],
