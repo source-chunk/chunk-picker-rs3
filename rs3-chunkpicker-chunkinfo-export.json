@@ -4284,9 +4284,9 @@
 				"NoBoost": true
 			},
 			"Gain access to the ~|Daemonheim Dig Site|~": {
+				"Chunks": ["Dungeons of Daemonheim"],
 				"Tasks": {
-					"Complete the ~|Archaeology tutorial|~": "Archaeology",
-					"Unlock ~|frozen floors|~": "Dungeoneering"
+					"Complete the ~|Archaeology tutorial|~": "Archaeology"
 				},
 				"Chunks": ["13625-1"],
 				"Level": 73,
@@ -7896,9 +7896,7 @@
 			},
 			"Train Attack in ~|Daemonheim|~": {
 				"Category": ["Daemonheim training"],
-				"Tasks": {
-					"Unlock ~|frozen floors|~": "Dungeoneering"
-				},
+				"Chunks": ["Dungeons of Daemonheim"],
 				"Level": 1,
 				"Primary": true,
 				"Priority": 1000
@@ -8541,9 +8539,7 @@
 			},
 			"Wield an ~|argonite weapon|~ in Daemonheim": {
 			    "Category": ["Daemonheim tasks"],
-			    "Tasks": {
-			        "Unlock ~|frozen floors|~": "Dungeoneering"
-			    },
+			    "Chunks": ["Dungeons of Daemonheim"],
 			    "Level": 60,
 			    "Primary": false,
 			    "NoPet": true,
@@ -9370,9 +9366,7 @@
 			},
 			"Wield a ~|primal weapon (Dungeoneering)|~ in Daemonheim": {
 			    "Category": ["Daemonheim tasks"],
-			    "Tasks": {
-			        "Unlock ~|frozen floors|~": "Dungeoneering"
-			    },
+			    "Chunks": ["Dungeons of Daemonheim"],
 			    "Level": 99,
 			    "Primary": false,
 			    "NoPet": true,
@@ -9552,9 +9546,7 @@
 		"Constitution": {
 		    "Train Constitution in ~|Daemonheim|~": {
 		        "Category": ["Daemonheim training"],
-		        "Tasks": {
-		            "Unlock ~|frozen floors|~": "Dungeoneering"
-		        },
+		        "Chunks": ["Dungeons of Daemonheim"],
 		        "Level": 1,
 		        "Primary": true,
 		        "Priority": 1
@@ -9653,9 +9645,7 @@
 		    },
 			"Create a ~|portent of restoration I (Dungeoneering)|~ in Daemonheim": {
 			    "Category": ["Daemonheim tasks"],
-			    "Tasks": {
-			        "Unlock ~|frozen floors|~": "Dungeoneering"
-			    },
+			    "Chunks": ["Dungeons of Daemonheim"],
 			    "Level": 10,
 			    "Skills": {
 			        "Divination": 2
@@ -10017,9 +10007,7 @@
 			},
 			"Create a ~|portent of restoration X (Dungeoneering)|~ in Daemonheim": {
 			    "Category": ["Daemonheim tasks"],
-			    "Tasks": {
-			        "Unlock ~|frozen floors|~": "Dungeoneering"
-			    },
+			    "Chunks": ["Dungeons of Daemonheim"],
 			    "Level": 90,
 			    "Skills": {
 			        "Divination": 97
@@ -11005,9 +10993,7 @@
 			},
 			"Train Construction in ~|Daemonheim|~": {
 				"Category": ["Daemonheim training"],
-				"Tasks": {
-					"Unlock ~|frozen floors|~": "Dungeoneering"
-				},
+				"Chunks": ["Dungeons of Daemonheim"],
 				"Level": 25,
 				"Primary": true,
 				"Priority": 1000
@@ -13973,9 +13959,7 @@
 			},
 			"Build an ~|altar (Dungeoneering, starting room)|~ in Daemonheim": {
 				"Category": ["Daemonheim tasks", "Mutli Step Processing"],
-				"Tasks": {
-					"Unlock ~|frozen floors|~": "Dungeoneering"
-				},
+				"Chunks": ["Dungeons of Daemonheim"],
 				"Level": 75,
 				"Primary": false,
 				"Priority": 13
@@ -15755,9 +15739,7 @@
 			},
 			"Train Cooking in ~|Daemonheim|~": {
 				"Category": ["Daemonheim training"],
-				"Tasks": {
-					"Unlock ~|frozen floors|~": "Dungeoneering"
-				},
+				"Chunks": ["Dungeons of Daemonheim"],
 				"Level": 1,
 				"Primary": true,
 				"Priority": 70
@@ -17586,9 +17568,7 @@
 			},
 			"Cook a ~|web snipper|~ in Daemonheim": {
 				"Category": ["Daemonheim tasks"],
-				"Tasks": {
-					"Unlock ~|frozen floors|~": "Dungeoneering"
-				},
+				"Chunks": ["Dungeons of Daemonheim"],
 				"Level": 50,
 				"Primary": false,
 				"Priority": 1000
@@ -18245,9 +18225,7 @@
 			},
 			"Cook a ~|cave moray|~ in Daemonheim": {
 				"Category": ["Daemonheim tasks"],
-				"Tasks": {
-					"Unlock ~|frozen floors|~": "Dungeoneering"
-				},
+				"Chunks": ["Dungeons of Daemonheim"],
 				"Level": 90,
 				"Primary": false,
 				"Priority": 1001,
@@ -18554,9 +18532,7 @@
 			},
 			"Make a ~|moray & edicap potato|~ in Daemonheim": {
 				"Category": ["Daemonheim tasks", "Multi Step Processing"],
-				"Tasks": {
-					"Unlock ~|frozen floors|~": "Dungeoneering"
-				},
+				"Chunks": ["Dungeons of Daemonheim"],
 				"Level": 99,
 				"Primary": false,
 				"Priority": 1000,
@@ -18818,9 +18794,7 @@
 			},
 			"Train Crafting in ~|Daemonheim|~": {
 				"Category": ["Daemonheim training"],
-				"Tasks": {
-					"Unlock ~|frozen floors|~": "Dungeoneering"
-				},
+				"Chunks": ["Dungeons of Daemonheim"],
 				"Level": 1,
 				"Primary": true,
 				"Priority": 102
@@ -21597,9 +21571,7 @@
 			},
 			"Craft ~|spinoleather vambraces|~ in Daemonheim": {
 				"Category": ["Daemonheim tasks"],
-				"Tasks": {
-					"Unlock ~|frozen floors|~": "Dungeoneering"
-				},
+				"Chunks": ["Dungeons of Daemonheim"],
 				"Level": 51,
 				"Primary": false,
 				"Priority": 1000
@@ -22027,9 +21999,7 @@
 			},
 			"Craft a ~|spinoleather body|~ in Daemonheim": {
 				"Category": ["Daemonheim tasks", "Highest Level"],
-				"Tasks": {
-					"Unlock ~|frozen floors|~": "Dungeoneering"
-				},
+				"Chunks": ["Dungeons of Daemonheim"],
 				"Level": 59,
 				"Primary": false,
 				"Priority": 1000
@@ -24040,9 +24010,7 @@
 			},
 			"Craft ~|tyrannoleather vambraces|~ in Daemonheim": {
 				"Category": ["Daemonheim tasks"],
-				"Tasks": {
-					"Unlock ~|frozen floors|~": "Dungeoneering"
-				},
+				"Chunks": ["Dungeons of Daemonheim"],
 				"Level": 91,
 				"Primary": false,
 				"Priority": 1000,
@@ -24316,9 +24284,7 @@
 			},
 			"Craft a ~|tyrannoleather body|~ in Daemonheim": {
 				"Category": ["Daemonheim tasks", "Highest Level"],
-				"Tasks": {
-					"Unlock ~|frozen floors|~": "Dungeoneering"
-				},
+				"Chunks": ["Dungeons of Daemonheim"],
 				"Level": 99,
 				"Primary": false,
 				"Priority": 98,
@@ -26565,9 +26531,7 @@
 			},
 			"Wear a piece of ~|argonite armour|~ in Daemonheim (or another Tier 7 set)": {
 				"Category": ["Daemonheim tasks"],
-				"Tasks": {
-					"Unlock ~|frozen floors|~": "Dungeoneering"
-				},
+				"Chunks": ["Dungeons of Daemonheim"],
 				"Level": 60,
 				"Primary": false,
 				"Priority": 101,
@@ -28140,9 +28104,7 @@
 			},
 			"Wear a piece of ~|primal armour (Dungeoneering)|~ in Daemonheim (or another Tier 11 set)": {
 				"Category": ["Daemonheim tasks"],
-				"Tasks": {
-					"Unlock ~|frozen floors|~": "Dungeoneering"
-				},
+				"Chunks": ["Dungeons of Daemonheim"],
 				"Level": 99,
 				"Primary": false,
 				"Priority": 101,
@@ -28174,9 +28136,7 @@
 			},
 			"Train Defence in ~|Daemonheim|~": {
 				"Category": ["Daemonheim training"],
-				"Tasks": {
-					"Unlock ~|frozen floors|~": "Dungeoneering"
-				},
+				"Chunks": ["Dungeons of Daemonheim"],
 				"Level": 1,
 				"Primary": true,
 				"Priority": 15
@@ -28201,9 +28161,7 @@
 			},
 			"Train Divination in ~|Daemonheim|~": {
 				"Category": ["Daemonheim training"],
-				"Tasks": {
-					"Unlock ~|frozen floors|~": "Dungeoneering"
-				},
+				"Chunks": ["Dungeons of Daemonheim"],
 				"Level": 1,
 				"Primary": true,
 				"Priority": 101
@@ -28294,9 +28252,7 @@
 			},
 			"Create a ~|portent of restoration I (Dungeoneering)|~ in Daemonheim": {
 			    "Category": ["Daemonheim tasks"],
-			    "Tasks": {
-			        "Unlock ~|frozen floors|~": "Dungeoneering"
-			    },
+			    "Chunks": ["Dungeons of Daemonheim"],
 			    "Level": 2,
 			    "Skills": {
 			        "Constitution": 10
@@ -29569,9 +29525,7 @@
 			},
 			"Create a ~|portent of restoration X (Dungeoneering)|~ in Daemonheim": {
 				"Category": ["Daemonheim tasks"],
-				"Tasks": {
-					"Unlock ~|frozen floors|~": "Dungeoneering"
-				},
+				"Chunks": ["Dungeons of Daemonheim"],
 				"Level": 97,
 				"Skills": {
 					"Constitution": 90
@@ -29646,7 +29600,7 @@
 				"Priority": 3
 			},
 			"Unlock ~|frozen floors|~": {
-				"Chunks": ["13626-1", "13882-1"],
+				"Chunks": ["Dungeons of Daemonheim"],
 				"Level": 1,
 				"Output": "Dungeoneering token",
 				"Primary": true,
@@ -29748,7 +29702,7 @@
 				"NoBoost": true
 			},
 			"Unlock ~|abandoned floors|~": {
-				"Chunks": ["13626-1", "13882-1"],
+				"Chunks": ["Dungeons of Daemonheim"],
 				"Level": 23,
 				"Primary": true,
 				"Priority": 1
@@ -29780,7 +29734,7 @@
 				"NoBoost": true
 			},
 			"Unlock ~|furnished floors|~": {
-				"Chunks": ["13626-1", "13882-1"],
+				"Chunks": ["Dungeons of Daemonheim"],
 				"Level": 35,
 				"Primary": false,
 				"Priority": 1
@@ -30088,7 +30042,7 @@
 				"NoBoost": true
 			},
 			"Unlock ~|abandoned 2 floors|~": {
-				"Chunks": ["13626-1", "13882-1"],
+				"Chunks": ["Dungeons of Daemonheim"],
 				"Level": 59,
 				"Primary": true,
 				"Priority": 1
@@ -30349,7 +30303,7 @@
 				"NoBoost": true
 			},
 			"Unlock ~|occult floors|~": {
-				"Chunks": ["13626-1", "13882-1"],
+				"Chunks": ["Dungeons of Daemonheim"],
 				"Level": 71,
 				"Primary": true,
 				"Priority": 1,
@@ -30561,7 +30515,7 @@
 				"Not F2P": true
 			},
 			"Unlock ~|warped floors|~": {
-				"Chunks": ["13626-1", "13882-1"],
+				"Chunks": ["Dungeons of Daemonheim"],
 				"Level": 95,
 				"Primary": true,
 				"Priority": 1,
@@ -31273,9 +31227,7 @@
 			},
 			"Train Farming in ~|Daemonheim|~": {
 				"Category": ["Daemonheim training"],
-				"Tasks": {
-					"Unlock ~|frozen floors|~": "Dungeoneering"
-				},
+				"Chunks": ["Dungeons of Daemonheim"],
 				"Level": 1,
 				"Primary": true,
 				"Priority": 61,
@@ -34233,9 +34185,7 @@
 			},
 			"Grow a ~|buckthorn|~ in Daemonheim": {
 				"Category": ["Daemonheim tasks"],
-				"Tasks": {
-					"Unlock ~|frozen floors|~": "Dungeoneering"
-				},
+				"Chunks": ["Dungeons of Daemonheim"],
 				"Level": 95,
 				"Primary": false,
 				"Priority": 4
@@ -35141,9 +35091,7 @@
 			},
 			"Train Firemaking in ~|Daemonheim|~": {
 				"Category": ["Daemonheim training"],
-				"Tasks": {
-					"Unlock ~|frozen floors|~": "Dungeoneering"
-				},
+				"Chunks": ["Dungeons of Daemonheim"],
 				"Level": 1,
 				"Primary": true,
 				"Priority": 12
@@ -36029,9 +35977,7 @@
 			},
 			"Burn ~|bovistrangler branches|~ in Daemonheim": {
 				"Category": ["Daemonheim tasks"],
-				"Tasks": {
-					"Unlock ~|frozen floors|~": "Dungeoneering"
-				},
+				"Chunks": ["Dungeons of Daemonheim"],
 				"Level": 50,
 				"Primary": false,
 				"Priority": 1000
@@ -36861,9 +36807,7 @@
 			},
 			"Burn ~|grave creeper branches|~ in Daemonheim": {
 				"Category": ["Daemonheim tasks"],
-				"Tasks": {
-					"Unlock ~|frozen floors|~": "Dungeoneering"
-				},
+				"Chunks": ["Dungeons of Daemonheim"],
 				"Level": 90,
 				"Primary": false,
 				"Priority": 4,
@@ -37314,9 +37258,7 @@
 			},
 			"Train Fishing in ~|Daemonheim|~": {
 				"Category": ["Daemonheim training"],
-				"Tasks": {
-					"Unlock ~|frozen floors|~": "Dungeoneering"
-				},
+				"Chunks": ["Dungeons of Daemonheim"],
 				"Level": 1,
 				"Primary": true,
 				"Priority": 1006
@@ -37575,9 +37517,7 @@
 			},
 			"Catch a ~|raw web snipper|~ in Daemonheim": {
 				"Category": ["Daemonheim tasks"],
-				"Tasks": {
-					"Unlock ~|frozen floors|~": "Dungeoneering"
-				},
+				"Chunks": ["Dungeons of Daemonheim"],
 				"Level": 50,
 				"Primary": false,
 				"Priority": 1003
@@ -37915,9 +37855,7 @@
 			},
 			"Catch a ~|raw cave moray|~ in Daemonheim": {
 				"Category": ["Daemonheim tasks"],
-				"Tasks": {
-					"Unlock ~|frozen floors|~": "Dungeoneering"
-				},
+				"Chunks": ["Dungeons of Daemonheim"],
 				"Level": 90,
 				"Primary": false,
 				"Priority": 100,
@@ -38155,9 +38093,7 @@
 			},
 			"Train Fletching in ~|Daemonheim|~": {
 				"Category": ["Daemonheim training"],
-				"Tasks": {
-					"Unlock ~|frozen floors|~": "Dungeoneering"
-				},
+				"Chunks": ["Dungeons of Daemonheim"],
 				"Level": 1,
 				"Primary": true,
 				"Priority": 6
@@ -38902,9 +38838,7 @@
 			},
 			"Fletch ~|arrow shafts (Dungeoneering)|~ from bovistrangler branches in Daemonheim": {
 				"Category": ["Daemonheim tasks"],
-				"Tasks": {
-					"Unlock ~|frozen floors|~": "Dungeoneering"
-				},
+				"Chunks": ["Dungeons of Daemonheim"],
 				"Level": 50,
 				"Primary": false,
 				"Priority": 1000
@@ -39051,9 +38985,7 @@
 			},
 			"Fletch a ~|bovistrangler staff|~ in Daemonheim": {
 				"Category": ["Daemonheim tasks", "Highest Level"],
-				"Tasks": {
-					"Unlock ~|frozen floors|~": "Dungeoneering"
-				},
+				"Chunks": ["Dungeons of Daemonheim"],
 				"Level": 58,
 				"Primary": false,
 				"Priority": 1000
@@ -39932,9 +39864,7 @@
 			},
 			"Fletch ~|arrow shafts (Dungeoneering)|~ from grave creeper branches in Daemonheim": {
 				"Category": ["Daemonheim tasks"],
-				"Tasks": {
-					"Unlock ~|frozen floors|~": "Dungeoneering"
-				},
+				"Chunks": ["Dungeons of Daemonheim"],
 				"Level": 90,
 				"Primary": false,
 				"Priority": 1000,
@@ -40294,9 +40224,7 @@
 			},
 			"Fletch a ~|grave creeper staff|~ in Daemonheim": {
 				"Category": ["Daemonheim tasks", "Highest Level"],
-				"Tasks": {
-					"Unlock ~|frozen floors|~": "Dungeoneering"
-				},
+				"Chunks": ["Dungeons of Daemonheim"],
 				"Level": 98,
 				"Primary": false,
 				"Priority": 1000,
@@ -40329,9 +40257,7 @@
 			},
 			"Fletch ~|promethium arrows|~ in Daemonheim": {
 				"Category": ["Daemonheim tasks", "Multi Step Processing"],
-				"Tasks": {
-					"Unlock ~|frozen floors|~": "Dungeoneering"
-				},
+				"Chunks": ["Dungeons of Daemonheim"],
 				"Level": 99,
 				"Primary": false,
 				"Priority": 1000,
@@ -41003,9 +40929,7 @@
 			},
 			"Train Herblore in ~|Daemonheim|~": {
 				"Category": ["Daemonheim training"],
-				"Tasks": {
-					"Unlock ~|frozen floors|~": "Dungeoneering"
-				},
+				"Chunks": ["Dungeons of Daemonheim"],
 				"Level": 3,
 				"Primary": true,
 				"Priority": 6,
@@ -42519,9 +42443,7 @@
 			},
 			"Clean a ~|grimy buckthorn|~ in Daemonheim": {
 				"Category": ["Daemonheim tasks"],
-				"Tasks": {
-					"Unlock ~|frozen floors|~": "Dungeoneering"
-				},
+				"Chunks": ["Dungeons of Daemonheim"],
 				"Level": 74,
 				"Primary": false,
 				"Priority": 10000
@@ -43379,9 +43301,7 @@
 			},
 			"Mix an ~|overload (Dungeoneering)|~ in Daemonheim": {
 				"Category": ["Daemonheim tasks", "Multi Step Processing"],
-				"Tasks": {
-					"Unlock ~|frozen floors|~": "Dungeoneering"
-				},
+				"Chunks": ["Dungeons of Daemonheim"],
 				"Level": 96,
 				"Primary": false,
 				"Priority": 100000
@@ -43503,9 +43423,7 @@
 			},
 			"Mix a ~|strong survivalist's potion|~ in Daemonheim": {
 				"Category": ["Daemonheim tasks", "Multi Step Processing", "Highest Level"],
-				"Tasks": {
-					"Unlock ~|frozen floors|~": "Dungeoneering"
-				},
+				"Chunks": ["Dungeons of Daemonheim"],
 				"Level": 99,
 				"Primary": false,
 				"Priority": 7
@@ -43786,9 +43704,7 @@
 			},
 			"Train Hunter in ~|Daemonheim|~": {
 				"Category": ["Daemonheim training"],
-				"Tasks": {
-					"Unlock ~|frozen floors|~": "Dungeoneering"
-				},
+				"Chunks": ["Dungeons of Daemonheim"],
 				"Level": 1,
 				"Primary": true,
 				"Priority": 16,
@@ -45620,11 +45536,9 @@
 				"Primary": true,
 				"Priority": 15
 			},
-			"Catch a ~|tyrannomastyx|~": {
+			"Catch a ~|tyrannomastyx|~ in Daemonheim": {
 				"Category": ["Daemonheim tasks"],
-				"Tasks": {
-					"Unlock ~|frozen floors|~": "Dungeoneering"
-				},
+				"Chunks": ["Dungeons of Daemonheim"],
 				"Level": 90,
 				"Primary": false,
 				"Priority": 16
@@ -47814,9 +47728,7 @@
 			},
 			"Train Magic in ~|Daemonheim|~": {
 				"Category": ["Daemonheim training"],
-				"Tasks": {
-					"Unlock ~|frozen floors|~": "Dungeoneering"
-				},
+				"Chunks": ["Dungeons of Daemonheim"],
 				"Level": 1,
 				"Primary": true,
 				"Priority": 1000
@@ -49026,9 +48938,7 @@
 			},
 			"Wield a ~|thigat staff|~ in Daemonheim (or another Tier 7 weapon)": {
 				"Category": ["Daemonheim tasks"],
-				"Tasks": {
-					"Unlock ~|frozen floors|~": "Dungeoneering"
-				},
+				"Chunks": ["Dungeons of Daemonheim"],
 				"Level": 60,
 				"Primary": false,
 				"Priority": 6,
@@ -51880,9 +51790,7 @@
 			},
 			"Wield a ~|celestial catalytic staff|~ in Daemonheim (or another Tier 11 weapon)": {
 				"Category": ["Daemonheim tasks"],
-				"Tasks": {
-					"Unlock ~|frozen floors|~": "Dungeoneering"
-				},
+				"Chunks": ["Dungeons of Daemonheim"],
 				"Level": 99,
 				"Primary": false,
 				"Priority": 6,
@@ -52162,9 +52070,7 @@
 			},
 			"Train Mining in ~|Daemonheim|~": {
 				"Category": ["Daemonheim training"],
-				"Tasks": {
-					"Unlock ~|frozen floors|~": "Dungeoneering"
-				},
+				"Chunks": ["Dungeons of Daemonheim"],
 				"Level": 1,
 				"Primary": true,
 				"Priority": 1014
@@ -52504,9 +52410,7 @@
 			},
 			"Mine ~|zephyrium ore (Dungeoneering)|~ in Daemonheim": {
 				"Category": ["Daemonheim tasks"],
-				"Tasks": {
-					"Unlock ~|frozen floors|~": "Dungeoneering"
-				},
+				"Chunks": ["Dungeons of Daemonheim"],
 				"Level": 50,
 				"Primary": false,
 				"Priority": 1000
@@ -52926,9 +52830,7 @@
 			},
 			"Mine with a ~|primal pickaxe (Dungeoneering)|~ in Daemonheim": {
 				"Category": ["Daemonheim tasks"],
-				"Tasks": {
-					"Unlock ~|frozen floors|~": "Dungeoneering"
-				},
+				"Chunks": ["Dungeons of Daemonheim"],
 				"Level": 99,
 				"Primary": false,
 				"Priority": 1000,
@@ -53091,9 +52993,7 @@
 			},
 			"Train Necromancy in ~|Daemonheim|~": {
 				"Category": ["Daemonheim training"],
-				"Tasks": {
-					"Unlock ~|frozen floors|~": "Dungeoneering"
-				},
+				"Chunks": ["Dungeons of Daemonheim"],
 				"Level": 1,
 				"Primary": true,
 				"Priority": 100
@@ -53212,9 +53112,7 @@
 			},
 			"Wield a ~|marmaros guard|~ in Daemonheim": {
 			    "Category": ["Daemonheim tasks"],
-			    "Tasks": {
-			        "Unlock ~|frozen floors|~": "Dungeoneering"
-			    },
+			    "Chunks": ["Dungeons of Daemonheim"],
 			    "Level": 20,
 			    "Primary": false,
 			    "NoPet": true,
@@ -54132,9 +54030,7 @@
 			},
 			"Wield a piece of ~|entropic equipment|~ in Daemonheim": {
 			    "Category": ["Daemonheim tasks"],
-			    "Tasks": {
-			        "Unlock ~|frozen floors|~": "Dungeoneering"
-			    },
+			    "Chunks": ["Dungeons of Daemonheim"],
 			    "Level": 99,
 			    "Primary": false,
 			    "NoPet": true,
@@ -55734,9 +55630,7 @@
 			},
 			"Train Prayer in ~|Daemonheim|~": {
 				"Category": ["Daemonheim training"],
-				"Tasks": {
-					"Unlock ~|frozen floors|~": "Dungeoneering"
-				},
+				"Chunks": ["Dungeons of Daemonheim"],
 				"Level": 1,
 				"Primary": true,
 				"Priority": 57
@@ -56313,9 +56207,7 @@
 			},
 			"Train Ranged in ~|Daemonheim|~": {
 				"Category": ["Daemonheim training"],
-				"Tasks": {
-					"Unlock ~|frozen floors|~": "Dungeoneering"
-				},
+				"Chunks": ["Dungeons of Daemonheim"],
 				"Level": 1,
 				"Primary": true,
 				"Priority": 1000
@@ -57931,9 +57823,7 @@
 			},
 			"Wield a ~|thigat shortbow|~ in Daemonheim (or another Tier 7 weapon)": {
 				"Category": ["Daemonheim tasks"],
-				"Tasks": {
-					"Unlock ~|frozen floors|~": "Dungeoneering"
-				},
+				"Chunks": ["Dungeons of Daemonheim"],
 				"Level": 60,
 				"Primary": false,
 				"Priority": 15,
@@ -59103,9 +58993,7 @@
 			},
 			"Wield a ~|Sagittarian|~ weapon in Daemonheim (or primal knives)": {
 				"Category": ["Daemonheim tasks"],
-				"Tasks": {
-					"Unlock ~|frozen floors|~": "Dungeoneering"
-				},
+				"Chunks": ["Dungeons of Daemonheim"],
 				"Level": 99,
 				"Primary": false,
 				"Priority": 15,
@@ -59818,9 +59706,7 @@
 			},
 			"Craft ~|death runes|~ in Daemonheim": {
 				"Category": ["Daemonheim tasks"],
-				"Tasks": {
-					"Unlock ~|frozen floors|~": "Dungeoneering"
-				},
+				"Chunks": ["Dungeons of Daemonheim"],
 				"Level": 65,
 				"Primary": false,
 				"Priority": 4
@@ -59900,9 +59786,7 @@
 			},
 			"Craft ~|blood runes|~ in Daemonheim": {
 				"Category": ["Daemonheim tasks"],
-				"Tasks": {
-					"Unlock ~|frozen floors|~": "Dungeoneering"
-				},
+				"Chunks": ["Dungeons of Daemonheim"],
 				"Level": 77,
 				"Primary": false,
 				"Priority": 4,
@@ -60219,9 +60103,7 @@
 			},
 			"Train Runecrafting in ~|Daemonheim|~": {
 				"Category": ["Daemonheim training"],
-				"Tasks": {
-					"Unlock ~|frozen floors|~": "Dungeoneering"
-				},
+				"Chunks": ["Dungeons of Daemonheim"],
 				"Level": 1,
 				"Primary": true,
 				"Priority": 17
@@ -60354,9 +60236,7 @@
 			},
 			"Imbue an ~|empowered catalytic orb|~ in Daemonheim (or another empowered catalytic weapon)": {
 				"Category": ["Daemonheim tasks", "Mutli Step Processing"],
-				"Tasks": {
-					"Unlock ~|frozen floors|~": "Dungeoneering"
-				},
+				"Chunks": ["Dungeons of Daemonheim"],
 				"Level": 99,
 				"Primary": false,
 				"Priority": 4,
@@ -61672,9 +61552,7 @@
 			},
 			"Slay a ~|night spider|~": {
 				"Level": 41,
-				"Tasks": {
-					"Unlock ~|frozen floors|~": "Dungeoneering"
-				},
+				"Chunks": ["Dungeons of Daemonheim"],
 				"Primary": false,
 				"Priority": 1,
 				"Source": "drop",
@@ -63471,9 +63349,7 @@
 			},
 			"Slay a ~|soulgazer|~ in Daemonheim": {
 				"Category": ["Daemonheim tasks"],
-				"Tasks": {
-					"Unlock ~|frozen floors|~": "Dungeoneering"
-				},
+				"Chunks": ["Dungeons of Daemonheim"],
 				"Level": 99,
 				"Primary": false,
 				"Priority": 6,
@@ -63844,9 +63720,7 @@
 			},
 			"Train Smithing in ~|Daemonheim|~": {
 				"Category": ["Daemonheim training"],
-				"Tasks": {
-					"Unlock ~|frozen floors|~": "Dungeoneering"
-				},
+				"Chunks": ["Dungeons of Daemonheim"],
 				"Level": 1,
 				"Primary": true,
 				"Priority": 1001
@@ -64638,9 +64512,7 @@
 			},
 			"Smelt a ~|zephyrium bar|~ in Daemonheim": {
 				"Category": ["Daemonheim tasks"],
-				"Tasks": {
-					"Unlock ~|frozen floors|~": "Dungeoneering"
-				},
+				"Chunks": ["Dungeons of Daemonheim"],
 				"Level": 50,
 				"Primary": false,
 				"Priority": 1001
@@ -64677,9 +64549,7 @@
 			},
 			"Forge a ~|zephyrium platebody|~ in Daemonheim": {
 				"Category": ["Daemonheim tasks", "Multi Step Processing"],
-				"Tasks": {
-					"Unlock ~|frozen floors|~": "Dungeoneering"
-				},
+				"Chunks": ["Dungeons of Daemonheim"],
 				"Level": 59,
 				"Primary": false,
 				"Priority": 1000
@@ -65312,9 +65182,7 @@
 			},
 			"Smelt a ~|promethium bar|~ in Daemonheim": {
 				"Category": ["Daemonheim tasks"],
-				"Tasks": {
-					"Unlock ~|frozen floors|~": "Dungeoneering"
-				},
+				"Chunks": ["Dungeons of Daemonheim"],
 				"Level": 90,
 				"Primary": false,
 				"Priority": 1001,
@@ -65700,9 +65568,7 @@
 			},
 			"Forge a ~|promethium platebody|~ in Daemonheim": {
 				"Category": ["Daemonheim tasks", "Multi Step Processing", "Highest Level"],
-				"Tasks": {
-					"Unlock ~|frozen floors|~": "Dungeoneering"
-				},
+				"Chunks": ["Dungeons of Daemonheim"],
 				"Level": 99,
 				"Primary": false,
 				"Priority": 1005,
@@ -66229,9 +66095,7 @@
 			},
 			"Wield an ~|argonite maul|~ in Daemonheim": {
 				"Category": ["Daemonheim tasks"],
-				"Tasks": {
-					"Unlock ~|frozen floors|~": "Dungeoneering"
-				},
+				"Chunks": ["Dungeons of Daemonheim"],
 				"Level": 60,
 				"Primary": false,
 				"Priority": 1000,
@@ -66612,9 +66476,7 @@
 			},
 			"Wield a ~|primal maul (Dungeoneering)|~ in Daemonheim": {
 				"Category": ["Daemonheim tasks"],
-				"Tasks": {
-					"Unlock ~|frozen floors|~": "Dungeoneering"
-				},
+				"Chunks": ["Dungeons of Daemonheim"],
 				"Level": 99,
 				"Primary": false,
 				"Priority": 4,
@@ -66645,9 +66507,7 @@
 			},
 			"Train Strength in ~|Daemonheim|~": {
 				"Category": ["Daemonheim training"],
-				"Tasks": {
-					"Unlock ~|frozen floors|~": "Dungeoneering"
-				},
+				"Chunks": ["Dungeons of Daemonheim"],
 				"Level": 1,
 				"Primary": true,
 				"Priority": 2
@@ -67561,9 +67421,7 @@
 			},
 			"Train Summoning in ~|Daemonheim|~": {
 				"Category": ["Daemonheim training"],
-				"Tasks": {
-					"Unlock ~|frozen floors|~": "Dungeoneering"
-				},
+				"Chunks": ["Dungeons of Daemonheim"],
 				"Level": 1,
 				"Primary": true,
 				"Priority": 3,
@@ -68865,9 +68723,7 @@
 			},
 			"Create a ~|sachem hoardstalker pouch|~ in Daemonheim": {
 				"Category": ["Daemonheim tasks"],
-				"Tasks": {
-					"Unlock ~|frozen floors|~": "Dungeoneering"
-				},
+				"Chunks": ["Dungeons of Daemonheim"],
 				"Level": 97,
 				"Primary": false,
 				"Priority": 1000,
@@ -68887,9 +68743,7 @@
 			},
 			"Create a ~|sachem skinweaver pouch|~ in Daemonheim": {
 				"Category": ["Daemonheim tasks", "Multi Step Processing"],
-				"Tasks": {
-					"Unlock ~|frozen floors|~": "Dungeoneering"
-				},
+				"Chunks": ["Dungeons of Daemonheim"],
 				"Level": 99,
 				"Primary": false,
 				"Priority": 1000,
@@ -68950,9 +68804,7 @@
 			},
 			"Train Thieving in ~|Daemonheim|~": {
 				"Category": ["Daemonheim training"],
-				"Tasks": {
-					"Unlock ~|frozen floors|~": "Dungeoneering"
-				},
+				"Chunks": ["Dungeons of Daemonheim"],
 				"Level": 1,
 				"Primary": true,
 				"Priority": 1001,
@@ -70133,9 +69985,7 @@
 			},
 			"Open a level 90 chest in ~|Daemonheim|~": {
 				"Category": ["Daemonheim tasks"],
-				"Tasks": {
-					"Unlock ~|frozen floors|~": "Dungeoneering"
-				},
+				"Chunks": ["Dungeons of Daemonheim"],
 				"Level": 90,
 				"Primary": false,
 				"Priority": 1001
@@ -71466,9 +71316,7 @@
 			},
 			"Train Woodcutting in ~|Daemonheim|~": {
 				"Category": ["Daemonheim training"],
-				"Tasks": {
-					"Unlock ~|frozen floors|~": "Dungeoneering"
-				},
+				"Chunks": ["Dungeons of Daemonheim"],
 				"Level": 1,
 				"Primary": true,
 				"Priority": 12
@@ -71593,9 +71441,7 @@
 			},
 			"Chop with a ~|primal hatchet (Dungeoneering)|~": {
 				"Category": ["Daemonheim tasks"],
-				"Tasks": {
-					"Unlock ~|frozen floors|~": "Dungeoneering"
-				},
+				"Chunks": ["Dungeons of Daemonheim"],
 				"Level": 99,
 				"Primary": false,
 				"Priority": 1000,
@@ -71603,9 +71449,7 @@
 			},
 			"Cut a ~|bovistrangler tree|~ in Daemonheim": {
 				"Category": ["Daemonheim tasks"],
-				"Tasks": {
-					"Unlock ~|frozen floors|~": "Dungeoneering"
-				},
+				"Chunks": ["Dungeons of Daemonheim"],
 				"Level": 50,
 				"Primary": false,
 				"Priority": 1000,
@@ -101104,9 +100948,7 @@
 				"Skills": {
 					"Dungeoneering": 6
 				},
-				"Tasks": {
-					"Unlock ~|frozen floors|~": "Dungeoneering"
-				},
+				"Chunks": ["Dungeons of Daemonheim"],
 				"NoBoost": true
 			},
 			"~|Three's Company (abridged saga)|~ Complete the abridged saga": {
@@ -101130,9 +100972,7 @@
 					"Magic": 30,
 					"Ranged": 30
 				},
-				"Tasks": {
-					"Unlock ~|frozen floors|~": "Dungeoneering"
-				},
+				"Chunks": ["Dungeons of Daemonheim"],
 				"NoBoost": true
 			},
 			"~|Three's Company (unabridged saga)|~ Complete the unabridged saga": {
@@ -107463,9 +107303,9 @@
 			},
 			"~|Daemonheim Achievements#Easy|~ Setting Up": {
 				"Description": "Make a full suit of tier 1 armour (helm, body, legs, boots, gloves).",
+				"Chunks": ["Dungeons of Daemonheim"],
 				"Tasks": {
-					"Setting Up[+]": "Nonskill",
-					"Unlock ~|frozen floors|~": "Dungeoneering"
+					"Setting Up[+]": "Nonskill"
 				},
 				"BaseQuest": "Daemonheim Achievements",
 				"Category": ["Show Diary Tasks"],
@@ -107473,36 +107313,28 @@
 			},
 			"~|Daemonheim Achievements#Easy|~ It's Dangerous to go Alone": {
 				"Description": "Complete a medium, high coplexity dungeon.",
-				"Tasks": {
-					"Unlock ~|frozen floors|~": "Dungeoneering"
-				},
+				"Chunks": ["Dungeons of Daemonheim"],
 				"BaseQuest": "Daemonheim Achievements",
 				"Category": ["Show Diary Tasks"],
 				"RuneScore": 5
 			},
 			"~|Daemonheim Achievements#Easy|~ Kitchen Aid": {
 				"Description": "Attempt to feed a Dungeoneering familiar.",
-				"Tasks": {
-					"Unlock ~|frozen floors|~": "Dungeoneering"
-				},
+				"Chunks": ["Dungeons of Daemonheim"],
 				"BaseQuest": "Daemonheim Achievements",
 				"Category": ["Show Diary Tasks"],
 				"RuneScore": 5
 			},
 			"~|Daemonheim Achievements#Easy|~ The Lone Dungeoneer": {
 				"Description": "Complete a dungeon solo.",
-				"Tasks": {
-					"Unlock ~|frozen floors|~": "Dungeoneering"
-				},
+				"Chunks": ["Dungeons of Daemonheim"],
 				"BaseQuest": "Daemonheim Achievements",
 				"Category": ["Show Diary Tasks"],
 				"RuneScore": 5
 			},
 			"~|Daemonheim Achievements#Easy|~ Dere-licked": {
 				"Description": "Complete an abandoned floor on any complexity, solo.",
-				"Tasks": {
-					"Unlock ~|frozen floors|~": "Dungeoneering"
-				},
+				"Chunks": ["Dungeons of Daemonheim"],
 				"Skills": {
 					"Dungeoneering": 23
 				},
@@ -107512,9 +107344,7 @@
 			},
 			"~|Daemonheim Achievements#Easy|~ Take It From the Top": {
 				"Description": "Reset your current floor progress.",
-				"Tasks": {
-					"Unlock ~|frozen floors|~": "Dungeoneering"
-				},
+				"Chunks": ["Dungeons of Daemonheim"],
 				"Skills": {
 					"Dungeoneering": 2
 				},
@@ -107524,9 +107354,7 @@
 			},
 			"~|Daemonheim Achievements#Easy|~ Change of a Dress": {
 				"Description": "Switch to another bind loadout.",
-				"Tasks": {
-					"Unlock ~|frozen floors|~": "Dungeoneering"
-				},
+				"Chunks": ["Dungeons of Daemonheim"],
 				"Skills": {
 					"Dungeoneering": 20
 				},
@@ -107536,9 +107364,7 @@
 			},
 			"~|Daemonheim Achievements#Easy|~ Gorajo Fandango": {
 				"Description": "Use a combat familiar to help fight a boss using their standard attacks.",
-				"Tasks": {
-					"Unlock ~|frozen floors|~": "Dungeoneering"
-				},
+				"Chunks": ["Dungeons of Daemonheim"],
 				"BaseQuest": "Daemonheim Achievements",
 				"Category": ["Show Diary Tasks"],
 				"RuneScore": 5,
@@ -107546,9 +107372,7 @@
 			},
 			"~|Daemonheim Achievements#Easy|~ You're Not the Boss of Me": {
 				"Description": "Defeat the boss on floor 1, solo.",
-				"Tasks": {
-					"Unlock ~|frozen floors|~": "Dungeoneering"
-				},
+				"Chunks": ["Dungeons of Daemonheim"],
 				"BaseQuest": "Daemonheim Achievements",
 				"Category": ["Show Diary Tasks"],
 				"RuneScore": 5
@@ -107562,27 +107386,21 @@
 			},
 			"~|Daemonheim Achievements#Easy|~ Invisible Ink": {
 				"Description": "Use a ring of kinship on a fire within a dungeon.",
-				"Tasks": {
-					"Unlock ~|frozen floors|~": "Dungeoneering"
-				},
+				"Chunks": ["Dungeons of Daemonheim"],
 				"BaseQuest": "Daemonheim Achievements",
 				"Category": ["Show Diary Tasks"],
 				"RuneScore": 5
 			},
 			"~|Daemonheim Achievements#Easy|~ Untouchable": {
 				"Description": "Complete a floor without dying, solo.",
-				"Tasks": {
-					"Unlock ~|frozen floors|~": "Dungeoneering"
-				},
+				"Chunks": ["Dungeons of Daemonheim"],
 				"BaseQuest": "Daemonheim Achievements",
 				"Category": ["Show Diary Tasks"],
 				"RuneScore": 5
 			},
 			"~|Daemonheim Achievements#Easy|~ Fashion Victim": {
 				"Description": "Wear a full suit of any tier 1 armour (helm, body, legs, boots, gloves).",
-				"Tasks": {
-					"Unlock ~|frozen floors|~": "Dungeoneering"
-				},
+				"Chunks": ["Dungeons of Daemonheim"],
 				"BaseQuest": "Daemonheim Achievements",
 				"Category": ["Show Diary Tasks"],
 				"RuneScore": 5
@@ -107600,18 +107418,14 @@
 				"Skills": {
 					"Dungeoneering": 6
 				},
-				"Tasks": {
-					"Unlock ~|frozen floors|~": "Dungeoneering"
-				},
+				"Chunks": ["Dungeons of Daemonheim"],
 				"BaseQuest": "Daemonheim Achievements",
 				"Category": ["Show Diary Tasks"],
 				"RuneScore": 5
 			},
 			"~|Daemonheim Achievements#Easy|~ A Flicker in Darkness": {
 				"Description": "Use a crater to convert a memory of tier 2 or higher to energy.",
-				"Tasks": {
-					"Unlock ~|frozen floors|~": "Dungeoneering"
-				},
+				"Chunks": ["Dungeons of Daemonheim"],
 				"Skills": {
 					"Divination": 10
 				},
@@ -107665,9 +107479,9 @@
 			},
 			"~|Daemonheim Achievements#Medium|~ I Want It All": {
 				"Description": "Gain the Beast Mode title on a high complexity floor solo.",
+				"Chunks": ["Dungeons of Daemonheim"],
 				"Tasks": {
-					"~|Daemonheim Achievements#Easy|~ Complete the Easy Achievements": "Diary",
-					"Unlock ~|frozen floors|~": "Dungeoneering"
+					"~|Daemonheim Achievements#Easy|~ Complete the Easy Achievements": "Diary"
 				},
 				"BaseQuest": "Daemonheim Achievements",
 				"Category": ["Show Diary Tasks"],
@@ -107675,9 +107489,9 @@
 			},
 			"~|Daemonheim Achievements#Medium|~ And I Want It Now": {
 				"Description": "Complete a high complexity floor solo in under 6 minutes.",
+				"Chunks": ["Dungeons of Daemonheim"],
 				"Tasks": {
-					"~|Daemonheim Achievements#Easy|~ Complete the Easy Achievements": "Diary",
-					"Unlock ~|frozen floors|~": "Dungeoneering"
+					"~|Daemonheim Achievements#Easy|~ Complete the Easy Achievements": "Diary"
 				},
 				"BaseQuest": "Daemonheim Achievements",
 				"Category": ["Show Diary Tasks"],
@@ -107698,12 +107512,12 @@
 			},
 			"~|Daemonheim Achievements#Medium|~ Tactical Retreat": {
 				"Description": "Flee from any boss using a self-made gatestone.",
+				"Chunks": ["Dungeons of Daemonheim"],
 				"Skills": {
 					"Magic": 32
 				},
 				"Tasks": {
-					"~|Daemonheim Achievements#Easy|~ Complete the Easy Achievements": "Diary",
-					"Unlock ~|frozen floors|~": "Dungeoneering"
+					"~|Daemonheim Achievements#Easy|~ Complete the Easy Achievements": "Diary"
 				},
 				"BaseQuest": "Daemonheim Achievements",
 				"Category": ["Show Diary Tasks"],
@@ -107711,12 +107525,12 @@
 			},
 			"~|Daemonheim Achievements#Medium|~ Port Enter": {
 				"Description": "Create and use a portent of passage V or above to attempt to pass through a skill door.",
+				"Chunks": ["Dungeons of Daemonheim"],
 				"Skills": {
 					"Divination": 45
 				},
 				"Tasks": {
-					"~|Daemonheim Achievements#Easy|~ Complete the Easy Achievements": "Diary",
-					"Unlock ~|frozen floors|~": "Dungeoneering"
+					"~|Daemonheim Achievements#Easy|~ Complete the Easy Achievements": "Diary"
 				},
 				"BaseQuest": "Daemonheim Achievements",
 				"Category": ["Show Diary Tasks"],
@@ -107735,12 +107549,12 @@
 			},
 			"~|Daemonheim Achievements#Medium|~ Nice to Meet You, Wall": {
 				"Description": "Kill Rammernaut without getting charged, or make him stun himself.",
+				"Chunks": ["Dungeons of Daemonheim"],
 				"Skills": {
 					"Dungeoneering": 35
 				},
 				"Tasks": {
-					"~|Daemonheim Achievements#Easy|~ Complete the Easy Achievements": "Diary",
-					"Unlock ~|frozen floors|~": "Dungeoneering"
+					"~|Daemonheim Achievements#Easy|~ Complete the Easy Achievements": "Diary"
 				},
 				"BaseQuest": "Daemonheim Achievements",
 				"Category": ["Show Diary Tasks"],
@@ -107748,7 +107562,7 @@
 			},
 			"~|Daemonheim Achievements#Medium|~ 300": {
 				"Description": "Complete Three's Company with 100%.",
-				"Chunks": ["13625-1"],
+				"Chunks": ["13625-1", "Dungeons of Daemonheim"],
 				"Skills": {
 					"Dungeoneering": 6,
 					"Attack": 30,
@@ -107756,8 +107570,7 @@
 					"Ranged": 30
 				},
 				"Tasks": {
-					"~|Daemonheim Achievements#Easy|~ Complete the Easy Achievements": "Diary",
-					"Unlock ~|frozen floors|~": "Dungeoneering"
+					"~|Daemonheim Achievements#Easy|~ Complete the Easy Achievements": "Diary"
 				},
 				"BaseQuest": "Daemonheim Achievements",
 				"Category": ["Show Diary Tasks"],
@@ -107765,13 +107578,13 @@
 			},
 			"~|Daemonheim Achievements#Medium|~ Drink Me": {
 				"Description": "Boost your Magic level with a self-made tier 2+ potion (from seed).",
+				"Chunks": ["Dungeons of Daemonheim"],
 				"Skills": {
 					"Farming": 40,
 					"Herblore": 36
 				},
 				"Tasks": {
-					"~|Daemonheim Achievements#Easy|~ Complete the Easy Achievements": "Diary",
-					"Unlock ~|frozen floors|~": "Dungeoneering"
+					"~|Daemonheim Achievements#Easy|~ Complete the Easy Achievements": "Diary"
 				},
 				"BaseQuest": "Daemonheim Achievements",
 				"Category": ["Show Diary Tasks"],
@@ -107780,13 +107593,13 @@
 			},
 			"~|Daemonheim Achievements#Medium|~ Spinal Trap": {
 				"Description": "Set a spinebeam trap that you made yourself.",
+				"Chunks": ["Dungeons of Daemonheim"],
 				"Skills": {
 					"Fletching": 43,
 					"Hunter": 40
 				},
 				"Tasks": {
-					"~|Daemonheim Achievements#Easy|~ Complete the Easy Achievements": "Diary",
-					"Unlock ~|frozen floors|~": "Dungeoneering"
+					"~|Daemonheim Achievements#Easy|~ Complete the Easy Achievements": "Diary"
 				},
 				"BaseQuest": "Daemonheim Achievements",
 				"Category": ["Show Diary Tasks"],
@@ -107795,12 +107608,12 @@
 			},
 			"~|Daemonheim Achievements#Medium|~ Cache Box": {
 				"Description": "Unlock a level 40+ chest.",
+				"Chunks": ["Dungeons of Daemonheim"],
 				"Skills": {
 					"Thieving": 40
 				},
 				"Tasks": {
-					"~|Daemonheim Achievements#Easy|~ Complete the Easy Achievements": "Diary",
-					"Unlock ~|frozen floors|~": "Dungeoneering"
+					"~|Daemonheim Achievements#Easy|~ Complete the Easy Achievements": "Diary"
 				},
 				"BaseQuest": "Daemonheim Achievements",
 				"Category": ["Show Diary Tasks"],
@@ -107809,9 +107622,9 @@
 			},
 			"~|Daemonheim Achievements#Medium|~ Up to the Gods": {
 				"Description": "Sacrifice a frost dragon bone on a prayer altar from a dragon you killed yourself in a solo dungeon.",
+				"Chunks": ["Dungeons of Daemonheim"],
 				"Tasks": {
-					"~|Daemonheim Achievements#Easy|~ Complete the Easy Achievements": "Diary",
-					"Unlock ~|frozen floors|~": "Dungeoneering"
+					"~|Daemonheim Achievements#Easy|~ Complete the Easy Achievements": "Diary"
 				},
 				"BaseQuest": "Daemonheim Achievements",
 				"Category": ["Show Diary Tasks"],
@@ -107861,10 +107674,10 @@
 			},
 			"~|Daemonheim Achievements#Hard|~ Stacked": {
 				"Description": "Start a floor with 225 of any type of ammo bound to you.",
+				"Chunks": ["Dungeons of Daemonheim"],
 				"Tasks": {
 					"~|Daemonheim Achievements#Medium|~ Complete the Medium Achievements": "Diary",
-					"~|Salt in the Wound|~ Complete the quest": "Quest",
-					"Unlock ~|frozen floors|~": "Dungeoneering"
+					"~|Salt in the Wound|~ Complete the quest": "Quest"
 				},
 				"BaseQuest": "Daemonheim Achievements",
 				"Category": ["Show Diary Tasks"],
@@ -107873,9 +107686,9 @@
 			},
 			"~|Daemonheim Achievements#Hard|~ Kinprovements": {
 				"Description": "Wear a ring of kinship with a fully upgraded role. e.g. Tank, Medic.",
+				"Chunks": ["Dungeons of Daemonheim"],
 				"Tasks": {
-					"~|Daemonheim Achievements#Medium|~ Complete the Medium Achievements": "Diary",
-					"Unlock ~|frozen floors|~": "Dungeoneering"
+					"~|Daemonheim Achievements#Medium|~ Complete the Medium Achievements": "Diary"
 				},
 				"BaseQuest": "Daemonheim Achievements",
 				"Category": ["Show Diary Tasks"],
@@ -107884,12 +107697,12 @@
 			},
 			"~|Daemonheim Achievements#Hard|~ Lawful Crafting": {
 				"Description": "Craft some law runes while inside a dungeon.",
+				"Chunks": ["Dungeons of Daemonheim"],
 				"Skills": {
 					"Runecrafting": 54
 				},
 				"Tasks": {
-					"~|Daemonheim Achievements#Medium|~ Complete the Medium Achievements": "Diary",
-					"Unlock ~|frozen floors|~": "Dungeoneering"
+					"~|Daemonheim Achievements#Medium|~ Complete the Medium Achievements": "Diary"
 				},
 				"BaseQuest": "Daemonheim Achievements",
 				"Category": ["Show Diary Tasks"],
@@ -107897,12 +107710,12 @@
 			},
 			"~|Daemonheim Achievements#Hard|~ Thanks for the Memories": {
 				"Description": "Harvest memories from a tier 8 (or higher) spring.",
+				"Chunks": ["Dungeons of Daemonheim"],
 				"Skills": {
 					"Divination": 70
 				},
 				"Tasks": {
-					"~|Daemonheim Achievements#Medium|~ Complete the Medium Achievements": "Diary",
-					"Unlock ~|frozen floors|~": "Dungeoneering"
+					"~|Daemonheim Achievements#Medium|~ Complete the Medium Achievements": "Diary"
 				},
 				"BaseQuest": "Daemonheim Achievements",
 				"Category": ["Show Diary Tasks"],
@@ -107911,14 +107724,14 @@
 			},
 			"~|Daemonheim Achievements#Hard|~ Healing Factor": {
 				"Description": "Use the Rapid Renewal prayer for 1 minute within a dungeon.",
+				"Chunks": ["Dungeons of Daemonheim"],
 				"Chunks": ["13625-1"],
 				"Skills": {
 					"Dungeoneering": 65,
 					"Prayer": 65
 				},
 				"Tasks": {
-					"~|Daemonheim Achievements#Medium|~ Complete the Medium Achievements": "Diary",
-					"Unlock ~|frozen floors|~": "Dungeoneering"
+					"~|Daemonheim Achievements#Medium|~ Complete the Medium Achievements": "Diary"
 				},
 				"BaseQuest": "Daemonheim Achievements",
 				"Category": ["Show Diary Tasks"],
@@ -107942,12 +107755,12 @@
 			},
 			"~|Daemonheim Achievements#Hard|~ Hoof Rot": {
 				"Description": "Have Bal'Lak the Pummeller walk onto his own rifts in a solo dungeon.",
+				"Chunks": ["Dungeons of Daemonheim"],
 				"Skills": {
 					"Dungeoneering": 65
 				},
 				"Tasks": {
-					"~|Daemonheim Achievements#Medium|~ Complete the Medium Achievements": "Diary",
-					"Unlock ~|frozen floors|~": "Dungeoneering"
+					"~|Daemonheim Achievements#Medium|~ Complete the Medium Achievements": "Diary"
 				},
 				"BaseQuest": "Daemonheim Achievements",
 				"Category": ["Show Diary Tasks"],
@@ -107955,13 +107768,13 @@
 			},
 			"~|Daemonheim Achievements#Hard|~ A Prayer Opportunity": {
 				"Description": "Build a prayer altar in the starting room and fill up your prayer points from it.",
+				"Chunks": ["Dungeons of Daemonheim"],
 				"Skills": {
 					"Construction": 75,
 					"Smithing": 50
 				},
 				"Tasks": {
-					"~|Daemonheim Achievements#Medium|~ Complete the Medium Achievements": "Diary",
-					"Unlock ~|frozen floors|~": "Dungeoneering"
+					"~|Daemonheim Achievements#Medium|~ Complete the Medium Achievements": "Diary"
 				},
 				"BaseQuest": "Daemonheim Achievements",
 				"Category": ["Show Diary Tasks"],
@@ -107970,12 +107783,12 @@
 			},
 			"~|Daemonheim Achievements#Hard|~ The Wanderer": {
 				"Description": "Imbue a catalytic wand on the runecrafting altar.",
+				"Chunks": ["Dungeons of Daemonheim"],
 				"Skills": {
 					"Runecrafting": 50
 				},
 				"Tasks": {
-					"~|Daemonheim Achievements#Medium|~ Complete the Medium Achievements": "Diary",
-					"Unlock ~|frozen floors|~": "Dungeoneering"
+					"~|Daemonheim Achievements#Medium|~ Complete the Medium Achievements": "Diary"
 				},
 				"BaseQuest": "Daemonheim Achievements",
 				"Category": ["Show Diary Tasks"],
@@ -107983,13 +107796,13 @@
 			},
 			"~|Daemonheim Achievements#Hard|~ Get Stuffed": {
 				"Description": "Make a bouldabass & edicap potato from the raw ingredients and eat it in a boss fight.",
+				"Chunks": ["Dungeons of Daemonheim"],
 				"Skills": {
 					"Cooking": 69,
 					"Farming": 68
 				},
 				"Tasks": {
-					"~|Daemonheim Achievements#Medium|~ Complete the Medium Achievements": "Diary",
-					"Unlock ~|frozen floors|~": "Dungeoneering"
+					"~|Daemonheim Achievements#Medium|~ Complete the Medium Achievements": "Diary"
 				},
 				"BaseQuest": "Daemonheim Achievements",
 				"Category": ["Show Diary Tasks"],
@@ -108046,12 +107859,12 @@
 			},
 			"~|Daemonheim Achievements#Elite|~ Any fin is Possible": {
 				"Description": "Cook 1 of each type of fish.",
+				"Chunks": ["Dungeons of Daemonheim"],
 				"Skills": {
 					"Cooking": 90
 				},
 				"Tasks": {
-					"~|Daemonheim Achievements#Hard|~ Complete the Hard Achievements": "Diary",
-					"Unlock ~|frozen floors|~": "Dungeoneering"
+					"~|Daemonheim Achievements#Hard|~ Complete the Hard Achievements": "Diary"
 				},
 				"BaseQuest": "Daemonheim Achievements",
 				"Category": ["Show Diary Tasks"],
@@ -108060,13 +107873,13 @@
 			},
 			"~|Daemonheim Achievements#Elite|~ Orbful": {
 				"Description": "Craft and wield a spiritbloom orb.",
+				"Chunks": ["Dungeons of Daemonheim"],
 				"Skills": {
 					"Crafting": 98,
 					"Magic": 90
 				},
 				"Tasks": {
-					"~|Daemonheim Achievements#Hard|~ Complete the Hard Achievements": "Diary",
-					"Unlock ~|frozen floors|~": "Dungeoneering"
+					"~|Daemonheim Achievements#Hard|~ Complete the Hard Achievements": "Diary"
 				},
 				"BaseQuest": "Daemonheim Achievements",
 				"Category": ["Show Diary Tasks"],
@@ -108075,12 +107888,12 @@
 			},
 			"~|Daemonheim Achievements#Elite|~ Top Hat": {
 				"Description": "Create a promethium full helm from scratch.",
+				"Chunks": ["Dungeons of Daemonheim"],
 				"Skills": {
 					"Smithing": 95
 				},
 				"Tasks": {
-					"~|Daemonheim Achievements#Hard|~ Complete the Hard Achievements": "Diary",
-					"Unlock ~|frozen floors|~": "Dungeoneering"
+					"~|Daemonheim Achievements#Hard|~ Complete the Hard Achievements": "Diary"
 				},
 				"BaseQuest": "Daemonheim Achievements",
 				"Category": ["Show Diary Tasks"],
@@ -108089,12 +107902,12 @@
 			},
 			"~|Daemonheim Achievements#Elite|~ In the Darkness Bind Them": {
 				"Description": "Wear 4 bound items.",
+				"Chunks": ["Dungeons of Daemonheim"],
 				"Skills": {
 					"Dungeoneering": 90
 				},
 				"Tasks": {
-					"~|Daemonheim Achievements#Hard|~ Complete the Hard Achievements": "Diary",
-					"Unlock ~|frozen floors|~": "Dungeoneering"
+					"~|Daemonheim Achievements#Hard|~ Complete the Hard Achievements": "Diary"
 				},
 				"BaseQuest": "Daemonheim Achievements",
 				"Category": ["Show Diary Tasks"],
@@ -108102,12 +107915,12 @@
 			},
 			"~|Daemonheim Achievements#Elite|~ Pass the Port": {
 				"Description": "Create and use a portent of restoration IX or higher.",
+				"Chunks": ["Dungeons of Daemonheim"],
 				"Skills": {
 					"Divination": 86
 				},
 				"Tasks": {
-					"~|Daemonheim Achievements#Hard|~ Complete the Hard Achievements": "Diary",
-					"Unlock ~|frozen floors|~": "Dungeoneering"
+					"~|Daemonheim Achievements#Hard|~ Complete the Hard Achievements": "Diary"
 				},
 				"BaseQuest": "Daemonheim Achievements",
 				"Category": ["Show Diary Tasks"],
@@ -108116,12 +107929,12 @@
 			},
 			"~|Daemonheim Achievements#Elite|~ Gulega-d to Rest": {
 				"Description": "Kill the warped gulega, but avoid his 1 lifepoint attack in a solo dungeon.",
+				"Chunks": ["Dungeons of Daemonheim"],
 				"Skills": {
 					"Dungeoneering": 95
 				},
 				"Tasks": {
-					"~|Daemonheim Achievements#Hard|~ Complete the Hard Achievements": "Diary",
-					"Unlock ~|warped floors|~": "Dungeoneering"
+					"~|Daemonheim Achievements#Hard|~ Complete the Hard Achievements": "Diary"
 				},
 				"BaseQuest": "Daemonheim Achievements",
 				"Category": ["Show Diary Tasks"],
@@ -130727,9 +130540,7 @@
 					"Dungeoneering": 80,
 					"Invention": 20
 				},
-				"Tasks": {
-					"Unlock ~|frozen floors|~": "Dungeoneering"
-				},
+				"Chunks": ["Dungeons of Daemonheim"],
 				"RuneScore": 10
 			},
 			"~|Skills achievements#Dungeoneering|~ The Home of Daemons": {
@@ -130739,9 +130550,7 @@
 				"Skills": {
 					"Dungeoneering": 113
 				},
-				"Tasks": {
-					"Unlock ~|frozen floors|~": "Dungeoneering"
-				},
+				"Chunks": ["Dungeons of Daemonheim"],
 				"RuneScore": 50,
 				"Not F2P": true,
 				"NoBoost": true
@@ -130855,7 +130664,7 @@
 				"Description": "Complete one floor of each theme within 6 minutes 15 seconds in a solo large dungeon, on high complexity, exploring all rooms.",
 				"BaseQuest": "Skills achievements",
 				"Tasks": {
-					"Unlock ~|frozen floors|~": "Dungeoneering"
+					"Unlock ~|warped floors|~": "Dungeoneering"
 				},
 				"RuneScore": 30,
 				"Not F2P": true
@@ -149200,9 +149009,7 @@
 			"(Any Floor) Obtain a ~|celestial surgebox|~": {
 				"Category": ["Untracked Uniques", "Untracked Uniques Daemonheim"],
 				"Label": "Daemonheim Uniques",
-				"Tasks": {
-					"Unlock ~|frozen floors|~": "Dungeoneering"
-				},
+				"Chunks": ["Dungeons of Daemonheim"],
 				"Requirements": {
 					"Dungeoneering": 1
 				},
@@ -149211,9 +149018,7 @@
 			"(Any Floor) Obtain a ~|magic blastbox|~": {
 				"Category": ["Untracked Uniques", "Untracked Uniques Daemonheim"],
 				"Label": "Daemonheim Uniques",
-				"Tasks": {
-					"Unlock ~|frozen floors|~": "Dungeoneering"
-				},
+				"Chunks": ["Dungeons of Daemonheim"],
 				"Requirements": {
 					"Dungeoneering": 1
 				}
@@ -149221,9 +149026,7 @@
 			"(Celestial Equipment) Obtain a ~|celestial catalytic wand|~": {
 				"Category": ["Untracked Uniques", "Untracked Uniques Daemonheim"],
 				"Label": "Daemonheim Uniques",
-				"Tasks": {
-					"Unlock ~|frozen floors|~": "Dungeoneering"
-				},
+				"Chunks": ["Dungeons of Daemonheim"],
 				"Requirements": {
 					"Dungeoneering": 1
 				},
@@ -149232,9 +149035,7 @@
 			"(Celestial Equipment) Obtain a ~|celestial catalytic orb|~": {
 				"Category": ["Untracked Uniques", "Untracked Uniques Daemonheim"],
 				"Label": "Daemonheim Uniques",
-				"Tasks": {
-					"Unlock ~|frozen floors|~": "Dungeoneering"
-				},
+				"Chunks": ["Dungeons of Daemonheim"],
 				"Requirements": {
 					"Dungeoneering": 39
 				},
@@ -149243,9 +149044,7 @@
 			"(Celestial Equipment) Obtain a ~|celestial catalytic staff|~": {
 				"Category": ["Untracked Uniques", "Untracked Uniques Daemonheim"],
 				"Label": "Daemonheim Uniques",
-				"Tasks": {
-					"Unlock ~|frozen floors|~": "Dungeoneering"
-				},
+				"Chunks": ["Dungeons of Daemonheim"],
 				"Requirements": {
 					"Dungeoneering": 29
 				},
@@ -149254,9 +149053,7 @@
 			"(Celestial Equipment) Obtain a ~|celestial hood|~": {
 				"Category": ["Untracked Uniques", "Untracked Uniques Daemonheim"],
 				"Label": "Daemonheim Uniques",
-				"Tasks": {
-					"Unlock ~|frozen floors|~": "Dungeoneering"
-				},
+				"Chunks": ["Dungeons of Daemonheim"],
 				"Requirements": {
 					"Dungeoneering": 39
 				},
@@ -149265,9 +149062,7 @@
 			"(Celestial Equipment) Obtain a ~|celestial robe top|~": {
 				"Category": ["Untracked Uniques", "Untracked Uniques Daemonheim"],
 				"Label": "Daemonheim Uniques",
-				"Tasks": {
-					"Unlock ~|frozen floors|~": "Dungeoneering"
-				},
+				"Chunks": ["Dungeons of Daemonheim"],
 				"Requirements": {
 					"Dungeoneering": 95
 				},
@@ -149276,9 +149071,7 @@
 			"(Celestial Equipment) Obtain a ~|celestial robe bottom|~": {
 				"Category": ["Untracked Uniques", "Untracked Uniques Daemonheim"],
 				"Label": "Daemonheim Uniques",
-				"Tasks": {
-					"Unlock ~|frozen floors|~": "Dungeoneering"
-				},
+				"Chunks": ["Dungeons of Daemonheim"],
 				"Requirements": {
 					"Dungeoneering": 81
 				},
@@ -149287,9 +149080,7 @@
 			"(Celestial Equipment) Obtain ~|celestial gloves|~": {
 				"Category": ["Untracked Uniques", "Untracked Uniques Daemonheim"],
 				"Label": "Daemonheim Uniques",
-				"Tasks": {
-					"Unlock ~|frozen floors|~": "Dungeoneering"
-				},
+				"Chunks": ["Dungeons of Daemonheim"],
 				"Requirements": {
 					"Dungeoneering": 17
 				},
@@ -149298,9 +149089,7 @@
 			"(Celestial Equipment) Obtain ~|celestial shoes|~": {
 				"Category": ["Untracked Uniques", "Untracked Uniques Daemonheim"],
 				"Label": "Daemonheim Uniques",
-				"Tasks": {
-					"Unlock ~|frozen floors|~": "Dungeoneering"
-				},
+				"Chunks": ["Dungeons of Daemonheim"],
 				"Requirements": {
 					"Dungeoneering": 1
 				},
@@ -149309,9 +149098,7 @@
 			"(Celestial Equipment) Obtain a ~|celestial shield|~": {
 				"Category": ["Untracked Uniques", "Untracked Uniques Daemonheim"],
 				"Label": "Daemonheim Uniques",
-				"Tasks": {
-					"Unlock ~|frozen floors|~": "Dungeoneering"
-				},
+				"Chunks": ["Dungeons of Daemonheim"],
 				"Requirements": {
 					"Dungeoneering": 71
 				},
@@ -149320,9 +149107,7 @@
 			"(Sagittarian Equipment) Obtain a ~|sagittarian arrow|~": {
 				"Category": ["Untracked Uniques", "Untracked Uniques Daemonheim"],
 				"Label": "Daemonheim Uniques",
-				"Tasks": {
-					"Unlock ~|frozen floors|~": "Dungeoneering"
-				},
+				"Chunks": ["Dungeons of Daemonheim"],
 				"Requirements": {
 					"Dungeoneering": 45
 				},
@@ -149331,9 +149116,7 @@
 			"(Sagittarian Equipment) Obtain a ~|sagittarian shortbow|~": {
 				"Category": ["Untracked Uniques", "Untracked Uniques Daemonheim"],
 				"Label": "Daemonheim Uniques",
-				"Tasks": {
-					"Unlock ~|frozen floors|~": "Dungeoneering"
-				},
+				"Chunks": ["Dungeons of Daemonheim"],
 				"Requirements": {
 					"Dungeoneering": 71
 				},
@@ -149342,9 +149125,7 @@
 			"(Sagittarian Equipment) Obtain a ~|sagittarian longbow|~": {
 				"Category": ["Untracked Uniques", "Untracked Uniques Daemonheim"],
 				"Label": "Daemonheim Uniques",
-				"Tasks": {
-					"Unlock ~|frozen floors|~": "Dungeoneering"
-				},
+				"Chunks": ["Dungeons of Daemonheim"],
 				"Requirements": {
 					"Dungeoneering": 45
 				},
@@ -149353,9 +149134,7 @@
 			"(Sagittarian Equipment) Obtain a ~|sagittarian coif|~": {
 				"Category": ["Untracked Uniques", "Untracked Uniques Daemonheim"],
 				"Label": "Daemonheim Uniques",
-				"Tasks": {
-					"Unlock ~|frozen floors|~": "Dungeoneering"
-				},
+				"Chunks": ["Dungeons of Daemonheim"],
 				"Requirements": {
 					"Dungeoneering": 35
 				},
@@ -149364,9 +149143,7 @@
 			"(Sagittarian Equipment) Obtain a ~|sagittarian body|~": {
 				"Category": ["Untracked Uniques", "Untracked Uniques Daemonheim"],
 				"Label": "Daemonheim Uniques",
-				"Tasks": {
-					"Unlock ~|frozen floors|~": "Dungeoneering"
-				},
+				"Chunks": ["Dungeons of Daemonheim"],
 				"Requirements": {
 					"Dungeoneering": 101
 				},
@@ -149375,9 +149152,7 @@
 			"(Sagittarian Equipment) Obtain a ~|sagittarian chaps|~": {
 				"Category": ["Untracked Uniques", "Untracked Uniques Daemonheim"],
 				"Label": "Daemonheim Uniques",
-				"Tasks": {
-					"Unlock ~|frozen floors|~": "Dungeoneering"
-				},
+				"Chunks": ["Dungeons of Daemonheim"],
 				"Requirements": {
 					"Dungeoneering": 77
 				},
@@ -149386,9 +149161,7 @@
 			"(Sagittarian Equipment) Obtain a ~|sagittarian vambraces|~": {
 				"Category": ["Untracked Uniques", "Untracked Uniques Daemonheim"],
 				"Label": "Daemonheim Uniques",
-				"Tasks": {
-					"Unlock ~|frozen floors|~": "Dungeoneering"
-				},
+				"Chunks": ["Dungeons of Daemonheim"],
 				"Requirements": {
 					"Dungeoneering": 1
 				},
@@ -149397,9 +149170,7 @@
 			"(Sagittarian Equipment) Obtain a ~|sagittarian boots|~": {
 				"Category": ["Untracked Uniques", "Untracked Uniques Daemonheim"],
 				"Label": "Daemonheim Uniques",
-				"Tasks": {
-					"Unlock ~|frozen floors|~": "Dungeoneering"
-				},
+				"Chunks": ["Dungeons of Daemonheim"],
 				"Requirements": {
 					"Dungeoneering": 23
 				},
@@ -149408,9 +149179,7 @@
 			"(Sagittarian Equipment) Obtain a ~|sagittarian shield|~": {
 				"Category": ["Untracked Uniques", "Untracked Uniques Daemonheim"],
 				"Label": "Daemonheim Uniques",
-				"Tasks": {
-					"Unlock ~|frozen floors|~": "Dungeoneering"
-				},
+				"Chunks": ["Dungeons of Daemonheim"],
 				"Requirements": {
 					"Dungeoneering": 35
 				},
@@ -149419,9 +149188,7 @@
 			"(Primal Equipment) Obtain a ~|primal battleaxe|~": {
 				"Category": ["Untracked Uniques", "Untracked Uniques Daemonheim"],
 				"Label": "Daemonheim Uniques",
-				"Tasks": {
-					"Unlock ~|frozen floors|~": "Dungeoneering"
-				},
+				"Chunks": ["Dungeons of Daemonheim"],
 				"Requirements": {
 					"Dungeoneering": 65
 				},
@@ -149430,9 +149197,7 @@
 			"(Primal Equipment) Obtain a ~|primal dagger|~": {
 				"Category": ["Untracked Uniques", "Untracked Uniques Daemonheim"],
 				"Label": "Daemonheim Uniques",
-				"Tasks": {
-					"Unlock ~|frozen floors|~": "Dungeoneering"
-				},
+				"Chunks": ["Dungeons of Daemonheim"],
 				"Requirements": {
 					"Dungeoneering": 5
 				},
@@ -149441,9 +149206,7 @@
 			"(Primal Equipment) Obtain a ~|primal hatchet|~": {
 				"Category": ["Untracked Uniques", "Untracked Uniques Daemonheim"],
 				"Label": "Daemonheim Uniques",
-				"Tasks": {
-					"Unlock ~|frozen floors|~": "Dungeoneering"
-				},
+				"Chunks": ["Dungeons of Daemonheim"],
 				"Requirements": {
 					"Dungeoneering": 23
 				},
@@ -149452,9 +149215,7 @@
 			"(Primal Equipment) Obtain a ~|primal longsword|~": {
 				"Category": ["Untracked Uniques", "Untracked Uniques Daemonheim"],
 				"Label": "Daemonheim Uniques",
-				"Tasks": {
-					"Unlock ~|frozen floors|~": "Dungeoneering"
-				},
+				"Chunks": ["Dungeons of Daemonheim"],
 				"Requirements": {
 					"Dungeoneering": 95
 				},
@@ -149463,9 +149224,7 @@
 			"(Primal Equipment) Obtain a ~|primal pickaxe|~": {
 				"Category": ["Untracked Uniques", "Untracked Uniques Daemonheim"],
 				"Label": "Daemonheim Uniques",
-				"Tasks": {
-					"Unlock ~|frozen floors|~": "Dungeoneering"
-				},
+				"Chunks": ["Dungeons of Daemonheim"],
 				"Requirements": {
 					"Dungeoneering": 23
 				},
@@ -149474,9 +149233,7 @@
 			"(Primal Equipment) Obtain a ~|primal rapier|~": {
 				"Category": ["Untracked Uniques", "Untracked Uniques Daemonheim"],
 				"Label": "Daemonheim Uniques",
-				"Tasks": {
-					"Unlock ~|frozen floors|~": "Dungeoneering"
-				},
+				"Chunks": ["Dungeons of Daemonheim"],
 				"Requirements": {
 					"Dungeoneering": 35
 				},
@@ -149485,9 +149242,7 @@
 			"(Primal Equipment) Obtain a ~|primal warhammer|~": {
 				"Category": ["Untracked Uniques", "Untracked Uniques Daemonheim"],
 				"Label": "Daemonheim Uniques",
-				"Tasks": {
-					"Unlock ~|frozen floors|~": "Dungeoneering"
-				},
+				"Chunks": ["Dungeons of Daemonheim"],
 				"Requirements": {
 					"Dungeoneering": 65
 				},
@@ -149496,9 +149251,7 @@
 			"(Primal Equipment) Obtain an ~|off-hand primal battleaxe|~": {
 				"Category": ["Untracked Uniques", "Untracked Uniques Daemonheim"],
 				"Label": "Daemonheim Uniques",
-				"Tasks": {
-					"Unlock ~|frozen floors|~": "Dungeoneering"
-				},
+				"Chunks": ["Dungeons of Daemonheim"],
 				"Requirements": {
 					"Dungeoneering": 65
 				},
@@ -149507,9 +149260,7 @@
 			"(Primal Equipment) Obtain an ~|off-hand primal dagger|~": {
 				"Category": ["Untracked Uniques", "Untracked Uniques Daemonheim"],
 				"Label": "Daemonheim Uniques",
-				"Tasks": {
-					"Unlock ~|frozen floors|~": "Dungeoneering"
-				},
+				"Chunks": ["Dungeons of Daemonheim"],
 				"Requirements": {
 					"Dungeoneering": 5
 				},
@@ -149518,9 +149269,7 @@
 			"(Primal Equipment) Obtain an ~|off-hand primal longsword|~": {
 				"Category": ["Untracked Uniques", "Untracked Uniques Daemonheim"],
 				"Label": "Daemonheim Uniques",
-				"Tasks": {
-					"Unlock ~|frozen floors|~": "Dungeoneering"
-				},
+				"Chunks": ["Dungeons of Daemonheim"],
 				"Requirements": {
 					"Dungeoneering": 95
 				},
@@ -149529,9 +149278,7 @@
 			"(Primal Equipment) Obtain an ~|off-hand primal rapier|~": {
 				"Category": ["Untracked Uniques", "Untracked Uniques Daemonheim"],
 				"Label": "Daemonheim Uniques",
-				"Tasks": {
-					"Unlock ~|frozen floors|~": "Dungeoneering"
-				},
+				"Chunks": ["Dungeons of Daemonheim"],
 				"Requirements": {
 					"Dungeoneering": 35
 				},
@@ -149540,9 +149287,7 @@
 			"(Primal Equipment) Obtain an ~|off-hand primal warhammer|~": {
 				"Category": ["Untracked Uniques", "Untracked Uniques Daemonheim"],
 				"Label": "Daemonheim Uniques",
-				"Tasks": {
-					"Unlock ~|frozen floors|~": "Dungeoneering"
-				},
+				"Chunks": ["Dungeons of Daemonheim"],
 				"Requirements": {
 					"Dungeoneering": 65
 				},
@@ -149551,9 +149296,7 @@
 			"(Primal Equipment) Obtain a ~|primal 2h sword|~": {
 				"Category": ["Untracked Uniques", "Untracked Uniques Daemonheim"],
 				"Label": "Daemonheim Uniques",
-				"Tasks": {
-					"Unlock ~|frozen floors|~": "Dungeoneering"
-				},
+				"Chunks": ["Dungeons of Daemonheim"],
 				"Requirements": {
 					"Dungeoneering": 113
 				},
@@ -149562,9 +149305,7 @@
 			"(Primal Equipment) Obtain a ~|primal maul|~": {
 				"Category": ["Untracked Uniques", "Untracked Uniques Daemonheim"],
 				"Label": "Daemonheim Uniques",
-				"Tasks": {
-					"Unlock ~|frozen floors|~": "Dungeoneering"
-				},
+				"Chunks": ["Dungeons of Daemonheim"],
 				"Requirements": {
 					"Dungeoneering": 35
 				},
@@ -149573,9 +149314,7 @@
 			"(Primal Equipment) Obtain a ~|primal spear|~": {
 				"Category": ["Untracked Uniques", "Untracked Uniques Daemonheim"],
 				"Label": "Daemonheim Uniques",
-				"Tasks": {
-					"Unlock ~|frozen floors|~": "Dungeoneering"
-				},
+				"Chunks": ["Dungeons of Daemonheim"],
 				"Requirements": {
 					"Dungeoneering": 107
 				},
@@ -149584,9 +149323,7 @@
 			"(Primal Equipment) Obtain a ~|primal knife|~": {
 				"Category": ["Untracked Uniques", "Untracked Uniques Daemonheim"],
 				"Label": "Daemonheim Uniques",
-				"Tasks": {
-					"Unlock ~|frozen floors|~": "Dungeoneering"
-				},
+				"Chunks": ["Dungeons of Daemonheim"],
 				"Requirements": {
 					"Dungeoneering": 65
 				},
@@ -149595,9 +149332,7 @@
 			"(Primal Equipment) Obtain an ~|off-hand primal knife|~": {
 				"Category": ["Untracked Uniques", "Untracked Uniques Daemonheim"],
 				"Label": "Daemonheim Uniques",
-				"Tasks": {
-					"Unlock ~|frozen floors|~": "Dungeoneering"
-				},
+				"Chunks": ["Dungeons of Daemonheim"],
 				"Requirements": {
 					"Dungeoneering": 77
 				},
@@ -149606,9 +149341,7 @@
 			"(Primal Equipment) Obtain a ~|primal full helm|~": {
 				"Category": ["Untracked Uniques", "Untracked Uniques Daemonheim"],
 				"Label": "Daemonheim Uniques",
-				"Tasks": {
-					"Unlock ~|frozen floors|~": "Dungeoneering"
-				},
+				"Chunks": ["Dungeons of Daemonheim"],
 				"Requirements": {
 					"Dungeoneering": 23
 				},
@@ -149617,9 +149350,7 @@
 			"(Primal Equipment) Obtain a ~|primal platebody|~": {
 				"Category": ["Untracked Uniques", "Untracked Uniques Daemonheim"],
 				"Label": "Daemonheim Uniques",
-				"Tasks": {
-					"Unlock ~|frozen floors|~": "Dungeoneering"
-				},
+				"Chunks": ["Dungeons of Daemonheim"],
 				"Requirements": {
 					"Dungeoneering": 95
 				},
@@ -149628,9 +149359,7 @@
 			"(Primal Equipment) Obtain a ~|primal chainbody|~": {
 				"Category": ["Untracked Uniques", "Untracked Uniques Daemonheim"],
 				"Label": "Daemonheim Uniques",
-				"Tasks": {
-					"Unlock ~|frozen floors|~": "Dungeoneering"
-				},
+				"Chunks": ["Dungeons of Daemonheim"],
 				"Requirements": {
 					"Dungeoneering": 71
 				},
@@ -149639,9 +149368,7 @@
 			"(Primal Equipment) Obtain ~|primal platelegs|~": {
 				"Category": ["Untracked Uniques", "Untracked Uniques Daemonheim"],
 				"Label": "Daemonheim Uniques",
-				"Tasks": {
-					"Unlock ~|frozen floors|~": "Dungeoneering"
-				},
+				"Chunks": ["Dungeons of Daemonheim"],
 				"Requirements": {
 					"Dungeoneering": 83
 				},
@@ -149650,9 +149377,7 @@
 			"(Primal Equipment) Obtain a ~|primal plateskirt|~": {
 				"Category": ["Untracked Uniques", "Untracked Uniques Daemonheim"],
 				"Label": "Daemonheim Uniques",
-				"Tasks": {
-					"Unlock ~|frozen floors|~": "Dungeoneering"
-				},
+				"Chunks": ["Dungeons of Daemonheim"],
 				"Requirements": {
 					"Dungeoneering": 51
 				},
@@ -149661,9 +149386,7 @@
 			"(Primal Equipment) Obtain ~|primal gauntlets|~": {
 				"Category": ["Untracked Uniques", "Untracked Uniques Daemonheim"],
 				"Label": "Daemonheim Uniques",
-				"Tasks": {
-					"Unlock ~|frozen floors|~": "Dungeoneering"
-				},
+				"Chunks": ["Dungeons of Daemonheim"],
 				"Requirements": {
 					"Dungeoneering": 11
 				},
@@ -149672,9 +149395,7 @@
 			"(Primal Equipment) Obtain a ~|primal kiteshield|~": {
 				"Category": ["Untracked Uniques", "Untracked Uniques Daemonheim"],
 				"Label": "Daemonheim Uniques",
-				"Tasks": {
-					"Unlock ~|frozen floors|~": "Dungeoneering"
-				},
+				"Chunks": ["Dungeons of Daemonheim"],
 				"Requirements": {
 					"Dungeoneering": 59
 				},
@@ -149683,9 +149404,7 @@
 			"(Primal Equipment) Obtain ~|primal boots|~": {
 				"Category": ["Untracked Uniques", "Untracked Uniques Daemonheim"],
 				"Label": "Daemonheim Uniques",
-				"Tasks": {
-					"Unlock ~|frozen floors|~": "Dungeoneering"
-				},
+				"Chunks": ["Dungeons of Daemonheim"],
 				"Requirements": {
 					"Dungeoneering": 1
 				},
@@ -149694,9 +149413,7 @@
 			"(Entropic Equipment) Obtain an ~|entropic hood|~": {
 				"Category": ["Untracked Uniques", "Untracked Uniques Daemonheim"],
 				"Label": "Daemonheim Uniques",
-				"Tasks": {
-					"Unlock ~|frozen floors|~": "Dungeoneering"
-				},
+				"Chunks": ["Dungeons of Daemonheim"],
 				"Requirements": {
 					"Dungeoneering": 71
 				},
@@ -149705,9 +149422,7 @@
 			"(Entropic Equipment) Obtain an ~|entropic robe top|~": {
 				"Category": ["Untracked Uniques", "Untracked Uniques Daemonheim"],
 				"Label": "Daemonheim Uniques",
-				"Tasks": {
-					"Unlock ~|frozen floors|~": "Dungeoneering"
-				},
+				"Chunks": ["Dungeons of Daemonheim"],
 				"Requirements": {
 					"Dungeoneering": 107
 				},
@@ -149716,9 +149431,7 @@
 			"(Entropic Equipment) Obtain an ~|entropic robe bottom|~": {
 				"Category": ["Untracked Uniques", "Untracked Uniques Daemonheim"],
 				"Label": "Daemonheim Uniques",
-				"Tasks": {
-					"Unlock ~|frozen floors|~": "Dungeoneering"
-				},
+				"Chunks": ["Dungeons of Daemonheim"],
 				"Requirements": {
 					"Dungeoneering": 59
 				},
@@ -149727,9 +149440,7 @@
 			"(Entropic Equipment) Obtain ~|entropic gloves|~": {
 				"Category": ["Untracked Uniques", "Untracked Uniques Daemonheim"],
 				"Label": "Daemonheim Uniques",
-				"Tasks": {
-					"Unlock ~|frozen floors|~": "Dungeoneering"
-				},
+				"Chunks": ["Dungeons of Daemonheim"],
 				"Requirements": {
 					"Dungeoneering": 23
 				},
@@ -149738,9 +149449,7 @@
 			"(Entropic Equipment) Obtain ~|entropic shoes|~": {
 				"Category": ["Untracked Uniques", "Untracked Uniques Daemonheim"],
 				"Label": "Daemonheim Uniques",
-				"Tasks": {
-					"Unlock ~|frozen floors|~": "Dungeoneering"
-				},
+				"Chunks": ["Dungeons of Daemonheim"],
 				"Requirements": {
 					"Dungeoneering": 11
 				},
@@ -149749,9 +149458,7 @@
 			"(Entropic Equipment) Obtain an ~|entropic guard|~": {
 				"Category": ["Untracked Uniques", "Untracked Uniques Daemonheim"],
 				"Label": "Daemonheim Uniques",
-				"Tasks": {
-					"Unlock ~|frozen floors|~": "Dungeoneering"
-				},
+				"Chunks": ["Dungeons of Daemonheim"],
 				"Requirements": {
 					"Dungeoneering": 29
 				},
@@ -149760,9 +149467,7 @@
 			"(Entropic Equipment) Obtain an ~|entropic lantern|~": {
 				"Category": ["Untracked Uniques", "Untracked Uniques Daemonheim"],
 				"Label": "Daemonheim Uniques",
-				"Tasks": {
-					"Unlock ~|frozen floors|~": "Dungeoneering"
-				},
+				"Chunks": ["Dungeons of Daemonheim"],
 				"Requirements": {
 					"Dungeoneering": 23
 				},
@@ -156695,7 +156400,7 @@
 				"Set": "World-gorger title",
 				"Priority": 3
 			},
-			"Obtain the gold ~|Dungeon Master|~ titles": {
+			"Obtain the gold ~|Dungeon Master|~ title": {
 				"Category": ["Titles"],
 				"Label": "Titles",
 				"Tasks": {
@@ -156722,7 +156427,7 @@
 				"Set": "Dungeon Master title",
 				"Priority": 3
 			},
-			"Obtain the gold ~|Floorgazer|~ titles": {
+			"Obtain the gold ~|Floorgazer|~ title": {
 				"Category": ["Titles", "Group Content"],
 				"Label": "Titles",
 				"Tasks": {
@@ -162746,6 +162451,12 @@
 			"Hollow Hill": {
 				"UnlocksArea": true
 			},
+			"Dungeons of Daemonheim": {
+				"UnlocksArea": true,
+				"Tasks": {
+					"Access the Dungeons of Daemonheim": "Nonskill"
+				}
+			},
 			"Zanaris to 8752-4": {
 				"Sections": ["Zanaris", "8752-4"],
 				"Tasks": {
@@ -164496,18 +164207,14 @@
 			},
 			"Easy Daemonheim tasks ~|Setting Up|~ (Smithing)*": {
 				"Description": "Make a full suit of tier 1 melee armour (helm, body, legs, boots, gloves).",
-				"Tasks": {
-					"Unlock ~|frozen floors|~": "Dungeoneering"
-				},
+				"Chunks": ["Dungeons of Daemonheim"],
 				"Skills": {
 					"Smithing": 7
 				}
 			},
 			"Easy Daemonheim tasks ~|Setting Up|~ (Crafting)*": {
 				"Description": "Make a full suit of tier 1 ranged or magic armour (helm, body, legs, boots, gloves).",
-				"Tasks": {
-					"Unlock ~|frozen floors|~": "Dungeoneering"
-				},
+				"Chunks": ["Dungeons of Daemonheim"],
 				"Skills": {
 					"Crafting": 8
 				}
@@ -177331,6 +177038,9 @@
 					"RecipeSub[+]x8": "Quest"
 				},
 				"Not F2P": true
+			},
+			"Access the Dungeons of Daemonheim": {
+				"Chunks": ["13626-1", "13882-1"]
 			}
 		}
 	},
@@ -177508,6 +177218,9 @@
 		},
 		"58": {
 			"Name": "Witch's House#Manhole"
+		},
+		"59": {
+			"Name": "Dungeons of Daemonheim"
 		},
 		"258": {
 			"Spawn": {
@@ -204957,6 +204670,9 @@
 					},
 					"Clue": {
 						"elite": 2
+					},
+					"Connect": {
+						"59": true
 					}
 				},
 				"2": {
@@ -205684,9 +205400,6 @@
 						"Marmaros rock": 4,
 						"Warped barrier": 1,
 						"Communal space": 3
-					},
-					"Monster": {
-						"Dungeoneering monsters": 1
 					},
 					"NPC": {
 						"Gull": 1,
@@ -226673,6 +226386,14 @@
 				"Trappy Stuff": true,
 				"Odd's Sods": true,
 				"Tools (Shop)": true
+			}
+		},
+		"Dungeons of Daemonheim": {
+			"Monster": {
+				"Monsters in Daemonheim": 1
+			},
+			"Connect": {
+				"13882": true
 			}
 		}
 	},
@@ -252026,11 +251747,6 @@
 			},
 			"Rat's tail": {
 				"1": "Always"
-			}
-		},
-		"Dungeoneering monsters": {
-			"Rusty coins": {
-				"1-10": "Always"
 			}
 		},
 		"Dust devil (elite)": {
@@ -295252,11 +294968,6 @@
 			"Ghost (Spirit of Summer)": {
 				"11834": [{
 					"~|Spirit of Summer|~ Complete the quest": "Quest"
-				}]
-			},
-			"Dungeoneering monsters": {
-				"11834": [{
-					"Unlock ~|frozen floors|~": "Dungeoneering"
 				}]
 			},
 			"TzekHaar-Kih (TzKal-Zuk)": {
