@@ -86042,6 +86042,9 @@
 					"Construction": 5,
 					"Crafting": 15
 				},
+				"Tasks": {
+					"~|Visions of Havenhythe|~ Complete the quest": "Quest"
+				},
 				"Not F2P": true,
 				"NoBoost": true
 			},
@@ -104203,6 +104206,9 @@
 				"Chunks": ["16947"],
 				"Skills": {
 					"Magic": 33
+				},
+				"Tasks": {
+					"~|Visions of Havenhythe|~ Complete the quest": "Quest"
 				},
 				"Not F2P": true,
 				"NoBoost": true
@@ -130600,7 +130606,7 @@
 				"Not F2P": true
 			},
 			"~|Skills achievements#Dungeoneering|~ Easy Freezy III": {
-				"Category": ["Misc achievements"],
+				"Category": ["Misc achievements", "Speedrunning"],
 				"Description": "Complete a frozen floor within 6 minutes 15 seconds in a solo large dungeon, on high complexity, exploring all rooms.",
 				"BaseQuest": "Skills achievements",
 				"Tasks": {
@@ -130610,7 +130616,7 @@
 				"Not F2P": true
 			},
 			"~|Skills achievements#Dungeoneering|~ (Do Not) Abandon Hope III": {
-				"Category": ["Misc achievements"],
+				"Category": ["Misc achievements", "Speedrunning"],
 				"Description": "Complete an abandoned 1 floor within 6 minutes 15 seconds in a solo large dungeon, on high complexity, exploring all rooms.",
 				"BaseQuest": "Skills achievements",
 				"Tasks": {
@@ -130620,7 +130626,7 @@
 				"Not F2P": true
 			},
 			"~|Skills achievements#Dungeoneering|~ Fast and Furnished III": {
-				"Category": ["Misc achievements"],
+				"Category": ["Misc achievements", "Speedrunning"],
 				"Description": "Complete a furnished within 6 minutes 15 seconds in a solo large dungeon, on high complexity, exploring all rooms.",
 				"BaseQuest": "Skills achievements",
 				"Tasks": {
@@ -130630,7 +130636,7 @@
 				"Not F2P": true
 			},
 			"~|Skills achievements#Dungeoneering|~ Accelerated Abandoned III": {
-				"Category": ["Misc achievements"],
+				"Category": ["Misc achievements", "Speedrunning"],
 				"Description": "Complete an abandoned 2 floor within 6 minutes 15 seconds in a solo large dungeon, on high complexity, exploring all rooms.",
 				"BaseQuest": "Skills achievements",
 				"Tasks": {
@@ -130640,7 +130646,7 @@
 				"Not F2P": true
 			},
 			"~|Skills achievements#Dungeoneering|~ Occult On The Double III": {
-				"Category": ["Misc achievements"],
+				"Category": ["Misc achievements", "Speedrunning"],
 				"Description": "Complete an occult floor within 6 minutes 15 seconds in a solo large dungeon, on high complexity, exploring all rooms.",
 				"BaseQuest": "Skills achievements",
 				"Tasks": {
@@ -130650,7 +130656,7 @@
 				"Not F2P": true
 			},
 			"~|Skills achievements#Dungeoneering|~ Warp Speed III": {
-				"Category": ["Misc achievements"],
+				"Category": ["Misc achievements", "Speedrunning"],
 				"Description": "Complete a warped floor within 6 minutes 15 seconds in a solo large dungeon, on high complexity, exploring all rooms.",
 				"BaseQuest": "Skills achievements",
 				"Tasks": {
@@ -130660,7 +130666,7 @@
 				"Not F2P": true
 			},
 			"~|Skills achievements#Dungeoneering|~ Better Than Bilrach III": {
-				"Category": ["Misc achievements"],
+				"Category": ["Misc achievements", "Speedrunning"],
 				"Description": "Complete one floor of each theme within 6 minutes 15 seconds in a solo large dungeon, on high complexity, exploring all rooms.",
 				"BaseQuest": "Skills achievements",
 				"Tasks": {
@@ -130670,7 +130676,7 @@
 				"Not F2P": true
 			},
 			"~|Skills achievements#Dungeoneering|~ Flash Frozen III": {
-				"Category": ["Misc achievements", "Group Content"],
+				"Category": ["Misc achievements", "Group Content", "Speedrunning"],
 				"Description": "Complete a frozen floor within 2 minutes 30 seconds in a large dungeon with a party of at least 5, on high complexity, exploring all rooms.",
 				"BaseQuest": "Skills achievements",
 				"Tasks": {
@@ -130680,7 +130686,7 @@
 				"Not F2P": true
 			},
 			"~|Skills achievements#Dungeoneering|~ Abandoned At A Place III": {
-				"Category": ["Misc achievements", "Group Content"],
+				"Category": ["Misc achievements", "Group Content", "Speedrunning"],
 				"Description": "Complete an abandoned floor within 6 minutes 15 seconds in a large dungeon with a party of at least 5, on high complexity, exploring all rooms.",
 				"BaseQuest": "Skills achievements",
 				"Tasks": {
@@ -130690,7 +130696,7 @@
 				"Not F2P": true
 			},
 			"~|Skills achievements#Dungeoneering|~ Flying Through Furnished III": {
-				"Category": ["Misc achievements", "Group Content"],
+				"Category": ["Misc achievements", "Group Content", "Speedrunning"],
 				"Description": "Complete a furnished floor within 2 minutes 30 seconds in a large dungeon with a party of at least 5, on high complexity, exploring all rooms.",
 				"BaseQuest": "Skills achievements",
 				"Tasks": {
@@ -130700,7 +130706,7 @@
 				"Not F2P": true
 			},
 			"~|Skills achievements#Dungeoneering|~ Agile Abandoned III": {
-				"Category": ["Misc achievements", "Group Content"],
+				"Category": ["Misc achievements", "Group Content", "Speedrunning"],
 				"Description": "Complete an abandoned 2 floor within 2 minutes 30 seconds in a large dungeon with a party of at least 5, on high complexity, exploring all rooms.",
 				"BaseQuest": "Skills achievements",
 				"Tasks": {
@@ -130710,7 +130716,7 @@
 				"Not F2P": true
 			},
 			"~|Skills achievements#Dungeoneering|~ Occult On Time III": {
-				"Category": ["Misc achievements", "Group Content"],
+				"Category": ["Misc achievements", "Group Content", "Speedrunning"],
 				"Description": "Complete an occult floor within 2 minutes 30 seconds in a large dungeon with a party of at least 5, on high complexity, exploring all rooms.",
 				"BaseQuest": "Skills achievements",
 				"Tasks": {
@@ -130720,7 +130726,7 @@
 				"Not F2P": true
 			},
 			"~|Skills achievements#Dungeoneering|~ You Must Have Used A Warp Pipe III": {
-				"Category": ["Misc achievements", "Group Content"],
+				"Category": ["Misc achievements", "Group Content", "Speedrunning"],
 				"Description": "Complete a warped floor within 2 minutes 30 seconds in a large dungeon with a party of at least 5, on high complexity, exploring all rooms.",
 				"BaseQuest": "Skills achievements",
 				"Tasks": {
@@ -130730,7 +130736,7 @@
 				"Not F2P": true
 			},
 			"~|Skills achievements#Dungeoneering|~ Dungeoneering Done Quick III": {
-				"Category": ["Misc achievements", "Group Content"],
+				"Category": ["Misc achievements", "Group Content", "Speedrunning"],
 				"Description": "Complete one floor of each theme within 2 minutes 30 seconds in a large dungeon with a party of at least 5, on high complexity, exploring all rooms.",
 				"BaseQuest": "Skills achievements",
 				"Tasks": {
@@ -131080,7 +131086,7 @@
 				"Not F2P": true
 			},
 			"~|Skills achievements#Farming|~ Smartest Harvest": {
-				"Category": ["Misc achievements"],
+				"Category": ["Misc achievements", "Speedrunning"],
 				"Description": "Harvest 60 things from fruit tree patches in 4 minutes.",
 				"BaseQuest": "Skills achievements",
 				"Items": ["FruitTreeSeed[+]"],
@@ -131798,7 +131804,7 @@
 				"RuneScore": 5
 			},
 			"~|Skills achievements#Mining|~ Prime Time": {
-				"Category": ["Misc achievements"],
+				"Category": ["Misc achievements", "Speedrunning"],
 				"Description": "Mine each of the 10 ores on the surface of the Daemonheim peninsula in under 5 minutes.",
 				"BaseQuest": "Skills achievements",
 				"Objects": ["Bathus rock", "Marmaros rock", "Gorgonite rock", "Promethium rock", "Fractite rock", "Zephyrium rock", "Novite rock", "Argonite rock", "Katagon rock", "Kratonium rock"],
@@ -132860,7 +132866,7 @@
 				"Not F2P": true
 			},
 			"~|Skills achievements#Thieving|~ Vault of Hereditas: Smash 'n' Grab": {
-				"Category": ["Misc achievements"],
+				"Category": ["Misc achievements", "Speedrunning"],
 				"Description": "Search the rare chest in the Vault of Hereditas Heist in 6 minutes or less.",
 				"BaseQuest": "Skills achievements",
 				"Chunks": ["Vault of Hereditas"],
@@ -132887,7 +132893,7 @@
 				"Not F2P": true
 			},
 			"~|Skills achievements#Thieving|~ Asuran Arsenal: Smash 'n' Grab": {
-				"Category": ["Misc achievements"],
+				"Category": ["Misc achievements", "Speedrunning"],
 				"Description": "Search the rare chest in the Asuran Arsenal Heist in 6 minutes or less.",
 				"BaseQuest": "Skills achievements",
 				"Chunks": ["Asuran Arsenal"],
@@ -133316,7 +133322,7 @@
 				"Not F2P": true
 			},
 			"~|Exploration achievements#Anachronia|~ In A Flash": {
-				"Category": ["Misc achievements"],
+				"Category": ["Misc achievements", "Speedrunning"],
 				"Description": "Complete the Anachronia agility course in under 7 minutes.",
 				"BaseQuest": "Exploration achievements",
 				"Chunks": ["15426-1", "15426-2", "15426-3", "15427-2", "15427-3", "15681-2", "15682-2", "15682-3", "15683-1", "15683-2", "15683-3", "15684", "15936", "15937-1", "15937-2", "15941", "16192-1", "16193-1", "16193-3", "16193-5", "16194-1", "16194-2", "16194-4", "16197-1", "16450-1", "16450-2", "16450-3", "16450-5", "16453-2", "16453-3", "16706-1", "16706-2", "16707-1", "16707-7", "16707-8", "16708-2", "16708-3", "16708-4", "16963-1", "16963-2"],
@@ -133340,7 +133346,7 @@
 			},
 			"~|Exploration achievements#Anachronia|~ Swings Both Ways": {
 				"Category": ["Misc achievements"],
-				"Description": "Complete the Anachronia agility course in under 7 minutes.",
+				"Description": "Complete a lap going in each direction on the Anachronia agility course.",
 				"BaseQuest": "Exploration achievements",
 				"Chunks": ["15426-1", "15426-2", "15426-3", "15427-2", "15427-3", "15681-2", "15682-2", "15682-3", "15683-1", "15683-2", "15683-3", "15684", "15936", "15937-1", "15937-2", "15941", "16192-1", "16193-1", "16193-3", "16193-5", "16194-1", "16194-2", "16194-4", "16197-1", "16450-1", "16450-2", "16450-3", "16450-5", "16453-2", "16453-3", "16706-1", "16706-2", "16707-1", "16707-7", "16707-8", "16708-2", "16708-3", "16708-4", "16963-1", "16963-2"],
 				"Skills": {
@@ -133961,6 +133967,7 @@
 				"Description": "Help find Toothless' tooth",
 				"BaseQuest": "Exploration achievements",
 				"Chunks": ["13362-1"],
+				"Items": ["Crocspeak amulet"],
 				"Tasks": {
 					"Build the ~|water filtration system|~ at Het's Oasis": "Construction"
 				},
@@ -135474,7 +135481,7 @@
 				"Not F2P": true
 			},
 			"~|Activities achievements#Memory of Nomad|~ Race for the Soul: 20 Minutes": {
-				"Category": ["Misc achievements"],
+				"Category": ["Misc achievements", "Speedrunning"],
 				"Description": "Defeat the Memory of Nomad encounter in under 20 minutes.",
 				"BaseQuest": "Activities achievements",
 				"Chunks": ["Death's Office"],
@@ -135485,7 +135492,7 @@
 				"Not F2P": true
 			},
 			"~|Activities achievements#Memory of Nomad|~ Race for the Soul: 16 Minutes": {
-				"Category": ["Misc achievements"],
+				"Category": ["Misc achievements", "Speedrunning"],
 				"Description": "Defeat the Memory of Nomad encounter in under 16 minutes.",
 				"BaseQuest": "Activities achievements",
 				"Chunks": ["Death's Office"],
@@ -135497,7 +135504,7 @@
 				"Not F2P": true
 			},
 			"~|Activities achievements#Memory of Nomad|~ Race for the Soul: 14 Minutes": {
-				"Category": ["Misc achievements"],
+				"Category": ["Misc achievements", "Speedrunning"],
 				"Description": "Defeat the Memory of Nomad encounter in under 14 minutes.",
 				"BaseQuest": "Activities achievements",
 				"Chunks": ["Death's Office"],
@@ -135509,7 +135516,7 @@
 				"Not F2P": true
 			},
 			"~|Activities achievements#Memory of Nomad|~ Race for the Soul: 12 Minutes": {
-				"Category": ["Misc achievements"],
+				"Category": ["Misc achievements", "Speedrunning"],
 				"Description": "Defeat the Memory of Nomad encounter in under 12 minutes.",
 				"BaseQuest": "Activities achievements",
 				"Chunks": ["Death's Office"],
@@ -135521,7 +135528,7 @@
 				"Not F2P": true
 			},
 			"~|Activities achievements#Memory of Nomad|~ Race for the Soul: 10 Minutes": {
-				"Category": ["Misc achievements"],
+				"Category": ["Misc achievements", "Speedrunning"],
 				"Description": "Defeat the Memory of Nomad encounter in under 10 minutes. Imagine that.",
 				"BaseQuest": "Activities achievements",
 				"Chunks": ["Death's Office"],
@@ -135533,7 +135540,7 @@
 				"Not F2P": true
 			},
 			"~|Activities achievements#Memory of Nomad|~ Race for the Soul: 8 Minutes": {
-				"Category": ["Misc achievements"],
+				"Category": ["Misc achievements", "Speedrunning"],
 				"Description": "Defeat the Memory of Nomad encounter in under 8 minutes. Almost there...",
 				"BaseQuest": "Activities achievements",
 				"Chunks": ["Death's Office"],
@@ -135545,7 +135552,7 @@
 				"Not F2P": true
 			},
 			"~|Activities achievements#Memory of Nomad|~ Race for the Soul: 6 Minutes": {
-				"Category": ["Misc achievements"],
+				"Category": ["Misc achievements", "Speedrunning"],
 				"Description": "Defeat the Memory of Nomad encounter in under 6 minutes. Talk about task bloat!",
 				"BaseQuest": "Activities achievements",
 				"Chunks": ["Death's Office"],
@@ -156077,7 +156084,7 @@
 				"Items": ["'the Spirit Wolf' title"]
 			},
 			"Obtain the frozen and gold ~|the Frozen|~ titles": {
-				"Category": ["Titles"],
+				"Category": ["Titles", "Speedrunning"],
 				"Label": "Titles",
 				"Tasks": {
 					"Unlock ~|frozen floors|~": "Dungeoneering"
@@ -156086,7 +156093,7 @@
 				"Priority": 1
 			},
 			"Obtain the silver ~|the Frozen|~ title": {
-				"Category": ["Titles"],
+				"Category": ["Titles", "Speedrunning"],
 				"Label": "Titles",
 				"Tasks": {
 					"Unlock ~|frozen floors|~": "Dungeoneering"
@@ -156095,7 +156102,7 @@
 				"Priority": 2
 			},
 			"Obtain the bronze ~|the Frozen|~ title": {
-				"Category": ["Titles"],
+				"Category": ["Titles", "Speedrunning"],
 				"Label": "Titles",
 				"Tasks": {
 					"Unlock ~|frozen floors|~": "Dungeoneering"
@@ -156104,7 +156111,7 @@
 				"Priority": 3
 			},
 			"Obtain the frozen and gold ~|Plane-freezer|~ titles": {
-				"Category": ["Titles", "Group Content"],
+				"Category": ["Titles", "Group Content", "Speedrunning"],
 				"Label": "Titles",
 				"Tasks": {
 					"Unlock ~|frozen floors|~": "Dungeoneering"
@@ -156113,7 +156120,7 @@
 				"Priority": 1
 			},
 			"Obtain the silver ~|Plane-freezer|~ title": {
-				"Category": ["Titles", "Group Content"],
+				"Category": ["Titles", "Group Content", "Speedrunning"],
 				"Label": "Titles",
 				"Tasks": {
 					"Unlock ~|frozen floors|~": "Dungeoneering"
@@ -156122,7 +156129,7 @@
 				"Priority": 2
 			},
 			"Obtain the bronze ~|Plane-freezer|~ title": {
-				"Category": ["Titles", "Group Content"],
+				"Category": ["Titles", "Group Content", "Speedrunning"],
 				"Label": "Titles",
 				"Tasks": {
 					"Unlock ~|frozen floors|~": "Dungeoneering"
@@ -156131,7 +156138,7 @@
 				"Priority": 3
 			},
 			"Obtain the abandoned and gold ~|the Abandoned|~ titles": {
-				"Category": ["Titles"],
+				"Category": ["Titles", "Speedrunning"],
 				"Label": "Titles",
 				"Tasks": {
 					"Unlock ~|abandoned floors|~": "Dungeoneering"
@@ -156140,7 +156147,7 @@
 				"Priority": 1
 			},
 			"Obtain the silver ~|the Abandoned|~ title": {
-				"Category": ["Titles"],
+				"Category": ["Titles", "Speedrunning"],
 				"Label": "Titles",
 				"Tasks": {
 					"Unlock ~|abandoned floors|~": "Dungeoneering"
@@ -156149,7 +156156,7 @@
 				"Priority": 2
 			},
 			"Obtain the bronze ~|the Abandoned|~ title": {
-				"Category": ["Titles"],
+				"Category": ["Titles", "Speedrunning"],
 				"Label": "Titles",
 				"Tasks": {
 					"Unlock ~|abandoned floors|~": "Dungeoneering"
@@ -156158,7 +156165,7 @@
 				"Priority": 3
 			},
 			"Obtain the abandoned and gold ~|Ramokee (title)|~ titles": {
-				"Category": ["Titles", "Group Content"],
+				"Category": ["Titles", "Group Content", "Speedrunning"],
 				"Label": "Titles",
 				"Tasks": {
 					"Unlock ~|abandoned floors|~": "Dungeoneering"
@@ -156167,7 +156174,7 @@
 				"Priority": 1
 			},
 			"Obtain the silver ~|Ramokee (title)|~ title": {
-				"Category": ["Titles", "Group Content"],
+				"Category": ["Titles", "Group Content", "Speedrunning"],
 				"Label": "Titles",
 				"Tasks": {
 					"Unlock ~|abandoned floors|~": "Dungeoneering"
@@ -156176,7 +156183,7 @@
 				"Priority": 2
 			},
 			"Obtain the bronze ~|Ramokee (title)|~ title": {
-				"Category": ["Titles", "Group Content"],
+				"Category": ["Titles", "Group Content", "Speedrunning"],
 				"Label": "Titles",
 				"Tasks": {
 					"Unlock ~|abandoned floors|~": "Dungeoneering"
@@ -156185,7 +156192,7 @@
 				"Priority": 3
 			},
 			"Obtain the furnished and gold ~|the Furnished|~ titles": {
-				"Category": ["Titles"],
+				"Category": ["Titles", "Speedrunning"],
 				"Label": "Titles",
 				"Tasks": {
 					"Unlock ~|furnished floors|~": "Dungeoneering"
@@ -156194,7 +156201,7 @@
 				"Priority": 1
 			},
 			"Obtain the silver ~|the Furnished|~ title": {
-				"Category": ["Titles"],
+				"Category": ["Titles", "Speedrunning"],
 				"Label": "Titles",
 				"Tasks": {
 					"Unlock ~|furnished floors|~": "Dungeoneering"
@@ -156203,7 +156210,7 @@
 				"Priority": 2
 			},
 			"Obtain the bronze ~|the Furnished|~ title": {
-				"Category": ["Titles"],
+				"Category": ["Titles", "Speedrunning"],
 				"Label": "Titles",
 				"Tasks": {
 					"Unlock ~|furnished floors|~": "Dungeoneering"
@@ -156212,7 +156219,7 @@
 				"Priority": 3
 			},
 			"Obtain the furnished and gold ~|Night-gazer|~ titles": {
-				"Category": ["Titles", "Group Content"],
+				"Category": ["Titles", "Group Content", "Speedrunning"],
 				"Label": "Titles",
 				"Tasks": {
 					"Unlock ~|furnished floors|~": "Dungeoneering"
@@ -156221,7 +156228,7 @@
 				"Priority": 1
 			},
 			"Obtain the silver ~|Night-gazer|~ title": {
-				"Category": ["Titles", "Group Content"],
+				"Category": ["Titles", "Group Content", "Speedrunning"],
 				"Label": "Titles",
 				"Tasks": {
 					"Unlock ~|furnished floors|~": "Dungeoneering"
@@ -156230,7 +156237,7 @@
 				"Priority": 2
 			},
 			"Obtain the bronze ~|Night-gazer|~ title": {
-				"Category": ["Titles", "Group Content"],
+				"Category": ["Titles", "Group Content", "Speedrunning"],
 				"Label": "Titles",
 				"Tasks": {
 					"Unlock ~|furnished floors|~": "Dungeoneering"
@@ -156239,7 +156246,7 @@
 				"Priority": 3
 			},
 			"Obtain the abandoned and gold ~|the Desolate|~ titles": {
-				"Category": ["Titles"],
+				"Category": ["Titles", "Speedrunning"],
 				"Label": "Titles",
 				"Tasks": {
 					"Unlock ~|abandoned 2 floors|~": "Dungeoneering"
@@ -156248,7 +156255,7 @@
 				"Priority": 1
 			},
 			"Obtain the silver ~|the Desolate|~ title": {
-				"Category": ["Titles"],
+				"Category": ["Titles", "Speedrunning"],
 				"Label": "Titles",
 				"Tasks": {
 					"Unlock ~|abandoned 2 floors|~": "Dungeoneering"
@@ -156257,7 +156264,7 @@
 				"Priority": 2
 			},
 			"Obtain the bronze ~|the Desolate|~ title": {
-				"Category": ["Titles"],
+				"Category": ["Titles", "Speedrunning"],
 				"Label": "Titles",
 				"Tasks": {
 					"Unlock ~|abandoned 2 floors|~": "Dungeoneering"
@@ -156266,7 +156273,7 @@
 				"Priority": 3
 			},
 			"Obtain the abandoned and gold ~|Shadow-forger|~ titles": {
-				"Category": ["Titles", "Group Content"],
+				"Category": ["Titles", "Group Content", "Speedrunning"],
 				"Label": "Titles",
 				"Tasks": {
 					"Unlock ~|abandoned 2 floors|~": "Dungeoneering"
@@ -156275,7 +156282,7 @@
 				"Priority": 1
 			},
 			"Obtain the silver ~|Shadow-forger|~ title": {
-				"Category": ["Titles", "Group Content"],
+				"Category": ["Titles", "Group Content", "Speedrunning"],
 				"Label": "Titles",
 				"Tasks": {
 					"Unlock ~|abandoned 2 floors|~": "Dungeoneering"
@@ -156284,7 +156291,7 @@
 				"Priority": 2
 			},
 			"Obtain the bronze ~|Shadow-forger|~ title": {
-				"Category": ["Titles", "Group Content"],
+				"Category": ["Titles", "Group Content", "Speedrunning"],
 				"Label": "Titles",
 				"Tasks": {
 					"Unlock ~|abandoned 2 floors|~": "Dungeoneering"
@@ -156293,7 +156300,7 @@
 				"Priority": 3
 			},
 			"Obtain the occult and gold ~|the Occultist|~ titles": {
-				"Category": ["Titles"],
+				"Category": ["Titles", "Speedrunning"],
 				"Label": "Titles",
 				"Tasks": {
 					"Unlock ~|occult floors|~": "Dungeoneering"
@@ -156302,7 +156309,7 @@
 				"Priority": 1
 			},
 			"Obtain the silver ~|the Occultist|~ title": {
-				"Category": ["Titles"],
+				"Category": ["Titles", "Speedrunning"],
 				"Label": "Titles",
 				"Tasks": {
 					"Unlock ~|occult floors|~": "Dungeoneering"
@@ -156311,7 +156318,7 @@
 				"Priority": 2
 			},
 			"Obtain the bronze ~|the Occultist|~ title": {
-				"Category": ["Titles"],
+				"Category": ["Titles", "Speedrunning"],
 				"Label": "Titles",
 				"Tasks": {
 					"Unlock ~|occult floors|~": "Dungeoneering"
@@ -156320,7 +156327,7 @@
 				"Priority": 3
 			},
 			"Obtain the occult and gold ~|Flesh-spoiler|~ titles": {
-				"Category": ["Titles", "Group Content"],
+				"Category": ["Titles", "Group Content", "Speedrunning"],
 				"Label": "Titles",
 				"Tasks": {
 					"Unlock ~|occult floors|~": "Dungeoneering"
@@ -156329,7 +156336,7 @@
 				"Priority": 1
 			},
 			"Obtain the silver ~|Flesh-spoiler|~ title": {
-				"Category": ["Titles", "Group Content"],
+				"Category": ["Titles", "Group Content", "Speedrunning"],
 				"Label": "Titles",
 				"Tasks": {
 					"Unlock ~|occult floors|~": "Dungeoneering"
@@ -156338,7 +156345,7 @@
 				"Priority": 2
 			},
 			"Obtain the bronze ~|Flesh-spoiler|~ title": {
-				"Category": ["Titles", "Group Content"],
+				"Category": ["Titles", "Group Content", "Speedrunning"],
 				"Label": "Titles",
 				"Tasks": {
 					"Unlock ~|occult floors|~": "Dungeoneering"
@@ -156347,7 +156354,7 @@
 				"Priority": 3
 			},
 			"Obtain the warped and gold ~|the Warped|~ titles": {
-				"Category": ["Titles"],
+				"Category": ["Titles", "Speedrunning"],
 				"Label": "Titles",
 				"Tasks": {
 					"Unlock ~|warped floors|~": "Dungeoneering"
@@ -156356,7 +156363,7 @@
 				"Priority": 1
 			},
 			"Obtain the silver ~|the Warped|~ title": {
-				"Category": ["Titles"],
+				"Category": ["Titles", "Speedrunning"],
 				"Label": "Titles",
 				"Tasks": {
 					"Unlock ~|warped floors|~": "Dungeoneering"
@@ -156365,7 +156372,7 @@
 				"Priority": 2
 			},
 			"Obtain the bronze ~|the Warped|~ title": {
-				"Category": ["Titles"],
+				"Category": ["Titles", "Speedrunning"],
 				"Label": "Titles",
 				"Tasks": {
 					"Unlock ~|warped floors|~": "Dungeoneering"
@@ -156374,7 +156381,7 @@
 				"Priority": 3
 			},
 			"Obtain the warped and gold ~|World-gorger|~ titles": {
-				"Category": ["Titles", "Group Content"],
+				"Category": ["Titles", "Group Content", "Speedrunning"],
 				"Label": "Titles",
 				"Tasks": {
 					"Unlock ~|warped floors|~": "Dungeoneering"
@@ -156383,7 +156390,7 @@
 				"Priority": 1
 			},
 			"Obtain the silver ~|World-gorger|~ title": {
-				"Category": ["Titles", "Group Content"],
+				"Category": ["Titles", "Group Content", "Speedrunning"],
 				"Label": "Titles",
 				"Tasks": {
 					"Unlock ~|warped floors|~": "Dungeoneering"
@@ -156392,7 +156399,7 @@
 				"Priority": 2
 			},
 			"Obtain the bronze ~|World-gorger|~ title": {
-				"Category": ["Titles", "Group Content"],
+				"Category": ["Titles", "Group Content", "Speedrunning"],
 				"Label": "Titles",
 				"Tasks": {
 					"Unlock ~|warped floors|~": "Dungeoneering"
@@ -156401,7 +156408,7 @@
 				"Priority": 3
 			},
 			"Obtain the gold ~|Dungeon Master|~ title": {
-				"Category": ["Titles"],
+				"Category": ["Titles", "Speedrunning"],
 				"Label": "Titles",
 				"Tasks": {
 					"Unlock ~|warped floors|~": "Dungeoneering"
@@ -156410,7 +156417,7 @@
 				"Priority": 1
 			},
 			"Obtain the silver ~|Dungeon Master|~ title": {
-				"Category": ["Titles"],
+				"Category": ["Titles", "Speedrunning"],
 				"Label": "Titles",
 				"Tasks": {
 					"Unlock ~|warped floors|~": "Dungeoneering"
@@ -156419,7 +156426,7 @@
 				"Priority": 2
 			},
 			"Obtain the bronze ~|Dungeon Master|~ title": {
-				"Category": ["Titles"],
+				"Category": ["Titles", "Speedrunning"],
 				"Label": "Titles",
 				"Tasks": {
 					"Unlock ~|warped floors|~": "Dungeoneering"
@@ -156428,7 +156435,7 @@
 				"Priority": 3
 			},
 			"Obtain the gold ~|Floorgazer|~ title": {
-				"Category": ["Titles", "Group Content"],
+				"Category": ["Titles", "Group Content", "Speedrunning"],
 				"Label": "Titles",
 				"Tasks": {
 					"Unlock ~|warped floors|~": "Dungeoneering"
@@ -156437,7 +156444,7 @@
 				"Priority": 1
 			},
 			"Obtain the silver ~|Floorgazer|~ title": {
-				"Category": ["Titles", "Group Content"],
+				"Category": ["Titles", "Group Content", "Speedrunning"],
 				"Label": "Titles",
 				"Tasks": {
 					"Unlock ~|warped floors|~": "Dungeoneering"
@@ -156446,7 +156453,7 @@
 				"Priority": 2
 			},
 			"Obtain the bronze ~|Floorgazer|~ title": {
-				"Category": ["Titles", "Group Content"],
+				"Category": ["Titles", "Group Content", "Speedrunning"],
 				"Label": "Titles",
 				"Tasks": {
 					"Unlock ~|warped floors|~": "Dungeoneering"
@@ -184579,7 +184586,7 @@
 						"Gnome guard": 8,
 						"Gnome woman": 7,
 						"Gnome troop#Tree Gnome Stronghold": 1,
-						"Mounted terrorbird gnome": 2
+						"Mounted terrorbird gnome#Level 46": 2
 					},
 					"NPC": {
 						"Butterfly": 10,
@@ -184609,7 +184616,7 @@
 					"Monster": {
 						"Duck": 3,
 						"Hill giant": 6,
-						"Mounted terrorbird gnome": 2
+						"Mounted terrorbird gnome#Level 46": 2
 					},
 					"Spawn": {
 						"Swamp toad": 5
@@ -185734,7 +185741,7 @@
 					},
 					"Monster": {
 						"Gnome guard": 4,
-						"Mounted terrorbird gnome": 4,
+						"Mounted terrorbird gnome#Level 46": 4,
 						"Hobgoblin#Unarmed": 2,
 						"Hobgoblin#Armed": 6
 					},
@@ -185803,7 +185810,7 @@
 				"Gnome guard": 8,
 				"Gnome woman": 20,
 				"Gnome troop#Tree Gnome Stronghold": 2,
-				"Mounted terrorbird gnome": 5
+				"Mounted terrorbird gnome#Level 46": 5
 			},
 			"NPC": {
 				"Butterfly": 6,
@@ -185864,7 +185871,7 @@
 						"Gnome guard": 35,
 						"Gnome woman": 24,
 						"Gnome troop#Tree Gnome Stronghold": 2,
-						"Mounted terrorbird gnome": 2
+						"Mounted terrorbird gnome#Level 46": 2
 					},
 					"NPC": {
 						"Terrorchick": 2,
@@ -186832,7 +186839,7 @@
 				"Khazard trooper": 39,
 				"Gnome troop#Battlefield of Khazard": 19,
 				"Tortoise#With riders": 2,
-				"Mounted terrorbird gnome": 6
+				"Mounted terrorbird gnome#Level 53": 6
 			},
 			"NPC": {
 				"Commander Montai": 1,
@@ -270741,7 +270748,7 @@
 				"1": "19/128"
 			}
 		},
-		"Mounted terrorbird gnome": {
+		"Mounted terrorbird gnome#Level 46": {
 			"Bones": {
 				"1": "Always"
 			},
@@ -270786,6 +270793,35 @@
 			},
 			"Nothing": {
 				"1": "800/1000"
+			},
+			"Gold charm": {
+				"1": "100/1000"
+			},
+			"Green charm": {
+				"1": "2/1000"
+			},
+			"Crimson charm": {
+				"1": "30/1000"
+			},
+			"Blue charm": {
+				"1": "1/1000"
+			},
+			"Spirit sapphire": {
+				"1": "1/400"
+			},
+			"Spirit emerald": {
+				"1": "1/667"
+			},
+			"Spirit ruby": {
+				"1": "1/1000"
+			}
+		},
+		"Mounted terrorbird gnome#Level 53": {
+			"Bones": {
+				"1": "Always"
+			},
+			"Terrorbird wing": {
+				"1": "1/4"
 			},
 			"Gold charm": {
 				"1": "100/1000"
