@@ -471,6 +471,7 @@ let rules = {
 	"Trim achievements": false,
 	"MQC achievements": false,
 	"Misc achievements": false,
+	"Speedrunning": false,
 	"Level Up Achievements": false,
 	"No RuneScore": false,
 	"Slayer Contracts": false,
@@ -612,8 +613,9 @@ let ruleNames = {
 	"XP Lamps": "Using skills-specific experience lamps counts as a primary training method<span class='rule-asterisk noscroll'>*</span>",
 	"Slayer Contracts": "Completing Slayer contracts off-task counts as a primary training method",
 	"Hide Partial Products": "Exclude partial and unfinished products as a skilling task<span class='partialProductsRuleTooltip'></span>",
-	"Timegated": "Must complete tasks that require consistent engagement with a time-gated activity across multiple weeks (Player-Owned Port, Player-Owned Farm, etc.)<span class='rule-asterisk noscroll'>*</span>",
-	"Secondary Bird Nests": "Allow items from bird nests and geodes gotten through secondary methods (e.g. birdhouses, monster drops) to generate chunk tasks"
+	"Timegated": "Require tasks that demand consistent engagement with a time-gated activity across multiple weeks (Player-Owned Port, Player-Owned Farm, etc.)<span class='rule-asterisk noscroll'>*</span>",
+	"Secondary Bird Nests": "Allow items from bird nests and geodes gotten through secondary methods (e.g. birdhouses, monster drops) to generate chunk tasks",
+	"Speedrunning": "Require tasks that must be completed under a strict time limit (e.g. speedrunning tasks)<span class='rule-asterisk noscroll'>*</span>"
 };                                                                              // List of rule definitions
 
 let rulePresets = {
@@ -727,6 +729,7 @@ let rulePresets = {
 		"Trim achievements": true,
 		"MQC achievements": true,
 		"Misc achievements": true,
+		"Speedrunning": true,
 		"XP Lamps": true,
 		"Slayer Contracts": true,
 		"Cleaning Herbs Primary": true,
@@ -827,6 +830,7 @@ let rulePresets = {
 		"Trim achievements": true,
 		"MQC achievements": true,
 		"Misc achievements": true,
+		"Speedrunning": true,
 		"No RuneScore": true,
 		"Level Up Achievements": true,
 		"Universal Tertiary": true,
@@ -966,13 +970,14 @@ let ruleStructure = {
     "Miscellaneous": {
         "Hero Items": true,
 		"Permanent Unlockables": true,
+		"Group Content": true,
+		"Speedrunning": true,
+		"Timegated": true,
 		"Kill X": ["Kill X Boss"],
         "Fill Stash": true,
         "Manually Complete Tasks": true,
         "Skiller": true,
-        "F2P": true,
-		"Group Content": true,
-		"Timegated": true
+        "F2P": true
     }
 };                                                                              // Structure of rules
 
@@ -13261,6 +13266,10 @@ let loadData = async function(startup) {
 		
 		if (!rulesTemp.hasOwnProperty('Misc achievements')) {
             rulesTemp['Misc achievements'] = rulesTemp.hasOwnProperty('Trim achievements') ? rulesTemp['Trim achievements'] : false;
+        }
+		
+		if (!rulesTemp.hasOwnProperty('Speedrunning')) {
+            rulesTemp['Speedrunning'] = rulesTemp.hasOwnProperty('Misc achievements') ? rulesTemp['Misc achievements'] : false;
         }
 		
 		if (!rulesTemp.hasOwnProperty('Misc Combat achievements')) {
