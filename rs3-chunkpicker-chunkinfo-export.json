@@ -41309,7 +41309,7 @@
 				"Priority": 1
 			},
 			"Mix a ~|restore potion|~ from scratch": {
-				"Items": ["Grimy harralander*", "Red spiders' eggs*"],
+				"Items": ["Grimy harralander*", "Vial of water", "Red spiders' eggs*"],
 				"Level": 22,
 				"Output": "Restore potion (3)",
 				"Primary": true,
@@ -337059,6 +337059,9 @@
 					"1": "22/600"
 				},
 				"Nasturtium seed": {
+					"1": "15/600"
+				},
+				"Wendlewick seed": {
 					"1": "15/600"
 				}
 			},

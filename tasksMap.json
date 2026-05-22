@@ -85752,6 +85752,7 @@
   "[Thieving] Seed stall: ~|Marigold seed|~ (1) (1/8.22)": "t_47557",
   "[Thieving] Seed stall: ~|Rosemary seed|~ (1) (1/27.27)": "t_47566",
   "[Thieving] Seed stall: ~|Nasturtium seed|~ (1) (1/40)": "t_47568",
+  "[Thieving] Seed stall: ~|Wendlewick seed|~ (1) (1/40)": "t_120508",
   "[Thieving] Fish stall: ~|Raw salmon|~ (1) (1/1.33)": "t_47574",
   "[Thieving] Fish stall: ~|Raw tuna|~ (1) (1/4.67)": "t_47575",
   "[Thieving] Fish stall: ~|Raw lobster|~ (1) (1/28)": "t_47576",
@@ -91986,5 +91987,5 @@
   "Pizazz points: ~|Death rune|~": "t_52854",
   "Pizazz points: ~|Soul rune|~": "t_52856",
   "Pizazz points: ~|Blood rune|~": "t_52857",
-  "currentNextIndex": 120508
+  "currentNextIndex": 120509
 }
