@@ -61415,6 +61415,18 @@
 				"Output": "Sanguine crawler",
 				"NoPet": true
 			},
+			"Slay a ~|sanguine crawler|~ while on task": {
+				"Level": 28,
+				"Monsters": ["Sanguine crawler"],
+				"Tasks": {
+					"Sanguine crawler task": "Nonskill"
+				},
+				"Primary": false,
+				"Priority": 50,
+				"Source": "drop",
+				"Output": "Sanguine crawler (task)",
+				"NoPet": true
+			},
 			"Slay a ~|pyrefiend|~": {
 				"Level": 30,
 				"Monsters": ["Pyrefiend"],
@@ -166702,6 +166714,12 @@
 				},
 				"Not F2P": true
 			},
+			"Sanguine crawler task": {
+				"Tasks": {
+					"VannakaMazchnaMaster[+]": "Slayer"
+				},
+				"Not F2P": true
+			},
 			"Basilisk task": {
 				"Tasks": {
 					"MazchnaChaeldarSumonaMaster[+]": "Slayer"
@@ -172886,6 +172904,126 @@
 			},
 			"West of south-east entrance to crater, two paces east of the north-eastern corner of the rock.": {
 				"Chunks": ["12601"],
+				"ClueTier": "elite",
+				"ClueType": "Scan",
+				"Not F2P": true
+			},
+			"East of the Wendlewick Fish Farm.": {
+				"Chunks": ["16435-1"],
+				"ClueTier": "elite",
+				"ClueType": "Scan",
+				"Not F2P": true
+			},
+			"South-west of Wendle's Wicks.": {
+				"Chunks": ["16435-1"],
+				"ClueTier": "elite",
+				"ClueType": "Scan",
+				"Not F2P": true
+			},
+			"South-west of the Wendlewick fishing shop.": {
+				"Chunks": ["16435-1"],
+				"ClueTier": "elite",
+				"ClueType": "Scan",
+				"Not F2P": true
+			},
+			"West of the lower entrance to the lighthouse.": {
+				"Chunks": ["16435-1"],
+				"ClueTier": "elite",
+				"ClueType": "Scan",
+				"Not F2P": true
+			},
+			"North of Wendle's Wicks.": {
+				"Chunks": ["16436-1"],
+				"ClueTier": "elite",
+				"ClueType": "Scan",
+				"Not F2P": true
+			},
+			"Centre of Wendlewick.": {
+				"Chunks": ["16692"],
+				"ClueTier": "elite",
+				"ClueType": "Scan",
+				"Not F2P": true
+			},
+			"North of Adam's house.": {
+				"Chunks": ["16692"],
+				"ClueTier": "elite",
+				"ClueType": "Scan",
+				"Not F2P": true
+			},
+			"Between Zeke's house and the Smithy.": {
+				"Chunks": ["16692"],
+				"ClueTier": "elite",
+				"ClueType": "Scan",
+				"Not F2P": true
+			},
+			"Between the food shop and the general store.": {
+				"Chunks": ["16692"],
+				"ClueTier": "elite",
+				"ClueType": "Scan",
+				"Not F2P": true
+			},
+			"In the graveyard north of Wendlewick.": {
+				"Chunks": ["16692"],
+				"ClueTier": "elite",
+				"ClueType": "Scan",
+				"Not F2P": true
+			},
+			"North-east of the Wendlewick lodestone.": {
+				"Chunks": ["16691-1"],
+				"ClueTier": "elite",
+				"ClueType": "Scan",
+				"Not F2P": true
+			},
+			"By the Burnt Lobster noticeboard.": {
+				"Chunks": ["16691-1"],
+				"ClueTier": "elite",
+				"ClueType": "Scan",
+				"Not F2P": true
+			},
+			"Just outside the Burnt Lobster.": {
+				"Chunks": ["16691-1"],
+				"ClueTier": "elite",
+				"ClueType": "Scan",
+				"Not F2P": true
+			},
+			"At the eastern entrance to the lighthouse.": {
+				"Chunks": ["16691-1"],
+				"ClueTier": "elite",
+				"ClueType": "Scan",
+				"Not F2P": true
+			},
+			"By the Birds and the Bees.": {
+				"Chunks": ["16691-1"],
+				"ClueTier": "elite",
+				"ClueType": "Scan",
+				"Not F2P": true
+			},
+			"South of Reuben's house.": {
+				"Chunks": ["16947"],
+				"ClueTier": "elite",
+				"ClueType": "Scan",
+				"Not F2P": true
+			},
+			"In the Marigold Farm cow pen.": {
+				"Chunks": ["16947"],
+				"ClueTier": "elite",
+				"ClueType": "Scan",
+				"Not F2P": true
+			},
+			"In the Marigold Farm potato and onion field.": {
+				"Chunks": ["16947"],
+				"ClueTier": "elite",
+				"ClueType": "Scan",
+				"Not F2P": true
+			},
+			"In the wheatfield next to the Wendlewick windmill.": {
+				"Chunks": ["16947"],
+				"ClueTier": "elite",
+				"ClueType": "Scan",
+				"Not F2P": true
+			},
+			"East of the Marigold Farm well.": {
+				"Chunks": ["16946-1"],
 				"ClueTier": "elite",
 				"ClueType": "Scan",
 				"Not F2P": true
@@ -210217,6 +210355,9 @@
 					"Quest": {
 						"Visions of Havenhythe": "step",
 						"Trader Woes": "step"
+					},
+					"Clue": {
+						"elite": 4
 					}
 				},
 				"2": {},
@@ -210253,6 +210394,9 @@
 					},
 					"Shop": {
 						"Wendle's Wicks": true
+					},
+					"Clue": {
+						"elite": 1
 					}
 				},
 				"2": {
@@ -210923,7 +211067,8 @@
 						"Hearts of Sanguine": "step"
 					},
 					"Clue": {
-						"medium": 1
+						"medium": 1,
+						"elite": 5
 					}
 				},
 				"2": {
@@ -211016,6 +211161,9 @@
 				"The Lute of Love": "step",
 				"Trader Woes": "step",
 				"A Sliver of Silver Helps the Sanguine Go Down": "first"
+			},
+			"Clue": {
+				"elite": 5
 			},
 			"Nickname": "Wendlewick"
 		},
@@ -211641,6 +211789,9 @@
 					},
 					"Quest": {
 						"Visions of Havenhythe": "step"
+					},
+					"Clue": {
+						"elite": 1
 					}
 				},
 				"2": {
@@ -211715,7 +211866,8 @@
 				"Wiz Kid": "first"
 			},
 			"Clue": {
-				"easy": 1
+				"easy": 1,
+				"elite": 4
 			},
 			"Nickname": "Marigold Farm"
 		},
@@ -228295,7 +228447,15 @@
 				"Fractured Staff of Armadyl",
 				"Flowers",
 				"Rubber chicken",
-				"Offhand rubber chicken"
+				"Offhand rubber chicken",
+				"Ruinous maul",
+				"Off-hand ruinous rapier",
+				"Ruinous rapier",
+				"Ruinous crossbow",
+				"Off-hand ruinous crossbow",
+				"Ruinous staff",
+				"Ruinous guard",
+				"Ruinous lantern"
 			],
 			"AutomatonGloves[+]": [
 				"Pneumatic gloves",
@@ -231024,7 +231184,7 @@
 			],
 			"RuinousMeleeWeapon[+]": [
 				"Ruinous rapier",
-				"Ruinous off-hand rapier",
+				"Off-hand ruinous rapier",
 				"Ruinous maul"
 			],
 			"RuinousNecroWeapon[+]": [
@@ -235548,6 +235708,10 @@
 					"Receive a slayer assignment from ~|Morvran|~",
 					"Receive a slayer assignment from ~|Laniakea|~"
 			],
+			"VannakaMazchnaMaster[+]": [
+					"Receive a slayer assignment from ~|Mazchna|~",
+					"Receive a slayer assignment from ~|Vannaka|~"
+			],
 			"Lava strykewyrm task[+]": ["Lava strykewyrm base task", "Lava strykewyrm wilderness task"],
 			"Ripper demon task[+]": ["Ripper demon base task", "Ripper demon wilderness task"],
 			"Onyx dragon task[+]": ["Gemstone dragon base task", "Onyx dragon wilderness task"],
@@ -238058,6 +238222,12 @@
 			"15151": true,
 			"15406": true,
 			"15407": true,
+			"16435": true,
+			"16436": true,
+			"16691": true,
+			"16692": true,
+			"16946": true,
+			"16947": true,
 			"Zanaris": true,
 			"Fremennik Slayer Dungeon": true,
 			"Taverley Dungeon": true,
@@ -254888,10 +255058,10 @@
 		},
 		"Flesh-hatcher Mhekarnahz": {
 			"Dragon harpoon": {
-				"1": "1/100"
+				"1": "1/128"
 			},
 			"Stalker's charm": {
-				"1": "1/100"
+				"1": "1/128"
 			},
 			"Prayer potion (3)": {
 				"1-2": "Common"
@@ -254975,7 +255145,7 @@
 				"1": "Rare"
 			},
 			"Mhekarnahz's eye": {
-				"1": "Very rare"
+				"1": "1/800"
 			},
 			"Gold charm": {
 				"8": "Common"
@@ -258927,7 +259097,13 @@
 				"1-10": "9/101"
 			},
 			"Bronze spear": {
-				"1": "14/101"
+				"1": "9/101"
+			},
+			"Bronze dagger": {
+				"1": "5/202"
+			},
+			"Bronze off hand dagger": {
+				"1": "5/202"
 			},
 			"Bronze full helm": {
 				"1": "10/101"
@@ -264940,13 +265116,13 @@
 				"1": "Uncommon"
 			},
 			"Bonecrusher maul": {
-				"1": "1/100"
+				"1": "1/64"
 			},
 			"Magic skull mask": {
-				"1": "1/100"
+				"1": "1/64"
 			},
 			"Ivar's loincloth": {
-				"1": "1/2000"
+				"1": "1/1250"
 			},
 			"Giant Champion's scroll": {
 				"1": "1/5000"
@@ -278204,7 +278380,7 @@
 				"1": "1/5000"
 			},
 			"Silverquill's blood-filled cyst": {
-				"1": "1/2000"
+				"1": "1/1000"
 			}
 		},
 		"Sir Carl": {
@@ -294227,7 +294403,7 @@
 			"Ruinous rapier^": [{
 				"Obtain a warped stone": "Nonskill"
 			}],
-			"Ruinous off-hand rapier^": [{
+			"Off-hand ruinous rapier^": [{
 				"Obtain a warped stone": "Nonskill"
 			}],
 			"Ruinous maul^": [{
@@ -294239,7 +294415,7 @@
 			"Ruinous crossbow^": [{
 				"Obtain a warped stone": "Nonskill"
 			}],
-			"Ruinous off-hand crossbow^": [{
+			"Off-hand ruinous crossbow^": [{
 				"Obtain a warped stone": "Nonskill"
 			}],
 			"Ferret pet (blue)^": [{
@@ -294372,79 +294548,79 @@
 				"Members only": "Nonskill"
 			}],
 			"Enchanted gem pack^": [{
-				"Members only": "Nonksill"
+				"Members only": "Nonskill"
 			}],
 			"Mirror shield^": [{
-				"Members only": "Nonksill"
+				"Members only": "Nonskill"
 			}],
 			"Leaf-bladed spear^": [{
-				"Members only": "Nonksill"
+				"Members only": "Nonskill"
 			}],
 			"Broad arrow^": [{
-				"Members only": "Nonksill"
+				"Members only": "Nonskill"
 			}],
 			"Bag of salt^": [{
-				"Members only": "Nonksill"
+				"Members only": "Nonskill"
 			}],
 			"Salt shaker^": [{
-				"Members only": "Nonksill"
+				"Members only": "Nonskill"
 			}],
 			"Rock hammer^": [{
-				"Members only": "Nonksill"
+				"Members only": "Nonskill"
 			}],
 			"Face mask^": [{
-				"Members only": "Nonksill"
+				"Members only": "Nonskill"
 			}],
 			"Earmuffs^": [{
-				"Members only": "Nonksill"
+				"Members only": "Nonskill"
 			}],
 			"Nose peg^": [{
-				"Members only": "Nonksill"
+				"Members only": "Nonskill"
 			}],
 			"Slayer's staff^": [{
-				"Members only": "Nonksill"
+				"Members only": "Nonskill"
 			}],
 			"Spiny helmet^": [{
-				"Members only": "Nonksill"
+				"Members only": "Nonskill"
 			}],
 			"Fishing explosive^": [{
-				"Members only": "Nonksill"
+				"Members only": "Nonskill"
 			}],
 			"Explosive shaker^": [{
-				"Members only": "Nonksill"
+				"Members only": "Nonskill"
 			}],
 			"Super explosive shaker^": [{
-				"Members only": "Nonksill"
+				"Members only": "Nonskill"
 			}],
 			"Ice cooler^": [{
-				"Members only": "Nonksill"
+				"Members only": "Nonskill"
 			}],
 			"Ice shaker^": [{
-				"Members only": "Nonksill"
+				"Members only": "Nonskill"
 			}],
 			"Slayer gloves^": [{
-				"Members only": "Nonksill"
+				"Members only": "Nonskill"
 			}],
 			"Unlit bug lantern^": [{
-				"Members only": "Nonksill"
+				"Members only": "Nonskill"
 			}],
 			"Insulated boots^": [{
-				"Members only": "Nonksill"
+				"Members only": "Nonskill"
 			}],
 			"Fungicide spray 10^": [{
-				"Members only": "Nonksill"
+				"Members only": "Nonskill"
 			}],
 			"Fungicide spray^": [{
-				"Members only": "Nonksill"
+				"Members only": "Nonskill"
 			}],
 			"Fungicide shaker^": [{
-				"Members only": "Nonksill"
+				"Members only": "Nonskill"
 			}],
 			"Witchwood icon^": [{
-				"Members only": "Nonksill"
+				"Members only": "Nonskill"
 			}],
 			"Slayer bell^": [{
-				"Members only": "Nonksill"
+				"Members only": "Nonskill"
 			}]
 		},
 		"Monsters": {
@@ -297779,6 +297955,26 @@
 			{ "color": "#ffff00", "text": "Scan clue, South-west of north-east entrance", "type": "Elite", "x":3146, "y":3734 },
 			{ "color": "#ffff00", "text": "Scan clue, South of north-east entrance", "type": "Elite", "x":3169, "y":3745 },
 			{ "color": "#ffff00", "text": "Scan clue, East side of crater", "type": "Elite", "x":3181, "y":3708 },
+			{ "color": "#FFFF00", "text": "Scan clue, East of the Wendlewick Fish Farm.", "type": "Elite", "x": 4106, "y": 3302 },
+			{ "color": "#FFFF00", "text": "Scan clue, South-west of Wendle's Wicks.", "type": "Elite", "x": 4125, "y": 3317 },
+			{ "color": "#FFFF00", "text": "Scan clue, South-west of the Wendlewick fishing shop.", "type": "Elite", "x": 4127, "y": 3301 },
+			{ "color": "#FFFF00", "text": "Scan clue, West of the lower entrance to the lighthouse.", "type": "Elite", "x": 4141, "y": 3286 },
+			{ "color": "#FFFF00", "text": "Scan clue, North of Wendle's Wicks.", "type": "Elite", "x": 4146, "y": 3342 },
+			{ "color": "#FFFF00", "text": "Scan clue, Centre of Wendlewick.", "type": "Elite", "x": 4175, "y": 3347 },
+			{ "color": "#FFFF00", "text": "Scan clue, North of Adam's house.", "type": "Elite", "x": 4181, "y": 3370 },
+			{ "color": "#FFFF00", "text": "Scan clue, Between Zeke's house and the Smithy.", "type": "Elite", "x": 4210, "y": 3341 },
+			{ "color": "#FFFF00", "text": "Scan clue, Between the food shop and the general store.", "type": "Elite", "x": 4189, "y": 3330 },
+			{ "color": "#FFFF00", "text": "Scan clue, In the graveyard north of Wendlewick.", "type": "Elite", "x": 4218, "y": 3380 },
+			{ "color": "#FFFF00", "text": "Scan clue, North-east of the Wendlewick lodestone.", "type": "Elite", "x": 4170, "y": 3315 },
+			{ "color": "#FFFF00", "text": "Scan clue, By the Burnt Lobster noticeboard.", "type": "Elite", "x": 4198, "y": 3309 },
+			{ "color": "#FFFF00", "text": "Scan clue, Just outside the Burnt Lobster.", "type": "Elite", "x": 4191, "y": 3296 },
+			{ "color": "#FFFF00", "text": "Scan clue, At the eastern entrance to the lighthouse.", "type": "Elite", "x": 4175, "y": 3290 },
+			{ "color": "#FFFF00", "text": "Scan clue, By the Birds and the Bees.", "type": "Elite", "x": 4187, "y": 3267 },
+			{ "color": "#FFFF00", "text": "Scan clue, South of Reuben's house.", "type": "Elite", "x": 4268, "y": 3324 },
+			{ "color": "#FFFF00", "text": "Scan clue, In the Marigold Farm cow pen.", "type": "Elite", "x": 4233, "y": 3292 },
+			{ "color": "#FFFF00", "text": "Scan clue, In the Marigold Farm potato and onion field.", "type": "Elite", "x": 4274, "y": 3270 },
+			{ "color": "#FFFF00", "text": "Scan clue, In the wheatfield next to the Wendlewick windmill.", "type": "Elite", "x": 4263, "y": 3296 },
+			{ "color": "#FFFF00", "text": "Scan clue, East of the Marigold Farm well.", "type": "Elite", "x": 4258, "y": 3262 },
 			{ "color": "#00fbff", "text": "A PURE GLOW", "type": "Master", "x":3256, "y":3355 },
 			{ "color": "#00fbff", "text": "AH; WET ARM", "type": "Master", "x":2347, "y":3164 },
 			{ "color": "#00fbff", "text": "ERGO I DIG CLAY", "type": "Master", "x":3377, "y":3404 },
@@ -299344,11 +299540,11 @@
 			"Ruinous guard": true,
 			"Ruinous lantern": true,
 			"Ruinous rapier": true,
-			"Ruinous off-hand rapier": true,
+			"Off-hand ruinous rapier": true,
 			"Ruinous maul": true,
 			"Ruinous staff": true,
 			"Ruinous crossbow": true,
-			"Ruinous off-hand crossbow": true,
+			"Off-hand ruinous crossbow": true,
 			"Notepaper blueprint": true,
 			"Elite Dungeoneering outfit blueprint": true,
 			"Daemonheim skill door boost": true,
@@ -310570,7 +310766,7 @@
 			},
 			"Warped floors loot": {
 				"Warped stone": {
-					"1": "1/100"
+					"1": "1/50"
 				}
 			}
 		},
@@ -329809,10 +330005,10 @@
 					"1": "Uncommon"
 				},
 				"Tainted seed": {
-					"1": "1/1024"
+					"1": "1/2500"
 				},
 				"Vampyrism gloves": {
-					"1": "1/1024"
+					"1": "1/2000"
 				},
 				"Sealed clue scroll (easy)": {
 					"1": "1/64"
@@ -329834,6 +330030,14 @@
 				},
 				"HerbDropTable+": {
 					"1": "1/16"
+				}
+			},
+			"Sanguine crawler (task)": {
+				"Tainted seed": {
+					"1": "1/1250"
+				},
+				"Vampyrism gloves": {
+					"1": "1/500"
 				}
 			},
 			"Scarab akh": {
@@ -373474,7 +373678,7 @@
 			"prayer": 0,
 			"charges": 30000,
 			"style": "necromancy",
-			"ability_damage": 528,
+			"ability_damage": 264,
 			"magic_damage": 0,
 			"slot": "off-hand weapon",
 			"requirements": {
@@ -373487,7 +373691,7 @@
 			"attack_range": 4,
 			"class": "necromancy",
 			"accuracy": 983,
-			"auto_damage": 264
+			"auto_damage": 409.7
 		},
 		"Gravite longsword": {
 			"ranged_damage": 0,
@@ -388508,7 +388712,7 @@
 			},
 			"speed": 5,
 			"tier": 61,
-			"lp": 900,
+			"lp": 0,
 			"attack_range": 1,
 			"class": "melee",
 			"accuracy": 1164,
@@ -388528,7 +388732,7 @@
 			},
 			"speed": 5,
 			"tier": 62,
-			"lp": 900,
+			"lp": 0,
 			"attack_range": 1,
 			"class": "melee",
 			"accuracy": 1197,
@@ -388548,7 +388752,7 @@
 			},
 			"speed": 5,
 			"tier": 63,
-			"lp": 900,
+			"lp": 0,
 			"attack_range": 1,
 			"class": "melee",
 			"accuracy": 1230,
@@ -392544,7 +392748,7 @@
 			"accuracy": 3100,
 			"auto_damage": 670
 		},
-		"Ruinous off-hand crossbow": {
+		"Off-hand ruinous crossbow": {
 			"ranged_damage": 0,
 			"melee_damage": 0,
 			"prayer": 0,
@@ -392566,7 +392770,7 @@
 			"accuracy": 3100,
 			"auto_damage": 670
 		},
-		"Ruinous off-hand rapier": {
+		"Off-hand ruinous rapier": {
 			"ranged_damage": 0,
 			"melee_damage": 0,
 			"prayer": 0,
