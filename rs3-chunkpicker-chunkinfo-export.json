@@ -9259,6 +9259,14 @@
 				"NoBoost": true,
 				"Not F2P": true
 			},
+			"Use the ~|Meteor Strike|~ ability": {
+				"Category": ["Abilities"],
+				"Level": 90,
+				"Primary": false,
+				"Priority": 1001,
+				"NoPet": true,
+				"NoBoost": true
+			},
 			"Wield the ~|Zaros godsword|~": {
 				"Items": ["Zaros godsword"],
 				"Level": 92,
@@ -9678,6 +9686,14 @@
 		        "Priority": 3,
 				"Not F2P": true
 		    },
+			"Use the ~|Incite|~ ability": {
+				"Category": ["Abilities"],
+				"Level": 24,
+				"Primary": false,
+				"Priority": 1001,
+				"NoPet": true,
+				"NoBoost": true
+			},
 		    "Use a ~|portent of restoration III|~": {
 		        "Items": ["Portent of restoration III"],
 		        "Level": 25,
@@ -16573,7 +16589,7 @@
 			"Cook an ~|incomplete stew (potato)|~ in New Varrock": {
 				"Chunks": ["New Varrock"],
 				"Level": 25,
-				"Primary": true,
+				"Primary": false,
 				"Priority": 1000,
 				"Not F2P": true
 			},
@@ -17359,7 +17375,7 @@
 				"Category": ["Multi Step Processing", "Highest Level"],
 				"Chunks": ["New Varrock"],
 				"Level": 42,
-				"Primary": true,
+				"Primary": false,
 				"Priority": 1000,
 				"Not F2P": true
 			},
@@ -21268,7 +21284,7 @@
 			"Craft a ~|studded leather shield|~ in New Varrock": {
 				"Chunks": ["New Varrock"],
 				"Level": 45,
-				"Primary": true,
+				"Primary": false,
 				"Priority": 1,
 				"Not F2P": true
 			},
@@ -22362,7 +22378,7 @@
 				"Category": ["Multi Step Processing", "Highest Level"],
 				"Chunks": ["New Varrock"],
 				"Level": 70,
-				"Primary": true,
+				"Primary": false,
 				"Priority": 1,
 				"Not F2P": true
 			},
@@ -25472,7 +25488,7 @@
 			"Wear a piece of ~|steel armour|~ in New Varrock": {
 				"Chunks": ["New Varrock"],
 				"Level": 20,
-				"Primary": true,
+				"Primary": false,
 				"Priority": 100,
 				"Not F2P": true
 			},
@@ -29059,6 +29075,14 @@
 				"Output": "Light core",
 				"Primary": true,
 				"Priority": 2
+			},
+			"Use the ~|Barricade|~ ability": {
+				"Category": ["Abilities"],
+				"Level": 81,
+				"Primary": false,
+				"Priority": 1001,
+				"NoPet": true,
+				"NoBoost": true
 			},
 			"Transmute raw shark to ~|raw sea turtle|~": {
 				"Items": ["Brilliant energy*", "Raw shark*"],
@@ -35567,7 +35591,7 @@
 			"Light a fire using ~|teak logs|~ in New Varrock": {
 				"Chunks": ["New Varrock"],
 				"Level": 35,
-				"Primary": true,
+				"Primary": false,
 				"Priority": 1,
 				"Not F2P": true
 			},
@@ -38570,7 +38594,7 @@
 			"Fletch a ~|teak wood box|~ in New Varrock": {
 				"Chunks": ["New Varrock"],
 				"Level": 30,
-				"Primary": true,
+				"Primary": false,
 				"Priority": 100,
 				"Not F2P": true
 			},
@@ -39156,7 +39180,7 @@
 				"Category": ["Mutli Step Processing", "Highest Level"],
 				"Chunks": ["New Varrock"],
 				"Level": 65,
-				"Primary": true,
+				"Primary": false,
 				"Priority": 1000,
 				"Not F2P": true
 			},
@@ -41173,7 +41197,7 @@
 				"Tasks": {
 					"~|Defender of Varrock|~ Complete the quest": "Quest"
 				},
-				"Primary": true,
+				"Primary": false,
 				"Priority": 1000
 			},
 			"Mix an ~|antipoison|~": {
@@ -41309,7 +41333,7 @@
 				"Priority": 1
 			},
 			"Mix a ~|restore potion|~ from scratch": {
-				"Items": ["Grimy harralander*", "Red spiders' eggs*"],
+				"Items": ["Grimy harralander*", "Vial of water", "Red spiders' eggs*"],
 				"Level": 22,
 				"Output": "Restore potion (3)",
 				"Primary": true,
@@ -42302,7 +42326,7 @@
 				"Tasks": {
 					"~|Defender of Varrock|~ Complete the quest": "Quest"
 				},
-				"Primary": true,
+				"Primary": false,
 				"Priority": 2
 			},
 			"Mix a ~|dwarf weed potion (unfinished)|~": {
@@ -48248,7 +48272,7 @@
 			"Cast ~|Telekenetic Grab|~ in New Varrock": {
 				"Chunks": ["New Varrock"],
 				"Level": 33,
-				"Primary": true,
+				"Primary": false,
 				"Priority": 100,
 				"Not F2P": true
 			},
@@ -51402,6 +51426,14 @@
 				"Priority": 1005,
 				"Partial": true
 			},
+			"Use the ~|Tsunami|~ ability": {
+				"Category": ["Abilities"],
+				"Level": 90,
+				"Primary": false,
+				"Priority": 1006,
+				"NoPet": true,
+				"NoBoost": true
+			},
 			"Make a ~|Milestone cape (90)|~": {
 				"Category": ["Skillcape"],
 				"Items": ["Balls of wool"],
@@ -53592,6 +53624,14 @@
 				},
 				"Primary": true,
 				"Priority": 1,
+				"NoPet": true,
+				"NoBoost": true
+			},
+			"Use the ~|Living Death|~ ability": {
+				"Category": ["Abilities"],
+				"Level": 90,
+				"Primary": false,
+				"Priority": 1001,
 				"NoPet": true,
 				"NoBoost": true
 			},
@@ -56373,7 +56413,7 @@
 			"Equip an ~|iron dart|~ in New Varrock": {
 				"Chunks": ["New Varrock"],
 				"Level": 10,
-				"Primary": true,
+				"Primary": false,
 				"Priority": 1000,
 				"Not F2P": true,
 				"NoPet": true,
@@ -56895,7 +56935,7 @@
 				"Tasks": {
 					"~|Defender of Varrock|~ Complete the quest": "Quest"
 				},
-				"Primary": true,
+				"Primary": false,
 				"Priority": 100,
 				"Not F2P": true,
 				"NoBoost": true,
@@ -58811,6 +58851,14 @@
 				"NoBoost": true,
 				"Not F2P": true
 			},
+			"Use the ~|Imbue: Shadows|~ ability": {
+				"Category": ["Abilities"],
+				"Level": 90,
+				"Primary": false,
+				"Priority": 1001,
+				"NoPet": true,
+				"NoBoost": true
+			},
 			"Wield a ~|Seren godbow|~": {
 				"Items": ["Seren godbow"],
 				"Level": 92,
@@ -60162,7 +60210,7 @@
 				"Category": ["Multi Step Processing", "Highest Level"],
 				"Chunks": ["New Varrock"],
 				"Level": 20,
-				"Primary": true,
+				"Primary": false,
 				"Priority": 1,
 				"Not F2P": true
 			},
@@ -61413,6 +61461,18 @@
 				"Priority": 1,
 				"Source": "drop",
 				"Output": "Sanguine crawler",
+				"NoPet": true
+			},
+			"Slay a ~|sanguine crawler|~ while on task": {
+				"Level": 28,
+				"Monsters": ["Sanguine crawler"],
+				"Tasks": {
+					"Sanguine crawler task": "Nonskill"
+				},
+				"Primary": false,
+				"Priority": 50,
+				"Source": "drop",
+				"Output": "Sanguine crawler (task)",
 				"NoPet": true
 			},
 			"Slay a ~|pyrefiend|~": {
@@ -64351,7 +64411,7 @@
 			"Smelt a ~|gold bar|~ in New Varrock": {
 				"Chunks": ["New Varrock"],
 				"Level": 40,
-				"Primary": true,
+				"Primary": false,
 				"Priority": 1001,
 				"Not F2P": true
 			},
@@ -65578,7 +65638,7 @@
 				"Category": ["Multi Step Processing", "Highest Level"],
 				"Chunks": ["New Varrock"],
 				"Level": 99,
-				"Primary": true,
+				"Primary": false,
 				"Priority": 1006,
 				"Not F2P": true,
 				"Partial": true
@@ -69475,7 +69535,7 @@
 			},
 			"Crack a ~|safe|~ in Misthalin": {
 				"Level": 62,
-				"Chunks": ["Misthalin safes[+]"],
+				"Objects": ["Safe#Misthalin"],
 				"Output": "Low-level safes",
 				"Primary": true,
 				"Priority": 2
@@ -69582,7 +69642,7 @@
 			},
 			"Crack a ~|safe|~ in the Kharidian Desert": {
 				"Level": 69,
-				"Chunks": ["Kharidian safes[+]"],
+				"Objects": ["Safe#Kharidian Desert"],
 				"Output": "Low-level safes",
 				"Primary": true,
 				"Priority": 1
@@ -69742,7 +69802,7 @@
 			},
 			"Crack a ~|safe|~ in Asgarnia": {
 				"Level": 76,
-				"Chunks": ["Asgarnian safes[+]"],
+				"Objects": ["Safe#Asgarnia"],
 				"Output": "Low-level safes",
 				"Primary": true,
 				"Priority": 1
@@ -69870,7 +69930,7 @@
 			},
 			"Crack a ~|safe|~ in Kandarin": {
 				"Level": 83,
-				"Chunks": ["Kandarin safes[+]"],
+				"Objects": ["Safe#Kandarin"],
 				"Output": "High-level safes",
 				"Primary": true,
 				"Priority": 2
@@ -69946,6 +70006,7 @@
 			},
 			"Crack the ~|safe|~ in the rogues' castle": {
 				"Level": 90,
+				"Objects": ["Safe#Hidden"],
 				"Chunks": ["13117"],
 				"Output": "High-level safes",
 				"Primary": true,
@@ -70094,6 +70155,7 @@
 			},
 			"Crack the ~|safes|~ in Zanaris": {
 				"Level": 94,
+				"Objects": ["Safe#Hidden"],
 				"Chunks": ["Zanaris"],
 				"Output": "High-level safes",
 				"Primary": true,
@@ -70170,6 +70232,7 @@
 			},
 			"Crack the ~|safes|~ in Zemouregal's fort": {
 				"Level": 96,
+				"Objects": ["Safe#Hidden"],
 				"Chunks": ["11324"],
 				"Output": "High-level safes",
 				"Primary": true,
@@ -70998,7 +71061,7 @@
 				"Category": ["Multi Step Processing", "Highest Level"],
 				"Chunks": ["New Varrock"],
 				"Level": 20,
-				"Primary": true,
+				"Primary": false,
 				"Priority": 1,
 				"Not F2P": true
 			},
@@ -166706,6 +166769,12 @@
 				},
 				"Not F2P": true
 			},
+			"Sanguine crawler task": {
+				"Tasks": {
+					"VannakaMazchnaMaster[+]": "Slayer"
+				},
+				"Not F2P": true
+			},
 			"Basilisk task": {
 				"Tasks": {
 					"MazchnaChaeldarSumonaMaster[+]": "Slayer"
@@ -172894,6 +172963,126 @@
 				"ClueType": "Scan",
 				"Not F2P": true
 			},
+			"East of the Wendlewick Fish Farm.": {
+				"Chunks": ["16435-1"],
+				"ClueTier": "elite",
+				"ClueType": "Scan",
+				"Not F2P": true
+			},
+			"South-west of Wendle's Wicks.": {
+				"Chunks": ["16435-1"],
+				"ClueTier": "elite",
+				"ClueType": "Scan",
+				"Not F2P": true
+			},
+			"South-west of the Wendlewick fishing shop.": {
+				"Chunks": ["16435-1"],
+				"ClueTier": "elite",
+				"ClueType": "Scan",
+				"Not F2P": true
+			},
+			"West of the lower entrance to the lighthouse.": {
+				"Chunks": ["16435-1"],
+				"ClueTier": "elite",
+				"ClueType": "Scan",
+				"Not F2P": true
+			},
+			"North of Wendle's Wicks.": {
+				"Chunks": ["16436-1"],
+				"ClueTier": "elite",
+				"ClueType": "Scan",
+				"Not F2P": true
+			},
+			"Centre of Wendlewick.": {
+				"Chunks": ["16692"],
+				"ClueTier": "elite",
+				"ClueType": "Scan",
+				"Not F2P": true
+			},
+			"North of Adam's house.": {
+				"Chunks": ["16692"],
+				"ClueTier": "elite",
+				"ClueType": "Scan",
+				"Not F2P": true
+			},
+			"Between Zeke's house and the Smithy.": {
+				"Chunks": ["16692"],
+				"ClueTier": "elite",
+				"ClueType": "Scan",
+				"Not F2P": true
+			},
+			"Between the food shop and the general store.": {
+				"Chunks": ["16692"],
+				"ClueTier": "elite",
+				"ClueType": "Scan",
+				"Not F2P": true
+			},
+			"In the graveyard north of Wendlewick.": {
+				"Chunks": ["16692"],
+				"ClueTier": "elite",
+				"ClueType": "Scan",
+				"Not F2P": true
+			},
+			"North-east of the Wendlewick lodestone.": {
+				"Chunks": ["16691-1"],
+				"ClueTier": "elite",
+				"ClueType": "Scan",
+				"Not F2P": true
+			},
+			"By the Burnt Lobster noticeboard.": {
+				"Chunks": ["16691-1"],
+				"ClueTier": "elite",
+				"ClueType": "Scan",
+				"Not F2P": true
+			},
+			"Just outside the Burnt Lobster.": {
+				"Chunks": ["16691-1"],
+				"ClueTier": "elite",
+				"ClueType": "Scan",
+				"Not F2P": true
+			},
+			"At the eastern entrance to the lighthouse.": {
+				"Chunks": ["16691-1"],
+				"ClueTier": "elite",
+				"ClueType": "Scan",
+				"Not F2P": true
+			},
+			"By the Birds and the Bees.": {
+				"Chunks": ["16691-1"],
+				"ClueTier": "elite",
+				"ClueType": "Scan",
+				"Not F2P": true
+			},
+			"South of Reuben's house.": {
+				"Chunks": ["16947"],
+				"ClueTier": "elite",
+				"ClueType": "Scan",
+				"Not F2P": true
+			},
+			"In the Marigold Farm cow pen.": {
+				"Chunks": ["16947"],
+				"ClueTier": "elite",
+				"ClueType": "Scan",
+				"Not F2P": true
+			},
+			"In the Marigold Farm potato and onion field.": {
+				"Chunks": ["16947"],
+				"ClueTier": "elite",
+				"ClueType": "Scan",
+				"Not F2P": true
+			},
+			"In the wheatfield next to the Wendlewick windmill.": {
+				"Chunks": ["16947"],
+				"ClueTier": "elite",
+				"ClueType": "Scan",
+				"Not F2P": true
+			},
+			"East of the Marigold Farm well.": {
+				"Chunks": ["16946-1"],
+				"ClueTier": "elite",
+				"ClueType": "Scan",
+				"Not F2P": true
+			},
 			"Just west of the bloodwood tree, outside the Arboretum.": {
 				"Chunks": ["14388-1"],
 				"ClueTier": "master",
@@ -177048,6 +177237,14 @@
 			},
 			"Access the Dungeons of Daemonheim": {
 				"Chunks": ["13626-1", "13882-1"]
+			},
+			"Get pilfer points from fencing loot*": {
+				"Objects": ["Safes[+]"],
+				"Chunks": ["Thieves' Guild"],
+				"Tasks": {
+					"~|A Guild of Our Own (miniquest)|~ Complete the miniquest": "Quest"
+				},
+				"Output": "Pilfer points"
 			}
 		}
 	},
@@ -186696,7 +186893,8 @@
 						"Oak": 13,
 						"Tree": 15,
 						"Evil tree": 1,
-						"Wall (Yanille)": 1
+						"Wall (Yanille)": 1,
+						"Safe#Kandarin": 2
 					},
 					"Monster": {
 						"Soldier": 16,
@@ -188227,7 +188425,8 @@
 				"Philipe's painting set": 1,
 				"Inventor's workbench": 2,
 				"Furnace": 1,
-				"Choking ivy": 5
+				"Choking ivy": 5,
+				"Safe#Kandarin": 3
 			},
 			"Monster": {
 				"Warrior woman": 3,
@@ -189333,7 +189532,8 @@
 						"Geoff": 1,
 						"Vault access lever": 1,
 						"Ornate cuckoo clock": 1,
-						"Jade vine patch": 1
+						"Jade vine patch": 1,
+						"Safe#Kandarin": 2
 					},
 					"Monster": {
 						"Warrior woman": 2,
@@ -190684,7 +190884,8 @@
 					"Object": {
 						"Altar": 1,
 						"Fountain": 2,
-						"Closed chest": 1
+						"Closed chest": 1,
+						"Safe#Kandarin": 2
 					},
 					"NPC": {
 						"Squire": 1
@@ -193497,7 +193698,8 @@
 				"Dead tree": 34,
 				"Dead tree covered in snow": 5,
 				"Tapestry": 1,
-				"Crate": 2
+				"Crate": 2,
+				"Safe#Hidden": 4
 			},
 			"NPC": {
 				"Undead broav": 1,
@@ -194802,7 +195004,8 @@
 						"Bookcase": 10,
 						"Clan flag": 1,
 						"Anvil": 1,
-						"Training dummy": 2
+						"Training dummy": 2,
+						"Safe#Asgarnia": 2
 					},
 					"NPC": {
 						"Gaius": 1,
@@ -194854,9 +195057,7 @@
 					},
 					"Shop": {
 						"Carwen Essencebinder Magical Runes Shop": true,
-						"Gaius's Two-Handed Shop": true,
-						"Slayer Equipment (Burthorpe)": true,
-						"Slayer Equipment (F2P, Burthorpe)": true
+						"Gaius's Two-Handed Shop": true
 					},
 					"Quest": {
 						"Animal Magnetism":  "step",
@@ -196794,7 +196995,8 @@
 						"Sink": 1,
 						"Anvil": 1,
 						"Forge": 1,
-						"Spirit tree patch": 1
+						"Spirit tree patch": 1,
+						"Safe#Asgarnia": 2
 					},
 					"Monster": {
 						"Man": 1,
@@ -196999,7 +197201,8 @@
 						"Burial Anvil": 8,
 						"Furnace": 1,
 						"Forge": 1,
-						"Crashed star": 1
+						"Crashed star": 1,
+						"Safe#Asgarnia": 3
 					},
 					"NPC": {
 						"Dwarf": 2,
@@ -197054,7 +197257,8 @@
 				},
 				"2": {
 					"Object": {
-						"Tree": 1
+						"Tree": 1,
+						"Safe#Asgarnia": 1
 					},
 					"NPC": {
 						"Garden supplier": 1,
@@ -197252,7 +197456,8 @@
 						"Tome of Chaos": 1,
 						"Shelves": 1,
 						"Dragon": 6,
-						"Trophy case": 1
+						"Trophy case": 1,
+						"Safe#Asgarnia": 2
 					},
 					"Monster": {
 						"Black Knight": 24
@@ -197490,6 +197695,9 @@
 			},
 			"Spawn": {
 				"Redberry pie": 1
+			},
+			"Shop": {
+				"Slayer Equipment": true
 			},
 			"Connect": {
 				"12193": true
@@ -197921,7 +198129,8 @@
 			"Sections": {
 				"1": {
 					"Object": {
-						"Cooking range": 1
+						"Cooking range": 1,
+						"Safe#Kharidian Desert": 1
 					},
 					"Clue": {
 						"elite": 1
@@ -197959,7 +198168,8 @@
 				"Cooking range": 3,
 				"Fountain": 1,
 				"Steps": 11,
-				"Fairy ring": 1
+				"Fairy ring": 1,
+				"Safe#Kharidian Desert": 2
 			},
 			"NPC": {
 				"Qat": 1,
@@ -198052,7 +198262,7 @@
 						"Runecrafting Guild portal": 1,
 						"Low-level Runespan portal": 1,
 						"Rune chest": 1,
-						"Safe#Misthalin": 1,
+						"Safe#Misthalin": 2,
 						"Chest (Wizards' Tower)": 3
 					},
 					"NPC": {
@@ -198162,7 +198372,8 @@
 						"Elder tree": 1,
 						"Draynor wine stall": 1,
 						"Evil tree": 1,
-						"Nettles": 3
+						"Nettles": 3,
+						"Safe#Misthalin": 1
 					},
 					"NPC": {
 						"Musician": 1,
@@ -198353,7 +198564,8 @@
 						"Crate": 1,
 						"Bookcase": 1,
 						"Nightshade patch": 1,
-						"Evil turnip patch": 1
+						"Evil turnip patch": 1,
+						"Safe#Misthalin": 2
 					},
 					"Monster": {
 						"Rat": 2,
@@ -198547,7 +198759,8 @@
 						"Chest": 1,
 						"Ironman plaque": 1,
 						"Canoe station": 1,
-						"Nettles": 3
+						"Nettles": 3,
+						"Safe#Misthalin": 1
 					},
 					"Monster": {
 						"Man": 7,
@@ -198587,7 +198800,6 @@
 					"Shop": {
 						"Slayer Bounty & Deathmatch Reward Shop": true,
 						"Slayer Equipment": true,
-						"Slayer Equipment (F2P)": true,
 						"Richard's Wilderness Cape Shop": true,
 						"Edgeville General Store": true
 					},
@@ -199105,7 +199317,8 @@
 				"Cooking range": 3,
 				"Shifting Tombs": 1,
 				"Anvil": 2,
-				"Forge": 1
+				"Forge": 1,
+				"Safe#Kharidian Desert": 1
 			},
 			"NPC": {
 				"Oedipuss": 1,
@@ -200293,7 +200506,8 @@
 						"Fountain": 3,
 						"Bank booth": 6,
 						"Bank deposit box": 1,
-						"Shifting Tombs": 1
+						"Shifting Tombs": 1,
+						"Safe#Kharidian Desert": 2
 					},
 					"NPC": {
 						"Assistant Librarian Subotai": 1,
@@ -200608,7 +200822,8 @@
 						"Canoe station": 1,
 						"Vegetable stall": 2,
 						"Fishing spot (crayfish)": 5,
-						"Iron Enclave portal": 1
+						"Iron Enclave portal": 1,
+						"Safe#Misthalin": 2
 					},
 					"NPC": {
 						"Hans": 1,
@@ -200674,7 +200889,6 @@
 					"Shop": {
 						"Bob's Brilliant Axes": true,
 						"Slayer Equipment": true,
-						"Slayer Equipment (F2P)": true,
 						"Lumbridge General Store": true
 					},
 					"Quest": {
@@ -201117,7 +201331,8 @@
 				"Lift": 1,
 				"Choking ivy": 9,
 				"Tree patch": 1,
-				"Evil tree": 1
+				"Evil tree": 1,
+				"Safe#Misthalin": 3
 			},
 			"Monster": {
 				"Grizzly bear": 1,
@@ -202073,7 +202288,8 @@
 				"Cooking range": 2,
 				"Water trough": 1,
 				"Carved fountain": 1,
-				"Crashed star": 1
+				"Crashed star": 1,
+				"Safe#Kharidian Desert": 2
 			},
 			"Monster": {
 				"Man": 4,
@@ -202597,7 +202813,10 @@
 				"The Raptor#Fort Forinthry": 1
 			},
 			"Shop": {
-				"Construction Supplies (Fort Forinthry)": true
+				"Construction Supplies (Fort Forinthry)": true,
+				"Slayer Equipment": true,
+				"Rodney's Independent Trading Co": true,
+				"Granny Rowan's Supplies": true
 			},
 			"Quest": {
 				"Ancient Awakening": "first",
@@ -202714,7 +202933,8 @@
 			"Object": {
 				"Chest (Rogues' Castle)": 4,
 				"Small obelisk": 1,
-				"Cooking range": 1
+				"Cooking range": 1,
+				"Safe#Hidden": 3
 			},
 			"NPC": {
 				"Mysterious ghost": 1,
@@ -203301,7 +203521,8 @@
 						"Portal": 1,
 						"Small obelisk": 1,
 						"Well": 1,
-						"Steps": 2
+						"Steps": 2,
+						"Safe#Kharidian Desert": 2
 					},
 					"NPC": {
 						"Isma'il the Kebab seller": 1,
@@ -204129,7 +204350,8 @@
 				"Banana Tree": 5,
 				"Anvil": 1,
 				"Forge": 1,
-				"Crashed star": 1
+				"Crashed star": 1,
+				"Safe#Kharidian Desert": 1
 			},
 			"NPC": {
 				"Monkey": 1,
@@ -210188,6 +210410,9 @@
 					"Quest": {
 						"Visions of Havenhythe": "step",
 						"Trader Woes": "step"
+					},
+					"Clue": {
+						"elite": 4
 					}
 				},
 				"2": {},
@@ -210224,6 +210449,9 @@
 					},
 					"Shop": {
 						"Wendle's Wicks": true
+					},
+					"Clue": {
+						"elite": 1
 					}
 				},
 				"2": {
@@ -210894,7 +211122,8 @@
 						"Hearts of Sanguine": "step"
 					},
 					"Clue": {
-						"medium": 1
+						"medium": 1,
+						"elite": 5
 					}
 				},
 				"2": {
@@ -210987,6 +211216,9 @@
 				"The Lute of Love": "step",
 				"Trader Woes": "step",
 				"A Sliver of Silver Helps the Sanguine Go Down": "first"
+			},
+			"Clue": {
+				"elite": 5
 			},
 			"Nickname": "Wendlewick"
 		},
@@ -211612,6 +211844,9 @@
 					},
 					"Quest": {
 						"Visions of Havenhythe": "step"
+					},
+					"Clue": {
+						"elite": 1
 					}
 				},
 				"2": {
@@ -211686,7 +211921,8 @@
 				"Wiz Kid": "first"
 			},
 			"Clue": {
-				"easy": 1
+				"easy": 1,
+				"elite": 4
 			},
 			"Nickname": "Marigold Farm"
 		},
@@ -216748,7 +216984,8 @@
 				"Dairy Cow": 1,
 				"Zanaris Market spirit stall": 1,
 				"Zanaris Market seed stall": 1,
-				"Zanaris Market trinket stall": 1
+				"Zanaris Market trinket stall": 1,
+				"Safe#Hidden": 2
 			},
 			"NPC": {
 				"Gatekeeper": 5,
@@ -228265,7 +228502,15 @@
 				"Fractured Staff of Armadyl",
 				"Flowers",
 				"Rubber chicken",
-				"Offhand rubber chicken"
+				"Offhand rubber chicken",
+				"Ruinous maul",
+				"Off-hand ruinous rapier",
+				"Ruinous rapier",
+				"Ruinous crossbow",
+				"Off-hand ruinous crossbow",
+				"Ruinous staff",
+				"Ruinous guard",
+				"Ruinous lantern"
 			],
 			"AutomatonGloves[+]": [
 				"Pneumatic gloves",
@@ -230994,7 +231239,7 @@
 			],
 			"RuinousMeleeWeapon[+]": [
 				"Ruinous rapier",
-				"Ruinous off-hand rapier",
+				"Off-hand ruinous rapier",
 				"Ruinous maul"
 			],
 			"RuinousNecroWeapon[+]": [
@@ -234295,6 +234540,7 @@
 			"PotatoPatch[+]": ["Allotment", "Potato patch"],
 			"Phasmatite rock[+]": ["Phasmatite rock", "Phasmatite vein"],
 			"RangersWorkroom[+]": ["Spinning wheel", "Fletching workbench"],
+			"Safes[+]": ["Safe#Misthalin", "Safe#Kharidian Desert", "Safe#Asgarnia", "Safe#Kandarin", "Safe#Hidden"],
 			"Slimy eel spot[+]": ["Fishing spot (slimy eels)", "Fishing spot (frog spawn, eels)", "Fishing spot (meiyerditch)"],
 			"SnowPile[+]": ["Snow pile", "Snow drift"],
 			"Swordfish spot[+]": ["Fishing spot (cage, harpoon)", "Fishing spot (Piscatoris Fishing Colony)"],
@@ -234339,6 +234585,7 @@
 			"Ore[+]": "Any level 1 mining object",
 			"PotatoPatch[+]": "Any patch where potatoes can be planted",
 			"Phasmatite rock[+]": "A phasmatite rock or a phasmatite vein",
+			"Safes[+]": "Any crackable safe",
 			"Slimy eel spot[+]": "Any slimy eel fishing spot",
 			"SnowPile[+]": "Any object where a polar kebbit trace can be started",
 			"Swordfish spot[+]": "Any swordfish fishing spot",
@@ -235515,6 +235762,10 @@
 					"Receive a slayer assignment from ~|Kuradal|~",
 					"Receive a slayer assignment from ~|Morvran|~",
 					"Receive a slayer assignment from ~|Laniakea|~"
+			],
+			"VannakaMazchnaMaster[+]": [
+					"Receive a slayer assignment from ~|Mazchna|~",
+					"Receive a slayer assignment from ~|Vannaka|~"
 			],
 			"Lava strykewyrm task[+]": ["Lava strykewyrm base task", "Lava strykewyrm wilderness task"],
 			"Ripper demon task[+]": ["Ripper demon base task", "Ripper demon wilderness task"],
@@ -238027,6 +238278,12 @@
 			"15151": true,
 			"15406": true,
 			"15407": true,
+			"16435": true,
+			"16436": true,
+			"16691": true,
+			"16692": true,
+			"16946": true,
+			"16947": true,
 			"Zanaris": true,
 			"Fremennik Slayer Dungeon": true,
 			"Taverley Dungeon": true,
@@ -254857,10 +255114,10 @@
 		},
 		"Flesh-hatcher Mhekarnahz": {
 			"Dragon harpoon": {
-				"1": "1/100"
+				"1": "1/128"
 			},
 			"Stalker's charm": {
-				"1": "1/100"
+				"1": "1/128" 
 			},
 			"Prayer potion (3)": {
 				"1-2": "Common"
@@ -254944,7 +255201,7 @@
 				"1": "Rare"
 			},
 			"Mhekarnahz's eye": {
-				"1": "Very rare"
+				"1": "1/800"
 			},
 			"Gold charm": {
 				"8": "Common"
@@ -258896,7 +259153,13 @@
 				"1-10": "9/101"
 			},
 			"Bronze spear": {
-				"1": "14/101"
+				"1": "9/101"
+			},
+			"Bronze dagger": {
+				"1": "5/202"
+			},
+			"Bronze off hand dagger": {
+				"1": "5/202"
 			},
 			"Bronze full helm": {
 				"1": "10/101"
@@ -264909,13 +265172,13 @@
 				"1": "Uncommon"
 			},
 			"Bonecrusher maul": {
-				"1": "1/100"
+				"1": "1/64"
 			},
 			"Magic skull mask": {
-				"1": "1/100"
+				"1": "1/64"
 			},
 			"Ivar's loincloth": {
-				"1": "1/2000"
+				"1": "1/1250"
 			},
 			"Giant Champion's scroll": {
 				"1": "1/5000"
@@ -278202,7 +278465,7 @@
 				"1": "1/5000"
 			},
 			"Silverquill's blood-filled cyst": {
-				"1": "1/2000"
+				"1": "1/1000"
 			}
 		},
 		"Sir Carl": {
@@ -292581,12 +292844,6 @@
 			"TokHaar-Kal-Mor^": [{
 				"~|Necromancy!|~ Complete the quest": "Quest"
 			}],
-			"Pilfer points^High-level safes": [{
-				"~|A Guild of Our Own (miniquest)|~ Complete the miniquest": "Quest"
-			}],
-			"Pilfer points^Low-level safes": [{
-				"~|A Guild of Our Own (miniquest)|~ Complete the miniquest": "Quest"
-			}],
 			"Prayer potion (2)^Barrows": [{
 				"Tier 2 luck or higher*": "Nonskill"
 			}],
@@ -293754,16 +294011,16 @@
 			"Gloves (yellow)^Crawling hand#Burthorpe": [{
 				"Members only": "Nonskill"
 			}],
-			"Sakirth's journal": [{
+			"Sakirth's journal^": [{
 				"~|Hero's Welcome|~ Complete the quest": "Quest"
 			}],
-			"Strisath's journal": [{
+			"Strisath's journal^": [{
 				"~|Hero's Welcome|~ Complete the quest": "Quest"
 			}],
-			"Kalibath's journal": [{
+			"Kalibath's journal^": [{
 				"~|Hero's Welcome|~ Complete the quest": "Quest"
 			}],
-			"Phalaks' experiment log": [{
+			"Phalaks' experiment log^": [{
 				"~|Hero's Welcome|~ Complete the quest": "Quest"
 			}],
 			"Butterfly net^": [{
@@ -294231,7 +294488,7 @@
 			"Ruinous rapier^": [{
 				"Obtain a warped stone": "Nonskill"
 			}],
-			"Ruinous off-hand rapier^": [{
+			"Off-hand ruinous rapier^": [{
 				"Obtain a warped stone": "Nonskill"
 			}],
 			"Ruinous maul^": [{
@@ -294243,7 +294500,7 @@
 			"Ruinous crossbow^": [{
 				"Obtain a warped stone": "Nonskill"
 			}],
-			"Ruinous off-hand crossbow^": [{
+			"Off-hand ruinous crossbow^": [{
 				"Obtain a warped stone": "Nonskill"
 			}],
 			"Ferret pet (blue)^": [{
@@ -294373,6 +294630,81 @@
 				"Members only": "Nonskill"
 			}],
 			"Chaotic crossbow warped dye kit^": [{
+				"Members only": "Nonskill"
+			}],
+			"Enchanted gem pack^": [{
+				"Members only": "Nonskill"
+			}],
+			"Mirror shield^": [{
+				"Members only": "Nonskill"
+			}],
+			"Leaf-bladed spear^": [{
+				"Members only": "Nonskill"
+			}],
+			"Broad arrow^": [{
+				"Members only": "Nonskill"
+			}],
+			"Bag of salt^": [{
+				"Members only": "Nonskill"
+			}],
+			"Salt shaker^": [{
+				"Members only": "Nonskill"
+			}],
+			"Rock hammer^": [{
+				"Members only": "Nonskill"
+			}],
+			"Face mask^": [{
+				"Members only": "Nonskill"
+			}],
+			"Earmuffs^": [{
+				"Members only": "Nonskill"
+			}],
+			"Nose peg^": [{
+				"Members only": "Nonskill"
+			}],
+			"Slayer's staff^": [{
+				"Members only": "Nonskill"
+			}],
+			"Spiny helmet^": [{
+				"Members only": "Nonskill"
+			}],
+			"Fishing explosive^": [{
+				"Members only": "Nonskill"
+			}],
+			"Explosive shaker^": [{
+				"Members only": "Nonskill"
+			}],
+			"Super explosive shaker^": [{
+				"Members only": "Nonskill"
+			}],
+			"Ice cooler^": [{
+				"Members only": "Nonskill"
+			}],
+			"Ice shaker^": [{
+				"Members only": "Nonskill"
+			}],
+			"Slayer gloves^": [{
+				"Members only": "Nonskill"
+			}],
+			"Unlit bug lantern^": [{
+				"Members only": "Nonskill"
+			}],
+			"Insulated boots^": [{
+				"Members only": "Nonskill"
+			}],
+			"Fungicide spray 10^": [{
+				"Members only": "Nonskill"
+			}],
+			"Fungicide spray^": [{
+				"Members only": "Nonskill"
+			}],
+			"Fungicide shaker^": [{
+				"Members only": "Nonskill"
+			}],
+			"Witchwood icon^": [{
+				"Members only": "Nonskill"
+			}],
+			"Slayer bell^": [{
 				"Members only": "Nonskill"
 			}]
 		},
@@ -295566,6 +295898,11 @@
 					"Access Zanaris Market": "Nonskill"
 				}]
 			},
+			"Safe#Hidden": {
+				"Zanaris": [{
+					"Access Zanaris Market": "Nonskill"
+				}]
+			},
 			"Practice chest": {
 				"Thieves' Guild": [{
 					"~|From Tiny Acorns (miniquest)|~ Complete the miniquest": "Quest"
@@ -295771,6 +296108,11 @@
 					"~|Do No Evil|~ Complete the quest": "Quest"
 				}]
 			},
+			"Granny Rowan's Supplies": {
+				"13111": [{
+					"Build the tier 2 ~|Botanist's Workbench|~": "Construction"
+				}]
+			},
 			"Grud's Herblore stall": {
 				"10031": [{
 					"~|Watchtower|~ 7": "Quest"
@@ -295901,6 +296243,11 @@
 					"Barbarian Assault rewards": "Nonskill"
 				}]
 			},
+			"Rodney's Independent Trading Co": {
+				"13111": [{
+					"Build the tier 2 ~|Kitchen (Fort Forinthry)|~": "Construction"
+				}]
+			},
 			"Scavvo's Rune Store": {
 				"12596-1": [{
 					"Champions Guild Questpoints": "Nonskill"
@@ -295932,21 +296279,116 @@
 				}]
 			},
 			"Slayer Equipment": {
-				"12342-1": [{
-					"Members only": "Nonskill"
-				}],
-				"12850-1": [{
-					"Members only": "Nonskill"
-				}],
-				"13358-1": [{
-					"~|Ichtlarin's Little Helper|~ Complete the quest": "Quest"
-				}, {
-					"~|The Restless Ghost|~ Complete the quest": "Quest"
+				"8755": [],
+				"11310-1": [],
+				"11575-1": [],
+				"12342-1": [],
+				"11310-1": [],
+				"12850-1": [],
+				"13358-1": [],
+				"13878-1": [],
+				"15939-1": [],
+				"16704-1": [],
+				"11310-1": [],
+				"Zanaris": [],
+				"Edgeville Dungeon": [],
+				"Ancient Cavern": [],
+				"13111": [{
+					"~|Unwelcome Guests|~ Complete the quest": "Quest"
 				}]
 			},
-			"Slayer Equipment (Burthorpe)": {
+			"Slayer Equipment^Unfinished broad bolts": {
+				"8755": [{
+					"~|Smoking Kills|~ Complete the quest": "Quest"
+				}],
+				"11310-1": [{
+					"~|Smoking Kills|~ Complete the quest": "Quest"
+				}],
 				"11575-1": [{
-					"Members only": "Nonskill"
+					"~|Smoking Kills|~ Complete the quest": "Quest"
+				}],
+				"12342-1": [{
+					"~|Smoking Kills|~ Complete the quest": "Quest"
+				}],
+				"11310-1": [{
+					"~|Smoking Kills|~ Complete the quest": "Quest"
+				}],
+				"12850-1": [{
+					"~|Smoking Kills|~ Complete the quest": "Quest"
+				}],
+				"13111": [{
+					"~|Smoking Kills|~ Complete the quest": "Quest"
+				}],
+				"13358-1": [{
+					"~|Smoking Kills|~ Complete the quest": "Quest"
+				}],
+				"13878-1": [{
+					"~|Smoking Kills|~ Complete the quest": "Quest"
+				}],
+				"15939-1": [{
+					"~|Smoking Kills|~ Complete the quest": "Quest"
+				}],
+				"16704-1": [{
+					"~|Smoking Kills|~ Complete the quest": "Quest"
+				}],
+				"11310-1": [{
+					"~|Smoking Kills|~ Complete the quest": "Quest"
+				}],
+				"Zanaris": [{
+					"~|Smoking Kills|~ Complete the quest": "Quest"
+				}],
+				"Edgeville Dungeon": [{
+					"~|Smoking Kills|~ Complete the quest": "Quest"
+				}],
+				"Ancient Cavern": [{
+					"~|Smoking Kills|~ Complete the quest": "Quest"
+				}]
+			},
+			"Slayer Equipment^Broad arrowheads": {
+				"8755": [{
+					"~|Smoking Kills|~ Complete the quest": "Quest"
+				}],
+				"11310-1": [{
+					"~|Smoking Kills|~ Complete the quest": "Quest"
+				}],
+				"11575-1": [{
+					"~|Smoking Kills|~ Complete the quest": "Quest"
+				}],
+				"12342-1": [{
+					"~|Smoking Kills|~ Complete the quest": "Quest"
+				}],
+				"11310-1": [{
+					"~|Smoking Kills|~ Complete the quest": "Quest"
+				}],
+				"12850-1": [{
+					"~|Smoking Kills|~ Complete the quest": "Quest"
+				}],
+				"13111": [{
+					"~|Smoking Kills|~ Complete the quest": "Quest"
+				}],
+				"13358-1": [{
+					"~|Smoking Kills|~ Complete the quest": "Quest"
+				}],
+				"13878-1": [{
+					"~|Smoking Kills|~ Complete the quest": "Quest"
+				}],
+				"15939-1": [{
+					"~|Smoking Kills|~ Complete the quest": "Quest"
+				}],
+				"16704-1": [{
+					"~|Smoking Kills|~ Complete the quest": "Quest"
+				}],
+				"11310-1": [{
+					"~|Smoking Kills|~ Complete the quest": "Quest"
+				}],
+				"Zanaris": [{
+					"~|Smoking Kills|~ Complete the quest": "Quest"
+				}],
+				"Edgeville Dungeon": [{
+					"~|Smoking Kills|~ Complete the quest": "Quest"
+				}],
+				"Ancient Cavern": [{
+					"~|Smoking Kills|~ Complete the quest": "Quest"
 				}]
 			},
 			"Stealing Creation Reward Shop": {
@@ -297598,6 +298040,26 @@
 			{ "color": "#ffff00", "text": "Scan clue, South-west of north-east entrance", "type": "Elite", "x":3146, "y":3734 },
 			{ "color": "#ffff00", "text": "Scan clue, South of north-east entrance", "type": "Elite", "x":3169, "y":3745 },
 			{ "color": "#ffff00", "text": "Scan clue, East side of crater", "type": "Elite", "x":3181, "y":3708 },
+			{ "color": "#FFFF00", "text": "Scan clue, East of the Wendlewick Fish Farm.", "type": "Elite", "x": 4106, "y": 3302 },
+			{ "color": "#FFFF00", "text": "Scan clue, South-west of Wendle's Wicks.", "type": "Elite", "x": 4125, "y": 3317 },
+			{ "color": "#FFFF00", "text": "Scan clue, South-west of the Wendlewick fishing shop.", "type": "Elite", "x": 4127, "y": 3301 },
+			{ "color": "#FFFF00", "text": "Scan clue, West of the lower entrance to the lighthouse.", "type": "Elite", "x": 4141, "y": 3286 },
+			{ "color": "#FFFF00", "text": "Scan clue, North of Wendle's Wicks.", "type": "Elite", "x": 4146, "y": 3342 },
+			{ "color": "#FFFF00", "text": "Scan clue, Centre of Wendlewick.", "type": "Elite", "x": 4175, "y": 3347 },
+			{ "color": "#FFFF00", "text": "Scan clue, North of Adam's house.", "type": "Elite", "x": 4181, "y": 3370 },
+			{ "color": "#FFFF00", "text": "Scan clue, Between Zeke's house and the Smithy.", "type": "Elite", "x": 4210, "y": 3341 },
+			{ "color": "#FFFF00", "text": "Scan clue, Between the food shop and the general store.", "type": "Elite", "x": 4189, "y": 3330 },
+			{ "color": "#FFFF00", "text": "Scan clue, In the graveyard north of Wendlewick.", "type": "Elite", "x": 4218, "y": 3380 },
+			{ "color": "#FFFF00", "text": "Scan clue, North-east of the Wendlewick lodestone.", "type": "Elite", "x": 4170, "y": 3315 },
+			{ "color": "#FFFF00", "text": "Scan clue, By the Burnt Lobster noticeboard.", "type": "Elite", "x": 4198, "y": 3309 },
+			{ "color": "#FFFF00", "text": "Scan clue, Just outside the Burnt Lobster.", "type": "Elite", "x": 4191, "y": 3296 },
+			{ "color": "#FFFF00", "text": "Scan clue, At the eastern entrance to the lighthouse.", "type": "Elite", "x": 4175, "y": 3290 },
+			{ "color": "#FFFF00", "text": "Scan clue, By the Birds and the Bees.", "type": "Elite", "x": 4187, "y": 3267 },
+			{ "color": "#FFFF00", "text": "Scan clue, South of Reuben's house.", "type": "Elite", "x": 4268, "y": 3324 },
+			{ "color": "#FFFF00", "text": "Scan clue, In the Marigold Farm cow pen.", "type": "Elite", "x": 4233, "y": 3292 },
+			{ "color": "#FFFF00", "text": "Scan clue, In the Marigold Farm potato and onion field.", "type": "Elite", "x": 4274, "y": 3270 },
+			{ "color": "#FFFF00", "text": "Scan clue, In the wheatfield next to the Wendlewick windmill.", "type": "Elite", "x": 4263, "y": 3296 },
+			{ "color": "#FFFF00", "text": "Scan clue, East of the Marigold Farm well.", "type": "Elite", "x": 4258, "y": 3262 },
 			{ "color": "#00fbff", "text": "A PURE GLOW", "type": "Master", "x":3256, "y":3355 },
 			{ "color": "#00fbff", "text": "AH; WET ARM", "type": "Master", "x":2347, "y":3164 },
 			{ "color": "#00fbff", "text": "ERGO I DIG CLAY", "type": "Master", "x":3377, "y":3404 },
@@ -299163,11 +299625,11 @@
 			"Ruinous guard": true,
 			"Ruinous lantern": true,
 			"Ruinous rapier": true,
-			"Ruinous off-hand rapier": true,
+			"Off-hand ruinous rapier": true,
 			"Ruinous maul": true,
 			"Ruinous staff": true,
 			"Ruinous crossbow": true,
-			"Ruinous off-hand crossbow": true,
+			"Off-hand ruinous crossbow": true,
 			"Notepaper blueprint": true,
 			"Elite Dungeoneering outfit blueprint": true,
 			"Daemonheim skill door boost": true,
@@ -299785,6 +300247,20 @@
 			"Batta tin": true,
 			"Crunchy tray": true,
 			"Gnomebowl mould": true
+		},
+		"Granny Rowan's Supplies": {
+			"Vial": true,
+			"Vial pack": true,
+			"Vial of water": true,
+			"Vial of wter pack": true,
+			"Powerbust vial": true,
+			"Bomb vial": true,
+			"Eye of newt": true,
+			"Eye of newt pack": true,
+			"Unicorn horn dust": true,
+			"Limpwurt root": true,
+			"White berries": true,
+			"Redberries": true
 		},
 		"Greengrocer of Miscellania": {
 			"Cabbage": true,
@@ -301634,6 +302110,20 @@
 			"Dwarven stout": true,
 			"Asgarnian ale": true
 		},
+		"Rodney's Independent Trading Co": {
+			"Chocolate bar": true,
+			"Pot of cream": true,
+			"Bucket of milk": true,
+			"Cooking apple": true,
+			"Cheese": true,
+			"Raw potato": true,
+			"Onion": true,
+			"Pie dish": true,
+			"Cake tin": true,
+			"Bowl": true,
+			"Pot of flour": true,
+			"Jug of water": true
+		},
 		"Rok's Chocs Box": {
 			"Choc ice": true,
 			"Chocolate bar": true,
@@ -302040,46 +302530,6 @@
 			"Broad arrowheads": true,
 			"Unfinished broad bolts": true,
 			"Spiked gauntlets": true
-		},
-		"Slayer Equipment (Burthorpe)": {
-			"Spiked gauntlets": true,
-			"Enchanted gem": true,
-			"Enchanted gem pack": true,
-			"Mirror shield": true,
-			"Leaf-bladed spear": true,
-			"Broad arrow": true,
-			"Bag of salt": true,
-			"Salt shaker": true,
-			"Rock hammer": true,
-			"Face mask": true,
-			"Earmuffs": true,
-			"Nose peg": true,
-			"Slayer's staff": true,
-			"Spiny helmet": true,
-			"Fishing explosive": true,
-			"Explosive shaker": true,
-			"Super explosive flask": true,
-			"Ice cooler": true,
-			"Ice shaker": true,
-			"Slayer gloves": true,
-			"Unlit bug lantern": true,
-			"Insulated boots": true,
-			"Fungicide spray 10": true,
-			"Fungicide": true,
-			"Fungicide shaker": true,
-			"Witchwood icon": true,
-			"Slayer bell": true,
-			"Broad arrowheads": true,
-			"Unfinished broad bolts": true
-		},
-		"Slayer Equipment (F2P)": {
-			"Enchanted gem": true,
-			"Spiked gauntlets": true
-		},
-		"Slayer Equipment (F2P, Burthorpe)": {
-			"Spiked gauntlets": true,
-			"Enchanted gem": true,
-			"Enchanted gem pack": true
 		},
 		"Slayer Rewards": {
 			"Broad arrows": true,
@@ -310401,7 +310851,7 @@
 			},
 			"Warped floors loot": {
 				"Warped stone": {
-					"1": "1/100"
+					"1": "1/50"
 				}
 			}
 		},
@@ -329640,10 +330090,10 @@
 					"1": "Uncommon"
 				},
 				"Tainted seed": {
-					"1": "1/1024"
+					"1": "1/2500"
 				},
 				"Vampyrism gloves": {
-					"1": "1/1024"
+					"1": "1/2000"
 				},
 				"Sealed clue scroll (easy)": {
 					"1": "1/64"
@@ -329665,6 +330115,14 @@
 				},
 				"HerbDropTable+": {
 					"1": "1/16"
+				}
+			},
+			"Sanguine crawler (task)": {
+				"Tainted seed": {
+					"1": "1/1250"
+				},
+				"Vampyrism gloves": {
+					"1": "1/500"
 				}
 			},
 			"Scarab akh": {
@@ -336891,6 +337349,9 @@
 				},
 				"Nasturtium seed": {
 					"1": "15/600"
+				},
+				"Wendlewick seed": {
+					"1": "15/600"
 				}
 			},
 			"Fish stall": {
@@ -337471,9 +337932,6 @@
 				},
 				"Sealed clue scroll (hard)": {
 					"1": "1/64"
-				},
-				"Pilfer points": {
-					"1": "Always"
 				}
 			},
 			"High-level safes": {
@@ -337488,9 +337946,6 @@
 				},
 				"Sealed clue scroll (master)": {
 					"1": "1/1280"
-				},
-				"Pilfer points": {
-					"1": "Always"
 				}
 			},
 			"Wall Safe": {
@@ -374267,7 +374722,7 @@
 			"prayer": 0,
 			"charges": 30000,
 			"style": "necromancy",
-			"ability_damage": 528,
+			"ability_damage": 264,
 			"magic_damage": 0,
 			"slot": "off-hand weapon",
 			"requirements": {
@@ -374280,7 +374735,7 @@
 			"attack_range": 4,
 			"class": "necromancy",
 			"accuracy": 983,
-			"auto_damage": 264
+			"auto_damage": 409.7
 		},
 		"Gravite longsword": {
 			"ranged_damage": 0,
@@ -389763,7 +390218,7 @@
 			},
 			"speed": 5,
 			"tier": 61,
-			"lp": 900,
+			"lp": 0,
 			"attack_range": 1,
 			"class": "melee",
 			"accuracy": 1164,
@@ -389783,7 +390238,7 @@
 			},
 			"speed": 5,
 			"tier": 62,
-			"lp": 900,
+			"lp": 0,
 			"attack_range": 1,
 			"class": "melee",
 			"accuracy": 1197,
@@ -389803,7 +390258,7 @@
 			},
 			"speed": 5,
 			"tier": 63,
-			"lp": 900,
+			"lp": 0,
 			"attack_range": 1,
 			"class": "melee",
 			"accuracy": 1230,
@@ -393965,7 +394420,7 @@
 			"accuracy": 3100,
 			"auto_damage": 670
 		},
-		"Ruinous off-hand crossbow": {
+		"Off-hand ruinous crossbow": {
 			"ranged_damage": 0,
 			"melee_damage": 0,
 			"prayer": 0,
@@ -393987,7 +394442,7 @@
 			"accuracy": 3100,
 			"auto_damage": 670
 		},
-		"Ruinous off-hand rapier": {
+		"Off-hand ruinous rapier": {
 			"ranged_damage": 0,
 			"melee_damage": 0,
 			"prayer": 0,

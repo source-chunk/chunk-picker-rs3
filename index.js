@@ -563,7 +563,6 @@ let ruleNames = {
     "Secondary MTA": "Allow MTA to be required with secondary sources of nature/law/cosmic runes",
     "Skilling Pets": "Require skilling pets be obtained as soon as the relevant skill is trainable<span class='rule-asterisk noscroll'>†</span>",
     "Permanent Unlockables": "Require permanently unlockable options be unlocked (innate mastery, rope racks, etc.)<span class='rule-asterisk noscroll'>*</span>",
-    "Prayers": "Must be able to activate all prayers possible<span class='rule-asterisk noscroll'>†</span>",
     "All Droptables": "Must obtain every drop from every unique monster's droptable (duplicates included, all quantities)<span class='rule-asterisk noscroll'>†</span>",
     "All Droptables Nest": "Must include every drop from bird nests<span class='rule-asterisk noscroll'>†</span>",
     "Skiller": "Restrict tasks to only those doable on a level 3 skiller",
@@ -593,7 +592,9 @@ let ruleNames = {
 	"Group Content": "Require content that is intended to be completed in a group",
 	"Unlock Abilities": "Must unlock all reward-locked abilities, including Necromancy incantations",
 	"Sigil Abilities": "Also include Sigil abilities (Aggression, Golden Touch, etc.)<span class='rule-asterisk noscroll'>*</span>",
+	"Abilities": "Include abilities that are unlocked just through leveling<span class='rule-asterisk noscroll'>†</span>",
 	"Unlock Prayers": "Must unlock all reward-locked prayers",
+	"Prayers": "Include prayers that are unlocked just through leveling<span class='rule-asterisk noscroll'>†</span>",
 	"PVP": "Require tasks that can only be completed by engaging in PvP<span class='rule-asterisk noscroll'>†</span>",
 	"PvM Relics": "WIP - Must obtain all best-in-slot/quality-of-life Archaeology Relics for combat",
     "KeyItem Bosses": "For bosses that require keys to kill, factor in the droprate of the key as part of the droprate of each drop",
@@ -801,6 +802,7 @@ let rulePresets = {
         "Primary Spawns": true,
         "Permanent Unlockables": true,
         "Prayers": true,
+        "Abilities": true,
         "All Droptables": ["All Droptables Nest"],
 		"Token": true,
 		"Master skillcape": true,
@@ -891,7 +893,7 @@ let ruleStructure = {
     "Combat": {
         "HigherLander": true,
 		"PvM Relics": true,
-		"Unlock Abilities": ["Sigil Abilities"],
+		"Unlock Abilities": ["Sigil Abilities", "Abilities"],
     },
     "Construction": {
         "InsidePOH Primary": true,
@@ -926,8 +928,7 @@ let ruleStructure = {
 		"Shooting Stars": true
 	},
     "Prayer": {
-        "Prayers": true,
-		"Unlock Prayers": true
+		"Unlock Prayers": ["Prayers"]
     },
 	"Ranged": {
 		"Gnomeball": true
@@ -13272,6 +13273,10 @@ let loadData = async function(startup) {
 		
 		if (!rulesTemp.hasOwnProperty('Speedrunning')) {
             rulesTemp['Speedrunning'] = rulesTemp.hasOwnProperty('Misc achievements') ? rulesTemp['Misc achievements'] : false;
+        }
+		
+		if (!rulesTemp.hasOwnProperty('Abilities')) {
+            rulesTemp['Abilities'] = rulesTemp.hasOwnProperty('Prayers') ? rulesTemp['Prayers'] : false;
         }
 		
 		if (!rulesTemp.hasOwnProperty('Misc Combat achievements')) {

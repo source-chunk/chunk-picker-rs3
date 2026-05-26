@@ -5534,7 +5534,7 @@ let calcBIS = function(completedOnly) {
     let notFresh = {};
     let highestOverallLocal = {};
     let vowels = ['a', 'e', 'i', 'o', 'u'];
-    let accuracyWeight = 0.15;
+    let accuracyWeight = 0.10;
     combatStyles.forEach((skill) => {
         let bestEquipment = {};
         let bestEquipmentAlts = {};
@@ -5626,13 +5626,14 @@ let calcBIS = function(completedOnly) {
                 article = (equip.toLowerCase().charAt(equip.toLowerCase().length - 1) === 's' || (equip.toLowerCase().charAt(equip.toLowerCase().length - 1) === ')' && equip.toLowerCase().split('(')[0].trim().charAt(equip.toLowerCase().split('(')[0].trim().length - 1) === 's')) ? ' ' : article;
                 if (skill === 'Melee' && (chunkInfo['equipment'][equip].class === 'melee' || chunkInfo['equipment'][equip].class === 'hybrid' || chunkInfo['equipment'][equip].class === 'all' || chunkInfo['equipment'][equip].class === 'none')) {
                     if (chunkInfo['equipment'][equip].speed > 0) {
-                        if (!completedOnly && ((chunkInfo['equipment'][equip].accuracy > 0 && chunkInfo['equipment'][equip].ability_damage > 0) || equip === 'Unarmed')) {
+                        let isAccuracyNeeded = chunkInfo['equipment'][equip].slot === 'main hand weapon';
+						if (!completedOnly && ((chunkInfo['equipment'][equip].accuracy > 0 && chunkInfo['equipment'][equip].ability_damage > 0) || equip === 'Unarmed')) {
                             if (!bisUpgrades[skill.replaceAll(' ', '_') + '-' + chunkInfo['equipment'][equip].slot]) {
                                 bisUpgrades[skill.replaceAll(' ', '_') + '-' + chunkInfo['equipment'][equip].slot] = {};
                             }
-                            bisUpgrades[skill.replaceAll(' ', '_') + '-' + chunkInfo['equipment'][equip].slot][equip] = chunkInfo['equipment'][equip].accuracy + chunkInfo['equipment'][equip].ability_damage;
+                            bisUpgrades[skill.replaceAll(' ', '_') + '-' + chunkInfo['equipment'][equip].slot][equip] = (isAccuracyNeeded ? accuracyWeight * chunkInfo['equipment'][equip].accuracy : 0) + chunkInfo['equipment'][equip].ability_damage;
                         }
-                        if ((!bestEquipment[chunkInfo['equipment'][equip].slot] || ((chunkInfo['equipment'][equip].accuracy + chunkInfo['equipment'][equip].ability_damage) > (chunkInfo['equipment'][bestEquipment[chunkInfo['equipment'][equip].slot]].accuracy + chunkInfo['equipment'][bestEquipment[chunkInfo['equipment'][equip].slot]].ability_damage))) && ((chunkInfo['equipment'][equip].accuracy > 0 && chunkInfo['equipment'][equip].ability_damage > 0) || equip === 'Unarmed')) {
+                        if ((!bestEquipment[chunkInfo['equipment'][equip].slot] || (((isAccuracyNeeded ? accuracyWeight * chunkInfo['equipment'][equip].accuracy : 0) + chunkInfo['equipment'][equip].ability_damage) > ((isAccuracyNeeded ? accuracyWeight * chunkInfo['equipment'][bestEquipment[chunkInfo['equipment'][equip].slot]].accuracy : 0) + chunkInfo['equipment'][bestEquipment[chunkInfo['equipment'][equip].slot]].ability_damage))) && ((chunkInfo['equipment'][equip].accuracy > 0 && chunkInfo['equipment'][equip].ability_damage > 0) || equip === 'Unarmed')) {
                             let tempTempValid = false;
                             Object.keys(baseChunkData['items'][equip]).filter(source => !baseChunkData['items'][equip][source].includes('-') || !chunkInfo['challenges'][baseChunkData['items'][equip][source].split('-')[1]] || !chunkInfo['challenges'][baseChunkData['items'][equip][source].split('-')[1]][source] || (!chunkInfo['challenges'][baseChunkData['items'][equip][source].split('-')[1]][source]['ProcessingSource'] && !processingSkill[baseChunkData['items'][equip][source].split('-')[1]]) || rules['Wield Crafted Items'] || baseChunkData['items'][equip][source].split('-')[1] === 'Slayer' || (chunkInfo['challenges'].hasOwnProperty(baseChunkData['items'][equip][source].split('-')[1]) && chunkInfo['challenges'][baseChunkData['items'][equip][source].split('-')[1]].hasOwnProperty(source) && chunkInfo['challenges'][baseChunkData['items'][equip][source].split('-')[1]][source].hasOwnProperty('NoXp'))).length > 0 && (tempTempValid = true);
                             tempTempValid && (!backlog['BiS'] || (!backlog['BiS'].hasOwnProperty('Obtain' + article + '~|' + formatEquip(equip) + '|~') && !backlog['BiS'].hasOwnProperty('Obtain' + article + '~|' + formatEquip(equip).replaceAll('#', '/') + '|~'))) && (bestEquipment[chunkInfo['equipment'][equip].slot] = equip);
@@ -5645,7 +5646,7 @@ let calcBIS = function(completedOnly) {
                             } else if (bestEquipment[chunkInfo['equipment'][equip].slot] === equip) {
                                 delete bestAmmoSaved[chunkInfo['equipment'][equip].slot];
                             }
-                        } else if ((!bestEquipment[chunkInfo['equipment'][equip].slot] || ((chunkInfo['equipment'][equip].accuracy + chunkInfo['equipment'][equip].ability_damage) === (chunkInfo['equipment'][bestEquipment[chunkInfo['equipment'][equip].slot]].accuracy + chunkInfo['equipment'][bestEquipment[chunkInfo['equipment'][equip].slot]].ability_damage))) && ((chunkInfo['equipment'][equip].accuracy > 0 && chunkInfo['equipment'][equip].ability_damage > 0) || equip === 'Unarmed')) {
+                        } else if ((!bestEquipment[chunkInfo['equipment'][equip].slot] || (((isAccuracyNeeded ? accuracyWeight * chunkInfo['equipment'][equip].accuracy : 0) + chunkInfo['equipment'][equip].ability_damage) === ((isAccuracyNeeded ? accuracyWeight * chunkInfo['equipment'][bestEquipment[chunkInfo['equipment'][equip].slot]].accuracy : 0) + chunkInfo['equipment'][bestEquipment[chunkInfo['equipment'][equip].slot]].ability_damage))) && ((chunkInfo['equipment'][equip].accuracy > 0 && chunkInfo['equipment'][equip].ability_damage > 0) || equip === 'Unarmed')) {
                             let tempTempValid = false;
                             Object.keys(baseChunkData['items'][equip]).filter(source => !baseChunkData['items'][equip][source].includes('-') || !chunkInfo['challenges'][baseChunkData['items'][equip][source].split('-')[1]] || !chunkInfo['challenges'][baseChunkData['items'][equip][source].split('-')[1]][source] || (!chunkInfo['challenges'][baseChunkData['items'][equip][source].split('-')[1]][source]['ProcessingSource'] && !processingSkill[baseChunkData['items'][equip][source].split('-')[1]]) || rules['Wield Crafted Items'] || baseChunkData['items'][equip][source].split('-')[1] === 'Slayer' || (chunkInfo['challenges'].hasOwnProperty(baseChunkData['items'][equip][source].split('-')[1]) && chunkInfo['challenges'][baseChunkData['items'][equip][source].split('-')[1]].hasOwnProperty(source) && chunkInfo['challenges'][baseChunkData['items'][equip][source].split('-')[1]][source].hasOwnProperty('NoXp'))).length > 0 && (tempTempValid = true);
                             if (tempTempValid && (!backlog['BiS'] || (!backlog['BiS'].hasOwnProperty('Obtain' + article + '~|' + formatEquip(equip) + '|~') && !backlog['BiS'].hasOwnProperty('Obtain' + article + '~|' + formatEquip(equip).replaceAll('#', '/') + '|~')))) {
@@ -5693,17 +5694,18 @@ let calcBIS = function(completedOnly) {
                     }
                 } else if (skill === 'Stab' && (chunkInfo['equipment'][equip].class === 'melee' || chunkInfo['equipment'][equip].class === 'hybrid' || chunkInfo['equipment'][equip].class === 'all' || chunkInfo['equipment'][equip].class === 'none')) {
                     if (chunkInfo['equipment'][equip].speed > 0) {
-                        if (!completedOnly && chunkInfo['equipment'][equip].style === 'stab' && (chunkInfo['equipment'][equip].accuracy > 0 && chunkInfo['equipment'][equip].ability_damage > 0)) {
+                        let isAccuracyNeeded = chunkInfo['equipment'][equip].slot === 'main hand weapon';
+						if (!completedOnly && chunkInfo['equipment'][equip].style === 'stab' && (chunkInfo['equipment'][equip].accuracy > 0 && chunkInfo['equipment'][equip].ability_damage > 0)) {
                             if (!bisUpgrades[skill.replaceAll(' ', '_') + '-' + chunkInfo['equipment'][equip].slot]) {
                                 bisUpgrades[skill.replaceAll(' ', '_') + '-' + chunkInfo['equipment'][equip].slot] = {};
                             }
-                            bisUpgrades[skill.replaceAll(' ', '_') + '-' + chunkInfo['equipment'][equip].slot][equip] = chunkInfo['equipment'][equip].accuracy + chunkInfo['equipment'][equip].ability_damage;
+                            bisUpgrades[skill.replaceAll(' ', '_') + '-' + chunkInfo['equipment'][equip].slot][equip] = (isAccuracyNeeded ? accuracyWeight * chunkInfo['equipment'][equip].accuracy : 0) + chunkInfo['equipment'][equip].ability_damage;
                         }
-                        if (chunkInfo['equipment'][equip].style === 'stab' && (!bestEquipment[chunkInfo['equipment'][equip].slot] || ((chunkInfo['equipment'][equip].accuracy + chunkInfo['equipment'][equip].ability_damage) > (chunkInfo['equipment'][bestEquipment[chunkInfo['equipment'][equip].slot]].accuracy + chunkInfo['equipment'][bestEquipment[chunkInfo['equipment'][equip].slot]].ability_damage))) && (chunkInfo['equipment'][equip].accuracy > 0 && chunkInfo['equipment'][equip].ability_damage > 0)) {
+                        if (chunkInfo['equipment'][equip].style === 'stab' && (!bestEquipment[chunkInfo['equipment'][equip].slot] || (((isAccuracyNeeded ? accuracyWeight * chunkInfo['equipment'][equip].accuracy : 0) + chunkInfo['equipment'][equip].ability_damage) > ((isAccuracyNeeded ? accuracyWeight * chunkInfo['equipment'][bestEquipment[chunkInfo['equipment'][equip].slot]].accuracy : 0) + chunkInfo['equipment'][bestEquipment[chunkInfo['equipment'][equip].slot]].ability_damage))) && (chunkInfo['equipment'][equip].accuracy > 0 && chunkInfo['equipment'][equip].ability_damage > 0)) {
                             let tempTempValid = false;
                             Object.keys(baseChunkData['items'][equip]).filter(source => !baseChunkData['items'][equip][source].includes('-') || !chunkInfo['challenges'][baseChunkData['items'][equip][source].split('-')[1]] || !chunkInfo['challenges'][baseChunkData['items'][equip][source].split('-')[1]][source] || (!chunkInfo['challenges'][baseChunkData['items'][equip][source].split('-')[1]][source]['ProcessingSource'] && !processingSkill[baseChunkData['items'][equip][source].split('-')[1]]) || rules['Wield Crafted Items'] || baseChunkData['items'][equip][source].split('-')[1] === 'Slayer' || (chunkInfo['challenges'].hasOwnProperty(baseChunkData['items'][equip][source].split('-')[1]) && chunkInfo['challenges'][baseChunkData['items'][equip][source].split('-')[1]].hasOwnProperty(source) && chunkInfo['challenges'][baseChunkData['items'][equip][source].split('-')[1]][source].hasOwnProperty('NoXp'))).length > 0 && (tempTempValid = true);
                             tempTempValid && (!backlog['BiS'] || (!backlog['BiS'].hasOwnProperty('Obtain' + article + '~|' + formatEquip(equip) + '|~') && !backlog['BiS'].hasOwnProperty('Obtain' + article + '~|' + formatEquip(equip).replaceAll('#', '/') + '|~'))) && (bestEquipment[chunkInfo['equipment'][equip].slot] = equip);
-                        } else if (chunkInfo['equipment'][equip].style === 'stab' && (!bestEquipment[chunkInfo['equipment'][equip].slot] || ((chunkInfo['equipment'][equip].accuracy + chunkInfo['equipment'][equip].ability_damage) === (chunkInfo['equipment'][bestEquipment[chunkInfo['equipment'][equip].slot]].accuracy + chunkInfo['equipment'][bestEquipment[chunkInfo['equipment'][equip].slot]].ability_damage))) && (chunkInfo['equipment'][equip].accuracy > 0 && chunkInfo['equipment'][equip].ability_damage > 0)) {
+                        } else if (chunkInfo['equipment'][equip].style === 'stab' && (!bestEquipment[chunkInfo['equipment'][equip].slot] || (((isAccuracyNeeded ? accuracyWeight * chunkInfo['equipment'][equip].accuracy : 0) + chunkInfo['equipment'][equip].ability_damage) === ((isAccuracyNeeded ? accuracyWeight * chunkInfo['equipment'][bestEquipment[chunkInfo['equipment'][equip].slot]].accuracy : 0) + chunkInfo['equipment'][bestEquipment[chunkInfo['equipment'][equip].slot]].ability_damage))) && (chunkInfo['equipment'][equip].accuracy > 0 && chunkInfo['equipment'][equip].ability_damage > 0)) {
                             let tempTempValid = false;
                             Object.keys(baseChunkData['items'][equip]).filter(source => !baseChunkData['items'][equip][source].includes('-') || !chunkInfo['challenges'][baseChunkData['items'][equip][source].split('-')[1]] || !chunkInfo['challenges'][baseChunkData['items'][equip][source].split('-')[1]][source] || (!chunkInfo['challenges'][baseChunkData['items'][equip][source].split('-')[1]][source]['ProcessingSource'] && !processingSkill[baseChunkData['items'][equip][source].split('-')[1]]) || rules['Wield Crafted Items'] || baseChunkData['items'][equip][source].split('-')[1] === 'Slayer' || (chunkInfo['challenges'].hasOwnProperty(baseChunkData['items'][equip][source].split('-')[1]) && chunkInfo['challenges'][baseChunkData['items'][equip][source].split('-')[1]].hasOwnProperty(source) && chunkInfo['challenges'][baseChunkData['items'][equip][source].split('-')[1]][source].hasOwnProperty('NoXp'))).length > 0 && (tempTempValid = true);
                             if (tempTempValid && (!backlog['BiS'] || (!backlog['BiS'].hasOwnProperty('Obtain' + article + '~|' + formatEquip(equip) + '|~') && !backlog['BiS'].hasOwnProperty('Obtain' + article + '~|' + formatEquip(equip).replaceAll('#', '/') + '|~')))) {
@@ -5751,13 +5753,14 @@ let calcBIS = function(completedOnly) {
                     }
                 } else if (skill === 'Slash' && (chunkInfo['equipment'][equip].class === 'melee' || chunkInfo['equipment'][equip].class === 'hybrid' || chunkInfo['equipment'][equip].class === 'all' || chunkInfo['equipment'][equip].class === 'none')) {
                     if (chunkInfo['equipment'][equip].speed > 0) {
-                        if (!completedOnly && chunkInfo['equipment'][equip].style === 'slash' && (chunkInfo['equipment'][equip].accuracy > 0 && chunkInfo['equipment'][equip].ability_damage > 0)) {
+                        let isAccuracyNeeded = chunkInfo['equipment'][equip].slot === 'main hand weapon';
+						if (!completedOnly && chunkInfo['equipment'][equip].style === 'slash' && (chunkInfo['equipment'][equip].accuracy > 0 && chunkInfo['equipment'][equip].ability_damage > 0)) {
                             if (!bisUpgrades[skill.replaceAll(' ', '_') + '-' + chunkInfo['equipment'][equip].slot]) {
                                 bisUpgrades[skill.replaceAll(' ', '_') + '-' + chunkInfo['equipment'][equip].slot] = {};
                             }
-                            bisUpgrades[skill.replaceAll(' ', '_') + '-' + chunkInfo['equipment'][equip].slot][equip] = chunkInfo['equipment'][equip].accuracy + chunkInfo['equipment'][equip].ability_damage;
+                            bisUpgrades[skill.replaceAll(' ', '_') + '-' + chunkInfo['equipment'][equip].slot][equip] = (isAccuracyNeeded ? accuracyWeight * chunkInfo['equipment'][equip].accuracy : 0) + chunkInfo['equipment'][equip].ability_damage;
                         }
-                        if (chunkInfo['equipment'][equip].style === 'slash' && (!bestEquipment[chunkInfo['equipment'][equip].slot] || ((chunkInfo['equipment'][equip].accuracy + chunkInfo['equipment'][equip].ability_damage) > (chunkInfo['equipment'][bestEquipment[chunkInfo['equipment'][equip].slot]].accuracy + chunkInfo['equipment'][bestEquipment[chunkInfo['equipment'][equip].slot]].ability_damage))) && (chunkInfo['equipment'][equip].accuracy > 0 && chunkInfo['equipment'][equip].ability_damage > 0)) {
+                        if (chunkInfo['equipment'][equip].style === 'slash' && (!bestEquipment[chunkInfo['equipment'][equip].slot] || (((isAccuracyNeeded ? accuracyWeight * chunkInfo['equipment'][equip].accuracy : 0) + chunkInfo['equipment'][equip].ability_damage) > ((isAccuracyNeeded ? accuracyWeight * chunkInfo['equipment'][bestEquipment[chunkInfo['equipment'][equip].slot]].accuracy : 0) + chunkInfo['equipment'][bestEquipment[chunkInfo['equipment'][equip].slot]].ability_damage))) && (chunkInfo['equipment'][equip].accuracy > 0 && chunkInfo['equipment'][equip].ability_damage > 0)) {
                             let tempTempValid = false;
                             Object.keys(baseChunkData['items'][equip]).filter(source => !baseChunkData['items'][equip][source].includes('-') || !chunkInfo['challenges'][baseChunkData['items'][equip][source].split('-')[1]] || !chunkInfo['challenges'][baseChunkData['items'][equip][source].split('-')[1]][source] || (!chunkInfo['challenges'][baseChunkData['items'][equip][source].split('-')[1]][source]['ProcessingSource'] && !processingSkill[baseChunkData['items'][equip][source].split('-')[1]]) || rules['Wield Crafted Items'] || baseChunkData['items'][equip][source].split('-')[1] === 'Slayer' || (chunkInfo['challenges'].hasOwnProperty(baseChunkData['items'][equip][source].split('-')[1]) && chunkInfo['challenges'][baseChunkData['items'][equip][source].split('-')[1]].hasOwnProperty(source) && chunkInfo['challenges'][baseChunkData['items'][equip][source].split('-')[1]][source].hasOwnProperty('NoXp'))).length > 0 && (tempTempValid = true);
                             tempTempValid && (!backlog['BiS'] || (!backlog['BiS'].hasOwnProperty('Obtain' + article + '~|' + formatEquip(equip) + '|~') && !backlog['BiS'].hasOwnProperty('Obtain' + article + '~|' + formatEquip(equip).replaceAll('#', '/') + '|~'))) && (bestEquipment[chunkInfo['equipment'][equip].slot] = equip);
@@ -5770,7 +5773,7 @@ let calcBIS = function(completedOnly) {
                             } else if (bestEquipment[chunkInfo['equipment'][equip].slot] === equip) {
                                 delete bestAmmoSaved[chunkInfo['equipment'][equip].slot];
                             }
-                        } else if (chunkInfo['equipment'][equip].style === 'slash' && (!bestEquipment[chunkInfo['equipment'][equip].slot] || ((chunkInfo['equipment'][equip].accuracy + chunkInfo['equipment'][equip].ability_damage) === (chunkInfo['equipment'][bestEquipment[chunkInfo['equipment'][equip].slot]].accuracy + chunkInfo['equipment'][bestEquipment[chunkInfo['equipment'][equip].slot]].ability_damage))) && (chunkInfo['equipment'][equip].accuracy > 0 && chunkInfo['equipment'][equip].ability_damage > 0)) {
+                        } else if (chunkInfo['equipment'][equip].style === 'slash' && (!bestEquipment[chunkInfo['equipment'][equip].slot] || (((isAccuracyNeeded ? accuracyWeight * chunkInfo['equipment'][equip].accuracy : 0) + chunkInfo['equipment'][equip].ability_damage) === ((isAccuracyNeeded ? accuracyWeight * chunkInfo['equipment'][bestEquipment[chunkInfo['equipment'][equip].slot]].accuracy : 0) + chunkInfo['equipment'][bestEquipment[chunkInfo['equipment'][equip].slot]].ability_damage))) && (chunkInfo['equipment'][equip].accuracy > 0 && chunkInfo['equipment'][equip].ability_damage > 0)) {
                             let tempTempValid = false;
                             Object.keys(baseChunkData['items'][equip]).filter(source => !baseChunkData['items'][equip][source].includes('-') || !chunkInfo['challenges'][baseChunkData['items'][equip][source].split('-')[1]] || !chunkInfo['challenges'][baseChunkData['items'][equip][source].split('-')[1]][source] || (!chunkInfo['challenges'][baseChunkData['items'][equip][source].split('-')[1]][source]['ProcessingSource'] && !processingSkill[baseChunkData['items'][equip][source].split('-')[1]]) || rules['Wield Crafted Items'] || baseChunkData['items'][equip][source].split('-')[1] === 'Slayer' || (chunkInfo['challenges'].hasOwnProperty(baseChunkData['items'][equip][source].split('-')[1]) && chunkInfo['challenges'][baseChunkData['items'][equip][source].split('-')[1]].hasOwnProperty(source) && chunkInfo['challenges'][baseChunkData['items'][equip][source].split('-')[1]][source].hasOwnProperty('NoXp'))).length > 0 && (tempTempValid = true);
                             if (tempTempValid && (!backlog['BiS'] || (!backlog['BiS'].hasOwnProperty('Obtain' + article + '~|' + formatEquip(equip) + '|~') && !backlog['BiS'].hasOwnProperty('Obtain' + article + '~|' + formatEquip(equip).replaceAll('#', '/') + '|~')))) {
@@ -5818,17 +5821,18 @@ let calcBIS = function(completedOnly) {
                     }
                 } else if (skill === 'Crush' && (chunkInfo['equipment'][equip].class === 'melee' || chunkInfo['equipment'][equip].class === 'hybrid' || chunkInfo['equipment'][equip].class === 'all' || chunkInfo['equipment'][equip].class === 'none')) {
                     if (chunkInfo['equipment'][equip].speed > 0) {
+						let isAccuracyNeeded = chunkInfo['equipment'][equip].slot === 'main hand weapon';
                         if (!completedOnly && chunkInfo['equipment'][equip].style === 'crush' && (chunkInfo['equipment'][equip].accuracy > 0 && chunkInfo['equipment'][equip].ability_damage > 0)) {
                             if (!bisUpgrades[skill.replaceAll(' ', '_') + '-' + chunkInfo['equipment'][equip].slot]) {
                                 bisUpgrades[skill.replaceAll(' ', '_') + '-' + chunkInfo['equipment'][equip].slot] = {};
                             }
-                            bisUpgrades[skill.replaceAll(' ', '_') + '-' + chunkInfo['equipment'][equip].slot][equip] = chunkInfo['equipment'][equip].accuracy + chunkInfo['equipment'][equip].ability_damage;
+                            bisUpgrades[skill.replaceAll(' ', '_') + '-' + chunkInfo['equipment'][equip].slot][equip] = (isAccuracyNeeded ? accuracyWeight * chunkInfo['equipment'][equip].accuracy : 0) + chunkInfo['equipment'][equip].ability_damage;
                         }
-                        if (chunkInfo['equipment'][equip].style === 'crush' && (!bestEquipment[chunkInfo['equipment'][equip].slot] || ((chunkInfo['equipment'][equip].accuracy + chunkInfo['equipment'][equip].ability_damage) > (chunkInfo['equipment'][bestEquipment[chunkInfo['equipment'][equip].slot]].accuracy + chunkInfo['equipment'][bestEquipment[chunkInfo['equipment'][equip].slot]].ability_damage))) && (chunkInfo['equipment'][equip].accuracy > 0 && chunkInfo['equipment'][equip].ability_damage > 0)) {
+                        if (chunkInfo['equipment'][equip].style === 'crush' && (!bestEquipment[chunkInfo['equipment'][equip].slot] || (((isAccuracyNeeded ? accuracyWeight * chunkInfo['equipment'][equip].accuracy : 0) + chunkInfo['equipment'][equip].ability_damage) > ((isAccuracyNeeded ? accuracyWeight * chunkInfo['equipment'][bestEquipment[chunkInfo['equipment'][equip].slot]].accuracy : 0) + chunkInfo['equipment'][bestEquipment[chunkInfo['equipment'][equip].slot]].ability_damage))) && (chunkInfo['equipment'][equip].accuracy > 0 && chunkInfo['equipment'][equip].ability_damage > 0)) {
                             let tempTempValid = false;
                             Object.keys(baseChunkData['items'][equip]).filter(source => !baseChunkData['items'][equip][source].includes('-') || !chunkInfo['challenges'][baseChunkData['items'][equip][source].split('-')[1]] || !chunkInfo['challenges'][baseChunkData['items'][equip][source].split('-')[1]][source] || (!chunkInfo['challenges'][baseChunkData['items'][equip][source].split('-')[1]][source]['ProcessingSource'] && !processingSkill[baseChunkData['items'][equip][source].split('-')[1]]) || rules['Wield Crafted Items'] || baseChunkData['items'][equip][source].split('-')[1] === 'Slayer' || (chunkInfo['challenges'].hasOwnProperty(baseChunkData['items'][equip][source].split('-')[1]) && chunkInfo['challenges'][baseChunkData['items'][equip][source].split('-')[1]].hasOwnProperty(source) && chunkInfo['challenges'][baseChunkData['items'][equip][source].split('-')[1]][source].hasOwnProperty('NoXp'))).length > 0 && (tempTempValid = true);
                             tempTempValid && (!backlog['BiS'] || (!backlog['BiS'].hasOwnProperty('Obtain' + article + '~|' + formatEquip(equip) + '|~') && !backlog['BiS'].hasOwnProperty('Obtain' + article + '~|' + formatEquip(equip).replaceAll('#', '/') + '|~'))) && (bestEquipment[chunkInfo['equipment'][equip].slot] = equip);
-                        } else if (chunkInfo['equipment'][equip].style === 'crush' && (!bestEquipment[chunkInfo['equipment'][equip].slot] || ((chunkInfo['equipment'][equip].accuracy + chunkInfo['equipment'][equip].ability_damage) === (chunkInfo['equipment'][bestEquipment[chunkInfo['equipment'][equip].slot]].accuracy + chunkInfo['equipment'][bestEquipment[chunkInfo['equipment'][equip].slot]].ability_damage))) && (chunkInfo['equipment'][equip].accuracy > 0 && chunkInfo['equipment'][equip].ability_damage > 0)) {
+                        } else if (chunkInfo['equipment'][equip].style === 'crush' && (!bestEquipment[chunkInfo['equipment'][equip].slot] || (((isAccuracyNeeded ? accuracyWeight * chunkInfo['equipment'][equip].accuracy : 0) + chunkInfo['equipment'][equip].ability_damage) === ((isAccuracyNeeded ? accuracyWeight * chunkInfo['equipment'][bestEquipment[chunkInfo['equipment'][equip].slot]].accuracy : 0) + chunkInfo['equipment'][bestEquipment[chunkInfo['equipment'][equip].slot]].ability_damage))) && (chunkInfo['equipment'][equip].accuracy > 0 && chunkInfo['equipment'][equip].ability_damage > 0)) {
                             let tempTempValid = false;
                             Object.keys(baseChunkData['items'][equip]).filter(source => !baseChunkData['items'][equip][source].includes('-') || !chunkInfo['challenges'][baseChunkData['items'][equip][source].split('-')[1]] || !chunkInfo['challenges'][baseChunkData['items'][equip][source].split('-')[1]][source] || (!chunkInfo['challenges'][baseChunkData['items'][equip][source].split('-')[1]][source]['ProcessingSource'] && !processingSkill[baseChunkData['items'][equip][source].split('-')[1]]) || rules['Wield Crafted Items'] || baseChunkData['items'][equip][source].split('-')[1] === 'Slayer' || (chunkInfo['challenges'].hasOwnProperty(baseChunkData['items'][equip][source].split('-')[1]) && chunkInfo['challenges'][baseChunkData['items'][equip][source].split('-')[1]].hasOwnProperty(source) && chunkInfo['challenges'][baseChunkData['items'][equip][source].split('-')[1]][source].hasOwnProperty('NoXp'))).length > 0 && (tempTempValid = true);
                             if (tempTempValid && (!backlog['BiS'] || (!backlog['BiS'].hasOwnProperty('Obtain' + article + '~|' + formatEquip(equip) + '|~') && !backlog['BiS'].hasOwnProperty('Obtain' + article + '~|' + formatEquip(equip).replaceAll('#', '/') + '|~')))) {
@@ -6017,17 +6021,18 @@ let calcBIS = function(completedOnly) {
                     }
                 } else if (skill === 'Magic' && (chunkInfo['equipment'][equip].class === 'magic' || chunkInfo['equipment'][equip].class === 'hybrid' || chunkInfo['equipment'][equip].class === 'all' || chunkInfo['equipment'][equip].class === 'none')) {
                     if (chunkInfo['equipment'][equip].speed > 0) {
-                        if (!completedOnly && (chunkInfo['equipment'][equip].accuracy > 0 && chunkInfo['equipment'][equip].ability_damage > 0)) {
+                        let isAccuracyNeeded = chunkInfo['equipment'][equip].slot === 'main hand weapon';
+						if (!completedOnly && (chunkInfo['equipment'][equip].accuracy > 0 && chunkInfo['equipment'][equip].ability_damage > 0)) {
                             if (!bisUpgrades[skill.replaceAll(' ', '_') + '-' + chunkInfo['equipment'][equip].slot]) {
                                 bisUpgrades[skill.replaceAll(' ', '_') + '-' + chunkInfo['equipment'][equip].slot] = {};
                             }
-                            bisUpgrades[skill.replaceAll(' ', '_') + '-' + chunkInfo['equipment'][equip].slot][equip] = chunkInfo['equipment'][equip].accuracy + chunkInfo['equipment'][equip].ability_damage;
+                            bisUpgrades[skill.replaceAll(' ', '_') + '-' + chunkInfo['equipment'][equip].slot][equip] = (isAccuracyNeeded ? accuracyWeight * chunkInfo['equipment'][equip].accuracy : 0) + chunkInfo['equipment'][equip].ability_damage;
                         }
-                        if ((!bestEquipment[chunkInfo['equipment'][equip].slot] || ((chunkInfo['equipment'][equip].accuracy + chunkInfo['equipment'][equip].ability_damage) > (chunkInfo['equipment'][bestEquipment[chunkInfo['equipment'][equip].slot]].accuracy + chunkInfo['equipment'][bestEquipment[chunkInfo['equipment'][equip].slot]].ability_damage))) && ((chunkInfo['equipment'][equip].accuracy > 0 && chunkInfo['equipment'][equip].ability_damage > 0) || equip === 'Unarmed')) {
+                        if ((!bestEquipment[chunkInfo['equipment'][equip].slot] || (((isAccuracyNeeded ? accuracyWeight * chunkInfo['equipment'][equip].accuracy : 0) + chunkInfo['equipment'][equip].ability_damage) > ((isAccuracyNeeded ? accuracyWeight * chunkInfo['equipment'][bestEquipment[chunkInfo['equipment'][equip].slot]].accuracy : 0) + chunkInfo['equipment'][bestEquipment[chunkInfo['equipment'][equip].slot]].ability_damage))) && ((chunkInfo['equipment'][equip].accuracy > 0 && chunkInfo['equipment'][equip].ability_damage > 0) || equip === 'Unarmed')) {
                             let tempTempValid = false;
                             Object.keys(baseChunkData['items'][equip]).filter(source => !baseChunkData['items'][equip][source].includes('-') || !chunkInfo['challenges'][baseChunkData['items'][equip][source].split('-')[1]] || !chunkInfo['challenges'][baseChunkData['items'][equip][source].split('-')[1]][source] || (!chunkInfo['challenges'][baseChunkData['items'][equip][source].split('-')[1]][source]['ProcessingSource'] && !processingSkill[baseChunkData['items'][equip][source].split('-')[1]]) || rules['Wield Crafted Items'] || baseChunkData['items'][equip][source].split('-')[1] === 'Slayer' || (chunkInfo['challenges'].hasOwnProperty(baseChunkData['items'][equip][source].split('-')[1]) && chunkInfo['challenges'][baseChunkData['items'][equip][source].split('-')[1]].hasOwnProperty(source) && chunkInfo['challenges'][baseChunkData['items'][equip][source].split('-')[1]][source].hasOwnProperty('NoXp'))).length > 0 && (tempTempValid = true);
                             tempTempValid && (!backlog['BiS'] || (!backlog['BiS'].hasOwnProperty('Obtain' + article + '~|' + formatEquip(equip) + '|~') && !backlog['BiS'].hasOwnProperty('Obtain' + article + '~|' + formatEquip(equip).replaceAll('#', '/') + '|~'))) && (bestEquipment[chunkInfo['equipment'][equip].slot] = equip);
-                        } else if ((!bestEquipment[chunkInfo['equipment'][equip].slot] || ((chunkInfo['equipment'][equip].accuracy + chunkInfo['equipment'][equip].ability_damage) === (chunkInfo['equipment'][bestEquipment[chunkInfo['equipment'][equip].slot]].accuracy + chunkInfo['equipment'][bestEquipment[chunkInfo['equipment'][equip].slot]].ability_damage))) && ((chunkInfo['equipment'][equip].accuracy > 0 && chunkInfo['equipment'][equip].ability_damage > 0) || equip === 'Unarmed')) {
+                        } else if ((!bestEquipment[chunkInfo['equipment'][equip].slot] || (((isAccuracyNeeded ? accuracyWeight * chunkInfo['equipment'][equip].accuracy : 0) + chunkInfo['equipment'][equip].ability_damage) === ((isAccuracyNeeded ? accuracyWeight * chunkInfo['equipment'][bestEquipment[chunkInfo['equipment'][equip].slot]].accuracy : 0) + chunkInfo['equipment'][bestEquipment[chunkInfo['equipment'][equip].slot]].ability_damage))) && ((chunkInfo['equipment'][equip].accuracy > 0 && chunkInfo['equipment'][equip].ability_damage > 0) || equip === 'Unarmed')) {
                             let tempTempValid = false;
                             Object.keys(baseChunkData['items'][equip]).filter(source => !baseChunkData['items'][equip][source].includes('-') || !chunkInfo['challenges'][baseChunkData['items'][equip][source].split('-')[1]] || !chunkInfo['challenges'][baseChunkData['items'][equip][source].split('-')[1]][source] || (!chunkInfo['challenges'][baseChunkData['items'][equip][source].split('-')[1]][source]['ProcessingSource'] && !processingSkill[baseChunkData['items'][equip][source].split('-')[1]]) || rules['Wield Crafted Items'] || baseChunkData['items'][equip][source].split('-')[1] === 'Slayer' || (chunkInfo['challenges'].hasOwnProperty(baseChunkData['items'][equip][source].split('-')[1]) && chunkInfo['challenges'][baseChunkData['items'][equip][source].split('-')[1]].hasOwnProperty(source) && chunkInfo['challenges'][baseChunkData['items'][equip][source].split('-')[1]][source].hasOwnProperty('NoXp'))).length > 0 && (tempTempValid = true);
                             if (tempTempValid && (!backlog['BiS'] || (!backlog['BiS'].hasOwnProperty('Obtain' + article + '~|' + formatEquip(equip) + '|~') && !backlog['BiS'].hasOwnProperty('Obtain' + article + '~|' + formatEquip(equip).replaceAll('#', '/') + '|~')))) {
@@ -6075,17 +6080,18 @@ let calcBIS = function(completedOnly) {
                     }
                 } else if (skill === 'Necromancy' && (chunkInfo['equipment'][equip].class === 'necromancy' || chunkInfo['equipment'][equip].class === 'hybrid' || chunkInfo['equipment'][equip].class === 'all' || chunkInfo['equipment'][equip].class === 'none')) {
                     if (chunkInfo['equipment'][equip].speed > 0) {
-                        if (!completedOnly && (chunkInfo['equipment'][equip].accuracy > 0 && chunkInfo['equipment'][equip].ability_damage > 0)) {
+                        let isAccuracyNeeded = chunkInfo['equipment'][equip].slot === 'main hand weapon';
+						if (!completedOnly && (chunkInfo['equipment'][equip].accuracy > 0 && chunkInfo['equipment'][equip].ability_damage > 0)) {
                             if (!bisUpgrades[skill.replaceAll(' ', '_') + '-' + chunkInfo['equipment'][equip].slot]) {
                                 bisUpgrades[skill.replaceAll(' ', '_') + '-' + chunkInfo['equipment'][equip].slot] = {};
                             }
-                            bisUpgrades[skill.replaceAll(' ', '_') + '-' + chunkInfo['equipment'][equip].slot][equip] = chunkInfo['equipment'][equip].accuracy + chunkInfo['equipment'][equip].ability_damage;
+                            bisUpgrades[skill.replaceAll(' ', '_') + '-' + chunkInfo['equipment'][equip].slot][equip] = (isAccuracyNeeded ? accuracyWeight * chunkInfo['equipment'][equip].accuracy : 0) + chunkInfo['equipment'][equip].ability_damage;
                         }
-                        if ((!bestEquipment[chunkInfo['equipment'][equip].slot] || ((chunkInfo['equipment'][equip].accuracy + chunkInfo['equipment'][equip].ability_damage) > (chunkInfo['equipment'][bestEquipment[chunkInfo['equipment'][equip].slot]].accuracy + chunkInfo['equipment'][bestEquipment[chunkInfo['equipment'][equip].slot]].ability_damage))) && ((chunkInfo['equipment'][equip].accuracy > 0 && chunkInfo['equipment'][equip].ability_damage > 0) || equip === 'Unarmed')) {
+                        if ((!bestEquipment[chunkInfo['equipment'][equip].slot] || (((isAccuracyNeeded ? accuracyWeight * chunkInfo['equipment'][equip].accuracy : 0) + chunkInfo['equipment'][equip].ability_damage) > ((isAccuracyNeeded ? accuracyWeight * chunkInfo['equipment'][bestEquipment[chunkInfo['equipment'][equip].slot]].accuracy : 0) + chunkInfo['equipment'][bestEquipment[chunkInfo['equipment'][equip].slot]].ability_damage))) && ((chunkInfo['equipment'][equip].accuracy > 0 && chunkInfo['equipment'][equip].ability_damage > 0) || equip === 'Unarmed')) {
                             let tempTempValid = false;
                             Object.keys(baseChunkData['items'][equip]).filter(source => !baseChunkData['items'][equip][source].includes('-') || !chunkInfo['challenges'][baseChunkData['items'][equip][source].split('-')[1]] || !chunkInfo['challenges'][baseChunkData['items'][equip][source].split('-')[1]][source] || (!chunkInfo['challenges'][baseChunkData['items'][equip][source].split('-')[1]][source]['ProcessingSource'] && !processingSkill[baseChunkData['items'][equip][source].split('-')[1]]) || rules['Wield Crafted Items'] || baseChunkData['items'][equip][source].split('-')[1] === 'Slayer' || (chunkInfo['challenges'].hasOwnProperty(baseChunkData['items'][equip][source].split('-')[1]) && chunkInfo['challenges'][baseChunkData['items'][equip][source].split('-')[1]].hasOwnProperty(source) && chunkInfo['challenges'][baseChunkData['items'][equip][source].split('-')[1]][source].hasOwnProperty('NoXp'))).length > 0 && (tempTempValid = true);
                             tempTempValid && (!backlog['BiS'] || (!backlog['BiS'].hasOwnProperty('Obtain' + article + '~|' + formatEquip(equip) + '|~') && !backlog['BiS'].hasOwnProperty('Obtain' + article + '~|' + formatEquip(equip).replaceAll('#', '/') + '|~'))) && (bestEquipment[chunkInfo['equipment'][equip].slot] = equip);
-                        } else if ((!bestEquipment[chunkInfo['equipment'][equip].slot] || ((chunkInfo['equipment'][equip].accuracy + chunkInfo['equipment'][equip].ability_damage) === (chunkInfo['equipment'][bestEquipment[chunkInfo['equipment'][equip].slot]].accuracy + chunkInfo['equipment'][bestEquipment[chunkInfo['equipment'][equip].slot]].ability_damage))) && ((chunkInfo['equipment'][equip].accuracy > 0 && chunkInfo['equipment'][equip].ability_damage > 0) || equip === 'Unarmed')) {
+                        } else if ((!bestEquipment[chunkInfo['equipment'][equip].slot] || (((isAccuracyNeeded ? accuracyWeight * chunkInfo['equipment'][equip].accuracy : 0) + chunkInfo['equipment'][equip].ability_damage) === ((isAccuracyNeeded ? accuracyWeight * chunkInfo['equipment'][bestEquipment[chunkInfo['equipment'][equip].slot]].accuracy : 0) + chunkInfo['equipment'][bestEquipment[chunkInfo['equipment'][equip].slot]].ability_damage))) && ((chunkInfo['equipment'][equip].accuracy > 0 && chunkInfo['equipment'][equip].ability_damage > 0) || equip === 'Unarmed')) {
                             let tempTempValid = false;
                             Object.keys(baseChunkData['items'][equip]).filter(source => !baseChunkData['items'][equip][source].includes('-') || !chunkInfo['challenges'][baseChunkData['items'][equip][source].split('-')[1]] || !chunkInfo['challenges'][baseChunkData['items'][equip][source].split('-')[1]][source] || (!chunkInfo['challenges'][baseChunkData['items'][equip][source].split('-')[1]][source]['ProcessingSource'] && !processingSkill[baseChunkData['items'][equip][source].split('-')[1]]) || rules['Wield Crafted Items'] || baseChunkData['items'][equip][source].split('-')[1] === 'Slayer' || (chunkInfo['challenges'].hasOwnProperty(baseChunkData['items'][equip][source].split('-')[1]) && chunkInfo['challenges'][baseChunkData['items'][equip][source].split('-')[1]].hasOwnProperty(source) && chunkInfo['challenges'][baseChunkData['items'][equip][source].split('-')[1]][source].hasOwnProperty('NoXp'))).length > 0 && (tempTempValid = true);
                             if (tempTempValid && (!backlog['BiS'] || (!backlog['BiS'].hasOwnProperty('Obtain' + article + '~|' + formatEquip(equip) + '|~') && !backlog['BiS'].hasOwnProperty('Obtain' + article + '~|' + formatEquip(equip).replaceAll('#', '/') + '|~')))) {
@@ -6095,7 +6101,7 @@ let calcBIS = function(completedOnly) {
                                 bestEquipmentAlts[chunkInfo['equipment'][equip].slot][equip] = bestEquipment[chunkInfo['equipment'][equip].slot];
                             }
                         }
-                    } else {
+					} else {
                         if ((chunkInfo['equipment'][equip].necromancy_damage || 0) >= 0) {
                             if (!completedOnly) {
                                 if (!bisUpgrades[skill.replaceAll(' ', '_') + '-' + chunkInfo['equipment'][equip].slot]) {
@@ -6304,75 +6310,75 @@ let calcBIS = function(completedOnly) {
         let shieldPower = 0;
         if (skill === 'Melee') {
             if (bestEquipment.hasOwnProperty('2h weapon')) {
-                twoHPower = chunkInfo['equipment'][bestEquipment['2h weapon']].accuracy + chunkInfo['equipment'][bestEquipment['2h weapon']].ability_damage;
+                twoHPower = accuracyWeight * chunkInfo['equipment'][bestEquipment['2h weapon']].accuracy + chunkInfo['equipment'][bestEquipment['2h weapon']].ability_damage;
             }
             if (bestEquipment.hasOwnProperty('main hand weapon')) {
                 if (bestEquipment.hasOwnProperty('off-hand weapon')) {
-                    weaponShieldPower = chunkInfo['equipment'][bestEquipment['main hand weapon']].accuracy + chunkInfo['equipment'][bestEquipment['main hand weapon']].ability_damage + chunkInfo['equipment'][bestEquipment['off-hand weapon']].ability_damage;
+                    weaponShieldPower = accuracyWeight * chunkInfo['equipment'][bestEquipment['main hand weapon']].accuracy + chunkInfo['equipment'][bestEquipment['main hand weapon']].ability_damage + chunkInfo['equipment'][bestEquipment['off-hand weapon']].ability_damage;
                 } else {
-                    weaponShieldPower = chunkInfo['equipment'][bestEquipment['main hand weapon']].accuracy + chunkInfo['equipment'][bestEquipment['main hand weapon']].ability_damage;
+                    weaponShieldPower = accuracyWeight * chunkInfo['equipment'][bestEquipment['main hand weapon']].accuracy + chunkInfo['equipment'][bestEquipment['main hand weapon']].ability_damage;
                 }
             }
             if (bestEquipment.hasOwnProperty('off-hand weapon')) {
-                offHandPower = chunkInfo['equipment'][bestEquipment['off-hand weapon']].accuracy + chunkInfo['equipment'][bestEquipment['off-hand weapon']].ability_damage;
+                offHandPower = chunkInfo['equipment'][bestEquipment['off-hand weapon']].ability_damage;
             }
             if (bestEquipment.hasOwnProperty('off-hand')) {
-                shieldPower = chunkInfo['equipment'][bestEquipment['off-hand']].accuracy;
+                shieldPower = accuracyWeight * chunkInfo['equipment'][bestEquipment['off-hand']].accuracy;
             }
         } else if (skill === 'Stab') {
             if (bestEquipment.hasOwnProperty('2h weapon')) {
-                twoHPower = chunkInfo['equipment'][bestEquipment['2h weapon']].accuracy + chunkInfo['equipment'][bestEquipment['2h weapon']].ability_damage;
+                twoHPower = accuracyWeight * chunkInfo['equipment'][bestEquipment['2h weapon']].accuracy + chunkInfo['equipment'][bestEquipment['2h weapon']].ability_damage;
             }
             if (bestEquipment.hasOwnProperty('main hand weapon')) {
                 if (bestEquipment.hasOwnProperty('off-hand weapon')) {
-                    weaponShieldPower = ((chunkInfo['equipment'][bestEquipment['main hand weapon']].accuracy + chunkInfo['equipment'][bestEquipment['off-hand weapon']].accuracy) / 2) + (chunkInfo['equipment'][bestEquipment['main hand weapon']].ability_damage + chunkInfo['equipment'][bestEquipment['off-hand weapon']].ability_damage);
+                    weaponShieldPower = accuracyWeight * chunkInfo['equipment'][bestEquipment['main hand weapon']].accuracy + chunkInfo['equipment'][bestEquipment['main hand weapon']].ability_damage + chunkInfo['equipment'][bestEquipment['off-hand weapon']].ability_damage;
                 } else {
-                    weaponShieldPower = chunkInfo['equipment'][bestEquipment['main hand weapon']].accuracy + chunkInfo['equipment'][bestEquipment['main hand weapon']].ability_damage;
+                    weaponShieldPower = accuracyWeight * chunkInfo['equipment'][bestEquipment['main hand weapon']].accuracy + chunkInfo['equipment'][bestEquipment['main hand weapon']].ability_damage;
                 }
             }
             if (bestEquipment.hasOwnProperty('off-hand weapon')) {
-                offHandPower = chunkInfo['equipment'][bestEquipment['off-hand weapon']].accuracy + chunkInfo['equipment'][bestEquipment['off-hand weapon']].ability_damage;
+                offHandPower = chunkInfo['equipment'][bestEquipment['off-hand weapon']].ability_damage;
             }
             if (bestEquipment.hasOwnProperty('off-hand')) {
-                shieldPower = chunkInfo['equipment'][bestEquipment['off-hand']].accuracy;
+                shieldPower = accuracyWeight * chunkInfo['equipment'][bestEquipment['off-hand']].accuracy;
             }
         } else if (skill === 'Slash') {
             if (bestEquipment.hasOwnProperty('2h weapon')) {
-                twoHPower = chunkInfo['equipment'][bestEquipment['2h weapon']].accuracy + chunkInfo['equipment'][bestEquipment['2h weapon']].ability_damage;
+                twoHPower = accuracyWeight * chunkInfo['equipment'][bestEquipment['2h weapon']].accuracy + chunkInfo['equipment'][bestEquipment['2h weapon']].ability_damage;
             }
             if (bestEquipment.hasOwnProperty('main hand weapon')) {
                 if (bestEquipment.hasOwnProperty('off-hand weapon')) {
-                    weaponShieldPower = ((chunkInfo['equipment'][bestEquipment['main hand weapon']].accuracy + chunkInfo['equipment'][bestEquipment['off-hand weapon']].accuracy) / 2) + (chunkInfo['equipment'][bestEquipment['main hand weapon']].ability_damage + chunkInfo['equipment'][bestEquipment['off-hand weapon']].ability_damage);
+                    weaponShieldPower = accuracyWeight * chunkInfo['equipment'][bestEquipment['main hand weapon']].accuracy + chunkInfo['equipment'][bestEquipment['main hand weapon']].ability_damage + chunkInfo['equipment'][bestEquipment['off-hand weapon']].ability_damage;
                 } else {
-                    weaponShieldPower = chunkInfo['equipment'][bestEquipment['main hand weapon']].accuracy + chunkInfo['equipment'][bestEquipment['main hand weapon']].ability_damage;
+                    weaponShieldPower = accuracyWeight * chunkInfo['equipment'][bestEquipment['main hand weapon']].accuracy + chunkInfo['equipment'][bestEquipment['main hand weapon']].ability_damage;
                 }
             }
             if (bestEquipment.hasOwnProperty('off-hand weapon')) {
-                offHandPower = chunkInfo['equipment'][bestEquipment['off-hand weapon']].accuracy + chunkInfo['equipment'][bestEquipment['off-hand weapon']].ability_damage;
+                offHandPower = chunkInfo['equipment'][bestEquipment['off-hand weapon']].ability_damage;
             }
             if (bestEquipment.hasOwnProperty('off-hand')) {
-                shieldPower = chunkInfo['equipment'][bestEquipment['off-hand']].accuracy;
+                shieldPower = accuracyWeight * chunkInfo['equipment'][bestEquipment['off-hand']].accuracy;
             }
         } else if (skill === 'Crush') {
             if (bestEquipment.hasOwnProperty('2h weapon')) {
-                twoHPower = chunkInfo['equipment'][bestEquipment['2h weapon']].accuracy + chunkInfo['equipment'][bestEquipment['2h weapon']].ability_damage;
+                twoHPower = accuracyWeight * chunkInfo['equipment'][bestEquipment['2h weapon']].accuracy + chunkInfo['equipment'][bestEquipment['2h weapon']].ability_damage;
             }
             if (bestEquipment.hasOwnProperty('main hand weapon')) {
                 if (bestEquipment.hasOwnProperty('off-hand weapon')) {
-                    weaponShieldPower = ((chunkInfo['equipment'][bestEquipment['main hand weapon']].accuracy + chunkInfo['equipment'][bestEquipment['off-hand weapon']].accuracy) / 2) + (chunkInfo['equipment'][bestEquipment['main hand weapon']].ability_damage + chunkInfo['equipment'][bestEquipment['off-hand weapon']].ability_damage);
+                    weaponShieldPower = accuracyWeight * chunkInfo['equipment'][bestEquipment['main hand weapon']].accuracy + chunkInfo['equipment'][bestEquipment['main hand weapon']].ability_damage + chunkInfo['equipment'][bestEquipment['off-hand weapon']].ability_damage;
                 } else {
-                    weaponShieldPower = chunkInfo['equipment'][bestEquipment['main hand weapon']].accuracy + chunkInfo['equipment'][bestEquipment['main hand weapon']].ability_damage;
+                    weaponShieldPower = accuracyWeight * chunkInfo['equipment'][bestEquipment['main hand weapon']].accuracy + chunkInfo['equipment'][bestEquipment['main hand weapon']].ability_damage;
                 }
             }
             if (bestEquipment.hasOwnProperty('off-hand weapon')) {
-                offHandPower = chunkInfo['equipment'][bestEquipment['off-hand weapon']].accuracy + chunkInfo['equipment'][bestEquipment['off-hand weapon']].ability_damage;
+                offHandPower = chunkInfo['equipment'][bestEquipment['off-hand weapon']].ability_damage;
             }
             if (bestEquipment.hasOwnProperty('off-hand')) {
-                shieldPower = chunkInfo['equipment'][bestEquipment['off-hand']].accuracy;
+                shieldPower = accuracyWeight * chunkInfo['equipment'][bestEquipment['off-hand']].accuracy;
             }
         } else if (skill === 'Ranged') {
             if (bestEquipment.hasOwnProperty('2h weapon')) {
-                twoHPower = chunkInfo['equipment'][bestEquipment['2h weapon']].accuracy + (!!bestAmmoSaved['2h weapon'] ? Math.min(chunkInfo['equipment'][bestEquipment['2h weapon']].ability_damage, chunkInfo['equipment'][bestAmmoSaved['2h weapon']].ability_damage) : chunkInfo['equipment'][bestEquipment['2h weapon']].ability_damage);
+                twoHPower = accuracyWeight * chunkInfo['equipment'][bestEquipment['2h weapon']].accuracy + (!!bestAmmoSaved['2h weapon'] ? Math.min(chunkInfo['equipment'][bestEquipment['2h weapon']].ability_damage, chunkInfo['equipment'][bestAmmoSaved['2h weapon']].ability_damage) : chunkInfo['equipment'][bestEquipment['2h weapon']].ability_damage);
             }
             if (bestEquipment.hasOwnProperty('main hand weapon')) {
                 if (bestEquipment.hasOwnProperty('off-hand weapon')) {
@@ -6399,50 +6405,50 @@ let calcBIS = function(completedOnly) {
                     if (chunkInfo['codeItems']['ammoTools']['No ammo'][bestEquipment['off-hand weapon']]) {
                         offAmmoDamage = 0;
                     }
-                    weaponShieldPower = chunkInfo['equipment'][bestEquipment['main hand weapon']].accuracy + (!!mainAmmoDamage ? Math.min(chunkInfo['equipment'][bestEquipment['main hand weapon']].ability_damage, (2/3) * mainAmmoDamage) : chunkInfo['equipment'][bestEquipment['main hand weapon']].ability_damage) + (!!offAmmoDamage ? Math.min(chunkInfo['equipment'][bestEquipment['off-hand weapon']].ability_damage, (1/3) * offAmmoDamage) : chunkInfo['equipment'][bestEquipment['off-hand weapon']].ability_damage);
+                    weaponShieldPower = accuracyWeight * chunkInfo['equipment'][bestEquipment['main hand weapon']].accuracy + (!!mainAmmoDamage ? Math.min(chunkInfo['equipment'][bestEquipment['main hand weapon']].ability_damage, (2/3) * mainAmmoDamage) : chunkInfo['equipment'][bestEquipment['main hand weapon']].ability_damage) + (!!offAmmoDamage ? Math.min(chunkInfo['equipment'][bestEquipment['off-hand weapon']].ability_damage, (1/3) * offAmmoDamage) : chunkInfo['equipment'][bestEquipment['off-hand weapon']].ability_damage);
                 } else {
-                    weaponShieldPower = chunkInfo['equipment'][bestEquipment['main hand weapon']].accuracy + (!!bestAmmoSaved['main hand weapon'] ? Math.min(chunkInfo['equipment'][bestEquipment['main hand weapon']].ability_damage, chunkInfo['equipment'][bestAmmoSaved['main hand weapon']].ability_damage) : chunkInfo['equipment'][bestEquipment['main hand weapon']].ability_damage);
+                    weaponShieldPower = accuracyWeight * chunkInfo['equipment'][bestEquipment['main hand weapon']].accuracy + (!!bestAmmoSaved['main hand weapon'] ? Math.min(chunkInfo['equipment'][bestEquipment['main hand weapon']].ability_damage, chunkInfo['equipment'][bestAmmoSaved['main hand weapon']].ability_damage) : chunkInfo['equipment'][bestEquipment['main hand weapon']].ability_damage);
                 }
             }
             if (bestEquipment.hasOwnProperty('off-hand weapon')) {
                 offHandPower = !!bestAmmoSaved['off-hand weapon'] ? Math.min(chunkInfo['equipment'][bestEquipment['off-hand weapon']].ability_damage, (1/3) * chunkInfo['equipment'][bestAmmoSaved['off-hand weapon']].ability_damage) : chunkInfo['equipment'][bestEquipment['off-hand weapon']].ability_damage;
             }
             if (bestEquipment.hasOwnProperty('off-hand')) {
-                shieldPower = chunkInfo['equipment'][bestEquipment['off-hand']].accuracy;
+                shieldPower = accuracyWeight * chunkInfo['equipment'][bestEquipment['off-hand']].accuracy;
             }
         } else if (skill === 'Magic') {
-            if (bestEquipment.hasOwnProperty('2h weapon')) {
-                twoHPower = chunkInfo['equipment'][bestEquipment['2h weapon']].accuracy + chunkInfo['equipment'][bestEquipment['2h weapon']].ability_damage;
+			if (bestEquipment.hasOwnProperty('2h weapon')) {
+                twoHPower = accuracyWeight * chunkInfo['equipment'][bestEquipment['2h weapon']].accuracy + chunkInfo['equipment'][bestEquipment['2h weapon']].ability_damage;
             }
             if (bestEquipment.hasOwnProperty('main hand weapon')) {
                 if (bestEquipment.hasOwnProperty('off-hand weapon')) {
-                    weaponShieldPower = ((chunkInfo['equipment'][bestEquipment['main hand weapon']].accuracy + chunkInfo['equipment'][bestEquipment['off-hand weapon']].accuracy) / 2) + (chunkInfo['equipment'][bestEquipment['main hand weapon']].ability_damage + chunkInfo['equipment'][bestEquipment['off-hand weapon']].ability_damage);
+                    weaponShieldPower = accuracyWeight * chunkInfo['equipment'][bestEquipment['main hand weapon']].accuracy + chunkInfo['equipment'][bestEquipment['main hand weapon']].ability_damage + chunkInfo['equipment'][bestEquipment['off-hand weapon']].ability_damage;
                 } else {
-                    weaponShieldPower = chunkInfo['equipment'][bestEquipment['main hand weapon']].accuracy + chunkInfo['equipment'][bestEquipment['main hand weapon']].ability_damage;
+                    weaponShieldPower = accuracyWeight * chunkInfo['equipment'][bestEquipment['main hand weapon']].accuracy + chunkInfo['equipment'][bestEquipment['main hand weapon']].ability_damage;
                 }
             }
             if (bestEquipment.hasOwnProperty('off-hand weapon')) {
-                offHandPower = chunkInfo['equipment'][bestEquipment['off-hand weapon']].accuracy + chunkInfo['equipment'][bestEquipment['off-hand weapon']].ability_damage;
+                offHandPower = chunkInfo['equipment'][bestEquipment['off-hand weapon']].ability_damage;
             }
             if (bestEquipment.hasOwnProperty('off-hand')) {
-                shieldPower = chunkInfo['equipment'][bestEquipment['off-hand']].accuracy;
+                shieldPower = accuracyWeight * chunkInfo['equipment'][bestEquipment['off-hand']].accuracy;
             }
         } else if (skill === 'Necromancy') {
             if (bestEquipment.hasOwnProperty('2h weapon')) {
-                twoHPower = chunkInfo['equipment'][bestEquipment['2h weapon']].accuracy + chunkInfo['equipment'][bestEquipment['2h weapon']].ability_damage;
+                twoHPower = accuracyWeight * chunkInfo['equipment'][bestEquipment['2h weapon']].accuracy + chunkInfo['equipment'][bestEquipment['2h weapon']].ability_damage;
             }
             if (bestEquipment.hasOwnProperty('main hand weapon')) {
                 if (bestEquipment.hasOwnProperty('off-hand weapon')) {
-                    weaponShieldPower = ((chunkInfo['equipment'][bestEquipment['main hand weapon']].accuracy + chunkInfo['equipment'][bestEquipment['off-hand weapon']].accuracy) / 2) + (chunkInfo['equipment'][bestEquipment['main hand weapon']].ability_damage + chunkInfo['equipment'][bestEquipment['off-hand weapon']].ability_damage);
+                    weaponShieldPower = accuracyWeight * chunkInfo['equipment'][bestEquipment['main hand weapon']].accuracy + chunkInfo['equipment'][bestEquipment['main hand weapon']].ability_damage + chunkInfo['equipment'][bestEquipment['off-hand weapon']].ability_damage;
                 } else {
-                    weaponShieldPower = chunkInfo['equipment'][bestEquipment['main hand weapon']].accuracy + chunkInfo['equipment'][bestEquipment['main hand weapon']].ability_damage;
+                    weaponShieldPower = accuracyWeight * chunkInfo['equipment'][bestEquipment['main hand weapon']].accuracy + chunkInfo['equipment'][bestEquipment['main hand weapon']].ability_damage;
                 }
             }
             if (bestEquipment.hasOwnProperty('off-hand weapon')) {
-                offHandPower = chunkInfo['equipment'][bestEquipment['off-hand weapon']].accuracy + chunkInfo['equipment'][bestEquipment['off-hand weapon']].ability_damage;
+                offHandPower = chunkInfo['equipment'][bestEquipment['off-hand weapon']].ability_damage;
             }
             if (bestEquipment.hasOwnProperty('off-hand')) {
-                shieldPower = chunkInfo['equipment'][bestEquipment['off-hand']].accuracy;
+                shieldPower = accuracyWeight * chunkInfo['equipment'][bestEquipment['off-hand']].accuracy;
             }
         } else if (skill === 'Prayer') {
             if (bestEquipment.hasOwnProperty('2h weapon')) {
