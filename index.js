@@ -1595,7 +1595,7 @@ let topbarElements = {
     'Sandbox Mode': `<div><span class='noscroll' onclick="enableTestMode()"><i class="gosandbox fa-solid fa-flask" title='Sandbox Mode'></i></span></div>`,
 };
 
-let currentVersion = '6.9.47';
+let currentVersion = '6.9.48';
 let currentEnforcedVersion = '6.9.45';
 let patchNotesVersion = '6.9.8.2';
 let updateLevel = 'maintenance-mode';
@@ -1745,7 +1745,7 @@ mapImg.addEventListener("load", e => {
         centerCanvas('quick');
     }
 });
-mapImg.src = "runescape_world_map.png?v=6.9.47";
+mapImg.src = "runescape_world_map.png?v=6.9.48";
 
 // Rounded rectangle
 CanvasRenderingContext2D.prototype.roundRect = function (x, y, w, h, r) {
@@ -3113,6 +3113,8 @@ let selectAllNeighborsCanvas = function() {
         }
     });
     sortSelectedChunks();
+    $('#chunkInfo2').text('Selected chunks: ' + ((!!tempChunks['selected'] ? Object.keys(tempChunks['selected']).length : 0) + (!!tempChunks['potential'] ? Object.keys(tempChunks['potential']).length : 0)));
+    $('#chunkInfo1').text('Unlocked chunks: ' + (!!tempChunks['unlocked'] ? Object.keys(tempChunks['unlocked']).length : 0));
     drawCanvas();
 }
 
@@ -3670,7 +3672,7 @@ let calcCurrentChallengesCanvas = function(useOld, proceed, fromLoadData, inputT
         setCalculating('.panel-active', useOld);
         setCurrentChallenges(['No tasks currently backlogged.'], ['No tasks currently completed.'], true, true);
         myWorker.terminate();
-        myWorker = new Worker("./worker.js?v=6.9.47");
+        myWorker = new Worker("./worker.js?v=6.9.48");
         myWorker.onmessage = workerOnMessage;
         myWorker.postMessage({
             type: 'current',
@@ -4026,8 +4028,8 @@ $(document).ready(function() {
 // ------------------------------------------------------------
 
 // Recieve message from worker
-let myWorker = new Worker("./worker.js?v=6.9.47");
-let myWorker2 = new Worker("./worker.js?v=6.9.47");
+let myWorker = new Worker("./worker.js?v=6.9.48");
+let myWorker2 = new Worker("./worker.js?v=6.9.48");
 let workerOnMessage = function(e) {
     if (e.data.type === 'reload') {
         window.location.reload();
@@ -4107,6 +4109,9 @@ let workerOnMessage = function(e) {
             workerOut = Object.keys(workersOut).filter((key) => workersOut[key] !== false).length;
             possibleAreas = {};
             onlyInitialData = false;
+            if (settings['newTasks'] && chunkJustRolled) {
+                openNewTasksModal(calcFutureChallenges2(e.data.globalValids, e.data.baseChunkData, e.data.highestOverall)[1].replaceAll(", 'future'", ", ''"));
+            }
             ({
                 globalValids,
                 baseChunkData,
@@ -4130,9 +4135,6 @@ let workerOnMessage = function(e) {
                 globalEveryDropAltMap,
                 altAmmoGlobal
             } = e.data);
-            if (settings['newTasks'] && chunkJustRolled) {
-                openNewTasksModal(calcFutureChallenges2(globalValids, baseChunkData, highestOverall)[1].replaceAll(", 'future'", ", ''"));
-            }
             Object.keys(savedChunks).filter(area => { return savedChunks[area] === true }).forEach((area) => {
                 possibleAreas[area] = true;
             });
@@ -7025,7 +7027,7 @@ let calcFutureChallenges = function() {
     }
     tempSections = combineJSONs(tempSections, manualSections);
     myWorker2.terminate();
-    myWorker2 = new Worker("./worker.js?v=6.9.47");
+    myWorker2 = new Worker("./worker.js?v=6.9.48");
     myWorker2.onmessage = workerOnMessage;
     myWorker2.postMessage({
         type: 'future',
