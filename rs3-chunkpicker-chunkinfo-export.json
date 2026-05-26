@@ -9259,6 +9259,14 @@
 				"NoBoost": true,
 				"Not F2P": true
 			},
+			"Use the ~|Meteor Strike|~ ability": {
+				"Category": ["Abilities"],
+				"Level": 90,
+				"Primary": false,
+				"Priority": 1001,
+				"NoPet": true,
+				"NoBoost": true
+			},
 			"Wield the ~|Zaros godsword|~": {
 				"Items": ["Zaros godsword"],
 				"Level": 92,
@@ -9678,6 +9686,14 @@
 		        "Priority": 3,
 				"Not F2P": true
 		    },
+			"Use the ~|Incite|~ ability": {
+				"Category": ["Abilities"],
+				"Level": 24,
+				"Primary": false,
+				"Priority": 1001,
+				"NoPet": true,
+				"NoBoost": true
+			},
 		    "Use a ~|portent of restoration III|~": {
 		        "Items": ["Portent of restoration III"],
 		        "Level": 25,
@@ -29059,6 +29075,14 @@
 				"Output": "Light core",
 				"Primary": true,
 				"Priority": 2
+			},
+			"Use the ~|Barricade|~ ability": {
+				"Category": ["Abilities"],
+				"Level": 81,
+				"Primary": false,
+				"Priority": 1001,
+				"NoPet": true,
+				"NoBoost": true
 			},
 			"Transmute raw shark to ~|raw sea turtle|~": {
 				"Items": ["Brilliant energy*", "Raw shark*"],
@@ -51402,6 +51426,14 @@
 				"Priority": 1005,
 				"Partial": true
 			},
+			"Use the ~|Tsunami|~ ability": {
+				"Category": ["Abilities"],
+				"Level": 90,
+				"Primary": false,
+				"Priority": 1006,
+				"NoPet": true,
+				"NoBoost": true
+			},
 			"Make a ~|Milestone cape (90)|~": {
 				"Category": ["Skillcape"],
 				"Items": ["Balls of wool"],
@@ -53592,6 +53624,14 @@
 				},
 				"Primary": true,
 				"Priority": 1,
+				"NoPet": true,
+				"NoBoost": true
+			},
+			"Use the ~|Living Death|~ ability": {
+				"Category": ["Abilities"],
+				"Level": 90,
+				"Primary": false,
+				"Priority": 1001,
 				"NoPet": true,
 				"NoBoost": true
 			},
@@ -58810,6 +58850,14 @@
 				"NoPet": true,
 				"NoBoost": true,
 				"Not F2P": true
+			},
+			"Use the ~|Imbue: Shadows|~ ability": {
+				"Category": ["Abilities"],
+				"Level": 90,
+				"Primary": false,
+				"Priority": 1001,
+				"NoPet": true,
+				"NoBoost": true
 			},
 			"Wield a ~|Seren godbow|~": {
 				"Items": ["Seren godbow"],
