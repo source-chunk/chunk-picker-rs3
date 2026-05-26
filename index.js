@@ -471,6 +471,7 @@ let rules = {
 	"Trim achievements": false,
 	"MQC achievements": false,
 	"Misc achievements": false,
+	"Speedrunning": false,
 	"Level Up Achievements": false,
 	"No RuneScore": false,
 	"Slayer Contracts": false,
@@ -612,8 +613,9 @@ let ruleNames = {
 	"XP Lamps": "Using skills-specific experience lamps counts as a primary training method<span class='rule-asterisk noscroll'>*</span>",
 	"Slayer Contracts": "Completing Slayer contracts off-task counts as a primary training method",
 	"Hide Partial Products": "Exclude partial and unfinished products as a skilling task<span class='partialProductsRuleTooltip'></span>",
-	"Timegated": "Must complete tasks that require consistent engagement with a time-gated activity across multiple weeks (Player-Owned Port, Player-Owned Farm, etc.)<span class='rule-asterisk noscroll'>*</span>",
-	"Secondary Bird Nests": "Allow items from bird nests and geodes gotten through secondary methods (e.g. birdhouses, monster drops) to generate chunk tasks"
+	"Timegated": "Require tasks that demand consistent engagement with a time-gated activity across multiple weeks (Player-Owned Port, Player-Owned Farm, etc.)<span class='rule-asterisk noscroll'>*</span>",
+	"Secondary Bird Nests": "Allow items from bird nests and geodes gotten through secondary methods (e.g. birdhouses, monster drops) to generate chunk tasks",
+	"Speedrunning": "Require tasks that must be completed under a strict time limit (e.g. speedrunning tasks)<span class='rule-asterisk noscroll'>*</span>"
 };                                                                              // List of rule definitions
 
 let rulePresets = {
@@ -727,6 +729,7 @@ let rulePresets = {
 		"Trim achievements": true,
 		"MQC achievements": true,
 		"Misc achievements": true,
+		"Speedrunning": true,
 		"XP Lamps": true,
 		"Slayer Contracts": true,
 		"Cleaning Herbs Primary": true,
@@ -827,6 +830,7 @@ let rulePresets = {
 		"Trim achievements": true,
 		"MQC achievements": true,
 		"Misc achievements": true,
+		"Speedrunning": true,
 		"No RuneScore": true,
 		"Level Up Achievements": true,
 		"Universal Tertiary": true,
@@ -966,13 +970,14 @@ let ruleStructure = {
     "Miscellaneous": {
         "Hero Items": true,
 		"Permanent Unlockables": true,
+		"Group Content": true,
+		"Speedrunning": true,
+		"Timegated": true,
 		"Kill X": ["Kill X Boss"],
         "Fill Stash": true,
         "Manually Complete Tasks": true,
         "Skiller": true,
-        "F2P": true,
-		"Group Content": true,
-		"Timegated": true
+        "F2P": true
     }
 };                                                                              // Structure of rules
 
@@ -1590,7 +1595,7 @@ let topbarElements = {
     'Sandbox Mode': `<div><span class='noscroll' onclick="enableTestMode()"><i class="gosandbox fa-solid fa-flask" title='Sandbox Mode'></i></span></div>`,
 };
 
-let currentVersion = '6.9.47';
+let currentVersion = '6.9.48';
 let currentEnforcedVersion = '6.9.45';
 let patchNotesVersion = '6.9.8.2';
 let updateLevel = 'maintenance-mode';
@@ -1740,7 +1745,7 @@ mapImg.addEventListener("load", e => {
         centerCanvas('quick');
     }
 });
-mapImg.src = "runescape_world_map.png?v=6.9.47";
+mapImg.src = "runescape_world_map.png?v=6.9.48";
 
 // Rounded rectangle
 CanvasRenderingContext2D.prototype.roundRect = function (x, y, w, h, r) {
@@ -3108,6 +3113,8 @@ let selectAllNeighborsCanvas = function() {
         }
     });
     sortSelectedChunks();
+    $('#chunkInfo2').text('Selected chunks: ' + ((!!tempChunks['selected'] ? Object.keys(tempChunks['selected']).length : 0) + (!!tempChunks['potential'] ? Object.keys(tempChunks['potential']).length : 0)));
+    $('#chunkInfo1').text('Unlocked chunks: ' + (!!tempChunks['unlocked'] ? Object.keys(tempChunks['unlocked']).length : 0));
     drawCanvas();
 }
 
@@ -3665,7 +3672,7 @@ let calcCurrentChallengesCanvas = function(useOld, proceed, fromLoadData, inputT
         setCalculating('.panel-active', useOld);
         setCurrentChallenges(['No tasks currently backlogged.'], ['No tasks currently completed.'], true, true);
         myWorker.terminate();
-        myWorker = new Worker("./worker.js?v=6.9.47");
+        myWorker = new Worker("./worker.js?v=6.9.48");
         myWorker.onmessage = workerOnMessage;
         myWorker.postMessage({
             type: 'current',
@@ -4021,8 +4028,8 @@ $(document).ready(function() {
 // ------------------------------------------------------------
 
 // Recieve message from worker
-let myWorker = new Worker("./worker.js?v=6.9.47");
-let myWorker2 = new Worker("./worker.js?v=6.9.47");
+let myWorker = new Worker("./worker.js?v=6.9.48");
+let myWorker2 = new Worker("./worker.js?v=6.9.48");
 let workerOnMessage = function(e) {
     if (e.data.type === 'reload') {
         window.location.reload();
@@ -4102,6 +4109,9 @@ let workerOnMessage = function(e) {
             workerOut = Object.keys(workersOut).filter((key) => workersOut[key] !== false).length;
             possibleAreas = {};
             onlyInitialData = false;
+            if (settings['newTasks'] && chunkJustRolled) {
+                openNewTasksModal(calcFutureChallenges2(e.data.globalValids, e.data.baseChunkData, e.data.highestOverall)[1].replaceAll(", 'future'", ", ''"));
+            }
             ({
                 globalValids,
                 baseChunkData,
@@ -4125,9 +4135,6 @@ let workerOnMessage = function(e) {
                 globalEveryDropAltMap,
                 altAmmoGlobal
             } = e.data);
-            if (settings['newTasks'] && chunkJustRolled) {
-                openNewTasksModal(calcFutureChallenges2(globalValids, baseChunkData, highestOverall)[1].replaceAll(", 'future'", ", ''"));
-            }
             Object.keys(savedChunks).filter(area => { return savedChunks[area] === true }).forEach((area) => {
                 possibleAreas[area] = true;
             });
@@ -7020,7 +7027,7 @@ let calcFutureChallenges = function() {
     }
     tempSections = combineJSONs(tempSections, manualSections);
     myWorker2.terminate();
-    myWorker2 = new Worker("./worker.js?v=6.9.47");
+    myWorker2 = new Worker("./worker.js?v=6.9.48");
     myWorker2.onmessage = workerOnMessage;
     myWorker2.postMessage({
         type: 'future',
@@ -13261,6 +13268,10 @@ let loadData = async function(startup) {
 		
 		if (!rulesTemp.hasOwnProperty('Misc achievements')) {
             rulesTemp['Misc achievements'] = rulesTemp.hasOwnProperty('Trim achievements') ? rulesTemp['Trim achievements'] : false;
+        }
+		
+		if (!rulesTemp.hasOwnProperty('Speedrunning')) {
+            rulesTemp['Speedrunning'] = rulesTemp.hasOwnProperty('Misc achievements') ? rulesTemp['Misc achievements'] : false;
         }
 		
 		if (!rulesTemp.hasOwnProperty('Misc Combat achievements')) {
