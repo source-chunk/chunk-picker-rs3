@@ -5534,7 +5534,6 @@ let calcBIS = function(completedOnly) {
     let notFresh = {};
     let highestOverallLocal = {};
     let vowels = ['a', 'e', 'i', 'o', 'u'];
-    let accuracyWeight = 0.10;
     combatStyles.forEach((skill) => {
         let bestEquipment = {};
         let bestEquipmentAlts = {};
