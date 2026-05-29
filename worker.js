@@ -1314,7 +1314,7 @@ let calcChallenges = function(chunks, baseChunkData) {
                             if (!!challenge && newValids.hasOwnProperty(subSkill) && rules["Boosting"] && chunkInfo['codeItems']['boostItems'].hasOwnProperty(subSkill) && (!chunkInfo['challenges'][subSkill].hasOwnProperty(challenge) ? !chunkInfo['challenges'][skill][challenge].hasOwnProperty('NoBoost') : !chunkInfo['challenges'][subSkill][challenge].hasOwnProperty('NoBoost')) && (!completedChallenges[subSkill] || (!completedChallenges[subSkill].hasOwnProperty(challenge) && !completedChallenges[subSkill][challenge.replaceAll('#', '/')]))) {
                                 Object.keys(chunkInfo['codeItems']['boostItems'][subSkill]).forEach((boost) => {
                                     if (baseChunkData.hasOwnProperty(boost.includes('~') ? boost.split('~')[1] : 'items') && (baseChunkData[boost.includes('~') ? boost.split('~')[1] : 'items'].hasOwnProperty(boost.split('~')[0]) || baseChunkData[boost.includes('~') ? boost.split('~')[1] : 'items'].hasOwnProperty(boost.split('~')[0]))) {
-                                        if (!chunkInfo['codeItems']['boostTaskBans'].hasOwnProperty(subSkill) || !chunkInfo['codeItems']['boostTaskBans'][subSkill].hasOwnProperty(challenge) || !chunkInfo['codeItems']['boostTaskBans'][subSkill][challenge].includes(boost)) {
+                                        if (!chunkInfo['codeItems']['boostTaskBans'] || !chunkInfo['codeItems']['boostTaskBans'].hasOwnProperty(subSkill) || !chunkInfo['codeItems']['boostTaskBans'][subSkill].hasOwnProperty(challenge) || !chunkInfo['codeItems']['boostTaskBans'][subSkill][challenge].includes(boost)) {
                                             if (boost !== 'Crystal saw') {
                                                 if (typeof chunkInfo['codeItems']['boostItems'][subSkill][boost] === 'string' && chunkInfo['codeItems']['boostItems'][subSkill][boost].includes('%+')) {
                                                     let stringSplit = chunkInfo['codeItems']['boostItems'][subSkill][boost].split('%+');
@@ -1376,7 +1376,7 @@ let calcChallenges = function(chunks, baseChunkData) {
                             if (!!challenge && newValids.hasOwnProperty(subSkill) && rules["Boosting"] && chunkInfo['codeItems']['boostItems'].hasOwnProperty(subSkill) && (!chunkInfo['challenges'][subSkill].hasOwnProperty(challenge) ? !chunkInfo['challenges'][skill][challenge].hasOwnProperty('NoBoost') : !chunkInfo['challenges'][subSkill][challenge].hasOwnProperty('NoBoost')) && (!completedChallenges[subSkill] || (!completedChallenges[subSkill].hasOwnProperty(challenge) && !completedChallenges[subSkill][challenge.replaceAll('#', '/')]))) {
                                 Object.keys(chunkInfo['codeItems']['boostItems'][subSkill]).forEach((boost) => {
                                     if (baseChunkData.hasOwnProperty(boost.includes('~') ? boost.split('~')[1] : 'items') && (baseChunkData[boost.includes('~') ? boost.split('~')[1] : 'items'].hasOwnProperty(boost.split('~')[0]) || baseChunkData[boost.includes('~') ? boost.split('~')[1] : 'items'].hasOwnProperty(boost.split('~')[0]))) {
-                                        if (!chunkInfo['codeItems']['boostTaskBans'].hasOwnProperty(subSkill) || !chunkInfo['codeItems']['boostTaskBans'][subSkill].hasOwnProperty(challenge) || !chunkInfo['codeItems']['boostTaskBans'][subSkill][challenge].includes(boost)) {
+                                        if (!chunkInfo['codeItems']['boostTaskBans'] || !chunkInfo['codeItems']['boostTaskBans'].hasOwnProperty(subSkill) || !chunkInfo['codeItems']['boostTaskBans'][subSkill].hasOwnProperty(challenge) || !chunkInfo['codeItems']['boostTaskBans'][subSkill][challenge].includes(boost)) {
                                             if (boost !== 'Crystal saw') {
                                                 if (typeof chunkInfo['codeItems']['boostItems'][subSkill][boost] === 'string') {
                                                     let stringSplit = chunkInfo['codeItems']['boostItems'][subSkill][boost].split('%+');
@@ -1698,7 +1698,7 @@ let calcChallenges = function(chunks, baseChunkData) {
                             let ownsCrystalSaw = false;
                             Object.keys(chunkInfo['codeItems']['boostItems'][chunkInfo['challenges'][skill][challenge]['Tasks'][subTask]]).forEach((boost) => {
                                 if (baseChunkData.hasOwnProperty(boost.includes('~') ? boost.split('~')[1] : 'items') && (baseChunkData[boost.includes('~') ? boost.split('~')[1] : 'items'].hasOwnProperty(boost.split('~')[0]) || baseChunkData[boost.includes('~') ? boost.split('~')[1] : 'items'].hasOwnProperty(boost.split('~')[0]))) {
-                                    if (!chunkInfo['codeItems']['boostTaskBans'].hasOwnProperty(skill) || !chunkInfo['codeItems']['boostTaskBans'][skill].hasOwnProperty(subTask) || !chunkInfo['codeItems']['boostTaskBans'][skill][subTask].includes(boost)) {
+                                    if (!chunkInfo['codeItems']['boostTaskBans'] || !chunkInfo['codeItems']['boostTaskBans'].hasOwnProperty(skill) || !chunkInfo['codeItems']['boostTaskBans'][skill].hasOwnProperty(subTask) || !chunkInfo['codeItems']['boostTaskBans'][skill][subTask].includes(boost)) {
                                         if (boost !== 'Crystal saw') {
                                             if (typeof chunkInfo['codeItems']['boostItems'][chunkInfo['challenges'][skill][challenge]['Tasks'][subTask]][boost] === 'string') {
                                                 let stringSplit = chunkInfo['codeItems']['boostItems'][chunkInfo['challenges'][skill][challenge]['Tasks'][subTask]][boost].split('%+');
@@ -2188,7 +2188,7 @@ let calcChallenges = function(chunks, baseChunkData) {
                         let ownsCrystalSaw = false;
                         Object.keys(chunkInfo['codeItems']['boostItems'][skill]).forEach((boost) => {
                             if (baseChunkData.hasOwnProperty(boost.includes('~') ? boost.split('~')[1] : 'items') && (baseChunkData[boost.includes('~') ? boost.split('~')[1] : 'items'].hasOwnProperty(boost.split('~')[0]) || baseChunkData[boost.includes('~') ? boost.split('~')[1] : 'items'].hasOwnProperty(boost.split('~')[0]))) {
-                                if (!chunkInfo['codeItems']['boostTaskBans'].hasOwnProperty(skill) || !chunkInfo['codeItems']['boostTaskBans'][skill].hasOwnProperty(name) || !chunkInfo['codeItems']['boostTaskBans'][skill][name].includes(boost)) {
+                                if (!chunkInfo['codeItems']['boostTaskBans'] || !chunkInfo['codeItems']['boostTaskBans'].hasOwnProperty(skill) || !chunkInfo['codeItems']['boostTaskBans'][skill].hasOwnProperty(name) || !chunkInfo['codeItems']['boostTaskBans'][skill][name].includes(boost)) {
                                     if (boost !== 'Crystal saw') {
                                         if (typeof chunkInfo['codeItems']['boostItems'][skill][boost] === 'string') {
                                             let stringSplit = chunkInfo['codeItems']['boostItems'][skill][boost].split('%+');
@@ -4826,7 +4826,7 @@ let calcChallengesWork = function(chunks, baseChunkData, oldTempItemSkill) {
                         let ownsCrystalSaw = false;
                         Object.keys(chunkInfo['codeItems']['boostItems'][skill]).forEach((boost) => {
                             if (baseChunkData.hasOwnProperty(boost.includes('~') ? boost.split('~')[1] : 'items') && (baseChunkData[boost.includes('~') ? boost.split('~')[1] : 'items'].hasOwnProperty(boost.split('~')[0]) || baseChunkData[boost.includes('~') ? boost.split('~')[1] : 'items'].hasOwnProperty(boost.split('~')[0]))) {
-                                if (!chunkInfo['codeItems']['boostTaskBans'].hasOwnProperty(skill) || !chunkInfo['codeItems']['boostTaskBans'][skill].hasOwnProperty(name) || !chunkInfo['codeItems']['boostTaskBans'][skill][name].includes(boost)) {
+                                if (!chunkInfo['codeItems']['boostTaskBans'] || !chunkInfo['codeItems']['boostTaskBans'].hasOwnProperty(skill) || !chunkInfo['codeItems']['boostTaskBans'][skill].hasOwnProperty(name) || !chunkInfo['codeItems']['boostTaskBans'][skill][name].includes(boost)) {
                                     if (boost !== 'Crystal saw') {
                                         if (typeof chunkInfo['codeItems']['boostItems'][skill][boost] === 'string') {
                                             let stringSplit = chunkInfo['codeItems']['boostItems'][skill][boost].split('%+');
@@ -9678,7 +9678,7 @@ let calcCurrentChallenges2 = function() {
                         let ownsCrystalSaw = false;
                         Object.keys(chunkInfo['codeItems']['boostItems'][skill]).forEach((boost) => {
                             if (baseChunkData.hasOwnProperty(boost.includes('~') ? boost.split('~')[1] : 'items') && (baseChunkData[boost.includes('~') ? boost.split('~')[1] : 'items'].hasOwnProperty(boost.split('~')[0]) || baseChunkData[boost.includes('~') ? boost.split('~')[1] : 'items'].hasOwnProperty(boost.split('~')[0]))) {
-                                if (!chunkInfo['codeItems']['boostTaskBans'].hasOwnProperty(skill) || !chunkInfo['codeItems']['boostTaskBans'][skill].hasOwnProperty(name) || !chunkInfo['codeItems']['boostTaskBans'][skill][name].includes(boost)) {
+                                if (!chunkInfo['codeItems']['boostTaskBans'] || !chunkInfo['codeItems']['boostTaskBans'].hasOwnProperty(skill) || !chunkInfo['codeItems']['boostTaskBans'][skill].hasOwnProperty(name) || !chunkInfo['codeItems']['boostTaskBans'][skill][name].includes(boost)) {
                                     if (boost !== 'Crystal saw') {
                                         if (typeof chunkInfo['codeItems']['boostItems'][skill][boost] === 'string' && chunkInfo['codeItems']['boostItems'][skill][boost].includes('%+')) {
                                             let stringSplit = chunkInfo['codeItems']['boostItems'][skill][boost].split('%+');
@@ -9842,7 +9842,7 @@ let calcCurrentChallenges2 = function() {
                     if (!!challenge && rules["Boosting"] && chunkInfo['codeItems']['boostItems'].hasOwnProperty(subSkill) && !chunkInfo['challenges'][subSkill][challenge].hasOwnProperty('NoBoost') && (!completedChallenges[subSkill] || (!completedChallenges[subSkill].hasOwnProperty(challenge) && !completedChallenges[subSkill][challenge.replaceAll('#', '/')]))) {
                         Object.keys(chunkInfo['codeItems']['boostItems'][subSkill]).forEach((boost) => {
                             if (baseChunkData.hasOwnProperty(boost.includes('~') ? boost.split('~')[1] : 'items') && (baseChunkData[boost.includes('~') ? boost.split('~')[1] : 'items'].hasOwnProperty(boost.split('~')[0]) || baseChunkData[boost.includes('~') ? boost.split('~')[1] : 'items'].hasOwnProperty(boost.split('~')[0]))) {
-                                if (!chunkInfo['codeItems']['boostTaskBans'].hasOwnProperty(subSkill) || !chunkInfo['codeItems']['boostTaskBans'][subSkill].hasOwnProperty(challenge) || !chunkInfo['codeItems']['boostTaskBans'][subSkill][challenge].includes(boost)) {
+                                if (!chunkInfo['codeItems']['boostTaskBans'] || !chunkInfo['codeItems']['boostTaskBans'].hasOwnProperty(subSkill) || !chunkInfo['codeItems']['boostTaskBans'][subSkill].hasOwnProperty(challenge) || !chunkInfo['codeItems']['boostTaskBans'][subSkill][challenge].includes(boost)) {
                                     if (boost !== 'Crystal saw') {
                                         if (typeof chunkInfo['codeItems']['boostItems'][subSkill][boost] === 'string' && chunkInfo['codeItems']['boostItems'][subSkill][boost].includes('%+')) {
                                             let stringSplit = chunkInfo['codeItems']['boostItems'][subSkill][boost].split('%+');
@@ -9897,7 +9897,7 @@ let calcCurrentChallenges2 = function() {
                 let ownsCrystalSaw2 = false;
                 Object.keys(chunkInfo['codeItems']['boostItems'][skill]).forEach((boost) => {
                     if (baseChunkData.hasOwnProperty(boost.includes('~') ? boost.split('~')[1] : 'items') && (baseChunkData[boost.includes('~') ? boost.split('~')[1] : 'items'].hasOwnProperty(boost.split('~')[0]) || baseChunkData[boost.includes('~') ? boost.split('~')[1] : 'items'].hasOwnProperty(boost.split('~')[0]))) {
-                        if (!chunkInfo['codeItems']['boostTaskBans'].hasOwnProperty(skill) || !chunkInfo['codeItems']['boostTaskBans'][skill].hasOwnProperty(name) || !chunkInfo['codeItems']['boostTaskBans'][skill][name].includes(boost)) {
+                        if (!chunkInfo['codeItems']['boostTaskBans'] || !chunkInfo['codeItems']['boostTaskBans'].hasOwnProperty(skill) || !chunkInfo['codeItems']['boostTaskBans'][skill].hasOwnProperty(name) || !chunkInfo['codeItems']['boostTaskBans'][skill][name].includes(boost)) {
                             if (boost !== 'Crystal saw') {
                                 if (typeof chunkInfo['codeItems']['boostItems'][skill][boost] === 'string' && chunkInfo['codeItems']['boostItems'][skill][boost].includes('%+')) {
                                     let stringSplit = chunkInfo['codeItems']['boostItems'][skill][boost].split('%+');
