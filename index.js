@@ -992,7 +992,7 @@ let subRuleDefault = {
     "Spells": false,
     "Every Drop": false,
     "All Droptables": false,
-    "Rare Drop": false,
+    "Rare Drop": false
 };                                                                              // Default value of sub-rule when parent is checked
 
 let taskGeneratingRules = {
