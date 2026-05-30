@@ -6531,6 +6531,8 @@
   "Smelt a ~|promethium bar|~ in Daemonheim": "t_118785",
   "Feed a ~|starved ancient effigy|~ with smithing": "t_6568",
   "Forge ~|tetsu weapons|~": "t_6518",
+  "Make an ~|elite tetsu wakizashi|~": "t_120701",
+  "Make an ~|elite tetsu katana|~": "t_120702",
   "Feed a ~|nourished ancient effigy|~ with smithing": "t_6569",
   "Forge the ~|Ek-ZekKil|~": "t_6503",
   "Feed a ~|sated ancient effigy|~ with smithing": "t_6570",
@@ -18633,6 +18635,7 @@
   "Obtain a ~|necronium platelegs + 4|~": "t_16908",
   "Obtain ~|necronium platelegs|~": "t_16909",
   "Obtain a ~|nekhakha|~": "t_16910",
+  "Obtain ~|nightmare gauntlets|~": "t_120703",
   "Obtain ~|nodon spike harness|~": "t_112310",
   "Obtain a ~|noose wand|~": "t_16911",
   "Obtain a ~|noxious longbow|~": "t_16912",
@@ -92088,5 +92091,5 @@
   "Pizazz points: ~|Death rune|~": "t_52854",
   "Pizazz points: ~|Soul rune|~": "t_52856",
   "Pizazz points: ~|Blood rune|~": "t_52857",
-  "currentNextIndex": 120701
+  "currentNextIndex": 120704
 }

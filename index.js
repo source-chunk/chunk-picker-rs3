@@ -1598,7 +1598,7 @@ let topbarElements = {
 
 let currentVersion = '6.9.48';
 let currentEnforcedVersion = '6.9.45';
-let patchNotesVersion = '6.9.8.2';
+let patchNotesVersion = '6.9.48';
 let updateLevel = 'maintenance-mode';
 
 // Patreon Test Server Data
