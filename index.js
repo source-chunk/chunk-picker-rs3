@@ -1596,7 +1596,7 @@ let topbarElements = {
     'Sandbox Mode': `<div><span class='noscroll' onclick="enableTestMode()"><i class="gosandbox fa-solid fa-flask" title='Sandbox Mode'></i></span></div>`,
 };
 
-let currentVersion = '6.9.50';
+let currentVersion = '6.9.51';
 let currentEnforcedVersion = '6.9.45';
 let patchNotesVersion = '6.9.8.2';
 let updateLevel = 'maintenance-mode';
@@ -1746,7 +1746,7 @@ mapImg.addEventListener("load", e => {
         centerCanvas('quick');
     }
 });
-mapImg.src = "runescape_world_map.png?v=6.9.50";
+mapImg.src = "runescape_world_map.png?v=6.9.51";
 
 // Rounded rectangle
 CanvasRenderingContext2D.prototype.roundRect = function (x, y, w, h, r) {
@@ -3673,7 +3673,7 @@ let calcCurrentChallengesCanvas = function(useOld, proceed, fromLoadData, inputT
         setCalculating('.panel-active', useOld);
         setCurrentChallenges(['No tasks currently backlogged.'], ['No tasks currently completed.'], true, true);
         myWorker.terminate();
-        myWorker = new Worker("./worker.js?v=6.9.50");
+        myWorker = new Worker("./worker.js?v=6.9.51");
         myWorker.onmessage = workerOnMessage;
         myWorker.postMessage({
             type: 'current',
@@ -4029,8 +4029,8 @@ $(document).ready(function() {
 // ------------------------------------------------------------
 
 // Recieve message from worker
-let myWorker = new Worker("./worker.js?v=6.9.50");
-let myWorker2 = new Worker("./worker.js?v=6.9.50");
+let myWorker = new Worker("./worker.js?v=6.9.51");
+let myWorker2 = new Worker("./worker.js?v=6.9.51");
 let workerOnMessage = function(e) {
     if (e.data.type === 'reload') {
         window.location.reload();
@@ -7028,7 +7028,7 @@ let calcFutureChallenges = function() {
     }
     tempSections = combineJSONs(tempSections, manualSections);
     myWorker2.terminate();
-    myWorker2 = new Worker("./worker.js?v=6.9.50");
+    myWorker2 = new Worker("./worker.js?v=6.9.51");
     myWorker2.onmessage = workerOnMessage;
     myWorker2.postMessage({
         type: 'future',
@@ -11501,7 +11501,7 @@ let applyPreset = function(preset) {
             $('.secondary-primary-input').val(rulePresets[preset][rule]);
         } else {
             rules[rule] = rulePresets[preset].hasOwnProperty(rule);
-            $('.' + rule.replaceAll(' ', '_').replace(/[!"#$%&'()*+,.\/:;<=>?@\[\\\]\^\`{|}~]/g, '').toLowerCase() + '-rule input').prop('checked', rulePresets[preset].hasOwnProperty(rule));
+            $('.' + rule.replaceAll(' ', '_').replace(/[!"#$%&'()*+,.\/:;<=>?@\[\\\]\^\`{|}~]/g, '').toLowerCase() + '-rule > label > span > input').prop('checked', rulePresets[preset].hasOwnProperty(rule));
         }
     });
     !!rulePresets && !!rulePresets[preset] && checkOffRules();
@@ -12319,7 +12319,7 @@ let checkOffRules = function(didRedo, startup) {
     $('.panel-search').hasClass('visible') && (extraFilter = '.panel-search ');
     let redo = false;
     Object.keys(rules).forEach((rule) => {
-        if (subRuleDefault[rule] && rules[rule] !== $(extraFilter + '.' + rule.replaceAll(' ', '_').replace(/[!"#$%&'()*+,.\/:;<=>?@\[\\\]\^\`{|}~]/g, '').toLowerCase() + '-rule input').prop('checked')) {
+        if (subRuleDefault[rule] && rules[rule] !== $(extraFilter + '.' + rule.replaceAll(' ', '_').replace(/[!"#$%&'()*+,.\/:;<=>?@\[\\\]\^\`{|}~]/g, '').toLowerCase() + '-rule > label > span > input').prop('checked')) {
             $(extraFilter + '.' + rule.replaceAll(' ', '_').replace(/[!"#$%&'()*+,.\/:;<=>?@\[\\\]\^\`{|}~]/g, '').toLowerCase() + '-rule').children('.subrule').children('.checkbox').children('.checkbox__input').children('input').prop('checked', subRuleDefault[rule]);
             redo = true;
         }
@@ -12339,7 +12339,7 @@ let checkOffRules = function(didRedo, startup) {
             }
             rules[rule] = $(extraFilter + '.secondary-primary-input').val();
         } else {
-            rules[rule] = $(extraFilter + '.' + rule.replaceAll(' ', '_').replace(/[!"#$%&'()*+,.\/:;<=>?@\[\\\]\^\`{|}~]/g, '').toLowerCase() + '-rule input').prop('checked');
+            rules[rule] = $(extraFilter + '.' + rule.replaceAll(' ', '_').replace(/[!"#$%&'()*+,.\/:;<=>?@\[\\\]\^\`{|}~]/g, '').toLowerCase() + '-rule > label > span > input').prop('checked');
         }
         if ($(extraFilter + '.' + rule.replaceAll(' ', '_').replace(/[!"#$%&'()*+,.\/:;<=>?@\[\\\]\^\`{|}~]/g, '').toLowerCase() + '-rule').children('.subrule').length) {
             if ((rules[rule] || rule === 'Rare Drop') && (!(viewOnly || inEntry || locked) || testMode)) {
