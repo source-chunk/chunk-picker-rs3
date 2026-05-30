@@ -5667,8 +5667,8 @@ let calcBIS = function(completedOnly) {
                                 bestEquipmentAlts[chunkInfo['equipment'][equip].slot][equip] = bestEquipment[chunkInfo['equipment'][equip].slot];
                             }
                         }
-						console.log(equip + " has a total power of " + ((isAccuracyNeeded ? accuracyWeaponWeight * chunkInfo['equipment'][equip].accuracy_tier : 0) + chunkInfo['equipment'][equip].damage_tier + chunkInfo['equipment'][equip].extra_power));
-						console.log(bestEquipment[chunkInfo['equipment'][equip].slot] + " is the BIS in slot " + chunkInfo['equipment'][equip].slot + " with a total power of " + ((isAccuracyNeeded ? accuracyWeaponWeight * chunkInfo['equipment'][bestEquipment[chunkInfo['equipment'][equip].slot]].accuracy_tier : 0) + chunkInfo['equipment'][bestEquipment[chunkInfo['equipment'][equip].slot]].damage_tier + chunkInfo['equipment'][bestEquipment[chunkInfo['equipment'][equip].slot]].extra_power));
+						//console.log(equip + " has a total power of " + ((isAccuracyNeeded ? accuracyWeaponWeight * chunkInfo['equipment'][equip].accuracy_tier : 0) + chunkInfo['equipment'][equip].damage_tier + chunkInfo['equipment'][equip].extra_power));
+						//console.log(bestEquipment[chunkInfo['equipment'][equip].slot] + " is the BIS in slot " + chunkInfo['equipment'][equip].slot + " with a total power of " + ((isAccuracyNeeded ? accuracyWeaponWeight * chunkInfo['equipment'][bestEquipment[chunkInfo['equipment'][equip].slot]].accuracy_tier : 0) + chunkInfo['equipment'][bestEquipment[chunkInfo['equipment'][equip].slot]].damage_tier + chunkInfo['equipment'][bestEquipment[chunkInfo['equipment'][equip].slot]].extra_power));
                     } else {
                         if (chunkInfo['equipment'][equip].melee_damage >= 0) {
                             if (!completedOnly) {
