@@ -9346,7 +9346,7 @@
 				"Not F2P": true
 			},
 			"Wield a ~|primal weapon|~": {
-				"Items": ["PrimalWeapons"],
+				"Items": ["Primal melee weapon[+]"],
 				"Level": 99,
 				"Primary": false,
 				"Priority": 4,
@@ -65261,6 +65261,20 @@
 				"Output": "TetsuWeapon",
 				"Primary": true,
 				"Priority": 1
+			},
+			"Make an ~|elite tetsu wakizashi|~": {
+				"Items": ["Plate*", "Tetsu wakizashi*", "Tetsu sword upgrade kit*"],
+				"Level": 92,
+				"Output": "Elite tetsu wakizashi",
+				"Primary": true,
+				"Priority": 100
+			},
+			"Make an ~|elite tetsu katana|~": {
+				"Items": ["Plate*", "Tetsu katana*", "Tetsu sword upgrade kit*"],
+				"Level": 92,
+				"Output": "Elite tetsu katana",
+				"Primary": true,
+				"Priority": 101
 			},
 			"Feed a ~|nourished ancient effigy|~ with smithing": {
 				"Items": ["Starved ancient effigy (mining/smithing)"],
@@ -166056,21 +166070,6 @@
 				"Objects": ["Evil tree"],
 				"Output": "Evil Tree rewards"
 			},
-			"Goblin Raid (farm) rewards*": {
-				"Category": ["DnD Flash Events", "DnD"],
-				"Chunks": ["FarmRaids[+]"],
-				"Output": "Goblin Raid rewards (farm)"
-			},
-			"Goblin Raid (mine) rewards*": {
-				"Category": ["DnD Flash Events", "DnD"],
-				"Chunks": ["MineRaids[+]"],
-				"Output": "Goblin Raid rewards (mine)"
-			},
-			"Goblin Raid (forest) rewards*": {
-				"Category": ["DnD Flash Events", "DnD"],
-				"Chunks": ["ForestRaids[+]"],
-				"Output": "Goblin Raid rewards (forest)"
-			},
 			"Flash Events enabled": {
 				"Category": ["DnD Flash Events", "DnD"]
 			},
@@ -194670,7 +194669,7 @@
 						"Ram": 2,
 						"Highwayman": 1,
 						"Hollowtoof": 1,
-						"Goblin Raider": 1
+						"Goblin Raider#Forest": 1
 					},
 					"NPC": {
 						"Tanner": 1,
@@ -194852,7 +194851,7 @@
 			"Monster": {
 				"Farmer": 1,
 				"Hollowtoof": 1,
-				"Goblin Raider": 1
+				"Goblin Raider#Farm": 1
 			},
 			"Spawn": {
 				"Empty pot": 2,
@@ -195992,7 +195991,7 @@
 				"Hengel": 1,
 				"Anja": 1,
 				"Hollowtoof": 1,
-				"Goblin Raider": 1
+				"Goblin Raider#Mine": 1
 			},
 			"Connect": {
 				"4448": true,
@@ -197135,7 +197134,7 @@
 						"Chicken": 9,
 						"Highwayman": 1,
 						"Hollowtoof": 1,
-						"Goblin Raider": 1,
+						"Goblin Raider#Farm": 1,
 						"Rooster": 1
 					},
 					"NPC": {
@@ -198501,7 +198500,8 @@
 				"Rat": 1,
 				"Goblin#Drop table 1": 1,
 				"Hollowtoof": 1,
-				"Goblin Raider": 1
+				"Goblin Raider#Forest": 1,
+				"Goblin Raider#Farm": 1
 			},
 			"NPC": {
 				"Morgan": 1,
@@ -199774,7 +199774,7 @@
 						"Cow": 8,
 						"Calf": 4,
 						"Hollowtoof": 1,
-						"Goblin Raider": 1
+						"Goblin Raider#Mine": 1
 					},
 					"NPC": {
 						"Guildmaster": 1,
@@ -199891,7 +199891,7 @@
 						"Guard (Varrock)": 6,
 						"Man": 1,
 						"Hollowtoof": 1,
-						"Goblin Raider": 1
+						"Goblin Raider#Forest": 1
 					},
 					"Spawn": {
 						"Bowl": 1,
@@ -200758,7 +200758,7 @@
 			"Monster": {
 				"Giant rat": 8,
 				"Hollowtoof": 1,
-				"Goblin Raider": 1,
+				"Goblin Raider#Mine": 1,
 				"Swamp frog": 6
 			},
 			"Connect": {
@@ -200957,7 +200957,7 @@
 						"Cow": 10,
 						"Calf": 4,
 						"Hollowtoof": 1,
-						"Goblin Raider": 1,
+						"Goblin Raider#Forest": 1,
 						"Drake": 1
 					},
 					"NPC": {
@@ -201119,7 +201119,7 @@
 				"Dark wizard#Bearded": 8,
 				"Man": 1,
 				"Hollowtoof": 1,
-				"Goblin Raider": 1
+				"Goblin Raider#Farm": 1
 			},
 			"Connect": {
 				"10307": true,
@@ -201149,7 +201149,7 @@
 				"elite": 5,
 				"master": 1
 			},
-			"Nickname": "Gower farm"
+			"Nickname": "Gower Farm"
 		},
 		"12853": {
 			"Sections": {
@@ -219790,7 +219790,7 @@
 			},
 			"Monster": {
 				"Hollowtoof": 1,
-				"Goblin Raider": 1
+				"Goblin Raider#Mine": 1
 			},
 			"Connect": {
 				"11318": true
@@ -226721,7 +226721,9 @@
 				"Primal crossbow + 2": true,
 				"Primal crossbow + 3": true,
 				"Primal crossbow + 4": true,
-				"Primal crossbow + 5": true
+				"Primal crossbow + 5": true,
+				"Ruinous crossbow": true,
+				"Off-hand ruinous crossbow": true
 			},
 			"Ogre arrow": {
 				"Ogre bow": true,
@@ -230989,7 +230991,7 @@
 				"Lychee",
 				"Mango"
 			],
-			"PrimalWeapon[+]": [
+			"Primal melee weapon[+]": [
 				"Primal 2h sword + 1",
 				"Primal 2h sword + 2",
 				"Primal 2h sword + 3",
@@ -259206,7 +259208,7 @@
 				"1": "1/5000"
 			}
 		},
-		"Goblin Raider": {
+		"Goblin Raider#Forest": {
 			"Bones": {
 				"1": "Always"
 			},
@@ -259225,6 +259227,85 @@
 			"Logs": {
 				"1": "8/16"
 			},
+			"Tin stone spirit": {
+				"1": "1/128"
+			},
+			"Coins": {
+				"1": "34/128",
+				"3": "13/128",
+				"5": "8/128",
+				"16": "7/128",
+				"24": "3/128",
+				"5-15": "14/128"
+			},
+			"Earth rune": {
+				"4": "3/128"
+			},
+			"Body rune": {
+				"2": "3/128"
+			},
+			"Mind rune": {
+				"2": "3/128"
+			},
+			"Nature rune": {
+				"1": "1/128"
+			},
+			"Chaos rune": {
+				"1": "1/128"
+			},
+			"Oak wood spirit": {
+				"5": "9/128"
+			},
+			"Teak wood spirit": {
+				"3": "1/128"
+			},
+			"Willow wood spirit": {
+				"4": "1/128"
+			},
+			"Sealed clue scroll (easy)": {
+				"1": "1/128"
+			},
+			"Goblin mail": {
+				"1": "10/128"
+			},
+			"Bronze hatchet": {
+				"1": "3/128"
+			},
+			"Bronze arrow": {
+				"20": "3/128"
+			},
+			"Bronze javelin": {
+				"5": "2/128"
+			},
+			"Goblin book": {
+				"1": "2/128"
+			},
+			"Small bladed bronze salvage": {
+				"1": "1/128"
+			},
+			"Cape (red)": {
+				"1": "1/128"
+			},
+			"Grapes": {
+				"1": "1/128"
+			},
+			"Nothing": {
+				"1": "1/128"
+			},
+			"Goblin Champion's scroll": {
+				"1": "1/5000"
+			},
+			"HerbDropTable+": {
+				"1": "2/128"
+			}
+		},
+		"Goblin Raider#Mine": {
+			"Bones": {
+				"1": "Always"
+			},
+			"Goblin skull": {
+				"1": "Always"
+			},
 			"Gold stone spirit": {
 				"1": "1/32"
 			},
@@ -259241,10 +259322,89 @@
 				"1": "4/32"
 			},
 			"Tin stone spirit": {
-				"1": "1/128"
+				"1": "4/32"
 			},
 			"Clay": {
 				"1": "8/32"
+			},
+			"Coins": {
+				"1": "34/128",
+				"3": "13/128",
+				"5": "8/128",
+				"16": "7/128",
+				"24": "3/128",
+				"5-15": "14/128"
+			},
+			"Earth rune": {
+				"4": "3/128"
+			},
+			"Body rune": {
+				"2": "3/128"
+			},
+			"Mind rune": {
+				"2": "3/128"
+			},
+			"Nature rune": {
+				"1": "1/128"
+			},
+			"Chaos rune": {
+				"1": "1/128"
+			},
+			"Oak wood spirit": {
+				"5": "9/128"
+			},
+			"Teak wood spirit": {
+				"3": "1/128"
+			},
+			"Willow wood spirit": {
+				"4": "1/128"
+			},
+			"Sealed clue scroll (easy)": {
+				"1": "1/128"
+			},
+			"Goblin mail": {
+				"1": "10/128"
+			},
+			"Bronze hatchet": {
+				"1": "3/128"
+			},
+			"Bronze arrow": {
+				"20": "3/128"
+			},
+			"Bronze javelin": {
+				"5": "2/128"
+			},
+			"Goblin book": {
+				"1": "2/128"
+			},
+			"Small bladed bronze salvage": {
+				"1": "1/128"
+			},
+			"Cape (red)": {
+				"1": "1/128"
+			},
+			"Grapes": {
+				"1": "1/128"
+			},
+			"Nothing": {
+				"1": "1/128"
+			},
+			"Goblin Champion's scroll": {
+				"1": "1/5000"
+			},
+			"HerbDropTable+": {
+				"1": "2/128"
+			}
+		},
+		"Goblin Raider#Farm": {
+			"Bones": {
+				"1": "Always"
+			},
+			"Goblin skull": {
+				"1": "Always"
+			},
+			"Tin stone spirit": {
+				"1": "1/128"
 			},
 			"Potato seed": {
 				"1": "1/3"
@@ -294943,28 +295103,21 @@
 					"Members only": "Nonskill"
 				}]
 			},
-			"Goblin Raider": {
+			"Goblin Raider#Forest": {
 				"12339": [{
 					"Flash Events enabled": "Nonskill"
 				}],
 				"12851-1": [{
 					"Flash Events enabled": "Nonskill"
 				}],
-				"12083-1": [{
-					"Flash Events enabled": "Nonskill"
-				}],
-				"11573": [{
-					"Flash Events enabled": "Nonskill"
-				}],
 				"11571-1": [{
-					"Flash Events enabled": "Nonskill"
-				}],
-				"12852": [{
 					"Flash Events enabled": "Nonskill"
 				}],
 				"12597-1": [{
 					"Flash Events enabled": "Nonskill"
-				}],
+				}]
+			},
+			"Goblin Raider#Mine": {
 				"Burthorpe Mine": [{
 					"Flash Events enabled": "Nonskill"
 				}],
@@ -294975,6 +295128,20 @@
 					"Flash Events enabled": "Nonskill"
 				}],
 				"12596-1": [{
+					"Flash Events enabled": "Nonskill"
+				}]
+			},
+			"Goblin Raider#Farm": {
+				"12339": [{
+					"Flash Events enabled": "Nonskill"
+				}],
+				"12083-1": [{
+					"Flash Events enabled": "Nonskill"
+				}],
+				"11573": [{
+					"Flash Events enabled": "Nonskill"
+				}],
+				"12852": [{
 					"Flash Events enabled": "Nonskill"
 				}]
 			},
@@ -340620,36 +340787,6 @@
 					"1": "Uncommon"
 				}
 			},
-			"Goblin Raid rewards (farm)": {
-				"Potato seed": {
-					"1": "1/3"
-				},
-				"Barley seed": {
-					"1": "1/3"
-				},
-				"Marigold seed": {
-					"1": "1/3"
-				}
-			},
-			"Goblin Raid rewards (forest)": {
-				"Yew logs": {
-					"1": "1/5"
-				},
-				"Willow logs": {
-					"1": "4/5"
-				}
-			},
-			"Goblin Raid rewards (mine)": {
-				"Coal stone spirit": {
-					"1": "3/10"
-				},
-				"Iron stone spirit": {
-					"1": "3/10"
-				},
-				"Clay": {
-					"1": "4/10"
-				}
-			},
 			"Memory of Nomad rewards": {
 				"Soul cape": {
 					"1": "Always"
@@ -349587,6 +349724,7 @@
 			"lp": 0,
 			"speed": 0,
 			"armour": 0,
+			"tier": 0,
 			"slot": "ammo",
 			"is_consumable": true,
 			"melee_damage": 0,
@@ -349601,6 +349739,7 @@
 			"lp": 0,
 			"speed": 0,
 			"armour": 0,
+			"tier": 0,
 			"slot": "ammo",
 			"is_consumable": true,
 			"melee_damage": 0,
@@ -349627,7 +349766,8 @@
 			"attack_range": 1,
 			"class": "melee",
 			"accuracy": 1876,
-			"auto_damage": 1765.7
+			"auto_damage": 1765.7,
+			"can_augment": true
 		},
 		"Abyssal bane longsword": {
 			"ranged_damage": 0,
@@ -349648,7 +349788,8 @@
 			"attack_range": 1,
 			"class": "melee",
 			"accuracy": 1876,
-			"auto_damage": 967.8
+			"auto_damage": 967.8,
+			"can_augment": true
 		},
 		"Abyssal bane off-hand longsword": {
 			"ranged_damage": 0,
@@ -349669,7 +349810,8 @@
 			"attack_range": 1,
 			"class": "melee",
 			"accuracy": 1876,
-			"auto_damage": 483.9
+			"auto_damage": 483.9,
+			"can_augment": true
 		},
 		"Abyssal bane square shield": {
 			"ranged_damage": 0,
@@ -349705,7 +349847,8 @@
 			"lp": 0,
 			"attack_range": 8,
 			"class": "magic",
-			"accuracy": 1694
+			"accuracy": 1694,
+			"can_augment": true
 		},
 		"Abyssal scourge": {
 			"ranged_damage": 0,
@@ -349726,7 +349869,9 @@
 			"attack_range": 1,
 			"class": "melee",
 			"accuracy": 2577,
-			"auto_damage": 883.2
+			"auto_damage": 883.2,
+			"can_augment": true,
+			"has_passive": true
 		},
 		"Abyssal vine whip (blue)": {
 			"ranged_damage": 0,
@@ -349831,7 +349976,9 @@
 			"attack_range": 1,
 			"class": "melee",
 			"accuracy": 1694,
-			"auto_damage": 720
+			"auto_damage": 720,
+			"can_augment": true,
+			"has_spec": true
 		},
 		"Abyssal wand": {
 			"ranged_damage": 0,
@@ -349850,7 +349997,8 @@
 			"lp": 0,
 			"attack_range": 8,
 			"class": "magic",
-			"accuracy": 1694
+			"accuracy": 1694,
+			"can_augment": true
 		},
 		"Abyssal whip (blue)": {
 			"ranged_damage": 0,
@@ -349950,7 +350098,9 @@
 			"attack_range": 1,
 			"class": "melee",
 			"accuracy": 1486,
-			"auto_damage": 672
+			"auto_damage": 672,
+			"can_augment": true,
+			"has_spec": true
 		},
 		"Abyssalbane arrow": {
 			"ranged_damage": 0,
@@ -350343,7 +350493,8 @@
 			"magic_damage": 0,
 			"charges": 100000,
 			"prayer": 0,
-			"accuracy": 0
+			"accuracy": 0,
+			"can_augment": true
 		},
 		"Achto Primeval robe top": {
 			"ranged_damage": 0,
@@ -350361,7 +350512,8 @@
 			"magic_damage": 0,
 			"charges": 100000,
 			"prayer": 0,
-			"accuracy": 0
+			"accuracy": 0,
+			"can_augment": true
 		},
 		"Achto Tempest body": {
 			"ranged_damage": 0,
@@ -350379,7 +350531,8 @@
 			"magic_damage": 0,
 			"charges": 100000,
 			"prayer": 0,
-			"accuracy": 0
+			"accuracy": 0,
+			"can_augment": true
 		},
 		"Achto Tempest boots": {
 			"ranged_damage": 0,
@@ -350415,7 +350568,8 @@
 			"magic_damage": 0,
 			"charges": 100000,
 			"prayer": 0,
-			"accuracy": 0
+			"accuracy": 0,
+			"can_augment": true
 		},
 		"Achto Teralith cuirass": {
 			"ranged_damage": 0,
@@ -350433,7 +350587,8 @@
 			"magic_damage": 0,
 			"charges": 100000,
 			"prayer": 0,
-			"accuracy": 0
+			"accuracy": 0,
+			"can_augment": true
 		},
 		"Achto Teralith leggings": {
 			"ranged_damage": 0,
@@ -350451,7 +350606,8 @@
 			"magic_damage": 0,
 			"charges": 100000,
 			"prayer": 0,
-			"accuracy": 0
+			"accuracy": 0,
+			"can_augment": true
 		},
 		"Adamant 2h crossbow": {
 			"ranged_damage": 0,
@@ -353196,7 +353352,8 @@
 			"lp": 0,
 			"attack_range": 8,
 			"class": "magic",
-			"accuracy": 1486
+			"accuracy": 1486,
+			"can_augment": true
 		},
 		"Ahrim's hood": {
 			"ranged_damage": 0,
@@ -353232,7 +353389,8 @@
 			"magic_damage": 0,
 			"charges": 100000,
 			"prayer": 0,
-			"accuracy": 0
+			"accuracy": 0,
+			"can_augment": true
 		},
 		"Ahrim's robe top": {
 			"ranged_damage": 0,
@@ -353250,7 +353408,8 @@
 			"magic_damage": 0,
 			"charges": 100000,
 			"prayer": 0,
-			"accuracy": 0
+			"accuracy": 0,
+			"can_augment": true
 		},
 		"Ahrim's staff": {
 			"ranged_damage": 0,
@@ -353270,7 +353429,8 @@
 			"lp": 0,
 			"attack_range": 8,
 			"class": "magic",
-			"accuracy": 1486
+			"accuracy": 1486,
+			"can_augment": true
 		},
 		"Ahrim's wand": {
 			"ranged_damage": 0,
@@ -353290,7 +353450,8 @@
 			"lp": 0,
 			"attack_range": 8,
 			"class": "magic",
-			"accuracy": 1486
+			"accuracy": 1486,
+			"can_augment": true
 		},
 		"Air battlestaff": {
 			"ranged_damage": 0,
@@ -353423,7 +353584,8 @@
 			"attack_range": 1,
 			"class": "melee",
 			"accuracy": 1486,
-			"auto_damage": 1564.5
+			"auto_damage": 1564.5,
+			"can_augment": true
 		},
 		"Am-hej": {
 			"ranged_damage": 0,
@@ -353439,7 +353601,8 @@
 			"melee_damage": 51.7,
 			"magic_damage": 0,
 			"prayer": 0,
-			"accuracy": 0
+			"accuracy": 0,
+			"has_passive": true
 		},
 		"Am-zi": {
 			"ranged_damage": 0,
@@ -353455,7 +353618,8 @@
 			"melee_damage": 51.7,
 			"magic_damage": 0,
 			"prayer": 0,
-			"accuracy": 0
+			"accuracy": 0,
+			"has_passive": true
 		},
 		"Amulet of accuracy": {
 			"ranged_damage": 11.5,
@@ -353666,7 +353830,8 @@
 			"necromancy_damage": 48.3,
 			"charges": 100000,
 			"prayer": 5,
-			"accuracy": 0
+			"accuracy": 0,
+			"has_passive": true
 		},
 		"Amulet of souls (or)": {
 			"ranged_damage": 50.0,
@@ -353682,7 +353847,8 @@
 			"necromancy_damage": 50.0,
 			"charges": 100000,
 			"prayer": 5,
-			"accuracy": 0
+			"accuracy": 0,
+			"has_passive": true
 		},
 		"Amulet of strength": {
 			"ranged_damage": 0,
@@ -353728,7 +353894,8 @@
 			"melee_damage": 0,
 			"magic_damage": 0,
 			"prayer": -5,
-			"accuracy": 0
+			"accuracy": 0,
+			"has_passive": true
 		},
 		"Ancient Book": {
 			"ranged_damage": 7.8,
@@ -353745,7 +353912,8 @@
 			"magic_damage": 7.8,
 			"necromancy_damage": 7.8,
 			"prayer": 2,
-			"accuracy": 0
+			"accuracy": 0,
+			"has_passive": true
 		},
 		"Ancient cloak": {
 			"ranged_damage": 0,
@@ -353803,7 +353971,8 @@
 			"attack_range": 1,
 			"class": "melee",
 			"accuracy": 1924,
-			"auto_damage": 192
+			"auto_damage": 192,
+			"can_augment": true
 		},
 		"Ancient gladiator helm": {
 			"ranged_damage": 0,
@@ -353842,7 +354011,8 @@
 			"lp": 0,
 			"attack_range": 8,
 			"class": "magic",
-			"accuracy": 1924
+			"accuracy": 1924,
+			"can_augment": true
 		},
 		"Ancient mace": {
 			"ranged_damage": 0,
@@ -353862,7 +354032,8 @@
 			"attack_range": 1,
 			"class": "melee",
 			"accuracy": 257,
-			"auto_damage": 144
+			"auto_damage": 144,
+			"has_spec": true
 		},
 		"Ancient mitre": {
 			"ranged_damage": 0,
@@ -353903,7 +354074,8 @@
 			"lp": 0,
 			"attack_range": 7,
 			"class": "ranged",
-			"accuracy": 1924
+			"accuracy": 1924,
+			"can_augment": true
 		},
 		"Ancient robe legs": {
 			"ranged_damage": 0,
@@ -353991,7 +354163,8 @@
 			"melee_damage": 0,
 			"magic_damage": 30,
 			"prayer": 0,
-			"accuracy": 0
+			"accuracy": 0,
+			"can_augment": true
 		},
 		"Anima core body of Sliske": {
 			"ranged_damage": 0,
@@ -354007,7 +354180,8 @@
 			"melee_damage": 0,
 			"magic_damage": 0,
 			"prayer": 0,
-			"accuracy": 0
+			"accuracy": 0,
+			"can_augment": true
 		},
 		"Anima core body of Zamorak": {
 			"ranged_damage": 30,
@@ -354024,7 +354198,8 @@
 			"melee_damage": 0,
 			"magic_damage": 0,
 			"prayer": 0,
-			"accuracy": 0
+			"accuracy": 0,
+			"can_augment": true
 		},
 		"Anima core body of Zaros": {
 			"ranged_damage": 0,
@@ -354041,7 +354216,8 @@
 			"melee_damage": 30,
 			"magic_damage": 0,
 			"prayer": 0,
-			"accuracy": 0
+			"accuracy": 0,
+			"can_augment": true
 		},
 		"Anima core helm of Seren": {
 			"ranged_damage": 0,
@@ -354125,7 +354301,8 @@
 			"melee_damage": 0,
 			"magic_damage": 25,
 			"prayer": 0,
-			"accuracy": 0
+			"accuracy": 0,
+			"can_augment": true
 		},
 		"Anima core legs of Sliske": {
 			"ranged_damage": 0,
@@ -354141,7 +354318,8 @@
 			"melee_damage": 0,
 			"magic_damage": 0,
 			"prayer": 0,
-			"accuracy": 0
+			"accuracy": 0,
+			"can_augment": true
 		},
 		"Anima core legs of Zamorak": {
 			"ranged_damage": 25,
@@ -354158,7 +354336,8 @@
 			"melee_damage": 0,
 			"magic_damage": 0,
 			"prayer": 0,
-			"accuracy": 0
+			"accuracy": 0,
+			"can_augment": true
 		},
 		"Anima core legs of Zaros": {
 			"ranged_damage": 0,
@@ -354175,7 +354354,8 @@
 			"melee_damage": 25,
 			"magic_damage": 0,
 			"prayer": 0,
-			"accuracy": 0
+			"accuracy": 0,
+			"can_augment": true
 		},
 		"Ankh": {
 			"ranged_damage": 0,
@@ -354213,7 +354393,9 @@
 			"attack_range": 1,
 			"class": "melee",
 			"accuracy": 2287,
-			"auto_damage": 1944.5
+			"auto_damage": 1944.5,
+			"can_augment": true,
+			"has_spec": true
 		},
 		"Anti-dragon shield (mole)": {
 			"ranged_damage": 0,
@@ -354828,7 +355010,8 @@
 			"magic_damage": 46,
 			"magic_accuracy": 84,
 			"prayer": 0,
-			"accuracy": 0
+			"accuracy": 0,
+			"has_passive": true
 		},
 		"Arcane pulse necklace": {
 			"ranged_damage": 0,
@@ -355061,7 +355244,9 @@
 			"lp": 0,
 			"attack_range": 8,
 			"class": "magic",
-			"accuracy": 1783
+			"accuracy": 1783,
+			"can_augment": true,
+			"has_spec": true
 		},
 		"Armadyl boots": {
 			"ranged_damage": 10.9,
@@ -355112,7 +355297,8 @@
 			"melee_damage": 0,
 			"magic_damage": 0,
 			"prayer": 1,
-			"accuracy": 0
+			"accuracy": 0,
+			"can_augment": true
 		},
 		"Armadyl chestplate": {
 			"ranged_damage": 26.2,
@@ -355129,7 +355315,8 @@
 			"melee_damage": 0,
 			"magic_damage": 0,
 			"prayer": 2,
-			"accuracy": 0
+			"accuracy": 0,
+			"can_augment": true
 		},
 		"Armadyl cloak": {
 			"ranged_damage": 0,
@@ -355166,7 +355353,8 @@
 			"lp": 0,
 			"attack_range": 7,
 			"class": "ranged",
-			"accuracy": 1694
+			"accuracy": 1694,
+			"can_augment": true
 		},
 		"Armadyl crozier": {
 			"ranged_damage": 0,
@@ -355220,7 +355408,10 @@
 			"attack_range": 1,
 			"class": "melee",
 			"accuracy": 1694,
-			"auto_damage": 1676.3
+			"auto_damage": 1676.3,
+			"can_augment": true,
+			"has_spec": true,
+			"has_passive": true
 		},
 		"Armadyl godsword": {
 			"ranged_damage": 0,
@@ -355240,7 +355431,9 @@
 			"attack_range": 1,
 			"class": "melee",
 			"accuracy": 1694,
-			"auto_damage": 1676.3
+			"auto_damage": 1676.3,
+			"can_augment": true,
+			"has_spec": true
 		},
 		"Armadyl helmet": {
 			"ranged_damage": 17.5,
@@ -355345,7 +355538,8 @@
 			"magic_damage": 7.8,
 			"necromancy_damage": 7.8,
 			"prayer": 2,
-			"accuracy": 0
+			"accuracy": 0,
+			"has_passive": true
 		},
 		"Armour spikes (alloy)": {
 			"ranged_damage": 0,
@@ -355583,7 +355777,8 @@
 			"lp": 0,
 			"attack_range": 7,
 			"class": "ranged",
-			"accuracy": 2458
+			"accuracy": 2458,
+			"can_augment": true
 		},
 		"Ascension grips": {
 			"ranged_damage": 14,
@@ -355635,7 +355830,8 @@
 			"magic_damage": 29.2,
 			"necromancy_damage": 29.2,
 			"prayer": 0,
-			"accuracy": 0
+			"accuracy": 0,
+			"has_passive": true
 		},
 		"Asylum surgeon's ring": {
 			"ranged_damage": 26.2,
@@ -355652,7 +355848,8 @@
 			"magic_damage": 26.2,
 			"necromancy_damage": 26.2,
 			"prayer": 0,
-			"accuracy": 0
+			"accuracy": 0,
+			"has_passive": true
 		},
 		"Aten (Heru's shield)": {
 			"ranged_damage": 0,
@@ -355794,7 +355991,9 @@
 			"attack_range": 7,
 			"class": "ranged",
 			"accuracy": 1924,
-			"auto_damage": 1470
+			"auto_damage": 1470,
+			"can_augment": true,
+			"has_passive": true
 		},
 		"Attuned crystal chakram": {
 			"ranged_damage": 0,
@@ -355816,7 +356015,9 @@
 			"attack_range": 7,
 			"class": "ranged",
 			"accuracy": 1924,
-			"auto_damage": 980
+			"auto_damage": 980,
+			"can_augment": true,
+			"has_passive": true
 		},
 		"Attuned crystal dagger": {
 			"ranged_damage": 0,
@@ -355838,7 +356039,9 @@
 			"attack_range": 1,
 			"class": "melee",
 			"accuracy": 1924,
-			"auto_damage": 768
+			"auto_damage": 768,
+			"can_augment": true,
+			"has_passive": true
 		},
 		"Attuned crystal deflector": {
 			"ranged_damage": 0,
@@ -355897,7 +356100,9 @@
 			"attack_range": 2,
 			"class": "melee",
 			"accuracy": 1924,
-			"auto_damage": 1788
+			"auto_damage": 1788,
+			"can_augment": true,
+			"has_passive": true
 		},
 		"Attuned crystal helm": {
 			"ranged_damage": 0,
@@ -355952,7 +356157,9 @@
 			"lp": 0,
 			"attack_range": 8,
 			"class": "magic",
-			"accuracy": 1924
+			"accuracy": 1924,
+			"can_augment": true,
+			"has_passive": true
 		},
 		"Attuned crystal shield": {
 			"ranged_damage": 0,
@@ -355992,7 +356199,9 @@
 			"lp": 0,
 			"attack_range": 8,
 			"class": "magic",
-			"accuracy": 1924
+			"accuracy": 1924,
+			"can_augment": true,
+			"has_passive": true
 		},
 		"Attuned crystal wand": {
 			"ranged_damage": 0,
@@ -356013,7 +356222,9 @@
 			"lp": 0,
 			"attack_range": 8,
 			"class": "magic",
-			"accuracy": 1924
+			"accuracy": 1924,
+			"can_augment": true,
+			"has_passive": true
 		},
 		"Attuned crystal ward": {
 			"ranged_damage": 0,
@@ -356109,6 +356320,8 @@
 			},
 			"speed": 3,
 			"tier": 6,
+			"damage_tier": 2,
+			"accuracy_tier": 6,
 			"lp": 0,
 			"attack_range": 8,
 			"class": "magic",
@@ -356180,7 +356393,8 @@
 			"attack_range": 1,
 			"class": "melee",
 			"accuracy": 1132,
-			"auto_damage": 1341
+			"auto_damage": 1341,
+			"can_augment": true
 		},
 		"Bandos boots": {
 			"ranged_damage": 0,
@@ -356214,7 +356428,8 @@
 			"melee_damage": 26.2,
 			"magic_damage": 0,
 			"prayer": 2,
-			"accuracy": 0
+			"accuracy": 0,
+			"can_augment": true
 		},
 		"Bandos cloak": {
 			"ranged_damage": 0,
@@ -356286,7 +356501,10 @@
 			"attack_range": 1,
 			"class": "melee",
 			"accuracy": 1694,
-			"auto_damage": 1676.3
+			"auto_damage": 1676.3,
+			"can_augment": true,
+			"has_spec": true,
+			"has_passive": true
 		},
 		"Bandos godsword": {
 			"ranged_damage": 0,
@@ -356306,7 +356524,9 @@
 			"attack_range": 1,
 			"class": "melee",
 			"accuracy": 1694,
-			"auto_damage": 1676.3
+			"auto_damage": 1676.3,
+			"can_augment": true,
+			"has_spec": true
 		},
 		"Bandos helmet": {
 			"ranged_damage": 0,
@@ -356411,7 +356631,8 @@
 			"melee_damage": 21.8,
 			"magic_damage": 0,
 			"prayer": 1,
-			"accuracy": 0
+			"accuracy": 0,
+			"can_augment": true
 		},
 		"Bandos warshield": {
 			"ranged_damage": 0,
@@ -356445,7 +356666,8 @@
 			"magic_damage": 7.8,
 			"necromancy_damage": 7.8,
 			"prayer": 2,
-			"accuracy": 0
+			"accuracy": 0,
+			"has_passive": true
 		},
 		"Bane 2h sword + 1": {
 			"ranged_damage": 0,
@@ -357889,6 +358111,8 @@
 			"requirements": {},
 			"speed": 4,
 			"tier": 5,
+			"damage_tier": 1,
+			"accuracy_tier": 5,
 			"lp": 0,
 			"attack_range": 1,
 			"class": "melee",
@@ -357932,7 +358156,8 @@
 			"attack_range": 1,
 			"class": "melee",
 			"accuracy": 1197,
-			"auto_damage": 1385.7
+			"auto_damage": 1385.7,
+			"has_spec": true
 		},
 		"Basic decorative helm": {
 			"ranged_damage": 0,
@@ -358424,6 +358649,8 @@
 			"class": "ranged",
 			"lp": 0,
 			"tier": 95,
+			"damage_tier": 100,
+			"accuracy_tier": 0,
 			"speed": 0,
 			"armour": 0,
 			"slot": "ammo",
@@ -358608,7 +358835,8 @@
 			"attack_range": 9,
 			"class": "ranged",
 			"accuracy": 1299,
-			"auto_damage": 869.8
+			"auto_damage": 869.8,
+			"has_passive": true
 		},
 		"Black claw": {
 			"ranged_damage": 0,
@@ -359598,7 +359826,8 @@
 			"attack_range": 7,
 			"class": "ranged",
 			"accuracy": 1486,
-			"auto_damage": 892.5
+			"auto_damage": 892.5,
+			"can_augment": true
 		},
 		"Black scimitar": {
 			"ranged_damage": 0,
@@ -359930,11 +360159,14 @@
 			"armour": 0,
 			"speed": 3,
 			"tier": 85,
+			"damage_tier": 80,
+			"accuracy_tier": 90,
 			"lp": 0,
 			"attack_range": 1,
 			"class": "melee",
 			"accuracy": 2458,
-			"auto_damage": 384
+			"auto_damage": 384,
+			"can_augment": true
 		},
 		"Blade of Nymora": {
 			"ranged_damage": 0,
@@ -359951,11 +360183,14 @@
 			"armour": 0,
 			"speed": 3,
 			"tier": 85,
+			"damage_tier": 80,
+			"accuracy_tier": 90,
 			"lp": 0,
 			"attack_range": 1,
 			"class": "melee",
 			"accuracy": 2458,
-			"auto_damage": 768
+			"auto_damage": 768,
+			"can_augment": true
 		},
 		"Bladestorm drape": {
 			"ranged_damage": 0,
@@ -359987,7 +360222,8 @@
 			"magic_damage": 12.5,
 			"charges": 60000,
 			"prayer": 0,
-			"accuracy": 0
+			"accuracy": 0,
+			"has_passive": true
 		},
 		"Blessed dragonhide body (Armadyl)": {
 			"ranged_damage": 0,
@@ -360453,7 +360689,9 @@
 			"lp": 0,
 			"attack_range": 7,
 			"class": "ranged",
-			"accuracy": 2577
+			"accuracy": 2577,
+			"can_augment": true,
+			"has_passive": true
 		},
 		"Blighted rebounder": {
 			"ranged_damage": 0,
@@ -360475,7 +360713,8 @@
 			"lp": 0,
 			"attack_range": 8,
 			"class": "magic",
-			"accuracy": 1486
+			"accuracy": 1486,
+			"can_augment": true
 		},
 		"Blisterwood orb": {
 			"ranged_damage": 0,
@@ -360649,7 +360888,8 @@
 			"necromancy_damage": 37.3,
 			"charges": 60000,
 			"prayer": 3,
-			"accuracy": 0
+			"accuracy": 0,
+			"has_passive": true
 		},
 		"Blood talisman staff": {
 			"ranged_damage": 0,
@@ -361203,7 +361443,8 @@
 			"attack_range": 1,
 			"class": "melee",
 			"accuracy": 257,
-			"auto_damage": 144
+			"auto_damage": 144,
+			"has_spec": true
 		},
 		"Bone spear": {
 			"ranged_damage": 0,
@@ -361363,7 +361604,10 @@
 			"attack_range": 9,
 			"class": "ranged",
 			"accuracy": 2765,
-			"auto_damage": 1211.3
+			"auto_damage": 1211.3,
+			"can_augment": true,
+			"has_spec": true,
+			"has_passive": true
 		},
 		"Bracers of Trials": {
 			"ranged_damage": 0,
@@ -361399,7 +361643,8 @@
 			"attack_range": 1,
 			"class": "melee",
 			"accuracy": 1132,
-			"auto_damage": 735
+			"auto_damage": 735,
+			"has_spec": true
 		},
 		"Brawler's blood necklace": {
 			"ranged_damage": 0,
@@ -361416,7 +361661,8 @@
 			"melee_accuracy": 84,
 			"magic_damage": 0,
 			"prayer": 0,
-			"accuracy": 0
+			"accuracy": 0,
+			"has_passive": true
 		},
 		"Brawler's hook necklace": {
 			"ranged_damage": 0,
@@ -361505,7 +361751,8 @@
 			"attack_range": 1,
 			"class": "melee",
 			"accuracy": 628,
-			"auto_damage": 490
+			"auto_damage": 490,
+			"has_spec": true
 		},
 		"Broad arrow": {
 			"ranged_damage": 0,
@@ -362585,7 +362832,9 @@
 			"lp": 0,
 			"attack_range": 8,
 			"class": "magic",
-			"accuracy": 2178
+			"accuracy": 2178,
+			"can_augment": true,
+			"has_passive": true
 		},
 		"Cape of legends": {
 			"ranged_damage": 18.7,
@@ -362756,7 +363005,8 @@
 			"melee_damage": 34.5,
 			"magic_damage": 0,
 			"prayer": 5,
-			"accuracy": 0
+			"accuracy": 0,
+			"has_passive": true
 		},
 		"Channeller's ring": {
 			"ranged_damage": 0,
@@ -362770,7 +363020,8 @@
 			"melee_damage": 0,
 			"magic_damage": 34.5,
 			"prayer": 5,
-			"accuracy": 0
+			"accuracy": 0,
+			"has_passive": true
 		},
 		"Chaos body": {
 			"ranged_damage": 0,
@@ -362927,7 +363178,8 @@
 			"attack_range": 1,
 			"class": "melee",
 			"accuracy": 1924,
-			"auto_damage": 768
+			"auto_damage": 768,
+			"can_augment": true
 		},
 		"Chaotic crossbow": {
 			"ranged_damage": 0,
@@ -362948,7 +363200,8 @@
 			"lp": 0,
 			"attack_range": 7,
 			"class": "ranged",
-			"accuracy": 1924
+			"accuracy": 1924,
+			"can_augment": true
 		},
 		"Chaotic grimoire": {
 			"ranged_damage": 10.9,
@@ -362963,7 +363216,8 @@
 			"magic_damage": 10.9,
 			"necromancy_damage": 10.9,
 			"prayer": 4,
-			"accuracy": 0
+			"accuracy": 0,
+			"has_passive": true
 		},
 		"Chaotic guard": {
 			"ranged_damage": 0,
@@ -363045,7 +363299,8 @@
 			"attack_range": 1,
 			"class": "melee",
 			"accuracy": 1924,
-			"auto_damage": 980
+			"auto_damage": 980,
+			"can_augment": true
 		},
 		"Chaotic maul": {
 			"ranged_damage": 0,
@@ -363067,7 +363322,8 @@
 			"attack_range": 1,
 			"class": "melee",
 			"accuracy": 1924,
-			"auto_damage": 1788
+			"auto_damage": 1788,
+			"can_augment": true
 		},
 		"Chaotic rapier": {
 			"ranged_damage": 0,
@@ -363089,7 +363345,8 @@
 			"attack_range": 1,
 			"class": "melee",
 			"accuracy": 1924,
-			"auto_damage": 980
+			"auto_damage": 980,
+			"can_augment": true
 		},
 		"Chaotic spear": {
 			"ranged_damage": 0,
@@ -363111,7 +363368,8 @@
 			"attack_range": 1,
 			"class": "melee",
 			"accuracy": 1924,
-			"auto_damage": 1788
+			"auto_damage": 1788,
+			"can_augment": true
 		},
 		"Chaotic staff": {
 			"ranged_damage": 0,
@@ -363132,7 +363390,8 @@
 			"lp": 0,
 			"attack_range": 8,
 			"class": "magic",
-			"accuracy": 1924
+			"accuracy": 1924,
+			"can_augment": true
 		},
 		"Chargebow": {
 			"ranged_damage": 0,
@@ -363174,7 +363433,8 @@
 			"attack_range": 9,
 			"class": "ranged",
 			"accuracy": 732,
-			"auto_damage": 551.3
+			"auto_damage": 551.3,
+			"has_passive": true
 		},
 		"Cinderbane gloves": {
 			"ranged_damage": 10.9,
@@ -363193,7 +363453,8 @@
 			"necromancy_damage": 10.9,
 			"charges": 60000,
 			"prayer": 0,
-			"accuracy": 0
+			"accuracy": 0,
+			"has_passive": true
 		},
 		"Citharede hood": {
 			"ranged_damage": 0,
@@ -363427,7 +363688,8 @@
 			"attack_range": 1,
 			"class": "melee",
 			"accuracy": 1486,
-			"auto_damage": 1599.5
+			"auto_damage": 1599.5,
+			"can_augment": true
 		},
 		"Cobalt skillchompa": {
 			"ranged_damage": 0,
@@ -363579,7 +363841,8 @@
 			"magic_damage": 0,
 			"prayer": 0,
 			"accuracy": 0,
-			"necromancy_damage": 46
+			"necromancy_damage": 46,
+			"has_passive": true
 		},
 		"Consecrated keris": {
 			"ranged_damage": 0,
@@ -363595,11 +363858,14 @@
 			},
 			"speed": 3,
 			"tier": 80,
+			"damage_tier": 80,
+			"accuracy_tier": 80,
 			"lp": 0,
 			"attack_range": 1,
 			"class": "melee",
 			"accuracy": 1924,
-			"auto_damage": 768
+			"auto_damage": 768,
+			"can_augment": true
 		},
 		"Constitution cape (t)": {
 			"ranged_damage": 22.5,
@@ -364350,7 +364616,8 @@
 			"attack_range": 1,
 			"class": "melee",
 			"accuracy": 1486,
-			"auto_damage": 168
+			"auto_damage": 168,
+			"can_augment": true
 		},
 		"Corrupted slayer helmet (f)": {
 			"ranged_damage": 0,
@@ -364570,7 +364837,8 @@
 			"attack_range": 1,
 			"class": "melee",
 			"accuracy": 1486,
-			"auto_damage": 1599.5
+			"auto_damage": 1599.5,
+			"can_augment": true
 		},
 		"Crimson skillchompa": {
 			"ranged_damage": 0,
@@ -364658,7 +364926,8 @@
 			"magic_damage": 0,
 			"charges": 100000,
 			"prayer": 0,
-			"accuracy": 0
+			"accuracy": 0,
+			"can_augment": true
 		},
 		"Cryptbloom gloves": {
 			"ranged_damage": 0,
@@ -364712,7 +364981,8 @@
 			"magic_damage": 0,
 			"charges": 100000,
 			"prayer": 0,
-			"accuracy": 0
+			"accuracy": 0,
+			"can_augment": true
 		},
 		"Crystal body": {
 			"ranged_damage": 0,
@@ -364769,7 +365039,8 @@
 			"attack_range": 7,
 			"class": "ranged",
 			"accuracy": 1486,
-			"auto_damage": 1286.3
+			"auto_damage": 1286.3,
+			"can_augment": true
 		},
 		"Crystal chakram": {
 			"ranged_damage": 0,
@@ -364791,7 +365062,8 @@
 			"attack_range": 7,
 			"class": "ranged",
 			"accuracy": 1486,
-			"auto_damage": 857.5
+			"auto_damage": 857.5,
+			"can_augment": true
 		},
 		"Crystal dagger": {
 			"ranged_damage": 0,
@@ -364813,7 +365085,8 @@
 			"attack_range": 1,
 			"class": "melee",
 			"accuracy": 1486,
-			"auto_damage": 672
+			"auto_damage": 672,
+			"can_augment": true
 		},
 		"Crystal deflector": {
 			"ranged_damage": 0,
@@ -364872,7 +365145,8 @@
 			"attack_range": 2,
 			"class": "melee",
 			"accuracy": 1486,
-			"auto_damage": 1564.5
+			"auto_damage": 1564.5,
+			"can_augment": true
 		},
 		"Crystal hatchet": {
 			"ranged_damage": 0,
@@ -364967,7 +365241,8 @@
 			"lp": 0,
 			"attack_range": 8,
 			"class": "magic",
-			"accuracy": 1486
+			"accuracy": 1486,
+			"can_augment": true
 		},
 		"Crystal pickaxe": {
 			"ranged_damage": 0,
@@ -365041,7 +365316,8 @@
 			"lp": 0,
 			"attack_range": 8,
 			"class": "magic",
-			"accuracy": 1486
+			"accuracy": 1486,
+			"can_augment": true
 		},
 		"Crystal wand": {
 			"ranged_damage": 0,
@@ -365062,7 +365338,8 @@
 			"lp": 0,
 			"attack_range": 8,
 			"class": "magic",
-			"accuracy": 1486
+			"accuracy": 1486,
+			"can_augment": true
 		},
 		"Crystal ward": {
 			"ranged_damage": 0,
@@ -365595,7 +365872,10 @@
 			"attack_range": 1,
 			"class": "melee",
 			"accuracy": 2765,
-			"auto_damage": 912
+			"auto_damage": 912,
+			"can_augment": true,
+			"has_spec": true,
+			"has_passive": true
 		},
 		"Dark Sliver of Leng": {
 			"ranged_damage": 0,
@@ -365616,7 +365896,9 @@
 			"attack_range": 1,
 			"class": "melee",
 			"accuracy": 2765,
-			"auto_damage": 456
+			"auto_damage": 456,
+			"can_augment": true,
+			"has_passive": true
 		},
 		"Dark arrow": {
 			"ranged_damage": 0,
@@ -365658,7 +365940,10 @@
 			"attack_range": 9,
 			"class": "ranged",
 			"accuracy": 1486,
-			"auto_damage": 371
+			"auto_damage": 371,
+			"can_augment": true,
+			"has_spec": true,
+			"has_passive": true
 		},
 		"Dark ice shard": {
 			"ranged_damage": 0,
@@ -365675,11 +365960,16 @@
 			"armour": 0,
 			"speed": 3,
 			"tier": 85,
+			"damage_tier": 88,
+			"accuracy_tier": 85,
 			"lp": 0,
 			"attack_range": 1,
 			"class": "melee",
 			"accuracy": 2178,
-			"auto_damage": 844.8
+			"auto_damage": 844.8,
+			"can_augment": true,
+			"has_spec": true,
+			"has_passive": true
 		},
 		"Dark ice sliver": {
 			"ranged_damage": 0,
@@ -365696,11 +365986,15 @@
 			"armour": 0,
 			"speed": 3,
 			"tier": 85,
+			"damage_tier": 88,
+			"accuracy_tier": 85,
 			"lp": 0,
 			"attack_range": 1,
 			"class": "melee",
 			"accuracy": 2178,
-			"auto_damage": 422.4
+			"auto_damage": 422.4,
+			"can_augment": true,
+			"has_passive": true
 		},
 		"Dark mystic boots": {
 			"ranged_damage": 0,
@@ -365805,7 +366099,8 @@
 			"attack_range": 1,
 			"class": "melee",
 			"accuracy": 316,
-			"auto_damage": 245
+			"auto_damage": 245,
+			"has_spec": true
 		},
 		"Death guard (tier 10)": {
 			"ranged_damage": 0,
@@ -365943,7 +366238,9 @@
 			"lp": 0,
 			"attack_range": 6,
 			"class": "necromancy",
-			"accuracy": 1486
+			"accuracy": 1486,
+			"can_augment": true,
+			"has_spec": true
 		},
 		"Death guard (tier 80)": {
 			"ranged_damage": 0,
@@ -365963,7 +366260,9 @@
 			"lp": 0,
 			"attack_range": 6,
 			"class": "necromancy",
-			"accuracy": 1924
+			"accuracy": 1924,
+			"can_augment": true,
+			"has_spec": true
 		},
 		"Death guard (tier 90)": {
 			"ranged_damage": 0,
@@ -365983,7 +366282,9 @@
 			"lp": 0,
 			"attack_range": 6,
 			"class": "necromancy",
-			"accuracy": 2458
+			"accuracy": 2458,
+			"can_augment": true,
+			"has_spec": true
 		},
 		"Death Lotus chaps": {
 			"ranged_damage": 0,
@@ -366113,7 +366414,8 @@
 			"magic_damage": 0,
 			"necromancy_damage": 26.2,
 			"prayer": 0,
-			"accuracy": 0
+			"accuracy": 0,
+			"can_augment": true
 		},
 		"Deathdealer robe bottom (tier 70)": {
 			"ranged_damage": 0,
@@ -366132,7 +366434,8 @@
 			"magic_damage": 0,
 			"necromancy_damage": 21.8,
 			"prayer": 0,
-			"accuracy": 0
+			"accuracy": 0,
+			"can_augment": true
 		},
 		"Deathdealer gloves (tier 70)": {
 			"ranged_damage": 0,
@@ -366208,7 +366511,8 @@
 			"magic_damage": 0,
 			"necromancy_damage": 30,
 			"prayer": 0,
-			"accuracy": 0
+			"accuracy": 0,
+			"can_augment": true
 		},
 		"Deathdealer robe bottom (tier 80)": {
 			"ranged_damage": 0,
@@ -366227,7 +366531,8 @@
 			"magic_damage": 0,
 			"necromancy_damage": 25,
 			"prayer": 0,
-			"accuracy": 0
+			"accuracy": 0,
+			"can_augment": true
 		},
 		"Deathdealer gloves (tier 80)": {
 			"ranged_damage": 0,
@@ -366303,7 +366608,8 @@
 			"magic_damage": 0,
 			"necromancy_damage": 33.7,
 			"prayer": 0,
-			"accuracy": 0
+			"accuracy": 0,
+			"can_augment": true
 		},
 		"Deathdealer robe bottom (tier 90)": {
 			"ranged_damage": 0,
@@ -366322,7 +366628,8 @@
 			"magic_damage": 0,
 			"necromancy_damage": 28.1,
 			"prayer": 0,
-			"accuracy": 0
+			"accuracy": 0,
+			"can_augment": true
 		},
 		"Deathdealer gloves (tier 90)": {
 			"ranged_damage": 0,
@@ -366410,7 +366717,8 @@
 			"necromancy_damage": 14,
 			"charges": 100000,
 			"prayer": 3,
-			"accuracy": 0
+			"accuracy": 0,
+			"has_passive": true
 		},
 		"Deathtouched dart": {
 			"ranged_damage": 0,
@@ -367005,7 +367313,8 @@
 			"magic_damage": 0,
 			"necromancy_damage": 0,
 			"prayer": 0,
-			"accuracy": 0
+			"accuracy": 0,
+			"can_augment": true
 		},
 		"Deathwarden robe bottom (tier 70)": {
 			"ranged_damage": 0,
@@ -367023,7 +367332,8 @@
 			"magic_damage": 0,
 			"necromancy_damage": 0,
 			"prayer": 0,
-			"accuracy": 0
+			"accuracy": 0,
+			"can_augment": true
 		},
 		"Deathwarden gloves (tier 70)": {
 			"ranged_damage": 0,
@@ -367095,7 +367405,8 @@
 			"magic_damage": 0,
 			"necromancy_damage": 0,
 			"prayer": 0,
-			"accuracy": 0
+			"accuracy": 0,
+			"can_augment": true
 		},
 		"Deathwarden robe bottom (tier 80)": {
 			"ranged_damage": 0,
@@ -367113,7 +367424,8 @@
 			"magic_damage": 0,
 			"necromancy_damage": 0,
 			"prayer": 0,
-			"accuracy": 0
+			"accuracy": 0,
+			"can_augment": true
 		},
 		"Deathwarden gloves (tier 80)": {
 			"ranged_damage": 0,
@@ -367185,7 +367497,8 @@
 			"magic_damage": 0,
 			"necromancy_damage": 0,
 			"prayer": 0,
-			"accuracy": 0
+			"accuracy": 0,
+			"can_augment": true
 		},
 		"Deathwarden robe bottom (tier 90)": {
 			"ranged_damage": 0,
@@ -367203,7 +367516,8 @@
 			"magic_damage": 0,
 			"necromancy_damage": 0,
 			"prayer": 0,
-			"accuracy": 0
+			"accuracy": 0,
+			"can_augment": true
 		},
 		"Deathwarden gloves (tier 90)": {
 			"ranged_damage": 0,
@@ -367260,7 +367574,9 @@
 			"attack_range": 1,
 			"class": "ranged",
 			"accuracy": 2287,
-			"auto_damage": 1944.5
+			"auto_damage": 1944.5,
+			"can_augment": true,
+			"has_spec": true
 		},
 		"Defence cape (t)": {
 			"ranged_damage": 22.5,
@@ -367604,7 +367920,10 @@
 			"lp": 0,
 			"attack_range": 6,
 			"class": "necromancy",
-			"accuracy": 2765
+			"accuracy": 2765,
+			"can_augment": true,
+			"has_spec": true,
+			"has_passive": true
 		},
 		"The Devourer's Nexus": {
 			"formatted_name": "The Devourer's Nexus",
@@ -367644,7 +367963,8 @@
 			"attack_range": 1,
 			"class": "melee",
 			"accuracy": 1486,
-			"auto_damage": 1564.5
+			"auto_damage": 1564.5,
+			"can_augment": true
 		},
 		"Dharok's helm": {
 			"ranged_damage": 0,
@@ -367680,7 +368000,8 @@
 			"magic_damage": 0,
 			"charges": 100000,
 			"prayer": 0,
-			"accuracy": 0
+			"accuracy": 0,
+			"can_augment": true
 		},
 		"Dharok's platelegs": {
 			"ranged_damage": 0,
@@ -367698,7 +368019,8 @@
 			"magic_damage": 0,
 			"charges": 100000,
 			"prayer": 0,
-			"accuracy": 0
+			"accuracy": 0,
+			"can_augment": true
 		},
 		"Diamond bakriminel bolts (e)": {
 			"ranged_damage": 0,
@@ -367830,7 +368152,8 @@
 			"magic_damage": 0,
 			"charges": 60000,
 			"prayer": 0,
-			"accuracy": 0
+			"accuracy": 0,
+			"can_augment": true
 		},
 		"Dinosaurhide boots": {
 			"ranged_damage": 0,
@@ -367865,7 +368188,8 @@
 			"magic_damage": 0,
 			"charges": 60000,
 			"prayer": 0,
-			"accuracy": 0
+			"accuracy": 0,
+			"can_augment": true
 		},
 		"Dinosaurhide cowl": {
 			"ranged_damage": 0,
@@ -368070,7 +368394,8 @@
 			"melee_damage": 0,
 			"magic_damage": 0,
 			"prayer": 2,
-			"accuracy": 0
+			"accuracy": 0,
+			"can_augment": true
 		},
 		"Dracolich coif": {
 			"ranged_damage": 22.5,
@@ -368104,7 +368429,8 @@
 			"melee_damage": 0,
 			"magic_damage": 0,
 			"prayer": 3,
-			"accuracy": 0
+			"accuracy": 0,
+			"can_augment": true
 		},
 		"Dracolich vambraces": {
 			"ranged_damage": 14,
@@ -368161,7 +368487,8 @@
 			"attack_range": 1,
 			"class": "melee",
 			"accuracy": 1132,
-			"auto_damage": 1341
+			"auto_damage": 1341,
+			"has_spec": true
 		},
 		"Dragon Rider amulet": {
 			"ranged_damage": 34.5,
@@ -368292,11 +368619,14 @@
 			"type": "Halberd",
 			"speed": 5,
 			"tier": 85,
+			"damage_tier": 80,
+			"accuracy_tier": 90,
 			"lp": 0,
 			"attack_range": 2,
 			"class": "melee",
 			"accuracy": 2458,
-			"auto_damage": 1788
+			"auto_damage": 1788,
+			"can_augment": true
 		},
 		"Dragon arrow": {
 			"ranged_damage": 0,
@@ -368337,7 +368667,8 @@
 			"attack_range": 1,
 			"class": "melee",
 			"accuracy": 1876,
-			"auto_damage": 1765.7
+			"auto_damage": 1765.7,
+			"can_augment": true
 		},
 		"Dragon bane longsword": {
 			"ranged_damage": 0,
@@ -368358,7 +368689,8 @@
 			"attack_range": 1,
 			"class": "melee",
 			"accuracy": 1876,
-			"auto_damage": 967.8
+			"auto_damage": 967.8,
+			"can_augment": true
 		},
 		"Dragon bane off-hand longsword": {
 			"ranged_damage": 0,
@@ -368379,7 +368711,8 @@
 			"attack_range": 1,
 			"class": "melee",
 			"accuracy": 1876,
-			"auto_damage": 483.9
+			"auto_damage": 483.9,
+			"can_augment": true
 		},
 		"Dragon bane square shield": {
 			"ranged_damage": 0,
@@ -368416,7 +368749,8 @@
 			"attack_range": 1,
 			"class": "melee",
 			"accuracy": 1132,
-			"auto_damage": 894
+			"auto_damage": 894,
+			"has_spec": true
 		},
 		"Dragon battlestaff": {
 			"ranged_damage": 0,
@@ -368549,7 +368883,8 @@
 			"attack_range": 1,
 			"class": "melee",
 			"accuracy": 1132,
-			"auto_damage": 576
+			"auto_damage": 576,
+			"has_spec": true
 		},
 		"Dragon crossbow": {
 			"ranged_damage": 0,
@@ -368588,7 +368923,8 @@
 			"attack_range": 1,
 			"class": "melee",
 			"accuracy": 1132,
-			"auto_damage": 576
+			"auto_damage": 576,
+			"has_spec": true
 		},
 		"Dragon dart": {
 			"ranged_damage": 0,
@@ -368726,7 +369062,8 @@
 			"attack_range": 2,
 			"class": "melee",
 			"accuracy": 1132,
-			"auto_damage": 1341
+			"auto_damage": 1341,
+			"has_spec": true
 		},
 		"Dragon harpoon": {
 			"ranged_damage": 0,
@@ -368747,7 +369084,8 @@
 			"attack_range": 1,
 			"class": "melee",
 			"accuracy": 150,
-			"auto_damage": 91
+			"auto_damage": 91,
+			"has_spec": true
 		},
 		"Dragon hasta": {
 			"ranged_damage": 0,
@@ -368787,7 +369125,8 @@
 			"attack_range": 1,
 			"class": "melee",
 			"accuracy": 1132,
-			"auto_damage": 367.5
+			"auto_damage": 367.5,
+			"has_spec": true
 		},
 		"Dragon helm": {
 			"ranged_damage": 0,
@@ -368883,7 +369222,8 @@
 			"attack_range": 1,
 			"class": "melee",
 			"accuracy": 1132,
-			"auto_damage": 735
+			"auto_damage": 735,
+			"has_spec": true
 		},
 		"Dragon mace": {
 			"ranged_damage": 0,
@@ -368903,7 +369243,8 @@
 			"attack_range": 1,
 			"class": "melee",
 			"accuracy": 1132,
-			"auto_damage": 576
+			"auto_damage": 576,
+			"has_spec": true
 		},
 		"Dragon mattock": {
 			"ranged_damage": 0,
@@ -369011,7 +369352,8 @@
 			"attack_range": 1,
 			"class": "melee",
 			"accuracy": 1132,
-			"auto_damage": 576
+			"auto_damage": 576,
+			"has_spec": true
 		},
 		"Dragon slayer gloves": {
 			"ranged_damage": 0,
@@ -369047,7 +369389,8 @@
 			"attack_range": 1,
 			"class": "melee",
 			"accuracy": 1132,
-			"auto_damage": 1341
+			"auto_damage": 1341,
+			"has_spec": true
 		},
 		"Dragon sq shield": {
 			"ranged_damage": 0,
@@ -369687,7 +370030,8 @@
 			"attack_range": 1,
 			"class": "melee",
 			"accuracy": 2458,
-			"auto_damage": 1102.5
+			"auto_damage": 1102.5,
+			"can_augment": true
 		},
 		"Drygore mace": {
 			"ranged_damage": 0,
@@ -369708,7 +370052,8 @@
 			"attack_range": 1,
 			"class": "melee",
 			"accuracy": 2458,
-			"auto_damage": 864
+			"auto_damage": 864,
+			"can_augment": true
 		},
 		"Drygore rapier": {
 			"ranged_damage": 0,
@@ -369729,7 +370074,8 @@
 			"attack_range": 1,
 			"class": "melee",
 			"accuracy": 2458,
-			"auto_damage": 1102.5
+			"auto_damage": 1102.5,
+			"can_augment": true
 		},
 		"Dungeoneering cape (t)": {
 			"ranged_damage": 22.5,
@@ -369908,7 +370254,10 @@
 			"attack_range": 1,
 			"class": "melee",
 			"accuracy": 2765,
-			"auto_damage": 2123.3
+			"auto_damage": 2123.3,
+			"can_augment": true,
+			"has_spec": true,
+			"has_passive": true
 		},
 		"Elder rune 2h sword + 1": {
 			"ranged_damage": 0,
@@ -371171,7 +371520,9 @@
 			"attack_range": 9,
 			"class": "ranged",
 			"accuracy": 2577,
-			"auto_damage": 1173
+			"auto_damage": 1173,
+			"can_augment": true,
+			"has_spec": true
 		},
 		"Elemental battlestaff": {
 			"ranged_damage": 0,
@@ -371324,7 +371675,8 @@
 			"magic_damage": 0,
 			"charges": 60000,
 			"prayer": 0,
-			"accuracy": 0
+			"accuracy": 0,
+			"can_augment": true
 		},
 		"Elite Robin Hood tunic": {
 			"ranged_damage": 30.7,
@@ -371343,7 +371695,8 @@
 			"magic_damage": 0,
 			"charges": 60000,
 			"prayer": 0,
-			"accuracy": 0
+			"accuracy": 0,
+			"can_augment": true
 		},
 		"Elite black full helm": {
 			"ranged_damage": 0,
@@ -371411,7 +371764,8 @@
 			"melee_damage": 0,
 			"magic_damage": 0,
 			"prayer": 3,
-			"accuracy": 0
+			"accuracy": 0,
+			"can_augment": true
 		},
 		"Elite Dracolich boots": {
 			"ranged_damage": 14.3,
@@ -371445,7 +371799,8 @@
 			"melee_damage": 0,
 			"magic_damage": 0,
 			"prayer": 2,
-			"accuracy": 0
+			"accuracy": 0,
+			"can_augment": true
 		},
 		"Elite Dracolich coif": {
 			"ranged_damage": 23,
@@ -371518,7 +371873,8 @@
 			"lp": 0,
 			"attack_range": 8,
 			"class": "magic",
-			"accuracy": 2343
+			"accuracy": 2343,
+			"can_augment": true
 		},
 		"Elite seasinger makigai": {
 			"ranged_damage": 0,
@@ -371538,7 +371894,8 @@
 			"lp": 0,
 			"attack_range": 8,
 			"class": "magic",
-			"accuracy": 2343
+			"accuracy": 2343,
+			"can_augment": true
 		},
 		"Elite sirenic chaps": {
 			"ranged_damage": 28.7,
@@ -371556,7 +371913,8 @@
 			"magic_damage": 0,
 			"charges": 100000,
 			"prayer": 2,
-			"accuracy": 0
+			"accuracy": 0,
+			"can_augment": true
 		},
 		"Elite sirenic hauberk": {
 			"ranged_damage": 34.5,
@@ -371574,7 +371932,8 @@
 			"magic_damage": 0,
 			"charges": 100000,
 			"prayer": 3,
-			"accuracy": 0
+			"accuracy": 0,
+			"can_augment": true
 		},
 		"Elite sirenic mask": {
 			"ranged_damage": 23,
@@ -371628,7 +371987,8 @@
 			"magic_damage": 28.7,
 			"charges": 100000,
 			"prayer": 2,
-			"accuracy": 0
+			"accuracy": 0,
+			"can_augment": true
 		},
 		"Elite tectonic robe top": {
 			"ranged_damage": 0,
@@ -371646,7 +372006,8 @@
 			"magic_damage": 34.5,
 			"charges": 100000,
 			"prayer": 3,
-			"accuracy": 0
+			"accuracy": 0,
+			"can_augment": true
 		},
 		"Elite tetsu katana": {
 			"ranged_damage": 0,
@@ -371667,7 +372028,8 @@
 			"attack_range": 1,
 			"class": "melee",
 			"accuracy": 2343,
-			"auto_damage": 1078
+			"auto_damage": 1078,
+			"can_augment": true
 		},
 		"Elite tetsu wakizashi": {
 			"ranged_damage": 0,
@@ -371688,7 +372050,8 @@
 			"attack_range": 1,
 			"class": "melee",
 			"accuracy": 2343,
-			"auto_damage": 539
+			"auto_damage": 539,
+			"can_augment": true
 		},
 		"Elite void knight robe (executioner)": {
 			"ranged_damage": 0,
@@ -372052,7 +372415,8 @@
 			"attack_range": 1,
 			"class": "melee",
 			"accuracy": 1486,
-			"auto_damage": 345.6
+			"auto_damage": 345.6,
+			"can_augment": true
 		},
 		"Enhanced Kerapac's wrist wraps": {
 			"ranged_damage": 0,
@@ -372070,7 +372434,8 @@
 			"magic_damage": 14,
 			"charges": 60000,
 			"prayer": 0,
-			"accuracy": 0
+			"accuracy": 0,
+			"has_passive": true
 		},
 		"Enhanced ancient staff": {
 			"ranged_damage": 0,
@@ -372107,7 +372472,8 @@
 			"magic_damage": 14,
 			"charges": 60000,
 			"prayer": 0,
-			"accuracy": 0
+			"accuracy": 0,
+			"has_passive": true
 		},
 		"Enhanced fleeting boots": {
 			"ranged_damage": 14,
@@ -372125,7 +372491,8 @@
 			"magic_damage": 0,
 			"charges": 60000,
 			"prayer": 0,
-			"accuracy": 0
+			"accuracy": 0,
+			"has_passive": true
 		},
 		"Enhanced gloves of passage": {
 			"ranged_damage": 0,
@@ -372143,7 +372510,8 @@
 			"magic_damage": 0,
 			"charges": 60000,
 			"prayer": 0,
-			"accuracy": 0
+			"accuracy": 0,
+			"has_passive": true
 		},
 		"Enhanced laceration boots": {
 			"ranged_damage": 0,
@@ -372161,7 +372529,8 @@
 			"magic_damage": 0,
 			"charges": 60000,
 			"prayer": 0,
-			"accuracy": 0
+			"accuracy": 0,
+			"has_passive": true
 		},
 		"Enhanced nightmare gauntlets": {
 			"ranged_damage": 14,
@@ -372179,7 +372548,8 @@
 			"magic_damage": 0,
 			"charges": 60000,
 			"prayer": 0,
-			"accuracy": 0
+			"accuracy": 0,
+			"has_passive": true
 		},
 		"Enhanced yaktwee stick": {
 			"ranged_damage": 0,
@@ -372225,7 +372595,8 @@
 			"magic_damage": 10.9,
 			"necromancy_damage": 10.9,
 			"prayer": 4,
-			"accuracy": 0
+			"accuracy": 0,
+			"has_passive": true
 		},
 		"Essence of Finality amulet (or)": {
 			"ranged_damage": 58.6,
@@ -372241,7 +372612,9 @@
 			"necromancy_damage": 58.6,
 			"charges": 100000,
 			"prayer": 7,
-			"accuracy": 0
+			"accuracy": 0,
+			"has_passive": true,
+			"has_spec": true
 		},
 		"Essence of Finality amulet": {
 			"ranged_damage": 55.7,
@@ -372257,7 +372630,9 @@
 			"necromancy_damage": 55.7,
 			"charges": 100000,
 			"prayer": 7,
-			"accuracy": 0
+			"accuracy": 0,
+			"has_passive": true,
+			"has_spec": true
 		},
 		"Eternal magic orb (meagre)": {
 			"ranged_damage": 0,
@@ -372273,6 +372648,8 @@
 			"armour": 0,
 			"speed": 3,
 			"tier": 85,
+			"damage_tier": 85,
+			"accuracy_tier": 85,
 			"lp": 0,
 			"attack_range": 8,
 			"class": "magic",
@@ -372292,6 +372669,8 @@
 			"armour": 0,
 			"speed": 4,
 			"tier": 90,
+			"damage_tier": 90,
+			"accuracy_tier": 90,
 			"lp": 0,
 			"attack_range": 8,
 			"class": "magic",
@@ -372311,6 +372690,8 @@
 			},
 			"speed": 3,
 			"tier": 90,
+			"damage_tier": 85,
+			"accuracy_tier": 85,
 			"lp": 0,
 			"attack_range": 7,
 			"class": "ranged",
@@ -372330,6 +372711,8 @@
 			},
 			"speed": 3,
 			"tier": 100,
+			"damage_tier": 90,
+			"accuracy_tier": 90,
 			"lp": 0,
 			"attack_range": 8,
 			"class": "ranged",
@@ -372349,6 +372732,8 @@
 			"armour": 0,
 			"speed": 5,
 			"tier": 85,
+			"damage_tier": 85,
+			"accuracy_tier": 85,
 			"lp": 0,
 			"attack_range": 8,
 			"class": "magic",
@@ -372368,6 +372753,8 @@
 			"armour": 0,
 			"speed": 5,
 			"tier": 90,
+			"damage_tier": 90,
+			"accuracy_tier": 90,
 			"lp": 0,
 			"attack_range": 8,
 			"class": "magic",
@@ -372387,6 +372774,8 @@
 			"armour": 0,
 			"speed": 5,
 			"tier": 85,
+			"damage_tier": 85,
+			"accuracy_tier": 85,
 			"lp": 0,
 			"attack_range": 8,
 			"class": "magic",
@@ -372406,6 +372795,8 @@
 			"armour": 0,
 			"speed": 5,
 			"tier": 90,
+			"damage_tier": 90,
+			"accuracy_tier": 90,
 			"lp": 0,
 			"attack_range": 8,
 			"class": "magic",
@@ -372535,7 +372926,8 @@
 			"magic_damage": 33.3,
 			"necromancy_damage": 33.3,
 			"prayer": 0,
-			"accuracy": 0
+			"accuracy": 0,
+			"has_passive": true
 		},
 		"Fairylight whip": {
 			"ranged_damage": 0,
@@ -372750,7 +373142,8 @@
 			"magic_damage": 0,
 			"charges": 60000,
 			"prayer": 0,
-			"accuracy": 0
+			"accuracy": 0,
+			"has_passive": true
 		},
 		"Farsight quick shot necklace": {
 			"ranged_damage": 17.2,
@@ -373246,7 +373639,8 @@
 			"magic_damage": 0,
 			"charges": 60000,
 			"prayer": 2,
-			"accuracy": 0
+			"accuracy": 0,
+			"has_passive": true
 		},
 		"Fletching cape (t)": {
 			"ranged_damage": 22.5,
@@ -373392,7 +373786,10 @@
 			"lp": 0,
 			"attack_range": 8,
 			"class": "magic",
-			"accuracy": 2765
+			"accuracy": 2765,
+			"can_augment": true,
+			"has_spec": true,
+			"has_passive": true
 		},
 		"Fragment arrows": {
 			"ranged_damage": 0,
@@ -373645,6 +374042,8 @@
 			"class": "ranged",
 			"lp": 0,
 			"tier": 95,
+			"damage_tier": 100,
+			"accuracy_tier": 0,
 			"speed": 0,
 			"armour": 0,
 			"slot": "ammo",
@@ -373810,7 +374209,8 @@
 			"magic_damage": 0,
 			"charges": 30000,
 			"prayer": 0,
-			"accuracy": 0
+			"accuracy": 0,
+			"can_augment": true
 		},
 		"Ganodermic poncho": {
 			"ranged_damage": 1125,
@@ -373828,7 +374228,8 @@
 			"magic_damage": 0,
 			"charges": 30000,
 			"prayer": 0,
-			"accuracy": 0
+			"accuracy": 0,
+			"can_augment": true
 		},
 		"Ganodermic visor": {
 			"ranged_damage": 0,
@@ -373863,7 +374264,8 @@
 			"melee_damage": 0,
 			"magic_damage": 26.2,
 			"prayer": 2,
-			"accuracy": 0
+			"accuracy": 0,
+			"can_augment": true
 		},
 		"Gavel": {
 			"ranged_damage": 0,
@@ -374304,7 +374706,10 @@
 			"attack_range": 9,
 			"class": "ranged",
 			"accuracy": 2458,
-			"auto_damage": 1147.5
+			"auto_damage": 1147.5,
+			"can_augment": true,
+			"has_spec": true,
+			"has_passive": true
 		},
 		"Gloves of subjugation": {
 			"ranged_damage": 0,
@@ -374358,7 +374763,8 @@
 			"magic_damage": 0,
 			"charges": 60000,
 			"prayer": 0,
-			"accuracy": 0
+			"accuracy": 0,
+			"has_passive": true
 		},
 		"Goblin cower shield": {
 			"ranged_damage": 0,
@@ -374501,7 +374907,8 @@
 			"melee_damage": 0,
 			"magic_damage": 21.8,
 			"prayer": 1,
-			"accuracy": 0
+			"accuracy": 0,
+			"can_augment": true
 		},
 		"Granite body": {
 			"ranged_damage": 0,
@@ -374595,7 +375002,8 @@
 			"attack_range": 1,
 			"class": "melee",
 			"accuracy": 983,
-			"auto_damage": 1229.3
+			"auto_damage": 1229.3,
+			"has_spec": true
 		},
 		"Granite shield": {
 			"ranged_damage": 0,
@@ -375319,7 +375727,8 @@
 			"magic_damage": 0,
 			"charges": 100000,
 			"prayer": 0,
-			"accuracy": 0
+			"accuracy": 0,
+			"can_augment": true
 		},
 		"Guthan's helm": {
 			"ranged_damage": 0,
@@ -375355,7 +375764,8 @@
 			"magic_damage": 0,
 			"charges": 100000,
 			"prayer": 0,
-			"accuracy": 0
+			"accuracy": 0,
+			"can_augment": true
 		},
 		"Guthan's warspear": {
 			"ranged_damage": 0,
@@ -375376,7 +375786,8 @@
 			"attack_range": 1,
 			"class": "melee",
 			"accuracy": 1486,
-			"auto_damage": 1564.5
+			"auto_damage": 1564.5,
+			"can_augment": true
 		},
 		"Guthix arrows": {
 			"ranged_damage": 0,
@@ -375417,7 +375828,8 @@
 			"attack_range": 7,
 			"class": "ranged",
 			"accuracy": 983,
-			"auto_damage": 291.5
+			"auto_damage": 291.5,
+			"has_spec": true
 		},
 		"Guthix cape": {
 			"ranged_damage": 0,
@@ -375569,7 +375981,8 @@
 			"lp": 0,
 			"attack_range": 8,
 			"class": "magic",
-			"accuracy": 1132
+			"accuracy": 1132,
+			"has_spec": true
 		},
 		"Guthix stole": {
 			"ranged_damage": 0,
@@ -375603,7 +376016,8 @@
 			"magic_damage": 7.8,
 			"necromancy_damage": 7.8,
 			"prayer": 2,
-			"accuracy": 0
+			"accuracy": 0,
+			"has_passive": true
 		},
 		"Hailfire boots": {
 			"ranged_damage": 0,
@@ -375662,7 +376076,9 @@
 			"attack_range": 9,
 			"class": "ranged",
 			"accuracy": 1694,
-			"auto_damage": 956.3
+			"auto_damage": 956.3,
+			"can_augment": true,
+			"has_spec": true
 		},
 		"Hand wrap of the First Necromancer": {
 			"formatted_name": "hand wraps of the First Necromancer",
@@ -375976,6 +376392,8 @@
 			},
 			"speed": 3,
 			"tier": 99,
+			"damage_tier": 50,
+			"accuracy_tier": 90,
 			"lp": 0,
 			"attack_range": 1,
 			"class": "melee",
@@ -375995,6 +376413,8 @@
 			},
 			"speed": 3,
 			"tier": 90,
+			"damage_tier": 45,
+			"accuracy_tier": 85,
 			"lp": 0,
 			"attack_range": 1,
 			"class": "melee",
@@ -376770,7 +377190,8 @@
 			"attack_range": 7,
 			"class": "ranged",
 			"accuracy": 1924,
-			"auto_damage": 384
+			"auto_damage": 384,
+			"can_augment": true
 		},
 		"High Armour of Hanto cuirass": {
 			"ranged_damage": 0,
@@ -376786,7 +377207,8 @@
 			"melee_damage": 0,
 			"magic_damage": 0,
 			"prayer": 0,
-			"accuracy": 0
+			"accuracy": 0,
+			"can_augment": true
 		},
 		"High Armour of Hanto handguards": {
 			"ranged_damage": 0,
@@ -376834,7 +377256,8 @@
 			"melee_damage": 0,
 			"magic_damage": 0,
 			"prayer": 0,
-			"accuracy": 0
+			"accuracy": 0,
+			"can_augment": true
 		},
 		"High Armour of Hanto sabatons": {
 			"ranged_damage": 0,
@@ -377121,7 +377544,8 @@
 			"lp": 0,
 			"attack_range": 8,
 			"class": "magic",
-			"accuracy": 850
+			"accuracy": 850,
+			"has_spec": true
 		},
 		"Ice arrows": {
 			"ranged_damage": 0,
@@ -377156,7 +377580,8 @@
 			"melee_damage": 37.1,
 			"magic_damage": 0,
 			"prayer": 2,
-			"accuracy": 0
+			"accuracy": 0,
+			"has_passive": true
 		},
 		"Igneous Kal-Mej": {
 			"ranged_damage": 0,
@@ -377171,7 +377596,8 @@
 			"melee_damage": 0,
 			"magic_damage": 37.1,
 			"prayer": 2,
-			"accuracy": 0
+			"accuracy": 0,
+			"has_passive": true
 		},
 		"Igneous Kal-Mor": {
 			"ranged_damage": 0,
@@ -377186,7 +377612,8 @@
 			"melee_damage": 0,
 			"necromancy_damage": 37.1,
 			"prayer": 2,
-			"accuracy": 0
+			"accuracy": 0,
+			"has_passive": true
 		},
 		"Igneous Kal-Xil": {
 			"ranged_damage": 37.1,
@@ -377201,7 +377628,8 @@
 			"melee_damage": 0,
 			"magic_damage": 0,
 			"prayer": 2,
-			"accuracy": 0
+			"accuracy": 0,
+			"has_passive": true
 		},
 		"Igneous Kal-Zuk": {
 			"ranged_damage": 37.1,
@@ -377217,7 +377645,8 @@
 			"magic_damage": 37.1,
 			"necromancy_damage": 37.1,
 			"prayer": 2,
-			"accuracy": 0
+			"accuracy": 0,
+			"has_passive": true
 		},
 		"Illuminated Ancient Book": {
 			"ranged_damage": 10.9,
@@ -377234,7 +377663,8 @@
 			"magic_damage": 10.9,
 			"necromancy_damage": 10.9,
 			"prayer": 4,
-			"accuracy": 0
+			"accuracy": 0,
+			"has_passive": true
 		},
 		"Illuminated Book of Balance": {
 			"ranged_damage": 10.9,
@@ -377251,7 +377681,8 @@
 			"magic_damage": 10.9,
 			"necromancy_damage": 10.9,
 			"prayer": 4,
-			"accuracy": 0
+			"accuracy": 0,
+			"has_passive": true
 		},
 		"Illuminated Book of Chaos": {
 			"ranged_damage": 10.9,
@@ -377268,7 +377699,8 @@
 			"magic_damage": 10.9,
 			"necromancy_damage": 10.9,
 			"prayer": 4,
-			"accuracy": 0
+			"accuracy": 0,
+			"has_passive": true
 		},
 		"Illuminated Book of Law": {
 			"ranged_damage": 10.9,
@@ -377285,7 +377717,8 @@
 			"magic_damage": 10.9,
 			"necromancy_damage": 10.9,
 			"prayer": 4,
-			"accuracy": 0
+			"accuracy": 0,
+			"has_passive": true
 		},
 		"Illuminated Book of War": {
 			"ranged_damage": 10.9,
@@ -377302,7 +377735,8 @@
 			"magic_damage": 10.9,
 			"necromancy_damage": 10.9,
 			"prayer": 4,
-			"accuracy": 0
+			"accuracy": 0,
+			"has_passive": true
 		},
 		"Illuminated Book of Wisdom": {
 			"ranged_damage": 10.9,
@@ -377319,7 +377753,8 @@
 			"magic_damage": 10.9,
 			"necromancy_damage": 10.9,
 			"prayer": 4,
-			"accuracy": 0
+			"accuracy": 0,
+			"has_passive": true
 		},
 		"Imcando mattock": {
 			"ranged_damage": 0,
@@ -377396,7 +377831,8 @@
 			"lp": 0,
 			"attack_range": 8,
 			"class": "magic",
-			"accuracy": 2577
+			"accuracy": 2577,
+			"can_augment": true
 		},
 		"Imphide book": {
 			"ranged_damage": 0,
@@ -377718,7 +378154,8 @@
 			"lp": 0,
 			"attack_range": 8,
 			"class": "magic",
-			"accuracy": 1924
+			"accuracy": 1924,
+			"can_augment": true
 		},
 		"Insulated boots": {
 			"ranged_damage": 0,
@@ -379494,6 +379931,8 @@
 			"class": "ranged",
 			"lp": 0,
 			"tier": 95,
+			"damage_tier": 100,
+			"accuracy_tier": 0,
 			"speed": 0,
 			"armour": 0,
 			"slot": "ammo",
@@ -379513,6 +379952,8 @@
 			"class": "ranged",
 			"lp": 0,
 			"tier": 95,
+			"damage_tier": 100,
+			"accuracy_tier": 0,
 			"speed": 0,
 			"armour": 0,
 			"slot": "ammo",
@@ -379587,11 +380028,14 @@
 			},
 			"speed": 4,
 			"tier": 75,
+			"damage_tier": 77.5,
+			"accuracy_tier": 75,
 			"lp": 0,
 			"attack_range": 1,
 			"class": "melee",
 			"accuracy": 1694,
-			"auto_damage": 471.6
+			"auto_damage": 471.6,
+			"can_augment": true
 		},
 		"Kalphite defender": {
 			"ranged_damage": 0,
@@ -379614,7 +380058,8 @@
 			"attack_range": 1,
 			"class": "melee",
 			"accuracy": 2458,
-			"auto_damage": 216
+			"auto_damage": 216,
+			"can_augment": true
 		},
 		"Kalphite rebounder": {
 			"ranged_damage": 0,
@@ -379636,7 +380081,8 @@
 			"lp": 0,
 			"attack_range": 8,
 			"class": "magic",
-			"accuracy": 2458
+			"accuracy": 2458,
+			"can_augment": true
 		},
 		"Kalphite repriser": {
 			"ranged_damage": 0,
@@ -379658,7 +380104,8 @@
 			"lp": 0,
 			"attack_range": 7,
 			"class": "ranged",
-			"accuracy": 2458
+			"accuracy": 2458,
+			"can_augment": true
 		},
 		"Karamja gloves 1": {
 			"ranged_damage": 0,
@@ -379759,7 +380206,8 @@
 			"attack_range": 9,
 			"class": "ranged",
 			"accuracy": 1486,
-			"auto_damage": 892.5
+			"auto_damage": 892.5,
+			"can_augment": true
 		},
 		"Karil's off-hand pistol crossbow": {
 			"ranged_damage": 0,
@@ -379779,7 +380227,8 @@
 			"lp": 0,
 			"attack_range": 7,
 			"class": "ranged",
-			"accuracy": 1486
+			"accuracy": 1486,
+			"can_augment": true
 		},
 		"Karil's pistol crossbow": {
 			"ranged_damage": 0,
@@ -379799,7 +380248,8 @@
 			"lp": 0,
 			"attack_range": 7,
 			"class": "ranged",
-			"accuracy": 1486
+			"accuracy": 1486,
+			"can_augment": true
 		},
 		"Karil's skirt": {
 			"ranged_damage": 0,
@@ -379817,7 +380267,8 @@
 			"magic_damage": 0,
 			"charges": 100000,
 			"prayer": 0,
-			"accuracy": 0
+			"accuracy": 0,
+			"can_augment": true
 		},
 		"Karil's top": {
 			"ranged_damage": 0,
@@ -379835,7 +380286,8 @@
 			"magic_damage": 0,
 			"charges": 100000,
 			"prayer": 0,
-			"accuracy": 0
+			"accuracy": 0,
+			"can_augment": true
 		},
 		"Kayle's chargebow": {
 			"ranged_damage": 0,
@@ -379896,7 +380348,8 @@
 			"attack_range": 1,
 			"class": "melee",
 			"accuracy": 202,
-			"auto_damage": 223.5
+			"auto_damage": 223.5,
+			"has_spec": true
 		},
 		"Kerapac's wrist wraps": {
 			"ranged_damage": 0,
@@ -379914,7 +380367,8 @@
 			"magic_damage": 13.2,
 			"charges": 60000,
 			"prayer": 0,
-			"accuracy": 0
+			"accuracy": 0,
+			"has_passive": true
 		},
 		"Keris": {
 			"ranged_damage": 0,
@@ -379989,7 +380443,8 @@
 			"attack_range": 1,
 			"class": "melee",
 			"accuracy": 2577,
-			"auto_damage": 441.6
+			"auto_damage": 441.6,
+			"can_augment": true
 		},
 		"Khopesh of Tumeken": {
 			"ranged_damage": 0,
@@ -380010,7 +380465,8 @@
 			"attack_range": 1,
 			"class": "melee",
 			"accuracy": 2577,
-			"auto_damage": 883.2
+			"auto_damage": 883.2,
+			"can_augment": true
 		},
 		"Khopesh of the Kharidian": {
 			"ranged_damage": 0,
@@ -380085,7 +380541,9 @@
 			"attack_range": 1,
 			"class": "melee",
 			"accuracy": 1694,
-			"auto_damage": 918.8
+			"auto_damage": 918.8,
+			"can_augment": true,
+			"has_spec": true
 		},
 		"Kurask boots": {
 			"ranged_damage": 9.3,
@@ -380120,7 +380578,8 @@
 			"magic_damage": 0,
 			"charges": 60000,
 			"prayer": 0,
-			"accuracy": 0
+			"accuracy": 0,
+			"has_passive": true
 		},
 		"Laniakea's spear": {
 			"ranged_damage": 0,
@@ -380137,11 +380596,15 @@
 			"armour": 0,
 			"speed": 5,
 			"tier": 82,
+			"damage_tier": 90,
+			"accuracy_tier": 75,
 			"lp": 0,
 			"attack_range": 2,
 			"class": "melee",
 			"accuracy": 1694,
-			"auto_damage": 2011.5
+			"auto_damage": 2011.5,
+			"can_augment": true,
+			"has_passive": true
 		},
 		"Lapis lazuli brooch": {
 			"ranged_damage": 0,
@@ -380195,7 +380658,9 @@
 			"attack_range": 1,
 			"class": "melee",
 			"accuracy": 2178,
-			"auto_damage": 816
+			"auto_damage": 816,
+			"can_augment": true,
+			"has_spec": true
 		},
 		"Law staff": {
 			"ranged_damage": 0,
@@ -380394,7 +380859,9 @@
 			"lp": 0,
 			"attack_range": 8,
 			"class": "magic",
-			"accuracy": 2458
+			"accuracy": 2458,
+			"can_augment": true,
+			"has_spec": true
 		},
 		"Lesser runic staff": {
 			"ranged_damage": 0,
@@ -380432,7 +380899,8 @@
 			"necromancy_damage": 18.7,
 			"charges": 100000,
 			"prayer": 0,
-			"accuracy": 0
+			"accuracy": 0,
+			"has_passive": true
 		},
 		"Light mystic boots": {
 			"ranged_damage": 0,
@@ -380535,7 +381003,8 @@
 			"magic_damage": 0,
 			"charges": 100000,
 			"prayer": 0,
-			"accuracy": 0
+			"accuracy": 0,
+			"can_augment": true
 		},
 		"Linza's greaves": {
 			"ranged_damage": 0,
@@ -380553,7 +381022,8 @@
 			"magic_damage": 0,
 			"charges": 100000,
 			"prayer": 0,
-			"accuracy": 0
+			"accuracy": 0,
+			"can_augment": true
 		},
 		"Linza's hammer": {
 			"ranged_damage": 0,
@@ -380574,7 +381044,8 @@
 			"attack_range": 1,
 			"class": "melee",
 			"accuracy": 1924,
-			"auto_damage": 768
+			"auto_damage": 768,
+			"can_augment": true
 		},
 		"Linza's helm": {
 			"ranged_damage": 0,
@@ -381001,7 +381472,8 @@
 			"attack_range": 9,
 			"class": "ranged",
 			"accuracy": 850,
-			"auto_damage": 265
+			"auto_damage": 265,
+			"has_spec": true
 		},
 		"Magic master cape": {
 			"ranged_damage": 22.5,
@@ -381058,7 +381530,8 @@
 			"attack_range": 9,
 			"class": "ranged",
 			"accuracy": 983,
-			"auto_damage": 291.5
+			"auto_damage": 291.5,
+			"has_spec": true
 		},
 		"Magic shieldbow": {
 			"ranged_damage": 0,
@@ -381080,7 +381553,8 @@
 			"attack_range": 8,
 			"class": "ranged",
 			"accuracy": 850,
-			"auto_damage": 265
+			"auto_damage": 265,
+			"has_spec": true
 		},
 		"Magic shortbow": {
 			"ranged_damage": 0,
@@ -381100,7 +381574,8 @@
 			"attack_range": 7,
 			"class": "ranged",
 			"accuracy": 850,
-			"auto_damage": 438.8
+			"auto_damage": 438.8,
+			"has_spec": true
 		},
 		"Magic staff": {
 			"ranged_damage": 0,
@@ -381154,7 +381629,8 @@
 			"magic_damage": 0,
 			"charges": 100000,
 			"prayer": 3,
-			"accuracy": 0
+			"accuracy": 0,
+			"can_augment": true
 		},
 		"Malevolent greaves": {
 			"ranged_damage": 0,
@@ -381172,7 +381648,8 @@
 			"magic_damage": 0,
 			"charges": 100000,
 			"prayer": 2,
-			"accuracy": 0
+			"accuracy": 0,
+			"can_augment": true
 		},
 		"Malevolent helm": {
 			"ranged_damage": 0,
@@ -381241,6 +381718,8 @@
 			},
 			"speed": 3,
 			"tier": 25,
+			"damage_tier": 1,
+			"accuracy_tier": 25,
 			"lp": 0,
 			"attack_range": 1,
 			"class": "melee",
@@ -381261,6 +381740,8 @@
 			},
 			"speed": 3,
 			"tier": 25,
+			"damage_tier": 1,
+			"accuracy_tier": 25,
 			"lp": 0,
 			"attack_range": 1,
 			"class": "melee",
@@ -381281,6 +381762,8 @@
 			},
 			"speed": 3,
 			"tier": 25,
+			"damage_tier": 1,
+			"accuracy_tier": 25,
 			"lp": 0,
 			"attack_range": 1,
 			"class": "melee",
@@ -381887,10 +382370,14 @@
 			"ability_damage": 2235,
 			"speed": 4,
 			"tier": 100,
+			"damage_tier": 100,
+			"accuracy_tier": 100,
 			"lp": 0,
 			"attack_range": 8,
 			"class": "ranged",
-			"accuracy": 3100
+			"accuracy": 3100,
+			"can_augment": true,
+			"has_passive": true
 		},
 		"Masterwork Spear of Annihilation": {
 			"ranged_damage": 0,
@@ -381911,7 +382398,9 @@
 			"attack_range": 1,
 			"class": "melee",
 			"accuracy": 2577,
-			"auto_damage": 2056.2
+			"auto_damage": 2056.2,
+			"can_augment": true,
+			"has_passive": true
 		},
 		"Masterwork staff": {
 			"ranged_damage": 0,
@@ -381930,7 +382419,9 @@
 			"lp": 0,
 			"attack_range": 8,
 			"class": "magic",
-			"accuracy": 3100
+			"accuracy": 3100,
+			"can_augment": true,
+			"has_passive": true
 		},
 		"Masterwork ranged body": {
 			"ranged_damage": 37.5,
@@ -381947,7 +382438,8 @@
 			"melee_damage": 0,
 			"magic_damage": 0,
 			"prayer": 3,
-			"accuracy": 0
+			"accuracy": 0,
+			"can_augment": true
 		},
 		"Masterwork ranged boots": {
 			"ranged_damage": 15.6,
@@ -381981,7 +382473,8 @@
 			"melee_damage": 0,
 			"magic_damage": 0,
 			"prayer": 2,
-			"accuracy": 0
+			"accuracy": 0,
+			"can_augment": true
 		},
 		"Masterwork ranged cowl": {
 			"ranged_damage": 25,
@@ -382083,7 +382576,8 @@
 			"melee_damage": 0,
 			"magic_damage": 31.2,
 			"prayer": 2,
-			"accuracy": 0
+			"accuracy": 0,
+			"can_augment": true
 		},
 		"Masterwork magic robe top": {
 			"ranged_damage": 0,
@@ -382100,7 +382594,8 @@
 			"melee_damage": 0,
 			"magic_damage": 37.5,
 			"prayer": 3,
-			"accuracy": 0
+			"accuracy": 0,
+			"can_augment": true
 		},
 		"Masterwork melee boots": {
 			"ranged_damage": 0,
@@ -382171,7 +382666,8 @@
 			"melee_damage": 33.7,
 			"magic_damage": 0,
 			"prayer": 3,
-			"accuracy": 0
+			"accuracy": 0,
+			"can_augment": true
 		},
 		"Masterwork melee platelegs": {
 			"ranged_damage": 0,
@@ -382188,7 +382684,8 @@
 			"melee_damage": 28.1,
 			"magic_damage": 0,
 			"prayer": 2,
-			"accuracy": 0
+			"accuracy": 0,
+			"can_augment": true
 		},
 		"Masterwork 2h sword": {
 			"ranged_damage": 0,
@@ -382205,11 +382702,15 @@
 			"armour": 0,
 			"speed": 6,
 			"tier": 100,
+			"damage_tier": 100,
+			"accuracy_tier": 100,
 			"lp": 0,
 			"attack_range": 1,
 			"class": "melee",
 			"accuracy": 3100,
-			"auto_damage": 2235
+			"auto_damage": 2235,
+			"can_augment": true,
+			"has_passive": true
 		},
 		"Masuta's warspear": {
 			"ranged_damage": 0,
@@ -382230,7 +382731,8 @@
 			"attack_range": 2,
 			"class": "melee",
 			"accuracy": 2023,
-			"auto_damage": 1832.7
+			"auto_damage": 1832.7,
+			"can_augment": true
 		},
 		"Mattock of Time and Space": {
 			"ranged_damage": 0,
@@ -382307,7 +382809,8 @@
 			"attack_range": 9,
 			"class": "ranged",
 			"accuracy": 1694,
-			"auto_damage": 994
+			"auto_damage": 994,
+			"has_passive": true
 		},
 		"Mega-phonus": {
 			"ranged_damage": 0,
@@ -382647,7 +383150,8 @@
 			"lp": 0,
 			"attack_range": 8,
 			"class": "magic",
-			"accuracy": 202
+			"accuracy": 202,
+			"has_spec": true
 		},
 		"Mindspike (earth)": {
 			"ranged_damage": 0,
@@ -382666,7 +383170,8 @@
 			"lp": 0,
 			"attack_range": 8,
 			"class": "magic",
-			"accuracy": 202
+			"accuracy": 202,
+			"has_spec": true
 		},
 		"Mindspike (fire)": {
 			"ranged_damage": 0,
@@ -382685,7 +383190,8 @@
 			"lp": 0,
 			"attack_range": 8,
 			"class": "magic",
-			"accuracy": 202
+			"accuracy": 202,
+			"has_spec": true
 		},
 		"Mindspike (water)": {
 			"ranged_damage": 0,
@@ -382704,7 +383210,8 @@
 			"lp": 0,
 			"attack_range": 8,
 			"class": "magic",
-			"accuracy": 202
+			"accuracy": 202,
+			"has_spec": true
 		},
 		"Mining cape (t)": {
 			"ranged_damage": 22.5,
@@ -384845,7 +385352,8 @@
 			"attack_range": 1,
 			"class": "melee",
 			"accuracy": 2178,
-			"auto_damage": 1899.8
+			"auto_damage": 1899.8,
+			"can_augment": true
 		},
 		"Monk's robe (bottom)": {
 			"ranged_damage": 0,
@@ -384912,7 +385420,8 @@
 			"attack_range": 7,
 			"class": "ranged",
 			"accuracy": 1829,
-			"auto_damage": 1162.2
+			"auto_damage": 1162.2,
+			"has_spec": true
 		},
 		"Morrigan's leather body": {
 			"ranged_damage": 30,
@@ -384969,7 +385478,8 @@
 			"attack_range": 4,
 			"class": "ranged",
 			"accuracy": 1829,
-			"auto_damage": 955.5
+			"auto_damage": 955.5,
+			"has_spec": true
 		},
 		"Morytania legs 1": {
 			"ranged_damage": 0,
@@ -386538,7 +387048,7 @@
 			"class": "magic",
 			"accuracy": 202
 		},
-		"Gloves of passage": {
+		"Nightmare gauntlets": {
 			"ranged_damage": 13.2,
 			"requirements": {
 				"Defence": 85
@@ -386609,7 +387119,9 @@
 			"attack_range": 9,
 			"class": "ranged",
 			"accuracy": 2458,
-			"auto_damage": 1147.5
+			"auto_damage": 1147.5,
+			"can_augment": true,
+			"has_spec": true
 		},
 		"Noxious scythe": {
 			"ranged_damage": 0,
@@ -386631,7 +387143,9 @@
 			"attack_range": 2,
 			"class": "melee",
 			"accuracy": 2458,
-			"auto_damage": 2011.5
+			"auto_damage": 2011.5,
+			"can_augment": true,
+			"has_spec": true
 		},
 		"Noxious staff": {
 			"ranged_damage": 0,
@@ -386651,7 +387165,9 @@
 			"lp": 0,
 			"attack_range": 8,
 			"class": "magic",
-			"accuracy": 2458
+			"accuracy": 2458,
+			"can_augment": true,
+			"has_spec": true
 		},
 		"Oak blackjack (d)": {
 			"ranged_damage": 0,
@@ -386667,6 +387183,8 @@
 			},
 			"speed": 3,
 			"tier": 10,
+			"damage_tier": 1,
+			"accuracy_tier": 10,
 			"lp": 0,
 			"attack_range": 1,
 			"class": "melee",
@@ -386687,6 +387205,8 @@
 			},
 			"speed": 3,
 			"tier": 10,
+			"damage_tier": 1,
+			"accuracy_tier": 10,
 			"lp": 0,
 			"attack_range": 1,
 			"class": "melee",
@@ -386747,6 +387267,8 @@
 			"requirements": {},
 			"speed": 3,
 			"tier": 1,
+			"damage_tier": 1,
+			"accuracy_tier": 10,
 			"lp": 0,
 			"attack_range": 1,
 			"class": "melee",
@@ -386932,7 +387454,8 @@
 			"necromancy_damage": 46,
 			"necromancy_accuracy": 84,
 			"prayer": 0,
-			"accuracy": 0
+			"accuracy": 0,
+			"has_passive": true
 		},
 		"Occultist's hex necklace": {
 			"ranged_damage": 0,
@@ -386983,7 +387506,8 @@
 			"magic_damage": 0,
 			"necromancy_damage": 34.5,
 			"prayer": 0,
-			"accuracy": 0
+			"accuracy": 0,
+			"has_passive": true
 		},
 		"Occultist's undead necklace": {
 			"ranged_damage": 0,
@@ -387022,7 +387546,9 @@
 			"attack_range": 1,
 			"class": "magic",
 			"accuracy": 2287,
-			"auto_damage": 1944.5
+			"auto_damage": 1944.5,
+			"can_augment": true,
+			"has_spec": true
 		},
 		"Ode to Deceit": {
 			"formatted_name": "Ode to Deceit",
@@ -387043,7 +387569,9 @@
 			"attack_range": 8,
 			"class": "magic",
 			"accuracy": 2765,
-			"auto_damage": 0
+			"auto_damage": 0,
+			"can_augment": true,
+			"has_passive": true
 		},
 		"Off-hand Armadyl crossbow": {
 			"ranged_damage": 0,
@@ -387062,7 +387590,8 @@
 			"lp": 0,
 			"attack_range": 7,
 			"class": "ranged",
-			"accuracy": 1694
+			"accuracy": 1694,
+			"can_augment": true
 		},
 		"Off-hand Blightbound crossbow": {
 			"ranged_damage": 0,
@@ -387082,7 +387611,9 @@
 			"lp": 0,
 			"attack_range": 7,
 			"class": "ranged",
-			"accuracy": 2577
+			"accuracy": 2577,
+			"can_augment": true,
+			"has_passive": true
 		},
 		"Off-hand Death Lotus dart": {
 			"ranged_damage": 0,
@@ -387103,7 +387634,8 @@
 			"attack_range": 6,
 			"class": "ranged",
 			"accuracy": 2178,
-			"auto_damage": 408
+			"auto_damage": 408,
+			"can_augment": true
 		},
 		"Off-hand Elite Death Lotus dart": {
 			"ranged_damage": 0,
@@ -387124,7 +387656,8 @@
 			"attack_range": 6,
 			"class": "ranged",
 			"accuracy": 2343,
-			"auto_damage": 422.4
+			"auto_damage": 422.4,
+			"can_augment": true
 		},
 		"Off-hand adamant ceremonial sword I": {
 			"ranged_damage": 0,
@@ -387326,7 +387859,8 @@
 			"lp": 0,
 			"attack_range": 7,
 			"class": "ranged",
-			"accuracy": 2458
+			"accuracy": 2458,
+			"can_augment": true
 		},
 		"Off-hand attuned crystal chakram": {
 			"ranged_damage": 0,
@@ -387348,7 +387882,9 @@
 			"attack_range": 7,
 			"class": "ranged",
 			"accuracy": 1924,
-			"auto_damage": 490
+			"auto_damage": 490,
+			"can_augment": true,
+			"has_passive": true
 		},
 		"Off-hand attuned crystal dagger": {
 			"ranged_damage": 0,
@@ -387370,7 +387906,9 @@
 			"attack_range": 1,
 			"class": "melee",
 			"accuracy": 1924,
-			"auto_damage": 384
+			"auto_damage": 384,
+			"can_augment": true,
+			"has_passive": true
 		},
 		"Off-hand black battleaxe": {
 			"ranged_damage": 0,
@@ -387790,7 +388328,8 @@
 			"attack_range": 1,
 			"class": "melee",
 			"accuracy": 1924,
-			"auto_damage": 384
+			"auto_damage": 384,
+			"can_augment": true
 		},
 		"Off-hand chaotic crossbow": {
 			"ranged_damage": 0,
@@ -387811,7 +388350,8 @@
 			"lp": 0,
 			"attack_range": 7,
 			"class": "ranged",
-			"accuracy": 1924
+			"accuracy": 1924,
+			"can_augment": true
 		},
 		"Off-hand chaotic longsword": {
 			"ranged_damage": 0,
@@ -387832,7 +388372,8 @@
 			"attack_range": 1,
 			"class": "melee",
 			"accuracy": 1924,
-			"auto_damage": 490
+			"auto_damage": 490,
+			"can_augment": true
 		},
 		"Off-hand chaotic rapier": {
 			"ranged_damage": 0,
@@ -387853,7 +388394,8 @@
 			"attack_range": 1,
 			"class": "melee",
 			"accuracy": 1924,
-			"auto_damage": 490
+			"auto_damage": 490,
+			"can_augment": true
 		},
 		"Off-hand crystal chakram": {
 			"ranged_damage": 0,
@@ -387875,7 +388417,8 @@
 			"attack_range": 7,
 			"class": "ranged",
 			"accuracy": 1486,
-			"auto_damage": 428.7
+			"auto_damage": 428.7,
+			"can_augment": true
 		},
 		"Off-hand crystal dagger": {
 			"ranged_damage": 0,
@@ -387897,7 +388440,8 @@
 			"attack_range": 1,
 			"class": "melee",
 			"accuracy": 1486,
-			"auto_damage": 336
+			"auto_damage": 336,
+			"can_augment": true
 		},
 		"Off-hand demon slayer crossbow": {
 			"ranged_damage": 0,
@@ -388180,7 +388724,8 @@
 			"attack_range": 1,
 			"class": "melee",
 			"accuracy": 2458,
-			"auto_damage": 551.2
+			"auto_damage": 551.2,
+			"can_augment": true
 		},
 		"Off-hand drygore mace": {
 			"ranged_damage": 0,
@@ -388201,7 +388746,8 @@
 			"attack_range": 1,
 			"class": "melee",
 			"accuracy": 2458,
-			"auto_damage": 432
+			"auto_damage": 432,
+			"can_augment": true
 		},
 		"Off-hand drygore rapier": {
 			"ranged_damage": 0,
@@ -388222,7 +388768,8 @@
 			"attack_range": 1,
 			"class": "melee",
 			"accuracy": 2458,
-			"auto_damage": 551.2
+			"auto_damage": 551.2,
+			"can_augment": true
 		},
 		"Off-hand gravite knife": {
 			"ranged_damage": 0,
@@ -388707,6 +389254,8 @@
 			},
 			"speed": 2,
 			"tier": 90,
+			"damage_tier": 85,
+			"accuracy_tier": 85,
 			"lp": 0,
 			"attack_range": 7,
 			"class": "ranged",
@@ -388726,6 +389275,8 @@
 			},
 			"speed": 2,
 			"tier": 95,
+			"damage_tier": 90,
+			"accuracy_tier": 90,
 			"lp": 0,
 			"attack_range": 7,
 			"class": "ranged",
@@ -388750,7 +389301,8 @@
 			"attack_range": 1,
 			"class": "melee",
 			"accuracy": 2178,
-			"auto_damage": 408
+			"auto_damage": 408,
+			"can_augment": true
 		},
 		"Off-hand rubber chicken": {
 			"ranged_damage": 0,
@@ -388967,11 +389519,14 @@
 			"armour": 0,
 			"speed": 4,
 			"tier": 85,
+			"damage_tier": 80,
+			"accuracy_tier": 90,
 			"lp": 0,
 			"attack_range": 7,
 			"class": "ranged",
 			"accuracy": 2458,
-			"auto_damage": 490
+			"auto_damage": 490,
+			"can_augment": true
 		},
 		"Off-hand steel ceremonial sword I": {
 			"ranged_damage": 0,
@@ -389271,7 +389826,10 @@
 			"lp": 0,
 			"attack_range": 6,
 			"class": "necromancy",
-			"accuracy": 2765
+			"accuracy": 2765,
+			"can_augment": true,
+			"has_spec": true,
+			"has_passive": true
 		},
 		"Omni-talisman staff": {
 			"ranged_damage": 0,
@@ -389536,10 +390094,13 @@
 			"armour": 0,
 			"speed": 3,
 			"tier": 85,
+			"damage_tier": 80,
+			"accuracy_tier": 90,
 			"lp": 0,
 			"attack_range": 8,
 			"class": "magic",
-			"accuracy": 2458
+			"accuracy": 2458,
+			"can_augment": true
 		},
 		"Orikalkum 2h warhammer + 1": {
 			"ranged_damage": 0,
@@ -390550,7 +391111,8 @@
 			"lp": 0,
 			"attack_range": 8,
 			"class": "magic",
-			"accuracy": 202
+			"accuracy": 202,
+			"has_spec": true
 		},
 		"Penguin staff": {
 			"ranged_damage": 0,
@@ -390591,7 +391153,8 @@
 			"magic_damage": 0,
 			"charges": 30000,
 			"prayer": 3,
-			"accuracy": 0
+			"accuracy": 0,
+			"can_augment": true
 		},
 		"Pernix boots": {
 			"ranged_damage": 12.5,
@@ -390629,7 +391192,8 @@
 			"magic_damage": 0,
 			"charges": 30000,
 			"prayer": 2,
-			"accuracy": 0
+			"accuracy": 0,
+			"can_augment": true
 		},
 		"Pernix cowl": {
 			"ranged_damage": 20,
@@ -390874,7 +391438,8 @@
 			"lp": 0,
 			"attack_range": 8,
 			"class": "magic",
-			"accuracy": 1694
+			"accuracy": 1694,
+			"can_augment": true
 		},
 		"Polypore stick": {
 			"ranged_damage": 0,
@@ -391284,6 +391849,8 @@
 			},
 			"speed": 2,
 			"tier": 90,
+			"damage_tier": 85,
+			"accuracy_tier": 85,
 			"lp": 0,
 			"attack_range": 7,
 			"class": "ranged",
@@ -391303,6 +391870,8 @@
 			},
 			"speed": 2,
 			"tier": 95,
+			"damage_tier": 90,
+			"accuracy_tier": 90,
 			"lp": 0,
 			"attack_range": 7,
 			"class": "ranged",
@@ -391538,6 +392107,8 @@
 			},
 			"speed": 3,
 			"tier": 99,
+			"damage_tier": 50,
+			"accuracy_tier": 85,
 			"lp": 0,
 			"attack_range": 1,
 			"class": "melee",
@@ -392215,7 +392786,8 @@
 			"attack_range": 1,
 			"class": "melee",
 			"accuracy": 1486,
-			"auto_damage": 672
+			"auto_damage": 672,
+			"can_augment": true
 		},
 		"Profound decorative helm": {
 			"ranged_damage": 0,
@@ -392444,7 +393016,8 @@
 			"attack_range": 7,
 			"class": "ranged",
 			"accuracy": 202,
-			"auto_damage": 183.8
+			"auto_damage": 183.8,
+			"has_spec": true
 		},
 		"Rage of Hyu-Ji": {
 			"ranged_damage": 0,
@@ -392463,7 +393036,8 @@
 			"lp": 0,
 			"attack_range": 8,
 			"class": "magic",
-			"accuracy": 1486
+			"accuracy": 1486,
+			"can_augment": true
 		},
 		"Ragefire boots": {
 			"ranged_damage": 0,
@@ -392751,7 +393325,8 @@
 			"magic_damage": 33,
 			"necromancy_damage": 33,
 			"prayer": 5,
-			"accuracy": 0
+			"accuracy": 0,
+			"has_passive": true
 		},
 		"Red cape": {
 			"ranged_damage": 0,
@@ -392786,7 +393361,8 @@
 			"attack_range": 9,
 			"class": "ranged",
 			"accuracy": 983,
-			"auto_damage": 673.8
+			"auto_damage": 673.8,
+			"has_passive": true
 		},
 		"Red dragonhide body": {
 			"ranged_damage": 0,
@@ -393077,7 +393653,8 @@
 			"magic_damage": 31.8,
 			"charges": 100000,
 			"prayer": 0,
-			"accuracy": 0
+			"accuracy": 0,
+			"can_augment": true
 		},
 		"Refined anima core body of Sliske": {
 			"ranged_damage": 0,
@@ -393094,7 +393671,8 @@
 			"magic_damage": 0,
 			"charges": 100000,
 			"prayer": 0,
-			"accuracy": 0
+			"accuracy": 0,
+			"can_augment": true
 		},
 		"Refined anima core body of Zamorak": {
 			"ranged_damage": 31.8,
@@ -393112,7 +393690,8 @@
 			"magic_damage": 0,
 			"charges": 100000,
 			"prayer": 0,
-			"accuracy": 0
+			"accuracy": 0,
+			"can_augment": true
 		},
 		"Refined anima core body of Zaros": {
 			"ranged_damage": 0,
@@ -393130,7 +393709,8 @@
 			"magic_damage": 0,
 			"charges": 100000,
 			"prayer": 0,
-			"accuracy": 0
+			"accuracy": 0,
+			"can_augment": true
 		},
 		"Refined anima core helm of Seren": {
 			"ranged_damage": 0,
@@ -393219,7 +393799,8 @@
 			"magic_damage": 26.5,
 			"charges": 100000,
 			"prayer": 0,
-			"accuracy": 0
+			"accuracy": 0,
+			"can_augment": true
 		},
 		"Refined anima core legs of Sliske": {
 			"ranged_damage": 0,
@@ -393236,7 +393817,8 @@
 			"magic_damage": 0,
 			"charges": 100000,
 			"prayer": 0,
-			"accuracy": 0
+			"accuracy": 0,
+			"can_augment": true
 		},
 		"Refined anima core legs of Zamorak": {
 			"ranged_damage": 26.5,
@@ -393254,7 +393836,8 @@
 			"magic_damage": 0,
 			"charges": 100000,
 			"prayer": 0,
-			"accuracy": 0
+			"accuracy": 0,
+			"can_augment": true
 		},
 		"Refined anima core legs of Zaros": {
 			"ranged_damage": 0,
@@ -393272,7 +393855,8 @@
 			"magic_damage": 0,
 			"charges": 100000,
 			"prayer": 0,
-			"accuracy": 0
+			"accuracy": 0,
+			"can_augment": true
 		},
 		"Reflecting blood essence": {
 			"ranged_damage": 0,
@@ -393497,7 +394081,8 @@
 			"attack_range": 1,
 			"class": "melee",
 			"accuracy": 1876,
-			"auto_damage": 1765.7
+			"auto_damage": 1765.7,
+			"can_augment": true
 		},
 		"Revenant bane longsword": {
 			"ranged_damage": 0,
@@ -393518,7 +394103,8 @@
 			"attack_range": 1,
 			"class": "melee",
 			"accuracy": 1876,
-			"auto_damage": 967.8
+			"auto_damage": 967.8,
+			"can_augment": true
 		},
 		"Revenant bane off-hand longsword": {
 			"ranged_damage": 0,
@@ -393539,7 +394125,8 @@
 			"attack_range": 1,
 			"class": "melee",
 			"accuracy": 1876,
-			"auto_damage": 483.9
+			"auto_damage": 483.9,
+			"can_augment": true
 		},
 		"Revenant bane square shield": {
 			"ranged_damage": 0,
@@ -393748,7 +394335,8 @@
 			"magic_damage": 16.8,
 			"necromancy_damage": 16.8,
 			"prayer": 0,
-			"accuracy": 0
+			"accuracy": 0,
+			"has_passive": true
 		},
 		"Ripper claw": {
 			"ranged_damage": 0,
@@ -393769,7 +394357,8 @@
 			"attack_range": 1,
 			"class": "melee",
 			"accuracy": 2178,
-			"auto_damage": 816
+			"auto_damage": 816,
+			"can_augment": true
 		},
 		"Roar of Awakening": {
 			"formatted_name": "Roar of Awakening",
@@ -393790,7 +394379,10 @@
 			"attack_range": 8,
 			"class": "magic",
 			"accuracy": 2765,
-			"auto_damage": 0
+			"auto_damage": 0,
+			"can_augment": true,
+			"has_spec": true,
+			"has_passive": true
 		},
 		"Robe bottom of the First Necromancer": {
 			"formatted_name": "robe bottom of the First Necromancer",
@@ -394097,7 +394689,8 @@
 			"attack_range": 9,
 			"class": "ranged",
 			"accuracy": 1924,
-			"auto_damage": 1020
+			"auto_damage": 1020,
+			"can_augment": true
 		},
 		"Royal dragonhide body": {
 			"ranged_damage": 0,
@@ -394348,11 +394941,14 @@
 			"armour": 0,
 			"speed": 5,
 			"tier": 90,
+			"damage_tier": 90,
+			"accuracy_tier": 100,
 			"lp": 0,
 			"attack_range": 6,
 			"class": "ranged",
 			"accuracy": 3100,
-			"auto_damage": 670
+			"auto_damage": 670,
+			"can_augment": true
 		},
 		"Ruinous guard": {
 			"ranged_damage": 0,
@@ -394370,11 +394966,14 @@
 			"armour": 0,
 			"speed": 5,
 			"tier": 90,
+			"damage_tier": 90,
+			"accuracy_tier": 100,
 			"lp": 0,
 			"attack_range": 6,
 			"class": "necromancy",
 			"accuracy": 3100,
-			"auto_damage": 1341
+			"auto_damage": 1341,
+			"can_augment": true
 		},
 		"Ruinous lantern": {
 			"ranged_damage": 0,
@@ -394392,11 +394991,14 @@
 			"armour": 0,
 			"speed": 5,
 			"tier": 90,
+			"damage_tier": 90,
+			"accuracy_tier": 100,
 			"lp": 0,
 			"attack_range": 6,
 			"class": "necromancy",
 			"accuracy": 3100,
-			"auto_damage": 670
+			"auto_damage": 670,
+			"can_augment": true
 		},
 		"Ruinous maul": {
 			"ranged_damage": 0,
@@ -394414,11 +395016,14 @@
 			"armour": 0,
 			"speed": 5,
 			"tier": 90,
+			"damage_tier": 90,
+			"accuracy_tier": 100,
 			"lp": 0,
 			"attack_range": 6,
 			"class": "melee",
 			"accuracy": 3100,
-			"auto_damage": 670
+			"auto_damage": 670,
+			"can_augment": true
 		},
 		"Off-hand ruinous crossbow": {
 			"ranged_damage": 0,
@@ -394436,11 +395041,14 @@
 			"armour": 0,
 			"speed": 5,
 			"tier": 90,
+			"damage_tier": 90,
+			"accuracy_tier": 100,
 			"lp": 0,
 			"attack_range": 6,
 			"class": "ranged",
 			"accuracy": 3100,
-			"auto_damage": 670
+			"auto_damage": 670,
+			"can_augment": true
 		},
 		"Off-hand ruinous rapier": {
 			"ranged_damage": 0,
@@ -394458,11 +395066,14 @@
 			"armour": 0,
 			"speed": 5,
 			"tier": 90,
+			"damage_tier": 90,
+			"accuracy_tier": 100,
 			"lp": 0,
 			"attack_range": 6,
 			"class": "melee",
 			"accuracy": 3100,
-			"auto_damage": 670
+			"auto_damage": 670,
+			"can_augment": true
 		},
 		"Ruinous rapier": {
 			"ranged_damage": 0,
@@ -394480,11 +395091,14 @@
 			"armour": 0,
 			"speed": 5,
 			"tier": 90,
+			"damage_tier": 90,
+			"accuracy_tier": 100,
 			"lp": 0,
 			"attack_range": 6,
 			"class": "melee",
 			"accuracy": 3100,
-			"auto_damage": 1341
+			"auto_damage": 1341,
+			"can_augment": true
 		},
 		"Ruinous staff": {
 			"ranged_damage": 0,
@@ -394502,11 +395116,14 @@
 			"armour": 0,
 			"speed": 5,
 			"tier": 90,
+			"damage_tier": 90,
+			"accuracy_tier": 100,
 			"lp": 0,
 			"attack_range": 6,
 			"class": "magic",
 			"accuracy": 3100,
-			"auto_damage": 670
+			"auto_damage": 670,
+			"can_augment": true
 		},
 		"Rune 2h crossbow": {
 			"ranged_damage": 0,
@@ -398724,7 +399341,8 @@
 			"attack_range": 4,
 			"class": "ranged",
 			"accuracy": 850,
-			"auto_damage": 745
+			"auto_damage": 745,
+			"has_spec": true
 		},
 		"Rune warhammer + 1": {
 			"ranged_damage": 0,
@@ -399449,7 +400067,8 @@
 			"attack_range": 7,
 			"class": "ranged",
 			"accuracy": 983,
-			"auto_damage": 291.5
+			"auto_damage": 291.5,
+			"has_spec": true
 		},
 		"Saradomin cape": {
 			"ranged_damage": 0,
@@ -399534,7 +400153,10 @@
 			"attack_range": 1,
 			"class": "melee",
 			"accuracy": 1694,
-			"auto_damage": 1676.3
+			"auto_damage": 1676.3,
+			"can_augment": true,
+			"has_spec": true,
+			"has_passive": true
 		},
 		"Saradomin godsword": {
 			"ranged_damage": 0,
@@ -399554,7 +400176,9 @@
 			"attack_range": 1,
 			"class": "melee",
 			"accuracy": 1694,
-			"auto_damage": 1676.3
+			"auto_damage": 1676.3,
+			"can_augment": true,
+			"has_spec": true
 		},
 		"Saradomin halo": {
 			"ranged_damage": 0,
@@ -399659,7 +400283,8 @@
 			"lp": 0,
 			"attack_range": 8,
 			"class": "magic",
-			"accuracy": 1132
+			"accuracy": 1132,
+			"has_spec": true
 		},
 		"Saradomin stole": {
 			"ranged_damage": 0,
@@ -399695,7 +400320,8 @@
 			"attack_range": 1,
 			"class": "melee",
 			"accuracy": 1694,
-			"auto_damage": 1378.1
+			"auto_damage": 1378.1,
+			"has_spec": true
 		},
 		"Saradomin's Book of Wisdom": {
 			"ranged_damage": 7.8,
@@ -399712,7 +400338,8 @@
 			"magic_damage": 7.8,
 			"necromancy_damage": 7.8,
 			"prayer": 2,
-			"accuracy": 0
+			"accuracy": 0,
+			"has_passive": true
 		},
 		"Saradomin's hiss": {
 			"ranged_damage": 0,
@@ -399948,7 +400575,8 @@
 			"magic_damage": 10.9,
 			"necromancy_damage": 10.9,
 			"prayer": 5,
-			"accuracy": 0
+			"accuracy": 0,
+			"has_passive": true
 		},
 		"Scripture of Bik": {
 			"formatted_name": "Scripture of Bik",
@@ -399994,7 +400622,8 @@
 			"magic_damage": 10.9,
 			"necromancy_damage": 10.9,
 			"prayer": 5,
-			"accuracy": 0
+			"accuracy": 0,
+			"has_passive": true
 		},
 		"Scripture of Jas": {
 			"formatted_name": "Scripture of Jas",
@@ -400010,7 +400639,8 @@
 			"magic_damage": 10.9,
 			"necromancy_damage": 10.9,
 			"prayer": 5,
-			"accuracy": 0
+			"accuracy": 0,
+			"has_passive": true
 		},
 		"Scripture of Wen": {
 			"formatted_name": "Scripture of Wen",
@@ -400026,7 +400656,8 @@
 			"magic_damage": 10.9,
 			"necromancy_damage": 10.9,
 			"prayer": 5,
-			"accuracy": 0
+			"accuracy": 0,
+			"has_passive": true
 		},
 		"Seasinger kiba": {
 			"ranged_damage": 0,
@@ -400046,7 +400677,8 @@
 			"lp": 0,
 			"attack_range": 8,
 			"class": "magic",
-			"accuracy": 2178
+			"accuracy": 2178,
+			"can_augment": true
 		},
 		"Seasinger makigai": {
 			"ranged_damage": 0,
@@ -400066,7 +400698,8 @@
 			"lp": 0,
 			"attack_range": 8,
 			"class": "magic",
-			"accuracy": 2178
+			"accuracy": 2178,
+			"can_augment": true
 		},
 		"Seasinger's hood": {
 			"ranged_damage": 0,
@@ -400140,7 +400773,8 @@
 			"attack_range": 7,
 			"class": "ranged",
 			"accuracy": 1924,
-			"auto_damage": 1020
+			"auto_damage": 1020,
+			"can_augment": true
 		},
 		"Second-Age full helm": {
 			"ranged_damage": 0,
@@ -400191,7 +400825,8 @@
 			"melee_damage": 0,
 			"magic_damage": 0,
 			"prayer": 0,
-			"accuracy": 0
+			"accuracy": 0,
+			"can_augment": true
 		},
 		"Second-Age platelegs": {
 			"ranged_damage": 0,
@@ -400208,7 +400843,8 @@
 			"melee_damage": 0,
 			"magic_damage": 0,
 			"prayer": 0,
-			"accuracy": 0
+			"accuracy": 0,
+			"can_augment": true
 		},
 		"Second-Age range coif": {
 			"ranged_damage": 0,
@@ -400242,7 +400878,8 @@
 			"melee_damage": 0,
 			"magic_damage": 0,
 			"prayer": 0,
-			"accuracy": 0
+			"accuracy": 0,
+			"can_augment": true
 		},
 		"Second-Age range top": {
 			"ranged_damage": 0,
@@ -400259,7 +400896,8 @@
 			"melee_damage": 0,
 			"magic_damage": 0,
 			"prayer": 0,
-			"accuracy": 0
+			"accuracy": 0,
+			"can_augment": true
 		},
 		"Second-Age robe bottom": {
 			"ranged_damage": 0,
@@ -400276,7 +400914,8 @@
 			"melee_damage": 0,
 			"magic_damage": 0,
 			"prayer": 0,
-			"accuracy": 0
+			"accuracy": 0,
+			"can_augment": true
 		},
 		"Second-Age robe top": {
 			"ranged_damage": 0,
@@ -400293,7 +400932,8 @@
 			"melee_damage": 0,
 			"magic_damage": 0,
 			"prayer": 0,
-			"accuracy": 0
+			"accuracy": 0,
+			"can_augment": true
 		},
 		"Second-Age staff": {
 			"ranged_damage": 0,
@@ -400312,7 +400952,8 @@
 			"lp": 0,
 			"attack_range": 8,
 			"class": "magic",
-			"accuracy": 1924
+			"accuracy": 1924,
+			"can_augment": true
 		},
 		"Second-Age sword": {
 			"ranged_damage": 0,
@@ -400332,7 +400973,8 @@
 			"attack_range": 1,
 			"class": "melee",
 			"accuracy": 1924,
-			"auto_damage": 768
+			"auto_damage": 768,
+			"can_augment": true
 		},
 		"Seer's headband 1": {
 			"ranged_damage": 0,
@@ -400408,11 +401050,14 @@
 			},
 			"speed": 3,
 			"tier": 50,
+			"damage_tier": 50,
+			"accuracy_tier": 52,
 			"lp": 0,
 			"attack_range": 7,
 			"class": "ranged",
 			"accuracy": 901,
-			"auto_damage": 249.6
+			"auto_damage": 249.6,
+			"has_spec": true
 		},
 		"Seers' ring (i)": {
 			"ranged_damage": 0,
@@ -400460,7 +401105,8 @@
 			"lp": 0,
 			"attack_range": 8,
 			"class": "magic",
-			"accuracy": 2458
+			"accuracy": 2458,
+			"can_augment": true
 		},
 		"Seismic wand": {
 			"ranged_damage": 0,
@@ -400480,7 +401126,8 @@
 			"lp": 0,
 			"attack_range": 8,
 			"class": "magic",
-			"accuracy": 2458
+			"accuracy": 2458,
+			"can_augment": true
 		},
 		"Seren godbow": {
 			"ranged_damage": 0,
@@ -400502,7 +401149,9 @@
 			"attack_range": 9,
 			"class": "ranged",
 			"accuracy": 2577,
-			"auto_damage": 2056.2
+			"auto_damage": 2056.2,
+			"can_augment": true,
+			"has_spec": true
 		},
 		"Shade robe bottom": {
 			"ranged_damage": 0,
@@ -400547,11 +401196,14 @@
 			"armour": 0,
 			"speed": 4,
 			"tier": 85,
+			"damage_tier": 80,
+			"accuracy_tier": 90,
 			"lp": 0,
 			"attack_range": 7,
 			"class": "ranged",
 			"accuracy": 2458,
-			"auto_damage": 980
+			"auto_damage": 980,
+			"can_augment": true
 		},
 		"Shadow sword": {
 			"ranged_damage": 0,
@@ -400755,7 +401407,8 @@
 			"magic_damage": 0,
 			"charges": 100000,
 			"prayer": 2,
-			"accuracy": 0
+			"accuracy": 0,
+			"can_augment": true
 		},
 		"Sirenic hauberk": {
 			"ranged_damage": 33.7,
@@ -400773,7 +401426,8 @@
 			"magic_damage": 0,
 			"charges": 100000,
 			"prayer": 3,
-			"accuracy": 0
+			"accuracy": 0,
+			"can_augment": true
 		},
 		"Sirenic mask": {
 			"ranged_damage": 22.5,
@@ -401023,7 +401677,8 @@
 			"slot": "off-hand weapon",
 			"attack_range": 6,
 			"prayer": 0,
-			"accuracy": 1486
+			"accuracy": 1486,
+			"can_augment": true
 		},
 		"Skull lantern (tier 80)": {
 			"requirements": {
@@ -401039,7 +401694,8 @@
 			"slot": "off-hand weapon",
 			"attack_range": 6,
 			"prayer": 0,
-			"accuracy": 1924
+			"accuracy": 1924,
+			"can_augment": true
 		},
 		"Skull lantern (tier 90)": {
 			"ranged_damage": 0,
@@ -401056,7 +401712,8 @@
 			"slot": "off-hand weapon",
 			"attack_range": 6,
 			"prayer": 0,
-			"accuracy": 2765
+			"accuracy": 2765,
+			"can_augment": true
 		},
 		"Skull sceptre": {
 			"ranged_damage": 0,
@@ -401375,7 +402032,9 @@
 			"magic_damage": 0,
 			"attack_range": 6,
 			"prayer": 0,
-			"accuracy": 2765
+			"accuracy": 2765,
+			"can_augment": true,
+			"has_passive": true
 		},
 		"Soul cape": {
 			"ranged_damage": 18.7,
@@ -401448,7 +402107,8 @@
 			"attack_range": 1,
 			"class": "melee",
 			"accuracy": 2458,
-			"auto_damage": 2011.5
+			"auto_damage": 2011.5,
+			"can_augment": true
 		},
 		"Spectral lens": {
 			"ranged_damage": 0,
@@ -402142,7 +402802,9 @@
 			"lp": 0,
 			"attack_range": 8,
 			"class": "magic",
-			"accuracy": 2577
+			"accuracy": 2577,
+			"can_augment": true,
+			"has_spec": true
 		},
 		"Staff of air": {
 			"ranged_damage": 0,
@@ -402181,7 +402843,9 @@
 			"lp": 0,
 			"attack_range": 8,
 			"class": "magic",
-			"accuracy": 2178
+			"accuracy": 2178,
+			"can_augment": true,
+			"has_spec": true
 		},
 		"Staff of earth": {
 			"ranged_damage": 0,
@@ -402234,7 +402898,9 @@
 			"lp": 0,
 			"attack_range": 8,
 			"class": "magic",
-			"accuracy": 1694
+			"accuracy": 1694,
+			"can_augment": true,
+			"has_spec": true
 		},
 		"Staff of limitless air": {
 			"ranged_damage": 0,
@@ -402254,7 +402920,8 @@
 			"lp": 0,
 			"attack_range": 8,
 			"class": "magic",
-			"accuracy": 2023
+			"accuracy": 2023,
+			"can_augment": true
 		},
 		"Staff of limitless earth": {
 			"ranged_damage": 0,
@@ -402274,7 +402941,8 @@
 			"lp": 0,
 			"attack_range": 8,
 			"class": "magic",
-			"accuracy": 2023
+			"accuracy": 2023,
+			"can_augment": true
 		},
 		"Staff of limitless fire": {
 			"ranged_damage": 0,
@@ -402294,7 +402962,8 @@
 			"lp": 0,
 			"attack_range": 8,
 			"class": "magic",
-			"accuracy": 2023
+			"accuracy": 2023,
+			"can_augment": true
 		},
 		"Staff of limitless lava": {
 			"ranged_damage": 0,
@@ -402314,7 +402983,8 @@
 			"lp": 0,
 			"attack_range": 8,
 			"class": "magic",
-			"accuracy": 2023
+			"accuracy": 2023,
+			"can_augment": true
 		},
 		"Staff of limitless mud": {
 			"ranged_damage": 0,
@@ -402334,7 +403004,8 @@
 			"lp": 0,
 			"attack_range": 8,
 			"class": "magic",
-			"accuracy": 2023
+			"accuracy": 2023,
+			"can_augment": true
 		},
 		"Staff of limitless steam": {
 			"ranged_damage": 0,
@@ -402354,7 +403025,8 @@
 			"lp": 0,
 			"attack_range": 8,
 			"class": "magic",
-			"accuracy": 2023
+			"accuracy": 2023,
+			"can_augment": true
 		},
 		"Staff of limitless water": {
 			"ranged_damage": 0,
@@ -402374,7 +403046,8 @@
 			"lp": 0,
 			"attack_range": 8,
 			"class": "magic",
-			"accuracy": 2023
+			"accuracy": 2023,
+			"can_augment": true
 		},
 		"Staff of water": {
 			"ranged_damage": 0,
@@ -402457,7 +403130,8 @@
 			"melee_damage": 0,
 			"magic_damage": 0,
 			"prayer": 5,
-			"accuracy": 0
+			"accuracy": 0,
+			"has_passive": true
 		},
 		"Static gloves": {
 			"ranged_damage": 0,
@@ -402549,7 +403223,8 @@
 			"attack_range": 1,
 			"class": "melee",
 			"accuracy": 1829,
-			"auto_damage": 1162.2
+			"auto_damage": 1162.2,
+			"has_spec": true
 		},
 		"Starbloom hat": {
 			"ranged_damage": 0,
@@ -405263,7 +405938,10 @@
 			"attack_range": 9,
 			"class": "ranged",
 			"accuracy": 2178,
-			"auto_damage": 450.5
+			"auto_damage": 450.5,
+			"can_augment": true,
+			"has_spec": true,
+			"has_passive": true
 		},
 		"Studded body (g)": {
 			"ranged_damage": 0,
@@ -405518,7 +406196,8 @@
 			"lp": 0,
 			"attack_range": 8,
 			"class": "magic",
-			"accuracy": 1829
+			"accuracy": 1829,
+			"can_augment": true
 		},
 		"Sunspear (melee)": {
 			"ranged_damage": 0,
@@ -405539,7 +406218,8 @@
 			"attack_range": 1,
 			"class": "melee",
 			"accuracy": 1829,
-			"auto_damage": 1743.3
+			"auto_damage": 1743.3,
+			"can_augment": true
 		},
 		"Sunspear (ranged)": {
 			"ranged_damage": 0,
@@ -405560,7 +406240,8 @@
 			"attack_range": 7,
 			"class": "ranged",
 			"accuracy": 1829,
-			"auto_damage": 1743.3
+			"auto_damage": 1743.3,
+			"can_augment": true
 		},
 		"Sunspear": {
 			"ranged_damage": 0,
@@ -405613,7 +406294,8 @@
 			"magic_damage": 0,
 			"charges": 72000,
 			"prayer": 2,
-			"accuracy": 0
+			"accuracy": 0,
+			"can_augment": true
 		},
 		"Superior Death Lotus chestplate": {
 			"ranged_damage": 0,
@@ -405631,7 +406313,8 @@
 			"magic_damage": 0,
 			"charges": 72000,
 			"prayer": 3,
-			"accuracy": 0
+			"accuracy": 0,
+			"can_augment": true
 		},
 		"Superior Death Lotus hood": {
 			"ranged_damage": 0,
@@ -405756,7 +406439,9 @@
 			"attack_range": 7,
 			"class": "ranged",
 			"accuracy": 2343,
-			"auto_damage": 1311.2
+			"auto_damage": 1311.2,
+			"can_augment": true,
+			"has_spec": true
 		},
 		"Superior Morrigan's leather body": {
 			"ranged_damage": 33,
@@ -405774,7 +406459,8 @@
 			"magic_damage": 0,
 			"charges": 100000,
 			"prayer": 0,
-			"accuracy": 0
+			"accuracy": 0,
+			"can_augment": true
 		},
 		"Superior Morrigan's leather chaps": {
 			"ranged_damage": 27.5,
@@ -405792,7 +406478,8 @@
 			"magic_damage": 0,
 			"charges": 100000,
 			"prayer": 0,
-			"accuracy": 0
+			"accuracy": 0,
+			"can_augment": true
 		},
 		"Superior Morrigan's throwing axe": {
 			"ranged_damage": 0,
@@ -405813,7 +406500,9 @@
 			"attack_range": 4,
 			"class": "ranged",
 			"accuracy": 2343,
-			"auto_damage": 1078
+			"auto_damage": 1078,
+			"can_augment": true,
+			"has_spec": true
 		},
 		"Superior Statius's full helm": {
 			"ranged_damage": 0,
@@ -405849,7 +406538,8 @@
 			"magic_damage": 0,
 			"charges": 100000,
 			"prayer": 0,
-			"accuracy": 0
+			"accuracy": 0,
+			"can_augment": true
 		},
 		"Superior Statius's platelegs": {
 			"ranged_damage": 0,
@@ -405867,7 +406557,8 @@
 			"magic_damage": 0,
 			"charges": 100000,
 			"prayer": 0,
-			"accuracy": 0
+			"accuracy": 0,
+			"can_augment": true
 		},
 		"Superior Statius's warhammer": {
 			"ranged_damage": 0,
@@ -405888,7 +406579,9 @@
 			"attack_range": 1,
 			"class": "melee",
 			"accuracy": 2343,
-			"auto_damage": 1311.2
+			"auto_damage": 1311.2,
+			"can_augment": true,
+			"has_spec": true
 		},
 		"Superior Vesta's chainbody": {
 			"ranged_damage": 0,
@@ -405906,7 +406599,8 @@
 			"magic_damage": 0,
 			"charges": 100000,
 			"prayer": 0,
-			"accuracy": 0
+			"accuracy": 0,
+			"can_augment": true
 		},
 		"Superior Vesta's longsword": {
 			"ranged_damage": 0,
@@ -405927,7 +406621,9 @@
 			"attack_range": 1,
 			"class": "melee",
 			"accuracy": 2343,
-			"auto_damage": 1078
+			"auto_damage": 1078,
+			"can_augment": true,
+			"has_spec": true
 		},
 		"Superior Vesta's plateskirt": {
 			"ranged_damage": 0,
@@ -405945,7 +406641,8 @@
 			"magic_damage": 0,
 			"charges": 100000,
 			"prayer": 0,
-			"accuracy": 0
+			"accuracy": 0,
+			"can_augment": true
 		},
 		"Superior Vesta's spear": {
 			"ranged_damage": 0,
@@ -405966,7 +406663,9 @@
 			"attack_range": 1,
 			"class": "melee",
 			"accuracy": 2343,
-			"auto_damage": 1966.8
+			"auto_damage": 1966.8,
+			"can_augment": true,
+			"has_spec": true
 		},
 		"Superior Zuriel's hood": {
 			"ranged_damage": 0,
@@ -406002,7 +406701,8 @@
 			"magic_damage": 27.5,
 			"charges": 100000,
 			"prayer": 0,
-			"accuracy": 0
+			"accuracy": 0,
+			"can_augment": true
 		},
 		"Superior Zuriel's robe top": {
 			"ranged_damage": 0,
@@ -406020,7 +406720,8 @@
 			"magic_damage": 33,
 			"charges": 100000,
 			"prayer": 0,
-			"accuracy": 0
+			"accuracy": 0,
+			"can_augment": true
 		},
 		"Superior Zuriel's staff": {
 			"ranged_damage": 0,
@@ -406040,7 +406741,9 @@
 			"lp": 0,
 			"attack_range": 8,
 			"class": "magic",
-			"accuracy": 2343
+			"accuracy": 2343,
+			"can_augment": true,
+			"has_spec": true
 		},
 		"Superior ancient mace": {
 			"ranged_damage": 0,
@@ -406353,7 +407056,8 @@
 			"necromancy_damage": 20.6,
 			"charges": 100000,
 			"prayer": 0,
-			"accuracy": 0
+			"accuracy": 0,
+			"has_passive": true
 		},
 		"Superior locator": {
 			"ranged_damage": 0,
@@ -406789,7 +407493,8 @@
 			"magic_damage": 0,
 			"charges": 72000,
 			"prayer": 2,
-			"accuracy": 0
+			"accuracy": 0,
+			"can_augment": true
 		},
 		"Superior seasinger's robe top": {
 			"ranged_damage": 0,
@@ -406807,7 +407512,8 @@
 			"magic_damage": 0,
 			"charges": 72000,
 			"prayer": 3,
-			"accuracy": 0
+			"accuracy": 0,
+			"can_augment": true
 		},
 		"Superior skeletal boots": {
 			"ranged_damage": 0,
@@ -407005,7 +407711,8 @@
 			"magic_damage": 0,
 			"charges": 72000,
 			"prayer": 3,
-			"accuracy": 0
+			"accuracy": 0,
+			"can_augment": true
 		},
 		"Superior tetsu helm": {
 			"ranged_damage": 0,
@@ -407077,7 +407784,8 @@
 			"magic_damage": 0,
 			"charges": 72000,
 			"prayer": 2,
-			"accuracy": 0
+			"accuracy": 0,
+			"can_augment": true
 		},
 		"Superior void knight deflector": {
 			"ranged_damage": 0,
@@ -407367,7 +408075,8 @@
 			"lp": 0,
 			"attack_range": 7,
 			"class": "ranged",
-			"accuracy": 1486
+			"accuracy": 1486,
+			"can_augment": true
 		},
 		"Tambourine": {
 			"ranged_damage": 0,
@@ -408210,7 +408919,8 @@
 			"magic_damage": 28.1,
 			"charges": 100000,
 			"prayer": 2,
-			"accuracy": 0
+			"accuracy": 0,
+			"can_augment": true
 		},
 		"Tectonic robe top": {
 			"ranged_damage": 0,
@@ -408228,7 +408938,8 @@
 			"magic_damage": 33.7,
 			"charges": 100000,
 			"prayer": 3,
-			"accuracy": 0
+			"accuracy": 0,
+			"can_augment": true
 		},
 		"Tellervo's net": {
 			"formatted_name": "Tellervo's net",
@@ -408447,7 +409158,8 @@
 			"attack_range": 1,
 			"class": "melee",
 			"accuracy": 1924,
-			"auto_damage": 1788
+			"auto_damage": 1788,
+			"can_augment": true
 		},
 		"Tetsu body": {
 			"ranged_damage": 0,
@@ -408522,7 +409234,8 @@
 			"attack_range": 2,
 			"class": "melee",
 			"accuracy": 1486,
-			"auto_damage": 1564.5
+			"auto_damage": 1564.5,
+			"can_augment": true
 		},
 		"The Spirit of Davendale sword": {
 			"ranged_damage": 0,
@@ -409201,7 +409914,8 @@
 			"attack_range": 1,
 			"class": "melee",
 			"accuracy": 1486,
-			"auto_damage": 1564.5
+			"auto_damage": 1564.5,
+			"can_augment": true
 		},
 		"Torag's helm": {
 			"ranged_damage": 0,
@@ -409237,7 +409951,8 @@
 			"magic_damage": 0,
 			"charges": 100000,
 			"prayer": 0,
-			"accuracy": 0
+			"accuracy": 0,
+			"can_augment": true
 		},
 		"Torag's platelegs": {
 			"ranged_damage": 0,
@@ -409255,7 +409970,8 @@
 			"magic_damage": 0,
 			"charges": 100000,
 			"prayer": 0,
-			"accuracy": 0
+			"accuracy": 0,
+			"can_augment": true
 		},
 		"Torva boots": {
 			"ranged_damage": 0,
@@ -409331,7 +410047,8 @@
 			"magic_damage": 0,
 			"charges": 30000,
 			"prayer": 3,
-			"accuracy": 0
+			"accuracy": 0,
+			"can_augment": true
 		},
 		"Torva platelegs": {
 			"ranged_damage": 0,
@@ -409350,7 +410067,8 @@
 			"magic_damage": 0,
 			"charges": 30000,
 			"prayer": 2,
-			"accuracy": 0
+			"accuracy": 0,
+			"can_augment": true
 		},
 		"Tower mindspike (air)": {
 			"ranged_damage": 0,
@@ -409539,7 +410257,8 @@
 			"melee_damage": 34.54,
 			"magic_damage": 0,
 			"prayer": 3,
-			"accuracy": 0
+			"accuracy": 0,
+			"can_augment": true
 		},
 		"Trimmed masterwork melee platelegs": {
 			"ranged_damage": 0,
@@ -409556,7 +410275,8 @@
 			"melee_damage": 31,
 			"magic_damage": 0,
 			"prayer": 2,
-			"accuracy": 0
+			"accuracy": 0,
+			"can_augment": true
 		},
 		"Trollweiss": {
 			"ranged_damage": 0,
@@ -409596,7 +410316,10 @@
 			"attack_range": 2,
 			"class": "melee",
 			"accuracy": 2765,
-			"auto_damage": 2123.3
+			"auto_damage": 2123.3,
+			"can_augment": true,
+			"has_spec": true,
+			"has_passive": true
 		},
 		"Turoth boots": {
 			"ranged_damage": 7.8,
@@ -409882,11 +410605,15 @@
 			"armour": 0,
 			"speed": 3,
 			"tier": 87,
+			"damage_tier": 85,
+			"accuracy_tier": 90,
 			"lp": 0,
 			"attack_range": 6,
 			"class": "ranged",
 			"accuracy": 2458,
-			"auto_damage": 1224
+			"auto_damage": 1224,
+			"can_augment": true,
+			"has_passive": true
 		},
 		"Uraeus (Apep's axe)": {
 			"ranged_damage": 0,
@@ -409924,7 +410651,8 @@
 			"magic_damage": 2.1,
 			"necromancy_damage": 2.1,
 			"prayer": 0,
-			"accuracy": 0
+			"accuracy": 0,
+			"has_passive": true
 		},
 		"Vanquish (magic)": {
 			"ranged_damage": 0,
@@ -410004,7 +410732,9 @@
 			"attack_range": 1,
 			"class": "melee",
 			"accuracy": 2458,
-			"auto_damage": 864
+			"auto_damage": 864,
+			"can_augment": true,
+			"has_spec": true
 		},
 		"Varrock armour 1": {
 			"ranged_damage": 0,
@@ -410102,7 +410832,8 @@
 			"magic_damage": 0,
 			"charges": 100000,
 			"prayer": 2,
-			"accuracy": 0
+			"accuracy": 0,
+			"can_augment": true
 		},
 		"Verac's flail": {
 			"ranged_damage": 0,
@@ -410123,7 +410854,8 @@
 			"attack_range": 1,
 			"class": "melee",
 			"accuracy": 1486,
-			"auto_damage": 1564.5
+			"auto_damage": 1564.5,
+			"can_augment": true
 		},
 		"Verac's helm": {
 			"ranged_damage": 0,
@@ -410159,7 +410891,8 @@
 			"magic_damage": 0,
 			"charges": 100000,
 			"prayer": 1,
-			"accuracy": 0
+			"accuracy": 0,
+			"can_augment": true
 		},
 		"Vesta's chainbody": {
 			"ranged_damage": 0,
@@ -410198,7 +410931,8 @@
 			"attack_range": 1,
 			"class": "melee",
 			"accuracy": 1829,
-			"auto_damage": 955.5
+			"auto_damage": 955.5,
+			"has_spec": true
 		},
 		"Vesta's plateskirt": {
 			"ranged_damage": 0,
@@ -410237,7 +410971,8 @@
 			"attack_range": 1,
 			"class": "melee",
 			"accuracy": 1829,
-			"auto_damage": 1743.3
+			"auto_damage": 1743.3,
+			"has_spec": true
 		},
 		"Vestments of havoc boots": {
 			"ranged_damage": 0,
@@ -410288,7 +411023,8 @@
 			"melee_damage": 34.3,
 			"magic_damage": 0,
 			"prayer": 0,
-			"accuracy": 0
+			"accuracy": 0,
+			"can_augment": true
 		},
 		"Vestments of havoc robe top": {
 			"ranged_damage": 0,
@@ -410305,7 +411041,8 @@
 			"melee_damage": 41.2,
 			"magic_damage": 0,
 			"prayer": 0,
-			"accuracy": 0
+			"accuracy": 0,
+			"can_augment": true
 		},
 		"Veteran cape (10 year)": {
 			"ranged_damage": 3.7,
@@ -410401,7 +411138,8 @@
 			"attack_range": 1,
 			"class": "melee",
 			"accuracy": 1486,
-			"auto_damage": 1599.5
+			"auto_damage": 1599.5,
+			"can_augment": true
 		},
 		"Viridian skillchompa": {
 			"ranged_damage": 0,
@@ -410437,7 +411175,8 @@
 			"lp": 0,
 			"attack_range": 8,
 			"class": "magic",
-			"accuracy": 1924
+			"accuracy": 1924,
+			"can_augment": true
 		},
 		"Virtus boots": {
 			"ranged_damage": 0,
@@ -410513,7 +411252,8 @@
 			"magic_damage": 25,
 			"charges": 30000,
 			"prayer": 2,
-			"accuracy": 0
+			"accuracy": 0,
+			"can_augment": true
 		},
 		"Virtus robe top": {
 			"ranged_damage": 0,
@@ -410532,7 +411272,8 @@
 			"magic_damage": 30,
 			"charges": 30000,
 			"prayer": 3,
-			"accuracy": 0
+			"accuracy": 0,
+			"can_augment": true
 		},
 		"Virtus wand": {
 			"ranged_damage": 0,
@@ -410552,7 +411293,8 @@
 			"lp": 0,
 			"attack_range": 8,
 			"class": "magic",
-			"accuracy": 1924
+			"accuracy": 1924,
+			"can_augment": true
 		},
 		"Visage of the First Necromancer": {
 			"formatted_name": "visage of the First Necromancer",
@@ -410889,10 +411631,13 @@
 			"armour": 0,
 			"speed": 3,
 			"tier": 85,
+			"damage_tier": 80,
+			"accuracy_tier": 90,
 			"lp": 0,
 			"attack_range": 8,
 			"class": "magic",
-			"accuracy": 2458
+			"accuracy": 2458,
+			"can_augment": true
 		},
 		"Wand of the praesul": {
 			"ranged_damage": 0,
@@ -410912,7 +411657,8 @@
 			"lp": 0,
 			"attack_range": 8,
 			"class": "magic",
-			"accuracy": 2577
+			"accuracy": 2577,
+			"can_augment": true
 		},
 		"Wand of treachery": {
 			"ranged_damage": 0,
@@ -411553,6 +412299,8 @@
 			"class": "ranged",
 			"lp": 0,
 			"tier": 95,
+			"damage_tier": 100,
+			"accuracy_tier": 0,
 			"speed": 0,
 			"armour": 0,
 			"slot": "ammo",
@@ -412143,7 +412891,8 @@
 			"attack_range": 1,
 			"class": "melee",
 			"accuracy": 1486,
-			"auto_damage": 857.5
+			"auto_damage": 857.5,
+			"can_augment": true
 		},
 		"Willow blackjack (d)": {
 			"ranged_damage": 0,
@@ -412159,6 +412908,8 @@
 			},
 			"speed": 3,
 			"tier": 20,
+			"damage_tier": 1,
+			"accuracy_tier": 20,
 			"lp": 0,
 			"attack_range": 1,
 			"class": "melee",
@@ -412179,6 +412930,8 @@
 			},
 			"speed": 3,
 			"tier": 20,
+			"damage_tier": 1,
+			"accuracy_tier": 20,
 			"lp": 0,
 			"attack_range": 1,
 			"class": "melee",
@@ -412259,6 +413012,8 @@
 			"requirements": {},
 			"speed": 3,
 			"tier": 1,
+			"damage_tier": 1,
+			"accuracy_tier": 20,
 			"lp": 0,
 			"attack_range": 1,
 			"class": "melee",
@@ -412283,7 +413038,8 @@
 			"attack_range": 8,
 			"class": "ranged",
 			"accuracy": 1486,
-			"auto_damage": 892.5
+			"auto_damage": 892.5,
+			"can_augment": true
 		},
 		"Witchwood icon": {
 			"ranged_damage": 0,
@@ -412704,7 +413460,9 @@
 			"attack_range": 9,
 			"class": "ranged",
 			"accuracy": 2178,
-			"auto_damage": 1083.8
+			"auto_damage": 1083.8,
+			"can_augment": true,
+			"has_passive": true
 		},
 		"Wyvern spines": {
 			"ranged_damage": 0,
@@ -412897,7 +413655,8 @@
 			"attack_range": 7,
 			"class": "ranged",
 			"accuracy": 983,
-			"auto_damage": 291.5
+			"auto_damage": 291.5,
+			"has_spec": true
 		},
 		"Zamorak cape": {
 			"ranged_damage": 0,
@@ -412982,7 +413741,10 @@
 			"attack_range": 1,
 			"class": "melee",
 			"accuracy": 1694,
-			"auto_damage": 1676.3
+			"auto_damage": 1676.3,
+			"can_augment": true,
+			"has_spec": true,
+			"has_passive": true
 		},
 		"Zamorak godsword": {
 			"ranged_damage": 0,
@@ -413002,7 +413764,9 @@
 			"attack_range": 1,
 			"class": "melee",
 			"accuracy": 1694,
-			"auto_damage": 1676.3
+			"auto_damage": 1676.3,
+			"can_augment": true,
+			"has_spec": true
 		},
 		"Zamorak halo": {
 			"ranged_damage": 0,
@@ -413137,7 +413901,8 @@
 			"lp": 0,
 			"attack_range": 8,
 			"class": "magic",
-			"accuracy": 1132
+			"accuracy": 1132,
+			"has_spec": true
 		},
 		"Zamorak stole": {
 			"ranged_damage": 0,
@@ -413170,7 +413935,8 @@
 			"magic_damage": 7.8,
 			"necromancy_damage": 7.8,
 			"prayer": 2,
-			"accuracy": 0
+			"accuracy": 0,
+			"has_passive": true
 		},
 		"Zamorakian spear": {
 			"ranged_damage": 0,
@@ -413190,7 +413956,8 @@
 			"attack_range": 1,
 			"class": "melee",
 			"accuracy": 1694,
-			"auto_damage": 1676.3
+			"auto_damage": 1676.3,
+			"has_spec": true
 		},
 		"Zanik's crossbow": {
 			"ranged_damage": 0,
@@ -413209,7 +413976,8 @@
 			"lp": 0,
 			"attack_range": 7,
 			"class": "ranged",
-			"accuracy": 801
+			"accuracy": 801,
+			"has_spec": true
 		},
 		"Zaros godsword": {
 			"ranged_damage": 0,
@@ -413230,7 +413998,9 @@
 			"attack_range": 1,
 			"class": "melee",
 			"accuracy": 2577,
-			"auto_damage": 2056.2
+			"auto_damage": 2056.2,
+			"can_augment": true,
+			"has_spec": true
 		},
 		"Zaryte bow": {
 			"ranged_damage": 0,
@@ -413252,7 +414022,8 @@
 			"attack_range": 7,
 			"class": "ranged",
 			"accuracy": 1924,
-			"auto_damage": 1470
+			"auto_damage": 1470,
+			"can_augment": true
 		},
 		"Zemouregal's nexus": {
 			"ranged_damage": 0,
@@ -413302,7 +414073,8 @@
 			"magic_damage": 0,
 			"necromancy_damage": 34.5,
 			"prayer": 5,
-			"accuracy": 0
+			"accuracy": 0,
+			"has_passive": true
 		},
 		"Zuriel's hood": {
 			"ranged_damage": 0,
@@ -413376,7 +414148,8 @@
 			"lp": 0,
 			"attack_range": 8,
 			"class": "magic",
-			"accuracy": 1829
+			"accuracy": 1829,
+			"has_spec": true
 		}
 	},
 	"slayerMasterTasks": {

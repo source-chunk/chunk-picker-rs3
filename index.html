@@ -511,6 +511,26 @@
       <div class='title'>Patch Notes Archive</div>
     </div>
     <div class='inner-content9'>
+	<div class='patch-notes-section'>
+	    <h1>v6.9.48.1</h1>
+	    <h3>May 31, 2026</h3>
+	     <h2 class='noscroll'>Major Changes & New Features</h2>
+            <ul class='noscroll'>
+                <li class='noscroll'><b>BIS overhaul</b> - The BIS calculation has been overhauled in order to fit the RS3 combat system better. Previously, we were using the following formula, inspired by the original OSRS Power Approximation Quotient (PAQ):
+				<br /><br /><img style="width: 80%;display: flex;margin: auto;" src="https://i.imgur.com/Vx0JjSn.png" /><br /><i style="display:block;text-align: center;">The old PAQ formulae</i></li>
+				<br />A quirk of RS3 is that off-handed weapon accuracy never matters, so the PAQ for off-hand weapons was just equal to their ability damage value.
+				<br /><br />This formula was impractical for our game because of the way the accuracy and ability damage of weapons scales. In effect, ability damage scales linearly with weapon tier, whereas accuracy scales with the <b>cube</b> of the weapon tier. This means that the accuracy term far outweighs the ability damage, despite ultimately being less relevant to increasing your damage.
+				<br /><br />To bring the BIS calc of our picker more in-line with the actual power level of items, we've moved to calculations based on <b>weapon tier</b> instead of individual stats:
+				<br /><img style="width: 80%;display: flex;margin: auto;" src="https://i.imgur.com/qMVhPne.png" /><br /><i style="display:block;text-align: center;">The new PAQ formulae</i></li>
+				<br />Where accuracy gets scaled down slightly since generally, in the current state of the game, it has a lower impact on DPS. Most monsters have low enough defence that you can hit 100% damage potential quite easily.
+				<br />The "PT" term stands for "Power Term". It's calculated as follows:
+				<li class='noscroll'>If the weapon is augmentable and the Invention Guild is unlocked, add 10 to the Power Term.</li>
+				<li class='noscroll'>If the weapon has a special attack, add 2 to the Power Term.</li>
+				<li class='noscroll'>If the weapon has a passive <b>that is always relevant</b>, add 5 to the Power Term.</li>
+				<br />We're only counting passives that are always or almost always relevant (e.g. poison passive on the wyvern crossbow, the bleed increase on the Masterwork Spear of Annihilation) to stick to the spirit of the OSRS PAQ, that is, to show you the best-in-slot "general use" weapon.
+				<br /><br />At present, these changes <b>do not affect armour pieces.</b> Armour augmentability and set effects are something I'd like to implement in the future as well, but they are out of scope for this update.
+			</ul>
+	  </div>
 	  <div class='patch-notes-section'>
 	    <h1>v6.9.8.1</h1>
 	    <h3>November 4, 2025</h3>
@@ -560,7 +580,7 @@
 			<li class='noscroll'>Added a 'Group Content' rule. You can find it in the "Item Sources" section of the Chunk Rules. It is <i>on by default only for Supremes</i>.</li>
 			<li class='noscroll'>The 'Token XP' rule is no longer part of the <i>default Extreme ruleset</i>. It remains part of the Supreme ruleset.</li>
 		  </ul>
-	    </div>
+	  </div>
       <div class='patch-notes-section'>
         <h1>v6.9.0</h1>
         <h3>September 23, 2025</h3>
