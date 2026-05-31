@@ -226721,7 +226721,9 @@
 				"Primal crossbow + 2": true,
 				"Primal crossbow + 3": true,
 				"Primal crossbow + 4": true,
-				"Primal crossbow + 5": true
+				"Primal crossbow + 5": true,
+				"Ruinous crossbow": true,
+				"Off-hand ruinous crossbow": true
 			},
 			"Ogre arrow": {
 				"Ogre bow": true,
