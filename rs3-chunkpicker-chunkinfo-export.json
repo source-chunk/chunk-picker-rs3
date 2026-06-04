@@ -10898,9 +10898,9 @@
 				"Primary": true,
 				"Priority": 13
 			},
-			"Repair a ~|dilapidated canoe station|~": {
+			"Repair a ~|dilapidated canoe station|~ in or around Wendlewick": {
 				"Items": ["Willow plank*", "Steel nails*"],
-				"Objects": ["Dilapidated canoe station"],
+				"Objects": ["Dilapidated canoe station#Wendlewick"],
 				"Level": 20,
 				"Primary": false,
 				"Priority": 14
@@ -11804,6 +11804,13 @@
 				"Level": 40,
 				"Primary": true,
 				"Priority": 20
+			},
+			"Repair a ~|dilapidated canoe station|~ at Amberfell": {
+				"Items": ["Maple plank*", "Steel nails*"],
+				"Objects": ["Dilapidated canoe station#Amberfell"],
+				"Level": 40,
+				"Primary": false,
+				"Priority": 21
 			},
 			"Build a ~|shield easel|~": {
 				"Category": ["InsidePOH Primary"],
@@ -32291,7 +32298,7 @@
 				"Objects": ["Tree patch"],
 				"Level": 45,
 				"Output": "Maple roots",
-				"Output Object": "Maple tree",
+				"Output Object": "Maple Tree",
 				"Primary": false,
 				"Priority": 3
 			},
@@ -65765,7 +65772,7 @@
 					"Oak", 
 					"Willow", 
 					"Teak", 
-					"Maple tree", 
+					"Maple Tree", 
 					"Acadia tree", 
 					"Mahogany", 
 					"Yew", 
@@ -70768,7 +70775,7 @@
 			},	
 			"Cut ~|maple logs|~": {
 				"Level": 40,
-				"Objects": ["Maple tree"],
+				"Objects": ["Maple Tree"],
 				"Output": "Maple logs",
 				"Primary": true,
 				"Priority": 2
@@ -98034,7 +98041,6 @@
 				"BaseQuest": "Rune Mythos",
 				"Description": "Perform a Lesser Essence ritual and speak to Malignius again",
 				"Chunks": ["City of Um"],
-				"Items": ["Basic ghostly ink", "Regular ghostly ink", "RitualLightSource[+]"],
 				"Tasks": {
 					"~|Rune Mythos|~ 1": "Quest"
 				},
@@ -98233,6 +98239,236 @@
 				},
 				"BaseQuest": "Sea Slug",
 				"Chunks": ["10803"],
+				"Not F2P": true
+			},
+			"~|Secrets of Amberfell|~ 1": {
+				"BaseQuest": "Secrets of Amberfell",
+				"Description": "Speak to the ranger at Amberfell Bridge",
+				"Chunks": ["17204"],
+				"Skills": {
+					"Construction": 30,
+					"Herblore": 35,
+					"Hunter": 32,
+					"Slayer": 28
+				},
+				"Tasks": {
+					"~|Hearts of Sanguine|~ Complete the quest": "Quest"
+				},
+				"Not F2P": true,
+				"NoBoost": true
+			},
+			"~|Secrets of Amberfell|~ 2": {
+				"BaseQuest": "Secrets of Amberfell",
+				"Description": "Speak to Adam in Wendlewick",
+				"Chunks": ["16692"],
+				"Tasks": {
+					"~|Secrets of Amberfell|~ 1": "Quest"
+				},
+				"Not F2P": true
+			},
+			"~|Secrets of Amberfell|~ 3a": {
+				"BaseQuest": "Secrets of Amberfell",
+				"Description": "Get 2 ropes from Farmer Rachel",
+				"Chunks": ["17202"],
+				"Items": ["Ball of wool"],
+				"Tasks": {
+					"~|Secrets of Amberfell|~ 2": "Quest"
+				},
+				"Not F2P": true
+			},
+			"~|Secrets of Amberfell|~ 3b": {
+				"BaseQuest": "Secrets of Amberfell",
+				"Description": "Get 2 ropes from anywhere else",
+				"Items": ["Rope"],
+				"Tasks": {
+					"~|Secrets of Amberfell|~ 2": "Quest"
+				},
+				"Not F2P": true
+			},
+			"~|Secrets of Amberfell|~ 4": {
+				"BaseQuest": "Secrets of Amberfell",
+				"Description": "Show 10 of the same logs and 20 of the same nails to Adam",
+				"Chunks": ["16692"],
+				"Items": ["Nails[+]", "Logs[+]"],
+				"Tasks": {
+					"Secrets of Amberfell: Rope[+]": "Quest"
+				},
+				"Not F2P": true
+			},
+			"~|Secrets of Amberfell|~ 5": {
+				"BaseQuest": "Secrets of Amberfell",
+				"Description": "Repair the bridge to Amberfell",
+				"Chunks": ["17204"],
+				"Tasks": {
+					"~|Secrets of Amberfell|~ 4": "Quest"
+				},
+				"Not F2P": true
+			},
+			"~|Secrets of Amberfell|~ 6": {
+				"BaseQuest": "Secrets of Amberfell",
+				"Description": "Report back to Adam",
+				"Chunks": ["16692"],
+				"Tasks": {
+					"~|Secrets of Amberfell|~ 5": "Quest"
+				},
+				"Not F2P": true
+			},
+			"~|Secrets of Amberfell|~ 7": {
+				"BaseQuest": "Secrets of Amberfell",
+				"Description": "Cross the bridge with Anya and get confronted by Inanna",
+				"Chunks": ["17460-1"],
+				"Tasks": {
+					"~|Secrets of Amberfell|~ 6": "Quest"
+				},
+				"Not F2P": true
+			},
+			"~|Secrets of Amberfell|~ 8": {
+				"BaseQuest": "Secrets of Amberfell",
+				"Description": "Speak to Sorrel in Amberfell, then to Inanna, then find out who sent the S.O.S. note and confront them",
+				"Chunks": ["17716"],
+				"Tasks": {
+					"~|Secrets of Amberfell|~ 7": "Quest"
+				},
+				"Not F2P": true
+			},
+			"~|Secrets of Amberfell|~ 9": {
+				"BaseQuest": "Secrets of Amberfell",
+				"Description": "Continue the quest at Moonrise Temple, then speak to Inanna after the fight.",
+				"Chunks": ["17717-2"],
+				"Tasks": {
+					"~|Secrets of Amberfell|~ 8": "Quest"
+				},
+				"Not F2P": true
+			},
+			"~|Secrets of Amberfell|~ 10": {
+				"BaseQuest": "Secrets of Amberfell",
+				"Description": "Return to Sorrel",
+				"Chunks": ["17716"],
+				"Tasks": {
+					"~|Secrets of Amberfell|~ 9": "Quest"
+				},
+				"Not F2P": true
+			},
+			"~|Secrets of Amberfell|~ 11": {
+				"BaseQuest": "Secrets of Amberfell",
+				"Description": "Report back to Anya at her camp",
+				"Chunks": ["17201"],
+				"Tasks": {
+					"~|Secrets of Amberfell|~ 10": "Quest"
+				},
+				"Not F2P": true
+			},
+			"~|Secrets of Amberfell|~ 12": {
+				"BaseQuest": "Secrets of Amberfell",
+				"Description": "Speak to Shrine Tender Joanna",
+				"Chunks": ["16946-1"],
+				"Tasks": {
+					"~|Secrets of Amberfell|~ 11": "Quest"
+				},
+				"Not F2P": true
+			},
+			"~|Secrets of Amberfell|~ 13a": {
+				"BaseQuest": "Secrets of Amberfell",
+				"Description": "Get the offering bowl from Mossbrain",
+				"Chunks": ["17201"],
+				"Items": ["Cooked fish[+]"],
+				"Tasks": {
+					"~|Secrets of Amberfell|~ 12": "Quest"
+				},
+				"Not F2P": true
+			},
+			"~|Secrets of Amberfell|~ 13b": {
+				"BaseQuest": "Secrets of Amberfell",
+				"Description": "Catch five spirit moths",
+				"Objects": ["Hollow tree (Highweald Forest)"],
+				"Items": ["ButterflyNet[+]"],
+				"Tasks": {
+					"~|Secrets of Amberfell|~ 12": "Quest"
+				},
+				"Not F2P": true
+			},
+			"~|Secrets of Amberfell|~ 13c": {
+				"BaseQuest": "Secrets of Amberfell",
+				"Description": "Catch a jackalope",
+				"Objects": ["Jackalope burrow"],
+				"Items": ["Ferret[+]"],
+				"Tasks": {
+					"~|Secrets of Amberfell|~ 12": "Quest"
+				},
+				"Not F2P": true
+			},
+			"~|Secrets of Amberfell|~ 14": {
+				"BaseQuest": "Secrets of Amberfell",
+				"Description": "Give the ritual components to Joanna, enter Inanna's den and speak to her.",
+				"Chunks": ["16946-1"],
+				"Tasks": {
+					"~|Secrets of Amberfell|~ 13a": "Quest",
+					"~|Secrets of Amberfell|~ 13b": "Quest",
+					"~|Secrets of Amberfell|~ 13c": "Quest"
+				},
+				"Not F2P": true
+			},
+			"~|Secrets of Amberfell|~ 15": {
+				"BaseQuest": "Secrets of Amberfell",
+				"Description": "Give Anya an empty vial",
+				"Chunks": ["16946-1"],
+				"Items": ["Vial"],
+				"Tasks": {
+					"~|Secrets of Amberfell|~ 14": "Quest"
+				},
+				"Not F2P": true
+			},
+			"~|Secrets of Amberfell|~ 16": {
+				"BaseQuest": "Secrets of Amberfell",
+				"Description": "Speak to Esther",
+				"Chunks": ["16691-2"],
+				"Tasks": {
+					"~|Secrets of Amberfell|~ 15": "Quest"
+				},
+				"Not F2P": true
+			},
+			"~|Secrets of Amberfell|~ 17": {
+				"BaseQuest": "Secrets of Amberfell",
+				"Description": "Mix an empowered antisanguine potion",
+				"Items": ["Grimy marrentill", "Vial of water", "Sanguine matter"],
+				"Tasks": {
+					"~|Secrets of Amberfell|~ 16": "Quest"
+				},
+				"Not F2P": true
+			},
+			"~|Secrets of Amberfell|~ 18": {
+				"BaseQuest": "Secrets of Amberfell",
+				"Description": "Bring Inanna the empowered antisanguine",
+				"Chunks": ["16946-1"],
+				"Tasks": {
+					"~|Secrets of Amberfell|~ 17": "Quest"
+				},
+				"Not F2P": true
+			},
+			"~|Secrets of Amberfell|~ 19": {
+				"BaseQuest": "Secrets of Amberfell",
+				"Description": "Bring the remaining empowered antisanguine to Sorrel",
+				"Chunks": ["17716"],
+				"Tasks": {
+					"~|Secrets of Amberfell|~ 18": "Quest"
+				},
+				"Not F2P": true
+			},
+			"~|Secrets of Amberfell|~ Complete the quest": {
+				"BaseQuest": "Secrets of Amberfell",
+				"Chunks": ["17716"],
+				"Tasks": {
+					"~|Secrets of Amberfell|~ 19": "Quest"
+				},
+				"QuestPoints": 3,
+				"XpReward": {
+					"Attack|Strength|Defence|Constitution|Ranged|Magic|Prayer|Necromancy": 2500,
+					"Construction": 2500,
+					"Herblore": 2500,
+					"Hunter": 2500,
+					"Summoning": 2500
+				},
+				"Reward": ["Inanna's gift"],
 				"Not F2P": true
 			},
 			"~|Shades of Mort'ton|~ 1": {
@@ -121267,6 +121503,15 @@
 				"RuneScore": 20,
 				"Not F2P": true
 			},
+			"~|Completionist achievements#Master Quest Cape|~ Argh, it burns!": {
+				"Category": ["MQC achievements"],
+				"Description": "Find out who in Amberfell has the 'monthly affliction'",
+				"BaseQuest": "Completionist achievements",
+				"Items": ["Wolfbane"],
+				"Chunks": ["17716"],
+				"RuneScore": 5,
+				"Not F2P": true
+			},
 			"~|Completionist achievements#Master Quest Cape|~ Arise from the Ash": {
 				"Category": ["MQC achievements"],
 				"Description": "Defeat the phoenix once, after 'In Pyre Need'.",
@@ -123851,7 +124096,7 @@
 				"Category": ["MQC achievements"],
 				"Description": "Complete all quests to obtain the quest cape.",
 				"BaseQuest": "Completionist achievements",
-				"QuestPointsNeeded": 469,
+				"QuestPointsNeeded": 472,
 				"Tasks": {
 					"~|Aftermath|~ Complete the quest": "Quest",
 					"~|Battle of the Monolith|~ Complete the quest": "Quest",
@@ -124453,6 +124698,13 @@
 				"BaseQuest": "Completionist achievements",
 				"Chunks": ["11578-1", "11828"],
 				"RuneScore": 5,
+				"Not F2P": true
+			},
+			"~|Completionist achievements#Master Quest Cape|~ The Tale of Hawthorn": {
+				"Category": ["MQC achievements"],
+				"Description": "Find and read the tale of the founder of Amberfell.",
+				"BaseQuest": "Completionist achievements",
+				"Chunks": ["17716"],
 				"Not F2P": true
 			},
 			"~|Completionist achievements#Master Quest Cape|~ Tasty Bobbles": {
@@ -125287,7 +125539,9 @@
 					"~|Completionist achievements#Master Quest Cape|~ You're Not My Real Mah": "Diary",
 					"~|Completionist achievements#Master Quest Cape|~ Zamorakian Expert": "Diary",
 					"~|Completionist achievements#Master Quest Cape|~ Zarosian Expert": "Diary",
-					"~|Completionist achievements#Master Quest Cape|~ Zarosian Memories": "Diary"
+					"~|Completionist achievements#Master Quest Cape|~ Zarosian Memories": "Diary",
+					"~|Completionist achievements#Master Quest Cape|~ Argh, it burns!": "Diary",
+					"~|Completionist achievements#Master Quest Cape|~ The Tale of Hawthorn": "Diary"
 				},
 				"Reward": ["Master quest cape"],
 				"ManualShow": true,
@@ -125697,7 +125951,7 @@
 					"Oak",
 					"Willow",
 					"Teak",
-					"Maple tree",
+					"Maple Tree",
 					"Acadia tree",
 					"Mahogany",
 					"Yew",
@@ -126128,7 +126382,7 @@
 				"Category": ["Comp achievements"],
 				"Description": "Unlock all music tracks.",
 				"BaseQuest": "Completionist achievements",
-				"QuestPointsNeeded": 469,
+				"QuestPointsNeeded": 472,
 				"Tasks": {
 					"~|Completionist achievements#Completionist Cape|~ Mysteries - Stormguard Citadel": "Diary",
 					"~|Completionist achievements#Completionist Cape|~ Mysteries - Warforge": "Diary",
@@ -126295,7 +126549,7 @@
 				"Category": ["Comp achievements"],
 				"Description": "Complete all quests to obtain the quest cape.",
 				"BaseQuest": "Completionist achievements",
-				"QuestPointsNeeded": 469,
+				"QuestPointsNeeded": 472,
 				"Tasks": {
 					"~|Aftermath|~ Complete the quest": "Quest",
 					"~|Battle of the Monolith|~ Complete the quest": "Quest",
@@ -126865,10 +127119,10 @@
 				"Category": ["Comp achievements", "Trim achievements"],
 				"Description": "Repair all the canoe stations around Havenhythe.",
 				"BaseQuest": "Completionist achievements",
-				"Items": ["Willow plank", "Steel nails"],
-				"Chunks": ["16691-1", "17460", "17201"],
+				"Items": ["Willow plank", "Steel nails", "Maple plank"],
+				"Chunks": ["16691-1", "17460-2", "17201", "17716"],
 				"Skills": {
-					"Construction": 20
+					"Construction": 40
 				},
 				"Not F2P": true
 			},
@@ -155373,7 +155627,7 @@
 					"Constitution": 70,
 					"Strength": 70
 				},
-				"QuestPointsNeeded": 469,
+				"QuestPointsNeeded": 472,
 				"Tasks": {
 					"~|Plague's End|~ Complete the quest": "Quest",
 					"~|As a First Resort|~ Complete the quest": "Quest",
@@ -155487,7 +155741,7 @@
 					"~|Fate of the Gods|~ Complete the quest": "Quest",
 					"~|A Fairy Tale II - Cure a Queen|~ 2": "Quest"
 				},
-				"QuestPointsNeeded": 469
+				"QuestPointsNeeded": 472
 			},
 			"Obtain the ~|the Meandering|~ title": {
 				"Category": ["Titles"],
@@ -163489,6 +163743,14 @@
 				"Sections": ["17203-1", "17203-2"],
 				"Tasks": {
 					"Cross the ~|log balance (Wendlewick)|~": "Agility"
+				},
+				"ConnectsSections": true,
+				"Not F2P": true
+			},
+			"17460-3 to 17460-1": {
+				"Sections": ["17460-1", "17460-3"],
+				"Tasks": {
+					"~|Secrets of Amberfell|~ 6": "Quest"
 				},
 				"ConnectsSections": true,
 				"Not F2P": true
@@ -177244,6 +177506,10 @@
 					"~|A Guild of Our Own (miniquest)|~ Complete the miniquest": "Quest"
 				},
 				"Output": "Pilfer points"
+			},
+			"Pick corn*": {
+				"Objects": ["Corn"],
+				"Output": "Sweetcorn"
 			}
 		}
 	},
@@ -187492,7 +187758,7 @@
 						"Fireplace": 1,
 						"Fire": 4,
 						"Crate": 12,
-						"Maple tree": 13,
+						"Maple Tree": 13,
 						"Fish stall": 2,
 						"Veg stall": 1,
 						"Wheat": 176,
@@ -188725,7 +188991,7 @@
 				"Flax": 11,
 				"Oak": 2,
 				"Tree": 11,
-				"Maple tree": 1,
+				"Maple Tree": 1,
 				"Dead tree": 6,
 				"Broken bridge": 1,
 				"Crystal tree": 1
@@ -189792,7 +190058,7 @@
 				"Crate": 2,
 				"Oak": 50,
 				"Tree": 86,
-				"Maple tree": 4,
+				"Maple Tree": 4,
 				"Evil tree": 1
 			},
 			"Monster": {
@@ -189827,7 +190093,7 @@
 					"Object": {
 						"Oak": 3,
 						"Tree": 19,
-						"Maple tree": 25,
+						"Maple Tree": 25,
 						"Dead tree": 7,
 						"Water barrel": 1,
 						"Hops patch": 1
@@ -190698,7 +190964,7 @@
 				"Tree": 32,
 				"Fountain": 1,
 				"Teak chest": 3,
-				"Maple tree": 5,
+				"Maple Tree": 5,
 				"Dead tree": 16,
 				"Coal rock": 4,
 				"Mithril rock": 4,
@@ -190821,7 +191087,7 @@
 						"Oak": 10,
 						"Yew": 3,
 						"Tree": 24,
-						"Maple tree": 9,
+						"Maple Tree": 9,
 						"Inventor's workbench": 2,
 						"Anvil": 2,
 						"Forge": 1,
@@ -190931,7 +191197,7 @@
 						"Willow": 6,
 						"Oak": 1,
 						"Tree": 7,
-						"Maple tree": 22,
+						"Maple Tree": 22,
 						"Dead tree": 38,
 						"Fishing spot (lure, bait)": 4,
 						"Haystack#Fillable": 1
@@ -191022,7 +191288,7 @@
 				"2": {
 					"Object": {
 						"Log balance (Fremennik Province)": 3,
-						"Maple tree": 9,
+						"Maple Tree": 9,
 						"Fishing spot (crayfish)": 2,
 						"Evil tree": 1
 					},
@@ -201090,7 +201356,7 @@
 				"Storage Chest": 1,
 				"Elder tree": 1,
 				"Canoe station": 1,
-				"Maple tree": 3
+				"Maple Tree": 3
 			},
 			"NPC": {
 				"Charlie the Tramp": 1,
@@ -205562,7 +205828,7 @@
 				"Bank deposit box": 1,
 				"Willow": 6,
 				"Yew": 3,
-				"Maple tree": 9,
+				"Maple Tree": 9,
 				"Promethium rock": 3,
 				"Magical barrier": 1
 			},
@@ -211084,7 +211350,7 @@
 						"Stairs": 8,
 						"Bench": 4,
 						"Log bench": 1,
-						"Dilapidated canoe station": 1,
+						"Dilapidated canoe station#Wendlewick": 1,
 						"Apple barrel": 1,
 						"Barrel (brewing)": 1,
 						"Fermenting vat": 1,
@@ -211135,7 +211401,8 @@
 					},
 					"Quest": {
 						"Visions of Havenhythe": "step",
-						"Hearts of Sanguine": "step"
+						"Hearts of Sanguine": "step",
+						"Secrets of Amberfell": "step"
 					}
 				},
 				"3": {
@@ -211215,7 +211482,8 @@
 				"Hearts of Sanguine": "step",
 				"The Lute of Love": "step",
 				"Trader Woes": "step",
-				"A Sliver of Silver Helps the Sanguine Go Down": "first"
+				"A Sliver of Silver Helps the Sanguine Go Down": "first",
+				"Secrets of Amberfell": "step"
 			},
 			"Clue": {
 				"elite": 5
@@ -211800,7 +212068,8 @@
 					},
 					"Quest": {
 						"Visions of Havenhythe": "step",
-						"Hearts of Sanguine": "step"
+						"Hearts of Sanguine": "step",
+						"Secrets of Amberfell": "step"
 					}
 				},
 				"2": {
@@ -211843,7 +212112,8 @@
 						"Shrine of the Spirit Wolves": true
 					},
 					"Quest": {
-						"Visions of Havenhythe": "step"
+						"Visions of Havenhythe": "step",
+						"Secrets of Amberfell": "step"
 					},
 					"Clue": {
 						"elite": 1
@@ -211904,7 +212174,8 @@
 			},
 			"Connect": {
 				"6473": true,
-				"10307": true
+				"10307": true,
+				"14167": true
 			},
 			"Spawn": {
 				"Red onion": 1,
@@ -212372,7 +212643,7 @@
 		"17201": {
 			"Object": {
 				"Stepping stones (Wendlewick)": 1,
-				"Dilapidated canoe station": 1,
+				"Dilapidated canoe station#Wendlewick": 1,
 				"Birdhouse plot": 1,
 				"Crate": 1,
 				"Tree": 28,
@@ -212395,6 +212666,9 @@
 			"Spawn": {
 				"Bones": 1,
 				"Burnt bread": 1
+			},
+			"Quest": {
+				"Secrets of Amberfell": "step"
 			},
 			"Nickname": "Anya's Tent"
 		},
@@ -212474,7 +212748,8 @@
 				"Ranger": 1
 			},
 			"Quest": {
-				"Trader Woes": "step"
+				"Trader Woes": "step",
+				"Secrets of Amberfell": "first"
 			},
 			"Nickname": "Ruins East of Wendlewick"
 		},
@@ -212843,12 +213118,27 @@
 			"Nickname": "Wolf's Crossing"
 		},
 		"17460": {
-			"Object": {
-				"Dilapidated canoe station": 1,
-				"Tree": 2,
-				"Oak": 2
+			"Sections": {
+				"1": {
+					"Object": {
+						"Oak": 13,
+						"Tree": 4,
+						"Bridge": 1
+					},
+					"Quest": {
+						"Secrets of Amberfell": "step"
+					}
+				},
+				"2": {
+					"Object": {
+						"Dilapidated canoe station#Wendlewick": 1,
+						"Tree": 2,
+						"Oak": 2
+					}
+				},
+				"3": {}
 			},
-			"Nickname": "Eastern Canoe Station"
+			"Nickname": "Bridge to Amberfell"
 		},
 		"17461": {
 			"Sections": {
@@ -212858,7 +213148,23 @@
 						"Tree": 2
 					}
 				},
-				"3": {}
+				"3": {},
+				"4": {
+					"Object": {
+						"Oak": 7,
+						"Tree": 1
+					}
+				},
+				"5": {
+					"Object": {
+						"Tree": 1,
+						"Oak": 6
+					},
+					"Monster": {
+						"Wolf": 1
+					}
+				},
+				"6": {}
 			},
 			"Nickname": "Waterfall Pathway"
 		},
@@ -213109,6 +213415,94 @@
 				"Final Destination (miniquest)": "first"
 			},
 			"Nickname": "Goshima Docks"
+		},
+		"17715": {
+			"Object": {
+				"Oak": 1,
+				"Tree": 1
+			},
+			"Nickname": "Lone Pier"
+		},
+		"17716": {
+			"Object": {
+				"Oak": 14,
+				"Maple Tree": 3,
+				"Tree": 4,
+				"Dilapidated canoe station#Amberfell": 1,
+				"Well": 1,
+				"Bank booth": 1,
+				"Sink": 1,
+				"Bookcase": 2,
+				"Range": 1,
+				"Corn": 13
+			},
+			"NPC": {
+				"Heywoood": 1,
+				"Fennel": 1,
+				"Rosemary (Amberfell)": 1,
+				"Ash (Amberfell)": 1,
+				"Rowan (Amberfell)": 1,
+				"Villager (Amberfell)": 4,
+				"Heather (Amberfell)": 1,
+				"Sorrel": 1,
+				"Banker (Amberfell)": 1,
+				"Fern (Amberfell)": 1,
+				"Inanna": 1,
+				"Basil the Butcher": 1
+			},
+			"Monster": {
+				"Chicken": 2,
+				"Chick": 1,
+				"Fox": 1
+			},
+			"Spawn": {
+				"Shortbow": 1,
+				"Knife": 1,
+				"Spade": 1,
+				"Bucket": 1,
+				"Egg": 1
+			},
+			"Shop": {
+				"The Butcher of Amberfell": true,
+				"Fern's Finds": true,
+				"Heather's Crafting Supplies": true
+			},
+			"Quest": {
+				"Secrets of Amberfell": "step"
+			},
+			"Nickname": "Amberfell"
+		},
+		"17717": {
+			"Sections": {
+				"1": {
+					"Object": {
+						"Oak": 10,
+						"Fairy ring": 1,
+						"Maple Tree": 3,
+						"Tree": 1,
+						"Fishing spot (lure, bait)": 1
+					},
+					"Monster": {
+						"Fox": 1
+					},
+					"Connect": {
+						"9541": true
+					}
+				},
+				"2": {
+					"Object": {
+						"Archaeologist's workbench": 1,
+						"Material storage container": 1
+					},
+					"Quest": {
+						"Secrets of Amberfell": "step"
+					}
+				}
+			},
+			"Nickname": "Moorise Cliff"
+		},
+		"17718": {
+			"Nickname": "Moorise Temple"
 		},
 		"17737": {
 			"Object": {
@@ -215119,7 +215513,7 @@
 		},
 		"20886": {
 			"Object": {
-				"Maple tree": 4,
+				"Maple Tree": 4,
 				"Bush": 7,
 				"Leaning tree": 4
 			},
@@ -217074,6 +217468,7 @@
 				"15961": true,
 				"16729": true,
 				"17202": true,
+				"17717": true,
 				"18512": true
 			},
 			"Monster": {
@@ -228992,6 +229387,36 @@
 				"Cooked meat",
 				"Minced meat"
 			],
+			"Cooked fish[+]": [
+				"Crayfish",
+				"Karambwanji",
+				"Sardine",
+				"Herring",
+				"Anchovies",
+				"Mackerel",
+				"Trout",
+				"Cod",
+				"Pike",
+				"Salmon",
+				"Tuna",
+				"Rainbow fish",
+				"Lobster",
+				"Bass",
+				"Swordfish",
+				"Catfish",
+				"Monkfish",
+				"Karamwban",
+				"Ghostly sole",
+				"Beltfish",
+				"Shark",
+				"Sea turtle",
+				"Great white shark",
+				"Manta ray",
+				"Cavefish",
+				"Rocktail",
+				"Sailfish",
+				"Giant crayfish"
+			],
 			"CookingGuildEntryItem[+]": ["Chef's hat", "Sous chef's torque", "Cooking cape", "Max cape"],
 			"CookingPotion[+]": [
 				"Cooking potion (1)",
@@ -229227,6 +229652,7 @@
 				"Raw sillago",
 				"Raw wobbegong",
 				"Raw sailfish",
+				"Raw giant crayfish",
 				"Crayfish",
 				"Karambwanji",
 				"Sardine",
@@ -229254,6 +229680,7 @@
 				"Cavefish",
 				"Rocktail",
 				"Sailfish",
+				"Giant crayfish",
 				"Raw beef",
 				"Raw bear meat",
 				"Raw yak meat",
@@ -229407,7 +229834,7 @@
 				"House Drakan top",
 				"House Drakan trousers"
 			],
-			"DreamMentorFood[+]": ["Minnow", "Magnetic minnow", "Crayfish", "Shrimps", "Karamwanji", "Sardine", "Anchovies", "Poison karambwan", "Herring", "Mackerel", "Trout", "Cod", "Pike", "Salmon", "Cooked slimy eel", "Tuna", "Cooked karambwan", "Rainbow fish", "Cave eel", "Lobster", "Bass", "Swordfish", "Desert sole", "Lava eel", "Catfish", "Monkfish", "Beltfish", "Green blubber jellyfish", "Shark", "Sea turtle", "Great white shark", "Cavefsih", "Manta ray", "Rocktail", "Tiger shark", "Blue blubber jellyfish", "Sailfish", "Banana", "Orange", "Pineapple", "Papaya fruit", "Ciku", "Guarana", "Carambola", "Dwellberry", "Jangerberry", "Avocado", "Mango", "Lychee", "Strawberry", "Tomato", "Dragonfruit", "Cooked meat", "Cooked undead meat", "Cooked chicken", "Cooked undead chicken", "Poorly-cooked bird meat", "Ugthanki meat", "Cooked rabbit", "Poorly-cooked beast meat", "Cooked turkey", "Cooked turkey drumstick", "Roast bird meat", "Thin snail meat", "Bacon", "Roast rabbit", "Spider on stick", "Spider on shaft", "Lean snail meat", "Cooked crab meat", "Roast beast meat", "Fat snail meat", "Bacon stack", "Cooked chompy", "Bacon pile", "Cooked jubbly", "Bacon heap", "Cooked oomlie wrap", "Bacon mound", "Arcane apoterrasaur meat", "Scimitops meat", "Bagrada rex meat", "Spicati apoterrasaur meat", "Asciatops meat", "Corbicula rex meat", "Oculi apoterrasaur meat", "Malletops meat", "Pavosaurus rex meat", "Cooked pekin", "Cooked undead pekin", "Primal starter", "Primal main course", "Primal feast", "Cooked eeligator", "Redberry pie", "Meat pie", "Apple pie", "Garden pie", "Fish pie", "Admiral pie", "Pork pie", "Wild pie", "Wilder pie", "Summer pie", "Plain pizza", "Meat pizza", "Anchovy pizza", "Pineapple pizza", "Banana pizza", "Baked potato", "Potato with butter", "Chilli potato", "Potato with cheese", "Egg potato", "Mushroom potato", "Tuna potato", "Kebab", "Bread", "Cake", "Chocolate cake", "Potato", "Cabbage", "Onion", "Sweetcorn", "Holy biscuits"],
+			"DreamMentorFood[+]": ["Minnow", "Magnetic minnow", "Crayfish", "Shrimps", "Karamwanji", "Sardine", "Anchovies", "Poison karambwan", "Herring", "Mackerel", "Trout", "Cod", "Pike", "Salmon", "Cooked slimy eel", "Tuna", "Cooked karambwan", "Rainbow fish", "Cave eel", "Lobster", "Bass", "Swordfish", "Desert sole", "Lava eel", "Catfish", "Monkfish", "Beltfish", "Green blubber jellyfish", "Shark", "Sea turtle", "Great white shark", "Cavefsih", "Manta ray", "Rocktail", "Tiger shark", "Blue blubber jellyfish", "Sailfish", "Banana", "Orange", "Pineapple", "Papaya fruit", "Ciku", "Guarana", "Carambola", "Dwellberry", "Jangerberry", "Avocado", "Mango", "Lychee", "Strawberry", "Tomato", "Dragonfruit", "Cooked meat", "Cooked undead meat", "Cooked chicken", "Cooked undead chicken", "Poorly-cooked bird meat", "Ugthanki meat", "Cooked rabbit", "Poorly-cooked beast meat", "Cooked turkey", "Cooked turkey drumstick", "Roast bird meat", "Thin snail meat", "Bacon", "Roast rabbit", "Spider on stick", "Spider on shaft", "Lean snail meat", "Cooked crab meat", "Roast beast meat", "Fat snail meat", "Bacon stack", "Cooked chompy", "Bacon pile", "Cooked jubbly", "Bacon heap", "Cooked oomlie wrap", "Bacon mound", "Arcane apoterrasaur meat", "Scimitops meat", "Bagrada rex meat", "Spicati apoterrasaur meat", "Asciatops meat", "Corbicula rex meat", "Oculi apoterrasaur meat", "Malletops meat", "Pavosaurus rex meat", "Cooked pekin", "Cooked undead pekin", "Primal starter", "Primal main course", "Primal feast", "Cooked eeligator", "Redberry pie", "Meat pie", "Apple pie", "Garden pie", "Fish pie", "Admiral pie", "Pork pie", "Wild pie", "Wilder pie", "Summer pie", "Plain pizza", "Meat pizza", "Anchovy pizza", "Pineapple pizza", "Banana pizza", "Baked potato", "Potato with butter", "Chilli potato", "Potato with cheese", "Egg potato", "Mushroom potato", "Tuna potato", "Kebab", "Bread", "Cake", "Chocolate cake", "Potato", "Cabbage", "Onion", "Sweetcorn", "Holy biscuits", "Giant crayfish", "Button mushroom", "Cream tea", "Fish and chips"],
 			"DruidicMageRobes[+]": [
 				"Druidic mage bottom",
 				"Druidic mage hood",
@@ -230302,13 +230729,19 @@
 			],
 			"Lockpick[+]": ["Lockpick", "Hairclip"],
 			"Logs[+]": [
-				"Elder logs",
 				"Logs",
-				"Magic logs",
-				"Maple logs",
+				"Achey tree logs",
 				"Oak logs",
 				"Willow logs",
-				"Yew logs"
+				"Teak logs",
+				"Arctic pine logs",
+				"Maple logs",
+				"Acadia logs",
+				"Mahogany logs",
+				"Eucalyptus logs",
+				"Yew logs",
+				"Magic logs",
+				"Elder logs"
 			],
 			"Luminousboon[+]": [
 				"Luminous energy",
@@ -235803,7 +236236,8 @@
 				"Harvest a ~|luminous wisp|~",
 				"Harvest an ~|incandescent wisp|~"
 			],
-			"Get skulled[+]": ["Get skulled by speaking to Vala", "Get skulled with a demonic skull"]
+			"Get skulled[+]": ["Get skulled by speaking to Vala", "Get skulled with a demonic skull"],
+			"Secrets of Amberfell: Rope[+]": ["~|Secrets of Amberfell|~ 3a", "~|Secrets of Amberfell|~ 3b"]
 		},
 		"tasksPlusNames": {
 			"A Taste of the Exotic[+]": "Any subtasks for A Taste of the Exotic",
@@ -292585,6 +293019,7 @@
 		"Salt in the Wound": "13881, 11059",
 		"Scorpion Catcher": "10805, 10806, Taverley Dungeon, 12086, 10039",
 		"Sea Slug": "10803, 11059",
+		"Secrets of Amberfell": "17204, 16692, 17460, 17716, 17717, 17201, 16946, 16691",
 		"Shades of Mort'ton": "13875",
 		"Shadow of the Storm": "13105, 13872, Ruins of Uzer",
 		"A Shadow over Ashdale": "12082",
@@ -295749,6 +296184,11 @@
 					"Repair the Menaphos cactus patch": "Nonskill"
 				}]
 			},
+			"Corn": {
+				"17716": [{
+					"~|Secrets of Amberfell|~ Complete the quest": "Quest"
+				}]
+			},
 			"Tree patch": {
 				"16690-1": [{
 					"~|The Lute of Love|~ Complete the lore activity": "Quest"
@@ -296240,6 +296680,11 @@
 					"Timegated content enabled": "Nonskill"
 				}]
 			},
+			"Fern's Finds": {
+				"17716": [{
+					"~|Secrets of Amberfell|~ Complete the quest": "Quest"
+				}]
+			},
 			"Fishing Guild Shop": {
 				"10293": [{
 					"Enter the ~|Fishing Guild|~": "Fishing"
@@ -296288,6 +296733,11 @@
 			"Happy Heroes' H'Emporium": {
 				"11574": [{
 					"~|Heroes' Quest|~ Complete the quest": "Quest"
+				}]
+			},
+			"Heather's Crafting Supplies": {
+				"17716": [{
+					"~|Secrets of Amberfell|~ Complete the quest": "Quest"
 				}]
 			},
 			"Herby Werby Reward Shop": {
@@ -296756,7 +297206,7 @@
 				}]
 			},
 			"Iron mace": {
-				"10547": [{
+				"10547-1": [{
 					"Unlock the ~|Secure Chest|~ door at Ardougne Market": "Thieving"
 				}]
 			}
@@ -299129,6 +299579,14 @@
 			"Bread": true,
 			"Tomato": true
 		},
+		"The Butcher of Amberfell": {
+			"Raw chicken": true,
+			"Raw rabbit": true,
+			"Raw bird meat": true,
+			"Raw bear meat": true,
+			"Meat pizza": true,
+			"Meat pie": true
+		},
 		"Cabbage Facepunch Bonanza Rewards": {
 			"Seedicide": true,
 			"Farmer's hat": true,
@@ -300066,6 +300524,14 @@
 			"Feather": true,
 			"Feather pack": true
 		},
+		"Fern's Finds": {
+			"Button mushroom": true,
+			"Bittercap mushroom": true,
+			"Morchella mushroom": true,
+			"Bittercap mushroom spore": true,
+			"Dwellberries": true,
+			"Redberries": true
+		},
 		"Fish Oil Sales": {
 			"Wushanko fishing bait": true
 		},
@@ -300556,6 +301022,16 @@
 			"Plant cure": true,
 			"Amulet of farming (1)": true,
 			"Amulet of farming (8)": true
+		},
+		"Heather's Crafting Supplies": {
+			"Chisel": true,
+			"Ring mould": true,
+			"Necklace mould": true,
+			"Amulet mould": true,
+			"Uncut emerald": true,
+			"Uncut ruby": true,
+			"Uncut red topaz": true,
+			"Uncut opal": true
 		},
 		"Hefin Cathedral (shop)": {
 			"Cleansing crystal": true
@@ -348997,7 +349473,8 @@
 			"0": [
 				"17205-1",
 				"17205-3",
-				"17460",
+				"17460-2",
+				"17460-3",
 				"17203-1",
 				"17203-2",
 				"16948"
@@ -349060,7 +349537,7 @@
 		},
 		"17459": {
 			"1": [
-				"17460",
+				"17460-2",
 				"17203-1"
 			],
 			"2": [
@@ -349068,9 +349545,17 @@
 			]
 		},
 		"17460": {
-			"0": [
+			"1": [
+				"17461-5",
+				"17461-6",
+				"17716"
+			],
+			"2": [
 				"17204",
 				"17459-1"
+			],
+			"3": [
+				"17204"
 			]
 		},
 		"17461": {
@@ -349083,6 +349568,17 @@
 			],
 			"3": [
 				"17205-1"
+			],
+			"4": [
+				"17717-1",
+				"17717-2"
+			],
+			"5": [
+				"17717-1",
+				"17460-1"
+			],
+			"6": [
+				"17460-1"
 			]
 		},
 		"17462": {
@@ -349100,6 +349596,34 @@
 			"0": [
 				"17950-2",
 				"17693"
+			]
+		},
+		"17715": {
+			"0": [
+				"17716"
+			]
+		},
+		"17716": {
+			"0": [
+				"17717-1",
+				"17715",
+				"17460-1"
+			]
+		},
+		"17717": {
+			"1": [
+				"17716",
+				"17461-4",
+				"17461-5"
+			],
+			"2": [
+				"17718",
+				"17461-4"
+			]
+		},
+		"17718": {
+			"0": [
+				"17717-2"
 			]
 		},
 		"17949": {
@@ -349661,9 +350185,9 @@
 			"Zamorak mix (2)": true
 		}
 	},
-	"walkableChunks": ["7472", "7473", "7474", "7727", "7728", "7729", "7730", "7984", "7985", "7986", "7995", "8252", "8253", "8493", "8496", "8497", "8498", "8499", "8500", "8501", "8508", "8509", "8748", "8749", "8751", " 8752", "8753", "8754", "8755", "8756", "8757", "8760", "8761", "8763", "9001", "9005", "9007", "9008", "9009", "9010", "9011", "9012", "9013", "9014", "9015", "9016", "9017", "9263", "9264", "9265", "9266", "9267", "9268", "9269","9270", "9271", "9272", "9273", "9275", "9276", "9278", "9279", "9515", "9516", "9517", "9519", "9520", "9521", "9522", "9523", "9524", "9525", "9526", "9527", "9528", "9531", "9532", "9769", "9770", "9771", "9722", "9773", "9774", "9775", "9776", "9777", "9778", "9779", "9780", "9781", "9782", "9783", "9790", "9791", "10025", "10026", "10028", "10029", "10030", "10031", "10032", "10033", "10034", "10035", "10036", "10037", "10038", "10039", " 10040", "10042", "10043", "10044", "10046", "10047", "10284", "10285", "10286", "10287", "10288", "10289", "10290", "10291", "10292", "10293", "10294", "10295", "10296", "10297", "10300", "10536", "10537", "10542", "10543", "10544", "10545", "10546", "10547", "10548", "10549", "10550", "10551", "10552", "10553", "10554", "10556", "10558", "10559", "10794", "10795", "10801", "10802", "10803", "10804", "10805", "10806", "10807", "10808", "10809", "10810", "10811", "10812", "10814", "11050", "11051", "11053", "11054", "11055", "11056", "11057", "11058", "11059", "11060", "11061", "11062", "11063", "11064", "11065", "11066", "11067", "11068", "11304", "11309", "11310", "11311", "11312", "11313", "11314", "11315", "11316", "11317", "11318", "11319", "11320", "11321", "11322", "11323", "11324", "11325", "11562", "11565", "11566", "11567", "11568", "11569", "11570", "11571", "11572", "11573", "11574", "11575", "11576", "11577", "11578", "11579", "11580", "11581", "11821", "11822", "11823", "11824", "11825", "11826", "11827", "11828", "11829", "11830", "11831", "11832", "11833", "11834", "11835", "11836", "11837", "12073", "12076", "12077", "12078", "12080", "12081", "12082", "12083", "12084", "12085", "12086", "12087", "12088", "12089", "12090", "12091", "12092", "12093", "12329", "12330", "12331", "12332", "12333", "12334", "12335", "12336", "12337", "12338", "12339", "12340", "12341", "12342", "12343", "12344", "12345", "12346", "12347", "12348", "12349", "12584", "12585", "12586", "12587", "12588", "12589", "12590", "12591", "12592", "12593", "12594", "12595", "12596", "12597", "12598", "12599", "12600", "12601", "12602", "12603", "12604", "12605", "12840", "12841", "12842", "12843", "12845", "12846", "12847", "12848", "12849", "12850", "12851", "12852", "12853", "12854", "12855", "12856", "12857", "12858", "12859", "12860", "12861", "13097", "13098", "13099", "13100", "13101", "13102", "13103", "13104", "13105", "13106", "13107", "13108", "13109", "13110", "13111", "13112", "13113", "13114", "13115", "13116", "13117", "13118", "13353", "13354", "13355", "13356", "13357", "13358", "13359", "13360", "13361", "13362", "13363", "13364", "13365", "13366", "13367 ", "13368", "13369", "13370", "13371", "13372", "13373", "13374", "13610", "13611", "13612", "13613", "13614", "13615", "13616", "13617", "13618", "13619", "13620", "13621", "13622", "13623", "13624", "13625", "13626", "13627", "13629", "13630", "13869", "13870", "13871", "13872", "13873", "13874", "13875", "13876", "13877", "13878", "13879", "13880", "13881", "13882", "13883", "14129", "14130", "14131", "14132", "14133", "14134", "14135", "14382", "14383", "14385", "14386", "14387", "14388", "14389", "14390", "14391", "14637", "14638", "14639", " 14641", "14642", "14643", "14644", "14645", "14646", "14647", "14659", "14660", "14878", "14883", "14884", "14893", "14894", "14895", "14896", "14897", "14898", "14899", "14915", "14916", "15133", "15134", "15135", "15139", "15140", "15148", "15149", "15150", "15151", "15153", "15154", "15155", "15159", "15168", "15169", "15170", "15171", "15172", "15173", "15389", "15390", "15391", "15423", "15424", "15425", "15426", "15427", "15428", "15429", "15430", "15649", "15679", "15680", "15681", "15682", "15683", "15684", "15685", "15686", "15649", "15935", "15936", "15937", "15938", "15939", "15940", "15941", "15942", "15943", "16153", "16154", "16155", "16161", "16179", "16180", "16192", "16193", "16194", "16195", "16196", "16197", "16198", "16199", "16409", "16410", "16411", "16434", "16435", "16436", "16437", "16438", "16447", "16448", "16449", "16450", "16451", "16452", "16453", "16454", "16455", "16666", "16667", "16668", "16689", "16690", "16691", "16692", "16693", "16694", "16703", "16704", "16705", "16706", "16707", "16708", "16709", "16710", "16919", "16920", "16923", "16924", "16944", "16945", "16946", "16947", "16948", "16949", "16950", "16960", "16961", "16962", "16963", "16964", "16965", "16966", "17175", "17176", "17200", "17201", "17202", "17203", "17204", "17205", "17206", "17457", "17458", "17459", "17460", "17461", "17462", "17693", "17694", "17949", "17950", "18205", "18206"],
+	"walkableChunks": ["7472", "7473", "7474", "7727", "7728", "7729", "7730", "7984", "7985", "7986", "7995", "8252", "8253", "8493", "8496", "8497", "8498", "8499", "8500", "8501", "8508", "8509", "8748", "8749", "8751", " 8752", "8753", "8754", "8755", "8756", "8757", "8760", "8761", "8763", "9001", "9005", "9007", "9008", "9009", "9010", "9011", "9012", "9013", "9014", "9015", "9016", "9017", "9263", "9264", "9265", "9266", "9267", "9268", "9269","9270", "9271", "9272", "9273", "9275", "9276", "9278", "9279", "9515", "9516", "9517", "9519", "9520", "9521", "9522", "9523", "9524", "9525", "9526", "9527", "9528", "9531", "9532", "9769", "9770", "9771", "9722", "9773", "9774", "9775", "9776", "9777", "9778", "9779", "9780", "9781", "9782", "9783", "9790", "9791", "10025", "10026", "10028", "10029", "10030", "10031", "10032", "10033", "10034", "10035", "10036", "10037", "10038", "10039", " 10040", "10042", "10043", "10044", "10046", "10047", "10284", "10285", "10286", "10287", "10288", "10289", "10290", "10291", "10292", "10293", "10294", "10295", "10296", "10297", "10300", "10536", "10537", "10542", "10543", "10544", "10545", "10546", "10547", "10548", "10549", "10550", "10551", "10552", "10553", "10554", "10556", "10558", "10559", "10794", "10795", "10801", "10802", "10803", "10804", "10805", "10806", "10807", "10808", "10809", "10810", "10811", "10812", "10814", "11050", "11051", "11053", "11054", "11055", "11056", "11057", "11058", "11059", "11060", "11061", "11062", "11063", "11064", "11065", "11066", "11067", "11068", "11304", "11309", "11310", "11311", "11312", "11313", "11314", "11315", "11316", "11317", "11318", "11319", "11320", "11321", "11322", "11323", "11324", "11325", "11562", "11565", "11566", "11567", "11568", "11569", "11570", "11571", "11572", "11573", "11574", "11575", "11576", "11577", "11578", "11579", "11580", "11581", "11821", "11822", "11823", "11824", "11825", "11826", "11827", "11828", "11829", "11830", "11831", "11832", "11833", "11834", "11835", "11836", "11837", "12073", "12076", "12077", "12078", "12080", "12081", "12082", "12083", "12084", "12085", "12086", "12087", "12088", "12089", "12090", "12091", "12092", "12093", "12329", "12330", "12331", "12332", "12333", "12334", "12335", "12336", "12337", "12338", "12339", "12340", "12341", "12342", "12343", "12344", "12345", "12346", "12347", "12348", "12349", "12584", "12585", "12586", "12587", "12588", "12589", "12590", "12591", "12592", "12593", "12594", "12595", "12596", "12597", "12598", "12599", "12600", "12601", "12602", "12603", "12604", "12605", "12840", "12841", "12842", "12843", "12845", "12846", "12847", "12848", "12849", "12850", "12851", "12852", "12853", "12854", "12855", "12856", "12857", "12858", "12859", "12860", "12861", "13097", "13098", "13099", "13100", "13101", "13102", "13103", "13104", "13105", "13106", "13107", "13108", "13109", "13110", "13111", "13112", "13113", "13114", "13115", "13116", "13117", "13118", "13353", "13354", "13355", "13356", "13357", "13358", "13359", "13360", "13361", "13362", "13363", "13364", "13365", "13366", "13367 ", "13368", "13369", "13370", "13371", "13372", "13373", "13374", "13610", "13611", "13612", "13613", "13614", "13615", "13616", "13617", "13618", "13619", "13620", "13621", "13622", "13623", "13624", "13625", "13626", "13627", "13629", "13630", "13869", "13870", "13871", "13872", "13873", "13874", "13875", "13876", "13877", "13878", "13879", "13880", "13881", "13882", "13883", "14129", "14130", "14131", "14132", "14133", "14134", "14135", "14382", "14383", "14385", "14386", "14387", "14388", "14389", "14390", "14391", "14637", "14638", "14639", " 14641", "14642", "14643", "14644", "14645", "14646", "14647", "14659", "14660", "14878", "14883", "14884", "14893", "14894", "14895", "14896", "14897", "14898", "14899", "14915", "14916", "15133", "15134", "15135", "15139", "15140", "15148", "15149", "15150", "15151", "15153", "15154", "15155", "15159", "15168", "15169", "15170", "15171", "15172", "15173", "15389", "15390", "15391", "15423", "15424", "15425", "15426", "15427", "15428", "15429", "15430", "15649", "15679", "15680", "15681", "15682", "15683", "15684", "15685", "15686", "15649", "15935", "15936", "15937", "15938", "15939", "15940", "15941", "15942", "15943", "16153", "16154", "16155", "16161", "16179", "16180", "16192", "16193", "16194", "16195", "16196", "16197", "16198", "16199", "16409", "16410", "16411", "16434", "16435", "16436", "16437", "16438", "16447", "16448", "16449", "16450", "16451", "16452", "16453", "16454", "16455", "16666", "16667", "16668", "16689", "16690", "16691", "16692", "16693", "16694", "16703", "16704", "16705", "16706", "16707", "16708", "16709", "16710", "16919", "16920", "16923", "16924", "16944", "16945", "16946", "16947", "16948", "16949", "16950", "16960", "16961", "16962", "16963", "16964", "16965", "16966", "17175", "17176", "17200", "17201", "17202", "17203", "17204", "17205", "17206", "17457", "17458", "17459", "17460", "17461", "17462", "17693", "17694", "17715", "17716", "17717", "17718", "17949", "17950", "18205", "18206"],
 	"walkableChunksF2P": ["6769", "9770", "10025", "10026", "11313", "11314", "11315", "11317", "11318", "11319", "11320", "11569", "11570", "11571", "11572", "11573", "11574", "11575", "11824", "11825", "11826", "11827", "11828", "11829", "11830", "11831", "11832", "11833", "11834", "11835", "11836", "11837", "12080", "12081", "12082", "12083", "12084", "12085", "12086", "12087", "12088", "12089", "12090", "12091", "12092", "12093", "12336", "12337", "12338", "12339", "12340", "12341", "12342", "12343", "12344", "12345", "12346", "12347", "12348", "12349", "12592", "12593", "12594", "12595", "12596", "12597", "12598", "12599", "12600", "12601", "12602", "12603", "12604", "12605", "12849", "12850", "12851", "12852", "12853", "12854", "12855", "12856", "12857", "12858", "12859", "12860", "12861", "13104", "13105", "13106", "13107", "13108", "13109", "13110", "13111", "13112", "13113", "13114", "13115", "13116", "13117", "13360", "13361", "13362", "13363", "13364", "13365", "13366", "13367", "13368", "13369", "13370", "13371", "13372", "13373", "13617", "13618", "13619", "13620", "13622", "13624", "13625", "13626", "13627", "13880", "13881", "13882", "13883", "16179", "16180", "16434", "16435", "16436", "16437", "16438", "16689", "16690", "16691", "16692", "16693", "16694", "16944", "16945", "16946", "16947", "16948", "16949", "16950", "17200", "17201", "17202", "17203", "17204", "17205", "17206", "17456", "17457", "17458", "17459", "17460", "17461", "17462"],
-	"unnotingChunks": ["8253", "8500", "8748", "8755", "8756", "8757", "9011", "9015", "92651", "92731", "9275", "9516", "9531", "9776", "9781", "9782", "10028", "10039", "10288", "10292", "10293", "10300", "10537", "10545", "10547", "10548", "10804", "10806", "11061", "11310", "11317", "11319", "11575", "11827", "11828", "11834", "11836", "12084", "12088", "12089", "12335", "12338", "12342", "12347", "12586", "12593", "12594", "12597", "12598", "12841", "12843", "12850", "12852", "12853", "12854", "12856", "12860", "13104", "13105", "13111", "13363", "13364", "13372", "13613", "13626", "13874", "13878", "14388", "14638", "14642", "14646", "15134", "15939", "16692", "16179", "17175", "Dominion Tower", "Sophanem Dungeon", "Dorgesh-Kaan", "Mage arena cave", "War's Retreat", "Mazcab", "Gamers' Grotto", "Invention Guild", "TzHaar City", "Keldagrim", "Ourania Cave", "City of Um"],
+	"unnotingChunks": ["8253", "8500", "8748", "8755", "8756", "8757", "9011", "9015", "92651", "92731", "9275", "9516", "9531", "9776", "9781", "9782", "10028", "10039", "10288", "10292", "10293", "10300", "10537", "10545", "10547", "10548", "10804", "10806", "11061", "11310", "11317", "11319", "11575", "11827", "11828", "11834", "11836", "12084", "12088", "12089", "12335", "12338", "12342", "12347", "12586", "12593", "12594", "12597", "12598", "12841", "12843", "12850", "12852", "12853", "12854", "12856", "12860", "13104", "13105", "13111", "13363", "13364", "13372", "13613", "13626", "13874", "13878", "14388", "14638", "14642", "14646", "15134", "15939", "16692", "16179", "17175", "17716", "Dominion Tower", "Sophanem Dungeon", "Dorgesh-Kaan", "Mage arena cave", "War's Retreat", "Mazcab", "Gamers' Grotto", "Invention Guild", "TzHaar City", "Keldagrim", "Ourania Cave", "City of Um"],
 	"rollingChunks": {},
 	"equipment": {
 		"Unarmed": {
