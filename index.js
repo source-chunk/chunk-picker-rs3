@@ -2233,7 +2233,7 @@ let drawCanvas = function(ctxIn = ctx) {
     // Overlays
     ctxIn.save();
     !!chunkInfo['mapOverlays'] && selectedOverlay !== 'None' && selectedOverlay !== 'Locked Slayer Task|Slayer task' && !!chunkInfo['mapOverlays'][selectedOverlay] && chunkInfo['mapOverlays'][selectedOverlay].forEach((overlayEl, i) => {
-        if ((selectedOverlay !== 'Clues' || selectedOverlayClues[overlayEl.type]) && (selectedOverlayIds.length === 0 || i !== selectedOverlayId) && overlayEl.x >= 1856 && overlayEl.x <= 4608 && overlayEl.y >= 1410 && overlayEl.y <= 4607 && (!unlockedOverlayOnly || (!!tempChunks['unlocked'] && tempChunks['unlocked'].hasOwnProperty(convertToChunkNum(Math.floor((overlayEl.x - 1856)/64), (fullSize / rowSize) - Math.floor((overlayEl.y - 2496)/64) - 1))))) {
+        if ((selectedOverlay !== 'Clues' || selectedOverlayClues[overlayEl.type]) && (selectedOverlayIds.length === 0 || i !== selectedOverlayId) && overlayEl.x >= 1856 && overlayEl.x <= 4608 && overlayEl.y >= 1410 && overlayEl.y <= 4607 && (!unlockedOverlayOnly || (!!tempChunks['unlocked'] && tempChunks['unlocked'].hasOwnProperty(convertToChunkNum(Math.floor((overlayEl.x - 1856)/64), (fullSize / rowSize) - Math.floor((overlayEl.y - 1410)/64) - 1))))) {
             ctxIn.textAlign = 'center';
             ctxIn.font = '900 ' + 36 + 'px "Font Awesome 6 Free"';
             ctxIn.fillStyle = 'white';
@@ -2719,7 +2719,7 @@ let handleMouseMove = function(e) {
             hoveredOverlayIds = [];
             let lowestDistance = 100;
             e.target.id === 'canvas' && chunkInfo['mapOverlays'][selectedOverlay].forEach((overlayEl, i) => {
-                if ((overlayEl.text || overlayEl.img) && (selectedOverlay !== 'Clues' || selectedOverlayClues[overlayEl.type]) && overlayEl.x >= 1856 && overlayEl.x <= 4287 && overlayEl.y >= 2496 && overlayEl.y <= 4607 && (!unlockedOverlayOnly || (!!tempChunks['unlocked'] && tempChunks['unlocked'].hasOwnProperty(convertToChunkNum(Math.floor((overlayEl.x - 1856)/64), (fullSize / rowSize) - Math.ceil((overlayEl.y - 2495)/64)))))) {
+                if ((overlayEl.text || overlayEl.img) && (selectedOverlay !== 'Clues' || selectedOverlayClues[overlayEl.type]) && overlayEl.x >= 1856 && overlayEl.x <= 4608 && overlayEl.y >= 1410 && overlayEl.y <= 4607 && (!unlockedOverlayOnly || (!!tempChunks['unlocked'] && tempChunks['unlocked'].hasOwnProperty(convertToChunkNum(Math.floor((overlayEl.x - 1856)/64), (fullSize / rowSize) - Math.ceil((overlayEl.y - 1410)/64)))))) {
                     let distance = Math.sqrt(Math.pow((dragTotalX + (totalZoom * (((overlayEl.x/64) - 29) * imgW / rowSize))) - currentX, 2) + Math.pow((dragTotalY + (totalZoom * ((72 - (overlayEl.y/64)) * imgH / (fullSize / rowSize))) - 6 - 15) - currentY, 2));
                     if (distance < 15 && distance < lowestDistance) {
                         hoveredOverlayIds.push(i);
