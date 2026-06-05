@@ -87875,7 +87875,7 @@
   "Battle Runes: ~|Chaos rune|~": "t_48724",
   "Battle Runes: ~|Death rune|~": "t_48725",
   "Battle Runes: ~|Blood rune|~": "t_48726",
-  "Battle Runes: ~|Demonic skull|~": "t_48727",
+  "Battle Runes: ~|Demonic Skull|~": "t_120751",
   "Bedabin Village Bartering: ~|Waterskin (4)|~": "t_48728",
   "Bedabin Village Bartering: ~|Waterskin (0)|~": "t_48729",
   "Bedabin Village Bartering: ~|Jug of water|~": "t_48730",
@@ -92137,5 +92137,5 @@
   "Pizazz points: ~|Death rune|~": "t_52854",
   "Pizazz points: ~|Soul rune|~": "t_52856",
   "Pizazz points: ~|Blood rune|~": "t_52857",
-  "currentNextIndex": 120751
+  "currentNextIndex": 120752
 }

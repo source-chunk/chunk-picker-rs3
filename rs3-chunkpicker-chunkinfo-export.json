@@ -73074,7 +73074,7 @@
 			"~|Beneath Cursed Tides|~ 2": {
 				"BaseQuest": "Beneath Cursed Tides",
 				"Description": "Talk to Vannaka, then return to the Wizards' Tower",
-				"Chunks": ["12337-1", "12342-1"],
+				"Chunks": ["12337-1", "BeneathCursedTides2[+]"],
 				"Tasks": {
 					"~|Beneath Cursed Tides|~ 1": "Quest"
 				}
@@ -83001,7 +83001,7 @@
 			"~|The Fremennik Isles|~ 15": {
 				"BaseQuest": "The Fremennik Isles",
 				"Description": "Enter the troll cave, kill 10 trolls and then the ice troll king",
-				"Chunks": ["Ice Troll Caves"],
+				"Chunks": ["Ice Troll Caves", "9532-2"],
 				"Tasks": {
 					"~|The Fremennik Isles|~ 14": "Quest"
 				},
@@ -125701,7 +125701,7 @@
 				"Not F2P": true
 			},
 			"~|Completionist achievements#Completionist Cape|~ Bean There, Done That": {
-				"Category": ["Comp achievements"],
+				"Category": ["Comp achievements", "Timegated"],
 				"Description": "Purchase the following upgrades from the farmers' market reward shop.",
 				"BaseQuest": "Completionist achievements",
 				"Chunks": ["10548"],
@@ -125716,7 +125716,7 @@
 				"Not F2P": true
 			},
 			"~|Completionist achievements#Completionist Cape|~ Bean There, Done That, Got the Postcard": {
-				"Category": ["Comp achievements"],
+				"Category": ["Comp achievements", "Timegated"],
 				"Description": "Purchase the following upgrades from the Anachronia farmers' market reward shop.",
 				"BaseQuest": "Completionist achievements",
 				"Chunks": ["14916"],
@@ -177306,7 +177306,7 @@
 				"Chunks": ["12342-1"]
 			},
 			"Get skulled with a demonic skull": {
-				"Items": ["Demonic skull"]
+				"Items": ["Demonic Skull"]
 			},
 			"Obtain a warped stone": {
 				"Items": ["Warped stone"]
@@ -234742,6 +234742,7 @@
 			"ArchDigSite[+]": ["9516", "10549", "Star Lodge", "13361-1", "14898", "13626-1", "13882-1", "Senntisten", "Vault of Varanus", "Observation Outpost"],
 			"ArdougneGuardChunks[+]": ["10547-1", "10291", "10292"],
 			"Asgarnian safes[+]": ["11575-1", "11828", "12082-1", "12084-1", "12087-3"],
+			"BeneathCursedTides2[+]": ["Edgeville Dungeon", "12342-1"],
 			"BlastAndHellfire[+]": ["12593", "12851", "12850", "Lumbridge Catacombs"],
 			"Candle seller[+]": [
 				"11061",
@@ -234850,6 +234851,7 @@
 			"ArchDigSite[+]": "Any archaeology dig site",
 			"ArdougneGuardChunks[+]": "Any chunks with guards in Ardougne",
 			"Asgarnian safes[+]": "Any chunk in Asgarnia with safes",
+			"BeneathCursedTides2[+]": "Any chunk where you can talk to Vannaka",
 			"BlastAndHellfire[+]": "Any chunk where the Blast and Hellfire achievement may be completed",
 			"Candle seller[+]": "Any requirementless candle seller",
 			"CaptainsGnomeRestaurant[+]": "Any chunk with a hard Gnome Restaurant delivery that accesses the gnome pilot loot table",
@@ -292798,7 +292800,7 @@
 		"Back to the Freezer": "10290, 10553, 13101, 10558, 10559, Killerwatt Plane",
 		"Battle of the Monolith": "13365, 13364",
 		"Battle of Forinthry": "13111, Prison (Fort Forinthry)",
-		"Beneath Cursed Tides": "12337, 12342, 11824, Sunken Tutorial Island",
+		"Beneath Cursed Tides": "12337, BeneathCursedTides2[+], 11824, Sunken Tutorial Island",
 		"Beneath Scabaras' Sands": "12586, 13105, 13358, 13613, 13098, Grand Library of Menaphos, Uzer Mastaba, 13972, 12844, 12845, 12846, 12590, 12847, 13103, 13102, Scabarite Cavern",
 		"Between a Rock...": "Keldagrim, 12085, Dwarven Mine, Dwarven Tunnel, Arzinian gold mine",
 		"Big Chompy Bird Hunting": "10542, Rantz's cave",
@@ -296574,7 +296576,7 @@
 			},
 			"Battle Runes": {
 				"12343-1": [{
-					"~|Enter the Abyss (miniquest)|~ Complete the quest": "Quest"
+					"~|Enter the Abyss (miniquest)|~ Complete the miniquest": "Quest"
 				}]
 			},
 			"Castle Wars Ticket Exchange": {
@@ -299340,7 +299342,7 @@
 			"Chaos rune": true,
 			"Death rune": true,
 			"Blood rune": true,
-			"Demonic skull": true
+			"Demonic Skull": true
 		},
 		"Bedabin Village Bartering": {
 			"Waterskin (4)": true,
