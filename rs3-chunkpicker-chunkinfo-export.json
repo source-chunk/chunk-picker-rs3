@@ -110256,6 +110256,7 @@
 				"Description": "Cook a spider on a stick.",
 				"Chunks": ["TaiBwoWannaiChunks[+]"],
 				"Objects": ["Cooking object[+]"],
+				"Items": ["Skewer stick", "Spider carcass"],
 				"Skills": {
 					"Cooking": 16
 				},
@@ -115103,8 +115104,8 @@
 				"Category": ["Show Diary Tasks"],
 				"RuneScore": 15
 			},
-			"~|Varrock Achievements#Hard|~ But It Won't Warp You Anywhere": {
-				"Description": "Use the pipe shortcut in Varrock Sewers, near the moss giants.",
+			"~|Varrock Achievements#Hard|~ Security Isn't a Dirty Word": {
+				"Description": "Use the crevice shortcut in Varrock Sewers, near the moss giants.",
 				"Chunks": ["Varrock Sewers"],
 				"Skills": {
 					"Agility": 51
@@ -121593,7 +121594,7 @@
 				"BaseQuest": "Completionist achievements",
 				"Chunks": ["9531-1"],
 				"Tasks": {
-					"~|The Fremennik Isles|~ Complete the quest": "Quest"
+					"~|The Fremennik Isles|~ 10": "Quest"
 				},
 				"RuneScore": 10,
 				"Not F2P": true
@@ -132636,7 +132637,7 @@
 				"Not F2P": true
 			},
 			"~|Skills achievements#Runecrafting|~ Y'all Got Any More of that Rune Dust? IV": {
-				"Category": ["Misc achievements", "DnD"],
+				"Category": ["Misc achievements", "DnD", "Timegated"],
 				"Description": "Hand in rune dust to a runesphere 25 times.",
 				"BaseQuest": "Skills achievements",
 				"Chunks": ["The Runespan"],
@@ -213480,7 +213481,8 @@
 						"Fairy ring": 1,
 						"Maple Tree": 3,
 						"Tree": 1,
-						"Fishing spot (lure, bait)": 1
+						"Fishing spot (lure, bait)": 1,
+						"Evil tree": 1
 					},
 					"Monster": {
 						"Fox": 1
@@ -293328,7 +293330,7 @@
 				"~|The Fremennik Trials|~ Complete the quest": "Quest"
 			}],
 			"Frying pan^": [{
-				"Complete 4 RFD subquests": "Quest"
+				"Complete 4 RFD subquests": "Nonskill"
 			}],
 			"Gold stone spirit^Ivar, King of Bones": [{
 				"Members only": "Nonskill"
@@ -293340,7 +293342,7 @@
 				"Obtain a ~|hungry hood|~": "Runecrafting"
 			}],
 			"Kitchen knife^": [{
-				"Complete 7 RFD subquests": "Quest"
+				"Complete 7 RFD subquests": "Nonskill"
 			}],
 			"Linza's helm^": [{
 				"~|Kindred Spirits|~ Complete the quest": "Quest"
@@ -293364,7 +293366,7 @@
 				"Members only": "Nonskill"
 			}],
 			"Meat tenderiser^": [{
-				"Complete 8 RFD subquests": "Quest"
+				"Complete 8 RFD subquests": "Nonskill"
 			}],
 			"Micah^": [{
 				"~|Combat achievements#Dragonkin Laboratory|~ Chill Out, Bro!": "Diary"
@@ -293409,7 +293411,7 @@
 				"Members only": "Nonskill"
 			}],
 			"Rolling pin^": [{
-				"Complete 6 RFD subquests": "Quest"
+				"Complete 6 RFD subquests": "Nonskill"
 			}],
 			"Shark^Barrows": [{
 				"Tier 2 luck or higher*": "Nonskill"
@@ -293502,16 +293504,16 @@
 				"~|The Fremennik Trials|~ Complete the quest": "Quest"
 			}],
 			"Skewer^": [{
-				"Complete 5 RFD subquests": "Quest"
+				"Complete 5 RFD subquests": "Nonskill"
 			}],
 			"Slayer's staff^": [{
 				"Members only": "Nonskill"
 			}],
 			"Spatula^": [{
-				"Complete 3 RFD subquests": "Quest"
+				"Complete 3 RFD subquests": "Nonskill"
 			}],
 			"Spork^": [{
-				"Complete 2 RFD subquests": "Quest"
+				"Complete 2 RFD subquests": "Nonskill"
 			}],
 			"Super defence (2)^Barrows": [{
 				"Tier 2 luck or higher*": "Nonskill"
@@ -296703,12 +296705,12 @@
 				}]
 			},
 			"Gabooty's Tai Bwo Wannai Cooperative": {
-				"11055": [{
+				"11055-2": [{
 					"~|Jungle Potion|~ Complete the quest": "Quest"
 				}]
 			},
 			"Gabooty's Tai Bwo Wannai Drinky Store": {
-				"11055": [{
+				"11055-2": [{
 					"~|Jungle Potion|~ Complete the quest": "Quest"
 				}]
 			},
@@ -297033,12 +297035,12 @@
 				}]
 			},
 			"Tamayu's Spear stall": {
-				"11055": [{
+				"11055-2": [{
 					"~|Tai Bwo Wannai Trio|~ Complete the quest": "Quest"
 				}]
 			},
 			"Tamayu's Karambwan stall": {
-				"11055": [{
+				"11055-2": [{
 					"~|Tai Bwo Wannai Trio|~ Complete the quest": "Quest"
 				}]
 			},
@@ -297304,7 +297306,8 @@
 			{ "color": "#8B4513", "x": 2653, "y": 3412 },
 			{ "color": "#8B4513", "x": 2909, "y": 2895 },
 			{ "color": "#8B4513", "x": 2450, "y": 3348 },
-			{ "color": "#8B4513", "x": 4308, "y": 3265 }
+			{ "color": "#8B4513", "x": 4308, "y": 3265 },
+			{ "color": "#8B4513", "x": 4439, "y": 3409 }
 		],
 		"Familiarisation": [
 			{ "color": "#40E0D0", "x": 2932, "y": 3347 },
