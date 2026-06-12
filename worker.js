@@ -303,7 +303,7 @@ onmessage = function(e) {
             unconnectedAreas
         } = eGlobal.data);
 
-        if (updateLevel !== 'maintenance-mode') {
+        if (updateLevel !== 'unconnected-areas') {
             postMessage({ type: 'reload' });
         }
 
