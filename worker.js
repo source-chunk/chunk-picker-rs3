@@ -210,7 +210,7 @@ let bisUpgrades = {};
 let globalValidsBoosts = {};
 let bringAlongTasks = {};
 let globalEveryDropAltMap = {};
-let unconnectedAreas = ['Zanaris', 'Puro-Puro', 'Player-owned house', 'Player-Owned Port', 'Vinesweeper', 'Guthixian Cache', "Balthazar Beauregard's Big Top Bonanza", 'Sinkhole', 'Chinchompa cave', 'Rune Essence mine', 'Paterdomus', 'Uncharted Isles'];
+let unconnectedAreas;
 let nonDiaryAchievements = ['Combat Mastery achievements', 'Combat achievements', 'Completionist achievements', 'Skills achievements', 'Exploration achievements', 'Activities achievements'];
 let highestSkillLevels = {
     "Slayer": 120,
@@ -299,7 +299,8 @@ onmessage = function(e) {
             maxSkill,
             userTasks,
             manualPrimary,
-            updateLevel
+            updateLevel,
+            unconnectedAreas
         } = eGlobal.data);
 
         if (updateLevel !== 'maintenance-mode') {
