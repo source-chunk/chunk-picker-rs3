@@ -58799,7 +58799,7 @@
 				"Not F2P": true
 			},
 			"Wield a ~|gloomfire bow|~": {
-				"Items": ["gloomfire bow"],
+				"Items": ["Gloomfire bow"],
 				"Level": 90,
 				"Primary": false,
 				"Priority": 21,
@@ -70768,6 +70768,9 @@
 			"Cut ~|creeping ivy|~": {
 				"Level": 35,
 				"Objects": ["Creeping ivy"],
+				"Tasks": {
+					"~|Visions of Havenhythe|~ 4": "Quest"
+				},
 				"Primary": true,
 				"Priority": 1,
 				"Output": "Creeping ivy loot",
@@ -184424,12 +184427,11 @@
 				"Gunnar Holdstrom": 1,
 				"Anne Isaakson": 1,
 				"Lisse Isaakson": 1,
-				"Honour guard": 7,
+				"Honour guard": 13,
 				"Kjedelig Uppsen": 1,
 				"Trogen Konungarde": 1,
 				"Slug Hemligssen": 1,
-				"Mawnis Burowgar": 1,
-				"Honour guard": 6
+				"Mawnis Burowgar": 1
 			},
 			"Monster": {
 				"Yak": 6,
@@ -185805,11 +185807,11 @@
 				"Ice troll runt": 5,
 				"Ice troll male": 7,
 				"Ice troll female": 9,
-				"Ice troll grunt": 6,
-				"Honour guard": 6
+				"Ice troll grunt": 6
 			},
 			"NPC": {
-				"Bork Sigmundson": 1
+				"Bork Sigmundson": 1,
+				"Honour guard": 6
 			},
 			"Name": "Ice Troll Caves"
 		},
@@ -217835,10 +217837,10 @@
 				"Baden": 1,
 				"Glosur": 1,
 				"Ping": 1,
-				"Pong": 1
+				"Pong": 1,
+				"Honour guard": 6
 			},
 			"Monster": {
-				"Honour guard": 6,
 				"Sea Snake Young": 10,
 				"Sea Snake Hatchling": 7
 			},
@@ -220878,16 +220880,6 @@
 				"Chaos dwarf (Chaos Dwarf Battlefield)": 7,
 				"Black Guard crossbowdwarf": 9,
 				"Black Guard berserker": 4
-			},
-			"NPC": {
-				"Colonel Grenda": 1,
-				"Goblin": 5,
-				"Gnome soldier": 5,
-				"Healthorg and tortoise": 1,
-				"Glouphrie the Untrusted": 1
-			},
-			"Object": {
-				"Evergreen": 40
 			},
 			"Connect": {
 				"11422": true
@@ -225923,11 +225915,11 @@
 				"Ice troll runt#Variant 1": 5,
 				"Ice troll male#Variant 1": 7,
 				"Ice troll female#Variant 1": 9,
-				"Ice troll grunt#Variant 1": 6,
-				"Honour guard": 6
+				"Ice troll grunt#Variant 1": 6
 			},
 			"NPC": {
-				"Bork Sigmundson": 1
+				"Bork Sigmundson": 1,
+				"Honour guard": 6
 			},
 			"Connect": {
 				"9276": true,
@@ -293085,7 +293077,7 @@
 		"What's Mine is Yours": "11829, Dwarven Mine, 11826, 13108, 12596, 12084, 11828",
 		"While Guthix Sleeps": "10804, 11573, 12854, 10029, 10289, 10034, Movario's base, 10550, 10806, 11828, 12338, 12082, 11310, 10544, 11575, 13878, 11319, 12087, Black Knights' catacombs, 11579, 11835, Tears of Guthix cavern, Ancient Guthix Temple",
 		"Witch's House": "11572, Witch's House#Cellar",
-		"Within the Light": "9265, Mourner MQ, Mourner Tunnels & Temple of Light, Death Rune Temple",
+		"Within the Light": "9265, Mourner HQ, Mourner Tunnels & Temple of Light, Death Rune Temple",
 		"Wiz Kid": "16947, 12337",
 		"Wolf Whistle": "11573, 11318, Taverley Well Cave",
 		"The World Wakes": "10804, Guthixian ruins",

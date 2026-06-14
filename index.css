@@ -6828,6 +6828,11 @@ input#searchChunks {
     position: relative;
 }
 
+.methods-data .skill-method.highlighted {
+    border: solid 2px var(--colorFlash);
+    background-color: var(--color6);
+}
+
 .methods-data > .skill-method.with-burger {
     padding-right: 40px;
 }
