@@ -107272,7 +107272,7 @@
 			"Archaeology Mystery: ~|Cult Classic|~ 1": {
 				"BaseQuest": "Cult Classic",
 				"Description": "Find the last four ancient tablets",
-				"Items": ["Ancient table V", "Ancient table VI", "Ancient table VII", "Ancient table VIII"],
+				"Items": ["Ancient tablet V", "Ancient tablet VI", "Ancient tablet VII", "Ancient tablet VIII"],
 				"Tasks": {
 					"Gain access to the ~|Moonrise Dig Site|~": "Archaeology"
 				},
@@ -107333,7 +107333,7 @@
 			"Archaeology Mystery: ~|The Final Revolution|~ 1": {
 				"BaseQuest": "The Final Revolution",
 				"Description": "Complete all other mysteries at Moonrise Temple, then speak to Utu. Finally, reflect.",
-				"Items": ["17717-2"],
+				"Chunks": ["17717-2"],
 				"Tasks": {
 					"Archaeology Mystery: ~|Shadows of the Colossi|~ Complete the mystery": "Quest",
 					"Archaeology Mystery: ~|Path of the Initiate|~ Complete the mystery": "Quest",
