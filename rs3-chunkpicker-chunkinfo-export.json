@@ -3313,6 +3313,90 @@
 				"Priority": 12,
 				"NoBoost": true
 			},
+			"Gain access to the ~|Moonrise Dig Site|~": {
+				"Tasks": {
+					"Complete the ~|Archaeology tutorial|~": "Archaeology",
+					"~|Secrets of Amberfell|~ Complete the quest": "Quest"
+				},
+				"Chunks": ["17717-2"],
+				"Level": 52,
+				"Primary": false,
+				"Priority": 1,
+				"NoBoost": true
+			},
+			"Excavate ~|lunar wheel debris|~": {
+				"Tasks": {
+					"Gain access to the ~|Moonrise Dig Site|~": "Archaeology"
+				},
+				"Objects": ["Lunar wheel debris"],
+				"Level": 52,
+				"Output": "Lunar wheel debris",
+				"Primary": true,
+				"Priority": 2
+			},
+			"Restore a ~|lunar calendar|~": {
+				"Tasks": {
+					"Complete the ~|Archaeology tutorial|~": "Archaeology"
+				},
+				"Items": ["Lunar calendar (damaged)*", "Banded limestone*", "Triskelion*"],
+				"Objects": ["Archaeologist's workbench"],
+				"Level": 52,
+				"Output": "Lunar calendar",
+				"Primary": true,
+				"Priority": 3
+			},
+			"Restore a ~|wolf statuette|~": {
+				"Tasks": {
+					"Complete the ~|Archaeology tutorial|~": "Archaeology"
+				},
+				"Items": ["Wolf statuette (damaged)*", "Banded limestone*", "Ivory*"],
+				"Objects": ["Archaeologist's workbench"],
+				"Level": 52,
+				"Output": "Wolf statuette",
+				"Primary": true,
+				"Priority": 4
+			},
+			"Restore a ~|ivory sickle|~": {
+				"Tasks": {
+					"Complete the ~|Archaeology tutorial|~": "Archaeology"
+				},
+				"Items": ["Ivory sickle (damaged)*", "Ivory*", "Triskelion*"],
+				"Objects": ["Archaeologist's workbench"],
+				"Level": 52,
+				"Output": "Ivory sickle",
+				"Primary": true,
+				"Priority": 5
+			},
+			"Excavate a ~|banded limestone|~ material cache": {
+				"Tasks": {
+					"Complete the ~|Archaeology tutorial|~": "Archaeology"
+				},
+				"Objects": ["Material cache (banded limestone)"],
+				"Level": 52,
+				"Output": "Banded limestone cache",
+				"Primary": true,
+				"Priority": 6
+			},
+			"Excavate an ~|ivory|~ material cache": {
+				"Tasks": {
+					"Complete the ~|Archaeology tutorial|~": "Archaeology"
+				},
+				"Objects": ["Material cache (ivory)"],
+				"Level": 52,
+				"Output": "Ivory cache",
+				"Primary": true,
+				"Priority": 7
+			},
+			"Excavate a ~|triskelion|~ material cache": {
+				"Tasks": {
+					"Complete the ~|Archaeology tutorial|~": "Archaeology"
+				},
+				"Objects": ["Material cache (triskelion)"],
+				"Level": 58,
+				"Output": "Triskelion cache",
+				"Primary": true,
+				"Priority": 8
+			},
 			"Excavate ~|cermamics studio debris|~": {
 				"Tasks": {
 					"Complete the ~|Archaeology tutorial|~": "Archaeology"
@@ -3458,6 +3542,38 @@
 				"Primary": false,
 				"Priority": 8,
 				"NoBoost": true
+			},
+			"Excavate ~|arbour rubble|~": {
+				"Tasks": {
+					"Gain access to the ~|Moonrise Dig Site|~": "Archaeology"
+				},
+				"Objects": ["Arbour rubble"],
+				"Level": 59,
+				"Output": "Arbour rubble",
+				"Primary": true,
+				"Priority": 1
+			},
+			"Restore a ~|nakkirian seal|~": {
+				"Tasks": {
+					"Complete the ~|Archaeology tutorial|~": "Archaeology"
+				},
+				"Items": ["Nakkirian seal (damaged)*", "Ivory*", "White oak*", "Soft clay*"],
+				"Objects": ["Archaeologist's workbench"],
+				"Level": 59,
+				"Output": "Nakkirian seal",
+				"Primary": true,
+				"Priority": 2
+			},
+			"Restore a ~|Royal Game of Ba|~": {
+				"Tasks": {
+					"Complete the ~|Archaeology tutorial|~": "Archaeology"
+				},
+				"Items": ["Royal Game of Ba (damaged)*", "White oak*", "Triskelion*"],
+				"Objects": ["Archaeologist's workbench"],
+				"Level": 59,
+				"Output": "Royal Game of Ba",
+				"Primary": true,
+				"Priority": 3
 			},
 			"Gain access to the ~|Senntisten Dig Site|~": {
 				"Tasks": {
@@ -3832,6 +3948,69 @@
 				"Primary": true,
 				"Priority": 4
 			},
+			"Excavate ~|weaver's hut debris|~": {
+				"Tasks": {
+					"Gain access to the ~|Moonrise Dig Site|~": "Archaeology"
+				},
+				"Objects": ["Weaver's hut debris"],
+				"Level": 66,
+				"Output": "Weaver's hut debris",
+				"Primary": true,
+				"Priority": 5
+			},
+			"Restore a ~|backstrap loom|~": {
+				"Tasks": {
+					"Complete the ~|Archaeology tutorial|~": "Archaeology"
+				},
+				"Items": ["Backstrap loom (damaged)*", "White oak*", "Burnt umber*", "Cashmere*"],
+				"Objects": ["Archaeologist's workbench"],
+				"Level": 66,
+				"Output": "Backstrap loom",
+				"Primary": true,
+				"Priority": 6
+			},
+			"Restore a ~|animal doll|~": {
+				"Tasks": {
+					"Complete the ~|Archaeology tutorial|~": "Archaeology"
+				},
+				"Items": ["Animal doll (damaged)*", "Cashmere*", "White oak*", "Ivory*"],
+				"Objects": ["Archaeologist's workbench"],
+				"Level": 66,
+				"Output": "Animal doll",
+				"Primary": true,
+				"Priority": 7
+			},
+			"Restore a ~|Initiate's kaunake|~": {
+				"Tasks": {
+					"Complete the ~|Archaeology tutorial|~": "Archaeology"
+				},
+				"Items": ["Initiate's kaunake (damaged)*", "Cashmere*", "Burnt umber*", "Leather scraps*"],
+				"Objects": ["Archaeologist's workbench"],
+				"Level": 66,
+				"Output": "Initiate's kaunake",
+				"Primary": true,
+				"Priority": 8
+			},
+			"Excavate a ~|cashmere|~ material cache": {
+				"Tasks": {
+					"Complete the ~|Archaeology tutorial|~": "Archaeology"
+				},
+				"Objects": ["Material cache (cashmere)"],
+				"Level": 66,
+				"Output": "Cashmere cache",
+				"Primary": true,
+				"Priority": 9
+			},
+			"Excavate a ~|burnt umber|~ material cache": {
+				"Tasks": {
+					"Complete the ~|Archaeology tutorial|~": "Archaeology"
+				},
+				"Objects": ["Material cache (burnt umber)"],
+				"Level": 66,
+				"Output": "Burnt umber cache",
+				"Primary": true,
+				"Priority": 10
+			},
 			"Complete the ~|Are You Not Entertained?|~ research": {
 				"Tasks": {
 					"Become an ~|archaeology assistant|~": "Archaeology"
@@ -3840,7 +4019,7 @@
 				"Objects": ["Research notes"],
 				"Level": 66,
 				"Primary": false,
-				"Priority": 5,
+				"Priority": 11,
 				"NoBoost": true
 			},
 			"Excavate ~|citizen remains|~": {
@@ -4420,6 +4599,38 @@
 				"Primary": false,
 				"Priority": 5
 			},
+			"Excavate ~|shrine debris|~": {
+				"Tasks": {
+					"Gain access to the ~|Moonrise Dig Site|~": "Archaeology"
+				},
+				"Objects": ["Shrine debris"],
+				"Level": 75,
+				"Output": "Shrine debris",
+				"Primary": true,
+				"Priority": 1
+			},
+			"Restore an ~|offering bowl|~": {
+				"Tasks": {
+					"Complete the ~|Archaeology tutorial|~": "Archaeology"
+				},
+				"Items": ["Offering bowl (damaged)*", "Banded limestone*", "Triskelion*", "Burnt umber*"],
+				"Objects": ["Archaeologist's workbench"],
+				"Level": 75,
+				"Output": "Offering bowl",
+				"Primary": true,
+				"Priority": 2
+			},
+			"Restore an ~|incense burner|~": {
+				"Tasks": {
+					"Complete the ~|Archaeology tutorial|~": "Archaeology"
+				},
+				"Items": ["Incense burner (damaged)*", "Banded limestone*", "White oak*", "Cashmere*"],
+				"Objects": ["Archaeologist's workbench"],
+				"Level": 75,
+				"Output": "Incense burner",
+				"Primary": true,
+				"Priority": 3
+			},
 			"Complete the ~|Imposing Stature|~ research": {
 				"Tasks": {
 					"Become an ~|archaeology assistant|~": "Archaeology"
@@ -4428,7 +4639,19 @@
 				"Objects": ["Research notes"],
 				"Level": 75,
 				"Primary": false,
-				"Priority": 1,
+				"Priority": 4,
+				"NoBoost": true
+			},
+			"Complete the ~|The Beast Within|~ research": {
+				"Tasks": {
+					"Become an ~|archaeology assistant|~": "Archaeology",
+					"Gain access to the ~|Moonrise Dig Site|~": "Archaeology"
+				},
+				"Chunks": ["17717-2"],
+				"Objects": ["Research notes"],
+				"Level": 75,
+				"Primary": false,
+				"Priority": 4,
 				"NoBoost": true
 			},
 			"Gain access to the ~|Warforge Dig Site|~": {
@@ -5067,6 +5290,61 @@
 				"Priority": 21,
 				"NoBoost": true
 			},
+			"Excavate ~|cauldron debris|~": {
+				"Tasks": {
+					"Gain access to the ~|Moonrise Dig Site|~": "Archaeology"
+				},
+				"Objects": ["Cauldron debris"],
+				"Level": 82,
+				"Output": "Cauldron debris",
+				"Primary": true,
+				"Priority": 1
+			},
+			"Restore a ~|bloodwine|~": {
+				"Tasks": {
+					"Complete the ~|Archaeology tutorial|~": "Archaeology"
+				},
+				"Items": ["Bloodwine (damaged)*", "Leather scraps*", "Triskelion*", "Cashmere*", "Grapes*"],
+				"Objects": ["Archaeologist's workbench"],
+				"Level": 82,
+				"Output": "Bloodwine",
+				"Primary": true,
+				"Priority": 2
+			},
+			"Restore a ~|reagent jar|~": {
+				"Tasks": {
+					"Complete the ~|Archaeology tutorial|~": "Archaeology"
+				},
+				"Items": ["Reagent jar (damaged)", "Leather scraps*", "Banded limestone*", "Burnt umber*"],
+				"Objects": ["Archaeologist's workbench"],
+				"Level": 82,
+				"Output": "Reagent jar",
+				"Primary": true,
+				"Priority": 3
+			},
+			"Restore a ~|Ninbaradari mural|~": {
+				"Tasks": {
+					"Complete the ~|Archaeology tutorial|~": "Archaeology"
+				},
+				"Items": ["Ninbaradari mural (damaged)*", "Burnt umber*", "Banded limestone*", "Triskelion*"],
+				"Objects": ["Archaeologist's workbench"],
+				"Level": 82,
+				"Output": "Ninbaradari mural",
+				"Primary": true,
+				"Priority": 4
+			},
+			"Complete the ~|Bloodwine, Sweat and Tears|~ research": {
+				"Tasks": {
+					"Become an ~|archaeology assistant|~": "Archaeology",
+					"Gain access to the ~|Moonrise Dig Site|~": "Archaeology"
+				},
+				"Chunks": ["Moonrise Temple"],
+				"Objects": ["Research notes"],
+				"Level": 82,
+				"Primary": false,
+				"Priority": 5,
+				"NoBoost": true
+			},
 			"Excavate ~|goblin dorm debris|~": {
 				"Tasks": {
 					"Complete the ~|Archaeology tutorial|~": "Archaeology"
@@ -5349,6 +5627,64 @@
 				"Output": "Homely totem",
 				"Primary": true,
 				"Priority": 4
+			},
+			"Excavate ~|blood altar (excavation hotspot)|~": {
+				"Tasks": {
+					"Gain access to the ~|Moonrise Dig Site|~": "Archaeology"
+				},
+				"Objects": ["Blood altar (excavation hotspot)"],
+				"Level": 88,
+				"Output": "Blood altar",
+				"Primary": true,
+				"Priority": 1
+			},
+			"Restore a ~|bloodletting dagger|~": {
+				"Tasks": {
+					"Complete the ~|Archaeology tutorial|~": "Archaeology"
+				},
+				"Items": ["Bloodletting dagger (damaged)*", "Ivory*", "Cashmere*", "Soapstone*"],
+				"Objects": ["Archaeologist's workbench"],
+				"Level": 88,
+				"Output": "Bloodletting dagger",
+				"Primary": true,
+				"Priority": 2
+			},
+			"Restore a ~|fang of Kayazu|~": {
+				"Tasks": {
+					"Complete the ~|Archaeology tutorial|~": "Archaeology"
+				},
+				"Items": ["Fang of Kayazu (damaged)*", "Ivory*", "Burnt umber*", "Soapstone*"],
+				"Objects": ["Archaeologist's workbench"],
+				"Level": 88,
+				"Output": "Fang of Kayazu",
+				"Primary": true,
+				"Priority": 3
+			},
+			"Craft a ~|ring of Kayazu|~": {
+				"Items": ["Fang of Kayazu*", "Moonstone ring*"],
+				"Objects": ["Archaeologist's workbench"],
+				"SkillsNeeded": {
+					"Crafting": 67
+				},
+				"Tasks": {
+					"Archaeology Mystery: ~|The Final Revolution|~ Complete the mystery": "Quest"
+				},
+				"Level": 88,
+				"Output": "Ring of Kayazu",
+				"Primary": true,
+				"Priority": 4
+			},
+			"Complete the ~|An Unceremonious End|~ research": {
+				"Tasks": {
+					"Become an ~|archaeology assistant|~": "Archaeology",
+					"Gain access to the ~|Moonrise Dig Site|~": "Archaeology"
+				},
+				"Chunks": ["Moonrise Temple"],
+				"Objects": ["Research notes"],
+				"Level": 88,
+				"Primary": false,
+				"Priority": 5,
+				"NoBoost": true
 			},
 			"Excavate ~|Big High War God shrine|~": {
 				"Tasks": {
@@ -22334,6 +22670,20 @@
 				"Primary": true,
 				"Priority": 2,
 				"Not F2P": true
+			},
+			"Craft a ~|ring of Kayazu|~": {
+				"Items": ["Fang of Kayazu*", "Moonstone ring*"],
+				"Objects": ["Archaeologist's workbench"],
+				"SkillsNeeded": {
+					"Archaeology": 88
+				},
+				"Tasks": {
+					"Archaeology Mystery: ~|The Final Revolution|~ Complete the mystery": "Quest"
+				},
+				"Level": 67,
+				"Output": "Ring of Kayazu",
+				"Primary": false,
+				"Priority": 4
 			},
 			"Create an eucalyptus ~|pyre ship|~": {
 				"Items": ["Eucalyptus logs*", "Mangled bones*"],
@@ -58799,7 +59149,7 @@
 				"Not F2P": true
 			},
 			"Wield a ~|gloomfire bow|~": {
-				"Items": ["gloomfire bow"],
+				"Items": ["Gloomfire bow"],
 				"Level": 90,
 				"Primary": false,
 				"Priority": 21,
@@ -70768,6 +71118,9 @@
 			"Cut ~|creeping ivy|~": {
 				"Level": 35,
 				"Objects": ["Creeping ivy"],
+				"Tasks": {
+					"~|Visions of Havenhythe|~ 4": "Quest"
+				},
 				"Primary": true,
 				"Priority": 1,
 				"Output": "Creeping ivy loot",
@@ -98315,7 +98668,7 @@
 			},
 			"~|Secrets of Amberfell|~ 7": {
 				"BaseQuest": "Secrets of Amberfell",
-				"Description": "Cross the bridge with Anya and get confronted by Inanna",
+				"Description": "Cross the bridge with Anya and get confronted by Innana",
 				"Chunks": ["17460-1"],
 				"Tasks": {
 					"~|Secrets of Amberfell|~ 6": "Quest"
@@ -98324,7 +98677,7 @@
 			},
 			"~|Secrets of Amberfell|~ 8": {
 				"BaseQuest": "Secrets of Amberfell",
-				"Description": "Speak to Sorrel in Amberfell, then to Inanna, then find out who sent the S.O.S. note and confront them",
+				"Description": "Speak to Sorrel in Amberfell, then to Innana, then find out who sent the S.O.S. note and confront them",
 				"Chunks": ["17716"],
 				"Tasks": {
 					"~|Secrets of Amberfell|~ 7": "Quest"
@@ -98333,7 +98686,7 @@
 			},
 			"~|Secrets of Amberfell|~ 9": {
 				"BaseQuest": "Secrets of Amberfell",
-				"Description": "Continue the quest at Moonrise Temple, then speak to Inanna after the fight.",
+				"Description": "Continue the quest at Moonrise Temple, then speak to Innana after the fight.",
 				"Chunks": ["17717-2"],
 				"Tasks": {
 					"~|Secrets of Amberfell|~ 8": "Quest"
@@ -98399,7 +98752,7 @@
 			},
 			"~|Secrets of Amberfell|~ 14": {
 				"BaseQuest": "Secrets of Amberfell",
-				"Description": "Give the ritual components to Joanna, enter Inanna's den and speak to her.",
+				"Description": "Give the ritual components to Joanna, enter Innana's den and speak to her.",
 				"Chunks": ["16946-1"],
 				"Tasks": {
 					"~|Secrets of Amberfell|~ 13a": "Quest",
@@ -98438,7 +98791,7 @@
 			},
 			"~|Secrets of Amberfell|~ 18": {
 				"BaseQuest": "Secrets of Amberfell",
-				"Description": "Bring Inanna the empowered antisanguine",
+				"Description": "Bring Innana the empowered antisanguine",
 				"Chunks": ["16946-1"],
 				"Tasks": {
 					"~|Secrets of Amberfell|~ 17": "Quest"
@@ -98468,7 +98821,7 @@
 					"Hunter": 2500,
 					"Summoning": 2500
 				},
-				"Reward": ["Inanna's gift"],
+				"Reward": ["Innana's gift"],
 				"Not F2P": true
 			},
 			"~|Shades of Mort'ton|~ 1": {
@@ -106815,6 +107168,187 @@
 				"XpReward": {
 					"Archaeology": 67000
 				},
+				"Not F2P": true
+			},
+			"Archaeology Mystery: ~|Shadows of the Colossi|~ 1": {
+				"BaseQuest": "Shadows of the Colossi",
+				"Description": "Find the first four ancient tablets",
+				"Items": ["Ancient tablet I", "Ancient tablet II", "Ancient tablet III", "Ancient tablet IV"],
+				"Tasks": {
+					"Gain access to the ~|Moonrise Dig Site|~": "Archaeology"
+				},
+				"Not F2P": true
+			},
+			"Archaeology Mystery: ~|Shadows of the Colossi|~ 2": {
+				"BaseQuest": "Shadows of the Colossi",
+				"Description": "Speak to Utu at Moonrise",
+				"Chunks": ["17717-2"],
+				"Tasks": {
+					"Archaeology Mystery: ~|Shadows of the Colossi|~ 1": "Quest"
+				},
+				"Not F2P": true
+			},
+			"Archaeology Mystery: ~|Shadows of the Colossi|~ Complete the mystery": {
+				"BaseQuest": "Shadows of the Colossi",
+				"Chunks": ["17717-2"],
+				"Tasks": {
+					"Archaeology Mystery: ~|Shadows of the Colossi|~ 2": "Quest"
+				},
+				"QuestPoints": 0,
+				"XpReward": {
+					"Archaeology": 3500
+				},
+				"Not F2P": true
+			},
+			"Archaeology Mystery: ~|Path of the Initiate|~ 1": {
+				"BaseQuest": "Path of the Initiate",
+				"Description": "Attempt to enter Moonrise Temple",
+				"Chunks": ["17718"],
+				"Tasks": {
+					"Gain access to the ~|Moonrise Dig Site|~": "Archaeology"
+				},
+				"Not F2P": true
+			},
+			"Archaeology Mystery: ~|Path of the Initiate|~ 2": {
+				"BaseQuest": "Path of the Initiate",
+				"Description": "Repair the offering bowls",
+				"Chunks": ["17717-2"],
+				"Items": ["Offering bowl"],
+				"Tasks": {
+					"Archaeology Mystery: ~|Path of the Initiate|~ 1": "Quest"
+				},
+				"Not F2P": true
+			},
+			"Archaeology Mystery: ~|Path of the Initiate|~ 3a": {
+				"BaseQuest": "Path of the Initiate",
+				"Description": "Offer cooked meat to Dilimbabbar",
+				"Chunks": ["17717-2"],
+				"Items": ["Cooked meat"],
+				"Tasks": {
+					"Archaeology Mystery: ~|Path of the Initiate|~ 2": "Quest"
+				},
+				"Not F2P": true
+			},
+			"Archaeology Mystery: ~|Path of the Initiate|~ 3b": {
+				"BaseQuest": "Path of the Initiate",
+				"Description": "Offer a jug of wine to Sudumuzid",
+				"Chunks": ["17717-2"],
+				"Items": ["Jug of wine"],
+				"Tasks": {
+					"Archaeology Mystery: ~|Path of the Initiate|~ 2": "Quest"
+				},
+				"Not F2P": true
+			},
+			"Archaeology Mystery: ~|Path of the Initiate|~ 3c": {
+				"BaseQuest": "Path of the Initiate",
+				"Description": "Offer a lit candle to Kayazu",
+				"Chunks": ["17717-2"],
+				"Items": ["White candle (lit)"],
+				"Tasks": {
+					"Archaeology Mystery: ~|Path of the Initiate|~ 2": "Quest"
+				},
+				"Not F2P": true
+			},
+			"Archaeology Mystery: ~|Path of the Initiate|~ 4": {
+				"BaseQuest": "Path of the Initiate",
+				"Description": "Speak to Utu",
+				"Chunks": ["17717-2"],
+				"Tasks": {
+					"Archaeology Mystery: ~|Path of the Initiate|~ 3a": "Quest",
+					"Archaeology Mystery: ~|Path of the Initiate|~ 3b": "Quest",
+					"Archaeology Mystery: ~|Path of the Initiate|~ 3c": "Quest"
+				},
+				"Not F2P": true
+			},
+			"Archaeology Mystery: ~|Path of the Initiate|~ Complete the mystery": {
+				"BaseQuest": "Path of the Initiate",
+				"Chunks": ["17717-2"],
+				"Tasks": {
+					"Archaeology Mystery: ~|Path of the Initiate|~ 4": "Quest"
+				},
+				"QuestPoints": 0,
+				"Not F2P": true
+			},
+			"Archaeology Mystery: ~|Cult Classic|~ 1": {
+				"BaseQuest": "Cult Classic",
+				"Description": "Find the last four ancient tablets",
+				"Items": ["Ancient tablet V", "Ancient tablet VI", "Ancient tablet VII", "Ancient tablet VIII"],
+				"Tasks": {
+					"Gain access to the ~|Moonrise Dig Site|~": "Archaeology"
+				},
+				"Not F2P": true
+			},
+			"Archaeology Mystery: ~|Cult Classic|~ 2": {
+				"BaseQuest": "Cult Classic",
+				"Description": "Speak to Utu at Moonrise",
+				"Chunks": ["17717-2"],
+				"Tasks": {
+					"Archaeology Mystery: ~|Cult Classic|~ 1": "Quest"
+				},
+				"Not F2P": true
+			},
+			"Archaeology Mystery: ~|Cult Classic|~ Complete the mystery": {
+				"BaseQuest": "Cult Classic",
+				"Chunks": ["17717-2"],
+				"Tasks": {
+					"Archaeology Mystery: ~|Cult Classic|~ 2": "Quest"
+				},
+				"QuestPoints": 0,
+				"XpReward": {
+					"Archaeology": 3500
+				},
+				"Not F2P": true
+			},
+			"Archaeology Mystery: ~|Inside You There Are Two Wolves|~ 1": {
+				"BaseQuest": "Inside You There Are Two Wolves",
+				"Description": "Dig up any lunar slab",
+				"Items": ["Lunar slab[+]"],
+				"Tasks": {
+					"Complete the ~|Archaeology tutorial|~": "Archaeology"
+				},
+				"Not F2P": true
+			},
+			"Archaeology Mystery: ~|Inside You There Are Two Wolves|~ 2": {
+				"BaseQuest": "Inside You There Are Two Wolves",
+				"Description": "Fix the lunar wheel, then speak to Utu",
+				"Chunks": ["17717-2"],
+				"Items": ["Lunar slab (first quarter)", "Lunar slab (last quarter)", "Lunar slab (new moon)", "Lunar slab (waning gibbous)", "Lunar slab (waxing crescent)", "Lunar slab (waxing gibbous)"],
+				"Tasks": {
+					"Archaeology Mystery: ~|Inside You There Are Two Wolves|~ 1": "Quest"
+				},
+				"Not F2P": true
+			},
+			"Archaeology Mystery: ~|Inside You There Are Two Wolves|~ Complete the mystery": {
+				"BaseQuest": "Inside You There Are Two Wolves",
+				"Chunks": ["17717-2"],
+				"Tasks": {
+					"Archaeology Mystery: ~|Inside You There Are Two Wolves|~ 2": "Quest"
+				},
+				"QuestPoints": 0,
+				"XpReward": {
+					"Archaeology": 23000
+				},
+				"Not F2P": true
+			},
+			"Archaeology Mystery: ~|The Final Revolution|~ 1": {
+				"BaseQuest": "The Final Revolution",
+				"Description": "Complete all other mysteries at Moonrise Temple, then speak to Utu. Finally, reflect.",
+				"Chunks": ["17717-2"],
+				"Tasks": {
+					"Archaeology Mystery: ~|Shadows of the Colossi|~ Complete the mystery": "Quest",
+					"Archaeology Mystery: ~|Path of the Initiate|~ Complete the mystery": "Quest",
+					"Archaeology Mystery: ~|Cult Classic|~ Complete the mystery": "Quest",
+					"Archaeology Mystery: ~|Inside You There Are Two Wolves|~ Complete the mystery": "Quest"
+				},
+				"Not F2P": true
+			},
+			"Archaeology Mystery: ~|The Final Revolution|~ Complete the mystery": {
+				"BaseQuest": "The Final Revolution",
+				"Chunks": ["17717-2"],
+				"Tasks": {
+					"Archaeology Mystery: ~|The Final Revolution|~ 1": "Quest"
+				},
+				"QuestPoints": 0,
 				"Not F2P": true
 			}
 		},
@@ -121417,7 +121951,7 @@
 				"Category": ["MQC achievements"],
 				"Description": "Find all volumes of Kaleb's Travel Journal.",
 				"BaseQuest": "Completionist achievements",
-				"Items": ["Kaleb's travel journal - volume I", "Kaleb's travel journal - volume II"]
+				"Items": ["Kaleb's travel journal - volume I", "Kaleb's travel journal - volume II", "Kaleb's travel journal - volume III"]
 			},
 			"~|Completionist achievements#Master Quest Cape|~ Angs Off My Ring": {
 				"Category": ["MQC achievements"],
@@ -122863,6 +123397,29 @@
 				"Not F2P": true,
 				"NoBoost": true
 			},
+			"~|Completionist achievements#Master Quest Cape|~ Guthixian Expert": {
+				"Category": ["MQC achievements"],
+				"Description": "Restored a collection of Guthixian artefacts.",
+				"BaseQuest": "Completionist achievements",
+				"Items": [
+					"Lunar calendar",
+					"Wolf statuette",
+					"Ivory sickle",
+					"Nakkirian seal",
+					"Royal Game of Ba",
+					"Backstrap loom",
+					"Animal doll",
+					"Initiate's kaunake",
+					"Offering bowl",
+					"Incense burner",
+					"Bloodwine",
+					"Reagent jar",
+					"Ninbaradari mural",
+					"Bloodletting dagger",
+					"Fang of Kayazu"
+				],
+				"Not F2P": true
+			},
 			"~|Completionist achievements#Master Quest Cape|~ Haul Comes to Templeton": {
 				"Category": ["MQC achievements"],
 				"Description": "Unlock the ability to trade noted artefacts with Simon Templeton.",
@@ -123730,6 +124287,19 @@
 				},
 				"Not F2P": true
 			},
+			"~|Completionist achievements#Master Quest Cape|~ Mysteries - Moonrise": {
+				"Category": ["MQC achievements"],
+				"Description": "Complete all of Moonrise archaeology mysteries.",
+				"BaseQuest": "Completionist achievements",
+				"Tasks": {
+					"Archaeology Mystery: ~|Shadows of the Colossi|~ Complete the mystery": "Quest",
+					"Archaeology Mystery: ~|Path of the Initiate|~ Complete the mystery": "Quest",
+					"Archaeology Mystery: ~|Cult Classic|~ Complete the mystery": "Quest",
+					"Archaeology Mystery: ~|Inside You There Are Two Wolves|~ Complete the mystery": "Quest",
+					"Archaeology Mystery: ~|The Final Revolution|~ Complete the mystery": "Quest"
+				},
+				"Not F2P": true
+			},
 			"~|Completionist achievements#Master Quest Cape|~ Mysteries - Orthen": {
 				"Category": ["MQC achievements"],
 				"Description": "Complete all of Orthen archaeology mysteries.",
@@ -124240,6 +124810,17 @@
 					"Complete the ~|Shadow Play|~ research": "Archaeology",
 					"Complete the ~|Lockdown|~ research": "Archaeology",
 					"Complete the ~|Nom-Nom-Nom-Nom|~ research": "Archaeology"
+				},
+				"Not F2P": true
+			},
+			"~|Completionist achievements#Master Quest Cape|~ Research - Moonrise": {
+				"Category": ["MQC achievements"],
+				"Description": "Complete all of the Moonrise research.",
+				"BaseQuest": "Completionist achievements",
+				"Tasks": {
+					"Complete the ~|The Beast Within|~ research": "Archaeology",
+					"Complete the ~|Bloodwine, Sweat and Tears|~ research": "Archaeology",
+					"Complete the ~|An Unceremonious End|~ research": "Archaeology"
 				},
 				"Not F2P": true
 			},
@@ -125363,6 +125944,7 @@
 					"~|Completionist achievements#Master Quest Cape|~ Grondaban's Legacy": "Diary",
 					"~|Completionist achievements#Master Quest Cape|~ Gunning for Jewellery": "Diary",
 					"~|Completionist achievements#Master Quest Cape|~ Guthix and the Chamber of Secrets": "Diary",
+					"~|Completionist achievements#Master Quest Cape|~ Guthixian Expert": "Diary",
 					"~|Completionist achievements#Master Quest Cape|~ Haul Comes to Templeton": "Diary",
 					"~|Completionist achievements#Master Quest Cape|~ Heavy Metal": "Diary",
 					"~|Completionist achievements#Master Quest Cape|~ Herbi's Flax": "Diary",
@@ -125428,6 +126010,7 @@
 					"~|Completionist achievements#Master Quest Cape|~ Mysteries - Guild": "Diary",
 					"~|Completionist achievements#Master Quest Cape|~ Mysteries - Infernal Source": "Diary",
 					"~|Completionist achievements#Master Quest Cape|~ Mysteries - Kharid-et": "Diary",
+					"~|Completionist achievements#Master Quest Cape|~ Mysteries - Moonrise": "Diary",
 					"~|Completionist achievements#Master Quest Cape|~ Mysteries - Orthen": "Diary",
 					"~|Completionist achievements#Master Quest Cape|~ Mysteries - Senntisten": "Diary",
 					"~|Completionist achievements#Master Quest Cape|~ Mysteries - Stormguard Citadel": "Diary",
@@ -125470,6 +126053,7 @@
 					"~|Completionist achievements#Master Quest Cape|~ Research - Guild": "Diary",
 					"~|Completionist achievements#Master Quest Cape|~ Research - Infernal Source": "Diary",
 					"~|Completionist achievements#Master Quest Cape|~ Research - Kharid-et": "Diary",
+					"~|Completionist achievements#Master Quest Cape|~ Research - Moonrise": "Diary",
 					"~|Completionist achievements#Master Quest Cape|~ Research - Orthen": "Diary",
 					"~|Completionist achievements#Master Quest Cape|~ Research - Senntisten": "Diary",
 					"~|Completionist achievements#Master Quest Cape|~ Research - Stormguard Citadel": "Diary",
@@ -126388,6 +126972,7 @@
 					"~|Completionist achievements#Completionist Cape|~ Mysteries - Stormguard Citadel": "Diary",
 					"~|Completionist achievements#Completionist Cape|~ Mysteries - Warforge": "Diary",
 					"~|Completionist achievements#Completionist Cape|~ Mysteries - Orthen": "Diary",
+					"~|Completionist achievements#Completionist Cape|~ Mysteries - Moonrise": "Diary",
 					"~|Completionist achievements#Completionist Cape|~ Mysteries - Daemonheim": "Diary",
 					"~|Completionist achievements#Completionist Cape|~ Mysteries - Everlight": "Diary",
 					"~|Completionist achievements#Completionist Cape|~ Mysteries - Infernal Source": "Diary",
@@ -127167,7 +127752,7 @@
 				"Description": "Complete all collections for archaeological collectors.",
 				"BaseQuest": "Completionist achievements",
 				"Tasks": {
-					"AnyCollection[+]x74": "Nonskill"
+					"AnyCollection[+]x78": "Nonskill"
 				},
 				"Not F2P": true
 			},
@@ -127675,6 +128260,16 @@
 				},
 				"Not F2P": true
 			},
+			"~|Completionist achievements#Trimmed Completionist Cape|~ Mastery - Moonrise": {
+				"Category": ["Comp achievements", "Trim achievements"],
+				"Description": "Complete all of the Moonrise archaeology achievements.",
+				"BaseQuest": "Completionist achievements",
+				"Tasks": {
+					"~|Completionist achievements#Master Quest Cape|~ Mysteries - Moonrise": "Diary",
+					"~|Completionist achievements#Master Quest Cape|~ Research - Moonrise": "Diary"
+				},
+				"Not F2P": true
+			},
 			"~|Completionist achievements#Trimmed Completionist Cape|~ Mastery - Orthen": {
 				"Category": ["Comp achievements", "Trim achievements"],
 				"Description": "Complete all of the Orthen archaeology achievements.",
@@ -127935,7 +128530,8 @@
 					"Ariadne's Diadem",
 					"Petasos",
 					"Howl's Thinking Cap",
-					"Helm of Terror"
+					"Helm of Terror",
+					"Tear of Innana"
 				],
 				"Not F2P": true
 			},
@@ -128280,6 +128876,7 @@
 					"~|Completionist achievements#Trimmed Completionist Cape|~ Mastery - Everlight": "Diary",
 					"~|Completionist achievements#Trimmed Completionist Cape|~ Mastery - Infernal Source": "Diary",
 					"~|Completionist achievements#Trimmed Completionist Cape|~ Mastery - Kharid-et": "Diary",
+					"~|Completionist achievements#Trimmed Completionist Cape|~ Mastery - Moonrise": "Diary",
 					"~|Completionist achievements#Trimmed Completionist Cape|~ Mastery - Orthen": "Diary",
 					"~|Completionist achievements#Trimmed Completionist Cape|~ Mastery - Senntisten": "Diary",
 					"~|Completionist achievements#Trimmed Completionist Cape|~ Mastery - Stormguard Citadel": "Diary",
@@ -128514,6 +129111,22 @@
 				"NPCs": ["Art Critic Jacques"],
 				"RuneScore": 10
 			},
+			"~|Skills achievements#Archaeology|~ Artiefax: Guthixian I":  {
+				"Category": ["Misc achievements"],
+				"Description": "Contribute all items to the collection.",
+				"BaseQuest": "Skills achievements",
+			    "Items": ["Lunar calendar", "Wolf statuette", "Ivory sickle", "Nakkirian seal", "Royal Game of Ba", "Backstrap loom", "Animal doll", "Initiat's kaunake"],
+				"NPCs": ["Artiefax"],
+				"RuneScore": 10
+			},
+			"~|Skills achievements#Archaeology|~ Artiefax: Guthixian II":  {
+				"Category": ["Misc achievements"],
+				"Description": "Contribute all items to the collection.",
+				"BaseQuest": "Skills achievements",
+			    "Items": ["Offering bowl", "Incense burner", "Bloodwine", "Reagent jar", "Ninbaradari mural", "Bloodletting dagger", "Fang of Kayazu"],
+				"NPCs": ["Artiefax"],
+				"RuneScore": 10
+			},
 			"~|Skills achievements#Archaeology|~ Atonement": {
 				"Category": ["Misc achievements"],
 				"Description": "Solve this mystery.",
@@ -128680,6 +129293,16 @@
 				"BaseQuest": "Skills achievements",
 				"Tasks": {
 					"Archaeology Mystery: ~|Crypt o' Zoology|~ Complete the mystery": "Quest"
+				},
+				"RuneScore": 15,
+				"Not F2P": true
+			},
+			"~|Skills achievements#Archaeology|~ Cult Classic": {
+				"Category": ["Misc achievements"],
+				"Description": "Solve this mystery.",
+				"BaseQuest": "Skills achievements",
+				"Tasks": {
+					"Archaeology Mystery: ~|Cult Classic|~ Complete the mystery": "Quest"
 				},
 				"RuneScore": 15,
 				"Not F2P": true
@@ -129041,6 +129664,16 @@
 				"RuneScore": 10,
 				"Not F2P": true
 			},
+			"~|Skills achievements#Archaeology|~ Inside You There Are Two Wolves": {
+				"Category": ["Misc achievements"],
+				"Description": "Solve this mystery.",
+				"BaseQuest": "Skills achievements",
+				"Tasks": {
+					"Archaeology Mystery: ~|Inside You There Are Two Wolves|~ Complete the mystery": "Quest"
+				},
+				"RuneScore": 15,
+				"Not F2P": true
+			},
 			"~|Skills achievements#Archaeology|~ Into the Forge": {
 				"Category": ["Misc achievements"],
 				"Description": "Solve this mystery.",
@@ -129309,6 +129942,16 @@
 				"RuneScore": 15,
 				"Not F2P": true
 			},
+			"~|Skills achievements#Archaeology|~ Path of the Initiate": {
+				"Category": ["Misc achievements"],
+				"Description": "Solve this mystery.",
+				"BaseQuest": "Skills achievements",
+				"Tasks": {
+					"Archaeology Mystery: ~|Path of the Initiate|~ Complete the mystery": "Quest"
+				},
+				"RuneScore": 15,
+				"Not F2P": true
+			},
 			"~|Skills achievements#Archaeology|~ Plunder Hunter": {
 				"Category": ["Misc achievements"],
 				"Description": "Pick up all of the chests in the Warforge.",
@@ -129438,6 +130081,16 @@
 					"Archaeology Mystery: ~|Shadow Fall|~ Complete the mystery": "Quest"
 				},
 				"RuneScore": 20,
+				"Not F2P": true
+			},
+			"~|Skills achievements#Archaeology|~ Shadows of the Colossi": {
+				"Category": ["Misc achievements"],
+				"Description": "Solve this mystery.",
+				"BaseQuest": "Skills achievements",
+				"Tasks": {
+					"Archaeology Mystery: ~|Shadows of the Colossi|~ Complete the mystery": "Quest"
+				},
+				"RuneScore": 15,
 				"Not F2P": true
 			},
 			"~|Skills achievements#Archaeology|~ Sharrigan: Dragonkin I": {
@@ -129705,6 +130358,16 @@
 				"RuneScore": 10,
 				"Not F2P": true
 			},
+			"~|Skills achievements#Archaeology|~ The Final Revolution": {
+				"Category": ["Misc achievements"],
+				"Description": "Solve this mystery.",
+				"BaseQuest": "Skills achievements",
+				"Tasks": {
+					"Archaeology Mystery: ~|The Final Revolution|~ Complete the mystery": "Quest"
+				},
+				"RuneScore": 10,
+				"Not F2P": true
+			},
 			"~|Skills achievements#Archaeology|~ The First Commander": {
 				"Category": ["Misc achievements"],
 				"Description": "Solve this mystery.",
@@ -129905,6 +130568,22 @@
 				"BaseQuest": "Skills achievements",
 			    "Items": ["Projection attuner", "Golden projection 'needle'", "Comfort gatestone", "Halak's cube", "Portable portal generator", "Warped trinket"],
 			    "NPCs": ["Velucia"],
+				"RuneScore": 10
+			},
+			"~|Skills achievements#Archaeology|~ Velucia: Museum - Guthixian I":  {
+				"Category": ["Misc achievements"],
+				"Description": "Contribute all items to the collection.",
+				"BaseQuest": "Skills achievements",
+			    "Items": ["Lunar calendar", "Wolf statuette", "Ivory sickle", "Nakkirian seal", "Royal Game of Ba", "Backstrap loom", "Animal doll", "Initiat's kaunake"],
+				"NPCs": ["Velucia"],
+				"RuneScore": 10
+			},
+			"~|Skills achievements#Archaeology|~ Velucia: Museum - Guthixian II":  {
+				"Category": ["Misc achievements"],
+				"Description": "Contribute all items to the collection.",
+				"BaseQuest": "Skills achievements",
+			    "Items": ["Offering bowl", "Incense burner", "Bloodwine", "Reagent jar", "Ninbaradari mural", "Bloodletting dagger", "Fang of Kayazu"],
+				"NPCs": ["Velucia"],
 				"RuneScore": 10
 			},
 			"~|Skills achievements#Archaeology|~ Velucia: Museum - Saradominist I": {
@@ -130265,6 +130944,8 @@
 					"~|Skills achievements#Archaeology|~ Velucia: Museum - Dragonkin V": "Diary",
 					"~|Skills achievements#Archaeology|~ Velucia: Museum - Dragonkin VI": "Diary",
 					"~|Skills achievements#Archaeology|~ Velucia: Museum - Dragonkin VII": "Diary",
+					"~|Skills achievements#Archaeology|~ Velucia: Museum - Guthixian I": "Diary",
+					"~|Skills achievements#Archaeology|~ Velucia: Museum - Guthixian II": "Diary",
 					"~|Skills achievements#Archaeology|~ Velucia: Museum - Saradominist I": "Diary",
 					"~|Skills achievements#Archaeology|~ Velucia: Museum - Saradominist II": "Diary",
 					"~|Skills achievements#Archaeology|~ Velucia: Museum - Saradominist III": "Diary",
@@ -152286,6 +152967,13 @@
 					"Summoning": 99
 				}
 			},
+			"Unlock ~|Anzagar|~": {
+				"Category": ["Permanent Unlockables", "Pets"],
+				"Label": "Follower Pets",
+				"Tasks": {
+					"Archaeology Mystery: ~|The Final Revolution|~ Complete the mystery": "Quest"
+				}
+			},
 			"Unlock all ~|Dundee's Crocodile Upgrades|~": {
 				"Category": ["Permanent Unlockables"],
 				"Label": "Permanent Unlockables",
@@ -160831,6 +161519,18 @@
 				"Items": ["Huzamogaarb chaos crown", "Saragorgak star crown", "Drogokishuun hook sword", "Hobgoblin mansticker", "Kal-i-kra chieftain crown", "Kal-i-kra mace", "Kal-i-kra warhorn", "'Da Boss Man' sculpture", "Horogothgar cooking pot"],
 				"NPCs": ["Velucia"]
 			},
+			"(Velucia) Complete ~|Museum - Guthixian I|~": {
+				"Category": ["Archaeology Collections"],
+				"Label": "Archaeology Collections",
+				"Items": ["Lunar calendar", "Wolf statuette", "Ivory sickle", "Nakkirian seal", "Royal Game of Ba", "Backstrap loom", "Animal doll", "Initiat's kaunake"],
+				"NPCs": ["Velucia"]
+			},
+			"(Velucia) Complete ~|Museum - Guthixian II|~": {
+				"Category": ["Archaeology Collections"],
+				"Label": "Archaeology Collections",
+				"Items": ["Offering bowl", "Incense burner", "Bloodwine", "Reagent jar", "Ninbaradari mural", "Bloodletting dagger", "Fang of Kayazu"],
+				"NPCs": ["Velucia"]
+			},
 			"(Wise Old Man) Complete ~|Wise Am the Music Man|~": {
 				"Category": ["Archaeology Collections"],
 				"Label": "Archaeology Collections",
@@ -160873,6 +161573,18 @@
 					"~|Desperate Measures|~ Complete the quest": "Quest"
 				},
 				"NPCs": ["Giles"]
+			},
+			"(Artiefax) Complete ~|Guthixian I|~": {
+				"Category": ["Archaeology Collections"],
+				"Label": "Archaeology Collections",
+				"Items": ["Lunar calendar", "Wolf statuette", "Ivory sickle", "Nakkirian seal", "Royal Game of Ba", "Backstrap loom", "Animal doll", "Initiat's kaunake"],
+				"NPCs": ["Artiefax"]
+			},
+			"(Artiefax) Complete ~|Guthixian II|~": {
+				"Category": ["Archaeology Collections"],
+				"Label": "Archaeology Collections",
+				"Items": ["Offering bowl", "Incense burner", "Bloodwine", "Reagent jar", "Ninbaradari mural", "Bloodletting dagger", "Fang of Kayazu"],
+				"NPCs": ["Artiefax"]
 			}
 		},
 		"Nonskill": {
@@ -162794,6 +163506,12 @@
 				"UnlocksArea": true,
 				"Tasks": {
 					"Access the Dungeons of Daemonheim": "Nonskill"
+				}
+			},
+			"Moonrise Temple": {
+				"UnlocksArea": true,
+				"Tasks": {
+					"Archaeology Mystery: ~|Path of the Initiate|~ Complete the mystery": "Quest"
 				}
 			},
 			"Zanaris to 8752-4": {
@@ -165640,6 +166358,14 @@
 				"Items": ["Huzamogaarb chaos crown", "Saragorgak star crown", "Drogokishuun hook sword", "Hobgoblin mansticker", "Kal-i-kra chieftain crown", "Kal-i-kra mace", "Kal-i-kra warhorn", "'Da Boss Man' sculpture", "Horogothgar cooking pot"],
 				"NPCs": ["Velucia"]
 			},
+			"Complete the archaeology collection 'Museum - Guthixian I'": {
+				"Items": ["Lunar calendar", "Wolf statuette", "Ivory sickle", "Nakkirian seal", "Royal Game of Ba", "Backstrap loom", "Animal doll", "Initiat's kaunake"],
+				"NPCs": ["Velucia"]
+			},
+			"Complete the archaeology collection 'Museum - Guthixian II'": {
+				"Items": ["Offering bowl", "Incense burner", "Bloodwine", "Reagent jar", "Ninbaradari mural", "Bloodletting dagger", "Fang of Kayazu"],
+				"NPCs": ["Velucia"]
+			},
 			"Complete the archaeology collection 'Wise Am the Music Man'": {
 				"Items": ["Everlight harp", "Everlight trumpet", "Everlight violin", "Avian song-egg player", "Keshik drum", "Morin khuur", "Songbird recorder"],
 				"NPCs": ["Wise Old Man"]
@@ -165672,9 +166398,22 @@
 				"NPCs": ["Giles"],
 				"Output": "Cosmic pyramid"
 			},
+			"Complete the archaeology collection 'Guthixian I'": {
+				"Items": ["Lunar calendar", "Wolf statuette", "Ivory sickle", "Nakkirian seal", "Royal Game of Ba", "Backstrap loom", "Animal doll", "Initiat's kaunake"],
+				"NPCs": ["Artiefax"]
+			},
+			"Complete the archaeology collection 'Museum - Guthixian II'": {
+				"Items": ["Offering bowl", "Incense burner", "Bloodwine", "Reagent jar", "Ninbaradari mural", "Bloodletting dagger", "Fang of Kayazu"],
+				"NPCs": ["Artiefax"],
+				"Output": "Guardian's tear"
+			},
 			"Create the cosmic accumulator*": {
 				"Items": ["Cosmic focus", "Cosmic pyramid"],
 				"Output": "Cosmic accumulator"
+			},
+			"Create the Tear of Innana*": {
+				"Items": ["Expensive spices", "Guardian's tear"],
+				"Output": "Tear of Innana"
 			},
 			"Search the cupboard in the Exam Centre for a Specimen jar*": {
 				"Chunks": ["13364"],
@@ -177511,6 +178250,14 @@
 			"Pick corn*": {
 				"Objects": ["Corn"],
 				"Output": "Sweetcorn"
+			},
+			"Light a candle*": {
+				"Items": ["White candle"],
+				"Output": "White candle (lit)"
+			},
+			"Take a vial from a cabinet*": {
+				"Objects": ["Vial cabinet"],
+				"Output": "Vial"
 			}
 		}
 	},
@@ -177691,6 +178438,9 @@
 		},
 		"59": {
 			"Name": "Dungeons of Daemonheim"
+		},
+		"60": {
+			"Name": "Moonrise Temple"
 		},
 		"258": {
 			"Spawn": {
@@ -184424,12 +185174,11 @@
 				"Gunnar Holdstrom": 1,
 				"Anne Isaakson": 1,
 				"Lisse Isaakson": 1,
-				"Honour guard": 7,
+				"Honour guard": 13,
 				"Kjedelig Uppsen": 1,
 				"Trogen Konungarde": 1,
 				"Slug Hemligssen": 1,
-				"Mawnis Burowgar": 1,
-				"Honour guard": 6
+				"Mawnis Burowgar": 1
 			},
 			"Monster": {
 				"Yak": 6,
@@ -185805,11 +186554,11 @@
 				"Ice troll runt": 5,
 				"Ice troll male": 7,
 				"Ice troll female": 9,
-				"Ice troll grunt": 6,
-				"Honour guard": 6
+				"Ice troll grunt": 6
 			},
 			"NPC": {
-				"Bork Sigmundson": 1
+				"Bork Sigmundson": 1,
+				"Honour guard": 6
 			},
 			"Name": "Ice Troll Caves"
 		},
@@ -195113,7 +195862,8 @@
 				"Druid": 8,
 				"Druidess": 5,
 				"Herald": 1,
-				"Velrak the explorer": 1
+				"Velrak the explorer": 1,
+				"Artiefax": 1
 			},
 			"Monster": {
 				"Farmer": 1,
@@ -202804,7 +203554,8 @@
 						"Tin rock": 1,
 						"Mithril rock": 3,
 						"Adamantite rock": 2,
-						"Crashed star": 1
+						"Crashed star": 1,
+						"Elder tree": 1
 					},
 					"Monster": {
 						"Unicorn": 2,
@@ -211395,7 +212146,8 @@
 				},
 				"2": {
 					"Object": {
-						"Water trough": 1
+						"Water trough": 1,
+						"Vial cabinet": 1
 					},
 					"NPC": {
 						"Esther": 1
@@ -212094,7 +212846,7 @@
 						"Birdhouse plot": 2,
 						"Obelisk": 2,
 						"Empowered obelisk": 1,
-						"Altar of Inanna": 1,
+						"Altar of Innana": 1,
 						"Tree": 15,
 						"Oak": 20,
 						"Magic tree": 3
@@ -212760,7 +213512,8 @@
 					"Object": {
 						"Tree": 4,
 						"Oak": 1,
-						"Material cache (fossilised bone)": 3
+						"Material cache (fossilised bone)": 3,
+						"Material cache (ivory)": 3
 					},
 					"Monster": {
 						"Ivar, King of Bones": 1,
@@ -212797,7 +213550,8 @@
 				"1": {
 					"Object": {
 						"Tree": 19,
-						"Material cache (leather scraps)": 3
+						"Material cache (cashmere)": 3,
+						"Material cache (triskelion)": 3
 					},
 					"NPC": {
 						"Tali": 1,
@@ -213153,7 +213907,8 @@
 				"4": {
 					"Object": {
 						"Oak": 7,
-						"Tree": 1
+						"Tree": 1,
+						"Arbour rubble": 3
 					}
 				},
 				"5": {
@@ -213442,13 +214197,13 @@
 				"Fennel": 1,
 				"Rosemary (Amberfell)": 1,
 				"Ash (Amberfell)": 1,
-				"Rowan (Amberfell)": 1,
+				"Farmer Rowan": 1,
 				"Villager (Amberfell)": 4,
 				"Heather (Amberfell)": 1,
 				"Sorrel": 1,
 				"Banker (Amberfell)": 1,
 				"Fern (Amberfell)": 1,
-				"Inanna": 1,
+				"Innana": 1,
 				"Basil the Butcher": 1
 			},
 			"Monster": {
@@ -213461,7 +214216,8 @@
 				"Knife": 1,
 				"Spade": 1,
 				"Bucket": 1,
-				"Egg": 1
+				"Egg": 1,
+				"Kaleb's travel journal - volume III": 1
 			},
 			"Shop": {
 				"The Butcher of Amberfell": true,
@@ -213482,7 +214238,10 @@
 						"Maple Tree": 3,
 						"Tree": 1,
 						"Fishing spot (lure, bait)": 1,
-						"Evil tree": 1
+						"Evil tree": 1,
+						"Weaver's hut debris": 3,
+						"Lunar wheel debris": 3,
+						"Material cache (banded limestone)": 2
 					},
 					"Monster": {
 						"Fox": 1
@@ -213492,18 +214251,33 @@
 					}
 				},
 				"2": {
+					"NPC": {
+						"Utu": 1
+					},
 					"Object": {
 						"Archaeologist's workbench": 1,
-						"Material storage container": 1
+						"Material storage container": 1,
+						"Shrine debris": 3
+					},
+					"Spawn": {
+						"Bronze mattock": 1
 					},
 					"Quest": {
-						"Secrets of Amberfell": "step"
+						"Secrets of Amberfell": "step",
+						"Shadows of the Colossi": "first",
+						"Path of the Initiate": "first",
+						"Cult Classic": "first",
+						"Inside You There Are Two Wolves": "first",
+						"The Final Revolution": "first"
 					}
 				}
 			},
-			"Nickname": "Moorise Cliff"
+			"Nickname": "Moonrise Cliff"
 		},
 		"17718": {
+			"Connect": {
+				"60": true
+			},
 			"Nickname": "Moorise Temple"
 		},
 		"17737": {
@@ -217835,10 +218609,10 @@
 				"Baden": 1,
 				"Glosur": 1,
 				"Ping": 1,
-				"Pong": 1
+				"Pong": 1,
+				"Honour guard": 6
 			},
 			"Monster": {
-				"Honour guard": 6,
 				"Sea Snake Young": 10,
 				"Sea Snake Hatchling": 7
 			},
@@ -220878,16 +221652,6 @@
 				"Chaos dwarf (Chaos Dwarf Battlefield)": 7,
 				"Black Guard crossbowdwarf": 9,
 				"Black Guard berserker": 4
-			},
-			"NPC": {
-				"Colonel Grenda": 1,
-				"Goblin": 5,
-				"Gnome soldier": 5,
-				"Healthorg and tortoise": 1,
-				"Glouphrie the Untrusted": 1
-			},
-			"Object": {
-				"Evergreen": 40
 			},
 			"Connect": {
 				"11422": true
@@ -225923,11 +226687,11 @@
 				"Ice troll runt#Variant 1": 5,
 				"Ice troll male#Variant 1": 7,
 				"Ice troll female#Variant 1": 9,
-				"Ice troll grunt#Variant 1": 6,
-				"Honour guard": 6
+				"Ice troll grunt#Variant 1": 6
 			},
 			"NPC": {
-				"Bork Sigmundson": 1
+				"Bork Sigmundson": 1,
+				"Honour guard": 6
 			},
 			"Connect": {
 				"9276": true,
@@ -227035,6 +227799,16 @@
 			},
 			"Connect": {
 				"13882": true
+			}
+		},
+		"Moonrise Temple": {
+			"Object": {
+				"Cauldron debris": 3,
+				"Blood altar (excavation hotspot)": 3,
+				"Material cache (burnt umber)": 3
+			},
+			"Connect": {
+				"17718": true
 			}
 		}
 	},
@@ -230759,6 +231533,7 @@
 				"Lunar ring",
 				"Lunar torso"
 			],
+			"Lunar slab[+]": ["Lunar slab (first quarter)", "Lunar slab (last quarter)", "Lunar slab (new moon)", "Lunar slab (waning gibbous)", "Lunar slab (waxing crescent)", "Lunar slab (waxing gibbous)"],
 			"LunarTraps[+]": [
 				"Box trap",
 				"Electrified traps",
@@ -231587,7 +232362,8 @@
 				"Ariadne's Diadem",
 				"Petasos",
 				"Howl's Thinking Cap",
-				"Helm of Terror"
+				"Helm of Terror",
+				"Tear of Innana"
 			],
 			"RelicHelm[+]": [
 				"Relic helm of Armadyl",
@@ -234386,6 +235162,7 @@
 			"Logs[+]": "Any logs that can be used to light beacons",
 			"Luminousboon[+]": "Any type of energy that can be used to create a luminous boon",
 			"LunarEquipment[+]": "Any piece of lunar robes",
+			"Lunar slab[+]": "Any lunar slab that fits into the Moonrise lunar wheel",
 			"LunarTraps[+]": "Any traps that the spell trap telekinesis can be cast upon",
 			"Lustrousboon[+]": "Any type of energy that can be used to create a lustrous boon",
 			"Lvl-1 Jewelry[+]": "Any piece of opal or sapphire jewelry",
@@ -234949,7 +235726,92 @@
 		},
 		"objectsPlus": {
 			"Anvil[+]": ["Anvil", "Tri-Anvil", "Fremennik Anvil"],
-			"AnyExcavationSpot[+]": ["Venator remains", "Legionary remains", "Castra debris", "Lodge bar storage", "Lodge art storage", "Administratum debris", "Cultist footlocker", "Sacrificial altar", "Prodromoi remains", "Dis dungeon debris", "Praesidio remains", "Monoceros remains", "Amphitheatre debris", "Ceramics studio debris", "Carcerem debris", "Ministry remains", "Stadio debris", "Cathedral debris", "Marketplace debris", "Inquisitor remains", "Infernal art", "Gladiator remains", "Citizen remains", "Shakroth remains", "Dominion Games podium", "Ikovian memorial", "Oikos studio debris", "Kharid-et chapel debris", "Gladiatorial goblin remains", "Keshik ger", "Animal trophies", "Pontifex remains", "Cricible stand debris", "Tailory debris", "Goblin dorm debris", "Oikos fishing hut remnants", "Weapons research debris", "Orcus altar", "Dis overspill", "Big High War God shrine", "Orthen rubble", "Varanusaur remains", "Gravitron research debris", "Acropolis debris", "Armarium debris", "Yu'biusk animal pen", "Keshik tower debris", "Dragonkin reliquary", "Goblin trainee remains", "Byzroth remains", "Destroyed golem", "Dragonkin coffin", "Icyene weapon rack", "Culinarum debris", "Kyzaj champion's boudoir", "Autopsy table", "Experiment workbench", "Keshik weapon rack", "Hellfire forge", "Warforge scrap pile", "Stockpiled art", "Aughra remains", "Ancient magick munitions", "Moksha device", "Bibliotheke debris", "Warforge weapon rack", "Flight research debris", "Atherium forge", "Xolo mine", "Praetorian remains", "Bandos's sanctum debris", "Tsutsaroth remains", "Optimatoi remains", "War table debris", "Howl's workshop debris", "Makeshift pie oven", "Xolo remains", "Saurthen debris"],
+			"AnyExcavationSpot[+]": [
+				"Venator remains",
+				"Legionary remains",
+				"Castra debris",
+				"Lodge bar storage",
+				"Lodge art storage",
+				"Administratum debris",
+				"Cultist footlocker",
+				"Sacrificial altar",
+				"Prodromoi remains",
+				"Dis dungeon debris",
+				"Praesidio remains",
+				"Monoceros remains",
+				"Amphitheatre debris",
+				"Ceramics studio debris",
+				"Carcerem debris",
+				"Ministry remains",
+				"Stadio debris",
+				"Cathedral debris",
+				"Marketplace debris",
+				"Inquisitor remains",
+				"Infernal art",
+				"Gladiator remains",
+				"Citizen remains",
+				"Shakroth remains",
+				"Dominion Games podium",
+				"Ikovian memorial",
+				"Oikos studio debris",
+				"Kharid-et chapel debris",
+				"Gladiatorial goblin remains",
+				"Keshik ger",
+				"Animal trophies",
+				"Pontifex remains",
+				"Cricible stand debris",
+				"Tailory debris",
+				"Goblin dorm debris",
+				"Oikos fishing hut remnants",
+				"Weapons research debris",
+				"Orcus altar",
+				"Dis overspill",
+				"Big High War God shrine",
+				"Orthen rubble",
+				"Varanusaur remains",
+				"Gravitron research debris",
+				"Acropolis debris",
+				"Armarium debris",
+				"Yu'biusk animal pen",
+				"Keshik tower debris",
+				"Dragonkin reliquary",
+				"Goblin trainee remains",
+				"Byzroth remains",
+				"Destroyed golem",
+				"Dragonkin coffin",
+				"Icyene weapon rack",
+				"Culinarum debris",
+				"Kyzaj champion's boudoir",
+				"Autopsy table",
+				"Experiment workbench",
+				"Keshik weapon rack",
+				"Hellfire forge",
+				"Warforge scrap pile",
+				"Stockpiled art",
+				"Aughra remains",
+				"Ancient magick munitions",
+				"Moksha device",
+				"Bibliotheke debris",
+				"Warforge weapon rack",
+				"Flight research debris",
+				"Atherium forge",
+				"Xolo mine",
+				"Praetorian remains",
+				"Bandos's sanctum debris",
+				"Tsutsaroth remains",
+				"Optimatoi remains",
+				"War table debris",
+				"Howl's workshop debris",
+				"Makeshift pie oven",
+				"Xolo remains",
+				"Saurthen debris",
+				"Lunar wheel debris",
+				"Arbour rubble",
+				"Weaver's hut debris",
+				"Shrine debris",
+				"Cauldron debris",
+				"Blood altar (excavation hotspot)"
+			],
 			"AnyFishingSpot[+]": ["Fishing spot (Piscatoris Fishing Colony)", "Fishing spot (barbarian)", "Fishing spot (big fishing net, harpoon)", "Fishing spot (crayfish)", "Fishing spot (frog spawn, eels)", "Fishing spot (ghostly sole)", "Fishing spot (lava)", "Fishing spot (lure, bait))", "Fishing spot (meiyerditch)", "Fishing spot (menaphos)", "Fishing spot (minnow)", "Fishing spot (rocking)", "Fishing spot (slimy eels)", "Fishing spot (small fishing net, bait)", "Fishing spot (waterfall)"],
 			"Bank[+]": ["Bank", "Bank boat", "Bank booth", "Bank chest", "Banker"],
 			"Cave eel spot[+]": ["Fishing spot (frog spawn, eels)", "Fishing spot (meiyerditch)"],
@@ -235083,7 +235945,7 @@
 				"Kezalam, Devourer Eternal"
 			],
 			"Dagannoth[+]": ["Dagannoth (Lighthouse)", "Dagannoth fledgling", "Dagannoth spawn", "Dagannoth#Ranged", "Dagannoth#Melee"],
-			"Farmer[+]": ["Farmer", "Farmer (Marigold Farm)", "Farmer Sharon", "Farmer Rachel"],
+			"Farmer[+]": ["Farmer", "Farmer (Marigold Farm)", "Farmer Sharon", "Farmer Rachel", "Farmer Rowan"],
 			"Fremennik citizen[+]": [
 				"Agnar",
 				"Freidir",
@@ -235586,7 +236448,7 @@
 				"Woman (Lumbridge Market)",
 				"Villager (Wendlewick)"
 			],
-			"Farmer[+]": ["Farmer", "Farmer (Marigold Farm)", "Farmer Sharon", "Farmer Rachel"],
+			"Farmer[+]": ["Farmer", "Farmer (Marigold Farm)", "Farmer Sharon", "Farmer Rachel", "Farmer Rowan"],
 			"Fremennik citizen[+]": [
 				"Agnar",
 				"Freidir",
@@ -235641,7 +236503,7 @@
 			"Dyer[+]": ["Aggie", "Rana the dyer"],
 			"Elf[+]": ["Arvel", "Goreu", "Kelyn", "Mawrth", "Ysgawyn", "Bronwyn"],
 			"Estate agent[+]": ["Estate agent", "Alfred Stonemason"],
-			"Farmer[+]": ["Farmer", "Farmer (Marigold Farm)", "Farmer Sharon", "Farmer Rachel"],
+			"Farmer[+]": ["Farmer", "Farmer (Marigold Farm)", "Farmer Sharon", "Farmer Rachel", "Farmer Rowan"],
 			"Fremennik citizen[+]": [
 				"Agnar",
 				"Freidir",
@@ -235779,12 +236641,16 @@
 				"Complete the archaeology collection 'Museum - Bandosian I'", 
 				"Complete the archaeology collection 'Museum - Bandosian II'", 
 				"Complete the archaeology collection 'Museum - Bandosian III'",  
+				"Complete the archaeology collection 'Museum - Guthixian I'",  
+				"Complete the archaeology collection 'Museum - Guthixian II'",  
 				"Complete the archaeology collection 'Wise Am the Music Man'",  
 				"Complete the archaeology collection 'Hat Problem'", 
 				"Complete the archaeology collection 'Hat Hoarder'", 
 				"Complete the archaeology collection 'Magic Man'", 
 				"Complete the archaeology collection 'Knowledge is Power'", 
-				"Complete the archaeology collection ~|'Desperate for Artefacts'|~*"
+				"Complete the archaeology collection ~|'Desperate for Artefacts'|~*",
+				"Complete the archaeology collection 'Guthixian I'",
+				"Complete the archaeology collection 'Guthixian II'"
 			],
 			"AnyAssistantMystery[+]": [
 				"Archaeology Mystery: ~|Breaking the Seal|~ Complete the mystery", 
@@ -235827,7 +236693,12 @@
 				"Archaeology Mystery: ~|Mysterious City|~ Complete the mystery",
 				"Archaeology Mystery: ~|A New Form|~ Complete the mystery",
 				"Archaeology Mystery: ~|A New Home|~ Complete the mystery",
-				"Archaeology Mystery: ~|A New Age|~ Complete the mystery"
+				"Archaeology Mystery: ~|A New Age|~ Complete the mystery",
+				"Archaeology Mystery: ~|Shadows of the Colossi|~ Complete the mystery",
+				"Archaeology Mystery: ~|Path of the Initiate|~ Complete the mystery",
+				"Archaeology Mystery: ~|Cult Classic|~ Complete the mystery",
+				"Archaeology Mystery: ~|Inside You There Are Two Wolves|~ Complete the mystery",
+				"Archaeology Mystery: ~|The Final Revolution|~ Complete the mystery"
 			],
 			"AnyMystery[+]": [
 				"Archaeology Mystery: ~|Breaking the Seal|~ Complete the mystery", 
@@ -235876,7 +236747,12 @@
 				"Archaeology Mystery: ~|Mysterious City|~ Complete the mystery",
 				"Archaeology Mystery: ~|A New Form|~ Complete the mystery",
 				"Archaeology Mystery: ~|A New Home|~ Complete the mystery",
-				"Archaeology Mystery: ~|A New Age|~ Complete the mystery"
+				"Archaeology Mystery: ~|A New Age|~ Complete the mystery",
+				"Archaeology Mystery: ~|Shadows of the Colossi|~ Complete the mystery",
+				"Archaeology Mystery: ~|Path of the Initiate|~ Complete the mystery",
+				"Archaeology Mystery: ~|Cult Classic|~ Complete the mystery",
+				"Archaeology Mystery: ~|Inside You There Are Two Wolves|~ Complete the mystery",
+				"Archaeology Mystery: ~|The Final Revolution|~ Complete the mystery"
 			],
 			"BlackKnightFortressEntry[+]": ["Black Knights' Fortress Entry (guard uniform)*", "Black Knights' Fortress Entry (black armour)*", "Black Knights' Fortress Entry (Dagon'hai robes)*", "Black Knights' Fortress Entry (elite black armour)*", "Black Knights' Fortress Entry (The Death of Chivalry)*"],
 			"BloodAccess[+]": ["Access the blood rune temple with a talisman*", "Access the blood rune temple through the abyss*"],
@@ -293085,7 +293961,7 @@
 		"What's Mine is Yours": "11829, Dwarven Mine, 11826, 13108, 12596, 12084, 11828",
 		"While Guthix Sleeps": "10804, 11573, 12854, 10029, 10289, 10034, Movario's base, 10550, 10806, 11828, 12338, 12082, 11310, 10544, 11575, 13878, 11319, 12087, Black Knights' catacombs, 11579, 11835, Tears of Guthix cavern, Ancient Guthix Temple",
 		"Witch's House": "11572, Witch's House#Cellar",
-		"Within the Light": "9265, Mourner MQ, Mourner Tunnels & Temple of Light, Death Rune Temple",
+		"Within the Light": "9265, Mourner HQ, Mourner Tunnels & Temple of Light, Death Rune Temple",
 		"Wiz Kid": "16947, 12337",
 		"Wolf Whistle": "11573, 11318, Taverley Well Cave",
 		"The World Wakes": "10804, Guthixian ruins",
@@ -293173,6 +294049,7 @@
 		"Fallen Angels": "14898, 14642, 14641",
 		"Queen of the Icyene": "14642",
 		"Time Served": "Kharid-et - Carcerem excavation site",
+		"Shadows of the Colossi": "17717",
 		"Fall and Rise": "14642",
 		"Empty Children": "Senntisten, 13364",
 		"Night Theatre": "Senntisten",
@@ -293182,13 +294059,17 @@
 		"Leap of Faith": "10549, Stormguard Citadel",
 		"The Dour of Bable": "14642",
 		"The Cult of Orcus": "13361",
+		"Path of the Initiate": "17717",
 		"The Spy Who Loved Metal": "10549",
 		"Wing Out": "Stormguard Citadel",
+		"Cult Classic": "17717",
 		"The First Commander": "9516",
 		"Into the Forge": "Warforge Tunnels, Warforge Crucible",
 		"Out of the Crucible": "Warforge Crucible, Warforge Tunnels",
 		"A Study in Aether": "10549",
 		"A New Home": "13625",
+		"Inside You There Are Two Wolves": "17717",
+		"The Final Revolution": "17717",
 		"Forge War!": "9516",
 		"Crypt o' Zoology": "15939",
 		"Teleport Node On": "15428, 16454, 16193, 16704",
@@ -305568,6 +306449,79 @@
 					"1": "Always"
 				}
 			},
+			"Lunar wheel debris": {
+				"Mossy peat": {
+					"1": "3/20"
+				},
+				"Banded limestone": {
+					"1": "36/100"
+				},
+				"Ivory": {
+					"1": "34/100"
+				},
+				"Triskelion": {
+					"1": "30/100"
+				},
+				"Lunar calendar (damaged)": {
+					"1": "1/3"
+				},
+				"Wolf statuette (damaged)": {
+					"1": "1/3"
+				},
+				"Ivory sickle (damaged)": {
+					"1": "1/3"
+				},
+				"UniveralArchaeologyDrops+": {
+					"1": "Always"
+				},
+				"Ancient tablet I": {
+					"1": "Uncommon"
+				},
+				"Ancient tablet II": {
+					"1": "Uncommon"
+				},
+				"Ancient tablet III": {
+					"1": "Uncommon"
+				},
+				"Ancient tablet IV": {
+					"1": "Uncommon"
+				},
+				"Lunar slab (waxing gibbous)": {
+					"1": "Always"
+				}
+			},
+			"Banded limestone cache": {
+				"Banded limestone": {
+					"1": "Always"
+				},
+				"UniveralArchaeologyDrops+": {
+					"1": "Always"
+				}
+			},
+			"Banded limestone cache": {
+				"Banded limestone": {
+					"1": "Always"
+				},
+				"UniveralArchaeologyDrops+": {
+					"1": "Always"
+				}
+			},
+			"Ivory cache": {
+				"Ivory": {
+					"1": "Always"
+				},
+				"UniveralArchaeologyDrops+": {
+					"1": "Always"
+				}
+			},
+			"Triskelion cache": {
+				"Triskelion": {
+					"1": "Always"
+				},
+				"UniveralArchaeologyDrops+": {
+					"1": "Always"
+				}
+			},
 			"CeramicsStudioDebris": {
 				"Saltwater mud": {
 					"1": "Common"
@@ -305684,6 +306638,44 @@
 					"1": "Rare"
 				}
 			},
+			"Arbour rubble": {
+				"Mossy peat": {
+					"1": "3/20"
+				},
+				"White oak": {
+					"1": "48/100"
+				},
+				"Ivory": {
+					"1": "28/100"
+				},
+				"Triskelion": {
+					"1": "24/100"
+				},
+				"Nakkirian seal (damaged)": {
+					"1": "1/2"
+				},
+				"Royal Game of Ba (damaged)": {
+					"1": "1/2"
+				},
+				"UniveralArchaeologyDrops+": {
+					"1": "Always"
+				},
+				"Ancient tablet I": {
+					"1": "Uncommon"
+				},
+				"Ancient tablet II": {
+					"1": "Uncommon"
+				},
+				"Ancient tablet III": {
+					"1": "Uncommon"
+				},
+				"Ancient tablet IV": {
+					"1": "Uncommon"
+				},
+				"Lunar slab (first quarter)": {
+					"1": "Always"
+				}
+			},
 			"MinistryRemains": {
 				"Ancient gravel": {
 					"1": "3/20"
@@ -305737,6 +306729,69 @@
 				},
 				"Sealed clue scroll (easy)": {
 					"1": "Rare"
+				}
+			},
+			"Weaver's hut debris": {
+				"Mossy peat": {
+					"1": "3/20"
+				},
+				"Cashmere": {
+					"1": "36/100"
+				},
+				"Ivory": {
+					"1": "8/100"
+				},
+				"Burnt umber": {
+					"1": "20/100"
+				},
+				"White oak": {
+					"1": "28/100"
+				},
+				"Leather scraps": {
+					"1": "7/100"
+				},
+				"Backstrap loom (damaged)": {
+					"1": "1/3"
+				},
+				"Animal doll (damaged)": {
+					"1": "1/3"
+				},
+				"Initiat's kaunake (damaged)": {
+					"1": "1/3"
+				},
+				"UniveralArchaeologyDrops+": {
+					"1": "Always"
+				},
+				"Ancient tablet I": {
+					"1": "Uncommon"
+				},
+				"Ancient tablet II": {
+					"1": "Uncommon"
+				},
+				"Ancient tablet III": {
+					"1": "Uncommon"
+				},
+				"Ancient tablet IV": {
+					"1": "Uncommon"
+				},
+				"Lunar slab (waxing crescent)": {
+					"1": "Always"
+				}
+			},
+			"Cashmere cache": {
+				"Cashmere": {
+					"1": "Always"
+				},
+				"UniveralArchaeologyDrops+": {
+					"1": "Always"
+				}
+			},
+			"Burnt umber cache": {
+				"Burnt umber": {
+					"1": "Always"
+				},
+				"UniveralArchaeologyDrops+": {
+					"1": "Always"
 				}
 			},
 			"StadioDebris": {
@@ -306291,6 +307346,53 @@
 				},
 				"Pylon battery": {
 					"1": "Uncommon"
+				}
+			},
+			"Shrine debris": {
+				"Mossy peat": {
+					"1": "3/20"
+				},
+				"Banded limestone": {
+					"1": "37/100"
+				},
+				"Cashmere": {
+					"1": "16/100"
+				},
+				"Triskelion": {
+					"1": "16/100"
+				},
+				"Burnt umber": {
+					"1": "16/100"
+				},
+				"White oak": {
+					"1": "14/100"
+				},
+				"Offering bowl (damaged)": {
+					"1": "1/2"
+				},
+				"Incense burner (damaged)": {
+					"1": "1/2"
+				},
+				"Ivory sickle (damaged)": {
+					"1": "1/3"
+				},
+				"UniveralArchaeologyDrops+": {
+					"1": "Always"
+				},
+				"Ancient tablet I": {
+					"1": "Uncommon"
+				},
+				"Ancient tablet II": {
+					"1": "Uncommon"
+				},
+				"Ancient tablet III": {
+					"1": "Uncommon"
+				},
+				"Ancient tablet IV": {
+					"1": "Uncommon"
+				},
+				"Lunar slab (new moon)": {
+					"1": "Always"
 				}
 			},
 			"KeshikGer": {
@@ -306867,6 +307969,53 @@
 					"1": "Uncommon"
 				}
 			},
+			"Cauldron debris": {
+				"Mossy peat": {
+					"1": "3/20"
+				},
+				"Burnt umber": {
+					"1": "28/100"
+				},
+				"Leather scraps": {
+					"1": "24/100"
+				},
+				"Banded limestone": {
+					"1": "20/100"
+				},
+				"Triskelion": {
+					"1": "18/100"
+				},
+				"Cashmere": {
+					"1": "9/100"
+				},
+				"Bloodwine (damaged)": {
+					"1": "1/3"
+				},
+				"Reagent jar (damaged)": {
+					"1": "1/3"
+				},
+				"Ninbaradari mural (damaged)": {
+					"1": "1/3"
+				},
+				"UniveralArchaeologyDrops+": {
+					"1": "Always"
+				},
+				"Ancient tablet V": {
+					"1": "Uncommon"
+				},
+				"Ancient tablet VI": {
+					"1": "Uncommon"
+				},
+				"Ancient tablet VII": {
+					"1": "Uncommon"
+				},
+				"Ancient tablet VIII": {
+					"1": "Uncommon"
+				},
+				"Lunar slab (last quarter)": {
+					"1": "Always"
+				}
+			},
 			"FossilisedBone": {
 				"Fossilised bone": {
 					"1": "Always"
@@ -307159,6 +308308,47 @@
 					"1": "Uncommon"
 				},
 				"UniveralArchaeologyDrops+": {
+					"1": "Always"
+				}
+			},
+			"Blood altar": {
+				"Mossy peat": {
+					"1": "3/20"
+				},
+				"Burnt umber": {
+					"1": "13/100"
+				},
+				"Ivory": {
+					"1": "42/100"
+				},
+				"Soapstone": {
+					"1": "30/100"
+				},
+				"Cashmere": {
+					"1": "15/100"
+				},
+				"Bloodletting dagger (damaged)": {
+					"1": "1/2"
+				},
+				"Fang of Kayazu (damaged)": {
+					"1": "1/2"
+				},
+				"UniveralArchaeologyDrops+": {
+					"1": "Always"
+				},
+				"Ancient tablet V": {
+					"1": "Uncommon"
+				},
+				"Ancient tablet VI": {
+					"1": "Uncommon"
+				},
+				"Ancient tablet VII": {
+					"1": "Uncommon"
+				},
+				"Ancient tablet VIII": {
+					"1": "Uncommon"
+				},
+				"Lunar slab (waning gibbous)": {
 					"1": "Always"
 				}
 			},
