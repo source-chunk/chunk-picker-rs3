@@ -1611,7 +1611,7 @@ let topbarElements = {
     'Sandbox Mode': `<div><span class='noscroll' onclick="enableTestMode()"><i class="gosandbox fa-solid fa-flask" title='Sandbox Mode'></i></span></div>`,
 };
 
-let currentVersion = '6.9.55';
+let currentVersion = '6.9.56';
 let currentEnforcedVersion = '6.9.45';
 let patchNotesVersion = '6.9.48';
 let updateLevel = 'unconnected-areas';
@@ -1761,7 +1761,7 @@ mapImg.addEventListener("load", e => {
         centerCanvas('quick');
     }
 });
-mapImg.src = "runescape_world_map.png?v=6.9.55";
+mapImg.src = "runescape_world_map.png?v=6.9.56";
 
 // Rounded rectangle
 CanvasRenderingContext2D.prototype.roundRect = function (x, y, w, h, r) {
@@ -3688,7 +3688,7 @@ let calcCurrentChallengesCanvas = function(useOld, proceed, fromLoadData, inputT
         setCalculating('.panel-active', useOld);
         setCurrentChallenges(['No tasks currently backlogged.'], ['No tasks currently completed.'], true, true);
         myWorker.terminate();
-        myWorker = new Worker("./worker.js?v=6.9.55");
+        myWorker = new Worker("./worker.js?v=6.9.56");
         myWorker.onmessage = workerOnMessage;
         myWorker.postMessage({
             type: 'current',
@@ -4045,8 +4045,8 @@ $(document).ready(function() {
 // ------------------------------------------------------------
 
 // Recieve message from worker
-let myWorker = new Worker("./worker.js?v=6.9.55");
-let myWorker2 = new Worker("./worker.js?v=6.9.55");
+let myWorker = new Worker("./worker.js?v=6.9.56");
+let myWorker2 = new Worker("./worker.js?v=6.9.56");
 let workerOnMessage = function(e) {
     if (e.data.type === 'reload') {
         window.location.reload();
@@ -7044,7 +7044,7 @@ let calcFutureChallenges = function() {
     }
     tempSections = combineJSONs(tempSections, manualSections);
     myWorker2.terminate();
-    myWorker2 = new Worker("./worker.js?v=6.9.55");
+    myWorker2 = new Worker("./worker.js?v=6.9.56");
     myWorker2.onmessage = workerOnMessage;
     myWorker2.postMessage({
         type: 'future',
@@ -8275,12 +8275,12 @@ let openQuestSteps = function(skill, challenge) {
                     if (savedLastLine.length > 0 && line.split('|~')[0] !== savedLastLine.split('|~')[0]) {
                         $('.quest-steps-data').append('<hr class="quest-steps-hr" />');
                     }
-                    $('.quest-steps-data').append(`<div class='noscroll step${line === challenge ? ' highlighted' : ''}'><span class='noscroll step-step diary-size'>${line.split('|~')[1]}</span><span class='noscroll step-description'>${chunkInfo['challenges'][skill][line]['Description']}</span><span class="quest-steps-info" onclick="showDetails('${encodeRFC5987ValueChars(line)}', '${skill}', '')"><i class="info-icon fa-solid fa-info-circle"></i></span></div>`);
+                    $('.quest-steps-data').append(`<div class='noscroll step${diaryProgress.hasOwnProperty(challenge.split('|')[1].split('#')[0]) && diaryProgress[challenge.split('|')[1].split('#')[0]]['allTasks'].includes(line) ? ' highlighted' : ''}${line === challenge ? ' extra-highlighted' : ''}'><span class='noscroll step-step diary-size'>${line.split('|~')[1]}</span><span class='noscroll step-description'>${chunkInfo['challenges'][skill][line]['Description']}</span><span class="quest-steps-info" onclick="showDetails('${encodeRFC5987ValueChars(line)}', '${skill}', '')"><i class="info-icon fa-solid fa-info-circle"></i></span></div>`);
                     savedLastLine = line;
                 });
             } else {
                 Object.keys(chunkInfo['challenges'][skill]).filter(line => chunkInfo['challenges'][skill][line]['BaseQuest'] === quest && chunkInfo['challenges'][skill][line].hasOwnProperty('Description')).forEach((line) => {
-                    $('.quest-steps-data').append(`<div class='noscroll step${line === challenge ? ' highlighted' : ''}'><span class='noscroll step-step'>${line.split('|~')[1]}</span><span class='noscroll step-description'>${chunkInfo['challenges'][skill][line]['Description']}</span><span class="quest-steps-info" onclick="showDetails('${encodeRFC5987ValueChars(line)}', '${skill}', '')"><i class="info-icon fa-solid fa-info-circle"></i></span></div>`);
+                    $('.quest-steps-data').append(`<div class='noscroll step${questProgress.hasOwnProperty(challenge.split('|')[1].split('#')[0]) && (questProgress[challenge.split('|')[1].split('#')[0]].includes(line) || questProgress[challenge.split('|')[1].split('#')[0]] === 'Complete the quest') ? ' highlighted' : ''}${line === challenge ? ' extra-highlighted' : ''}'><span class='noscroll step-step'>${line.split('|~')[1]}</span><span class='noscroll step-description'>${chunkInfo['challenges'][skill][line]['Description']}</span><span class="quest-steps-info" onclick="showDetails('${encodeRFC5987ValueChars(line)}', '${skill}', '')"><i class="info-icon fa-solid fa-info-circle"></i></span></div>`);
                 });
             }
         }
@@ -8293,7 +8293,7 @@ let openQuestSteps = function(skill, challenge) {
                 behavior: 'auto',
             });
         } else {
-            !!$('.quest-steps-data .highlighted')[0] && $('.quest-steps-data .highlighted')[0].scrollIntoView({
+            !!$('.quest-steps-data .extra-highlighted')[0] && $('.quest-steps-data .extra-highlighted')[0].scrollIntoView({
                 behavior: 'auto',
                 block: 'center',
                 inline: 'center'
