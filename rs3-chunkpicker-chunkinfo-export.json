@@ -88,7 +88,7 @@
 				"NoPet": true
 			},
 			"Read an Agility tome from ~|Temple Trekking|~": {
-				"Category": ["DnD"],
+				"Category": ["Minigame"],
 				"Chunks": ["Temple Trekking Routes"],
 				"Level": 1,
 				"Primary": true,
@@ -10660,7 +10660,7 @@
 				"Not F2P": true
 			},
 			"Construct a ~|God Statue|~": {
-				"Category": ["DnD", "Not Daily DnD"],
+				"Category": ["DnD", "Timegated"],
 				"NPCs": ["Copernicus Glyph"],
 				"Level": 1,
 				"Primary": true,
@@ -19130,6 +19130,18 @@
 				"Priority": 42,
 				"Not F2P": true
 			},
+			"Repair the net on the ~|Fishing Trawler|~": {
+				"Category": ["Minigame"],
+				"Level": 1,
+				"Items": ["Rope*"],
+				"Chunks": ["10545"],
+				"Objects": ["Trawler net"],
+				"SkillsNeeded": {
+					"Fishing": 15
+				},
+				"Primary": true,
+				"Priority": 2
+			},
 			"Chisel ~|pure essence fragments|~": {
 				"Category": ["Token"],
 				"Items": ["Pure essence*"],
@@ -24375,6 +24387,14 @@
 				"Objects": ["CraftingFurnace[+]"],
 				"Primary": true,
 				"Priority": 4
+			},
+			"Craft a ~|shark's tooth necklace|~": {
+				"Items": ["Thread*", "Shark's tooth*"],
+				"Level": 91,
+				"Output": "Shark's tooth necklace",
+				"Primary": true,
+				"Priority": 5,
+				"Not F2P": true
 			},
 			"Feed a ~|starved ancient effigy|~ with crafting": {
 				"Items": ["Starved ancient effigy (agility/crafting)"],
@@ -31616,7 +31636,7 @@
 				"Not F2P": true
 			},
 			"Harvest seaweed for the ~|Giant Oyster|~": {
-				"Category": ["DnD", "Not Daily DnD"],
+				"Category": ["DnD", "Timegated"],
 				"Chunks": ["Sunken Tutorial Island"],
 				"Level": 1,
 				"Primary": true,
@@ -35486,14 +35506,14 @@
 				"Priority": 14
 			},
 			"Partake in ~|Herby Werby|~": {
-				"Category": ["DnD", "Not Daily DnD"],
+				"Category": ["DnD", "Timegated"],
 				"Chunks": ["Herby Werby"],
 				"Level": 1,
 				"Primary": true,
 				"Priority": 16
 			},
 			"Read a Firemaking tome from ~|Temple Trekking|~": {
-				"Category": ["DnD"],
+				"Category": ["Minigame"],
 				"Chunks": ["Temple Trekking Routes"],
 				"Level": 1,
 				"Primary": true,
@@ -37545,14 +37565,14 @@
 				"Priority": 101
 			},
 			"Fish for sea cucumber for the ~|Giant Oyster|~": {
-				"Category": ["DnD", "Not Daily DnD"],
+				"Category": ["DnD", "Timegated"],
 				"Chunks": ["Sunken Tutorial Island"],
 				"Level": 1,
 				"Primary": true,
 				"Priority": 102
 			},
 			"Read a Fishing tome from ~|Temple Trekking|~": {
-				"Category": ["DnD"],
+				"Category": ["Minigame"],
 				"Chunks": ["Temple Trekking Routes"],
 				"Level": 1,
 				"Primary": true,
@@ -37715,6 +37735,25 @@
 				"Output": "Raw anchovies",
 				"Priority": 1
 			},
+			"Catch fish with the ~|Fishing Trawler|~": {
+				"Category": ["Minigame"],
+				"Level": 15,
+				"Chunks": ["10545"],
+				"Objects": ["Trawler net"],
+				"Primary": true,
+				"Output": "Fishing Trawler loot",
+				"Priority": 2
+			},
+			"Catch improved ~|Fishing Trawler|~ after the Elite Ardougne achievements.": {
+				"Category": ["Minigame"],
+				"Level": 15,
+				"Chunks": ["10545"],
+				"Objects": ["Trawler net"],
+				"Items": ["Ardougne cloak 4"],
+				"Primary": true,
+				"Output": "Fishing Trawler loot+",
+				"Priority": 2
+			},
 			"Catch a ~|raw mackerel|~": {
 				"Level": 16,
 				"Objects": ["Fishing spot (big fishing net, harpoon)"],
@@ -37793,6 +37832,15 @@
 				"Output": "Raw tuna",
 				"Priority": 1
 			},
+			"Catch tuna with the ~|Fishing Trawler|~": {
+				"Category": ["Minigame"],
+				"Level": 35,
+				"Chunks": ["10545"],
+				"Objects": ["Trawler net"],
+				"Primary": true,
+				"Output": "Raw tuna",
+				"Priority": 2
+			},
 			"Catch ~|golden tuna eggs|~": {
 				"Level": 35,
 				"Objects": ["Fishing spot (cage, harpoon)"],
@@ -37836,6 +37884,15 @@
 				"Primary": true,
 				"Output": "Raw lobster loot",
 				"Priority": 1
+			},
+			"Catch lobster with the ~|Fishing Trawler|~": {
+				"Category": ["Minigame"],
+				"Level": 40,
+				"Chunks": ["10545"],
+				"Objects": ["Trawler net"],
+				"Primary": true,
+				"Output": "Raw lobster",
+				"Priority": 2
 			},
 			"Fish with a ~|viridian skillchompa|~": {
 				"Items": ["Viridian skillchompa"],
@@ -37884,6 +37941,15 @@
 				"Primary": true,
 				"Output": "Raw swordfish loot",
 				"Priority": 1
+			},
+			"Catch swordfish with the ~|Fishing Trawler|~": {
+				"Category": ["Minigame"],
+				"Level": 50,
+				"Chunks": ["10545"],
+				"Objects": ["Trawler net"],
+				"Primary": true,
+				"Output": "Raw swordfish",
+				"Priority": 2
 			},
 			"Catch two ~|raw swordfish|~ in one attempt": {
 				"Category": ["Multiple Agility"],
@@ -38118,6 +38184,15 @@
 				"Output": "Raw shark loot",
 				"Priority": 1
 			},
+			"Catch shark with the ~|Fishing Trawler|~": {
+				"Category": ["Minigame"],
+				"Level": 76,
+				"Chunks": ["10545"],
+				"Objects": ["Trawler net"],
+				"Primary": true,
+				"Output": "Raw shark",
+				"Priority": 2
+			},
 			"Catch two ~|raw sharks|~ in one attempt": {
 				"Category": ["Multiple Agility"],
 				"Level": 76,
@@ -38152,6 +38227,15 @@
 				"Primary": false,
 				"Priority": 2
 			},
+			"Catch sea turtle with the ~|Fishing Trawler|~": {
+				"Category": ["Minigame"],
+				"Level": 79,
+				"Chunks": ["10545"],
+				"Objects": ["Trawler net"],
+				"Primary": true,
+				"Output": "Raw sea turtle",
+				"Priority": 3
+			},
 			"Catch a ~|raw great white shark|~": {
 				"Items": ["Great white shark bait"],
 				"Level": 80,
@@ -38183,6 +38267,15 @@
 				"Primary": true,
 				"Output": "Raw manta ray",
 				"Priority": 1
+			},
+			"Catch manta ray with the ~|Fishing Trawler|~": {
+				"Category": ["Minigame"],
+				"Level": 81,
+				"Chunks": ["10545"],
+				"Objects": ["Trawler net"],
+				"Primary": true,
+				"Output": "Raw manta ray",
+				"Priority": 2
 			},
 			"Catch a ~|raw giant crayfish|~": {
 				"Level": 82,
@@ -38356,12 +38449,21 @@
 				"Primary": true,
 				"Priority": 1
 			},
+			"Catch tiger shark with the ~|Fishing Trawler|~": {
+				"Category": ["Minigame"],
+				"Level": 95,
+				"Chunks": ["10545"],
+				"Objects": ["Trawler net"],
+				"Primary": true,
+				"Output": "Raw tiger shark",
+				"Priority": 1
+			},
 			"Catch a ~|medium crystal urchin|~": {
 				"Level": 95,
 				"Objects": ["Fishing spot (waterfall)"],
 				"Primary": true,
 				"Output": "Medium Urchin Loot",
-				"Priority": 1
+				"Priority": 2
 			},
 			"Feed a ~|sated ancient effigy|~ with fishing": {
 				"Items": ["Sated ancient effigy (farming/fishing)"],
@@ -41328,7 +41430,7 @@
 				"Priority": 1000
 			},
 			"Partake in ~|Herby Werby|~": {
-				"Category": ["DnD", "Not Daily DnD"],
+				"Category": ["DnD", "Timegated"],
 				"Chunks": ["Herby Werby"],
 				"Level": 1,
 				"Primary": true,
@@ -52380,7 +52482,7 @@
 				"Priority": 1002
 			},
 			"Read a Mining tome from ~|Temple Trekking|~": {
-				"Category": ["DnD"],
+				"Category": ["Minigame"],
 				"Chunks": ["Temple Trekking Routes"],
 				"Level": 1,
 				"Primary": true,
@@ -56034,7 +56136,7 @@
 				"Priority": 57
 			},
 			"Pray at a ~|God Statue|~": {
-				"Category": ["DnD", "Not Daily DnD"],
+				"Category": ["DnD", "Timegated"],
 				"NPCs": ["Copernicus Glyph"],
 				"Level": 1,
 				"Primary": true,
@@ -61634,14 +61736,14 @@
 				"NoPet": true
 			},
 			"Defeat fanatics after building a ~|God Statue|~": {
-				"Category": ["DnD", "Not Daily DnD"],
+				"Category": ["DnD", "Timegated"],
 				"NPCs": ["Copernicus Glyph"],
 				"Level": 1,
 				"Primary": true,
 				"Priority": 13
 			},
 			"Read a Slayer tome from ~|Temple Trekking|~": {
-				"Category": ["DnD"],
+				"Category": ["Minigame"],
 				"Chunks": ["Temple Trekking Routes"],
 				"Level": 1,
 				"Primary": true,
@@ -69243,7 +69345,7 @@
 				"Not F2P": true
 			},
 			"Read a Thieving tome from ~|Temple Trekking|~": {
-				"Category": ["DnD"],
+				"Category": ["Minigame"],
 				"Chunks": ["Temple Trekking Routes"],
 				"Level": 1,
 				"Primary": true,
@@ -71822,7 +71924,7 @@
 				"Not F2P": true
 			},
 			"Read a Woodcutting tome from ~|Temple Trekking|~": {
-				"Category": ["DnD"],
+				"Category": ["Minigame"],
 				"Chunks": ["Temple Trekking Routes"],
 				"Level": 1,
 				"Primary": true,
@@ -107396,7 +107498,7 @@
 				"RuneScore": 5
 			},
 			"~|Ardougne Achievements#Easy|~ Gone Fishing": {
-				"Description": "Attempt to board the Fishing Trawler.",
+				"Description": "Go out fishing on the Fishing Trawler.",
 				"Chunks": ["10545"],
 				"BaseQuest": "Ardougne Achievements",
 				"Category": ["Show Diary Tasks"],
@@ -127774,11 +127876,8 @@
 				"Category": ["Comp achievements", "Trim achievements"],
 				"Description": "Unlock all permanent effects from Death's Store.",
 				"BaseQuest": "Completionist achievements",
+				"Items": ["Reaper points"],
 				"Chunks": ["Death's Office"],
-				"Monsters": ["AnyBoss[+]"],
-				"Skills": {
-					"Combat": 50
-				},
 				"RuneScore": 75,
 				"Not F2P": true
 			},
@@ -135965,7 +136064,7 @@
 				"Not F2P": true
 			},
 			"~|Activities achievements#Distractions & Diversions|~ A Bit TOO Familiar": {
-				"Category": ["Misc achievements", "DnD", "Not Daily DnD"],
+				"Category": ["Misc achievements", "DnD", "Timegated"],
 				"Description": "Play as the following familiars in Familiarisation",
 				"BaseQuest": "Activities achievements",
 				"Objects": ["Small obelisk"],
@@ -135985,7 +136084,7 @@
 				"Not F2P": true
 			},
 			"~|Activities achievements#Distractions & Diversions|~ Bone I Fired": {
-				"Category": ["Misc achievements", "DnD", "Not Daily DnD"],
+				"Category": ["Misc achievements", "DnD", "Timegated"],
 				"Description": "Defeat the Skeletal Horror whilst wielding Zanik's crossbow and using bone bolts.",
 				"BaseQuest": "Activities achievements",
 				"Chunks": ["13366-1"],
@@ -136009,7 +136108,7 @@
 				"Not F2P": true
 			},
 			"~|Activities achievements#Distractions & Diversions|~ Regard My Shards": {
-				"Category": ["Misc achievements", "DnD", "Not Daily DnD"],
+				"Category": ["Misc achievements", "DnD", "Timegated"],
 				"Description": "Collect 60 shards in Familiarisation",
 				"BaseQuest": "Activities achievements",
 				"Objects": ["Small obelisk"],
@@ -136017,7 +136116,7 @@
 				"Not F2P": true
 			},
 			"~|Activities achievements#Distractions & Diversions|~ Reverent Sculptor": {
-				"Category": ["Misc achievements", "DnD", "Not Daily DnD"],
+				"Category": ["Misc achievements", "DnD", "Timegated"],
 				"Description": "Unlock all 5 of the god chisels from the sculpting god statues and then talk to Copernicus Glyph.",
 				"BaseQuest": "Activities achievements",
 				"Chunks": ["8244"],
@@ -136029,7 +136128,7 @@
 				"Not F2P": true
 			},
 			"~|Activities achievements#Distractions & Diversions|~ The Distracted": {
-				"Category": ["Misc achievements", "DnD", "Not Daily DnD", "No RuneScore"],
+				"Category": ["Misc achievements", "DnD", "Timegated", "No RuneScore"],
 				"Description": "Obtain the Distracted title by completing distractions and diversions.",
 				"BaseQuest": "Activities achievements",
 				"NPCs": ["Cornelius Glyph"],
@@ -136047,7 +136146,7 @@
 				"Not F2P": true
 			},
 			"~|Activities achievements#Distractions & Diversions|~ Cracking Open A Cold One": {
-				"Category": ["Misc achievements", "DnD", "Not Daily DnD"],
+				"Category": ["Misc achievements", "DnD", "Timegated"],
 				"Description": "Fill an effigy with knowledge, then crack it open.",
 				"BaseQuest": "Activities achievements",
 				"Chunks": ["Effigy Incubator"],
@@ -136058,7 +136157,7 @@
 				"Not F2P": true
 			},
 			"~|Activities achievements#Distractions & Diversions|~ Cracking Open A Four Pack": {
-				"Category": ["Misc achievements", "DnD", "Not Daily DnD"],
+				"Category": ["Misc achievements", "DnD", "Timegated"],
 				"Description": "Fill and crack open at least one of each effigy.",
 				"BaseQuest": "Activities achievements",
 				"Chunks": ["Effigy Incubator"],
@@ -136069,7 +136168,7 @@
 				"Not F2P": true
 			},
 			"~|Activities achievements#Distractions & Diversions|~ Effigy Scavenger": {
-				"Category": ["Misc achievements", "DnD", "Not Daily DnD"],
+				"Category": ["Misc achievements", "DnD", "Timegated"],
 				"Description": "Fill and crack open at least one of each effigy.",
 				"BaseQuest": "Activities achievements",
 				"Chunks": ["Effigy Incubator"],
@@ -136080,7 +136179,7 @@
 				"Not F2P": true
 			},
 			"~|Activities achievements#Distractions & Diversions|~ I C U K G P": {
-				"Category": ["Misc achievements", "DnD", "Not Daily DnD"],
+				"Category": ["Misc achievements", "DnD", "Timegated"],
 				"Description": "Find 12 penguin spies and the polar bear in a single week and report your findings.",
 				"BaseQuest": "Activities achievements",
 				"Chunks": ["10290"],
@@ -136091,7 +136190,7 @@
 				"Not F2P": true
 			},
 			"~|Activities achievements#Distractions & Diversions|~ Ultimate Birdwatcher": {
-				"Category": ["Misc achievements", "DnD", "Not Daily DnD"],
+				"Category": ["Misc achievements", "DnD", "Timegated"],
 				"Description": "Have at least 50 Penguin Points at once.",
 				"BaseQuest": "Activities achievements",
 				"Chunks": ["10290"],
@@ -146112,15 +146211,13 @@
 			"(Soul Reaper) Obtain ~|death notes|~": {
 				"Category": ["Untracked Uniques", "Untracked Uniques Combat"],
 				"Label": "Untracked Combat Uniques",
-				"Chunks": ["Death's Office"],
-				"Monsters": ["AnyBoss[+]"],
+				"Items": ["Death notes"],
 				"Not F2P": true
 			},
 			"(Soul Reaper) Obtain an ~|incomplete hydrix|~": {
 				"Category": ["Untracked Uniques", "Untracked Uniques Combat"],
 				"Label": "Untracked Combat Uniques",
-				"Chunks": ["Death's Office"],
-				"Monsters": ["AnyBoss[+]"],
+				"Items": ["Incomplete hydrix"],
 				"Not F2P": true
 			},
 			"(Temple of Aminishi) Obtain a ~|tetsu sword upgrade kit|~": {
@@ -148482,6 +148579,21 @@
 				"Category": ["Untracked Uniques", "Untracked Uniques Minigames", "Cosmetics"],
 				"Label": "Untracked Minigame Uniques",
 				"Items": ["Pirate hook (left)"]
+			},
+			"(Fishing Trawler) Obtain a ~|glistening shell|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Minigames"],
+				"Label": "Untracked Minigame Uniques",
+				"Items": ["Glistening shell"]
+			},
+			"(Fishing Trawler) Obtain a ~|shimmering shell|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Minigames"],
+				"Label": "Untracked Minigame Uniques",
+				"Items": ["Shimmering shell"]
+			},
+			"(Fishing Trawler) Obtain a ~|shark's tooth|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Minigames"],
+				"Label": "Untracked Minigame Uniques",
+				"Items": ["Shark's tooth"]
 			},
 			"(Flash Powder Factory) Obtain a ~|factory mask|~": {
 				"Category": ["Untracked Uniques", "Untracked Uniques Minigames"],
@@ -158752,6 +158864,12 @@
 				"Set": "BIS Fishing Rod",
 				"Not F2P": true
 			},
+			"Obtain the ~|shark's tooth necklace|~": {
+				"Category": ["BIS Skilling"],
+				"Label": "BIS Skilling",
+				"Items": ["Shark tooth's necklace"],
+				"Not F2P": true
+			},
 			"Obtain the ~|fury shark head|~": {
 				"Category": ["BIS Skilling"],
 				"Label": "BIS Skilling",
@@ -166435,51 +166553,61 @@
 				"Output": "Weeds"
 			},
 			"Claim the pure essence reward from Temple Trekking*": {
+				"Category": ["Minigame"],
 				"Chunks": ["Temple Trekking Routes"],
 				"Output": "Pure essence",
 				"Not F2P": true
 			},
 			"Claim the bowstring reward from Temple Trekking*": {
+				"Category": ["Minigame"],
 				"Chunks": ["Temple Trekking Routes"],
 				"Output": "Bowstring",
 				"Not F2P": true
 			},
 			"Claim the silver stone spirit reward from Temple Trekking*": {
+				"Category": ["Minigame"],
 				"Chunks": ["Temple Trekking Routes"],
 				"Output": "Silver stone spirit",
 				"Not F2P": true
 			},
 			"Claim the blue herb reward from Temple Trekking*": {
+				"Category": ["Minigame"],
 				"Chunks": ["Temple Trekking Routes"],
 				"Output": "Temple Trekking herb blue loot",
 				"Not F2P": true
 			},
 			"Claim the yellow herb reward from Temple Trekking*": {
+				"Category": ["Minigame"],
 				"Chunks": ["Temple Trekking Routes"],
 				"Output": "Temple Trekking herb yellow loot",
 				"Not F2P": true
 			},
 			"Claim the red herb reward from Temple Trekking*": {
+				"Category": ["Minigame"],
 				"Chunks": ["Temple Trekking Routes"],
 				"Output": "Temple Trekking herb red loot",
 				"Not F2P": true
 			},
 			"Claim the stone spirit reward from Temple Trekking*": {
+				"Category": ["Minigame"],
 				"Chunks": ["Temple Trekking Routes"],
 				"Output": "Temple Trekking stone spirit loot",
 				"Not F2P": true
 			},
 			"Claim the watermelon seed reward from Temple Trekking*": {
+				"Category": ["Minigame"],
 				"Chunks": ["Temple Trekking Routes"],
 				"Output": "Watermelon seed",
 				"Not F2P": true
 			},
 			"Claim the raw shark reward from Temple Trekking*": {
+				"Category": ["Minigame"],
 				"Chunks": ["Temple Trekking Routes"],
 				"Output": "Raw shark",
 				"Not F2P": true
 			},
 			"Claim the constructor's gloves from Temple Trekking*": {
+				"Category": ["Minigame"],
 				"Chunks": ["Temple Trekking Routes"],
 				"Tasks": {
 					"~|The Darkness of Hallowvale|~ Complete the quest": "Quest"
@@ -166488,6 +166616,7 @@
 				"Not F2P": true
 			},
 			"Claim the constructor's boots from Temple Trekking*": {
+				"Category": ["Minigame"],
 				"Chunks": ["Temple Trekking Routes"],
 				"Tasks": {
 					"~|The Darkness of Hallowvale|~ Complete the quest": "Quest"
@@ -166496,16 +166625,19 @@
 				"Not F2P": true
 			},
 			"Claim the constructor's hat from Temple Trekking*": {
+				"Category": ["Minigame"],
 				"Chunks": ["Temple Trekking Routes"],
 				"Output": "Constructor's hat",
 				"Not F2P": true
 			},
 			"Claim the constructor's trousers from Temple Trekking*": {
+				"Category": ["Minigame"],
 				"Chunks": ["Temple Trekking Routes"],
 				"Output": "Constructor's trousers",
 				"Not F2P": true
 			},
 			"Claim the constructor's garb from Temple Trekking*": {
+				"Category": ["Minigame"],
 				"Chunks": ["Temple Trekking Routes"],
 				"Tasks": {
 					"~|The Darkness of Hallowvale|~ Complete the quest": "Quest"
@@ -166514,21 +166646,25 @@
 				"Not F2P": true
 			},
 			"Claim the ouroboros pouch from Temple Trekking*": {
+				"Category": ["Minigame"],
 				"Chunks": ["Temple Trekking Routes"],
 				"Output": "Ouroboros pouch",
 				"Not F2P": true
 			},
 			"Claim the rambler's backpack from Temple Trekking*": {
+				"Category": ["Minigame"],
 				"Chunks": ["Temple Trekking Routes"],
 				"Output": "Rambler's backpack",
 				"Not F2P": true
 			},
 			"Claim the walking stick from Temple Trekking*": {
+				"Category": ["Minigame"],
 				"Chunks": ["Temple Trekking Routes"],
 				"Output": "Walking stick",
 				"Not F2P": true
 			},
 			"Buy a ghast pouch from Temple Trekking*": {
+				"Category": ["Minigame"],
 				"Chunks": ["Temple Trekking Routes"],
 				"Tasks": {
 					"~|The Darkness of Hallowvale|~ Complete the quest": "Quest"
@@ -167025,13 +167161,13 @@
 				"Not F2P": true
 			},
 			"Familiarisation rewards*": {
-				"Category": ["DnD", "Not Daily DnD"],
+				"Category": ["DnD", "Timegated"],
 				"Objects": ["Small obelisk"],
 				"Output": "Familiarisation rewards",
 				"Not F2P": true
 			},
 			"God Statue rewards*": {
-				"Category": ["DnD", "Not Daily DnD"],
+				"Category": ["DnD", "Timegated"],
 				"NPCs": ["Copernicus Glyph"],
 				"Output": "Sculpting chisel",
 				"Not F2P": true
@@ -167043,7 +167179,7 @@
 				"Not F2P": true
 			},
 			"Circus rewards*": {
-				"Category": ["DnD", "Not Daily DnD"],
+				"Category": ["DnD", "Timegated"],
 				"Chunks": ["Balthazar Beauregard's Big Top Bonanza"],
 				"Output": "Circus rewards",
 				"Not F2P": true
@@ -167057,7 +167193,7 @@
 				"Category": ["DnD Flash Events", "DnD"]
 			},
 			"Memory of Nomad rewards*": {
-				"Category": ["DnD", "Not Daily DnD"],
+				"Category": ["DnD", "Timegated"],
 				"Chunks": ["Death's Office"],
 				"Tasks": {
 					"~|Nomad's Elegy|~ Complete the quest": "Quest"
@@ -167066,13 +167202,13 @@
 				"Not F2P": true
 			},
 			"Penguin Hide and Seek rewards*": {
-				"Category": ["DnD", "Not Daily DnD"],
+				"Category": ["DnD", "Timegated"],
 				"Chunks": ["10291"],
 				"Output": "Penguin Hide and Seek rewards",
 				"Not F2P": true
 			},
 			"Rush of Blood rewards*": {
-				"Category": ["DnD", "Not Daily DnD"],
+				"Category": ["DnD", "Timegated"],
 				"Chunks": ["8755"],
 				"Tasks": {
 					"~|Plague's End|~ Complete the quest": "Quest"
@@ -167081,7 +167217,7 @@
 				"Not F2P": true
 			},
 			"Wisps of the Grove rewards*": {
-				"Category": ["DnD", "Not Daily DnD"],
+				"Category": ["DnD", "Timegated"],
 				"Chunks": ["7728", "7729-1"],
 				"Output": "Wisps of the Grove rewards",
 				"Not F2P": true
@@ -168063,7 +168199,7 @@
 				"Output": "Wicked hood"
 			},
 			"Non-Daily DnD": {
-				"Category": ["Not Daily DnD"]
+				"Category": ["DnD", "Timegated"]
 			},
 			"Repair the Menaphos cactus patch": {
 				"Chunks": ["12587-2"],
@@ -178032,15 +178168,6 @@
 			"Obtain a warped stone": {
 				"Items": ["Warped stone"]
 			},
-			"Buy an incomplete hydrix": {
-				"Chunks": ["Death's Office"],
-				"Requirements": {
-					"Slayer": 45,
-					"Combat": 50
-				},
-				"Monsters": ["AnyBoss[+]"],
-				"Output": "Incomplete hydrix"
-			},
 			"Create an ascension crossbow": {
 				"NPCs": ["Ocellus"],
 				"Items": ["Dragon crossbow*", "Ascension signet I*", "Ascension signet II*", "Ascension signet III*", "Ascension signet IV*", "Ascension signet V*", "Ascension signet VI*", "Ascension shard*"],
@@ -178306,6 +178433,9 @@
 			"Open a enchanted gem pack*": {
 				"Items": ["Enchanted gem pack*"],
 				"Output": "Enchanted gem"
+			},
+			"Obtain reaper points": {
+				"Items": ["Reaper points"]
 			}
 		}
 	},
@@ -213959,7 +214089,8 @@
 				"5": {
 					"Object": {
 						"Tree": 1,
-						"Oak": 6
+						"Oak": 6,
+						"Crashed star": 1
 					},
 					"Monster": {
 						"Wolf (Havenhythe)": 1
@@ -297579,6 +297710,11 @@
 					"~|Monkey Madness|~ Complete the quest": "Quest"
 				}]
 			},
+			"Death's Store": {
+				"Death's Office": [{
+					"Obtain reaper points": "Nonskill"
+				}]
+			},
 			"Dodgy Derek's Dirty Deals": {
 				"Thieves' Guild": [{
 					"~|Lost Her Marbles (miniquest)|~ Complete the quest": "Quest"
@@ -298216,7 +298352,8 @@
 			{ "color": "#000000", "x": 3050, "y": 3941 },
 			{ "color": "#000000", "x": 3092, "y": 3963 },
 			{ "color": "#D1B771", "x": 4221, "y": 3475 },
-			{ "color": "#D1B771", "x": 4372, "y": 3161 }
+			{ "color": "#D1B771", "x": 4372, "y": 3161 },
+			{ "color": "#D1B771", "x": 4400, "y": 3398 }
 		],
 		"Evil Trees": [
 			{ "color": "#8B4513", "x": 2757, "y": 3429 },
@@ -300990,6 +301127,10 @@
 		"Dealga's Scimitar Emporium": {
 			"Dragon scimitar": true,
 			"Off-hand dragon scimitar": true
+		},
+		"Death's Store": {
+			"Death notes": true,
+			"Incomplete hydrix": true
 		},
 		"Diango's Toy Store": {
 			"Toy horsey (brown)": true,
@@ -314949,6 +315090,73 @@
 				},
 				"Raw lobster": {
 					"1": "Always"
+				}
+			},
+			"Fishing Trawler loot": {
+				"Broken arrow": {
+					"1-2": "1/16"
+				},
+				"Broken glass": {
+					"1-2": "1/16"
+				},
+				"Broken staff": {
+					"1-2": "1/16"
+				},
+				"Buttons": {
+					"1-2": "1/16"
+				},
+				"Damaged armour": {
+					"1-2": "1/16"
+				},
+				"Old boot": {
+					"1-2": "1/16"
+				},
+				"Empty pot": {
+					"1-2": "1/16"
+				},
+				"Rusty sword": {
+					"1-2": "1/16"
+				},
+				"Raw shrimps": {
+					"1": "1/30"
+				},
+				"Raw anchovies": {
+					"1": "1/4"
+				},
+				"Raw sardine": {
+					"1": "1/10"
+				},
+				"Shimmering shell": {
+					"1": "1/100"
+				},
+				"Glistening shell": {
+					"1": "1/100"
+				},
+				"Shark's tooth": {
+					"1": "1/100"
+				}
+			},
+			"Fishing Trawler loot+": {
+				"Oyster": {
+					"1-2": "1/16"
+				},
+				"Opal": {
+					"1-2": "1/16"
+				},
+				"Sapphire": {
+					"1-2": "1/16"
+				},
+				"Bucket of sand": {
+					"1-2": "1/16"
+				},
+				"Seaweed": {
+					"1-2": "1/16"
+				},
+				"Silver stone spirit": {
+					"1-2": "1/16"
+				},
+				"Gold stone spirit": {
+					"1-2": "1/16"
 				}
 			}
 		},

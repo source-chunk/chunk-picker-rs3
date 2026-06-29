@@ -537,7 +537,7 @@ let ruleNames = {
 	"Archaeology Collections": "Must fill out all Archaeology collections<span class='rule-asterisk noscroll'>*</span>",
 	"Universal Tertiary": "Allow universal tertiary drops (mimic tokens, effigies, spirit gems) to count towards chunk tasks<span class='rule-asterisk noscroll'>†</span>",
 	"Breeding Log": "Must fill out the Player-Owned Farm and Player-Owned Ranch breeding logs<span class='rule-asterisk noscroll'>*</span>",
-    "Minigame": "Allow items obtained from minigame rewards to count towards chunk tasks",
+    "Minigame": "Allow rewards obtained from and actvities inside minigames to count towards chunk tasks",
 	"DnD": "Allow items obtained from and activities inside Distractions and Diversions to count towards chunk tasks<span class='rule-asterisk noscroll'>*</span>",
 	"Not Daily DnD": "Include Distractions and Diversions that reset less frequently than once a day<span class='rule-asterisk noscroll'>†</span>",
 	"DnD Flash Events": "Include Demon Flash Mobs and Goblin Raids<span class='rule-asterisk noscroll'>*</span>",
@@ -892,7 +892,6 @@ let ruleStructure = {
         "Secondary Primary": true,
         "Boosting": true,
 		"XP Lamps": true,
-		"DnD": ["Not Daily DnD", "DnD Flash Events"],
 		"Daemonheim training": true,
 		"Daemonheim tasks": true,
 		"PortSkills": true,
@@ -971,8 +970,6 @@ let ruleStructure = {
 	},
     "Item Sources": {
         "Boss": ["Hard Mode Bosses"],
-		"PVP": true,
-		"Minigame": true,
         "Rare Drop": ["KeyItem Bosses"],
         "RDT": true,
         "Crystal chests": true,
@@ -984,7 +981,10 @@ let ruleStructure = {
         "All Shops": true
     },
     "Miscellaneous": {
-        "Hero Items": true,
+        "Minigame": true,
+		"DnD": ["DnD Flash Events"],
+		"PVP": true,
+		"Hero Items": true,
 		"Permanent Unlockables": true,
 		"Group Content": true,
 		"Speedrunning": true,
