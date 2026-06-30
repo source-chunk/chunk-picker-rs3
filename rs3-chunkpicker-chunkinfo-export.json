@@ -125,6 +125,17 @@
 				"priority": 105,
 				"NoPet": true
 			},
+			"Hand in an Agility-related ~|City Quest|~ item": {
+				"Category": ["Secondary Primary"],
+				"Items": ["City Quest Agility Item[+]"],
+				"Level": 1,
+				"Tasks": {
+					"Unlock City Quests*": "Nonskill"
+				},
+				"Primary": true,
+				"priority": 10000,
+				"NoPet": true
+			},
 			"Cross the ~|crumbling wall (Falador)|~": {
 				"Category": ["Shortcut"],
 				"Objects": ["Crumbling wall (Falador)"],
@@ -16110,6 +16121,17 @@
 				"Priority": 1000,
 				"Not F2P": true
 			},
+			"Hand in a Cooking-related ~|City Quest|~ item": {
+				"Category": ["Secondary Primary"],
+				"Items": ["City Quest Cooking Item[+]"],
+				"Level": 1,
+				"Tasks": {
+					"Unlock City Quests*": "Nonskill"
+				},
+				"Primary": true,
+				"priority": 1001,
+				"NoPet": true
+			},
 			"Cook ~|barley malt|~": {
 				"Category": ["Token"],
 				"Items": ["Barley*"],
@@ -19225,6 +19247,17 @@
 				"Priority": 107,
 				"Not F2P": true
 			},
+			"Hand in a Crafting-related ~|City Quest|~ item": {
+				"Category": ["Secondary Primary"],
+				"Items": ["City Quest Crafting Item[+]"],
+				"Level": 1,
+				"Tasks": {
+					"Unlock City Quests*": "Nonskill"
+				},
+				"Primary": true,
+				"priority": 1001,
+				"NoPet": true
+			},
 			"Craft a ~|cracked mining urn (unfired)|~": {
 				"Items": ["Soft clay*"],
 				"Level": 2,
@@ -22187,11 +22220,10 @@
 				"Not F2P": true
 			},
 			"Craft a ~|slayer helmet|~": {
-				"Items": ["Spiny helmet*", "Face mask*", "Earmuffs*", "Nose peg*", "Black mask*"],
+				"Items": ["Spiny helmet*", "Face mask*", "Earmuffs*", "Nose peg*", "Black mask*", "Slayer points"],
 				"Level": 55,
 				"Tasks": {
-					"~|Smoking Kills|~ Complete the quest": "Quest",
-					"SlayerPointMasters[+]": "Slayer"
+					"~|Smoking Kills|~ Complete the quest": "Quest"
 				},
 				"Output": "Slayer helmet",
 				"Primary": true,
@@ -22199,11 +22231,10 @@
 				"Not F2P": true
 			},
 			"Craft a ~|full slayer helmet|~": {
-				"Items": ["Slayer helmet*", "Hexcrest*", "Focus sight*"],
+				"Items": ["Slayer helmet*", "Hexcrest*", "Focus sight*", "Slayer points"],
 				"Level": 55,
 				"Tasks": {
-					"~|Smoking Kills|~ Complete the quest": "Quest",
-					"SlayerPointMasters[+]": "Slayer"
+					"~|Smoking Kills|~ Complete the quest": "Quest"
 				},
 				"Output": "Full slayer helmet",
 				"Primary": true,
@@ -22211,11 +22242,10 @@
 				"Not F2P": true
 			},
 			"Craft a ~|mighty slayer helmet|~": {
-				"Items": ["Full slayer helmet*"],
+				"Items": ["Full slayer helmet*", "Slayer points"],
 				"Level": 55,
 				"Tasks": {
-					"~|Smoking Kills|~ Complete the quest": "Quest",
-					"SlayerPointMasters[+]": "Slayer"
+					"~|Smoking Kills|~ Complete the quest": "Quest"
 				},
 				"Output": "Mighty slayer helmet",
 				"Primary": true,
@@ -22223,11 +22253,10 @@
 				"Not F2P": true
 			},
 			"Craft a ~|corrupted slayer helmet|~": {
-				"Items": ["Mighty slayer helmet*", "Corrupted gem*"],
+				"Items": ["Mighty slayer helmet*", "Corrupted gem*", "Slayer points"],
 				"Level": 55,
 				"Tasks": {
-					"~|Smoking Kills|~ Complete the quest": "Quest",
-					"SlayerPointMasters[+]": "Slayer"
+					"~|Smoking Kills|~ Complete the quest": "Quest"
 				},
 				"Output": "Corrupted slayer helmet",
 				"Primary": true,
@@ -31642,6 +31671,17 @@
 				"Primary": true,
 				"Priority": 27
 			},
+			"Hand in a Farming-related ~|City Quest|~ item": {
+				"Category": ["Secondary Primary"],
+				"Items": ["City Quest Farming Item[+]"],
+				"Level": 1,
+				"Tasks": {
+					"Unlock City Quests*": "Nonskill"
+				},
+				"Primary": true,
+				"priority": 1001,
+				"NoPet": true
+			},
 			"Grow ~|marigolds|~": {
 				"Category": ["Normal Farming"],
 				"Items": ["Marigold seed"],
@@ -37665,6 +37705,17 @@
 				"Primary": true,
 				"Priority": 1006
 			},
+			"Hand in a Fishing-related ~|City Quest|~ item": {
+				"Category": ["Secondary Primary"],
+				"Items": ["City Quest Fishing Item[+]"],
+				"Level": 1,
+				"Tasks": {
+					"Unlock City Quests*": "Nonskill"
+				},
+				"Primary": true,
+				"priority": 1007,
+				"NoPet": true
+			},
 			"Build a ~|mounted sea bass|~": {
 				"Category": ["InsidePOH Primary"],
 				"Chunks": ["Player-owned house"],
@@ -41488,6 +41539,17 @@
 				"Priority": 1000,
 				"NoPet": true
 			},
+			"Hand in a Herblore-related ~|City Quest|~ item": {
+				"Category": ["Secondary Primary"],
+				"Items": ["Desert goat horn*"],
+				"Level": 1,
+				"Tasks": {
+					"Unlock City Quests*": "Nonskill"
+				},
+				"Primary": true,
+				"priority": 1001,
+				"NoPet": true
+			},
 			"Mix an ~|attack mix|~": {
 				"Items": ["AttackPotion[+]*", "Roe*"],
 				"Level": 4,
@@ -44217,6 +44279,17 @@
 				"Level": 1,
 				"Priamry": 1,
 				"Priority": 1000,
+				"NoPet": true
+			},
+			"Hand in a Hunter-related ~|City Quest|~ item": {
+				"Category": ["Secondary Primary"],
+				"Items": ["Locust meat*"],
+				"Level": 1,
+				"Tasks": {
+					"Unlock City Quests*": "Nonskill"
+				},
+				"Primary": true,
+				"priority": 1001,
 				"NoPet": true
 			},
 			"Catch a ~|common kebbit|~": {
@@ -52574,6 +52647,17 @@
 				"Output": "Expansive pouch",
 				"Primary": false,
 				"Priority": 1015
+			},
+			"Hand in a Mining-related ~|City Quest|~ item": {
+				"Category": ["Secondary Primary"],
+				"Items": ["Sandstone (1kg)*"],
+				"Level": 1,
+				"Tasks": {
+					"Unlock City Quests*": "Nonskill"
+				},
+				"Primary": true,
+				"priority": 1016,
+				"NoPet": true
 			},
 			"Mine with an ~|iron pickaxe|~": {
 				"Items": ["Ironpick[+]"],
@@ -61273,6 +61357,29 @@
 				"Primary": true,
 				"Priority": 30
 			},
+			"Hand in a Slayer-related ~|City Quest|~ item": {
+				"Category": ["Secondary Primary"],
+				"Items": ["City Quest Slayer Item[+]*"],
+				"Level": 1,
+				"Tasks": {
+					"Unlock City Quests*": "Nonskill"
+				},
+				"Primary": true,
+				"priority": 1001,
+				"NoPet": true
+			},
+			"Complete a monster-related ~|City Quest|~": {
+				"Category": ["Secondary Primary"],
+				"Monsters": ["City Quest Monster[+]*"],
+				"Level": 1,
+				"Tasks": {
+					"Unlock City Quests*": "Nonskill"
+				},
+				"Primary": true,
+				"priority": 1001,
+				"Output": "Slayer points",
+				"NoPet": true
+			},
 			"Buy and use a slayer lamp using ~|Hunter Marks|~": {
 				"Category": ["XP Lamps"],
 				"Chunks": ["15683-1"],
@@ -61405,7 +61512,8 @@
 				"Priority": 2,
 				"Skills": {
 					"Combat": 3
-				}
+				},
+				"Output": "Slayer points"
 			},
 			"Receive a slayer assignment from ~|Vannaka|~": {
 				"NPCs": ["Vannaka"],
@@ -61414,7 +61522,8 @@
 				"Priority": 3,
 				"Skills": {
 					"Combat": 30
-				}
+				},
+				"Output": "Slayer points"
 			},
 			"Receive a slayer assignment from ~|The Raptor|~": {
 				"NPCs": ["The Raptor#Fort Forinthry"],
@@ -61426,7 +61535,8 @@
 				},
 				"Tasks": {
 					"~|Unwelcome Guests|~ Complete the quest": "Quest"
-				}
+				},
+				"Output": "Slayer points"
 			},
 			"Receive a slayer assignment from ~|Mazchna|~": {
 				"NPCs": ["Mazchna"],
@@ -61435,7 +61545,8 @@
 				"Priority": 4,
 				"Skills": {
 					"Combat": 50
-				}
+				},
+				"Output": "Slayer points"
 			},
 			"Receive a slayer assignment from ~|Chaeldar|~": {
 				"NPCs": ["Chaeldar"],
@@ -61444,7 +61555,8 @@
 				"Priority": 5,
 				"Skills": {
 					"Combat": 75
-				}
+				},
+				"Output": "Slayer points"
 			},
 			"Receive a slayer assignment from ~|Sumona|~": {
 				"NPCs": ["Sumona"],
@@ -61456,7 +61568,8 @@
 				"Priority": 1,
 				"Skills": {
 					"Combat": 90
-				}
+				},
+				"Output": "Slayer points"
 			},
 			"Receive a ~|Reaper assignment|~": {
 				"NPCs": ["Death"],
@@ -61475,7 +61588,8 @@
 				"Priority": 1,
 				"Skills": {
 					"Combat": 100
-				}
+				},
+				"Output": "Slayer points"
 			},
 			"Receive a slayer assignment from ~|Kuradal|~": {
 				"NPCs": ["Kuradal"],
@@ -61484,7 +61598,8 @@
 				"Priority": 1,
 				"Skills": {
 					"Combat": 110
-				}
+				},
+				"Output": "Slayer points"
 			},
 			"Receive a slayer assignment from ~|Morvran|~": {
 				"NPCs": ["Morvran"],
@@ -61493,7 +61608,8 @@
 				"Priority": 2,
 				"Skills": {
 					"Combat": 120
-				}
+				},
+				"Output": "Slayer points"
 			},
 			"Receive a slayer assignment from ~|Mandrith|~": {
 				"NPCs": ["Mandrith"],
@@ -61512,7 +61628,8 @@
 				"Priority": 1,
 				"Skills": {
 					"Combat": 120
-				}
+				},
+				"Output": "Slayer points"
 			},
 			"Wield a ~|mirror shield|~": {
 				"Category": ["Slayer Equipment"],
@@ -64310,6 +64427,17 @@
 				"Output": "Exquisite smithing urn",
 				"Primary": true,
 				"Priority": 1008
+			},
+			"Hand in a Smithing-related ~|City Quest|~ item": {
+				"Category": ["Secondary Primary"],
+				"Items": ["City Quest Smithing Item[+]*"],
+				"Level": 1,
+				"Tasks": {
+					"Unlock City Quests*": "Nonskill"
+				},
+				"Primary": true,
+				"priority": 1009,
+				"NoPet": true
 			},
 			"Forge a ~|bronze spear|~": {
 				"Items": ["Bronze bar*"],
@@ -71196,6 +71324,17 @@
 				"Level": 1,
 				"Primary": true,
 				"Priority": 2
+			},
+			"Hand in a Woodcutting-related ~|City Quest|~ item": {
+				"Category": ["Secondary Primary"],
+				"Items": ["City Quest Woodcutting Item[+]*"],
+				"Level": 1,
+				"Tasks": {
+					"Unlock City Quests*": "Nonskill"
+				},
+				"Primary": true,
+				"priority": 1001,
+				"NoPet": true
 			},
 			"Cut ~|oak logs|~": {
 				"Level": 10,
@@ -128022,12 +128161,12 @@
 				"Description": "Access the fourth room in the Sunken Pyramid.",
 				"BaseQuest": "Completionist achievements",
 				"Chunks": ["12073"],
+				"Items": ["Slayer points"],
 				"Skills": {
 					"Slayer": 99
 				},
 				"Tasks": {
-					"~|Eclipse of the Heart|~ Complete the quest": "Quest",
-					"SlayerPointMasters[+]": "Slayer"
+					"~|Eclipse of the Heart|~ Complete the quest": "Quest"
 				},
 				"RuneScore": 15,
 				"Not F2P": true,
@@ -128554,7 +128693,8 @@
 				"BaseQuest": "Completionist achievements",
 				"Chunks": ["7729-1", "12586", "14131", "Borehole", "Sanctum of Rebirth", "Zamorakian Undercity", "Temple of Aminishi", "The Shadow Reef", "Dragonkin Laboratory", "Exiled Kalphite Hive", "Senntisten", "Ancient Prison", "Mazcab"],
 				"Tasks": {
-					"~|Eclipse of the Heart|~ Complete the quest": "Quest"
+					"~|Eclipse of the Heart|~ Complete the quest": "Quest",
+					"All Bosses": "Nonskill"
 				},
 				"Monsters": [
 					"Giant mole",
@@ -128823,9 +128963,9 @@
 				"Category": ["Comp achievements", "Trim achievements"],
 				"Description": "Unlock the ability to craft all Slayer items.",
 				"BaseQuest": "Completionist achievements",
+				"Items": ["Slayer points"],
 				"Tasks": {
-					"~|Smoking Kills|~ Complete the quest": "Quest",
-					"SlayerPointMasters[+]": "Slayer"
+					"~|Smoking Kills|~ Complete the quest": "Quest"
 				},
 				"RuneScore": 30,
 				"Not F2P": true
@@ -135253,6 +135393,18 @@
 				"Chunks": ["12587-1"],
 				"Not F2P": true
 			},
+			"~|Exploration achievements#Menaphos|~ 'Phite for Your Right V": {
+				"Category": ["Misc achievements"],
+				"Description": "Complete 200 city quests from an inhabitant of Menaphos.",
+				"BaseQuest": "Exploration achievements",
+				"Items": ["City Quest Item[+]"],
+				"Monsters": ["City Quest Monster[+]"],
+				"Tasks": {
+					"Unlock City Quests*": "Nonskill"
+				},
+				"RuneScore": 75,
+				"Not F2P": true
+			},
 			"~|Exploration achievements#Menaphos|~ Reputation - Boys to Menaphites": {
 				"Category": ["Misc achievements"],
 				"Description": "Earn tier 10 Menaphos reputation.",
@@ -139504,8 +139656,11 @@
 				"Category": ["Menaphos Log"],
 				"Label": "Menaphos Journal",
 				"Tasks": {
-					"~|The Jack of Spades|~ Complete the quest": "Quest"
+					"~|The Jack of Spades|~ Complete the quest": "Quest",
+					"Unlock City Quests*": "Nonskill"
 				},
+				"Items": ["City Quest Item[+]"],
+				"Monsters": ["City Quest Monster[+]"],
 				"Items": ["Menaphos journal"]
 			},
 			"Find a ~|scabarite crystal|~": {
@@ -139524,8 +139679,46 @@
 				"Category": ["Menaphos Log"],
 				"Label": "Menaphos Journal",
 				"Tasks": {
-					"~|The Jack of Spades|~ Complete the quest": "Quest"
+					"~|The Jack of Spades|~ Complete the quest": "Quest",
+					"Unlock City Quests*": "Nonskill"
 				},
+				"Items": ["City Quest Item[+]"],
+				"Monsters": ["City Quest Monster[+]"],
+				"NPCs": [
+					"Charnak",
+					"Imhapi",
+					"Danwad",
+					"Amunemen",
+					"Danlozep",
+					"Khattak",
+					"Inhamat",
+					"Anhur",
+					"Hieromonk Genjiro",
+					"Lisah",
+					"Khamud",
+					"Banafrit",
+					"Captain Harkhebi",
+					"Menhet",
+					"Kharl",
+					"Jhonathan",
+					"Adoratrice Haruko",
+					"Nefertari",
+					"Malala",
+					"Sabrina",
+					"Sensei Hakase",
+					"Psamtik",
+					"Sennefer",
+					"Henutemipet",
+					"Pia",
+					"Tefibi",
+					"Hisamitsu",
+					"Septhys",
+					"Strykewyrm Jim",
+					"Lokkir",
+					"Makhredrup",
+					"Olivia",
+					"Rhotep"
+				],
 				"Items": ["Menaphos journal"]
 			},
 			"Find ~|Apmeken amethyst|~": {
@@ -153863,18 +154056,12 @@
 				"Requirements": {
 					"Slayer": 90
 				},
-				"Tasks": {
-					"SlayerPointMasters[+]": "Slayer"
-				},
 				"Not F2P": true
 			},
 			"Learn how to craft ~|rings of slaying|~": {
 				"Category": ["Permanent Unlockables"],
 				"Label": "Permanent Unlockables",
 				"Items": ["Learn how to craft rings of slaying"],
-				"Tasks": {
-					"SlayerPointMasters[+]": "Slayer"
-				},
 				"Not F2P": true
 			},
 			"Learn how to fletch ~|broad bolts|~ and arrows": {
@@ -153882,8 +154069,7 @@
 				"Items": ["Learn how to fletch broad arrows/bolts"],
 				"Label": "Permanent Unlockables",
 				"Tasks": {
-					"~|Smoking Kills|~ Complete the quest": "Quest",
-					"SlayerPointMasters[+]": "Slayer"
+					"~|Smoking Kills|~ Complete the quest": "Quest"
 				},
 				"Not F2P": true
 			},
@@ -153891,9 +154077,6 @@
 				"Category": ["Permanent Unlockables"],
 				"Label": "Permanent Unlockables",
 				"Items": ["Learn how to deliver killing blows quicker"],
-				"Tasks": {
-					"SlayerPointMasters[+]": "Slayer"
-				},
 				"Not F2P": true
 			},
 			"Learn how to fuse rings to a ~|full Slayer helmet|~": {
@@ -153901,8 +154084,7 @@
 				"Label": "Permanent Unlockables",
 				"Items": ["Learn how to fuse rings to full Slayer helmets"],
 				"Tasks": {
-					"~|Smoking Kills|~ Complete the quest": "Quest",
-					"SlayerPointMasters[+]": "Slayer"
+					"~|Smoking Kills|~ Complete the quest": "Quest"
 				},
 				"Not F2P": true
 			},
@@ -153911,8 +154093,7 @@
 				"Label": "Permanent Unlockables",
 				"Items": ["Learn how to craft Slayer helmets"],
 				"Tasks": {
-					"~|Smoking Kills|~ Complete the quest": "Quest",
-					"SlayerPointMasters[+]": "Slayer"
+					"~|Smoking Kills|~ Complete the quest": "Quest"
 				},
 				"Not F2P": true
 			},
@@ -153920,53 +154101,35 @@
 				"Category": ["Permanent Unlockables"],
 				"Label": "Permanent Unlockables",
 				"Items": ["Learn new technique to attack ice strykewyrms"],
-				"Tasks": {
-					"SlayerPointMasters[+]": "Slayer"
-				},
 				"Not F2P": true
 			},
 			"Learn how to how to attach a ~|bonecrusher|~ to your tool belt": {
 				"Category": ["Permanent Unlockables"],
 				"Label": "Permanent Unlockables",
-				"Tasks": {
-					"SlayerPointMasters[+]": "Slayer"
-				},
 				"Items": ["Bonecrusher"],
 				"Not F2P": true
 			},
 			"Learn how to how to attach a ~|herbicide|~ to your tool belt": {
 				"Category": ["Permanent Unlockables"],
 				"Label": "Permanent Unlockables",
-				"Tasks": {
-					"SlayerPointMasters[+]": "Slayer"
-				},
 				"Items": ["Herbicide"],
 				"Not F2P": true
 			},
 			"Learn how to how to attach a ~|seedicide|~ to your tool belt": {
 				"Category": ["Permanent Unlockables"],
 				"Label": "Permanent Unlockables",
-				"Tasks": {
-					"SlayerPointMasters[+]": "Slayer"
-				},
 				"Items": ["Seedicide"],
 				"Not F2P": true
 			},
 			"Learn how to how to attach a ~|charming imp|~ to your tool belt": {
 				"Category": ["Permanent Unlockables"],
 				"Label": "Permanent Unlockables",
-				"Tasks": {
-					"SlayerPointMasters[+]": "Slayer"
-				},
 				"Items": ["Charming imp"],
 				"Not F2P": true
 			},
 			"Learn how to how to attach a ~|gold accumulator|~ to your tool belt": {
 				"Category": ["Permanent Unlockables"],
 				"Label": "Permanent Unlockables",
-				"Tasks": {
-					"SlayerPointMasters[+]": "Slayer"
-				},
 				"Items": ["Gold accumulator"],
 				"Not F2P": true
 			},
@@ -153974,9 +154137,6 @@
 				"Category": ["Permanent Unlockables"],
 				"Label": "Permanent Unlockables",
 				"Items": ["Fourth Room in Sunken Pyramid"],
-				"Tasks": {
-					"SlayerPointMasters[+]": "Slayer"
-				},
 				"Not F2P": true
 			},
 			"Unlock the ~|high-level Runespan portal|~": {
@@ -178436,6 +178596,46 @@
 			},
 			"Obtain reaper points": {
 				"Items": ["Reaper points"]
+			},
+			"Obtain slayer points": {
+				"Items": ["Slayer points"]
+			},
+			"Unlock City Quests*": {
+				"NPCs": [
+					"Charnak",
+					"Imhapi",
+					"Danwad",
+					"Amunemen",
+					"Danlozep",
+					"Khattak",
+					"Inhamat",
+					"Anhur",
+					"Hieromonk Genjiro",
+					"Lisah",
+					"Khamud",
+					"Banafrit",
+					"Captain Harkhebi",
+					"Menhet",
+					"Kharl",
+					"Jhonathan",
+					"Adoratrice Haruko",
+					"Nefertari",
+					"Malala",
+					"Sabrina",
+					"Sensei Hakase",
+					"Psamtik",
+					"Sennefer",
+					"Henutemipet",
+					"Pia",
+					"Tefibi",
+					"Hisamitsu",
+					"Septhys",
+					"Strykewyrm Jim",
+					"Lokkir",
+					"Makhredrup",
+					"Olivia",
+					"Rhotep"
+				]
 			}
 		}
 	},
@@ -194483,7 +194683,8 @@
 						"Fishing spot (big fishing net, harpoon)": 3,
 						"Fishing spot (cage, harpoon)": 2,
 						"Fishing spot (small fishing net, bait)": 2,
-						"Fruit tree patch": 1
+						"Fruit tree patch": 1,
+						"Fish stall": 1
 					},
 					"NPC": {
 						"Hickton": 1,
@@ -200492,7 +200693,7 @@
 				"Aminishi gem trader": 1,
 				"Menaphite guard": 7,
 				"Olivia": 1,
-				"strykewyrm Jim": 1,
+				"Strykewyrm Jim": 1,
 				"Adoratrice Haruko": 1,
 				"Hieromonk Genjiro": 1,
 				"Hisamitsu": 1,
@@ -230289,6 +230490,68 @@
 			],
 			"ChocolateCake[+]": ["Chocolate cake", "Chocolate slice"],
 			"ChocolateSaturday[+]": ["Chocolate Saturday", "Premade Chocolate Saturday"],
+			"City Quest Item[+]": [
+				"Acadia logs",
+				"Yew logs",
+				"Magic logs",
+				"Avantoe seed",
+				"Barberry seed",
+				"Dwarf weed seed",
+				"Fly trap seed",
+				"Irit seed",
+				"Lantadyme seed",
+				"Prickly pear seed",
+				"Rosemary seed",
+				"Snapdragon seed",
+				"Sunchoke seed",
+				"Torstol seed",
+				"Banana",
+				"Flax",
+				"Potato cactus",
+				"Strawberry",
+				"Choc ice",
+				"Lobster",
+				"Rocktail",
+				"Shark",
+				"Raw beltfish",
+				"Raw catfish",
+				"Ball of wool",
+				"Strip of cloth",
+				"Molten glass",
+				"Papyrus",
+				"Air battlestaff",
+				"Earth battlestaff",
+				"Fire battlestaff",
+				"Water battlestaff",
+				"Battlestaff",
+				"Candle",
+				"Black candle",
+				"Bones",
+				"Bat bones",
+				"Big bones",
+				"Dragon bones",
+				"Wolf bones",
+				"Bronze bar",
+				"Mithril bar",
+				"Coal",
+				"Copper ore",
+				"Sandstone (1kg)",
+				"Desert goat horn",
+				"Honeycomb",
+				"Locust meat",
+				"Damaged chitin",
+				"Spirit kalphite pouch",
+				"Rope",
+				"Waterskin"
+			],
+			"City Quest Agility Item[+]": ["Rope", "Waterskin"],
+			"City Quest Cooking Item[+]": ["Coc ice", "Lobster", "Rocktail", "Shark"],
+			"City Quest Crafting Item[+]": ["Ball of wool", "Strip of cloth", "Molten glass", "Papyrus", "Air battlestaff", "Earth battlestaff", "Fire batllestaff", "Water battlestaff", "Battlestaff", "Candle", "Black candle"],
+			"City Quest Farming Item[+]": ["Avantoe seed", "Barberry seed", "Dwarf weed seed", "Fly trap seed", "Irit seed", "Lantadyme seed", "Prickly pear seed", "Rosemary seed", "Snapdragon seed", "Sunchoke seed", "Torstol seed", "Banana", "Flax", "Potato cactus", "Potato", "Strawberry", "Honeycomb"],
+			"City Quest Fishing Item[+]": ["Raw beltfish", "Raw catfish"],
+			"City Quest Slayer Item[+]": ["Bones", "Bat bones", "Big bones", "Dragon bones", "Wolf bones", "Damaged chitin", "Spirit kalphite pouch"],
+			"City Quest Smithing Item[+]": ["Bronze bar", "Mithril bar", "Coal", "Copper ore"],
+			"City Quest Woodcutting Item[+]": ["Acadia logs", "Yew logs", "Magic logs"],
 			"ClockTowerCooling[+]": ["Bucket of water", "Jug of water", "Bowl of water", "Ice gloves"],
 			"Cockatricepouch[+]": [
 				"Spirit cockatrice pouch",
@@ -235140,6 +235403,15 @@
 			"Chocolate[+]": "Any cooking chocolate",
 			"ChocolateCake[+]": "Any variant of chocolate cake",
 			"ChocolateSaturday[+]": "Any type of Chocolate Saturday",
+			"City Quest Item[+]": "Any item that may be handed in for a Menaphos City Quest",
+			"City Quest Agility Item[+]": "Any item that may be handed in for an Agility-related Menaphos City Quest",
+			"City Quest Cooking Item[+]": "Any item that may be handed in for an Cooking-related Menaphos City Quest",
+			"City Quest Crafting Item[+]": "Any item that may be handed in for an Crafting-related Menaphos City Quest",
+			"City Quest Farming Item[+]": "Any item that may be handed in for an Farming-related Menaphos City Quest",
+			"City Quest Fishing Item[+]": "Any item that may be handed in for an Fishing-related Menaphos City Quest",
+			"City Quest Slayer Item[+]": "Any item that may be handed in for an Slayer-related Menaphos City Quest",
+			"City Quest Smithing Item[+]": "Any item that may be handed in for an Smithing-related Menaphos City Quest",
+			"City Quest Woodcutting Item[+]": "Any item that may be handed in for an Woodcutting-related Menaphos City Quest",
 			"Cockatricepouch[+]": "Any spirit cockatrice variant",
 			"CombatPotion[+]": "Any combat potion",
 			"CombatRobes[+]": "Any piece of combat robes",
@@ -236099,6 +236371,65 @@
 				"Woman (Lumbridge Market)",
 				"Villager (Wendlewick)"
 			],
+			"City Quest Monster[+]": [
+				"Bandit Brawler",
+				"Bandit champion",
+				"Bandit king",
+				"Bandit looter",
+				"Brigand",
+				"Guard Bandit",
+				"Ugthanki",
+				"Crocodile",
+				"Crocodile akh",
+				"Billy Goat",
+				"Goat",
+				"Lizard",
+				"Corrupted lizard",
+				"Desert lizard",
+				"Small lizard",
+				"Desert snake",
+				"Corrupted kalphite guardian",
+				"Corrupted kalphite marauder",
+				"Exiled kalphite guardian",
+				"Exiled kalphite marauder",
+				"Exiled kalphite paragon",
+				"Exiled Kalphite Queen",
+				"Exiled kalphite soldier",
+				"Exiled kalphite worker",
+				"Kalphite Guardian",
+				"Kalphite King",
+				"Kalphite Queen",
+				"Kalphite Soldier",
+				"Kalphite Worker",
+				"Guard (Desert Mining Camp)",
+				"Menaphite Thug",
+				"Mummy (Jaldraocht Pyramid)",
+				"Mummy (Sophanem)",
+				"Mummy (Ullek)",
+				"Mummy ashes",
+				"Mummy warrior",
+				"Plague frog",
+				"Locust lancer",
+				"Locust ranger",
+				"Locust rider",
+				"Scabaras locust",
+				"Scabaras mage",
+				"Elite Profane Scabarite",
+				"Corrupted scarab",
+				"Giant scarab",
+				"Profane Scabarite",
+				"Scarabs",
+				"Scarab akh",
+				"Scarab swarm",
+				"Scarab larva",
+				"Scabaras ranger",
+				"Scabaras lancer",
+				"Small scarab",
+				"Corrupted scorpion",
+				"Scorpion",
+				"Poison scorpion",
+				"Vulture"
+			],
 			"Corrupted devourers[+]": [
 				"Amascut, the Devourer",
 				"The Magister",
@@ -236539,6 +236870,7 @@
 			"AnyUndead[+]": "Any undead",
 			"BlackKnightMonsters[+]": "Any monster that gives white knight ranking",
 			"Citizen[+]": "Any pickpocketable citizen",
+			"City Quest Monster[+]": "Any monster that can be assigned in a Menaphos City Quest",
 			"Corrupted devourers": "Any corrupted creature or soul devourer",
 			"Farmer[+]": "Any pickpocketable farmer",
 			"Fremennik citizen[+]": "Any pickpocketable citizen of Rellekka",
@@ -237066,21 +237398,7 @@
 			"NatureAccess[+]": ["Access the nature rune temple with a talisman*", "Access the nature rune temple through the abyss*"],
 			"RecipeSub[+]": ["~|Recipe for Disaster: Freeing the Mountain Dwarf|~ Complete the subquest", "~|Recipe for Disaster: Freeing the Goblin Generals|~ Complete the subquest", "~|Recipe for Disaster: Freeing Pirate Pete|~ Complete the subquest", "~|Recipe for Disaster: Freeing the Lumbridge Sage|~ Complete the subquest", "~|Recipe for Disaster: Freeing Evil Dave|~ Complete the subquest", "~|Recipe for Disaster: Freeing King Awowogei|~ Complete the subquest", "~|Recipe for Disaster: Freeing Sir Amik Varze|~ Complete the subquest", "~|Recipe for Disaster: Freeing Skrach Uglogwee|~ Complete the subquest"],
 			"RuneMechanics3a1[+]": ["~|Rune Mechanics|~ 3a1a", "~|Rune Mechanics|~ 3a1b"],
-			"Setting Up[+]": ["Easy Daemonheim tasks ~|Setting Up|~ (Crafting)*", "Easy Daemonheim tasks ~|Setting Up|~ (Smithing)*"],
-			"SlayerPointMasters[+]": [
-					"Receive a slayer assignment from ~|Jacquelyn|~",
-					"Receive a slayer assignment from ~|The Raptor|~",
-					"Receive a slayer assignment from ~|Vannaka|~",
-					"Receive a slayer assignment from ~|Mazchna|~",
-					"Receive a slayer assignment from ~|Chaeldar|~",
-					"Receive a slayer assignment from ~|Sumona|~",
-					"Receive a slayer assignment from ~|Duradel|~",
-					"Receive a slayer assignment from ~|Kuradal|~",
-					"Receive a slayer assignment from ~|Morvran|~",
-					"Receive a slayer assignment from ~|Laniakea|~",
-					"Receive a slayer assignment from ~|Mandrith|~",
-					"Receive a ~|Reaper assignment|~"
-			],			
+			"Setting Up[+]": ["Easy Daemonheim tasks ~|Setting Up|~ (Crafting)*", "Easy Daemonheim tasks ~|Setting Up|~ (Smithing)*"],		
 			"SoulUrnI[+]": ["Fill the Soul Urn using lesser communion rituals", "Fill the Soul Urn for Kili's Knowledge I (combat)"],
 			"SoulUrnII[+]": ["Fill the Soul Urn using lesser communion rituals", "Fill the Soul Urn for Kili's Knowledge II (combat)"],
 			"SoulUrnIII[+]": ["Fill the Soul Urn using lesser communion rituals", "Fill the Soul Urn for Kili's Knowledge III (combat)"],
@@ -237330,7 +237648,6 @@
 			"RecipeSub[+]": "Any of the Recipe for Disaster subquests aside from Another Cook's Quest",
 			"RuneMechanics3a1[+]": "Craft steam runes through either the fire altar or the water altar",
 			"Setting Up[+]": "Any subtask for Setting Up",
-			"SlayerPointMasters[+]": "Any slayer master that may award you Slayer Points",
 			"SoulUrnI[+]": "Any way to fill soul urn I",
 			"SoulUrnII[+]": "Any way to fill soul urn II",
 			"SoulUrnIII[+]": "Any way to fill soul urn III",
@@ -297974,22 +298291,52 @@
 				}]
 			},
 			"Slayer Equipment": {
-				"8755": [],
-				"11310-1": [],
-				"11575-1": [],
-				"12342-1": [],
-				"11310-1": [],
-				"12850-1": [],
-				"13358-1": [],
-				"13878-1": [],
-				"15939-1": [],
-				"16704-1": [],
-				"11310-1": [],
-				"Zanaris": [],
-				"Edgeville Dungeon": [],
-				"Ancient Cavern": [],
+				"8755": [{
+					"Obtain slayer points": "Nonskill"
+				}],
+				"11310-1": [{
+					"Obtain slayer points": "Nonskill"
+				}],
+				"11575-1": [{
+					"Obtain slayer points": "Nonskill"
+				}],
+				"12342-1": [{
+					"Obtain slayer points": "Nonskill"
+				}],
+				"11310-1": [{
+					"Obtain slayer points": "Nonskill"
+				}],
+				"12850-1": [{
+					"Obtain slayer points": "Nonskill"
+				}],
+				"13358-1": [{
+					"Obtain slayer points": "Nonskill"
+				}],
+				"13878-1": [{
+					"Obtain slayer points": "Nonskill"
+				}],
+				"15939-1": [{
+					"Obtain slayer points": "Nonskill"
+				}],
+				"16704-1": [{
+					"Obtain slayer points": "Nonskill"
+				}],
+				"11310-1": [{
+					"Obtain slayer points": "Nonskill"
+				}],
+				"Zanaris": [{
+					"Obtain slayer points": "Nonskill"
+				}],
+				"Edgeville Dungeon": [{
+					"Obtain slayer points": "Nonskill"
+				}],
+				"Ancient Cavern": [{
+					"Obtain slayer points": "Nonskill"
+				}],
 				"13111": [{
 					"~|Unwelcome Guests|~ Complete the quest": "Quest"
+				}, {
+					"Obtain slayer points": "Nonskill"
 				}]
 			},
 			"Slayer Equipment^Unfinished broad bolts": {
@@ -321880,6 +322227,9 @@
 				},
 				"Reaper points": {
 					"1": "Always"
+				},
+				"Slayer points": {
+					"22": "Always"
 				}
 			},
 			"'Rum'-pumped crab": {
