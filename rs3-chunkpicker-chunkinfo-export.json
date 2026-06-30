@@ -196469,7 +196469,8 @@
 					},
 					"Shop": {
 						"Carwen Essencebinder Magical Runes Shop": true,
-						"Gaius's Two-Handed Shop": true
+						"Gaius's Two-Handed Shop": true,
+						"Slayer Equipment": true
 					},
 					"Quest": {
 						"Animal Magnetism":  "step",
