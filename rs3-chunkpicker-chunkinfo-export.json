@@ -88,7 +88,7 @@
 				"NoPet": true
 			},
 			"Read an Agility tome from ~|Temple Trekking|~": {
-				"Category": ["DnD"],
+				"Category": ["Minigame"],
 				"Chunks": ["Temple Trekking Routes"],
 				"Level": 1,
 				"Primary": true,
@@ -123,6 +123,17 @@
 				"Output": "Dinosaur 'propellant'",
 				"Primary": true,
 				"priority": 105,
+				"NoPet": true
+			},
+			"Hand in an Agility-related ~|City Quest|~ item": {
+				"Category": ["Secondary Primary"],
+				"Items": ["City Quest Agility Item[+]"],
+				"Level": 1,
+				"Tasks": {
+					"Unlock City Quests*": "Nonskill"
+				},
+				"Primary": true,
+				"priority": 10000,
 				"NoPet": true
 			},
 			"Cross the ~|crumbling wall (Falador)|~": {
@@ -10660,7 +10671,7 @@
 				"Not F2P": true
 			},
 			"Construct a ~|God Statue|~": {
-				"Category": ["DnD", "Not Daily DnD"],
+				"Category": ["DnD", "Timegated"],
 				"NPCs": ["Copernicus Glyph"],
 				"Level": 1,
 				"Primary": true,
@@ -16110,6 +16121,17 @@
 				"Priority": 1000,
 				"Not F2P": true
 			},
+			"Hand in a Cooking-related ~|City Quest|~ item": {
+				"Category": ["Secondary Primary"],
+				"Items": ["City Quest Cooking Item[+]"],
+				"Level": 1,
+				"Tasks": {
+					"Unlock City Quests*": "Nonskill"
+				},
+				"Primary": true,
+				"priority": 1001,
+				"NoPet": true
+			},
 			"Cook ~|barley malt|~": {
 				"Category": ["Token"],
 				"Items": ["Barley*"],
@@ -19130,6 +19152,18 @@
 				"Priority": 42,
 				"Not F2P": true
 			},
+			"Repair the net on the ~|Fishing Trawler|~": {
+				"Category": ["Minigame"],
+				"Level": 1,
+				"Items": ["Rope*"],
+				"Chunks": ["10545"],
+				"Objects": ["Trawler net"],
+				"SkillsNeeded": {
+					"Fishing": 15
+				},
+				"Primary": true,
+				"Priority": 2
+			},
 			"Chisel ~|pure essence fragments|~": {
 				"Category": ["Token"],
 				"Items": ["Pure essence*"],
@@ -19212,6 +19246,17 @@
 				"Output": "Binding rod",
 				"Priority": 107,
 				"Not F2P": true
+			},
+			"Hand in a Crafting-related ~|City Quest|~ item": {
+				"Category": ["Secondary Primary"],
+				"Items": ["City Quest Crafting Item[+]"],
+				"Level": 1,
+				"Tasks": {
+					"Unlock City Quests*": "Nonskill"
+				},
+				"Primary": true,
+				"priority": 1001,
+				"NoPet": true
 			},
 			"Craft a ~|cracked mining urn (unfired)|~": {
 				"Items": ["Soft clay*"],
@@ -22175,11 +22220,10 @@
 				"Not F2P": true
 			},
 			"Craft a ~|slayer helmet|~": {
-				"Items": ["Spiny helmet*", "Face mask*", "Earmuffs*", "Nose peg*", "Black mask*"],
+				"Items": ["Spiny helmet*", "Face mask*", "Earmuffs*", "Nose peg*", "Black mask*", "Slayer points"],
 				"Level": 55,
 				"Tasks": {
-					"~|Smoking Kills|~ Complete the quest": "Quest",
-					"SlayerPointMasters[+]": "Slayer"
+					"~|Smoking Kills|~ Complete the quest": "Quest"
 				},
 				"Output": "Slayer helmet",
 				"Primary": true,
@@ -22187,11 +22231,10 @@
 				"Not F2P": true
 			},
 			"Craft a ~|full slayer helmet|~": {
-				"Items": ["Slayer helmet*", "Hexcrest*", "Focus sight*"],
+				"Items": ["Slayer helmet*", "Hexcrest*", "Focus sight*", "Slayer points"],
 				"Level": 55,
 				"Tasks": {
-					"~|Smoking Kills|~ Complete the quest": "Quest",
-					"SlayerPointMasters[+]": "Slayer"
+					"~|Smoking Kills|~ Complete the quest": "Quest"
 				},
 				"Output": "Full slayer helmet",
 				"Primary": true,
@@ -22199,11 +22242,10 @@
 				"Not F2P": true
 			},
 			"Craft a ~|mighty slayer helmet|~": {
-				"Items": ["Full slayer helmet*"],
+				"Items": ["Full slayer helmet*", "Slayer points"],
 				"Level": 55,
 				"Tasks": {
-					"~|Smoking Kills|~ Complete the quest": "Quest",
-					"SlayerPointMasters[+]": "Slayer"
+					"~|Smoking Kills|~ Complete the quest": "Quest"
 				},
 				"Output": "Mighty slayer helmet",
 				"Primary": true,
@@ -22211,11 +22253,10 @@
 				"Not F2P": true
 			},
 			"Craft a ~|corrupted slayer helmet|~": {
-				"Items": ["Mighty slayer helmet*", "Corrupted gem*"],
+				"Items": ["Mighty slayer helmet*", "Corrupted gem*", "Slayer points"],
 				"Level": 55,
 				"Tasks": {
-					"~|Smoking Kills|~ Complete the quest": "Quest",
-					"SlayerPointMasters[+]": "Slayer"
+					"~|Smoking Kills|~ Complete the quest": "Quest"
 				},
 				"Output": "Corrupted slayer helmet",
 				"Primary": true,
@@ -24375,6 +24416,14 @@
 				"Objects": ["CraftingFurnace[+]"],
 				"Primary": true,
 				"Priority": 4
+			},
+			"Craft a ~|shark's tooth necklace|~": {
+				"Items": ["Thread*", "Shark's tooth*"],
+				"Level": 91,
+				"Output": "Shark's tooth necklace",
+				"Primary": true,
+				"Priority": 5,
+				"Not F2P": true
 			},
 			"Feed a ~|starved ancient effigy|~ with crafting": {
 				"Items": ["Starved ancient effigy (agility/crafting)"],
@@ -31616,11 +31665,22 @@
 				"Not F2P": true
 			},
 			"Harvest seaweed for the ~|Giant Oyster|~": {
-				"Category": ["DnD", "Not Daily DnD"],
+				"Category": ["DnD", "Timegated"],
 				"Chunks": ["Sunken Tutorial Island"],
 				"Level": 1,
 				"Primary": true,
 				"Priority": 27
+			},
+			"Hand in a Farming-related ~|City Quest|~ item": {
+				"Category": ["Secondary Primary"],
+				"Items": ["City Quest Farming Item[+]"],
+				"Level": 1,
+				"Tasks": {
+					"Unlock City Quests*": "Nonskill"
+				},
+				"Primary": true,
+				"priority": 1001,
+				"NoPet": true
 			},
 			"Grow ~|marigolds|~": {
 				"Category": ["Normal Farming"],
@@ -35486,14 +35546,14 @@
 				"Priority": 14
 			},
 			"Partake in ~|Herby Werby|~": {
-				"Category": ["DnD", "Not Daily DnD"],
+				"Category": ["DnD", "Timegated"],
 				"Chunks": ["Herby Werby"],
 				"Level": 1,
 				"Primary": true,
 				"Priority": 16
 			},
 			"Read a Firemaking tome from ~|Temple Trekking|~": {
-				"Category": ["DnD"],
+				"Category": ["Minigame"],
 				"Chunks": ["Temple Trekking Routes"],
 				"Level": 1,
 				"Primary": true,
@@ -37545,14 +37605,14 @@
 				"Priority": 101
 			},
 			"Fish for sea cucumber for the ~|Giant Oyster|~": {
-				"Category": ["DnD", "Not Daily DnD"],
+				"Category": ["DnD", "Timegated"],
 				"Chunks": ["Sunken Tutorial Island"],
 				"Level": 1,
 				"Primary": true,
 				"Priority": 102
 			},
 			"Read a Fishing tome from ~|Temple Trekking|~": {
-				"Category": ["DnD"],
+				"Category": ["Minigame"],
 				"Chunks": ["Temple Trekking Routes"],
 				"Level": 1,
 				"Primary": true,
@@ -37645,6 +37705,17 @@
 				"Primary": true,
 				"Priority": 1006
 			},
+			"Hand in a Fishing-related ~|City Quest|~ item": {
+				"Category": ["Secondary Primary"],
+				"Items": ["City Quest Fishing Item[+]"],
+				"Level": 1,
+				"Tasks": {
+					"Unlock City Quests*": "Nonskill"
+				},
+				"Primary": true,
+				"priority": 1007,
+				"NoPet": true
+			},
 			"Build a ~|mounted sea bass|~": {
 				"Category": ["InsidePOH Primary"],
 				"Chunks": ["Player-owned house"],
@@ -37714,6 +37785,25 @@
 				"Primary": true,
 				"Output": "Raw anchovies",
 				"Priority": 1
+			},
+			"Catch fish with the ~|Fishing Trawler|~": {
+				"Category": ["Minigame"],
+				"Level": 15,
+				"Chunks": ["10545"],
+				"Objects": ["Trawler net"],
+				"Primary": true,
+				"Output": "Fishing Trawler loot",
+				"Priority": 2
+			},
+			"Catch improved ~|Fishing Trawler|~ after the Elite Ardougne achievements.": {
+				"Category": ["Minigame"],
+				"Level": 15,
+				"Chunks": ["10545"],
+				"Objects": ["Trawler net"],
+				"Items": ["Ardougne cloak 4"],
+				"Primary": true,
+				"Output": "Fishing Trawler loot+",
+				"Priority": 2
 			},
 			"Catch a ~|raw mackerel|~": {
 				"Level": 16,
@@ -37793,6 +37883,15 @@
 				"Output": "Raw tuna",
 				"Priority": 1
 			},
+			"Catch tuna with the ~|Fishing Trawler|~": {
+				"Category": ["Minigame"],
+				"Level": 35,
+				"Chunks": ["10545"],
+				"Objects": ["Trawler net"],
+				"Primary": true,
+				"Output": "Raw tuna",
+				"Priority": 2
+			},
 			"Catch ~|golden tuna eggs|~": {
 				"Level": 35,
 				"Objects": ["Fishing spot (cage, harpoon)"],
@@ -37836,6 +37935,15 @@
 				"Primary": true,
 				"Output": "Raw lobster loot",
 				"Priority": 1
+			},
+			"Catch lobster with the ~|Fishing Trawler|~": {
+				"Category": ["Minigame"],
+				"Level": 40,
+				"Chunks": ["10545"],
+				"Objects": ["Trawler net"],
+				"Primary": true,
+				"Output": "Raw lobster",
+				"Priority": 2
 			},
 			"Fish with a ~|viridian skillchompa|~": {
 				"Items": ["Viridian skillchompa"],
@@ -37884,6 +37992,15 @@
 				"Primary": true,
 				"Output": "Raw swordfish loot",
 				"Priority": 1
+			},
+			"Catch swordfish with the ~|Fishing Trawler|~": {
+				"Category": ["Minigame"],
+				"Level": 50,
+				"Chunks": ["10545"],
+				"Objects": ["Trawler net"],
+				"Primary": true,
+				"Output": "Raw swordfish",
+				"Priority": 2
 			},
 			"Catch two ~|raw swordfish|~ in one attempt": {
 				"Category": ["Multiple Agility"],
@@ -38118,6 +38235,15 @@
 				"Output": "Raw shark loot",
 				"Priority": 1
 			},
+			"Catch shark with the ~|Fishing Trawler|~": {
+				"Category": ["Minigame"],
+				"Level": 76,
+				"Chunks": ["10545"],
+				"Objects": ["Trawler net"],
+				"Primary": true,
+				"Output": "Raw shark",
+				"Priority": 2
+			},
 			"Catch two ~|raw sharks|~ in one attempt": {
 				"Category": ["Multiple Agility"],
 				"Level": 76,
@@ -38152,6 +38278,15 @@
 				"Primary": false,
 				"Priority": 2
 			},
+			"Catch sea turtle with the ~|Fishing Trawler|~": {
+				"Category": ["Minigame"],
+				"Level": 79,
+				"Chunks": ["10545"],
+				"Objects": ["Trawler net"],
+				"Primary": true,
+				"Output": "Raw sea turtle",
+				"Priority": 3
+			},
 			"Catch a ~|raw great white shark|~": {
 				"Items": ["Great white shark bait"],
 				"Level": 80,
@@ -38183,6 +38318,15 @@
 				"Primary": true,
 				"Output": "Raw manta ray",
 				"Priority": 1
+			},
+			"Catch manta ray with the ~|Fishing Trawler|~": {
+				"Category": ["Minigame"],
+				"Level": 81,
+				"Chunks": ["10545"],
+				"Objects": ["Trawler net"],
+				"Primary": true,
+				"Output": "Raw manta ray",
+				"Priority": 2
 			},
 			"Catch a ~|raw giant crayfish|~": {
 				"Level": 82,
@@ -38356,12 +38500,21 @@
 				"Primary": true,
 				"Priority": 1
 			},
+			"Catch tiger shark with the ~|Fishing Trawler|~": {
+				"Category": ["Minigame"],
+				"Level": 95,
+				"Chunks": ["10545"],
+				"Objects": ["Trawler net"],
+				"Primary": true,
+				"Output": "Raw tiger shark",
+				"Priority": 1
+			},
 			"Catch a ~|medium crystal urchin|~": {
 				"Level": 95,
 				"Objects": ["Fishing spot (waterfall)"],
 				"Primary": true,
 				"Output": "Medium Urchin Loot",
-				"Priority": 1
+				"Priority": 2
 			},
 			"Feed a ~|sated ancient effigy|~ with fishing": {
 				"Items": ["Sated ancient effigy (farming/fishing)"],
@@ -41328,7 +41481,7 @@
 				"Priority": 1000
 			},
 			"Partake in ~|Herby Werby|~": {
-				"Category": ["DnD", "Not Daily DnD"],
+				"Category": ["DnD", "Timegated"],
 				"Chunks": ["Herby Werby"],
 				"Level": 1,
 				"Primary": true,
@@ -41384,6 +41537,17 @@
 				"Level": 1,
 				"Priamry": 1,
 				"Priority": 1000,
+				"NoPet": true
+			},
+			"Hand in a Herblore-related ~|City Quest|~ item": {
+				"Category": ["Secondary Primary"],
+				"Items": ["Desert goat horn*"],
+				"Level": 1,
+				"Tasks": {
+					"Unlock City Quests*": "Nonskill"
+				},
+				"Primary": true,
+				"priority": 1001,
 				"NoPet": true
 			},
 			"Mix an ~|attack mix|~": {
@@ -44115,6 +44279,17 @@
 				"Level": 1,
 				"Priamry": 1,
 				"Priority": 1000,
+				"NoPet": true
+			},
+			"Hand in a Hunter-related ~|City Quest|~ item": {
+				"Category": ["Secondary Primary"],
+				"Items": ["Locust meat*"],
+				"Level": 1,
+				"Tasks": {
+					"Unlock City Quests*": "Nonskill"
+				},
+				"Primary": true,
+				"priority": 1001,
 				"NoPet": true
 			},
 			"Catch a ~|common kebbit|~": {
@@ -52380,7 +52555,7 @@
 				"Priority": 1002
 			},
 			"Read a Mining tome from ~|Temple Trekking|~": {
-				"Category": ["DnD"],
+				"Category": ["Minigame"],
 				"Chunks": ["Temple Trekking Routes"],
 				"Level": 1,
 				"Primary": true,
@@ -52472,6 +52647,17 @@
 				"Output": "Expansive pouch",
 				"Primary": false,
 				"Priority": 1015
+			},
+			"Hand in a Mining-related ~|City Quest|~ item": {
+				"Category": ["Secondary Primary"],
+				"Items": ["Sandstone (1kg)*"],
+				"Level": 1,
+				"Tasks": {
+					"Unlock City Quests*": "Nonskill"
+				},
+				"Primary": true,
+				"priority": 1016,
+				"NoPet": true
 			},
 			"Mine with an ~|iron pickaxe|~": {
 				"Items": ["Ironpick[+]"],
@@ -56034,7 +56220,7 @@
 				"Priority": 57
 			},
 			"Pray at a ~|God Statue|~": {
-				"Category": ["DnD", "Not Daily DnD"],
+				"Category": ["DnD", "Timegated"],
 				"NPCs": ["Copernicus Glyph"],
 				"Level": 1,
 				"Primary": true,
@@ -61171,6 +61357,29 @@
 				"Primary": true,
 				"Priority": 30
 			},
+			"Hand in a Slayer-related ~|City Quest|~ item": {
+				"Category": ["Secondary Primary"],
+				"Items": ["City Quest Slayer Item[+]*"],
+				"Level": 1,
+				"Tasks": {
+					"Unlock City Quests*": "Nonskill"
+				},
+				"Primary": true,
+				"priority": 1001,
+				"NoPet": true
+			},
+			"Complete a monster-related ~|City Quest|~": {
+				"Category": ["Secondary Primary"],
+				"Monsters": ["City Quest Monster[+]*"],
+				"Level": 1,
+				"Tasks": {
+					"Unlock City Quests*": "Nonskill"
+				},
+				"Primary": true,
+				"priority": 1001,
+				"Output": "Slayer points",
+				"NoPet": true
+			},
 			"Buy and use a slayer lamp using ~|Hunter Marks|~": {
 				"Category": ["XP Lamps"],
 				"Chunks": ["15683-1"],
@@ -61303,7 +61512,8 @@
 				"Priority": 2,
 				"Skills": {
 					"Combat": 3
-				}
+				},
+				"Output": "Slayer points"
 			},
 			"Receive a slayer assignment from ~|Vannaka|~": {
 				"NPCs": ["Vannaka"],
@@ -61312,7 +61522,8 @@
 				"Priority": 3,
 				"Skills": {
 					"Combat": 30
-				}
+				},
+				"Output": "Slayer points"
 			},
 			"Receive a slayer assignment from ~|The Raptor|~": {
 				"NPCs": ["The Raptor#Fort Forinthry"],
@@ -61324,7 +61535,8 @@
 				},
 				"Tasks": {
 					"~|Unwelcome Guests|~ Complete the quest": "Quest"
-				}
+				},
+				"Output": "Slayer points"
 			},
 			"Receive a slayer assignment from ~|Mazchna|~": {
 				"NPCs": ["Mazchna"],
@@ -61333,7 +61545,8 @@
 				"Priority": 4,
 				"Skills": {
 					"Combat": 50
-				}
+				},
+				"Output": "Slayer points"
 			},
 			"Receive a slayer assignment from ~|Chaeldar|~": {
 				"NPCs": ["Chaeldar"],
@@ -61342,7 +61555,8 @@
 				"Priority": 5,
 				"Skills": {
 					"Combat": 75
-				}
+				},
+				"Output": "Slayer points"
 			},
 			"Receive a slayer assignment from ~|Sumona|~": {
 				"NPCs": ["Sumona"],
@@ -61354,7 +61568,8 @@
 				"Priority": 1,
 				"Skills": {
 					"Combat": 90
-				}
+				},
+				"Output": "Slayer points"
 			},
 			"Receive a ~|Reaper assignment|~": {
 				"NPCs": ["Death"],
@@ -61373,7 +61588,8 @@
 				"Priority": 1,
 				"Skills": {
 					"Combat": 100
-				}
+				},
+				"Output": "Slayer points"
 			},
 			"Receive a slayer assignment from ~|Kuradal|~": {
 				"NPCs": ["Kuradal"],
@@ -61382,7 +61598,8 @@
 				"Priority": 1,
 				"Skills": {
 					"Combat": 110
-				}
+				},
+				"Output": "Slayer points"
 			},
 			"Receive a slayer assignment from ~|Morvran|~": {
 				"NPCs": ["Morvran"],
@@ -61391,7 +61608,8 @@
 				"Priority": 2,
 				"Skills": {
 					"Combat": 120
-				}
+				},
+				"Output": "Slayer points"
 			},
 			"Receive a slayer assignment from ~|Mandrith|~": {
 				"NPCs": ["Mandrith"],
@@ -61410,7 +61628,8 @@
 				"Priority": 1,
 				"Skills": {
 					"Combat": 120
-				}
+				},
+				"Output": "Slayer points"
 			},
 			"Wield a ~|mirror shield|~": {
 				"Category": ["Slayer Equipment"],
@@ -61634,14 +61853,14 @@
 				"NoPet": true
 			},
 			"Defeat fanatics after building a ~|God Statue|~": {
-				"Category": ["DnD", "Not Daily DnD"],
+				"Category": ["DnD", "Timegated"],
 				"NPCs": ["Copernicus Glyph"],
 				"Level": 1,
 				"Primary": true,
 				"Priority": 13
 			},
 			"Read a Slayer tome from ~|Temple Trekking|~": {
-				"Category": ["DnD"],
+				"Category": ["Minigame"],
 				"Chunks": ["Temple Trekking Routes"],
 				"Level": 1,
 				"Primary": true,
@@ -64208,6 +64427,17 @@
 				"Output": "Exquisite smithing urn",
 				"Primary": true,
 				"Priority": 1008
+			},
+			"Hand in a Smithing-related ~|City Quest|~ item": {
+				"Category": ["Secondary Primary"],
+				"Items": ["City Quest Smithing Item[+]*"],
+				"Level": 1,
+				"Tasks": {
+					"Unlock City Quests*": "Nonskill"
+				},
+				"Primary": true,
+				"priority": 1009,
+				"NoPet": true
 			},
 			"Forge a ~|bronze spear|~": {
 				"Items": ["Bronze bar*"],
@@ -69243,7 +69473,7 @@
 				"Not F2P": true
 			},
 			"Read a Thieving tome from ~|Temple Trekking|~": {
-				"Category": ["DnD"],
+				"Category": ["Minigame"],
 				"Chunks": ["Temple Trekking Routes"],
 				"Level": 1,
 				"Primary": true,
@@ -71095,6 +71325,17 @@
 				"Primary": true,
 				"Priority": 2
 			},
+			"Hand in a Woodcutting-related ~|City Quest|~ item": {
+				"Category": ["Secondary Primary"],
+				"Items": ["City Quest Woodcutting Item[+]*"],
+				"Level": 1,
+				"Tasks": {
+					"Unlock City Quests*": "Nonskill"
+				},
+				"Primary": true,
+				"priority": 1001,
+				"NoPet": true
+			},
 			"Cut ~|oak logs|~": {
 				"Level": 10,
 				"Objects": ["Oak"],
@@ -71822,7 +72063,7 @@
 				"Not F2P": true
 			},
 			"Read a Woodcutting tome from ~|Temple Trekking|~": {
-				"Category": ["DnD"],
+				"Category": ["Minigame"],
 				"Chunks": ["Temple Trekking Routes"],
 				"Level": 1,
 				"Primary": true,
@@ -107396,7 +107637,7 @@
 				"RuneScore": 5
 			},
 			"~|Ardougne Achievements#Easy|~ Gone Fishing": {
-				"Description": "Attempt to board the Fishing Trawler.",
+				"Description": "Go out fishing on the Fishing Trawler.",
 				"Chunks": ["10545"],
 				"BaseQuest": "Ardougne Achievements",
 				"Category": ["Show Diary Tasks"],
@@ -127774,11 +128015,8 @@
 				"Category": ["Comp achievements", "Trim achievements"],
 				"Description": "Unlock all permanent effects from Death's Store.",
 				"BaseQuest": "Completionist achievements",
+				"Items": ["Reaper points"],
 				"Chunks": ["Death's Office"],
-				"Monsters": ["AnyBoss[+]"],
-				"Skills": {
-					"Combat": 50
-				},
 				"RuneScore": 75,
 				"Not F2P": true
 			},
@@ -127923,12 +128161,12 @@
 				"Description": "Access the fourth room in the Sunken Pyramid.",
 				"BaseQuest": "Completionist achievements",
 				"Chunks": ["12073"],
+				"Items": ["Slayer points"],
 				"Skills": {
 					"Slayer": 99
 				},
 				"Tasks": {
-					"~|Eclipse of the Heart|~ Complete the quest": "Quest",
-					"SlayerPointMasters[+]": "Slayer"
+					"~|Eclipse of the Heart|~ Complete the quest": "Quest"
 				},
 				"RuneScore": 15,
 				"Not F2P": true,
@@ -128455,7 +128693,8 @@
 				"BaseQuest": "Completionist achievements",
 				"Chunks": ["7729-1", "12586", "14131", "Borehole", "Sanctum of Rebirth", "Zamorakian Undercity", "Temple of Aminishi", "The Shadow Reef", "Dragonkin Laboratory", "Exiled Kalphite Hive", "Senntisten", "Ancient Prison", "Mazcab"],
 				"Tasks": {
-					"~|Eclipse of the Heart|~ Complete the quest": "Quest"
+					"~|Eclipse of the Heart|~ Complete the quest": "Quest",
+					"All Bosses": "Nonskill"
 				},
 				"Monsters": [
 					"Giant mole",
@@ -128724,9 +128963,9 @@
 				"Category": ["Comp achievements", "Trim achievements"],
 				"Description": "Unlock the ability to craft all Slayer items.",
 				"BaseQuest": "Completionist achievements",
+				"Items": ["Slayer points"],
 				"Tasks": {
-					"~|Smoking Kills|~ Complete the quest": "Quest",
-					"SlayerPointMasters[+]": "Slayer"
+					"~|Smoking Kills|~ Complete the quest": "Quest"
 				},
 				"RuneScore": 30,
 				"Not F2P": true
@@ -135154,6 +135393,18 @@
 				"Chunks": ["12587-1"],
 				"Not F2P": true
 			},
+			"~|Exploration achievements#Menaphos|~ 'Phite for Your Right V": {
+				"Category": ["Misc achievements"],
+				"Description": "Complete 200 city quests from an inhabitant of Menaphos.",
+				"BaseQuest": "Exploration achievements",
+				"Items": ["City Quest Item[+]"],
+				"Monsters": ["City Quest Monster[+]"],
+				"Tasks": {
+					"Unlock City Quests*": "Nonskill"
+				},
+				"RuneScore": 75,
+				"Not F2P": true
+			},
 			"~|Exploration achievements#Menaphos|~ Reputation - Boys to Menaphites": {
 				"Category": ["Misc achievements"],
 				"Description": "Earn tier 10 Menaphos reputation.",
@@ -135965,7 +136216,7 @@
 				"Not F2P": true
 			},
 			"~|Activities achievements#Distractions & Diversions|~ A Bit TOO Familiar": {
-				"Category": ["Misc achievements", "DnD", "Not Daily DnD"],
+				"Category": ["Misc achievements", "DnD", "Timegated"],
 				"Description": "Play as the following familiars in Familiarisation",
 				"BaseQuest": "Activities achievements",
 				"Objects": ["Small obelisk"],
@@ -135985,7 +136236,7 @@
 				"Not F2P": true
 			},
 			"~|Activities achievements#Distractions & Diversions|~ Bone I Fired": {
-				"Category": ["Misc achievements", "DnD", "Not Daily DnD"],
+				"Category": ["Misc achievements", "DnD", "Timegated"],
 				"Description": "Defeat the Skeletal Horror whilst wielding Zanik's crossbow and using bone bolts.",
 				"BaseQuest": "Activities achievements",
 				"Chunks": ["13366-1"],
@@ -136009,7 +136260,7 @@
 				"Not F2P": true
 			},
 			"~|Activities achievements#Distractions & Diversions|~ Regard My Shards": {
-				"Category": ["Misc achievements", "DnD", "Not Daily DnD"],
+				"Category": ["Misc achievements", "DnD", "Timegated"],
 				"Description": "Collect 60 shards in Familiarisation",
 				"BaseQuest": "Activities achievements",
 				"Objects": ["Small obelisk"],
@@ -136017,7 +136268,7 @@
 				"Not F2P": true
 			},
 			"~|Activities achievements#Distractions & Diversions|~ Reverent Sculptor": {
-				"Category": ["Misc achievements", "DnD", "Not Daily DnD"],
+				"Category": ["Misc achievements", "DnD", "Timegated"],
 				"Description": "Unlock all 5 of the god chisels from the sculpting god statues and then talk to Copernicus Glyph.",
 				"BaseQuest": "Activities achievements",
 				"Chunks": ["8244"],
@@ -136029,7 +136280,7 @@
 				"Not F2P": true
 			},
 			"~|Activities achievements#Distractions & Diversions|~ The Distracted": {
-				"Category": ["Misc achievements", "DnD", "Not Daily DnD", "No RuneScore"],
+				"Category": ["Misc achievements", "DnD", "Timegated", "No RuneScore"],
 				"Description": "Obtain the Distracted title by completing distractions and diversions.",
 				"BaseQuest": "Activities achievements",
 				"NPCs": ["Cornelius Glyph"],
@@ -136047,7 +136298,7 @@
 				"Not F2P": true
 			},
 			"~|Activities achievements#Distractions & Diversions|~ Cracking Open A Cold One": {
-				"Category": ["Misc achievements", "DnD", "Not Daily DnD"],
+				"Category": ["Misc achievements", "DnD", "Timegated"],
 				"Description": "Fill an effigy with knowledge, then crack it open.",
 				"BaseQuest": "Activities achievements",
 				"Chunks": ["Effigy Incubator"],
@@ -136058,7 +136309,7 @@
 				"Not F2P": true
 			},
 			"~|Activities achievements#Distractions & Diversions|~ Cracking Open A Four Pack": {
-				"Category": ["Misc achievements", "DnD", "Not Daily DnD"],
+				"Category": ["Misc achievements", "DnD", "Timegated"],
 				"Description": "Fill and crack open at least one of each effigy.",
 				"BaseQuest": "Activities achievements",
 				"Chunks": ["Effigy Incubator"],
@@ -136069,7 +136320,7 @@
 				"Not F2P": true
 			},
 			"~|Activities achievements#Distractions & Diversions|~ Effigy Scavenger": {
-				"Category": ["Misc achievements", "DnD", "Not Daily DnD"],
+				"Category": ["Misc achievements", "DnD", "Timegated"],
 				"Description": "Fill and crack open at least one of each effigy.",
 				"BaseQuest": "Activities achievements",
 				"Chunks": ["Effigy Incubator"],
@@ -136080,7 +136331,7 @@
 				"Not F2P": true
 			},
 			"~|Activities achievements#Distractions & Diversions|~ I C U K G P": {
-				"Category": ["Misc achievements", "DnD", "Not Daily DnD"],
+				"Category": ["Misc achievements", "DnD", "Timegated"],
 				"Description": "Find 12 penguin spies and the polar bear in a single week and report your findings.",
 				"BaseQuest": "Activities achievements",
 				"Chunks": ["10290"],
@@ -136091,7 +136342,7 @@
 				"Not F2P": true
 			},
 			"~|Activities achievements#Distractions & Diversions|~ Ultimate Birdwatcher": {
-				"Category": ["Misc achievements", "DnD", "Not Daily DnD"],
+				"Category": ["Misc achievements", "DnD", "Timegated"],
 				"Description": "Have at least 50 Penguin Points at once.",
 				"BaseQuest": "Activities achievements",
 				"Chunks": ["10290"],
@@ -139405,8 +139656,11 @@
 				"Category": ["Menaphos Log"],
 				"Label": "Menaphos Journal",
 				"Tasks": {
-					"~|The Jack of Spades|~ Complete the quest": "Quest"
+					"~|The Jack of Spades|~ Complete the quest": "Quest",
+					"Unlock City Quests*": "Nonskill"
 				},
+				"Items": ["City Quest Item[+]"],
+				"Monsters": ["City Quest Monster[+]"],
 				"Items": ["Menaphos journal"]
 			},
 			"Find a ~|scabarite crystal|~": {
@@ -139425,8 +139679,46 @@
 				"Category": ["Menaphos Log"],
 				"Label": "Menaphos Journal",
 				"Tasks": {
-					"~|The Jack of Spades|~ Complete the quest": "Quest"
+					"~|The Jack of Spades|~ Complete the quest": "Quest",
+					"Unlock City Quests*": "Nonskill"
 				},
+				"Items": ["City Quest Item[+]"],
+				"Monsters": ["City Quest Monster[+]"],
+				"NPCs": [
+					"Charnak",
+					"Imhapi",
+					"Danwad",
+					"Amunemen",
+					"Danlozep",
+					"Khattak",
+					"Inhamat",
+					"Anhur",
+					"Hieromonk Genjiro",
+					"Lisah",
+					"Khamud",
+					"Banafrit",
+					"Captain Harkhebi",
+					"Menhet",
+					"Kharl",
+					"Jhonathan",
+					"Adoratrice Haruko",
+					"Nefertari",
+					"Malala",
+					"Sabrina",
+					"Sensei Hakase",
+					"Psamtik",
+					"Sennefer",
+					"Henutemipet",
+					"Pia",
+					"Tefibi",
+					"Hisamitsu",
+					"Septhys",
+					"Strykewyrm Jim",
+					"Lokkir",
+					"Makhredrup",
+					"Olivia",
+					"Rhotep"
+				],
 				"Items": ["Menaphos journal"]
 			},
 			"Find ~|Apmeken amethyst|~": {
@@ -146112,15 +146404,13 @@
 			"(Soul Reaper) Obtain ~|death notes|~": {
 				"Category": ["Untracked Uniques", "Untracked Uniques Combat"],
 				"Label": "Untracked Combat Uniques",
-				"Chunks": ["Death's Office"],
-				"Monsters": ["AnyBoss[+]"],
+				"Items": ["Death notes"],
 				"Not F2P": true
 			},
 			"(Soul Reaper) Obtain an ~|incomplete hydrix|~": {
 				"Category": ["Untracked Uniques", "Untracked Uniques Combat"],
 				"Label": "Untracked Combat Uniques",
-				"Chunks": ["Death's Office"],
-				"Monsters": ["AnyBoss[+]"],
+				"Items": ["Incomplete hydrix"],
 				"Not F2P": true
 			},
 			"(Temple of Aminishi) Obtain a ~|tetsu sword upgrade kit|~": {
@@ -148482,6 +148772,21 @@
 				"Category": ["Untracked Uniques", "Untracked Uniques Minigames", "Cosmetics"],
 				"Label": "Untracked Minigame Uniques",
 				"Items": ["Pirate hook (left)"]
+			},
+			"(Fishing Trawler) Obtain a ~|glistening shell|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Minigames"],
+				"Label": "Untracked Minigame Uniques",
+				"Items": ["Glistening shell"]
+			},
+			"(Fishing Trawler) Obtain a ~|shimmering shell|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Minigames"],
+				"Label": "Untracked Minigame Uniques",
+				"Items": ["Shimmering shell"]
+			},
+			"(Fishing Trawler) Obtain a ~|shark's tooth|~": {
+				"Category": ["Untracked Uniques", "Untracked Uniques Minigames"],
+				"Label": "Untracked Minigame Uniques",
+				"Items": ["Shark's tooth"]
 			},
 			"(Flash Powder Factory) Obtain a ~|factory mask|~": {
 				"Category": ["Untracked Uniques", "Untracked Uniques Minigames"],
@@ -153751,18 +154056,12 @@
 				"Requirements": {
 					"Slayer": 90
 				},
-				"Tasks": {
-					"SlayerPointMasters[+]": "Slayer"
-				},
 				"Not F2P": true
 			},
 			"Learn how to craft ~|rings of slaying|~": {
 				"Category": ["Permanent Unlockables"],
 				"Label": "Permanent Unlockables",
 				"Items": ["Learn how to craft rings of slaying"],
-				"Tasks": {
-					"SlayerPointMasters[+]": "Slayer"
-				},
 				"Not F2P": true
 			},
 			"Learn how to fletch ~|broad bolts|~ and arrows": {
@@ -153770,8 +154069,7 @@
 				"Items": ["Learn how to fletch broad arrows/bolts"],
 				"Label": "Permanent Unlockables",
 				"Tasks": {
-					"~|Smoking Kills|~ Complete the quest": "Quest",
-					"SlayerPointMasters[+]": "Slayer"
+					"~|Smoking Kills|~ Complete the quest": "Quest"
 				},
 				"Not F2P": true
 			},
@@ -153779,9 +154077,6 @@
 				"Category": ["Permanent Unlockables"],
 				"Label": "Permanent Unlockables",
 				"Items": ["Learn how to deliver killing blows quicker"],
-				"Tasks": {
-					"SlayerPointMasters[+]": "Slayer"
-				},
 				"Not F2P": true
 			},
 			"Learn how to fuse rings to a ~|full Slayer helmet|~": {
@@ -153789,8 +154084,7 @@
 				"Label": "Permanent Unlockables",
 				"Items": ["Learn how to fuse rings to full Slayer helmets"],
 				"Tasks": {
-					"~|Smoking Kills|~ Complete the quest": "Quest",
-					"SlayerPointMasters[+]": "Slayer"
+					"~|Smoking Kills|~ Complete the quest": "Quest"
 				},
 				"Not F2P": true
 			},
@@ -153799,8 +154093,7 @@
 				"Label": "Permanent Unlockables",
 				"Items": ["Learn how to craft Slayer helmets"],
 				"Tasks": {
-					"~|Smoking Kills|~ Complete the quest": "Quest",
-					"SlayerPointMasters[+]": "Slayer"
+					"~|Smoking Kills|~ Complete the quest": "Quest"
 				},
 				"Not F2P": true
 			},
@@ -153808,53 +154101,35 @@
 				"Category": ["Permanent Unlockables"],
 				"Label": "Permanent Unlockables",
 				"Items": ["Learn new technique to attack ice strykewyrms"],
-				"Tasks": {
-					"SlayerPointMasters[+]": "Slayer"
-				},
 				"Not F2P": true
 			},
 			"Learn how to how to attach a ~|bonecrusher|~ to your tool belt": {
 				"Category": ["Permanent Unlockables"],
 				"Label": "Permanent Unlockables",
-				"Tasks": {
-					"SlayerPointMasters[+]": "Slayer"
-				},
 				"Items": ["Bonecrusher"],
 				"Not F2P": true
 			},
 			"Learn how to how to attach a ~|herbicide|~ to your tool belt": {
 				"Category": ["Permanent Unlockables"],
 				"Label": "Permanent Unlockables",
-				"Tasks": {
-					"SlayerPointMasters[+]": "Slayer"
-				},
 				"Items": ["Herbicide"],
 				"Not F2P": true
 			},
 			"Learn how to how to attach a ~|seedicide|~ to your tool belt": {
 				"Category": ["Permanent Unlockables"],
 				"Label": "Permanent Unlockables",
-				"Tasks": {
-					"SlayerPointMasters[+]": "Slayer"
-				},
 				"Items": ["Seedicide"],
 				"Not F2P": true
 			},
 			"Learn how to how to attach a ~|charming imp|~ to your tool belt": {
 				"Category": ["Permanent Unlockables"],
 				"Label": "Permanent Unlockables",
-				"Tasks": {
-					"SlayerPointMasters[+]": "Slayer"
-				},
 				"Items": ["Charming imp"],
 				"Not F2P": true
 			},
 			"Learn how to how to attach a ~|gold accumulator|~ to your tool belt": {
 				"Category": ["Permanent Unlockables"],
 				"Label": "Permanent Unlockables",
-				"Tasks": {
-					"SlayerPointMasters[+]": "Slayer"
-				},
 				"Items": ["Gold accumulator"],
 				"Not F2P": true
 			},
@@ -153862,9 +154137,6 @@
 				"Category": ["Permanent Unlockables"],
 				"Label": "Permanent Unlockables",
 				"Items": ["Fourth Room in Sunken Pyramid"],
-				"Tasks": {
-					"SlayerPointMasters[+]": "Slayer"
-				},
 				"Not F2P": true
 			},
 			"Unlock the ~|high-level Runespan portal|~": {
@@ -158750,6 +159022,12 @@
 				"Items": ["Fishing rod-o-matic"],
 				"Priority": 4,
 				"Set": "BIS Fishing Rod",
+				"Not F2P": true
+			},
+			"Obtain the ~|shark's tooth necklace|~": {
+				"Category": ["BIS Skilling"],
+				"Label": "BIS Skilling",
+				"Items": ["Shark tooth's necklace"],
 				"Not F2P": true
 			},
 			"Obtain the ~|fury shark head|~": {
@@ -166435,51 +166713,61 @@
 				"Output": "Weeds"
 			},
 			"Claim the pure essence reward from Temple Trekking*": {
+				"Category": ["Minigame"],
 				"Chunks": ["Temple Trekking Routes"],
 				"Output": "Pure essence",
 				"Not F2P": true
 			},
 			"Claim the bowstring reward from Temple Trekking*": {
+				"Category": ["Minigame"],
 				"Chunks": ["Temple Trekking Routes"],
 				"Output": "Bowstring",
 				"Not F2P": true
 			},
 			"Claim the silver stone spirit reward from Temple Trekking*": {
+				"Category": ["Minigame"],
 				"Chunks": ["Temple Trekking Routes"],
 				"Output": "Silver stone spirit",
 				"Not F2P": true
 			},
 			"Claim the blue herb reward from Temple Trekking*": {
+				"Category": ["Minigame"],
 				"Chunks": ["Temple Trekking Routes"],
 				"Output": "Temple Trekking herb blue loot",
 				"Not F2P": true
 			},
 			"Claim the yellow herb reward from Temple Trekking*": {
+				"Category": ["Minigame"],
 				"Chunks": ["Temple Trekking Routes"],
 				"Output": "Temple Trekking herb yellow loot",
 				"Not F2P": true
 			},
 			"Claim the red herb reward from Temple Trekking*": {
+				"Category": ["Minigame"],
 				"Chunks": ["Temple Trekking Routes"],
 				"Output": "Temple Trekking herb red loot",
 				"Not F2P": true
 			},
 			"Claim the stone spirit reward from Temple Trekking*": {
+				"Category": ["Minigame"],
 				"Chunks": ["Temple Trekking Routes"],
 				"Output": "Temple Trekking stone spirit loot",
 				"Not F2P": true
 			},
 			"Claim the watermelon seed reward from Temple Trekking*": {
+				"Category": ["Minigame"],
 				"Chunks": ["Temple Trekking Routes"],
 				"Output": "Watermelon seed",
 				"Not F2P": true
 			},
 			"Claim the raw shark reward from Temple Trekking*": {
+				"Category": ["Minigame"],
 				"Chunks": ["Temple Trekking Routes"],
 				"Output": "Raw shark",
 				"Not F2P": true
 			},
 			"Claim the constructor's gloves from Temple Trekking*": {
+				"Category": ["Minigame"],
 				"Chunks": ["Temple Trekking Routes"],
 				"Tasks": {
 					"~|The Darkness of Hallowvale|~ Complete the quest": "Quest"
@@ -166488,6 +166776,7 @@
 				"Not F2P": true
 			},
 			"Claim the constructor's boots from Temple Trekking*": {
+				"Category": ["Minigame"],
 				"Chunks": ["Temple Trekking Routes"],
 				"Tasks": {
 					"~|The Darkness of Hallowvale|~ Complete the quest": "Quest"
@@ -166496,16 +166785,19 @@
 				"Not F2P": true
 			},
 			"Claim the constructor's hat from Temple Trekking*": {
+				"Category": ["Minigame"],
 				"Chunks": ["Temple Trekking Routes"],
 				"Output": "Constructor's hat",
 				"Not F2P": true
 			},
 			"Claim the constructor's trousers from Temple Trekking*": {
+				"Category": ["Minigame"],
 				"Chunks": ["Temple Trekking Routes"],
 				"Output": "Constructor's trousers",
 				"Not F2P": true
 			},
 			"Claim the constructor's garb from Temple Trekking*": {
+				"Category": ["Minigame"],
 				"Chunks": ["Temple Trekking Routes"],
 				"Tasks": {
 					"~|The Darkness of Hallowvale|~ Complete the quest": "Quest"
@@ -166514,21 +166806,25 @@
 				"Not F2P": true
 			},
 			"Claim the ouroboros pouch from Temple Trekking*": {
+				"Category": ["Minigame"],
 				"Chunks": ["Temple Trekking Routes"],
 				"Output": "Ouroboros pouch",
 				"Not F2P": true
 			},
 			"Claim the rambler's backpack from Temple Trekking*": {
+				"Category": ["Minigame"],
 				"Chunks": ["Temple Trekking Routes"],
 				"Output": "Rambler's backpack",
 				"Not F2P": true
 			},
 			"Claim the walking stick from Temple Trekking*": {
+				"Category": ["Minigame"],
 				"Chunks": ["Temple Trekking Routes"],
 				"Output": "Walking stick",
 				"Not F2P": true
 			},
 			"Buy a ghast pouch from Temple Trekking*": {
+				"Category": ["Minigame"],
 				"Chunks": ["Temple Trekking Routes"],
 				"Tasks": {
 					"~|The Darkness of Hallowvale|~ Complete the quest": "Quest"
@@ -167025,13 +167321,13 @@
 				"Not F2P": true
 			},
 			"Familiarisation rewards*": {
-				"Category": ["DnD", "Not Daily DnD"],
+				"Category": ["DnD", "Timegated"],
 				"Objects": ["Small obelisk"],
 				"Output": "Familiarisation rewards",
 				"Not F2P": true
 			},
 			"God Statue rewards*": {
-				"Category": ["DnD", "Not Daily DnD"],
+				"Category": ["DnD", "Timegated"],
 				"NPCs": ["Copernicus Glyph"],
 				"Output": "Sculpting chisel",
 				"Not F2P": true
@@ -167043,7 +167339,7 @@
 				"Not F2P": true
 			},
 			"Circus rewards*": {
-				"Category": ["DnD", "Not Daily DnD"],
+				"Category": ["DnD", "Timegated"],
 				"Chunks": ["Balthazar Beauregard's Big Top Bonanza"],
 				"Output": "Circus rewards",
 				"Not F2P": true
@@ -167057,7 +167353,7 @@
 				"Category": ["DnD Flash Events", "DnD"]
 			},
 			"Memory of Nomad rewards*": {
-				"Category": ["DnD", "Not Daily DnD"],
+				"Category": ["DnD", "Timegated"],
 				"Chunks": ["Death's Office"],
 				"Tasks": {
 					"~|Nomad's Elegy|~ Complete the quest": "Quest"
@@ -167066,13 +167362,13 @@
 				"Not F2P": true
 			},
 			"Penguin Hide and Seek rewards*": {
-				"Category": ["DnD", "Not Daily DnD"],
+				"Category": ["DnD", "Timegated"],
 				"Chunks": ["10291"],
 				"Output": "Penguin Hide and Seek rewards",
 				"Not F2P": true
 			},
 			"Rush of Blood rewards*": {
-				"Category": ["DnD", "Not Daily DnD"],
+				"Category": ["DnD", "Timegated"],
 				"Chunks": ["8755"],
 				"Tasks": {
 					"~|Plague's End|~ Complete the quest": "Quest"
@@ -167081,7 +167377,7 @@
 				"Not F2P": true
 			},
 			"Wisps of the Grove rewards*": {
-				"Category": ["DnD", "Not Daily DnD"],
+				"Category": ["DnD", "Timegated"],
 				"Chunks": ["7728", "7729-1"],
 				"Output": "Wisps of the Grove rewards",
 				"Not F2P": true
@@ -168063,7 +168359,7 @@
 				"Output": "Wicked hood"
 			},
 			"Non-Daily DnD": {
-				"Category": ["Not Daily DnD"]
+				"Category": ["DnD", "Timegated"]
 			},
 			"Repair the Menaphos cactus patch": {
 				"Chunks": ["12587-2"],
@@ -178032,15 +178328,6 @@
 			"Obtain a warped stone": {
 				"Items": ["Warped stone"]
 			},
-			"Buy an incomplete hydrix": {
-				"Chunks": ["Death's Office"],
-				"Requirements": {
-					"Slayer": 45,
-					"Combat": 50
-				},
-				"Monsters": ["AnyBoss[+]"],
-				"Output": "Incomplete hydrix"
-			},
 			"Create an ascension crossbow": {
 				"NPCs": ["Ocellus"],
 				"Items": ["Dragon crossbow*", "Ascension signet I*", "Ascension signet II*", "Ascension signet III*", "Ascension signet IV*", "Ascension signet V*", "Ascension signet VI*", "Ascension shard*"],
@@ -178306,6 +178593,49 @@
 			"Open a enchanted gem pack*": {
 				"Items": ["Enchanted gem pack*"],
 				"Output": "Enchanted gem"
+			},
+			"Obtain reaper points": {
+				"Items": ["Reaper points"]
+			},
+			"Obtain slayer points": {
+				"Items": ["Slayer points"]
+			},
+			"Unlock City Quests*": {
+				"NPCs": [
+					"Charnak",
+					"Imhapi",
+					"Danwad",
+					"Amunemen",
+					"Danlozep",
+					"Khattak",
+					"Inhamat",
+					"Anhur",
+					"Hieromonk Genjiro",
+					"Lisah",
+					"Khamud",
+					"Banafrit",
+					"Captain Harkhebi",
+					"Menhet",
+					"Kharl",
+					"Jhonathan",
+					"Adoratrice Haruko",
+					"Nefertari",
+					"Malala",
+					"Sabrina",
+					"Sensei Hakase",
+					"Psamtik",
+					"Sennefer",
+					"Henutemipet",
+					"Pia",
+					"Tefibi",
+					"Hisamitsu",
+					"Septhys",
+					"Strykewyrm Jim",
+					"Lokkir",
+					"Makhredrup",
+					"Olivia",
+					"Rhotep"
+				]
 			}
 		}
 	},
@@ -194353,7 +194683,8 @@
 						"Fishing spot (big fishing net, harpoon)": 3,
 						"Fishing spot (cage, harpoon)": 2,
 						"Fishing spot (small fishing net, bait)": 2,
-						"Fruit tree patch": 1
+						"Fruit tree patch": 1,
+						"Fish stall": 1
 					},
 					"NPC": {
 						"Hickton": 1,
@@ -200362,7 +200693,7 @@
 				"Aminishi gem trader": 1,
 				"Menaphite guard": 7,
 				"Olivia": 1,
-				"strykewyrm Jim": 1,
+				"Strykewyrm Jim": 1,
 				"Adoratrice Haruko": 1,
 				"Hieromonk Genjiro": 1,
 				"Hisamitsu": 1,
@@ -213959,7 +214290,8 @@
 				"5": {
 					"Object": {
 						"Tree": 1,
-						"Oak": 6
+						"Oak": 6,
+						"Crashed star": 1
 					},
 					"Monster": {
 						"Wolf (Havenhythe)": 1
@@ -230158,6 +230490,68 @@
 			],
 			"ChocolateCake[+]": ["Chocolate cake", "Chocolate slice"],
 			"ChocolateSaturday[+]": ["Chocolate Saturday", "Premade Chocolate Saturday"],
+			"City Quest Item[+]": [
+				"Acadia logs",
+				"Yew logs",
+				"Magic logs",
+				"Avantoe seed",
+				"Barberry seed",
+				"Dwarf weed seed",
+				"Fly trap seed",
+				"Irit seed",
+				"Lantadyme seed",
+				"Prickly pear seed",
+				"Rosemary seed",
+				"Snapdragon seed",
+				"Sunchoke seed",
+				"Torstol seed",
+				"Banana",
+				"Flax",
+				"Potato cactus",
+				"Strawberry",
+				"Choc ice",
+				"Lobster",
+				"Rocktail",
+				"Shark",
+				"Raw beltfish",
+				"Raw catfish",
+				"Ball of wool",
+				"Strip of cloth",
+				"Molten glass",
+				"Papyrus",
+				"Air battlestaff",
+				"Earth battlestaff",
+				"Fire battlestaff",
+				"Water battlestaff",
+				"Battlestaff",
+				"Candle",
+				"Black candle",
+				"Bones",
+				"Bat bones",
+				"Big bones",
+				"Dragon bones",
+				"Wolf bones",
+				"Bronze bar",
+				"Mithril bar",
+				"Coal",
+				"Copper ore",
+				"Sandstone (1kg)",
+				"Desert goat horn",
+				"Honeycomb",
+				"Locust meat",
+				"Damaged chitin",
+				"Spirit kalphite pouch",
+				"Rope",
+				"Waterskin"
+			],
+			"City Quest Agility Item[+]": ["Rope", "Waterskin"],
+			"City Quest Cooking Item[+]": ["Coc ice", "Lobster", "Rocktail", "Shark"],
+			"City Quest Crafting Item[+]": ["Ball of wool", "Strip of cloth", "Molten glass", "Papyrus", "Air battlestaff", "Earth battlestaff", "Fire batllestaff", "Water battlestaff", "Battlestaff", "Candle", "Black candle"],
+			"City Quest Farming Item[+]": ["Avantoe seed", "Barberry seed", "Dwarf weed seed", "Fly trap seed", "Irit seed", "Lantadyme seed", "Prickly pear seed", "Rosemary seed", "Snapdragon seed", "Sunchoke seed", "Torstol seed", "Banana", "Flax", "Potato cactus", "Potato", "Strawberry", "Honeycomb"],
+			"City Quest Fishing Item[+]": ["Raw beltfish", "Raw catfish"],
+			"City Quest Slayer Item[+]": ["Bones", "Bat bones", "Big bones", "Dragon bones", "Wolf bones", "Damaged chitin", "Spirit kalphite pouch"],
+			"City Quest Smithing Item[+]": ["Bronze bar", "Mithril bar", "Coal", "Copper ore"],
+			"City Quest Woodcutting Item[+]": ["Acadia logs", "Yew logs", "Magic logs"],
 			"ClockTowerCooling[+]": ["Bucket of water", "Jug of water", "Bowl of water", "Ice gloves"],
 			"Cockatricepouch[+]": [
 				"Spirit cockatrice pouch",
@@ -235009,6 +235403,15 @@
 			"Chocolate[+]": "Any cooking chocolate",
 			"ChocolateCake[+]": "Any variant of chocolate cake",
 			"ChocolateSaturday[+]": "Any type of Chocolate Saturday",
+			"City Quest Item[+]": "Any item that may be handed in for a Menaphos City Quest",
+			"City Quest Agility Item[+]": "Any item that may be handed in for an Agility-related Menaphos City Quest",
+			"City Quest Cooking Item[+]": "Any item that may be handed in for an Cooking-related Menaphos City Quest",
+			"City Quest Crafting Item[+]": "Any item that may be handed in for an Crafting-related Menaphos City Quest",
+			"City Quest Farming Item[+]": "Any item that may be handed in for an Farming-related Menaphos City Quest",
+			"City Quest Fishing Item[+]": "Any item that may be handed in for an Fishing-related Menaphos City Quest",
+			"City Quest Slayer Item[+]": "Any item that may be handed in for an Slayer-related Menaphos City Quest",
+			"City Quest Smithing Item[+]": "Any item that may be handed in for an Smithing-related Menaphos City Quest",
+			"City Quest Woodcutting Item[+]": "Any item that may be handed in for an Woodcutting-related Menaphos City Quest",
 			"Cockatricepouch[+]": "Any spirit cockatrice variant",
 			"CombatPotion[+]": "Any combat potion",
 			"CombatRobes[+]": "Any piece of combat robes",
@@ -235968,6 +236371,65 @@
 				"Woman (Lumbridge Market)",
 				"Villager (Wendlewick)"
 			],
+			"City Quest Monster[+]": [
+				"Bandit Brawler",
+				"Bandit champion",
+				"Bandit king",
+				"Bandit looter",
+				"Brigand",
+				"Guard Bandit",
+				"Ugthanki",
+				"Crocodile",
+				"Crocodile akh",
+				"Billy Goat",
+				"Goat",
+				"Lizard",
+				"Corrupted lizard",
+				"Desert lizard",
+				"Small lizard",
+				"Desert snake",
+				"Corrupted kalphite guardian",
+				"Corrupted kalphite marauder",
+				"Exiled kalphite guardian",
+				"Exiled kalphite marauder",
+				"Exiled kalphite paragon",
+				"Exiled Kalphite Queen",
+				"Exiled kalphite soldier",
+				"Exiled kalphite worker",
+				"Kalphite Guardian",
+				"Kalphite King",
+				"Kalphite Queen",
+				"Kalphite Soldier",
+				"Kalphite Worker",
+				"Guard (Desert Mining Camp)",
+				"Menaphite Thug",
+				"Mummy (Jaldraocht Pyramid)",
+				"Mummy (Sophanem)",
+				"Mummy (Ullek)",
+				"Mummy ashes",
+				"Mummy warrior",
+				"Plague frog",
+				"Locust lancer",
+				"Locust ranger",
+				"Locust rider",
+				"Scabaras locust",
+				"Scabaras mage",
+				"Elite Profane Scabarite",
+				"Corrupted scarab",
+				"Giant scarab",
+				"Profane Scabarite",
+				"Scarabs",
+				"Scarab akh",
+				"Scarab swarm",
+				"Scarab larva",
+				"Scabaras ranger",
+				"Scabaras lancer",
+				"Small scarab",
+				"Corrupted scorpion",
+				"Scorpion",
+				"Poison scorpion",
+				"Vulture"
+			],
 			"Corrupted devourers[+]": [
 				"Amascut, the Devourer",
 				"The Magister",
@@ -236408,6 +236870,7 @@
 			"AnyUndead[+]": "Any undead",
 			"BlackKnightMonsters[+]": "Any monster that gives white knight ranking",
 			"Citizen[+]": "Any pickpocketable citizen",
+			"City Quest Monster[+]": "Any monster that can be assigned in a Menaphos City Quest",
 			"Corrupted devourers": "Any corrupted creature or soul devourer",
 			"Farmer[+]": "Any pickpocketable farmer",
 			"Fremennik citizen[+]": "Any pickpocketable citizen of Rellekka",
@@ -236935,21 +237398,7 @@
 			"NatureAccess[+]": ["Access the nature rune temple with a talisman*", "Access the nature rune temple through the abyss*"],
 			"RecipeSub[+]": ["~|Recipe for Disaster: Freeing the Mountain Dwarf|~ Complete the subquest", "~|Recipe for Disaster: Freeing the Goblin Generals|~ Complete the subquest", "~|Recipe for Disaster: Freeing Pirate Pete|~ Complete the subquest", "~|Recipe for Disaster: Freeing the Lumbridge Sage|~ Complete the subquest", "~|Recipe for Disaster: Freeing Evil Dave|~ Complete the subquest", "~|Recipe for Disaster: Freeing King Awowogei|~ Complete the subquest", "~|Recipe for Disaster: Freeing Sir Amik Varze|~ Complete the subquest", "~|Recipe for Disaster: Freeing Skrach Uglogwee|~ Complete the subquest"],
 			"RuneMechanics3a1[+]": ["~|Rune Mechanics|~ 3a1a", "~|Rune Mechanics|~ 3a1b"],
-			"Setting Up[+]": ["Easy Daemonheim tasks ~|Setting Up|~ (Crafting)*", "Easy Daemonheim tasks ~|Setting Up|~ (Smithing)*"],
-			"SlayerPointMasters[+]": [
-					"Receive a slayer assignment from ~|Jacquelyn|~",
-					"Receive a slayer assignment from ~|The Raptor|~",
-					"Receive a slayer assignment from ~|Vannaka|~",
-					"Receive a slayer assignment from ~|Mazchna|~",
-					"Receive a slayer assignment from ~|Chaeldar|~",
-					"Receive a slayer assignment from ~|Sumona|~",
-					"Receive a slayer assignment from ~|Duradel|~",
-					"Receive a slayer assignment from ~|Kuradal|~",
-					"Receive a slayer assignment from ~|Morvran|~",
-					"Receive a slayer assignment from ~|Laniakea|~",
-					"Receive a slayer assignment from ~|Mandrith|~",
-					"Receive a ~|Reaper assignment|~"
-			],			
+			"Setting Up[+]": ["Easy Daemonheim tasks ~|Setting Up|~ (Crafting)*", "Easy Daemonheim tasks ~|Setting Up|~ (Smithing)*"],		
 			"SoulUrnI[+]": ["Fill the Soul Urn using lesser communion rituals", "Fill the Soul Urn for Kili's Knowledge I (combat)"],
 			"SoulUrnII[+]": ["Fill the Soul Urn using lesser communion rituals", "Fill the Soul Urn for Kili's Knowledge II (combat)"],
 			"SoulUrnIII[+]": ["Fill the Soul Urn using lesser communion rituals", "Fill the Soul Urn for Kili's Knowledge III (combat)"],
@@ -237199,7 +237648,6 @@
 			"RecipeSub[+]": "Any of the Recipe for Disaster subquests aside from Another Cook's Quest",
 			"RuneMechanics3a1[+]": "Craft steam runes through either the fire altar or the water altar",
 			"Setting Up[+]": "Any subtask for Setting Up",
-			"SlayerPointMasters[+]": "Any slayer master that may award you Slayer Points",
 			"SoulUrnI[+]": "Any way to fill soul urn I",
 			"SoulUrnII[+]": "Any way to fill soul urn II",
 			"SoulUrnIII[+]": "Any way to fill soul urn III",
@@ -297579,6 +298027,11 @@
 					"~|Monkey Madness|~ Complete the quest": "Quest"
 				}]
 			},
+			"Death's Store": {
+				"Death's Office": [{
+					"Obtain reaper points": "Nonskill"
+				}]
+			},
 			"Dodgy Derek's Dirty Deals": {
 				"Thieves' Guild": [{
 					"~|Lost Her Marbles (miniquest)|~ Complete the quest": "Quest"
@@ -297838,22 +298291,52 @@
 				}]
 			},
 			"Slayer Equipment": {
-				"8755": [],
-				"11310-1": [],
-				"11575-1": [],
-				"12342-1": [],
-				"11310-1": [],
-				"12850-1": [],
-				"13358-1": [],
-				"13878-1": [],
-				"15939-1": [],
-				"16704-1": [],
-				"11310-1": [],
-				"Zanaris": [],
-				"Edgeville Dungeon": [],
-				"Ancient Cavern": [],
+				"8755": [{
+					"Obtain slayer points": "Nonskill"
+				}],
+				"11310-1": [{
+					"Obtain slayer points": "Nonskill"
+				}],
+				"11575-1": [{
+					"Obtain slayer points": "Nonskill"
+				}],
+				"12342-1": [{
+					"Obtain slayer points": "Nonskill"
+				}],
+				"11310-1": [{
+					"Obtain slayer points": "Nonskill"
+				}],
+				"12850-1": [{
+					"Obtain slayer points": "Nonskill"
+				}],
+				"13358-1": [{
+					"Obtain slayer points": "Nonskill"
+				}],
+				"13878-1": [{
+					"Obtain slayer points": "Nonskill"
+				}],
+				"15939-1": [{
+					"Obtain slayer points": "Nonskill"
+				}],
+				"16704-1": [{
+					"Obtain slayer points": "Nonskill"
+				}],
+				"11310-1": [{
+					"Obtain slayer points": "Nonskill"
+				}],
+				"Zanaris": [{
+					"Obtain slayer points": "Nonskill"
+				}],
+				"Edgeville Dungeon": [{
+					"Obtain slayer points": "Nonskill"
+				}],
+				"Ancient Cavern": [{
+					"Obtain slayer points": "Nonskill"
+				}],
 				"13111": [{
 					"~|Unwelcome Guests|~ Complete the quest": "Quest"
+				}, {
+					"Obtain slayer points": "Nonskill"
 				}]
 			},
 			"Slayer Equipment^Unfinished broad bolts": {
@@ -298216,7 +298699,8 @@
 			{ "color": "#000000", "x": 3050, "y": 3941 },
 			{ "color": "#000000", "x": 3092, "y": 3963 },
 			{ "color": "#D1B771", "x": 4221, "y": 3475 },
-			{ "color": "#D1B771", "x": 4372, "y": 3161 }
+			{ "color": "#D1B771", "x": 4372, "y": 3161 },
+			{ "color": "#D1B771", "x": 4400, "y": 3398 }
 		],
 		"Evil Trees": [
 			{ "color": "#8B4513", "x": 2757, "y": 3429 },
@@ -300990,6 +301474,10 @@
 		"Dealga's Scimitar Emporium": {
 			"Dragon scimitar": true,
 			"Off-hand dragon scimitar": true
+		},
+		"Death's Store": {
+			"Death notes": true,
+			"Incomplete hydrix": true
 		},
 		"Diango's Toy Store": {
 			"Toy horsey (brown)": true,
@@ -314950,6 +315438,73 @@
 				"Raw lobster": {
 					"1": "Always"
 				}
+			},
+			"Fishing Trawler loot": {
+				"Broken arrow": {
+					"1-2": "1/16"
+				},
+				"Broken glass": {
+					"1-2": "1/16"
+				},
+				"Broken staff": {
+					"1-2": "1/16"
+				},
+				"Buttons": {
+					"1-2": "1/16"
+				},
+				"Damaged armour": {
+					"1-2": "1/16"
+				},
+				"Old boot": {
+					"1-2": "1/16"
+				},
+				"Empty pot": {
+					"1-2": "1/16"
+				},
+				"Rusty sword": {
+					"1-2": "1/16"
+				},
+				"Raw shrimps": {
+					"1": "1/30"
+				},
+				"Raw anchovies": {
+					"1": "1/4"
+				},
+				"Raw sardine": {
+					"1": "1/10"
+				},
+				"Shimmering shell": {
+					"1": "1/100"
+				},
+				"Glistening shell": {
+					"1": "1/100"
+				},
+				"Shark's tooth": {
+					"1": "1/100"
+				}
+			},
+			"Fishing Trawler loot+": {
+				"Oyster": {
+					"1-2": "1/16"
+				},
+				"Opal": {
+					"1-2": "1/16"
+				},
+				"Sapphire": {
+					"1-2": "1/16"
+				},
+				"Bucket of sand": {
+					"1-2": "1/16"
+				},
+				"Seaweed": {
+					"1-2": "1/16"
+				},
+				"Silver stone spirit": {
+					"1-2": "1/16"
+				},
+				"Gold stone spirit": {
+					"1-2": "1/16"
+				}
 			}
 		},
 		"Fletching": {
@@ -321672,6 +322227,9 @@
 				},
 				"Reaper points": {
 					"1": "Always"
+				},
+				"Slayer points": {
+					"22": "Always"
 				}
 			},
 			"'Rum'-pumped crab": {
@@ -350102,7 +350660,8 @@
 				"16436-1",
 				"16691-1",
 				"16691-2",
-				"16179-1"
+				"16179-1",
+				"16179-2"
 			],
 			"2": [
 				"16691-1"
