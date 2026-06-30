@@ -37793,9 +37793,10 @@
 				"Objects": ["Trawler net"],
 				"Primary": true,
 				"Output": "Fishing Trawler loot",
-				"Priority": 2
+				"Priority": 2,
+				"NoBoost": true
 			},
-			"Catch improved ~|Fishing Trawler|~ after the Elite Ardougne achievements.": {
+			"Catch improved ~|Fishing Trawler|~ junk after the Elite Ardougne achievements.": {
 				"Category": ["Minigame"],
 				"Level": 15,
 				"Chunks": ["10545"],
@@ -37803,7 +37804,8 @@
 				"Items": ["Ardougne cloak 4"],
 				"Primary": true,
 				"Output": "Fishing Trawler loot+",
-				"Priority": 2
+				"Priority": 2,
+				"NoBoost": true
 			},
 			"Catch a ~|raw mackerel|~": {
 				"Level": 16,
@@ -37890,7 +37892,8 @@
 				"Objects": ["Trawler net"],
 				"Primary": true,
 				"Output": "Raw tuna",
-				"Priority": 2
+				"Priority": 2,
+				"NoBoost": true
 			},
 			"Catch ~|golden tuna eggs|~": {
 				"Level": 35,
@@ -37943,7 +37946,8 @@
 				"Objects": ["Trawler net"],
 				"Primary": true,
 				"Output": "Raw lobster",
-				"Priority": 2
+				"Priority": 2,
+				"NoBoost": true
 			},
 			"Fish with a ~|viridian skillchompa|~": {
 				"Items": ["Viridian skillchompa"],
@@ -38000,7 +38004,8 @@
 				"Objects": ["Trawler net"],
 				"Primary": true,
 				"Output": "Raw swordfish",
-				"Priority": 2
+				"Priority": 2,
+				"NoBoost": true
 			},
 			"Catch two ~|raw swordfish|~ in one attempt": {
 				"Category": ["Multiple Agility"],
@@ -38242,7 +38247,8 @@
 				"Objects": ["Trawler net"],
 				"Primary": true,
 				"Output": "Raw shark",
-				"Priority": 2
+				"Priority": 2,
+				"NoBoost": true
 			},
 			"Catch two ~|raw sharks|~ in one attempt": {
 				"Category": ["Multiple Agility"],
@@ -38285,7 +38291,8 @@
 				"Objects": ["Trawler net"],
 				"Primary": true,
 				"Output": "Raw sea turtle",
-				"Priority": 3
+				"Priority": 3,
+				"NoBoost": true
 			},
 			"Catch a ~|raw great white shark|~": {
 				"Items": ["Great white shark bait"],
@@ -38326,7 +38333,8 @@
 				"Objects": ["Trawler net"],
 				"Primary": true,
 				"Output": "Raw manta ray",
-				"Priority": 2
+				"Priority": 2,
+				"NoBoost": true
 			},
 			"Catch a ~|raw giant crayfish|~": {
 				"Level": 82,
@@ -38507,7 +38515,8 @@
 				"Objects": ["Trawler net"],
 				"Primary": true,
 				"Output": "Raw tiger shark",
-				"Priority": 1
+				"Priority": 1,
+				"NoBoost": true
 			},
 			"Catch a ~|medium crystal urchin|~": {
 				"Level": 95,
@@ -168365,6 +168374,10 @@
 				"Chunks": ["12587-2"],
 				"Items": ["Acadia logs*"]
 			},
+			"Repair the Anachronia cactus patch": {
+				"Chunks": ["15942-3"],
+				"Items": ["Magic logs*"]
+			},
 			"Open a bundle of gems": {
 				"Items": ["Bundle of gems"],
 				"Output": "Bundle of gems loot"
@@ -181196,7 +181209,8 @@
 				"10037": true
 			},
 			"Shop": {
-				"Slayer Equipment": true
+				"Slayer Equipment": true,
+				"Slayer Rewards": true
 			},
 			"Name": "Ancient Cavern"
 		},
@@ -183759,7 +183773,8 @@
 				"8855": true
 			},
 			"Shop": {
-				"Slayer Equipment": true
+				"Slayer Equipment": true,
+				"Slayer Rewards": true
 			},
 			"Quest": {
 				"The Light Within": "step"
@@ -187643,6 +187658,7 @@
 			},
 			"Shop": {
 				"Slayer Equipment": true,
+				"Slayer Rewards": true,
 				"Irksol's Ruby Rings": true,
 				"Jukat's Dragon Sword Shop": true
 			},
@@ -194430,6 +194446,7 @@
 						"Fernahei's Fishing Hut": true,
 						"Paramaya Inn": true,
 						"Slayer Equipment": true,
+						"Slayer Rewards": true,
 						"Obli's General Store": true,
 						"Ship tickets": true
 					},
@@ -199092,7 +199109,8 @@
 				"Redberry pie": 1
 			},
 			"Shop": {
-				"Slayer Equipment": true
+				"Slayer Equipment": true,
+				"Slayer Rewards": true
 			},
 			"Connect": {
 				"12193": true
@@ -200196,6 +200214,7 @@
 					"Shop": {
 						"Slayer Bounty & Deathmatch Reward Shop": true,
 						"Slayer Equipment": true,
+						"Slayer Rewards": true,
 						"Richard's Wilderness Cape Shop": true,
 						"Edgeville General Store": true
 					},
@@ -201822,7 +201841,8 @@
 				"5191": true
 			},
 			"Shop": {
-				"Slayer Equipment": true
+				"Slayer Equipment": true,
+				"Slayer Rewards": true
 			},
 			"Name": "Edgeville Dungeon"
 		},
@@ -202285,6 +202305,7 @@
 					"Shop": {
 						"Bob's Brilliant Axes": true,
 						"Slayer Equipment": true,
+						"Slayer Rewards": true,
 						"Lumbridge General Store": true
 					},
 					"Quest": {
@@ -204212,6 +204233,7 @@
 			"Shop": {
 				"Construction Supplies (Fort Forinthry)": true,
 				"Slayer Equipment": true,
+				"Slayer Rewards": true,
 				"Rodney's Independent Trading Co": true,
 				"Granny Rowan's Supplies": true
 			},
@@ -204966,7 +204988,8 @@
 						"The Asp & Snake Bar": true,
 						"Kebabs": true,
 						"Pollnivneach General Store": true,
-						"Slayer Equipment": true
+						"Slayer Equipment": true,
+						"Slayer Rewards": true
 					},
 					"Quest": {
 						"The Feud": "step",
@@ -206892,6 +206915,7 @@
 					},
 					"Shop": {
 						"Slayer Equipment": true,
+						"Slayer Rewards": true,
 						"Barker's Haberdashery": true,
 						"General Store (Canifis)": true,
 						"Hair of the Dog": true,
@@ -218633,6 +218657,7 @@
 			"Shop": {
 				"Zanaris General Store": true,
 				"Slayer Equipment": true,
+				"Slayer Rewards": true,
 				"Irksol's Ruby Rings": true,
 				"Jukat's Dragon Sword Shop": true
 			},
@@ -219886,7 +219911,8 @@
 				"10037": true
 			},
 			"Shop": {
-				"Slayer Equipment": true
+				"Slayer Equipment": true,
+				"Slayer Rewards": true
 			},
 			"Quest": {
 				"Barbarian Training": "step",
@@ -297572,6 +297598,9 @@
 			"Cactus patch": {
 				"12587-2": [{
 					"Repair the Menaphos cactus patch": "Nonskill"
+				}],
+				"15942-3": [{
+					"Repair the Anachronia cactus patch": "Nonskill"
 				}]
 			},
 			"Corn": {
@@ -298291,52 +298320,8 @@
 				}]
 			},
 			"Slayer Equipment": {
-				"8755": [{
-					"Obtain slayer points": "Nonskill"
-				}],
-				"11310-1": [{
-					"Obtain slayer points": "Nonskill"
-				}],
-				"11575-1": [{
-					"Obtain slayer points": "Nonskill"
-				}],
-				"12342-1": [{
-					"Obtain slayer points": "Nonskill"
-				}],
-				"11310-1": [{
-					"Obtain slayer points": "Nonskill"
-				}],
-				"12850-1": [{
-					"Obtain slayer points": "Nonskill"
-				}],
-				"13358-1": [{
-					"Obtain slayer points": "Nonskill"
-				}],
-				"13878-1": [{
-					"Obtain slayer points": "Nonskill"
-				}],
-				"15939-1": [{
-					"Obtain slayer points": "Nonskill"
-				}],
-				"16704-1": [{
-					"Obtain slayer points": "Nonskill"
-				}],
-				"11310-1": [{
-					"Obtain slayer points": "Nonskill"
-				}],
-				"Zanaris": [{
-					"Obtain slayer points": "Nonskill"
-				}],
-				"Edgeville Dungeon": [{
-					"Obtain slayer points": "Nonskill"
-				}],
-				"Ancient Cavern": [{
-					"Obtain slayer points": "Nonskill"
-				}],
 				"13111": [{
 					"~|Unwelcome Guests|~ Complete the quest": "Quest"
-				}, {
-					"Obtain slayer points": "Nonskill"
 				}]
 			},
 			"Slayer Equipment^Unfinished broad bolts": {
@@ -298431,6 +298416,55 @@
 				}],
 				"Ancient Cavern": [{
 					"~|Smoking Kills|~ Complete the quest": "Quest"
+				}]
+			},
+			"Slayer Rewards": {
+				"8755": [{
+					"Obtain slayer points": "Nonskill"
+				}],
+				"11310-1": [{
+					"Obtain slayer points": "Nonskill"
+				}],
+				"11575-1": [{
+					"Obtain slayer points": "Nonskill"
+				}],
+				"12342-1": [{
+					"Obtain slayer points": "Nonskill"
+				}],
+				"11310-1": [{
+					"Obtain slayer points": "Nonskill"
+				}],
+				"12850-1": [{
+					"Obtain slayer points": "Nonskill"
+				}],
+				"13358-1": [{
+					"Obtain slayer points": "Nonskill"
+				}],
+				"13878-1": [{
+					"Obtain slayer points": "Nonskill"
+				}],
+				"15939-1": [{
+					"Obtain slayer points": "Nonskill"
+				}],
+				"16704-1": [{
+					"Obtain slayer points": "Nonskill"
+				}],
+				"11310-1": [{
+					"Obtain slayer points": "Nonskill"
+				}],
+				"Zanaris": [{
+					"Obtain slayer points": "Nonskill"
+				}],
+				"Edgeville Dungeon": [{
+					"Obtain slayer points": "Nonskill"
+				}],
+				"Ancient Cavern": [{
+					"Obtain slayer points": "Nonskill"
+				}],
+				"13111": [{
+					"~|Unwelcome Guests|~ Complete the quest": "Quest"
+				}, {
+					"Obtain slayer points": "Nonskill"
 				}]
 			},
 			"Stealing Creation Reward Shop": {
