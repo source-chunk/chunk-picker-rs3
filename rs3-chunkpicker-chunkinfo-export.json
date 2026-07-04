@@ -56466,318 +56466,6 @@
 			}
 		},
 		"Ranged": {
-			"Complete a lap of the ~|Bandos agility course|~": {
-				"Chunks": ["Bandos's throne room"],
-				"Items": ["Mithril grapple", "GrappleCrossbow[+]"],
-				"Level": 60,
-				"Primary": true,
-				"Skills": {
-					"Strength": 60,
-					"Agility": 60
-				},
-				"Not Equip": true,
-				"Priority": 1,
-				"Not F2P": true
-			},
-			"Complete a lap of the ~|Dorgesh-Kaan agility course|~ grapple route": {
-				"Chunks": ["Dorgesh-Kaan Agility Course"],
-				"Items": ["Mithril grapple", "GrappleCrossbow[+]"],
-				"Level": 80,
-				"Primary": true,
-				"Skills": {
-					"Strength": 80,
-					"Agility": 80
-				},
-				"Not Equip": true,
-				"Priority": 1,
-				"Not F2P": true
-			},
-			"Play a game of ~|Gnome ball|~": {
-				"Category": ["Gnomeball"],
-				"Chunks": ["9526-1"],
-				"Level": 1,
-				"Primary": true,
-				"Skills": {
-					"Agility": 1
-				},
-				"Priority": 1
-			},
-			"Cross the ~|strong tree (Lumbridge/Al Kharid)|~": {
-				"Category": ["Shortcut"],
-				"Chunks": ["12849"],
-				"Items": ["Mithril grapple", "GrappleCrossbow[+]"],
-				"Level": 37,
-				"Primary": false,
-				"Skills": {
-					"Strength": 17,
-					"Agility": 8
-				},
-				"Not Equip": true,
-				"Priority": 1,
-				"NoPet": true,
-				"Not F2P": true
-			},
-			"Cross the ~|wall (Falador)|~": {
-				"Category": ["Shortcut"],
-				"Objects": ["Wall (Falador)"],
-				"Items": ["Mithril grapple", "GrappleCrossbow[+]"],
-				"Level": 19,
-				"Primary": false,
-				"Skills": {
-					"Strength": 37,
-					"Agility": 11
-				},
-				"Not Equip": true,
-				"Priority": 1,
-				"NoPet": true,
-				"Not F2P": true
-			},
-			"Cross the ~|rocks (Catherby)|~": {
-				"Category": ["Shortcut"],
-				"Objects": ["Rocks (Catherby)"],
-				"Items": ["Mithril grapple", "GrappleCrossbow[+]"],
-				"Level": 35,
-				"Primary": false,
-				"Skills": {
-					"Strength": 35,
-					"Agility": 32
-				},
-				"Tasks": {
-					"~|Fishing Contest|~ Complete the quest": "Quest"
-				},
-				"Not Equip": true,
-				"Priority": 1,
-				"NoPet": true,
-				"Not F2P": true
-			},
-			"Cross the ~|grapple column|~": {
-				"Category": ["Shortcut"],
-				"Objects": ["Grapple column"],
-				"Items": ["Mithril grapple", "GrappleCrossbow[+]"],
-				"Level": 39,
-				"Primary": false,
-				"Skills": {
-					"Strength": 22,
-					"Agility": 36
-				},
-				"Not Equip": true,
-				"Priority": 1,
-				"NoPet": true,
-				"Not F2P": true
-			},
-			"Cross the ~|wall (Yanille)|~": {
-				"Category": ["Shortcut"],
-				"Objects": ["Wall (Yanille)"],
-				"Items": ["Mithril grapple", "GrappleCrossbow[+]"],
-				"Level": 21,
-				"Primary": false,
-				"Skills": {
-					"Strength": 38,
-					"Agility": 39
-				},
-				"Not Equip": true,
-				"Priority": 1,
-				"NoPet": true,
-				"Not F2P": true
-			},
-			"Cross the ~|strong tree (Karamja)|~": {
-				"Category": ["Shortcut"],
-				"Chunks": ["11312", "11313"],
-				"Items": ["Mithril grapple", "GrappleCrossbow[+]"],
-				"Level": 42,
-				"Primary": false,
-				"Skills": {
-					"Strength": 21,
-					"Agility": 53
-				},
-				"Not Equip": true,
-				"Priority": 1,
-				"NoPet": true,
-				"Not F2P": true
-			},
-			"Equip a ~|feather headdress (blue)|~": {
-				"Items": ["Feather headdress (blue)"],
-				"Level": 20,
-				"Primary": false,
-				"Skills": {
-					"Summoning": 50
-				},
-				"Priority": 1,
-				"NoPet": true,
-				"NoBoost": true,
-				"Not F2P": true
-			},
-			"Equip a ~|feather headdress (orange)|~": {
-				"Items": ["Feather headdress (orange)"],
-				"Level": 20,
-				"Primary": false,
-				"Skills": {
-					"Summoning": 50
-				},
-				"Priority": 2,
-				"NoPet": true,
-				"NoBoost": true,
-				"Not F2P": true
-			},
-			"Equip a ~|feather headdress (red)|~": {
-				"Items": ["Feather headdress (red)"],
-				"Level": 20,
-				"Primary": false,
-				"Skills": {
-					"Summoning": 50
-				},
-				"Priority": 3,
-				"NoPet": true,
-				"NoBoost": true,
-				"Not F2P": true
-			},
-			"Equip a ~|feather headdress (stripy)|~": {
-				"Items": ["Feather headdress (stripy)"],
-				"Level": 20,
-				"Primary": false,
-				"Skills": {
-					"Summoning": 50
-				},
-				"Priority": 4,
-				"NoPet": true,
-				"NoBoost": true,
-				"Not F2P": true
-			},
-			"Equip a ~|feather headdress (yellow)|~": {
-				"Items": ["Feather headdress (yellow)"],
-				"Level": 20,
-				"Primary": false,
-				"Skills": {
-					"Summoning": 50
-				},
-				"Priority": 5,
-				"NoPet": true,
-				"NoBoost": true,
-				"Not F2P": true
-			},
-			"Equip a ~|full slayer helmet|~": {
-				"Items": ["Full slayer helmet"],
-				"Level": 20,
-				"Primary": false,
-				"Skills": {
-					"Defence": 20,
-					"Magic": 20,
-					"Strength": 20
-				},
-				"Priority": 6,
-				"NoPet": true,
-				"NoBoost": true,
-				"Not F2P": true
-			},
-			"Equip a ~|reinforced slayer helmet|~": {
-				"Items": ["Full slayer helmet"],
-				"Level": 20,
-				"Primary": false,
-				"Skills": {
-					"Defence": 30,
-					"Magic": 20,
-					"Strength": 20
-				},
-				"Priority": 7,
-				"NoPet": true,
-				"NoBoost": true,
-				"Not F2P": true
-			},
-			"Equip a ~|strong slayer helmet|~": {
-				"Items": ["Full slayer helmet"],
-				"Level": 20,
-				"Primary": false,
-				"Skills": {
-					"Defence": 50,
-					"Magic": 20,
-					"Strength": 20
-				},
-				"Priority": 8,
-				"NoPet": true,
-				"NoBoost": true,
-				"Not F2P": true
-			},
-			"Equip a ~|mighty slayer helmet|~": {
-				"Items": ["Mighty slayer helmet"],
-				"Level": 20,
-				"Primary": false,
-				"Skills": {
-					"Defence": 70,
-					"Magic": 20,
-					"Strength": 20
-				},
-				"Priority": 9,
-				"NoPet": true,
-				"NoBoost": true,
-				"Not F2P": true
-			},
-			"Equip a ~|corrupted slayer helmet|~": {
-				"Items": ["Corrupter slayer helmet"],
-				"Level": 20,
-				"Primary": false,
-				"Skills": {
-					"Defence": 70,
-					"Magic": 20,
-					"Strength": 20
-				},
-				"Priority": 10,
-				"NoPet": true,
-				"NoBoost": true,
-				"Not F2P": true
-			},
-			"Equip a ~|focus sight|~": {
-				"Items": ["Focus sight"],
-				"Level": 20,
-				"Primary": false,
-				"Skills": {
-					"Defence": 20
-				},
-				"Priority": 11,
-				"NoPet": true,
-				"NoBoost": true,
-				"Not F2P": true
-			},
-			"Equip a piece of ~|void knight equipment|~": {
-				"Items": ["Voidequipment[+]"],
-				"Level": 42,
-				"Primary": false,
-				"Skills": {
-					"Attack": 42,
-					"Constitution": 42,
-					"Defence": 42,
-					"Magic": 42,
-					"Prayer": 22,
-					"Strength": 42
-				},
-				"Priority": 1,
-				"NoPet": true,
-				"NoBoost": true,
-				"Not F2P": true
-			},
-			"Equip a ~|broad arrow|~": {
-				"Items": ["Broad arrow"],
-				"Level": 50,
-				"Primary": false,
-				"Priority": 1,
-				"Skills": {
-					"Slayer": 55
-				},
-				"NoPet": true,
-				"NoBoost": true,
-				"Not F2P": true
-			},
-			"Equip a ~|broad bolt|~": {
-				"Items": ["Broad-tipped bolts"],
-				"Level": 50,
-				"Primary": false,
-				"Priority": 2,
-				"Skills": {
-					"Slayer": 55
-				},
-				"NoPet": true,
-				"NoBoost": true,
-				"Not F2P": true
-			},
 			"Wield a ~|shortbow|~": {
 				"Items": ["Shortbow"],
 				"Level": 1,
@@ -56956,6 +56644,16 @@
 				"Priority": 22,
 				"NoPet": true,
 				"NoBoost": true
+			},
+			"Play a game of ~|Gnome ball|~": {
+				"Category": ["Gnomeball"],
+				"Chunks": ["9526-1"],
+				"Level": 1,
+				"Primary": true,
+				"Skills": {
+					"Agility": 1
+				},
+				"Priority": 23
 			},
 			"Train Ranged in ~|Daemonheim|~": {
 				"Category": ["Daemonheim training"],
@@ -57156,6 +56854,21 @@
 				"NoPet": true,
 				"NoBoost": true
 			},
+			"Cross the ~|wall (Falador)|~": {
+				"Category": ["Shortcut"],
+				"Objects": ["Wall (Falador)"],
+				"Items": ["Mithril grapple", "GrappleCrossbow[+]"],
+				"Level": 19,
+				"Primary": false,
+				"Skills": {
+					"Strength": 37,
+					"Agility": 11
+				},
+				"Not Equip": true,
+				"Priority": 1,
+				"NoPet": true,
+				"Not F2P": true
+			},
 			"Wield a ~|willow shortbow|~": {
 				"Items": ["Willow shortbow"],
 				"Level": 20,
@@ -57320,6 +57033,163 @@
 				"Priority": 31,
 				"NoPet": true,
 				"NoBoost": true,
+				"Not F2P": true
+			},
+			"Equip a ~|feather headdress (blue)|~": {
+				"Items": ["Feather headdress (blue)"],
+				"Level": 20,
+				"Primary": false,
+				"Skills": {
+					"Summoning": 50
+				},
+				"Priority": 1,
+				"NoPet": true,
+				"NoBoost": true,
+				"Not F2P": true
+			},
+			"Equip a ~|feather headdress (orange)|~": {
+				"Items": ["Feather headdress (orange)"],
+				"Level": 20,
+				"Primary": false,
+				"Skills": {
+					"Summoning": 50
+				},
+				"Priority": 2,
+				"NoPet": true,
+				"NoBoost": true,
+				"Not F2P": true
+			},
+			"Equip a ~|feather headdress (red)|~": {
+				"Items": ["Feather headdress (red)"],
+				"Level": 20,
+				"Primary": false,
+				"Skills": {
+					"Summoning": 50
+				},
+				"Priority": 3,
+				"NoPet": true,
+				"NoBoost": true,
+				"Not F2P": true
+			},
+			"Equip a ~|feather headdress (stripy)|~": {
+				"Items": ["Feather headdress (stripy)"],
+				"Level": 20,
+				"Primary": false,
+				"Skills": {
+					"Summoning": 50
+				},
+				"Priority": 4,
+				"NoPet": true,
+				"NoBoost": true,
+				"Not F2P": true
+			},
+			"Equip a ~|feather headdress (yellow)|~": {
+				"Items": ["Feather headdress (yellow)"],
+				"Level": 20,
+				"Primary": false,
+				"Skills": {
+					"Summoning": 50
+				},
+				"Priority": 5,
+				"NoPet": true,
+				"NoBoost": true,
+				"Not F2P": true
+			},
+			"Equip a ~|full slayer helmet|~": {
+				"Items": ["Full slayer helmet"],
+				"Level": 20,
+				"Primary": false,
+				"Skills": {
+					"Defence": 20,
+					"Magic": 20,
+					"Strength": 20
+				},
+				"Priority": 6,
+				"NoPet": true,
+				"NoBoost": true,
+				"Not F2P": true
+			},
+			"Equip a ~|reinforced slayer helmet|~": {
+				"Items": ["Full slayer helmet"],
+				"Level": 20,
+				"Primary": false,
+				"Skills": {
+					"Defence": 30,
+					"Magic": 20,
+					"Strength": 20
+				},
+				"Priority": 7,
+				"NoPet": true,
+				"NoBoost": true,
+				"Not F2P": true
+			},
+			"Equip a ~|strong slayer helmet|~": {
+				"Items": ["Full slayer helmet"],
+				"Level": 20,
+				"Primary": false,
+				"Skills": {
+					"Defence": 50,
+					"Magic": 20,
+					"Strength": 20
+				},
+				"Priority": 8,
+				"NoPet": true,
+				"NoBoost": true,
+				"Not F2P": true
+			},
+			"Equip a ~|mighty slayer helmet|~": {
+				"Items": ["Mighty slayer helmet"],
+				"Level": 20,
+				"Primary": false,
+				"Skills": {
+					"Defence": 70,
+					"Magic": 20,
+					"Strength": 20
+				},
+				"Priority": 9,
+				"NoPet": true,
+				"NoBoost": true,
+				"Not F2P": true
+			},
+			"Equip a ~|corrupted slayer helmet|~": {
+				"Items": ["Corrupter slayer helmet"],
+				"Level": 20,
+				"Primary": false,
+				"Skills": {
+					"Defence": 70,
+					"Magic": 20,
+					"Strength": 20
+				},
+				"Priority": 10,
+				"NoPet": true,
+				"NoBoost": true,
+				"Not F2P": true
+			},
+			"Equip a ~|focus sight|~": {
+				"Items": ["Focus sight"],
+				"Level": 20,
+				"Primary": false,
+				"Skills": {
+					"Defence": 20
+				},
+				"Priority": 11,
+				"NoPet": true,
+				"NoBoost": true,
+				"Not F2P": true
+			},
+			"Cross the ~|wall (Yanille)|~": {
+				"Category": ["Shortcut"],
+				"Objects": ["Wall (Yanille)"],
+				"Items": ["Mithril grapple", "GrappleCrossbow[+]"],
+				"Level": 21,
+				"Primary": false,
+				"Skills": {
+					"Strength": 38,
+					"Agility": 39
+				},
+				"Not Equip": true,
+				"Priority": 1,
+				"NoPet": true,
 				"Not F2P": true
 			},
 			"Equip a ~|mithril brutal|~": {
@@ -57641,6 +57511,14 @@
 				"NoBoost": true,
 				"Not F2P": true
 			},
+			"Equip a ~|havensilver bolt + 1|~": {
+				"Items": ["Havensilver bolts + 1"],
+				"Level": 30,
+				"Primary": false,
+				"Priority": 24,
+				"NoPet": true,
+				"NoBoost": true
+			},
 			"Equip a ~|mithril arrow|~ in New Varrock": {
 				"Chunks": ["New Varrock"],
 				"Level": 30,
@@ -57652,14 +57530,6 @@
 				"Not F2P": true,
 				"NoBoost": true,
 				"NoPet": true
-			},
-			"Equip a ~|havensilver bolt + 1|~": {
-				"Items": ["Havensilver bolts + 1"],
-				"Level": 5,
-				"Primary": false,
-				"Priority": 4,
-				"NoPet": true,
-				"NoBoost": true
 			},
 			"Equip an ~|adamant brutal|~": {
 				"Items": ["Adamant brutal"],
@@ -57677,6 +57547,54 @@
 				"Priority": 1,
 				"NoPet": true,
 				"NoBoost": true
+			},
+			"Cross the ~|rocks (Catherby)|~": {
+				"Category": ["Shortcut"],
+				"Objects": ["Rocks (Catherby)"],
+				"Items": ["Mithril grapple", "GrappleCrossbow[+]"],
+				"Level": 35,
+				"Primary": false,
+				"Skills": {
+					"Strength": 35,
+					"Agility": 32
+				},
+				"Tasks": {
+					"~|Fishing Contest|~ Complete the quest": "Quest"
+				},
+				"Not Equip": true,
+				"Priority": 2,
+				"NoPet": true,
+				"Not F2P": true
+			},
+			"Cross the ~|strong tree (Lumbridge/Al Kharid)|~": {
+				"Category": ["Shortcut"],
+				"Chunks": ["12849"],
+				"Items": ["Mithril grapple", "GrappleCrossbow[+]"],
+				"Level": 37,
+				"Primary": false,
+				"Skills": {
+					"Strength": 17,
+					"Agility": 8
+				},
+				"Not Equip": true,
+				"Priority": 1,
+				"NoPet": true,
+				"Not F2P": true
+			},
+			"Cross the ~|grapple column|~": {
+				"Category": ["Shortcut"],
+				"Objects": ["Grapple column"],
+				"Items": ["Mithril grapple", "GrappleCrossbow[+]"],
+				"Level": 39,
+				"Primary": false,
+				"Skills": {
+					"Strength": 22,
+					"Agility": 36
+				},
+				"Not Equip": true,
+				"Priority": 1,
+				"NoPet": true,
+				"Not F2P": true
 			},
 			"Wield a ~|yew shortbow|~": {
 				"Items": ["Yew shortbow"],
@@ -57853,6 +57771,38 @@
 				"Primary": false,
 				"Priority": 1000,
 				"NoPet": true
+			},
+			"Cross the ~|strong tree (Karamja)|~": {
+				"Category": ["Shortcut"],
+				"Chunks": ["11312", "11313"],
+				"Items": ["Mithril grapple", "GrappleCrossbow[+]"],
+				"Level": 42,
+				"Primary": false,
+				"Skills": {
+					"Strength": 21,
+					"Agility": 53
+				},
+				"Not Equip": true,
+				"Priority": 1,
+				"NoPet": true,
+				"Not F2P": true
+			},
+			"Equip a piece of ~|void knight equipment|~": {
+				"Items": ["Voidequipment[+]"],
+				"Level": 42,
+				"Primary": false,
+				"Skills": {
+					"Attack": 42,
+					"Constitution": 42,
+					"Defence": 42,
+					"Magic": 42,
+					"Prayer": 22,
+					"Strength": 42
+				},
+				"Priority": 2,
+				"NoPet": true,
+				"NoBoost": true,
+				"Not F2P": true
 			},
 			"Equip a ~|rune brutal|~": {
 				"Items": ["Rune brutal"],
@@ -58230,6 +58180,30 @@
 				"NoBoost": true,
 				"Not F2P": true
 			},
+			"Equip a ~|broad arrow|~": {
+				"Items": ["Broad arrow"],
+				"Level": 50,
+				"Primary": false,
+				"Priority": 41,
+				"Skills": {
+					"Slayer": 55
+				},
+				"NoPet": true,
+				"NoBoost": true,
+				"Not F2P": true
+			},
+			"Equip a ~|broad bolt|~": {
+				"Items": ["Broad-tipped bolts"],
+				"Level": 50,
+				"Primary": false,
+				"Priority": 42,
+				"Skills": {
+					"Slayer": 55
+				},
+				"NoPet": true,
+				"NoBoost": true,
+				"Not F2P": true
+			},
 			"Wield a ~|gravite ranged weapon|~": {
 				"Items": ["GraviteRangedWeapon[+]"],
 				"Level": 55,
@@ -58293,7 +58267,7 @@
 				"Items": ["Elder shortbow"],
 				"Level": 60,
 				"Primary": false,
-				"Priority": 2,
+				"Priority": 1,
 				"NoPet": true,
 				"NoBoost": true,
 				"Not F2P": true
@@ -58305,7 +58279,7 @@
 				"Skills": {
 					"Defence": 60
 				},
-				"Priority": 3,
+				"Priority": 2,
 				"NoPet": true,
 				"NoBoost": true,
 				"Not F2P": true
@@ -58573,12 +58547,25 @@
 				"NoPet": true,
 				"NoBoost": true
 			},
+			"Complete a lap of the ~|Bandos agility course|~": {
+				"Chunks": ["Bandos's throne room"],
+				"Items": ["Mithril grapple", "GrappleCrossbow[+]"],
+				"Level": 60,
+				"Primary": true,
+				"Skills": {
+					"Strength": 60,
+					"Agility": 60
+				},
+				"Not Equip": true,
+				"Priority": 34,
+				"Not F2P": true
+			},
 			"Wield a ~|thigat shortbow|~ in Daemonheim (or another Tier 7 weapon)": {
 				"Category": ["Daemonheim tasks"],
 				"Chunks": ["Dungeons of Daemonheim"],
 				"Level": 60,
 				"Primary": false,
-				"Priority": 15,
+				"Priority": 1000,
 				"NoPet": true,
 				"NoBoost": true
 			},
@@ -58971,7 +58958,7 @@
 				"Items": ["Hexhunter bow"],
 				"Level": 80,
 				"Primary": false,
-				"Priority": 18,
+				"Priority": 1,
 				"NoPet": true,
 				"NoBoost": true,
 				"Not F2P": true
@@ -59135,7 +59122,7 @@
 				"Chunks": ["The Heart"],
 				"Level": 80,
 				"Primary": false,
-				"Priority": 19,
+				"Priority": 18,
 				"NoPet": true,
 				"NoBoost": true,
 				"Not F2P": true
@@ -59144,9 +59131,22 @@
 				"Items": ["Superior scrimshaw of cruelty"],
 				"Level": 80,
 				"Primary": false,
-				"Priority": 20,
+				"Priority": 19,
 				"NoPet": true,
 				"NoBoost": true,
+				"Not F2P": true
+			},
+			"Complete a lap of the ~|Dorgesh-Kaan agility course|~ grapple route": {
+				"Chunks": ["Dorgesh-Kaan Agility Course"],
+				"Items": ["Mithril grapple", "GrappleCrossbow[+]"],
+				"Level": 80,
+				"Primary": true,
+				"Skills": {
+					"Strength": 80,
+					"Agility": 80
+				},
+				"Not Equip": true,
+				"Priority": 20,
 				"Not F2P": true
 			},
 			"Wield a ~|shadow glaive|~": {
