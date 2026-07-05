@@ -30660,17 +30660,6 @@
 				"Priority": 1,
 				"Not F2P": true
 			},
-			"Wield a ~|celestial surgebox|~": {
-				"Items": ["Celestial surgebox"],
-				"Level": 70,
-				"Primary": false,
-				"Skills": {
-					"Runecrafting": 70,
-					"Magic": 70
-				},
-				"Priority": 7,
-				"Not F2P": true
-			},
 			"Enter the ~|Chaos Tunnels resource dungeon|~": {
 				"Chunks": ["Chaos Tunnels"],
 				"Level": 70,
@@ -60677,17 +60666,6 @@
 				"Chunks": ["The Runespan"],
 				"Level": 66,
 				"Primary": false,
-				"Priority": 1,
-				"Not F2P": true
-			},
-			"Wield a ~|celestial surgebox|~": {
-				"Items": ["Celestial surgebox"],
-				"Level": 70,
-				"Primary": false,
-				"Skills": {
-					"Dungeoneering": 70,
-					"Magic": 70
-				},
 				"Priority": 1,
 				"Not F2P": true
 			},
@@ -237628,7 +237606,6 @@
 				"Wield ~|Akrisae's war mace|~", 
 				"Wield an ~|animal staff|~", 
 				"Wield a ~|greater runic staff|~", 
-				"Wield a ~|celestial surgebox|~", 
 				"Equip ~|void knight equipment|~", 
 				"Wield a ~|slayer's staff|~",
 				"Wield a ~|lesser runic staff|~", 
@@ -302221,7 +302198,7 @@
 			"Feather": true,
 			"Feather pack": true
 		},
-		"Fishing Shop": {
+		"Fishing Shop (Wendlewick)": {
 			"Small fishing net": true,
 			"Fishing rod": true,
 			"Harpoon": true,
