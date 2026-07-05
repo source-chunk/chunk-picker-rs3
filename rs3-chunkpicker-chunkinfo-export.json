@@ -71501,20 +71501,48 @@
 				"Objects": ["Tree[+]"],
 				"Output": "Logs",
 				"Primary": true,
-				"Priority": 2
+				"Priority": 1
 			},
 			"Cut ~|achey tree logs|~": {
 				"Level": 1,
 				"Objects": ["Achey Tree"],
 				"Output": "Achey tree logs",
 				"Primary": true,
-				"Priority": 1
+				"Priority": 2
 			},
 			"Cut ~|timber fungus|~ in a Croesus encounter": {
 				"Chunks": ["Senntisten"],
 				"Level": 1,
 				"Primary": true,
-				"Priority": 2
+				"Priority": 3
+			},
+			"Chop with a ~|bronze hatchet|~": {
+				"Level": 1,
+				"Objects": ["Tree[+]"],
+				"Primary": false,
+				"Priority": 4
+			},
+			"Chop with a ~|dwarven army axe|~": {
+				"Items": ["Dwarven army axe"],
+				"Level": 1,
+				"Objects": ["Tree[+]"],
+				"Primary": true,
+				"Output": "Wooden knot",
+				"Priority": 5
+			},
+			"Chop an ~|evil tree (normal)|~": {
+				"Category": ["DnD"],
+				"Level": 1,
+				"Objects": ["Evil tree"],
+				"Output": "Logs",
+				"Primary": true,
+				"Priority": 6
+			},
+			"Cut a ~|Kharidian cactus (healthy)|~": {
+				"Level": 1,
+				"Objects": ["Kharidian cactus (healthy)"],
+				"Primary": true,
+				"Priority": 7
 			},
 			"Hand in a Woodcutting-related ~|City Quest|~ item": {
 				"Category": ["Secondary Primary"],
@@ -71527,25 +71555,234 @@
 				"priority": 1001,
 				"NoPet": true
 			},
+			"Complete a ~|cracked woodcutting urn|~": {
+				"Category": ["Token"],
+				"Items": ["Cracked woodcutting urn (no rune)*", "Earth rune*"],
+				"Level": 1,
+				"Skills": {
+					"Crafting": 4
+				},
+				"Output": "Cracked woodcutting urn",
+				"Primary": true,
+				"Priority": 1002
+			},
+			"Complete a ~|fragile woodcutting urn|~": {
+				"Category": ["Token"],
+				"Items": ["Fragile woodcutting urn (no rune)*", "Earth rune*"],
+				"Level": 1,
+				"Skills": {
+					"Crafting": 15
+				},
+				"Output": "Fragile woodcutting urn",
+				"Primary": true,
+				"Priority": 1003
+			},
+			"Complete a ~|plain woodcutting urn|~": {
+				"Category": ["Token"],
+				"Items": ["Plain woodcutting urn (no rune)*", "Earth rune*"],
+				"Level": 1,
+				"Skills": {
+					"Crafting": 44
+				},
+				"Output": "Plain woodcutting urn",
+				"Primary": true,
+				"Priority": 1004
+			},
+			"Complete a ~|strong woodcutting urn|~": {
+				"Category": ["Token"],
+				"Items": ["Strong woodcutting urn (no rune)*", "Earth rune*"],
+				"Level": 1,
+				"Skills": {
+					"Crafting": 61
+				},
+				"Output": "Strong woodcutting urn",
+				"Primary": true,
+				"Priority": 1005
+			},
+			"Complete a ~|decorated woodcutting urn|~": {
+				"Category": ["Token"],
+				"Items": ["Decorated woodcutting urn (no rune)*", "Earth rune*"],
+				"Level": 1,
+				"Skills": {
+					"Crafting": 76
+				},
+				"Output": "Decorated woodcutting urn",
+				"Primary": true,
+				"Priority": 1006
+			},
+			"Complete an ~|exquisite woodcutting urn|~": {
+				"Category": ["Token"],
+				"Items": ["Exquisite woodcutting urn (no rune)*", "Earth rune*"],
+				"Level": 1,
+				"Skills": {
+					"Crafting": 106
+				},
+				"Output": "Exquisite woodcutting urn",
+				"Primary": true,
+				"Priority": 1007
+			},
+			"Train Woodcutting in ~|Daemonheim|~": {
+				"Category": ["Daemonheim training"],
+				"Chunks": ["Dungeons of Daemonheim"],
+				"Level": 1,
+				"Primary": true,
+				"Priority": 1008
+			},
+			"Train Woodcutting in ~|New Varrock|~": {
+				"Chunks": ["New Varrock"],
+				"Level": 1,
+				"Primary": true,
+				"Priority": 1009,
+				"Not F2P": true
+			},
+			"Read a Woodcutting tome from ~|Temple Trekking|~": {
+				"Category": ["Minigame"],
+				"Chunks": ["Temple Trekking Routes"],
+				"Level": 1,
+				"Primary": true,
+				"Priority": 1010
+			},
 			"Cut ~|oak logs|~": {
 				"Level": 10,
 				"Objects": ["Oak"],
 				"Output": "Oak logs",
 				"Primary": true,
+				"Priority": 1
+			},	
+			"Chop with an ~|iron hatchet|~": {
+				"Items": ["Iron hatchet"],
+				"Level": 10,
+				"Objects": ["Tree[+]"],
+				"Primary": false,
+				"Priority": 2,
+				"NoBoost": true
+			},
+			"Chop ~|light jungle|~": {
+				"Level": 10,
+				"Objects": ["Light jungle"],
+				"Output": "Skewer stick",
+				"Tasks": {
+					"~|Jungle Potion|~ Complete the quest": "Quest"
+				},
+				"Primary": true,
+				"Priority": 3
+			},
+			"Chop with a ~|machete|~": {
+				"Level": 10,
+				"Objects": ["Light jungle"],
+				"Primary": false,
+				"Priority": 4
+			},			
+			"Chop with an ~|opal machete|~": {
+				"Items": ["Opal machete"],
+				"Level": 10,
+				"Objects": ["Light jungle"],
+				"Primary": false,
+				"Priority": 5
+			},			
+			"Chop with a ~|jade machete|~": {
+				"Items": ["Jade machete"],
+				"Level": 10,
+				"Objects": ["Light jungle"],
+				"Primary": false,
 				"Priority": 6
-			},		
+			},			
+			"Chop with a ~|red topaz machete|~": {
+				"Items": ["Red topaz machete"],
+				"Level": 10,
+				"Objects": ["Light jungle"],
+				"Primary": false,
+				"Priority": 7
+			},
+			"Cut a log ~|canoe|~": {
+				"Level": 12,
+				"Objects": ["Canoe station"],
+				"Primary": false,
+				"Priority": 1
+			},
+			"Chop an ~|evil oak tree|~": {
+				"Category": ["DnD"],
+				"Level": 15,
+				"Objects": ["Evil tree"],
+				"Output": "Oak logs",
+				"Primary": true,
+				"Priority": 3
+			},
 			"Cut ~|willow logs|~": {
 				"Level": 20,
 				"Objects": ["Willow"],
 				"Output": "Willow logs",
 				"Primary": true,
-				"Priority": 2
-			},			
+				"Priority": 1
+			},	
+			"Chop with a ~|steel hatchet|~": {
+				"Items": ["Steel hatchet"],
+				"Level": 20,
+				"Objects": ["Tree[+]"],
+				"Primary": false,
+				"Priority": 2,
+				"NoBoost": true
+			},
+			"Chop ~|medium jungle|~": {
+				"Level": 20,
+				"Objects": ["Medium jungle"],
+				"Output": "Skewer stick",
+				"Tasks": {
+					"~|Jungle Potion|~ Complete the quest": "Quest"
+				},
+				"Primary": true,
+				"Priority": 3
+			},
+			"Chop with a ~|steel hatchet|~ in New Varrock": {
+				"Category": ["Multi Step Processing", "Highest Level"],
+				"Chunks": ["New Varrock"],
+				"Level": 20,
+				"Primary": false,
+				"Priority": 1000,
+				"Not F2P": true
+			},
+			"Chop with a ~|black hatchet|~": {
+				"Items": ["Black hatchet"],
+				"Level": 25,
+				"Objects": ["Tree[+]"],
+				"Primary": false,
+				"Priority": 1,
+				"NoBoost": true
+			},
+			"Cut a dugout ~|canoe|~": {
+				"Level": 27,
+				"Objects": ["Canoe station"],
+				"Primary": false,
+				"Priority": 1
+			},
 			"Cut ~|teak logs|~": {
 				"Level": 30,
 				"Objects": ["Teak"],
 				"Output": "Teak logs",
 				"Primary": true,
+				"Priority": 1
+			},
+			"Chop with a ~|mithril hatchet|~": {
+				"Items": ["Mithril hatchet"],
+				"Level": 30,
+				"Objects": ["Tree[+]"],
+				"Primary": false,
+				"Priority": 2,
+				"NoBoost": true
+			},
+			"Chop an ~|evil willow tree|~": {
+				"Category": ["DnD"],
+				"Level": 30,
+				"Objects": ["Evil tree"],
+				"Output": "Willow logs",
+				"Primary": true,
+				"Priority": 3
+			},
+			"Chop with a ~|cobalt skillchompa|~": {
+				"Items": ["Cobalt skillchompa"],
+				"Level": 31,
+				"Objects": ["Tree[+]"],
+				"Primary": false,
 				"Priority": 1
 			},
 			"Cut ~|creeping ivy|~": {
@@ -71559,13 +71796,44 @@
 				"Output": "Creeping ivy loot",
 				"Not F2P": true
 			},	
+			"Chop ~|dense jungle|~": {
+				"Level": 35,
+				"Objects": ["Dense jungle"],
+				"Output": "Skewer stick",
+				"Tasks": {
+					"~|Jungle Potion|~ Complete the quest": "Quest"
+				},
+				"Primary": true,
+				"Priority": 2
+			},		
 			"Cut ~|maple logs|~": {
 				"Level": 40,
 				"Objects": ["Maple Tree"],
 				"Output": "Maple logs",
 				"Primary": true,
-				"Priority": 2
+				"Priority": 1
 			},	
+			"Chop with an ~|adamant hatchet|~": {
+				"Items": ["Adamant hatchet"],
+				"Level": 40,
+				"Objects": ["Tree[+]"],
+				"Primary": false,
+				"Priority": 2,
+				"NoBoost": true
+			},
+			"Chop with a ~|viridian skillchompa|~": {
+				"Items": ["Viridian skillchompa"],
+				"Level": 41,
+				"Objects": ["Tree[+]"],
+				"Primary": false,
+				"Priority": 1
+			},
+			"Cut a stable dugout ~|canoe|~": {
+				"Level": 42,
+				"Objects": ["Canoe station"],
+				"Primary": false,
+				"Priority": 1
+			},
 			"Cut ~|bark|~": {
 				"Level": 45,
 				"Objects": ["Hollow tree"],
@@ -71573,6 +71841,14 @@
 				"Primary": true,
 				"Priority": 1
 			},	
+			"Chop an ~|evil maple tree|~": {
+				"Category": ["DnD"],
+				"Level": 45,
+				"Objects": ["Evil tree"],
+				"Output": "Maple logs",
+				"Primary": true,
+				"Priority": 2
+			},
 			"Cut ~|acadia logs|~": {
 				"Level": 50,
 				"Objects": ["Acadia tree"],
@@ -71580,11 +71856,65 @@
 				"Primary": true,
 				"Priority": 1
 			},
+			"Chop with a ~|rune hatchet|~": {
+				"Items": ["Rune hatchet"],
+				"Level": 50,
+				"Objects": ["Tree[+]"],
+				"Primary": false,
+				"Priority": 2,
+				"NoBoost": true
+			},
+			"Cut a ~|bovistrangler tree|~ in Daemonheim": {
+				"Category": ["Daemonheim tasks"],
+				"Chunks": ["Dungeons of Daemonheim"],
+				"Level": 50,
+				"Primary": false,
+				"Priority": 1000,
+				"Not F2P": true
+			},
 			"Cut an ~|acadia tree|~ in Menaphos": {
 				"Level": 50,
 				"Objects": ["Acadia tree"],
 				"Chunks": ["12586"],
 				"Output": "Acadia Menaphos woodcutting",
+				"Primary": true,
+				"Priority": 1001
+			},
+			"Chop with an ~|azure skillchompa|~": {
+				"Items": ["Azure skillchompa"],
+				"Level": 51,
+				"Objects": ["Tree[+]"],
+				"Primary": false,
+				"Priority": 1
+			},
+			"Cut ~|arctic pine logs|~": {
+				"Level": 54,
+				"Objects": ["Arctic Pine"],
+				"Output": "Arctic pine logs",
+				"Primary": true,
+				"Priority": 1
+			},	
+			"Craft a ~|fremennik round shield|~": {
+				"Items": ["Arctic pine logs*", "Bronze nails*", "Rope*"],
+				"Level": 54,
+				"Objects": ["Woodcutting stump"],
+				"Output": "Fremennik round shield",
+				"Skills": {
+					"Crafting": 43
+				},
+				"Primary": false,
+				"Priority": 2
+			},
+			"Cut a waka ~|canoe|~": {
+				"Level": 57,
+				"Objects": ["Canoe station"],
+				"Primary": false,
+				"Priority": 1
+			},
+			"Cut ~|eucalyptus logs|~": {
+				"Level": 58,
+				"Objects": ["Eucalyptus tree"],
+				"Output": "Eucalyptus logs",
 				"Primary": true,
 				"Priority": 1
 			},
@@ -71595,27 +71925,49 @@
 				"Primary": true,
 				"Priority": 1
 			},	
-			"Cut ~|arctic pine logs|~": {
-				"Level": 54,
-				"Objects": ["Arctic Pine"],
-				"Output": "Arctic pine logs",
-				"Primary": true,
-				"Priority": 1
-			},	
-			"Cut ~|eucalyptus logs|~": {
-				"Level": 58,
-				"Objects": ["Eucalyptus tree"],
-				"Output": "Eucalyptus logs",
-				"Primary": true,
-				"Priority": 1
-			},	
-			"Cut ~|yew logs|~": {
-				"Level": 70,
-				"Objects": ["Yew"],
+			"Chop with an ~|orikalkum hatchet|~": {
+				"Items": ["Orikalkum hatchet"],
+				"Level": 60,
+				"Objects": ["Tree[+]"],
+				"Primary": false,
+				"Priority": 2,
+				"NoBoost": true
+			},
+			"Chop an ~|evil yew tree|~": {
+				"Category": ["DnD"],
+				"Level": 60,
+				"Objects": ["Evil tree"],
 				"Output": "Yew logs",
 				"Primary": true,
-				"Priority": 1
-			},	
+				"Priority": 3
+			},
+			"Chop with a ~|dragon hatchet|~": {
+				"Items": ["Dragon hatchet"],
+				"Level": 61,
+				"Objects": ["Tree[+]"],
+				"Primary": false,
+				"Priority": 1,
+				"NoBoost": true
+			},
+			"Use an ~|inferno Adze|~": {
+				"Items": ["Inferno Adze"],
+				"Level": 61,
+				"Objects": ["Tree[+]"],
+				"Primary": false,
+				"Skills": {
+					"Firemaking": 92,
+					"Mining": 50
+				},
+				"Priority": 2,
+				"NoBoost": true
+			},
+			"Chop with a ~|crimson skillchompa|~": {
+				"Items": ["Crimson skillchompa"],
+				"Level": 61,
+				"Objects": ["Tree[+]"],
+				"Primary": false,
+				"Priority": 3
+			},
 			"Cut ~|choking ivy|~": {
 				"Level": 68,
 				"Objects": ["Choking ivy"],
@@ -71623,27 +71975,51 @@
 				"Priority": 1,
 				"Not F2P": true
 			},
-			"Cut ~|magic logs|~": {
-				"Level": 80,
-				"Objects": ["Magic tree"],
+			"Cut ~|yew logs|~": {
+				"Level": 70,
+				"Objects": ["Yew"],
+				"Output": "Yew logs",
+				"Primary": true,
+				"Priority": 1
+			},	
+			"Chop with a ~|crystal hatchet|~": {
+				"Items": ["Crystal hatchet"],
+				"Level": 70,
+				"Objects": ["Tree[+]"],
+				"Primary": false,
+				"Priority": 2,
+				"NoBoost": true
+			},
+			"Chop with a ~|necronium hatchet|~": {
+				"Items": ["Necronium hatchet"],
+				"Level": 70,
+				"Objects": ["Tree[+]"],
+				"Primary": false,
+				"Priority": 3,
+				"NoBoost": true
+			},
+			"Equip a ~|superior log-splitting scrimshaw|~": {
+				"Items": ["Superior log-splitting scrimshaw"],
+				"Level": 70,
+				"Primary": false,
+				"Priority": 4,
+				"NoBoost": true
+			},
+			"Chop with a ~|crystal skillchompa|~": {
+				"Items": ["Crystal skillchompa"],
+				"Level": 71,
+				"Objects": ["Tree[+]"],
+				"Primary": false,
+				"Priority": 2
+			},
+			"Chop an ~|evil magic tree|~": {
+				"Category": ["DnD"],
+				"Level": 75,
+				"Objects": ["Evil tree"],
 				"Output": "Magic logs",
 				"Primary": true,
-				"Priority": 3,
+				"Priority": 1,
 				"Not F2P": true
-			},
-			"Chop with an ~|Imcando hatchet|~": {
-				"Items": ["Imcando hatchet"],
-				"Level": 80,
-				"Objects": ["Tree[+]"],
-				"Primary": false,
-				"Priority": 4
-			},
-			"Chop with ~|Sana's fyrtorch|~": {
-				"Items": ["Sana's fyrtorch"],
-				"Level": 80,
-				"Objects": ["Tree[+]"],
-				"Primary": false,
-				"Priority": 5
 			},
 			"Cut ~|blisterwood logs|~": {
 				"Level": 76,
@@ -71651,7 +72027,50 @@
 				"Output": "Blisterwood logs",
 				"Primary": true,
 				"Priority": 1
-			},	
+			},
+			"Cut ~|magic logs|~": {
+				"Level": 80,
+				"Objects": ["Magic tree"],
+				"Output": "Magic logs",
+				"Primary": true,
+				"Priority": 1,
+				"Not F2P": true
+			},
+			"Chop with an ~|Imcando hatchet|~": {
+				"Items": ["Imcando hatchet"],
+				"Level": 80,
+				"Objects": ["Tree[+]"],
+				"Primary": false,
+				"Priority": 2
+			},
+			"Chop with a ~|bane hatchet|~": {
+				"Items": ["Bane hatchet"],
+				"Level": 80,
+				"Objects": ["Tree[+]"],
+				"Primary": false,
+				"Priority": 3,
+				"NoBoost": true
+			},
+			"Chop with ~|Sana's fyrtorch|~": {
+				"Items": ["Sana's fyrtorch"],
+				"Level": 80,
+				"Objects": ["Tree[+]"],
+				"Primary": false,
+				"Priority": 4
+			},
+			"Equip a ~|superior tree-shaking scrimshaw|~": {
+				"Items": ["Superior tree-shaking scrimshaw"],
+				"Level": 80,
+				"Primary": false,
+				"Priority": 5
+			},
+			"Cut ~|branching crystal|~": {
+				"Level": 80,
+				"Objects": ["Branching crystal"],
+				"Output": "Crystal fragment",
+				"Primary": true,
+				"Priority": 100
+			},
 			"Cut ~|overgrown idol|~": {
 				"Level": 81,
 				"Objects": ["Overgrown Idol (Anachronia)"],
@@ -71693,7 +72112,7 @@
 				"Output": "Mutated vine",
 				"Primary": true,
 				"Priority": 1
-			},	
+			},
 			"Cut ~|bloodwood logs|~": {
 				"NPCs": ["Mami Rimba"],
 				"Level": 85,
@@ -71725,13 +72144,29 @@
 				"Primary": true,
 				"Priority": 2
 			},
+			"Chop with the ~|Hatchet of Ember and Glade|~": {
+				"Items": ["Hatchet of Ember and Glade"],
+				"Level": 90,
+				"Objects": ["Tree[+]"],
+				"Primary": false,
+				"Priority": 3,
+				"NoBoost": true
+			},
+			"Chop with an ~|elder rune hatchet|~": {
+				"Items": ["Elder rune hatchet"],
+				"Level": 90,
+				"Objects": ["Tree[+]"],
+				"Primary": false,
+				"Priority": 4,
+				"NoBoost": true
+			},
 			"Chop an ~|evil elder tree|~": {
 				"Category": ["DnD"],
 				"Level": 90,
 				"Objects": ["Evil tree"],
 				"Output": "Elder tree+",
 				"Primary": true,
-				"Priority": 3,
+				"Priority": 100,
 				"Not F2P": true
 			},
 			"Make a ~|Milestone cape (90)|~": {
@@ -71771,7 +72206,14 @@
 					"Summoning": 90,
 					"Thieving": 90
 				},
-				"Priority": 4
+				"Priority": 101
+			},
+			"Feed a ~|starved ancient effigy|~ with woodcutting": {
+				"Items": ["Starved ancient effigy (fetching/woodcutting)"],
+				"Level": 91,
+				"Primary": false,
+				"Priority": 1000,
+				"Not F2P": true
 			},
 			"Cut ~|enriched timber fungus|~": {
 				"Objects": ["Dead Lumbridge guard"],
@@ -71780,6 +72222,13 @@
 				"Primary": true,
 				"Priority": 1
 			},
+			"Feed a ~|nourished ancient effigy|~ with woodcutting": {
+				"Items": ["Starved ancient effigy (fetching/woodcutting)"],
+				"Level": 93,
+				"Primary": false,
+				"Priority": 1000,
+				"Not F2P": true
+			},
 			"Cut ~|crystal tree|~": {
 				"Level": 94,
 				"Objects": ["Crystal tree"],
@@ -71787,6 +72236,13 @@
 				"Priority": 1,
 				"Not F2P": true
 			},	
+			"Feed a ~|sated ancient effigy|~ with woodcutting": {
+				"Items": ["Starved ancient effigy (fetching/woodcutting)"],
+				"Level": 95,
+				"Primary": false,
+				"Priority": 1000,
+				"Not F2P": true
+			},
 			"Cut ~|golden bamboo|~": {
 				"Category": ["Uncharted"],
 				"Level": 96,
@@ -71795,12 +72251,30 @@
 				"Primary": false,
 				"Priority": 1
 			},
-			"Cut ~|branching crystal|~": {
-				"Level": 80,
-				"Objects": ["Branching crystal"],
-				"Output": "Crystal fragment",
+			"Feed a ~|gorged ancient effigy|~ with woodcutting": {
+				"Items": ["Starved ancient effigy (fetching/woodcutting)"],
+				"Level": 97,
+				"Primary": false,
+				"Priority": 1000,
+				"Not F2P": true
+			},
+			"Buy the ~|Woodcutting cape|~": {
+				"Category": ["Skillcape"],
+				"NPCs": ["Wilfred"],
+				"Level": 99,
+				"Output": "Woodcutting cape",
 				"Primary": true,
-				"Priority": 1
+				"NoBoost": true,
+				"Priority": 1000,
+				"Not F2P": true
+			},
+			"Chop with a ~|primal hatchet (Dungeoneering)|~": {
+				"Category": ["Daemonheim tasks"],
+				"Chunks": ["Dungeons of Daemonheim"],
+				"Level": 99,
+				"Primary": false,
+				"Priority": 1001,
+				"Not F2P": true
 			},
 			"Chop an ~|eternal magic tree|~": {
 				"Level": 100,
@@ -71808,176 +72282,6 @@
 				"Primary": true,
 				"Output": "Eternal magic logs",
 				"Priority": 1
-			},
-			"Extract ~|eternal magic sap|~": {
-				"Level": 100,
-				"Items": ["Bucket"],
-				"Objects": ["Eternal magic tree"],
-				"Tasks": {
-					"Fletch Quest*": "Nonskill"
-				},
-				"Primary": true,
-				"Output": "Eternal magic sap",
-				"Priority": 2
-			},
-			"Obtain a ~|perfect eternal magic branch|~": {
-				"Level": 110,
-				"Objects": ["Eternal magic tree"],
-				"Primary": true,
-				"Output": "Perfect eternal magic branch",
-				"Priority": 1,
-				"NoBoost": true
-			},
-			"Equip a ~|superior tree-shaking scrimshaw|~": {
-				"Items": ["Superior tree-shaking scrimshaw"],
-				"Level": 80,
-				"Primary": false,
-				"Priority": 3
-			},
-			"Chop with a ~|bronze hatchet|~": {
-				"Level": 1,
-				"Objects": ["Tree[+]"],
-				"Primary": false,
-				"Priority": 5
-			},
-			"Chop with an ~|iron hatchet|~": {
-				"Items": ["Iron hatchet"],
-				"Level": 10,
-				"Objects": ["Tree[+]"],
-				"Primary": false,
-				"Priority": 7,
-				"NoBoost": true
-			},
-			"Chop with a ~|dwarven army axe|~": {
-				"Items": ["Dwarven army axe"],
-				"Level": 1,
-				"Objects": ["Tree[+]"],
-				"Primary": true,
-				"Output": "Wooden knot",
-				"Priority": 3
-			},
-			"Chop with a ~|steel hatchet|~": {
-				"Items": ["Steel hatchet"],
-				"Level": 20,
-				"Objects": ["Tree[+]"],
-				"Primary": false,
-				"Priority": 3,
-				"NoBoost": true
-			},
-			"Chop with a ~|steel hatchet|~ in New Varrock": {
-				"Category": ["Multi Step Processing", "Highest Level"],
-				"Chunks": ["New Varrock"],
-				"Level": 20,
-				"Primary": false,
-				"Priority": 1,
-				"Not F2P": true
-			},
-			"Chop with a ~|black hatchet|~": {
-				"Items": ["Black hatchet"],
-				"Level": 25,
-				"Objects": ["Tree[+]"],
-				"Primary": false,
-				"Priority": 1,
-				"NoBoost": true
-			},
-			"Chop with a ~|mithril hatchet|~": {
-				"Items": ["Mithril hatchet"],
-				"Level": 30,
-				"Objects": ["Tree[+]"],
-				"Primary": false,
-				"Priority": 3,
-				"NoBoost": true
-			},
-			"Chop with an ~|adamant hatchet|~": {
-				"Items": ["Adamant hatchet"],
-				"Level": 40,
-				"Objects": ["Tree[+]"],
-				"Primary": false,
-				"Priority": 3,
-				"NoBoost": true
-			},
-			"Chop with a ~|sacred clay hatchet|~": {
-				"Items": ["Sacred clay hatchet"],
-				"Level": 50,
-				"Objects": ["Tree[+]"],
-				"Primary": false,
-				"Priority": 2
-			},
-			"Chop with a ~|rune hatchet|~": {
-				"Items": ["Rune hatchet"],
-				"Level": 50,
-				"Objects": ["Tree[+]"],
-				"Primary": false,
-				"Priority": 3,
-				"NoBoost": true
-			},
-			"Chop with a ~|dragon hatchet|~": {
-				"Items": ["Dragon hatchet"],
-				"Level": 61,
-				"Objects": ["Tree[+]"],
-				"Primary": false,
-				"Priority": 2,
-				"NoBoost": true
-			},
-			"Chop with an ~|orikalkum hatchet|~": {
-				"Items": ["Orikalkum hatchet"],
-				"Level": 60,
-				"Objects": ["Tree[+]"],
-				"Primary": false,
-				"Priority": 2,
-				"NoBoost": true
-			},
-			"Use an ~|inferno Adze|~": {
-				"Items": ["Inferno Adze"],
-				"Level": 61,
-				"Objects": ["Tree[+]"],
-				"Primary": false,
-				"Skills": {
-					"Firemaking": 92,
-					"Mining": 50
-				},
-				"Priority": 1,
-				"NoBoost": true
-			},
-			"Chop with a ~|crystal hatchet|~": {
-				"Items": ["Crystal hatchet"],
-				"Level": 70,
-				"Objects": ["Tree[+]"],
-				"Primary": false,
-				"Priority": 2,
-				"NoBoost": true
-			},
-			"Chop with a ~|necronium hatchet|~": {
-				"Items": ["Necronium hatchet"],
-				"Level": 70,
-				"Objects": ["Tree[+]"],
-				"Primary": false,
-				"Priority": 3,
-				"NoBoost": true
-			},
-			"Chop with a ~|bane hatchet|~": {
-				"Items": ["Bane hatchet"],
-				"Level": 80,
-				"Objects": ["Tree[+]"],
-				"Primary": false,
-				"Priority": 2,
-				"NoBoost": true
-			},
-			"Chop with the ~|Hatchet of Ember and Glade|~": {
-				"Items": ["Hatchet of Ember and Glade"],
-				"Level": 90,
-				"Objects": ["Tree[+]"],
-				"Primary": false,
-				"Priority": 3,
-				"NoBoost": true
-			},
-			"Chop with an ~|elder rune hatchet|~": {
-				"Items": ["Elder rune hatchet"],
-				"Level": 90,
-				"Objects": ["Tree[+]"],
-				"Primary": false,
-				"Priority": 4,
-				"NoBoost": true
 			},
 			"Chop with the ~|Hatchet of Bloom and Blight|~": {
 				"Items": ["Hatchet of Bloom and Blight"],
@@ -71995,335 +72299,24 @@
 				"Priority": 3,
 				"NoBoost": true
 			},
-			"Equip a ~|superior log-splitting scrimshaw|~": {
-				"Items": ["Superior log-splitting scrimshaw"],
-				"Level": 70,
-				"Primary": false,
-				"Priority": 3,
+			"Extract ~|eternal magic sap|~": {
+				"Level": 100,
+				"Items": ["Bucket"],
+				"Objects": ["Eternal magic tree"],
+				"Tasks": {
+					"Fletch Quest*": "Nonskill"
+				},
+				"Primary": true,
+				"Output": "Eternal magic sap",
+				"Priority": 100
+			},
+			"Obtain a ~|perfect eternal magic branch|~": {
+				"Level": 110,
+				"Objects": ["Eternal magic tree"],
+				"Primary": true,
+				"Output": "Perfect eternal magic branch",
+				"Priority": 1,
 				"NoBoost": true
-			},
-			"Chop ~|light jungle|~": {
-				"Level": 10,
-				"Objects": ["Light jungle"],
-				"Output": "Skewer stick",
-				"Tasks": {
-					"~|Jungle Potion|~ Complete the quest": "Quest"
-				},
-				"Primary": true,
-				"Priority": 4
-			},
-			"Chop ~|medium jungle|~": {
-				"Level": 20,
-				"Objects": ["Medium jungle"],
-				"Output": "Skewer stick",
-				"Tasks": {
-					"~|Jungle Potion|~ Complete the quest": "Quest"
-				},
-				"Primary": true,
-				"Priority": 1
-			},
-			"Chop ~|dense jungle|~": {
-				"Level": 35,
-				"Objects": ["Dense jungle"],
-				"Output": "Skewer stick",
-				"Tasks": {
-					"~|Jungle Potion|~ Complete the quest": "Quest"
-				},
-				"Primary": true,
-				"Priority": 2
-			},			
-			"Chop with a ~|machete|~": {
-				"Level": 10,
-				"Objects": ["Light jungle"],
-				"Primary": false,
-				"Priority": 5
-			},			
-			"Chop with an ~|opal machete|~": {
-				"Items": ["Opal machete"],
-				"Level": 10,
-				"Objects": ["Light jungle"],
-				"Primary": false,
-				"Priority": 3
-			},			
-			"Chop with a ~|jade machete|~": {
-				"Items": ["Jade machete"],
-				"Level": 10,
-				"Objects": ["Light jungle"],
-				"Primary": false,
-				"Priority": 2
-			},			
-			"Chop with a ~|red topaz machete|~": {
-				"Items": ["Red topaz machete"],
-				"Level": 10,
-				"Objects": ["Light jungle"],
-				"Primary": false,
-				"Priority": 1
-			},
-			"Cut a log ~|canoe|~": {
-				"Level": 12,
-				"Objects": ["Canoe station"],
-				"Primary": false,
-				"Priority": 1
-			},
-			"Cut a dugout ~|canoe|~": {
-				"Level": 27,
-				"Objects": ["Canoe station"],
-				"Primary": false,
-				"Priority": 1
-			},
-			"Cut a stable dugout ~|canoe|~": {
-				"Level": 42,
-				"Objects": ["Canoe station"],
-				"Primary": false,
-				"Priority": 1
-			},
-			"Cut a waka ~|canoe|~": {
-				"Level": 57,
-				"Objects": ["Canoe station"],
-				"Primary": false,
-				"Priority": 1
-			},
-			"Chop with a ~|cobalt skillchompa|~": {
-				"Items": ["Cobalt skillchompa"],
-				"Level": 31,
-				"Objects": ["Tree[+]"],
-				"Primary": false,
-				"Priority": 1
-			},
-			"Chop with a ~|viridian skillchompa|~": {
-				"Items": ["Viridian skillchompa"],
-				"Level": 41,
-				"Objects": ["Tree[+]"],
-				"Primary": false,
-				"Priority": 1
-			},
-			"Chop with an ~|azure skillchompa|~": {
-				"Items": ["Azure skillchompa"],
-				"Level": 51,
-				"Objects": ["Tree[+]"],
-				"Primary": false,
-				"Priority": 1
-			},
-			"Chop with a ~|crimson skillchompa|~": {
-				"Items": ["Crimson skillchompa"],
-				"Level": 61,
-				"Objects": ["Tree[+]"],
-				"Primary": false,
-				"Priority": 2
-			},
-			"Chop with a ~|crystal skillchompa|~": {
-				"Items": ["Crystal skillchompa"],
-				"Level": 71,
-				"Objects": ["Tree[+]"],
-				"Primary": false,
-				"Priority": 2
-			},
-			"Complete a ~|cracked woodcutting urn|~": {
-				"Category": ["Token"],
-				"Items": ["Cracked woodcutting urn (no rune)*", "Earth rune*"],
-				"Level": 1,
-				"Skills": {
-					"Crafting": 4
-				},
-				"Output": "Cracked woodcutting urn",
-				"Primary": true,
-				"Priority": 7
-			},
-			"Complete a ~|fragile woodcutting urn|~": {
-				"Category": ["Token"],
-				"Items": ["Fragile woodcutting urn (no rune)*", "Earth rune*"],
-				"Level": 1,
-				"Skills": {
-					"Crafting": 15
-				},
-				"Output": "Fragile woodcutting urn",
-				"Primary": true,
-				"Priority": 8
-			},
-			"Complete a ~|plain woodcutting urn|~": {
-				"Category": ["Token"],
-				"Items": ["Plain woodcutting urn (no rune)*", "Earth rune*"],
-				"Level": 1,
-				"Skills": {
-					"Crafting": 44
-				},
-				"Output": "Plain woodcutting urn",
-				"Primary": true,
-				"Priority": 9
-			},
-			"Complete a ~|strong woodcutting urn|~": {
-				"Category": ["Token"],
-				"Items": ["Strong woodcutting urn (no rune)*", "Earth rune*"],
-				"Level": 1,
-				"Skills": {
-					"Crafting": 61
-				},
-				"Output": "Strong woodcutting urn",
-				"Primary": true,
-				"Priority": 10
-			},
-			"Complete a ~|decorated woodcutting urn|~": {
-				"Category": ["Token"],
-				"Items": ["Decorated woodcutting urn (no rune)*", "Earth rune*"],
-				"Level": 1,
-				"Skills": {
-					"Crafting": 76
-				},
-				"Output": "Decorated woodcutting urn",
-				"Primary": true,
-				"Priority": 11
-			},
-			"Complete an ~|exquisite woodcutting urn|~": {
-				"Category": ["Token"],
-				"Items": ["Exquisite woodcutting urn (no rune)*", "Earth rune*"],
-				"Level": 1,
-				"Skills": {
-					"Crafting": 106
-				},
-				"Output": "Exquisite woodcutting urn",
-				"Primary": true,
-				"Priority": 12
-			},
-			"Train Woodcutting in ~|Daemonheim|~": {
-				"Category": ["Daemonheim training"],
-				"Chunks": ["Dungeons of Daemonheim"],
-				"Level": 1,
-				"Primary": true,
-				"Priority": 12
-			},
-			"Train Woodcutting in ~|New Varrock|~": {
-				"Chunks": ["New Varrock"],
-				"Level": 1,
-				"Primary": true,
-				"Priority": 1,
-				"Not F2P": true
-			},
-			"Chop an ~|evil tree (normal)|~": {
-				"Category": ["DnD"],
-				"Level": 1,
-				"Objects": ["Evil tree"],
-				"Output": "Logs",
-				"Primary": true,
-				"Priority": 13
-			},
-			"Cut a ~|Kharidian cactus (healthy)|~": {
-				"Level": 1,
-				"Objects": ["Kharidian cactus (healthy)"],
-				"Primary": true,
-				"Priority": 14
-			},
-			"Chop an ~|evil oak tree|~": {
-				"Category": ["DnD"],
-				"Level": 15,
-				"Objects": ["Evil tree"],
-				"Output": "Oak logs",
-				"Primary": true,
-				"Priority": 3
-			},
-			"Chop an ~|evil willow tree|~": {
-				"Category": ["DnD"],
-				"Level": 30,
-				"Objects": ["Evil tree"],
-				"Output": "Willow logs",
-				"Primary": true,
-				"Priority": 3
-			},
-			"Chop an ~|evil maple tree|~": {
-				"Category": ["DnD"],
-				"Level": 45,
-				"Objects": ["Evil tree"],
-				"Output": "Maple logs",
-				"Primary": true,
-				"Priority": 3
-			},
-			"Chop an ~|evil yew tree|~": {
-				"Category": ["DnD"],
-				"Level": 60,
-				"Objects": ["Evil tree"],
-				"Output": "Yew logs",
-				"Primary": true,
-				"Priority": 3
-			},
-			"Chop an ~|evil magic tree|~": {
-				"Category": ["DnD"],
-				"Level": 75,
-				"Objects": ["Evil tree"],
-				"Output": "Magic logs",
-				"Primary": true,
-				"Priority": 3,
-				"Not F2P": true
-			},
-			"Read a Woodcutting tome from ~|Temple Trekking|~": {
-				"Category": ["Minigame"],
-				"Chunks": ["Temple Trekking Routes"],
-				"Level": 1,
-				"Primary": true,
-				"Priority": 16
-			},
-			"Craft a ~|fremennik round shield|~": {
-				"Items": ["Arctic pine logs*", "Bronze nails*", "Rope*"],
-				"Level": 54,
-				"Objects": ["Woodcutting stump"],
-				"Output": "Fremennik round shield",
-				"Skills": {
-					"Crafting": 43
-				},
-				"Primary": false,
-				"Priority": 2
-			},
-			"Feed a ~|starved ancient effigy|~ with woodcutting": {
-				"Items": ["Starved ancient effigy (fetching/woodcutting)"],
-				"Level": 91,
-				"Primary": false,
-				"Priority": 1,
-				"Not F2P": true
-			},
-			"Feed a ~|nourished ancient effigy|~ with woodcutting": {
-				"Items": ["Starved ancient effigy (fetching/woodcutting)"],
-				"Level": 93,
-				"Primary": false,
-				"Priority": 1,
-				"Not F2P": true
-			},
-			"Feed a ~|sated ancient effigy|~ with woodcutting": {
-				"Items": ["Starved ancient effigy (fetching/woodcutting)"],
-				"Level": 95,
-				"Primary": false,
-				"Priority": 1,
-				"Not F2P": true
-			},
-			"Feed a ~|gorged ancient effigy|~ with woodcutting": {
-				"Items": ["Starved ancient effigy (fetching/woodcutting)"],
-				"Level": 97,
-				"Primary": false,
-				"Priority": 2,
-				"Not F2P": true
-			},
-			"Buy the ~|Woodcutting cape|~": {
-				"Category": ["Skillcape"],
-				"NPCs": ["Wilfred"],
-				"Level": 99,
-				"Output": "Woodcutting cape",
-				"Primary": true,
-				"NoBoost": true,
-				"Priority": 2,
-				"Not F2P": true
-			},
-			"Chop with a ~|primal hatchet (Dungeoneering)|~": {
-				"Category": ["Daemonheim tasks"],
-				"Chunks": ["Dungeons of Daemonheim"],
-				"Level": 99,
-				"Primary": false,
-				"Priority": 1000,
-				"Not F2P": true
-			},
-			"Cut a ~|bovistrangler tree|~ in Daemonheim": {
-				"Category": ["Daemonheim tasks"],
-				"Chunks": ["Dungeons of Daemonheim"],
-				"Level": 50,
-				"Primary": false,
-				"Priority": 1000,
-				"Not F2P": true
 			},
 			"Buy the ~|Woodcutting master cape|~": {
 				"Category": ["Master skillcape"],
