@@ -59803,21 +59803,6 @@
 			}
 		},
 		"Runecrafting": {
-			"Siphon from a ~|soul obelisk (Menaphos)|~ for Runecrafting xp": {
-				"Category": ["Menaphos Events"],
-				"Chunks": ["SoulObelisks[+]"],
-				"Level": 1,
-				"Primary": true,
-				"Priority": 30
-			},
-			"Use an ~|experience lamp|~ from the Waiko Reward Shop on Runecrafting": {
-				"Category": ["XP Lamps"],
-				"Items": ["Ports XP Lamp"],
-				"Level": 1,
-				"Priamry": 1,
-				"Priority": 1000,
-				"NoPet": true
-			},
 			"Craft ~|air runes|~ at the air rune temple": {
 				"Chunks": ["Air Rune Temple"],
 				"Items": ["RuneEssence[+]*"],
@@ -59895,13 +59880,134 @@
 				"Priority": 18,
 				"Not F2P": true
 			},
+			"Craft a ~|wizard book|~": {
+				"Items": ["Strip of cloth*", "Thread*"],
+				"Level": 1,
+				"Output": "Wizard book",
+				"Skills": {
+					"Crafting": 1
+				},
+				"Primary": false,
+				"Priority": 10
+			},
+			"Craft a ~|wizard wand|~": {
+				"Items": ["Strip of cloth*", "Thread*", "Logs*"],
+				"Level": 1,
+				"Output": "Wizard wand",
+				"Skills": {
+					"Crafting": 1
+				},
+				"Primary": false,
+				"Priority": 11
+			},
 			"Obtain ~|magical thread|~ by runecrafting through the abyss": {
 				"Chunks": ["RuneTemple[+]", "The Abyss"],
 				"Items": ["RuneEssence[+]*"],
 				"Level": 1,
 				"Output": "Magical thread",
 				"Primary": false,
-				"Priority": 40,
+				"Priority": 1000,
+				"Not F2P": true
+			},
+			"Siphon from a ~|soul obelisk (Menaphos)|~ for Runecrafting xp": {
+				"Category": ["Menaphos Events"],
+				"Chunks": ["SoulObelisks[+]"],
+				"Level": 1,
+				"Primary": true,
+				"Priority": 1001
+			},
+			"Use an ~|experience lamp|~ from the Waiko Reward Shop on Runecrafting": {
+				"Category": ["XP Lamps"],
+				"Items": ["Ports XP Lamp"],
+				"Level": 1,
+				"Priamry": 1,
+				"Priority": 1002,
+				"NoPet": true
+			},
+			"Complete a ~|cracked runecrafting urn|~": {
+				"Category": ["Token"],
+				"Items": ["Cracked runecrafting urn (no rune)*", "Pure essence*"],
+				"Level": 1,
+				"Skills": {
+					"Crafting": 4
+				},
+				"Output": "Cracked runecrafting urn",
+				"Primary": true,
+				"Priority": 1003
+			},
+			"Complete a ~|fragile runecrafting urn|~": {
+				"Category": ["Token"],
+				"Items": ["Fragile runecrafting urn (no rune)*", "Pure essence*"],
+				"Level": 1,
+				"Skills": {
+					"Crafting": 18
+				},
+				"Output": "Fragile runecrafting urn",
+				"Primary": true,
+				"Priority": 1004
+			},
+			"Complete a ~|plain runecrafting urn|~": {
+				"Category": ["Token"],
+				"Items": ["Plain runecrafting urn (no rune)*", "Pure essence*"],
+				"Level": 1,
+				"Skills": {
+					"Crafting": 33
+				},
+				"Output": "Plain runecrafting urn",
+				"Primary": true,
+				"Priority": 1005
+			},
+			"Complete a ~|strong runecrafting urn|~": {
+				"Category": ["Token"],
+				"Items": ["Strong runecrafting urn (no rune)*", "Pure essence*"],
+				"Level": 1,
+				"Skills": {
+					"Crafting": 52
+				},
+				"Output": "Strong runecrafting urn",
+				"Primary": true,
+				"Priority": 1006,
+				"Not F2P": true
+			},
+			"Complete a ~|decorated runecrafting urn|~": {
+				"Category": ["Token"],
+				"Items": ["Decorated runecrafting urn (no rune)*", "Pure essence*"],
+				"Level": 1,
+				"Skills": {
+					"Crafting": 77
+				},
+				"Output": "Decorated runecrafting urn",
+				"Primary": true,
+				"Priority": 1007,
+				"Not F2P": true
+			},
+			"Complete an ~|exquisite runecrafting urn|~": {
+				"Category": ["Token"],
+				"Items": ["Exquisite runecrafting urn (no rune)*", "Pure essence*"],
+				"Level": 1,
+				"Skills": {
+					"Crafting": 107
+				},
+				"Output": "Exquisite runecrafting urn",
+				"Primary": true,
+				"Priority": 1008,
+				"Not F2P": true
+			},
+			"Train Runecrafting in ~|Daemonheim|~": {
+				"Category": ["Daemonheim training"],
+				"Chunks": ["Dungeons of Daemonheim"],
+				"Level": 1,
+				"Primary": true,
+				"Priority": 1010
+			},
+			"Complete a run through ~|Shifting Tombs|~": {
+				"Chunks": ["Shifting Tombs"],
+				"Tasks": {
+					"Enter a tier one ~|Shifting Tombs|~": "Agility"
+				},
+				"Level": 1,
+				"Primary": true,
+				"Priority": 1011,
 				"Not F2P": true
 			},
 			"Craft ~|water runes|~ at the water rune temple": {
@@ -59995,6 +60101,26 @@
 				"Primary": true,
 				"Priority": 3,
 				"Not F2P": true
+			},
+			"Craft an ~|imphide book|~": {
+				"Items": ["Imphide*", "Thread*"],
+				"Level": 10,
+				"Output": "Imphide book",
+				"Skills": {
+					"Crafting": 15
+				},
+				"Primary": false,
+				"Priority": 4
+			},
+			"Craft an ~|imp horn wand|~": {
+				"Items": ["Imphide*", "Thread*", "Logs*"],
+				"Level": 10,
+				"Output": "Imp horn wand",
+				"Skills": {
+					"Crafting": 16
+				},
+				"Primary": false,
+				"Priority": 5
 			},
 			"Craft ~|mud runes|~ at the earth rune temple": {
 				"Chunks": ["Earth Rune Temple"],
@@ -60124,6 +60250,34 @@
 				"Priority": 7,
 				"Not F2P": true
 			},
+			"Craft a ~|spider silk orb|~": {
+				"Items": ["Spider silk*", "Thread*"],
+				"Level": 20,
+				"Output": "Spider silk orb",
+				"Skills": {
+					"Crafting": 25
+				},
+				"Primary": false,
+				"Priority": 5
+			},
+			"Craft a ~|spider silk wand|~": {
+				"Items": ["Spider silk*", "Thread*"],
+				"Level": 20,
+				"Output": "Spider silk wand",
+				"Skills": {
+					"Crafting": 26
+				},
+				"Primary": false,
+				"Priority": 6
+			},
+			"Craft a ~|spider silk orb|~ in New Varrock": {
+				"Category": ["Multi Step Processing", "Highest Level"],
+				"Chunks": ["New Varrock"],
+				"Level": 20,
+				"Primary": false,
+				"Priority": 1000,
+				"Not F2P": true
+			},
 			"Craft ~|lava runes|~ at the earth rune temple": {
 				"Chunks": ["Earth Rune Temple"],
 				"Items": ["Pure essence*", "Fire rune*", "Fire talisman*"],
@@ -60209,6 +60363,26 @@
 				},
 				"Priority": 4,
 				"Not F2P": true
+			},
+			"Craft a ~|batwing book|~": {
+				"Items": ["Batwing*", "Thread*"],
+				"Level": 30,
+				"Output": "Batwing book",
+				"Skills": {
+					"Crafting": 36
+				},
+				"Primary": false,
+				"Priority": 5
+			},
+			"Craft a ~|batwing wand|~": {
+				"Items": ["Batwing wand*", "Thread*", "Logs*"],
+				"Level": 30,
+				"Output": "Batwing wand",
+				"Skills": {
+					"Crafting": 37
+				},
+				"Primary": false,
+				"Priority": 6
 			},
 			"Climb the ~|vine ladder|~": {
 				"Chunks": ["The Runespan"],
@@ -60363,6 +60537,34 @@
 				"Priority": 5,
 				"Not F2P": true
 			},
+			"Craft a ~|mystic orb|~": {
+				"Items": ["Mystic cloth*", "Thread*"],
+				"Level": 50,
+				"Output": "Mystic orb",
+				"Skills": {
+					"Crafting": 56
+				},
+				"Primary": false,
+				"Priority": 6
+			},
+			"Craft a ~|mystic wand|~": {
+				"Items": ["Mystic cloth*", "Thread*", "Logs*"],
+				"Level": 50,
+				"Output": "Mystic wand",
+				"Skills": {
+					"Crafting": 57
+				},
+				"Primary": false,
+				"Priority": 7
+			},
+			"Create the ~|Glacor's Adornment|~": {
+				"Items": ["Glacor remnants*", "Dark nilas*"],
+				"Level": 50,
+				"Output": "Glacor's Adornment",
+				"Primary": true,
+				"Priority": 8,
+				"Not F2P": true
+			},
 			"Craft ~|law runes|~ at the law rune temple": {
 				"Chunks": ["Law Rune Temple"],
 				"Items": ["Pure essence*"],
@@ -60469,7 +60671,7 @@
 				"Chunks": ["Dungeons of Daemonheim"],
 				"Level": 65,
 				"Primary": false,
-				"Priority": 4
+				"Priority": 6
 			},
 			"Climb the ~|bone ladder|~": {
 				"Chunks": ["The Runespan"],
@@ -60488,6 +60690,34 @@
 				},
 				"Priority": 1,
 				"Not F2P": true
+			},
+			"Activate the ~|Orthen teleportation device|~ at the Observation Outpost": {
+				"Tasks": {
+					"Complete the ~|Archaeology tutorial|~": "Archaeology"
+				},
+				"Chunks": ["16454-1"],
+				"Items": ["Ancient vis"],
+				"Level": 70,
+				"Skills": {
+					"Archaeology": 90
+				},
+				"Primary": false,
+				"Priority": 100
+			},
+			"Enter a tier two ~|Shifting Tombs|~": {
+				"Chunks": ["Shifting Tombs"],
+				"Level": 70,
+				"Skills": {
+					"Agility": 70,
+					"Thieving": 70,
+					"Construction": 70,
+					"Crafting": 70,
+					"Dungeoneering": 70,
+					"Prayer": 70,
+					"Divination": 70
+				},
+				"Primary": false,
+				"Priority": 101
 			},
 			"Wield a ~|binding rod|~": {
 				"Items": ["Binding rod"],
@@ -60510,6 +60740,16 @@
 				"Level": 75,
 				"Primary": false,
 				"Priority": 1,
+				"Not F2P": true
+			},
+			"Steal from engraved sarcaphogus in the eighth room in ~|pyramid plunder|~": {
+				"Chunks": ["Pyramid Plunder"],
+				"Level": 75,
+				"Skills": {
+					"Thieving": 91
+				},
+				"Primary": false,
+				"Priority": 2,
 				"Not F2P": true
 			},
 			"Craft ~|blood runes|~ at the blood rune temple": {
@@ -60656,450 +60896,6 @@
 				"Priority": 5,
 				"Not F2P": true
 			},
-			"Craft a ~|lined draconic plate (unimbued)|~": {
-				"Items": ["Lined draconic plate*"],
-				"Level": 90,
-				"Tasks": {
-					"It Should Have Been Called Chinskin*": "Nonskill"
-				},
-				"Output": "Lined draconic plate (unimbued)",
-				"Primary": true,
-				"Priority": 1006
-			},
-			"Craft ~|sea singer robes|~": {
-				"Items": ["Chi*"],
-				"Level": 90,
-				"Objects": ["Port workshop"],
-				"Output": "SeaSingerRobes",
-				"Primary": true,
-				"Priority": 6,
-				"Not F2P": true
-			},
-			"Craft a ~|tectonic mask|~": {
-				"Items": ["Tectonic energy*", "Stone of binding*"],
-				"Level": 91,
-				"Output": "Tectonic mask",
-				"Primary": true,
-				"Priority": 1,
-				"Not F2P": true
-			},
-			"Craft an ~|elite tectonic mask|~": {
-				"Items": ["Tectonic mask*", "Stone of binding*", "Praesulic essence (magic)*", "Draconic energy*"],
-				"Level": 91,
-				"Output": "Elite tectonic mask",
-				"Primary": true,
-				"Priority": 2,
-				"Not F2P": true
-			},
-			"Craft a ~|seasinger kiba|~": {
-				"Items": ["Chi*", "Koi scales*", "Gemstone kaseki*"],
-				"Level": 92,
-				"Objects": ["Port workshop"],
-				"Output": "Seasinger kiba",
-				"Primary": true,
-				"Priority": 1,
-				"Not F2P": true
-			},
-			"Craft a ~|seasinger makigai|~": {
-				"Items": ["Chi*", "Koi scales*", "Gemstone kaseki*"],
-				"Level": 92,
-				"Objects": ["Port workshop"],
-				"Output": "Seasinger makigai",
-				"Primary": true,
-				"Priority": 2,
-				"Not F2P": true
-			},
-			"Craft a ~|tectonic robe bottom|~": {
-				"Items": ["Tectonic energy*", "Stone of binding*"],
-				"Level": 92,
-				"Output": "Tectonic robe bottom",
-				"Primary": true,
-				"Priority": 3,
-				"Not F2P": true
-			},
-			"Craft an ~|elite tectonic robe bottom|~": {
-				"Items": ["Tectonic robe bottom*", "Stone of binding*", "Praesulic essence (magic)*", "Draconic energy*"],
-				"Level": 92,
-				"Output": "Elite tectonic robe bottom",
-				"Primary": true,
-				"Priority": 4,
-				"Not F2P": true
-			},
-			"Craft a ~|tectonic robe top|~": {
-				"Items": ["Tectonic energy*", "Stone of binding*"],
-				"Level": 93,
-				"Output": "Tectonic robe top",
-				"Primary": true,
-				"Priority": 1,
-				"Not F2P": true
-			},
-			"Craft an ~|elite tectonic robe top|~": {
-				"Items": ["Tectonic robe top*", "Stone of binding*", "Praesulic essence (magic)*", "Draconic energy*"],
-				"Level": 93,
-				"Output": "Elite tectonic robe top",
-				"Primary": true,
-				"Priority": 4,
-				"Not F2P": true
-			},
-			"Assemble a ~|Inquisitor staff|~": {
-				"Items": ["Praetorian staff*", "Inquisitor's staff ornament*", "Inquisitor's staff rod*", "Inquisitor's staff censer*"],
-				"Level": 93,
-				"Output": "Inquisitor staff",
-				"Primary": true,
-				"Skills": {
-					"Crafting": 1
-				},
-				"Priority": 2,
-				"Not F2P": true
-			},
-			"Wear ~|blood runecrafting gloves|~": {
-				"Items": ["Blood runecrafting gloves"],
-				"Level": 94,
-				"Primary": false,
-				"Priority": 1
-			},
-			"Siphon death and soul runes from ~|undead souls|~": {
-				"Chunks": ["The Runespan"],
-				"Level": 95,
-				"Primary": true,
-				"Priority": 1,
-				"Not F2P": true
-			},
-			"Cross a ~|greater conjuration platform|~": {
-				"Chunks": ["The Runespan"],
-				"Level": 95,
-				"Primary": false,
-				"Priority": 2,
-				"Not F2P": true
-			},
-			"Craft a ~|wizard book|~": {
-				"Items": ["Strip of cloth*", "Thread*"],
-				"Level": 1,
-				"Output": "Wizard book",
-				"Skills": {
-					"Crafting": 1
-				},
-				"Primary": false,
-				"Priority": 10
-			},
-			"Craft a ~|wizard wand|~": {
-				"Items": ["Strip of cloth*", "Thread*", "Logs*"],
-				"Level": 1,
-				"Output": "Wizard wand",
-				"Skills": {
-					"Crafting": 1
-				},
-				"Primary": false,
-				"Priority": 11
-			},
-			"Complete a ~|cracked runecrafting urn|~": {
-				"Category": ["Token"],
-				"Items": ["Cracked runecrafting urn (no rune)*", "Pure essence*"],
-				"Level": 1,
-				"Skills": {
-					"Crafting": 4
-				},
-				"Output": "Cracked runecrafting urn",
-				"Primary": true,
-				"Priority": 12
-			},
-			"Complete a ~|fragile runecrafting urn|~": {
-				"Category": ["Token"],
-				"Items": ["Fragile runecrafting urn (no rune)*", "Pure essence*"],
-				"Level": 1,
-				"Skills": {
-					"Crafting": 18
-				},
-				"Output": "Fragile runecrafting urn",
-				"Primary": true,
-				"Priority": 13
-			},
-			"Complete a ~|plain runecrafting urn|~": {
-				"Category": ["Token"],
-				"Items": ["Plain runecrafting urn (no rune)*", "Pure essence*"],
-				"Level": 1,
-				"Skills": {
-					"Crafting": 33
-				},
-				"Output": "Plain runecrafting urn",
-				"Primary": true,
-				"Priority": 14
-			},
-			"Complete a ~|strong runecrafting urn|~": {
-				"Category": ["Token"],
-				"Items": ["Strong runecrafting urn (no rune)*", "Pure essence*"],
-				"Level": 1,
-				"Skills": {
-					"Crafting": 52
-				},
-				"Output": "Strong runecrafting urn",
-				"Primary": true,
-				"Priority": 15,
-				"Not F2P": true
-			},
-			"Complete a ~|decorated runecrafting urn|~": {
-				"Category": ["Token"],
-				"Items": ["Decorated runecrafting urn (no rune)*", "Pure essence*"],
-				"Level": 1,
-				"Skills": {
-					"Crafting": 77
-				},
-				"Output": "Decorated runecrafting urn",
-				"Primary": true,
-				"Priority": 16,
-				"Not F2P": true
-			},
-			"Complete an ~|exquisite runecrafting urn|~": {
-				"Category": ["Token"],
-				"Items": ["Exquisite runecrafting urn (no rune)*", "Pure essence*"],
-				"Level": 1,
-				"Skills": {
-					"Crafting": 107
-				},
-				"Output": "Exquisite runecrafting urn",
-				"Primary": true,
-				"Priority": 16,
-				"Not F2P": true
-			},
-			"Train Runecrafting in ~|Daemonheim|~": {
-				"Category": ["Daemonheim training"],
-				"Chunks": ["Dungeons of Daemonheim"],
-				"Level": 1,
-				"Primary": true,
-				"Priority": 17
-			},
-			"Complete a run through ~|Shifting Tombs|~": {
-				"Chunks": ["Shifting Tombs"],
-				"Tasks": {
-					"Enter a tier one ~|Shifting Tombs|~": "Agility"
-				},
-				"Level": 1,
-				"Primary": true,
-				"Priority": 19,
-				"Not F2P": true
-			},
-			"Craft an ~|imphide book|~": {
-				"Items": ["Imphide*", "Thread*"],
-				"Level": 10,
-				"Output": "Imphide book",
-				"Skills": {
-					"Crafting": 15
-				},
-				"Primary": false,
-				"Priority": 4
-			},
-			"Craft an ~|imp horn wand|~": {
-				"Items": ["Imphide*", "Thread*", "Logs*"],
-				"Level": 10,
-				"Output": "Imp horn wand",
-				"Skills": {
-					"Crafting": 16
-				},
-				"Primary": false,
-				"Priority": 5
-			},
-			"Craft a ~|spider silk orb|~": {
-				"Items": ["Spider silk*", "Thread*"],
-				"Level": 20,
-				"Output": "Spider silk orb",
-				"Skills": {
-					"Crafting": 25
-				},
-				"Primary": false,
-				"Priority": 5
-			},
-			"Craft a ~|spider silk wand|~": {
-				"Items": ["Spider silk*", "Thread*"],
-				"Level": 20,
-				"Output": "Spider silk wand",
-				"Skills": {
-					"Crafting": 26
-				},
-				"Primary": false,
-				"Priority": 6
-			},
-			"Craft a ~|spider silk orb|~ in New Varrock": {
-				"Category": ["Multi Step Processing", "Highest Level"],
-				"Chunks": ["New Varrock"],
-				"Level": 20,
-				"Primary": false,
-				"Priority": 1,
-				"Not F2P": true
-			},
-			"Craft a ~|batwing book|~": {
-				"Items": ["Batwing*", "Thread*"],
-				"Level": 30,
-				"Output": "Batwing book",
-				"Skills": {
-					"Crafting": 36
-				},
-				"Primary": false,
-				"Priority": 5
-			},
-			"Craft a ~|batwing wand|~": {
-				"Items": ["Batwing wand*", "Thread*", "Logs*"],
-				"Level": 30,
-				"Output": "Batwing wand",
-				"Skills": {
-					"Crafting": 37
-				},
-				"Primary": false,
-				"Priority": 6
-			},
-			"Craft a ~|mystic orb|~": {
-				"Items": ["Mystic cloth*", "Thread*"],
-				"Level": 50,
-				"Output": "Mystic orb",
-				"Skills": {
-					"Crafting": 56
-				},
-				"Primary": false,
-				"Priority": 6
-			},
-			"Craft a ~|mystic wand|~": {
-				"Items": ["Mystic cloth*", "Thread*", "Logs*"],
-				"Level": 50,
-				"Output": "Mystic wand",
-				"Skills": {
-					"Crafting": 57
-				},
-				"Primary": false,
-				"Priority": 7
-			},
-			"Create the ~|Glacor's Adornment|~": {
-				"Items": ["Glacor remnants*", "Dark nilas*"],
-				"Level": 50,
-				"Output": "Glacor's Adornment",
-				"Primary": true,
-				"Priority": 8,
-				"Not F2P": true
-			},
-			"Steal from engraved sarcaphogus in the eighth room in ~|pyramid plunder|~": {
-				"Chunks": ["Pyramid Plunder"],
-				"Level": 75,
-				"Skills": {
-					"Thieving": 91
-				},
-				"Primary": false,
-				"Priority": 2,
-				"Not F2P": true
-			},
-			"Buy the ~|Runecrafting cape|~": {
-				"Category": ["Skillcape"],
-				"NPCs": ["Larriar"],
-				"Level": 99,
-				"Output": "Runecrafting cape",
-				"Primary": true,
-				"NoBoost": true,
-				"Priority": 2,
-				"Not F2P": true
-			},
-			"Imbue an ~|empowered catalytic orb|~ in Daemonheim (or another empowered catalytic weapon)": {
-				"Category": ["Daemonheim tasks", "Mutli Step Processing"],
-				"Chunks": ["Dungeons of Daemonheim"],
-				"Level": 99,
-				"Primary": false,
-				"Priority": 4,
-				"Not F2P": true
-			},
-			"Extract ~|praesulic essence (magic)|~ from Virtus armour": {
-				"Items": ["Virtus[+]*"],
-				"Level": 99,
-				"Objects": ["Dragonkin anvil"],
-				"Output": "Praesulic essence (magic)",
-				"Primary": true,
-				"Priority": 7,
-				"Not F2P": true,
-				"Partial": true
-			},
-			"Extract ~|tectonic essence|~ from tectonic armour": {
-				"Items": ["TectonicArmour[+]*"],
-				"Level": 99,
-				"Objects": ["Dragonkin anvil"],
-				"Output": "Tectonic essence",
-				"Primary": true,
-				"Priority": 8,
-				"Not F2P": true,
-				"Partial": true
-			},
-			"Extract ~|melodic essence|~ from Cywir weapons": {
-				"Items": ["Wand of the Cywir elders*"],
-				"Level": 99,
-				"Skills": {
-					"Smithing": 99
-				},
-				"Objects": ["Dragonkin anvil"],
-				"Output": "Melodic essence",
-				"Primary": true,
-				"Priority": 32,
-				"Not F2P": true,
-				"Partial": true
-			},
-			"Extract ~|binding essence|~ from seismic weapons": {
-				"Items": ["Seismic wand*"],
-				"Level": 99,
-				"Skills": {
-					"Smithing": 99
-				},
-				"Objects": ["Dragonkin anvil"],
-				"Output": "Binding essence",
-				"Primary": true,
-				"Priority": 33,
-				"Not F2P": true,
-				"Partial": true
-			},
-			"Extract ~|crystalline essence|~ from attuned crystal magic weapons": {
-				"Chunks": ["8500"],
-				"Items": ["Attuned crystal weapon seed*"],
-				"Level": 99,
-				"Skills": {
-					"Smithing": 99
-				},
-				"Objects": ["Dragonkin anvil"],
-				"Output": "Crystalline essence",
-				"Primary": true,
-				"Priority": 34,
-				"Not F2P": true,
-				"Partial": true
-			},
-			"Buy the ~|Runecrafting master cape|~": {
-				"Category": ["Master skillcape"],
-				"NPCs": ["Larriar"],
-				"Level": 120,
-				"Output": "Runecrafting master cape",
-				"Primary": false,
-				"NoBoost": true,
-				"Priority": 3,
-				"Not F2P": true
-			},
-			"Activate the ~|Orthen teleportation device|~ at the Observation Outpost": {
-				"Tasks": {
-					"Complete the ~|Archaeology tutorial|~": "Archaeology"
-				},
-				"Chunks": ["16454-1"],
-				"Items": ["Ancient vis"],
-				"Level": 70,
-				"Skills": {
-					"Archaeology": 90
-				},
-				"Primary": false,
-				"Priority": 2
-			},
-			"Enter a tier two ~|Shifting Tombs|~": {
-				"Chunks": ["Shifting Tombs"],
-				"Level": 70,
-				"Skills": {
-					"Agility": 70,
-					"Thieving": 70,
-					"Construction": 70,
-					"Crafting": 70,
-					"Dungeoneering": 70,
-					"Prayer": 70,
-					"Divination": 70
-				},
-				"Primary": false,
-				"Priority": 3
-			},
 			"Enter a tier three ~|Shifting Tombs|~": {
 				"Chunks": ["Shifting Tombs"],
 				"Level": 90,
@@ -61202,46 +60998,226 @@
 				"Primary": false,
 				"Priority": 12
 			},
+			"Craft ~|sea singer robes|~": {
+				"Items": ["Chi*"],
+				"Level": 90,
+				"Objects": ["Port workshop"],
+				"Output": "SeaSingerRobes",
+				"Primary": true,
+				"Priority": 13,
+				"Not F2P": true
+			},
+			"Craft a ~|lined draconic plate (unimbued)|~": {
+				"Items": ["Lined draconic plate*"],
+				"Level": 90,
+				"Tasks": {
+					"It Should Have Been Called Chinskin*": "Nonskill"
+				},
+				"Output": "Lined draconic plate (unimbued)",
+				"Primary": true,
+				"Priority": 1000
+			},
+			"Craft a ~|tectonic mask|~": {
+				"Items": ["Tectonic energy*", "Stone of binding*"],
+				"Level": 91,
+				"Output": "Tectonic mask",
+				"Primary": true,
+				"Priority": 1,
+				"Not F2P": true
+			},
+			"Craft an ~|elite tectonic mask|~": {
+				"Items": ["Tectonic mask*", "Stone of binding*", "Praesulic essence (magic)*", "Draconic energy*"],
+				"Level": 91,
+				"Output": "Elite tectonic mask",
+				"Primary": true,
+				"Priority": 2,
+				"Not F2P": true
+			},
 			"Feed a ~|starved ancient effigy|~ with runecrafting": {
 				"Items": ["Starved ancient effigy (runecrafting/summoning)"],
 				"Level": 91,
 				"Primary": false,
+				"Priority": 1000,
+				"Not F2P": true
+			},
+			"Craft a ~|seasinger kiba|~": {
+				"Items": ["Chi*", "Koi scales*", "Gemstone kaseki*"],
+				"Level": 92,
+				"Objects": ["Port workshop"],
+				"Output": "Seasinger kiba",
+				"Primary": true,
+				"Priority": 1,
+				"Not F2P": true
+			},
+			"Craft a ~|seasinger makigai|~": {
+				"Items": ["Chi*", "Koi scales*", "Gemstone kaseki*"],
+				"Level": 92,
+				"Objects": ["Port workshop"],
+				"Output": "Seasinger makigai",
+				"Primary": true,
+				"Priority": 2,
+				"Not F2P": true
+			},
+			"Craft a ~|tectonic robe bottom|~": {
+				"Items": ["Tectonic energy*", "Stone of binding*"],
+				"Level": 92,
+				"Output": "Tectonic robe bottom",
+				"Primary": true,
 				"Priority": 3,
+				"Not F2P": true
+			},
+			"Craft an ~|elite tectonic robe bottom|~": {
+				"Items": ["Tectonic robe bottom*", "Stone of binding*", "Praesulic essence (magic)*", "Draconic energy*"],
+				"Level": 92,
+				"Output": "Elite tectonic robe bottom",
+				"Primary": true,
+				"Priority": 4,
+				"Not F2P": true
+			},
+			"Craft a ~|tectonic robe top|~": {
+				"Items": ["Tectonic energy*", "Stone of binding*"],
+				"Level": 93,
+				"Output": "Tectonic robe top",
+				"Primary": true,
+				"Priority": 1,
+				"Not F2P": true
+			},
+			"Craft an ~|elite tectonic robe top|~": {
+				"Items": ["Tectonic robe top*", "Stone of binding*", "Praesulic essence (magic)*", "Draconic energy*"],
+				"Level": 93,
+				"Output": "Elite tectonic robe top",
+				"Primary": true,
+				"Priority": 4,
+				"Not F2P": true
+			},
+			"Assemble a ~|Inquisitor staff|~": {
+				"Items": ["Praetorian staff*", "Inquisitor's staff ornament*", "Inquisitor's staff rod*", "Inquisitor's staff censer*"],
+				"Level": 93,
+				"Output": "Inquisitor staff",
+				"Primary": true,
+				"Skills": {
+					"Crafting": 1
+				},
+				"Priority": 2,
 				"Not F2P": true
 			},
 			"Feed a ~|nourished ancient effigy|~ with runecrafting": {
 				"Items": ["Starved ancient effigy (runecrafting/summoning)"],
 				"Level": 93,
 				"Primary": false,
-				"Priority": 3,
+				"Priority": 1000,
+				"Not F2P": true
+			},
+			"Wear ~|blood runecrafting gloves|~": {
+				"Items": ["Blood runecrafting gloves"],
+				"Level": 94,
+				"Primary": false,
+				"Priority": 1
+			},
+			"Siphon death and soul runes from ~|undead souls|~": {
+				"Chunks": ["The Runespan"],
+				"Level": 95,
+				"Primary": true,
+				"Priority": 1,
+				"Not F2P": true
+			},
+			"Cross a ~|greater conjuration platform|~": {
+				"Chunks": ["The Runespan"],
+				"Level": 95,
+				"Primary": false,
+				"Priority": 2,
 				"Not F2P": true
 			},
 			"Feed a ~|sated ancient effigy|~ with runecrafting": {
 				"Items": ["Starved ancient effigy (runecrafting/summoning)"],
 				"Level": 95,
 				"Primary": false,
-				"Priority": 3,
+				"Priority": 1000,
 				"Not F2P": true
 			},
 			"Feed a ~|gorged ancient effigy|~ with runecrafting": {
 				"Items": ["Starved ancient effigy (runecrafting/summoning)"],
 				"Level": 97,
 				"Primary": false,
-				"Priority": 1,
+				"Priority": 1000,
 				"Not F2P": true
 			},
-			"Obtain the ~|Archmage|~ title": {
-				"Category": ["Titles"],
-				"Chunks": ["12337-1"],
+			"Extract ~|praesulic essence (magic)|~ from Virtus armour": {
+				"Items": ["Virtus[+]*"],
+				"Level": 99,
+				"Objects": ["Dragonkin anvil"],
+				"Output": "Praesulic essence (magic)",
+				"Primary": true,
+				"Priority": 1,
+				"Not F2P": true,
+				"Partial": true
+			},
+			"Extract ~|tectonic essence|~ from tectonic armour": {
+				"Items": ["TectonicArmour[+]*"],
+				"Level": 99,
+				"Objects": ["Dragonkin anvil"],
+				"Output": "Tectonic essence",
+				"Primary": true,
+				"Priority": 2,
+				"Not F2P": true,
+				"Partial": true
+			},
+			"Extract ~|melodic essence|~ from Cywir weapons": {
+				"Items": ["Wand of the Cywir elders*"],
 				"Level": 99,
 				"Skills": {
-					"Magic": 99
+					"Smithing": 99
 				},
-				"Tasks": {
-					"~|Rune Memories|~ Complete the quest": "Quest"
+				"Objects": ["Dragonkin anvil"],
+				"Output": "Melodic essence",
+				"Primary": true,
+				"Priority": 3,
+				"Not F2P": true,
+				"Partial": true
+			},
+			"Extract ~|binding essence|~ from seismic weapons": {
+				"Items": ["Seismic wand*"],
+				"Level": 99,
+				"Skills": {
+					"Smithing": 99
 				},
+				"Objects": ["Dragonkin anvil"],
+				"Output": "Binding essence",
+				"Primary": true,
+				"Priority": 4,
+				"Not F2P": true,
+				"Partial": true
+			},
+			"Extract ~|crystalline essence|~ from attuned crystal magic weapons": {
+				"Chunks": ["8500"],
+				"Items": ["Attuned crystal weapon seed*"],
+				"Level": 99,
+				"Skills": {
+					"Smithing": 99
+				},
+				"Objects": ["Dragonkin anvil"],
+				"Output": "Crystalline essence",
+				"Primary": true,
+				"Priority": 5,
+				"Not F2P": true,
+				"Partial": true
+			},
+			"Buy the ~|Runecrafting cape|~": {
+				"Category": ["Skillcape"],
+				"NPCs": ["Larriar"],
+				"Level": 99,
+				"Output": "Runecrafting cape",
+				"Primary": true,
+				"NoBoost": true,
+				"Priority": 100,
+				"Not F2P": true
+			},
+			"Imbue an ~|empowered catalytic orb|~ in Daemonheim (or another empowered catalytic weapon)": {
+				"Category": ["Daemonheim tasks", "Mutli Step Processing"],
+				"Chunks": ["Dungeons of Daemonheim"],
+				"Level": 99,
 				"Primary": false,
-				"Priority": 7,
+				"Priority": 1000,
 				"Not F2P": true
 			},
 			"Anchor the ~|time altar|~": {
@@ -61322,16 +61298,6 @@
 				"Priority": 1,
 				"Not F2P": true
 			},
-			"Obtain ~|Ilme's thread|~ by runecrafting through altar running": {
-				"Chunks": ["RuneTemple[+]"],
-				"Items": ["RuneEssence[+]*"],
-				"Level": 105,
-				"Output": "Ilme's thread",
-				"Primary": false,
-				"Priority": 40,
-				"Not F2P": true,
-				"NoBoost": true
-			},
 			"Create a ~|shielded pouch exterior|~": {
 				"Chunks": ["RuneTemple[+]"],
 				"Items": ["Sign of runic protection*", "Royal dragon leather*", "Dinosaur leather*", "Felt*"],
@@ -61361,6 +61327,30 @@
 				"Priority": 4,
 				"Not F2P": true,
 				"Partial": true
+			},
+			"Obtain the ~|Archmage|~ title": {
+				"Category": ["Titles"],
+				"Chunks": ["12337-1"],
+				"Level": 99,
+				"Skills": {
+					"Magic": 99
+				},
+				"Tasks": {
+					"~|Rune Memories|~ Complete the quest": "Quest"
+				},
+				"Primary": false,
+				"Priority": 99,
+				"Not F2P": true
+			},
+			"Obtain ~|Ilme's thread|~ by runecrafting through altar running": {
+				"Chunks": ["RuneTemple[+]"],
+				"Items": ["RuneEssence[+]*"],
+				"Level": 105,
+				"Output": "Ilme's thread",
+				"Primary": false,
+				"Priority": 100,
+				"Not F2P": true,
+				"NoBoost": true
 			},
 			"Obtain an ~|abyssal runic synapse|~ by runecrafting through the abyss": {
 				"Chunks": ["RuneTemple[+]", "The Abyss"],
@@ -61514,6 +61504,16 @@
 				"Output": "Masterwork staff",
 				"Primary": true,
 				"Priority": 12,
+				"Not F2P": true
+			},
+			"Buy the ~|Runecrafting master cape|~": {
+				"Category": ["Master skillcape"],
+				"NPCs": ["Larriar"],
+				"Level": 120,
+				"Output": "Runecrafting master cape",
+				"Primary": false,
+				"NoBoost": true,
+				"Priority": 3,
 				"Not F2P": true
 			}
 		},
@@ -66698,29 +66698,23 @@
 			}
 		},
 		"Strength": {
-			"Complete a lap of the ~|Bandos agility course|~": {
-				"Chunks": ["Bandos's throne room"],
-				"Items": ["Mithril grapple", "GrappleCrossbow[+]"],
-				"Level": 60,
-				"Primary": true,
+			"Grow a ~|sunchoke|~": {
+				"Items": ["Sunchoke seed"],
+				"Objects": ["Allotment"],
+				"Level": 1,
 				"Skills": {
-					"Agility": 60,
-					"Ranged": 60
+					"Farming": 87
 				},
+				"Primary": true,
 				"Not Equip": true,
-				"Priority": 1
+				"Priority": 100
 			},
-			"Complete a lap of the ~|Dorgesh-Kaan agility course|~ grapple route": {
-				"Chunks": ["Dorgesh-Kaan Agility Course"],
-				"Items": ["Mithril grapple", "GrappleCrossbow[+]"],
-				"Level": 80,
+			"Train Strength in ~|Daemonheim|~": {
+				"Category": ["Daemonheim training"],
+				"Chunks": ["Dungeons of Daemonheim"],
+				"Level": 1,
 				"Primary": true,
-				"Skills": {
-					"Agility": 80,
-					"Ranged": 80
-				},
-				"Not Equip": true,
-				"Priority": 1
+				"Priority": 100
 			},
 			"Catch a ~|leaping trout|~": {
 				"Items": ["Barbarian bait[+]"],
@@ -66734,35 +66728,8 @@
 					"Fishing": 48,
 					"Agility": 15
 				},
-				"Priority": 1
-			},
-			"Catch a ~|leaping salmon|~": {
-				"Items": ["Barbarian bait[+]"],
-				"Level": 30,
-				"Objects": ["Fishing spot (barbarian)"],
-				"Tasks": {
-					"~|Barbarian Training|~ 2b3": "Quest"
-				},
-				"Primary": true,
-				"Skills": {
-					"Fishing": 58,
-					"Agility": 30
-				},
-				"Priority": 2
-			},
-			"Catch a ~|leaping sturgeon|~": {
-				"Items": ["Barbarian bait[+]"],
-				"Level": 45,
-				"Objects": ["Fishing spot (barbarian)"],
-				"Tasks": {
-					"~|Barbarian Training|~ 2b3": "Quest"
-				},
-				"Primary": true,
-				"Skills": {
-					"Fishing": 70,
-					"Agility": 45
-				},
-				"Priority": 2
+				"Priority": 1,
+				"Not Equip": true
 			},
 			"Cross the ~|strong tree (Lumbridge/Al Kharid)|~": {
 				"Category": ["Shortcut"],
@@ -66776,303 +66743,6 @@
 				},
 				"Not Equip": true,
 				"Priority": 1,
-				"NoBoost": true
-			},
-			"Cross the ~|wall (Falador)|~": {
-				"Category": ["Shortcut"],
-				"Objects": ["Wall (Falador)"],
-				"Items": ["Mithril grapple", "GrappleCrossbow[+]"],
-				"Level": 37,
-				"Primary": false,
-				"Skills": {
-					"Agility": 11,
-					"Ranged": 19
-				},
-				"Not Equip": true,
-				"Priority": 1,
-				"NoPet": true,
-				"Not F2P": true
-			},
-			"Cross the ~|rocks (Catherby)|~": {
-				"Category": ["Shortcut"],
-				"Objects": ["Rocks (Catherby)"],
-				"Items": ["Mithril grapple", "GrappleCrossbow[+]"],
-				"Level": 35,
-				"Primary": false,
-				"Skills": {
-					"Agility": 32,
-					"Ranged": 35
-				},
-				"Tasks": {
-					"~|Fishing Contest|~ Complete the quest": "Quest"
-				},
-				"Not Equip": true,
-				"Priority": 1,
-				"NoPet": true
-			},
-			"Cross the ~|grapple column|~": {
-				"Category": ["Shortcut"],
-				"Objects": ["Grapple column"],
-				"Items": ["Mithril grapple", "GrappleCrossbow[+]"],
-				"Level": 22,
-				"Primary": false,
-				"Skills": {
-					"Agility": 36,
-					"Ranged": 39
-				},
-				"Not Equip": true,
-				"Priority": 1,
-				"NoPet": true
-			},
-			"Cross the ~|wall (Yanille)|~": {
-				"Category": ["Shortcut"],
-				"Objects": ["Wall (Yanille)"],
-				"Items": ["Mithril grapple", "GrappleCrossbow[+]"],
-				"Level": 38,
-				"Primary": false,
-				"Skills": {
-					"Agility": 39,
-					"Ranged": 21
-				},
-				"Priority": 1,
-				"NoPet": true
-			},
-			"Cross the ~|strong tree (Karamja)|~": {
-				"Category": ["Shortcut"],
-				"Chunks": ["11312", "11313"],
-				"Items": ["Mithril grapple", "GrappleCrossbow[+]"],
-				"Level": 21,
-				"Primary": false,
-				"Skills": {
-					"Agility": 53,
-					"Ranged": 42
-				},
-				"Not Equip": true,
-				"Priority": 1,
-				"NoBoost": true,
-				"Not F2P": true
-			},
-			"Cross the ~|boulder (God Wars Dungeon)|~": {
-				"Category": ["Shortcut"],
-				"Chunks": ["11577-1"],
-				"Level": 60,
-				"Primary": false,
-				"Priority": 2,
-				"NoBoost": true
-			},
-			"Wield the ~|Barrelchest anchor|~": {
-				"Items": ["Barrelchest anchor"],
-				"Level": 40,
-				"Primary": false,
-				"Skills": {
-					"Attack": 60
-				},
-				"Priority": 1,
-				"NoPet": true,
-				"NoBoost": true
-			},
-			"Wield a ~|bonecrusher maul|~": {
-				"Items": ["Bonecrusher maul"],
-				"Level": 40,
-				"Skills": {
-					"Attack": 1
-				},
-				"Primary": false,
-				"Priority": 11,
-				"NoPet": true,
-				"NoBoost": true
-			},
-			"Wield a ~|granite maul|~": {
-				"Items": ["Granite maul"],
-				"Level": 55,
-				"Primary": false,
-				"Skills": {
-					"Attack": 55
-				},
-				"Priority": 1,
-				"NoPet": true,
-				"NoBoost": true
-			},
-			"Wield a ~|granite mace|~": {
-				"Items": ["Granite mace"],
-				"Level": 55,
-				"Primary": false,
-				"Skills": {
-					"Attack": 55
-				},
-				"Priority": 2,
-				"NoPet": true,
-				"NoBoost": true
-			},
-			"Wield a ~|TzHaar-Ket-Em|~": {
-				"Items": ["TzHaar-Ket-Em"],
-				"Level": 60,
-				"Primary": false,
-				"Skills": {
-					"Attack": 60
-				},
-				"Priority": 1,
-				"NoPet": true,
-				"NoBoost": true
-			},
-			"Wield a ~|TzHaar-Ket-Om|~": {
-				"Items": ["TzHaar-Ket-Om"],
-				"Level": 60,
-				"Primary": false,
-				"Priority": 2,
-				"NoPet": true,
-				"NoBoost": true
-			},
-			"Wield an ~|argonite maul|~ in Daemonheim": {
-				"Category": ["Daemonheim tasks"],
-				"Chunks": ["Dungeons of Daemonheim"],
-				"Level": 60,
-				"Primary": false,
-				"Priority": 1000,
-				"NoPet": true,
-				"NoBoost": true
-			},
-			"Gain access to the ~|Warriors' Guild|~": {
-				"Chunks": ["11319-1"],
-				"Level": 65,
-				"Skills": {
-					"Attack": 65
-				},
-				"Primary": false,
-				"Priority": 1,
-				"NoPet": true,
-				"NoBoost": true
-			},
-			"Wield ~|Torag's hammers|~": {
-				"Items": ["Torag's hammer"],
-				"Level": 70,
-				"Primary": false,
-				"Skills": {
-					"Attack": 70
-				},
-				"Priority": 1,
-				"NoPet": true,
-				"NoBoost": true
-			},
-			"Wield ~|Dharok's greataxe|~": {
-				"Items": ["Dharok's greataxe"],
-				"Level": 70,
-				"Primary": false,
-				"Skills": {
-					"Attack": 70
-				},
-				"Priority": 2,
-				"NoPet": true,
-				"NoBoost": true
-			},
-			"Access the ~|Bandos' stronghold|~": {
-				"Level": 70,
-				"Chunks": ["God Wars Dungeon"],
-				"Primary": false,
-				"Priority": 3,
-				"NoPet": true,
-				"NoBoost": true
-			},
-			"Catch a ~|raw shark|~ barehanded": {
-				"Level": 76,
-				"Objects": ["Fishing spot (big fishing net, harpoon)"],
-				"Primary": true,
-				"Skills": {
-					"Fishing": 96
-				},
-				"Tasks": {
-					"~|Barbarian Training|~ 2b4a2": "Quest"
-				},
-				"Output": "Raw shark",
-				"Priority": 1
-			},
-			"Catch a ~|raw baron shark|~ barehanded": {
-				"Items": ["Juju fishing potion"],
-				"Level": 76,
-				"Objects": ["Fishing spot (big fishing net, harpoon)"],
-				"Primary": true,
-				"Skills": {
-					"Fishing": 96
-				},
-				"Tasks": {
-					"~|Barbarian Training|~ 2b4a2": "Quest"
-				},
-				"Output": "Raw baron shark",
-				"Priority": 2
-			},
-			"Wield a ~|terrasaur maul|~": {
-				"Items": ["Terrasaur maul"],
-				"Level": 80,
-				"Primary": false,
-				"Priority": 2,
-				"NoPet": true,
-				"NoBoost": true
-			},
-			"Wear an ~|am-hej|~": {
-				"Items": ["Am-hej"],
-				"Level": 90,
-				"Primary": false,
-				"Priority": 1,
-				"NoPet": true,
-				"NoBoost": true,
-				"Not F2P": true
-			},
-			"Keep the ~|big rock|~": {
-				"Level": 90,
-				"Tasks": {
-					"~|King of the Dwarves|~ Complete the quest": "Quest"
-				},
-				"Primary": false,
-				"Priority": 2,
-				"NoPet": true,
-				"NoBoost": true
-			},
-			"Make a ~|Milestone cape (90)|~": {
-				"Category": ["Skillcape"],
-				"Items": ["Balls of wool"],
-				"Objects": ["Loom"],
-				"Level": 90,
-				"Output": "Milestone cape (90)",
-				"Primary": false,
-				"Skills": {
-					"Agility": 90,
-					"Archaeology": 90,
-					"Attack": 90,
-					"Constitution": 90,
-					"Construction": 90,
-					"Cooking": 90,
-					"Crafting": 90,
-					"Defence": 90,
-					"Divination": 90,
-					"Dungeoneering": 90,
-					"Farming": 90,
-					"Firemaking": 90,
-					"Fishing": 90,
-					"fletching": 90,
-					"Herblore": 90,
-					"Hunter": 90,
-					"Magic": 90,
-					"Mining": 90,
-					"Necromancy": 90,
-					"Prayer": 90,
-					"Ranged": 90,
-					"Runecrafting": 90,
-					"Slayer": 90,
-					"Smithing": 90,
-					"Summoning": 90,
-					"Thieving": 90,
-					"Woodcutting": 90
-				},
-				"Priority": 2,
-				"NoPet": true,
-				"NoBoost": true
-			},
-			"Wield a ~|Ek-ZekKil|~": {
-				"Items": ["Ek-ZekKil"],
-				"Level": 95,
-				"Primary": false,
-				"Priority": 1,
-				"NoPet": true,
 				"NoBoost": true
 			},
 			"Equip a ~|black mask|~": {
@@ -67170,6 +66840,131 @@
 				"NoBoost": true,
 				"Not F2P": true
 			},
+			"Cross the ~|strong tree (Karamja)|~": {
+				"Category": ["Shortcut"],
+				"Chunks": ["11312", "11313"],
+				"Items": ["Mithril grapple", "GrappleCrossbow[+]"],
+				"Level": 21,
+				"Primary": false,
+				"Skills": {
+					"Agility": 53,
+					"Ranged": 42
+				},
+				"Not Equip": true,
+				"Priority": 1,
+				"NoBoost": true,
+				"Not F2P": true
+			},
+			"Cross the ~|grapple column|~": {
+				"Category": ["Shortcut"],
+				"Objects": ["Grapple column"],
+				"Items": ["Mithril grapple", "GrappleCrossbow[+]"],
+				"Level": 22,
+				"Primary": false,
+				"Skills": {
+					"Agility": 36,
+					"Ranged": 39
+				},
+				"Not Equip": true,
+				"Priority": 1,
+				"NoPet": true
+			},
+			"Catch a ~|leaping salmon|~": {
+				"Items": ["Barbarian bait[+]"],
+				"Level": 30,
+				"Objects": ["Fishing spot (barbarian)"],
+				"Tasks": {
+					"~|Barbarian Training|~ 2b3": "Quest"
+				},
+				"Primary": true,
+				"Skills": {
+					"Fishing": 58,
+					"Agility": 30
+				},
+				"Priority": 2,
+				"Not Equip": true
+			},
+			"Cross the ~|rocks (Catherby)|~": {
+				"Category": ["Shortcut"],
+				"Objects": ["Rocks (Catherby)"],
+				"Items": ["Mithril grapple", "GrappleCrossbow[+]"],
+				"Level": 35,
+				"Primary": false,
+				"Skills": {
+					"Agility": 32,
+					"Ranged": 35
+				},
+				"Tasks": {
+					"~|Fishing Contest|~ Complete the quest": "Quest"
+				},
+				"Not Equip": true,
+				"Priority": 1,
+				"NoPet": true
+			},
+			"Catch a ~|raw tuna|~ barehanded": {
+				"Level": 35,
+				"Objects": ["Fishing spot (cage, harpoon)"],
+				"Primary": true,
+				"Skills": {
+					"Fishing": 55
+				},
+				"Tasks": {
+					"~|Barbarian Training|~ 2b4a2": "Quest"
+				},
+				"Output": "Raw tuna",
+				"Priority": 2
+			},
+			"Cross the ~|wall (Falador)|~": {
+				"Category": ["Shortcut"],
+				"Objects": ["Wall (Falador)"],
+				"Items": ["Mithril grapple", "GrappleCrossbow[+]"],
+				"Level": 37,
+				"Primary": false,
+				"Skills": {
+					"Agility": 11,
+					"Ranged": 19
+				},
+				"Not Equip": true,
+				"Priority": 1,
+				"NoPet": true,
+				"Not F2P": true
+			},
+			"Cross the ~|wall (Yanille)|~": {
+				"Category": ["Shortcut"],
+				"Objects": ["Wall (Yanille)"],
+				"Items": ["Mithril grapple", "GrappleCrossbow[+]"],
+				"Level": 38,
+				"Primary": false,
+				"Skills": {
+					"Agility": 39,
+					"Ranged": 21
+				},
+				"Priority": 1,
+				"NoPet": true,
+				"No Equip": true
+			},
+			"Wield the ~|Barrelchest anchor|~": {
+				"Items": ["Barrelchest anchor"],
+				"Level": 40,
+				"Primary": false,
+				"Skills": {
+					"Attack": 60
+				},
+				"Priority": 1,
+				"NoPet": true,
+				"NoBoost": true
+			},
+			"Wield a ~|bonecrusher maul|~": {
+				"Items": ["Bonecrusher maul"],
+				"Level": 40,
+				"Skills": {
+					"Attack": 1
+				},
+				"Primary": false,
+				"Priority": 11,
+				"NoPet": true,
+				"NoBoost": true
+			},
 			"Equip ~|void knight equipment|~": {
 				"Items": ["Voidequipment[+]"],
 				"Level": 42,
@@ -67187,30 +66982,20 @@
 				"NoBoost": true,
 				"Not F2P": true
 			},
-			"Equip ~|granite equipment|~": {
-				"Items": ["GraniteArmour[+]"],
-				"Level": 55,
-				"Primary": false,
-				"Skills": {
-					"Defence": 55
+			"Catch a ~|leaping sturgeon|~": {
+				"Items": ["Barbarian bait[+]"],
+				"Level": 45,
+				"Objects": ["Fishing spot (barbarian)"],
+				"Tasks": {
+					"~|Barbarian Training|~ 2b3": "Quest"
 				},
-				"Priority": 3,
-				"NoPet": true,
-				"NoBoost": true,
-				"Not F2P": true
-			},
-			"Catch a ~|raw tuna|~ barehanded": {
-				"Level": 35,
-				"Objects": ["Fishing spot (cage, harpoon)"],
 				"Primary": true,
 				"Skills": {
-					"Fishing": 55
+					"Fishing": 70,
+					"Agility": 45
 				},
-				"Tasks": {
-					"~|Barbarian Training|~ 2b4a2": "Quest"
-				},
-				"Output": "Raw tuna",
-				"Priority": 2
+				"Priority": 2,
+				"Not Equip": true
 			},
 			"Catch a ~|raw swordfish|~ barehanded": {
 				"Level": 50,
@@ -67225,35 +67010,126 @@
 				"Output": "Raw swordfish",
 				"Priority": 1
 			},
-			"Open the door to the ~|Het tomb|~": {
-				"Chunks": ["13362-1"],
-				"Level": 80,
-				"Tasks": {
-					"~|Our Man in the North|~ Complete the quest": "Quest"
+			"Wield a ~|granite maul|~": {
+				"Items": ["Granite maul"],
+				"Level": 55,
+				"Primary": false,
+				"Skills": {
+					"Attack": 55
 				},
-				"Primary": false,
-				"Priority": 3,
-				"NoPet": true
-			},
-			"Equip a ~|superior scrimshaw of vampyrism|~": {
-				"Items": ["Superior scrimshaw of vampyrism"],
-				"Level": 80,
-				"Primary": false,
-				"Priority": 4,
+				"Priority": 1,
 				"NoPet": true,
 				"NoBoost": true
 			},
-			"Unlock and use the ~|Divine Rage|~ prayer": {
-				"Items": ["Divine Rage prayer codex"],
-				"Level": 85,
+			"Wield a ~|granite mace|~": {
+				"Items": ["Granite mace"],
+				"Level": 55,
+				"Primary": false,
 				"Skills": {
-					"Prayer": 85,
-					"Magic": 85,
-					"Ranged": 85,
-					"Necromancy": 85
+					"Attack": 55
+				},
+				"Priority": 2,
+				"NoPet": true,
+				"NoBoost": true
+			},
+			"Equip ~|granite equipment|~": {
+				"Items": ["GraniteArmour[+]"],
+				"Level": 55,
+				"Primary": false,
+				"Skills": {
+					"Defence": 55
+				},
+				"Priority": 3,
+				"NoPet": true,
+				"NoBoost": true,
+				"Not F2P": true
+			},
+			"Wield a ~|TzHaar-Ket-Em|~": {
+				"Items": ["TzHaar-Ket-Em"],
+				"Level": 60,
+				"Primary": false,
+				"Skills": {
+					"Attack": 60
+				},
+				"Priority": 1,
+				"NoPet": true,
+				"NoBoost": true
+			},
+			"Complete a lap of the ~|Bandos agility course|~": {
+				"Chunks": ["Bandos's throne room"],
+				"Items": ["Mithril grapple", "GrappleCrossbow[+]"],
+				"Level": 60,
+				"Primary": true,
+				"Skills": {
+					"Agility": 60,
+					"Ranged": 60
+				},
+				"Not Equip": true,
+				"Priority": 1
+			},
+			"Cross the ~|boulder (God Wars Dungeon)|~": {
+				"Category": ["Shortcut"],
+				"Chunks": ["11577-1"],
+				"Level": 60,
+				"Primary": false,
+				"Priority": 2,
+				"NoBoost": true
+			},
+			"Wield a ~|TzHaar-Ket-Om|~": {
+				"Items": ["TzHaar-Ket-Om"],
+				"Level": 60,
+				"Primary": false,
+				"Priority": 2,
+				"NoPet": true,
+				"NoBoost": true
+			},
+			"Wield an ~|argonite maul|~ in Daemonheim": {
+				"Category": ["Daemonheim tasks"],
+				"Chunks": ["Dungeons of Daemonheim"],
+				"Level": 60,
+				"Primary": false,
+				"Priority": 1000,
+				"NoPet": true,
+				"NoBoost": true
+			},
+			"Gain access to the ~|Warriors' Guild|~": {
+				"Chunks": ["11319-1"],
+				"Level": 65,
+				"Skills": {
+					"Attack": 65
 				},
 				"Primary": false,
-				"Priority": 5,
+				"Priority": 1,
+				"NoPet": true,
+				"NoBoost": true
+			},
+			"Wield ~|Torag's hammers|~": {
+				"Items": ["Torag's hammer"],
+				"Level": 70,
+				"Primary": false,
+				"Skills": {
+					"Attack": 70
+				},
+				"Priority": 1,
+				"NoPet": true,
+				"NoBoost": true
+			},
+			"Wield ~|Dharok's greataxe|~": {
+				"Items": ["Dharok's greataxe"],
+				"Level": 70,
+				"Primary": false,
+				"Skills": {
+					"Attack": 70
+				},
+				"Priority": 2,
+				"NoPet": true,
+				"NoBoost": true
+			},
+			"Access the ~|Bandos' stronghold|~": {
+				"Level": 70,
+				"Chunks": ["God Wars Dungeon"],
+				"Primary": false,
+				"Priority": 3,
 				"NoPet": true,
 				"NoBoost": true
 			},
@@ -67289,7 +67165,153 @@
 					"Magic": 75,
 					"Necromancy": 75
 				},
+				"Priority": 2,
+				"NoPet": true,
+				"NoBoost": true
+			},
+			"Catch a ~|raw shark|~ barehanded": {
+				"Level": 76,
+				"Objects": ["Fishing spot (big fishing net, harpoon)"],
+				"Primary": true,
+				"Skills": {
+					"Fishing": 96
+				},
+				"Tasks": {
+					"~|Barbarian Training|~ 2b4a2": "Quest"
+				},
+				"Output": "Raw shark",
+				"Priority": 1
+			},
+			"Catch a ~|raw baron shark|~ barehanded": {
+				"Items": ["Juju fishing potion"],
+				"Level": 76,
+				"Objects": ["Fishing spot (big fishing net, harpoon)"],
+				"Primary": true,
+				"Skills": {
+					"Fishing": 96
+				},
+				"Tasks": {
+					"~|Barbarian Training|~ 2b4a2": "Quest"
+				},
+				"Output": "Raw baron shark",
+				"Priority": 2
+			},
+			"Complete a lap of the ~|Dorgesh-Kaan agility course|~ grapple route": {
+				"Chunks": ["Dorgesh-Kaan Agility Course"],
+				"Items": ["Mithril grapple", "GrappleCrossbow[+]"],
+				"Level": 80,
+				"Primary": true,
+				"Skills": {
+					"Agility": 80,
+					"Ranged": 80
+				},
+				"Not Equip": true,
+				"Priority": 1
+			},
+			"Wield a ~|terrasaur maul|~": {
+				"Items": ["Terrasaur maul"],
+				"Level": 80,
+				"Primary": false,
+				"Priority": 2,
+				"NoPet": true,
+				"NoBoost": true
+			},
+			"Open the door to the ~|Het tomb|~": {
+				"Chunks": ["13362-1"],
+				"Level": 80,
+				"Tasks": {
+					"~|Our Man in the North|~ Complete the quest": "Quest"
+				},
+				"Primary": false,
+				"Priority": 3,
+				"NoPet": true
+			},
+			"Equip a ~|superior scrimshaw of vampyrism|~": {
+				"Items": ["Superior scrimshaw of vampyrism"],
+				"Level": 80,
+				"Primary": false,
+				"Priority": 4,
+				"NoPet": true,
+				"NoBoost": true
+			},
+			"Unlock and use the ~|Divine Rage|~ prayer": {
+				"Items": ["Divine Rage prayer codex"],
+				"Level": 85,
+				"Skills": {
+					"Prayer": 85,
+					"Magic": 85,
+					"Ranged": 85,
+					"Necromancy": 85
+				},
+				"Primary": false,
 				"Priority": 5,
+				"NoPet": true,
+				"NoBoost": true
+			},
+			"Wear an ~|am-hej|~": {
+				"Items": ["Am-hej"],
+				"Level": 90,
+				"Primary": false,
+				"Priority": 1,
+				"NoPet": true,
+				"NoBoost": true,
+				"Not F2P": true
+			},
+			"Keep the ~|big rock|~": {
+				"Level": 90,
+				"Tasks": {
+					"~|King of the Dwarves|~ Complete the quest": "Quest"
+				},
+				"Primary": false,
+				"Priority": 2,
+				"NoPet": true,
+				"NoBoost": true
+			},
+			"Make a ~|Milestone cape (90)|~": {
+				"Category": ["Skillcape"],
+				"Items": ["Balls of wool"],
+				"Objects": ["Loom"],
+				"Level": 90,
+				"Output": "Milestone cape (90)",
+				"Primary": false,
+				"Skills": {
+					"Agility": 90,
+					"Archaeology": 90,
+					"Attack": 90,
+					"Constitution": 90,
+					"Construction": 90,
+					"Cooking": 90,
+					"Crafting": 90,
+					"Defence": 90,
+					"Divination": 90,
+					"Dungeoneering": 90,
+					"Farming": 90,
+					"Firemaking": 90,
+					"Fishing": 90,
+					"fletching": 90,
+					"Herblore": 90,
+					"Hunter": 90,
+					"Magic": 90,
+					"Mining": 90,
+					"Necromancy": 90,
+					"Prayer": 90,
+					"Ranged": 90,
+					"Runecrafting": 90,
+					"Slayer": 90,
+					"Smithing": 90,
+					"Summoning": 90,
+					"Thieving": 90,
+					"Woodcutting": 90
+				},
+				"Priority": 2,
+				"NoPet": true,
+				"NoBoost": true
+			},
+			"Wield a ~|Ek-ZekKil|~": {
+				"Items": ["Ek-ZekKil"],
+				"Level": 95,
+				"Primary": false,
+				"Priority": 1,
 				"NoPet": true,
 				"NoBoost": true
 			},
@@ -67299,7 +67321,7 @@
 				"Level": 99,
 				"Output": "Strength cape",
 				"Primary": true,
-				"Priority": 2,
+				"Priority": 1000,
 				"NoPet": true,
 				"NoBoost": true,
 				"Not F2P": true
@@ -67309,7 +67331,7 @@
 				"Chunks": ["Dungeons of Daemonheim"],
 				"Level": 99,
 				"Primary": false,
-				"Priority": 4,
+				"Priority": 1001,
 				"NoPet": true,
 				"NoBoost": true,
 				"Not F2P": true
@@ -67324,23 +67346,6 @@
 				"NoPet": true,
 				"NoBoost": true,
 				"Not F2P": true
-			},
-			"Grow a ~|sunchoke|~": {
-				"Items": ["Sunchoke seed"],
-				"Objects": ["Allotment"],
-				"Level": 1,
-				"Skills": {
-					"Farming": 87
-				},
-				"Primary": true,
-				"Priority": 1
-			},
-			"Train Strength in ~|Daemonheim|~": {
-				"Category": ["Daemonheim training"],
-				"Chunks": ["Dungeons of Daemonheim"],
-				"Level": 1,
-				"Primary": true,
-				"Priority": 2
 			}
 		},
 		"Summoning": {
@@ -67351,895 +67356,6 @@
 				"Output": "Spirit wolf pouch",
 				"Primary": true,
 				"Priority": 1
-			},
-			"Create a ~|dreadfowl pouch|~": {
-				"Items": ["Gold charm*", "Raw chicken*", "Pouch*", "Spirit shards*"],
-				"Level": 4,
-				"Objects": ["Obelisk"],
-				"Output": "Dreadfowl pouch",
-				"Primary": true,
-				"Priority": 1
-			},
-			"Create a ~|spirit spider pouch|~": {
-				"Items": ["Gold charm*", "Spider carcass*", "Pouch*", "Spirit shards*"],
-				"Level": 10,
-				"Objects": ["Obelisk"],
-				"Output": "Spirit spider pouch",
-				"Primary": true,
-				"Priority": 1
-			},
-			"Create a ~|thorny snail pouch|~": {
-				"Items": ["Gold charm*", "Thin snail*", "Pouch*", "Spirit shards*"],
-				"Level": 13,
-				"Objects": ["Obelisk"],
-				"Output": "Thorny snail pouch",
-				"Primary": true,
-				"Priority": 1
-			},
-			"Create a ~|granite crab pouch|~": {
-				"Items": ["Gold charm*", "Iron ore*", "Pouch*", "Spirit shards*"],
-				"Level": 16,
-				"Objects": ["Obelisk"],
-				"Output": "Granite crab pouch",
-				"Primary": true,
-				"Priority": 1
-			},
-			"Create a ~|spirit mosquito pouch|~": {
-				"Items": ["Gold charm*", "Proboscis*", "Pouch*", "Spirit shards*"],
-				"Level": 17,
-				"Objects": ["Obelisk"],
-				"Output": "Spirit mosquito pouch",
-				"Primary": true,
-				"Priority": 1
-			},
-			"Create a ~|desert wyrm pouch|~": {
-				"Items": ["Green charm*", "Bucket of sand*", "Pouch*", "Spirit shards*"],
-				"Level": 18,
-				"Objects": ["Obelisk"],
-				"Output": "Desert wyrm pouch",
-				"Primary": true,
-				"Priority": 1
-			},
-			"Create a ~|spirit scorpion pouch|~": {
-				"Items": ["Crimson charm*", "Bronze claws*", "Pouch*", "Spirit shards*"],
-				"Level": 19,
-				"Objects": ["Obelisk"],
-				"Output": "Spirit scorpion pouch",
-				"Primary": true,
-				"Priority": 1
-			},
-			"Create a ~|spirit Tz-Kih pouch|~": {
-				"Items": ["Crimson charm*", "Obsidian charm*", "Pouch*", "Spirit shards*"],
-				"Level": 22,
-				"Objects": ["Obelisk"],
-				"Output": "Spirit Tz-Kih pouch",
-				"Primary": true,
-				"Priority": 1
-			},
-			"Create a ~|albino rat pouch|~": {
-				"Items": ["Blue charm*", "Raw rat meat*", "Pouch*", "Spirit shards*"],
-				"Level": 23,
-				"Objects": ["Obelisk"],
-				"Output": "Albino rat pouch",
-				"Primary": true,
-				"Priority": 1
-			},
-			"Create a ~|spirit kalphite pouch|~": {
-				"Items": ["Blue charm*", "Potato cactus*", "Pouch*", "Spirit shards*"],
-				"Level": 25,
-				"Objects": ["Obelisk"],
-				"Output": "Spirit kalphite pouch",
-				"Primary": true,
-				"Priority": 1
-			},
-			"Create a ~|compost mound pouch|~": {
-				"Items": ["Green charm*", "Compost*", "Pouch*", "Spirit shards*"],
-				"Level": 28,
-				"Objects": ["Obelisk"],
-				"Output": "Compost mound pouch",
-				"Primary": true,
-				"Priority": 1
-			},
-			"Create a ~|giant chinchompa pouch|~": {
-				"Items": ["Blue charm*", "Chinchompa*", "Pouch*", "Spirit shards*"],
-				"Level": 29,
-				"Objects": ["Obelisk"],
-				"Output": "Giant chinchompa pouch",
-				"Primary": true,
-				"Priority": 1
-			},
-			"Create a ~|jackalope pouch|~": {
-				"Items": ["Gold charm*", "Jackalope antlers*", "Pouch*", "Spirit shards*"],
-				"Level": 30,
-				"Objects": ["Obelisk"],
-				"Output": "Jackalope pouch",
-				"Primary": true,
-				"Priority": 1
-			},
-			"Create a ~|jackalope scroll (Dig for Soil)|~": {
-				"Items": ["Jackalope pouch*"],
-				"Level": 30,
-				"Objects": ["Obelisk"],
-				"Output": "Jackalope scroll (Dig for Soil)",
-				"Primary": true,
-				"Priority": 2
-			},
-			"Create a ~|vampyre bat pouch|~": {
-				"Items": ["Crimson charm*", "Vampyre dust*", "Pouch*", "Spirit shards*"],
-				"Level": 31,
-				"Objects": ["Obelisk"],
-				"Output": "Vampyre bat pouch",
-				"Primary": true,
-				"Priority": 1
-			},
-			"Create a ~|honey badger pouch|~": {
-				"Items": ["Crimson charm*", "Honeycomb*", "Pouch*", "Spirit shards*"],
-				"Level": 32,
-				"Objects": ["Obelisk"],
-				"Output": "Honey badger pouch",
-				"Primary": true,
-				"Priority": 1
-			},
-			"Create a ~|beaver pouch|~": {
-				"Items": ["Green charm*", "Willow logs*", "Pouch*", "Spirit shards*"],
-				"Level": 33,
-				"Objects": ["Obelisk"],
-				"Output": "Beaver pouch",
-				"Primary": true,
-				"Priority": 1
-			},
-			"Create a ~|void ravager pouch|~": {
-				"Items": ["Green charm*", "Ravager charm*", "Pouch*", "Spirit shards*"],
-				"Level": 34,
-				"Objects": ["Obelisk"],
-				"Output": "Void ravager pouch",
-				"Primary": true,
-				"Priority": 2
-			},
-			"Create a ~|void shifter pouch|~": {
-				"Items": ["Blue charm*", "Shifter charm*", "Pouch*", "Spirit shards*"],
-				"Level": 34,
-				"Objects": ["Obelisk"],
-				"Output": "Void shifter pouch",
-				"Primary": true,
-				"Priority": 1
-			},
-			"Create a ~|void spinner pouch|~": {
-				"Items": ["Blue charm*", "Spinner charm*", "Pouch*", "Spirit shards*"],
-				"Level": 34,
-				"Objects": ["Obelisk"],
-				"Output": "Void spinner pouch",
-				"Primary": true,
-				"Priority": 3
-			},
-			"Create a ~|void torcher pouch|~": {
-				"Items": ["Blue charm*", "Torcher charm*", "Pouch*", "Spirit shards*"],
-				"Level": 34,
-				"Objects": ["Obelisk"],
-				"Output": "Void torcher pouch",
-				"Primary": true,
-				"Priority": 4
-			},
-			"Create a ~|bronze minotaur pouch|~": {
-				"Items": ["Blue charm*", "Bronze bar*", "Pouch*", "Spirit shards*"],
-				"Level": 36,
-				"Objects": ["Obelisk"],
-				"Output": "Bronze minotaur pouch",
-				"Primary": true,
-				"Priority": 1
-			},
-			"Create a ~|bull ant pouch|~": {
-				"Items": ["Gold charm*", "Marigolds*", "Pouch*", "Spirit shards*"],
-				"Level": 40,
-				"Objects": ["Obelisk"],
-				"Output": "Bull ant pouch",
-				"Primary": true,
-				"Priority": 1
-			},
-			"Create a ~|macaw pouch|~": {
-				"Items": ["Green charm*", "Clean guam*", "Pouch*", "Spirit shards*"],
-				"Level": 41,
-				"Objects": ["Obelisk"],
-				"Output": "Macaw pouch",
-				"Primary": true,
-				"Priority": 1
-			},
-			"Create a ~|evil turnip (familiar) pouch|~": {
-				"Items": ["Crimson charm*", "Carved evil turnip*", "Pouch*", "Spirit shards*"],
-				"Level": 42,
-				"Objects": ["Obelisk"],
-				"Output": "Evil turnip pouch",
-				"Primary": true,
-				"Priority": 1
-			},
-			"Create a ~|spirit cockatrice pouch|~": {
-				"Items": ["Green charm*", "Cockatrice egg*", "Pouch*", "Spirit shards*"],
-				"Level": 43,
-				"Objects": ["Obelisk"],
-				"Output": "Spirit cockatrice pouch",
-				"Primary": true,
-				"Priority": 1
-			},
-			"Create a ~|spirit guthatrice pouch|~": {
-				"Items": ["Green charm*", "Guthatrice egg*", "Pouch*", "Spirit shards*"],
-				"Level": 43,
-				"Objects": ["Obelisk"],
-				"Output": "Spirit guthatrice pouch",
-				"Primary": true,
-				"Priority": 2
-			},
-			"Create a ~|spirit saratrice pouch|~": {
-				"Items": ["Green charm*", "Saratrice egg*", "Pouch*", "Spirit shards*"],
-				"Level": 43,
-				"Objects": ["Obelisk"],
-				"Output": "Spirit saratrice pouch",
-				"Primary": true,
-				"Priority": 3
-			},
-			"Create a ~|spirit zamatrice pouch|~": {
-				"Items": ["Green charm*", "Zamatrice egg*", "Pouch*", "Spirit shards*"],
-				"Level": 43,
-				"Objects": ["Obelisk"],
-				"Output": "Spirit zamatrice pouch",
-				"Primary": true,
-				"Priority": 4
-			},
-			"Create a ~|spirit pengatrice pouch|~": {
-				"Items": ["Green charm*", "Pengatrice egg*", "Pouch*", "Spirit shards*"],
-				"Level": 43,
-				"Objects": ["Obelisk"],
-				"Output": "Spirit pengatrice pouch",
-				"Primary": true,
-				"Priority": 5
-			},
-			"Create a ~|spirit coraxatrice pouch|~": {
-				"Items": ["Green charm*", "Coraxatrice egg*", "Pouch*", "Spirit shards*"],
-				"Level": 43,
-				"Objects": ["Obelisk"],
-				"Output": "Spirit coraxatrice pouch",
-				"Primary": true,
-				"Priority": 6
-			},
-			"Create a ~|spirit vulatrice pouch|~": {
-				"Items": ["Green charm*", "Vulatrice egg*", "Pouch*", "Spirit shards*"],
-				"Level": 43,
-				"Objects": ["Obelisk"],
-				"Output": "Spirit vulatrice pouch",
-				"Primary": true,
-				"Priority": 7
-			},
-			"Create a ~|iron minotaur pouch|~": {
-				"Items": ["Blue charm*", "Iron bar*", "Pouch*", "Spirit shards*"],
-				"Level": 46,
-				"Objects": ["Obelisk"],
-				"Output": "Iron minotaur pouch",
-				"Primary": true,
-				"Priority": 1
-			},
-			"Create a ~|pyrelord pouch|~": {
-				"Items": ["Crimson charm*", "Tinderbox*", "Pouch*", "Spirit shards*"],
-				"Level": 46,
-				"Objects": ["Obelisk"],
-				"Output": "Pyrelord pouch",
-				"Primary": true,
-				"Priority": 2
-			},
-			"Create a ~|magpie pouch|~": {
-				"Items": ["Green charm*", "Gold ring*", "Pouch*", "Spirit shards*"],
-				"Level": 47,
-				"Objects": ["Obelisk"],
-				"Output": "Magpie pouch",
-				"Primary": true,
-				"Priority": 1
-			},
-			"Create a ~|bloated leech pouch|~": {
-				"Items": ["Crimson charm*", "Raw beef*", "Pouch*", "Spirit shards*"],
-				"Level": 49,
-				"Objects": ["Obelisk"],
-				"Output": "Bloated leech pouch",
-				"Primary": true,
-				"Priority": 1
-			},
-			"Create a ~|spirit terrorbird pouch|~": {
-				"Items": ["Gold charm*", "Raw bird meat*", "Pouch*", "Spirit shards*"],
-				"Level": 52,
-				"Objects": ["Obelisk"],
-				"Output": "Spirit terrorbird pouch",
-				"Primary": true,
-				"Priority": 1
-			},
-			"Create a ~|abyssal parasite pouch|~": {
-				"Items": ["Green charm*", "Abyssal charm*", "Pouch*", "Spirit shards*"],
-				"Level": 54,
-				"Objects": ["Obelisk"],
-				"Output": "Abyssal parasite pouch",
-				"Primary": true,
-				"Priority": 1
-			},
-			"Create a ~|spirit jelly pouch|~": {
-				"Items": ["Blue charm*", "Jug of water*", "Pouch*", "Spirit shards*"],
-				"Level": 55,
-				"Objects": ["Obelisk"],
-				"Output": "Spirit jelly pouch",
-				"Primary": true,
-				"Priority": 1
-			},
-			"Create a ~|ibis pouch|~": {
-				"Items": ["Green charm*", "Harpoon*", "Pouch*", "Spirit shards*"],
-				"Level": 56,
-				"Objects": ["Obelisk"],
-				"Output": "Ibis pouch",
-				"Primary": true,
-				"Priority": 1
-			},
-			"Create a ~|steel minotaur pouch|~": {
-				"Items": ["Blue charm*", "Steel bar*", "Pouch*", "Spirit shards*"],
-				"Level": 56,
-				"Objects": ["Obelisk"],
-				"Output": "Steel minotaur pouch",
-				"Primary": true,
-				"Priority": 2
-			},
-			"Create a ~|spirit graahk pouch|~": {
-				"Items": ["Blue charm*", "Graahk fur*", "Pouch*", "Spirit shards*"],
-				"Level": 57,
-				"Objects": ["Obelisk"],
-				"Output": "Spirit graahk pouch",
-				"Primary": true,
-				"Priority": 1
-			},
-			"Create a ~|spirit kyatt pouch|~": {
-				"Items": ["Blue charm*", "Kyatt fur*", "Pouch*", "Spirit shards*"],
-				"Level": 57,
-				"Objects": ["Obelisk"],
-				"Output": "Spirit kyatt pouch",
-				"Primary": true,
-				"Priority": 2
-			},
-			"Create a ~|spirit larupia pouch|~": {
-				"Items": ["Blue charm*", "Larupia fur*", "Pouch*", "Spirit shards*"],
-				"Level": 57,
-				"Objects": ["Obelisk"],
-				"Output": "Spirit larupia pouch",
-				"Primary": true,
-				"Priority": 3
-			},
-			"Create a ~|Karam. overlord pouch|~": {
-				"Items": ["Blue charm*", "Fishbowl*", "Pouch*", "Spirit shards*"],
-				"Level": 58,
-				"Objects": ["Obelisk"],
-				"Output": "Karam. overlord pouch",
-				"Primary": true,
-				"Priority": 1
-			},
-			"Create a ~|smoke devil pouch|~": {
-				"Items": ["Crimson charm*", "Goat horn dust*", "Pouch*", "Spirit shards*"],
-				"Level": 61,
-				"Objects": ["Obelisk"],
-				"Output": "Smoke devil pouch",
-				"Primary": true,
-				"Priority": 1
-			},
-			"Create a ~|abyssal lurker pouch|~": {
-				"Items": ["Green charm*", "Abyssal charm*", "Pouch*", "Spirit shards*"],
-				"Level": 62,
-				"Objects": ["Obelisk"],
-				"Output": "Abyssal lurker pouch",
-				"Primary": true,
-				"Priority": 1
-			},
-			"Create a ~|spirit cobra pouch|~": {
-				"Items": ["Crimson charm*", "Snake hide*", "Pouch*", "Spirit shards*"],
-				"Level": 63,
-				"Objects": ["Obelisk"],
-				"Output": "Spirit cobra pouch",
-				"Primary": true,
-				"Priority": 1
-			},
-			"Create a ~|stranger plant pouch|~": {
-				"Items": ["Crimson charm*", "Bagged plant 1*", "Pouch*", "Spirit shards*"],
-				"Level": 64,
-				"Objects": ["Obelisk"],
-				"Output": "Stranger plant pouch",
-				"Primary": true,
-				"Priority": 1
-			},
-			"Create a ~|barker toad pouch|~": {
-				"Items": ["Gold charm*", "Swamp toad*", "Pouch*", "Spirit shards*"],
-				"Level": 66,
-				"Objects": ["Obelisk"],
-				"Output": "Barker toad pouch",
-				"Primary": true,
-				"Priority": 1
-			},
-			"Create a ~|mithril minotaur pouch|~": {
-				"Items": ["Blue charm*", "Mithril bar*", "Pouch*", "Spirit shards*"],
-				"Level": 66,
-				"Objects": ["Obelisk"],
-				"Output": "Mithril minotaur pouch",
-				"Primary": true,
-				"Priority": 2
-			},
-			"Create a ~|war tortoise pouch|~": {
-				"Items": ["Gold charm*", "Tortoise shell*", "Pouch*", "Spirit shards*"],
-				"Level": 67,
-				"Objects": ["Obelisk"],
-				"Output": "War tortoise pouch",
-				"Primary": true,
-				"Priority": 1
-			},
-			"Create a ~|bunyip pouch|~": {
-				"Items": ["Green charm*", "Raw shark*", "Pouch*", "Spirit shards*"],
-				"Level": 68,
-				"Objects": ["Obelisk"],
-				"Output": "Bunyip pouch",
-				"Primary": true,
-				"Priority": 1
-			},
-			"Create a ~|fruit bat pouch|~": {
-				"Items": ["Green charm*", "Banana*", "Pouch*", "Spirit shards*"],
-				"Level": 69,
-				"Objects": ["Obelisk"],
-				"Output": "Fruit bat pouch",
-				"Primary": true,
-				"Priority": 1
-			},
-			"Create a ~|ravenous locust pouch|~": {
-				"Items": ["Crimson charm*", "Pot of flour*", "Pouch*", "Spirit shards*"],
-				"Level": 70,
-				"Objects": ["Obelisk"],
-				"Output": "Ravenous locust pouch",
-				"Primary": true,
-				"Priority": 1
-			},
-			"Create a ~|arctic bear pouch|~": {
-				"Items": ["Gold charm*", "Polar kebbit fur*", "Pouch*", "Spirit shards*"],
-				"Level": 71,
-				"Objects": ["Obelisk"],
-				"Output": "Arctic bear pouch",
-				"Primary": true,
-				"Priority": 1
-			},
-			"Create a ~|phoenix (familiar) pouch|~": {
-				"Items": ["Crimson charm*", "Phoenix quill*", "Pouch*", "Spirit shards*"],
-				"Level": 72,
-				"Objects": ["Obelisk"],
-				"Output": "Phoenix pouch",
-				"Primary": true,
-				"Priority": 1
-			},
-			"Create a ~|obsidian golem pouch|~": {
-				"Items": ["Blue charm*", "Obsidian charm*", "Pouch*", "Spirit shards*"],
-				"Level": 73,
-				"Objects": ["Obelisk"],
-				"Output": "Obsidian golem pouch",
-				"Primary": true,
-				"Priority": 1
-			},
-			"Create a ~|granite lobster pouch|~": {
-				"Items": ["Crimson charm*", "Granite (500g)*", "Pouch*", "Spirit shards*"],
-				"Level": 74,
-				"Objects": ["Obelisk"],
-				"Output": "Granite lobster pouch",
-				"Primary": true,
-				"Priority": 1
-			},
-			"Create a ~|praying mantis pouch|~": {
-				"Items": ["Crimson charm*", "Red flowers*", "Pouch*", "Spirit shards*"],
-				"Level": 75,
-				"Objects": ["Obelisk"],
-				"Output": "Praying mantis pouch",
-				"Primary": true,
-				"Priority": 1
-			},
-			"Create a ~|forge regent pouch|~": {
-				"Items": ["Green charm*", "Ruby harvest*", "Pouch*", "Spirit shards*"],
-				"Level": 76,
-				"Objects": ["Obelisk"],
-				"Output": "Forge regent pouch",
-				"Primary": true,
-				"Priority": 1
-			},
-			"Create a ~|adamant minotaur pouch|~": {
-				"Items": ["Blue charm*", "Adamant bar*", "Pouch*", "Spirit shards*"],
-				"Level": 76,
-				"Objects": ["Obelisk"],
-				"Output": "Adamant minotaur pouch",
-				"Primary": true,
-				"Priority": 2
-			},
-			"Create a ~|talon beast pouch|~": {
-				"Items": ["Crimson charm*", "Talon beast charm*", "Pouch*", "Spirit shards*"],
-				"Level": 77,
-				"Objects": ["Obelisk"],
-				"Output": "Talon beast pouch",
-				"Primary": true,
-				"Priority": 1
-			},
-			"Create a ~|giant ent pouch|~": {
-				"Items": ["Green charm*", "Willow branch*", "Pouch*", "Spirit shards*"],
-				"Level": 78,
-				"Objects": ["Obelisk"],
-				"Output": "Giant ent pouch",
-				"Primary": true,
-				"Priority": 1
-			},
-			"Create a ~|fire titan pouch|~": {
-				"Items": ["Blue charm*", "Fire talisman*", "Pouch*", "Spirit shards*"],
-				"Level": 79,
-				"Objects": ["Obelisk"],
-				"Output": "Fire titan pouch",
-				"Primary": true,
-				"Priority": 1
-			},
-			"Create a ~|moss titan pouch|~": {
-				"Items": ["Blue charm*", "Earth talisman*", "Pouch*", "Spirit shards*"],
-				"Level": 79,
-				"Objects": ["Obelisk"],
-				"Output": "Moss titan pouch",
-				"Primary": true,
-				"Priority": 2
-			},
-			"Create a ~|ice titan pouch|~": {
-				"Items": ["Blue charm*", "Air talisman*", "Water talisman*", "Pouch*", "Spirit shards*"],
-				"Level": 79,
-				"Objects": ["Obelisk"],
-				"Output": "Ice titan pouch",
-				"Primary": true,
-				"Priority": 3
-			},
-			"Create a ~|hydra pouch|~": {
-				"Items": ["Green charm*", "Water orb*", "Pouch*", "Spirit shards*"],
-				"Level": 80,
-				"Objects": ["Obelisk"],
-				"Output": "Hydra pouch",
-				"Primary": true,
-				"Priority": 1
-			},
-			"Create a ~|demon brawler pouch|~": {
-				"Items": ["Crimson charm*", "Demon claw*", "Pouch*", "Spirit shards*"],
-				"Level": 82,
-				"Objects": ["Obelisk"],
-				"Output": "Demon brawler pouch",
-				"Primary": true,
-				"Priority": 1
-			},
-			"Create a ~|demon deacon pouch|~": {
-				"Items": ["Crimson charm*", "Demon claw*", "Pouch*", "Spirit shards*"],
-				"Level": 82,
-				"Objects": ["Obelisk"],
-				"Output": "Demon deacon pouch",
-				"Primary": true,
-				"Priority": 2
-			},
-			"Create a ~|demon executioner pouch|~": {
-				"Items": ["Crimson charm*", "Demon claw*", "Pouch*", "Spirit shards*"],
-				"Level": 82,
-				"Objects": ["Obelisk"],
-				"Output": "Demon executioner pouch",
-				"Primary": true,
-				"Priority": 3
-			},
-			"Create a ~|spirit dagannoth pouch|~": {
-				"Items": ["Crimson charm*", "Dagannoth hide*", "Pouch*", "Spirit shards*"],
-				"Level": 83,
-				"Objects": ["Obelisk"],
-				"Output": "Spirit dagannoth pouch",
-				"Primary": true,
-				"Priority": 1
-			},
-			"Create a ~|lava titan pouch|~": {
-				"Items": ["Blue charm*", "Obsidian charm*", "Pouch*", "Spirit shards*"],
-				"Level": 83,
-				"Objects": ["Obelisk"],
-				"Output": "Lava titan pouch",
-				"Primary": true,
-				"Priority": 2
-			},
-			"Create a ~|reborn phoenix pouch|~": {
-				"Items": ["Crimson charm*", "Phoenix quill*", "Pouch*", "Spirit shards*"],
-				"Level": 84,
-				"Objects": ["Obelisk"],
-				"Output": "Reborn phoenix pouch",
-				"Primary": true,
-				"Priority": 4
-			},
-			"Create a ~|swamp titan pouch|~": {
-				"Items": ["Crimson charm*", "Green salamander*", "Pouch*", "Spirit shards*"],
-				"Level": 85,
-				"Objects": ["Obelisk"],
-				"Output": "Swamp titan pouch",
-				"Primary": true,
-				"Priority": 1
-			},
-			"Create a ~|rune minotaur pouch|~": {
-				"Items": ["Blue charm*", "Rune bar*", "Pouch*", "Spirit shards*"],
-				"Level": 86,
-				"Objects": ["Obelisk"],
-				"Output": "Rune minotaur pouch",
-				"Primary": true,
-				"Priority": 1
-			},
-			"Create a ~|unicorn stallion pouch|~": {
-				"Items": ["Green charm*", "Unicorn horn*", "Pouch*", "Spirit shards*"],
-				"Level": 88,
-				"Objects": ["Obelisk"],
-				"Output": "Unicorn stallion pouch",
-				"Primary": true,
-				"Priority": 1
-			},
-			"Create a ~|light creature (familiar) pouch|~": {
-				"Items": ["Blue charm*", "Light core*", "Pouch*", "Spirit shards*"],
-				"Level": 88,
-				"Objects": ["Obelisk"],
-				"Output": "Light creature pouch",
-				"Primary": true,
-				"Priority": 2
-			},
-			"Create a ~|geyser titan pouch|~": {
-				"Items": ["Blue charm*", "Water talisman*", "Pouch*", "Spirit shards*"],
-				"Level": 89,
-				"Objects": ["Obelisk"],
-				"Output": "Geyser titan pouch",
-				"Primary": true,
-				"Priority": 1
-			},
-			"Create a ~|wolpertinger pouch|~": {
-				"Items": ["Crimson charm*", "Raw rabbit*", "Wolf bones*", "Pouch*", "Spirit shards*"],
-				"Level": 92,
-				"Objects": ["Obelisk"],
-				"Output": "Wolpertinger pouch",
-				"Primary": true,
-				"Priority": 1
-			},
-			"Create a ~|abyssal titan pouch|~": {
-				"Items": ["Green charm*", "Abyssal charm*", "Pouch*", "Spirit shards*"],
-				"Level": 93,
-				"Objects": ["Obelisk"],
-				"Output": "Abyssal titan pouch",
-				"Primary": true,
-				"Priority": 1
-			},
-			"Create a ~|iron titan pouch|~": {
-				"Items": ["Crimson charm*", "Iron ingot*", "Pouch*", "Spirit shards*"],
-				"Level": 95,
-				"Objects": ["Obelisk"],
-				"Output": "Iron titan pouch",
-				"Primary": true,
-				"Priority": 1
-			},
-			"Create a ~|pack yak pouch|~": {
-				"Items": ["Crimson charm*", "Yak-hide*", "Pouch*", "Spirit shards*"],
-				"Level": 96,
-				"Objects": ["Obelisk"],
-				"Output": "Pack yak pouch",
-				"Primary": true,
-				"Priority": 1
-			},
-			"Create a ~|pack mammoth pouch|~": {
-				"Items": ["Crimson charm*", "Mammoth tusk*", "Pouch*", "Spirit shards*"],
-				"Level": 99,
-				"Objects": ["Obelisk"],
-				"Output": "Pack mammoth pouch",
-				"Primary": true,
-				"Priority": 2
-			},
-			"Create a ~|steel titan pouch|~": {
-				"Items": ["Crimson charm*", "Steel ingot*", "Pouch*", "Spirit shards*"],
-				"Level": 99,
-				"Objects": ["Obelisk"],
-				"Output": "Steel titan pouch",
-				"Primary": true,
-				"Priority": 3
-			},
-			"Create a ~|nightmare muspah pouch|~": {
-				"Items": ["Elder charm*", "Muspah spine*", "Pouch*", "Elder energy*"],
-				"Level": 81,
-				"Objects": ["Obelisk"],
-				"Output": "Nightmare muspah pouch",
-				"Primary": true,
-				"Priority": 1
-			},
-			"Create a ~|blood nihil pouch|~": {
-				"Items": ["Elder charm*", "Vampyre fangs*", "Pouch*", "Elder energy*"],
-				"Level": 87,
-				"Objects": ["Obelisk"],
-				"Output": "Blood nihil pouch",
-				"Primary": true,
-				"Priority": 1
-			},
-			"Create a ~|ice nihil pouch|~": {
-				"Items": ["Elder charm*", "Icyene feather*", "Pouch*", "Elder energy*"],
-				"Level": 87,
-				"Objects": ["Obelisk"],
-				"Output": "Ice nihil pouch",
-				"Primary": true,
-				"Priority": 2
-			},
-			"Create a ~|shadow nihil pouch|~": {
-				"Items": ["Elder charm*", "Demon horn*", "Pouch*", "Elder energy*"],
-				"Level": 87,
-				"Objects": ["Obelisk"],
-				"Output": "Shadow nihil pouch",
-				"Primary": true,
-				"Priority": 3
-			},
-			"Create a ~|smoke nihil pouch|~": {
-				"Items": ["Elder charm*", "Aviansie talons*", "Pouch*", "Elder energy*"],
-				"Level": 87,
-				"Objects": ["Obelisk"],
-				"Output": "Smoke nihil pouch",
-				"Primary": true,
-				"Priority": 4
-			},
-			"Create a ~|binding contract (hellhound)|~": {
-				"Items": ["Blue charm*", "Blood of Orcus*", "Hellfire metal*", "Pouch*", "Spirit shards*"],
-				"Level": 45,
-				"Monsters": ["Hellhound"],
-				"Objects": ["Obelisk"],
-				"Output": "Binding contract (hellhound)",
-				"Primary": true,
-				"Priority": 1
-			},
-			"Create a ~|binding contract (waterfiend)|~": {
-				"Items": ["Blue charm*", "Blood of Orcus*", "Hellfire metal*", "Pouch*", "Spirit shards*"],
-				"Level": 50,
-				"Monsters": ["Waterfiend"],
-				"Objects": ["Obelisk"],
-				"Output": "Binding contract (waterfiend)",
-				"Primary": true,
-				"Priority": 1
-			},
-			"Create a ~|binding contract (blood reaver)|~": {
-				"Items": ["Blue charm*", "Blood of Orcus*", "Hellfire metal*", "Pouch*", "Spirit shards*"],
-				"Level": 73,
-				"Monsters": ["Blood reaver"],
-				"Objects": ["Obelisk"],
-				"Output": "Binding contract (blood reaver)",
-				"Primary": true,
-				"Priority": 2
-			},
-			"Create a ~|binding contract (gargoyle)|~": {
-				"Items": ["Blue charm*", "Blood of Orcus*", "Hellfire metal*", "Pouch*", "Spirit shards*"],
-				"Level": 75,
-				"Monsters": ["Gargoyle"],
-				"Objects": ["Obelisk"],
-				"Output": "Binding contract (gargoyle)",
-				"Primary": true,
-				"Priority": 2
-			},
-			"Create a ~|binding contract (abyssal demon)|~": {
-				"Items": ["Blue charm*", "Blood of Orcus*", "Hellfire metal*", "Pouch*", "Spirit shards*"],
-				"Level": 85,
-				"Monsters": ["Abyssal demon"],
-				"Objects": ["Obelisk"],
-				"Output": "Binding contract (abyssal demon)",
-				"Primary": true,
-				"Priority": 2
-			},
-			"Create a ~|binding contract (Kal'gerion demon)|~": {
-				"Items": ["Blue charm*", "Blood of Orcus*", "Hellfire metal*", "Pouch*", "Spirit shards*"],
-				"Level": 90,
-				"Monsters": ["Kal'gerion demon"],
-				"Objects": ["Obelisk"],
-				"Output": "Binding contract (Kal'gerion demon)",
-				"Primary": true,
-				"Priority": 1
-			},
-			"Create a ~|binding contract (Ripper Demon)|~": {
-				"Items": ["Blue charm*", "Blood of Orcus*", "Hellfire metal*", "Pouch*", "Spirit shards*"],
-				"Level": 96,
-				"Monsters": ["Ripper Demon"],
-				"Objects": ["Obelisk"],
-				"Output": "Binding contract (Ripper Demon)",
-				"Primary": true,
-				"Priority": 2
-			},
-			"Create a ~|spirit war pig|~ (tier 1) pouch": {
-				"Items": ["Gold charm*", "War pig tooth*"],
-				"Level": 14,
-				"Objects": ["Pig machine"],
-				"Output": "Spirit war pig pouch (tier 1)",
-				"Primary": true,
-				"Priority": 1
-			},
-			"Create a ~|spirit prayer pig|~ (tier 1) pouch": {
-				"Items": ["Gold charm*", "Prayer pig tooth*"],
-				"Level": 14,
-				"Objects": ["Pig machine"],
-				"Output": "Spirit prayer pig pouch (tier 1)",
-				"Primary": true,
-				"Priority": 2
-			},
-			"Create a ~|spirit pack pig|~ (tier 1) pouch": {
-				"Items": ["Gold charm*", "Pack pig tooth*"],
-				"Level": 14,
-				"Objects": ["Pig machine"],
-				"Output": "Spirit pack pig pouch (tier 1)",
-				"Primary": true,
-				"Priority": 3
-			},
-			"Upgrade the ~|spirit pig machine|~ to (tier 2)": {
-				"Items": ["Oak plank", "Steel bar", "Nails[+]"],
-				"Level": 44,
-				"Objects": ["Pig machine"],
-				"Output Object": "Pig machine (tier 2)",
-				"Tasks": {
-					"~|Bringing Home the Bacon|~ Complete the quest": "Quest"
-				},
-				"Primary": false,
-				"skills": {
-					"Summoning": 44,
-					"Construction": 44
-				},
-				"Priority": 1,
-				"NoPet": true,
-				"NoBoost": true
-			},
-			"Create a ~|spirit war pig|~ (tier 2) pouch": {
-				"Items": ["Gold charm", "War pig tooth"],
-				"Level": 44,
-				"Objects": ["Pig machine (tier 2)"],
-				"Output": "Spirit war pig pouch (tier 2)",
-				"Primary": true,
-				"Priority": 2
-			},
-			"Create a ~|spirit prayer pig|~ (tier 2) pouch": {
-				"Items": ["Gold charm", "Prayer pig tooth"],
-				"Level": 44,
-				"Objects": ["Pig machine (tier 2)"],
-				"Output": "Spirit prayer pig pouch (tier 2)",
-				"Primary": true,
-				"Priority": 3
-			},
-			"Create a ~|spirit pack pig|~ (tier 2) pouch": {
-				"Items": ["Gold charm", "Pack pig tooth"],
-				"Level": 44,
-				"Objects": ["Pig machine (tier 2)"],
-				"Output": "Spirit pack pig pouch (tier 2)",
-				"Primary": true,
-				"Priority": 4
-			},
-			"Upgrade the ~|spirit pig machine|~ to (tier 3)": {
-				"Items": ["Teak plank", "Mithril bar", "Nails[+]"],
-				"Level": 84,
-				"Objects": ["Pig machine (tier 2)"],
-				"Output Object": "Pig machine (tier 3)",
-				"Tasks": {
-					"~|Bringing Home the Bacon|~ Complete the quest": "Quest"
-				},
-				"Primary": false,
-				"skills": {
-					"Summoning": 84,
-					"Construction": 84
-				},
-				"Priority": 7,
-				"NoPet": true,
-				"NoBoost": true
-			},
-			"Create a ~|spirit war pig|~ (tier 3) pouch": {
-				"Items": ["Gold charm", "War pig tooth"],
-				"Level": 84,
-				"Objects": ["Pig machine (tier 3)"],
-				"Output": "Spirit war pig pouch (tier 3)",
-				"Primary": true,
-				"Priority": 1
-			},
-			"Create a ~|spirit prayer pig|~ (tier 3) pouch": {
-				"Items": ["Gold charm", "Prayer pig tooth"],
-				"Level": 84,
-				"Objects": ["Pig machine (tier 3)"],
-				"Output": "Spirit prayer pig pouch (tier 3)",
-				"Primary": true,
-				"Priority": 2
-			},
-			"Create a ~|spirit pack pig|~ (tier 3) pouch": {
-				"Items": ["Gold charm", "Pack pig tooth"],
-				"Level": 84,
-				"Objects": ["Pig machine (tier 3)"],
-				"Output": "Spirit pack pig pouch (tier 3)",
-				"Primary": true,
-				"Priority": 3
 			},
 			"Create a ~|spirit wolf scroll (howl)|~": {
 				"Items": ["Spirit wolf pouch*"],
@@ -68257,6 +67373,14 @@
 				"Priority": 3,
 				"Not F2P": true
 			},
+			"Create a ~|dreadfowl pouch|~": {
+				"Items": ["Gold charm*", "Raw chicken*", "Pouch*", "Spirit shards*"],
+				"Level": 4,
+				"Objects": ["Obelisk"],
+				"Output": "Dreadfowl pouch",
+				"Primary": true,
+				"Priority": 1
+			},
 			"Create a ~|dreadfowl scroll (dreadfowl strike)|~": {
 				"Items": ["Dreadfowl pouch*"],
 				"Level": 4,
@@ -68272,799 +67396,6 @@
 				"Output": "Meerkat scroll (fetch casket)",
 				"Primary": false,
 				"Priority": 3
-			},
-			"Create a ~|spirit spider scroll (egg spawn)|~": {
-				"Items": ["Spirit spider pouch*"],
-				"Level": 10,
-				"Objects": ["Obelisk"],
-				"Output": "Spirit spider scroll (egg spawn)",
-				"Primary": false,
-				"Priority": 2
-			},
-			"Create a ~|thorny snail scroll (slime spray)|~": {
-				"Items": ["Thorny snail pouch*"],
-				"Level": 13,
-				"Objects": ["Obelisk"],
-				"Output": "Thorny snail scroll (slime spray)",
-				"Primary": false,
-				"Priority": 2
-			},
-			"Create a ~|spirit pig scroll (bacon blast)|~": {
-				"Items": ["Pigpouch[+]*"],
-				"Level": 14,
-				"Objects": ["Pig machine"],
-				"Output": "Spirit pig scroll (bacon blast)",
-				"Primary": false,
-				"Priority": 4
-			},
-			"Create a ~|granite crab scroll (stony shell)|~": {
-				"Items": ["Granite crab pouch*"],
-				"Level": 16,
-				"Objects": ["Obelisk"],
-				"Output": "Granite crab scroll (stony shell)",
-				"Primary": false,
-				"Priority": 2
-			},
-			"Create a ~|spirit mosquito scroll (pester)|~": {
-				"Items": ["Spirit mosquito pouch*"],
-				"Level": 17,
-				"Objects": ["Obelisk"],
-				"Output": "Spirit mosquito scroll (pester)",
-				"Primary": false,
-				"Priority": 2
-			},
-			"Create a ~|desert wyrm scroll (electric lash)|~": {
-				"Items": ["Desert wyrm pouch*"],
-				"Level": 18,
-				"Objects": ["Obelisk"],
-				"Output": "Desert wyrm scroll (electric lash)",
-				"Primary": false,
-				"Priority": 2
-			},
-			"Create a ~|spirit scorpion scroll (venom shot)|~": {
-				"Items": ["Spirit scorpion pouch*"],
-				"Level": 19,
-				"Objects": ["Obelisk"],
-				"Output": "Spirit scorpion scroll (venom shot)",
-				"Primary": false,
-				"Priority": 2
-			},
-			"Create a ~|spirit Tz-Kih scroll (fireball assault)|~": {
-				"Items": ["Spirit Tz-Kih pouch*"],
-				"Level": 22,
-				"Objects": ["Obelisk"],
-				"Output": "Spirit Tz-Kih scroll (fireball assault)",
-				"Primary": false,
-				"Priority": 2
-			},
-			"Create a ~|albino rat scroll (cheese feast)|~": {
-				"Items": ["Albino rat pouch*"],
-				"Level": 23,
-				"Objects": ["Obelisk"],
-				"Output": "Albino rat scroll (cheese feast)",
-				"Primary": false,
-				"Priority": 2
-			},
-			"Create a ~|spirit kalphite scroll (sandstorm)|~": {
-				"Items": ["Spirit kalphite pouch*"],
-				"Level": 25,
-				"Objects": ["Obelisk"],
-				"Output": "Spirit kalphite scroll (sandstorm)",
-				"Primary": false,
-				"Priority": 2
-			},
-			"Create a ~|compost mound scroll (generate compost)|~": {
-				"Items": ["Compost mound pouch*"],
-				"Level": 28,
-				"Objects": ["Obelisk"],
-				"Output": "Compost mound scroll (generate compost)",
-				"Primary": false,
-				"Priority": 2
-			},
-			"Create a ~|giant chinchompa scroll (explode)|~": {
-				"Items": ["Giant chinchompa pouch*"],
-				"Level": 29,
-				"Objects": ["Obelisk"],
-				"Output": "Giant chinchompa scroll (explode)",
-				"Primary": false,
-				"Priority": 2
-			},
-			"Create a ~|vampyre bat scroll (vampyre touch)|~": {
-				"Items": ["Vampyre bat pouch*"],
-				"Level": 31,
-				"Objects": ["Obelisk"],
-				"Output": "Vampyre bat scroll (vampyre touch)",
-				"Primary": false,
-				"Priority": 2
-			},
-			"Create a ~|honey badger scroll (insane ferocity)|~": {
-				"Items": ["Honey badger pouch*"],
-				"Level": 32,
-				"Objects": ["Obelisk"],
-				"Output": "Honey badger scroll (insane ferocity)",
-				"Primary": false,
-				"Priority": 2
-			},
-			"Create a ~|beaver scroll (multichop)|~": {
-				"Items": ["Beaver pouch*"],
-				"Level": 33,
-				"Objects": ["Obelisk"],
-				"Output": "Beaver scroll (multichop)",
-				"Primary": false,
-				"Priority": 2
-			},
-			"Create a ~|void scroll (call to arms)|~": {
-				"Items": ["Voidpouch[+]*"],
-				"Level": 34,
-				"Objects": ["Obelisk"],
-				"Output": "Void scroll (call to arms)",
-				"Primary": false,
-				"Priority": 5
-			},
-			"Create a ~|bronze minotaur scroll (bronze bull rush)|~": {
-				"Items": ["Bronze minotaur pouch*"],
-				"Level": 36,
-				"Objects": ["Obelisk"],
-				"Output": "Bronze minotaur scroll (bronze bull rush)",
-				"Primary": false,
-				"Priority": 2
-			},
-			"Create a ~|bull ant scroll (unburden)|~": {
-				"Items": ["Bull ant pouch*"],
-				"Level": 40,
-				"Objects": ["Obelisk"],
-				"Output": "Bull ant scroll (unburden)",
-				"Primary": false,
-				"Priority": 2
-			},
-			"Create a ~|macaw scroll (herbcall)|~": {
-				"Items": ["Macaw pouch*"],
-				"Level": 41,
-				"Objects": ["Obelisk"],
-				"Output": "Macaw scroll (herbcall)",
-				"Primary": false,
-				"Priority": 2
-			},
-			"Create a ~|evil turnip scroll (evil flames)|~": {
-				"Items": ["Evil turnip pouch*"],
-				"Level": 42,
-				"Objects": ["Obelisk"],
-				"Output": "Evil turnip scroll (evil flames)",
-				"Primary": false,
-				"Priority": 2
-			},
-			"Create a ~|spirit cockatrice scroll (petrifying gaze)|~": {
-				"Items": ["Cockatricepouch[+]*"],
-				"Level": 43,
-				"Objects": ["Obelisk"],
-				"Output": "Spirit cockatrice scroll (petrifying flames)",
-				"Primary": false,
-				"Priority": 8
-			},
-			"Create a ~|iron minotaur scroll (iron bull rush)|~": {
-				"Items": ["Iron minotaur pouch*"],
-				"Level": 46,
-				"Objects": ["Obelisk"],
-				"Output": "Iron minotaur scroll (iron bull rush)",
-				"Primary": false,
-				"Priority": 3
-			},
-			"Create a ~|pyrelord scroll (immense heat)|~": {
-				"Items": ["Pyrelord pouch*"],
-				"Level": 46,
-				"Objects": ["Obelisk"],
-				"Output": "Pyrelord scroll (immense heat)",
-				"Primary": false,
-				"Priority": 4
-			},
-			"Create a ~|magpie scroll (thieving fingers)|~": {
-				"Items": ["Magpie pouch*"],
-				"Level": 47,
-				"Objects": ["Obelisk"],
-				"Output": "Magpie scroll (thieving fingers)",
-				"Primary": false,
-				"Priority": 2
-			},
-			"Create a ~|bloated leech scroll (blood drain)|~": {
-				"Items": ["Bloated leech pouch*"],
-				"Level": 49,
-				"Objects": ["Obelisk"],
-				"Output": "Bloated leech scroll (Blood drain)",
-				"Primary": false,
-				"Priority": 2
-			},
-			"Create a ~|spirit terrorbird scroll (tireless run)|~": {
-				"Items": ["Spirit terrorbird pouch*"],
-				"Level": 52,
-				"Objects": ["Obelisk"],
-				"Output": "Spirit terrorbird scroll (tireless run)",
-				"Primary": false,
-				"Priority": 2
-			},
-			"Create a ~|abyssal parasite scroll (abyssal drain)|~": {
-				"Items": ["Abyssal parasite pouch*"],
-				"Level": 54,
-				"Objects": ["Obelisk"],
-				"Output": "Abyssal parasite scroll (abyssal drain)",
-				"Primary": false,
-				"Priority": 2
-			},
-			"Create a ~|spirit jelly scroll (dissolve)|~": {
-				"Items": ["Spirit jelly pouch*"],
-				"Level": 55,
-				"Objects": ["Obelisk"],
-				"Output": "Spirit jelly scroll (dissolve)",
-				"Primary": false,
-				"Priority": 2
-			},
-			"Create a ~|ibis scroll (fish rain)|~": {
-				"Items": ["Ibis pouch*"],
-				"Level": 56,
-				"Objects": ["Obelisk"],
-				"Output": "Ibis scroll (fish rain)",
-				"Primary": false,
-				"Priority": 3
-			},
-			"Create a ~|steel minotaur scroll (steel bull rush)|~": {
-				"Items": ["Steel minotaur pouch*"],
-				"Level": 56,
-				"Objects": ["Obelisk"],
-				"Output": "Steel minotaur scroll (steel bull rush)",
-				"Primary": false,
-				"Priority": 4
-			},
-			"Create a ~|spirit kyatt scroll (ambush)|~": {
-				"Items": ["Spirit kyatt pouch*"],
-				"Level": 57,
-				"Objects": ["Obelisk"],
-				"Output": "Spirit kyatt scroll (ambush)",
-				"Primary": false,
-				"Priority": 4
-			},
-			"Create a ~|spirit larupia scroll (rending)|~": {
-				"Items": ["Spirit larupia pouch*"],
-				"Level": 57,
-				"Objects": ["Obelisk"],
-				"Output": "Spirit larupia scroll (rending)",
-				"Primary": false,
-				"Priority": 5
-			},
-			"Create a ~|spirit graahk scroll (goad)|~": {
-				"Items": ["Spirit graahk pouch*"],
-				"Level": 57,
-				"Objects": ["Obelisk"],
-				"Output": "Spirit graahk scroll (goad)",
-				"Primary": false,
-				"Priority": 6
-			},
-			"Create a ~|karamthulu overlord scroll (doomsphere)|~": {
-				"Items": ["Karamthulu overlord pouch*"],
-				"Level": 58,
-				"Objects": ["Obelisk"],
-				"Output": "Karamthulu overlord scroll (doomsphere)",
-				"Primary": false,
-				"Priority": 2
-			},
-			"Create a ~|smoke devil scroll (dust cloud)|~": {
-				"Items": ["Smoke devil pouch*"],
-				"Level": 61,
-				"Objects": ["Obelisk"],
-				"Output": "Smoke devil scroll (dust cloud)",
-				"Primary": false,
-				"Priority": 2
-			},
-			"Create a ~|abyssal lurker scroll (abyssal stealth)|~": {
-				"Items": ["Abyssal lurker pouch*"],
-				"Level": 62,
-				"Objects": ["Obelisk"],
-				"Output": "Abyssal lurker scroll (abyssal stealth)",
-				"Primary": false,
-				"Priority": 2
-			},
-			"Create a ~|spirit cobra scroll (ophidian incubation)|~": {
-				"Items": ["Spirit cobra pouch*"],
-				"Level": 63,
-				"Objects": ["Obelisk"],
-				"Output": "Spirit cobra scroll (ophidian incubation)",
-				"Primary": false,
-				"Priority": 2
-			},
-			"Create a ~|stranger plant scroll (poisonous blast)|~": {
-				"Items": ["Stranger plant pouch*"],
-				"Level": 64,
-				"Objects": ["Obelisk"],
-				"Output": "Stranger plant scroll (poisonous blast)",
-				"Primary": false,
-				"Priority": 2
-			},
-			"Create a ~|mithril minotaur scroll (mithril bull rush)|~": {
-				"Items": ["Mithril minotaur pouch*"],
-				"Level": 66,
-				"Objects": ["Obelisk"],
-				"Output": "Mithril minotaur scroll (mithril bull rush)",
-				"Primary": false,
-				"Priority": 3
-			},
-			"Create a ~|barker toad scroll (toad bark)|~": {
-				"Items": ["Barker toad pouch*"],
-				"Level": 66,
-				"Objects": ["Obelisk"],
-				"Output": "Barker toad scroll (toad bark)",
-				"Primary": false,
-				"Priority": 4
-			},
-			"Create a ~|war tortoise scroll (tetsudo)|~": {
-				"Items": ["War tortoise pouch*"],
-				"Level": 67,
-				"Objects": ["Obelisk"],
-				"Output": "War tortoise scroll (tetsudo)",
-				"Primary": false,
-				"Priority": 2
-			},
-			"Create a ~|bunyip scroll (swallow whole)|~": {
-				"Items": ["Bunyip pouch*"],
-				"Level": 68,
-				"Objects": ["Obelisk"],
-				"Output": "Bunyip scroll (swallow whole)",
-				"Primary": false,
-				"Priority": 2
-			},
-			"Create a ~|fruit bat scroll (fruitfall)|~": {
-				"Items": ["Fruit bat pouch*"],
-				"Level": 69,
-				"Objects": ["Obelisk"],
-				"Output": "Fruit bat scroll (fruitfall)",
-				"Primary": false,
-				"Priority": 2
-			},
-			"Create a ~|ravenous locust scroll (famine)|~": {
-				"Items": ["Ravecous locust pouch*"],
-				"Level": 70,
-				"Objects": ["Obelisk"],
-				"Output": "Ravenous locust scroll (famine)",
-				"Primary": false,
-				"Priority": 2
-			},
-			"Create a ~|arctic bear scroll (arctic blast)|~": {
-				"Items": ["Arctic bear pouch*"],
-				"Level": 71,
-				"Objects": ["Obelisk"],
-				"Output": "Arctic bear scroll (arctic blast)",
-				"Primary": false,
-				"Priority": 2
-			},
-			"Create a ~|phoenix scroll (rise from the ashes)|~": {
-				"Items": ["Phoenix pouch*"],
-				"Level": 72,
-				"Objects": ["Obelisk"],
-				"Output": "Phoenix scroll (rise from the ashes)",
-				"Primary": false,
-				"Priority": 2
-			},
-			"Create a ~|obsidian golem scroll (volcanic strength)|~": {
-				"Items": ["Obsidian golem pouch*"],
-				"Level": 73,
-				"Objects": ["Obelisk"],
-				"Output": "Obsidian golem scroll (volcanic strength)",
-				"Primary": false,
-				"Priority": 2
-			},
-			"Create a ~|granite lobster scroll (crushing claw)|~": {
-				"Items": ["Granite lobster pouch*"],
-				"Level": 74,
-				"Objects": ["Obelisk"],
-				"Output": "Granite lobster scroll (crushing claw)",
-				"Primary": false,
-				"Priority": 2
-			},
-			"Create a ~|praying mantis scroll (mantis strike)|~": {
-				"Items": ["Praying mantis pouch*"],
-				"Level": 75,
-				"Objects": ["Obelisk"],
-				"Output": "Praying mantis scroll (mantis strike)",
-				"Primary": false,
-				"Priority": 3
-			},
-			"Create a ~|forge regent scroll (inferno)|~": {
-				"Items": ["Forge regent pouch*"],
-				"Level": 76,
-				"Objects": ["Obelisk"],
-				"Output": "Forge regent scroll (inferno)",
-				"Primary": false,
-				"Priority": 3
-			},
-			"Create a ~|adamant minotaur scroll (adamant bull rush)|~": {
-				"Items": ["Adamant minotaur pouch*"],
-				"Level": 76,
-				"Objects": ["Obelisk"],
-				"Output": "Adamant minotaur scroll (adamant bull rush)",
-				"Primary": false,
-				"Priority": 4
-			},
-			"Create a ~|talon beast scroll (deadly claw)|~": {
-				"Items": ["Talon beast pouch*"],
-				"Level": 77,
-				"Objects": ["Obelisk"],
-				"Output": "Talon beast scroll (deadly claw)",
-				"Primary": false,
-				"Priority": 2
-			},
-			"Create a ~|giant ent scroll (acorn missile)|~": {
-				"Items": ["Giant ent pouch*"],
-				"Level": 78,
-				"Objects": ["Obelisk"],
-				"Output": "Giant ent scroll (acorn missile)",
-				"Primary": false,
-				"Priority": 2
-			},
-			"Create a ~|elemental titan scroll (titan's constitution)|~": {
-				"Items": ["EleTitanpouch[+]*"],
-				"Level": 79,
-				"Objects": ["Obelisk"],
-				"Output": "Elemental titan scroll (titan's constitution)",
-				"Primary": false,
-				"Priority": 4
-			},
-			"Create a ~|hydra scroll (regrowth)|~": {
-				"Items": ["Hydra pouch*"],
-				"Level": 80,
-				"Objects": ["Obelisk"],
-				"Output": "Hydra scroll (regrowth)",
-				"Primary": false,
-				"Priority": 2
-			},
-			"Create a ~|lesser demon scroll (ring of fire)|~": {
-				"Items": ["LesserDemonpouch[+]*"],
-				"Level": 82,
-				"Objects": ["Obelisk"],
-				"Output": "Lesser demon scroll (ring of fire)",
-				"Primary": false,
-				"Priority": 4
-			},
-			"Create a ~|spirit dagannoth scroll (spike shot)|~": {
-				"Items": ["Spirit dagannoth pouch*"],
-				"Level": 83,
-				"Objects": ["Obelisk"],
-				"Output": "Spirit dagannoth scroll (spike shot)",
-				"Primary": false,
-				"Priority": 3
-			},
-			"Create a ~|lava titan scroll (ebon thunder)|~": {
-				"Items": ["Lava titan pouch*"],
-				"Level": 83,
-				"Objects": ["Obelisk"],
-				"Output": "Lava titan scroll (ebon thunder)",
-				"Primary": false,
-				"Priority": 4
-			},
-			"Create a ~|phoenix scroll (rise from the ashes)|~ from a reborn phoenix pouch": {
-				"Items": ["Reborn phoenix pouch*"],
-				"Level": 84,
-				"Objects": ["Obelisk"],
-				"Output": "Phoenix scroll (rise from the ashes)",
-				"Primary": false,
-				"Priority": 5
-			},
-			"Create a ~|swamp titan scroll (swamp plague)|~": {
-				"Items": ["Swamp titan pouch*"],
-				"Level": 85,
-				"Objects": ["Obelisk"],
-				"Output": "Swamp titan scroll (swamp plague)",
-				"Primary": false,
-				"Priority": 3
-			},
-			"Create a ~|rune minotaur scroll (rune bull rush)|~": {
-				"Items": ["Rune minotaur pouch*"],
-				"Level": 86,
-				"Objects": ["Obelisk"],
-				"Output": "Rune minotaur scroll (rune bull rush)",
-				"Primary": false,
-				"Priority": 2
-			},
-			"Create a ~|nihil scroll (annihilate)|~": {
-				"Items": ["Nihilpouch[+]*"],
-				"Level": 87,
-				"Objects": ["Obelisk"],
-				"Output": "Nihil scroll (annihilate)",
-				"Primary": false,
-				"Priority": 5
-			},
-			"Create a ~|ghast scroll (ghastly request)|~": {
-				"Items": ["Ghast pouch*"],
-				"Level": 87,
-				"Objects": ["Obelisk"],
-				"Output": "Ghast scroll (ghastly request)",
-				"Primary": false,
-				"Priority": 6
-			},
-			"Create a ~|unicorn stallion scroll (healing aura)|~": {
-				"Items": ["Unicorn stallion pouch*"],
-				"Level": 88,
-				"Objects": ["Obelisk"],
-				"Output": "Unicorn stallion scroll (healing aura)",
-				"Primary": false,
-				"Priority": 2
-			},
-			"Create a ~|geyser titan scroll (boil)|~": {
-				"Items": ["Geyser titan pouch*"],
-				"Level": 89,
-				"Objects": ["Obelisk"],
-				"Output": "Geyser titan scroll (boil)",
-				"Primary": false,
-				"Priority": 2
-			},
-			"Create a ~|wolpertinger scroll (magic focus)|~": {
-				"Items": ["Wolpertinger pouch*"],
-				"Level": 92,
-				"Objects": ["Obelisk"],
-				"Output": "Wolpertinger scroll (magic focus)",
-				"Primary": false,
-				"Priority": 2
-			},
-			"Create a ~|abyssal titan scroll (essence shipment)|~": {
-				"Items": ["Abyssal titan pouch*"],
-				"Level": 93,
-				"Objects": ["Obelisk"],
-				"Output": "Abyssal titan scroll (essence shipment)",
-				"Primary": false,
-				"Priority": 2
-			},
-			"Create a ~|iron titan scroll (iron within)|~": {
-				"Items": ["Iron titan pouch*"],
-				"Level": 95,
-				"Objects": ["Obelisk"],
-				"Output": "Iron titan scroll (iron within)",
-				"Primary": false,
-				"Priority": 2
-			},
-			"Create a ~|pack yak scroll (winter storage)|~": {
-				"Items": ["Pack yak pouch*"],
-				"Level": 96,
-				"Objects": ["Obelisk"],
-				"Output": "Pack yak scroll (winter storage)",
-				"Primary": false,
-				"Priority": 2
-			},
-			"Create a ~|pack mammoth scroll (mammoth feast)|~": {
-				"Items": ["Pack mammoth pouch*"],
-				"Level": 99,
-				"Objects": ["Obelisk"],
-				"Output": "Pack mammoth scroll (mammoth feast)",
-				"Primary": false,
-				"Priority": 4
-			},
-			"Create a ~|steel titan scroll (steel of legends)|~": {
-				"Items": ["Steel titan pouch*"],
-				"Level": 99,
-				"Objects": ["Obelisk"],
-				"Output": "Steel titan scroll (steel of legends)",
-				"Primary": false,
-				"Priority": 5
-			},
-			"Create a ~|hellhound scroll (soul food)|~": {
-				"Items": ["Binding contract (hellhound)*"],
-				"Level": 45,
-				"Objects": ["Obelisk"],
-				"Output": "Hellhound scroll (soul food)",
-				"Primary": false,
-				"Priority": 2
-			},
-			"Create a ~|waterfiend scroll (straight flush)|~": {
-				"Items": ["Binding contract (waterfiend)*"],
-				"Level": 50,
-				"Objects": ["Obelisk"],
-				"Output": "Waterfiend scroll (straight flush)",
-				"Primary": false,
-				"Priority": 2
-			},
-			"Create a ~|blood reaver scroll (blood siphon)|~": {
-				"Items": ["Binding contract (blood reaver)*"],
-				"Level": 73,
-				"Objects": ["Obelisk"],
-				"Output": "Blood reaver scroll (blood siphon)",
-				"Primary": false,
-				"Priority": 4
-			},
-			"Create a ~|gargyole scroll (hammer rock)|~": {
-				"Items": ["Binding contract (gargoyle)*"],
-				"Level": 75,
-				"Objects": ["Obelisk"],
-				"Output": "Gargoyle scroll (hammer rock)",
-				"Primary": false,
-				"Priority": 4
-			},
-			"Create a ~|abyssal demon scroll (abyssal block)|~": {
-				"Items": ["Binding contract (abyssal demon)*"],
-				"Level": 85,
-				"Objects": ["Obelisk"],
-				"Output": "Abyssal demon scroll (abyssal block)",
-				"Primary": false,
-				"Priority": 4
-			},
-			"Create a ~|Kal'gerion demon scroll (crit-i-kal)|~": {
-				"Items": ["Binding contract (Kal'gerion demon)*"],
-				"Level": 90,
-				"Objects": ["Obelisk"],
-				"Output": "Kal'gerion demon scroll (crit-i-kal)",
-				"Primary": false,
-				"Priority": 2
-			},
-			"Create a ~|Ripper Demon scroll (death from above)|~": {
-				"Items": ["Binding contract (Ripper Demon)*"],
-				"Level": 96,
-				"Objects": ["Obelisk"],
-				"Output": "Ripper Demon scroll (death from above)",
-				"Primary": false,
-				"Priority": 4
-			},
-			"Use a ~|spirit spider scroll (egg spawn)|~": {
-				"Items": ["Spirit spider scroll (egg spawn)*"],
-				"Level": 10,
-				"Output": "Red spiders' eggs",
-				"Primary": false,
-				"Priority": 3
-			},
-			"Use a ~|albino rat scroll (cheese feast)|~": {
-				"Items": ["Albino rat scroll (cheese feast)*"],
-				"Level": 23,
-				"Output": "Cheese",
-				"Primary": false,
-				"Priority": 3
-			},
-			"Use a ~|compost mound scroll (generate compost)|~": {
-				"Items": ["Compost mound scroll (generate compost)*"],
-				"Level": 28,
-				"Output": "Compost",
-				"Primary": false,
-				"Priority": 3
-			},
-			"Use a ~|macaw scroll (herbcall)|~": {
-				"Items": ["Macaw scroll (herbcall)*"],
-				"Level": 48,
-				"Output": "Herbcall",
-				"Primary": false,
-				"Priority": 3
-			},
-			"Use a ~|ibis scroll (fish rain)|~": {
-				"Items": ["Ibis scroll (fish rain)*"],
-				"Level": 58,
-				"Output": "Fish rain",
-				"Primary": false,
-				"Priority": 3
-			},
-			"Use a ~|spirit cobra scroll (ophidian incubation)|~ to make a cockatrice egg": {
-				"Items": ["Spirit cobra scroll (ophidian incubation)*", "Egg*"],
-				"Level": 63,
-				"Output": "Cockatrice egg",
-				"Primary": false,
-				"Priority": 3
-			},
-			"Use a ~|spirit cobra scroll (ophidian incubation)|~ to make a saratrice egg": {
-				"Items": ["Spirit cobra scroll (ophidian incubation)*", "Bird's egg (blue)*"],
-				"Level": 63,
-				"Output": "Saratrice egg",
-				"Primary": false,
-				"Priority": 4
-			},
-			"Use a ~|spirit cobra scroll (ophidian incubation)|~ to make a zamatrice egg": {
-				"Items": ["Spirit cobra scroll (ophidian incubation)*", "Bird's egg (red)*"],
-				"Level": 63,
-				"Output": "Zamatrice egg",
-				"Primary": false,
-				"Priority": 5
-			},
-			"Use a ~|spirit cobra scroll (ophidian incubation)|~ to make a guthatrice egg": {
-				"Items": ["Spirit cobra scroll (ophidian incubation)*", "Bird's egg (green)*"],
-				"Level": 63,
-				"Output": "Guthatrice egg",
-				"Primary": false,
-				"Priority": 6
-			},
-			"Use a ~|spirit cobra scroll (ophidian incubation)|~ to make a coraxatrice egg": {
-				"Items": ["Spirit cobra scroll (ophidian incubation)*", "Raven egg*"],
-				"Level": 63,
-				"Output": "Coraxatrice egg",
-				"Primary": false,
-				"Priority": 7
-			},
-			"Use a ~|spirit cobra scroll (ophidian incubation)|~ to make a pengatrice egg": {
-				"Items": ["Spirit cobra scroll (ophidian incubation)*", "Penguin egg*"],
-				"Level": 63,
-				"Output": "Pengatrice egg",
-				"Primary": false,
-				"Priority": 8
-			},
-			"Use a ~|spirit cobra scroll (ophidian incubation)|~ to make a vulatrice egg": {
-				"Items": ["Spirit cobra scroll (ophidian incubation)*", "Vulture egg*"],
-				"Level": 63,
-				"Output": "Vulatrice egg",
-				"Primary": false,
-				"Priority": 9
-			},
-			"Use a ~|fruit bat scroll (fruitfall)|~": {
-				"Items": ["Fruit bat scroll (fruitfall)*"],
-				"Level": 69,
-				"Output": "Fish rain",
-				"Primary": false,
-				"Priority": 3
-			},
-			"Use a ~|giant ent scroll (acorn missile)|~": {
-				"Items": ["Giant ent scroll (acorn missile)*"],
-				"Level": 78,
-				"Output": "Acorn",
-				"Primary": false,
-				"Priority": 3
-			},
-			"Equip ~|antlers|~": {
-				"Items": ["Antlers"],
-				"Level": 10,
-				"Primary": false,
-				"Priority": 4,
-				"NoPet": true,
-				"NoBoost": true
-			},
-			"Equip a ~|lizard skull|~": {
-				"Items": ["Lizard skull"],
-				"Level": 30,
-				"Primary": false,
-				"Priority": 1,
-				"NoPet": true,
-				"NoBoost": true
-			},
-			"Equip a ~|feather headdress (blue)|~": {
-				"Items": ["Feather headdress (blue)"],
-				"Level": 50,
-				"Primary": false,
-				"Skills": {
-					"Ranged": 20
-				},
-				"Priority": 3,
-				"NoPet": true,
-				"NoBoost": true
-			},
-			"Equip a ~|feather headdress (orange)|~": {
-				"Items": ["Feather headdress (orange)"],
-				"Level": 50,
-				"Primary": false,
-				"Skills": {
-					"Ranged": 20
-				},
-				"Priority": 4,
-				"NoPet": true,
-				"NoBoost": true
-			},
-			"Equip a ~|feather headdress (red)|~": {
-				"Items": ["Feather headdress (red)"],
-				"Level": 50,
-				"Primary": false,
-				"Skills": {
-					"Ranged": 20
-				},
-				"Priority": 5,
-				"NoPet": true,
-				"NoBoost": true
-			},
-			"Equip a ~|feather headdress (stripy)|~": {
-				"Items": ["Feather headdress (stripy)"],
-				"Level": 50,
-				"Primary": false,
-				"Skills": {
-					"Ranged": 20
-				},
-				"Priority": 6,
-				"NoPet": true,
-				"NoBoost": true
-			},
-			"Equip a ~|feather headdress (yellow)|~": {
-				"Items": ["Feather headdress (yellow)"],
-				"Level": 50,
-				"Primary": false,
-				"Skills": {
-					"Ranged": 20
-				},
-				"Priority": 7,
-				"NoPet": true,
-				"NoBoost": true
 			},
 			"Obtain a ~|bulldog|~": {
 				"Level": 4,
@@ -69170,6 +67501,123 @@
 				"NoPet": true,
 				"NoBoost": true
 			},
+			"Obtain a ~|creeping hand|~": {
+				"Items": ["Crawling hand (item)"],
+				"Level": 4,
+				"Chunks": ["8493", "9005"],
+				"Primary": false,
+				"Skills": {
+					"Slayer": 5
+				},
+				"Priority": 15,
+				"NoPet": true,
+				"NoBoost": true
+			},
+			"Create a ~|spirit spider pouch|~": {
+				"Items": ["Gold charm*", "Spider carcass*", "Pouch*", "Spirit shards*"],
+				"Level": 10,
+				"Objects": ["Obelisk"],
+				"Output": "Spirit spider pouch",
+				"Primary": true,
+				"Priority": 1
+			},
+			"Create a ~|spirit spider scroll (egg spawn)|~": {
+				"Items": ["Spirit spider pouch*"],
+				"Level": 10,
+				"Objects": ["Obelisk"],
+				"Output": "Spirit spider scroll (egg spawn)",
+				"Primary": false,
+				"Priority": 2
+			},
+			"Use a ~|spirit spider scroll (egg spawn)|~": {
+				"Items": ["Spirit spider scroll (egg spawn)*"],
+				"Level": 10,
+				"Output": "Red spiders' eggs",
+				"Primary": false,
+				"Priority": 3
+			},
+			"Equip ~|antlers|~": {
+				"Items": ["Antlers"],
+				"Level": 10,
+				"Primary": false,
+				"Priority": 4,
+				"NoPet": true,
+				"NoBoost": true
+			},
+			"Catch a ~|gecko|~": {
+				"Items": ["Box trap"],
+				"NPCs": ["Gecko[+]"],
+				"Level": 10,
+				"Skills": {
+					"Hunter": 27
+				},
+				"Output": "Gecko",
+				"Primary": false,
+				"Priority": 6,
+				"NoPet": true,
+				"NoBoost": true
+			},
+			"Catch a ~|platypus|~": {
+				"Items": ["Box trap", "Smouldering lavender"],
+				"NPCs": ["Baby platypus"],
+				"Level": 10,
+				"Skills": {
+					"Hunter": 48
+				},
+				"Output": "Platypus",
+				"Primary": false,
+				"Priority": 5,
+				"NoPet": true,
+				"NoBoost": true
+			},
+			"Create a ~|thorny snail pouch|~": {
+				"Items": ["Gold charm*", "Thin snail*", "Pouch*", "Spirit shards*"],
+				"Level": 13,
+				"Objects": ["Obelisk"],
+				"Output": "Thorny snail pouch",
+				"Primary": true,
+				"Priority": 1
+			},
+			"Create a ~|thorny snail scroll (slime spray)|~": {
+				"Items": ["Thorny snail pouch*"],
+				"Level": 13,
+				"Objects": ["Obelisk"],
+				"Output": "Thorny snail scroll (slime spray)",
+				"Primary": false,
+				"Priority": 2
+			},
+			"Create a ~|spirit war pig|~ (tier 1) pouch": {
+				"Items": ["Gold charm*", "War pig tooth*"],
+				"Level": 14,
+				"Objects": ["Pig machine"],
+				"Output": "Spirit war pig pouch (tier 1)",
+				"Primary": true,
+				"Priority": 1
+			},
+			"Create a ~|spirit prayer pig|~ (tier 1) pouch": {
+				"Items": ["Gold charm*", "Prayer pig tooth*"],
+				"Level": 14,
+				"Objects": ["Pig machine"],
+				"Output": "Spirit prayer pig pouch (tier 1)",
+				"Primary": true,
+				"Priority": 2
+			},
+			"Create a ~|spirit pack pig|~ (tier 1) pouch": {
+				"Items": ["Gold charm*", "Pack pig tooth*"],
+				"Level": 14,
+				"Objects": ["Pig machine"],
+				"Output": "Spirit pack pig pouch (tier 1)",
+				"Primary": true,
+				"Priority": 3
+			},
+			"Create a ~|spirit pig scroll (bacon blast)|~": {
+				"Items": ["Pigpouch[+]*"],
+				"Level": 14,
+				"Objects": ["Pig machine"],
+				"Output": "Spirit pig scroll (bacon blast)",
+				"Primary": false,
+				"Priority": 4
+			},
 			"Obtain a ~|pig (pet)|~": {
 				"Level": 14,
 				"Chunks": ["12083-1"],
@@ -69177,6 +67625,120 @@
 				"Priority": 5,
 				"NoPet": true,
 				"NoBoost": true
+			},
+			"Create a ~|granite crab pouch|~": {
+				"Items": ["Gold charm*", "Iron ore*", "Pouch*", "Spirit shards*"],
+				"Level": 16,
+				"Objects": ["Obelisk"],
+				"Output": "Granite crab pouch",
+				"Primary": true,
+				"Priority": 1
+			},
+			"Create a ~|granite crab scroll (stony shell)|~": {
+				"Items": ["Granite crab pouch*"],
+				"Level": 16,
+				"Objects": ["Obelisk"],
+				"Output": "Granite crab scroll (stony shell)",
+				"Primary": false,
+				"Priority": 2
+			},
+			"Create a ~|spirit mosquito pouch|~": {
+				"Items": ["Gold charm*", "Proboscis*", "Pouch*", "Spirit shards*"],
+				"Level": 17,
+				"Objects": ["Obelisk"],
+				"Output": "Spirit mosquito pouch",
+				"Primary": true,
+				"Priority": 1
+			},
+			"Create a ~|spirit mosquito scroll (pester)|~": {
+				"Items": ["Spirit mosquito pouch*"],
+				"Level": 17,
+				"Objects": ["Obelisk"],
+				"Output": "Spirit mosquito scroll (pester)",
+				"Primary": false,
+				"Priority": 2
+			},
+			"Create a ~|desert wyrm pouch|~": {
+				"Items": ["Green charm*", "Bucket of sand*", "Pouch*", "Spirit shards*"],
+				"Level": 18,
+				"Objects": ["Obelisk"],
+				"Output": "Desert wyrm pouch",
+				"Primary": true,
+				"Priority": 1
+			},
+			"Create a ~|desert wyrm scroll (electric lash)|~": {
+				"Items": ["Desert wyrm pouch*"],
+				"Level": 18,
+				"Objects": ["Obelisk"],
+				"Output": "Desert wyrm scroll (electric lash)",
+				"Primary": false,
+				"Priority": 2
+			},
+			"Create a ~|spirit scorpion pouch|~": {
+				"Items": ["Crimson charm*", "Bronze claws*", "Pouch*", "Spirit shards*"],
+				"Level": 19,
+				"Objects": ["Obelisk"],
+				"Output": "Spirit scorpion pouch",
+				"Primary": true,
+				"Priority": 1
+			},
+			"Create a ~|spirit scorpion scroll (venom shot)|~": {
+				"Items": ["Spirit scorpion pouch*"],
+				"Level": 19,
+				"Objects": ["Obelisk"],
+				"Output": "Spirit scorpion scroll (venom shot)",
+				"Primary": false,
+				"Priority": 2
+			},
+			"Equip the ~|charming imp|~": {
+				"Items": ["Charming imp"],
+				"Level": 21,
+				"Skills": {
+					"Dungeoneering": 41
+				},
+				"Primary": false,
+				"Priority": 1,
+				"NoPet": true,
+				"NoBoost": true
+			},
+			"Create a ~|spirit Tz-Kih pouch|~": {
+				"Items": ["Crimson charm*", "Obsidian charm*", "Pouch*", "Spirit shards*"],
+				"Level": 22,
+				"Objects": ["Obelisk"],
+				"Output": "Spirit Tz-Kih pouch",
+				"Primary": true,
+				"Priority": 1
+			},
+			"Create a ~|spirit Tz-Kih scroll (fireball assault)|~": {
+				"Items": ["Spirit Tz-Kih pouch*"],
+				"Level": 22,
+				"Objects": ["Obelisk"],
+				"Output": "Spirit Tz-Kih scroll (fireball assault)",
+				"Primary": false,
+				"Priority": 2
+			},
+			"Create a ~|albino rat pouch|~": {
+				"Items": ["Blue charm*", "Raw rat meat*", "Pouch*", "Spirit shards*"],
+				"Level": 23,
+				"Objects": ["Obelisk"],
+				"Output": "Albino rat pouch",
+				"Primary": true,
+				"Priority": 1
+			},
+			"Create a ~|albino rat scroll (cheese feast)|~": {
+				"Items": ["Albino rat pouch*"],
+				"Level": 23,
+				"Objects": ["Obelisk"],
+				"Output": "Albino rat scroll (cheese feast)",
+				"Primary": false,
+				"Priority": 2
+			},
+			"Use a ~|albino rat scroll (cheese feast)|~": {
+				"Items": ["Albino rat scroll (cheese feast)*"],
+				"Level": 23,
+				"Output": "Cheese",
+				"Primary": false,
+				"Priority": 3
 			},
 			"Obtain a ~|broav|~": {
 				"Level": 23,
@@ -69186,13 +67748,196 @@
 				"NoPet": true,
 				"NoBoost": true
 			},
+			"Create a ~|spirit kalphite pouch|~": {
+				"Items": ["Blue charm*", "Potato cactus*", "Pouch*", "Spirit shards*"],
+				"Level": 25,
+				"Objects": ["Obelisk"],
+				"Output": "Spirit kalphite pouch",
+				"Primary": true,
+				"Priority": 1
+			},
+			"Create a ~|spirit kalphite scroll (sandstorm)|~": {
+				"Items": ["Spirit kalphite pouch*"],
+				"Level": 25,
+				"Objects": ["Obelisk"],
+				"Output": "Spirit kalphite scroll (sandstorm)",
+				"Primary": false,
+				"Priority": 2
+			},
+			"Create a ~|compost mound pouch|~": {
+				"Items": ["Green charm*", "Compost*", "Pouch*", "Spirit shards*"],
+				"Level": 28,
+				"Objects": ["Obelisk"],
+				"Output": "Compost mound pouch",
+				"Primary": true,
+				"Priority": 1
+			},
+			"Create a ~|compost mound scroll (generate compost)|~": {
+				"Items": ["Compost mound pouch*"],
+				"Level": 28,
+				"Objects": ["Obelisk"],
+				"Output": "Compost mound scroll (generate compost)",
+				"Primary": false,
+				"Priority": 2
+			},
+			"Use a ~|compost mound scroll (generate compost)|~": {
+				"Items": ["Compost mound scroll (generate compost)*"],
+				"Level": 28,
+				"Output": "Compost",
+				"Primary": false,
+				"Priority": 3
+			},
+			"Create a ~|giant chinchompa pouch|~": {
+				"Items": ["Blue charm*", "Chinchompa*", "Pouch*", "Spirit shards*"],
+				"Level": 29,
+				"Objects": ["Obelisk"],
+				"Output": "Giant chinchompa pouch",
+				"Primary": true,
+				"Priority": 1
+			},
+			"Create a ~|giant chinchompa scroll (explode)|~": {
+				"Items": ["Giant chinchompa pouch*"],
+				"Level": 29,
+				"Objects": ["Obelisk"],
+				"Output": "Giant chinchompa scroll (explode)",
+				"Primary": false,
+				"Priority": 2
+			},
+			"Create a ~|jackalope pouch|~": {
+				"Items": ["Gold charm*", "Jackalope antlers*", "Pouch*", "Spirit shards*"],
+				"Level": 30,
+				"Objects": ["Obelisk"],
+				"Output": "Jackalope pouch",
+				"Primary": true,
+				"Priority": 1
+			},
+			"Create a ~|jackalope scroll (Dig for Soil)|~": {
+				"Items": ["Jackalope pouch*"],
+				"Level": 30,
+				"Objects": ["Obelisk"],
+				"Output": "Jackalope scroll (Dig for Soil)",
+				"Primary": true,
+				"Priority": 2
+			},
+			"Equip a ~|lizard skull|~": {
+				"Items": ["Lizard skull"],
+				"Level": 30,
+				"Primary": false,
+				"Priority": 3,
+				"NoPet": true,
+				"NoBoost": true
+			},
 			"Obtain a ~|penguin (pet)|~": {
 				"Level": 30,
 				"Chunks": ["Pet shop[+]", "10291"],
 				"Primary": false,
-				"Priority": 2,
+				"Priority": 4,
 				"NoPet": true,
 				"NoBoost": true
+			},
+			"Create a ~|vampyre bat pouch|~": {
+				"Items": ["Crimson charm*", "Vampyre dust*", "Pouch*", "Spirit shards*"],
+				"Level": 31,
+				"Objects": ["Obelisk"],
+				"Output": "Vampyre bat pouch",
+				"Primary": true,
+				"Priority": 1
+			},
+			"Create a ~|vampyre bat scroll (vampyre touch)|~": {
+				"Items": ["Vampyre bat pouch*"],
+				"Level": 31,
+				"Objects": ["Obelisk"],
+				"Output": "Vampyre bat scroll (vampyre touch)",
+				"Primary": false,
+				"Priority": 2
+			},
+			"Create a ~|honey badger pouch|~": {
+				"Items": ["Crimson charm*", "Honeycomb*", "Pouch*", "Spirit shards*"],
+				"Level": 32,
+				"Objects": ["Obelisk"],
+				"Output": "Honey badger pouch",
+				"Primary": true,
+				"Priority": 1
+			},
+			"Create a ~|honey badger scroll (insane ferocity)|~": {
+				"Items": ["Honey badger pouch*"],
+				"Level": 32,
+				"Objects": ["Obelisk"],
+				"Output": "Honey badger scroll (insane ferocity)",
+				"Primary": false,
+				"Priority": 2
+			},
+			"Create a ~|beaver pouch|~": {
+				"Items": ["Green charm*", "Willow logs*", "Pouch*", "Spirit shards*"],
+				"Level": 33,
+				"Objects": ["Obelisk"],
+				"Output": "Beaver pouch",
+				"Primary": true,
+				"Priority": 1
+			},
+			"Create a ~|beaver scroll (multichop)|~": {
+				"Items": ["Beaver pouch*"],
+				"Level": 33,
+				"Objects": ["Obelisk"],
+				"Output": "Beaver scroll (multichop)",
+				"Primary": false,
+				"Priority": 2
+			},
+			"Create a ~|void ravager pouch|~": {
+				"Items": ["Green charm*", "Ravager charm*", "Pouch*", "Spirit shards*"],
+				"Level": 34,
+				"Objects": ["Obelisk"],
+				"Output": "Void ravager pouch",
+				"Primary": true,
+				"Priority": 1
+			},
+			"Create a ~|void shifter pouch|~": {
+				"Items": ["Blue charm*", "Shifter charm*", "Pouch*", "Spirit shards*"],
+				"Level": 34,
+				"Objects": ["Obelisk"],
+				"Output": "Void shifter pouch",
+				"Primary": true,
+				"Priority": 2
+			},
+			"Create a ~|void spinner pouch|~": {
+				"Items": ["Blue charm*", "Spinner charm*", "Pouch*", "Spirit shards*"],
+				"Level": 34,
+				"Objects": ["Obelisk"],
+				"Output": "Void spinner pouch",
+				"Primary": true,
+				"Priority": 3
+			},
+			"Create a ~|void torcher pouch|~": {
+				"Items": ["Blue charm*", "Torcher charm*", "Pouch*", "Spirit shards*"],
+				"Level": 34,
+				"Objects": ["Obelisk"],
+				"Output": "Void torcher pouch",
+				"Primary": true,
+				"Priority": 4
+			},
+			"Create a ~|void scroll (call to arms)|~": {
+				"Items": ["Voidpouch[+]*"],
+				"Level": 34,
+				"Objects": ["Obelisk"],
+				"Output": "Void scroll (call to arms)",
+				"Primary": false,
+				"Priority": 5
+			},
+			"Create a ~|bronze minotaur pouch|~": {
+				"Items": ["Blue charm*", "Bronze bar*", "Pouch*", "Spirit shards*"],
+				"Level": 36,
+				"Objects": ["Obelisk"],
+				"Output": "Bronze minotaur pouch",
+				"Primary": true,
+				"Priority": 1
+			},
+			"Create a ~|bronze minotaur scroll (bronze bull rush)|~": {
+				"Items": ["Bronze minotaur pouch*"],
+				"Level": 36,
+				"Objects": ["Obelisk"],
+				"Output": "Bronze minotaur scroll (bronze bull rush)",
+				"Primary": false,
+				"Priority": 2
 			},
 			"Obtain a ~|Tooth creature|~": {
 				"Items": ["Kebbit teeth*", "Suqah tooth*", "Old tooth*", "Monkey dentures*", "Human tooth*"],
@@ -69206,6 +67951,22 @@
 				"NoPet": true,
 				"NoBoost": true
 			},
+			"Create a ~|bull ant pouch|~": {
+				"Items": ["Gold charm*", "Marigolds*", "Pouch*", "Spirit shards*"],
+				"Level": 40,
+				"Objects": ["Obelisk"],
+				"Output": "Bull ant pouch",
+				"Primary": true,
+				"Priority": 1
+			},
+			"Create a ~|bull ant scroll (unburden)|~": {
+				"Items": ["Bull ant pouch*"],
+				"Level": 40,
+				"Objects": ["Obelisk"],
+				"Output": "Bull ant scroll (unburden)",
+				"Primary": false,
+				"Priority": 2
+			},
 			"Obtain a ~|giant crab|~": {
 				"Items": ["Crunchy claw token"],
 				"Level": 40,
@@ -69217,6 +67978,309 @@
 				"NoPet": true,
 				"NoBoost": true
 			},
+			"Create a ~|macaw pouch|~": {
+				"Items": ["Green charm*", "Clean guam*", "Pouch*", "Spirit shards*"],
+				"Level": 41,
+				"Objects": ["Obelisk"],
+				"Output": "Macaw pouch",
+				"Primary": true,
+				"Priority": 1
+			},
+			"Create a ~|macaw scroll (herbcall)|~": {
+				"Items": ["Macaw pouch*"],
+				"Level": 41,
+				"Objects": ["Obelisk"],
+				"Output": "Macaw scroll (herbcall)",
+				"Primary": false,
+				"Priority": 2
+			},
+			"Create a ~|evil turnip (familiar) pouch|~": {
+				"Items": ["Crimson charm*", "Carved evil turnip*", "Pouch*", "Spirit shards*"],
+				"Level": 42,
+				"Objects": ["Obelisk"],
+				"Output": "Evil turnip pouch",
+				"Primary": true,
+				"Priority": 1
+			},
+			"Create a ~|evil turnip scroll (evil flames)|~": {
+				"Items": ["Evil turnip pouch*"],
+				"Level": 42,
+				"Objects": ["Obelisk"],
+				"Output": "Evil turnip scroll (evil flames)",
+				"Primary": false,
+				"Priority": 2
+			},
+			"Create a ~|spirit cockatrice pouch|~": {
+				"Items": ["Green charm*", "Cockatrice egg*", "Pouch*", "Spirit shards*"],
+				"Level": 43,
+				"Objects": ["Obelisk"],
+				"Output": "Spirit cockatrice pouch",
+				"Primary": true,
+				"Priority": 1
+			},
+			"Create a ~|spirit guthatrice pouch|~": {
+				"Items": ["Green charm*", "Guthatrice egg*", "Pouch*", "Spirit shards*"],
+				"Level": 43,
+				"Objects": ["Obelisk"],
+				"Output": "Spirit guthatrice pouch",
+				"Primary": true,
+				"Priority": 2
+			},
+			"Create a ~|spirit saratrice pouch|~": {
+				"Items": ["Green charm*", "Saratrice egg*", "Pouch*", "Spirit shards*"],
+				"Level": 43,
+				"Objects": ["Obelisk"],
+				"Output": "Spirit saratrice pouch",
+				"Primary": true,
+				"Priority": 3
+			},
+			"Create a ~|spirit zamatrice pouch|~": {
+				"Items": ["Green charm*", "Zamatrice egg*", "Pouch*", "Spirit shards*"],
+				"Level": 43,
+				"Objects": ["Obelisk"],
+				"Output": "Spirit zamatrice pouch",
+				"Primary": true,
+				"Priority": 4
+			},
+			"Create a ~|spirit pengatrice pouch|~": {
+				"Items": ["Green charm*", "Pengatrice egg*", "Pouch*", "Spirit shards*"],
+				"Level": 43,
+				"Objects": ["Obelisk"],
+				"Output": "Spirit pengatrice pouch",
+				"Primary": true,
+				"Priority": 5
+			},
+			"Create a ~|spirit coraxatrice pouch|~": {
+				"Items": ["Green charm*", "Coraxatrice egg*", "Pouch*", "Spirit shards*"],
+				"Level": 43,
+				"Objects": ["Obelisk"],
+				"Output": "Spirit coraxatrice pouch",
+				"Primary": true,
+				"Priority": 6
+			},
+			"Create a ~|spirit vulatrice pouch|~": {
+				"Items": ["Green charm*", "Vulatrice egg*", "Pouch*", "Spirit shards*"],
+				"Level": 43,
+				"Objects": ["Obelisk"],
+				"Output": "Spirit vulatrice pouch",
+				"Primary": true,
+				"Priority": 7
+			},
+			"Create a ~|spirit cockatrice scroll (petrifying gaze)|~": {
+				"Items": ["Cockatricepouch[+]*"],
+				"Level": 43,
+				"Objects": ["Obelisk"],
+				"Output": "Spirit cockatrice scroll (petrifying flames)",
+				"Primary": false,
+				"Priority": 8
+			},
+			"Upgrade the ~|spirit pig machine|~ to (tier 2)": {
+				"Items": ["Oak plank", "Steel bar", "Nails[+]"],
+				"Level": 44,
+				"Objects": ["Pig machine"],
+				"Output Object": "Pig machine (tier 2)",
+				"Tasks": {
+					"~|Bringing Home the Bacon|~ Complete the quest": "Quest"
+				},
+				"Primary": false,
+				"skills": {
+					"Summoning": 44,
+					"Construction": 44
+				},
+				"Priority": 1,
+				"NoPet": true,
+				"NoBoost": true
+			},
+			"Create a ~|spirit war pig|~ (tier 2) pouch": {
+				"Items": ["Gold charm", "War pig tooth"],
+				"Level": 44,
+				"Objects": ["Pig machine (tier 2)"],
+				"Output": "Spirit war pig pouch (tier 2)",
+				"Primary": true,
+				"Priority": 2
+			},
+			"Create a ~|spirit prayer pig|~ (tier 2) pouch": {
+				"Items": ["Gold charm", "Prayer pig tooth"],
+				"Level": 44,
+				"Objects": ["Pig machine (tier 2)"],
+				"Output": "Spirit prayer pig pouch (tier 2)",
+				"Primary": true,
+				"Priority": 3
+			},
+			"Create a ~|spirit pack pig|~ (tier 2) pouch": {
+				"Items": ["Gold charm", "Pack pig tooth"],
+				"Level": 44,
+				"Objects": ["Pig machine (tier 2)"],
+				"Output": "Spirit pack pig pouch (tier 2)",
+				"Primary": true,
+				"Priority": 4
+			},
+			"Create a ~|binding contract (hellhound)|~": {
+				"Items": ["Blue charm*", "Blood of Orcus*", "Hellfire metal*", "Pouch*", "Spirit shards*"],
+				"Level": 45,
+				"Monsters": ["Hellhound"],
+				"Objects": ["Obelisk"],
+				"Output": "Binding contract (hellhound)",
+				"Tasks": {
+					"Archaeology Mystery: ~|Dagon Bye|~ Complete the mystery": "Quest"
+				},
+				"Primary": true,
+				"Priority": 1
+			},
+			"Create a ~|hellhound scroll (soul food)|~": {
+				"Items": ["Binding contract (hellhound)*"],
+				"Level": 45,
+				"Objects": ["Obelisk"],
+				"Output": "Hellhound scroll (soul food)",
+				"Primary": false,
+				"Priority": 2
+			},
+			"Create a ~|iron minotaur pouch|~": {
+				"Items": ["Blue charm*", "Iron bar*", "Pouch*", "Spirit shards*"],
+				"Level": 46,
+				"Objects": ["Obelisk"],
+				"Output": "Iron minotaur pouch",
+				"Primary": true,
+				"Priority": 1
+			},
+			"Create a ~|pyrelord pouch|~": {
+				"Items": ["Crimson charm*", "Tinderbox*", "Pouch*", "Spirit shards*"],
+				"Level": 46,
+				"Objects": ["Obelisk"],
+				"Output": "Pyrelord pouch",
+				"Primary": true,
+				"Priority": 2
+			},
+			"Create a ~|iron minotaur scroll (iron bull rush)|~": {
+				"Items": ["Iron minotaur pouch*"],
+				"Level": 46,
+				"Objects": ["Obelisk"],
+				"Output": "Iron minotaur scroll (iron bull rush)",
+				"Primary": false,
+				"Priority": 3
+			},
+			"Create a ~|pyrelord scroll (immense heat)|~": {
+				"Items": ["Pyrelord pouch*"],
+				"Level": 46,
+				"Objects": ["Obelisk"],
+				"Output": "Pyrelord scroll (immense heat)",
+				"Primary": false,
+				"Priority": 4
+			},
+			"Create a ~|magpie pouch|~": {
+				"Items": ["Green charm*", "Gold ring*", "Pouch*", "Spirit shards*"],
+				"Level": 47,
+				"Objects": ["Obelisk"],
+				"Output": "Magpie pouch",
+				"Primary": true,
+				"Priority": 1
+			},
+			"Create a ~|magpie scroll (thieving fingers)|~": {
+				"Items": ["Magpie pouch*"],
+				"Level": 47,
+				"Objects": ["Obelisk"],
+				"Output": "Magpie scroll (thieving fingers)",
+				"Primary": false,
+				"Priority": 2
+			},
+			"Use a ~|macaw scroll (herbcall)|~": {
+				"Items": ["Macaw scroll (herbcall)*"],
+				"Level": 48,
+				"Output": "Herbcall",
+				"Primary": false,
+				"Priority": 3
+			},
+			"Create a ~|bloated leech pouch|~": {
+				"Items": ["Crimson charm*", "Raw beef*", "Pouch*", "Spirit shards*"],
+				"Level": 49,
+				"Objects": ["Obelisk"],
+				"Output": "Bloated leech pouch",
+				"Primary": true,
+				"Priority": 1
+			},
+			"Create a ~|bloated leech scroll (blood drain)|~": {
+				"Items": ["Bloated leech pouch*"],
+				"Level": 49,
+				"Objects": ["Obelisk"],
+				"Output": "Bloated leech scroll (Blood drain)",
+				"Primary": false,
+				"Priority": 2
+			},
+			"Create a ~|binding contract (waterfiend)|~": {
+				"Items": ["Blue charm*", "Blood of Orcus*", "Hellfire metal*", "Pouch*", "Spirit shards*"],
+				"Level": 50,
+				"Monsters": ["Waterfiend"],
+				"Objects": ["Obelisk"],
+				"Output": "Binding contract (waterfiend)",
+				"Tasks": {
+					"Archaeology Mystery: ~|Dagon Bye|~ Complete the mystery": "Quest"
+				},
+				"Primary": true,
+				"Priority": 1
+			},
+			"Create a ~|waterfiend scroll (straight flush)|~": {
+				"Items": ["Binding contract (waterfiend)*"],
+				"Level": 50,
+				"Objects": ["Obelisk"],
+				"Output": "Waterfiend scroll (straight flush)",
+				"Primary": false,
+				"Priority": 2
+			},
+			"Equip a ~|feather headdress (blue)|~": {
+				"Items": ["Feather headdress (blue)"],
+				"Level": 50,
+				"Primary": false,
+				"Skills": {
+					"Ranged": 20
+				},
+				"Priority": 3,
+				"NoPet": true,
+				"NoBoost": true
+			},
+			"Equip a ~|feather headdress (orange)|~": {
+				"Items": ["Feather headdress (orange)"],
+				"Level": 50,
+				"Primary": false,
+				"Skills": {
+					"Ranged": 20
+				},
+				"Priority": 4,
+				"NoPet": true,
+				"NoBoost": true
+			},
+			"Equip a ~|feather headdress (red)|~": {
+				"Items": ["Feather headdress (red)"],
+				"Level": 50,
+				"Primary": false,
+				"Skills": {
+					"Ranged": 20
+				},
+				"Priority": 5,
+				"NoPet": true,
+				"NoBoost": true
+			},
+			"Equip a ~|feather headdress (stripy)|~": {
+				"Items": ["Feather headdress (stripy)"],
+				"Level": 50,
+				"Primary": false,
+				"Skills": {
+					"Ranged": 20
+				},
+				"Priority": 6,
+				"NoPet": true,
+				"NoBoost": true
+			},
+			"Equip a ~|feather headdress (yellow)|~": {
+				"Items": ["Feather headdress (yellow)"],
+				"Level": 50,
+				"Primary": false,
+				"Skills": {
+					"Ranged": 20
+				},
+				"Priority": 7,
+				"NoPet": true,
+				"NoBoost": true
+			},
 			"Obtain a ~|raven|~": {
 				"Items": ["Raven egg"],
 				"Level": 50,
@@ -69225,42 +68289,405 @@
 				"NoPet": true,
 				"NoBoost": true
 			},
-			"Obtain a ~|hermit crab|~": {
-				"Level": 75,
-				"Chunks": ["9013"],
-				"Primary": false,
-				"Priority": 5,
-				"NoPet": true,
-				"NoBoost": true
-			},
-			"Obtain a ~|vulture (pet)|~": {
-				"Items": ["Vulture egg"],
-				"Level": 85,
-				"Chunks": ["Pet shop[+]"],
-				"Primary": false,
-				"Priority": 5,
-				"NoPet": true,
-				"NoBoost": true
-			},
-			"Obtain a ~|phoenix eggling|~": {
-				"Level": 72,
-				"Items": ["Phoenix eggling"],
-				"Primary": false,
-				"Priority": 3,
-				"NoPet": true,
-				"NoBoost": true
-			},
-			"Obtain a ~|creeping hand|~": {
-				"Items": ["Crawling hand (item)"],
-				"Level": 4,
-				"Chunks": ["8493", "9005"],
-				"Primary": false,
+			"Wear a ~|spirit cape|~": {
+				"Items": ["Spirit cape"],
+				"Level": 50,
 				"Skills": {
-					"Slayer": 5
+					"Defence": 50,
+					"Dungeoneering": 50
 				},
-				"Priority": 15,
+				"Primary": false,
+				"Priority": 9,
 				"NoPet": true,
 				"NoBoost": true
+			},
+			"Create a ~|spirit terrorbird pouch|~": {
+				"Items": ["Gold charm*", "Raw bird meat*", "Pouch*", "Spirit shards*"],
+				"Level": 52,
+				"Objects": ["Obelisk"],
+				"Output": "Spirit terrorbird pouch",
+				"Primary": true,
+				"Priority": 1
+			},
+			"Create a ~|spirit terrorbird scroll (tireless run)|~": {
+				"Items": ["Spirit terrorbird pouch*"],
+				"Level": 52,
+				"Objects": ["Obelisk"],
+				"Output": "Spirit terrorbird scroll (tireless run)",
+				"Primary": false,
+				"Priority": 2
+			},
+			"Create a ~|abyssal parasite pouch|~": {
+				"Items": ["Green charm*", "Abyssal charm*", "Pouch*", "Spirit shards*"],
+				"Level": 54,
+				"Objects": ["Obelisk"],
+				"Output": "Abyssal parasite pouch",
+				"Primary": true,
+				"Priority": 1
+			},
+			"Create a ~|abyssal parasite scroll (abyssal drain)|~": {
+				"Items": ["Abyssal parasite pouch*"],
+				"Level": 54,
+				"Objects": ["Obelisk"],
+				"Output": "Abyssal parasite scroll (abyssal drain)",
+				"Primary": false,
+				"Priority": 2
+			},
+			"Create a ~|spirit jelly pouch|~": {
+				"Items": ["Blue charm*", "Jug of water*", "Pouch*", "Spirit shards*"],
+				"Level": 55,
+				"Objects": ["Obelisk"],
+				"Output": "Spirit jelly pouch",
+				"Primary": true,
+				"Priority": 1
+			},
+			"Create a ~|spirit jelly scroll (dissolve)|~": {
+				"Items": ["Spirit jelly pouch*"],
+				"Level": 55,
+				"Objects": ["Obelisk"],
+				"Output": "Spirit jelly scroll (dissolve)",
+				"Primary": false,
+				"Priority": 2
+			},
+			"Create a ~|ibis pouch|~": {
+				"Items": ["Green charm*", "Harpoon*", "Pouch*", "Spirit shards*"],
+				"Level": 56,
+				"Objects": ["Obelisk"],
+				"Output": "Ibis pouch",
+				"Primary": true,
+				"Priority": 1
+			},
+			"Create a ~|steel minotaur pouch|~": {
+				"Items": ["Blue charm*", "Steel bar*", "Pouch*", "Spirit shards*"],
+				"Level": 56,
+				"Objects": ["Obelisk"],
+				"Output": "Steel minotaur pouch",
+				"Primary": true,
+				"Priority": 2
+			},
+			"Create a ~|ibis scroll (fish rain)|~": {
+				"Items": ["Ibis pouch*"],
+				"Level": 56,
+				"Objects": ["Obelisk"],
+				"Output": "Ibis scroll (fish rain)",
+				"Primary": false,
+				"Priority": 3
+			},
+			"Create a ~|steel minotaur scroll (steel bull rush)|~": {
+				"Items": ["Steel minotaur pouch*"],
+				"Level": 56,
+				"Objects": ["Obelisk"],
+				"Output": "Steel minotaur scroll (steel bull rush)",
+				"Primary": false,
+				"Priority": 4
+			},
+			"Create a ~|spirit graahk pouch|~": {
+				"Items": ["Blue charm*", "Graahk fur*", "Pouch*", "Spirit shards*"],
+				"Level": 57,
+				"Objects": ["Obelisk"],
+				"Output": "Spirit graahk pouch",
+				"Primary": true,
+				"Priority": 1
+			},
+			"Create a ~|spirit kyatt pouch|~": {
+				"Items": ["Blue charm*", "Kyatt fur*", "Pouch*", "Spirit shards*"],
+				"Level": 57,
+				"Objects": ["Obelisk"],
+				"Output": "Spirit kyatt pouch",
+				"Primary": true,
+				"Priority": 2
+			},
+			"Create a ~|spirit larupia pouch|~": {
+				"Items": ["Blue charm*", "Larupia fur*", "Pouch*", "Spirit shards*"],
+				"Level": 57,
+				"Objects": ["Obelisk"],
+				"Output": "Spirit larupia pouch",
+				"Primary": true,
+				"Priority": 3
+			},
+			"Create a ~|spirit kyatt scroll (ambush)|~": {
+				"Items": ["Spirit kyatt pouch*"],
+				"Level": 57,
+				"Objects": ["Obelisk"],
+				"Output": "Spirit kyatt scroll (ambush)",
+				"Primary": false,
+				"Priority": 4
+			},
+			"Create a ~|spirit larupia scroll (rending)|~": {
+				"Items": ["Spirit larupia pouch*"],
+				"Level": 57,
+				"Objects": ["Obelisk"],
+				"Output": "Spirit larupia scroll (rending)",
+				"Primary": false,
+				"Priority": 5
+			},
+			"Create a ~|spirit graahk scroll (goad)|~": {
+				"Items": ["Spirit graahk pouch*"],
+				"Level": 57,
+				"Objects": ["Obelisk"],
+				"Output": "Spirit graahk scroll (goad)",
+				"Primary": false,
+				"Priority": 6
+			},
+			"Create a ~|Karam. overlord pouch|~": {
+				"Items": ["Blue charm*", "Fishbowl*", "Pouch*", "Spirit shards*"],
+				"Level": 58,
+				"Objects": ["Obelisk"],
+				"Output": "Karam. overlord pouch",
+				"Primary": true,
+				"Priority": 1
+			},
+			"Create a ~|karamthulu overlord scroll (doomsphere)|~": {
+				"Items": ["Karam. overlord pouch*"],
+				"Level": 58,
+				"Objects": ["Obelisk"],
+				"Output": "Karamthulu overlord scroll (doomsphere)",
+				"Primary": false,
+				"Priority": 2
+			},
+			"Use a ~|ibis scroll (fish rain)|~": {
+				"Items": ["Ibis scroll (fish rain)*"],
+				"Level": 58,
+				"Output": "Fish rain",
+				"Primary": false,
+				"Priority": 3
+			},
+			"Catch a ~|squirrel|~": {
+				"Items": ["Small fishing net", "Rope", "Nuts"],
+				"NPCs": ["Baby squirrel"],
+				"Level": 60,
+				"Skills": {
+					"Hunter": 29
+				},
+				"Output": "Squirrel",
+				"Primary": false,
+				"Priority": 1,
+				"NoPet": true,
+				"NoBoost": true
+			},
+			"Enter the ~|Queen Black Dragon|~ lair": {
+				"Chunks": ["Grotworm Lair 3"],
+				"Level": 60,
+				"Primary": false,
+				"Priority": 2,
+				"NoPet": true,
+				"NoBoost": true
+			},
+			"Create a ~|smoke devil pouch|~": {
+				"Items": ["Crimson charm*", "Goat horn dust*", "Pouch*", "Spirit shards*"],
+				"Level": 61,
+				"Objects": ["Obelisk"],
+				"Output": "Smoke devil pouch",
+				"Primary": true,
+				"Priority": 1
+			},
+			"Create a ~|smoke devil scroll (dust cloud)|~": {
+				"Items": ["Smoke devil pouch*"],
+				"Level": 61,
+				"Objects": ["Obelisk"],
+				"Output": "Smoke devil scroll (dust cloud)",
+				"Primary": false,
+				"Priority": 2
+			},
+			"Create a ~|abyssal lurker pouch|~": {
+				"Items": ["Green charm*", "Abyssal charm*", "Pouch*", "Spirit shards*"],
+				"Level": 62,
+				"Objects": ["Obelisk"],
+				"Output": "Abyssal lurker pouch",
+				"Primary": true,
+				"Priority": 1
+			},
+			"Create a ~|abyssal lurker scroll (abyssal stealth)|~": {
+				"Items": ["Abyssal lurker pouch*"],
+				"Level": 62,
+				"Objects": ["Obelisk"],
+				"Output": "Abyssal lurker scroll (abyssal stealth)",
+				"Primary": false,
+				"Priority": 2
+			},
+			"Create a ~|spirit cobra pouch|~": {
+				"Items": ["Crimson charm*", "Snake hide*", "Pouch*", "Spirit shards*"],
+				"Level": 63,
+				"Objects": ["Obelisk"],
+				"Output": "Spirit cobra pouch",
+				"Primary": true,
+				"Priority": 1
+			},
+			"Create a ~|spirit cobra scroll (ophidian incubation)|~": {
+				"Items": ["Spirit cobra pouch*"],
+				"Level": 63,
+				"Objects": ["Obelisk"],
+				"Output": "Spirit cobra scroll (ophidian incubation)",
+				"Primary": false,
+				"Priority": 2
+			},
+			"Use a ~|spirit cobra scroll (ophidian incubation)|~ to make a cockatrice egg": {
+				"Items": ["Spirit cobra scroll (ophidian incubation)*", "Egg*"],
+				"Level": 63,
+				"Output": "Cockatrice egg",
+				"Primary": false,
+				"Priority": 3
+			},
+			"Use a ~|spirit cobra scroll (ophidian incubation)|~ to make a saratrice egg": {
+				"Items": ["Spirit cobra scroll (ophidian incubation)*", "Bird's egg (blue)*"],
+				"Level": 63,
+				"Output": "Saratrice egg",
+				"Primary": false,
+				"Priority": 4
+			},
+			"Use a ~|spirit cobra scroll (ophidian incubation)|~ to make a zamatrice egg": {
+				"Items": ["Spirit cobra scroll (ophidian incubation)*", "Bird's egg (red)*"],
+				"Level": 63,
+				"Output": "Zamatrice egg",
+				"Primary": false,
+				"Priority": 5
+			},
+			"Use a ~|spirit cobra scroll (ophidian incubation)|~ to make a guthatrice egg": {
+				"Items": ["Spirit cobra scroll (ophidian incubation)*", "Bird's egg (green)*"],
+				"Level": 63,
+				"Output": "Guthatrice egg",
+				"Primary": false,
+				"Priority": 6
+			},
+			"Use a ~|spirit cobra scroll (ophidian incubation)|~ to make a coraxatrice egg": {
+				"Items": ["Spirit cobra scroll (ophidian incubation)*", "Raven egg*"],
+				"Level": 63,
+				"Output": "Coraxatrice egg",
+				"Primary": false,
+				"Priority": 7
+			},
+			"Use a ~|spirit cobra scroll (ophidian incubation)|~ to make a pengatrice egg": {
+				"Items": ["Spirit cobra scroll (ophidian incubation)*", "Penguin egg*"],
+				"Level": 63,
+				"Output": "Pengatrice egg",
+				"Primary": false,
+				"Priority": 8
+			},
+			"Use a ~|spirit cobra scroll (ophidian incubation)|~ to make a vulatrice egg": {
+				"Items": ["Spirit cobra scroll (ophidian incubation)*", "Vulture egg*"],
+				"Level": 63,
+				"Output": "Vulatrice egg",
+				"Primary": false,
+				"Priority": 9
+			},
+			"Create a ~|stranger plant pouch|~": {
+				"Items": ["Crimson charm*", "Bagged plant 1*", "Pouch*", "Spirit shards*"],
+				"Level": 64,
+				"Objects": ["Obelisk"],
+				"Output": "Stranger plant pouch",
+				"Primary": true,
+				"Priority": 1
+			},
+			"Create a ~|stranger plant scroll (poisonous blast)|~": {
+				"Items": ["Stranger plant pouch*"],
+				"Level": 64,
+				"Objects": ["Obelisk"],
+				"Output": "Stranger plant scroll (poisonous blast)",
+				"Primary": false,
+				"Priority": 2
+			},
+			"Create a ~|barker toad pouch|~": {
+				"Items": ["Gold charm*", "Swamp toad*", "Pouch*", "Spirit shards*"],
+				"Level": 66,
+				"Objects": ["Obelisk"],
+				"Output": "Barker toad pouch",
+				"Primary": true,
+				"Priority": 1
+			},
+			"Create a ~|mithril minotaur pouch|~": {
+				"Items": ["Blue charm*", "Mithril bar*", "Pouch*", "Spirit shards*"],
+				"Level": 66,
+				"Objects": ["Obelisk"],
+				"Output": "Mithril minotaur pouch",
+				"Primary": true,
+				"Priority": 2
+			},
+			"Create a ~|mithril minotaur scroll (mithril bull rush)|~": {
+				"Items": ["Mithril minotaur pouch*"],
+				"Level": 66,
+				"Objects": ["Obelisk"],
+				"Output": "Mithril minotaur scroll (mithril bull rush)",
+				"Primary": false,
+				"Priority": 3
+			},
+			"Create a ~|barker toad scroll (toad bark)|~": {
+				"Items": ["Barker toad pouch*"],
+				"Level": 66,
+				"Objects": ["Obelisk"],
+				"Output": "Barker toad scroll (toad bark)",
+				"Primary": false,
+				"Priority": 4
+			},
+			"Create a ~|war tortoise pouch|~": {
+				"Items": ["Gold charm*", "Tortoise shell*", "Pouch*", "Spirit shards*"],
+				"Level": 67,
+				"Objects": ["Obelisk"],
+				"Output": "War tortoise pouch",
+				"Primary": true,
+				"Priority": 1
+			},
+			"Create a ~|war tortoise scroll (tetsudo)|~": {
+				"Items": ["War tortoise pouch*"],
+				"Level": 67,
+				"Objects": ["Obelisk"],
+				"Output": "War tortoise scroll (tetsudo)",
+				"Primary": false,
+				"Priority": 2
+			},
+			"Create a ~|bunyip pouch|~": {
+				"Items": ["Green charm*", "Raw shark*", "Pouch*", "Spirit shards*"],
+				"Level": 68,
+				"Objects": ["Obelisk"],
+				"Output": "Bunyip pouch",
+				"Primary": true,
+				"Priority": 1
+			},
+			"Create a ~|bunyip scroll (swallow whole)|~": {
+				"Items": ["Bunyip pouch*"],
+				"Level": 68,
+				"Objects": ["Obelisk"],
+				"Output": "Bunyip scroll (swallow whole)",
+				"Primary": false,
+				"Priority": 2
+			},
+			"Create a ~|fruit bat pouch|~": {
+				"Items": ["Green charm*", "Banana*", "Pouch*", "Spirit shards*"],
+				"Level": 69,
+				"Objects": ["Obelisk"],
+				"Output": "Fruit bat pouch",
+				"Primary": true,
+				"Priority": 1
+			},
+			"Create a ~|fruit bat scroll (fruitfall)|~": {
+				"Items": ["Fruit bat pouch*"],
+				"Level": 69,
+				"Objects": ["Obelisk"],
+				"Output": "Fruit bat scroll (fruitfall)",
+				"Primary": false,
+				"Priority": 2
+			},
+			"Use a ~|fruit bat scroll (fruitfall)|~": {
+				"Items": ["Fruit bat scroll (fruitfall)*"],
+				"Level": 69,
+				"Output": "Fish rain",
+				"Primary": false,
+				"Priority": 3
+			},
+			"Create a ~|ravenous locust pouch|~": {
+				"Items": ["Crimson charm*", "Pot of flour*", "Pouch*", "Spirit shards*"],
+				"Level": 70,
+				"Objects": ["Obelisk"],
+				"Output": "Ravenous locust pouch",
+				"Primary": true,
+				"Priority": 1
+			},
+			"Create a ~|ravenous locust scroll (famine)|~": {
+				"Items": ["Ravecous locust pouch*"],
+				"Level": 70,
+				"Objects": ["Obelisk"],
+				"Output": "Ravenous locust scroll (famine)",
+				"Primary": false,
+				"Priority": 2
 			},
 			"Obtain a ~|guthix raptor|~": {
 				"Items": ["Bird's egg (green)"],
@@ -69289,6 +68716,22 @@
 				"NoPet": true,
 				"NoBoost": true
 			},
+			"Create a ~|arctic bear pouch|~": {
+				"Items": ["Gold charm*", "Polar kebbit fur*", "Pouch*", "Spirit shards*"],
+				"Level": 71,
+				"Objects": ["Obelisk"],
+				"Output": "Arctic bear pouch",
+				"Primary": true,
+				"Priority": 1
+			},
+			"Create a ~|arctic bear scroll (arctic blast)|~": {
+				"Items": ["Arctic bear pouch*"],
+				"Level": 71,
+				"Objects": ["Obelisk"],
+				"Output": "Arctic bear scroll (arctic blast)",
+				"Primary": false,
+				"Priority": 2
+			},
 			"Obtain a ~|ex-ex-parrot|~": {
 				"Level": 71,
 				"Chunks": ["14638-1", "14894", "14902"],
@@ -69296,6 +68739,245 @@
 				"Priority": 3,
 				"NoPet": true,
 				"NoBoost": true
+			},
+			"Create a ~|phoenix (familiar) pouch|~": {
+				"Items": ["Crimson charm*", "Phoenix quill*", "Pouch*", "Spirit shards*"],
+				"Level": 72,
+				"Objects": ["Obelisk"],
+				"Output": "Phoenix pouch",
+				"Primary": true,
+				"Priority": 1
+			},
+			"Create a ~|phoenix scroll (rise from the ashes)|~": {
+				"Items": ["Phoenix pouch*"],
+				"Level": 72,
+				"Objects": ["Obelisk"],
+				"Output": "Phoenix scroll (rise from the ashes)",
+				"Primary": false,
+				"Priority": 2
+			},
+			"Obtain a ~|phoenix eggling|~": {
+				"Level": 72,
+				"Items": ["Phoenix eggling"],
+				"Primary": false,
+				"Priority": 3,
+				"NoPet": true,
+				"NoBoost": true
+			},
+			"Create a ~|obsidian golem pouch|~": {
+				"Items": ["Blue charm*", "Obsidian charm*", "Pouch*", "Spirit shards*"],
+				"Level": 73,
+				"Objects": ["Obelisk"],
+				"Output": "Obsidian golem pouch",
+				"Primary": true,
+				"Priority": 1
+			},
+			"Create a ~|binding contract (blood reaver)|~": {
+				"Items": ["Blue charm*", "Blood of Orcus*", "Hellfire metal*", "Pouch*", "Spirit shards*"],
+				"Level": 73,
+				"Monsters": ["Blood reaver"],
+				"Objects": ["Obelisk"],
+				"Tasks": {
+					"Archaeology Mystery: ~|Dagon Bye|~ Complete the mystery": "Quest"
+				},
+				"Output": "Binding contract (blood reaver)",
+				"Primary": true,
+				"Priority": 2
+			},
+			"Create a ~|obsidian golem scroll (volcanic strength)|~": {
+				"Items": ["Obsidian golem pouch*"],
+				"Level": 73,
+				"Objects": ["Obelisk"],
+				"Output": "Obsidian golem scroll (volcanic strength)",
+				"Primary": false,
+				"Priority": 3
+			},
+			"Create a ~|blood reaver scroll (blood siphon)|~": {
+				"Items": ["Binding contract (blood reaver)*"],
+				"Level": 73,
+				"Objects": ["Obelisk"],
+				"Output": "Blood reaver scroll (blood siphon)",
+				"Primary": false,
+				"Priority": 4
+			},
+			"Create a ~|granite lobster pouch|~": {
+				"Items": ["Crimson charm*", "Granite (500g)*", "Pouch*", "Spirit shards*"],
+				"Level": 74,
+				"Objects": ["Obelisk"],
+				"Output": "Granite lobster pouch",
+				"Primary": true,
+				"Priority": 1
+			},
+			"Create a ~|granite lobster scroll (crushing claw)|~": {
+				"Items": ["Granite lobster pouch*"],
+				"Level": 74,
+				"Objects": ["Obelisk"],
+				"Output": "Granite lobster scroll (crushing claw)",
+				"Primary": false,
+				"Priority": 2
+			},
+			"Create a ~|praying mantis pouch|~": {
+				"Items": ["Crimson charm*", "Red flowers*", "Pouch*", "Spirit shards*"],
+				"Level": 75,
+				"Objects": ["Obelisk"],
+				"Output": "Praying mantis pouch",
+				"Primary": true,
+				"Priority": 1
+			},
+			"Create a ~|binding contract (gargoyle)|~": {
+				"Items": ["Blue charm*", "Blood of Orcus*", "Hellfire metal*", "Pouch*", "Spirit shards*"],
+				"Level": 75,
+				"Monsters": ["Gargoyle"],
+				"Objects": ["Obelisk"],
+				"Tasks": {
+					"Archaeology Mystery: ~|Dagon Bye|~ Complete the mystery": "Quest"
+				},
+				"Output": "Binding contract (gargoyle)",
+				"Primary": true,
+				"Priority": 2
+			},
+			"Create a ~|praying mantis scroll (mantis strike)|~": {
+				"Items": ["Praying mantis pouch*"],
+				"Level": 75,
+				"Objects": ["Obelisk"],
+				"Output": "Praying mantis scroll (mantis strike)",
+				"Primary": false,
+				"Priority": 3
+			},
+			"Create a ~|gargyole scroll (hammer rock)|~": {
+				"Items": ["Binding contract (gargoyle)*"],
+				"Level": 75,
+				"Objects": ["Obelisk"],
+				"Output": "Gargoyle scroll (hammer rock)",
+				"Primary": false,
+				"Priority": 4
+			},
+			"Obtain a ~|hermit crab|~": {
+				"Level": 75,
+				"Chunks": ["9013"],
+				"Primary": false,
+				"Priority": 5,
+				"NoPet": true,
+				"NoBoost": true
+			},
+			"Create a ~|forge regent pouch|~": {
+				"Items": ["Green charm*", "Ruby harvest*", "Pouch*", "Spirit shards*"],
+				"Level": 76,
+				"Objects": ["Obelisk"],
+				"Output": "Forge regent pouch",
+				"Primary": true,
+				"Priority": 1
+			},
+			"Create a ~|adamant minotaur pouch|~": {
+				"Items": ["Blue charm*", "Adamant bar*", "Pouch*", "Spirit shards*"],
+				"Level": 76,
+				"Objects": ["Obelisk"],
+				"Output": "Adamant minotaur pouch",
+				"Primary": true,
+				"Priority": 2
+			},
+			"Create a ~|forge regent scroll (inferno)|~": {
+				"Items": ["Forge regent pouch*"],
+				"Level": 76,
+				"Objects": ["Obelisk"],
+				"Output": "Forge regent scroll (inferno)",
+				"Primary": false,
+				"Priority": 3
+			},
+			"Create a ~|adamant minotaur scroll (adamant bull rush)|~": {
+				"Items": ["Adamant minotaur pouch*"],
+				"Level": 76,
+				"Objects": ["Obelisk"],
+				"Output": "Adamant minotaur scroll (adamant bull rush)",
+				"Primary": false,
+				"Priority": 4
+			},
+			"Create a ~|talon beast pouch|~": {
+				"Items": ["Crimson charm*", "Talon beast charm*", "Pouch*", "Spirit shards*"],
+				"Level": 77,
+				"Objects": ["Obelisk"],
+				"Output": "Talon beast pouch",
+				"Primary": true,
+				"Priority": 1
+			},
+			"Create a ~|talon beast scroll (deadly claw)|~": {
+				"Items": ["Talon beast pouch*"],
+				"Level": 77,
+				"Objects": ["Obelisk"],
+				"Output": "Talon beast scroll (deadly claw)",
+				"Primary": false,
+				"Priority": 2
+			},
+			"Create a ~|giant ent pouch|~": {
+				"Items": ["Green charm*", "Willow branch*", "Pouch*", "Spirit shards*"],
+				"Level": 78,
+				"Objects": ["Obelisk"],
+				"Output": "Giant ent pouch",
+				"Primary": true,
+				"Priority": 1
+			},
+			"Create a ~|giant ent scroll (acorn missile)|~": {
+				"Items": ["Giant ent pouch*"],
+				"Level": 78,
+				"Objects": ["Obelisk"],
+				"Output": "Giant ent scroll (acorn missile)",
+				"Primary": false,
+				"Priority": 2
+			},
+			"Use a ~|giant ent scroll (acorn missile)|~": {
+				"Items": ["Giant ent scroll (acorn missile)*"],
+				"Level": 78,
+				"Output": "Acorn",
+				"Primary": false,
+				"Priority": 3
+			},
+			"Create a ~|fire titan pouch|~": {
+				"Items": ["Blue charm*", "Fire talisman*", "Pouch*", "Spirit shards*"],
+				"Level": 79,
+				"Objects": ["Obelisk"],
+				"Output": "Fire titan pouch",
+				"Primary": true,
+				"Priority": 1
+			},
+			"Create a ~|moss titan pouch|~": {
+				"Items": ["Blue charm*", "Earth talisman*", "Pouch*", "Spirit shards*"],
+				"Level": 79,
+				"Objects": ["Obelisk"],
+				"Output": "Moss titan pouch",
+				"Primary": true,
+				"Priority": 2
+			},
+			"Create a ~|ice titan pouch|~": {
+				"Items": ["Blue charm*", "Air talisman*", "Water talisman*", "Pouch*", "Spirit shards*"],
+				"Level": 79,
+				"Objects": ["Obelisk"],
+				"Output": "Ice titan pouch",
+				"Primary": true,
+				"Priority": 3
+			},
+			"Create a ~|elemental titan scroll (titan's constitution)|~": {
+				"Items": ["EleTitanpouch[+]*"],
+				"Level": 79,
+				"Objects": ["Obelisk"],
+				"Output": "Elemental titan scroll (titan's constitution)",
+				"Primary": false,
+				"Priority": 4
+			},
+			"Create a ~|hydra pouch|~": {
+				"Items": ["Green charm*", "Water orb*", "Pouch*", "Spirit shards*"],
+				"Level": 80,
+				"Objects": ["Obelisk"],
+				"Output": "Hydra pouch",
+				"Primary": true,
+				"Priority": 1
+			},
+			"Create a ~|hydra scroll (regrowth)|~": {
+				"Items": ["Hydra pouch*"],
+				"Level": 80,
+				"Objects": ["Obelisk"],
+				"Output": "Hydra scroll (regrowth)",
+				"Primary": false,
+				"Priority": 2
 			},
 			"Obtain a ~|sneakerpeeper spawn|~": {
 				"Category": ["Pets"],
@@ -69308,6 +68990,317 @@
 				"Priority": 3,
 				"NoPet": true,
 				"NoBoost": true
+			},
+			"Catch a ~|raccoon|~": {
+				"Items": ["Box trap"],
+				"NPCs": ["Baby raccoon"],
+				"Level": 80,
+				"Skills": {
+					"Hunter": 27
+				},
+				"Output": "Raccoon",
+				"Primary": false,
+				"Priority": 4,
+				"NoPet": true,
+				"NoBoost": true
+			},
+			"Create a ~|nightmare muspah pouch|~": {
+				"Items": ["Elder charm*", "Muspah spine*", "Pouch*", "Elder energy*"],
+				"Level": 81,
+				"Objects": ["Obelisk"],
+				"Output": "Nightmare muspah pouch",
+				"Primary": true,
+				"Priority": 1
+			},
+			"Create a ~|demon brawler pouch|~": {
+				"Items": ["Crimson charm*", "Demon claw*", "Pouch*", "Spirit shards*"],
+				"Level": 82,
+				"Objects": ["Obelisk"],
+				"Output": "Demon brawler pouch",
+				"Primary": true,
+				"Priority": 1
+			},
+			"Create a ~|demon deacon pouch|~": {
+				"Items": ["Crimson charm*", "Demon claw*", "Pouch*", "Spirit shards*"],
+				"Level": 82,
+				"Objects": ["Obelisk"],
+				"Output": "Demon deacon pouch",
+				"Primary": true,
+				"Priority": 2
+			},
+			"Create a ~|demon executioner pouch|~": {
+				"Items": ["Crimson charm*", "Demon claw*", "Pouch*", "Spirit shards*"],
+				"Level": 82,
+				"Objects": ["Obelisk"],
+				"Output": "Demon executioner pouch",
+				"Primary": true,
+				"Priority": 3
+			},
+			"Create a ~|lesser demon scroll (ring of fire)|~": {
+				"Items": ["LesserDemonpouch[+]*"],
+				"Level": 82,
+				"Objects": ["Obelisk"],
+				"Output": "Lesser demon scroll (ring of fire)",
+				"Primary": false,
+				"Priority": 4
+			},
+			"Create a ~|spirit dagannoth pouch|~": {
+				"Items": ["Crimson charm*", "Dagannoth hide*", "Pouch*", "Spirit shards*"],
+				"Level": 83,
+				"Objects": ["Obelisk"],
+				"Output": "Spirit dagannoth pouch",
+				"Primary": true,
+				"Priority": 1
+			},
+			"Create a ~|lava titan pouch|~": {
+				"Items": ["Blue charm*", "Obsidian charm*", "Pouch*", "Spirit shards*"],
+				"Level": 83,
+				"Objects": ["Obelisk"],
+				"Output": "Lava titan pouch",
+				"Primary": true,
+				"Priority": 2
+			},
+			"Create a ~|spirit dagannoth scroll (spike shot)|~": {
+				"Items": ["Spirit dagannoth pouch*"],
+				"Level": 83,
+				"Objects": ["Obelisk"],
+				"Output": "Spirit dagannoth scroll (spike shot)",
+				"Primary": false,
+				"Priority": 3
+			},
+			"Create a ~|lava titan scroll (ebon thunder)|~": {
+				"Items": ["Lava titan pouch*"],
+				"Level": 83,
+				"Objects": ["Obelisk"],
+				"Output": "Lava titan scroll (ebon thunder)",
+				"Primary": false,
+				"Priority": 4
+			},
+			"Upgrade the ~|spirit pig machine|~ to (tier 3)": {
+				"Items": ["Teak plank", "Mithril bar", "Nails[+]"],
+				"Level": 84,
+				"Objects": ["Pig machine (tier 2)"],
+				"Output Object": "Pig machine (tier 3)",
+				"Tasks": {
+					"~|Bringing Home the Bacon|~ Complete the quest": "Quest"
+				},
+				"Primary": false,
+				"skills": {
+					"Summoning": 84,
+					"Construction": 84
+				},
+				"Priority": 7,
+				"NoPet": true,
+				"NoBoost": true
+			},
+			"Create a ~|spirit war pig|~ (tier 3) pouch": {
+				"Items": ["Gold charm", "War pig tooth"],
+				"Level": 84,
+				"Objects": ["Pig machine (tier 3)"],
+				"Output": "Spirit war pig pouch (tier 3)",
+				"Primary": true,
+				"Priority": 1
+			},
+			"Create a ~|spirit prayer pig|~ (tier 3) pouch": {
+				"Items": ["Gold charm", "Prayer pig tooth"],
+				"Level": 84,
+				"Objects": ["Pig machine (tier 3)"],
+				"Output": "Spirit prayer pig pouch (tier 3)",
+				"Primary": true,
+				"Priority": 2
+			},
+			"Create a ~|spirit pack pig|~ (tier 3) pouch": {
+				"Items": ["Gold charm", "Pack pig tooth"],
+				"Level": 84,
+				"Objects": ["Pig machine (tier 3)"],
+				"Output": "Spirit pack pig pouch (tier 3)",
+				"Primary": true,
+				"Priority": 3
+			},
+			"Create a ~|reborn phoenix pouch|~": {
+				"Items": ["Crimson charm*", "Phoenix quill*", "Pouch*", "Spirit shards*"],
+				"Level": 84,
+				"Objects": ["Obelisk"],
+				"Output": "Reborn phoenix pouch",
+				"Primary": true,
+				"Priority": 4
+			},
+			"Create a ~|phoenix scroll (rise from the ashes)|~ from a reborn phoenix pouch": {
+				"Items": ["Reborn phoenix pouch*"],
+				"Level": 84,
+				"Objects": ["Obelisk"],
+				"Output": "Phoenix scroll (rise from the ashes)",
+				"Primary": false,
+				"Priority": 5
+			},
+			"Create a ~|swamp titan pouch|~": {
+				"Items": ["Crimson charm*", "Green salamander*", "Pouch*", "Spirit shards*"],
+				"Level": 85,
+				"Objects": ["Obelisk"],
+				"Output": "Swamp titan pouch",
+				"Primary": true,
+				"Priority": 1
+			},
+			"Create a ~|binding contract (abyssal demon)|~": {
+				"Items": ["Blue charm*", "Blood of Orcus*", "Hellfire metal*", "Pouch*", "Spirit shards*"],
+				"Level": 85,
+				"Monsters": ["Abyssal demon"],
+				"Objects": ["Obelisk"],
+				"Tasks": {
+					"Archaeology Mystery: ~|Dagon Bye|~ Complete the mystery": "Quest"
+				},
+				"Output": "Binding contract (abyssal demon)",
+				"Primary": true,
+				"Priority": 2
+			},
+			"Create a ~|swamp titan scroll (swamp plague)|~": {
+				"Items": ["Swamp titan pouch*"],
+				"Level": 85,
+				"Objects": ["Obelisk"],
+				"Output": "Swamp titan scroll (swamp plague)",
+				"Primary": false,
+				"Priority": 3
+			},
+			"Create a ~|abyssal demon scroll (abyssal block)|~": {
+				"Items": ["Binding contract (abyssal demon)*"],
+				"Level": 85,
+				"Objects": ["Obelisk"],
+				"Output": "Abyssal demon scroll (abyssal block)",
+				"Primary": false,
+				"Priority": 4
+			},
+			"Obtain a ~|vulture (pet)|~": {
+				"Items": ["Vulture egg"],
+				"Level": 85,
+				"Chunks": ["Pet shop[+]"],
+				"Primary": false,
+				"Priority": 5,
+				"NoPet": true,
+				"NoBoost": true
+			},
+			"Create a ~|rune minotaur pouch|~": {
+				"Items": ["Blue charm*", "Rune bar*", "Pouch*", "Spirit shards*"],
+				"Level": 86,
+				"Objects": ["Obelisk"],
+				"Output": "Rune minotaur pouch",
+				"Primary": true,
+				"Priority": 1
+			},
+			"Create a ~|rune minotaur scroll (rune bull rush)|~": {
+				"Items": ["Rune minotaur pouch*"],
+				"Level": 86,
+				"Objects": ["Obelisk"],
+				"Output": "Rune minotaur scroll (rune bull rush)",
+				"Primary": false,
+				"Priority": 2
+			},
+			"Create a ~|blood nihil pouch|~": {
+				"Items": ["Elder charm*", "Vampyre fangs*", "Pouch*", "Elder energy*"],
+				"Level": 87,
+				"Objects": ["Obelisk"],
+				"Output": "Blood nihil pouch",
+				"Primary": true,
+				"Priority": 1
+			},
+			"Create a ~|ice nihil pouch|~": {
+				"Items": ["Elder charm*", "Icyene feather*", "Pouch*", "Elder energy*"],
+				"Level": 87,
+				"Objects": ["Obelisk"],
+				"Output": "Ice nihil pouch",
+				"Primary": true,
+				"Priority": 2
+			},
+			"Create a ~|shadow nihil pouch|~": {
+				"Items": ["Elder charm*", "Demon horn*", "Pouch*", "Elder energy*"],
+				"Level": 87,
+				"Objects": ["Obelisk"],
+				"Output": "Shadow nihil pouch",
+				"Primary": true,
+				"Priority": 3
+			},
+			"Create a ~|smoke nihil pouch|~": {
+				"Items": ["Elder charm*", "Aviansie talons*", "Pouch*", "Elder energy*"],
+				"Level": 87,
+				"Objects": ["Obelisk"],
+				"Output": "Smoke nihil pouch",
+				"Primary": true,
+				"Priority": 4
+			},
+			"Create a ~|nihil scroll (annihilate)|~": {
+				"Items": ["Nihilpouch[+]*"],
+				"Level": 87,
+				"Objects": ["Obelisk"],
+				"Output": "Nihil scroll (annihilate)",
+				"Primary": false,
+				"Priority": 5
+			},
+			"Create a ~|ghast scroll (ghastly request)|~": {
+				"Items": ["Ghast pouch*"],
+				"Level": 87,
+				"Objects": ["Obelisk"],
+				"Output": "Ghast scroll (ghastly request)",
+				"Primary": false,
+				"Priority": 6
+			},
+			"Create a ~|unicorn stallion pouch|~": {
+				"Items": ["Green charm*", "Unicorn horn*", "Pouch*", "Spirit shards*"],
+				"Level": 88,
+				"Objects": ["Obelisk"],
+				"Output": "Unicorn stallion pouch",
+				"Primary": true,
+				"Priority": 1
+			},
+			"Create a ~|light creature (familiar) pouch|~": {
+				"Items": ["Blue charm*", "Light core*", "Pouch*", "Spirit shards*"],
+				"Level": 88,
+				"Objects": ["Obelisk"],
+				"Output": "Light creature pouch",
+				"Primary": true,
+				"Priority": 2
+			},
+			"Create a ~|unicorn stallion scroll (healing aura)|~": {
+				"Items": ["Unicorn stallion pouch*"],
+				"Level": 88,
+				"Objects": ["Obelisk"],
+				"Output": "Unicorn stallion scroll (healing aura)",
+				"Primary": false,
+				"Priority": 3
+			},
+			"Create a ~|geyser titan pouch|~": {
+				"Items": ["Blue charm*", "Water talisman*", "Pouch*", "Spirit shards*"],
+				"Level": 89,
+				"Objects": ["Obelisk"],
+				"Output": "Geyser titan pouch",
+				"Primary": true,
+				"Priority": 1
+			},
+			"Create a ~|geyser titan scroll (boil)|~": {
+				"Items": ["Geyser titan pouch*"],
+				"Level": 89,
+				"Objects": ["Obelisk"],
+				"Output": "Geyser titan scroll (boil)",
+				"Primary": false,
+				"Priority": 2
+			},
+			"Create a ~|binding contract (Kal'gerion demon)|~": {
+				"Items": ["Blue charm*", "Blood of Orcus*", "Hellfire metal*", "Pouch*", "Spirit shards*"],
+				"Level": 90,
+				"Monsters": ["Kal'gerion demon"],
+				"Objects": ["Obelisk"],
+				"Tasks": {
+					"Archaeology Mystery: ~|Dagon Bye|~ Complete the mystery": "Quest"
+				},
+				"Output": "Binding contract (Kal'gerion demon)",
+				"Primary": true,
+				"Priority": 1
+			},
+			"Create a ~|Kal'gerion demon scroll (crit-i-kal)|~": {
+				"Items": ["Binding contract (Kal'gerion demon)*"],
+				"Level": 90,
+				"Objects": ["Obelisk"],
+				"Output": "Kal'gerion demon scroll (crit-i-kal)",
+				"Primary": false,
+				"Priority": 2
 			},
 			"Obtain a ~|chameleon|~": {
 				"Items": ["Chameleon egg"],
@@ -69355,9 +69348,175 @@
 					"Thieving": 90,
 					"Woodcutting": 90
 				},
-				"Priority": 4,
+				"Priority": 100,
 				"NoPet": true,
 				"NoBoost": true
+			},
+			"Feed a ~|starved ancient effigy|~ with summoning": {
+				"Items": ["Starved ancient effigy (runecrafting/summoning)"],
+				"Level": 91,
+				"Primary": false,
+				"Priority": 1000,
+				"NoPet": true,
+				"NoBoost": true
+			},
+			"Create a ~|wolpertinger pouch|~": {
+				"Items": ["Crimson charm*", "Raw rabbit*", "Wolf bones*", "Pouch*", "Spirit shards*"],
+				"Level": 92,
+				"Objects": ["Obelisk"],
+				"Output": "Wolpertinger pouch",
+				"Primary": true,
+				"Priority": 1
+			},
+			"Create a ~|wolpertinger scroll (magic focus)|~": {
+				"Items": ["Wolpertinger pouch*"],
+				"Level": 92,
+				"Objects": ["Obelisk"],
+				"Output": "Wolpertinger scroll (magic focus)",
+				"Primary": false,
+				"Priority": 2
+			},
+			"Create a ~|abyssal titan pouch|~": {
+				"Items": ["Green charm*", "Abyssal charm*", "Pouch*", "Spirit shards*"],
+				"Level": 93,
+				"Objects": ["Obelisk"],
+				"Output": "Abyssal titan pouch",
+				"Primary": true,
+				"Priority": 1
+			},
+			"Create a ~|abyssal titan scroll (essence shipment)|~": {
+				"Items": ["Abyssal titan pouch*"],
+				"Level": 93,
+				"Objects": ["Obelisk"],
+				"Output": "Abyssal titan scroll (essence shipment)",
+				"Primary": false,
+				"Priority": 2
+			},
+			"Feed a ~|nourished ancient effigy|~ with summoning": {
+				"Items": ["Starved ancient effigy (runecrafting/summoning)"],
+				"Level": 93,
+				"Primary": false,
+				"Priority": 1000,
+				"NoPet": true,
+				"NoBoost": true
+			},
+			"Create a ~|iron titan pouch|~": {
+				"Items": ["Crimson charm*", "Iron ingot*", "Pouch*", "Spirit shards*"],
+				"Level": 95,
+				"Objects": ["Obelisk"],
+				"Output": "Iron titan pouch",
+				"Primary": true,
+				"Priority": 1
+			},
+			"Create a ~|iron titan scroll (iron within)|~": {
+				"Items": ["Iron titan pouch*"],
+				"Level": 95,
+				"Objects": ["Obelisk"],
+				"Output": "Iron titan scroll (iron within)",
+				"Primary": false,
+				"Priority": 2
+			},
+			"Catch a ~|monkey|~": {
+				"Items": ["Box trap", "Banana"],
+				"NPCs": ["Baby monkey"],
+				"Level": 95,
+				"Skills": {
+					"Hunter": 27
+				},
+				"Output": "Monkey",
+				"Primary": false,
+				"Priority": 3,
+				"NoPet": true,
+				"NoBoost": true
+			},
+			"Feed a ~|sated ancient effigy|~ with summoning": {
+				"Items": ["Starved ancient effigy (runecrafting/summoning)"],
+				"Level": 95,
+				"Primary": false,
+				"Priority": 1000,
+				"NoPet": true,
+				"NoBoost": true
+			},
+			"Create a ~|pack yak pouch|~": {
+				"Items": ["Crimson charm*", "Yak-hide*", "Pouch*", "Spirit shards*"],
+				"Level": 96,
+				"Objects": ["Obelisk"],
+				"Output": "Pack yak pouch",
+				"Primary": true,
+				"Priority": 1
+			},
+			"Create a ~|binding contract (Ripper Demon)|~": {
+				"Items": ["Blue charm*", "Blood of Orcus*", "Hellfire metal*", "Pouch*", "Spirit shards*"],
+				"Level": 96,
+				"Monsters": ["Ripper Demon"],
+				"Objects": ["Obelisk"],
+				"Output": "Binding contract (Ripper Demon)",
+				"Primary": true,
+				"Priority": 2
+			},
+			"Create a ~|pack yak scroll (winter storage)|~": {
+				"Items": ["Pack yak pouch*"],
+				"Level": 96,
+				"Objects": ["Obelisk"],
+				"Output": "Pack yak scroll (winter storage)",
+				"Primary": false,
+				"Priority": 2
+			},
+			"Create a ~|Ripper Demon scroll (death from above)|~": {
+				"Items": ["Binding contract (Ripper Demon)*"],
+				"Level": 96,
+				"Objects": ["Obelisk"],
+				"Output": "Ripper Demon scroll (death from above)",
+				"Primary": false,
+				"Priority": 4
+			},
+			"Feed a ~|gorged ancient effigy|~ with summoning": {
+				"Items": ["Starved ancient effigy (runecrafting/summoning)"],
+				"Level": 97,
+				"Primary": false,
+				"Priority": 1000,
+				"NoPet": true,
+				"NoBoost": true
+			},
+			"Create a ~|sachem hoardstalker pouch|~ in Daemonheim": {
+				"Category": ["Daemonheim tasks"],
+				"Chunks": ["Dungeons of Daemonheim"],
+				"Level": 97,
+				"Primary": false,
+				"Priority": 1001,
+				"NoBoost": true
+			},
+			"Create a ~|pack mammoth pouch|~": {
+				"Items": ["Crimson charm*", "Mammoth tusk*", "Pouch*", "Spirit shards*"],
+				"Level": 99,
+				"Objects": ["Obelisk"],
+				"Output": "Pack mammoth pouch",
+				"Primary": true,
+				"Priority": 2
+			},
+			"Create a ~|steel titan pouch|~": {
+				"Items": ["Crimson charm*", "Steel ingot*", "Pouch*", "Spirit shards*"],
+				"Level": 99,
+				"Objects": ["Obelisk"],
+				"Output": "Steel titan pouch",
+				"Primary": true,
+				"Priority": 3
+			},
+			"Create a ~|pack mammoth scroll (mammoth feast)|~": {
+				"Items": ["Pack mammoth pouch*"],
+				"Level": 99,
+				"Objects": ["Obelisk"],
+				"Output": "Pack mammoth scroll (mammoth feast)",
+				"Primary": false,
+				"Priority": 4
+			},
+			"Create a ~|steel titan scroll (steel of legends)|~": {
+				"Items": ["Steel titan pouch*"],
+				"Level": 99,
+				"Objects": ["Obelisk"],
+				"Output": "Steel titan scroll (steel of legends)",
+				"Primary": false,
+				"Priority": 5
 			},
 			"Obtain a ~|baby green dragon|~": {
 				"Items": ["Green dragon egg"],
@@ -69395,170 +69554,6 @@
 				"NoPet": true,
 				"NoBoost": true
 			},
-			"Unlock the ability to get ~|dragon egg|~ drops": {
-				"Monsters": ["DragonEggDroppers[+]"],
-				"Level": 99,
-				"Primary": false,
-				"Priority": 100000,
-				"NoPet": true,
-				"NoBoost": true
-			},
-			"Buy the ~|Summoning cape|~": {
-				"Category": ["Skillcape"],
-				"NPCs": ["Pikkupstix"],
-				"Level": 99,
-				"Output": "Summoning cape",
-				"Primary": true,
-				"Priority": 14,
-				"NoPet": true,
-				"NoBoost": true
-			},
-			"Buy the ~|Summoning master cape|~": {
-				"Category": ["Master skillcape"],
-				"NPCs": ["Pikkupstix"],
-				"Level": 120,
-				"Output": "Summoning master cape",
-				"Primary": false,
-				"Priority": 3,
-				"NoPet": true,
-				"NoBoost": true
-			},
-			"Catch a ~|gecko|~": {
-				"Items": ["Box trap"],
-				"NPCs": ["Gecko[+]"],
-				"Level": 10,
-				"Skills": {
-					"Hunter": 27
-				},
-				"Output": "Gecko",
-				"Primary": false,
-				"Priority": 6,
-				"NoPet": true,
-				"NoBoost": true
-			},
-			"Catch a ~|raccoon|~": {
-				"Items": ["Box trap"],
-				"NPCs": ["Baby raccoon"],
-				"Level": 80,
-				"Skills": {
-					"Hunter": 27
-				},
-				"Output": "Raccoon",
-				"Primary": false,
-				"Priority": 4,
-				"NoPet": true,
-				"NoBoost": true
-			},
-			"Catch a ~|monkey|~": {
-				"Items": ["Box trap", "Banana"],
-				"NPCs": ["Baby monkey"],
-				"Level": 95,
-				"Skills": {
-					"Hunter": 27
-				},
-				"Output": "Monkey",
-				"Primary": false,
-				"Priority": 3,
-				"NoPet": true,
-				"NoBoost": true
-			},
-			"Catch a ~|squirrel|~": {
-				"Items": ["Small fishing net", "Rope", "Nuts"],
-				"NPCs": ["Baby squirrel"],
-				"Level": 60,
-				"Skills": {
-					"Hunter": 29
-				},
-				"Output": "Squirrel",
-				"Primary": false,
-				"Priority": 1,
-				"NoPet": true,
-				"NoBoost": true
-			},
-			"Enter the ~|Queen Black Dragon|~ lair": {
-				"Chunks": ["Grotworm Lair 3"],
-				"Level": 60,
-				"Primary": false,
-				"Priority": 2,
-				"NoPet": true,
-				"NoBoost": true
-			},
-			"Catch a ~|platypus|~": {
-				"Items": ["Box trap", "Smouldering lavender"],
-				"NPCs": ["Baby platypus"],
-				"Level": 10,
-				"Skills": {
-					"Hunter": 48
-				},
-				"Output": "Platypus",
-				"Primary": false,
-				"Priority": 5,
-				"NoPet": true,
-				"NoBoost": true
-			},
-			"Equip the ~|charming imp|~": {
-				"Items": ["Charming imp"],
-				"Level": 21,
-				"Skills": {
-					"Dungeoneering": 41
-				},
-				"Primary": false,
-				"Priority": 1,
-				"NoPet": true,
-				"NoBoost": true
-			},
-			"Wear a ~|spirit cape|~": {
-				"Items": ["Spirit cape"],
-				"Level": 50,
-				"Skills": {
-					"Defence": 50,
-					"Dungeoneering": 50
-				},
-				"Primary": false,
-				"Priority": 9,
-				"NoPet": true,
-				"NoBoost": true
-			},
-			"Feed a ~|starved ancient effigy|~ with summoning": {
-				"Items": ["Starved ancient effigy (runecrafting/summoning)"],
-				"Level": 91,
-				"Primary": false,
-				"Priority": 1,
-				"NoPet": true,
-				"NoBoost": true
-			},
-			"Feed a ~|nourished ancient effigy|~ with summoning": {
-				"Items": ["Starved ancient effigy (runecrafting/summoning)"],
-				"Level": 93,
-				"Primary": false,
-				"Priority": 3,
-				"NoPet": true,
-				"NoBoost": true
-			},
-			"Feed a ~|sated ancient effigy|~ with summoning": {
-				"Items": ["Starved ancient effigy (runecrafting/summoning)"],
-				"Level": 95,
-				"Primary": false,
-				"Priority": 4,
-				"NoPet": true,
-				"NoBoost": true
-			},
-			"Feed a ~|gorged ancient effigy|~ with summoning": {
-				"Items": ["Starved ancient effigy (runecrafting/summoning)"],
-				"Level": 97,
-				"Primary": false,
-				"Priority": 1,
-				"NoPet": true,
-				"NoBoost": true
-			},
-			"Create a ~|sachem hoardstalker pouch|~ in Daemonheim": {
-				"Category": ["Daemonheim tasks"],
-				"Chunks": ["Dungeons of Daemonheim"],
-				"Level": 97,
-				"Primary": false,
-				"Priority": 1000,
-				"NoBoost": true
-			},
 			"Obtain a ~|Frosty|~ pet": {
 				"Category": ["Pets"],
 				"Level": 99,
@@ -69577,6 +69572,34 @@
 				"Level": 99,
 				"Primary": false,
 				"Priority": 1000,
+				"NoBoost": true
+			},
+			"Buy the ~|Summoning cape|~": {
+				"Category": ["Skillcape"],
+				"NPCs": ["Pikkupstix"],
+				"Level": 99,
+				"Output": "Summoning cape",
+				"Primary": true,
+				"Priority": 1001,
+				"NoPet": true,
+				"NoBoost": true
+			},
+			"Unlock the ability to get ~|dragon egg|~ drops": {
+				"Monsters": ["DragonEggDroppers[+]"],
+				"Level": 99,
+				"Primary": false,
+				"Priority": 1002,
+				"NoPet": true,
+				"NoBoost": true
+			},
+			"Buy the ~|Summoning master cape|~": {
+				"Category": ["Master skillcape"],
+				"NPCs": ["Pikkupstix"],
+				"Level": 120,
+				"Output": "Summoning master cape",
+				"Primary": false,
+				"Priority": 3,
+				"NoPet": true,
 				"NoBoost": true
 			}
 		},
