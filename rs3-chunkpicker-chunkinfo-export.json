@@ -25600,8 +25600,8 @@
 				"NoPet": true,
 				"NoBoost": true
 			},
-			"Wield a ~|shieldbow|~": {
-				"Items": ["Shieldbow"],
+			"Wield a ~|longbow|~": {
+				"Items": ["Longbow"],
 				"Level": 1,
 				"Skills": {
 					"Ranged": 1
@@ -25714,8 +25714,8 @@
 				"NoPet": true,
 				"NoBoost": true
 			},
-			"Wield an ~|oak shieldbow|~": {
-				"Items": ["Oak shieldbow"],
+			"Wield an ~|oak longbow|~": {
+				"Items": ["Oak longbow"],
 				"Level": 10,
 				"Skills": {
 					"Ranged": 10
@@ -25826,8 +25826,8 @@
 				"NoBoost": true,
 				"Not F2P": true
 			},
-			"Wield a ~|willow shieldbow|~": {
-				"Items": ["Willow shieldbow"],
+			"Wield a ~|willow longbow|~": {
+				"Items": ["Willow longbow"],
 				"Level": 20,
 				"Skills": {
 					"Ranged": 20
@@ -26081,8 +26081,8 @@
 				"NoPet": true,
 				"NoBoost": true
 			},
-			"Wield a ~|maple shieldbow|~": {
-				"Items": ["Maple shieldbow"],
+			"Wield a ~|maple longbow|~": {
+				"Items": ["Maple longbow"],
 				"Level": 30,
 				"Skills": {
 					"Ranged": 30
@@ -26374,8 +26374,8 @@
 				"NoBoost": true,
 				"Not F2P": true
 			},
-			"Wield a ~|yew shieldbow|~": {
-				"Items": ["Yew shieldbow"],
+			"Wield a ~|yew longbow|~": {
+				"Items": ["Yew longbow"],
 				"Level": 40,
 				"Skills": {
 					"Ranged": 40
@@ -26480,8 +26480,8 @@
 				"NoBoost": true,
 				"Not F2P": true
 			},
-			"Wield a ~|maple shieldbow (sighted)|~": {
-				"Items": ["Maple shieldbow (sighted)"],
+			"Wield a ~|maple longbow (sighted)|~": {
+				"Items": ["Maple longbow (sighted)"],
 				"Level": 45,
 				"Skills": {
 					"Ranged": 45,
@@ -26636,8 +26636,8 @@
 				"NoBoost": true,
 				"Not F2P": true
 			},
-			"Wield a ~|magic shieldbow|~": {
-				"Items": ["Magic shieldbow"],
+			"Wield a ~|magic longbow|~": {
+				"Items": ["Magic longbow"],
 				"Level": 50,
 				"Skills": {
 					"Ranged": 50
@@ -26756,8 +26756,8 @@
 				"NoPet": true,
 				"NoBoost": true
 			},
-			"Wield a ~|magic shieldbow (sighted)|~": {
-				"Items": ["Magic shieldbow (sighted)"],
+			"Wield a ~|magic longbow (sighted)|~": {
+				"Items": ["Magic longbow (sighted)"],
 				"Level": 55,
 				"Skills": {
 					"Ranged": 55,
@@ -26926,8 +26926,8 @@
 				"NoBoost": true,
 				"Not F2P": true
 			},
-			"Wield an ~|elder shieldbow|~": {
-				"Items": ["Elder shieldbow"],
+			"Wield an ~|elder longbow|~": {
+				"Items": ["Elder longbow"],
 				"Level": 60,
 				"Skills": {
 					"Ranged": 60
@@ -27051,8 +27051,8 @@
 				"NoPet": true,
 				"NoBoost": true
 			},
-			"Wield a ~|elder shieldbow (sighted)|~": {
-				"Items": ["Elder shieldbow (sighted)"],
+			"Wield a ~|elder longbow (sighted)|~": {
+				"Items": ["Elder longbow (sighted)"],
 				"Level": 65,
 				"Skills": {
 					"Ranged": 65,
@@ -30378,8 +30378,8 @@
 				"Priority": 6,
 				"Not F2P": true
 			},
-			"Wield a ~|maple shieldbow (sighted)|~": {
-				"Items": ["Maple shieldbow (sighted)"],
+			"Wield a ~|maple longbow (sighted)|~": {
+				"Items": ["Maple longbow (sighted)"],
 				"Level": 45,
 				"Primary": false,
 				"Skills": {
@@ -30388,8 +30388,8 @@
 				},
 				"Priority": 1
 			},
-			"Wield a ~|magic shieldbow (sighted)|~": {
-				"Items": ["Magic shieldbow (sighted)"],
+			"Wield a ~|magic longbow (sighted)|~": {
+				"Items": ["Magic longbow (sighted)"],
 				"Level": 45,
 				"Primary": false,
 				"Skills": {
@@ -30398,8 +30398,8 @@
 				},
 				"Priority": 2
 			},
-			"Wield an ~|elder shieldbow (sighted)|~": {
-				"Items": ["Elder shieldbow (sighted)"],
+			"Wield an ~|elder longbow (sighted)|~": {
+				"Items": ["Elder longbow (sighted)"],
 				"Level": 45,
 				"Primary": false,
 				"Skills": {
@@ -38784,18 +38784,18 @@
 				"Primary": true,
 				"Priority": 7
 			},
-			"Fletch a ~|shieldbow (unstrung)|~": {
+			"Fletch a ~|longbow (unstrung)|~": {
 				"Items": ["Logs*"],
 				"Level": 10,
-				"Output": "Shieldbow (unstrung)",
+				"Output": "Longbow (unstrung)",
 				"Primary": true,
 				"Priority": 1,
 				"Partial": true
 			},
-			"String a ~|shieldbow|~": {
-				"Items": ["Shieldbow (unstrung)*", "Bowstring*"],
+			"String a ~|longbow|~": {
+				"Items": ["Longbow (unstrung)*", "Bowstring*"],
 				"Level": 10,
-				"Output": "Shieldbow",
+				"Output": "Longbow",
 				"Primary": true,
 				"Priority": 2
 			},
@@ -39070,18 +39070,18 @@
 				"Primary": true,
 				"Priority": 6
 			},
-			"Fletch an ~|oak shieldbow (unstrung)|~": {
+			"Fletch an ~|oak longbow (unstrung)|~": {
 				"Items": ["Oak logs*"],
 				"Level": 25,
-				"Output": "Oak shieldbow (unstrung)",
+				"Output": "Oak longbow (unstrung)",
 				"Primary": true,
 				"Priority": 1,
 				"Partial": true
 			},
-			"String an ~|oak shieldbow|~": {
-				"Items": ["Oak shieldbow (unstrung)*", "Bowstring*"],
+			"String an ~|oak longbow|~": {
+				"Items": ["Oak longbow (unstrung)*", "Bowstring*"],
 				"Level": 25,
-				"Output": "Oak shieldbow",
+				"Output": "Oak longbow",
 				"Primary": true,
 				"Priority": 2
 			},
@@ -39242,18 +39242,18 @@
 				"Primary": true,
 				"Priority": 6
 			},
-			"Fletch a ~|willow shieldbow (unstrung)|~": {
+			"Fletch a ~|willow longbow (unstrung)|~": {
 				"Items": ["Willow logs*"],
 				"Level": 40,
-				"Output": "Willow shieldbow (unstrung)",
+				"Output": "Willow longbow (unstrung)",
 				"Primary": true,
 				"Priority": 1,
 				"Partial": true
 			},
-			"String a ~|willow shieldbow|~": {
-				"Items": ["Willow shieldbow (unstrung)*", "Bowstring*"],
+			"String a ~|willow longbow|~": {
+				"Items": ["Willow longbow (unstrung)*", "Bowstring*"],
 				"Level": 40,
-				"Output": "Willow shieldbow",
+				"Output": "Willow longbow",
 				"Primary": true,
 				"Priority": 2
 			},
@@ -39499,18 +39499,18 @@
 				"Primary": true,
 				"Priority": 7
 			},
-			"Fletch a ~|maple shieldbow (unstrung)|~": {
+			"Fletch a ~|maple longbow (unstrung)|~": {
 				"Items": ["Maple logs*"],
 				"Level": 55,
-				"Output": "Maple shieldbow (unstrung)",
+				"Output": "Maple longbow (unstrung)",
 				"Primary": true,
 				"Priority": 1,
 				"Partial": true
 			},
-			"String a ~|maple shieldbow|~": {
+			"String a ~|maple longbow|~": {
 				"Items": ["Maple shortbow (unstrung)*", "Bowstring*"],
 				"Level": 55,
-				"Output": "Maple shieldbow",
+				"Output": "Maple longbow",
 				"Primary": true,
 				"Priority": 2
 			},
@@ -39790,18 +39790,18 @@
 				"Primary": true,
 				"Priority": 6
 			},
-			"Fletch a ~|yew shieldbow (unstrung)|~": {
+			"Fletch a ~|yew longbow (unstrung)|~": {
 				"Items": ["Yew logs*"],
 				"Level": 70,
-				"Output": "Yew shieldbow (unstrung)",
+				"Output": "Yew longbow (unstrung)",
 				"Primary": true,
 				"Priority": 1,
 				"Partial": true
 			},
-			"String a ~|yew shieldbow|~": {
-				"Items": ["Yew shieldbow (unstrung)*", "Bowstring*"],
+			"String a ~|yew longbow|~": {
+				"Items": ["Yew longbow (unstrung)*", "Bowstring*"],
 				"Level": 70,
-				"Output": "Yew shieldbow",
+				"Output": "Yew longbow",
 				"Primary": true,
 				"Priority": 2
 			},
@@ -40135,18 +40135,18 @@
 				"Priority": 3,
 				"Not F2P": true
 			},
-			"Fletch a ~|magic shieldbow (unstrung)|~": {
+			"Fletch a ~|magic longbow (unstrung)|~": {
 				"Items": ["Magic logs*"],
 				"Level": 85,
-				"Output": "Magic shieldbow (unstrung)",
+				"Output": "Magic longbow (unstrung)",
 				"Primary": true,
 				"Priority": 1,
 				"Partial": true
 			},
-			"String a ~|magic shieldbow|~": {
-				"Items": ["Magic shieldbow (unstrung)*", "Bowstring*"],
+			"String a ~|magic longbow|~": {
+				"Items": ["Magic longbow (unstrung)*", "Bowstring*"],
 				"Level": 85,
-				"Output": "Magic shieldbow",
+				"Output": "Magic longbow",
 				"Primary": true,
 				"Priority": 2
 			},
@@ -40672,19 +40672,19 @@
 				"Primary": true,
 				"Priority": 8
 			},
-			"Fletch an ~|elder shieldbow (unstrung)|~": {
+			"Fletch an ~|elder longbow (unstrung)|~": {
 				"Items": ["Elder logs*"],
 				"Level": 95,
-				"Output": "Elder shieldbow (unstrung)",
+				"Output": "Elder longbow (unstrung)",
 				"Primary": true,
 				"Priority": 9,
 				"Not F2P": true,
 				"Partial": true
 			},
-			"String an ~|elder shieldbow|~": {
-				"Items": ["Elder shieldbow (unstrung)*", "Bowstring*"],
+			"String an ~|elder longbow|~": {
+				"Items": ["Elder longbow (unstrung)*", "Bowstring*"],
 				"Level": 95,
-				"Output": "Elder shieldbow",
+				"Output": "Elder longbow",
 				"Primary": true,
 				"Priority": 10,
 				"Not F2P": true
@@ -56490,8 +56490,8 @@
 				"NoPet": true,
 				"NoBoost": true
 			},
-			"Wield a ~|shieldbow|~": {
-				"Items": ["Shieldbow"],
+			"Wield a ~|longbow|~": {
+				"Items": ["Longbow"],
 				"Level": 1,
 				"Primary": false,
 				"Skills": {
@@ -56696,8 +56696,8 @@
 				"NoPet": true,
 				"NoBoost": true
 			},
-			"Wield an ~|oak shieldbow|~": {
-				"Items": ["Oak shieldbow"],
+			"Wield an ~|oak longbow|~": {
+				"Items": ["Oak longbow"],
 				"Level": 10,
 				"Primary": false,
 				"Skills": {
@@ -56877,8 +56877,8 @@
 				"NoPet": true,
 				"NoBoost": true
 			},
-			"Wield a ~|willow shieldbow|~": {
-				"Items": ["Willow shieldbow"],
+			"Wield a ~|willow longbow|~": {
+				"Items": ["Willow longbow"],
 				"Level": 20,
 				"Primary": false,
 				"Skills": {
@@ -57331,8 +57331,8 @@
 				"NoBoost": true,
 				"Not F2P": true
 			},
-			"Wield a ~|maple shieldbow|~": {
-				"Items": ["Maple shieldbow"],
+			"Wield a ~|maple longbow|~": {
+				"Items": ["Maple longbow"],
 				"Level": 30,
 				"Primary": false,
 				"Skills": {
@@ -57604,8 +57604,8 @@
 				"NoPet": true,
 				"NoBoost": true
 			},
-			"Wield a ~|yew shieldbow|~": {
-				"Items": ["Yew shieldbow"],
+			"Wield a ~|yew longbow|~": {
+				"Items": ["Yew longbow"],
 				"Level": 40,
 				"Primary": false,
 				"Skills": {
@@ -57813,8 +57813,8 @@
 				"NoBoost": true,
 				"Not F2P": true
 			},
-			"Wield a ~|maple shieldbow (sighted)|~": {
-				"Items": ["Maple shieldbow (sighted)"],
+			"Wield a ~|maple longbow (sighted)|~": {
+				"Items": ["Maple longbow (sighted)"],
 				"Level": 45,
 				"Primary": false,
 				"Skills": {
@@ -57860,8 +57860,8 @@
 				"NoBoost": true,
 				"Not F2P": true
 			},
-			"Wield a ~|magic shieldbow|~": {
-				"Items": ["Magic shieldbow"],
+			"Wield a ~|magic longbow|~": {
+				"Items": ["Magic longbow"],
 				"Level": 50,
 				"Primary": false,
 				"Skills": {
@@ -58215,8 +58215,8 @@
 				"NoPet": true,
 				"NoBoost": true
 			},
-			"Wield a ~|magic shieldbow (sighted)|~": {
-				"Items": ["Magic shieldbow (sighted)"],
+			"Wield a ~|magic longbow (sighted)|~": {
+				"Items": ["Magic longbow (sighted)"],
 				"Level": 55,
 				"Primary": false,
 				"Skills": {
@@ -58272,8 +58272,8 @@
 				"NoBoost": true,
 				"Not F2P": true
 			},
-			"Wield an ~|elder shieldbow|~": {
-				"Items": ["Elder shieldbow"],
+			"Wield an ~|elder longbow|~": {
+				"Items": ["Elder longbow"],
 				"Level": 60,
 				"Primary": false,
 				"Skills": {
@@ -58569,8 +58569,8 @@
 				"NoPet": true,
 				"NoBoost": true
 			},
-			"Wield an ~|elder shieldbow (sighted)|~": {
-				"Items": ["Elder shieldbow (sighted)"],
+			"Wield an ~|elder longbow (sighted)|~": {
+				"Items": ["Elder longbow (sighted)"],
 				"Level": 65,
 				"Primary": false,
 				"Skills": {
@@ -85030,7 +85030,7 @@
 				"BaseQuest": "Ghosts Ahoy",
 				"Description": "Beat Robin at Rune-Draw until he signs your bow, and give it to Ak-Haranu",
 				"Chunks": ["14646-1"],
-				"Items": ["Oak shieldbow"],
+				"Items": ["Oak longbow"],
 				"Tasks": {
 					"~|Ghosts Ahoy|~ 5b1": "Quest"
 				},
@@ -113696,9 +113696,9 @@
 				"RuneScore": 10
 			},
 			"~|Seers' Village Achievements#Medium|~ Sniper Training": {
-				"Description": "Kill one guard on each tower of the Ranging Guild using a regular shieldbow.",
+				"Description": "Kill one guard on each tower of the Ranging Guild using a regular longbow.",
 				"Chunks": ["10549"],
-				"Items": ["Shieldbow"],
+				"Items": ["Longbow"],
 				"Skills": {
 					"Ranged": 40
 				},
@@ -114015,7 +114015,7 @@
 				"RuneScore": 25
 			},
 			"~|Seers' Village Achievements#Elite|~ The Long of It": {
-				"Description": "Make a magic shieldbow from scratch within the Seers' Village area.",
+				"Description": "Make a magic longbow from scratch within the Seers' Village area.",
 				"Chunks": ["10805", "10806-1"],
 				"Items": ["Magic logs"],
 				"Skills": {
@@ -114254,7 +114254,7 @@
 				"RuneScore": 10
 			},
 			"~|Tirannwn Achievements#Medium|~ Bowing Out and About": {
-				"Description": "Create a yew shieldbow from scratch in the eleven lands.",
+				"Description": "Create a yew longbow from scratch in the eleven lands.",
 				"Chunks": ["Tirannwn[+]"],
 				"Objects": ["Yew", "Flax"],
 				"Skills": {
@@ -139055,7 +139055,7 @@
 				"Category": ["Fill Stash"],
 				"Label": "Fill hidey-holes",
 				"Chunks": ["10804"],
-				"Items": ["Oak shieldbow", "Iron platelegs", "Emerald amulet"],
+				"Items": ["Oak longbow", "Iron platelegs", "Emerald amulet"],
 				"Tasks": {
 					"Build an easy ~|hidey-hole|~": "Construction"
 				}
@@ -139109,7 +139109,7 @@
 				"Category": ["Fill Stash"],
 				"Label": "Fill hidey-holes",
 				"Chunks": ["12339"],
-				"Items": ["Iron chainbody", "Sapphire ring", "Shieldbow"],
+				"Items": ["Iron chainbody", "Sapphire ring", "Longbow"],
 				"Tasks": {
 					"Build an easy ~|hidey-hole|~": "Construction"
 				}
@@ -139253,7 +139253,7 @@
 				"Category": ["Fill Stash"],
 				"Label": "Fill hidey-holes",
 				"Chunks": ["13879"],
-				"Items": ["Maple shieldbow", "Mithril plateskirt"],
+				"Items": ["Maple longbow", "Mithril plateskirt"],
 				"Tasks": {
 					"Build a medium ~|hidey-hole|~": "Construction",
 					"~|Creature of Fenkenstrain|~ 7": "Quest"
@@ -169934,9 +169934,9 @@
 				"ClueType": "Emote",
 				"Not F2P": true
 			},
-			"Bow or curtsy outside the entrance to the Legends' Guild (Iron platelegs, Emerald amulet, Oak shieldbow)": {
+			"Bow or curtsy outside the entrance to the Legends' Guild (Iron platelegs, Emerald amulet, Oak longbow)": {
 				"Chunks": ["10804"],
-				"Items": ["Iron platelegs", "Emerald amulet", "Oak shieldbow"],
+				"Items": ["Iron platelegs", "Emerald amulet", "Oak longbow"],
 				"Skills": {
 					"Defence": 10,
 					"Ranged": 10
@@ -170009,9 +170009,9 @@
 				"ClueType": "Emote",
 				"Not F2P": true
 			},
-			"Dance at the crossroads north of Draynor (Iron chainbody, Sapphire ring, Shieldbow)": {
+			"Dance at the crossroads north of Draynor (Iron chainbody, Sapphire ring, Longbow)": {
 				"Chunks": ["12339"],
-				"Items": ["Iron chainbody", "Sapphire ring", "Shieldbow"],
+				"Items": ["Iron chainbody", "Sapphire ring", "Longbow"],
 				"Skills": {
 					"Defence": 10
 				},
@@ -170238,9 +170238,9 @@
 				"ClueType": "Emote",
 				"Not F2P": true
 			},
-			"Panic by the mausoleum in Morytania (Mithril plateskirt, Maple shieldbow, No boots)": {
+			"Panic by the mausoleum in Morytania (Mithril plateskirt, Maple longbow, No boots)": {
 				"Chunks": ["13879"],
-				"Items": ["Mithril plateskirt", "Maple shieldbow"],
+				"Items": ["Mithril plateskirt", "Maple longbow"],
 				"Skills": {
 					"Defence": 30,
 					"Ranged": 30
@@ -191338,7 +191338,7 @@
 				"36": true
 			},
 			"Spawn": {
-				"Shieldbow": 1,
+				"Longbow": 1,
 				"Glassblowing pipe": 1,
 				"Bronze arrow": 2,
 				"Mithril arrow": 1,
@@ -228406,19 +228406,19 @@
 				"Second-Age bow": true,
 				"Noxious longbow": true,
 				"Bow of the Last Guardian": true,
-				"Shieldbow": true,
-				"Oak shieldbow": true,
-				"Willow shieldbow": true,
-				"Maple shieldbow": true,
-				"Yew shieldbow": true,
-				"Magic shieldbow": true,
+				"Longbow": true,
+				"Oak longbow": true,
+				"Willow longbow": true,
+				"Maple longbow": true,
+				"Yew longbow": true,
+				"Magic longbow": true,
 				"Magic composite bow": true,
-				"Magic shieldbow (sighted)": true,
+				"Magic longbow (sighted)": true,
 				"Saradomin bow": true,
 				"Guthix bow": true,
 				"Zamorak bow": true,
-				"Elder shieldbow": true,
-				"Elder shieldbow (sighted)": true,
+				"Elder longbow": true,
+				"Elder longbow (sighted)": true,
 				"Dark bow": true,
 				"Strykebow": true,
 				"Gloomfire bow": true
@@ -229931,7 +229931,7 @@
 				"Havensilver bolts + 1",
 				"Havensilver bolts + 1"
 			],
-			"AnyBow[+]": ["Shortbow", "Oak shortbow", "Willow shortbow", "Maple shortbow", "Yew shortbow", "Magic shortbow", "Elder shortbow", "Hexhunter bow", "Decimation", "Noxious longbow", "Seren godbow", "Bow of the Last Guardian", "Shieldbow", "Oak shieldbow", "Willow shieldbow", "Maple shieldbow", "Yew shieldbow", "Magic shieldbow", "Elder shieldbow", "Dark bow", "Strykebow", "Willow composite bow", "Yew composite bow", "Magic composite bow"],
+			"AnyBow[+]": ["Shortbow", "Oak shortbow", "Willow shortbow", "Maple shortbow", "Yew shortbow", "Magic shortbow", "Elder shortbow", "Hexhunter bow", "Decimation", "Noxious longbow", "Seren godbow", "Bow of the Last Guardian", "Longbow", "Oak longbow", "Willow longbow", "Maple longbow", "Yew longbow", "Magic longbow", "Elder longbow", "Dark bow", "Strykebow", "Willow composite bow", "Yew composite bow", "Magic composite bow"],
 			"AnyCenterpieceMaterial[+]": ["Marble block", "Limestone brick"],
 			"AnyMemento[+]": ["Broken memento", "Fragile memento", "Spirit memento", "Robust memento", "Powerful memento"],
 			"AnyMushroom[+]": [
@@ -231543,26 +231543,26 @@
 			"FireFamiliar[+]": ["Pyrelord pouch", "Forge regent pouch"],
 			"FiremakingBow[+]": [
 				"Dark bow",
-				"Elder shieldbow (sighted)",
-				"Elder shieldbow",
+				"Elder longbow (sighted)",
+				"Elder longbow",
 				"Elder shortbow",
 				"Hexhunter bow",
 				"Magic composite bow",
-				"Magic shieldbow (sighted)",
-				"Magic shieldbow",
+				"Magic longbow (sighted)",
+				"Magic longbow",
 				"Magic shortbow",
-				"Maple shieldbow (sighted)",
-				"Maple shieldbow",
+				"Maple longbow (sighted)",
+				"Maple longbow",
 				"Maple shortbow",
-				"Oak shieldbow",
+				"Oak longbow",
 				"Oak shortbow",
-				"Shieldbow",
+				"Longbow",
 				"Shortbow",
 				"Willow composite bow",
-				"Willow shieldbow",
+				"Willow longbow",
 				"Willow shortbow",
 				"Yew composite bow",
-				"Yew shieldbow",
+				"Yew longbow",
 				"Yew shortbow"
 			],
 			"FireTalisman[+]": [
@@ -232112,7 +232112,7 @@
 			"LesserThanLobster[+]": ["Raw shrimps", "Raw crayfish", "Raw sardine", "Raw herring", "Raw anchovies", "Raw mackerel", "Raw trout", "Raw cod", "Raw pike", "Raw salmon", "Raw tuna"],
 			"Level1Bow[+]": [
 				"Shortbow",
-				"Shieldbow"
+				"Longbow"
 			],
 			"Level1Crossbow[+]": [
 				"Phoenix crossbow",
@@ -232351,7 +232351,7 @@
 				"Mirror shield",
 				"Sunglasses"
 			],
-			"MiscGift[+]": ["Shortbow", "Oak shortbow", "Willow shortbow", "Maple shortbow", "Yew shortbow", "Magic shortbow", "Elder shortbow", "Hexhunter bow", "Decimation", "Noxious longbow", "Seren godbow", "Bow of the Last Guardian", "Shieldbow", "Oak shieldbow", "Willow shieldbow", "Maple shieldbow", "Yew shieldbow", "Magic shieldbow", "Elder shieldbow", "Dark bow", "Strykebow", "Willow composite bow", "Yew composite bow", "Magic composite bow", "Cake"],
+			"MiscGift[+]": ["Shortbow", "Oak shortbow", "Willow shortbow", "Maple shortbow", "Yew shortbow", "Magic shortbow", "Elder shortbow", "Hexhunter bow", "Decimation", "Noxious longbow", "Seren godbow", "Bow of the Last Guardian", "Longbow", "Oak longbow", "Willow longbow", "Maple longbow", "Yew longbow", "Magic longbow", "Elder longbow", "Dark bow", "Strykebow", "Willow composite bow", "Yew composite bow", "Magic composite bow", "Cake"],
 			"MithrilArmour[+]": [
 				"Mithril armoured boots + 1",
 				"Mithril armoured boots + 2",
@@ -237915,7 +237915,7 @@
 		"rangedItems": {
 			"Chargebow": 1,
 			"Shortbow": 1,
-			"Shieldbow": 1,
+			"Longbow": 1,
 			"Phoenix crossbow": 1,
 			"Crossbow": 1,
 			"Bronze crossbow": 1,
@@ -241538,7 +241538,7 @@
 			"Magic shortbow": {
 				"1": "9/126"
 			},
-			"Magic shieldbow": {
+			"Magic longbow": {
 				"1": "8/126"
 			},
 			"Water battlestaff": {
@@ -241660,7 +241660,7 @@
 			"Magic shortbow": {
 				"1": "9/126"
 			},
-			"Magic shieldbow": {
+			"Magic longbow": {
 				"1": "8/126"
 			},
 			"Water battlestaff": {
@@ -241787,7 +241787,7 @@
 			"Magic shortbow": {
 				"1": "9/126"
 			},
-			"Magic shieldbow": {
+			"Magic longbow": {
 				"1": "8/126"
 			},
 			"Water battlestaff": {
@@ -243321,7 +243321,7 @@
 			"Magic shortbow": {
 				"1": "9/124"
 			},
-			"Magic shieldbow": {
+			"Magic longbow": {
 				"1": "8/124"
 			},
 			"Water battlestaff": {
@@ -243381,7 +243381,7 @@
 			"Magic shortbow": {
 				"1": "9/121"
 			},
-			"Magic shieldbow": {
+			"Magic longbow": {
 				"1": "8/121"
 			},
 			"Water battlestaff": {
@@ -245387,7 +245387,7 @@
 			"Magic shortbow": {
 				"1": "9/126"
 			},
-			"Magic shieldbow": {
+			"Magic longbow": {
 				"1": "8/126"
 			},
 			"Water battlestaff": {
@@ -245460,7 +245460,7 @@
 			"Magic shortbow": {
 				"1": "9/124"
 			},
-			"Magic shieldbow": {
+			"Magic longbow": {
 				"1": "8/124"
 			},
 			"Water battlestaff": {
@@ -246275,7 +246275,7 @@
 			"Magic shortbow": {
 				"1": "9/124"
 			},
-			"Magic shieldbow": {
+			"Magic longbow": {
 				"1": "8/124"
 			},
 			"Water battlestaff": {
@@ -247316,7 +247316,7 @@
 			"Magic shortbow": {
 				"1": "9/121"
 			},
-			"Magic shieldbow": {
+			"Magic longbow": {
 				"1": "8/121"
 			},
 			"Water battlestaff": {
@@ -248164,7 +248164,7 @@
 			"Magic shortbow": {
 				"1": "9/124"
 			},
-			"Magic shieldbow": {
+			"Magic longbow": {
 				"1": "8/124"
 			},
 			"Water battlestaff": {
@@ -248869,7 +248869,7 @@
 			"Magic shortbow": {
 				"1": "9/126"
 			},
-			"Magic shieldbow": {
+			"Magic longbow": {
 				"1": "8/126"
 			},
 			"Water battlestaff": {
@@ -256413,7 +256413,7 @@
 			"Magic shortbow": {
 				"1": "9/124"
 			},
-			"Magic shieldbow": {
+			"Magic longbow": {
 				"1": "8/124"
 			},
 			"Water battlestaff": {
@@ -260096,7 +260096,7 @@
 			"Spider silk": {
 				"1": "Always"
 			},
-			"Shieldbow": {
+			"Longbow": {
 				"1": "2/128"
 			},
 			"Air rune": {
@@ -264168,7 +264168,7 @@
 			"Magic shortbow": {
 				"1": "9/126"
 			},
-			"Magic shieldbow": {
+			"Magic longbow": {
 				"1": "8/126"
 			},
 			"Water battlestaff": {
@@ -271717,7 +271717,7 @@
 			"Oak shortbow": {
 				"1": "1/8"
 			},
-			"Oak shieldbow": {
+			"Oak longbow": {
 				"1": "1/8"
 			},
 			"Steel arrow": {
@@ -272510,7 +272510,7 @@
 			"Magic shortbow": {
 				"1": "9/121"
 			},
-			"Magic shieldbow": {
+			"Magic longbow": {
 				"1": "8/121"
 			},
 			"Water battlestaff": {
@@ -274055,7 +274055,7 @@
 			"Magic shortbow": {
 				"1": "9/126"
 			},
-			"Magic shieldbow": {
+			"Magic longbow": {
 				"1": "8/126"
 			},
 			"Water battlestaff": {
@@ -274180,7 +274180,7 @@
 			"Magic shortbow": {
 				"1": "9/126"
 			},
-			"Magic shieldbow": {
+			"Magic longbow": {
 				"1": "8/126"
 			},
 			"Water battlestaff": {
@@ -274431,7 +274431,7 @@
 			"Shortbow": {
 				"1": "rare"
 			},
-			"Shieldbow": {
+			"Longbow": {
 				"1": "rare"
 			},
 			"Staff of air": {
@@ -279795,7 +279795,7 @@
 			"Magic shortbow": {
 				"1": "9/126"
 			},
-			"Magic shieldbow": {
+			"Magic longbow": {
 				"1": "8/126"
 			},
 			"Water battlestaff": {
@@ -279858,7 +279858,7 @@
 			"Magic shortbow": {
 				"1": "9/126"
 			},
-			"Magic shieldbow": {
+			"Magic longbow": {
 				"1": "8/126"
 			},
 			"Water battlestaff": {
@@ -279921,7 +279921,7 @@
 			"Magic shortbow": {
 				"1": "9/126"
 			},
-			"Magic shieldbow": {
+			"Magic longbow": {
 				"1": "8/126"
 			},
 			"Water battlestaff": {
@@ -280352,7 +280352,7 @@
 			"Magic shortbow": {
 				"1": "9/121"
 			},
-			"Magic shieldbow": {
+			"Magic longbow": {
 				"1": "8/121"
 			},
 			"Water battlestaff": {
@@ -281236,7 +281236,7 @@
 			"Magic shortbow": {
 				"1": "9/126"
 			},
-			"Magic shieldbow": {
+			"Magic longbow": {
 				"1": "8/126"
 			},
 			"Water battlestaff": {
@@ -281596,7 +281596,7 @@
 			"Medium plated mithril salvage": {
 				"1": "1/128"
 			},
-			"Oak shieldbow": {
+			"Oak longbow": {
 				"1": "3/128"
 			},
 			"Bronze knife": {
@@ -281813,7 +281813,7 @@
 			"Games necklace (2)": {
 				"12": "2/128"
 			},
-			"Yew shieldbow (unstrung)": {
+			"Yew longbow (unstrung)": {
 				"1": "3/128"
 			},
 			"Silver stone spirit": {
@@ -291004,7 +291004,7 @@
 			"Magic shortbow": {
 				"1": "9/126"
 			},
-			"Magic shieldbow": {
+			"Magic longbow": {
 				"1": "8/126"
 			},
 			"Water battlestaff": {
@@ -291067,7 +291067,7 @@
 			"Magic shortbow": {
 				"1": "9/126"
 			},
-			"Magic shieldbow": {
+			"Magic longbow": {
 				"1": "8/126"
 			},
 			"Water battlestaff": {
@@ -291373,7 +291373,7 @@
 			"Magic shortbow": {
 				"1": "9/126"
 			},
-			"Magic shieldbow": {
+			"Magic longbow": {
 				"1": "8/126"
 			},
 			"Water battlestaff": {
@@ -292436,7 +292436,7 @@
 			"Bones": {
 				"1": "Always"
 			},
-			"Willow shieldbow": {
+			"Willow longbow": {
 				"1": "1/50"
 			},
 			"Willow shortbow": {
@@ -292752,7 +292752,7 @@
 			"Magic shortbow": {
 				"1": "9/126"
 			},
-			"Magic shieldbow": {
+			"Magic longbow": {
 				"1": "8/126"
 			},
 			"Water battlestaff": {
@@ -293894,7 +293894,7 @@
 			"Bronze 2h crossbow": {
 				"1": "1/256"
 			},
-			"Shieldbow": {
+			"Longbow": {
 				"1": "1/512"
 			},
 			"Bronze longsword": {
@@ -299175,7 +299175,7 @@
 			{ "color": "#a3cfcb", "text": "Someone watching Het's Oasis is your next destination.", "type": "Easy", "x":3375, "y":3273 },
 			{ "color": "#a3cfcb", "text": "Blow raspberries outside the entrance to Keep Le Faye. (Studded leather coif, iron platebody, leather gloves)", "type": "Easy", "x":2756, "y":3404 },
 			{ "color": "#a3cfcb", "text": "Bow or curtsy at the entrance to Het's Oasis. (Iron chainbody, leather chaps, studded leather coif)", "type": "Easy", "x":3323, "y":3236 },
-			{ "color": "#a3cfcb", "text": "Bow or curtsy outside the entrance to the Legends' Guild. (Iron platelegs, emerald amulet, oak shieldbow)", "type": "Easy", "x":2732, "y":3352 },
+			{ "color": "#a3cfcb", "text": "Bow or curtsy outside the entrance to the Legends' Guild. (Iron platelegs, emerald amulet, oak longbow)", "type": "Easy", "x":2732, "y":3352 },
 			{ "color": "#a3cfcb", "text": "Cheer at the Druids' Circle. (Air tiara, bronze 2h sword, gold amulet)", "type": "Easy", "x":2922, "y":3476 },
 			{ "color": "#a3cfcb", "text": "Cheer for the monks at Port Sarim. (Studded leather coif, steel plateskirt, sapphire necklace)", "type": "Easy", "x":3042, "y":3234 },
 			{ "color": "#a3cfcb", "text": "Clap in the main exam room of the Exam Centre. (Ruby amulet, blue flowers, leather gloves)", "type": "Easy", "x":3351, "y":3348 },
@@ -299183,7 +299183,7 @@
 			{ "color": "#a3cfcb", "text": "Clap on the top level of the mill north of east Ardougne. (Emerald ring, wood camo top, tiara)", "type": "Easy", "x":2635, "y":3383 },
 			{ "color": "#a3cfcb", "text": "Cry outside the south gates of Fort Forinthry. (Hard leather body, leather chaps, bronze hatchet)", "type": "Easy", "x":3299, "y":3521 },
 			{ "color": "#a3cfcb", "text": "Dance a jig by the entrance to the Fishing Guild. (Emerald ring, sapphire amulet, bronze chainbody)", "type": "Easy", "x":2619, "y":3388 },
-			{ "color": "#a3cfcb", "text": "Dance at the crossroads north of Draynor. (Iron chainbody, sapphire ring, shieldbow)", "type": "Easy", "x":3112, "y":3292 },
+			{ "color": "#a3cfcb", "text": "Dance at the crossroads north of Draynor. (Iron chainbody, sapphire ring, longbow)", "type": "Easy", "x":3112, "y":3292 },
 			{ "color": "#a3cfcb", "text": "Dance in the Party Room. (Steel full helm, steel platebody, iron plateskirt)", "type": "Easy", "x":3041, "y":3372 },
 			{ "color": "#a3cfcb", "text": "Dance in the shack in Lumbridge Swamp. (Bronze dagger, iron full helm, gold ring)", "type": "Easy", "x":3204, "y":3169 },
 			{ "color": "#a3cfcb", "text": "Headbang in the mine north of Al Kharid. (Polar camo top, leather gloves, leather boots)", "type": "Easy", "x":3295, "y":3282 },
@@ -301205,15 +301205,15 @@
 			"Mithril arrow": true,
 			"Adamant arrow": true,
 			"Shortbow": true,
-			"Shieldbow": true,
+			"Longbow": true,
 			"Oak shortbow": true,
-			"Oak shieldbow": true,
+			"Oak longbow": true,
 			"Willow shortbow": true,
-			"Willow shieldbow": true,
+			"Willow longbow": true,
 			"Maple shortbow": true,
-			"Maple shieldbow": true,
+			"Maple longbow": true,
 			"Yew shortbow": true,
-			"Yew shieldbow": true,
+			"Yew longbow": true,
 			"Bronze javelin": true,
 			"Iron javelin": true,
 			"Steel javelin": true,
@@ -301705,9 +301705,9 @@
 			"Shortbow": true,
 			"Oak shortbow": true,
 			"Willow shortbow": true,
-			"Shieldbow": true,
-			"Oak shieldbow": true,
-			"Willow shieldbow": true,
+			"Longbow": true,
+			"Oak longbow": true,
+			"Willow longbow": true,
 			"Comp ogre bow": true
 		},
 		"Darren's Wilderness Cape Shop": {
@@ -301859,7 +301859,7 @@
 			"Smithing autoheater": true,
 			"Advanced smithing autoheater": true,
 			"Gem bag (upgraded)": true,
-			"Shieldbow sight": true,
+			"Longbow sight": true,
 			"Law staff": true,
 			"Gravite rapier": true,
 			"Off-hand gravite rapier": true,
@@ -302594,7 +302594,7 @@
 			"Bronze arrow": true,
 			"Bronze bolts": true,
 			"Shortbow": true,
-			"Shieldbow": true,
+			"Longbow": true,
 			"Crossbow": true,
 			"Bronze arrowheads": true,
 			"Iron arrowheads": true,
@@ -303112,7 +303112,7 @@
 			"Bronze arrow": true,
 			"Bronze bolts": true,
 			"Shortbow": true,
-			"Shieldbow": true,
+			"Longbow": true,
 			"Crossbow": true,
 			"Bronze arrowheads": true,
 			"Iron arrowheads": true,
@@ -303206,10 +303206,10 @@
 			"Rune arrow": true,
 			"Bronze bolts": true,
 			"Oak shortbow": true,
-			"Oak shieldbow": true,
+			"Oak longbow": true,
 			"Crossbow": true,
 			"Willow shortbow": true,
-			"Willow shieldbow": true
+			"Willow longbow": true
 		},
 		"Lletya Food Store": {
 			"Bread": true,
@@ -303276,7 +303276,7 @@
 		"Lowe's Archery Emporium": {
 			"Bronze arrow": true,
 			"Shortbow": true,
-			"Shieldbow": true,
+			"Longbow": true,
 			"Bronze javelin": true,
 			"Bronze bolts": true,
 			"Iron arrow": true,
@@ -303284,13 +303284,13 @@
 			"Mithril arrow": true,
 			"Adamant arrow": true,
 			"Oak shortbow": true,
-			"Oak shieldbow": true,
+			"Oak longbow": true,
 			"Willow shortbow": true,
-			"Willow shieldbow": true,
+			"Willow longbow": true,
 			"Maple shortbow": true,
-			"Maple shieldbow": true,
+			"Maple longbow": true,
 			"Yew shortbow": true,
-			"Yew shieldbow": true,
+			"Yew longbow": true,
 			"Iron javelin": true,
 			"Steel javelin": true,
 			"Mithril javelin": true,
@@ -303333,7 +303333,7 @@
 			"Iron arrow": true,
 			"Iron bolts": true,
 			"Shortbow": true,
-			"Shieldbow": true,
+			"Longbow": true,
 			"Bronze 2h crossbow": true,
 			"Bronze crossbow": true,
 			"Off-hand bronze crossbow": true,
@@ -305368,7 +305368,7 @@
 			"Blue dragonhide chaps": true,
 			"Blue dragonhide shield": true,
 			"Magic shortbow": true,
-			"Magic shieldbow": true,
+			"Magic longbow": true,
 			"Rune arrow": true,
 			"Rune crossbow": true,
 			"Off-hand rune crossbow": true,
@@ -305757,7 +305757,7 @@
 			"Tinderbox": true,
 			"Hammer": true,
 			"Leather boots": true,
-			"Shieldbow": true,
+			"Longbow": true,
 			"Bronze arrow": true,
 			"Salmon": true,
 			"Meat pie": true,
@@ -316514,7 +316514,7 @@
 				"Mithril stone spirit": {
 					"1": "1/100"
 				},
-				"Yew shieldbow": {
+				"Yew longbow": {
 					"1": "1/100"
 				},
 				"Garden pie": {
@@ -322852,7 +322852,7 @@
 				"Magic shortbow": {
 					"1": "9/126"
 				},
-				"Magic shieldbow": {
+				"Magic longbow": {
 					"1": "8/126"
 				},
 				"Water battlestaff": {
@@ -324416,7 +324416,7 @@
 				"Magic shortbow": {
 					"1": "9/126"
 				},
-				"Magic shieldbow": {
+				"Magic longbow": {
 					"1": "8/126"
 				},
 				"Water battlestaff": {
@@ -327839,7 +327839,7 @@
 				}
 			},
 			"Gelatinous abomination": {
-				"Shieldbow": {
+				"Longbow": {
 					"1": "10/100"
 				},
 				"Leather cowl": {
@@ -329651,7 +329651,7 @@
 				"Torstol seed": {
 					"1": "200/11041"
 				},
-				"Magic shieldbow (unstrung)": {
+				"Magic longbow (unstrung)": {
 					"45-55 (noted)": "800/11041"
 				},
 				"Rune arrowheads": {
@@ -329738,7 +329738,7 @@
 				"Torstol seed": {
 					"1": "200/11041"
 				},
-				"Magic shieldbow (unstrung)": {
+				"Magic longbow (unstrung)": {
 					"45-55 (noted)": "800/11041"
 				},
 				"Rune arrowheads": {
@@ -329825,7 +329825,7 @@
 				"Torstol seed": {
 					"1": "200/11041"
 				},
-				"Magic shieldbow (unstrung)": {
+				"Magic longbow (unstrung)": {
 					"45-55 (noted)": "800/11041"
 				},
 				"Rune arrowheads": {
@@ -329912,7 +329912,7 @@
 				"Torstol seed": {
 					"1": "200/11041"
 				},
-				"Magic shieldbow (unstrung)": {
+				"Magic longbow (unstrung)": {
 					"45-55 (noted)": "800/11041"
 				},
 				"Rune arrowheads": {
@@ -329999,7 +329999,7 @@
 				"Torstol seed": {
 					"1": "200/11041"
 				},
-				"Magic shieldbow (unstrung)": {
+				"Magic longbow (unstrung)": {
 					"45-55 (noted)": "800/11041"
 				},
 				"Rune arrowheads": {
@@ -330086,7 +330086,7 @@
 				"Torstol seed": {
 					"1": "200/11041"
 				},
-				"Magic shieldbow (unstrung)": {
+				"Magic longbow (unstrung)": {
 					"45-55 (noted)": "800/11041"
 				},
 				"Rune arrowheads": {
@@ -368521,7 +368521,7 @@
 				"Ranged": 70,
 				"Defence": 70
 			},
-			"type": "Shieldbow",
+			"type": "Longbow",
 			"speed": 7,
 			"tier": 70,
 			"lp": 0,
@@ -374025,7 +374025,7 @@
 			"prayer": 0,
 			"accuracy": 0
 		},
-		"Elder shieldbow (sighted)": {
+		"Elder longbow (sighted)": {
 			"ranged_damage": 0,
 			"slot": "2h weapon",
 			"prayer": 0,
@@ -374038,7 +374038,7 @@
 				"Defence": 65,
 				"Ranged": 65
 			},
-			"type": "Shieldbow",
+			"type": "Longbow",
 			"speed": 5,
 			"tier": 65,
 			"lp": 0,
@@ -374047,7 +374047,7 @@
 			"accuracy": 1299,
 			"auto_damage": 344.5
 		},
-		"Elder shieldbow": {
+		"Elder longbow": {
 			"ranged_damage": 0,
 			"slot": "2h weapon",
 			"prayer": 0,
@@ -374060,7 +374060,7 @@
 				"Defence": 60,
 				"Ranged": 60
 			},
-			"type": "Shieldbow",
+			"type": "Longbow",
 			"speed": 5,
 			"tier": 60,
 			"lp": 0,
@@ -384098,7 +384098,7 @@
 			"accuracy": 202,
 			"auto_damage": 122.5
 		},
-		"Magic shieldbow (sighted)": {
+		"Magic longbow (sighted)": {
 			"ranged_damage": 0,
 			"slot": "2h weapon",
 			"prayer": 0,
@@ -384111,7 +384111,7 @@
 				"Defence": 55,
 				"Ranged": 55
 			},
-			"type": "Shieldbow",
+			"type": "Longbow",
 			"speed": 5,
 			"tier": 55,
 			"lp": 0,
@@ -384121,7 +384121,7 @@
 			"auto_damage": 291.5,
 			"has_spec": true
 		},
-		"Magic shieldbow": {
+		"Magic longbow": {
 			"ranged_damage": 0,
 			"slot": "2h weapon",
 			"prayer": 0,
@@ -384134,7 +384134,7 @@
 				"Defence": 50,
 				"Ranged": 50
 			},
-			"type": "Shieldbow",
+			"type": "Longbow",
 			"speed": 5,
 			"tier": 50,
 			"lp": 0,
@@ -384358,7 +384358,7 @@
 			"accuracy": 381,
 			"auto_damage": 9.6
 		},
-		"Maple shieldbow (sighted)": {
+		"Maple longbow (sighted)": {
 			"ranged_damage": 0,
 			"slot": "2h weapon",
 			"prayer": 0,
@@ -384371,7 +384371,7 @@
 				"Defence": 45,
 				"Ranged": 45
 			},
-			"type": "Shieldbow",
+			"type": "Longbow",
 			"speed": 5,
 			"tier": 45,
 			"lp": 0,
@@ -384380,7 +384380,7 @@
 			"accuracy": 732,
 			"auto_damage": 238.5
 		},
-		"Maple shieldbow": {
+		"Maple longbow": {
 			"ranged_damage": 0,
 			"slot": "2h weapon",
 			"prayer": 0,
@@ -384393,7 +384393,7 @@
 				"Defence": 30,
 				"Ranged": 30
 			},
-			"type": "Shieldbow",
+			"type": "Longbow",
 			"speed": 5,
 			"tier": 30,
 			"lp": 0,
@@ -389801,7 +389801,7 @@
 			"accuracy": 202,
 			"auto_damage": 96
 		},
-		"Oak shieldbow": {
+		"Oak longbow": {
 			"ranged_damage": 0,
 			"slot": "2h weapon",
 			"prayer": 0,
@@ -389814,7 +389814,7 @@
 				"Defence": 10,
 				"Ranged": 10
 			},
-			"type": "Shieldbow",
+			"type": "Longbow",
 			"speed": 5,
 			"tier": 10,
 			"lp": 0,
@@ -392368,7 +392368,7 @@
 			"requirements": {
 				"Ranged": 30
 			},
-			"type": "Shieldbow",
+			"type": "Longbow",
 			"speed": 5,
 			"tier": 30,
 			"lp": 0,
@@ -403811,7 +403811,7 @@
 			"accuracy": 110,
 			"auto_damage": 22.4
 		},
-		"Shieldbow": {
+		"Longbow": {
 			"ranged_damage": 0,
 			"slot": "2h weapon",
 			"prayer": 0,
@@ -403821,7 +403821,7 @@
 			"melee_damage": 0,
 			"armour": 30,
 			"requirements": {},
-			"type": "Shieldbow",
+			"type": "Longbow",
 			"speed": 5,
 			"tier": 5,
 			"lp": 0,
@@ -408519,7 +408519,7 @@
 				"Defence": 85,
 				"Ranged": 85
 			},
-			"type": "Shieldbow",
+			"type": "Longbow",
 			"speed": 5,
 			"tier": 85,
 			"lp": 560,
@@ -415546,7 +415546,7 @@
 			"accuracy": 316,
 			"auto_damage": 106
 		},
-		"Willow shieldbow": {
+		"Willow longbow": {
 			"ranged_damage": 0,
 			"slot": "2h weapon",
 			"prayer": 0,
@@ -415559,7 +415559,7 @@
 				"Defence": 20,
 				"Ranged": 20
 			},
-			"type": "Shieldbow",
+			"type": "Longbow",
 			"speed": 5,
 			"tier": 20,
 			"lp": 0,
@@ -416162,7 +416162,7 @@
 			"accuracy": 628,
 			"auto_damage": 212
 		},
-		"Yew shieldbow": {
+		"Yew longbow": {
 			"ranged_damage": 0,
 			"slot": "2h weapon",
 			"prayer": 0,
@@ -416175,7 +416175,7 @@
 				"Defence": 40,
 				"Ranged": 40
 			},
-			"type": "Shieldbow",
+			"type": "Longbow",
 			"speed": 5,
 			"tier": 40,
 			"lp": 0,
