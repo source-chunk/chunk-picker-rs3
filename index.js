@@ -1613,7 +1613,7 @@ let topbarElements = {
     'Sandbox Mode': `<div><span class='noscroll' onclick="enableTestMode()"><i class="gosandbox fa-solid fa-flask" title='Sandbox Mode'></i></span></div>`,
 };
 
-let currentVersion = '6.9.57';
+let currentVersion = '6.9.58';
 let currentEnforcedVersion = '6.9.45';
 let patchNotesVersion = '6.9.48';
 let updateLevel = 'unconnected-areas';
@@ -1763,7 +1763,7 @@ mapImg.addEventListener("load", e => {
         centerCanvas('quick');
     }
 });
-mapImg.src = "runescape_world_map.png?v=6.9.57";
+mapImg.src = "runescape_world_map.png?v=6.9.58";
 
 // Rounded rectangle
 CanvasRenderingContext2D.prototype.roundRect = function (x, y, w, h, r) {
@@ -3691,7 +3691,7 @@ let calcCurrentChallengesCanvas = function(useOld, proceed, fromLoadData, inputT
         setCalculating('.panel-active', useOld);
         setCurrentChallenges(['No tasks currently backlogged.'], ['No tasks currently completed.'], true, true);
         myWorker.terminate();
-        myWorker = new Worker("./worker.js?v=6.9.57");
+        myWorker = new Worker("./worker.js?v=6.9.58");
         myWorker.onmessage = workerOnMessage;
         myWorker.postMessage({
             type: 'current',
@@ -4048,8 +4048,8 @@ $(document).ready(function() {
 // ------------------------------------------------------------
 
 // Recieve message from worker
-let myWorker = new Worker("./worker.js?v=6.9.57");
-let myWorker2 = new Worker("./worker.js?v=6.9.57");
+let myWorker = new Worker("./worker.js?v=6.9.58");
+let myWorker2 = new Worker("./worker.js?v=6.9.58");
 let workerOnMessage = function(e) {
     if (e.data.type === 'reload') {
         window.location.reload();
@@ -6901,17 +6901,6 @@ let setupCurrentChallenges = function(tempChallengeArr, noDisplay, noClear) {
                 let taskEl = `<div class="challenge extra-challenge noscroll clickable ${'Extra-' + challenge.replaceAll(' ', '_').replace(/[!"#$%&'()*+,.\/:;<=>?@\[\\\]\^\`{|}~]/g, '').toLowerCase() + '-challenge'} ${(!!checkedChallenges['Extra'] && !!checkedChallenges['Extra'][challenge]) && 'hide-backlog'} ${!activeSubTabs['extra'] ? 'stay-hidden' : ''}" onclick="showDetails('${encodeRFC5987ValueChars(challenge)}', 'Extra', 'current')"><label class="checkbox noscroll ${(!testMode && (viewOnly || inEntry || locked)) ? "checkbox--disabled" : ''}"><span class="checkbox__input noscroll"><input type="checkbox" name="checkbox" ${(!!checkedChallenges['Extra'] && !!checkedChallenges['Extra'][challenge]) ? "checked" : ''} class='noscroll' onclick="checkOffChallenge('Extra', '${encodeRFC5987ValueChars(challenge)}')" ${(!testMode && (viewOnly || inEntry || locked)) ? "disabled" : ''}><span class="checkbox__control noscroll"><svg viewBox='0 0 24 24' aria-hidden="true" focusable="false"><path fill='none' stroke='currentColor' stroke-width='3' d='M1.73 12.91l6.37 6.37L22.79 4.59' /></svg></span></span><span class="radio__label noscroll">${(!!chunkInfo['challenges']['Extra'][challenge] ? ('<b class="noscroll">[' + chunkInfo['challenges']['Extra'][challenge]['Label'] + ']</b> ') : '')} <span class="inner noscroll">${challenge.split('~')[0]}<a class='link noscroll' href="${"https://runescape.wiki/w/" + encodeForUrl(challenge.split('~')[1].split('|').join(''))}" target="_blank">${challenge.split('~')[1].split('|').join('')}</a>${challenge.split('~')[2]}</span></span></label></span> <span class="burger noscroll${!testMode && (viewOnly || inEntry || locked) ? ' hidden-burger' : ''}" onclick="openActiveContextMenu('${encodeRFC5987ValueChars(challenge)}', 'Extra', ${hasAlts})"><i class="fa-solid fa-sliders-h noscroll">${hasAlts ? `<i class="fa-solid fa-star burger-star noscroll"></i>` : ''}</i></span></div>`;
                 !!favoriteTasks['Extra'] && favoriteTasks['Extra'].hasOwnProperty(challenge) ? favoriteTasksArr.push(taskEl.replaceAll('extra-challenge', 'favorite-challenge')) : challengeArr.push(taskEl);
                 listOfTasks.push({ [challenge]: 'Extra', prefix: `${(!!chunkInfo['challenges']['Extra'][challenge] ? ('[' + chunkInfo['challenges']['Extra'][challenge]['Label'] + ']') : '')}` });
-                if (!activeTasks['Extra']) {
-                    activeTasks['Extra'] = {};
-                }
-                if (!!chunkInfo['challenges']['Extra'][challenge] && chunkInfo['challenges']['Extra'][challenge]['Label'] === 'Every Drop') {
-                    activeTasks['Extra'][challenge.split('|')[1]] = chunkInfo['challenges']['Extra'][challenge]['Label'];
-                } else if (!!chunkInfo['challenges']['Extra'][challenge] && chunkInfo['challenges']['Extra'][challenge]['Label'] !== 'Every Drop') {
-                    activeTasks['Extra'][challenge] = chunkInfo['challenges']['Extra'][challenge]['Label'];
-                } else {
-                    activeTasks['Extra'][challenge] = '???';
-                }
-
                 if (!!favoriteTasks['Extra'] && favoriteTasks['Extra'].hasOwnProperty(challenge)) {
                     if (!activeTasks['Favorite']) {
                         activeTasks['Favorite'] = {};
@@ -7227,7 +7216,7 @@ let calcFutureChallenges = function() {
     }
     tempSections = combineJSONs(tempSections, manualSections);
     myWorker2.terminate();
-    myWorker2 = new Worker("./worker.js?v=6.9.57");
+    myWorker2 = new Worker("./worker.js?v=6.9.58");
     myWorker2.onmessage = workerOnMessage;
     myWorker2.postMessage({
         type: 'future',
@@ -12382,7 +12371,7 @@ let backlogChallenge = function(challenge, skill, note, noUpdate) {
     setData();
 }
 
-// Sends a challenge to the backlog
+// Sends a challenge to the favorites
 let favoriteChallenge = function(challenge, skill) {
     challenge = decodeQueryParam(challenge);
     if (!favoriteTasks[skill]) {
@@ -12463,7 +12452,7 @@ let unbacklogChallenge = function(challenge, skill) {
     setData();
 }
 
-// Removes a challenge from the backlog
+// Removes a challenge from the favorites
 let unfavoriteChallenge = function(challenge, skill) {
     challenge = decodeQueryParam(challenge);
     !!favoriteTasks[skill] && delete favoriteTasks[skill][challenge];
@@ -13295,11 +13284,6 @@ let loadData = async function(startup) {
         if (snapDiff === false) return;
         backlog = !!snap.val() ? decodeObject(snap.val()) : {};
     });
-    myRef.child('chunkinfo/favorites').once('value', function(snap) {
-        let snapDiff = preloadHelper(snap, 'chunkinfo/favorites');
-        if (snapDiff === false) return;
-        favoriteTasks = !!snap.val() ? decodeObject(snap.val()) : {};
-    });
     myRef.child('chunkinfo/possibleAreas').once('value', function(snap) {
         let snapDiff = preloadHelper(snap, 'chunkinfo/possibleAreas');
         if (snapDiff === false) return;
@@ -13780,7 +13764,7 @@ let setData = function() {
             prevValueLevelInput: encodeObject(prevValueLevelInput, true),
             checkedAllTasks: encodeObject(convertToIds(checkedAllTasks), true),
             activeTasks: encodeObject(convertToIds(activeTasks), true),
-            favoriteTasks: encodeObject(convertToIds(favoriteTasks), true),
+            favoriteTasks: encodeObject(convertToIds(favoriteTasks), true)
         },
         chunks: {
             unlocked: unlockedJson,
