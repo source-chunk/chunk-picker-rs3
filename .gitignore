@@ -9,3 +9,4 @@ save_file.json
 .firebaserc
 firebase.json
 run local.bat
+start-server.bat

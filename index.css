@@ -2605,7 +2605,7 @@ input#searchPlayerMaps {
     float: right;
 }
 
-.active-context-menu-alternatives {
+.active-context-menu-alternatives, .active-context-menu-favorite, .active-context-menu-unfavorite {
     display: none;
 }
 
@@ -4074,6 +4074,10 @@ label .tooltip-base-el:active {
 
 .subrule {
     margin-left: 20px;
+}
+
+.clue-complete-num-input {
+    pointer-events: all;
 }
 
 .rules-names {
