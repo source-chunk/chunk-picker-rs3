@@ -50666,7 +50666,6 @@
 					"~|Lunar Diplomacy|~ Complete the quest": "Quest"
 				},
 				"Level": 65,
-				"Output": "Redberry pie",
 				"Primary": true,
 				"Skills": {
 					"Cooking": 10
@@ -50947,7 +50946,6 @@
 				"Category": ["Spells"],
 				"Items": ["Earth rune[+]*", "Water rune[+]*", "Cosmic rune*", "Lvl-5 Jewelry[+]*"],
 				"Level": 68,
-				"Output": "Ring of Wealth",
 				"Primary": true,
 				"Priority": 1,
 				"Not F2P": true
@@ -51839,7 +51837,6 @@
 					"~|Lunar Diplomacy|~ Complete the quest": "Quest"
 				},
 				"Level": 80,
-				"Output": "Unblessed symbol",
 				"Primary": true,
 				"Priority": 1
 			},
@@ -52262,7 +52259,6 @@
 					"Unlock the ~|Livid farm|~ spells": "Magic"
 				},
 				"Level": 83,
-				"Output": "Leather[+]",
 				"Primary": true,
 				"Priority": 1
 			},
@@ -52634,7 +52630,6 @@
 					"~|Dream Mentor|~ Complete the quest": "Quest"
 				},
 				"Level": 86,
-				"Output": "Plank",
 				"Primary": true,
 				"Priority": 2
 			},
