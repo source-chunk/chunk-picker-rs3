@@ -50666,7 +50666,6 @@
 					"~|Lunar Diplomacy|~ Complete the quest": "Quest"
 				},
 				"Level": 65,
-				"Output": "Redberry pie",
 				"Primary": true,
 				"Skills": {
 					"Cooking": 10
@@ -50947,7 +50946,6 @@
 				"Category": ["Spells"],
 				"Items": ["Earth rune[+]*", "Water rune[+]*", "Cosmic rune*", "Lvl-5 Jewelry[+]*"],
 				"Level": 68,
-				"Output": "Ring of Wealth",
 				"Primary": true,
 				"Priority": 1,
 				"Not F2P": true
@@ -51839,7 +51837,6 @@
 					"~|Lunar Diplomacy|~ Complete the quest": "Quest"
 				},
 				"Level": 80,
-				"Output": "Unblessed symbol",
 				"Primary": true,
 				"Priority": 1
 			},
@@ -52262,7 +52259,6 @@
 					"Unlock the ~|Livid farm|~ spells": "Magic"
 				},
 				"Level": 83,
-				"Output": "Leather[+]",
 				"Primary": true,
 				"Priority": 1
 			},
@@ -52634,7 +52630,6 @@
 					"~|Dream Mentor|~ Complete the quest": "Quest"
 				},
 				"Level": 86,
-				"Output": "Plank",
 				"Primary": true,
 				"Priority": 2
 			},
@@ -86849,7 +86844,7 @@
 			"~|Helping Laniakea (miniquest)|~ 4": {
 				"BaseQuest": "Helping Laniakea (miniquest)",
 				"Description": "Catch a fugu at the strange fishing spot",
-				"Chunks": ["15172-4"],
+				"Chunks": ["15172-1"],
 				"Tasks": {
 					"~|Helping Laniakea (miniquest)|~ 3": "Quest"
 				},
@@ -127516,7 +127511,7 @@
 				"Description": "Unlock Plant Power (Tier 4) from Sydekix's Reward Store at the Garden of Kharid.",
 				"BaseQuest": "Completionist achievements",
 				"Chunks": ["13107-1"],
-				"Items": ["HerbSeed[+]"],
+				"Items": ["HerbSeed[+]", "Plant Power (Tier 4)"],
 				"Skills": {
 					"Farming": 110
 				},
@@ -128020,7 +128015,7 @@
 				"Description": "Unlock all upgrades from Sydekix's Shop.",
 				"BaseQuest": "Completionist achievements",
 				"Chunks": ["13107-1"],
-				"Items": ["HerbSeed[+]"],
+				"Items": ["Plant Power (Tier 4)", "Bountiful Harvest", "Bountiful Harvest 2", "Speedy Growth", "Quick-cense", "Makes-cense", "Buckets All the Way Down", "Honorary Druid"],
 				"Skills": {
 					"Farming": 110
 				},
@@ -132465,7 +132460,7 @@
 				"RuneScore": 20,
 				"Not F2P": true
 			},
-			"~|Skills achievements#Farming|~ Power Planeter I": {
+			"~|Skills achievements#Farming|~ Power Planter I": {
 				"Category": ["Misc achievements"],
 				"Description": "Unlock Plant Power (Tier 1) from Sydekix's Reward Store at the Garden of Kharid.",
 				"BaseQuest": "Skills achievements",
@@ -132545,7 +132540,7 @@
 					"~|Skills achievements#Farming|~ Life, Uh, Found a Way": "Diary",
 					"~|Skills achievements#Farming|~ Perk Out!": "Diary",
 					"~|Skills achievements#Farming|~ Perk Up!": "Diary",
-					"~|Skills achievements#Farming|~ Power Planeter I": "Diary",
+					"~|Skills achievements#Farming|~ Power Planter I": "Diary",
 					"~|Skills achievements#Farming|~ Rabbit, Rabbit, Rabbit": "Diary",
 					"~|Skills achievements#Farming|~ Ram-bow": "Diary",
 					"~|Skills achievements#Farming|~ Smartest Harvest": "Diary",
@@ -167331,6 +167326,9 @@
 			"Timegated content enabled": {
 				"Category": ["Timegated"]
 			},
+			"Farming content enabled": {
+				"Category": ["Normal Farming"]
+			},
 			"Receive a Dwarven army axe from Major Rancour*": {
 				"Chunks": ["11575-1"],
 				"Output": "Dwarven army axe"
@@ -178802,6 +178800,10 @@
 					"Olivia",
 					"Rhotep"
 				]
+			},
+			"Pick flax*": {
+				"Objects": ["Flax"],
+				"Output": "Flax"
 			}
 		}
 	},
@@ -203112,7 +203114,7 @@
 					},
 					"Monster": {
 						"Red dragon": 2,
-						"Onyx dragon": 4
+						"Onyx dragon": 6
 					},
 					"NPC": {
 						"Ghostly piper": 1
@@ -204478,8 +204480,7 @@
 		},
 		"13115": {
 			"Monster": {
-				"Black demon": 7,
-				"Onyx dragon": 2
+				"Black demon": 7
 			},
 			"Nickname": "Southern Demonic Ruins"
 		},
@@ -212641,6 +212642,9 @@
 					},
 					"NPC": {
 						"Groundskeeper (Wendlewick)": 1
+					},
+					"Shop": {
+						"The Birds and the Bees": true
 					}
 				}
 			},
@@ -212685,8 +212689,7 @@
 					},
 					"Shop": {
 						"Tom's Trove": true,
-						"Burnt Lobster Tavern": true,
-						"The Birds and the Bees": true
+						"Burnt Lobster Tavern": true
 					},
 					"Quest": {
 						"Visions of Havenhythe": "step",
@@ -298432,6 +298435,11 @@
 					"Create the ~|blurite keystone|~": "Crafting"
 				}]
 			},
+			"Mrs Winkin's World of Seeds^Compost potion (4)": {
+				"Vinesweeper": [{
+					"~|Garden of Tranqulity|~ Complete the quest": "Quest"
+				}]
+			},
 			"Oziach's Armour": {
 				"12086": [{
 					"~|Dragon Slayer|~ Complete the quest": "Quest"
@@ -298677,7 +298685,7 @@
 			},
 			"Sydekix's Shop of Balance": {
 				"13107-1": [{
-					"Timegated content enabled": "Nonskill"
+					"Farming content enabled": "Nonskill"
 				}, {
 					"Gain Crux Eqal favor": "Nonskill"
 				}]
@@ -338865,7 +338873,7 @@
 				}
 			},
 			"Master Farmer": {
-				"Watermellon seed": {
+				"Watermelon seed": {
 					"1": "10/1000"
 				},
 				"Dwellberry seed": {
