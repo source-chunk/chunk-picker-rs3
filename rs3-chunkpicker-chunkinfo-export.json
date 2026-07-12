@@ -154263,31 +154263,31 @@
 			"Learn how to how to attach a ~|bonecrusher|~ to your tool belt": {
 				"Category": ["Permanent Unlockables"],
 				"Label": "Permanent Unlockables",
-				"Items": ["Bonecrusher"],
+				"Items": ["Bonecrusher", "Learn how to attach the bonecrusher to your toolbelt"],
 				"Not F2P": true
 			},
 			"Learn how to how to attach a ~|herbicide|~ to your tool belt": {
 				"Category": ["Permanent Unlockables"],
 				"Label": "Permanent Unlockables",
-				"Items": ["Herbicide"],
+				"Items": ["Herbicide", "Learn how to attach herbicide to your toolbelt"],
 				"Not F2P": true
 			},
 			"Learn how to how to attach a ~|seedicide|~ to your tool belt": {
 				"Category": ["Permanent Unlockables"],
 				"Label": "Permanent Unlockables",
-				"Items": ["Seedicide"],
+				"Items": ["Seedicide", "Learn how to attach seedicide to your toolbelt"],
 				"Not F2P": true
 			},
 			"Learn how to how to attach a ~|charming imp|~ to your tool belt": {
 				"Category": ["Permanent Unlockables"],
 				"Label": "Permanent Unlockables",
-				"Items": ["Charming imp"],
+				"Items": ["Charming imp", "Learn how to attach the charming imp to your toolbelt"],
 				"Not F2P": true
 			},
 			"Learn how to how to attach a ~|gold accumulator|~ to your tool belt": {
 				"Category": ["Permanent Unlockables"],
 				"Label": "Permanent Unlockables",
-				"Items": ["Gold accumulator"],
+				"Items": ["Gold accumulator", "Attach the gold accumulator on your toolbelt"],
 				"Not F2P": true
 			},
 			"Learn how to how to move souls in the ~|Sunken Pyramid|~": {
