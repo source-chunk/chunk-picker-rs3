@@ -12764,7 +12764,7 @@
   "~|Skills achievements#Farming|~ Life, Uh, Found a Way": "t_119645",
   "~|Skills achievements#Farming|~ Perk Out!": "t_119646",
   "~|Skills achievements#Farming|~ Perk Up!": "t_119647",
-  "~|Skills achievements#Farming|~ Power Planeter I": "t_119648",
+  "~|Skills achievements#Farming|~ Power Planter I": "t_119648",
   "~|Skills achievements#Farming|~ Rabbit, Rabbit, Rabbit": "t_119649",
   "~|Skills achievements#Farming|~ Ram-bow": "t_119650",
   "~|Skills achievements#Farming|~ Smartest Harvest": "t_119651",
@@ -24123,7 +24123,6 @@
   "Frogburger": "t_22505",
   "Frogspawn gumbo": "t_22506",
   "Green gloop soup": "t_22507",
-  "Watermellon seed": "t_116705",
   "Curry tree seed": "t_22673",
   "Starbloom seed": "t_117527",
   "King worm": "t_22509",
@@ -85613,7 +85612,7 @@
   "[Thieving] Cave goblin: ~|Green gloop soup|~ (1) (Uncommon)": "t_47177",
   "[Thieving] Cave goblin: ~|Tinderbox|~ (1) (Uncommon)": "t_47178",
   "[Thieving] Cave goblin: ~|Swamp tar|~ (1) (Uncommon)": "t_47179",
-  "[Thieving] Master Farmer: ~|Watermellon seed|~ (1) (1/100)": "t_116793",
+  "[Thieving] Master Farmer: ~|Watermelon seed|~ (1) (1/100)": "t_120877",
   "[Thieving] Master Farmer: ~|Dwellberry seed|~ (1) (1/22.22)": "t_116794",
   "[Thieving] Master Farmer: ~|Jangerberry seed|~ (1) (1/50)": "t_116795",
   "[Thieving] Master Farmer: ~|Whiteberry seed|~ (1) (1/100)": "t_116796",
@@ -92246,5 +92245,5 @@
   "Pizazz points: ~|Death rune|~": "t_52854",
   "Pizazz points: ~|Soul rune|~": "t_52856",
   "Pizazz points: ~|Blood rune|~": "t_52857",
-  "currentNextIndex": 120877
+  "currentNextIndex": 120878
 }
