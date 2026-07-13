@@ -10454,131 +10454,13 @@
 			}
 		},
 		"Construction": {
-			"Build a ~|crude wooden chair|~": {
-				"Category": ["InsidePOH Primary"],
-				"Chunks": ["Player-owned house"],
-				"Items": ["Plank*", "Nails[+]*"],
+			"Make ~|planks|~ at the sawmill in Fort Forinthry": {
+				"Items": ["Logs*"],
+				"Objects": ["Sawmill"],
 				"Level": 1,
+				"Output": "Plank",
 				"Primary": true,
-				"Priority": 1
-			},
-			"Build an ~|exit portal|~": {
-				"Category": ["InsidePOH Primary"],
-				"Chunks": ["Player-owned house"],
-				"Items": ["Iron bar*"],
-				"Level": 1,
-				"Primary": true,
-				"Priority": 2
-			},
-			"Plant a ~|plant|~ in your player-owned house": {
-				"Category": ["InsidePOH Primary"],
-				"Chunks": ["Player-owned house"],
-				"Items": ["Bagged plant 1*", "WateringCan[+]"],
-				"Level": 1,
-				"Skills": {
-					"Farming": 1
-				},
-				"Primary": true,
-				"Priority": 3
-			},
-			"Plant a ~|dock leaf|~ in your player-owned house": {
-				"Category": ["InsidePOH Primary"],
-				"Chunks": ["Player-owned house"],
-				"Items": ["Bagged plant 1*", "WateringCan[+]"],
-				"Level": 1,
-				"Skills": {
-					"Farming": 1
-				},
-				"Primary": true,
-				"Priority": 4
-			},
-			"Plant a ~|fern (big plant)|~ in your player-owned house": {
-				"Category": ["InsidePOH Primary"],
-				"Chunks": ["Player-owned house"],
-				"Items": ["Bagged plant 1*", "WateringCan[+]"],
-				"Level": 1,
-				"Skills": {
-					"Farming": 1
-				},
-				"Primary": true,
-				"Priority": 5
-			},
-			"Plant a ~|short plant|~ in your player-owned house": {
-				"Category": ["InsidePOH Primary"],
-				"Chunks": ["Player-owned house"],
-				"Items": ["Bagged plant 1*", "WateringCan[+]"],
-				"Level": 1,
-				"Skills": {
-					"Farming": 1
-				},
-				"Primary": true,
-				"Priority": 6
-			},
-			"Change the walls in your ~|house style|~ to basic wood": {
-				"Category": ["Construction Milestone"],
-				"NPCs": ["Estate agent[+]"],
-				"Level": 1,
-				"Primary": false,
-				"Priority": 7
-			},
-			"Change the ground in your ~|house style|~ to green floor": {
-				"Category": ["Construction Milestone"],
-				"NPCs": ["Estate agent[+]"],
-				"Level": 1,
-				"Primary": false,
-				"Priority": 8
-			},
-			"Change the ground in your ~|house style|~ to blue floor": {
-				"Category": ["Construction Milestone"],
-				"NPCs": ["Estate agent[+]"],
-				"Level": 1,
-				"Primary": false,
-				"Priority": 9
-			},
-			"Change the ground in your ~|house style|~ to rough grass": {
-				"Category": ["Construction Milestone"],
-				"NPCs": ["Estate agent[+]"],
-				"Level": 1,
-				"Primary": false,
-				"Priority": 10
-			},
-			"Change the dungeon in your ~|house style|~ to rough stone": {
-				"Category": ["Construction Milestone"],
-				"NPCs": ["Estate agent[+]"],
-				"Level": 1,
-				"Primary": false,
-				"Priority": 11
-			},
-			"Change the lighting in your ~|house style|~ to day": {
-				"Category": ["Construction Milestone"],
-				"NPCs": ["Estate agent[+]"],
-				"Level": 1,
-				"Primary": false,
-				"Priority": 12
-			},
-			"Move your ~|player-owned house|~ to Rimmington": {
-				"Category": ["Construction Milestone"],
-				"NPCs": ["Estate agent[+]"],
-				"Chunks": ["11826"],
-				"Level": 1,
-				"Primary": false,
-				"Priority": 13
-			},
-			"Move your ~|player-owned house|~ to Taverley": {
-				"Category": ["Construction Milestone"],
-				"NPCs": ["Estate agent[+]"],
-				"Chunks": ["11573"],
-				"Level": 1,
-				"Primary": false,
-				"Priority": 14
-			},
-			"Build a ~|flower basket|~ at Het's Oasis": {
-				"Objects": ["Flower basket"],
-				"Items": ["Teak plank*", "Steel nails*"],
-				"Level": 1,
-				"Output Object": "Flower basket (built)",
-				"Primary": false,
-				"Priority": 15,
+				"Priority": 1,
 				"Not F2P": true
 			},
 			"Make a ~|stone wall segment|~": {
@@ -10587,50 +10469,7 @@
 				"Level": 1,
 				"Output": "Stone wall segment",
 				"Primary": true,
-				"Priority": 16,
-				"Not F2P": true
-			},
-			"Build the stone wall around ~|Fort Forinthry|~ in chunk 13111": {
-				"Chunks": ["13111"],
-				"Items": ["Stone wall segment*", "Plank*"],
-				"Level": 1,
-				"Primary": false,
-				"Priority": 16,
-				"Not F2P": true
-			},
-			"Build the stone wall around ~|Fort Forinthry|~ in chunk 13367": {
-				"Chunks": ["13111"],
-				"Items": ["Stone wall segment*"],
-				"Level": 1,
-				"Primary": false,
-				"Priority": 16,
-				"Not F2P": true
-			},
-			"Make ~|planks|~ at the sawmill in Fort Forinthry": {
-				"Items": ["Logs*"],
-				"Objects": ["Sawmill"],
-				"Level": 1,
-				"Output": "Plank",
-				"Primary": true,
-				"Priority": 17,
-				"Not F2P": true
-			},
-			"Make ~|refined planks|~ at the sawmill in Fort Forinthry": {
-				"Items": ["Plank*"],
-				"Objects": ["Sawmill"],
-				"Level": 1,
-				"Output": "Refined plank",
-				"Primary": true,
-				"Priority": 18,
-				"Not F2P": true
-			},
-			"Make a ~|wooden frame|~ at the sawmill in Fort Forinthry": {
-				"Items": ["Refined plank*"],
-				"Objects": ["Sawmill"],
-				"Level": 1,
-				"Output": "Wooden frame",
-				"Primary": true,
-				"Priority": 19,
+				"Priority": 2,
 				"Not F2P": true
 			},
 			"Build the tier 1 ~|Workshop (Fort Forinthry)|~": {
@@ -10641,16 +10480,34 @@
 				"Level": 1,
 				"Output Object": "Tier1Workshop[+]",
 				"Primary": true,
-				"Priority": 20
+				"Priority": 3
 			},
-			"Craft the smashed table in ~|Ah Za Rhoon|~ into anything but a crude raft": {
+			"Make ~|refined planks|~ at the sawmill in Fort Forinthry": {
+				"Items": ["Plank*"],
+				"Objects": ["Sawmill"],
 				"Level": 1,
-				"Chunks": ["Ah Za Rhoon"],
-				"Tasks": {
-					"~|Shilo Village|~ 3": "Quest"
-				},
+				"Output": "Refined plank",
 				"Primary": true,
-				"Priority": 21
+				"Priority": 100,
+				"Not F2P": true
+			},
+			"Make a ~|wooden frame|~ at the sawmill in Fort Forinthry": {
+				"Items": ["Refined plank*"],
+				"Objects": ["Sawmill"],
+				"Level": 1,
+				"Output": "Wooden frame",
+				"Primary": true,
+				"Priority": 101,
+				"Not F2P": true
+			},
+			"Build a ~|flower basket|~ at Het's Oasis": {
+				"Objects": ["Flower basket"],
+				"Items": ["Teak plank*", "Steel nails*"],
+				"Level": 1,
+				"Output Object": "Flower basket (built)",
+				"Primary": false,
+				"Priority": 102,
+				"Not F2P": true
 			},
 			"Build the ~|Fort Forinthry lodestone|~": {
 				"Level": 1,
@@ -10660,14 +10517,14 @@
 					"~|New Foundations|~ Complete the quest": "Quest"
 				},
 				"Primary": false,
-				"Priority": 22
+				"Priority": 103
 			},
 			"Repair walls in ~|Troll Invasion|~": {
 				"Category": ["DnD"],
 				"Chunks": ["11319-1"],
 				"Level": 1,
 				"Primary": true,
-				"Priority": 23,
+				"Priority": 1000,
 				"Not F2P": true
 			},
 			"Construct a ~|God Statue|~": {
@@ -10675,7 +10532,7 @@
 				"NPCs": ["Copernicus Glyph"],
 				"Level": 1,
 				"Primary": true,
-				"Priority": 25,
+				"Priority": 1001,
 				"Not F2P": true
 			},
 			"Use an ~|experience lamp|~ from the Waiko Reward Shop on Construction": {
@@ -10683,214 +10540,16 @@
 				"Items": ["Ports XP Lamp"],
 				"Level": 1,
 				"Priamry": 1,
-				"Priority": 1000,
+				"Priority": 1002,
 				"NoPet": true
 			},
-			"Build a ~|brown rug|~": {
-				"Category": ["InsidePOH Primary"],
-				"Chunks": ["Player-owned house"],
-				"Items": ["Bolt of cloth*"],
-				"Level": 2,
-				"Primary": true,
-				"Priority": 1
-			},
-			"Build ~|torn curtains|~": {
-				"Category": ["InsidePOH Primary"],
-				"Chunks": ["Player-owned house"],
-				"Items": ["Bolt of cloth*", "Nails[+]*", "Plank*"],
-				"Level": 2,
-				"Primary": true,
-				"Priority": 2
-			},
-			"Build a ~|clay fireplace|~": {
-				"Category": ["InsidePOH Primary"],
-				"Chunks": ["Player-owned house"],
-				"Items": ["Soft clay*"],
-				"Level": 3,
-				"Primary": true,
-				"Priority": 1
-			},
-			"Build a ~|wooden bookcase|~": {
-				"Category": ["InsidePOH Primary"],
-				"Chunks": ["Player-owned house"],
-				"Items": ["Plank*", "Nails[+]*"],
-				"Level": 4,
-				"Primary": true,
-				"Priority": 1
-			},
-			"Build a ~|firepit|~": {
-				"Category": ["InsidePOH Primary"],
-				"Chunks": ["Player-owned house"],
-				"Items": ["Steel bar*", "Soft clay*"],
-				"Level": 5,
-				"Primary": true,
-				"Priority": 1
-			},
-			"Build a ~|decorative rock|~": {
-				"Category": ["InsidePOH Primary"],
-				"Chunks": ["Player-owned house"],
-				"Items": ["Limestone brick*"],
-				"Level": 5,
-				"Primary": true,
-				"Priority": 2
-			},
-			"Build a ~|cat blanket|~": {
-				"Category": ["InsidePOH Primary"],
-				"Chunks": ["Player-owned house"],
-				"Items": ["Bolt of cloth*"],
-				"Level": 5,
-				"Primary": true,
-				"Priority": 3
-			},
-			"Plant a ~|dead tree (Construction)|~ in your player-owned house": {
-				"Category": ["InsidePOH Primary"],
-				"Chunks": ["Player-owned house"],
-				"Items": ["Bagged dead tree*", "WateringCan[+]"],
-				"Level": 5,
-				"Skills": {
-					"Farming": 1
-				},
-				"Primary": true,
-				"Priority": 4
-			},
-			"Build ~|wooden shelves 1|~": {
-				"Category": ["InsidePOH Primary"],
-				"Chunks": ["Player-owned house"],
-				"Items": ["Plank*", "Nails[+]*"],
-				"Level": 6,
-				"Output": "WoodenShelves1",
-				"Primary": true,
-				"Priority": 1
-			},
-			"Plant a ~|small fern|~ in your player-owned house": {
-				"Category": ["InsidePOH Primary"],
-				"Chunks": ["Player-owned house"],
-				"Items": ["Bagged plant 2*", "WateringCan[+]"],
-				"Level": 6,
-				"Skills": {
-					"Farming": 1
-				},
-				"Primary": true,
-				"Priority": 2
-			},
-			"Plant a ~|thistle|~ in your player-owned house": {
-				"Category": ["InsidePOH Primary"],
-				"Chunks": ["Player-owned house"],
-				"Items": ["Bagged plant 2*", "WateringCan[+]"],
-				"Level": 6,
-				"Skills": {
-					"Farming": 1
-				},
-				"Primary": true,
-				"Priority": 3
-			},
-			"Plant a ~|large leaf bush|~ in your player-owned house": {
-				"Category": ["InsidePOH Primary"],
-				"Chunks": ["Player-owned house"],
-				"Items": ["Bagged plant 2*", "WateringCan[+]"],
-				"Level": 6,
-				"Skills": {
-					"Farming": 1
-				},
-				"Primary": true,
-				"Priority": 4
-			},
-			"Plant a ~|bush|~ in your player-owned house": {
-				"Category": ["InsidePOH Primary"],
-				"Chunks": ["Player-owned house"],
-				"Items": ["Bagged plant 2*", "WateringCan[+]"],
-				"Level": 6,
-				"Skills": {
-					"Farming": 1
-				},
-				"Primary": true,
-				"Priority": 5
-			},
-			"Build a ~|pump and drain|~": {
-				"Category": ["InsidePOH Primary"],
-				"Chunks": ["Player-owned house"],
-				"Items": ["Steel bar*"],
-				"Level": 7,
-				"Primary": true,
-				"Priority": 1
-			},
-			"Build a ~|beer barrel|~": {
-				"Category": ["InsidePOH Primary"],
-				"Chunks": ["Player-owned house"],
-				"Items": ["Plank*", "Nails[+]*"],
-				"Level": 7,
-				"Output": "Beer",
-				"Skills": {
-					"Cooking": 1
-				},
-				"Primary": true,
-				"Priority": 2
-			},
-			"Build a ~|wooden chair|~": {
-				"Category": ["InsidePOH Primary"],
-				"Chunks": ["Player-owned house"],
-				"Items": ["Plank*", "Nails[+]*"],
-				"Level": 8,
-				"Primary": true,
-				"Priority": 1
-			},
-			"Build a ~|wooden larder|~": {
-				"Category": ["InsidePOH Primary"],
-				"Chunks": ["Player-owned house"],
-				"Items": ["Plank*", "Nails[+]*"],
-				"Level": 9,
-				"Output": "WoodenLarder",
-				"Primary": true,
-				"Priority": 1
-			},
-			"Build a ~|wooden dining table|~": {
-				"Category": ["InsidePOH Primary"],
-				"Chunks": ["Player-owned house"],
-				"Items": ["Plank*", "Nails[+]*"],
+			"Make ~|oak planks|~ at the sawmill in Fort Forinthry": {
+				"Items": ["Oak logs*"],
+				"Objects": ["Sawmill"],
 				"Level": 10,
+				"Output": "Oak plank",
 				"Primary": true,
 				"Priority": 1
-			},
-			"Build a ~|wooden bench|~": {
-				"Category": ["InsidePOH Primary"],
-				"Chunks": ["Player-owned house"],
-				"Items": ["Plank*", "Nails[+]*"],
-				"Level": 10,
-				"Primary": true,
-				"Priority": 2
-			},
-			"Build a ~|pond|~": {
-				"Category": ["InsidePOH Primary"],
-				"Chunks": ["Player-owned house"],
-				"Items": ["Soft clay*"],
-				"Level": 10,
-				"Primary": true,
-				"Priority": 3
-			},
-			"Plant a ~|nice tree|~ in your player-owned house": {
-				"Category": ["InsidePOH Primary"],
-				"Chunks": ["Player-owned house"],
-				"Items": ["Bagged nice tree*", "WateringCan[+]"],
-				"Level": 10,
-				"Skills": {
-					"Farming": 1
-				},
-				"Primary": true,
-				"Priority": 4
-			},
-			"Change the walls in your ~|house style|~ to basic stone": {
-				"Category": ["Construction Milestone"],
-				"NPCs": ["Estate agent[+]"],
-				"Level": 10,
-				"Primary": false,
-				"Priority": 5
-			},
-			"Change the dungeon in your ~|house style|~ to smooth stone": {
-				"Category": ["Construction Milestone"],
-				"NPCs": ["Estate agent[+]"],
-				"Level": 10,
-				"Primary": false,
-				"Priority": 6
 			},
 			"Build the tier 1 ~|Town Hall (Fort Forinthry)|~": {
 				"Tasks": {
@@ -10899,15 +10558,7 @@
 				"Items": ["Oak frame*", "Stone wall segment*"],
 				"Level": 10,
 				"Primary": true,
-				"Priority": 7
-			},
-			"Make ~|oak planks|~ at the sawmill in Fort Forinthry": {
-				"Items": ["Oak logs*"],
-				"Objects": ["Sawmill"],
-				"Level": 10,
-				"Output": "Oak plank",
-				"Primary": true,
-				"Priority": 8
+				"Priority": 2
 			},
 			"Make ~|refined oak planks|~ at the sawmill in Fort Forinthry": {
 				"Items": ["Oak plank*"],
@@ -10915,7 +10566,7 @@
 				"Level": 10,
 				"Output": "Refined oak plank",
 				"Primary": true,
-				"Priority": 9
+				"Priority": 100
 			},
 			"Make an ~|oak frame|~ at the sawmill in Fort Forinthry": {
 				"Items": ["Refined oak plank*"],
@@ -10923,131 +10574,7 @@
 				"Level": 10,
 				"Output": "Oak frame",
 				"Primary": true,
-				"Priority": 10
-			},
-			"Build a ~|firepit with hook|~": {
-				"Category": ["InsidePOH Primary"],
-				"Chunks": ["Player-owned house"],
-				"Items": ["Soft clay*", "Steel bar*"],
-				"Level": 11,
-				"Primary": true,
-				"Priority": 1
-			},
-			"Build a ~|wood kitchen table|~": {
-				"Category": ["InsidePOH Primary"],
-				"Chunks": ["Player-owned house"],
-				"Items": ["Plank*", "Nails[+]*"],
-				"Level": 12,
-				"Primary": true,
-				"Priority": 1
-			},
-			"Build a ~|cider barrel|~": {
-				"Category": ["InsidePOH Primary"],
-				"Chunks": ["Player-owned house"],
-				"Items": ["Plank*", "Nails[+]*", "Cider*"],
-				"Level": 12,
-				"Output": "Cider",
-				"Skills": {
-					"Cooking": 14
-				},
-				"Primary": true,
-				"Priority": 2
-			},
-			"Build ~|wooden shelves 2|~": {
-				"Category": ["InsidePOH Primary"],
-				"Chunks": ["Player-owned house"],
-				"Items": ["Plank*", "Nails[+]*", "Soft clay*"],
-				"Level": 12,
-				"Output": "WoodenShelves2",
-				"Primary": true,
-				"Priority": 3
-			},
-			"Plant a ~|fern (small plant)|~ in your player-owned house": {
-				"Category": ["InsidePOH Primary"],
-				"Chunks": ["Player-owned house"],
-				"Items": ["Bagged plant 3*", "WateringCan[+]"],
-				"Level": 12,
-				"Skills": {
-					"Farming": 1
-				},
-				"Primary": true,
-				"Priority": 4
-			},
-			"Plant ~|reeds|~ in your player-owned house": {
-				"Category": ["InsidePOH Primary"],
-				"Chunks": ["Player-owned house"],
-				"Items": ["Bagged plant 3*", "WateringCan[+]"],
-				"Level": 12,
-				"Skills": {
-					"Farming": 1
-				},
-				"Primary": true,
-				"Priority": 5
-			},
-			"Plant a ~|tall plant|~ in your player-owned house": {
-				"Category": ["InsidePOH Primary"],
-				"Chunks": ["Player-owned house"],
-				"Items": ["Bagged plant 3*", "WateringCan[+]"],
-				"Level": 12,
-				"Skills": {
-					"Farming": 1
-				},
-				"Primary": true,
-				"Priority": 6
-			},
-			"Build a ~|rug|~": {
-				"Category": ["InsidePOH Primary"],
-				"Chunks": ["Player-owned house"],
-				"Items": ["Bolt of cloth*"],
-				"Level": 13,
-				"Primary": true,
-				"Priority": 1
-			},
-			"Build a ~|rocking chair|~": {
-				"Category": ["InsidePOH Primary"],
-				"Chunks": ["Player-owned house"],
-				"Items": ["Plank*", "Nails[+]*"],
-				"Level": 14,
-				"Primary": true,
-				"Priority": 1
-			},
-			"Build a ~|repair bench|~": {
-				"Category": ["InsidePOH Primary"],
-				"Chunks": ["Player-owned house"],
-				"Items": ["Oak plank*"],
-				"Output Object": "Repair bench",
-				"Level": 15,
-				"Primary": true,
-				"Priority": 1
-			},
-			"Build a ~|tool store 1|~": {
-				"Category": ["InsidePOH Primary"],
-				"Chunks": ["Player-owned house"],
-				"Items": ["Oak plank*"],
-				"Level": 15,
-				"Output": "ToolStore1",
-				"Output Object": "Tool store 1",
-				"Primary": true,
-				"Priority": 2
-			},
-			"Build an ~|imp statue|~": {
-				"Category": ["InsidePOH Primary"],
-				"Chunks": ["Player-owned house"],
-				"Items": ["Soft clay*", "Limestone brick*"],
-				"Level": 15,
-				"Primary": true,
-				"Priority": 3
-			},
-			"Plant an ~|oak tree|~ in your player-owned house": {
-				"Category": ["InsidePOH Primary"],
-				"Chunks": ["Player-owned house"],
-				"Items": ["Bagged oak tree*", "WateringCan[+]"],
-				"Level": 15,
-				"Skills": {
-					"Farming": 1
-				},
-				"Primary": true,
-				"Priority": 4
+				"Priority":  101
 			},
 			"Build the tier 1 ~|Chapel (Fort Forinthry)|~": {
 				"Tasks": {
@@ -11056,135 +10583,52 @@
 				"Items": ["Oak frame*", "Stone wall segment*"],
 				"Level": 15,
 				"Primary": true,
-				"Priority": 5
-			},
-			"Build a ~|pluming stand|~": {
-				"Category": ["InsidePOH Primary"],
-				"Chunks": ["Player-owned house"],
-				"Items": ["Oak plank*"],
-				"Level": 16,
-				"Output Object": "Pluming stand",
-				"Primary": true,
 				"Priority": 1
-			},
-			"Build a ~|crafting table 1|~": {
-				"Category": ["InsidePOH Primary"],
-				"Chunks": ["Player-owned house"],
-				"Items": ["Oak plank*"],
-				"Level": 16,
-				"Output Object": "Crafting table 1",
-				"Primary": true,
-				"Priority": 2
-			},
-			"Build an ~|oak wall decoration|~": {
-				"Category": ["InsidePOH Primary"],
-				"Chunks": ["Player-owned house"],
-				"Items": ["Oak plank*"],
-				"Level": 16,
-				"Primary": true,
-				"Priority": 3
-			},
-			"Build a ~|fireplace with pot|~": {
-				"Category": ["InsidePOH Primary"],
-				"Chunks": ["Player-owned house"],
-				"Items": ["Steel bar*", "Soft clay*"],
-				"Level": 17,
-				"Primary": true,
-				"Priority": 1
-			},
-			"Build a ~|wooden workbench|~": {
-				"Category": ["InsidePOH Primary"],
-				"Chunks": ["Player-owned house"],
-				"Items": ["Plank*", "Nails[+]*"],
-				"Level": 17,
-				"Primary": true,
-				"Priority": 2
-			},
-			"Build an ~|Asgarnian Ale barrel|~": {
-				"Category": ["InsidePOH Primary"],
-				"Chunks": ["Player-owned house"],
-				"Items": ["Oak plank*", "Asgarnian ale*"],
-				"Level": 18,
-				"Output": "Asgarnian ale",
-				"Skills": {
-					"Cooking": 24
-				},
-				"Primary": true,
-				"Priority": 2
-			},
-			"Build ~|curtains|~": {
-				"Category": ["InsidePOH Primary"],
-				"Chunks": ["Player-owned house"],
-				"Items": ["Oak plank*", "Bolt of cloth*"],
-				"Level": 18,
-				"Primary": true,
-				"Priority": 3
 			},
 			"Build a ~|rope rack|~ in the eagles' peak eyrie": {
 				"Chunks": ["Eagles' Peak Eyrie"],
 				"Items": ["Plank*", "Rope*", "Nails[+]*"],
 				"Level": 18,
 				"Primary": true,
-				"Priority": 4
+				"Priority": 100
 			},
-			"Build an ~|oak chair|~": {
-				"Category": ["InsidePOH Primary"],
-				"Chunks": ["Player-owned house"],
-				"Items": ["Oak plank*"],
-				"Level": 19,
+			"Make ~|willow planks|~ at the sawmill in Fort Forinthry": {
+				"Items": ["Willow logs*"],
+				"Objects": ["Sawmill"],
+				"Level": 20,
+				"Output": "Willow plank",
 				"Primary": true,
 				"Priority": 1
 			},
-			"Build a ~|wooden bed|~": {
-				"Category": ["InsidePOH Primary"],
-				"Chunks": ["Player-owned house"],
-				"Items": ["Plank*", "Nails[+]*", "Bolt of cloth*"],
+			"Make ~|refined Willow planks|~ at the sawmill in Fort Forinthry": {
+				"Items": ["Willow plank*"],
+				"Objects": ["Sawmill"],
 				"Level": 20,
+				"Output": "Refined willow plank",
 				"Primary": true,
-				"Priority": 1
+				"Priority": 101
 			},
-			"Build a ~|shoe box|~": {
-				"Category": ["InsidePOH Primary"],
-				"Chunks": ["Player-owned house"],
-				"Items": ["Plank*", "Nails[+]*"],
+			"Make a ~|willow frame|~ at the sawmill in Fort Forinthry": {
+				"Items": ["Refined willow plank*"],
+				"Objects": ["Sawmill"],
 				"Level": 20,
+				"Output": "Willow frame",
 				"Primary": true,
-				"Priority": 2
+				"Priority": 102
 			},
-			"Change the walls in your ~|house style|~ to whitewashed stone": {
-				"Category": ["Construction Milestone"],
-				"NPCs": ["Estate agent[+]"],
+			"Repair a ~|dilapidated canoe station|~ in or around Wendlewick": {
+				"Items": ["Willow plank*", "Steel nails*"],
+				"Objects": ["Dilapidated canoe station#Wendlewick"],
 				"Level": 20,
 				"Primary": false,
-				"Priority": 3
-			},
-			"Change the ground in your ~|house style|~ to desert": {
-				"Category": ["Construction Milestone"],
-				"NPCs": ["Estate agent[+]"],
-				"Level": 20,
-				"Primary": false,
-				"Priority": 4
-			},
-			"Change the dungeon in your ~|house style|~ to desert dungeon": {
-				"Category": ["Construction Milestone"],
-				"NPCs": ["Estate agent[+]"],
-				"Level": 20,
-				"Primary": false,
-				"Priority": 5
+				"Priority": 103
 			},
 			"Hire ~|Rick|~ as a servant": {
 				"Category": ["Construction Milestone"],
 				"Chunks": ["10548"],
 				"Level": 20,
 				"Primary": false,
-				"Priority": 6
-			},
-			"Move your ~|player-owned house|~ to Pollnivneach": {
-				"Category": ["Construction Milestone"],
-				"Chunks": ["13358-1"],
-				"Level": 20,
-				"Primary": false,
-				"Priority": 7
+				"Priority": 1000
 			},
 			"Build the ~|water filtration system|~ at Het's Oasis": {
 				"Chunks": ["13362-1"],
@@ -11192,7 +10636,7 @@
 				"Level": 20,
 				"Output Object": "Water filtration system",
 				"Primary": true,
-				"Priority": 8
+				"Priority": 1001
 			},
 			"Access the ~|player-owned farm|~": {
 				"Chunks": ["10548"],
@@ -11205,7 +10649,7 @@
 				},
 				"Output Object": "Small animal pen",
 				"Primary": false,
-				"Priority": 9
+				"Priority": 1002
 			},
 			"Build a second small pen in your ~|player-owned farm|~": {
 				"Chunks": ["10548"],
@@ -11219,122 +10663,14 @@
 				},
 				"Output Object": "Small animal pen",
 				"Primary": false,
-				"Priority": 10
-			},
-			"Make ~|willow planks|~ at the sawmill in Fort Forinthry": {
-				"Items": ["Willow logs*"],
-				"Objects": ["Sawmill"],
-				"Level": 20,
-				"Output": "Willow plank",
-				"Primary": true,
-				"Priority": 11
-			},
-			"Make ~|refined Willow planks|~ at the sawmill in Fort Forinthry": {
-				"Items": ["Willow plank*"],
-				"Objects": ["Sawmill"],
-				"Level": 20,
-				"Output": "Refined willow plank",
-				"Primary": true,
-				"Priority": 12
-			},
-			"Make a ~|willow frame|~ at the sawmill in Fort Forinthry": {
-				"Items": ["Refined willow plank*"],
-				"Objects": ["Sawmill"],
-				"Level": 20,
-				"Output": "Willow frame",
-				"Primary": true,
-				"Priority": 13
-			},
-			"Repair a ~|dilapidated canoe station|~ in or around Wendlewick": {
-				"Items": ["Willow plank*", "Steel nails*"],
-				"Objects": ["Dilapidated canoe station#Wendlewick"],
-				"Level": 20,
-				"Primary": false,
-				"Priority": 14
-			},
-			"Build a ~|shaving stand|~": {
-				"Category": ["InsidePOH Primary"],
-				"Chunks": ["Player-owned house"],
-				"Items": ["Plank*", "Nails[+]*", "Molten glass*"],
-				"Level": 21,
-				"Primary": true,
-				"Priority": 1
-			},
-			"Build an ~|oak dining table|~": {
-				"Category": ["InsidePOH Primary"],
-				"Chunks": ["Player-owned house"],
-				"Items": ["Oak plank*"],
-				"Level": 22,
-				"Primary": true,
-				"Priority": 1
-			},
-			"Build an ~|oak bench|~": {
-				"Category": ["InsidePOH Primary"],
-				"Chunks": ["Player-owned house"],
-				"Items": ["Oak plank*"],
-				"Level": 22,
-				"Primary": true,
-				"Priority": 2
-			},
-			"Build ~|wooden shelves 3|~": {
-				"Category": ["InsidePOH Primary"],
-				"Chunks": ["Player-owned house"],
-				"Items": ["Plank*", "Nails[+]*", "Soft clay*"],
-				"Level": 23,
-				"Output": "WoodenShelves3",
-				"Primary": true,
-				"Priority": 1
-			},
-			"Build a ~|small oven|~": {
-				"Category": ["InsidePOH Primary"],
-				"Chunks": ["Player-owned house"],
-				"Items": ["Steel bar*"],
-				"Level": 24,
-				"Primary": true,
-				"Priority": 1
+				"Priority": 1003
 			},
 			"Build a ~|rope rack|~ in the Baxtorian Falls house": {
 				"Chunks": ["10038-1"],
 				"Items": ["Oak plank*", "Rope*"],
 				"Level": 24,
 				"Primary": true,
-				"Priority": 2
-			},
-			"Build a ~|crafting table 2|~": {
-				"Category": ["InsidePOH Primary"],
-				"Chunks": ["Player-owned house"],
-				"Objects": ["Crafting table 1"],
-				"Items": ["Molten glass*"],
-				"Level": 25,
-				"Output Object": "Crafting table 2",
-				"Primary": true,
-				"Priority": 1
-			},
-			"Build a ~|tool store 2|~": {
-				"Category": ["InsidePOH Primary"],
-				"Chunks": ["Player-owned house"],
-				"Objects": ["Tool stole 1"],
-				"Items": ["Oak plank*"],
-				"Level": 25,
-				"Output": "ToolStore2",
-				"Output Object": "Tool store 2",
-				"Primary": true,
-				"Priority": 2
-			},
-			"Build an ~|oak clock|~": {
-				"Category": ["InsidePOH Primary"],
-				"Chunks": ["Player-owned house"],
-				"Items": ["Oak plank*", "Clockwork*"],
-				"Level": 25,
-				"Primary": true,
-				"Priority": 3
-			},
-			"Hire the ~|Maid|~ as a servant": {
-				"Category": ["Construction Milestone"],
-				"Chunks": ["10548"],
-				"Level": 25,
-				"Primary": false,
-				"Priority": 4
+				"Priority": 100
 			},
 			"Build the tier 1 ~|Kitchen (Fort Forinthry)|~": {
 				"Tasks": {
@@ -11343,7 +10679,7 @@
 				"Items": ["Willow frame*", "Stone wall segment*"],
 				"Level": 25,
 				"Primary": true,
-				"Priority": 5
+				"Priority": 1
 			},
 			"Build the tier 1 ~|Command Centre|~": {
 				"Tasks": {
@@ -11352,137 +10688,28 @@
 				"Items": ["Willow frame*", "Stone wall segment*"],
 				"Level": 25,
 				"Primary": true,
-				"Priority": 6
+				"Priority": 2
+			},
+			"Hire the ~|Maid|~ as a servant": {
+				"Category": ["Construction Milestone"],
+				"Chunks": ["10548"],
+				"Level": 25,
+				"Primary": false,
+				"Priority": 1000
 			},
 			"Train Construction in ~|Daemonheim|~": {
 				"Category": ["Daemonheim training"],
 				"Chunks": ["Dungeons of Daemonheim"],
 				"Level": 25,
 				"Primary": true,
-				"Priority": 1000
-			},
-			"Build an ~|oak armchair|~": {
-				"Category": ["InsidePOH Primary"],
-				"Chunks": ["Player-owned house"],
-				"Items": ["Oak plank*"],
-				"Level": 26,
-				"Primary": true,
-				"Priority": 1
-			},
-			"Build a ~|Greenman's ale barrel|~": {
-				"Category": ["InsidePOH Primary"],
-				"Chunks": ["Player-owned house"],
-				"Items": ["Oak plank*", "Greenman's ale*"],
-				"Level": 26,
-				"Skills": {
-					"Cooking": 29
-				},
-				"Primary": true,
-				"Priority": 2
-			},
-			"Build a ~|rope bell-pull|~": {
-				"Category": ["InsidePOH Primary"],
-				"Chunks": ["Player-owned house"],
-				"Items": ["Oak plank*", "Rope*"],
-				"Level": 26,
-				"Primary": true,
-				"Priority": 3
-			},
-			"Build a ~|pump and tub|~": {
-				"Category": ["InsidePOH Primary"],
-				"Chunks": ["Player-owned house"],
-				"Items": ["Steel bar*"],
-				"Level": 27,
-				"Primary": true,
-				"Priority": 1
-			},
-			"Build ~|oak drawers|~": {
-				"Category": ["InsidePOH Primary"],
-				"Chunks": ["Player-owned house"],
-				"Items": ["Oak plank*"],
-				"Level": 27,
-				"Primary": true,
-				"Priority": 2
-			},
-			"Build an ~|oak staircase|~": {
-				"Category": ["InsidePOH Primary"],
-				"Chunks": ["Player-owned house"],
-				"Items": ["Oak plank*", "Steel bar*"],
-				"Level": 27,
-				"Primary": true,
-				"Priority": 3
+				"Priority": 1001
 			},
 			"Build an easy ~|hidey-hole|~": {
 				"Chunks": ["EasyHideyHoles[+]"],
 				"Items": ["Plank*", "Nails[+]*"],
 				"Level": 27,
 				"Primary": false,
-				"Priority": 4
-			},
-			"Build a ~|mithril armour stand|~": {
-				"Category": ["InsidePOH Primary"],
-				"Chunks": ["Player-owned house"],
-				"Items": ["Oak plank*", "Mithril full helm*", "Mithril platebody*", "Mithril plateskirt*"],
-				"Level": 28,
-				"Skills": {
-					"Smithing": 30
-				},
-				"Primary": true,
-				"Priority": 1
-			},
-			"Build an ~|adamant armour stand|~": {
-				"Category": ["InsidePOH Primary"],
-				"Chunks": ["Player-owned house"],
-				"Items": ["Oak plank*", "Adamant full helm*", "Adamant platebody*", "Adamant plateskirt*"],
-				"Level": 28,
-				"Skills": {
-					"Smithing": 40
-				},
-				"Primary": true,
-				"Priority": 2
-			},
-			"Build a ~|rune armour stand|~": {
-				"Category": ["InsidePOH Primary"],
-				"Chunks": ["Player-owned house"],
-				"Items": ["Oak plank*", "Rune full helm*", "Rune platebody*", "Rune plateskirt*"],
-				"Level": 28,
-				"Skills": {
-					"Smithing": 50
-				},
-				"Primary": true,
-				"Priority": 3
-			},
-			"Build a ~|basic decorative armour stand|~": {
-				"Category": ["InsidePOH Primary"],
-				"Chunks": ["Player-owned house"],
-				"Items": ["Oak plank*", "Basic decorative helm*", "Basic decorative platebody*", "Basic decorative plateskirt*"],
-				"Level": 28,
-				"Primary": true,
-				"Priority": 4
-			},
-			"Build a ~|detailed decorative armour stand|~": {
-				"Category": ["InsidePOH Primary"],
-				"Chunks": ["Player-owned house"],
-				"Items": ["Oak plank*", "Detailed decorative helm*", "Detailed decorative platebody*", "Detailed decorative plateskirt*"],
-				"Level": 28,
-				"Primary": true,
-				"Priority": 5
-			},
-			"Build an ~|intricate decorative armour stand|~": {
-				"Category": ["InsidePOH Primary"],
-				"Chunks": ["Player-owned house"],
-				"Items": ["Oak plank*", "Intricate decorative helm*", "Intricate decorative platebody*", "Intricate decorative plateskirt*"],
-				"Level": 28,
-				"Primary": true,
-				"Priority": 6
-			},
-			"Build a ~|profound decorative armour stand|~": {
-				"Category": ["InsidePOH Primary"],
-				"Chunks": ["Player-owned house"],
-				"Items": ["Oak plank*", "Profound decorative helm*", "Profound decorative platebody*", "Profound decorative plateskirt*"],
-				"Level": 28,
-				"Primary": true,
-				"Priority": 7
+				"Priority": 100
 			},
 			"Build a ~|rope rack|~ in the Karamja eyrie": {
 				"Chunks": ["11566-1"],
@@ -11492,101 +10719,14 @@
 					"~|Back to my Roots|~ Complete the quest": "Quest"
 				},
 				"Primary": true,
-				"Priority": 8
-			},
-			"Build a ~|large oven|~": {
-				"Category": ["InsidePOH Primary"],
-				"Chunks": ["Player-owned house"],
-				"Items": ["Steel bar*"],
-				"Level": 29,
-				"Primary": true,
-				"Priority": 1
-			},
-			"Build an ~|oak shaving stand|~": {
-				"Category": ["InsidePOH Primary"],
-				"Chunks": ["Player-owned house"],
-				"Items": ["Oak plank*", "Molten glass*"],
-				"Level": 29,
-				"Primary": true,
-				"Priority": 2
-			},
-			"Build an ~|oak bookcase|~": {
-				"Category": ["InsidePOH Primary"],
-				"Chunks": ["Player-owned house"],
-				"Items": ["Oak plank*"],
-				"Level": 29,
-				"Primary": true,
-				"Priority": 3
-			},
-			"Build an ~|oak bed|~": {
-				"Category": ["InsidePOH Primary"],
-				"Chunks": ["Player-owned house"],
-				"Items": ["Oak plank*", "Bolt of cloth*"],
-				"Level": 29,
-				"Primary": true,
-				"Priority": 4
+				"Priority": 100
 			},
 			"Build a ~|hidey-hole (grapple)|~ at the Falador north wall": {
 				"Objects": ["Wall (Falador)"],
 				"Items": ["Plank*", "Bronze crossbow*", "Mithril grapple*", "Nails[+]*"],
 				"Level": 29,
 				"Primary": false,
-				"Priority": 5
-			},
-			"Build a ~|hoop and stick|~": {
-				"Category": ["InsidePOH Primary"],
-				"Chunks": ["Player-owned house"],
-				"Items": ["Oak plank*"],
-				"Level": 30,
-				"Output Object": "Hoop and stick",
-				"Primary": true,
-				"Priority": 1
-			},
-			"Plant a ~|willow tree|~ in your player-owned house": {
-				"Category": ["InsidePOH Primary"],
-				"Chunks": ["Player-owned house"],
-				"Items": ["Bagged willow tree*", "WateringCan[+]"],
-				"Level": 30,
-				"Skills": {
-					"Farming": 1
-				},
-				"Primary": true,
-				"Priority": 2
-			},
-			"Hire the ~|Cook|~ as a servant": {
-				"Category": ["Construction Milestone"],
-				"Chunks": ["10548"],
-				"Level": 30,
-				"Primary": false,
-				"Priority": 3
-			},
-			"Change the walls in your ~|house style|~ to Fremennik-style wood": {
-				"Category": ["Construction Milestone"],
-				"NPCs": ["Estate agent[+]"],
-				"Level": 30,
-				"Primary": false,
-				"Priority": 4
-			},
-			"Change the ground in your ~|house style|~ to barren earth": {
-				"Category": ["Construction Milestone"],
-				"NPCs": ["Estate agent[+]"],
-				"Level": 30,
-				"Primary": false,
-				"Priority": 5
-			},
-			"Change the dungeon in your ~|house style|~ to mountain mine": {
-				"Category": ["Construction Milestone"],
-				"NPCs": ["Estate agent[+]"],
-				"Level": 30,
-				"Primary": false,
-				"Priority": 6
-			},
-			"Move your ~|player-owned house|~ to Rellekka": {
-				"Category": ["Construction Milestone"],
-				"Chunks": ["10552-1"],
-				"Level": 30,
-				"Primary": false,
-				"Priority": 7
+				"Priority": 100
 			},
 			"Make ~|teak planks|~ at the sawmill in Fort Forinthry": {
 				"Items": ["Teak logs*"],
@@ -11594,7 +10734,7 @@
 				"Level": 30,
 				"Output": "Teak plank",
 				"Primary": true,
-				"Priority": 8
+				"Priority": 1
 			},
 			"Make ~|refined teak planks|~ at the sawmill in Fort Forinthry": {
 				"Items": ["Teak plank*"],
@@ -11602,7 +10742,7 @@
 				"Level": 30,
 				"Output": "Refined teak plank",
 				"Primary": true,
-				"Priority": 9
+				"Priority": 100
 			},
 			"Make a ~|teak frame|~ at the sawmill in Fort Forinthry": {
 				"Items": ["Refined teak plank*"],
@@ -11610,182 +10750,21 @@
 				"Level": 30,
 				"Output": "Teak frame",
 				"Primary": true,
-				"Priority": 10
+				"Priority": 101
 			},
-			"Build a ~|carved oak table|~": {
-				"Category": ["InsidePOH Primary"],
-				"Chunks": ["Player-owned house"],
-				"Items": ["Oak plank*"],
-				"Level": 31,
-				"Primary": true,
-				"Priority": 1
-			},
-			"Build a ~|carved oak bench|~": {
-				"Category": ["InsidePOH Primary"],
-				"Chunks": ["Player-owned house"],
-				"Items": ["Oak plank*"],
-				"Level": 31,
-				"Primary": true,
-				"Priority": 2
+			"Hire the ~|Cook|~ as a servant": {
+				"Category": ["Construction Milestone"],
+				"Chunks": ["10548"],
+				"Level": 30,
+				"Primary": false,
+				"Priority": 1000
 			},
 			"Build a ~|hidey-hole (grapple)|~ at the Yanille south wall": {
 				"Chunks": ["10032-1"],
 				"Items": ["Plank*", "Bronze crossbow*", "Mithril grapple*", "Nails[+]*"],
 				"Level": 31,
 				"Primary": false,
-				"Priority": 3
-			},
-			"Build a ~|boxing ring|~": {
-				"Category": ["InsidePOH Primary"],
-				"Chunks": ["Player-owned house"],
-				"Items": ["Oak plank*", "Bolt of cloth*"],
-				"Level": 32,
-				"Primary": true,
-				"Priority": 1
-			},
-			"Build an ~|oak workbench|~": {
-				"Category": ["InsidePOH Primary"],
-				"Chunks": ["Player-owned house"],
-				"Items": ["Oak plank*"],
-				"Level": 32,
-				"Primary": true,
-				"Priority": 2
-			},
-			"Build an ~|oak kitchen table|~": {
-				"Category": ["InsidePOH Primary"],
-				"Chunks": ["Player-owned house"],
-				"Items": ["Oak plank*"],
-				"Level": 32,
-				"Primary": true,
-				"Priority": 3
-			},
-			"Build a ~|stone fireplace|~": {
-				"Category": ["InsidePOH Primary"],
-				"Chunks": ["Player-owned house"],
-				"Items": ["Limestone brick*"],
-				"Level": 33,
-				"Primary": true,
-				"Priority": 1
-			},
-			"Build an ~|oak larder|~": {
-				"Category": ["InsidePOH Primary"],
-				"Chunks": ["Player-owned house"],
-				"Items": ["Oak plank*"],
-				"Level": 33,
-				"Output": "OakLarder",
-				"Primary": true,
-				"Priority": 2
-			},
-			"Build a ~|cushioned basket|~": {
-				"Category": ["InsidePOH Primary"],
-				"Chunks": ["Player-owned house"],
-				"Items": ["Plank*", "Nails[+]*", "Wool*"],
-				"Level": 33,
-				"Primary": true,
-				"Priority": 3
-			},
-			"Build a ~|crafting table 3|~": {
-				"Category": ["InsidePOH Primary"],
-				"Chunks": ["Player-owned house"],
-				"Objects": ["Crafting table 2"],
-				"Items": ["Molten glass*"],
-				"Level": 34,
-				"Output Object": "Crafting table 3",
-				"Primary": true,
-				"Priority": 1
-			},
-			"Build a ~|steel range|~": {
-				"Category": ["InsidePOH Primary"],
-				"Chunks": ["Player-owned house"],
-				"Items": ["Steel bar*"],
-				"Level": 34,
-				"Primary": true,
-				"Priority": 2
-			},
-			"Build a ~|large oak bed|~": {
-				"Category": ["InsidePOH Primary"],
-				"Chunks": ["Player-owned house"],
-				"Items": ["Oak plank*", "Bolt of cloth*"],
-				"Level": 34,
-				"Primary": true,
-				"Priority": 3
-			},
-			"Build ~|oak shelves 1|~": {
-				"Category": ["InsidePOH Primary"],
-				"Chunks": ["Player-owned house"],
-				"Items": ["Oak plank*", "Soft clay*"],
-				"Level": 34,
-				"Output": "OakShelves1",
-				"Primary": true,
-				"Priority": 4
-			},
-			"Build a ~|glove rack|~": {
-				"Category": ["InsidePOH Primary"],
-				"Chunks": ["Player-owned house"],
-				"Items": ["Oak plank*"],
-				"Level": 34,
-				"Primary": true,
-				"Priority": 5
-			},
-			"Build an ~|oak prize chest|~": {
-				"Category": ["InsidePOH Primary"],
-				"Chunks": ["Player-owned house"],
-				"Items": ["Oak plank*"],
-				"Level": 34,
-				"Primary": true,
-				"Priority": 6
-			},
-			"Build a ~|whetstone|~": {
-				"Category": ["InsidePOH Primary"],
-				"Chunks": ["Player-owned house"],
-				"Items": ["Oak plank*", "Limestone brick*"],
-				"Output Object": "Whetstone",
-				"Level": 35,
-				"Primary": true,
-				"Priority": 1
-			},
-			"Build a ~|teak armchair|~": {
-				"Category": ["InsidePOH Primary"],
-				"Chunks": ["Player-owned house"],
-				"Items": ["Teak plank*"],
-				"Level": 35,
-				"Primary": true,
-				"Priority": 2
-			},
-			"Build a ~|tool store 3|~": {
-				"Category": ["InsidePOH Primary"],
-				"Chunks": ["Player-owned house"],
-				"Objects": ["Tool stole 2"],
-				"Items": ["Oak plank*"],
-				"Level": 35,
-				"Output": "ToolStore3",
-				"Output Object": "Tool store 3",
-				"Primary": true,
-				"Priority": 3
-			},
-			"Build a ~|King Arthur (portrait)|~": {
-				"Category": ["InsidePOH Primary"],
-				"Chunks": ["Player-owned house"],
-				"Items": ["Teak plank*", "Arthur portrait*"],
-				"Level": 35,
-				"Primary": true,
-				"Priority": 4
-			},
-			"Build an ~|Elena (portrait)|~": {
-				"Category": ["InsidePOH Primary"],
-				"Chunks": ["Player-owned house"],
-				"Items": ["Teak plank*", "Elena portrait*"],
-				"Level": 35,
-				"Primary": true,
-				"Priority": 5
-			},
-			"Build a ~|Giant Dwarf (portrait)|~": {
-				"Category": ["InsidePOH Primary"],
-				"Chunks": ["Player-owned house"],
-				"Items": ["Teak plank*", "Keldagrim portrait*"],
-				"Level": 35,
-				"Primary": true,
-				"Priority": 6
+				"Priority": 100
 			},
 			"Build the tier 2 ~|Workshop (Fort Forinthry)|~": {
 				"Tasks": {
@@ -11794,246 +10773,74 @@
 				"Items": ["Teak frame*", "Stone wall segment*"],
 				"Level": 35,
 				"Primary": true,
-				"Priority": 7
-			},
-			"Build a ~|Dragon bitter (barrel)|~": {
-				"Category": ["InsidePOH Primary"],
-				"Chunks": ["Player-owned house"],
-				"Items": ["Oak plank*", "Dragon bitter*", "Steel bar*"],
-				"Level": 36,
-				"Skills": {
-					"Cooking": 39
-				},
-				"Primary": true,
 				"Priority": 1
-			},
-			"Build a ~|teak wall decoration|~": {
-				"Category": ["InsidePOH Primary"],
-				"Chunks": ["Player-owned house"],
-				"Items": ["Teak plank*"],
-				"Level": 36,
-				"Primary": true,
-				"Priority": 2
-			},
-			"Build a ~|mounted sea bass|~": {
-				"Category": ["InsidePOH Primary"],
-				"Chunks": ["Player-owned house"],
-				"Items": ["Oak plank*", "Big bass (stuffed)*"],
-				"Level": 36,
-				"Skills": {
-					"Fishing": 1
-				},
-				"Primary": true,
-				"Priority": 3
-			},
-			"Build an ~|oak dresser|~": {
-				"Category": ["InsidePOH Primary"],
-				"Chunks": ["Player-owned house"],
-				"Items": ["Oak plank*", "Molten glass*"],
-				"Level": 37,
-				"Primary": true,
-				"Priority": 1
-			},
-			"Build an ~|elemental balance 1|~": {
-				"Category": ["InsidePOH Primary"],
-				"Chunks": ["Player-owned house"],
-				"Items": ["Air rune*", "Water rune*", "Earth rune*", "Fire rune*"],
-				"Level": 37,
-				"Primary": true,
-				"Priority": 2
-			},
-			"Build a ~|bellpull|~": {
-				"Category": ["InsidePOH Primary"],
-				"Chunks": ["Player-owned house"],
-				"Items": ["Teak plank*", "Bolt of cloth*"],
-				"Level": 37,
-				"Primary": true,
-				"Priority": 3
-			},
-			"Build an ~|oak pet feeder|~": {
-				"Category": ["InsidePOH Primary"],
-				"Chunks": ["Player-owned house"],
-				"Items": ["Oak plank*"],
-				"Level": 37,
-				"Primary": true,
-				"Priority": 4
-			},
-			"Build an ~|oak pet house|~": {
-				"Category": ["InsidePOH Primary"],
-				"Chunks": ["Player-owned house"],
-				"Items": ["Oak plank*"],
-				"Level": 37,
-				"Output Object": "Oak pet house*",
-				"Primary": true,
-				"Priority": 5
-			},
-			"Build a ~|garden habitat|~": {
-				"Category": ["InsidePOH Primary"],
-				"Chunks": ["Player-owned house"],
-				"Items": ["Bagged plant 1*", "Bagged plant 2*", "Bagged plant 3*"],
-				"Level": 37,
-				"Primary": true,
-				"Priority": 6
-			},
-			"Build a ~|teak table|~": {
-				"Category": ["InsidePOH Primary"],
-				"Chunks": ["Player-owned house"],
-				"Items": ["Teak plank*"],
-				"Level": 38,
-				"Primary": true,
-				"Priority": 1
-			},
-			"Build a ~|teak dining bench|~": {
-				"Category": ["InsidePOH Primary"],
-				"Chunks": ["Player-owned house"],
-				"Items": ["Teak plank*"],
-				"Level": 38,
-				"Primary": true,
-				"Priority": 2
-			},
-			"Build a ~|crawling hand (mounted)|~": {
-				"Category": ["InsidePOH Primary"],
-				"Chunks": ["Player-owned house"],
-				"Items": ["Teak plank*", "Crawling hand (stuffed)*"],
-				"Level": 38,
-				"Skills": {
-					"Slayer": 1
-				},
-				"Primary": true,
-				"Priority": 3
-			},
-			"Build a ~|cockatrice head (mounted)|~": {
-				"Category": ["InsidePOH Primary"],
-				"Chunks": ["Player-owned house"],
-				"Items": ["Teak plank*", "Cockatrice head (stuffed)*"],
-				"Level": 38,
-				"Skills": {
-					"Slayer": 1
-				},
-				"Primary": true,
-				"Priority": 4
-			},
-			"Build a ~|basilisk head (mounted)|~": {
-				"Category": ["InsidePOH Primary"],
-				"Chunks": ["Player-owned house"],
-				"Items": ["Teak plank*", "Basilisk head (stuffed)*"],
-				"Level": 38,
-				"Skills": {
-					"Slayer": 1
-				},
-				"Primary": true,
-				"Priority": 5
-			},
-			"Build a ~|small map|~": {
-				"Category": ["InsidePOH Primary"],
-				"Chunks": ["Player-owned house"],
-				"Items": ["Teak plank*", "Small map (item)*"],
-				"Level": 38,
-				"Primary": true,
-				"Priority": 6
 			},
 			"Build a ~|rope rack|~ in the Feldip eyrie": {
 				"Chunks": ["Jungle Eagles' Eyrie"],
 				"Items": ["Teak plank*", "Rope*"],
 				"Level": 38,
 				"Primary": false,
-				"Priority": 7
+				"Priority": 100
 			},
-			"Build an ~|oak wardrobe|~": {
-				"Category": ["InsidePOH Primary"],
-				"Chunks": ["Player-owned house"],
-				"Items": ["Oak plank*"],
-				"Level": 39,
+			"Make ~|maple planks|~ at the sawmill in Fort Forinthry": {
+				"Items": ["Maple logs*"],
+				"Objects": ["Sawmill"],
+				"Level": 40,
+				"Output": "Maple plank",
 				"Primary": true,
 				"Priority": 1
 			},
-			"Build ~|Jacky Jester (furniture)|~": {
-				"Category": ["InsidePOH Primary"],
-				"Chunks": ["Player-owned house"],
-				"Items": ["Teak plank*"],
-				"Level": 39,
+			"Build the tier 1 ~|Guardhouse|~": {
+				"Tasks": {
+					"~|Unwelcome Guests|~ 1": "Quest"
+				},
+				"Items": ["Maple frame*", "Stone wall segment*"],
+				"Level": 40,
 				"Primary": true,
 				"Priority": 2
-			},
-			"Build a ~|clay attack stone|~": {
-				"Category": ["InsidePOH Primary"],
-				"Chunks": ["Player-owned house"],
-				"Items": ["Soft clay*"],
-				"Level": 39,
-				"Primary": true,
-				"Priority": 3
 			},
 			"Gain access to ~|Construction Contracts|~": {
 				"NPCs": ["Estate agent"],
 				"Items": ["Plank*", "Nails[+]*"],
 				"Level": 40,
 				"Primary": true,
-				"Priority": 1
+				"Priority": 100
 			},
-			"Build a ~|mahogany bookcase|~": {
-				"Category": ["InsidePOH Primary"],
-				"Chunks": ["Player-owned house"],
-				"Items": ["Mahogany plank*"],
+			"Make ~|refined maple planks|~ at the sawmill in Fort Forinthry": {
+				"Items": ["Maple plank*"],
+				"Objects": ["Sawmill"],
 				"Level": 40,
+				"Output": "Refined maple plank",
 				"Primary": true,
-				"Priority": 2
+				"Priority": 101
 			},
-			"Build an ~|oak lectern|~": {
-				"Category": ["InsidePOH Primary"],
-				"Chunks": ["Player-owned house"],
-				"Items": ["Oak plank*"],
+			"Make a ~|maple frame|~ at the sawmill in Fort Forinthry": {
+				"Items": ["Refined maple plank*"],
+				"Objects": ["Sawmill"],
 				"Level": 40,
+				"Output": "Maple frame",
 				"Primary": true,
-				"Priority": 3
+				"Priority": 102
 			},
-			"Build ~|opulent curtains|~": {
-				"Category": ["InsidePOH Primary"],
-				"Chunks": ["Player-owned house"],
-				"Items": ["Teak plank*", "Bolt of cloth*"],
+			"Repair a ~|dilapidated canoe station|~ at Amberfell": {
+				"Items": ["Maple plank*", "Steel nails*"],
+				"Objects": ["Dilapidated canoe station#Amberfell"],
 				"Level": 40,
-				"Primary": true,
-				"Priority": 4
+				"Primary": false,
+				"Priority": 103
 			},
 			"Hire the ~|Butler|~ as a servant": {
 				"Category": ["Construction Milestone"],
 				"Chunks": ["10548"],
 				"Level": 40,
 				"Primary": false,
-				"Priority": 5
-			},
-			"Change the walls in your ~|house style|~ to tropical wood": {
-				"Category": ["Construction Milestone"],
-				"NPCs": ["Estate agent[+]"],
-				"Level": 40,
-				"Primary": false,
-				"Priority": 6
-			},
-			"Change the ground in your ~|house style|~ to mown grass": {
-				"Category": ["Construction Milestone"],
-				"NPCs": ["Estate agent[+]"],
-				"Level": 40,
-				"Primary": false,
-				"Priority": 7
-			},
-			"Change the dungeon in your ~|house style|~ to tropical cave": {
-				"Category": ["Construction Milestone"],
-				"NPCs": ["Estate agent[+]"],
-				"Level": 40,
-				"Primary": false,
-				"Priority": 8
-			},
-			"Move your ~|player-owned house|~ to Brimhaven": {
-				"Category": ["Construction Milestone"],
-				"Chunks": ["11057"],
-				"Level": 40,
-				"Primary": false,
-				"Priority": 9
+				"Priority": 1000
 			},
 			"Build the first tier of the player lodge in your ~|Anachronia base camp|~": {
 				"Chunks": ["15939-1"],
 				"Level": 40,
 				"Primary": false,
-				"Priority": 10
+				"Priority": 1001
 			},
 			"Build a medium pen in your ~|player-owned farm|~": {
 				"Chunks": ["10548"],
@@ -12047,7 +10854,7 @@
 				},
 				"Output Object": "Medium animal pen",
 				"Primary": false,
-				"Priority": 11
+				"Priority": 1002
 			},
 			"Build a second medium pen in your ~|player-owned farm|~": {
 				"Chunks": ["10548"],
@@ -12061,7 +10868,7 @@
 				},
 				"Output Object": "Medium animal pen",
 				"Primary": false,
-				"Priority": 12
+				"Priority": 1003
 			},
 			"Fully repair the ~|Statue of Hebe|~": {
 				"Tasks": {
@@ -12075,7 +10882,7 @@
 				},
 				"Output": "Archaeological materials (Hebe)",
 				"Primary": false,
-				"Priority": 13
+				"Priority": 1004
 			},
 			"Fully repair the ~|Statue of Mesomedes|~": {
 				"Tasks": {
@@ -12089,7 +10896,7 @@
 				},
 				"Output": "Hand of glory (Everlight)",
 				"Primary": false,
-				"Priority": 14
+				"Priority": 1005
 			},
 			"Fully repair the ~|Statue of Padosan|~": {
 				"Tasks": {
@@ -12103,7 +10910,7 @@
 				},
 				"Output": "Gold Dominion medal",
 				"Primary": false,
-				"Priority": 15
+				"Priority": 1006
 			},
 			"Fully repair the ~|Statue of Tromple|~": {
 				"Tasks": {
@@ -12117,260 +10924,21 @@
 				},
 				"Output": "'Tromple's Troubling Tales'",
 				"Primary": false,
-				"Priority": 16
-			},
-			"Make ~|maple planks|~ at the sawmill in Fort Forinthry": {
-				"Items": ["Maple logs*"],
-				"Objects": ["Sawmill"],
-				"Level": 40,
-				"Output": "Maple plank",
-				"Primary": true,
-				"Priority": 17
-			},
-			"Make ~|refined maple planks|~ at the sawmill in Fort Forinthry": {
-				"Items": ["Maple plank*"],
-				"Objects": ["Sawmill"],
-				"Level": 40,
-				"Output": "Refined maple plank",
-				"Primary": true,
-				"Priority": 18
-			},
-			"Make a ~|maple frame|~ at the sawmill in Fort Forinthry": {
-				"Items": ["Refined maple plank*"],
-				"Objects": ["Sawmill"],
-				"Level": 40,
-				"Output": "Maple frame",
-				"Primary": true,
-				"Priority": 19
-			},
-			"Build the tier 1 ~|Guardhouse|~": {
-				"Tasks": {
-					"~|Unwelcome Guests|~ 1": "Quest"
-				},
-				"Items": ["Maple frame*", "Stone wall segment*"],
-				"Level": 40,
-				"Primary": true,
-				"Priority": 20
-			},
-			"Repair a ~|dilapidated canoe station|~ at Amberfell": {
-				"Items": ["Maple plank*", "Steel nails*"],
-				"Objects": ["Dilapidated canoe station#Amberfell"],
-				"Level": 40,
-				"Primary": false,
-				"Priority": 21
-			},
-			"Build a ~|shield easel|~": {
-				"Category": ["InsidePOH Primary"],
-				"Chunks": ["Player-owned house"],
-				"Items": ["Oak plank*"],
-				"Level": 41,
-				"Output Object": "Shield easel",
-				"Primary": true,
-				"Priority": 1
-			},
-			"Build a ~|globe|~": {
-				"Category": ["InsidePOH Primary"],
-				"Chunks": ["Player-owned house"],
-				"Items": ["Oak plank*"],
-				"Level": 41,
-				"Primary": true,
-				"Priority": 2
-			},
-			"Build a ~|small obelisk (player-owned house)|~": {
-				"Category": ["InsidePOH Primary"],
-				"Chunks": ["Player-owned house"],
-				"Items": ["Marble block*", "Spirit shards*", "Gold charm*", "Green charm*", "Crimson charm*", "Blue charm*"],
-				"Level": 41,
-				"Primary": true,
-				"Priority": 3
-			},
-			"Build a ~|rune case 1|~": {
-				"Category": ["InsidePOH Primary"],
-				"Chunks": ["Player-owned house"],
-				"Items": ["Teak plank*", "Molten glass*", "Air rune*", "Water rune*", "Earth rune*", "Fire rune*"],
-				"Level": 41,
-				"Primary": true,
-				"Priority": 4
-			},
-			"Build a ~|rune case 2|~": {
-				"Category": ["InsidePOH Primary"],
-				"Chunks": ["Player-owned house"],
-				"Items": ["Teak plank*", "Molten glass*", "Body rune*", "Chaos rune*", "Cosmic rune*", "Nature rune*"],
-				"Level": 41,
-				"Primary": true,
-				"Priority": 5
-			},
-			"Build a ~|fencing ring|~": {
-				"Category": ["InsidePOH Primary"],
-				"Chunks": ["Player-owned house"],
-				"Items": ["Oak plank*", "Bolt of cloth*"],
-				"Level": 41,
-				"Primary": true,
-				"Priority": 5
-			},
-			"Build a ~|fancy range|~": {
-				"Category": ["InsidePOH Primary"],
-				"Chunks": ["Player-owned house"],
-				"Items": ["Steel bar*"],
-				"Level": 42,
-				"Primary": true,
-				"Priority": 1
-			},
-			"Build a ~|crafting table 4|~": {
-				"Category": ["InsidePOH Primary"],
-				"Chunks": ["Player-owned house"],
-				"Objects": ["Crafting table 3"],
-				"Items": ["Molten glass*"],
-				"Level": 42,
-				"Output Object": "Crafting table 4",
-				"Primary": true,
-				"Priority": 2
-			},
-			"Build an ~|oak magic wardrobe|~": {
-				"Category": ["InsidePOH Primary"],
-				"Chunks": ["Player-owned house"],
-				"Items": ["Oak plank*"],
-				"Level": 42,
-				"Primary": true,
-				"Priority": 3
-			},
-			"Build a ~|Silverlight (mounted)|~": {
-				"Category": ["InsidePOH Primary"],
-				"Chunks": ["Player-owned house"],
-				"Items": ["Teak plank*", "Silverlight*"],
-				"Level": 42,
-				"Primary": true,
-				"Priority": 4
-			},
-			"Build a ~|Darklight (mounted)|~": {
-				"Category": ["InsidePOH Primary"],
-				"Chunks": ["Player-owned house"],
-				"Items": ["Teak plank*", "Darklight*"],
-				"Level": 42,
-				"Primary": true,
-				"Priority": 5
-			},
-			"Build an ~|Excalibur (mounted)|~": {
-				"Category": ["InsidePOH Primary"],
-				"Chunks": ["Player-owned house"],
-				"Items": ["Teak plank*", "Excalibur*"],
-				"Level": 42,
-				"Primary": true,
-				"Priority": 6
-			},
-			"Build a ~|crystal ball|~": {
-				"Category": ["InsidePOH Primary"],
-				"Chunks": ["Player-owned house"],
-				"Items": ["Teak plank*", "Unpowered orb*"],
-				"Level": 42,
-				"Primary": true,
-				"Priority": 7
+				"Priority": 1007
 			},
 			"Build a medium ~|hidey-hole|~": {
 				"Chunks": ["MediumHideyHoles[+]"],
 				"Items": ["Oak plank*", "Nails[+]*"],
 				"Level": 42,
 				"Primary": false,
-				"Priority": 8
+				"Priority": 100
 			},
 			"Repair the ladder to the ~|Beacon Network|~ beacon near Death Plateau": {
 				"Chunks": ["11832-1"],
 				"Items": ["Plank*", "Nails[+]"],
 				"Level": 42,
 				"Primary": false,
-				"Priority": 9
-			},
-			"Build a ~|teak larder|~": {
-				"Category": ["InsidePOH Primary"],
-				"Chunks": ["Player-owned house"],
-				"Items": ["Teak plank*", "Bolt of cloth*"],
-				"Level": 43,
-				"Output": "TeakLarder",
-				"Primary": true,
-				"Priority": 1
-			},
-			"Build an ~|alchemical chart|~": {
-				"Category": ["InsidePOH Primary"],
-				"Chunks": ["Player-owned house"],
-				"Items": ["Bolt of cloth*"],
-				"Level": 43,
-				"Primary": true,
-				"Priority": 2
-			},
-			"Build a ~|carved teak bench|~": {
-				"Category": ["InsidePOH Primary"],
-				"Chunks": ["Player-owned house"],
-				"Items": ["Teak plank*"],
-				"Level": 44,
-				"Primary": true,
-				"Priority": 1
-			},
-			"Build a ~|tool store 4|~": {
-				"Category": ["InsidePOH Primary"],
-				"Chunks": ["Player-owned house"],
-				"Objects": ["Tool stole 3"],
-				"Items": ["Oak plank*"],
-				"Level": 44,
-				"Output": "ToolStore4",
-				"Output Object": "Tool store 4",
-				"Primary": true,
-				"Priority": 2
-			},
-			"Build an ~|oak fancy dress box|~": {
-				"Category": ["InsidePOH Primary"],
-				"Chunks": ["Player-owned house"],
-				"Items": ["Oak plank*"],
-				"Level": 44,
-				"Primary": true,
-				"Priority": 3
-			},
-			"Build a ~|wooden telescope|~": {
-				"Category": ["InsidePOH Primary"],
-				"Chunks": ["Player-owned house"],
-				"Items": ["Oak plank*", "Molten glass*"],
-				"Level": 44,
-				"Primary": true,
-				"Priority": 4
-			},
-			"Build a ~|teak prize chest|~": {
-				"Category": ["InsidePOH Primary"],
-				"Chunks": ["Player-owned house"],
-				"Items": ["Teak plank*", "Gold leaf*"],
-				"Level": 44,
-				"Primary": true,
-				"Priority": 5
-			},
-			"Build a ~|weapons rack|~": {
-				"Category": ["InsidePOH Primary"],
-				"Chunks": ["Player-owned house"],
-				"Items": ["Teak plank*"],
-				"Level": 44,
-				"Primary": true,
-				"Priority": 6
-			},
-			"Build a ~|Lumbridge (painting)|~": {
-				"Category": ["InsidePOH Primary"],
-				"Chunks": ["Player-owned house"],
-				"Items": ["Teak plank*", "Lumbridge painting*"],
-				"Level": 44,
-				"Primary": true,
-				"Priority": 7
-			},
-			"Build a ~|the desert|~ painting": {
-				"Category": ["InsidePOH Primary"],
-				"Chunks": ["Player-owned house"],
-				"Items": ["Teak plank*", "Desert painting*"],
-				"Level": 44,
-				"Primary": true,
-				"Priority": 8
-			},
-			"Build a ~|Morytania (painting)|~": {
-				"Category": ["InsidePOH Primary"],
-				"Chunks": ["Player-owned house"],
-				"Items": ["Teak plank*", "Morytania painting*"],
-				"Level": 44,
-				"Primary": true,
-				"Priority": 9
+				"Priority": 102
 			},
 			"Upgrade the ~|spirit pig machine|~ to (tier 2)": {
 				"Items": ["Oak plank", "Steel bar", "Nails[+]"],
@@ -12385,59 +10953,16 @@
 					"Summoning": 44,
 					"Crafting": 44
 				},
-				"Priority": 10
+				"Priority": 100
 			},
-			"Build a ~|carved teak table|~": {
-				"Category": ["InsidePOH Primary"],
-				"Chunks": ["Player-owned house"],
-				"Items": ["Teak plank*", "Bolt of cloth*"],
+			"Build the tier 2 ~|Town Hall (Fort Forinthry)|~": {
+				"Tasks": {
+					"Build the tier 1 ~|Town Hall (Fort Forinthry)|~": "Construction"
+				},
+				"Items": ["Maple frame*", "Stone wall segment*"],
 				"Level": 45,
 				"Primary": true,
 				"Priority": 1
-			},
-			"Build a ~|large teak bed|~": {
-				"Category": ["InsidePOH Primary"],
-				"Chunks": ["Player-owned house"],
-				"Items": ["Teak plank*", "Bolt of cloth*"],
-				"Level": 45,
-				"Primary": true,
-				"Priority": 2
-			},
-			"Build ~|oak shelves 2|~": {
-				"Category": ["InsidePOH Primary"],
-				"Chunks": ["Player-owned house"],
-				"Items": ["Teak plank*", "Soft clay*"],
-				"Level": 45,
-				"Output": "OakShelves2",
-				"Primary": true,
-				"Priority": 3
-			},
-			"Build an ~|oak altar|~": {
-				"Category": ["InsidePOH Primary"],
-				"Chunks": ["Player-owned house"],
-				"Items": ["Oak plank*"],
-				"Level": 45,
-				"Primary": true,
-				"Priority": 4
-			},
-			"Build a ~|steel torch|~": {
-				"Category": ["InsidePOH Primary"],
-				"Chunks": ["Player-owned house"],
-				"Items": ["Steel bar*"],
-				"Level": 45,
-				"Primary": true,
-				"Priority": 5
-			},
-			"Plant a ~|maple tree|~ in your player-owned house": {
-				"Category": ["InsidePOH Primary"],
-				"Chunks": ["Player-owned house"],
-				"Items": ["Bagged maple tree*", "WateringCan[+]"],
-				"Level": 45,
-				"Skills": {
-					"Farming": 1
-				},
-				"Primary": true,
-				"Priority": 6
 			},
 			"Build a small dinosaur pen in your ~|Ranch out of Time|~": {
 				"Chunks": ["14916"],
@@ -12452,285 +10977,82 @@
 				},
 				"Output Object": "Small dinosaur pen",
 				"Primary": false,
-				"Priority": 7
+				"Priority": 100
 			},
 			"Build a ~|hidey-hole (grapple)|~ at the Catherby cliff": {
 				"Chunks": ["11317-1"],
 				"Items": ["Oak plank*", "Iron crossbow*", "Mithril grapple*"],
 				"Level": 45,
 				"Primary": false,
-				"Priority": 8
-			},
-			"Build the tier 2 ~|Town Hall (Fort Forinthry)|~": {
-				"Tasks": {
-					"Build the tier 1 ~|Town Hall (Fort Forinthry)|~": "Construction"
-				},
-				"Items": ["Maple frame*", "Stone wall segment*"],
-				"Level": 45,
-				"Primary": true,
-				"Priority": 9
-			},
-			"Build a ~|steel framed bench|~": {
-				"Category": ["InsidePOH Primary"],
-				"Chunks": ["Player-owned house"],
-				"Items": ["Steel bar*", "Oak plank*"],
-				"Level": 46,
-				"Output Object": "Steel framed bench",
-				"Primary": true,
-				"Priority": 1
-			},
-			"Build a ~|teak dresser|~": {
-				"Category": ["InsidePOH Primary"],
-				"Chunks": ["Player-owned house"],
-				"Items": ["Molten glass*", "Teak plank*"],
-				"Level": 46,
-				"Primary": true,
-				"Priority": 2
-			},
-			"Build an ~|oak armour case|~": {
-				"Category": ["InsidePOH Primary"],
-				"Chunks": ["Player-owned house"],
-				"Items": ["Oak plank*"],
-				"Level": 46,
-				"Primary": true,
-				"Priority": 3
-			},
-			"Build a ~|sink|~": {
-				"Category": ["InsidePOH Primary"],
-				"Chunks": ["Player-owned house"],
-				"Items": ["Steel bar*"],
-				"Level": 47,
-				"Primary": true,
-				"Priority": 1
-			},
-			"Build an ~|eagle lectern|~": {
-				"Category": ["InsidePOH Primary"],
-				"Chunks": ["Player-owned house"],
-				"Items": ["Oak plank*"],
-				"Level": 47,
-				"Primary": true,
-				"Priority": 2
-			},
-			"Build a ~|demon lectern|~": {
-				"Category": ["InsidePOH Primary"],
-				"Chunks": ["Player-owned house"],
-				"Items": ["Oak plank*"],
-				"Level": 47,
-				"Primary": true,
-				"Priority": 3
-			},
-			"Build a ~|jungle habitat|~": {
-				"Category": ["InsidePOH Primary"],
-				"Chunks": ["Player-owned house"],
-				"Items": ["Bucket of water*", "Bagged plant 3*", "Bagged willow tree*"],
-				"Level": 47,
-				"Primary": true,
-				"Priority": 4
-			},
-			"Build an ~|Amulet of Glory (mounted)|~": {
-				"Category": ["InsidePOH Primary"],
-				"Chunks": ["Player-owned house"],
-				"Items": ["Teak plank*", "Amulet of glory*"],
-				"Level": 47,
-				"Primary": true,
-				"Priority": 5
-			},
-			"Build an ~|Anti-Dragon Breath Shield (mounted)|~": {
-				"Category": ["InsidePOH Primary"],
-				"Chunks": ["Player-owned house"],
-				"Items": ["Teak plank*", "Anti-dragon shield*"],
-				"Level": 47,
-				"Primary": true,
-				"Priority": 6
-			},
-			"Build a ~|Cape of Legends (mounted)|~": {
-				"Category": ["InsidePOH Primary"],
-				"Chunks": ["Player-owned house"],
-				"Items": ["Teak plank*", "Cape of legends*"],
-				"Level": 47,
-				"Primary": true,
-				"Priority": 7
+				"Priority": 101
 			},
 			"Build a ~|hidey-hole (grapple)|~ at the River Lum": {
 				"Chunks": ["12849"],
 				"Items": ["Oak plank*", "Steel crossbow*", "Mithril grapple*"],
 				"Level": 47,
 				"Primary": false,
-				"Priority": 8
-			},
-			"Build a ~|Chef's delight (barrel)|~": {
-				"Category": ["InsidePOH Primary"],
-				"Chunks": ["Player-owned house"],
-				"Items": ["Oak plank*", "Chef's delight*", "Steel bar*"],
-				"Level": 48,
-				"Skills": {
-					"Cooking": 54
-				},
-				"Primary": true,
-				"Priority": 1
-			},
-			"Build an ~|oak treasure chest|~": {
-				"Category": ["InsidePOH Primary"],
-				"Chunks": ["Player-owned house"],
-				"Items": ["Oak plank*"],
-				"Level": 48,
-				"Primary": true,
-				"Priority": 2
-			},
-			"Build a ~|teak staircase|~": {
-				"Category": ["InsidePOH Primary"],
-				"Chunks": ["Player-owned house"],
-				"Items": ["Teak plank*", "Steel bar*"],
-				"Level": 48,
-				"Primary": true,
-				"Priority": 3
-			},
-			"Build a ~|Saradomin symbol|~": {
-				"Category": ["InsidePOH Primary"],
-				"Chunks": ["Player-owned house"],
-				"Items": ["Oak plank*"],
-				"Level": 48,
-				"Primary": true,
-				"Priority": 4
-			},
-			"Build a ~|Zamorak symbol|~": {
-				"Category": ["InsidePOH Primary"],
-				"Chunks": ["Player-owned house"],
-				"Items": ["Oak plank*"],
-				"Level": 48,
-				"Primary": true,
-				"Priority": 5
-			},
-			"Build a ~|Guthix symbol|~": {
-				"Category": ["InsidePOH Primary"],
-				"Chunks": ["Player-owned house"],
-				"Items": ["Oak plank*"],
-				"Level": 48,
-				"Primary": true,
-				"Priority": 6
-			},
-			"Build a ~|Treasure Hunt Fairy House|~": {
-				"Category": ["InsidePOH Primary"],
-				"Chunks": ["Player-owned house"],
-				"Items": ["Teak plank*", "Steel bar*"],
-				"Level": 49,
-				"Primary": true,
-				"Priority": 1
-			},
-			"Build ~|wooden torches|~": {
-				"Category": ["InsidePOH Primary"],
-				"Chunks": ["Player-owned house"],
-				"Items": ["Plank*", "Nails[+]*"],
-				"Level": 49,
-				"Primary": true,
-				"Priority": 2
-			},
-			"Build ~|windchimes|~": {
-				"Category": ["InsidePOH Primary"],
-				"Chunks": ["Player-owned house"],
-				"Items": ["Oak plank*", "Nails[+]*", "Steel bar*"],
-				"Level": 49,
-				"Primary": true,
-				"Priority": 3
-			},
-			"Build a ~|small statue|~": {
-				"Category": ["InsidePOH Primary"],
-				"Chunks": ["Player-owned house"],
-				"Items": ["Limestone brick*"],
-				"Level": 49,
-				"Primary": true,
-				"Priority": 4
-			},
-			"Build a ~|shuttered window|~": {
-				"Category": ["InsidePOH Primary"],
-				"Chunks": ["Player-owned house"],
-				"Items": ["Plank*", "Nails[+]*"],
-				"Level": 49,
-				"Primary": true,
-				"Priority": 5
+				"Priority": 100
 			},
 			"Build a ~|hidey-hole (grapple)|~ at the water obelisk island near catherby": {
 				"Chunks": ["11317-3"],
 				"Items": ["Teak plank*", "Mithril crossbow*", "Mithril grapple*"],
 				"Level": 49,
 				"Primary": false,
-				"Priority": 6
+				"Priority": 100
 			},
-			"Build a ~|mahogany armchair|~": {
-				"Category": ["InsidePOH Primary"],
-				"Chunks": ["Player-owned house"],
-				"Items": ["Mahogany plank*"],
+			"Make ~|acadia planks|~ at the sawmill in Fort Forinthry": {
+				"Items": ["Acadia logs*"],
+				"Objects": ["Sawmill"],
 				"Level": 50,
+				"Output": "Acadia plank",
 				"Primary": true,
 				"Priority": 1
 			},
-			"Build an ~|oak toy box|~": {
-				"Category": ["InsidePOH Primary"],
-				"Chunks": ["Player-owned house"],
-				"Items": ["Oak plank*"],
+			"Build the tier 2 ~|Kitchen (Fort Forinthry)|~": {
+				"Tasks": {
+					"Build the tier 1 ~|Kitchen (Fort Forinthry)|~": "Construction"
+				},
+				"Items": ["Acadia frame*", "Stone wall segment*"],
 				"Level": 50,
 				"Primary": true,
 				"Priority": 2
 			},
-			"Build an ~|ornamental glove|~": {
-				"Category": ["InsidePOH Primary"],
-				"Chunks": ["Player-owned house"],
-				"Items": ["Teak plank*"],
+			"Build the tier 1 ~|Grove Cabin|~": {
+				"Tasks": {
+					"~|Unwelcome Guests|~ Complete the quest": "Quest"
+				},
+				"Items": ["Wooden frame*", "Stone wall segment*"],
 				"Level": 50,
+				"Output Object": "Tier1Grove[+]",
 				"Primary": true,
 				"Priority": 3
 			},
-			"Build a ~|teak altar|~": {
-				"Category": ["InsidePOH Primary"],
-				"Chunks": ["Player-owned house"],
-				"Items": ["Teak plank*"],
+			"Build the tier 2 ~|Grove Cabin|~": {
+				"Tasks": {
+					"Build the tier 1 ~|Grove Cabin|~": "Construction"
+				},
+				"Items": ["Teak frame*", "Stone wall segment*"],
 				"Level": 50,
+				"Output Object": "Tier2Grove[+]",
 				"Primary": true,
 				"Priority": 4
 			},
-			"Build a ~|teak portal|~": {
-				"Category": ["InsidePOH Primary"],
-				"Chunks": ["Player-owned house"],
-				"Items": ["Teak plank*"],
+			"Build the tier 1 ~|Ranger's Workroom|~": {
+				"Tasks": {
+					"~|Dead and Buried|~ 1": "Quest"
+				},
+				"Items": ["Acadia frame*", "Stone wall segment*"],
 				"Level": 50,
+				"Output Object": "RangersWorkroom",
 				"Primary": true,
 				"Priority": 5
-			},
-			"Build a ~|teleport focus|~": {
-				"Category": ["InsidePOH Primary"],
-				"Chunks": ["Player-owned house"],
-				"Items": ["Limestone brick*"],
-				"Level": 50,
-				"Primary": true,
-				"Priority": 6
 			},
 			"Hire the ~|Demon butler|~ as a servant": {
 				"Category": ["Construction Milestone"],
 				"Chunks": ["10548"],
 				"Level": 50,
 				"Primary": false,
-				"Priority": 7
-			},
-			"Change the walls in your ~|house style|~ to fancy stone": {
-				"Category": ["Construction Milestone"],
-				"NPCs": ["Estate agent[+]"],
-				"Level": 50,
-				"Primary": false,
-				"Priority": 8
-			},
-			"Change the dungeon in your ~|house style|~ to stone blocks": {
-				"Category": ["Construction Milestone"],
-				"NPCs": ["Estate agent[+]"],
-				"Level": 50,
-				"Primary": false,
-				"Priority": 9
-			},
-			"Move your ~|player-owned house|~ to Yanille": {
-				"Category": ["Construction Milestone"],
-				"Chunks": ["10032-1"],
-				"Level": 50,
-				"Primary": false,
-				"Priority": 10
+				"Priority": 100
 			},
 			"Gain access to oak planks in ~|Construction Contracts|~": {
 				"Category": ["Construction Milestone"],
@@ -12738,14 +11060,36 @@
 				"Items": ["Oak plank*", "Nails[+]*"],
 				"Level": 50,
 				"Primary": true,
-				"Priority": 11
+				"Priority": 101
 			},
-			"Move your ~|player-owned house|~ to Menaphos": {
-				"Category": ["Construction Milestone"],
-				"Chunks": ["12329-3"],
+			"Make ~|refined acadia planks|~ at the sawmill in Fort Forinthry": {
+				"Items": ["Acadia plank*"],
+				"Objects": ["Sawmill"],
 				"Level": 50,
+				"Output": "Refined acadia plank",
+				"Primary": true,
+				"Priority": 102
+			},
+			"Make an ~|acadia frame|~ at the sawmill in Fort Forinthry": {
+				"Items": ["Refined acadia plank*"],
+				"Objects": ["Sawmill"],
+				"Level": 50,
+				"Output": "Acadia frame",
+				"Primary": true,
+				"Priority": 103
+			},
+			"Build the swordfish pool at the ~|Wendlewick fish farm|~": {
+				"Items": ["Big fishing net*", "Acadia plank*", "Steel nails*"],
+				"Level": 50,
+				"Objects": ["Broken swordfish pool"],
+				"Tasks": {
+					"~|Maya Use Your Fish Farm?|~ Complete the lore activity": "Quest"
+				},
+				"Skills": {
+					"Fishing": 55
+				},
 				"Primary": false,
-				"Priority": 12
+				"Priority": 104
 			},
 			"Unlock the ~|Livid farm|~ spells": {
 				"Level": 50,
@@ -12760,7 +11104,7 @@
 				"Tasks": {
 					"~|Lunar Diplomacy|~ Complete the quest": "Quest"
 				},
-				"Priority": 13
+				"Priority": 1000
 			},
 			"Enter a tier one ~|Shifting Tombs|~": {
 				"Chunks": ["Shifting Tombs"],
@@ -12771,212 +11115,14 @@
 					"Dungeoneering": 50
 				},
 				"Primary": true,
-				"Priority": 14
-			},
-			"Make ~|acadia planks|~ at the sawmill in Fort Forinthry": {
-				"Items": ["Acadia logs*"],
-				"Objects": ["Sawmill"],
-				"Level": 50,
-				"Output": "Acadia plank",
-				"Primary": true,
-				"Priority": 15
-			},
-			"Make ~|refined acadia planks|~ at the sawmill in Fort Forinthry": {
-				"Items": ["Acadia plank*"],
-				"Objects": ["Sawmill"],
-				"Level": 50,
-				"Output": "Refined acadia plank",
-				"Primary": true,
-				"Priority": 16
-			},
-			"Make an ~|acadia frame|~ at the sawmill in Fort Forinthry": {
-				"Items": ["Refined acadia plank*"],
-				"Objects": ["Sawmill"],
-				"Level": 50,
-				"Output": "Acadia frame",
-				"Primary": true,
-				"Priority": 17
-			},
-			"Build the tier 2 ~|Kitchen (Fort Forinthry)|~": {
-				"Tasks": {
-					"Build the tier 1 ~|Kitchen (Fort Forinthry)|~": "Construction"
-				},
-				"Items": ["Acadia frame*", "Stone wall segment*"],
-				"Level": 50,
-				"Primary": true,
-				"Priority": 18
-			},
-			"Build the tier 1 ~|Grove Cabin|~": {
-				"Tasks": {
-					"~|Unwelcome Guests|~ Complete the quest": "Quest"
-				},
-				"Items": ["Wooden frame*", "Stone wall segment*"],
-				"Level": 50,
-				"Output Object": "Tier1Grove[+]",
-				"Primary": true,
-				"Priority": 19
-			},
-			"Build the tier 2 ~|Grove Cabin|~": {
-				"Tasks": {
-					"Build the tier 1 ~|Grove Cabin|~": "Construction"
-				},
-				"Items": ["Teak frame*", "Stone wall segment*"],
-				"Level": 50,
-				"Output Object": "Tier2Grove[+]",
-				"Primary": true,
-				"Priority": 20
-			},
-			"Build the tier 1 ~|Ranger's Workroom|~": {
-				"Tasks": {
-					"~|Dead and Buried|~ 1": "Quest"
-				},
-				"Items": ["Acadia frame*", "Stone wall segment*"],
-				"Level": 50,
-				"Output Object": "RangersWorkroom",
-				"Primary": true,
-				"Priority": 21
-			},
-			"Build the swordfish pool at the ~|Wendlewick fish farm|~": {
-				"Items": ["Big fishing net*", "Acadia plank*", "Steel nails*"],
-				"Level": 50,
-				"Objects": ["Broken swordfish pool"],
-				"Tasks": {
-					"~|Maya Use Your Fish Farm?|~ Complete the lore activity": "Quest"
-				},
-				"Skills": {
-					"Fishing": 55
-				},
-				"Primary": false,
-				"Priority": 22
-			},
-			"Build ~|teak drawers|~": {
-				"Category": ["InsidePOH Primary"],
-				"Chunks": ["Player-owned house"],
-				"Items": ["Teak plank*"],
-				"Level": 51,
-				"Primary": true,
-				"Priority": 1
-			},
-			"Build a ~|carved oak magic wardrobe|~": {
-				"Category": ["InsidePOH Primary"],
-				"Chunks": ["Player-owned house"],
-				"Items": ["Oak plank*"],
-				"Level": 51,
-				"Primary": true,
-				"Priority": 2
-			},
-			"Build a ~|combat ring|~": {
-				"Category": ["InsidePOH Primary"],
-				"Chunks": ["Player-owned house"],
-				"Items": ["Teak plank*", "Bolt of cloth*"],
-				"Level": 51,
-				"Primary": true,
-				"Priority": 3
-			},
-			"Build a ~|mahogany table|~": {
-				"Category": ["InsidePOH Primary"],
-				"Chunks": ["Player-owned house"],
-				"Items": ["Mahogany plank*"],
-				"Level": 52,
-				"Primary": true,
-				"Priority": 1
-			},
-			"Build a ~|mahogany bench|~": {
-				"Category": ["InsidePOH Primary"],
-				"Chunks": ["Player-owned house"],
-				"Items": ["Mahogany plank*"],
-				"Level": 52,
-				"Primary": true,
-				"Priority": 2
-			},
-			"Build a ~|teak kitchen table|~": {
-				"Category": ["InsidePOH Primary"],
-				"Chunks": ["Player-owned house"],
-				"Items": ["Teak plank*"],
-				"Level": 52,
-				"Primary": true,
-				"Priority": 3
-			},
-			"Build a ~|teak pet feeder|~": {
-				"Category": ["InsidePOH Primary"],
-				"Chunks": ["Player-owned house"],
-				"Items": ["Teak plank*"],
-				"Level": 52,
-				"Primary": true,
-				"Priority": 4
-			},
-			"Build a ~|teak pet house|~": {
-				"Category": ["InsidePOH Primary"],
-				"Chunks": ["Player-owned house"],
-				"Items": ["Teak plank*"],
-				"Objects": ["Oak pet house"],
-				"Level": 52,
-				"Output Object": "Teak pet house",
-				"Primary": true,
-				"Priority": 5
+				"Priority": 1001
 			},
 			"Build a ~|hidey-hole (grapple)|~ at Musa Point": {
 				"Chunks": ["11312", "11313"],
 				"Items": ["Mahogany plank*", "Mithril crossbow*", "Mithril grapple*"],
 				"Level": 52,
 				"Primary": false,
-				"Priority": 6
-			},
-			"Build a ~|4-poster|~": {
-				"Category": ["InsidePOH Primary"],
-				"Chunks": ["Player-owned house"],
-				"Items": ["Mahogany plank*", "Bolt of cloth*"],
-				"Level": 53,
-				"Primary": true,
-				"Priority": 1
-			},
-			"Build ~|steel candlesticks|~": {
-				"Category": ["InsidePOH Primary"],
-				"Chunks": ["Player-owned house"],
-				"Items": ["Steel bar*", "White candle*"],
-				"Level": 53,
-				"Primary": true,
-				"Priority": 2
-			},
-			"Build an ~|oak cape rack|~": {
-				"Category": ["InsidePOH Primary"],
-				"Chunks": ["Player-owned house"],
-				"Items": ["Oak plank*"],
-				"Level": 54,
-				"Primary": true,
-				"Priority": 1
-			},
-			"Build an ~|upgraded weapons rack|~": {
-				"Category": ["InsidePOH Primary"],
-				"Chunks": ["Player-owned house"],
-				"Items": ["Teak plank*", "Steel bar*"],
-				"Level": 54,
-				"Primary": true,
-				"Priority": 2
-			},
-			"Build a ~|dartboard|~": {
-				"Category": ["InsidePOH Primary"],
-				"Chunks": ["Player-owned house"],
-				"Items": ["Teak plank*", "Steel bar*"],
-				"Level": 54,
-				"Primary": true,
-				"Priority": 3
-			},
-			"Build an ~|elemental sphere|~": {
-				"Category": ["InsidePOH Primary"],
-				"Chunks": ["Player-owned house"],
-				"Items": ["Teak plank*", "Unpowered orb*", "Gold leaf*"],
-				"Level": 54,
-				"Primary": true,
-				"Priority": 4
-			},
-			"Build a ~|mahogany prize chest|~": {
-				"Category": ["InsidePOH Primary"],
-				"Chunks": ["Player-owned house"],
-				"Items": ["Mahogany plank*", "Gold leaf*"],
-				"Level": 54,
-				"Primary": true,
-				"Priority": 5
+				"Priority": 100
 			},
 			"Build the tier 1 ~|Botanist's Workbench|~": {
 				"Tasks": {
@@ -12985,58 +11131,7 @@
 				"Items": ["Acadia frame*", "Stone wall segment*"],
 				"Level": 54,
 				"Primary": true,
-				"Priority": 6
-			},
-			"Build an ~|armour stand|~": {
-				"Category": ["InsidePOH Primary"],
-				"Chunks": ["Player-owned house"],
-				"Items": ["Oak plank*", "Limestone brick*"],
-				"Output Object": "Armour stand",
-				"Level": 55,
-				"Primary": true,
 				"Priority": 1
-			},
-			"Build a ~|tool store 5|~": {
-				"Category": ["InsidePOH Primary"],
-				"Chunks": ["Player-owned house"],
-				"Objects": ["Tool stole 4"],
-				"Items": ["Oak plank*"],
-				"Level": 55,
-				"Output": "ToolStore5",
-				"Output Object": "Tool store 5",
-				"Primary": true,
-				"Priority": 2
-			},
-			"Build a ~|teak clock|~": {
-				"Category": ["InsidePOH Primary"],
-				"Chunks": ["Player-owned house"],
-				"Items": ["Teak plank*", "Clockwork*"],
-				"Level": 55,
-				"Primary": true,
-				"Priority": 3
-			},
-			"Build a ~|Miscellanians|~ painting": {
-				"Category": ["InsidePOH Primary"],
-				"Chunks": ["Player-owned house"],
-				"Items": ["Mahogany plank*", "Misc. portrait*"],
-				"Level": 55,
-				"Primary": true,
-				"Priority": 4
-			},
-			"Build ~|boundary stones|~": {
-				"Category": ["InsidePOH Primary"],
-				"Chunks": ["Player-owned house"],
-				"Items": ["Soft clay*"],
-				"Level": 55,
-				"Primary": true,
-				"Priority": 5
-			},
-			"Build a hard ~|hidey-hole|~": {
-				"Chunks": ["HardHideyHoles[+]"],
-				"Items": ["Teak plank*", "Nails[+]*"],
-				"Level": 55,
-				"Primary": false,
-				"Priority": 6
 			},
 			"Build the tier 2 ~|Chapel (Fort Forinthry)|~": {
 				"Tasks": {
@@ -13045,7 +11140,14 @@
 				"Items": ["Acadia frame*", "Stone wall segment*"],
 				"Level": 55,
 				"Primary": true,
-				"Priority": 7
+				"Priority": 1
+			},
+			"Build a hard ~|hidey-hole|~": {
+				"Chunks": ["HardHideyHoles[+]"],
+				"Items": ["Teak plank*", "Nails[+]*"],
+				"Level": 55,
+				"Primary": false,
+				"Priority": 100
 			},
 			"Build a dinosaur breeding pen in your ~|Ranch out of Time|~": {
 				"Chunks": ["14659"],
@@ -13060,280 +11162,32 @@
 				},
 				"Output Object": "Dinosaur breeding pen",
 				"Primary": false,
-				"Priority": 7
-			},
-			"Build a ~|fancy teak dresser|~": {
-				"Category": ["InsidePOH Primary"],
-				"Chunks": ["Player-owned house"],
-				"Items": ["Teak plank*", "Molten glass*"],
-				"Level": 56,
-				"Primary": true,
-				"Priority": 1
-			},
-			"Build ~|teak shelves 1|~": {
-				"Category": ["InsidePOH Primary"],
-				"Chunks": ["Player-owned house"],
-				"Items": ["Teak plank*", "Soft clay*"],
-				"Level": 56,
-				"Output": "TeakShelves1",
-				"Primary": true,
-				"Priority": 2
-			},
-			"Build a ~|mounted swordfish|~": {
-				"Category": ["InsidePOH Primary"],
-				"Chunks": ["Player-owned house"],
-				"Items": ["Teak plank*", "Big swordfish (stuffed)*"],
-				"Level": 56,
-				"Skills": {
-					"Fishing": 1
-				},
-				"Primary": true,
-				"Priority": 3
-			},
-			"Build a ~|cloth altar|~": {
-				"Category": ["InsidePOH Primary"],
-				"Chunks": ["Player-owned house"],
-				"Items": ["Teak plank*", "Bolt of cloth*"],
-				"Level": 56,
-				"Primary": true,
-				"Priority": 4
-			},
-			"Build a ~|gilded decoration|~": {
-				"Category": ["InsidePOH Primary"],
-				"Chunks": ["Player-owned house"],
-				"Items": ["Mahogany plank*", "Gold leaf*"],
-				"Level": 56,
-				"Primary": true,
-				"Priority": 5
-			},
-			"Plant a ~|thorny hedge|~ in your player-owned house": {
-				"Category": ["InsidePOH Primary"],
-				"Chunks": ["Player-owned house"],
-				"Items": ["Thorny hedge (bagged)*", "WateringCan[+]"],
-				"Level": 56,
-				"Skills": {
-					"Farming": 1
-				},
-				"Primary": true,
-				"Priority": 6
-			},
-			"Build a ~|teak eagle lectern|~": {
-				"Category": ["InsidePOH Primary"],
-				"Chunks": ["Player-owned house"],
-				"Items": ["Teak plank*"],
-				"Level": 57,
-				"Primary": true,
-				"Priority": 1
-			},
-			"Build a ~|teak demon lectern|~": {
-				"Category": ["InsidePOH Primary"],
-				"Chunks": ["Player-owned house"],
-				"Items": ["Teak plank*"],
-				"Level": 57,
-				"Primary": true,
-				"Priority": 2
-			},
-			"Build a ~|desert habitat|~": {
-				"Category": ["InsidePOH Primary"],
-				"Chunks": ["Player-owned house"],
-				"Items": ["Bucket of sand*", "Limestone brick*", "Bagged cactus*"],
-				"Level": 57,
-				"Primary": true,
-				"Priority": 3
-			},
-			"Build an ~|elemental balance 2|~": {
-				"Category": ["InsidePOH Primary"],
-				"Chunks": ["Player-owned house"],
-				"Items": ["Air rune*", "Fire rune*", "Water rune*", "Earth rune*"],
-				"Level": 57,
-				"Primary": true,
-				"Priority": 4
-			},
-			"Build ~|gold candlesticks|~": {
-				"Category": ["InsidePOH Primary"],
-				"Chunks": ["Player-owned house"],
-				"Items": ["Gold bar*", "White candle*"],
-				"Level": 57,
-				"Primary": true,
-				"Priority": 5
-			},
-			"Build a ~|kurask head (mounted)|~": {
-				"Category": ["InsidePOH Primary"],
-				"Chunks": ["Player-owned house"],
-				"Items": ["Teak plank*", "Kurask head (stuffed)*"],
-				"Level": 58,
-				"Skills": {
-					"Slayer": 1
-				},
-				"Primary": true,
-				"Priority": 1
-			},
-			"Build an ~|abyssal demon head (mounted)|~": {
-				"Category": ["InsidePOH Primary"],
-				"Chunks": ["Player-owned house"],
-				"Items": ["Teak plank*", "Abyssal head (stuffed)*"],
-				"Level": 58,
-				"Skills": {
-					"Slayer": 1
-				},
-				"Primary": true,
-				"Priority": 2
-			},
-			"Build a ~|medium map|~": {
-				"Category": ["InsidePOH Primary"],
-				"Chunks": ["Player-owned house"],
-				"Items": ["Mahogany plank*", "Medium map (item)*"],
-				"Level": 58,
-				"Primary": true,
-				"Priority": 3
-			},
-			"Build ~|bells|~": {
-				"Category": ["InsidePOH Primary"],
-				"Chunks": ["Player-owned house"],
-				"Items": ["Teak plank*", "Steel bar*"],
-				"Level": 58,
-				"Primary": true,
-				"Priority": 4
-			},
-			"Build a ~|lunar globe|~": {
-				"Category": ["InsidePOH Primary"],
-				"Chunks": ["Player-owned house"],
-				"Items": ["Teak plank*", "Gold leaf*"],
-				"Level": 59,
-				"Primary": true,
-				"Priority": 1
-			},
-			"Build a ~|limestone attack stone|~": {
-				"Category": ["InsidePOH Primary"],
-				"Chunks": ["Player-owned house"],
-				"Items": ["Limestone brick*"],
-				"Level": 59,
-				"Primary": true,
-				"Priority": 2
-			},
-			"Build a ~|hangman game|~": {
-				"Category": ["InsidePOH Primary"],
-				"Chunks": ["Player-owned house"],
-				"Items": ["Teak plank*", "Steel bar*"],
-				"Level": 59,
-				"Primary": true,
-				"Priority": 3
-			},
-			"Build a ~|wooden fence|~": {
-				"Category": ["InsidePOH Primary"],
-				"Chunks": ["Player-owned house"],
-				"Items": ["Plank*"],
-				"Level": 59,
-				"Primary": true,
-				"Priority": 4
-			},
-			"Build a ~|Guthix icon|~": {
-				"Category": ["InsidePOH Primary"],
-				"Chunks": ["Player-owned house"],
-				"Items": ["Teak plank*", "Gold leaf*"],
-				"Level": 59,
-				"Primary": true,
-				"Priority": 4
-			},
-			"Build a ~|Saradomin icon|~": {
-				"Category": ["InsidePOH Primary"],
-				"Chunks": ["Player-owned house"],
-				"Items": ["Teak plank*", "Gold leaf*"],
-				"Level": 59,
-				"Primary": true,
-				"Priority": 5
-			},
-			"Build a ~|Zamorak icon|~": {
-				"Category": ["InsidePOH Primary"],
-				"Chunks": ["Player-owned house"],
-				"Items": ["Teak plank*", "Gold leaf*"],
-				"Level": 59,
-				"Primary": true,
-				"Priority": 6
+				"Priority": 101
 			},
 			"Repair the ~|Beacon Network|~ beacon near the Wilderness temple (construction)": {
 				"Chunks": ["11835"],
 				"Items": ["Plank*", "Nails[+]*"],
 				"Level": 59,
 				"Primary": true,
-				"Priority": 7
+				"Priority": 100
 			},
-			"Build an ~|oak throne|~": {
-				"Category": ["InsidePOH Primary"],
-				"Chunks": ["Player-owned house"],
-				"Items": ["Oak plank*", "Marble block*"],
+			"Make ~|mahhogany planks|~ at the sawmill in Fort Forinthry": {
+				"Items": ["Mahogany logs*"],
+				"Objects": ["Sawmill"],
 				"Level": 60,
+				"Output": "Mahogany plank",
 				"Primary": true,
 				"Priority": 1
 			},
-			"Build a ~|gilded 4-poster|~": {
-				"Category": ["InsidePOH Primary"],
-				"Chunks": ["Player-owned house"],
-				"Items": ["Mahogany plank*", "Bolt of cloth*", "Gold leaf*"],
+			"Build the tier 3 ~|Grove Cabin|~": {
+				"Tasks": {
+					"Build the tier 2 ~|Grove Cabin|~": "Construction"
+				},
+				"Items": ["Mahogany frame*", "Stone wall segment*"],
 				"Level": 60,
+				"Output Object": "Tier3Grove[+]",
 				"Primary": true,
 				"Priority": 2
-			},
-			"Build a ~|teak magic wardrobe|~": {
-				"Category": ["InsidePOH Primary"],
-				"Chunks": ["Player-owned house"],
-				"Items": ["Teak plank*"],
-				"Level": 60,
-				"Primary": true,
-				"Priority": 3
-			},
-			"Build a ~|mahogany altar|~": {
-				"Category": ["InsidePOH Primary"],
-				"Chunks": ["Player-owned house"],
-				"Items": ["Mahogany plank*", "Bolt of cloth*"],
-				"Level": 60,
-				"Primary": true,
-				"Priority": 4
-			},
-			"Plant a ~|yew tree|~ in your player-owned house": {
-				"Category": ["InsidePOH Primary"],
-				"Chunks": ["Player-owned house"],
-				"Items": ["Bagged yew tree*", "WateringCan[+]"],
-				"Level": 60,
-				"Skills": {
-					"Farming": 1
-				},
-				"Primary": true,
-				"Priority": 5
-			},
-			"Build a ~|posh bell-pull|~": {
-				"Category": ["InsidePOH Primary"],
-				"Chunks": ["Player-owned house"],
-				"Items": ["Teak plank*", "Bolt of cloth*", "Gold leaf*"],
-				"Level": 60,
-				"Primary": true,
-				"Priority": 6
-			},
-			"Plant a ~|nice hedge|~ in your player-owned house": {
-				"Category": ["InsidePOH Primary"],
-				"Chunks": ["Player-owned house"],
-				"Items": ["Nice hedge (bagged)*", "WateringCan[+]"],
-				"Level": 60,
-				"Skills": {
-					"Farming": 1
-				},
-				"Primary": true,
-				"Priority": 7
-			},
-			"Gain access to teak planks in ~|Construction Contracts|~": {
-				"Category": ["Construction Milestone"],
-				"NPCs": ["Estate agent"],
-				"Items": ["Teak plank*", "Nails[+]*"],
-				"Level": 60,
-				"Primary": true,
-				"Priority": 8
-			},
-			"Move your ~|player-owned house|~ to Otot": {
-				"Category": ["Construction Milestone"],
-				"Chunks": ["Mazcab"],
-				"Level": 60,
-				"Primary": false,
-				"Priority": 9
 			},
 			"Build a large pen in your ~|player-owned farm|~": {
 				"Chunks": ["10548"],
@@ -13344,7 +11198,7 @@
 				},
 				"Output Object": "Large animal pen",
 				"Primary": false,
-				"Priority": 10
+				"Priority": 100
 			},
 			"Build a second large pen in your ~|player-owned farm|~": {
 				"Chunks": ["10548"],
@@ -13355,7 +11209,31 @@
 				},
 				"Output Object": "Large animal pen",
 				"Primary": false,
-				"Priority": 11
+				"Priority": 101
+			},
+			"Make ~|refined mahogany planks|~ at the sawmill in Fort Forinthry": {
+				"Items": ["Mahogany plank*"],
+				"Objects": ["Sawmill"],
+				"Level": 60,
+				"Output": "Refined mahogany plank",
+				"Primary": true,
+				"Priority": 102
+			},
+			"Make a ~|mahogany frame|~ at the sawmill in Fort Forinthry": {
+				"Items": ["Refined mahogany plank*"],
+				"Objects": ["Sawmill"],
+				"Level": 60,
+				"Output": "Mahogany frame",
+				"Primary": true,
+				"Priority": 103
+			},
+			"Gain access to teak planks in ~|Construction Contracts|~": {
+				"Category": ["Construction Milestone"],
+				"NPCs": ["Estate agent"],
+				"Items": ["Teak plank*", "Nails[+]*"],
+				"Level": 60,
+				"Primary": true,
+				"Priority": 1000
 			},
 			"Read the ~|scroll of proficiency|~": {
 				"Items": ["Scroll of proficiency"],
@@ -13364,270 +11242,7 @@
 					"Dungeoneering": 60
 				},
 				"Primary": false,
-				"Priority": 12
-			},
-			"Make ~|mahhogany planks|~ at the sawmill in Fort Forinthry": {
-				"Items": ["Mahogany logs*"],
-				"Objects": ["Sawmill"],
-				"Level": 60,
-				"Output": "Mahogany plank",
-				"Primary": true,
-				"Priority": 14
-			},
-			"Make ~|refined mahogany planks|~ at the sawmill in Fort Forinthry": {
-				"Items": ["Mahogany plank*"],
-				"Objects": ["Sawmill"],
-				"Level": 60,
-				"Output": "Refined mahogany plank",
-				"Primary": true,
-				"Priority": 15
-			},
-			"Make a ~|mahogany frame|~ at the sawmill in Fort Forinthry": {
-				"Items": ["Refined mahogany plank*"],
-				"Objects": ["Sawmill"],
-				"Level": 60,
-				"Output": "Mahogany frame",
-				"Primary": true,
-				"Priority": 16
-			},
-			"Build the tier 3 ~|Grove Cabin|~": {
-				"Tasks": {
-					"Build the tier 2 ~|Grove Cabin|~": "Construction"
-				},
-				"Items": ["Mahogany frame*", "Stone wall segment*"],
-				"Level": 60,
-				"Output Object": "Tier3Grove[+]",
-				"Primary": true,
-				"Priority": 17
-			},
-			"Build a ~|gilded bench|~": {
-				"Category": ["InsidePOH Primary"],
-				"Chunks": ["Player-owned house"],
-				"Items": ["Mahogany plank*", "Gold leaf*"],
-				"Level": 61,
-				"Primary": true,
-				"Priority": 1
-			},
-			"Build ~|oak incense burners|~": {
-				"Category": ["InsidePOH Primary"],
-				"Chunks": ["Player-owned house"],
-				"Items": ["Oak plank*", "Steel bar*"],
-				"Level": 61,
-				"Primary": true,
-				"Priority": 2
-			},
-			"Build a ~|floor decoration|~": {
-				"Category": ["InsidePOH Primary"],
-				"Chunks": ["Player-owned house"],
-				"Items": ["Mahogany plank*"],
-				"Level": 61,
-				"Primary": true,
-				"Priority": 3
-			},
-			"Build a ~|bench with vice|~": {
-				"Category": ["InsidePOH Primary"],
-				"Chunks": ["Player-owned house"],
-				"Objects": ["Steel framed bench"],
-				"Items": ["Oak plank*", "Steel bar*"],
-				"Level": 62,
-				"Output Object": "Bench with vice",
-				"Primary": true,
-				"Priority": 1
-			},
-			"Build a ~|teak fancy dress box|~": {
-				"Category": ["InsidePOH Primary"],
-				"Chunks": ["Player-owned house"],
-				"Items": ["Teak plank*"],
-				"Level": 62,
-				"Primary": true,
-				"Priority": 2
-			},
-			"Build a ~|marble fireplace|~": {
-				"Category": ["InsidePOH Primary"],
-				"Chunks": ["Player-owned house"],
-				"Items": ["Marble block*"],
-				"Level": 63,
-				"Primary": true,
-				"Priority": 1
-			},
-			"Build a ~|teak cape rack|~": {
-				"Category": ["InsidePOH Primary"],
-				"Chunks": ["Player-owned house"],
-				"Items": ["Teak plank*"],
-				"Level": 63,
-				"Primary": true,
-				"Priority": 2
-			},
-			"Build a ~|teak wardrobe|~": {
-				"Category": ["InsidePOH Primary"],
-				"Chunks": ["Player-owned house"],
-				"Items": ["Teak plank*"],
-				"Level": 63,
-				"Primary": true,
-				"Priority": 3
-			},
-			"Build an ~|astronomical chart|~": {
-				"Category": ["InsidePOH Primary"],
-				"Chunks": ["Player-owned house"],
-				"Items": ["Bolt of cloth*"],
-				"Level": 63,
-				"Primary": true,
-				"Priority": 4
-			},
-			"Build a ~|stone wall|~": {
-				"Category": ["InsidePOH Primary"],
-				"Chunks": ["Player-owned house"],
-				"Items": ["Limestone brick*"],
-				"Level": 63,
-				"Primary": true,
-				"Priority": 5
-			},
-			"Build an ~|oyster hunter suit|~": {
-				"Category": ["InsidePOH Primary"],
-				"Chunks": ["Player-owned house"],
-				"Items": ["Bronze bar*", "Fishbowl*"],
-				"Level": 63,
-				"Primary": true,
-				"Priority": 6
-			},
-			"Build a ~|driftwood prawnbroker|~": {
-				"Category": ["InsidePOH Primary"],
-				"Chunks": ["Player-owned house"],
-				"Items": ["Teak plank*"],
-				"Level": 63,
-				"Primary": true,
-				"Priority": 7
-			},
-			"Build a ~|mahogany dresser|~": {
-				"Category": ["InsidePOH Primary"],
-				"Chunks": ["Player-owned house"],
-				"Items": ["Mahogany plank*"],
-				"Level": 64,
-				"Primary": true,
-				"Priority": 1
-			},
-			"Build a ~|teak armour case|~": {
-				"Category": ["InsidePOH Primary"],
-				"Chunks": ["Player-owned house"],
-				"Items": ["Teak plank*"],
-				"Level": 64,
-				"Primary": true,
-				"Priority": 2
-			},
-			"Build a ~|teak telescope|~": {
-				"Category": ["InsidePOH Primary"],
-				"Chunks": ["Player-owned house"],
-				"Items": ["Teak plank*", "Molten glass*"],
-				"Level": 64,
-				"Primary": true,
-				"Priority": 3
-			},
-			"Plant a ~|small box hedge|~ in your player-owned house": {
-				"Category": ["InsidePOH Primary"],
-				"Chunks": ["Player-owned house"],
-				"Items": ["Small box hedge (bagged)*", "WateringCan[+]"],
-				"Level": 64,
-				"Skills": {
-					"Farming": 1
-				},
-				"Primary": true,
-				"Priority": 4
-			},
-			"Build a ~|limestone altar|~": {
-				"Category": ["InsidePOH Primary"],
-				"Chunks": ["Player-owned house"],
-				"Items": ["Mahogany plank*", "Bolt of cloth*", "Limestone brick*"],
-				"Level": 64,
-				"Primary": true,
-				"Priority": 5
-			},
-			"Build a ~|fishing net (Aquarium)|~": {
-				"Category": ["InsidePOH Primary"],
-				"Chunks": ["Player-owned house"],
-				"Items": ["Wool*", "Rope*"],
-				"Level": 64,
-				"Primary": true,
-				"Priority": 6
-			},
-			"Build an ~|opulent rug|~": {
-				"Category": ["InsidePOH Primary"],
-				"Chunks": ["Player-owned house"],
-				"Items": ["Bolt of cloth*", "Gold leaf*"],
-				"Level": 65,
-				"Primary": true,
-				"Priority": 1
-			},
-			"Build a ~|Karamja (painting)|~": {
-				"Category": ["InsidePOH Primary"],
-				"Chunks": ["Player-owned house"],
-				"Items": ["Mahogany plank*", "Karamja painting*"],
-				"Level": 65,
-				"Primary": true,
-				"Priority": 2
-			},
-			"Build an ~|Isafdar (painting)|~": {
-				"Category": ["InsidePOH Primary"],
-				"Chunks": ["Player-owned house"],
-				"Items": ["Mahogany plank*", "Isafdar painting*"],
-				"Level": 65,
-				"Primary": true,
-				"Priority": 3
-			},
-			"Build a ~|gazeebo|~": {
-				"Category": ["InsidePOH Primary"],
-				"Chunks": ["Player-owned house"],
-				"Items": ["Mahogany plank*", "Steel bar*"],
-				"Level": 65,
-				"Primary": true,
-				"Priority": 4
-			},
-			"Build an ~|oak cage|~": {
-				"Category": ["InsidePOH Primary"],
-				"Chunks": ["Player-owned house"],
-				"Items": ["Oak plank*", "Steel bar*"],
-				"Level": 65,
-				"Primary": true,
-				"Priority": 5
-			},
-			"Build ~|spikes|~": {
-				"Category": ["InsidePOH Primary"],
-				"Chunks": ["Player-owned house"],
-				"Items": ["Steel bar*"],
-				"Level": 65,
-				"Primary": true,
-				"Priority": 6
-			},
-			"Build ~|mahogany incense burners|~": {
-				"Category": ["InsidePOH Primary"],
-				"Chunks": ["Player-owned house"],
-				"Items": ["Steel bar*", "Mahogany plank*"],
-				"Level": 65,
-				"Primary": true,
-				"Priority": 7
-			},
-			"Build a ~|greater teleport focus|~": {
-				"Category": ["InsidePOH Primary"],
-				"Chunks": ["Player-owned house"],
-				"Items": ["Marble block*"],
-				"Level": 65,
-				"Primary": true,
-				"Priority": 8
-			},
-			"Build ~|mahogany portal|~": {
-				"Category": ["InsidePOH Primary"],
-				"Chunks": ["Player-owned house"],
-				"Items": ["Mahogany plank*"],
-				"Level": 65,
-				"Primary": true,
-				"Priority": 9
-			},
-			"Build a ~|mounted swordfish (Aquarium)|~": {
-				"Category": ["InsidePOH Primary"],
-				"Chunks": ["Player-owned house"],
-				"Items": ["Mahogany plank*", "Raw swordfish*"],
-				"Level": 65,
-				"Primary": true,
-				"Priority": 10
+				"Priority": 1001
 			},
 			"Build the tier 2 ~|Guardhouse|~": {
 				"Tasks": {
@@ -13636,7 +11251,7 @@
 				"Items": ["Mahogany frame*", "Stone wall segment*"],
 				"Level": 65,
 				"Primary": true,
-				"Priority": 11
+				"Priority": 1
 			},
 			"Build the tier 2 ~|Ranger's Workroom|~": {
 				"Tasks": {
@@ -13645,328 +11260,15 @@
 				"Items": ["Mahogany frame*", "Stone wall segment*"],
 				"Level": 65,
 				"Primary": true,
-				"Priority": 12
-			},
-			"Build a ~|banner easel|~": {
-				"Category": ["InsidePOH Primary"],
-				"Chunks": ["Player-owned house"],
-				"Items": ["Oak plank*", "Bolt of cloth*"],
-				"Level": 66,
-				"Primary": true,
-				"Priority": 1
-			},
-			"Build a ~|teak treasure chest|~": {
-				"Category": ["InsidePOH Primary"],
-				"Chunks": ["Player-owned house"],
-				"Items": ["Teak plank*"],
-				"Level": 66,
-				"Primary": true,
 				"Priority": 2
 			},
-			"Build a ~|crystal of power|~": {
-				"Category": ["InsidePOH Primary"],
-				"Chunks": ["Player-owned house"],
-				"Items": ["Mahogany plank*", "Unpowered orb*", "Gold leaf*"],
-				"Level": 66,
-				"Primary": true,
-				"Priority": 3
-			},
-			"Plant a ~|rosemary (player-owned house)|~ in your player-owned house": {
-				"Category": ["InsidePOH Primary"],
-				"Chunks": ["Player-owned house"],
-				"Items": ["Bagged rosemary*", "WateringCan[+]"],
-				"Level": 66,
-				"Skills": {
-					"Farming": 1
-				},
-				"Primary": true,
-				"Priority": 4
-			},
-			"Plant a ~|sunflower|~ in your player-owned house": {
-				"Category": ["InsidePOH Primary"],
-				"Chunks": ["Player-owned house"],
-				"Items": ["Bagged sunflower*", "WateringCan[+]"],
-				"Level": 66,
-				"Skills": {
-					"Farming": 1
-				},
-				"Primary": true,
-				"Priority": 5
-			},
-			"Build a ~|round shield|~": {
-				"Category": ["InsidePOH Primary"],
-				"Chunks": ["Player-owned house"],
-				"Items": ["Oak plank*"],
-				"Level": 66,
-				"Primary": true,
-				"Priority": 6
-			},
-			"Build ~|maps|~": {
-				"Category": ["InsidePOH Primary"],
-				"Chunks": ["Player-owned house"],
-				"Items": ["Mahogany plank*", "Message in a bottle*"],
-				"Level": 66,
-				"Primary": true,
-				"Priority": 7
-			},
-			"Build a ~|teak throne|~": {
-				"Category": ["InsidePOH Primary"],
-				"Chunks": ["Player-owned house"],
-				"Items": ["Teak plank*", "Marble block*"],
-				"Level": 67,
+			"Make ~|yew planks|~ at the sawmill in Fort Forinthry": {
+				"Items": ["Yew logs*"],
+				"Objects": ["Sawmill"],
+				"Level": 70,
+				"Output": "Yew plank",
 				"Primary": true,
 				"Priority": 1
-			},
-			"Build ~|teak shelves 2|~": {
-				"Category": ["InsidePOH Primary"],
-				"Chunks": ["Player-owned house"],
-				"Items": ["Teak plank*", "Soft clay*", "Gold leaf*"],
-				"Level": 67,
-				"Output": "TeakShelves2",
-				"Primary": true,
-				"Priority": 2
-			},
-			"Build a ~|mahogany eagle lectern|~": {
-				"Category": ["InsidePOH Primary"],
-				"Chunks": ["Player-owned house"],
-				"Items": ["Mahogany plank*", "Gold leaf*"],
-				"Level": 67,
-				"Primary": true,
-				"Priority": 3
-			},
-			"Build a ~|mahogany demon lectern|~": {
-				"Category": ["InsidePOH Primary"],
-				"Chunks": ["Player-owned house"],
-				"Items": ["Mahogany plank*", "Gold leaf*"],
-				"Level": 67,
-				"Primary": true,
-				"Priority": 4
-			},
-			"Build ~|iron railings|~": {
-				"Category": ["InsidePOH Primary"],
-				"Chunks": ["Player-owned house"],
-				"Items": ["Limestone brick*", "Iron bar*"],
-				"Level": 67,
-				"Primary": true,
-				"Priority": 5
-			},
-			"Build a ~|spiral staircase|~": {
-				"Category": ["InsidePOH Primary"],
-				"Chunks": ["Player-owned house"],
-				"Items": ["Teak plank*", "Limestone brick*"],
-				"Level": 67,
-				"Primary": true,
-				"Priority": 6
-			},
-			"Build a ~|mahogany pet house|~": {
-				"Category": ["InsidePOH Primary"],
-				"Chunks": ["Player-owned house"],
-				"Items": ["Mahogany plank*"],
-				"Objects": ["Teak pet house"],
-				"Level": 67,
-				"Output Object": "Mahogany pet house",
-				"Primary": true,
-				"Priority": 7
-			},
-			"Build a ~|mahogany pet feeder|~": {
-				"Category": ["InsidePOH Primary"],
-				"Chunks": ["Player-owned house"],
-				"Items": ["Mahogany plank*", "Gold leaf*"],
-				"Level": 67,
-				"Primary": true,
-				"Priority": 8
-			},
-			"Build a ~|polar habitat|~": {
-				"Category": ["InsidePOH Primary"],
-				"Chunks": ["Player-owned house"],
-				"Items": ["Air rune*", "Water rune*", "Bagged evergreen*"],
-				"Level": 67,
-				"Primary": true,
-				"Priority": 9
-			},
-			"Build a ~|teak toy box|~": {
-				"Category": ["InsidePOH Primary"],
-				"Chunks": ["Player-owned house"],
-				"Items": ["Teak plank*"],
-				"Level": 68,
-				"Primary": true,
-				"Priority": 1
-			},
-			"Build a ~|celestial globe|~": {
-				"Category": ["InsidePOH Primary"],
-				"Chunks": ["Player-owned house"],
-				"Items": ["Teak plank*", "Gold leaf*"],
-				"Level": 68,
-				"Primary": true,
-				"Priority": 2
-			},
-			"Plant a ~|topiary hedge|~ in your player-owned house": {
-				"Category": ["InsidePOH Primary"],
-				"Chunks": ["Player-owned house"],
-				"Items": ["Topiary hedge (bagged)*", "WateringCan[+]"],
-				"Level": 68,
-				"Skills": {
-					"Farming": 1
-				},
-				"Primary": true,
-				"Priority": 3
-			},
-			"Build a ~|steel cage|~": {
-				"Category": ["InsidePOH Primary"],
-				"Chunks": ["Player-owned house"],
-				"Items": ["Mahogany plank*", "Steel bar*"],
-				"Level": 68,
-				"Primary": true,
-				"Priority": 4
-			},
-			"Build an ~|oak ladder|~": {
-				"Category": ["InsidePOH Primary"],
-				"Chunks": ["Player-owned house"],
-				"Items": ["Oak plank*"],
-				"Level": 68,
-				"Primary": true,
-				"Priority": 5
-			},
-			"Build an ~|oak lever|~": {
-				"Category": ["InsidePOH Primary"],
-				"Chunks": ["Player-owned house"],
-				"Items": ["Oak plank*"],
-				"Level": 68,
-				"Primary": true,
-				"Priority": 6
-			},
-			"Build an ~|oak trapdoor|~": {
-				"Category": ["InsidePOH Primary"],
-				"Chunks": ["Player-owned house"],
-				"Items": ["Oak plank*"],
-				"Level": 68,
-				"Primary": true,
-				"Priority": 7
-			},
-			"Change the walls in your ~|house style|~ to dark stone": {
-				"Category": ["Construction Milestone"],
-				"NPCs": ["Estate agent[+]"],
-				"Level": 68,
-				"Primary": false,
-				"Priority": 8
-			},
-			"Build a ~|carved teak magic wardrobe|~": {
-				"Category": ["InsidePOH Primary"],
-				"Chunks": ["Player-owned house"],
-				"Items": ["Teak plank*"],
-				"Level": 69,
-				"Primary": true,
-				"Priority": 1
-			},
-			"Build a ~|medium statues|~": {
-				"Category": ["InsidePOH Primary"],
-				"Chunks": ["Player-owned house"],
-				"Items": ["Marble block*"],
-				"Level": 69,
-				"Primary": true,
-				"Priority": 2
-			},
-			"Build an ~|organ|~": {
-				"Category": ["InsidePOH Primary"],
-				"Chunks": ["Player-owned house"],
-				"Items": ["Mahogany plank*", "Steel bar*"],
-				"Level": 69,
-				"Primary": true,
-				"Priority": 3
-			},
-			"Build a ~|decorative window|~": {
-				"Category": ["InsidePOH Primary"],
-				"Chunks": ["Player-owned house"],
-				"Items": ["Molten glass*"],
-				"Level": 69,
-				"Primary": true,
-				"Priority": 4
-			},
-			"Build ~|marble incense burners|~": {
-				"Category": ["InsidePOH Primary"],
-				"Chunks": ["Player-owned house"],
-				"Items": ["Steel bar*", "Marble block*"],
-				"Level": 69,
-				"Primary": true,
-				"Priority": 5
-			},
-			"Build ~|twin anchors|~": {
-				"Category": ["InsidePOH Primary"],
-				"Chunks": ["Player-owned house"],
-				"Items": ["Iron bar*", "Rope*"],
-				"Level": 69,
-				"Primary": true,
-				"Priority": 6
-			},
-			"Put a ~|skeleton (player-owned house)|~ in your player-owned house": {
-				"Category": ["InsidePOH Primary"],
-				"Chunks": ["Player-owned house"],
-				"Level": 70,
-				"Primary": true,
-				"Priority": 1
-			},
-			"Put a ~|pit dog|~ in your player-owned house": {
-				"Category": ["InsidePOH Primary"],
-				"Chunks": ["Player-owned house"],
-				"Tasks": {
-					"~|Love Story|~ Complete the quest": "Quest"
-				},
-				"Level": 70,
-				"Primary": true,
-				"Priority": 2
-			},
-			"Build a ~|dungeon entrance|~": {
-				"Category": ["InsidePOH Primary"],
-				"Chunks": ["Player-owned house"],
-				"Items": ["Marble block*"],
-				"Level": 70,
-				"Primary": true,
-				"Priority": 3
-			},
-			"Build an ~|oak and steel cage|~": {
-				"Category": ["InsidePOH Primary"],
-				"Chunks": ["Player-owned house"],
-				"Items": ["Oak plank*", "Steel bar*"],
-				"Level": 70,
-				"Primary": true,
-				"Priority": 4
-			},
-			"Build a ~|marble altar|~": {
-				"Category": ["InsidePOH Primary"],
-				"Chunks": ["Player-owned house"],
-				"Items": ["Marble block*", "Bolt of cloth*"],
-				"Level": 70,
-				"Primary": true,
-				"Priority": 5
-			},
-			"Build a ~|mounted shark (Aquarium)|~": {
-				"Category": ["InsidePOH Primary"],
-				"Chunks": ["Player-owned house"],
-				"Items": ["Mahogany plank*", "Raw shark*"],
-				"Level": 70,
-				"Primary": true,
-				"Priority": 5
-			},
-			"Change the ground in your ~|house style|~ to tundra": {
-				"Category": ["Construction Milestone"],
-				"NPCs": ["Estate agent[+]"],
-				"Level": 70,
-				"Primary": false,
-				"Priority": 6
-			},
-			"Gain access to mahogany planks in ~|Construction Contracts|~": {
-				"Category": ["Construction Milestone"],
-				"NPCs": ["Estate agent"],
-				"Items": ["Teak plank*", "Nails[+]*"],
-				"Level": 70,
-				"Primary": true,
-				"Priority": 7
-			},
-			"Build the second tier of the player lodge in your ~|Anachronia base camp|~": {
-				"Chunks": ["15939-1"],
-				"Level": 70,
-				"Primary": false,
-				"Priority": 8
 			},
 			"Build the tier 2 ~|Command Centre|~": {
 				"Tasks": {
@@ -13975,7 +11277,50 @@
 				"Items": ["Yew frame*", "Stone wall segment*"],
 				"Level": 70,
 				"Primary": true,
-				"Priority": 9
+				"Priority": 2
+			},
+			"Gain access to mahogany planks in ~|Construction Contracts|~": {
+				"Category": ["Construction Milestone"],
+				"NPCs": ["Estate agent"],
+				"Items": ["Teak plank*", "Nails[+]*"],
+				"Level": 70,
+				"Primary": true,
+				"Priority": 100
+			},
+			"Build the second tier of the player lodge in your ~|Anachronia base camp|~": {
+				"Chunks": ["15939-1"],
+				"Level": 70,
+				"Primary": false,
+				"Priority": 101
+			},
+			"Make ~|refined yew planks|~ at the sawmill in Fort Forinthry": {
+				"Items": ["Yew plank*"],
+				"Objects": ["Sawmill"],
+				"Level": 70,
+				"Output": "Refined yew plank",
+				"Primary": true,
+				"Priority": 102
+			},
+			"Make a ~|yew frame|~ at the sawmill in Fort Forinthry": {
+				"Items": ["Refined yew plank*"],
+				"Objects": ["Sawmill"],
+				"Level": 70,
+				"Output": "Yew frame",
+				"Primary": true,
+				"Priority": 103
+			},
+			"Build the shark pool at the ~|Wendlewick fish farm|~": {
+				"Items": ["Big fishing net*", "Yew plank*", "Adamant nails*"],
+				"Level": 70,
+				"Objects": ["Broken shark pool"],
+				"Tasks": {
+					"~|Maya Use Your Fish Farm?|~ Complete the lore activity": "Quest"
+				},
+				"Skills": {
+					"Fishing": 79
+				},
+				"Primary": false,
+				"Priority": 104
 			},
 			"Enter a tier two ~|Shifting Tombs|~": {
 				"Chunks": ["Shifting Tombs"],
@@ -13990,349 +11335,7 @@
 					"Divination": 70
 				},
 				"Primary": false,
-				"Priority": 10
-			},
-			"Make ~|yew planks|~ at the sawmill in Fort Forinthry": {
-				"Items": ["Yew logs*"],
-				"Objects": ["Sawmill"],
-				"Level": 70,
-				"Output": "Yew plank",
-				"Primary": true,
-				"Priority": 11
-			},
-			"Make ~|refined yew planks|~ at the sawmill in Fort Forinthry": {
-				"Items": ["Yew plank*"],
-				"Objects": ["Sawmill"],
-				"Level": 70,
-				"Output": "Refined yew plank",
-				"Primary": true,
-				"Priority": 12
-			},
-			"Make a ~|yew frame|~ at the sawmill in Fort Forinthry": {
-				"Items": ["Refined yew plank*"],
-				"Objects": ["Sawmill"],
-				"Level": 70,
-				"Output": "Yew frame",
-				"Primary": true,
-				"Priority": 13
-			},
-			"Build the shark pool at the ~|Wendlewick fish farm|~": {
-				"Items": ["Big fishing net*", "Yew plank*", "Adamant nails*"],
-				"Level": 70,
-				"Objects": ["Broken shark pool"],
-				"Tasks": {
-					"~|Maya Use Your Fish Farm?|~ Complete the lore activity": "Quest"
-				},
-				"Skills": {
-					"Fishing": 79
-				},
-				"Primary": false,
-				"Priority": 14
-			},
-			"Build ~|ranging pedestals|~": {
-				"Category": ["InsidePOH Primary"],
-				"Chunks": ["Player-owned house"],
-				"Items": ["Teak plank*"],
-				"Level": 71,
-				"Primary": true,
-				"Priority": 1
-			},
-			"Plant ~|marigolds (player-owned house)|~ in your player-owned house": {
-				"Category": ["InsidePOH Primary"],
-				"Chunks": ["Player-owned house"],
-				"Items": ["Bagged marigolds*", "WateringCan[+]"],
-				"Level": 71,
-				"Skills": {
-					"Farming": 1
-				},
-				"Primary": true,
-				"Priority": 2
-			},
-			"Plant ~|daffodils|~ in your player-owned house": {
-				"Category": ["InsidePOH Primary"],
-				"Chunks": ["Player-owned house"],
-				"Items": ["Bagged daffodils*", "WateringCan[+]"],
-				"Level": 71,
-				"Skills": {
-					"Farming": 1
-				},
-				"Primary": true,
-				"Priority": 3
-			},
-			"Build a ~|picket fence|~": {
-				"Category": ["InsidePOH Primary"],
-				"Chunks": ["Player-owned house"],
-				"Items": ["Oak plank*", "Steel bar*"],
-				"Level": 71,
-				"Primary": true,
-				"Priority": 4
-			},
-			"Build a ~|small fountain|~": {
-				"Category": ["InsidePOH Primary"],
-				"Chunks": ["Player-owned house"],
-				"Items": ["Marble block*"],
-				"Level": 71,
-				"Primary": true,
-				"Priority": 5
-			},
-			"Build a ~|tentacle pool|~": {
-				"Category": ["InsidePOH Primary"],
-				"Chunks": ["Player-owned house"],
-				"Items": ["Bucket of water*"],
-				"Level": 71,
-				"Primary": true,
-				"Priority": 6
-			},
-			"Build an ~|icon of Bob|~": {
-				"Category": ["InsidePOH Primary"],
-				"Chunks": ["Player-owned house"],
-				"Items": ["Mahogany plank*", "Gold leaf*"],
-				"Level": 71,
-				"Primary": true,
-				"Priority": 7
-			},
-			"Build a ~|minor pit trap|~": {
-				"Category": ["InsidePOH Primary"],
-				"Chunks": ["Player-owned house"],
-				"Items": ["Fire rune*"],
-				"Level": 71,
-				"Tasks": {
-					"~|Love Story|~ Complete the quest": "Quest"
-				},
-				"Primary": true,
-				"Priority": 8
-			},
-			"Build a ~|shark jaw|~": {
-				"Category": ["InsidePOH Primary"],
-				"Chunks": ["Player-owned house"],
-				"Items": ["Mahogany plank*", "Shark jawbone*"],
-				"Level": 71,
-				"Primary": true,
-				"Priority": 9
-			},
-			"Build an ~|opulent table|~": {
-				"Category": ["InsidePOH Primary"],
-				"Chunks": ["Player-owned house"],
-				"Items": ["Mahogany plank*", "Bolt of cloth*", "Gold leaf*", "Marble block*"],
-				"Level": 72,
-				"Primary": true,
-				"Priority": 1
-			},
-			"Build a ~|mahogany cape rack|~": {
-				"Category": ["InsidePOH Primary"],
-				"Chunks": ["Player-owned house"],
-				"Items": ["Mahogany plank*"],
-				"Level": 72,
-				"Primary": true,
-				"Priority": 2
-			},
-			"Build a ~|candle (player-owned house)|~": {
-				"Category": ["InsidePOH Primary"],
-				"Chunks": ["Player-owned house"],
-				"Items": ["Oak plank*", "White candle (lit)*"],
-				"Level": 72,
-				"Primary": true,
-				"Priority": 3
-			},
-			"Build ~|decorative blood|~": {
-				"Category": ["InsidePOH Primary"],
-				"Chunks": ["Player-owned house"],
-				"Items": ["Red dye*"],
-				"Level": 72,
-				"Primary": true,
-				"Priority": 4
-			},
-			"Plant a ~|fancy hedge|~ in your player-owned house": {
-				"Category": ["InsidePOH Primary"],
-				"Chunks": ["Player-owned house"],
-				"Items": ["Fancy hedge (bagged)*", "WateringCan[+]"],
-				"Level": 72,
-				"Skills": {
-					"Farming": 1
-				},
-				"Primary": true,
-				"Priority": 5
-			},
-			"Build a ~|spike trap|~": {
-				"Category": ["InsidePOH Primary"],
-				"Chunks": ["Player-owned house"],
-				"Level": 72,
-				"Primary": true,
-				"Priority": 6
-			},
-			"Build a ~|mermaid hunter suit|~": {
-				"Category": ["InsidePOH Primary"],
-				"Chunks": ["Player-owned house"],
-				"Items": ["Bronze bar*", "Fishbowl*", "Porthole*"],
-				"Level": 72,
-				"Primary": true,
-				"Priority": 7
-			},
-			"Put a ~|pit ogre|~ in your player-owned house": {
-				"Category": ["InsidePOH Primary"],
-				"Chunks": ["Player-owned house"],
-				"Level": 73,
-				"Tasks": {
-					"~|Love Story|~ Complete the quest": "Quest"
-				},
-				"Primary": true,
-				"Priority": 1
-			},
-			"Build a ~|flotsam prawnbroker|~": {
-				"Category": ["InsidePOH Primary"],
-				"Chunks": ["Player-owned house"],
-				"Items": ["Mahogany plank*"],
-				"Level": 73,
-				"Primary": true,
-				"Priority": 2
-			},
-			"Build a ~|mahogany throne|~": {
-				"Category": ["InsidePOH Primary"],
-				"Chunks": ["Player-owned house"],
-				"Items": ["Mahogany plank*", "Marble block*"],
-				"Level": 74,
-				"Primary": true,
-				"Priority": 1
-			},
-			"Build a ~|gilded dresser|~": {
-				"Category": ["InsidePOH Primary"],
-				"Chunks": ["Player-owned house"],
-				"Items": ["Mahogany plank*", "Molten glass*", "Gold leaf*"],
-				"Level": 74,
-				"Primary": true,
-				"Priority": 2
-			},
-			"Build an ~|oak door|~": {
-				"Category": ["InsidePOH Primary"],
-				"Chunks": ["Player-owned house"],
-				"Items": ["Oak plank*"],
-				"Level": 74,
-				"Primary": true,
-				"Priority": 3
-			},
-			"Build a ~|trapdoor (player-owned house)|~": {
-				"Category": ["InsidePOH Primary"],
-				"Chunks": ["Player-owned house"],
-				"Items": ["Mahogany plank*", "Clockwork*"],
-				"Level": 74,
-				"Primary": true,
-				"Priority": 4
-			},
-			"Put a ~|guard dog|~ in your player-owned house": {
-				"Category": ["InsidePOH Primary"],
-				"Chunks": ["Player-owned house"],
-				"Level": 74,
-				"Primary": true,
-				"Priority": 5
-			},
-			"Build a ~|bait barrel|~": {
-				"Category": ["InsidePOH Primary"],
-				"Chunks": ["Player-owned house"],
-				"Items": ["Mahogany plank*", "Fishing bait*"],
-				"Level": 74,
-				"Primary": true,
-				"Priority": 6
-			},
-			"Build a ~|mahogany wardrobe|~": {
-				"Category": ["InsidePOH Primary"],
-				"Chunks": ["Player-owned house"],
-				"Items": ["Mahogany plank*"],
-				"Level": 75,
-				"Primary": true,
-				"Priority": 1
-			},
-			"Build a ~|gilded altar|~": {
-				"Category": ["InsidePOH Primary"],
-				"Chunks": ["Player-owned house"],
-				"Items": ["Marble block*", "Bolt of cloth*", "Gold leaf*"],
-				"Level": 75,
-				"Primary": true,
-				"Priority": 2
-			},
-			"Build a ~|garden fence|~": {
-				"Category": ["InsidePOH Primary"],
-				"Chunks": ["Player-owned house"],
-				"Items": ["Teak plank*", "Steel bar*"],
-				"Level": 75,
-				"Primary": true,
-				"Priority": 3
-			},
-			"Build a ~|steel cage (player-owned house)|~": {
-				"Category": ["InsidePOH Primary"],
-				"Chunks": ["Player-owned house"],
-				"Items": ["Steel bar*"],
-				"Level": 75,
-				"Primary": true,
-				"Priority": 4
-			},
-			"Plant a ~|magic tree|~ in your player-owned house": {
-				"Category": ["InsidePOH Primary"],
-				"Chunks": ["Player-owned house"],
-				"Items": ["Bagged magic tree*", "WateringCan[+]"],
-				"Level": 75,
-				"Skills": {
-					"Farming": 1
-				},
-				"Primary": true,
-				"Priority": 5
-			},
-			"Build a ~|demon (player-owned house)|~": {
-				"Category": ["InsidePOH Primary"],
-				"Chunks": ["Player-owned house"],
-				"Level": 75,
-				"Primary": true,
-				"Priority": 6
-			},
-			"Build a ~|large fountain|~": {
-				"Category": ["InsidePOH Primary"],
-				"Chunks": ["Player-owned house"],
-				"Items": ["Marble block*"],
-				"Level": 75,
-				"Primary": true,
-				"Priority": 7
-			},
-			"Build a ~|wooden crate|~": {
-				"Category": ["InsidePOH Primary"],
-				"Chunks": ["Player-owned house"],
-				"Items": ["Plank*", "Nails[+]*"],
-				"Level": 75,
-				"Primary": true,
-				"Priority": 8
-			},
-			"Change the lighting in your ~|house style|~ to dusk": {
-				"Category": ["Construction Milestone"],
-				"NPCs": ["Estate agent[+]"],
-				"Level": 75,
-				"Primary": false,
-				"Priority": 9
-			},
-			"Move your ~|player-owned house|~ to Prifddinas": {
-				"Category": ["Construction Milestone"],
-				"Chunks": ["8500"],
-				"Level": 75,
-				"Primary": false,
-				"Priority": 10
-			},
-			"Prepare stones at the stonemason in the ~|Dream of Iaia|~": {
-				"Chunks": ["Dream of Iaia", "15939-1"],
-				"Level": 75,
-				"Output": "Dream of Iaia loot",
-				"Primary": true,
-				"Priority": 11
-			},
-			"Build a ~|hidey-hole (grapple)|~ at Prifddinas waterfall": {
-				"Chunks": ["9013"],
-				"Items": ["Mahogany plank*", "Rune crossbow*", "Mithril grapple*"],
-				"Level": 75,
-				"Primary": false,
-				"Priority": 12
-			},
-			"Build an ~|altar (Dungeoneering, starting room)|~ in Daemonheim": {
-				"Category": ["Daemonheim tasks", "Mutli Step Processing"],
-				"Chunks": ["Dungeons of Daemonheim"],
-				"Level": 75,
-				"Primary": false,
-				"Priority": 13
+				"Priority": 1000
 			},
 			"Build the tier 3 ~|Workshop (Fort Forinthry)|~": {
 				"Tasks": {
@@ -14341,187 +11344,28 @@
 				"Items": ["Yew frame*", "Stone wall segment*"],
 				"Level": 75,
 				"Primary": true,
-				"Priority": 14
-			},
-			"Build a ~|mounted shark|~": {
-				"Category": ["InsidePOH Primary"],
-				"Chunks": ["Player-owned house"],
-				"Items": ["Mahogany plank*", "Big shark (stuffed)*"],
-				"Level": 76,
-				"Skills": {
-					"Fishing": 1
-				},
-				"Primary": true,
 				"Priority": 1
 			},
-			"Plant a ~|tall fancy hedge|~ in your player-owned house": {
-				"Category": ["InsidePOH Primary"],
-				"Chunks": ["Player-owned house"],
-				"Items": ["Tall fancy hedge (bagged)*", "WateringCan[+]"],
-				"Level": 76,
-				"Skills": {
-					"Farming": 1
-				},
-				"Primary": true,
-				"Priority": 2
+			"Build a ~|hidey-hole (grapple)|~ at Prifddinas waterfall": {
+				"Chunks": ["9013"],
+				"Items": ["Mahogany plank*", "Rune crossbow*", "Mithril grapple*"],
+				"Level": 75,
+				"Primary": false,
+				"Priority": 100
 			},
-			"Plant ~|roses (player-owned house)|~ in your player-owned house": {
-				"Category": ["InsidePOH Primary"],
-				"Chunks": ["Player-owned house"],
-				"Items": ["Bagged roses*", "WateringCan[+]"],
-				"Level": 76,
-				"Skills": {
-					"Farming": 1
-				},
+			"Prepare stones at the stonemason in the ~|Dream of Iaia|~": {
+				"Chunks": ["Dream of Iaia", "15939-1"],
+				"Level": 75,
+				"Output": "Dream of Iaia loot",
 				"Primary": true,
-				"Priority": 3
+				"Priority": 1000
 			},
-			"Plant ~|bluebells|~ in your player-owned house": {
-				"Category": ["InsidePOH Primary"],
-				"Chunks": ["Player-owned house"],
-				"Items": ["Bagged bluebells*", "WateringCan[+]"],
-				"Level": 76,
-				"Skills": {
-					"Farming": 1
-				},
-				"Primary": true,
-				"Priority": 4
-			},
-			"Build a ~|man trap|~": {
-				"Category": ["InsidePOH Primary"],
-				"Chunks": ["Player-owned house"],
-				"Level": 76,
-				"Primary": true,
-				"Priority": 5
-			},
-			"Build a ~|square shield (Construction)|~": {
-				"Category": ["InsidePOH Primary"],
-				"Chunks": ["Player-owned house"],
-				"Items": ["Teak plank*"],
-				"Level": 76,
-				"Primary": true,
-				"Priority": 6
-			},
-			"Build a ~|mounted great white shark|~": {
-				"Category": ["InsidePOH Primary"],
-				"Chunks": ["Player-owned house"],
-				"Items": ["Mahogany plank*", "Raw great white shark*"],
-				"Level": 76,
-				"Primary": true,
-				"Priority": 7
-			},
-			"Build a ~|bench with lathe|~": {
-				"Category": ["InsidePOH Primary"],
-				"Chunks": ["Player-owned house"],
-				"Objects": ["Bench with vice"],
-				"Items": ["Oak plank*", "Steel bar*"],
-				"Level": 77,
-				"Output Object": "Bench with lathe",
-				"Primary": true,
-				"Priority": 1
-			},
-			"Build an ~|armillary sphere|~": {
-				"Category": ["InsidePOH Primary"],
-				"Chunks": ["Player-owned house"],
-				"Items": ["Mahogany plank*", "Steel bar*", "Gold leaf*"],
-				"Level": 77,
-				"Primary": true,
-				"Priority": 2
-			},
-			"Build a ~|flame pit|~": {
-				"Category": ["InsidePOH Primary"],
-				"Chunks": ["Player-owned house"],
-				"Items": ["Tinderbox*"],
-				"Level": 77,
-				"Primary": true,
-				"Priority": 3
-			},
-			"Build a ~|volcanic habitat|~": {
-				"Category": ["InsidePOH Primary"],
-				"Chunks": ["Player-owned house"],
-				"Items": ["Lava rune*", "Stone slab*", "Bagged dead tree*"],
-				"Level": 77,
-				"Primary": true,
-				"Priority": 4
-			},
-			"Build an ~|elemental balance 3|~": {
-				"Category": ["InsidePOH Primary"],
-				"Chunks": ["Player-owned house"],
-				"Items": ["Air rune*", "Water rune*", "Earth rune*", "Fire rune*"],
-				"Level": 77,
-				"Primary": true,
-				"Priority": 5
-			},
-			"Build a ~|mahogany magic wardrobe|~": {
-				"Category": ["InsidePOH Primary"],
-				"Chunks": ["Player-owned house"],
-				"Items": ["Mahogany plank*"],
-				"Level": 78,
-				"Primary": true,
-				"Priority": 1
-			},
-			"Build a ~|King Black Dragon head (mounted)|~": {
-				"Category": ["InsidePOH Primary"],
-				"Chunks": ["Player-owned house"],
-				"Items": ["Mahogany plank*", "Gold leaf*", "King black dragon head (stuffed)*"],
-				"Level": 78,
-				"Primary": true,
-				"Priority": 2
-			},
-			"Build a ~|Kalphite Queen head (mounted)|~": {
-				"Category": ["InsidePOH Primary"],
-				"Chunks": ["Player-owned house"],
-				"Items": ["Mahogany plank*", "Gold leaf*", "Kalphite queen head (stuffed)*"],
-				"Level": 78,
-				"Primary": true,
-				"Priority": 3
-			},
-			"Build a ~|teak lever|~": {
-				"Category": ["InsidePOH Primary"],
-				"Chunks": ["Player-owned house"],
-				"Items": ["Teak plank*"],
-				"Level": 78,
-				"Primary": true,
-				"Priority": 4
-			},
-			"Build a ~|teak trapdoor|~": {
-				"Category": ["InsidePOH Primary"],
-				"Chunks": ["Player-owned house"],
-				"Items": ["Teak plank*"],
-				"Level": 78,
-				"Primary": true,
-				"Priority": 5
-			},
-			"Build a ~|large map|~": {
-				"Category": ["InsidePOH Primary"],
-				"Chunks": ["Player-owned house"],
-				"Items": ["Mahogany plank*", "Large map (item)*"],
-				"Level": 78,
-				"Primary": true,
-				"Priority": 6
-			},
-			"Put a ~|hobgoblin (player-owned house)|~ in your player-owned house": {
-				"Category": ["InsidePOH Primary"],
-				"Chunks": ["Player-owned house"],
-				"Level": 78,
-				"Primary": true,
-				"Priority": 7
-			},
-			"Build a ~|teak ladder|~": {
-				"Category": ["InsidePOH Primary"],
-				"Chunks": ["Player-owned house"],
-				"Items": ["Teak plank*"],
-				"Level": 78,
-				"Primary": true,
-				"Priority": 8
-			},
-			"Build a ~|figurehead|~": {
-				"Category": ["InsidePOH Primary"],
-				"Chunks": ["Player-owned house"],
-				"Items": ["Mahogany plank*", "Ship figurehead*"],
-				"Level": 78,
-				"Primary": true,
-				"Priority": 9
+			"Build an ~|altar (Dungeoneering, starting room)|~ in Daemonheim": {
+				"Category": ["Daemonheim tasks", "Mutli Step Processing"],
+				"Chunks": ["Dungeons of Daemonheim"],
+				"Level": 75,
+				"Primary": false,
+				"Priority": 1001
 			},
 			"Build the tier 2 ~|Botanist's Workbench|~": {
 				"Tasks": {
@@ -14530,106 +11374,33 @@
 				"Items": ["Yew frame*", "Stone wall segment*"],
 				"Level": 78,
 				"Primary": true,
-				"Priority": 10
+				"Priority": 1
 			},
-			"Build a ~|marble attack stone|~": {
-				"Category": ["InsidePOH Primary"],
-				"Chunks": ["Player-owned house"],
-				"Items": ["Marble block*"],
-				"Level": 79,
+			"Make ~|magic planks|~ at the sawmill in Fort Forinthry": {
+				"Items": ["Magic logs*"],
+				"Objects": ["Sawmill"],
+				"Level": 80,
+				"Output": "Magic plank",
 				"Primary": true,
 				"Priority": 1
 			},
-			"Build a ~|marble wall|~": {
-				"Category": ["InsidePOH Primary"],
-				"Chunks": ["Player-owned house"],
-				"Items": ["Marble block*"],
-				"Level": 79,
-				"Primary": true,
-				"Priority": 2
-			},
-			"Build an ~|oak chest|~": {
-				"Category": ["InsidePOH Primary"],
-				"Chunks": ["Player-owned house"],
-				"Items": ["Oak plank*", "Steel bar*"],
-				"Level": 79,
-				"Primary": true,
-				"Priority": 3
-			},
-			"Put a ~|pit rock protector|~ in your player-owned house": {
-				"Category": ["InsidePOH Primary"],
-				"Chunks": ["Player-owned house"],
-				"Level": 79,
+			"Build the tier 3 ~|Town Hall (Fort Forinthry)|~": {
 				"Tasks": {
-					"~|Love Story|~ Complete the quest": "Quest"
+					"Build the tier 2 ~|Town Hall (Fort Forinthry)|~": "Construction"
 				},
-				"Primary": true,
-				"Priority": 4
-			},
-			"Build a ~|mahogany fancy dress box|~": {
-				"Category": ["InsidePOH Primary"],
-				"Chunks": ["Player-owned house"],
-				"Items": ["Mahogany plank*"],
-				"Level": 80,
-				"Primary": true,
-				"Priority": 1
-			},
-			"Build a ~|scrying pool|~": {
-				"Category": ["InsidePOH Primary"],
-				"Chunks": ["Player-owned house"],
-				"Items": ["Marble block*"],
+				"Items": ["Magic frame*", "Stone wall segment*"],
 				"Level": 80,
 				"Primary": true,
 				"Priority": 2
 			},
-			"Build a ~|marble portal|~": {
-				"Category": ["InsidePOH Primary"],
-				"Chunks": ["Player-owned house"],
-				"Items": ["Marble block*"],
+			"Build the tier 3 ~|Ranger's Workroom|~": {
+				"Tasks": {
+					"Build the tier 2 ~|Ranger's Workroom|~": "Construction"
+				},
+				"Items": ["Magic frame*", "Stone wall segment*"],
 				"Level": 80,
 				"Primary": true,
 				"Priority": 3
-			},
-			"Plant a ~|tall box hedge|~ in your player-owned house": {
-				"Category": ["InsidePOH Primary"],
-				"Chunks": ["Player-owned house"],
-				"Items": ["Tall box hedge (bagged)*", "WateringCan[+]"],
-				"Level": 80,
-				"Skills": {
-					"Farming": 1
-				},
-				"Primary": true,
-				"Priority": 4
-			},
-			"Build a ~|tangle vine|~": {
-				"Category": ["InsidePOH Primary"],
-				"Chunks": ["Player-owned house"],
-				"Level": 80,
-				"Primary": true,
-				"Priority": 5
-			},
-			"Build a ~|spiked cage|~": {
-				"Category": ["InsidePOH Primary"],
-				"Chunks": ["Player-owned house"],
-				"Items": ["Steel bar*"],
-				"Level": 80,
-				"Primary": true,
-				"Priority": 6
-			},
-			"Build a ~|Kalphite Soldier (player-owned house)|~": {
-				"Category": ["InsidePOH Primary"],
-				"Chunks": ["Player-owned house"],
-				"Level": 80,
-				"Primary": true,
-				"Priority": 7
-			},
-			"Build a ~|salvage hunter suit|~": {
-				"Category": ["InsidePOH Primary"],
-				"Chunks": ["Player-owned house"],
-				"Items": ["Bronze bar*", "Fishbowl*", "Telescope lenses*"],
-				"Level": 80,
-				"Primary": true,
-				"Priority": 8
 			},
 			"Build a medium dinosaur pen in your ~|Ranch out of Time|~": {
 				"Chunks": ["14916"],
@@ -14644,15 +11415,7 @@
 				},
 				"Output Object": "Medium dinosaur pen",
 				"Primary": false,
-				"Priority": 9
-			},
-			"Make ~|magic planks|~ at the sawmill in Fort Forinthry": {
-				"Items": ["Magic logs*"],
-				"Objects": ["Sawmill"],
-				"Level": 80,
-				"Output": "Magic plank",
-				"Primary": true,
-				"Priority": 10
+				"Priority": 100
 			},
 			"Make ~|refined magic planks|~ at the sawmill in Fort Forinthry": {
 				"Items": ["Magic plank*"],
@@ -14660,7 +11423,7 @@
 				"Level": 80,
 				"Output": "Refined magic plank",
 				"Primary": true,
-				"Priority": 11
+				"Priority": 101
 			},
 			"Make a ~|magic frame|~ at the sawmill in Fort Forinthry": {
 				"Items": ["Refined magic plank*"],
@@ -14668,25 +11431,7 @@
 				"Level": 80,
 				"Output": "Magic frame",
 				"Primary": true,
-				"Priority": 12
-			},
-			"Build the tier 3 ~|Town Hall (Fort Forinthry)|~": {
-				"Tasks": {
-					"Build the tier 2 ~|Town Hall (Fort Forinthry)|~": "Construction"
-				},
-				"Items": ["Magic frame*", "Stone wall segment*"],
-				"Level": 80,
-				"Primary": true,
-				"Priority": 13
-			},
-			"Build the tier 3 ~|Ranger's Workroom|~": {
-				"Tasks": {
-					"Build the tier 2 ~|Ranger's Workroom|~": "Construction"
-				},
-				"Items": ["Magic frame*", "Stone wall segment*"],
-				"Level": 80,
-				"Primary": true,
-				"Priority": 14
+				"Priority": 102
 			},
 			"Build the giant crayfish pool at the ~|Wendlewick fish farm|~": {
 				"Items": ["Big fishing net*", "Magic plank*", "Rune nails*", "Bolt of cloth*"],
@@ -14699,177 +11444,7 @@
 					"Fishing": 84
 				},
 				"Primary": false,
-				"Priority": 15
-			},
-			"Build a ~|gilded throne|~": {
-				"Category": ["InsidePOH Primary"],
-				"Chunks": ["Player-owned house"],
-				"Items": ["Mahogany plank*", "Marble block*", "Gold leaf*"],
-				"Level": 81,
-				"Primary": true,
-				"Priority": 1
-			},
-			"Build a ~|gilded cape rack|~": {
-				"Category": ["InsidePOH Primary"],
-				"Chunks": ["Player-owned house"],
-				"Items": ["Mahogany plank*", "Gold leaf*"],
-				"Level": 81,
-				"Primary": true,
-				"Priority": 2
-			},
-			"Build a ~|balance beam|~": {
-				"Category": ["InsidePOH Primary"],
-				"Chunks": ["Player-owned house"],
-				"Items": ["Teak plank*", "Steel bar*"],
-				"Level": 81,
-				"Primary": true,
-				"Priority": 3
-			},
-			"Build an ~|archery target|~": {
-				"Category": ["InsidePOH Primary"],
-				"Chunks": ["Player-owned house"],
-				"Items": ["Teak plank*", "Steel bar*"],
-				"Level": 81,
-				"Primary": true,
-				"Priority": 4
-			},
-			"Build a ~|posh fountain|~": {
-				"Category": ["InsidePOH Primary"],
-				"Chunks": ["Player-owned house"],
-				"Items": ["Marble block*"],
-				"Level": 81,
-				"Primary": true,
-				"Priority": 5
-			},
-			"Build a ~|boutique prawnbroker|~": {
-				"Category": ["InsidePOH Primary"],
-				"Chunks": ["Player-owned house"],
-				"Items": ["Mahogany plank*", "Porthole*"],
-				"Level": 81,
-				"Primary": true,
-				"Priority": 6
-			},
-			"Build a ~|mahogany armour case|~": {
-				"Category": ["InsidePOH Primary"],
-				"Chunks": ["Player-owned house"],
-				"Items": ["Mahogany plank*"],
-				"Level": 82,
-				"Primary": true,
-				"Priority": 1
-			},
-			"Build a ~|marble staircase|~": {
-				"Category": ["InsidePOH Primary"],
-				"Chunks": ["Player-owned house"],
-				"Items": ["Mahogany plank*", "Marble block*"],
-				"Level": 82,
-				"Primary": true,
-				"Priority": 2
-			},
-			"Put a ~|baby red dragon (player-owned house)|~ in your player-owned house": {
-				"Category": ["InsidePOH Primary"],
-				"Chunks": ["Player-owned house"],
-				"Level": 82,
-				"Primary": true,
-				"Priority": 3
-			},
-			"Build a ~|lesser magic cage|~": {
-				"Category": ["InsidePOH Primary"],
-				"Chunks": ["Player-owned house"],
-				"Items": ["Mahogany plank*", "Magic stone*"],
-				"Level": 82,
-				"Primary": true,
-				"Priority": 4
-			},
-			"Build an ~|infernal chart|~": {
-				"Category": ["InsidePOH Primary"],
-				"Chunks": ["Player-owned house"],
-				"Items": ["Bolt of cloth*"],
-				"Level": 83,
-				"Primary": true,
-				"Priority": 1
-			},
-			"Build a ~|decorative pipe|~": {
-				"Category": ["InsidePOH Primary"],
-				"Chunks": ["Player-owned house"],
-				"Items": ["Steel bar*"],
-				"Level": 83,
-				"Primary": true,
-				"Priority": 2
-			},
-			"Put a ~|rocnar|~ in your player-owned house": {
-				"Category": ["InsidePOH Primary"],
-				"Chunks": ["Player-owned house"],
-				"Level": 83,
-				"Primary": true,
-				"Priority": 3
-			},
-			"Build a ~|teak chest|~": {
-				"Category": ["InsidePOH Primary"],
-				"Chunks": ["Player-owned house"],
-				"Items": ["Teak plank*", "Steel bar*"],
-				"Level": 83,
-				"Primary": true,
-				"Priority": 4
-			},
-			"Build a ~|major pit trap|~": {
-				"Category": ["InsidePOH Primary"],
-				"Chunks": ["Player-owned house"],
-				"Items": ["Fire rune*"],
-				"Level": 83,
-				"Tasks": {
-					"~|Love Story|~ Complete the quest": "Quest"
-				},
-				"Primary": true,
-				"Priority": 5
-			},
-			"Build a ~|mahogany treasure chest|~": {
-				"Category": ["InsidePOH Primary"],
-				"Chunks": ["Player-owned house"],
-				"Items": ["Mahogany plank*"],
-				"Level": 84,
-				"Primary": true,
-				"Priority": 1
-			},
-			"Build a ~|torch (player-owned house)|~": {
-				"Category": ["InsidePOH Primary"],
-				"Chunks": ["Player-owned house"],
-				"Items": ["Oak plank*", "Lit torch*"],
-				"Level": 84,
-				"Primary": true,
-				"Priority": 2
-			},
-			"Build a ~|mahogany telescope|~": {
-				"Category": ["InsidePOH Primary"],
-				"Chunks": ["Player-owned house"],
-				"Items": ["Mahogany plank*", "Molten glass*"],
-				"Level": 84,
-				"Primary": true,
-				"Priority": 3
-			},
-			"Put a ~|pit scabarite|~ in your player-owned house": {
-				"Category": ["InsidePOH Primary"],
-				"Chunks": ["Player-owned house"],
-				"Level": 84,
-				"Tasks": {
-					"~|Love Story|~ Complete the quest": "Quest"
-				},
-				"Primary": true,
-				"Priority": 4
-			},
-			"Build a ~|steel-plated door|~": {
-				"Category": ["InsidePOH Primary"],
-				"Chunks": ["Player-owned house"],
-				"Items": ["Oak plank*", "Steel bar*"],
-				"Level": 84,
-				"Primary": true,
-				"Priority": 5
-			},
-			"Build a ~|marble trap|~": {
-				"Category": ["InsidePOH Primary"],
-				"Chunks": ["Player-owned house"],
-				"Level": 84,
-				"Primary": true,
-				"Priority": 6
+				"Priority": 103
 			},
 			"Upgrade the ~|spirit pig machine|~ to (tier 3)": {
 				"Items": ["Teak plank", "Mithril bar", "Nails[+]"],
@@ -14884,37 +11459,7 @@
 					"Summoning": 84,
 					"Crafting": 84
 				},
-				"Priority": 7
-			},
-			"Build a ~|gilded clock|~": {
-				"Category": ["InsidePOH Primary"],
-				"Chunks": ["Player-owned house"],
-				"Items": ["Mahogany plank*", "Clockwork*", "Gold leaf*"],
-				"Level": 85,
-				"Primary": true,
-				"Priority": 1
-			},
-			"Build a ~|bone cage|~": {
-				"Category": ["InsidePOH Primary"],
-				"Chunks": ["Player-owned house"],
-				"Items": ["Oak plank*", "Bones*"],
-				"Level": 85,
-				"Primary": true,
-				"Priority": 2
-			},
-			"Build a ~|Tok-Xil (player-owned house)|~": {
-				"Category": ["InsidePOH Primary"],
-				"Chunks": ["Player-owned house"],
-				"Level": 85,
-				"Primary": true,
-				"Priority": 3
-			},
-			"Change the lighting in your ~|house style|~ to night": {
-				"Category": ["Construction Milestone"],
-				"NPCs": ["Estate agent[+]"],
-				"Level": 85,
-				"Primary": false,
-				"Priority": 4
+				"Priority": 1000
 			},
 			"Build the tier 3 ~|Kitchen (Fort Forinthry)|~": {
 				"Tasks": {
@@ -14923,178 +11468,45 @@
 				"Items": ["Magic frame*", "Stone wall segment*"],
 				"Level": 85,
 				"Primary": true,
-				"Priority": 5
-			},
-			"Build a ~|mahogany toy box|~": {
-				"Category": ["InsidePOH Primary"],
-				"Chunks": ["Player-owned house"],
-				"Items": ["Mahogany plank*"],
-				"Level": 86,
-				"Primary": true,
 				"Priority": 1
-			},
-			"Put a ~|huge spider|~ in your player-owned house": {
-				"Category": ["InsidePOH Primary"],
-				"Chunks": ["Player-owned house"],
-				"Level": 86,
-				"Primary": true,
-				"Priority": 2
-			},
-			"Build a ~|small orrery|~": {
-				"Category": ["InsidePOH Primary"],
-				"Chunks": ["Player-owned house"],
-				"Items": ["Mahogany plank*", "Gold leaf*"],
-				"Level": 86,
-				"Primary": true,
-				"Priority": 3
-			},
-			"Build a ~|kite shield (Construction)|~": {
-				"Category": ["InsidePOH Primary"],
-				"Chunks": ["Player-owned house"],
-				"Items": ["Mahogany plank*"],
-				"Level": 86,
-				"Primary": true,
-				"Priority": 4
-			},
-			"Build a ~|gilded wardrobe|~": {
-				"Category": ["InsidePOH Primary"],
-				"Chunks": ["Player-owned house"],
-				"Items": ["Mahogany plank*", "Gold leaf*"],
-				"Level": 87,
-				"Primary": true,
-				"Priority": 1
-			},
-			"Build a ~|gilded magic wardrobe|~": {
-				"Category": ["InsidePOH Primary"],
-				"Chunks": ["Player-owned house"],
-				"Items": ["Mahogany plank*", "Gold leaf*"],
-				"Level": 87,
-				"Primary": true,
-				"Priority": 2
-			},
-			"Build a ~|mahogany chest|~": {
-				"Category": ["InsidePOH Primary"],
-				"Chunks": ["Player-owned house"],
-				"Items": ["Mahogany plank*", "Gold leaf*"],
-				"Level": 87,
-				"Primary": true,
-				"Priority": 3
-			},
-			"Build a ~|skeleton throne|~": {
-				"Category": ["InsidePOH Primary"],
-				"Chunks": ["Player-owned house"],
-				"Items": ["Magic stone*", "Marble block*", "Bones*", "Skull*"],
-				"Level": 88,
-				"Primary": true,
-				"Priority": 1
-			},
-			"Build a ~|teleport trap|~": {
-				"Category": ["InsidePOH Primary"],
-				"Chunks": ["Player-owned house"],
-				"Level": 88,
-				"Primary": true,
-				"Priority": 2
-			},
-			"Build a ~|mahogany level|~": {
-				"Category": ["InsidePOH Primary"],
-				"Chunks": ["Player-owned house"],
-				"Items": ["Mahogany plank*"],
-				"Level": 88,
-				"Primary": true,
-				"Priority": 3
-			},
-			"Build a ~|mahogany trapdoor|~": {
-				"Category": ["InsidePOH Primary"],
-				"Chunks": ["Player-owned house"],
-				"Items": ["Mahogany plank*"],
-				"Level": 88,
-				"Primary": true,
-				"Priority": 4
-			},
-			"Build a ~|mahogany ladder|~": {
-				"Category": ["InsidePOH Primary"],
-				"Chunks": ["Player-owned house"],
-				"Items": ["Mahogany plank*"],
-				"Level": 88,
-				"Primary": true,
-				"Priority": 5
 			},
 			"Build a master ~|hidey-hole|~": {
 				"Chunks": ["MasterHideyHoles[+]"],
 				"Items": ["Mahogany plank*", "Nails[+]*", "Gold leaf*"],
 				"Level": 88,
 				"Primary": false,
-				"Priority": 6
+				"Priority": 100
 			},
-			"Build a ~|greater magic circle|~": {
-				"Category": ["InsidePOH Primary"],
-				"Chunks": ["Player-owned house"],
-				"Items": ["Mahogany plank*", "Magic stone*"],
-				"Level": 89,
+			"Make ~|elder planks|~ at the sawmill in Fort Forinthry": {
+				"Items": ["Elder logs*"],
+				"Objects": ["Sawmill"],
+				"Level": 90,
+				"Output": "Elder plank",
 				"Primary": true,
 				"Priority": 1
 			},
-			"Build a ~|large statue|~": {
-				"Category": ["InsidePOH Primary"],
-				"Chunks": ["Player-owned house"],
-				"Items": ["Marble block*"],
-				"Level": 89,
-				"Primary": true,
-				"Priority": 2
-			},
-			"Build a ~|stained glass window|~": {
-				"Category": ["InsidePOH Primary"],
-				"Chunks": ["Player-owned house"],
-				"Items": ["Molten glass*"],
-				"Level": 89,
-				"Primary": true,
-				"Priority": 3
-			},
-			"Put a ~|pit black demon|~ in your player-owned house": {
-				"Category": ["InsidePOH Primary"],
-				"Chunks": ["Player-owned house"],
-				"Level": 89,
+			"Build the tier 3 ~|Chapel (Fort Forinthry)|~": {
 				"Tasks": {
-					"~|Love Story|~ Complete the quest": "Quest"
+					"Build the tier 2 ~|Chapel (Fort Forinthry)|~": "Construction"
 				},
-				"Primary": true,
-				"Priority": 4
-			},
-			"Build a ~|marble cape rack|~": {
-				"Category": ["InsidePOH Primary"],
-				"Chunks": ["Player-owned house"],
-				"Items": ["Marble block*"],
-				"Level": 90,
-				"Primary": true,
-				"Priority": 1
-			},
-			"Build a ~|dagannoth (player-owned house)|~": {
-				"Category": ["InsidePOH Primary"],
-				"Chunks": ["Player-owned house"],
+				"Items": ["Elder frame*", "Stone wall segment*"],
 				"Level": 90,
 				"Primary": true,
 				"Priority": 2
-			},
-			"Put a ~|troll (player-owned house)|~ in your player-owned house": {
-				"Category": ["InsidePOH Primary"],
-				"Chunks": ["Player-owned house"],
-				"Level": 90,
-				"Primary": true,
-				"Priority": 3
 			},
 			"Build the third tier of the player lodge in your ~|Anachronia base camp|~": {
 				"Chunks": ["15939-1"],
 				"Items": ["Dinosaur rib bone*"],
 				"Level": 90,
 				"Primary": false,
-				"Priority": 4
+				"Priority": 100
 			},
 			"Repair an ~|abandoned siege engine|~": {
 				"Chunks": ["Senntisten"],
 				"Items": ["Siege engine parts*"],
 				"Level": 90,
 				"Primary": false,
-				"Priority": 5
+				"Priority": 101
 			},
 			"Unlock ~|the architect|~ in the player-owned port": {
 				"Category": ["PortSkills"],
@@ -15103,7 +11515,7 @@
 				"Primary": false,
 				"NoBoost": true,
 				"NoPet": true,
-				"Priority": 6
+				"Priority": 1000
 			},
 			"Build a large dinosaur pen in your ~|Ranch out of Time|~": {
 				"Chunks": ["14660"],
@@ -15118,7 +11530,7 @@
 				},
 				"Output Object": "Large dinosaur pen",
 				"Primary": false,
-				"Priority": 7
+				"Priority": 102
 			},
 			"Build a second large dinosaur pen in your ~|Ranch out of Time|~": {
 				"Chunks": ["14659"],
@@ -15133,7 +11545,23 @@
 				},
 				"Output Object": "Large dinosaur pen",
 				"Primary": false,
-				"Priority": 8
+				"Priority": 103
+			},
+			"Make ~|refined elder planks|~ at the sawmill in Fort Forinthry": {
+				"Items": ["Elder plank*"],
+				"Objects": ["Sawmill"],
+				"Level": 90,
+				"Output": "Refined elder plank",
+				"Primary": true,
+				"Priority": 102
+			},
+			"Make an ~|elder frame|~ at the sawmill in Fort Forinthry": {
+				"Items": ["Refined elder plank*"],
+				"Objects": ["Sawmill"],
+				"Level": 90,
+				"Output": "Elder frame",
+				"Primary": true,
+				"Priority": 103
 			},
 			"Enter a tier three ~|Shifting Tombs|~": {
 				"Chunks": ["Shifting Tombs"],
@@ -15148,14 +11576,7 @@
 					"Divination": 90
 				},
 				"Primary": false,
-				"Priority": 9
-			},
-			"Repair the ~|abandoned siege engine|~": {
-				"Chunks": ["Senntisten"],
-				"Items": ["Siege engine parts"],
-				"Level": 90,
-				"Primary": false,
-				"Priority": 10
+				"Priority": 1001
 			},
 			"Make a ~|Milestone cape (90)|~": {
 				"Category": ["Skillcape"],
@@ -15194,79 +11615,8 @@
 					"Thieving": 90,
 					"Woodcutting": 90
 				},
-				"Priority": 11,
+				"Priority": 1002,
 				"Not F2P": true
-			},
-			"Make ~|elder planks|~ at the sawmill in Fort Forinthry": {
-				"Items": ["Elder logs*"],
-				"Objects": ["Sawmill"],
-				"Level": 90,
-				"Output": "Elder plank",
-				"Primary": true,
-				"Priority": 12
-			},
-			"Make ~|refined elder planks|~ at the sawmill in Fort Forinthry": {
-				"Items": ["Elder plank*"],
-				"Objects": ["Sawmill"],
-				"Level": 90,
-				"Output": "Refined elder plank",
-				"Primary": true,
-				"Priority": 13
-			},
-			"Make an ~|elder frame|~ at the sawmill in Fort Forinthry": {
-				"Items": ["Refined elder plank*"],
-				"Objects": ["Sawmill"],
-				"Level": 90,
-				"Output": "Elder frame",
-				"Primary": true,
-				"Priority": 14
-			},
-			"Build the tier 3 ~|Chapel (Fort Forinthry)|~": {
-				"Tasks": {
-					"Build the tier 2 ~|Chapel (Fort Forinthry)|~": "Construction"
-				},
-				"Items": ["Elder frame*", "Stone wall segment*"],
-				"Level": 90,
-				"Primary": true,
-				"Priority": 15
-			},
-			"Build a ~|magic chest|~": {
-				"Category": ["InsidePOH Primary"],
-				"Chunks": ["Player-owned house"],
-				"Items": ["Magic stone*"],
-				"Level": 91,
-				"Primary": true,
-				"Priority": 1
-			},			
-			"Feed a ~|starved ancient effigy|~ with construction": {
-				"Items": ["Starved ancient effigy (construction/thieving)"],
-				"Level": 91,
-				"Primary": false,
-				"Priority": 2
-			},
-			"Build a ~|consecrated pet house|~": {
-				"Category": ["InsidePOH Primary"],
-				"Chunks": ["Player-owned house"],
-				"Items": ["Mahogany plank*", "Magic stone*"],
-				"Level": 92,
-				"Primary": true,
-				"Priority": 1
-			},
-			"Build a ~|desecrated pet house|~": {
-				"Category": ["InsidePOH Primary"],
-				"Chunks": ["Player-owned house"],
-				"Items": ["Mahogany plank*", "Magic stone*"],
-				"Level": 92,
-				"Primary": true,
-				"Priority": 2
-			},
-			"Build a ~|natural pet house|~": {
-				"Category": ["InsidePOH Primary"],
-				"Chunks": ["Player-owned house"],
-				"Items": ["Mahogany plank*", "Magic stone*"],
-				"Level": 92,
-				"Primary": true,
-				"Priority": 3
 			},
 			"Build the tier 3 ~|Botanist's Workbench|~": {
 				"Tasks": {
@@ -15275,73 +11625,13 @@
 				"Items": ["Elder frame*", "Stone wall segment*"],
 				"Level": 92,
 				"Primary": true,
-				"Priority": 4
+				"Priority": 1
 			},
 			"Feed a ~|nourished ancient effigy|~ with construction": {
 				"Items": ["Nourished ancient effigy (construction/thieving)"],
 				"Level": 93,
 				"Primary": false,
-				"Priority": 1
-			},
-			"Build a ~|hanging skeleton|~": {
-				"Category": ["InsidePOH Primary"],
-				"Chunks": ["Player-owned house"],
-				"Items": ["Skull*", "Bones*"],
-				"Level": 94,
-				"Primary": true,
-				"Priority": 1
-			},
-			"Build a ~|skull torch|~": {
-				"Category": ["InsidePOH Primary"],
-				"Chunks": ["Player-owned house"],
-				"Items": ["Skull*", "Oak plank*", "Lit torch*"],
-				"Level": 94,
-				"Primary": true,
-				"Priority": 2
-			},
-			"Put a ~|hellhound (player-owned house)|~ in your player-owned house": {
-				"Category": ["InsidePOH Primary"],
-				"Chunks": ["Player-owned house"],
-				"Level": 94,
-				"Primary": true,
-				"Priority": 3
-			},
-			"Build a ~|marble door|~": {
-				"Category": ["InsidePOH Primary"],
-				"Chunks": ["Player-owned house"],
-				"Items": ["Marble block*"],
-				"Level": 94,
-				"Primary": true,
-				"Priority": 4
-			},
-			"Build a ~|crystal throne|~": {
-				"Category": ["InsidePOH Primary"],
-				"Chunks": ["Player-owned house"],
-				"Items": ["Magic stone*"],
-				"Level": 95,
-				"Primary": true,
-				"Priority": 1
-			},
-			"Build a ~|large orrery|~": {
-				"Category": ["InsidePOH Primary"],
-				"Chunks": ["Player-owned house"],
-				"Items": ["Mahogany plank*", "Gold leaf*"],
-				"Level": 95,
-				"Primary": true,
-				"Priority": 2
-			},
-			"Build a ~|steel dragon (player-owned house)|~": {
-				"Category": ["InsidePOH Primary"],
-				"Chunks": ["Player-owned house"],
-				"Level": 95,
-				"Primary": true,
-				"Priority": 3
-			},
-			"Feed a ~|sated ancient effigy|~ with construction": {
-				"Items": ["Sated ancient effigy (construction/thieving)"],
-				"Level": 95,
-				"Primary": false,
-				"Priority": 4
+				"Priority": 1000
 			},
 			"Build the tier 3 ~|Guardhouse|~": {
 				"Tasks": {
@@ -15350,75 +11640,19 @@
 				"Items": ["Elder frame*", "Stone wall segment*"],
 				"Level": 95,
 				"Primary": true,
-				"Priority": 5
-			},
-			"Build a ~|marble magic wardrobe|~": {
-				"Category": ["InsidePOH Primary"],
-				"Chunks": ["Player-owned house"],
-				"Items": ["Marble block*"],
-				"Level": 96,
-				"Primary": true,
 				"Priority": 1
 			},
-			"Build a ~|superior pit trap|~": {
-				"Category": ["InsidePOH Primary"],
-				"Chunks": ["Player-owned house"],
-				"Items": ["Fire rune*"],
-				"Level": 96,
-				"Tasks": {
-					"~|Love Story|~ Complete the quest": "Quest"
-				},
-				"Primary": true,
-				"Priority": 2
-			},
-			"Build a ~|marble spiral|~": {
-				"Category": ["InsidePOH Primary"],
-				"Chunks": ["Player-owned house"],
-				"Items": ["Teak plank*", "Marble block*"],
-				"Level": 97,
-				"Primary": true,
-				"Priority": 1
-			},
-			"Put a ~|pit iron dragon|~ in your player-owned house": {
-				"Category": ["InsidePOH Primary"],
-				"Chunks": ["Player-owned house"],
-				"Level": 97,
-				"Tasks": {
-					"~|Love Story|~ Complete the quest": "Quest"
-				},
-				"Primary": true,
-				"Priority": 2
+			"Feed a ~|sated ancient effigy|~ with construction": {
+				"Items": ["Sated ancient effigy (construction/thieving)"],
+				"Level": 95,
+				"Primary": false,
+				"Priority": 1000
 			},
 			"Feed a ~|gorged ancient effigy|~ with construction": {
 				"Items": ["Gorged ancient effigy (construction/thieving)"],
 				"Level": 97,
 				"Primary": false,
-				"Priority": 3
-			},
-			"Build a ~|demonic throne|~": {
-				"Category": ["InsidePOH Primary"],
-				"Chunks": ["Player-owned house"],
-				"Items": ["Magic stone*"],
-				"Level": 99,
-				"Primary": true,
-				"Priority": 2
-			},
-			"Build a ~|magical cape rack|~": {
-				"Category": ["InsidePOH Primary"],
-				"Chunks": ["Player-owned house"],
-				"Items": ["Magic stone*"],
-				"Level": 99,
-				"Primary": true,
-				"Priority": 3
-			},
-			"Buy the ~|Construction cape|~": {
-				"Category": ["Skillcape"],
-				"NPCs": ["Estate agent"],
-				"Level": 99,
-				"Output": "Construction cape",
-				"Primary": false,
-				"NoBoost": true,
-				"Priority": 4
+				"Priority": 1000
 			},
 			"Build the tier 3 ~|Command Centre|~": {
 				"Tasks": {
@@ -15427,7 +11661,16 @@
 				"Items": ["Elder frame*", "Stone wall segment*"],
 				"Level": 99,
 				"Primary": true,
-				"Priority": 6
+				"Priority": 1
+			},
+			"Buy the ~|Construction cape|~": {
+				"Category": ["Skillcape"],
+				"NPCs": ["Estate agent"],
+				"Level": 99,
+				"Output": "Construction cape",
+				"Primary": false,
+				"NoBoost": true,
+				"Priority": 1000
 			},
 			"Buy the ~|Construction master cape|~": {
 				"Category": ["Master skillcape"],
@@ -15436,7 +11679,7 @@
 				"Output": "Construction master cape",
 				"Primary": false,
 				"NoBoost": true,
-				"Priority": 3
+				"Priority": 1000
 			}
 		},
 		"Cooking": {
@@ -16140,39 +12383,6 @@
 				"Primary": true,
 				"Priority": 71,
 				"Partial": true
-			},
-			"Make a ~|cup of tea (clay)|~": {
-				"Items": ["Tea leaves", "Clay cup"],
-				"Level": 1,
-				"Tasks": {
-					"Build a ~|small oven|~": "Construction",
-					"Build a ~|pump and drain|~": "Construction"
-				},
-				"Output": "Cup of tea (clay)",
-				"Primary": true,
-				"Priority": 72
-			},
-			"Make a ~|cup of tea (white)|~": {
-				"Items": ["Tea leaves", "Porcelain cup"],
-				"Level": 1,
-				"Tasks": {
-					"Build a ~|small oven|~": "Construction",
-					"Build a ~|pump and drain|~": "Construction"
-				},
-				"Output": "Cup of tea (white)",
-				"Primary": true,
-				"Priority": 73
-			},
-			"Make a ~|cup of tea (gold)|~": {
-				"Items": ["Tea leaves", "Gold trimmed porcelain cup"],
-				"Level": 1,
-				"Tasks": {
-					"Build a ~|small oven|~": "Construction",
-					"Build a ~|pump and drain|~": "Construction"
-				},
-				"Output": "Cup of tea (gold)",
-				"Primary": true,
-				"Priority": 74
 			},
 			"Use an ~|experience lamp|~ from the Waiko Reward Shop on Cooking": {
 				"Category": ["XP Lamps"],
@@ -38318,16 +34528,6 @@
 				"Primary": true,
 				"Output": "Raw great white shark",
 				"Priority": 1
-			},
-			"Catch a ~|raw great white shark|~ after unlocking the prawnbroker perk": {
-				"Tasks": {
-					"Build a ~|driftwood prawnbroker|~": "Construction"
-				},
-				"Level": 80,
-				"Objects": ["Fishing spot (big fishing net, harpoon)"],
-				"Primary": true,
-				"Output": "Raw great white shark",
-				"Priority": 100
 			},
 			"Equip a ~|superior casket-salvaging scrimshaw|~": {
 				"Items": ["Superior casket-salvaging scrimshaw"],
