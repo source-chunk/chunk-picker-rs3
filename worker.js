@@ -235,7 +235,7 @@ let highestSkillLevels = {
     "Smithing": 110,
     "Crafting": 110,
     "Agility": 99,
-    "Construction": 99,
+    "Construction": 120,
     "Combat": 152,
     "Divination": 99,
     "Archaeology": 120,
@@ -3898,7 +3898,7 @@ let calcChallengesWork = function(chunks, baseChunkData, oldTempItemSkill) {
 					nonValids[name] = wrongThings;
 					return;
 				}
-				if((skill == "Archaeology" || skill == "Necormancy") && chunkInfo['challenges'][skill][name]['Level'] > 20) {
+				if((skill == "Archaeology" || skill == "Necormancy" || skill == "Construction") && chunkInfo['challenges'][skill][name]['Level'] > 20) {
 					validChallenge = false;
 					wrongThings.push('F2P');
 					nonValids[name] = wrongThings;
@@ -3915,7 +3915,7 @@ let calcChallengesWork = function(chunks, baseChunkData, oldTempItemSkill) {
 					if(chunkInfo['challenges'][skill][name].hasOwnProperty(type))
 					{
 						Object.keys(chunkInfo['challenges'][skill][name][type]).forEach((subSkill) => {
-							if((subSkill == "Archaeology" || subSkill == "Necormancy") && chunkInfo['challenges'][skill][name][type][subSkill] > 20) {
+							if((subSkill == "Archaeology" || subSkill == "Necormancy" || subSkill == "Construction") && chunkInfo['challenges'][skill][name][type][subSkill] > 20) {
 								validChallenge = false;
 								wrongThings.push('F2P');
 								nonValids[name] = wrongThings;
