@@ -108468,12 +108468,12 @@
 				"RuneScore": 25
 			},
 			"~|Ardougne Achievements#Elite|~ Almost Made in Ardougne": {
-				"Description": "Make a rune crossbow from scratch, performing each step within either Witchaven or Yanille.",
+				"Description": "Make a necronium crossbow from scratch, performing each step within either Witchaven or Yanille.",
 				"Chunks": ["10803", "10288-1"],
-				"Items": ["Yew logs", "Rune bar", "SinewMeat[+]"],
+				"Items": ["Yew logs", "Necronium bar", "SinewMeat[+]"],
 				"Skills": {
-					"Smithing": 50,
-					"Fletching": 69,
+					"Smithing": 70,
+					"Fletching": 73,
 					"Crafting": 10
 				},
 				"Tasks": {
@@ -137938,14 +137938,6 @@
 				"RuneScore": 10,
 				"Not F2P": true
 			},
-			"~|Combat achievements#God Wars Dungeon|~ Kill Count Still Counts": {
-				"Category": ["Misc Combat achievements", "Combat Mastery achievements"],
-				"Description": "Create an omni soulstone from the Saradominist, Zamorakian, Bandosian and Armadylean soulstones dropped by the hard mode bosses in the God Wars Dungeon.",
-				"BaseQuest": "Combat achievements",
-				"Items": ["Omni soulstone"],
-				"RuneScore": 30,
-				"Not F2P": true
-			},
 			"~|Combat achievements#God Wars Dungeon|~ Zilly Way To Die VI": {
 				"Category": ["Misc Combat achievements", "Combat Mastery achievements"],
 				"Description": "Defeat Commander Zilyana 100 times.",
@@ -138041,7 +138033,6 @@
 				"BaseQuest": "Combat achievements",
 				"Tasks": {
 					"~|Combat achievements#God Wars Dungeon|~ God Wars Dungeon": "Diary",
-					"~|Combat achievements#God Wars Dungeon|~ Kill Count Still Counts": "Diary",
 					"~|Combat achievements#God Wars Dungeon|~ Zilly Way To Die VI": "Diary",
 					"~|Combat achievements#God Wars Dungeon|~ Zillier Way To Die VI": "Diary",
 					"~|Combat achievements#God Wars Dungeon|~ Traitorous": "Diary",
@@ -138391,15 +138382,6 @@
 				"RuneScore": 10,
 				"Not F2P": true
 			},
-			"~|Combat achievements#Dragonkin Laboratory|~ Smoulders and Skully": {
-				"Category": ["Misc Combat achievements", "Combat Mastery achievements"],
-				"Description": "Kill Smoulders while wearing the Demonic Skull.",
-				"BaseQuest": "Combat achievements",
-				"Chunks": ["Dragonkin Laboratory"],
-				"Items": ["Demonic Skull"],
-				"RuneScore": 10,
-				"Not F2P": true
-			},
 			"~|Combat achievements#Dragonkin Laboratory|~ Spiderlogical Warfare": {
 				"Category": ["Misc Combat achievements", "Combat Mastery achievements"],
 				"Description": "Defeat Spyndra with one of Araxxi's legs, eyes, fang or web in your inventory.",
@@ -138492,7 +138474,6 @@
 					"~|Combat achievements#Dragonkin Laboratory|~ Elite Dungeons and Dragons": "Diary",
 					"~|Combat achievements#Dragonkin Laboratory|~ Goopy Bloop Boop": "Diary",
 					"~|Combat achievements#Dragonkin Laboratory|~ Psychedelic Relics": "Diary",
-					"~|Combat achievements#Dragonkin Laboratory|~ Smoulders and Skully": "Diary",
 					"~|Combat achievements#Dragonkin Laboratory|~ Spiderlogical Warfare": "Diary",
 					"~|Combat achievements#Dragonkin Laboratory|~ You Won't Like Me When I'm Sangri": "Diary",
 					"~|Combat achievements#Dragonkin Laboratory|~ Besting the Celestial VI": "Diary",
@@ -139921,16 +139902,6 @@
 				"Label": "Menaphos Journal",
 				"Chunks": ["12330"],
 				"Items": ["Menaphos journal"]
-			},
-			"(Agility) Unlock the ~|Dive|~ ability": {
-				"Category": ["Unlock Abilities"],
-				"Label": "Unlockable Abilities",
-				"Requirements": {
-					"Agility": 5
-				},
-				"Tasks": {
-					"~|Succession|~ Complete the quest": "Quest"
-				}
 			},
 			"(Constitution) Unlock the ~|Ingenuity of the Humans|~ ability": {
 				"Category": ["Unlock Abilities"],
@@ -147598,30 +147569,6 @@
 				"Items": ["Vorkath's head"],
 				"Not F2P": true
 			},
-			"(God Wars Dungeon) Obtain a ~|saradominist soulstone|~": {
-				"Category": ["Untracked Uniques", "Untracked Uniques Combat"],
-				"Label": "Untracked Combat Uniques",
-				"Items": ["Saradominist soulstone"],
-				"Not F2P": true
-			},
-			"(God Wars Dungeon) Obtain a ~|bandosian soulstone|~": {
-				"Category": ["Untracked Uniques", "Untracked Uniques Combat"],
-				"Label": "Untracked Combat Uniques",
-				"Items": ["Bandosian soulstone"],
-				"Not F2P": true
-			},
-			"(God Wars Dungeon) Obtain an ~|armadylean soulstone|~": {
-				"Category": ["Untracked Uniques", "Untracked Uniques Combat"],
-				"Label": "Untracked Combat Uniques",
-				"Items": ["Armadylean soulstone"],
-				"Not F2P": true
-			},
-			"(God Wars Dungeon) Obtain a ~|zamorakian soulstone|~": {
-				"Category": ["Untracked Uniques", "Untracked Uniques Combat"],
-				"Label": "Untracked Combat Uniques",
-				"Items": ["Zamorakian soulstone"],
-				"Not F2P": true
-			},
 			"(God Wars Dungeon) Obtain a ~|frozen key piece (Zamorak)|~": {
 				"Category": ["Untracked Uniques", "Untracked Uniques Combat"],
 				"Label": "Untracked Combat Uniques",
@@ -153592,7 +153539,11 @@
 			"Unlock the ~|TzRek-Jad|~": {
 				"Category": ["Permanent Unlockables", "Pets"],
 				"Label": "Follower Pets",
-				"Items": ["TzRek-Jad"]
+				"Items": ["TzRek-Jad"],
+				"Requirements": {
+					"Summoning": 99,
+					"Slayer": 99
+				}
 			},
 			"Unlock the ~|Sneakerpeeper|~": {
 				"Category": ["Permanent Unlockables", "Pets"],
@@ -168066,14 +168017,6 @@
 			"It Still Should Have Been Called Aetherium*": {
 				"Items": ["Primal full helm + 5", "Primal platebody + 5", "Primal platelegs + 5", "Primal gauntlets + 5", "Primal armoured boots + 5"]
 			},
-			"Unlock the ~|TzRek-Jad|~": {
-				"Items": ["Fire cape"],
-				"Chunks": ["8748"],
-				"Skills": {
-					"Summoning": 99,
-					"Slayer": 99
-				}
-			},
 			"Get the ~|witchdoctor mask|~ from Herblore Habitat*": {
 				"Category": ["DnD"],
 				"Chunks": ["11821-1"],
@@ -178974,15 +178917,7 @@
 				"Output": "Penguin egg"
 			},
 			"Get skulled": {
-				"Tasks": {
-					"Get skulled[+]": "Nonskill"
-				}
-			},
-			"Get skulled by speaking to Vala": {
 				"Chunks": ["12342-1"]
-			},
-			"Get skulled with a demonic skull": {
-				"Items": ["Demonic Skull"]
 			},
 			"Obtain a warped stone": {
 				"Items": ["Warped stone"]
@@ -228813,6 +228748,7 @@
 				"Oak shortbow": true,
 				"Willow shortbow": true,
 				"Maple shortbow": true,
+				"Acadia shortbow": true,
 				"Yew shortbow": true,
 				"Magic shortbow": true,
 				"Seercull": true,
@@ -228825,6 +228761,7 @@
 				"Oak longbow": true,
 				"Willow longbow": true,
 				"Maple longbow": true,
+				"Acadia longbow": true,
 				"Yew longbow": true,
 				"Magic longbow": true,
 				"Magic composite bow": true,
@@ -228882,13 +228819,23 @@
 				"Wyvern crossbow": true,
 				"Eldritch crossbow": true,
 				"Primal crossbow": true,
-				"Primal crossbow + 1": true,
-				"Primal crossbow + 2": true,
-				"Primal crossbow + 3": true,
-				"Primal crossbow + 4": true,
-				"Primal crossbow + 5": true,
+				"Primal crossbow Mk. 5": true,
+				"Off-hand primal crossbow": true,
+				"Off-hand primal crossbow Mk. 5": true,
 				"Ruinous crossbow": true,
-				"Off-hand ruinous crossbow": true
+				"Off-hand ruinous crossbow": true,
+				"Orikalkum crossbow": true,
+				"Orikalkum crossbow": true,
+				"Off-hand orikalkum crossbow": true,
+				"Necrite crossbow": true,
+				"Necrite crossbow": true,
+				"Off-hand necrite crossbow": true,
+				"Bane crossbow": true,
+				"Bane crossbow": true,
+				"Off-hand bane crossbow": true,
+				"Elder rune crossbow": true,
+				"Elder rune crossbow": true,
+				"Off-hand elder rune crossbow": true
 			},
 			"Ogre arrow": {
 				"Ogre bow": true,
@@ -230346,7 +230293,7 @@
 				"Havensilver bolts + 1",
 				"Havensilver bolts + 1"
 			],
-			"AnyBow[+]": ["Shortbow", "Oak shortbow", "Willow shortbow", "Maple shortbow", "Yew shortbow", "Magic shortbow", "Elder shortbow", "Hexhunter bow", "Decimation", "Noxious longbow", "Seren godbow", "Bow of the Last Guardian", "Longbow", "Oak longbow", "Willow longbow", "Maple longbow", "Yew longbow", "Magic longbow", "Elder longbow", "Dark bow", "Strykebow", "Willow composite bow", "Yew composite bow", "Magic composite bow"],
+			"AnyBow[+]": ["Shortbow", "Oak shortbow", "Willow shortbow", "Maple shortbow", "Yew shortbow", "Magic shortbow", "Elder shortbow", "Hexhunter bow", "Decimation", "Noxious longbow", "Seren godbow", "Bow of the Last Guardian", "Longbow", "Oak longbow", "Willow longbow", "Maple longbow", "Yew longbow", "Magic longbow", "Elder longbow", "Dark bow", "Strykebow", "Willow composite bow", "Yew composite bow", "Magic composite bow", "Acadia shortbow", "Acadia longbow"],
 			"AnyCenterpieceMaterial[+]": ["Marble block", "Limestone brick"],
 			"AnyMemento[+]": ["Broken memento", "Fragile memento", "Spirit memento", "Robust memento", "Powerful memento"],
 			"AnyMushroom[+]": [
@@ -231971,6 +231918,8 @@
 			],
 			"FireFamiliar[+]": ["Pyrelord pouch", "Forge regent pouch"],
 			"FiremakingBow[+]": [
+				"Acadia shortbow",
+				"Acadia longbow",
 				"Dark bow",
 				"Elder longbow (sighted)",
 				"Elder longbow",
@@ -238292,7 +238241,6 @@
 				"Harvest a ~|luminous wisp|~",
 				"Harvest an ~|incandescent wisp|~"
 			],
-			"Get skulled[+]": ["Get skulled by speaking to Vala", "Get skulled with a demonic skull"],
 			"Secrets of Amberfell: Rope[+]": ["~|Secrets of Amberfell|~ 3a", "~|Secrets of Amberfell|~ 3b"]
 		},
 		"tasksPlusNames": {
@@ -241984,10 +241932,10 @@
 			"Ingression fragment": {
 				"5-9": "Always"
 			},
-			"Magic shortbow": {
+			"Acadia shortbow": {
 				"1": "9/126"
 			},
-			"Magic longbow": {
+			"Acadia longbow": {
 				"1": "8/126"
 			},
 			"Water battlestaff": {
@@ -242118,10 +242066,10 @@
 			"Ingression fragment": {
 				"5-9": "Always"
 			},
-			"Magic shortbow": {
+			"Acadia shortbow": {
 				"1": "9/126"
 			},
-			"Magic longbow": {
+			"Acadia longbow": {
 				"1": "8/126"
 			},
 			"Water battlestaff": {
@@ -242257,10 +242205,10 @@
 			"Ingression fragment": {
 				"5-9": "Always"
 			},
-			"Magic shortbow": {
+			"Acadia shortbow": {
 				"1": "9/126"
 			},
-			"Magic longbow": {
+			"Acadia longbow": {
 				"1": "8/126"
 			},
 			"Water battlestaff": {
@@ -242337,7 +242285,7 @@
 			}
 		},
 		"Angry barbarian spirit": {
-			"Yew shortbow": {
+			"Maple shortbow": {
 				"1": "3/123"
 			},
 			"Battlestaff": {
@@ -243527,10 +243475,7 @@
 			"Maple shortbow": {
 				"1-2 (noted)": "11/128"
 			},
-			"Yew shortbow": {
-				"1-2 (noted)": "11/128"
-			},
-			"Magic shortbow": {
+			"Acadia shortbow": {
 				"1-2 (noted)": "2/128"
 			},
 			"Amulet of strength": {
@@ -243809,10 +243754,10 @@
 			"Ingression fragment": {
 				"15-29": "Always"
 			},
-			"Magic shortbow": {
+			"Acadia shortbow": {
 				"1": "9/124"
 			},
-			"Magic longbow": {
+			"Acadia longbow": {
 				"1": "8/124"
 			},
 			"Water battlestaff": {
@@ -243875,10 +243820,10 @@
 			"Ingression fragment": {
 				"25-49": "Always"
 			},
-			"Magic shortbow": {
+			"Acadia shortbow": {
 				"1": "9/121"
 			},
-			"Magic longbow": {
+			"Acadia longbow": {
 				"1": "8/121"
 			},
 			"Water battlestaff": {
@@ -244706,19 +244651,19 @@
 		},
 		"Barrows": {
 			"Linza's helm": {
-				"1": "1/960"
+				"1": "1/480"
 			},
 			"Linza's cuirass": {
-				"1": "1/960"
+				"1": "1/480"
 			},
 			"Linza's greaves": {
-				"1": "1/960"
+				"1": "1/480"
 			},
 			"Linza's hammer": {
-				"1": "1/960"
+				"1": "1/480"
 			},
 			"Linza's shield": {
-				"1": "1/960"
+				"1": "1/480"
 			},
 			"Ahrim's hood": {
 				"1": "1/2628"
@@ -245235,7 +245180,7 @@
 			}
 		},
 		"Berserk barbarian spirit": {
-			"Yew shortbow": {
+			"Maple shortbow": {
 				"1": "3/123"
 			},
 			"Battlestaff": {
@@ -245893,10 +245838,10 @@
 			"Ingression fragment": {
 				"5-9": "Always"
 			},
-			"Magic shortbow": {
+			"Acadia shortbow": {
 				"1": "9/126"
 			},
-			"Magic longbow": {
+			"Acadia longbow": {
 				"1": "8/126"
 			},
 			"Water battlestaff": {
@@ -245972,10 +245917,10 @@
 			"Ingression fragment": {
 				"15-29": "Always"
 			},
-			"Magic shortbow": {
+			"Acadia shortbow": {
 				"1": "9/124"
 			},
-			"Magic longbow": {
+			"Acadia longbow": {
 				"1": "8/124"
 			},
 			"Water battlestaff": {
@@ -246802,10 +246747,10 @@
 			"Ingression fragment": {
 				"15-29": "Always"
 			},
-			"Magic shortbow": {
+			"Acadia shortbow": {
 				"1": "9/124"
 			},
-			"Magic longbow": {
+			"Acadia longbow": {
 				"1": "8/124"
 			},
 			"Water battlestaff": {
@@ -247849,10 +247794,10 @@
 			"Ingression fragment": {
 				"25-49": "Always"
 			},
-			"Magic shortbow": {
+			"Acadia shortbow": {
 				"1": "9/121"
 			},
-			"Magic longbow": {
+			"Acadia longbow": {
 				"1": "8/121"
 			},
 			"Water battlestaff": {
@@ -248697,10 +248642,10 @@
 			"Ingression fragment": {
 				"15-29": "Always"
 			},
-			"Magic shortbow": {
+			"Acadia shortbow": {
 				"1": "9/124"
 			},
-			"Magic longbow": {
+			"Acadia longbow": {
 				"1": "8/124"
 			},
 			"Water battlestaff": {
@@ -249031,7 +248976,7 @@
 				"1": "Always"
 			},
 			"Dragon pickaxe": {
-				"1": "1/10000"
+				"1": "1/1000"
 			},
 			"Dragon throwing axe": {
 				"15-25": "4/128"
@@ -249321,7 +249266,7 @@
 				"1": "Always"
 			},
 			"Dragon pickaxe": {
-				"1": "1/5000"
+				"1": "1/3000"
 			},
 			"Small plated steel salvage": {
 				"1": "2/128"
@@ -249408,10 +249353,10 @@
 			"Ingression fragment": {
 				"5-9": "Always"
 			},
-			"Magic shortbow": {
+			"Acadia shortbow": {
 				"1": "9/126"
 			},
-			"Magic longbow": {
+			"Acadia longbow": {
 				"1": "8/126"
 			},
 			"Water battlestaff": {
@@ -249475,7 +249420,7 @@
 				"1": "Always"
 			},
 			"Dragon pickaxe": {
-				"1": "1/5000"
+				"1": "1/3000"
 			},
 			"Hand cannon shot": {
 				"100": "3/132"
@@ -249569,7 +249514,7 @@
 				"1": "Always"
 			},
 			"Dragon pickaxe": {
-				"1": "1/5000"
+				"1": "1/3000"
 			},
 			"Nature rune": {
 				"18": "6/128"
@@ -250641,9 +250586,6 @@
 			"Starved ancient effigy": {
 				"1": "1/128"
 			},
-			"Saradominist soulstone": {
-				"1": "1/25"
-			},
 			"Gold charm": {
 				"1": "100.776/1000"
 			},
@@ -250712,16 +250654,16 @@
 		},
 		"Corporeal Beast": {
 			"Spectral sigil": {
-				"1": "1/1280"
+				"1": "1/1024"
 			},
 			"Arcane sigil": {
-				"1": "1/2560"
+				"1": "1/1024"
 			},
 			"Elysian sigil": {
-				"1": "1/2560"
+				"1": "1/1024"
 			},
 			"Divine sigil": {
-				"1": "1/2560"
+				"1": "1/1024"
 			},
 			"Mystic air staff": {
 				"1": "10/512"
@@ -254474,7 +254416,7 @@
 			"Gold stone spirit": {
 				"1": "2/128"
 			},
-			"Yew shortbow": {
+			"Maple shortbow": {
 				"1": "3/128"
 			},
 			"Steel arrow": {
@@ -256132,7 +256074,7 @@
 			}
 		},
 		"Enraged barbarian spirit": {
-			"Yew shortbow": {
+			"Maple shortbow": {
 				"1": "3/123"
 			},
 			"Battlestaff": {
@@ -257003,10 +256945,10 @@
 			"Ingression fragment": {
 				"15-29": "Always"
 			},
-			"Magic shortbow": {
+			"Acadia shortbow": {
 				"1": "9/124"
 			},
-			"Magic longbow": {
+			"Acadia longbow": {
 				"1": "8/124"
 			},
 			"Water battlestaff": {
@@ -259004,9 +258946,6 @@
 			},
 			"Femur bone": {
 				"1": "1/4"
-			},
-			"Bandosian soulstone": {
-				"1": "1/25"
 			},
 			"The Glory of General Graardor": {
 				"1": "1/56.9"
@@ -263061,7 +263000,7 @@
 			"Adamant limbs": {
 				"1": "2/100"
 			},
-			"Yew shortbow (unstrung)": {
+			"Maple shortbow (unstrung)": {
 				"1": "2/100"
 			},
 			"Gold charm": {
@@ -264812,10 +264751,10 @@
 			"Ingression fragment": {
 				"5-9": "Always"
 			},
-			"Magic shortbow": {
+			"Acadia shortbow": {
 				"1": "9/126"
 			},
-			"Magic longbow": {
+			"Acadia longbow": {
 				"1": "8/126"
 			},
 			"Water battlestaff": {
@@ -269413,9 +269352,6 @@
 			"Starved ancient effigy": {
 				"1": "1/128"
 			},
-			"Zamorakian soulstone": {
-				"1": "1/25"
-			},
 			"K'ril Tsutsaroth shoulder guard": {
 				"1": "1/128"
 			},
@@ -271032,9 +270968,6 @@
 			"Giant feather": {
 				"1": "1/1000"
 			},
-			"Armadylean soulstone": {
-				"1": "1/25"
-			},
 			"Gold charm": {
 				"1": "100.776/1000"
 			},
@@ -271746,9 +271679,6 @@
 			},
 			"Crossbow string": {
 				"2 (noted)": "8/100"
-			},
-			"Maple shortbow (unstrung)": {
-				"1": "2/100"
 			},
 			"Limpwurt root": {
 				"1": "2/100"
@@ -273262,10 +273192,10 @@
 			"Ingression fragment": {
 				"25-49": "Always"
 			},
-			"Magic shortbow": {
+			"Acadia shortbow": {
 				"1": "9/121"
 			},
-			"Magic longbow": {
+			"Acadia longbow": {
 				"1": "8/121"
 			},
 			"Water battlestaff": {
@@ -274810,10 +274740,10 @@
 			"Ingression fragment": {
 				"5-9": "Always"
 			},
-			"Magic shortbow": {
+			"Acadia shortbow": {
 				"1": "9/126"
 			},
-			"Magic longbow": {
+			"Acadia longbow": {
 				"1": "8/126"
 			},
 			"Water battlestaff": {
@@ -274941,10 +274871,10 @@
 			"Ingression fragment": {
 				"5-9": "Always"
 			},
-			"Magic shortbow": {
+			"Acadia shortbow": {
 				"1": "9/126"
 			},
-			"Magic longbow": {
+			"Acadia longbow": {
 				"1": "8/126"
 			},
 			"Water battlestaff": {
@@ -280658,10 +280588,10 @@
 			"Ingression fragment": {
 				"5-9": "Always"
 			},
-			"Magic shortbow": {
+			"Acadia shortbow": {
 				"1": "9/126"
 			},
-			"Magic longbow": {
+			"Acadia longbow": {
 				"1": "8/126"
 			},
 			"Water battlestaff": {
@@ -280727,10 +280657,10 @@
 			"Ingression fragment": {
 				"5-9": "Always"
 			},
-			"Magic shortbow": {
+			"Acadia shortbow": {
 				"1": "9/126"
 			},
-			"Magic longbow": {
+			"Acadia longbow": {
 				"1": "8/126"
 			},
 			"Water battlestaff": {
@@ -280796,10 +280726,10 @@
 			"Ingression fragment": {
 				"5-9": "Always"
 			},
-			"Magic shortbow": {
+			"Acadia shortbow": {
 				"1": "9/126"
 			},
-			"Magic longbow": {
+			"Acadia longbow": {
 				"1": "8/126"
 			},
 			"Water battlestaff": {
@@ -281233,10 +281163,10 @@
 			"Ingression fragment": {
 				"25-49": "Always"
 			},
-			"Magic shortbow": {
+			"Acadia shortbow": {
 				"1": "9/121"
 			},
-			"Magic longbow": {
+			"Acadia longbow": {
 				"1": "8/121"
 			},
 			"Water battlestaff": {
@@ -282117,10 +282047,10 @@
 			"Ingression fragment": {
 				"5-9": "Always"
 			},
-			"Magic shortbow": {
+			"Acadia shortbow": {
 				"1": "9/126"
 			},
-			"Magic longbow": {
+			"Acadia longbow": {
 				"1": "8/126"
 			},
 			"Water battlestaff": {
@@ -282697,7 +282627,7 @@
 			"Games necklace (2)": {
 				"12": "2/128"
 			},
-			"Yew longbow (unstrung)": {
+			"Maple longbow (unstrung)": {
 				"1": "3/128"
 			},
 			"Silver stone spirit": {
@@ -282806,7 +282736,7 @@
 			"Gold stone spirit": {
 				"1": "2/128"
 			},
-			"Yew shortbow": {
+			"Maple shortbow": {
 				"1": "3/128"
 			},
 			"Steel arrow": {
@@ -282906,10 +282836,7 @@
 			"Maple shortbow": {
 				"1-2 (noted)": "11/128"
 			},
-			"Yew shortbow": {
-				"1-2 (noted)": "11/128"
-			},
-			"Magic shortbow": {
+			"Acadia shortbow": {
 				"1-2 (noted)": "2/128"
 			},
 			"Amulet of strength": {
@@ -283054,7 +282981,7 @@
 			"Bones": {
 				"1": "Always"
 			},
-			"Yew shortbow": {
+			"Maple shortbow": {
 				"1": "3/123"
 			},
 			"Battlestaff": {
@@ -283233,7 +283160,7 @@
 			"Bones": {
 				"1": "Always"
 			},
-			"Yew shortbow": {
+			"Maple shortbow": {
 				"1": "3/123"
 			},
 			"Battlestaff": {
@@ -283342,7 +283269,7 @@
 			"Bones": {
 				"1": "Always"
 			},
-			"Yew shortbow": {
+			"Maple shortbow": {
 				"1": "3/123"
 			},
 			"Battlestaff": {
@@ -283528,7 +283455,7 @@
 			"Bones": {
 				"1": "Always"
 			},
-			"Yew shortbow": {
+			"Maple shortbow": {
 				"1": "3/123"
 			},
 			"Battlestaff": {
@@ -283637,7 +283564,7 @@
 			"Bones": {
 				"1": "Always"
 			},
-			"Yew shortbow": {
+			"Maple shortbow": {
 				"1": "3/123"
 			},
 			"Battlestaff": {
@@ -283916,10 +283843,7 @@
 			"Maple shortbow": {
 				"1-2 (noted)": "11/128"
 			},
-			"Yew shortbow": {
-				"1-2 (noted)": "11/128"
-			},
-			"Magic shortbow": {
+			"Acadia shortbow": {
 				"1-2 (noted)": "2/128"
 			},
 			"Amulet of strength": {
@@ -286441,10 +286365,7 @@
 			"Maple shortbow": {
 				"1-2 (noted)": "11/128"
 			},
-			"Yew shortbow": {
-				"1-2 (noted)": "11/128"
-			},
-			"Magic shortbow": {
+			"Acadia shortbow": {
 				"1-2 (noted)": "2/128"
 			},
 			"Amulet of strength": {
@@ -288282,6 +288203,9 @@
 			},
 			"TzTok-Jad's head": {
 				"1": "1/128"
+			},
+			"TzRek-Jad": {
+				"1": "1/200"
 			}
 		},
 		"TzekHaar-Aken": {
@@ -288400,6 +288324,9 @@
 			},
 			"TzekHaarHighValueDropTable+": {
 				"1": "125/250"
+			},
+			"TzRek-Jad": {
+				"1": "1/200"
 			}
 		},
 		"TzekHaar-Ket-Zek": {
@@ -291956,10 +291883,10 @@
 			"Ingression fragment": {
 				"5-9": "Always"
 			},
-			"Magic shortbow": {
+			"Acadia shortbow": {
 				"1": "9/126"
 			},
-			"Magic longbow": {
+			"Acadia longbow": {
 				"1": "8/126"
 			},
 			"Water battlestaff": {
@@ -292019,10 +291946,10 @@
 			"Ingression fragment": {
 				"5-9": "Always"
 			},
-			"Magic shortbow": {
+			"Acadia shortbow": {
 				"1": "9/126"
 			},
-			"Magic longbow": {
+			"Acadia longbow": {
 				"1": "8/126"
 			},
 			"Water battlestaff": {
@@ -292325,10 +292252,10 @@
 			"Ingression fragment": {
 				"5-9": "Always"
 			},
-			"Magic shortbow": {
+			"Acadia shortbow": {
 				"1": "9/126"
 			},
-			"Magic longbow": {
+			"Acadia longbow": {
 				"1": "8/126"
 			},
 			"Water battlestaff": {
@@ -293716,10 +293643,10 @@
 			"Ingression fragment": {
 				"5-9": "Always"
 			},
-			"Magic shortbow": {
+			"Acadia shortbow": {
 				"1": "9/126"
 			},
-			"Magic longbow": {
+			"Acadia longbow": {
 				"1": "8/126"
 			},
 			"Water battlestaff": {
@@ -296538,9 +296465,6 @@
 				"~|My Arm's Big Adventure|~ Complete the quest": "Quest"
 			}, {
 				"~|Legends' Quest|~ Complete the quest": "Quest"
-			}],
-			"TzRek-Jad^": [{
-				"Unlock the ~|TzRek-Jad|~": "Nonskill"
 			}],
 			"Left skull half^Ankou": [{
 				"Stronghold drops": "Nonskill"
@@ -302052,8 +301976,7 @@
 			"Body rune": true,
 			"Chaos rune": true,
 			"Death rune": true,
-			"Blood rune": true,
-			"Demonic Skull": true
+			"Blood rune": true
 		},
 		"Bedabin Village Bartering": {
 			"Waterskin (4)": true,
@@ -302249,8 +302172,6 @@
 			"Willow longbow": true,
 			"Maple shortbow": true,
 			"Maple longbow": true,
-			"Yew shortbow": true,
-			"Yew longbow": true,
 			"Bronze javelin": true,
 			"Iron javelin": true,
 			"Steel javelin": true,
@@ -302554,8 +302475,8 @@
 			"Willow stock": true,
 			"Teak stock": true,
 			"Maple stock": true,
+			"Acadia stock": true,
 			"Mahogany stock": true,
-			"Yew stock": true,
 			"Bronze limbs": true,
 			"Iron limbs": true,
 			"Steel limbs": true,
@@ -302590,8 +302511,8 @@
 			"Oak stock": true,
 			"Teak stock": true,
 			"Maple stock": true,
+			"Acadia stock": true,
 			"Mahogany stock": true,
-			"Yew stock": true,
 			"Bronze limbs": true,
 			"Iron limbs": true,
 			"Steel limbs": true,
@@ -302629,8 +302550,8 @@
 			"Oak stock": true,
 			"Teak stock": true,
 			"Maple stock": true,
+			"Acadia stock": true,
 			"Mahogany stock": true,
-			"Yew stock": true,
 			"Bronze limbs": true,
 			"Iron limbs": true,
 			"Steel limbs": true,
@@ -304341,8 +304262,6 @@
 			"Willow longbow": true,
 			"Maple shortbow": true,
 			"Maple longbow": true,
-			"Yew shortbow": true,
-			"Yew longbow": true,
 			"Iron javelin": true,
 			"Steel javelin": true,
 			"Mithril javelin": true,
@@ -305228,7 +305147,6 @@
 			"Mithril off hand scimitar": true,
 			"Adamant scimitar": true,
 			"Adamant off hand scimitar": true,
-			"Maple shortbow": true,
 			"Mithril arrow": true,
 			"Adamant arrow": true
 		},
@@ -305259,7 +305177,6 @@
 			"Mithril off hand scimitar": true,
 			"Adamant scimitar": true,
 			"Adamant off hand scimitar": true,
-			"Maple shortbow": true,
 			"Mithril arrow": true,
 			"Adamant arrow": true,
 			"Dragon battlestaff": true
@@ -305413,8 +305330,7 @@
 			"Gold charm": true,
 			"Crimson charm": true,
 			"Green charm": true,
-			"Blue charm": true,
-			"TzRek-Jad": true
+			"Blue charm": true
 		},
 		"Rewards (Barbarian Assault)": {
 			"Attacker's insignia": true,
@@ -306424,8 +306340,8 @@
 			"Blue dragonhide coif": true,
 			"Blue dragonhide chaps": true,
 			"Blue dragonhide shield": true,
-			"Magic shortbow": true,
-			"Magic longbow": true,
+			"Acadia shortbow": true,
+			"Acadia longbow": true,
 			"Rune arrow": true,
 			"Rune crossbow": true,
 			"Off-hand rune crossbow": true,
@@ -317697,7 +317613,7 @@
 				"Mithril stone spirit": {
 					"1": "1/100"
 				},
-				"Yew longbow": {
+				"Maple longbow": {
 					"1": "1/100"
 				},
 				"Garden pie": {
@@ -324032,10 +323948,10 @@
 				"Ingression fragment": {
 					"5-9": "Always"
 				},
-				"Magic shortbow": {
+				"Acadia shortbow": {
 					"1": "9/126"
 				},
-				"Magic longbow": {
+				"Acadia longbow": {
 					"1": "8/126"
 				},
 				"Water battlestaff": {
@@ -325608,10 +325524,10 @@
 				"Ingression fragment": {
 					"5-9": "Always"
 				},
-				"Magic shortbow": {
+				"Acadia shortbow": {
 					"1": "9/126"
 				},
-				"Magic longbow": {
+				"Acadia longbow": {
 					"1": "8/126"
 				},
 				"Water battlestaff": {
@@ -334024,7 +333940,7 @@
 					"1": "1/2500"
 				},
 				"Vampyrism gloves": {
-					"1": "1/2000"
+					"1": "1/1000"
 				},
 				"Sealed clue scroll (easy)": {
 					"1": "1/64"
@@ -334053,7 +333969,7 @@
 					"1": "1/1250"
 				},
 				"Vampyrism gloves": {
-					"1": "1/500"
+					"1": "1/200"
 				}
 			},
 			"Scarab akh": {
@@ -341575,7 +341491,7 @@
 				}
 			},
 			"Robust Chest": {
-				"Yew shortbow": {
+				"Maple shortbow": {
 					"1": "Common"
 				},
 				"Bowstring": {
