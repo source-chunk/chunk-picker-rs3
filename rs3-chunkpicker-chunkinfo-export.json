@@ -10869,14 +10869,16 @@
 				"NPCs": ["Estate agent"],
 				"Level": 10,
 				"Primary": false,
-				"Priority": 102
+				"Priority": 102,
+				"NoBoost": true
 			},
 			"Unlock the hallway room shape in your ~|player-owned house|~": {
 				"Category": ["Construction Milestone"],
 				"Chunks": ["Player-owned house"],
 				"Level": 10,
 				"Primary": false,
-				"Priority": 103
+				"Priority": 103,
+				"NoBoost": true
 			},
 			"Construct a ~|firepit with hook|~": {
 				"Category": ["InsidePOH Primary"],
@@ -11175,14 +11177,16 @@
 				"Chunks": ["Player-owned house"],
 				"Level": 20,
 				"Primary": false,
-				"Priority": 104
+				"Priority": 104,
+				"NoBoost": true
 			},
 			"Unlock the ~|house portal|~ in Pollnivneach": {
 				"Category": ["Construction Milestone"],
 				"Chunks": ["Player-owned house", "13358-1"],
 				"Level": 20,
 				"Primary": false,
-				"Priority": 105
+				"Priority": 105,
+				"NoBoost": true
 			},
 			"Build the ~|water filtration system|~ at Het's Oasis": {
 				"Chunks": ["13362-1"],
@@ -11597,28 +11601,32 @@
 				"NPCs": ["Estate agent"],
 				"Level": 30,
 				"Primary": false,
-				"Priority": 102
+				"Priority": 102,
+				"NoBoost": true
 			},
 			"Unlock the long hallway room shape in your ~|player-owned house|~": {
 				"Category": ["Construction Milestone"],
 				"Chunks": ["Player-owned house"],
 				"Level": 30,
 				"Primary": false,
-				"Priority": 103
+				"Priority": 103,
+				"NoBoost": true
 			},
 			"Unlock first floor rooms in your ~|player-owned house|~": {
 				"Category": ["Construction Milestone"],
 				"Chunks": ["Player-owned house"],
 				"Level": 30,
 				"Primary": false,
-				"Priority": 104
+				"Priority": 104,
+				"NoBoost": true
 			},
 			"Unlock the ~|house portal|~ in Rellekka": {
 				"Category": ["Construction Milestone"],
 				"Chunks": ["Player-owned house", "10552-1"],
 				"Level": 30,
 				"Primary": false,
-				"Priority": 105
+				"Priority": 105,
+				"NoBoost": true
 			},
 			"Construct a ~|teak stool|~": {
 				"Category": ["InsidePOH Primary"],
@@ -12027,14 +12035,16 @@
 				"Chunks": ["Player-owned house"],
 				"Level": 40,
 				"Primary": false,
-				"Priority": 104
+				"Priority": 104,
+				"NoBoost": true
 			},
 			"Unlock the ~|house portal|~ in Brimhaven": {
 				"Category": ["Construction Milestone"],
 				"Chunks": ["Player-owned house", "11057"],
 				"Level": 40,
 				"Primary": false,
-				"Priority": 105
+				"Priority": 105,
+				"NoBoost": true
 			},
 			"Build the first tier of the player lodge in your ~|Anachronia base camp|~": {
 				"Chunks": ["15939-1"],
@@ -12443,7 +12453,8 @@
 				"Chunks": ["Player-owned house"],
 				"Level": 45,
 				"Primary": false,
-				"Priority": 102
+				"Priority": 102,
+				"NoBoost": true
 			},
 			"Construct a ~|steel framed workbench|~": {
 				"Category": ["InsidePOH Primary"],
@@ -12707,7 +12718,8 @@
 				"Items": ["Oak plank*", "Nails[+]*"],
 				"Level": 50,
 				"Primary": true,
-				"Priority": 101
+				"Priority": 101,
+				"NoBoost": true
 			},
 			"Make ~|refined acadia planks|~ at the sawmill in Fort Forinthry": {
 				"Items": ["Acadia plank*"],
@@ -12747,21 +12759,24 @@
 				"NPCs": ["Estate agent"],
 				"Level": 50,
 				"Primary": false,
-				"Priority": 105
+				"Priority": 105,
+				"NoBoost": true
 			},
 			"Unlock the cross room shape in your ~|player-owned house|~": {
 				"Category": ["Construction Milestone"],
 				"Chunks": ["Player-owned house"],
 				"Level": 50,
 				"Primary": false,
-				"Priority": 103
+				"Priority": 103,
+				"NoBoost": true
 			},
 			"Unlock the ~|house portal|~ in Yanille": {
 				"Category": ["Construction Milestone"],
 				"Chunks": ["Player-owned house", "10032-1"],
 				"Level": 50,
 				"Primary": false,
-				"Priority": 105
+				"Priority": 105,
+				"NoBoost": true
 			},
 			"Unlock the ~|house portal|~ in Menaphos": {
 				"Category": ["Construction Milestone"],
@@ -12771,7 +12786,8 @@
 					"~|The Jack of Spades|~ Complete the quest": "Quest"
 				},
 				"Primary": false,
-				"Priority": 105
+				"Priority": 105,
+				"NoBoost": true
 			},
 			"Unlock the ~|Livid farm|~ spells": {
 				"Level": 50,
@@ -13234,14 +13250,16 @@
 				"Chunks": ["Player-owned house"],
 				"Level": 60,
 				"Primary": false,
-				"Priority": 104
+				"Priority": 104,
+				"NoBoost": true
 			},
 			"Unlock the ~|house portal|~ in Mazcab": {
 				"Category": ["Construction Milestone"],
 				"Chunks": ["Player-owned house", "Mazcab"],
 				"Level": 60,
 				"Primary": false,
-				"Priority": 105
+				"Priority": 105,
+				"NoBoost": true
 			},
 			"Gain access to teak planks in ~|Construction Contracts|~": {
 				"Category": ["Construction Milestone"],
@@ -13756,7 +13774,8 @@
 					"~|Love Story|~ Complete the quest": "Quest"
 				},
 				"Primary": false,
-				"Priority": 100
+				"Priority": 100,
+				"NoBoost": true
 			},
 			"Construct ~|twin anchors|~": {
 				"Category": ["InsidePOH Primary"],
@@ -13924,14 +13943,16 @@
 				"Chunks": ["Player-owned house"],
 				"Level": 70,
 				"Primary": false,
-				"Priority": 105
+				"Priority": 105,
+				"NoBoost": true
 			},
 			"Unlock second floor rooms in your ~|player-owned house|~": {
 				"Category": ["Construction Milestone"],
 				"Chunks": ["Player-owned house"],
 				"Level": 70,
 				"Primary": false,
-				"Priority": 106
+				"Priority": 106,
+				"NoBoost": true
 			},
 			"Enter a tier two ~|Shifting Tombs|~": {
 				"Chunks": ["Shifting Tombs"],
@@ -14321,7 +14342,8 @@
 				"Chunks": ["Player-owned house"],
 				"Level": 75,
 				"Primary": false,
-				"Priority": 101
+				"Priority": 101,
+				"NoBoost": true
 			},
 			"Unlock the ~|house portal|~ in Prifddinas": {
 				"Category": ["Construction Milestone"],
@@ -14331,7 +14353,8 @@
 					"~|Plague's End|~ Complete the quest": "Quest"
 				},
 				"Primary": false,
-				"Priority": 102
+				"Priority": 102,
+				"NoBoost": true
 			},
 			"Prepare stones at the stonemason in the ~|Dream of Iaia|~": {
 				"Chunks": ["Dream of Iaia", "15939-1"],
@@ -15084,7 +15107,8 @@
 				"Chunks": ["Player-owned house"],
 				"Level": 90,
 				"Primary": false,
-				"Priority": 104
+				"Priority": 104,
+				"NoBoost": true
 			},
 			"Enter a tier three ~|Shifting Tombs|~": {
 				"Chunks": ["Shifting Tombs"],
@@ -15252,7 +15276,8 @@
 				"Chunks": ["Player-owned house"],
 				"Level": 95,
 				"Primary": false,
-				"Priority": 100
+				"Priority": 100,
+				"NoBoost": true
 			},
 			"Feed a ~|sated ancient effigy|~ with construction": {
 				"Items": ["Sated ancient effigy (construction/thieving)"],
