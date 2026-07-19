@@ -235,7 +235,7 @@ let highestSkillLevels = {
     "Smithing": 110,
     "Crafting": 110,
     "Agility": 99,
-    "Construction": 99,
+    "Construction": 120,
     "Combat": 152,
     "Divination": 99,
     "Archaeology": 120,
@@ -3898,7 +3898,7 @@ let calcChallengesWork = function(chunks, baseChunkData, oldTempItemSkill) {
 					nonValids[name] = wrongThings;
 					return;
 				}
-				if((skill == "Archaeology" || skill == "Necormancy") && chunkInfo['challenges'][skill][name]['Level'] > 20) {
+				if((skill == "Archaeology" || skill == "Necormancy" || skill == "Construction") && chunkInfo['challenges'][skill][name]['Level'] > 20) {
 					validChallenge = false;
 					wrongThings.push('F2P');
 					nonValids[name] = wrongThings;
@@ -3915,7 +3915,7 @@ let calcChallengesWork = function(chunks, baseChunkData, oldTempItemSkill) {
 					if(chunkInfo['challenges'][skill][name].hasOwnProperty(type))
 					{
 						Object.keys(chunkInfo['challenges'][skill][name][type]).forEach((subSkill) => {
-							if((subSkill == "Archaeology" || subSkill == "Necormancy") && chunkInfo['challenges'][skill][name][type][subSkill] > 20) {
+							if((subSkill == "Archaeology" || subSkill == "Necormancy" || subSkill == "Construction") && chunkInfo['challenges'][skill][name][type][subSkill] > 20) {
 								validChallenge = false;
 								wrongThings.push('F2P');
 								nonValids[name] = wrongThings;
@@ -5955,7 +5955,7 @@ let calcBIS = function(completedOnly) {
                                 }
                                 bisUpgrades[skill.replaceAll(' ', '_') + '-' + chunkInfo['equipment'][equip].slot][equip] = (isAccuracyNeeded ? chunkInfo['equipment'][equip].accuracy_tier : 0) + (!!bestAmmo ? Math.min(chunkInfo['equipment'][equip].damage_tier, chunkInfo['equipment'][bestAmmo].damage_tier) : chunkInfo['equipment'][equip].damage_tier) + chunkInfo['equipment'][equip].extra_power;
                             }
-                            if ((!bestEquipment[chunkInfo['equipment'][equip].slot] || (((isAccuracyNeeded ? chunkInfo['equipment'][equip].accuracy_tier : 0) + (!!bestAmmo ? Math.min(chunkInfo['equipment'][equip].damage_tier, chunkInfo['equipment'][bestAmmo].damage_tier) : chunkInfo['equipment'][equip].damage_tier) + chunkInfo['equipment'][equip].extra_power) > ((isAccuracyNeeded ? chunkInfo['equipment'][bestEquipment[chunkInfo['equipment'][equip].slot]].accuracy_tier : 0) + (!!bestAmmoSaved[chunkInfo['equipment'][equip].slot] ? Math.min(chunkInfo['equipment'][bestEquipment[chunkInfo['equipment'][equip].slot]].damage_tier, chunkInfo['equipment'][bestEquipment[chunkInfo['equipment'][equip].slot]].damage_tier) : chunkInfo['equipment'][bestEquipment[chunkInfo['equipment'][equip].slot]].damage_tier)))) && chunkInfo['equipment'][equip].damage_tier > 0) {
+							 if ((!bestEquipment[chunkInfo['equipment'][equip].slot] || (((isAccuracyNeeded ? chunkInfo['equipment'][equip].accuracy_tier : 0) + (!!bestAmmo ? Math.min(chunkInfo['equipment'][equip].damage_tier, chunkInfo['equipment'][bestAmmo].damage_tier) : chunkInfo['equipment'][equip].damage_tier) + chunkInfo['equipment'][equip].extra_power) > ((isAccuracyNeeded ? chunkInfo['equipment'][bestEquipment[chunkInfo['equipment'][equip].slot]].accuracy_tier : 0) + (!!bestAmmoSaved[chunkInfo['equipment'][equip].slot] ? Math.min(chunkInfo['equipment'][bestEquipment[chunkInfo['equipment'][equip].slot]].damage_tier, chunkInfo['equipment'][bestAmmoSaved[chunkInfo['equipment'][equip].slot]].damage_tier) : chunkInfo['equipment'][bestEquipment[chunkInfo['equipment'][equip].slot]].damage_tier) + chunkInfo['equipment'][bestEquipment[chunkInfo['equipment'][equip].slot]].extra_power))) && chunkInfo['equipment'][equip].damage_tier > 0) {
                                 let tempTempValid = false;
                                 Object.keys(baseChunkData['items'][equip]).filter(source => !baseChunkData['items'][equip][source].includes('-') || !chunkInfo['challenges'][baseChunkData['items'][equip][source].split('-')[1]] || !chunkInfo['challenges'][baseChunkData['items'][equip][source].split('-')[1]][source] || (!chunkInfo['challenges'][baseChunkData['items'][equip][source].split('-')[1]][source]['ProcessingSource'] && !processingSkill[baseChunkData['items'][equip][source].split('-')[1]]) || rules['Wield Crafted Items'] || baseChunkData['items'][equip][source].split('-')[1] === 'Slayer' || (chunkInfo['challenges'].hasOwnProperty(baseChunkData['items'][equip][source].split('-')[1]) && chunkInfo['challenges'][baseChunkData['items'][equip][source].split('-')[1]].hasOwnProperty(source) && chunkInfo['challenges'][baseChunkData['items'][equip][source].split('-')[1]][source].hasOwnProperty('NoXp'))).length > 0 && (tempTempValid = true);
                                 tempTempValid && (!backlog['BiS'] || (!backlog['BiS'].hasOwnProperty('Obtain' + article + '~|' + formatEquip(equip) + '|~') && !backlog['BiS'].hasOwnProperty('Obtain' + article + '~|' + formatEquip(equip).replaceAll('#', '/') + '|~'))) && (bestEquipment[chunkInfo['equipment'][equip].slot] = equip);
@@ -5969,8 +5969,8 @@ let calcBIS = function(completedOnly) {
                                 } else if (bestEquipment[chunkInfo['equipment'][equip].slot] === equip) {
                                     delete bestAmmoSaved[chunkInfo['equipment'][equip].slot];
                                 }
-                            } else if ((!bestEquipment[chunkInfo['equipment'][equip].slot] || (((isAccuracyNeeded ? chunkInfo['equipment'][equip].accuracy_tier : 0) + (!!bestAmmo ? Math.min(chunkInfo['equipment'][equip].damage_tier, chunkInfo['equipment'][bestAmmo].damage_tier) : chunkInfo['equipment'][equip].damage_tier) + chunkInfo['equipment'][equip].extra_power) === ((isAccuracyNeeded ? chunkInfo['equipment'][bestEquipment[chunkInfo['equipment'][equip].slot]].accuracy_tier : 0) + (!!bestAmmoSaved[chunkInfo['equipment'][equip].slot] ? Math.min(chunkInfo['equipment'][bestEquipment[chunkInfo['equipment'][equip].slot]].damage_tier, chunkInfo['equipment'][bestEquipment[chunkInfo['equipment'][equip].slot]].damage_tier) : chunkInfo['equipment'][bestEquipment[chunkInfo['equipment'][equip].slot]].damage_tier) + chunkInfo['equipment'][bestEquipment[chunkInfo['equipment'][equip].slot]].extra_power))) && ((isAccuracyNeeded ? chunkInfo['equipment'][equip].accuracy_tier : 0) + (!!bestAmmo ? Math.min(chunkInfo['equipment'][equip].damage_tier, chunkInfo['equipment'][bestAmmo].damage_tier) : chunkInfo['equipment'][equip].damage_tier)) > 0) {
-                                let tempTempValid = false;
+                            } else if ((!bestEquipment[chunkInfo['equipment'][equip].slot] || (((isAccuracyNeeded ? chunkInfo['equipment'][equip].accuracy_tier : 0) + (!!bestAmmo ? Math.min(chunkInfo['equipment'][equip].damage_tier, chunkInfo['equipment'][bestAmmo].damage_tier) : chunkInfo['equipment'][equip].damage_tier) + chunkInfo['equipment'][equip].extra_power) === ((isAccuracyNeeded ? chunkInfo['equipment'][bestEquipment[chunkInfo['equipment'][equip].slot]].accuracy_tier : 0) + (!!bestAmmoSaved[chunkInfo['equipment'][equip].slot] ? Math.min(chunkInfo['equipment'][bestEquipment[chunkInfo['equipment'][equip].slot]].damage_tier, chunkInfo['equipment'][bestAmmoSaved[chunkInfo['equipment'][equip].slot]].damage_tier) : chunkInfo['equipment'][bestEquipment[chunkInfo['equipment'][equip].slot]].damage_tier) + chunkInfo['equipment'][bestEquipment[chunkInfo['equipment'][equip].slot]].extra_power))) && ((isAccuracyNeeded ? chunkInfo['equipment'][equip].accuracy_tier : 0) + (!!bestAmmo ? Math.min(chunkInfo['equipment'][equip].damage_tier, chunkInfo['equipment'][bestAmmo].damage_tier) : chunkInfo['equipment'][equip].damage_tier)) > 0) {
+								let tempTempValid = false;
                                 Object.keys(baseChunkData['items'][equip]).filter(source => !baseChunkData['items'][equip][source].includes('-') || !chunkInfo['challenges'][baseChunkData['items'][equip][source].split('-')[1]] || !chunkInfo['challenges'][baseChunkData['items'][equip][source].split('-')[1]][source] || (!chunkInfo['challenges'][baseChunkData['items'][equip][source].split('-')[1]][source]['ProcessingSource'] && !processingSkill[baseChunkData['items'][equip][source].split('-')[1]]) || rules['Wield Crafted Items'] || baseChunkData['items'][equip][source].split('-')[1] === 'Slayer' || (chunkInfo['challenges'].hasOwnProperty(baseChunkData['items'][equip][source].split('-')[1]) && chunkInfo['challenges'][baseChunkData['items'][equip][source].split('-')[1]].hasOwnProperty(source) && chunkInfo['challenges'][baseChunkData['items'][equip][source].split('-')[1]][source].hasOwnProperty('NoXp'))).length > 0 && (tempTempValid = true);
                                 if (tempTempValid && (!backlog['BiS'] || (!backlog['BiS'].hasOwnProperty('Obtain' + article + '~|' + formatEquip(equip) + '|~') && !backlog['BiS'].hasOwnProperty('Obtain' + article + '~|' + formatEquip(equip).replaceAll('#', '/') + '|~')))) {
                                     if (!bestEquipmentAlts[chunkInfo['equipment'][equip].slot]) {
@@ -5995,7 +5995,7 @@ let calcBIS = function(completedOnly) {
                                 }
                             }
 							//console.log(equip + " has a total power of " + ((isAccuracyNeeded ? chunkInfo['equipment'][equip].accuracy_tier : 0) + (!!bestAmmo ? Math.min(chunkInfo['equipment'][equip].damage_tier, chunkInfo['equipment'][bestAmmo].damage_tier) : chunkInfo['equipment'][equip].damage_tier) + chunkInfo['equipment'][equip].extra_power));
-							//console.log(bestEquipment[chunkInfo['equipment'][equip].slot] + " is the BIS in slot " + chunkInfo['equipment'][equip].slot + " with a total power of " + ((isAccuracyNeeded ? chunkInfo['equipment'][bestEquipment[chunkInfo['equipment'][equip].slot]].accuracy_tier : 0) + ((isAccuracyNeeded ? chunkInfo['equipment'][bestEquipment[chunkInfo['equipment'][equip].slot]].accuracy_tier : 0) + (!!bestAmmoSaved[chunkInfo['equipment'][equip].slot] ? Math.min(chunkInfo['equipment'][bestEquipment[chunkInfo['equipment'][equip].slot]].damage_tier, chunkInfo['equipment'][bestEquipment[chunkInfo['equipment'][equip].slot]].damage_tier) : chunkInfo['equipment'][bestEquipment[chunkInfo['equipment'][equip].slot]].damage_tier) + chunkInfo['equipment'][bestEquipment[chunkInfo['equipment'][equip].slot]].extra_power)));
+							//console.log(bestEquipment[chunkInfo['equipment'][equip].slot] + " is the BIS in slot " + chunkInfo['equipment'][equip].slot + " with a total power of " + (((isAccuracyNeeded ? chunkInfo['equipment'][bestEquipment[chunkInfo['equipment'][equip].slot]].accuracy_tier : 0) + (!!bestAmmoSaved[chunkInfo['equipment'][equip].slot] ? Math.min(chunkInfo['equipment'][bestEquipment[chunkInfo['equipment'][equip].slot]].damage_tier, chunkInfo['equipment'][bestAmmoSaved[chunkInfo['equipment'][equip].slot]].damage_tier) : chunkInfo['equipment'][bestEquipment[chunkInfo['equipment'][equip].slot]].damage_tier) + chunkInfo['equipment'][bestEquipment[chunkInfo['equipment'][equip].slot]].extra_power)));
 						}
 					} else {
                         if (chunkInfo['equipment'][equip].ranged_damage >= 0 && chunkInfo['equipment'][equip].slot !== 'ammo') {
@@ -10179,7 +10179,7 @@ let gatherChunksInfo = function(chunksIn) {
                                         }
                                         if ((chunkInfo['drops'][monster][drop][quantity] === 'Always' && dropTables[drop][item].split('@')[0] === 'Always') || (parseInt(secondaryPrimaryNum.split('/')[1]) > 50 && (isNaN(chunkInfo['drops'][monster][drop][quantity].replaceAll('/', '').replaceAll('@', '')) || isNaN(dropTables[drop][item].split('@')[0].replaceAll('/', '').replaceAll('@', '')))) || (parseFloat(chunkInfo['drops'][monster][drop][quantity].split('/')[0].replaceAll('~', '') * dropTables[drop][item].split('@')[0].split('/')[0].replaceAll('~', '')) / parseFloat(chunkInfo['drops'][monster][drop][quantity].split('/')[1] * dropTables[drop][item].split('@')[0].split('/')[1].replaceAll('~', '')) >= parseFloat(secondaryPrimaryNum.split('/')[0].replaceAll('~', '')) / parseFloat(secondaryPrimaryNum.split('/')[1]))) {
                                             items[item][monster] = 'primary-drop';
-                                        } else {
+                                        } else if (!items[item][monster]) {
                                             items[item][monster] = 'secondary-drop';
                                         }
                                         if (!dropRatesGlobal[monster]) {
@@ -10218,7 +10218,7 @@ let gatherChunksInfo = function(chunksIn) {
                                 }
                                 if (chunkInfo['drops'][monster][drop][quantity] === 'Always' || (parseInt(secondaryPrimaryNum.split('/')[1]) > 50 && isNaN(chunkInfo['drops'][monster][drop][quantity].replaceAll('/', '').replaceAll('@', ''))) || ((chunkInfo['drops'][monster][drop][quantity].split('/').length <= 1 && (parseFloat(secondaryPrimaryNum.split('/')[0].replaceAll('~', '')) / parseFloat(secondaryPrimaryNum.split('/')[1])) < 1) || (!(chunkInfo['drops'][monster][drop][quantity].split('/').length <= 1) && (parseFloat(chunkInfo['drops'][monster][drop][quantity].split('/')[0].replaceAll('~', '')) / parseFloat(chunkInfo['drops'][monster][drop][quantity].split('/')[1].replaceAll('~', '')) >= (parseFloat(secondaryPrimaryNum.split('/')[0].replaceAll('~', '')) / parseFloat(secondaryPrimaryNum.split('/')[1])))))) {
                                     items[drop][monster] = 'primary-drop';
-                                } else {
+                                } else if (!items[drop][monster]) {
                                     items[drop][monster] = 'secondary-drop';
                                 }
                                 if (!dropRatesGlobal[monster]) {
@@ -10239,7 +10239,7 @@ let gatherChunksInfo = function(chunksIn) {
                                 }
                                 if (chunkInfo['drops'][monster][drop][quantity] === 'Always' || (parseInt(secondaryPrimaryNum.split('/')[1]) > 50 && isNaN(chunkInfo['drops'][monster][drop][quantity].replaceAll('/', '').replaceAll('@', ''))) || ((chunkInfo['drops'][monster][drop][quantity].split('/').length <= 1 && (parseFloat(secondaryPrimaryNum.split('/')[0].replaceAll('~', '')) / parseFloat(secondaryPrimaryNum.split('/')[1])) < 1) || (!(chunkInfo['drops'][monster][drop][quantity].split('/').length <= 1) && (parseFloat(chunkInfo['drops'][monster][drop][quantity].split('/')[0].replaceAll('~', '')) / parseFloat(chunkInfo['drops'][monster][drop][quantity].split('/')[1].replaceAll('~', '')) >= (parseFloat(secondaryPrimaryNum.split('/')[0].replaceAll('~', '')) / parseFloat(secondaryPrimaryNum.split('/')[1])))))) {
                                     items[drop][monster] = 'primary-drop';
-                                } else {
+                                } else if (!items[drop][monster]) {
                                     items[drop][monster] = 'secondary-drop';
                                 }
                                 if (!dropRatesGlobal[monster]) {
@@ -10270,7 +10270,7 @@ let gatherChunksInfo = function(chunksIn) {
                                         }
                                         if ((chunkInfo['drops'][monster][drop][quantity] === 'Always' && dropTables[drop][item].split('@')[0] === 'Always') || (parseInt(secondaryPrimaryNum.split('/')[1]) > 50 && (isNaN(chunkInfo['drops'][monster][drop][quantity].replaceAll('/', '').replaceAll('@', '')) || isNaN(dropTables[drop][item].split('@')[0].replaceAll('/', '').replaceAll('@', '')))) || (((parseFloat(chunkInfo['drops'][monster][drop][quantity].split('/')[0].replaceAll('~', '') * dropTables[drop][item].split('@')[0].split('/')[0].replaceAll('~', '')) / parseFloat(chunkInfo['drops'][monster][drop][quantity].split('/')[1] * dropTables[drop][item].split('@')[0].split('/')[1].replaceAll('~', '')), drop.includes('GeneralSeedDropTable'))) >= (parseFloat(secondaryPrimaryNum.split('/')[0].replaceAll('~', '')) / parseFloat(secondaryPrimaryNum.split('/')[1])))) {
                                             items[item][monster] = 'primary-drop';
-                                        } else {
+                                        } else if (!items[item][monster]) {
                                             items[item][monster] = 'secondary-drop';
                                         }
                                         if (!dropRatesGlobal[monster]) {
@@ -10308,7 +10308,7 @@ let gatherChunksInfo = function(chunksIn) {
                                 }
                                 if (chunkInfo['drops'][monster][drop][quantity] === 'Always' || (parseInt(secondaryPrimaryNum.split('/')[1]) > 50 && isNaN(chunkInfo['drops'][monster][drop][quantity].replaceAll('/', '').replaceAll('@', ''))) || ((chunkInfo['drops'][monster][drop][quantity].split('/').length <= 1 && (parseFloat(secondaryPrimaryNum.split('/')[0].replaceAll('~', '')) / parseFloat(secondaryPrimaryNum.split('/')[1])) < 1) || (!(chunkInfo['drops'][monster][drop][quantity].split('/').length <= 1) && (parseFloat(chunkInfo['drops'][monster][drop][quantity].split('/')[0].replaceAll('~', '')) / parseFloat(chunkInfo['drops'][monster][drop][quantity].split('/')[1].replaceAll('~', '')) >= (parseFloat(secondaryPrimaryNum.split('/')[0].replaceAll('~', '')) / parseFloat(secondaryPrimaryNum.split('/')[1])))))) {
                                     items[drop][monster] = 'primary-drop';
-                                } else {
+                                } else if (!items[drop][monster]) {
                                     items[drop][monster] = 'secondary-drop';
                                 }
                                 if (!dropRatesGlobal[monster]) {
@@ -10397,7 +10397,7 @@ let gatherChunksInfo = function(chunksIn) {
                                     }
                                     if ((chunkInfo['drops'][monster][drop][quantity] === 'Always' && dropTables[drop][item].split('@')[0] === 'Always') || (parseInt(secondaryPrimaryNum.split('/')[1]) > 50 && (isNaN(chunkInfo['drops'][monster][drop][quantity].replaceAll('/', '').replaceAll('@', '')) || isNaN(dropTables[drop][item].split('@')[0].replaceAll('/', '').replaceAll('@', '')))) || (parseFloat(chunkInfo['drops'][monster][drop][quantity].split('/')[0].replaceAll('~', '') * dropTables[drop][item].split('@')[0].split('/')[0].replaceAll('~', '')) / parseFloat(chunkInfo['drops'][monster][drop][quantity].split('/')[1] * dropTables[drop][item].split('@')[0].split('/')[1].replaceAll('~', '')) >= parseFloat(secondaryPrimaryNum.split('/')[0].replaceAll('~', '')) / parseFloat(secondaryPrimaryNum.split('/')[1]))) {
                                         items[item][monster] = 'primary-drop';
-                                    } else {
+                                    } else if (!items[item][monster]) {
                                         items[item][monster] = 'secondary-drop';
                                     }
                                     if (!dropRatesGlobal[monster]) {
@@ -10436,7 +10436,7 @@ let gatherChunksInfo = function(chunksIn) {
                             }
                             if (chunkInfo['drops'][monster][drop][quantity] === 'Always' || (parseInt(secondaryPrimaryNum.split('/')[1]) > 50 && isNaN(chunkInfo['drops'][monster][drop][quantity].replaceAll('/', '').replaceAll('@', ''))) || ((chunkInfo['drops'][monster][drop][quantity].split('/').length <= 1 && (parseFloat(secondaryPrimaryNum.split('/')[0].replaceAll('~', '')) / parseFloat(secondaryPrimaryNum.split('/')[1])) < 1) || (!(chunkInfo['drops'][monster][drop][quantity].split('/').length <= 1) && (parseFloat(chunkInfo['drops'][monster][drop][quantity].split('/')[0].replaceAll('~', '')) / parseFloat(chunkInfo['drops'][monster][drop][quantity].split('/')[1].replaceAll('~', '')) >= (parseFloat(secondaryPrimaryNum.split('/')[0].replaceAll('~', '')) / parseFloat(secondaryPrimaryNum.split('/')[1])))))) {
                                 items[drop][monster] = 'primary-drop';
-                            } else {
+                            } else if (!items[drop][monster]) {
                                 items[drop][monster] = 'secondary-drop';
                             }
                             if (!dropRatesGlobal[monster]) {
@@ -10457,7 +10457,7 @@ let gatherChunksInfo = function(chunksIn) {
                             }
                             if (chunkInfo['drops'][monster][drop][quantity] === 'Always' || (parseInt(secondaryPrimaryNum.split('/')[1]) > 50 && isNaN(chunkInfo['drops'][monster][drop][quantity].replaceAll('/', '').replaceAll('@', ''))) || ((chunkInfo['drops'][monster][drop][quantity].split('/').length <= 1 && (parseFloat(secondaryPrimaryNum.split('/')[0].replaceAll('~', '')) / parseFloat(secondaryPrimaryNum.split('/')[1])) < 1) || (!(chunkInfo['drops'][monster][drop][quantity].split('/').length <= 1) && (parseFloat(chunkInfo['drops'][monster][drop][quantity].split('/')[0].replaceAll('~', '')) / parseFloat(chunkInfo['drops'][monster][drop][quantity].split('/')[1].replaceAll('~', '')) >= (parseFloat(secondaryPrimaryNum.split('/')[0].replaceAll('~', '')) / parseFloat(secondaryPrimaryNum.split('/')[1])))))) {
                                 items[drop][monster] = 'primary-drop';
-                            } else {
+                            } else if (!items[drop][monster]) {
                                 items[drop][monster] = 'secondary-drop';
                             }
                             if (!dropRatesGlobal[monster]) {
@@ -10488,7 +10488,7 @@ let gatherChunksInfo = function(chunksIn) {
                                     }
                                     if ((chunkInfo['drops'][monster][drop][quantity] === 'Always' && dropTables[drop][item].split('@')[0] === 'Always') || (parseInt(secondaryPrimaryNum.split('/')[1]) > 50 && (isNaN(chunkInfo['drops'][monster][drop][quantity].replaceAll('/', '').replaceAll('@', '')) || isNaN(dropTables[drop][item].split('@')[0].replaceAll('/', '').replaceAll('@', '')))) || (((parseFloat(chunkInfo['drops'][monster][drop][quantity].split('/')[0].replaceAll('~', '') * dropTables[drop][item].split('@')[0].split('/')[0].replaceAll('~', '')) / parseFloat(chunkInfo['drops'][monster][drop][quantity].split('/')[1] * dropTables[drop][item].split('@')[0].split('/')[1].replaceAll('~', '')), drop.includes('GeneralSeedDropTable'))) >= (parseFloat(secondaryPrimaryNum.split('/')[0].replaceAll('~', '')) / parseFloat(secondaryPrimaryNum.split('/')[1])))) {
                                         items[item][monster] = 'primary-drop';
-                                    } else {
+                                    } else if (!items[item][monster]) {
                                         items[item][monster] = 'secondary-drop';
                                     }
                                     if (!dropRatesGlobal[monster]) {
@@ -10526,7 +10526,7 @@ let gatherChunksInfo = function(chunksIn) {
                             }
                             if (chunkInfo['drops'][monster][drop][quantity] === 'Always' || (parseInt(secondaryPrimaryNum.split('/')[1]) > 50 && isNaN(chunkInfo['drops'][monster][drop][quantity].replaceAll('/', '').replaceAll('@', ''))) || ((chunkInfo['drops'][monster][drop][quantity].split('/').length <= 1 && (parseFloat(secondaryPrimaryNum.split('/')[0].replaceAll('~', '')) / parseFloat(secondaryPrimaryNum.split('/')[1])) < 1) || (!(chunkInfo['drops'][monster][drop][quantity].split('/').length <= 1) && (parseFloat(chunkInfo['drops'][monster][drop][quantity].split('/')[0].replaceAll('~', '')) / parseFloat(chunkInfo['drops'][monster][drop][quantity].split('/')[1].replaceAll('~', '')) >= (parseFloat(secondaryPrimaryNum.split('/')[0].replaceAll('~', '')) / parseFloat(secondaryPrimaryNum.split('/')[1])))))) {
                                 items[drop][monster] = 'primary-drop';
-                            } else {
+                            } else if (!items[drop][monster]) {
                                 items[drop][monster] = 'secondary-drop';
                             }
                             if (!dropRatesGlobal[monster]) {
