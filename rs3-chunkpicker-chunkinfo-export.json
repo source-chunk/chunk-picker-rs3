@@ -15237,6 +15237,14 @@
 				"Primary": true,
 				"Priority": 2
 			},
+			"Construct an ~|eternal stool|~": {
+				"Category": ["InsidePOH Primary"],
+				"Items": ["Eternal plank*"],
+				"Objects": ["Furniture workbench"],
+				"Level": 94,
+				"Primary": true,
+				"Priority": 3
+			},
 			"Make ~|eternal planks|~ at a sawmill": {
 				"Items": ["Eternal magic logs*"],
 				"Objects": ["Sawmill"],
@@ -15279,13 +15287,33 @@
 				"Priority": 100,
 				"NoBoost": true
 			},
+			"Make ~|refined eternal planks|~ at the sawmill in Fort Forinthry": {
+				"Items": ["Eternal plank*"],
+				"Chunks": ["13111"],
+				"Objects": ["Sawmill"],
+				"Level": 95,
+				"Output": "Refined eternal plank",
+				"Primary": true,
+				"Priority": 101,
+				"Partial": true
+			},
+			"Make an ~|eternal frame|~ at the sawmill in Fort Forinthry": {
+				"Items": ["Refined eternal plank*"],
+				"Chunks": ["13111"],
+				"Objects": ["Sawmill"],
+				"Level": 95,
+				"Output": "Eternal frame",
+				"Primary": true,
+				"Priority": 102,
+				"Partial": true
+			},
 			"Feed a ~|sated ancient effigy|~ with construction": {
 				"Items": ["Sated ancient effigy (construction/thieving)"],
 				"Level": 95,
 				"Primary": false,
 				"Priority": 1000
 			},
-			"Construct an ~|eternal stool|~": {
+			"Construct an ~|eternal chair|~": {
 				"Category": ["InsidePOH Primary"],
 				"Items": ["Eternal plank*"],
 				"Objects": ["Furniture workbench"],
@@ -15307,21 +15335,13 @@
 				"Primary": false,
 				"Priority": 1000
 			},
-			"Construct an ~|eternal chair|~": {
-				"Category": ["InsidePOH Primary"],
-				"Items": ["Eternal plank*"],
-				"Objects": ["Furniture workbench"],
-				"Level": 98,
-				"Primary": true,
-				"Priority": 1
-			},
 			"Construct an ~|eternal small table|~": {
 				"Category": ["InsidePOH Primary"],
 				"Items": ["Eternal plank*"],
 				"Objects": ["Furniture workbench"],
 				"Level": 98,
 				"Primary": true,
-				"Priority": 2
+				"Priority": 1
 			},
 			"Build the tier 3 ~|Command Centre|~": {
 				"Tasks": {
@@ -15356,6 +15376,14 @@
 				"Primary": true,
 				"Priority": 4
 			},
+			"Construct an ~|eternal bookcase|~": {
+				"Category": ["InsidePOH Primary"],
+				"Items": ["Eternal plank*"],
+				"Objects": ["Furniture workbench"],
+				"Level": 99,
+				"Primary": true,
+				"Priority": 5
+			},
 			"Buy the ~|Construction cape|~": {
 				"Category": ["Skillcape"],
 				"NPCs": ["Estate agent"],
@@ -15373,7 +15401,7 @@
 				"Primary": true,
 				"Priority": 1
 			},
-			"Construct an ~|eternal bookcase|~": {
+			"Construct an ~|eternal table|~": {
 				"Category": ["InsidePOH Primary"],
 				"Items": ["Eternal plank*"],
 				"Objects": ["Furniture workbench"],
@@ -15477,21 +15505,13 @@
 				"Primary": true,
 				"Priority": 1
 			},
-			"Construct an ~|eternal table|~": {
-				"Category": ["InsidePOH Primary"],
-				"Items": ["Eternal plank*"],
-				"Objects": ["Furniture workbench"],
-				"Level": 102,
-				"Primary": true,
-				"Priority": 2
-			},
 			"Construct an ~|eternal fancy dress box|~": {
 				"Category": ["InsidePOH Primary"],
 				"Items": ["Eternal plank*"],
 				"Objects": ["Furniture workbench"],
 				"Level": 102,
 				"Primary": true,
-				"Priority": 3
+				"Priority": 4
 			},
 			"Construct an ~|eternal armour case|~": {
 				"Category": ["InsidePOH Primary"],
@@ -16884,7 +16904,7 @@
 			},
 			"Skewer a ~|spider on a shaft (raw)|~": {
 				"Category": ["Token"],
-				"Items": ["Spider carcass*", "Arrow shaft"],
+				"Items": ["Spider carcass*", "Shaft"],
 				"Level": 16,
 				"Output": "Spider on a shaft (raw)",
 				"Primary": false,
@@ -38497,24 +38517,24 @@
 			}
 		},
 		"Fletching": {
-			"Fletch ~|arrow shafts|~ using normal logs": {
+			"Fletch ~|shafts|~ using normal logs": {
 				"Items": ["Logs*"],
 				"Level": 1,
-				"Output": "Arrow shaft",
+				"Output": "Shaft",
 				"Primary": true,
 				"Priority": 1,
 				"Partial": true
 			},
-			"Feather ~|headless arrows|~": {
+			"Feather ~|headless shafts|~": {
 				"Items": ["ArrowShafts[+]*", "Feather[+]*"],
 				"Level": 1,
-				"Output": "Headless arrow",
+				"Output": "Headless shaft",
 				"Primary": true,
 				"Priority": 2,
 				"Partial": true
 			},
 			"Tip ~|bronze arrows|~": {
-				"Items": ["Headless arrow*", "Bronze arrowheads*"],
+				"Items": ["Headless shaft*", "Bronze arrowheads*"],
 				"Level": 1,
 				"Output": "Bronze arrow",
 				"Primary": true,
@@ -38680,7 +38700,7 @@
 				"Priority": 3
 			},
 			"Tip ~|iron arrows|~": {
-				"Items": ["Headless arrow*", "Iron arrowheads*"],
+				"Items": ["Headless shaft*", "Iron arrowheads*"],
 				"Level": 10,
 				"Output": "Iron arrow",
 				"Primary": true,
@@ -38877,10 +38897,25 @@
 				"Primary": true,
 				"Priority": 5
 			},
-			"Fletch ~|arrow shafts|~ using oak logs": {
+			"Fletch a ~|blurite crossbow (unstrung)|~": {
+				"Items": ["Oak stock*", "Blurite limbs*"],
+				"Level": 13,
+				"Output": "Blurite crossbow (unstrung)",
+				"Primary": true,
+				"Priority": 6,
+				"Partial": true
+			},
+			"String a ~|blurite crossbow|~": {
+				"Items": ["Blurite crossbow (unstrung)*", "Crossbow string*"],
+				"Level": 13,
+				"Output": "Blurite cbows",
+				"Primary": true,
+				"Priority": 7
+			},
+			"Fletch ~|shafts|~ using oak logs": {
 				"Items": ["Oak logs*"],
 				"Level": 15,
-				"Output": "Arrow shaft",
+				"Output": "Shaft",
 				"Primary": true,
 				"Priority": 1,
 				"Partial": true
@@ -38899,6 +38934,13 @@
 				"Output": "Oak longbow",
 				"Primary": true,
 				"Priority": 2
+			},
+			"Feather ~|blurite bolts|~": {
+				"Items": ["Blurite bolts (unf)*", "Feather[+]*"],
+				"Level": 16,
+				"Output": "Blurite bolts",
+				"Primary": true,
+				"Priority": 1
 			},
 			"Fletch ~|iron brutals|~": {
 				"Items": ["Iron nails*", "Flighted ogre arrow*"],
@@ -38931,7 +38973,7 @@
 				"Priority": 5
 			},
 			"Tip ~|steel arrows|~": {
-				"Items": ["Headless arrow*", "Steel arrowheads*"],
+				"Items": ["Headless shaft*", "Steel arrowheads*"],
 				"Level": 20,
 				"Output": "Steel arrow",
 				"Primary": true,
@@ -38981,42 +39023,6 @@
 				"Primary": true,
 				"Priority": 5
 			},
-			"Feather ~|blurite bolts|~": {
-				"Items": ["Blurite bolts (unf)*", "Feather[+]*"],
-				"Level": 24,
-				"Output": "Blurite bolts",
-				"Primary": true,
-				"Priority": 1
-			},
-			"Fletch a ~|blurite crossbow (unstrung)|~": {
-				"Items": ["Oak stock*", "Blurite limbs*"],
-				"Level": 24,
-				"Output": "Blurite crossbow (unstrung)",
-				"Primary": true,
-				"Priority": 3,
-				"Partial": true
-			},
-			"String a ~|blurite crossbow|~": {
-				"Items": ["Blurite crossbow (unstrung)*", "Crossbow string*"],
-				"Level": 24,
-				"Output": "Blurite crossbow",
-				"Primary": true,
-				"Priority": 4
-			},
-			"String a ~|blurite 2h crossbow|~": {
-				"Items": ["Blurite crossbow (unstrung)*", "Crossbow string*"],
-				"Level": 24,
-				"Output": "Blurite 2h crossbow",
-				"Primary": true,
-				"Priority": 5
-			},
-			"String an ~|off-hand blurite crossbow|~": {
-				"Items": ["Blurite crossbow (unstrung)*", "Crossbow string*"],
-				"Level": 24,
-				"Output": "Off-hand blurite crossbow",
-				"Primary": true,
-				"Priority": 6
-			},
 			"Fletch a ~|willow longbow (unstrung)|~": {
 				"Items": ["Willow logs*"],
 				"Level": 25,
@@ -39047,10 +39053,10 @@
 				"Primary": true,
 				"Priority": 2
 			},
-			"Fletch ~|arrow shafts|~ using willow logs": {
+			"Fletch ~|shafts|~ using willow logs": {
 				"Items": ["Willow logs*"],
 				"Level": 30,
-				"Output": "Arrow shaft",
+				"Output": "Shaft",
 				"Primary": true,
 				"Priority": 1,
 				"Partial": true
@@ -39080,7 +39086,7 @@
 				"Priority": 5
 			},
 			"Tip ~|mithril arrows|~": {
-				"Items": ["Headless arrow*", "Mithril arrowheads*"],
+				"Items": ["Headless shaft*", "Mithril arrowheads*"],
 				"Level": 30,
 				"Output": "Mithril arrow",
 				"Primary": true,
@@ -39190,7 +39196,7 @@
 				"Priority": 3
 			},
 			"Tip ~|adamant arrows|~": {
-				"Items": ["Headless arrow*", "Adamant arrowheads*"],
+				"Items": ["Headless shaft*", "Adamant arrowheads*"],
 				"Level": 40,
 				"Output": "Adamant arrow",
 				"Primary": true,
@@ -39248,18 +39254,18 @@
 				"Primary": true,
 				"Priority": 5
 			},
-			"Fletch ~|arrow shafts|~ using maple logs": {
+			"Fletch ~|shafts|~ using maple logs": {
 				"Items": ["Maple logs*"],
 				"Level": 45,
-				"Output": "Arrow shaft",
+				"Output": "Shaft",
 				"Primary": true,
 				"Priority": 2,
 				"Partial": true
 			},
-			"Fletch ~|arrow shafts|~ using acadia logs": {
+			"Fletch ~|shafts|~ using acadia logs": {
 				"Items": ["Acadia logs*"],
 				"Level": 45,
-				"Output": "Arrow shaft",
+				"Output": "Shaft",
 				"Primary": true,
 				"Priority": 3,
 				"Partial": true
@@ -39335,7 +39341,7 @@
 				"Priority": 3
 			},
 			"Tip ~|rune arrows|~": {
-				"Items": ["Headless arrow*", "Rune arrowheads*"],
+				"Items": ["Headless shaft*", "Rune arrowheads*"],
 				"Level": 50,
 				"Output": "Rune arrow",
 				"Primary": true,
@@ -39357,7 +39363,7 @@
 				"Not F2P": true
 			},
 			"Tip ~|broad arrows|~": {
-				"Items": ["Broad arrowheads*", "Headless arrow*"],
+				"Items": ["Broad arrowheads*", "Headless shaft*"],
 				"Level": 52,
 				"Tasks": {
 					"~|Smoking Kills|~ Complete the quest": "Quest"
@@ -39490,10 +39496,10 @@
 				"Priority": 2,
 				"Partial": true
 			},
-			"Fletch ~|arrow shafts|~ using yew logs": {
+			"Fletch ~|shafts|~ using yew logs": {
 				"Items": ["Yew logs*"],
 				"Level": 60,
-				"Output": "Arrow shaft",
+				"Output": "Shaft",
 				"Primary": true,
 				"Priority": 1,
 				"Partial": true
@@ -39523,7 +39529,7 @@
 				"Not F2P": true
 			},
 			"Tip ~|orikalkum arrows|~": {
-				"Items": ["Headless arrow*", "Orikalkum arrowheads*"],
+				"Items": ["Headless shaft*", "Orikalkum arrowheads*"],
 				"Level": 60,
 				"Output": "Orikalkum arrow",
 				"Primary": true,
@@ -39758,7 +39764,7 @@
 				"Not F2P": true
 			},
 			"Tip ~|necronium arrows|~": {
-				"Items": ["Headless arrow*", "Necronium arrowheads*"],
+				"Items": ["Headless shaft*", "Necronium arrowheads*"],
 				"Level": 70,
 				"Output": "Necronium arrow",
 				"Primary": true,
@@ -39828,10 +39834,10 @@
 				"Priority": 6,
 				"Not F2P": true
 			},
-			"Fletch ~|arrow shafts|~ using magic logs": {
+			"Fletch ~|shafts|~ using magic logs": {
 				"Items": ["Magic logs*"],
 				"Level": 75,
-				"Output": "Arrow shaft",
+				"Output": "Shaft",
 				"Primary": true,
 				"Priority": 1,
 				"Partial": true
@@ -39924,7 +39930,7 @@
 				"Not F2P": true
 			},
 			"Tip ~|bane arrows|~": {
-				"Items": ["Headless arrow*", "Bane arrowheads*"],
+				"Items": ["Headless shaft*", "Bane arrowheads*"],
 				"Level": 80,
 				"Output": "Bane arrow",
 				"Primary": true,
@@ -40110,33 +40116,33 @@
 				"Primary": true,
 				"Priority": 1
 			},
-			"Fletch ~|arrow shafts|~ using elder logs": {
+			"Fletch ~|shafts|~ using elder logs": {
 				"Items": ["Elder logs*"],
 				"Level": 90,
-				"Output": "Arrow shaft",
+				"Output": "Shaft",
 				"Primary": true,
 				"Priority": 1,
 				"Partial": true
 			},
-			"Fletch ~|elder arrow shafts|~": {
+			"Fletch ~|elder shafts|~": {
 				"Items": ["Elder logs*"],
 				"Level": 90,
-				"Output": "Elder arrow shaft",
+				"Output": "Elder shaft",
 				"Primary": true,
 				"Priority": 2,
 				"Not F2P": true,
 				"Partial": true
 			},
-			"Feather ~|elder headless arrows|~": {
-				"Items": ["Elder arrow shaft*", "Feather[+]*"],
+			"Feather ~|elder headless shafts|~": {
+				"Items": ["Elder shaft*", "Feather[+]*"],
 				"Level": 90,
-				"Output": "Elder headless arrow",
+				"Output": "Elder headless shaft",
 				"Primary": true,
 				"Partial": true,
 				"Priority": 3
 			},
 			"Tip ~|dragon arrows|~": {
-				"Items": ["Headless arrow*", "Dragon arrowheads*"],
+				"Items": ["Headless shaft*", "Dragon arrowheads*"],
 				"Level": 90,
 				"Output": "Dragon arrow",
 				"Primary": true,
@@ -40233,7 +40239,7 @@
 				"Not F2P": true
 			},
 			"Tip ~|elder rune arrows|~": {
-				"Items": ["Headless arrow*", "Elder rune arrowheads*"],
+				"Items": ["Headless shaft*", "Elder rune arrowheads*"],
 				"Level": 90,
 				"Output": "Elder rune arrow",
 				"Primary": true,
@@ -40408,7 +40414,7 @@
 				"Priority": 12
 			},
 			"Tip ~|black stone arrows|~": {
-				"Items": ["Elder headless arrow*", "Black stone arrow tips*"],
+				"Items": ["Elder headless shaft*", "Black stone arrow tips*"],
 				"NPCs": ["Bryll Thoksdottir"],
 				"Level": 92,
 				"Output": "Black stone arrows",
@@ -40583,7 +40589,7 @@
 				"Not F2P": true
 			},
 			"Tip ~|dark arrows|~": {
-				"Items": ["Headless arrow*", "Dark arrowheads*"],
+				"Items": ["Headless shaft*", "Dark arrowheads*"],
 				"Level": 95,
 				"Output": "Dark arrow",
 				"Primary": true,
@@ -40604,14 +40610,14 @@
 				"Priority": 13
 			},
 			"Tip ~|splintering arrows|~": {
-				"Items": ["Elder headless arrow*", "Splintering arrow tips*"],
+				"Items": ["Elder headless shaft*", "Splintering arrow tips*"],
 				"Level": 95,
 				"Output": "Splintering arrows",
 				"Primary": true,
 				"Priority": 14
 			},
 			"Tip ~|deathspore arrows|~": {
-				"Items": ["Elder headless arrow*", "Deathspore arrow tips*"],
+				"Items": ["Elder headless shaft*", "Deathspore arrow tips*"],
 				"Level": 95,
 				"Output": "Deathspore arrows",
 				"Primary": true,
@@ -52670,6 +52676,17 @@
 				"Primary": true,
 				"Priority": 12
 			},
+			"Cast ~|Plank Make|~ on eternal magic logs": {
+				"Category": ["Spells"],
+				"Items": ["Nature rune*", "Astral rune*", "Earth rune[+]*", "Eternal magic logs*"],
+				"Tasks": {
+					"~|Dream Mentor|~ Complete the quest": "Quest"
+				},
+				"Level": 86,
+				"Output": "Eternal plank",
+				"Primary": true,
+				"Priority": 12
+			},
 			"Cast ~|Prism of Dowsing|~": {
 				"Category": ["Spells"],
 				"Items": ["Soul rune*", "Nature rune*", "Fire rune[+]*", "Earth rune[+]*"],
@@ -52808,33 +52825,33 @@
 				"Priority": 13,
 				"Not F2P": true
 			},
-			"Cast ~|Tune Banite Ore|~ to make abyssalbanite ore": {
+			"Cast ~|Tune Bane|~ to make abyssalbanite ore": {
 				"Category": ["Spells"],
-				"Items": ["Astral rune*", "Earth rune[+]*", "Banite ore*", "Tune banite ore scroll", "Abyssal head"],
+				"Items": ["Astral rune*", "Earth rune[+]*", "Banite ore*", "Tune bane scroll", "Abyssal head"],
 				"Level": 87,
 				"Output": "Abyssalbanite ore",
 				"Primary": true,
 				"Priority": 14
 			},
-			"Cast ~|Tune Banite Ore|~ to make basiliskbanite ore": {
+			"Cast ~|Tune Bane|~ to make basiliskbanite ore": {
 				"Category": ["Spells"],
-				"Items": ["Astral rune*", "Earth rune[+]*", "Banite ore*", "Tune banite ore scroll", "Basilisk head"],
+				"Items": ["Astral rune*", "Earth rune[+]*", "Banite ore*", "Tune bane scroll", "Basilisk head"],
 				"Level": 87,
 				"Output": "Basiliskbanite ore",
 				"Primary": true,
 				"Priority": 15
 			},
-			"Cast ~|Tune Banite Ore|~ to make dragonbanite ore": {
+			"Cast ~|Tune Bane|~ to make dragonbanite ore": {
 				"Category": ["Spells"],
-				"Items": ["Astral rune*", "Earth rune[+]*", "Banite ore*", "Tune banite ore scroll", "DragonFocus[+]"],
+				"Items": ["Astral rune*", "Earth rune[+]*", "Banite ore*", "Tune bane scroll", "DragonFocus[+]"],
 				"Level": 87,
 				"Output": "Dragonbanite ore",
 				"Primary": true,
 				"Priority": 16
 			},
-			"Cast ~|Tune Banite Ore|~ to make wallasalkibanite ore": {
+			"Cast ~|Tune Bane|~ to make wallasalkibanite ore": {
 				"Category": ["Spells"],
-				"Items": ["Astral rune*", "Earth rune[+]*", "Banite ore*", "Tune banite ore scroll", "WallasalkiFocus[+]"],
+				"Items": ["Astral rune*", "Earth rune[+]*", "Banite ore*", "Tune bane scroll", "WallasalkiFocus[+]"],
 				"Level": 87,
 				"Output": "Wallasalkibanite ore",
 				"Primary": true,
@@ -92352,7 +92369,7 @@
 				"BaseQuest": "Mourning's End Part I",
 				"Description": "Torture the captured gnome",
 				"Chunks": ["Mourner HQ"],
-				"Items": ["Feather", "ToadCrunchies[+]", "Magic logs", "Leather"],
+				"Items": ["Feather", "ToadCrunchies[+]", "Mahogany logs", "Leather"],
 				"Tasks": {
 					"~|Mourning's End Part I|~ 5": "Quest"
 				},
@@ -97659,7 +97676,7 @@
 				"Tasks": {
 					"~|Ritual of the Mahjarrat|~ 5": "Quest"
 				},
-				"Reward": ["Tune banite ore scroll"],
+				"Reward": ["Tune bane scroll"],
 				"Not F2P": true
 			},
 			"~|Ritual of the Mahjarrat|~ 7": {
@@ -108468,12 +108485,12 @@
 				"RuneScore": 25
 			},
 			"~|Ardougne Achievements#Elite|~ Almost Made in Ardougne": {
-				"Description": "Make a necronium crossbow from scratch, performing each step within either Witchaven or Yanille.",
+				"Description": "Make a bane crossbow from scratch, performing each step within either Witchaven or Yanille.",
 				"Chunks": ["10803", "10288-1"],
-				"Items": ["Yew logs", "Necronium bar", "SinewMeat[+]"],
+				"Items": ["Magic logs", "Bane bar", "SinewMeat[+]"],
 				"Skills": {
-					"Smithing": 70,
-					"Fletching": 73,
+					"Smithing": 80,
+					"Fletching": 83,
 					"Crafting": 10
 				},
 				"Tasks": {
@@ -114181,7 +114198,7 @@
 				"Objects": ["Yew", "Flax"],
 				"Skills": {
 					"Woodcutting": 60,
-					"Fletching": 70
+					"Fletching": 75
 				},
 				"Tasks": {
 					"~|Tirannwn Achievements#Easy|~ Complete the Easy Achievements": "Diary",
@@ -116256,12 +116273,12 @@
 				"RuneScore": 25
 			},
 			"~|Varrock Achievements#Elite|~ A Bolt from the Blue": {
-				"Description": "Smith and fletch 10 rune bolts at once within Varrock.",
+				"Description": "Smith and fletch 10 bane bolts at once within Varrock.",
 				"Chunks": ["12853-1"],
-				"Items": ["Rune bar", "Feather[+]"],
+				"Items": ["Bane bar", "Feather[+]"],
 				"Skills": {
-					"Smithing": 50,
-					"Fletching": 69
+					"Smithing": 80,
+					"Fletching": 80
 				},
 				"Tasks": {
 					"~|Varrock Achievements#Hard|~ Complete the Hard Achievements": "Diary"
@@ -122555,7 +122572,7 @@
 			},
 			"~|Completionist achievements#Master Quest Cape|~ Bane Tuner": {
 				"Category": ["MQC achievements"],
-				"Description": "Unlock the spell: Tune Banite Ore.",
+				"Description": "Unlock the spell: Tune Bane.",
 				"BaseQuest": "Completionist achievements",
 				"Chunks": ["Isle of Sann"],
 				"Tasks": {
@@ -126622,7 +126639,7 @@
 			},
 			"~|Completionist achievements#Completionist Cape|~ Bane Tuner": {
 				"Category": ["Comp achievements"],
-				"Description": "Unlock the spell: Tune Banite Ore.",
+				"Description": "Unlock the spell: Tune Bane.",
 				"BaseQuest": "Completionist achievements",
 				"Chunks": ["Isle of Sann"],
 				"Tasks": {
@@ -144390,6 +144407,11 @@
 				"Label": "Boss Collection Log",
 				"Items": ["Fire cape"]
 			},
+			"(TzHaar) Obtain ~|TzRek-Jad|~": {
+				"Category": ["Collection Log", "Boss Collection Log"],
+				"Label": "Boss Collection Log",
+				"Items": ["TzHaar egg"]
+			},
 			"(TzHaar) Obtain the ~|TokHaar-Kal-Ket|~": {
 				"Category": ["Collection Log", "Boss Collection Log"],
 				"Label": "Boss Collection Log",
@@ -153536,15 +153558,6 @@
 				"Label": "Follower Pets",
 				"Items": ["Phoenix eggling"]
 			},
-			"Unlock the ~|TzRek-Jad|~": {
-				"Category": ["Permanent Unlockables", "Pets"],
-				"Label": "Follower Pets",
-				"Items": ["TzRek-Jad"],
-				"Requirements": {
-					"Summoning": 99,
-					"Slayer": 99
-				}
-			},
 			"Unlock the ~|Sneakerpeeper|~": {
 				"Category": ["Permanent Unlockables", "Pets"],
 				"Label": "Follower Pets",
@@ -153917,12 +153930,6 @@
 				"Items": ["Reaper points"]
 			},
 			"Unlock the bonfire booster from ~|Death's Store|~": {
-				"Category": ["Permanent Unlockables"],
-				"Label": "Permanent Unlockables",
-				"Chunks": ["Death's Office"],
-				"Items": ["Reaper points"]
-			},
-			"Unlock the instance cost discount from ~|Death's Store|~": {
 				"Category": ["Permanent Unlockables"],
 				"Label": "Permanent Unlockables",
 				"Chunks": ["Death's Office"],
@@ -154701,15 +154708,6 @@
 				"Category": ["Permanent Unlockables"],
 				"Label": "Permanent Unlockables",
 				"Items": ["Fourth Room in Sunken Pyramid"],
-				"Not F2P": true
-			},
-			"Unlock the ~|high-level Runespan portal|~": {
-				"Category": ["Permanent Unlockables"],
-				"Label": "Permanent Unlockables",
-				"Chunks": ["12337-1"],
-				"Requirements": {
-					"Runecrafting": 66
-				},
 				"Not F2P": true
 			},
 			"Build both small pens in your ~|Player-Owned Farm|~": {
@@ -166093,6 +166091,11 @@
 				"Items": ["Elder logs"],
 				"Output": "Elder plank"
 			},
+			"Make eternal planks*": {
+				"NPCs": ["SawmillOperator[+]"],
+				"Items": ["Eternal magic logs"],
+				"Output": "Eternal plank"
+			},
 			"Easy Ardougne tasks ~|Yoink!|~ (Stall)*": {
 				"Description": "Attempt to steal from any stall in Ardougne Market.",
 				"Chunks": ["10547-1"],
@@ -166140,7 +166143,7 @@
 			"Easy Desert tasks ~|More Fletcher than Sumona|~ (Arrows)*": {
 				"Description": "Fletch some broad arrows in Sumona's house.",
 				"Chunks": ["13358-1"],
-				"Items": ["Broad arrowheads", "Headless arrow"],
+				"Items": ["Broad arrowheads", "Headless shaft"],
 				"Skills": {
 					"Fletching": 52
 				}
@@ -196265,10 +196268,8 @@
 				"Agmundi Quality Clothes": true,
 				"Gunslik's Assorted Items": true,
 				"Quality Weapons Shop": true,
-				"Quality Weapons Shop (BotD)": true,
 				"Quality Armour Shop": true,
 				"Vigr's Warhammers": true,
-				"Vigr's Warhammers (BotD)": true,
 				"Keldagrim Stonemason": true
 			},
 			"Name": "Keldagrim"
@@ -203637,7 +203638,7 @@
 			},
 			"Spawn": {
 				"Bones": 3,
-				"Headless arrow": 3
+				"Headless shaft": 3
 			},
 			"Quest": {
 				"Enchanted Key": "step"
@@ -220104,10 +220105,8 @@
 				"Agmundi Quality Clothes": true,
 				"Gunslik's Assorted Items": true,
 				"Quality Weapons Shop": true,
-				"Quality Weapons Shop (BotD)": true,
 				"Quality Armour Shop": true,
 				"Vigr's Warhammers": true,
-				"Vigr's Warhammers (BotD)": true,
 				"Keldagrim Stonemason": true,
 				"Ale yeast": true,
                 "Gravestones": true,
@@ -230462,7 +230461,7 @@
 				"Armadyl helmet"
 			],
 			"ArrowShafts[+]": [
-				"Arrow shaft",
+				"Shaft",
 				"Grenwall spikes"
 			],
 			"Ascensions[+]": [
@@ -232533,7 +232532,8 @@
 				"Mahogany logs",
 				"Yew logs",
 				"Magic logs",
-				"Elder logs"
+				"Elder logs",
+				"Eternal magic logs"
 			],
 			"Luminousboon[+]": [
 				"Luminous energy",
@@ -235647,7 +235647,6 @@
 			"GoldenFishEggs[+]": [
 				"Golden trout eggs", 
 				"Golden salmon eggs", 
-				"Golden salmon eggs",
 				"Golden tuna eggs",
 				"Golden rainbow fish eggs",
 				"Golden lobster eggs",
@@ -236084,7 +236083,7 @@
 			"DragonArmour[+]": "Any piece of dragon armour",
 			"DragonfireProtection[+]": "Any item that grants dragonfire protection",
 			"DragonfireShield[+]": "Any dragonfire shield variant",
-			"DragonFocus[+]": "Any item to tune banite ore to dragons",
+			"DragonFocus[+]": "Any item to tune bane to dragons",
 			"Dragon mask[+]": "Any dragon mask for the master emote clue",
 			"DragonRelatedBones[+]": "Any bones related to chromatic dragons, including dragonkin bones",
 			"DragonRiderArmour[+]": "Any piece of dragonrider armour",
@@ -236525,7 +236524,7 @@
 			"Voidequipment[+]": "Any piece of void knight armour",
 			"Voidpouch[+]": "Any pouch that can be used to create a call to arms scroll",
 			"VyrePyreLogs[+]": "Any tier of pyre logs that can be used for vyre cremation",
-            "WallasalkiFocus[+]": "Any item that can be used to tune banite ore to wallasalkis",
+            "WallasalkiFocus[+]": "Any item that can be used to tune bane to wallasalkis",
 			"Warped dye kit[+]": "A warped dye kit for any chaotic weapon",
 			"Warpriest[+]": "Any piece of warpriest armour",
 			"Water rune[+]": "Any water rune equivalent",
@@ -259282,7 +259281,7 @@
 			"Limpwurt root": {
 				"2 (noted)": "10/128"
 			},
-			"Headless arrow": {
+			"Headless shaft": {
 				"100-200": "5/128"
 			},
 			"Ranarr seed": {
@@ -260885,7 +260884,7 @@
 			"Magic logs": {
 				"10-14": "7/96"
 			},
-			"Headless arrow": {
+			"Headless shaft": {
 				"250-350": "7/96"
 			},
 			"Pure essence": {
@@ -263000,7 +262999,7 @@
 			"Adamant limbs": {
 				"1": "2/100"
 			},
-			"Maple shortbow (unstrung)": {
+			"Yew shortbow (unstrung)": {
 				"1": "2/100"
 			},
 			"Gold charm": {
@@ -266788,7 +266787,7 @@
 			"Mithril arrow": {
 				"12": "12/128"
 			},
-			"Headless arrow": {
+			"Headless shaft": {
 				"6": "8/128"
 			},
 			"Limpwurt root": {
@@ -270511,7 +270510,7 @@
 			"Raw swordfish": {
 				"20 (noted)": "7/100"
 			},
-			"Headless arrow": {
+			"Headless shaft": {
 				"300": "7/100"
 			},
 			"Uncut ruby": {
@@ -271681,6 +271680,9 @@
 				"2 (noted)": "8/100"
 			},
 			"Limpwurt root": {
+				"1": "2/100"
+			},
+			"Maple shortbow (unstrung)": {
 				"1": "2/100"
 			},
 			"Tiny spiky mithril salvage": {
@@ -282618,7 +282620,7 @@
 				"184": "2/128",
 				"126": "1/128"
 			},
-			"Arrow shaft": {
+			"Shaft": {
 				"11": "5/128"
 			},
 			"Amulet mould": {
@@ -282627,7 +282629,7 @@
 			"Games necklace (2)": {
 				"12": "2/128"
 			},
-			"Maple longbow (unstrung)": {
+			"Yew longbow (unstrung)": {
 				"1": "3/128"
 			},
 			"Silver stone spirit": {
@@ -288204,7 +288206,7 @@
 			"TzTok-Jad's head": {
 				"1": "1/128"
 			},
-			"TzRek-Jad": {
+			"TzHaar egg": {
 				"1": "1/200"
 			}
 		},
@@ -288325,7 +288327,7 @@
 			"TzekHaarHighValueDropTable+": {
 				"1": "125/250"
 			},
-			"TzRek-Jad": {
+			"TzHaar egg": {
 				"1": "1/200"
 			}
 		},
@@ -299424,7 +299426,7 @@
 					"~|The Slug Menace|~ Complete the quest": "Quest"
 				}]
 			},
-			"Quality Weapons Shop (BotD)": {
+			"Quality Weapons Shop^Dragon battlestaff": {
 				"Keldagrim": [{
 					"~|Birthright of the Dwarves|~ Complete the quest": "Quest"
 				}]
@@ -299689,7 +299691,12 @@
 					"Champions Guild Questpoints": "Nonskill"
 				}]
 			},
-			"Vigr's Warhammers (BotD)": {
+			"Vigr's Warhammers^Dragon warhammer": {
+				"Keldagrim": [{
+					"~|Birthright of the Dwarves|~ Complete the quest": "Quest"
+				}]
+			},
+			"Vigr's Warhammers^Off-hand dragon warhammer": {
 				"Keldagrim": [{
 					"~|Birthright of the Dwarves|~ Complete the quest": "Quest"
 				}]
@@ -302475,8 +302482,8 @@
 			"Willow stock": true,
 			"Teak stock": true,
 			"Maple stock": true,
-			"Acadia stock": true,
 			"Mahogany stock": true,
+			"Yew stock": true,
 			"Bronze limbs": true,
 			"Iron limbs": true,
 			"Steel limbs": true,
@@ -302511,8 +302518,8 @@
 			"Oak stock": true,
 			"Teak stock": true,
 			"Maple stock": true,
-			"Acadia stock": true,
 			"Mahogany stock": true,
+			"Yew stock": true,
 			"Bronze limbs": true,
 			"Iron limbs": true,
 			"Steel limbs": true,
@@ -302550,8 +302557,8 @@
 			"Oak stock": true,
 			"Teak stock": true,
 			"Maple stock": true,
-			"Acadia stock": true,
 			"Mahogany stock": true,
+			"Yew stock": true,
 			"Bronze limbs": true,
 			"Iron limbs": true,
 			"Steel limbs": true,
@@ -302647,7 +302654,7 @@
 			"Beer": true
 		},
 		"Dargaud's Bows and Arrows": {
-			"Arrow shaft": true,
+			"Shaft": true,
 			"Bronze arrowheads": true,
 			"Iron arrowheads": true,
 			"Steel arrowheads": true,
@@ -305147,36 +305154,7 @@
 			"Mithril off hand scimitar": true,
 			"Adamant scimitar": true,
 			"Adamant off hand scimitar": true,
-			"Mithril arrow": true,
-			"Adamant arrow": true
-		},
-		"Quality Weapons Shop (BotD)": {
-			"Steel battleaxe": true,
-			"Steel off hand battleaxe": true,
-			"Black battleaxe": true,
-			"Off-hand black battleaxe": true,
-			"Mithril battleaxe": true,
-			"Mithril off hand battleaxe": true,
-			"Adamant battleaxe": true,
-			"Adamant off hand battleaxe": true,
-			"Steel sword": true,
-			"Steel off hand sword": true,
-			"Black sword": true,
-			"Off-hand black sword": true,
-			"Mithril sword": true,
-			"Mithril off hand sword": true,
-			"Adamant sword": true,
-			"Adamant off hand sword": true,
-			"Rune sword": true,
-			"Rune off hand sword": true,
-			"Steel scimitar": true,
-			"Steel off hand scimitar": true,
-			"Black scimitar": true,
-			"Off-hand black scimitar": true,
-			"Mithril scimitar": true,
-			"Mithril off hand scimitar": true,
-			"Adamant scimitar": true,
-			"Adamant off hand scimitar": true,
+			"Maple shortbow": true,
 			"Mithril arrow": true,
 			"Adamant arrow": true,
 			"Dragon battlestaff": true
@@ -306445,22 +306423,6 @@
 			"Mithril off hand warhammer": true,
 			"Adamant warhammer": true,
 			"Adamant off hand warhammer": true
-		},
-		"Vigr's Warhammers (BotD)": {
-			"Bronze warhammer": true,
-			"Bronze off hand warhammer": true,
-			"Iron warhammer": true,
-			"Iron off hand warhammer": true,
-			"Steel warhammer": true,
-			"Steel off hand warhammer": true,
-			"Black warhammer": true,
-			"Off-hand black warhammer": true,
-			"Mithril warhammer": true,
-			"Mithril off hand warhammer": true,
-			"Adamant warhammer": true,
-			"Adamant off hand warhammer": true,
-			"Dragon warhammer": true,
-			"Off-hand dragon warhammer": true
 		},
 		"The Village Grocery": {
 			"Cabbage": true,
@@ -316769,6 +316731,17 @@
 					"1": "Always"
 				}
 			},
+			"Blurite cbows": {
+				"Blurite crossbow": {
+					"1": "Always"
+				},
+				"Blurite 2h crossbow": {
+					"1": "Always"
+				},
+				"Off-hand blurite crossbow": {
+					"1": "Always"
+				}
+			},
 			"Steel cbows": {
 				"Steel crossbow": {
 					"1": "Always"
@@ -317613,7 +317586,7 @@
 				"Mithril stone spirit": {
 					"1": "1/100"
 				},
-				"Maple longbow": {
+				"Yew longbow": {
 					"1": "1/100"
 				},
 				"Garden pie": {
@@ -341509,7 +341482,7 @@
 				"Adamant arrowheads": {
 					"5-15": "Common"
 				},
-				"Headless arrow": {
+				"Headless shaft": {
 					"10-20": "Common"
 				}
 			},
@@ -346020,7 +345993,7 @@
 				"Broken glass": {
 					"1": "1/25"
 				},
-				"Headless arrow": {
+				"Headless shaft": {
 					"1": "1/25"
 				},
 				"Steel nails": {
@@ -346170,7 +346143,7 @@
 				}
 			},
 			"Damaged arrow loot": {
-				"Headless arrow": {
+				"Headless shaft": {
 					"1": "5/100"
 				},
 				"Bronze arrow": {
@@ -418196,7 +418169,7 @@
 				"Tasks": {
 					"~|Visions of Havenhythe|~ Complete the quest": "Quest"
 				},
-				"Weight": 10
+				"Weight": 15
 			},
 			"Scorpions": {
 				"Weight": 10
